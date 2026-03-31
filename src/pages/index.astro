@@ -1,17 +1,122 @@
 ---
-
+import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout
+  title="Schlaufuchs – Moderne Wissens- und Lernplattform"
+  description="Neustart von Schlaufuchs als ruhige, moderne Wissens- und Lernplattform."
+>
+  <section class="hero">
+    <p class="eyebrow">Neustart</p>
+    <h1>Schlaufuchs wird neu aufgebaut.</h1>
+    <p class="lead">
+      Kein Legacy-Flickwerk mehr. Klare Inhalte, ruhige Struktur, sauberer Unterbau.
+    </p>
+
+    <div class="actions">
+      <a class="primary" href={`${import.meta.env.BASE_URL}fachbereiche`}>Fachbereiche ansehen</a>
+      <a class="secondary" href={`${import.meta.env.BASE_URL}news`}>News öffnen</a>
+    </div>
+  </section>
+
+  <section class="grid">
+    <article class="card">
+      <h2>Inhalte zuerst</h2>
+      <p>Schlaufuchs wird als echte Wissensplattform aufgebaut, nicht als reparierter Altbestand.</p>
+    </article>
+
+    <article class="card">
+      <h2>Lernmodus optional</h2>
+      <p>Normale Seiten bleiben ruhig. Lernhilfen werden später bewusst zuschaltbar ergänzt.</p>
+    </article>
+
+    <article class="card">
+      <h2>Präsentation mitgedacht</h2>
+      <p>Lesbarkeit, Unterricht und saubere Darstellung gehören von Anfang an in die Basis.</p>
+    </article>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    padding: 3rem 0 2rem;
+  }
+
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--accent);
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+  }
+
+  h1 {
+    font-size: clamp(2.4rem, 5vw, 4.5rem);
+    line-height: 1.02;
+    margin: 0 0 1rem;
+    max-width: 12ch;
+  }
+
+  .lead {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: var(--text-muted);
+    max-width: 50rem;
+    margin: 0;
+  }
+
+  .actions {
+    display: flex;
+    gap: 0.9rem;
+    flex-wrap: wrap;
+    margin-top: 1.75rem;
+  }
+
+  .actions a {
+    border-radius: 999px;
+    padding: 0.85rem 1.15rem;
+    border: 1px solid var(--border);
+  }
+
+  .primary {
+    background: var(--accent);
+    color: #1a1204;
+    font-weight: 700;
+    border-color: transparent;
+  }
+
+  .secondary {
+    background: rgba(255,255,255,0.04);
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .card {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.25rem;
+  }
+
+  .card h2 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+  }
+
+  .card p {
+    margin: 0;
+    color: var(--text-muted);
+    line-height: 1.65;
+  }
+
+  @media (max-width: 900px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

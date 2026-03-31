@@ -1,0 +1,33 @@
+---
+import "../styles/globals/base.css";
+import { siteConfig } from "../data/settings/site";
+import Topbar from "../components/ui/Topbar.astro";
+import Footer from "../components/ui/Footer.astro";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = siteConfig.title,
+  description = siteConfig.description,
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+  </head>
+  <body>
+    <Topbar />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

@@ -1,0 +1,101 @@
+---
+import { mainNavigation } from "../../data/navigation/main";
+---
+
+<header class="topbar">
+  <div class="inner">
+    <a class="brand" href={`${import.meta.env.BASE_URL}`}>Schlaufuchs</a>
+
+    <nav>
+      <ul>
+        {mainNavigation.map((item) => (
+          <li><a href={`${import.meta.env.BASE_URL}${item.href === "/" ? "" : item.href.slice(1)}`}>{item.label}</a></li>
+        ))}
+      </ul>
+    </nav>
+
+    <div class="modes">
+      <button type="button">Lernen</button>
+      <button type="button">Präsentation</button>
+      <button type="button">Theme</button>
+    </div>
+  </div>
+</header>
+
+<style>
+  .topbar {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    backdrop-filter: blur(12px);
+    background: rgba(11, 18, 32, 0.78);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .inner {
+    width: min(var(--content-width), calc(100% - 2rem));
+    margin: 0 auto;
+    min-height: 4.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+  }
+
+  .brand {
+    font-size: 1.1rem;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  nav {
+    flex: 1;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+  }
+
+  li a {
+    color: var(--text-muted);
+  }
+
+  li a:hover {
+    color: var(--text);
+  }
+
+  .modes {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .modes button {
+    border: 1px solid var(--border);
+    background: rgba(255, 255, 255, 0.04);
+    color: var(--text);
+    border-radius: 999px;
+    padding: 0.55rem 0.9rem;
+    cursor: pointer;
+  }
+
+  @media (max-width: 900px) {
+    .inner {
+      padding: 0.8rem 0;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    nav {
+      width: 100%;
+    }
+
+    .modes {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+</style>
