@@ -1,0 +1,41 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="News – Schlaufuchs" description="News und größere Plattform-Updates.">
+  <section class="page">
+    <p class="eyebrow">News</p>
+    <h1>Die News-Struktur steht, der Feed folgt als Nächstes.</h1>
+    <p>
+      Hier kommen später größere inhaltliche und produktrelevante Updates hinein.
+    </p>
+  </section>
+</BaseLayout>
+
+<style>
+  .page {
+    padding: 2.5rem 0;
+  }
+
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--accent);
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+  }
+
+  h1 {
+    margin: 0 0 1rem;
+    font-size: clamp(2rem, 4vw, 3.4rem);
+    line-height: 1.08;
+    max-width: 14ch;
+  }
+
+  p {
+    color: var(--text-muted);
+    line-height: 1.7;
+    margin: 0;
+    max-width: 42rem;
+  }
+</style>

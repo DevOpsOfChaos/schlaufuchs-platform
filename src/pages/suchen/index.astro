@@ -1,0 +1,41 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Suchen – Schlaufuchs" description="Suche und später Filter für Inhalte.">
+  <section class="page">
+    <p class="eyebrow">Suchen</p>
+    <h1>Die Suche wird später strukturiert auf Collections aufsetzen.</h1>
+    <p>
+      Erst wird die Inhaltsbasis sauber aufgebaut. Dann kommt Suche, statt umgekehrt blind UI zu spielen.
+    </p>
+  </section>
+</BaseLayout>
+
+<style>
+  .page {
+    padding: 2.5rem 0;
+  }
+
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--accent);
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+  }
+
+  h1 {
+    margin: 0 0 1rem;
+    font-size: clamp(2rem, 4vw, 3.4rem);
+    line-height: 1.08;
+    max-width: 14ch;
+  }
+
+  p {
+    color: var(--text-muted);
+    line-height: 1.7;
+    margin: 0;
+    max-width: 42rem;
+  }
+</style>
