@@ -16,18 +16,48 @@ const {
 ---
 
 <!doctype html>
-<html lang="de">
+<html lang="de" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
     <meta name="description" content={description} />
+
+    <script is:inline>
+      (() => {
+        const storageKey = "schlaufuchs-theme";
+        const root = document.documentElement;
+        const storedTheme = localStorage.getItem(storageKey);
+        const systemPrefersLight = window.matchMedia("(prefers-color-scheme: light)").matches;
+        const theme = storedTheme || (systemPrefersLight ? "light" : "dark");
+        root.setAttribute("data-theme", theme);
+      })();
+    </script>
   </head>
+
   <body>
     <Topbar />
     <main>
       <slot />
     </main>
     <Footer />
+
+    <script is:inline>
+      (() => {
+        const storageKey = "schlaufuchs-theme";
+        const root = document.documentElement;
+        const toggle = document.querySelector("[data-theme-toggle]");
+
+        const applyTheme = (theme) => {
+          root.setAttribute("data-theme", theme);
+          localStorage.setItem(storageKey, theme);
+        };
+
+        toggle?.addEventListener("click", () => {
+          const current = root.getAttribute("data-theme") || "dark";
+          applyTheme(current === "dark" ? "light" : "dark");
+        });
+      })();
+    </script>
   </body>
 </html>

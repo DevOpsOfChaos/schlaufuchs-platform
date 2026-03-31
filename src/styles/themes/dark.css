@@ -1,0 +1,32 @@
+:root,
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --bg: #040b16;
+  --bg-elevated: #081223;
+  --bg-soft: #0b1730;
+  --surface: rgba(10, 24, 49, 0.88);
+  --surface-2: rgba(18, 35, 66, 0.92);
+  --surface-3: rgba(18, 41, 82, 0.95);
+
+  --text: #f3f7ff;
+  --text-strong: #ffffff;
+  --text-muted: #b3c2de;
+  --text-soft: #8ea4c7;
+
+  --border: rgba(119, 151, 214, 0.22);
+  --border-strong: rgba(124, 156, 255, 0.38);
+
+  --accent: #7f8cff;
+  --accent-strong: #96a2ff;
+  --accent-contrast: #f8faff;
+
+  --orange: #ff9d2e;
+  --orange-soft: rgba(255, 157, 46, 0.18);
+
+  --hero-glow: radial-gradient(circle at 82% 85%, rgba(84, 111, 210, 0.26), transparent 18rem);
+  --page-gradient: linear-gradient(180deg, #04101f 0%, #030914 100%);
+  --topbar-bg: rgba(6, 16, 32, 0.72);
+  --input-bg: rgba(8, 19, 39, 0.84);
+  --card-bg: linear-gradient(180deg, rgba(11, 26, 50, 0.90) 0%, rgba(8, 18, 36, 0.92) 100%);
+}
