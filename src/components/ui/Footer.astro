@@ -1,18 +1,30 @@
 ---
 const year = new Date().getFullYear();
+const base = import.meta.env.BASE_URL;
 ---
 
 <footer class="footer">
   <div class="inner">
-    <p>© {year} Schlaufuchs</p>
-    <p class="muted">Neustart-Plattform auf Astro-Basis</p>
+    <div class="meta">
+      <p>© {year} Schlaufuchs</p>
+      <p class="muted">Freie Wissens- und Lernplattform</p>
+    </div>
+
+    <nav class="links" aria-label="Footer">
+      <a href={`${base}`}>Start</a>
+      <a href={`${base}news`}>News</a>
+      <a href={`${base}kontakt`}>Kontakt</a>
+      <a href={`${base}impressum`}>Impressum</a>
+      <a href={`${base}datenschutz`}>Datenschutz</a>
+    </nav>
   </div>
 </footer>
 
 <style>
   .footer {
+    margin-top: 2.5rem;
     border-top: 1px solid var(--border);
-    padding: 1.25rem 0 2rem;
+    padding: 1.35rem 0 2rem;
   }
 
   .inner {
@@ -21,12 +33,31 @@ const year = new Date().getFullYear();
     display: flex;
     justify-content: space-between;
     gap: 1rem;
-    color: var(--text-muted);
-    font-size: 0.95rem;
     flex-wrap: wrap;
   }
 
+  .meta p {
+    margin: 0;
+    color: var(--text-muted);
+  }
+
   .muted {
-    opacity: 0.9;
+    margin-top: 0.2rem;
+    opacity: 0.95;
+  }
+
+  .links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .links a {
+    color: var(--text-muted);
+  }
+
+  .links a:hover {
+    color: var(--text-strong);
   }
 </style>

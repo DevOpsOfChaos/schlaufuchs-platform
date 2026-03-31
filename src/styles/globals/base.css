@@ -1,15 +1,6 @@
-:root {
-  --bg: #0f172a;
-  --bg-soft: #111827;
-  --surface: #1e293b;
-  --surface-2: #334155;
-  --text: #e5eefb;
-  --text-muted: #94a3b8;
-  --accent: #f59e0b;
-  --border: rgba(148, 163, 184, 0.22);
-  --content-width: 72rem;
-  --radius: 18px;
-}
+@import "../tokens/tokens.css";
+@import "../themes/dark.css";
+@import "../themes/light.css";
 
 *,
 *::before,
@@ -18,15 +9,20 @@
 }
 
 html {
-  font-family: Inter, system-ui, sans-serif;
-  color-scheme: dark;
+  font-family: var(--font-sans);
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
-  background: linear-gradient(180deg, #0b1220 0%, #111827 100%);
-  color: var(--text);
   min-height: 100vh;
+  background:
+    var(--hero-glow),
+    var(--page-gradient);
+  color: var(--text);
+  transition:
+    background 180ms ease,
+    color 180ms ease;
 }
 
 a {
@@ -39,8 +35,20 @@ img {
   display: block;
 }
 
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
 main {
   width: min(var(--content-width), calc(100% - 2rem));
   margin: 0 auto;
-  padding: 2rem 0 4rem;
+  padding: 1rem 0 4rem;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--accent-contrast);
 }
