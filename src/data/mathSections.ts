@@ -1,98 +1,35 @@
 export const mathSections = {
   grundlagen: {
     title: "Mathematik Grundlagen",
-    eyebrow: "Unterbereich",
-    description: "Zahlen, Terme, Brüche und sichere Grundlagen für spätere Themen.",
+    eyebrow: "Kategorie",
+    description: "Zahlen, Brüche und Terme als eigene Themenblöcke mit kurzen Einstiegen.",
     mascot: "/assets/mascots/math.png",
     groups: [
-      {
-        title: "Zahlen",
-        tone: "math-a",
-        items: [
-          { label: "Zahlen & Terme", href: "/fachbereiche/mathematik/grundlagen/zahlen-und-terme" },
-          { label: "Rechenregeln", href: "/fachbereiche/mathematik/grundlagen/rechenregeln" },
-        ],
-      },
-      {
-        title: "Brüche",
-        tone: "math-b",
-        items: [
-          { label: "Brüche verstehen", href: "/fachbereiche/mathematik/grundlagen/brueche-verstehen" },
-          { label: "Brüche umformen", href: "/fachbereiche/mathematik/grundlagen/brueche-umformen" },
-        ],
-      },
-      {
-        title: "Direkte Themen",
-        tone: "math-c",
-        items: [
-          { label: "Vorzeichen", href: "/fachbereiche/mathematik/grundlagen/vorzeichen" },
-          { label: "Klammern", href: "/fachbereiche/mathematik/grundlagen/klammern" },
-        ],
-      },
+      { title: "Zahlen", text: "Grundlagen zu Zahlenräumen, Rechenarten und einfachen Begriffen.", href: "/fachbereiche/mathematik/grundlagen/zahlen-und-terme", tone: "math-a" },
+      { title: "Brüche", text: "Brüche verstehen, vergleichen und später sicher umformen.", href: "/fachbereiche/mathematik/grundlagen/brueche-verstehen", tone: "math-b" },
+      { title: "Terme", text: "Ausdrücke mit Zahlen und Variablen als Basis für weitere Themen.", href: "/fachbereiche/mathematik/grundlagen/zahlen-und-terme", tone: "math-c" },
     ],
   },
   funktionen: {
     title: "Mathematik Funktionen",
-    eyebrow: "Unterbereich",
-    description: "Funktionstypen, Graphen und typische Zusammenhänge klar aufgebaut.",
+    eyebrow: "Kategorie",
+    description: "Lineare, quadratische und grafische Themen als getrennte Blöcke.",
     mascot: "/assets/mascots/math.png",
     groups: [
-      {
-        title: "Linear",
-        tone: "math-a",
-        items: [
-          { label: "Lineare Funktionen", href: "/fachbereiche/mathematik/funktionen/lineare-funktionen" },
-          { label: "Steigung", href: "/fachbereiche/mathematik/funktionen/steigung" },
-        ],
-      },
-      {
-        title: "Quadratisch",
-        tone: "math-b",
-        items: [
-          { label: "Quadratische Funktionen", href: "/fachbereiche/mathematik/funktionen/quadratische-funktionen" },
-          { label: "Scheitelpunkt", href: "/fachbereiche/mathematik/funktionen/scheitelpunkt" },
-        ],
-      },
-      {
-        title: "Graphen",
-        tone: "math-c",
-        items: [
-          { label: "Graphen lesen", href: "/fachbereiche/mathematik/funktionen/graphen-lesen" },
-          { label: "Nullstellen", href: "/fachbereiche/mathematik/funktionen/nullstellen" },
-        ],
-      },
+      { title: "Linear", text: "Geraden, Steigung und erste funktionale Zusammenhänge.", href: "/fachbereiche/mathematik/funktionen/lineare-funktionen", tone: "math-a" },
+      { title: "Quadratisch", text: "Parabeln, Scheitelpunkt und typische Formen.", href: "/fachbereiche/mathematik/funktionen/quadratische-funktionen", tone: "math-b" },
+      { title: "Graphen", text: "Funktionen im Koordinatensystem lesen und verstehen.", href: "/fachbereiche/mathematik/funktionen/graphen-lesen", tone: "math-c" },
     ],
   },
   geometrie: {
     title: "Mathematik Geometrie",
-    eyebrow: "Unterbereich",
-    description: "Flächen, Körper und räumliche Zusammenhänge kompakt und wartbar gegliedert.",
+    eyebrow: "Kategorie",
+    description: "Flächen, Volumen und Trigonometrie als eigene Themenblöcke.",
     mascot: "/assets/mascots/math.png",
     groups: [
-      {
-        title: "Flächen",
-        tone: "math-a",
-        items: [
-          { label: "Flächen & Volumen", href: "/fachbereiche/mathematik/geometrie/flaechen-und-volumen" },
-          { label: "Umfang", href: "/fachbereiche/mathematik/geometrie/umfang" },
-        ],
-      },
-      {
-        title: "Körper",
-        tone: "math-b",
-        items: [
-          { label: "Quader und Würfel", href: "/fachbereiche/mathematik/geometrie/quader-und-wuerfel" },
-          { label: "Zylinder", href: "/fachbereiche/mathematik/geometrie/zylinder" },
-        ],
-      },
-      {
-        title: "Trigonometrie",
-        tone: "math-c",
-        items: [
-          { label: "Sinus, Kosinus, Tangens", href: "/fachbereiche/mathematik/geometrie/trigonometrie" },
-          { label: "Rechtwinklige Dreiecke", href: "/fachbereiche/mathematik/geometrie/dreiecke" },
-        ],
-      },
+      { title: "Flächen", text: "Flächeninhalte und zweidimensionale Grundformen.", href: "/fachbereiche/mathematik/geometrie/flaechen-und-volumen", tone: "math-a" },
+      { title: "Volumen", text: "Körper und räumliche Berechnungen im Überblick.", href: "/fachbereiche/mathematik/geometrie/flaechen-und-volumen", tone: "math-b" },
+      { title: "Trigonometrie", text: "Winkel, Dreiecke und typische Zusammenhänge.", href: "/fachbereiche/mathematik/geometrie/trigonometrie", tone: "math-c" },
     ],
   },
 } as const;

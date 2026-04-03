@@ -1,14 +1,11 @@
 ---
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
-import SectionLandingPage from "../../../../components/content/SectionLandingPage.astro";
+import CategorySectionPage from "../../../../components/content/CategorySectionPage.astro";
 import { linuxSections } from "../../../../data/linuxSections";
 
 const section = linuxSections["shell"];
 ---
 
-<BaseLayout
-  title={"Linux Shell" + " – Schlaufuchs"}
-  description={section.description}
->
-  <SectionLandingPage section={section} />
+<BaseLayout title="Linux Shell – Schlaufuchs" description={section.description}>
+  <CategorySectionPage section={section} />
 </BaseLayout>

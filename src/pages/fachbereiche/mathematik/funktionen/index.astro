@@ -1,14 +1,11 @@
 ---
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
-import MathSectionLandingPage from "../../../../components/content/MathSectionLandingPage.astro";
+import CategorySectionPage from "../../../../components/content/CategorySectionPage.astro";
 import { mathSections } from "../../../../data/mathSections";
 
 const section = mathSections["funktionen"];
 ---
 
-<BaseLayout
-  title={"Mathematik Funktionen" + " – Schlaufuchs"}
-  description={section.description}
->
-  <MathSectionLandingPage section={section} />
+<BaseLayout title="Mathematik Funktionen – Schlaufuchs" description={section.description}>
+  <CategorySectionPage section={section} />
 </BaseLayout>

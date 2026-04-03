@@ -1,98 +1,35 @@
 export const informatikSections = {
   programmieren: {
     title: "Informatik Programmieren",
-    eyebrow: "Unterbereich",
-    description: "Programmieren mit klaren Einstiegen in Sprache, Logik und Struktur.",
+    eyebrow: "Kategorie",
+    description: "Python, C und strukturierte Programmierung als eigene Themenblöcke.",
     mascot: "/assets/mascots/hacker.png",
     groups: [
-      {
-        title: "Sprachen",
-        tone: "cs-a",
-        items: [
-          { label: "Python Grundlagen", href: "/fachbereiche/informatik/programmieren/python-grundlagen" },
-          { label: "C Einstieg", href: "/fachbereiche/informatik/programmieren/c-einstieg" },
-        ],
-      },
-      {
-        title: "Logik",
-        tone: "cs-b",
-        items: [
-          { label: "Variablen und Bedingungen", href: "/fachbereiche/informatik/programmieren/variablen-und-bedingungen" },
-          { label: "Schleifen", href: "/fachbereiche/informatik/programmieren/schleifen" },
-        ],
-      },
-      {
-        title: "Struktur",
-        tone: "cs-c",
-        items: [
-          { label: "Funktionen", href: "/fachbereiche/informatik/programmieren/funktionen" },
-          { label: "Dateien und Projekte", href: "/fachbereiche/informatik/programmieren/dateien-und-projekte" },
-        ],
-      },
+      { title: "Python", text: "Syntax, Variablen und erste Programme.", href: "/fachbereiche/informatik/programmieren/python-grundlagen", tone: "cs-a" },
+      { title: "C", text: "Strukturierter Einstieg in eine systemnahe Sprache.", href: "/fachbereiche/informatik/programmieren/c-einstieg", tone: "cs-b" },
+      { title: "Funktionen", text: "Programme in klare Bausteine aufteilen.", href: "/fachbereiche/informatik/programmieren/funktionen", tone: "cs-c" },
     ],
   },
   grundlagen: {
     title: "Informatik Grundlagen",
-    eyebrow: "Unterbereich",
-    description: "Algorithmen, Datentypen und Denkweisen in sauber gegliederten Themenblöcken.",
+    eyebrow: "Kategorie",
+    description: "Algorithmen, Datentypen und Pseudocode in klar getrennten Blöcken.",
     mascot: "/assets/mascots/hacker.png",
     groups: [
-      {
-        title: "Algorithmen",
-        tone: "cs-a",
-        items: [
-          { label: "Algorithmen", href: "/fachbereiche/informatik/grundlagen/algorithmen" },
-          { label: "Abläufe beschreiben", href: "/fachbereiche/informatik/grundlagen/ablaeufe-beschreiben" },
-        ],
-      },
-      {
-        title: "Daten",
-        tone: "cs-b",
-        items: [
-          { label: "Datentypen", href: "/fachbereiche/informatik/grundlagen/datentypen" },
-          { label: "Eingabe und Ausgabe", href: "/fachbereiche/informatik/grundlagen/eingabe-und-ausgabe" },
-        ],
-      },
-      {
-        title: "Struktur",
-        tone: "cs-c",
-        items: [
-          { label: "Probleme zerlegen", href: "/fachbereiche/informatik/grundlagen/probleme-zerlegen" },
-          { label: "Pseudocode", href: "/fachbereiche/informatik/grundlagen/pseudocode" },
-        ],
-      },
+      { title: "Algorithmen", text: "Schrittfolgen, Lösungswege und systematisches Denken.", href: "/fachbereiche/informatik/grundlagen/algorithmen", tone: "cs-a" },
+      { title: "Datentypen", text: "Arten von Daten und ihre Bedeutung in Programmen.", href: "/fachbereiche/informatik/grundlagen/datentypen", tone: "cs-b" },
+      { title: "Pseudocode", text: "Lösungen erst klar beschreiben, dann programmieren.", href: "/fachbereiche/informatik/grundlagen/pseudocode", tone: "cs-c" },
     ],
   },
   systemnah: {
     title: "Informatik Systemnah",
-    eyebrow: "Unterbereich",
-    description: "Prozesse, Speicher und Rechnerverständnis als technische Grundlagen.",
+    eyebrow: "Kategorie",
+    description: "Prozesse, Speicher und Betriebssysteme als eigene Themenblöcke.",
     mascot: "/assets/mascots/hacker.png",
     groups: [
-      {
-        title: "Prozesse",
-        tone: "cs-a",
-        items: [
-          { label: "Prozesse", href: "/fachbereiche/informatik/systemnah/prozesse" },
-          { label: "Programm und Ausführung", href: "/fachbereiche/informatik/systemnah/programm-und-ausfuehrung" },
-        ],
-      },
-      {
-        title: "Speicher",
-        tone: "cs-b",
-        items: [
-          { label: "Speichergrundlagen", href: "/fachbereiche/informatik/systemnah/speichergrundlagen" },
-          { label: "Variablen im Speicher", href: "/fachbereiche/informatik/systemnah/variablen-im-speicher" },
-        ],
-      },
-      {
-        title: "Rechner",
-        tone: "cs-c",
-        items: [
-          { label: "Hardware und Software", href: "/fachbereiche/informatik/systemnah/hardware-und-software" },
-          { label: "Betriebssystem", href: "/fachbereiche/informatik/systemnah/betriebssystem" },
-        ],
-      },
+      { title: "Prozesse", text: "Programme in Ausführung und ihre Abläufe verstehen.", href: "/fachbereiche/informatik/systemnah/prozesse", tone: "cs-a" },
+      { title: "Speicher", text: "Daten im Speicher und grundlegende Zusammenhänge.", href: "/fachbereiche/informatik/systemnah/speichergrundlagen", tone: "cs-b" },
+      { title: "Betriebssystem", text: "Systemsteuerung und wichtige technische Grundlagen.", href: "/fachbereiche/informatik/systemnah/betriebssystem", tone: "cs-c" },
     ],
   },
 } as const;
