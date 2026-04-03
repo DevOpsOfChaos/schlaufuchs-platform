@@ -1,40 +1,288 @@
 ---
-import BaseLayout from "../../layouts/BaseLayout.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const base = import.meta.env.BASE_URL;
+const heroImage = `${base}assets/hero/home_fox_hacker.png`;
+
+const subjects = [
+  { title: "Mathematik", text: "Klar aufgebaut von Grundlagen bis Anwendung.", href: `${base}fachbereiche/mathematik`, icon: "∑" },
+  { title: "Informatik", text: "Verstehen statt auswendig lernen.", href: `${base}fachbereiche/informatik`, icon: "⌘" },
+  { title: "Elektrotechnik", text: "Ruhige Erklärungen für Systeme und Signale.", href: `${base}fachbereiche/elektrotechnik`, icon: "⚡" },
+  { title: "Linux", text: "Shell, Werkzeuge und Praxis sauber erklärt.", href: `${base}fachbereiche/linux`, icon: "◫" },
+  { title: "Web Development", text: "Moderne Webgrundlagen ohne Altlasten.", href: `${base}fachbereiche/web-development`, icon: "</>" },
+  { title: "News", text: "Wichtige Updates an einer Stelle gesammelt.", href: `${base}news`, icon: "◌" },
+];
 ---
 
-<BaseLayout title="News – Schlaufuchs" description="Größere Updates von Schlaufuchs.">
-  <section class="page">
-    <p class="eyebrow">News</p>
-    <h1>Größere Updates folgen hier gesammelt.</h1>
-    <p>Diese Seite bleibt bewusst ruhig. Hier landen später nur inhaltlich oder produktseitig relevante Änderungen.</p>
+<BaseLayout
+  title="Schlaufuchs – Moderne Wissens- und Lernplattform"
+  description="Moderne, ruhige Wissens- und Lernplattform für Informatik, Mathematik, Linux, Elektrotechnik und Web Development."
+>
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Schlaufuchs</p>
+      <h1>Ruhig. Modern. Auf den Inhalt fokussiert.</h1>
+      <p class="lead">
+        Schlaufuchs wird als klare Wissens- und Lernplattform neu aufgebaut.
+        Ohne Legacy-Flickwerk. Ohne überladene Oberfläche.
+      </p>
+
+      <div class="hero-actions">
+        <a class="primary" href={`${base}fachbereiche`}>Fachbereiche ansehen</a>
+        <a class="secondary" href={`${base}suchen`}>Suche öffnen</a>
+      </div>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+      <div class="hero-card">
+        <img src={heroImage} alt="" loading="eager" />
+      </div>
+    </div>
+  </section>
+
+  <section class="subject-section">
+    <div class="section-head">
+      <p class="eyebrow">Fachbereiche</p>
+      <h2>Direkte Einstiege in die wichtigsten Themen.</h2>
+    </div>
+
+    <div class="subject-grid">
+      {subjects.map((subject) => (
+        <a class="subject-card" href={subject.href}>
+          <span class="subject-icon" aria-hidden="true">{subject.icon}</span>
+          <h3>{subject.title}</h3>
+          <p>{subject.text}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="principles">
+    <article>
+      <h3>Inhalte zuerst</h3>
+      <p>Normale Seiten bleiben ruhig und gut lesbar.</p>
+    </article>
+    <article>
+      <h3>Lernmodus optional</h3>
+      <p>Lernhilfen kommen bewusst dazu und drängen sich nicht auf.</p>
+    </article>
+    <article>
+      <h3>Präsentation mitgedacht</h3>
+      <p>Große Lesbarkeit und klare Struktur von Anfang an.</p>
+    </article>
   </section>
 </BaseLayout>
 
 <style>
-  .page {
-    padding: 2.5rem 0;
-    max-width: 48rem;
+  .hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.05fr) minmax(20rem, 0.95fr);
+    gap: 2rem;
+    align-items: center;
+    padding: 2.25rem 0 2rem;
+    min-height: calc(100vh - 10rem);
   }
 
   .eyebrow {
+    margin: 0 0 0.8rem;
     text-transform: uppercase;
-    letter-spacing: 0.12em;
-    color: var(--text-soft);
+    letter-spacing: 0.14em;
+    font-size: 0.78rem;
     font-weight: 700;
-    margin: 0 0 0.75rem;
+    color: var(--text-soft);
   }
 
   h1 {
-    margin: 0 0 1rem;
-    font-size: clamp(2rem, 4vw, 3.4rem);
-    line-height: 1.08;
+    margin: 0;
+    max-width: 11ch;
+    font-size: clamp(3rem, 7vw, 6rem);
+    line-height: 0.95;
     color: var(--text-strong);
-    max-width: 14ch;
   }
 
-  p {
-    margin: 0;
+  .lead {
+    margin: 1.25rem 0 0;
+    max-width: 42rem;
+    font-size: 1.08rem;
+    line-height: 1.8;
     color: var(--text-muted);
-    line-height: 1.75;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 0.9rem;
+    flex-wrap: wrap;
+    margin-top: 1.8rem;
+  }
+
+  .hero-actions a {
+    min-height: 3.2rem;
+    padding: 0 1.2rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    transition: transform 140ms ease, background 140ms ease, border-color 140ms ease;
+  }
+
+  .hero-actions a:hover,
+  .subject-card:hover {
+    transform: translateY(-2px);
+  }
+
+  .primary {
+    background: var(--accent);
+    color: #0b1020;
+    border-color: transparent;
+  }
+
+  .secondary {
+    background: var(--surface);
+    color: var(--text-strong);
+  }
+
+  .hero-visual {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .hero-card {
+    width: min(100%, 36rem);
+    border-radius: 2rem;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    background: var(--card-bg);
+    box-shadow: var(--shadow-card);
+  }
+
+  .hero-card img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+
+  .subject-section {
+    padding: 1rem 0 0;
+  }
+
+  .section-head {
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    margin: 0;
+    max-width: 18ch;
+    font-size: clamp(1.9rem, 4vw, 3rem);
+    line-height: 1.08;
+    color: var(--text-strong);
+  }
+
+  .subject-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .subject-card,
+  .principles article {
+    border: 1px solid var(--border);
+    background: var(--card-bg);
+    border-radius: var(--radius-md);
+    padding: 1.2rem;
+    box-shadow: var(--shadow-soft);
+  }
+
+  .subject-card {
+    transition: transform 140ms ease, border-color 140ms ease;
+  }
+
+  .subject-card:hover {
+    border-color: var(--border-strong);
+  }
+
+  .subject-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 999px;
+    background: var(--surface-2);
+    color: var(--text-strong);
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: var(--text-strong);
+  }
+
+  .subject-card p,
+  .principles p {
+    margin: 0.7rem 0 0;
+    color: var(--text-muted);
+    line-height: 1.7;
+  }
+
+  .principles {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    padding: 1rem 0 0;
+  }
+
+  @media (max-width: 1100px) {
+    .hero {
+      grid-template-columns: 1fr;
+      min-height: auto;
+    }
+
+    .hero-visual {
+      justify-content: flex-start;
+    }
+
+    .hero-card {
+      width: min(100%, 32rem);
+    }
+
+    .subject-grid,
+    .principles {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 720px) {
+    .hero {
+      padding-top: 1.2rem;
+    }
+
+    h1 {
+      max-width: 12ch;
+      font-size: clamp(2.4rem, 11vw, 4rem);
+      line-height: 1;
+    }
+
+    .lead {
+      font-size: 1rem;
+      line-height: 1.7;
+    }
+
+    .hero-actions {
+      flex-direction: column;
+    }
+
+    .hero-actions a {
+      width: 100%;
+    }
+
+    .subject-grid,
+    .principles {
+      grid-template-columns: 1fr;
+    }
   }
 </style>
