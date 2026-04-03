@@ -4,11 +4,20 @@ import Breadcrumbs from "../ui/Breadcrumbs.astro";
 const { page, breadcrumbs = [] } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const mascotSrc = `${base}${page.mascot.replace(/^\//, "")}`;
+
+const pathname = Astro.url.pathname;
+const clean = pathname.replace(/\/$/, "");
+const parentPath = clean.split("/").slice(0, -1).join("/") || "/";
+const currentTitle = page.title;
 ---
 
 <section class="page-hero">
   <div class="page-copy">
     <Breadcrumbs items={breadcrumbs} />
+    <div class="hero-nav">
+      <a class="back-link" href={parentPath}>← Zurück</a>
+      <span class="current-page">{currentTitle}</span>
+    </div>
     <p class="eyebrow">{page.eyebrow}</p>
     <h1>{page.title}</h1>
     <p class="lead">{page.description}</p>
@@ -32,8 +41,11 @@ const mascotSrc = `${base}${page.mascot.replace(/^\//, "")}`;
   .page-hero { position: relative; overflow: hidden; display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 1.2rem; align-items: end; padding: 2.1rem 2.1rem 0; border: 1px solid var(--border); border-radius: 28px; background: var(--card-bg); box-shadow: var(--shadow-card); }
   .page-hero::after { content:""; position:absolute; right:-90px; bottom:-110px; width:240px; height:240px; border-radius:50%; background: rgba(127,140,255,.12); }
   .page-copy { position: relative; z-index: 1; padding-bottom: 1.8rem; }
-  .eyebrow { margin:0 0 .75rem; color: var(--text-soft); }
-  h1 { margin:0; color: var(--text-strong); font-size: clamp(2.4rem,4vw,3.8rem); line-height:1.02; letter-spacing:-.04em; }
+  .hero-nav { display: flex; align-items: center; gap: 0.75rem; margin: 0 0 1rem; }
+  .back-link { display: inline-flex; align-items: center; min-height: 2.5rem; padding: 0 0.9rem; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text); box-shadow: var(--shadow-soft); }
+  .current-page { color: var(--text-soft); font-size: 0.95rem; }
+  .eyebrow { margin:0; color: var(--text-soft); }
+  h1 { margin:0.75rem 0 0; color: var(--text-strong); font-size: clamp(2.4rem,4vw,3.8rem); line-height:1.02; letter-spacing:-.04em; }
   .lead { margin:1rem 0 0; max-width: 42rem; color: var(--text-soft); line-height:1.7; }
   .page-mascot { position: relative; z-index:1; width:min(100%,13rem); }
   .page-mascot img { width:100%; display:block; object-fit:contain; }
@@ -51,5 +63,5 @@ const mascotSrc = `${base}${page.mascot.replace(/^\//, "")}`;
   .arrow { position:absolute; right:1.4rem; bottom:1.2rem; width:2.2rem; height:2.2rem; border-radius:999px; border:1px solid rgba(148,163,184,.16); background:rgba(255,255,255,.28); display:grid; place-items:center; color:var(--text-strong); }
   :global(html[data-theme="dark"]) .arrow { border-color: rgba(255,255,255,.12); background: rgba(255,255,255,.10); }
   @media (max-width: 980px) { .page-hero { grid-template-columns:1fr; padding:1.8rem 1.4rem 0; } .page-copy { padding-bottom:1rem; } .page-mascot { justify-self:center; width:min(100%,10rem); } .card-grid { grid-template-columns:1fr; } }
-  @media (max-width: 640px) { .card { min-height:13rem; padding:1.35rem; } }
+  @media (max-width: 640px) { .hero-nav { align-items: flex-start; flex-direction: column; } .card { min-height:13rem; padding:1.35rem; } }
 </style>

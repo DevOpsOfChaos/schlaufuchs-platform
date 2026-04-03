@@ -2,82 +2,136 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 
 const base = import.meta.env.BASE_URL;
-const mascot = `${base}assets/mascots/general.png`;
 
-const items = [
+const entries = [
   {
-    title: "Plattformaufbau",
-    text: "Hier landen größere Änderungen an Hierarchie, Navigation und Seitentypen.",
-    tone: "news-a",
+    title: "Design überarbeitet",
+    date: "2026-04-03",
+    category: "Design",
+    summary: "Dummy-Eintrag für größere Layout- und Designanpassungen.",
+    tone: "news-c",
   },
   {
-    title: "Inhalte",
-    text: "Neue Fachbereiche, Themen und Infoseiten werden hier gesammelt angekündigt.",
+    title: "Inhalte vorbereitet",
+    date: "2026-04-02",
+    category: "Inhalte",
+    summary: "Dummy-Eintrag für neue Fachbereiche, Themen und Infoseiten.",
     tone: "news-b",
   },
   {
-    title: "Design",
-    text: "Größere Anpassungen an Layout, Karten, Symbole oder Dark/Light Mode kommen ebenfalls hierhin.",
-    tone: "news-c",
+    title: "Plattformaufbau vorbereitet",
+    date: "2026-04-01",
+    category: "Plattform",
+    summary: "Erster Dummy-Eintrag für Struktur, Hierarchie und Seitentypen.",
+    tone: "news-a",
   },
 ];
 ---
 
-<BaseLayout title="News – Schlaufuchs" description="Größere Updates von Schlaufuchs.">
-  <section class="news-hero">
-    <div class="copy">
+<BaseLayout title="News – Schlaufuchs" description="Änderungen und größere Updates als Feed.">
+  <section class="news-head">
+    <div>
       <p class="eyebrow">News</p>
-      <h1>Größere Updates folgen hier gesammelt.</h1>
-      <p class="lead">Diese Seite bleibt bewusst ruhig. Sie soll später nur wichtige Änderungen an Inhalt, Aufbau und Design bündeln.</p>
+      <h1>Änderungen als Feed</h1>
+      <p class="lead">Später kommen hier echte Einträge aus dem News-Ordner dazu. Im Moment sind nur Dummy-Dateien hinterlegt.</p>
     </div>
 
-    <div class="mascot" aria-hidden="true">
-      <img src={mascot} alt="" loading="eager" />
+    <div class="filters" aria-label="Feed-Filter">
+      <button type="button" class="filter active">Neueste</button>
+      <button type="button" class="filter">Plattform</button>
+      <button type="button" class="filter">Inhalte</button>
+      <button type="button" class="filter">Design</button>
     </div>
   </section>
 
-  <section class="news-grid">
-    {items.map((item, index) => (
-      <article class={`news-card ${item.tone}`}>
-        <div class="news-badge" aria-hidden="true">{["✦","◈","◇"][index % 3]}</div>
-        <h2>{item.title}</h2>
-        <p>{item.text}</p>
+  <section class="feed">
+    {entries.map((entry, index) => (
+      <article class={`feed-card ${entry.tone}`}>
+        <div class="meta">
+          <span>{entry.date}</span>
+          <span>{entry.category}</span>
+        </div>
+        <h2>{entry.title}</h2>
+        <p>{entry.summary}</p>
       </article>
     ))}
   </section>
 </BaseLayout>
 
 <style>
-  .news-hero { position: relative; overflow: hidden; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 1rem; align-items: end; padding: 2.2rem 2.2rem 0; border: 1px solid var(--border); border-radius: 28px; background: var(--card-bg); box-shadow: var(--shadow-card); }
-  .news-hero::after { content: ""; position: absolute; right: -86px; bottom: -100px; width: 240px; height: 240px; border-radius: 50%; background: rgba(127,140,255,.12); }
-  .copy { position: relative; z-index: 1; padding-bottom: 1.9rem; }
+  .news-head {
+    display: grid;
+    gap: 1rem;
+    padding: 0.25rem 0 0;
+  }
+
   .eyebrow { margin: 0 0 0.75rem; color: var(--text-soft); }
-  h1 { margin: 0 0 1rem; color: var(--text-strong); font-size: clamp(2.2rem, 4vw, 3.8rem); line-height: 1.04; max-width: 12ch; }
-  .lead { margin: 0; color: var(--text-soft); line-height: 1.7; max-width: 42rem; }
-  .mascot { position: relative; z-index: 1; width: min(100%, 13rem); }
-  .mascot img { width: 100%; display: block; object-fit: contain; }
+  h1 { margin: 0; color: var(--text-strong); font-size: clamp(2.2rem, 4vw, 3.5rem); line-height: 1.04; }
+  .lead { margin: 1rem 0 0; max-width: 46rem; color: var(--text-soft); line-height: 1.7; }
 
-  .news-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.15rem; margin-top: 1.45rem; }
-  .news-card { position: relative; overflow: hidden; min-height: 15rem; padding: 1.55rem; border: 1px solid var(--border); border-radius: 24px; box-shadow: var(--shadow-soft); }
-  .news-card::after { content: ""; position: absolute; right: -2.25rem; bottom: -2.5rem; width: 7.8rem; height: 7.8rem; border-radius: 999px; background: rgba(255,255,255,.07); pointer-events: none; }
-  .news-card.news-a { background: linear-gradient(135deg, rgba(93,113,175,.28), rgba(232,237,248,.76)); }
-  .news-card.news-b { background: linear-gradient(135deg, rgba(95,139,158,.20), rgba(235,244,247,.82)); }
-  .news-card.news-c { background: linear-gradient(135deg, rgba(173,144,156,.22), rgba(245,239,241,.84)); }
-  :global(html[data-theme="dark"]) .news-card.news-a { background: linear-gradient(135deg, rgba(72,95,164,.36), rgba(22,31,58,.92)); }
-  :global(html[data-theme="dark"]) .news-card.news-b { background: linear-gradient(135deg, rgba(28,71,87,.40), rgba(18,37,45,.92)); }
-  :global(html[data-theme="dark"]) .news-card.news-c { background: linear-gradient(135deg, rgba(96,72,104,.34), rgba(49,38,43,.92)); }
-  .news-badge { width: 2.5rem; height: 2.5rem; display: grid; place-items: center; border-radius: 999px; border: 1px solid rgba(148,163,184,.16); background: rgba(255,255,255,.24); color: var(--text-strong); }
-  :global(html[data-theme="dark"]) .news-badge { border-color: rgba(255,255,255,.1); background: rgba(255,255,255,.08); }
-  h2 { margin: 1rem 0 0; color: var(--text-strong); font-size: clamp(1.6rem, 2.2vw, 1.9rem); line-height: 1.08; }
-  .news-card p { margin: .8rem 0 0; color: var(--text); line-height: 1.62; }
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
 
-  @media (max-width: 980px) {
-    .news-hero { grid-template-columns: 1fr; padding: 1.8rem 1.4rem 0; }
-    .copy { padding-bottom: 1rem; }
-    .mascot { justify-self: center; width: min(100%, 10rem); }
-    .news-grid { grid-template-columns: 1fr; }
+  .filter {
+    min-height: 2.7rem;
+    padding: 0 1rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+    box-shadow: var(--shadow-soft);
   }
-  @media (max-width: 640px) {
-    .news-card { min-height: 13rem; padding: 1.35rem; }
+
+  .filter.active {
+    border-color: var(--border-strong);
+    background: var(--surface-2);
   }
+
+  .feed {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1.25rem;
+  }
+
+  .feed-card {
+    position: relative;
+    overflow: hidden;
+    padding: 1.4rem 1.5rem;
+    border: 1px solid var(--border);
+    border-radius: 22px;
+    box-shadow: var(--shadow-soft);
+  }
+
+  .feed-card::after {
+    content: "";
+    position: absolute;
+    right: -2rem;
+    bottom: -2.3rem;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.07);
+    pointer-events: none;
+  }
+
+  .feed-card.news-a { background: linear-gradient(135deg, rgba(93,113,175,.28), rgba(232,237,248,.76)); }
+  .feed-card.news-b { background: linear-gradient(135deg, rgba(95,139,158,.20), rgba(235,244,247,.82)); }
+  .feed-card.news-c { background: linear-gradient(135deg, rgba(173,144,156,.22), rgba(245,239,241,.84)); }
+  :global(html[data-theme="dark"]) .feed-card.news-a { background: linear-gradient(135deg, rgba(72,95,164,.36), rgba(22,31,58,.92)); }
+  :global(html[data-theme="dark"]) .feed-card.news-b { background: linear-gradient(135deg, rgba(28,71,87,.40), rgba(18,37,45,.92)); }
+  :global(html[data-theme="dark"]) .feed-card.news-c { background: linear-gradient(135deg, rgba(96,72,104,.34), rgba(49,38,43,.92)); }
+
+  .meta {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    color: var(--text-soft);
+    font-size: 0.95rem;
+  }
+
+  h2 { margin: 0.75rem 0 0; color: var(--text-strong); font-size: clamp(1.45rem, 2vw, 1.8rem); line-height: 1.1; }
+  .feed-card p { margin: 0.8rem 0 0; color: var(--text); line-height: 1.62; max-width: 46rem; }
 </style>
