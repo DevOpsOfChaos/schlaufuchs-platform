@@ -1,32 +1,35 @@
 ---
 import BaseLayout from "../../../../../../layouts/BaseLayout.astro";
-import LeafInfoPage from "../../../../../../components/content/LeafInfoPage.astro";
-import { linuxLeafPages } from "../../../../../../data/linux_leaf_pages";
+import ArticleLayout from "../../../../../../components/content/ArticleLayout.astro";
+import { getCollection, render } from "astro:content";
 
-const page = linuxLeafPages["ls"];
+const articleId = "linux/shell/dateien/ls";
+const articles = await getCollection("articles");
+const entry = articles.find((item) => item.id.replace(/\.(md|mdx)$/i, "") === articleId);
+
+if (!entry) {
+  throw new Error(`Article not found for: linux/shell/dateien/ls`);
+}
+
+const { Content, headings } = await render(entry);
 const breadcrumbs = [
   { label: "Start", href: "/" },
   { label: "Linux", href: "/fachbereiche/linux" },
   { label: "Linux Shell", href: "/fachbereiche/linux/shell" },
   { label: "Dateien", href: "/fachbereiche/linux/shell/dateien" },
-  { label: "ls", href: "/fachbereiche/linux/shell/dateien/ls" },
+  { label: "ls verstehen", href: "/fachbereiche/linux/shell/dateien/ls" },
 ];
-const related = [
-  {
-    title: "Dateien und Ordner",
-    text: "Weiteres Unterthema in Dateien.",
-    href: "/fachbereiche/linux/shell/dateien/dateien-und-ordner",
-    tone: "linux-a",
-  },
-  {
-    title: "mkdir",
-    text: "Weiteres Unterthema in Dateien.",
-    href: "/fachbereiche/linux/shell/dateien/mkdir",
-    tone: "linux-c",
-  },
-];
+const prevLink = null;
+const nextLink = { title: "Dateien und Ordner", href: "/fachbereiche/linux/shell/dateien/dateien-und-ordner" };
 ---
 
-<BaseLayout title={page.title + " – Schlaufuchs"} description={page.description}>
-  <LeafInfoPage page={page} breadcrumbs={breadcrumbs} related={related} />
+<BaseLayout title={`${entry.data.title} – Schlaufuchs`} description={entry.data.description}>
+  <ArticleLayout
+    entry={entry}
+    Content={Content}
+    headings={headings}
+    breadcrumbs={breadcrumbs}
+    prevLink={prevLink}
+    nextLink={nextLink}
+  />
 </BaseLayout>
