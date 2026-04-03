@@ -1,41 +1,229 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { searchIndex } from "../../data/searchIndex";
+
+const quickFilters = ["Alle", "Mathematik", "Linux", "Web Development", "Informatik", "Elektrotechnik", "News"];
 ---
 
-<BaseLayout title="Suchen – Schlaufuchs" description="Suche und später Filter für Inhalte.">
-  <section class="page">
-    <p class="eyebrow">Suchen</p>
-    <h1>Die Suche wird später strukturiert auf Collections aufsetzen.</h1>
-    <p>
-      Erst wird die Inhaltsbasis sauber aufgebaut. Dann kommt Suche, statt umgekehrt blind UI zu spielen.
-    </p>
+<BaseLayout title="Suche – Schlaufuchs" description="Themen, Unterthemen und Seiten durchsuchen.">
+  <section class="search-hero">
+    <div class="copy">
+      <p class="eyebrow">Suche</p>
+      <h1>Schnell finden statt lange klicken.</h1>
+      <p class="lead">
+        Suche über Fachbereiche, Kategorien, Themen und Infoseiten. Die Suche ist
+        bewusst einfach gehalten und kann später mit echten Inhalten erweitert werden.
+      </p>
+    </div>
   </section>
+
+  <section class="search-panel">
+    <label class="search-input-shell" for="search-input">
+      <span class="search-icon" aria-hidden="true">⌕</span>
+      <input id="search-input" type="search" placeholder="Nach Thema, Unterthema oder Seite suchen ..." />
+    </label>
+
+    <div class="filter-row" aria-label="Bereichsfilter">
+      {quickFilters.map((filter, index) => (
+        <button
+          type="button"
+          class:list={["filter-chip", { active: index === 0 }]}
+          data-filter={filter}
+        >
+          {filter}
+        </button>
+      ))}
+    </div>
+  </section>
+
+  <section class="results-grid" id="search-results">
+    {searchIndex.map((item) => (
+      <a
+        class="result-card"
+        href={item.href}
+        data-title={item.title.toLowerCase()}
+        data-description={item.description.toLowerCase()}
+        data-kind={item.kind.toLowerCase()}
+        data-area={item.area.toLowerCase()}
+      >
+        <div class="meta">
+          <span>{item.kind}</span>
+          <span>{item.area}</span>
+        </div>
+        <h2>{item.title}</h2>
+        <p>{item.description}</p>
+      </a>
+    ))}
+  </section>
+
+  <p class="empty-state" id="search-empty" hidden>Keine Treffer gefunden.</p>
+
+  <script is:inline>
+    const input = document.getElementById("search-input");
+    const cards = Array.from(document.querySelectorAll(".result-card"));
+    const chips = Array.from(document.querySelectorAll(".filter-chip"));
+    const emptyState = document.getElementById("search-empty");
+
+    let activeFilter = "alle";
+
+    const applySearch = () => {
+      const query = (input?.value || "").trim().toLowerCase();
+      let visibleCount = 0;
+
+      cards.forEach((card) => {
+        const title = card.getAttribute("data-title") || "";
+        const description = card.getAttribute("data-description") || "";
+        const area = card.getAttribute("data-area") || "";
+        const matchesQuery = !query || title.includes(query) || description.includes(query);
+        const matchesFilter = activeFilter === "alle" || area === activeFilter.toLowerCase();
+        const visible = matchesQuery && matchesFilter;
+        card.toggleAttribute("hidden", !visible);
+        if (visible) visibleCount += 1;
+      });
+
+      emptyState?.toggleAttribute("hidden", visibleCount !== 0);
+    };
+
+    input?.addEventListener("input", applySearch);
+
+    chips.forEach((chip) => {
+      chip.addEventListener("click", () => {
+        chips.forEach((other) => other.classList.remove("active"));
+        chip.classList.add("active");
+        activeFilter = chip.getAttribute("data-filter") || "Alle";
+        applySearch();
+      });
+    });
+  </script>
+
+  <style>
+    .search-hero {
+      padding: 0.3rem 0 0;
+    }
+
+    .eyebrow {
+      margin: 0 0 0.75rem;
+      color: var(--text-soft);
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--text-strong);
+      font-size: clamp(2.2rem, 4vw, 3.7rem);
+      line-height: 1.04;
+      max-width: 12ch;
+    }
+
+    .lead {
+      max-width: 44rem;
+      margin: 1rem 0 0;
+      color: var(--text-soft);
+      line-height: 1.72;
+    }
+
+    .search-panel {
+      display: grid;
+      gap: 0.9rem;
+      margin-top: 1.35rem;
+    }
+
+    .search-input-shell {
+      display: flex;
+      align-items: center;
+      gap: 0.9rem;
+      min-height: 3.6rem;
+      padding: 0 1.1rem;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      background: var(--card-bg);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .search-icon {
+      color: var(--text-soft);
+      font-size: 1.1rem;
+      line-height: 1;
+      flex-shrink: 0;
+    }
+
+    .search-input-shell input {
+      width: 100%;
+      border: 0;
+      outline: 0;
+      background: transparent;
+      color: var(--text-strong);
+      font: inherit;
+    }
+
+    .filter-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem;
+    }
+
+    .filter-chip {
+      min-height: 2.7rem;
+      padding: 0 1rem;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .filter-chip.active {
+      border-color: var(--border-strong);
+      background: var(--surface-2);
+      color: var(--text-strong);
+    }
+
+    .results-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1rem;
+      margin-top: 1.35rem;
+    }
+
+    .result-card {
+      min-height: 14rem;
+      padding: 1.35rem;
+      border-radius: 22px;
+      border: 1px solid var(--border);
+      background: var(--card-bg);
+      box-shadow: var(--shadow-soft);
+      color: inherit;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      color: var(--text-soft);
+      font-size: 0.92rem;
+    }
+
+    .result-card h2 {
+      margin: 0.8rem 0 0;
+      color: var(--text-strong);
+      font-size: clamp(1.35rem, 2vw, 1.7rem);
+      line-height: 1.12;
+    }
+
+    .result-card p {
+      margin: 0.8rem 0 0;
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .empty-state {
+      margin: 1rem 0 0;
+      color: var(--text-soft);
+    }
+
+    @media (max-width: 980px) {
+      .results-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </BaseLayout>
-
-<style>
-  .page {
-    padding: 2.5rem 0;
-  }
-
-  .eyebrow {
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
-    color: var(--accent);
-    font-weight: 700;
-    margin-bottom: 0.75rem;
-  }
-
-  h1 {
-    margin: 0 0 1rem;
-    font-size: clamp(2rem, 4vw, 3.4rem);
-    line-height: 1.08;
-    max-width: 14ch;
-  }
-
-  p {
-    color: var(--text-muted);
-    line-height: 1.7;
-    margin: 0;
-    max-width: 42rem;
-  }
-</style>

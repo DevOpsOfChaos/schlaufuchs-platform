@@ -41,23 +41,5 @@ const {
       <slot />
     </main>
     <Footer />
-
-    <script is:inline>
-      (() => {
-        const storageKey = "schlaufuchs-theme";
-        const root = document.documentElement;
-        const toggle = document.querySelector("[data-theme-toggle]");
-
-        const applyTheme = (theme) => {
-          root.setAttribute("data-theme", theme);
-          localStorage.setItem(storageKey, theme);
-        };
-
-        toggle?.addEventListener("click", () => {
-          const current = root.getAttribute("data-theme") || "dark";
-          applyTheme(current === "dark" ? "light" : "dark");
-        });
-      })();
-    </script>
   </body>
 </html>
