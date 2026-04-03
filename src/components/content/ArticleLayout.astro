@@ -1,0 +1,275 @@
+---
+import Breadcrumbs from "../ui/Breadcrumbs.astro";
+
+const {
+  entry,
+  Content,
+  headings = [],
+  breadcrumbs = [],
+  prevLink = null,
+  nextLink = null,
+} = Astro.props;
+
+const subjectLabelMap = {
+  mathematik: "Mathematik",
+  informatik: "Informatik",
+  linux: "Linux",
+  "web-development": "Web Development",
+  elektrotechnik: "Elektrotechnik",
+  "daten-und-signale": "Daten & Signale",
+};
+
+const subjectLabel = subjectLabelMap[entry.data.subject] ?? entry.data.subject;
+---
+
+<section class="article-hero">
+  <div class="article-copy">
+    <Breadcrumbs items={breadcrumbs} />
+    <div class="meta-row">
+      <span>{subjectLabel}</span>
+      <span>{entry.data.level}</span>
+      <span>{entry.data.section}</span>
+    </div>
+    <h1>{entry.data.title}</h1>
+    <p class="lead">{entry.data.description}</p>
+  </div>
+</section>
+
+<div class="article-shell">
+  <article class="article-body">
+    <Content />
+  </article>
+
+  <aside class="article-aside">
+    {headings.length > 0 && (
+      <section class="aside-card">
+        <h2>Inhalt</h2>
+        <nav>
+          <ul>
+            {headings.filter((heading) => heading.depth <= 2).map((heading) => (
+              <li>
+                <a href={`#${heading.slug}`}>{heading.text}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </section>
+    )}
+
+    {entry.data.tags?.length > 0 && (
+      <section class="aside-card">
+        <h2>Tags</h2>
+        <div class="tag-list">
+          {entry.data.tags.map((tag) => <span>{tag}</span>)}
+        </div>
+      </section>
+    )}
+  </aside>
+</div>
+
+{(prevLink || nextLink) && (
+  <section class="pager">
+    {prevLink ? (
+      <a class="pager-card" href={prevLink.href}>
+        <small>Vorherige Info</small>
+        <strong>{prevLink.title}</strong>
+      </a>
+    ) : (
+      <div></div>
+    )}
+
+    {nextLink ? (
+      <a class="pager-card" href={nextLink.href}>
+        <small>Nächste Info</small>
+        <strong>{nextLink.title}</strong>
+      </a>
+    ) : (
+      <div></div>
+    )}
+  </section>
+)}
+
+<style>
+  .article-hero {
+    padding: 0.35rem 0 0;
+  }
+
+  .meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    margin: 0 0 0.9rem;
+    color: var(--text-soft);
+    font-size: 0.95rem;
+  }
+
+  h1 {
+    margin: 0;
+    color: var(--text-strong);
+    font-size: clamp(2.2rem, 4vw, 3.8rem);
+    line-height: 1.04;
+    max-width: 14ch;
+  }
+
+  .lead {
+    max-width: 48rem;
+    margin: 1rem 0 0;
+    color: var(--text-soft);
+    line-height: 1.72;
+  }
+
+  .article-shell {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 19rem;
+    gap: 1.25rem;
+    margin-top: 1.4rem;
+    align-items: start;
+  }
+
+  .article-body {
+    padding: 1.55rem 1.6rem;
+    border-radius: 24px;
+    border: 1px solid var(--border);
+    background: var(--card-bg);
+    box-shadow: var(--shadow-soft);
+  }
+
+  .article-body :global(h2) {
+    margin: 2rem 0 0.85rem;
+    color: var(--text-strong);
+    font-size: clamp(1.55rem, 2vw, 1.9rem);
+    line-height: 1.12;
+  }
+
+  .article-body :global(h3) {
+    margin: 1.5rem 0 0.7rem;
+    color: var(--text-strong);
+    font-size: 1.15rem;
+    line-height: 1.2;
+  }
+
+  .article-body :global(p),
+  .article-body :global(li) {
+    color: var(--text);
+    line-height: 1.72;
+  }
+
+  .article-body :global(code) {
+    padding: 0.14rem 0.4rem;
+    border-radius: 8px;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+  }
+
+  .article-body :global(pre) {
+    overflow-x: auto;
+    padding: 1rem;
+    border-radius: 18px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+  }
+
+  .article-aside {
+    display: grid;
+    gap: 1rem;
+    position: sticky;
+    top: 6rem;
+  }
+
+  .aside-card {
+    padding: 1rem;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background: var(--card-bg);
+    box-shadow: var(--shadow-soft);
+  }
+
+  .aside-card h2 {
+    margin: 0 0 0.8rem;
+    font-size: 1rem;
+    color: var(--text-strong);
+  }
+
+  .aside-card ul {
+    margin: 0;
+    padding-left: 1rem;
+  }
+
+  .aside-card li + li {
+    margin-top: 0.45rem;
+  }
+
+  .aside-card a {
+    color: var(--text);
+  }
+
+  .tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+  }
+
+  .tag-list span {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2rem;
+    padding: 0 0.7rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text-strong);
+    font-size: 0.92rem;
+  }
+
+  .pager {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin-top: 1.35rem;
+  }
+
+  .pager-card {
+    padding: 1rem 1.1rem;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background: var(--card-bg);
+    box-shadow: var(--shadow-soft);
+    color: inherit;
+  }
+
+  .pager-card small {
+    display: block;
+    color: var(--text-soft);
+  }
+
+  .pager-card strong {
+    display: block;
+    margin-top: 0.45rem;
+    color: var(--text-strong);
+  }
+
+  @media (max-width: 1080px) {
+    .article-shell {
+      grid-template-columns: 1fr;
+    }
+
+    .article-aside {
+      position: static;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (max-width: 720px) {
+    .article-body {
+      padding: 1.2rem;
+    }
+
+    .article-aside {
+      grid-template-columns: 1fr;
+    }
+
+    .pager {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

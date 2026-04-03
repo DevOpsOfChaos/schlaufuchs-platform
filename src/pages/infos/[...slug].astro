@@ -1,0 +1,52 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ArticleLayout from "../../components/content/ArticleLayout.astro";
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+  const entries = (await getCollection("articles")).filter((entry) => !entry.data.draft);
+
+  return entries.map((entry) => ({
+    params: { slug: entry.id.replace(/\.(md|mdx)$/i, "") },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content, headings } = await render(entry);
+
+const entries = (await getCollection("articles"))
+  .filter((item) => !item.data.draft)
+  .sort((a, b) => a.id.localeCompare(b.id));
+
+const currentSlug = entry.id.replace(/\.(md|mdx)$/i, "");
+const currentIndex = entries.findIndex((item) => item.id.replace(/\.(md|mdx)$/i, "") === currentSlug);
+
+const prevEntry = currentIndex > 0 ? entries[currentIndex - 1] : null;
+const nextEntry = currentIndex < entries.length - 1 ? entries[currentIndex + 1] : null;
+
+const breadcrumbs = [
+  { label: "Start", href: "/" },
+  { label: "Informationsseiten", href: "/infos" },
+  { label: entry.data.title, href: `/infos/${currentSlug}` },
+];
+
+const prevLink = prevEntry
+  ? { title: prevEntry.data.title, href: `/infos/${prevEntry.id.replace(/\.(md|mdx)$/i, "")}` }
+  : null;
+
+const nextLink = nextEntry
+  ? { title: nextEntry.data.title, href: `/infos/${nextEntry.id.replace(/\.(md|mdx)$/i, "")}` }
+  : null;
+---
+
+<BaseLayout title={`${entry.data.title} – Schlaufuchs`} description={entry.data.description}>
+  <ArticleLayout
+    entry={entry}
+    Content={Content}
+    headings={headings}
+    breadcrumbs={breadcrumbs}
+    prevLink={prevLink}
+    nextLink={nextLink}
+  />
+</BaseLayout>

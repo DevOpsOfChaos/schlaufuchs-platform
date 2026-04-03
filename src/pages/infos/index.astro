@@ -1,0 +1,107 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const entries = (await getCollection("articles"))
+  .filter((entry) => !entry.data.draft)
+  .sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+const subjectLabelMap = {
+  mathematik: "Mathematik",
+  informatik: "Informatik",
+  linux: "Linux",
+  "web-development": "Web Development",
+  elektrotechnik: "Elektrotechnik",
+  "daten-und-signale": "Daten & Signale",
+};
+---
+
+<BaseLayout title="Informationsseiten – Schlaufuchs" description="Übersicht der Informationsseiten.">
+  <section class="infos-head">
+    <p class="eyebrow">Informationsseiten</p>
+    <h1>Das Grundsystem für echte Inhalte steht.</h1>
+    <p class="lead">
+      Ab hier können wir echte Informationsseiten bauen. Diese Übersicht sammelt die ersten
+      Demo-Artikel aus der Content-Collection.
+    </p>
+  </section>
+
+  <section class="infos-grid">
+    {entries.map((entry) => (
+      <a class="info-card" href={`/infos/${entry.id.replace(/\.(md|mdx)$/, "")}`}>
+        <div class="meta">
+          <span>{subjectLabelMap[entry.data.subject] ?? entry.data.subject}</span>
+          <span>{entry.data.level}</span>
+        </div>
+        <h2>{entry.data.title}</h2>
+        <p>{entry.data.description}</p>
+      </a>
+    ))}
+  </section>
+
+  <style>
+    .eyebrow {
+      margin: 0 0 0.75rem;
+      color: var(--text-soft);
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--text-strong);
+      font-size: clamp(2.2rem, 4vw, 3.7rem);
+      line-height: 1.04;
+      max-width: 14ch;
+    }
+
+    .lead {
+      max-width: 46rem;
+      margin: 1rem 0 0;
+      color: var(--text-soft);
+      line-height: 1.72;
+    }
+
+    .infos-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1rem;
+      margin-top: 1.4rem;
+    }
+
+    .info-card {
+      min-height: 14rem;
+      padding: 1.35rem;
+      border-radius: 22px;
+      border: 1px solid var(--border);
+      background: var(--card-bg);
+      box-shadow: var(--shadow-soft);
+      color: inherit;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      color: var(--text-soft);
+      font-size: 0.92rem;
+    }
+
+    .info-card h2 {
+      margin: 0.85rem 0 0;
+      color: var(--text-strong);
+      font-size: clamp(1.35rem, 2vw, 1.7rem);
+      line-height: 1.12;
+    }
+
+    .info-card p {
+      margin: 0.8rem 0 0;
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    @media (max-width: 980px) {
+      .infos-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</BaseLayout>
