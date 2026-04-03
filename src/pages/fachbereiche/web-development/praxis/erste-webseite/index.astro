@@ -1,0 +1,14 @@
+---
+import BaseLayout from "../../../../../layouts/BaseLayout.astro";
+import WebLeafPage from "../../../../../components/content/WebLeafPage.astro";
+import { webLeafPages } from "../../../../../data/webLeafPages";
+
+const page = webLeafPages["erste-webseite"];
+---
+
+<BaseLayout
+  title={"Erste Webseite" + " – Schlaufuchs"}
+  description={page.description}
+>
+  <WebLeafPage page={page} />
+</BaseLayout>

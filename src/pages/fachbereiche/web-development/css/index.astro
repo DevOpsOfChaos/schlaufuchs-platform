@@ -1,0 +1,14 @@
+---
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import WebSectionLandingPage from "../../../../components/content/WebSectionLandingPage.astro";
+import { webSections } from "../../../../data/webSections";
+
+const section = webSections["css"];
+---
+
+<BaseLayout
+  title={"Web Development CSS" + " – Schlaufuchs"}
+  description={section.description}
+>
+  <WebSectionLandingPage section={section} />
+</BaseLayout>

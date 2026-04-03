@@ -1,0 +1,67 @@
+---
+const { page } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const mascot = `${base}${page.mascot.replace(/^\//, "")}`;
+---
+
+<section class="leaf-hero">
+  <div class="copy">
+    <p class="eyebrow">{page.eyebrow}</p>
+    <h1>{page.title}</h1>
+    <p class="lead">{page.description}</p>
+  </div>
+
+  <div class="mascot" aria-hidden="true">
+    <img src={mascot} alt="" loading="eager" />
+  </div>
+</section>
+
+<section class="leaf-grid">
+  {page.sections.map((section) => (
+    <article class={`leaf-card ${section.tone}`}>
+      <h2>{section.title}</h2>
+      <p>{section.text}</p>
+      <div class="chips">
+        {section.chips.map((chip) => <span>{chip}</span>)}
+      </div>
+    </article>
+  ))}
+</section>
+
+<style>
+  .leaf-hero { position: relative; overflow: hidden; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 1.2rem; align-items: end; padding: 2.1rem 2.1rem 0; border: 1px solid var(--border); border-radius: 28px; background: var(--card-bg); box-shadow: var(--shadow-card); }
+  .leaf-hero::after { content: ""; position: absolute; right: -90px; bottom: -110px; width: 240px; height: 240px; border-radius: 50%; background: rgba(127, 140, 255, 0.12); }
+  .copy { position: relative; z-index: 1; padding-bottom: 1.8rem; }
+  .eyebrow { margin: 0 0 0.75rem; color: var(--text-soft); }
+  h1 { margin: 0; color: var(--text-strong); font-size: clamp(2.4rem, 4vw, 3.8rem); line-height: 1.02; letter-spacing: -0.04em; }
+  .lead { margin: 1rem 0 0; max-width: 42rem; color: var(--text-soft); line-height: 1.7; }
+  .mascot { position: relative; z-index: 1; width: min(100%, 13rem); }
+  .mascot img { width: 100%; display: block; object-fit: contain; }
+
+  .leaf-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.15rem; margin-top: 1.4rem; }
+  .leaf-card { position: relative; overflow: hidden; min-height: 15rem; padding: 1.55rem; border: 1px solid var(--border); border-radius: 24px; box-shadow: var(--shadow-soft); }
+  .leaf-card::after { content: ""; position: absolute; right: -2.25rem; bottom: -2.5rem; width: 7.8rem; height: 7.8rem; border-radius: 999px; background: rgba(255,255,255,0.07); pointer-events: none; }
+
+  .leaf-card.web-a { background: linear-gradient(135deg, rgba(173, 144, 156, 0.22), rgba(245, 239, 241, 0.84)); }
+  .leaf-card.web-b { background: linear-gradient(135deg, rgba(95, 139, 158, 0.20), rgba(235, 244, 247, 0.82)); }
+  .leaf-card.web-c { background: linear-gradient(135deg, rgba(175, 163, 122, 0.20), rgba(242, 239, 230, 0.84)); }
+  :global(html[data-theme="dark"]) .leaf-card.web-a { background: linear-gradient(135deg, rgba(96, 72, 104, 0.34), rgba(49, 38, 43, 0.92)); }
+  :global(html[data-theme="dark"]) .leaf-card.web-b { background: linear-gradient(135deg, rgba(28, 71, 87, 0.40), rgba(18, 37, 45, 0.92)); }
+  :global(html[data-theme="dark"]) .leaf-card.web-c { background: linear-gradient(135deg, rgba(84, 76, 44, 0.30), rgba(42, 39, 28, 0.92)); }
+
+  h2 { margin: 0; color: var(--text-strong); font-size: clamp(1.55rem, 2vw, 1.9rem); line-height: 1.08; }
+  p { margin: 0.9rem 0 0; color: var(--text); line-height: 1.65; }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1rem; }
+  .chips span { display: inline-flex; align-items: center; min-height: 2rem; padding: 0 0.7rem; border-radius: 999px; border: 1px solid rgba(148,163,184,0.16); background: rgba(255,255,255,0.24); color: var(--text-strong); font-size: 0.92rem; }
+  :global(html[data-theme="dark"]) .chips span { border-color: rgba(255,255,255,0.1); background: rgba(255,255,255,0.08); }
+
+  @media (max-width: 980px) {
+    .leaf-hero { grid-template-columns: 1fr; padding: 1.8rem 1.4rem 0; }
+    .copy { padding-bottom: 1rem; }
+    .mascot { justify-self: center; width: min(100%, 10rem); }
+    .leaf-grid { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 640px) {
+    .leaf-card { min-height: 13rem; padding: 1.35rem; }
+  }
+</style>
