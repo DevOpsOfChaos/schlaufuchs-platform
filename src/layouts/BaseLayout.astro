@@ -16,7 +16,7 @@ const {
 ---
 
 <!doctype html>
-<html lang="de" data-theme="dark">
+<html lang="de" data-theme="dark" data-learn-mode="off">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,12 +25,17 @@ const {
 
     <script is:inline>
       (() => {
-        const storageKey = "schlaufuchs-theme";
         const root = document.documentElement;
-        const storedTheme = localStorage.getItem(storageKey);
+
+        const themeKey = "schlaufuchs-theme";
+        const storedTheme = localStorage.getItem(themeKey);
         const systemPrefersLight = window.matchMedia("(prefers-color-scheme: light)").matches;
         const theme = storedTheme || (systemPrefersLight ? "light" : "dark");
         root.setAttribute("data-theme", theme);
+
+        const learnKey = "schlaufuchs-learn-mode";
+        const storedLearnMode = localStorage.getItem(learnKey);
+        root.setAttribute("data-learn-mode", storedLearnMode === "on" ? "on" : "off");
       })();
     </script>
   </head>

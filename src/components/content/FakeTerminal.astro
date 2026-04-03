@@ -1,0 +1,227 @@
+---
+const { config } = Astro.props;
+const commands = JSON.stringify(config.commands ?? {});
+---
+
+<section class="sandbox-card" data-fake-terminal data-commands={commands}>
+  <div class="sandbox-head">
+    <div>
+      <p class="eyebrow">Interaktive Einheit</p>
+      <h2>{config.title}</h2>
+    </div>
+    <span class="badge">Sicherer Demo-Modus</span>
+  </div>
+
+  <p class="lead">{config.description}</p>
+
+  <div class="terminal">
+    <div class="terminal-bar">
+      <span></span><span></span><span></span>
+      <strong>Fake Console</strong>
+    </div>
+
+    <div class="terminal-output" data-output>
+      <div class="line muted">Gib einen vorbereiteten Befehl ein, z. B. <code>pwd</code>.</div>
+    </div>
+
+    <form class="terminal-input-row" data-form>
+      <span class="prompt">$</span>
+      <input type="text" name="command" placeholder={config.placeholder} autocomplete="off" />
+      <button type="submit">Ausführen</button>
+    </form>
+  </div>
+</section>
+
+<script>
+  document.querySelectorAll("[data-fake-terminal]").forEach((root) => {
+    const commands = JSON.parse(root.getAttribute("data-commands") || "{}");
+    const form = root.querySelector("[data-form]");
+    const output = root.querySelector("[data-output]");
+    const input = form?.querySelector("input[name='command']");
+
+    const appendLine = (text, kind = "normal") => {
+      if (!output) return;
+      const div = document.createElement("div");
+      div.className = `line ${kind}`;
+      div.textContent = text;
+      output.appendChild(div);
+      output.scrollTop = output.scrollHeight;
+    };
+
+    form?.addEventListener("submit", (event) => {
+      event.preventDefault();
+      const raw = (input?.value || "").trim();
+      if (!raw) return;
+
+      appendLine(`$ ${raw}`, "command");
+
+      if (Object.prototype.hasOwnProperty.call(commands, raw)) {
+        appendLine(commands[raw], "success");
+      } else {
+        appendLine(`bash: ${raw}: command not found`, "error");
+      }
+
+      if (input) input.value = "";
+    });
+  });
+</script>
+
+<style>
+  .sandbox-card {
+    margin-top: 1.6rem;
+    padding: 1.2rem;
+    border-radius: 24px;
+    border: 1px solid var(--border);
+    background: var(--card-bg);
+    box-shadow: var(--shadow-soft);
+  }
+
+  .sandbox-head {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .eyebrow {
+    margin: 0 0 0.45rem;
+    color: var(--text-soft);
+    font-size: 0.92rem;
+  }
+
+  .sandbox-head h2 {
+    margin: 0;
+    color: var(--text-strong);
+    font-size: 1.4rem;
+    line-height: 1.15;
+  }
+
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2rem;
+    padding: 0 0.7rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text-soft);
+    font-size: 0.86rem;
+    white-space: nowrap;
+  }
+
+  .lead {
+    margin: 0.85rem 0 0;
+    color: var(--text-soft);
+    line-height: 1.65;
+  }
+
+  .terminal {
+    margin-top: 1rem;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    background: #0f172a;
+    color: #e5e7eb;
+    box-shadow: var(--shadow-soft);
+  }
+
+  .terminal-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    min-height: 2.7rem;
+    padding: 0 0.95rem;
+    background: rgba(255, 255, 255, 0.06);
+  }
+
+  .terminal-bar span {
+    width: 0.68rem;
+    height: 0.68rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.3);
+  }
+
+  .terminal-bar strong {
+    margin-left: 0.45rem;
+    font-size: 0.92rem;
+    color: #cbd5e1;
+  }
+
+  .terminal-output {
+    min-height: 12rem;
+    max-height: 18rem;
+    overflow: auto;
+    padding: 1rem;
+    font-family: "Courier New", monospace;
+    font-size: 1rem;
+    line-height: 1.65;
+  }
+
+  .line + .line {
+    margin-top: 0.35rem;
+  }
+
+  .line.muted {
+    color: #94a3b8;
+  }
+
+  .line.command {
+    color: #f8fafc;
+  }
+
+  .line.success {
+    color: #c4b5fd;
+  }
+
+  .line.error {
+    color: #fca5a5;
+  }
+
+  .terminal-input-row {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    gap: 0.75rem;
+    align-items: center;
+    padding: 0.9rem 1rem 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .prompt {
+    font-family: "Courier New", monospace;
+    color: #93c5fd;
+  }
+
+  .terminal-input-row input {
+    min-height: 2.8rem;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.06);
+    color: #f8fafc;
+    padding: 0 0.85rem;
+    font: inherit;
+  }
+
+  .terminal-input-row button {
+    min-height: 2.8rem;
+    padding: 0 0.95rem;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.08);
+    color: #f8fafc;
+    font: inherit;
+  }
+
+  @media (max-width: 720px) {
+    .sandbox-head {
+      flex-direction: column;
+    }
+
+    .terminal-input-row {
+      grid-template-columns: 1fr;
+    }
+
+    .prompt {
+      display: none;
+    }
+  }
+</style>

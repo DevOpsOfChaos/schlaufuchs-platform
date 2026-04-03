@@ -1,0 +1,44 @@
+---
+import ActionIcon from "./ActionIcon.astro";
+
+const learnIcon = `
+<svg viewBox="0 0 24 24" aria-hidden="true">
+  <path d="M3 8 12 4l9 4-9 4-9-4Z"></path>
+  <path d="M6 10v4.2c0 1.8 2.7 3.3 6 3.3s6-1.5 6-3.3V10"></path>
+</svg>`;
+---
+
+<div class="learn-toggle-shell" data-learn-toggle>
+  <ActionIcon
+    label="Lernmodus"
+    tooltip="Lernmodus aktivieren"
+    icon={learnIcon}
+    type="button"
+  />
+</div>
+
+<script>
+  const root = document.documentElement;
+  const shell = document.querySelector("[data-learn-toggle]");
+  const button = shell?.querySelector("button");
+
+  const renderLearnMode = () => {
+    if (!button) return;
+    const isOn = root.dataset.learnMode === "on";
+    button.classList.toggle("active", isOn);
+    button.setAttribute("aria-label", isOn ? "Lernmodus deaktivieren" : "Lernmodus aktivieren");
+    button.setAttribute("data-tooltip", isOn ? "Lernmodus deaktivieren" : "Lernmodus aktivieren");
+  };
+
+  renderLearnMode();
+
+  button?.addEventListener("click", () => {
+    const next = root.dataset.learnMode === "on" ? "off" : "on";
+    root.dataset.learnMode = next;
+    try {
+      localStorage.setItem("schlaufuchs-learn-mode", next);
+    } catch {}
+    renderLearnMode();
+    window.dispatchEvent(new CustomEvent("learnmode-changed", { detail: next }));
+  });
+</script>
