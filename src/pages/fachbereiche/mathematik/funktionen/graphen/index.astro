@@ -1,0 +1,11 @@
+---
+import BaseLayout from "../../../../../layouts/BaseLayout.astro";
+import TopicLandingPage from "../../../../../components/content/TopicLandingPage.astro";
+import { mathematikTopics } from "../../../../../data/mathematik_topics";
+
+const page = mathematikTopics["graphen"];
+---
+
+<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
+  <TopicLandingPage page={page} />
+</BaseLayout>

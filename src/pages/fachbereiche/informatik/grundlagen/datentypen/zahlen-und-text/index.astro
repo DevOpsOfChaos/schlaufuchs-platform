@@ -1,0 +1,11 @@
+---
+import BaseLayout from "../../../../../../layouts/BaseLayout.astro";
+import LeafInfoPage from "../../../../../../components/content/LeafInfoPage.astro";
+import { informatikLeafPages } from "../../../../../../data/informatik_leaf_pages";
+
+const page = informatikLeafPages["zahlen-und-text"];
+---
+
+<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
+  <LeafInfoPage page={page} />
+</BaseLayout>

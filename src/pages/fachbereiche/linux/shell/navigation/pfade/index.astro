@@ -1,0 +1,11 @@
+---
+import BaseLayout from "../../../../../../layouts/BaseLayout.astro";
+import LeafInfoPage from "../../../../../../components/content/LeafInfoPage.astro";
+import { linuxLeafPages } from "../../../../../../data/linux_leaf_pages";
+
+const page = linuxLeafPages["pfade"];
+---
+
+<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
+  <LeafInfoPage page={page} />
+</BaseLayout>

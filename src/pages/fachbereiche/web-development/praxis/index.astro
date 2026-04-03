@@ -1,11 +1,11 @@
 ---
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
 import CategorySectionPage from "../../../../components/content/CategorySectionPage.astro";
-import { webSections } from "../../../../data/webSections";
+import { webdevelopmentSections } from "../../../../data/web_development_sections";
 
-const section = webSections["praxis"];
+const section = webdevelopmentSections["praxis"];
 ---
 
-<BaseLayout title="Web Development Praxis – Schlaufuchs" description={section.description}>
+<BaseLayout title="{section.title} – Schlaufuchs" description={section.description}>
   <CategorySectionPage section={section} />
 </BaseLayout>

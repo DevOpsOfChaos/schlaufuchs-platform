@@ -1,0 +1,11 @@
+---
+import BaseLayout from "../../../../../../layouts/BaseLayout.astro";
+import LeafInfoPage from "../../../../../../components/content/LeafInfoPage.astro";
+import { mathematikLeafPages } from "../../../../../../data/mathematik_leaf_pages";
+
+const page = mathematikLeafPages["sinus-kosinus-tangens"];
+---
+
+<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
+  <LeafInfoPage page={page} />
+</BaseLayout>

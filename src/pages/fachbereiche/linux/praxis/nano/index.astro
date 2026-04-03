@@ -1,14 +1,11 @@
 ---
-import BaseLayout from "../../../../../../layouts/BaseLayout.astro";
-import LinuxLeafPage from "../../../../../../components/content/LinuxLeafPage.astro";
-import { linuxLeafPages } from "../../../../../../data/linuxLeafPages";
+import BaseLayout from "../../../../../layouts/BaseLayout.astro";
+import TopicLandingPage from "../../../../../components/content/TopicLandingPage.astro";
+import { linuxTopics } from "../../../../../data/linux_topics";
 
-const page = linuxLeafPages["nano"];
+const page = linuxTopics["nano"];
 ---
 
-<BaseLayout
-  title={"nano" + " – Schlaufuchs"}
-  description={page.description}
->
-  <LinuxLeafPage page={page} />
+<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
+  <TopicLandingPage page={page} />
 </BaseLayout>

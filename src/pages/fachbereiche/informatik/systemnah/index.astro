@@ -1,11 +1,11 @@
 ---
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
 import CategorySectionPage from "../../../../components/content/CategorySectionPage.astro";
-import { informatikSections } from "../../../../data/informatikSections";
+import { informatikSections } from "../../../../data/informatik_sections";
 
 const section = informatikSections["systemnah"];
 ---
 
-<BaseLayout title="Informatik Systemnah – Schlaufuchs" description={section.description}>
+<BaseLayout title="{section.title} – Schlaufuchs" description={section.description}>
   <CategorySectionPage section={section} />
 </BaseLayout>

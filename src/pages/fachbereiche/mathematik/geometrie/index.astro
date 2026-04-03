@@ -1,11 +1,11 @@
 ---
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
 import CategorySectionPage from "../../../../components/content/CategorySectionPage.astro";
-import { mathSections } from "../../../../data/mathSections";
+import { mathematikSections } from "../../../../data/mathematik_sections";
 
-const section = mathSections["geometrie"];
+const section = mathematikSections["geometrie"];
 ---
 
-<BaseLayout title="Mathematik Geometrie – Schlaufuchs" description={section.description}>
+<BaseLayout title="{section.title} – Schlaufuchs" description={section.description}>
   <CategorySectionPage section={section} />
 </BaseLayout>

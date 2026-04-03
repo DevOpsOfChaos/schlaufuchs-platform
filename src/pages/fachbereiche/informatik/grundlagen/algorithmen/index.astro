@@ -1,14 +1,11 @@
 ---
 import BaseLayout from "../../../../../layouts/BaseLayout.astro";
-import InformatikLeafPage from "../../../../../components/content/InformatikLeafPage.astro";
-import { informatikLeafPages } from "../../../../../data/informatikLeafPages";
+import TopicLandingPage from "../../../../../components/content/TopicLandingPage.astro";
+import { informatikTopics } from "../../../../../data/informatik_topics";
 
-const page = informatikLeafPages["algorithmen"];
+const page = informatikTopics["algorithmen"];
 ---
 
-<BaseLayout
-  title={"Algorithmen" + " – Schlaufuchs"}
-  description={page.description}
->
-  <InformatikLeafPage page={page} />
+<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
+  <TopicLandingPage page={page} />
 </BaseLayout>

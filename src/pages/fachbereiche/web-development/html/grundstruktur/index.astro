@@ -1,14 +1,11 @@
 ---
 import BaseLayout from "../../../../../layouts/BaseLayout.astro";
-import WebLeafPage from "../../../../../components/content/WebLeafPage.astro";
-import { webLeafPages } from "../../../../../data/webLeafPages";
+import TopicLandingPage from "../../../../../components/content/TopicLandingPage.astro";
+import { webdevelopmentTopics } from "../../../../../data/web_development_topics";
 
-const page = webLeafPages["grundstruktur"];
+const page = webdevelopmentTopics["grundstruktur"];
 ---
 
-<BaseLayout
-  title={"Grundstruktur" + " – Schlaufuchs"}
-  description={page.description}
->
-  <WebLeafPage page={page} />
+<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
+  <TopicLandingPage page={page} />
 </BaseLayout>

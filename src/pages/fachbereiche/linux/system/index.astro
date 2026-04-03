@@ -1,11 +1,11 @@
 ---
 import BaseLayout from "../../../../layouts/BaseLayout.astro";
 import CategorySectionPage from "../../../../components/content/CategorySectionPage.astro";
-import { linuxSections } from "../../../../data/linuxSections";
+import { linuxSections } from "../../../../data/linux_sections";
 
 const section = linuxSections["system"];
 ---
 
-<BaseLayout title="Linux System – Schlaufuchs" description={section.description}>
+<BaseLayout title="{section.title} – Schlaufuchs" description={section.description}>
   <CategorySectionPage section={section} />
 </BaseLayout>
