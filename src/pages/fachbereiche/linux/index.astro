@@ -1,0 +1,14 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import SubjectLandingPage from "../../../components/content/SubjectLandingPage.astro";
+import { subjectLanding } from "../../../data/subjectLanding";
+
+const subject = subjectLanding["linux"];
+---
+
+<BaseLayout
+  title={"Linux" + " – Schlaufuchs"}
+  description={subject.description}
+>
+  <SubjectLandingPage subject={subject} />
+</BaseLayout>
