@@ -1,9 +1,17 @@
 ---
 import BaseLayout from "../../../../../../layouts/BaseLayout.astro";
-import LeafInfoPage from "../../../../../../components/content/LeafInfoPage.astro";
-import { linuxLeafPages } from "../../../../../../data/linux_leaf_pages";
+import ArticleLayout from "../../../../../../components/content/ArticleLayout.astro";
+import { getCollection, render } from "astro:content";
 
-const page = linuxLeafPages["grundbefehle"];
+const articleId = "linux/shell/befehle/grundbefehle";
+const articles = await getCollection("articles");
+const entry = articles.find((item) => item.id.replace(/\.(md|mdx)$/i, "") === articleId);
+
+if (!entry) {
+  throw new Error(`Article not found for: linux/shell/befehle/grundbefehle`);
+}
+
+const { Content, headings } = await render(entry);
 const breadcrumbs = [
   { label: "Start", href: "/" },
   { label: "Linux", href: "/fachbereiche/linux" },
@@ -11,22 +19,17 @@ const breadcrumbs = [
   { label: "Befehle", href: "/fachbereiche/linux/shell/befehle" },
   { label: "Grundbefehle", href: "/fachbereiche/linux/shell/befehle/grundbefehle" },
 ];
-const related = [
-  {
-    title: "Hilfe im Terminal",
-    text: "Weiteres Unterthema in Befehle.",
-    href: "/fachbereiche/linux/shell/befehle/hilfe-im-terminal",
-    tone: "linux-a",
-  },
-  {
-    title: "Dateibefehle",
-    text: "Weiteres Unterthema in Befehle.",
-    href: "/fachbereiche/linux/shell/befehle/dateibefehle",
-    tone: "linux-c",
-  },
-];
+const prevLink = null;
+const nextLink = { title: "Dateibefehle", href: "/fachbereiche/linux/shell/befehle/dateibefehle" };
 ---
 
-<BaseLayout title={page.title + " – Schlaufuchs"} description={page.description}>
-  <LeafInfoPage page={page} breadcrumbs={breadcrumbs} related={related} />
+<BaseLayout title={`${entry.data.title} – Schlaufuchs`} description={entry.data.description}>
+  <ArticleLayout
+    entry={entry}
+    Content={Content}
+    headings={headings}
+    breadcrumbs={breadcrumbs}
+    prevLink={prevLink}
+    nextLink={nextLink}
+  />
 </BaseLayout>
