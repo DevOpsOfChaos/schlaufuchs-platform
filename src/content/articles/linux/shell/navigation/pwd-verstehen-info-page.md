@@ -100,13 +100,17 @@ Das ist hilfreich, weil du damit:
 
 ## Der Unterschied zwischen logisch und physisch
 
+Hier wird `pwd` etwas technischer, aber es lohnt sich.
+
 Es gibt zwei wichtige Sichtweisen auf deinen aktuellen Pfad:
 
-### Logischer Pfad
+### 1. Logischer Pfad
 
 Der logische Pfad orientiert sich daran, **wie du dich dorthin bewegt hast**.
 
-### Physischer Pfad
+Wenn symbolische Links im Spiel sind, kann dieser Pfad so aussehen, wie du ihn „siehst“, auch wenn im Hintergrund ein anderer echter Ort gemeint ist.
+
+### 2. Physischer Pfad
 
 Der physische Pfad löst symbolische Links auf und zeigt den **tatsächlichen Ort im Dateisystem**.
 
@@ -128,6 +132,58 @@ pwd -P
 
 Das zeigt die **physische** Sicht und löst symbolische Links auf.
 
+## Warum dieser Unterschied in der Praxis wichtig ist
+
+Am Anfang ist das oft noch nicht entscheidend.  
+Später wird es wichtig, wenn du mit symbolischen Links arbeitest, zum Beispiel:
+
+- bei Entwicklungsumgebungen
+- in Projektordnern
+- bei Systempfaden
+- in Kurs- oder Serverstrukturen
+
+Dann kann `pwd -L` etwas anderes anzeigen als `pwd -P`.
+
+## Ein gedankliches Beispiel
+
+Du wechselst in einen Ordner, der eigentlich nur ein symbolischer Link ist.
+
+Dann kann Folgendes passieren:
+
+```bash
+pwd -L
+```
+
+zeigt:
+
+```bash
+/home/user/projekt-link
+```
+
+während
+
+```bash
+pwd -P
+```
+
+zeigt:
+
+```bash
+/var/data/projekte/projekt-a
+```
+
+Beides kann im selben Moment „richtig“ sein, aber aus unterschiedlicher Sicht.
+
+## Wichtig für Shells
+
+In der Praxis gibt es noch eine kleine Besonderheit:
+
+Viele Shells haben ein eingebautes eigenes `pwd`.  
+Darum kann sich das Verhalten leicht unterscheiden, je nachdem ob du das Shell-Builtin oder das externe Programm nutzt.
+
+Für Lernzwecke ist das kein Problem.  
+Wichtig ist nur: Das Grundprinzip bleibt gleich — `pwd` zeigt deinen aktuellen Arbeitsort.
+
 ## Typische Anfängerfehler
 
 ### „Ich dachte, ich bin woanders.“
@@ -144,6 +200,48 @@ Manchmal liegt das gar nicht am Befehl selbst, sondern daran, dass du im falsche
 Das kann bei symbolischen Links passieren.  
 Dann lohnt sich der Vergleich zwischen `pwd -L` und `pwd -P`.
 
+## Kurz zusammengefasst
+
+`pwd` ist dein schneller Standort-Check im Terminal.
+
+Es hilft dir:
+
+- Orientierung zu behalten
+- Pfade besser zu verstehen
+- Fehler zu vermeiden
+- sicherer mit dem Terminal zu arbeiten
+
 ## Merksatz
 
 **Wenn du im Terminal nicht mehr sicher bist, wo du bist, frage zuerst `pwd`.**
+
+## Mini-Übungen
+
+### Übung 1
+
+Wechsle in einen Ordner deiner Wahl und führe dann `pwd` aus.
+
+Frage an dich:
+- Welcher vollständige Pfad wird angezeigt?
+
+### Übung 2
+
+Nutze mehrere `cd`-Schritte hintereinander und prüfe danach mit `pwd`, ob du noch am erwarteten Ort bist.
+
+### Übung 3
+
+Wenn du später symbolische Links kennenlernst, vergleiche:
+
+```bash
+pwd -L
+pwd -P
+```
+
+und beobachte, ob sich die Ausgabe unterscheidet.
+
+## Nächste passende Themen
+
+- `cd verstehen`
+- `Pfade verstehen`
+- `ls verstehen`
+- `Dateien und Ordner`
