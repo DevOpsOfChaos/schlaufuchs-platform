@@ -122,7 +122,3 @@ Manchmal liegt das gar nicht am Befehl selbst, sondern daran, dass du im falsche
 
 Das kann bei symbolischen Links passieren.  
 Dann lohnt sich der Vergleich zwischen `pwd -L` und `pwd -P`.
-
-## Merksatz
-
-**Wenn du im Terminal nicht mehr sicher bist, wo du bist, frage zuerst `pwd`.**

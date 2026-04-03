@@ -1,9 +1,10 @@
 ---
 const { config } = Astro.props;
 const commands = JSON.stringify(config.commands ?? {});
+const knownCommands = Object.keys(config.commands ?? {});
 ---
 
-<section class="sandbox-card" data-fake-terminal data-commands={commands}>
+<section class="sandbox-card" data-fake-terminal data-commands={commands} data-known={JSON.stringify(knownCommands)}>
   <div class="sandbox-head">
     <div>
       <p class="eyebrow">Interaktive Einheit</p>
@@ -21,7 +22,8 @@ const commands = JSON.stringify(config.commands ?? {});
     </div>
 
     <div class="terminal-output" data-output>
-      <div class="line muted">Gib einen vorbereiteten Befehl ein, z. B. <code>pwd</code>.</div>
+      <div class="line muted">Vorbereitete Befehle: {knownCommands.join(", ")}</div>
+      <div class="line muted">Zusätzlich funktionieren <code>help</code> und <code>clear</code>.</div>
     </div>
 
     <form class="terminal-input-row" data-form>
@@ -35,6 +37,7 @@ const commands = JSON.stringify(config.commands ?? {});
 <script>
   document.querySelectorAll("[data-fake-terminal]").forEach((root) => {
     const commands = JSON.parse(root.getAttribute("data-commands") || "{}");
+    const known = JSON.parse(root.getAttribute("data-known") || "[]");
     const form = root.querySelector("[data-form]");
     const output = root.querySelector("[data-output]");
     const input = form?.querySelector("input[name='command']");
@@ -55,7 +58,11 @@ const commands = JSON.stringify(config.commands ?? {});
 
       appendLine(`$ ${raw}`, "command");
 
-      if (Object.prototype.hasOwnProperty.call(commands, raw)) {
+      if (raw === "clear") {
+        if (output) output.innerHTML = "";
+      } else if (raw === "help") {
+        appendLine(`Verfügbare Befehle: ${known.join(", ")}, help, clear`, "success");
+      } else if (Object.prototype.hasOwnProperty.call(commands, raw)) {
         appendLine(commands[raw], "success");
       } else {
         appendLine(`bash: ${raw}: command not found`, "error");
