@@ -1,0 +1,14 @@
+---
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import SectionLandingPage from "../../../../components/content/SectionLandingPage.astro";
+import { linuxSections } from "../../../../data/linuxSections";
+
+const section = linuxSections["praxis"];
+---
+
+<BaseLayout
+  title={"Linux Praxis" + " – Schlaufuchs"}
+  description={section.description}
+>
+  <SectionLandingPage section={section} />
+</BaseLayout>
