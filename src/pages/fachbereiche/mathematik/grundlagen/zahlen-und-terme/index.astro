@@ -1,0 +1,14 @@
+---
+import BaseLayout from "../../../../../layouts/BaseLayout.astro";
+import MathLeafPage from "../../../../../components/content/MathLeafPage.astro";
+import { mathLeafPages } from "../../../../../data/mathLeafPages";
+
+const page = mathLeafPages["zahlen-und-terme"];
+---
+
+<BaseLayout
+  title={"Zahlen & Terme" + " – Schlaufuchs"}
+  description={page.description}
+>
+  <MathLeafPage page={page} />
+</BaseLayout>

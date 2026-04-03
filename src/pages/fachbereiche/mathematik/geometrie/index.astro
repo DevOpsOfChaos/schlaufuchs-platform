@@ -1,0 +1,14 @@
+---
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import MathSectionLandingPage from "../../../../components/content/MathSectionLandingPage.astro";
+import { mathSections } from "../../../../data/mathSections";
+
+const section = mathSections["geometrie"];
+---
+
+<BaseLayout
+  title={"Mathematik Geometrie" + " – Schlaufuchs"}
+  description={section.description}
+>
+  <MathSectionLandingPage section={section} />
+</BaseLayout>
