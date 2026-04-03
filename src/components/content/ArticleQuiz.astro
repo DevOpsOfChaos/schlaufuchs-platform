@@ -2,15 +2,15 @@
 const { quiz } = Astro.props;
 ---
 
-<section class="learn-quiz-shell" data-article-quiz>
-  <div class="learn-entry">
+<section class="learn-quiz-shell" data-article-quiz data-open="false" hidden>
+  <div class="learn-entry" data-entry-panel>
     <p class="eyebrow">Lernmodus</p>
     <h2>{quiz.title}</h2>
     <p class="lead">{quiz.description}</p>
     <button type="button" class="start-button" data-start-quiz>Kurztest starten</button>
   </div>
 
-  <div class="quiz-overlay" hidden data-quiz-overlay>
+  <div class="quiz-overlay" data-quiz-overlay>
     <div class="quiz-dialog" data-quiz-dialog>
       <div class="quiz-dialog-head">
         <div>
@@ -34,11 +34,7 @@ const { quiz } = Astro.props;
             <div class="options">
               {question.options.map((option, optionIndex) => (
                 <label class="option-row">
-                  <input
-                    type="radio"
-                    name={`quiz-${index}`}
-                    value={optionIndex}
-                  />
+                  <input type="radio" name={`quiz-${index}`} value={optionIndex} />
                   <span>{option}</span>
                 </label>
               ))}
@@ -60,47 +56,45 @@ const { quiz } = Astro.props;
   const syncQuizVisibility = () => {
     document.querySelectorAll("[data-article-quiz]").forEach((root) => {
       const learnOn = document.documentElement.dataset.learnMode === "on";
-      root.toggleAttribute("hidden", !learnOn);
+      root.hidden = !learnOn;
       if (!learnOn) {
-        const overlay = root.querySelector("[data-quiz-overlay]");
-        if (overlay) overlay.hidden = true;
+        root.setAttribute("data-open", "false");
         document.body.style.overflow = "";
       }
     });
+  };
+
+  const setQuizOpen = (root, isOpen) => {
+    root.setAttribute("data-open", isOpen ? "true" : "false");
+    document.body.style.overflow = isOpen ? "hidden" : "";
   };
 
   syncQuizVisibility();
   window.addEventListener("learnmode-changed", syncQuizVisibility);
 
   document.querySelectorAll("[data-article-quiz]").forEach((root) => {
-    const start = root.querySelector("[data-start-quiz]");
-    const close = root.querySelector("[data-close-quiz]");
-    const evaluate = root.querySelector("[data-evaluate-quiz]");
-    const overlay = root.querySelector("[data-quiz-overlay]");
-    const questions = Array.from(root.querySelectorAll("[data-question]"));
+    root.addEventListener("click", (event) => {
+      const target = event.target;
 
-    const closeQuiz = () => {
-      if (overlay) overlay.hidden = true;
-      document.body.style.overflow = "";
-    };
+      if (!(target instanceof HTMLElement)) return;
 
-    const openQuiz = () => {
-      if (overlay) overlay.hidden = false;
-      document.body.style.overflow = "hidden";
-    };
+      if (target.closest("[data-start-quiz]")) {
+        setQuizOpen(root, true);
+        return;
+      }
 
-    start?.addEventListener("click", openQuiz);
-    close?.addEventListener("click", closeQuiz);
+      if (target.closest("[data-close-quiz]")) {
+        setQuizOpen(root, false);
+        return;
+      }
 
-    overlay?.addEventListener("click", (event) => {
-      if (event.target === overlay) closeQuiz();
-    });
-
-    document.addEventListener("keydown", (event) => {
-      if (event.key === "Escape" && overlay && !overlay.hidden) {
-        closeQuiz();
+      if (target.matches("[data-quiz-overlay]")) {
+        setQuizOpen(root, false);
       }
     });
+
+    const evaluate = root.querySelector("[data-evaluate-quiz]");
+    const questions = Array.from(root.querySelectorAll("[data-question]"));
 
     evaluate?.addEventListener("click", () => {
       questions.forEach((question) => {
@@ -130,32 +124,168 @@ const { quiz } = Astro.props;
       });
     });
   });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape") return;
+    document.querySelectorAll("[data-article-quiz][data-open='true']").forEach((root) => {
+      root.setAttribute("data-open", "false");
+    });
+    document.body.style.overflow = "";
+  });
 </script>
 
 <style>
   .learn-quiz-shell { margin-top: 1.6rem; }
-  .learn-entry { padding: 1.15rem 1.2rem; border-radius: 24px; border: 1px solid var(--border); background: var(--card-bg); box-shadow: var(--shadow-soft); }
-  .eyebrow { margin: 0 0 0.4rem; color: var(--text-soft); font-size: 0.92rem; }
-  .learn-entry h2, .quiz-dialog h2 { margin: 0; color: var(--text-strong); font-size: 1.4rem; line-height: 1.15; }
-  .lead { margin: 0.8rem 0 0; color: var(--text-soft); line-height: 1.65; }
-  .start-button, .close-button, .evaluate-button { min-height: 2.8rem; padding: 0 1rem; border-radius: 14px; border: 1px solid var(--border); background: var(--surface); color: var(--text-strong); box-shadow: var(--shadow-soft); font: inherit; cursor: pointer; }
+  .learn-entry {
+    padding: 1.15rem 1.2rem;
+    border-radius: 24px;
+    border: 1px solid var(--border);
+    background: var(--card-bg);
+    box-shadow: var(--shadow-soft);
+  }
+
+  .eyebrow {
+    margin: 0 0 0.4rem;
+    color: var(--text-soft);
+    font-size: 0.92rem;
+  }
+
+  .learn-entry h2,
+  .quiz-dialog h2 {
+    margin: 0;
+    color: var(--text-strong);
+    font-size: 1.4rem;
+    line-height: 1.15;
+  }
+
+  .lead {
+    margin: 0.8rem 0 0;
+    color: var(--text-soft);
+    line-height: 1.65;
+  }
+
+  .start-button,
+  .close-button,
+  .evaluate-button {
+    min-height: 2.8rem;
+    padding: 0 1rem;
+    border-radius: 14px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text-strong);
+    box-shadow: var(--shadow-soft);
+    font: inherit;
+    cursor: pointer;
+  }
+
   .start-button { margin-top: 1rem; }
-  .quiz-overlay { position: fixed; inset: 0; z-index: 120; display: grid; place-items: center; padding: 1.2rem; background: rgba(2, 8, 23, 0.76); backdrop-filter: blur(8px); }
-  .quiz-dialog { width: min(100%, 56rem); max-height: min(88vh, 58rem); overflow: auto; padding: 1.2rem; border-radius: 26px; border: 1px solid var(--border); background: var(--card-bg); box-shadow: var(--shadow-card); }
-  .quiz-dialog-head { display: flex; align-items: start; justify-content: space-between; gap: 1rem; }
-  .quiz-question-list { display: grid; gap: 1rem; margin-top: 1rem; }
-  .quiz-question { margin: 0; padding: 1rem; border-radius: 20px; border: 1px solid var(--border); background: var(--surface); }
-  .quiz-question legend { padding: 0; color: var(--text-strong); font-weight: 700; margin-bottom: 0.8rem; }
-  .options { display: grid; gap: 0.7rem; }
-  .option-row { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 0.7rem; align-items: start; color: var(--text); }
-  .result-box { margin-top: 0.9rem; padding: 0.85rem 0.95rem; border-radius: 16px; line-height: 1.6; }
-  .result-box.pending { background: rgba(148, 163, 184, 0.12); color: var(--text); }
-  .result-box.correct { background: rgba(34, 197, 94, 0.14); color: var(--text-strong); }
-  .result-box.wrong { background: rgba(239, 68, 68, 0.14); color: var(--text-strong); }
-  .quiz-actions { display: flex; justify-content: flex-end; margin-top: 1rem; }
+
+  .quiz-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 120;
+    display: none;
+    place-items: center;
+    padding: 1.2rem;
+    background: rgba(2, 8, 23, 0.76);
+    backdrop-filter: blur(8px);
+  }
+
+  .learn-quiz-shell[data-open="true"] .quiz-overlay {
+    display: grid;
+  }
+
+  .quiz-dialog {
+    width: min(100%, 56rem);
+    max-height: min(88vh, 58rem);
+    overflow: auto;
+    padding: 1.2rem;
+    border-radius: 26px;
+    border: 1px solid var(--border);
+    background: var(--card-bg);
+    box-shadow: var(--shadow-card);
+  }
+
+  .quiz-dialog-head {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .quiz-question-list {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .quiz-question {
+    margin: 0;
+    padding: 1rem;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+  }
+
+  .quiz-question legend {
+    padding: 0;
+    color: var(--text-strong);
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+  }
+
+  .options {
+    display: grid;
+    gap: 0.7rem;
+  }
+
+  .option-row {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 0.7rem;
+    align-items: start;
+    color: var(--text);
+  }
+
+  .result-box {
+    margin-top: 0.9rem;
+    padding: 0.85rem 0.95rem;
+    border-radius: 16px;
+    line-height: 1.6;
+  }
+
+  .result-box.pending {
+    background: rgba(148, 163, 184, 0.12);
+    color: var(--text);
+  }
+
+  .result-box.correct {
+    background: rgba(34, 197, 94, 0.14);
+    color: var(--text-strong);
+  }
+
+  .result-box.wrong {
+    background: rgba(239, 68, 68, 0.14);
+    color: var(--text-strong);
+  }
+
+  .quiz-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+  }
+
   @media (max-width: 720px) {
-    .quiz-dialog-head { flex-direction: column; }
-    .quiz-actions { justify-content: stretch; }
-    .evaluate-button { width: 100%; }
+    .quiz-dialog-head {
+      flex-direction: column;
+    }
+
+    .quiz-actions {
+      justify-content: stretch;
+    }
+
+    .evaluate-button {
+      width: 100%;
+    }
   }
 </style>
