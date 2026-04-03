@@ -134,6 +134,10 @@ const subjectLabel = subjectLabelMap[entry.data.subject] ?? entry.data.subject;
     box-shadow: var(--shadow-soft);
   }
 
+  .article-body :global(h1:first-child) {
+    display: none;
+  }
+
   .article-body :global(h2) {
     margin: 2rem 0 0.85rem;
     color: var(--text-strong);
@@ -154,19 +158,66 @@ const subjectLabel = subjectLabelMap[entry.data.subject] ?? entry.data.subject;
     line-height: 1.72;
   }
 
-  .article-body :global(code) {
-    padding: 0.14rem 0.4rem;
-    border-radius: 8px;
-    background: var(--surface-2);
+  .article-body :global(figure) {
+    margin: 1.4rem 0 1.8rem;
+  }
+
+  .article-body :global(img) {
+    display: block;
+    width: min(100%, 760px);
+    height: auto;
+    margin: 0;
+    border-radius: 22px;
     border: 1px solid var(--border);
+    background: #ffffff;
+    box-shadow: var(--shadow-soft);
+  }
+
+  .article-body :global(code) {
+    padding: 0.14rem 0.42rem;
+    border-radius: 8px;
+    border: 1px solid rgba(148, 163, 184, 0.22);
+    background: rgba(15, 23, 42, 0.04);
+    color: #1d4ed8;
+    font-size: 0.94em;
   }
 
   .article-body :global(pre) {
+    width: fit-content;
+    max-width: 100%;
+    margin: 0.9rem 0 1.15rem;
     overflow-x: auto;
-    padding: 1rem;
+    padding: 0.95rem 1rem;
     border-radius: 18px;
     border: 1px solid var(--border);
-    background: var(--surface);
+    background: rgba(15, 23, 42, 0.05);
+    box-shadow: var(--shadow-soft);
+  }
+
+  .article-body :global(pre code) {
+    display: block;
+    min-width: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: #6d28d9;
+    font-size: 0.98rem;
+    line-height: 1.7;
+  }
+
+  :global(html[data-theme="dark"]) .article-body :global(code) {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: #93c5fd;
+  }
+
+  :global(html[data-theme="dark"]) .article-body :global(pre) {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  :global(html[data-theme="dark"]) .article-body :global(pre code) {
+    color: #c4b5fd;
   }
 
   .article-aside {

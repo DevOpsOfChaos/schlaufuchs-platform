@@ -11,8 +11,6 @@ tags:
 draft: false
 ---
 
-# pwd verstehen
-
 ![Terminal-Beispiel](./pwd-terminal-beispiel.svg)
 
 ## Worum geht es?
@@ -67,25 +65,6 @@ Darum ist `pwd` wie ein kurzer Standort-Check.
 - wenn du vor einem Datei- oder Löschbefehl sicher sein willst
 - wenn du im Unterricht oder in einer Anleitung denselben Pfad nachvollziehen möchtest
 
-## Ein kleines realistisches Beispiel
-
-Stell dir vor, du arbeitest nacheinander so:
-
-```bash
-cd dokumente
-cd linux
-cd shell
-pwd
-```
-
-Dann könnte die Ausgabe so aussehen:
-
-```bash
-/home/user/dokumente/linux/shell
-```
-
-Jetzt weißt du sofort, an welchem Ort du bist.
-
 ## `pwd` und Pfade
 
 `pwd` gibt normalerweise einen **vollständigen Pfad** aus.
@@ -100,7 +79,7 @@ Das ist hilfreich, weil du damit:
 
 ## Der Unterschied zwischen logisch und physisch
 
-Es gibt zwei wichtige Sichtweisen auf deinen aktuellen Pfad:
+Es gibt zwei wichtige Sichtweisen auf deinen aktuellen Pfad.
 
 ### Logischer Pfad
 
