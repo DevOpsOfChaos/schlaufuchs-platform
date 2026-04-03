@@ -13,66 +13,40 @@ const moonIcon = `
 </svg>`;
 ---
 
-<div class="theme-toggle-shell" data-theme-toggle>
-  <div class="theme-light">
-    <ActionIcon
-      label="Light Mode"
-      tooltip="Heller Modus"
-      icon={sunIcon}
-      type="button"
-    />
-  </div>
-  <div class="theme-dark">
-    <ActionIcon
-      label="Dark Mode"
-      tooltip="Dunkler Modus"
-      icon={moonIcon}
-      type="button"
-    />
-  </div>
+<div class="theme-toggle-shell" data-theme-toggle data-sun={sunIcon} data-moon={moonIcon}>
+  <ActionIcon
+    label="Theme wechseln"
+    tooltip="Zwischen Light und Dark Mode wechseln"
+    icon={moonIcon}
+    type="button"
+  />
 </div>
 
 <script>
   const root = document.documentElement;
   const shell = document.querySelector("[data-theme-toggle]");
-  if (shell) {
-    const button = shell.querySelector("button");
-    const render = () => {
-      const isDark = root.dataset.theme === "dark";
-      shell.classList.toggle("is-dark", isDark);
-      shell.classList.toggle("is-light", !isDark);
-      if (button) {
-        button.setAttribute("aria-label", isDark ? "Light Mode aktivieren" : "Dark Mode aktivieren");
-        button.setAttribute("data-tooltip", isDark ? "Zu Light Mode wechseln" : "Zu Dark Mode wechseln");
-      }
-    };
+  const button = shell?.querySelector("button");
+  const iconWrap = shell?.querySelector(".icon-wrap");
+  const sun = shell?.getAttribute("data-sun") ?? "";
+  const moon = shell?.getAttribute("data-moon") ?? "";
 
+  const render = () => {
+    if (!button || !iconWrap) return;
+    const isDark = root.dataset.theme === "dark";
+    iconWrap.innerHTML = isDark ? sun : moon;
+    button.setAttribute("aria-label", isDark ? "Zu Light Mode wechseln" : "Zu Dark Mode wechseln");
+    button.setAttribute("data-tooltip", isDark ? "Zu Light Mode wechseln" : "Zu Dark Mode wechseln");
+  };
+
+  render();
+
+  button?.addEventListener("click", () => {
+    const next = root.dataset.theme === "dark" ? "light" : "dark";
+    root.dataset.theme = next;
+    try {
+      localStorage.setItem("schlaufuchs-theme", next);
+    } catch {}
     render();
-
-    button?.addEventListener("click", () => {
-      const next = root.dataset.theme === "dark" ? "light" : "dark";
-      root.dataset.theme = next;
-      try {
-        localStorage.setItem("schlaufuchs-theme", next);
-      } catch {}
-      render();
-      window.dispatchEvent(new CustomEvent("theme-changed", { detail: next }));
-    });
-  }
+    window.dispatchEvent(new CustomEvent("theme-changed", { detail: next }));
+  });
 </script>
-
-<style>
-  .theme-toggle-shell {
-    display: contents;
-  }
-
-  .theme-light,
-  .theme-dark {
-    display: none;
-  }
-
-  .theme-toggle-shell.is-light .theme-light,
-  .theme-toggle-shell.is-dark .theme-dark {
-    display: contents;
-  }
-</style>
