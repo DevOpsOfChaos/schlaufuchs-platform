@@ -1,11 +1,14 @@
 ---
-const { page } = Astro.props;
+import Breadcrumbs from "../ui/Breadcrumbs.astro";
+
+const { page, breadcrumbs = [], related = [] } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const mascotSrc = `${base}${page.mascot.replace(/^\//, "")}`;
 ---
 
 <section class="leaf-hero">
   <div class="leaf-copy">
+    <Breadcrumbs items={breadcrumbs} />
     <p class="eyebrow">{page.eyebrow}</p>
     <h1>{page.title}</h1>
     <p class="lead">{page.description}</p>
@@ -24,6 +27,20 @@ const mascotSrc = `${base}${page.mascot.replace(/^\//, "")}`;
   ))}
 </section>
 
+{related.length > 0 && (
+  <section class="related">
+    <h2>Weiter in diesem Thema</h2>
+    <div class="related-grid">
+      {related.map((item) => (
+        <a class={`related-card ${item.tone}`} href={`${base}${item.href.replace(/^\//, "")}`}>
+          <strong>{item.title}</strong>
+          <span>{item.text}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+)}
+
 <style>
   .leaf-hero { position: relative; overflow: hidden; display: grid; grid-template-columns: minmax(0,1fr) auto; gap:1.2rem; align-items:end; padding:2.1rem 2.1rem 0; border:1px solid var(--border); border-radius:28px; background: var(--card-bg); box-shadow: var(--shadow-card); }
   .leaf-hero::after { content:""; position:absolute; right:-90px; bottom:-110px; width:240px; height:240px; border-radius:50%; background:rgba(127,140,255,.12); }
@@ -36,14 +53,20 @@ const mascotSrc = `${base}${page.mascot.replace(/^\//, "")}`;
   .leaf-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1.15rem; margin-top:1.4rem; }
   .leaf-card { position:relative; overflow:hidden; min-height:14rem; padding:1.55rem; border:1px solid var(--border); border-radius:24px; box-shadow: var(--shadow-soft); }
   .leaf-card::after { content:""; position:absolute; right:-2.25rem; bottom:-2.5rem; width:7.8rem; height:7.8rem; border-radius:999px; background:rgba(255,255,255,.07); pointer-events:none; }
-  .leaf-card.math-a,.leaf-card.web-a,.leaf-card.cs-a,.leaf-card.linux-a,.leaf-card.ee-a { background: linear-gradient(135deg, rgba(93,113,175,.28), rgba(232,237,248,.76)); }
-  .leaf-card.math-b,.leaf-card.web-b,.leaf-card.cs-b,.leaf-card.linux-b,.leaf-card.ee-b { background: linear-gradient(135deg, rgba(95,139,158,.20), rgba(235,244,247,.82)); }
-  .leaf-card.math-c,.leaf-card.web-c,.leaf-card.cs-c,.leaf-card.linux-c,.leaf-card.ee-c { background: linear-gradient(135deg, rgba(173,144,156,.22), rgba(245,239,241,.84)); }
-  :global(html[data-theme="dark"]) .leaf-card.math-a,:global(html[data-theme="dark"]) .leaf-card.web-a,:global(html[data-theme="dark"]) .leaf-card.cs-a,:global(html[data-theme="dark"]) .leaf-card.linux-a,:global(html[data-theme="dark"]) .leaf-card.ee-a { background: linear-gradient(135deg, rgba(72,95,164,.36), rgba(22,31,58,.92)); }
-  :global(html[data-theme="dark"]) .leaf-card.math-b,:global(html[data-theme="dark"]) .leaf-card.web-b,:global(html[data-theme="dark"]) .leaf-card.cs-b,:global(html[data-theme="dark"]) .leaf-card.linux-b,:global(html[data-theme="dark"]) .leaf-card.ee-b { background: linear-gradient(135deg, rgba(28,71,87,.40), rgba(18,37,45,.92)); }
-  :global(html[data-theme="dark"]) .leaf-card.math-c,:global(html[data-theme="dark"]) .leaf-card.web-c,:global(html[data-theme="dark"]) .leaf-card.cs-c,:global(html[data-theme="dark"]) .leaf-card.linux-c,:global(html[data-theme="dark"]) .leaf-card.ee-c { background: linear-gradient(135deg, rgba(96,72,104,.34), rgba(49,38,43,.92)); }
+  .leaf-card.math-a,.leaf-card.web-a,.leaf-card.cs-a,.leaf-card.linux-a,.leaf-card.ee-a,.related-card.math-a,.related-card.web-a,.related-card.cs-a,.related-card.linux-a,.related-card.ee-a { background: linear-gradient(135deg, rgba(93,113,175,.28), rgba(232,237,248,.76)); }
+  .leaf-card.math-b,.leaf-card.web-b,.leaf-card.cs-b,.leaf-card.linux-b,.leaf-card.ee-b,.related-card.math-b,.related-card.web-b,.related-card.cs-b,.related-card.linux-b,.related-card.ee-b { background: linear-gradient(135deg, rgba(95,139,158,.20), rgba(235,244,247,.82)); }
+  .leaf-card.math-c,.leaf-card.web-c,.leaf-card.cs-c,.leaf-card.linux-c,.leaf-card.ee-c,.related-card.math-c,.related-card.web-c,.related-card.cs-c,.related-card.linux-c,.related-card.ee-c { background: linear-gradient(135deg, rgba(173,144,156,.22), rgba(245,239,241,.84)); }
+  :global(html[data-theme="dark"]) .leaf-card.math-a,:global(html[data-theme="dark"]) .leaf-card.web-a,:global(html[data-theme="dark"]) .leaf-card.cs-a,:global(html[data-theme="dark"]) .leaf-card.linux-a,:global(html[data-theme="dark"]) .leaf-card.ee-a,:global(html[data-theme="dark"]) .related-card.math-a,:global(html[data-theme="dark"]) .related-card.web-a,:global(html[data-theme="dark"]) .related-card.cs-a,:global(html[data-theme="dark"]) .related-card.linux-a,:global(html[data-theme="dark"]) .related-card.ee-a { background: linear-gradient(135deg, rgba(72,95,164,.36), rgba(22,31,58,.92)); }
+  :global(html[data-theme="dark"]) .leaf-card.math-b,:global(html[data-theme="dark"]) .leaf-card.web-b,:global(html[data-theme="dark"]) .leaf-card.cs-b,:global(html[data-theme="dark"]) .leaf-card.linux-b,:global(html[data-theme="dark"]) .leaf-card.ee-b,:global(html[data-theme="dark"]) .related-card.math-b,:global(html[data-theme="dark"]) .related-card.web-b,:global(html[data-theme="dark"]) .related-card.cs-b,:global(html[data-theme="dark"]) .related-card.linux-b,:global(html[data-theme="dark"]) .related-card.ee-b { background: linear-gradient(135deg, rgba(28,71,87,.40), rgba(18,37,45,.92)); }
+  :global(html[data-theme="dark"]) .leaf-card.math-c,:global(html[data-theme="dark"]) .leaf-card.web-c,:global(html[data-theme="dark"]) .leaf-card.cs-c,:global(html[data-theme="dark"]) .leaf-card.linux-c,:global(html[data-theme="dark"]) .leaf-card.ee-c,:global(html[data-theme="dark"]) .related-card.math-c,:global(html[data-theme="dark"]) .related-card.web-c,:global(html[data-theme="dark"]) .related-card.cs-c,:global(html[data-theme="dark"]) .related-card.linux-c,:global(html[data-theme="dark"]) .related-card.ee-c { background: linear-gradient(135deg, rgba(96,72,104,.34), rgba(49,38,43,.92)); }
   h2 { margin:0; color:var(--text-strong); font-size:clamp(1.55rem,2vw,1.9rem); line-height:1.08; }
   .leaf-card p { margin:.9rem 0 0; color:var(--text); line-height:1.65; }
-  @media (max-width:980px){ .leaf-hero{grid-template-columns:1fr; padding:1.8rem 1.4rem 0;} .leaf-copy{padding-bottom:1rem;} .leaf-mascot{justify-self:center; width:min(100%,10rem);} .leaf-grid{grid-template-columns:1fr;} }
+  .related { margin-top: 1.5rem; }
+  .related > h2 { margin:0 0 .9rem; }
+  .related-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; }
+  .related-card { padding:1.25rem; border:1px solid var(--border); border-radius:20px; color:inherit; box-shadow:var(--shadow-soft); }
+  .related-card strong { display:block; color:var(--text-strong); }
+  .related-card span { display:block; margin-top:.5rem; color:var(--text); line-height:1.5; }
+  @media (max-width:980px){ .leaf-hero{grid-template-columns:1fr; padding:1.8rem 1.4rem 0;} .leaf-copy{padding-bottom:1rem;} .leaf-mascot{justify-self:center; width:min(100%,10rem);} .leaf-grid,.related-grid{grid-template-columns:1fr;} }
   @media (max-width:640px){ .leaf-card{min-height:13rem; padding:1.35rem;} }
 </style>
