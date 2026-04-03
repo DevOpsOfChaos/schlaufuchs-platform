@@ -1,6 +1,7 @@
 ---
 import { mainNavigation } from "../../data/navigation/main";
 import ThemeToggle from "./ThemeToggle.astro";
+import ActionIcon from "./ActionIcon.astro";
 
 const base = import.meta.env.BASE_URL;
 const logoSrc = `${base}assets/brand/logo_alpha.png`;
@@ -12,6 +13,24 @@ const isActive = (href: string) => {
   if (href === "/") return pathname === base || pathname === `${base}`;
   return pathname.startsWith(fullHref);
 };
+
+const searchIcon = `
+<svg viewBox="0 0 24 24" aria-hidden="true">
+  <circle cx="11" cy="11" r="6.5"></circle>
+  <path d="M16 16l4.5 4.5"></path>
+</svg>`;
+
+const learnIcon = `
+<svg viewBox="0 0 24 24" aria-hidden="true">
+  <path d="M3 7.5 12 4l9 3.5L12 11 3 7.5Z"></path>
+  <path d="M6 9.2v4.2c0 1.8 2.7 3.3 6 3.3s6-1.5 6-3.3V9.2"></path>
+</svg>`;
+
+const presentIcon = `
+<svg viewBox="0 0 24 24" aria-hidden="true">
+  <rect x="4" y="5" width="16" height="10" rx="1.6"></rect>
+  <path d="M12 15v4M9 19h6"></path>
+</svg>`;
 ---
 
 <header class="topbar-shell">
@@ -35,6 +54,7 @@ const isActive = (href: string) => {
               href={normalizeHref(item.href)}
               aria-label={item.label}
               title={item.label}
+              data-tooltip={item.label}
               class:list={{ active: isActive(item.href) }}
             >
               <span class="nav-text">{item.label}</span>
@@ -46,9 +66,26 @@ const isActive = (href: string) => {
     </nav>
 
     <div class="actions">
-      <a class="ghost-action" href={`${base}suchen`} aria-label="Suche öffnen">⌕</a>
-      <button class="ghost-action is-passive" type="button" aria-label="Lernmodus folgt später">◧</button>
-      <button class="ghost-action is-passive" type="button" aria-label="Präsentationsmodus folgt später">▣</button>
+      <ActionIcon
+        label="Suche"
+        tooltip="Suche öffnen"
+        href={`${base}suchen`}
+        icon={searchIcon}
+      />
+      <ActionIcon
+        label="Lernmodus"
+        tooltip="Lernmodus folgt später"
+        icon={learnIcon}
+        passive={true}
+        type="button"
+      />
+      <ActionIcon
+        label="Präsentationsmodus"
+        tooltip="Präsentationsmodus folgt später"
+        icon={presentIcon}
+        passive={true}
+        type="button"
+      />
       <ThemeToggle />
     </div>
   </div>
@@ -61,6 +98,7 @@ const isActive = (href: string) => {
     border-radius: 999px; border: 1px solid var(--border); background: var(--topbar-bg);
     backdrop-filter: blur(18px); display: flex; align-items: center; gap: 1rem; box-shadow: var(--shadow-soft);
   }
+
   .brand { display: flex; align-items: center; gap: 0.85rem; min-width: 0; flex-shrink: 0; }
   .brand-mark {
     width: 3.1rem; height: 3.1rem; border-radius: 16px;
@@ -77,6 +115,7 @@ const isActive = (href: string) => {
   .nav ul::-webkit-scrollbar { display: none; }
 
   .nav a {
+    position: relative;
     display: inline-flex; align-items: center; justify-content: center; min-height: 3rem; min-width: 3rem;
     padding: 0 1rem; border-radius: 999px; color: var(--text-muted); font-weight: 650; white-space: nowrap;
     transition: background 140ms ease, color 140ms ease, border-color 140ms ease;
@@ -90,15 +129,39 @@ const isActive = (href: string) => {
     box-shadow: var(--shadow-soft);
   }
 
+  .nav a::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 0.55rem);
+    transform: translateX(-50%) translateY(4px);
+    min-width: max-content;
+    max-width: 14rem;
+    padding: 0.45rem 0.7rem;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text-strong);
+    box-shadow: var(--shadow-soft);
+    font-size: 0.84rem;
+    line-height: 1.25;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition:
+      opacity 120ms ease,
+      transform 120ms ease;
+    z-index: 70;
+  }
+
+  .nav a:hover::after,
+  .nav a:focus-visible::after {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+
   .nav-short { display: none; font-size: 1rem; line-height: 1; }
   .actions { display: flex; align-items: center; gap: 0.55rem; flex-shrink: 0; }
-  .ghost-action {
-    width: 2.9rem; height: 2.9rem; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text);
-    display: inline-flex; align-items: center; justify-content: center; cursor: pointer; box-shadow: var(--shadow-soft);
-    transition: transform 140ms ease, border-color 140ms ease, background 140ms ease;
-  }
-  .ghost-action:hover { transform: translateY(-1px); border-color: var(--border-strong); background: var(--surface-2); }
-  .ghost-action.is-passive { opacity: 0.92; }
 
   @media (max-width: 1320px) {
     .brand-copy span { display: none; }
@@ -113,5 +176,11 @@ const isActive = (href: string) => {
     .nav ul { justify-content: flex-start; }
     .actions { width: 100%; justify-content: flex-end; }
     .brand-copy span { display: block; white-space: normal; }
+  }
+
+  @media (max-width: 720px) {
+    .nav a::after {
+      display: none;
+    }
   }
 </style>
