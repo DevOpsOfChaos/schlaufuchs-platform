@@ -3,51 +3,52 @@ import BaseLayout from "../../../../../layouts/BaseLayout.astro";
 import ArticleLayout from "../../../../../components/content/ArticleLayout.astro";
 import { getCollection, render } from "astro:content";
 
-const articleMap = {
-  pwd: "linux/shell/navigation/pwd",
-  cd: "linux/shell/navigation/cd",
-  pfade: "linux/shell/navigation/pfade",
-};
-
-export async function getStaticPaths() {
-  return Object.keys(articleMap).map((slug) => ({
-    params: { slug },
-  }));
-}
-
-const { slug } = Astro.params;
-const articleId = articleMap[slug];
-
-if (!articleId) {
-  throw new Error(`Unknown linux navigation article slug: ${slug}`);
-}
-
-const articles = await getCollection("articles");
-const entry = articles.find((item) => item.id.replace(/\.(md|mdx)$/i, "") === articleId);
-
-if (!entry) {
-  throw new Error(`Article not found for: ${articleId}`);
-}
-
-const { Content, headings } = await render(entry);
-
 const navigationSet = [
   {
     slug: "pwd",
+    articleId: "linux/shell/navigation/pwd",
     title: "pwd verstehen",
     href: "/fachbereiche/linux/shell/navigation/pwd",
   },
   {
     slug: "cd",
+    articleId: "linux/shell/navigation/cd",
     title: "cd verstehen",
     href: "/fachbereiche/linux/shell/navigation/cd",
   },
   {
     slug: "pfade",
+    articleId: "linux/shell/navigation/pfade",
     title: "Pfade verstehen",
     href: "/fachbereiche/linux/shell/navigation/pfade",
   },
 ];
+
+export async function getStaticPaths() {
+  return [
+    { params: { slug: "pwd" } },
+    { params: { slug: "cd" } },
+    { params: { slug: "pfade" } },
+  ];
+}
+
+const { slug } = Astro.params;
+const current = navigationSet.find((item) => item.slug === slug);
+
+if (!current) {
+  throw new Error(`Unknown linux navigation article slug: ${slug}`);
+}
+
+const articles = await getCollection("articles");
+const entry = articles.find(
+  (item) => item.id.replace(/\.(md|mdx)$/i, "") === current.articleId,
+);
+
+if (!entry) {
+  throw new Error(`Article not found for: ${current.articleId}`);
+}
+
+const { Content, headings } = await render(entry);
 
 const currentIndex = navigationSet.findIndex((item) => item.slug === slug);
 const prevLink = currentIndex > 0 ? navigationSet[currentIndex - 1] : null;
