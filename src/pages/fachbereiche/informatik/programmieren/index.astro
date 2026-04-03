@@ -1,0 +1,14 @@
+---
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import InformatikSectionLandingPage from "../../../../components/content/InformatikSectionLandingPage.astro";
+import { informatikSections } from "../../../../data/informatikSections";
+
+const section = informatikSections["programmieren"];
+---
+
+<BaseLayout
+  title={"Informatik Programmieren" + " – Schlaufuchs"}
+  description={section.description}
+>
+  <InformatikSectionLandingPage section={section} />
+</BaseLayout>
