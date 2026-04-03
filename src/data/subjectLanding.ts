@@ -2,106 +2,161 @@ export const subjectLanding = {
   mathematik: {
     title: "Mathematik",
     eyebrow: "Fachbereich",
-    description:
-      "Grundlagen, Rechenwege, Funktionen und Übungen in einer ruhigen und klaren Lernumgebung.",
+    description: "Grundlagen, Rechenwege, Funktionen und Übungen in einer ruhigen und klaren Lernumgebung.",
     mascot: "/assets/mascots/math.png",
     icon: "/assets/icons/math.png",
     accent: "math",
-    intro:
-      "Von Grundlagen bis zu typischen Schulthemen. Klare Erklärungen, Beispiele und später passende Übungsseiten.",
-    links: [
-      { label: "Grundlagen", href: "/fachbereiche/mathematik" },
-      { label: "Aufgaben", href: "/fachbereiche/mathematik" },
-      { label: "Suchen", href: "/suchen" },
-    ],
-    highlights: [
-      "Funktionen und Gleichungen",
-      "Geometrie und Trigonometrie",
-      "Ruhige Infoseiten mit späterem Übungsmodus",
+    intro: "Von Grundlagen bis zu typischen Schulthemen. Wenig Text, klare Einstiege und saubere Oberthemen.",
+    topics: [
+      {
+        title: "Grundlagen",
+        text: "Zahlen, Terme, Brüche und erste Rechenregeln.",
+        href: "/fachbereiche/mathematik",
+        tone: "math",
+        items: ["Zahlen", "Brüche", "Terme"],
+      },
+      {
+        title: "Funktionen",
+        text: "Lineare, quadratische und weitere typische Funktionstypen.",
+        href: "/fachbereiche/mathematik",
+        tone: "math",
+        items: ["Linear", "Quadratisch", "Graphen"],
+      },
+      {
+        title: "Geometrie",
+        text: "Flächen, Körper und räumliches Denken kompakt aufgebaut.",
+        href: "/fachbereiche/mathematik",
+        tone: "math",
+        items: ["Flächen", "Volumen", "Trigonometrie"],
+      },
     ],
   },
   "web-development": {
     title: "Web Development",
     eyebrow: "Fachbereich",
-    description:
-      "HTML, CSS und moderner Frontend-Einstieg mit klarer Struktur und direktem Praxisbezug.",
+    description: "HTML, CSS und moderner Frontend-Einstieg mit klarer Struktur und direktem Praxisbezug.",
     mascot: "/assets/mascots/html_css.png",
     icon: "/assets/icons/html_css.png",
     accent: "web",
-    intro:
-      "Sauber erklärte Web-Grundlagen, klare Beispiele und kompakte Einstiege in Struktur, Gestaltung und Praxis.",
-    links: [
-      { label: "HTML", href: "/fachbereiche/web-development" },
-      { label: "CSS", href: "/fachbereiche/web-development" },
-      { label: "Suchen", href: "/suchen" },
-    ],
-    highlights: [
-      "HTML und semantische Struktur",
-      "CSS, Layout und responsive Design",
-      "Später mit Übungen und Referenzseiten",
+    intro: "Die Fachseite verweist auf größere Oberthemen. Darunter kommen später Unterthemen und direkte Infoseiten.",
+    topics: [
+      {
+        title: "HTML",
+        text: "Seitenstruktur, Elemente und semantisches Markup.",
+        href: "/fachbereiche/web-development",
+        tone: "web",
+        items: ["Grundstruktur", "Elemente", "Semantik"],
+      },
+      {
+        title: "CSS",
+        text: "Farben, Layout, Flexbox, Grid und responsive Gestaltung.",
+        href: "/fachbereiche/web-development",
+        tone: "web",
+        items: ["Layout", "Flexbox", "Grid"],
+      },
+      {
+        title: "Praxis",
+        text: "Seitenaufbau, Komponenten und saubere Frontend-Grundlagen.",
+        href: "/fachbereiche/web-development",
+        tone: "web",
+        items: ["Komponenten", "Responsiv", "Praxis"],
+      },
     ],
   },
   informatik: {
     title: "Informatik",
     eyebrow: "Fachbereich",
-    description:
-      "Programmierung, Logik und technische Grundlagen verständlich und systematisch aufgebaut.",
+    description: "Programmierung, Logik und technische Grundlagen verständlich und systematisch aufgebaut.",
     mascot: "/assets/mascots/hacker.png",
     icon: "/assets/icons/informatik.png",
     accent: "cs",
-    intro:
-      "Programmieren mit klarer Struktur. Grundlagen, Denkweise und spätere Lernpfade für C, Python und Informatik-Themen.",
-    links: [
-      { label: "Programmierung", href: "/fachbereiche/informatik" },
-      { label: "Grundlagen", href: "/fachbereiche/informatik" },
-      { label: "Suchen", href: "/suchen" },
-    ],
-    highlights: [
-      "C, Python und Programmierlogik",
-      "Informatik-Grundlagen",
-      "Infos zuerst, Übungen später ergänzbar",
+    intro: "Klare Oberthemen für Programmierung und Informatik. Später folgen Unterthemen und direkte Inhaltsseiten.",
+    topics: [
+      {
+        title: "Programmieren",
+        text: "C, Python und grundlegende Denkweisen beim Programmieren.",
+        href: "/fachbereiche/informatik",
+        tone: "cs",
+        items: ["C", "Python", "Logik"],
+      },
+      {
+        title: "Grundlagen",
+        text: "Algorithmen, Datentypen und Strukturierung von Programmen.",
+        href: "/fachbereiche/informatik",
+        tone: "cs",
+        items: ["Algorithmen", "Datentypen", "Struktur"],
+      },
+      {
+        title: "Systemnah",
+        text: "Technische Grundlagen und Verständnis für Rechner und Prozesse.",
+        href: "/fachbereiche/informatik",
+        tone: "cs",
+        items: ["Prozesse", "Speicher", "Systeme"],
+      },
     ],
   },
   linux: {
     title: "Linux",
     eyebrow: "Fachbereich",
-    description:
-      "Shell, Befehle, Systemverständnis und praktische Linux-Themen in moderner Form.",
+    description: "Shell, Befehle, Systemverständnis und praktische Linux-Themen in moderner Form.",
     mascot: "/assets/mascots/linux.png",
     icon: "/assets/icons/linux.png",
     accent: "linux",
-    intro:
-      "Von ersten Kommandos bis zu systemnahen Grundlagen. Kompakt, lesbar und für Desktop wie mobil gedacht.",
-    links: [
-      { label: "Shell", href: "/fachbereiche/linux" },
-      { label: "System", href: "/fachbereiche/linux" },
-      { label: "Suchen", href: "/suchen" },
-    ],
-    highlights: [
-      "Shell und wichtige Befehle",
-      "Dateien, Nutzer und Prozesse",
-      "Später mit Aufgaben und Lernhilfen",
+    intro: "Kompakte Einstiege in Shell und System. Die Oberthemen führen später auf Unterbereiche und Infoseiten.",
+    topics: [
+      {
+        title: "Shell",
+        text: "Navigation, Dateien und die wichtigsten Befehle für den Einstieg.",
+        href: "/fachbereiche/linux",
+        tone: "linux",
+        items: ["Navigation", "Dateien", "Befehle"],
+      },
+      {
+        title: "System",
+        text: "Nutzer, Rechte, Prozesse und systemnahe Grundlagen.",
+        href: "/fachbereiche/linux",
+        tone: "linux",
+        items: ["Nutzer", "Rechte", "Prozesse"],
+      },
+      {
+        title: "Praxis",
+        text: "Alltagswissen für Terminal, Konfiguration und sauberes Arbeiten.",
+        href: "/fachbereiche/linux",
+        tone: "linux",
+        items: ["Terminal", "Editoren", "Konfiguration"],
+      },
     ],
   },
   elektrotechnik: {
     title: "Elektrotechnik",
     eyebrow: "Fachbereich",
-    description:
-      "Elektronik, Daten und Signale, technische Grundlagen und kompakte Lernwege.",
+    description: "Elektronik, Daten und Signale, technische Grundlagen und kompakte Lernwege.",
     mascot: "/assets/mascots/electro.png",
     icon: "/assets/icons/elektrotechnik.png",
     accent: "ee",
-    intro:
-      "Elektronische Grundlagen, Schaltungen und Daten & Signale in einem einheitlichen, ruhigen Fachbereich.",
-    links: [
-      { label: "Elektronik", href: "/fachbereiche/elektrotechnik" },
-      { label: "Daten & Signale", href: "/fachbereiche/elektrotechnik" },
-      { label: "Suchen", href: "/suchen" },
-    ],
-    highlights: [
-      "Elektronik und Schaltungen",
-      "Daten & Signale als Teilbereich",
-      "Geeignet für Info- und Übungsseiten",
+    intro: "Der Fachbereich bündelt größere Themen und verweist später auf Unterthemen und direkte Infoseiten.",
+    topics: [
+      {
+        title: "Elektronik",
+        text: "Bauteile, Schaltungen und technische Grundprinzipien.",
+        href: "/fachbereiche/elektrotechnik",
+        tone: "ee",
+        items: ["Bauteile", "Schaltungen", "Grundlagen"],
+      },
+      {
+        title: "Daten & Signale",
+        text: "Übertragung, Signalformen und technische Kommunikation.",
+        href: "/fachbereiche/elektrotechnik",
+        tone: "signals",
+        items: ["Signale", "Übertragung", "Netze"],
+      },
+      {
+        title: "Praxis",
+        text: "Anwendungsnahe Einstiege in Messung, Verständnis und Aufbau.",
+        href: "/fachbereiche/elektrotechnik",
+        tone: "ee",
+        items: ["Messung", "Aufbau", "Praxis"],
+      },
     ],
   },
 } as const;
