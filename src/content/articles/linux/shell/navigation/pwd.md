@@ -1,6 +1,6 @@
 ---
 title: "pwd verstehen"
-description: "Wie pwd das aktuelle Verzeichnis anzeigt und warum das wichtig ist."
+description: "Wie pwd das aktuelle Verzeichnis anzeigt und warum das für Orientierung im Terminal wichtig ist."
 subject: linux
 section: "Shell / Navigation"
 level: einfach
@@ -31,6 +31,12 @@ Die Ausgabe ist dann ein Pfad wie:
 ```bash
 /home/user/projekte
 ```
+
+## Wann nutze ich pwd?
+
+- wenn du nicht mehr sicher bist, wo du gerade bist
+- bevor du Dateien bearbeitest oder verschiebst
+- wenn du mehrere Terminal-Schritte nacheinander ausführst
 
 ## Merksatz
 
