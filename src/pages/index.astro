@@ -2,287 +2,422 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 
 const base = import.meta.env.BASE_URL;
-const heroImage = `${base}assets/hero/home_fox_hacker.png`;
 
 const subjects = [
-  { title: "Mathematik", text: "Klar aufgebaut von Grundlagen bis Anwendung.", href: `${base}fachbereiche/mathematik`, icon: "∑" },
-  { title: "Informatik", text: "Verstehen statt auswendig lernen.", href: `${base}fachbereiche/informatik`, icon: "⌘" },
-  { title: "Elektrotechnik", text: "Ruhige Erklärungen für Systeme und Signale.", href: `${base}fachbereiche/elektrotechnik`, icon: "⚡" },
-  { title: "Linux", text: "Shell, Werkzeuge und Praxis sauber erklärt.", href: `${base}fachbereiche/linux`, icon: "◫" },
-  { title: "Web Development", text: "Moderne Webgrundlagen ohne Altlasten.", href: `${base}fachbereiche/web-development`, icon: "</>" },
-  { title: "News", text: "Wichtige Updates an einer Stelle gesammelt.", href: `${base}news`, icon: "◌" },
+  {
+    title: "Mathematik",
+    description: "Funktionen, Gleichungen, Trigonometrie und passende Aufgaben.",
+    href: `${base}fachbereiche/mathematik`,
+    icon: `${base}assets/icons/math.png`,
+    tone: "math",
+  },
+  {
+    title: "Web Development",
+    description: "HTML, CSS und strukturierte Webentwicklung verständlich erklärt.",
+    href: `${base}fachbereiche/web-development`,
+    icon: `${base}assets/icons/html_css.png`,
+    tone: "web",
+  },
+  {
+    title: "Informatik",
+    description: "C, Python, Programmierlogik und systematische Grundlagen.",
+    href: `${base}fachbereiche/informatik`,
+    icon: `${base}assets/icons/informatik.png`,
+    tone: "cs",
+  },
+  {
+    title: "Linux",
+    description: "Shell, Befehle, Systeme und praxisnahes Linux-Wissen.",
+    href: `${base}fachbereiche/linux`,
+    icon: `${base}assets/icons/linux.png`,
+    tone: "linux",
+  },
+  {
+    title: "Daten & Signale",
+    description: "Signale, Übertragung, Netze und technische Grundlagen.",
+    href: `${base}fachbereiche/elektrotechnik`,
+    icon: `${base}assets/icons/daten_signale.png`,
+    tone: "signals",
+  },
+  {
+    title: "Elektrotechnik",
+    description: "Elektronik, Schaltungen und technische Zusammenhänge kompakt erklärt.",
+    href: `${base}fachbereiche/elektrotechnik`,
+    icon: `${base}assets/icons/elektrotechnik.png`,
+    tone: "ee",
+  },
 ];
+
+const heroFox = `${base}assets/hero/home_fox_hacker.png`;
 ---
 
 <BaseLayout
-  title="Schlaufuchs – Moderne Wissens- und Lernplattform"
-  description="Moderne, ruhige Wissens- und Lernplattform für Informatik, Mathematik, Linux, Elektrotechnik und Web Development."
+  title="Schlaufuchs – Freies Lernmaterial"
+  description="Freies Lernmaterial für Mathematik, Informatik, Elektrotechnik, Linux und Webentwicklung."
 >
-  <section class="hero">
+  <section class="home-hero">
     <div class="hero-copy">
-      <p class="eyebrow">Schlaufuchs</p>
-      <h1>Ruhig. Modern. Auf den Inhalt fokussiert.</h1>
-      <p class="lead">
-        Schlaufuchs wird als klare Wissens- und Lernplattform neu aufgebaut.
-        Ohne Legacy-Flickwerk. Ohne überladene Oberfläche.
+      <p class="hero-kicker">Start</p>
+      <h1>Schlaufuchs</h1>
+      <p class="hero-lead">
+        Freies Lernmaterial für Mathematik, Informatik, Elektrotechnik, Linux und
+        Webentwicklung.
       </p>
 
-      <div class="hero-actions">
-        <a class="primary" href={`${base}fachbereiche`}>Fachbereiche ansehen</a>
-        <a class="secondary" href={`${base}suchen`}>Suche öffnen</a>
-      </div>
+      <a class="hero-search" href={`${base}suchen`} aria-label="Suche öffnen">
+        <span class="hero-search-icon">⌕</span>
+        <span>Themen, Aufgaben und Lernseiten durchsuchen ...</span>
+      </a>
     </div>
 
-    <div class="hero-visual" aria-hidden="true">
-      <div class="hero-card">
-        <img src={heroImage} alt="" loading="eager" />
-      </div>
+    <div class="hero-mascot" aria-hidden="true">
+      <img src={heroFox} alt="" loading="eager" />
     </div>
   </section>
 
-  <section class="subject-section">
+  <section class="home-section">
     <div class="section-head">
-      <p class="eyebrow">Fachbereiche</p>
-      <h2>Direkte Einstiege in die wichtigsten Themen.</h2>
+      <div>
+        <h2>Fachbereiche</h2>
+        <p>Wähle einen Bereich und steige direkt in Lernmaterial, Referenz oder Übungen ein.</p>
+      </div>
     </div>
 
-    <div class="subject-grid">
+    <div class="topic-grid">
       {subjects.map((subject) => (
-        <a class="subject-card" href={subject.href}>
-          <span class="subject-icon" aria-hidden="true">{subject.icon}</span>
-          <h3>{subject.title}</h3>
-          <p>{subject.text}</p>
+        <a class={`topic-card ${subject.tone}`} href={subject.href}>
+          <div class="topic-icon">
+            <img src={subject.icon} alt="" loading="lazy" />
+          </div>
+
+          <div class="topic-copy">
+            <h3>{subject.title}</h3>
+            <p>{subject.description}</p>
+          </div>
+
+          <div class="topic-arrow" aria-hidden="true">▶</div>
         </a>
       ))}
     </div>
   </section>
-
-  <section class="principles">
-    <article>
-      <h3>Inhalte zuerst</h3>
-      <p>Normale Seiten bleiben ruhig und gut lesbar.</p>
-    </article>
-    <article>
-      <h3>Lernmodus optional</h3>
-      <p>Lernhilfen kommen bewusst dazu und drängen sich nicht auf.</p>
-    </article>
-    <article>
-      <h3>Präsentation mitgedacht</h3>
-      <p>Große Lesbarkeit und klare Struktur von Anfang an.</p>
-    </article>
-  </section>
 </BaseLayout>
 
 <style>
-  .hero {
-    display: grid;
-    grid-template-columns: minmax(0, 1.05fr) minmax(20rem, 0.95fr);
-    gap: 2rem;
-    align-items: center;
-    padding: 2.25rem 0 2rem;
-    min-height: calc(100vh - 10rem);
+  :global(:root) {
+    --home-light-hero: linear-gradient(135deg, rgba(244,246,252,0.96), rgba(247,250,252,0.98));
+    --home-dark-hero: linear-gradient(135deg, rgba(16,22,34,0.98), rgba(12,17,27,0.98));
   }
 
-  .eyebrow {
-    margin: 0 0 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.14em;
-    font-size: 0.78rem;
-    font-weight: 700;
-    color: var(--text-soft);
-  }
-
-  h1 {
-    margin: 0;
-    max-width: 11ch;
-    font-size: clamp(3rem, 7vw, 6rem);
-    line-height: 0.95;
-    color: var(--text-strong);
-  }
-
-  .lead {
-    margin: 1.25rem 0 0;
-    max-width: 42rem;
-    font-size: 1.08rem;
-    line-height: 1.8;
-    color: var(--text-muted);
-  }
-
-  .hero-actions {
-    display: flex;
-    gap: 0.9rem;
-    flex-wrap: wrap;
-    margin-top: 1.8rem;
-  }
-
-  .hero-actions a {
-    min-height: 3.2rem;
-    padding: 0 1.2rem;
-    border-radius: 999px;
-    border: 1px solid var(--border);
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 700;
-    transition: transform 140ms ease, background 140ms ease, border-color 140ms ease;
-  }
-
-  .hero-actions a:hover,
-  .subject-card:hover {
-    transform: translateY(-2px);
-  }
-
-  .primary {
-    background: var(--accent);
-    color: #0b1020;
-    border-color: transparent;
-  }
-
-  .secondary {
-    background: var(--surface);
-    color: var(--text-strong);
-  }
-
-  .hero-visual {
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  .hero-card {
-    width: min(100%, 36rem);
-    border-radius: 2rem;
+  .home-hero {
+    position: relative;
     overflow: hidden;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 1.5rem;
+    align-items: end;
+    padding: 2.375rem;
     border: 1px solid var(--border);
+    border-radius: 28px;
     background: var(--card-bg);
     box-shadow: var(--shadow-card);
   }
 
-  .hero-card img {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
+  :global(html[data-theme="light"]) .home-hero {
+    background: var(--home-light-hero);
   }
 
-  .subject-section {
-    padding: 1rem 0 0;
+  :global(html[data-theme="dark"]) .home-hero {
+    background: var(--home-dark-hero);
   }
 
-  .section-head {
-    margin-bottom: 1rem;
+  .home-hero::after {
+    content: "";
+    position: absolute;
+    right: -86px;
+    bottom: -100px;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, rgba(79,70,229,0.08), rgba(2,132,199,0.08));
   }
 
-  h2 {
-    margin: 0;
-    max-width: 18ch;
-    font-size: clamp(1.9rem, 4vw, 3rem);
-    line-height: 1.08;
+  :global(html[data-theme="dark"]) .home-hero::after {
+    background: linear-gradient(135deg, rgba(94,120,255,0.12), rgba(41,177,255,0.10));
+  }
+
+  .hero-copy {
+    position: relative;
+    z-index: 1;
+    min-width: 0;
+  }
+
+  .hero-kicker {
+    margin: 0 0 0.875rem;
+    color: var(--text-soft);
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+
+  h1 {
+    margin: 0 0 1rem;
     color: var(--text-strong);
+    font-size: clamp(3rem, 6vw, 4.7rem);
+    line-height: 0.98;
+    letter-spacing: -0.04em;
   }
 
-  .subject-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 1rem;
+  .hero-lead {
+    max-width: 39rem;
+    margin: 0;
+    color: var(--text);
+    font-size: clamp(1.12rem, 1.75vw, 1.28rem);
+    line-height: 1.66;
   }
 
-  .subject-card,
-  .principles article {
+  .hero-search {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.9rem;
+    width: min(100%, 43rem);
+    margin-top: 1.9rem;
+    padding: 0.95rem 1.2rem;
     border: 1px solid var(--border);
-    background: var(--card-bg);
-    border-radius: var(--radius-md);
-    padding: 1.2rem;
+    border-radius: 18px;
+    background: rgba(255,255,255,0.38);
+    color: var(--text-soft);
     box-shadow: var(--shadow-soft);
   }
 
-  .subject-card {
-    transition: transform 140ms ease, border-color 140ms ease;
+  :global(html[data-theme="dark"]) .hero-search {
+    background: rgba(13,18,28,0.72);
   }
 
-  .subject-card:hover {
-    border-color: var(--border-strong);
+  .hero-search-icon {
+    font-size: 1.15rem;
+    line-height: 1;
+    flex-shrink: 0;
   }
 
-  .subject-icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 2.8rem;
-    height: 2.8rem;
-    border-radius: 999px;
-    background: var(--surface-2);
-    color: var(--text-strong);
-    margin-bottom: 1rem;
-    font-weight: 700;
+  .hero-mascot {
+    position: relative;
+    z-index: 1;
+    justify-self: end;
+    align-self: end;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: clamp(220px, 24vw, 308px);
+    max-width: 31vw;
+    pointer-events: none;
   }
 
-  h3 {
+  .hero-mascot img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    filter: drop-shadow(0 20px 28px rgba(15,23,42,0.14));
+  }
+
+  :global(html[data-theme="dark"]) .hero-mascot img {
+    filter: drop-shadow(0 24px 36px rgba(0,0,0,0.34)) brightness(0.98) saturate(0.98);
+  }
+
+  .home-section {
+    display: grid;
+    gap: 1.2rem;
+    margin-top: 1.55rem;
+  }
+
+  .section-head h2 {
     margin: 0;
-    font-size: 1.1rem;
     color: var(--text-strong);
+    font-size: clamp(1.9rem, 2.8vw, 2.5rem);
+    line-height: 1.04;
+    letter-spacing: -0.035em;
   }
 
-  .subject-card p,
-  .principles p {
-    margin: 0.7rem 0 0;
-    color: var(--text-muted);
+  .section-head p {
+    margin: 0.8rem 0 0;
+    max-width: 42rem;
+    color: var(--text-soft);
+    font-size: 1.02rem;
+    line-height: 1.58;
+  }
+
+  .topic-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.15rem;
+  }
+
+  .topic-card {
+    position: relative;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    min-height: 19rem;
+    padding: 1.95rem 1.9rem;
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    color: inherit;
+    box-shadow: var(--shadow-soft);
+  }
+
+  .topic-card::after {
+    content: "";
+    position: absolute;
+    right: -2.25rem;
+    bottom: -2.5rem;
+    width: 7.8rem;
+    height: 7.8rem;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.07);
+    pointer-events: none;
+  }
+
+  .topic-card.math {
+    background: linear-gradient(135deg, rgba(93, 113, 175, 0.28), rgba(232, 237, 248, 0.76));
+  }
+
+  .topic-card.web {
+    background: linear-gradient(135deg, rgba(173, 144, 156, 0.22), rgba(245, 239, 241, 0.84));
+  }
+
+  .topic-card.cs {
+    background: linear-gradient(135deg, rgba(95, 139, 158, 0.20), rgba(235, 244, 247, 0.82));
+  }
+
+  .topic-card.linux {
+    background: linear-gradient(135deg, rgba(175, 163, 122, 0.20), rgba(242, 239, 230, 0.84));
+  }
+
+  .topic-card.signals {
+    background: linear-gradient(135deg, rgba(165, 140, 152, 0.18), rgba(244, 236, 239, 0.82));
+  }
+
+  .topic-card.ee {
+    background: linear-gradient(135deg, rgba(173, 147, 144, 0.18), rgba(244, 236, 235, 0.82));
+  }
+
+  :global(html[data-theme="dark"]) .topic-card.math {
+    background: linear-gradient(135deg, rgba(72, 95, 164, 0.36), rgba(22, 31, 58, 0.92));
+  }
+
+  :global(html[data-theme="dark"]) .topic-card.web {
+    background: linear-gradient(135deg, rgba(96, 72, 104, 0.34), rgba(49, 38, 43, 0.92));
+  }
+
+  :global(html[data-theme="dark"]) .topic-card.cs {
+    background: linear-gradient(135deg, rgba(28, 71, 87, 0.40), rgba(18, 37, 45, 0.92));
+  }
+
+  :global(html[data-theme="dark"]) .topic-card.linux {
+    background: linear-gradient(135deg, rgba(84, 76, 44, 0.30), rgba(42, 39, 28, 0.92));
+  }
+
+  :global(html[data-theme="dark"]) .topic-card.signals {
+    background: linear-gradient(135deg, rgba(84, 64, 74, 0.32), rgba(43, 33, 38, 0.92));
+  }
+
+  :global(html[data-theme="dark"]) .topic-card.ee {
+    background: linear-gradient(135deg, rgba(83, 60, 58, 0.30), rgba(42, 29, 31, 0.92));
+  }
+
+  .topic-icon {
+    width: 3.9rem;
+    height: 3.9rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(148,163,184,0.18);
+    background: rgba(255,255,255,0.3);
+    display: grid;
+    place-items: center;
+    box-shadow: 0 14px 30px rgba(15,23,42,0.06);
+  }
+
+  :global(html[data-theme="dark"]) .topic-icon {
+    border-color: rgba(255,255,255,0.08);
+    background: rgba(255,255,255,0.06);
+    box-shadow: 0 10px 24px rgba(0,0,0,0.14);
+  }
+
+  .topic-icon img {
+    width: 2rem;
+    height: 2rem;
+    object-fit: contain;
+  }
+
+  .topic-copy {
+    margin-top: 1.95rem;
+    max-width: 18rem;
+  }
+
+  .topic-copy h3 {
+    margin: 0;
+    color: var(--text-strong);
+    font-size: clamp(1.85rem, 2.4vw, 2.25rem);
+    line-height: 1.02;
+    letter-spacing: -0.04em;
+  }
+
+  .topic-copy p {
+    margin: 1rem 0 0;
+    color: var(--text);
+    font-size: 1rem;
     line-height: 1.7;
   }
 
-  .principles {
+  .topic-arrow {
+    position: absolute;
+    right: 1.55rem;
+    bottom: 1.25rem;
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 999px;
+    border: 1px solid rgba(148,163,184,0.16);
+    background: rgba(255,255,255,0.28);
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 1rem;
-    padding: 1rem 0 0;
+    place-items: center;
+    color: var(--text-strong);
+    font-size: 0.85rem;
+  }
+
+  :global(html[data-theme="dark"]) .topic-arrow {
+    border-color: rgba(255,255,255,0.12);
+    background: rgba(255,255,255,0.10);
   }
 
   @media (max-width: 1100px) {
-    .hero {
-      grid-template-columns: 1fr;
-      min-height: auto;
-    }
-
-    .hero-visual {
-      justify-content: flex-start;
-    }
-
-    .hero-card {
-      width: min(100%, 32rem);
-    }
-
-    .subject-grid,
-    .principles {
+    .topic-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
 
-  @media (max-width: 720px) {
-    .hero {
-      padding-top: 1.2rem;
-    }
-
-    h1 {
-      max-width: 12ch;
-      font-size: clamp(2.4rem, 11vw, 4rem);
-      line-height: 1;
-    }
-
-    .lead {
-      font-size: 1rem;
-      line-height: 1.7;
-    }
-
-    .hero-actions {
-      flex-direction: column;
-    }
-
-    .hero-actions a {
-      width: 100%;
-    }
-
-    .subject-grid,
-    .principles {
+  @media (max-width: 900px) {
+    .home-hero {
       grid-template-columns: 1fr;
+      padding: 2rem 1.5rem 0;
+    }
+
+    .hero-mascot {
+      width: min(100%, 18rem);
+      max-width: none;
+      justify-self: center;
+    }
+  }
+
+  @media (max-width: 720px) {
+    .topic-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .topic-card {
+      min-height: 16rem;
+      padding: 1.5rem;
+    }
+
+    .hero-search {
+      width: 100%;
     }
   }
 </style>
