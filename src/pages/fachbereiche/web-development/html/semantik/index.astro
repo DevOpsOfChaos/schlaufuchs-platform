@@ -4,8 +4,14 @@ import TopicLandingPage from "../../../../../components/content/TopicLandingPage
 import { webdevelopmentTopics } from "../../../../../data/web_development_topics";
 
 const page = webdevelopmentTopics["semantik"];
+const breadcrumbs = [
+  { label: "Start", href: "/" },
+  { label: "Web Development", href: "/fachbereiche/web-development" },
+  { label: "Web Development HTML", href: "/fachbereiche/web-development/html" },
+  { label: "Semantik", href: "/fachbereiche/web-development/html/semantik" },
+];
 ---
 
-<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
-  <TopicLandingPage page={page} />
+<BaseLayout title={page.title + " – Schlaufuchs"} description={page.description}>
+  <TopicLandingPage page={page} breadcrumbs={breadcrumbs} />
 </BaseLayout>

@@ -4,8 +4,29 @@ import LeafInfoPage from "../../../../../../components/content/LeafInfoPage.astr
 import { webdevelopmentLeafPages } from "../../../../../../data/web_development_leaf_pages";
 
 const page = webdevelopmentLeafPages["gap"];
+const breadcrumbs = [
+  { label: "Start", href: "/" },
+  { label: "Web Development", href: "/fachbereiche/web-development" },
+  { label: "Web Development CSS", href: "/fachbereiche/web-development/css" },
+  { label: "Flexbox", href: "/fachbereiche/web-development/css/flexbox" },
+  { label: "gap", href: "/fachbereiche/web-development/css/flexbox/gap" },
+];
+const related = [
+  {
+    title: "Flexbox",
+    text: "Weiteres Unterthema in Flexbox.",
+    href: "/fachbereiche/web-development/css/flexbox/flexbox",
+    tone: "web-a",
+  },
+  {
+    title: "justify und align",
+    text: "Weiteres Unterthema in Flexbox.",
+    href: "/fachbereiche/web-development/css/flexbox/justify-align",
+    tone: "web-b",
+  },
+];
 ---
 
-<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
-  <LeafInfoPage page={page} />
+<BaseLayout title={page.title + " – Schlaufuchs"} description={page.description}>
+  <LeafInfoPage page={page} breadcrumbs={breadcrumbs} related={related} />
 </BaseLayout>

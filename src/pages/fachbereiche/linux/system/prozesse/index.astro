@@ -4,8 +4,14 @@ import TopicLandingPage from "../../../../../components/content/TopicLandingPage
 import { linuxTopics } from "../../../../../data/linux_topics";
 
 const page = linuxTopics["prozesse"];
+const breadcrumbs = [
+  { label: "Start", href: "/" },
+  { label: "Linux", href: "/fachbereiche/linux" },
+  { label: "Linux System", href: "/fachbereiche/linux/system" },
+  { label: "Prozesse", href: "/fachbereiche/linux/system/prozesse" },
+];
 ---
 
-<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
-  <TopicLandingPage page={page} />
+<BaseLayout title={page.title + " – Schlaufuchs"} description={page.description}>
+  <TopicLandingPage page={page} breadcrumbs={breadcrumbs} />
 </BaseLayout>

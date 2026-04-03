@@ -4,8 +4,14 @@ import TopicLandingPage from "../../../../../components/content/TopicLandingPage
 import { webdevelopmentTopics } from "../../../../../data/web_development_topics";
 
 const page = webdevelopmentTopics["kartenlayout"];
+const breadcrumbs = [
+  { label: "Start", href: "/" },
+  { label: "Web Development", href: "/fachbereiche/web-development" },
+  { label: "Web Development Praxis", href: "/fachbereiche/web-development/praxis" },
+  { label: "Kartenlayout", href: "/fachbereiche/web-development/praxis/kartenlayout" },
+];
 ---
 
-<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
-  <TopicLandingPage page={page} />
+<BaseLayout title={page.title + " – Schlaufuchs"} description={page.description}>
+  <TopicLandingPage page={page} breadcrumbs={breadcrumbs} />
 </BaseLayout>

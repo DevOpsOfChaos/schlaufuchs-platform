@@ -4,8 +4,29 @@ import LeafInfoPage from "../../../../../../components/content/LeafInfoPage.astr
 import { mathematikLeafPages } from "../../../../../../data/mathematik_leaf_pages";
 
 const page = mathematikLeafPages["nullstellen"];
+const breadcrumbs = [
+  { label: "Start", href: "/" },
+  { label: "Mathematik", href: "/fachbereiche/mathematik" },
+  { label: "Mathematik Funktionen", href: "/fachbereiche/mathematik/funktionen" },
+  { label: "Graphen", href: "/fachbereiche/mathematik/funktionen/graphen" },
+  { label: "Nullstellen", href: "/fachbereiche/mathematik/funktionen/graphen/nullstellen" },
+];
+const related = [
+  {
+    title: "Graphen lesen",
+    text: "Weiteres Unterthema in Graphen.",
+    href: "/fachbereiche/mathematik/funktionen/graphen/graphen-lesen",
+    tone: "math-a",
+  },
+  {
+    title: "Wertetabellen",
+    text: "Weiteres Unterthema in Graphen.",
+    href: "/fachbereiche/mathematik/funktionen/graphen/wertetabellen",
+    tone: "math-c",
+  },
+];
 ---
 
-<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
-  <LeafInfoPage page={page} />
+<BaseLayout title={page.title + " – Schlaufuchs"} description={page.description}>
+  <LeafInfoPage page={page} breadcrumbs={breadcrumbs} related={related} />
 </BaseLayout>

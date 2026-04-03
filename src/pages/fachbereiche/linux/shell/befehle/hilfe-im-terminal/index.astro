@@ -4,8 +4,29 @@ import LeafInfoPage from "../../../../../../components/content/LeafInfoPage.astr
 import { linuxLeafPages } from "../../../../../../data/linux_leaf_pages";
 
 const page = linuxLeafPages["hilfe-im-terminal"];
+const breadcrumbs = [
+  { label: "Start", href: "/" },
+  { label: "Linux", href: "/fachbereiche/linux" },
+  { label: "Linux Shell", href: "/fachbereiche/linux/shell" },
+  { label: "Befehle", href: "/fachbereiche/linux/shell/befehle" },
+  { label: "Hilfe im Terminal", href: "/fachbereiche/linux/shell/befehle/hilfe-im-terminal" },
+];
+const related = [
+  {
+    title: "Grundbefehle",
+    text: "Weiteres Unterthema in Befehle.",
+    href: "/fachbereiche/linux/shell/befehle/grundbefehle",
+    tone: "linux-b",
+  },
+  {
+    title: "Dateibefehle",
+    text: "Weiteres Unterthema in Befehle.",
+    href: "/fachbereiche/linux/shell/befehle/dateibefehle",
+    tone: "linux-c",
+  },
+];
 ---
 
-<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
-  <LeafInfoPage page={page} />
+<BaseLayout title={page.title + " – Schlaufuchs"} description={page.description}>
+  <LeafInfoPage page={page} breadcrumbs={breadcrumbs} related={related} />
 </BaseLayout>

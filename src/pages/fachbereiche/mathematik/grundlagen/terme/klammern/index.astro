@@ -4,8 +4,29 @@ import LeafInfoPage from "../../../../../../components/content/LeafInfoPage.astr
 import { mathematikLeafPages } from "../../../../../../data/mathematik_leaf_pages";
 
 const page = mathematikLeafPages["klammern"];
+const breadcrumbs = [
+  { label: "Start", href: "/" },
+  { label: "Mathematik", href: "/fachbereiche/mathematik" },
+  { label: "Mathematik Grundlagen", href: "/fachbereiche/mathematik/grundlagen" },
+  { label: "Terme", href: "/fachbereiche/mathematik/grundlagen/terme" },
+  { label: "Klammern", href: "/fachbereiche/mathematik/grundlagen/terme/klammern" },
+];
+const related = [
+  {
+    title: "Variablen",
+    text: "Weiteres Unterthema in Terme.",
+    href: "/fachbereiche/mathematik/grundlagen/terme/variablen",
+    tone: "math-a",
+  },
+  {
+    title: "Terme umformen",
+    text: "Weiteres Unterthema in Terme.",
+    href: "/fachbereiche/mathematik/grundlagen/terme/term-umformen",
+    tone: "math-c",
+  },
+];
 ---
 
-<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
-  <LeafInfoPage page={page} />
+<BaseLayout title={page.title + " – Schlaufuchs"} description={page.description}>
+  <LeafInfoPage page={page} breadcrumbs={breadcrumbs} related={related} />
 </BaseLayout>

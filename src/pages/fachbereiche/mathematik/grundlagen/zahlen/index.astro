@@ -4,8 +4,14 @@ import TopicLandingPage from "../../../../../components/content/TopicLandingPage
 import { mathematikTopics } from "../../../../../data/mathematik_topics";
 
 const page = mathematikTopics["zahlen"];
+const breadcrumbs = [
+  { label: "Start", href: "/" },
+  { label: "Mathematik", href: "/fachbereiche/mathematik" },
+  { label: "Mathematik Grundlagen", href: "/fachbereiche/mathematik/grundlagen" },
+  { label: "Zahlen", href: "/fachbereiche/mathematik/grundlagen/zahlen" },
+];
 ---
 
-<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
-  <TopicLandingPage page={page} />
+<BaseLayout title={page.title + " – Schlaufuchs"} description={page.description}>
+  <TopicLandingPage page={page} breadcrumbs={breadcrumbs} />
 </BaseLayout>

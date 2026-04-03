@@ -4,8 +4,29 @@ import LeafInfoPage from "../../../../../../components/content/LeafInfoPage.astr
 import { mathematikLeafPages } from "../../../../../../data/mathematik_leaf_pages";
 
 const page = mathematikLeafPages["brueche-verstehen"];
+const breadcrumbs = [
+  { label: "Start", href: "/" },
+  { label: "Mathematik", href: "/fachbereiche/mathematik" },
+  { label: "Mathematik Grundlagen", href: "/fachbereiche/mathematik/grundlagen" },
+  { label: "Brüche", href: "/fachbereiche/mathematik/grundlagen/brueche" },
+  { label: "Brüche verstehen", href: "/fachbereiche/mathematik/grundlagen/brueche/brueche-verstehen" },
+];
+const related = [
+  {
+    title: "Brüche vergleichen",
+    text: "Weiteres Unterthema in Brüche.",
+    href: "/fachbereiche/mathematik/grundlagen/brueche/brueche-vergleichen",
+    tone: "math-b",
+  },
+  {
+    title: "Brüche umformen",
+    text: "Weiteres Unterthema in Brüche.",
+    href: "/fachbereiche/mathematik/grundlagen/brueche/brueche-umformen",
+    tone: "math-c",
+  },
+];
 ---
 
-<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
-  <LeafInfoPage page={page} />
+<BaseLayout title={page.title + " – Schlaufuchs"} description={page.description}>
+  <LeafInfoPage page={page} breadcrumbs={breadcrumbs} related={related} />
 </BaseLayout>

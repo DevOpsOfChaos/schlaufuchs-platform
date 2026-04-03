@@ -4,8 +4,14 @@ import TopicLandingPage from "../../../../../components/content/TopicLandingPage
 import { informatikTopics } from "../../../../../data/informatik_topics";
 
 const page = informatikTopics["c"];
+const breadcrumbs = [
+  { label: "Start", href: "/" },
+  { label: "Informatik", href: "/fachbereiche/informatik" },
+  { label: "Informatik Programmieren", href: "/fachbereiche/informatik/programmieren" },
+  { label: "C", href: "/fachbereiche/informatik/programmieren/c" },
+];
 ---
 
-<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
-  <TopicLandingPage page={page} />
+<BaseLayout title={page.title + " – Schlaufuchs"} description={page.description}>
+  <TopicLandingPage page={page} breadcrumbs={breadcrumbs} />
 </BaseLayout>

@@ -4,8 +4,29 @@ import LeafInfoPage from "../../../../../../components/content/LeafInfoPage.astr
 import { webdevelopmentLeafPages } from "../../../../../../data/web_development_leaf_pages";
 
 const page = webdevelopmentLeafPages["spalten-und-zeilen"];
+const breadcrumbs = [
+  { label: "Start", href: "/" },
+  { label: "Web Development", href: "/fachbereiche/web-development" },
+  { label: "Web Development CSS", href: "/fachbereiche/web-development/css" },
+  { label: "Grid", href: "/fachbereiche/web-development/css/grid" },
+  { label: "Spalten und Zeilen", href: "/fachbereiche/web-development/css/grid/spalten-und-zeilen" },
+];
+const related = [
+  {
+    title: "Grid",
+    text: "Weiteres Unterthema in Grid.",
+    href: "/fachbereiche/web-development/css/grid/grid",
+    tone: "web-a",
+  },
+  {
+    title: "Bereiche",
+    text: "Weiteres Unterthema in Grid.",
+    href: "/fachbereiche/web-development/css/grid/bereiche",
+    tone: "web-c",
+  },
+];
 ---
 
-<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
-  <LeafInfoPage page={page} />
+<BaseLayout title={page.title + " – Schlaufuchs"} description={page.description}>
+  <LeafInfoPage page={page} breadcrumbs={breadcrumbs} related={related} />
 </BaseLayout>

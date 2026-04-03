@@ -4,8 +4,29 @@ import LeafInfoPage from "../../../../../../components/content/LeafInfoPage.astr
 import { informatikLeafPages } from "../../../../../../data/informatik_leaf_pages";
 
 const page = informatikLeafPages["rueckgabewerte"];
+const breadcrumbs = [
+  { label: "Start", href: "/" },
+  { label: "Informatik", href: "/fachbereiche/informatik" },
+  { label: "Informatik Programmieren", href: "/fachbereiche/informatik/programmieren" },
+  { label: "Funktionen", href: "/fachbereiche/informatik/programmieren/funktionen" },
+  { label: "Rückgabewerte", href: "/fachbereiche/informatik/programmieren/funktionen/rueckgabewerte" },
+];
+const related = [
+  {
+    title: "Funktionen",
+    text: "Weiteres Unterthema in Funktionen.",
+    href: "/fachbereiche/informatik/programmieren/funktionen/funktionen",
+    tone: "cs-a",
+  },
+  {
+    title: "Parameter",
+    text: "Weiteres Unterthema in Funktionen.",
+    href: "/fachbereiche/informatik/programmieren/funktionen/parameter",
+    tone: "cs-b",
+  },
+];
 ---
 
-<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
-  <LeafInfoPage page={page} />
+<BaseLayout title={page.title + " – Schlaufuchs"} description={page.description}>
+  <LeafInfoPage page={page} breadcrumbs={breadcrumbs} related={related} />
 </BaseLayout>

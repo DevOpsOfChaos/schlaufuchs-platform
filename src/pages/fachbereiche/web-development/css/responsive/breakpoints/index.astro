@@ -4,8 +4,29 @@ import LeafInfoPage from "../../../../../../components/content/LeafInfoPage.astr
 import { webdevelopmentLeafPages } from "../../../../../../data/web_development_leaf_pages";
 
 const page = webdevelopmentLeafPages["breakpoints"];
+const breadcrumbs = [
+  { label: "Start", href: "/" },
+  { label: "Web Development", href: "/fachbereiche/web-development" },
+  { label: "Web Development CSS", href: "/fachbereiche/web-development/css" },
+  { label: "Responsive", href: "/fachbereiche/web-development/css/responsive" },
+  { label: "Breakpoints", href: "/fachbereiche/web-development/css/responsive/breakpoints" },
+];
+const related = [
+  {
+    title: "Media Queries",
+    text: "Weiteres Unterthema in Responsive.",
+    href: "/fachbereiche/web-development/css/responsive/media-queries",
+    tone: "web-a",
+  },
+  {
+    title: "Mobile First",
+    text: "Weiteres Unterthema in Responsive.",
+    href: "/fachbereiche/web-development/css/responsive/mobile-first",
+    tone: "web-b",
+  },
+];
 ---
 
-<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
-  <LeafInfoPage page={page} />
+<BaseLayout title={page.title + " – Schlaufuchs"} description={page.description}>
+  <LeafInfoPage page={page} breadcrumbs={breadcrumbs} related={related} />
 </BaseLayout>

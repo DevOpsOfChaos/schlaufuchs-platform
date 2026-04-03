@@ -4,8 +4,29 @@ import LeafInfoPage from "../../../../../../components/content/LeafInfoPage.astr
 import { informatikLeafPages } from "../../../../../../data/informatik_leaf_pages";
 
 const page = informatikLeafPages["systemdienste"];
+const breadcrumbs = [
+  { label: "Start", href: "/" },
+  { label: "Informatik", href: "/fachbereiche/informatik" },
+  { label: "Informatik Systemnah", href: "/fachbereiche/informatik/systemnah" },
+  { label: "Betriebssystem", href: "/fachbereiche/informatik/systemnah/betriebssystem" },
+  { label: "Systemdienste", href: "/fachbereiche/informatik/systemnah/betriebssystem/systemdienste" },
+];
+const related = [
+  {
+    title: "Betriebssystem",
+    text: "Weiteres Unterthema in Betriebssystem.",
+    href: "/fachbereiche/informatik/systemnah/betriebssystem/betriebssystem",
+    tone: "cs-a",
+  },
+  {
+    title: "Hardware und Software",
+    text: "Weiteres Unterthema in Betriebssystem.",
+    href: "/fachbereiche/informatik/systemnah/betriebssystem/hardware-und-software",
+    tone: "cs-b",
+  },
+];
 ---
 
-<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
-  <LeafInfoPage page={page} />
+<BaseLayout title={page.title + " – Schlaufuchs"} description={page.description}>
+  <LeafInfoPage page={page} breadcrumbs={breadcrumbs} related={related} />
 </BaseLayout>

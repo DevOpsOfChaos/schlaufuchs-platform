@@ -4,8 +4,29 @@ import LeafInfoPage from "../../../../../../components/content/LeafInfoPage.astr
 import { informatikLeafPages } from "../../../../../../data/informatik_leaf_pages";
 
 const page = informatikLeafPages["prozessmodell"];
+const breadcrumbs = [
+  { label: "Start", href: "/" },
+  { label: "Informatik", href: "/fachbereiche/informatik" },
+  { label: "Informatik Systemnah", href: "/fachbereiche/informatik/systemnah" },
+  { label: "Prozesse", href: "/fachbereiche/informatik/systemnah/prozesse" },
+  { label: "Prozessmodell", href: "/fachbereiche/informatik/systemnah/prozesse/prozessmodell" },
+];
+const related = [
+  {
+    title: "Prozesse",
+    text: "Weiteres Unterthema in Prozesse.",
+    href: "/fachbereiche/informatik/systemnah/prozesse/prozesse",
+    tone: "cs-a",
+  },
+  {
+    title: "Parallelität",
+    text: "Weiteres Unterthema in Prozesse.",
+    href: "/fachbereiche/informatik/systemnah/prozesse/parallelitaet",
+    tone: "cs-b",
+  },
+];
 ---
 
-<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
-  <LeafInfoPage page={page} />
+<BaseLayout title={page.title + " – Schlaufuchs"} description={page.description}>
+  <LeafInfoPage page={page} breadcrumbs={breadcrumbs} related={related} />
 </BaseLayout>

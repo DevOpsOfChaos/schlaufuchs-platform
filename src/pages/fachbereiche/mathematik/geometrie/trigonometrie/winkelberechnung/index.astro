@@ -4,8 +4,29 @@ import LeafInfoPage from "../../../../../../components/content/LeafInfoPage.astr
 import { mathematikLeafPages } from "../../../../../../data/mathematik_leaf_pages";
 
 const page = mathematikLeafPages["winkelberechnung"];
+const breadcrumbs = [
+  { label: "Start", href: "/" },
+  { label: "Mathematik", href: "/fachbereiche/mathematik" },
+  { label: "Mathematik Geometrie", href: "/fachbereiche/mathematik/geometrie" },
+  { label: "Trigonometrie", href: "/fachbereiche/mathematik/geometrie/trigonometrie" },
+  { label: "Winkelberechnung", href: "/fachbereiche/mathematik/geometrie/trigonometrie/winkelberechnung" },
+];
+const related = [
+  {
+    title: "Sinus, Kosinus, Tangens",
+    text: "Weiteres Unterthema in Trigonometrie.",
+    href: "/fachbereiche/mathematik/geometrie/trigonometrie/sinus-kosinus-tangens",
+    tone: "math-a",
+  },
+  {
+    title: "Rechtwinklige Dreiecke",
+    text: "Weiteres Unterthema in Trigonometrie.",
+    href: "/fachbereiche/mathematik/geometrie/trigonometrie/rechtwinklige-dreiecke",
+    tone: "math-b",
+  },
+];
 ---
 
-<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
-  <LeafInfoPage page={page} />
+<BaseLayout title={page.title + " – Schlaufuchs"} description={page.description}>
+  <LeafInfoPage page={page} breadcrumbs={breadcrumbs} related={related} />
 </BaseLayout>

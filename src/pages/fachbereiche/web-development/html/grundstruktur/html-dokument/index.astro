@@ -4,8 +4,29 @@ import LeafInfoPage from "../../../../../../components/content/LeafInfoPage.astr
 import { webdevelopmentLeafPages } from "../../../../../../data/web_development_leaf_pages";
 
 const page = webdevelopmentLeafPages["html-dokument"];
+const breadcrumbs = [
+  { label: "Start", href: "/" },
+  { label: "Web Development", href: "/fachbereiche/web-development" },
+  { label: "Web Development HTML", href: "/fachbereiche/web-development/html" },
+  { label: "Grundstruktur", href: "/fachbereiche/web-development/html/grundstruktur" },
+  { label: "HTML-Dokument", href: "/fachbereiche/web-development/html/grundstruktur/html-dokument" },
+];
+const related = [
+  {
+    title: "Head und Body",
+    text: "Weiteres Unterthema in Grundstruktur.",
+    href: "/fachbereiche/web-development/html/grundstruktur/head-und-body",
+    tone: "web-b",
+  },
+  {
+    title: "Erste Seite",
+    text: "Weiteres Unterthema in Grundstruktur.",
+    href: "/fachbereiche/web-development/html/grundstruktur/erste-seite",
+    tone: "web-c",
+  },
+];
 ---
 
-<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
-  <LeafInfoPage page={page} />
+<BaseLayout title={page.title + " – Schlaufuchs"} description={page.description}>
+  <LeafInfoPage page={page} breadcrumbs={breadcrumbs} related={related} />
 </BaseLayout>

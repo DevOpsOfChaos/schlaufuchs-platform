@@ -4,8 +4,29 @@ import LeafInfoPage from "../../../../../../components/content/LeafInfoPage.astr
 import { linuxLeafPages } from "../../../../../../data/linux_leaf_pages";
 
 const page = linuxLeafPages["chmod"];
+const breadcrumbs = [
+  { label: "Start", href: "/" },
+  { label: "Linux", href: "/fachbereiche/linux" },
+  { label: "Linux System", href: "/fachbereiche/linux/system" },
+  { label: "Rechte", href: "/fachbereiche/linux/system/rechte" },
+  { label: "chmod", href: "/fachbereiche/linux/system/rechte/chmod" },
+];
+const related = [
+  {
+    title: "Dateirechte",
+    text: "Weiteres Unterthema in Rechte.",
+    href: "/fachbereiche/linux/system/rechte/dateirechte",
+    tone: "linux-a",
+  },
+  {
+    title: "chown",
+    text: "Weiteres Unterthema in Rechte.",
+    href: "/fachbereiche/linux/system/rechte/chown",
+    tone: "linux-c",
+  },
+];
 ---
 
-<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
-  <LeafInfoPage page={page} />
+<BaseLayout title={page.title + " – Schlaufuchs"} description={page.description}>
+  <LeafInfoPage page={page} breadcrumbs={breadcrumbs} related={related} />
 </BaseLayout>

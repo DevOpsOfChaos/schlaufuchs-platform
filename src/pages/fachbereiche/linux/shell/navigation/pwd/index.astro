@@ -4,8 +4,29 @@ import LeafInfoPage from "../../../../../../components/content/LeafInfoPage.astr
 import { linuxLeafPages } from "../../../../../../data/linux_leaf_pages";
 
 const page = linuxLeafPages["pwd"];
+const breadcrumbs = [
+  { label: "Start", href: "/" },
+  { label: "Linux", href: "/fachbereiche/linux" },
+  { label: "Linux Shell", href: "/fachbereiche/linux/shell" },
+  { label: "Navigation", href: "/fachbereiche/linux/shell/navigation" },
+  { label: "pwd", href: "/fachbereiche/linux/shell/navigation/pwd" },
+];
+const related = [
+  {
+    title: "cd",
+    text: "Weiteres Unterthema in Navigation.",
+    href: "/fachbereiche/linux/shell/navigation/cd",
+    tone: "linux-b",
+  },
+  {
+    title: "Pfade",
+    text: "Weiteres Unterthema in Navigation.",
+    href: "/fachbereiche/linux/shell/navigation/pfade",
+    tone: "linux-c",
+  },
+];
 ---
 
-<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
-  <LeafInfoPage page={page} />
+<BaseLayout title={page.title + " – Schlaufuchs"} description={page.description}>
+  <LeafInfoPage page={page} breadcrumbs={breadcrumbs} related={related} />
 </BaseLayout>

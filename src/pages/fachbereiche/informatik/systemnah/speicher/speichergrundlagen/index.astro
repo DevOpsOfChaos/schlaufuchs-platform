@@ -4,8 +4,29 @@ import LeafInfoPage from "../../../../../../components/content/LeafInfoPage.astr
 import { informatikLeafPages } from "../../../../../../data/informatik_leaf_pages";
 
 const page = informatikLeafPages["speichergrundlagen"];
+const breadcrumbs = [
+  { label: "Start", href: "/" },
+  { label: "Informatik", href: "/fachbereiche/informatik" },
+  { label: "Informatik Systemnah", href: "/fachbereiche/informatik/systemnah" },
+  { label: "Speicher", href: "/fachbereiche/informatik/systemnah/speicher" },
+  { label: "Speichergrundlagen", href: "/fachbereiche/informatik/systemnah/speicher/speichergrundlagen" },
+];
+const related = [
+  {
+    title: "Variablen im Speicher",
+    text: "Weiteres Unterthema in Speicher.",
+    href: "/fachbereiche/informatik/systemnah/speicher/variablen-im-speicher",
+    tone: "cs-b",
+  },
+  {
+    title: "Bits und Bytes",
+    text: "Weiteres Unterthema in Speicher.",
+    href: "/fachbereiche/informatik/systemnah/speicher/bits-und-bytes",
+    tone: "cs-c",
+  },
+];
 ---
 
-<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
-  <LeafInfoPage page={page} />
+<BaseLayout title={page.title + " – Schlaufuchs"} description={page.description}>
+  <LeafInfoPage page={page} breadcrumbs={breadcrumbs} related={related} />
 </BaseLayout>

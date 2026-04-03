@@ -4,8 +4,29 @@ import LeafInfoPage from "../../../../../../components/content/LeafInfoPage.astr
 import { webdevelopmentLeafPages } from "../../../../../../data/web_development_leaf_pages";
 
 const page = webdevelopmentLeafPages["semantische-tags"];
+const breadcrumbs = [
+  { label: "Start", href: "/" },
+  { label: "Web Development", href: "/fachbereiche/web-development" },
+  { label: "Web Development HTML", href: "/fachbereiche/web-development/html" },
+  { label: "Semantik", href: "/fachbereiche/web-development/html/semantik" },
+  { label: "Semantische Tags", href: "/fachbereiche/web-development/html/semantik/semantische-tags" },
+];
+const related = [
+  {
+    title: "Saubere Struktur",
+    text: "Weiteres Unterthema in Semantik.",
+    href: "/fachbereiche/web-development/html/semantik/saubere-struktur",
+    tone: "web-b",
+  },
+  {
+    title: "Layout-Bereiche",
+    text: "Weiteres Unterthema in Semantik.",
+    href: "/fachbereiche/web-development/html/semantik/layout-bereiche",
+    tone: "web-c",
+  },
+];
 ---
 
-<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
-  <LeafInfoPage page={page} />
+<BaseLayout title={page.title + " – Schlaufuchs"} description={page.description}>
+  <LeafInfoPage page={page} breadcrumbs={breadcrumbs} related={related} />
 </BaseLayout>

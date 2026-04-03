@@ -4,8 +4,29 @@ import LeafInfoPage from "../../../../../../components/content/LeafInfoPage.astr
 import { mathematikLeafPages } from "../../../../../../data/mathematik_leaf_pages";
 
 const page = mathematikLeafPages["zylinder"];
+const breadcrumbs = [
+  { label: "Start", href: "/" },
+  { label: "Mathematik", href: "/fachbereiche/mathematik" },
+  { label: "Mathematik Geometrie", href: "/fachbereiche/mathematik/geometrie" },
+  { label: "Volumen", href: "/fachbereiche/mathematik/geometrie/volumen" },
+  { label: "Zylinder", href: "/fachbereiche/mathematik/geometrie/volumen/zylinder" },
+];
+const related = [
+  {
+    title: "Quader",
+    text: "Weiteres Unterthema in Volumen.",
+    href: "/fachbereiche/mathematik/geometrie/volumen/quader",
+    tone: "math-a",
+  },
+  {
+    title: "Würfel",
+    text: "Weiteres Unterthema in Volumen.",
+    href: "/fachbereiche/mathematik/geometrie/volumen/wuerfel",
+    tone: "math-b",
+  },
+];
 ---
 
-<BaseLayout title="{page.title} – Schlaufuchs" description={page.description}>
-  <LeafInfoPage page={page} />
+<BaseLayout title={page.title + " – Schlaufuchs"} description={page.description}>
+  <LeafInfoPage page={page} breadcrumbs={breadcrumbs} related={related} />
 </BaseLayout>
