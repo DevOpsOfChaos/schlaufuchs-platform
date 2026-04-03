@@ -1,9 +1,11 @@
 ---
 title: "Design überarbeitet"
-date: "2026-04-03"
-category: "Design"
-summary: "Dummy-Eintrag für größere Layout- und Designanpassungen."
-published: true
+description: "Dummy-Eintrag für größere Layout- und Designanpassungen."
+publishedAt: 2026-04-03
+tags:
+  - Design
+  - Layout
+draft: false
 ---
 
 Dieser Dummy-Eintrag steht für größere Änderungen an Layout, Karten und Darstellung.
