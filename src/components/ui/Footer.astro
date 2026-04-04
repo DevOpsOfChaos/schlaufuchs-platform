@@ -6,58 +6,141 @@ const base = import.meta.env.BASE_URL;
 <footer class="footer">
   <div class="inner">
     <div class="meta">
-      <p>© {year} Schlaufuchs</p>
-      <p class="muted">Freie Wissens- und Lernplattform</p>
+      <p class="eyebrow">Schlaufuchs</p>
+      <h2>Freie Lernplattform für Technik, Mathematik und Praxis.</h2>
+      <p class="muted">
+        Klare Fachbereiche, verständliche Wissensseiten und eine sichtbare Aufgabenlogik
+        für Mathematik, Informatik, Elektrotechnik, Linux und Web Development.
+      </p>
     </div>
 
-    <nav class="links" aria-label="Footer">
-      <a href={`${base}`}>Start</a>
-      <a href={`${base}news`}>News</a>
-      <a href={`${base}kontakt`}>Kontakt</a>
-      <a href={`${base}impressum`}>Impressum</a>
-      <a href={`${base}datenschutz`}>Datenschutz</a>
-    </nav>
+    <div class="footer-columns">
+      <nav class="links" aria-label="Plattform">
+        <p class="links-title">Plattform</p>
+        <a href={`${base}`}>Start</a>
+        <a href={`${base}fachbereiche`}>Fachbereiche</a>
+        <a href={`${base}aufgaben`}>Aufgaben</a>
+        <a href={`${base}suchen`}>Suche</a>
+        <a href={`${base}news`}>News</a>
+      </nav>
+
+      <nav class="links" aria-label="Rechtliches und Kontakt">
+        <p class="links-title">Service</p>
+        <a href={`${base}kontakt`}>Kontakt</a>
+        <a href={`${base}impressum`}>Impressum</a>
+        <a href={`${base}datenschutz`}>Datenschutz</a>
+      </nav>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© {year} Schlaufuchs</p>
+    <p>Offene Lerninhalte mit klarer Struktur und moderner Fachlogik.</p>
   </div>
 </footer>
 
 <style>
   .footer {
-    margin-top: 2.5rem;
+    margin-top: 3rem;
     border-top: 1px solid var(--border);
-    padding: 1.35rem 0 2rem;
+    padding: 2rem 0 2.4rem;
+  }
+
+  .inner,
+  .footer-bottom {
+    width: min(var(--content-width), calc(100% - 2rem));
+    margin: 0 auto;
   }
 
   .inner {
-    width: min(var(--content-width), calc(100% - 2rem));
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: minmax(0, 1.35fr) auto;
+    gap: 2rem;
+    align-items: start;
   }
 
-  .meta p {
+  .eyebrow {
     margin: 0;
-    color: var(--text-muted);
+    color: var(--text-soft);
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .meta h2 {
+    margin: 0.7rem 0 0;
+    max-width: 24rem;
+    color: var(--text-strong);
+    font-size: clamp(1.35rem, 2.2vw, 1.8rem);
+    line-height: 1.15;
+    letter-spacing: -0.03em;
   }
 
   .muted {
-    margin-top: 0.2rem;
-    opacity: 0.95;
+    margin: 0.95rem 0 0;
+    max-width: 34rem;
+    color: var(--text-muted);
+    line-height: 1.7;
+  }
+
+  .footer-columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(10rem, 1fr));
+    gap: 2rem;
   }
 
   .links {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    display: grid;
+    gap: 0.65rem;
+  }
+
+  .links-title {
+    margin: 0 0 0.3rem;
+    color: var(--text-strong);
+    font-size: 0.96rem;
+    font-weight: 700;
   }
 
   .links a {
     color: var(--text-muted);
+    transition: color 140ms ease;
   }
 
   .links a:hover {
     color: var(--text-strong);
+  }
+
+  .footer-bottom {
+    margin-top: 1.6rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    color: var(--text-muted);
+    font-size: 0.96rem;
+  }
+
+  .footer-bottom p {
+    margin: 0;
+  }
+
+  @media (max-width: 900px) {
+    .inner {
+      grid-template-columns: 1fr;
+    }
+
+    .footer-columns {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .footer-columns {
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+    }
   }
 </style>
