@@ -1,0 +1,453 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection, type CollectionEntry } from "astro:content";
+
+const base = import.meta.env.BASE_URL;
+
+const subjectDetails: Record<
+  string,
+  {
+    intro: string;
+    highlights: string[];
+    sections: { title: string; items: string[] }[];
+    knowledgeLabel: string;
+    exerciseLabel: string;
+  }
+> = {
+  mathematik: {
+    intro:
+      "Mathematik auf Schlaufuchs verbindet Verstehen, Rechnen und systematisches Üben. Der Bereich startet mit Funktionen und Graphen und führt über Analysis, Algebra und Vektorgeometrie in klar gegliederte Lernpfade.",
+    highlights: ["Funktionen", "Analysis", "Algebra", "Vektorgeometrie"],
+    sections: [
+      { title: "Zum Einstieg", items: ["Funktionen und Graphen", "Lineare und quadratische Funktionen", "Erste Analysis"] },
+      { title: "Zentrale Themen", items: ["Differentialrechnung", "Integralrechnung", "Lineare Gleichungssysteme"] },
+      { title: "Zum Vertiefen", items: ["Komplexe Zahlen", "Geraden und Ebenen", "Fourier und FFT"] },
+    ],
+    knowledgeLabel: "Wissensseiten",
+    exerciseLabel: "Rechen- und Übungsaufgaben",
+  },
+  linux: {
+    intro:
+      "Linux auf Schlaufuchs erklärt Shell, Rechte, Benutzer, SSH und Shellskripte mit starkem Praxisbezug. Der Bereich führt vom Terminal-Einstieg bis zu ersten Automatisierungs- und Fernzugriffs-Workflows.",
+    highlights: ["Shell", "Rechte", "Shellskripte", "SSH"],
+    sections: [
+      { title: "Zum Einstieg", items: ["Shell und Prompt", "Dateirechte", "Benutzer und Gruppen"] },
+      { title: "Zentrale Themen", items: ["chmod", "Dateibesitz", "Shellskripte"] },
+      { title: "Zur Praxis", items: ["SSH", "Schlüssel", "Fernzugriff und Tools"] },
+    ],
+    knowledgeLabel: "Lernseiten",
+    exerciseLabel: "Praxis- und Diagnoseaufgaben",
+  },
+  informatik: {
+    intro:
+      "Informatik auf Schlaufuchs verbindet Grundverständnis, algorithmisches Denken und den Einstieg in Programmierung. Der Bereich führt von Informatik-Grundideen über Computerlogik bis zu den ersten sauberen C-Beispielen.",
+    highlights: ["Grundlagen", "Programmierung", "C", "Struktur"],
+    sections: [
+      { title: "Zum Einstieg", items: ["Einführung in die Informatik", "Computer- und Programmiergrundlagen"] },
+      { title: "Programmieren lernen", items: ["C und Python einordnen", "Programmstruktur verstehen"] },
+      { title: "Vertiefung", items: ["C-Grundlagen", "Kontrollstrukturen", "Eingaben und Ausgaben"] },
+    ],
+    knowledgeLabel: "Wissensseiten",
+    exerciseLabel: "Code- und Strukturaufgaben",
+  },
+  elektrotechnik: {
+    intro:
+      "Elektrotechnik auf Schlaufuchs bündelt technische Grundlagen, Schaltungs- und Rechenverständnis, Kommunikationstechnik und Mikrocontroller-Praxis. Der Bereich führt von Signalen und Logik bis zu Netzwerkanalyse, Wechselstrom und Arduino-Projekten.",
+    highlights: ["Signale", "Halbleiter", "Netzwerke", "Mikrocontroller"],
+    sections: [
+      { title: "Zum Einstieg", items: ["Computer und CPU", "Daten, Signale und Codierung", "Netzwerke und Protokolle"] },
+      { title: "Zentrale Themen", items: ["Logikgatter", "Dioden", "MOSFETs und Transistoren"] },
+      { title: "Rechnen und Praxis", items: ["Netzwerkanalyse", "Wechselstrom", "Arduino und ESP32"] },
+    ],
+    knowledgeLabel: "Lern- und Technikseiten",
+    exerciseLabel: "Rechen- und Praxisaufgaben",
+  },
+  "web-development": {
+    intro:
+      "Web Development auf Schlaufuchs bündelt den Einstieg in HTML und CSS. Der Bereich führt von Seitenstruktur und Semantik über Links, Bilder und Pfade bis zu CSS-Grundlagen, Box-Modell und ersten Layout-Prinzipien.",
+    highlights: ["HTML", "CSS", "Semantik", "Layouts"],
+    sections: [
+      { title: "Zum Einstieg", items: ["HTML-Grundlagen", "HTML-Semantik", "Seitenstruktur"] },
+      { title: "Zentrale Themen", items: ["Links, Bilder und Pfade", "CSS-Grundlagen", "Selektoren"] },
+      { title: "Zur Praxis", items: ["Box-Modell", "Layouts", "kleine Code-Aufgaben"] },
+    ],
+    knowledgeLabel: "Wissensseiten",
+    exerciseLabel: "Code- und Praxisübungen",
+  },
+};
+
+export async function getStaticPaths() {
+  const subjects = (await getCollection("subjects"))
+    .filter((subject) => subject.data.slug !== "daten-und-signale");
+
+  return subjects.map((subject) => ({
+    params: { slug: subject.data.slug },
+    props: { subject },
+  }));
+}
+
+const { subject } = Astro.props as { subject: CollectionEntry<"subjects"> };
+const detail = subjectDetails[subject.data.slug] ?? {
+  intro: subject.data.description,
+  highlights: [],
+  sections: [],
+  knowledgeLabel: "Wissensseiten",
+  exerciseLabel: "Aufgaben",
+};
+
+const relatedSubjects = subject.data.slug === "elektrotechnik"
+  ? ["elektrotechnik", "daten-und-signale"]
+  : [subject.data.slug];
+
+const articles = (await getCollection("articles"))
+  .filter((entry) => !entry.data.draft && relatedSubjects.includes(entry.data.subject));
+const exercises = (await getCollection("exercises"))
+  .filter((entry) => !entry.data.draft && relatedSubjects.includes(entry.data.subject));
+
+const levelLabels = {
+  einfach: "Einfach",
+  mittel: "Mittel",
+  fortgeschritten: "Fortgeschritten",
+} as const;
+---
+
+<BaseLayout
+  title={`${subject.data.title} – Schlaufuchs`}
+  description={subject.data.description}
+>
+  <section class="subject-hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Fachbereich</p>
+      <h1>{subject.data.title}</h1>
+      <p class="lead">{detail.intro}</p>
+
+      <div class="hero-actions">
+        <a class="hero-button primary" href={`${base}aufgaben`}>Zu Aufgaben und Übungen</a>
+        <a class="hero-button secondary" href={`${base}suchen`}>Thema im Fach suchen</a>
+      </div>
+    </div>
+
+    <div class="hero-stats">
+      <article class="stat-card">
+        <span>{detail.knowledgeLabel}</span>
+        <strong>{articles.length}</strong>
+      </article>
+      <article class="stat-card">
+        <span>{detail.exerciseLabel}</span>
+        <strong>{exercises.length}</strong>
+      </article>
+      <article class="stat-card">
+        <span>Schwerpunkte</span>
+        <strong>{detail.highlights.length}</strong>
+      </article>
+    </div>
+  </section>
+
+  <section class="subject-section">
+    <div class="section-head">
+      <div>
+        <p class="section-kicker">Lernlogik</p>
+        <h2>So ist der Bereich aufgebaut</h2>
+      </div>
+    </div>
+
+    <div class="section-grid">
+      {detail.sections.map((section) => (
+        <article class="section-card">
+          <h3>{section.title}</h3>
+          <ul>
+            {section.items.map((item) => <li>{item}</li>)}
+          </ul>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="subject-section">
+    <div class="section-head">
+      <div>
+        <p class="section-kicker">Schwerpunkte</p>
+        <h2>Wichtige Themen in diesem Fach</h2>
+      </div>
+    </div>
+
+    <div class="highlight-grid">
+      {detail.highlights.map((item) => (
+        <article class="highlight-card">
+          <h3>{item}</h3>
+          <p>Dieser Schwerpunkt gehört zu den zentralen Einstiegspunkten und wird schrittweise mit Wissensseiten und Übungen ausgebaut.</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="subject-section">
+    <div class="section-head">
+      <div>
+        <p class="section-kicker">Live-Inhalte</p>
+        <h2>Aktuell im Fachbereich sichtbar</h2>
+        <p>Mit jedem neuen Artikel und jeder neuen Übung wächst der Fachbereich direkt in die Plattform hinein.</p>
+      </div>
+    </div>
+
+    <div class="content-grid two-up">
+      <article class="content-card">
+        <div class="content-top">
+          <h3>Wissensseiten</h3>
+          <span>{articles.length}</span>
+        </div>
+
+        {articles.length > 0 ? (
+          <ul class="content-list">
+            {articles.slice(0, 6).map((entry) => (
+              <li>
+                <strong>{entry.data.title}</strong>
+                <span>{levelLabels[entry.data.level]}</span>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p class="empty">Die ersten Kernseiten für diesen Fachbereich werden jetzt schrittweise in die Plattform eingezogen.</p>
+        )}
+      </article>
+
+      <article class="content-card">
+        <div class="content-top">
+          <h3>Aufgaben und Übungen</h3>
+          <span>{exercises.length}</span>
+        </div>
+
+        {exercises.length > 0 ? (
+          <ul class="content-list">
+            {exercises.slice(0, 6).map((entry) => (
+              <li>
+                <strong>{entry.data.title}</strong>
+                <span>{levelLabels[entry.data.level]}</span>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p class="empty">Passende Übungsformate werden über den Aufgaben-Hub und die Fachseite nach und nach sichtbar ergänzt.</p>
+        )}
+      </article>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .subject-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(18rem, 24rem);
+    gap: 1.25rem;
+    align-items: start;
+  }
+
+  .eyebrow,
+  .section-kicker {
+    margin: 0 0 0.75rem;
+    color: var(--text-soft);
+    font-size: 0.92rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    margin: 0;
+    color: var(--text-strong);
+    font-size: clamp(2.5rem, 4.7vw, 4.3rem);
+    line-height: 0.98;
+    letter-spacing: -0.045em;
+  }
+
+  .lead {
+    margin: 1rem 0 0;
+    color: var(--text);
+    line-height: 1.8;
+    font-size: 1.05rem;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 0.85rem;
+    flex-wrap: wrap;
+    margin-top: 1.45rem;
+  }
+
+  .hero-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3.1rem;
+    padding: 0 1.15rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    font-weight: 700;
+  }
+
+  .hero-button.primary {
+    background: color-mix(in oklab, var(--surface-strong) 86%, #4f46e5 14%);
+    color: white;
+    border-color: transparent;
+  }
+
+  .hero-button.secondary {
+    background: var(--surface);
+    color: var(--text-strong);
+  }
+
+  .hero-stats {
+    display: grid;
+    gap: 0.85rem;
+  }
+
+  .stat-card {
+    display: grid;
+    gap: 0.35rem;
+    padding: 1.2rem;
+    border: 1px solid var(--border);
+    border-radius: 22px;
+    background: var(--card-bg);
+    box-shadow: var(--shadow-soft);
+  }
+
+  .stat-card span {
+    color: var(--text-soft);
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+  .stat-card strong {
+    color: var(--text-strong);
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: -0.04em;
+  }
+
+  .subject-section {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1.8rem;
+  }
+
+  .section-head h2 {
+    margin: 0;
+    color: var(--text-strong);
+    font-size: clamp(1.75rem, 2.9vw, 2.35rem);
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+  }
+
+  .section-head p {
+    margin: 0.75rem 0 0;
+    max-width: 44rem;
+    color: var(--text-soft);
+    line-height: 1.64;
+  }
+
+  .section-grid,
+  .highlight-grid,
+  .content-grid {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .section-grid,
+  .highlight-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .content-grid.two-up {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .section-card,
+  .highlight-card,
+  .content-card {
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    background: var(--card-bg);
+    box-shadow: var(--shadow-soft);
+    padding: 1.35rem;
+  }
+
+  .section-card h3,
+  .highlight-card h3,
+  .content-top h3 {
+    margin: 0;
+    color: var(--text-strong);
+    font-size: 1.12rem;
+  }
+
+  .section-card ul,
+  .content-list {
+    list-style: none;
+    margin: 0.95rem 0 0;
+    padding: 0;
+    display: grid;
+    gap: 0.65rem;
+  }
+
+  .section-card li,
+  .content-list li {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.8rem;
+    padding-bottom: 0.65rem;
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
+  }
+
+  .section-card li:last-child,
+  .content-list li:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .highlight-card p,
+  .empty {
+    margin: 0.75rem 0 0;
+    color: var(--text);
+    line-height: 1.66;
+  }
+
+  .content-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .content-top span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2rem;
+    min-height: 2rem;
+    padding: 0 0.55rem;
+    border-radius: 999px;
+    background: var(--surface);
+    color: var(--text-strong);
+    font-weight: 700;
+    border: 1px solid var(--border);
+  }
+
+  .content-list strong {
+    color: var(--text-strong);
+    font-weight: 650;
+  }
+
+  .content-list span {
+    color: var(--text-soft);
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 980px) {
+    .subject-hero,
+    .content-grid.two-up,
+    .section-grid,
+    .highlight-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
