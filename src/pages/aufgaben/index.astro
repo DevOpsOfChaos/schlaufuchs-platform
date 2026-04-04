@@ -1,53 +1,56 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
 
 const base = import.meta.env.BASE_URL;
 
-const pathways = [
-  {
-    title: "Zum Einstieg",
-    description: "Kleine Aufgaben für ein schnelles Wiederholen und erstes Anwenden.",
-    tags: ["einfach", "Grundlagen", "direkt starten"],
-  },
-  {
-    title: "Zum Festigen",
-    description: "Übungen mit etwas mehr Struktur, Rechentiefe oder Codeverständnis.",
-    tags: ["mittel", "systematisch", "weiter üben"],
-  },
-  {
-    title: "Zur Praxis",
-    description: "Praxisnahe Aufgaben, Diagnoseformate und kleine Challenges.",
-    tags: ["Praxis", "Challenge", "Transfer"],
-  },
-];
+const allExercises = (await getCollection("exercises"))
+  .filter((entry) => !entry.data.draft && entry.data.subject !== "daten-und-signale")
+  .sort((a, b) => a.data.title.localeCompare(b.data.title, "de"));
 
-const subjects = [
-  {
+const subjectMeta: Record<string, { title: string; description: string }> = {
+  mathematik: {
     title: "Mathematik",
-    href: `${base}fachbereiche/mathematik`,
     description: "Funktionen, Analysis und klassische Rechenaufgaben.",
   },
-  {
+  linux: {
     title: "Linux",
-    href: `${base}fachbereiche/linux`,
     description: "Shell, Rechte, SSH und erste Praxisaufgaben.",
   },
-  {
+  "web-development": {
     title: "Web Development",
-    href: `${base}fachbereiche/web-development`,
     description: "HTML, CSS, Layouts und kleine Code-Challenges.",
   },
-  {
+  informatik: {
     title: "Informatik",
-    href: `${base}fachbereiche/informatik`,
     description: "Programmstruktur, C-Grundlagen und Code-Leseaufgaben.",
   },
-  {
+  elektrotechnik: {
     title: "Elektrotechnik",
-    href: `${base}fachbereiche/elektrotechnik`,
     description: "Netzwerkanalyse, Dioden, Wechselstrom und Mikrocontroller.",
   },
-];
+};
+
+const subjectOrder = ["mathematik", "linux", "web-development", "informatik", "elektrotechnik"];
+
+const grouped = subjectOrder
+  .map((slug) => {
+    const entries = allExercises.filter((entry) => entry.data.subject === slug);
+    return {
+      slug,
+      ...subjectMeta[slug],
+      entries,
+    };
+  })
+  .filter((group) => group.entries.length > 0);
+
+const levelLabels = {
+  einfach: "Einfach",
+  mittel: "Mittel",
+  fortgeschritten: "Fortgeschritten",
+} as const;
+
+const totalExercises = allExercises.length;
 ---
 
 <BaseLayout
@@ -55,84 +58,115 @@ const subjects = [
   description="Globale Übersicht über Aufgaben, Übungen und Praxisformate auf Schlaufuchs."
 >
   <section class="hub-hero">
-    <p class="kicker">Üben und anwenden</p>
-    <h1>Aufgaben und Übungen</h1>
-    <p class="lead">
-      Dieser Bereich bündelt Aufgaben aus allen Fachbereichen. Die ersten Übungswellen werden
-      jetzt strukturiert aufgebaut – mit klaren Fachbezügen, Schwierigkeitsstufen und späterer
-      Verknüpfung zu Wissensseiten.
-    </p>
+    <div class="hero-copy">
+      <p class="kicker">Üben und anwenden</p>
+      <h1>Aufgaben und Übungen</h1>
+      <p class="lead">
+        Dieser Bereich bündelt die ersten sichtbaren Übungen aus allen Hauptfächern. Schritt für
+        Schritt wächst hier ein echter Aufgaben-Hub mit Rechenaufgaben, Diagnoseformaten,
+        Code-Übungen und Praxisblöcken.
+      </p>
 
-    <div class="hero-actions">
-      <a class="hero-button primary" href={`${base}fachbereiche`}>Fachbereich wählen</a>
-      <a class="hero-button secondary" href={`${base}suchen`}>In Aufgaben suchen</a>
+      <div class="hero-actions">
+        <a class="hero-button primary" href={`${base}fachbereiche`}>Fachbereich wählen</a>
+        <a class="hero-button secondary" href={`${base}suchen`}>In Aufgaben suchen</a>
+      </div>
+    </div>
+
+    <div class="hero-stat">
+      <span>Live-Übungen</span>
+      <strong>{totalExercises}</strong>
+      <p>Die ersten Übungen sind jetzt direkt über Fachbereiche und den globalen Aufgabenbereich sichtbar.</p>
     </div>
   </section>
 
   <section class="hub-section">
     <div class="section-head">
       <div>
-        <p class="section-kicker">Formate</p>
-        <h2>So soll Üben auf Schlaufuchs funktionieren</h2>
+        <p class="section-kicker">Live im System</p>
+        <h2>Aktuelle Aufgaben nach Fachbereich</h2>
+        <p>Jeder Block zeigt die bereits sichtbaren Übungen des Fachs und führt weiter in den jeweiligen Fachbereich.</p>
       </div>
     </div>
 
-    <div class="pathway-grid">
-      {pathways.map((item) => (
-        <article class="pathway-card">
-          <h3>{item.title}</h3>
-          <p>{item.description}</p>
-          <ul>
-            {item.tags.map((tag) => <li>{tag}</li>)}
+    <div class="group-grid">
+      {grouped.map((group) => (
+        <article class="group-card">
+          <div class="group-top">
+            <div>
+              <h3>{group.title}</h3>
+              <p>{group.description}</p>
+            </div>
+            <span>{group.entries.length}</span>
+          </div>
+
+          <ul class="exercise-list">
+            {group.entries.map((entry) => (
+              <li>
+                <div>
+                  <strong>{entry.data.title}</strong>
+                  <p>{entry.data.description}</p>
+                </div>
+                <small>{levelLabels[entry.data.level]}</small>
+              </li>
+            ))}
           </ul>
+
+          <a class="group-link" href={`${base}fachbereiche/${group.slug}`}>Zum Fachbereich →</a>
         </article>
-      ))}
-    </div>
-  </section>
-
-  <section class="hub-section">
-    <div class="section-head">
-      <div>
-        <p class="section-kicker">Fachbereiche</p>
-        <h2>Übungen nach Fach erkunden</h2>
-        <p>Bis der globale Aufgaben-Hub dynamisch aus der Collection gespeist wird, führen die Fachseiten schon in die wichtigsten Übungsbereiche.</p>
-      </div>
-    </div>
-
-    <div class="subject-grid">
-      {subjects.map((subject) => (
-        <a class="subject-card" href={subject.href}>
-          <h3>{subject.title}</h3>
-          <p>{subject.description}</p>
-          <span>Zum Fachbereich →</span>
-        </a>
       ))}
     </div>
   </section>
 </BaseLayout>
 
 <style>
-  .hub-hero,
-  .pathway-card,
-  .subject-card {
+  .hub-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(15rem, 20rem);
+    gap: 1rem;
+    align-items: start;
+  }
+
+  .hero-copy,
+  .hero-stat,
+  .group-card {
     border: 1px solid var(--border);
     background: var(--card-bg);
     box-shadow: var(--shadow-soft);
+    border-radius: 28px;
   }
 
-  .hub-hero {
-    padding: 2.4rem;
-    border-radius: 30px;
+  .hero-copy {
+    padding: 2rem;
   }
 
+  .hero-stat {
+    display: grid;
+    gap: 0.45rem;
+    padding: 1.4rem;
+  }
+
+  .hero-stat span,
   .kicker,
   .section-kicker {
-    margin: 0 0 0.75rem;
     color: var(--text-soft);
     font-size: 0.92rem;
     font-weight: 700;
     letter-spacing: 0.04em;
     text-transform: uppercase;
+  }
+
+  .hero-stat strong {
+    color: var(--text-strong);
+    font-size: 3rem;
+    line-height: 1;
+    letter-spacing: -0.05em;
+  }
+
+  .hero-stat p {
+    margin: 0;
+    color: var(--text);
+    line-height: 1.65;
   }
 
   h1 {
@@ -182,8 +216,8 @@ const subjects = [
 
   .hub-section {
     display: grid;
-    gap: 1.1rem;
-    margin-top: 1.65rem;
+    gap: 1rem;
+    margin-top: 1.75rem;
   }
 
   .section-head h2 {
@@ -201,73 +235,97 @@ const subjects = [
     line-height: 1.62;
   }
 
-  .pathway-grid,
-  .subject-grid {
+  .group-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
   }
 
-  .pathway-card,
-  .subject-card {
-    border-radius: 24px;
-    padding: 1.4rem;
+  .group-card {
+    display: grid;
+    gap: 1rem;
+    padding: 1.35rem;
   }
 
-  .pathway-card h3,
-  .subject-card h3 {
+  .group-top {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .group-top h3 {
     margin: 0;
     color: var(--text-strong);
-    font-size: 1.15rem;
+    font-size: 1.2rem;
   }
 
-  .pathway-card p,
-  .subject-card p {
-    margin: 0.75rem 0 0;
+  .group-top p {
+    margin: 0.55rem 0 0;
     color: var(--text);
-    line-height: 1.68;
+    line-height: 1.6;
   }
 
-  .pathway-card ul {
+  .group-top span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2.1rem;
+    min-height: 2.1rem;
+    padding: 0 0.55rem;
+    border-radius: 999px;
+    background: var(--surface);
+    color: var(--text-strong);
+    font-weight: 700;
+    border: 1px solid var(--border);
+  }
+
+  .exercise-list {
     list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.55rem;
-    margin: 1rem 0 0;
+    display: grid;
+    gap: 0.8rem;
+    margin: 0;
     padding: 0;
   }
 
-  .pathway-card li {
-    padding: 0.42rem 0.7rem;
-    border-radius: 999px;
-    border: 1px solid var(--border);
-    background: var(--surface);
-    color: var(--text-strong);
-    font-size: 0.9rem;
-    font-weight: 600;
+  .exercise-list li {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.9rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid var(--border);
   }
 
-  .subject-card span {
-    display: inline-flex;
-    margin-top: 1rem;
+  .exercise-list li:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .exercise-list strong {
+    color: var(--text-strong);
+    font-weight: 650;
+  }
+
+  .exercise-list p {
+    margin: 0.45rem 0 0;
+    color: var(--text);
+    line-height: 1.58;
+  }
+
+  .exercise-list small {
+    color: var(--text-soft);
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  .group-link {
     color: var(--text-strong);
     font-weight: 700;
   }
 
   @media (max-width: 980px) {
-    .pathway-grid,
-    .subject-grid {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
-
-  @media (max-width: 720px) {
-    .hub-hero {
-      padding: 1.6rem;
-    }
-
-    .pathway-grid,
-    .subject-grid {
+    .hub-hero,
+    .group-grid {
       grid-template-columns: 1fr;
     }
   }
