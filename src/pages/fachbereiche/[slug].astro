@@ -320,11 +320,21 @@ const levelLabels = {
     letter-spacing: -0.045em;
   }
 
+  :global(html[data-presentation-mode="on"]) h1 {
+    font-size: clamp(2.9rem, 5.5vw, 5rem);
+  }
+
   .lead {
     margin: 1rem 0 0;
     color: var(--text);
     line-height: 1.8;
     font-size: 1.05rem;
+  }
+
+  :global(html[data-presentation-mode="on"]) .lead {
+    font-size: 1.18rem;
+    line-height: 1.88;
+    max-width: 62rem;
   }
 
   .hero-actions {
@@ -406,11 +416,21 @@ const levelLabels = {
     letter-spacing: -0.03em;
   }
 
+  :global(html[data-presentation-mode="on"]) .section-head h2 {
+    font-size: clamp(2rem, 3.4vw, 2.75rem);
+  }
+
   .section-head p {
     margin: 0.75rem 0 0;
     max-width: 44rem;
     color: var(--text-soft);
     line-height: 1.64;
+  }
+
+  :global(html[data-presentation-mode="on"]) .section-head p {
+    font-size: 1.08rem;
+    line-height: 1.8;
+    max-width: 62rem;
   }
 
   .section-grid,
@@ -444,6 +464,13 @@ const levelLabels = {
     padding: 1.35rem;
   }
 
+  :global(html[data-presentation-mode="on"]) .section-card,
+  :global(html[data-presentation-mode="on"]) .highlight-card,
+  :global(html[data-presentation-mode="on"]) .content-card,
+  :global(html[data-presentation-mode="on"]) .learn-mode-card {
+    padding: 1.65rem;
+  }
+
   .learn-mode-card {
     background: linear-gradient(135deg, rgba(79,70,229,0.10), rgba(240,244,255,0.88));
   }
@@ -459,6 +486,13 @@ const levelLabels = {
     margin: 0;
     color: var(--text-strong);
     font-size: 1.12rem;
+  }
+
+  :global(html[data-presentation-mode="on"]) .section-card h3,
+  :global(html[data-presentation-mode="on"]) .highlight-card h3,
+  :global(html[data-presentation-mode="on"]) .content-top h3,
+  :global(html[data-presentation-mode="on"]) .learn-mode-card h3 {
+    font-size: 1.35rem;
   }
 
   .section-card ul,
@@ -494,6 +528,15 @@ const levelLabels = {
     margin: 0.75rem 0 0;
     color: var(--text);
     line-height: 1.66;
+  }
+
+  :global(html[data-presentation-mode="on"]) .section-card li,
+  :global(html[data-presentation-mode="on"]) .content-list li,
+  :global(html[data-presentation-mode="on"]) .learn-mode-card li,
+  :global(html[data-presentation-mode="on"]) .highlight-card p,
+  :global(html[data-presentation-mode="on"]) .empty {
+    font-size: 1.08rem;
+    line-height: 1.8;
   }
 
   .learn-mode-link {
@@ -537,6 +580,11 @@ const levelLabels = {
   .content-copy small {
     color: var(--text-soft);
     line-height: 1.45;
+  }
+
+  :global(html[data-presentation-mode="on"]) .content-copy small {
+    font-size: 1rem;
+    line-height: 1.7;
   }
 
   .content-list span {

@@ -48,8 +48,14 @@ main {
   padding: 1rem 0 4rem;
 }
 
+:root[data-presentation-mode="on"] body {
+  background: var(--page-gradient);
+}
+
 :root[data-presentation-mode="on"] main {
+  width: min(1280px, calc(100% - 1.25rem));
   padding-top: 0.75rem;
+  padding-bottom: 2.5rem;
 }
 
 :root[data-presentation-mode="on"] footer,
@@ -57,6 +63,10 @@ main {
 :root[data-presentation-mode="on"] .learn-mode-only,
 :root[data-presentation-mode="on"] [data-present="hide"] {
   display: none !important;
+}
+
+:root[data-presentation-mode="on"] [data-present="dim"] {
+  opacity: 0.55;
 }
 
 ::selection {

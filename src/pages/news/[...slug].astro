@@ -80,11 +80,21 @@ const formattedDate = entry.data.publishedAt.toLocaleDateString("de-DE", {
     letter-spacing: -0.045em;
   }
 
+  :global(html[data-presentation-mode="on"]) h1 {
+    font-size: clamp(2.7rem, 5.3vw, 4.8rem);
+  }
+
   .lead {
     margin: 1rem 0 0;
     color: var(--text);
     line-height: 1.75;
     font-size: 1.05rem;
+  }
+
+  :global(html[data-presentation-mode="on"]) .lead {
+    font-size: 1.18rem;
+    line-height: 1.85;
+    max-width: 60rem;
   }
 
   .meta-card,
@@ -139,6 +149,10 @@ const formattedDate = entry.data.publishedAt.toLocaleDateString("de-DE", {
     box-shadow: var(--shadow-card);
   }
 
+  :global(html[data-presentation-mode="on"]) .news-content {
+    padding: 1.9rem 2rem;
+  }
+
   .aside-card {
     padding: 1.3rem;
     border-radius: 22px;
@@ -176,6 +190,11 @@ const formattedDate = entry.data.publishedAt.toLocaleDateString("de-DE", {
     line-height: 1.15;
   }
 
+  :global(html[data-presentation-mode="on"]) .news-content :global(h2) {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+
   .news-content :global(h2:first-child) {
     margin-top: 0;
   }
@@ -185,6 +204,12 @@ const formattedDate = entry.data.publishedAt.toLocaleDateString("de-DE", {
     color: var(--text);
     line-height: 1.8;
     font-size: 1rem;
+  }
+
+  :global(html[data-presentation-mode="on"]) .news-content :global(p),
+  :global(html[data-presentation-mode="on"]) .news-content :global(li) {
+    font-size: 1.12rem;
+    line-height: 1.9;
   }
 
   .news-content :global(ul) {

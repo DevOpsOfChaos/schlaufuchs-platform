@@ -102,11 +102,21 @@ const subjectSlug = entry.data.subject === "daten-und-signale" ? "elektrotechnik
     letter-spacing: -0.045em;
   }
 
+  :global(html[data-presentation-mode="on"]) h1 {
+    font-size: clamp(2.8rem, 5.4vw, 4.8rem);
+  }
+
   .lead {
     margin: 1rem 0 0;
     color: var(--text);
     line-height: 1.75;
     font-size: 1.05rem;
+  }
+
+  :global(html[data-presentation-mode="on"]) .lead {
+    font-size: 1.18rem;
+    line-height: 1.85;
+    max-width: 60rem;
   }
 
   .hero-meta {
@@ -158,6 +168,10 @@ const subjectSlug = entry.data.subject === "daten-und-signale" ? "elektrotechnik
     padding: 1.4rem;
     border-radius: 28px;
     box-shadow: var(--shadow-card);
+  }
+
+  :global(html[data-presentation-mode="on"]) .exercise-content {
+    padding: 1.9rem 2rem;
   }
 
   .exercise-aside {
@@ -216,6 +230,11 @@ const subjectSlug = entry.data.subject === "daten-und-signale" ? "elektrotechnik
     line-height: 1.15;
   }
 
+  :global(html[data-presentation-mode="on"]) .exercise-content :global(h2) {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+
   .exercise-content :global(h2:first-child) {
     margin-top: 0;
   }
@@ -225,6 +244,12 @@ const subjectSlug = entry.data.subject === "daten-und-signale" ? "elektrotechnik
     color: var(--text);
     line-height: 1.8;
     font-size: 1rem;
+  }
+
+  :global(html[data-presentation-mode="on"]) .exercise-content :global(p),
+  :global(html[data-presentation-mode="on"]) .exercise-content :global(li) {
+    font-size: 1.12rem;
+    line-height: 1.9;
   }
 
   .exercise-content :global(ul) {
