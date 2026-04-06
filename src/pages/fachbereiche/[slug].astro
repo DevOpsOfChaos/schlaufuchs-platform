@@ -12,67 +12,99 @@ const subjectDetails: Record<
     sections: { title: string; items: string[] }[];
     knowledgeLabel: string;
     exerciseLabel: string;
+    learnModeTitle: string;
+    learnModeItems: string[];
   }
 > = {
   mathematik: {
     intro:
-      "Mathematik auf Schlaufuchs verbindet Verstehen, Rechnen und systematisches Üben. Der Bereich startet mit Funktionen und Graphen und führt über Analysis, Algebra und Vektorgeometrie in klar gegliederte Lernpfade.",
+      "Mathematik auf Schlaufuchs bündelt Grundlagen, Analysis, Algebra und Vektorgeometrie in klaren Themenfeldern. Der Bereich verbindet fachliche Übersicht, Wissensseiten und passende Aufgaben.",
     highlights: ["Funktionen", "Analysis", "Algebra", "Vektorgeometrie"],
     sections: [
-      { title: "Zum Einstieg", items: ["Funktionen und Graphen", "Lineare und quadratische Funktionen", "Erste Analysis"] },
+      { title: "Grundlagen", items: ["Funktionen und Graphen", "Lineare und quadratische Funktionen", "Erste Analysis"] },
       { title: "Zentrale Themen", items: ["Differentialrechnung", "Integralrechnung", "Lineare Gleichungssysteme"] },
-      { title: "Zum Vertiefen", items: ["Komplexe Zahlen", "Geraden und Ebenen", "Fourier und FFT"] },
+      { title: "Erweiterungen", items: ["Komplexe Zahlen", "Geraden und Ebenen", "Fourier und FFT"] },
     ],
     knowledgeLabel: "Wissensseiten",
-    exerciseLabel: "Rechen- und Übungsaufgaben",
+    exerciseLabel: "Aufgaben",
+    learnModeTitle: "Mathematik im Lernmodus nutzen",
+    learnModeItems: [
+      "Starte mit den Grundlagen und wechsle danach gezielt in Analysis oder Algebra.",
+      "Nutze Aufgaben erst nach dem inhaltlichen Überblick, damit Begriffe und Verfahren sitzen.",
+      "Arbeite Themen in kleinen Blöcken: verstehen, Beispiel ansehen, dann Aufgaben ergänzen.",
+    ],
   },
   linux: {
     intro:
-      "Linux auf Schlaufuchs erklärt Shell, Rechte, Benutzer, SSH und Shellskripte mit starkem Praxisbezug. Der Bereich führt vom Terminal-Einstieg bis zu ersten Automatisierungs- und Fernzugriffs-Workflows.",
+      "Linux auf Schlaufuchs bündelt Shell, Rechte, Benutzer, SSH und Shellskripte in klar gegliederten Themenbereichen. Der Bereich verbindet Praxiswissen, Nachschlagen und passende Aufgaben.",
     highlights: ["Shell", "Rechte", "Shellskripte", "SSH"],
     sections: [
-      { title: "Zum Einstieg", items: ["Shell und Prompt", "Dateirechte", "Benutzer und Gruppen"] },
+      { title: "Grundlagen", items: ["Shell und Prompt", "Dateirechte", "Benutzer und Gruppen"] },
       { title: "Zentrale Themen", items: ["chmod", "Dateibesitz", "Shellskripte"] },
-      { title: "Zur Praxis", items: ["SSH", "Schlüssel", "Fernzugriff und Tools"] },
+      { title: "Praxis", items: ["SSH", "Schlüssel", "Fernzugriff und Tools"] },
     ],
-    knowledgeLabel: "Lernseiten",
-    exerciseLabel: "Praxis- und Diagnoseaufgaben",
+    knowledgeLabel: "Wissensseiten",
+    exerciseLabel: "Aufgaben",
+    learnModeTitle: "Linux im Lernmodus nutzen",
+    learnModeItems: [
+      "Beginne mit Shell und Rechten, bevor du Automatisierung oder Fernzugriff vertiefst.",
+      "Wechsle zwischen Wissensseite und Terminalpraxis in kleinen, klaren Schritten.",
+      "Nutze SSH und Shellskripte erst dann stärker, wenn die Grundbefehle sicher sitzen.",
+    ],
   },
   informatik: {
     intro:
-      "Informatik auf Schlaufuchs verbindet Grundverständnis, algorithmisches Denken und den Einstieg in Programmierung. Der Bereich führt von Informatik-Grundideen über Computerlogik bis zu den ersten sauberen C-Beispielen.",
+      "Informatik auf Schlaufuchs bündelt Grundlagen, Programmierlogik und erste systemnahe Themen in einer klaren Fachübersicht. Der Bereich verbindet Einordnung, Wissensseiten und passende Aufgaben.",
     highlights: ["Grundlagen", "Programmierung", "C", "Struktur"],
     sections: [
-      { title: "Zum Einstieg", items: ["Einführung in die Informatik", "Computer- und Programmiergrundlagen"] },
-      { title: "Programmieren lernen", items: ["C und Python einordnen", "Programmstruktur verstehen"] },
+      { title: "Grundlagen", items: ["Einführung in die Informatik", "Computer- und Programmiergrundlagen"] },
+      { title: "Programmierung", items: ["C und Python einordnen", "Programmstruktur verstehen"] },
       { title: "Vertiefung", items: ["C-Grundlagen", "Kontrollstrukturen", "Eingaben und Ausgaben"] },
     ],
     knowledgeLabel: "Wissensseiten",
-    exerciseLabel: "Code- und Strukturaufgaben",
+    exerciseLabel: "Aufgaben",
+    learnModeTitle: "Informatik im Lernmodus nutzen",
+    learnModeItems: [
+      "Arbeite zuerst über Grundideen und Begriffe, bevor du konkrete Syntax in den Vordergrund stellst.",
+      "Verbinde Kontrollstrukturen und Programmstruktur mit kleinen Code-Aufgaben statt isoliertem Auswendiglernen.",
+      "Nutze Aufgaben besonders dort, wo Abläufe, Bedingungen und Programmlogik verglichen werden sollen.",
+    ],
   },
   elektrotechnik: {
     intro:
-      "Elektrotechnik auf Schlaufuchs bündelt technische Grundlagen, Schaltungs- und Rechenverständnis, Kommunikationstechnik und Mikrocontroller-Praxis. Der Bereich führt von Signalen und Logik bis zu Netzwerkanalyse, Wechselstrom und Arduino-Projekten.",
+      "Elektrotechnik auf Schlaufuchs bündelt technische Grundlagen, digitale Technik, Netzwerke und Mikrocontroller in übersichtlichen Themenfeldern. Der Bereich verbindet Fachinformationen, Wissensseiten und passende Aufgaben.",
     highlights: ["Signale", "Halbleiter", "Netzwerke", "Mikrocontroller"],
     sections: [
-      { title: "Zum Einstieg", items: ["Computer und CPU", "Daten, Signale und Codierung", "Netzwerke und Protokolle"] },
+      { title: "Grundlagen", items: ["Computer und CPU", "Daten, Signale und Codierung", "Netzwerke und Protokolle"] },
       { title: "Zentrale Themen", items: ["Logikgatter", "Dioden", "MOSFETs und Transistoren"] },
-      { title: "Rechnen und Praxis", items: ["Netzwerkanalyse", "Wechselstrom", "Arduino und ESP32"] },
+      { title: "Praxis und Rechnen", items: ["Netzwerkanalyse", "Wechselstrom", "Arduino und ESP32"] },
     ],
-    knowledgeLabel: "Lern- und Technikseiten",
-    exerciseLabel: "Rechen- und Praxisaufgaben",
+    knowledgeLabel: "Wissensseiten",
+    exerciseLabel: "Aufgaben",
+    learnModeTitle: "Elektrotechnik im Lernmodus nutzen",
+    learnModeItems: [
+      "Starte mit Signalen, Logik und Grundbausteinen, bevor du in Rechnen oder Mikrocontroller gehst.",
+      "Nutze Aufgaben vor allem dann, wenn Größen, Schaltungen oder Zusammenhänge sicher eingeordnet werden sollen.",
+      "Arbeite praktische Themen wie Arduino oder ESP32 am besten erst nach einem klaren Überblick über die Grundlagen.",
+    ],
   },
   "web-development": {
     intro:
-      "Web Development auf Schlaufuchs bündelt den Einstieg in HTML und CSS. Der Bereich führt von Seitenstruktur und Semantik über Links, Bilder und Pfade bis zu CSS-Grundlagen, Box-Modell und ersten Layout-Prinzipien.",
+      "Web Development auf Schlaufuchs bündelt HTML, CSS und erste Layout-Themen in einer klaren Fachübersicht. Der Bereich verbindet Wissensseiten, Nachschlage-Struktur und passende Aufgaben.",
     highlights: ["HTML", "CSS", "Semantik", "Layouts"],
     sections: [
-      { title: "Zum Einstieg", items: ["HTML-Grundlagen", "HTML-Semantik", "Seitenstruktur"] },
+      { title: "Grundlagen", items: ["HTML-Grundlagen", "HTML-Semantik", "Seitenstruktur"] },
       { title: "Zentrale Themen", items: ["Links, Bilder und Pfade", "CSS-Grundlagen", "Selektoren"] },
-      { title: "Zur Praxis", items: ["Box-Modell", "Layouts", "kleine Code-Aufgaben"] },
+      { title: "Praxis", items: ["Box-Modell", "Layouts", "kleine Code-Aufgaben"] },
     ],
     knowledgeLabel: "Wissensseiten",
-    exerciseLabel: "Code- und Praxisübungen",
+    exerciseLabel: "Aufgaben",
+    learnModeTitle: "Web Development im Lernmodus nutzen",
+    learnModeItems: [
+      "Beginne mit Struktur und Semantik, bevor du dich in CSS-Details oder Layout-Fragen verlierst.",
+      "Verbinde Wissensseiten direkt mit kleinen Code-Aufgaben, damit HTML und CSS sichtbar zusammenwirken.",
+      "Nutze den Lernmodus besonders dann, wenn du Themen in einer sinnvollen Reihenfolge durcharbeiten willst.",
+    ],
   },
 };
 
@@ -93,6 +125,8 @@ const detail = subjectDetails[subject.data.slug] ?? {
   sections: [],
   knowledgeLabel: "Wissensseiten",
   exerciseLabel: "Aufgaben",
+  learnModeTitle: "Im Lernmodus mit diesem Bereich arbeiten",
+  learnModeItems: [],
 };
 
 const relatedSubjects = subject.data.slug === "elektrotechnik"
@@ -124,7 +158,7 @@ const levelLabels = {
       <p class="lead">{detail.intro}</p>
 
       <div class="hero-actions">
-        <a class="hero-button primary" href={`${base}aufgaben`}>Zu Aufgaben und Übungen</a>
+        <a class="hero-button primary" href={`${base}fachbereiche`}>Alle Fachbereiche</a>
         <a class="hero-button secondary" href={`${base}suchen`}>Thema im Fach suchen</a>
       </div>
     </div>
@@ -139,7 +173,7 @@ const levelLabels = {
         <strong>{exercises.length}</strong>
       </article>
       <article class="stat-card">
-        <span>Schwerpunkte</span>
+        <span>Themenfelder</span>
         <strong>{detail.highlights.length}</strong>
       </article>
     </div>
@@ -148,8 +182,8 @@ const levelLabels = {
   <section class="subject-section">
     <div class="section-head">
       <div>
-        <p class="section-kicker">Lernlogik</p>
-        <h2>So ist der Bereich aufgebaut</h2>
+        <p class="section-kicker">Überblick</p>
+        <h2>So ist der Bereich gegliedert</h2>
       </div>
     </div>
 
@@ -165,11 +199,29 @@ const levelLabels = {
     </div>
   </section>
 
+  <section class="subject-section learn-mode-only">
+    <div class="section-head">
+      <div>
+        <p class="section-kicker">Lernmodus</p>
+        <h2>Zusätzliche Lernsicht für diesen Fachbereich</h2>
+        <p>Im Lernmodus wird der Fachbereich nicht nur als Sammlung von Themen genutzt, sondern stärker als geordnete Arbeits- und Vertiefungssicht gelesen.</p>
+      </div>
+    </div>
+
+    <article class="learn-mode-card">
+      <h3>{detail.learnModeTitle}</h3>
+      <ul>
+        {detail.learnModeItems.map((item) => <li>{item}</li>)}
+      </ul>
+      <a class="learn-mode-link" href={`${base}aufgaben`}>Passende Aufgaben öffnen →</a>
+    </article>
+  </section>
+
   <section class="subject-section">
     <div class="section-head">
       <div>
-        <p class="section-kicker">Schwerpunkte</p>
-        <h2>Wichtige Themen in diesem Fach</h2>
+        <p class="section-kicker">Themenfelder</p>
+        <h2>Wichtige Bereiche in diesem Fach</h2>
       </div>
     </div>
 
@@ -177,7 +229,7 @@ const levelLabels = {
       {detail.highlights.map((item) => (
         <article class="highlight-card">
           <h3>{item}</h3>
-          <p>Dieser Schwerpunkt gehört zu den zentralen Einstiegspunkten und wird schrittweise mit Wissensseiten und Übungen ausgebaut.</p>
+          <p>Dieses Themenfeld gehört zu den zentralen Bestandteilen des Fachbereichs und wird fortlaufend mit Wissensseiten und Aufgaben ergänzt.</p>
         </article>
       ))}
     </div>
@@ -186,9 +238,9 @@ const levelLabels = {
   <section class="subject-section">
     <div class="section-head">
       <div>
-        <p class="section-kicker">Live-Inhalte</p>
+        <p class="section-kicker">Verfügbare Inhalte</p>
         <h2>Aktuell im Fachbereich sichtbar</h2>
-        <p>Mit jedem neuen Artikel und jeder neuen Übung wächst der Fachbereich direkt in die Plattform hinein.</p>
+        <p>Wissensseiten und Aufgaben sind direkt im Fachbereich verankert und wachsen mit jeder weiteren Inhaltswelle sichtbar mit.</p>
       </div>
     </div>
 
@@ -218,7 +270,7 @@ const levelLabels = {
 
       <article class="content-card">
         <div class="content-top">
-          <h3>Aufgaben und Übungen</h3>
+          <h3>Aufgaben</h3>
           <span>{exercises.length}</span>
         </div>
 
@@ -235,7 +287,7 @@ const levelLabels = {
             ))}
           </ul>
         ) : (
-          <p class="empty">Passende Übungsformate werden über den Aufgaben-Hub und die Fachseite nach und nach sichtbar ergänzt.</p>
+          <p class="empty">Passende Aufgabenformate werden für diesen Fachbereich schrittweise sichtbar ergänzt.</p>
         )}
       </article>
     </div>
@@ -338,6 +390,14 @@ const levelLabels = {
     margin-top: 1.8rem;
   }
 
+  .learn-mode-only {
+    display: none;
+  }
+
+  :global(html[data-learn-mode="on"]) .learn-mode-only {
+    display: grid;
+  }
+
   .section-head h2 {
     margin: 0;
     color: var(--text-strong);
@@ -371,7 +431,8 @@ const levelLabels = {
 
   .section-card,
   .highlight-card,
-  .content-card {
+  .content-card,
+  .learn-mode-card {
     border: 1px solid var(--border);
     border-radius: 24px;
     background: var(--card-bg);
@@ -379,16 +440,26 @@ const levelLabels = {
     padding: 1.35rem;
   }
 
+  .learn-mode-card {
+    background: linear-gradient(135deg, rgba(79,70,229,0.10), rgba(240,244,255,0.88));
+  }
+
+  :global(html[data-theme="dark"]) .learn-mode-card {
+    background: linear-gradient(135deg, rgba(79,70,229,0.16), rgba(18,27,46,0.94));
+  }
+
   .section-card h3,
   .highlight-card h3,
-  .content-top h3 {
+  .content-top h3,
+  .learn-mode-card h3 {
     margin: 0;
     color: var(--text-strong);
     font-size: 1.12rem;
   }
 
   .section-card ul,
-  .content-list {
+  .content-list,
+  .learn-mode-card ul {
     list-style: none;
     margin: 0.95rem 0 0;
     padding: 0;
@@ -397,7 +468,8 @@ const levelLabels = {
   }
 
   .section-card li,
-  .content-list li {
+  .content-list li,
+  .learn-mode-card li {
     display: flex;
     justify-content: space-between;
     gap: 0.8rem;
@@ -407,7 +479,8 @@ const levelLabels = {
   }
 
   .section-card li:last-child,
-  .content-list li:last-child {
+  .content-list li:last-child,
+  .learn-mode-card li:last-child {
     border-bottom: 0;
     padding-bottom: 0;
   }
@@ -417,6 +490,13 @@ const levelLabels = {
     margin: 0.75rem 0 0;
     color: var(--text);
     line-height: 1.66;
+  }
+
+  .learn-mode-link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: var(--text-strong);
+    font-weight: 700;
   }
 
   .content-top {
