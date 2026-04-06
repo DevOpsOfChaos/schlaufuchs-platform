@@ -4,6 +4,7 @@ import { getContentInventory } from "../../data/content";
 
 const inventory = await getContentInventory();
 const totalItems = inventory.totals.articles + inventory.totals.exercises + inventory.totals.news;
+const topPriorities = inventory.prioritySubjects.slice(0, 3);
 ---
 
 <BaseLayout title="Inhaltsstand – Schlaufuchs" description="Aktueller Stand der sichtbaren Inhalte nach Fachbereich.">
@@ -34,10 +35,34 @@ const totalItems = inventory.totals.articles + inventory.totals.exercises + inve
         <span>News</span>
         <strong>{inventory.totals.news}</strong>
       </article>
+      <article class="stat-card">
+        <span>Abgedeckte Fächer</span>
+        <strong>{inventory.totals.coveredSubjects}</strong>
+      </article>
       <article class="stat-card total">
         <span>Sichtbare Inhalte</span>
         <strong>{totalItems}</strong>
       </article>
+    </div>
+  </section>
+
+  <section class="inventory-section priority-section">
+    <div class="section-head">
+      <div>
+        <p class="section-kicker">Nächste Wellen</p>
+        <h2>Was jetzt am meisten fehlt</h2>
+      </div>
+    </div>
+
+    <div class="priority-grid">
+      {topPriorities.map((entry, index) => (
+        <article class="priority-card">
+          <span class="priority-rank">0{index + 1}</span>
+          <h3>{entry.title}</h3>
+          <p class="priority-status">{entry.status.label}</p>
+          <p>{entry.status.detail}</p>
+        </article>
+      ))}
     </div>
   </section>
 
@@ -51,8 +76,12 @@ const totalItems = inventory.totals.articles + inventory.totals.exercises + inve
 
     <div class="inventory-grid">
       {inventory.bySubject.map((entry) => (
-        <article class="inventory-card">
-          <h3>{entry.title}</h3>
+        <article class={`inventory-card tone-${entry.status.key}`}>
+          <div class="card-top">
+            <h3>{entry.title}</h3>
+            <span class="status-badge">{entry.status.label}</span>
+          </div>
+          <p class="status-copy">{entry.status.detail}</p>
           <dl>
             <div>
               <dt>Wissensseiten</dt>
@@ -61,6 +90,10 @@ const totalItems = inventory.totals.articles + inventory.totals.exercises + inve
             <div>
               <dt>Aufgaben</dt>
               <dd>{entry.exerciseCount}</dd>
+            </div>
+            <div>
+              <dt>Gesamt</dt>
+              <dd>{entry.totalCount}</dd>
             </div>
           </dl>
         </article>
@@ -105,7 +138,8 @@ const totalItems = inventory.totals.articles + inventory.totals.exercises + inve
   }
 
   .hero-stats,
-  .inventory-grid {
+  .inventory-grid,
+  .priority-grid {
     display: grid;
     gap: 1rem;
   }
@@ -115,7 +149,8 @@ const totalItems = inventory.totals.articles + inventory.totals.exercises + inve
   }
 
   .stat-card,
-  .inventory-card {
+  .inventory-card,
+  .priority-card {
     border: 1px solid var(--border);
     border-radius: 24px;
     background: var(--card-bg);
@@ -156,14 +191,62 @@ const totalItems = inventory.totals.articles + inventory.totals.exercises + inve
     letter-spacing: -0.03em;
   }
 
+  .priority-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .priority-card {
+    background: linear-gradient(135deg, rgba(79,70,229,0.08), rgba(240,244,255,0.86));
+  }
+
+  :global(html[data-theme="dark"]) .priority-card {
+    background: linear-gradient(135deg, rgba(79,70,229,0.16), rgba(18,27,46,0.94));
+  }
+
+  .priority-rank,
+  .status-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2rem;
+    padding: 0 0.7rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text-strong);
+    font-size: 0.85rem;
+    font-weight: 700;
+  }
+
+  .priority-card h3,
+  .inventory-card h3 {
+    margin: 0.85rem 0 0;
+    color: var(--text-strong);
+    font-size: 1.2rem;
+  }
+
+  .priority-status {
+    margin: 0.55rem 0 0;
+    color: var(--text-strong);
+    font-weight: 700;
+  }
+
+  .priority-card p,
+  .status-copy {
+    margin: 0.65rem 0 0;
+    color: var(--text);
+    line-height: 1.65;
+  }
+
   .inventory-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .inventory-card h3 {
-    margin: 0;
-    color: var(--text-strong);
-    font-size: 1.2rem;
+  .card-top {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 0.75rem;
   }
 
   .inventory-card dl {
@@ -196,9 +279,25 @@ const totalItems = inventory.totals.articles + inventory.totals.exercises + inve
     font-weight: 700;
   }
 
+  .tone-balanced {
+    border-color: color-mix(in oklab, var(--border) 72%, #16a34a 28%);
+  }
+
+  .tone-imbalanced,
+  .tone-missing_exercises,
+  .tone-missing_articles,
+  .tone-empty {
+    border-color: color-mix(in oklab, var(--border) 72%, #f59e0b 28%);
+  }
+
+  .tone-empty {
+    border-color: color-mix(in oklab, var(--border) 68%, #ef4444 32%);
+  }
+
   @media (max-width: 980px) {
     .inventory-hero,
-    .inventory-grid {
+    .inventory-grid,
+    .priority-grid {
       grid-template-columns: 1fr;
     }
 

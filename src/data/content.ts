@@ -1,5 +1,5 @@
 import { getCollection, type CollectionEntry } from "astro:content";
-import { getSubjectMeta, resolvePrimarySubjectSlug, subjectTitleMap, visibleSubjectOrder, type PrimarySubjectSlug } from "./subjects";
+import { getSubjectMeta, resolvePrimarySubjectSlug, subjectTitleMap, visibleSubjectOrder } from "./subjects";
 
 export const levelLabels = {
   einfach: "Einfach",
@@ -132,6 +132,53 @@ export const getSearchEntries = async (base: string) => {
   );
 };
 
+const getSubjectInventoryStatus = (articleCount: number, exerciseCount: number) => {
+  if (articleCount === 0 && exerciseCount === 0) {
+    return {
+      key: "empty",
+      label: "Leer",
+      detail: "Hier fehlen aktuell sowohl Wissensseiten als auch Aufgaben.",
+      priorityScore: 100,
+    };
+  }
+
+  if (articleCount === 0) {
+    return {
+      key: "missing_articles",
+      label: "Wissenslücke",
+      detail: "Aufgaben sind sichtbar, aber die Wissensseiten fehlen noch als fachliche Basis.",
+      priorityScore: 80 + exerciseCount,
+    };
+  }
+
+  if (exerciseCount === 0) {
+    return {
+      key: "missing_exercises",
+      label: "Aufgabenlücke",
+      detail: "Wissensseiten sind sichtbar, aber passende Aufgaben fehlen noch.",
+      priorityScore: 70 + articleCount,
+    };
+  }
+
+  const difference = Math.abs(articleCount - exerciseCount);
+
+  if (difference >= 3) {
+    return {
+      key: "imbalanced",
+      label: "Unausgeglichen",
+      detail: "Beide Content-Typen sind vorhanden, aber der Bereich ist noch deutlich unausgeglichen.",
+      priorityScore: 40 + difference,
+    };
+  }
+
+  return {
+    key: "balanced",
+    label: "Grundbestand vorhanden",
+    detail: "Wissensseiten und Aufgaben sind beide sichtbar und bilden bereits eine belastbare Basis.",
+    priorityScore: 10,
+  };
+};
+
 export const getContentInventory = async () => {
   const [subjects, articles, exercises, newsEntries] = await Promise.all([
     getVisibleSubjects(),
@@ -140,12 +187,35 @@ export const getContentInventory = async () => {
     getVisibleNews(),
   ]);
 
-  const bySubject = visibleSubjectOrder.map((slug) => ({
-    slug,
-    title: subjectTitleMap[slug],
-    articleCount: articles.filter((entry) => resolvePrimarySubjectSlug(entry.data.subject) === slug).length,
-    exerciseCount: exercises.filter((entry) => resolvePrimarySubjectSlug(entry.data.subject) === slug).length,
-  }));
+  const bySubject = visibleSubjectOrder.map((slug) => {
+    const articleCount = articles.filter((entry) => resolvePrimarySubjectSlug(entry.data.subject) === slug).length;
+    const exerciseCount = exercises.filter((entry) => resolvePrimarySubjectSlug(entry.data.subject) === slug).length;
+    const status = getSubjectInventoryStatus(articleCount, exerciseCount);
+
+    return {
+      slug,
+      title: subjectTitleMap[slug],
+      articleCount,
+      exerciseCount,
+      totalCount: articleCount + exerciseCount,
+      status,
+    };
+  });
+
+  const prioritySubjects = [...bySubject].sort((a, b) => {
+    if (b.status.priorityScore !== a.status.priorityScore) {
+      return b.status.priorityScore - a.status.priorityScore;
+    }
+
+    if (a.totalCount !== b.totalCount) {
+      return a.totalCount - b.totalCount;
+    }
+
+    return a.title.localeCompare(b.title, "de");
+  });
+
+  const coveredSubjects = bySubject.filter((entry) => entry.totalCount > 0).length;
+  const balancedSubjects = bySubject.filter((entry) => entry.status.key === "balanced").length;
 
   return {
     totals: {
@@ -153,8 +223,11 @@ export const getContentInventory = async () => {
       articles: articles.length,
       exercises: exercises.length,
       news: newsEntries.length,
+      coveredSubjects,
+      balancedSubjects,
     },
     bySubject,
+    prioritySubjects,
   };
 };
 
