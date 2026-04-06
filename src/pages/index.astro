@@ -213,17 +213,25 @@ const heroFox = `${base}assets/mascots/general.png`;
   </section>
 
   <script is:inline>
-    const activateLearnMode = () => {
-      const root = document.documentElement;
-      root.dataset.learnMode = "on";
-      try {
-        localStorage.setItem("schlaufuchs-learn-mode", "on");
-        localStorage.removeItem("schlaufuchs-learn-prompt-dismissed");
-      } catch {}
-      window.dispatchEvent(new CustomEvent("learnmode-changed", { detail: "on" }));
+    const learnButton = document.querySelector("[data-home-learn-activate]");
+
+    const renderHomeLearnMode = () => {
+      if (!learnButton || !window.schlaufuchsModes) return;
+      const isOn = window.schlaufuchsModes.getLearnMode();
+      learnButton.textContent = isOn ? "Lernmodus ist aktiv" : "Lernmodus einschalten";
+      learnButton.classList.toggle("is-active", isOn);
     };
 
-    document.querySelector("[data-home-learn-activate]")?.addEventListener("click", activateLearnMode);
+    learnButton?.addEventListener("click", () => {
+      if (!window.schlaufuchsModes) return;
+      if (!window.schlaufuchsModes.getLearnMode()) {
+        window.schlaufuchsModes.setLearnPromptDismissed(false);
+        window.schlaufuchsModes.setLearnMode("on");
+      }
+    });
+
+    window.addEventListener("learnmode-changed", renderHomeLearnMode);
+    renderHomeLearnMode();
   </script>
 </BaseLayout>
 
@@ -321,6 +329,11 @@ const heroFox = `${base}assets/mascots/general.png`;
     background: color-mix(in oklab, var(--surface-strong) 86%, #4f46e5 14%);
     color: white;
     border-color: transparent;
+  }
+
+  .hero-button.primary.is-active {
+    opacity: 0.84;
+    cursor: default;
   }
 
   .hero-button.secondary {
