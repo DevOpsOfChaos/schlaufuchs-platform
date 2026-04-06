@@ -1,16 +1,31 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { getVisibleSubjects } from "../../data/content";
+import { getContentInventory, getVisibleSubjects } from "../../data/content";
 import { getSubjectMeta } from "../../data/subjects";
 
 const base = import.meta.env.BASE_URL;
+const inventory = await getContentInventory();
+const inventoryMap = new Map(inventory.bySubject.map((entry) => [entry.slug, entry]));
+
+const publicStatusLabels: Record<string, string> = {
+  empty: "Im Aufbau",
+  missing_articles: "Im Ausbau",
+  missing_exercises: "Im Ausbau",
+  imbalanced: "Im Ausbau",
+  balanced: "Grundbestand",
+};
 
 const subjects = (await getVisibleSubjects())
   .map((subject) => ({
     ...subject,
     meta: getSubjectMeta(subject.data.slug),
+    inventory: inventoryMap.get(subject.data.slug),
   }))
-  .filter((subject) => subject.meta !== null);
+  .filter((subject) => subject.meta !== null && subject.inventory)
+  .map((subject) => ({
+    ...subject,
+    publicStatus: publicStatusLabels[subject.inventory!.status.key] ?? "Im Ausbau",
+  }));
 ---
 
 <BaseLayout
@@ -35,13 +50,17 @@ const subjects = (await getVisibleSubjects())
 
   <section class="grid">
     {subjects.map((subject) => (
-      <a class={`card ${subject.meta!.tone}`} href={`${base}fachbereiche/${subject.data.slug}`}>
+      <a class={`card ${subject.meta!.tone} status-${subject.inventory!.status.key}`} href={`${base}fachbereiche/${subject.data.slug}`}>
         <div class="card-top">
           <span class="kicker" data-present="hide">{subject.meta!.kicker}</span>
           <span class="entry" data-present="hide">Start: {subject.meta!.entry}</span>
         </div>
 
         <div class="card-copy">
+          <div class="card-meta" data-present="hide">
+            <span class="status-badge">{subject.publicStatus}</span>
+            <span class="count-badge">{subject.inventory!.articleCount} Wissen · {subject.inventory!.exerciseCount} Aufgaben</span>
+          </div>
           <h2>{subject.data.title}</h2>
           <p>{subject.data.description}</p>
         </div>
@@ -147,6 +166,10 @@ const subjects = (await getVisibleSubjects())
     transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
   }
 
+  .status-balanced {
+    border-color: color-mix(in oklab, var(--border) 76%, #16a34a 24%);
+  }
+
   .card:hover {
     transform: translateY(-2px);
     box-shadow: var(--shadow-card);
@@ -177,7 +200,8 @@ const subjects = (await getVisibleSubjects())
   :global(html[data-theme="dark"]) .card.linux { background: linear-gradient(135deg, rgba(84,76,44,0.24), rgba(42,39,28,0.94)); }
   :global(html[data-theme="dark"]) .card.ee { background: linear-gradient(135deg, rgba(83,60,58,0.24), rgba(42,29,31,0.94)); }
 
-  .card-top {
+  .card-top,
+  .card-meta {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -186,7 +210,9 @@ const subjects = (await getVisibleSubjects())
   }
 
   .kicker,
-  .entry {
+  .entry,
+  .status-badge,
+  .count-badge {
     display: inline-flex;
     align-items: center;
     min-height: 2rem;
@@ -200,13 +226,15 @@ const subjects = (await getVisibleSubjects())
   }
 
   :global(html[data-theme="dark"]) .kicker,
-  :global(html[data-theme="dark"]) .entry {
+  :global(html[data-theme="dark"]) .entry,
+  :global(html[data-theme="dark"]) .status-badge,
+  :global(html[data-theme="dark"]) .count-badge {
     background: rgba(255,255,255,0.07);
     border-color: rgba(255,255,255,0.08);
   }
 
   .card-copy h2 {
-    margin: 0;
+    margin: 0.8rem 0 0;
     color: var(--text-strong);
     font-size: clamp(1.55rem, 2.5vw, 2rem);
     line-height: 1.03;

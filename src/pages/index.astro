@@ -1,9 +1,20 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { getVisibleSubjects } from "../data/content";
+import { getContentInventory, getVisibleSubjects } from "../data/content";
 import { getSubjectMeta } from "../data/subjects";
 
 const base = import.meta.env.BASE_URL;
+const inventory = await getContentInventory();
+const inventoryMap = new Map(inventory.bySubject.map((entry) => [entry.slug, entry]));
+const prioritySubjects = inventory.prioritySubjects.slice(0, 3);
+
+const publicStatusLabels: Record<string, string> = {
+  empty: "Im Aufbau",
+  missing_articles: "Im Ausbau",
+  missing_exercises: "Im Ausbau",
+  imbalanced: "Im Ausbau",
+  balanced: "Grundbestand",
+};
 
 const subjects = (await getVisibleSubjects())
   .map((subject) => ({
@@ -11,13 +22,15 @@ const subjects = (await getVisibleSubjects())
     description: subject.data.description,
     href: `${base}fachbereiche/${subject.data.slug}`,
     meta: getSubjectMeta(subject.data.slug),
+    inventory: inventoryMap.get(subject.data.slug),
   }))
-  .filter((subject) => subject.meta !== null)
+  .filter((subject) => subject.meta !== null && subject.inventory)
   .map((subject) => ({
     ...subject,
     icon: `${base}assets/icons/${subject.meta!.icon}`,
     tone: subject.meta!.tone,
     highlights: subject.meta!.highlights.slice(0, 3),
+    publicStatus: publicStatusLabels[subject.inventory!.status.key] ?? "Im Ausbau",
   }));
 
 const quickPaths = [
@@ -123,7 +136,7 @@ const heroFox = `${base}assets/mascots/general.png`;
 
     <div class="topic-grid">
       {subjects.map((subject) => (
-        <a class={`topic-card ${subject.tone}`} href={subject.href}>
+        <a class={`topic-card ${subject.tone} status-${subject.inventory!.status.key}`} href={subject.href}>
           <div class="topic-top" data-present="dim">
             <div class="topic-icon">
               <img src={subject.icon} alt="" loading="lazy" />
@@ -132,6 +145,10 @@ const heroFox = `${base}assets/mascots/general.png`;
           </div>
 
           <div class="topic-copy">
+            <div class="topic-meta" data-present="hide">
+              <span class="status-badge">{subject.publicStatus}</span>
+              <span class="count-badge">{subject.inventory!.articleCount} Wissen · {subject.inventory!.exerciseCount} Aufgaben</span>
+            </div>
             <h3>{subject.title}</h3>
             <p>{subject.description}</p>
           </div>
@@ -140,6 +157,28 @@ const heroFox = `${base}assets/mascots/general.png`;
             {subject.highlights.map((item) => <li>{item}</li>)}
           </ul>
         </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="home-section" data-present="hide">
+    <div class="section-head">
+      <div>
+        <p class="section-kicker">Nächste Inhaltswellen</p>
+        <h2>Diese Fachbereiche brauchen als Nächstes Ausbau</h2>
+        <p>Der Inhaltsstand wird jetzt gezielt pro Fachbereich geschlossen statt unsortiert erweitert.</p>
+      </div>
+      <a class="section-link" href={`${base}inhaltsstand`}>Zum vollständigen Inhaltsstand</a>
+    </div>
+
+    <div class="priority-grid">
+      {prioritySubjects.map((subject, index) => (
+        <article class="priority-card">
+          <span class="priority-rank">0{index + 1}</span>
+          <h3>{subject.title}</h3>
+          <p class="priority-state">{publicStatusLabels[subject.status.key] ?? "Im Ausbau"}</p>
+          <p>{subject.status.detail}</p>
+        </article>
       ))}
     </div>
   </section>
@@ -401,7 +440,8 @@ const heroFox = `${base}assets/mascots/general.png`;
   }
 
   .path-grid,
-  .focus-grid {
+  .focus-grid,
+  .priority-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1rem;
@@ -409,7 +449,8 @@ const heroFox = `${base}assets/mascots/general.png`;
 
   .path-card,
   .focus-card,
-  .learn-mode-panel {
+  .learn-mode-panel,
+  .priority-card {
     display: grid;
     gap: 1rem;
     padding: 1.35rem;
@@ -417,6 +458,62 @@ const heroFox = `${base}assets/mascots/general.png`;
     border-radius: 24px;
     background: var(--card-bg);
     box-shadow: var(--shadow-soft);
+  }
+
+  .priority-card {
+    background: linear-gradient(135deg, rgba(79,70,229,0.08), rgba(240,244,255,0.86));
+  }
+
+  :global(html[data-theme="dark"]) .priority-card {
+    background: linear-gradient(135deg, rgba(79,70,229,0.16), rgba(18,27,46,0.94));
+  }
+
+  .priority-rank,
+  .status-badge,
+  .count-badge {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2rem;
+    padding: 0.15rem 0.7rem;
+    border-radius: 999px;
+    border: 1px solid rgba(148,163,184,0.16);
+    background: rgba(255,255,255,0.26);
+    color: var(--text-strong);
+    font-size: 0.82rem;
+    font-weight: 700;
+  }
+
+  :global(html[data-theme="dark"]) .priority-rank,
+  :global(html[data-theme="dark"]) .status-badge,
+  :global(html[data-theme="dark"]) .count-badge {
+    background: rgba(255,255,255,0.08);
+    border-color: rgba(255,255,255,0.08);
+  }
+
+  .priority-card h3,
+  .priority-state {
+    margin: 0;
+  }
+
+  .priority-card h3,
+  .path-copy h3,
+  .focus-card h3 {
+    color: var(--text-strong);
+    font-size: 1.1rem;
+    line-height: 1.2;
+  }
+
+  .priority-state {
+    color: var(--text-strong);
+    font-weight: 700;
+  }
+
+  .priority-card p,
+  .path-copy p,
+  .focus-card p {
+    margin: 0.4rem 0 0;
+    color: var(--text);
+    line-height: 1.65;
   }
 
   .learn-mode-panel {
@@ -448,21 +545,6 @@ const heroFox = `${base}assets/mascots/general.png`;
     border: 1px solid var(--border);
   }
 
-  .path-copy h3,
-  .focus-card h3 {
-    margin: 0;
-    color: var(--text-strong);
-    font-size: 1.1rem;
-    line-height: 1.2;
-  }
-
-  .path-copy p,
-  .focus-card p {
-    margin: 0.4rem 0 0;
-    color: var(--text);
-    line-height: 1.65;
-  }
-
   .topic-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -473,12 +555,16 @@ const heroFox = `${base}assets/mascots/general.png`;
     position: relative;
     overflow: hidden;
     display: grid;
-    gap: 1.3rem;
+    gap: 1.1rem;
     min-height: 18.25rem;
     padding: 1.6rem;
     border: 1px solid var(--border);
     border-radius: 26px;
     box-shadow: var(--shadow-soft);
+  }
+
+  .status-balanced {
+    border-color: color-mix(in oklab, var(--border) 76%, #16a34a 24%);
   }
 
   :global(html[data-presentation-mode="on"]) .topic-card {
@@ -557,6 +643,13 @@ const heroFox = `${base}assets/mascots/general.png`;
     background: rgba(255,255,255,0.08);
   }
 
+  .topic-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    margin-bottom: 0.8rem;
+  }
+
   .topic-copy h3 {
     margin: 0;
     color: var(--text-strong);
@@ -598,7 +691,8 @@ const heroFox = `${base}assets/mascots/general.png`;
   @media (max-width: 1100px) {
     .topic-grid,
     .path-grid,
-    .focus-grid {
+    .focus-grid,
+    .priority-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
@@ -623,7 +717,8 @@ const heroFox = `${base}assets/mascots/general.png`;
   @media (max-width: 720px) {
     .topic-grid,
     .path-grid,
-    .focus-grid {
+    .focus-grid,
+    .priority-grid {
       grid-template-columns: 1fr;
     }
 
