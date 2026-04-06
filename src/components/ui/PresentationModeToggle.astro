@@ -18,13 +18,12 @@ const presentIcon = `
 </div>
 
 <script>
-  const root = document.documentElement;
   const shell = document.querySelector("[data-presentation-toggle]");
   const button = shell?.querySelector("button");
 
   const renderPresentationMode = () => {
-    if (!button) return;
-    const isOn = root.dataset.presentationMode === "on";
+    if (!button || !window.schlaufuchsModes) return;
+    const isOn = window.schlaufuchsModes.getPresentationMode();
     button.classList.toggle("active", isOn);
     button.setAttribute("aria-label", isOn ? "Präsentationsmodus deaktivieren" : "Präsentationsmodus aktivieren");
     button.setAttribute("data-tooltip", isOn ? "Präsentationsmodus deaktivieren" : "Präsentationsmodus aktivieren");
@@ -33,13 +32,7 @@ const presentIcon = `
   renderPresentationMode();
 
   button?.addEventListener("click", () => {
-    const next = root.dataset.presentationMode === "on" ? "off" : "on";
-    root.dataset.presentationMode = next;
-    try {
-      localStorage.setItem("schlaufuchs-presentation-mode", next);
-    } catch {}
-    renderPresentationMode();
-    window.dispatchEvent(new CustomEvent("presentationmode-changed", { detail: next }));
+    window.schlaufuchsModes?.togglePresentationMode();
   });
 
   window.addEventListener("presentationmode-changed", renderPresentationMode);

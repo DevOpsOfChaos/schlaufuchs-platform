@@ -18,13 +18,12 @@ const learnIcon = `
 </div>
 
 <script>
-  const root = document.documentElement;
   const shell = document.querySelector("[data-learn-toggle]");
   const button = shell?.querySelector("button");
 
   const renderLearnMode = () => {
-    if (!button) return;
-    const isOn = root.dataset.learnMode === "on";
+    if (!button || !window.schlaufuchsModes) return;
+    const isOn = window.schlaufuchsModes.getLearnMode();
     button.classList.toggle("active", isOn);
     button.setAttribute("aria-label", isOn ? "Lernmodus deaktivieren" : "Lernmodus aktivieren");
     button.setAttribute("data-tooltip", isOn ? "Lernmodus deaktivieren" : "Lernmodus aktivieren");
@@ -33,13 +32,7 @@ const learnIcon = `
   renderLearnMode();
 
   button?.addEventListener("click", () => {
-    const next = root.dataset.learnMode === "on" ? "off" : "on";
-    root.dataset.learnMode = next;
-    try {
-      localStorage.setItem("schlaufuchs-learn-mode", next);
-    } catch {}
-    renderLearnMode();
-    window.dispatchEvent(new CustomEvent("learnmode-changed", { detail: next }));
+    window.schlaufuchsModes?.toggleLearnMode();
   });
 
   window.addEventListener("learnmode-changed", renderLearnMode);

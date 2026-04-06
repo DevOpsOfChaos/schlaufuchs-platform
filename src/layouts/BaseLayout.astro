@@ -28,36 +28,89 @@ const {
       (() => {
         const root = document.documentElement;
         const params = new URLSearchParams(window.location.search);
-
-        const themeKey = "schlaufuchs-theme";
-        const storedTheme = localStorage.getItem(themeKey);
-        const systemPrefersLight = window.matchMedia("(prefers-color-scheme: light)").matches;
-        const theme = storedTheme || (systemPrefersLight ? "light" : "dark");
-        root.setAttribute("data-theme", theme);
-
         const readModeParam = (value) => {
           if (value === "1" || value === "on" || value === "true") return "on";
           if (value === "0" || value === "off" || value === "false") return "off";
           return null;
         };
 
-        const learnKey = "schlaufuchs-learn-mode";
-        const learnParam = readModeParam(params.get("learn"));
-        const storedLearnMode = localStorage.getItem(learnKey);
-        const learnMode = learnParam ?? (storedLearnMode === "on" ? "on" : "off");
-        root.setAttribute("data-learn-mode", learnMode);
-        if (learnParam) {
-          localStorage.setItem(learnKey, learnParam);
-        }
+        const keys = {
+          theme: "schlaufuchs-theme",
+          learn: "schlaufuchs-learn-mode",
+          present: "schlaufuchs-presentation-mode",
+          learnPromptDismissed: "schlaufuchs-learn-prompt-dismissed",
+        };
 
-        const presentationKey = "schlaufuchs-presentation-mode";
-        const presentationParam = readModeParam(params.get("present"));
-        const storedPresentationMode = localStorage.getItem(presentationKey);
-        const presentationMode = presentationParam ?? (storedPresentationMode === "on" ? "on" : "off");
-        root.setAttribute("data-presentation-mode", presentationMode);
-        if (presentationParam) {
-          localStorage.setItem(presentationKey, presentationParam);
-        }
+        const applyTheme = () => {
+          const storedTheme = localStorage.getItem(keys.theme);
+          const systemPrefersLight = window.matchMedia("(prefers-color-scheme: light)").matches;
+          const theme = storedTheme || (systemPrefersLight ? "light" : "dark");
+          root.setAttribute("data-theme", theme);
+        };
+
+        const setMode = (modeName, next, options = { persist: true, emit: true }) => {
+          const attr = modeName === "learn" ? "data-learn-mode" : "data-presentation-mode";
+          const storageKey = modeName === "learn" ? keys.learn : keys.present;
+          root.setAttribute(attr, next);
+
+          if (options.persist) {
+            try {
+              localStorage.setItem(storageKey, next);
+            } catch {}
+          }
+
+          if (modeName === "learn" && next === "on") {
+            try {
+              localStorage.removeItem(keys.learnPromptDismissed);
+            } catch {}
+          }
+
+          if (options.emit) {
+            window.dispatchEvent(new CustomEvent(`${modeName}mode-changed`, { detail: next }));
+            window.dispatchEvent(new CustomEvent("viewmode-changed", { detail: { modeName, value: next } }));
+          }
+        };
+
+        const getMode = (modeName) =>
+          modeName === "learn" ? root.dataset.learnMode === "on" : root.dataset.presentationMode === "on";
+
+        const setLearnPromptDismissed = (value) => {
+          try {
+            if (value) {
+              localStorage.setItem(keys.learnPromptDismissed, "true");
+            } else {
+              localStorage.removeItem(keys.learnPromptDismissed);
+            }
+          } catch {}
+          window.dispatchEvent(new CustomEvent("learnprompt-changed", { detail: value }));
+        };
+
+        window.schlaufuchsModes = {
+          getLearnMode: () => getMode("learn"),
+          getPresentationMode: () => getMode("presentation"),
+          setLearnMode: (next, options) => setMode("learn", next, options),
+          setPresentationMode: (next, options) => setMode("presentation", next, options),
+          toggleLearnMode: () => setMode("learn", getMode("learn") ? "off" : "on"),
+          togglePresentationMode: () => setMode("presentation", getMode("presentation") ? "off" : "on"),
+          isLearnPromptDismissed: () => {
+            try {
+              return localStorage.getItem(keys.learnPromptDismissed) === "true";
+            } catch {
+              return false;
+            }
+          },
+          setLearnPromptDismissed,
+        };
+
+        applyTheme();
+
+        const learnParam = readModeParam(params.get("learn"));
+        const storedLearnMode = localStorage.getItem(keys.learn);
+        setMode("learn", learnParam ?? (storedLearnMode === "on" ? "on" : "off"), { persist: !!learnParam, emit: false });
+
+        const presentParam = readModeParam(params.get("present"));
+        const storedPresentationMode = localStorage.getItem(keys.present);
+        setMode("presentation", presentParam ?? (storedPresentationMode === "on" ? "on" : "off"), { persist: !!presentParam, emit: false });
 
         window.addEventListener("keydown", (event) => {
           const target = event.target;
@@ -66,21 +119,11 @@ const {
           if (isTyping || event.metaKey || event.ctrlKey || event.altKey) return;
 
           if (event.key === "l" || event.key === "L") {
-            const next = root.dataset.learnMode === "on" ? "off" : "on";
-            root.dataset.learnMode = next;
-            try {
-              localStorage.setItem(learnKey, next);
-            } catch {}
-            window.dispatchEvent(new CustomEvent("learnmode-changed", { detail: next }));
+            window.schlaufuchsModes.toggleLearnMode();
           }
 
           if (event.key === "p" || event.key === "P") {
-            const next = root.dataset.presentationMode === "on" ? "off" : "on";
-            root.dataset.presentationMode = next;
-            try {
-              localStorage.setItem(presentationKey, next);
-            } catch {}
-            window.dispatchEvent(new CustomEvent("presentationmode-changed", { detail: next }));
+            window.schlaufuchsModes.togglePresentationMode();
           }
         });
       })();

@@ -22,44 +22,29 @@
 </div>
 
 <script>
-  const root = document.documentElement;
   const prompt = document.querySelector("[data-learn-prompt]");
   const activateButton = prompt?.querySelector("[data-learn-activate]");
   const dismissButton = prompt?.querySelector("[data-learn-dismiss]");
-  const dismissKey = "schlaufuchs-learn-prompt-dismissed";
 
   const renderPrompt = () => {
-    if (!prompt) return;
-
-    let dismissed = false;
-    try {
-      dismissed = localStorage.getItem(dismissKey) === "true";
-    } catch {}
-
-    const isLearnModeOn = root.dataset.learnMode === "on";
+    if (!prompt || !window.schlaufuchsModes) return;
+    const dismissed = window.schlaufuchsModes.isLearnPromptDismissed();
+    const isLearnModeOn = window.schlaufuchsModes.getLearnMode();
     prompt.hidden = dismissed || isLearnModeOn;
   };
 
-  const activateLearnMode = () => {
-    root.dataset.learnMode = "on";
-    try {
-      localStorage.setItem("schlaufuchs-learn-mode", "on");
-      localStorage.removeItem(dismissKey);
-    } catch {}
-    renderPrompt();
-    window.dispatchEvent(new CustomEvent("learnmode-changed", { detail: "on" }));
-  };
-
-  activateButton?.addEventListener("click", activateLearnMode);
+  activateButton?.addEventListener("click", () => {
+    window.schlaufuchsModes?.setLearnPromptDismissed(false);
+    window.schlaufuchsModes?.setLearnMode("on");
+  });
 
   dismissButton?.addEventListener("click", () => {
-    try {
-      localStorage.setItem(dismissKey, "true");
-    } catch {}
+    window.schlaufuchsModes?.setLearnPromptDismissed(true);
     renderPrompt();
   });
 
   window.addEventListener("learnmode-changed", renderPrompt);
+  window.addEventListener("learnprompt-changed", renderPrompt);
   renderPrompt();
 </script>
 
