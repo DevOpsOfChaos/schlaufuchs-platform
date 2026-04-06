@@ -1,0 +1,40 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import InfoPageShell from "../components/ui/InfoPageShell.astro";
+---
+
+<BaseLayout title="Impressum – Schlaufuchs" description="Impressumsseite für Schlaufuchs.">
+  <InfoPageShell
+    kicker="Impressum"
+    title="Impressum vorbereiten"
+    lead="Für eine öffentliche Veröffentlichung oder einen produktiven Schuleinsatz braucht die Plattform ein korrektes Impressum. Diese Seite ist deshalb bewusst als saubere Vorlage angelegt und muss vor dem Livegang ergänzt werden."
+  >
+    <section>
+      <h2>Hinweis</h2>
+      <p class="info-note">
+        Aktuell sind hier absichtlich keine erfundenen Rechts- oder Personendaten eingetragen.
+        Vor Veröffentlichung müssen die tatsächlichen Angaben rechtlich korrekt ergänzt werden.
+      </p>
+    </section>
+
+    <section>
+      <h2>Typische Pflichtangaben</h2>
+      <ul>
+        <li>Name der verantwortlichen Person oder Institution</li>
+        <li>ladungsfähige Anschrift</li>
+        <li>Kontaktmöglichkeit, in der Regel E-Mail</li>
+        <li>gegebenenfalls vertretungsberechtigte Person</li>
+        <li>weitere gesetzlich erforderliche Angaben je nach Trägerschaft und Veröffentlichungsform</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Empfehlung für dieses Projekt</h2>
+      <p>
+        Die endgültige Fassung sollte nicht improvisiert, sondern mit der tatsächlich verantwortlichen
+        Stelle abgestimmt werden. Gerade bei schulischem oder institutionellem Einsatz sollte das
+        Impressum mit den realen Zuständigkeiten übereinstimmen.
+      </p>
+    </section>
+  </InfoPageShell>
+</BaseLayout>

@@ -1,0 +1,51 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import InfoPageShell from "../components/ui/InfoPageShell.astro";
+---
+
+<BaseLayout title="Kontakt – Schlaufuchs" description="Kontaktseite für Schlaufuchs.">
+  <InfoPageShell
+    kicker="Kontakt"
+    title="Kontakt zur Plattform"
+    lead="Diese Seite bündelt den Kontaktkontext der Plattform. Vor einer öffentlichen oder schulischen Liveschaltung sollten die endgültigen Ansprechpartner und Kontaktwege hier sauber ergänzt werden."
+  >
+    <section>
+      <h2>Aktueller Stand</h2>
+      <p class="info-note">
+        Die Plattform befindet sich noch im laufenden Neuaufbau. Deshalb sind hier bewusst noch
+        keine privaten oder endgültigen Kontaktdaten eingetragen.
+      </p>
+    </section>
+
+    <section>
+      <h2>Was hier vor Veröffentlichung ergänzt werden sollte</h2>
+      <div class="info-grid">
+        <div class="info-card">
+          <p><strong>Ansprechpartner</strong></p>
+          <p>Name der verantwortlichen Lehrkraft oder Institution.</p>
+        </div>
+        <div class="info-card">
+          <p><strong>E-Mail</strong></p>
+          <p>Ein belastbarer Kontaktweg für Rückfragen zur Plattform.</p>
+        </div>
+        <div class="info-card">
+          <p><strong>Einsatzkontext</strong></p>
+          <p>Optional: Schule, Kurs, Fachbereich oder Projektkontext.</p>
+        </div>
+        <div class="info-card">
+          <p><strong>Rückmeldungen</strong></p>
+          <p>Optional: Hinweis, wie Fehler, Wünsche oder Inhaltsergänzungen gemeldet werden sollen.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Empfohlener Rahmen</h2>
+      <ul>
+        <li>keine privaten Daten veröffentlichen, die nicht wirklich nötig sind</li>
+        <li>schulische oder institutionelle Kontaktdaten bevorzugen</li>
+        <li>Kontaktangaben mit Impressum und Datenschutz konsistent halten</li>
+      </ul>
+    </section>
+  </InfoPageShell>
+</BaseLayout>

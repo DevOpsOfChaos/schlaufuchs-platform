@@ -1,0 +1,124 @@
+---
+interface Props {
+  kicker: string;
+  title: string;
+  lead: string;
+}
+
+const { kicker, title, lead } = Astro.props;
+---
+
+<section class="info-hero">
+  <div class="hero-copy">
+    <p class="eyebrow">{kicker}</p>
+    <h1>{title}</h1>
+    <p class="lead">{lead}</p>
+  </div>
+</section>
+
+<section class="info-shell">
+  <article class="info-content">
+    <slot />
+  </article>
+</section>
+
+<style>
+  .info-hero {
+    display: grid;
+    gap: 1rem;
+    padding-top: 0.3rem;
+  }
+
+  .eyebrow {
+    margin: 0 0 0.8rem;
+    color: var(--text-soft);
+    font-size: 0.92rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    margin: 0;
+    color: var(--text-strong);
+    font-size: clamp(2.3rem, 4.3vw, 4rem);
+    line-height: 0.98;
+    letter-spacing: -0.045em;
+    max-width: 14ch;
+  }
+
+  .lead {
+    max-width: 54rem;
+    margin: 1rem 0 0;
+    color: var(--text);
+    font-size: 1.05rem;
+    line-height: 1.78;
+  }
+
+  .info-shell {
+    margin-top: 1.6rem;
+  }
+
+  .info-content {
+    border: 1px solid var(--border);
+    border-radius: 28px;
+    background: var(--card-bg);
+    box-shadow: var(--shadow-card);
+    padding: 1.6rem;
+  }
+
+  :global(.info-content h2) {
+    margin: 0;
+    color: var(--text-strong);
+    font-size: 1.35rem;
+    line-height: 1.15;
+  }
+
+  :global(.info-content h2 + p),
+  :global(.info-content h2 + ul) {
+    margin-top: 0.85rem;
+  }
+
+  :global(.info-content p),
+  :global(.info-content li) {
+    color: var(--text);
+    line-height: 1.78;
+  }
+
+  :global(.info-content section + section) {
+    margin-top: 1.8rem;
+    padding-top: 1.8rem;
+    border-top: 1px solid var(--border);
+  }
+
+  :global(.info-content ul) {
+    margin: 0;
+    padding-left: 1.2rem;
+  }
+
+  :global(.info-note) {
+    padding: 1rem 1.1rem;
+    border-radius: 18px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+  }
+
+  :global(.info-grid) {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  :global(.info-card) {
+    padding: 1rem 1.1rem;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+  }
+
+  @media (max-width: 800px) {
+    :global(.info-grid) {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

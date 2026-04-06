@@ -1,0 +1,40 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import InfoPageShell from "../components/ui/InfoPageShell.astro";
+---
+
+<BaseLayout title="Datenschutz – Schlaufuchs" description="Datenschutzseite für Schlaufuchs.">
+  <InfoPageShell
+    kicker="Datenschutz"
+    title="Datenschutz vorbereiten"
+    lead="Auch die Datenschutzseite sollte vor dem echten Einsatz sauber und ehrlich formuliert sein. Diese Fassung ist bewusst als belastbare Platzhalterstruktur angelegt, damit keine falschen Angaben veröffentlicht werden."
+  >
+    <section>
+      <h2>Aktueller Stand</h2>
+      <p class="info-note">
+        Diese Seite ist noch keine vollständige rechtliche Datenschutzerklärung. Vor einer
+        Veröffentlichung müssen die tatsächlichen technischen und organisatorischen Gegebenheiten
+        der Plattform geprüft und korrekt dokumentiert werden.
+      </p>
+    </section>
+
+    <section>
+      <h2>Was vor Veröffentlichung geklärt werden sollte</h2>
+      <ul>
+        <li>welche personenbezogenen Daten überhaupt verarbeitet werden</li>
+        <li>ob Formulare, Tracking, externe Einbindungen oder Analyse-Tools genutzt werden</li>
+        <li>wo die Plattform gehostet wird und welche Dienstleister beteiligt sind</li>
+        <li>welche Rechtsgrundlagen und Speicherfristen gelten</li>
+        <li>wer datenschutzrechtlich verantwortlich ist</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Empfehlung für dieses Projekt</h2>
+      <p>
+        Die endgültige Datenschutzerklärung sollte auf dem tatsächlichen Hosting- und Funktionsstand
+        der Plattform basieren. Keine Standardtexte übernehmen, die nicht wirklich zum Projekt passen.
+      </p>
+    </section>
+  </InfoPageShell>
+</BaseLayout>
