@@ -1,13 +1,13 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { getCollection, type CollectionEntry } from "astro:content";
+import { type CollectionEntry } from "astro:content";
+import { getArticlesForSubject, getExercisesForSubject, getVisibleSubjects, levelLabels } from "../../data/content";
 import { getSubjectMeta, visibleSubjectOrder } from "../../data/subjects";
 
 const base = import.meta.env.BASE_URL;
 
 export async function getStaticPaths() {
-  const subjects = (await getCollection("subjects"))
-    .filter((subject) => visibleSubjectOrder.includes(subject.data.slug as (typeof visibleSubjectOrder)[number]));
+  const subjects = await getVisibleSubjects();
 
   return subjects.map((subject) => ({
     params: { slug: subject.data.slug },
@@ -30,22 +30,8 @@ const detail = getSubjectMeta(subject.data.slug) ?? {
   entry: "Grundlagen",
 };
 
-const relatedSubjects = subject.data.slug === "elektrotechnik"
-  ? ["elektrotechnik", "daten-und-signale"]
-  : [subject.data.slug];
-
-const articles = (await getCollection("articles"))
-  .filter((entry) => !entry.data.draft && relatedSubjects.includes(entry.data.subject))
-  .sort((a, b) => a.data.title.localeCompare(b.data.title, "de"));
-const exercises = (await getCollection("exercises"))
-  .filter((entry) => !entry.data.draft && relatedSubjects.includes(entry.data.subject))
-  .sort((a, b) => a.data.title.localeCompare(b.data.title, "de"));
-
-const levelLabels = {
-  einfach: "Einfach",
-  mittel: "Mittel",
-  fortgeschritten: "Fortgeschritten",
-} as const;
+const articles = await getArticlesForSubject(subject.data.slug);
+const exercises = await getExercisesForSubject(subject.data.slug);
 ---
 
 <BaseLayout

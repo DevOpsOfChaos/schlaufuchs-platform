@@ -1,13 +1,11 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { getCollection } from "astro:content";
-import { getSubjectMeta, visibleSubjectOrder } from "../../data/subjects";
+import { getVisibleSubjects } from "../../data/content";
+import { getSubjectMeta } from "../../data/subjects";
 
 const base = import.meta.env.BASE_URL;
 
-const subjects = (await getCollection("subjects"))
-  .filter((subject) => visibleSubjectOrder.includes(subject.data.slug as (typeof visibleSubjectOrder)[number]))
-  .sort((a, b) => visibleSubjectOrder.indexOf(a.data.slug as (typeof visibleSubjectOrder)[number]) - visibleSubjectOrder.indexOf(b.data.slug as (typeof visibleSubjectOrder)[number]))
+const subjects = (await getVisibleSubjects())
   .map((subject) => ({
     ...subject,
     meta: getSubjectMeta(subject.data.slug),
