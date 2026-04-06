@@ -3,8 +3,8 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getExerciseGroups, levelLabels, getContentInventory } from "../../data/content";
 
 const base = import.meta.env.BASE_URL;
-const grouped = await getExerciseGroups();
-const inventory = await getContentInventory();
+const [grouped, inventory] = await Promise.all([getExerciseGroups(), getContentInventory()]);
+const inventoryMap = new Map(inventory.bySubject.map((entry) => [entry.slug, entry]));
 const totalExercises = inventory.totals.exercises;
 ---
 
@@ -45,31 +45,40 @@ const totalExercises = inventory.totals.exercises;
     </div>
 
     <div class="group-grid">
-      {grouped.map((group) => (
-        <article class="group-card">
-          <div class="group-top">
-            <div>
-              <h3>{group.title}</h3>
-              <p>{group.description}</p>
+      {grouped.map((group) => {
+        const status = inventoryMap.get(group.slug);
+        return (
+          <article class={`group-card ${status ? `status-${status.status.key}` : ""}`}>
+            <div class="group-top">
+              <div>
+                {status && (
+                  <div class="group-meta" data-present="hide">
+                    <span class="status-badge">{status.publicStatusLabel}</span>
+                    <span class="count-badge">{status.articleCount} Wissen · {status.exerciseCount} Aufgaben</span>
+                  </div>
+                )}
+                <h3>{group.title}</h3>
+                <p>{group.description}</p>
+              </div>
+              <span>{group.entries.length}</span>
             </div>
-            <span>{group.entries.length}</span>
-          </div>
 
-          <ul class="exercise-list">
-            {group.entries.map((entry) => (
-              <li>
-                <div class="exercise-copy">
-                  <a href={`${base}aufgaben/${entry.id}`}>{entry.data.title}</a>
-                  <p>{entry.data.description}</p>
-                </div>
-                <small data-present="hide">{levelLabels[entry.data.level]}</small>
-              </li>
-            ))}
-          </ul>
+            <ul class="exercise-list">
+              {group.entries.map((entry) => (
+                <li>
+                  <div class="exercise-copy">
+                    <a href={`${base}aufgaben/${entry.id}`}>{entry.data.title}</a>
+                    <p>{entry.data.description}</p>
+                  </div>
+                  <small data-present="hide">{levelLabels[entry.data.level]}</small>
+                </li>
+              ))}
+            </ul>
 
-          <a class="group-link" href={`${base}fachbereiche/${group.slug}`}>Zum Fachbereich →</a>
-        </article>
-      ))}
+            <a class="group-link" href={`${base}fachbereiche/${group.slug}`}>Zum Fachbereich →</a>
+          </article>
+        );
+      })}
     </div>
   </section>
 </BaseLayout>
@@ -207,11 +216,36 @@ const totalExercises = inventory.totals.exercises;
     padding: 1.35rem;
   }
 
+  .status-balanced {
+    border-color: color-mix(in oklab, var(--border) 76%, #16a34a 24%);
+  }
+
   .group-top {
     display: flex;
     align-items: start;
     justify-content: space-between;
     gap: 1rem;
+  }
+
+  .group-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .status-badge,
+  .count-badge {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2rem;
+    padding: 0.12rem 0.72rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text-strong);
+    font-size: 0.84rem;
+    font-weight: 700;
   }
 
   .group-top h3 {
@@ -226,7 +260,7 @@ const totalExercises = inventory.totals.exercises;
     line-height: 1.6;
   }
 
-  .group-top span {
+  .group-top > span {
     display: inline-flex;
     align-items: center;
     justify-content: center;

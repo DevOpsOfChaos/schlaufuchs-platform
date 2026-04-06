@@ -1,8 +1,8 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { type CollectionEntry } from "astro:content";
-import { getArticlesForSubject, getExercisesForSubject, getVisibleSubjects, levelLabels } from "../../data/content";
-import { getSubjectMeta, visibleSubjectOrder } from "../../data/subjects";
+import { getArticlesForSubject, getExercisesForSubject, getVisibleSubjects, levelLabels, getContentInventory } from "../../data/content";
+import { getSubjectMeta } from "../../data/subjects";
 
 const base = import.meta.env.BASE_URL;
 
@@ -30,8 +30,12 @@ const detail = getSubjectMeta(subject.data.slug) ?? {
   entry: "Grundlagen",
 };
 
-const articles = await getArticlesForSubject(subject.data.slug);
-const exercises = await getExercisesForSubject(subject.data.slug);
+const [articles, exercises, inventory] = await Promise.all([
+  getArticlesForSubject(subject.data.slug),
+  getExercisesForSubject(subject.data.slug),
+  getContentInventory(),
+]);
+const subjectInventory = inventory.bySubject.find((entry) => entry.slug === subject.data.slug);
 ---
 
 <BaseLayout
@@ -41,8 +45,18 @@ const exercises = await getExercisesForSubject(subject.data.slug);
   <section class="subject-hero">
     <div class="hero-copy">
       <p class="eyebrow">Fachbereich</p>
+      {subjectInventory && (
+        <div class="hero-meta-row" data-present="hide">
+          <span class="status-badge">{subjectInventory.publicStatusLabel}</span>
+          <span class="count-badge">{subjectInventory.articleCount} Wissen · {subjectInventory.exerciseCount} Aufgaben</span>
+        </div>
+      )}
       <h1>{subject.data.title}</h1>
       <p class="lead">{detail.intro}</p>
+
+      {subjectInventory && subjectInventory.status.key !== "balanced" && (
+        <p class="status-note" data-present="hide">{subjectInventory.status.detail}</p>
+      )}
 
       <div class="hero-actions" data-present="hide">
         <a class="hero-button primary" href={`${base}fachbereiche`}>Alle Fachbereiche</a>
@@ -199,6 +213,27 @@ const exercises = await getExercisesForSubject(subject.data.slug);
     text-transform: uppercase;
   }
 
+  .hero-meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .status-badge,
+  .count-badge {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2rem;
+    padding: 0.12rem 0.72rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text-strong);
+    font-size: 0.84rem;
+    font-weight: 700;
+  }
+
   h1 {
     margin: 0;
     color: var(--text-strong);
@@ -216,6 +251,13 @@ const exercises = await getExercisesForSubject(subject.data.slug);
     color: var(--text);
     line-height: 1.8;
     font-size: 1.05rem;
+  }
+
+  .status-note {
+    margin: 1rem 0 0;
+    max-width: 50rem;
+    color: var(--text-soft);
+    line-height: 1.68;
   }
 
   :global(html[data-presentation-mode="on"]) .lead {

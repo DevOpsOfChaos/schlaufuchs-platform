@@ -7,6 +7,14 @@ export const levelLabels = {
   fortgeschritten: "Fortgeschritten",
 } as const;
 
+export const publicInventoryStatusLabels: Record<string, string> = {
+  empty: "Im Aufbau",
+  missing_articles: "Im Ausbau",
+  missing_exercises: "Im Ausbau",
+  imbalanced: "Im Ausbau",
+  balanced: "Grundbestand",
+};
+
 export const getRelatedSubjectSlugs = (slug: string) =>
   slug === "elektrotechnik" ? ["elektrotechnik", "daten-und-signale"] : [slug];
 
@@ -198,6 +206,7 @@ export const getContentInventory = async () => {
       articleCount,
       exerciseCount,
       totalCount: articleCount + exerciseCount,
+      publicStatusLabel: publicInventoryStatusLabels[status.key] ?? "Im Ausbau",
       status,
     };
   });
