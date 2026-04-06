@@ -8,21 +8,50 @@ import Footer from "../components/ui/Footer.astro";
 interface Props {
   title?: string;
   description?: string;
+  image?: string;
+  noIndex?: boolean;
 }
 
 const {
   title = siteConfig.title,
   description = siteConfig.description,
+  image,
+  noIndex = false,
 } = Astro.props;
+
+const siteBase = Astro.site ?? new URL(siteConfig.siteUrl);
+const canonicalUrl = new URL(Astro.url.pathname + Astro.url.search, siteBase).toString();
+const base = import.meta.env.BASE_URL;
+const defaultImage = new URL(`${base}assets/brand/logo_alpha.png`, siteBase).toString();
+const socialImage = image ? new URL(image, siteBase).toString() : defaultImage;
 ---
 
 <!doctype html>
-<html lang="de" data-theme="dark" data-learn-mode="off" data-presentation-mode="off">
+<html lang="de" data-theme="light" data-learn-mode="off" data-presentation-mode="off">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <meta name="robots" content={noIndex ? "noindex, nofollow" : "index, follow"} />
+    <meta name="generator" content={siteConfig.siteName} />
+    <link rel="canonical" href={canonicalUrl} />
+
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content={siteConfig.themeColorLight} />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content={siteConfig.themeColorDark} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={siteConfig.siteName} />
+    <meta property="og:locale" content={siteConfig.locale} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={socialImage} />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={socialImage} />
 
     <script is:inline>
       (() => {
