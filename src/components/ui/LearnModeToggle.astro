@@ -41,4 +41,6 @@ const learnIcon = `
     renderLearnMode();
     window.dispatchEvent(new CustomEvent("learnmode-changed", { detail: next }));
   });
+
+  window.addEventListener("learnmode-changed", renderLearnMode);
 </script>

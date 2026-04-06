@@ -41,4 +41,6 @@ const presentIcon = `
     renderPresentationMode();
     window.dispatchEvent(new CustomEvent("presentationmode-changed", { detail: next }));
   });
+
+  window.addEventListener("presentationmode-changed", renderPresentationMode);
 </script>

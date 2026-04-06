@@ -27,6 +27,7 @@ const {
     <script is:inline>
       (() => {
         const root = document.documentElement;
+        const params = new URLSearchParams(window.location.search);
 
         const themeKey = "schlaufuchs-theme";
         const storedTheme = localStorage.getItem(themeKey);
@@ -34,13 +35,54 @@ const {
         const theme = storedTheme || (systemPrefersLight ? "light" : "dark");
         root.setAttribute("data-theme", theme);
 
+        const readModeParam = (value) => {
+          if (value === "1" || value === "on" || value === "true") return "on";
+          if (value === "0" || value === "off" || value === "false") return "off";
+          return null;
+        };
+
         const learnKey = "schlaufuchs-learn-mode";
+        const learnParam = readModeParam(params.get("learn"));
         const storedLearnMode = localStorage.getItem(learnKey);
-        root.setAttribute("data-learn-mode", storedLearnMode === "on" ? "on" : "off");
+        const learnMode = learnParam ?? (storedLearnMode === "on" ? "on" : "off");
+        root.setAttribute("data-learn-mode", learnMode);
+        if (learnParam) {
+          localStorage.setItem(learnKey, learnParam);
+        }
 
         const presentationKey = "schlaufuchs-presentation-mode";
+        const presentationParam = readModeParam(params.get("present"));
         const storedPresentationMode = localStorage.getItem(presentationKey);
-        root.setAttribute("data-presentation-mode", storedPresentationMode === "on" ? "on" : "off");
+        const presentationMode = presentationParam ?? (storedPresentationMode === "on" ? "on" : "off");
+        root.setAttribute("data-presentation-mode", presentationMode);
+        if (presentationParam) {
+          localStorage.setItem(presentationKey, presentationParam);
+        }
+
+        window.addEventListener("keydown", (event) => {
+          const target = event.target;
+          const tagName = target instanceof HTMLElement ? target.tagName : "";
+          const isTyping = target instanceof HTMLElement && (target.isContentEditable || ["INPUT", "TEXTAREA", "SELECT"].includes(tagName));
+          if (isTyping || event.metaKey || event.ctrlKey || event.altKey) return;
+
+          if (event.key === "l" || event.key === "L") {
+            const next = root.dataset.learnMode === "on" ? "off" : "on";
+            root.dataset.learnMode = next;
+            try {
+              localStorage.setItem(learnKey, next);
+            } catch {}
+            window.dispatchEvent(new CustomEvent("learnmode-changed", { detail: next }));
+          }
+
+          if (event.key === "p" || event.key === "P") {
+            const next = root.dataset.presentationMode === "on" ? "off" : "on";
+            root.dataset.presentationMode = next;
+            try {
+              localStorage.setItem(presentationKey, next);
+            } catch {}
+            window.dispatchEvent(new CustomEvent("presentationmode-changed", { detail: next }));
+          }
+        });
       })();
     </script>
   </head>
