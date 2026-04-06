@@ -1,36 +1,11 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { getCollection } from "astro:content";
-import { getSubjectMeta, subjectTitleMap, visibleSubjectOrder } from "../../data/subjects";
+import { getExerciseGroups, levelLabels, getContentInventory } from "../../data/content";
 
 const base = import.meta.env.BASE_URL;
-
-const allExercises = (await getCollection("exercises"))
-  .filter((entry) => !entry.data.draft && entry.data.subject !== "daten-und-signale")
-  .sort((a, b) => a.data.title.localeCompare(b.data.title, "de"));
-
-const grouped = visibleSubjectOrder
-  .map((slug) => {
-    const meta = getSubjectMeta(slug);
-    const entries = allExercises.filter((entry) => entry.data.subject === slug);
-    return meta
-      ? {
-          slug,
-          title: subjectTitleMap[slug],
-          description: meta.intro,
-          entries,
-        }
-      : null;
-  })
-  .filter((group): group is NonNullable<typeof group> => Boolean(group) && group.entries.length > 0);
-
-const levelLabels = {
-  einfach: "Einfach",
-  mittel: "Mittel",
-  fortgeschritten: "Fortgeschritten",
-} as const;
-
-const totalExercises = allExercises.length;
+const grouped = await getExerciseGroups();
+const inventory = await getContentInventory();
+const totalExercises = inventory.totals.exercises;
 ---
 
 <BaseLayout

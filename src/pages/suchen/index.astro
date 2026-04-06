@@ -1,59 +1,10 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { getCollection } from "astro:content";
-import { resolvePrimarySubjectSlug, subjectTitleMap, visibleSubjectOrder } from "../../data/subjects";
+import { getSearchEntries } from "../../data/content";
 
+const searchEntries = await getSearchEntries(import.meta.env.BASE_URL);
 const base = import.meta.env.BASE_URL;
-
 const quickFilters = ["Alle", "Mathematik", "Informatik", "Elektrotechnik", "Linux", "Web Development", "News"];
-
-const subjects = (await getCollection("subjects"))
-  .filter((entry) => visibleSubjectOrder.includes(entry.data.slug as (typeof visibleSubjectOrder)[number]))
-  .sort((a, b) => visibleSubjectOrder.indexOf(a.data.slug as (typeof visibleSubjectOrder)[number]) - visibleSubjectOrder.indexOf(b.data.slug as (typeof visibleSubjectOrder)[number]))
-  .map((entry) => ({
-    title: entry.data.title,
-    description: entry.data.description,
-    href: `${base}fachbereiche/${entry.data.slug}`,
-    kind: "Fachbereich",
-    area: entry.data.title,
-    tags: "fachbereich einstieg struktur",
-  }));
-
-const articles = (await getCollection("articles"))
-  .filter((entry) => !entry.data.draft)
-  .map((entry) => ({
-    title: entry.data.title,
-    description: entry.data.description,
-    href: `${base}wissen/${entry.id}`,
-    kind: "Wissensseite",
-    area: subjectTitleMap[entry.data.subject] ?? "Fachbereich",
-    tags: `${entry.data.section} ${entry.data.tags.join(" ")}`.trim(),
-  }));
-
-const exercises = (await getCollection("exercises"))
-  .filter((entry) => !entry.data.draft)
-  .map((entry) => ({
-    title: entry.data.title,
-    description: entry.data.description,
-    href: `${base}aufgaben/${entry.id}`,
-    kind: "Aufgabe",
-    area: subjectTitleMap[entry.data.subject] ?? "Fachbereich",
-    tags: `${entry.data.level} übung aufgabe ${resolvePrimarySubjectSlug(entry.data.subject) ?? ""}`.trim(),
-  }));
-
-const newsEntries = (await getCollection("news"))
-  .filter((entry) => !entry.data.draft)
-  .map((entry) => ({
-    title: entry.data.title,
-    description: entry.data.description,
-    href: `${base}news/${entry.id}`,
-    kind: "News",
-    area: "News",
-    tags: entry.data.tags.join(" "),
-  }));
-
-const searchEntries = [...subjects, ...articles, ...exercises, ...newsEntries]
-  .sort((a, b) => a.title.localeCompare(b.title, "de"));
 ---
 
 <BaseLayout title="Suche – Schlaufuchs" description="Themen, Aufgaben, Wissensseiten und News durchsuchen.">
