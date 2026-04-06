@@ -157,7 +157,7 @@ const levelLabels = {
       <h1>{subject.data.title}</h1>
       <p class="lead">{detail.intro}</p>
 
-      <div class="hero-actions">
+      <div class="hero-actions" data-present="hide">
         <a class="hero-button primary" href={`${base}fachbereiche`}>Alle Fachbereiche</a>
         <a class="hero-button secondary" href={`${base}suchen`}>Thema im Fach suchen</a>
       </div>
@@ -168,7 +168,7 @@ const levelLabels = {
         <span>{detail.knowledgeLabel}</span>
         <strong>{articles.length}</strong>
       </article>
-      <article class="stat-card">
+      <article class="stat-card" data-present="hide">
         <span>{detail.exerciseLabel}</span>
         <strong>{exercises.length}</strong>
       </article>
@@ -268,7 +268,7 @@ const levelLabels = {
         )}
       </article>
 
-      <article class="content-card">
+      <article class="content-card" data-present="hide">
         <div class="content-top">
           <h3>Aufgaben</h3>
           <span>{exercises.length}</span>
@@ -427,6 +427,10 @@ const levelLabels = {
 
   .content-grid.two-up {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  :global(html[data-presentation-mode="on"]) .content-grid.two-up {
+    grid-template-columns: 1fr;
   }
 
   .section-card,

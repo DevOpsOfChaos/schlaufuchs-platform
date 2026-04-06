@@ -48,6 +48,17 @@ main {
   padding: 1rem 0 4rem;
 }
 
+:root[data-presentation-mode="on"] main {
+  padding-top: 0.75rem;
+}
+
+:root[data-presentation-mode="on"] footer,
+:root[data-presentation-mode="on"] [data-learn-prompt],
+:root[data-presentation-mode="on"] .learn-mode-only,
+:root[data-presentation-mode="on"] [data-present="hide"] {
+  display: none !important;
+}
+
 ::selection {
   background: var(--accent);
   color: var(--accent-contrast);

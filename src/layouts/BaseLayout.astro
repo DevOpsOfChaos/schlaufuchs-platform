@@ -17,7 +17,7 @@ const {
 ---
 
 <!doctype html>
-<html lang="de" data-theme="dark" data-learn-mode="off">
+<html lang="de" data-theme="dark" data-learn-mode="off" data-presentation-mode="off">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -37,6 +37,10 @@ const {
         const learnKey = "schlaufuchs-learn-mode";
         const storedLearnMode = localStorage.getItem(learnKey);
         root.setAttribute("data-learn-mode", storedLearnMode === "on" ? "on" : "off");
+
+        const presentationKey = "schlaufuchs-presentation-mode";
+        const storedPresentationMode = localStorage.getItem(presentationKey);
+        root.setAttribute("data-presentation-mode", storedPresentationMode === "on" ? "on" : "off");
       })();
     </script>
   </head>

@@ -2,6 +2,7 @@
 import { mainNavigation } from "../../data/navigation/main";
 import ThemeToggle from "./ThemeToggle.astro";
 import LearnModeToggle from "./LearnModeToggle.astro";
+import PresentationModeToggle from "./PresentationModeToggle.astro";
 import ActionIcon from "./ActionIcon.astro";
 
 const base = import.meta.env.BASE_URL;
@@ -20,12 +21,6 @@ const searchIcon = `
   <circle cx="11" cy="11" r="6.5"></circle>
   <path d="M16 16l4.5 4.5"></path>
 </svg>`;
-
-const presentIcon = `
-<svg viewBox="0 0 24 24" aria-hidden="true">
-  <rect x="4" y="5" width="16" height="10" rx="1.6"></rect>
-  <path d="M12 15v4M9 19h6"></path>
-</svg>`;
 ---
 
 <header class="topbar-shell">
@@ -37,7 +32,7 @@ const presentIcon = `
 
       <div class="brand-copy">
         <strong>Schlaufuchs</strong>
-        <span>Lernen, verstehen und gezielt wiederfinden</span>
+        <span>Wissen, Aufgaben und klare Fachbereiche</span>
       </div>
     </a>
 
@@ -61,20 +56,18 @@ const presentIcon = `
     </nav>
 
     <div class="actions">
-      <ActionIcon
-        label="Suche"
-        tooltip="Suche öffnen"
-        href={`${base}suchen`}
-        icon={searchIcon}
-      />
-      <LearnModeToggle />
-      <ActionIcon
-        label="Präsentationsmodus"
-        tooltip="Präsentationsmodus folgt später"
-        icon={presentIcon}
-        passive={true}
-        type="button"
-      />
+      <div class="search-action">
+        <ActionIcon
+          label="Suche"
+          tooltip="Suche öffnen"
+          href={`${base}suchen`}
+          icon={searchIcon}
+        />
+      </div>
+      <div class="learn-action">
+        <LearnModeToggle />
+      </div>
+      <PresentationModeToggle />
       <ThemeToggle />
     </div>
   </div>
@@ -263,6 +256,17 @@ const presentIcon = `
     flex-shrink: 0;
   }
 
+  :global(html[data-presentation-mode="on"]) .topbar {
+    min-height: 4.35rem;
+    padding: 0.65rem 0.9rem;
+  }
+
+  :global(html[data-presentation-mode="on"]) .brand-copy span,
+  :global(html[data-presentation-mode="on"]) .search-action,
+  :global(html[data-presentation-mode="on"]) .learn-action {
+    display: none;
+  }
+
   @media (max-width: 1320px) {
     .brand-copy span {
       display: none;
@@ -307,6 +311,10 @@ const presentIcon = `
     .brand-copy span {
       display: block;
       white-space: normal;
+    }
+
+    :global(html[data-presentation-mode="on"]) .brand-copy span {
+      display: none;
     }
   }
 

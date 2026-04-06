@@ -101,10 +101,10 @@ const heroFox = `${base}assets/mascots/general.png`;
 
       <div class="hero-actions">
         <a class="hero-button primary" href={`${base}fachbereiche`}>Fachbereiche entdecken</a>
-        <a class="hero-button secondary" href={`${base}aufgaben`}>Zu Aufgaben und Übungen</a>
+        <a class="hero-button secondary" href={`${base}aufgaben`} data-present="hide">Zu Aufgaben und Übungen</a>
       </div>
 
-      <a class="hero-search" href={`${base}suchen`} aria-label="Suche öffnen">
+      <a class="hero-search" href={`${base}suchen`} aria-label="Suche öffnen" data-present="hide">
         <span class="hero-search-icon">⌕</span>
         <span>Themen, Aufgaben und Wissensseiten durchsuchen ...</span>
       </a>
@@ -115,7 +115,7 @@ const heroFox = `${base}assets/mascots/general.png`;
     </div>
   </section>
 
-  <section class="home-section">
+  <section class="home-section" data-present="hide">
     <div class="section-head">
       <div>
         <p class="section-kicker">Schnell starten</p>
@@ -162,7 +162,7 @@ const heroFox = `${base}assets/mascots/general.png`;
             <p>{subject.description}</p>
           </div>
 
-          <ul class="topic-highlights" aria-label={`${subject.title} Schwerpunkte`}>
+          <ul class="topic-highlights">
             {subject.highlights.map((item) => <li>{item}</li>)}
           </ul>
         </a>
@@ -170,7 +170,7 @@ const heroFox = `${base}assets/mascots/general.png`;
     </div>
   </section>
 
-  <section class="home-section">
+  <section class="home-section" data-present="hide">
     <article class="learn-mode-panel">
       <div class="learn-mode-copy">
         <p class="section-kicker">Optionaler Lernmodus</p>
@@ -193,7 +193,7 @@ const heroFox = `${base}assets/mascots/general.png`;
     </article>
   </section>
 
-  <section class="home-section">
+  <section class="home-section" data-present="hide">
     <div class="section-head">
       <div>
         <p class="section-kicker">Anspruch</p>

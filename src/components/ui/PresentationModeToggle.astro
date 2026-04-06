@@ -1,0 +1,44 @@
+---
+import ActionIcon from "./ActionIcon.astro";
+
+const presentIcon = `
+<svg viewBox="0 0 24 24" aria-hidden="true">
+  <rect x="4" y="5" width="16" height="10" rx="1.6"></rect>
+  <path d="M12 15v4M9 19h6"></path>
+</svg>`;
+---
+
+<div class="presentation-toggle-shell" data-presentation-toggle>
+  <ActionIcon
+    label="Präsentationsmodus"
+    tooltip="Präsentationsmodus aktivieren"
+    icon={presentIcon}
+    type="button"
+  />
+</div>
+
+<script>
+  const root = document.documentElement;
+  const shell = document.querySelector("[data-presentation-toggle]");
+  const button = shell?.querySelector("button");
+
+  const renderPresentationMode = () => {
+    if (!button) return;
+    const isOn = root.dataset.presentationMode === "on";
+    button.classList.toggle("active", isOn);
+    button.setAttribute("aria-label", isOn ? "Präsentationsmodus deaktivieren" : "Präsentationsmodus aktivieren");
+    button.setAttribute("data-tooltip", isOn ? "Präsentationsmodus deaktivieren" : "Präsentationsmodus aktivieren");
+  };
+
+  renderPresentationMode();
+
+  button?.addEventListener("click", () => {
+    const next = root.dataset.presentationMode === "on" ? "off" : "on";
+    root.dataset.presentationMode = next;
+    try {
+      localStorage.setItem("schlaufuchs-presentation-mode", next);
+    } catch {}
+    renderPresentationMode();
+    window.dispatchEvent(new CustomEvent("presentationmode-changed", { detail: next }));
+  });
+</script>

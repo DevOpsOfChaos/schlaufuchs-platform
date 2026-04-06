@@ -36,7 +36,7 @@ const subjectSlug = entry.data.subject === "daten-und-signale" ? "elektrotechnik
       <p class="lead">{entry.data.description}</p>
     </div>
 
-    <div class="hero-meta">
+    <div class="hero-meta" data-present="hide">
       <article class="meta-card">
         <span>Fachbereich</span>
         <strong>{subjectTitle}</strong>
@@ -57,7 +57,7 @@ const subjectSlug = entry.data.subject === "daten-und-signale" ? "elektrotechnik
       <Content />
     </article>
 
-    <aside class="article-aside">
+    <aside class="article-aside" data-present="hide">
       <div class="aside-card">
         <h2>Im Fachkontext</h2>
         <p>Diese Wissensseite gehört zum Fachbereich {subjectTitle} und ist Teil der sichtbaren Fach- und Themenstruktur der Plattform.</p>
@@ -183,6 +183,10 @@ const subjectSlug = entry.data.subject === "daten-und-signale" ? "elektrotechnik
 
   :global(html[data-theme="dark"][data-learn-mode="on"]) .learn-mode-only {
     background: linear-gradient(135deg, rgba(79,70,229,0.16), rgba(18,27,46,0.94));
+  }
+
+  :global(html[data-presentation-mode="on"]) .article-shell {
+    grid-template-columns: 1fr;
   }
 
   .aside-card h2 {
