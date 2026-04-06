@@ -25,6 +25,7 @@ export async function getStaticPaths() {
 const { entry } = Astro.props as { entry: CollectionEntry<"articles"> };
 const { Content } = await render(entry);
 const subjectTitle = subjectTitles[entry.data.subject] ?? "Fachbereich";
+const subjectSlug = entry.data.subject === "daten-und-signale" ? "elektrotechnik" : entry.data.subject;
 ---
 
 <BaseLayout title={`${entry.data.title} – Schlaufuchs`} description={entry.data.description}>
@@ -58,9 +59,15 @@ const subjectTitle = subjectTitles[entry.data.subject] ?? "Fachbereich";
 
     <aside class="article-aside">
       <div class="aside-card">
-        <h2>Weiter im Fach</h2>
-        <p>Diese Wissensseite gehört zum Fachbereich {subjectTitle} und ist Teil der sichtbaren Lernstruktur der Plattform.</p>
-        <a href={`${base}fachbereiche/${entry.data.subject === "daten-und-signale" ? "elektrotechnik" : entry.data.subject}`}>Zum Fachbereich →</a>
+        <h2>Im Fachkontext</h2>
+        <p>Diese Wissensseite gehört zum Fachbereich {subjectTitle} und ist Teil der sichtbaren Fach- und Themenstruktur der Plattform.</p>
+        <a href={`${base}fachbereiche/${subjectSlug}`}>Zum Fachbereich →</a>
+      </div>
+
+      <div class="aside-card learn-mode-only">
+        <h2>Im Lernmodus nutzen</h2>
+        <p>Im Lernmodus wird diese Wissensseite stärker als Arbeitsgrundlage gelesen: erst Überblick gewinnen, dann Beispiele prüfen und danach passende Aufgaben ergänzen.</p>
+        <a href={`${base}aufgaben`}>Passende Aufgaben öffnen →</a>
       </div>
 
       {entry.data.tags.length > 0 && (
@@ -163,6 +170,19 @@ const subjectTitle = subjectTitles[entry.data.subject] ?? "Fachbereich";
     display: grid;
     gap: 1rem;
     align-self: start;
+  }
+
+  .learn-mode-only {
+    display: none;
+  }
+
+  :global(html[data-learn-mode="on"]) .learn-mode-only {
+    display: block;
+    background: linear-gradient(135deg, rgba(79,70,229,0.10), rgba(240,244,255,0.88));
+  }
+
+  :global(html[data-theme="dark"][data-learn-mode="on"]) .learn-mode-only {
+    background: linear-gradient(135deg, rgba(79,70,229,0.16), rgba(18,27,46,0.94));
   }
 
   .aside-card h2 {
