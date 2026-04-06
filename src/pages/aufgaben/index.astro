@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
+import { getSubjectMeta, subjectTitleMap, visibleSubjectOrder } from "../../data/subjects";
 
 const base = import.meta.env.BASE_URL;
 
@@ -8,41 +9,20 @@ const allExercises = (await getCollection("exercises"))
   .filter((entry) => !entry.data.draft && entry.data.subject !== "daten-und-signale")
   .sort((a, b) => a.data.title.localeCompare(b.data.title, "de"));
 
-const subjectMeta: Record<string, { title: string; description: string }> = {
-  mathematik: {
-    title: "Mathematik",
-    description: "Funktionen, Analysis und klassische Rechenaufgaben.",
-  },
-  linux: {
-    title: "Linux",
-    description: "Shell, Rechte, SSH und erste Praxisaufgaben.",
-  },
-  "web-development": {
-    title: "Web Development",
-    description: "HTML, CSS, Layouts und kleine Code-Challenges.",
-  },
-  informatik: {
-    title: "Informatik",
-    description: "Programmstruktur, C-Grundlagen und Code-Leseaufgaben.",
-  },
-  elektrotechnik: {
-    title: "Elektrotechnik",
-    description: "Netzwerkanalyse, Dioden, Wechselstrom und Mikrocontroller.",
-  },
-};
-
-const subjectOrder = ["mathematik", "linux", "web-development", "informatik", "elektrotechnik"];
-
-const grouped = subjectOrder
+const grouped = visibleSubjectOrder
   .map((slug) => {
+    const meta = getSubjectMeta(slug);
     const entries = allExercises.filter((entry) => entry.data.subject === slug);
-    return {
-      slug,
-      ...subjectMeta[slug],
-      entries,
-    };
+    return meta
+      ? {
+          slug,
+          title: subjectTitleMap[slug],
+          description: meta.intro,
+          entries,
+        }
+      : null;
   })
-  .filter((group) => group.entries.length > 0);
+  .filter((group): group is NonNullable<typeof group> => Boolean(group) && group.entries.length > 0);
 
 const levelLabels = {
   einfach: "Einfach",
