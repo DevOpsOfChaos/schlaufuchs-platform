@@ -1,24 +1,25 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { getCollection } from "astro:content";
+import { getVisibleNews } from "../../data/content";
 
 const base = import.meta.env.BASE_URL;
 
-const entries = (await getCollection("news"))
-  .filter((entry) => !entry.data.draft)
-  .sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime())
-  .map((entry) => ({
-    ...entry,
-    href: `${base}news/${entry.id}`,
-    dateLabel: entry.data.publishedAt.toLocaleDateString("de-DE", {
-      day: "2-digit",
-      month: "long",
-      year: "numeric",
-    }),
-    category: entry.data.tags[0] ?? "Update",
-  }));
+const formatDate = (date: Date) =>
+  date.toLocaleDateString("de-DE", {
+    day: "2-digit",
+    month: "long",
+    year: "numeric",
+  });
+
+const entries = (await getVisibleNews()).map((entry) => ({
+  ...entry,
+  href: `${base}news/${entry.id}`,
+  dateLabel: formatDate(entry.data.publishedAt),
+  category: entry.data.tags[0] ?? "Update",
+}));
 
 const latestEntry = entries[0];
+const archiveEntries = entries.slice(1, 4);
 ---
 
 <BaseLayout title="News – Schlaufuchs" description="Änderungen, Inhaltswellen und Plattformschritte als Feed.">
@@ -39,27 +40,50 @@ const latestEntry = entries[0];
     </div>
   </section>
 
-  {entries.length > 0 ? (
-    <section class="feed">
-      {entries.map((entry, index) => (
-        <a class={`feed-card tone-${index % 3}`} href={entry.href}>
-          <div class="meta" data-present="hide">
-            <span>{entry.dateLabel}</span>
-            <span>{entry.category}</span>
-          </div>
-          <h2>{entry.data.title}</h2>
-          <p>{entry.data.description}</p>
-        </a>
-      ))}
+  {latestEntry && (
+    <section class="latest-shell">
+      <a class="latest-card" href={latestEntry.href}>
+        <div class="meta" data-present="hide">
+          <span>{latestEntry.dateLabel}</span>
+          <span>{latestEntry.category}</span>
+          <span>Neuestes Update</span>
+        </div>
+        <h2>{latestEntry.data.title}</h2>
+        <p>{latestEntry.data.description}</p>
+      </a>
     </section>
-  ) : (
+  )}
+
+  {entries.length > 1 ? (
+    <section class="feed-section">
+      <div class="section-head">
+        <div>
+          <p class="section-kicker">Weitere Updates</p>
+          <h2>Frühere Plattformschritte</h2>
+        </div>
+      </div>
+
+      <section class="feed">
+        {archiveEntries.map((entry, index) => (
+          <a class={`feed-card tone-${index % 3}`} href={entry.href}>
+            <div class="meta" data-present="hide">
+              <span>{entry.dateLabel}</span>
+              <span>{entry.category}</span>
+            </div>
+            <h3>{entry.data.title}</h3>
+            <p>{entry.data.description}</p>
+          </a>
+        ))}
+      </section>
+    </section>
+  ) : entries.length === 0 ? (
     <section class="empty-shell">
       <article class="empty-card">
         <h2>Noch keine News sichtbar</h2>
         <p>Die News-Collection ist vorbereitet und kann jetzt Schritt für Schritt mit echten Plattform-Updates gefüllt werden.</p>
       </article>
     </section>
-  )}
+  ) : null}
 </BaseLayout>
 
 <style>
@@ -75,7 +99,8 @@ const latestEntry = entries[0];
     grid-template-columns: 1fr;
   }
 
-  .eyebrow {
+  .eyebrow,
+  .section-kicker {
     margin: 0 0 0.75rem;
     color: var(--text-soft);
     font-size: 0.92rem;
@@ -99,7 +124,9 @@ const latestEntry = entries[0];
   }
 
   .news-stat,
-  .empty-card {
+  .empty-card,
+  .latest-card,
+  .feed-card {
     border: 1px solid var(--border);
     background: var(--card-bg);
     box-shadow: var(--shadow-soft);
@@ -133,30 +160,45 @@ const latestEntry = entries[0];
     line-height: 1.6;
   }
 
-  .feed,
+  .latest-shell,
+  .feed-section,
   .empty-shell {
     display: grid;
     gap: 1rem;
     margin-top: 1.25rem;
   }
 
+  .latest-card,
   .feed-card {
     position: relative;
     overflow: hidden;
-    padding: 1.4rem 1.5rem;
-    border: 1px solid var(--border);
-    border-radius: 22px;
-    box-shadow: var(--shadow-soft);
+    padding: 1.45rem 1.55rem;
+    border-radius: 24px;
     transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
   }
 
+  .latest-card:hover,
   .feed-card:hover {
     transform: translateY(-1px);
     box-shadow: var(--shadow-card);
     border-color: var(--border-strong);
   }
 
-  .feed-card::after {
+  .latest-card {
+    background: linear-gradient(135deg, rgba(79,70,229,0.14), rgba(238,242,255,0.92));
+  }
+
+  :global(html[data-theme="dark"]) .latest-card {
+    background: linear-gradient(135deg, rgba(79,70,229,0.22), rgba(18,27,46,0.94));
+  }
+
+  .feed {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .feed-card::after,
+  .latest-card::after {
     content: "";
     position: absolute;
     right: -2rem;
@@ -183,14 +225,26 @@ const latestEntry = entries[0];
     font-size: 0.95rem;
   }
 
-  .feed-card h2,
-  .empty-card h2 {
+  .latest-card h2,
+  .feed-card h3,
+  .empty-card h2,
+  .section-head h2 {
     margin: 0.75rem 0 0;
     color: var(--text-strong);
-    font-size: clamp(1.45rem, 2vw, 1.8rem);
     line-height: 1.1;
   }
 
+  .latest-card h2,
+  .section-head h2 {
+    font-size: clamp(1.45rem, 2vw, 1.8rem);
+  }
+
+  .feed-card h3,
+  .empty-card h2 {
+    font-size: clamp(1.3rem, 1.8vw, 1.6rem);
+  }
+
+  .latest-card p,
   .feed-card p,
   .empty-card p {
     margin: 0.8rem 0 0;

@@ -1,11 +1,12 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { getCollection, render, type CollectionEntry } from "astro:content";
+import { render, type CollectionEntry } from "astro:content";
+import { getVisibleNews } from "../../data/content";
 
 const base = import.meta.env.BASE_URL;
 
 export async function getStaticPaths() {
-  const newsEntries = await getCollection("news", ({ data }) => !data.draft);
+  const newsEntries = await getVisibleNews();
 
   return newsEntries.map((entry) => ({
     params: { slug: entry.id },
@@ -15,17 +16,32 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props as { entry: CollectionEntry<"news"> };
 const { Content } = await render(entry);
-const formattedDate = entry.data.publishedAt.toLocaleDateString("de-DE", {
-  day: "2-digit",
-  month: "long",
-  year: "numeric",
-});
+const formatDate = (date: Date) =>
+  date.toLocaleDateString("de-DE", {
+    day: "2-digit",
+    month: "long",
+    year: "numeric",
+  });
+
+const formattedDate = formatDate(entry.data.publishedAt);
+const relatedEntries = (await getVisibleNews())
+  .filter((item) => item.id !== entry.id)
+  .slice(0, 3)
+  .map((item) => ({
+    ...item,
+    href: `${base}news/${item.id}`,
+    dateLabel: formatDate(item.data.publishedAt),
+  }));
 ---
 
 <BaseLayout title={`${entry.data.title} – Schlaufuchs`} description={entry.data.description}>
   <section class="news-hero">
     <div class="hero-copy">
       <p class="eyebrow">News</p>
+      <div class="hero-meta-row" data-present="hide">
+        <span class="meta-chip">{formattedDate}</span>
+        {entry.data.tags[0] && <span class="meta-chip">{entry.data.tags[0]}</span>}
+      </div>
       <h1>{entry.data.title}</h1>
       <p class="lead">{entry.data.description}</p>
     </div>
@@ -42,16 +58,30 @@ const formattedDate = entry.data.publishedAt.toLocaleDateString("de-DE", {
       <Content />
     </article>
 
-    {entry.data.tags.length > 0 && (
-      <aside class="news-aside" data-present="hide">
+    <aside class="news-aside" data-present="hide">
+      {entry.data.tags.length > 0 && (
         <div class="aside-card">
           <h2>Tags</h2>
           <ul class="tag-list">
             {entry.data.tags.map((tag) => <li>{tag}</li>)}
           </ul>
         </div>
-      </aside>
-    )}
+      )}
+
+      {relatedEntries.length > 0 && (
+        <div class="aside-card">
+          <h2>Weitere Updates</h2>
+          <ul class="related-list">
+            {relatedEntries.map((item) => (
+              <li>
+                <a href={item.href}>{item.data.title}</a>
+                <small>{item.dateLabel}</small>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </aside>
   </section>
 </BaseLayout>
 
@@ -70,6 +100,26 @@ const formattedDate = entry.data.publishedAt.toLocaleDateString("de-DE", {
     font-weight: 700;
     letter-spacing: 0.04em;
     text-transform: uppercase;
+  }
+
+  .hero-meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .meta-chip {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2rem;
+    padding: 0.12rem 0.72rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text-strong);
+    font-size: 0.84rem;
+    font-weight: 700;
   }
 
   h1 {
@@ -133,7 +183,7 @@ const formattedDate = entry.data.publishedAt.toLocaleDateString("de-DE", {
 
   .news-shell {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(12rem, 18rem);
+    grid-template-columns: minmax(0, 1fr) minmax(14rem, 18rem);
     gap: 1rem;
     margin-top: 1.6rem;
   }
@@ -151,6 +201,12 @@ const formattedDate = entry.data.publishedAt.toLocaleDateString("de-DE", {
 
   :global(html[data-presentation-mode="on"]) .news-content {
     padding: 1.9rem 2rem;
+  }
+
+  .news-aside {
+    display: grid;
+    gap: 1rem;
+    align-self: start;
   }
 
   .aside-card {
@@ -181,6 +237,36 @@ const formattedDate = entry.data.publishedAt.toLocaleDateString("de-DE", {
     color: var(--text-strong);
     font-size: 0.9rem;
     font-weight: 600;
+  }
+
+  .related-list {
+    list-style: none;
+    display: grid;
+    gap: 0.75rem;
+    margin: 0.9rem 0 0;
+    padding: 0;
+  }
+
+  .related-list li {
+    display: grid;
+    gap: 0.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .related-list li:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .related-list a {
+    color: var(--text-strong);
+    font-weight: 650;
+    line-height: 1.4;
+  }
+
+  .related-list small {
+    color: var(--text-soft);
   }
 
   .news-content :global(h2) {
