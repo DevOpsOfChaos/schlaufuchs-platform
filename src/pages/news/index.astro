@@ -32,7 +32,7 @@ const latestEntry = entries[0];
       </p>
     </div>
 
-    <div class="news-stat">
+    <div class="news-stat" data-present="hide">
       <span>Live-Einträge</span>
       <strong>{entries.length}</strong>
       <p>{latestEntry ? `Zuletzt aktualisiert: ${latestEntry.dateLabel}` : "Die ersten News-Einträge werden jetzt sichtbar aufgebaut."}</p>
@@ -43,7 +43,7 @@ const latestEntry = entries[0];
     <section class="feed">
       {entries.map((entry, index) => (
         <a class={`feed-card tone-${index % 3}`} href={entry.href}>
-          <div class="meta">
+          <div class="meta" data-present="hide">
             <span>{entry.dateLabel}</span>
             <span>{entry.category}</span>
           </div>
@@ -69,6 +69,10 @@ const latestEntry = entries[0];
     gap: 1rem;
     align-items: start;
     padding: 0.25rem 0 0;
+  }
+
+  :global(html[data-presentation-mode="on"]) .news-head {
+    grid-template-columns: 1fr;
   }
 
   .eyebrow {

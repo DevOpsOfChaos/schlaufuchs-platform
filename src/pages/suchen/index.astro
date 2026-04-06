@@ -75,14 +75,14 @@ const searchEntries = [...subjects, ...articles, ...exercises, ...newsEntries]
       </p>
     </div>
 
-    <div class="hero-stat">
+    <div class="hero-stat" data-present="hide">
       <span>Live-Einträge</span>
       <strong>{searchEntries.length}</strong>
       <p>Fachbereiche, Wissensseiten, Aufgaben und News werden gemeinsam durchsucht.</p>
     </div>
   </section>
 
-  <section class="search-panel">
+  <section class="search-panel" data-present="hide">
     <label class="search-input-shell" for="search-input">
       <span class="search-icon" aria-hidden="true">⌕</span>
       <input id="search-input" type="search" placeholder="Nach Thema, Aufgabe oder Wissensseite suchen ..." />
@@ -112,7 +112,7 @@ const searchEntries = [...subjects, ...articles, ...exercises, ...newsEntries]
         data-area={item.area.toLowerCase()}
         data-tags={item.tags.toLowerCase()}
       >
-        <div class="meta">
+        <div class="meta" data-present="hide">
           <span>{item.kind}</span>
           <span>{item.area}</span>
         </div>
@@ -125,6 +125,7 @@ const searchEntries = [...subjects, ...articles, ...exercises, ...newsEntries]
   <p class="empty-state" id="search-empty" hidden>Keine Treffer gefunden.</p>
 
   <script is:inline>
+    const root = document.documentElement;
     const input = document.getElementById("search-input");
     const cards = Array.from(document.querySelectorAll(".result-card"));
     const chips = Array.from(document.querySelectorAll(".filter-chip"));
@@ -133,7 +134,8 @@ const searchEntries = [...subjects, ...articles, ...exercises, ...newsEntries]
     let activeFilter = "alle";
 
     const applySearch = () => {
-      const query = (input?.value || "").trim().toLowerCase();
+      const presentationMode = root.dataset.presentationMode === "on";
+      const query = presentationMode ? "" : (input?.value || "").trim().toLowerCase();
       let visibleCount = 0;
 
       cards.forEach((card) => {
@@ -144,7 +146,7 @@ const searchEntries = [...subjects, ...articles, ...exercises, ...newsEntries]
         const tags = card.getAttribute("data-tags") || "";
         const haystack = `${title} ${description} ${kind} ${area} ${tags}`;
         const matchesQuery = !query || haystack.includes(query);
-        const matchesFilter = activeFilter === "alle" || area === activeFilter.toLowerCase();
+        const matchesFilter = presentationMode || activeFilter === "alle" || area === activeFilter.toLowerCase();
         const visible = matchesQuery && matchesFilter;
         card.toggleAttribute("hidden", !visible);
         if (visible) visibleCount += 1;
@@ -163,6 +165,9 @@ const searchEntries = [...subjects, ...articles, ...exercises, ...newsEntries]
         applySearch();
       });
     });
+
+    window.addEventListener("presentationmode-changed", applySearch);
+    applySearch();
   </script>
 
   <style>
@@ -172,6 +177,11 @@ const searchEntries = [...subjects, ...articles, ...exercises, ...newsEntries]
       gap: 1rem;
       align-items: start;
       padding: 0.3rem 0 0;
+    }
+
+    :global(html[data-presentation-mode="on"]) .search-hero,
+    :global(html[data-presentation-mode="on"]) .results-grid {
+      grid-template-columns: 1fr;
     }
 
     .eyebrow {

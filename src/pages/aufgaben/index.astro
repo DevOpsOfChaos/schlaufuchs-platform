@@ -67,13 +67,13 @@ const totalExercises = allExercises.length;
         Code-Übungen und Praxisblöcken.
       </p>
 
-      <div class="hero-actions">
+      <div class="hero-actions" data-present="hide">
         <a class="hero-button primary" href={`${base}fachbereiche`}>Fachbereich wählen</a>
         <a class="hero-button secondary" href={`${base}suchen`}>In Aufgaben suchen</a>
       </div>
     </div>
 
-    <div class="hero-stat">
+    <div class="hero-stat" data-present="hide">
       <span>Live-Übungen</span>
       <strong>{totalExercises}</strong>
       <p>Alle Einträge verweisen direkt auf sichtbare Aufgabenseiten und bleiben über Fachbereiche mit dem Produkt verbunden.</p>
@@ -107,7 +107,7 @@ const totalExercises = allExercises.length;
                   <a href={`${base}aufgaben/${entry.id}`}>{entry.data.title}</a>
                   <p>{entry.data.description}</p>
                 </div>
-                <small>{levelLabels[entry.data.level]}</small>
+                <small data-present="hide">{levelLabels[entry.data.level]}</small>
               </li>
             ))}
           </ul>
@@ -125,6 +125,11 @@ const totalExercises = allExercises.length;
     grid-template-columns: minmax(0, 1.2fr) minmax(15rem, 20rem);
     gap: 1rem;
     align-items: start;
+  }
+
+  :global(html[data-presentation-mode="on"]) .hub-hero,
+  :global(html[data-presentation-mode="on"]) .group-grid {
+    grid-template-columns: 1fr;
   }
 
   .hero-copy,
