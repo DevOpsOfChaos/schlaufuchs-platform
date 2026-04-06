@@ -62,8 +62,8 @@ const totalExercises = allExercises.length;
       <p class="kicker">Üben und anwenden</p>
       <h1>Aufgaben und Übungen</h1>
       <p class="lead">
-        Dieser Bereich bündelt die ersten sichtbaren Übungen aus allen Hauptfächern. Schritt für
-        Schritt wächst hier ein echter Aufgaben-Hub mit Rechenaufgaben, Diagnoseformaten,
+        Dieser Bereich bündelt die sichtbaren Übungen aus allen Hauptfächern. Der Aufgaben-Hub
+        wächst schrittweise zu einer eigenen Ebene mit Rechenaufgaben, Diagnoseformaten,
         Code-Übungen und Praxisblöcken.
       </p>
 
@@ -76,7 +76,7 @@ const totalExercises = allExercises.length;
     <div class="hero-stat">
       <span>Live-Übungen</span>
       <strong>{totalExercises}</strong>
-      <p>Die ersten Übungen sind jetzt direkt über Fachbereiche und den globalen Aufgabenbereich sichtbar.</p>
+      <p>Alle Einträge verweisen direkt auf sichtbare Aufgabenseiten und bleiben über Fachbereiche mit dem Produkt verbunden.</p>
     </div>
   </section>
 
@@ -103,8 +103,8 @@ const totalExercises = allExercises.length;
           <ul class="exercise-list">
             {group.entries.map((entry) => (
               <li>
-                <div>
-                  <strong>{entry.data.title}</strong>
+                <div class="exercise-copy">
+                  <a href={`${base}aufgaben/${entry.id}`}>{entry.data.title}</a>
                   <p>{entry.data.description}</p>
                 </div>
                 <small>{levelLabels[entry.data.level]}</small>
@@ -301,7 +301,7 @@ const totalExercises = allExercises.length;
     padding-bottom: 0;
   }
 
-  .exercise-list strong {
+  .exercise-copy a {
     color: var(--text-strong);
     font-weight: 650;
   }

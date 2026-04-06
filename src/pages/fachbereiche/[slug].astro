@@ -100,9 +100,11 @@ const relatedSubjects = subject.data.slug === "elektrotechnik"
   : [subject.data.slug];
 
 const articles = (await getCollection("articles"))
-  .filter((entry) => !entry.data.draft && relatedSubjects.includes(entry.data.subject));
+  .filter((entry) => !entry.data.draft && relatedSubjects.includes(entry.data.subject))
+  .sort((a, b) => a.data.title.localeCompare(b.data.title, "de"));
 const exercises = (await getCollection("exercises"))
-  .filter((entry) => !entry.data.draft && relatedSubjects.includes(entry.data.subject));
+  .filter((entry) => !entry.data.draft && relatedSubjects.includes(entry.data.subject))
+  .sort((a, b) => a.data.title.localeCompare(b.data.title, "de"));
 
 const levelLabels = {
   einfach: "Einfach",
@@ -201,7 +203,10 @@ const levelLabels = {
           <ul class="content-list">
             {articles.slice(0, 6).map((entry) => (
               <li>
-                <strong>{entry.data.title}</strong>
+                <div class="content-copy">
+                  <a href={`${base}wissen/${entry.id}`}>{entry.data.title}</a>
+                  <small>{entry.data.description}</small>
+                </div>
                 <span>{levelLabels[entry.data.level]}</span>
               </li>
             ))}
@@ -221,7 +226,10 @@ const levelLabels = {
           <ul class="content-list">
             {exercises.slice(0, 6).map((entry) => (
               <li>
-                <strong>{entry.data.title}</strong>
+                <div class="content-copy">
+                  <a href={`${base}aufgaben/${entry.id}`}>{entry.data.title}</a>
+                  <small>{entry.data.description}</small>
+                </div>
                 <span>{levelLabels[entry.data.level]}</span>
               </li>
             ))}
@@ -432,9 +440,19 @@ const levelLabels = {
     border: 1px solid var(--border);
   }
 
-  .content-list strong {
+  .content-copy {
+    display: grid;
+    gap: 0.3rem;
+  }
+
+  .content-copy a {
     color: var(--text-strong);
     font-weight: 650;
+  }
+
+  .content-copy small {
+    color: var(--text-soft);
+    line-height: 1.45;
   }
 
   .content-list span {
