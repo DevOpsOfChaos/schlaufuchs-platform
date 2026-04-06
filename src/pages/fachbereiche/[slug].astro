@@ -1,116 +1,13 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection, type CollectionEntry } from "astro:content";
+import { getSubjectMeta, visibleSubjectOrder } from "../../data/subjects";
 
 const base = import.meta.env.BASE_URL;
 
-const subjectDetails: Record<
-  string,
-  {
-    intro: string;
-    highlights: string[];
-    sections: { title: string; items: string[] }[];
-    knowledgeLabel: string;
-    exerciseLabel: string;
-    learnModeTitle: string;
-    learnModeItems: string[];
-  }
-> = {
-  mathematik: {
-    intro:
-      "Mathematik auf Schlaufuchs bündelt Grundlagen, Analysis, Algebra und Vektorgeometrie in klaren Themenfeldern. Der Bereich verbindet fachliche Übersicht, Wissensseiten und passende Aufgaben.",
-    highlights: ["Funktionen", "Analysis", "Algebra", "Vektorgeometrie"],
-    sections: [
-      { title: "Grundlagen", items: ["Funktionen und Graphen", "Lineare und quadratische Funktionen", "Erste Analysis"] },
-      { title: "Zentrale Themen", items: ["Differentialrechnung", "Integralrechnung", "Lineare Gleichungssysteme"] },
-      { title: "Erweiterungen", items: ["Komplexe Zahlen", "Geraden und Ebenen", "Fourier und FFT"] },
-    ],
-    knowledgeLabel: "Wissensseiten",
-    exerciseLabel: "Aufgaben",
-    learnModeTitle: "Mathematik im Lernmodus nutzen",
-    learnModeItems: [
-      "Starte mit den Grundlagen und wechsle danach gezielt in Analysis oder Algebra.",
-      "Nutze Aufgaben erst nach dem inhaltlichen Überblick, damit Begriffe und Verfahren sitzen.",
-      "Arbeite Themen in kleinen Blöcken: verstehen, Beispiel ansehen, dann Aufgaben ergänzen.",
-    ],
-  },
-  linux: {
-    intro:
-      "Linux auf Schlaufuchs bündelt Shell, Rechte, Benutzer, SSH und Shellskripte in klar gegliederten Themenbereichen. Der Bereich verbindet Praxiswissen, Nachschlagen und passende Aufgaben.",
-    highlights: ["Shell", "Rechte", "Shellskripte", "SSH"],
-    sections: [
-      { title: "Grundlagen", items: ["Shell und Prompt", "Dateirechte", "Benutzer und Gruppen"] },
-      { title: "Zentrale Themen", items: ["chmod", "Dateibesitz", "Shellskripte"] },
-      { title: "Praxis", items: ["SSH", "Schlüssel", "Fernzugriff und Tools"] },
-    ],
-    knowledgeLabel: "Wissensseiten",
-    exerciseLabel: "Aufgaben",
-    learnModeTitle: "Linux im Lernmodus nutzen",
-    learnModeItems: [
-      "Beginne mit Shell und Rechten, bevor du Automatisierung oder Fernzugriff vertiefst.",
-      "Wechsle zwischen Wissensseite und Terminalpraxis in kleinen, klaren Schritten.",
-      "Nutze SSH und Shellskripte erst dann stärker, wenn die Grundbefehle sicher sitzen.",
-    ],
-  },
-  informatik: {
-    intro:
-      "Informatik auf Schlaufuchs bündelt Grundlagen, Programmierlogik und erste systemnahe Themen in einer klaren Fachübersicht. Der Bereich verbindet Einordnung, Wissensseiten und passende Aufgaben.",
-    highlights: ["Grundlagen", "Programmierung", "C", "Struktur"],
-    sections: [
-      { title: "Grundlagen", items: ["Einführung in die Informatik", "Computer- und Programmiergrundlagen"] },
-      { title: "Programmierung", items: ["C und Python einordnen", "Programmstruktur verstehen"] },
-      { title: "Vertiefung", items: ["C-Grundlagen", "Kontrollstrukturen", "Eingaben und Ausgaben"] },
-    ],
-    knowledgeLabel: "Wissensseiten",
-    exerciseLabel: "Aufgaben",
-    learnModeTitle: "Informatik im Lernmodus nutzen",
-    learnModeItems: [
-      "Arbeite zuerst über Grundideen und Begriffe, bevor du konkrete Syntax in den Vordergrund stellst.",
-      "Verbinde Kontrollstrukturen und Programmstruktur mit kleinen Code-Aufgaben statt isoliertem Auswendiglernen.",
-      "Nutze Aufgaben besonders dort, wo Abläufe, Bedingungen und Programmlogik verglichen werden sollen.",
-    ],
-  },
-  elektrotechnik: {
-    intro:
-      "Elektrotechnik auf Schlaufuchs bündelt technische Grundlagen, digitale Technik, Netzwerke und Mikrocontroller in übersichtlichen Themenfeldern. Der Bereich verbindet Fachinformationen, Wissensseiten und passende Aufgaben.",
-    highlights: ["Signale", "Halbleiter", "Netzwerke", "Mikrocontroller"],
-    sections: [
-      { title: "Grundlagen", items: ["Computer und CPU", "Daten, Signale und Codierung", "Netzwerke und Protokolle"] },
-      { title: "Zentrale Themen", items: ["Logikgatter", "Dioden", "MOSFETs und Transistoren"] },
-      { title: "Praxis und Rechnen", items: ["Netzwerkanalyse", "Wechselstrom", "Arduino und ESP32"] },
-    ],
-    knowledgeLabel: "Wissensseiten",
-    exerciseLabel: "Aufgaben",
-    learnModeTitle: "Elektrotechnik im Lernmodus nutzen",
-    learnModeItems: [
-      "Starte mit Signalen, Logik und Grundbausteinen, bevor du in Rechnen oder Mikrocontroller gehst.",
-      "Nutze Aufgaben vor allem dann, wenn Größen, Schaltungen oder Zusammenhänge sicher eingeordnet werden sollen.",
-      "Arbeite praktische Themen wie Arduino oder ESP32 am besten erst nach einem klaren Überblick über die Grundlagen.",
-    ],
-  },
-  "web-development": {
-    intro:
-      "Web Development auf Schlaufuchs bündelt HTML, CSS und erste Layout-Themen in einer klaren Fachübersicht. Der Bereich verbindet Wissensseiten, Nachschlage-Struktur und passende Aufgaben.",
-    highlights: ["HTML", "CSS", "Semantik", "Layouts"],
-    sections: [
-      { title: "Grundlagen", items: ["HTML-Grundlagen", "HTML-Semantik", "Seitenstruktur"] },
-      { title: "Zentrale Themen", items: ["Links, Bilder und Pfade", "CSS-Grundlagen", "Selektoren"] },
-      { title: "Praxis", items: ["Box-Modell", "Layouts", "kleine Code-Aufgaben"] },
-    ],
-    knowledgeLabel: "Wissensseiten",
-    exerciseLabel: "Aufgaben",
-    learnModeTitle: "Web Development im Lernmodus nutzen",
-    learnModeItems: [
-      "Beginne mit Struktur und Semantik, bevor du dich in CSS-Details oder Layout-Fragen verlierst.",
-      "Verbinde Wissensseiten direkt mit kleinen Code-Aufgaben, damit HTML und CSS sichtbar zusammenwirken.",
-      "Nutze den Lernmodus besonders dann, wenn du Themen in einer sinnvollen Reihenfolge durcharbeiten willst.",
-    ],
-  },
-};
-
 export async function getStaticPaths() {
   const subjects = (await getCollection("subjects"))
-    .filter((subject) => subject.data.slug !== "daten-und-signale");
+    .filter((subject) => visibleSubjectOrder.includes(subject.data.slug as (typeof visibleSubjectOrder)[number]));
 
   return subjects.map((subject) => ({
     params: { slug: subject.data.slug },
@@ -119,7 +16,7 @@ export async function getStaticPaths() {
 }
 
 const { subject } = Astro.props as { subject: CollectionEntry<"subjects"> };
-const detail = subjectDetails[subject.data.slug] ?? {
+const detail = getSubjectMeta(subject.data.slug) ?? {
   intro: subject.data.description,
   highlights: [],
   sections: [],
@@ -127,6 +24,10 @@ const detail = subjectDetails[subject.data.slug] ?? {
   exerciseLabel: "Aufgaben",
   learnModeTitle: "Im Lernmodus mit diesem Bereich arbeiten",
   learnModeItems: [],
+  tone: "default",
+  icon: "",
+  kicker: "Fachbereich",
+  entry: "Grundlagen",
 };
 
 const relatedSubjects = subject.data.slug === "elektrotechnik"

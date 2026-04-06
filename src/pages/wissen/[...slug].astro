@@ -1,17 +1,9 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection, render, type CollectionEntry } from "astro:content";
+import { resolvePrimarySubjectSlug, subjectTitleMap } from "../../data/subjects";
 
 const base = import.meta.env.BASE_URL;
-
-const subjectTitles: Record<string, string> = {
-  mathematik: "Mathematik",
-  informatik: "Informatik",
-  elektrotechnik: "Elektrotechnik",
-  linux: "Linux",
-  "web-development": "Web Development",
-  "daten-und-signale": "Elektrotechnik",
-};
 
 export async function getStaticPaths() {
   const articles = await getCollection("articles", ({ data }) => !data.draft);
@@ -24,8 +16,8 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props as { entry: CollectionEntry<"articles"> };
 const { Content } = await render(entry);
-const subjectTitle = subjectTitles[entry.data.subject] ?? "Fachbereich";
-const subjectSlug = entry.data.subject === "daten-und-signale" ? "elektrotechnik" : entry.data.subject;
+const subjectTitle = subjectTitleMap[entry.data.subject] ?? "Fachbereich";
+const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject) ?? "elektrotechnik";
 ---
 
 <BaseLayout title={`${entry.data.title} – Schlaufuchs`} description={entry.data.description}>

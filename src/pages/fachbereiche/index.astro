@@ -1,57 +1,18 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
+import { getSubjectMeta, visibleSubjectOrder } from "../../data/subjects";
 
 const base = import.meta.env.BASE_URL;
 
-const subjectMeta: Record<
-  string,
-  { kicker: string; highlights: string[]; tone: string; entry: string }
-> = {
-  mathematik: {
-    kicker: "Wissen + Aufgaben",
-    highlights: ["Funktionen", "Analysis", "Vektorgeometrie"],
-    tone: "math",
-    entry: "Funktionen und Graphen",
-  },
-  informatik: {
-    kicker: "Verstehen + Programmieren",
-    highlights: ["Grundlagen", "Programmierung", "C"],
-    tone: "cs",
-    entry: "Informatik-Einstieg",
-  },
-  elektrotechnik: {
-    kicker: "Theorie + Praxis",
-    highlights: ["Signale", "Halbleiter", "Mikrocontroller"],
-    tone: "ee",
-    entry: "Computer und CPU",
-  },
-  linux: {
-    kicker: "System + Praxis",
-    highlights: ["Shell", "Rechte", "SSH"],
-    tone: "linux",
-    entry: "Shell und Prompt",
-  },
-  "web-development": {
-    kicker: "Code + Gestaltung",
-    highlights: ["HTML", "CSS", "Layouts"],
-    tone: "web",
-    entry: "HTML-Grundlagen",
-  },
-};
-
 const subjects = (await getCollection("subjects"))
-  .filter((subject) => subject.data.slug !== "daten-und-signale")
-  .sort((a, b) => a.data.order - b.data.order)
+  .filter((subject) => visibleSubjectOrder.includes(subject.data.slug as (typeof visibleSubjectOrder)[number]))
+  .sort((a, b) => visibleSubjectOrder.indexOf(a.data.slug as (typeof visibleSubjectOrder)[number]) - visibleSubjectOrder.indexOf(b.data.slug as (typeof visibleSubjectOrder)[number]))
   .map((subject) => ({
     ...subject,
-    meta: subjectMeta[subject.data.slug] ?? {
-      kicker: "Fachbereich",
-      highlights: [],
-      tone: "default",
-      entry: "Grundlagen",
-    },
-  }));
+    meta: getSubjectMeta(subject.data.slug),
+  }))
+  .filter((subject) => subject.meta !== null);
 ---
 
 <BaseLayout
@@ -76,10 +37,10 @@ const subjects = (await getCollection("subjects"))
 
   <section class="grid">
     {subjects.map((subject) => (
-      <a class={`card ${subject.meta.tone}`} href={`${base}fachbereiche/${subject.data.slug}`}>
+      <a class={`card ${subject.meta!.tone}`} href={`${base}fachbereiche/${subject.data.slug}`}>
         <div class="card-top">
-          <span class="kicker" data-present="hide">{subject.meta.kicker}</span>
-          <span class="entry" data-present="hide">Start: {subject.meta.entry}</span>
+          <span class="kicker" data-present="hide">{subject.meta!.kicker}</span>
+          <span class="entry" data-present="hide">Start: {subject.meta!.entry}</span>
         </div>
 
         <div class="card-copy">
@@ -88,7 +49,7 @@ const subjects = (await getCollection("subjects"))
         </div>
 
         <ul class="highlight-list">
-          {subject.meta.highlights.map((item) => <li>{item}</li>)}
+          {subject.meta!.highlights.slice(0, 3).map((item) => <li>{item}</li>)}
         </ul>
 
         <span class="card-link">Zum Fachbereich →</span>

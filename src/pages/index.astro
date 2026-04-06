@@ -1,50 +1,26 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import { getSubjectMeta, visibleSubjectOrder } from "../data/subjects";
 
 const base = import.meta.env.BASE_URL;
 
-const subjects = [
-  {
-    title: "Mathematik",
-    description: "Funktionen, Analysis, Algebra und Vektorgeometrie mit passenden Aufgaben und klaren Themenblöcken.",
-    href: `${base}fachbereiche/mathematik`,
-    icon: `${base}assets/icons/math.png`,
-    tone: "math",
-    highlights: ["Funktionen", "Analysis", "Vektorgeometrie"],
-  },
-  {
-    title: "Informatik",
-    description: "Algorithmisches Denken, Programmiergrundlagen und ein sauberer Einstieg in C und Python.",
-    href: `${base}fachbereiche/informatik`,
-    icon: `${base}assets/icons/informatik.png`,
-    tone: "cs",
-    highlights: ["Grundlagen", "Programmierung", "C"],
-  },
-  {
-    title: "Elektrotechnik",
-    description: "Signale, Schaltungen, Bauelemente und Mikrocontroller in klar gegliederten Themenbereichen.",
-    href: `${base}fachbereiche/elektrotechnik`,
-    icon: `${base}assets/icons/elektrotechnik.png`,
-    tone: "ee",
-    highlights: ["Signale", "Halbleiter", "Mikrocontroller"],
-  },
-  {
-    title: "Linux",
-    description: "Shell, Rechte, Benutzer, SSH und Shellskripte mit direktem Praxisbezug.",
-    href: `${base}fachbereiche/linux`,
-    icon: `${base}assets/icons/linux.png`,
-    tone: "linux",
-    highlights: ["Shell", "Rechte", "SSH"],
-  },
-  {
-    title: "Web Development",
-    description: "HTML, CSS und moderne Web-Grundlagen mit direkt sichtbaren Ergebnissen.",
-    href: `${base}fachbereiche/web-development`,
-    icon: `${base}assets/icons/html_css.png`,
-    tone: "web",
-    highlights: ["HTML", "CSS", "Layouts"],
-  },
-];
+const subjects = (await getCollection("subjects"))
+  .filter((subject) => visibleSubjectOrder.includes(subject.data.slug as (typeof visibleSubjectOrder)[number]))
+  .sort((a, b) => visibleSubjectOrder.indexOf(a.data.slug as (typeof visibleSubjectOrder)[number]) - visibleSubjectOrder.indexOf(b.data.slug as (typeof visibleSubjectOrder)[number]))
+  .map((subject) => ({
+    title: subject.data.title,
+    description: subject.data.description,
+    href: `${base}fachbereiche/${subject.data.slug}`,
+    meta: getSubjectMeta(subject.data.slug),
+  }))
+  .filter((subject) => subject.meta !== null)
+  .map((subject) => ({
+    ...subject,
+    icon: `${base}assets/icons/${subject.meta!.icon}`,
+    tone: subject.meta!.tone,
+    highlights: subject.meta!.highlights.slice(0, 3),
+  }));
 
 const quickPaths = [
   {
