@@ -1,0 +1,14 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import LegacyRedirectPage from "../components/ui/LegacyRedirectPage.astro";
+const base = import.meta.env.BASE_URL;
+---
+
+<BaseLayout title="Bereich verschoben – Schlaufuchs" description="Alter Pfad wurde auf die neue Struktur umgestellt." noIndex={true}>
+  <LegacyRedirectPage
+    title="Der frühere Lernbereich wurde in die neue Plattformstruktur überführt."
+    lead="Statt einer isolierten Lernseite arbeitet Schlaufuchs jetzt mit klaren Fachbereichen, Wissensseiten und Aufgaben. Du wirst automatisch zur passenden Übersicht weitergeleitet."
+    targetHref={`${base}fachbereiche`}
+    targetLabel="Zu den Fachbereichen"
+  />
+</BaseLayout>

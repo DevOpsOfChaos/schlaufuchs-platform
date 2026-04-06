@@ -1,0 +1,14 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import LegacyRedirectPage from "../../components/ui/LegacyRedirectPage.astro";
+const base = import.meta.env.BASE_URL;
+---
+
+<BaseLayout title="Bereich verschoben – Schlaufuchs" description="Daten und Signale ist jetzt Teil der Elektrotechnik." noIndex={true}>
+  <LegacyRedirectPage
+    title="Daten und Signale ist jetzt im Fachbereich Elektrotechnik gebündelt."
+    lead="Dieser frühere Einstieg wird nicht mehr als eigenes Hauptfach geführt. Du wirst automatisch zur aktuellen Fachseite weitergeleitet."
+    targetHref={`${base}fachbereiche/elektrotechnik`}
+    targetLabel="Zu Elektrotechnik"
+  />
+</BaseLayout>

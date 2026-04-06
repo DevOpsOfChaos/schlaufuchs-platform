@@ -1,0 +1,76 @@
+---
+interface Props {
+  title: string;
+  lead: string;
+  targetHref: string;
+  targetLabel: string;
+}
+
+const { title, lead, targetHref, targetLabel } = Astro.props;
+---
+
+<section class="redirect-shell">
+  <article class="redirect-card">
+    <p class="eyebrow">Weiterleitung</p>
+    <h1>{title}</h1>
+    <p class="lead">{lead}</p>
+    <a class="redirect-link" href={targetHref}>{targetLabel}</a>
+  </article>
+</section>
+
+<meta http-equiv="refresh" content={`0;url=${targetHref}`} />
+
+<style>
+  .redirect-shell {
+    display: grid;
+    place-items: center;
+    min-height: 58vh;
+  }
+
+  .redirect-card {
+    width: min(100%, 46rem);
+    padding: 1.8rem;
+    border: 1px solid var(--border);
+    border-radius: 28px;
+    background: var(--card-bg);
+    box-shadow: var(--shadow-card);
+  }
+
+  .eyebrow {
+    margin: 0 0 0.75rem;
+    color: var(--text-soft);
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    margin: 0;
+    color: var(--text-strong);
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    line-height: 1.02;
+    letter-spacing: -0.04em;
+  }
+
+  .lead {
+    margin: 1rem 0 0;
+    color: var(--text);
+    line-height: 1.75;
+    font-size: 1.03rem;
+  }
+
+  .redirect-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3rem;
+    margin-top: 1.35rem;
+    padding: 0 1.1rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: color-mix(in oklab, var(--surface-strong) 86%, #4f46e5 14%);
+    color: white;
+    font-weight: 700;
+  }
+</style>
