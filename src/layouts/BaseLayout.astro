@@ -2,6 +2,7 @@
 import "../styles/globals/base.css";
 import { siteConfig } from "../data/settings/site";
 import Topbar from "../components/ui/Topbar.astro";
+import LearnModePrompt from "../components/ui/LearnModePrompt.astro";
 import Footer from "../components/ui/Footer.astro";
 
 interface Props {
@@ -42,6 +43,7 @@ const {
 
   <body>
     <Topbar />
+    <LearnModePrompt />
     <main>
       <slot />
     </main>

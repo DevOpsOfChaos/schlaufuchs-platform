@@ -1,0 +1,157 @@
+---
+---
+
+<div class="learn-prompt" data-learn-prompt hidden>
+  <div class="learn-prompt-copy">
+    <p class="learn-prompt-kicker">Lernmodus</p>
+    <h2>Du willst die Seite stärker lernorientiert nutzen?</h2>
+    <p>
+      Schlaufuchs startet bewusst in einer klaren Standardansicht. Mit dem Lernmodus werden
+      lernbezogene Hinweise und strukturierte Einstiege stärker sichtbar.
+    </p>
+  </div>
+
+  <div class="learn-prompt-actions">
+    <button type="button" class="learn-prompt-button primary" data-learn-activate>
+      Lernmodus einschalten
+    </button>
+    <button type="button" class="learn-prompt-button secondary" data-learn-dismiss>
+      Später
+    </button>
+  </div>
+</div>
+
+<script>
+  const root = document.documentElement;
+  const prompt = document.querySelector("[data-learn-prompt]");
+  const activateButton = prompt?.querySelector("[data-learn-activate]");
+  const dismissButton = prompt?.querySelector("[data-learn-dismiss]");
+  const dismissKey = "schlaufuchs-learn-prompt-dismissed";
+
+  const renderPrompt = () => {
+    if (!prompt) return;
+
+    let dismissed = false;
+    try {
+      dismissed = localStorage.getItem(dismissKey) === "true";
+    } catch {}
+
+    const isLearnModeOn = root.dataset.learnMode === "on";
+    prompt.hidden = dismissed || isLearnModeOn;
+  };
+
+  const activateLearnMode = () => {
+    root.dataset.learnMode = "on";
+    try {
+      localStorage.setItem("schlaufuchs-learn-mode", "on");
+      localStorage.removeItem(dismissKey);
+    } catch {}
+    renderPrompt();
+    window.dispatchEvent(new CustomEvent("learnmode-changed", { detail: "on" }));
+  };
+
+  activateButton?.addEventListener("click", activateLearnMode);
+
+  dismissButton?.addEventListener("click", () => {
+    try {
+      localStorage.setItem(dismissKey, "true");
+    } catch {}
+    renderPrompt();
+  });
+
+  window.addEventListener("learnmode-changed", renderPrompt);
+  renderPrompt();
+</script>
+
+<style>
+  .learn-prompt {
+    position: fixed;
+    top: 6.4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(calc(100% - 1rem), 62rem);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 1.1rem;
+    border: 1px solid var(--border-strong);
+    border-radius: 24px;
+    background: color-mix(in oklab, var(--card-bg) 92%, #eef2ff 8%);
+    box-shadow: var(--shadow-card);
+    z-index: 35;
+  }
+
+  :global(html[data-theme="dark"]) .learn-prompt {
+    background: color-mix(in oklab, var(--card-bg) 94%, #1d4ed8 6%);
+  }
+
+  .learn-prompt-kicker {
+    margin: 0 0 0.45rem;
+    color: var(--text-soft);
+    font-size: 0.84rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .learn-prompt-copy h2 {
+    margin: 0;
+    color: var(--text-strong);
+    font-size: 1.1rem;
+    line-height: 1.2;
+  }
+
+  .learn-prompt-copy p:last-child {
+    margin: 0.55rem 0 0;
+    color: var(--text);
+    line-height: 1.55;
+  }
+
+  .learn-prompt-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    flex-shrink: 0;
+  }
+
+  .learn-prompt-button {
+    min-height: 2.9rem;
+    padding: 0 1rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .learn-prompt-button.primary {
+    background: color-mix(in oklab, var(--surface-strong) 84%, #4f46e5 16%);
+    color: white;
+    border-color: transparent;
+  }
+
+  .learn-prompt-button.secondary {
+    background: var(--surface);
+    color: var(--text-strong);
+  }
+
+  @media (max-width: 920px) {
+    .learn-prompt {
+      top: auto;
+      bottom: 1rem;
+      width: min(calc(100% - 1rem), 100%);
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .learn-prompt-actions {
+      width: 100%;
+      justify-content: stretch;
+    }
+
+    .learn-prompt-button {
+      flex: 1;
+    }
+  }
+</style>

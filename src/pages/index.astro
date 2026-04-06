@@ -6,7 +6,7 @@ const base = import.meta.env.BASE_URL;
 const subjects = [
   {
     title: "Mathematik",
-    description: "Funktionen, Analysis, Algebra und Vektorgeometrie mit starkem Aufgabenfokus.",
+    description: "Funktionen, Analysis, Algebra und Vektorgeometrie mit passenden Aufgaben und klaren Themenblöcken.",
     href: `${base}fachbereiche/mathematik`,
     icon: `${base}assets/icons/math.png`,
     tone: "math",
@@ -14,7 +14,7 @@ const subjects = [
   },
   {
     title: "Informatik",
-    description: "Algorithmisches Denken, Programmiergrundlagen und ein sauberer Einstieg in C.",
+    description: "Algorithmisches Denken, Programmiergrundlagen und ein sauberer Einstieg in C und Python.",
     href: `${base}fachbereiche/informatik`,
     icon: `${base}assets/icons/informatik.png`,
     tone: "cs",
@@ -22,7 +22,7 @@ const subjects = [
   },
   {
     title: "Elektrotechnik",
-    description: "Signale, Schaltungen, Bauelemente und Mikrocontroller in klaren Lernblöcken.",
+    description: "Signale, Schaltungen, Bauelemente und Mikrocontroller in klar gegliederten Themenbereichen.",
     href: `${base}fachbereiche/elektrotechnik`,
     icon: `${base}assets/icons/elektrotechnik.png`,
     tone: "ee",
@@ -55,7 +55,7 @@ const quickPaths = [
   },
   {
     title: "Aufgaben und Übungen",
-    description: "Trainiere Wissen direkt über Aufgaben, Rechenwege, Code- und Praxisformate.",
+    description: "Finde passende Aufgaben, Rechenwege, Code- und Praxisformate zu den Themen.",
     href: `${base}aufgaben`,
     icon: "◎",
   },
@@ -69,16 +69,16 @@ const quickPaths = [
 
 const focusAreas = [
   {
-    title: "Wissen mit Struktur",
-    description: "Klare Einstiege, verständliche Erklärungen und Fachseiten mit sauberer Lernlogik.",
+    title: "Informationen mit Struktur",
+    description: "Fachbereiche, Wissensseiten und Themenblöcke bleiben klar gegliedert und direkt nutzbar.",
   },
   {
-    title: "Üben mit Substanz",
-    description: "Aufgaben sind kein Zusatz, sondern eine eigene Ebene für Verstehen, Anwenden und Wiederholen.",
+    title: "Aufgaben direkt dabei",
+    description: "Aufgaben ergänzen die Themen sinnvoll, ohne die Grundseite zu überladen oder vom Stoff abzulenken.",
   },
   {
-    title: "Praxisnah und modern",
-    description: "Von Shell und C bis Arduino, HTML/CSS und Analysis: Inhalte werden für echte Nutzung aufgebaut.",
+    title: "Lernmodus bei Bedarf",
+    description: "Wer stärker lernorientiert arbeiten will, kann die zusätzliche Lernsicht gezielt einschalten.",
   },
 ];
 
@@ -86,17 +86,17 @@ const heroFox = `${base}assets/mascots/general.png`;
 ---
 
 <BaseLayout
-  title="Schlaufuchs – Freie Lernplattform für Technik, Mathematik und Praxis"
-  description="Freie Lernplattform für Mathematik, Informatik, Elektrotechnik, Linux und Web Development – mit klaren Fachbereichen, Wissensseiten und Aufgaben."
+  title="Schlaufuchs – Freie Plattform für Technik, Mathematik und Praxis"
+  description="Freie Plattform für Mathematik, Informatik, Elektrotechnik, Linux und Web Development – mit klaren Fachbereichen, Wissensseiten und Aufgaben."
 >
   <section class="home-hero">
     <div class="hero-copy">
-      <p class="hero-kicker">Freie Lernplattform</p>
-      <h1>Wissen verstehen. Aufgaben üben. Strukturiert weiterkommen.</h1>
+      <p class="hero-kicker">Freie Wissens- und Aufgabenplattform</p>
+      <h1>Fachinformationen finden. Aufgaben nutzen. Inhalte klar ordnen.</h1>
       <p class="hero-lead">
         Schlaufuchs bündelt Mathematik, Informatik, Elektrotechnik, Linux und Web Development
-        in klaren Fachbereichen – mit verständlichen Einstiegen, modernen Lernwegen und einer
-        sichtbaren Aufgabenlogik.
+        in klaren Fachbereichen – mit verständlichen Wissensseiten, passenden Aufgaben und einer
+        ruhigen, modernen Oberfläche.
       </p>
 
       <div class="hero-actions">
@@ -106,7 +106,7 @@ const heroFox = `${base}assets/mascots/general.png`;
 
       <a class="hero-search" href={`${base}suchen`} aria-label="Suche öffnen">
         <span class="hero-search-icon">⌕</span>
-        <span>Themen, Aufgaben und Lernseiten durchsuchen ...</span>
+        <span>Themen, Aufgaben und Wissensseiten durchsuchen ...</span>
       </a>
     </div>
 
@@ -120,7 +120,7 @@ const heroFox = `${base}assets/mascots/general.png`;
       <div>
         <p class="section-kicker">Schnell starten</p>
         <h2>Drei gute Wege in die Plattform</h2>
-        <p>Ob du ein Fach entdecken, direkt üben oder gezielt suchen willst: der Einstieg soll sofort funktionieren.</p>
+        <p>Ob du ein Fach entdecken, direkt Aufgaben aufrufen oder gezielt suchen willst: der Einstieg soll sofort funktionieren.</p>
       </div>
     </div>
 
@@ -142,7 +142,7 @@ const heroFox = `${base}assets/mascots/general.png`;
       <div>
         <p class="section-kicker">Hauptfächer</p>
         <h2>Fachbereiche mit klarer Struktur</h2>
-        <p>Jeder Fachbereich führt über Grundlagen, zentrale Themenblöcke und passende Übungen in die Tiefe.</p>
+        <p>Jeder Fachbereich führt über Grundlagen, zentrale Themenblöcke und passende Aufgaben in die Tiefe.</p>
       </div>
       <a class="section-link" href={`${base}fachbereiche`}>Alle Fachbereiche ansehen</a>
     </div>
@@ -171,11 +171,34 @@ const heroFox = `${base}assets/mascots/general.png`;
   </section>
 
   <section class="home-section">
+    <article class="learn-mode-panel">
+      <div class="learn-mode-copy">
+        <p class="section-kicker">Optionaler Lernmodus</p>
+        <h2>Die Grundseite bleibt klar – der Lernmodus ergänzt die stärkere Lernsicht.</h2>
+        <p>
+          Schlaufuchs startet bewusst als ruhige Informations- und Aufgabenplattform. Wenn du
+          zusätzlich stärker lernorientiert arbeiten möchtest, kannst du den Lernmodus jederzeit
+          einschalten und die Seite gezielter als Lernoberfläche nutzen.
+        </p>
+      </div>
+
+      <div class="learn-mode-actions">
+        <button type="button" class="hero-button primary" data-home-learn-activate>
+          Lernmodus einschalten
+        </button>
+        <a class="hero-button secondary" href={`${base}fachbereiche`}>
+          Erst in der Standardansicht bleiben
+        </a>
+      </div>
+    </article>
+  </section>
+
+  <section class="home-section">
     <div class="section-head">
       <div>
         <p class="section-kicker">Anspruch</p>
         <h2>Modern, klar und fachlich belastbar</h2>
-        <p>Die Plattform wird nicht nur hübsch, sondern als echtes Lernsystem mit Wissen, Aufgaben und Praxislogik aufgebaut.</p>
+        <p>Die Plattform verbindet ruhige Informationsstruktur, passende Aufgaben und eine zuschaltbare Lernsicht.</p>
       </div>
     </div>
 
@@ -188,6 +211,20 @@ const heroFox = `${base}assets/mascots/general.png`;
       ))}
     </div>
   </section>
+
+  <script is:inline>
+    const activateLearnMode = () => {
+      const root = document.documentElement;
+      root.dataset.learnMode = "on";
+      try {
+        localStorage.setItem("schlaufuchs-learn-mode", "on");
+        localStorage.removeItem("schlaufuchs-learn-prompt-dismissed");
+      } catch {}
+      window.dispatchEvent(new CustomEvent("learnmode-changed", { detail: "on" }));
+    };
+
+    document.querySelector("[data-home-learn-activate]")?.addEventListener("click", activateLearnMode);
+  </script>
 </BaseLayout>
 
 <style>
@@ -254,7 +291,8 @@ const heroFox = `${base}assets/mascots/general.png`;
     line-height: 1.75;
   }
 
-  .hero-actions {
+  .hero-actions,
+  .learn-mode-actions {
     display: flex;
     gap: 0.9rem;
     flex-wrap: wrap;
@@ -271,6 +309,7 @@ const heroFox = `${base}assets/mascots/general.png`;
     border: 1px solid var(--border);
     font-weight: 700;
     transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease, background 140ms ease;
+    cursor: pointer;
   }
 
   .hero-button:hover {
@@ -348,7 +387,8 @@ const heroFox = `${base}assets/mascots/general.png`;
     flex-wrap: wrap;
   }
 
-  .section-head h2 {
+  .section-head h2,
+  .learn-mode-copy h2 {
     margin: 0;
     color: var(--text-strong);
     font-size: clamp(1.85rem, 2.8vw, 2.5rem);
@@ -356,7 +396,8 @@ const heroFox = `${base}assets/mascots/general.png`;
     letter-spacing: -0.035em;
   }
 
-  .section-head p {
+  .section-head p,
+  .learn-mode-copy p {
     margin: 0.75rem 0 0;
     max-width: 46rem;
     color: var(--text-soft);
@@ -377,7 +418,8 @@ const heroFox = `${base}assets/mascots/general.png`;
   }
 
   .path-card,
-  .focus-card {
+  .focus-card,
+  .learn-mode-panel {
     display: grid;
     gap: 1rem;
     padding: 1.35rem;
@@ -385,6 +427,18 @@ const heroFox = `${base}assets/mascots/general.png`;
     border-radius: 24px;
     background: var(--card-bg);
     box-shadow: var(--shadow-soft);
+  }
+
+  .learn-mode-panel {
+    grid-template-columns: minmax(0, 1.4fr) auto;
+    align-items: end;
+    padding: 1.6rem;
+    border-radius: 28px;
+    background: linear-gradient(135deg, rgba(79,70,229,0.10), rgba(240,244,255,0.88));
+  }
+
+  :global(html[data-theme="dark"]) .learn-mode-panel {
+    background: linear-gradient(135deg, rgba(79,70,229,0.18), rgba(18,27,46,0.94));
   }
 
   .path-card:hover {
@@ -554,8 +608,12 @@ const heroFox = `${base}assets/mascots/general.png`;
   }
 
   @media (max-width: 900px) {
-    .home-hero {
+    .home-hero,
+    .learn-mode-panel {
       grid-template-columns: 1fr;
+    }
+
+    .home-hero {
       padding: 2rem 1.5rem 0;
     }
 
@@ -581,7 +639,8 @@ const heroFox = `${base}assets/mascots/general.png`;
       width: min(100%, 11rem);
     }
 
-    .section-link {
+    .section-link,
+    .learn-mode-actions .hero-button {
       width: 100%;
     }
   }
