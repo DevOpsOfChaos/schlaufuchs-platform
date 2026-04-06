@@ -30,7 +30,7 @@ const formattedDate = entry.data.publishedAt.toLocaleDateString("de-DE", {
       <p class="lead">{entry.data.description}</p>
     </div>
 
-    <div class="meta-card">
+    <div class="meta-card" data-present="hide">
       <span>Veröffentlicht</span>
       <strong>{formattedDate}</strong>
       <a href={`${base}news`}>Zur News-Übersicht →</a>
@@ -43,7 +43,7 @@ const formattedDate = entry.data.publishedAt.toLocaleDateString("de-DE", {
     </article>
 
     {entry.data.tags.length > 0 && (
-      <aside class="news-aside">
+      <aside class="news-aside" data-present="hide">
         <div class="aside-card">
           <h2>Tags</h2>
           <ul class="tag-list">
@@ -126,6 +126,11 @@ const formattedDate = entry.data.publishedAt.toLocaleDateString("de-DE", {
     grid-template-columns: minmax(0, 1fr) minmax(12rem, 18rem);
     gap: 1rem;
     margin-top: 1.6rem;
+  }
+
+  :global(html[data-presentation-mode="on"]) .news-hero,
+  :global(html[data-presentation-mode="on"]) .news-shell {
+    grid-template-columns: 1fr;
   }
 
   .news-content {

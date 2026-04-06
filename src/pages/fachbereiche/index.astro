@@ -61,14 +61,14 @@ const subjects = (await getCollection("subjects"))
   <section class="hero">
     <div class="hero-copy">
       <p class="eyebrow">Fachbereiche</p>
-      <h1>Die Plattform wird über klare Hauptfächer und Lernräume strukturiert.</h1>
+      <h1>Die Plattform wird über klare Hauptfächer und Fachbereiche strukturiert.</h1>
       <p class="lead">
         Schlaufuchs bündelt die Inhalte in fünf sauberen Fachbereichen. Jeder Bereich verbindet
         Fachidentität, Wissensseiten, Aufgaben und sinnvolle Einstiege.
       </p>
     </div>
 
-    <div class="hero-actions">
+    <div class="hero-actions" data-present="hide">
       <a class="hero-button primary" href={`${base}aufgaben`}>Zu Aufgaben und Übungen</a>
       <a class="hero-button secondary" href={`${base}suchen`}>Thema suchen</a>
     </div>
@@ -78,8 +78,8 @@ const subjects = (await getCollection("subjects"))
     {subjects.map((subject) => (
       <a class={`card ${subject.meta.tone}`} href={`${base}fachbereiche/${subject.data.slug}`}>
         <div class="card-top">
-          <span class="kicker">{subject.meta.kicker}</span>
-          <span class="entry">Start: {subject.meta.entry}</span>
+          <span class="kicker" data-present="hide">{subject.meta.kicker}</span>
+          <span class="entry" data-present="hide">Start: {subject.meta.entry}</span>
         </div>
 
         <div class="card-copy">
@@ -87,7 +87,7 @@ const subjects = (await getCollection("subjects"))
           <p>{subject.data.description}</p>
         </div>
 
-        <ul class="highlight-list" aria-label={`${subject.data.title} Schwerpunkte`}>
+        <ul class="highlight-list">
           {subject.meta.highlights.map((item) => <li>{item}</li>)}
         </ul>
 
@@ -169,6 +169,10 @@ const subjects = (await getCollection("subjects"))
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
     margin-top: 1.8rem;
+  }
+
+  :global(html[data-presentation-mode="on"]) .grid {
+    grid-template-columns: 1fr;
   }
 
   .card {
