@@ -86,7 +86,7 @@ const heroFox = `${base}assets/mascots/general.png`;
       </a>
     </div>
 
-    <div class="hero-mascot" aria-hidden="true">
+    <div class="hero-mascot" aria-hidden="true" data-present="hide">
       <img src={heroFox} alt="" loading="eager" />
     </div>
   </section>
@@ -126,7 +126,7 @@ const heroFox = `${base}assets/mascots/general.png`;
     <div class="topic-grid">
       {subjects.map((subject) => (
         <a class={`topic-card ${subject.tone}`} href={subject.href}>
-          <div class="topic-top">
+          <div class="topic-top" data-present="dim">
             <div class="topic-icon">
               <img src={subject.icon} alt="" loading="lazy" />
             </div>
@@ -138,7 +138,7 @@ const heroFox = `${base}assets/mascots/general.png`;
             <p>{subject.description}</p>
           </div>
 
-          <ul class="topic-highlights">
+          <ul class="topic-highlights" data-present="hide">
             {subject.highlights.map((item) => <li>{item}</li>)}
           </ul>
         </a>
@@ -235,6 +235,7 @@ const heroFox = `${base}assets/mascots/general.png`;
 
   :global(html[data-theme="light"]) .home-hero { background: var(--home-light-hero); }
   :global(html[data-theme="dark"]) .home-hero { background: var(--home-dark-hero); }
+  :global(html[data-presentation-mode="on"]) .home-hero { grid-template-columns: 1fr; }
 
   .home-hero::after {
     content: "";
@@ -247,6 +248,8 @@ const heroFox = `${base}assets/mascots/general.png`;
     background: linear-gradient(135deg, rgba(79,70,229,0.12), rgba(2,132,199,0.08));
     pointer-events: none;
   }
+
+  :global(html[data-presentation-mode="on"]) .home-hero::after { display: none; }
 
   .hero-copy { position: relative; z-index: 1; min-width: 0; }
   .hero-kicker, .section-kicker {
@@ -480,6 +483,10 @@ const heroFox = `${base}assets/mascots/general.png`;
     box-shadow: var(--shadow-soft);
   }
 
+  :global(html[data-presentation-mode="on"]) .topic-card {
+    min-height: auto;
+  }
+
   .topic-card::after {
     content: "";
     position: absolute;
@@ -491,6 +498,8 @@ const heroFox = `${base}assets/mascots/general.png`;
     background: rgba(255,255,255,0.08);
     pointer-events: none;
   }
+
+  :global(html[data-presentation-mode="on"]) .topic-card::after { display: none; }
 
   .topic-card.math { background: linear-gradient(135deg, rgba(93,113,175,0.26), rgba(232,237,248,0.82)); }
   .topic-card.web { background: linear-gradient(135deg, rgba(173,144,156,0.22), rgba(245,239,241,0.86)); }
