@@ -20,6 +20,7 @@ const { Content } = await render(entry);
 const subjectTitle = subjectTitleMap[entry.data.subject] ?? "Fachbereich";
 const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject) ?? "elektrotechnik";
 const section = entry.data.section ?? "";
+const printHref = `${base}druck/aufgaben/${entry.id}`;
 
 const [allArticles, allExercises] = await Promise.all([getVisibleArticles(), getVisibleExercises()]);
 
@@ -80,6 +81,12 @@ const relatedExercises = allExercises
     </article>
 
     <aside class="exercise-aside" data-present="hide">
+      <div class="aside-card print-card">
+        <h2>Druck und PDF</h2>
+        <p>Diese Aufgabe lässt sich über eine ruhige Druckansicht direkt als PDF sichern oder ausdrucken.</p>
+        <a href={printHref}>Zur Druckansicht / PDF →</a>
+      </div>
+
       <div class="aside-card">
         <h2>Im Fachkontext</h2>
         <p>Diese Aufgabe gehört zum Fachbereich {subjectTitle} und ergänzt die dort sichtbaren Wissensseiten und Themenbereiche.</p>
@@ -274,6 +281,14 @@ const relatedExercises = allExercises
   .aside-card {
     padding: 1.35rem;
     border-radius: 22px;
+  }
+
+  .print-card {
+    background: linear-gradient(135deg, rgba(79,70,229,0.10), rgba(240,244,255,0.88));
+  }
+
+  :global(html[data-theme="dark"]) .print-card {
+    background: linear-gradient(135deg, rgba(79,70,229,0.16), rgba(18,27,46,0.94));
   }
 
   .learn-mode-only {
