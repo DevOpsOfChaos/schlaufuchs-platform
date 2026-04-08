@@ -1,18 +1,39 @@
 # Prompt für den nächsten Chat
 
-Du setzt die Arbeit an einer bereits deutlich fortgeschrittenen Lernplattform fort.
+Du setzt die Arbeit an einer bereits fortgeschrittenen Plattform fort.
 
-## Wichtigste Grundregeln
+## Dein erster Schritt
+1. Öffne und lies vollständig:
+   - `docs/Uebergabe_Naechster_Chat.md`
+   - `docs/Prompt_Naechster_Chat.md`
+2. Arbeite danach **ohne Reset** direkt weiter.
+3. Fokussiere dich zuerst auf **echte Inhalte** und nicht auf endlose Oberflächenpolitur.
 
-- Arbeite **nicht** so, als müsstest du das Projekt neu erfinden.
-- Es gibt bereits eine moderne Plattformhülle, Fachlogik und mehrere live eingezogene Content-Wellen.
-- Arbeite **repo-nah**, **selbstständig** und in **sinnvollen Blöcken** weiter.
-- Frage nicht nach jedem Kleinschritt nach, wenn der nächste logische Schritt klar ist.
-- Halte die Plattform optisch und strukturell **modern, ruhig, professionell und klar**.
+---
 
-## Produktlogik
+## Was du verstehen musst
+Die Plattform ist bereits deutlich über den Rohbau hinaus.
 
-Die Plattform basiert auf genau diesen fünf Hauptfächern:
+Es gibt schon:
+- moderne Startseite,
+- Fachübersicht,
+- Fachdetailseiten,
+- Wissensseiten,
+- Aufgabenseiten,
+- globalen Aufgaben-Hub,
+- Suche,
+- News,
+- Inhaltsstand,
+- PDF-/Druckansichten für Aufgaben,
+- Build-/Deploy-Workflow,
+- SEO-/Crawler-Basis.
+
+Du startest also **nicht** neu, sondern setzt eine laufende Arbeit fort.
+
+---
+
+## Feste Produktregeln
+Arbeite überall konsistent nur mit diesen fünf Hauptfächern:
 - Mathematik
 - Informatik
 - Elektrotechnik
@@ -20,74 +41,66 @@ Die Plattform basiert auf genau diesen fünf Hauptfächern:
 - Web Development
 
 Wichtig:
-- `Daten & Signale` ist **kein** eigener globaler Hauptfachbereich, sondern Themenblock in Elektrotechnik.
-- `HTML/CSS` ist **kein** eigener globaler Hauptfachbereich, sondern Themenblock in Web Development.
+- `Daten & Signale` ist kein eigener Hauptfachbereich.
+- `HTML/CSS` ist kein eigener Hauptfachbereich.
+- Aufgaben sind zentral.
+- Alte HTML-Seiten nicht direkt übernehmen.
+- Alte Aufgaben sollen erhalten bleiben, aber modernisiert werden.
+- Bilder stark reduzieren.
+- Keine doppelte Fachlogik aufbauen.
 
-## Zentrale inhaltliche Logik
+---
 
-Die Plattform ist nicht nur artikelzentriert, sondern organisiert sich parallel über:
-- Fachbereiche
-- Wissensseiten
-- Aufgaben
-
-Aufgaben sind **zentral** und dürfen nicht wie ein Add-on behandelt werden.
-
-## Migrationslogik
-
-- Alte HTML-Seiten **nicht direkt übernehmen**.
-- Inhalte, Themen, Beispiele und sinnvolle Ideen aus Altmaterial herausziehen.
-- Alles **komplett neu** und in neuer Struktur / neuer Optik / neuer Produktlogik einbauen.
-- Alte Bilder nur sehr selektiv übernehmen.
-- Bildlastigkeit deutlich reduzieren.
-- Kleinen Code oder einfache Inhalte **nicht** als Bilder lösen.
-
-## Technische Grundlogik
-
-Arbeite auf Basis der bestehenden Plattformstruktur mit:
-- Subjects / Fachbereichen
-- Wissensseiten
-- Übungen / Aufgaben
-- moderner Startseite
-- Fachübersicht
-- Fachseiten
-- globalem Aufgabenbereich
-
-## Arbeitsstil
-
-- Arbeite möglichst in **paketartigen Wellen** weiter.
-- Ein guter Standard ist: pro Hauptfach mindestens ein zusätzlicher Artikel und eine zusätzliche Übung, wenn es sinnvoll ist.
-- Denke immer zugleich an:
-  - Fachstruktur
-  - Sichtbarkeit auf Fachseiten
-  - Aufgabenlogik
-  - Such- und Plattformwirkung
-
-## Wichtige Vorsichtspunkte
-
-- Keine unnötigen direkten oder indirekten Verweise auf ein privates Repository in Texten oder Übergaben.
-- Keine Rückkehr zu alter Fachlogik mit konkurrierenden Unter-Hauptfächern.
-- Bei Build-Problemen zuerst auf:
-  - alte Routen,
-  - tiefe Importpfade,
-  - Altseiten aus früheren Strukturen
-  achten.
-
-## Was bereits fortgeschritten ist
-
-- Die öffentliche Plattformhülle wurde modernisiert.
-- Startseite, Navigation, Footer, Aufgabenbereich, Fachübersicht und Fachseiten wurden bereits deutlich verbessert.
-- Mehrere Content-Wellen mit echten Artikeln und Übungen sind bereits live.
-- Die Plattform hat bereits einen spürbaren inhaltlichen Kern in allen Hauptfächern.
-
-## Deine Aufgabe im nächsten Chat
-
-Setze die Arbeit **ohne Reset** fort.
-
-Arbeite so, als würdest du eine bereits gut gestartete Plattform weiter verdichten.
+## Aktueller Schwerpunkt
+Der Schwerpunkt soll jetzt klar auf **Inhalt** liegen.
 
 Prioritäten:
-1. Inhalte weiter systematisch ausbauen.
-2. Fachseiten mit echten Inhalten weiter verdichten.
-3. Aufgaben und Wissensseiten parallel weiterentwickeln.
-4. Altlasten nur dann anfassen, wenn sie Build, Struktur oder Produktlogik stören.
-5. Immer in Richtung einer ruhigen, professionellen, modernen Lernplattform weiterarbeiten.
+1. Weitere Wissensseiten ergänzen.
+2. Weitere Aufgaben ergänzen.
+3. Vor allem alte Bestandsaufgaben in neuer Form auffrischen.
+4. Wissen und Aufgaben parallel weiterentwickeln.
+5. PDF-/Drucklinie für Aufgaben im Hinterkopf behalten, aber nicht auf Kosten des Inhaltsausbaus.
+
+Wenn du wählen musst, ist aktuell oft besonders sinnvoll:
+- **alte Aufgaben modernisieren**, statt sie nur zu archivieren,
+- und diese mit passenden Wissensseiten zu flankieren.
+
+---
+
+## Arbeitsstil
+- Arbeite repo-nah.
+- Arbeite selbstständig.
+- Arbeite in sinnvollen größeren Blöcken.
+- Frage nicht nach jedem Kleinschritt nach.
+- Halte den Chat extrem kompakt.
+- Normalerweise reicht **ein Satz** als Statusupdate.
+- Nur bei echten Problemen ausführlicher werden.
+
+Der Nutzer möchte ausdrücklich keinen überfüllten Chat.
+
+---
+
+## Worauf du technisch achten musst
+- Bei Content-Problemen auch an Schema-/Frontmatter-Konsistenz denken.
+- Bei Build-/CI-Problemen zuerst alte Routen und Importpfade prüfen.
+- Die PDF-/Druckroute für Aufgaben existiert bereits und soll später weiter tragfähig gemacht werden.
+- Änderungen möglichst sauber direkt auf `main` weiterführen, wenn nichts anderes nötig ist.
+
+---
+
+## Konkreter Arbeitsauftrag für den nächsten Chat
+Starte direkt mit einer neuen sinnvollen Inhaltswelle.
+
+Gute Standards dafür:
+- pro Block mehrere Fächer bedienen **oder**
+- gezielt ein Fach dichter machen,
+- dabei möglichst immer beides liefern:
+  - Wissensseite
+  - passende Aufgabe
+
+Noch besser, wenn sinnvoll:
+- vorhandene ältere Aufgabe fachlich neu schreiben,
+- statt sie nur unverändert stehen zu lassen.
+
+Wichtig:
+Arbeite so weiter, als würdest du einen bereits gut laufenden Plattformumbau verdichten — nicht so, als würdest du erst eine Idee skizzieren.
