@@ -1,54 +1,50 @@
 ---
 title: Kontrollstrukturen – Grundlagen
-description: Verstehe, wie Bedingungen und Wiederholungen Programme steuern.
+description: Verstehe, wie Bedingungen und Wiederholungen den Ablauf eines Programms steuern.
 subject: informatik
-section: programmierung
+section: kontrollstrukturen
 level: einfach
-tags: [kontrollstrukturen, programmierung, if, schleifen]
+tags: [kontrollstrukturen, programmablauf, informatik]
 draft: false
 ---
 
-Kontrollstrukturen bestimmen, in welcher Reihenfolge ein Programm arbeitet. Sie gehören zu den wichtigsten Grundideen des Programmierens, weil sie aus einer linearen Befehlsfolge einen steuerbaren Ablauf machen.
+Programme bestehen nicht nur aus einzelnen Befehlen, die streng nacheinander ablaufen. Oft muss ein Programm entscheiden oder etwas wiederholen. Genau dafür braucht man **Kontrollstrukturen**.
 
 ## Was sind Kontrollstrukturen?
 
-Kontrollstrukturen regeln, **wann** bestimmte Anweisungen ausgeführt werden und **wie oft** etwas passiert.
+Kontrollstrukturen steuern den Ablauf eines Programms. Sie legen fest,
 
-## Zwei zentrale Gruppen
+- ob ein Teil ausgeführt wird
+- wann eine Entscheidung getroffen wird
+- ob ein Ablauf wiederholt werden soll
 
-Im Einstieg begegnen dir besonders oft:
+Damit machen sie aus einer einfachen Befehlsfolge einen gesteuerten Programmablauf.
 
-- Bedingungen, zum Beispiel mit `if`
-- Wiederholungen, zum Beispiel mit Schleifen
+## Zwei Grundideen
 
-## Warum das wichtig ist
+Im Einstieg sind vor allem zwei Arten wichtig:
 
-Ohne Kontrollstrukturen wären Programme sehr starr. Erst durch Entscheidungen und Wiederholungen können sie flexibel auf Daten, Eingaben und Situationen reagieren.
+- **Bedingungen**: Ein Programm prüft etwas und entscheidet dann, wie es weitergeht.
+- **Schleifen**: Ein Programm wiederholt einen Ablauf, solange eine Bedingung passt oder eine feste Anzahl erreicht ist.
 
-## Typische Denkidee
+Diese beiden Ideen tauchen in fast jeder Programmiersprache auf.
 
-Am Anfang hilft diese Sicht:
+## Warum das Thema zentral ist
 
-- ein Programm besteht nicht nur aus einzelnen Befehlen
-- es braucht auch Regeln für Reihenfolge und Auswahl
-- Kontrollstrukturen geben dem Ablauf Form
+Ohne Kontrollstrukturen wären Programme sehr starr. Erst durch Bedingungen und Wiederholungen kann Software auf Eingaben reagieren und Abläufe sinnvoll steuern.
 
-## Verbindung zur Praxis
-
-Schon sehr kleine Programme brauchen diese Logik, etwa wenn:
-
-- eine Eingabe geprüft wird
-- ein Text mehrmals ausgegeben werden soll
-- verschiedene Fälle unterschieden werden müssen
+Darum gehören Kontrollstrukturen zu den Kernideen der Informatik und nicht nur zu einem einzelnen Syntax-Thema.
 
 ## Was du zuerst verstehen solltest
 
-Wichtig ist vor allem:
+Am Anfang ist besonders wichtig:
 
-- Bedingungen entscheiden zwischen Alternativen
-- Schleifen wiederholen Abläufe
-- Kontrollstrukturen machen Programme planbar und verständlich
+- Bedingungen steuern Entscheidungen.
+- Schleifen steuern Wiederholungen.
+- Kontrollstrukturen verändern den Ablauf eines Programms.
+
+Wenn diese Grundidee sitzt, wird auch konkreter Code deutlich leichter lesbar.
 
 ## Merksatz
 
-Kontrollstrukturen steuern, wann und wie oft Programmteile ausgeführt werden, und geben damit dem Ablauf eine klare Form.
+Kontrollstrukturen bestimmen, wie ein Programm abläuft – durch Entscheidungen, Wiederholungen und klare Ablaufsteuerung.

@@ -19,17 +19,18 @@ const { entry } = Astro.props as { entry: CollectionEntry<"exercises"> };
 const { Content } = await render(entry);
 const subjectTitle = subjectTitleMap[entry.data.subject] ?? "Fachbereich";
 const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject) ?? "elektrotechnik";
+const section = entry.data.section ?? "";
 
 const [allArticles, allExercises] = await Promise.all([getVisibleArticles(), getVisibleExercises()]);
 
 const relatedArticles = allArticles
   .filter((item) => resolvePrimarySubjectSlug(item.data.subject) === subjectSlug)
-  .sort((a, b) => Number(b.data.section === entry.data.section) - Number(a.data.section === entry.data.section))
+  .sort((a, b) => Number((b.data.section ?? "") === section) - Number((a.data.section ?? "") === section))
   .slice(0, 3);
 
 const relatedExercises = allExercises
   .filter((item) => item.id !== entry.id && resolvePrimarySubjectSlug(item.data.subject) === subjectSlug)
-  .sort((a, b) => Number(b.data.section === entry.data.section) - Number(a.data.section === entry.data.section))
+  .sort((a, b) => Number((b.data.section ?? "") === section) - Number((a.data.section ?? "") === section))
   .slice(0, 3);
 ---
 
@@ -49,6 +50,7 @@ const relatedExercises = allExercises
       <p class="eyebrow">Aufgabe · {subjectTitle}</p>
       <div class="hero-meta-row" data-present="hide">
         <span class="meta-chip">{levelLabels[entry.data.level]}</span>
+        {section && <span class="meta-chip">{section}</span>}
       </div>
       <h1>{entry.data.title}</h1>
       <p class="lead">{entry.data.description}</p>
@@ -63,6 +65,12 @@ const relatedExercises = allExercises
         <span>Niveau</span>
         <strong>{levelLabels[entry.data.level]}</strong>
       </article>
+      {section && (
+        <article class="meta-card">
+          <span>Themenblock</span>
+          <strong>{section}</strong>
+        </article>
+      )}
     </div>
   </section>
 

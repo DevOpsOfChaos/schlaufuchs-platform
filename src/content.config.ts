@@ -46,6 +46,7 @@ const exercises = defineCollection({
       'elektrotechnik',
       'daten-und-signale',
     ]),
+    section: z.string().optional(),
     level: z.enum(['einfach', 'mittel', 'fortgeschritten']),
     draft: z.boolean().default(false),
   }),
