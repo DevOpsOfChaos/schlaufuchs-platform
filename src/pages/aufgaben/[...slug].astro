@@ -1,12 +1,13 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { getCollection, render, type CollectionEntry } from "astro:content";
+import { render, type CollectionEntry } from "astro:content";
+import { getVisibleArticles, getVisibleExercises, levelLabels } from "../../data/content";
 import { resolvePrimarySubjectSlug, subjectTitleMap } from "../../data/subjects";
 
 const base = import.meta.env.BASE_URL;
 
 export async function getStaticPaths() {
-  const exercises = await getCollection("exercises", ({ data }) => !data.draft);
+  const exercises = await getVisibleExercises();
 
   return exercises.map((entry) => ({
     params: { slug: entry.id },
@@ -18,12 +19,37 @@ const { entry } = Astro.props as { entry: CollectionEntry<"exercises"> };
 const { Content } = await render(entry);
 const subjectTitle = subjectTitleMap[entry.data.subject] ?? "Fachbereich";
 const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject) ?? "elektrotechnik";
+
+const [allArticles, allExercises] = await Promise.all([getVisibleArticles(), getVisibleExercises()]);
+
+const relatedArticles = allArticles
+  .filter((item) => resolvePrimarySubjectSlug(item.data.subject) === subjectSlug)
+  .sort((a, b) => Number(b.data.section === entry.data.section) - Number(a.data.section === entry.data.section))
+  .slice(0, 3);
+
+const relatedExercises = allExercises
+  .filter((item) => item.id !== entry.id && resolvePrimarySubjectSlug(item.data.subject) === subjectSlug)
+  .sort((a, b) => Number(b.data.section === entry.data.section) - Number(a.data.section === entry.data.section))
+  .slice(0, 3);
 ---
 
 <BaseLayout title={`${entry.data.title} – Schlaufuchs`} description={entry.data.description}>
+  <nav class="breadcrumb" aria-label="Brotkrumen">
+    <a href={`${base}`}>Start</a>
+    <span>›</span>
+    <a href={`${base}aufgaben`}>Aufgaben</a>
+    <span>›</span>
+    <a href={`${base}fachbereiche/${subjectSlug}`}>{subjectTitle}</a>
+    <span>›</span>
+    <span aria-current="page">Aufgabe</span>
+  </nav>
+
   <section class="exercise-hero">
     <div class="hero-copy">
       <p class="eyebrow">Aufgabe · {subjectTitle}</p>
+      <div class="hero-meta-row" data-present="hide">
+        <span class="meta-chip">{levelLabels[entry.data.level]}</span>
+      </div>
       <h1>{entry.data.title}</h1>
       <p class="lead">{entry.data.description}</p>
     </div>
@@ -35,7 +61,7 @@ const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject) ?? "elektrotec
       </article>
       <article class="meta-card">
         <span>Niveau</span>
-        <strong>{entry.data.level}</strong>
+        <strong>{levelLabels[entry.data.level]}</strong>
       </article>
     </div>
   </section>
@@ -58,6 +84,34 @@ const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject) ?? "elektrotec
         <a href={`${base}suchen`}>Zu Wissensseiten und Themen suchen →</a>
       </div>
 
+      {relatedArticles.length > 0 && (
+        <div class="aside-card">
+          <h2>Passende Wissensseiten</h2>
+          <ul class="related-list">
+            {relatedArticles.map((item) => (
+              <li>
+                <a href={`${base}wissen/${item.id}`}>{item.data.title}</a>
+                <small>{item.data.section}</small>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {relatedExercises.length > 0 && (
+        <div class="aside-card">
+          <h2>Weitere Aufgaben</h2>
+          <ul class="related-list">
+            {relatedExercises.map((item) => (
+              <li>
+                <a href={`${base}aufgaben/${item.id}`}>{item.data.title}</a>
+                <small>{levelLabels[item.data.level]}</small>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
       <div class="aside-card">
         <h2>Weitere Wege</h2>
         <ul class="link-list">
@@ -70,6 +124,23 @@ const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject) ?? "elektrotec
 </BaseLayout>
 
 <style>
+  .breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-soft);
+    font-size: 0.94rem;
+  }
+
+  .breadcrumb a {
+    color: var(--text-soft);
+  }
+
+  .breadcrumb a:hover {
+    color: var(--text-strong);
+  }
+
   .exercise-hero {
     display: grid;
     grid-template-columns: minmax(0, 1.4fr) minmax(15rem, 20rem);
@@ -84,6 +155,26 @@ const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject) ?? "elektrotec
     font-weight: 700;
     letter-spacing: 0.04em;
     text-transform: uppercase;
+  }
+
+  .hero-meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .meta-chip {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2rem;
+    padding: 0.12rem 0.72rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text-strong);
+    font-size: 0.84rem;
+    font-weight: 700;
   }
 
   h1 {
@@ -207,12 +298,29 @@ const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject) ?? "elektrotec
     font-weight: 700;
   }
 
-  .link-list {
+  .link-list,
+  .related-list {
     list-style: none;
     margin: 0.9rem 0 0;
     padding: 0;
     display: grid;
     gap: 0.7rem;
+  }
+
+  .related-list li {
+    display: grid;
+    gap: 0.25rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .related-list li:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .related-list small {
+    color: var(--text-soft);
   }
 
   .exercise-content :global(h2) {
