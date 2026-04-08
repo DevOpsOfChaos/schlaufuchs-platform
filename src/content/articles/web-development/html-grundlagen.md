@@ -1,73 +1,49 @@
 ---
-title: HTML – Grundlagen
-description: Verstehe die Struktur einer Webseite mit HTML.
+title: HTML-Grundlagen
+description: Verstehe, warum HTML die Struktur einer Webseite beschreibt und nicht ihre Gestaltung.
 subject: web-development
-section: html
+section: html-grundlagen
 level: einfach
-tags: [html, grundlagen, struktur]
+tags: [html, struktur, web-development]
 draft: false
 ---
 
-HTML ist die Sprache, mit der die Struktur einer Webseite beschrieben wird. Sie legt fest, welche Inhalte es gibt, in welcher Reihenfolge sie erscheinen und welche Bedeutung einzelne Bereiche haben.
+HTML gehört zu den Grundlagen des Web Development. Es beschreibt die **Struktur** einer Webseite und legt fest, welche Inhalte auf einer Seite vorkommen.
 
 ## Was macht HTML?
 
-HTML gestaltet eine Seite nicht direkt schön. Dafür ist später vor allem CSS zuständig. HTML sorgt zuerst dafür, dass Inhalte sinnvoll aufgebaut sind.
+HTML ordnet Inhalte in eine erkennbare Seitenstruktur ein.
 
-Zum Beispiel kann HTML beschreiben:
+Damit lassen sich zum Beispiel
 
-- eine Überschrift
-- einen Absatz
-- eine Liste
-- einen Link
-- ein Bild
+- Überschriften,
+- Absätze,
+- Listen,
+- Verweise,
+- und weitere Inhaltsbereiche
 
-Das ist die Grundlage jeder Webseite.
+sauber beschreiben.
 
-## Ein HTML-Dokument hat Struktur
+## Warum ist HTML nicht einfach „Design“?
 
-Ein einfaches HTML-Dokument besteht aus mehreren Teilen. Dazu gehören typischerweise:
+Ein häufiger Fehler ist, HTML mit Aussehen oder Gestaltung gleichzusetzen. HTML ist aber zuerst für die **Bedeutung und Struktur** einer Seite zuständig.
 
-- die Dokumentdefinition
-- das Wurzelelement `html`
-- der Bereich `head`
-- der sichtbare Bereich `body`
+Die optische Gestaltung kommt erst später mit CSS dazu.
 
-Im `head` stehen Informationen über die Seite. Im `body` steht das, was Nutzer später im Browser sehen.
+## Warum ist HTML so wichtig?
 
-## Elemente und Tags
+Ohne HTML gäbe es keine saubere inhaltliche Gliederung einer Webseite. Es bildet die Grundlage dafür, dass Inhalte überhaupt sinnvoll dargestellt, gelesen und weitergestaltet werden können.
 
-HTML arbeitet mit **Elementen**. Diese werden meist durch öffnende und schließende Tags beschrieben.
+Darum ist HTML kein Nebenthema, sondern der strukturelle Kern jeder Webseite.
 
-Ein typisches Beispiel ist ein Absatz:
+## Was du zuerst verstehen solltest
 
-`<p>Das ist ein Absatz.</p>`
+Am Anfang ist besonders wichtig:
 
-Hier ist `p` das Element für einen Absatz. Viele HTML-Elemente folgen genau diesem Muster.
-
-## Warum HTML so wichtig ist
-
-Wer Webseiten bauen will, braucht zuerst eine saubere Struktur. Wenn HTML unklar oder chaotisch ist, wird später auch CSS schwerer und die Seite bleibt technisch schwächer.
-
-Gutes HTML hilft bei:
-
-- Übersichtlichkeit
-- Wartbarkeit
-- Barrierefreiheit
-- sauberer Zusammenarbeit mit CSS und JavaScript
-
-## Typische erste HTML-Elemente
-
-Zu den wichtigsten Grundlagen gehören:
-
-- Überschriften wie `h1` oder `h2`
-- Absätze mit `p`
-- Listen mit `ul`, `ol` und `li`
-- Links mit `a`
-- Bilder mit `img`
-
-Diese Elemente reichen schon aus, um erste kleine Webseiten sinnvoll zu strukturieren.
+- HTML als Struktur- und Inhaltsbeschreibung zu sehen,
+- Gestaltung davon zu trennen,
+- die Rolle von Überschriften, Absätzen und Bereichen bewusst zu lesen.
 
 ## Merksatz
 
-HTML beschreibt die Struktur einer Webseite und ist damit die Grundlage für alles, was später im Browser sichtbar aufgebaut wird.
+HTML beschreibt die Struktur und Bedeutung von Webinhalten und bildet damit die Grundlage jeder Webseite.

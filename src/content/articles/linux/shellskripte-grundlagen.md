@@ -1,48 +1,39 @@
 ---
 title: Shellskripte – Grundlagen
-description: Verstehe, wie kleine Linux-Skripte aufgebaut sind und was sie leisten können.
+description: Verstehe, warum wiederkehrende Terminalabläufe in Shellskripten gebündelt werden.
 subject: linux
 section: shellskripte
-level: einfach
-tags: [shellskripte, bash, linux, automation]
+level: mittel
+tags: [shellskripte, linux, automatisierung]
 draft: false
 ---
 
-Shellskripte helfen dir, wiederkehrende Aufgaben zu automatisieren. Statt einzelne Befehle immer wieder von Hand einzugeben, können mehrere Schritte in einer Datei zusammengefasst werden.
+Shellskripte gehören zu den wichtigsten Praxiswerkzeugen im Linux-Umfeld. Sie helfen dabei, **wiederkehrende Abläufe zu bündeln und zu automatisieren**.
 
 ## Was ist ein Shellskript?
 
-Ein Shellskript ist eine Textdatei mit Befehlen, die nacheinander ausgeführt werden können. Damit wird aus einzelnen Terminalschritten ein wiederholbarer Ablauf.
+Ein Shellskript ist eine Datei, in der mehrere Shell-Befehle geordnet zusammengefasst werden.
 
-## Warum Shellskripte nützlich sind
+Damit können Abläufe festgehalten werden, die sonst immer wieder manuell eingegeben werden müssten.
 
-Shellskripte helfen besonders dann, wenn:
+## Warum sind Shellskripte so nützlich?
 
-- mehrere Befehle oft zusammen ausgeführt werden
-- Abläufe wiederholt werden müssen
-- kleine Automatisierungen sinnvoll sind
+Gerade in Linux geht es oft um wiederholbare Systemarbeit. Shellskripte helfen dabei,
 
-## Typische Bestandteile
+- Abläufe zu vereinheitlichen,
+- Zeit zu sparen,
+- Fehler durch wiederholte Handarbeit zu verringern.
 
-Ein einfaches Shellskript enthält oft:
-
-- Befehle in fester Reihenfolge
-- Kommentare zur Erklärung
-- einfache Variablen oder Eingaben
-- kleine Bedingungen oder Schleifen als nächster Schritt
-
-## Verbindung zur Praxis
-
-Shellskripte sind ein wichtiger Übergang von reinem Terminalwissen zur echten Automatisierung. Gerade deshalb gehören sie zu den stärksten Praxisthemen im Linux-Bereich.
+Darum sind sie nicht nur ein Spezialthema, sondern ein zentraler Schritt von einfacher Kommandozeilennutzung zu praktischer Automatisierung.
 
 ## Was du zuerst verstehen solltest
 
 Am Anfang ist besonders wichtig:
 
-- ein Skript ist zuerst eine Datei mit Befehlen
-- Reihenfolge spielt eine Rolle
-- schon kleine Skripte sparen Arbeit und machen Abläufe reproduzierbar
+- Shellskripte als Sammlung geordneter Befehle zu sehen,
+- ihren Nutzen für wiederkehrende Aufgaben zu verstehen,
+- sie nicht nur als Datei, sondern als Werkzeug für strukturierte Abläufe zu lesen.
 
 ## Merksatz
 
-Shellskripte machen aus einzelnen Linux-Befehlen wiederholbare Abläufe und sind damit ein zentraler Einstieg in Automatisierung.
+Shellskripte bündeln wiederkehrende Terminalabläufe und machen Linux-Arbeit dadurch geordneter und effizienter.
