@@ -53,7 +53,6 @@ const subjects = (await getVisibleSubjects())
         <p class="section-kicker">Hauptfächer</p>
         <h2>Direkt in die Fachbereiche</h2>
       </div>
-      <a class="section-link" href={`${base}fachbereiche`}>Alle Fachbereiche ansehen</a>
     </div>
 
     <div class="topic-grid">
@@ -195,11 +194,6 @@ const subjects = (await getVisibleSubjects())
     font-size: clamp(1.8rem, 2.8vw, 2.35rem);
     line-height: 1.05;
     letter-spacing: -0.035em;
-  }
-
-  .section-link {
-    color: var(--text-strong);
-    font-weight: 700;
   }
 
   .topic-grid {
