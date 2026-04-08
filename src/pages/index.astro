@@ -1,20 +1,9 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { getContentInventory, getVisibleSubjects } from "../data/content";
+import { getVisibleSubjects } from "../data/content";
 import { getSubjectMeta } from "../data/subjects";
 
 const base = import.meta.env.BASE_URL;
-const inventory = await getContentInventory();
-const inventoryMap = new Map(inventory.bySubject.map((entry) => [entry.slug, entry]));
-const prioritySubjects = inventory.prioritySubjects.slice(0, 3);
-
-const publicStatusLabels: Record<string, string> = {
-  empty: "Im Aufbau",
-  missing_articles: "Im Ausbau",
-  missing_exercises: "Im Ausbau",
-  imbalanced: "Im Ausbau",
-  balanced: "Grundbestand",
-};
 
 const subjects = (await getVisibleSubjects())
   .map((subject) => ({
@@ -22,103 +11,64 @@ const subjects = (await getVisibleSubjects())
     description: subject.data.description,
     href: `${base}fachbereiche/${subject.data.slug}`,
     meta: getSubjectMeta(subject.data.slug),
-    inventory: inventoryMap.get(subject.data.slug),
   }))
-  .filter((subject) => subject.meta !== null && subject.inventory)
+  .filter((subject) => subject.meta !== null)
   .map((subject) => ({
     ...subject,
-    icon: `${base}assets/icons/${subject.meta!.icon}`,
     tone: subject.meta!.tone,
-    highlights: subject.meta!.highlights.slice(0, 3),
-    publicStatus: publicStatusLabels[subject.inventory!.status.key] ?? "Im Ausbau",
   }));
 
-const quickPaths = [
+const directLinks = [
   {
-    title: "Fachbereiche entdecken",
-    description: "Steige über klar gegliederte Fächer und Themenblöcke in die Plattform ein.",
+    title: "Fachbereiche",
+    description: "Direkt in die fünf Hauptfächer gehen.",
     href: `${base}fachbereiche`,
-    icon: "▣",
   },
   {
-    title: "Aufgaben und Übungen",
-    description: "Finde passende Aufgaben, Rechenwege, Code- und Praxisformate zu den Themen.",
+    title: "Aufgaben",
+    description: "Aufgaben und Übungen direkt öffnen.",
     href: `${base}aufgaben`,
-    icon: "◎",
   },
   {
-    title: "Gezielt suchen",
-    description: "Finde Seiten, Aufgaben und Themen schnell über die Suche.",
+    title: "Suche",
+    description: "Themen, Aufgaben und Seiten schnell finden.",
     href: `${base}suchen`,
-    icon: "⌕",
   },
 ];
-
-const focusAreas = [
-  {
-    title: "Informationen mit Struktur",
-    description: "Fachbereiche, Wissensseiten und Themenblöcke bleiben klar gegliedert und direkt nutzbar.",
-  },
-  {
-    title: "Aufgaben direkt dabei",
-    description: "Aufgaben ergänzen die Themen sinnvoll, ohne die Grundseite zu überladen oder vom Stoff abzulenken.",
-  },
-  {
-    title: "Lernmodus bei Bedarf",
-    description: "Wer stärker lernorientiert arbeiten will, kann die zusätzliche Lernsicht gezielt einschalten.",
-  },
-];
-
-const heroFox = `${base}assets/mascots/general.png`;
 ---
 
 <BaseLayout
   title="Schlaufuchs – Freie Plattform für Technik, Mathematik und Praxis"
-  description="Freie Plattform für Mathematik, Informatik, Elektrotechnik, Linux und Web Development – mit klaren Fachbereichen, Wissensseiten und Aufgaben."
+  description="Freie Plattform für Mathematik, Informatik, Elektrotechnik, Linux und Web Development."
 >
-  <section class="home-hero">
+  <section class="hero">
     <div class="hero-copy">
       <p class="hero-kicker">Freie Wissens- und Aufgabenplattform</p>
-      <h1>Fachinformationen finden. Aufgaben nutzen. Inhalte klar ordnen.</h1>
+      <h1>Fachbereiche, Wissen und Aufgaben an einem Ort.</h1>
       <p class="hero-lead">
-        Schlaufuchs bündelt Mathematik, Informatik, Elektrotechnik, Linux und Web Development
-        in klaren Fachbereichen – mit verständlichen Wissensseiten, passenden Aufgaben und einer
-        ruhigen, modernen Oberfläche.
+        Schlaufuchs bündelt Mathematik, Informatik, Elektrotechnik, Linux und Web Development in klaren Fachbereichen.
       </p>
 
       <div class="hero-actions">
-        <a class="hero-button primary" href={`${base}fachbereiche`}>Fachbereiche entdecken</a>
-        <a class="hero-button secondary" href={`${base}aufgaben`} data-present="hide">Zu Aufgaben und Übungen</a>
+        <a class="hero-button primary" href={`${base}fachbereiche`}>Fachbereiche öffnen</a>
+        <a class="hero-button secondary" href={`${base}aufgaben`}>Aufgaben öffnen</a>
       </div>
-
-      <a class="hero-search" href={`${base}suchen`} aria-label="Suche öffnen" data-present="hide">
-        <span class="hero-search-icon">⌕</span>
-        <span>Themen, Aufgaben und Wissensseiten durchsuchen ...</span>
-      </a>
-    </div>
-
-    <div class="hero-mascot" aria-hidden="true" data-present="hide">
-      <img src={heroFox} alt="" loading="eager" />
     </div>
   </section>
 
   <section class="home-section" data-present="hide">
     <div class="section-head">
       <div>
-        <p class="section-kicker">Schnell starten</p>
-        <h2>Drei gute Wege in die Plattform</h2>
-        <p>Ob du ein Fach entdecken, direkt Aufgaben aufrufen oder gezielt suchen willst: der Einstieg soll sofort funktionieren.</p>
+        <p class="section-kicker">Direkt weiter</p>
+        <h2>Schnelle Wege</h2>
       </div>
     </div>
 
-    <div class="path-grid">
-      {quickPaths.map((path) => (
-        <a class="path-card" href={path.href}>
-          <div class="path-icon" aria-hidden="true">{path.icon}</div>
-          <div class="path-copy">
-            <h3>{path.title}</h3>
-            <p>{path.description}</p>
-          </div>
+    <div class="link-grid">
+      {directLinks.map((item) => (
+        <a class="link-card" href={item.href}>
+          <h3>{item.title}</h3>
+          <p>{item.description}</p>
         </a>
       ))}
     </div>
@@ -128,168 +78,38 @@ const heroFox = `${base}assets/mascots/general.png`;
     <div class="section-head">
       <div>
         <p class="section-kicker">Hauptfächer</p>
-        <h2>Fachbereiche mit klarer Struktur</h2>
-        <p>Jeder Fachbereich führt über Grundlagen, zentrale Themenblöcke und passende Aufgaben in die Tiefe.</p>
+        <h2>Direkt in die Fachbereiche</h2>
       </div>
       <a class="section-link" href={`${base}fachbereiche`}>Alle Fachbereiche ansehen</a>
     </div>
 
     <div class="topic-grid">
       {subjects.map((subject) => (
-        <a class={`topic-card ${subject.tone} status-${subject.inventory!.status.key}`} href={subject.href}>
-          <div class="topic-top" data-present="dim">
-            <div class="topic-icon">
-              <img src={subject.icon} alt="" loading="lazy" />
-            </div>
-            <div class="topic-arrow" aria-hidden="true">→</div>
-          </div>
-
-          <div class="topic-copy">
-            <div class="topic-meta" data-present="hide">
-              <span class="status-badge">{subject.publicStatus}</span>
-              <span class="count-badge">{subject.inventory!.articleCount} Wissen · {subject.inventory!.exerciseCount} Aufgaben</span>
-            </div>
+        <a class={`topic-card ${subject.tone}`} href={subject.href}>
+          <div class="topic-top">
             <h3>{subject.title}</h3>
-            <p>{subject.description}</p>
+            <span class="topic-arrow" aria-hidden="true">→</span>
           </div>
-
-          <ul class="topic-highlights" data-present="hide">
-            {subject.highlights.map((item) => <li>{item}</li>)}
-          </ul>
+          <p>{subject.description}</p>
         </a>
       ))}
     </div>
   </section>
-
-  <section class="home-section" data-present="hide">
-    <div class="section-head">
-      <div>
-        <p class="section-kicker">Nächste Inhaltswellen</p>
-        <h2>Diese Fachbereiche brauchen als Nächstes Ausbau</h2>
-        <p>Der Inhaltsstand wird jetzt gezielt pro Fachbereich geschlossen statt unsortiert erweitert.</p>
-      </div>
-      <a class="section-link" href={`${base}inhaltsstand`}>Zum vollständigen Inhaltsstand</a>
-    </div>
-
-    <div class="priority-grid">
-      {prioritySubjects.map((subject, index) => (
-        <article class="priority-card">
-          <span class="priority-rank">0{index + 1}</span>
-          <h3>{subject.title}</h3>
-          <p class="priority-state">{publicStatusLabels[subject.status.key] ?? "Im Ausbau"}</p>
-          <p>{subject.status.detail}</p>
-        </article>
-      ))}
-    </div>
-  </section>
-
-  <section class="home-section" data-present="hide">
-    <article class="learn-mode-panel">
-      <div class="learn-mode-copy">
-        <p class="section-kicker">Optionaler Lernmodus</p>
-        <h2>Die Grundseite bleibt klar – der Lernmodus ergänzt die stärkere Lernsicht.</h2>
-        <p>
-          Schlaufuchs startet bewusst als ruhige Informations- und Aufgabenplattform. Wenn du
-          zusätzlich stärker lernorientiert arbeiten möchtest, kannst du den Lernmodus jederzeit
-          einschalten und die Seite gezielter als Lernoberfläche nutzen.
-        </p>
-      </div>
-
-      <div class="learn-mode-actions">
-        <button type="button" class="hero-button primary" data-home-learn-activate>
-          Lernmodus einschalten
-        </button>
-        <a class="hero-button secondary" href={`${base}fachbereiche`}>
-          Erst in der Standardansicht bleiben
-        </a>
-      </div>
-    </article>
-  </section>
-
-  <section class="home-section" data-present="hide">
-    <div class="section-head">
-      <div>
-        <p class="section-kicker">Anspruch</p>
-        <h2>Modern, klar und fachlich belastbar</h2>
-        <p>Die Plattform verbindet ruhige Informationsstruktur, passende Aufgaben und eine zuschaltbare Lernsicht.</p>
-      </div>
-    </div>
-
-    <div class="focus-grid">
-      {focusAreas.map((item) => (
-        <article class="focus-card">
-          <h3>{item.title}</h3>
-          <p>{item.description}</p>
-        </article>
-      ))}
-    </div>
-  </section>
-
-  <script is:inline>
-    const learnButton = document.querySelector("[data-home-learn-activate]");
-
-    const renderHomeLearnMode = () => {
-      if (!learnButton || !window.schlaufuchsModes) return;
-      const isOn = window.schlaufuchsModes.getLearnMode();
-      learnButton.textContent = isOn ? "Lernmodus ist aktiv" : "Lernmodus einschalten";
-      learnButton.classList.toggle("is-active", isOn);
-    };
-
-    learnButton?.addEventListener("click", () => {
-      if (!window.schlaufuchsModes) return;
-      if (!window.schlaufuchsModes.getLearnMode()) {
-        window.schlaufuchsModes.setLearnPromptDismissed(false);
-        window.schlaufuchsModes.setLearnMode("on");
-      }
-    });
-
-    window.addEventListener("learnmode-changed", renderHomeLearnMode);
-    renderHomeLearnMode();
-  </script>
 </BaseLayout>
 
 <style>
-  :global(:root) {
-    --home-light-hero: radial-gradient(circle at top right, rgba(79, 70, 229, 0.10), transparent 34%),
-      linear-gradient(135deg, rgba(244, 246, 252, 0.98), rgba(248, 250, 252, 0.98));
-    --home-dark-hero: radial-gradient(circle at top right, rgba(80, 109, 255, 0.16), transparent 30%),
-      linear-gradient(135deg, rgba(16, 22, 34, 0.98), rgba(11, 16, 26, 0.98));
-  }
-
-  .home-hero {
-    position: relative;
-    overflow: hidden;
+  .hero {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
-    gap: 1.75rem;
-    align-items: end;
-    padding: 2.75rem;
+    gap: 1rem;
+    padding: 2.25rem;
     border: 1px solid var(--border);
     border-radius: 32px;
     background: var(--card-bg);
     box-shadow: var(--shadow-card);
   }
 
-  :global(html[data-theme="light"]) .home-hero { background: var(--home-light-hero); }
-  :global(html[data-theme="dark"]) .home-hero { background: var(--home-dark-hero); }
-  :global(html[data-presentation-mode="on"]) .home-hero { grid-template-columns: 1fr; }
-
-  .home-hero::after {
-    content: "";
-    position: absolute;
-    right: -7rem;
-    bottom: -8rem;
-    width: 17rem;
-    height: 17rem;
-    border-radius: 999px;
-    background: linear-gradient(135deg, rgba(79,70,229,0.12), rgba(2,132,199,0.08));
-    pointer-events: none;
-  }
-
-  :global(html[data-presentation-mode="on"]) .home-hero::after { display: none; }
-
-  .hero-copy { position: relative; z-index: 1; min-width: 0; }
-  .hero-kicker, .section-kicker {
+  .hero-kicker,
+  .section-kicker {
     margin: 0 0 0.8rem;
     color: var(--text-soft);
     font-size: 0.95rem;
@@ -300,45 +120,37 @@ const heroFox = `${base}assets/mascots/general.png`;
 
   h1 {
     margin: 0;
-    max-width: 16ch;
+    max-width: 14ch;
     color: var(--text-strong);
-    font-size: clamp(2.8rem, 5vw, 4.9rem);
-    line-height: 0.95;
+    font-size: clamp(2.6rem, 4.8vw, 4.6rem);
+    line-height: 0.96;
     letter-spacing: -0.045em;
   }
 
   .hero-lead {
-    max-width: 42rem;
-    margin: 1.15rem 0 0;
+    max-width: 44rem;
+    margin: 1rem 0 0;
     color: var(--text);
-    font-size: clamp(1.05rem, 1.6vw, 1.22rem);
-    line-height: 1.75;
+    font-size: 1.08rem;
+    line-height: 1.72;
   }
 
-  .hero-actions,
-  .learn-mode-actions {
+  .hero-actions {
     display: flex;
     gap: 0.9rem;
     flex-wrap: wrap;
-    margin-top: 1.8rem;
+    margin-top: 1.5rem;
   }
 
   .hero-button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-height: 3.25rem;
-    padding: 0 1.2rem;
+    min-height: 3.1rem;
+    padding: 0 1.15rem;
     border-radius: 999px;
     border: 1px solid var(--border);
     font-weight: 700;
-    transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease, background 140ms ease;
-    cursor: pointer;
-  }
-
-  .hero-button:hover {
-    transform: translateY(-1px);
-    box-shadow: var(--shadow-soft);
   }
 
   .hero-button.primary {
@@ -347,64 +159,14 @@ const heroFox = `${base}assets/mascots/general.png`;
     border-color: transparent;
   }
 
-  .hero-button.primary.is-active {
-    opacity: 0.84;
-    cursor: default;
-  }
-
   .hero-button.secondary {
-    background: rgba(255,255,255,0.42);
+    background: var(--surface);
     color: var(--text-strong);
-  }
-
-  :global(html[data-theme="dark"]) .hero-button.secondary {
-    background: rgba(255,255,255,0.06);
-  }
-
-  .hero-search {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.9rem;
-    width: min(100%, 44rem);
-    margin-top: 1.1rem;
-    padding: 1rem 1.15rem;
-    border: 1px solid var(--border);
-    border-radius: 18px;
-    background: rgba(255,255,255,0.38);
-    color: var(--text-soft);
-    box-shadow: var(--shadow-soft);
-  }
-
-  :global(html[data-theme="dark"]) .hero-search {
-    background: rgba(13,18,28,0.72);
-  }
-
-  .hero-search-icon { font-size: 1.1rem; line-height: 1; flex-shrink: 0; }
-
-  .hero-mascot {
-    position: relative;
-    z-index: 1;
-    justify-self: end;
-    align-self: end;
-    display: flex;
-    width: clamp(220px, 24vw, 320px);
-    max-width: 31vw;
-  }
-
-  .hero-mascot img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    filter: drop-shadow(0 20px 28px rgba(15,23,42,0.14));
-  }
-
-  :global(html[data-theme="dark"]) .hero-mascot img {
-    filter: drop-shadow(0 24px 36px rgba(0,0,0,0.34));
   }
 
   .home-section {
     display: grid;
-    gap: 1.25rem;
+    gap: 1rem;
     margin-top: 1.7rem;
   }
 
@@ -416,22 +178,12 @@ const heroFox = `${base}assets/mascots/general.png`;
     flex-wrap: wrap;
   }
 
-  .section-head h2,
-  .learn-mode-copy h2 {
+  .section-head h2 {
     margin: 0;
     color: var(--text-strong);
-    font-size: clamp(1.85rem, 2.8vw, 2.5rem);
-    line-height: 1.04;
+    font-size: clamp(1.8rem, 2.8vw, 2.35rem);
+    line-height: 1.05;
     letter-spacing: -0.035em;
-  }
-
-  .section-head p,
-  .learn-mode-copy p {
-    margin: 0.75rem 0 0;
-    max-width: 46rem;
-    color: var(--text-soft);
-    font-size: 1rem;
-    line-height: 1.62;
   }
 
   .section-link {
@@ -439,300 +191,100 @@ const heroFox = `${base}assets/mascots/general.png`;
     font-weight: 700;
   }
 
-  .path-grid,
-  .focus-grid,
-  .priority-grid {
+  .link-grid,
+  .topic-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1rem;
   }
 
-  .path-card,
-  .focus-card,
-  .learn-mode-panel,
-  .priority-card {
+  .link-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .topic-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .link-card,
+  .topic-card {
     display: grid;
-    gap: 1rem;
+    gap: 0.8rem;
     padding: 1.35rem;
     border: 1px solid var(--border);
     border-radius: 24px;
     background: var(--card-bg);
     box-shadow: var(--shadow-soft);
+    transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
   }
 
-  .priority-card {
-    background: linear-gradient(135deg, rgba(79,70,229,0.08), rgba(240,244,255,0.86));
+  .link-card:hover,
+  .topic-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-card);
+    border-color: var(--border-strong);
   }
 
-  :global(html[data-theme="dark"]) .priority-card {
-    background: linear-gradient(135deg, rgba(79,70,229,0.16), rgba(18,27,46,0.94));
-  }
-
-  .priority-rank,
-  .status-badge,
-  .count-badge {
-    display: inline-flex;
-    align-items: center;
-    min-height: 2rem;
-    padding: 0.15rem 0.7rem;
-    border-radius: 999px;
-    border: 1px solid rgba(148,163,184,0.16);
-    background: rgba(255,255,255,0.26);
-    color: var(--text-strong);
-    font-size: 0.82rem;
-    font-weight: 700;
-  }
-
-  :global(html[data-theme="dark"]) .priority-rank,
-  :global(html[data-theme="dark"]) .status-badge,
-  :global(html[data-theme="dark"]) .count-badge {
-    background: rgba(255,255,255,0.08);
-    border-color: rgba(255,255,255,0.08);
-  }
-
-  .priority-card h3,
-  .priority-state {
+  .link-card h3,
+  .topic-card h3 {
     margin: 0;
-  }
-
-  .priority-card h3,
-  .path-copy h3,
-  .focus-card h3 {
     color: var(--text-strong);
-    font-size: 1.1rem;
-    line-height: 1.2;
+    font-size: 1.25rem;
+    line-height: 1.15;
   }
 
-  .priority-state {
-    color: var(--text-strong);
-    font-weight: 700;
-  }
-
-  .priority-card p,
-  .path-copy p,
-  .focus-card p {
-    margin: 0.4rem 0 0;
+  .link-card p,
+  .topic-card p {
+    margin: 0;
     color: var(--text);
     line-height: 1.65;
   }
 
-  .learn-mode-panel {
-    grid-template-columns: minmax(0, 1.4fr) auto;
-    align-items: end;
-    padding: 1.6rem;
-    border-radius: 28px;
-    background: linear-gradient(135deg, rgba(79,70,229,0.10), rgba(240,244,255,0.88));
-  }
+  .topic-card.math { background: linear-gradient(135deg, rgba(93,113,175,0.18), rgba(232,237,248,0.82)); }
+  .topic-card.web { background: linear-gradient(135deg, rgba(173,144,156,0.16), rgba(245,239,241,0.84)); }
+  .topic-card.cs { background: linear-gradient(135deg, rgba(95,139,158,0.16), rgba(235,244,247,0.84)); }
+  .topic-card.linux { background: linear-gradient(135deg, rgba(175,163,122,0.16), rgba(242,239,230,0.84)); }
+  .topic-card.ee { background: linear-gradient(135deg, rgba(173,147,144,0.15), rgba(244,236,235,0.84)); }
 
-  :global(html[data-theme="dark"]) .learn-mode-panel {
-    background: linear-gradient(135deg, rgba(79,70,229,0.18), rgba(18,27,46,0.94));
-  }
-
-  .path-card:hover {
-    border-color: var(--border-strong);
-    transform: translateY(-1px);
-  }
-
-  .path-icon {
-    width: 3rem;
-    height: 3rem;
-    border-radius: 16px;
-    display: grid;
-    place-items: center;
-    background: var(--surface-2);
-    color: var(--text-strong);
-    font-size: 1.1rem;
-    border: 1px solid var(--border);
-  }
-
-  .topic-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 1.1rem;
-  }
-
-  .topic-card {
-    position: relative;
-    overflow: hidden;
-    display: grid;
-    gap: 1.1rem;
-    min-height: 18.25rem;
-    padding: 1.6rem;
-    border: 1px solid var(--border);
-    border-radius: 26px;
-    box-shadow: var(--shadow-soft);
-  }
-
-  .status-balanced {
-    border-color: color-mix(in oklab, var(--border) 76%, #16a34a 24%);
-  }
-
-  :global(html[data-presentation-mode="on"]) .topic-card {
-    min-height: auto;
-  }
-
-  .topic-card::after {
-    content: "";
-    position: absolute;
-    right: -2rem;
-    bottom: -2.3rem;
-    width: 7rem;
-    height: 7rem;
-    border-radius: 999px;
-    background: rgba(255,255,255,0.08);
-    pointer-events: none;
-  }
-
-  :global(html[data-presentation-mode="on"]) .topic-card::after { display: none; }
-
-  .topic-card.math { background: linear-gradient(135deg, rgba(93,113,175,0.26), rgba(232,237,248,0.82)); }
-  .topic-card.web { background: linear-gradient(135deg, rgba(173,144,156,0.22), rgba(245,239,241,0.86)); }
-  .topic-card.cs { background: linear-gradient(135deg, rgba(95,139,158,0.20), rgba(235,244,247,0.84)); }
-  .topic-card.linux { background: linear-gradient(135deg, rgba(175,163,122,0.20), rgba(242,239,230,0.84)); }
-  .topic-card.ee { background: linear-gradient(135deg, rgba(173,147,144,0.18), rgba(244,236,235,0.84)); }
-
-  :global(html[data-theme="dark"]) .topic-card.math { background: linear-gradient(135deg, rgba(72,95,164,0.38), rgba(22,31,58,0.94)); }
-  :global(html[data-theme="dark"]) .topic-card.web { background: linear-gradient(135deg, rgba(96,72,104,0.34), rgba(49,38,43,0.94)); }
-  :global(html[data-theme="dark"]) .topic-card.cs { background: linear-gradient(135deg, rgba(28,71,87,0.42), rgba(18,37,45,0.94)); }
-  :global(html[data-theme="dark"]) .topic-card.linux { background: linear-gradient(135deg, rgba(84,76,44,0.30), rgba(42,39,28,0.94)); }
-  :global(html[data-theme="dark"]) .topic-card.ee { background: linear-gradient(135deg, rgba(83,60,58,0.32), rgba(42,29,31,0.94)); }
+  :global(html[data-theme="dark"]) .topic-card.math { background: linear-gradient(135deg, rgba(72,95,164,0.30), rgba(22,31,58,0.94)); }
+  :global(html[data-theme="dark"]) .topic-card.web { background: linear-gradient(135deg, rgba(96,72,104,0.24), rgba(49,38,43,0.94)); }
+  :global(html[data-theme="dark"]) .topic-card.cs { background: linear-gradient(135deg, rgba(28,71,87,0.30), rgba(18,37,45,0.94)); }
+  :global(html[data-theme="dark"]) .topic-card.linux { background: linear-gradient(135deg, rgba(84,76,44,0.22), rgba(42,39,28,0.94)); }
+  :global(html[data-theme="dark"]) .topic-card.ee { background: linear-gradient(135deg, rgba(83,60,58,0.22), rgba(42,29,31,0.94)); }
 
   .topic-top {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
-    gap: 1rem;
-  }
-
-  .topic-icon {
-    width: 3.8rem;
-    height: 3.8rem;
-    border-radius: 1rem;
-    border: 1px solid rgba(148,163,184,0.18);
-    background: rgba(255,255,255,0.34);
-    display: grid;
-    place-items: center;
-    box-shadow: 0 14px 30px rgba(15,23,42,0.06);
-  }
-
-  :global(html[data-theme="dark"]) .topic-icon {
-    border-color: rgba(255,255,255,0.08);
-    background: rgba(255,255,255,0.06);
-  }
-
-  .topic-icon img {
-    width: 2rem;
-    height: 2rem;
-    object-fit: contain;
+    gap: 0.8rem;
   }
 
   .topic-arrow {
-    width: 2.5rem;
-    height: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.4rem;
+    height: 2.4rem;
     border-radius: 999px;
-    display: grid;
-    place-items: center;
-    border: 1px solid rgba(148,163,184,0.16);
-    background: rgba(255,255,255,0.3);
+    border: 1px solid rgba(148,163,184,0.14);
+    background: rgba(255,255,255,0.24);
     color: var(--text-strong);
-    font-size: 1rem;
+    font-weight: 700;
+    flex-shrink: 0;
   }
 
   :global(html[data-theme="dark"]) .topic-arrow {
-    border-color: rgba(255,255,255,0.12);
-    background: rgba(255,255,255,0.08);
-  }
-
-  .topic-meta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.55rem;
-    margin-bottom: 0.8rem;
-  }
-
-  .topic-copy h3 {
-    margin: 0;
-    color: var(--text-strong);
-    font-size: clamp(1.55rem, 2vw, 2rem);
-    line-height: 1.05;
-    letter-spacing: -0.04em;
-  }
-
-  .topic-copy p {
-    margin: 0.85rem 0 0;
-    color: var(--text);
-    line-height: 1.66;
-  }
-
-  .topic-highlights {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.55rem;
-    margin: 0;
-    padding: 0;
-  }
-
-  .topic-highlights li {
-    padding: 0.45rem 0.7rem;
-    border-radius: 999px;
-    border: 1px solid rgba(148,163,184,0.16);
-    background: rgba(255,255,255,0.28);
-    color: var(--text-strong);
-    font-size: 0.92rem;
-    font-weight: 600;
-  }
-
-  :global(html[data-theme="dark"]) .topic-highlights li {
     background: rgba(255,255,255,0.08);
     border-color: rgba(255,255,255,0.08);
   }
 
-  @media (max-width: 1100px) {
-    .topic-grid,
-    .path-grid,
-    .focus-grid,
-    .priority-grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-  }
-
-  @media (max-width: 900px) {
-    .home-hero,
-    .learn-mode-panel {
+  @media (max-width: 980px) {
+    .link-grid,
+    .topic-grid {
       grid-template-columns: 1fr;
     }
 
-    .home-hero {
-      padding: 2rem 1.5rem 0;
-    }
-
-    .hero-mascot {
-      width: min(100%, 18rem);
-      max-width: none;
-      justify-self: center;
-    }
-  }
-
-  @media (max-width: 720px) {
-    .topic-grid,
-    .path-grid,
-    .focus-grid,
-    .priority-grid {
-      grid-template-columns: 1fr;
-    }
-
-    .hero-search {
-      width: 100%;
-    }
-
-    .hero-mascot {
-      width: min(100%, 11rem);
-    }
-
-    .section-link,
-    .learn-mode-actions .hero-button {
-      width: 100%;
+    .hero {
+      padding: 1.7rem;
     }
   }
 </style>
