@@ -28,7 +28,7 @@ const quickFilters = ["Alle", "Mathematik", "Informatik", "Elektrotechnik", "Lin
   <section class="search-panel" data-present="hide">
     <label class="search-input-shell" for="search-input">
       <span class="search-icon" aria-hidden="true">⌕</span>
-      <input id="search-input" type="search" placeholder="Nach Thema, Aufgabe oder Wissensseite suchen ..." />
+      <input id="search-input" type="search" placeholder="Nach Thema, Aufgabe oder Wissensseite suchen ..." autocomplete="off" />
     </label>
 
     <div class="filter-row" aria-label="Bereichsfilter">
@@ -42,6 +42,8 @@ const quickFilters = ["Alle", "Mathematik", "Informatik", "Elektrotechnik", "Lin
         </button>
       ))}
     </div>
+
+    <p class="search-status" id="search-status">Alle {searchEntries.length} Einträge sichtbar.</p>
   </section>
 
   <section class="results-grid" id="search-results">
@@ -73,8 +75,61 @@ const quickFilters = ["Alle", "Mathematik", "Informatik", "Elektrotechnik", "Lin
     const cards = Array.from(document.querySelectorAll(".result-card"));
     const chips = Array.from(document.querySelectorAll(".filter-chip"));
     const emptyState = document.getElementById("search-empty");
+    const status = document.getElementById("search-status");
+    const params = new URLSearchParams(window.location.search);
 
-    let activeFilter = "alle";
+    let activeFilter = (params.get("bereich") || "Alle").toLowerCase();
+
+    const normalizeFilter = (value) => {
+      const normalized = (value || "Alle").toLowerCase();
+      const available = chips.map((chip) => (chip.getAttribute("data-filter") || "Alle").toLowerCase());
+      return available.includes(normalized) ? normalized : "alle";
+    };
+
+    const syncUrl = (query, filter) => {
+      const next = new URL(window.location.href);
+      if (query) {
+        next.searchParams.set("q", query);
+      } else {
+        next.searchParams.delete("q");
+      }
+
+      if (filter && filter !== "alle") {
+        next.searchParams.set("bereich", filter);
+      } else {
+        next.searchParams.delete("bereich");
+      }
+
+      history.replaceState({}, "", next);
+    };
+
+    const renderFilterButtons = () => {
+      chips.forEach((chip) => {
+        const chipFilter = (chip.getAttribute("data-filter") || "Alle").toLowerCase();
+        chip.classList.toggle("active", chipFilter === activeFilter);
+      });
+    };
+
+    const updateStatus = (visibleCount, query, filter, presentationMode) => {
+      if (!status) return;
+      if (presentationMode) {
+        status.textContent = `${visibleCount} Einträge sichtbar.`;
+        return;
+      }
+
+      const filterLabel = filter !== "alle" ? ` im Bereich ${filter}` : "";
+      if (!query && filter === "alle") {
+        status.textContent = `Alle ${visibleCount} Einträge sichtbar.`;
+        return;
+      }
+
+      if (query) {
+        status.textContent = `${visibleCount} Treffer für „${query}“${filterLabel}.`;
+        return;
+      }
+
+      status.textContent = `${visibleCount} Einträge sichtbar${filterLabel}.`;
+    };
 
     const applySearch = () => {
       const presentationMode = root.dataset.presentationMode === "on";
@@ -91,27 +146,49 @@ const quickFilters = ["Alle", "Mathematik", "Informatik", "Elektrotechnik", "Lin
         ].join(" ");
         const area = card.getAttribute("data-area") || "";
         const matchesQuery = !query || haystack.includes(query);
-        const matchesFilter = presentationMode || activeFilter === "alle" || area === activeFilter.toLowerCase();
+        const matchesFilter = presentationMode || activeFilter === "alle" || area === activeFilter;
         const visible = matchesQuery && matchesFilter;
         card.toggleAttribute("hidden", !visible);
         if (visible) visibleCount += 1;
       });
 
       emptyState?.toggleAttribute("hidden", visibleCount !== 0);
+      updateStatus(visibleCount, query, activeFilter, presentationMode);
+      syncUrl(query, activeFilter);
+    };
+
+    const setInitialState = () => {
+      activeFilter = normalizeFilter(activeFilter);
+      const initialQuery = params.get("q") || "";
+      if (input) {
+        input.value = initialQuery;
+      }
+      renderFilterButtons();
     };
 
     input?.addEventListener("input", applySearch);
 
     chips.forEach((chip) => {
       chip.addEventListener("click", () => {
-        chips.forEach((other) => other.classList.remove("active"));
-        chip.classList.add("active");
-        activeFilter = chip.getAttribute("data-filter") || "Alle";
+        activeFilter = normalizeFilter(chip.getAttribute("data-filter") || "Alle");
+        renderFilterButtons();
         applySearch();
       });
     });
 
     window.addEventListener("presentationmode-changed", applySearch);
+    window.addEventListener("keydown", (event) => {
+      const target = event.target;
+      const tagName = target instanceof HTMLElement ? target.tagName : "";
+      const isTyping = target instanceof HTMLElement && (target.isContentEditable || ["INPUT", "TEXTAREA", "SELECT"].includes(tagName));
+      if (isTyping || root.dataset.presentationMode === "on") return;
+      if (event.key === "/") {
+        event.preventDefault();
+        input?.focus();
+      }
+    });
+
+    setInitialState();
     applySearch();
   </script>
 
@@ -238,6 +315,12 @@ const quickFilters = ["Alle", "Mathematik", "Informatik", "Elektrotechnik", "Lin
       border-color: var(--border-strong);
       background: var(--surface-2);
       color: var(--text-strong);
+    }
+
+    .search-status {
+      margin: 0;
+      color: var(--text-soft);
+      line-height: 1.5;
     }
 
     .results-grid {
