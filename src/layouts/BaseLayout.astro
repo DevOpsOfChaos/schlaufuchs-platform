@@ -2,7 +2,6 @@
 import "../styles/globals/base.css";
 import { siteConfig } from "../data/settings/site";
 import Topbar from "../components/ui/Topbar.astro";
-import LearnModePrompt from "../components/ui/LearnModePrompt.astro";
 import Footer from "../components/ui/Footer.astro";
 
 interface Props {
@@ -36,6 +35,7 @@ const socialImage = image ? new URL(image, siteBase).toString() : defaultImage;
     <meta name="robots" content={noIndex ? "noindex, nofollow" : "index, follow"} />
     <meta name="generator" content={siteConfig.siteName} />
     <link rel="canonical" href={canonicalUrl} />
+    <link rel="icon" href={`${base}favicon.ico`} sizes="any" />
 
     <meta name="theme-color" media="(prefers-color-scheme: light)" content={siteConfig.themeColorLight} />
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content={siteConfig.themeColorDark} />
@@ -161,7 +161,6 @@ const socialImage = image ? new URL(image, siteBase).toString() : defaultImage;
 
   <body>
     <Topbar />
-    <LearnModePrompt />
     <main id="main-content">
       <slot />
     </main>

@@ -1,75 +1,42 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { getContentInventory, getVisibleSubjects } from "../../data/content";
+import { getVisibleSubjects } from "../../data/content";
 import { getSubjectMeta } from "../../data/subjects";
 
 const base = import.meta.env.BASE_URL;
-const inventory = await getContentInventory();
-const inventoryMap = new Map(inventory.bySubject.map((entry) => [entry.slug, entry]));
-
-const publicStatusLabels: Record<string, string> = {
-  empty: "Im Aufbau",
-  missing_articles: "Im Ausbau",
-  missing_exercises: "Im Ausbau",
-  imbalanced: "Im Ausbau",
-  balanced: "Grundbestand",
-};
 
 const subjects = (await getVisibleSubjects())
   .map((subject) => ({
     ...subject,
     meta: getSubjectMeta(subject.data.slug),
-    inventory: inventoryMap.get(subject.data.slug),
   }))
-  .filter((subject) => subject.meta !== null && subject.inventory)
-  .map((subject) => ({
-    ...subject,
-    publicStatus: publicStatusLabels[subject.inventory!.status.key] ?? "Im Ausbau",
-  }));
+  .filter((subject) => subject.meta !== null);
 ---
 
 <BaseLayout
   title="Fachbereiche – Schlaufuchs"
-  description="Übersicht über die Hauptfächer von Schlaufuchs mit klarer Fachlogik und direkten Einstiegen."
+  description="Übersicht über die fünf Hauptfächer mit direkten Einstiegen zu den Fachseiten."
 >
   <section class="hero">
     <div class="hero-copy">
-      <p class="eyebrow">Fachbereiche</p>
-      <h1>Die Plattform wird über klare Hauptfächer und Fachbereiche strukturiert.</h1>
-      <p class="lead">
-        Schlaufuchs bündelt die Inhalte in fünf sauberen Fachbereichen. Jeder Bereich verbindet
-        Fachidentität, Wissensseiten, Aufgaben und sinnvolle Einstiege.
-      </p>
+      <p class="eyebrow">Hauptfächer</p>
+      <h1>Fachbereiche mit klarer Struktur</h1>
+      <p class="lead">Wähle ein Fach und gehe direkt in die passende Fachseite.</p>
     </div>
 
-    <div class="hero-actions" data-present="hide">
-      <a class="hero-button primary" href={`${base}aufgaben`}>Zu Aufgaben und Übungen</a>
-      <a class="hero-button secondary" href={`${base}suchen`}>Thema suchen</a>
+    <div class="hero-link" data-present="hide">
+      <a href={`${base}fachbereiche`}>Alle Fachbereiche ansehen</a>
     </div>
   </section>
 
   <section class="grid">
     {subjects.map((subject) => (
-      <a class={`card ${subject.meta!.tone} status-${subject.inventory!.status.key}`} href={`${base}fachbereiche/${subject.data.slug}`}>
+      <a class={`card ${subject.meta!.tone}`} href={`${base}fachbereiche/${subject.data.slug}`}>
         <div class="card-top">
-          <span class="kicker" data-present="hide">{subject.meta!.kicker}</span>
-          <span class="entry" data-present="hide">Start: {subject.meta!.entry}</span>
-        </div>
-
-        <div class="card-copy">
-          <div class="card-meta" data-present="hide">
-            <span class="status-badge">{subject.publicStatus}</span>
-            <span class="count-badge">{subject.inventory!.articleCount} Wissen · {subject.inventory!.exerciseCount} Aufgaben</span>
-          </div>
           <h2>{subject.data.title}</h2>
-          <p>{subject.data.description}</p>
+          <span class="card-arrow">→</span>
         </div>
-
-        <ul class="highlight-list">
-          {subject.meta!.highlights.slice(0, 3).map((item) => <li>{item}</li>)}
-        </ul>
-
-        <span class="card-link">Zum Fachbereich →</span>
+        <p>{subject.data.description}</p>
       </a>
     ))}
   </section>
@@ -86,11 +53,11 @@ const subjects = (await getVisibleSubjects())
   }
 
   .hero-copy {
-    max-width: 46rem;
+    max-width: 42rem;
   }
 
   .eyebrow {
-    margin: 0 0 0.8rem;
+    margin: 0 0 0.75rem;
     color: var(--text-soft);
     font-size: 0.92rem;
     font-weight: 700;
@@ -100,9 +67,8 @@ const subjects = (await getVisibleSubjects())
 
   h1 {
     margin: 0;
-    max-width: 14ch;
     color: var(--text-strong);
-    font-size: clamp(2.4rem, 4.5vw, 4.25rem);
+    font-size: clamp(2.3rem, 4.4vw, 4rem);
     line-height: 0.98;
     letter-spacing: -0.045em;
   }
@@ -110,64 +76,31 @@ const subjects = (await getVisibleSubjects())
   .lead {
     margin: 1rem 0 0;
     color: var(--text-soft);
-    line-height: 1.75;
-    font-size: 1.04rem;
+    line-height: 1.7;
+    font-size: 1.02rem;
   }
 
-  .hero-actions {
-    display: flex;
-    gap: 0.85rem;
-    flex-wrap: wrap;
-  }
-
-  .hero-button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 3.1rem;
-    padding: 0 1.15rem;
-    border-radius: 999px;
-    border: 1px solid var(--border);
-    font-weight: 700;
-  }
-
-  .hero-button.primary {
-    background: color-mix(in oklab, var(--surface-strong) 86%, #4f46e5 14%);
-    color: white;
-    border-color: transparent;
-  }
-
-  .hero-button.secondary {
-    background: var(--surface);
+  .hero-link a {
     color: var(--text-strong);
+    font-weight: 700;
   }
 
   .grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1rem;
-    margin-top: 1.8rem;
-  }
-
-  :global(html[data-presentation-mode="on"]) .grid {
-    grid-template-columns: 1fr;
+    margin-top: 1.6rem;
   }
 
   .card {
     display: grid;
-    gap: 1.15rem;
-    padding: 1.45rem;
+    gap: 1rem;
+    padding: 1.5rem;
     border: 1px solid var(--border);
     border-radius: 28px;
     box-shadow: var(--shadow-soft);
-    min-height: 18rem;
-    position: relative;
-    overflow: hidden;
+    min-height: 15rem;
     transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
-  }
-
-  .status-balanced {
-    border-color: color-mix(in oklab, var(--border) 76%, #16a34a 24%);
   }
 
   .card:hover {
@@ -176,107 +109,60 @@ const subjects = (await getVisibleSubjects())
     border-color: var(--border-strong);
   }
 
-  .card::after {
-    content: "";
-    position: absolute;
-    right: -1.75rem;
-    bottom: -2rem;
-    width: 7rem;
-    height: 7rem;
-    border-radius: 999px;
-    background: rgba(255,255,255,0.12);
-    pointer-events: none;
-  }
+  .card.math { background: linear-gradient(135deg, rgba(93,113,175,0.18), rgba(232,237,248,0.82)); }
+  .card.web { background: linear-gradient(135deg, rgba(173,144,156,0.16), rgba(245,239,241,0.84)); }
+  .card.cs { background: linear-gradient(135deg, rgba(95,139,158,0.16), rgba(235,244,247,0.84)); }
+  .card.linux { background: linear-gradient(135deg, rgba(175,163,122,0.16), rgba(242,239,230,0.84)); }
+  .card.ee { background: linear-gradient(135deg, rgba(173,147,144,0.15), rgba(244,236,235,0.84)); }
 
-  .card.math { background: linear-gradient(135deg, rgba(93,113,175,0.22), rgba(232,237,248,0.82)); }
-  .card.web { background: linear-gradient(135deg, rgba(173,144,156,0.18), rgba(245,239,241,0.84)); }
-  .card.cs { background: linear-gradient(135deg, rgba(95,139,158,0.18), rgba(235,244,247,0.84)); }
-  .card.linux { background: linear-gradient(135deg, rgba(175,163,122,0.18), rgba(242,239,230,0.84)); }
-  .card.ee { background: linear-gradient(135deg, rgba(173,147,144,0.16), rgba(244,236,235,0.84)); }
+  :global(html[data-theme="dark"]) .card.math { background: linear-gradient(135deg, rgba(72,95,164,0.30), rgba(22,31,58,0.94)); }
+  :global(html[data-theme="dark"]) .card.web { background: linear-gradient(135deg, rgba(96,72,104,0.24), rgba(49,38,43,0.94)); }
+  :global(html[data-theme="dark"]) .card.cs { background: linear-gradient(135deg, rgba(28,71,87,0.30), rgba(18,37,45,0.94)); }
+  :global(html[data-theme="dark"]) .card.linux { background: linear-gradient(135deg, rgba(84,76,44,0.22), rgba(42,39,28,0.94)); }
+  :global(html[data-theme="dark"]) .card.ee { background: linear-gradient(135deg, rgba(83,60,58,0.22), rgba(42,29,31,0.94)); }
 
-  :global(html[data-theme="dark"]) .card.math { background: linear-gradient(135deg, rgba(72,95,164,0.34), rgba(22,31,58,0.94)); }
-  :global(html[data-theme="dark"]) .card.web { background: linear-gradient(135deg, rgba(96,72,104,0.28), rgba(49,38,43,0.94)); }
-  :global(html[data-theme="dark"]) .card.cs { background: linear-gradient(135deg, rgba(28,71,87,0.34), rgba(18,37,45,0.94)); }
-  :global(html[data-theme="dark"]) .card.linux { background: linear-gradient(135deg, rgba(84,76,44,0.24), rgba(42,39,28,0.94)); }
-  :global(html[data-theme="dark"]) .card.ee { background: linear-gradient(135deg, rgba(83,60,58,0.24), rgba(42,29,31,0.94)); }
-
-  .card-top,
-  .card-meta {
+  .card-top {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
-    gap: 0.8rem;
-    flex-wrap: wrap;
+    gap: 0.9rem;
   }
 
-  .kicker,
-  .entry,
-  .status-badge,
-  .count-badge {
-    display: inline-flex;
-    align-items: center;
-    min-height: 2rem;
-    padding: 0.1rem 0.7rem;
-    border-radius: 999px;
-    font-size: 0.82rem;
-    font-weight: 700;
-    border: 1px solid rgba(148,163,184,0.16);
+  .card h2 {
+    margin: 0;
     color: var(--text-strong);
-    background: rgba(255,255,255,0.24);
-  }
-
-  :global(html[data-theme="dark"]) .kicker,
-  :global(html[data-theme="dark"]) .entry,
-  :global(html[data-theme="dark"]) .status-badge,
-  :global(html[data-theme="dark"]) .count-badge {
-    background: rgba(255,255,255,0.07);
-    border-color: rgba(255,255,255,0.08);
-  }
-
-  .card-copy h2 {
-    margin: 0.8rem 0 0;
-    color: var(--text-strong);
-    font-size: clamp(1.55rem, 2.5vw, 2rem);
-    line-height: 1.03;
+    font-size: clamp(1.7rem, 2.6vw, 2.15rem);
+    line-height: 1.02;
     letter-spacing: -0.04em;
   }
 
-  .card-copy p {
-    margin: 0.8rem 0 0;
-    color: var(--text);
-    line-height: 1.66;
-  }
-
-  .highlight-list {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.55rem;
-    margin: 0;
-    padding: 0;
-  }
-
-  .highlight-list li {
-    padding: 0.42rem 0.7rem;
+  .card-arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.6rem;
+    height: 2.6rem;
     border-radius: 999px;
-    border: 1px solid rgba(148,163,184,0.16);
+    border: 1px solid rgba(148,163,184,0.14);
     background: rgba(255,255,255,0.24);
     color: var(--text-strong);
-    font-size: 0.9rem;
-    font-weight: 600;
+    font-weight: 700;
+    flex-shrink: 0;
   }
 
-  :global(html[data-theme="dark"]) .highlight-list li {
+  :global(html[data-theme="dark"]) .card-arrow {
     background: rgba(255,255,255,0.08);
     border-color: rgba(255,255,255,0.08);
   }
 
-  .card-link {
-    color: var(--text-strong);
-    font-weight: 700;
+  .card p {
+    margin: 0;
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 1.02rem;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 980px) {
     .grid {
       grid-template-columns: 1fr;
     }
