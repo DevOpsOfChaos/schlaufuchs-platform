@@ -15,6 +15,11 @@ const learnIcon = `
     icon={learnIcon}
     type="button"
   />
+
+  <div class="learn-hint" data-learn-hint hidden aria-live="polite">
+    <p class="learn-hint-kicker">Lernmodus</p>
+    <p class="learn-hint-copy">Hier kannst du den Lernmodus einschalten.</p>
+  </div>
 </div>
 
 <script>
@@ -24,6 +29,31 @@ const learnIcon = `
     shell.dataset.ready = "true";
 
     const button = shell.querySelector("button");
+    const hint = shell.querySelector("[data-learn-hint]");
+    let hideTimeout = 0;
+
+    const clearHideTimeout = () => {
+      if (hideTimeout) {
+        window.clearTimeout(hideTimeout);
+        hideTimeout = 0;
+      }
+    };
+
+    const hideHint = (persist = true) => {
+      clearHideTimeout();
+      if (!hint) return;
+      hint.hidden = true;
+      if (persist) {
+        window.schlaufuchsModes?.setLearnPromptDismissed(true);
+      }
+    };
+
+    const scheduleHide = () => {
+      clearHideTimeout();
+      hideTimeout = window.setTimeout(() => {
+        hideHint(true);
+      }, 15000);
+    };
 
     const renderLearnMode = () => {
       if (!button || !window.schlaufuchsModes) return;
@@ -31,14 +61,94 @@ const learnIcon = `
       button.classList.toggle("active", isOn);
       button.setAttribute("aria-label", isOn ? "Lernmodus deaktivieren" : "Lernmodus aktivieren");
       button.setAttribute("data-tooltip", isOn ? "Lernmodus deaktivieren" : "Lernmodus aktivieren");
+
+      if (!hint) return;
+      const dismissed = window.schlaufuchsModes.isLearnPromptDismissed();
+      const shouldShow = !isOn && !dismissed;
+      hint.hidden = !shouldShow;
+
+      if (shouldShow) {
+        scheduleHide();
+      } else {
+        clearHideTimeout();
+      }
     };
 
     renderLearnMode();
 
     button?.addEventListener("click", () => {
       window.schlaufuchsModes?.toggleLearnMode();
+      hideHint(true);
+    });
+
+    hint?.addEventListener("mouseenter", clearHideTimeout);
+    hint?.addEventListener("mouseleave", () => {
+      if (!hint.hidden) {
+        scheduleHide();
+      }
     });
 
     window.addEventListener("learnmode-changed", renderLearnMode);
+    window.addEventListener("learnprompt-changed", renderLearnMode);
   })();
 </script>
+
+<style>
+  .learn-toggle-shell {
+    position: relative;
+  }
+
+  .learn-hint {
+    position: absolute;
+    top: calc(100% + 0.6rem);
+    right: 0;
+    width: min(17rem, calc(100vw - 1.5rem));
+    padding: 0.8rem 0.9rem;
+    border: 1px solid var(--border-strong);
+    border-radius: 16px;
+    background: color-mix(in oklab, var(--card-bg) 96%, #eef2ff 4%);
+    box-shadow: var(--shadow-soft);
+    z-index: 60;
+  }
+
+  .learn-hint::before {
+    content: "";
+    position: absolute;
+    top: -0.42rem;
+    right: 1.1rem;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-top: 1px solid var(--border-strong);
+    border-left: 1px solid var(--border-strong);
+    background: inherit;
+    transform: rotate(45deg);
+  }
+
+  :global(html[data-theme="dark"]) .learn-hint {
+    background: color-mix(in oklab, var(--card-bg) 96%, #1d4ed8 4%);
+  }
+
+  .learn-hint-kicker {
+    margin: 0 0 0.35rem;
+    color: var(--text-soft);
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .learn-hint-copy {
+    margin: 0;
+    color: var(--text-strong);
+    font-size: 0.9rem;
+    line-height: 1.45;
+  }
+
+  @media (max-width: 980px) {
+    .learn-hint {
+      right: 0;
+      left: auto;
+      width: min(15rem, calc(100vw - 2rem));
+    }
+  }
+</style>
