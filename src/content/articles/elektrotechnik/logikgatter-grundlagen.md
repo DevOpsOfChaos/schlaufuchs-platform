@@ -1,53 +1,59 @@
 ---
 title: Logikgatter – Grundlagen
-description: Verstehe, wie digitale Schaltungen mit einfachen logischen Operationen arbeiten.
+description: Verstehe, wie einfache digitale Entscheidungen mit Logikgattern beschrieben werden.
 subject: elektrotechnik
-section: digitale-technik
+section: logikgatter
 level: einfach
-tags: [logikgatter, digitaltechnik, elektronik, schaltungen]
+tags: [logikgatter, digitale technik, elektrotechnik]
 draft: false
 ---
 
-Logikgatter gehören zu den Grundbausteinen digitaler Technik. Sie verarbeiten Eingangssignale nach klaren Regeln und erzeugen daraus ein neues Ausgangssignal.
+Logikgatter gehören zu den wichtigsten Grundideen der digitalen Technik. Sie beschreiben, wie aus Eingangssignalen **klare logische Ausgaben** entstehen.
 
 ## Was sind Logikgatter?
 
-Ein Logikgatter ist eine einfache digitale Schaltung. Es entscheidet anhand seiner Eingänge, welches Ausgangssignal entsteht.
+Logikgatter sind Grundbausteine der Digitaltechnik. Sie verarbeiten Eingaben nach festen logischen Regeln und liefern daraus eine Ausgabe.
 
-## Warum das Thema wichtig ist
+Damit helfen sie, technische Entscheidungen in Schaltungen formal zu beschreiben.
 
-Logikgatter sind zentral, weil sie die Grundlage für viele digitale Systeme bilden, zum Beispiel:
+## Warum sind sie so wichtig?
 
-- Rechenlogik in Prozessoren
-- digitale Steuerungen
-- einfache kombinatorische Schaltungen
+Viele digitale Systeme beruhen darauf, dass Signale nicht beliebig interpretiert werden, sondern nach klaren Regeln verarbeitet werden.
 
-## Typische Beispiele
+Logikgatter sind deshalb zentral für:
 
-Im Einstieg begegnen dir meist zuerst:
+- digitale Schaltungen,
+- logische Verknüpfungen,
+- das Verständnis technischer Entscheidungsprozesse.
 
-- UND
-- ODER
-- NICHT
+## Grundidee von Ein- und Ausgängen
 
-Später kommen weitere Verknüpfungen wie NAND, NOR oder XOR dazu.
+Im Einstieg ist besonders wichtig:
 
-## Die Grundidee dahinter
+- Ein Logikgatter bekommt Eingaben.
+- Diese Eingaben werden nach einer festen Regel ausgewertet.
+- Daraus entsteht eine Ausgabe.
 
-Wichtig ist zunächst nicht die komplizierte Schaltungstechnik, sondern die Logik:
+Gerade diese feste Regel unterscheidet Logikgatter von einem unsystematischen Signalverhalten.
 
-- Eingänge haben digitale Zustände
-- das Gatter verarbeitet diese Zustände nach einer festen Regel
-- daraus ergibt sich der Ausgang
+## Warum ist das ein Einstiegsthema?
+
+Logikgatter bilden eine Brücke zwischen
+
+- mathematischer Logik,
+- technischer Signalverarbeitung,
+- und praktischer Digitaltechnik.
+
+Sie sind deshalb nicht nur ein Spezialthema, sondern eine Kernidee der Elektrotechnik und Informatiknähe.
 
 ## Was du zuerst verstehen solltest
 
-Am Anfang reicht es, wenn du sicher einordnen kannst:
+Am Anfang ist besonders wichtig:
 
-- Logikgatter arbeiten mit klaren Ja-Nein-Regeln
-- sie sind Bausteine digitaler Systeme
-- Wahrheitstabellen helfen beim Verstehen ihrer Funktion
+- Logikgatter als Entscheidungsbausteine zu lesen,
+- Eingänge und Ausgabe klar zu unterscheiden,
+- die Regelhaftigkeit digitaler Technik zu verstehen.
 
 ## Merksatz
 
-Logikgatter verarbeiten digitale Eingangssignale nach festen Regeln und bilden damit die Grundlage vieler digitaler Schaltungen.
+Logikgatter verarbeiten Eingangssignale nach festen logischen Regeln und gehören damit zu den Grundbausteinen digitaler Technik.
