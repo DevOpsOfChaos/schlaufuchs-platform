@@ -3,9 +3,6 @@ title: Natürliche Zahlen verstehen
 description: Natürliche Zahlen gehören zu den ersten Zahlbereichen der Mathematik und bilden die Grundlage für Zählen, Ordnen und viele weitere Rechenideen.
 subject: mathematik
 section: Grundlagen
-author: OpenAI
-authorUrl: https://openai.com
-authorAvatar: https://openai.com/favicon.ico
 level: einfach
 tags:
   - Zahlen
