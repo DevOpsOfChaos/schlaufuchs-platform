@@ -18,22 +18,27 @@ const presentIcon = `
 </div>
 
 <script>
-  const shell = document.querySelector("[data-presentation-toggle]");
-  const button = shell?.querySelector("button");
+  (() => {
+    const shell = document.querySelector("[data-presentation-toggle]");
+    if (!shell || shell.dataset.ready === "true") return;
+    shell.dataset.ready = "true";
 
-  const renderPresentationMode = () => {
-    if (!button || !window.schlaufuchsModes) return;
-    const isOn = window.schlaufuchsModes.getPresentationMode();
-    button.classList.toggle("active", isOn);
-    button.setAttribute("aria-label", isOn ? "Präsentationsmodus deaktivieren" : "Präsentationsmodus aktivieren");
-    button.setAttribute("data-tooltip", isOn ? "Präsentationsmodus deaktivieren" : "Präsentationsmodus aktivieren");
-  };
+    const button = shell.querySelector("button");
 
-  renderPresentationMode();
+    const renderPresentationMode = () => {
+      if (!button || !window.schlaufuchsModes) return;
+      const isOn = window.schlaufuchsModes.getPresentationMode();
+      button.classList.toggle("active", isOn);
+      button.setAttribute("aria-label", isOn ? "Präsentationsmodus deaktivieren" : "Präsentationsmodus aktivieren");
+      button.setAttribute("data-tooltip", isOn ? "Präsentationsmodus deaktivieren" : "Präsentationsmodus aktivieren");
+    };
 
-  button?.addEventListener("click", () => {
-    window.schlaufuchsModes?.togglePresentationMode();
-  });
+    renderPresentationMode();
 
-  window.addEventListener("presentationmode-changed", renderPresentationMode);
+    button?.addEventListener("click", () => {
+      window.schlaufuchsModes?.togglePresentationMode();
+    });
+
+    window.addEventListener("presentationmode-changed", renderPresentationMode);
+  })();
 </script>

@@ -1,19 +1,15 @@
 ---
 ---
 
-<div class="learn-prompt" data-learn-prompt hidden>
-  <div class="learn-prompt-copy">
-    <p class="learn-prompt-kicker">Lernmodus</p>
-    <h2>Du willst die Seite stärker lernorientiert nutzen?</h2>
-    <p>
-      Schlaufuchs startet bewusst in einer klaren Standardansicht. Mit dem Lernmodus werden
-      lernbezogene Hinweise und strukturierte Einstiege stärker sichtbar.
-    </p>
-  </div>
+<div class="learn-prompt" data-learn-prompt hidden aria-live="polite">
+  <p class="learn-prompt-kicker">Lernmodus</p>
+  <p class="learn-prompt-copy">
+    Schon ausprobiert? Den Lernmodus kannst du direkt hier einschalten.
+  </p>
 
   <div class="learn-prompt-actions">
     <button type="button" class="learn-prompt-button primary" data-learn-activate>
-      Lernmodus einschalten
+      Einschalten
     </button>
     <button type="button" class="learn-prompt-button secondary" data-learn-dismiss>
       Später
@@ -22,90 +18,143 @@
 </div>
 
 <script>
-  const prompt = document.querySelector("[data-learn-prompt]");
-  const activateButton = prompt?.querySelector("[data-learn-activate]");
-  const dismissButton = prompt?.querySelector("[data-learn-dismiss]");
+  (() => {
+    const prompt = document.querySelector("[data-learn-prompt]");
+    if (!prompt || prompt.dataset.ready === "true") return;
+    prompt.dataset.ready = "true";
 
-  const renderPrompt = () => {
-    if (!prompt || !window.schlaufuchsModes) return;
-    const dismissed = window.schlaufuchsModes.isLearnPromptDismissed();
-    const isLearnModeOn = window.schlaufuchsModes.getLearnMode();
-    prompt.hidden = dismissed || isLearnModeOn;
-  };
+    const toggleShell = document.querySelector("[data-learn-toggle]");
+    const toggleButton = toggleShell?.querySelector("button");
+    const activateButton = prompt.querySelector("[data-learn-activate]");
+    const dismissButton = prompt.querySelector("[data-learn-dismiss]");
+    let hideTimeout = 0;
 
-  activateButton?.addEventListener("click", () => {
-    window.schlaufuchsModes?.setLearnPromptDismissed(false);
-    window.schlaufuchsModes?.setLearnMode("on");
-  });
+    const clearHideTimeout = () => {
+      if (hideTimeout) {
+        window.clearTimeout(hideTimeout);
+        hideTimeout = 0;
+      }
+    };
 
-  dismissButton?.addEventListener("click", () => {
-    window.schlaufuchsModes?.setLearnPromptDismissed(true);
+    const dismissPrompt = (persist = true) => {
+      clearHideTimeout();
+      if (!window.schlaufuchsModes) return;
+      prompt.hidden = true;
+      if (persist) {
+        window.schlaufuchsModes.setLearnPromptDismissed(true);
+      }
+    };
+
+    const positionPrompt = () => {
+      if (!toggleButton || prompt.hidden) return;
+      const rect = toggleButton.getBoundingClientRect();
+      const width = Math.min(320, window.innerWidth - 16);
+      const top = rect.bottom + 10;
+      const minLeft = 8;
+      const maxLeft = window.innerWidth - width - 8;
+      const left = Math.min(Math.max(rect.right - width, minLeft), maxLeft);
+
+      prompt.style.width = `${width}px`;
+      prompt.style.top = `${top}px`;
+      prompt.style.left = `${left}px`;
+    };
+
+    const scheduleAutoHide = () => {
+      clearHideTimeout();
+      hideTimeout = window.setTimeout(() => {
+        dismissPrompt(true);
+      }, 6500);
+    };
+
+    const renderPrompt = () => {
+      if (!window.schlaufuchsModes || !toggleButton) return;
+      const dismissed = window.schlaufuchsModes.isLearnPromptDismissed();
+      const isLearnModeOn = window.schlaufuchsModes.getLearnMode();
+      const shouldShow = !dismissed && !isLearnModeOn;
+
+      prompt.hidden = !shouldShow;
+
+      if (shouldShow) {
+        positionPrompt();
+        scheduleAutoHide();
+      } else {
+        clearHideTimeout();
+      }
+    };
+
+    activateButton?.addEventListener("click", () => {
+      if (!window.schlaufuchsModes) return;
+      window.schlaufuchsModes.setLearnMode("on");
+      window.schlaufuchsModes.setLearnPromptDismissed(true);
+      dismissPrompt(false);
+    });
+
+    dismissButton?.addEventListener("click", () => {
+      dismissPrompt(true);
+    });
+
+    prompt.addEventListener("mouseenter", clearHideTimeout);
+    prompt.addEventListener("mouseleave", () => {
+      if (!prompt.hidden) {
+        scheduleAutoHide();
+      }
+    });
+
+    window.addEventListener("learnmode-changed", renderPrompt);
+    window.addEventListener("learnprompt-changed", renderPrompt);
+    window.addEventListener("resize", positionPrompt);
+    window.addEventListener("scroll", positionPrompt, { passive: true });
+
     renderPrompt();
-  });
-
-  window.addEventListener("learnmode-changed", renderPrompt);
-  window.addEventListener("learnprompt-changed", renderPrompt);
-  renderPrompt();
+  })();
 </script>
 
 <style>
   .learn-prompt {
     position: fixed;
-    top: 6.4rem;
-    left: 50%;
-    transform: translateX(-50%);
-    width: min(calc(100% - 1rem), 62rem);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    padding: 1rem 1.1rem;
+    display: grid;
+    gap: 0.7rem;
+    padding: 0.9rem;
     border: 1px solid var(--border-strong);
-    border-radius: 24px;
-    background: color-mix(in oklab, var(--card-bg) 92%, #eef2ff 8%);
+    border-radius: 18px;
+    background: color-mix(in oklab, var(--card-bg) 96%, #eef2ff 4%);
     box-shadow: var(--shadow-card);
-    z-index: 35;
+    z-index: 36;
   }
 
   :global(html[data-theme="dark"]) .learn-prompt {
-    background: color-mix(in oklab, var(--card-bg) 94%, #1d4ed8 6%);
+    background: color-mix(in oklab, var(--card-bg) 96%, #1d4ed8 4%);
   }
 
   .learn-prompt-kicker {
-    margin: 0 0 0.45rem;
+    margin: 0;
     color: var(--text-soft);
-    font-size: 0.84rem;
+    font-size: 0.78rem;
     font-weight: 700;
     letter-spacing: 0.04em;
     text-transform: uppercase;
   }
 
-  .learn-prompt-copy h2 {
+  .learn-prompt-copy {
     margin: 0;
     color: var(--text-strong);
-    font-size: 1.1rem;
-    line-height: 1.2;
-  }
-
-  .learn-prompt-copy p:last-child {
-    margin: 0.55rem 0 0;
-    color: var(--text);
-    line-height: 1.55;
+    line-height: 1.5;
+    font-size: 0.95rem;
   }
 
   .learn-prompt-actions {
     display: flex;
     align-items: center;
-    gap: 0.7rem;
-    flex-shrink: 0;
+    gap: 0.55rem;
   }
 
   .learn-prompt-button {
-    min-height: 2.9rem;
-    padding: 0 1rem;
+    min-height: 2.45rem;
+    padding: 0 0.85rem;
     border-radius: 999px;
     border: 1px solid var(--border);
     font: inherit;
+    font-size: 0.92rem;
     font-weight: 700;
     cursor: pointer;
   }
@@ -119,24 +168,5 @@
   .learn-prompt-button.secondary {
     background: var(--surface);
     color: var(--text-strong);
-  }
-
-  @media (max-width: 920px) {
-    .learn-prompt {
-      top: auto;
-      bottom: 1rem;
-      width: min(calc(100% - 1rem), 100%);
-      flex-direction: column;
-      align-items: stretch;
-    }
-
-    .learn-prompt-actions {
-      width: 100%;
-      justify-content: stretch;
-    }
-
-    .learn-prompt-button {
-      flex: 1;
-    }
   }
 </style>

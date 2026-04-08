@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { type CollectionEntry } from "astro:content";
-import { getArticlesForSubject, getExercisesForSubject, getVisibleSubjects, levelLabels, getContentInventory } from "../../data/content";
+import { getArticlesForSubject, getExercisesForSubject, getVisibleSubjects, levelLabels } from "../../data/content";
 import { getSubjectMeta } from "../../data/subjects";
 
 const base = import.meta.env.BASE_URL;
@@ -30,52 +30,54 @@ const detail = getSubjectMeta(subject.data.slug) ?? {
   entry: "Grundlagen",
 };
 
-const [articles, exercises, inventory] = await Promise.all([
+const [articles, exercises] = await Promise.all([
   getArticlesForSubject(subject.data.slug),
   getExercisesForSubject(subject.data.slug),
-  getContentInventory(),
 ]);
-const subjectInventory = inventory.bySubject.find((entry) => entry.slug === subject.data.slug);
+
+const featuredArticles = articles.slice(0, 6);
+const featuredExercises = exercises.slice(0, 6);
+const directEntry = featuredArticles[0];
 ---
 
-<BaseLayout
-  title={`${subject.data.title} – Schlaufuchs`}
-  description={subject.data.description}
->
+<BaseLayout title={`${subject.data.title} – Schlaufuchs`} description={subject.data.description}>
   <section class="subject-hero">
     <div class="hero-copy">
       <p class="eyebrow">Fachbereich</p>
-      {subjectInventory && (
-        <div class="hero-meta-row" data-present="hide">
-          <span class="status-badge">{subjectInventory.publicStatusLabel}</span>
-          <span class="count-badge">{subjectInventory.articleCount} Wissen · {subjectInventory.exerciseCount} Aufgaben</span>
-        </div>
-      )}
       <h1>{subject.data.title}</h1>
       <p class="lead">{detail.intro}</p>
 
-      {subjectInventory && subjectInventory.status.key !== "balanced" && (
-        <p class="status-note" data-present="hide">{subjectInventory.status.detail}</p>
-      )}
-
       <div class="hero-actions" data-present="hide">
         <a class="hero-button primary" href={`${base}fachbereiche`}>Alle Fachbereiche</a>
-        <a class="hero-button secondary" href={`${base}suchen`}>Thema im Fach suchen</a>
+        <a class="hero-button secondary" href={`${base}suchen`}>Im Fach suchen</a>
       </div>
     </div>
 
-    <div class="hero-stats">
-      <article class="stat-card">
-        <span>{detail.knowledgeLabel}</span>
-        <strong>{articles.length}</strong>
-      </article>
-      <article class="stat-card" data-present="hide">
-        <span>{detail.exerciseLabel}</span>
-        <strong>{exercises.length}</strong>
-      </article>
-      <article class="stat-card">
-        <span>Themenfelder</span>
-        <strong>{detail.highlights.length}</strong>
+    <div class="hero-side">
+      {directEntry ? (
+        <article class="entry-card">
+          <span class="entry-label">Direkter Einstieg</span>
+          <h2>{directEntry.data.title}</h2>
+          <p>{directEntry.data.description}</p>
+          <a href={`${base}wissen/${directEntry.id}`}>Zur Wissensseite →</a>
+        </article>
+      ) : (
+        <article class="entry-card">
+          <span class="entry-label">Direkter Einstieg</span>
+          <h2>{detail.entry}</h2>
+          <p>In diesem Fach findest du Grundlagen, Wissensseiten und passende Aufgaben in einer klaren Struktur.</p>
+        </article>
+      )}
+
+      <article class="stat-row" data-present="hide">
+        <div>
+          <span>Wissensseiten</span>
+          <strong>{articles.length}</strong>
+        </div>
+        <div>
+          <span>Aufgaben</span>
+          <strong>{exercises.length}</strong>
+        </div>
       </article>
     </div>
   </section>
@@ -83,8 +85,37 @@ const subjectInventory = inventory.bySubject.find((entry) => entry.slug === subj
   <section class="subject-section">
     <div class="section-head">
       <div>
-        <p class="section-kicker">Überblick</p>
-        <h2>So ist der Bereich gegliedert</h2>
+        <p class="section-kicker">Wissen</p>
+        <h2>Wichtige Wissensseiten in diesem Fach</h2>
+      </div>
+    </div>
+
+    {featuredArticles.length > 0 ? (
+      <div class="content-grid">
+        {featuredArticles.map((entry) => (
+          <article class="content-card">
+            <div class="content-top">
+              <h3>{entry.data.title}</h3>
+              <span>{levelLabels[entry.data.level]}</span>
+            </div>
+            <p>{entry.data.description}</p>
+            <a href={`${base}wissen/${entry.id}`}>Wissensseite öffnen →</a>
+          </article>
+        ))}
+      </div>
+    ) : (
+      <article class="empty-card">
+        <h3>Noch keine Wissensseiten sichtbar</h3>
+        <p>Für dieses Fach sind aktuell noch keine Wissensseiten sichtbar.</p>
+      </article>
+    )}
+  </section>
+
+  <section class="subject-section">
+    <div class="section-head">
+      <div>
+        <p class="section-kicker">Themen</p>
+        <h2>Wichtige Themen im Überblick</h2>
       </div>
     </div>
 
@@ -100,12 +131,40 @@ const subjectInventory = inventory.bySubject.find((entry) => entry.slug === subj
     </div>
   </section>
 
+  <section class="subject-section">
+    <div class="section-head">
+      <div>
+        <p class="section-kicker">Aufgaben</p>
+        <h2>Passende Aufgaben in diesem Fach</h2>
+      </div>
+    </div>
+
+    {featuredExercises.length > 0 ? (
+      <div class="content-grid">
+        {featuredExercises.map((entry) => (
+          <article class="content-card">
+            <div class="content-top">
+              <h3>{entry.data.title}</h3>
+              <span>{levelLabels[entry.data.level]}</span>
+            </div>
+            <p>{entry.data.description}</p>
+            <a href={`${base}aufgaben/${entry.id}`}>Aufgabe öffnen →</a>
+          </article>
+        ))}
+      </div>
+    ) : (
+      <article class="empty-card" data-present="hide">
+        <h3>Noch keine Aufgaben sichtbar</h3>
+        <p>Für dieses Fach sind aktuell noch keine Aufgaben sichtbar.</p>
+      </article>
+    )}
+  </section>
+
   <section class="subject-section learn-mode-only">
     <div class="section-head">
       <div>
         <p class="section-kicker">Lernmodus</p>
-        <h2>Zusätzliche Lernsicht für diesen Fachbereich</h2>
-        <p>Im Lernmodus wird der Fachbereich nicht nur als Sammlung von Themen genutzt, sondern stärker als geordnete Arbeits- und Vertiefungssicht gelesen.</p>
+        <h2>So kannst du den Bereich lernen</h2>
       </div>
     </div>
 
@@ -114,156 +173,44 @@ const subjectInventory = inventory.bySubject.find((entry) => entry.slug === subj
       <ul>
         {detail.learnModeItems.map((item) => <li>{item}</li>)}
       </ul>
-      <a class="learn-mode-link" href={`${base}aufgaben`}>Passende Aufgaben öffnen →</a>
+      <a class="learn-mode-link" href={`${base}aufgaben`}>Zu den Aufgaben →</a>
     </article>
-  </section>
-
-  <section class="subject-section">
-    <div class="section-head">
-      <div>
-        <p class="section-kicker">Themenfelder</p>
-        <h2>Wichtige Bereiche in diesem Fach</h2>
-      </div>
-    </div>
-
-    <div class="highlight-grid">
-      {detail.highlights.map((item) => (
-        <article class="highlight-card">
-          <h3>{item}</h3>
-          <p>Dieses Themenfeld gehört zu den zentralen Bestandteilen des Fachbereichs und wird fortlaufend mit Wissensseiten und Aufgaben ergänzt.</p>
-        </article>
-      ))}
-    </div>
-  </section>
-
-  <section class="subject-section">
-    <div class="section-head">
-      <div>
-        <p class="section-kicker">Verfügbare Inhalte</p>
-        <h2>Aktuell im Fachbereich sichtbar</h2>
-        <p>Wissensseiten und Aufgaben sind direkt im Fachbereich verankert und wachsen mit jeder weiteren Inhaltswelle sichtbar mit.</p>
-      </div>
-    </div>
-
-    <div class="content-grid two-up">
-      <article class="content-card">
-        <div class="content-top">
-          <h3>Wissensseiten</h3>
-          <span>{articles.length}</span>
-        </div>
-
-        {articles.length > 0 ? (
-          <ul class="content-list">
-            {articles.slice(0, 6).map((entry) => (
-              <li>
-                <div class="content-copy">
-                  <a href={`${base}wissen/${entry.id}`}>{entry.data.title}</a>
-                  <small>{entry.data.description}</small>
-                </div>
-                <span>{levelLabels[entry.data.level]}</span>
-              </li>
-            ))}
-          </ul>
-        ) : (
-          <p class="empty">Die ersten Kernseiten für diesen Fachbereich werden jetzt schrittweise in die Plattform eingezogen.</p>
-        )}
-      </article>
-
-      <article class="content-card" data-present="hide">
-        <div class="content-top">
-          <h3>Aufgaben</h3>
-          <span>{exercises.length}</span>
-        </div>
-
-        {exercises.length > 0 ? (
-          <ul class="content-list">
-            {exercises.slice(0, 6).map((entry) => (
-              <li>
-                <div class="content-copy">
-                  <a href={`${base}aufgaben/${entry.id}`}>{entry.data.title}</a>
-                  <small>{entry.data.description}</small>
-                </div>
-                <span>{levelLabels[entry.data.level]}</span>
-              </li>
-            ))}
-          </ul>
-        ) : (
-          <p class="empty">Passende Aufgabenformate werden für diesen Fachbereich schrittweise sichtbar ergänzt.</p>
-        )}
-      </article>
-    </div>
   </section>
 </BaseLayout>
 
 <style>
   .subject-hero {
     display: grid;
-    grid-template-columns: minmax(0, 1.2fr) minmax(18rem, 24rem);
+    grid-template-columns: minmax(0, 1.25fr) minmax(18rem, 23rem);
     gap: 1.25rem;
     align-items: start;
   }
 
   .eyebrow,
-  .section-kicker {
+  .section-kicker,
+  .entry-label {
     margin: 0 0 0.75rem;
     color: var(--text-soft);
-    font-size: 0.92rem;
+    font-size: 0.9rem;
     font-weight: 700;
     letter-spacing: 0.04em;
     text-transform: uppercase;
   }
 
-  .hero-meta-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.55rem;
-    margin-bottom: 0.85rem;
-  }
-
-  .status-badge,
-  .count-badge {
-    display: inline-flex;
-    align-items: center;
-    min-height: 2rem;
-    padding: 0.12rem 0.72rem;
-    border-radius: 999px;
-    border: 1px solid var(--border);
-    background: var(--surface);
-    color: var(--text-strong);
-    font-size: 0.84rem;
-    font-weight: 700;
-  }
-
   h1 {
     margin: 0;
     color: var(--text-strong);
-    font-size: clamp(2.5rem, 4.7vw, 4.3rem);
+    font-size: clamp(2.5rem, 4.7vw, 4.2rem);
     line-height: 0.98;
     letter-spacing: -0.045em;
-  }
-
-  :global(html[data-presentation-mode="on"]) h1 {
-    font-size: clamp(2.9rem, 5.5vw, 5rem);
   }
 
   .lead {
     margin: 1rem 0 0;
     color: var(--text);
-    line-height: 1.8;
+    line-height: 1.78;
     font-size: 1.05rem;
-  }
-
-  .status-note {
-    margin: 1rem 0 0;
-    max-width: 50rem;
-    color: var(--text-soft);
-    line-height: 1.68;
-  }
-
-  :global(html[data-presentation-mode="on"]) .lead {
-    font-size: 1.18rem;
-    line-height: 1.88;
-    max-width: 62rem;
+    max-width: 52rem;
   }
 
   .hero-actions {
@@ -295,38 +242,129 @@ const subjectInventory = inventory.bySubject.find((entry) => entry.slug === subj
     color: var(--text-strong);
   }
 
-  .hero-stats {
+  .hero-side,
+  .section-grid,
+  .content-grid {
     display: grid;
-    gap: 0.85rem;
+    gap: 1rem;
   }
 
-  .stat-card {
+  .section-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .content-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .subject-section {
     display: grid;
-    gap: 0.35rem;
-    padding: 1.2rem;
+    gap: 1rem;
+    margin-top: 1.9rem;
+  }
+
+  .section-head h2 {
+    margin: 0;
+    color: var(--text-strong);
+    font-size: clamp(1.8rem, 3vw, 2.35rem);
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+  }
+
+  .entry-card,
+  .stat-row,
+  .section-card,
+  .content-card,
+  .empty-card,
+  .learn-mode-card {
     border: 1px solid var(--border);
-    border-radius: 22px;
+    border-radius: 24px;
     background: var(--card-bg);
     box-shadow: var(--shadow-soft);
+    padding: 1.35rem;
   }
 
-  .stat-card span {
-    color: var(--text-soft);
-    font-size: 0.9rem;
+  .entry-card h2,
+  .section-card h3,
+  .content-card h3,
+  .empty-card h3,
+  .learn-mode-card h3 {
+    margin: 0;
+    color: var(--text-strong);
+    font-size: 1.12rem;
+    line-height: 1.2;
+  }
+
+  .entry-card p,
+  .content-card p,
+  .empty-card p {
+    margin: 0.75rem 0 0;
+    color: var(--text);
+    line-height: 1.65;
+  }
+
+  .entry-card a,
+  .content-card a,
+  .learn-mode-link {
+    display: inline-block;
+    margin-top: 0.95rem;
+    color: var(--text-strong);
     font-weight: 700;
   }
 
-  .stat-card strong {
+  .stat-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.8rem;
+  }
+
+  .stat-row div {
+    display: grid;
+    gap: 0.3rem;
+  }
+
+  .stat-row span,
+  .content-top span {
+    color: var(--text-soft);
+    font-size: 0.88rem;
+    font-weight: 700;
+  }
+
+  .stat-row strong {
     color: var(--text-strong);
     font-size: 2rem;
     line-height: 1;
     letter-spacing: -0.04em;
   }
 
-  .subject-section {
+  .section-card ul,
+  .learn-mode-card ul {
+    list-style: none;
+    margin: 0.95rem 0 0;
+    padding: 0;
     display: grid;
-    gap: 1rem;
-    margin-top: 1.8rem;
+    gap: 0.65rem;
+  }
+
+  .section-card li,
+  .learn-mode-card li {
+    padding-bottom: 0.65rem;
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
+    line-height: 1.55;
+  }
+
+  .section-card li:last-child,
+  .learn-mode-card li:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .content-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.8rem;
   }
 
   .learn-mode-only {
@@ -337,69 +375,6 @@ const subjectInventory = inventory.bySubject.find((entry) => entry.slug === subj
     display: grid;
   }
 
-  .section-head h2 {
-    margin: 0;
-    color: var(--text-strong);
-    font-size: clamp(1.75rem, 2.9vw, 2.35rem);
-    line-height: 1.05;
-    letter-spacing: -0.03em;
-  }
-
-  :global(html[data-presentation-mode="on"]) .section-head h2 {
-    font-size: clamp(2rem, 3.4vw, 2.75rem);
-  }
-
-  .section-head p {
-    margin: 0.75rem 0 0;
-    max-width: 44rem;
-    color: var(--text-soft);
-    line-height: 1.64;
-  }
-
-  :global(html[data-presentation-mode="on"]) .section-head p {
-    font-size: 1.08rem;
-    line-height: 1.8;
-    max-width: 62rem;
-  }
-
-  .section-grid,
-  .highlight-grid,
-  .content-grid {
-    display: grid;
-    gap: 1rem;
-  }
-
-  .section-grid,
-  .highlight-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .content-grid.two-up {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  :global(html[data-presentation-mode="on"]) .content-grid.two-up {
-    grid-template-columns: 1fr;
-  }
-
-  .section-card,
-  .highlight-card,
-  .content-card,
-  .learn-mode-card {
-    border: 1px solid var(--border);
-    border-radius: 24px;
-    background: var(--card-bg);
-    box-shadow: var(--shadow-soft);
-    padding: 1.35rem;
-  }
-
-  :global(html[data-presentation-mode="on"]) .section-card,
-  :global(html[data-presentation-mode="on"]) .highlight-card,
-  :global(html[data-presentation-mode="on"]) .content-card,
-  :global(html[data-presentation-mode="on"]) .learn-mode-card {
-    padding: 1.65rem;
-  }
-
   .learn-mode-card {
     background: linear-gradient(135deg, rgba(79,70,229,0.10), rgba(240,244,255,0.88));
   }
@@ -408,124 +383,10 @@ const subjectInventory = inventory.bySubject.find((entry) => entry.slug === subj
     background: linear-gradient(135deg, rgba(79,70,229,0.16), rgba(18,27,46,0.94));
   }
 
-  .section-card h3,
-  .highlight-card h3,
-  .content-top h3,
-  .learn-mode-card h3 {
-    margin: 0;
-    color: var(--text-strong);
-    font-size: 1.12rem;
-  }
-
-  :global(html[data-presentation-mode="on"]) .section-card h3,
-  :global(html[data-presentation-mode="on"]) .highlight-card h3,
-  :global(html[data-presentation-mode="on"]) .content-top h3,
-  :global(html[data-presentation-mode="on"]) .learn-mode-card h3 {
-    font-size: 1.35rem;
-  }
-
-  .section-card ul,
-  .content-list,
-  .learn-mode-card ul {
-    list-style: none;
-    margin: 0.95rem 0 0;
-    padding: 0;
-    display: grid;
-    gap: 0.65rem;
-  }
-
-  .section-card li,
-  .content-list li,
-  .learn-mode-card li {
-    display: flex;
-    justify-content: space-between;
-    gap: 0.8rem;
-    padding-bottom: 0.65rem;
-    border-bottom: 1px solid var(--border);
-    color: var(--text);
-  }
-
-  .section-card li:last-child,
-  .content-list li:last-child,
-  .learn-mode-card li:last-child {
-    border-bottom: 0;
-    padding-bottom: 0;
-  }
-
-  .highlight-card p,
-  .empty {
-    margin: 0.75rem 0 0;
-    color: var(--text);
-    line-height: 1.66;
-  }
-
-  :global(html[data-presentation-mode="on"]) .section-card li,
-  :global(html[data-presentation-mode="on"]) .content-list li,
-  :global(html[data-presentation-mode="on"]) .learn-mode-card li,
-  :global(html[data-presentation-mode="on"]) .highlight-card p,
-  :global(html[data-presentation-mode="on"]) .empty {
-    font-size: 1.08rem;
-    line-height: 1.8;
-  }
-
-  .learn-mode-link {
-    display: inline-block;
-    margin-top: 1rem;
-    color: var(--text-strong);
-    font-weight: 700;
-  }
-
-  .content-top {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-  }
-
-  .content-top span {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 2rem;
-    min-height: 2rem;
-    padding: 0 0.55rem;
-    border-radius: 999px;
-    background: var(--surface);
-    color: var(--text-strong);
-    font-weight: 700;
-    border: 1px solid var(--border);
-  }
-
-  .content-copy {
-    display: grid;
-    gap: 0.3rem;
-  }
-
-  .content-copy a {
-    color: var(--text-strong);
-    font-weight: 650;
-  }
-
-  .content-copy small {
-    color: var(--text-soft);
-    line-height: 1.45;
-  }
-
-  :global(html[data-presentation-mode="on"]) .content-copy small {
-    font-size: 1rem;
-    line-height: 1.7;
-  }
-
-  .content-list span {
-    color: var(--text-soft);
-    flex-shrink: 0;
-  }
-
   @media (max-width: 980px) {
     .subject-hero,
-    .content-grid.two-up,
     .section-grid,
-    .highlight-grid {
+    .content-grid {
       grid-template-columns: 1fr;
     }
   }

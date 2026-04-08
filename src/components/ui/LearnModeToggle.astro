@@ -18,22 +18,27 @@ const learnIcon = `
 </div>
 
 <script>
-  const shell = document.querySelector("[data-learn-toggle]");
-  const button = shell?.querySelector("button");
+  (() => {
+    const shell = document.querySelector("[data-learn-toggle]");
+    if (!shell || shell.dataset.ready === "true") return;
+    shell.dataset.ready = "true";
 
-  const renderLearnMode = () => {
-    if (!button || !window.schlaufuchsModes) return;
-    const isOn = window.schlaufuchsModes.getLearnMode();
-    button.classList.toggle("active", isOn);
-    button.setAttribute("aria-label", isOn ? "Lernmodus deaktivieren" : "Lernmodus aktivieren");
-    button.setAttribute("data-tooltip", isOn ? "Lernmodus deaktivieren" : "Lernmodus aktivieren");
-  };
+    const button = shell.querySelector("button");
 
-  renderLearnMode();
+    const renderLearnMode = () => {
+      if (!button || !window.schlaufuchsModes) return;
+      const isOn = window.schlaufuchsModes.getLearnMode();
+      button.classList.toggle("active", isOn);
+      button.setAttribute("aria-label", isOn ? "Lernmodus deaktivieren" : "Lernmodus aktivieren");
+      button.setAttribute("data-tooltip", isOn ? "Lernmodus deaktivieren" : "Lernmodus aktivieren");
+    };
 
-  button?.addEventListener("click", () => {
-    window.schlaufuchsModes?.toggleLearnMode();
-  });
+    renderLearnMode();
 
-  window.addEventListener("learnmode-changed", renderLearnMode);
+    button?.addEventListener("click", () => {
+      window.schlaufuchsModes?.toggleLearnMode();
+    });
+
+    window.addEventListener("learnmode-changed", renderLearnMode);
+  })();
 </script>
