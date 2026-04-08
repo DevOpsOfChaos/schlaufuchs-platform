@@ -1,51 +1,63 @@
 ---
 title: SSH – Grundlagen
-description: Verstehe, wie sicherer Fernzugriff auf Linux-Systeme grundlegend funktioniert.
+description: Verstehe, was SSH ist, wofür es genutzt wird und warum es für sicheren Fernzugriff wichtig ist.
 subject: linux
-section: fernzugriff
+section: ssh
 level: einfach
-tags: [ssh, linux, fernzugriff, terminal]
+tags: [ssh, fernzugriff, linux, sicherheit]
 draft: false
 ---
 
-SSH gehört zu den wichtigsten Werkzeugen im Linux-Alltag. Damit kannst du dich sicher mit entfernten Systemen verbinden und so arbeiten, als würdest du direkt am anderen Rechner sitzen.
+SSH gehört zu den wichtigsten Werkzeugen im Linux-Umfeld, sobald man nicht mehr nur lokal am eigenen Rechner arbeitet. Es ermöglicht einen **sicheren Fernzugriff** auf andere Systeme.
 
 ## Was ist SSH?
 
-SSH steht für **Secure Shell**. Gemeint ist damit ein Protokoll und zugleich ein typischer Arbeitsweg, um sich sicher an einem anderen System anzumelden.
+SSH steht für **Secure Shell**. Es ist ein Verfahren, mit dem man sich über ein Netzwerk sicher mit einem anderen Rechner verbinden kann.
 
-## Warum das Thema wichtig ist
+Typische Einsatzbereiche sind:
 
-SSH ist in vielen Praxis-Situationen zentral, zum Beispiel wenn du:
+- Anmeldung auf einem entfernten Linux-System
+- Verwaltung von Servern
+- Ausführen von Befehlen aus der Ferne
+- sicherer Zugriff auf Systeme ohne grafische Oberfläche
 
-- Server verwalten willst
-- Raspberry-Pi- oder Linux-Systeme aus der Ferne nutzt
-- Befehle auf einem anderen Rechner ausführst
+## Warum ist SSH so wichtig?
 
-## Die Grundidee
+Viele Linux-Systeme werden nicht direkt vor Ort bedient. Gerade Server, virtuelle Maschinen oder entfernte Geräte werden oft über die Kommandozeile verwaltet.
 
-Im Einstieg reicht diese Sicht:
+SSH ist dafür zentral, weil es
 
-- du arbeitest lokal an deinem Rechner
-- über SSH baust du eine sichere Verbindung zu einem entfernten System auf
-- danach arbeitest du dort im Terminal weiter
+- die Verbindung absichert,
+- die Anmeldung schützt,
+- Fernzugriff im Alltag praktikabel macht.
 
-## Was du häufig brauchst
+## Was passiert bei einer SSH-Verbindung?
 
-Am Anfang begegnen dir besonders oft:
+Vereinfacht läuft eine Verbindung so ab:
 
-- Benutzername
-- Hostname oder IP-Adresse
-- Passwort oder später Schlüssel
+- Ein Nutzer verbindet sich mit einem entfernten System.
+- Das Zielsystem prüft den Zugriff.
+- Nach erfolgreicher Anmeldung kann auf dem entfernten System gearbeitet werden.
+
+Wichtig ist: Man arbeitet dann nicht mehr lokal, sondern auf einem anderen Rechner.
+
+## Typische Begriffe im Umfeld von SSH
+
+Im Einstieg solltest du vor allem diese Ideen sauber verstehen:
+
+- **lokales System** und **entferntes System**
+- **Anmeldung** am Zielsystem
+- **sicherer Fernzugriff**
+- Unterschied zwischen direkter lokaler Nutzung und Arbeit über Netzwerk
 
 ## Was du zuerst verstehen solltest
 
-Wichtig ist vor allem:
+Am Anfang ist besonders wichtig:
 
-- SSH ist ein Werkzeug für sicheren Fernzugriff
-- es verbindet Linux-Praxis mit Netzwerken und Benutzerverwaltung
-- schon einfache SSH-Verbindungen sind ein großer Praxisschritt über lokale Terminalarbeit hinaus
+- SSH ist ein Werkzeug für sicheren Fernzugriff.
+- Man verbindet sich damit mit einem anderen System.
+- Nach der Verbindung arbeitet man auf dem Zielsystem, nicht auf dem lokalen Rechner.
 
 ## Merksatz
 
-SSH ermöglicht sicheren Fernzugriff auf andere Systeme und gehört zu den wichtigsten Linux-Werkzeugen für echte Praxisarbeit.
+SSH ermöglicht einen sicheren Zugriff auf entfernte Systeme und gehört damit zu den wichtigsten Praxiswerkzeugen im Linux-Alltag.
