@@ -23,17 +23,6 @@ export const mainNavigation = [
     `,
   },
   {
-    label: "Aufgaben",
-    href: "/aufgaben",
-    icon: `
-      <svg viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M9 4.5h6"></path>
-        <rect x="6" y="3" width="12" height="18" rx="2"></rect>
-        <path d="M9 9.5h6M9 13h6M9 16.5h4"></path>
-      </svg>
-    `,
-  },
-  {
     label: "News",
     href: "/news",
     icon: `
@@ -41,18 +30,6 @@ export const mainNavigation = [
         <rect x="5" y="5" width="12" height="14" rx="1.8"></rect>
         <path d="M17 8h2a1 1 0 0 1 1 1v8a2 2 0 0 1-2 2H8"></path>
         <path d="M8 9h6M8 12h6M8 15h4"></path>
-      </svg>
-    `,
-  },
-  {
-    label: "Inhaltsstand",
-    href: "/inhaltsstand",
-    hideInPresentation: true,
-    icon: `
-      <svg viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M5 19V9"></path>
-        <path d="M12 19V5"></path>
-        <path d="M19 19v-7"></path>
       </svg>
     `,
   },

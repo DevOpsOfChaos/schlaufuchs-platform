@@ -68,17 +68,6 @@ const directEntry = featuredArticles[0];
           <p>In diesem Fach findest du Grundlagen, Wissensseiten und passende Aufgaben in einer klaren Struktur.</p>
         </article>
       )}
-
-      <article class="stat-row" data-present="hide">
-        <div>
-          <span>Wissensseiten</span>
-          <strong>{articles.length}</strong>
-        </div>
-        <div>
-          <span>Aufgaben</span>
-          <strong>{exercises.length}</strong>
-        </div>
-      </article>
     </div>
   </section>
 
@@ -272,7 +261,6 @@ const directEntry = featuredArticles[0];
   }
 
   .entry-card,
-  .stat-row,
   .section-card,
   .content-card,
   .empty-card,
@@ -312,31 +300,6 @@ const directEntry = featuredArticles[0];
     font-weight: 700;
   }
 
-  .stat-row {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.8rem;
-  }
-
-  .stat-row div {
-    display: grid;
-    gap: 0.3rem;
-  }
-
-  .stat-row span,
-  .content-top span {
-    color: var(--text-soft);
-    font-size: 0.88rem;
-    font-weight: 700;
-  }
-
-  .stat-row strong {
-    color: var(--text-strong);
-    font-size: 2rem;
-    line-height: 1;
-    letter-spacing: -0.04em;
-  }
-
   .section-card ul,
   .learn-mode-card ul {
     list-style: none;
@@ -365,6 +328,12 @@ const directEntry = featuredArticles[0];
     align-items: flex-start;
     justify-content: space-between;
     gap: 0.8rem;
+  }
+
+  .content-top span {
+    color: var(--text-soft);
+    font-size: 0.88rem;
+    font-weight: 700;
   }
 
   .learn-mode-only {

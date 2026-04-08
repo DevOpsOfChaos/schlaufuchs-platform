@@ -22,21 +22,12 @@ const latestEntry = entries[0];
 const archiveEntries = entries.slice(1, 4);
 ---
 
-<BaseLayout title="News – Schlaufuchs" description="Änderungen, Inhaltswellen und Plattformschritte als Feed.">
+<BaseLayout title="News – Schlaufuchs" description="Änderungen und Updates als einfache News-Seite.">
   <section class="news-head">
     <div>
       <p class="eyebrow">News</p>
-      <h1>Änderungen als echter Feed</h1>
-      <p class="lead">
-        Hier laufen sichtbare Inhaltswellen, Plattformschritte und größere Verbesserungen der
-        Lernplattform zusammen. Der Feed wird direkt aus der News-Collection aufgebaut.
-      </p>
-    </div>
-
-    <div class="news-stat" data-present="hide">
-      <span>Live-Einträge</span>
-      <strong>{entries.length}</strong>
-      <p>{latestEntry ? `Zuletzt aktualisiert: ${latestEntry.dateLabel}` : "Die ersten News-Einträge werden jetzt sichtbar aufgebaut."}</p>
+      <h1>Neuigkeiten und Updates</h1>
+      <p class="lead">Hier findest du aktuelle Änderungen und neue Inhalte.</p>
     </div>
   </section>
 
@@ -46,7 +37,6 @@ const archiveEntries = entries.slice(1, 4);
         <div class="meta" data-present="hide">
           <span>{latestEntry.dateLabel}</span>
           <span>{latestEntry.category}</span>
-          <span>Neuestes Update</span>
         </div>
         <h2>{latestEntry.data.title}</h2>
         <p>{latestEntry.data.description}</p>
@@ -58,8 +48,8 @@ const archiveEntries = entries.slice(1, 4);
     <section class="feed-section">
       <div class="section-head">
         <div>
-          <p class="section-kicker">Weitere Updates</p>
-          <h2>Frühere Plattformschritte</h2>
+          <p class="section-kicker">Weitere Einträge</p>
+          <h2>Frühere Updates</h2>
         </div>
       </div>
 
@@ -80,7 +70,7 @@ const archiveEntries = entries.slice(1, 4);
     <section class="empty-shell">
       <article class="empty-card">
         <h2>Noch keine News sichtbar</h2>
-        <p>Die News-Collection ist vorbereitet und kann jetzt Schritt für Schritt mit echten Plattform-Updates gefüllt werden.</p>
+        <p>Aktuell sind noch keine News-Einträge sichtbar.</p>
       </article>
     </section>
   ) : null}
@@ -89,14 +79,8 @@ const archiveEntries = entries.slice(1, 4);
 <style>
   .news-head {
     display: grid;
-    grid-template-columns: minmax(0, 1.3fr) minmax(15rem, 19rem);
     gap: 1rem;
-    align-items: start;
     padding: 0.25rem 0 0;
-  }
-
-  :global(html[data-presentation-mode="on"]) .news-head {
-    grid-template-columns: 1fr;
   }
 
   .eyebrow,
@@ -118,46 +102,17 @@ const archiveEntries = entries.slice(1, 4);
 
   .lead {
     margin: 1rem 0 0;
-    max-width: 46rem;
+    max-width: 42rem;
     color: var(--text-soft);
     line-height: 1.7;
   }
 
-  .news-stat,
   .empty-card,
   .latest-card,
   .feed-card {
     border: 1px solid var(--border);
     background: var(--card-bg);
     box-shadow: var(--shadow-soft);
-  }
-
-  .news-stat {
-    display: grid;
-    gap: 0.4rem;
-    padding: 1.3rem;
-    border-radius: 24px;
-  }
-
-  .news-stat span {
-    color: var(--text-soft);
-    font-size: 0.92rem;
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-  }
-
-  .news-stat strong {
-    color: var(--text-strong);
-    font-size: 3rem;
-    line-height: 1;
-    letter-spacing: -0.05em;
-  }
-
-  .news-stat p {
-    margin: 0;
-    color: var(--text);
-    line-height: 1.6;
   }
 
   .latest-shell,
@@ -195,19 +150,6 @@ const archiveEntries = entries.slice(1, 4);
   .feed {
     display: grid;
     gap: 1rem;
-  }
-
-  .feed-card::after,
-  .latest-card::after {
-    content: "";
-    position: absolute;
-    right: -2rem;
-    bottom: -2.3rem;
-    width: 7rem;
-    height: 7rem;
-    border-radius: 999px;
-    background: rgba(255,255,255,0.07);
-    pointer-events: none;
   }
 
   .feed-card.tone-0 { background: linear-gradient(135deg, rgba(93,113,175,.28), rgba(232,237,248,.76)); }
@@ -256,11 +198,5 @@ const archiveEntries = entries.slice(1, 4);
   .empty-card {
     padding: 1.4rem 1.5rem;
     border-radius: 22px;
-  }
-
-  @media (max-width: 980px) {
-    .news-head {
-      grid-template-columns: 1fr;
-    }
   }
 </style>
