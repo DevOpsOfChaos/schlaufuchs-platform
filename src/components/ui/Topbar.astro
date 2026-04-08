@@ -23,6 +23,8 @@ const searchIcon = `
 </svg>`;
 ---
 
+<a class="skip-link" href="#main-content">Zum Inhalt springen</a>
+
 <header class="topbar-shell">
   <div class="topbar">
     <a class="brand" href={`${base}`} aria-label="Schlaufuchs Startseite">
@@ -39,10 +41,11 @@ const searchIcon = `
     <nav class="nav" aria-label="Hauptnavigation">
       <ul>
         {mainNavigation.map((item) => (
-          <li>
+          <li data-present={item.hideInPresentation ? "hide" : undefined}>
             <a
               href={normalizeHref(item.href)}
               aria-label={item.label}
+              aria-current={isActive(item.href) ? "page" : undefined}
               title={item.label}
               data-tooltip={item.label}
               class:list={{ active: isActive(item.href) }}
@@ -74,6 +77,29 @@ const searchIcon = `
 </header>
 
 <style>
+  .skip-link {
+    position: fixed;
+    left: 50%;
+    top: 0.7rem;
+    transform: translate(-50%, -140%);
+    z-index: 90;
+    min-height: 2.9rem;
+    padding: 0 1rem;
+    border-radius: 999px;
+    border: 1px solid var(--border-strong);
+    background: var(--card-bg);
+    color: var(--text-strong);
+    font-weight: 700;
+    box-shadow: var(--shadow-soft);
+    display: inline-flex;
+    align-items: center;
+    transition: transform 140ms ease;
+  }
+
+  .skip-link:focus {
+    transform: translate(-50%, 0);
+  }
+
   .topbar-shell {
     position: sticky;
     top: 0;
