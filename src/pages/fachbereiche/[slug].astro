@@ -3,6 +3,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { type CollectionEntry } from "astro:content";
 import { getArticlesForSubject, getExercisesForSubject, getVisibleSubjects, levelLabels } from "../../data/content";
 import { getSubjectMeta } from "../../data/subjects";
+import { getEntriesForPrimarySubject, getSubjectSectionCards, getTopicTail } from "../../data/topics";
 import { withBase } from "../../utils/base";
 
 export async function getStaticPaths() {
@@ -34,8 +35,11 @@ const [articles, exercises] = await Promise.all([
   getExercisesForSubject(subject.data.slug),
 ]);
 
-const featuredArticles = articles.slice(0, 6);
-const featuredExercises = exercises.slice(0, 6);
+const subjectArticles = getEntriesForPrimarySubject(articles, subject.data.slug);
+const subjectExercises = getEntriesForPrimarySubject(exercises, subject.data.slug);
+const subjectSections = getSubjectSectionCards([...subjectArticles, ...subjectExercises]);
+const featuredArticles = subjectArticles.slice(0, 6);
+const featuredExercises = subjectExercises.slice(0, 6);
 const directEntry = featuredArticles[0];
 ---
 
@@ -58,7 +62,7 @@ const directEntry = featuredArticles[0];
           <span class="entry-label">Direkter Einstieg</span>
           <h2>{directEntry.data.title}</h2>
           <p>{directEntry.data.description}</p>
-          <a href={withBase(`wissen/${directEntry.id}`)}>Zur Wissensseite →</a>
+          <a href={withBase(`fachbereiche/${subject.data.slug}/${getTopicTail(directEntry).join("/")}`)}>Zur Fachinfo →</a>
         </article>
       ) : (
         <article class="entry-card">
@@ -73,7 +77,34 @@ const directEntry = featuredArticles[0];
   <section class="subject-section">
     <div class="section-head">
       <div>
-        <p class="section-kicker">Wissen</p>
+        <p class="section-kicker">Themen</p>
+        <h2>Direkt in die Fachthemen</h2>
+      </div>
+    </div>
+
+    <div class="section-grid linked-topics">
+      {subjectSections.map((section) => (
+        <a class="section-card topic-link-card" href={withBase(`fachbereiche/${subject.data.slug}/${section.slug}`)}>
+          <div class="topic-link-top">
+            <h3>{section.title}</h3>
+            <span class="topic-arrow" aria-hidden="true">→</span>
+          </div>
+          {section.children.length > 0 ? (
+            <ul>
+              {section.children.slice(0, 4).map((item) => <li>{item.title}</li>)}
+            </ul>
+          ) : (
+            <p class="topic-link-text">Öffne die Themenübersicht mit Fachinfos, Wissensseiten und passenden Aufgaben.</p>
+          )}
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="subject-section">
+    <div class="section-head">
+      <div>
+        <p class="section-kicker">Fachinfos</p>
         <h2>Wichtige Wissensseiten in diesem Fach</h2>
       </div>
     </div>
@@ -87,7 +118,7 @@ const directEntry = featuredArticles[0];
               <span>{levelLabels[entry.data.level]}</span>
             </div>
             <p>{entry.data.description}</p>
-            <a href={withBase(`wissen/${entry.id}`)}>Wissensseite öffnen →</a>
+            <a href={withBase(`fachbereiche/${subject.data.slug}/${getTopicTail(entry).join("/")}`)}>Fachinfo öffnen →</a>
           </article>
         ))}
       </div>
@@ -97,26 +128,6 @@ const directEntry = featuredArticles[0];
         <p>Für dieses Fach sind aktuell noch keine Wissensseiten sichtbar.</p>
       </article>
     )}
-  </section>
-
-  <section class="subject-section">
-    <div class="section-head">
-      <div>
-        <p class="section-kicker">Themen</p>
-        <h2>Wichtige Themen im Überblick</h2>
-      </div>
-    </div>
-
-    <div class="section-grid">
-      {detail.sections.map((section) => (
-        <article class="section-card">
-          <h3>{section.title}</h3>
-          <ul>
-            {section.items.map((item) => <li>{item}</li>)}
-          </ul>
-        </article>
-      ))}
-    </div>
   </section>
 
   <section class="subject-section">
@@ -161,7 +172,7 @@ const directEntry = featuredArticles[0];
       <ul>
         {detail.learnModeItems.map((item) => <li>{item}</li>)}
       </ul>
-      <a class="learn-mode-link" href={withBase("aufgaben")}>Zu den Aufgaben →</a>
+      <a class="learn-mode-link" href={withBase("fachbereiche")}>Zu den Fachbereichen →</a>
     </article>
   </section>
 </BaseLayout>
@@ -263,12 +274,73 @@ const directEntry = featuredArticles[0];
   .section-card,
   .content-card,
   .empty-card,
+  .learnMode-card,
   .learn-mode-card {
     border: 1px solid var(--border);
     border-radius: 24px;
     background: var(--card-bg);
     box-shadow: var(--shadow-soft);
     padding: 1.35rem;
+  }
+
+  .topic-link-card {
+    transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
+  }
+
+  .topic-link-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-card);
+    border-color: var(--border-strong);
+  }
+
+  .topic-link-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.8rem;
+  }
+
+  .topic-arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 999px;
+    border: 1px solid rgba(148,163,184,0.14);
+    background: rgba(255,255,255,0.24);
+    color: var(--text-strong);
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  .section-card ul,
+  .learn-mode-card ul {
+    list-style: none;
+    margin: 0.95rem 0 0;
+    padding: 0;
+    display: grid;
+    gap: 0.65rem;
+  }
+
+  .section-card li,
+  .learn-mode-card li {
+    padding-bottom: 0.65rem;
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
+    line-height: 1.55;
+  }
+
+  .section-card li:last-child,
+  .learn-mode-card li:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .topic-link-text {
+    margin: 0.95rem 0 0;
+    color: var(--text);
+    line-height: 1.6;
   }
 
   .entry-card h2,
@@ -297,29 +369,6 @@ const directEntry = featuredArticles[0];
     margin-top: 0.95rem;
     color: var(--text-strong);
     font-weight: 700;
-  }
-
-  .section-card ul,
-  .learn-mode-card ul {
-    list-style: none;
-    margin: 0.95rem 0 0;
-    padding: 0;
-    display: grid;
-    gap: 0.65rem;
-  }
-
-  .section-card li,
-  .learn-mode-card li {
-    padding-bottom: 0.65rem;
-    border-bottom: 1px solid var(--border);
-    color: var(--text);
-    line-height: 1.55;
-  }
-
-  .section-card li:last-child,
-  .learn-mode-card li:last-child {
-    border-bottom: 0;
-    padding-bottom: 0;
   }
 
   .content-top {
