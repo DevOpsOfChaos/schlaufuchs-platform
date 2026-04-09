@@ -1,18 +1,19 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { withBase } from "../../utils/base";
 
-const base = import.meta.env.BASE_URL;
+const redirectHref = withBase("fachbereiche");
 ---
 
 <BaseLayout title="Aufgaben – Schlaufuchs" description="Aufgaben findest du direkt in den Fachbereichen.">
-  <script is:inline>
-    window.location.replace(`${base}fachbereiche`);
+  <script is:inline define:vars={{ redirectHref }}>
+    window.location.replace(redirectHref);
   </script>
 
   <section class="redirect-shell">
     <p class="kicker">Weiterleitung</p>
     <h1>Aufgaben findest du direkt in den Fachbereichen.</h1>
-    <a class="redirect-link" href={`${base}fachbereiche`}>Zu den Fachbereichen</a>
+    <a class="redirect-link" href={redirectHref}>Zu den Fachbereichen</a>
   </section>
 </BaseLayout>
 

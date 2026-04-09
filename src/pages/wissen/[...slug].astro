@@ -3,8 +3,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { render, type CollectionEntry } from "astro:content";
 import { getVisibleArticles, getVisibleExercises, levelLabels } from "../../data/content";
 import { resolvePrimarySubjectSlug, subjectTitleMap } from "../../data/subjects";
-
-const base = import.meta.env.BASE_URL;
+import { withBase } from "../../utils/base";
 
 export async function getStaticPaths() {
   const articles = await getVisibleArticles();
@@ -41,11 +40,11 @@ const relatedExercises = allExercises
 
 <BaseLayout title={`${entry.data.title} – Schlaufuchs`} description={entry.data.description}>
   <nav class="breadcrumb" aria-label="Brotkrumen">
-    <a href={`${base}`}>Start</a>
+    <a href={withBase()}>Start</a>
     <span>›</span>
-    <a href={`${base}fachbereiche`}>Fachbereiche</a>
+    <a href={withBase("fachbereiche")}>Fachbereiche</a>
     <span>›</span>
-    <a href={`${base}fachbereiche/${subjectSlug}`}>{subjectTitle}</a>
+    <a href={withBase(`fachbereiche/${subjectSlug}`)}>{subjectTitle}</a>
     <span>›</span>
     <span aria-current="page">Wissensseite</span>
   </nav>
@@ -85,7 +84,7 @@ const relatedExercises = allExercises
               <span>{levelLabels[item.data.level]}</span>
             </div>
             <p>{item.data.description}</p>
-            <a href={`${base}aufgaben/${item.id}`}>Aufgabe öffnen →</a>
+            <a href={withBase(`aufgaben/${item.id}`)}>Aufgabe öffnen →</a>
           </article>
         ))}
       </div>
@@ -109,7 +108,7 @@ const relatedExercises = allExercises
               <span>{item.data.section}</span>
             </div>
             <p>{item.data.description}</p>
-            <a href={`${base}wissen/${item.id}`}>Wissensseite öffnen →</a>
+            <a href={withBase(`wissen/${item.id}`)}>Wissensseite öffnen →</a>
           </article>
         ))}
       </div>

@@ -3,8 +3,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { type CollectionEntry } from "astro:content";
 import { getArticlesForSubject, getExercisesForSubject, getVisibleSubjects, levelLabels } from "../../data/content";
 import { getSubjectMeta } from "../../data/subjects";
-
-const base = import.meta.env.BASE_URL;
+import { withBase } from "../../utils/base";
 
 export async function getStaticPaths() {
   const subjects = await getVisibleSubjects();
@@ -48,8 +47,8 @@ const directEntry = featuredArticles[0];
       <p class="lead">{detail.intro}</p>
 
       <div class="hero-actions" data-present="hide">
-        <a class="hero-button primary" href={`${base}fachbereiche`}>Alle Fachbereiche</a>
-        <a class="hero-button secondary" href={`${base}suchen`}>Im Fach suchen</a>
+        <a class="hero-button primary" href={withBase("fachbereiche")}>Alle Fachbereiche</a>
+        <a class="hero-button secondary" href={withBase("suchen")}>Im Fach suchen</a>
       </div>
     </div>
 
@@ -59,7 +58,7 @@ const directEntry = featuredArticles[0];
           <span class="entry-label">Direkter Einstieg</span>
           <h2>{directEntry.data.title}</h2>
           <p>{directEntry.data.description}</p>
-          <a href={`${base}wissen/${directEntry.id}`}>Zur Wissensseite →</a>
+          <a href={withBase(`wissen/${directEntry.id}`)}>Zur Wissensseite →</a>
         </article>
       ) : (
         <article class="entry-card">
@@ -88,7 +87,7 @@ const directEntry = featuredArticles[0];
               <span>{levelLabels[entry.data.level]}</span>
             </div>
             <p>{entry.data.description}</p>
-            <a href={`${base}wissen/${entry.id}`}>Wissensseite öffnen →</a>
+            <a href={withBase(`wissen/${entry.id}`)}>Wissensseite öffnen →</a>
           </article>
         ))}
       </div>
@@ -137,7 +136,7 @@ const directEntry = featuredArticles[0];
               <span>{levelLabels[entry.data.level]}</span>
             </div>
             <p>{entry.data.description}</p>
-            <a href={`${base}aufgaben/${entry.id}`}>Aufgabe öffnen →</a>
+            <a href={withBase(`aufgaben/${entry.id}`)}>Aufgabe öffnen →</a>
           </article>
         ))}
       </div>
@@ -162,7 +161,7 @@ const directEntry = featuredArticles[0];
       <ul>
         {detail.learnModeItems.map((item) => <li>{item}</li>)}
       </ul>
-      <a class="learn-mode-link" href={`${base}aufgaben`}>Zu den Aufgaben →</a>
+      <a class="learn-mode-link" href={withBase("aufgaben")}>Zu den Aufgaben →</a>
     </article>
   </section>
 </BaseLayout>

@@ -1,8 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getVisibleNews } from "../../data/content";
-
-const base = import.meta.env.BASE_URL;
+import { withBase } from "../../utils/base";
 
 const formatDate = (date: Date) =>
   date.toLocaleDateString("de-DE", {
@@ -13,7 +12,7 @@ const formatDate = (date: Date) =>
 
 const entries = (await getVisibleNews()).map((entry) => ({
   ...entry,
-  href: `${base}news/${entry.id}`,
+  href: withBase(`news/${entry.id}`),
   dateLabel: formatDate(entry.data.publishedAt),
   category: entry.data.tags[0] ?? "Update",
 }));
