@@ -20,10 +20,12 @@ const subjectTitle = subjectTitleMap[entry.data.subject] ?? "Fachbereich";
 const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject) ?? "elektrotechnik";
 
 const [allArticles, allExercises] = await Promise.all([getVisibleArticles(), getVisibleExercises()]);
+const entryTags = entry.data.tags ?? [];
 
 const scoreByTopicFit = (item: CollectionEntry<"articles"> | CollectionEntry<"exercises">) => {
   const sameSection = item.data.section === entry.data.section ? 3 : 0;
-  const sharedTags = item.data.tags.filter((tag) => entry.data.tags.includes(tag)).length;
+  const itemTags = "tags" in item.data && Array.isArray(item.data.tags) ? item.data.tags : [];
+  const sharedTags = itemTags.filter((tag) => entryTags.includes(tag)).length;
   return sameSection + sharedTags;
 };
 
