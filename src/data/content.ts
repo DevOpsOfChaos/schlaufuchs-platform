@@ -1,5 +1,6 @@
 import { getCollection, type CollectionEntry } from "astro:content";
 import { getSubjectMeta, resolvePrimarySubjectSlug, subjectTitleMap, visibleSubjectOrder } from "./subjects";
+import { getTopicTail } from "./topics";
 
 export const levelLabels = {
   einfach: "Einfach",
@@ -108,14 +109,17 @@ export const getSearchEntries = async (base: string) => {
     tags: "fachbereich einstieg struktur",
   }));
 
-  const articleEntries = articles.map((entry) => ({
-    title: entry.data.title,
-    description: entry.data.description,
-    href: `${base}wissen/${entry.id}`,
-    kind: "Wissensseite",
-    area: subjectTitleMap[entry.data.subject] ?? "Fachbereich",
-    tags: `${entry.data.section} ${entry.data.tags.join(" ")}`.trim(),
-  }));
+  const articleEntries = articles.map((entry) => {
+    const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject);
+    return {
+      title: entry.data.title,
+      description: entry.data.description,
+      href: `${base}fachbereiche/${subjectSlug ?? entry.data.subject}/${getTopicTail(entry).join("/")}`,
+      kind: "Wissensseite",
+      area: subjectTitleMap[entry.data.subject] ?? "Fachbereich",
+      tags: `${entry.data.section} ${entry.data.tags.join(" ")}`.trim(),
+    };
+  });
 
   const exerciseEntries = exercises.map((entry) => ({
     title: entry.data.title,

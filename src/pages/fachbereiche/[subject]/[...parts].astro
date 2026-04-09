@@ -77,7 +77,6 @@ const childTopics = [...childTopicsMap.values()]
   .sort((a, b) => a.title.localeCompare(b.title, "de"));
 
 const topicTitle = humanizeTopicSegment(parts.at(-1) ?? subjectTitle);
-const parentTopicHref = parts.length > 1 ? withBase(`fachbereiche/${subjectSlug}/${parts.slice(0, -1).join("/")}`) : withBase(`fachbereiche/${subjectSlug}`);
 
 let Content: Awaited<ReturnType<typeof render>>["Content"] | null = null;
 if (exactArticle) {
@@ -93,6 +92,8 @@ const relatedExercises = subjectExercises
     return articlePrefixKey.length > 0 && tail.slice(0, articlePrefix.length).join("/") === articlePrefixKey;
   })
   .slice(0, 6);
+
+const articleTopicExercises = directExercises.slice(0, 6);
 ---
 
 <BaseLayout
@@ -133,6 +134,52 @@ const relatedExercises = subjectExercises
         </article>
       </section>
 
+      {childTopics.length > 0 && (
+        <section class="topic-section">
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">Unterthemen</p>
+              <h2>Von hier aus tiefer ins Fachthema</h2>
+            </div>
+          </div>
+
+          <div class="card-grid">
+            {childTopics.map((topic) => (
+              <a class="info-card link-card" href={topic.href}>
+                <div class="card-top">
+                  <h3>{topic.title}</h3>
+                  <span>→</span>
+                </div>
+                <p>Öffne die Themenübersicht zu {topic.title} mit Fachinfos, Wissensseiten und passenden Aufgaben.</p>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {directArticles.length > 0 && (
+        <section class="topic-section">
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">Fachinfos</p>
+              <h2>Weitere Fachinfos in diesem Themenpfad</h2>
+            </div>
+          </div>
+
+          <div class="card-grid">
+            {directArticles.map((entry) => (
+              <a class="info-card link-card" href={withBase(`fachbereiche/${subjectSlug}/${getTopicTail(entry).join("/")}`)}>
+                <div class="card-top">
+                  <h3>{entry.data.title}</h3>
+                  <span>{levelLabels[entry.data.level]}</span>
+                </div>
+                <p>{entry.data.description}</p>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+
       {relatedExercises.length > 0 && (
         <section class="topic-section">
           <div class="section-head">
@@ -140,11 +187,34 @@ const relatedExercises = subjectExercises
               <p class="section-kicker">Aufgaben</p>
               <h2>Passende Aufgaben zu diesem Thema</h2>
             </div>
-            <a class="section-link" href={parentTopicHref}>Zur Themenübersicht</a>
           </div>
 
           <div class="card-grid">
             {relatedExercises.map((entry) => (
+              <article class="info-card">
+                <div class="card-top">
+                  <h3>{entry.data.title}</h3>
+                  <span>{levelLabels[entry.data.level]}</span>
+                </div>
+                <p>{entry.data.description}</p>
+                <a href={withBase(`aufgaben/${entry.id}`)}>Aufgabe öffnen →</a>
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {relatedExercises.length === 0 && articleTopicExercises.length > 0 && (
+        <section class="topic-section">
+          <div class="section-head">
+            <div>
+              <p class="section-kicker">Aufgaben</p>
+              <h2>Passende Aufgaben im Themenpfad</h2>
+            </div>
+          </div>
+
+          <div class="card-grid">
+            {articleTopicExercises.map((entry) => (
               <article class="info-card">
                 <div class="card-top">
                   <h3>{entry.data.title}</h3>
@@ -348,11 +418,6 @@ const relatedExercises = subjectExercises
     color: var(--text-strong);
     font-size: clamp(1.7rem, 2.8vw, 2.2rem);
     line-height: 1.05;
-  }
-
-  .section-link {
-    color: var(--text-strong);
-    font-weight: 700;
   }
 
   .card-grid {
