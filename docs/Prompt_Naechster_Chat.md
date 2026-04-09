@@ -2,38 +2,31 @@
 
 Du setzt die Arbeit an einer bereits fortgeschrittenen Plattform fort.
 
-## Dein erster Schritt
+## Erster Schritt – verpflichtend
 1. Öffne und lies vollständig:
    - `docs/Uebergabe_Naechster_Chat.md`
    - `docs/Prompt_Naechster_Chat.md`
-2. Arbeite danach **ohne Reset** direkt weiter.
-3. Fokussiere dich zuerst auf **echte Inhalte** und nicht auf endlose Oberflächenpolitur.
+2. Starte danach **ohne Reset** direkt weiter.
+3. Arbeite repo-nah und selbstständig.
 
 ---
 
-## Was du verstehen musst
-Die Plattform ist bereits deutlich über den Rohbau hinaus.
+## Wichtigster aktueller Fokus
+Der wichtigste nächste Arbeitsblock ist **nicht** allgemeine Oberflächenpolitur, sondern:
 
-Es gibt schon:
-- moderne Startseite,
-- Fachübersicht,
-- Fachdetailseiten,
-- Wissensseiten,
-- Aufgabenseiten,
-- globalen Aufgaben-Hub,
-- Suche,
-- News,
-- Inhaltsstand,
-- PDF-/Druckansichten für Aufgaben,
-- Build-/Deploy-Workflow,
-- SEO-/Crawler-Basis.
+- die neue **Themen-/Fachinfo-Struktur innerhalb der Fachpfade** prüfen,
+- sichtbar machen,
+- stabilisieren,
+- und wenn nötig nachschärfen.
 
-Du startest also **nicht** neu, sondern setzt eine laufende Arbeit fort.
+Der Nutzer hat klar kritisiert, dass man sich zwar durch Fachthemen klicken konnte, aber **zu wenig echte Fachinfos/Informationsseiten innerhalb dieser Themenstruktur sichtbar waren**.
+
+Genau das soll jetzt der Schwerpunkt sein.
 
 ---
 
-## Feste Produktregeln
-Arbeite überall konsistent nur mit diesen fünf Hauptfächern:
+## Verbindliche Produktregeln
+Arbeite nur mit diesen fünf Hauptfächern:
 - Mathematik
 - Informatik
 - Elektrotechnik
@@ -41,66 +34,71 @@ Arbeite überall konsistent nur mit diesen fünf Hauptfächern:
 - Web Development
 
 Wichtig:
-- `Daten & Signale` ist kein eigener Hauptfachbereich.
-- `HTML/CSS` ist kein eigener Hauptfachbereich.
+- `Daten & Signale` ist **kein** eigener Hauptfachbereich.
+- `HTML/CSS` ist **kein** eigener Hauptfachbereich.
 - Aufgaben sind zentral.
 - Alte HTML-Seiten nicht direkt übernehmen.
-- Alte Aufgaben sollen erhalten bleiben, aber modernisiert werden.
+- Alte Aufgaben erhalten und modernisieren.
 - Bilder stark reduzieren.
-- Keine doppelte Fachlogik aufbauen.
+- Keine unnötige Meta-Kommunikation auf Nutzerseiten.
+- Keine überladenen Oberflächen mit belanglosen Countern oder Systeminfos.
 
 ---
 
-## Aktueller Schwerpunkt
-Der Schwerpunkt soll jetzt klar auf **Inhalt** liegen.
+## Was technisch zuletzt passiert ist
+Es wurde zuletzt bereits konkret an genau diesem Problem gearbeitet:
+- GitHub Pages / Base-Pfade wurden repariert
+- Workflow wurde robuster gemacht
+- ein echter Buildfehler in `src/pages/wissen/[...slug].astro` wurde behoben
+- `src/data/topics.ts` wurde neu eingeführt
+- `src/pages/fachbereiche/[subject]/[...parts].astro` wurde neu eingeführt
+- `src/pages/fachbereiche/[slug].astro` wurde auf echte Themenübersichten umgestellt
 
-Prioritäten:
-1. Weitere Wissensseiten ergänzen.
-2. Weitere Aufgaben ergänzen.
-3. Vor allem alte Bestandsaufgaben in neuer Form auffrischen.
-4. Wissen und Aufgaben parallel weiterentwickeln.
-5. PDF-/Drucklinie für Aufgaben im Hinterkopf behalten, aber nicht auf Kosten des Inhaltsausbaus.
+Das heißt:
+- du sollst **nicht** wieder neu strukturieren,
+- sondern diese neue Richtung **prüfen, konsolidieren und weiter ausbauen**.
 
-Wenn du wählen musst, ist aktuell oft besonders sinnvoll:
-- **alte Aufgaben modernisieren**, statt sie nur zu archivieren,
-- und diese mit passenden Wissensseiten zu flankieren.
+---
+
+## Konkrete Arbeitspriorität
+Arbeite in dieser Reihenfolge:
+
+1. **Themenstruktur validieren**
+   - funktionieren die neuen Fachpfade logisch?
+   - erscheinen dort echte Fachinfos?
+   - ist die Themenübersicht ruhig und verständlich?
+
+2. **Fachinfos in der Themennavigation stärken**
+   - wenn beim Durchklicken noch Lücken sind, diese gezielt schließen
+   - lieber klare Themenübersichtsseiten und Fachinfos als weitere Meta-Struktur
+
+3. **Danach wieder Inhalte ergänzen**
+   - neue Wissensseiten
+   - passende Aufgaben
+   - modernisierte Altaufgaben
 
 ---
 
 ## Arbeitsstil
-- Arbeite repo-nah.
-- Arbeite selbstständig.
-- Arbeite in sinnvollen größeren Blöcken.
-- Frage nicht nach jedem Kleinschritt nach.
-- Halte den Chat extrem kompakt.
-- Normalerweise reicht **ein Satz** als Statusupdate.
-- Nur bei echten Problemen ausführlicher werden.
+- Halte den Chat kompakt.
+- Arbeite in größeren sinnvollen Blöcken.
+- Frage nicht nach jedem kleinen Schritt nach.
+- Gib nur kurze Statusupdates.
+- Nur bei echten Problemen etwas ausführlicher werden.
 
-Der Nutzer möchte ausdrücklich keinen überfüllten Chat.
+Der Nutzer möchte ausdrücklich **keinen laggenden, überfüllten Chat**.
 
 ---
 
-## Worauf du technisch achten musst
-- Bei Content-Problemen auch an Schema-/Frontmatter-Konsistenz denken.
-- Bei Build-/CI-Problemen zuerst alte Routen und Importpfade prüfen.
-- Die PDF-/Druckroute für Aufgaben existiert bereits und soll später weiter tragfähig gemacht werden.
-- Änderungen möglichst sauber direkt auf `main` weiterführen, wenn nichts anderes nötig ist.
+## Praktischer Startpunkt im Repo
+Öffne zuerst besonders diese Dateien:
+- `src/pages/fachbereiche/[slug].astro`
+- `src/pages/fachbereiche/[subject]/[...parts].astro`
+- `src/data/topics.ts`
+- `src/data/content.ts`
+- `src/data/subjects.ts`
 
----
+Dann arbeite direkt an der Frage:
+- **Wie tauchen Fachinfos in der Themenstruktur wirklich sichtbar und logisch auf?**
 
-## Konkreter Arbeitsauftrag für den nächsten Chat
-Starte direkt mit einer neuen sinnvollen Inhaltswelle.
-
-Gute Standards dafür:
-- pro Block mehrere Fächer bedienen **oder**
-- gezielt ein Fach dichter machen,
-- dabei möglichst immer beides liefern:
-  - Wissensseite
-  - passende Aufgabe
-
-Noch besser, wenn sinnvoll:
-- vorhandene ältere Aufgabe fachlich neu schreiben,
-- statt sie nur unverändert stehen zu lassen.
-
-Wichtig:
-Arbeite so weiter, als würdest du einen bereits gut laufenden Plattformumbau verdichten — nicht so, als würdest du erst eine Idee skizzieren.
+Wenn es dort noch Brüche gibt, hat das Vorrang vor neuen Inhaltspaketen.
