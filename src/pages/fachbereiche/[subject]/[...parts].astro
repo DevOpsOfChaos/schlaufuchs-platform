@@ -12,7 +12,7 @@ export async function getStaticPaths() {
     const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject);
     if (!subjectSlug) return [];
     const tail = getTopicTail(entry);
-    const limit = "section" in entry.data && entry.collection === "exercises" ? Math.max(tail.length - 1, 0) : tail.length;
+    const limit = entry.collection === "exercises" ? Math.max(tail.length - 1, 0) : tail.length;
     return tail.slice(0, limit).map((_, index) => ({
       params: { subject: subjectSlug, parts: tail.slice(0, index + 1).join("/") },
       props: { subjectSlug, parts: tail.slice(0, index + 1) },
@@ -23,18 +23,25 @@ export async function getStaticPaths() {
 }
 
 const { subjectSlug, parts } = Astro.props as { subjectSlug: string; parts: string[] };
+const normalizedParts = parts.filter(Boolean);
+const pathKey = normalizedParts.join("/");
 const subjectTitle = subjectTitleMap[subjectSlug] ?? "Fachbereich";
 const foxSrc = withBaseAsset("assets/brand/logo_alpha.png");
 const [allArticles, allExercises] = await Promise.all([getVisibleArticles(), getVisibleExercises()]);
 const subjectArticles = getEntriesForPrimarySubject(allArticles, subjectSlug);
 const subjectExercises = getEntriesForPrimarySubject(allExercises, subjectSlug);
-const normalizedParts = parts.filter(Boolean);
-const pathKey = normalizedParts.join("/");
-const exactArticle =
-  subjectArticles.find((entry) => {
-    const tailKey = getTopicTail(entry).join("/");
-    return tailKey === pathKey || entry.id === pathKey || entry.id.endsWith(`/${pathKey}`);
-  }) ?? null;
+
+const matchesPath = (rawId: string) => {
+  const id = rawId.replace(/\.(md|mdx)$/i, "");
+  return (
+    id === `${subjectSlug}/${pathKey}` ||
+    id === pathKey ||
+    id.endsWith(`/${subjectSlug}/${pathKey}`) ||
+    id.endsWith(`/${pathKey}`)
+  );
+};
+
+const exactArticle = allArticles.find((entry) => matchesPath(entry.id)) ?? null;
 const backHref = withBase(normalizedParts.length > 1 ? `fachbereiche/${subjectSlug}/${normalizedParts.slice(0, -1).join("/")}` : `fachbereiche/${subjectSlug}`);
 const topicTitle = humanizeTopicSegment(normalizedParts.at(-1) ?? subjectTitle);
 
@@ -54,14 +61,8 @@ const childTopics = [...new Map(prefixed([...subjectArticles, ...subjectExercise
   .map((topic) => ({ ...topic, href: withBase(`fachbereiche/${subjectSlug}/${[...normalizedParts, topic.slug].join("/")}`) }))
   .sort((a, b) => a.title.localeCompare(b.title, "de"));
 
-const shouldRedirectToKnowledge =
-  !exactArticle &&
-  normalizedParts.length > 0 &&
-  childTopics.length === 0 &&
-  directArticles.length === 0 &&
-  directExercises.length === 0;
-
-if (shouldRedirectToKnowledge) {
+const isDeadEndLeaf = normalizedParts.length > 0 && childTopics.length === 0 && directArticles.length === 0 && directExercises.length === 0;
+if (!exactArticle && isDeadEndLeaf) {
   return Astro.redirect(withBase(`wissen/${subjectSlug}/${pathKey}`));
 }
 
@@ -72,7 +73,10 @@ if (exactArticle) {
 }
 ---
 
-<BaseLayout title={`${exactArticle ? exactArticle.data.title : topicTitle} – ${subjectTitle} – Schlaufuchs`} description={exactArticle ? exactArticle.data.description : `Fachübersicht zu ${topicTitle} im Bereich ${subjectTitle}.`}>
+<BaseLayout
+  title={`${exactArticle ? exactArticle.data.title : topicTitle} – ${subjectTitle} – Schlaufuchs`}
+  description={exactArticle ? exactArticle.data.description : `Fachübersicht zu ${topicTitle} im Bereich ${subjectTitle}.`}
+>
   <a class="back-link" href={backHref}>← Zurück</a>
 
   {exactArticle ? (
@@ -83,7 +87,7 @@ if (exactArticle) {
           <p class="lead">{exactArticle.data.description}</p>
         </div>
         <div class="hero-visual" aria-hidden="true">
-          <img src={foxSrc} alt="" width="420" height="420" loading="eager" />
+          <img src={foxSrc} alt="" width="460" height="460" loading="eager" />
         </div>
       </section>
 
@@ -91,39 +95,11 @@ if (exactArticle) {
         <article class="article-content">{Content && <Content />}</article>
       </section>
 
-      {childTopics.length > 0 && (
-        <section class="topic-section">
-          <h2>Weiter in diesem Thema</h2>
-          <div class="card-grid">
-            {childTopics.map((topic) => (
-              <a class="info-card link-card" href={topic.href}>
-                <div class="card-top"><h3>{topic.title}</h3><span>→</span></div>
-                <p>Zum Unterthema {topic.title}.</p>
-              </a>
-            ))}
-          </div>
-        </section>
-      )}
-
-      {directArticles.length > 0 && (
-        <section class="topic-section">
-          <h2>Weitere Fachinfos</h2>
-          <div class="card-grid">
-            {directArticles.map((entry) => (
-              <a class="info-card link-card" href={withBase(`fachbereiche/${subjectSlug}/${getTopicTail(entry).join("/")}`)}>
-                <div class="card-top"><h3>{entry.data.title}</h3><span>{levelLabels[entry.data.level]}</span></div>
-                <p>{entry.data.description}</p>
-              </a>
-            ))}
-          </div>
-        </section>
-      )}
-
       {directExercises.length > 0 && (
         <section class="topic-section">
           <h2>Passende Aufgaben</h2>
           <div class="card-grid">
-            {directExercises.map((entry) => (
+            {directExercises.slice(0, 6).map((entry) => (
               <article class="info-card">
                 <div class="card-top"><h3>{entry.data.title}</h3><span>{levelLabels[entry.data.level]}</span></div>
                 <p>{entry.data.description}</p>
@@ -145,7 +121,7 @@ if (exactArticle) {
 
       {childTopics.length > 0 && (
         <section class="topic-section">
-          <h2>Direkt tiefer in das Thema</h2>
+          <h2>Unterthemen</h2>
           <div class="card-grid">
             {childTopics.map((topic) => (
               <a class="info-card link-card" href={topic.href}>
@@ -159,7 +135,7 @@ if (exactArticle) {
 
       {directArticles.length > 0 && (
         <section class="topic-section">
-          <h2>Fachinfos in diesem Thema</h2>
+          <h2>Fachinfos</h2>
           <div class="card-grid">
             {directArticles.map((entry) => (
               <a class="info-card link-card" href={withBase(`fachbereiche/${subjectSlug}/${getTopicTail(entry).join("/")}`)}>
@@ -178,10 +154,10 @@ if (exactArticle) {
   .back-link { display:inline-flex; align-items:center; min-height:2.9rem; padding:0 1rem; border-radius:999px; border:1px solid var(--border); background:var(--surface); color:var(--text-strong); font-weight:700; margin-bottom:1rem; }
   .hero,.topic-section,.article-shell { display:grid; gap:1rem; }
   .topic-section,.article-shell { margin-top:1.5rem; }
-  .article-hero { grid-template-columns:minmax(0,1fr) minmax(18rem,24rem); align-items:center; gap:1.8rem; }
+  .article-hero { grid-template-columns:minmax(0,1fr) minmax(18rem,25rem); align-items:center; gap:1.8rem; }
   .hero-visual { display:flex; justify-content:center; align-items:center; }
-  .hero-visual img { width:min(100%,22rem); height:auto; filter:drop-shadow(0 20px 36px rgba(0,0,0,0.18)); }
-  h1 { margin:0; color:var(--text-strong); font-size:clamp(2.5rem,4.8vw,4.5rem); line-height:0.98; letter-spacing:-0.045em; }
+  .hero-visual img { width:min(100%,24rem); height:auto; filter:drop-shadow(0 20px 36px rgba(0,0,0,0.18)); }
+  h1 { margin:0; color:var(--text-strong); font-size:clamp(2.5rem,4.8vw,4.6rem); line-height:0.98; letter-spacing:-0.045em; }
   .lead { margin:1rem 0 0; max-width:48rem; color:var(--text); line-height:1.72; font-size:1.04rem; }
   .article-content,.info-card { border:1px solid var(--border); border-radius:24px; background:var(--card-bg); box-shadow:var(--shadow-soft); }
   .article-content { padding:1.6rem; box-shadow:var(--shadow-card); }
@@ -190,7 +166,6 @@ if (exactArticle) {
   .article-content :global(h3) { margin-top:1.35rem; color:var(--text-strong); font-size:1.18rem; line-height:1.22; }
   .article-content :global(p), .article-content :global(li) { color:var(--text); line-height:1.82; font-size:1.02rem; }
   .article-content :global(ul), .article-content :global(ol) { padding-left:1.2rem; }
-  .article-content :global(strong) { color:var(--text-strong); }
   .topic-section h2 { margin:0; color:var(--text-strong); font-size:clamp(1.7rem,2.8vw,2.2rem); line-height:1.05; }
   .card-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; }
   .info-card { display:grid; gap:0.8rem; padding:1.3rem; }
@@ -201,5 +176,5 @@ if (exactArticle) {
   .card-top span { color:var(--text-soft); font-size:0.86rem; font-weight:700; flex-shrink:0; }
   .info-card p { margin:0; color:var(--text); line-height:1.62; }
   .info-card a { color:var(--text-strong); font-weight:700; }
-  @media (max-width:980px) { .article-hero,.card-grid { grid-template-columns:1fr; } .hero-visual { justify-content:flex-start; } .hero-visual img { width:min(100%,16rem); } }
+  @media (max-width:980px) { .article-hero,.card-grid { grid-template-columns:1fr; } .hero-visual { justify-content:flex-start; } .hero-visual img { width:min(100%,17rem); } }
 </style>
