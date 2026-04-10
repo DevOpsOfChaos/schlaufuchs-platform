@@ -54,6 +54,17 @@ const childTopics = [...new Map(prefixed([...subjectArticles, ...subjectExercise
   .map((topic) => ({ ...topic, href: withBase(`fachbereiche/${subjectSlug}/${[...normalizedParts, topic.slug].join("/")}`) }))
   .sort((a, b) => a.title.localeCompare(b.title, "de"));
 
+const shouldRedirectToKnowledge =
+  !exactArticle &&
+  normalizedParts.length > 0 &&
+  childTopics.length === 0 &&
+  directArticles.length === 0 &&
+  directExercises.length === 0;
+
+if (shouldRedirectToKnowledge) {
+  return Astro.redirect(withBase(`wissen/${subjectSlug}/${pathKey}`));
+}
+
 let Content: Awaited<ReturnType<typeof render>>["Content"] | null = null;
 if (exactArticle) {
   const rendered = await render(exactArticle);
