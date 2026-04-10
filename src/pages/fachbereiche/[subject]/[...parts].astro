@@ -28,25 +28,30 @@ const foxSrc = withBaseAsset("assets/brand/logo_alpha.png");
 const [allArticles, allExercises] = await Promise.all([getVisibleArticles(), getVisibleExercises()]);
 const subjectArticles = getEntriesForPrimarySubject(allArticles, subjectSlug);
 const subjectExercises = getEntriesForPrimarySubject(allExercises, subjectSlug);
-const pathKey = parts.join("/");
-const exactArticle = subjectArticles.find((entry) => getTopicTail(entry).join("/") === pathKey) ?? null;
-const backHref = withBase(parts.length > 1 ? `fachbereiche/${subjectSlug}/${parts.slice(0, -1).join("/")}` : `fachbereiche/${subjectSlug}`);
-const topicTitle = humanizeTopicSegment(parts.at(-1) ?? subjectTitle);
+const normalizedParts = parts.filter(Boolean);
+const pathKey = normalizedParts.join("/");
+const exactArticle =
+  subjectArticles.find((entry) => {
+    const tailKey = getTopicTail(entry).join("/");
+    return tailKey === pathKey || entry.id === pathKey || entry.id.endsWith(`/${pathKey}`);
+  }) ?? null;
+const backHref = withBase(normalizedParts.length > 1 ? `fachbereiche/${subjectSlug}/${normalizedParts.slice(0, -1).join("/")}` : `fachbereiche/${subjectSlug}`);
+const topicTitle = humanizeTopicSegment(normalizedParts.at(-1) ?? subjectTitle);
 
 const prefixed = <T extends CollectionEntry<"articles"> | CollectionEntry<"exercises">>(entries: T[]) =>
   entries.filter((entry) => {
     const tail = getTopicTail(entry);
-    return tail.length > parts.length && tail.slice(0, parts.length).join("/") === pathKey;
+    return tail.length > normalizedParts.length && tail.slice(0, normalizedParts.length).join("/") === pathKey;
   });
 
-const directArticles = prefixed(subjectArticles).filter((entry) => getTopicTail(entry).length === parts.length + 1);
-const directExercises = prefixed(subjectExercises).filter((entry) => getTopicTail(entry).length === parts.length + 1);
+const directArticles = prefixed(subjectArticles).filter((entry) => getTopicTail(entry).length === normalizedParts.length + 1);
+const directExercises = prefixed(subjectExercises).filter((entry) => getTopicTail(entry).length === normalizedParts.length + 1);
 const childTopics = [...new Map(prefixed([...subjectArticles, ...subjectExercises]).flatMap((entry) => {
   const tail = getTopicTail(entry);
-  const slug = tail[parts.length];
-  return tail.length > parts.length + 1 && slug ? [[slug, { slug, title: humanizeTopicSegment(slug) }]] : [];
+  const slug = tail[normalizedParts.length];
+  return tail.length > normalizedParts.length + 1 && slug ? [[slug, { slug, title: humanizeTopicSegment(slug) }]] : [];
 })).values()]
-  .map((topic) => ({ ...topic, href: withBase(`fachbereiche/${subjectSlug}/${[...parts, topic.slug].join("/")}`) }))
+  .map((topic) => ({ ...topic, href: withBase(`fachbereiche/${subjectSlug}/${[...normalizedParts, topic.slug].join("/")}`) }))
   .sort((a, b) => a.title.localeCompare(b.title, "de"));
 
 let Content: Awaited<ReturnType<typeof render>>["Content"] | null = null;
