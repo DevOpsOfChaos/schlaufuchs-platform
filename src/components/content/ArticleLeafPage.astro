@@ -1,0 +1,47 @@
+---
+import { render, type CollectionEntry } from "astro:content";
+import { getTopicTail } from "../../data/topics";
+import { withBase, withBaseAsset } from "../../utils/base";
+
+interface Props {
+  entry: CollectionEntry<"articles">;
+  subjectSlug: string;
+  backHref: string;
+  relatedArticles: CollectionEntry<"articles">[];
+  relatedExercises: CollectionEntry<"exercises">[];
+}
+
+const { entry, subjectSlug, backHref, relatedArticles, relatedExercises } = Astro.props as Props;
+const { Content } = await render(entry);
+const foxSrc = withBaseAsset("assets/brand/logo_alpha.png");
+---
+
+<a href={backHref}>← Zurück</a>
+<section>
+  <div>
+    <h1>{entry.data.title}</h1>
+    <p>{entry.data.description}</p>
+  </div>
+  <div aria-hidden="true">
+    <img src={foxSrc} alt="" width="460" height="460" loading="eager" />
+  </div>
+</section>
+<article>
+  <Content />
+</article>
+{relatedArticles.length > 0 && (
+  <section>
+    <h2>Weitere Fachinfos</h2>
+    {relatedArticles.map((item) => (
+      <a href={withBase(`fachbereiche/${subjectSlug}/${getTopicTail(item).join("/")}`)}>{item.data.title}</a>
+    ))}
+  </section>
+)}
+{relatedExercises.length > 0 && (
+  <section>
+    <h2>Passende Aufgaben</h2>
+    {relatedExercises.map((item) => (
+      <a href={withBase(`aufgaben/${item.id}`)}>{item.data.title}</a>
+    ))}
+  </section>
+)}
