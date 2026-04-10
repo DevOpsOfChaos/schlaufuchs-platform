@@ -1,0 +1,33 @@
+---
+import BaseLayout from "../../../../../layouts/BaseLayout.astro";
+import ArticleLeafPage from "../../../../../components/content/ArticleLeafPage.astro";
+import { getVisibleArticles, getVisibleExercises } from "../../../../../data/content";
+import { getArticleLeafContext } from "../../../../../data/articleLeaf";
+import { getTopicTail } from "../../../../../data/topics";
+import { resolvePrimarySubjectSlug, subjectTitleMap } from "../../../../../data/subjects";
+
+export async function getStaticPaths() {
+  const articles = await getVisibleArticles();
+
+  return articles
+    .filter((entry) => getTopicTail(entry).length === 3)
+    .flatMap((entry) => {
+      const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject);
+      const tail = getTopicTail(entry);
+      if (!subjectSlug || tail.length !== 3) return [];
+      return [{
+        params: { subject: subjectSlug, section: tail[0], topic: tail[1], slug: tail[2] },
+        props: { entry },
+      }];
+    });
+}
+
+const { entry } = Astro.props;
+const [allArticles, allExercises] = await Promise.all([getVisibleArticles(), getVisibleExercises()]);
+const page = getArticleLeafContext(entry, allArticles, allExercises);
+const subjectTitle = subjectTitleMap[page.subjectSlug] ?? "Fachbereich";
+---
+
+<BaseLayout title={`${entry.data.title} – ${subjectTitle} – Schlaufuchs`} description={entry.data.description}>
+  <ArticleLeafPage {...page} />
+</BaseLayout>
