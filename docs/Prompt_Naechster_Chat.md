@@ -53,6 +53,7 @@ Es wurde zuletzt bereits konkret an genau diesem Problem gearbeitet:
 - `src/data/topics.ts` wurde neu eingeführt
 - `src/pages/fachbereiche/[subject]/[...parts].astro` wurde neu eingeführt
 - `src/pages/fachbereiche/[slug].astro` wurde auf echte Themenübersichten umgestellt
+- `src/pages/wissen/index.astro` wurde ergänzt, damit reale Wissensseiten wieder zentral sichtbar erreichbar sind
 
 Das heißt:
 - du sollst **nicht** wieder neu strukturieren,
@@ -72,10 +73,21 @@ Arbeite in dieser Reihenfolge:
    - wenn beim Durchklicken noch Lücken sind, diese gezielt schließen
    - lieber klare Themenübersichtsseiten und Fachinfos als weitere Meta-Struktur
 
-3. **Danach wieder Inhalte ergänzen**
+3. **Sichtbare Inhaltszugänge erhalten**
+   - `/wissen` und `/fachbereiche` dürfen nicht wieder nur Container ohne echte Fachinfos werden
+   - reale Inhaltsseiten müssen direkt auffindbar bleiben
+
+4. **Danach wieder Inhalte ergänzen**
    - neue Wissensseiten
    - passende Aufgaben
    - modernisierte Altaufgaben
+
+---
+
+## Dauerhafte Qualitätsregel
+Nach Änderungen an Workflows, Routing, Navigation oder Inhaltsstruktur immer kurz prüfen:
+- bleibt GitHub / Pages / Security grün?
+- bleiben reale Inhaltsseiten sichtbar und direkt erreichbar?
 
 ---
 
@@ -94,6 +106,7 @@ Der Nutzer möchte ausdrücklich **keinen laggenden, überfüllten Chat**.
 Öffne zuerst besonders diese Dateien:
 - `src/pages/fachbereiche/[slug].astro`
 - `src/pages/fachbereiche/[subject]/[...parts].astro`
+- `src/pages/wissen/index.astro`
 - `src/data/topics.ts`
 - `src/data/content.ts`
 - `src/data/subjects.ts`

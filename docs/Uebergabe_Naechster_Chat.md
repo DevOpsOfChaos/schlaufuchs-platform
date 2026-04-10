@@ -179,6 +179,7 @@ Der Stand ist jetzt ungefähr so:
 - Die GitHub-Pages-Hauptursache mit kaputten Base-/Pfaden wurde substanziell angefasst.
 - Die Plattform hat inzwischen viel mehr echten Fachinhalt.
 - Die neue Themenstruktur innerhalb der Fachpfade wurde endlich begonnen.
+- Es gibt jetzt zusätzlich wieder eine sichtbare Wissensübersicht unter `/wissen`, damit echte Inhaltsseiten direkt auffindbar bleiben.
 
 ### Was noch unsicher bzw. sehr wahrscheinlich noch zu prüfen ist
 - Ob die neue Themenroute `src/pages/fachbereiche/[subject]/[...parts].astro` in der Praxis wirklich sauber alle erwarteten Pfade abdeckt.
@@ -190,6 +191,17 @@ Der Stand ist jetzt ungefähr so:
 Kurz:
 - **Die Richtung stimmt jetzt deutlich besser.**
 - Aber der nächste Chat sollte **genau diese neue Themen-/Fachinfo-Struktur prüfen und sauber zu Ende ziehen**.
+
+---
+
+## Dauerhafte Qualitätsregel
+Nach Änderungen an Workflows, Routing, Navigation oder Inhaltsstruktur immer zwei Dinge mit Priorität prüfen:
+
+1. **Repo bleibt grün.**
+   - GitHub Actions / Pages / Security-Grundschutz nicht unbeabsichtigt kaputt machen.
+2. **Inhaltsseiten bleiben sichtbar erreichbar.**
+   - Nutzer sollen reale Fachinfos direkt finden können, nicht nur Fach- oder Themencontainer.
+   - Sichtbare Einstiege über `/fachbereiche` und `/wissen` erhalten.
 
 ---
 
@@ -218,10 +230,12 @@ Der nächste Chat sollte mit diesem Block starten:
 - `src/pages/fachbereiche/[subject]/[...parts].astro`
 - `src/data/topics.ts`
 - relevante Content-Pfade in `src/content/articles/...`
+- `src/pages/wissen/index.astro`
 
 ### Dann praktisch validieren
 - mindestens ein paar echte Pfade gedanklich bzw. code-seitig prüfen, z. B. in Mathematik, Informatik und Elektrotechnik
 - kontrollieren, ob Themenübersicht → Fachinfo → Aufgabe logisch und ruhig funktioniert
+- kontrollieren, ob `/wissen` und `/fachbereiche` reale Inhaltsseiten sichtbar genug zugänglich machen
 - prüfen, ob `/wissen/...` noch gebraucht wird oder nur als Parallelpfad existiert
 
 ### Danach sinnvoller Folgeblock
