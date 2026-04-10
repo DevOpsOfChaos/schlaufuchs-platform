@@ -1,6 +1,8 @@
-name: Manual Astro Pages Deploy
+name: Deploy to GitHub Pages
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -14,13 +16,12 @@ concurrency:
 
 jobs:
   build:
-    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: Install, build, and upload your site
+      - name: Install, build, and upload site
         uses: withastro/action@v5
         with:
           node-version: 22
@@ -28,7 +29,6 @@ jobs:
           build-cmd: npm run build
 
   deploy:
-    if: github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
     environment:
