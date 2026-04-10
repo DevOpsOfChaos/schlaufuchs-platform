@@ -10,7 +10,16 @@ export const humanizeTopicSegment = (segment: string) =>
     .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
     .join(" ");
 
-export const getTopicTail = (entry: TopicEntry) => entry.id.split("/").filter(Boolean).slice(1);
+export const getTopicTail = (entry: TopicEntry) => {
+  const segments = entry.id.split("/").filter(Boolean);
+  const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject);
+
+  if (subjectSlug && segments[0] === subjectSlug) {
+    return segments.slice(1);
+  }
+
+  return segments;
+};
 
 export const getEntriesForPrimarySubject = <T extends TopicEntry>(entries: T[], subjectSlug: string) =>
   entries.filter((entry) => resolvePrimarySubjectSlug(entry.data.subject) === subjectSlug);

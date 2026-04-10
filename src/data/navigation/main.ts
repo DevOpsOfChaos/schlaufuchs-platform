@@ -23,6 +23,17 @@ export const mainNavigation = [
     `,
   },
   {
+    label: "Wissen",
+    href: "/wissen",
+    icon: `
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M5 6.5A2.5 2.5 0 0 1 7.5 4H20v14H7.5A2.5 2.5 0 0 0 5 20.5z"></path>
+        <path d="M5 6.5v14"></path>
+        <path d="M9 8h7M9 11h7M9 14h5"></path>
+      </svg>
+    `,
+  },
+  {
     label: "News",
     href: "/news",
     icon: `
