@@ -6,23 +6,61 @@ import { resolvePrimarySubjectSlug, subjectTitleMap } from "../../../data/subjec
 import { getEntriesForPrimarySubject, getTopicTail, humanizeTopicSegment } from "../../../data/topics";
 import { withBase, withBaseAsset } from "../../../utils/base";
 
-export async function getStaticPaths() {
-  const [articles, exercises] = await Promise.all([getVisibleArticles(), getVisibleExercises()]);
-  const paths = [...articles, ...exercises].flatMap((entry) => {
-    const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject);
-    if (!subjectSlug) return [];
-    const tail = getTopicTail(entry);
-    const limit = entry.collection === "exercises" ? Math.max(tail.length - 1, 0) : tail.length;
-    return tail.slice(0, limit).map((_, index) => ({
-      params: { subject: subjectSlug, parts: tail.slice(0, index + 1).join("/") },
-      props: { subjectSlug, parts: tail.slice(0, index + 1) },
-    }));
-  });
-
-  return [...new Map(paths.map((item) => [`${item.params.subject}/${item.params.parts}`, item])).values()];
+interface PageProps {
+  subjectSlug: string;
+  parts: string[];
+  exactArticleId?: string;
 }
 
-const { subjectSlug, parts } = Astro.props as { subjectSlug: string; parts: string[] };
+export async function getStaticPaths() {
+  const [articles, exercises] = await Promise.all([getVisibleArticles(), getVisibleExercises()]);
+
+  const pathMap = new Map<string, { params: { subject: string; parts: string }; props: PageProps }>();
+
+  for (const entry of articles) {
+    const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject);
+    if (!subjectSlug) continue;
+
+    const tail = getTopicTail(entry);
+    for (let index = 0; index < tail.length; index += 1) {
+      const parts = tail.slice(0, index + 1);
+      const key = `${subjectSlug}/${parts.join("/")}`;
+      const existing = pathMap.get(key);
+      const next = {
+        params: { subject: subjectSlug, parts: parts.join("/") },
+        props: {
+          subjectSlug,
+          parts,
+          exactArticleId: index === tail.length - 1 ? entry.id : undefined,
+        },
+      };
+
+      if (!existing || next.props.exactArticleId) {
+        pathMap.set(key, next);
+      }
+    }
+  }
+
+  for (const entry of exercises) {
+    const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject);
+    if (!subjectSlug) continue;
+
+    const tail = getTopicTail(entry).slice(0, -1);
+    for (let index = 0; index < tail.length; index += 1) {
+      const parts = tail.slice(0, index + 1);
+      const key = `${subjectSlug}/${parts.join("/")}`;
+      if (pathMap.has(key)) continue;
+      pathMap.set(key, {
+        params: { subject: subjectSlug, parts: parts.join("/") },
+        props: { subjectSlug, parts },
+      });
+    }
+  }
+
+  return [...pathMap.values()];
+}
+
+const { subjectSlug, parts, exactArticleId } = Astro.props as PageProps;
 const normalizedParts = parts.filter(Boolean);
 const pathKey = normalizedParts.join("/");
 const subjectTitle = subjectTitleMap[subjectSlug] ?? "Fachbereich";
@@ -30,18 +68,7 @@ const foxSrc = withBaseAsset("assets/brand/logo_alpha.png");
 const [allArticles, allExercises] = await Promise.all([getVisibleArticles(), getVisibleExercises()]);
 const subjectArticles = getEntriesForPrimarySubject(allArticles, subjectSlug);
 const subjectExercises = getEntriesForPrimarySubject(allExercises, subjectSlug);
-
-const matchesPath = (rawId: string) => {
-  const id = rawId.replace(/\.(md|mdx)$/i, "");
-  return (
-    id === `${subjectSlug}/${pathKey}` ||
-    id === pathKey ||
-    id.endsWith(`/${subjectSlug}/${pathKey}`) ||
-    id.endsWith(`/${pathKey}`)
-  );
-};
-
-const exactArticle = allArticles.find((entry) => matchesPath(entry.id)) ?? null;
+const exactArticle = exactArticleId ? allArticles.find((entry) => entry.id === exactArticleId) ?? null : null;
 const backHref = withBase(normalizedParts.length > 1 ? `fachbereiche/${subjectSlug}/${normalizedParts.slice(0, -1).join("/")}` : `fachbereiche/${subjectSlug}`);
 const topicTitle = humanizeTopicSegment(normalizedParts.at(-1) ?? subjectTitle);
 
