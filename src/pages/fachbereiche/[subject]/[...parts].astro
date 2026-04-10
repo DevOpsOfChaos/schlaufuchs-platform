@@ -8,33 +8,18 @@ import { withBase, withBaseAsset } from "../../../utils/base";
 
 export async function getStaticPaths() {
   const [articles, exercises] = await Promise.all([getVisibleArticles(), getVisibleExercises()]);
-  const articlePaths = articles.flatMap((entry) => {
+  const paths = [...articles, ...exercises].flatMap((entry) => {
     const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject);
     if (!subjectSlug) return [];
     const tail = getTopicTail(entry);
-    return tail.map((_, index) => ({
+    const limit = "section" in entry.data && entry.collection === "exercises" ? Math.max(tail.length - 1, 0) : tail.length;
+    return tail.slice(0, limit).map((_, index) => ({
       params: { subject: subjectSlug, parts: tail.slice(0, index + 1).join("/") },
       props: { subjectSlug, parts: tail.slice(0, index + 1) },
     }));
   });
 
-  const exerciseTopicPaths = exercises.flatMap((entry) => {
-    const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject);
-    if (!subjectSlug) return [];
-    const tail = getTopicTail(entry);
-    return tail.slice(0, -1).map((_, index) => ({
-      params: { subject: subjectSlug, parts: tail.slice(0, index + 1).join("/") },
-      props: { subjectSlug, parts: tail.slice(0, index + 1) },
-    }));
-  });
-
-  const unique = new Map<string, { params: { subject: string; parts: string }; props: { subjectSlug: string; parts: string[] } }>();
-
-  for (const item of [...articlePaths, ...exerciseTopicPaths]) {
-    unique.set(`${item.params.subject}/${item.params.parts}`, item);
-  }
-
-  return [...unique.values()];
+  return [...new Map(paths.map((item) => [`${item.params.subject}/${item.params.parts}`, item])).values()];
 }
 
 const { subjectSlug, parts } = Astro.props as { subjectSlug: string; parts: string[] };
@@ -45,116 +30,59 @@ const subjectArticles = getEntriesForPrimarySubject(allArticles, subjectSlug);
 const subjectExercises = getEntriesForPrimarySubject(allExercises, subjectSlug);
 const pathKey = parts.join("/");
 const exactArticle = subjectArticles.find((entry) => getTopicTail(entry).join("/") === pathKey) ?? null;
+const backHref = withBase(parts.length > 1 ? `fachbereiche/${subjectSlug}/${parts.slice(0, -1).join("/")}` : `fachbereiche/${subjectSlug}`);
+const topicTitle = humanizeTopicSegment(parts.at(-1) ?? subjectTitle);
 
-const breadcrumbItems = parts.map((part, index) => ({
-  slug: part,
-  title: humanizeTopicSegment(part),
-  href: withBase(`fachbereiche/${subjectSlug}/${parts.slice(0, index + 1).join("/")}`),
-}));
-
-const topicPrefixMatches = <T extends CollectionEntry<"articles"> | CollectionEntry<"exercises">>(entries: T[]) =>
+const prefixed = <T extends CollectionEntry<"articles"> | CollectionEntry<"exercises">>(entries: T[]) =>
   entries.filter((entry) => {
     const tail = getTopicTail(entry);
     return tail.length > parts.length && tail.slice(0, parts.length).join("/") === pathKey;
   });
 
-const directArticles = topicPrefixMatches(subjectArticles).filter((entry) => getTopicTail(entry).length === parts.length + 1);
-const directExercises = topicPrefixMatches(subjectExercises).filter((entry) => getTopicTail(entry).length === parts.length + 1);
-
-const childTopicsMap = new Map<string, { slug: string; title: string }>();
-for (const entry of [...topicPrefixMatches(subjectArticles), ...topicPrefixMatches(subjectExercises)]) {
+const directArticles = prefixed(subjectArticles).filter((entry) => getTopicTail(entry).length === parts.length + 1);
+const directExercises = prefixed(subjectExercises).filter((entry) => getTopicTail(entry).length === parts.length + 1);
+const childTopics = [...new Map(prefixed([...subjectArticles, ...subjectExercises]).flatMap((entry) => {
   const tail = getTopicTail(entry);
-  const childSlug = tail[parts.length];
-  if (tail.length > parts.length + 1 && childSlug) {
-    childTopicsMap.set(childSlug, { slug: childSlug, title: humanizeTopicSegment(childSlug) });
-  }
-}
-
-const childTopics = [...childTopicsMap.values()]
-  .map((topic) => ({
-    ...topic,
-    href: withBase(`fachbereiche/${subjectSlug}/${[...parts, topic.slug].join("/")}`),
-  }))
+  const slug = tail[parts.length];
+  return tail.length > parts.length + 1 && slug ? [[slug, { slug, title: humanizeTopicSegment(slug) }]] : [];
+})).values()]
+  .map((topic) => ({ ...topic, href: withBase(`fachbereiche/${subjectSlug}/${[...parts, topic.slug].join("/")}`) }))
   .sort((a, b) => a.title.localeCompare(b.title, "de"));
-
-const topicTitle = humanizeTopicSegment(parts.at(-1) ?? subjectTitle);
 
 let Content: Awaited<ReturnType<typeof render>>["Content"] | null = null;
 if (exactArticle) {
   const rendered = await render(exactArticle);
   Content = rendered.Content;
 }
-
-const articlePrefix = exactArticle ? parts.slice(0, -1) : parts;
-const articlePrefixKey = articlePrefix.join("/");
-const relatedExercises = subjectExercises
-  .filter((entry) => {
-    const tail = getTopicTail(entry);
-    return articlePrefixKey.length > 0 && tail.slice(0, articlePrefix.length).join("/") === articlePrefixKey;
-  })
-  .slice(0, 6);
-
-const articleTopicExercises = directExercises.slice(0, 6);
 ---
 
-<BaseLayout
-  title={`${exactArticle ? exactArticle.data.title : topicTitle} – ${subjectTitle} – Schlaufuchs`}
-  description={
-    exactArticle
-      ? exactArticle.data.description
-      : `Fachübersicht zu ${topicTitle} im Bereich ${subjectTitle} mit Wissensseiten und passenden Aufgaben.`
-  }
->
-  <nav class="breadcrumb" aria-label="Brotkrumen">
-    <a href={withBase()}>Start</a>
-    <span>›</span>
-    <a href={withBase("fachbereiche")}>Fachbereiche</a>
-    <span>›</span>
-    <a href={withBase(`fachbereiche/${subjectSlug}`)}>{subjectTitle}</a>
-    {breadcrumbItems.map((item, index) => (
-      <>
-        <span>›</span>
-        {index === breadcrumbItems.length - 1 ? <span aria-current="page">{item.title}</span> : <a href={item.href}>{item.title}</a>}
-      </>
-    ))}
-  </nav>
+<BaseLayout title={`${exactArticle ? exactArticle.data.title : topicTitle} – ${subjectTitle} – Schlaufuchs`} description={exactArticle ? exactArticle.data.description : `Fachübersicht zu ${topicTitle} im Bereich ${subjectTitle}.`}>
+  <a class="back-link" href={backHref}>← Zurück</a>
 
   {exactArticle ? (
     <>
       <section class="hero article-hero">
         <div>
-          <p class="eyebrow">{subjectTitle} · Fachthema</p>
           <h1>{exactArticle.data.title}</h1>
           <p class="lead">{exactArticle.data.description}</p>
         </div>
         <div class="hero-visual" aria-hidden="true">
-          <img src={foxSrc} alt="" width="340" height="340" loading="eager" />
+          <img src={foxSrc} alt="" width="420" height="420" loading="eager" />
         </div>
       </section>
 
       <section class="article-shell">
-        <article class="article-content">
-          {Content && <Content />}
-        </article>
+        <article class="article-content">{Content && <Content />}</article>
       </section>
 
       {childTopics.length > 0 && (
         <section class="topic-section">
-          <div class="section-head">
-            <div>
-              <p class="section-kicker">Unterthemen</p>
-              <h2>Von hier aus tiefer ins Fachthema</h2>
-            </div>
-          </div>
-
+          <h2>Weiter in diesem Thema</h2>
           <div class="card-grid">
             {childTopics.map((topic) => (
               <a class="info-card link-card" href={topic.href}>
-                <div class="card-top">
-                  <h3>{topic.title}</h3>
-                  <span>→</span>
-                </div>
-                <p>Öffne die Themenübersicht zu {topic.title} mit Fachinfos, Wissensseiten und passenden Aufgaben.</p>
+                <div class="card-top"><h3>{topic.title}</h3><span>→</span></div>
+                <p>Zum Unterthema {topic.title}.</p>
               </a>
             ))}
           </div>
@@ -163,20 +91,11 @@ const articleTopicExercises = directExercises.slice(0, 6);
 
       {directArticles.length > 0 && (
         <section class="topic-section">
-          <div class="section-head">
-            <div>
-              <p class="section-kicker">Fachinfos</p>
-              <h2>Weitere Fachinfos in diesem Themenpfad</h2>
-            </div>
-          </div>
-
+          <h2>Weitere Fachinfos</h2>
           <div class="card-grid">
             {directArticles.map((entry) => (
               <a class="info-card link-card" href={withBase(`fachbereiche/${subjectSlug}/${getTopicTail(entry).join("/")}`)}>
-                <div class="card-top">
-                  <h3>{entry.data.title}</h3>
-                  <span>{levelLabels[entry.data.level]}</span>
-                </div>
+                <div class="card-top"><h3>{entry.data.title}</h3><span>{levelLabels[entry.data.level]}</span></div>
                 <p>{entry.data.description}</p>
               </a>
             ))}
@@ -184,46 +103,13 @@ const articleTopicExercises = directExercises.slice(0, 6);
         </section>
       )}
 
-      {relatedExercises.length > 0 && (
+      {directExercises.length > 0 && (
         <section class="topic-section">
-          <div class="section-head">
-            <div>
-              <p class="section-kicker">Aufgaben</p>
-              <h2>Passende Aufgaben zu diesem Thema</h2>
-            </div>
-          </div>
-
+          <h2>Passende Aufgaben</h2>
           <div class="card-grid">
-            {relatedExercises.map((entry) => (
+            {directExercises.map((entry) => (
               <article class="info-card">
-                <div class="card-top">
-                  <h3>{entry.data.title}</h3>
-                  <span>{levelLabels[entry.data.level]}</span>
-                </div>
-                <p>{entry.data.description}</p>
-                <a href={withBase(`aufgaben/${entry.id}`)}>Aufgabe öffnen →</a>
-              </article>
-            ))}
-          </div>
-        </section>
-      )}
-
-      {relatedExercises.length === 0 && articleTopicExercises.length > 0 && (
-        <section class="topic-section">
-          <div class="section-head">
-            <div>
-              <p class="section-kicker">Aufgaben</p>
-              <h2>Passende Aufgaben im Themenpfad</h2>
-            </div>
-          </div>
-
-          <div class="card-grid">
-            {articleTopicExercises.map((entry) => (
-              <article class="info-card">
-                <div class="card-top">
-                  <h3>{entry.data.title}</h3>
-                  <span>{levelLabels[entry.data.level]}</span>
-                </div>
+                <div class="card-top"><h3>{entry.data.title}</h3><span>{levelLabels[entry.data.level]}</span></div>
                 <p>{entry.data.description}</p>
                 <a href={withBase(`aufgaben/${entry.id}`)}>Aufgabe öffnen →</a>
               </article>
@@ -236,32 +122,19 @@ const articleTopicExercises = directExercises.slice(0, 6);
     <>
       <section class="hero">
         <div>
-          <p class="eyebrow">{subjectTitle} · Themenübersicht</p>
           <h1>{topicTitle}</h1>
-          <p class="lead">
-            Hier findest du die Fachübersicht zu {topicTitle}. Die Seite bündelt Unterthemen, Wissensseiten und passende Aufgaben
-            innerhalb von {subjectTitle}.
-          </p>
+          <p class="lead">Hier findest du die Fachübersicht zu {topicTitle} in {subjectTitle}.</p>
         </div>
       </section>
 
       {childTopics.length > 0 && (
         <section class="topic-section">
-          <div class="section-head">
-            <div>
-              <p class="section-kicker">Unterthemen</p>
-              <h2>Direkt tiefer in das Thema</h2>
-            </div>
-          </div>
-
+          <h2>Direkt tiefer in das Thema</h2>
           <div class="card-grid">
             {childTopics.map((topic) => (
               <a class="info-card link-card" href={topic.href}>
-                <div class="card-top">
-                  <h3>{topic.title}</h3>
-                  <span>→</span>
-                </div>
-                <p>Öffne die Themenübersicht zu {topic.title} mit Fachinfos, Wissensseiten und passenden Aufgaben.</p>
+                <div class="card-top"><h3>{topic.title}</h3><span>→</span></div>
+                <p>Zum Unterthema {topic.title}.</p>
               </a>
             ))}
           </div>
@@ -270,46 +143,13 @@ const articleTopicExercises = directExercises.slice(0, 6);
 
       {directArticles.length > 0 && (
         <section class="topic-section">
-          <div class="section-head">
-            <div>
-              <p class="section-kicker">Fachinfos</p>
-              <h2>Wissensseiten in diesem Thema</h2>
-            </div>
-          </div>
-
+          <h2>Fachinfos in diesem Thema</h2>
           <div class="card-grid">
             {directArticles.map((entry) => (
               <a class="info-card link-card" href={withBase(`fachbereiche/${subjectSlug}/${getTopicTail(entry).join("/")}`)}>
-                <div class="card-top">
-                  <h3>{entry.data.title}</h3>
-                  <span>{levelLabels[entry.data.level]}</span>
-                </div>
+                <div class="card-top"><h3>{entry.data.title}</h3><span>{levelLabels[entry.data.level]}</span></div>
                 <p>{entry.data.description}</p>
               </a>
-            ))}
-          </div>
-        </section>
-      )}
-
-      {directExercises.length > 0 && (
-        <section class="topic-section">
-          <div class="section-head">
-            <div>
-              <p class="section-kicker">Aufgaben</p>
-              <h2>Passende Aufgaben in diesem Thema</h2>
-            </div>
-          </div>
-
-          <div class="card-grid">
-            {directExercises.map((entry) => (
-              <article class="info-card">
-                <div class="card-top">
-                  <h3>{entry.data.title}</h3>
-                  <span>{levelLabels[entry.data.level]}</span>
-                </div>
-                <p>{entry.data.description}</p>
-                <a href={withBase(`aufgaben/${entry.id}`)}>Aufgabe öffnen →</a>
-              </article>
             ))}
           </div>
         </section>
@@ -319,207 +159,31 @@ const articleTopicExercises = directExercises.slice(0, 6);
 </BaseLayout>
 
 <style>
-  .breadcrumb {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-bottom: 1rem;
-    color: var(--text-soft);
-    font-size: 0.94rem;
-  }
-
-  .breadcrumb a {
-    color: var(--text-soft);
-  }
-
-  .breadcrumb a:hover {
-    color: var(--text-strong);
-  }
-
-  .hero {
-    display: grid;
-    gap: 1rem;
-    padding: 0.25rem 0 0;
-  }
-
-  .article-hero {
-    grid-template-columns: minmax(0, 1fr) minmax(15rem, 21rem);
-    align-items: center;
-    gap: 1.5rem;
-  }
-
-  .hero-visual {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .hero-visual img {
-    width: min(100%, 18rem);
-    height: auto;
-    filter: drop-shadow(0 20px 36px rgba(0, 0, 0, 0.18));
-  }
-
-  .eyebrow,
-  .section-kicker {
-    margin: 0 0 0.75rem;
-    color: var(--text-soft);
-    font-size: 0.92rem;
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-  }
-
-  h1 {
-    margin: 0;
-    color: var(--text-strong);
-    font-size: clamp(2.3rem, 4.4vw, 4rem);
-    line-height: 0.98;
-    letter-spacing: -0.045em;
-  }
-
-  .lead {
-    margin: 1rem 0 0;
-    max-width: 48rem;
-    color: var(--text);
-    line-height: 1.72;
-  }
-
-  .article-shell,
-  .topic-section {
-    display: grid;
-    gap: 1rem;
-    margin-top: 1.5rem;
-  }
-
-  .article-content,
-  .info-card {
-    border: 1px solid var(--border);
-    border-radius: 24px;
-    background: var(--card-bg);
-    box-shadow: var(--shadow-soft);
-  }
-
-  .article-content {
-    padding: 1.4rem;
-    box-shadow: var(--shadow-card);
-  }
-
-  .article-content :global(h2) {
-    margin-top: 1.75rem;
-    color: var(--text-strong);
-    font-size: 1.55rem;
-    line-height: 1.15;
-  }
-
-  .article-content :global(h2:first-child) {
-    margin-top: 0;
-  }
-
-  .article-content :global(h3) {
-    margin-top: 1.3rem;
-    color: var(--text-strong);
-    font-size: 1.18rem;
-    line-height: 1.22;
-  }
-
-  .article-content :global(p),
-  .article-content :global(li) {
-    color: var(--text);
-    line-height: 1.8;
-    font-size: 1rem;
-  }
-
-  .article-content :global(ul),
-  .article-content :global(ol) {
-    padding-left: 1.2rem;
-  }
-
-  .article-content :global(strong) {
-    color: var(--text-strong);
-  }
-
-  .section-head {
-    display: flex;
-    align-items: end;
-    justify-content: space-between;
-    gap: 1rem;
-    flex-wrap: wrap;
-  }
-
-  .section-head h2 {
-    margin: 0;
-    color: var(--text-strong);
-    font-size: clamp(1.7rem, 2.8vw, 2.2rem);
-    line-height: 1.05;
-  }
-
-  .card-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 1rem;
-  }
-
-  .info-card {
-    display: grid;
-    gap: 0.8rem;
-    padding: 1.3rem;
-  }
-
-  .link-card {
-    transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
-  }
-
-  .link-card:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-card);
-    border-color: var(--border-strong);
-  }
-
-  .card-top {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 0.8rem;
-  }
-
-  .info-card h3 {
-    margin: 0;
-    color: var(--text-strong);
-    font-size: 1.08rem;
-    line-height: 1.2;
-  }
-
-  .card-top span {
-    color: var(--text-soft);
-    font-size: 0.86rem;
-    font-weight: 700;
-    flex-shrink: 0;
-  }
-
-  .info-card p {
-    margin: 0;
-    color: var(--text);
-    line-height: 1.62;
-  }
-
-  .info-card a {
-    color: var(--text-strong);
-    font-weight: 700;
-  }
-
-  @media (max-width: 980px) {
-    .article-hero,
-    .card-grid {
-      grid-template-columns: 1fr;
-    }
-
-    .hero-visual {
-      justify-content: flex-start;
-    }
-
-    .hero-visual img {
-      width: min(100%, 14rem);
-    }
-  }
+  .back-link { display:inline-flex; align-items:center; min-height:2.9rem; padding:0 1rem; border-radius:999px; border:1px solid var(--border); background:var(--surface); color:var(--text-strong); font-weight:700; margin-bottom:1rem; }
+  .hero,.topic-section,.article-shell { display:grid; gap:1rem; }
+  .topic-section,.article-shell { margin-top:1.5rem; }
+  .article-hero { grid-template-columns:minmax(0,1fr) minmax(18rem,24rem); align-items:center; gap:1.8rem; }
+  .hero-visual { display:flex; justify-content:center; align-items:center; }
+  .hero-visual img { width:min(100%,22rem); height:auto; filter:drop-shadow(0 20px 36px rgba(0,0,0,0.18)); }
+  h1 { margin:0; color:var(--text-strong); font-size:clamp(2.5rem,4.8vw,4.5rem); line-height:0.98; letter-spacing:-0.045em; }
+  .lead { margin:1rem 0 0; max-width:48rem; color:var(--text); line-height:1.72; font-size:1.04rem; }
+  .article-content,.info-card { border:1px solid var(--border); border-radius:24px; background:var(--card-bg); box-shadow:var(--shadow-soft); }
+  .article-content { padding:1.6rem; box-shadow:var(--shadow-card); }
+  .article-content :global(h2) { margin-top:1.8rem; color:var(--text-strong); font-size:1.62rem; line-height:1.15; }
+  .article-content :global(h2:first-child) { margin-top:0; }
+  .article-content :global(h3) { margin-top:1.35rem; color:var(--text-strong); font-size:1.18rem; line-height:1.22; }
+  .article-content :global(p), .article-content :global(li) { color:var(--text); line-height:1.82; font-size:1.02rem; }
+  .article-content :global(ul), .article-content :global(ol) { padding-left:1.2rem; }
+  .article-content :global(strong) { color:var(--text-strong); }
+  .topic-section h2 { margin:0; color:var(--text-strong); font-size:clamp(1.7rem,2.8vw,2.2rem); line-height:1.05; }
+  .card-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; }
+  .info-card { display:grid; gap:0.8rem; padding:1.3rem; }
+  .link-card { transition:transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease; }
+  .link-card:hover { transform:translateY(-2px); box-shadow:var(--shadow-card); border-color:var(--border-strong); }
+  .card-top { display:flex; align-items:flex-start; justify-content:space-between; gap:0.8rem; }
+  .info-card h3 { margin:0; color:var(--text-strong); font-size:1.08rem; line-height:1.2; }
+  .card-top span { color:var(--text-soft); font-size:0.86rem; font-weight:700; flex-shrink:0; }
+  .info-card p { margin:0; color:var(--text); line-height:1.62; }
+  .info-card a { color:var(--text-strong); font-weight:700; }
+  @media (max-width:980px) { .article-hero,.card-grid { grid-template-columns:1fr; } .hero-visual { justify-content:flex-start; } .hero-visual img { width:min(100%,16rem); } }
 </style>
