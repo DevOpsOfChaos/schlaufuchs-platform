@@ -9,7 +9,15 @@ const pathname = Astro.url.pathname;
 const clean = pathname.replace(/\/$/, "");
 const parentPath = clean.split("/").slice(0, -1).join("/") || "/";
 const currentTitle = page.title;
+const knowledgePath = clean.replace(/\/fachbereiche\//, "/wissen/");
+const shouldRedirectToKnowledge = knowledgePath !== clean;
 ---
+
+{shouldRedirectToKnowledge && (
+  <script is:inline define:vars={{ knowledgePath }}>
+    window.location.replace(knowledgePath + "/");
+  </script>
+)}
 
 <section class="leaf-hero">
   <div class="leaf-copy">
@@ -21,6 +29,12 @@ const currentTitle = page.title;
     <p class="eyebrow">{page.eyebrow}</p>
     <h1>{page.title}</h1>
     <p class="lead">{page.description}</p>
+    {shouldRedirectToKnowledge && (
+      <p class="redirect-note">
+        Diese alte Infoseite wird auf die ausführliche Wissensseite umgeleitet.
+        <a href={knowledgePath + "/"}>Jetzt öffnen</a>
+      </p>
+    )}
   </div>
   <div class="leaf-mascot" aria-hidden="true">
     <img src={mascotSrc} alt="" loading="eager" />
@@ -60,6 +74,8 @@ const currentTitle = page.title;
   .eyebrow { margin:0; color:var(--text-soft); }
   h1 { margin:0.75rem 0 0; color:var(--text-strong); font-size:clamp(2.4rem,4vw,3.8rem); line-height:1.02; letter-spacing:-.04em; }
   .lead { margin:1rem 0 0; max-width:42rem; color:var(--text-soft); line-height:1.7; }
+  .redirect-note { margin: 1rem 0 0; color: var(--text); line-height: 1.6; }
+  .redirect-note a { font-weight: 700; color: var(--text-strong); }
   .leaf-mascot { position:relative; z-index:1; width:min(100%,13rem); }
   .leaf-mascot img { width:100%; display:block; object-fit:contain; }
   .leaf-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1.15rem; margin-top:1.4rem; }
