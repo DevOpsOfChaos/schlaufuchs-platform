@@ -1,8 +1,24 @@
 import type { CollectionEntry } from "astro:content";
-import { resolvePrimarySubjectSlug } from "./subjects";
+import { resolvePrimarySubjectSlug, type PrimarySubjectSlug } from "./subjects";
 
 type TopicEntry = CollectionEntry<"articles"> | CollectionEntry<"exercises">;
-type TopicPathValue = string | string[] | undefined | null;
+
+const normalizeUmlauts = (value: string) =>
+  value
+    .replace(/ä/g, "ae")
+    .replace(/ö/g, "oe")
+    .replace(/ü/g, "ue")
+    .replace(/Ä/g, "ae")
+    .replace(/Ö/g, "oe")
+    .replace(/Ü/g, "ue")
+    .replace(/ß/g, "ss");
+
+export const slugifyTopicSegment = (value: string) =>
+  normalizeUmlauts(value)
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
 
 export const humanizeTopicSegment = (segment: string) =>
   segment
@@ -11,23 +27,48 @@ export const humanizeTopicSegment = (segment: string) =>
     .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
     .join(" ");
 
-export const normalizeTopicPath = (value: TopicPathValue) => {
-  if (!value) return [] as string[];
-
-  const rawSegments = Array.isArray(value)
-    ? value.flatMap((part) => part.split("/"))
-    : value.split("/");
-
-  return rawSegments.map((segment) => segment.trim()).filter(Boolean);
+const sectionPathMap: Record<PrimarySubjectSlug, Record<string, string[]>> = {
+  mathematik: {
+    grundlagen: ["grundlagen"],
+    algebra: ["algebra"],
+    funktionen: ["funktionen"],
+    geometrie: ["geometrie"],
+  },
+  informatik: {
+    grundlagen: ["grundlagen"],
+    programmierung: ["programmieren"],
+    programmieren: ["programmieren"],
+    systemnah: ["systemnah"],
+  },
+  elektrotechnik: {
+    grundlagen: ["elektronik"],
+    elektronik: ["elektronik"],
+    "daten-und-signale": ["daten-und-signale"],
+    praxis: ["praxis"],
+    "arduino-und-esp32": ["praxis", "arduino-und-esp32"],
+    "computer-und-cpu": ["daten-und-signale", "computer-und-cpu"],
+  },
+  linux: {
+    shell: ["shell"],
+    system: ["system"],
+    praxis: ["praxis"],
+    "benutzer-und-gruppen": ["system", "benutzer-und-gruppen"],
+    "benutzer-und-rechte": ["system", "benutzer-und-gruppen"],
+    dateirechte: ["system", "dateirechte"],
+    "dateisystem-und-pfade": ["shell"],
+    "shell-und-prompt": ["shell"],
+    shellskripte: ["praxis"],
+  },
+  "web-development": {
+    html: ["html"],
+    css: ["css"],
+    praxis: ["praxis"],
+    "box-modell": ["css", "box-modell"],
+  },
 };
 
-export const getTopicTail = (entry: TopicEntry) => {
-  const explicit = normalizeTopicPath((entry.data as { topicPath?: TopicPathValue }).topicPath);
-  if (explicit.length > 0) {
-    return explicit;
-  }
-
-  const segments = entry.id.split("/").filter(Boolean);
+const getRawTail = (entry: TopicEntry) => {
+  const segments = entry.id.split("/").filter(Boolean).map(slugifyTopicSegment);
   const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject);
 
   if (subjectSlug && segments[0] === subjectSlug) {
@@ -37,16 +78,60 @@ export const getTopicTail = (entry: TopicEntry) => {
   return segments;
 };
 
-export const getTopicKey = (entry: TopicEntry) => getTopicTail(entry).join("/");
+const getExplicitTopicPath = (entry: TopicEntry) => {
+  const configured = entry.data.topicPath?.map(slugifyTopicSegment).filter(Boolean) ?? [];
+  return configured.length > 0 ? configured : null;
+};
 
-export const countSharedTopicPrefix = (left: string[], right: string[]) => {
-  let count = 0;
+const getSectionPath = (entry: TopicEntry) => {
+  const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject);
+  const sectionSlug = slugifyTopicSegment(entry.data.section ?? "");
 
-  while (count < left.length && count < right.length && left[count] === right[count]) {
-    count += 1;
+  return subjectSlug ? sectionPathMap[subjectSlug]?.[sectionSlug] ?? null : null;
+};
+
+const getLeafSlug = (entry: TopicEntry, rawTail: string[]) => rawTail.at(-1) ?? slugifyTopicSegment(entry.data.title);
+
+export const getTopicTail = (entry: TopicEntry) => {
+  const explicit = getExplicitTopicPath(entry);
+  if (explicit) return explicit;
+
+  const rawTail = getRawTail(entry);
+  if (rawTail.length > 1) return rawTail;
+
+  const mappedSectionPath = getSectionPath(entry);
+  if (!mappedSectionPath || mappedSectionPath.length === 0) {
+    return rawTail;
   }
 
-  return count;
+  return [...mappedSectionPath, getLeafSlug(entry, rawTail)];
+};
+
+export const getTopicGroupPath = (entry: TopicEntry) => {
+  const tail = getTopicTail(entry);
+  return tail.length > 1 ? tail.slice(0, -1) : tail;
+};
+
+export const getSharedTopicPrefixLength = (left: string[], right: string[]) => {
+  const maxLength = Math.min(left.length, right.length);
+  let shared = 0;
+
+  while (shared < maxLength && left[shared] === right[shared]) {
+    shared += 1;
+  }
+
+  return shared;
+};
+
+export const compareEntriesByTopicDepth = (left: TopicEntry, right: TopicEntry) => {
+  const leftDepth = getTopicTail(left).length;
+  const rightDepth = getTopicTail(right).length;
+
+  if (leftDepth !== rightDepth) {
+    return leftDepth - rightDepth;
+  }
+
+  return left.data.title.localeCompare(right.data.title, "de");
 };
 
 export const getEntriesForPrimarySubject = <T extends TopicEntry>(entries: T[], subjectSlug: string) =>

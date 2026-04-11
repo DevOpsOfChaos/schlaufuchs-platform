@@ -8,6 +8,11 @@ topicPath:
   - benutzer-und-gruppen
   - benutzer-rechte-und-homeverzeichnis
 level: einfach
+tags:
+  - benutzer
+  - rechte
+  - home
+  - linux
 draft: false
 ---
 

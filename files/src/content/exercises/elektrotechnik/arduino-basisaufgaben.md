@@ -8,6 +8,11 @@ topicPath:
   - arduino-und-esp32
   - arduino-basisaufgaben
 level: einfach
+tags:
+  - arduino
+  - esp32
+  - eingabe
+  - ausgabe
 draft: false
 ---
 

@@ -8,6 +8,11 @@ topicPath:
   - kirchhoffsche-regeln
   - kirchhoff-knoten-und-maschen-sicher-anwenden
 level: mittel
+tags:
+  - kirchhoff
+  - knotenregel
+  - maschenregel
+  - netzwerke
 draft: false
 ---
 

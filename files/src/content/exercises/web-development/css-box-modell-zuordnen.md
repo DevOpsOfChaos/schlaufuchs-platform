@@ -8,6 +8,11 @@ topicPath:
   - box-modell
   - css-box-modell-zuordnen
 level: einfach
+tags:
+  - css
+  - box-modell
+  - layout
+  - abstaende
 draft: false
 ---
 
