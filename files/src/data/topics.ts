@@ -2,6 +2,7 @@ import type { CollectionEntry } from "astro:content";
 import { resolvePrimarySubjectSlug } from "./subjects";
 
 type TopicEntry = CollectionEntry<"articles"> | CollectionEntry<"exercises">;
+type TopicPathValue = string | string[] | undefined | null;
 
 export const humanizeTopicSegment = (segment: string) =>
   segment
@@ -10,13 +11,20 @@ export const humanizeTopicSegment = (segment: string) =>
     .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
     .join(" ");
 
-export const getTopicTail = (entry: TopicEntry) => {
-  const explicitTopicPath = Array.isArray(entry.data.topicPath)
-    ? entry.data.topicPath.filter(Boolean)
-    : [];
+export const normalizeTopicPath = (value: TopicPathValue) => {
+  if (!value) return [] as string[];
 
-  if (explicitTopicPath.length > 0) {
-    return explicitTopicPath;
+  const rawSegments = Array.isArray(value)
+    ? value.flatMap((part) => part.split("/"))
+    : value.split("/");
+
+  return rawSegments.map((segment) => segment.trim()).filter(Boolean);
+};
+
+export const getTopicTail = (entry: TopicEntry) => {
+  const explicit = normalizeTopicPath((entry.data as { topicPath?: TopicPathValue }).topicPath);
+  if (explicit.length > 0) {
+    return explicit;
   }
 
   const segments = entry.id.split("/").filter(Boolean);
@@ -27,6 +35,18 @@ export const getTopicTail = (entry: TopicEntry) => {
   }
 
   return segments;
+};
+
+export const getTopicKey = (entry: TopicEntry) => getTopicTail(entry).join("/");
+
+export const countSharedTopicPrefix = (left: string[], right: string[]) => {
+  let count = 0;
+
+  while (count < left.length && count < right.length && left[count] === right[count]) {
+    count += 1;
+  }
+
+  return count;
 };
 
 export const getEntriesForPrimarySubject = <T extends TopicEntry>(entries: T[], subjectSlug: string) =>

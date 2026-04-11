@@ -2,6 +2,8 @@ import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
 
+const topicPathSchema = z.union([z.string(), z.array(z.string())]).optional();
+
 const subjects = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/subjects' }),
   schema: z.object({
@@ -27,7 +29,7 @@ const articles = defineCollection({
       'daten-und-signale',
     ]),
     section: z.string(),
-    topicPath: z.array(z.string()).optional(),
+    topicPath: topicPathSchema,
     level: z.enum(['einfach', 'mittel', 'fortgeschritten']),
     tags: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
@@ -48,7 +50,7 @@ const exercises = defineCollection({
       'daten-und-signale',
     ]),
     section: z.string().optional(),
-    topicPath: z.array(z.string()).optional(),
+    topicPath: topicPathSchema,
     level: z.enum(['einfach', 'mittel', 'fortgeschritten']),
     draft: z.boolean().default(false),
   }),
