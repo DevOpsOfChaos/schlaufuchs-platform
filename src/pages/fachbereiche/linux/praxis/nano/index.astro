@@ -1,17 +1,18 @@
 ---
 import BaseLayout from "../../../../../layouts/BaseLayout.astro";
-import TopicLandingPage from "../../../../../components/content/TopicLandingPage.astro";
-import { linuxTopics } from "../../../../../data/linux_topics";
+import { withBase } from "../../../../../utils/base";
 
-const page = linuxTopics["nano"];
-const breadcrumbs = [
-  { label: "Start", href: "/" },
-  { label: "Linux", href: "/fachbereiche/linux" },
-  { label: "Linux Praxis", href: "/fachbereiche/linux/praxis" },
-  { label: "nano", href: "/fachbereiche/linux/praxis/nano" },
-];
+const targetHref = withBase("fachbereiche/linux/praxis");
 ---
 
-<BaseLayout title={page.title + " – Schlaufuchs"} description={page.description}>
-  <TopicLandingPage page={page} breadcrumbs={breadcrumbs} />
+<BaseLayout title="nano – Fachinfo" description="Die alte Fachseite wird auf die aktuelle Themenübersicht weitergeleitet.">
+  <script is:inline define:vars={{ targetHref }}>
+    window.location.replace(targetHref);
+  </script>
+
+  <section>
+    <h1>nano</h1>
+    <p>Die aktuelle Fachübersicht wird geöffnet.</p>
+    <a href={targetHref}>Zur Themenübersicht</a>
+  </section>
 </BaseLayout>

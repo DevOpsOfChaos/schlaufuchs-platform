@@ -1,14 +1,18 @@
 ---
 import BaseLayout from "../../../../../layouts/BaseLayout.astro";
-import LinuxLeafPage from "../../../../../components/content/LinuxLeafPage.astro";
-import { linuxLeafPages } from "../../../../../data/linuxLeafPages";
+import { withBase } from "../../../../../utils/base";
 
-const page = linuxLeafPages["terminal-nutzen"];
+const targetHref = withBase("fachbereiche/linux/praxis");
 ---
 
-<BaseLayout
-  title={"Terminal nutzen" + " – Schlaufuchs"}
-  description={page.description}
->
-  <LinuxLeafPage page={page} />
+<BaseLayout title="Terminal nutzen – Fachinfo" description="Die alte Fachseite wird auf die aktuelle Themenübersicht weitergeleitet.">
+  <script is:inline define:vars={{ targetHref }}>
+    window.location.replace(targetHref);
+  </script>
+
+  <section>
+    <h1>Terminal nutzen</h1>
+    <p>Die aktuelle Fachübersicht wird geöffnet.</p>
+    <a href={targetHref}>Zur Themenübersicht</a>
+  </section>
 </BaseLayout>

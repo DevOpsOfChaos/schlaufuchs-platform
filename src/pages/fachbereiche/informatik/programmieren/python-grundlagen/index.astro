@@ -1,14 +1,18 @@
 ---
 import BaseLayout from "../../../../../layouts/BaseLayout.astro";
-import InformatikLeafPage from "../../../../../components/content/InformatikLeafPage.astro";
-import { informatikLeafPages } from "../../../../../data/informatikLeafPages";
+import { withBase } from "../../../../../utils/base";
 
-const page = informatikLeafPages["python-grundlagen"];
+const targetHref = withBase("fachbereiche/informatik/programmieren");
 ---
 
-<BaseLayout
-  title={"Python Grundlagen" + " – Schlaufuchs"}
-  description={page.description}
->
-  <InformatikLeafPage page={page} />
+<BaseLayout title="Python Grundlagen – Fachinfo" description="Die alte Fachseite wird auf die aktuelle Themenübersicht weitergeleitet.">
+  <script is:inline define:vars={{ targetHref }}>
+    window.location.replace(targetHref);
+  </script>
+
+  <section>
+    <h1>Python Grundlagen</h1>
+    <p>Die aktuelle Fachübersicht wird geöffnet.</p>
+    <a href={targetHref}>Zur Themenübersicht</a>
+  </section>
 </BaseLayout>

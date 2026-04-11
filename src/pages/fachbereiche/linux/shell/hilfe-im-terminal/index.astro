@@ -1,14 +1,18 @@
 ---
 import BaseLayout from "../../../../../layouts/BaseLayout.astro";
-import LinuxLeafPage from "../../../../../components/content/LinuxLeafPage.astro";
-import { linuxLeafPages } from "../../../../../data/linuxLeafPages";
+import { withBase } from "../../../../../utils/base";
 
-const page = linuxLeafPages["hilfe-im-terminal"];
+const targetHref = withBase("fachbereiche/linux/shell");
 ---
 
-<BaseLayout
-  title={"Hilfe im Terminal" + " – Schlaufuchs"}
-  description={page.description}
->
-  <LinuxLeafPage page={page} />
+<BaseLayout title="Hilfe im Terminal – Fachinfo" description="Die alte Fachseite wird auf die aktuelle Themenübersicht weitergeleitet.">
+  <script is:inline define:vars={{ targetHref }}>
+    window.location.replace(targetHref);
+  </script>
+
+  <section>
+    <h1>Hilfe im Terminal</h1>
+    <p>Die aktuelle Fachübersicht wird geöffnet.</p>
+    <a href={targetHref}>Zur Themenübersicht</a>
+  </section>
 </BaseLayout>

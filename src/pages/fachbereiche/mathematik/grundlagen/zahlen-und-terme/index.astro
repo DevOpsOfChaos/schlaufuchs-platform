@@ -1,14 +1,18 @@
 ---
 import BaseLayout from "../../../../../layouts/BaseLayout.astro";
-import MathLeafPage from "../../../../../components/content/MathLeafPage.astro";
-import { mathLeafPages } from "../../../../../data/mathLeafPages";
+import { withBase } from "../../../../../utils/base";
 
-const page = mathLeafPages["zahlen-und-terme"];
+const targetHref = withBase("fachbereiche/mathematik/grundlagen/zahlen");
 ---
 
-<BaseLayout
-  title={"Zahlen & Terme" + " – Schlaufuchs"}
-  description={page.description}
->
-  <MathLeafPage page={page} />
+<BaseLayout title="Zahlen & Terme – Fachinfo" description="Die alte Fachseite wird auf die aktuelle Themenübersicht weitergeleitet.">
+  <script is:inline define:vars={{ targetHref }}>
+    window.location.replace(targetHref);
+  </script>
+
+  <section>
+    <h1>Zahlen & Terme</h1>
+    <p>Die aktuelle Fachübersicht wird geöffnet.</p>
+    <a href={targetHref}>Zur Themenübersicht</a>
+  </section>
 </BaseLayout>

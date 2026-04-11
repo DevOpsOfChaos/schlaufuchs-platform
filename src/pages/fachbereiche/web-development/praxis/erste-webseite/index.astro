@@ -1,17 +1,18 @@
 ---
 import BaseLayout from "../../../../../layouts/BaseLayout.astro";
-import TopicLandingPage from "../../../../../components/content/TopicLandingPage.astro";
-import { webdevelopmentTopics } from "../../../../../data/web_development_topics";
+import { withBase } from "../../../../../utils/base";
 
-const page = webdevelopmentTopics["erste-webseite"];
-const breadcrumbs = [
-  { label: "Start", href: "/" },
-  { label: "Web Development", href: "/fachbereiche/web-development" },
-  { label: "Web Development Praxis", href: "/fachbereiche/web-development/praxis" },
-  { label: "Erste Webseite", href: "/fachbereiche/web-development/praxis/erste-webseite" },
-];
+const targetHref = withBase("fachbereiche/web-development/praxis");
 ---
 
-<BaseLayout title={page.title + " – Schlaufuchs"} description={page.description}>
-  <TopicLandingPage page={page} breadcrumbs={breadcrumbs} />
+<BaseLayout title="Erste Webseite – Fachinfo" description="Die alte Fachseite wird auf die aktuelle Themenübersicht weitergeleitet.">
+  <script is:inline define:vars={{ targetHref }}>
+    window.location.replace(targetHref);
+  </script>
+
+  <section>
+    <h1>Erste Webseite</h1>
+    <p>Die aktuelle Fachübersicht wird geöffnet.</p>
+    <a href={targetHref}>Zur Themenübersicht</a>
+  </section>
 </BaseLayout>
