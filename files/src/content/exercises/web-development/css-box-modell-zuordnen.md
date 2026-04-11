@@ -6,6 +6,7 @@ section: box-modell
 topicPath:
   - css
   - box-modell
+  - css-box-modell-zuordnen
 level: einfach
 draft: false
 ---

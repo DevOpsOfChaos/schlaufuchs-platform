@@ -6,6 +6,7 @@ section: Benutzer und Rechte
 topicPath:
   - system
   - benutzer-und-gruppen
+  - benutzer-rechte-und-homeverzeichnis
 level: einfach
 draft: false
 ---

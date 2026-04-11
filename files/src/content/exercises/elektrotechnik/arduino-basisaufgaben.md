@@ -6,6 +6,7 @@ section: arduino-und-esp32
 topicPath:
   - praxis
   - arduino-und-esp32
+  - arduino-basisaufgaben
 level: einfach
 draft: false
 ---
