@@ -1,0 +1,18 @@
+---
+import BaseLayout from "../../../../../layouts/BaseLayout.astro";
+import { withBase } from "../../../../../utils/base";
+
+const targetHref = withBase("wissen/linux/system/dateirechte");
+---
+
+<BaseLayout title="Dateirechte – Fachinfo" description="Die alte Fachseite wird auf die aktuelle Wissensseite weitergeleitet.">
+  <script is:inline define:vars={ targetHref }>
+    window.location.replace(targetHref);
+  </script>
+
+  <section>
+    <h1>Dateirechte</h1>
+    <p>Die ausführliche Wissensseite wird geöffnet.</p>
+    <a href={targetHref}>Zur Wissensseite</a>
+  </section>
+</BaseLayout>
