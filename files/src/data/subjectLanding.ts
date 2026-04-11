@@ -122,23 +122,23 @@ export const subjectLanding = {
     mascot: "/assets/mascots/electro.png",
     icon: "/assets/icons/elektrotechnik.png",
     accent: "ee",
-    intro: "Elektrotechnik ist jetzt ebenfalls in klare große Bereiche gegliedert. Von dort geht es in Fachinfos und passende Aufgaben weiter.",
+    intro: "Auch Elektrotechnik ist jetzt nach großen Kategorien gegliedert, damit Themenpfade und Wissensseiten darunter sauber wachsen können.",
     categories: [
       {
         title: "Elektronik",
-        text: "Strom, Spannung, Widerstand und typische Grundschaltungen.",
+        text: "Bauteile, Schaltungen und Grundprinzipien.",
         href: "/fachbereiche/elektrotechnik/elektronik",
         tone: "ee-a",
       },
       {
         title: "Daten & Signale",
-        text: "Schaltpläne, Messgrößen und sauberes technisches Lesen.",
+        text: "Übertragung, Signalformen und technische Systeme.",
         href: "/fachbereiche/elektrotechnik/daten-und-signale",
         tone: "ee-b",
       },
       {
         title: "Praxis",
-        text: "Messung, Auswertung und typische Anwendungen wie Leistung oder Spannungsteiler.",
+        text: "Messen, Anwenden und technische Grundschaltungen.",
         href: "/fachbereiche/elektrotechnik/praxis",
         tone: "ee-c",
       },
