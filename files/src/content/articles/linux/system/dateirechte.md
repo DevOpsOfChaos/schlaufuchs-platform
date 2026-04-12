@@ -1,121 +1,168 @@
 ---
-title: Dateirechte – Grundlagen
-description: Lerne, wie Linux Lesen, Schreiben und Ausführen für Besitzer, Gruppen und andere Benutzer trennt.
+title: Dateirechte
+description: Dateirechte bestimmen in Linux, wer Dateien lesen, verändern oder ausführen
+  darf, und sind zentral für sauberes und sicheres Arbeiten.
 subject: linux
 section: system
+topicPath:
+- system
+- dateirechte
+learningGoals:
+- Du liest einfache Linux-Dateirechte sicher.
+- Du unterscheidest Besitzer, Gruppe und andere.
+- Du ordnest typische Rechtekombinationen fachlich ein.
 level: einfach
-tags: [linux, rechte, chmod, dateien, system]
+tags:
+- linux
+- rechte
+- chmod
+- dateirechte
+- ls
 draft: false
+practiceIdeas:
+- Lies mehrere Rechteketten wie rw-r--r-- oder rwxr-xr-x laut in Besitzer, Gruppe
+  und andere auf.
+- Vergleiche eine Datei mit 644 und ein Skript mit 755 und erkläre den Unterschied.
+- Ordne zu, wann ein x-Bit bei Dateien wichtig ist und wann bei Verzeichnissen.
+commonMistakes:
+- Die drei Rechteblöcke nicht sauber den Gruppen Besitzer, Gruppe und andere zuordnen.
+- x immer nur als „ausführen“ lesen und seine Bedeutung bei Verzeichnissen übersehen.
+- chmod-Werte auswendig nutzen, ohne zu verstehen, welche Rechte dadurch gesetzt werden.
+keyTakeaways:
+- Linux trennt Rechte immer in Besitzer, Gruppe und andere.
+- r, w und x haben je nach Datei oder Verzeichnis leicht unterschiedliche praktische
+  Wirkung.
+- Rechte sollten bewusst gesetzt werden und nicht zufällig entstehen.
 ---
+<div class="learning-card">
+  <p class="card-kicker">Einstieg</p>
+  <h3>Was du hier lernst</h3>
+  <p>Dateirechte legen fest, wer etwas lesen, ändern oder ausführen darf. Genau deshalb sind sie in Linux ein Kernpunkt für Ordnung und Sicherheit.</p>
+  <ul>
+    <li>Du verstehst die Rollen Besitzer, Gruppe und andere.</li>
+    <li>Du liest Zeichenfolgen wie <code>rw-r--r--</code>.</li>
+    <li>Du erkennst, wann Rechte zu offen oder zu eng gesetzt sind.</li>
+  </ul>
+</div>
 
-Dateirechte sind eine der wichtigsten Grundlagen in Linux. Sie entscheiden, **wer** etwas lesen, verändern oder ausführen darf. Ohne dieses Prinzip gäbe es in Mehrbenutzersystemen schnell Chaos.
+## Grundidee
 
-## Überblick
+Linux behandelt nicht alle Benutzer gleich. Für jede Datei und jeden Ordner wird unterschieden, was erlaubt ist.
 
-In Linux werden Rechte nicht für „alle gleichzeitig“ vergeben, sondern getrennt für drei Ebenen betrachtet:
+Die drei wichtigen Gruppen sind:
 
 - Besitzer
 - Gruppe
 - andere
 
-Für jede dieser Ebenen wird geprüft, welche Aktionen erlaubt sind.
-
-## Die drei Grundrechte
-
-Linux arbeitet bei Dateien und Ordnern vor allem mit drei Zeichen:
+Die drei wichtigen Rechte sind:
 
 - `r` = lesen
 - `w` = schreiben
 - `x` = ausführen
 
-Diese Kürzel tauchen sehr häufig auf. Wer sie sicher versteht, kann Rechte deutlich besser lesen.
+## Rechte lesen
 
-## Für wen gelten diese Rechte?
+Eine typische Rechteanzeige sieht so aus:
 
-Rechte werden in Linux immer im Zusammenhang mit drei Rollen gelesen:
-
-- **Besitzer**: der Benutzer, dem die Datei gehört
-- **Gruppe**: die zugeordnete Gruppe
-- **Andere**: alle übrigen Benutzer
-
-Das ist wichtig, weil dieselbe Datei für verschiedene Rollen unterschiedliche Rechte haben kann.
-
-## Beispiel lesen
-
-Die Rechte
+<div class="wide-example">
 
 ```text
 rw-r--r--
 ```
 
-bedeuten:
+</div>
 
-- Besitzer: lesen und schreiben
-- Gruppe: nur lesen
-- Andere: nur lesen
+Das liest man in drei Blöcken:
 
-An diesem Beispiel sieht man gut, dass Linux Rechte nicht pauschal verteilt, sondern fein unterscheidet.
+- `rw-` für den Besitzer
+- `r--` für die Gruppe
+- `r--` für andere
 
-## Was bedeutet `x`?
+<div class="example-card">
+  <p class="card-kicker">Leitbeispiel</p>
+  <h3>Die Rechte <code>rw-r--r--</code></h3>
+  <ul>
+    <li>Besitzer: lesen und schreiben</li>
+    <li>Gruppe: nur lesen</li>
+    <li>Andere: nur lesen</li>
+  </ul>
+</div>
 
-Das Ausführungsrecht wird oft zuerst nur mit Programmen verbunden. Grundsätzlich heißt `x`, dass etwas ausgeführt werden darf.
+## Warum diese Trennung wichtig ist
 
-Bei Dateien bedeutet das oft:
+Gerade in Mehrbenutzersystemen sollen nicht alle alles ändern dürfen. Rechte schützen Inhalte und sorgen dafür, dass Verantwortlichkeiten klar bleiben.
 
-- ein Programm oder Skript darf gestartet werden
+Das ist besonders wichtig bei:
 
-Bei Ordnern ist die Bedeutung etwas spezieller, aber für den Einstieg reicht:
+- persönlichen Dateien,
+- Konfigurationsdateien,
+- Skripten,
+- gemeinsam genutzten Arbeitsbereichen.
 
-- Zugänge und Aktionen hängen stark von den gesetzten Rechten ab
+## Rechte bewusst interpretieren
 
-## Warum Rechte so wichtig sind
+Nicht jede Rechtekombination ist automatisch sinnvoll. Man sollte immer fragen:
 
-Rechte schützen Dateien davor, dass:
+- Wer muss lesen dürfen?
+- Wer muss schreiben dürfen?
+- Muss etwas überhaupt ausführbar sein?
 
-- jeder alles verändert,
-- wichtige Inhalte versehentlich überschrieben werden,
-- oder Programme und Konfigurationen unkontrolliert benutzt werden.
+<div class="practice-card">
+  <p class="card-kicker">Zum Ausprobieren</p>
+  <h3>Was du in der Linux-Lernshell testen solltest</h3>
+  <ul>
+    <li><code>ls -l</code> um Rechte sichtbar zu machen</li>
+    <li>Dateien mit unterschiedlichen Rechten vergleichen</li>
+    <li>überlegen, welche Rolle Besitzer, Gruppe und andere jeweils haben</li>
+  </ul>
+  <p>Später kann die universelle Shell genau dafür vorbereitete Beispieldateien bereitstellen.</p>
+</div>
 
-Besonders in Mehrbenutzersystemen sind Rechte deshalb ein Grundbaustein für Sicherheit und Ordnung.
+## Rechte und Homeverzeichnis
 
-## `chmod` als wichtiges Werkzeug
+Besonders gut sieht man das Thema im Homeverzeichnis. Dort liegen oft persönliche Dateien, die nicht für alle frei änderbar sein sollen.
 
-Mit `chmod` lassen sich Rechte verändern.
+Deshalb ist Dateirechte-Verständnis keine Nebensache, sondern direkte Alltagspraxis in Linux.
 
-Für den Einstieg ist nicht wichtig, jede Schreibweise sofort auswendig zu beherrschen. Wichtiger ist das Prinzip:
+## Typische Fehler
 
-- Rechte können bewusst gesetzt werden
-- und sollten nicht „irgendwie offen“ bleiben
+<div class="mistake-card">
+  <p class="card-kicker">Typische Fehler</p>
+  <h3>Darauf solltest du achten</h3>
+  <ul>
+    <li>Besitzer, Gruppe und andere werden verwechselt.</li>
+    <li><code>r</code>, <code>w</code> und <code>x</code> werden zu ungenau gelesen.</li>
+    <li>Man glaubt, mehr Rechte seien automatisch besser.</li>
+    <li>Ausführbarkeit wird gesetzt, obwohl es fachlich keinen Sinn ergibt.</li>
+    <li>Rechte werden auswendig gelernt statt in ihrer Wirkung verstanden.</li>
+  </ul>
+</div>
 
-Typische Zielidee:
+<div class="summary-card">
+  <p class="card-kicker">Merksätze</p>
+  <h3>Das solltest du mitnehmen</h3>
+  <ul>
+    <li>Dateirechte steuern Zugriffe in Linux.</li>
+    <li>Es gibt die drei Rollen Besitzer, Gruppe und andere.</li>
+    <li><code>r</code>, <code>w</code> und <code>x</code> beschreiben lesen, schreiben und ausführen.</li>
+    <li>Rechte sollten bewusst und nicht zufällig gesetzt werden.</li>
+    <li>Wer Rechte lesen kann, versteht Linux deutlich besser.</li>
+  </ul>
+</div>
 
-- Besitzer darf arbeiten
-- Gruppe bekommt nur nötige Rechte
-- andere werden möglichst passend eingeschränkt
 
-## Typische Anfängerfehler
+## Woran du das Thema erkennst
 
-Besonders häufig sind diese Probleme:
+Du merkst, dass dieses Thema gefragt ist, wenn du in Aufgaben oder Erklärungen auf typische Signale wie diese stößt:
 
-- Besitzer, Gruppe und andere durcheinanderbringen
-- `r`, `w`, `x` nur mechanisch lesen, aber nicht in Handlung übersetzen
-- Rechte zu offen setzen, ohne den Zweck zu prüfen
-- nicht zu erkennen, dass Rechte immer vom konkreten Kontext abhängen
+- Es geht ausdrücklich um **Dateirechte** oder um eng verwandte Begriffe aus **system**.
+- Du sollst nicht nur etwas benennen, sondern den Ablauf, die Regel oder den Zusammenhang **sauber erklären**.
+- In Beispielen musst du Werte, Strukturen, Schritte oder Reaktionen **geordnet lesen und deuten**.
 
-## Gute Denkweise
 
-Wenn du Rechte siehst, stelle dir drei Fragen:
+## Mini-Check für dich
 
-1. Wer ist betroffen?
-2. Was ist erlaubt?
-3. Passt das zur Situation?
-
-Diese drei Fragen helfen mehr als bloßes Auswendiglernen.
-
-## Merksätze
-
-- Linux trennt Rechte für Besitzer, Gruppe und andere.
-- Die drei Grundrechte sind lesen, schreiben und ausführen.
-- Rechte schützen Inhalte und Arbeitsumgebungen.
-- Gute Rechte sind bewusst gesetzt, nicht zufällig.
-- Wer Rechte lesen kann, arbeitet im System deutlich sicherer.
+- Kannst du in eigenen Worten erklären, wie du du liest einfache Linux-Dateirechte sicher.?
+- Kannst du in eigenen Worten erklären, wie du du unterscheidest Besitzer, Gruppe und andere.?
+- Kannst du in eigenen Worten erklären, wie du du ordnest typische Rechtekombinationen fachlich ein.?

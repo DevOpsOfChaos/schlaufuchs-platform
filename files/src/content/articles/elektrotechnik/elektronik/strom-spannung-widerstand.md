@@ -1,94 +1,142 @@
 ---
-title: Strom, Spannung und Widerstand
-description: Diese drei Größen bilden die wichtigste Grundlage für fast alle ersten Schaltungsbetrachtungen.
+title: "Strom, Spannung und Widerstand"
+description: "Verstehe die drei Grundgrößen der Elektrotechnik und wie sie zusammenhängen."
 subject: elektrotechnik
-section: Elektronik
-level: einfach
+section: "Grundlagen"
+topicPath:
+  - "elektronik"
+  - "strom-spannung-widerstand"
+learningGoals:
+  - "Du unterscheidest Strom, Spannung und Widerstand."
+  - "Du verknüpfst die drei Größen über das Ohmsche Gesetz."
+  - "Du deutest einfache Beispiele nicht nur rechnerisch, sondern auch fachlich."
+practiceIdeas:
+  - "Ordne Alltagssituationen den Größen Strom, Spannung oder Widerstand zu."
+  - "Erkläre das Ohmsche Gesetz in Worten und als Formel."
+  - "Verändere in einem Beispiel einen Wert und beobachte die Folgen."
+commonMistakes:
+  - "Strom und Spannung gleichzusetzen."
+  - "Widerstand nur als Hindernis statt als Zusammenhangsgröße zu sehen."
+  - "Formeln anzuwenden, ohne die Größen vorher zu verstehen."
+keyTakeaways:
+  - "Strom, Spannung und Widerstand beschreiben verschiedene Aspekte des Stromkreises."
+  - "Das Ohmsche Gesetz verknüpft die drei Größen."
+  - "Saubere Begriffsarbeit verhindert viele Rechenfehler."
 tags:
-  - Strom
-  - Spannung
-  - Widerstand
-  - Grundlagen
+  - "strom"
+  - "spannung"
+  - "widerstand"
+  - "grundlagen"
+  - "elektrotechnik"
+level: einfach
 draft: false
 ---
 
-## Überblick
+<div class="learning-card">
+  <p class="card-kicker">Einstieg</p>
+  <h3>Was du hier lernst</h3>
+  <p>Strom, Spannung und Widerstand gehören zu den wichtigsten Grundgrößen der Elektrotechnik. Wer diese drei sauber trennt, versteht spätere Themen wie Schaltungen, Messungen und Berechnungen deutlich besser.</p>
+  <ul>
+    <li>Du lernst die Bedeutung der drei Größen kennen.</li>
+    <li>Du verstehst, wie sie zusammenhängen.</li>
+    <li>Du bekommst eine gute sprachliche und fachliche Grundordnung.</li>
+  </ul>
+</div>
 
-Strom, Spannung und Widerstand gehören zu den ersten Begriffen, die in der Elektrotechnik wirklich sicher sitzen sollten. Viele spätere Themen wie Schaltungen, Leistung, Spannungsteiler oder Messungen bauen direkt darauf auf.
+## Die drei Grundgrößen im Überblick
 
-## Strom
+In einfachen Stromkreisen tauchen fast immer drei Grundideen auf:
 
-Strom beschreibt, wie viel elektrische Ladung pro Zeit durch einen Leiter fließt.
+- <strong>Spannung</strong> als antreibende Größe,
+- <strong>Strom</strong> als fließende elektrische Ladung,
+- <strong>Widerstand</strong> als hemmende Größe.
 
-- Formelzeichen: **I**
-- Einheit: **Ampere (A)**
+Diese drei gehören zusammen. Man sollte sie aber nie durcheinanderwerfen.
 
-Anschaulich hilft oft die Frage:
+## Was Spannung bedeutet
 
-- Wie stark „fließt“ etwas durch die Leitung?
+Spannung beschreibt den Unterschied zwischen zwei elektrischen Zuständen. Sie ist vereinfacht gesprochen die Größe, die einen elektrischen Ablauf antreiben kann.
 
-## Spannung
+Ohne Spannung gibt es in einer einfachen Schaltung keinen Antrieb für Strom.
 
-Spannung beschreibt den Unterschied zwischen zwei elektrischen Zuständen. Sie ist die treibende Größe, die Stromfluss überhaupt möglich macht.
+## Was Strom bedeutet
 
-- Formelzeichen: **U**
-- Einheit: **Volt (V)**
+Strom beschreibt, dass elektrische Ladung fließt. Strom ist also kein „gespeicherter Vorrat“, sondern ein Vorgang.
 
-Spannung ist also nicht „der Strom selbst“, sondern eher die Ursache dafür, dass Strom fließen kann.
+Wichtig ist: Strom fließt nicht einfach irgendwie, sondern nur unter passenden Bedingungen in einer geschlossenen Schaltung.
 
-## Widerstand
+## Was Widerstand bedeutet
 
-Widerstand beschreibt, wie stark ein Bauteil oder Leiter den Stromfluss hemmt.
+Widerstand beschreibt, wie stark ein Bauteil den Stromfluss hemmt. Ein größerer Widerstand erschwert den Stromfluss stärker als ein kleinerer.
 
-- Formelzeichen: **R**
-- Einheit: **Ohm (Ω)**
+Damit wird klar: Widerstand ist nicht das Gegenteil von Strom, sondern eine Größe, die sein Verhalten beeinflusst.
 
-Je größer der Widerstand, desto schwieriger wird der Stromfluss.
+<div class="example-card">
+  <p class="card-kicker">Leitbeispiel</p>
+  <h3>Eine einfache Lampe im Stromkreis</h3>
+  <p>Eine Spannungsquelle liefert den Antrieb. Durch den geschlossenen Stromkreis kann Strom fließen. Die Lampe wirkt dabei wie ein Verbraucher mit elektrischem Widerstand. Genau an diesem einfachen Beispiel lassen sich die drei Größen gut auseinanderhalten.</p>
+</div>
 
-## Zusammenspiel der drei Größen
+## Warum diese Unterscheidung so wichtig ist
 
-Diese drei Größen gehören zusammen:
+Viele spätere Rechenwege und Schaltungen werden unnötig schwer, wenn die Grundbegriffe unsauber sind. Wer schon hier klar trennt, versteht später leichter:
 
-- Spannung treibt,
-- Widerstand bremst,
-- Strom ist das Ergebnis des Zusammenspiels.
+- Reihen- und Parallelschaltungen,
+- das Ohmsche Gesetz,
+- Messgeräte,
+- Leistung,
+- und allgemeine Schaltungsanalyse.
 
-Genau deshalb ist das Ohmsche Gesetz später so wichtig.
+## Alltagssprache und Fachsprache
 
-## Das Ohmsche Gesetz als Grundidee
+Im Einstieg helfen oft Bilder und Vergleiche. Trotzdem sollte man die Fachsprache sauber lernen.
 
-Für viele einfache Fälle gilt:
+Wichtig ist deshalb nicht nur, dass du dir Strom, Spannung und Widerstand vorstellen kannst, sondern auch, dass du sie korrekt benennst.
 
-- **U = R · I**
-
-Daraus lassen sich auch die beiden Umformungen lesen:
-
-- **I = U / R**
-- **R = U / I**
-
-## Beispiel
-
-Gegeben:
-
-- Spannung: 12 V
-- Widerstand: 6 Ω
-
-Dann gilt:
-
-- I = 12 / 6 = 2 A
-
-Der Strom beträgt also 2 A.
+<div class="practice-card">
+  <p class="card-kicker">Zum Anwenden</p>
+  <h3>So prüfst du dein Verständnis</h3>
+  <ul>
+    <li>Kannst du erklären, was den Strom antreibt?</li>
+    <li>Kannst du sagen, welche Größe den Fluss hemmt?</li>
+    <li>Kannst du Spannung, Strom und Widerstand in einem einfachen Stromkreis benennen?</li>
+  </ul>
+</div>
 
 ## Typische Fehler
 
-- Strom und Spannung verwechseln.
-- Widerstand als „Strommenge“ missverstehen.
-- Einheiten nicht sauber unterscheiden.
-- Formeln ohne inhaltliches Verständnis einsetzen.
+<div class="mistake-card">
+  <p class="card-kicker">Typische Fehler</p>
+  <h3>Darauf solltest du achten</h3>
+  <ul>
+    <li>Spannung und Strom werden verwechselt.</li>
+    <li>Strom wird wie ein gespeicherter Stoff statt wie ein Fluss beschrieben.</li>
+    <li>Widerstand wird nur als „schlecht“ verstanden, statt als steuernde Größe.</li>
+    <li>Die drei Größen werden ohne Zusammenhang nebeneinander gelernt.</li>
+  </ul>
+</div>
 
-## Merksätze
+<div class="summary-card">
+  <p class="card-kicker">Merksätze</p>
+  <h3>Das solltest du mitnehmen</h3>
+  <ul>
+    <li>Spannung treibt elektrische Vorgänge an.</li>
+    <li>Strom beschreibt fließende Ladung.</li>
+    <li>Widerstand hemmt den Stromfluss.</li>
+    <li>Alle drei Größen gehören zusammen, sind aber nicht dasselbe.</li>
+    <li>Saubere Begriffe sind die Grundlage für fast alle späteren Rechenwege.</li>
+  </ul>
+</div>
 
-- Strom ist Ladungsfluss.
-- Spannung treibt den Stromfluss.
-- Widerstand hemmt den Stromfluss.
-- Diese drei Größen bilden die Grundlage vieler späterer Schaltungsrechnungen.
+
+## Woran du das Thema erkennst
+
+Du erkennst dieses Thema meist daran, dass du nicht nur einen einzelnen Fachbegriff brauchst, sondern die zugrunde liegende Struktur, Anordnung oder Denkweise sauber unterscheiden musst. Genau dort entscheidet sich oft, ob ein Beispiel wirklich verstanden wurde oder nur oberflächlich bekannt wirkt.
+
+## Mini-Check für dich
+
+Prüfe am Ende kurz selbst:
+
+- Kann ich das Thema in eigenen Worten erklären?
+- Kann ich ein Beispiel richtig einordnen?
+- Kann ich eine typische Verwechslung benennen?

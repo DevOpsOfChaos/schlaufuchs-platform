@@ -1,117 +1,167 @@
 ---
 title: Flexbox – Grundlagen
-description: Lerne, wie Flexbox Elemente entlang einer Achse anordnet und warum das für viele Layout-Aufgaben so praktisch ist.
+description: Flexbox hilft dabei, Elemente in einer Zeile oder Spalte flexibel und
+  kontrolliert anzuordnen.
 subject: web-development
 section: css
+topicPath:
+- css
+- flexbox
+learningGoals:
+- Du verstehst die Grundidee eines Flex-Containers.
+- Du ordnest häufige Eigenschaften wie justify-content und align-items ein.
+- Du erkennst, warum Flexbox für viele Layout-Probleme so nützlich ist.
 level: einfach
-tags: [css, flexbox, layout, web-development]
+tags:
+- css
+- flexbox
+- layout
+- align-items
+- justify-content
 draft: false
+practiceIdeas:
+- Nimm einen Container und ändere nur display, flex-direction und justify-content,
+  um die Hauptwirkung zu sehen.
+- Beobachte, wie sich align-items von justify-content unterscheidet.
+- Teste, wie einzelne Elemente mit flex-grow mehr Platz bekommen.
+commonMistakes:
+- Hauptachse und Querachse nicht auseinanderhalten.
+- justify-content und align-items verwechseln.
+- Flexbox einsetzen, ohne zuerst den Container als Flex-Container zu definieren.
+keyTakeaways:
+- Flexbox ordnet Elemente entlang einer Haupt- und einer Querachse.
+- justify-content arbeitet auf der Hauptachse, align-items auf der Querachse.
+- Ohne display: flex greifen die typischen Flexbox-Eigenschaften nicht.
 ---
+<div class="learning-card">
+  <p class="card-kicker">Einstieg</p>
+  <h3>Was du hier lernst</h3>
+  <p>Flexbox ist ein CSS-Werkzeug, mit dem Elemente kontrolliert in Zeilen oder Spalten ausgerichtet werden. Gerade für Navigationen, Karten oder Button-Gruppen ist das sehr nützlich.</p>
+  <ul>
+    <li>Du lernst den Unterschied zwischen Container und Kind-Elementen.</li>
+    <li>Du verstehst die Wirkung wichtiger Flexbox-Eigenschaften.</li>
+    <li>Du erkennst typische Layout-Probleme, die Flexbox elegant löst.</li>
+  </ul>
+</div>
 
-Flexbox gehört zu den wichtigsten Layout-Werkzeugen in CSS. Es hilft dabei, Elemente in Reihen oder Spalten anzuordnen, auszurichten und mit sinnvollen Abständen zu versehen.
+## Grundidee
 
-## Überblick
+Flexbox arbeitet mit einem Eltern-Element, das zum Flex-Container wird. Alle direkten Kinder darin werden als Flex-Items behandelt.
 
-Viele typische Weblayouts bestehen aus Gruppen von Elementen:
+Der wichtigste Start ist:
 
-- Navigationen
-- Button-Reihen
-- Karten
-- kleine Inhaltsblöcke
-
-Genau hier ist Flexbox besonders nützlich.
-
-## Die Grundidee
-
-Ein Container wird mit Flexbox zu einem flexiblen Layout-Bereich. Die enthaltenen Elemente werden dann entlang einer Hauptachse angeordnet.
-
-Das klingt technisch, bedeutet im Alltag aber meist:
-
-- Elemente nebeneinander stellen
-- Elemente untereinander anordnen
-- Abstand und Ausrichtung besser kontrollieren
-
-## Ein einfaches Beispiel
+<div class="wide-example">
 
 ```css
 .container {
   display: flex;
+}
+```
+
+</div>
+
+Ab diesem Moment verhalten sich die direkten Kinder anders als im normalen Blocklayout.
+
+## Container und Items
+
+Der Flex-Container steuert das Layout. Die Kinder reagieren auf diese Regeln.
+
+Wichtige Frage beim Lesen von CSS ist daher immer:
+
+- Welche Regel gehört zum Container?
+- Welche Regel gehört zu einem Kind-Element?
+
+## Wichtige Eigenschaften
+
+### <code>justify-content</code>
+
+Steuert die Verteilung entlang der Hauptachse.
+
+### <code>align-items</code>
+
+Steuert die Ausrichtung entlang der Querachse.
+
+### <code>gap</code>
+
+Regelt den Abstand zwischen den Elementen.
+
+<div class="example-card">
+  <p class="card-kicker">Leitbeispiel</p>
+  <h3>Eine einfache Leiste mit Abstand</h3>
+  <div class="wide-example">
+
+```css
+.leiste {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   gap: 1rem;
 }
 ```
 
-Schon mit `display: flex` verändert sich das Verhalten der Kind-Elemente deutlich. Sie werden nicht mehr einfach wie normale Blockelemente behandelt, sondern als Teil eines Flex-Layouts.
+  </div>
+  <p>Die Elemente stehen in einer Reihe, haben Abstand und werden auf der Querachse sauber ausgerichtet.</p>
+</div>
 
-## Wichtige Begriffe
+## Warum Flexbox so nützlich ist
 
-Für den Einstieg sind besonders diese Konzepte wichtig:
+Viele Layout-Fragen lassen sich mit Flexbox einfacher lösen als mit älteren Techniken.
 
-- Hauptachse
-- Querachse
-- Ausrichtung
-- Abstand zwischen Elementen
+Typische Einsatzfälle sind:
 
-Wer diese Grundideen versteht, kann viele Layoutfragen schon gut einordnen.
+- Navigationen
+- Kartenreihen
+- Button-Gruppen
+- horizontale oder vertikale Ausrichtung
+- flexible Verteilung von Platz
 
-## `justify-content`
+<div class="practice-card">
+  <p class="card-kicker">Zum Ausprobieren</p>
+  <h3>Beobachte die Wirkung einzelner Eigenschaften</h3>
+  <ul>
+    <li>Was passiert, wenn du nur <code>display: flex</code> setzt?</li>
+    <li>Wie verändert sich das Layout bei <code>justify-content: center</code>?</li>
+    <li>Was ändert sich bei <code>align-items: center</code>?</li>
+    <li>Welche Wirkung hat <code>gap</code> im Vergleich zu einzelnen Margins?</li>
+  </ul>
+</div>
 
-Mit `justify-content` wird gesteuert, wie Elemente entlang der Hauptachse verteilt werden.
+## Typische Fehler
 
-Typische Fragen sind:
+<div class="mistake-card">
+  <p class="card-kicker">Typische Fehler</p>
+  <h3>Darauf solltest du achten</h3>
+  <ul>
+    <li>Eigenschaften dem Kind statt dem Container zuzuordnen.</li>
+    <li>Hauptachse und Querachse zu verwechseln.</li>
+    <li>Zu glauben, Flexbox sei nur für horizontale Reihen gedacht.</li>
+    <li>Abstände mit vielen Einzel-Margins zu lösen, obwohl <code>gap</code> klarer wäre.</li>
+  </ul>
+</div>
 
-- Soll alles links beginnen?
-- Sollen Elemente mittig stehen?
-- Soll der freie Platz verteilt werden?
+<div class="summary-card">
+  <p class="card-kicker">Merksätze</p>
+  <h3>Das solltest du mitnehmen</h3>
+  <ul>
+    <li>Flexbox beginnt mit <code>display: flex</code>.</li>
+    <li>Der Container steuert, die Kinder reagieren.</li>
+    <li><code>justify-content</code> und <code>align-items</code> lösen unterschiedliche Ausrichtungsfragen.</li>
+    <li>Flexbox ist eines der wichtigsten Werkzeuge für moderne Layouts.</li>
+  </ul>
+</div>
 
-## `align-items`
 
-Mit `align-items` wird gesteuert, wie Elemente entlang der Querachse ausgerichtet werden.
+## Woran du das Thema erkennst
 
-Das ist nützlich, wenn Elemente zwar nebeneinander stehen, aber vertikal sauber ausgerichtet sein sollen.
+Du merkst, dass dieses Thema gefragt ist, wenn du in Aufgaben oder Erklärungen auf typische Signale wie diese stößt:
 
-## `gap`
+- Es geht ausdrücklich um **Flexbox – Grundlagen** oder um eng verwandte Begriffe aus **css**.
+- Du sollst nicht nur etwas benennen, sondern den Ablauf, die Regel oder den Zusammenhang **sauber erklären**.
+- In Beispielen musst du Werte, Strukturen, Schritte oder Reaktionen **geordnet lesen und deuten**.
 
-`gap` ist besonders praktisch, weil es den Abstand zwischen Flex-Elementen sauber regelt.
 
-Das ist oft angenehmer als mit einzelnen Margins zu arbeiten, weil die Struktur klarer bleibt.
+## Mini-Check für dich
 
-## Warum Flexbox so beliebt ist
-
-Flexbox ist beliebt, weil es viele typische Layout-Probleme einfacher macht.
-
-Zum Beispiel:
-
-- horizontale Gruppen
-- gleichmäßige Abstände
-- einfache Zentrierung
-- flexible Reihen mit mehreren Elementen
-
-Für komplexe Flächenlayouts gibt es auch CSS Grid, aber für viele Alltagssituationen ist Flexbox genau richtig.
-
-## Typische Anfängerfehler
-
-Häufige Probleme sind:
-
-- `display: flex` am falschen Element setzen
-- Hauptachse und Querachse verwechseln
-- `justify-content` und `align-items` durcheinanderbringen
-- Abstände mit unnötig komplizierten Einzelregeln lösen
-
-## Gute Denkweise
-
-Für den Einstieg ist diese Reihenfolge sinnvoll:
-
-1. Welcher Container soll Flexbox bekommen?
-2. Sollen Elemente in Reihe oder Spalte angeordnet werden?
-3. Wie sollen sie ausgerichtet sein?
-4. Welcher Abstand ist sinnvoll?
-
-Diese Fragen machen Flexbox deutlich greifbarer.
-
-## Merksätze
-
-- Flexbox ist ein CSS-Werkzeug für Reihen, Spalten und Ausrichtung.
-- `display: flex` aktiviert das Flex-Verhalten im Container.
-- `justify-content` und `align-items` steuern die Verteilung.
-- `gap` sorgt für saubere Abstände.
-- Flexbox ist besonders gut für viele typische Alltagslayouts geeignet.
+- Kannst du in eigenen Worten erklären, wie du du verstehst die Grundidee eines Flex-Containers.?
+- Kannst du in eigenen Worten erklären, wie du du ordnest häufige Eigenschaften wie justify-content und align-items ein.?
+- Kannst du in eigenen Worten erklären, wie du du erkennst, warum Flexbox für viele Layout-Probleme so nützlich ist.?

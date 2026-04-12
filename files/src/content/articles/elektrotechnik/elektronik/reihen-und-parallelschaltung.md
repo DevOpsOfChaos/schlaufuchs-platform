@@ -1,90 +1,137 @@
 ---
-title: Reihen- und Parallelschaltung
-description: Verstehe, wie sich Strom und Spannung in einfachen Reihenschaltungen und Parallelschaltungen verhalten.
+title: "Reihen- und Parallelschaltung"
+description: "Lerne den Unterschied zwischen Reihen- und Parallelschaltung und wie sich Strom und Spannung darin verhalten."
 subject: elektrotechnik
-section: Elektronik
-level: einfach
+section: "Grundlagen"
+topicPath:
+  - "elektronik"
+  - "reihen-und-parallelschaltung"
+learningGoals:
+  - "Du unterscheidest Reihen- und Parallelschaltung sicher."
+  - "Du erklärst, wie sich Strom und Spannung jeweils verhalten."
+  - "Du ordnest typische Schaltungen diesen Grundformen zu."
+practiceIdeas:
+  - "Vergleiche den Stromweg in Reihen- und Parallelschaltungen."
+  - "Ordne Alltagsschaltungen den beiden Grundformen zu."
+  - "Überlege, was beim Ausfall eines Bauteils passiert."
+commonMistakes:
+  - "Reihe und Parallel nur an der Zeichnung zu unterscheiden."
+  - "Gleiches Verhalten von Strom und Spannung in beiden Formen anzunehmen."
+  - "Bauteilverhalten und Gesamtverhalten zu vermischen."
+keyTakeaways:
+  - "Reihenschaltungen haben einen gemeinsamen Stromweg."
+  - "Parallelschaltungen besitzen mehrere Zweige."
+  - "Strom und Spannung verteilen sich in beiden Formen unterschiedlich."
 tags:
-  - Reihenschaltung
-  - Parallelschaltung
-  - Schaltungen
+  - "reihenschaltung"
+  - "parallelschaltung"
+  - "strom"
+  - "spannung"
+  - "schaltung"
+level: einfach
 draft: false
 ---
 
-## Überblick
-
-Sobald mehrere Bauteile gemeinsam in einer Schaltung liegen, ist die Anordnung entscheidend. Besonders wichtig sind dabei zwei Grundformen:
-
-- die **Reihenschaltung**
-- die **Parallelschaltung**
-
-Beide führen zu deutlich unterschiedlichem Verhalten bei Strom und Spannung.
+<div class="learning-card">
+  <p class="card-kicker">Einstieg</p>
+  <h3>Was du hier lernst</h3>
+  <p>Reihen- und Parallelschaltungen gehören zu den wichtigsten Grundmustern in der Elektrotechnik. Wer sie unterscheiden kann, versteht sofort viel mehr über Stromverlauf, Spannungsverteilung und typische Schaltungslogik.</p>
+  <ul>
+    <li>Du lernst die Struktur beider Schaltungsarten kennen.</li>
+    <li>Du verstehst, wie sich Strom und Spannung jeweils verhalten.</li>
+    <li>Du bekommst eine sichere Grundlage für spätere Berechnungen.</li>
+  </ul>
+</div>
 
 ## Reihenschaltung
 
-In einer Reihenschaltung liegen Bauteile hintereinander in einem gemeinsamen Stromweg.
+Bei einer Reihenschaltung liegen Bauteile hintereinander in einem einzigen Strompfad. Der Strom hat also nur einen Weg.
 
-Wichtige Grundidee:
+Typisch ist dabei:
 
-- Durch alle Bauteile fließt derselbe Strom.
-
-Die Spannungen an den einzelnen Bauteilen addieren sich zur Gesamtspannung.
-
-### Beispiel
-
-Zwei Widerstände liegen in Reihe. Die Gesamtspannung beträgt 12 V.
-
-Dann verteilt sich die Spannung auf beide Bauteile. Wie groß die Teilspannungen sind, hängt von ihren Widerständen ab.
+- derselbe Strom durch alle Bauteile,
+- Aufteilung der Spannung auf die Bauteile,
+- Unterbrechung an einer Stelle beeinflusst den ganzen Stromkreis.
 
 ## Parallelschaltung
 
-In einer Parallelschaltung liegen Bauteile in getrennten Zweigen.
+Bei einer Parallelschaltung gibt es mehrere Zweige. Der Strom kann sich also auf verschiedene Wege verteilen.
 
-Wichtige Grundidee:
+Typisch ist dabei:
 
-- An allen parallelen Zweigen liegt dieselbe Spannung an.
+- gleiche Spannung an parallelen Zweigen,
+- Aufteilung des Stroms auf mehrere Wege,
+- ein Zweig kann sich ändern, ohne dass alle anderen sofort vollständig ausfallen.
 
-Der Gesamtstrom teilt sich auf die Zweige auf.
+<div class="example-card">
+  <p class="card-kicker">Leitbeispiel</p>
+  <h3>Zwei Lampen vergleichen</h3>
+  <p>Sind zwei Lampen in Reihe geschaltet, beeinflusst eine Unterbrechung beide. Sind sie parallel geschaltet, kann eine Lampe ausfallen, während die andere weiter funktioniert. Genau daran erkennt man die Grundlogik oft sehr schnell.</p>
+</div>
 
-### Beispiel
+## Strom und Spannung bewusst lesen
 
-Zwei Widerstände liegen parallel an 12 V.
+Beim Lesen einer Schaltung helfen diese Leitfragen:
 
-Dann gilt:
+1. Gibt es nur einen Strompfad oder mehrere Zweige?
+2. Wo teilt sich der Strom auf?
+3. Wo bleibt die Spannung gleich, wo verteilt sie sich?
 
-- Jeder Zweig hat 12 V.
-- Der Gesamtstrom ist die Summe der Teilströme.
+Diese Fragen verhindern, dass du Formeln auswendig anwendest, ohne die Schaltung zu verstehen.
 
-## Was man sich merken sollte
+## Warum das Thema so wichtig ist
 
-### Reihenschaltung
+Reihen- und Parallelschaltungen bilden die Grundlage für:
 
-- Strom überall gleich
-- Spannungen addieren sich
+- Ersatzwiderstände,
+- Spannungsverteilungen,
+- Stromaufteilungen,
+- Schaltungsanalyse,
+- viele technische Anwendungen im Alltag.
 
-### Parallelschaltung
-
-- Spannung überall gleich
-- Ströme addieren sich
-
-## Warum das wichtig ist
-
-Diese Unterschiede sind Grundlage für:
-
-- Widerstandsberechnungen
-- Spannungsteiler
-- Stromaufteilungen
-- Netzwerkanalyse
-- Fehlersuche in Schaltungen
+<div class="practice-card">
+  <p class="card-kicker">Zum Anwenden</p>
+  <h3>So denkst du Schaltungen systematisch</h3>
+  <ul>
+    <li>Suche zuerst Verzweigungen oder fehlende Verzweigungen.</li>
+    <li>Überlege dann getrennt: Was passiert mit Strom? Was passiert mit Spannung?</li>
+    <li>Markiere einzelne Zweige oder Reihenblöcke, statt die ganze Schaltung auf einmal lesen zu wollen.</li>
+  </ul>
+</div>
 
 ## Typische Fehler
 
-- In der Reihenschaltung gleiche Spannung an allen Bauteilen annehmen.
-- In der Parallelschaltung gleichen Strom in allen Zweigen annehmen.
-- Reihen- und Parallelschaltung nur optisch statt funktional unterscheiden.
+<div class="mistake-card">
+  <p class="card-kicker">Typische Fehler</p>
+  <h3>Darauf solltest du achten</h3>
+  <ul>
+    <li>Reihen- und Parallelschaltung nur am Aussehen statt an den Strompfaden unterscheiden.</li>
+    <li>Strom- und Spannungsverhalten vertauschen.</li>
+    <li>Eine Verzweigung übersehen.</li>
+    <li>Das Ausfallverhalten von Bauteilen falsch einschätzen.</li>
+  </ul>
+</div>
 
-## Merksätze
+<div class="summary-card">
+  <p class="card-kicker">Merksätze</p>
+  <h3>Das solltest du mitnehmen</h3>
+  <ul>
+    <li>In der Reihenschaltung gibt es nur einen Strompfad.</li>
+    <li>In der Parallelschaltung gibt es mehrere Zweige.</li>
+    <li>In Reihe ist der Strom gleich, parallel ist die Spannung gleich.</li>
+    <li>Die saubere Strukturentscheidung ist wichtiger als blindes Rechnen.</li>
+  </ul>
+</div>
 
-- Reihenschaltung: gleicher Strom, verteilte Spannung.
-- Parallelschaltung: gleiche Spannung, verteilter Strom.
-- Die Anordnung von Bauteilen entscheidet über das Verhalten der ganzen Schaltung.
+
+## Woran du das Thema erkennst
+
+Du erkennst dieses Thema meist daran, dass du nicht nur einen einzelnen Fachbegriff brauchst, sondern die zugrunde liegende Struktur, Anordnung oder Denkweise sauber unterscheiden musst. Genau dort entscheidet sich oft, ob ein Beispiel wirklich verstanden wurde oder nur oberflächlich bekannt wirkt.
+
+## Mini-Check für dich
+
+Prüfe am Ende kurz selbst:
+
+- Kann ich das Thema in eigenen Worten erklären?
+- Kann ich ein Beispiel richtig einordnen?
+- Kann ich eine typische Verwechslung benennen?

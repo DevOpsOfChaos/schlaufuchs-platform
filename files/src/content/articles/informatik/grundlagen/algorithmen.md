@@ -1,165 +1,192 @@
 ---
 title: Algorithmen
-description: Algorithmen beschreiben eindeutige und endliche Handlungsvorschriften und bilden eine Grundlage für strukturiertes Problemlösen in der Informatik.
+description: Algorithmen beschreiben eindeutige und endliche Handlungsvorschriften
+  und bilden eine Grundlage für strukturiertes Problemlösen in der Informatik.
 subject: informatik
 section: Grundlagen
+topicPath:
+- grundlagen
+- algorithmen
+learningGoals:
+- Du erklärst, was einen Algorithmus ausmacht.
+- Du erkennst Eingabe, Verarbeitung und Ausgabe in einfachen Abläufen.
+- Du formulierst selbst kleine Algorithmen in klaren Schritten.
 level: einfach
 tags:
-  - Algorithmen
-  - Informatik
-  - Ablauf
-  - Problemlösen
-  - Pseudocode
+- Algorithmen
+- Informatik
+- Ablauf
+- Problemlösen
+- Pseudocode
 draft: false
+practiceIdeas:
+- Formuliere einen Alltagsablauf so, dass eine andere Person ihn Schritt für Schritt
+  exakt ausführen könnte.
+- Vergleiche eine gute und eine schlechte Anleitung und markiere unklare Stellen.
+- Baue aus einem einfachen Problem eine Folge aus Start, Einzelschritten und Ende.
+commonMistakes:
+- Einen Algorithmus mit einer Programmiersprache gleichsetzen.
+- Schritte zu grob formulieren, sodass verschiedene Deutungen möglich bleiben.
+- Wichtige Bedingungen oder Abbruchpunkte nicht ausdrücklich nennen.
+keyTakeaways:
+- Ein Algorithmus ist eine eindeutige endliche Handlungsvorschrift.
+- Gute Algorithmen sind klar, vollständig und wiederholbar.
+- Erst die Logik, dann die konkrete Programmiersprache.
 ---
+<div class="learning-card">
+  <p class="card-kicker">Einstieg</p>
+  <h3>Was du hier lernst</h3>
+  <p>Algorithmen sind keine Programmiersprache, sondern zuerst eine Denkweise. Sie helfen dabei, Probleme in klare, endliche und nachvollziehbare Schritte zu zerlegen.</p>
+  <ul>
+    <li>Du lernst die Merkmale eines Algorithmus kennen.</li>
+    <li>Du siehst, wie Eingabe, Verarbeitung und Ausgabe zusammenhängen.</li>
+    <li>Du formulierst kleine Abläufe in Alltagssprache und Pseudocode.</li>
+  </ul>
+</div>
 
-## Überblick
+## Grundidee
 
-Ein Algorithmus ist eine klare Schritt-für-Schritt-Anleitung zur Lösung eines Problems. Dabei geht es nicht zuerst um eine Programmiersprache, sondern um sauberes Denken.
+Ein Algorithmus ist eine Schritt-für-Schritt-Anleitung zur Lösung eines Problems. Die Schritte müssen eindeutig beschrieben sein und der Ablauf muss irgendwann enden.
 
-Algorithmen helfen dabei,
+Deshalb gehören zu einem guten Algorithmus immer diese Eigenschaften:
 
-- Abläufe zu strukturieren,
-- Probleme in Einzelschritte zu zerlegen,
-- Lösungen nachvollziehbar zu machen,
-- Programme planbar aufzubauen.
+- klar
+- eindeutig
+- endlich
+- ausführbar
 
-## Was ist ein Algorithmus?
+## Alltag und Informatik
 
-Ein Algorithmus ist eine endliche Folge von eindeutig beschriebenen Schritten.
+Algorithmen gibt es nicht erst im Code. Schon im Alltag nutzen wir klare Abläufe.
 
-Wichtige Eigenschaften sind:
-
-- **klar**: jeder Schritt ist verständlich,
-- **eindeutig**: es gibt keine unklaren Deutungen,
-- **endlich**: der Ablauf endet,
-- **ausführbar**: die Schritte können tatsächlich durchgeführt werden.
-
-## Alltagsbeispiel
-
-Auch im Alltag gibt es Algorithmen.
-
-### Beispiel: Tee kochen
-
-1. Wasser in den Wasserkocher füllen.
-2. Wasser erhitzen.
-3. Teebeutel in eine Tasse legen.
-4. Heißes Wasser eingießen.
-5. Warten.
-6. Teebeutel herausnehmen.
-
-Das ist bereits ein Algorithmus, weil die Reihenfolge klar und nachvollziehbar ist.
-
-## Warum Algorithmen in der Informatik wichtig sind
-
-Programme bestehen nicht nur aus Code, sondern aus Lösungswegen.
-
-Bevor etwas programmiert wird, muss oft zuerst klar sein:
-
-- Welche Eingaben gibt es?
-- Welche Schritte sind nötig?
-- Welche Entscheidungen müssen getroffen werden?
-- Wann ist das Ergebnis erreicht?
+<div class="example-card">
+  <p class="card-kicker">Alltagsbeispiel</p>
+  <h3>Tee kochen als Algorithmus</h3>
+  <ol>
+    <li>Wasser einfüllen.</li>
+    <li>Wasser erhitzen.</li>
+    <li>Teebeutel in die Tasse legen.</li>
+    <li>Wasser eingießen.</li>
+    <li>Warten.</li>
+    <li>Teebeutel herausnehmen.</li>
+  </ol>
+  <p>Die Reihenfolge ist klar und der Ablauf endet. Genau das macht den Ablauf algorithmisch.</p>
+</div>
 
 ## Eingabe, Verarbeitung, Ausgabe
 
-Viele Algorithmen lassen sich in drei Teile gliedern:
+Viele Algorithmen lassen sich in drei Teile zerlegen:
 
-- **Eingabe**
-- **Verarbeitung**
-- **Ausgabe**
+- **Eingabe**: Welche Werte oder Informationen kommen hinein?
+- **Verarbeitung**: Was wird mit diesen Angaben gemacht?
+- **Ausgabe**: Was kommt am Ende heraus?
 
-### Beispiel
+<div class="example-card">
+  <p class="card-kicker">Leitbeispiel</p>
+  <h3>Zwei Zahlen addieren</h3>
+  <ul>
+    <li>Eingabe: Zahl <code>a</code> und Zahl <code>b</code></li>
+    <li>Verarbeitung: <code>a + b</code> berechnen</li>
+    <li>Ausgabe: Ergebnis anzeigen</li>
+  </ul>
+</div>
 
-Problem: Zwei Zahlen addieren.
+## Algorithmen in Pseudocode
 
-- Eingabe: Zahl a und Zahl b
-- Verarbeitung: a + b berechnen
-- Ausgabe: Ergebnis anzeigen
+Bevor echter Programmcode entsteht, wird ein Ablauf oft zuerst als Pseudocode notiert.
 
-## Algorithmen als Pseudocode
-
-Oft wird ein Algorithmus zuerst in einfacher Sprache oder als Pseudocode notiert.
-
-### Beispiel
+<div class="wide-example">
 
 ```text
 Lies zwei Zahlen ein.
 Berechne ihre Summe.
-Gib die Summe aus.
+Gib das Ergebnis aus.
 ```
 
-Das ist noch kein echter Programmcode, aber die Logik ist klar.
+</div>
 
-## Entscheidungen im Algorithmus
+Pseudocode ist hilfreich, weil er die Logik sichtbar macht, ohne sich schon um Syntaxdetails kümmern zu müssen.
 
-Viele Algorithmen brauchen Bedingungen.
+## Entscheidungen und Verzweigungen
 
-### Beispiel: Gerade oder ungerade
+Viele Probleme brauchen Bedingungen.
 
-1. Lies eine Zahl ein.
-2. Teile die Zahl durch 2.
-3. Prüfe den Rest.
-4. Wenn der Rest 0 ist, gib „gerade“ aus.
-5. Sonst gib „ungerade“ aus.
-
-Hier sieht man, dass Algorithmen nicht nur aus einer festen Liste, sondern auch aus Verzweigungen bestehen können.
+<div class="example-card">
+  <p class="card-kicker">Verzweigung</p>
+  <h3>Gerade oder ungerade prüfen</h3>
+  <ol>
+    <li>Lies eine Zahl ein.</li>
+    <li>Teile die Zahl durch 2.</li>
+    <li>Prüfe den Rest.</li>
+    <li>Wenn der Rest 0 ist, gib „gerade“ aus.</li>
+    <li>Sonst gib „ungerade“ aus.</li>
+  </ol>
+</div>
 
 ## Wiederholungen
 
-Manche Abläufe wiederholen sich.
+Manche Abläufe wiederholen sich. Das führt später zu Schleifen.
 
-### Beispiel
+<div class="example-card">
+  <p class="card-kicker">Wiederholung</p>
+  <h3>Zahlen von 1 bis 10 ausgeben</h3>
+  <ol>
+    <li>Starte bei 1.</li>
+    <li>Gib die Zahl aus.</li>
+    <li>Erhöhe sie um 1.</li>
+    <li>Wiederhole den Ablauf, solange die Zahl nicht größer als 10 ist.</li>
+  </ol>
+</div>
 
-1. Starte bei Zahl 1.
-2. Gib die Zahl aus.
-3. Erhöhe sie um 1.
-4. Solange die Zahl nicht größer als 10 ist, wiederhole den Ablauf.
-
-Solche Wiederholungen werden später zu Schleifen.
-
-## Guter Algorithmus oder schlechter Algorithmus?
-
-Nicht jeder Algorithmus ist gleich gut.
-
-Ein guter Algorithmus ist oft:
-
-- verständlich,
-- korrekt,
-- effizient genug,
-- leicht überprüfbar.
-
-Ein schlechter Algorithmus ist oft:
-
-- unnötig kompliziert,
-- unklar formuliert,
-- fehleranfällig,
-- zu langsam oder unpraktisch.
+<div class="practice-card">
+  <p class="card-kicker">Zum Ausprobieren</p>
+  <h3>Formuliere selbst einen kleinen Algorithmus</h3>
+  <p>Nimm einen einfachen Alltagsablauf, zum Beispiel „Jacke anziehen bei Regen“ oder „eine Datei speichern“, und schreibe ihn in 4 bis 6 klare Schritte.</p>
+  <ul>
+    <li>Gibt es eine Eingabe?</li>
+    <li>Gibt es eine Entscheidung?</li>
+    <li>Endet der Ablauf sicher?</li>
+  </ul>
+</div>
 
 ## Typische Fehler
 
-Häufige Probleme sind:
+<div class="mistake-card">
+  <p class="card-kicker">Typische Fehler</p>
+  <h3>Darauf solltest du achten</h3>
+  <ul>
+    <li>Schritte sind zu unklar formuliert.</li>
+    <li>Die Reihenfolge passt nicht.</li>
+    <li>Ein notwendiger Schritt fehlt.</li>
+    <li>Der Ablauf endet nicht sicher.</li>
+    <li>Eingabe oder Ausgabe werden vergessen.</li>
+  </ul>
+</div>
 
-- Schritte fehlen,
-- Reihenfolge ist falsch,
-- Bedingungen sind unklar,
-- der Algorithmus endet nicht sicher,
-- Eingabe oder Ausgabe werden vergessen.
+<div class="summary-card">
+  <p class="card-kicker">Merksätze</p>
+  <h3>Das solltest du mitnehmen</h3>
+  <ul>
+    <li>Ein Algorithmus ist eine klare und endliche Handlungsvorschrift.</li>
+    <li>Er beschreibt zuerst die Logik eines Problems, nicht die Programmiersprache.</li>
+    <li>Eingabe, Verarbeitung und Ausgabe sind eine hilfreiche Grundstruktur.</li>
+    <li>Bedingungen und Wiederholungen gehören zu vielen Algorithmen dazu.</li>
+    <li>Gute Algorithmen sind klar, eindeutig und nachvollziehbar.</li>
+  </ul>
+</div>
 
-## Warum das Thema so grundlegend ist
 
-Wer Algorithmen versteht, versteht das Grundprinzip von Programmierung besser. Später kommen dann:
+## Woran du das Thema erkennst
 
-- Kontrollstrukturen,
-- Funktionen,
-- Datenstrukturen,
-- Effizienz,
-- systematisches Testen.
+Du merkst, dass dieses Thema gefragt ist, wenn du in Aufgaben oder Erklärungen auf typische Signale wie diese stößt:
 
-## Merksätze
+- Es geht ausdrücklich um **Algorithmen** oder um eng verwandte Begriffe aus **Grundlagen**.
+- Du sollst nicht nur etwas benennen, sondern den Ablauf, die Regel oder den Zusammenhang **sauber erklären**.
+- In Beispielen musst du Werte, Strukturen, Schritte oder Reaktionen **geordnet lesen und deuten**.
 
-- Ein Algorithmus ist eine klare Handlungsvorschrift.
-- Er besteht aus endlich vielen Schritten.
-- Die Schritte müssen eindeutig und ausführbar sein.
-- Gute Algorithmen helfen beim sauberen Problemlösen.
-- Programmieren beginnt oft mit dem Denken in Algorithmen.
+
+## Mini-Check für dich
+
+- Kannst du in eigenen Worten erklären, wie du du erklärst, was einen Algorithmus ausmacht.?
+- Kannst du in eigenen Worten erklären, wie du du erkennst Eingabe, Verarbeitung und Ausgabe in einfachen Abläufen.?
+- Kannst du in eigenen Worten erklären, wie du du formulierst selbst kleine Algorithmen in klaren Schritten.?

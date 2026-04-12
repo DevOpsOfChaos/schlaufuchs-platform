@@ -1,128 +1,176 @@
 ---
-title: HTML-Grundstruktur – Grundlagen
-description: Verstehe, wie eine HTML-Seite aufgebaut ist und warum html, head und body unterschiedliche Aufgaben haben.
+title: HTML-Grundstruktur
+description: Verstehe, wie eine einfache HTML-Seite aufgebaut ist und welche Teile
+  für ein sauberes Grundgerüst wichtig sind.
 subject: web-development
 section: html
+topicPath:
+- html
+- grundstruktur
+learningGoals:
+- Du erkennst die Grundstruktur einer HTML-Datei sicher wieder.
+- Du ordnest html, head und body ihrer Funktion zu.
+- Du liest kleine HTML-Grundgerüste ruhiger und sauberer.
 level: einfach
-tags: [html, grundstruktur, head, body, web-development]
+tags:
+- html
+- grundstruktur
+- head
+- body
+- dokument
 draft: false
+practiceIdeas:
+- Schreibe eine minimale HTML-Datei selbst ab und markiere html, head und body farblich.
+- Entferne einzelne Teile testweise gedanklich und überlege, was der Seite dann fehlt.
+- Vergleiche eine saubere Grundstruktur mit einer ungeordneten Datei ohne klares Gerüst.
+commonMistakes:
+- head und body werden inhaltlich verwechselt.
+- Man sieht Tags nur als einzelne Zeilen statt als Gesamtstruktur des Dokuments.
+- Die Rolle von title oder Meta-Angaben wird unterschätzt.
+keyTakeaways:
+- Eine HTML-Seite hat ein klares Grundgerüst.
+- head und body erfüllen unterschiedliche Aufgaben.
+- Eine saubere Grundstruktur macht alle späteren Inhalte leichter lesbar und wartbar.
 ---
+<div class="learning-card">
+  <p class="card-kicker">Einstieg</p>
+  <h3>Was du hier lernst</h3>
+  <p>Die HTML-Grundstruktur ist das Fundament jeder Webseite. Bevor du Inhalte, Layout oder Design verstehst, solltest du das Grundgerüst lesen können. Erst dann werden einzelne Elemente sinnvoll einordenbar.</p>
+  <ul>
+    <li>Du erkennst das Grundgerüst einer HTML-Datei sofort wieder.</li>
+    <li>Du verstehst die Aufgaben von <code>head</code> und <code>body</code>.</li>
+    <li>Du liest HTML stärker als Struktur und weniger als einzelne Zeilen Code.</li>
+  </ul>
+</div>
 
-Bevor eine Webseite gestaltet oder mit Inhalten gefüllt wird, braucht sie einen sauberen Grundaufbau. Genau dieser Aufbau macht HTML berechenbar und verständlich.
+## Warum jede HTML-Seite ein Gerüst braucht
 
-## Überblick
+Eine Webseite besteht nicht nur aus sichtbarem Text. Sie braucht auch Informationen darüber,
 
-Eine einfache HTML-Seite besteht nicht nur aus sichtbarem Inhalt. Sie hat mehrere Ebenen mit unterschiedlichen Aufgaben.
+- welches Dokument vorliegt,
+- welche Sprache verwendet wird,
+- welche Metadaten dazugehören,
+- und wo der sichtbare Inhalt steht.
 
-Für den Einstieg solltest du vor allem diese drei Bereiche unterscheiden:
+Genau dafür gibt es die HTML-Grundstruktur.
 
-- `html`
-- `head`
-- `body`
+## Die wichtigsten Teile
 
-## Worum geht es bei der Grundstruktur?
+### `<!DOCTYPE html>`
 
-HTML beschreibt die Struktur einer Seite. Das heißt:
+Dieser Teil signalisiert dem Browser, dass das Dokument als modernes HTML behandelt werden soll.
 
-- Welche Teile gehören zum Dokument?
-- Welche Informationen sind für den Browser wichtig?
-- Was soll für Nutzer tatsächlich sichtbar sein?
+### `<html>`
 
-Ohne diese Grundstruktur wäre eine Seite nicht sauber aufgebaut.
+Das ist das Wurzel-Element des gesamten Dokuments.
 
-## Ein einfaches Beispiel
+### `<head>`
+
+Im Head stehen Informationen **über** das Dokument, zum Beispiel Titel, Meta-Angaben oder Verweise auf Stylesheets.
+
+### `<body>`
+
+Im Body steht der sichtbare Inhalt der Webseite.
+
+<div class="example-card">
+  <p class="card-kicker">Leitbeispiel</p>
+  <h3>Ein minimales Grundgerüst</h3>
+  <div class="wide-example">
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html lang="de">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
     <title>Meine erste Seite</title>
   </head>
   <body>
     <h1>Hallo Welt</h1>
-    <p>Das ist meine erste HTML-Seite.</p>
+    <p>Das ist eine einfache HTML-Seite.</p>
   </body>
 </html>
 ```
 
-Dieses Beispiel zeigt schon die wichtigsten Bausteine einer kleinen Seite.
+  </div>
+  <p>Dieses Beispiel ist klein, zeigt aber schon die wichtigsten Ebenen: Dokumenttyp, Wurzel, Metainformationen und sichtbaren Inhalt.</p>
+</div>
 
-## `html` – das gesamte Dokument
+## Head und Body nicht verwechseln
 
-Das `html`-Element umfasst das ganze Dokument. Es bildet den äußeren Rahmen der Seite.
+Ein häufiger Fehler ist, beide Bereiche zu ähnlich zu behandeln.
 
-Darunter liegen dann die zwei großen Hauptbereiche:
+- Im **Head** stehen keine normalen Seitentexte für Leser.
+- Im **Body** steht alles, was auf der Seite sichtbar erscheint.
 
-- `head`
-- `body`
+Wer diese Trennung sauber versteht, liest HTML von Anfang an geordneter.
 
-## `head` – Informationen über die Seite
+## HTML als Struktur lesen
 
-Im `head` stehen Informationen, die für Browser, Suchmaschinen oder technische Einstellungen wichtig sind.
+Am Anfang ist es hilfreich, nicht jeden Tag-Namen isoliert zu lernen, sondern HTML als geordneten Aufbau zu sehen:
 
-Dazu gehören zum Beispiel:
+1. Das Dokument beginnt.
+2. Der Browser erhält Hintergrundinformationen.
+3. Danach folgt der sichtbare Seiteninhalt.
 
-- Zeichencodierung
-- Seitentitel
-- Meta-Angaben
-- Verknüpfungen zu CSS-Dateien
+So entsteht aus vielen Tags eine verständliche Struktur.
 
-Wichtig:
-Der `head` ist wichtig, aber sein Inhalt ist meistens **nicht direkt sichtbar**.
+<div class="practice-card wide-bleed">
+  <p class="card-kicker">Zum Anwenden</p>
+  <h3>Lies HTML von außen nach innen</h3>
+  <ul>
+    <li>Suche zuerst das gesamte Grundgerüst der Datei.</li>
+    <li>Trenne dann bewusst zwischen Head und Body.</li>
+    <li>Markiere danach nur die sichtbaren Inhalte im Body.</li>
+    <li>Erst im letzten Schritt schaust du dir einzelne Elemente wie Überschriften oder Absätze genauer an.</li>
+  </ul>
+</div>
 
-## `body` – der sichtbare Bereich
+## Leitbeispiel: eine Seite als geordneter Aufbau
 
-Im `body` steht der Inhalt, den Nutzer auf der Seite sehen.
+Nimm eine kleine HTML-Datei mit einer Überschrift und einem Absatz. Auch wenn der sichtbare Inhalt klein ist, bleibt die Grundstruktur vollständig:
 
-Dort liegen typischerweise:
+- Dokumenttyp,
+- HTML-Wurzel,
+- Kopfbereich,
+- sichtbarer Bereich.
 
-- Überschriften
-- Absätze
-- Bilder
-- Listen
-- Links
-- weitere Layout- und Inhaltsbereiche
+Das zeigt: Die Grundstruktur ist kein Zusatz für große Projekte, sondern die Basis auch für sehr kleine Seiten.
 
-Kurz gesagt:
-Der `body` ist der Arbeitsbereich für sichtbare Inhalte.
+## Warum diese Struktur später so wichtig wird
 
-## Warum diese Trennung wichtig ist
+Sobald Seiten größer werden, ist die Grundstruktur entscheidend. Sie hilft dem Browser, dem Entwickler und später auch Werkzeugen wie Suchmaschinen oder Screenreadern. Eine saubere Struktur ist also nicht nur „formell richtig“, sondern praktisch nützlich.
 
-Ein häufiger Anfängerfehler ist, alles als „einfach HTML“ zu sehen, ohne zwischen technischen Dokumentinformationen und sichtbarem Inhalt zu unterscheiden.
+## Ein guter Lesetrick für Einsteiger
 
-Die Trennung hilft dabei,
+Lies HTML-Dateien nicht sofort Zeile für Zeile. Lies sie zuerst in Ebenen:
 
-- Seiten sauber zu strukturieren,
-- Fehler schneller zu erkennen,
-- CSS und andere Dateien sinnvoll einzubinden,
-- und HTML verständlicher zu lesen.
+1. Was ist der äußere Rahmen?
+2. Was gehört in den Head?
+3. Was gehört in den Body?
+4. Welche sichtbaren Elemente stehen darin?
 
-## Typische Fragen am Anfang
+Mit diesem Blick wirkt HTML deutlich geordneter und weniger überwältigend.
 
-Gerade beim Einstieg tauchen oft diese Fragen auf:
+## Typischer Anfängerfehler
 
-- Was kommt in den `head`?
-- Was gehört in den `body`?
-- Warum ist der Titel nicht als sichtbare Überschrift auf der Seite zu sehen?
-- Wieso gibt es überhaupt mehrere Bereiche?
+Ein häufiger Fehler ist, HTML zu früh nur als Träger für spätere Gestaltung zu sehen. Dann wird Struktur nebensächlich. Besser ist die umgekehrte Haltung: Erst muss die Seite inhaltlich und logisch aufgebaut sein, danach kommt Gestaltung.
 
-Diese Fragen sind normal, weil HTML nicht nur sichtbaren Inhalt, sondern auch Dokumentstruktur beschreibt.
+## Gute Mini-Prüfung
 
-## Gute Denkweise
+Öffne eine einfache HTML-Seite einmal ohne CSS und frage dich: *Kann ich den Aufbau trotzdem verstehen?* Wenn ja, ist die Grundstruktur meistens schon tragfähig.
 
-Für den Einstieg hilft diese klare Sicht:
 
-- `html` = das gesamte Dokument
-- `head` = Informationen über das Dokument
-- `body` = sichtbarer Inhalt des Dokuments
+## Woran du das Thema erkennst
 
-Wer das sicher versteht, kommt später mit weiteren HTML-Elementen deutlich leichter zurecht.
+Du merkst, dass dieses Thema gefragt ist, wenn du in Aufgaben oder Erklärungen auf typische Signale wie diese stößt:
 
-## Merksätze
+- Es geht ausdrücklich um **HTML-Grundstruktur** oder um eng verwandte Begriffe aus **html**.
+- Du sollst nicht nur etwas benennen, sondern den Ablauf, die Regel oder den Zusammenhang **sauber erklären**.
+- In Beispielen musst du Werte, Strukturen, Schritte oder Reaktionen **geordnet lesen und deuten**.
 
-- Eine HTML-Seite hat einen klaren Grundaufbau.
-- `html` umfasst das gesamte Dokument.
-- `head` enthält Informationen über die Seite.
-- `body` enthält den sichtbaren Inhalt.
-- Eine saubere Grundstruktur ist die Basis für jede weitere Webentwicklung.
+
+## Mini-Check für dich
+
+- Kannst du in eigenen Worten erklären, wie du du erkennst die Grundstruktur einer HTML-Datei sicher wieder.?
+- Kannst du in eigenen Worten erklären, wie du du ordnest html, head und body ihrer Funktion zu.?
+- Kannst du in eigenen Worten erklären, wie du du liest kleine HTML-Grundgerüste ruhiger und sauberer.?

@@ -1,115 +1,175 @@
 ---
 title: Erste Webseite – Grundlagen
-description: Führe HTML und CSS in einem kleinen ersten Projekt zusammen und lerne die wichtigsten Schritte für eine saubere Startseite.
+description: Führe HTML und CSS in einem kleinen ersten Projekt zusammen und lerne
+  die wichtigsten Schritte für eine saubere Startseite.
 subject: web-development
-section: praxis
+section: Praxis
+topicPath:
+- praxis
+- erste-webseite
+learningGoals:
+- Du verstehst den Aufbau einer ersten kleinen Webseite.
+- Du trennst Struktur und Gestaltung sauber.
+- Du planst kleine Webprojekte in klaren Schritten.
+practiceIdeas:
+- Plane eine Miniseite zuerst als Struktur und dann als Gestaltung.
+- Trenne in einem kleinen Projekt HTML-Aufbau und CSS-Aufgaben.
+- Prüfe, welche Teile Struktur und welche Darstellung sind.
+commonMistakes:
+- Zu früh an Details zu denken, bevor die Struktur steht.
+- HTML und CSS als einen ungetrennten Block zu sehen.
+- Eine erste Seite zu groß statt bewusst klein zu planen.
+keyTakeaways:
+- Eine erste Webseite entsteht in kleinen Schritten.
+- Struktur kommt vor Gestaltung.
+- Schon kleine Projekte zeigen das Zusammenspiel von HTML und CSS.
+tags:
+- web-development
+- html
+- css
+- erste-webseite
+- praxis
 level: einfach
-tags: [web-development, html, css, erste-webseite, praxis]
 draft: false
 ---
+<div class="learning-card">
+  <p class="card-kicker">Einstieg</p>
+  <h3>Was du hier lernst</h3>
+  <p>Eine erste Webseite muss nicht spektakulär sein. Für den Einstieg ist viel wichtiger, dass sie <strong>klar aufgebaut</strong>, <strong>lesbar</strong> und <strong>sauber organisiert</strong> ist. Genau daran lernst du, wie HTML und CSS wirklich zusammenarbeiten.</p>
+  <ul>
+    <li>Du planst eine kleine Seite mit wenigen, aber sinnvollen Bereichen.</li>
+    <li>Du unterscheidest klar zwischen Inhalt und Gestaltung.</li>
+    <li>Du entwickelst ein ruhiges Einstiegsprojekt statt eines chaotischen Sammelversuchs.</li>
+  </ul>
+</div>
 
-Die erste eigene Webseite ist ein guter Moment, um Struktur und Gestaltung zusammenzubringen. Dabei geht es nicht darum, sofort etwas Komplexes zu bauen, sondern eine kleine Seite **sauber** und **verständlich** aufzusetzen.
+## Die Grundidee eines ersten Webprojekts
 
-## Überblick
+Bei einer ersten Webseite geht es nicht darum, sofort alles zu können. Sie ist ein Lernprojekt, in dem du Struktur, Gestaltung und Ordnung zusammen übst.
 
-Eine erste Webseite braucht vor allem:
+Ein gutes erstes Projekt beantwortet vor allem diese Fragen:
 
-- eine klare Dateistruktur
-- einen einfachen HTML-Aufbau
-- wenige, gut verständliche CSS-Regeln
-- bewusst gewählte Inhalte
+- Welche Inhalte sollen überhaupt auf die Seite?
+- Wie werden diese Inhalte in HTML gegliedert?
+- Wie wird daraus mit CSS eine lesbare Gestaltung?
 
-Das Ziel ist nicht Effektfülle, sondern ein stabiler Einstieg.
+## Welche Dateien meistens reichen
 
-## Welche Dateien braucht man?
+Für ein kleines erstes Projekt genügen oft schon zwei zentrale Dateien:
 
-Für ein kleines erstes Projekt reichen oft schon zwei Dateien:
+- <code>index.html</code>
+- <code>style.css</code>
 
-- `index.html`
-- `style.css`
+Die HTML-Datei enthält den Inhalt und die Struktur. Die CSS-Datei beschreibt Schrift, Farben, Abstände und das allgemeine Erscheinungsbild.
 
-Die HTML-Datei liefert die Struktur und Inhalte. Die CSS-Datei übernimmt Gestaltung und Abstände.
+<div class="wide-example">
 
-## Einfache Projektidee
+```text
+projekt/
+├── index.html
+└── style.css
+```
 
-Eine erste Webseite kann zum Beispiel enthalten:
+</div>
 
-- eine große Überschrift
-- einen kurzen Einführungstext
-- eine kleine Navigation
-- einen Abschnitt über dich oder das Thema
-- einen einfachen Footer
+## Sinnvolle Grundstruktur einer ersten Seite
 
-Schon damit lässt sich sehr viel über Struktur und Gestaltung lernen.
+Eine erste Webseite kann sehr einfach aufgebaut sein. Zum Beispiel so:
 
-## Warum Einfachheit am Anfang gut ist
+- Überschrift oder Seitenkopf,
+- kurzer Einleitungstext,
+- Navigation,
+- ein bis zwei Inhaltsabschnitte,
+- Footer.
 
-Ein häufiger Fehler ist, gleich zu viele Dinge auf einmal zu bauen:
+Das reicht bereits, um saubere Struktur, semantische Bereiche und erste Gestaltungsschritte zu lernen.
 
-- zu viele Farben
-- zu viele Bereiche
-- zu viele Spezialeffekte
-- unübersichtliche Klassen
-
-Besser ist:
-Wenige Elemente sauber umsetzen, statt vieles nur halb zu verstehen.
+<div class="example-card">
+  <p class="card-kicker">Leitbeispiel</p>
+  <h3>Eine kleine persönliche Startseite</h3>
+  <p>Stell dir eine Seite vor, die oben deinen Namen zeigt, darunter einen kurzen Einführungstext, dann einen Abschnitt „Über mich“, einen Bereich mit drei Interessen und ganz unten einen einfachen Footer. Dieses Projekt ist klein, aber didaktisch stark, weil du Struktur und Gestaltung bewusst kombinierst.</p>
+</div>
 
 ## HTML und CSS zusammendenken
 
-HTML und CSS haben unterschiedliche Aufgaben:
+HTML und CSS haben unterschiedliche Rollen.
 
-- HTML beschreibt den Inhalt
-- CSS beschreibt das Aussehen
+- <strong>HTML</strong> beschreibt den Inhalt und seine Struktur.
+- <strong>CSS</strong> beschreibt, wie dieser Inhalt aussieht.
 
-Darum ist eine erste Webseite auch ein gutes Lernprojekt, weil diese Trennung sehr sichtbar wird.
+Gerade beim ersten Projekt ist diese Trennung wichtig. Wer beides durcheinanderdenkt, baut meist unruhig, unübersichtlich und schwer wartbar.
 
-## Typische Gestaltungsschritte
+## Warum Einfachheit am Anfang gut ist
 
-Bei einer ersten Seite sind diese Entscheidungen oft sinnvoll:
+Viele Anfänger möchten sofort Animationen, viele Farben, mehrere Spalten und unzählige Klassen benutzen. Das führt schnell dazu, dass nichts mehr wirklich klar ist.
 
-- lesbare Schriftgrößen
-- klare Abstände
-- wenige Farben
-- ruhige Inhaltsblöcke
-- verständliche Überschriften
+Besser ist:
 
-Damit wirkt die Seite schnell deutlich ordentlicher.
+- wenige Bereiche,
+- ruhige Typografie,
+- klare Abstände,
+- wenige Farben,
+- und nachvollziehbare Benennungen.
 
-## Worauf du beim Einstieg achten solltest
+## Sinnvolle Gestaltungsentscheidungen
 
-Gerade am Anfang ist es wichtig,
+Für ein erstes Projekt sind diese Entscheidungen oft besonders hilfreich:
 
-- Dateinamen sauber zu wählen,
-- die CSS-Datei korrekt einzubinden,
-- HTML sinnvoll zu strukturieren,
-- und nicht jeden Stil improvisiert zu verteilen.
+- eine gut lesbare Überschrift,
+- ausreichend Abstand zwischen Bereichen,
+- höchstens wenige Farben,
+- klar unterscheidbare Abschnitte,
+- eine einfache, stabile Navigation.
 
-Eine gute Grundordnung spart später viel Zeit.
+<div class="practice-card">
+  <p class="card-kicker">Zum Anwenden</p>
+  <h3>So planst du deine erste Seite sinnvoll</h3>
+  <ul>
+    <li>Lege zuerst die Inhalte fest, bevor du an Farben denkst.</li>
+    <li>Skizziere die Reihenfolge der Bereiche auf Papier oder in Stichpunkten.</li>
+    <li>Baue die HTML-Struktur zuerst fertig und beginne dann mit CSS.</li>
+    <li>Frage dich bei jeder Regel: Macht sie die Seite klarer oder nur voller?</li>
+  </ul>
+</div>
 
-## Typische Anfängerfehler
+## Typische Fehler
 
-Sehr häufig sieht man:
+<div class="mistake-card">
+  <p class="card-kicker">Typische Fehler</p>
+  <h3>Darauf solltest du achten</h3>
+  <ul>
+    <li>HTML und CSS werden nicht sauber getrennt gedacht.</li>
+    <li>Die CSS-Datei wird nicht oder falsch eingebunden.</li>
+    <li>Es werden zu viele Farben und Effekte gleichzeitig eingesetzt.</li>
+    <li>Bereiche stehen ohne klare Reihenfolge auf der Seite.</li>
+    <li>Klassen werden zufällig statt systematisch vergeben.</li>
+  </ul>
+</div>
 
-- HTML und CSS unklar vermischt denken
-- die CSS-Datei nicht korrekt verlinken
-- zu viele Klassen ohne Plan
-- Inhalte ohne klare Reihenfolge aufbauen
-- Farben und Abstände ohne System wählen
+<div class="summary-card">
+  <p class="card-kicker">Merksätze</p>
+  <h3>Das solltest du mitnehmen</h3>
+  <ul>
+    <li>Eine erste Webseite braucht Klarheit, nicht Komplexität.</li>
+    <li>HTML liefert Struktur, CSS liefert Gestaltung.</li>
+    <li>Wenige Dateien und ruhige Layouts sind für den Einstieg ideal.</li>
+    <li>Kleine saubere Projekte lehren mehr als große chaotische Versuche.</li>
+    <li>Erst die Inhalte ordnen, dann die Gestaltung verfeinern.</li>
+  </ul>
+</div>
 
-## Gute Denkweise
 
-Ein gutes erstes Projekt beantwortet diese Fragen:
+## Woran du das Thema erkennst
 
-1. Welche Inhalte soll die Seite zeigen?
-2. Wie werden diese Inhalte in HTML strukturiert?
-3. Wie werden sie mit CSS ruhig und lesbar gestaltet?
+Du merkst, dass dieses Thema gefragt ist, wenn du in Aufgaben oder Erklärungen auf typische Signale wie diese stößt:
 
-Wenn diese drei Punkte klar sind, wird aus einer „ersten Webseite“ ein wirklich gutes Lernprojekt.
+- Es geht ausdrücklich um **Erste Webseite – Grundlagen** oder um eng verwandte Begriffe aus **Praxis**.
+- Du sollst nicht nur etwas benennen, sondern den Ablauf, die Regel oder den Zusammenhang **sauber erklären**.
+- In Beispielen musst du Werte, Strukturen, Schritte oder Reaktionen **geordnet lesen und deuten**.
 
-## Merksätze
 
-- Eine erste Webseite braucht keine Komplexität, sondern Klarheit.
-- HTML liefert Struktur, CSS liefert Gestaltung.
-- Wenige Dateien und ruhige Layouts sind für den Einstieg ideal.
-- Gute Dateinamen und klare Bereiche helfen beim Lernen.
-- Eine kleine saubere Seite ist wertvoller als ein chaotisches Großprojekt.
+## Mini-Check für dich
+
+- Kannst du in eigenen Worten erklären, wie du du verstehst den Aufbau einer ersten kleinen Webseite.?
+- Kannst du in eigenen Worten erklären, wie du du trennst Struktur und Gestaltung sauber.?
+- Kannst du in eigenen Worten erklären, wie du du planst kleine Webprojekte in klaren Schritten.?

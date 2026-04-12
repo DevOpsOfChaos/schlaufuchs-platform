@@ -1,215 +1,189 @@
 ---
 title: Lineare Funktionen
-description: Lineare Funktionen beschreiben gleichmäßige Veränderungen und sind eine zentrale Grundlage für Graphen, Steigung und Funktionsgleichungen.
+description: Lineare Funktionen beschreiben gleichmäßige Zusammenhänge und gehören
+  zu den wichtigsten Einstiegs-Themen in die Funktionenlehre.
 subject: mathematik
 section: Funktionen
+topicPath:
+- funktionen
+- lineare-funktionen
+learningGoals:
+- Du erkennst lineare Funktionen in Gleichung, Tabelle und Graph.
+- Du verstehst die Bedeutung von Steigung und Startwert.
+- Du liest aus einfachen Darstellungen Veränderungen sicher ab.
 level: einfach
 tags:
-  - Funktionen
-  - Linear
-  - Steigung
-  - Graph
-  - y gleich mx plus b
+- Funktionen
+- Lineare Funktionen
+- Steigung
+- y-Achsenabschnitt
+- Graphen
 draft: false
+practiceIdeas:
+- Lies aus einer Geradengleichung zuerst die Steigung und dann den y-Achsenabschnitt
+  heraus.
+- Vergleiche zwei lineare Funktionen und entscheide, welche schneller steigt oder
+  fällt.
+- Erstelle aus einer kleinen Wertetabelle eine passende Funktionsgleichung.
+commonMistakes:
+- Steigung und y-Achsenabschnitt in y = mx + b verwechseln.
+- Ein negatives m nur als Zahl lesen, ohne die fallende Richtung im Graphen mitzudenken.
+- Von einzelnen Werten direkt auf eine lineare Funktion schließen, obwohl der konstante
+  Unterschied nicht geprüft wurde.
+keyTakeaways:
+- Eine lineare Funktion hat die Form y = mx + b.
+- m beschreibt die Änderung pro Schritt, b den Startwert auf der y-Achse.
+- Konstante Änderungsrate ist das Kennzeichen einer linearen Funktion.
 ---
+<div class="learning-card">
+  <p class="card-kicker">Einstieg</p>
+  <h3>Was du hier lernst</h3>
+  <p>Lineare Funktionen beschreiben Zusammenhänge mit konstanter Änderung. Sie tauchen in Tabellen, Geraden, Kostenmodellen und vielen Sachaufgaben auf.</p>
+  <ul>
+    <li>Du lernst die Form <code>f(x) = mx + b</code> zu lesen.</li>
+    <li>Du verstehst, was Steigung und y-Achsenabschnitt bedeuten.</li>
+    <li>Du verbindest Gleichung, Wertetabelle und Graph miteinander.</li>
+  </ul>
+</div>
 
-## Überblick
+## Grundidee
 
-Lineare Funktionen gehören zu den wichtigsten Funktionstypen in der Schulmathematik. Sie beschreiben Zusammenhänge, bei denen sich eine Größe gleichmäßig verändert.
+Eine lineare Funktion beschreibt einen Zusammenhang, bei dem sich der Funktionswert immer gleichmäßig verändert. Im Graphen entsteht deshalb eine Gerade.
 
-Typische Beispiele sind:
+Die Standardform ist:
 
-- Taxikosten mit Grundpreis und Preis pro Kilometer,
-- Füllstände mit konstantem Zufluss,
-- Weg-Zeit-Zusammenhänge bei gleichmäßiger Bewegung.
+<div class="wide-example">
 
-## Was ist eine lineare Funktion?
+```text
+f(x) = mx + b
+```
 
-Eine lineare Funktion hat die Form:
+</div>
 
-- y = mx + b
+Dabei bedeutet:
 
-Oft schreibt man auch:
+- `m` = Steigung
+- `b` = y-Achsenabschnitt
 
-- f(x) = mx + b
+## Die beiden wichtigsten Bausteine
 
-Dabei gilt:
+### Steigung `m`
 
-- **m** ist die Steigung
-- **b** ist der y-Achsenabschnitt
+Die Steigung zeigt, wie stark sich der Funktionswert ändert, wenn `x` um 1 steigt.
 
-## Bedeutung der Steigung
+- `m = 2` bedeutet: pro 1 nach rechts geht der Graph 2 nach oben
+- `m = -3` bedeutet: pro 1 nach rechts geht der Graph 3 nach unten
 
-Die Steigung zeigt, wie stark sich y verändert, wenn x um 1 größer wird.
+### y-Achsenabschnitt `b`
 
-### Beispiel
+Der y-Achsenabschnitt zeigt, wo die Gerade die y-Achse schneidet. Das ist der Wert bei `x = 0`.
 
-- y = 2x + 1
+<div class="example-card">
+  <p class="card-kicker">Leitbeispiel</p>
+  <h3>Die Funktion <code>f(x) = 2x + 3</code></h3>
+  <ul>
+    <li>Steigung: <code>m = 2</code></li>
+    <li>Startwert: <code>b = 3</code></li>
+    <li>Bei <code>x = 0</code> gilt: <code>f(0) = 3</code></li>
+    <li>Bei <code>x = 1</code> gilt: <code>f(1) = 5</code></li>
+    <li>Bei <code>x = 2</code> gilt: <code>f(2) = 7</code></li>
+  </ul>
+</div>
 
-Wenn x um 1 steigt, steigt y jeweils um 2.
+## Von der Gleichung zur Tabelle
 
-Tabelle:
+Aus einer linearen Funktion kann man leicht eine Wertetabelle erstellen.
 
-- x = 0 → y = 1
-- x = 1 → y = 3
-- x = 2 → y = 5
-- x = 3 → y = 7
+<div class="wide-example">
 
-## Bedeutung des y-Achsenabschnitts
+```text
+f(x) = 2x + 3
 
-Der y-Achsenabschnitt ist der Wert von y an der Stelle x = 0.
+x   | 0 | 1 | 2 | 3
+f(x)| 3 | 5 | 7 | 9
+```
 
-### Beispiel
+</div>
 
-- y = 2x + 1
+Wichtig ist: Der Unterschied zwischen den y-Werten ist immer gleich groß. Genau das ist ein starkes Zeichen für einen linearen Zusammenhang.
 
-Setze x = 0 ein:
+## Vom Graphen zur Bedeutung
 
-- y = 2 · 0 + 1 = 1
+Im Graphen sieht man:
 
-Der Graph schneidet also die y-Achse bei 1.
+- den Startwert an der y-Achse
+- die Richtung der Geraden
+- die Stärke der Veränderung
 
-## Graph einer linearen Funktion
+Eine steigende Gerade hat positive Steigung. Eine fallende Gerade hat negative Steigung.
 
-Der Graph einer linearen Funktion ist immer eine gerade Linie.
+## Lineare Funktionen in Sachaufgaben
 
-Darum reicht oft schon:
+Lineare Funktionen sind praktisch, wenn ein Grundwert vorhanden ist und danach immer dieselbe Änderung dazukommt.
 
-- der y-Achsenabschnitt,
-- und ein weiterer Punkt mit Hilfe der Steigung.
+<div class="example-card">
+  <p class="card-kicker">Anwendung</p>
+  <h3>Taxikosten</h3>
+  <p>Ein Taxi kostet 4 Euro Grundgebühr und 2 Euro pro gefahrenem Kilometer.</p>
+  <p>Passende Funktion:</p>
+  <div class="wide-example">
 
-### Beispiel
+```text
+K(x) = 2x + 4
+```
 
-Gegeben ist:
+  </div>
+  <p>Die 4 ist der Startwert, die 2 beschreibt die Kosten pro zusätzlichem Kilometer.</p>
+</div>
 
-- y = 3x - 2
-
-Punkt 1:
-
-- x = 0 → y = -2
-
-Punkt 2 mit Steigung 3:
-
-- 1 nach rechts, 3 nach oben
-- daraus entsteht der Punkt (1|1)
-
-Diese beiden Punkte reichen zum Zeichnen der Geraden.
-
-## Steigung aus zwei Punkten bestimmen
-
-Sind zwei Punkte gegeben, kann die Steigung berechnet werden.
-
-Formel:
-
-- m = Änderung in y / Änderung in x
-
-### Beispiel
-
-Punkte:
-
-- A(1|3)
-- B(4|9)
-
-Rechnung:
-
-- Änderung in y = 9 - 3 = 6
-- Änderung in x = 4 - 1 = 3
-- m = 6 / 3 = 2
-
-Die Steigung ist also 2.
-
-## Funktionsgleichung aus Tabelle erkennen
-
-Wenn Werte in einer Tabelle gleichmäßig wachsen, liegt oft eine lineare Funktion vor.
-
-### Beispiel
-
-- x: 0, 1, 2, 3
-- y: 4, 7, 10, 13
-
-Hier steigt y jeweils um 3.
-
-Also ist:
-
-- m = 3
-
-Bei x = 0 gilt y = 4.
-
-Also ist:
-
-- b = 4
-
-Funktionsgleichung:
-
-- y = 3x + 4
-
-## Typische Deutungen im Sachkontext
-
-Lineare Funktionen bestehen oft aus zwei Teilen:
-
-- einem festen Anfangswert,
-- und einer gleichmäßigen Veränderung.
-
-### Beispiel: Taxikosten
-
-- Grundpreis: 4 Euro
-- pro Kilometer: 2 Euro
-
-Dann gilt bei x Kilometern:
-
-- y = 2x + 4
-
-Hier ist:
-
-- m = 2
-- b = 4
-
-## Sonderfälle
-
-### Funktion ohne Anfangswert
-
-- y = 5x
-
-Dann ist:
-
-- b = 0
-
-Der Graph geht durch den Ursprung.
-
-### Fallende Funktion
-
-- y = -2x + 6
-
-Hier ist die Steigung negativ. Der Graph fällt von links nach rechts.
-
-### Konstante Funktion
-
-- y = 4
-
-Das ist eine waagerechte Gerade mit Steigung 0.
+<div class="practice-card">
+  <p class="card-kicker">Zum Ausprobieren</p>
+  <h3>Ändere Steigung und Startwert im Kopf</h3>
+  <ul>
+    <li>Was passiert mit der Geraden, wenn du aus <code>2x + 3</code> die Funktion <code>2x - 1</code> machst?</li>
+    <li>Was ändert sich bei <code>4x + 3</code> statt <code>2x + 3</code>?</li>
+    <li>Welche Änderung betrifft die Lage, welche die Steilheit?</li>
+  </ul>
+</div>
 
 ## Typische Fehler
 
-Häufige Fehler sind:
+<div class="mistake-card">
+  <p class="card-kicker">Typische Fehler</p>
+  <h3>Darauf solltest du achten</h3>
+  <ul>
+    <li>Steigung und y-Achsenabschnitt zu verwechseln.</li>
+    <li>Den Startwert nicht bei <code>x = 0</code> zu prüfen.</li>
+    <li>Bei Tabellen nur auf einzelne Werte statt auf die konstante Änderung zu schauen.</li>
+    <li>Eine fallende Gerade fälschlich als positive Steigung zu lesen.</li>
+    <li>Zu glauben, jede Gerade sei automatisch eine lineare Funktion, auch wenn die Achsen oder Werte falsch gelesen werden.</li>
+  </ul>
+</div>
 
-- Steigung und y-Achsenabschnitt werden verwechselt.
-- Bei negativer Steigung wird der Graph in die falsche Richtung gezeichnet.
-- Der y-Achsenabschnitt wird nicht bei x = 0 bestimmt.
-- Tabellen werden vorschnell als linear gedeutet, obwohl die Änderungen nicht konstant sind.
+<div class="summary-card">
+  <p class="card-kicker">Merksätze</p>
+  <h3>Das solltest du mitnehmen</h3>
+  <ul>
+    <li>Lineare Funktionen haben die Form <code>f(x) = mx + b</code>.</li>
+    <li><code>m</code> beschreibt die Steigung, <code>b</code> den Startwert.</li>
+    <li>Ihr Graph ist eine Gerade.</li>
+    <li>In Tabellen erkennt man lineare Funktionen an einer konstanten Änderung.</li>
+    <li>Viele Sachaufgaben mit Grundwert und gleichmäßiger Veränderung lassen sich linear modellieren.</li>
+  </ul>
+</div>
 
-## Warum lineare Funktionen wichtig sind
 
-Lineare Funktionen sind ein Einstieg in das funktionale Denken. Sie helfen beim Verstehen von:
+## Woran du das Thema erkennst
 
-- Graphen,
-- Geradengleichungen,
-- proportionalen und nichtproportionalen Zusammenhängen,
-- Modellierungen im Alltag.
+Du merkst, dass dieses Thema gefragt ist, wenn du in Aufgaben oder Erklärungen auf typische Signale wie diese stößt:
 
-## Merksätze
+- Es geht ausdrücklich um **Lineare Funktionen** oder um eng verwandte Begriffe aus **Funktionen**.
+- Du sollst nicht nur etwas benennen, sondern den Ablauf, die Regel oder den Zusammenhang **sauber erklären**.
+- In Beispielen musst du Werte, Strukturen, Schritte oder Reaktionen **geordnet lesen und deuten**.
 
-- Lineare Funktionen haben die Form y = mx + b.
-- m beschreibt die Steigung.
-- b beschreibt den Schnittpunkt mit der y-Achse.
-- Der Graph ist eine Gerade.
-- Gleiche Änderungen in x führen bei linearen Funktionen immer zu gleichen Änderungen in y.
+
+## Mini-Check für dich
+
+- Kannst du in eigenen Worten erklären, wie du du erkennst lineare Funktionen in Gleichung, Tabelle und Graph.?
+- Kannst du in eigenen Worten erklären, wie du du verstehst die Bedeutung von Steigung und Startwert.?
+- Kannst du in eigenen Worten erklären, wie du du liest aus einfachen Darstellungen Veränderungen sicher ab.?

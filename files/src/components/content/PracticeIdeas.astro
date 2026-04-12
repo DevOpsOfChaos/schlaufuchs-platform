@@ -1,0 +1,36 @@
+---
+interface Props {
+  title?: string;
+  items: string[];
+}
+
+const { title = "Was du direkt ausprobieren kannst", items } = Astro.props as Props;
+---
+
+{items.length > 0 && (
+  <section class="practice-panel full-bleed">
+    <div class="panel-head">
+      <p class="panel-kicker">Praxis</p>
+      <h2>{title}</h2>
+    </div>
+    <div class="panel-grid">
+      {items.map((item, index) => (
+        <article class="practice-card">
+          <span class="practice-index">{index + 1}</span>
+          <p>{item}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+)}
+
+<style>
+  .practice-panel { display:grid; gap:1rem; }
+  .panel-head h2 { margin:0; color:var(--text-strong); font-size:clamp(1.6rem,2.5vw,2rem); line-height:1.08; }
+  .panel-kicker { margin:0 0 .5rem; color:var(--text-soft); font-size:.82rem; font-weight:800; letter-spacing:.06em; text-transform:uppercase; }
+  .panel-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }
+  .practice-card { display:grid; grid-template-columns:auto 1fr; gap:.9rem; align-items:flex-start; padding:1.15rem; border:1px solid var(--border); border-radius:24px; background:var(--card-bg); box-shadow:var(--shadow-soft); }
+  .practice-index { display:inline-grid; place-items:center; width:2rem; height:2rem; border-radius:999px; background:var(--surface); border:1px solid var(--border); color:var(--text-strong); font-weight:800; }
+  .practice-card p { margin:0; color:var(--text); line-height:1.68; }
+  @media (max-width:900px){ .panel-grid { grid-template-columns:1fr; } }
+</style>

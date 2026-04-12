@@ -1,59 +1,89 @@
 ---
 title: Dateirechte lesen und deuten
-description: Übe, wie Linux-Rechte für Besitzer, Gruppen und andere gelesen und in konkrete Erlaubnisse übersetzt werden.
+description: Übe, wie Linux-Rechte gelesen werden und was sie für Besitzer, Gruppe
+  und andere bedeuten.
 subject: linux
 section: System
+topicPath:
+- system
+- dateirechte
+- dateirechte-lesen-und-deuten
+tags:
+- linux
+- rechte
+- chmod
+- dateien
+hintPoints:
+- Lies Rechte immer zusammen mit Besitzer, Gruppe und anderen.
+- Trenne lesen, schreiben und ausführen sauber.
+- Beschreibe Rechte als Zugriffsmodell und nicht nur als Zeichenfolge.
+selfCheckPoints:
+- Ich kann `r`, `w` und `x` erklären.
+- Ich weiß, dass Rechte für Besitzer, Gruppe und andere getrennt gelten.
+- Ich kann einfache Rechtefolgen fachlich deuten.
 level: einfach
 draft: false
 ---
-
 ## Arbeitsauftrag
 
-Bearbeite die Aufgaben so, dass sichtbar wird, wie sicher du Linux-Rechte lesen und in Alltagssituationen deuten kannst.
+Lies Dateirechte nicht nur als Zeichen, sondern als Aussage darüber, wer was mit einer Datei tun darf.
 
-## Aufgabe 1
+## Aufgabe 1 – Rechtezeichen erklären
 
-Erkläre kurz die Bedeutung von:
+Erkläre die Bedeutung von:
 
 - `r`
 - `w`
 - `x`
 
-## Aufgabe 2
+Beschreibe zu jedem Zeichen, welche Art von Zugriff gemeint ist.
 
-Nenne die drei Rollen, für die Linux Rechte unterscheidet.
+## Aufgabe 2 – Drei Rollen unterscheiden
 
-## Aufgabe 3
+Erkläre, auf wen sich diese drei Ebenen beziehen:
 
-Deute diese Rechte:
+- Besitzer
+- Gruppe
+- andere
 
-```text
-rw-r--r--
-```
+Warum ist diese Trennung in einem Mehrbenutzersystem sinnvoll?
 
-Beantworte:
+## Aufgabe 3 – Rechtefolge deuten
+
+Lies die Rechtefolge `rw-r--r--`.
 
 1. Was darf der Besitzer?
 2. Was darf die Gruppe?
 3. Was dürfen andere?
 
-## Aufgabe 4
+## Aufgabe 4 – Fachlich formulieren
 
-Warum sind Dateirechte für Sicherheit und Ordnung im System wichtig?
+Beschreibe in einem kurzen Absatz, warum man Dateirechte nie isoliert von Benutzer und Gruppe lesen sollte.
 
-## Aufgabe 5
+## Aufgabe 5 – Typische Fehler
 
-Formuliere zwei typische Fehler, die Anfänger beim Lesen oder Setzen von Rechten machen.
+Nenne drei typische Denkfehler beim Einstieg in Linux-Rechte und erkläre, wie du sie korrigieren würdest.
 
-## Hinweise
+## Aufgabe 6 – Transfer
 
-- Rechte sollten immer zusammen mit Besitzer und Gruppe gelesen werden.
-- Nicht jede Datei braucht dieselben Rechte.
+Überlege dir eine kleine Alltagssituation in einem Mehrbenutzersystem, in der eine Datei zwar von der Gruppe gelesen, aber nur vom Besitzer verändert werden soll. Beschreibe kurz, warum genau diese Rechteverteilung sinnvoll ist.
 
-## Selbstkontrolle
+## Aufgabe 8 – Fachsprache anwenden
 
-Am Ende sollte klar sein:
+Erkläre das Thema noch einmal so, als würdest du es einer anderen lernenden Person ruhig und fachlich korrekt erklären. Nutze dabei die wichtigsten Begriffe bewusst.
 
-- Linux trennt Rechte für Besitzer, Gruppe und andere.
-- `r`, `w` und `x` müssen in Handlung übersetzt werden.
-- Rechte sind ein Sicherheitswerkzeug, nicht nur ein Zeichencode.
+
+## Transfer und Einordnung
+
+Bearbeite zum Schluss noch diese kurzen Zusatzfragen, damit du die Aufgabe nicht nur mechanisch rechnest oder ausfüllst:
+
+1. Wo taucht die Grundidee aus **Dateirechte lesen und deuten** in einem ähnlichen Kontext aus **System** wieder auf?
+2. Woran würdest du erkennen, dass du denselben Gedanken auch in einer leicht veränderten Aufgabe anwenden musst?
+3. Welche Angabe oder Formulierung wäre ein typisches Signal dafür, dass genau dieses Wissen gebraucht wird?
+
+
+## Kurzreflexion
+
+- Was war in dieser Aufgabe der fachlich wichtigste Schritt?
+- Wo war die größte Verwechslungsgefahr?
+- Was würdest du vor der nächsten ähnlichen Aufgabe zuerst prüfen?

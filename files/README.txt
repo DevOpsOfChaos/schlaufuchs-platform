@@ -12,3 +12,8 @@ Anwendung:
 4. Commit-Vorschlag:
    git add .
    git commit -m "Add first math and informatics knowledge wave for legacy leaf topics"
+
+
+Neu ergänzt:
+- src/components/interactive/LinuxLearningShell.astro
+- src/data/interactive/linuxShellScenarios.ts

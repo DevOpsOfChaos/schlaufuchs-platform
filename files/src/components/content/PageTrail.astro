@@ -1,0 +1,111 @@
+---
+interface TrailItem {
+  label: string;
+  href: string;
+}
+
+interface Props {
+  backHref: string;
+  trail: TrailItem[];
+}
+
+const { backHref, trail } = Astro.props as Props;
+
+const backIcon = `
+<svg viewBox="0 0 24 24" aria-hidden="true">
+  <path d="M15 5 8 12l7 7"></path>
+</svg>`;
+---
+
+<div class="page-topline">
+  <a class="back-button" href={backHref} aria-label="Zurück" title="Zurück" set:html={backIcon} />
+  <nav class="breadcrumb-shell" aria-label="Brotkrumen">
+    <div class="breadcrumb">
+    {trail.map((item, index) => (
+      <>
+        {index > 0 && <span class="sep">›</span>}
+        <a href={item.href}>{item.label}</a>
+      </>
+    ))}
+    </div>
+  </nav>
+</div>
+
+<style>
+  .page-topline {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+  }
+
+  .back-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text-strong);
+    box-shadow: var(--shadow-soft);
+    flex-shrink: 0;
+    transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
+  }
+
+  .back-button:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-card);
+    border-color: var(--border-strong);
+  }
+
+  .back-button :global(svg) {
+    width: 1.15rem;
+    height: 1.15rem;
+    stroke: currentColor;
+    fill: none;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .breadcrumb-shell {
+    display: inline-flex;
+    align-items: center;
+    max-width: min(100%, 1000px);
+    min-height: 3rem;
+    padding: 0.25rem 0.8rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: color-mix(in oklab, var(--surface) 88%, white 12%);
+    box-shadow: var(--shadow-soft);
+  }
+
+  .breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    color: var(--text-soft);
+    font-size: 0.94rem;
+    min-width: 0;
+  }
+
+  .breadcrumb a {
+    color: var(--text-soft);
+  }
+
+  .breadcrumb a:hover {
+    color: var(--text-strong);
+  }
+
+  .sep {
+    color: var(--text-muted);
+  }
+
+  @media (max-width: 720px) {
+    .breadcrumb {
+      font-size: 0.88rem;
+    }
+  }
+</style>

@@ -1,54 +1,98 @@
 ---
 title: HTML-Grundstruktur zuordnen
-description: Übe die Unterscheidung zwischen html, head und body und ordne typische Inhalte dem richtigen Bereich zu.
+description: Übe, das Grundgerüst einer HTML-Datei zu lesen und Head und Body sauber
+  zu unterscheiden.
 subject: web-development
-section: HTML
+section: html
+topicPath:
+- html
+- grundstruktur
+- html-grundstruktur-zuordnen
+tags:
+- html
+- grundstruktur
+- head
+- body
+- dokument
+hintPoints:
+- Lies HTML zuerst als Gesamtgerüst, nicht nur als Reihe einzelner Tags.
+- Trenne Informationen über die Seite von sichtbarem Seiteninhalt.
+- Frage bei jedem Teil: Gehört das in den Head oder in den Body?
+selfCheckPoints:
+- Du erkennst die Grundstruktur einer HTML-Datei sofort wieder.
+- Du kannst Head und Body inhaltlich sauber unterscheiden.
+- Du liest kleine HTML-Gerüste ruhiger und systematischer.
 level: einfach
 draft: false
 ---
+## Lernziel
 
-## Arbeitsauftrag
+Nach dieser Aufgabe solltest du sicher erklären können,
 
-Bearbeite die Aufgaben so, dass du den Aufbau einer HTML-Seite sicher lesen und erklären kannst.
+- aus welchen Grundteilen eine HTML-Datei besteht,
+- welche Funktion `head` und `body` jeweils haben,
+- und warum ein sauberes Grundgerüst für alle späteren Inhalte wichtig ist.
 
-## Aufgabe 1
+## Aufgabe 1 – Das Gerüst benennen
 
-Erkläre kurz die Aufgaben von:
+Ordne diese Teile einer HTML-Datei sauber zu und erkläre kurz ihre Rolle:
 
-- `html`
-- `head`
-- `body`
+- `<!DOCTYPE html>`
+- `<html>`
+- `<head>`
+- `<body>`
 
-## Aufgabe 2
+## Aufgabe 2 – Head und Body unterscheiden
 
-Ordne diese Dinge dem richtigen Bereich zu:
+Erkläre in eigenen Worten:
 
-- Seitentitel
-- sichtbare Überschrift
-- Meta-Angaben
-- Absatztext
+1. Welche Informationen typischerweise im Head stehen.
+2. Welche Inhalte in den Body gehören.
+3. Warum es problematisch ist, beide Bereiche gedanklich zu vermischen.
 
-## Aufgabe 3
+## Aufgabe 3 – Ein Mini-Beispiel lesen
 
-Warum ist der Inhalt des `head` wichtig, obwohl er meist nicht direkt auf der Seite sichtbar ist?
+Betrachte dieses vereinfachte Grundgerüst gedanklich und beschreibe seine Funktion:
 
-## Aufgabe 4
+- Dokumenttyp
+- Sprache
+- Titel der Seite
+- sichtbare Überschrift im Body
 
-Beschreibe in eigenen Worten, warum die Trennung zwischen Dokumentinformationen und sichtbarem Inhalt hilfreich ist.
+Erkläre dabei nicht nur einzelne Zeilen, sondern den Gesamtaufbau.
 
-## Aufgabe 5
+## Aufgabe 4 – Typische Fehler erkennen
 
-Nenne zwei typische Anfängerfehler rund um die HTML-Grundstruktur.
+Bewerte die Aussagen als richtig oder falsch und begründe kurz:
 
-## Hinweise
+- „Der Seitentitel im Browser gehört in den Body.“
+- „Der sichtbare Hauptinhalt steht im Body.“
+- „Ohne klares Grundgerüst wird HTML schnell unübersichtlich.“
 
-- HTML beschreibt nicht nur Sichtbares, sondern auch Dokumentstruktur.
-- `head` und `body` haben klar unterschiedliche Aufgaben.
+## Aufgabe 5 – Von außen nach innen lesen
 
-## Selbstkontrolle
+Beschreibe eine sinnvolle Reihenfolge, in der du eine unbekannte HTML-Datei lesen würdest, damit du ihre Grundstruktur schnell verstehst.
 
-Am Ende sollte klar sein:
+## Aufgabe 6 – Transfer
 
-- `html` umfasst das gesamte Dokument,
-- `head` enthält Informationen über die Seite,
-- `body` enthält den sichtbaren Inhalt.
+Erkläre, warum eine gute HTML-Grundstruktur auch dann wichtig bleibt, wenn das Styling später noch stark verändert wird. Nenne mindestens zwei Gründe.
+
+## Aufgabe 8 – Fachsprache anwenden
+
+Erkläre das Thema noch einmal so, als würdest du es einer anderen lernenden Person ruhig und fachlich korrekt erklären. Nutze dabei die wichtigsten Begriffe bewusst.
+
+
+## Transfer und Einordnung
+
+Bearbeite zum Schluss noch diese kurzen Zusatzfragen, damit du die Aufgabe nicht nur mechanisch rechnest oder ausfüllst:
+
+1. Wo taucht die Grundidee aus **HTML-Grundstruktur zuordnen** in einem ähnlichen Kontext aus **html** wieder auf?
+2. Woran würdest du erkennen, dass du denselben Gedanken auch in einer leicht veränderten Aufgabe anwenden musst?
+3. Welche Angabe oder Formulierung wäre ein typisches Signal dafür, dass genau dieses Wissen gebraucht wird?
+
+
+## Kurzreflexion
+
+- Was war in dieser Aufgabe der fachlich wichtigste Schritt?
+- Wo war die größte Verwechslungsgefahr?
+- Was würdest du vor der nächsten ähnlichen Aufgabe zuerst prüfen?

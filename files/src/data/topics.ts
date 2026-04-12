@@ -1,5 +1,5 @@
 import type { CollectionEntry } from "astro:content";
-import { resolvePrimarySubjectSlug, type PrimarySubjectSlug } from "./subjects";
+import { resolvePrimarySubjectSlug } from "./subjects";
 
 type TopicEntry = CollectionEntry<"articles"> | CollectionEntry<"exercises">;
 
@@ -27,47 +27,15 @@ export const humanizeTopicSegment = (segment: string) =>
     .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
     .join(" ");
 
-const sectionPathMap: Record<PrimarySubjectSlug, Record<string, string[]>> = {
-  mathematik: {
-    grundlagen: ["grundlagen"],
-    algebra: ["algebra"],
-    funktionen: ["funktionen"],
-    geometrie: ["geometrie"],
-  },
-  informatik: {
-    grundlagen: ["grundlagen"],
-    programmierung: ["programmieren"],
-    programmieren: ["programmieren"],
-    systemnah: ["systemnah"],
-  },
-  elektrotechnik: {
-    grundlagen: ["elektronik"],
-    elektronik: ["elektronik"],
-    "daten-und-signale": ["daten-und-signale"],
-    praxis: ["praxis"],
-    "arduino-und-esp32": ["praxis", "arduino-und-esp32"],
-    "computer-und-cpu": ["daten-und-signale", "computer-und-cpu"],
-  },
-  linux: {
-    shell: ["shell"],
-    system: ["system"],
-    praxis: ["praxis"],
-    "benutzer-und-gruppen": ["system", "benutzer-und-gruppen"],
-    "benutzer-und-rechte": ["system", "benutzer-und-gruppen"],
-    dateirechte: ["system", "dateirechte"],
-    "dateisystem-und-pfade": ["shell"],
-    "shell-und-prompt": ["shell"],
-    shellskripte: ["praxis"],
-  },
-  "web-development": {
-    html: ["html"],
-    css: ["css"],
-    praxis: ["praxis"],
-    "box-modell": ["css", "box-modell"],
-  },
-};
+export const getTopicTail = (entry: TopicEntry) => {
+  const explicitTopicPath = Array.isArray(entry.data.topicPath)
+    ? entry.data.topicPath.map(slugifyTopicSegment).filter(Boolean)
+    : [];
 
-const getRawTail = (entry: TopicEntry) => {
+  if (explicitTopicPath.length > 0) {
+    return explicitTopicPath;
+  }
+
   const segments = entry.id.split("/").filter(Boolean).map(slugifyTopicSegment);
   const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject);
 
@@ -78,64 +46,20 @@ const getRawTail = (entry: TopicEntry) => {
   return segments;
 };
 
-const getExplicitTopicPath = (entry: TopicEntry) => {
-  const configured = entry.data.topicPath?.map(slugifyTopicSegment).filter(Boolean) ?? [];
-  return configured.length > 0 ? configured : null;
-};
-
-const getSectionPath = (entry: TopicEntry) => {
-  const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject);
-  const sectionSlug = slugifyTopicSegment(entry.data.section ?? "");
-
-  return subjectSlug ? sectionPathMap[subjectSlug]?.[sectionSlug] ?? null : null;
-};
-
-const getLeafSlug = (entry: TopicEntry, rawTail: string[]) => rawTail.at(-1) ?? slugifyTopicSegment(entry.data.title);
-
-export const getTopicTail = (entry: TopicEntry) => {
-  const explicit = getExplicitTopicPath(entry);
-  if (explicit) return explicit;
-
-  const rawTail = getRawTail(entry);
-  if (rawTail.length > 1) return rawTail;
-
-  const mappedSectionPath = getSectionPath(entry);
-  if (!mappedSectionPath || mappedSectionPath.length === 0) {
-    return rawTail;
-  }
-
-  return [...mappedSectionPath, getLeafSlug(entry, rawTail)];
-};
-
-export const getTopicGroupPath = (entry: TopicEntry) => {
-  const tail = getTopicTail(entry);
-  return tail.length > 1 ? tail.slice(0, -1) : tail;
-};
-
-export const getSharedTopicPrefixLength = (left: string[], right: string[]) => {
-  const maxLength = Math.min(left.length, right.length);
-  let shared = 0;
-
-  while (shared < maxLength && left[shared] === right[shared]) {
-    shared += 1;
-  }
-
-  return shared;
-};
-
-export const compareEntriesByTopicDepth = (left: TopicEntry, right: TopicEntry) => {
-  const leftDepth = getTopicTail(left).length;
-  const rightDepth = getTopicTail(right).length;
-
-  if (leftDepth !== rightDepth) {
-    return leftDepth - rightDepth;
-  }
-
-  return left.data.title.localeCompare(right.data.title, "de");
-};
+export const getTopicBranch = (entry: TopicEntry) =>
+  entry.collection === "exercises" ? getTopicTail(entry).slice(0, -1) : getTopicTail(entry);
 
 export const getEntriesForPrimarySubject = <T extends TopicEntry>(entries: T[], subjectSlug: string) =>
   entries.filter((entry) => resolvePrimarySubjectSlug(entry.data.subject) === subjectSlug);
+
+export const getSharedTopicPrefixLength = (a: string[], b: string[]) => {
+  const limit = Math.min(a.length, b.length);
+  let index = 0;
+  while (index < limit && a[index] === b[index]) {
+    index += 1;
+  }
+  return index;
+};
 
 export const getSubjectSectionCards = (entries: TopicEntry[]) => {
   const sectionMap = new Map<

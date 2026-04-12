@@ -1,61 +1,111 @@
 ---
-title: Python Grundlagen mit Variablen und if
-description: Diese Aufgabe vertieft Variablen, Ein- und Ausgabe sowie einfache Bedingungen in Python.
+title: Python-Grundlagen – Variablen und if
+description: Diese Aufgabe verbindet Variablen, Eingaben und einfache Bedingungen
+  in kleinen Python-Beispielen.
 subject: informatik
 section: Programmierung
+topicPath:
+- programmieren
+- python-grundlagen
+- python-grundlagen-variablen-und-if
+tags:
+- Python
+- Variablen
+- if
+hintPoints:
+- Lies jede Zeile nacheinander und erkläre ihre Wirkung in Worten.
+- Prüfe bei input immer, ob der Wert noch Text ist oder schon umgewandelt wurde.
+- Achte bei if-Beispielen auf Bedingung, Einrückung und Ausgabe.
+selfCheckPoints:
+- Variablen speichern Werte.
+- input() liest Eingaben ein.
+- if steuert Entscheidungen.
+- Die Einrückung gehört in Python zur Sprache dazu.
 level: einfach
 draft: false
 ---
-
 ## Arbeitsauftrag
 
-Lies die Aufgaben genau und notiere kurze Begründungen, wenn du etwas erklärst.
+Lies die Programme Zeile für Zeile und erkläre immer, was gespeichert, geprüft oder ausgegeben wird.
 
-## Aufgabe 1
+## Aufgabe 1 – Variablen lesen
 
-Was speichern diese Variablen?
+Gegeben ist:
 
 ```python
-name = "Mia"
-alter = 15
+name = "Mila"
+punkte = 8
 ```
 
-Beschreibe den Unterschied zwischen beiden Werten.
+Erkläre:
 
-## Aufgabe 2
+1. Welche Variablen vorkommen.
+2. Welche Werte gespeichert werden.
+3. Welche Variable einen Text speichert.
+4. Welche Variable eine Zahl speichert.
 
-Ergänze in Worten, was dieses Programm macht:
+## Aufgabe 2 – Eingabe und Ausgabe verstehen
+
+Gegeben ist:
 
 ```python
-punkte = 72
+stadt = input("Deine Stadt: ")
+print("Hallo aus", stadt)
+```
 
-if punkte >= 50:
-    print("bestanden")
+Beschreibe:
+
+1. Welche Eingabe erwartet wird.
+2. Welche Ausgabe entstehen kann.
+3. Warum `stadt` nach `input()` zunächst als Text behandelt wird.
+
+## Aufgabe 3 – if verstehen
+
+Gegeben ist:
+
+```python
+zahl = 7
+
+if zahl > 5:
+    print("groesser")
 else:
-    print("nicht bestanden")
+    print("kleiner oder gleich")
 ```
 
-## Aufgabe 3
+Erkläre:
 
-Schreibe einen kurzen Python-Code, der:
+1. Welche Bedingung geprüft wird.
+2. Welche Ausgabe bei `zahl = 7` erscheint.
+3. Welche Ausgabe bei `zahl = 3` erscheinen würde.
+4. Warum nur **eine** der beiden Ausgaben erscheint.
 
-1. eine Zahl speichert,
-2. prüft, ob sie größer als 10 ist,
-3. passend ausgibt, ob sie größer als 10 ist oder nicht.
+## Aufgabe 4 – Typische Fehler erkennen
 
-## Aufgabe 4
+Beurteile die Aussagen:
 
-Erkläre den Unterschied zwischen:
+- `input()` liefert automatisch eine Zahl.
+- Eine falsche Einrückung kann in Python ein echtes Problem sein.
+- Eine Variable darf keinen Wert speichern.
+- `if` hilft bei Entscheidungen im Programm.
 
-- `=`
-- `==`
+Markiere jede Aussage als richtig oder falsch und begründe deine Entscheidung kurz.
 
-## Aufgabe 5
+## Aufgabe 6 – Transfer
 
-Warum ist bei Python die Einrückung wichtig?
+Beschreibe in zwei bis drei Sätzen, warum Variablen und Bedingungen zusammengehören. Nutze dabei die Begriffe *Wert*, *Vergleich* und *Programmablauf*.
 
-## Hinweise
 
-- `=` weist einen Wert zu.
-- `==` vergleicht zwei Werte.
-- Achte auf klare Einrückung nach `if` und `else`.
+## Transfer und Einordnung
+
+Bearbeite zum Schluss noch diese kurzen Zusatzfragen, damit du die Aufgabe nicht nur mechanisch rechnest oder ausfüllst:
+
+1. Wo taucht die Grundidee aus **Python-Grundlagen – Variablen und if** in einem ähnlichen Kontext aus **Programmierung** wieder auf?
+2. Woran würdest du erkennen, dass du denselben Gedanken auch in einer leicht veränderten Aufgabe anwenden musst?
+3. Welche Angabe oder Formulierung wäre ein typisches Signal dafür, dass genau dieses Wissen gebraucht wird?
+
+
+## Kurzreflexion
+
+- Was war in dieser Aufgabe der fachlich wichtigste Schritt?
+- Wo war die größte Verwechslungsgefahr?
+- Was würdest du vor der nächsten ähnlichen Aufgabe zuerst prüfen?

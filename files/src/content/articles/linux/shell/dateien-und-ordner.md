@@ -1,67 +1,83 @@
 ---
 title: Dateien und Ordner – Grundlagen
-description: Verstehe, wie Linux Dateien, Ordner und Pfade organisiert und warum diese Struktur die Basis für fast alle Terminal-Aufgaben bildet.
+description: Verstehe, wie Linux Dateien, Ordner und Pfade organisiert und warum diese
+  Struktur die Basis für fast alle Terminal-Aufgaben bildet.
 subject: linux
 section: shell
+topicPath:
+- shell
+- dateien-und-ordner
+learningGoals:
+- Du unterscheidest sicher zwischen Datei, Ordner und Pfad.
+- Du verstehst die Rolle von pwd, ls und cd.
+- Du arbeitest im Terminal ruhiger und sicherer, weil du deine Position im Dateisystem
+  bewusst prüfst.
 level: einfach
-tags: [linux, shell, dateien, ordner, pfade]
+tags:
+- linux
+- shell
+- dateien
+- ordner
+- pfade
 draft: false
+practiceIdeas:
+- Prüfe mit pwd zuerst deinen aktuellen Ort und erkläre dann in eigenen Worten, was
+  der ausgegebene Pfad bedeutet.
+- Nutze ls in mehreren Verzeichnissen und beobachte, wie sich der Inhalt je nach Ort
+  verändert.
+- Wechsle mit cd bewusst zwischen zwei Ordnern und überprüfe nach jedem Schritt wieder
+  deinen Standort.
+commonMistakes:
+- Datei und Ordner sprachlich gleich behandeln, obwohl sie unterschiedliche Rollen
+  haben.
+- Mit cd in einen Ordner springen, ohne vorher zu prüfen, wo man gerade ist.
+- Den Pfad nur als Text sehen und nicht als eindeutige Ortsbeschreibung verstehen.
+keyTakeaways:
+- Erst Ort prüfen, dann Inhalt ansehen, dann bewegen.
+- Ein Pfad beschreibt den Ort einer Datei oder eines Ordners eindeutig.
+- pwd, ls und cd gehören in Linux zu den wichtigsten Einstiegsbefehlen.
 ---
+<div class="learning-card">
+  <p class="card-kicker">Einstieg</p>
+  <h3>Was du hier lernst</h3>
+  <p>Dateien und Ordner sind die Grundlage fast aller Linux-Arbeit. Wer im Terminal sicher sein will, muss zuerst verstehen, wo er sich befindet und wie Pfade gelesen werden.</p>
+  <ul>
+    <li>Du unterscheidest Datei, Ordner und Pfad.</li>
+    <li>Du verstehst die drei Einstiegsbefehle <code>pwd</code>, <code>ls</code> und <code>cd</code>.</li>
+    <li>Du lernst eine sichere Arbeitsreihenfolge für das Terminal kennen.</li>
+  </ul>
+</div>
 
-Dateien und Ordner sind in Linux keine Nebensache, sondern die Grundlage für fast jede Arbeit im System. Wer im Terminal sicher arbeiten will, muss zuerst verstehen, **wo** er sich befindet, **was** dort liegt und **wie** diese Struktur gelesen wird.
+## Grundidee
 
-## Überblick
+Linux organisiert Inhalte in einer Baumstruktur. Ganz oben steht das Wurzelverzeichnis `/`. Darunter liegen weitere Ordner, Unterordner und Dateien.
 
-Linux organisiert Informationen in einer Baumstruktur. Ganz oben steht das Wurzelverzeichnis `/`. Darunter liegen weitere Ordner, die wiederum Dateien und Unterordner enthalten.
+Das ist wichtig, weil Terminalbefehle fast nie „im Leeren“ arbeiten. Sie beziehen sich immer auf einen Ort im Dateisystem.
 
-Wichtig ist dabei:
+## Datei, Ordner und Pfad
 
-- Dateien speichern Inhalte.
-- Ordner strukturieren Inhalte.
-- Pfade beschreiben, wo etwas liegt.
-- Befehle im Terminal arbeiten fast immer mit dieser Struktur.
+### Datei
 
-## Was ist eine Datei?
+Eine Datei enthält Inhalt. Das kann Text, Quellcode, ein Bild oder ein Konfigurationswert sein.
 
-Eine Datei ist eine gespeicherte Einheit von Inhalt. Das kann zum Beispiel sein:
+### Ordner
 
-- Text
-- Quellcode
-- eine Konfigurationsdatei
-- ein Bild
-- ein ausführbares Programm
+Ein Ordner strukturiert Inhalte. Er kann Dateien und weitere Ordner enthalten.
 
-Eine Datei hat in Linux einen Namen und liegt an einem bestimmten Ort im Dateisystem.
+### Pfad
 
-## Was ist ein Ordner?
+Ein Pfad beschreibt den Ort einer Datei oder eines Ordners.
 
-Ein Ordner, in Linux oft auch Verzeichnis genannt, fasst Dateien und andere Ordner zusammen. Er sorgt dafür, dass Inhalte nicht ungeordnet nebeneinander liegen.
+<div class="example-card">
+  <p class="card-kicker">Leitbeispiel</p>
+  <h3>Einen Ort eindeutig benennen</h3>
+  <p>Wenn eine Datei <code>notizen.txt</code> im Ordner <code>dokumente</code> liegt, dann ist nicht nur der Dateiname wichtig, sondern auch ihr Ort.</p>
+  <p>Im Terminal muss oft genau dieser Ort bekannt sein, damit Befehle auf die richtige Datei zugreifen.</p>
+</div>
 
-Ein Ordner kann also:
+## Die drei wichtigsten Einstiegsbefehle
 
-- Dateien enthalten,
-- Unterordner enthalten,
-- und selbst Teil eines größeren Pfades sein.
-
-## Warum ist die Struktur so wichtig?
-
-Im Terminal arbeitet man nicht mit bunten Fenstern, sondern mit Befehlen. Diese Befehle müssen wissen, auf **welche Datei** oder **welchen Ordner** sie sich beziehen.
-
-Darum solltest du immer beantworten können:
-
-- In welchem Ordner bin ich gerade?
-- Welche Dateien oder Unterordner liegen hier?
-- Wie komme ich zu einem anderen Ort im Dateisystem?
-
-## Typische Grundbefehle
-
-Für den Einstieg sind drei Befehle besonders wichtig:
-
-- `pwd` zeigt das aktuelle Verzeichnis
-- `ls` zeigt den Inhalt eines Verzeichnisses
-- `cd` wechselt in ein anderes Verzeichnis
-
-### Beispiel
+<div class="wide-example">
 
 ```bash
 pwd
@@ -69,65 +85,85 @@ ls
 cd dokumente
 ```
 
-Die Denklogik dahinter ist wichtiger als das bloße Merken der Namen:
+</div>
 
-1. Ort feststellen
+- `pwd` zeigt den aktuellen Ort.
+- `ls` zeigt den Inhalt des aktuellen Ortes.
+- `cd` wechselt in einen anderen Ordner.
+
+Wichtiger als das reine Merken ist die Denklogik dahinter:
+
+1. Ort prüfen
 2. Inhalt prüfen
-3. gezielt bewegen
-
-## Dateien und Ordner unterscheiden
-
-Am Anfang ist wichtig, dass du nicht alles als „irgendein Ding im System“ wahrnimmst. Eine Datei und ein Ordner haben unterschiedliche Aufgaben.
-
-Ein typisches Missverständnis ist:
-Man sieht einen Namen und denkt nicht darüber nach, ob er für einen Inhalt oder für eine Struktur steht.
-
-Für die Praxis gilt:
-
-- Dateien werden geöffnet, gelesen, kopiert oder bearbeitet.
-- Ordner werden betreten, aufgelistet, erstellt oder gelöscht.
+3. dann bewegen
 
 ## Das Homeverzeichnis
 
-Jeder Benutzer hat typischerweise ein eigenes Homeverzeichnis. Dort liegen persönliche Dateien, Einstellungen und Arbeitsbereiche.
+Viele Terminal-Sitzungen starten im Homeverzeichnis des Benutzers. Dort liegen persönliche Dateien, Einstellungen und Arbeitsbereiche.
 
-Das Homeverzeichnis ist oft der Ausgangspunkt im Terminal. Wer Linux lernt, arbeitet am Anfang meist genau dort.
+Gerade am Anfang ist das hilfreich, weil dieser Bereich überschaubarer ist als das gesamte Linux-Dateisystem.
 
-## Ordnung statt Zufall
+<div class="practice-card">
+  <p class="card-kicker">Zum Ausprobieren</p>
+  <h3>Was du in der späteren Übungsshell testen sollst</h3>
+  <p>Diese Seite eignet sich perfekt für die universelle Linux-Lernshell. Dort solltest du direkt ausprobieren:</p>
+  <ul>
+    <li><code>pwd</code> um deinen aktuellen Ort zu sehen</li>
+    <li><code>ls</code> um Inhalte zu prüfen</li>
+    <li><code>cd</code> um in einen anderen Ordner zu wechseln</li>
+    <li>anschließend wieder <code>pwd</code>, um die Veränderung bewusst zu kontrollieren</li>
+  </ul>
+  <p>Wichtig ist nicht Geschwindigkeit, sondern Orientierung.</p>
+</div>
 
-Eine gute Ordnerstruktur hilft dabei,
+## Gute Arbeitsweise im Terminal
 
-- Dateien schneller zu finden,
-- Fehler zu vermeiden,
-- Projekte sauber zu organisieren,
-- und Befehle sicherer auszuführen.
+Eine ruhige Arbeitsweise verhindert viele Fehler:
 
-Chaotische Strukturen führen im Terminal schnell zu Unsicherheit, weil Pfade verwechselt oder falsche Dateien bearbeitet werden.
+1. Erst den aktuellen Ort klären.
+2. Dann den Inhalt ansehen.
+3. Erst danach Befehle auf Dateien oder Ordner anwenden.
 
-## Typische Anfängerfehler
+Wer direkt „auf Verdacht“ tippt, verwechselt schnell Pfade oder bearbeitet falsche Orte.
 
-Gerade am Anfang passieren oft diese Fehler:
+## Typische Fehler
 
-- Man weiß nicht, in welchem Ordner man gerade ist.
-- Man verwechselt Datei und Ordner.
-- Man nutzt `cd`, ohne den Zielpfad wirklich zu verstehen.
-- Man interpretiert die Ausgabe von `ls` zu ungenau.
-- Man arbeitet „auf Verdacht“ statt zuerst den aktuellen Ort zu prüfen.
+<div class="mistake-card">
+  <p class="card-kicker">Typische Fehler</p>
+  <h3>Darauf solltest du achten</h3>
+  <ul>
+    <li>Du weißt nicht, in welchem Ordner du gerade bist.</li>
+    <li>Du verwechselst Datei und Ordner.</li>
+    <li>Du benutzt <code>cd</code>, ohne das Ziel wirklich zu verstehen.</li>
+    <li>Du liest die Ausgabe von <code>ls</code> zu oberflächlich.</li>
+    <li>Du arbeitest im Terminal schneller, als du die Struktur wirklich erfasst.</li>
+  </ul>
+</div>
 
-## Gute Arbeitsweise
+<div class="summary-card">
+  <p class="card-kicker">Merksätze</p>
+  <h3>Das solltest du mitnehmen</h3>
+  <ul>
+    <li>Dateien enthalten Inhalte, Ordner strukturieren Inhalte.</li>
+    <li>Pfade beschreiben Orte im Dateisystem.</li>
+    <li><code>pwd</code>, <code>ls</code> und <code>cd</code> sind zentrale Einstiegsbefehle.</li>
+    <li>Gute Terminalarbeit beginnt mit Orientierung.</li>
+    <li>Wer seinen Ort kennt, arbeitet deutlich sicherer.</li>
+  </ul>
+</div>
 
-Im Terminal ist eine ruhige Reihenfolge fast immer sinnvoll:
 
-1. Aktuellen Ort prüfen
-2. Inhalt ansehen
-3. Erst dann den nächsten Befehl ausführen
+## Woran du das Thema erkennst
 
-Diese kleine Routine verhindert viele Fehler.
+Du merkst, dass dieses Thema gefragt ist, wenn du in Aufgaben oder Erklärungen auf typische Signale wie diese stößt:
 
-## Merksätze
+- Es geht ausdrücklich um **Dateien und Ordner – Grundlagen** oder um eng verwandte Begriffe aus **shell**.
+- Du sollst nicht nur etwas benennen, sondern den Ablauf, die Regel oder den Zusammenhang **sauber erklären**.
+- In Beispielen musst du Werte, Strukturen, Schritte oder Reaktionen **geordnet lesen und deuten**.
 
-- Dateien enthalten Inhalte, Ordner strukturieren Inhalte.
-- Linux organisiert alles in einer Baumstruktur.
-- Wer den aktuellen Ort nicht kennt, arbeitet unsicher.
-- `pwd`, `ls` und `cd` gehören zu den wichtigsten Einstiegsbefehlen.
-- Gute Orientierung im Dateisystem ist die Basis für fast alle weiteren Shell-Themen.
+
+## Mini-Check für dich
+
+- Kannst du in eigenen Worten erklären, wie du du unterscheidest sicher zwischen Datei, Ordner und Pfad.?
+- Kannst du in eigenen Worten erklären, wie du du verstehst die Rolle von pwd, ls und cd.?
+- Kannst du in eigenen Worten erklären, wie du du arbeitest im Terminal ruhiger und sicherer, weil du deine Position im Dateisystem bewusst prüfst.?

@@ -122,7 +122,7 @@ export const subjectLanding = {
     mascot: "/assets/mascots/electro.png",
     icon: "/assets/icons/elektrotechnik.png",
     accent: "ee",
-    intro: "Auch Elektrotechnik ist jetzt in große Kategorien gegliedert. Von dort führen die Pfade weiter zu echten Fachinfos und passenden Aufgaben.",
+    intro: "Auch Elektrotechnik bleibt in große Kategorien gegliedert, damit später Unterthemen sauber ergänzt werden können.",
     categories: [
       {
         title: "Elektronik",
@@ -132,13 +132,13 @@ export const subjectLanding = {
       },
       {
         title: "Daten & Signale",
-        text: "Übertragung, Signalformen und technische Logik.",
+        text: "Übertragung, Signalformen und Netze.",
         href: "/fachbereiche/elektrotechnik/daten-und-signale",
         tone: "ee-b",
       },
       {
         title: "Praxis",
-        text: "Messen, Anwenden und technische Zusammenhänge aufbauen.",
+        text: "Anwendung, Verständnis und Aufbau.",
         href: "/fachbereiche/elektrotechnik/praxis",
         tone: "ee-c",
       },
