@@ -1,34 +1,17 @@
 ---
-title: "Strom, Spannung und Widerstand"
-description: "Verstehe die drei Grundgrößen der Elektrotechnik und wie sie zusammenhängen."
+title: Strom, Spannung und Widerstand
+description: Verstehe die drei Grundgrößen der Elektrotechnik und wie sie zusammenhängen.
 subject: elektrotechnik
-section: "Grundlagen"
+section: Grundlagen
 topicPath:
-  - "elektronik"
-  - "strom-spannung-widerstand"
+  - elektronik
+  - strom-spannung-widerstand
 learningGoals:
-  - "Du unterscheidest Strom, Spannung und Widerstand."
-  - "Du verknüpfst die drei Größen über das Ohmsche Gesetz."
-  - "Du deutest einfache Beispiele nicht nur rechnerisch, sondern auch fachlich."
-practiceIdeas:
-  - "Ordne Alltagssituationen den Größen Strom, Spannung oder Widerstand zu."
-  - "Erkläre das Ohmsche Gesetz in Worten und als Formel."
-  - "Verändere in einem Beispiel einen Wert und beobachte die Folgen."
-commonMistakes:
-  - "Strom und Spannung gleichzusetzen."
-  - "Widerstand nur als Hindernis statt als Zusammenhangsgröße zu sehen."
-  - "Formeln anzuwenden, ohne die Größen vorher zu verstehen."
-keyTakeaways:
-  - "Strom, Spannung und Widerstand beschreiben verschiedene Aspekte des Stromkreises."
-  - "Das Ohmsche Gesetz verknüpft die drei Größen."
-  - "Saubere Begriffsarbeit verhindert viele Rechenfehler."
-tags:
-  - "strom"
-  - "spannung"
-  - "widerstand"
-  - "grundlagen"
-  - "elektrotechnik"
+  - Du unterscheidest Strom, Spannung und Widerstand sauber.
+  - Du verstehst ihre Rollen in elektrischen Grundschaltungen.
+  - Du kannst die Größen mit Alltagssprache und Fachsprache erklären.
 level: einfach
+tags: [strom, spannung, widerstand, grundlagen, elektrotechnik]
 draft: false
 ---
 
@@ -127,16 +110,3 @@ Wichtig ist deshalb nicht nur, dass du dir Strom, Spannung und Widerstand vorste
     <li>Saubere Begriffe sind die Grundlage für fast alle späteren Rechenwege.</li>
   </ul>
 </div>
-
-
-## Woran du das Thema erkennst
-
-Du erkennst dieses Thema meist daran, dass du nicht nur einen einzelnen Fachbegriff brauchst, sondern die zugrunde liegende Struktur, Anordnung oder Denkweise sauber unterscheiden musst. Genau dort entscheidet sich oft, ob ein Beispiel wirklich verstanden wurde oder nur oberflächlich bekannt wirkt.
-
-## Mini-Check für dich
-
-Prüfe am Ende kurz selbst:
-
-- Kann ich das Thema in eigenen Worten erklären?
-- Kann ich ein Beispiel richtig einordnen?
-- Kann ich eine typische Verwechslung benennen?

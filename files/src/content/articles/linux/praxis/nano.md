@@ -1,37 +1,20 @@
 ---
 title: nano – Grundlagen
-description: Lerne, wie du mit nano einfache Textdateien öffnest, bearbeitest, speicherst
-  und wieder verlässt.
+description: Lerne, wie du mit nano einfache Textdateien öffnest, bearbeitest, speicherst und wieder verlässt.
 subject: linux
 section: praxis
 topicPath:
-- praxis
-- nano
+  - praxis
+  - nano
 learningGoals:
-- Du verstehst nano als einfachen Terminal-Editor.
-- Du kennst die Grundschritte Lesen, Ändern, Speichern und Beenden.
-- Du ordnest nano als praktisches Einstiegswerkzeug ein.
-practiceIdeas:
-- Öffne eine Beispieldatei mit nano und beschreibe die Arbeitsschritte.
-- Nenne die Grundaktionen beim Bearbeiten kleiner Dateien.
-- Vergleiche nano mit cat oder echo bei kleinen Änderungen.
-commonMistakes:
-- Hinweise im Editor nicht zu beachten.
-- Speichern und Beenden als denselben Schritt zu behandeln.
-- Ohne kurzen Blick auf den Inhalt direkt loszuschreiben.
-keyTakeaways:
-- nano ist ein einfacher Einstiegseditor.
-- Lesen, ändern, speichern und beenden sind getrennte Schritte.
-- Für kleine Änderungen ist nano oft schnell und übersichtlich.
-tags:
-- linux
-- nano
-- editor
-- terminal
-- textdateien
+  - Du verstehst die Grundidee von nano als einfachen Terminal-Editor.
+  - Du unterscheidest öffnen, ändern, speichern und beenden sauber.
+  - Du arbeitest bei kleinen Änderungen bewusster und ruhiger.
 level: einfach
+tags: [linux, nano, editor, terminal, textdateien]
 draft: false
 ---
+
 <div class="learning-card">
   <p class="card-kicker">Einstieg</p>
   <h3>Was du hier lernst</h3>
@@ -130,19 +113,3 @@ Bei <code>nano</code> sind Speichern und Beenden eigenständige Schritte. Genau 
     <li>Für kleine Änderungen ist <code>nano</code> oft völlig ausreichend.</li>
   </ul>
 </div>
-
-
-## Woran du das Thema erkennst
-
-Du merkst, dass dieses Thema gefragt ist, wenn du in Aufgaben oder Erklärungen auf typische Signale wie diese stößt:
-
-- Es geht ausdrücklich um **nano – Grundlagen** oder um eng verwandte Begriffe aus **praxis**.
-- Du sollst nicht nur etwas benennen, sondern den Ablauf, die Regel oder den Zusammenhang **sauber erklären**.
-- In Beispielen musst du Werte, Strukturen, Schritte oder Reaktionen **geordnet lesen und deuten**.
-
-
-## Mini-Check für dich
-
-- Kannst du in eigenen Worten erklären, wie du du verstehst nano als einfachen Terminal-Editor.?
-- Kannst du in eigenen Worten erklären, wie du du kennst die Grundschritte Lesen, Ändern, Speichern und Beenden.?
-- Kannst du in eigenen Worten erklären, wie du du ordnest nano als praktisches Einstiegswerkzeug ein.?

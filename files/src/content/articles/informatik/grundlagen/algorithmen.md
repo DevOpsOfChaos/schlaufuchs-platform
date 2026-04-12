@@ -1,38 +1,25 @@
 ---
 title: Algorithmen
-description: Algorithmen beschreiben eindeutige und endliche Handlungsvorschriften
-  und bilden eine Grundlage für strukturiertes Problemlösen in der Informatik.
+description: Algorithmen beschreiben eindeutige und endliche Handlungsvorschriften und bilden eine Grundlage für strukturiertes Problemlösen in der Informatik.
 subject: informatik
 section: Grundlagen
 topicPath:
-- grundlagen
-- algorithmen
+  - grundlagen
+  - algorithmen
 learningGoals:
-- Du erklärst, was einen Algorithmus ausmacht.
-- Du erkennst Eingabe, Verarbeitung und Ausgabe in einfachen Abläufen.
-- Du formulierst selbst kleine Algorithmen in klaren Schritten.
+  - Du erklärst, was einen Algorithmus ausmacht.
+  - Du erkennst Eingabe, Verarbeitung und Ausgabe in einfachen Abläufen.
+  - Du formulierst selbst kleine Algorithmen in klaren Schritten.
 level: einfach
 tags:
-- Algorithmen
-- Informatik
-- Ablauf
-- Problemlösen
-- Pseudocode
+  - Algorithmen
+  - Informatik
+  - Ablauf
+  - Problemlösen
+  - Pseudocode
 draft: false
-practiceIdeas:
-- Formuliere einen Alltagsablauf so, dass eine andere Person ihn Schritt für Schritt
-  exakt ausführen könnte.
-- Vergleiche eine gute und eine schlechte Anleitung und markiere unklare Stellen.
-- Baue aus einem einfachen Problem eine Folge aus Start, Einzelschritten und Ende.
-commonMistakes:
-- Einen Algorithmus mit einer Programmiersprache gleichsetzen.
-- Schritte zu grob formulieren, sodass verschiedene Deutungen möglich bleiben.
-- Wichtige Bedingungen oder Abbruchpunkte nicht ausdrücklich nennen.
-keyTakeaways:
-- Ein Algorithmus ist eine eindeutige endliche Handlungsvorschrift.
-- Gute Algorithmen sind klar, vollständig und wiederholbar.
-- Erst die Logik, dann die konkrete Programmiersprache.
 ---
+
 <div class="learning-card">
   <p class="card-kicker">Einstieg</p>
   <h3>Was du hier lernst</h3>
@@ -174,19 +161,3 @@ Manche Abläufe wiederholen sich. Das führt später zu Schleifen.
     <li>Gute Algorithmen sind klar, eindeutig und nachvollziehbar.</li>
   </ul>
 </div>
-
-
-## Woran du das Thema erkennst
-
-Du merkst, dass dieses Thema gefragt ist, wenn du in Aufgaben oder Erklärungen auf typische Signale wie diese stößt:
-
-- Es geht ausdrücklich um **Algorithmen** oder um eng verwandte Begriffe aus **Grundlagen**.
-- Du sollst nicht nur etwas benennen, sondern den Ablauf, die Regel oder den Zusammenhang **sauber erklären**.
-- In Beispielen musst du Werte, Strukturen, Schritte oder Reaktionen **geordnet lesen und deuten**.
-
-
-## Mini-Check für dich
-
-- Kannst du in eigenen Worten erklären, wie du du erklärst, was einen Algorithmus ausmacht.?
-- Kannst du in eigenen Worten erklären, wie du du erkennst Eingabe, Verarbeitung und Ausgabe in einfachen Abläufen.?
-- Kannst du in eigenen Worten erklären, wie du du formulierst selbst kleine Algorithmen in klaren Schritten.?

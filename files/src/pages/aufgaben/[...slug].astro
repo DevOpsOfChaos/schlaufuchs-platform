@@ -9,7 +9,6 @@ import PageTrail from "../../components/content/PageTrail.astro";
 import OverviewPanel from "../../components/content/OverviewPanel.astro";
 import SectionHeading from "../../components/content/SectionHeading.astro";
 import ResourceCard from "../../components/content/ResourceCard.astro";
-import SupportChecklist from "../../components/content/SupportChecklist.astro";
 
 export async function getStaticPaths() {
   const exercises = await getVisibleExercises();
@@ -28,8 +27,6 @@ const topicTail = getTopicTail(entry);
 const topicBranch = topicTail.slice(0, -1);
 const topicPathHref = topicBranch.length > 0 ? withBase(`fachbereiche/${subjectSlug}/${topicBranch.join("/")}`) : withBase(`fachbereiche/${subjectSlug}`);
 const printHref = withBase(`druck/aufgaben/${entry.id}`);
-const hintPoints = Array.isArray(entry.data.hintPoints) ? entry.data.hintPoints.filter(Boolean) : [];
-const selfCheckPoints = Array.isArray(entry.data.selfCheckPoints) ? entry.data.selfCheckPoints.filter(Boolean) : [];
 
 const [allArticles, allExercises] = await Promise.all([getVisibleArticles(), getVisibleExercises()]);
 
@@ -107,7 +104,7 @@ const overviewPoints = [
       actionLabel="Zum Themenpfad →"
     />
 
-    <section class="action-row-shell">
+    <section class="print-row">
       <a class="print-link" href={printHref}>Druckansicht öffnen →</a>
     </section>
 
@@ -116,13 +113,6 @@ const overviewPoints = [
         <Content />
       </article>
     </section>
-
-    {(hintPoints.length > 0 || selfCheckPoints.length > 0) && (
-      <section class="exercise-support wide-bleed">
-        <SupportChecklist title="Worauf du achten kannst" kicker="Hinweise" items={hintPoints} />
-        <SupportChecklist title="Das solltest du am Ende prüfen" kicker="Selbstkontrolle" items={selfCheckPoints} />
-      </section>
-    )}
 
     {relatedArticles.length > 0 && (
       <section class="related-section">
@@ -215,7 +205,7 @@ const overviewPoints = [
     max-width: 58rem;
   }
 
-  .action-row-shell {
+  .print-row {
     display: flex;
     justify-content: flex-start;
   }
@@ -240,32 +230,17 @@ const overviewPoints = [
   }
 
   .exercise-content {
-    padding: clamp(1.3rem, 2vw, 2rem);
+    padding: 1.6rem;
     border: 1px solid var(--border);
-    border-radius: 30px;
+    border-radius: 28px;
     background: var(--card-bg);
     box-shadow: var(--shadow-card);
-    overflow: hidden;
-  }
-
-  .exercise-support,
-  .related-grid {
-    display: grid;
-    gap: 1rem;
-  }
-
-  .exercise-support {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .related-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .exercise-content :global(h2) {
-    margin-top: 1.8rem;
+    margin-top: 1.9rem;
     color: var(--text-strong);
-    font-size: clamp(1.45rem, 2.4vw, 1.85rem);
+    font-size: 1.56rem;
     line-height: 1.15;
   }
 
@@ -274,32 +249,45 @@ const overviewPoints = [
   }
 
   .exercise-content :global(h3) {
-    margin-top: 1.2rem;
+    margin-top: 1.35rem;
     color: var(--text-strong);
-    font-size: 1.12rem;
-    line-height: 1.2;
+    font-size: 1.18rem;
+    line-height: 1.22;
   }
 
   .exercise-content :global(p),
   .exercise-content :global(li) {
     color: var(--text);
     line-height: 1.82;
-    font-size: 1rem;
+    font-size: 1.02rem;
   }
 
   .exercise-content :global(ul),
   .exercise-content :global(ol) {
-    padding-left: 1.2rem;
+    padding-left: 1.25rem;
   }
 
-  .exercise-content :global(pre) {
-    overflow-x: auto;
+  .exercise-content :global(img),
+  .exercise-content :global(table),
+  .exercise-content :global(pre),
+  .exercise-content :global(.full-width-block) {
+    width: min(100%, 1000px);
+    margin-inline: auto;
+  }
+
+  .related-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
   }
 
   @media (max-width: 980px) {
-    .exercise-support,
     .related-grid {
       grid-template-columns: 1fr;
+    }
+
+    .exercise-content {
+      padding: 1.2rem;
     }
   }
 </style>

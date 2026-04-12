@@ -1,101 +1,68 @@
 ---
 title: Flexbox-Grundlagen anwenden
-description: Übe, wie Flexbox Elemente ausrichtet, verteilt und auf eine Zeile oder
-  mehrere Zeilen organisiert.
+description: Diese Aufgabe trainiert die grundlegende Einordnung von Container, Items und wichtigen Flexbox-Eigenschaften.
 subject: web-development
-section: CSS
+section: css
 topicPath:
-- css
-- flexbox
-- flexbox-grundlagen-anwenden
+  - css
+  - flexbox
+  - flexbox-grundlagen-anwenden
 tags:
-- css
-- flexbox
-- layout
-- ausrichtung
-hintPoints:
-- Denke zuerst an Container und Kind-Elemente.
-- Unterscheide Hauptachse und Querachse bewusst.
-- Beschreibe immer auch, wie sich ein Wert sichtbar im Layout auswirkt.
-selfCheckPoints:
-- Ich weiß, dass Flexbox über den Container wirkt.
-- Ich kann Richtung, Verteilung und Ausrichtung unterscheiden.
-- Ich beschreibe Flexbox nicht nur als Code, sondern auch als Layoutidee.
+  - CSS
+  - Flexbox
+  - Layout
 level: einfach
 draft: false
 ---
+
 ## Arbeitsauftrag
 
-Arbeite so, dass sichtbar wird, wie Flexbox als Layoutwerkzeug funktioniert und nicht nur auswendig gelernt wird.
+Achte bei jeder Aufgabe darauf, ob eine Eigenschaft zum Container oder zu den Kind-Elementen gehört.
 
-## Aufgabe 1 – Container und Kinder unterscheiden
+## Aufgabe 1 – Container erkennen
 
-Erkläre in eigenen Worten,
+Welche Zeile macht ein Element zum Flex-Container?
 
-1. worauf `display: flex` wirkt,
-2. welche Rolle der Container hat,
-3. und warum die enthaltenen Elemente danach anders angeordnet werden.
+```css
+.wrapper {
+  display: flex;
+}
+```
 
-## Aufgabe 2 – Hauptachse und Querachse
+Erkläre kurz die Wirkung.
 
-Beschreibe den Unterschied zwischen:
+## Aufgabe 2 – Eigenschaften einordnen
 
-- Hauptachse
-- Querachse
+Beschreibe in einfachen Worten die Wirkung von:
 
-Ergänze, warum diese Unterscheidung für `justify-content` und `align-items` wichtig ist.
+- `justify-content`
+- `align-items`
+- `gap`
 
-## Aufgabe 3 – Werte fachlich lesen
+## Aufgabe 3 – Layout deuten
 
-Erkläre jeweils, was sich im Layout verändert, wenn du diese Angaben setzt:
+Warum ist Flexbox oft hilfreich für:
 
-- `justify-content: center`
-- `justify-content: space-between`
-- `align-items: center`
-- `flex-direction: column`
+- Navigationsleisten
+- Kartenreihen
+- Button-Gruppen
 
-## Aufgabe 4 – Kleines Layout beschreiben
+## Aufgabe 4 – Fehler erkennen
 
-Stell dir einen Container mit drei Karten vor.
+Ein Schüler schreibt `justify-content` in eine einzelne Karte statt in den Container.
 
-Beschreibe, wie die Karten angeordnet werden, wenn
+Erkläre, warum das problematisch ist.
 
-- der Container `display: flex` nutzt,
-- die Richtung auf Zeile steht,
-- die Elemente gleichmäßig verteilt werden,
-- und die Karten vertikal mittig ausgerichtet sind.
+<div class="hint-card">
+  <p class="task-kicker">Hinweis</p>
+  <p>Flexbox-Fragen werden viel klarer, wenn du immer zuerst den Container und erst danach die Kinder betrachtest.</p>
+</div>
 
-## Aufgabe 5 – Typische Fehler
-
-Nenne drei typische Anfängerfehler bei Flexbox und erkläre jeweils,
-
-- worin der Denkfehler liegt,
-- und wie du ihn fachlich sauberer beschreiben würdest.
-
-## Aufgabe 6 – Transfer
-
-Formuliere ein kurzes eigenes Beispiel oder eine kurze Anwendungssituation zu diesem Thema. Erkläre dabei in 2 bis 4 Sätzen, woran man den Fachbegriff oder die Regel erkennt.
-
-## Aufgabe 7 – Kurz begründen
-
-Beschreibe, welche typische Verwechslung bei diesem Thema leicht passiert und wie du sie vermeiden würdest.
-
-## Aufgabe 8 – Fachsprache anwenden
-
-Erkläre das Thema noch einmal so, als würdest du es einer anderen lernenden Person ruhig und fachlich korrekt erklären. Nutze dabei die wichtigsten Begriffe bewusst.
-
-
-## Transfer und Einordnung
-
-Bearbeite zum Schluss noch diese kurzen Zusatzfragen, damit du die Aufgabe nicht nur mechanisch rechnest oder ausfüllst:
-
-1. Wo taucht die Grundidee aus **Flexbox-Grundlagen anwenden** in einem ähnlichen Kontext aus **CSS** wieder auf?
-2. Woran würdest du erkennen, dass du denselben Gedanken auch in einer leicht veränderten Aufgabe anwenden musst?
-3. Welche Angabe oder Formulierung wäre ein typisches Signal dafür, dass genau dieses Wissen gebraucht wird?
-
-
-## Kurzreflexion
-
-- Was war in dieser Aufgabe der fachlich wichtigste Schritt?
-- Wo war die größte Verwechslungsgefahr?
-- Was würdest du vor der nächsten ähnlichen Aufgabe zuerst prüfen?
+<div class="check-card">
+  <p class="task-kicker">Selbstkontrolle</p>
+  <ul>
+    <li>Flexbox beginnt mit <code>display: flex</code>.</li>
+    <li>Der Container steuert das Layout.</li>
+    <li><code>justify-content</code> und <code>align-items</code> lösen unterschiedliche Ausrichtungsfragen.</li>
+  </ul>
+</div>

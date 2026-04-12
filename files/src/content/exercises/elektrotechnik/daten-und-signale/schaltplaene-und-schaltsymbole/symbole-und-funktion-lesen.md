@@ -1,100 +1,62 @@
 ---
 title: Schaltsymbole lesen und Funktionen zuordnen
-description: Übe, Schaltsymbole nicht als Bilder, sondern als technische Rollen in
-  einer Schaltung zu lesen.
+description: Übe, wie typische Schaltsymbole und ihre Funktion in einfachen Plänen zusammengehören.
 subject: elektrotechnik
-section: Daten und Signale
+section: daten-und-signale
 topicPath:
-- daten-und-signale
-- schaltplaene-und-schaltsymbole
-- symbole-und-funktion-lesen
-tags:
-- elektrotechnik
-- schaltplan
-- symbol
-- funktion
-- lesen
-hintPoints:
-- Frage immer zuerst nach der Funktion eines Symbols, nicht nach seinem Aussehen.
-- Lies Schaltpläne von groß nach klein: Quelle, Verbindungen, Verbraucher, Funktionseinheiten.
-- Achte besonders auf Leitungen und Verzweigungen.
-selfCheckPoints:
-- Du kannst erklären, warum Symbole keine realistischen Bilder sein müssen.
-- Du liest Verbindungen bewusster und ruhiger.
-- Du beschreibst Schaltungen stärker als Funktion und weniger als Ansammlung einzelner
-  Zeichen.
+  - daten-und-signale
+  - schaltplaene-und-schaltsymbole
+  - schaltsymbole-lesen-und-funktionen-zuordnen
+tags: [schaltplan, symbol, bauteil, funktion, lesen]
 level: einfach
 draft: false
 ---
+
 ## Arbeitsauftrag
 
-Bearbeite die Aufgaben so, dass deutlich wird, wie du einen Plan strukturierst. Es geht nicht darum, nur einzelne Symbole auswendig zu kennen.
+Bearbeite die Aufgaben so, dass immer klar wird, **welches Symbol wofür steht** und **welche Rolle** es in einer Schaltung übernimmt.
 
-## Aufgabe 1 – Symbol und Funktion unterscheiden
+## Aufgabe 1
 
-Erkläre in eigenen Worten:
+Erkläre in eigenen Worten, warum Elektrotechnik mit Symbolen statt mit realistischen Zeichnungen arbeitet.
 
-1. Warum ein Schaltsymbol nicht wie ein echtes Bauteil aussehen muss.
-2. Warum Schaltpläne gerade durch diese Abstraktion klarer werden.
+## Aufgabe 2
 
-## Aufgabe 2 – Einen Plan von außen nach innen lesen
+Ordne typische Grundbauteile ihrer Funktion zu:
 
-Beschreibe eine sinnvolle Reihenfolge, in der du einen einfachen Schaltplan lesen würdest.
+- Spannungsquelle
+- Widerstand
+- Schalter
+- Lampe oder Verbraucher
+- Leitung
 
-Gehe dabei mindestens auf diese Punkte ein:
+Beschreibe zu jedem Symbol kurz, was es in einer Schaltung bewirkt.
 
-- Quelle
-- Leitungen
-- Verbraucher
-- Schalter oder weitere Funktionsteile
+## Aufgabe 3
 
-## Aufgabe 3 – Technische Sprache anwenden
+Betrachte einen einfachen Plan mit Quelle, Schalter und Lampe und beantworte:
 
-Formuliere die Aussage „Hier geht der Strom zur Lampe und dann wieder zurück“ in etwas saubererer Fachsprache um.
+1. Wo beginnt die Versorgung?
+2. Welche Rolle übernimmt der Schalter?
+3. Woran erkennst du den Verbraucher?
 
-Nutze dabei Begriffe wie:
+## Aufgabe 4
 
-- Verbraucher
-- Verbindung
-- Stromweg
-- Schaltung
+Erkläre den Unterschied zwischen:
 
-## Aufgabe 4 – Typische Fehler erkennen
+- „Ich sehe ein Symbol.“
+- „Ich verstehe die Verbindung und Funktion in der Schaltung.“
 
-Bewerte die Aussagen als sinnvoll oder problematisch:
+## Hinweise
 
-- „Ich muss nur die Symbole kennen, die Leitungen sind nicht so wichtig.“
-- „Ein Schaltplan zeigt die Funktion einer Schaltung kompakter als ein realistisches Bild.“
-- „Wenn ich das reale Bauteil kenne, muss ich das Symbol nicht mehr beachten.“
+- Achte nicht nur auf einzelne Zeichen, sondern auf ihren Zusammenhang.
+- Ein Schaltplan zeigt in erster Linie elektrische Verbindungen.
+- Die reale Form eines Bauteils ist für das Lesen des Plans nicht entscheidend.
 
-## Aufgabe 5 – Eine Mini-Schaltung erklären
+## Selbstkontrolle
 
-Stell dir einen einfachen Plan mit Quelle, Schalter und Lampe vor. Erkläre in drei bis fünf Sätzen, wie du diesen Plan jemandem beschreiben würdest, ohne nur einzelne Zeichen aufzuzählen.
+Du bist auf einem guten Stand, wenn du am Ende sicher sagen kannst,
 
-## Aufgabe 6 – Transfer
-
-Formuliere ein kurzes eigenes Beispiel oder eine kurze Anwendungssituation zu diesem Thema. Erkläre dabei in 2 bis 4 Sätzen, woran man den Fachbegriff oder die Regel erkennt.
-
-## Aufgabe 7 – Kurz begründen
-
-Beschreibe, welche typische Verwechslung bei diesem Thema leicht passiert und wie du sie vermeiden würdest.
-
-## Aufgabe 8 – Fachsprache anwenden
-
-Erkläre das Thema noch einmal so, als würdest du es einer anderen lernenden Person ruhig und fachlich korrekt erklären. Nutze dabei die wichtigsten Begriffe bewusst.
-
-
-## Transfer und Einordnung
-
-Bearbeite zum Schluss noch diese kurzen Zusatzfragen, damit du die Aufgabe nicht nur mechanisch rechnest oder ausfüllst:
-
-1. Wo taucht die Grundidee aus **Schaltsymbole lesen und Funktionen zuordnen** in einem ähnlichen Kontext aus **Daten und Signale** wieder auf?
-2. Woran würdest du erkennen, dass du denselben Gedanken auch in einer leicht veränderten Aufgabe anwenden musst?
-3. Welche Angabe oder Formulierung wäre ein typisches Signal dafür, dass genau dieses Wissen gebraucht wird?
-
-
-## Kurzreflexion
-
-- Was war in dieser Aufgabe der fachlich wichtigste Schritt?
-- Wo war die größte Verwechslungsgefahr?
-- Was würdest du vor der nächsten ähnlichen Aufgabe zuerst prüfen?
+- wofür grundlegende Schaltsymbole stehen,
+- welche Funktion ein Bauteil im Stromkreis hat,
+- und warum die Verbindung zwischen Symbolen wichtiger ist als ihr Aussehen.

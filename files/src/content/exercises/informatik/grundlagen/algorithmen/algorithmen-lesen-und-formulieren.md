@@ -4,23 +4,17 @@ description: Diese Aufgabe trainiert das Lesen, Prüfen und Formulieren einfache
 subject: informatik
 section: Grundlagen
 topicPath:
-- grundlagen
-- algorithmen
-- algorithmen-lesen-und-formulieren
+  - grundlagen
+  - algorithmen
+  - algorithmen-lesen-und-formulieren
 tags:
-- Algorithmen
-- Pseudocode
-- Ablauf
+  - Algorithmen
+  - Pseudocode
+  - Ablauf
 level: einfach
 draft: false
-hintPoints:
-- Achte besonders auf Eindeutigkeit und Reihenfolge.
-- Frage dich bei jedem Schritt, ob eine andere Person ihn ohne Rückfrage ausführen
-  könnte.
-selfCheckPoints:
-- Du unterscheidest Algorithmus und Programmiersprache sauber.
-- Du formulierst Abläufe genauer und weniger mehrdeutig.
 ---
+
 ## Arbeitsauftrag
 
 Lies die Abläufe nicht nur oberflächlich. Entscheidend ist, ob sie klar, eindeutig und endlich sind.
@@ -73,20 +67,6 @@ Erkläre:
   <p>Ein guter Algorithmus ist nicht nur „irgendwie logisch“, sondern in Reihenfolge, Klarheit und Ende sauber formuliert.</p>
 </div>
 
-
-## Aufgabe 6 – Transfer
-
-Formuliere ein kurzes eigenes Beispiel oder eine kurze Anwendungssituation zu diesem Thema. Erkläre dabei in 2 bis 4 Sätzen, woran man den Fachbegriff oder die Regel erkennt.
-
-## Aufgabe 7 – Kurz begründen
-
-Beschreibe, welche typische Verwechslung bei diesem Thema leicht passiert und wie du sie vermeiden würdest.
-
-
-## Aufgabe 8 – Fachsprache anwenden
-
-Erkläre das Thema noch einmal so, als würdest du es einer anderen lernenden Person ruhig und fachlich korrekt erklären. Nutze dabei die wichtigsten Begriffe bewusst.
-
 <div class="check-card">
   <p class="task-kicker">Selbstkontrolle</p>
   <ul>
@@ -95,19 +75,3 @@ Erkläre das Thema noch einmal so, als würdest du es einer anderen lernenden Pe
     <li>Eingabe, Verarbeitung und Ausgabe sind oft eine gute Grundstruktur.</li>
   </ul>
 </div>
-
-
-## Transfer und Einordnung
-
-Bearbeite zum Schluss noch diese kurzen Zusatzfragen, damit du die Aufgabe nicht nur mechanisch rechnest oder ausfüllst:
-
-1. Wo taucht die Grundidee aus **Algorithmen lesen und formulieren** in einem ähnlichen Kontext aus **Grundlagen** wieder auf?
-2. Woran würdest du erkennen, dass du denselben Gedanken auch in einer leicht veränderten Aufgabe anwenden musst?
-3. Welche Angabe oder Formulierung wäre ein typisches Signal dafür, dass genau dieses Wissen gebraucht wird?
-
-
-## Kurzreflexion
-
-- Was war in dieser Aufgabe der fachlich wichtigste Schritt?
-- Wo war die größte Verwechslungsgefahr?
-- Was würdest du vor der nächsten ähnlichen Aufgabe zuerst prüfen?

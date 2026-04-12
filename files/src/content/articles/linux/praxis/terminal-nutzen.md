@@ -1,188 +1,120 @@
 ---
 title: Terminal nutzen – Grundlagen
-description: Verstehe, wie du im Terminal ruhig, kontrolliert und nachvollziehbar
-  arbeitest, statt Befehle nur blind einzugeben.
+description: Verstehe, wie du im Terminal ruhig, kontrolliert und nachvollziehbar arbeitest, statt Befehle nur blind einzugeben.
 subject: linux
 section: praxis
 topicPath:
-- praxis
-- terminal-nutzen
+  - praxis
+  - terminal-nutzen
 learningGoals:
-- Du arbeitest im Terminal in kleineren, kontrollierten Schritten.
-- Du liest Ausgaben und Fehlermeldungen bewusster.
-- Du erkennst den Arbeitskontext als Teil jedes Befehls.
-practiceIdeas:
-- Starte jede kleine Übung zuerst mit pwd und ls, bevor du etwas veränderst.
-- Führe nach mkdir, touch, cp oder mv immer einen Kontrollschritt aus.
-- Lies Fehlermeldungen vollständig und formuliere in eigenen Worten, was sie dir sagen.
-commonMistakes:
-- Zu viele Befehle werden hintereinander ausgeführt, ohne die Ausgabe zu lesen.
-- Man arbeitet im falschen Verzeichnis und merkt es erst sehr spät.
-- Warnungen und Fehlermeldungen werden ignoriert oder als lästig behandelt.
-- Befehle werden kopiert, ohne ihren Kontext wirklich zu verstehen.
-keyTakeaways:
-- Das Terminal belohnt ruhiges und klares Arbeiten.
-- Kleine, kontrollierte Schritte sind besser als hektisches Probieren.
-- Die Rückmeldung des Systems gehört fest zur Arbeit dazu.
-- Jeder Befehl wirkt in einem konkreten Kontext.
+  - Du arbeitest im Terminal in kleineren, kontrollierten Schritten.
+  - Du liest Ausgaben und Fehlermeldungen bewusster.
+  - Du erkennst den Arbeitskontext als Teil jedes Befehls.
 level: einfach
-tags:
-- linux
-- terminal
-- praxis
-- arbeitsweise
+tags: [linux, terminal, praxis, arbeitsweise]
 draft: false
 ---
-## Das Terminal ist kein Schnellfeuerfeld
 
-Viele Schwierigkeiten im Terminal entstehen nicht deshalb, weil Befehle zu kompliziert wären. Oft liegt das Problem in der Arbeitsweise.
+<div class="learning-card">
+  <p class="card-kicker">Einstieg</p>
+  <h3>Was du hier lernst</h3>
+  <p>Das Terminal ist kein Ort für hektisches Raten, sondern für klare und nachvollziehbare Arbeit. Wer ruhig arbeitet, macht weniger Fehler und versteht Systemreaktionen besser.</p>
+  <ul>
+    <li>Du erkennst, warum kleine Schritte sicherer sind.</li>
+    <li>Du liest Ausgaben und Fehlermeldungen bewusster.</li>
+    <li>Du verstehst, dass jeder Befehl in einem konkreten Kontext wirkt.</li>
+  </ul>
+</div>
 
-Wer Befehle nur kopiert, schnell hintereinander eingibt oder Ausgaben kaum liest, verliert leicht den Überblick.
+## Grundidee
+
+Viele Probleme im Terminal entstehen nicht durch fehlende Spezialbefehle, sondern durch eine unsaubere Arbeitsweise.
 
 Darum ist für den Einstieg wichtiger:
 
 - den aktuellen Zustand zu kennen,
-- Ausgaben ernst zu nehmen,
-- und Änderungen immer kontrolliert vorzunehmen.
+- Ausgaben wirklich zu lesen,
+- und Befehle nicht blind zu kopieren.
 
-## Warum das Terminal beim Lernen so stark ist
+## Warum das Terminal so nützlich ist
 
-Im Terminal ist Arbeit oft transparenter als in einer grafischen Oberfläche. Du siehst sehr direkt,
+Im Terminal ist Arbeit oft transparenter als in einer grafischen Oberfläche. Du siehst direkt:
 
 - welcher Befehl ausgeführt wurde,
 - welche Rückmeldung das System gibt,
-- und welche Wirkung ein Schritt hatte.
+- und ob ein Schritt funktioniert hat.
 
-Diese Klarheit ist eine Stärke, aber nur dann, wenn du die Rückmeldung wirklich liest.
+Genau deshalb eignet sich das Terminal gut zum Lernen.
 
-## Eine gute Grundreihenfolge
+## Gute Arbeitsreihenfolge
 
-Für viele Aufgaben ist diese Reihenfolge sinnvoll:
+Eine sinnvolle Reihenfolge ist fast immer:
 
-1. aktuellen Zustand prüfen,
-2. kleinen Befehl ausführen,
-3. Rückmeldung lesen,
-4. Ergebnis kontrollieren,
-5. erst dann weiterarbeiten.
+1. aktuellen Zustand prüfen
+2. kleinen Befehl ausführen
+3. Ausgabe lesen
+4. nächsten Schritt bewusst wählen
 
-Das wirkt am Anfang vielleicht langsam. In Wirklichkeit spart es viele Fehler.
+<div class="example-card">
+  <p class="card-kicker">Leitbeispiel</p>
+  <h3>Nicht alles auf einmal</h3>
+  <p>Wer zuerst <code>pwd</code> und <code>ls</code> nutzt, versteht Ort und Inhalt. Erst danach ist ein Wechsel oder eine Änderung sinnvoll.</p>
+  <p>Diese Reihenfolge ist oft wichtiger als der einzelne Befehl selbst.</p>
+</div>
 
-## Leitbeispiel: erst prüfen, dann ändern
+## Ausgaben ernst nehmen
 
-Wenn du ein Verzeichnis anlegen oder Dateien verschieben willst, ist der sichere Ablauf oft:
+Die Ausgabe ist nicht Nebensache. Sie ist eine direkte Rückmeldung des Systems.
 
-```bash
-pwd
-ls
-mkdir projekt
-ls
-```
-
-Der entscheidende Punkt ist nicht `mkdir` allein, sondern die vollständige Arbeitsweise:
-
-- Wo bin ich?
-- Was ist hier schon vorhanden?
-- Was hat sich nach dem Befehl verändert?
-
-## Ausgaben und Fehlermeldungen gehören zur Arbeit
-
-Viele Anfängerinnen und Anfänger sehen die Ausgabe nur als Nebensache. Genau das ist gefährlich.
-
-Die Ausgabe zeigt dir zum Beispiel:
+Sie zeigt zum Beispiel:
 
 - ob ein Befehl erfolgreich war,
-- ob ein Pfad nicht existiert,
+- ob ein Pfad nicht gefunden wurde,
 - ob Rechte fehlen,
 - oder ob die Syntax nicht passt.
 
-Wer diese Hinweise ignoriert, arbeitet nicht schneller, sondern unsicherer.
+<div class="practice-card">
+  <p class="card-kicker">Zum Ausprobieren</p>
+  <h3>Was du in der Linux-Lernshell testen solltest</h3>
+  <ul>
+    <li><code>pwd</code> und <code>ls</code> nacheinander ausführen</li>
+    <li><code>mkdir test</code> und danach wieder <code>ls</code></li>
+    <li><code>touch test/notiz.txt</code> und dann mit <code>tree</code> prüfen, was sich verändert hat</li>
+    <li>Fehler bewusst lesen, statt sie nur zu ignorieren</li>
+  </ul>
+</div>
 
 ## Kontext mitdenken
 
-Ein Befehl ist nie völlig losgelöst vom Umfeld. Wichtige Fragen sind immer:
+Ein Befehl wirkt nie völlig losgelöst. Wichtige Fragen sind:
 
 - In welchem Verzeichnis bin ich?
 - Arbeite ich an der richtigen Datei?
-- Verändert der Befehl etwas dauerhaft?
-- Habe ich wirklich verstanden, was passieren soll?
+- Verändert der Befehl etwas?
+- Habe ich die nötigen Rechte?
 
-Gerade im Terminal ist Kontext kein Nebenthema, sondern ein Teil jedes Befehls.
+## Typische Fehler
 
-## Warum kleine Schritte oft besser sind
+<div class="mistake-card">
+  <p class="card-kicker">Typische Fehler</p>
+  <h3>Darauf solltest du achten</h3>
+  <ul>
+    <li>Zu schnell viele Befehle hintereinander eingeben.</li>
+    <li>Die Ausgabe nur überfliegen.</li>
+    <li>Im falschen Verzeichnis arbeiten.</li>
+    <li>Befehle blind übernehmen.</li>
+    <li>Warnhinweise oder Fehlermeldungen ignorieren.</li>
+  </ul>
+</div>
 
-Sichere Terminal-Arbeit ist meist nicht spektakulär. Sie ist:
-
-- langsam genug zum Verstehen,
-- klar genug zum Prüfen,
-- und kontrolliert genug, um Fehler schnell zu erkennen.
-
-Für Lernende ist das viel wertvoller als möglichst viele Befehle auswendig zu kennen.
-
-## Woran man gute Terminal-Arbeit erkennt
-
-Du arbeitest gut im Terminal, wenn du:
-
-- vor Änderungen erst prüfst,
-- nach Änderungen noch einmal kontrollierst,
-- und Fehlermeldungen nicht wegklickst, sondern als Information nutzt.
-
-Genau diese Haltung macht das Terminal zu einem verlässlichen Werkzeug.
-
-## Mini-Beispiel: ein sicherer Arbeitsablauf
-
-Angenommen, du sollst eine kleine Datei anlegen und danach prüfen, ob sie wirklich existiert. Ein ruhiger Ablauf wäre:
-
-```bash
-pwd
-ls
-touch notiz.txt
-ls
-cat notiz.txt
-```
-
-Hier zeigt jeder Schritt etwas anderes:
-
-- `pwd` klärt deinen Arbeitsort,
-- `ls` zeigt den Ausgangszustand,
-- `touch` führt die Änderung aus,
-- `ls` kontrolliert das Ergebnis,
-- `cat` prüft den Inhalt.
-
-Gerade diese Reihenfolge ist wichtiger als spektakuläre Befehle. Sie macht Arbeit nachvollziehbar.
-
-## Ein kleines Prüfschema für jede Terminal-Aufgabe
-
-Vor fast jedem Befehl kannst du dir vier kurze Fragen stellen:
-
-1. Wo bin ich gerade?
-2. Was ist dort schon vorhanden?
-3. Was wird dieser Befehl verändern?
-4. Woran erkenne ich direkt danach, ob alles geklappt hat?
-
-Dieses Prüfschema hilft besonders am Anfang, weil es Tempo aus der Situation nimmt und Verständnis stärkt.
-
-## Woran du sichere Terminal-Arbeit erkennst
-
-Sicher arbeitest du dann, wenn du nicht nur Befehle kennst, sondern Entscheidungen begründen kannst. Gute Terminal-Arbeit ist erkennbar daran, dass du
-
-- vor Änderungen kurz prüfst,
-- nach Änderungen bewusst kontrollierst,
-- Fehlermeldungen liest statt zu übergehen,
-- und immer nachvollziehen kannst, warum der nächste Schritt sinnvoll ist.
-
-
-
-## Woran du das Thema erkennst
-
-Du merkst, dass dieses Thema gefragt ist, wenn du in Aufgaben oder Erklärungen auf typische Signale wie diese stößt:
-
-- Es geht ausdrücklich um **Terminal nutzen – Grundlagen** oder um eng verwandte Begriffe aus **praxis**.
-- Du sollst nicht nur etwas benennen, sondern den Ablauf, die Regel oder den Zusammenhang **sauber erklären**.
-- In Beispielen musst du Werte, Strukturen, Schritte oder Reaktionen **geordnet lesen und deuten**.
-
-
-## Mini-Check für dich
-
-- Kannst du in eigenen Worten erklären, wie du du arbeitest im Terminal in kleineren, kontrollierten Schritten.?
-- Kannst du in eigenen Worten erklären, wie du du liest Ausgaben und Fehlermeldungen bewusster.?
-- Kannst du in eigenen Worten erklären, wie du du erkennst den Arbeitskontext als Teil jedes Befehls.?
+<div class="summary-card">
+  <p class="card-kicker">Merksätze</p>
+  <h3>Das solltest du mitnehmen</h3>
+  <ul>
+    <li>Das Terminal belohnt ruhiges und klares Arbeiten.</li>
+    <li>Kleine, kontrollierte Schritte sind besser als blindes Ausprobieren.</li>
+    <li>Die Ausgabe des Systems ist Teil der Arbeit.</li>
+    <li>Ein Befehl wirkt immer in einem konkreten Kontext.</li>
+    <li>Wer liest, prüft und dann handelt, arbeitet im Terminal sicherer.</li>
+  </ul>
+</div>

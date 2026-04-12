@@ -4,25 +4,18 @@ description: Übe erste Grundlogiken mit LED, Taster und einfachen Arduino-Progr
 subject: elektrotechnik
 section: arduino-und-esp32
 topicPath:
-- praxis
-- arduino-und-esp32
-- arduino-basisaufgaben
-tags:
-- arduino
-- eingang-ausgang
-- taster
-- led
-hintPoints:
-- Trenne immer zwischen Hardware, Signal und Programmlogik.
-- Beschreibe Beispiele in kleinen Schritten statt nur in Stichworten.
-- Achte darauf, was Eingang und was Ausgang ist.
-selfCheckPoints:
-- Ich kann LED, Taster, Ein- und Ausgang sicher zuordnen.
-- Ich kann den Ablauf eines einfachen Sketchs in Worten erklären.
-- Ich kann beschreiben, wie Eingabe, Code und Ausgabe zusammenwirken.
+  - praxis
+  - arduino-und-esp32
+  - arduino-basisaufgaben
 level: einfach
+tags:
+  - arduino
+  - esp32
+  - eingabe
+  - ausgabe
 draft: false
 ---
+
 Diese Aufgabe hält die frühere Arduino-Basisidee bewusst fest, aber in klarerer Form: Du sollst einfache Schaltungen und kleine Sketche nicht nur sehen, sondern **funktional verstehen**.
 
 ## Lernziel
@@ -88,31 +81,3 @@ Du bist auf einem guten Stand, wenn du am Ende sicher sagen kannst,
 - welche Bauteile welche Rolle haben,
 - wie ein einfacher Sketch mit der Schaltung zusammenarbeitet,
 - wie aus Eingang, Programm und Ausgabe ein technischer Ablauf entsteht.
-
-## Aufgabe 6 – Transfer
-
-Formuliere ein kurzes eigenes Beispiel oder eine kurze Anwendungssituation zu diesem Thema. Erkläre dabei in 2 bis 4 Sätzen, woran man den Fachbegriff oder die Regel erkennt.
-
-## Aufgabe 7 – Kurz begründen
-
-Beschreibe, welche typische Verwechslung bei diesem Thema leicht passiert und wie du sie vermeiden würdest.
-
-## Aufgabe 8 – Fachsprache anwenden
-
-Erkläre das Thema noch einmal so, als würdest du es einer anderen lernenden Person ruhig und fachlich korrekt erklären. Nutze dabei die wichtigsten Begriffe bewusst.
-
-
-## Transfer und Einordnung
-
-Bearbeite zum Schluss noch diese kurzen Zusatzfragen, damit du die Aufgabe nicht nur mechanisch rechnest oder ausfüllst:
-
-1. Wo taucht die Grundidee aus **Arduino – Basisaufgaben** in einem ähnlichen Kontext aus **arduino-und-esp32** wieder auf?
-2. Woran würdest du erkennen, dass du denselben Gedanken auch in einer leicht veränderten Aufgabe anwenden musst?
-3. Welche Angabe oder Formulierung wäre ein typisches Signal dafür, dass genau dieses Wissen gebraucht wird?
-
-
-## Kurzreflexion
-
-- Was war in dieser Aufgabe der fachlich wichtigste Schritt?
-- Wo war die größte Verwechslungsgefahr?
-- Was würdest du vor der nächsten ähnlichen Aufgabe zuerst prüfen?

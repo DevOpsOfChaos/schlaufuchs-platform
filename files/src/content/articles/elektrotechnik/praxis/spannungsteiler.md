@@ -17,18 +17,6 @@ tags:
   - Spannung
   - Reihenschaltung
 draft: false
-practiceIdeas:
-  - Zeichne einen einfachen Spannungsteiler mit zwei Widerständen und markiere Ein- und Ausgangsspannung.
-  - Überlege, wie sich die Ausgangsspannung verändert, wenn der obere oder untere Widerstand größer wird.
-  - Vergleiche einen symmetrischen Spannungsteiler mit einem deutlich ungleichen Widerstandspaar.
-commonMistakes:
-  - Nur die Formel einsetzen, ohne die Schaltung gedanklich zu lesen.
-  - Vergessen, dass die Teilspannung von beiden Widerständen gemeinsam abhängt.
-  - Ausgangsspannung falsch am falschen Teil der Schaltung abgreifen.
-keyTakeaways:
-  - Ein Spannungsteiler teilt eine Eingangsspannung über mehrere Widerstände auf.
-  - Die Ausgangsspannung hängt vom Verhältnis der Widerstände ab.
-  - Schaltungsbild und Formel sollten immer zusammen gelesen werden.
 ---
 
 <div class="learning-card">
@@ -119,16 +107,3 @@ Wenn du einen Spannungsteiler siehst, solltest du dir immer zuerst diese Fragen 
     <li>Eine saubere Schaltungsleseweise verhindert viele Fehler.</li>
   </ul>
 </div>
-
-
-## Woran du das Thema erkennst
-
-Du erkennst dieses Thema meist daran, dass du nicht nur einen einzelnen Fachbegriff brauchst, sondern die zugrunde liegende Struktur, Anordnung oder Denkweise sauber unterscheiden musst. Genau dort entscheidet sich oft, ob ein Beispiel wirklich verstanden wurde oder nur oberflächlich bekannt wirkt.
-
-## Mini-Check für dich
-
-Prüfe am Ende kurz selbst:
-
-- Kann ich das Thema in eigenen Worten erklären?
-- Kann ich ein Beispiel richtig einordnen?
-- Kann ich eine typische Verwechslung benennen?

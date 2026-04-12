@@ -1,37 +1,25 @@
 ---
 title: Prozesse
-description: Prozesse beschreiben laufende Programme im System und helfen dabei zu
-  verstehen, wie Aufgaben gestartet, verwaltet und beendet werden.
+description: Prozesse beschreiben laufende Programme im System und helfen dabei zu verstehen, wie Aufgaben gestartet, verwaltet und beendet werden.
 subject: informatik
 section: Systemnah
 topicPath:
-- systemnah
-- prozesse
+  - systemnah
+  - prozesse
 learningGoals:
-- Du unterscheidest Programm und Prozess.
-- Du verstehst Prozesse als laufende Systemabläufe.
-- Du ordnest sichtbare und unsichtbare Prozesse besser ein.
-practiceIdeas:
-- Beschreibe einen Programmstart als Folge mehrerer Prozessschritte.
-- Vergleiche sichtbare Programme, Dienste und Hintergrundprozesse.
-- Ordne typische Systemaktivitäten dem Begriff Prozess zu.
-commonMistakes:
-- Programm und Prozess vollständig gleichzusetzen.
-- Nur sichtbare Fenster als Prozesse zu betrachten.
-- Systemaktivität nicht als verwalteten Ablauf zu verstehen.
-keyTakeaways:
-- Prozesse sind laufende Programmausführungen.
-- Ein System verwaltet viele Prozesse parallel.
-- Prozessverständnis macht Rechnerverhalten lesbarer.
-tags:
-- Prozesse
-- Betriebssystem
-- Programm
-- Ausführung
-- System
+  - Du unterscheidest Programm und Prozess sicher.
+  - Du erkennst typische Prozesszustände und ihre Bedeutung.
+  - Du verstehst, warum das Betriebssystem Prozesse verwalten muss.
 level: einfach
+tags:
+  - Prozesse
+  - Betriebssystem
+  - Programm
+  - Ausführung
+  - System
 draft: false
 ---
+
 <div class="learning-card">
   <p class="card-kicker">Einstieg</p>
   <h3>Was du hier lernst</h3>
@@ -154,27 +142,3 @@ Das hilft auch gegen einen typischen Denkfehler: Ein Prozess ist nicht gleich ei
     <li>Nicht jeder Prozess ist als Fenster sichtbar.</li>
   </ul>
 </div>
-
-## Warum Prozessdenken beim Fehlerfinden hilft
-
-Wer Prozesse verstanden hat, kann typische Systemprobleme besser lesen: Warum reagiert ein Programm nicht? Warum arbeitet etwas im Hintergrund weiter? Warum steigt die Auslastung? Prozesse helfen dabei, Systemverhalten nicht als Chaos, sondern als geordnete Abläufe zu sehen.
-
-## Kleine Transferfrage
-
-Versuche bei jedem Rechnerproblem kurz zu überlegen, ob es eher um *ein laufendes Programm*, *mehrere konkurrierende Prozesse* oder *fehlende Ressourcen* geht. Genau daraus entsteht später sauberes Systemverständnis.
-
-
-## Woran du das Thema erkennst
-
-Du merkst, dass dieses Thema gefragt ist, wenn du in Aufgaben oder Erklärungen auf typische Signale wie diese stößt:
-
-- Es geht ausdrücklich um **Prozesse** oder um eng verwandte Begriffe aus **Systemnah**.
-- Du sollst nicht nur etwas benennen, sondern den Ablauf, die Regel oder den Zusammenhang **sauber erklären**.
-- In Beispielen musst du Werte, Strukturen, Schritte oder Reaktionen **geordnet lesen und deuten**.
-
-
-## Mini-Check für dich
-
-- Kannst du in eigenen Worten erklären, wie du du unterscheidest Programm und Prozess.?
-- Kannst du in eigenen Worten erklären, wie du du verstehst Prozesse als laufende Systemabläufe.?
-- Kannst du in eigenen Worten erklären, wie du du ordnest sichtbare und unsichtbare Prozesse besser ein.?

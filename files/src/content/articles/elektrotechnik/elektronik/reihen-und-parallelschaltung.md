@@ -1,34 +1,17 @@
 ---
-title: "Reihen- und Parallelschaltung"
-description: "Lerne den Unterschied zwischen Reihen- und Parallelschaltung und wie sich Strom und Spannung darin verhalten."
+title: Reihen- und Parallelschaltung
+description: Lerne den Unterschied zwischen Reihen- und Parallelschaltung und wie sich Strom und Spannung darin verhalten.
 subject: elektrotechnik
-section: "Grundlagen"
+section: Grundlagen
 topicPath:
-  - "elektronik"
-  - "reihen-und-parallelschaltung"
+  - elektronik
+  - reihen-und-parallelschaltung
 learningGoals:
-  - "Du unterscheidest Reihen- und Parallelschaltung sicher."
-  - "Du erklärst, wie sich Strom und Spannung jeweils verhalten."
-  - "Du ordnest typische Schaltungen diesen Grundformen zu."
-practiceIdeas:
-  - "Vergleiche den Stromweg in Reihen- und Parallelschaltungen."
-  - "Ordne Alltagsschaltungen den beiden Grundformen zu."
-  - "Überlege, was beim Ausfall eines Bauteils passiert."
-commonMistakes:
-  - "Reihe und Parallel nur an der Zeichnung zu unterscheiden."
-  - "Gleiches Verhalten von Strom und Spannung in beiden Formen anzunehmen."
-  - "Bauteilverhalten und Gesamtverhalten zu vermischen."
-keyTakeaways:
-  - "Reihenschaltungen haben einen gemeinsamen Stromweg."
-  - "Parallelschaltungen besitzen mehrere Zweige."
-  - "Strom und Spannung verteilen sich in beiden Formen unterschiedlich."
-tags:
-  - "reihenschaltung"
-  - "parallelschaltung"
-  - "strom"
-  - "spannung"
-  - "schaltung"
+  - Du unterscheidest Reihen- und Parallelschaltung sicher.
+  - Du erkennst das unterschiedliche Verhalten von Strom und Spannung.
+  - Du liest einfache Schaltungen bewusster und strukturierter.
 level: einfach
+tags: [reihenschaltung, parallelschaltung, strom, spannung, schaltung]
 draft: false
 ---
 
@@ -122,16 +105,3 @@ Reihen- und Parallelschaltungen bilden die Grundlage für:
     <li>Die saubere Strukturentscheidung ist wichtiger als blindes Rechnen.</li>
   </ul>
 </div>
-
-
-## Woran du das Thema erkennst
-
-Du erkennst dieses Thema meist daran, dass du nicht nur einen einzelnen Fachbegriff brauchst, sondern die zugrunde liegende Struktur, Anordnung oder Denkweise sauber unterscheiden musst. Genau dort entscheidet sich oft, ob ein Beispiel wirklich verstanden wurde oder nur oberflächlich bekannt wirkt.
-
-## Mini-Check für dich
-
-Prüfe am Ende kurz selbst:
-
-- Kann ich das Thema in eigenen Worten erklären?
-- Kann ich ein Beispiel richtig einordnen?
-- Kann ich eine typische Verwechslung benennen?
