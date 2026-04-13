@@ -2,7 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getVisibleArticles, getVisibleSubjects, levelLabels } from "../../data/content";
 import { resolvePrimarySubjectSlug } from "../../data/subjects";
-import { getTopicSnapshot, getTopicTail, humanizeTopicSegment } from "../../data/topics";
+import { getTopicSnapshot, humanizeTopicSegment } from "../../data/topics";
 import { withBase } from "../../utils/base";
 import SectionHeading from "../../components/content/SectionHeading.astro";
 import ResourceCard from "../../components/content/ResourceCard.astro";
@@ -58,7 +58,7 @@ const articleIcon = `
               title={entry.data.title}
               description={entry.data.description}
               meta={`${subject.data.title} · ${levelLabels[entry.data.level]}`}
-              href={withBase(`fachbereiche/${subject.data.slug}/${getTopicTail(entry).join("/")}`)}
+              href={withBase(`wissen/${entry.id}`)}
               ctaLabel="Wissensseite öffnen →"
               icon={articleIcon}
               variant="article"
@@ -81,8 +81,8 @@ const articleIcon = `
             <ResourceCard
               title={entry.data.title}
               description={entry.data.description}
-              meta={humanizeTopicSegment(getTopicTail(entry).at(-1) ?? entry.data.section)}
-              href={withBase(`fachbereiche/${subject.data.slug}/${getTopicTail(entry).join("/")}`)}
+              meta={humanizeTopicSegment((Array.isArray(entry.data.topicPath) && entry.data.topicPath.length > 0 ? entry.data.topicPath.at(-1) : entry.data.section) ?? entry.data.section)}
+              href={withBase(`wissen/${entry.id}`)}
               ctaLabel="Wissensseite öffnen →"
               icon={articleIcon}
               variant="article"

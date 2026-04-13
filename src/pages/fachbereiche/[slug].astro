@@ -3,7 +3,7 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { type CollectionEntry } from "astro:content";
 import { getArticlesForSubject, getExercisesForSubject, getVisibleSubjects, levelLabels } from "../../data/content";
 import { getSubjectMeta } from "../../data/subjects";
-import { getEntriesForPrimarySubject, getTopicHierarchyStats, getTopicTail, getTopicSnapshot, humanizeTopicSegment } from "../../data/topics";
+import { getEntriesForPrimarySubject, getTopicHierarchyStats, getTopicTail, getTopicSnapshot } from "../../data/topics";
 import { withBase } from "../../utils/base";
 import SectionHeading from "../../components/content/SectionHeading.astro";
 import ResourceCard from "../../components/content/ResourceCard.astro";
@@ -78,7 +78,7 @@ const taskIcon = `
             <span class="entry-label">Direkter Einstieg</span>
             <h2>{directEntry.data.title}</h2>
             <p>{directEntry.data.description}</p>
-            <a href={withBase(`fachbereiche/${subject.data.slug}/${getTopicTail(directEntry).join("/")}`)}>Zur Fachinfo →</a>
+            <a href={withBase(`wissen/${directEntry.id}`)}>Wissensseite öffnen →</a>
           </article>
         ) : (
           <article class="entry-card">
@@ -144,9 +144,9 @@ const taskIcon = `
             <ResourceCard
               title={entry.data.title}
               description={entry.data.description}
-              meta={`${levelLabels[entry.data.level]} · ${humanizeTopicSegment(getTopicTail(entry).at(-1) ?? entry.data.section)}`}
-              href={withBase(`fachbereiche/${subject.data.slug}/${getTopicTail(entry).join("/")}`)}
-              ctaLabel="Fachinfo öffnen →"
+              meta={`${levelLabels[entry.data.level]} · Wissensseite`}
+              href={withBase(`wissen/${entry.id}`)}
+              ctaLabel="Wissensseite öffnen →"
               icon={articleIcon}
               variant="article"
             />
@@ -163,7 +163,7 @@ const taskIcon = `
             <ResourceCard
               title={entry.data.title}
               description={entry.data.description}
-              meta={`${levelLabels[entry.data.level]} · ${humanizeTopicSegment(getTopicTail(entry).slice(0, -1).at(-1) ?? entry.data.section ?? "Thema")}`}
+              meta={`${levelLabels[entry.data.level]} · Aufgabe`}
               href={withBase(`aufgaben/${entry.id}`)}
               ctaLabel="Aufgabe öffnen →"
               icon={taskIcon}

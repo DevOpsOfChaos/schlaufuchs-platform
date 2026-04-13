@@ -40,7 +40,7 @@ const shellId = `linux-shell-${scenario.key.replace(/[^a-z0-9]+/gi, "-").toLower
 
   <div class="shell-suggestions">
     <div class="suggestions-head">
-      <p>Probiere zum Einstieg:</p>
+      <p>Zum Einstieg direkt ausführen:</p>
       <div class="toolbar-actions">
         <button type="button" class="mini-button" data-shell-clear>Ausgabe leeren</button>
         <button type="button" class="mini-button" data-shell-reset>Shell zurücksetzen</button>
@@ -49,12 +49,13 @@ const shellId = `linux-shell-${scenario.key.replace(/[^a-z0-9]+/gi, "-").toLower
     <ul>
       {scenario.suggestedCommands.map((command) => (
         <li>
-          <button type="button" class="command-chip" data-shell-command={command}>
+          <button type="button" class="command-chip" data-shell-command={command} title={`Befehl direkt ausführen: ${command}`}>
             <code>{command}</code>
           </button>
         </li>
       ))}
     </ul>
+    <p class="shell-hint">Tipp: Ein Klick führt den Befehl direkt aus. Mit ↑ und ↓ kannst du zuletzt genutzte Befehle erneut aufrufen.</p>
   </div>
 
   <div class="shell-window">
@@ -264,6 +265,18 @@ const shellId = `linux-shell-${scenario.key.replace(/[^a-z0-9]+/gi, "-").toLower
       inputEl.focus();
     };
 
+    const runCommand = (commandText, options = { pushHistory: true }) => {
+      const trimmed = commandText.trim();
+      if (!trimmed) return;
+      if (options.pushHistory) {
+        history.unshift(trimmed);
+        historyIndex = -1;
+      }
+      execute(trimmed);
+      inputEl.value = "";
+      inputEl.focus();
+    };
+
     const execute = (rawCommand) => {
       const trimmed = rawCommand.trim();
       appendLine(`<span class="prompt">${escapeHtml(`${scenario.prompt}:${cwd}$`)}</span> <span class="command">${escapeHtml(trimmed)}</span>`, "command");
@@ -424,10 +437,7 @@ const shellId = `linux-shell-${scenario.key.replace(/[^a-z0-9]+/gi, "-").toLower
 
     formEl.addEventListener("submit", (event) => {
       event.preventDefault();
-      const value = inputEl.value.trim();
-      if (value) { history.unshift(value); historyIndex = -1; }
-      execute(inputEl.value);
-      inputEl.value = "";
+      runCommand(inputEl.value, { pushHistory: true });
     });
 
     inputEl.addEventListener("keydown", (event) => {
@@ -447,8 +457,8 @@ const shellId = `linux-shell-${scenario.key.replace(/[^a-z0-9]+/gi, "-").toLower
 
     quickButtons.forEach((button) => {
       button.addEventListener("click", () => {
-        inputEl.value = button.getAttribute("data-shell-command") ?? "";
-        inputEl.focus();
+        const command = button.getAttribute("data-shell-command") ?? "";
+        runCommand(command, { pushHistory: true });
       });
     });
 
@@ -467,7 +477,9 @@ const shellId = `linux-shell-${scenario.key.replace(/[^a-z0-9]+/gi, "-").toLower
   .shell-badge { display:inline-flex; align-items:center; gap:.45rem; min-height:2rem; padding:0 .75rem; border-radius:999px; border:1px solid var(--border); background:var(--surface); color:var(--text-strong); font-size:.84rem; font-weight:700; white-space:nowrap; }
   .shell-intro { margin:0; color:var(--text); line-height:1.72; }
   .shell-notes,.shell-suggestions,.shell-steps { display:grid; gap:.65rem; padding:1rem; border:1px solid var(--border); border-radius:22px; background:var(--surface); }
-  .shell-notes p,.shell-suggestions p,.shell-steps p { margin:0; color:var(--text-strong); font-weight:700; }
+  .shell-notes p,.shell-suggestions p,.shell-steps p,.shell-hint { margin:0; }
+  .shell-notes p,.shell-suggestions p,.shell-steps p { color:var(--text-strong); font-weight:700; }
+  .shell-hint { color:var(--text-soft); line-height:1.55; font-size:.92rem; }
   .shell-notes ul,.shell-steps ol { margin:0; padding-left:1.1rem; display:grid; gap:.45rem; }
   .shell-suggestions ul { list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; gap:.6rem; }
   .suggestions-head { display:flex; align-items:center; justify-content:space-between; gap:1rem; flex-wrap:wrap; }
