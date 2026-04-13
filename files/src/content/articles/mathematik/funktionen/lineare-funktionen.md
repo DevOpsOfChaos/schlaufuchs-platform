@@ -1,25 +1,40 @@
 ---
 title: Lineare Funktionen
-description: Lineare Funktionen beschreiben gleichmäßige Zusammenhänge und gehören zu den wichtigsten Einstiegs-Themen in die Funktionenlehre.
+description: Lineare Funktionen beschreiben gleichmäßige Zusammenhänge und gehören
+  zu den wichtigsten Einstiegs-Themen in die Funktionenlehre.
 subject: mathematik
 section: Funktionen
 topicPath:
-  - funktionen
-  - lineare-funktionen
+- funktionen
+- lineare-funktionen
 learningGoals:
-  - Du erkennst lineare Funktionen in Gleichung, Tabelle und Graph.
-  - Du verstehst die Bedeutung von Steigung und Startwert.
-  - Du liest aus einfachen Darstellungen Veränderungen sicher ab.
+- Du erkennst lineare Funktionen in Gleichung, Tabelle und Graph.
+- Du verstehst die Bedeutung von Steigung und Startwert.
+- Du liest aus einfachen Darstellungen Veränderungen sicher ab.
 level: einfach
 tags:
-  - Funktionen
-  - Lineare Funktionen
-  - Steigung
-  - y-Achsenabschnitt
-  - Graphen
+- Funktionen
+- Lineare Funktionen
+- Steigung
+- y-Achsenabschnitt
+- Graphen
 draft: false
+practiceIdeas:
+- Lies aus einer Geradengleichung zuerst die Steigung und dann den y-Achsenabschnitt
+  heraus.
+- Vergleiche zwei lineare Funktionen und entscheide, welche schneller steigt oder
+  fällt.
+- Erstelle aus einer kleinen Wertetabelle eine passende Funktionsgleichung.
+commonMistakes:
+- Steigung und y-Achsenabschnitt in y = mx + b verwechseln.
+- Ein negatives m nur als Zahl lesen, ohne die fallende Richtung im Graphen mitzudenken.
+- Von einzelnen Werten direkt auf eine lineare Funktion schließen, obwohl der konstante
+  Unterschied nicht geprüft wurde.
+keyTakeaways:
+- Eine lineare Funktion hat die Form y = mx + b.
+- m beschreibt die Änderung pro Schritt, b den Startwert auf der y-Achse.
+- Konstante Änderungsrate ist das Kennzeichen einer linearen Funktion.
 ---
-
 <div class="learning-card">
   <p class="card-kicker">Einstieg</p>
   <h3>Was du hier lernst</h3>
@@ -30,6 +45,14 @@ draft: false
     <li>Du verbindest Gleichung, Wertetabelle und Graph miteinander.</li>
   </ul>
 </div>
+
+## Was du hier lernst
+
+Auf dieser Seite lernst du,
+
+- Du erkennst lineare Funktionen in Gleichung, Tabelle und Graph.
+- Du verstehst die Bedeutung von Steigung und Startwert.
+- Du liest aus einfachen Darstellungen Veränderungen sicher ab.
 
 ## Grundidee
 
@@ -156,3 +179,25 @@ K(x) = 2x + 4
     <li>Viele Sachaufgaben mit Grundwert und gleichmäßiger Veränderung lassen sich linear modellieren.</li>
   </ul>
 </div>
+
+
+## Woran du das Thema erkennst
+
+Du merkst, dass dieses Thema gefragt ist, wenn du in Aufgaben oder Erklärungen auf typische Signale wie diese stößt:
+
+- Es geht ausdrücklich um **Lineare Funktionen** oder um eng verwandte Begriffe aus **Funktionen**.
+- Du sollst nicht nur etwas benennen, sondern den Ablauf, die Regel oder den Zusammenhang **sauber erklären**.
+- In Beispielen musst du Werte, Strukturen, Schritte oder Reaktionen **geordnet lesen und deuten**.
+
+
+## Mini-Check für dich
+
+- Kannst du in eigenen Worten erklären, wie du du erkennst lineare Funktionen in Gleichung, Tabelle und Graph.?
+- Kannst du in eigenen Worten erklären, wie du du verstehst die Bedeutung von Steigung und Startwert.?
+- Kannst du in eigenen Worten erklären, wie du du liest aus einfachen Darstellungen Veränderungen sicher ab.?
+
+## Merksätze
+
+- Eine lineare Funktion hat die Form y = mx + b.
+- m beschreibt die Änderung pro Schritt, b den Startwert auf der y-Achse.
+- Konstante Änderungsrate ist das Kennzeichen einer linearen Funktion.

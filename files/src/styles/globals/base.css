@@ -39,12 +39,177 @@ select {
 }
 
 main {
-  width: min(1180px, calc(100% - 1.25rem));
+  width: min(1280px, calc(100% - 1.1rem));
   margin: 0 auto;
   padding: 1rem 0 4rem;
+}
+
+main > :where(.page-shell) {
+  width: min(100%, 1180px);
+  margin: 0 auto;
+}
+
+:where(.full-bleed, .wide-bleed) {
+  width: min(100%, 1180px);
+  margin-inline: auto;
+}
+
+:where(.wide-bleed) {
+  width: min(100%, 1240px);
+}
+
+:where(code, pre, table) {
+  font-variant-ligatures: none;
+}
+
+:where(pre) {
+  overflow-x: auto;
+}
+
+:where(.article-content, .exercise-content) :global(img),
+:where(.article-content, .exercise-content) :where(img) {
+  width: 100%;
+  height: auto;
+  border-radius: 22px;
+}
+
+:where(.article-content, .exercise-content) :global(figure),
+:where(.article-content, .exercise-content) :where(figure) {
+  margin: 1.4rem 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+:where(.article-content, .exercise-content) :global(figcaption),
+:where(.article-content, .exercise-content) :where(figcaption) {
+  color: var(--text-soft);
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+:where(.article-content, .exercise-content) :global(pre),
+:where(.article-content, .exercise-content) :where(pre) {
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background: color-mix(in oklab, var(--surface) 78%, #0f172a 22%);
+  box-shadow: var(--shadow-soft);
+}
+
+:where(.article-content, .exercise-content) :global(code:not(pre code)),
+:where(.article-content, .exercise-content) :where(code:not(pre code)) {
+  padding: 0.08rem 0.42rem;
+  border-radius: 8px;
+  background: color-mix(in oklab, var(--surface) 84%, white 16%);
+  border: 1px solid var(--border);
+  font-size: 0.94em;
+}
+
+:where(.article-content, .exercise-content) :global(blockquote),
+:where(.article-content, .exercise-content) :where(blockquote) {
+  margin: 1.4rem 0;
+  padding: 1rem 1.1rem;
+  border-left: 4px solid var(--accent);
+  border-radius: 0 18px 18px 0;
+  background: color-mix(in oklab, var(--surface) 88%, white 12%);
+}
+
+:where(.article-content, .exercise-content) :global(table),
+:where(.article-content, .exercise-content) :where(table) {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 1.4rem 0;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: var(--card-bg);
+  box-shadow: var(--shadow-soft);
+}
+
+:where(.article-content, .exercise-content) :global(th),
+:where(.article-content, .exercise-content) :global(td),
+:where(.article-content, .exercise-content) :where(th),
+:where(.article-content, .exercise-content) :where(td) {
+  padding: 0.8rem 0.9rem;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  vertical-align: top;
+}
+
+:where(.article-content, .exercise-content) :global(th),
+:where(.article-content, .exercise-content) :where(th) {
+  color: var(--text-strong);
+  background: color-mix(in oklab, var(--surface) 88%, white 12%);
+  font-weight: 700;
+}
+
+:where(.article-content, .exercise-content) :global(tr:last-child td),
+:where(.article-content, .exercise-content) :where(tr:last-child td) {
+  border-bottom: 0;
+}
+
+:where(.learning-card, .example-card, .info-card, .reflection-card) {
+  display: grid;
+  gap: 0.85rem;
+  padding: 1.15rem 1.2rem;
+  margin: 1.35rem 0;
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  background: var(--card-bg);
+  box-shadow: var(--shadow-soft);
+}
+
+:where(.learning-card) {
+  background: linear-gradient(180deg, color-mix(in oklab, var(--card-bg) 96%, white 4%), color-mix(in oklab, var(--surface) 84%, white 16%));
+}
+
+:where(.example-card) {
+  background: color-mix(in oklab, var(--surface) 88%, white 12%);
+}
+
+:where(.card-kicker) {
+  margin: 0;
+  color: var(--text-soft);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+:where(.learning-card h3, .example-card h3, .info-card h3, .reflection-card h3) {
+  margin: 0;
+  color: var(--text-strong);
+  font-size: 1.08rem;
+  line-height: 1.2;
+}
+
+:where(.learning-card p, .example-card p, .info-card p, .reflection-card p),
+:where(.learning-card li, .example-card li, .info-card li, .reflection-card li) {
+  margin: 0;
+  color: var(--text);
+  line-height: 1.72;
 }
 
 ::selection {
   background: var(--accent);
   color: var(--accent-contrast);
+}
+
+@media (max-width: 720px) {
+  main {
+    width: min(100%, calc(100% - 0.9rem));
+    padding-top: 0.8rem;
+    padding-bottom: 3rem;
+  }
+
+  main > :where(.page-shell),
+  :where(.full-bleed, .wide-bleed) {
+    width: 100%;
+  }
+
+  :where(.learning-card, .example-card, .info-card, .reflection-card) {
+    padding: 1rem;
+    border-radius: 22px;
+  }
 }

@@ -1,25 +1,37 @@
 ---
 title: Zahlen und Terme
-description: Zahlen und Terme verbinden konkrete Werte mit ersten algebraischen Ausdrücken und bilden eine wichtige Grundlage für spätere Umformungen.
+description: Zahlen und Terme verbinden konkrete Werte mit ersten algebraischen Ausdrücken
+  und bilden eine wichtige Grundlage für spätere Umformungen.
 subject: mathematik
 section: Grundlagen
 topicPath:
-  - grundlagen
-  - zahlen-und-terme
+- grundlagen
+- zahlen-und-terme
 learningGoals:
-  - Du unterscheidest sicher zwischen Zahl, Term und Termwert.
-  - Du liest einfache Terme mit und ohne Variablen sauber.
-  - Du erkennst typische Fehler bei Reihenfolge, Klammern und gleichartigen Termen.
-level: einfach
+- Du unterscheidest Zahlen und Terme fachlich sauber.
+- Du liest einfache Terme als Rechenzusammenhänge.
+- Du vermeidest typische Fehler beim Umformen und Einordnen.
+practiceIdeas:
+- Unterscheide in Beispielen bewusst zwischen Zahl und Term.
+- Forme einfache Terme schrittweise um.
+- Baue aus Textsituationen passende Terme.
+commonMistakes:
+- Zahlen und Terme als dasselbe zu behandeln.
+- Regeln anzuwenden, ohne den Ausdruck vorher zu lesen.
+- Aus Texten sofort zu rechnen, statt erst einen Term zu bilden.
+keyTakeaways:
+- Zahlen und Terme sind nicht identisch.
+- Terme beschreiben Rechenzusammenhänge symbolisch.
+- Sauberes Lesen und Umformen ist Grundlage für spätere Algebra.
 tags:
-  - Zahlen
-  - Terme
-  - Algebra
-  - Rechenregeln
-  - Variablen
+- Zahlen
+- Terme
+- Algebra
+- Rechenregeln
+- Variablen
+level: einfach
 draft: false
 ---
-
 <div class="learning-card">
   <p class="card-kicker">Einstieg</p>
   <h3>Was du hier lernst</h3>
@@ -30,6 +42,14 @@ draft: false
     <li>Du erkennst, warum Klammern, Rechenreihenfolge und gleichartige Terme so wichtig sind.</li>
   </ul>
 </div>
+
+## Was du hier lernst
+
+Auf dieser Seite lernst du,
+
+- Du unterscheidest Zahlen und Terme fachlich sauber.
+- Du liest einfache Terme als Rechenzusammenhänge.
+- Du vermeidest typische Fehler beim Umformen und Einordnen.
 
 ## Grundidee
 
@@ -190,3 +210,25 @@ Oft werden mathematische Ausdrücke nicht einfach gegeben, sondern müssen aus e
     <li>Klammern und Rechenreihenfolge sind bei Termen genauso wichtig wie bei normalen Zahlen.</li>
   </ul>
 </div>
+
+
+## Woran du das Thema erkennst
+
+Du merkst, dass dieses Thema gefragt ist, wenn du in Aufgaben oder Erklärungen auf typische Signale wie diese stößt:
+
+- Es geht ausdrücklich um **Zahlen und Terme** oder um eng verwandte Begriffe aus **Grundlagen**.
+- Du sollst nicht nur etwas benennen, sondern den Ablauf, die Regel oder den Zusammenhang **sauber erklären**.
+- In Beispielen musst du Werte, Strukturen, Schritte oder Reaktionen **geordnet lesen und deuten**.
+
+
+## Mini-Check für dich
+
+- Kannst du in eigenen Worten erklären, wie du du unterscheidest Zahlen und Terme fachlich sauber.?
+- Kannst du in eigenen Worten erklären, wie du du liest einfache Terme als Rechenzusammenhänge.?
+- Kannst du in eigenen Worten erklären, wie du du vermeidest typische Fehler beim Umformen und Einordnen.?
+
+## Merksätze
+
+- Zahlen und Terme sind nicht identisch.
+- Terme beschreiben Rechenzusammenhänge symbolisch.
+- Sauberes Lesen und Umformen ist Grundlage für spätere Algebra.

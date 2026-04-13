@@ -1,0 +1,135 @@
+---
+interface Props {
+  label: string;
+  tooltip: string;
+  href?: string;
+  active?: boolean;
+  passive?: boolean;
+  icon: string;
+  type?: "button" | "link";
+}
+
+const {
+  label,
+  tooltip,
+  href,
+  active = false,
+  passive = false,
+  icon,
+  type = href ? "link" : "button",
+} = Astro.props;
+---
+
+{type === "link" ? (
+  <a
+    class:list={["action-icon", { active, passive }]}
+    href={href}
+    aria-label={label}
+    data-tooltip={tooltip}
+  >
+    <span class="icon-wrap" aria-hidden="true" set:html={icon} />
+  </a>
+) : (
+  <button
+    class:list={["action-icon", { active, passive }]}
+    type="button"
+    aria-label={label}
+    data-tooltip={tooltip}
+  >
+    <span class="icon-wrap" aria-hidden="true" set:html={icon} />
+  </button>
+)}
+
+<style>
+  .action-icon {
+    position: relative;
+    width: 2.9rem;
+    height: 2.9rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: var(--shadow-soft);
+    transition:
+      transform 140ms ease,
+      border-color 140ms ease,
+      background 140ms ease,
+      color 140ms ease,
+      box-shadow 140ms ease;
+  }
+
+  .action-icon:hover {
+    transform: translateY(-1px);
+    border-color: var(--border-strong);
+    background: var(--surface-2);
+  }
+
+  .action-icon:focus-visible {
+    outline: none;
+    border-color: var(--border-strong);
+    box-shadow:
+      0 0 0 3px color-mix(in oklab, var(--surface-2) 55%, transparent),
+      var(--shadow-soft);
+  }
+
+  .action-icon.active {
+    color: var(--text-strong);
+    border-color: var(--border-strong);
+    background: var(--surface-2);
+  }
+
+  .action-icon.passive {
+    opacity: 0.96;
+  }
+
+  .action-icon::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 0.55rem);
+    transform: translateX(-50%) translateY(4px);
+    min-width: max-content;
+    max-width: 14rem;
+    padding: 0.45rem 0.7rem;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text-strong);
+    box-shadow: var(--shadow-soft);
+    font-size: 0.84rem;
+    line-height: 1.25;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition:
+      opacity 120ms ease,
+      transform 120ms ease;
+    z-index: 70;
+  }
+
+  .action-icon:hover::after,
+  .action-icon:focus-visible::after {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+
+  .icon-wrap :global(svg) {
+    width: 1.18rem;
+    height: 1.18rem;
+    stroke: currentColor;
+    fill: none;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  @media (max-width: 720px) {
+    .action-icon::after {
+      display: none;
+    }
+  }
+</style>

@@ -28,3 +28,8 @@ Diese Checkliste ist für die spätere Einspielung ins Repo gedacht.
 - Keine Learn-/Presentation-Mode-Reste mehr sichtbar
 - Einspaltige Seiten ohne Sidebar
 - Auf Mobile keine zu schmalen Medien- oder Widgetflächen
+
+## Zusätzlicher Fokus beim nächsten Prüflauf
+
+- Prüfen, ob neue Zusatzaufgaben in Aufgabenblättern auf Mobile noch ruhig lesbar bleiben.
+- Prüfen, ob die eingefügten Anwendungssituationen in den Wissensseiten optisch sauber vor den Fehlerblöcken sitzen.

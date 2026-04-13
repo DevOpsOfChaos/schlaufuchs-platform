@@ -1,20 +1,37 @@
 ---
 title: Erste Webseite – Grundlagen
-description: Führe HTML und CSS in einem kleinen ersten Projekt zusammen und lerne die wichtigsten Schritte für eine saubere Startseite.
+description: Führe HTML und CSS in einem kleinen ersten Projekt zusammen und lerne
+  die wichtigsten Schritte für eine saubere Startseite.
 subject: web-development
 section: Praxis
 topicPath:
-  - praxis
-  - erste-webseite
+- praxis
+- erste-webseite
 learningGoals:
-  - Du planst eine kleine erste Webseite mit klarem Aufbau.
-  - Du trennst HTML-Struktur und CSS-Gestaltung sauber.
-  - Du erkennst typische Anfängerfehler in kleinen Webprojekten.
+- Du verstehst den Aufbau einer ersten kleinen Webseite.
+- Du trennst Struktur und Gestaltung sauber.
+- Du planst kleine Webprojekte in klaren Schritten.
+practiceIdeas:
+- Plane eine Miniseite zuerst als Struktur und dann als Gestaltung.
+- Trenne in einem kleinen Projekt HTML-Aufbau und CSS-Aufgaben.
+- Prüfe, welche Teile Struktur und welche Darstellung sind.
+commonMistakes:
+- Zu früh an Details zu denken, bevor die Struktur steht.
+- HTML und CSS als einen ungetrennten Block zu sehen.
+- Eine erste Seite zu groß statt bewusst klein zu planen.
+keyTakeaways:
+- Eine erste Webseite entsteht in kleinen Schritten.
+- Struktur kommt vor Gestaltung.
+- Schon kleine Projekte zeigen das Zusammenspiel von HTML und CSS.
+tags:
+- web-development
+- html
+- css
+- erste-webseite
+- praxis
 level: einfach
-tags: [web-development, html, css, erste-webseite, praxis]
 draft: false
 ---
-
 <div class="learning-card">
   <p class="card-kicker">Einstieg</p>
   <h3>Was du hier lernst</h3>
@@ -25,6 +42,14 @@ draft: false
     <li>Du entwickelst ein ruhiges Einstiegsprojekt statt eines chaotischen Sammelversuchs.</li>
   </ul>
 </div>
+
+## Was du hier lernst
+
+Auf dieser Seite lernst du,
+
+- Du verstehst den Aufbau einer ersten kleinen Webseite.
+- Du trennst Struktur und Gestaltung sauber.
+- Du planst kleine Webprojekte in klaren Schritten.
 
 ## Die Grundidee eines ersten Webprojekts
 
@@ -140,3 +165,25 @@ Für ein erstes Projekt sind diese Entscheidungen oft besonders hilfreich:
     <li>Erst die Inhalte ordnen, dann die Gestaltung verfeinern.</li>
   </ul>
 </div>
+
+
+## Woran du das Thema erkennst
+
+Du merkst, dass dieses Thema gefragt ist, wenn du in Aufgaben oder Erklärungen auf typische Signale wie diese stößt:
+
+- Es geht ausdrücklich um **Erste Webseite – Grundlagen** oder um eng verwandte Begriffe aus **Praxis**.
+- Du sollst nicht nur etwas benennen, sondern den Ablauf, die Regel oder den Zusammenhang **sauber erklären**.
+- In Beispielen musst du Werte, Strukturen, Schritte oder Reaktionen **geordnet lesen und deuten**.
+
+
+## Mini-Check für dich
+
+- Kannst du in eigenen Worten erklären, wie du du verstehst den Aufbau einer ersten kleinen Webseite.?
+- Kannst du in eigenen Worten erklären, wie du du trennst Struktur und Gestaltung sauber.?
+- Kannst du in eigenen Worten erklären, wie du du planst kleine Webprojekte in klaren Schritten.?
+
+## Merksätze
+
+- Eine erste Webseite entsteht in kleinen Schritten.
+- Struktur kommt vor Gestaltung.
+- Schon kleine Projekte zeigen das Zusammenspiel von HTML und CSS.

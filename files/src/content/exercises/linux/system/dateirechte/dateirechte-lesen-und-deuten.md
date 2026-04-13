@@ -1,64 +1,105 @@
 ---
 title: Dateirechte lesen und deuten
-description: Diese Aufgabe trainiert das Lesen einfacher Linux-Rechte und ihre fachliche Bedeutung.
+description: Übe, wie Linux-Rechte gelesen werden und was sie für Besitzer, Gruppe
+  und andere bedeuten.
 subject: linux
-section: system
+section: System
 topicPath:
-  - system
-  - dateirechte
-  - dateirechte-lesen-und-deuten
+- system
+- dateirechte
+- dateirechte-lesen-und-deuten
 tags:
-  - Linux
-  - Rechte
-  - ls -l
+- linux
+- rechte
+- chmod
+- dateien
+hintPoints:
+- Lies Rechte immer zusammen mit Besitzer, Gruppe und anderen.
+- Trenne lesen, schreiben und ausführen sauber.
+- Beschreibe Rechte als Zugriffsmodell und nicht nur als Zeichenfolge.
+selfCheckPoints:
+- Ich kann `r`, `w` und `x` erklären.
+- Ich weiß, dass Rechte für Besitzer, Gruppe und andere getrennt gelten.
+- Ich kann einfache Rechtefolgen fachlich deuten.
 level: einfach
 draft: false
 ---
-
 ## Arbeitsauftrag
 
-Lies Rechte nicht nur als Zeichenfolge, sondern immer als Aussage über erlaubte oder verbotene Zugriffe.
+Lies Dateirechte nicht nur als Zeichen, sondern als Aussage darüber, wer was mit einer Datei tun darf.
 
-## Aufgabe 1 – Rechte aufteilen
+## Aufgabe 1 – Rechtezeichen erklären
 
-Zerlege die Rechtefolge:
+Erkläre die Bedeutung von:
 
-- `rw-r--r--`
+- `r`
+- `w`
+- `x`
 
-in die drei Bereiche:
+Beschreibe zu jedem Zeichen, welche Art von Zugriff gemeint ist.
+
+## Aufgabe 2 – Drei Rollen unterscheiden
+
+Erkläre, auf wen sich diese drei Ebenen beziehen:
+
 - Besitzer
 - Gruppe
 - andere
 
-## Aufgabe 2 – Bedeutung erklären
+Warum ist diese Trennung in einem Mehrbenutzersystem sinnvoll?
 
-Erkläre für `rw-r--r--`:
+## Aufgabe 3 – Rechtefolge deuten
+
+Lies die Rechtefolge `rw-r--r--`.
 
 1. Was darf der Besitzer?
 2. Was darf die Gruppe?
 3. Was dürfen andere?
 
-## Aufgabe 3 – Kategorien beschreiben
+## Aufgabe 4 – Fachlich formulieren
 
-Erkläre in eigenen Worten:
-- Wer ist mit „Besitzer“ gemeint?
-- Wer ist mit „Gruppe“ gemeint?
-- Wer sind „andere“?
+Beschreibe in einem kurzen Absatz, warum man Dateirechte nie isoliert von Benutzer und Gruppe lesen sollte.
 
-## Aufgabe 4 – Wirkung einordnen
+## Aufgabe 5 – Typische Fehler
 
-Warum ist es oft keine gute Idee, Dateien für alle frei veränderbar zu machen?
+Nenne drei typische Denkfehler beim Einstieg in Linux-Rechte und erkläre, wie du sie korrigieren würdest.
 
-<div class="hint-card">
-  <p class="task-kicker">Hinweis</p>
-  <p>Wenn du Rechte liest, gehe immer in derselben Reihenfolge vor: Besitzer → Gruppe → andere. So vermeidest du Verwechslungen.</p>
-</div>
+## Aufgabe 6 – Transfer
 
-<div class="check-card">
-  <p class="task-kicker">Selbstkontrolle</p>
-  <ul>
-    <li><code>r</code> steht für lesen, <code>w</code> für schreiben, <code>x</code> für ausführen.</li>
-    <li>Rechte werden für Besitzer, Gruppe und andere getrennt betrachtet.</li>
-    <li>Dateirechte sind ein Sicherheits- und Ordnungswerkzeug.</li>
-  </ul>
-</div>
+Überlege dir eine kleine Alltagssituation in einem Mehrbenutzersystem, in der eine Datei zwar von der Gruppe gelesen, aber nur vom Besitzer verändert werden soll. Beschreibe kurz, warum genau diese Rechteverteilung sinnvoll ist.
+
+## Aufgabe 8 – Fachsprache anwenden
+
+Erkläre das Thema noch einmal so, als würdest du es einer anderen lernenden Person ruhig und fachlich korrekt erklären. Nutze dabei die wichtigsten Begriffe bewusst.
+
+
+## Aufgabe 9 – Rechte im Zusammenhang erklären
+
+Formuliere in zwei bis drei Sätzen, warum Dateirechte immer zusammen mit **Besitzer**, **Gruppe** und **anderen** gelesen werden sollten. Nutze dabei die Begriffe Zugriff, Schutz und Mehrbenutzersystem.
+
+## Transfer und Einordnung
+
+Bearbeite zum Schluss noch diese kurzen Zusatzfragen, damit du die Aufgabe nicht nur mechanisch rechnest oder ausfüllst:
+
+1. Wo taucht die Grundidee aus **Dateirechte lesen und deuten** in einem ähnlichen Kontext aus **System** wieder auf?
+2. Woran würdest du erkennen, dass du denselben Gedanken auch in einer leicht veränderten Aufgabe anwenden musst?
+3. Welche Angabe oder Formulierung wäre ein typisches Signal dafür, dass genau dieses Wissen gebraucht wird?
+
+
+## Kurzreflexion
+
+- Was war in dieser Aufgabe der fachlich wichtigste Schritt?
+- Wo war die größte Verwechslungsgefahr?
+- Was würdest du vor der nächsten ähnlichen Aufgabe zuerst prüfen?
+
+## Hinweise
+
+- Lies Rechte immer zusammen mit Besitzer, Gruppe und anderen.
+- Trenne lesen, schreiben und ausführen sauber.
+- Beschreibe Rechte als Zugriffsmodell und nicht nur als Zeichenfolge.
+
+## Selbstkontrolle
+
+- Ich kann `r`, `w` und `x` erklären.
+- Ich weiß, dass Rechte für Besitzer, Gruppe und andere getrennt gelten.
+- Ich kann einfache Rechtefolgen fachlich deuten.

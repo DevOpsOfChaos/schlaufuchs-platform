@@ -1,20 +1,39 @@
 ---
 title: Dateirechte
-description: Dateirechte bestimmen in Linux, wer Dateien lesen, verändern oder ausführen darf, und sind zentral für sauberes und sicheres Arbeiten.
+description: Dateirechte bestimmen in Linux, wer Dateien lesen, verändern oder ausführen
+  darf, und sind zentral für sauberes und sicheres Arbeiten.
 subject: linux
 section: system
 topicPath:
-  - system
-  - dateirechte
+- system
+- dateirechte
 learningGoals:
-  - Du liest einfache Linux-Dateirechte sicher.
-  - Du unterscheidest Besitzer, Gruppe und andere.
-  - Du ordnest typische Rechtekombinationen fachlich ein.
+- Du liest einfache Linux-Dateirechte sicher.
+- Du unterscheidest Besitzer, Gruppe und andere.
+- Du ordnest typische Rechtekombinationen fachlich ein.
 level: einfach
-tags: [linux, rechte, chmod, dateirechte, ls]
+tags:
+- linux
+- rechte
+- chmod
+- dateirechte
+- ls
 draft: false
+practiceIdeas:
+- Lies mehrere Rechteketten wie rw-r--r-- oder rwxr-xr-x laut in Besitzer, Gruppe
+  und andere auf.
+- Vergleiche eine Datei mit 644 und ein Skript mit 755 und erkläre den Unterschied.
+- Ordne zu, wann ein x-Bit bei Dateien wichtig ist und wann bei Verzeichnissen.
+commonMistakes:
+- Die drei Rechteblöcke nicht sauber den Gruppen Besitzer, Gruppe und andere zuordnen.
+- x immer nur als „ausführen“ lesen und seine Bedeutung bei Verzeichnissen übersehen.
+- chmod-Werte auswendig nutzen, ohne zu verstehen, welche Rechte dadurch gesetzt werden.
+keyTakeaways:
+- Linux trennt Rechte immer in Besitzer, Gruppe und andere.
+- r, w und x haben je nach Datei oder Verzeichnis leicht unterschiedliche praktische
+  Wirkung.
+- Rechte sollten bewusst gesetzt werden und nicht zufällig entstehen.
 ---
-
 <div class="learning-card">
   <p class="card-kicker">Einstieg</p>
   <h3>Was du hier lernst</h3>
@@ -25,6 +44,14 @@ draft: false
     <li>Du erkennst, wann Rechte zu offen oder zu eng gesetzt sind.</li>
   </ul>
 </div>
+
+## Was du hier lernst
+
+Auf dieser Seite lernst du,
+
+- Du liest einfache Linux-Dateirechte sicher.
+- Du unterscheidest Besitzer, Gruppe und andere.
+- Du ordnest typische Rechtekombinationen fachlich ein.
 
 ## Grundidee
 
@@ -131,3 +158,25 @@ Deshalb ist Dateirechte-Verständnis keine Nebensache, sondern direkte Alltagspr
     <li>Wer Rechte lesen kann, versteht Linux deutlich besser.</li>
   </ul>
 </div>
+
+
+## Woran du das Thema erkennst
+
+Du merkst, dass dieses Thema gefragt ist, wenn du in Aufgaben oder Erklärungen auf typische Signale wie diese stößt:
+
+- Es geht ausdrücklich um **Dateirechte** oder um eng verwandte Begriffe aus **system**.
+- Du sollst nicht nur etwas benennen, sondern den Ablauf, die Regel oder den Zusammenhang **sauber erklären**.
+- In Beispielen musst du Werte, Strukturen, Schritte oder Reaktionen **geordnet lesen und deuten**.
+
+
+## Mini-Check für dich
+
+- Kannst du in eigenen Worten erklären, wie du du liest einfache Linux-Dateirechte sicher.?
+- Kannst du in eigenen Worten erklären, wie du du unterscheidest Besitzer, Gruppe und andere.?
+- Kannst du in eigenen Worten erklären, wie du du ordnest typische Rechtekombinationen fachlich ein.?
+
+## Merksätze
+
+- Linux trennt Rechte immer in Besitzer, Gruppe und andere.
+- r, w und x haben je nach Datei oder Verzeichnis leicht unterschiedliche praktische Wirkung.
+- Rechte sollten bewusst gesetzt werden und nicht zufällig entstehen.

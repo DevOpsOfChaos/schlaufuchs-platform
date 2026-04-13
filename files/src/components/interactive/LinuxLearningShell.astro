@@ -13,6 +13,11 @@ const shellIcon = `
   <path d="M12 15h7"></path>
   <rect x="3" y="4" width="18" height="16" rx="2"></rect>
 </svg>`;
+const bookIcon = `
+<svg viewBox="0 0 24 24" aria-hidden="true">
+  <path d="M6 5.5A2.5 2.5 0 0 1 8.5 3H20v16H8.5A2.5 2.5 0 0 0 6 21.5V5.5Z"></path>
+  <path d="M6 5.5V19"></path>
+</svg>`;
 ---
 
 <section class="linux-shell-card" data-linux-shell-root id={shellId}>
@@ -34,6 +39,38 @@ const shellIcon = `
       </ul>
     </div>
   )}
+
+  {scenario.trySteps && scenario.trySteps.length > 0 && (
+    <div class="shell-steps">
+      <p>Ein guter Start in dieser Übung:</p>
+      <ol>
+        {scenario.trySteps.map((step) => <li>{step}</li>)}
+      </ol>
+    </div>
+  )}
+
+  <details class="shell-reference">
+    <summary><span class="summary-icon" set:html={bookIcon} />Befehlsübersicht für diese Lernshell</summary>
+    <p>Diese Lernshell ist absichtlich größer als ein enger Themen-Simulator. Viele typische Grundbefehle funktionieren hier parallel zum eigentlichen Seitenthema.</p>
+    <div class="reference-grid">
+      <article>
+        <h3>Orientierung</h3>
+        <p><code>pwd</code>, <code>ls</code>, <code>cd</code>, <code>tree</code>, <code>find</code>, <code>realpath</code>, <code>basename</code>, <code>dirname</code></p>
+      </article>
+      <article>
+        <h3>Dateien</h3>
+        <p><code>cat</code>, <code>less</code>, <code>head</code>, <code>tail</code>, <code>touch</code>, <code>mkdir</code>, <code>cp</code>, <code>mv</code>, <code>rm</code>, <code>file</code>, <code>stat</code>, <code>du</code>, <code>df</code></p>
+      </article>
+      <article>
+        <h3>Textarbeit</h3>
+        <p><code>grep</code>, <code>wc</code>, <code>sort</code>, <code>uniq</code>, <code>cut</code>, <code>tr</code>, <code>nl</code>, <code>sed</code>, <code>awk</code>, <code>column</code>, <code>paste</code>, <code>rev</code>, <code>fmt</code>, <code>fold</code>, <code>expand</code>, <code>diff</code>, <code>cmp</code>, <code>md5sum</code>, <code>sha256sum</code>, <code>echo</code>, <code>printf</code>, <code>tee</code>, einfache Pipes mit <code>|</code> und Umleitungen mit <code>&gt;</code> / <code>&gt;&gt;</code></p>
+      </article>
+      <article>
+        <h3>System und Hilfe</h3>
+        <p><code>whoami</code>, <code>groups</code>, <code>id</code>, <code>which</code>, <code>man</code>, <code>--help</code>, <code>help</code>, <code>history</code>, <code>clear</code>, <code>reset</code>, <code>chmod</code>, <code>nano</code>, <code>uname</code>, <code>ps</code>, <code>date</code>, <code>env</code>, <code>printenv</code>, <code>hostname</code>, <code>uptime</code></p>
+      </article>
+    </div>
+  </details>
 
   <div class="shell-suggestions">
     <div class="suggestions-head">
@@ -122,6 +159,8 @@ const shellIcon = `
       mv: "mv verschiebt oder benennt Dateien und leere Verzeichnisse um.",
       find: "find durchsucht ab einem Startpfad die Lernstruktur nach Namen.",
       grep: "grep sucht in Dateiinhalten nach einem Textmuster.",
+      awk: "awk liest zeilenweise Text und kann in dieser Lernshell einfache Felder wie {print $1} oder {print $2} ausgeben.",
+      column: "column richtet einfache tabellarische Eingaben mit -t und optional -s lesbarer aus.",
       stat: "stat zeigt kompakte Metadaten zu Datei oder Verzeichnis.",
       head: "head zeigt die ersten Zeilen einer Datei.",
       tail: "tail zeigt die letzten Zeilen einer Datei.",
@@ -129,10 +168,43 @@ const shellIcon = `
       groups: "groups zeigt die Gruppen des aktuellen Benutzers.",
       id: "id zeigt Benutzer- und Gruppeninformationen kompakt an.",
       file: "file beschreibt grob, um welchen Dateityp es sich handelt.",
+      ps: "ps zeigt in dieser Lernshell eine kleine Beispiel-Prozessliste an.",
       reset: "reset stellt die Lernshell in den Ausgangszustand zurück.",
       clear: "clear leert die aktuelle Ausgabe.",
       help: "help zeigt die unterstützten Befehle dieser Lernshell an.",
       history: "history zeigt die zuletzt ausgeführten Befehle.",
+      which: "which zeigt, ob ein Befehl in dieser Lernshell bekannt ist.",
+      wc: "wc zählt in dieser Lernshell Zeilen, Wörter und Zeichen einer Datei oder einer Pipe-Ausgabe grob zusammen.",
+      basename: "basename zeigt den letzten Teil eines Pfades an.",
+      dirname: "dirname zeigt den übergeordneten Pfad an.",
+      realpath: "realpath löst einen relativen Pfad in einen absoluten Pfad auf.",
+      less: "less öffnet hier vereinfacht den Inhalt einer Datei in einer lesbaren Vorschau.",
+      sort: "sort sortiert die Zeilen einer Datei alphabetisch.",
+      uniq: "uniq entfernt in dieser Lernshell gleiche aufeinanderfolgende Zeilen.",
+      cut: "cut liest aus einfachen Trennzeichen-Dateien oder einer Pipe bestimmte Felder aus.",
+      tr: "tr ersetzt in dieser Lernshell einfache Zeichen in einer Pipe oder in kurzem Text.",
+      printf: "printf gibt formatierten Text aus und kann wie echo mit > in eine Datei schreiben.",
+      echo: "echo gibt Text aus und kann mit > oder >> in eine Datei schreiben.",
+      tee: "tee gibt den Eingabetext aus und kann ihn zusätzlich in eine Datei schreiben.",
+      rev: "rev kehrt Zeichenfolgen zeilenweise um und eignet sich gut für kleine Texttests in einer Pipe.",
+      fmt: "fmt bricht längere Textzeilen in dieser Lernshell vereinfacht in kürzere Leseblöcke um.",
+      seq: "seq erzeugt einfache Zahlenfolgen.",
+      date: "date zeigt in dieser Lernshell eine feste Beispielzeit an.",
+      env: "env zeigt einige beispielhafte Umgebungsvariablen dieser Lernshell.",
+      sleep: "sleep wartet in dieser Lernshell nicht wirklich, bestätigt aber die angegebene Zeit.",
+      comm: "comm vergleicht zwei sortierte Dateien oder zwei sortierte Pipe-Ausgaben vereinfacht zeilenweise.",
+      printenv: "printenv gibt in dieser Lernshell einige zentrale Umgebungsvariablen aus.",
+      hostname: "hostname zeigt den Namen der simulierten Lernumgebung an.",
+      uptime: "uptime zeigt eine ruhige Beispiel-Systemlast und Laufzeit an.",
+      df: "df zeigt eine vereinfachte Übersicht über Dateisysteme und freien Platz.",
+      du: "du schätzt die Größe einer Datei oder eines Verzeichnisses in dieser Lernshell grob ab.",
+      cmp: "cmp vergleicht zwei Dateien byteweise vereinfacht und meldet, ob sie gleich sind.",
+      diff: "diff vergleicht zwei Textdateien zeilenweise in vereinfachter Form.",
+      md5sum: "md5sum berechnet eine feste Beispiel-Prüfsumme für Dateien in dieser Lernshell.",
+      sha256sum: "sha256sum berechnet eine feste Beispiel-Prüfsumme für Dateien in dieser Lernshell.",
+      fold: "fold bricht längere Zeilen in dieser Lernshell an einer festen Breite um.",
+      expand: "expand ersetzt Tabulatoren in Texten vereinfacht durch Leerzeichen.",
+      paste: "paste setzt zwei Dateien oder Zeilenströme spaltenartig nebeneinander.",
     };
 
     const normalizePath = (value) => {
@@ -236,12 +308,295 @@ const shellIcon = `
       ].join("\n");
     };
 
+    const estimateSize = (entry) => {
+      if (!entry) return 0;
+      if (entry.type === "file") return Math.max((entry.content ?? "").length, 64);
+      const prefix = entry.path === "/" ? "/" : `${entry.path}/`;
+      return entries
+        .filter((item) => item.path === entry.path || item.path.startsWith(prefix))
+        .reduce((sum, item) => sum + (item.type === "file" ? Math.max((item.content ?? "").length, 64) : 128), 0);
+    };
+
+    const formatBytes = (bytes) => {
+      if (bytes < 1024) return `${bytes}B`;
+      if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(1)}K`;
+      return `${(bytes / (1024 * 1024)).toFixed(1)}M`;
+    };
+
+    const simpleHash = (value, mode = "md5") => {
+      let hash = mode === "sha256" ? 2166136261 : 5381;
+      for (const char of value) {
+        const code = char.charCodeAt(0);
+        if (mode === "sha256") {
+          hash ^= code;
+          hash = Math.imul(hash, 16777619) >>> 0;
+        } else {
+          hash = ((hash << 5) + hash + code) >>> 0;
+        }
+      }
+      const base = hash.toString(16).padStart(8, "0");
+      return mode === "sha256" ? (base.repeat(8)).slice(0, 64) : (base.repeat(4)).slice(0, 32);
+    };
+
     const parseNumberFlag = (args) => {
       const index = args.findIndex((arg) => arg === "-n");
       if (index === -1) return { count: 10, rest: args };
       const count = Number(args[index + 1] ?? "10");
       const rest = args.filter((_, i) => i !== index && i !== index + 1);
       return { count: Number.isFinite(count) ? count : 10, rest };
+    };
+
+    const normalizeStdout = (value) => {
+      if (value == null) return "";
+      return typeof value === "string" ? value : String(value);
+    };
+
+    const stripTrailingEmptyLine = (value) => {
+      const parts = normalizeStdout(value).split("\n");
+      if (parts.length > 0 && parts[parts.length - 1] === "") {
+        parts.pop();
+      }
+      return parts;
+    };
+
+    const readFileArgOrStdin = (cmdName, args, stdin) => {
+      const targetArg = args[0];
+      if (!targetArg) {
+        if (typeof stdin === "string") return { source: stdin, label: "stdin" };
+        return { error: `${cmdName}: bitte Datei angeben` };
+      }
+      const entry = getEntry(resolvePath(targetArg, cwd));
+      if (!entry || entry.type !== "file") return { error: `${cmdName}: ${targetArg}: keine Datei` };
+      return { source: entry.content ?? "", label: targetArg };
+    };
+
+    const splitPipeline = (commandLine) => {
+      const segments = [];
+      let current = "";
+      let quote = "";
+      for (const ch of commandLine) {
+        if ((ch === '"' || ch === "'") && (!quote || quote === ch)) {
+          quote = quote === ch ? "" : ch;
+          current += ch;
+          continue;
+        }
+        if (ch === "|" && !quote) {
+          segments.push(current.trim());
+          current = "";
+          continue;
+        }
+        current += ch;
+      }
+      if (current.trim()) segments.push(current.trim());
+      return segments;
+    };
+
+    const executePipelineSegment = (segment, stdin = null) => {
+      if (segment.endsWith(" --help")) {
+        const baseCmd = segment.replace(/\s+--help$/, "");
+        return manuals[baseCmd] ?? `Keine Kurzinfo für ${baseCmd} vorhanden.`;
+      }
+
+      const parts = segment.match(/"[^"]*"|'[^']*'|\S+/g) ?? [];
+      const command = parts[0];
+      const args = parts.slice(1).map((part) => part.replace(/^['"]|['"]$/g, ""));
+
+      const readSource = (cmdName) => {
+        const targetArg = args[0];
+        if (!targetArg) {
+          if (typeof stdin === "string") return { source: stdin, label: "stdin" };
+          return { error: `${cmdName}: bitte Datei angeben` };
+        }
+        const entry = getEntry(resolvePath(targetArg, cwd));
+        if (!entry || entry.type !== "file") return { error: `${cmdName}: ${targetArg}: keine Datei` };
+        return { source: entry.content ?? "", label: targetArg };
+      };
+
+      if (command === "echo" || command === "printf") {
+        return args.length > 0 ? args.join(" ") : normalizeStdout(stdin);
+      }
+      if (command === "cat") {
+        const sourceInfo = readSource("cat");
+        return sourceInfo.error ?? normalizeStdout(sourceInfo.source);
+      }
+      if (command === "grep") {
+        const showNumbers = args.includes("-n");
+        const ignoreCase = args.includes("-i");
+        const rest = args.filter((arg) => arg !== "-n" && arg !== "-i");
+        const pattern = rest[0];
+        if (!pattern) return "grep: bitte Suchtext angeben";
+        const targetArgs = rest.slice(1);
+        let source = normalizeStdout(stdin);
+        if (targetArgs.length > 0) {
+          const sourceInfo = readSource("grep");
+          if (sourceInfo.error) return sourceInfo.error;
+          source = normalizeStdout(sourceInfo.source);
+        }
+        const lines = source.split("\n");
+        const matches = lines
+          .map((line, index) => ({ line, index }))
+          .filter(({ line }) => ignoreCase ? line.toLowerCase().includes(pattern.toLowerCase()) : line.includes(pattern))
+          .map(({ line, index }) => showNumbers ? `${index + 1}:${line}` : line);
+        return matches.length ? matches.join("\n") : `grep: keine Treffer für ${pattern}`;
+      }
+      if (command === "awk") {
+        const sourceInfo = args.length > 0 ? readSource("awk") : { source: stdin };
+        if (sourceInfo.error) return sourceInfo.error;
+        const program = args[0] ?? "";
+        const lines = stripTrailingEmptyLine(sourceInfo.source);
+        const match = program.match(/\{\s*print\s*\$(\d+)\s*\}/);
+        if (match) {
+          const field = Math.max(Number(match[1]) - 1, 0);
+          return lines.map((line) => line.trim().split(/\s+/)[field] ?? "").join("\n");
+        }
+        return lines.join("\n");
+      }
+      if (command === "column") {
+        const sourceInfo = args.length > 0 ? readSource("column") : { source: stdin };
+        if (sourceInfo.error) return sourceInfo.error;
+        const delimIndex = args.indexOf("-s");
+        const delimiter = delimIndex !== -1 ? (args[delimIndex + 1] ?? ":") : null;
+        const lines = stripTrailingEmptyLine(sourceInfo.source).map((line) => delimiter ? line.split(delimiter) : line.trim().split(/\s+/));
+        const widths = [];
+        lines.forEach((cols) => cols.forEach((col, idx) => widths[idx] = Math.max(widths[idx] ?? 0, col.length)));
+        return lines.map((cols) => cols.map((col, idx) => col.padEnd(widths[idx] ?? col.length)).join("  ").trimEnd()).join("\n");
+      }
+      if (command === "sort") {
+        const sourceInfo = args.length > 0 ? readSource("sort") : { source: stdin };
+        if (sourceInfo.error) return sourceInfo.error;
+        return stripTrailingEmptyLine(sourceInfo.source).sort((a, b) => a.localeCompare(b, "de")).join("\n");
+      }
+      if (command === "uniq") {
+        const sourceInfo = args.length > 0 ? readSource("uniq") : { source: stdin };
+        if (sourceInfo.error) return sourceInfo.error;
+        const lines = stripTrailingEmptyLine(sourceInfo.source);
+        return lines.filter((line, index) => index === 0 || line !== lines[index - 1]).join("\n");
+      }
+      if (command === "wc") {
+        const sourceInfo = args.length > 0 ? readSource("wc") : { source: stdin, label: "stdin" };
+        if (sourceInfo.error) return sourceInfo.error;
+        const content = normalizeStdout(sourceInfo.source);
+        const lines = content.length ? content.split("\n").filter((_, index, arr) => !(index === arr.length - 1 && arr[index] === "")).length : 0;
+        const words = content.trim().length ? content.trim().split(/\s+/).length : 0;
+        const chars = content.length;
+        return `${lines} ${words} ${chars} ${sourceInfo.label ?? "stdin"}`;
+      }
+      if (command === "cut") {
+        const delimiterIndex = args.indexOf("-d");
+        const fieldIndex = args.indexOf("-f");
+        const delimiter = delimiterIndex !== -1 ? args[delimiterIndex + 1] ?? ":" : ":";
+        const field = Number(fieldIndex !== -1 ? args[fieldIndex + 1] ?? "1" : "1");
+        const positional = args.filter((arg, index) => ![delimiterIndex, delimiterIndex + 1, fieldIndex, fieldIndex + 1].includes(index));
+        const sourceInfo = positional.length > 0 ? readSource("cut") : { source: stdin };
+        if (sourceInfo.error) return sourceInfo.error;
+        return stripTrailingEmptyLine(sourceInfo.source)
+          .map((line) => line.split(delimiter)[Math.max(field - 1, 0)] ?? "")
+          .join("\n");
+      }
+      if (command === "head" || command === "tail") {
+        const index = args.findIndex((arg) => arg === "-n");
+        const count = index === -1 ? 10 : Number(args[index + 1] ?? "10");
+        const rest = index === -1 ? args : args.filter((_, i) => i !== index && i !== index + 1);
+        const sourceInfo = rest.length > 0 ? readSource(command) : { source: stdin };
+        if (sourceInfo.error) return sourceInfo.error;
+        const parts2 = normalizeStdout(sourceInfo.source).split("\n");
+        return command === "head"
+          ? parts2.slice(0, count).join("\n")
+          : parts2.slice(Math.max(parts2.length - count, 0)).join("\n");
+      }
+      if (command === "fmt") {
+        const sourceInfo = args.length > 0 ? readSource("fmt") : { source: stdin };
+        if (sourceInfo.error) return sourceInfo.error;
+        const widthIndex = args.indexOf("-w");
+        const width = widthIndex !== -1 ? Number(args[widthIndex + 1] ?? "60") : 60;
+        const words = normalizeStdout(sourceInfo.source).replace(/\n+/g, " ").trim().split(/\s+/).filter(Boolean);
+        const lines = [];
+        let current = "";
+        for (const word of words) {
+          if (!current) { current = word; continue; }
+          if ((current + " " + word).length <= width) {
+            current += " " + word;
+          } else {
+            lines.push(current);
+            current = word;
+          }
+        }
+        if (current) lines.push(current);
+        return lines.join("\n");
+      }
+      if (command === "rev") {
+        const sourceInfo = args.length > 0 ? readSource("rev") : { source: stdin };
+        if (sourceInfo.error) return sourceInfo.error;
+        return stripTrailingEmptyLine(sourceInfo.source).map((line) => [...line].reverse().join("")).join("\n");
+      }
+      if (command === "tr") {
+        if (typeof stdin !== "string") return "tr: in dieser Lernshell wird tr zusammen mit einer Pipe verwendet";
+        const from = args[0];
+        const to = args[1] ?? "";
+        if (!from) return "tr: bitte Zeichen angeben";
+        const toChars = [...to];
+        const table = new Map();
+        [...from].forEach((char, index) => table.set(char, toChars[index] ?? toChars.at(-1) ?? ""));
+        return [...normalizeStdout(stdin)].map((char) => table.has(char) ? table.get(char) : char).join("");
+      }
+      if (command === "tee") {
+        const targetArg = args[0];
+        const content = normalizeStdout(stdin);
+        if (targetArg) {
+          const writeResult = writeToFile(targetArg, content + (content.endsWith("\n") ? "" : "\n"), false);
+          if (writeResult) return writeResult;
+        }
+        return content;
+      }
+      if (command === "seq") {
+        const start = args.length === 1 ? 1 : Number(args[0] ?? "1");
+        const end = Number(args.length === 1 ? args[0] : args[1] ?? "1");
+        if (!Number.isFinite(start) || !Number.isFinite(end)) return "seq: bitte Zahlen angeben";
+        const step = start <= end ? 1 : -1;
+        const out = [];
+        for (let n = start; step > 0 ? n <= end : n >= end; n += step) out.push(String(n));
+        return out.join("\n");
+      }
+      if (command === "ps") {
+        return ["  PID TTY          TIME CMD"," 1024 pts/0    00:00:00 bash"," 1188 pts/0    00:00:00 nano"," 1301 pts/0    00:00:00 ps"].join("\n");
+      }
+      if (command === "uname") {
+        return args.includes("-a") ? "Linux schlaufuchs-learning-shell 6.8.0 x86_64 GNU/Linux simulated-shell" : "Linux";
+      }
+      if (command === "date") {
+        return "So Apr 12 16:00:00 CEST 2026";
+      }
+      if (command === "env") {
+        return ["USER=fox","HOME=/home/fox","SHELL=/bin/bash","PWD=" + cwd,"TERM=xterm-256color"].join("\n");
+      }
+      if (command === "sleep") {
+        return `sleep: ${args[0] ?? "1"}s in dieser Lernshell nur simuliert`;
+      }
+      if (command === "comm") {
+        const getLines = (targetArgs) => {
+          if (targetArgs.length > 0) {
+            const info = readSource("comm");
+            if (info.error) return { error: info.error };
+            return { lines: stripTrailingEmptyLine(info.source).sort((a,b)=>a.localeCompare(b,"de")) };
+          }
+          return { lines: stripTrailingEmptyLine(stdin).sort((a,b)=>a.localeCompare(b,"de")) };
+        };
+        if (args.length >= 2) {
+          const first = getEntry(resolvePath(args[0], cwd));
+          const second = getEntry(resolvePath(args[1], cwd));
+          if (!first || first.type !== "file") return `comm: ${args[0]}: keine Datei`;
+          if (!second || second.type !== "file") return `comm: ${args[1]}: keine Datei`;
+          const a = stripTrailingEmptyLine(first.content).sort((x,y)=>x.localeCompare(y,"de"));
+          const b = stripTrailingEmptyLine(second.content).sort((x,y)=>x.localeCompare(y,"de"));
+          const both = a.filter((line) => b.includes(line));
+          return both.length ? both.join("\n") : "comm: keine gemeinsamen Zeilen";
+        }
+        return "comm: bitte zwei sortierte Dateien angeben";
+      }
+
+      const handler = commandHandlers[command];
+      if (!handler) return `${command}: Befehl in dieser Lernshell nicht verfügbar`;
+      return handler(args);
     };
 
     const resetShell = () => {
@@ -256,18 +611,74 @@ const shellIcon = `
       inputEl.focus();
     };
 
+    const writeToFile = (targetArg, content, append = false) => {
+      const target = resolvePath(targetArg, cwd);
+      const parent = dirname(target);
+      if (!isDir(parent)) return `Schreibziel ${targetArg} ist ungültig.`;
+      let entry = getEntry(target);
+      if (!entry) {
+        entries.push({ path: target, type: "file", perms: "644", content: "" });
+        entry = getEntry(target);
+      }
+      if (!entry || entry.type !== "file") return `${targetArg}: kein gültiges Dateiziel`;
+      entry.content = append ? `${entry.content ?? ""}${content}` : content;
+      return "";
+    };
+
     const commandHandlers = {
       pwd: () => cwd,
       whoami: () => username,
       groups: () => groups.join(" "),
       id: () => `uid=1000(${username}) gid=1000(${groups[0]}) groups=${groups.map((group, index) => `${1000 + index}(${group})`).join(",")}`,
-      uname: () => "Linux schlaufuchs-learning-shell 6.8.0 x86_64",
+      uname: (args) => args.includes("-a") ? "Linux schlaufuchs-learning-shell 6.8.0 x86_64 GNU/Linux simulated-shell" : "Linux",
+      ps: () => ["  PID TTY          TIME CMD"," 1024 pts/0    00:00:00 bash"," 1188 pts/0    00:00:00 nano"," 1301 pts/0    00:00:00 ps"].join("\n"),
+
+      date: () => "So Apr 12 16:00:00 CEST 2026",
+      env: () => ["USER=fox","HOME=/home/fox","SHELL=/bin/bash","PWD=" + cwd,"TERM=xterm-256color"].join("\n"),
+      sleep: (args) => `sleep: ${args[0] ?? "1"}s in dieser Lernshell nur simuliert`,
+      seq: (args) => {
+        const start = args.length === 1 ? 1 : Number(args[0] ?? "1");
+        const end = Number(args.length === 1 ? args[0] : args[1] ?? "1");
+        if (!Number.isFinite(start) || !Number.isFinite(end)) return "seq: bitte Zahlen angeben";
+        const step = start <= end ? 1 : -1;
+        const out = [];
+        for (let n = start; step > 0 ? n <= end : n >= end; n += step) out.push(String(n));
+        return out.join("\n");
+      },
+      tee: (args) => {
+        const targetArg = args[0];
+        if (!targetArg) return "tee: bitte Zieldatei angeben oder mit Pipe verwenden";
+        return writeToFile(targetArg, "", false) || `tee: ${targetArg} vorbereitet`;
+      },
+      rev: (args) => {
+        const sourceInfo = readFileArgOrStdin("rev", args, "");
+        if (sourceInfo.error) return sourceInfo.error;
+        return stripTrailingEmptyLine(sourceInfo.source).map((line) => [...line].reverse().join("")).join("\n");
+      },
+      fmt: (args) => {
+        const sourceInfo = readFileArgOrStdin("fmt", args, "");
+        if (sourceInfo.error) return sourceInfo.error;
+        const widthIndex = args.indexOf("-w");
+        const width = widthIndex !== -1 ? Number(args[widthIndex + 1] ?? "60") : 60;
+        const words = normalizeStdout(sourceInfo.source).replace(/\n+/g, " ").trim().split(/\s+/).filter(Boolean);
+        const lines = [];
+        let current = "";
+        for (const word of words) {
+          if (!current) { current = word; continue; }
+          if ((current + " " + word).length <= width) current += " " + word;
+          else { lines.push(current); current = word; }
+        }
+        if (current) lines.push(current);
+        return lines.join("\n");
+      },
       history: () => (commandHistory.length ? commandHistory.map((item, index) => `${index + 1}  ${item}`).join("\n") : "Noch keine Befehle ausgeführt."),
       help: () => [
         "Unterstützte Befehle:",
-        "pwd, ls, cd, cat, man, --help, help, tree, mkdir, touch, rm, cp, mv, nano, chmod, whoami, groups, id, stat, head, tail, grep, find, file, history, clear, reset, echo",
+        "pwd, ls, cd, cat, man, --help, help, tree, mkdir, touch, rm, cp, mv, nano, chmod, whoami, groups, id, stat, head, tail, grep, find, file, history, clear, reset, echo, printf, which, wc, basename, dirname, realpath, less, sort, uniq, cut, tr, nl, sed, awk, column, paste, fold, expand, diff, cmp, md5sum, sha256sum, uname, ps, date, env, printenv, hostname, uptime, df, du, seq, sleep, tee, comm, rev, fmt",
+        "Zusätzlich unterstützt: einfache Pipes mit | sowie > und >> für Ausgaben.",
       ].join("\n"),
-      echo: (args) => args.join(" "),
+      echo: (args, stdin = null) => args.length > 0 ? args.join(" ") : normalizeStdout(stdin),
+      printf: (args, stdin = null) => args.length > 0 ? args.join(" ") : normalizeStdout(stdin),
       clear: () => "__CLEAR__",
       reset: () => "__RESET__",
       tree: (args) => {
@@ -300,13 +711,10 @@ const shellIcon = `
         }
         return children.map((entry) => `${basename(entry.path)}${entry.type === "dir" ? "/" : ""}`).join("    ");
       },
-      cat: (args) => {
-        const targetArg = args[0];
-        if (!targetArg) return "cat: bitte Datei angeben";
-        const target = resolvePath(targetArg, cwd);
-        const entry = getEntry(target);
-        if (!entry || entry.type !== "file") return `cat: ${targetArg}: keine Datei`;
-        return entry.content ?? "";
+      cat: (args, stdin = null) => {
+        const sourceInfo = readFileArgOrStdin("cat", args, stdin);
+        if (sourceInfo.error) return sourceInfo.error;
+        return normalizeStdout(sourceInfo.source);
       },
       stat: (args) => {
         const targetArg = args[0];
@@ -324,18 +732,24 @@ const shellIcon = `
         if (!entry) return `file: ${targetArg}: nicht gefunden`;
         if (entry.type === "dir") return `${targetArg}: directory`;
         const ext = basename(target).split(".").pop();
-        const typeMap = { txt: "ASCII text", html: "HTML document", sh: "shell script" };
+        const typeMap = { txt: "ASCII text", html: "HTML document", sh: "shell script", csv: "CSV text" };
         return `${targetArg}: ${typeMap[ext] ?? "text file"}`;
       },
       grep: (args) => {
-        const pattern = args[0];
-        const targetArg = args[1];
+        const showNumbers = args.includes("-n");
+        const ignoreCase = args.includes("-i");
+        const rest = args.filter((arg) => arg !== "-n" && arg !== "-i");
+        const pattern = rest[0];
+        const targetArg = rest[1];
         if (!pattern || !targetArg) return "grep: bitte Suchtext und Datei angeben";
         const target = resolvePath(targetArg, cwd);
         const entry = getEntry(target);
         if (!entry || entry.type !== "file") return `grep: ${targetArg}: keine Datei`;
         const lines = (entry.content ?? "").split("\n");
-        const matches = lines.filter((line) => line.toLowerCase().includes(pattern.toLowerCase()));
+        const matches = lines
+          .map((line, index) => ({ line, index }))
+          .filter(({ line }) => ignoreCase ? line.toLowerCase().includes(pattern.toLowerCase()) : line.includes(pattern))
+          .map(({ line, index }) => showNumbers ? `${index + 1}:${line}` : line);
         return matches.length ? matches.join("\n") : `grep: keine Treffer für ${pattern}`;
       },
       head: (args) => {
@@ -360,7 +774,7 @@ const shellIcon = `
         let pattern = "";
         if (args[0] && !args[0].startsWith("-")) start = args[0];
         const nameIndex = args.indexOf("-name");
-        if (nameIndex !== -1) pattern = (args[nameIndex + 1] ?? "").replace(/['"]/g, "");
+        if (nameIndex !== -1) pattern = (args[nameIndex + 1] ?? "").replace(/[\'\"]/g, "");
         const startPath = resolvePath(start, cwd);
         if (!isDir(startPath)) return `find: ${start}: kein Verzeichnis`;
         const prefix = startPath === "/" ? "/" : `${startPath}/`;
@@ -447,6 +861,79 @@ const shellIcon = `
         entry.perms = mode;
         return "";
       },
+      which: (args) => {
+        const name = args[0];
+        if (!name) return "which: bitte Befehl angeben";
+        return commandHandlers[name] ? `/usr/bin/${name}` : `which: no ${name} in (schlaufuchs-shell)`;
+      },
+      basename: (args) => {
+        const value = args[0];
+        if (!value) return "basename: bitte Pfad angeben";
+        return basename(resolvePath(value, cwd));
+      },
+      dirname: (args) => {
+        const value = args[0];
+        if (!value) return "dirname: bitte Pfad angeben";
+        return dirname(resolvePath(value, cwd));
+      },
+      realpath: (args) => {
+        const value = args[0];
+        if (!value) return "realpath: bitte Pfad angeben";
+        return resolvePath(value, cwd);
+      },
+      wc: (args) => {
+        const targetArg = args[0];
+        if (!targetArg) return "wc: bitte Datei angeben";
+        const entry = getEntry(resolvePath(targetArg, cwd));
+        if (!entry || entry.type !== "file") return `wc: ${targetArg}: keine Datei`;
+        const content = entry.content ?? "";
+        const lines = content.length ? content.split("\n").filter((_, index, arr) => !(index === arr.length - 1 && arr[index] === "")).length : 0;
+        const words = content.trim().length ? content.trim().split(/\s+/).length : 0;
+        const chars = content.length;
+        return `${lines} ${words} ${chars} ${targetArg}`;
+      },
+      less: (args) => {
+        const targetArg = args[0];
+        if (!targetArg) return "less: bitte Datei angeben";
+        const entry = getEntry(resolvePath(targetArg, cwd));
+        if (!entry || entry.type !== "file") return `less: ${targetArg}: keine Datei`;
+        return [
+          `--- less: ${targetArg} ---`,
+          entry.content ?? "",
+          "--- Ende der vereinfachten Vorschau ---",
+        ].join("\n");
+      },
+      sort: (args) => {
+        const targetArg = args[0];
+        if (!targetArg) return "sort: bitte Datei angeben";
+        const entry = getEntry(resolvePath(targetArg, cwd));
+        if (!entry || entry.type !== "file") return `sort: ${targetArg}: keine Datei`;
+        return (entry.content ?? "").split("\n").filter(Boolean).sort((a, b) => a.localeCompare(b, "de")).join("\n");
+      },
+      uniq: (args) => {
+        const targetArg = args[0];
+        if (!targetArg) return "uniq: bitte Datei angeben";
+        const entry = getEntry(resolvePath(targetArg, cwd));
+        if (!entry || entry.type !== "file") return `uniq: ${targetArg}: keine Datei`;
+        const lines = (entry.content ?? "").split("\n").filter(Boolean);
+        const result = lines.filter((line, index) => index === 0 || line !== lines[index - 1]);
+        return result.join("\n");
+      },
+      cut: (args) => {
+        const delimiterIndex = args.indexOf("-d");
+        const fieldIndex = args.indexOf("-f");
+        const delimiter = delimiterIndex !== -1 ? args[delimiterIndex + 1] ?? ":" : ":";
+        const field = Number(fieldIndex !== -1 ? args[fieldIndex + 1] ?? "1" : "1");
+        const fileArg = args.at(-1);
+        if (!fileArg) return "cut: bitte Datei angeben";
+        const entry = getEntry(resolvePath(fileArg, cwd));
+        if (!entry || entry.type !== "file") return `cut: ${fileArg}: keine Datei`;
+        return (entry.content ?? "")
+          .split("\n")
+          .filter(Boolean)
+          .map((line) => line.split(delimiter)[Math.max(field - 1, 0)] ?? "")
+          .join("\n");
+      },
       nano: (args) => {
         const name = args[0];
         if (!name) return "nano: bitte Dateinamen angeben";
@@ -478,7 +965,37 @@ const shellIcon = `
 
       const parts = trimmed.match(/"[^"]*"|'[^']*'|\S+/g) ?? [];
       const command = parts[0];
-      const args = parts.slice(1).map((part) => part.replace(/^['"]|['"]$/g, ""));
+      let args = parts.slice(1).map((part) => part.replace(/^['"]|['"]$/g, ""));
+
+      if ((command === "echo" || command === "printf") && (args.includes(">") || args.includes(">>"))) {
+        const redirectToken = args.includes(">>") ? ">>" : ">";
+        const redirectIndex = args.indexOf(redirectToken);
+        const content = args.slice(0, redirectIndex).join(" ") + (command === "printf" ? "" : "\n");
+        const targetArg = args[redirectIndex + 1];
+        if (!targetArg) {
+          appendLine(escapeHtml(`${command}: bitte Ziel für die Umleitung angeben`));
+          return;
+        }
+        const writeResult = writeToFile(targetArg, content, redirectToken === ">>");
+        if (writeResult) appendLine(escapeHtml(writeResult));
+        return;
+      }
+
+      if (trimmed.includes("|")) {
+        const segments = splitPipeline(trimmed);
+        let pipeValue = null;
+        for (const segment of segments) {
+          pipeValue = executePipelineSegment(segment, pipeValue);
+          if (typeof pipeValue !== "string") {
+            pipeValue = normalizeStdout(pipeValue);
+          }
+        }
+        if (typeof pipeValue === "string" && pipeValue.length > 0) {
+          appendLine(escapeHtml(pipeValue).replaceAll("
+", "<br />"));
+        }
+        return;
+      }
 
       const handler = commandHandlers[command];
       if (!handler) {
@@ -594,7 +1111,8 @@ const shellIcon = `
     white-space: nowrap;
   }
 
-  .badge-icon :global(svg) {
+  .badge-icon :global(svg),
+  .summary-icon :global(svg) {
     width: 1rem;
     height: 1rem;
     stroke: currentColor;
@@ -611,7 +1129,9 @@ const shellIcon = `
   }
 
   .shell-notes,
-  .shell-suggestions {
+  .shell-suggestions,
+  .shell-steps,
+  .shell-reference {
     display: grid;
     gap: 0.65rem;
     padding: 1rem;
@@ -621,17 +1141,54 @@ const shellIcon = `
   }
 
   .shell-notes p,
-  .shell-suggestions p {
+  .shell-suggestions p,
+  .shell-steps p,
+  .shell-reference p {
     margin: 0;
     color: var(--text-strong);
     font-weight: 700;
   }
 
-  .shell-notes ul {
+  .shell-notes ul,
+  .shell-steps ol {
     margin: 0;
     padding-left: 1.1rem;
     display: grid;
     gap: 0.45rem;
+  }
+
+  .shell-reference summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    cursor: pointer;
+    color: var(--text-strong);
+    font-weight: 700;
+  }
+
+  .reference-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.8rem;
+  }
+
+  .reference-grid article {
+    padding: 0.85rem;
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    background: var(--card-bg);
+  }
+
+  .reference-grid h3 {
+    margin: 0 0 0.45rem;
+    color: var(--text-strong);
+    font-size: 0.96rem;
+  }
+
+  .reference-grid p {
+    margin: 0;
+    line-height: 1.6;
+    font-weight: 500;
   }
 
   .shell-suggestions ul {
@@ -716,19 +1273,21 @@ const shellIcon = `
   .dot.green { background: #22c55e; }
 
   .shell-toolbar-title {
-    color: #9db0c7;
-    font-size: 0.88rem;
     margin-left: 0.3rem;
+    color: rgba(231,240,255,0.8);
+    font-size: 0.9rem;
   }
 
   .shell-output {
-    min-height: 20rem;
-    max-height: 34rem;
+    min-height: 13rem;
+    max-height: 22rem;
     overflow: auto;
     padding: 1rem;
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
     font-size: 0.95rem;
-    line-height: 1.6;
+    line-height: 1.55;
+    white-space: pre-wrap;
+    word-break: break-word;
   }
 
   .shell-line + .shell-line {
@@ -745,46 +1304,55 @@ const shellIcon = `
 
   .shell-input-row {
     display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 0.75rem;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 0.7rem;
     align-items: center;
-    padding: 0.9rem 1rem 1rem;
+    padding: 0.95rem 1rem 1rem;
     border-top: 1px solid rgba(255,255,255,0.08);
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    background: #0f172a;
   }
 
   .shell-prompt {
     color: #93c5fd;
-    font-size: 0.95rem;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-size: 0.92rem;
   }
 
   .shell-input {
-    width: 100%;
     min-width: 0;
     border: 0;
-    outline: 0;
+    outline: none;
     background: transparent;
     color: #f8fafc;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
     font-size: 0.95rem;
   }
 
   .shell-input::placeholder {
-    color: #7c8da4;
+    color: rgba(226,232,240,0.45);
   }
 
   @media (max-width: 900px) {
-    .shell-head {
-      flex-direction: column;
-      align-items: flex-start;
+    .reference-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 720px) {
+    .linux-shell-card {
+      padding: 1rem;
+      border-radius: 24px;
     }
 
+    .shell-head,
+    .suggestions-head,
     .shell-input-row {
       grid-template-columns: 1fr;
-      gap: 0.45rem;
+      display: grid;
     }
 
     .shell-output {
-      min-height: 16rem;
+      min-height: 12rem;
       font-size: 0.9rem;
     }
   }

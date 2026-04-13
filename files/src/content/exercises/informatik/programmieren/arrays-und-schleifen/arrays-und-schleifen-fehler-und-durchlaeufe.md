@@ -122,3 +122,15 @@ Bearbeite zum Schluss noch diese kurzen Zusatzfragen, damit du die Aufgabe nicht
 - Was war in dieser Aufgabe der fachlich wichtigste Schritt?
 - Wo war die größte Verwechslungsgefahr?
 - Was würdest du vor der nächsten ähnlichen Aufgabe zuerst prüfen?
+
+## Hinweise
+
+- Arbeite Durchläufe Zeile für Zeile ab.
+- Achte besonders auf Startwert, Endbedingung und Indexzugriffe.
+- Notiere Zwischenschritte statt nur das Endergebnis.
+
+## Selbstkontrolle
+
+- Ich kann Array-Zugriffe sauber verfolgen.
+- Ich erkenne typische Schleifenfehler.
+- Ich kann Off-by-one-Probleme erklären.

@@ -3,12 +3,13 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { render, type CollectionEntry } from "astro:content";
 import { getVisibleArticles, getVisibleExercises, levelLabels } from "../../data/content";
 import { resolvePrimarySubjectSlug, subjectTitleMap } from "../../data/subjects";
-import { getTopicTail, getSharedTopicPrefixLength, humanizeTopicSegment } from "../../data/topics";
+import { getSectionDisplayLabel, getTopicDisplayLabel, getTopicFitScore, getTopicOverviewPath, getTopicTail, humanizeTopicSegment } from "../../data/topics";
 import { withBase } from "../../utils/base";
 import PageTrail from "../../components/content/PageTrail.astro";
 import OverviewPanel from "../../components/content/OverviewPanel.astro";
 import SectionHeading from "../../components/content/SectionHeading.astro";
 import ResourceCard from "../../components/content/ResourceCard.astro";
+import SupportChecklist from "../../components/content/SupportChecklist.astro";
 
 export async function getStaticPaths() {
   const exercises = await getVisibleExercises();
@@ -24,30 +25,30 @@ const { Content } = await render(entry);
 const subjectTitle = subjectTitleMap[entry.data.subject] ?? "Fachbereich";
 const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject) ?? "elektrotechnik";
 const topicTail = getTopicTail(entry);
-const topicBranch = topicTail.slice(0, -1);
+const topicBranch = getTopicOverviewPath(entry);
 const topicPathHref = topicBranch.length > 0 ? withBase(`fachbereiche/${subjectSlug}/${topicBranch.join("/")}`) : withBase(`fachbereiche/${subjectSlug}`);
 const printHref = withBase(`druck/aufgaben/${entry.id}`);
+const hintPoints = Array.isArray(entry.data.hintPoints) ? entry.data.hintPoints.filter(Boolean) : [];
+const selfCheckPoints = Array.isArray(entry.data.selfCheckPoints) ? entry.data.selfCheckPoints.filter(Boolean) : [];
 
 const [allArticles, allExercises] = await Promise.all([getVisibleArticles(), getVisibleExercises()]);
+const entryTopicLabel = getTopicDisplayLabel(entry);
+const entrySectionLabel = getSectionDisplayLabel(entry.data.section);
 
-const scoreByTopicFit = (item: CollectionEntry<"articles"> | CollectionEntry<"exercises">) => {
-  const sharedPath = getSharedTopicPrefixLength(topicTail, getTopicTail(item));
-  const sameSection = item.data.section === entry.data.section ? 2 : 0;
-  const itemTags = "tags" in item.data && Array.isArray(item.data.tags) ? item.data.tags : [];
-  const entryTags = Array.isArray(entry.data.tags) ? entry.data.tags : [];
-  const sharedTags = itemTags.filter((tag) => entryTags.includes(tag)).length;
-  return sharedPath * 4 + sameSection + sharedTags;
-};
-
-const relatedArticles = allArticles
+const rankedRelatedArticles = allArticles
   .filter((item) => resolvePrimarySubjectSlug(item.data.subject) === subjectSlug)
-  .sort((a, b) => scoreByTopicFit(b) - scoreByTopicFit(a))
-  .slice(0, 4);
+  .map((item) => ({ item, score: getTopicFitScore(entry, item) }))
+  .filter(({ score }) => score >= 4)
+  .sort((a, b) => b.score - a.score);
 
-const relatedExercises = allExercises
+const rankedRelatedExercises = allExercises
   .filter((item) => item.id !== entry.id && resolvePrimarySubjectSlug(item.data.subject) === subjectSlug)
-  .sort((a, b) => scoreByTopicFit(b) - scoreByTopicFit(a))
-  .slice(0, 4);
+  .map((item) => ({ item, score: getTopicFitScore(entry, item) }))
+  .filter(({ score }) => score >= 4)
+  .sort((a, b) => b.score - a.score);
+
+const relatedArticles = rankedRelatedArticles.map(({ item }) => item).slice(0, 4);
+const relatedExercises = rankedRelatedExercises.map(({ item }) => item).slice(0, 4);
 
 const breadcrumbSegments = topicBranch.map((segment, index) => ({
   label: humanizeTopicSegment(segment),
@@ -90,7 +91,8 @@ const overviewPoints = [
       <div class="hero-meta-row">
         <span class="meta-chip">{subjectTitle}</span>
         <span class="meta-chip">{levelLabels[entry.data.level]}</span>
-        {entry.data.section && <span class="meta-chip">{entry.data.section}</span>}
+        {entry.data.section && <span class="meta-chip">{entrySectionLabel}</span>}
+        <span class="meta-chip">{entryTopicLabel}</span>
       </div>
       <h1>{entry.data.title}</h1>
       <p class="lead">{entry.data.description}</p>
@@ -104,7 +106,7 @@ const overviewPoints = [
       actionLabel="Zum Themenpfad →"
     />
 
-    <section class="print-row">
+    <section class="action-row-shell">
       <a class="print-link" href={printHref}>Druckansicht öffnen →</a>
     </section>
 
@@ -114,15 +116,23 @@ const overviewPoints = [
       </article>
     </section>
 
+    {(hintPoints.length > 0 || selfCheckPoints.length > 0) && (
+      <section class="exercise-support wide-bleed">
+        <SupportChecklist title="Worauf du achten kannst" kicker="Hinweise" items={hintPoints} />
+        <SupportChecklist title="Das solltest du am Ende prüfen" kicker="Selbstkontrolle" items={selfCheckPoints} />
+      </section>
+    )}
+
     {relatedArticles.length > 0 && (
       <section class="related-section">
         <SectionHeading kicker="Wissensseiten" title="Passende Fachinfos zu dieser Aufgabe" />
+        <p class="related-intro">Diese Wissensseiten liegen im gleichen Themenpfad und helfen dir genau bei dieser Aufgabe weiter.</p>
         <div class="related-grid article-grid">
           {relatedArticles.map((item) => (
             <ResourceCard
               title={item.data.title}
               description={item.data.description}
-              meta={item.data.section}
+              meta={getTopicDisplayLabel(item)}
               href={withBase(`wissen/${item.id}`)}
               ctaLabel="Wissensseite öffnen →"
               icon={articleIcon}
@@ -136,6 +146,7 @@ const overviewPoints = [
     {relatedExercises.length > 0 && (
       <section class="related-section">
         <SectionHeading kicker="Weitere Aufgaben" title="Mehr Aufgaben im gleichen Themenfeld" />
+        <p class="related-intro">Hier findest du weitere Aufgaben, die denselben Themenpfad aufgreifen und fachlich nah beieinander liegen.</p>
         <div class="related-grid task-grid">
           {relatedExercises.map((item) => (
             <ResourceCard
@@ -205,7 +216,7 @@ const overviewPoints = [
     max-width: 58rem;
   }
 
-  .print-row {
+  .action-row-shell {
     display: flex;
     justify-content: flex-start;
   }
@@ -230,17 +241,32 @@ const overviewPoints = [
   }
 
   .exercise-content {
-    padding: 1.6rem;
+    padding: clamp(1.3rem, 2vw, 2rem);
     border: 1px solid var(--border);
-    border-radius: 28px;
+    border-radius: 30px;
     background: var(--card-bg);
     box-shadow: var(--shadow-card);
+    overflow: hidden;
+  }
+
+  .exercise-support,
+  .related-grid {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .exercise-support {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .related-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .exercise-content :global(h2) {
-    margin-top: 1.9rem;
+    margin-top: 1.8rem;
     color: var(--text-strong);
-    font-size: 1.56rem;
+    font-size: clamp(1.45rem, 2.4vw, 1.85rem);
     line-height: 1.15;
   }
 
@@ -249,45 +275,32 @@ const overviewPoints = [
   }
 
   .exercise-content :global(h3) {
-    margin-top: 1.35rem;
+    margin-top: 1.2rem;
     color: var(--text-strong);
-    font-size: 1.18rem;
-    line-height: 1.22;
+    font-size: 1.12rem;
+    line-height: 1.2;
   }
 
   .exercise-content :global(p),
   .exercise-content :global(li) {
     color: var(--text);
     line-height: 1.82;
-    font-size: 1.02rem;
+    font-size: 1rem;
   }
 
   .exercise-content :global(ul),
   .exercise-content :global(ol) {
-    padding-left: 1.25rem;
+    padding-left: 1.2rem;
   }
 
-  .exercise-content :global(img),
-  .exercise-content :global(table),
-  .exercise-content :global(pre),
-  .exercise-content :global(.full-width-block) {
-    width: min(100%, 1000px);
-    margin-inline: auto;
-  }
-
-  .related-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1rem;
+  .exercise-content :global(pre) {
+    overflow-x: auto;
   }
 
   @media (max-width: 980px) {
+    .exercise-support,
     .related-grid {
       grid-template-columns: 1fr;
-    }
-
-    .exercise-content {
-      padding: 1.2rem;
     }
   }
 </style>

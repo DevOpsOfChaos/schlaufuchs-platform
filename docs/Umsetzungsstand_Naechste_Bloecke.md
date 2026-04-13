@@ -25,3 +25,7 @@ Dieser Sammelstand enthält inzwischen Layout, Routing, thematische Zuordnung, e
 - sinnvoller nächster Block: letzte Inhaltsangleichungen + Bild/Medienstandard + finale Bundle-Durchsicht
 
 - Zusätzlicher breiter Pass abgeschlossen: Shell text- und systemnäher, kurze Aufgaben weniger knapp, kurze Wissensseiten in der Tiefe angeglichen.
+
+## Neuer Zwischenstand
+
+Mehrere bisher noch knappe Wissensseiten und Aufgaben wurden im Sammelbundle weiter vertieft. Der Schwerpunkt lag diesmal bewusst auf zusätzlicher Einordnung, Anwendung und Begründung statt auf neuen UI-Risiken.

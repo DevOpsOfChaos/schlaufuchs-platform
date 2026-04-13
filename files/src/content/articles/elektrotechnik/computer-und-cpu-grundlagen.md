@@ -4,17 +4,35 @@ description: Verstehe den Aufbau einfacher Computersysteme und die Rolle der CPU
 subject: elektrotechnik
 section: computer-und-cpu
 topicPath:
-  - daten-und-signale
-  - computer-und-cpu
+- daten-und-signale
+- computer-und-cpu
 learningGoals:
-  - Du kannst die Rolle der CPU in einem einfachen Computersystem erklären.
-  - Du unterscheidest CPU, Speicher und Ein-/Ausgabe sauber voneinander.
-  - Du kannst beschreiben, warum Daten und Signale für die CPU überhaupt erst nutzbar werden.
+- Du ordnest CPU, Speicher und Ein-/Ausgabe fachlich auseinander.
+- Du beschreibst einfache Datenverarbeitung als technischen Ablauf.
+- Du verstehst, warum ein Computersystem aus mehreren Bauteilen besteht.
+practiceIdeas:
+- Ordne CPU, Speicher und Ein-/Ausgabe in einer kleinen Geräteskizze ihren Aufgaben
+  zu.
+- Beschreibe einen einfachen Ablauf vom Eingangssignal bis zur Ausgabe.
+- Vergleiche zwei Geräte danach, welche Rolle die CPU jeweils spielt.
+commonMistakes:
+- Die CPU mit dem ganzen Computer zu verwechseln.
+- Speicher und Verarbeitung als dieselbe Aufgabe zu sehen.
+- Ein- und Ausgabe ohne Bezug zur Verarbeitung zu betrachten.
+keyTakeaways:
+- Die CPU verarbeitet Befehle und steuert Abläufe.
+- Speicher, Ein- und Ausgabe gehören zum Gesamtsystem dazu.
+- Erst das Zusammenspiel der Bauteile macht einen Computer nutzbar.
+tags:
+- cpu
+- computer
+- grundlagen
+- speicher
+- eingabe
+- ausgabe
 level: einfach
-tags: [cpu, computer, grundlagen, speicher, eingabe, ausgabe]
 draft: false
 ---
-
 Computer wirken im Alltag oft wie geschlossene Geräte. Für das Verstehen technischer Systeme ist es aber viel hilfreicher, sie in **Baugruppen mit klaren Aufgaben** zu zerlegen. Genau dort setzt dieses Thema an: Die CPU ist wichtig, aber sie ist nie allein.
 
 ## Was du hier lernst
@@ -128,3 +146,19 @@ Die CPU ist damit ein Verbindungsthema zwischen:
 - Ein Computer besteht nicht nur aus der CPU, sondern aus mehreren zusammenwirkenden Baugruppen.
 - Speicher liefert Programme und Daten für die Verarbeitung.
 - Ein- und Ausgaben verbinden das System mit seiner Umgebung.
+
+
+## Woran du das Thema erkennst
+
+Du merkst, dass dieses Thema gefragt ist, wenn du in Aufgaben oder Erklärungen auf typische Signale wie diese stößt:
+
+- Es geht ausdrücklich um **Computer und CPU – Grundlagen** oder um eng verwandte Begriffe aus **computer-und-cpu**.
+- Du sollst nicht nur etwas benennen, sondern den Ablauf, die Regel oder den Zusammenhang **sauber erklären**.
+- In Beispielen musst du Werte, Strukturen, Schritte oder Reaktionen **geordnet lesen und deuten**.
+
+
+## Mini-Check für dich
+
+- Kannst du in eigenen Worten erklären, wie du du ordnest CPU, Speicher und Ein-/Ausgabe fachlich auseinander.?
+- Kannst du in eigenen Worten erklären, wie du du beschreibst einfache Datenverarbeitung als technischen Ablauf.?
+- Kannst du in eigenen Worten erklären, wie du du verstehst, warum ein Computersystem aus mehreren Bauteilen besteht.?

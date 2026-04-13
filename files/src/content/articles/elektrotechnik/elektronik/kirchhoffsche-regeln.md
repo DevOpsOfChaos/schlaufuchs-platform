@@ -1,17 +1,33 @@
 ---
-title: Kirchhoffsche Regeln – Grundlagen
-description: Verstehe die Knotenregel und Maschenregel als Grundideen für die Analyse elektrischer Netzwerke.
+title: "Kirchhoffsche Regeln – Grundlagen"
+description: "Verstehe die Knotenregel und Maschenregel als Grundideen für die Analyse elektrischer Netzwerke."
 subject: elektrotechnik
-section: Grundlagen
+section: "Grundlagen"
 topicPath:
-  - elektronik
-  - kirchhoffsche-regeln
+  - "elektronik"
+  - "kirchhoffsche-regeln"
 learningGoals:
-  - Du unterscheidest Knotenregel und Maschenregel.
-  - Du ordnest Strom- und Spannungsgleichungen korrekt zu.
-  - Du verstehst, warum Kirchhoff für Schaltungsanalyse unverzichtbar ist.
+  - "Du unterscheidest Knoten- und Maschenregel."
+  - "Du liest einfache Schaltungen im Blick auf Strom- und Spannungserhaltung."
+  - "Du erkennst, wann Kirchhoff für die Analyse nötig wird."
+practiceIdeas:
+  - "Markiere in einer Schaltung zuerst Knoten und Maschen."
+  - "Formuliere zu einem Beispiel getrennt Strom- und Spannungsgleichungen."
+  - "Prüfe Richtungen und Vorzeichen bewusst nach jeder Rechnung."
+commonMistakes:
+  - "Knoten- und Maschenregel durcheinanderzubringen."
+  - "Richtungen mitten in der Rechnung zu ändern."
+  - "Strom- und Spannungserhaltung nicht sauber zu trennen."
+keyTakeaways:
+  - "Die Knotenregel gehört zu Strömen."
+  - "Die Maschenregel gehört zu Spannungen."
+  - "Kirchhoff ist Grundlage für verzweigte Netzwerke."
+tags:
+  - "kirchhoff"
+  - "knotenregel"
+  - "maschenregel"
+  - "schaltungsanalyse"
 level: einfach
-tags: [kirchhoff, knotenregel, maschenregel, schaltungsanalyse]
 draft: false
 ---
 
@@ -25,6 +41,14 @@ draft: false
     <li>Du erkennst, wann Kirchhoff im Vergleich zu einfacheren Grundideen nötig wird.</li>
   </ul>
 </div>
+
+## Was du hier lernst
+
+Auf dieser Seite lernst du,
+
+- Du unterscheidest Knoten- und Maschenregel.
+- Du liest einfache Schaltungen im Blick auf Strom- und Spannungserhaltung.
+- Du erkennst, wann Kirchhoff für die Analyse nötig wird.
 
 ## Die zwei Grundregeln
 
@@ -89,6 +113,12 @@ Ein häufiger Fehler ist, die Begriffe nur formal auswendig zu lernen. Besser is
   </ul>
 </div>
 
+## So liest du Netzwerke ruhiger
+
+Viele Fehler entstehen nicht erst beim Rechnen, sondern schon beim ersten Blick auf die Schaltung. Markiere deshalb zuerst **Knoten** und **geschlossene Wege**. Danach entscheidest du bewusst: Geht es hier eher um eine Stromaufteilung oder um eine Spannungsbilanz?
+
+Wer Netzwerke in dieser Reihenfolge liest, benutzt Kirchhoff nicht als bloßes Rechenrezept, sondern als Strukturhilfe. Genau dadurch werden auch spätere Aufgaben mit mehreren Widerständen oder Quellen deutlich übersichtlicher.
+
 ## Typische Fehler
 
 <div class="mistake-card">
@@ -112,3 +142,22 @@ Ein häufiger Fehler ist, die Begriffe nur formal auswendig zu lernen. Besser is
     <li>Kirchhoff ist eine Grundlage für fast jede Netzwerkanalyse.</li>
   </ul>
 </div>
+
+
+## Woran du das Thema erkennst
+
+Du erkennst dieses Thema meist daran, dass du nicht nur einen einzelnen Fachbegriff brauchst, sondern die zugrunde liegende Struktur, Anordnung oder Denkweise sauber unterscheiden musst. Genau dort entscheidet sich oft, ob ein Beispiel wirklich verstanden wurde oder nur oberflächlich bekannt wirkt.
+
+## Mini-Check für dich
+
+Prüfe am Ende kurz selbst:
+
+- Kann ich das Thema in eigenen Worten erklären?
+- Kann ich ein Beispiel richtig einordnen?
+- Kann ich eine typische Verwechslung benennen?
+
+## Merksätze
+
+- Die Knotenregel gehört zu Strömen.
+- Die Maschenregel gehört zu Spannungen.
+- Kirchhoff ist Grundlage für verzweigte Netzwerke.

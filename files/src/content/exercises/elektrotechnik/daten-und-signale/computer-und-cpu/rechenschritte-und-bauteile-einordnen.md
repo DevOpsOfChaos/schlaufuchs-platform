@@ -105,3 +105,15 @@ Bearbeite zum Schluss noch diese kurzen Zusatzfragen, damit du die Aufgabe nicht
 - Was war in dieser Aufgabe der fachlich wichtigste Schritt?
 - Wo war die größte Verwechslungsgefahr?
 - Was würdest du vor der nächsten ähnlichen Aufgabe zuerst prüfen?
+
+## Hinweise
+
+- Denke zuerst an die Rollen der Bauteile, nicht sofort an Details.
+- Unterscheide Verarbeitung, Speicherung und Ein-/Ausgabe klar.
+- Formuliere technische Abläufe in mehreren Einzelschritten.
+
+## Selbstkontrolle
+
+- Ich kann CPU, Speicher und Ein-/Ausgabe fachlich unterscheiden.
+- Ich kann einen einfachen Datenfluss beschreiben.
+- Ich kann erklären, warum ein Computersystem aus mehreren Bauteilen besteht.

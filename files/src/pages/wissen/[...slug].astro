@@ -3,14 +3,17 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { render, type CollectionEntry } from "astro:content";
 import { getVisibleArticles, getVisibleExercises, levelLabels } from "../../data/content";
 import { resolvePrimarySubjectSlug, subjectTitleMap } from "../../data/subjects";
-import { getTopicTail, getSharedTopicPrefixLength, humanizeTopicSegment } from "../../data/topics";
+import { getSectionDisplayLabel, getTopicDisplayLabel, getTopicFitScore, getTopicOverviewPath, getTopicTail, humanizeTopicSegment } from "../../data/topics";
 import { withBase } from "../../utils/base";
-import LinuxLearningShell from "../../components/interactive/LinuxLearningShell.astro";
-import { getLinuxShellScenario } from "../../data/interactive/linuxShellScenarios";
 import PageTrail from "../../components/content/PageTrail.astro";
 import OverviewPanel from "../../components/content/OverviewPanel.astro";
 import SectionHeading from "../../components/content/SectionHeading.astro";
 import ResourceCard from "../../components/content/ResourceCard.astro";
+import PracticeIdeas from "../../components/content/PracticeIdeas.astro";
+import CommonMistakes from "../../components/content/CommonMistakes.astro";
+import KeyTakeaways from "../../components/content/KeyTakeaways.astro";
+import LinuxLearningShell from "../../components/interactive/LinuxLearningShell.astro";
+import { getLinuxShellScenario } from "../../data/interactive/linuxShellScenarios";
 
 export async function getStaticPaths() {
   const articles = await getVisibleArticles();
@@ -26,48 +29,54 @@ const { Content } = await render(entry);
 const subjectTitle = subjectTitleMap[entry.data.subject] ?? "Fachbereich";
 const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject) ?? "elektrotechnik";
 const topicTail = getTopicTail(entry);
-const topicPathHref = withBase(`fachbereiche/${subjectSlug}/${topicTail.join("/")}`);
-const linuxShellScenario = subjectSlug === "linux" ? getLinuxShellScenario(topicTail.slice(0, 2).join("/")) : null;
+const topicBranch = getTopicOverviewPath(entry);
+const entryTags = entry.data.tags ?? [];
+const learningGoals = Array.isArray(entry.data.learningGoals) ? entry.data.learningGoals.filter(Boolean) : [];
+const practiceIdeas = Array.isArray(entry.data.practiceIdeas) ? entry.data.practiceIdeas.filter(Boolean) : [];
+const commonMistakes = Array.isArray(entry.data.commonMistakes) ? entry.data.commonMistakes.filter(Boolean) : [];
+const keyTakeaways = Array.isArray(entry.data.keyTakeaways) ? entry.data.keyTakeaways.filter(Boolean) : [];
 
 const [allArticles, allExercises] = await Promise.all([getVisibleArticles(), getVisibleExercises()]);
-const entryTags = entry.data.tags ?? [];
-const entryGoals = Array.isArray(entry.data.learningGoals) ? entry.data.learningGoals.filter(Boolean) : [];
 
-const scoreByTopicFit = (item: CollectionEntry<"articles"> | CollectionEntry<"exercises">) => {
-  const sharedPath = getSharedTopicPrefixLength(topicTail, getTopicTail(item));
-  const sameSection = item.data.section === entry.data.section ? 2 : 0;
-  const itemTags = "tags" in item.data && Array.isArray(item.data.tags) ? item.data.tags : [];
-  const sharedTags = itemTags.filter((tag) => entryTags.includes(tag)).length;
-  return sharedPath * 4 + sameSection + sharedTags;
-};
+const entryTopicLabel = getTopicDisplayLabel(entry);
+const entrySectionLabel = getSectionDisplayLabel(entry.data.section);
 
-const relatedArticles = allArticles
+const rankedRelatedArticles = allArticles
   .filter((item) => item.id !== entry.id && resolvePrimarySubjectSlug(item.data.subject) === subjectSlug)
-  .sort((a, b) => scoreByTopicFit(b) - scoreByTopicFit(a))
-  .slice(0, 4);
+  .map((item) => ({ item, score: getTopicFitScore(entry, item) }))
+  .filter(({ score }) => score >= 4)
+  .sort((a, b) => b.score - a.score);
 
-const relatedExercises = allExercises
+const rankedRelatedExercises = allExercises
   .filter((item) => resolvePrimarySubjectSlug(item.data.subject) === subjectSlug)
-  .sort((a, b) => scoreByTopicFit(b) - scoreByTopicFit(a))
-  .slice(0, 6);
+  .map((item) => ({ item, score: getTopicFitScore(entry, item) }))
+  .filter(({ score }) => score >= 4)
+  .sort((a, b) => b.score - a.score);
 
-const breadcrumbTrail = [
+const relatedArticles = rankedRelatedArticles.map(({ item }) => item).slice(0, 4);
+const relatedExercises = rankedRelatedExercises.map(({ item }) => item).slice(0, 6);
+
+const breadcrumbSegments = topicBranch.map((segment, index) => ({
+  label: humanizeTopicSegment(segment),
+  href: withBase(`fachbereiche/${subjectSlug}/${topicBranch.slice(0, index + 1).join("/")}`),
+}));
+
+const trail = [
   { label: subjectTitle, href: withBase(`fachbereiche/${subjectSlug}`) },
-  ...topicTail.map((segment, index) => ({
-    label: humanizeTopicSegment(segment),
-    href: withBase(`fachbereiche/${subjectSlug}/${topicTail.slice(0, index + 1).join("/")}`),
-  })),
+  ...breadcrumbSegments,
 ];
 
-const overviewPoints = entryGoals.length > 0
-  ? entryGoals.slice(0, 5)
-  : [
-      `Du verstehst die wichtigsten Grundlagen zu ${entry.data.title}.`,
-      `Du kannst zentrale Begriffe und Zusammenhänge aus ${entry.data.section} besser einordnen.`,
-      `Du findest darunter direkt passende Aufgaben und weitere Fachinfos zum Thema.`,
-    ];
+const backHref = breadcrumbSegments.length > 0 ? breadcrumbSegments[breadcrumbSegments.length - 1].href : withBase(`fachbereiche/${subjectSlug}`);
+const topicPathHref = topicBranch.length > 0 ? withBase(`fachbereiche/${subjectSlug}/${topicBranch.join("/")}`) : withBase(`fachbereiche/${subjectSlug}`);
+const shellScenario = subjectSlug === "linux" ? getLinuxShellScenario(topicTail.join("/")) : null;
 
-const backHref = breadcrumbTrail.length > 1 ? breadcrumbTrail[breadcrumbTrail.length - 2].href : withBase(`fachbereiche/${subjectSlug}`);
+const overviewPoints = learningGoals.length > 0
+  ? learningGoals
+  : [
+      `Diese Wissensseite gehört fachlich zu ${subjectTitle}.`,
+      `Sie vertieft das Thema ${breadcrumbSegments.at(-1)?.label ?? entry.data.section ?? "dieser Wissensbereich"}.`,
+      "Darunter findest du passende Aufgaben und weitere Wissensseiten mit engem Themenbezug.",
+    ];
 
 const taskIcon = `
 <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -85,20 +94,27 @@ const articleIcon = `
 
 <BaseLayout title={`${entry.data.title} – Schlaufuchs`} description={entry.data.description}>
   <div class="page-shell">
-    <PageTrail backHref={backHref} trail={breadcrumbTrail} />
+    <PageTrail backHref={backHref} trail={trail} />
 
     <section class="article-hero">
       <p class="eyebrow">Wissensseite</p>
       <div class="hero-meta-row">
         <span class="meta-chip">{subjectTitle}</span>
         <span class="meta-chip">{levelLabels[entry.data.level]}</span>
-        <span class="meta-chip">{entry.data.section}</span>
+        <span class="meta-chip">{entrySectionLabel}</span>
+        <span class="meta-chip">{entryTopicLabel}</span>
       </div>
       <h1>{entry.data.title}</h1>
       <p class="lead">{entry.data.description}</p>
     </section>
 
-    <OverviewPanel title="Was du hier lernst" points={overviewPoints} actionHref={topicPathHref} actionLabel="Zum Themenpfad →" />
+    <OverviewPanel
+      title="Was du hier lernst"
+      kicker="Einstieg"
+      points={overviewPoints}
+      actionHref={topicPathHref}
+      actionLabel="Zum Themenpfad →"
+    />
 
     <section class="article-shell">
       <article class="article-content">
@@ -106,11 +122,27 @@ const articleIcon = `
       </article>
     </section>
 
-    {linuxShellScenario && <LinuxLearningShell scenario={linuxShellScenario} />}
+    {shellScenario && (
+      <section class="interactive-section wide-bleed">
+        <SectionHeading kicker="Ausprobieren" title="Direkt im Linux-Terminal üben" />
+        <p class="interactive-intro">Die Lernshell gehört hier bewusst zum Hauptfluss der Seite. Probiere die vorgeschlagenen Befehle aus und lies die Ausgaben ruhig Schritt für Schritt.</p>
+        <LinuxLearningShell scenario={shellScenario} />
+      </section>
+    )}
+
+    <PracticeIdeas items={practiceIdeas} />
+
+    {(commonMistakes.length > 0 || keyTakeaways.length > 0) && (
+      <section class="summary-grid wide-bleed">
+        <CommonMistakes items={commonMistakes} />
+        <KeyTakeaways items={keyTakeaways} />
+      </section>
+    )}
 
     {relatedExercises.length > 0 && (
       <section class="related-section">
         <SectionHeading kicker="Aufgaben" title="Passende Aufgaben zu diesem Thema" />
+        <p class="related-intro">Diese Aufgaben greifen denselben Themenpfad auf und passen fachlich direkt zu dieser Wissensseite.</p>
         <div class="related-grid task-grid">
           {relatedExercises.map((item) => (
             <ResourceCard
@@ -129,13 +161,14 @@ const articleIcon = `
 
     {relatedArticles.length > 0 && (
       <section class="related-section">
-        <SectionHeading kicker="Weitere Seiten" title="Passende Wissensseiten zu diesem Thema" />
+        <SectionHeading kicker="Weiterlesen" title="Weitere Wissensseiten in diesem Bereich" />
+        <p class="related-intro">Diese Fachinfos liegen im gleichen Themenfeld und vertiefen direkt benachbarte Aspekte.</p>
         <div class="related-grid article-grid">
           {relatedArticles.map((item) => (
             <ResourceCard
               title={item.data.title}
               description={item.data.description}
-              meta={item.data.section}
+              meta={getTopicDisplayLabel(item)}
               href={withBase(`wissen/${item.id}`)}
               ctaLabel="Wissensseite öffnen →"
               icon={articleIcon}
@@ -151,7 +184,7 @@ const articleIcon = `
 <style>
   .page-shell {
     display: grid;
-    gap: 1.15rem;
+    gap: 1.2rem;
   }
 
   .eyebrow {
@@ -186,7 +219,7 @@ const articleIcon = `
   h1 {
     margin: 0;
     color: var(--text-strong);
-    font-size: clamp(2.4rem, 4.6vw, 4.1rem);
+    font-size: clamp(2.45rem, 4.8vw, 4.2rem);
     line-height: 0.98;
     letter-spacing: -0.045em;
   }
@@ -194,61 +227,38 @@ const articleIcon = `
   .lead {
     margin: 1rem 0 0;
     color: var(--text);
-    line-height: 1.78;
-    font-size: 1.05rem;
-    max-width: 58rem;
+    line-height: 1.8;
+    font-size: 1.07rem;
+    max-width: 62rem;
   }
 
   .article-shell,
-  .related-section {
+  .related-section,
+  .interactive-section {
     display: grid;
     gap: 1rem;
   }
 
   .article-content {
-    padding: 1.6rem;
+    padding: clamp(1.35rem, 2vw, 2rem);
     border: 1px solid var(--border);
-    border-radius: 28px;
+    border-radius: 30px;
     background: var(--card-bg);
     box-shadow: var(--shadow-card);
+    overflow: hidden;
   }
 
-  .article-content :global(h2) {
-    margin-top: 1.9rem;
-    color: var(--text-strong);
-    font-size: 1.6rem;
-    line-height: 1.15;
-  }
-
-  .article-content :global(h2:first-child) {
-    margin-top: 0;
-  }
-
-  .article-content :global(h3) {
-    margin-top: 1.35rem;
-    color: var(--text-strong);
-    font-size: 1.18rem;
-    line-height: 1.22;
-  }
-
-  .article-content :global(p),
-  .article-content :global(li) {
+  .interactive-intro {
+    margin: 0;
     color: var(--text);
-    line-height: 1.82;
-    font-size: 1.02rem;
+    line-height: 1.7;
+    max-width: 70rem;
   }
 
-  .article-content :global(ul),
-  .article-content :global(ol) {
-    padding-left: 1.25rem;
-  }
-
-  .article-content :global(img),
-  .article-content :global(table),
-  .article-content :global(pre),
-  .article-content :global(.full-width-block) {
-    width: min(100%, 1000px);
-    margin-inline: auto;
+  .summary-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
   }
 
   .related-grid {
@@ -257,13 +267,44 @@ const articleIcon = `
     gap: 1rem;
   }
 
+  .article-content :global(h2) {
+    margin-top: 1.8rem;
+    color: var(--text-strong);
+    font-size: clamp(1.45rem, 2.4vw, 1.85rem);
+    line-height: 1.15;
+  }
+
+  .article-content :global(h2:first-child) {
+    margin-top: 0;
+  }
+
+  .article-content :global(h3) {
+    margin-top: 1.2rem;
+    color: var(--text-strong);
+    font-size: 1.12rem;
+    line-height: 1.2;
+  }
+
+  .article-content :global(p),
+  .article-content :global(li) {
+    color: var(--text);
+    line-height: 1.84;
+    font-size: 1rem;
+  }
+
+  .article-content :global(ul),
+  .article-content :global(ol) {
+    padding-left: 1.2rem;
+  }
+
+  .article-content :global(pre) {
+    overflow-x: auto;
+  }
+
   @media (max-width: 980px) {
+    .summary-grid,
     .related-grid {
       grid-template-columns: 1fr;
-    }
-
-    .article-content {
-      padding: 1.2rem;
     }
   }
 </style>

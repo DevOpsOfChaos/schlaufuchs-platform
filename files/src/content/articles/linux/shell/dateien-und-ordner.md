@@ -1,20 +1,42 @@
 ---
 title: Dateien und Ordner – Grundlagen
-description: Verstehe, wie Linux Dateien, Ordner und Pfade organisiert und warum diese Struktur die Basis für fast alle Terminal-Aufgaben bildet.
+description: Verstehe, wie Linux Dateien, Ordner und Pfade organisiert und warum diese
+  Struktur die Basis für fast alle Terminal-Aufgaben bildet.
 subject: linux
 section: shell
 topicPath:
-  - shell
-  - dateien-und-ordner
+- shell
+- dateien-und-ordner
 learningGoals:
-  - Du unterscheidest sicher zwischen Datei, Ordner und Pfad.
-  - Du verstehst die Rolle von pwd, ls und cd.
-  - Du arbeitest im Terminal ruhiger und sicherer, weil du deine Position im Dateisystem bewusst prüfst.
+- Du unterscheidest sicher zwischen Datei, Ordner und Pfad.
+- Du verstehst die Rolle von pwd, ls und cd.
+- Du arbeitest im Terminal ruhiger und sicherer, weil du deine Position im Dateisystem
+  bewusst prüfst.
 level: einfach
-tags: [linux, shell, dateien, ordner, pfade]
+tags:
+- linux
+- shell
+- dateien
+- ordner
+- pfade
 draft: false
+practiceIdeas:
+- Prüfe mit pwd zuerst deinen aktuellen Ort und erkläre dann in eigenen Worten, was
+  der ausgegebene Pfad bedeutet.
+- Nutze ls in mehreren Verzeichnissen und beobachte, wie sich der Inhalt je nach Ort
+  verändert.
+- Wechsle mit cd bewusst zwischen zwei Ordnern und überprüfe nach jedem Schritt wieder
+  deinen Standort.
+commonMistakes:
+- Datei und Ordner sprachlich gleich behandeln, obwohl sie unterschiedliche Rollen
+  haben.
+- Mit cd in einen Ordner springen, ohne vorher zu prüfen, wo man gerade ist.
+- Den Pfad nur als Text sehen und nicht als eindeutige Ortsbeschreibung verstehen.
+keyTakeaways:
+- Erst Ort prüfen, dann Inhalt ansehen, dann bewegen.
+- Ein Pfad beschreibt den Ort einer Datei oder eines Ordners eindeutig.
+- pwd, ls und cd gehören in Linux zu den wichtigsten Einstiegsbefehlen.
 ---
-
 <div class="learning-card">
   <p class="card-kicker">Einstieg</p>
   <h3>Was du hier lernst</h3>
@@ -25,6 +47,14 @@ draft: false
     <li>Du lernst eine sichere Arbeitsreihenfolge für das Terminal kennen.</li>
   </ul>
 </div>
+
+## Was du hier lernst
+
+Auf dieser Seite lernst du,
+
+- Du unterscheidest sicher zwischen Datei, Ordner und Pfad.
+- Du verstehst die Rolle von pwd, ls und cd.
+- Du arbeitest im Terminal ruhiger und sicherer, weil du deine Position im Dateisystem bewusst prüfst.
 
 ## Grundidee
 
@@ -129,3 +159,25 @@ Wer direkt „auf Verdacht“ tippt, verwechselt schnell Pfade oder bearbeitet f
     <li>Wer seinen Ort kennt, arbeitet deutlich sicherer.</li>
   </ul>
 </div>
+
+
+## Woran du das Thema erkennst
+
+Du merkst, dass dieses Thema gefragt ist, wenn du in Aufgaben oder Erklärungen auf typische Signale wie diese stößt:
+
+- Es geht ausdrücklich um **Dateien und Ordner – Grundlagen** oder um eng verwandte Begriffe aus **shell**.
+- Du sollst nicht nur etwas benennen, sondern den Ablauf, die Regel oder den Zusammenhang **sauber erklären**.
+- In Beispielen musst du Werte, Strukturen, Schritte oder Reaktionen **geordnet lesen und deuten**.
+
+
+## Mini-Check für dich
+
+- Kannst du in eigenen Worten erklären, wie du du unterscheidest sicher zwischen Datei, Ordner und Pfad.?
+- Kannst du in eigenen Worten erklären, wie du du verstehst die Rolle von pwd, ls und cd.?
+- Kannst du in eigenen Worten erklären, wie du du arbeitest im Terminal ruhiger und sicherer, weil du deine Position im Dateisystem bewusst prüfst.?
+
+## Merksätze
+
+- Erst Ort prüfen, dann Inhalt ansehen, dann bewegen.
+- Ein Pfad beschreibt den Ort einer Datei oder eines Ordners eindeutig.
+- pwd, ls und cd gehören in Linux zu den wichtigsten Einstiegsbefehlen.

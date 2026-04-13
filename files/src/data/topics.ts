@@ -49,6 +49,33 @@ export const getTopicTail = (entry: TopicEntry) => {
 export const getTopicBranch = (entry: TopicEntry) =>
   entry.collection === "exercises" ? getTopicTail(entry).slice(0, -1) : getTopicTail(entry);
 
+export const getTopicOverviewPath = (entry: TopicEntry) => getTopicTail(entry).slice(0, -1);
+
+export const getTopicDisplayLabel = (entry: TopicEntry) => {
+  const tail = entry.collection === "exercises" ? getTopicOverviewPath(entry) : getTopicTail(entry);
+  const leaf = tail.at(-1);
+  if (leaf) return humanizeTopicSegment(leaf);
+
+  const sectionSlug = slugifyTopicSegment(entry.data.section ?? "");
+  return sectionSlug ? humanizeTopicSegment(sectionSlug) : "Thema";
+};
+
+export const getSectionDisplayLabel = (section: string | undefined) => {
+  const sectionSlug = slugifyTopicSegment(section ?? "");
+  return sectionSlug ? humanizeTopicSegment(sectionSlug) : "Themenblock";
+};
+
+export const getTopicFitScore = (source: TopicEntry, candidate: TopicEntry) => {
+  const sourceTail = getTopicTail(source);
+  const candidateTail = getTopicTail(candidate);
+  const sharedPath = getSharedTopicPrefixLength(sourceTail, candidateTail);
+  const sameSection = source.data.section === candidate.data.section ? 2 : 0;
+  const sourceTags = Array.isArray(source.data.tags) ? source.data.tags : [];
+  const candidateTags = Array.isArray(candidate.data.tags) ? candidate.data.tags : [];
+  const sharedTags = candidateTags.filter((tag) => sourceTags.includes(tag)).length;
+  return sharedPath * 4 + sameSection + sharedTags;
+};
+
 export const getEntriesForPrimarySubject = <T extends TopicEntry>(entries: T[], subjectSlug: string) =>
   entries.filter((entry) => resolvePrimarySubjectSlug(entry.data.subject) === subjectSlug);
 

@@ -1,52 +1,64 @@
 ---
 title: Python-Grundlagen
-description: Python eignet sich gut für den Einstieg in Programmierung, weil Syntax und Grundideen oft klarer lesbar sind als in vielen anderen Sprachen.
+description: Python eignet sich gut für den Einstieg in Programmierung, weil Syntax
+  und Grundideen oft klarer lesbar sind als in vielen anderen Sprachen.
 subject: informatik
 section: Programmierung
 topicPath:
-  - programmieren
-  - python-grundlagen
+- programmieren
+- python-grundlagen
 learningGoals:
-  - Du verstehst Variablen, Eingaben, Bedingungen und einfache Ausgaben in Python.
-  - Du liest kurze Python-Programme Schritt für Schritt.
-  - Du erkennst typische Anfängerfehler bei Einrückung und Datentypen.
+- Du verstehst Variablen, Eingaben, Bedingungen und einfache Ausgaben in Python.
+- Du liest kurze Python-Programme Schritt für Schritt.
+- Du erkennst typische Anfängerfehler bei Einrückung und Datentypen.
+practiceIdeas:
+- Lies kleine Python-Programme immer Zeile für Zeile und notiere Zwischenergebnisse.
+- Prüfe bei input-Aufgaben bewusst, ob der Wert noch Text ist oder schon umgewandelt
+  wurde.
+- Formuliere vor einer if-Bedingung erst in Worten, was geprüft werden soll.
+commonMistakes:
+- input() wird wie eine Zahl behandelt, obwohl zuerst Text geliefert wird.
+- Einrückung wird als Schönheitsfrage statt als Syntax behandelt.
+- Variablennamen werden verwechselt oder falsch geschrieben.
+- Man versucht, Programme als Ganzes zu verstehen, statt sie schrittweise zu lesen.
+keyTakeaways:
+- Variablen speichern Werte unter Namen.
+- input() liest Eingaben ein, print() gibt Ergebnisse aus.
+- if und else steuern Entscheidungen.
+- Einrückung ist in Python Teil der Sprache.
 level: einfach
 tags:
-  - Python
-  - Programmierung
-  - Variablen
-  - if
-  - Eingabe
+- Python
+- Programmierung
+- Variablen
+- if
+- Eingabe
 draft: false
 ---
+## Worum es bei den Grundlagen wirklich geht
 
-<div class="learning-card">
-  <p class="card-kicker">Einstieg</p>
-  <h3>Was du hier lernst</h3>
-  <p>Python ist eine gute Sprache für den Einstieg, weil Programme oft klar lesbar sind. Entscheidend sind aber nicht nur einzelne Befehle, sondern die Denkweise dahinter.</p>
-  <ul>
-    <li>Du lernst, wie Variablen Werte speichern.</li>
-    <li>Du siehst, wie Eingaben verarbeitet und Ausgaben erzeugt werden.</li>
-    <li>Du verstehst einfache Bedingungen mit <code>if</code>.</li>
-  </ul>
-</div>
+Wer mit Python beginnt, lernt nicht zuerst „viele Befehle“, sondern grundlegende Denkbausteine von Programmen.
 
-## Grundidee
+Dazu gehören vor allem:
 
-Ein Programm verarbeitet Informationen. Dafür braucht es meistens:
+- Werte speichern,
+- Eingaben verarbeiten,
+- Bedingungen prüfen,
+- und Ergebnisse ausgeben.
 
-- Eingaben
-- gespeicherte Werte
-- Entscheidungen
-- Ausgaben
+Diese Ideen tauchen später in fast jeder Programmiersprache wieder auf.
 
-Python hilft dabei, diese Grundideen in einer relativ gut lesbaren Form umzusetzen.
+## Was du hier lernst
 
-## Variablen
+Auf dieser Seite lernst du,
+
+- Du verstehst Variablen, Eingaben, Bedingungen und einfache Ausgaben in Python.
+- Du liest kurze Python-Programme Schritt für Schritt.
+- Du erkennst typische Anfängerfehler bei Einrückung und Datentypen.
+
+## Variablen: Namen für Werte
 
 Eine Variable speichert einen Wert unter einem Namen.
-
-<div class="wide-example">
 
 ```python
 name = "Lina"
@@ -54,36 +66,49 @@ alter = 16
 punkte = 12
 ```
 
-</div>
+Wichtig ist:
 
-Wichtig ist: Der Name der Variablen ist nicht der Wert selbst, sondern nur eine Bezeichnung dafür.
+- `name` ist nicht der Text selbst,
+- `alter` ist nicht die Zahl selbst,
+- sondern jeweils ein **Name**, unter dem ein Wert gespeichert wird.
+
+Variablen helfen also dabei, Informationen im Programm wiederzuverwenden.
 
 ## Eingabe und Ausgabe
 
-Mit `input()` können Daten eingelesen werden. Mit `print()` werden Ergebnisse ausgegeben.
+Mit `input()` können Daten eingelesen werden. Mit `print()` werden Ergebnisse sichtbar ausgegeben.
 
-<div class="example-card">
-  <p class="card-kicker">Leitbeispiel</p>
-  <h3>Eine einfache Eingabe</h3>
-  <div class="wide-example">
+### Leitbeispiel
 
 ```python
 name = input("Wie heißt du? ")
 print("Hallo", name)
 ```
 
-  </div>
-  <p>Das Programm liest zuerst einen Namen ein und gibt danach eine Begrüßung aus.</p>
-</div>
+Der Ablauf ist hier sehr klar:
 
-## Bedingungen mit <code>if</code>
+1. Das Programm fragt nach einem Namen.
+2. Die Eingabe wird gespeichert.
+3. Danach wird sie wieder ausgegeben.
 
-Programme sollen oft unterschiedlich reagieren. Dafür braucht man Bedingungen.
+## Was bei `input()` oft übersehen wird
 
-<div class="example-card">
-  <p class="card-kicker">Bedingung</p>
-  <h3>Gerade oder ungerade</h3>
-  <div class="wide-example">
+Ein wichtiger Einstiegspunkt ist:
+
+`input()` liefert zunächst **Text**.
+
+Das gilt auch dann, wenn jemand scheinbar eine Zahl eingibt.
+
+Wenn also später gerechnet werden soll, muss häufig umgewandelt werden, zum Beispiel mit `int()`.
+
+```python
+alter = int(input("Wie alt bist du? "))
+print(alter + 1)
+```
+
+## Bedingungen mit `if`
+
+Programme sollen nicht immer gleich reagieren. Dafür braucht man Bedingungen.
 
 ```python
 zahl = int(input("Zahl: "))
@@ -94,60 +119,86 @@ else:
     print("ungerade")
 ```
 
-  </div>
-  <p>Das Programm prüft den Rest bei Division durch 2. Je nach Ergebnis wird eine andere Ausgabe gewählt.</p>
-</div>
+Hier passiert Folgendes:
 
-## Warum Einrückung wichtig ist
+- eine Zahl wird eingelesen,
+- die Bedingung prüft, ob der Rest bei Division durch 2 gleich 0 ist,
+- und danach wird je nach Ergebnis etwas anderes ausgegeben.
 
-In Python gehört die Einrückung zur Syntax. Sie ist also nicht nur schön fürs Auge, sondern sagt dem Programm, welche Zeilen zusammengehören.
+## Warum man Programme Schritt für Schritt lesen sollte
 
-Das ist besonders bei Bedingungen, Schleifen und Funktionen wichtig.
+Gerade am Anfang wirkt Code schnell wie ein einziger Block. Sicherer ist es, ihn in kleinen Schritten zu lesen:
 
-## Datentypen grob verstehen
+1. Welche Werte gibt es?
+2. Was wird gespeichert?
+3. Welche Bedingung wird geprüft?
+4. Welche Ausgabe entsteht danach?
 
-Für den Einstieg reicht es oft, diese Unterschiede zu kennen:
+Wer so liest, versteht Programme deutlich besser als beim bloßen Überfliegen.
 
-- Text → `str`
-- ganze Zahl → `int`
-- Kommazahl → `float`
+## Einrückung ist in Python nicht nur Optik
 
-Ein häufiger Stolperpunkt ist: `input()` liefert zunächst Text. Wer rechnen will, muss oft vorher umwandeln.
+In vielen Sprachen sind Einrückungen vor allem eine Frage der Lesbarkeit. In Python sind sie Teil der Syntax.
 
-<div class="practice-card">
-  <p class="card-kicker">Zum Ausprobieren</p>
-  <h3>Lies Programme Zeile für Zeile</h3>
-  <p>Nimm ein kleines Python-Beispiel und beantworte immer diese Fragen:</p>
-  <ul>
-    <li>Welche Variable bekommt welchen Wert?</li>
-    <li>Welche Zeile entscheidet etwas?</li>
-    <li>Was wird am Ende ausgegeben?</li>
-  </ul>
-  <p>Diese Art zu lesen ist für den Einstieg oft wichtiger als viel auswendig gelernte Syntax.</p>
-</div>
+Das bedeutet:
+
+- eingerückte Zeilen gehören zu einem Block,
+- falsche Einrückung verändert die Struktur,
+- und manchmal funktioniert das Programm dann gar nicht mehr.
+
+Gerade bei `if`, `else`, Schleifen und Funktionen ist das entscheidend.
+
+## Datentypen grob einordnen
+
+Für den Einstieg reicht meist diese Unterscheidung:
+
+- `str` für Text,
+- `int` für ganze Zahlen,
+- `float` für Kommazahlen.
+
+Es geht hier noch nicht um komplizierte Theorie, sondern um eine saubere Leselogik:
+
+- Was für eine Art Wert liegt vor?
+- Kann damit gerechnet werden?
+- Muss vorher umgewandelt werden?
+
+## Ein typischer Anfängerfehler im Gesamtbild
+
+Ein häufiger Fehler ist nicht nur eine einzelne falsche Zeile, sondern ein falscher Denkablauf:
+
+- Man liest den Code zu schnell.
+- Man beachtet Typen nicht.
+- Man übergeht die Einrückung.
+- Man erwartet das Ergebnis, ohne den Ablauf zu prüfen.
+
+Darum ist langsames, sauberes Lesen am Anfang oft wichtiger als möglichst viel neue Syntax.
+
+
+## Woran du das Thema erkennst
+
+Du merkst, dass dieses Thema gefragt ist, wenn du in Aufgaben oder Erklärungen auf typische Signale wie diese stößt:
+
+- Es geht ausdrücklich um **Python-Grundlagen** oder um eng verwandte Begriffe aus **Programmierung**.
+- Du sollst nicht nur etwas benennen, sondern den Ablauf, die Regel oder den Zusammenhang **sauber erklären**.
+- In Beispielen musst du Werte, Strukturen, Schritte oder Reaktionen **geordnet lesen und deuten**.
+
+
+## Mini-Check für dich
+
+- Kannst du in eigenen Worten erklären, wie du du verstehst Variablen, Eingaben, Bedingungen und einfache Ausgaben in Python.?
+- Kannst du in eigenen Worten erklären, wie du du liest kurze Python-Programme Schritt für Schritt.?
+- Kannst du in eigenen Worten erklären, wie du du erkennst typische Anfängerfehler bei Einrückung und Datentypen.?
 
 ## Typische Fehler
 
-<div class="mistake-card">
-  <p class="card-kicker">Typische Fehler</p>
-  <h3>Darauf solltest du achten</h3>
-  <ul>
-    <li>Einrückung stimmt nicht.</li>
-    <li><code>input()</code> wird wie eine Zahl behandelt, obwohl es zuerst Text ist.</li>
-    <li>Ein Variablenname wird verwechselt oder falsch geschrieben.</li>
-    <li>Ein Doppelpunkt nach <code>if</code> oder <code>else</code> fehlt.</li>
-    <li>Man liest den Programmablauf nicht Schritt für Schritt.</li>
-  </ul>
-</div>
+- input() wird wie eine Zahl behandelt, obwohl zuerst Text geliefert wird.
+- Einrückung wird als Schönheitsfrage statt als Syntax behandelt.
+- Variablennamen werden verwechselt oder falsch geschrieben.
+- Man versucht, Programme als Ganzes zu verstehen, statt sie schrittweise zu lesen.
 
-<div class="summary-card">
-  <p class="card-kicker">Merksätze</p>
-  <h3>Das solltest du mitnehmen</h3>
-  <ul>
-    <li>Variablen speichern Werte unter einem Namen.</li>
-    <li><code>input()</code> liest Eingaben ein, <code>print()</code> gibt Ergebnisse aus.</li>
-    <li><code>if</code> und <code>else</code> steuern Entscheidungen.</li>
-    <li>Einrückung ist in Python ein Teil der Sprache.</li>
-    <li>Programme werden am Anfang am besten Zeile für Zeile gelesen und erklärt.</li>
-  </ul>
-</div>
+## Merksätze
+
+- Variablen speichern Werte unter Namen.
+- input() liest Eingaben ein, print() gibt Ergebnisse aus.
+- if und else steuern Entscheidungen.
+- Einrückung ist in Python Teil der Sprache.

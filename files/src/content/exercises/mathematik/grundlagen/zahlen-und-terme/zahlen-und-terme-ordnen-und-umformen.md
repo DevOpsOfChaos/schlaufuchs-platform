@@ -1,20 +1,28 @@
 ---
 title: Zahlen und Terme ordnen und umformen
-description: Diese Aufgabe trainiert den sicheren Unterschied zwischen Zahl, Term, Termwert und gleichartigen Termen.
+description: Diese Aufgabe trainiert den sicheren Unterschied zwischen Zahl, Term,
+  Termwert und gleichartigen Termen.
 subject: mathematik
 section: Grundlagen
 topicPath:
-  - grundlagen
-  - zahlen-und-terme
-  - zahlen-und-terme-ordnen-und-umformen
+- grundlagen
+- zahlen-und-terme
+- zahlen-und-terme-ordnen-und-umformen
 tags:
-  - Zahlen
-  - Terme
-  - Gleichartige Terme
+- Zahlen
+- Terme
+- Gleichartige Terme
+hintPoints:
+- Unterscheide zuerst Zahl, Variable und Term.
+- Lies den Ausdruck vor jedem Umformungsschritt genau.
+- Begründe jeden Rechenschritt kurz.
+selfCheckPoints:
+- Ich kann Zahlen und Terme unterscheiden.
+- Ich kann einfache Terme sauber umformen.
+- Ich erkenne typische Denkfehler beim Lesen von Ausdrücken.
 level: einfach
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Arbeite die Aufgaben ruhig und sauber nacheinander durch. Entscheidend ist nicht nur das Ergebnis, sondern die Begründung.
@@ -74,6 +82,15 @@ Fasse zusammen, wenn es erlaubt ist:
   <p>Prüfe bei jedem Ausdruck zuerst: Ist das überhaupt ein Term? Enthält er Variablen? Und sind die Terme wirklich gleichartig?</p>
 </div>
 
+
+## Aufgabe 6 – Transfer
+
+Formuliere ein kurzes eigenes Beispiel oder eine kurze Anwendungssituation zu diesem Thema. Erkläre dabei in 2 bis 4 Sätzen, woran man den Fachbegriff oder die Regel erkennt.
+
+## Aufgabe 7 – Kurz begründen
+
+Beschreibe, welche typische Verwechslung bei diesem Thema leicht passiert und wie du sie vermeiden würdest.
+
 <div class="check-card">
   <p class="task-kicker">Selbstkontrolle</p>
   <ul>
@@ -82,3 +99,31 @@ Fasse zusammen, wenn es erlaubt ist:
     <li>Nur gleichartige Terme dürfen zusammengefasst werden.</li>
   </ul>
 </div>
+
+
+## Transfer und Einordnung
+
+Bearbeite zum Schluss noch diese kurzen Zusatzfragen, damit du die Aufgabe nicht nur mechanisch rechnest oder ausfüllst:
+
+1. Wo taucht die Grundidee aus **Zahlen und Terme ordnen und umformen** in einem ähnlichen Kontext aus **Grundlagen** wieder auf?
+2. Woran würdest du erkennen, dass du denselben Gedanken auch in einer leicht veränderten Aufgabe anwenden musst?
+3. Welche Angabe oder Formulierung wäre ein typisches Signal dafür, dass genau dieses Wissen gebraucht wird?
+
+
+## Kurzreflexion
+
+- Was war in dieser Aufgabe der fachlich wichtigste Schritt?
+- Wo war die größte Verwechslungsgefahr?
+- Was würdest du vor der nächsten ähnlichen Aufgabe zuerst prüfen?
+
+## Hinweise
+
+- Unterscheide zuerst Zahl, Variable und Term.
+- Lies den Ausdruck vor jedem Umformungsschritt genau.
+- Begründe jeden Rechenschritt kurz.
+
+## Selbstkontrolle
+
+- Ich kann Zahlen und Terme unterscheiden.
+- Ich kann einfache Terme sauber umformen.
+- Ich erkenne typische Denkfehler beim Lesen von Ausdrücken.

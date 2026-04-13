@@ -110,3 +110,27 @@ Zusätzlich wurde die Linux-Lernshell in der Referenz und Hilfe weiter beruhigt 
 - Linux-Lernshell erneut verbreitert um `hostname`, `uptime`, `cal`, `cmp`, `sha256sum` und `md5sum`.
 - Szenarien um zusätzliche Startbefehle und Vergleichs-/Prüfsummenbeispiele ergänzt.
 - Dokumentation im Bundle erweitert um einen eigenen Shell-Funktionsstand und eine manuelle QA-Checkliste.
+
+- Breiter Vertiefungspass über mehrere kürzere Wissensseiten und Aufgaben; Fokus auf ruhigere Anwendungs- und Begründungsblöcke.
+
+
+## Weiterer Shell-Ausbau
+
+- Linux-Lernshell erweitert um `printenv`, `hostname`, `uptime`, `df`, `du`, `diff`, `cmp`, `md5sum`, `sha256sum`, `fold`, `expand` und breitere `paste`-Nutzung.
+- Szenarien um passendere Startbefehle und zusätzliche Vergleichs-/Formatierungsbeispiele ergänzt.
+
+
+## Neuer Block: Themenpfad-nahe Empfehlungen
+
+- `wissen/[...slug].astro` und `aufgaben/[...slug].astro` filtern verwandte Inhalte jetzt stärker über echten Themenpfad-Fit.
+- Kartenmetadaten zeigen ruhigere Themenlabels.
+- Dadurch werden Abschlussbereiche fachlich enger und weniger zufällig.
+
+
+## Neuer Block: Themenpfad-Korrektur und ruhigere Empfehlungen
+
+- doppelte Themenpfade im Bundle bereinigt
+- Meta-Chips und Kartenlabels ruhiger themenbezogen
+- Empfehlungsbereiche auf Wissen/Aufgaben enger am gleichen Themenpfad
+
+- Neuer bundelweiter Standardpass: fehlende sichtbare Wissensseiten-/Aufgabenabschnitte automatisch ergänzt und QA-Zählung aktualisiert.

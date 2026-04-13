@@ -1,0 +1,57 @@
+---
+import ActionIcon from "./ActionIcon.astro";
+
+const sunIcon = `
+<svg viewBox="0 0 24 24" aria-hidden="true">
+  <circle cx="12" cy="12" r="4.2"></circle>
+  <path d="M12 2.5v2.2M12 19.3v2.2M21.5 12h-2.2M4.7 12H2.5M18.7 5.3l-1.5 1.5M6.8 17.2l-1.5 1.5M18.7 18.7l-1.5-1.5M6.8 6.8L5.3 5.3"></path>
+</svg>`;
+
+const moonIcon = `
+<svg viewBox="0 0 24 24" aria-hidden="true">
+  <path d="M19 14.8A7.8 7.8 0 0 1 9.2 5a8.8 8.8 0 1 0 9.8 9.8Z"></path>
+</svg>`;
+---
+
+<div class="theme-toggle-shell" data-theme-toggle data-sun={sunIcon} data-moon={moonIcon}>
+  <ActionIcon
+    label="Theme wechseln"
+    tooltip="Zwischen Light und Dark Mode wechseln"
+    icon={moonIcon}
+    type="button"
+  />
+</div>
+
+<script>
+  (() => {
+    const root = document.documentElement;
+    const shell = document.querySelector("[data-theme-toggle]");
+    if (!shell || shell.dataset.ready === "true") return;
+    shell.dataset.ready = "true";
+
+    const button = shell.querySelector("button");
+    const iconWrap = shell.querySelector(".icon-wrap");
+    const sun = shell.getAttribute("data-sun") ?? "";
+    const moon = shell.getAttribute("data-moon") ?? "";
+
+    const render = () => {
+      if (!button || !iconWrap) return;
+      const isDark = root.dataset.theme === "dark";
+      iconWrap.innerHTML = isDark ? sun : moon;
+      button.setAttribute("aria-label", isDark ? "Zu Light Mode wechseln" : "Zu Dark Mode wechseln");
+      button.setAttribute("data-tooltip", isDark ? "Zu Light Mode wechseln" : "Zu Dark Mode wechseln");
+    };
+
+    render();
+
+    button?.addEventListener("click", () => {
+      const next = root.dataset.theme === "dark" ? "light" : "dark";
+      root.dataset.theme = next;
+      try {
+        localStorage.setItem("schlaufuchs-theme", next);
+      } catch {}
+      render();
+      window.dispatchEvent(new CustomEvent("theme-changed", { detail: next }));
+    });
+  })();
+</script>
