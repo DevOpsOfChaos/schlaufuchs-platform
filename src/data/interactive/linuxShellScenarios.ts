@@ -122,16 +122,172 @@ export const linuxShellScenarios: Record<string, LinuxShellScenario> = {
       { path: "/home/fox/privat.txt", type: "file", perms: "600", content: "Nur für den Besitzer.\n" },
       { path: "/home/fox/team.csv", type: "file", perms: "644", content: "fox:adm\nlea:adm\nnoah:plugdev\n" }
     ]
+  },
+  "shell/pipes-und-umleitungen": {
+    key: "shell/pipes-und-umleitungen",
+    title: "Pipes und Umleitungen üben",
+    intro: "Hier kannst du Datenflüsse in der Shell bewusst lesen: Was bleibt im Terminal, was wandert in eine Datei und was wird an den nächsten Befehl weitergereicht?",
+    prompt: "schlaufuchs@pipes",
+    startPath: "/home/fox",
+    suggestedCommands: ["cat daten.txt | wc","cat daten.txt | grep alpha","printf test > notiz.txt","cat notiz.txt","printf neu >> notiz.txt","cat notiz.txt"],
+    quickNotes: ["Markiere bei jeder Zeile erst die Operatoren |, > und >>.","Lies dann bewusst, wo die Ausgabe jeweils landet."],
+    trySteps: ["Starte mit cat daten.txt | wc.","Vergleiche danach > und >> an derselben Datei.","Formuliere in Worten, warum Pipe und Umleitung nicht dasselbe sind."],
+    entries: [
+      { path: "/", type: "dir", perms: "755" },
+      { path: "/home", type: "dir", perms: "755" },
+      { path: "/home/fox", type: "dir", perms: "755" },
+      { path: "/home/fox/daten.txt", type: "file", perms: "644", content: "alpha\nbeta\nalpha\ngamma\n" },
+      { path: "/home/fox/notiz.txt", type: "file", perms: "644", content: "start\n" }
+    ]
+  },
+  "shell/textwerkzeuge-mit-grep-cut-und-wc": {
+    key: "shell/textwerkzeuge-mit-grep-cut-und-wc",
+    title: "grep, cut und wc gezielt einsetzen",
+    intro: "Dieses Szenario ist auf kleine Textanalysen ausgelegt. Du suchst Zeilen, liest Felder aus und zählst Ergebnisse, statt alles im Kopf zu entwirren.",
+    prompt: "schlaufuchs@text",
+    startPath: "/home/fox",
+    suggestedCommands: ["cat team.csv","cat team.csv | cut -d : -f 1","cat team.csv | grep adm","cat team.csv | wc","cat log.txt | grep Fehler | wc"],
+    quickNotes: ["Frage zuerst: Suchen, ausschneiden oder zählen?", "Wenn Felder getrennt sind, prüfe bei cut bewusst den Trenner."],
+    trySteps: ["Lies zuerst die Datei vollständig.","Probiere dann grep und cut getrennt.","Verbinde die Werkzeuge erst im dritten Schritt zu einer kleinen Analyse."],
+    entries: [
+      { path: "/", type: "dir", perms: "755" },
+      { path: "/home", type: "dir", perms: "755" },
+      { path: "/home/fox", type: "dir", perms: "755" },
+      { path: "/home/fox/team.csv", type: "file", perms: "644", content: "anna:adm\nmax:plugdev\nlea:adm\n" },
+      { path: "/home/fox/log.txt", type: "file", perms: "644", content: "Info Start\nFehler Sensor\nInfo Ende\nFehler Timeout\n" }
+    ]
+  },
+  "shell/find-und-dateisuche": {
+    key: "shell/find-und-dateisuche",
+    title: "Dateien gezielt mit find suchen",
+    intro: "Hier übst du, Startpfad und Suchregel sauber zu trennen. Suche erst breit, dann gezielt nach Namen oder Typen.",
+    prompt: "schlaufuchs@find",
+    startPath: "/home/fox",
+    suggestedCommands: ["pwd", "tree", "find . -name '*.md'", "find projekte -type d", "find projekte -name '*.txt'", "find dokumente -name '*plan*'"],
+    quickNotes: ["Lege zuerst fest, wo die Suche beginnt.", "Nutze -name für Dateinamen und -type d oder -type f für Verzeichnis oder Datei.", "Schreibe Muster mit Sternen in Anführungszeichen."],
+    trySteps: ["Sieh dir zuerst mit tree die Struktur an.", "Suche dann alle Markdown-Dateien im aktuellen Baum.", "Grenze danach die Suche auf projekte oder dokumente ein."],
+    entries: [
+      { path: "/", type: "dir", perms: "755" },
+      { path: "/home", type: "dir", perms: "755" },
+      { path: "/home/fox", type: "dir", perms: "755" },
+      { path: "/home/fox/dokumente", type: "dir", perms: "755" },
+      { path: "/home/fox/dokumente/lernplan.md", type: "file", perms: "644", content: "Lernplan fuer die Woche\n" },
+      { path: "/home/fox/dokumente/notiz.txt", type: "file", perms: "644", content: "Kurze Textnotiz\n" },
+      { path: "/home/fox/projekte", type: "dir", perms: "755" },
+      { path: "/home/fox/projekte/app", type: "dir", perms: "755" },
+      { path: "/home/fox/projekte/app/readme.md", type: "file", perms: "644", content: "Projektbeschreibung\n" },
+      { path: "/home/fox/projekte/app/todo.txt", type: "file", perms: "644", content: "Tests schreiben\n" },
+      { path: "/home/fox/projekte/web", type: "dir", perms: "755" },
+      { path: "/home/fox/projekte/web/index.html", type: "file", perms: "644", content: "<h1>Projekt</h1>\n" }
+    ]
+  },
+  "shell/dateien-mit-head-und-tail": {
+    key: "shell/dateien-mit-head-und-tail",
+    title: "Dateien mit head und tail lesen",
+    intro: "Hier übst du, nicht immer die ganze Datei zu lesen. Schau dir Anfang und Ende gezielt an und vergleiche die Werkzeuge.",
+    prompt: "schlaufuchs@lesen",
+    startPath: "/home/fox",
+    suggestedCommands: ["ls", "cat protokoll.log", "head protokoll.log", "tail protokoll.log", "head -n 3 zahlen.txt", "tail -n 2 zahlen.txt"],
+    quickNotes: ["head zeigt den Anfang, tail das Ende.", "Vergleiche die Ausgaben bewusst mit cat.", "Gerade bei Protokollen ist das Ende oft besonders interessant."],
+    trySteps: ["Lies erst eine Datei vollständig mit cat.", "Vergleiche danach dieselbe Datei mit head und tail.", "Nutze anschließend -n, um einen kleineren Ausschnitt zu wählen."],
+    entries: [
+      { path: "/", type: "dir", perms: "755" },
+      { path: "/home", type: "dir", perms: "755" },
+      { path: "/home/fox", type: "dir", perms: "755" },
+      { path: "/home/fox/protokoll.log", type: "file", perms: "644", content: "Start des Dienstes\nKonfiguration geladen\nPort geoeffnet\nAnfrage A verarbeitet\nAnfrage B verarbeitet\nDienst sauber beendet\n" },
+      { path: "/home/fox/zahlen.txt", type: "file", perms: "644", content: "eins\nzwei\ndrei\nvier\nfuenf\nsechs\n" }
+    ]
+  },
+  "shell/pfade-mit-basename-dirname-und-realpath": {
+    key: "shell/pfade-mit-basename-dirname-und-realpath",
+    title: "Pfade mit basename, dirname und realpath lesen",
+    intro: "Hier geht es um genaue Pfadangaben. Zerlege Pfade in Dateiname, Verzeichnis und vollständigen Bezugspunkt.",
+    prompt: "schlaufuchs@pfade",
+    startPath: "/home/fox/projekte/app",
+    suggestedCommands: ["pwd","basename /home/fox/projekte/app/config/settings.json","dirname /home/fox/projekte/app/config/settings.json","realpath ../app/config/settings.json","ls","tree"],
+    quickNotes: ["Vergleiche dieselbe Pfadangabe mit mehreren Werkzeugen.", "Achte darauf, welcher Teil der Name und welcher Teil das Verzeichnis ist."],
+    trySteps: ["Starte mit pwd und tree, damit du die Struktur ruhig vor Augen hast.", "Vergleiche danach basename und dirname an derselben Datei.", "Nutze realpath, um einen relativen Pfad eindeutig aufzulösen."],
+    entries: [
+      { path: "/", type: "dir", perms: "755" },
+      { path: "/home", type: "dir", perms: "755" },
+      { path: "/home/fox", type: "dir", perms: "755" },
+      { path: "/home/fox/projekte", type: "dir", perms: "755" },
+      { path: "/home/fox/projekte/app", type: "dir", perms: "755" },
+      { path: "/home/fox/projekte/app/config", type: "dir", perms: "755" },
+      { path: "/home/fox/projekte/app/config/settings.json", type: "file", perms: "644", content: '{\"theme\":\"light\",\"lang\":\"de\"}\n' },
+      { path: "/home/fox/projekte/app/README.md", type: "file", perms: "644", content: "Projekt App\nKonfigurationen liegen im Ordner config.\n" }
+    ]
+  },
+  "shell/history-und-wiederkehrende-befehle": {
+    key: "shell/history-und-wiederkehrende-befehle",
+    title: "History und wiederkehrende Befehle nutzen",
+    intro: "Diese Übung zeigt dir, wie wiederkehrende Befehle und der Verlauf zusammenhängen. Arbeite in kleinen Schritten und nutze history bewusst als Kontrollhilfe.",
+    prompt: "schlaufuchs@history",
+    startPath: "/home/fox",
+    suggestedCommands: ["ls","cat notizen.txt","grep Fehler analyse.log","wc analyse.log","history","pwd"],
+    quickNotes: ["History hilft nicht nur beim Wiederholen, sondern auch beim Nachvollziehen.", "Prüfe immer, ob ein früherer Befehl im aktuellen Verzeichnis noch sinnvoll ist."],
+    trySteps: ["Führe zuerst ein paar kleine Lese- und Analysebefehle aus.", "Rufe danach history auf und vergleiche deinen Arbeitsweg.", "Überlege, welche Befehle du eher wiederholen als neu eintippen würdest."],
+    entries: [
+      { path: "/", type: "dir", perms: "755" },
+      { path: "/home", type: "dir", perms: "755" },
+      { path: "/home/fox", type: "dir", perms: "755" },
+      { path: "/home/fox/notizen.txt", type: "file", perms: "644", content: "Kontrolliere Arbeitswege lieber schrittweise als hektisch.\n" },
+      { path: "/home/fox/analyse.log", type: "file", perms: "644", content: "Start\nKonfiguration ok\nFehler A gefunden\nFehler B gefunden\nEnde\n" }
+    ]
   }
+
 };
 
+  "shell/umgebungsvariablen-und-path": {
+    key: "shell/umgebungsvariablen-und-path",
+    title: "Umgebungsvariablen und PATH einordnen",
+    intro: "Diese Lernshell macht Shell-Kontext sichtbar. Nutze env, pwd, which und realpath, um zu verstehen, was aktueller Ort, Heimatverzeichnis und Befehlsweg jeweils leisten.",
+    prompt: "schlaufuchs@env",
+    startPath: "/home/fox/projekte",
+    suggestedCommands: ["pwd","env","which ls","which grep","realpath ../notizen.txt","basename /home/fox/projekte/app/config.json","dirname /home/fox/projekte/app/config.json"],
+    quickNotes: ["PWD zeigt den aktuellen Ort, HOME das Benutzerverzeichnis.", "PATH hilft der Shell beim Finden von Befehlen.", "which zeigt, wo ein Befehl gefunden wird."],
+    trySteps: ["Prüfe zuerst deinen aktuellen Ort mit pwd.", "Sieh dir dann mit env den Shell-Kontext an.", "Nutze danach which und realpath, um Befehlswege und Dateipfade bewusst zu trennen."],
+    entries: [
+      { path: "/", type: "dir", perms: "755" },
+      { path: "/home", type: "dir", perms: "755" },
+      { path: "/home/fox", type: "dir", perms: "755" },
+      { path: "/home/fox/notizen.txt", type: "file", perms: "644", content: "HOME und PWD sind nicht dasselbe.\n" },
+      { path: "/home/fox/projekte", type: "dir", perms: "755" },
+      { path: "/home/fox/projekte/app", type: "dir", perms: "755" },
+      { path: "/home/fox/projekte/app/config.json", type: "file", perms: "644", content: "{\"mode\": \"dev\"}\n" }
+    ]
+  },
+  "shell/dateirechte-mit-ls-stat-und-chmod-lesen": {
+    key: "shell/dateirechte-mit-ls-stat-und-chmod-lesen",
+    title: "Dateirechte prüfen und ändern",
+    intro: "Hier steht das Lesen von Rechten im Mittelpunkt. Nutze ls -l, stat und chmod, um Ausgangslage, Änderung und Wirkung geordnet zu beobachten.",
+    prompt: "schlaufuchs@chmod",
+    startPath: "/home/fox",
+    suggestedCommands: ["ls -l","stat geheim.txt","stat teaminfo.txt","chmod 640 geheim.txt","ls -l","stat geheim.txt"],
+    quickNotes: ["Erst lesen, dann ändern.", "chmod verändert Rechte, nicht den Inhalt.", "Vergleiche dieselbe Datei vor und nach einer Änderung."],
+    trySteps: ["Verschaffe dir zuerst mit ls -l einen Überblick.", "Prüfe eine Datei danach genauer mit stat.", "Ändere anschließend testweise eine Rechtezahl mit chmod und kontrolliere erneut."],
+    entries: [
+      { path: "/", type: "dir", perms: "755" },
+      { path: "/home", type: "dir", perms: "755" },
+      { path: "/home/fox", type: "dir", perms: "755" },
+      { path: "/home/fox/geheim.txt", type: "file", perms: "600", content: "Nur der Besitzer soll alles lesen können.\n" },
+      { path: "/home/fox/teaminfo.txt", type: "file", perms: "644", content: "Die Gruppe darf hier mitlesen.\n" },
+      { path: "/home/fox/skript.sh", type: "file", perms: "755", content: "#!/bin/bash\necho Hallo\n" }
+    ]
+  },
 const linuxShellAliases: Record<string, string> = {
   "system/benutzer-und-gruppen-grundlagen": "system/benutzer-und-gruppen",
   "benutzer-und-gruppen-grundlagen": "system/benutzer-und-gruppen",
   "benutzer-und-gruppen": "system/benutzer-und-gruppen",
   "dateirechte": "system/dateirechte",
+  "dateirechte-mit-ls-stat-und-chmod-lesen": "shell/dateirechte-mit-ls-stat-und-chmod-lesen",
+  "umgebungsvariablen-und-path": "shell/umgebungsvariablen-und-path",
   "nano": "praxis/nano",
   "terminal-nutzen": "praxis/terminal-nutzen",
+  "find-und-dateisuche": "shell/find-und-dateisuche",
+  "dateien-mit-head-und-tail": "shell/dateien-mit-head-und-tail",
+  "pfade-mit-basename-dirname-und-realpath": "shell/pfade-mit-basename-dirname-und-realpath",
+  "history-und-wiederkehrende-befehle": "shell/history-und-wiederkehrende-befehle",
 };
 
 export const getLinuxShellScenario = (key: string) => {

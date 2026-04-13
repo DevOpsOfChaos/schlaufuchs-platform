@@ -1,0 +1,97 @@
+---
+title: Probleme in Teilprobleme zerlegen
+description: Verstehe, warum komplexe Aufgaben leichter lösbar werden, wenn sie in überschaubare Einzelschritte und Teilprobleme gegliedert werden.
+subject: informatik
+section: Algorithmen
+topicPath:
+  - algorithmen
+  - probleme-in-teilprobleme-zerlegen
+tags:
+  - algorithmus
+  - teilproblem
+  - struktur
+  - planen
+learningGoals:
+  - "Du erklärst, warum große Probleme in Teilprobleme zerlegt werden."
+  - "Du unterscheidest Gesamtziel, Zwischenschritt und Teilaufgabe."
+  - "Du beschreibst einfache Abläufe als geordnete Struktur statt als ungeordnete Sammlung von Ideen."
+practiceIdeas:
+  - "Gliedere eine Alltagsaufgabe bewusst in Teilaufgaben."
+  - "Suche in einem Beispiel den Punkt, an dem ein Problem zu groß für einen einzigen Schritt wird."
+  - "Formuliere ein Teilproblem so, dass es einzeln lösbar wirkt."
+commonMistakes:
+  - "Das Gesamtproblem sofort komplett lösen zu wollen."
+  - "Schritte aufzuschreiben, die kein klares Teilziel haben."
+  - "Zwischenziel und Endziel durcheinanderzubringen."
+keyTakeaways:
+  - "Große Probleme werden durch Zerlegung überschaubarer."
+  - "Teilprobleme helfen beim Planen, Prüfen und Verbessern."
+  - "Algorithmisches Denken beginnt oft mit guter Struktur, nicht mit Code."
+recognizeSignals:
+  - "Es geht um Abläufe, Planung, Struktur oder das Aufteilen einer Aufgabe."
+  - "Ein Beispiel fragt nach sinnvollen Zwischenschritten oder Teilzielen."
+  - "Du sollst ein komplexeres Problem erst gliedern und dann lösen."
+selfCheckPoints:
+  - "Kann ich ein Gesamtziel von einzelnen Teilzielen unterscheiden?"
+  - "Kann ich erklären, warum die Zerlegung das Problem einfacher macht?"
+  - "Kann ich einen Ablauf in sinnvolle Teilaufgaben gliedern?"
+level: einfach
+draft: false
+---
+
+## Warum dieses Thema wichtig ist
+
+Viele Probleme scheitern nicht daran, dass sie unlösbar sind, sondern daran, dass sie **zu groß auf einmal** gedacht werden. Informatik arbeitet deshalb oft so, dass große Aufgaben in kleinere, verständliche Teilaufgaben zerlegt werden.
+
+So entstehen Strukturen, die man besser prüfen, anpassen und später auch automatisieren kann.
+
+<div class="example-card">
+  <p class="card-kicker">Leitbeispiel</p>
+  <h3>Eine Suchfunktion planen</h3>
+  <p>Statt nur zu sagen „Baue eine Suche“, kann man die Aufgabe gliedern: Eingabe lesen, Suchbegriff prüfen, passende Daten durchsuchen, Treffer ausgeben. Aus einem großen Ziel werden so mehrere klare Teilprobleme.</p>
+</div>
+
+## Vom Gesamtziel zu Teilzielen
+
+Ein gutes Teilproblem ist kleiner als das Gesamtproblem, aber trotzdem sinnvoll. Es sollte so formuliert sein, dass man daran konkret weiterarbeiten kann.
+
+Typische Fragen sind:
+
+- Was muss zuerst klar sein?
+- Welche Informationen brauche ich vorher?
+- Welche Teilaufgabe kann unabhängig betrachtet werden?
+
+## Warum Zerlegung beim Denken hilft
+
+Teilprobleme helfen, weil sie
+
+- Komplexität reduzieren,
+- Fehlerquellen sichtbarer machen,
+- Abläufe strukturieren,
+- und Zusammenarbeit erleichtern.
+
+Wer Probleme gut zerlegt, versteht oft schon einen großen Teil der Lösung, bevor überhaupt programmiert wird.
+
+## Reihenfolge und Abhängigkeiten
+
+Nicht jedes Teilproblem kann sofort gelöst werden. Manche Schritte bauen auf anderen auf. Darum ist wichtig zu erkennen,
+
+- welche Schritte zuerst kommen,
+- welche parallel gedacht werden können,
+- und wo Zwischenergebnisse nötig sind.
+
+Das macht aus einer losen Ideenliste einen geordneten Ablauf.
+
+## Teilprobleme sind nicht zufällige Unterpunkte
+
+Eine gute Zerlegung besteht nicht nur aus vielen kleinen Stichworten. Sie braucht erkennbare Logik. Teilprobleme sollten
+
+- klar benannt sein,
+- ein eigenes Ziel haben,
+- und zusammen wieder zum Gesamtziel führen.
+
+## Warum das auch ohne Programmieren wichtig ist
+
+Algorithmisches Denken beginnt nicht erst mit einer Programmiersprache. Schon beim Planen, Strukturieren und Formulieren zeigt sich, ob ein Problem wirklich verstanden wurde.
+
+Darum ist die Zerlegung in Teilprobleme ein Kernthema für Informatik – und gleichzeitig eine sehr alltagstaugliche Denkweise.

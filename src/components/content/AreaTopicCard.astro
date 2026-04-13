@@ -1,0 +1,93 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  href: string;
+  tone?: string;
+  icon: string;
+  searchText?: string;
+}
+
+const { title, description, href, tone = 'math', icon, searchText = '' } = Astro.props as Props;
+---
+
+<a class={`topic-card ${tone}`} href={href} data-search-item data-search-text={searchText}>
+  <div class="topic-card-top">
+    <span class="topic-symbol" aria-hidden="true" set:html={icon}></span>
+    <h2>{title}</h2>
+  </div>
+  <p>{description}</p>
+</a>
+
+<style>
+  .topic-card {
+    display: grid;
+    gap: 1rem;
+    padding: 1.5rem;
+    border: 1px solid var(--border);
+    border-radius: 28px;
+    box-shadow: var(--shadow-soft);
+    min-height: 15rem;
+    transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
+  }
+
+  .topic-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-card);
+    border-color: var(--border-strong);
+  }
+
+  .topic-card.math { background: linear-gradient(135deg, rgba(93,113,175,0.18), rgba(232,237,248,0.82)); }
+  .topic-card.web { background: linear-gradient(135deg, rgba(173,144,156,0.16), rgba(245,239,241,0.84)); }
+  .topic-card.cs { background: linear-gradient(135deg, rgba(95,139,158,0.16), rgba(235,244,247,0.84)); }
+  .topic-card.linux { background: linear-gradient(135deg, rgba(175,163,122,0.16), rgba(242,239,230,0.84)); }
+  .topic-card.ee { background: linear-gradient(135deg, rgba(173,147,144,0.15), rgba(244,236,235,0.84)); }
+
+  :global(html[data-theme="dark"]) .topic-card.math { background: linear-gradient(135deg, rgba(72,95,164,0.30), rgba(22,31,58,0.94)); }
+  :global(html[data-theme="dark"]) .topic-card.web { background: linear-gradient(135deg, rgba(96,72,104,0.24), rgba(49,38,43,0.94)); }
+  :global(html[data-theme="dark"]) .topic-card.cs { background: linear-gradient(135deg, rgba(28,71,87,0.30), rgba(18,37,45,0.94)); }
+  :global(html[data-theme="dark"]) .topic-card.linux { background: linear-gradient(135deg, rgba(84,76,44,0.22), rgba(42,39,28,0.94)); }
+  :global(html[data-theme="dark"]) .topic-card.ee { background: linear-gradient(135deg, rgba(83,60,58,0.22), rgba(42,29,31,0.94)); }
+
+  .topic-card-top {
+    display: grid;
+    gap: 0.9rem;
+    align-content: start;
+  }
+
+  .topic-symbol {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.7rem;
+    height: 2.7rem;
+    border-radius: 999px;
+    border: 1px solid rgba(148, 163, 184, 0.14);
+    background: rgba(255, 255, 255, 0.26);
+  }
+
+  .topic-symbol :global(svg) {
+    width: 1.15rem;
+    height: 1.15rem;
+    stroke: currentColor;
+    fill: none;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .topic-card h2 {
+    margin: 0;
+    color: var(--text-strong);
+    font-size: clamp(1.7rem, 2.6vw, 2.15rem);
+    line-height: 1.02;
+    letter-spacing: -0.04em;
+  }
+
+  .topic-card p {
+    margin: 0;
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 1.02rem;
+  }
+</style>

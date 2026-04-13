@@ -1,17 +1,28 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { getExerciseGroups, getVisibleExercises, levelLabels } from "../../data/content";
-import { getTopicDisplayLabel, getTopicOverviewPath, getTopicSnapshot, humanizeTopicSegment } from "../../data/topics";
+import { getExerciseGroups, getVisibleArticles, getVisibleExercises, levelLabels } from "../../data/content";
+import { getTopicDisplayLabel, getTopicOverviewPath, getTopicSnapshot } from "../../data/topics";
 import { resolvePrimarySubjectSlug, subjectTitleMap } from "../../data/subjects";
 import { withBase } from "../../utils/base";
 import SectionHeading from "../../components/content/SectionHeading.astro";
 import ResourceCard from "../../components/content/ResourceCard.astro";
 
-const [groups, allExercises] = await Promise.all([getExerciseGroups(), getVisibleExercises()]);
+const [groups, allExercises, allArticles] = await Promise.all([
+  getExerciseGroups(),
+  getVisibleExercises(),
+  getVisibleArticles(),
+]);
 
 const taskIcon = `
 <svg viewBox="0 0 24 24" aria-hidden="true">
   <path d="M9 11l2 2 4-4"></path>
+  <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+</svg>`;
+const articleIcon = `
+<svg viewBox="0 0 24 24" aria-hidden="true">
+  <path d="M7 6h10"></path>
+  <path d="M7 10h10"></path>
+  <path d="M7 14h7"></path>
   <rect x="4" y="4" width="16" height="16" rx="2"></rect>
 </svg>`;
 
@@ -26,6 +37,29 @@ const featuredExercises = allExercises.slice(0, 8).map((entry) => {
     topicHref: branch.length > 0 ? withBase(`fachbereiche/${subjectSlug}/${branch.join("/")}`) : withBase(`fachbereiche/${subjectSlug}`),
   };
 });
+
+const totalTopicPaths = groups.reduce((sum, group) => sum + getTopicSnapshot(group.entries).slice(0, 3).length, 0);
+const groupCards = groups.map((group) => {
+  const hotspots = getTopicSnapshot(group.entries).slice(0, 3).map((item) => ({
+    ...item,
+    href: withBase(`fachbereiche/${group.slug}/${item.path.join("/")}`),
+  }));
+  const firstArticle = allArticles.find((entry) => resolvePrimarySubjectSlug(entry.data.subject) === group.slug) ?? null;
+  return {
+    ...group,
+    hotspots,
+    subjectHref: withBase(`fachbereiche/${group.slug}`),
+    firstExercise: group.entries[0] ?? null,
+    firstTopicHref: hotspots[0]?.href ?? withBase(`fachbereiche/${group.slug}`),
+    firstArticle,
+  };
+});
+
+const sectionLinks = [
+  { label: "Fächer", href: "#faecher" },
+  { label: "Startpunkte", href: "#startpunkte" },
+  { label: "Direkt üben", href: "#schnelleinstieg" },
+];
 ---
 
 <BaseLayout
@@ -34,16 +68,75 @@ const featuredExercises = allExercises.slice(0, 8).map((entry) => {
 >
   <div class="page-shell">
     <section class="hero">
-      <p class="eyebrow">Aufgaben</p>
-      <h1>Alle Aufgaben ruhig und thematisch sortiert</h1>
-      <p class="lead">
-        Hier findest du alle Aufgaben nach Fachbereichen gesammelt. Innerhalb der Karten siehst du sofort Niveau und Themenbezug,
-        damit du schneller passende Übungen findest.
-      </p>
+      <div>
+        <p class="eyebrow">Aufgaben</p>
+        <h1>Alle Aufgaben ruhig und thematisch sortiert</h1>
+        <p class="lead">
+          Hier findest du alle Aufgaben nach Fachbereichen gesammelt. Innerhalb der Karten siehst du sofort Niveau und Themenbezug,
+          damit du schneller passende Übungen findest.
+        </p>
+      </div>
+
+      <div class="hero-stats">
+        <article>
+          <strong>{allExercises.length}</strong>
+          <span>Aufgaben</span>
+        </article>
+        <article>
+          <strong>{groups.length}</strong>
+          <span>aktive Fachbereiche</span>
+        </article>
+        <article>
+          <strong>{totalTopicPaths}</strong>
+          <span>sichtbare Schwerpunktpfade</span>
+        </article>
+      </div>
     </section>
 
+    <section class="compact-block" aria-label="Schnellsprünge">
+      <div class="section-jump-row">
+        {sectionLinks.map((item) => <a class="jump-chip" href={item.href}>{item.label}</a>)}
+        <a class="jump-chip muted" href={withBase("wissen")}>Zu den Wissensseiten →</a>
+      </div>
+    </section>
+
+    {groupCards.length > 0 && (
+      <section class="section-block compact-block" id="faecher">
+        <SectionHeading kicker="Fächer" title="Spring direkt in einen Fachbereich" />
+        <div class="subject-strip">
+          {groupCards.map((group) => (
+            <a class="subject-strip-chip" href={group.subjectHref}>{group.title} · {group.entries.length}</a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {groupCards.length > 0 && (
+      <section class="section-block" id="startpunkte">
+        <SectionHeading kicker="Startpunkte" title="So kommst du schnell zu passenden Aufgaben" />
+        <div class="subject-grid">
+          {groupCards.map((group) => (
+            <article class="subject-card">
+              <div class="subject-card-top">
+                <h2>{group.title}</h2>
+                <span class="count-pill">{group.entries.length}</span>
+              </div>
+              <p class="subject-copy">{group.description}</p>
+              <p class="subject-meta">{group.hotspots.length} Schwerpunktpfade · erste Aufgabe: {group.firstExercise?.data.title ?? "–"}</p>
+              <div class="subject-actions">
+                <a href={group.subjectHref}>Zum Fachbereich →</a>
+                <a class="secondary-link" href={group.firstTopicHref}>Zum stärksten Themenpfad →</a>
+                {group.firstExercise && <a class="secondary-link" href={withBase(`aufgaben/${group.firstExercise.id}`)}>Direkt zur Aufgabe →</a>}
+                {group.firstArticle && <a class="secondary-link" href={withBase(`wissen/${group.firstArticle.id}`)}>Passende Wissensseite →</a>}
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+    )}
+
     {featuredExercises.length > 0 && (
-      <section class="section-block">
+      <section class="section-block" id="schnelleinstieg">
         <SectionHeading kicker="Schnelleinstieg" title="Direkt zu passenden Übungen" />
         <div class="card-grid">
           {featuredExercises.map(({ entry, subjectTitle, topicLabel }) => (
@@ -61,51 +154,46 @@ const featuredExercises = allExercises.slice(0, 8).map((entry) => {
       </section>
     )}
 
-    {groups.map((group) => {
-      const hotspots = getTopicSnapshot(group.entries).slice(0, 3).map((item) => ({
-        ...item,
-        href: withBase(`fachbereiche/${group.slug}/${item.path.join("/")}`),
-      }));
-      return (
-        <section class="section-block">
-          <SectionHeading
-            kicker={group.title}
-            title={`Aufgaben in ${group.title}`}
-            actionHref={withBase(`fachbereiche/${group.slug}`)}
-            actionLabel="Zum Fachbereich →"
-          />
+    {groupCards.map((group) => (
+      <section class="section-block">
+        <SectionHeading
+          kicker={group.title}
+          title={`Aufgaben in ${group.title}`}
+          actionHref={group.subjectHref}
+          actionLabel="Zum Fachbereich →"
+        />
 
-          <p class="group-intro">{group.description}</p>
-          {hotspots.length > 0 && (
-            <div class="hotspot-row">
-              {hotspots.map((item) => <a class="hotspot-chip" href={item.href}>{item.title} · {item.count}</a>)}
-            </div>
-          )}
+        <p class="group-intro">{group.description}</p>
+        <div class="group-actions">
+          {group.hotspots.map((item) => (
+            <a class="hotspot-chip" href={item.href}>{item.title} · {item.count}</a>
+          ))}
+          {group.firstExercise && <a class="jump-chip" href={withBase(`aufgaben/${group.firstExercise.id}`)}>Direkt üben →</a>}
+          {group.firstArticle && <a class="jump-chip muted" href={withBase(`wissen/${group.firstArticle.id}`)}>Erst Wissen lesen →</a>}
+        </div>
 
-          <div class="card-grid">
-            {group.entries.map((entry) => {
-              const branch = getTopicOverviewPath(entry);
-              const topicHref = branch.length > 0 ? withBase(`fachbereiche/${group.slug}/${branch.join("/")}`) : withBase(`fachbereiche/${group.slug}`);
-              const topicLabel = branch.length > 0 ? humanizeTopicSegment(branch.at(-1) ?? "") : getTopicDisplayLabel(entry);
-              return (
-                <article class="exercise-stack">
-                  <ResourceCard
-                    title={entry.data.title}
-                    description={entry.data.description}
-                    meta={`${levelLabels[entry.data.level]} · ${topicLabel}`}
-                    href={withBase(`aufgaben/${entry.id}`)}
-                    ctaLabel="Aufgabe öffnen →"
-                    icon={taskIcon}
-                    variant="task"
-                  />
-                  <a class="topic-link" href={topicHref}>Zum Themenpfad →</a>
-                </article>
-              );
-            })}
-          </div>
-        </section>
-      );
-    })}
+        <div class="card-grid">
+          {group.entries.map((entry) => {
+            const branch = getTopicOverviewPath(entry);
+            const topicHref = branch.length > 0 ? withBase(`fachbereiche/${group.slug}/${branch.join("/")}`) : withBase(`fachbereiche/${group.slug}`);
+            return (
+              <article class="exercise-stack">
+                <ResourceCard
+                  title={entry.data.title}
+                  description={entry.data.description}
+                  meta={`${levelLabels[entry.data.level]} · ${getTopicDisplayLabel(entry)}`}
+                  href={withBase(`aufgaben/${entry.id}`)}
+                  ctaLabel="Aufgabe öffnen →"
+                  icon={taskIcon}
+                  variant="task"
+                />
+                <a class="topic-link" href={topicHref}>Zum Themenpfad →</a>
+              </article>
+            );
+          })}
+        </div>
+      </section>
+    ))}
   </div>
 </BaseLayout>
 
@@ -117,8 +205,16 @@ const featuredExercises = allExercises.slice(0, 8).map((entry) => {
     gap: 1rem;
   }
 
+  .hero {
+    gap: 1.2rem;
+  }
+
   .section-block {
     margin-top: 1.1rem;
+  }
+
+  .compact-block {
+    margin-top: 0.2rem;
   }
 
   .eyebrow {
@@ -139,7 +235,8 @@ const featuredExercises = allExercises.slice(0, 8).map((entry) => {
   }
 
   .lead,
-  .group-intro {
+  .group-intro,
+  .subject-copy {
     margin: 0;
     max-width: 60rem;
     color: var(--text);
@@ -147,22 +244,79 @@ const featuredExercises = allExercises.slice(0, 8).map((entry) => {
     font-size: 1.03rem;
   }
 
-  .hotspot-row,
+  .hero-stats,
+  .subject-grid,
+  .group-actions,
+  .subject-strip,
   .card-grid {
     display: grid;
     gap: 1rem;
   }
 
-  .hotspot-row {
+  .hero-stats {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .hero-stats article,
+  .subject-card {
+    display: grid;
+    gap: 0.35rem;
+    padding: 1rem 1.05rem;
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    background: var(--card-bg);
+    box-shadow: var(--shadow-soft);
+  }
+
+  .hero-stats strong {
+    color: var(--text-strong);
+    font-size: 1.45rem;
+    line-height: 1;
+  }
+
+  .hero-stats span,
+  .subject-meta {
+    color: var(--text-soft);
+    line-height: 1.45;
+  }
+
+  .section-jump-row,
+  .subject-strip,
+  .group-actions,
+  .subject-actions {
     display: flex;
     flex-wrap: wrap;
     gap: 0.7rem;
   }
 
-  .hotspot-chip {
+  .subject-grid,
+  .card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .subject-card-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.8rem;
+  }
+
+  .subject-card h2 {
+    margin: 0;
+    color: var(--text-strong);
+    font-size: 1.18rem;
+    line-height: 1.18;
+  }
+
+  .count-pill,
+  .jump-chip,
+  .subject-strip-chip,
+  .hotspot-chip,
+  .topic-link {
     display: inline-flex;
     align-items: center;
-    min-height: 2.45rem;
+    justify-content: center;
+    min-height: 2.35rem;
     padding: 0 0.85rem;
     border-radius: 999px;
     border: 1px solid var(--border);
@@ -172,8 +326,26 @@ const featuredExercises = allExercises.slice(0, 8).map((entry) => {
     box-shadow: var(--shadow-soft);
   }
 
-  .card-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .count-pill {
+    min-width: 2.35rem;
+  }
+
+  .jump-chip.muted {
+    background: color-mix(in oklab, var(--surface) 88%, var(--surface-2) 12%);
+  }
+
+  .subject-actions a,
+  .secondary-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.3rem;
+    padding: 0 0.85rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text-strong);
+    font-weight: 700;
+    box-shadow: var(--shadow-soft);
   }
 
   .exercise-stack {
@@ -181,22 +353,9 @@ const featuredExercises = allExercises.slice(0, 8).map((entry) => {
     gap: 0.55rem;
   }
 
-  .topic-link {
-    display: inline-flex;
-    align-items: center;
-    justify-content: flex-start;
-    min-height: 2.7rem;
-    padding: 0 0.95rem;
-    border-radius: 999px;
-    border: 1px solid var(--border);
-    background: var(--surface);
-    color: var(--text-strong);
-    font-weight: 700;
-    box-shadow: var(--shadow-soft);
-    width: fit-content;
-  }
-
   @media (max-width: 980px) {
+    .hero-stats,
+    .subject-grid,
     .card-grid {
       grid-template-columns: 1fr;
     }

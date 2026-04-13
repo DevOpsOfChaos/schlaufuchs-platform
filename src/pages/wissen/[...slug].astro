@@ -13,7 +13,6 @@ import {
 } from "../../data/topics";
 import { withBase } from "../../utils/base";
 import PageTrail from "../../components/content/PageTrail.astro";
-import OverviewPanel from "../../components/content/OverviewPanel.astro";
 import SectionHeading from "../../components/content/SectionHeading.astro";
 import ResourceCard from "../../components/content/ResourceCard.astro";
 import PracticeIdeas from "../../components/content/PracticeIdeas.astro";
@@ -35,7 +34,6 @@ const subjectTitle = subjectTitleMap[entry.data.subject] ?? "Fachbereich";
 const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject) ?? "elektrotechnik";
 const topicTail = getTopicTail(entry);
 const topicBranch = getTopicOverviewPath(entry);
-const learningGoals = Array.isArray(entry.data.learningGoals) ? entry.data.learningGoals.filter(Boolean) : [];
 const practiceIdeas = Array.isArray(entry.data.practiceIdeas) ? entry.data.practiceIdeas.filter(Boolean) : [];
 const commonMistakes = Array.isArray(entry.data.commonMistakes) ? entry.data.commonMistakes.filter(Boolean) : [];
 const keyTakeaways = Array.isArray(entry.data.keyTakeaways) ? entry.data.keyTakeaways.filter(Boolean) : [];
@@ -64,20 +62,9 @@ const breadcrumbSegments = topicBranch.map((segment, index) => ({
   label: humanizeTopicSegment(segment),
   href: withBase(`fachbereiche/${subjectSlug}/${topicBranch.slice(0, index + 1).join("/")}`),
 }));
-
 const trail = [{ label: subjectTitle, href: withBase(`fachbereiche/${subjectSlug}`) }, ...breadcrumbSegments];
-
 const backHref = breadcrumbSegments.length > 0 ? breadcrumbSegments[breadcrumbSegments.length - 1].href : withBase(`fachbereiche/${subjectSlug}`);
-const topicPathHref = topicBranch.length > 0 ? withBase(`fachbereiche/${subjectSlug}/${topicBranch.join("/")}`) : withBase(`fachbereiche/${subjectSlug}`);
 const shellScenario = subjectSlug === "linux" ? getLinuxShellScenario(topicTail.join("/")) : null;
-
-const overviewPoints = learningGoals.length > 0
-  ? learningGoals
-  : [
-      `Diese Wissensseite gehört fachlich zu ${subjectTitle}.`,
-      `Sie vertieft das Thema ${breadcrumbSegments.at(-1)?.label ?? entry.data.section ?? "dieser Wissensbereich"}.`,
-      "Darunter findest du passende Aufgaben und weitere Wissensseiten mit engem Themenbezug.",
-    ];
 
 const taskIcon = `
 <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -108,14 +95,6 @@ const articleIcon = `
       <h1>{entry.data.title}</h1>
       <p class="lead">{entry.data.description}</p>
     </section>
-
-    <OverviewPanel
-      title="Was du hier lernst"
-      kicker="Einstieg"
-      points={overviewPoints}
-      actionHref={topicPathHref}
-      actionLabel="Zum Themenpfad →"
-    />
 
     <section class="article-shell">
       <article class="article-content">

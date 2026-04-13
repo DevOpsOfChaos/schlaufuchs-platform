@@ -40,22 +40,60 @@ const shellId = `linux-shell-${scenario.key.replace(/[^a-z0-9]+/gi, "-").toLower
 
   <div class="shell-suggestions">
     <div class="suggestions-head">
-      <p>Zum Einstieg direkt ausführen:</p>
+      <p>Probiere zum Einstieg:</p>
       <div class="toolbar-actions">
+        <button type="button" class="mini-button" data-shell-run="help">help</button>
+        <button type="button" class="mini-button" data-shell-run="pwd">pwd</button>
+        <button type="button" class="mini-button" data-shell-run="history">history</button>
+        <button type="button" class="mini-button" data-shell-run="ls">ls</button>
+        <button type="button" class="mini-button" data-shell-run="tree">tree</button>
         <button type="button" class="mini-button" data-shell-clear>Ausgabe leeren</button>
         <button type="button" class="mini-button" data-shell-reset>Shell zurücksetzen</button>
+      </div>
+    </div>
+    <div class="shell-cheat-grid">
+      <div class="cheat-card">
+        <span>Orientierung</span>
+        <div class="cheat-actions">
+          <button type="button" class="mini-button soft" data-shell-fill="pwd">pwd</button>
+          <button type="button" class="mini-button soft" data-shell-fill="ls -l">ls -l</button>
+          <button type="button" class="mini-button soft" data-shell-fill="tree">tree</button>
+          <button type="button" class="mini-button soft" data-shell-fill="realpath .">realpath .</button>
+        </div>
+      </div>
+      <div class="cheat-card">
+        <span>Dateien</span>
+        <div class="cheat-actions">
+          <button type="button" class="mini-button soft" data-shell-fill="cat ">cat</button>
+          <button type="button" class="mini-button soft" data-shell-fill="stat ">stat</button>
+          <button type="button" class="mini-button soft" data-shell-fill="touch ">touch</button>
+          <button type="button" class="mini-button soft" data-shell-fill="nano ">nano</button>
+        </div>
+      </div>
+      <div class="cheat-card">
+        <span>Analyse</span>
+        <div class="cheat-actions">
+          <button type="button" class="mini-button soft" data-shell-fill="grep ">grep</button>
+          <button type="button" class="mini-button soft" data-shell-fill="sort ">sort</button>
+          <button type="button" class="mini-button soft" data-shell-fill="uniq ">uniq</button>
+          <button type="button" class="mini-button soft" data-shell-fill="wc ">wc</button>
+        </div>
       </div>
     </div>
     <ul>
       {scenario.suggestedCommands.map((command) => (
         <li>
-          <button type="button" class="command-chip" data-shell-command={command} title={`Befehl direkt ausführen: ${command}`}>
+          <button type="button" class="command-chip" data-shell-command={command}>
             <code>{command}</code>
           </button>
         </li>
       ))}
     </ul>
-    <p class="shell-hint">Tipp: Ein Klick führt den Befehl direkt aus. Mit ↑ und ↓ kannst du zuletzt genutzte Befehle erneut aufrufen.</p>
+    <p class="shell-hint">Klick auf einen Vorschlag führt den Befehl direkt aus. Mit <code>Esc</code> leerst du die Eingabe, mit <code>Ctrl</code> + <code>L</code> die Ausgabe und mit <code>Tab</code> ergänzt du bekannte Befehle.</p>
+    <div class="shell-reference">
+      <span>Grundbefehle:</span>
+      <code>pwd</code><code>ls</code><code>cd</code><code>tree</code><code>cat</code><code>grep</code><code>chmod</code><code>nano</code>
+    </div>
   </div>
 
   <div class="shell-window">
@@ -81,6 +119,20 @@ const shellId = `linux-shell-${scenario.key.replace(/[^a-z0-9]+/gi, "-").toLower
         placeholder="Befehl eingeben und mit Enter ausführen"
       />
     </form>
+
+    <div class="shell-hints">
+      <span>Enter führt aus</span>
+      <span>Esc leert die Eingabe</span>
+      <span>Ctrl + L leert die Ausgabe</span>
+      <span>↑ ↓ blättert durch den Verlauf</span>
+    </div>
+
+    <div class="shell-status">
+      <span data-shell-status-path>Ort: {scenario.startPath}</span>
+      <span data-shell-status-items>Sichtbar hier: –</span>
+      <span data-shell-status-history>Verlauf: 0 Befehle</span>
+      <span data-shell-status-last>Letzter Befehl: –</span>
+    </div>
   </div>
 </section>
 
@@ -97,6 +149,12 @@ const shellId = `linux-shell-${scenario.key.replace(/[^a-z0-9]+/gi, "-").toLower
     const resetButton = root.querySelector("[data-shell-reset]");
     const clearButton = root.querySelector("[data-shell-clear]");
     const quickButtons = [...root.querySelectorAll("[data-shell-command]")];
+    const utilityButtons = [...root.querySelectorAll("[data-shell-run]")];
+    const fillButtons = [...root.querySelectorAll("[data-shell-fill]")];
+    const statusPathEl = root.querySelector("[data-shell-status-path]");
+    const statusItemsEl = root.querySelector("[data-shell-status-items]");
+    const statusHistoryEl = root.querySelector("[data-shell-status-history]");
+    const statusLastEl = root.querySelector("[data-shell-status-last]");
 
     if (!outputEl || !formEl || !inputEl || !promptEl) return;
 
@@ -113,6 +171,9 @@ const shellId = `linux-shell-${scenario.key.replace(/[^a-z0-9]+/gi, "-").toLower
       uniq: "uniq entfernt gleiche aufeinanderfolgende Zeilen.",
       cut: "cut liest bei getrennten Werten einzelne Felder aus.",
       wc: "wc zählt Zeilen, Wörter und Zeichen.",
+      head: "head zeigt den Anfang einer Datei an; ohne Option typischerweise die ersten 10 Zeilen.",
+      tail: "tail zeigt das Ende einer Datei an; ohne Option typischerweise die letzten 10 Zeilen.",
+      find: "find durchsucht ab einem Startpfad einen Verzeichnisbaum und filtert Treffer über Ausdrücke wie -name oder -type.",
       chmod: "chmod ändert in dieser Lernshell numerische Rechte wie 640 oder 755.",
       nano: "nano simuliert das Öffnen einer Datei und erklärt den Arbeitsablauf.",
       which: "which zeigt, ob ein Befehl in dieser Lernshell verfügbar ist.",
@@ -126,6 +187,7 @@ const shellId = `linux-shell-${scenario.key.replace(/[^a-z0-9]+/gi, "-").toLower
     let cwd = scenario.startPath;
     const history = [];
     let historyIndex = -1;
+    let lastCommand = "–";
 
     const escapeHtml = (value) => value
       .replaceAll("&", "&amp;")
@@ -188,6 +250,12 @@ const shellId = `linux-shell-${scenario.key.replace(/[^a-z0-9]+/gi, "-").toLower
     };
 
     const updatePrompt = () => { promptEl.textContent = `${scenario.prompt}:${cwd}$`; };
+    const updateStatus = () => {
+      if (statusPathEl) statusPathEl.textContent = `Ort: ${cwd}`;
+      if (statusItemsEl) statusItemsEl.textContent = `Sichtbar hier: ${listChildren(cwd).length}`;
+      if (statusHistoryEl) statusHistoryEl.textContent = `Verlauf: ${history.length} Befehle`;
+      if (statusLastEl) statusLastEl.textContent = `Letzter Befehl: ${lastCommand}`;
+    };
     const appendLine = (html, type = "output") => {
       const line = document.createElement("div");
       line.className = `shell-line ${type}`;
@@ -253,27 +321,24 @@ const shellId = `linux-shell-${scenario.key.replace(/[^a-z0-9]+/gi, "-").toLower
       return `${command}: in dieser Pipe nicht verfügbar`;
     };
 
+    const recordHistory = (value) => {
+      const trimmed = value.trim();
+      if (!trimmed) { updateStatus(); return; }
+      history.unshift(trimmed);
+      historyIndex = -1;
+    };
+
     const resetShell = () => {
       entries = cloneEntries(initialEntries);
       cwd = scenario.startPath;
       history.length = 0;
       historyIndex = -1;
+      lastCommand = "–";
       outputEl.innerHTML = "";
       appendLine(escapeHtml(`Willkommen in der Linux-Lernshell: ${scenario.title}`));
       appendLine("Nutze <strong>help</strong> für eine Übersicht oder <strong>reset</strong> für den Anfangszustand.");
       updatePrompt();
-      inputEl.focus();
-    };
-
-    const runCommand = (commandText, options = { pushHistory: true }) => {
-      const trimmed = commandText.trim();
-      if (!trimmed) return;
-      if (options.pushHistory) {
-        history.unshift(trimmed);
-        historyIndex = -1;
-      }
-      execute(trimmed);
-      inputEl.value = "";
+      updateStatus();
       inputEl.focus();
     };
 
@@ -281,11 +346,13 @@ const shellId = `linux-shell-${scenario.key.replace(/[^a-z0-9]+/gi, "-").toLower
       const trimmed = rawCommand.trim();
       appendLine(`<span class="prompt">${escapeHtml(`${scenario.prompt}:${cwd}$`)}</span> <span class="command">${escapeHtml(trimmed)}</span>`, "command");
       if (!trimmed) return;
+      lastCommand = trimmed;
       if (trimmed.includes("|")) {
         const segments = trimmed.split("|").map((segment) => segment.trim()).filter(Boolean);
         let current = "";
         for (const segment of segments) current = runPipeStage(segment, current);
         if (current) appendLine(escapeHtml(String(current)).replaceAll("\n", "<br />"));
+        updateStatus();
         return;
       }
 
@@ -309,11 +376,11 @@ const shellId = `linux-shell-${scenario.key.replace(/[^a-z0-9]+/gi, "-").toLower
       else if (command === "groups") result = groups.join(" ");
       else if (command === "id") result = `uid=1000(${username}) gid=1000(${groups[0]}) groups=${groups.map((group, index) => `${1000 + index}(${group})`).join(",")}`;
       else if (command === "env") result = ["USER=fox", "HOME=/home/fox", `PWD=${cwd}`, "SHELL=/bin/bash"].join("\n");
-      else if (command === "help") result = ["Unterstützte Befehle:","pwd, ls, cd, tree, cat, grep, sort, uniq, cut, wc, mkdir, touch, cp, mv, rm, file, stat, chmod, nano, whoami, groups, id, env, which, man, history, clear, reset, basename, dirname, realpath, echo, printf","Zusätzlich unterstützt: einfache Pipes mit | sowie > und >>."].join("\n");
+      else if (command === "help") result = ["Unterstützte Befehle:","pwd, ls, cd, tree, cat, head, tail, find, grep, sort, uniq, cut, wc, mkdir, touch, cp, mv, rm, file, stat, chmod, nano, whoami, groups, id, env, which, man, history, clear, reset, basename, dirname, realpath, echo, printf","Zusätzlich unterstützt: einfache Pipes mit | sowie > und >>."].join("\n");
       else if (command === "history") result = history.length ? history.map((item, index) => `${index + 1}  ${item}`).join("\n") : "Noch keine Befehle ausgeführt.";
       else if (command === "which") result = manuals[args[0]] ? `/usr/bin/${args[0]}` : `which: no ${args[0]} in (schlaufuchs-shell)`;
       else if (command === "man") result = manuals[args[0]] ?? `Keine Handbuchseite für ${args[0]} vorhanden.`;
-      else if (command === "clear") { outputEl.innerHTML = ""; return; }
+      else if (command === "clear") { outputEl.innerHTML = ""; updateStatus(); return; }
       else if (command === "reset") { resetShell(); return; }
       else if (command === "basename") result = basename(resolvePath(args[0] ?? "."));
       else if (command === "dirname") result = dirname(resolvePath(args[0] ?? "."));
@@ -336,6 +403,58 @@ const shellId = `linux-shell-${scenario.key.replace(/[^a-z0-9]+/gi, "-").toLower
       } else if (command === "cat") {
         const read = readSource(args[0], "");
         result = read.error ?? read.source;
+      } else if (command === "head") {
+        const fileArg = args.find((arg, index) => arg && arg !== "-n" && args[index - 1] !== "-n");
+        const read = readSource(fileArg, "");
+        if (read.error) result = read.error;
+        else {
+          const countIndex = args.findIndex((arg) => arg === "-n");
+          const count = Number(countIndex !== -1 ? args[countIndex + 1] ?? "10" : "10");
+          result = String(read.source).split("\n").slice(0, Number.isFinite(count) ? Math.max(count, 0) : 10).join("\n");
+        }
+      } else if (command === "tail") {
+        const fileArg = args.find((arg, index) => arg && arg !== "-n" && args[index - 1] !== "-n");
+        const read = readSource(fileArg, "");
+        if (read.error) result = read.error;
+        else {
+          const countIndex = args.findIndex((arg) => arg === "-n");
+          const count = Number(countIndex !== -1 ? args[countIndex + 1] ?? "10" : "10");
+          const lines = String(read.source).split("\n");
+          result = lines.slice(Math.max(lines.length - (Number.isFinite(count) ? Math.max(count, 0) : 10), 0)).join("\n");
+        }
+      } else if (command === "find") {
+        const filteredArgs = args.filter((arg, index) => {
+          const previous = args[index - 1];
+          return arg !== "-name" && arg !== "-type" && previous !== "-name" && previous !== "-type";
+        });
+        const startArg = filteredArgs[0] ?? ".";
+        const start = resolvePath(startArg);
+        const nameIndex = args.findIndex((arg) => arg === "-name");
+        const typeIndex = args.findIndex((arg) => arg === "-type");
+        const namePattern = nameIndex !== -1 ? (args[nameIndex + 1] ?? "") : "";
+        const typeFilter = typeIndex !== -1 ? args[typeIndex + 1] ?? "" : "";
+        if (!isDir(start)) result = `find: ${startArg}: kein Verzeichnis`;
+        else {
+          const prefix = start === "/" ? "/" : `${start}/`;
+          const matchesPattern = (path) => {
+            if (!namePattern) return true;
+            const base = basename(path);
+            if (namePattern.startsWith("*") && namePattern.endsWith("*") && namePattern.length > 2) return base.includes(namePattern.slice(1, -1));
+            if (namePattern.startsWith("*")) return base.endsWith(namePattern.slice(1));
+            if (namePattern.endsWith("*")) return base.startsWith(namePattern.slice(0, -1));
+            return base === namePattern;
+          };
+          const matchesType = (entry) => {
+            if (!typeFilter) return true;
+            return (typeFilter === "f" && entry.type === "file") || (typeFilter === "d" && entry.type === "dir");
+          };
+          result = entries
+            .filter((entry) => entry.path === start || entry.path.startsWith(prefix))
+            .filter((entry) => entry.path !== start)
+            .filter((entry) => matchesPattern(entry.path) && matchesType(entry))
+            .map((entry) => entry.path)
+            .join("\n") || "find: keine Treffer";
+        }
       } else if (command === "grep") {
         const read = readSource(args[1], "");
         if (read.error) result = read.error;
@@ -433,11 +552,23 @@ const shellId = `linux-shell-${scenario.key.replace(/[^a-z0-9]+/gi, "-").toLower
       else result = `${command}: Befehl in dieser Lernshell nicht verfügbar`;
 
       if (result) appendLine(escapeHtml(String(result)).replaceAll("\n", "<br />"));
+      updateStatus();
+    };
+
+    const runImmediateCommand = (value, record = true) => {
+      if (record) recordHistory(value);
+      execute(value);
+      inputEl.value = "";
+      inputEl.focus();
     };
 
     formEl.addEventListener("submit", (event) => {
       event.preventDefault();
-      runCommand(inputEl.value, { pushHistory: true });
+      const value = inputEl.value.trim();
+      if (value) recordHistory(value);
+      execute(inputEl.value);
+      inputEl.value = "";
+      inputEl.focus();
     });
 
     inputEl.addEventListener("keydown", (event) => {
@@ -446,11 +577,34 @@ const shellId = `linux-shell-${scenario.key.replace(/[^a-z0-9]+/gi, "-").toLower
         historyIndex = Math.min(historyIndex + 1, history.length - 1);
         inputEl.value = history[historyIndex] ?? "";
         event.preventDefault();
+        return;
       }
       if (event.key === "ArrowDown") {
         if (history.length === 0) return;
         historyIndex = Math.max(historyIndex - 1, -1);
         inputEl.value = historyIndex === -1 ? "" : history[historyIndex] ?? "";
+        event.preventDefault();
+        return;
+      }
+      if (event.key === "Tab") {
+        const value = inputEl.value.trim();
+        const candidates = [...Object.keys(manuals), ...scenario.suggestedCommands]
+          .filter((item, index, arr) => arr.indexOf(item) === index)
+          .filter((item) => item.startsWith(value));
+        if (value && candidates.length > 0) {
+          inputEl.value = candidates[0];
+          event.preventDefault();
+          return;
+        }
+      }
+      if (event.key === "Escape") {
+        inputEl.value = "";
+        event.preventDefault();
+        return;
+      }
+      if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "l") {
+        outputEl.innerHTML = "";
+        updateStatus();
         event.preventDefault();
       }
     });
@@ -458,12 +612,28 @@ const shellId = `linux-shell-${scenario.key.replace(/[^a-z0-9]+/gi, "-").toLower
     quickButtons.forEach((button) => {
       button.addEventListener("click", () => {
         const command = button.getAttribute("data-shell-command") ?? "";
-        runCommand(command, { pushHistory: true });
+        if (!command) return;
+        runImmediateCommand(command);
+      });
+    });
+
+    utilityButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const command = button.getAttribute("data-shell-run") ?? "";
+        if (!command) return;
+        runImmediateCommand(command);
+      });
+    });
+
+    fillButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        inputEl.value = button.getAttribute("data-shell-fill") ?? "";
+        inputEl.focus();
       });
     });
 
     resetButton?.addEventListener("click", resetShell);
-    clearButton?.addEventListener("click", () => { outputEl.innerHTML = ""; inputEl.focus(); });
+    clearButton?.addEventListener("click", () => { outputEl.innerHTML = ""; updateStatus(); inputEl.focus(); });
 
     resetShell();
   })();
@@ -477,15 +647,21 @@ const shellId = `linux-shell-${scenario.key.replace(/[^a-z0-9]+/gi, "-").toLower
   .shell-badge { display:inline-flex; align-items:center; gap:.45rem; min-height:2rem; padding:0 .75rem; border-radius:999px; border:1px solid var(--border); background:var(--surface); color:var(--text-strong); font-size:.84rem; font-weight:700; white-space:nowrap; }
   .shell-intro { margin:0; color:var(--text); line-height:1.72; }
   .shell-notes,.shell-suggestions,.shell-steps { display:grid; gap:.65rem; padding:1rem; border:1px solid var(--border); border-radius:22px; background:var(--surface); }
-  .shell-notes p,.shell-suggestions p,.shell-steps p,.shell-hint { margin:0; }
-  .shell-notes p,.shell-suggestions p,.shell-steps p { color:var(--text-strong); font-weight:700; }
-  .shell-hint { color:var(--text-soft); line-height:1.55; font-size:.92rem; }
+  .shell-cheat-grid { display:grid; gap:.8rem; grid-template-columns:repeat(3,minmax(0,1fr)); }
+  .cheat-card { display:grid; gap:.6rem; padding:.9rem 1rem; border:1px solid var(--border); border-radius:20px; background:color-mix(in oklab, var(--surface) 85%, var(--card-bg) 15%); }
+  .cheat-card span { color:var(--text-strong); font-weight:700; }
+  .cheat-actions { display:flex; flex-wrap:wrap; gap:.5rem; }
+  .shell-notes p,.shell-suggestions p,.shell-steps p,.shell-hint { margin:0; color:var(--text-strong); }
+  .shell-hint { color:var(--text-soft); font-size:.92rem; line-height:1.55; }
+  .shell-reference { display:flex; flex-wrap:wrap; gap:.5rem; align-items:center; color:var(--text-soft); font-size:.9rem; }
+  .shell-reference code { display:inline-flex; align-items:center; min-height:1.9rem; padding:0 .55rem; border-radius:999px; border:1px solid var(--border); background:var(--card-bg); color:var(--text-strong); }
   .shell-notes ul,.shell-steps ol { margin:0; padding-left:1.1rem; display:grid; gap:.45rem; }
   .shell-suggestions ul { list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; gap:.6rem; }
   .suggestions-head { display:flex; align-items:center; justify-content:space-between; gap:1rem; flex-wrap:wrap; }
   .toolbar-actions { display:flex; gap:.55rem; flex-wrap:wrap; }
   .mini-button,.command-chip { border:1px solid var(--border); background:var(--card-bg); color:var(--text-strong); border-radius:999px; cursor:pointer; }
   .mini-button { min-height:2rem; padding:0 .7rem; font-weight:700; }
+  .mini-button.soft { background:var(--surface); }
   .command-chip { min-height:2.15rem; padding:0 .8rem; }
   .command-chip code { font-size:.9rem; }
   .mini-button:hover,.command-chip:hover { border-color:var(--border-strong); box-shadow:var(--shadow-soft); }
@@ -502,5 +678,7 @@ const shellId = `linux-shell-${scenario.key.replace(/[^a-z0-9]+/gi, "-").toLower
   .shell-prompt { color:#93c5fd; font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; font-size:.92rem; }
   .shell-input { min-width:0; border:0; outline:none; background:transparent; color:#f8fafc; font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; font-size:.95rem; }
   .shell-input::placeholder { color:rgba(226,232,240,.45); }
-  @media (max-width:720px){ .linux-shell-card { padding:1rem; border-radius:24px; } .shell-head,.suggestions-head,.shell-input-row { grid-template-columns:1fr; display:grid; } .shell-output { min-height:12rem; font-size:.9rem; } }
+  .shell-status { display:flex; flex-wrap:wrap; justify-content:space-between; gap:.65rem; padding:.7rem 1rem 1rem; border-top:1px solid rgba(255,255,255,.06); background:#0c1423; color:rgba(226,232,240,.72); font-size:.85rem; }
+  .shell-hints { display:flex; flex-wrap:wrap; gap:.6rem 1rem; padding:.75rem 1rem 1rem; border-top:1px solid rgba(255,255,255,.06); background:#0f172a; color:rgba(226,232,240,.72); font-size:.82rem; }
+  @media (max-width:720px){ .linux-shell-card { padding:1rem; border-radius:24px; } .shell-head,.suggestions-head,.shell-input-row { grid-template-columns:1fr; display:grid; } .shell-output { min-height:12rem; font-size:.9rem; } .shell-hints { display:grid; gap:.35rem; } }
 </style>

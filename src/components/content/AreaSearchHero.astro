@@ -1,0 +1,202 @@
+---
+interface JumpLink {
+  label: string;
+  href: string;
+}
+
+interface Props {
+  title: string;
+  scopeLabel: string;
+  searchPlaceholder: string;
+  imageSrc?: string;
+  imageAlt?: string;
+  tone?: string;
+  jumpLinks?: JumpLink[];
+  inputName?: string;
+  searchHint?: string;
+}
+
+const {
+  title,
+  scopeLabel,
+  searchPlaceholder,
+  imageSrc,
+  imageAlt = "",
+  tone = "math",
+  jumpLinks = [],
+  inputName = "area-search",
+  searchHint = "",
+} = Astro.props as Props;
+---
+
+<section class={`area-hero ${tone}`}>
+  <div class="hero-copy">
+    <p class="eyebrow">{scopeLabel}</p>
+    <h1>{title}</h1>
+    <label class="search-shell" data-area-search-label>
+      <span class="sr-only">{searchPlaceholder}</span>
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="11" cy="11" r="6.5"></circle>
+        <path d="M16 16l4.5 4.5"></path>
+      </svg>
+      <input data-area-search-input name={inputName} type="search" placeholder={searchPlaceholder} autocomplete="off" />
+    </label>
+    {searchHint && <p class="search-hint">{searchHint}</p>}
+    {jumpLinks.length > 0 && (
+      <div class="jump-row">
+        {jumpLinks.map((item) => <a class="jump-chip" href={item.href}>{item.label}</a>)}
+      </div>
+    )}
+  </div>
+
+  <div class="hero-visual">
+    {imageSrc ? <img src={imageSrc} alt={imageAlt} loading="eager" /> : <div class="image-placeholder" aria-hidden="true"></div>}
+  </div>
+</section>
+
+<style>
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .area-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.25fr) minmax(15rem, 20rem);
+    gap: 1.25rem;
+    align-items: stretch;
+    padding: 1rem 0 0.4rem;
+  }
+
+  .hero-copy {
+    display: grid;
+    gap: 1rem;
+    align-content: start;
+  }
+
+  .eyebrow {
+    margin: 0;
+    color: var(--text-soft);
+    font-size: 0.92rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    margin: 0;
+    color: var(--text-strong);
+    font-size: clamp(2.3rem, 4.4vw, 4rem);
+    line-height: 0.98;
+    letter-spacing: -0.045em;
+  }
+
+  .search-shell {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: center;
+    gap: 0.8rem;
+    min-height: 4rem;
+    padding: 0 1rem;
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    background: color-mix(in oklab, var(--card-bg) 92%, white 8%);
+    box-shadow: var(--shadow-soft);
+  }
+
+  .search-shell svg {
+    width: 1.2rem;
+    height: 1.2rem;
+    stroke: var(--text-soft);
+    fill: none;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .search-shell input {
+    min-width: 0;
+    border: 0;
+    outline: none;
+    background: transparent;
+    color: var(--text-strong);
+    font: inherit;
+  }
+
+  .search-shell input::placeholder {
+    color: var(--text-soft);
+  }
+
+  .search-hint {
+    margin: -0.15rem 0 0;
+    color: var(--text-soft);
+    font-size: 0.95rem;
+    line-height: 1.55;
+  }
+
+  .jump-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+  }
+
+  .jump-chip {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.45rem;
+    padding: 0 0.9rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text-strong);
+    font-weight: 700;
+    box-shadow: var(--shadow-soft);
+  }
+
+  .hero-visual {
+    border: 1px solid var(--border);
+    border-radius: 28px;
+    overflow: hidden;
+    min-height: 17rem;
+    box-shadow: var(--shadow-soft);
+    display: grid;
+    place-items: center;
+  }
+
+  .hero-visual img,
+  .image-placeholder {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .area-hero.math .hero-visual { background: linear-gradient(135deg, rgba(93,113,175,0.18), rgba(232,237,248,0.82)); }
+  .area-hero.web .hero-visual { background: linear-gradient(135deg, rgba(173,144,156,0.16), rgba(245,239,241,0.84)); }
+  .area-hero.cs .hero-visual { background: linear-gradient(135deg, rgba(95,139,158,0.16), rgba(235,244,247,0.84)); }
+  .area-hero.linux .hero-visual { background: linear-gradient(135deg, rgba(175,163,122,0.16), rgba(242,239,230,0.84)); }
+  .area-hero.ee .hero-visual { background: linear-gradient(135deg, rgba(173,147,144,0.15), rgba(244,236,235,0.84)); }
+
+  :global(html[data-theme="dark"]) .area-hero.math .hero-visual { background: linear-gradient(135deg, rgba(72,95,164,0.30), rgba(22,31,58,0.94)); }
+  :global(html[data-theme="dark"]) .area-hero.web .hero-visual { background: linear-gradient(135deg, rgba(96,72,104,0.24), rgba(49,38,43,0.94)); }
+  :global(html[data-theme="dark"]) .area-hero.cs .hero-visual { background: linear-gradient(135deg, rgba(28,71,87,0.30), rgba(18,37,45,0.94)); }
+  :global(html[data-theme="dark"]) .area-hero.linux .hero-visual { background: linear-gradient(135deg, rgba(84,76,44,0.22), rgba(42,39,28,0.94)); }
+  :global(html[data-theme="dark"]) .area-hero.ee .hero-visual { background: linear-gradient(135deg, rgba(83,60,58,0.22), rgba(42,29,31,0.94)); }
+
+  @media (max-width: 980px) {
+    .area-hero {
+      grid-template-columns: 1fr;
+    }
+
+    .hero-visual {
+      min-height: 13rem;
+    }
+  }
+</style>
