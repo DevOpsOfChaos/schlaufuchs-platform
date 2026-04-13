@@ -4,30 +4,29 @@ description: Übe, lineare Funktionen über Änderung, Startwert und verschieden
 subject: mathematik
 section: Funktionen
 topicPath:
-- funktionen
-- lineare-funktionen
-- lineare-funktionen-aus-tabelle-und-text
+  - funktionen
+  - lineare-funktionen
+  - lineare-funktionen-aus-tabelle-und-text
 tags:
-- lineare funktionen
-- steigung
-- tabelle
-- graph
+  - lineare funktionen
+  - steigung
+  - tabelle
+  - graph
 hintPoints:
-- Frage zuerst: Wie stark ändert sich y pro Schritt?
-- Prüfe dann den Startwert bei x = 0.
-- Verbinde Text, Tabelle und Formel bewusst miteinander.
+  - "Frage zuerst: Wie stark ändert sich y pro Schritt?"
+  - "Prüfe dann den Startwert bei x = 0."
+  - "Verbinde Text, Tabelle und Formel bewusst miteinander."
 selfCheckPoints:
-- Kann ich Steigung und Startwert sauber benennen?
-- Kann ich erklären, warum ein Zusammenhang linear ist?
-- Habe ich Änderung pro Schritt und Gesamtänderung nicht verwechselt?
+  - "Kann ich Steigung und Startwert sauber benennen?"
+  - "Kann ich erklären, warum ein Zusammenhang linear ist?"
+  - "Habe ich Änderung pro Schritt und Gesamtänderung nicht verwechselt?"
 level: einfach
 draft: false
-reflectionPrompt: 'Was fällt dir leichter: eine lineare Funktion aus einer Formel oder aus einem Text zu erkennen?'
+reflectionPrompt: "Was fällt dir leichter: eine lineare Funktion aus einer Formel oder aus einem Text zu erkennen?"
 transferIdeas:
-- Übertrage die Idee aus „Lineare Funktionen aus Tabelle und Text“ auf ein ähnliches Beispiel mit anderen Zahlen, Begriffen oder Bauteilen.
-- Erkläre die Lösung einmal ohne Fachsprache und danach noch einmal fachlich sauber.
+  - "Übertrage die Idee aus „Lineare Funktionen aus Tabelle und Text“ auf ein ähnliches Beispiel mit anderen Zahlen, Begriffen oder Bauteilen."
+  - "Erkläre die Lösung einmal ohne Fachsprache und danach noch einmal fachlich sauber."
 ---
-
 
 ## Aufgabe 1: Tabelle lesen
 
