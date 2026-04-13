@@ -1,27 +1,179 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getVisibleArticles, getVisibleExercises } from "../../data/content";
+import { getTopicTail, humanizeTopicSegment, isTopicPrefix } from "../../data/topics";
+import { resolvePrimarySubjectSlug } from "../../data/subjects";
+import { withBase } from "../../utils/base";
 
-interface Props {
+interface LegacyPage {
+  title: string;
+  description: string;
+  eyebrow?: string;
+  sections?: Array<{ title: string; text: string; tone?: string }>;
+}
+
+interface LegacyLink {
+  label?: string;
+  title?: string;
+  href: string;
+  text?: string;
+}
+
+interface CanonicalProps {
   title: string;
   description: string;
   targetHref: string;
+  page?: never;
+  breadcrumbs?: never;
+  related?: never;
 }
 
-const { title, description, targetHref } = Astro.props as Props;
+interface LegacyProps {
+  page: LegacyPage;
+  breadcrumbs?: LegacyLink[];
+  related?: LegacyLink[];
+  title?: never;
+  description?: never;
+  targetHref?: never;
+}
+
+type Props = CanonicalProps | LegacyProps;
+
+const props = Astro.props as Props;
+const isLegacyMode = "page" in props;
+
+const stripBaseFromPathname = (pathname: string) => {
+  const base = import.meta.env.BASE_URL;
+  if (!base || base === "/") return pathname;
+  const normalizedBase = base.endsWith("/") ? base.slice(0, -1) : base;
+  if (!normalizedBase) return pathname;
+  return pathname.startsWith(normalizedBase) ? pathname.slice(normalizedBase.length) || "/" : pathname;
+};
+
+const buildLegacyState = async () => {
+  const pathname = stripBaseFromPathname(Astro.url.pathname);
+  const segments = pathname.split("/").filter(Boolean);
+  const [scope, subjectSlug, ...topicPath] = segments;
+
+  const fallbackTitle = isLegacyMode ? props.page.title : props.title;
+  const fallbackDescription = isLegacyMode ? props.page.description : props.description;
+
+  if (scope !== "fachbereiche" || !subjectSlug || topicPath.length === 0) {
+    return {
+      title: fallbackTitle,
+      description: fallbackDescription,
+      targetHref: null,
+      parentHref: withBase("fachbereiche"),
+      branchHref: withBase("fachbereiche"),
+      siblingLinks: [],
+      hasDescendants: false,
+      topicLabel: fallbackTitle,
+    };
+  }
+
+  const [articles, exercises] = await Promise.all([getVisibleArticles(), getVisibleExercises()]);
+  const exactArticle = articles.find((entry) => {
+    return resolvePrimarySubjectSlug(entry.data.subject) === subjectSlug
+      && getTopicTail(entry).join("/") === topicPath.join("/");
+  }) ?? null;
+
+  const subjectArticles = articles.filter((entry) => resolvePrimarySubjectSlug(entry.data.subject) === subjectSlug);
+  const subjectExercises = exercises.filter((entry) => resolvePrimarySubjectSlug(entry.data.subject) === subjectSlug);
+  const descendants = [...subjectArticles, ...subjectExercises].filter((entry) => {
+    const tail = getTopicTail(entry);
+    return tail.length > topicPath.length && isTopicPrefix(topicPath, tail);
+  });
+
+  const siblingMap = new Map<string, LegacyLink>();
+  for (const entry of descendants) {
+    const tail = getTopicTail(entry);
+    const nextSegment = tail[topicPath.length];
+    if (!nextSegment) continue;
+    const fullPath = [...topicPath, nextSegment];
+    siblingMap.set(nextSegment, {
+      label: humanizeTopicSegment(nextSegment),
+      href: withBase(`fachbereiche/${subjectSlug}/${fullPath.join("/")}`),
+    });
+  }
+
+  const targetHref = exactArticle ? withBase(`wissen/${exactArticle.id}`) : null;
+  const parentHref = topicPath.length > 1
+    ? withBase(`fachbereiche/${subjectSlug}/${topicPath.slice(0, -1).join("/")}`)
+    : withBase(`fachbereiche/${subjectSlug}`);
+
+  return {
+    title: exactArticle?.data.title ?? fallbackTitle,
+    description: exactArticle?.data.description ?? fallbackDescription,
+    targetHref,
+    parentHref,
+    branchHref: withBase(`fachbereiche/${subjectSlug}`),
+    siblingLinks: [...siblingMap.values()].slice(0, 6),
+    hasDescendants: descendants.length > 0,
+    topicLabel: humanizeTopicSegment(topicPath.at(-1) ?? fallbackTitle),
+  };
+};
+
+const state = isLegacyMode
+  ? await buildLegacyState()
+  : {
+      title: props.title,
+      description: props.description,
+      targetHref: props.targetHref,
+      parentHref: null,
+      branchHref: null,
+      siblingLinks: [],
+      hasDescendants: false,
+      topicLabel: props.title,
+    };
 ---
 
-<BaseLayout title={`${title} – Fachinfo`} description={description}>
-  <script is:inline define:vars={{ targetHref }}>
-    window.location.replace(targetHref);
-  </script>
+{!isLegacyMode ? (
+  <BaseLayout title={`${state.title} – Fachinfo`} description={state.description}>
+    <script is:inline define:vars={{ targetHref: state.targetHref }}>
+      window.location.replace(targetHref);
+    </script>
 
-  <section class="leaf-shell">
-    <p class="eyebrow">Weiterleitung</p>
-    <h1>{title}</h1>
-    <p class="lead">Die ausführliche Wissensseite wird geöffnet, damit du direkt auf der zentralen Wissensansicht landest.</p>
-    <a class="leaf-link" href={targetHref}>Zur Wissensseite →</a>
+    <section class="leaf-shell">
+      <p class="eyebrow">Weiterleitung</p>
+      <h1>{state.title}</h1>
+      <p class="lead">Die ausführliche Wissensseite wird geöffnet, damit du direkt auf der zentralen Wissensansicht landest.</p>
+      <a class="leaf-link" href={state.targetHref!}>Zur Wissensseite →</a>
+    </section>
+  </BaseLayout>
+) : state.targetHref ? (
+  <>
+    <script is:inline define:vars={{ targetHref: state.targetHref }}>
+      window.location.replace(targetHref);
+    </script>
+
+    <section class="leaf-shell legacy-redirect">
+      <p class="eyebrow">Historischer Fachpfad</p>
+      <h1>{state.title}</h1>
+      <p class="lead">Dieser alte Fachpfad wird auf die zentrale Wissensseite umgeleitet, damit Fachinfos nicht als zweite Detailansicht im Routing bestehen bleiben.</p>
+      <a class="leaf-link" href={state.targetHref}>Zur Wissensseite →</a>
+    </section>
+  </>
+) : (
+  <section class="leaf-shell legacy-empty">
+    <p class="eyebrow">Historischer Fachpfad</p>
+    <h1>{state.title}</h1>
+    <p class="lead">Dieser alte statische Fachpfad hat aktuell keine eigene kanonische Wissensseite mehr. Nutze die Themenebene oder den Fachbereich als sicheren Einstieg.</p>
+
+    <div class="action-row">
+      <a class="leaf-link" href={state.parentHref}>Eine Ebene zurück →</a>
+      <a class="leaf-link secondary" href={state.branchHref!}>Zum Fachbereich →</a>
+    </div>
+
+    {state.hasDescendants && state.siblingLinks.length > 0 && (
+      <div class="legacy-links">
+        <p class="links-kicker">Benachbarte Themenpfade</p>
+        <div class="link-cloud">
+          {state.siblingLinks.map((item) => <a class="chip-link" href={item.href}>{item.label ?? item.title}</a>)}
+        </div>
+      </div>
+    )}
   </section>
-</BaseLayout>
+)}
 
 <style>
   .leaf-shell {
@@ -33,7 +185,6 @@ const { title, description, targetHref } = Astro.props as Props;
     background: var(--card-bg);
     box-shadow: var(--shadow-card);
   }
-
   .eyebrow {
     margin: 0;
     color: var(--text-soft);
@@ -42,7 +193,6 @@ const { title, description, targetHref } = Astro.props as Props;
     letter-spacing: 0.06em;
     text-transform: uppercase;
   }
-
   h1 {
     margin: 0;
     color: var(--text-strong);
@@ -50,15 +200,18 @@ const { title, description, targetHref } = Astro.props as Props;
     line-height: 1;
     letter-spacing: -0.04em;
   }
-
   .lead {
     margin: 0;
     max-width: 48rem;
     color: var(--text);
     line-height: 1.75;
   }
-
-  .leaf-link {
+  .action-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+  .leaf-link, .chip-link {
     display: inline-flex;
     align-items: center;
     min-height: 2.9rem;
@@ -70,5 +223,25 @@ const { title, description, targetHref } = Astro.props as Props;
     color: var(--text-strong);
     font-weight: 700;
     box-shadow: var(--shadow-soft);
+  }
+  .leaf-link.secondary {
+    background: transparent;
+  }
+  .legacy-links {
+    display: grid;
+    gap: 0.7rem;
+  }
+  .links-kicker {
+    margin: 0;
+    color: var(--text-soft);
+    font-size: 0.82rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+  .link-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
   }
 </style>
