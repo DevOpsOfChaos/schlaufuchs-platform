@@ -1,0 +1,28 @@
+---
+interface Props {
+  title: string;
+  kicker?: string;
+  items: string[];
+}
+
+const { title, kicker = "Unterstützung", items } = Astro.props as Props;
+---
+
+{items.length > 0 && (
+  <article class="support-box">
+    <p class="box-kicker">{kicker}</p>
+    <h3>{title}</h3>
+    <ul>
+      {items.map((item) => <li>{item}</li>)}
+    </ul>
+  </article>
+)}
+
+<style>
+  .support-box { display:grid; gap:.85rem; padding:1.2rem; border:1px solid var(--border); border-radius:24px; background:var(--card-bg); box-shadow:var(--shadow-soft); }
+  .box-kicker { margin:0; color:var(--text-soft); font-size:.82rem; font-weight:800; letter-spacing:.06em; text-transform:uppercase; }
+  h3 { margin:0; color:var(--text-strong); font-size:1.05rem; line-height:1.2; }
+  ul { list-style:none; margin:0; padding:0; display:grid; gap:.7rem; }
+  li { position:relative; padding-left:1.15rem; color:var(--text); line-height:1.65; }
+  li::before { content:"•"; position:absolute; left:0; top:0; color:var(--accent); font-weight:800; }
+</style>

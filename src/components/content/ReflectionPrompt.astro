@@ -1,0 +1,47 @@
+---
+interface Props {
+  prompt?: string;
+}
+
+const { prompt = "Was nimmst du aus dieser Aufgabe für ähnliche Themen mit?" } = Astro.props as Props;
+---
+
+<section class="reflection-box">
+  <p class="box-kicker">Kurzreflexion</p>
+  <h2>Zum Schluss noch kurz nachdenken</h2>
+  <p>{prompt}</p>
+</section>
+
+<style>
+  .reflection-box {
+    display: grid;
+    gap: 0.8rem;
+    padding: 1.25rem;
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    background: color-mix(in oklab, var(--card-bg) 96%, #fff7ed 4%);
+    box-shadow: var(--shadow-soft);
+  }
+
+  .box-kicker {
+    margin: 0;
+    color: var(--text-soft);
+    font-size: 0.82rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    margin: 0;
+    color: var(--text-strong);
+    font-size: 1.2rem;
+    line-height: 1.2;
+  }
+
+  p {
+    margin: 0;
+    color: var(--text);
+    line-height: 1.7;
+  }
+</style>

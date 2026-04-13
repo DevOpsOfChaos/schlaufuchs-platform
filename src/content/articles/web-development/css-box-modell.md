@@ -1,53 +1,66 @@
 ---
-title: CSS-Box-Modell – Grundlagen
-description: Verstehe, wie Elemente in CSS aus Inhalt, Abstand, Rahmen und Außenraum aufgebaut sind.
+title: CSS-Box-Modell
+description: Verstehe, wie Inhalt, Innenabstand, Rand und Außenabstand zusammen eine Box bilden.
 subject: web-development
-section: css
+section: CSS
+topicPath:
+- css
+- box-modell
+learningGoals:
+- Du beschreibst die Teile des Box-Modells sauber.
+- Du erkennst den Unterschied zwischen padding, border und margin.
+- Du liest Layout-Abstände systematischer.
+practiceIdeas:
+- Zerlege ein einzelnes Element in Inhalt, padding, border und margin.
+- Vergleiche zwei Boxen, die unterschiedlich weit auseinanderstehen.
+- Erkläre bei einem Beispiel, welche Fläche tatsächlich zum Element gehört.
+commonMistakes:
+- padding und margin gleichzusetzen.
+- border nur als Farbe oder Linie statt als Teil der Box zu sehen.
+- Abstand zu sehen, ohne seine Ursache zu benennen.
+keyTakeaways:
+- Jedes Element lässt sich als Box verstehen.
+- padding liegt innen, margin außen.
+- Das Box-Modell macht CSS-Layering und Abstände lesbarer.
+tags:
+- css
+- box-modell
+- layout
+- abstand
 level: einfach
-tags: [css, box-modell, layout, abstaende]
 draft: false
+recognizeSignals:
+- Die Aufgabe oder Erklärung nennt CSS-Box-Modell direkt oder greift eng benachbarte Begriffe aus CSS auf.
+- Du sollst nicht nur einen Begriff nennen, sondern einen Zusammenhang, Ablauf oder eine Struktur sauber erklären.
+- In Beispielen musst du Werte, Schritte oder Bauteile geordnet lesen und richtig einordnen.
+selfCheckPoints:
+- Kann ich beschreibst die Teile des Box-Modells sauber?
+- Kann ich erkennst den Unterschied zwischen padding, border und margin?
+- Kann ich liest Layout-Abstände systematischer?
 ---
 
-Das Box-Modell gehört zu den wichtigsten Grundlagen in CSS. Es erklärt, warum Elemente Platz brauchen, wie Abstände entstehen und weshalb Layouts oft anders aussehen als erwartet.
 
-## Worum geht es beim Box-Modell?
+## Grundidee
 
-Jedes HTML-Element wird in CSS als Kasten gedacht. Dieser Kasten besteht nicht nur aus dem sichtbaren Inhalt, sondern aus mehreren Bereichen.
+Im CSS wird fast jedes Element als Box behandelt. Diese Box besteht nicht nur aus dem sichtbaren Inhalt, sondern aus mehreren Schichten, die gemeinsam das Layout beeinflussen.
 
-## Die vier wichtigen Teile
+## Die Teile der Box
 
-Im Einstieg solltest du diese Begriffe sicher unterscheiden:
+Typisch unterschieden werden:
 
-- Content: der eigentliche Inhalt
-- Padding: der Innenabstand
-- Border: der Rahmen
-- Margin: der Außenabstand
+- Inhalt,
+- padding,
+- border,
+- margin.
 
-## Warum das wichtig ist
+Gerade diese klare Schichtung macht das Modell so hilfreich.
 
-Viele Layout-Probleme lassen sich besser verstehen, wenn du weißt:
+<div class="example-card">
+  <p class="card-kicker">Leitbeispiel</p>
+  <h3>Textkarte mit Abstand</h3>
+  <p>Steht Text in einer Karte mit Innenabstand, Rahmen und Abstand zur nächsten Karte, dann wirken mehrere Schichten gleichzeitig. Das Box-Modell hilft dir, diese Schichten getrennt zu lesen statt alles nur als „irgendwie Abstand“ wahrzunehmen.</p>
+</div>
 
-- wo der Platz eines Elements wirklich herkommt
-- warum zwei Elemente Abstand zueinander haben
-- weshalb eine Box größer ist als nur ihr Textinhalt
+## Warum das Box-Modell so wichtig ist
 
-## Typische Einstiegsfragen
-
-Am Anfang tauchen oft diese Probleme auf:
-
-- Warum ist die Box größer als erwartet?
-- Woher kommt der Abstand?
-- Ist das Padding oder Margin?
-- Warum verschiebt sich das Layout?
-
-## Was du zuerst verstehen solltest
-
-Wichtig ist vor allem:
-
-- HTML liefert die Struktur, CSS beschreibt die Boxen
-- Innen- und Außenabstand sind nicht dasselbe
-- das Box-Modell ist eine Grundlage für fast jedes Web-Layout
-
-## Merksatz
-
-Das CSS-Box-Modell beschreibt, wie Elemente aus Inhalt, Innenabstand, Rahmen und Außenabstand aufgebaut sind.
+Viele Layoutprobleme wirken kompliziert, sind aber in Wahrheit nur unklar benannte Abstände. Wer das Box-Modell sauber versteht, liest CSS ruhiger und verändert Seiten gezielter.

@@ -1,0 +1,494 @@
+---
+import type { LinuxShellScenario } from "../../data/interactive/linuxShellScenarios";
+
+interface Props {
+  scenario: LinuxShellScenario;
+}
+
+const { scenario } = Astro.props as Props;
+const shellId = `linux-shell-${scenario.key.replace(/[^a-z0-9]+/gi, "-").toLowerCase()}`;
+---
+
+<section class="linux-shell-card" id={shellId}>
+  <div class="shell-head">
+    <div>
+      <p class="shell-kicker">Interaktive Übung</p>
+      <h2>{scenario.title}</h2>
+    </div>
+    <span class="shell-badge">Linux-Lernshell</span>
+  </div>
+
+  <p class="shell-intro">{scenario.intro}</p>
+
+  {scenario.quickNotes && scenario.quickNotes.length > 0 && (
+    <div class="shell-notes">
+      <p>Worauf du hier achten kannst:</p>
+      <ul>
+        {scenario.quickNotes.map((note) => <li>{note}</li>)}
+      </ul>
+    </div>
+  )}
+
+  {scenario.trySteps && scenario.trySteps.length > 0 && (
+    <div class="shell-steps">
+      <p>Ein guter Start in dieser Übung:</p>
+      <ol>
+        {scenario.trySteps.map((step) => <li>{step}</li>)}
+      </ol>
+    </div>
+  )}
+
+  <div class="shell-suggestions">
+    <div class="suggestions-head">
+      <p>Probiere zum Einstieg:</p>
+      <div class="toolbar-actions">
+        <button type="button" class="mini-button" data-shell-clear>Ausgabe leeren</button>
+        <button type="button" class="mini-button" data-shell-reset>Shell zurücksetzen</button>
+      </div>
+    </div>
+    <ul>
+      {scenario.suggestedCommands.map((command) => (
+        <li>
+          <button type="button" class="command-chip" data-shell-command={command}>
+            <code>{command}</code>
+          </button>
+        </li>
+      ))}
+    </ul>
+  </div>
+
+  <div class="shell-window">
+    <div class="shell-toolbar">
+      <span class="dot red"></span>
+      <span class="dot yellow"></span>
+      <span class="dot green"></span>
+      <span class="shell-toolbar-title">{scenario.prompt}:{scenario.startPath}</span>
+    </div>
+
+    <div class="shell-output" data-shell-output aria-live="polite"></div>
+
+    <form class="shell-input-row" data-shell-form>
+      <label class="shell-prompt" for={`${shellId}-input`}>{scenario.prompt}:{scenario.startPath}$</label>
+      <input
+        id={`${shellId}-input`}
+        class="shell-input"
+        data-shell-input
+        type="text"
+        autocomplete="off"
+        autocapitalize="off"
+        spellcheck="false"
+        placeholder="Befehl eingeben und mit Enter ausführen"
+      />
+    </form>
+  </div>
+</section>
+
+<script is:inline define:vars={{ scenario, shellId }}>
+  (() => {
+    const root = document.getElementById(shellId);
+    if (!root || root.dataset.ready === "true") return;
+    root.dataset.ready = "true";
+
+    const outputEl = root.querySelector("[data-shell-output]");
+    const formEl = root.querySelector("[data-shell-form]");
+    const inputEl = root.querySelector("[data-shell-input]");
+    const promptEl = root.querySelector(".shell-prompt");
+    const resetButton = root.querySelector("[data-shell-reset]");
+    const clearButton = root.querySelector("[data-shell-clear]");
+    const quickButtons = [...root.querySelectorAll("[data-shell-command]")];
+
+    if (!outputEl || !formEl || !inputEl || !promptEl) return;
+
+    const username = "fox";
+    const groups = ["fox", "adm", "plugdev"];
+    const manuals = {
+      pwd: "pwd zeigt das aktuelle Arbeitsverzeichnis an.",
+      ls: "ls listet Inhalte eines Verzeichnisses auf. Mit -l erhältst du eine längere Ansicht.",
+      cd: "cd wechselt in ein anderes Verzeichnis. cd .. geht eine Ebene nach oben.",
+      tree: "tree zeigt die Struktur eines Verzeichnisses an.",
+      cat: "cat zeigt den Inhalt einer Datei an.",
+      grep: "grep sucht in Zeilen nach einem Muster.",
+      sort: "sort sortiert Zeilen alphabetisch.",
+      uniq: "uniq entfernt gleiche aufeinanderfolgende Zeilen.",
+      cut: "cut liest bei getrennten Werten einzelne Felder aus.",
+      wc: "wc zählt Zeilen, Wörter und Zeichen.",
+      chmod: "chmod ändert in dieser Lernshell numerische Rechte wie 640 oder 755.",
+      nano: "nano simuliert das Öffnen einer Datei und erklärt den Arbeitsablauf.",
+      which: "which zeigt, ob ein Befehl in dieser Lernshell verfügbar ist.",
+      man: "man zeigt kurze Hilfetexte zu bekannten Befehlen.",
+      help: "help zeigt die wichtigsten Befehle dieser Lernshell an.",
+    };
+
+    const cloneEntries = (items) => items.map((entry) => ({ ...entry }));
+    const initialEntries = cloneEntries(scenario.entries);
+    let entries = cloneEntries(scenario.entries);
+    let cwd = scenario.startPath;
+    const history = [];
+    let historyIndex = -1;
+
+    const escapeHtml = (value) => value
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;");
+
+    const normalizePath = (value) => {
+      const segments = [];
+      for (const part of value.split("/")) {
+        if (!part || part === ".") continue;
+        if (part === "..") { segments.pop(); continue; }
+        segments.push(part);
+      }
+      return "/" + segments.join("/");
+    };
+
+    const basename = (value) => normalizePath(value).split("/").filter(Boolean).at(-1) ?? "/";
+    const dirname = (value) => {
+      const normalized = normalizePath(value);
+      if (normalized === "/") return "/";
+      const parts = normalized.split("/").filter(Boolean);
+      parts.pop();
+      return "/" + parts.join("/");
+    };
+    const resolvePath = (value, current = cwd) => {
+      if (!value || value === "~") return "/home/fox";
+      if (value.startsWith("/")) return normalizePath(value);
+      return normalizePath(`${current}/${value}`);
+    };
+    const getEntry = (path) => entries.find((entry) => entry.path === path) ?? null;
+    const isDir = (path) => getEntry(path)?.type === "dir";
+    const hasChildren = (path) => entries.some((entry) => entry.path !== path && entry.path.startsWith(`${path === "/" ? "" : path}/`));
+    const listChildren = (path) => {
+      const prefix = path === "/" ? "/" : `${path}/`;
+      return entries
+        .filter((entry) => entry.path.startsWith(prefix) && entry.path !== path)
+        .filter((entry) => {
+          const rest = entry.path.slice(prefix.length);
+          return rest.length > 0 && !rest.includes("/");
+        })
+        .sort((a, b) => a.path.localeCompare(b.path, "de"));
+    };
+
+    const longPerms = (entry) => {
+      const perms = (entry.perms ?? (entry.type === "dir" ? "755" : "644")).padStart(3, "0").slice(-3);
+      const map = { "0": "---", "1": "--x", "2": "-w-", "3": "-wx", "4": "r--", "5": "r-x", "6": "rw-", "7": "rwx" };
+      return `${entry.type === "dir" ? "d" : "-"}${map[perms[0]]}${map[perms[1]]}${map[perms[2]]}`;
+    };
+
+    const renderTree = (path, prefix = "") => {
+      const children = listChildren(path);
+      const lines = [];
+      children.forEach((child, index) => {
+        const last = index === children.length - 1;
+        const connector = last ? "└──" : "├──";
+        lines.push(`${prefix}${connector} ${basename(child.path)}${child.type === "dir" ? "/" : ""}`);
+        if (child.type === "dir") lines.push(...renderTree(child.path, `${prefix}${last ? "    " : "│   "}`));
+      });
+      return lines;
+    };
+
+    const updatePrompt = () => { promptEl.textContent = `${scenario.prompt}:${cwd}$`; };
+    const appendLine = (html, type = "output") => {
+      const line = document.createElement("div");
+      line.className = `shell-line ${type}`;
+      line.innerHTML = html;
+      outputEl.appendChild(line);
+      outputEl.scrollTop = outputEl.scrollHeight;
+    };
+
+    const writeToFile = (targetArg, content, append = false) => {
+      const target = resolvePath(targetArg);
+      const parent = dirname(target);
+      if (!isDir(parent)) return `${targetArg}: Zielpfad ungültig`;
+      let entry = getEntry(target);
+      if (!entry) {
+        entries.push({ path: target, type: "file", perms: "644", content: "" });
+        entry = getEntry(target);
+      }
+      if (!entry || entry.type !== "file") return `${targetArg}: kein gültiges Dateiziel`;
+      entry.content = append ? `${entry.content ?? ""}${content}` : content;
+      return "";
+    };
+
+    const splitQuoted = (value) => value.match(/"[^"]*"|'[^']*'|\S+/g) ?? [];
+    const readSource = (arg, stdin) => {
+      if (!arg) return { source: typeof stdin === "string" ? stdin : "", label: "stdin" };
+      const entry = getEntry(resolvePath(arg));
+      if (!entry || entry.type !== "file") return { error: `${arg}: keine Datei` };
+      return { source: entry.content ?? "", label: arg };
+    };
+
+    const runPipeStage = (segment, stdin = "") => {
+      const parts = splitQuoted(segment).map((part) => part.replace(/^['"]|['"]$/g, ""));
+      const command = parts[0];
+      const args = parts.slice(1);
+      if (command === "cat") {
+        const result = readSource(args[0], stdin);
+        return result.error ?? result.source;
+      }
+      if (command === "sort") return String(stdin).split("\n").filter(Boolean).sort((a, b) => a.localeCompare(b, "de")).join("\n");
+      if (command === "uniq") {
+        const lines = String(stdin).split("\n").filter(Boolean);
+        return lines.filter((line, index) => index === 0 || line !== lines[index - 1]).join("\n");
+      }
+      if (command === "wc") {
+        const text = String(stdin);
+        const lines = text.trim().length ? text.trim().split(/\n/).length : 0;
+        const words = text.trim().length ? text.trim().split(/\s+/).length : 0;
+        const chars = text.length;
+        return `${lines} ${words} ${chars}`;
+      }
+      if (command === "cut") {
+        const delimiterIndex = args.indexOf("-d");
+        const fieldIndex = args.indexOf("-f");
+        const delimiter = delimiterIndex !== -1 ? args[delimiterIndex + 1] ?? ":" : ":";
+        const field = Number(fieldIndex !== -1 ? args[fieldIndex + 1] ?? "1" : "1");
+        return String(stdin).split("\n").filter(Boolean).map((line) => line.split(delimiter)[Math.max(field - 1, 0)] ?? "").join("\n");
+      }
+      if (command === "grep") {
+        const pattern = args[0] ?? "";
+        return String(stdin).split("\n").filter((line) => line.includes(pattern)).join("\n") || `grep: keine Treffer für ${pattern}`;
+      }
+      if (command === "printf" || command === "echo") return args.join(" ");
+      return `${command}: in dieser Pipe nicht verfügbar`;
+    };
+
+    const resetShell = () => {
+      entries = cloneEntries(initialEntries);
+      cwd = scenario.startPath;
+      history.length = 0;
+      historyIndex = -1;
+      outputEl.innerHTML = "";
+      appendLine(escapeHtml(`Willkommen in der Linux-Lernshell: ${scenario.title}`));
+      appendLine("Nutze <strong>help</strong> für eine Übersicht oder <strong>reset</strong> für den Anfangszustand.");
+      updatePrompt();
+      inputEl.focus();
+    };
+
+    const execute = (rawCommand) => {
+      const trimmed = rawCommand.trim();
+      appendLine(`<span class="prompt">${escapeHtml(`${scenario.prompt}:${cwd}$`)}</span> <span class="command">${escapeHtml(trimmed)}</span>`, "command");
+      if (!trimmed) return;
+      if (trimmed.includes("|")) {
+        const segments = trimmed.split("|").map((segment) => segment.trim()).filter(Boolean);
+        let current = "";
+        for (const segment of segments) current = runPipeStage(segment, current);
+        if (current) appendLine(escapeHtml(String(current)).replaceAll("\n", "<br />"));
+        return;
+      }
+
+      const parts = splitQuoted(trimmed).map((part) => part.replace(/^['"]|['"]$/g, ""));
+      const command = parts[0];
+      const args = parts.slice(1);
+
+      if ((command === "echo" || command === "printf") && (args.includes(">") || args.includes(">>"))) {
+        const redirectToken = args.includes(">>") ? ">>" : ">";
+        const idx = args.indexOf(redirectToken);
+        const target = args[idx + 1];
+        const content = args.slice(0, idx).join(" ") + (command === "echo" ? "\n" : "");
+        const result = writeToFile(target, content, redirectToken === ">>");
+        if (result) appendLine(escapeHtml(result));
+        return;
+      }
+
+      let result = "";
+      if (command === "pwd") result = cwd;
+      else if (command === "whoami") result = username;
+      else if (command === "groups") result = groups.join(" ");
+      else if (command === "id") result = `uid=1000(${username}) gid=1000(${groups[0]}) groups=${groups.map((group, index) => `${1000 + index}(${group})`).join(",")}`;
+      else if (command === "env") result = ["USER=fox", "HOME=/home/fox", `PWD=${cwd}`, "SHELL=/bin/bash"].join("\n");
+      else if (command === "help") result = ["Unterstützte Befehle:","pwd, ls, cd, tree, cat, grep, sort, uniq, cut, wc, mkdir, touch, cp, mv, rm, file, stat, chmod, nano, whoami, groups, id, env, which, man, history, clear, reset, basename, dirname, realpath, echo, printf","Zusätzlich unterstützt: einfache Pipes mit | sowie > und >>."].join("\n");
+      else if (command === "history") result = history.length ? history.map((item, index) => `${index + 1}  ${item}`).join("\n") : "Noch keine Befehle ausgeführt.";
+      else if (command === "which") result = manuals[args[0]] ? `/usr/bin/${args[0]}` : `which: no ${args[0]} in (schlaufuchs-shell)`;
+      else if (command === "man") result = manuals[args[0]] ?? `Keine Handbuchseite für ${args[0]} vorhanden.`;
+      else if (command === "clear") { outputEl.innerHTML = ""; return; }
+      else if (command === "reset") { resetShell(); return; }
+      else if (command === "basename") result = basename(resolvePath(args[0] ?? "."));
+      else if (command === "dirname") result = dirname(resolvePath(args[0] ?? "."));
+      else if (command === "realpath") result = resolvePath(args[0] ?? ".");
+      else if (command === "uname") result = args.includes("-a") ? "Linux schlaufuchs-learning-shell 6.8.0 x86_64 GNU/Linux simulated-shell" : "Linux";
+      else if (command === "cd") {
+        const target = resolvePath(args[0] ?? "~");
+        if (!isDir(target)) result = `cd: ${args[0] ?? "~"}: kein Verzeichnis`;
+        else { cwd = target; updatePrompt(); }
+      } else if (command === "ls") {
+        const targetArg = args.find((arg) => !arg.startsWith("-"));
+        const target = resolvePath(targetArg ?? ".");
+        if (!isDir(target)) result = `ls: ${targetArg ?? "."}: kein Verzeichnis`;
+        else if (args.includes("-l")) result = listChildren(target).map((entry) => `${longPerms(entry)} 1 fox fox ${basename(entry.path)}${entry.type === "dir" ? "/" : ""}`).join("\n");
+        else result = listChildren(target).map((entry) => `${basename(entry.path)}${entry.type === "dir" ? "/" : ""}`).join("    ");
+      } else if (command === "tree") {
+        const target = resolvePath(args[0] ?? ".");
+        if (!isDir(target)) result = `tree: ${args[0] ?? "."}: kein Verzeichnis`;
+        else result = [target === "/" ? "/" : `${basename(target)}/`, ...renderTree(target)].join("\n");
+      } else if (command === "cat") {
+        const read = readSource(args[0], "");
+        result = read.error ?? read.source;
+      } else if (command === "grep") {
+        const read = readSource(args[1], "");
+        if (read.error) result = read.error;
+        else {
+          const pattern = args[0] ?? "";
+          result = String(read.source).split("\n").filter((line) => line.includes(pattern)).join("\n") || `grep: keine Treffer für ${pattern}`;
+        }
+      } else if (command === "sort") {
+        const read = readSource(args[0], "");
+        result = read.error ?? String(read.source).split("\n").filter(Boolean).sort((a, b) => a.localeCompare(b, "de")).join("\n");
+      } else if (command === "uniq") {
+        const read = readSource(args[0], "");
+        if (read.error) result = read.error;
+        else {
+          const lines = String(read.source).split("\n").filter(Boolean);
+          result = lines.filter((line, index) => index === 0 || line !== lines[index - 1]).join("\n");
+        }
+      } else if (command === "cut") {
+        const delimiterIndex = args.indexOf("-d");
+        const fieldIndex = args.indexOf("-f");
+        const delimiter = delimiterIndex !== -1 ? args[delimiterIndex + 1] ?? ":" : ":";
+        const field = Number(fieldIndex !== -1 ? args[fieldIndex + 1] ?? "1" : "1");
+        const fileArg = args.at(-1);
+        const read = readSource(fileArg, "");
+        result = read.error ?? String(read.source).split("\n").filter(Boolean).map((line) => line.split(delimiter)[Math.max(field - 1, 0)] ?? "").join("\n");
+      } else if (command === "wc") {
+        const read = readSource(args[0], "");
+        if (read.error) result = read.error;
+        else {
+          const text = String(read.source);
+          const lines = text.trim().length ? text.trim().split(/\n/).length : 0;
+          const words = text.trim().length ? text.trim().split(/\s+/).length : 0;
+          result = `${lines} ${words} ${text.length} ${args[0]}`;
+        }
+      } else if (command === "mkdir") {
+        const target = resolvePath(args[0] ?? "");
+        if (!args[0]) result = "mkdir: bitte Namen angeben";
+        else if (getEntry(target)) result = `mkdir: ${args[0]}: existiert bereits`;
+        else if (!isDir(dirname(target))) result = `mkdir: ${args[0]}: Zielpfad ungültig`;
+        else entries.push({ path: target, type: "dir", perms: "755" });
+      } else if (command === "touch") {
+        const target = resolvePath(args[0] ?? "");
+        if (!args[0]) result = "touch: bitte Dateinamen angeben";
+        else if (!getEntry(target)) entries.push({ path: target, type: "file", perms: "644", content: "" });
+      } else if (command === "cp") {
+        const src = getEntry(resolvePath(args[0] ?? ""));
+        const dest = resolvePath(args[1] ?? "");
+        if (!args[0] || !args[1]) result = "cp: bitte Quelle und Ziel angeben";
+        else if (!src || src.type !== "file") result = `cp: ${args[0]}: nur Dateien werden kopiert`;
+        else if (!isDir(dirname(dest))) result = `cp: ${args[1]}: Zielpfad ungültig`;
+        else entries.push({ path: dest, type: "file", perms: src.perms ?? "644", content: src.content ?? "" });
+      } else if (command === "mv") {
+        const src = getEntry(resolvePath(args[0] ?? ""));
+        const dest = resolvePath(args[1] ?? "");
+        if (!args[0] || !args[1]) result = "mv: bitte Quelle und Ziel angeben";
+        else if (!src) result = `mv: ${args[0]}: nicht gefunden`;
+        else if (src.type === "dir" && hasChildren(src.path)) result = "mv: nur leere Verzeichnisse oder Dateien werden verschoben";
+        else if (!isDir(dirname(dest))) result = `mv: ${args[1]}: Zielpfad ungültig`;
+        else src.path = dest;
+      } else if (command === "rm") {
+        const target = resolvePath(args[0] ?? "");
+        const entry = getEntry(target);
+        if (!args[0]) result = "rm: bitte Ziel angeben";
+        else if (!entry) result = `rm: ${args[0]}: nicht gefunden`;
+        else if (entry.type === "dir" && hasChildren(target)) result = `rm: ${args[0]}: Verzeichnis nicht leer`;
+        else entries = entries.filter((item) => item.path !== target);
+      } else if (command === "file") {
+        const entry = getEntry(resolvePath(args[0] ?? ""));
+        if (!args[0]) result = "file: bitte Ziel angeben";
+        else if (!entry) result = `file: ${args[0]}: nicht gefunden`;
+        else result = entry.type === "dir" ? `${args[0]}: directory` : `${args[0]}: text file`;
+      } else if (command === "stat") {
+        const entry = getEntry(resolvePath(args[0] ?? ""));
+        if (!args[0]) result = "stat: bitte Ziel angeben";
+        else if (!entry) result = `stat: ${args[0]}: nicht gefunden`;
+        else result = [`Pfad: ${entry.path}`, `Typ: ${entry.type === "dir" ? "Verzeichnis" : "Datei"}`, `Rechte: ${entry.perms ?? (entry.type === "dir" ? "755" : "644")} (${longPerms(entry)})`, `Besitzer: ${username}`, `Gruppe: ${groups[0]}`].join("\n");
+      } else if (command === "chmod") {
+        const entry = getEntry(resolvePath(args[1] ?? ""));
+        if (!args[0] || !args[1]) result = "chmod: bitte Rechte und Ziel angeben";
+        else if (!/^[0-7]{3}$/.test(args[0])) result = "chmod: in dieser Lernshell werden numerische Rechte wie 640 oder 755 unterstützt";
+        else if (!entry) result = `chmod: ${args[1]}: nicht gefunden`;
+        else entry.perms = args[0];
+      } else if (command === "nano") {
+        const target = resolvePath(args[0] ?? "");
+        if (!args[0]) result = "nano: bitte Dateinamen angeben";
+        else {
+          let entry = getEntry(target);
+          if (!entry) {
+            entries.push({ path: target, type: "file", perms: "644", content: "" });
+            entry = getEntry(target);
+          }
+          result = `nano öffnet hier simuliert ${args[0]}. In der echten Arbeit würdest du nun lesen, ändern, speichern und sauber beenden. Aktueller Inhalt: ${entry?.content ? JSON.stringify(entry.content) : "(leer)"}`;
+        }
+      } else if (command === "echo" || command === "printf") result = args.join(" ");
+      else result = `${command}: Befehl in dieser Lernshell nicht verfügbar`;
+
+      if (result) appendLine(escapeHtml(String(result)).replaceAll("\n", "<br />"));
+    };
+
+    formEl.addEventListener("submit", (event) => {
+      event.preventDefault();
+      const value = inputEl.value.trim();
+      if (value) { history.unshift(value); historyIndex = -1; }
+      execute(inputEl.value);
+      inputEl.value = "";
+    });
+
+    inputEl.addEventListener("keydown", (event) => {
+      if (event.key === "ArrowUp") {
+        if (history.length === 0) return;
+        historyIndex = Math.min(historyIndex + 1, history.length - 1);
+        inputEl.value = history[historyIndex] ?? "";
+        event.preventDefault();
+      }
+      if (event.key === "ArrowDown") {
+        if (history.length === 0) return;
+        historyIndex = Math.max(historyIndex - 1, -1);
+        inputEl.value = historyIndex === -1 ? "" : history[historyIndex] ?? "";
+        event.preventDefault();
+      }
+    });
+
+    quickButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        inputEl.value = button.getAttribute("data-shell-command") ?? "";
+        inputEl.focus();
+      });
+    });
+
+    resetButton?.addEventListener("click", resetShell);
+    clearButton?.addEventListener("click", () => { outputEl.innerHTML = ""; inputEl.focus(); });
+
+    resetShell();
+  })();
+</script>
+
+<style>
+  .linux-shell-card { display:grid; gap:1rem; margin:1.6rem 0; padding:1.3rem; border:1px solid var(--border); border-radius:28px; background:color-mix(in oklab, var(--card-bg) 95%, #eef2ff 5%); box-shadow:var(--shadow-soft); }
+  .shell-head { display:flex; align-items:flex-start; justify-content:space-between; gap:1rem; }
+  .shell-kicker { margin:0 0 .6rem; color:var(--text-soft); font-size:.82rem; font-weight:700; letter-spacing:.04em; text-transform:uppercase; }
+  .shell-head h2 { margin:0; color:var(--text-strong); font-size:clamp(1.45rem,2.2vw,1.85rem); line-height:1.1; }
+  .shell-badge { display:inline-flex; align-items:center; gap:.45rem; min-height:2rem; padding:0 .75rem; border-radius:999px; border:1px solid var(--border); background:var(--surface); color:var(--text-strong); font-size:.84rem; font-weight:700; white-space:nowrap; }
+  .shell-intro { margin:0; color:var(--text); line-height:1.72; }
+  .shell-notes,.shell-suggestions,.shell-steps { display:grid; gap:.65rem; padding:1rem; border:1px solid var(--border); border-radius:22px; background:var(--surface); }
+  .shell-notes p,.shell-suggestions p,.shell-steps p { margin:0; color:var(--text-strong); font-weight:700; }
+  .shell-notes ul,.shell-steps ol { margin:0; padding-left:1.1rem; display:grid; gap:.45rem; }
+  .shell-suggestions ul { list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; gap:.6rem; }
+  .suggestions-head { display:flex; align-items:center; justify-content:space-between; gap:1rem; flex-wrap:wrap; }
+  .toolbar-actions { display:flex; gap:.55rem; flex-wrap:wrap; }
+  .mini-button,.command-chip { border:1px solid var(--border); background:var(--card-bg); color:var(--text-strong); border-radius:999px; cursor:pointer; }
+  .mini-button { min-height:2rem; padding:0 .7rem; font-weight:700; }
+  .command-chip { min-height:2.15rem; padding:0 .8rem; }
+  .command-chip code { font-size:.9rem; }
+  .mini-button:hover,.command-chip:hover { border-color:var(--border-strong); box-shadow:var(--shadow-soft); }
+  .shell-window { overflow:hidden; border:1px solid color-mix(in oklab, var(--border) 70%, #0f172a 30%); border-radius:22px; background:#0b1220; color:#d7e2f0; }
+  .shell-toolbar { display:flex; align-items:center; gap:.55rem; padding:.8rem 1rem; background:#111a2b; border-bottom:1px solid rgba(255,255,255,.08); }
+  .dot { width:.75rem; height:.75rem; border-radius:999px; display:inline-block; }
+  .dot.red { background:#ef4444; } .dot.yellow { background:#f59e0b; } .dot.green { background:#22c55e; }
+  .shell-toolbar-title { margin-left:.3rem; color:rgba(231,240,255,.8); font-size:.9rem; }
+  .shell-output { min-height:13rem; max-height:22rem; overflow:auto; padding:1rem; font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; font-size:.95rem; line-height:1.55; white-space:pre-wrap; word-break:break-word; }
+  .shell-line + .shell-line { margin-top:.45rem; }
+  .shell-line.command .prompt { color:#93c5fd; }
+  .shell-line.command .command { color:#f8fafc; }
+  .shell-input-row { display:grid; grid-template-columns:auto minmax(0,1fr); gap:.7rem; align-items:center; padding:.95rem 1rem 1rem; border-top:1px solid rgba(255,255,255,.08); background:#0f172a; }
+  .shell-prompt { color:#93c5fd; font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; font-size:.92rem; }
+  .shell-input { min-width:0; border:0; outline:none; background:transparent; color:#f8fafc; font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; font-size:.95rem; }
+  .shell-input::placeholder { color:rgba(226,232,240,.45); }
+  @media (max-width:720px){ .linux-shell-card { padding:1rem; border-radius:24px; } .shell-head,.suggestions-head,.shell-input-row { grid-template-columns:1fr; display:grid; } .shell-output { min-height:12rem; font-size:.9rem; } }
+</style>

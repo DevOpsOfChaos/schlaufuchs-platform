@@ -1,71 +1,33 @@
 ---
-title: Benutzer, Rechte und Homeverzeichnis
-description: Diese neu formulierte Bestandsaufgabe verbindet klassische Linux-Grundbegriffe mit einer kleinen Praxissituation rund um Benutzer und Dateirechte.
+title: Benutzer, Rechte und Homeverzeichnis zusammen denken
+description: Verbinde Benutzer, persönliches Arbeitsverzeichnis und Zugriffsregeln zu einem Gesamtbild.
 subject: linux
-section: Benutzer und Rechte
+section: system
+topicPath:
+- system
+- benutzer-und-gruppen-grundlagen
+- benutzer-rechte-und-homeverzeichnis
+hintPoints:
+- Denke das Homeverzeichnis als persönlichen Arbeitsbereich.
+- Verbinde Benutzeridentität und typische Zugriffsfragen.
+- Erkläre, warum nicht jeder überall gleich arbeiten soll.
+selfCheckPoints:
+- Habe ich Homeverzeichnis, Benutzer und Rechte miteinander verknüpft?
+- Wird deutlich, warum persönliche Bereiche sinnvoll sind?
+- Kann ich erklären, was dabei privat und was gemeinsam sein kann?
+tags:
+- linux
+- homeverzeichnis
+- benutzer
+- rechte
 level: einfach
 draft: false
+transferIdeas:
+- Warum hilft dieses Verständnis auch dann, wenn du später Dateien in Teamordnern oder Projekten einordnen musst?
+reflectionPrompt: 'Was macht ein System meist klarer: alles offen zu lassen oder persönliche Bereiche bewusst zu trennen? Begründe kurz.'
 ---
 
-## Arbeitsauftrag
 
-Bearbeite die Aufgabe mit Blick auf typische Alltagssituationen im System. Es geht nicht um Spezialfälle, sondern um einen sauberen Grundüberblick.
+## Aufgabe
 
-## Ausgangssituation
-
-Auf einem Linux-System arbeiten mehrere Benutzer. Eine Datei im Homeverzeichnis eines Benutzers soll nicht für alle anderen frei veränderbar sein.
-
-## Aufgabe 1
-
-Erkläre kurz:
-
-1. Was ein Benutzerkonto in Linux ist.
-2. Was das Homeverzeichnis eines Benutzers ist.
-3. Warum Dateirechte in Mehrbenutzersystemen wichtig sind.
-
-## Aufgabe 2
-
-Ordne diese Begriffe zu:
-
-- Benutzer
-- Gruppe
-- andere
-
-Erkläre jeweils, auf wen sich diese Kategorien bei Dateirechten beziehen.
-
-## Aufgabe 3
-
-Eine Datei hat die Rechte `rw-r--r--`.
-
-1. Was darf der Besitzer der Datei?
-2. Was dürfen Mitglieder der Gruppe?
-3. Was dürfen andere Benutzer?
-
-## Aufgabe 4
-
-Formuliere einen passenden `chmod`-Befehl für diese Situation:
-
-- Der Besitzer soll lesen und schreiben dürfen.
-- Die Gruppe soll nur lesen dürfen.
-- Andere sollen keinen Zugriff haben.
-
-## Aufgabe 5
-
-Erkläre in eigenen Worten:
-
-1. Warum ein Homeverzeichnis nicht automatisch für alle offen sein sollte.
-2. Warum Rechte bewusst statt zufällig gesetzt werden sollten.
-
-## Hinweise
-
-- Linux trennt Rechte für Besitzer, Gruppe und andere.
-- `r` steht für lesen, `w` für schreiben, `x` für ausführen.
-- Ein Homeverzeichnis gehört typischerweise zu einem bestimmten Benutzer.
-
-## Selbstkontrolle
-
-Diese Punkte sollten am Ende klar sein:
-
-- `rw-r--r--` bedeutet: Besitzer lesen und schreiben, Gruppe lesen, andere lesen.
-- Für die gewünschte Situation passt `chmod 640`.
-- Rechte schützen Daten und Arbeitsumgebungen in Mehrbenutzersystemen.
+Beschreibe, welche Rolle ein Homeverzeichnis für einen Benutzer spielt und warum Rechte dabei wichtig sind. Erkläre zusätzlich, warum persönliche und gemeinsame Bereiche im System unterschiedlich gedacht werden.

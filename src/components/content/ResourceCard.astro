@@ -1,0 +1,71 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  meta: string;
+  href: string;
+  ctaLabel: string;
+  icon: string;
+  variant?: "task" | "article" | "topic";
+}
+
+const {
+  title,
+  description,
+  meta,
+  href,
+  ctaLabel,
+  icon,
+  variant = "article",
+} = Astro.props as Props;
+
+const eyebrowMap = {
+  task: "Aufgabe",
+  article: "Wissensseite",
+  topic: "Thema",
+} as const;
+
+const arrowIcon = `
+<svg viewBox="0 0 24 24" aria-hidden="true">
+  <path d="M5 12h14"></path>
+  <path d="m13 6 6 6-6 6"></path>
+</svg>`;
+---
+
+<article class:list={["resource-card", variant]}>
+  <div class:list={["icon-badge", variant === "article" ? "secondary" : undefined]} aria-hidden="true" set:html={icon} />
+  <div class="resource-copy">
+    <div class="resource-topline">
+      <p class="eyebrow">{eyebrowMap[variant]}</p>
+      <span class="meta-chip">{meta}</span>
+    </div>
+
+    <div class="resource-main">
+      <h3>{title}</h3>
+      <p>{description}</p>
+    </div>
+
+    <a class="resource-link" href={href}>
+      <span>{ctaLabel}</span>
+      <span class="cta-icon" aria-hidden="true" set:html={arrowIcon} />
+    </a>
+  </div>
+</article>
+
+<style>
+  .resource-card { display:grid; grid-template-columns:auto minmax(0,1fr); gap:1rem; padding:1.2rem 1.25rem; border:1px solid var(--border); border-radius:26px; background:var(--card-bg); box-shadow:var(--shadow-soft); transition:transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease; }
+  .resource-card:hover { transform:translateY(-2px); box-shadow:var(--shadow-card); border-color:var(--border-strong); }
+  .icon-badge { display:inline-flex; align-items:center; justify-content:center; width:3rem; height:3rem; border-radius:18px; background:color-mix(in oklab, var(--surface-strong) 84%, #4f46e5 16%); color:white; flex-shrink:0; box-shadow:var(--shadow-soft); }
+  .icon-badge.secondary { background:var(--surface); color:var(--text-strong); border:1px solid var(--border); }
+  .icon-badge :global(svg), .cta-icon :global(svg) { width:1.15rem; height:1.15rem; stroke:currentColor; fill:none; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; }
+  .resource-copy { display:grid; gap:.85rem; min-width:0; align-content:start; }
+  .resource-topline { display:flex; align-items:center; justify-content:space-between; gap:.8rem; flex-wrap:wrap; }
+  .eyebrow { margin:0; color:var(--text-soft); font-size:.77rem; font-weight:800; letter-spacing:.05em; text-transform:uppercase; }
+  .meta-chip { display:inline-flex; align-items:center; min-height:1.9rem; padding:.1rem .65rem; border-radius:999px; border:1px solid var(--border); background:var(--surface); color:var(--text-strong); font-size:.82rem; font-weight:700; }
+  .resource-main { display:grid; gap:.55rem; }
+  h3 { margin:0; color:var(--text-strong); font-size:1.08rem; line-height:1.25; }
+  p { margin:0; color:var(--text); line-height:1.64; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
+  .resource-link { display:inline-flex; align-items:center; gap:.45rem; color:var(--text-strong); font-weight:700; margin-top:.1rem; }
+  .cta-icon { display:inline-flex; align-items:center; justify-content:center; width:1.35rem; height:1.35rem; border-radius:999px; }
+  @media (max-width:720px){ .resource-card { grid-template-columns:1fr; } .icon-badge { width:2.8rem; height:2.8rem; } }
+</style>

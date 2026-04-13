@@ -1,55 +1,53 @@
 ---
-title: Benutzer und Gruppen – Grundlagen
+title: Benutzer und Gruppen – Überblick
 description: Verstehe, wie Linux Zugriffe über Benutzer und Gruppen organisiert.
 subject: linux
 section: benutzer-und-gruppen
+topicPath:
+- system
+- benutzer-und-gruppen-grundlagen
+learningGoals:
+- Du verstehst Benutzer als Identitäten innerhalb eines Linux-Systems.
+- Du ordnest Gruppen als gemeinsame Rechteebene ein.
+- Du erkennst, warum Benutzer, Gruppen und Rechte zusammengehören.
+practiceIdeas:
+- Lies mit ls -l mehrere Dateien und vergleiche Besitzer, Gruppe und Rechte gemeinsam.
+- Nutze in der Linux-Lernshell whoami, groups und id nacheinander und ordne die Ausgaben ruhig ein.
+- Überlege, wann eine einzelne Person Rechte braucht und wann eine Gruppe sinnvoller ist.
+commonMistakes:
+- Benutzer und Gruppe werden als dasselbe verstanden.
+- Rechte werden isoliert betrachtet, ohne Besitzer und Gruppe mitzudenken.
+- Man geht davon aus, dass jede Datei automatisch für alle gleich zugänglich sein sollte.
+keyTakeaways:
+- Benutzer stehen für konkrete Identitäten im System.
+- Gruppen bündeln mehrere Benutzer unter gemeinsamen Zugriffsregeln.
+- Erst zusammen mit Rechten wird klar, wer was darf.
+tags:
+- benutzer
+- gruppen
+- linux
+- rechte
 level: einfach
-tags: [benutzer, gruppen, linux, rechte]
 draft: false
+recognizeSignals:
+- Die Aufgabe oder Erklärung nennt Benutzer und Gruppen – Überblick direkt oder greift eng benachbarte Begriffe aus benutzer-und-gruppen auf.
+- Du sollst nicht nur einen Begriff nennen, sondern einen Zusammenhang, Ablauf oder eine Struktur sauber erklären.
+- In Beispielen musst du Werte, Schritte oder Bauteile geordnet lesen und richtig einordnen.
+selfCheckPoints:
+- Kann ich verstehst Benutzer als Identitäten innerhalb eines Linux-Systems?
+- Kann ich ordnest Gruppen als gemeinsame Rechteebene ein?
+- Kann ich erkennst, warum Benutzer, Gruppen und Rechte zusammengehören?
 ---
 
-Linux organisiert Zugriffe nicht zufällig, sondern über klare Zuständigkeiten. Genau dafür sind **Benutzer** und **Gruppen** wichtig.
 
-## Warum braucht Linux Benutzer und Gruppen?
+## Grundidee
 
-Ein System soll unterscheiden können,
+Linux ist als Mehrbenutzersystem gedacht. Deshalb braucht es eine klare Zuordnung, welche Person oder Rolle welche Dateien sehen, ändern oder ausführen darf.
 
-- wer auf Dateien zugreifen darf,
-- wer etwas verändern darf,
-- und welche Rechte nur für bestimmte Personen oder Rollen gelten.
+## Benutzer und Gruppen im Zusammenspiel
 
-Benutzer und Gruppen helfen also, Ordnung und Sicherheit im System herzustellen.
+Ein Benutzer ist eine konkrete Identität. Eine Gruppe fasst mehrere Benutzer für gemeinsame Zugriffsregeln zusammen. Diese Struktur macht Systeme übersichtlicher und sicherer.
 
-## Was ist ein Benutzer?
+## Anwendungen
 
-Ein Benutzer steht für eine konkrete Identität im System. Über diese Identität lassen sich Rechte, Besitz und Zugriffe zuordnen.
-
-Dadurch kann Linux unterscheiden, welche Aktionen zu welchem Nutzer gehören.
-
-## Was ist eine Gruppe?
-
-Eine Gruppe fasst mehrere Benutzer in einem gemeinsamen Rechtekontext zusammen.
-
-Das ist praktisch, wenn mehrere Personen ähnliche Zugriffe brauchen, ohne dass alle Rechte einzeln vergeben werden müssen.
-
-## Warum gehören Benutzer, Gruppen und Rechte zusammen?
-
-Diese Themen greifen direkt ineinander:
-
-- Benutzer stehen für einzelne Identitäten.
-- Gruppen bündeln gemeinsame Zuständigkeiten.
-- Rechte legen fest, was erlaubt ist.
-
-Darum sollte man Benutzer und Gruppen nie isoliert, sondern immer im Zusammenhang mit Zugriffsrechten denken.
-
-## Was du zuerst verstehen solltest
-
-Am Anfang ist besonders wichtig:
-
-- Benutzer als Identitäten des Systems zu lesen,
-- Gruppen als gemeinsame Rechteebene zu verstehen,
-- beide als Grundlage für Zugriffe und Sicherheit zu sehen.
-
-## Merksatz
-
-Linux organisiert Zugriffe über Benutzer und Gruppen, damit Rechte klar und sicher zugeordnet werden können.
+Sobald du Dateien, Rechte oder Teamordner ansiehst, brauchst du diese Begriffe. Sie erklären nicht nur Anzeigen, sondern echte Arbeitsstrukturen.

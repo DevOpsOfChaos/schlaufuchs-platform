@@ -20,8 +20,6 @@ export interface SubjectMeta {
   sections: SubjectSection[];
   knowledgeLabel: string;
   exerciseLabel: string;
-  learnModeTitle: string;
-  learnModeItems: string[];
 }
 
 export const visibleSubjectOrder: PrimarySubjectSlug[] = [
@@ -62,12 +60,6 @@ export const subjectMetaBySlug: Record<PrimarySubjectSlug, SubjectMeta> = {
     ],
     knowledgeLabel: "Wissensseiten",
     exerciseLabel: "Aufgaben",
-    learnModeTitle: "Mathematik im Lernmodus nutzen",
-    learnModeItems: [
-      "Starte mit den Grundlagen und wechsle danach gezielt in Analysis oder Algebra.",
-      "Nutze Aufgaben erst nach dem inhaltlichen Überblick, damit Begriffe und Verfahren sitzen.",
-      "Arbeite Themen in kleinen Blöcken: verstehen, Beispiel ansehen, dann Aufgaben ergänzen.",
-    ],
   },
   informatik: {
     tone: "cs",
@@ -84,12 +76,6 @@ export const subjectMetaBySlug: Record<PrimarySubjectSlug, SubjectMeta> = {
     ],
     knowledgeLabel: "Wissensseiten",
     exerciseLabel: "Aufgaben",
-    learnModeTitle: "Informatik im Lernmodus nutzen",
-    learnModeItems: [
-      "Arbeite zuerst über Grundideen und Begriffe, bevor du konkrete Syntax in den Vordergrund stellst.",
-      "Verbinde Kontrollstrukturen und Programmstruktur mit kleinen Code-Aufgaben statt isoliertem Auswendiglernen.",
-      "Nutze Aufgaben besonders dort, wo Abläufe, Bedingungen und Programmlogik verglichen werden sollen.",
-    ],
   },
   elektrotechnik: {
     tone: "ee",
@@ -106,12 +92,6 @@ export const subjectMetaBySlug: Record<PrimarySubjectSlug, SubjectMeta> = {
     ],
     knowledgeLabel: "Wissensseiten",
     exerciseLabel: "Aufgaben",
-    learnModeTitle: "Elektrotechnik im Lernmodus nutzen",
-    learnModeItems: [
-      "Starte mit Signalen, Logik und Grundbausteinen, bevor du in Rechnen oder Mikrocontroller gehst.",
-      "Nutze Aufgaben vor allem dann, wenn Größen, Schaltungen oder Zusammenhänge sicher eingeordnet werden sollen.",
-      "Arbeite praktische Themen wie Arduino oder ESP32 am besten erst nach einem klaren Überblick über die Grundlagen.",
-    ],
   },
   linux: {
     tone: "linux",
@@ -128,12 +108,6 @@ export const subjectMetaBySlug: Record<PrimarySubjectSlug, SubjectMeta> = {
     ],
     knowledgeLabel: "Wissensseiten",
     exerciseLabel: "Aufgaben",
-    learnModeTitle: "Linux im Lernmodus nutzen",
-    learnModeItems: [
-      "Beginne mit Shell und Rechten, bevor du Automatisierung oder Fernzugriff vertiefst.",
-      "Wechsle zwischen Wissensseite und Terminalpraxis in kleinen, klaren Schritten.",
-      "Nutze SSH und Shellskripte erst dann stärker, wenn die Grundbefehle sicher sitzen.",
-    ],
   },
   "web-development": {
     tone: "web",
@@ -150,12 +124,6 @@ export const subjectMetaBySlug: Record<PrimarySubjectSlug, SubjectMeta> = {
     ],
     knowledgeLabel: "Wissensseiten",
     exerciseLabel: "Aufgaben",
-    learnModeTitle: "Web Development im Lernmodus nutzen",
-    learnModeItems: [
-      "Beginne mit Struktur und Semantik, bevor du dich in CSS-Details oder Layout-Fragen verlierst.",
-      "Verbinde Wissensseiten direkt mit kleinen Code-Aufgaben, damit HTML und CSS sichtbar zusammenwirken.",
-      "Nutze den Lernmodus besonders dann, wenn du Themen in einer sinnvollen Reihenfolge durcharbeiten willst.",
-    ],
   },
 };
 

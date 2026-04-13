@@ -1,9 +1,9 @@
 ---
-import BaseLayout from "../../../../../layouts/BaseLayout.astro";
 import { withBase } from "../../../../../utils/base";
 import { getVisibleArticles } from "../../../../../data/content";
 import { getTopicTail } from "../../../../../data/topics";
 import { resolvePrimarySubjectSlug } from "../../../../../data/subjects";
+import LeafInfoPage from "../../../../../components/content/LeafInfoPage.astro";
 
 export async function getStaticPaths() {
   const articles = await getVisibleArticles();
@@ -19,14 +19,4 @@ const { entry } = Astro.props;
 const targetHref = withBase(`wissen/${entry.id}`);
 ---
 
-<BaseLayout title={`${entry.data.title} – Fachinfo`} description={entry.data.description}>
-  <script is:inline define:vars={{ targetHref }}>
-    window.location.replace(targetHref);
-  </script>
-
-  <section>
-    <h1>{entry.data.title}</h1>
-    <p>Die ausführliche Wissensseite wird geöffnet.</p>
-    <a href={targetHref}>Zur Wissensseite</a>
-  </section>
-</BaseLayout>
+<LeafInfoPage title={entry.data.title} description={entry.data.description} targetHref={targetHref} />

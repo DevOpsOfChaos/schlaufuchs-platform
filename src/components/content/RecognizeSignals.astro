@@ -1,0 +1,59 @@
+---
+interface Props {
+  items: string[];
+}
+
+const { items } = Astro.props as Props;
+---
+
+{items.length > 0 && (
+  <section class="signals-box">
+    <p class="box-kicker">Woran du das Thema erkennst</p>
+    <ul>
+      {items.map((item) => <li>{item}</li>)}
+    </ul>
+  </section>
+)}
+
+<style>
+  .signals-box {
+    padding: 1.25rem;
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    background: color-mix(in oklab, var(--card-bg) 95%, #f8fafc 5%);
+    box-shadow: var(--shadow-soft);
+  }
+
+  .box-kicker {
+    margin: 0 0 0.65rem;
+    color: var(--text-soft);
+    font-size: 0.82rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 0.7rem;
+  }
+
+  li {
+    position: relative;
+    padding-left: 1.1rem;
+    color: var(--text);
+    line-height: 1.68;
+  }
+
+  li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--accent);
+    font-weight: 800;
+  }
+</style>

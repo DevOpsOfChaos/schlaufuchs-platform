@@ -3,386 +3,196 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { render, type CollectionEntry } from "astro:content";
 import { getVisibleArticles, getVisibleExercises, levelLabels } from "../../data/content";
 import { resolvePrimarySubjectSlug, subjectTitleMap } from "../../data/subjects";
-
-const base = import.meta.env.BASE_URL;
+import {
+  getSectionDisplayLabel,
+  getTopicDisplayLabel,
+  getTopicOverviewPath,
+  humanizeTopicSegment,
+  rankTopicMatches,
+} from "../../data/topics";
+import { withBase } from "../../utils/base";
+import PageTrail from "../../components/content/PageTrail.astro";
+import OverviewPanel from "../../components/content/OverviewPanel.astro";
+import SectionHeading from "../../components/content/SectionHeading.astro";
+import ResourceCard from "../../components/content/ResourceCard.astro";
+import SupportChecklist from "../../components/content/SupportChecklist.astro";
+import TransferIdeas from "../../components/content/TransferIdeas.astro";
+import ReflectionPrompt from "../../components/content/ReflectionPrompt.astro";
 
 export async function getStaticPaths() {
   const exercises = await getVisibleExercises();
-
-  return exercises.map((entry) => ({
-    params: { slug: entry.id },
-    props: { entry },
-  }));
+  return exercises.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
 }
 
 const { entry } = Astro.props as { entry: CollectionEntry<"exercises"> };
 const { Content } = await render(entry);
 const subjectTitle = subjectTitleMap[entry.data.subject] ?? "Fachbereich";
 const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject) ?? "elektrotechnik";
-const section = entry.data.section ?? "";
-const printHref = `${base}druck/aufgaben/${entry.id}`;
+const topicBranch = getTopicOverviewPath(entry);
+const topicPathHref = topicBranch.length > 0 ? withBase(`fachbereiche/${subjectSlug}/${topicBranch.join("/")}`) : withBase(`fachbereiche/${subjectSlug}`);
+const printHref = withBase(`druck/aufgaben/${entry.id}`);
+const hintPoints = Array.isArray(entry.data.hintPoints) ? entry.data.hintPoints.filter(Boolean) : [];
+const selfCheckPoints = Array.isArray(entry.data.selfCheckPoints) ? entry.data.selfCheckPoints.filter(Boolean) : [];
+const transferIdeas = Array.isArray(entry.data.transferIdeas) ? entry.data.transferIdeas.filter(Boolean) : [];
+const reflectionPrompt = entry.data.reflectionPrompt?.trim() ?? "";
 
 const [allArticles, allExercises] = await Promise.all([getVisibleArticles(), getVisibleExercises()]);
+const entryTopicLabel = getTopicDisplayLabel(entry);
+const entrySectionLabel = getSectionDisplayLabel(entry.data.section);
 
-const relatedArticles = allArticles
-  .filter((item) => resolvePrimarySubjectSlug(item.data.subject) === subjectSlug)
-  .sort((a, b) => Number((b.data.section ?? "") === section) - Number((a.data.section ?? "") === section))
-  .slice(0, 3);
+const rankedArticles = rankTopicMatches(
+  entry,
+  allArticles.filter((item) => resolvePrimarySubjectSlug(item.data.subject) === subjectSlug),
+  { minimumScore: 6 },
+);
+const rankedExercises = rankTopicMatches(
+  entry,
+  allExercises.filter((item) => item.id !== entry.id && resolvePrimarySubjectSlug(item.data.subject) === subjectSlug),
+  { minimumScore: 6 },
+);
 
-const relatedExercises = allExercises
-  .filter((item) => item.id !== entry.id && resolvePrimarySubjectSlug(item.data.subject) === subjectSlug)
-  .sort((a, b) => Number((b.data.section ?? "") === section) - Number((a.data.section ?? "") === section))
-  .slice(0, 3);
+const relatedArticles = rankedArticles.map(({ entry }) => entry).slice(0, 4);
+const relatedExercises = rankedExercises.map(({ entry }) => entry).slice(0, 4);
+
+const breadcrumbSegments = topicBranch.map((segment, index) => ({
+  label: humanizeTopicSegment(segment),
+  href: withBase(`fachbereiche/${subjectSlug}/${topicBranch.slice(0, index + 1).join("/")}`),
+}));
+
+const trail = [{ label: subjectTitle, href: withBase(`fachbereiche/${subjectSlug}`) }, ...breadcrumbSegments];
+
+const backHref = breadcrumbSegments.length > 0 ? breadcrumbSegments[breadcrumbSegments.length - 1].href : withBase(`fachbereiche/${subjectSlug}`);
+
+const taskIcon = `
+<svg viewBox="0 0 24 24" aria-hidden="true">
+  <path d="M9 11l2 2 4-4"></path>
+  <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+</svg>`;
+const articleIcon = `
+<svg viewBox="0 0 24 24" aria-hidden="true">
+  <path d="M7 6h10"></path>
+  <path d="M7 10h10"></path>
+  <path d="M7 14h7"></path>
+  <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+</svg>`;
+
+const overviewPoints = [
+  `Diese Aufgabe gehört fachlich zu ${subjectTitle}.`,
+  `Sie ergänzt das Thema ${breadcrumbSegments.at(-1)?.label ?? entry.data.section ?? "dieser Wissensbereich"}.`,
+  "Darunter findest du passende Wissensseiten und weitere Aufgaben zum gleichen Themenfeld.",
+];
 ---
 
 <BaseLayout title={`${entry.data.title} – Schlaufuchs`} description={entry.data.description}>
-  <nav class="breadcrumb" aria-label="Brotkrumen">
-    <a href={`${base}`}>Start</a>
-    <span>›</span>
-    <a href={`${base}aufgaben`}>Aufgaben</a>
-    <span>›</span>
-    <a href={`${base}fachbereiche/${subjectSlug}`}>{subjectTitle}</a>
-    <span>›</span>
-    <span aria-current="page">Aufgabe</span>
-  </nav>
+  <div class="page-shell">
+    <PageTrail backHref={backHref} trail={trail} />
 
-  <section class="exercise-hero">
-    <div class="hero-copy">
-      <p class="eyebrow">Aufgabe · {subjectTitle}</p>
-      <div class="hero-meta-row" data-present="hide">
+    <section class="exercise-hero">
+      <p class="eyebrow">Aufgabe</p>
+      <div class="hero-meta-row">
+        <span class="meta-chip">{subjectTitle}</span>
         <span class="meta-chip">{levelLabels[entry.data.level]}</span>
-        {section && <span class="meta-chip">{section}</span>}
+        {entry.data.section && <span class="meta-chip">{entrySectionLabel}</span>}
+        <span class="meta-chip">{entryTopicLabel}</span>
       </div>
       <h1>{entry.data.title}</h1>
       <p class="lead">{entry.data.description}</p>
-    </div>
+    </section>
 
-    <div class="hero-meta" data-present="hide">
-      <article class="meta-card">
-        <span>Fachbereich</span>
-        <strong>{subjectTitle}</strong>
+    <OverviewPanel
+      title="Worum es in dieser Aufgabe geht"
+      kicker="Kontext"
+      points={overviewPoints}
+      actionHref={topicPathHref}
+      actionLabel="Zum Themenpfad →"
+    />
+
+    <section class="action-row-shell">
+      <a class="print-link" href={printHref}>Druckansicht öffnen →</a>
+    </section>
+
+    <section class="exercise-shell">
+      <article class="exercise-content">
+        <Content />
       </article>
-      <article class="meta-card">
-        <span>Niveau</span>
-        <strong>{levelLabels[entry.data.level]}</strong>
-      </article>
-      {section && (
-        <article class="meta-card">
-          <span>Themenblock</span>
-          <strong>{section}</strong>
-        </article>
-      )}
-    </div>
-  </section>
+    </section>
 
-  <section class="exercise-shell">
-    <article class="exercise-content">
-      <Content />
-    </article>
+    {(hintPoints.length > 0 || selfCheckPoints.length > 0) && (
+      <section class="exercise-support wide-bleed">
+        <SupportChecklist title="Worauf du achten kannst" kicker="Hinweise" items={hintPoints} />
+        <SupportChecklist title="Das solltest du am Ende prüfen" kicker="Selbstkontrolle" items={selfCheckPoints} />
+      </section>
+    )}
 
-    <aside class="exercise-aside" data-present="hide">
-      <div class="aside-card print-card">
-        <h2>Druck und PDF</h2>
-        <p>Diese Aufgabe lässt sich über eine ruhige Druckansicht direkt als PDF sichern oder ausdrucken.</p>
-        <a href={printHref}>Zur Druckansicht / PDF →</a>
-      </div>
+    {(transferIdeas.length > 0 || reflectionPrompt) && (
+      <section class="exercise-extension wide-bleed">
+        <TransferIdeas items={transferIdeas} />
+        {reflectionPrompt && <ReflectionPrompt prompt={reflectionPrompt} />}
+      </section>
+    )}
 
-      <div class="aside-card">
-        <h2>Im Fachkontext</h2>
-        <p>Diese Aufgabe gehört zum Fachbereich {subjectTitle} und ergänzt die dort sichtbaren Wissensseiten und Themenbereiche.</p>
-        <a href={`${base}fachbereiche/${subjectSlug}`}>Zum Fachbereich →</a>
-      </div>
-
-      <div class="aside-card learn-mode-only">
-        <h2>Im Lernmodus nutzen</h2>
-        <p>Im Lernmodus eignet sich diese Aufgabe besonders nach einem inhaltlichen Überblick: erst Begriffe und Beispiele prüfen, dann die Aufgabe gezielt zum Anwenden nutzen.</p>
-        <a href={`${base}suchen`}>Zu Wissensseiten und Themen suchen →</a>
-      </div>
-
-      {relatedArticles.length > 0 && (
-        <div class="aside-card">
-          <h2>Passende Wissensseiten</h2>
-          <ul class="related-list">
-            {relatedArticles.map((item) => (
-              <li>
-                <a href={`${base}wissen/${item.id}`}>{item.data.title}</a>
-                <small>{item.data.section}</small>
-              </li>
-            ))}
-          </ul>
+    {relatedArticles.length > 0 && (
+      <section class="related-section">
+        <SectionHeading kicker="Wissensseiten" title="Passende Fachinfos zu dieser Aufgabe" />
+        <p class="related-intro">Diese Wissensseiten liegen im gleichen Themenpfad und helfen dir genau bei dieser Aufgabe weiter.</p>
+        <div class="related-grid">
+          {relatedArticles.map((item) => (
+            <ResourceCard
+              title={item.data.title}
+              description={item.data.description}
+              meta={getTopicDisplayLabel(item)}
+              href={withBase(`wissen/${item.id}`)}
+              ctaLabel="Wissensseite öffnen →"
+              icon={articleIcon}
+              variant="article"
+            />
+          ))}
         </div>
-      )}
+      </section>
+    )}
 
-      {relatedExercises.length > 0 && (
-        <div class="aside-card">
-          <h2>Weitere Aufgaben</h2>
-          <ul class="related-list">
-            {relatedExercises.map((item) => (
-              <li>
-                <a href={`${base}aufgaben/${item.id}`}>{item.data.title}</a>
-                <small>{levelLabels[item.data.level]}</small>
-              </li>
-            ))}
-          </ul>
+    {relatedExercises.length > 0 && (
+      <section class="related-section">
+        <SectionHeading kicker="Weitere Aufgaben" title="Mehr Aufgaben im gleichen Themenfeld" />
+        <p class="related-intro">Hier findest du weitere Aufgaben, die denselben Themenpfad aufgreifen und fachlich nah beieinander liegen.</p>
+        <div class="related-grid">
+          {relatedExercises.map((item) => (
+            <ResourceCard
+              title={item.data.title}
+              description={item.data.description}
+              meta={levelLabels[item.data.level]}
+              href={withBase(`aufgaben/${item.id}`)}
+              ctaLabel="Aufgabe öffnen →"
+              icon={taskIcon}
+              variant="task"
+            />
+          ))}
         </div>
-      )}
-
-      <div class="aside-card">
-        <h2>Weitere Wege</h2>
-        <ul class="link-list">
-          <li><a href={`${base}aufgaben`}>Alle Aufgaben ansehen</a></li>
-          <li><a href={`${base}suchen`}>Nach ähnlichen Themen suchen</a></li>
-        </ul>
-      </div>
-    </aside>
-  </section>
+      </section>
+    )}
+  </div>
 </BaseLayout>
 
 <style>
-  .breadcrumb {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-bottom: 1rem;
-    color: var(--text-soft);
-    font-size: 0.94rem;
-  }
-
-  .breadcrumb a {
-    color: var(--text-soft);
-  }
-
-  .breadcrumb a:hover {
-    color: var(--text-strong);
-  }
-
-  .exercise-hero {
-    display: grid;
-    grid-template-columns: minmax(0, 1.4fr) minmax(15rem, 20rem);
-    gap: 1rem;
-    align-items: start;
-  }
-
-  .eyebrow {
-    margin: 0 0 0.8rem;
-    color: var(--text-soft);
-    font-size: 0.92rem;
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-  }
-
-  .hero-meta-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.55rem;
-    margin-bottom: 0.9rem;
-  }
-
-  .meta-chip {
-    display: inline-flex;
-    align-items: center;
-    min-height: 2rem;
-    padding: 0.12rem 0.72rem;
-    border-radius: 999px;
-    border: 1px solid var(--border);
-    background: var(--surface);
-    color: var(--text-strong);
-    font-size: 0.84rem;
-    font-weight: 700;
-  }
-
-  h1 {
-    margin: 0;
-    color: var(--text-strong);
-    font-size: clamp(2.4rem, 4.6vw, 4rem);
-    line-height: 0.98;
-    letter-spacing: -0.045em;
-  }
-
-  :global(html[data-presentation-mode="on"]) h1 {
-    font-size: clamp(2.8rem, 5.4vw, 4.8rem);
-  }
-
-  .lead {
-    margin: 1rem 0 0;
-    color: var(--text);
-    line-height: 1.75;
-    font-size: 1.05rem;
-  }
-
-  :global(html[data-presentation-mode="on"]) .lead {
-    font-size: 1.18rem;
-    line-height: 1.85;
-    max-width: 60rem;
-  }
-
-  .hero-meta {
-    display: grid;
-    gap: 0.8rem;
-  }
-
-  .meta-card,
-  .exercise-content,
-  .aside-card {
-    border: 1px solid var(--border);
-    background: var(--card-bg);
-    box-shadow: var(--shadow-soft);
-  }
-
-  .meta-card {
-    display: grid;
-    gap: 0.35rem;
-    padding: 1.15rem;
-    border-radius: 22px;
-  }
-
-  .meta-card span {
-    color: var(--text-soft);
-    font-size: 0.88rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-  }
-
-  .meta-card strong {
-    color: var(--text-strong);
-    font-size: 1.2rem;
-    line-height: 1.2;
-  }
-
-  .exercise-shell {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(15rem, 20rem);
-    gap: 1rem;
-    margin-top: 1.6rem;
-  }
-
-  :global(html[data-presentation-mode="on"]) .exercise-shell {
-    grid-template-columns: 1fr;
-  }
-
-  .exercise-content {
-    padding: 1.4rem;
-    border-radius: 28px;
-    box-shadow: var(--shadow-card);
-  }
-
-  :global(html[data-presentation-mode="on"]) .exercise-content {
-    padding: 1.9rem 2rem;
-  }
-
-  .exercise-aside {
-    display: grid;
-    gap: 1rem;
-    align-self: start;
-  }
-
-  .aside-card {
-    padding: 1.35rem;
-    border-radius: 22px;
-  }
-
-  .print-card {
-    background: linear-gradient(135deg, rgba(79,70,229,0.10), rgba(240,244,255,0.88));
-  }
-
-  :global(html[data-theme="dark"]) .print-card {
-    background: linear-gradient(135deg, rgba(79,70,229,0.16), rgba(18,27,46,0.94));
-  }
-
-  .learn-mode-only {
-    display: none;
-  }
-
-  :global(html[data-learn-mode="on"]) .learn-mode-only {
-    display: block;
-    background: linear-gradient(135deg, rgba(79,70,229,0.10), rgba(240,244,255,0.88));
-  }
-
-  :global(html[data-theme="dark"][data-learn-mode="on"]) .learn-mode-only {
-    background: linear-gradient(135deg, rgba(79,70,229,0.16), rgba(18,27,46,0.94));
-  }
-
-  .aside-card h2 {
-    margin: 0;
-    color: var(--text-strong);
-    font-size: 1.05rem;
-  }
-
-  .aside-card p {
-    margin: 0.75rem 0 0;
-    color: var(--text);
-    line-height: 1.65;
-  }
-
-  .aside-card a {
-    color: var(--text-strong);
-    font-weight: 700;
-  }
-
-  .link-list,
-  .related-list {
-    list-style: none;
-    margin: 0.9rem 0 0;
-    padding: 0;
-    display: grid;
-    gap: 0.7rem;
-  }
-
-  .related-list li {
-    display: grid;
-    gap: 0.25rem;
-    padding-bottom: 0.75rem;
-    border-bottom: 1px solid var(--border);
-  }
-
-  .related-list li:last-child {
-    border-bottom: 0;
-    padding-bottom: 0;
-  }
-
-  .related-list small {
-    color: var(--text-soft);
-  }
-
-  .exercise-content :global(h2) {
-    margin-top: 1.75rem;
-    color: var(--text-strong);
-    font-size: 1.5rem;
-    line-height: 1.15;
-  }
-
-  :global(html[data-presentation-mode="on"]) .exercise-content :global(h2) {
-    font-size: 2rem;
-    margin-top: 2rem;
-  }
-
-  .exercise-content :global(h2:first-child) {
-    margin-top: 0;
-  }
-
-  .exercise-content :global(p),
-  .exercise-content :global(li) {
-    color: var(--text);
-    line-height: 1.8;
-    font-size: 1rem;
-  }
-
-  :global(html[data-presentation-mode="on"]) .exercise-content :global(p),
-  :global(html[data-presentation-mode="on"]) .exercise-content :global(li) {
-    font-size: 1.12rem;
-    line-height: 1.9;
-  }
-
-  .exercise-content :global(ul) {
-    padding-left: 1.2rem;
-  }
-
-  @media (max-width: 980px) {
-    .exercise-hero,
-    .exercise-shell {
-      grid-template-columns: 1fr;
-    }
-  }
+  .page-shell { display: grid; gap: 1.15rem; }
+  .eyebrow { margin: 0 0 0.8rem; color: var(--text-soft); font-size: 0.92rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
+  .hero-meta-row { display: flex; flex-wrap: wrap; gap: 0.55rem; margin-bottom: 0.95rem; }
+  .meta-chip { display: inline-flex; align-items: center; min-height: 2rem; padding: 0.12rem 0.72rem; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text-strong); font-size: 0.84rem; font-weight: 700; }
+  h1 { margin: 0; color: var(--text-strong); font-size: clamp(2.4rem, 4.6vw, 4rem); line-height: 0.98; letter-spacing: -0.045em; }
+  .lead { margin: 1rem 0 0; color: var(--text); line-height: 1.78; font-size: 1.05rem; max-width: 58rem; }
+  .action-row-shell { display: flex; justify-content: flex-start; }
+  .print-link { display: inline-flex; align-items: center; min-height: 2.8rem; padding: 0 0.95rem; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text-strong); font-weight: 700; box-shadow: var(--shadow-soft); }
+  .exercise-shell, .related-section { display: grid; gap: 1rem; }
+  .exercise-content { padding: clamp(1.3rem, 2vw, 2rem); border: 1px solid var(--border); border-radius: 30px; background: var(--card-bg); box-shadow: var(--shadow-card); overflow: hidden; }
+  .exercise-support, .exercise-extension, .related-grid { display: grid; gap: 1rem; }
+  .exercise-support, .exercise-extension { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .related-intro { margin: 0; color: var(--text); line-height: 1.7; max-width: 70rem; }
+  .related-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .exercise-content :global(h2) { margin-top: 1.8rem; color: var(--text-strong); font-size: clamp(1.45rem, 2.4vw, 1.85rem); line-height: 1.15; }
+  .exercise-content :global(h2:first-child) { margin-top: 0; }
+  .exercise-content :global(h3) { margin-top: 1.2rem; color: var(--text-strong); font-size: 1.12rem; line-height: 1.2; }
+  .exercise-content :global(p), .exercise-content :global(li) { color: var(--text); line-height: 1.82; font-size: 1rem; }
+  .exercise-content :global(ul), .exercise-content :global(ol) { padding-left: 1.2rem; }
+  .exercise-content :global(pre) { overflow-x: auto; }
+  @media (max-width: 980px) { .exercise-support, .exercise-extension, .related-grid { grid-template-columns: 1fr; } }
 </style>

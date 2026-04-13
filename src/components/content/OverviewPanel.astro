@@ -1,0 +1,40 @@
+---
+import SectionHeading from "./SectionHeading.astro";
+
+interface Props {
+  title: string;
+  kicker?: string;
+  points: string[];
+  actionHref?: string;
+  actionLabel?: string;
+}
+
+const {
+  title,
+  kicker = "Einstieg",
+  points,
+  actionHref,
+  actionLabel,
+} = Astro.props as Props;
+---
+
+<section class="overview-card">
+  <SectionHeading kicker={kicker} title={title} actionHref={actionHref} actionLabel={actionLabel} />
+  <div class="point-grid">
+    {points.map((item) => (
+      <article class="point-card">
+        <span class="point-mark" aria-hidden="true">✓</span>
+        <p>{item}</p>
+      </article>
+    ))}
+  </div>
+</section>
+
+<style>
+  .overview-card { display:grid; gap:1rem; padding:1.35rem 1.4rem; border:1px solid var(--border); border-radius:30px; background:linear-gradient(180deg, color-mix(in oklab, var(--card-bg) 97%, white 3%), color-mix(in oklab, var(--surface) 76%, var(--card-bg) 24%)); box-shadow:var(--shadow-soft); }
+  .point-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(16rem,1fr)); gap:.8rem; }
+  .point-card { display:grid; grid-template-columns:auto minmax(0,1fr); gap:.7rem; align-items:start; min-height:100%; padding:.95rem 1rem; border:1px solid var(--border); border-radius:22px; background:color-mix(in oklab, var(--surface) 84%, white 16%); }
+  .point-mark { display:inline-flex; align-items:center; justify-content:center; width:1.5rem; height:1.5rem; border-radius:999px; background:color-mix(in oklab, var(--surface-strong) 84%, #4f46e5 16%); color:white; font-size:.82rem; font-weight:800; line-height:1; margin-top:.1rem; }
+  p { margin:0; color:var(--text); line-height:1.68; font-size:.98rem; }
+  @media (max-width:820px){ .point-grid { grid-template-columns:1fr; } }
+</style>
