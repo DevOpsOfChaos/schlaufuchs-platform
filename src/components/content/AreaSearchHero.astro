@@ -1,9 +1,4 @@
 ---
-interface JumpLink {
-  label: string;
-  href: string;
-}
-
 interface Props {
   title: string;
   scopeLabel: string;
@@ -11,7 +6,6 @@ interface Props {
   imageSrc?: string;
   imageAlt?: string;
   tone?: string;
-  jumpLinks?: JumpLink[];
   inputName?: string;
   searchHint?: string;
 }
@@ -23,7 +17,6 @@ const {
   imageSrc,
   imageAlt = "",
   tone = "math",
-  jumpLinks = [],
   inputName = "area-search",
   searchHint = "",
 } = Astro.props as Props;
@@ -42,11 +35,6 @@ const {
       <input data-area-search-input name={inputName} type="search" placeholder={searchPlaceholder} autocomplete="off" />
     </label>
     {searchHint && <p class="search-hint">{searchHint}</p>}
-    {jumpLinks.length > 0 && (
-      <div class="jump-row">
-        {jumpLinks.map((item) => <a class="jump-chip" href={item.href}>{item.label}</a>)}
-      </div>
-    )}
   </div>
 
   <div class="hero-visual">
@@ -69,15 +57,15 @@ const {
 
   .area-hero {
     display: grid;
-    grid-template-columns: minmax(0, 1.25fr) minmax(15rem, 20rem);
+    grid-template-columns: minmax(0, 1.2fr) minmax(14rem, 18rem);
     gap: 1.25rem;
     align-items: stretch;
-    padding: 1rem 0 0.4rem;
+    padding: 0.95rem 0 0.3rem;
   }
 
   .hero-copy {
     display: grid;
-    gap: 0.95rem;
+    gap: 0.9rem;
     align-content: start;
   }
 
@@ -93,7 +81,7 @@ const {
   h1 {
     margin: 0;
     color: var(--text-strong);
-    font-size: clamp(2.3rem, 4.4vw, 4rem);
+    font-size: clamp(2.2rem, 4.2vw, 3.75rem);
     line-height: 0.98;
     letter-spacing: -0.045em;
   }
@@ -103,7 +91,7 @@ const {
     grid-template-columns: auto minmax(0, 1fr);
     align-items: center;
     gap: 0.8rem;
-    min-height: 4rem;
+    min-height: 3.8rem;
     padding: 0 1rem;
     border: 1px solid var(--border);
     border-radius: 24px;
@@ -137,34 +125,15 @@ const {
   .search-hint {
     margin: 0;
     color: var(--text-soft);
-    font-size: 0.94rem;
-    line-height: 1.55;
-  }
-
-  .jump-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.7rem;
-  }
-
-  .jump-chip {
-    display: inline-flex;
-    align-items: center;
-    min-height: 2.35rem;
-    padding: 0 0.85rem;
-    border-radius: 999px;
-    border: 1px solid var(--border);
-    background: var(--surface);
-    color: var(--text-strong);
-    font-weight: 700;
-    box-shadow: var(--shadow-soft);
+    font-size: 0.93rem;
+    line-height: 1.5;
   }
 
   .hero-visual {
     border: 1px solid var(--border);
     border-radius: 28px;
     overflow: hidden;
-    min-height: 17rem;
+    min-height: 15rem;
     box-shadow: var(--shadow-soft);
     display: grid;
     place-items: center;
@@ -196,7 +165,7 @@ const {
     }
 
     .hero-visual {
-      min-height: 13rem;
+      min-height: 12rem;
     }
   }
 </style>

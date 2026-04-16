@@ -9,6 +9,7 @@ interface AreaNodeDefinition {
   title: string;
   description: string;
   icon: string;
+  chips?: string[];
   searchAliases?: string[];
   prefixes?: string[][];
   children?: AreaNodeDefinition[];
@@ -33,19 +34,19 @@ const iconMap = {
 
 const areaNodesBySubject: Record<PrimarySubjectSlug, AreaNodeDefinition[]> = {
   mathematik: [
-    { slug: "grundlagen", title: "Grundlagen", description: "Zahlen, Anteile und Größen bilden hier die ruhige Basis für spätere Rechen- und Modellierungsthemen.", icon: iconMap.numbers, searchAliases: ["prozent", "anteile", "einheiten", "groessen"], prefixes: [["grundlagen"]] },
-    { slug: "algebra", title: "Algebra", description: "Hier geht es um lineare Gleichungen und das schrittweise Umformen mathematischer Ausdrücke.", icon: iconMap.numbers, searchAliases: ["gleichungen", "umformen"], prefixes: [["algebra"]] },
-    { slug: "funktionen", title: "Funktionen", description: "Zusammenhänge, Koordinaten und typische Funktionsideen werden hier verständlich aufgebaut.", icon: iconMap.graph, searchAliases: ["zuordnungen", "koordinaten", "graphen"], prefixes: [["funktionen"]] },
-    { slug: "daten-und-zufall", title: "Daten und Zufall", description: "Diagramme und Kennwerte helfen hier dabei, Daten nicht nur zu sehen, sondern sauber zu deuten.", icon: iconMap.chart, searchAliases: ["diagramme", "median", "mittelwert", "spannweite"], prefixes: [["daten-und-zufall"]] },
-    { slug: "geometrie", title: "Geometrie", description: "Flächen, Volumen und räumliche Grundideen werden hier als eigener Themenblock gebündelt.", icon: iconMap.ruler, searchAliases: ["flaechen", "volumen"], prefixes: [["geometrie"]] },
+    { slug: "grundlagen", title: "Grundlagen", description: "Zahlen, Anteile und Größen bilden hier die ruhige Basis für spätere Rechen- und Modellierungsthemen.", icon: iconMap.numbers, chips: ["Zahlen", "Anteile", "Größen"], searchAliases: ["prozent", "anteile", "einheiten", "groessen"], prefixes: [["grundlagen"]] },
+    { slug: "algebra", title: "Algebra", description: "Hier geht es um lineare Gleichungen und das schrittweise Umformen mathematischer Ausdrücke.", icon: iconMap.numbers, chips: ["Gleichungen", "Umformen", "Terme"], searchAliases: ["gleichungen", "umformen"], prefixes: [["algebra"]] },
+    { slug: "funktionen", title: "Funktionen", description: "Zusammenhänge, Koordinaten und typische Funktionsideen werden hier verständlich aufgebaut.", icon: iconMap.graph, chips: ["Graphen", "Zuordnungen", "Koordinaten"], searchAliases: ["zuordnungen", "koordinaten", "graphen"], prefixes: [["funktionen"]] },
+    { slug: "daten-und-zufall", title: "Daten und Zufall", description: "Diagramme und Kennwerte helfen hier dabei, Daten nicht nur zu sehen, sondern sauber zu deuten.", icon: iconMap.chart, chips: ["Diagramme", "Mittelwert", "Median"], searchAliases: ["diagramme", "median", "mittelwert", "spannweite"], prefixes: [["daten-und-zufall"]] },
+    { slug: "geometrie", title: "Geometrie", description: "Flächen, Volumen und räumliche Grundideen werden hier als eigener Themenblock gebündelt.", icon: iconMap.ruler, chips: ["Flächen", "Volumen", "Raum"], searchAliases: ["flaechen", "volumen"], prefixes: [["geometrie"]] },
   ],
   informatik: [
-    { slug: "daten-und-information", title: "Daten und Information", description: "Hier geht es um Codierung, Dateiformate und die Frage, wie Information technisch dargestellt wird.", icon: iconMap.data, searchAliases: ["codierung", "dateiformate", "kompatibilitaet"], prefixes: [["grundlagen"]] },
-    { slug: "algorithmen-und-struktur", title: "Algorithmen und Struktur", description: "Probleme werden hier in sinnvolle Teilschritte zerlegt und als strukturierte Abläufe beschrieben.", icon: iconMap.numbers, searchAliases: ["teilprobleme", "ablaeufe", "struktur"], prefixes: [["algorithmen"]] },
-    { slug: "netzwerke-und-dienste", title: "Netzwerke und Dienste", description: "Adressen, Verbindungen und das Client-Server-Prinzip bilden hier den gemeinsamen Rahmen.", icon: iconMap.network, searchAliases: ["netzwerke", "adressen", "client", "server"], prefixes: [["netzwerke"]] },
-    { slug: "zugang-und-sicherheit", title: "Zugang und Sicherheit", description: "Passwörter, Anmeldung und typische Schutzideen werden hier in einem kompakten Themenblock gebündelt.", icon: iconMap.shield, searchAliases: ["passwoerter", "authentifizierung", "anmeldung"], prefixes: [["sicherheit"]] },
-    { slug: "datenbanken", title: "Datenbanken", description: "Tabellenmodelle und strukturierte Daten bilden hier den Einstieg in geordnet gespeicherte Informationen.", icon: iconMap.data, searchAliases: ["tabellen", "datenmodelle"], prefixes: [["datenbanken"]] },
-    { slug: "informatiksysteme", title: "Informatiksysteme", description: "Eingabe, Verarbeitung und Ausgabe werden hier als technischer Datenfluss lesbar gemacht.", icon: iconMap.terminal, searchAliases: ["eva", "datenfluss", "systeme"], prefixes: [["systemnah"]] },
+    { slug: "daten-und-information", title: "Daten und Information", description: "Hier geht es um Codierung, Dateiformate und die Frage, wie Information technisch dargestellt wird.", icon: iconMap.data, chips: ["Codierung", "Dateiformate", "Information"], searchAliases: ["codierung", "dateiformate", "kompatibilitaet"], prefixes: [["grundlagen"]] },
+    { slug: "algorithmen-und-struktur", title: "Algorithmen und Struktur", description: "Probleme werden hier in sinnvolle Teilschritte zerlegt und als strukturierte Abläufe beschrieben.", icon: iconMap.numbers, chips: ["Algorithmen", "Abläufe", "Struktur"], searchAliases: ["teilprobleme", "ablaeufe", "struktur"], prefixes: [["algorithmen"]] },
+    { slug: "netzwerke-und-dienste", title: "Netzwerke und Dienste", description: "Adressen, Verbindungen und das Client-Server-Prinzip bilden hier den gemeinsamen Rahmen.", icon: iconMap.network, chips: ["Netzwerke", "Adressen", "Client-Server"], searchAliases: ["netzwerke", "adressen", "client", "server"], prefixes: [["netzwerke"]] },
+    { slug: "zugang-und-sicherheit", title: "Zugang und Sicherheit", description: "Passwörter, Anmeldung und typische Schutzideen werden hier in einem kompakten Themenblock gebündelt.", icon: iconMap.shield, chips: ["Passwörter", "Anmeldung", "Sicherheit"], searchAliases: ["passwoerter", "authentifizierung", "anmeldung"], prefixes: [["sicherheit"]] },
+    { slug: "datenbanken", title: "Datenbanken", description: "Tabellenmodelle und strukturierte Daten bilden hier den Einstieg in geordnet gespeicherte Informationen.", icon: iconMap.data, chips: ["Tabellen", "Modelle", "Daten"], searchAliases: ["tabellen", "datenmodelle"], prefixes: [["datenbanken"]] },
+    { slug: "informatiksysteme", title: "Informatiksysteme", description: "Eingabe, Verarbeitung und Ausgabe werden hier als technischer Datenfluss lesbar gemacht.", icon: iconMap.terminal, chips: ["EVA", "Datenfluss", "Systeme"], searchAliases: ["eva", "datenfluss", "systeme"], prefixes: [["systemnah"]] },
   ],
   elektrotechnik: [
     {
@@ -53,13 +54,14 @@ const areaNodesBySubject: Record<PrimarySubjectSlug, AreaNodeDefinition[]> = {
       title: "Daten und Signale",
       description: "Signale, Logik, Messen und einfache Schaltungen hängen hier fachlich eng zusammen.",
       icon: iconMap.data,
+      chips: ["Signale", "Messen", "Schaltungen"],
       prefixes: [["daten-und-signale"]],
       children: [
-        { slug: "signale-und-codierung", title: "Signale und Codierung", description: "Analoge und digitale Signale sowie Binärdarstellung bilden hier die fachliche Grundlage.", icon: iconMap.data, searchAliases: ["analog", "digital", "binaer"], prefixes: [["daten-und-signale", "analoge-und-digitale-signale"], ["daten-und-signale", "binaersystem-und-stellenwerte"]] },
-        { slug: "logik-und-wahrheitstabellen", title: "Logik und Wahrheitstabellen", description: "Logische Grundschaltungen und Wahrheitstabellen werden hier als gemeinsamer Digitaltechnik-Block gebündelt.", icon: iconMap.logic, searchAliases: ["logik", "gatter", "wahrheitstabellen"], prefixes: [["daten-und-signale", "logische-grundschaltungen"], ["daten-und-signale", "wahrheitstabellen-und-logik"]] },
-        { slug: "messen-und-fehler", title: "Messen und Fehler", description: "Messbereiche, Messfehler und typische Fehlinterpretationen gehören hier zusammen.", icon: iconMap.meter, searchAliases: ["messen", "messfehler", "messbereiche"], prefixes: [["daten-und-signale", "messbereiche-und-messfehler"]] },
-        { slug: "schaltungen-und-stromkreis", title: "Schaltungen und Stromkreis", description: "Hier geht es um Stromkreis-Verhalten sowie um Reihen- und Parallelschaltungen im Vergleich.", icon: iconMap.circuit, searchAliases: ["stromkreis", "reihenschaltung", "parallelschaltung"], prefixes: [["daten-und-signale", "stromkreis-offen-geschlossen-und-fehlerbilder"], ["daten-und-signale", "reihen-und-parallelschaltung-verstehen"]] },
-        { slug: "sensoren-und-aktoren", title: "Sensoren und Aktoren", description: "Erfassen und Reagieren werden hier als technisches Zusammenspiel von Sensorik und Aktorik gelesen.", icon: iconMap.meter, searchAliases: ["sensoren", "aktoren"], prefixes: [["daten-und-signale", "sensoren-und-aktoren"]] },
+        { slug: "signale-und-codierung", title: "Signale und Codierung", description: "Analoge und digitale Signale sowie Binärdarstellung bilden hier die fachliche Grundlage.", icon: iconMap.data, chips: ["Analog", "Digital", "Binär"], searchAliases: ["analog", "digital", "binaer"], prefixes: [["daten-und-signale", "analoge-und-digitale-signale"], ["daten-und-signale", "binaersystem-und-stellenwerte"]] },
+        { slug: "logik-und-wahrheitstabellen", title: "Logik und Wahrheitstabellen", description: "Logische Grundschaltungen und Wahrheitstabellen werden hier als gemeinsamer Digitaltechnik-Block gebündelt.", icon: iconMap.logic, chips: ["Logik", "Gatter", "Wahrheit"], searchAliases: ["logik", "gatter", "wahrheitstabellen"], prefixes: [["daten-und-signale", "logische-grundschaltungen"], ["daten-und-signale", "wahrheitstabellen-und-logik"]] },
+        { slug: "messen-und-fehler", title: "Messen und Fehler", description: "Messbereiche, Messfehler und typische Fehlinterpretationen gehören hier zusammen.", icon: iconMap.meter, chips: ["Messgeräte", "Bereiche", "Fehler"], searchAliases: ["messen", "messfehler", "messbereiche"], prefixes: [["daten-und-signale", "messbereiche-und-messfehler"], ["daten-und-signale", "messgeraete-und-messgroessen"]] },
+        { slug: "schaltungen-und-stromkreis", title: "Schaltungen und Stromkreis", description: "Hier geht es um Stromkreis-Verhalten sowie um Reihen- und Parallelschaltungen im Vergleich.", icon: iconMap.circuit, chips: ["Stromkreis", "Reihe", "Parallel"], searchAliases: ["stromkreis", "reihenschaltung", "parallelschaltung"], prefixes: [["daten-und-signale", "stromkreis-offen-geschlossen-und-fehlerbilder"], ["daten-und-signale", "reihen-und-parallelschaltung-verstehen"]] },
+        { slug: "sensoren-und-aktoren", title: "Sensoren und Aktoren", description: "Erfassen und Reagieren werden hier als technisches Zusammenspiel von Sensorik und Aktorik gelesen.", icon: iconMap.meter, chips: ["Sensoren", "Aktoren", "Reaktion"], searchAliases: ["sensoren", "aktoren"], prefixes: [["daten-und-signale", "sensoren-und-aktoren"]] },
       ],
     },
   ],
@@ -69,12 +71,13 @@ const areaNodesBySubject: Record<PrimarySubjectSlug, AreaNodeDefinition[]> = {
       title: "Shell",
       description: "Die Shell bündelt Orientierung, Suche, Auswertung und Systemkontext in einem gemeinsamen Praxisbereich.",
       icon: iconMap.terminal,
+      chips: ["Pfade", "Werkzeuge", "Kontext"],
       prefixes: [["shell"]],
       children: [
-        { slug: "orientierung-und-pfade", title: "Orientierung und Pfade", description: "Pfadwerkzeuge und Verlauf helfen hier dabei, sich in der Shell ruhig und kontrolliert zu orientieren.", icon: iconMap.terminal, searchAliases: ["pfade", "basename", "dirname", "realpath", "history"], prefixes: [["shell", "pfade-mit-basename-dirname-und-realpath"], ["shell", "history-und-wiederkehrende-befehle"]] },
-        { slug: "text-und-auswertung", title: "Text und Auswertung", description: "Pipes, Umleitungen und kleine Textwerkzeuge bilden hier einen gemeinsamen Arbeitsblock.", icon: iconMap.data, searchAliases: ["pipes", "umleitungen", "grep", "cut", "wc"], prefixes: [["shell", "pipes-und-umleitungen"], ["shell", "textwerkzeuge-mit-grep-cut-und-wc"]] },
-        { slug: "suche-und-dateilesen", title: "Suche und Dateilesen", description: "Dateien finden und gezielt Anfang oder Ende lesen gehört hier in denselben Praxisblock.", icon: iconMap.chart, searchAliases: ["find", "head", "tail", "dateisuche"], prefixes: [["shell", "find-und-dateisuche"], ["shell", "dateien-mit-head-und-tail"]] },
-        { slug: "rechte-und-shell-kontext", title: "Rechte und Shell-Kontext", description: "Dateirechte, Umgebungsvariablen und PATH werden hier als zusammenhängender Systemkontext gelesen.", icon: iconMap.shield, searchAliases: ["rechte", "chmod", "path", "umgebungsvariablen"], prefixes: [["shell", "umgebungsvariablen-und-path"], ["shell", "dateirechte-mit-ls-stat-und-chmod-lesen"]] },
+        { slug: "orientierung-und-pfade", title: "Orientierung und Pfade", description: "Pfadwerkzeuge und Verlauf helfen hier dabei, sich in der Shell ruhig und kontrolliert zu orientieren.", icon: iconMap.terminal, chips: ["Pfade", "History", "Realpath"], searchAliases: ["pfade", "basename", "dirname", "realpath", "history"], prefixes: [["shell", "pfade-mit-basename-dirname-und-realpath"], ["shell", "history-und-wiederkehrende-befehle"]] },
+        { slug: "text-und-auswertung", title: "Text und Auswertung", description: "Pipes, Umleitungen und kleine Textwerkzeuge bilden hier einen gemeinsamen Arbeitsblock.", icon: iconMap.data, chips: ["Pipes", "grep", "wc"], searchAliases: ["pipes", "umleitungen", "grep", "cut", "wc"], prefixes: [["shell", "pipes-und-umleitungen"], ["shell", "textwerkzeuge-mit-grep-cut-und-wc"]] },
+        { slug: "suche-und-dateilesen", title: "Suche und Dateilesen", description: "Dateien finden und gezielt Anfang oder Ende lesen gehört hier in denselben Praxisblock.", icon: iconMap.chart, chips: ["find", "head", "tail"], searchAliases: ["find", "head", "tail", "dateisuche"], prefixes: [["shell", "find-und-dateisuche"], ["shell", "dateien-mit-head-und-tail"]] },
+        { slug: "rechte-und-shell-kontext", title: "Rechte und Shell-Kontext", description: "Dateirechte, Umgebungsvariablen und PATH werden hier als zusammenhängender Systemkontext gelesen.", icon: iconMap.shield, chips: ["Rechte", "PATH", "Variablen"], searchAliases: ["rechte", "chmod", "path", "umgebungsvariablen"], prefixes: [["shell", "umgebungsvariablen-und-path"], ["shell", "dateirechte-mit-ls-stat-und-chmod-lesen"]] },
       ],
     },
   ],
@@ -84,10 +87,11 @@ const areaNodesBySubject: Record<PrimarySubjectSlug, AreaNodeDefinition[]> = {
       title: "HTML",
       description: "Struktur, Inhalte und zugängliche Bausteine werden hier in größeren Themenblöcken gesammelt.",
       icon: iconMap.form,
+      chips: ["Struktur", "Formulare", "Semantik"],
       prefixes: [["html"]],
       children: [
-        { slug: "formulare-und-tabellen", title: "Formulare und Tabellen", description: "Formulare, Validierung und Tabellen werden hier als gemeinsamer HTML-Arbeitsblock gebündelt.", icon: iconMap.form, searchAliases: ["formulare", "validierung", "tabellen"], prefixes: [["html", "formulare-und-eingaben"], ["html", "formular-validierung"], ["html", "tabellen-barrierearm"]] },
-        { slug: "bilder-navigation-und-links", title: "Bilder, Navigation und Links", description: "Bilder, Menüs und verständliche Linktexte gehören hier in einen gemeinsamen Strukturblock.", icon: iconMap.image, searchAliases: ["bilder", "alt-texte", "navigation", "menues", "links"], prefixes: [["html", "bilder-und-alt-texte"], ["html", "navigation-und-menues"], ["html", "linktexte-und-links"]] },
+        { slug: "formulare-und-tabellen", title: "Formulare und Tabellen", description: "Formulare, Validierung und Tabellen werden hier als gemeinsamer HTML-Arbeitsblock gebündelt.", icon: iconMap.form, chips: ["Formulare", "Validierung", "Tabellen"], searchAliases: ["formulare", "validierung", "tabellen"], prefixes: [["html", "formulare-und-eingaben"], ["html", "formular-validierung"], ["html", "tabellen-barrierearm"]] },
+        { slug: "bilder-navigation-und-links", title: "Bilder, Navigation und Links", description: "Bilder, Menüs und verständliche Linktexte gehören hier in einen gemeinsamen Strukturblock.", icon: iconMap.image, chips: ["Bilder", "Navigation", "Links"], searchAliases: ["bilder", "alt-texte", "navigation", "menues", "links"], prefixes: [["html", "bilder-und-alt-texte"], ["html", "navigation-und-menues"], ["html", "linktexte-und-links"]] },
       ],
     },
     {
@@ -95,9 +99,10 @@ const areaNodesBySubject: Record<PrimarySubjectSlug, AreaNodeDefinition[]> = {
       title: "CSS",
       description: "Gestaltung, Layout und Kaskade bleiben hier in einem ruhigen, zusammenhängenden Themenbereich.",
       icon: iconMap.css,
+      chips: ["Layouts", "Kaskade", "Responsive"],
       prefixes: [["css"]],
       children: [
-        { slug: "css-und-layout", title: "CSS und Layout", description: "Responsive Layouts und CSS-Kaskade bilden hier den Kern des Gestaltungsblocks.", icon: iconMap.css, searchAliases: ["css", "responsive", "layout", "kaskade"], prefixes: [["css", "responsive-layouts"], ["css", "css-spezifitaet-und-kaskade"]] },
+        { slug: "css-und-layout", title: "CSS und Layout", description: "Responsive Layouts und CSS-Kaskade bilden hier den Kern des Gestaltungsblocks.", icon: iconMap.css, chips: ["Responsive", "Layouts", "Kaskade"], searchAliases: ["css", "responsive", "layout", "kaskade"], prefixes: [["css", "responsive-layouts"], ["css", "css-spezifitaet-und-kaskade"], ["css", "box-modell"], ["css", "flexbox"], ["css", "selektoren"]] },
       ],
     },
   ],
@@ -144,6 +149,9 @@ export const getAreaTopicDescription = (subjectSlug: string, path: string[], fal
 export const getAreaTopicIcon = (subjectSlug: string, path: string[]) =>
   getAreaNode(subjectSlug, path)?.icon ?? iconMap.data;
 
+export const getAreaTopicChips = (subjectSlug: string, path: string[]) =>
+  getAreaNode(subjectSlug, path)?.chips ?? [];
+
 export const getAreaEntriesForPath = <T extends TopicEntry>(subjectSlug: string, path: string[], entries: T[]) => {
   const node = getAreaNode(subjectSlug, path);
   if (!node) return [];
@@ -171,6 +179,7 @@ export const getVisibleAreaCards = (subjectSlug: string, path: string[], entries
       title: node.title,
       description: node.description,
       icon: node.icon,
+      chips: node.chips ?? [],
       path: [...basePath, node.slug],
       hasChildren: (node.children?.length ?? 0) > 0,
       searchText: `${node.title} ${node.description} ${(node.searchAliases ?? []).join(" ")}`,

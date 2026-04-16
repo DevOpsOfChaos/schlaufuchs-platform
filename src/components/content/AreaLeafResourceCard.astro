@@ -1,0 +1,76 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  href: string;
+  meta: string;
+  ctaLabel: string;
+  variant?: "article" | "task";
+  searchText?: string;
+}
+
+const {
+  title,
+  description,
+  href,
+  meta,
+  ctaLabel,
+  variant = "article",
+  searchText = "",
+} = Astro.props as Props;
+---
+
+<article class={`leaf-card ${variant}`} data-search-item data-search-text={searchText}>
+  <p class="leaf-meta">{meta}</p>
+  <h3><a href={href}>{title}</a></h3>
+  <p class="leaf-description">{description}</p>
+  <a class="leaf-link" href={href}>{ctaLabel}</a>
+</article>
+
+<style>
+  .leaf-card {
+    display: grid;
+    gap: 0.7rem;
+    padding: 1rem 1.05rem;
+    border: 1px solid var(--border);
+    border-radius: 22px;
+    background: color-mix(in oklab, var(--card-bg) 94%, white 6%);
+    box-shadow: var(--shadow-soft);
+  }
+
+  .leaf-card.task {
+    background: color-mix(in oklab, var(--card-bg) 91%, var(--surface) 9%);
+  }
+
+  .leaf-meta {
+    margin: 0;
+    color: var(--text-soft);
+    font-size: 0.84rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    margin: 0;
+    color: var(--text-strong);
+    font-size: 1.12rem;
+    line-height: 1.25;
+  }
+
+  h3 a {
+    color: inherit;
+  }
+
+  .leaf-description {
+    margin: 0;
+    color: var(--text);
+    line-height: 1.65;
+    font-size: 0.98rem;
+  }
+
+  .leaf-link {
+    color: var(--text-strong);
+    font-weight: 700;
+  }
+</style>

@@ -1,0 +1,40 @@
+---
+interface Props {
+  variant?: "topics" | "articles" | "tasks";
+  muted?: boolean;
+}
+
+const { variant = "topics", muted = false } = Astro.props as Props;
+---
+
+<section class={`area-surface ${variant} ${muted ? "muted" : ""}`}>
+  <slot />
+</section>
+
+<style>
+  .area-surface {
+    display: grid;
+    gap: 1rem;
+    padding: 1.15rem;
+    border: 1px solid var(--border);
+    border-radius: 30px;
+    box-shadow: var(--shadow-soft);
+    background: var(--card-bg);
+  }
+
+  .area-surface.topics {
+    background: color-mix(in oklab, var(--card-bg) 90%, white 10%);
+  }
+
+  .area-surface.articles {
+    background: color-mix(in oklab, var(--card-bg) 95%, var(--surface) 5%);
+  }
+
+  .area-surface.tasks {
+    background: color-mix(in oklab, var(--card-bg) 92%, var(--surface) 8%);
+  }
+
+  .area-surface.muted {
+    box-shadow: none;
+  }
+</style>
