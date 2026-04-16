@@ -162,6 +162,12 @@ export const getAreaEntriesForPath = <T extends TopicEntry>(subjectSlug: string,
   });
 };
 
+export const getAreaEntriesForSubtree = <T extends TopicEntry>(subjectSlug: string, path: string[], entries: T[]) => {
+  const node = getAreaNode(subjectSlug, path);
+  if (!node) return [];
+  return entries.filter((entry) => nodeMatchesEntry(node, entry));
+};
+
 interface GetAreaCardOptions {
   flattenSingleRoot?: boolean;
 }

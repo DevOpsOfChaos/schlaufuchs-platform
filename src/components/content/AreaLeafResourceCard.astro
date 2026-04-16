@@ -7,6 +7,7 @@ interface Props {
   ctaLabel: string;
   variant?: "article" | "task";
   searchText?: string;
+  accent?: "a" | "b" | "c" | "d";
 }
 
 const {
@@ -17,10 +18,11 @@ const {
   ctaLabel,
   variant = "article",
   searchText = "",
+  accent = "a",
 } = Astro.props as Props;
 ---
 
-<article class={`leaf-card ${variant}`} data-search-item data-search-text={searchText}>
+<article class={`leaf-card ${variant} accent-${accent}`} data-search-item data-search-text={searchText}>
   <p class="leaf-meta">{meta}</p>
   <h3><a href={href}>{title}</a></h3>
   <p class="leaf-description">{description}</p>
@@ -38,9 +40,35 @@ const {
     box-shadow: var(--shadow-soft);
   }
 
-  .leaf-card.task {
-    background: color-mix(in oklab, var(--card-bg) 91%, var(--surface) 9%);
+  .leaf-card.article {
+    background: color-mix(in oklab, var(--card-bg) 95%, white 5%);
   }
+
+  .leaf-card.task {
+    position: relative;
+    overflow: hidden;
+    padding-left: 1.2rem;
+    border-color: color-mix(in oklab, var(--border) 72%, var(--border-strong) 28%);
+  }
+
+  .leaf-card.task::before {
+    content: "";
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 0.36rem;
+    border-radius: 999px;
+    background: color-mix(in oklab, var(--text-strong) 60%, white 40%);
+  }
+
+  .leaf-card.task.accent-a { background: linear-gradient(135deg, rgba(93,113,175,0.12), rgba(232,237,248,0.92)); }
+  .leaf-card.task.accent-b { background: linear-gradient(135deg, rgba(117,156,124,0.12), rgba(236,245,238,0.92)); }
+  .leaf-card.task.accent-c { background: linear-gradient(135deg, rgba(186,138,123,0.12), rgba(247,239,235,0.92)); }
+  .leaf-card.task.accent-d { background: linear-gradient(135deg, rgba(176,160,104,0.12), rgba(245,241,228,0.92)); }
+
+  :global(html[data-theme="dark"]) .leaf-card.task.accent-a { background: linear-gradient(135deg, rgba(72,95,164,0.24), rgba(22,31,58,0.94)); }
+  :global(html[data-theme="dark"]) .leaf-card.task.accent-b { background: linear-gradient(135deg, rgba(52,93,67,0.22), rgba(20,39,28,0.94)); }
+  :global(html[data-theme="dark"]) .leaf-card.task.accent-c { background: linear-gradient(135deg, rgba(110,71,58,0.22), rgba(46,29,25,0.94)); }
+  :global(html[data-theme="dark"]) .leaf-card.task.accent-d { background: linear-gradient(135deg, rgba(92,80,36,0.20), rgba(44,37,21,0.94)); }
 
   .leaf-meta {
     margin: 0;
@@ -49,6 +77,10 @@ const {
     font-weight: 700;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+  }
+
+  .leaf-card.task .leaf-meta {
+    color: var(--text-strong);
   }
 
   h3 {
@@ -72,5 +104,16 @@ const {
   .leaf-link {
     color: var(--text-strong);
     font-weight: 700;
+  }
+
+  .leaf-card.task .leaf-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2rem;
+    width: fit-content;
+    padding: 0 0.7rem;
+    border-radius: 999px;
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    background: rgba(255, 255, 255, 0.34);
   }
 </style>

@@ -43,6 +43,8 @@ const subjectExercises = sortByTitle(getEntriesForPrimarySubject(exercises, subj
 const combinedEntries = [...subjectArticles, ...subjectExercises];
 const topicCards = getVisibleAreaCards(subject.data.slug, [], combinedEntries, { flattenSingleRoot: true });
 const imageSrc = withBaseAsset(`assets/mascots/${detail.icon}`);
+const accentOrder = ["a", "b", "c", "d"] as const;
+const getAccent = (index: number) => accentOrder[index % accentOrder.length];
 ---
 
 <BaseLayout title={`${subject.data.title} – Schlaufuchs`} description={subject.data.description}>
@@ -55,14 +57,14 @@ const imageSrc = withBaseAsset(`assets/mascots/${detail.icon}`);
       imageAlt={`${subject.data.title} – Fuchsmotiv`}
       tone={detail.tone}
       inputName={`search-${subject.data.slug}`}
-      searchHint="Suche zeigt Themenblöcke, Wissensseiten und Aufgaben getrennt."
+      searchHint="Suche zeigt Themen, Wissensseiten und Aufgaben getrennt."
     />
 
     {topicCards.length > 0 && (
       <AreaSectionSurface variant="topics" data-default-section>
-        <SectionHeading kicker="Fachthemen" title={`Themen in ${subject.data.title}`} />
+        <SectionHeading kicker="Themen" title={`Themen in ${subject.data.title}`} />
         <div class="topic-grid">
-          {topicCards.map((item) => (
+          {topicCards.map((item, index) => (
             <AreaTopicCard
               title={item.title}
               description={item.description}
@@ -71,6 +73,7 @@ const imageSrc = withBaseAsset(`assets/mascots/${detail.icon}`);
               icon={item.icon}
               chips={item.chips}
               searchText={item.searchText}
+              accent={getAccent(index)}
             />
           ))}
         </div>
@@ -79,9 +82,9 @@ const imageSrc = withBaseAsset(`assets/mascots/${detail.icon}`);
 
     <section class="search-results" data-search-results hidden>
       <AreaSectionSurface variant="topics" muted data-search-group="topics">
-        <SectionHeading kicker="Themenblöcke" title="Passende Themenblöcke" />
+        <SectionHeading kicker="Themen" title="Passende Themen" />
         <div class="topic-grid">
-          {topicCards.map((item) => (
+          {topicCards.map((item, index) => (
             <AreaTopicCard
               title={item.title}
               description={item.description}
@@ -90,10 +93,11 @@ const imageSrc = withBaseAsset(`assets/mascots/${detail.icon}`);
               icon={item.icon}
               chips={item.chips}
               searchText={item.searchText}
+              accent={getAccent(index)}
             />
           ))}
         </div>
-        <p class="empty-note" data-empty-note hidden>Kein Themenblock passt zu deiner Suche.</p>
+        <p class="empty-note" data-empty-note hidden>Kein Thema passt zu deiner Suche.</p>
       </AreaSectionSurface>
 
       <AreaSectionSurface variant="articles" muted data-search-group="articles">
@@ -117,7 +121,7 @@ const imageSrc = withBaseAsset(`assets/mascots/${detail.icon}`);
       <AreaSectionSurface variant="tasks" muted data-search-group="tasks">
         <SectionHeading kicker="Aufgaben" title="Passende Aufgaben" />
         <div class="leaf-grid">
-          {subjectExercises.map((entry) => (
+          {subjectExercises.map((entry, index) => (
             <AreaLeafResourceCard
               title={entry.data.title}
               description={entry.data.description}
@@ -125,6 +129,7 @@ const imageSrc = withBaseAsset(`assets/mascots/${detail.icon}`);
               href={withBase(`aufgaben/${entry.id}`)}
               ctaLabel="Aufgabe öffnen →"
               variant="task"
+              accent={getAccent(index)}
               searchText={`${entry.data.title} ${entry.data.description} ${(entry.data.tags ?? []).join(" ")}`}
             />
           ))}

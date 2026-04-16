@@ -37,8 +37,8 @@ const {
     {searchHint && <p class="search-hint">{searchHint}</p>}
   </div>
 
-  <div class="hero-visual">
-    {imageSrc ? <img src={imageSrc} alt={imageAlt} loading="eager" /> : <div class="image-placeholder" aria-hidden="true"></div>}
+  <div class="hero-visual" aria-hidden={imageSrc ? undefined : "true"}>
+    {imageSrc ? <img src={imageSrc} alt={imageAlt} loading="eager" /> : <div class="image-placeholder"></div>}
   </div>
 </section>
 
@@ -57,15 +57,18 @@ const {
 
   .area-hero {
     display: grid;
-    grid-template-columns: minmax(0, 1.2fr) minmax(14rem, 18rem);
-    gap: 1.25rem;
-    align-items: stretch;
-    padding: 0.95rem 0 0.3rem;
+    grid-template-columns: minmax(0, 1.1fr) minmax(13rem, 18rem);
+    gap: 1.2rem;
+    align-items: center;
+    padding: 1.25rem;
+    border: 1px solid var(--border);
+    border-radius: 30px;
+    box-shadow: var(--shadow-soft);
   }
 
   .hero-copy {
     display: grid;
-    gap: 0.9rem;
+    gap: 0.95rem;
     align-content: start;
   }
 
@@ -95,7 +98,7 @@ const {
     padding: 0 1rem;
     border: 1px solid var(--border);
     border-radius: 24px;
-    background: color-mix(in oklab, var(--card-bg) 92%, white 8%);
+    background: color-mix(in oklab, var(--card-bg) 88%, white 12%);
     box-shadow: var(--shadow-soft);
   }
 
@@ -130,42 +133,47 @@ const {
   }
 
   .hero-visual {
-    border: 1px solid var(--border);
-    border-radius: 28px;
-    overflow: hidden;
-    min-height: 15rem;
-    box-shadow: var(--shadow-soft);
     display: grid;
-    place-items: center;
+    place-items: end center;
+    min-height: 14rem;
+    overflow: hidden;
   }
 
   .hero-visual img,
   .image-placeholder {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    max-width: 17rem;
+    height: auto;
     display: block;
+    object-fit: contain;
   }
 
-  .area-hero.math .hero-visual { background: linear-gradient(135deg, rgba(93,113,175,0.18), rgba(232,237,248,0.82)); }
-  .area-hero.web .hero-visual { background: linear-gradient(135deg, rgba(173,144,156,0.16), rgba(245,239,241,0.84)); }
-  .area-hero.cs .hero-visual { background: linear-gradient(135deg, rgba(95,139,158,0.16), rgba(235,244,247,0.84)); }
-  .area-hero.linux .hero-visual { background: linear-gradient(135deg, rgba(175,163,122,0.16), rgba(242,239,230,0.84)); }
-  .area-hero.ee .hero-visual { background: linear-gradient(135deg, rgba(173,147,144,0.15), rgba(244,236,235,0.84)); }
+  .area-hero.math { background: linear-gradient(135deg, rgba(93,113,175,0.18), rgba(232,237,248,0.88)); }
+  .area-hero.web { background: linear-gradient(135deg, rgba(173,144,156,0.16), rgba(245,239,241,0.88)); }
+  .area-hero.cs { background: linear-gradient(135deg, rgba(95,139,158,0.16), rgba(235,244,247,0.88)); }
+  .area-hero.linux { background: linear-gradient(135deg, rgba(175,163,122,0.16), rgba(242,239,230,0.88)); }
+  .area-hero.ee { background: linear-gradient(135deg, rgba(173,147,144,0.15), rgba(244,236,235,0.88)); }
 
-  :global(html[data-theme="dark"]) .area-hero.math .hero-visual { background: linear-gradient(135deg, rgba(72,95,164,0.30), rgba(22,31,58,0.94)); }
-  :global(html[data-theme="dark"]) .area-hero.web .hero-visual { background: linear-gradient(135deg, rgba(96,72,104,0.24), rgba(49,38,43,0.94)); }
-  :global(html[data-theme="dark"]) .area-hero.cs .hero-visual { background: linear-gradient(135deg, rgba(28,71,87,0.30), rgba(18,37,45,0.94)); }
-  :global(html[data-theme="dark"]) .area-hero.linux .hero-visual { background: linear-gradient(135deg, rgba(84,76,44,0.22), rgba(42,39,28,0.94)); }
-  :global(html[data-theme="dark"]) .area-hero.ee .hero-visual { background: linear-gradient(135deg, rgba(83,60,58,0.22), rgba(42,29,31,0.94)); }
+  :global(html[data-theme="dark"]) .area-hero.math { background: linear-gradient(135deg, rgba(72,95,164,0.30), rgba(22,31,58,0.94)); }
+  :global(html[data-theme="dark"]) .area-hero.web { background: linear-gradient(135deg, rgba(96,72,104,0.24), rgba(49,38,43,0.94)); }
+  :global(html[data-theme="dark"]) .area-hero.cs { background: linear-gradient(135deg, rgba(28,71,87,0.30), rgba(18,37,45,0.94)); }
+  :global(html[data-theme="dark"]) .area-hero.linux { background: linear-gradient(135deg, rgba(84,76,44,0.22), rgba(42,39,28,0.94)); }
+  :global(html[data-theme="dark"]) .area-hero.ee { background: linear-gradient(135deg, rgba(83,60,58,0.22), rgba(42,29,31,0.94)); }
 
   @media (max-width: 980px) {
     .area-hero {
       grid-template-columns: 1fr;
+      padding: 1.05rem;
     }
 
     .hero-visual {
-      min-height: 12rem;
+      min-height: 10rem;
+      place-items: center;
+    }
+
+    .hero-visual img,
+    .image-placeholder {
+      max-width: 12rem;
     }
   }
 </style>
