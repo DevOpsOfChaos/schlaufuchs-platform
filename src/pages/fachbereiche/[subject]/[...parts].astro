@@ -75,6 +75,7 @@ const directExercises = sortByTitle(getAreaEntriesForPath(subjectSlug, normalize
 const subtreeArticles = sortByTitle(getAreaEntriesForSubtree(subjectSlug, normalizedParts, subjectArticles));
 const subtreeExercises = sortByTitle(getAreaEntriesForSubtree(subjectSlug, normalizedParts, subjectExercises));
 const isLeafPage = childCards.length === 0;
+const allowCrossResourceSearch = normalizedParts.length === 0 || isLeafPage;
 const searchArticles = isLeafPage ? directArticles : subtreeArticles;
 const searchExercises = isLeafPage ? directExercises : subtreeExercises;
 const accentOrder = ["a", "b", "c", "d"] as const;
@@ -108,7 +109,7 @@ const isEmpty = isLeafPage && directArticles.length === 0 && directExercises.len
       imageAlt={`${subjectTitle} – Fuchsmotiv`}
       tone={detail?.tone ?? "math"}
       inputName={`search-${subjectSlug}-${normalizedParts.join("-") || "root"}`}
-      searchHint="Suche zeigt Themen, Wissensseiten und Aufgaben getrennt."
+      searchHint={allowCrossResourceSearch ? "Suche zeigt Themen, Wissensseiten und Aufgaben getrennt." : "Suche bleibt auf dieser Ebene bei den Unterthemen."}
     />
 
     {isEmpty ? (
@@ -204,42 +205,46 @@ const isEmpty = isLeafPage && directArticles.length === 0 && directExercises.len
             <p class="empty-note" data-empty-note hidden>Kein Thema passt zu deiner Suche.</p>
           </AreaSectionSurface>
 
-          <AreaSectionSurface variant="articles" muted data-search-group="articles">
-            <SectionHeading kicker="Wissensseiten" title="Passende Wissensseiten" />
-            <div class="leaf-grid">
-              {searchArticles.map((entry) => (
-                <AreaLeafResourceCard
-                  title={entry.data.title}
-                  description={entry.data.description}
-                  meta={`${levelLabels[entry.data.level]} · Wissensseite`}
-                  href={withBase(`wissen/${entry.id}`)}
-                  ctaLabel="Wissensseite öffnen →"
-                  variant="article"
-                  searchText={`${entry.data.title} ${entry.data.description} ${(entry.data.tags ?? []).join(" ")}`}
-                />
-              ))}
-            </div>
-            <p class="empty-note" data-empty-note hidden>Keine Wissensseite passt zu deiner Suche.</p>
-          </AreaSectionSurface>
+          {allowCrossResourceSearch && (
+            <AreaSectionSurface variant="articles" muted data-search-group="articles">
+              <SectionHeading kicker="Wissensseiten" title="Passende Wissensseiten" />
+              <div class="leaf-grid">
+                {searchArticles.map((entry) => (
+                  <AreaLeafResourceCard
+                    title={entry.data.title}
+                    description={entry.data.description}
+                    meta={`${levelLabels[entry.data.level]} · Wissensseite`}
+                    href={withBase(`wissen/${entry.id}`)}
+                    ctaLabel="Wissensseite öffnen →"
+                    variant="article"
+                    searchText={`${entry.data.title} ${entry.data.description} ${(entry.data.tags ?? []).join(" ")}`}
+                  />
+                ))}
+              </div>
+              <p class="empty-note" data-empty-note hidden>Keine Wissensseite passt zu deiner Suche.</p>
+            </AreaSectionSurface>
+          )}
 
-          <AreaSectionSurface variant="tasks" muted data-search-group="tasks">
-            <SectionHeading kicker="Aufgaben" title="Passende Aufgaben" />
-            <div class="leaf-grid">
-              {searchExercises.map((entry, index) => (
-                <AreaLeafResourceCard
-                  title={entry.data.title}
-                  description={entry.data.description}
-                  meta={`${levelLabels[entry.data.level]} · Aufgabe`}
-                  href={withBase(`aufgaben/${entry.id}`)}
-                  ctaLabel="Aufgabe öffnen →"
-                  variant="task"
-                  accent={getAccent(index)}
-                  searchText={`${entry.data.title} ${entry.data.description} ${(entry.data.tags ?? []).join(" ")}`}
-                />
-              ))}
-            </div>
-            <p class="empty-note" data-empty-note hidden>Keine Aufgabe passt zu deiner Suche.</p>
-          </AreaSectionSurface>
+          {allowCrossResourceSearch && (
+            <AreaSectionSurface variant="tasks" muted data-search-group="tasks">
+              <SectionHeading kicker="Aufgaben" title="Passende Aufgaben" />
+              <div class="leaf-grid">
+                {searchExercises.map((entry, index) => (
+                  <AreaLeafResourceCard
+                    title={entry.data.title}
+                    description={entry.data.description}
+                    meta={`${levelLabels[entry.data.level]} · Aufgabe`}
+                    href={withBase(`aufgaben/${entry.id}`)}
+                    ctaLabel="Aufgabe öffnen →"
+                    variant="task"
+                    accent={getAccent(index)}
+                    searchText={`${entry.data.title} ${entry.data.description} ${(entry.data.tags ?? []).join(" ")}`}
+                  />
+                ))}
+              </div>
+              <p class="empty-note" data-empty-note hidden>Keine Aufgabe passt zu deiner Suche.</p>
+            </AreaSectionSurface>
+          )}
 
           <p class="search-empty-all" data-search-empty-all hidden>Zu deiner Suche passt in diesem Themenbereich aktuell nichts.</p>
         </section>
@@ -291,6 +296,8 @@ const isEmpty = isLeafPage && directArticles.length === 0 && directExercises.len
     };
 
     input.addEventListener("input", runSearch);
+    window.addEventListener("pageshow", runSearch);
+    runSearch();
   })();
 </script>
 

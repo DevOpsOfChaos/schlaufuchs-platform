@@ -185,6 +185,8 @@ const getAccent = (index: number) => accentOrder[index % accentOrder.length];
     };
 
     input.addEventListener("input", runSearch);
+    window.addEventListener("pageshow", runSearch);
+    runSearch();
   })();
 </script>
 
