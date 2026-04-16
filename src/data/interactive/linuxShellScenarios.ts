@@ -214,7 +214,7 @@ export const linuxShellScenarios: Record<string, LinuxShellScenario> = {
       { path: "/home/fox/projekte", type: "dir", perms: "755" },
       { path: "/home/fox/projekte/app", type: "dir", perms: "755" },
       { path: "/home/fox/projekte/app/config", type: "dir", perms: "755" },
-      { path: "/home/fox/projekte/app/config/settings.json", type: "file", perms: "644", content: '{\"theme\":\"light\",\"lang\":\"de\"}\n' },
+      { path: "/home/fox/projekte/app/config/settings.json", type: "file", perms: "644", content: '{"theme":"light","lang":"de"}\n' },
       { path: "/home/fox/projekte/app/README.md", type: "file", perms: "644", content: "Projekt App\nKonfigurationen liegen im Ordner config.\n" }
     ]
   },
@@ -234,10 +234,7 @@ export const linuxShellScenarios: Record<string, LinuxShellScenario> = {
       { path: "/home/fox/notizen.txt", type: "file", perms: "644", content: "Kontrolliere Arbeitswege lieber schrittweise als hektisch.\n" },
       { path: "/home/fox/analyse.log", type: "file", perms: "644", content: "Start\nKonfiguration ok\nFehler A gefunden\nFehler B gefunden\nEnde\n" }
     ]
-  }
-
-};
-
+  },
   "shell/umgebungsvariablen-und-path": {
     key: "shell/umgebungsvariablen-und-path",
     title: "Umgebungsvariablen und PATH einordnen",
@@ -274,7 +271,9 @@ export const linuxShellScenarios: Record<string, LinuxShellScenario> = {
       { path: "/home/fox/teaminfo.txt", type: "file", perms: "644", content: "Die Gruppe darf hier mitlesen.\n" },
       { path: "/home/fox/skript.sh", type: "file", perms: "755", content: "#!/bin/bash\necho Hallo\n" }
     ]
-  },
+  }
+};
+
 const linuxShellAliases: Record<string, string> = {
   "system/benutzer-und-gruppen-grundlagen": "system/benutzer-und-gruppen",
   "benutzer-und-gruppen-grundlagen": "system/benutzer-und-gruppen",
