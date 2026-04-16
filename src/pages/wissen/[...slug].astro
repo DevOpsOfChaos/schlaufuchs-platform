@@ -40,42 +40,32 @@ const keyTakeaways = Array.isArray(entry.data.keyTakeaways) ? entry.data.keyTake
 const recognizeSignals = Array.isArray(entry.data.recognizeSignals) ? entry.data.recognizeSignals.filter(Boolean) : [];
 const selfCheckPoints = Array.isArray(entry.data.selfCheckPoints) ? entry.data.selfCheckPoints.filter(Boolean) : [];
 
-const [allArticles, allExercises] = await Promise.all([getVisibleArticles(), getVisibleExercises()]);
+const allExercises = await getVisibleExercises();
 const entryTopicLabel = getTopicDisplayLabel(entry);
 const entrySectionLabel = getSectionDisplayLabel(entry.data.section);
 
-const rankedArticles = rankTopicMatches(
-  entry,
-  allArticles.filter((item) => item.id !== entry.id && resolvePrimarySubjectSlug(item.data.subject) === subjectSlug),
-  { minimumScore: 6 },
-);
 const rankedExercises = rankTopicMatches(
   entry,
   allExercises.filter((item) => resolvePrimarySubjectSlug(item.data.subject) === subjectSlug),
   { minimumScore: 6 },
 );
 
-const relatedArticles = rankedArticles.map(({ entry }) => entry).slice(0, 4);
 const relatedExercises = rankedExercises.map(({ entry }) => entry).slice(0, 6);
 
 const breadcrumbSegments = topicBranch.map((segment, index) => ({
   label: humanizeTopicSegment(segment),
   href: withBase(`fachbereiche/${subjectSlug}/${topicBranch.slice(0, index + 1).join("/")}`),
 }));
+
 const trail = [{ label: subjectTitle, href: withBase(`fachbereiche/${subjectSlug}`) }, ...breadcrumbSegments];
+
 const backHref = breadcrumbSegments.length > 0 ? breadcrumbSegments[breadcrumbSegments.length - 1].href : withBase(`fachbereiche/${subjectSlug}`);
+const topicPathHref = topicBranch.length > 0 ? withBase(`fachbereiche/${subjectSlug}/${topicBranch.join("/")}`) : withBase(`fachbereiche/${subjectSlug}`);
 const shellScenario = subjectSlug === "linux" ? getLinuxShellScenario(topicTail.join("/")) : null;
 
 const taskIcon = `
 <svg viewBox="0 0 24 24" aria-hidden="true">
   <path d="M9 11l2 2 4-4"></path>
-  <rect x="4" y="4" width="16" height="16" rx="2"></rect>
-</svg>`;
-const articleIcon = `
-<svg viewBox="0 0 24 24" aria-hidden="true">
-  <path d="M7 6h10"></path>
-  <path d="M7 10h10"></path>
-  <path d="M7 14h7"></path>
   <rect x="4" y="4" width="16" height="16" rx="2"></rect>
 </svg>`;
 ---
@@ -94,6 +84,7 @@ const articleIcon = `
       </div>
       <h1>{entry.data.title}</h1>
       <p class="lead">{entry.data.description}</p>
+      <a class="topic-link" href={topicPathHref}>Zum Fachthema →</a>
     </section>
 
     <section class="article-shell">
@@ -105,9 +96,6 @@ const articleIcon = `
     {shellScenario && (
       <section class="interactive-section wide-bleed">
         <SectionHeading kicker="Ausprobieren" title="Direkt in der Linux-Lernshell üben" />
-        <p class="interactive-intro">
-          Die Lernshell gehört hier bewusst zum Hauptfluss der Seite. Probiere die vorgeschlagenen Befehle aus und lies die Ausgaben Schritt für Schritt.
-        </p>
         <LinuxLearningShell scenario={shellScenario} />
       </section>
     )}
@@ -130,8 +118,7 @@ const articleIcon = `
 
     {relatedExercises.length > 0 && (
       <section class="related-section">
-        <SectionHeading kicker="Aufgaben" title="Passende Aufgaben zu diesem Thema" />
-        <p class="related-intro">Diese Aufgaben greifen denselben Themenpfad auf und passen fachlich direkt zu dieser Wissensseite.</p>
+        <SectionHeading kicker="Aufgaben" title="Passende Aufgaben" />
         <div class="related-grid">
           {relatedExercises.map((item) => (
             <ResourceCard
@@ -147,26 +134,6 @@ const articleIcon = `
         </div>
       </section>
     )}
-
-    {relatedArticles.length > 0 && (
-      <section class="related-section">
-        <SectionHeading kicker="Weiterlesen" title="Weitere Wissensseiten in diesem Bereich" />
-        <p class="related-intro">Diese Fachinfos liegen im gleichen Themenfeld und vertiefen direkt benachbarte Aspekte.</p>
-        <div class="related-grid">
-          {relatedArticles.map((item) => (
-            <ResourceCard
-              title={item.data.title}
-              description={item.data.description}
-              meta={getTopicDisplayLabel(item)}
-              href={withBase(`wissen/${item.id}`)}
-              ctaLabel="Wissensseite öffnen →"
-              icon={articleIcon}
-              variant="article"
-            />
-          ))}
-        </div>
-      </section>
-    )}
   </div>
 </BaseLayout>
 
@@ -177,9 +144,22 @@ const articleIcon = `
   .meta-chip { display: inline-flex; align-items: center; min-height: 2rem; padding: 0.12rem 0.72rem; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text-strong); font-size: 0.84rem; font-weight: 700; }
   h1 { margin: 0; color: var(--text-strong); font-size: clamp(2.45rem, 4.8vw, 4.2rem); line-height: 0.98; letter-spacing: -0.045em; }
   .lead { margin: 1rem 0 0; color: var(--text); line-height: 1.8; font-size: 1.07rem; max-width: 62rem; }
+  .topic-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.55rem;
+    padding: 0 0.9rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text-strong);
+    font-weight: 700;
+    box-shadow: var(--shadow-soft);
+    width: fit-content;
+    margin-top: 0.8rem;
+  }
   .article-shell, .related-section, .interactive-section { display: grid; gap: 1rem; }
   .article-content { padding: clamp(1.35rem, 2vw, 2rem); border: 1px solid var(--border); border-radius: 30px; background: var(--card-bg); box-shadow: var(--shadow-card); overflow: hidden; }
-  .interactive-intro, .related-intro { margin: 0; color: var(--text); line-height: 1.7; max-width: 70rem; }
   .summary-grid, .signals-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
   .related-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
   .article-content :global(h2) { margin-top: 1.8rem; color: var(--text-strong); font-size: clamp(1.45rem, 2.4vw, 1.85rem); line-height: 1.15; }

@@ -6,15 +6,19 @@ interface Props {
   tone?: string;
   icon: string;
   searchText?: string;
+  eyebrow?: string;
 }
 
-const { title, description, href, tone = 'math', icon, searchText = '' } = Astro.props as Props;
+const { title, description, href, tone = 'math', icon, searchText = '', eyebrow = 'Themenblock' } = Astro.props as Props;
 ---
 
 <a class={`topic-card ${tone}`} href={href} data-search-item data-search-text={searchText}>
   <div class="topic-card-top">
     <span class="topic-symbol" aria-hidden="true" set:html={icon}></span>
-    <h2>{title}</h2>
+    <div class="topic-copy">
+      <p class="topic-eyebrow">{eyebrow}</p>
+      <h2>{title}</h2>
+    </div>
   </div>
   <p>{description}</p>
 </a>
@@ -51,8 +55,9 @@ const { title, description, href, tone = 'math', icon, searchText = '' } = Astro
 
   .topic-card-top {
     display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
     gap: 0.9rem;
-    align-content: start;
+    align-items: start;
   }
 
   .topic-symbol {
@@ -64,6 +69,7 @@ const { title, description, href, tone = 'math', icon, searchText = '' } = Astro
     border-radius: 999px;
     border: 1px solid rgba(148, 163, 184, 0.14);
     background: rgba(255, 255, 255, 0.26);
+    flex-shrink: 0;
   }
 
   .topic-symbol :global(svg) {
@@ -74,6 +80,20 @@ const { title, description, href, tone = 'math', icon, searchText = '' } = Astro
     stroke-width: 1.8;
     stroke-linecap: round;
     stroke-linejoin: round;
+  }
+
+  .topic-copy {
+    display: grid;
+    gap: 0.35rem;
+  }
+
+  .topic-eyebrow {
+    margin: 0;
+    color: var(--text-soft);
+    font-size: 0.84rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
   }
 
   .topic-card h2 {

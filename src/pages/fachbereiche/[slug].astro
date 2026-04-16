@@ -1,14 +1,15 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { type CollectionEntry } from "astro:content";
-import { getArticlesForSubject, getExercisesForSubject, getVisibleSubjects } from "../../data/content";
+import { getArticlesForSubject, getExercisesForSubject, getVisibleSubjects, levelLabels } from "../../data/content";
 import { getSubjectMeta } from "../../data/subjects";
 import { getEntriesForPrimarySubject } from "../../data/topics";
 import { getVisibleAreaCards } from "../../data/areaStructure";
-import { withBase } from "../../utils/base";
-import SectionHeading from "../../components/content/SectionHeading.astro";
+import { withBase, withBaseAsset } from "../../utils/base";
 import AreaSearchHero from "../../components/content/AreaSearchHero.astro";
 import AreaTopicCard from "../../components/content/AreaTopicCard.astro";
+import SectionHeading from "../../components/content/SectionHeading.astro";
+import ResourceCard from "../../components/content/ResourceCard.astro";
 
 export async function getStaticPaths() {
   const subjects = await getVisibleSubjects();
@@ -19,6 +20,13 @@ const { subject } = Astro.props as { subject: CollectionEntry<"subjects"> };
 const detail = getSubjectMeta(subject.data.slug) ?? {
   tone: "math",
   icon: "math.png",
+  kicker: "Fachbereich",
+  entry: "",
+  highlights: [],
+  intro: "",
+  sections: [],
+  knowledgeLabel: "Wissensseiten",
+  exerciseLabel: "Aufgaben",
 };
 
 const [articles, exercises] = await Promise.all([
@@ -28,38 +36,46 @@ const [articles, exercises] = await Promise.all([
 
 const subjectArticles = getEntriesForPrimarySubject(articles, subject.data.slug);
 const subjectExercises = getEntriesForPrimarySubject(exercises, subject.data.slug);
-const areaCards = getVisibleAreaCards(subject.data.slug, [], [...subjectArticles, ...subjectExercises], { flattenSingleRoot: true }).map((item) => ({
-  ...item,
-  href: withBase(`fachbereiche/${subject.data.slug}/${item.path.join("/")}`),
-}));
-const mascotSrc = withBase(`assets/mascots/${detail.icon}`);
+const combinedEntries = [...subjectArticles, ...subjectExercises];
+const topicCards = getVisibleAreaCards(subject.data.slug, [], combinedEntries, { flattenSingleRoot: true });
+const imageSrc = withBaseAsset(`assets/mascots/${detail.icon}`);
+
+const articleIcon = `
+<svg viewBox="0 0 24 24" aria-hidden="true">
+  <path d="M7 6h10"></path>
+  <path d="M7 10h10"></path>
+  <path d="M7 14h7"></path>
+  <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+</svg>`;
+const taskIcon = `
+<svg viewBox="0 0 24 24" aria-hidden="true">
+  <path d="M9 11l2 2 4-4"></path>
+  <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+</svg>`;
 ---
 
 <BaseLayout title={`${subject.data.title} – Schlaufuchs`} description={subject.data.description}>
-  <div class="page-shell" data-area-search-root>
+  <div class="page-shell" data-area-root>
     <AreaSearchHero
       title={subject.data.title}
       scopeLabel="Fachbereich"
+      searchPlaceholder={`In ${subject.data.title} suchen`}
+      imageSrc={imageSrc}
+      imageAlt={`${subject.data.title} – Fuchsmotiv`}
       tone={detail.tone}
-      imageSrc={mascotSrc}
-      imageAlt={`${subject.data.title} Bereichsfuchs`}
-      searchPlaceholder={`In ${subject.data.title} nach Wissen und Aufgaben suchen`}
-      searchHint="Wissensseiten und Aufgaben bleiben in der Anzeige getrennt."
+      inputName={`search-${subject.data.slug}`}
+      searchHint="Suche zeigt Themenblöcke, Wissensseiten und Aufgaben getrennt."
     />
 
-    <section class="search-empty" data-search-empty hidden>
-      <p>Zu deiner Suche gibt es in diesem Fachbereich gerade keinen sichtbaren Themenblock.</p>
-    </section>
-
-    {areaCards.length > 0 && (
-      <section class="section-block" id="fachthemen" data-search-group>
-        <SectionHeading kicker="Fachthemen" title="Themen in diesem Fachbereich" />
+    {topicCards.length > 0 && (
+      <section class="area-section" data-default-section>
+        <SectionHeading kicker="Fachthemen" title={`Themen in ${subject.data.title}`} />
         <div class="topic-grid">
-          {areaCards.map((item) => (
+          {topicCards.map((item) => (
             <AreaTopicCard
               title={item.title}
               description={item.description}
-              href={item.href}
+              href={withBase(`fachbereiche/${subject.data.slug}/${item.path.join("/")}`)}
               tone={detail.tone}
               icon={item.icon}
               searchText={item.searchText}
@@ -68,78 +84,142 @@ const mascotSrc = withBase(`assets/mascots/${detail.icon}`);
         </div>
       </section>
     )}
+
+    <section class="search-results" data-search-results hidden>
+      <section class="area-section" data-search-group="topics">
+        <SectionHeading kicker="Themenblöcke" title="Passende Themenblöcke" />
+        <div class="topic-grid">
+          {topicCards.map((item) => (
+            <AreaTopicCard
+              title={item.title}
+              description={item.description}
+              href={withBase(`fachbereiche/${subject.data.slug}/${item.path.join("/")}`)}
+              tone={detail.tone}
+              icon={item.icon}
+              searchText={item.searchText}
+            />
+          ))}
+        </div>
+        <p class="empty-note" data-empty-note hidden>Kein Themenblock passt zu deiner Suche.</p>
+      </section>
+
+      <section class="area-section" data-search-group="articles">
+        <SectionHeading kicker="Wissensseiten" title="Passende Wissensseiten" />
+        <div class="resource-grid">
+          {subjectArticles.map((entry) => (
+            <div
+              data-search-item
+              data-search-text={`${entry.data.title} ${entry.data.description} ${(entry.data.tags ?? []).join(" ")}`}
+            >
+              <ResourceCard
+                title={entry.data.title}
+                description={entry.data.description}
+                meta={`${levelLabels[entry.data.level]} · Wissensseite`}
+                href={withBase(`wissen/${entry.id}`)}
+                ctaLabel="Wissensseite öffnen →"
+                icon={articleIcon}
+                variant="article"
+              />
+            </div>
+          ))}
+        </div>
+        <p class="empty-note" data-empty-note hidden>Keine Wissensseite passt zu deiner Suche.</p>
+      </section>
+
+      <section class="area-section" data-search-group="tasks">
+        <SectionHeading kicker="Aufgaben" title="Passende Aufgaben" />
+        <div class="resource-grid">
+          {subjectExercises.map((entry) => (
+            <div
+              data-search-item
+              data-search-text={`${entry.data.title} ${entry.data.description} ${(entry.data.tags ?? []).join(" ")}`}
+            >
+              <ResourceCard
+                title={entry.data.title}
+                description={entry.data.description}
+                meta={`${levelLabels[entry.data.level]} · Aufgabe`}
+                href={withBase(`aufgaben/${entry.id}`)}
+                ctaLabel="Aufgabe öffnen →"
+                icon={taskIcon}
+                variant="task"
+              />
+            </div>
+          ))}
+        </div>
+        <p class="empty-note" data-empty-note hidden>Keine Aufgabe passt zu deiner Suche.</p>
+      </section>
+    </section>
   </div>
 </BaseLayout>
 
 <script is:inline>
   (() => {
-    const roots = document.querySelectorAll('[data-area-search-root]');
-    roots.forEach((root) => {
-      if (!(root instanceof HTMLElement) || root.dataset.searchReady === 'true') return;
-      root.dataset.searchReady = 'true';
-      const input = root.querySelector('[data-area-search-input]');
-      const groups = [...root.querySelectorAll('[data-search-group]')];
-      const empty = root.querySelector('[data-search-empty]');
-      if (!(input instanceof HTMLInputElement)) return;
+    const root = document.querySelector("[data-area-root]");
+    if (!root) return;
+    const input = root.querySelector("[data-area-search-input]");
+    const results = root.querySelector("[data-search-results]");
+    const defaults = [...root.querySelectorAll("[data-default-section]")];
 
-      const update = () => {
-        const query = input.value.trim().toLowerCase();
-        let visibleCount = 0;
-        groups.forEach((group) => {
-          const items = [...group.querySelectorAll('[data-search-item]')];
-          let groupVisible = 0;
-          items.forEach((item) => {
-            if (!(item instanceof HTMLElement)) return;
-            const haystack = (item.dataset.searchText ?? '').toLowerCase();
-            const show = !query || haystack.includes(query);
-            item.hidden = !show;
-            if (show) groupVisible += 1;
-          });
-          if (group instanceof HTMLElement) group.hidden = groupVisible === 0;
-          visibleCount += groupVisible;
+    if (!(input instanceof HTMLInputElement) || !(results instanceof HTMLElement)) return;
+
+    const runSearch = () => {
+      const query = input.value.trim().toLowerCase();
+      const searching = query.length > 0;
+
+      results.hidden = !searching;
+      defaults.forEach((section) => {
+        if (section instanceof HTMLElement) section.hidden = searching;
+      });
+
+      const groups = [...root.querySelectorAll("[data-search-group]")];
+      groups.forEach((group) => {
+        if (!(group instanceof HTMLElement)) return;
+        const items = [...group.querySelectorAll("[data-search-item]")];
+        let visible = 0;
+        items.forEach((item) => {
+          if (!(item instanceof HTMLElement)) return;
+          const haystack = (item.dataset.searchText ?? "").toLowerCase();
+          const match = !searching || haystack.includes(query);
+          item.hidden = !match;
+          if (match) visible += 1;
         });
-        if (empty instanceof HTMLElement) empty.hidden = !query || visibleCount > 0;
-      };
+        const empty = group.querySelector("[data-empty-note]");
+        if (empty instanceof HTMLElement) empty.hidden = visible > 0;
+      });
+    };
 
-      input.addEventListener('input', update);
-      update();
-    });
+    input.addEventListener("input", runSearch);
   })();
 </script>
 
 <style>
   .page-shell,
-  .section-block {
+  .area-section,
+  .search-results {
     display: grid;
     gap: 1rem;
   }
 
-  .section-block {
-    margin-top: 1.2rem;
+  .area-section {
+    margin-top: 1.1rem;
   }
 
-  .topic-grid {
+  .topic-grid,
+  .resource-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
   }
 
-  .search-empty {
-    padding: 1rem 1.1rem;
-    border: 1px dashed var(--border-strong);
-    border-radius: 24px;
-    background: color-mix(in oklab, var(--surface) 88%, white 12%);
-  }
-
-  .search-empty p {
+  .empty-note {
     margin: 0;
-    color: var(--text);
-    line-height: 1.7;
-    font-size: 1.02rem;
+    color: var(--text-soft);
+    line-height: 1.6;
   }
 
   @media (max-width: 980px) {
-    .topic-grid {
+    .topic-grid,
+    .resource-grid {
       grid-template-columns: 1fr;
     }
   }
