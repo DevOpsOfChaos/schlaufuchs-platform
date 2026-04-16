@@ -5,7 +5,6 @@ import { resolvePrimarySubjectSlug, subjectTitleMap, getSubjectMeta } from "../.
 import { getTopicTail } from "../../../data/topics";
 import {
   getAreaEntriesForPath,
-  getAreaNode,
   getAreaTopicTitle,
   getVisibleAreaCards,
 } from "../../../data/areaStructure";
@@ -20,7 +19,6 @@ import EmptyStateCard from "../../../components/content/EmptyStateCard.astro";
 interface PageProps {
   subjectSlug: string;
   parts: string[];
-  exactArticleId?: string;
 }
 
 export async function getStaticPaths() {
@@ -31,15 +29,18 @@ export async function getStaticPaths() {
     const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject);
     if (!subjectSlug) continue;
     const tail = getTopicTail(entry);
-    for (let index = 0; index < tail.length; index += 1) {
+
+    // WICHTIG:
+    // Die exakten Leaf-Pfade werden bereits von
+    // [subject]/[slug], [subject]/[section]/[slug] und
+    // [subject]/[section]/[topic]/[slug] abgedeckt.
+    // Der Catch-all darf hier nur Überblicks-/Zwischenpfade erzeugen,
+    // sonst entstehen die vielen Build-Kollisionen.
+    for (let index = 0; index < tail.length - 1; index += 1) {
       const parts = tail.slice(0, index + 1);
       const key = `${subjectSlug}/${parts.join("/")}`;
-      const existing = pathMap.get(key);
-      const next = {
-        params: { subject: subjectSlug, parts: parts.join("/") },
-        props: { subjectSlug, parts, exactArticleId: index === tail.length - 1 ? entry.id : undefined },
-      };
-      if (!existing || next.props.exactArticleId) pathMap.set(key, next);
+      if (pathMap.has(key)) continue;
+      pathMap.set(key, { params: { subject: subjectSlug, parts: parts.join("/") }, props: { subjectSlug, parts } });
     }
   }
 
@@ -47,6 +48,7 @@ export async function getStaticPaths() {
     const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject);
     if (!subjectSlug) continue;
     const tail = getTopicTail(entry).slice(0, -1);
+
     for (let index = 0; index < tail.length; index += 1) {
       const parts = tail.slice(0, index + 1);
       const key = `${subjectSlug}/${parts.join("/")}`;
@@ -58,7 +60,7 @@ export async function getStaticPaths() {
   return [...pathMap.values()];
 }
 
-const { subjectSlug, parts, exactArticleId } = Astro.props as PageProps;
+const { subjectSlug, parts } = Astro.props as PageProps;
 const normalizedParts = parts.filter(Boolean);
 const subjectTitle = subjectTitleMap[subjectSlug] ?? "Fachbereich";
 const detail = getSubjectMeta(subjectSlug);
@@ -66,11 +68,6 @@ const imageSrc = detail ? withBaseAsset(`assets/mascots/${detail.icon}`) : undef
 const [allArticles, allExercises] = await Promise.all([getVisibleArticles(), getVisibleExercises()]);
 const subjectArticles = allArticles.filter((entry) => resolvePrimarySubjectSlug(entry.data.subject) === subjectSlug);
 const subjectExercises = allExercises.filter((entry) => resolvePrimarySubjectSlug(entry.data.subject) === subjectSlug);
-const exactArticle = exactArticleId ? allArticles.find((entry) => entry.id === exactArticleId) ?? null : null;
-
-if (exactArticle) {
-  return Astro.redirect(withBase(`wissen/${exactArticle.id}`));
-}
 
 const combinedEntries = [...subjectArticles, ...subjectExercises];
 const childCards = getVisibleAreaCards(subjectSlug, normalizedParts, combinedEntries);
@@ -144,7 +141,6 @@ const isEmpty = childCards.length === 0 && directArticles.length === 0 && direct
                   tone={detail?.tone ?? "math"}
                   icon={item.icon}
                   searchText={item.searchText}
-                  eyebrow="Unterthema"
                 />
               ))}
             </div>
@@ -211,7 +207,6 @@ const isEmpty = childCards.length === 0 && directArticles.length === 0 && direct
                   tone={detail?.tone ?? "math"}
                   icon={item.icon}
                   searchText={item.searchText}
-                  eyebrow="Unterthema"
                 />
               ))}
             </div>
