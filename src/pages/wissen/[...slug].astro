@@ -1,12 +1,14 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { render, type CollectionEntry } from "astro:content";
-import { getVisibleExercises, levelLabels } from "../../data/content";
+import { getVisibleArticles, getVisibleExercises, levelLabels } from "../../data/content";
 import { resolvePrimarySubjectSlug, subjectTitleMap } from "../../data/subjects";
 import {
   getSectionDisplayLabel,
   getTopicDisplayLabel,
+  getTopicOverviewPath,
   getTopicTail,
+  humanizeTopicSegment,
   rankTopicMatches,
 } from "../../data/topics";
 import { withBase } from "../../utils/base";
@@ -22,7 +24,6 @@ import LinuxLearningShell from "../../components/interactive/LinuxLearningShell.
 import { getLinuxShellScenario } from "../../data/interactive/linuxShellScenarios";
 
 export async function getStaticPaths() {
-  const { getVisibleArticles } = await import("../../data/content");
   const articles = await getVisibleArticles();
   return articles.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
 }
@@ -31,26 +32,45 @@ const { entry } = Astro.props as { entry: CollectionEntry<"articles"> };
 const { Content } = await render(entry);
 const subjectTitle = subjectTitleMap[entry.data.subject] ?? "Fachbereich";
 const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject) ?? "elektrotechnik";
+const topicTail = getTopicTail(entry);
+const topicBranch = getTopicOverviewPath(entry);
 const practiceIdeas = Array.isArray(entry.data.practiceIdeas) ? entry.data.practiceIdeas.filter(Boolean) : [];
 const commonMistakes = Array.isArray(entry.data.commonMistakes) ? entry.data.commonMistakes.filter(Boolean) : [];
 const keyTakeaways = Array.isArray(entry.data.keyTakeaways) ? entry.data.keyTakeaways.filter(Boolean) : [];
 const recognizeSignals = Array.isArray(entry.data.recognizeSignals) ? entry.data.recognizeSignals.filter(Boolean) : [];
 const selfCheckPoints = Array.isArray(entry.data.selfCheckPoints) ? entry.data.selfCheckPoints.filter(Boolean) : [];
+
 const allExercises = await getVisibleExercises();
 const entryTopicLabel = getTopicDisplayLabel(entry);
 const entrySectionLabel = getSectionDisplayLabel(entry.data.section);
+
 const rankedExercises = rankTopicMatches(
   entry,
   allExercises.filter((item) => resolvePrimarySubjectSlug(item.data.subject) === subjectSlug),
   { minimumScore: 6 },
 );
-const relatedExercises = rankedExercises.map(({ entry }) => entry).slice(0, 8);
-const hasSupportContent = practiceIdeas.length > 0 || recognizeSignals.length > 0 || selfCheckPoints.length > 0 || commonMistakes.length > 0 || keyTakeaways.length > 0;
+
+const relatedExercises = rankedExercises.map(({ entry }) => entry).slice(0, 12);
+const hasSupportContent =
+  practiceIdeas.length > 0 ||
+  recognizeSignals.length > 0 ||
+  selfCheckPoints.length > 0 ||
+  commonMistakes.length > 0 ||
+  keyTakeaways.length > 0;
+
+const breadcrumbSegments = topicBranch.map((segment, index) => ({
+  label: humanizeTopicSegment(segment),
+  href: withBase(`fachbereiche/${subjectSlug}/${topicBranch.slice(0, index + 1).join("/")}`),
+}));
+
+const trail = [{ label: subjectTitle, href: withBase(`fachbereiche/${subjectSlug}`) }, ...breadcrumbSegments];
+
 const backHref = withBase(`fachbereiche/${subjectSlug}`);
-const trail = [{ label: subjectTitle, href: backHref }];
-const shellScenario = subjectSlug === "linux" ? getLinuxShellScenario(getTopicTail(entry).join("/")) : null;
+const topicPathHref = topicBranch.length > 0 ? withBase(`fachbereiche/${subjectSlug}/${topicBranch.join("/")}`) : withBase(`fachbereiche/${subjectSlug}`);
+const shellScenario = subjectSlug === "linux" ? getLinuxShellScenario(topicTail.join("/")) : null;
 const accentOrder = ["a", "b", "c", "d", "e", "f"] as const;
 const getAccent = (index: number) => accentOrder[index % accentOrder.length];
+
 const taskIcon = `
 <svg viewBox="0 0 24 24" aria-hidden="true">
   <path d="M9 11l2 2 4-4"></path>
@@ -72,8 +92,8 @@ const taskIcon = `
       <h1>{entry.data.title}</h1>
       <p class="lead">{entry.data.description}</p>
       <div class="hero-actions">
-        <a class="topic-link" href={backHref}>Zum Fachbereich</a>
-        {shellScenario && <span class="hero-note">Mit Linux-Shell</span>}
+        <a class="topic-link" href={topicPathHref}>Zum Fachthema →</a>
+        {shellScenario && <span class="hero-note">Mit interaktiver Linux-Shell</span>}
       </div>
     </section>
 
@@ -105,7 +125,7 @@ const taskIcon = `
 
     {relatedExercises.length > 0 && (
       <section class="related-section">
-        <SectionHeading kicker="Üben" title="Passende Aufgaben" />
+        <SectionHeading kicker="Aufgaben" title="Passende Aufgaben" />
         <div class="pager-shell" data-card-pager data-page-size="4">
           <div class="related-grid" data-pager-grid>
             {relatedExercises.map((item, index) => (
@@ -113,17 +133,18 @@ const taskIcon = `
                 <ResourceCard
                   title={item.data.title}
                   description={item.data.description}
-                  meta={`${levelLabels[item.data.level]} · Aufgabe`}
+                  meta={levelLabels[item.data.level]}
                   href={withBase(`aufgaben/${item.id}`)}
-                  ctaLabel="Öffnen"
+                  ctaLabel=""
                   icon={taskIcon}
                   variant="task"
-                  accent={getAccent(index)}
                   compact={true}
+                  accent={getAccent(index)}
                 />
               </div>
             ))}
           </div>
+
           <div class="pager-controls" data-pager-controls hidden>
             <button type="button" class="pager-button" data-pager-prev>← Zurück</button>
             <span class="pager-status" data-pager-status>1 / 1</span>
@@ -140,19 +161,25 @@ const taskIcon = `
     const setupCardPager = (root) => {
       if (!(root instanceof HTMLElement) || root.dataset.pagerReady === "true") return;
       root.dataset.pagerReady = "true";
+
       const items = [...root.querySelectorAll("[data-pager-item]")];
       const controls = root.querySelector("[data-pager-controls]");
       const prevButton = root.querySelector("[data-pager-prev]");
       const nextButton = root.querySelector("[data-pager-next]");
       const status = root.querySelector("[data-pager-status]");
       const pageSize = Number(root.dataset.pageSize ?? "4") || 4;
+
       if (items.length <= pageSize) {
         if (controls instanceof HTMLElement) controls.hidden = true;
-        items.forEach((item) => item instanceof HTMLElement && (item.hidden = false));
+        items.forEach((item) => {
+          if (item instanceof HTMLElement) item.hidden = false;
+        });
         return;
       }
+
       let page = 0;
       const pageCount = Math.ceil(items.length / pageSize);
+
       const renderPage = () => {
         items.forEach((item, index) => {
           if (!(item instanceof HTMLElement)) return;
@@ -160,38 +187,54 @@ const taskIcon = `
           const end = start + pageSize;
           item.hidden = index < start || index >= end;
         });
+
         if (controls instanceof HTMLElement) controls.hidden = false;
         if (status instanceof HTMLElement) status.textContent = `${page + 1} / ${pageCount}`;
         if (prevButton instanceof HTMLButtonElement) prevButton.disabled = page === 0;
         if (nextButton instanceof HTMLButtonElement) nextButton.disabled = page >= pageCount - 1;
       };
-      prevButton?.addEventListener("click", () => { page = Math.max(page - 1, 0); renderPage(); });
-      nextButton?.addEventListener("click", () => { page = Math.min(page + 1, pageCount - 1); renderPage(); });
+
+      prevButton?.addEventListener("click", () => {
+        page = Math.max(page - 1, 0);
+        renderPage();
+      });
+
+      nextButton?.addEventListener("click", () => {
+        page = Math.min(page + 1, pageCount - 1);
+        renderPage();
+      });
+
       renderPage();
     };
+
     document.querySelectorAll("[data-card-pager]").forEach(setupCardPager);
   })();
 </script>
 
 <style>
   .page-shell { display: grid; gap: 1.2rem; }
-  .article-hero { display:grid; gap: .9rem; }
-  .hero-meta-row { display:flex; flex-wrap:wrap; gap:.55rem; }
-  .meta-chip { display:inline-flex; align-items:center; min-height:2rem; padding:0.12rem 0.72rem; border-radius:999px; border:1px solid var(--border); background:var(--surface); color:var(--text-strong); font-size:0.84rem; font-weight:700; }
-  h1 { margin:0; color:var(--text-strong); font-size:clamp(2.35rem, 4.6vw, 4rem); line-height:0.98; letter-spacing:-0.045em; }
-  .lead { margin:0; color:var(--text); line-height:1.8; font-size:1.05rem; max-width:62rem; }
+  .article-hero { display:grid; gap: .95rem; }
+  .hero-meta-row { display: flex; flex-wrap: wrap; gap: 0.55rem; }
+  .meta-chip { display: inline-flex; align-items: center; min-height: 2rem; padding: 0.12rem 0.72rem; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text-strong); font-size: 0.84rem; font-weight: 700; }
+  h1 { margin: 0; color: var(--text-strong); font-size: clamp(2.35rem, 4.6vw, 4rem); line-height: 0.98; letter-spacing: -0.045em; }
+  .lead { margin: 0; color: var(--text); line-height: 1.8; font-size: 1.05rem; max-width: 62rem; }
   .hero-actions { display:flex; gap:.7rem; flex-wrap:wrap; align-items:center; }
-  .topic-link { display:inline-flex; align-items:center; min-height:2.55rem; padding:0 0.9rem; border-radius:999px; border:1px solid var(--border); background:var(--surface); color:var(--text-strong); font-weight:700; box-shadow:var(--shadow-soft); }
+  .topic-link { display: inline-flex; align-items: center; min-height: 2.55rem; padding: 0 0.9rem; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text-strong); font-weight: 700; box-shadow: var(--shadow-soft); width: fit-content; }
   .hero-note { display:inline-flex; align-items:center; min-height:2.1rem; padding:0 .75rem; border-radius:999px; background:color-mix(in oklab, var(--surface) 88%, white 12%); border:1px solid var(--border); color:var(--text-soft); font-size:.9rem; font-weight:700; }
-  .article-shell, .related-section, .interactive-section, .followup-section { display:grid; gap:1rem; }
-  .article-content { padding:clamp(1.35rem, 2vw, 2rem); border:1px solid var(--border); border-radius:30px; background:var(--card-bg); box-shadow:var(--shadow-card); overflow:hidden; }
-  .followup-grid { display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:1rem; align-items:start; }
-  .related-grid { display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:1rem; }
+  .article-shell, .related-section, .interactive-section, .followup-section { display: grid; gap: 1rem; }
+  .article-content { padding: clamp(1.35rem, 2vw, 2rem); border: 1px solid var(--border); border-radius: 30px; background: var(--card-bg); box-shadow: var(--shadow-card); overflow: hidden; }
+  .followup-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(16rem, 1fr)); gap:1rem; align-items:start; }
+  .related-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 0.85rem; }
   .pager-shell { display:grid; gap:1rem; }
   .pager-controls { display:flex; align-items:center; justify-content:flex-end; gap:.7rem; flex-wrap:wrap; }
   .pager-button { display:inline-flex; align-items:center; min-height:2.55rem; padding:0 .85rem; border-radius:999px; border:1px solid var(--border); background:var(--surface); color:var(--text-strong); font-weight:700; cursor:pointer; }
   .pager-button:disabled { opacity:.45; cursor:default; }
   .pager-status { color:var(--text-soft); font-weight:700; }
-  @media (max-width: 960px) { .followup-grid, .related-grid { grid-template-columns:1fr; } }
-  @media (max-width: 760px) { .pager-controls { justify-content:flex-start; } }
+  .article-content :global(h2) { margin-top: 1.7rem; color: var(--text-strong); font-size: clamp(1.4rem, 2.3vw, 1.8rem); line-height: 1.15; }
+  .article-content :global(h2:first-child) { margin-top: 0; }
+  .article-content :global(h3) { margin-top: 1.15rem; color: var(--text-strong); font-size: 1.1rem; line-height: 1.2; }
+  .article-content :global(p), .article-content :global(li) { color: var(--text); line-height: 1.82; font-size: 1rem; }
+  .article-content :global(ul), .article-content :global(ol) { padding-left: 1.2rem; }
+  .article-content :global(pre) { overflow-x: auto; }
+  @media (max-width: 980px) { .pager-controls { justify-content:flex-start; } }
 </style>
