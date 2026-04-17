@@ -22,18 +22,18 @@ const subjects = (await getVisibleSubjects())
       <h1>Fachbereiche mit klarer Struktur</h1>
       <p class="lead">Wähle ein Fach und gehe direkt in die passende Fachseite.</p>
     </div>
-
-    <div class="hero-link" data-present="hide">
-      <a href={withBase("fachbereiche")}>Alle Fachbereiche ansehen</a>
-    </div>
   </section>
 
   <section class="grid">
     {subjects.map((subject) => (
-      <a class={`card ${subject.meta!.tone}`} href={withBase(`fachbereiche/${subject.data.slug}`)}>
+      <a
+        class={`card ${subject.meta!.tone}`}
+        href={withBase(`fachbereiche/${subject.data.slug}`)}
+        aria-label={`${subject.data.title} öffnen`}
+      >
         <div class="card-top">
           <h2>{subject.data.title}</h2>
-          <span class="card-arrow">→</span>
+          <span class="card-arrow" aria-hidden="true">→</span>
         </div>
         <p>{subject.data.description}</p>
       </a>
@@ -46,9 +46,9 @@ const subjects = (await getVisibleSubjects())
     display: flex;
     align-items: end;
     justify-content: space-between;
-    gap: 1.5rem;
+    gap: 1.4rem;
     flex-wrap: wrap;
-    padding: 1rem 0 0.4rem;
+    padding: 1rem 0 0.35rem;
   }
 
   .hero-copy {
@@ -67,7 +67,7 @@ const subjects = (await getVisibleSubjects())
   h1 {
     margin: 0;
     color: var(--text-strong);
-    font-size: clamp(2.3rem, 4.4vw, 4rem);
+    font-size: clamp(2.25rem, 4.2vw, 3.9rem);
     line-height: 0.98;
     letter-spacing: -0.045em;
   }
@@ -79,59 +79,108 @@ const subjects = (await getVisibleSubjects())
     font-size: 1.02rem;
   }
 
-  .hero-link a {
-    color: var(--text-strong);
-    font-weight: 700;
-  }
-
   .grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 1rem;
-    margin-top: 1.6rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 19rem));
+    gap: 0.95rem;
+    justify-content: start;
+    margin-top: 1.5rem;
   }
 
   .card {
+    --tone-rgb: 93, 113, 175;
+    --tone-surface: 232, 237, 248;
+    --tone-dark: 22, 31, 58;
+
+    position: relative;
     display: grid;
-    gap: 1rem;
-    padding: 1.5rem;
-    border: 1px solid var(--border);
-    border-radius: 28px;
+    align-content: space-between;
+    gap: 0.9rem;
+    min-height: 12rem;
+    padding: 1.2rem 1.2rem 1.1rem;
+    border: 1px solid rgba(var(--tone-rgb), 0.2);
+    border-radius: 26px;
     box-shadow: var(--shadow-soft);
-    min-height: 15rem;
-    transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
+    text-decoration: none;
+    overflow: hidden;
+    background: linear-gradient(145deg, rgba(var(--tone-rgb), 0.34), rgba(var(--tone-surface), 0.97));
+    transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease, filter 140ms ease;
   }
 
-  .card:hover {
+  .card::after {
+    content: "";
+    position: absolute;
+    right: -1.6rem;
+    bottom: -2.8rem;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.2);
+    filter: blur(6px);
+    pointer-events: none;
+  }
+
+  .card:hover,
+  .card:focus-visible {
     transform: translateY(-2px);
     box-shadow: var(--shadow-card);
-    border-color: var(--border-strong);
+    border-color: rgba(var(--tone-rgb), 0.34);
+    filter: saturate(1.05);
+    outline: none;
   }
 
-  .card.math { background: linear-gradient(135deg, rgba(93,113,175,0.18), rgba(232,237,248,0.82)); }
-  .card.web { background: linear-gradient(135deg, rgba(173,144,156,0.16), rgba(245,239,241,0.84)); }
-  .card.cs { background: linear-gradient(135deg, rgba(95,139,158,0.16), rgba(235,244,247,0.84)); }
-  .card.linux { background: linear-gradient(135deg, rgba(175,163,122,0.16), rgba(242,239,230,0.84)); }
-  .card.ee { background: linear-gradient(135deg, rgba(173,147,144,0.15), rgba(244,236,235,0.84)); }
+  .card:hover .card-arrow,
+  .card:focus-visible .card-arrow {
+    transform: translateX(2px);
+  }
 
-  :global(html[data-theme="dark"]) .card.math { background: linear-gradient(135deg, rgba(72,95,164,0.30), rgba(22,31,58,0.94)); }
-  :global(html[data-theme="dark"]) .card.web { background: linear-gradient(135deg, rgba(96,72,104,0.24), rgba(49,38,43,0.94)); }
-  :global(html[data-theme="dark"]) .card.cs { background: linear-gradient(135deg, rgba(28,71,87,0.30), rgba(18,37,45,0.94)); }
-  :global(html[data-theme="dark"]) .card.linux { background: linear-gradient(135deg, rgba(84,76,44,0.22), rgba(42,39,28,0.94)); }
-  :global(html[data-theme="dark"]) .card.ee { background: linear-gradient(135deg, rgba(83,60,58,0.22), rgba(42,29,31,0.94)); }
+  .card.math {
+    --tone-rgb: 93, 113, 175;
+    --tone-surface: 232, 237, 248;
+    --tone-dark: 22, 31, 58;
+  }
+
+  .card.web {
+    --tone-rgb: 173, 118, 146;
+    --tone-surface: 245, 237, 241;
+    --tone-dark: 51, 35, 44;
+  }
+
+  .card.cs {
+    --tone-rgb: 73, 143, 171;
+    --tone-surface: 234, 244, 248;
+    --tone-dark: 17, 39, 49;
+  }
+
+  .card.linux {
+    --tone-rgb: 173, 156, 86;
+    --tone-surface: 246, 241, 224;
+    --tone-dark: 44, 40, 24;
+  }
+
+  .card.ee {
+    --tone-rgb: 179, 112, 94;
+    --tone-surface: 247, 237, 234;
+    --tone-dark: 47, 28, 27;
+  }
+
+  :global(html[data-theme="dark"]) .card {
+    background: linear-gradient(145deg, rgba(var(--tone-rgb), 0.42), rgba(var(--tone-dark), 0.92));
+    border-color: rgba(var(--tone-rgb), 0.26);
+  }
 
   .card-top {
     display: flex;
     align-items: start;
     justify-content: space-between;
-    gap: 0.9rem;
+    gap: 0.8rem;
   }
 
   .card h2 {
     margin: 0;
     color: var(--text-strong);
-    font-size: clamp(1.7rem, 2.6vw, 2.15rem);
-    line-height: 1.02;
+    font-size: clamp(1.45rem, 2.4vw, 1.95rem);
+    line-height: 1.04;
     letter-spacing: -0.04em;
   }
 
@@ -139,31 +188,38 @@ const subjects = (await getVisibleSubjects())
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 2.6rem;
-    height: 2.6rem;
+    width: 2.35rem;
+    height: 2.35rem;
     border-radius: 999px;
-    border: 1px solid rgba(148,163,184,0.14);
-    background: rgba(255,255,255,0.24);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: rgba(255, 255, 255, 0.24);
     color: var(--text-strong);
     font-weight: 700;
     flex-shrink: 0;
+    pointer-events: none;
+    transition: transform 140ms ease;
   }
 
   :global(html[data-theme="dark"]) .card-arrow {
-    background: rgba(255,255,255,0.08);
-    border-color: rgba(255,255,255,0.08);
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.12);
   }
 
   .card p {
     margin: 0;
     color: var(--text);
-    line-height: 1.7;
-    font-size: 1.02rem;
+    line-height: 1.62;
+    font-size: 0.98rem;
   }
 
-  @media (max-width: 980px) {
+  @media (max-width: 580px) {
     .grid {
       grid-template-columns: 1fr;
+      justify-content: stretch;
+    }
+
+    .card {
+      min-height: auto;
     }
   }
 </style>
