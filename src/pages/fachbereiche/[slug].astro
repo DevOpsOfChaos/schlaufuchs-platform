@@ -45,6 +45,7 @@ const topicCards = getVisibleAreaCards(subject.data.slug, [], combinedEntries, {
 const imageSrc = withBaseAsset(`assets/mascots/${detail.icon}`);
 const accentOrder = ["a", "b", "c", "d"] as const;
 const getAccent = (index: number) => accentOrder[index % accentOrder.length];
+const hasSearchCollections = subjectArticles.length > 0 || subjectExercises.length > 0;
 ---
 
 <BaseLayout title={`${subject.data.title} – Schlaufuchs`} description={subject.data.description}>
@@ -57,32 +58,12 @@ const getAccent = (index: number) => accentOrder[index % accentOrder.length];
       imageAlt={`${subject.data.title} – Fuchsmotiv`}
       tone={detail.tone}
       inputName={`search-${subject.data.slug}`}
-      searchHint="Suche zeigt Themen, Wissensseiten und Aufgaben getrennt."
+      searchHint="Die Suche filtert die Themen auf dieser Seite und blendet passende Wissensseiten und Aufgaben darunter getrennt ein."
     />
 
     {topicCards.length > 0 && (
-      <AreaSectionSurface variant="topics" data-default-section>
+      <AreaSectionSurface variant="topics" data-search-group="topics" data-search-mode="inline">
         <SectionHeading kicker="Themen" title={`Themen in ${subject.data.title}`} />
-        <div class="topic-grid">
-          {topicCards.map((item, index) => (
-            <AreaTopicCard
-              title={item.title}
-              description={item.description}
-              href={withBase(`fachbereiche/${subject.data.slug}/${item.path.join("/")}`)}
-              tone={detail.tone}
-              icon={item.icon}
-              chips={item.chips}
-              searchText={item.searchText}
-              accent={getAccent(index)}
-            />
-          ))}
-        </div>
-      </AreaSectionSurface>
-    )}
-
-    <section class="search-results" data-search-results hidden>
-      <AreaSectionSurface variant="topics" muted data-search-group="topics">
-        <SectionHeading kicker="Themen" title="Passende Themen" />
         <div class="topic-grid">
           {topicCards.map((item, index) => (
             <AreaTopicCard
@@ -99,94 +80,126 @@ const getAccent = (index: number) => accentOrder[index % accentOrder.length];
         </div>
         <p class="empty-note" data-empty-note hidden>Kein Thema passt zu deiner Suche.</p>
       </AreaSectionSurface>
+    )}
 
-      <AreaSectionSurface variant="articles" muted data-search-group="articles">
-        <SectionHeading kicker="Wissensseiten" title="Passende Wissensseiten" />
-        <div class="leaf-grid">
-          {subjectArticles.map((entry) => (
-            <AreaLeafResourceCard
-              title={entry.data.title}
-              description={entry.data.description}
-              meta={`${levelLabels[entry.data.level]} · Wissensseite`}
-              href={withBase(`wissen/${entry.id}`)}
-              ctaLabel="Wissensseite öffnen →"
-              variant="article"
-              searchText={`${entry.data.title} ${entry.data.description} ${(entry.data.tags ?? []).join(" ")}`}
-            />
-          ))}
-        </div>
-        <p class="empty-note" data-empty-note hidden>Keine Wissensseite passt zu deiner Suche.</p>
-      </AreaSectionSurface>
+    {hasSearchCollections && (
+      <section class="search-results" data-search-results hidden>
+        {subjectArticles.length > 0 && (
+          <AreaSectionSurface variant="articles" muted data-search-group="articles" data-search-mode="results">
+            <SectionHeading kicker="Wissensseiten" title="Passende Wissensseiten" />
+            <div class="leaf-grid">
+              {subjectArticles.map((entry) => (
+                <AreaLeafResourceCard
+                  title={entry.data.title}
+                  description={entry.data.description}
+                  meta={`${levelLabels[entry.data.level]} · Wissensseite`}
+                  href={withBase(`wissen/${entry.id}`)}
+                  ctaLabel="Wissensseite öffnen →"
+                  variant="article"
+                  searchText={`${entry.data.title} ${entry.data.description} ${(entry.data.tags ?? []).join(" ")}`}
+                />
+              ))}
+            </div>
+          </AreaSectionSurface>
+        )}
 
-      <AreaSectionSurface variant="tasks" muted data-search-group="tasks">
-        <SectionHeading kicker="Aufgaben" title="Passende Aufgaben" />
-        <div class="leaf-grid">
-          {subjectExercises.map((entry, index) => (
-            <AreaLeafResourceCard
-              title={entry.data.title}
-              description={entry.data.description}
-              meta={`${levelLabels[entry.data.level]} · Aufgabe`}
-              href={withBase(`aufgaben/${entry.id}`)}
-              ctaLabel="Aufgabe öffnen →"
-              variant="task"
-              accent={getAccent(index)}
-              searchText={`${entry.data.title} ${entry.data.description} ${(entry.data.tags ?? []).join(" ")}`}
-            />
-          ))}
-        </div>
-        <p class="empty-note" data-empty-note hidden>Keine Aufgabe passt zu deiner Suche.</p>
-      </AreaSectionSurface>
+        {subjectExercises.length > 0 && (
+          <AreaSectionSurface variant="tasks" muted data-search-group="tasks" data-search-mode="results">
+            <SectionHeading kicker="Aufgaben" title="Passende Aufgaben" />
+            <div class="leaf-grid">
+              {subjectExercises.map((entry, index) => (
+                <AreaLeafResourceCard
+                  title={entry.data.title}
+                  description={entry.data.description}
+                  meta={`${levelLabels[entry.data.level]} · Aufgabe`}
+                  href={withBase(`aufgaben/${entry.id}`)}
+                  ctaLabel="Aufgabe öffnen →"
+                  variant="task"
+                  accent={getAccent(index)}
+                  searchText={`${entry.data.title} ${entry.data.description} ${(entry.data.tags ?? []).join(" ")}`}
+                />
+              ))}
+            </div>
+          </AreaSectionSurface>
+        )}
+      </section>
+    )}
 
-      <p class="search-empty-all" data-search-empty-all hidden>Zu deiner Suche passt in diesem Fachbereich aktuell nichts.</p>
-    </section>
+    <p class="search-empty-all" data-search-empty-all hidden>Zu deiner Suche passt in diesem Fachbereich aktuell nichts.</p>
   </div>
 </BaseLayout>
 
 <script is:inline>
   (() => {
-    const root = document.querySelector("[data-area-root]");
-    if (!root) return;
-    const input = root.querySelector("[data-area-search-input]");
-    const results = root.querySelector("[data-search-results]");
-    const defaults = [...root.querySelectorAll("[data-default-section]")];
+    const setupAreaSearch = (root) => {
+      if (!(root instanceof HTMLElement) || root.dataset.areaSearchReady === "true") return;
+      root.dataset.areaSearchReady = "true";
 
-    if (!(input instanceof HTMLInputElement) || !(results instanceof HTMLElement)) return;
+      const input = root.querySelector("[data-area-search-input]");
+      if (!(input instanceof HTMLInputElement)) return;
 
-    const runSearch = () => {
-      const query = input.value.trim().toLowerCase();
-      const searching = query.length > 0;
-
-      results.hidden = !searching;
-      defaults.forEach((section) => {
-        if (section instanceof HTMLElement) section.hidden = searching;
-      });
-
-      let anyVisible = false;
       const groups = [...root.querySelectorAll("[data-search-group]")];
-      groups.forEach((group) => {
-        if (!(group instanceof HTMLElement)) return;
-        const items = [...group.querySelectorAll("[data-search-item]")];
-        let visible = 0;
-        items.forEach((item) => {
-          if (!(item instanceof HTMLElement)) return;
-          const haystack = (item.dataset.searchText ?? "").toLowerCase();
-          const match = !searching || haystack.includes(query);
-          item.hidden = !match;
-          if (match) visible += 1;
-        });
-        const empty = group.querySelector("[data-empty-note]");
-        if (empty instanceof HTMLElement) empty.hidden = visible > 0;
-        group.hidden = visible === 0;
-        if (visible > 0) anyVisible = true;
-      });
-
+      const results = root.querySelector("[data-search-results]");
       const globalEmpty = root.querySelector("[data-search-empty-all]");
-      if (globalEmpty instanceof HTMLElement) globalEmpty.hidden = anyVisible || !searching;
+
+      const runSearch = () => {
+        const query = input.value.trim().toLowerCase();
+        const searching = query.length > 0;
+        let anyVisible = false;
+        let anyResultVisible = false;
+
+        groups.forEach((group) => {
+          if (!(group instanceof HTMLElement)) return;
+          const items = [...group.querySelectorAll("[data-search-item]")];
+          let visible = 0;
+
+          items.forEach((item) => {
+            if (!(item instanceof HTMLElement)) return;
+            const haystack = (item.dataset.searchText ?? "").toLowerCase();
+            const match = !searching || haystack.includes(query);
+            item.hidden = !match;
+            if (match) visible += 1;
+          });
+
+          const mode = group.dataset.searchMode ?? "inline";
+          const empty = group.querySelector("[data-empty-note]");
+
+          if (empty instanceof HTMLElement) {
+            empty.hidden = !searching || visible > 0 || mode !== "inline";
+          }
+
+          if (mode === "results") {
+            group.hidden = !searching || visible === 0;
+            if (searching && visible > 0) anyResultVisible = true;
+          } else {
+            group.hidden = false;
+          }
+
+          if (visible > 0) anyVisible = true;
+        });
+
+        if (results instanceof HTMLElement) {
+          results.hidden = !searching || !anyResultVisible;
+        }
+
+        if (globalEmpty instanceof HTMLElement) {
+          globalEmpty.hidden = !searching || anyVisible;
+        }
+      };
+
+      input.addEventListener("input", runSearch);
+      root.__areaRunSearch = runSearch;
+      runSearch();
     };
 
-    input.addEventListener("input", runSearch);
-    window.addEventListener("pageshow", runSearch);
-    runSearch();
+    document.querySelectorAll("[data-area-root]").forEach(setupAreaSearch);
+    window.addEventListener("pageshow", () => {
+      document.querySelectorAll("[data-area-root]").forEach((root) => {
+        if (root && typeof root.__areaRunSearch === "function") {
+          root.__areaRunSearch();
+        }
+      });
+    });
   })();
 </script>
 

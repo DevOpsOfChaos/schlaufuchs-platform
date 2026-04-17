@@ -3,12 +3,7 @@ import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { getVisibleArticles, getVisibleExercises, levelLabels } from "../../../data/content";
 import { resolvePrimarySubjectSlug, subjectTitleMap, getSubjectMeta } from "../../../data/subjects";
 import { getTopicTail } from "../../../data/topics";
-import {
-  getAreaEntriesForPath,
-  getAreaEntriesForSubtree,
-  getAreaTopicTitle,
-  getVisibleAreaCards,
-} from "../../../data/areaStructure";
+import { getAreaEntriesForPath, getAreaTopicTitle, getVisibleAreaCards } from "../../../data/areaStructure";
 import { withBase, withBaseAsset } from "../../../utils/base";
 import PageTrail from "../../../components/content/PageTrail.astro";
 import AreaSearchHero from "../../../components/content/AreaSearchHero.astro";
@@ -72,12 +67,8 @@ const combinedEntries = [...subjectArticles, ...subjectExercises];
 const childCards = getVisibleAreaCards(subjectSlug, normalizedParts, combinedEntries);
 const directArticles = sortByTitle(getAreaEntriesForPath(subjectSlug, normalizedParts, subjectArticles));
 const directExercises = sortByTitle(getAreaEntriesForPath(subjectSlug, normalizedParts, subjectExercises));
-const subtreeArticles = sortByTitle(getAreaEntriesForSubtree(subjectSlug, normalizedParts, subjectArticles));
-const subtreeExercises = sortByTitle(getAreaEntriesForSubtree(subjectSlug, normalizedParts, subjectExercises));
-const isLeafPage = childCards.length === 0;
-const allowCrossResourceSearch = normalizedParts.length === 0 || isLeafPage;
-const searchArticles = isLeafPage ? directArticles : subtreeArticles;
-const searchExercises = isLeafPage ? directExercises : subtreeExercises;
+const hasChildTopics = childCards.length > 0;
+const isLeafPage = !hasChildTopics;
 const accentOrder = ["a", "b", "c", "d"] as const;
 const getAccent = (index: number) => accentOrder[index % accentOrder.length];
 
@@ -94,11 +85,11 @@ const trail = [
 
 const backHref = trail.length > 1 ? trail[trail.length - 2].href : withBase(`fachbereiche/${subjectSlug}`);
 const pageTitle = getAreaTopicTitle(subjectSlug, normalizedParts);
-const isEmpty = isLeafPage && directArticles.length === 0 && directExercises.length === 0;
+const isEmptyLeaf = isLeafPage && directArticles.length === 0 && directExercises.length === 0;
 ---
 
 <BaseLayout title={`${pageTitle} – ${subjectTitle} – Schlaufuchs`} description={`${pageTitle} im Bereich ${subjectTitle}.`}>
-  <div class="page-shell" data-area-root>
+  <div class="page-shell" data-area-root data-page-mode={hasChildTopics ? "topics" : "leaf"}>
     <PageTrail backHref={backHref} trail={trail} />
 
     <AreaSearchHero
@@ -109,14 +100,14 @@ const isEmpty = isLeafPage && directArticles.length === 0 && directExercises.len
       imageAlt={`${subjectTitle} – Fuchsmotiv`}
       tone={detail?.tone ?? "math"}
       inputName={`search-${subjectSlug}-${normalizedParts.join("-") || "root"}`}
-      searchHint={allowCrossResourceSearch ? "Suche zeigt Themen, Wissensseiten und Aufgaben getrennt." : "Suche bleibt auf dieser Ebene bei den Unterthemen."}
+      searchHint={hasChildTopics ? "Die Suche filtert auf dieser Seite nur die Unterthemen." : "Die Suche filtert in diesem Thema Wissensseiten und Aufgaben direkt in den bestehenden Bereichen."}
     />
 
-    {isEmpty ? (
+    {isEmptyLeaf ? (
       <EmptyStateCard
         kicker="Kein Inhalt"
         title="Zu diesem Thema liegt aktuell kein direkter Inhalt vor"
-        body="Gehe eine Ebene zurück oder nutze die Suche, um passende Wissensseiten und Aufgaben in diesem Bereich zu finden."
+        body="Gehe eine Ebene zurück. Auf dieser Seite sollen erst dann Wissensseiten und Aufgaben erscheinen, wenn das Thema wirklich auf der Endebene angekommen ist."
         primaryHref={backHref}
         primaryLabel="Eine Ebene zurück →"
         secondaryHref={withBase(`fachbereiche/${subjectSlug}`)}
@@ -124,8 +115,8 @@ const isEmpty = isLeafPage && directArticles.length === 0 && directExercises.len
       />
     ) : (
       <>
-        {childCards.length > 0 && (
-          <AreaSectionSurface variant="topics" data-default-section>
+        {hasChildTopics && (
+          <AreaSectionSurface variant="topics" data-search-group="topics" data-search-mode="inline-topics">
             <SectionHeading kicker="Themen" title={`Unterthemen in ${pageTitle}`} />
             <div class="topic-grid">
               {childCards.map((item, index) => (
@@ -142,11 +133,12 @@ const isEmpty = isLeafPage && directArticles.length === 0 && directExercises.len
                 />
               ))}
             </div>
+            <p class="empty-note" data-empty-note hidden>Kein Unterthema passt zu deiner Suche.</p>
           </AreaSectionSurface>
         )}
 
         {isLeafPage && directArticles.length > 0 && (
-          <AreaSectionSurface variant="articles" data-default-section>
+          <AreaSectionSurface variant="articles" data-search-group="articles" data-search-mode="inline-section">
             <SectionHeading kicker="Wissensseiten" title={`Wissensseiten in ${pageTitle}`} />
             <div class="leaf-grid">
               {directArticles.map((entry) => (
@@ -165,7 +157,7 @@ const isEmpty = isLeafPage && directArticles.length === 0 && directExercises.len
         )}
 
         {isLeafPage && directExercises.length > 0 && (
-          <AreaSectionSurface variant="tasks" data-default-section>
+          <AreaSectionSurface variant="tasks" data-search-group="tasks" data-search-mode="inline-section">
             <SectionHeading kicker="Aufgaben" title={`Passende Aufgaben in ${pageTitle}`} />
             <div class="leaf-grid">
               {directExercises.map((entry, index) => (
@@ -184,70 +176,7 @@ const isEmpty = isLeafPage && directArticles.length === 0 && directExercises.len
           </AreaSectionSurface>
         )}
 
-        <section class="search-results" data-search-results hidden>
-          <AreaSectionSurface variant="topics" muted data-search-group="topics">
-            <SectionHeading kicker="Themen" title="Passende Themen" />
-            <div class="topic-grid">
-              {childCards.map((item, index) => (
-                <AreaTopicCard
-                  title={item.title}
-                  description={item.description}
-                  href={withBase(`fachbereiche/${subjectSlug}/${item.path.join("/")}`)}
-                  tone={detail?.tone ?? "math"}
-                  icon={item.icon}
-                  chips={item.chips}
-                  searchText={item.searchText}
-                  eyebrow="Unterthema"
-                  accent={getAccent(index)}
-                />
-              ))}
-            </div>
-            <p class="empty-note" data-empty-note hidden>Kein Thema passt zu deiner Suche.</p>
-          </AreaSectionSurface>
-
-          {allowCrossResourceSearch && (
-            <AreaSectionSurface variant="articles" muted data-search-group="articles">
-              <SectionHeading kicker="Wissensseiten" title="Passende Wissensseiten" />
-              <div class="leaf-grid">
-                {searchArticles.map((entry) => (
-                  <AreaLeafResourceCard
-                    title={entry.data.title}
-                    description={entry.data.description}
-                    meta={`${levelLabels[entry.data.level]} · Wissensseite`}
-                    href={withBase(`wissen/${entry.id}`)}
-                    ctaLabel="Wissensseite öffnen →"
-                    variant="article"
-                    searchText={`${entry.data.title} ${entry.data.description} ${(entry.data.tags ?? []).join(" ")}`}
-                  />
-                ))}
-              </div>
-              <p class="empty-note" data-empty-note hidden>Keine Wissensseite passt zu deiner Suche.</p>
-            </AreaSectionSurface>
-          )}
-
-          {allowCrossResourceSearch && (
-            <AreaSectionSurface variant="tasks" muted data-search-group="tasks">
-              <SectionHeading kicker="Aufgaben" title="Passende Aufgaben" />
-              <div class="leaf-grid">
-                {searchExercises.map((entry, index) => (
-                  <AreaLeafResourceCard
-                    title={entry.data.title}
-                    description={entry.data.description}
-                    meta={`${levelLabels[entry.data.level]} · Aufgabe`}
-                    href={withBase(`aufgaben/${entry.id}`)}
-                    ctaLabel="Aufgabe öffnen →"
-                    variant="task"
-                    accent={getAccent(index)}
-                    searchText={`${entry.data.title} ${entry.data.description} ${(entry.data.tags ?? []).join(" ")}`}
-                  />
-                ))}
-              </div>
-              <p class="empty-note" data-empty-note hidden>Keine Aufgabe passt zu deiner Suche.</p>
-            </AreaSectionSurface>
-          )}
-
-          <p class="search-empty-all" data-search-empty-all hidden>Zu deiner Suche passt in diesem Themenbereich aktuell nichts.</p>
-        </section>
+        {isLeafPage && <p class="search-empty-all" data-search-empty-all hidden>Zu deiner Suche passt in diesem Thema aktuell nichts.</p>}
       </>
     )}
   </div>
@@ -255,55 +184,72 @@ const isEmpty = isLeafPage && directArticles.length === 0 && directExercises.len
 
 <script is:inline>
   (() => {
-    const root = document.querySelector("[data-area-root]");
-    if (!root) return;
-    const input = root.querySelector("[data-area-search-input]");
-    const results = root.querySelector("[data-search-results]");
-    const defaults = [...root.querySelectorAll("[data-default-section]")];
+    const setupAreaSearch = (root) => {
+      if (!(root instanceof HTMLElement) || root.dataset.areaSearchReady === "true") return;
+      root.dataset.areaSearchReady = "true";
 
-    if (!(input instanceof HTMLInputElement) || !(results instanceof HTMLElement)) return;
+      const input = root.querySelector("[data-area-search-input]");
+      if (!(input instanceof HTMLInputElement)) return;
 
-    const runSearch = () => {
-      const query = input.value.trim().toLowerCase();
-      const searching = query.length > 0;
-
-      results.hidden = !searching;
-      defaults.forEach((section) => {
-        if (section instanceof HTMLElement) section.hidden = searching;
-      });
-
-      let anyVisible = false;
+      const pageMode = root.dataset.pageMode ?? "topics";
       const groups = [...root.querySelectorAll("[data-search-group]")];
-      groups.forEach((group) => {
-        if (!(group instanceof HTMLElement)) return;
-        const items = [...group.querySelectorAll("[data-search-item]")];
-        let visible = 0;
-        items.forEach((item) => {
-          if (!(item instanceof HTMLElement)) return;
-          const haystack = (item.dataset.searchText ?? "").toLowerCase();
-          const match = !searching || haystack.includes(query);
-          item.hidden = !match;
-          if (match) visible += 1;
-        });
-        const empty = group.querySelector("[data-empty-note]");
-        if (empty instanceof HTMLElement) empty.hidden = visible > 0;
-        group.hidden = visible === 0;
-        if (visible > 0) anyVisible = true;
-      });
-
       const globalEmpty = root.querySelector("[data-search-empty-all]");
-      if (globalEmpty instanceof HTMLElement) globalEmpty.hidden = anyVisible || !searching;
+
+      const runSearch = () => {
+        const query = input.value.trim().toLowerCase();
+        const searching = query.length > 0;
+        let anyVisible = false;
+
+        groups.forEach((group) => {
+          if (!(group instanceof HTMLElement)) return;
+          const items = [...group.querySelectorAll("[data-search-item]")];
+          let visible = 0;
+
+          items.forEach((item) => {
+            if (!(item instanceof HTMLElement)) return;
+            const haystack = (item.dataset.searchText ?? "").toLowerCase();
+            const match = !searching || haystack.includes(query);
+            item.hidden = !match;
+            if (match) visible += 1;
+          });
+
+          const mode = group.dataset.searchMode ?? "inline-topics";
+          const empty = group.querySelector("[data-empty-note]");
+
+          if (mode === "inline-topics") {
+            group.hidden = false;
+            if (empty instanceof HTMLElement) empty.hidden = !searching || visible > 0;
+          } else {
+            group.hidden = searching && visible === 0;
+            if (empty instanceof HTMLElement) empty.hidden = true;
+          }
+
+          if (visible > 0) anyVisible = true;
+        });
+
+        if (globalEmpty instanceof HTMLElement) {
+          globalEmpty.hidden = pageMode !== "leaf" || !searching || anyVisible;
+        }
+      };
+
+      input.addEventListener("input", runSearch);
+      root.__areaRunSearch = runSearch;
+      runSearch();
     };
 
-    input.addEventListener("input", runSearch);
-    window.addEventListener("pageshow", runSearch);
-    runSearch();
+    document.querySelectorAll("[data-area-root]").forEach(setupAreaSearch);
+    window.addEventListener("pageshow", () => {
+      document.querySelectorAll("[data-area-root]").forEach((root) => {
+        if (root && typeof root.__areaRunSearch === "function") {
+          root.__areaRunSearch();
+        }
+      });
+    });
   })();
 </script>
 
 <style>
-  .page-shell,
-  .search-results {
+  .page-shell {
     display: grid;
     gap: 1rem;
   }
