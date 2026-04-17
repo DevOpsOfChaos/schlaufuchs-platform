@@ -2,7 +2,7 @@
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { getVisibleArticles, getVisibleExercises, levelLabels } from "../../../data/content";
 import { resolvePrimarySubjectSlug, subjectTitleMap, getSubjectMeta } from "../../../data/subjects";
-import { getAreaEntriesForPath, getAreaTopicTitle, getVisibleAreaCards } from "../../../data/areaStructure";
+import { getAreaAliasPathsForEntry, getAreaEntriesForPath, getAreaPathForEntry, getAreaTopicTitle, getVisibleAreaCards } from "../../../data/areaStructure";
 import { withBase, withBaseAsset } from "../../../utils/base";
 import PageTrail from "../../../components/content/PageTrail.astro";
 import AreaSearchHero from "../../../components/content/AreaSearchHero.astro";
@@ -28,6 +28,7 @@ const collectVisibleTopicPaths = (
   return cards.flatMap((card) => [card.path, ...collectVisibleTopicPaths(subjectSlug, entries, card.path)]);
 };
 
+
 export async function getStaticPaths() {
   const [articles, exercises] = await Promise.all([getVisibleArticles(), getVisibleExercises()]);
   const entriesBySubject = new Map<string, TopicEntry[]>();
@@ -50,6 +51,24 @@ export async function getStaticPaths() {
         params: { subject: subjectSlug, parts: parts.join("/") },
         props: { subjectSlug, parts },
       });
+    }
+
+    for (const entry of entries) {
+      const canonicalParts = getAreaPathForEntry(subjectSlug, entry);
+      if (canonicalParts.length === 0) continue;
+
+      for (const aliasParts of getAreaAliasPathsForEntry(entry)) {
+        if (aliasParts.length === 0) continue;
+        if (aliasParts.join("/") === canonicalParts.join("/")) continue;
+
+        const aliasKey = `${subjectSlug}/${aliasParts.join("/")}`;
+        if (pathMap.has(aliasKey)) continue;
+
+        pathMap.set(aliasKey, {
+          params: { subject: subjectSlug, parts: aliasParts.join("/") },
+          props: { subjectSlug, parts: canonicalParts },
+        });
+      }
     }
   }
 
