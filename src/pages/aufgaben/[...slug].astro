@@ -3,8 +3,8 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { render, type CollectionEntry } from "astro:content";
 import { getVisibleArticles, getVisibleExercises, levelLabels } from "../../data/content";
 import { resolvePrimarySubjectSlug, subjectTitleMap } from "../../data/subjects";
-import { getSectionDisplayLabel, getTopicDisplayLabel, rankTopicMatches } from "../../data/topics";
-import { getAreaPathForEntry, getAreaTopicTitle } from "../../data/areaStructure";
+import { getSectionDisplayLabel, rankTopicMatches } from "../../data/topics";
+import { getAreaPathForEntry, getAreaTopicLabelForEntry, getAreaTopicTitle } from "../../data/areaStructure";
 import { withBase } from "../../utils/base";
 import PageTrail from "../../components/content/PageTrail.astro";
 import SectionHeading from "../../components/content/SectionHeading.astro";
@@ -32,7 +32,7 @@ const reflectionPrompt = entry.data.reflectionPrompt?.trim() ?? "";
 const hasSupportContent = hintPoints.length > 0 || selfCheckPoints.length > 0 || transferIdeas.length > 0 || Boolean(reflectionPrompt);
 
 const [allArticles, allExercises] = await Promise.all([getVisibleArticles(), getVisibleExercises()]);
-const entryTopicLabel = areaPath.length > 0 ? getAreaTopicTitle(subjectSlug, areaPath) : getTopicDisplayLabel(entry);
+const entryTopicLabel = getAreaTopicLabelForEntry(subjectSlug, entry);
 const entrySectionLabel = getSectionDisplayLabel(entry.data.section);
 
 const rankedArticles = rankTopicMatches(
@@ -47,6 +47,10 @@ const rankedExercises = rankTopicMatches(
 );
 
 const relatedArticles = rankedArticles.map(({ entry }) => entry).slice(0, 6);
+const relatedArticlesWithLabels = relatedArticles.map((item) => ({
+  entry: item,
+  topicLabel: getAreaTopicLabelForEntry(subjectSlug, item),
+}));
 const relatedExercises = rankedExercises.map(({ entry }) => entry).slice(0, 12);
 const accentOrder = ["a", "b", "c", "d", "e", "f"] as const;
 const getAccent = (index: number) => accentOrder[index % accentOrder.length];
@@ -118,11 +122,11 @@ const articleIcon = `
       <section class="related-section">
         <SectionHeading kicker="Erklärungen" title="Passende Erklärungen" />
         <div class="related-grid">
-          {relatedArticles.map((item, index) => (
+          {relatedArticlesWithLabels.map(({ entry: item, topicLabel }, index) => (
             <ResourceCard
               title={item.data.title}
               description={item.data.description}
-              meta={getAreaPathForEntry(subjectSlug, item).length > 0 ? getAreaTopicTitle(subjectSlug, getAreaPathForEntry(subjectSlug, item)) : getTopicDisplayLabel(item)}
+              meta={topicLabel}
               href={withBase(`wissen/${item.id}`)}
               ctaLabel=""
               icon={articleIcon}

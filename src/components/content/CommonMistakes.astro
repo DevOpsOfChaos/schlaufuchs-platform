@@ -14,10 +14,11 @@ const { items } = Astro.props as Props;
 )}
 
 <style>
-  .mistakes-box { display:grid; gap:.75rem; padding:1.15rem; border:1px solid var(--border); border-radius:24px; background:linear-gradient(135deg, rgba(186,138,123,0.14), rgba(250,242,238,0.96)); box-shadow:var(--shadow-soft); }
+  .mistakes-box { display:grid; gap:.75rem; padding:1.15rem; border:1px solid var(--border); border-radius:24px; background:linear-gradient(145deg, rgba(186,138,123,0.18), rgba(250,242,238,0.98)); box-shadow:var(--shadow-soft); }
+  :global(html[data-theme="dark"]) .mistakes-box { background:linear-gradient(145deg, rgba(214,116,82,0.34), rgba(52,27,22,0.92)); }
   .box-kicker { margin:0; color:var(--text-soft); font-size:.8rem; font-weight:800; letter-spacing:.06em; text-transform:uppercase; }
   h3 { margin:0; color:var(--text-strong); font-size:1.08rem; line-height:1.15; }
-  .mistakes-box ul { list-style:none; margin:0; padding:0; display:grid; gap:.65rem; }
-  .mistakes-box li { position:relative; padding-left:1rem; color:var(--text); line-height:1.6; }
-  .mistakes-box li::before { content:"•"; position:absolute; left:0; top:0; color:var(--text-strong); font-weight:800; }
+  ul { list-style:none; margin:0; padding:0; display:grid; gap:.65rem; }
+  li { position:relative; padding-left:1rem; color:var(--text); line-height:1.6; }
+  li::before { content:"•"; position:absolute; left:0; top:0; color:var(--text-strong); font-weight:800; }
 </style>

@@ -88,7 +88,10 @@ const trail = [
   }),
 ];
 
-const backHref = withBase(`fachbereiche/${subjectSlug}`);
+const parentPath = normalizedParts.slice(0, -1);
+const backHref = parentPath.length > 0
+  ? withBase(`fachbereiche/${subjectSlug}/${parentPath.join("/")}`)
+  : withBase(`fachbereiche/${subjectSlug}`);
 const pageTitle = getAreaTopicTitle(subjectSlug, normalizedParts);
 const isEmptyLeaf = isLeafPage && directArticles.length === 0 && directExercises.length === 0;
 ---

@@ -1,6 +1,6 @@
 import type { CollectionEntry } from "astro:content";
 import type { PrimarySubjectSlug } from "./subjects";
-import { getTopicTail, humanizeTopicSegment } from "./topics";
+import { getTopicDisplayLabel, getTopicTail, humanizeTopicSegment } from "./topics";
 
 type TopicEntry = CollectionEntry<"articles"> | CollectionEntry<"exercises">;
 
@@ -141,6 +141,11 @@ const resolveAreaPathForEntry = (nodes: AreaNodeDefinition[], entry: TopicEntry,
 
 export const getAreaPathForEntry = (subjectSlug: string, entry: TopicEntry) =>
   resolveAreaPathForEntry(areaNodesBySubject[subjectSlug as PrimarySubjectSlug] ?? [], entry);
+
+export const getAreaTopicLabelForEntry = (subjectSlug: string, entry: TopicEntry) => {
+  const path = getAreaPathForEntry(subjectSlug, entry);
+  return path.length > 0 ? getAreaTopicTitle(subjectSlug, path) : getTopicDisplayLabel(entry);
+};
 
 export const getAreaNode = (subjectSlug: string, path: string[]) => {
   let current = areaNodesBySubject[subjectSlug as PrimarySubjectSlug] ?? [];

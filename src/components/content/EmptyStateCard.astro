@@ -83,10 +83,19 @@ const {
     color: var(--text-strong);
     font-weight: 700;
     box-shadow: var(--shadow-soft);
+    transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
   }
 
   .empty-link.secondary {
     background: transparent;
     box-shadow: none;
+  }
+
+  .empty-link:hover,
+  .empty-link:focus-visible {
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-card);
+    border-color: var(--border-strong);
+    outline: none;
   }
 </style>

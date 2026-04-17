@@ -3,8 +3,8 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { render, type CollectionEntry } from "astro:content";
 import { getVisibleArticles, getVisibleExercises, levelLabels } from "../../data/content";
 import { resolvePrimarySubjectSlug, subjectTitleMap } from "../../data/subjects";
-import { getSectionDisplayLabel, getTopicDisplayLabel, getTopicTail, rankTopicMatches } from "../../data/topics";
-import { getAreaPathForEntry, getAreaTopicTitle } from "../../data/areaStructure";
+import { getSectionDisplayLabel, getTopicTail, rankTopicMatches } from "../../data/topics";
+import { getAreaPathForEntry, getAreaTopicLabelForEntry, getAreaTopicTitle } from "../../data/areaStructure";
 import { withBase } from "../../utils/base";
 import PageTrail from "../../components/content/PageTrail.astro";
 import SectionHeading from "../../components/content/SectionHeading.astro";
@@ -35,7 +35,7 @@ const recognizeSignals = Array.isArray(entry.data.recognizeSignals) ? entry.data
 const selfCheckPoints = Array.isArray(entry.data.selfCheckPoints) ? entry.data.selfCheckPoints.filter(Boolean) : [];
 
 const allExercises = await getVisibleExercises();
-const entryTopicLabel = areaPath.length > 0 ? getAreaTopicTitle(subjectSlug, areaPath) : getTopicDisplayLabel(entry);
+const entryTopicLabel = getAreaTopicLabelForEntry(subjectSlug, entry);
 const entrySectionLabel = getSectionDisplayLabel(entry.data.section);
 
 const rankedExercises = rankTopicMatches(
