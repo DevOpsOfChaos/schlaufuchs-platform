@@ -2,7 +2,6 @@
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { getVisibleArticles, getVisibleExercises, levelLabels } from "../../../data/content";
 import { resolvePrimarySubjectSlug, subjectTitleMap, getSubjectMeta } from "../../../data/subjects";
-import { getTopicTail } from "../../../data/topics";
 import { getAreaEntriesForPath, getAreaTopicTitle, getVisibleAreaCards } from "../../../data/areaStructure";
 import { withBase, withBaseAsset } from "../../../utils/base";
 import PageTrail from "../../../components/content/PageTrail.astro";
@@ -18,33 +17,39 @@ interface PageProps {
   parts: string[];
 }
 
+type TopicEntry = Awaited<ReturnType<typeof getVisibleArticles>>[number] | Awaited<ReturnType<typeof getVisibleExercises>>[number];
+
+const collectVisibleTopicPaths = (
+  subjectSlug: string,
+  entries: TopicEntry[],
+  path: string[] = [],
+): string[][] => {
+  const cards = getVisibleAreaCards(subjectSlug, path, entries);
+  return cards.flatMap((card) => [card.path, ...collectVisibleTopicPaths(subjectSlug, entries, card.path)]);
+};
+
 export async function getStaticPaths() {
   const [articles, exercises] = await Promise.all([getVisibleArticles(), getVisibleExercises()]);
-  const pathMap = new Map<string, { params: { subject: string; parts: string }; props: PageProps }>();
+  const entriesBySubject = new Map<string, TopicEntry[]>();
 
-  for (const entry of articles) {
+  for (const entry of [...articles, ...exercises]) {
     const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject);
     if (!subjectSlug) continue;
-    const tail = getTopicTail(entry);
-
-    for (let index = 0; index < tail.length - 1; index += 1) {
-      const parts = tail.slice(0, index + 1);
-      const key = `${subjectSlug}/${parts.join("/")}`;
-      if (pathMap.has(key)) continue;
-      pathMap.set(key, { params: { subject: subjectSlug, parts: parts.join("/") }, props: { subjectSlug, parts } });
-    }
+    const current = entriesBySubject.get(subjectSlug) ?? [];
+    current.push(entry);
+    entriesBySubject.set(subjectSlug, current);
   }
 
-  for (const entry of exercises) {
-    const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject);
-    if (!subjectSlug) continue;
-    const tail = getTopicTail(entry).slice(0, -1);
+  const pathMap = new Map<string, { params: { subject: string; parts: string }; props: PageProps }>();
 
-    for (let index = 0; index < tail.length; index += 1) {
-      const parts = tail.slice(0, index + 1);
+  for (const [subjectSlug, entries] of entriesBySubject.entries()) {
+    for (const parts of collectVisibleTopicPaths(subjectSlug, entries)) {
       const key = `${subjectSlug}/${parts.join("/")}`;
       if (pathMap.has(key)) continue;
-      pathMap.set(key, { params: { subject: subjectSlug, parts: parts.join("/") }, props: { subjectSlug, parts } });
+      pathMap.set(key, {
+        params: { subject: subjectSlug, parts: parts.join("/") },
+        props: { subjectSlug, parts },
+      });
     }
   }
 
@@ -186,11 +191,17 @@ const isEmptyLeaf = isLeafPage && directArticles.length === 0 && directExercises
   .topic-grid,
   .leaf-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    gap: 0.85rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 16.75rem), 18.75rem));
+    gap: 0.9rem;
+    justify-content: start;
+    align-items: stretch;
   }
 
-  .leaf-grid {
-    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  @media (max-width: 580px) {
+    .topic-grid,
+    .leaf-grid {
+      grid-template-columns: 1fr;
+      justify-content: stretch;
+    }
   }
 </style>
