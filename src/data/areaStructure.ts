@@ -129,6 +129,19 @@ const getNodesAtPath = (subjectSlug: string, path: string[]) => {
   return current;
 };
 
+const resolveAreaPathForEntry = (nodes: AreaNodeDefinition[], entry: TopicEntry, basePath: string[] = []): string[] => {
+  for (const node of nodes) {
+    if (!nodeMatchesEntry(node, entry)) continue;
+    const nextPath = [...basePath, node.slug];
+    const childPath = resolveAreaPathForEntry(node.children ?? [], entry, nextPath);
+    return childPath.length > 0 ? childPath : nextPath;
+  }
+  return [];
+};
+
+export const getAreaPathForEntry = (subjectSlug: string, entry: TopicEntry) =>
+  resolveAreaPathForEntry(areaNodesBySubject[subjectSlug as PrimarySubjectSlug] ?? [], entry);
+
 export const getAreaNode = (subjectSlug: string, path: string[]) => {
   let current = areaNodesBySubject[subjectSlug as PrimarySubjectSlug] ?? [];
   let found: AreaNodeDefinition | null = null;
