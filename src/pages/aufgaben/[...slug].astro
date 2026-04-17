@@ -3,13 +3,8 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { render, type CollectionEntry } from "astro:content";
 import { getVisibleArticles, getVisibleExercises, levelLabels } from "../../data/content";
 import { resolvePrimarySubjectSlug, subjectTitleMap } from "../../data/subjects";
-import {
-  getSectionDisplayLabel,
-  getTopicDisplayLabel,
-  getTopicOverviewPath,
-  humanizeTopicSegment,
-  rankTopicMatches,
-} from "../../data/topics";
+import { getSectionDisplayLabel, getTopicDisplayLabel, rankTopicMatches } from "../../data/topics";
+import { getAreaPathForEntry, getAreaTopicTitle } from "../../data/areaStructure";
 import { withBase } from "../../utils/base";
 import PageTrail from "../../components/content/PageTrail.astro";
 import SectionHeading from "../../components/content/SectionHeading.astro";
@@ -27,8 +22,8 @@ const { entry } = Astro.props as { entry: CollectionEntry<"exercises"> };
 const { Content } = await render(entry);
 const subjectTitle = subjectTitleMap[entry.data.subject] ?? "Fachbereich";
 const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject) ?? "elektrotechnik";
-const topicBranch = getTopicOverviewPath(entry);
-const topicPathHref = topicBranch.length > 0 ? withBase(`fachbereiche/${subjectSlug}/${topicBranch.join("/")}`) : withBase(`fachbereiche/${subjectSlug}`);
+const areaPath = getAreaPathForEntry(subjectSlug, entry);
+const topicPathHref = areaPath.length > 0 ? withBase(`fachbereiche/${subjectSlug}/${areaPath.join("/")}`) : withBase(`fachbereiche/${subjectSlug}`);
 const printHref = withBase(`druck/aufgaben/${entry.id}`);
 const hintPoints = Array.isArray(entry.data.hintPoints) ? entry.data.hintPoints.filter(Boolean) : [];
 const selfCheckPoints = Array.isArray(entry.data.selfCheckPoints) ? entry.data.selfCheckPoints.filter(Boolean) : [];
@@ -37,7 +32,7 @@ const reflectionPrompt = entry.data.reflectionPrompt?.trim() ?? "";
 const hasSupportContent = hintPoints.length > 0 || selfCheckPoints.length > 0 || transferIdeas.length > 0 || Boolean(reflectionPrompt);
 
 const [allArticles, allExercises] = await Promise.all([getVisibleArticles(), getVisibleExercises()]);
-const entryTopicLabel = getTopicDisplayLabel(entry);
+const entryTopicLabel = areaPath.length > 0 ? getAreaTopicTitle(subjectSlug, areaPath) : getTopicDisplayLabel(entry);
 const entrySectionLabel = getSectionDisplayLabel(entry.data.section);
 
 const rankedArticles = rankTopicMatches(
@@ -56,14 +51,17 @@ const relatedExercises = rankedExercises.map(({ entry }) => entry).slice(0, 12);
 const accentOrder = ["a", "b", "c", "d", "e", "f"] as const;
 const getAccent = (index: number) => accentOrder[index % accentOrder.length];
 
-const breadcrumbSegments = topicBranch.map((segment, index) => ({
-  label: humanizeTopicSegment(segment),
-  href: withBase(`fachbereiche/${subjectSlug}/${topicBranch.slice(0, index + 1).join("/")}`),
-}));
+const breadcrumbSegments = areaPath.map((_, index) => {
+  const path = areaPath.slice(0, index + 1);
+  return {
+    label: getAreaTopicTitle(subjectSlug, path),
+    href: withBase(`fachbereiche/${subjectSlug}/${path.join("/")}`),
+  };
+});
 
 const trail = [{ label: subjectTitle, href: withBase(`fachbereiche/${subjectSlug}`) }, ...breadcrumbSegments];
 
-const backHref = withBase(`fachbereiche/${subjectSlug}`);
+const backHref = topicPathHref;
 
 const taskIcon = `
 <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -124,7 +122,7 @@ const articleIcon = `
             <ResourceCard
               title={item.data.title}
               description={item.data.description}
-              meta={getTopicDisplayLabel(item)}
+              meta={getAreaPathForEntry(subjectSlug, item).length > 0 ? getAreaTopicTitle(subjectSlug, getAreaPathForEntry(subjectSlug, item)) : getTopicDisplayLabel(item)}
               href={withBase(`wissen/${item.id}`)}
               ctaLabel=""
               icon={articleIcon}
