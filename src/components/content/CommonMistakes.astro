@@ -4,18 +4,20 @@ const { items } = Astro.props as Props;
 ---
 
 {items.length > 0 && (
-  <section class="mistakes-box">
+  <article class="support-card mistakes-box">
     <p class="box-kicker">Typische Fehler</p>
+    <h3>Darauf solltest du achten</h3>
     <ul>
       {items.map((item) => <li>{item}</li>)}
     </ul>
-  </section>
+  </article>
 )}
 
 <style>
-  .mistakes-box { padding:1.25rem; border:1px solid var(--border); border-radius:24px; background:color-mix(in oklab, var(--card-bg) 94%, #fff4f1 6%); box-shadow:var(--shadow-soft); }
-  .box-kicker { margin:0 0 .65rem; color:var(--text-soft); font-size:.82rem; font-weight:800; letter-spacing:.06em; text-transform:uppercase; }
-  .mistakes-box ul { list-style:none; margin:0; padding:0; display:grid; gap:.7rem; }
-  .mistakes-box li { position:relative; padding-left:1.1rem; color:var(--text); line-height:1.65; }
-  .mistakes-box li::before { content:"•"; position:absolute; left:0; top:0; color:var(--accent); font-weight:800; }
+  .support-card { display:grid; gap:.8rem; padding:1.15rem; border:1px solid var(--border); border-radius:24px; background:color-mix(in oklab, var(--card-bg) 95%, #fff4f1 5%); box-shadow:var(--shadow-soft); min-height:100%; }
+  .box-kicker { margin:0; color:var(--text-soft); font-size:.82rem; font-weight:800; letter-spacing:.06em; text-transform:uppercase; }
+  h3 { margin:0; color:var(--text-strong); font-size:1.08rem; line-height:1.2; }
+  ul { list-style:none; margin:0; padding:0; display:grid; gap:.68rem; }
+  li { position:relative; padding-left:1.1rem; color:var(--text); line-height:1.66; }
+  li::before { content:"•"; position:absolute; left:0; top:0; color:var(--accent); font-weight:800; }
 </style>

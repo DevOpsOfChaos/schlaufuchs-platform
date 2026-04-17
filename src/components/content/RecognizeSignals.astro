@@ -7,25 +7,29 @@ const { items } = Astro.props as Props;
 ---
 
 {items.length > 0 && (
-  <section class="signals-box">
-    <p class="box-kicker">Woran du das Thema erkennst</p>
+  <article class="support-card signals-box">
+    <p class="box-kicker">Woran du es erkennst</p>
+    <h3>Typische Signale für dieses Thema</h3>
     <ul>
       {items.map((item) => <li>{item}</li>)}
     </ul>
-  </section>
+  </article>
 )}
 
 <style>
-  .signals-box {
-    padding: 1.25rem;
+  .support-card {
+    display: grid;
+    gap: 0.8rem;
+    padding: 1.15rem;
     border: 1px solid var(--border);
     border-radius: 24px;
-    background: color-mix(in oklab, var(--card-bg) 95%, #f8fafc 5%);
+    background: color-mix(in oklab, var(--card-bg) 96%, #f8fafc 4%);
     box-shadow: var(--shadow-soft);
+    min-height: 100%;
   }
 
   .box-kicker {
-    margin: 0 0 0.65rem;
+    margin: 0;
     color: var(--text-soft);
     font-size: 0.82rem;
     font-weight: 800;
@@ -33,19 +37,26 @@ const { items } = Astro.props as Props;
     text-transform: uppercase;
   }
 
+  h3 {
+    margin: 0;
+    color: var(--text-strong);
+    font-size: 1.08rem;
+    line-height: 1.2;
+  }
+
   ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: grid;
-    gap: 0.7rem;
+    gap: 0.68rem;
   }
 
   li {
     position: relative;
     padding-left: 1.1rem;
     color: var(--text);
-    line-height: 1.68;
+    line-height: 1.66;
   }
 
   li::before {

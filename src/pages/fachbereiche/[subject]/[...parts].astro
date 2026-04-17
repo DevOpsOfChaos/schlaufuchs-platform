@@ -89,7 +89,7 @@ const isEmptyLeaf = isLeafPage && directArticles.length === 0 && directExercises
 ---
 
 <BaseLayout title={`${pageTitle} – ${subjectTitle} – Schlaufuchs`} description={`${pageTitle} im Bereich ${subjectTitle}.`}>
-  <div class="page-shell" data-area-root data-page-mode={isLeafPage ? "leaf" : "topics"}>
+  <div class="page-shell" data-area-root data-page-mode={hasChildTopics ? "topics" : "leaf"}>
     <PageTrail backHref={backHref} trail={trail} />
 
     <AreaSearchHero
@@ -100,14 +100,14 @@ const isEmptyLeaf = isLeafPage && directArticles.length === 0 && directExercises
       imageAlt={`${subjectTitle} – Fuchsmotiv`}
       tone={detail?.tone ?? "math"}
       inputName={`search-${subjectSlug}-${normalizedParts.join("-") || "root"}`}
-      searchHint={hasChildTopics ? "Die Suche filtert auf dieser Seite nur die Unterthemen." : "Die Suche filtert in diesem Thema die Wissensseiten und Aufgaben direkt in den bestehenden Bereichen."}
+      searchHint={hasChildTopics ? "Suche filtert auf dieser Seite nur die Unterthemen." : "Suche filtert in diesem Thema die vorhandenen Wissensseiten und Aufgaben direkt in den Bereichen."}
     />
 
     {isEmptyLeaf ? (
       <EmptyStateCard
         kicker="Kein Inhalt"
         title="Zu diesem Thema liegt aktuell kein direkter Inhalt vor"
-        body="Gehe eine Ebene zurück. Wissensseiten und Aufgaben sollen erst auf der echten Endebene erscheinen."
+        body="Gehe eine Ebene zurück. Auf dieser Seite sollen Wissensseiten und Aufgaben erst dann erscheinen, wenn das Thema wirklich auf der Endebene angekommen ist."
         primaryHref={backHref}
         primaryLabel="Eine Ebene zurück →"
         secondaryHref={withBase(`fachbereiche/${subjectSlug}`)}
@@ -116,8 +116,8 @@ const isEmptyLeaf = isLeafPage && directArticles.length === 0 && directExercises
     ) : (
       <>
         {hasChildTopics && (
-          <AreaSectionSurface variant="topics" data-search-group="topics">
-            <SectionHeading kicker="Themen" title={`Unterthemen in ${pageTitle}`} />
+          <AreaSectionSurface variant="topics" data-search-group="topics" data-search-mode="inline-topics">
+            <SectionHeading kicker="Themen" title="Unterthemen" />
             <div class="topic-grid">
               {childCards.map((item, index) => (
                 <AreaTopicCard
@@ -138,8 +138,8 @@ const isEmptyLeaf = isLeafPage && directArticles.length === 0 && directExercises
         )}
 
         {isLeafPage && directArticles.length > 0 && (
-          <AreaSectionSurface variant="articles" data-search-group="articles">
-            <SectionHeading kicker="Wissensseiten" title={`Wissensseiten in ${pageTitle}`} />
+          <AreaSectionSurface variant="articles" data-search-group="articles" data-search-mode="inline-section">
+            <SectionHeading kicker="Wissensseiten" title="Wissensseiten" />
             <div class="leaf-grid">
               {directArticles.map((entry, index) => (
                 <AreaLeafResourceCard
@@ -158,8 +158,8 @@ const isEmptyLeaf = isLeafPage && directArticles.length === 0 && directExercises
         )}
 
         {isLeafPage && directExercises.length > 0 && (
-          <AreaSectionSurface variant="tasks" data-search-group="tasks">
-            <SectionHeading kicker="Aufgaben" title={`Passende Aufgaben in ${pageTitle}`} />
+          <AreaSectionSurface variant="tasks" data-search-group="tasks" data-search-mode="inline-section">
+            <SectionHeading kicker="Aufgaben" title="Aufgaben" />
             <div class="leaf-grid">
               {directExercises.map((entry, index) => (
                 <AreaLeafResourceCard
@@ -214,29 +214,35 @@ const isEmptyLeaf = isLeafPage && directArticles.length === 0 && directExercises
             if (match) visible += 1;
           });
 
+          const mode = group.dataset.searchMode ?? "inline-topics";
           const empty = group.querySelector("[data-empty-note]");
-          if (empty instanceof HTMLElement) {
-            empty.hidden = pageMode !== "topics" || !searching || visible > 0;
+
+          if (mode === "inline-topics") {
+            group.hidden = false;
+            if (empty instanceof HTMLElement) empty.hidden = !searching || visible > 0;
+          } else {
+            group.hidden = searching && visible === 0;
+            if (empty instanceof HTMLElement) empty.hidden = true;
           }
 
           if (visible > 0) anyVisible = true;
         });
 
         if (globalEmpty instanceof HTMLElement) {
-          globalEmpty.hidden = !searching || anyVisible;
+          globalEmpty.hidden = pageMode !== "leaf" || !searching || anyVisible;
         }
       };
 
       input.addEventListener("input", runSearch);
-      (root).__areaRunSearch = runSearch;
+      root.__areaRunSearch = runSearch;
       runSearch();
     };
 
     document.querySelectorAll("[data-area-root]").forEach(setupAreaSearch);
     window.addEventListener("pageshow", () => {
       document.querySelectorAll("[data-area-root]").forEach((root) => {
-        if (root && typeof (root).__areaRunSearch === "function") {
-          (root).__areaRunSearch();
+        if (root && typeof root.__areaRunSearch === "function") {
+          root.__areaRunSearch();
         }
       });
     });
@@ -249,11 +255,16 @@ const isEmptyLeaf = isLeafPage && directArticles.length === 0 && directExercises
     gap: 1rem;
   }
 
-  .topic-grid,
+  .topic-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.9rem;
+  }
+
   .leaf-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1rem;
+    gap: 0.85rem;
   }
 
   .empty-note,
@@ -261,6 +272,12 @@ const isEmptyLeaf = isLeafPage && directArticles.length === 0 && directExercises
     margin: 0;
     color: var(--text-soft);
     line-height: 1.6;
+  }
+
+  @media (max-width: 1120px) {
+    .topic-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
   }
 
   @media (max-width: 980px) {

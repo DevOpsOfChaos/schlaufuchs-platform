@@ -12,7 +12,6 @@ import {
 } from "../../data/topics";
 import { withBase } from "../../utils/base";
 import PageTrail from "../../components/content/PageTrail.astro";
-import OverviewPanel from "../../components/content/OverviewPanel.astro";
 import SectionHeading from "../../components/content/SectionHeading.astro";
 import ResourceCard from "../../components/content/ResourceCard.astro";
 import SupportChecklist from "../../components/content/SupportChecklist.astro";
@@ -35,6 +34,7 @@ const hintPoints = Array.isArray(entry.data.hintPoints) ? entry.data.hintPoints.
 const selfCheckPoints = Array.isArray(entry.data.selfCheckPoints) ? entry.data.selfCheckPoints.filter(Boolean) : [];
 const transferIdeas = Array.isArray(entry.data.transferIdeas) ? entry.data.transferIdeas.filter(Boolean) : [];
 const reflectionPrompt = entry.data.reflectionPrompt?.trim() ?? "";
+const hasSupportContent = hintPoints.length > 0 || selfCheckPoints.length > 0 || transferIdeas.length > 0 || Boolean(reflectionPrompt);
 
 const [allArticles, allExercises] = await Promise.all([getVisibleArticles(), getVisibleExercises()]);
 const entryTopicLabel = getTopicDisplayLabel(entry);
@@ -52,7 +52,9 @@ const rankedExercises = rankTopicMatches(
 );
 
 const relatedArticles = rankedArticles.map(({ entry }) => entry).slice(0, 4);
-const relatedExercises = rankedExercises.map(({ entry }) => entry).slice(0, 4);
+const relatedExercises = rankedExercises.map(({ entry }) => entry).slice(0, 8);
+const accentOrder = ["a", "b", "c", "d"] as const;
+const getAccent = (index: number) => accentOrder[index % accentOrder.length];
 
 const breadcrumbSegments = topicBranch.map((segment, index) => ({
   label: humanizeTopicSegment(segment),
@@ -75,12 +77,6 @@ const articleIcon = `
   <path d="M7 14h7"></path>
   <rect x="4" y="4" width="16" height="16" rx="2"></rect>
 </svg>`;
-
-const overviewPoints = [
-  `Diese Aufgabe gehört fachlich zu ${subjectTitle}.`,
-  `Sie ergänzt das Thema ${breadcrumbSegments.at(-1)?.label ?? entry.data.section ?? "dieser Wissensbereich"}.`,
-  "Darunter findest du passende Wissensseiten und weitere Aufgaben zum gleichen Themenfeld.",
-];
 ---
 
 <BaseLayout title={`${entry.data.title} – Schlaufuchs`} description={entry.data.description}>
@@ -92,23 +88,15 @@ const overviewPoints = [
       <div class="hero-meta-row">
         <span class="meta-chip">{subjectTitle}</span>
         <span class="meta-chip">{levelLabels[entry.data.level]}</span>
-        {entry.data.section && <span class="meta-chip">{entrySectionLabel}</span>}
+        {entry.data.section && entrySectionLabel !== entryTopicLabel && <span class="meta-chip">{entrySectionLabel}</span>}
         <span class="meta-chip">{entryTopicLabel}</span>
       </div>
       <h1>{entry.data.title}</h1>
       <p class="lead">{entry.data.description}</p>
-    </section>
-
-    <OverviewPanel
-      title="Worum es in dieser Aufgabe geht"
-      kicker="Kontext"
-      points={overviewPoints}
-      actionHref={topicPathHref}
-      actionLabel="Zum Themenpfad →"
-    />
-
-    <section class="action-row-shell">
-      <a class="print-link" href={printHref}>Druckansicht öffnen →</a>
+      <div class="hero-actions">
+        <a class="hero-link" href={topicPathHref}>Zum Fachthema →</a>
+        <a class="hero-link secondary" href={printHref}>Druckansicht öffnen →</a>
+      </div>
     </section>
 
     <section class="exercise-shell">
@@ -117,26 +105,27 @@ const overviewPoints = [
       </article>
     </section>
 
-    {(hintPoints.length > 0 || selfCheckPoints.length > 0) && (
-      <section class="exercise-support wide-bleed">
-        <SupportChecklist title="Worauf du achten kannst" kicker="Hinweise" items={hintPoints} />
-        <SupportChecklist title="Das solltest du am Ende prüfen" kicker="Selbstkontrolle" items={selfCheckPoints} />
-      </section>
-    )}
-
-    {(transferIdeas.length > 0 || reflectionPrompt) && (
-      <section class="exercise-extension wide-bleed">
-        <TransferIdeas items={transferIdeas} />
-        {reflectionPrompt && <ReflectionPrompt prompt={reflectionPrompt} />}
+    {hasSupportContent && (
+      <section class="support-section wide-bleed">
+        <SectionHeading kicker="Unterstützung" title="Hilfen und Kontrolle" />
+        <p class="support-intro">
+          Alles, was dir beim Lösen, Prüfen und Weiterdenken hilft, steht gesammelt an einer Stelle. Dadurch wirkt die Aufgabe weniger zerstückelt.
+        </p>
+        <div class="support-grid">
+          <SupportChecklist title="Worauf du achten kannst" kicker="Hinweise" items={hintPoints} />
+          <SupportChecklist title="Am Ende prüfen" kicker="Selbstkontrolle" items={selfCheckPoints} />
+          <TransferIdeas items={transferIdeas} />
+          {reflectionPrompt && <ReflectionPrompt prompt={reflectionPrompt} />}
+        </div>
       </section>
     )}
 
     {relatedArticles.length > 0 && (
       <section class="related-section">
-        <SectionHeading kicker="Wissensseiten" title="Passende Fachinfos zu dieser Aufgabe" />
-        <p class="related-intro">Diese Wissensseiten liegen im gleichen Themenpfad und helfen dir genau bei dieser Aufgabe weiter.</p>
+        <SectionHeading kicker="Wissensseiten" title="Passende Wissensseiten" />
+        <p class="related-intro">Diese Wissensseiten helfen dir genau bei diesem Aufgabentyp weiter.</p>
         <div class="related-grid">
-          {relatedArticles.map((item) => (
+          {relatedArticles.map((item, index) => (
             <ResourceCard
               title={item.data.title}
               description={item.data.description}
@@ -145,6 +134,7 @@ const overviewPoints = [
               ctaLabel="Wissensseite öffnen →"
               icon={articleIcon}
               variant="article"
+              accent={getAccent(index)}
             />
           ))}
         </div>
@@ -154,45 +144,123 @@ const overviewPoints = [
     {relatedExercises.length > 0 && (
       <section class="related-section">
         <SectionHeading kicker="Weitere Aufgaben" title="Mehr Aufgaben im gleichen Themenfeld" />
-        <p class="related-intro">Hier findest du weitere Aufgaben, die denselben Themenpfad aufgreifen und fachlich nah beieinander liegen.</p>
-        <div class="related-grid">
-          {relatedExercises.map((item) => (
-            <ResourceCard
-              title={item.data.title}
-              description={item.data.description}
-              meta={levelLabels[item.data.level]}
-              href={withBase(`aufgaben/${item.id}`)}
-              ctaLabel="Aufgabe öffnen →"
-              icon={taskIcon}
-              variant="task"
-            />
-          ))}
+        <p class="related-intro">
+          Es werden immer vier Aufgaben gleichzeitig gezeigt. Über die Pfeile kannst du durch die nächsten vier wechseln, ohne dass die Seite endlos lang wird.
+        </p>
+
+        <div class="pager-shell" data-card-pager data-page-size="4">
+          <div class="related-grid" data-pager-grid>
+            {relatedExercises.map((item, index) => (
+              <div data-pager-item>
+                <ResourceCard
+                  title={item.data.title}
+                  description={item.data.description}
+                  meta={levelLabels[item.data.level]}
+                  href={withBase(`aufgaben/${item.id}`)}
+                  ctaLabel="Aufgabe öffnen →"
+                  icon={taskIcon}
+                  variant="task"
+                  accent={getAccent(index)}
+                />
+              </div>
+            ))}
+          </div>
+
+          <div class="pager-controls" data-pager-controls hidden>
+            <button type="button" class="pager-button" data-pager-prev>← Zurück</button>
+            <span class="pager-status" data-pager-status>1 / 1</span>
+            <button type="button" class="pager-button" data-pager-next>Weiter →</button>
+          </div>
         </div>
       </section>
     )}
   </div>
 </BaseLayout>
 
+<script is:inline>
+  (() => {
+    const setupCardPager = (root) => {
+      if (!(root instanceof HTMLElement) || root.dataset.pagerReady === "true") return;
+      root.dataset.pagerReady = "true";
+
+      const items = [...root.querySelectorAll("[data-pager-item]")];
+      const controls = root.querySelector("[data-pager-controls]");
+      const prevButton = root.querySelector("[data-pager-prev]");
+      const nextButton = root.querySelector("[data-pager-next]");
+      const status = root.querySelector("[data-pager-status]");
+      const pageSize = Number(root.dataset.pageSize ?? "4") || 4;
+
+      if (items.length <= pageSize) {
+        if (controls instanceof HTMLElement) controls.hidden = true;
+        items.forEach((item) => {
+          if (item instanceof HTMLElement) item.hidden = false;
+        });
+        return;
+      }
+
+      let page = 0;
+      const pageCount = Math.ceil(items.length / pageSize);
+
+      const renderPage = () => {
+        items.forEach((item, index) => {
+          if (!(item instanceof HTMLElement)) return;
+          const start = page * pageSize;
+          const end = start + pageSize;
+          item.hidden = index < start || index >= end;
+        });
+
+        if (controls instanceof HTMLElement) controls.hidden = false;
+        if (status instanceof HTMLElement) status.textContent = `${page + 1} / ${pageCount}`;
+        if (prevButton instanceof HTMLButtonElement) prevButton.disabled = page === 0;
+        if (nextButton instanceof HTMLButtonElement) nextButton.disabled = page >= pageCount - 1;
+      };
+
+      prevButton?.addEventListener("click", () => {
+        page = Math.max(page - 1, 0);
+        renderPage();
+      });
+
+      nextButton?.addEventListener("click", () => {
+        page = Math.min(page + 1, pageCount - 1);
+        renderPage();
+      });
+
+      renderPage();
+    };
+
+    document.querySelectorAll("[data-card-pager]").forEach(setupCardPager);
+  })();
+</script>
+
 <style>
   .page-shell { display: grid; gap: 1.15rem; }
-  .eyebrow { margin: 0 0 0.8rem; color: var(--text-soft); font-size: 0.92rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
-  .hero-meta-row { display: flex; flex-wrap: wrap; gap: 0.55rem; margin-bottom: 0.95rem; }
+  .exercise-hero { display:grid; gap:.95rem; }
+  .eyebrow { margin: 0; color: var(--text-soft); font-size: 0.92rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
+  .hero-meta-row { display: flex; flex-wrap: wrap; gap: 0.55rem; }
   .meta-chip { display: inline-flex; align-items: center; min-height: 2rem; padding: 0.12rem 0.72rem; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text-strong); font-size: 0.84rem; font-weight: 700; }
-  h1 { margin: 0; color: var(--text-strong); font-size: clamp(2.4rem, 4.6vw, 4rem); line-height: 0.98; letter-spacing: -0.045em; }
-  .lead { margin: 1rem 0 0; color: var(--text); line-height: 1.78; font-size: 1.05rem; max-width: 58rem; }
-  .action-row-shell { display: flex; justify-content: flex-start; }
-  .print-link { display: inline-flex; align-items: center; min-height: 2.8rem; padding: 0 0.95rem; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text-strong); font-weight: 700; box-shadow: var(--shadow-soft); }
-  .exercise-shell, .related-section { display: grid; gap: 1rem; }
+  h1 { margin: 0; color: var(--text-strong); font-size: clamp(2.35rem, 4.5vw, 3.95rem); line-height: 0.98; letter-spacing: -0.045em; }
+  .lead { margin: 0; color: var(--text); line-height: 1.78; font-size: 1.05rem; max-width: 58rem; }
+  .hero-actions { display:flex; gap:.7rem; flex-wrap:wrap; }
+  .hero-link { display: inline-flex; align-items: center; min-height: 2.7rem; padding: 0 0.95rem; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text-strong); font-weight: 700; box-shadow: var(--shadow-soft); }
+  .hero-link.secondary { background:transparent; box-shadow:none; }
+  .exercise-shell, .related-section, .support-section { display: grid; gap: 1rem; }
   .exercise-content { padding: clamp(1.3rem, 2vw, 2rem); border: 1px solid var(--border); border-radius: 30px; background: var(--card-bg); box-shadow: var(--shadow-card); overflow: hidden; }
-  .exercise-support, .exercise-extension, .related-grid { display: grid; gap: 1rem; }
-  .exercise-support, .exercise-extension { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .related-intro { margin: 0; color: var(--text); line-height: 1.7; max-width: 70rem; }
-  .related-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .exercise-content :global(h2) { margin-top: 1.8rem; color: var(--text-strong); font-size: clamp(1.45rem, 2.4vw, 1.85rem); line-height: 1.15; }
+  .support-intro, .related-intro { margin: 0; color: var(--text); line-height: 1.7; max-width: 70rem; }
+  .support-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+  .related-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+  .pager-shell { display:grid; gap:1rem; }
+  .pager-controls { display:flex; align-items:center; justify-content:flex-end; gap:.7rem; flex-wrap:wrap; }
+  .pager-button { display:inline-flex; align-items:center; min-height:2.55rem; padding:0 .85rem; border-radius:999px; border:1px solid var(--border); background:var(--surface); color:var(--text-strong); font-weight:700; cursor:pointer; }
+  .pager-button:disabled { opacity:.45; cursor:default; }
+  .pager-status { color:var(--text-soft); font-weight:700; }
+  .exercise-content :global(h2) { margin-top: 1.8rem; color: var(--text-strong); font-size: clamp(1.42rem, 2.35vw, 1.82rem); line-height: 1.15; }
   .exercise-content :global(h2:first-child) { margin-top: 0; }
-  .exercise-content :global(h3) { margin-top: 1.2rem; color: var(--text-strong); font-size: 1.12rem; line-height: 1.2; }
+  .exercise-content :global(h3) { margin-top: 1.15rem; color: var(--text-strong); font-size: 1.1rem; line-height: 1.2; }
   .exercise-content :global(p), .exercise-content :global(li) { color: var(--text); line-height: 1.82; font-size: 1rem; }
   .exercise-content :global(ul), .exercise-content :global(ol) { padding-left: 1.2rem; }
   .exercise-content :global(pre) { overflow-x: auto; }
-  @media (max-width: 980px) { .exercise-support, .exercise-extension, .related-grid { grid-template-columns: 1fr; } }
+  @media (max-width: 980px) {
+    .support-grid, .related-grid { grid-template-columns: 1fr; }
+    .pager-controls { justify-content:flex-start; }
+  }
 </style>
