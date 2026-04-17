@@ -238,8 +238,14 @@ const articleIcon = `
   .hero-link.secondary { background:transparent; box-shadow:none; }
   .exercise-shell, .related-section, .support-section { display: grid; gap: 1rem; }
   .exercise-content { padding: clamp(1.3rem, 2vw, 2rem); border: 1px solid var(--border); border-radius: 30px; background: var(--card-bg); box-shadow: var(--shadow-card); overflow: hidden; }
-  .support-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1rem; }
-  .related-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 0.85rem; }
+  .support-grid,
+  .related-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 18rem));
+    gap: 0.9rem;
+    justify-content: start;
+    align-items: start;
+  }
   .pager-shell { display:grid; gap:1rem; }
   .pager-controls { display:flex; align-items:center; justify-content:flex-end; gap:.7rem; flex-wrap:wrap; }
   .pager-button { display:inline-flex; align-items:center; min-height:2.55rem; padding:0 .85rem; border-radius:999px; border:1px solid var(--border); background:var(--surface); color:var(--text-strong); font-weight:700; cursor:pointer; }
@@ -252,4 +258,11 @@ const articleIcon = `
   .exercise-content :global(ul), .exercise-content :global(ol) { padding-left: 1.2rem; }
   .exercise-content :global(pre) { overflow-x: auto; }
   @media (max-width: 980px) { .pager-controls { justify-content:flex-start; } }
+  @media (max-width: 580px) {
+    .support-grid,
+    .related-grid {
+      grid-template-columns: 1fr;
+      justify-content: stretch;
+    }
+  }
 </style>
