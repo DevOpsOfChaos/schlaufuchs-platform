@@ -75,10 +75,10 @@ const areaNodesBySubject: Record<PrimarySubjectSlug, AreaNodeDefinition[]> = {
       prefixes: [["shell"]],
       children: [
         { slug: "orientierung-und-pfade", title: "Orientierung und Pfade", description: "Pfadwerkzeuge und Verlauf helfen hier dabei, sich in der Shell ruhig und kontrolliert zu orientieren.", icon: iconMap.terminal, chips: ["Pfade", "History", "Realpath"], searchAliases: ["pfade", "basename", "dirname", "realpath", "history"], prefixes: [["shell", "pfade-mit-basename-dirname-und-realpath"], ["shell", "history-und-wiederkehrende-befehle"]] },
-        { slug: "arbeitsablauf-und-editor", title: "Arbeitsablauf und Editor", description: "Ruhige Terminal-Arbeitsabläufe, kleine Dateiaktionen und nano werden hier als gemeinsamer Praxisblock gesammelt.", icon: iconMap.terminal, chips: ["Praxis", "nano", "Dateien"], searchAliases: ["nano", "editor", "arbeitsablauf", "dateien", "hilfe"], prefixes: [["praxis", "nano"], ["praxis", "terminal-nutzen"], ["shell", "dateien-und-ordner"], ["shell", "hilfe-im-terminal"], ["nano"], ["terminal-nutzen"]] },
         { slug: "text-und-auswertung", title: "Text und Auswertung", description: "Pipes, Umleitungen und kleine Textwerkzeuge bilden hier einen gemeinsamen Arbeitsblock.", icon: iconMap.data, chips: ["Pipes", "grep", "wc"], searchAliases: ["pipes", "umleitungen", "grep", "cut", "wc"], prefixes: [["shell", "pipes-und-umleitungen"], ["shell", "textwerkzeuge-mit-grep-cut-und-wc"]] },
         { slug: "suche-und-dateilesen", title: "Suche und Dateilesen", description: "Dateien finden und gezielt Anfang oder Ende lesen gehört hier in denselben Praxisblock.", icon: iconMap.chart, chips: ["find", "head", "tail"], searchAliases: ["find", "head", "tail", "dateisuche"], prefixes: [["shell", "find-und-dateisuche"], ["shell", "dateien-mit-head-und-tail"]] },
-        { slug: "rechte-und-shell-kontext", title: "Rechte und Shell-Kontext", description: "Dateirechte, Umgebungsvariablen, PATH sowie Benutzer- und Gruppenkontext werden hier als zusammenhängender Systemkontext gelesen.", icon: iconMap.shield, chips: ["Rechte", "PATH", "Variablen"], searchAliases: ["rechte", "chmod", "path", "umgebungsvariablen", "benutzer", "gruppen"], prefixes: [["shell", "umgebungsvariablen-und-path"], ["shell", "dateirechte-mit-ls-stat-und-chmod-lesen"], ["system", "dateirechte"], ["dateirechte"], ["system", "benutzer-und-gruppen"], ["system", "benutzer-und-gruppen-grundlagen"], ["benutzer-und-gruppen"], ["benutzer-und-gruppen-grundlagen"]] },
+        { slug: "rechte-und-shell-kontext", title: "Rechte und Shell-Kontext", description: "Dateirechte, Umgebungsvariablen und PATH werden hier als zusammenhängender Systemkontext gelesen.", icon: iconMap.shield, chips: ["Rechte", "PATH", "Variablen"], searchAliases: ["rechte", "chmod", "path", "umgebungsvariablen"], prefixes: [["shell", "umgebungsvariablen-und-path"], ["shell", "dateirechte-mit-ls-stat-und-chmod-lesen"], ["system", "dateirechte"], ["system", "benutzer-und-gruppen"], ["system", "benutzer-und-gruppen-grundlagen"]] },
+        { slug: "arbeitsablauf-und-editor", title: "Arbeitsablauf und Editor", description: "Hier geht es um ruhiges Arbeiten im Terminal, kleine Dateischritte und den Einstieg in den Editor nano.", icon: iconMap.form, chips: ["nano", "Dateien", "Ablauf"], searchAliases: ["nano", "arbeitsablauf", "editor", "dateien"], prefixes: [["praxis", "terminal-nutzen"], ["praxis", "nano"], ["shell", "dateien-und-ordner"], ["shell", "hilfe-im-terminal"]] },
       ],
     },
   ],
@@ -114,6 +114,30 @@ const fallbackDescription = "Hier liegen die passenden Wissensseiten und Aufgabe
 const isPrefixMatch = (prefix: string[], target: string[]) =>
   prefix.length <= target.length && prefix.every((segment, index) => target[index] === segment);
 
+const uniquePaths = (paths: string[][]) => {
+  const seen = new Set<string>();
+  return paths.filter((path) => {
+    const key = path.join("/");
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+};
+
+const getPathPrefixes = (path: string[]) => path.map((_, index) => path.slice(0, index + 1));
+
+const getCommonPathPrefix = (paths: string[][]) => {
+  if (paths.length === 0) return [];
+  let prefix = [...paths[0]];
+  for (const path of paths.slice(1)) {
+    let index = 0;
+    while (index < prefix.length && index < path.length && prefix[index] === path[index]) index += 1;
+    prefix = prefix.slice(0, index);
+    if (prefix.length === 0) break;
+  }
+  return prefix;
+};
+
 const nodeMatchesEntry = (node: AreaNodeDefinition, entry: TopicEntry): boolean => {
   const tail = getTopicTail(entry);
   if (node.children && node.children.some((child) => nodeMatchesEntry(child, entry))) return true;
@@ -140,29 +164,39 @@ const resolveAreaPathForEntry = (nodes: AreaNodeDefinition[], entry: TopicEntry,
   return [];
 };
 
+const getLegacyTopicPathsForEntry = (entry: TopicEntry) => {
+  const paths: string[][] = [];
+  const tail = getTopicTail(entry);
+  if (tail.length > 0) paths.push(...getPathPrefixes(tail));
+
+  if (entry.collection === "exercises") {
+    const overview = getTopicOverviewPath(entry);
+    if (overview.length > 0) paths.push(...getPathPrefixes(overview));
+  }
+
+  return uniquePaths(paths);
+};
+
 export const getAreaPathForEntry = (subjectSlug: string, entry: TopicEntry) =>
   resolveAreaPathForEntry(areaNodesBySubject[subjectSlug as PrimarySubjectSlug] ?? [], entry);
 
-export const getAreaAliasPathsForEntry = (entry: TopicEntry) => {
-  const candidates = entry.collection === "articles"
-    ? [getTopicTail(entry)]
-    : [getTopicOverviewPath(entry), getTopicTail(entry)];
+export const getAreaAliasPathsForEntry = (subjectSlug: string, entry: TopicEntry) => {
+  const areaPath = getAreaPathForEntry(subjectSlug, entry);
+  return getLegacyTopicPathsForEntry(entry).filter((path) => path.join("/") !== areaPath.join("/"));
+};
 
-  const seen = new Set<string>();
-  const aliasPaths: string[][] = [];
+export const resolveAreaPathFromRequestedPath = (subjectSlug: string, requestedPath: string[], entries: TopicEntry[]) => {
+  if (requestedPath.length === 0) return [];
+  const matchingEntries = entries.filter((entry) =>
+    getAreaAliasPathsForEntry(subjectSlug, entry).some((path) => path.join("/") === requestedPath.join("/")),
+  );
 
-  for (const parts of candidates) {
-    for (let length = 1; length <= parts.length; length += 1) {
-      const alias = parts.slice(0, length);
-      if (alias.length === 0) continue;
-      const key = alias.join("/");
-      if (seen.has(key)) continue;
-      seen.add(key);
-      aliasPaths.push(alias);
-    }
-  }
+  if (matchingEntries.length === 0) return [];
+  const mappedPaths = matchingEntries
+    .map((entry) => getAreaPathForEntry(subjectSlug, entry))
+    .filter((path) => path.length > 0);
 
-  return aliasPaths;
+  return getCommonPathPrefix(mappedPaths);
 };
 
 export const getAreaTopicLabelForEntry = (subjectSlug: string, entry: TopicEntry) => {

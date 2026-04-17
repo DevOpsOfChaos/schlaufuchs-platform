@@ -2,7 +2,15 @@
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { getVisibleArticles, getVisibleExercises, levelLabels } from "../../../data/content";
 import { resolvePrimarySubjectSlug, subjectTitleMap, getSubjectMeta } from "../../../data/subjects";
-import { getAreaAliasPathsForEntry, getAreaEntriesForPath, getAreaPathForEntry, getAreaTopicTitle, getVisibleAreaCards } from "../../../data/areaStructure";
+import {
+  getAreaAliasPathsForEntry,
+  getAreaEntriesForPath,
+  getAreaNode,
+  getAreaPathForEntry,
+  getAreaTopicTitle,
+  getVisibleAreaCards,
+  resolveAreaPathFromRequestedPath,
+} from "../../../data/areaStructure";
 import { withBase, withBaseAsset } from "../../../utils/base";
 import PageTrail from "../../../components/content/PageTrail.astro";
 import AreaSearchHero from "../../../components/content/AreaSearchHero.astro";
@@ -28,6 +36,15 @@ const collectVisibleTopicPaths = (
   return cards.flatMap((card) => [card.path, ...collectVisibleTopicPaths(subjectSlug, entries, card.path)]);
 };
 
+const uniquePaths = (paths: string[][]) => {
+  const seen = new Set<string>();
+  return paths.filter((path) => {
+    const key = path.join("/");
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+};
 
 export async function getStaticPaths() {
   const [articles, exercises] = await Promise.all([getVisibleArticles(), getVisibleExercises()]);
@@ -43,33 +60,25 @@ export async function getStaticPaths() {
 
   const pathMap = new Map<string, { params: { subject: string; parts: string }; props: PageProps }>();
 
+  const addPath = (subjectSlug: string, parts: string[]) => {
+    if (parts.length === 0) return;
+    const key = `${subjectSlug}/${parts.join("/")}`;
+    if (pathMap.has(key)) return;
+    pathMap.set(key, {
+      params: { subject: subjectSlug, parts: parts.join("/") },
+      props: { subjectSlug, parts },
+    });
+  };
+
   for (const [subjectSlug, entries] of entriesBySubject.entries()) {
-    for (const parts of collectVisibleTopicPaths(subjectSlug, entries)) {
-      const key = `${subjectSlug}/${parts.join("/")}`;
-      if (pathMap.has(key)) continue;
-      pathMap.set(key, {
-        params: { subject: subjectSlug, parts: parts.join("/") },
-        props: { subjectSlug, parts },
-      });
-    }
+    const visiblePaths = collectVisibleTopicPaths(subjectSlug, entries);
+    const aliasPaths = entries.flatMap((entry) => {
+      const areaPath = getAreaPathForEntry(subjectSlug, entry);
+      const aliases = getAreaAliasPathsForEntry(subjectSlug, entry);
+      return areaPath.length > 0 ? [areaPath, ...aliases] : aliases;
+    });
 
-    for (const entry of entries) {
-      const canonicalParts = getAreaPathForEntry(subjectSlug, entry);
-      if (canonicalParts.length === 0) continue;
-
-      for (const aliasParts of getAreaAliasPathsForEntry(entry)) {
-        if (aliasParts.length === 0) continue;
-        if (aliasParts.join("/") === canonicalParts.join("/")) continue;
-
-        const aliasKey = `${subjectSlug}/${aliasParts.join("/")}`;
-        if (pathMap.has(aliasKey)) continue;
-
-        pathMap.set(aliasKey, {
-          params: { subject: subjectSlug, parts: aliasParts.join("/") },
-          props: { subjectSlug, parts: canonicalParts },
-        });
-      }
-    }
+    for (const parts of uniquePaths([...visiblePaths, ...aliasPaths])) addPath(subjectSlug, parts);
   }
 
   return [...pathMap.values()];
@@ -83,14 +92,20 @@ const imageSrc = detail ? withBaseAsset(`assets/mascots/${detail.icon}`) : undef
 const [allArticles, allExercises] = await Promise.all([getVisibleArticles(), getVisibleExercises()]);
 const subjectArticles = allArticles.filter((entry) => resolvePrimarySubjectSlug(entry.data.subject) === subjectSlug);
 const subjectExercises = allExercises.filter((entry) => resolvePrimarySubjectSlug(entry.data.subject) === subjectSlug);
+const combinedEntries = [...subjectArticles, ...subjectExercises];
+
+const effectiveParts = getAreaNode(subjectSlug, normalizedParts)
+  ? normalizedParts
+  : resolveAreaPathFromRequestedPath(subjectSlug, normalizedParts, combinedEntries);
+
+const activeParts = effectiveParts.length > 0 ? effectiveParts : normalizedParts;
 
 const sortByTitle = <T extends { data: { title: string } }>(items: T[]) =>
   [...items].sort((a, b) => a.data.title.localeCompare(b.data.title, "de"));
 
-const combinedEntries = [...subjectArticles, ...subjectExercises];
-const childCards = getVisibleAreaCards(subjectSlug, normalizedParts, combinedEntries);
-const directArticles = sortByTitle(getAreaEntriesForPath(subjectSlug, normalizedParts, subjectArticles));
-const directExercises = sortByTitle(getAreaEntriesForPath(subjectSlug, normalizedParts, subjectExercises));
+const childCards = getVisibleAreaCards(subjectSlug, activeParts, combinedEntries);
+const directArticles = sortByTitle(getAreaEntriesForPath(subjectSlug, activeParts, subjectArticles));
+const directExercises = sortByTitle(getAreaEntriesForPath(subjectSlug, activeParts, subjectExercises));
 const hasChildTopics = childCards.length > 0;
 const isLeafPage = !hasChildTopics;
 const accentOrder = ["a", "b", "c", "d", "e", "f"] as const;
@@ -98,8 +113,8 @@ const getAccent = (index: number) => accentOrder[index % accentOrder.length];
 
 const trail = [
   { label: subjectTitle, href: withBase(`fachbereiche/${subjectSlug}`) },
-  ...normalizedParts.map((_, index) => {
-    const path = normalizedParts.slice(0, index + 1);
+  ...activeParts.map((_, index) => {
+    const path = activeParts.slice(0, index + 1);
     return {
       label: getAreaTopicTitle(subjectSlug, path),
       href: withBase(`fachbereiche/${subjectSlug}/${path.join("/")}`),
@@ -107,11 +122,11 @@ const trail = [
   }),
 ];
 
-const parentPath = normalizedParts.slice(0, -1);
+const parentPath = activeParts.slice(0, -1);
 const backHref = parentPath.length > 0
   ? withBase(`fachbereiche/${subjectSlug}/${parentPath.join("/")}`)
   : withBase(`fachbereiche/${subjectSlug}`);
-const pageTitle = getAreaTopicTitle(subjectSlug, normalizedParts);
+const pageTitle = getAreaTopicTitle(subjectSlug, activeParts);
 const isEmptyLeaf = isLeafPage && directArticles.length === 0 && directExercises.length === 0;
 ---
 
