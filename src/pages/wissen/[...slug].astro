@@ -83,7 +83,6 @@ const taskIcon = `
     <PageTrail backHref={backHref} trail={trail} />
 
     <section class="article-hero">
-      <p class="eyebrow">Wissensseite</p>
       <div class="hero-meta-row">
         <span class="meta-chip">{subjectTitle}</span>
         <span class="meta-chip">{levelLabels[entry.data.level]}</span>
@@ -114,13 +113,10 @@ const taskIcon = `
     {hasSupportContent && (
       <section class="followup-section wide-bleed">
         <SectionHeading kicker="Weiterarbeiten" title="Nach dem Lesen weiterarbeiten" />
-        <p class="followup-intro">
-          Hier findest du nur die Dinge, die dir beim Anwenden und Wiederholen helfen. Keine zweite Einleitung, sondern direkt der nächste sinnvolle Schritt.
-        </p>
         <div class="followup-grid">
           <PracticeIdeas items={practiceIdeas} />
           <RecognizeSignals items={recognizeSignals} />
-          <SelfCheckChecklist items={selfCheckPoints} title="Kurz prüfen, ob es sitzt" kicker="Selbstcheck" />
+          <SelfCheckChecklist items={selfCheckPoints} title="Kurz prüfen" kicker="Selbstcheck" />
           <CommonMistakes items={commonMistakes} />
           <KeyTakeaways items={keyTakeaways} />
         </div>
@@ -129,11 +125,7 @@ const taskIcon = `
 
     {relatedExercises.length > 0 && (
       <section class="related-section">
-        <SectionHeading kicker="Aufgaben" title="Passende Aufgaben" />
-        <p class="related-intro">
-          Diese Aufgaben liegen im gleichen Themenfeld. Es werden immer vier Karten gleichzeitig gezeigt, damit der Bereich nicht zu schwer wird.
-        </p>
-
+        <SectionHeading kicker="Üben" title="Passende Aufgaben" />
         <div class="pager-shell" data-card-pager data-page-size="4">
           <div class="related-grid" data-pager-grid>
             {relatedExercises.map((item, index) => (
@@ -143,10 +135,11 @@ const taskIcon = `
                   description={item.data.description}
                   meta={levelLabels[item.data.level]}
                   href={withBase(`aufgaben/${item.id}`)}
-                  ctaLabel="Aufgabe öffnen →"
+                  ctaLabel="Öffnen →"
                   icon={taskIcon}
                   variant="task"
                   accent={getAccent(index)}
+                  compact={true}
                 />
               </div>
             ))}
@@ -219,56 +212,31 @@ const taskIcon = `
 </script>
 
 <style>
-  .page-shell { display: grid; gap: 1.2rem; }
-  .article-hero { display:grid; gap: .95rem; }
-  .eyebrow { margin: 0; color: var(--text-soft); font-size: 0.92rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
-  .hero-meta-row { display: flex; flex-wrap: wrap; gap: 0.55rem; }
-  .meta-chip { display: inline-flex; align-items: center; min-height: 2rem; padding: 0.12rem 0.72rem; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text-strong); font-size: 0.84rem; font-weight: 700; }
-  h1 { margin: 0; color: var(--text-strong); font-size: clamp(2.35rem, 4.6vw, 4rem); line-height: 0.98; letter-spacing: -0.045em; }
-  .lead { margin: 0; color: var(--text); line-height: 1.8; font-size: 1.05rem; max-width: 62rem; }
+  .page-shell { display: grid; gap: 1.1rem; }
+  .article-hero { display:grid; gap: .85rem; }
+  .hero-meta-row { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .meta-chip { display: inline-flex; align-items: center; min-height: 1.9rem; padding: 0.08rem 0.68rem; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text-strong); font-size: 0.82rem; font-weight: 700; }
+  h1 { margin: 0; color: var(--text-strong); font-size: clamp(2.1rem, 4.1vw, 3.7rem); line-height: 0.98; letter-spacing: -0.045em; }
+  .lead { margin: 0; color: var(--text); line-height: 1.76; font-size: 1.02rem; max-width: 58rem; }
   .hero-actions { display:flex; gap:.7rem; flex-wrap:wrap; align-items:center; }
-  .topic-link {
-    display: inline-flex;
-    align-items: center;
-    min-height: 2.55rem;
-    padding: 0 0.9rem;
-    border-radius: 999px;
-    border: 1px solid var(--border);
-    background: var(--surface);
-    color: var(--text-strong);
-    font-weight: 700;
-    box-shadow: var(--shadow-soft);
-    width: fit-content;
-  }
-  .hero-note {
-    display:inline-flex;
-    align-items:center;
-    min-height:2.1rem;
-    padding:0 .75rem;
-    border-radius:999px;
-    background:color-mix(in oklab, var(--surface) 88%, white 12%);
-    border:1px solid var(--border);
-    color:var(--text-soft);
-    font-size:.9rem;
-    font-weight:700;
-  }
-  .article-shell, .related-section, .interactive-section, .followup-section { display: grid; gap: 1rem; }
-  .article-content { padding: clamp(1.35rem, 2vw, 2rem); border: 1px solid var(--border); border-radius: 30px; background: var(--card-bg); box-shadow: var(--shadow-card); overflow: hidden; }
-  .followup-intro, .related-intro { margin: 0; color: var(--text); line-height: 1.72; max-width: 70rem; }
-  .followup-grid { display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:1rem; align-items:start; }
-  .related-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
-  .pager-shell { display:grid; gap:1rem; }
+  .topic-link { display: inline-flex; align-items: center; min-height: 2.45rem; padding: 0 0.85rem; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text-strong); font-weight: 700; box-shadow: var(--shadow-soft); width: fit-content; }
+  .hero-note { display:inline-flex; align-items:center; min-height:2rem; padding:0 .7rem; border-radius:999px; background:color-mix(in oklab, var(--surface) 88%, white 12%); border:1px solid var(--border); color:var(--text-soft); font-size:.88rem; font-weight:700; }
+  .article-shell, .related-section, .interactive-section, .followup-section { display: grid; gap: .9rem; }
+  .article-content { padding: clamp(1.2rem, 2vw, 1.8rem); border: 1px solid var(--border); border-radius: 28px; background: var(--card-bg); box-shadow: var(--shadow-card); overflow: hidden; }
+  .followup-grid { display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:.9rem; align-items:start; }
+  .related-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .85rem; }
+  .pager-shell { display:grid; gap:.9rem; }
   .pager-controls { display:flex; align-items:center; justify-content:flex-end; gap:.7rem; flex-wrap:wrap; }
-  .pager-button { display:inline-flex; align-items:center; min-height:2.55rem; padding:0 .85rem; border-radius:999px; border:1px solid var(--border); background:var(--surface); color:var(--text-strong); font-weight:700; cursor:pointer; }
+  .pager-button { display:inline-flex; align-items:center; min-height:2.45rem; padding:0 .8rem; border-radius:999px; border:1px solid var(--border); background:var(--surface); color:var(--text-strong); font-weight:700; cursor:pointer; }
   .pager-button:disabled { opacity:.45; cursor:default; }
   .pager-status { color:var(--text-soft); font-weight:700; }
-  .article-content :global(h2) { margin-top: 1.7rem; color: var(--text-strong); font-size: clamp(1.4rem, 2.3vw, 1.8rem); line-height: 1.15; }
+  .article-content :global(h2) { margin-top: 1.6rem; color: var(--text-strong); font-size: clamp(1.35rem, 2.2vw, 1.72rem); line-height: 1.15; }
   .article-content :global(h2:first-child) { margin-top: 0; }
-  .article-content :global(h3) { margin-top: 1.15rem; color: var(--text-strong); font-size: 1.1rem; line-height: 1.2; }
-  .article-content :global(p), .article-content :global(li) { color: var(--text); line-height: 1.82; font-size: 1rem; }
+  .article-content :global(h3) { margin-top: 1.05rem; color: var(--text-strong); font-size: 1.06rem; line-height: 1.2; }
+  .article-content :global(p), .article-content :global(li) { color: var(--text); line-height: 1.8; font-size: 0.99rem; }
   .article-content :global(ul), .article-content :global(ol) { padding-left: 1.2rem; }
   .article-content :global(pre) { overflow-x: auto; }
-  @media (max-width: 980px) {
+  @media (max-width: 1040px) {
     .followup-grid, .related-grid { grid-template-columns: 1fr; }
     .pager-controls { justify-content:flex-start; }
   }

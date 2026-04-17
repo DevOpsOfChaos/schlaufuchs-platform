@@ -7,31 +7,30 @@ const { items } = Astro.props as Props;
 ---
 
 {items.length > 0 && (
-  <article class="support-box transfer-box">
+  <section class="transfer-box">
     <p class="box-kicker">Transfer</p>
-    <h3>So ziehst du das Thema weiter</h3>
+    <h3>So ziehst du es weiter</h3>
     <ul>
       {items.map((item) => <li>{item}</li>)}
     </ul>
-  </article>
+  </section>
 )}
 
 <style>
-  .support-box {
+  .transfer-box {
     display: grid;
-    gap: 0.8rem;
+    gap: 0.75rem;
     padding: 1.15rem;
     border: 1px solid var(--border);
     border-radius: 24px;
-    background: color-mix(in oklab, var(--card-bg) 96%, #f5f3ff 4%);
+    background: linear-gradient(135deg, rgba(117,156,124,0.14), rgba(240,248,241,0.96));
     box-shadow: var(--shadow-soft);
-    min-height: 100%;
   }
 
   .box-kicker {
     margin: 0;
     color: var(--text-soft);
-    font-size: 0.82rem;
+    font-size: 0.8rem;
     font-weight: 800;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -41,7 +40,7 @@ const { items } = Astro.props as Props;
     margin: 0;
     color: var(--text-strong);
     font-size: 1.08rem;
-    line-height: 1.2;
+    line-height: 1.15;
   }
 
   ul {
@@ -49,14 +48,14 @@ const { items } = Astro.props as Props;
     margin: 0;
     padding: 0;
     display: grid;
-    gap: 0.68rem;
+    gap: 0.65rem;
   }
 
   li {
     position: relative;
-    padding-left: 1.2rem;
+    padding-left: 1rem;
     color: var(--text);
-    line-height: 1.66;
+    line-height: 1.6;
   }
 
   li::before {
@@ -64,7 +63,7 @@ const { items } = Astro.props as Props;
     position: absolute;
     left: 0;
     top: 0;
-    color: var(--accent);
+    color: var(--text-strong);
     font-weight: 800;
   }
 </style>

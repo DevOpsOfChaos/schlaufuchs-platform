@@ -84,7 +84,6 @@ const articleIcon = `
     <PageTrail backHref={backHref} trail={trail} />
 
     <section class="exercise-hero">
-      <p class="eyebrow">Aufgabe</p>
       <div class="hero-meta-row">
         <span class="meta-chip">{subjectTitle}</span>
         <span class="meta-chip">{levelLabels[entry.data.level]}</span>
@@ -95,7 +94,7 @@ const articleIcon = `
       <p class="lead">{entry.data.description}</p>
       <div class="hero-actions">
         <a class="hero-link" href={topicPathHref}>Zum Fachthema →</a>
-        <a class="hero-link secondary" href={printHref}>Druckansicht öffnen →</a>
+        <a class="hero-link secondary" href={printHref}>Druckansicht →</a>
       </div>
     </section>
 
@@ -108,12 +107,9 @@ const articleIcon = `
     {hasSupportContent && (
       <section class="support-section wide-bleed">
         <SectionHeading kicker="Unterstützung" title="Hilfen und Kontrolle" />
-        <p class="support-intro">
-          Alles, was dir beim Lösen, Prüfen und Weiterdenken hilft, steht gesammelt an einer Stelle. Dadurch wirkt die Aufgabe weniger zerstückelt.
-        </p>
         <div class="support-grid">
           <SupportChecklist title="Worauf du achten kannst" kicker="Hinweise" items={hintPoints} />
-          <SupportChecklist title="Am Ende prüfen" kicker="Selbstkontrolle" items={selfCheckPoints} />
+          <SupportChecklist title="Am Ende prüfen" kicker="Selbstcheck" items={selfCheckPoints} />
           <TransferIdeas items={transferIdeas} />
           {reflectionPrompt && <ReflectionPrompt prompt={reflectionPrompt} />}
         </div>
@@ -122,8 +118,7 @@ const articleIcon = `
 
     {relatedArticles.length > 0 && (
       <section class="related-section">
-        <SectionHeading kicker="Wissensseiten" title="Passende Wissensseiten" />
-        <p class="related-intro">Diese Wissensseiten helfen dir genau bei diesem Aufgabentyp weiter.</p>
+        <SectionHeading kicker="Lernen" title="Passende Erklärungen" />
         <div class="related-grid">
           {relatedArticles.map((item, index) => (
             <ResourceCard
@@ -131,10 +126,11 @@ const articleIcon = `
               description={item.data.description}
               meta={getTopicDisplayLabel(item)}
               href={withBase(`wissen/${item.id}`)}
-              ctaLabel="Wissensseite öffnen →"
+              ctaLabel="Öffnen →"
               icon={articleIcon}
               variant="article"
               accent={getAccent(index)}
+              compact={true}
             />
           ))}
         </div>
@@ -143,11 +139,7 @@ const articleIcon = `
 
     {relatedExercises.length > 0 && (
       <section class="related-section">
-        <SectionHeading kicker="Weitere Aufgaben" title="Mehr Aufgaben im gleichen Themenfeld" />
-        <p class="related-intro">
-          Es werden immer vier Aufgaben gleichzeitig gezeigt. Über die Pfeile kannst du durch die nächsten vier wechseln, ohne dass die Seite endlos lang wird.
-        </p>
-
+        <SectionHeading kicker="Mehr üben" title="Weitere Aufgaben" />
         <div class="pager-shell" data-card-pager data-page-size="4">
           <div class="related-grid" data-pager-grid>
             {relatedExercises.map((item, index) => (
@@ -157,10 +149,11 @@ const articleIcon = `
                   description={item.data.description}
                   meta={levelLabels[item.data.level]}
                   href={withBase(`aufgaben/${item.id}`)}
-                  ctaLabel="Aufgabe öffnen →"
+                  ctaLabel="Öffnen →"
                   icon={taskIcon}
                   variant="task"
                   accent={getAccent(index)}
+                  compact={true}
                 />
               </div>
             ))}
@@ -233,33 +226,31 @@ const articleIcon = `
 </script>
 
 <style>
-  .page-shell { display: grid; gap: 1.15rem; }
-  .exercise-hero { display:grid; gap:.95rem; }
-  .eyebrow { margin: 0; color: var(--text-soft); font-size: 0.92rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
-  .hero-meta-row { display: flex; flex-wrap: wrap; gap: 0.55rem; }
-  .meta-chip { display: inline-flex; align-items: center; min-height: 2rem; padding: 0.12rem 0.72rem; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text-strong); font-size: 0.84rem; font-weight: 700; }
-  h1 { margin: 0; color: var(--text-strong); font-size: clamp(2.35rem, 4.5vw, 3.95rem); line-height: 0.98; letter-spacing: -0.045em; }
-  .lead { margin: 0; color: var(--text); line-height: 1.78; font-size: 1.05rem; max-width: 58rem; }
+  .page-shell { display: grid; gap: 1.1rem; }
+  .exercise-hero { display:grid; gap:.85rem; }
+  .hero-meta-row { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .meta-chip { display: inline-flex; align-items: center; min-height: 1.9rem; padding: 0.08rem 0.68rem; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text-strong); font-size: 0.82rem; font-weight: 700; }
+  h1 { margin: 0; color: var(--text-strong); font-size: clamp(2.1rem, 4vw, 3.7rem); line-height: 0.98; letter-spacing: -0.045em; }
+  .lead { margin: 0; color: var(--text); line-height: 1.76; font-size: 1.02rem; max-width: 58rem; }
   .hero-actions { display:flex; gap:.7rem; flex-wrap:wrap; }
-  .hero-link { display: inline-flex; align-items: center; min-height: 2.7rem; padding: 0 0.95rem; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text-strong); font-weight: 700; box-shadow: var(--shadow-soft); }
+  .hero-link { display: inline-flex; align-items: center; min-height: 2.45rem; padding: 0 0.85rem; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text-strong); font-weight: 700; box-shadow: var(--shadow-soft); }
   .hero-link.secondary { background:transparent; box-shadow:none; }
-  .exercise-shell, .related-section, .support-section { display: grid; gap: 1rem; }
-  .exercise-content { padding: clamp(1.3rem, 2vw, 2rem); border: 1px solid var(--border); border-radius: 30px; background: var(--card-bg); box-shadow: var(--shadow-card); overflow: hidden; }
-  .support-intro, .related-intro { margin: 0; color: var(--text); line-height: 1.7; max-width: 70rem; }
-  .support-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
-  .related-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
-  .pager-shell { display:grid; gap:1rem; }
+  .exercise-shell, .related-section, .support-section { display: grid; gap: .9rem; }
+  .exercise-content { padding: clamp(1.2rem, 2vw, 1.8rem); border: 1px solid var(--border); border-radius: 28px; background: var(--card-bg); box-shadow: var(--shadow-card); overflow: hidden; }
+  .support-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .9rem; }
+  .related-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .85rem; }
+  .pager-shell { display:grid; gap:.9rem; }
   .pager-controls { display:flex; align-items:center; justify-content:flex-end; gap:.7rem; flex-wrap:wrap; }
-  .pager-button { display:inline-flex; align-items:center; min-height:2.55rem; padding:0 .85rem; border-radius:999px; border:1px solid var(--border); background:var(--surface); color:var(--text-strong); font-weight:700; cursor:pointer; }
+  .pager-button { display:inline-flex; align-items:center; min-height:2.45rem; padding:0 .8rem; border-radius:999px; border:1px solid var(--border); background:var(--surface); color:var(--text-strong); font-weight:700; cursor:pointer; }
   .pager-button:disabled { opacity:.45; cursor:default; }
   .pager-status { color:var(--text-soft); font-weight:700; }
-  .exercise-content :global(h2) { margin-top: 1.8rem; color: var(--text-strong); font-size: clamp(1.42rem, 2.35vw, 1.82rem); line-height: 1.15; }
+  .exercise-content :global(h2) { margin-top: 1.6rem; color: var(--text-strong); font-size: clamp(1.35rem, 2.2vw, 1.72rem); line-height: 1.15; }
   .exercise-content :global(h2:first-child) { margin-top: 0; }
-  .exercise-content :global(h3) { margin-top: 1.15rem; color: var(--text-strong); font-size: 1.1rem; line-height: 1.2; }
-  .exercise-content :global(p), .exercise-content :global(li) { color: var(--text); line-height: 1.82; font-size: 1rem; }
+  .exercise-content :global(h3) { margin-top: 1.05rem; color: var(--text-strong); font-size: 1.06rem; line-height: 1.2; }
+  .exercise-content :global(p), .exercise-content :global(li) { color: var(--text); line-height: 1.8; font-size: 0.99rem; }
   .exercise-content :global(ul), .exercise-content :global(ol) { padding-left: 1.2rem; }
   .exercise-content :global(pre) { overflow-x: auto; }
-  @media (max-width: 980px) {
+  @media (max-width: 1040px) {
     .support-grid, .related-grid { grid-template-columns: 1fr; }
     .pager-controls { justify-content:flex-start; }
   }

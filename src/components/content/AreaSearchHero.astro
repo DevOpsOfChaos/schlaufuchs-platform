@@ -2,10 +2,11 @@
 interface Props {
   title: string;
   scopeLabel: string;
-  searchPlaceholder: string;
   imageSrc?: string;
   imageAlt?: string;
   tone?: string;
+  showSearch?: boolean;
+  searchPlaceholder?: string;
   inputName?: string;
   searchHint?: string;
 }
@@ -13,10 +14,11 @@ interface Props {
 const {
   title,
   scopeLabel,
-  searchPlaceholder,
   imageSrc,
   imageAlt = "",
   tone = "math",
+  showSearch = false,
+  searchPlaceholder = "",
   inputName = "area-search",
   searchHint = "",
 } = Astro.props as Props;
@@ -26,15 +28,20 @@ const {
   <div class="hero-copy">
     <p class="eyebrow">{scopeLabel}</p>
     <h1>{title}</h1>
-    <label class="search-shell" data-area-search-label>
-      <span class="sr-only">{searchPlaceholder}</span>
-      <svg viewBox="0 0 24 24" aria-hidden="true">
-        <circle cx="11" cy="11" r="6.5"></circle>
-        <path d="M16 16l4.5 4.5"></path>
-      </svg>
-      <input data-area-search-input name={inputName} type="search" placeholder={searchPlaceholder} autocomplete="off" />
-    </label>
-    {searchHint && <p class="search-hint">{searchHint}</p>}
+
+    {showSearch && (
+      <>
+        <label class="search-shell" data-area-search-label>
+          <span class="sr-only">{searchPlaceholder}</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="11" cy="11" r="6.5"></circle>
+            <path d="M16 16l4.5 4.5"></path>
+          </svg>
+          <input data-area-search-input name={inputName} type="search" placeholder={searchPlaceholder} autocomplete="off" />
+        </label>
+        {searchHint && <p class="search-hint">{searchHint}</p>}
+      </>
+    )}
   </div>
 
   <div class="hero-visual" aria-hidden={imageSrc ? undefined : "true"}>
@@ -57,26 +64,27 @@ const {
 
   .area-hero {
     display: grid;
-    grid-template-columns: minmax(0, 1.15fr) minmax(13rem, 17rem);
-    gap: 1rem 1.2rem;
+    grid-template-columns: minmax(0, 1fr) minmax(8rem, 11rem);
+    gap: 1rem;
     align-items: center;
-    padding: 1.2rem 1.25rem;
-    border: 1px solid var(--border-strong);
-    border-radius: 30px;
+    padding: 1rem 1.1rem;
+    border: 1px solid var(--border);
+    border-radius: 28px;
     box-shadow: var(--shadow-soft);
   }
 
   .hero-copy {
     display: grid;
-    gap: 0.85rem;
+    gap: 0.7rem;
     align-content: start;
+    min-width: 0;
   }
 
   .eyebrow {
     margin: 0;
     color: var(--text-soft);
-    font-size: 0.88rem;
-    font-weight: 700;
+    font-size: 0.86rem;
+    font-weight: 800;
     letter-spacing: 0.05em;
     text-transform: uppercase;
   }
@@ -84,28 +92,28 @@ const {
   h1 {
     margin: 0;
     color: var(--text-strong);
-    font-size: clamp(2.15rem, 4vw, 3.5rem);
+    font-size: clamp(2rem, 3.8vw, 3.2rem);
     line-height: 0.98;
-    letter-spacing: -0.045em;
+    letter-spacing: -0.04em;
+    max-width: 11ch;
   }
 
   .search-shell {
     display: grid;
     grid-template-columns: auto minmax(0, 1fr);
     align-items: center;
-    gap: 0.8rem;
-    min-height: 3.55rem;
-    padding: 0 1rem;
-    border: 1px solid rgba(255, 255, 255, 0.42);
-    border-radius: 24px;
-    background: rgba(255, 255, 255, 0.72);
+    gap: 0.7rem;
+    min-height: 3.25rem;
+    padding: 0 0.9rem;
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    background: color-mix(in oklab, var(--card-bg) 86%, white 14%);
     box-shadow: var(--shadow-soft);
-    backdrop-filter: blur(10px);
   }
 
   .search-shell svg {
-    width: 1.15rem;
-    height: 1.15rem;
+    width: 1.05rem;
+    height: 1.05rem;
     stroke: var(--text-soft);
     fill: none;
     stroke-width: 1.8;
@@ -128,33 +136,32 @@ const {
 
   .search-hint {
     margin: 0;
-    color: var(--text-muted);
-    font-size: 0.92rem;
+    color: var(--text-soft);
+    font-size: 0.9rem;
     line-height: 1.5;
-    max-width: 40rem;
   }
 
   .hero-visual {
     display: grid;
-    place-items: end center;
-    min-height: 13.5rem;
+    place-items: center;
+    min-height: 8rem;
     overflow: hidden;
   }
 
   .hero-visual img,
   .image-placeholder {
     width: 100%;
-    max-width: 16rem;
+    max-width: 9.5rem;
     height: auto;
     display: block;
     object-fit: contain;
   }
 
-  .area-hero.math { background: linear-gradient(135deg, rgba(90, 113, 209, 0.26), rgba(235, 241, 255, 0.95)); }
-  .area-hero.web { background: linear-gradient(135deg, rgba(197, 140, 167, 0.24), rgba(252, 239, 246, 0.95)); }
-  .area-hero.cs { background: linear-gradient(135deg, rgba(96, 153, 176, 0.24), rgba(234, 247, 250, 0.95)); }
-  .area-hero.linux { background: linear-gradient(135deg, rgba(190, 171, 88, 0.26), rgba(250, 245, 226, 0.96)); }
-  .area-hero.ee { background: linear-gradient(135deg, rgba(205, 143, 124, 0.24), rgba(252, 239, 234, 0.95)); }
+  .area-hero.math { background: linear-gradient(135deg, rgba(93,113,175,0.24), rgba(232,237,248,0.9)); }
+  .area-hero.web { background: linear-gradient(135deg, rgba(173,144,156,0.22), rgba(245,239,241,0.9)); }
+  .area-hero.cs { background: linear-gradient(135deg, rgba(95,139,158,0.22), rgba(235,244,247,0.9)); }
+  .area-hero.linux { background: linear-gradient(135deg, rgba(175,163,122,0.22), rgba(242,239,230,0.9)); }
+  .area-hero.ee { background: linear-gradient(135deg, rgba(173,147,144,0.2), rgba(244,236,235,0.9)); }
 
   :global(html[data-theme="dark"]) .area-hero.math { background: linear-gradient(135deg, rgba(72,95,164,0.30), rgba(22,31,58,0.94)); }
   :global(html[data-theme="dark"]) .area-hero.web { background: linear-gradient(135deg, rgba(96,72,104,0.24), rgba(49,38,43,0.94)); }
@@ -162,20 +169,37 @@ const {
   :global(html[data-theme="dark"]) .area-hero.linux { background: linear-gradient(135deg, rgba(84,76,44,0.22), rgba(42,39,28,0.94)); }
   :global(html[data-theme="dark"]) .area-hero.ee { background: linear-gradient(135deg, rgba(83,60,58,0.22), rgba(42,29,31,0.94)); }
 
-  @media (max-width: 980px) {
+  @media (max-width: 1040px) {
     .area-hero {
-      grid-template-columns: 1fr;
-      padding: 1.05rem;
+      grid-template-columns: minmax(0, 1fr) 8.5rem;
+      gap: 0.85rem;
+      padding: 0.95rem 1rem;
     }
 
-    .hero-visual {
-      min-height: 9rem;
-      place-items: center;
+    h1 {
+      font-size: clamp(1.8rem, 4.5vw, 2.8rem);
+      max-width: 10ch;
     }
 
     .hero-visual img,
     .image-placeholder {
-      max-width: 11rem;
+      max-width: 8rem;
+    }
+  }
+
+  @media (max-width: 760px) {
+    .area-hero {
+      grid-template-columns: 1fr;
+      padding: 0.95rem;
+    }
+
+    .hero-visual {
+      min-height: 6.5rem;
+    }
+
+    .hero-visual img,
+    .image-placeholder {
+      max-width: 7rem;
     }
   }
 </style>
