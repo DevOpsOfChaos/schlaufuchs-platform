@@ -3,14 +3,8 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { render, type CollectionEntry } from "astro:content";
 import { getVisibleArticles, getVisibleExercises, levelLabels } from "../../data/content";
 import { resolvePrimarySubjectSlug, subjectTitleMap } from "../../data/subjects";
-import {
-  getSectionDisplayLabel,
-  getTopicDisplayLabel,
-  getTopicOverviewPath,
-  getTopicTail,
-  humanizeTopicSegment,
-  rankTopicMatches,
-} from "../../data/topics";
+import { getSectionDisplayLabel, getTopicDisplayLabel, getTopicTail, rankTopicMatches } from "../../data/topics";
+import { getAreaPathForEntry, getAreaTopicTitle } from "../../data/areaStructure";
 import { withBase } from "../../utils/base";
 import PageTrail from "../../components/content/PageTrail.astro";
 import SectionHeading from "../../components/content/SectionHeading.astro";
@@ -33,7 +27,7 @@ const { Content } = await render(entry);
 const subjectTitle = subjectTitleMap[entry.data.subject] ?? "Fachbereich";
 const subjectSlug = resolvePrimarySubjectSlug(entry.data.subject) ?? "elektrotechnik";
 const topicTail = getTopicTail(entry);
-const topicBranch = getTopicOverviewPath(entry);
+const areaPath = getAreaPathForEntry(subjectSlug, entry);
 const practiceIdeas = Array.isArray(entry.data.practiceIdeas) ? entry.data.practiceIdeas.filter(Boolean) : [];
 const commonMistakes = Array.isArray(entry.data.commonMistakes) ? entry.data.commonMistakes.filter(Boolean) : [];
 const keyTakeaways = Array.isArray(entry.data.keyTakeaways) ? entry.data.keyTakeaways.filter(Boolean) : [];
@@ -41,7 +35,7 @@ const recognizeSignals = Array.isArray(entry.data.recognizeSignals) ? entry.data
 const selfCheckPoints = Array.isArray(entry.data.selfCheckPoints) ? entry.data.selfCheckPoints.filter(Boolean) : [];
 
 const allExercises = await getVisibleExercises();
-const entryTopicLabel = getTopicDisplayLabel(entry);
+const entryTopicLabel = areaPath.length > 0 ? getAreaTopicTitle(subjectSlug, areaPath) : getTopicDisplayLabel(entry);
 const entrySectionLabel = getSectionDisplayLabel(entry.data.section);
 
 const rankedExercises = rankTopicMatches(
@@ -58,15 +52,20 @@ const hasSupportContent =
   commonMistakes.length > 0 ||
   keyTakeaways.length > 0;
 
-const breadcrumbSegments = topicBranch.map((segment, index) => ({
-  label: humanizeTopicSegment(segment),
-  href: withBase(`fachbereiche/${subjectSlug}/${topicBranch.slice(0, index + 1).join("/")}`),
-}));
+const breadcrumbSegments = areaPath.map((_, index) => {
+  const path = areaPath.slice(0, index + 1);
+  return {
+    label: getAreaTopicTitle(subjectSlug, path),
+    href: withBase(`fachbereiche/${subjectSlug}/${path.join("/")}`),
+  };
+});
 
 const trail = [{ label: subjectTitle, href: withBase(`fachbereiche/${subjectSlug}`) }, ...breadcrumbSegments];
 
-const backHref = withBase(`fachbereiche/${subjectSlug}`);
-const topicPathHref = topicBranch.length > 0 ? withBase(`fachbereiche/${subjectSlug}/${topicBranch.join("/")}`) : withBase(`fachbereiche/${subjectSlug}`);
+const backHref = areaPath.length > 0
+  ? withBase(`fachbereiche/${subjectSlug}/${areaPath.join("/")}`)
+  : withBase(`fachbereiche/${subjectSlug}`);
+const topicPathHref = backHref;
 const shellScenario = subjectSlug === "linux" ? getLinuxShellScenario(topicTail.join("/")) : null;
 const accentOrder = ["a", "b", "c", "d", "e", "f"] as const;
 const getAccent = (index: number) => accentOrder[index % accentOrder.length];
