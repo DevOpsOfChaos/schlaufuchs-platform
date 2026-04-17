@@ -89,7 +89,7 @@ const isEmptyLeaf = isLeafPage && directArticles.length === 0 && directExercises
 ---
 
 <BaseLayout title={`${pageTitle} – ${subjectTitle} – Schlaufuchs`} description={`${pageTitle} im Bereich ${subjectTitle}.`}>
-  <div class="page-shell" data-area-root data-page-mode={hasChildTopics ? "topics" : "leaf"}>
+  <div class="page-shell" data-area-root data-page-mode={isLeafPage ? "leaf" : "topics"}>
     <PageTrail backHref={backHref} trail={trail} />
 
     <AreaSearchHero
@@ -100,14 +100,14 @@ const isEmptyLeaf = isLeafPage && directArticles.length === 0 && directExercises
       imageAlt={`${subjectTitle} – Fuchsmotiv`}
       tone={detail?.tone ?? "math"}
       inputName={`search-${subjectSlug}-${normalizedParts.join("-") || "root"}`}
-      searchHint={hasChildTopics ? "Die Suche filtert auf dieser Seite nur die Unterthemen." : "Die Suche filtert in diesem Thema Wissensseiten und Aufgaben direkt in den bestehenden Bereichen."}
+      searchHint={hasChildTopics ? "Die Suche filtert auf dieser Seite nur die Unterthemen." : "Die Suche filtert in diesem Thema die Wissensseiten und Aufgaben direkt in den bestehenden Bereichen."}
     />
 
     {isEmptyLeaf ? (
       <EmptyStateCard
         kicker="Kein Inhalt"
         title="Zu diesem Thema liegt aktuell kein direkter Inhalt vor"
-        body="Gehe eine Ebene zurück. Auf dieser Seite sollen erst dann Wissensseiten und Aufgaben erscheinen, wenn das Thema wirklich auf der Endebene angekommen ist."
+        body="Gehe eine Ebene zurück. Wissensseiten und Aufgaben sollen erst auf der echten Endebene erscheinen."
         primaryHref={backHref}
         primaryLabel="Eine Ebene zurück →"
         secondaryHref={withBase(`fachbereiche/${subjectSlug}`)}
@@ -116,7 +116,7 @@ const isEmptyLeaf = isLeafPage && directArticles.length === 0 && directExercises
     ) : (
       <>
         {hasChildTopics && (
-          <AreaSectionSurface variant="topics" data-search-group="topics" data-search-mode="inline-topics">
+          <AreaSectionSurface variant="topics" data-search-group="topics">
             <SectionHeading kicker="Themen" title={`Unterthemen in ${pageTitle}`} />
             <div class="topic-grid">
               {childCards.map((item, index) => (
@@ -138,10 +138,10 @@ const isEmptyLeaf = isLeafPage && directArticles.length === 0 && directExercises
         )}
 
         {isLeafPage && directArticles.length > 0 && (
-          <AreaSectionSurface variant="articles" data-search-group="articles" data-search-mode="inline-section">
+          <AreaSectionSurface variant="articles" data-search-group="articles">
             <SectionHeading kicker="Wissensseiten" title={`Wissensseiten in ${pageTitle}`} />
             <div class="leaf-grid">
-              {directArticles.map((entry) => (
+              {directArticles.map((entry, index) => (
                 <AreaLeafResourceCard
                   title={entry.data.title}
                   description={entry.data.description}
@@ -149,6 +149,7 @@ const isEmptyLeaf = isLeafPage && directArticles.length === 0 && directExercises
                   href={withBase(`wissen/${entry.id}`)}
                   ctaLabel="Wissensseite öffnen →"
                   variant="article"
+                  accent={getAccent(index)}
                   searchText={`${entry.data.title} ${entry.data.description} ${(entry.data.tags ?? []).join(" ")}`}
                 />
               ))}
@@ -157,7 +158,7 @@ const isEmptyLeaf = isLeafPage && directArticles.length === 0 && directExercises
         )}
 
         {isLeafPage && directExercises.length > 0 && (
-          <AreaSectionSurface variant="tasks" data-search-group="tasks" data-search-mode="inline-section">
+          <AreaSectionSurface variant="tasks" data-search-group="tasks">
             <SectionHeading kicker="Aufgaben" title={`Passende Aufgaben in ${pageTitle}`} />
             <div class="leaf-grid">
               {directExercises.map((entry, index) => (
@@ -213,35 +214,29 @@ const isEmptyLeaf = isLeafPage && directArticles.length === 0 && directExercises
             if (match) visible += 1;
           });
 
-          const mode = group.dataset.searchMode ?? "inline-topics";
           const empty = group.querySelector("[data-empty-note]");
-
-          if (mode === "inline-topics") {
-            group.hidden = false;
-            if (empty instanceof HTMLElement) empty.hidden = !searching || visible > 0;
-          } else {
-            group.hidden = searching && visible === 0;
-            if (empty instanceof HTMLElement) empty.hidden = true;
+          if (empty instanceof HTMLElement) {
+            empty.hidden = pageMode !== "topics" || !searching || visible > 0;
           }
 
           if (visible > 0) anyVisible = true;
         });
 
         if (globalEmpty instanceof HTMLElement) {
-          globalEmpty.hidden = pageMode !== "leaf" || !searching || anyVisible;
+          globalEmpty.hidden = !searching || anyVisible;
         }
       };
 
       input.addEventListener("input", runSearch);
-      root.__areaRunSearch = runSearch;
+      (root).__areaRunSearch = runSearch;
       runSearch();
     };
 
     document.querySelectorAll("[data-area-root]").forEach(setupAreaSearch);
     window.addEventListener("pageshow", () => {
       document.querySelectorAll("[data-area-root]").forEach((root) => {
-        if (root && typeof root.__areaRunSearch === "function") {
-          root.__areaRunSearch();
+        if (root && typeof (root).__areaRunSearch === "function") {
+          (root).__areaRunSearch();
         }
       });
     });

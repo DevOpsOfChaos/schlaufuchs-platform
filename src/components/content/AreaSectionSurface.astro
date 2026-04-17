@@ -27,7 +27,7 @@ const { variant = "topics", muted = false } = Astro.props as Props;
   }
 
   .area-surface.articles {
-    background: color-mix(in oklab, var(--card-bg) 96%, var(--surface) 4%);
+    background: linear-gradient(180deg, color-mix(in oklab, var(--card-bg) 96%, white 4%), color-mix(in oklab, var(--card-bg) 98%, var(--surface) 2%));
   }
 
   .area-surface.tasks {
