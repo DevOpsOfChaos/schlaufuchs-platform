@@ -17,57 +17,26 @@ export async function getStaticPaths() {
 }
 
 const { subject } = Astro.props as { subject: CollectionEntry<"subjects"> };
-const detail = getSubjectMeta(subject.data.slug) ?? {
-  tone: "math",
-  icon: "math.png",
-  kicker: "Fachbereich",
-  entry: "",
-  highlights: [],
-  intro: "",
-  sections: [],
-  knowledgeLabel: "Wissensseiten",
-  exerciseLabel: "Aufgaben",
-};
-
-const [articles, exercises] = await Promise.all([
-  getArticlesForSubject(subject.data.slug),
-  getExercisesForSubject(subject.data.slug),
-]);
-
+const detail = getSubjectMeta(subject.data.slug) ?? { tone: "math", icon: "math.png", kicker: "Fachbereich", entry: "", highlights: [], intro: "", sections: [], knowledgeLabel: "Wissensseiten", exerciseLabel: "Aufgaben" };
+const [articles, exercises] = await Promise.all([getArticlesForSubject(subject.data.slug), getExercisesForSubject(subject.data.slug)]);
 const subjectArticles = getEntriesForPrimarySubject(articles, subject.data.slug);
 const subjectExercises = getEntriesForPrimarySubject(exercises, subject.data.slug);
 const combinedEntries = [...subjectArticles, ...subjectExercises];
 const topicCards = getVisibleAreaCards(subject.data.slug, [], combinedEntries, { flattenSingleRoot: true });
 const imageSrc = withBaseAsset(`assets/mascots/${detail.icon}`);
-const accentOrder = ["a", "b", "c", "d"] as const;
+const accentOrder = ["a", "b", "c", "d", "e", "f"] as const;
 const getAccent = (index: number) => accentOrder[index % accentOrder.length];
 ---
 
 <BaseLayout title={`${subject.data.title} – Schlaufuchs`} description={subject.data.description}>
   <div class="page-shell">
-    <AreaSearchHero
-      title={subject.data.title}
-      scopeLabel="Fachbereich"
-      imageSrc={imageSrc}
-      imageAlt={`${subject.data.title} – Fuchsmotiv`}
-      tone={detail.tone}
-    />
-
+    <AreaSearchHero title={subject.data.title} scopeLabel="Fachbereich" imageSrc={imageSrc} imageAlt={`${subject.data.title} – Fuchsmotiv`} tone={detail.tone} />
     {topicCards.length > 0 && (
       <AreaSectionSurface variant="topics">
         <SectionHeading kicker="Themen" title={`Themen in ${subject.data.title}`} />
         <div class="topic-grid">
           {topicCards.map((item, index) => (
-            <AreaTopicCard
-              title={item.title}
-              description={item.description}
-              href={withBase(`fachbereiche/${subject.data.slug}/${item.path.join("/")}`)}
-              tone={detail.tone}
-              icon={item.icon}
-              chips={item.chips}
-              searchText={item.searchText}
-              accent={getAccent(index)}
-            />
+            <AreaTopicCard title={item.title} description={item.description} href={withBase(`fachbereiche/${subject.data.slug}/${item.path.join("/")}`)} tone={detail.tone} icon={item.icon} chips={item.chips} searchText={item.searchText} accent={getAccent(index)} />
           ))}
         </div>
       </AreaSectionSurface>
@@ -76,26 +45,8 @@ const getAccent = (index: number) => accentOrder[index % accentOrder.length];
 </BaseLayout>
 
 <style>
-  .page-shell {
-    display: grid;
-    gap: 1rem;
-  }
-
-  .topic-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.85rem;
-  }
-
-  @media (min-width: 1200px) {
-    .topic-grid {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-  }
-
-  @media (max-width: 760px) {
-    .topic-grid {
-      grid-template-columns: 1fr;
-    }
-  }
+  .page-shell { display:grid; gap:1rem; }
+  .topic-grid { display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:.85rem; }
+  @media (min-width:1200px){ .topic-grid { grid-template-columns:repeat(3, minmax(0, 1fr)); } }
+  @media (max-width:760px){ .topic-grid { grid-template-columns:1fr; } }
 </style>

@@ -8,17 +8,15 @@ interface Props {
   searchText?: string;
   eyebrow?: string;
   chips?: string[];
-  accent?: "a" | "b" | "c" | "d";
+  accent?: "a" | "b" | "c" | "d" | "e" | "f";
 }
 
 const {
   title,
-  description,
   href,
   tone = "math",
   icon,
   searchText = "",
-  eyebrow = "Thema",
   chips = [],
   accent = "a",
 } = Astro.props as Props;
@@ -48,23 +46,36 @@ const {
     border-radius: 24px;
     box-shadow: var(--shadow-soft);
     transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
+    text-decoration: none;
   }
 
-  .topic-card:hover {
+  .topic-card:hover,
+  .topic-card:focus-visible {
     transform: translateY(-2px);
     box-shadow: var(--shadow-card);
     border-color: var(--border-strong);
+    outline: none;
   }
 
-  .topic-card.accent-a { background: linear-gradient(135deg, rgba(93,113,175,0.26), rgba(232,237,248,0.9)); }
-  .topic-card.accent-b { background: linear-gradient(135deg, rgba(117,156,124,0.24), rgba(236,245,238,0.9)); }
-  .topic-card.accent-c { background: linear-gradient(135deg, rgba(186,138,123,0.24), rgba(247,239,235,0.9)); }
-  .topic-card.accent-d { background: linear-gradient(135deg, rgba(176,160,104,0.24), rgba(245,241,228,0.92)); }
+  .topic-card:hover .topic-arrow,
+  .topic-card:focus-visible .topic-arrow {
+    transform: translateX(2px);
+    border-color: rgba(148, 163, 184, 0.34);
+  }
 
-  :global(html[data-theme="dark"]) .topic-card.accent-a { background: linear-gradient(135deg, rgba(72,95,164,0.30), rgba(22,31,58,0.94)); }
-  :global(html[data-theme="dark"]) .topic-card.accent-b { background: linear-gradient(135deg, rgba(52,93,67,0.28), rgba(20,39,28,0.94)); }
-  :global(html[data-theme="dark"]) .topic-card.accent-c { background: linear-gradient(135deg, rgba(110,71,58,0.28), rgba(46,29,25,0.94)); }
-  :global(html[data-theme="dark"]) .topic-card.accent-d { background: linear-gradient(135deg, rgba(92,80,36,0.25), rgba(44,37,21,0.94)); }
+  .topic-card.accent-a { background: linear-gradient(135deg, rgba(93,113,175,0.34), rgba(232,237,248,0.94)); }
+  .topic-card.accent-b { background: linear-gradient(135deg, rgba(117,156,124,0.32), rgba(236,245,238,0.94)); }
+  .topic-card.accent-c { background: linear-gradient(135deg, rgba(186,138,123,0.32), rgba(247,239,235,0.94)); }
+  .topic-card.accent-d { background: linear-gradient(135deg, rgba(176,160,104,0.32), rgba(245,241,228,0.95)); }
+  .topic-card.accent-e { background: linear-gradient(135deg, rgba(98,166,178,0.32), rgba(234,246,248,0.95)); }
+  .topic-card.accent-f { background: linear-gradient(135deg, rgba(160,120,176,0.32), rgba(246,239,250,0.95)); }
+
+  :global(html[data-theme="dark"]) .topic-card.accent-a { background: linear-gradient(135deg, rgba(72,95,164,0.32), rgba(22,31,58,0.94)); }
+  :global(html[data-theme="dark"]) .topic-card.accent-b { background: linear-gradient(135deg, rgba(52,93,67,0.30), rgba(20,39,28,0.94)); }
+  :global(html[data-theme="dark"]) .topic-card.accent-c { background: linear-gradient(135deg, rgba(110,71,58,0.30), rgba(46,29,25,0.94)); }
+  :global(html[data-theme="dark"]) .topic-card.accent-d { background: linear-gradient(135deg, rgba(92,80,36,0.28), rgba(44,37,21,0.94)); }
+  :global(html[data-theme="dark"]) .topic-card.accent-e { background: linear-gradient(135deg, rgba(38,92,106,0.30), rgba(18,41,48,0.94)); }
+  :global(html[data-theme="dark"]) .topic-card.accent-f { background: linear-gradient(135deg, rgba(94,66,108,0.30), rgba(38,25,47,0.94)); }
 
   .topic-card-top {
     display: grid;
@@ -140,6 +151,7 @@ const {
     color: var(--text-strong);
     font-weight: 700;
     flex-shrink: 0;
+    transition: transform 140ms ease, border-color 140ms ease;
   }
 
   @media (max-width: 760px) {
