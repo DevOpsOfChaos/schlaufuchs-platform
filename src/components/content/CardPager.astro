@@ -55,6 +55,27 @@ const {
       return sm;
     };
 
+    const getRenderedColumnCount = (grid) => {
+      const template = getComputedStyle(grid).gridTemplateColumns;
+      if (!template || template === "none") return 0;
+      return template
+        .split(" ")
+        .map((part) => part.trim())
+        .filter(Boolean)
+        .filter((part) => part !== "0px").length;
+    };
+
+    const estimateColumnCount = (root, grid) => {
+      const maxColumns = Number(root.dataset.maxColumns ?? "4") || 4;
+      const minCardWidthRem = Number(root.dataset.minCardWidthRem ?? "16") || 16;
+      const rem = Number.parseFloat(getComputedStyle(document.documentElement).fontSize) || 16;
+      const minCardWidthPx = minCardWidthRem * rem;
+      const gap = Number.parseFloat(getComputedStyle(grid).columnGap || getComputedStyle(grid).gap || "0") || 0;
+      const availableWidth = grid.clientWidth || root.clientWidth || window.innerWidth;
+      const estimatedColumns = Math.max(1, Math.floor((availableWidth + gap) / (minCardWidthPx + gap)));
+      return Math.min(maxColumns, estimatedColumns);
+    };
+
     const getPageSize = (root) => {
       const grid = root.querySelector("[data-pager-grid]");
       if (!(grid instanceof HTMLElement)) {
@@ -63,14 +84,9 @@ const {
 
       const maxColumns = Number(root.dataset.maxColumns ?? "4") || 4;
       const maxRows = Number(root.dataset.maxRows ?? "2") || 2;
-      const minCardWidthRem = Number(root.dataset.minCardWidthRem ?? "16") || 16;
-      const rem = Number.parseFloat(getComputedStyle(document.documentElement).fontSize) || 16;
-      const minCardWidthPx = minCardWidthRem * rem;
-      const gap = Number.parseFloat(getComputedStyle(grid).columnGap || getComputedStyle(grid).gap || "0") || 0;
-      const availableWidth = grid.clientWidth || root.clientWidth || window.innerWidth;
-      const estimatedColumns = Math.max(1, Math.floor((availableWidth + gap) / (minCardWidthPx + gap)));
-      const columns = Math.min(maxColumns, estimatedColumns);
-      const responsiveCap = columns * maxRows;
+      const renderedColumns = getRenderedColumnCount(grid);
+      const columns = Math.min(maxColumns, renderedColumns || estimateColumnCount(root, grid));
+      const responsiveCap = Math.max(1, columns * maxRows);
 
       return Math.max(1, Math.min(getBreakpointCap(root), responsiveCap));
     };
@@ -84,6 +100,7 @@ const {
       const prevButton = root.querySelector("[data-pager-prev]");
       const nextButton = root.querySelector("[data-pager-next]");
       const status = root.querySelector("[data-pager-status]");
+      const grid = root.querySelector("[data-pager-grid]");
       let page = 0;
 
       const renderPage = () => {
@@ -126,7 +143,17 @@ const {
         renderPage();
       });
 
-      window.addEventListener("resize", renderPage, { passive: true });
+      const observer = typeof ResizeObserver !== "undefined"
+        ? new ResizeObserver(() => renderPage())
+        : null;
+
+      if (observer) {
+        observer.observe(root);
+        if (grid instanceof HTMLElement) observer.observe(grid);
+      } else {
+        window.addEventListener("resize", renderPage, { passive: true });
+      }
+
       renderPage();
     };
 
