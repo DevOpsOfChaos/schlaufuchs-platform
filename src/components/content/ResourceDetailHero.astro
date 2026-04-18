@@ -1,0 +1,51 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  chips: string[];
+  primaryHref?: string;
+  primaryLabel?: string;
+  secondaryHref?: string;
+  secondaryLabel?: string;
+  note?: string;
+}
+
+const {
+  title,
+  description,
+  chips,
+  primaryHref,
+  primaryLabel,
+  secondaryHref,
+  secondaryLabel,
+  note,
+} = Astro.props as Props;
+---
+
+<section class="detail-hero">
+  <div class="hero-meta-row">
+    {chips.filter(Boolean).map((chip) => <span class="meta-chip">{chip}</span>)}
+  </div>
+  <h1>{title}</h1>
+  <p class="lead">{description}</p>
+
+  {(primaryHref || secondaryHref || note) && (
+    <div class="hero-actions">
+      {primaryHref && primaryLabel && <a class="hero-link" href={primaryHref}>{primaryLabel}</a>}
+      {secondaryHref && secondaryLabel && <a class="hero-link secondary" href={secondaryHref}>{secondaryLabel}</a>}
+      {note && <span class="hero-note">{note}</span>}
+    </div>
+  )}
+</section>
+
+<style>
+  .detail-hero { display:grid; gap:.95rem; }
+  .hero-meta-row { display:flex; flex-wrap:wrap; gap:.55rem; }
+  .meta-chip { display:inline-flex; align-items:center; min-height:2rem; padding:.12rem .72rem; border-radius:999px; border:1px solid var(--border); background:var(--surface); color:var(--text-strong); font-size:.84rem; font-weight:700; }
+  h1 { margin:0; color:var(--text-strong); font-size:clamp(2.35rem, 4.6vw, 4rem); line-height:.98; letter-spacing:-.045em; }
+  .lead { margin:0; color:var(--text); line-height:1.8; font-size:1.05rem; max-width:62rem; }
+  .hero-actions { display:flex; gap:.7rem; flex-wrap:wrap; align-items:center; }
+  .hero-link { display:inline-flex; align-items:center; min-height:2.65rem; padding:0 .95rem; border-radius:999px; border:1px solid var(--border); background:var(--surface); color:var(--text-strong); font-weight:700; box-shadow:var(--shadow-soft); }
+  .hero-link.secondary { background:transparent; box-shadow:none; }
+  .hero-note { display:inline-flex; align-items:center; min-height:2.1rem; padding:0 .75rem; border-radius:999px; background:color-mix(in oklab, var(--surface) 88%, white 12%); border:1px solid var(--border); color:var(--text-soft); font-size:.9rem; font-weight:700; }
+</style>

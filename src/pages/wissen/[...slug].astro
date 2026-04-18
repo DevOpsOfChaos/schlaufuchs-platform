@@ -10,6 +10,7 @@ import PageTrail from "../../components/content/PageTrail.astro";
 import SectionHeading from "../../components/content/SectionHeading.astro";
 import ResourceCard from "../../components/content/ResourceCard.astro";
 import CardPager from "../../components/content/CardPager.astro";
+import ResourceDetailHero from "../../components/content/ResourceDetailHero.astro";
 import PracticeIdeas from "../../components/content/PracticeIdeas.astro";
 import CommonMistakes from "../../components/content/CommonMistakes.astro";
 import KeyTakeaways from "../../components/content/KeyTakeaways.astro";
@@ -82,20 +83,14 @@ const taskIcon = `
   <div class="page-shell">
     <PageTrail backHref={backHref} trail={trail} />
 
-    <section class="article-hero">
-      <div class="hero-meta-row">
-        <span class="meta-chip">{subjectTitle}</span>
-        <span class="meta-chip">{levelLabels[entry.data.level]}</span>
-        {entry.data.section && entrySectionLabel !== entryTopicLabel && <span class="meta-chip">{entrySectionLabel}</span>}
-        <span class="meta-chip">{entryTopicLabel}</span>
-      </div>
-      <h1>{entry.data.title}</h1>
-      <p class="lead">{entry.data.description}</p>
-      <div class="hero-actions">
-        <a class="topic-link" href={topicPathHref}>Zum Fachthema →</a>
-        {shellScenario && <span class="hero-note">Mit interaktiver Linux-Shell</span>}
-      </div>
-    </section>
+    <ResourceDetailHero
+      title={entry.data.title}
+      description={entry.data.description}
+      chips={[subjectTitle, levelLabels[entry.data.level], ...(entry.data.section && entrySectionLabel !== entryTopicLabel ? [entrySectionLabel] : []), entryTopicLabel]}
+      primaryHref={topicPathHref}
+      primaryLabel="Zum Fachthema →"
+      note={shellScenario ? "Mit interaktiver Linux-Shell" : undefined}
+    />
 
     <section class="article-shell">
       <article class="article-content">
@@ -152,14 +147,6 @@ const taskIcon = `
 
 <style>
   .page-shell { display: grid; gap: 1.2rem; }
-  .article-hero { display:grid; gap: .95rem; }
-  .hero-meta-row { display: flex; flex-wrap: wrap; gap: 0.55rem; }
-  .meta-chip { display: inline-flex; align-items: center; min-height: 2rem; padding: 0.12rem 0.72rem; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text-strong); font-size: 0.84rem; font-weight: 700; }
-  h1 { margin: 0; color: var(--text-strong); font-size: clamp(2.35rem, 4.6vw, 4rem); line-height: 0.98; letter-spacing: -0.045em; }
-  .lead { margin: 0; color: var(--text); line-height: 1.8; font-size: 1.05rem; max-width: 62rem; }
-  .hero-actions { display:flex; gap:.7rem; flex-wrap:wrap; align-items:center; }
-  .topic-link { display: inline-flex; align-items: center; min-height: 2.55rem; padding: 0 0.9rem; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--text-strong); font-weight: 700; box-shadow: var(--shadow-soft); width: fit-content; }
-  .hero-note { display:inline-flex; align-items:center; min-height:2.1rem; padding:0 .75rem; border-radius:999px; background:color-mix(in oklab, var(--surface) 88%, white 12%); border:1px solid var(--border); color:var(--text-soft); font-size:.9rem; font-weight:700; }
   .article-shell, .related-section, .interactive-section, .followup-section { display: grid; gap: 1rem; }
   .article-content { padding: clamp(1.35rem, 2vw, 2rem); border: 1px solid var(--border); border-radius: 30px; background: var(--card-bg); box-shadow: var(--shadow-card); overflow: hidden; }
   .followup-grid {
