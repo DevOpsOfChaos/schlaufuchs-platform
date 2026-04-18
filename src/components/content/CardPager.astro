@@ -8,8 +8,8 @@ interface Props {
 
 const {
   pageSizeXl = 8,
-  pageSizeLg = 6,
-  pageSizeMd = 4,
+  pageSizeLg = 8,
+  pageSizeMd = 6,
   pageSizeSm = 2,
 } = Astro.props as Props;
 ---
@@ -36,8 +36,8 @@ const {
     const getPageSize = (root) => {
       const width = window.innerWidth;
       const xl = Number(root.dataset.pageSizeXl ?? "8") || 8;
-      const lg = Number(root.dataset.pageSizeLg ?? "6") || 6;
-      const md = Number(root.dataset.pageSizeMd ?? "4") || 4;
+      const lg = Number(root.dataset.pageSizeLg ?? "8") || 8;
+      const md = Number(root.dataset.pageSizeMd ?? "6") || 6;
       const sm = Number(root.dataset.pageSizeSm ?? "2") || 2;
 
       if (width >= 1320) return xl;

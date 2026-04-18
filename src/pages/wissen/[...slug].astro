@@ -121,7 +121,7 @@ const taskIcon = `
     {relatedExercises.length > 0 && (
       <section class="related-section">
         <SectionHeading kicker="Aufgaben" title="Passende Aufgaben" />
-        <CardPager pageSizeXl={8} pageSizeLg={6} pageSizeMd={4} pageSizeSm={2}>
+        <CardPager pageSizeXl={8} pageSizeLg={8} pageSizeMd={6} pageSizeSm={2}>
           <div class="related-grid" data-pager-grid>
             {relatedExercises.map((item, index) => (
               <div data-pager-item>
@@ -158,7 +158,7 @@ const taskIcon = `
   }
   .related-grid {
     display:grid;
-    grid-template-columns:repeat(4, minmax(0, 18rem));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap:0.9rem;
     justify-content:start;
     align-items:start;
@@ -172,13 +172,13 @@ const taskIcon = `
 
   @media (max-width: 1320px) {
     .related-grid {
-      grid-template-columns: repeat(3, minmax(0, 18rem));
+      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
 
   @media (max-width: 980px) {
     .related-grid {
-      grid-template-columns: repeat(2, minmax(0, 18rem));
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
 
