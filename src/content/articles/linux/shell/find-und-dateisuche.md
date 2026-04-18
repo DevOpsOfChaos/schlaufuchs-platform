@@ -97,13 +97,26 @@ Gerade am Anfang sind besonders nützlich:
 
 So wird Dateisuche nicht zum Raten, sondern zu einer klaren Arbeitsweise.
 
+<div class="good-bad-grid">
+  <section>
+    <p class="card-kicker">Gut</p>
+    <h3>Suchraum und Ziel bewusst wählen</h3>
+    <p>Du entscheidest zuerst, wo gesucht wird, und formulierst danach eine klare Bedingung für die Treffer.</p>
+  </section>
+  <section>
+    <p class="card-kicker">Schwach</p>
+    <h3>Einfach überall suchen</h3>
+    <p>Wenn Startpfad und Suchregel unklar bleiben, entstehen schnell zu viele oder die falschen Treffer.</p>
+  </section>
+</div>
+
 ## Warum Anführungszeichen wichtig sind
 
 Muster wie `*.md` sollten oft in Anführungszeichen stehen. So bleibt das Muster für `find` erhalten und wird nicht schon vorher von der Shell verändert.
 
-<div class="note-panel">
-  <p><strong>Merke:</strong> Bei <code>find</code> ist nicht nur wichtig, <em>dass</em> gesucht wird, sondern <em>ab wo</em> und <em>nach welcher Regel</em>. Genau diese zwei Fragen machen den Befehl verständlich.</p>
-</div>
+<pre><code>find . -name '*.md'
+find . -type f
+find projekte -name 'bericht*'</code></pre>
 
 ## Woran man gute Suchbefehle erkennt
 
@@ -112,6 +125,19 @@ Gute Befehle sind:
 1. klar im Startpunkt,
 2. klar in der Bedingung,
 3. und möglichst eng genug, um nicht unnötig viele Treffer zu liefern.
+
+## Eine ruhige Suchstrategie
+
+Wenn ein Suchbefehl nicht passt, helfen diese Fragen:
+
+- Habe ich am richtigen Ort gesucht?
+- Ist meine Bedingung zu breit oder zu eng?
+- Suche ich nach Datei, Ordner oder Namensmuster?
+- Wird mein Muster vielleicht schon vorab von der Shell verändert?
+
+<div class="note-panel">
+  <p><strong>Merke:</strong> Bei <code>find</code> ist nicht nur wichtig, <em>dass</em> gesucht wird, sondern <em>ab wo</em> und <em>nach welcher Regel</em>. Genau diese zwei Fragen machen den Befehl verständlich.</p>
+</div>
 
 <div class="practice-card wide-bleed">
   <p class="card-kicker">Zum Anwenden</p>

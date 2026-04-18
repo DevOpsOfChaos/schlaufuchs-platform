@@ -100,6 +100,21 @@ Gerade bei Untermenüs reicht es nicht, nur optisch etwas einzublenden. Nutzerin
   &lt;/ul&gt;
 &lt;/nav&gt;</code></pre>
 
+## Gute und schwache Menülogik
+
+<div class="good-bad-grid">
+  <section>
+    <p class="card-kicker">Gut</p>
+    <h3>Wenige klare Hauptpunkte</h3>
+    <p>Die wichtigsten Bereiche sind ruhig benannt, Unterpunkte bleiben nachvollziehbar und die Struktur wirkt auch ohne Hover-Effekte verständlich.</p>
+  </section>
+  <section>
+    <p class="card-kicker">Schwach</p>
+    <h3>Viele Links ohne erkennbare Ordnung</h3>
+    <p>Wenn alles gleichzeitig sichtbar ist, aber keine Hierarchie erkennbar wird, verliert die Navigation ihre eigentliche Orientierungsfunktion.</p>
+  </section>
+</div>
+
 ## Konsistenz ist wichtiger als kreative Effekte
 
 Ein Menü wirkt dann gut, wenn Bezeichnungen, Positionen und Verhalten verlässlich bleiben. Wechselnde Begriffe, unstete Hierarchien oder versteckte Wege machen eine Seite schnell unruhig und schwer nutzbar.

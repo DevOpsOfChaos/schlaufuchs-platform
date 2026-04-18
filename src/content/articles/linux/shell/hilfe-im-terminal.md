@@ -88,14 +88,44 @@ Gute Terminalarbeit erkennt man oft daran, dass nicht geraten wird. Stattdessen 
   </div>
 </div>
 
+## Welcher Hilfsweg passt zu welcher Situation?
+
+<div class="good-bad-grid">
+  <section>
+    <p class="card-kicker">Ruhige Strategie</p>
+    <h3>Erst den Bedarf klären</h3>
+    <p>Du fragst zuerst, ob du nur die Syntax, eine kurze Übersicht oder echtes Hintergrundverständnis brauchst – und wählst dann den passenden Hilfsweg.</p>
+  </section>
+  <section>
+    <p class="card-kicker">Unruhige Strategie</p>
+    <h3>Planlos alles anklicken</h3>
+    <p>Du öffnest Hilfe nur aus Frust oder springst zwischen Befehlen, ohne zu wissen, wonach du eigentlich suchst.</p>
+  </section>
+</div>
+
 ## Wann welcher Weg sinnvoll ist
 
 - Wenn du nur wissen willst, welche Optionen es grob gibt, hilft oft <code>--help</code>.
 - Wenn du innerhalb der Shell schnell Orientierung brauchst, ist <code>help</code> sinnvoll.
 - Wenn du eine Funktion, einen Begriff oder das Verhalten genauer verstehen willst, ist <code>man</code> meist die bessere Wahl.
 
+## Ein kleines Denkmodell
+
+Du musst nicht jede Hilfe gleich tief lesen. Oft reicht ein gestufter Blick:
+
+1. Was ist der Befehl überhaupt?
+2. Welche Form oder Option suche ich?
+3. Welcher Teil muss fachlich wirklich verstanden werden?
+
+## Gute Fragen an die Hilfe
+
+- Was macht dieser Befehl grundsätzlich?
+- Welche Optionen sind für meine Situation relevant?
+- Wo liegt der Unterschied zu einem ähnlichen Befehl?
+- Welche Gefahr oder typische Fehlannahme gibt es?
+
 <div class="note-panel">
-  <p><strong>Merke:</strong> Nachschlagen spart oft mehr Zeit als blindes Probieren. Besonders bei Optionen, Pfaden und verändernden Befehlen lohnt sich ein kurzer Blick in die Hilfe.</p>
+  <p><strong>Merke:</strong> Hilfe spart nicht nur Fehler. Sie schärft auch dein Sprachgefühl für Befehle, Optionen und typische Shell-Muster.</p>
 </div>
 
 ## Anwendungen

@@ -52,37 +52,30 @@ Darum gehört zum Messen immer auch eine Bewertung des Ergebnisses.
 <div class="example-card">
   <p class="card-kicker">Leitbeispiel</p>
   <h3>Ein plausibler Wert ist noch kein sicherer Wert</h3>
-  <p>Ein Multimeter zeigt 4,98 V an. Das wirkt zuerst überzeugend. Fachlich wichtig ist aber zusätzlich: War die richtige Messgröße gewählt? War der Bereich passend? Passen Schaltung, Einheit und Größenordnung zusammen?</p>
+  <p>Auch wenn ein Multimeter einen Wert anzeigt, heißt das nicht automatisch, dass Aufbau, Messbereich und Ablesung wirklich passend waren. Genau deshalb gehört zur Messung immer auch eine fachliche Kontrolle.</p>
 </div>
 
 ## Messbereich bewusst wählen
 
-Ein Messgerät deckt oft mehrere Bereiche ab. Wird der Bereich unpassend gewählt, kann das Ergebnis schwer lesbar oder unnötig grob werden.
-
-<div class="figure-card">
-  <p class="card-kicker">Denkhilfe</p>
-  <h3>Warum der Bereich wichtig ist</h3>
-  <div class="compare-grid">
-    <div class="compare-item">
-      <strong>Zu großer Bereich</strong>
-      <p>Der Wert liegt zwar im Bereich, aber kleine Unterschiede sind schlechter erkennbar.</p>
-    </div>
-    <div class="compare-item">
-      <strong>Passender Bereich</strong>
-      <p>Der Wert ist gut ablesbar und die Messung wirkt ruhiger und aussagekräftiger.</p>
-    </div>
-    <div class="compare-item">
-      <strong>Zu kleiner Bereich</strong>
-      <p>Das Gerät kann überlastet sein oder keinen sinnvollen Wert mehr anzeigen.</p>
-    </div>
-  </div>
-</div>
+Ein Messgerät deckt oft mehrere Bereiche ab. Wird der Bereich unpassend gewählt, kann das Messergebnis schwer lesbar oder ungenau wirken.
 
 Darum ist die Reihenfolge wichtig:
 
 1. Welche Größe ist gesucht?
 2. Welcher Bereich passt dazu?
 3. Ist das Ergebnis plausibel?
+
+<div class="figure-card">
+  <p class="card-kicker">Messlogik</p>
+  <h3>Von der Frage zum belastbaren Ergebnis</h3>
+  <div class="signal-flow compact">
+    <div><strong>Messidee klären</strong><span>Welche Größe ist gesucht?</span></div>
+    <div class="flow-arrow">→</div>
+    <div><strong>Bereich wählen</strong><span>passend zur erwarteten Größe</span></div>
+    <div class="flow-arrow">→</div>
+    <div><strong>Ergebnis prüfen</strong><span>Wert, Einheit und Plausibilität</span></div>
+  </div>
+</div>
 
 ## Messfehler sind nicht alle gleich
 
@@ -91,24 +84,39 @@ Grob kann man unterscheiden zwischen:
 - **systematischen Fehlern**, die zum Beispiel durch Messgerät oder Messmethode entstehen,
 - und **zufälligen Fehlern**, die durch wechselnde Einflüsse oder Streuung auftreten.
 
-<div class="compare-card">
-  <p class="card-kicker">Unterscheidung</p>
-  <h3>Zwei typische Fehlerarten</h3>
-  <div class="compare-grid">
-    <div class="compare-item">
-      <strong>Systematisch</strong>
-      <p>Ein Fehler wirkt immer in eine ähnliche Richtung, etwa durch falsche Einstellung oder unpassendes Gerät.</p>
-    </div>
-    <div class="compare-item">
-      <strong>Zufällig</strong>
-      <p>Der Wert schwankt durch äußere Einflüsse, Kontaktprobleme oder kleine Streuungen.</p>
-    </div>
-  </div>
+Schon diese grobe Unterscheidung hilft, Messergebnisse ruhiger einzuordnen.
+
+<div class="comparison-grid">
+  <section>
+    <p class="card-kicker">Systematisch</p>
+    <h3>Der Fehler hat eine feste Richtung</h3>
+    <p>Zum Beispiel durch ein ungeeichtes Gerät oder eine immer gleiche Abweichung im Aufbau.</p>
+  </section>
+  <section>
+    <p class="card-kicker">Zufällig</p>
+    <h3>Der Fehler streut</h3>
+    <p>Zum Beispiel durch wechselnde Einflüsse, kleine Schwankungen oder unruhige Bedingungen.</p>
+  </section>
+</div>
+
+## Gute und schwache Messpraxis
+
+<div class="good-bad-grid">
+  <section>
+    <p class="card-kicker">Gut</p>
+    <h3>Erst Frage, dann Zahl</h3>
+    <p>Du klärst vor dem Messen die gesuchte Größe, wählst den Bereich bewusst und prüfst danach, ob Ergebnis und Einheit plausibel sind.</p>
+  </section>
+  <section>
+    <p class="card-kicker">Schwach</p>
+    <h3>Nur den Displaywert übernehmen</h3>
+    <p>Wenn der Zahlenwert ohne Messidee, Bereich und Plausibilitätsprüfung übernommen wird, bleibt die Messung fachlich unsicher.</p>
+  </section>
 </div>
 
 ## Warum Plausibilität wichtig ist
 
-Ein gutes Messergebnis wird nicht nur abgelesen, sondern geprüft:
+Ein gutes Messergebnis wird nicht nur abgelesen, sondern überprüft:
 
 - Passt die Größenordnung?
 - Passt die Einheit?
@@ -116,28 +124,26 @@ Ein gutes Messergebnis wird nicht nur abgelesen, sondern geprüft:
 
 So wird Messen zu einer begründeten Handlung statt zu einem bloßen Anzeigenlesen.
 
-<div class="practice-card">
-  <p class="card-kicker">Zum Anwenden</p>
-  <h3>Plausibilitätscheck in drei Fragen</h3>
-  <div class="step-grid">
-    <div class="step-item">
-      <strong>Einheit</strong>
-      <p>Zeigt das Gerät überhaupt die richtige physikalische Größe an?</p>
-    </div>
-    <div class="step-item">
-      <strong>Größenordnung</strong>
-      <p>Passt der Wert grob zu dem, was in der Schaltung erwartet wird?</p>
-    </div>
-    <div class="step-item">
-      <strong>Aufbau</strong>
-      <p>Wurde an der richtigen Stelle und im passenden Messbereich gemessen?</p>
-    </div>
-  </div>
+## Typische Fehlerquellen
+
+Messfehler können aus verschiedenen Richtungen kommen:
+
+- unpassender Messbereich,
+- falscher Gerätemodus,
+- ungeeigneter Messaufbau,
+- fehlerhafte Ablesung,
+- fehlende Plausibilitätsprüfung.
+
+<div class="note-panel">
+  <p><strong>Merke:</strong> Ein Zahlenwert ist erst dann fachlich nützlich, wenn auch Messidee, Messbereich und Plausibilität dazu passen.</p>
 </div>
 
-## Merksatz
-
-<div class="formula-card">
-  <p class="card-kicker">Merksatz</p>
-  <h3>Ein Messwert wird erst dann fachlich stark, wenn auch Messbereich, Fehlerquellen und Plausibilität mitgedacht werden.</h3>
+<div class="practice-card wide-bleed">
+  <p class="card-kicker">Zum Anwenden</p>
+  <h3>So gehst du bei Messfehlern ruhiger vor</h3>
+  <ol>
+    <li>Prüfe zuerst, ob Messgröße und Messbereich zusammenpassen.</li>
+    <li>Frage danach, ob eher ein systematischer oder ein zufälliger Fehler vorliegen könnte.</li>
+    <li>Bewerte am Ende, ob das Ergebnis fachlich plausibel ist.</li>
+  </ol>
 </div>

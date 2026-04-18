@@ -120,6 +120,21 @@ Das macht aus einer losen Ideenliste einen geordneten Ablauf.
 4. Treffer sortieren
 5. Ergebnis anzeigen</code></pre>
 
+## Gute und schwache Zerlegung
+
+<div class="good-bad-grid">
+  <section>
+    <p class="card-kicker">Gut</p>
+    <h3>Teilziele mit klarer Aufgabe</h3>
+    <p>Jeder Schritt hat einen eigenen Zweck und bringt das Gesamtziel erkennbar weiter.</p>
+  </section>
+  <section>
+    <p class="card-kicker">Schwach</p>
+    <h3>Nur eine lose Punkteliste</h3>
+    <p>Wenn Schritte ohne klares Teilziel notiert werden, bleibt der Ablauf unruhig und schwer nachvollziehbar.</p>
+  </section>
+</div>
+
 ## Teilprobleme sind nicht zufällige Unterpunkte
 
 Eine gute Zerlegung besteht nicht nur aus vielen kleinen Stichworten. Sie braucht erkennbare Logik. Teilprobleme sollten
@@ -127,6 +142,15 @@ Eine gute Zerlegung besteht nicht nur aus vielen kleinen Stichworten. Sie brauch
 - klar benannt sein,
 - ein eigenes Ziel haben,
 - und zusammen wieder zum Gesamtziel führen.
+
+## Eine ruhige Denkstrategie
+
+Frage bei einer Aufgabe nacheinander:
+
+1. Was ist das Gesamtziel?
+2. Welche kleinere Aufgabe hilft zuerst weiter?
+3. Welche Schritte bauen aufeinander auf?
+4. Wo muss ich ein Zwischenergebnis sichern?
 
 <div class="note-panel">
   <p><strong>Merke:</strong> Teilprobleme sind nicht einfach „mehr Punkte“. Sie sind bewusst gewählte, einzeln bearbeitbare Bausteine eines größeren Ziels.</p>

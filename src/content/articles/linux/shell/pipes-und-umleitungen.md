@@ -107,6 +107,21 @@ Umleitungen ändern, wohin eine Ausgabe geschrieben wird.
   </section>
 </div>
 
+## Gute und schwache Denkweise bei Befehlsketten
+
+<div class="good-bad-grid">
+  <section>
+    <p class="card-kicker">Gut</p>
+    <h3>Jeden Schritt als Datenweg lesen</h3>
+    <p>Du fragst bei jedem Operator, was mit der Ausgabe passiert: weiter an den nächsten Befehl oder in eine Datei.</p>
+  </section>
+  <section>
+    <p class="card-kicker">Schwach</p>
+    <h3>Die ganze Zeile als Magie behandeln</h3>
+    <p>Dann wird leicht übersehen, wo Daten überschrieben, angehängt oder an den falschen Ort geleitet werden.</p>
+  </section>
+</div>
+
 ## Gute Lesestrategie für Befehlsketten
 
 Viele Fehler entstehen, weil eine ganze Zeile als ein einziger Block wahrgenommen wird. Besser ist:
@@ -114,6 +129,9 @@ Viele Fehler entstehen, weil eine ganze Zeile als ein einziger Block wahrgenomme
 1. Von links nach rechts lesen.
 2. Bei jedem Operator fragen: Weitergabe oder Speicherung?
 3. Prüfen, was der nächste Schritt als Eingabe bekommt.
+
+<pre><code>cat daten.txt | grep fox | wc
+echo "neue zeile" >> notiz.txt</code></pre>
 
 ## Warum das für reale Arbeit wichtig ist
 
@@ -126,6 +144,18 @@ Mit Pipes und Umleitungen werden Ausgaben nutzbar gemacht:
 - weitergeben.
 
 Gerade deshalb gehören sie zu den wichtigsten Shell-Grundideen.
+
+## Eine ruhige Prüfstrategie
+
+Wenn eine Kette nicht das erwartete Ergebnis liefert, helfen diese Fragen:
+
+- Welcher Befehl erzeugt den ersten Output?
+- Wird dieser Output weitergegeben oder gespeichert?
+- Wird vielleicht eine Datei überschrieben, obwohl nur ergänzt werden sollte?
+
+<div class="note-panel">
+  <p><strong>Merke:</strong> Bei Pipes und Umleitungen geht es nicht zuerst um Syntax, sondern um die Richtung der Daten. Wer den Datenfluss versteht, versteht meist auch den Befehl.</p>
+</div>
 
 <div class="practice-card wide-bleed">
   <p class="card-kicker">Zum Anwenden</p>

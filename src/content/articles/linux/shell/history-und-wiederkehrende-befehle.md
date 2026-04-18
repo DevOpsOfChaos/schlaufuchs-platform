@@ -105,6 +105,10 @@ Wenn du die History sinnvoll nutzen willst, helfen diese Fragen:
 - Wo hat sich der Ablauf verändert?
 - Welcher Teil soll wiederholt werden und welcher nicht?
 
+<div class="note-panel">
+  <p><strong>Merke:</strong> History ist nicht nur eine Tipp-Hilfe. Sie ist eine kleine Dokumentation deines Arbeitswegs.</p>
+</div>
+
 <div class="practice-card wide-bleed">
   <p class="card-kicker">Zum Anwenden</p>
   <h3>So nutzt du History als Lernhilfe</h3>

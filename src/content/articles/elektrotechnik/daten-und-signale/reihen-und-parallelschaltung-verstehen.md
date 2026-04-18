@@ -45,96 +45,83 @@ Sobald mehr als ein Bauteil in einer Schaltung vorkommt, ist die Anordnung entsc
 
 <div class="example-card">
   <p class="card-kicker">Leitbeispiel</p>
-  <h3>Zwei Lampen, zwei unterschiedliche Strukturen</h3>
-  <p>Zwei Lampen können hintereinander in einem gemeinsamen Stromweg liegen oder in zwei getrennten Zweigen eingebaut sein. Von außen sieht beides nach „zwei Lampen“ aus, fachlich ist das aber nicht dasselbe.</p>
+  <h3>Zwei Lampen, zwei völlig verschiedene Wirkungen</h3>
+  <p>Auch wenn in beiden Fällen zwei Lampen vorkommen, kann ihre Anordnung den gesamten Stromkreis verändern. Hintereinander ist etwas anderes als auf getrennten Zweigen.</p>
 </div>
 
 ## Reihenschaltung
 
-In der Reihenschaltung liegen die Bauteile in einem gemeinsamen Weg. Der Stromkreis führt nacheinander durch mehrere Bauteile.
-
-<div class="figure-card">
-  <p class="card-kicker">Bildidee</p>
-  <h3>Ein Weg durch alle Bauteile</h3>
-  <div class="signal-flow">
-    <div class="flow-node">
-      <strong>Quelle</strong>
-      <p>Start des Stromwegs</p>
-    </div>
-    <span class="flow-arrow" aria-hidden="true">→</span>
-    <div class="flow-node">
-      <strong>Lampe 1</strong>
-      <p>liegt im selben Weg</p>
-    </div>
-    <span class="flow-arrow" aria-hidden="true">→</span>
-    <div class="flow-node">
-      <strong>Lampe 2</strong>
-      <p>liegt ebenfalls im gemeinsamen Weg</p>
-    </div>
-  </div>
-</div>
+In einer Reihenschaltung liegen die Bauteile nacheinander in **einem gemeinsamen Weg**. Es gibt also keinen zweiten Zweig, über den der Strom ausweichen könnte.
 
 ## Parallelschaltung
 
-In der Parallelschaltung verzweigt sich der Stromkreis. Es entstehen mehrere Wege oder Zweige.
+In einer Parallelschaltung liegen Bauteile auf **mehreren Zweigen**. Es gibt also nicht nur einen einzigen Weg durch die gesamte Schaltung.
+
+<div class="comparison-grid">
+  <section>
+    <p class="card-kicker">Reihenschaltung</p>
+    <h3>Ein gemeinsamer Weg</h3>
+    <p>Alle Bauteile liegen im selben Strompfad. Änderungen oder Unterbrechungen wirken direkt auf die ganze Kette.</p>
+  </section>
+  <section>
+    <p class="card-kicker">Parallelschaltung</p>
+    <h3>Mehrere Wege</h3>
+    <p>Die Zweige laufen nebeneinander. Damit können Bauteile unabhängiger voneinander wirken.</p>
+  </section>
+</div>
 
 <div class="figure-card">
-  <p class="card-kicker">Bildidee</p>
-  <h3>Mehrere Wege nebeneinander</h3>
-  <div class="visual-grid">
-    <div class="visual-item">
-      <strong>Zweig 1</strong>
-      <p>Ein eigener Weg mit eigenem Bauteil.</p>
-    </div>
-    <div class="visual-item">
-      <strong>Zweig 2</strong>
-      <p>Ein weiterer Weg, der parallel dazu verläuft.</p>
-    </div>
+  <p class="card-kicker">Strukturbild</p>
+  <h3>So liest du den Stromweg</h3>
+  <div class="signal-flow compact">
+    <div><strong>Schaltung ansehen</strong><span>nur optisch reicht noch nicht</span></div>
+    <div class="flow-arrow">→</div>
+    <div><strong>Stromweg verfolgen</strong><span>ein Weg oder Verzweigung?</span></div>
+    <div class="flow-arrow">→</div>
+    <div><strong>Schaltungsart erkennen</strong><span>Reihe oder Parallel</span></div>
   </div>
 </div>
 
-## Woran man den Unterschied erkennt
+## Warum die Anordnung so wichtig ist
 
-<div class="compare-card">
-  <p class="card-kicker">Vergleich</p>
-  <h3>Weg oder Verzweigung?</h3>
-  <div class="compare-grid">
-    <div class="compare-item">
-      <strong>Reihenschaltung</strong>
-      <p>Ein gemeinsamer Weg durch alle Bauteile. Keine Verzweigung.</p>
-    </div>
-    <div class="compare-item">
-      <strong>Parallelschaltung</strong>
-      <p>Mehrere Zweige. Die Bauteile liegen nebeneinander in getrennten Wegen.</p>
-    </div>
-  </div>
+Die Struktur beeinflusst,
+
+- wie sich eine Schaltung verhält,
+- wie Fehler wirken,
+- und wie man sie erklärt oder prüft.
+
+Gerade deshalb reicht es nicht, nur Bauteile zu zählen. Entscheidend ist, **wie sie verbunden sind**.
+
+## Typische Denkfehler
+
+Ein häufiger Fehler ist, mehrere Bauteile automatisch als Parallelschaltung zu lesen. Entscheidend ist aber nicht die Anzahl, sondern die Frage:
+
+- Gibt es nur einen gemeinsamen Stromweg?
+- Oder entstehen mehrere Zweige?
+
+<div class="comparison-grid">
+  <section>
+    <p class="card-kicker">Fehlersuche in Reihe</p>
+    <h3>Eine Unterbrechung trifft alles</h3>
+    <p>Wenn der gemeinsame Weg unterbrochen ist, wirkt sich das auf die ganze Schaltung aus.</p>
+  </section>
+  <section>
+    <p class="card-kicker">Fehlersuche parallel</p>
+    <h3>Zweige getrennt betrachten</h3>
+    <p>Bei mehreren Zweigen muss geprüft werden, welcher Teil betroffen ist und welcher weiterhin funktioniert.</p>
+  </section>
 </div>
 
-## Warum die Struktur Folgen hat
+<div class="note-panel">
+  <p><strong>Merke:</strong> Für die Unterscheidung zählt nicht die Anzahl der Bauteile, sondern der Verlauf des Stromwegs.</p>
+</div>
 
-Die Schaltungsart beeinflusst nicht nur den Plan, sondern auch das Verhalten und die Fehlersuche. Gerade deshalb reicht es nicht, Bauteile nur optisch zu zählen.
-
-- Gibt es nur einen Weg?
-- Gibt es eine Verzweigung?
-- Was passiert, wenn ein Zweig oder ein Bauteil ausfällt?
-
-## So liest du Schaltungen ruhiger
-
-<div class="practice-card">
+<div class="practice-card wide-bleed">
   <p class="card-kicker">Zum Anwenden</p>
-  <h3>Drei Blickfragen für den Plan</h3>
-  <div class="step-grid">
-    <div class="step-item">
-      <strong>1. Stromweg verfolgen</strong>
-      <p>Gibt es einen gemeinsamen Weg oder mehrere Zweige?</p>
-    </div>
-    <div class="step-item">
-      <strong>2. Verzweigung suchen</strong>
-      <p>Eine echte Abzweigung ist das klare Signal für Parallelstruktur.</p>
-    </div>
-    <div class="step-item">
-      <strong>3. Verhalten mitdenken</strong>
-      <p>Überlege, wie die Struktur die Funktion und Fehlersuche beeinflusst.</p>
-    </div>
-  </div>
+  <h3>So ordnest du Schaltungen ruhiger ein</h3>
+  <ol>
+    <li>Verfolge zuerst gedanklich den Stromweg.</li>
+    <li>Prüfe danach, ob nur ein Weg oder mehrere Zweige vorhanden sind.</li>
+    <li>Leite erst dann ab, wie sich die Schaltung bei Fehlern oder Änderungen verhält.</li>
+  </ol>
 </div>

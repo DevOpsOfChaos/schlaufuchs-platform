@@ -102,6 +102,21 @@ Ein gutes Formular ist keine lose Sammlung von Kästchen, sondern eine kleine St
   &lt;textarea id="message"&gt;&lt;/textarea&gt;
 &lt;/form&gt;</code></pre>
 
+## Gute und schwache Formularstruktur
+
+<div class="good-bad-grid">
+  <section>
+    <p class="card-kicker">Gut</p>
+    <h3>Label, Typ und Reihenfolge passen zusammen</h3>
+    <p>Das Feld ist klar benannt, die Eingabeart passt zur Frage und zusammengehörige Elemente bleiben in einer ruhigen Struktur.</p>
+  </section>
+  <section>
+    <p class="card-kicker">Schwach</p>
+    <h3>Nur Kästchen ohne klare Frage</h3>
+    <p>Wenn Felder unbeschriftet oder nur über Placeholder erkennbar sind, wird das Formular schnell unklar und fehleranfälliger.</p>
+  </section>
+</div>
+
 ## Warum Beschriftung so wichtig ist
 
 Ein Formular ist nur dann wirklich benutzbar, wenn klar ist,
@@ -132,6 +147,16 @@ Placeholder-Text kann ergänzen, aber er ersetzt keine saubere Beschriftung.
 ## Gruppierung und Orientierung
 
 Mit <code>fieldset</code> und <code>legend</code> lassen sich zusammengehörige Eingaben bündeln. Dadurch wird besonders bei längeren Formularen schneller klar, welche Felder inhaltlich zusammengehören.
+
+<pre><code>&lt;fieldset&gt;
+  &lt;legend&gt;Kontakt&lt;/legend&gt;
+
+  &lt;label for="mail"&gt;E-Mail&lt;/label&gt;
+  &lt;input id="mail" type="email" /&gt;
+
+  &lt;label for="phone"&gt;Telefon&lt;/label&gt;
+  &lt;input id="phone" type="tel" /&gt;
+&lt;/fieldset&gt;</code></pre>
 
 <div class="note-panel">
   <p><strong>Merke:</strong> Ein Formular soll nicht nur Daten sammeln, sondern Fragen verständlich stellen. Gute HTML-Struktur macht genau diese Fragen sichtbar.</p>

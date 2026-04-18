@@ -86,6 +86,21 @@ Ein Link ist nicht nur eine farbige Stelle im Text. Er ist Teil der Orientierung
 
 <pre><code>&lt;a href="/pruefungen/formate"&gt;Zur Übersicht der Prüfungsformate&lt;/a&gt;</code></pre>
 
+## Gute und schwache Linktexte
+
+<div class="good-bad-grid">
+  <section>
+    <p class="card-kicker">Gut</p>
+    <h3>Das Ziel ist vor dem Klick erkennbar</h3>
+    <p>Der Text macht deutlich, was sich hinter dem Link verbirgt oder welche Aktion damit verbunden ist.</p>
+  </section>
+  <section>
+    <p class="card-kicker">Schwach</p>
+    <h3>Der Klick muss den Sinn erst verraten</h3>
+    <p>Wenn der Linktext nur „mehr“, „weiter“ oder „hier“ sagt, entsteht Orientierung oft erst nach dem Öffnen der Zielseite.</p>
+  </section>
+</div>
+
 ## Warum Standardformulierungen oft zu schwach sind
 
 Allgemeine Formulierungen wie „hier“, „mehr“ oder „weiter“ wirken nur dann sinnvoll, wenn der Kontext extrem klar ist. Oft ist ein präziserer Zwecktext aber deutlich hilfreicher.
@@ -97,6 +112,14 @@ Ein guter Linktext muss nicht lang sein. Er soll vor allem den Zweck des Ziels e
 - Was finde ich dort?
 - Welche Aktion steht dahinter?
 - Warum sollte ich dorthin gehen?
+
+## Eine ruhige Prüfstrategie
+
+Frage bei jedem Link nacheinander:
+
+1. Was ist das Ziel?
+2. Wird dieses Ziel im Text sichtbar?
+3. Würde der Link auch ohne Farbe oder Kontext noch sinnvoll wirken?
 
 <div class="note-panel">
   <p><strong>Merke:</strong> Gute Linktexte helfen auch dann, wenn Farbe, Layout oder unmittelbarer Kontext wegfallen. Genau deshalb sind sie wichtig für Orientierung und Zugänglichkeit.</p>

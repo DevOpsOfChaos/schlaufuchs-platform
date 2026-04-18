@@ -53,31 +53,12 @@ Viele technische Systeme verbinden physikalische Größen mit digitaler Verarbei
 
 Analoge Signale können Werte in einem kontinuierlichen Bereich annehmen. Typisch ist, dass sich die Größe stufenlos verändert.
 
-Beispiele sind:
+Beispiele:
 
 - Temperaturverläufe,
 - Lautstärke und Töne,
 - Helligkeitsverläufe,
 - viele Sensorsignale.
-
-<div class="figure-card">
-  <p class="figure-kicker">Signalbild</p>
-  <h3>So kannst du dir analog vorstellen</h3>
-  <div class="signal-grid">
-    <div class="signal-item">
-      <strong>stufenlos</strong>
-      Zwischen zwei Werten sind viele weitere Werte möglich.
-    </div>
-    <div class="signal-item">
-      <strong>Verlauf statt Sprung</strong>
-      Die Größe ändert sich oft weich und kontinuierlich.
-    </div>
-    <div class="signal-item">
-      <strong>messnah</strong>
-      Viele reale Größen treten zuerst analog auf.
-    </div>
-  </div>
-</div>
 
 ## Digitale Signale
 
@@ -85,25 +66,28 @@ Digitale Signale arbeiten mit klar unterscheidbaren Zuständen. Im einfachen Fal
 
 Gerade dadurch werden Verarbeitung, Übertragung und Entscheidung oft robuster und eindeutiger.
 
+<div class="comparison-grid">
+  <section>
+    <p class="card-kicker">Analog</p>
+    <h3>Viele Zwischenwerte möglich</h3>
+    <p>Das Signal kann sich fließend verändern. Kleine Unterschiede bleiben dabei erhalten.</p>
+  </section>
+  <section>
+    <p class="card-kicker">Digital</p>
+    <h3>Klare Zustände statt Verlauf</h3>
+    <p>Das Signal wird in feste Pegel oder Stufen eingeteilt und dadurch leichter auswertbar.</p>
+  </section>
+</div>
+
 <div class="figure-card">
-  <p class="figure-kicker">Signalbild</p>
-  <h3>So kannst du dir digital vorstellen</h3>
-  <div class="step-flow">
-    <div class="flow-step">
-      <span class="step-number">0</span>
-      <strong>inaktiv</strong>
-      Der Pegel steht für einen klaren Zustand.
-    </div>
-    <div class="flow-step">
-      <span class="step-number">1</span>
-      <strong>aktiv</strong>
-      Das System erkennt eine zweite, eindeutige Lage.
-    </div>
-    <div class="flow-step">
-      <span class="step-number">✓</span>
-      <strong>gut unterscheidbar</strong>
-      Genau diese Klarheit macht digitale Logik so nützlich.
-    </div>
+  <p class="card-kicker">Denkbild</p>
+  <h3>Vom fließenden Wert zur klaren Entscheidung</h3>
+  <div class="signal-flow compact">
+    <div><strong>physikalische Größe</strong><span>zum Beispiel Temperatur</span></div>
+    <div class="flow-arrow">→</div>
+    <div><strong>Signal erfassen</strong><span>kontinuierlicher Verlauf</span></div>
+    <div class="flow-arrow">→</div>
+    <div><strong>digital einordnen</strong><span>zum Beispiel 0 oder 1</span></div>
   </div>
 </div>
 
@@ -118,9 +102,6 @@ Wenn Zustände klar trennbar sind, lässt sich Information leichter
 
 Das ist ein wichtiger Grund dafür, dass Computer und viele Steuersysteme digital arbeiten.
 
-<p class="formula-block">analog = kontinuierlicher Verlauf · digital = klare Zustände</p>
-<p class="formula-note">Diese Kurzform ersetzt keine Definition, hilft aber beim schnellen Einordnen von Beispielen.</p>
-
 ## Analog und digital sind keine Wertung
 
 Analog bedeutet nicht automatisch ungenau, digital nicht automatisch besser. Entscheidend ist immer, welches Ziel ein System hat:
@@ -130,15 +111,24 @@ Analog bedeutet nicht automatisch ungenau, digital nicht automatisch besser. Ent
 - robust übertragen,
 - oder effizient verarbeiten.
 
-<div class="compare-grid">
-  <div class="compare-item">
-    <strong>Analog passt gut</strong>
-    wenn ein natürlicher Verlauf möglichst direkt erfasst werden soll.
-  </div>
-  <div class="compare-item">
-    <strong>Digital passt gut</strong>
-    wenn klare Entscheidungen, Speicherbarkeit oder robuste Verarbeitung wichtig sind.
-  </div>
+<div class="comparison-grid">
+  <section>
+    <p class="card-kicker">Beim Messen</p>
+    <h3>Analog kann sehr sinnvoll sein</h3>
+    <p>Wenn feine Änderungen wichtig sind, hilft ein kontinuierlicher Verlauf oft beim Verstehen der Größe.</p>
+  </section>
+  <section>
+    <p class="card-kicker">Beim Entscheiden</p>
+    <h3>Digital bringt Klarheit</h3>
+    <p>Wenn ein System schalten oder eindeutig reagieren soll, sind feste Zustände oft besser geeignet.</p>
+  </section>
+</div>
+
+<pre><code>Analog:  0.2 V, 0.4 V, 0.6 V, 0.8 V ...
+Digital: 0 oder 1</code></pre>
+
+<div class="note-panel">
+  <p><strong>Merke:</strong> Analog und digital beschreiben nicht „gut“ oder „schlecht“, sondern unterschiedliche Arten, Information technisch darzustellen.</p>
 </div>
 
 <div class="practice-card wide-bleed">

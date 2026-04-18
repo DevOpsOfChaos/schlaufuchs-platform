@@ -90,6 +90,7 @@ const shellId = `linux-shell-${scenario.key.replace(/[^a-z0-9]+/gi, "-").toLower
     let cwd = scenario.startPath;
     const history = [];
     let historyIndex = -1;
+    let hasUserInteracted = false;
 
     const escapeHtml = (value) => value.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
     const normalizePath = (value) => {
@@ -144,7 +145,14 @@ const shellId = `linux-shell-${scenario.key.replace(/[^a-z0-9]+/gi, "-").toLower
       outputEl.scrollTop = outputEl.scrollHeight;
     };
     const updatePrompt = () => { promptEl.textContent = `${scenario.prompt}:${cwd}$`; };
-    const resetShell = () => {
+    const focusInput = () => {
+      try {
+        inputEl.focus({ preventScroll: true });
+      } catch {
+        inputEl.focus();
+      }
+    };
+    const resetShell = ({ focus = false } = {}) => {
       entries = initialEntries.map((entry) => ({ ...entry }));
       cwd = scenario.startPath;
       history.length = 0;
@@ -153,7 +161,7 @@ const shellId = `linux-shell-${scenario.key.replace(/[^a-z0-9]+/gi, "-").toLower
       appendLine(escapeHtml(`Willkommen in der Linux-Lernshell: ${scenario.title}`));
       appendLine("Nutze <strong>help</strong> für die Befehlsübersicht.");
       updatePrompt();
-      inputEl.focus();
+      if (focus) focusInput();
     };
 
     const manuals = {
@@ -189,7 +197,7 @@ const shellId = `linux-shell-${scenario.key.replace(/[^a-z0-9]+/gi, "-").toLower
       else if (command === "history") result = history.length ? history.map((item, index) => `${index + 1}  ${item}`).join("\n") : "Noch keine Befehle ausgeführt.";
       else if (command === "man") result = manuals[args[0]] ?? `Keine Handbuchseite für ${args[0]} vorhanden.`;
       else if (command === "clear") { outputEl.innerHTML = ""; return; }
-      else if (command === "reset") { resetShell(); return; }
+      else if (command === "reset") { resetShell({ focus: hasUserInteracted }); return; }
       else if (command === "cd") {
         const target = resolvePath(args[0] ?? "~");
         if (!isDir(target)) result = `cd: ${args[0] ?? "~"}: kein Verzeichnis`;
@@ -281,13 +289,14 @@ const shellId = `linux-shell-${scenario.key.replace(/[^a-z0-9]+/gi, "-").toLower
     };
 
     const executeInputCommand = () => {
+      hasUserInteracted = true;
       const rawValue = inputEl.value;
       const trimmedValue = rawValue.trim();
       if (trimmedValue) history.unshift(trimmedValue);
       historyIndex = -1;
       runCommand(rawValue);
       inputEl.value = "";
-      inputEl.focus();
+      focusInput();
     };
 
     formEl.addEventListener("submit", (event) => {
@@ -322,16 +331,17 @@ const shellId = `linux-shell-${scenario.key.replace(/[^a-z0-9]+/gi, "-").toLower
 
     quickButtons.forEach((button) => {
       button.addEventListener("click", () => {
+        hasUserInteracted = true;
         const command = button.getAttribute("data-shell-command") ?? "";
         if (!command) return;
         history.unshift(command);
         historyIndex = -1;
         runCommand(command);
-        inputEl.focus();
+        focusInput();
       });
     });
 
-    resetShell();
+    resetShell({ focus: false });
   })();
 </script>
 

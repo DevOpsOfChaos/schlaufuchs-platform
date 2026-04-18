@@ -93,7 +93,20 @@ Ohne PATH müsste für viele Programme der vollständige Pfad ausgeschrieben wer
 
 ## HOME und PWD nicht verwechseln
 
-Ein häufiger Fehler ist, HOME und PWD als dasselbe zu sehen. Das eine ist dein persönlicher Standardort, das andere dein aktueller Aufenthaltsort. Gerade beim Wechseln zwischen Verzeichnissen wird diese Unterscheidung wichtig.
+Ein häufiger Fehler ist, HOME und PWD als dasselbe zu sehen. Das eine ist dein persönlicher Standardort, das andere dein aktueller Aufenthaltsort.
+
+<div class="comparison-grid">
+  <section>
+    <p class="card-kicker">HOME</p>
+    <h3>Der typische Startpunkt</h3>
+    <p>Hilfreich, wenn du zu deinem Benutzerbereich zurückkehren oder von dort aus denken willst.</p>
+  </section>
+  <section>
+    <p class="card-kicker">PWD</p>
+    <h3>Der aktuelle Arbeitsort</h3>
+    <p>Entscheidend für das, worauf sich relative Pfade und viele Befehle gerade beziehen.</p>
+  </section>
+</div>
 
 ## Woran man gutes Verständnis erkennt
 
@@ -102,6 +115,10 @@ Gutes Verständnis zeigt sich daran, dass du nicht nur Begriffe nennst, sondern 
 - Warum funktioniert ein Befehl ohne vollständigen Pfad?
 - Warum ist <code>pwd</code> nicht einfach dasselbe wie HOME?
 - Warum beschreibt PATH Suchorte und nicht dein aktuelles Verzeichnis?
+
+<div class="note-panel">
+  <p><strong>Merke:</strong> Umgebungsvariablen sind kein Nebenwissen. Sie erklären, warum die Shell in einer bestimmten Situation genau so arbeitet, wie sie arbeitet.</p>
+</div>
 
 <div class="practice-card wide-bleed">
   <p class="card-kicker">Zum Anwenden</p>

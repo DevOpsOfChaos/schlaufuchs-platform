@@ -23,58 +23,32 @@ Darum sind sie nützlich, aber auch sensibler als reine Anzeige-Befehle.
   <p>Mit <code>cp</code> entsteht eine Kopie, mit <code>mv</code> wird dieselbe Datei an einen neuen Ort gebracht oder umbenannt, mit <code>rm</code> verschwindet sie. Die sichtbare Ausgangsdatei ist ähnlich, die Wirkung ist aber jedes Mal grundlegend anders.</p>
 </div>
 
-## Typische Beispiele
-
-### `cp`
-
-Kopiert Dateien oder Ordner.
-
-<div class="command-strip">
-  <p>Kopie einer Datei anlegen</p>
-  <code>cp notiz.txt backup/notiz.txt</code>
-</div>
-
-### `mv`
-
-Verschiebt oder benennt Inhalte um.
-
-<div class="command-strip">
-  <p>Datei umbenennen</p>
-  <code>mv alt.txt neu.txt</code>
-</div>
-
-### `rm`
-
-Entfernt Dateien.
-
-<div class="command-strip">
-  <p>Datei löschen</p>
-  <code>rm notiz.txt</code>
-</div>
-
-## Gleiche Werkzeuge, sehr unterschiedliche Wirkung
+## Die drei Grundideen klar trennen
 
 <div class="comparison-grid">
   <section>
     <p class="card-kicker">cp</p>
     <h3>Etwas bleibt erhalten</h3>
     <p>Die Originaldatei bleibt bestehen, zusätzlich entsteht eine Kopie an einem anderen Ort oder unter einem anderen Namen.</p>
+    <div class="command-strip"><code>cp notiz.txt backup/notiz.txt</code></div>
   </section>
   <section>
     <p class="card-kicker">mv</p>
     <h3>Ort oder Name ändern sich</h3>
     <p>Die Datei bleibt dieselbe, aber ihr Platz oder ihr Name ändert sich.</p>
+    <div class="command-strip"><code>mv alt.txt neu.txt</code></div>
   </section>
   <section>
     <p class="card-kicker">rm</p>
     <h3>Der Eintrag verschwindet</h3>
     <p>Die Datei wird entfernt. Genau deshalb sollte dieser Befehl besonders bewusst gelesen werden.</p>
+    <div class="command-strip"><code>rm notiz.txt</code></div>
   </section>
 </div>
 
-## Warum ist das wichtig?
+## Warum diese Unterscheidung so wichtig ist
 
-Mit diesen Befehlen arbeitest du nicht nur an einem Ort — du **veränderst** ihn.
+Oberflächlich wirken die Befehle ähnlich: Alle arbeiten mit Datei- oder Ordnernamen. Fachlich sind sie aber sehr verschieden.
 
 <div class="figure-card">
   <p class="card-kicker">Wirkbild</p>
@@ -88,17 +62,35 @@ Mit diesen Befehlen arbeitest du nicht nur an einem Ort — du **veränderst** i
   </div>
 </div>
 
-Deshalb ist es gut, sie bewusst und ruhig einzusetzen.
+## Erst prüfen, dann verändern
 
-## Praktische Regel
+Mit diesen Befehlen arbeitest du nicht nur an einem Ort — du **veränderst** ihn. Deshalb lohnt sich vor dem Ausführen fast immer eine kurze Kontrolle:
 
-Vor Datei-Befehlen helfen oft zwei kurze Fragen:
+- Bin ich im richtigen Verzeichnis?
+- Greife ich wirklich auf die richtige Datei zu?
+- Ist Kopieren, Verschieben oder Löschen gerade die passende Handlung?
 
-- Bin ich am richtigen Ort?
-- Greife ich auf die richtige Datei zu?
+## Dateibefehle lesen statt nur tippen
 
-<div class="note-panel">
-  <p><strong>Merke:</strong> Gerade bei verändernden Befehlen ist nicht Tempo wichtig, sondern Kontrolle. Ein kurzer Blick auf Pfad und Dateiname spart oft viel Ärger.</p>
+Gerade am Anfang hilft es, einen Befehl wie einen Satz zu lesen:
+
+- **Was** ist die Quelle?
+- **Wohin** geht das Ergebnis?
+- **Bleibt** das Original bestehen oder nicht?
+
+Wer so liest, versteht Shell-Arbeit deutlich ruhiger.
+
+<div class="comparison-grid">
+  <section>
+    <p class="card-kicker">Unsicherer Stil</p>
+    <h3>Schnell tippen, Wirkung hoffen</h3>
+    <p>Das führt leicht zu falschen Zielen, vertauschten Namen oder unbeabsichtigtem Löschen.</p>
+  </section>
+  <section>
+    <p class="card-kicker">Ruhiger Stil</p>
+    <h3>Pfad und Wirkung bewusst prüfen</h3>
+    <p>So wird aus einem sensiblen Befehl ein kontrollierter Arbeitsschritt.</p>
+  </section>
 </div>
 
 ## Typische Anfängerfehler
@@ -114,6 +106,10 @@ Gerade bei Datei-Befehlen sollte man Namen und Pfade sorgfältig lesen.
 ### „Ich nutze rm zu schnell.“
 
 Besonders <code>rm</code> sollte man nie hektisch verwenden.
+
+<div class="note-panel">
+  <p><strong>Merke:</strong> Bei Dateibefehlen ist nicht Geschwindigkeit der wichtigste Punkt, sondern Kontrolle über Quelle, Ziel und Wirkung.</p>
+</div>
 
 <div class="practice-card wide-bleed">
   <p class="card-kicker">Zum Anwenden</p>

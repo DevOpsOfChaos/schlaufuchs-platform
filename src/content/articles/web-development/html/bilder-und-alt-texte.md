@@ -79,6 +79,21 @@ Davon hängt ab, wie der Alternativtext aussehen sollte.
   </section>
 </div>
 
+## Gute und schwache Alt-Texte
+
+<div class="good-bad-grid">
+  <section>
+    <p class="card-kicker">Gut</p>
+    <h3>Der Zweck wird klar</h3>
+    <p>Ein funktionales Bild im Such-Button bekommt einen Text wie <code>Suche</code>, weil genau diese Handlung für Nutzende wichtig ist.</p>
+  </section>
+  <section>
+    <p class="card-kicker">Schwach</p>
+    <h3>Nur die Optik wird benannt</h3>
+    <p>Ein Text wie <code>Lupe</code> beschreibt zwar das Bildmotiv, aber nicht die Funktion des Elements im Kontext.</p>
+  </section>
+</div>
+
 ## Informative Bilder
 
 Bei informativen Bildern soll der Alt-Text die wesentliche Aussage des Bildes transportieren. Es geht nicht darum, jedes Detail aufzuzählen, sondern das Bedeutende knapp und klar wiederzugeben.
@@ -118,6 +133,10 @@ Gerade hier zeigt sich, dass Alternativtext immer vom Kontext abhängt.
 Die wichtigste Frage lautet nicht: „Wie sieht das Bild aus?“, sondern: „Wozu ist dieses Bild hier da?“
 
 Erst aus dieser Frage ergibt sich, ob man die Information, die Funktion oder gar nichts formulieren sollte.
+
+<div class="note-panel">
+  <p><strong>Merke:</strong> Ein Alt-Text soll fehlende Sicht nicht mit Bildbeschreibung „ersetzen“, sondern die relevante Information oder Funktion des Bildes zugänglich machen.</p>
+</div>
 
 <div class="practice-card wide-bleed">
   <p class="card-kicker">Zum Anwenden</p>

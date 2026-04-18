@@ -91,6 +91,19 @@ Ein häufiger Anfängerfehler ist, nur auf einen Dateinamen zu schauen. Besser i
 
 Gerade mit <code>tree</code> oder <code>find</code> wird sichtbar, dass Dateien nicht isoliert existieren, sondern in einer geordneten Umgebung liegen.
 
+<div class="good-bad-grid">
+  <section>
+    <p class="card-kicker">Gut</p>
+    <h3>Den Pfad und die Struktur mitdenken</h3>
+    <p>Du prüfst erst den aktuellen Ort und liest dann, wie Dateien und Ordner zusammenhängen.</p>
+  </section>
+  <section>
+    <p class="card-kicker">Schwach</p>
+    <h3>Nur auf Namen reagieren</h3>
+    <p>Wenn du nur einzelne Dateinamen ansiehst, übersiehst du leicht Verzeichniswechsel, Ebenen und den eigentlichen Kontext.</p>
+  </section>
+</div>
+
 ## Relative und absolute Pfade
 
 Ein Pfad kann relativ oder absolut sein. Relativ bedeutet: vom aktuellen Ort aus gedacht. Absolut bedeutet: vom Wurzelverzeichnis aus gedacht.
@@ -113,6 +126,10 @@ Ein Pfad kann relativ oder absolut sein. Relativ bedeutet: vom aktuellen Ort aus
 ## Anwendungen
 
 Sobald du Dateien bearbeitest, kopierst, verschiebst oder suchst, brauchst du diese Orientierung ständig. Sie ist Grundlage für fast jede weitere Linux-Arbeit.
+
+<div class="note-panel">
+  <p><strong>Merke:</strong> Im Terminal ist Orientierung keine Vorstufe, sondern Teil der eigentlichen Arbeit. Wer den Ort nicht sauber liest, versteht auch die Wirkung vieler Befehle nicht richtig.</p>
+</div>
 
 <div class="practice-card wide-bleed">
   <p class="card-kicker">Zum Anwenden</p>

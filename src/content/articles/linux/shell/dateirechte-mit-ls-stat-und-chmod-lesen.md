@@ -95,6 +95,23 @@ Ein häufiger Denkfehler ist, chmod als „Datei ändern“ zu verstehen. In Wir
 
 Rechte haben immer einen Zweck. Eine Konfiguration, die für viele lesbar sein soll, braucht oft andere Einstellungen als eine private Datei oder ein Skript mit Ausführungsrecht. Gute Rechte sind daher nicht „möglichst offen“, sondern **passend zur Aufgabe**.
 
+<div class="comparison-grid">
+  <section>
+    <p class="card-kicker">Zu offen</p>
+    <h3>Mehr Zugriff als nötig</h3>
+    <p>Wirkt bequem, kann aber unruhig und unsicher werden, wenn viele unnötig etwas ändern dürfen.</p>
+  </section>
+  <section>
+    <p class="card-kicker">Passend gesetzt</p>
+    <h3>Am Zweck orientiert</h3>
+    <p>Die Rechte unterstützen genau die Nutzung, die für diese Datei oder dieses Skript gedacht ist.</p>
+  </section>
+</div>
+
+<div class="note-panel">
+  <p><strong>Merke:</strong> Gute Rechte sind nicht möglichst streng oder möglichst offen, sondern so gewählt, dass sie zur Funktion der Datei passen.</p>
+</div>
+
 <div class="practice-card wide-bleed">
   <p class="card-kicker">Zum Anwenden</p>
   <h3>So liest du Rechte fachlich ruhiger</h3>
