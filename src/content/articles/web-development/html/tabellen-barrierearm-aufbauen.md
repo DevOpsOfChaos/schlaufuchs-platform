@@ -1,95 +1,137 @@
 ---
 title: Tabellen barrierearm aufbauen
-description: Verstehe, wann Tabellen sinnvoll sind und wie Caption, Header und Scope Daten lesbarer und zugänglicher machen.
+description: Verstehe, warum Tabellen für strukturierte Daten gedacht sind und wie klare Überschriften und saubere Zuordnungen das Lesen erleichtern.
 subject: web-development
 section: HTML
 topicPath:
   - html
-  - tabellen-barrierearm
+  - tabellen-barrierearm-aufbauen
+learningGoals:
+  - Du erkennst, wann eine HTML-Tabelle sinnvoll ist.
+  - Du erklärst, warum Zeilen- und Spaltenüberschriften wichtig sind.
+  - Du unterscheidest tabellarische Daten von reinem Seitenlayout.
+practiceIdeas:
+  - Prüfe bei einer Übersicht, ob Daten in Zeilen und Spalten zusammengehören.
+  - Vergleiche eine Tabelle mit klaren Überschriften und eine unruhige Rasterdarstellung ohne Zuordnung.
+  - Erkläre, was beim Lesen einer Datenzelle mitgedacht werden muss.
+commonMistakes:
+  - Tabellen für allgemeines Seitenlayout zu verwenden.
+  - Überschriftenzellen zu vergessen.
+  - nur das Aussehen zu betrachten statt die Datenbeziehung mitzudenken.
+keyTakeaways:
+  - Tabellen sind für zusammengehörige Daten in Zeilen und Spalten gedacht.
+  - Gute Überschriften machen Zuordnung und Orientierung leichter.
+  - Barrierearme Struktur ist nicht Zusatzdeko, sondern Teil guter Verständlichkeit.
+recognizeSignals:
+  - Es geht um Datensammlungen, Spalten, Zeilen oder strukturierte Übersicht.
+  - Du sollst entscheiden, ob Tabellen sinnvoll sind und wie sie aufgebaut werden sollten.
+  - In Beispielen musst du Nutzbarkeit und Struktur erklären, nicht nur HTML-Tags aufzählen.
+selfCheckPoints:
+  - Kann ich erklären, wann eine Tabelle passend ist?
+  - Kann ich beschreiben, warum Überschriften für Orientierung wichtig sind?
+  - Kann ich Layout und Datenstruktur unterscheiden?
 tags:
   - html
-  - tabelle
-  - accessibility
-  - scope
-learningGoals:
-  - "Du unterscheidest Datentabellen von reinem Layout."
-  - "Du erklärst, wofür caption, th und scope in Tabellen wichtig sind."
-  - "Du strukturierst einfache Tabellen lesbar und zugänglich."
-practiceIdeas:
-  - "Prüfe zuerst, ob eine Tabelle wirklich tabellarische Daten enthält."
-  - "Ergänze einer Beispieltabelle eine aussagekräftige caption."
-  - "Ordne Kopfzellen und Datenzellen bewusst ihren Rollen zu."
-commonMistakes:
-  - "Tabellen für Seitenlayout statt für Daten zu verwenden."
-  - "Spaltenüberschriften nur optisch statt semantisch zu markieren."
-  - "Komplexe Daten ohne Caption oder klare Struktur einzubauen."
-keyTakeaways:
-  - "Tabellen sind für strukturierte Daten gedacht."
-  - "caption und th helfen beim schnellen Verstehen."
-  - "scope macht Beziehungen zwischen Kopf- und Datenzellen klarer."
-recognizeSignals:
-  - "Es geht um Datentabellen, Überschriften, Caption oder Scope."
-  - "Du sollst HTML-Struktur begründen, nicht nur optisch etwas ausrichten."
-  - "Ein Beispiel fragt nach Lesbarkeit oder Zugänglichkeit einer Tabelle."
-selfCheckPoints:
-  - "Kann ich erklären, wann eine Tabelle sinnvoll ist?"
-  - "Kann ich eine Caption formulieren, die den Inhalt knapp beschreibt?"
-  - "Kann ich Kopfzellen fachlich von Datenzellen unterscheiden?"
+  - tabellen
+  - barrierefreiheit
+  - struktur
 level: einfach
 draft: false
 ---
 
-## Warum dieses Thema wichtig ist
+## Grundidee
 
-Tabellen sind nützlich, wenn Daten in Zeilen und Spalten verglichen werden sollen. Genau deshalb ist es wichtig, sie nicht nur optisch, sondern auch strukturell sauber aufzubauen.
-
-## Tabellen sind nicht für alles da
-
-Eine gute HTML-Tabelle ist für **Daten** gedacht. Sie eignet sich, wenn Werte systematisch verglichen werden sollen.
-
-Weniger geeignet sind Tabellen, wenn eigentlich nur das Layout einer Seite gebaut werden soll. Dafür gibt es in modernem HTML und CSS andere Mittel.
+HTML-Tabellen sind sinnvoll, wenn Daten in **Zeilen und Spalten** zusammengehören. Sie sind nicht dafür gedacht, Seitenlayout zusammenzubiegen. Gute Tabellen helfen beim Verstehen, weil klar bleibt, **welcher Wert zu welcher Überschrift gehört**.
 
 <div class="example-card">
   <p class="card-kicker">Leitbeispiel</p>
-  <h3>Warum eine Caption hilft</h3>
-  <p>Eine Tabelle mit mehreren Zeilen und Spalten ist viel schneller einzuordnen, wenn direkt am Anfang eine Caption erklärt, worum es geht. So können Menschen und assistive Technik schneller entscheiden, ob die Tabelle relevant ist.</p>
+  <h3>Stundenplan oder Preisübersicht</h3>
+  <p>Wenn mehrere Werte nach festen Kategorien geordnet verglichen werden sollen, ist eine Tabelle sinnvoll. Gerade dann ist wichtig, dass nicht nur Kästchen sichtbar sind, sondern die Struktur dahinter klar lesbar bleibt.</p>
 </div>
 
-## Welche Bausteine wichtig sind
+## Wann eine Tabelle passt
 
-Für einfache, gut lesbare Datentabellen sind besonders hilfreich:
+Eine Tabelle ist gut geeignet, wenn
 
-- `<caption>` für eine knappe Beschreibung,
-- `<th>` für Kopfzellen,
-- und `scope`, wenn Beziehungen zwischen Überschrift und Daten klarer gemacht werden sollen.
+- mehrere Datensätze nach denselben Merkmalen geordnet sind,
+- Werte verglichen werden sollen,
+- und Zeilen und Spalten jeweils eine erkennbare Bedeutung haben.
 
-## Warum Kopfzellen mehr sind als fette Schrift
+## Mini-Demo: Rasteroptik ist noch keine gute Tabelle
 
-Wenn eine Spaltenüberschrift nur optisch hervorgehoben wird, fehlt dem HTML die eigentliche Bedeutung. Mit `<th>` wird semantisch klar: Diese Zelle beschreibt andere Zellen.
+<div class="figure-card">
+  <p class="card-kicker">Mini-Seite in der Seite</p>
+  <h3>Kästchen allein reichen nicht</h3>
+  <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(16rem,1fr)); gap:0.9rem;">
+    <div style="padding:0.9rem; border:1px dashed #94a3b8; border-radius:16px; background:#f8fafc;">
+      <p style="margin:0 0 0.45rem;"><strong>Nur Raster</strong></p>
+      <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:0.25rem;">
+        <div style="padding:0.55rem; background:white; border:1px solid #cbd5e1;">Montag</div>
+        <div style="padding:0.55rem; background:white; border:1px solid #cbd5e1;">08:00</div>
+        <div style="padding:0.55rem; background:white; border:1px solid #cbd5e1;">Mathe</div>
+        <div style="padding:0.55rem; background:white; border:1px solid #cbd5e1;">Dienstag</div>
+        <div style="padding:0.55rem; background:white; border:1px solid #cbd5e1;">10:00</div>
+        <div style="padding:0.55rem; background:white; border:1px solid #cbd5e1;">Linux</div>
+      </div>
+      <p style="margin:0.55rem 0 0;">Es gibt Kästchen, aber die Rollen der Spalten und Zeilen sind noch unklar.</p>
+    </div>
+    <div style="padding:0.9rem; border:1px dashed #94a3b8; border-radius:16px; background:#f8fafc;">
+      <p style="margin:0 0 0.45rem;"><strong>Mit klaren Überschriften</strong></p>
+      <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:0.25rem;">
+        <div style="padding:0.55rem; background:#e2e8f0; border:1px solid #cbd5e1; font-weight:700;">Tag</div>
+        <div style="padding:0.55rem; background:#e2e8f0; border:1px solid #cbd5e1; font-weight:700;">Uhrzeit</div>
+        <div style="padding:0.55rem; background:#e2e8f0; border:1px solid #cbd5e1; font-weight:700;">Fach</div>
+        <div style="padding:0.55rem; background:white; border:1px solid #cbd5e1;">Montag</div>
+        <div style="padding:0.55rem; background:white; border:1px solid #cbd5e1;">08:00</div>
+        <div style="padding:0.55rem; background:white; border:1px solid #cbd5e1;">Mathe</div>
+      </div>
+      <p style="margin:0.55rem 0 0;">Jetzt ist leichter lesbar, welche Art von Information jede Zelle trägt.</p>
+    </div>
+  </div>
+</div>
 
-Gerade das macht Tabellen für Screenreader und strukturierte Navigation besser nutzbar.
+## Layout und Datenstruktur nicht verwechseln
 
-## Was scope leistet
+<div class="compare-card">
+  <p class="card-kicker">Wichtiger Unterschied</p>
+  <h3>Datenbeziehung statt reine Position</h3>
+  <div class="compare-grid">
+    <div class="compare-item">
+      <strong>Gute Tabelle</strong>
+      <span>Zeilen und Spalten haben eine fachliche Rolle und lassen Werte vergleichbar werden.</span>
+    </div>
+    <div class="compare-item">
+      <strong>Schwache Rasteroptik</strong>
+      <span>Inhalte sind zwar in Kästchen verteilt, aber ihre Beziehung bleibt unklar.</span>
+    </div>
+  </div>
+</div>
 
-Mit `scope` lässt sich verdeutlichen, ob eine Kopfzelle sich auf eine Zeile oder eine Spalte bezieht.
+## Warum Überschriften so wichtig sind
 
-Das ist besonders nützlich, wenn Tabellen größer oder unübersichtlicher werden.
+<div class="visual-grid">
+  <div class="visual-item">
+    <strong>Spaltenüberschrift</strong>
+    <span>Sie zeigt, welche Art von Information in einer Spalte steht.</span>
+  </div>
+  <div class="visual-item">
+    <strong>Zeilenüberschrift</strong>
+    <span>Sie hilft dabei, einen Datensatz oder ein Merkmal eindeutig zuzuordnen.</span>
+  </div>
+  <div class="visual-item">
+    <strong>Ohne klare Überschriften</strong>
+    <span>Werte wirken schnell isoliert und schwer deutbar.</span>
+  </div>
+</div>
 
-## Woran man gute Tabellen erkennt
+## Eine ruhige Prüfstrategie
 
-Gute Tabellen haben:
+1. Liegen wirklich tabellarische Daten vor?
+2. Welche Kategorien bilden die Spalten?
+3. Welche Einträge bilden die Zeilen?
+4. Sind die Überschriften klar und sinnvoll?
+5. Bleibt die Zuordnung auch ohne optischen Zufall verständlich?
 
-1. einen klaren Zweck,
-2. eine knappe Caption,
-3. verständliche Überschriften,
-4. und eine Struktur, die nicht nur visuell funktioniert.
-
-<div class="practice-card wide-bleed">
-  <p class="card-kicker">Zum Anwenden</p>
-  <h3>So kannst du das Thema weiterdenken</h3>
-  <ul>
-    <li>Prüfe bei jeder Tabelle zuerst, ob sie wirklich Daten darstellt.</li>
-    <li>Ergänze einer Beispieltabelle eine knappe Caption in einem Satz.</li>
-    <li>Vergleiche eine reine visuelle Tabelle mit einer semantisch sauber aufgebauten Version.</li>
-  </ul>
+<div class="note-panel">
+  <p><strong>Merke:</strong> Eine gute HTML-Tabelle ist nicht einfach ein Raster. Sie macht Datenbeziehungen klar lesbar.</p>
 </div>

@@ -1,118 +1,124 @@
 ---
 title: EVA-Prinzip und Datenfluss
-description: Verstehe Eingabe, Verarbeitung und Ausgabe als Grundmuster vieler Informatiksysteme.
+description: Verstehe Eingabe, Verarbeitung und Ausgabe als ruhigen Grundablauf vieler Informatiksysteme.
 subject: informatik
 section: Systemnah
 topicPath:
   - systemnah
   - eva-prinzip-und-datenfluss
+learningGoals:
+  - Du erklärst das EVA-Prinzip als Grundmuster technischer Systeme.
+  - Du trennst Eingabe, Verarbeitung und Ausgabe sauber.
+  - Du beschreibst einfache digitale Abläufe als Datenfluss statt nur als Gerätesammlung.
+practiceIdeas:
+  - Ordne bei einem Gerät oder Programm die Schritte Eingabe, Verarbeitung und Ausgabe zu.
+  - Prüfe bei einem Beispiel, wo Daten gespeichert oder weitergegeben werden.
+  - Erkläre denselben Ablauf einmal als Alltagssatz und einmal als EVA-Struktur.
+commonMistakes:
+  - Eingabe und Ausgabe zu verwechseln.
+  - Nur das sichtbare Gerät zu beschreiben, nicht den Ablauf.
+  - Verarbeitung mit bloßer Speicherung gleichzusetzen.
+keyTakeaways:
+  - EVA ist ein Grundmuster vieler Informatiksysteme.
+  - Der Ablauf wird klarer, wenn Rollen statt Geräte betrachtet werden.
+  - Datenflussdenken hilft auch ohne Programmcode.
+recognizeSignals:
+  - Es geht um technische Abläufe, Eingaben, Reaktionen oder Systemverständnis.
+  - Du sollst einen Vorgang strukturieren, nicht nur Begriffe nennen.
+  - In Beispielen musst du erklären, was mit Daten nacheinander passiert.
+selfCheckPoints:
+  - Kann ich Eingabe, Verarbeitung und Ausgabe sauber unterscheiden?
+  - Kann ich einen Ablauf als Datenfluss erklären?
+  - Kann ich begründen, warum EVA mehr ist als eine Merkhilfe?
 tags:
   - eva
+  - systeme
+  - datenfluss
   - eingabe
-  - verarbeitung
   - ausgabe
-learningGoals:
-  - "Du erklärst das EVA-Prinzip als grundlegenden Datenfluss in Informatiksystemen."
-  - "Du ordnest Eingabe, Verarbeitung und Ausgabe in Beispielen fachlich zu."
-  - "Du erkennst, dass Systeme intern mehrere Zwischenschritte und Rückkopplungen haben können."
-practiceIdeas:
-  - "Beschreibe Alltagsgeräte bewusst über Eingabe, Verarbeitung und Ausgabe."
-  - "Markiere in einem Beispiel, wo Daten hereinkommen, verändert werden und wieder herausgehen."
-  - "Ergänze zu einem System eigene Zwischenschritte zwischen Eingabe und Ausgabe."
-commonMistakes:
-  - "Das EVA-Prinzip als starre Einmal-Reihenfolge zu verstehen."
-  - "Ausgabe und Speicherung gleichzusetzen."
-  - "Zu übersehen, dass mehrere Eingaben oder Zwischenschritte beteiligt sein können."
-keyTakeaways:
-  - "Viele Systeme lassen sich über Eingabe, Verarbeitung und Ausgabe erklären."
-  - "Verarbeitung bedeutet, dass Daten nach Regeln verändert oder ausgewertet werden."
-  - "Das Modell vereinfacht, hilft aber sehr beim Verstehen komplexerer Abläufe."
-recognizeSignals:
-  - "Es geht um Datenfluss, Verarbeitungsschritte, Systemabläufe oder den Weg von Messwerten und Eingaben."
-  - "Du sollst erklären, was in einem System zuerst hineingeht, was intern passiert und was am Ende sichtbar wird."
-  - "Ein Beispiel fragt nach Rollen von Sensor, Programm, Speicher oder Anzeige."
-selfCheckPoints:
-  - "Kann ich Eingabe, Verarbeitung und Ausgabe an einem Beispiel sauber trennen?"
-  - "Kann ich erklären, warum das EVA-Prinzip ein Modell und kein vollständiger Schaltplan ist?"
-  - "Kann ich zu einem Gerät selbst einen sinnvollen Datenfluss formulieren?"
 level: einfach
 draft: false
 ---
 
-## Warum das EVA-Prinzip so oft auftaucht
+## Grundidee
 
-Das EVA-Prinzip gehört zu den einfachsten und zugleich nützlichsten Denkmodellen der Informatik. Es hilft, sehr unterschiedliche Systeme in einem gemeinsamen Muster zu lesen:
+Viele technische Systeme lassen sich zunächst sehr ruhig über drei Rollen verstehen:
 
-- **Eingabe**
-- **Verarbeitung**
-- **Ausgabe**
+- **Eingabe**,
+- **Verarbeitung**,
+- **Ausgabe**.
 
-Damit wird aus einem unübersichtlichen technischen Ablauf eine verständliche Struktur.
+Dieses Grundmuster nennt man EVA-Prinzip. Es ist hilfreich, weil es aus einem unübersichtlichen Gerät einen geordneten Ablauf macht.
 
 <div class="example-card">
   <p class="card-kicker">Leitbeispiel</p>
-  <h3>Tastendruck bis Bildschirmreaktion</h3>
-  <p>Du drückst eine Taste. Das ist die Eingabe. Das System verarbeitet das Signal, ordnet es einer Funktion zu und entscheidet, was passieren soll. Danach erscheint eine Reaktion auf dem Bildschirm. Das ist die Ausgabe. Zwischen Anfang und Ende können zusätzlich Speicher, Programme und interne Prüfungen beteiligt sein.</p>
+  <h3>Suche in einer App</h3>
+  <p>Du gibst einen Begriff ein. Das System verarbeitet diese Eingabe, durchsucht passende Daten und zeigt danach Treffer an. Genau dieses einfache Beispiel zeigt das EVA-Prinzip sehr klar: Etwas kommt hinein, wird bearbeitet und als Ergebnis wieder ausgegeben.</p>
 </div>
 
-## Eingabe
+## Die drei Rollen
 
-Eingabe bedeutet, dass Daten oder Signale in ein System gelangen. Das können sein:
+<div class="visual-grid">
+  <div class="visual-item">
+    <strong>Eingabe</strong>
+    <span>Informationen gelangen in das System, zum Beispiel durch Tastatur, Klick, Sensor oder Datei.</span>
+  </div>
+  <div class="visual-item">
+    <strong>Verarbeitung</strong>
+    <span>Das System prüft, ordnet, berechnet oder verändert die Daten nach bestimmten Regeln.</span>
+  </div>
+  <div class="visual-item">
+    <strong>Ausgabe</strong>
+    <span>Das Ergebnis wird sichtbar oder wirksam, zum Beispiel auf einem Bildschirm, Lautsprecher oder Aktor.</span>
+  </div>
+</div>
 
-- Tastenanschläge,
-- Sensorwerte,
-- Mausklicks,
-- Dateien,
-- Netzwerksignale.
+## So hilft EVA beim Denken
 
-Entscheidend ist: Etwas kommt von außen oder aus einer anderen Quelle in das betrachtete System hinein.
+<div class="figure-card">
+  <p class="card-kicker">Datenfluss</p>
+  <h3>Vom Signal zum Ergebnis</h3>
+  <div class="signal-flow">
+    <div class="flow-node"><strong>Eingabe</strong><span>Ein Wert, eine Aktion oder ein Signal kommt an.</span></div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-node"><strong>Verarbeitung</strong><span>Das System arbeitet nach Regeln mit diesen Daten.</span></div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-node"><strong>Ausgabe</strong><span>Ein Ergebnis wird sichtbar, hörbar oder technisch wirksam.</span></div>
+  </div>
+</div>
 
-## Verarbeitung
+## EVA ist nicht nur für Computer da
 
-Verarbeitung ist der Kernschritt. Hier werden Daten
+Das Prinzip hilft bei vielen Arten von Systemen:
 
-- verglichen,
-- berechnet,
-- umgewandelt,
-- gespeichert,
-- oder nach Regeln ausgewertet.
+- Programme,
+- Automaten,
+- digitale Geräte,
+- einfache technische Steuerungen,
+- und auch bei der Erklärung vieler Alltagsabläufe.
 
-Gerade dieser Teil ist oft unsichtbar. Trotzdem entscheidet er darüber, wie sinnvoll die spätere Ausgabe wird.
+## Gute und schwache Beschreibung
 
-## Ausgabe
+<div class="good-bad-grid">
+  <section>
+    <p class="card-kicker">Gut</p>
+    <h3>Den Ablauf in Rollen lesen</h3>
+    <p>Du beschreibst, was hereinkommt, was das System damit macht und woran das Ergebnis erkennbar wird.</p>
+  </section>
+  <section>
+    <p class="card-kicker">Schwach</p>
+    <h3>Nur Geräte oder Tasten aufzählen</h3>
+    <p>Dann bleibt unklar, welcher Teil Eingabe, Verarbeitung oder Ausgabe überhaupt übernimmt.</p>
+  </section>
+</div>
 
-Ausgabe ist das, was ein System nach der Verarbeitung bereitstellt. Das kann sein:
+## Eine ruhige Prüfstrategie
 
-- eine Anzeige,
-- ein Signal,
-- eine Datei,
-- eine Nachricht,
-- ein Steuerbefehl an ein anderes Gerät.
+1. Was kommt in das System hinein?
+2. Was passiert mit den Daten unterwegs?
+3. Wo wird das Ergebnis sichtbar oder wirksam?
+4. Gibt es Zwischenspeicherung oder weitere Verarbeitungsschritte?
 
-Wichtig ist: Ausgabe muss nicht immer ein sichtbarer Bildschirmtext sein. Auch ein elektrisches Signal oder ein weitergegebenes Datenpaket kann Ausgabe sein.
-
-## Warum das Modell vereinfacht
-
-Das EVA-Prinzip ist kein vollständiger Bauplan eines Systems. Reale Systeme arbeiten oft mit
-
-- mehreren Eingaben,
-- Zwischenspeicherung,
-- Rückkopplungen,
-- Wiederholungen,
-- parallelen Teilprozessen.
-
-Trotzdem bleibt das Modell nützlich, weil es den Grundfluss sichtbar macht.
-
-## Gute Anwendung im Unterricht und Alltag
-
-Das Modell hilft besonders dann, wenn man nicht einfach Begriffe auswendig lernen will, sondern den Ablauf eines Systems wirklich verstehen möchte. Wer bei neuen Geräten, Programmen oder technischen Beispielen zuerst nach Eingabe, Verarbeitung und Ausgabe fragt, strukturiert sein Denken automatisch besser.
-
-<div class="practice-card wide-bleed">
-  <p class="card-kicker">Zum Anwenden</p>
-  <h3>So kannst du den Datenfluss ruhiger lesen</h3>
-  <ul>
-    <li>Starte immer mit der Frage: Was kommt hinein?</li>
-    <li>Überlege danach: Welche Regeln oder Zwischenschritte wirken im System?</li>
-    <li>Formuliere zuletzt: Was kommt heraus oder wird weitergegeben?</li>
-  </ul>
+<div class="note-panel">
+  <p><strong>Merke:</strong> EVA ist kein bloßer Merksatz. Es ist eine Denkstruktur, mit der du technische Abläufe lesbarer machst.</p>
 </div>

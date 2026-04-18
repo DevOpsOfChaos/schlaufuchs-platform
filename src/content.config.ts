@@ -1,3 +1,4 @@
+
 import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
@@ -13,19 +14,21 @@ const subjects = defineCollection({
   }),
 });
 
+const subjectEnum = z.enum([
+  'web-development',
+  'informatik',
+  'linux',
+  'mathematik',
+  'elektrotechnik',
+  'daten-und-signale',
+]);
+
 const articles = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/articles' }),
   schema: z.object({
     title: z.string(),
     description: z.string(),
-    subject: z.enum([
-      'web-development',
-      'informatik',
-      'linux',
-      'mathematik',
-      'elektrotechnik',
-      'daten-und-signale',
-    ]),
+    subject: subjectEnum,
     section: z.string(),
     topicPath: z.array(z.string()).optional(),
     learningGoals: z.array(z.string()).default([]),
@@ -45,22 +48,31 @@ const exercises = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string(),
-    subject: z.enum([
-      'web-development',
-      'informatik',
-      'linux',
-      'mathematik',
-      'elektrotechnik',
-      'daten-und-signale',
-    ]),
+    subject: subjectEnum,
     section: z.string().optional(),
     topicPath: z.array(z.string()).optional(),
+    taskId: z.string().optional(),
     tags: z.array(z.string()).default([]),
     hintPoints: z.array(z.string()).default([]),
     selfCheckPoints: z.array(z.string()).default([]),
     transferIdeas: z.array(z.string()).default([]),
     reflectionPrompt: z.string().optional(),
     level: z.enum(['einfach', 'mittel', 'fortgeschritten']),
+    draft: z.boolean().default(false),
+  }),
+});
+
+const solutions = defineCollection({
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/solutions' }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    subject: subjectEnum,
+    section: z.string().optional(),
+    topicPath: z.array(z.string()).optional(),
+    taskId: z.string(),
+    relatedExercise: z.string(),
+    tags: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
   }),
 });
@@ -80,5 +92,6 @@ export const collections = {
   subjects,
   articles,
   exercises,
+  solutions,
   news,
 };
