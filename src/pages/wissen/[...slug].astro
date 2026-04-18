@@ -11,6 +11,7 @@ import SectionHeading from "../../components/content/SectionHeading.astro";
 import ResourceCard from "../../components/content/ResourceCard.astro";
 import CardPager from "../../components/content/CardPager.astro";
 import ResourceDetailHero from "../../components/content/ResourceDetailHero.astro";
+import ResourceContentShell from "../../components/content/ResourceContentShell.astro";
 import PracticeIdeas from "../../components/content/PracticeIdeas.astro";
 import CommonMistakes from "../../components/content/CommonMistakes.astro";
 import KeyTakeaways from "../../components/content/KeyTakeaways.astro";
@@ -93,11 +94,9 @@ const taskIcon = `
       note={shellScenario ? "Mit interaktiver Linux-Shell" : undefined}
     />
 
-    <section class="article-shell">
-      <article class="article-content">
-        <Content />
-      </article>
-    </section>
+    <ResourceContentShell kind="article">
+      <Content />
+    </ResourceContentShell>
 
     {shellScenario && (
       <section class="interactive-section wide-bleed">
@@ -148,12 +147,5 @@ const taskIcon = `
 
 <style>
   .page-shell { display: grid; gap: 1.2rem; }
-  .article-shell, .related-section, .interactive-section, .followup-section { display: grid; gap: 1rem; }
-  .article-content { padding: clamp(1.35rem, 2vw, 2rem); border: 1px solid var(--border); border-radius: 30px; background: var(--card-bg); box-shadow: var(--shadow-card); overflow: hidden; }
-  .article-content :global(h2) { margin-top: 1.7rem; color: var(--text-strong); font-size: clamp(1.4rem, 2.3vw, 1.8rem); line-height: 1.15; }
-  .article-content :global(h2:first-child) { margin-top: 0; }
-  .article-content :global(h3) { margin-top: 1.15rem; color: var(--text-strong); font-size: 1.1rem; line-height: 1.2; }
-  .article-content :global(p), .article-content :global(li) { color: var(--text); line-height: 1.82; font-size: 1rem; }
-  .article-content :global(ul), .article-content :global(ol) { padding-left: 1.2rem; }
-  .article-content :global(pre) { overflow-x: auto; }
+  .related-section, .interactive-section, .followup-section { display: grid; gap: 1rem; }
 </style>

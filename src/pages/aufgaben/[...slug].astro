@@ -11,6 +11,7 @@ import SectionHeading from "../../components/content/SectionHeading.astro";
 import ResourceCard from "../../components/content/ResourceCard.astro";
 import CardPager from "../../components/content/CardPager.astro";
 import ResourceDetailHero from "../../components/content/ResourceDetailHero.astro";
+import ResourceContentShell from "../../components/content/ResourceContentShell.astro";
 import SupportChecklist from "../../components/content/SupportChecklist.astro";
 import TransferIdeas from "../../components/content/TransferIdeas.astro";
 import ReflectionPrompt from "../../components/content/ReflectionPrompt.astro";
@@ -98,11 +99,9 @@ const articleIcon = `
       secondaryLabel="Druckansicht öffnen →"
     />
 
-    <section class="exercise-shell">
-      <article class="exercise-content">
-        <Content />
-      </article>
-    </section>
+    <ResourceContentShell kind="exercise">
+      <Content />
+    </ResourceContentShell>
 
     {hasSupportContent && (
       <section class="support-section wide-bleed">
@@ -166,12 +165,5 @@ const articleIcon = `
 
 <style>
   .page-shell { display: grid; gap: 1.15rem; }
-  .exercise-shell, .related-section, .support-section { display: grid; gap: 1rem; }
-  .exercise-content { padding: clamp(1.3rem, 2vw, 2rem); border: 1px solid var(--border); border-radius: 30px; background: var(--card-bg); box-shadow: var(--shadow-card); overflow: hidden; }
-  .exercise-content :global(h2) { margin-top: 1.8rem; color: var(--text-strong); font-size: clamp(1.42rem, 2.35vw, 1.82rem); line-height: 1.15; }
-  .exercise-content :global(h2:first-child) { margin-top: 0; }
-  .exercise-content :global(h3) { margin-top: 1.15rem; color: var(--text-strong); font-size: 1.1rem; line-height: 1.2; }
-  .exercise-content :global(p), .exercise-content :global(li) { color: var(--text); line-height: 1.82; font-size: 1rem; }
-  .exercise-content :global(ul), .exercise-content :global(ol) { padding-left: 1.2rem; }
-  .exercise-content :global(pre) { overflow-x: auto; }
+  .related-section, .support-section { display: grid; gap: 1rem; }
 </style>
