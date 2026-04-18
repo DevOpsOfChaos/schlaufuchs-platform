@@ -11,10 +11,10 @@ import SectionHeading from "../../components/content/SectionHeading.astro";
 import ResourceCard from "../../components/content/ResourceCard.astro";
 import CardPager from "../../components/content/CardPager.astro";
 import ResourceDetailHero from "../../components/content/ResourceDetailHero.astro";
-import ResponsiveCardGrid from "../../components/content/ResponsiveCardGrid.astro";
 import SupportChecklist from "../../components/content/SupportChecklist.astro";
 import TransferIdeas from "../../components/content/TransferIdeas.astro";
 import ReflectionPrompt from "../../components/content/ReflectionPrompt.astro";
+import ResponsiveCardGrid from "../../components/content/ResponsiveCardGrid.astro";
 
 export async function getStaticPaths() {
   const exercises = await getVisibleExercises();
@@ -140,7 +140,7 @@ const articleIcon = `
     {relatedExercises.length > 0 && (
       <section class="related-section">
         <SectionHeading kicker="Weitere Aufgaben" title="Mehr Aufgaben im gleichen Themenfeld" />
-        <CardPager maxColumns={4} maxRows={2} minCardWidthRem={16}>
+        <CardPager maxColumns={4} maxRows={2} minCardWidthRem={16} fallbackPageSize={8}>
           <ResponsiveCardGrid mode="tasks" pagerGrid={true}>
             {relatedExercises.map((item, index) => (
               <div data-pager-item>

@@ -11,7 +11,6 @@ import SectionHeading from "../../components/content/SectionHeading.astro";
 import ResourceCard from "../../components/content/ResourceCard.astro";
 import CardPager from "../../components/content/CardPager.astro";
 import ResourceDetailHero from "../../components/content/ResourceDetailHero.astro";
-import ResponsiveCardGrid from "../../components/content/ResponsiveCardGrid.astro";
 import PracticeIdeas from "../../components/content/PracticeIdeas.astro";
 import CommonMistakes from "../../components/content/CommonMistakes.astro";
 import KeyTakeaways from "../../components/content/KeyTakeaways.astro";
@@ -19,6 +18,7 @@ import RecognizeSignals from "../../components/content/RecognizeSignals.astro";
 import SelfCheckChecklist from "../../components/content/SelfCheckChecklist.astro";
 import LinuxLearningShell from "../../components/interactive/LinuxLearningShell.astro";
 import { getLinuxShellScenario } from "../../data/interactive/linuxShellScenarios";
+import ResponsiveCardGrid from "../../components/content/ResponsiveCardGrid.astro";
 
 export async function getStaticPaths() {
   const articles = await getVisibleArticles();
@@ -122,7 +122,7 @@ const taskIcon = `
     {relatedExercises.length > 0 && (
       <section class="related-section">
         <SectionHeading kicker="Aufgaben" title="Passende Aufgaben" />
-        <CardPager maxColumns={4} maxRows={2} minCardWidthRem={16}>
+        <CardPager maxColumns={4} maxRows={2} minCardWidthRem={16} fallbackPageSize={8}>
           <ResponsiveCardGrid mode="tasks" pagerGrid={true}>
             {relatedExercises.map((item, index) => (
               <div data-pager-item>
