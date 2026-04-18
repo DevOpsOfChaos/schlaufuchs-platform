@@ -9,6 +9,7 @@ import { withBase } from "../../utils/base";
 import PageTrail from "../../components/content/PageTrail.astro";
 import SectionHeading from "../../components/content/SectionHeading.astro";
 import ResourceCard from "../../components/content/ResourceCard.astro";
+import CardPager from "../../components/content/CardPager.astro";
 import SupportChecklist from "../../components/content/SupportChecklist.astro";
 import TransferIdeas from "../../components/content/TransferIdeas.astro";
 import ReflectionPrompt from "../../components/content/ReflectionPrompt.astro";
@@ -121,7 +122,7 @@ const articleIcon = `
     {relatedArticles.length > 0 && (
       <section class="related-section">
         <SectionHeading kicker="Erklärungen" title="Passende Erklärungen" />
-        <div class="related-grid">
+        <div class="related-grid related-articles-grid">
           {relatedArticlesWithLabels.map(({ entry: item, topicLabel }, index) => (
             <ResourceCard
               title={item.data.title}
@@ -142,9 +143,8 @@ const articleIcon = `
     {relatedExercises.length > 0 && (
       <section class="related-section">
         <SectionHeading kicker="Weitere Aufgaben" title="Mehr Aufgaben im gleichen Themenfeld" />
-
-        <div class="pager-shell" data-card-pager data-page-size="4">
-          <div class="related-grid" data-pager-grid>
+        <CardPager pageSizeXl={8} pageSizeLg={6} pageSizeMd={4} pageSizeSm={2}>
+          <div class="related-grid related-tasks-grid" data-pager-grid>
             {relatedExercises.map((item, index) => (
               <div data-pager-item>
                 <ResourceCard
@@ -161,72 +161,11 @@ const articleIcon = `
               </div>
             ))}
           </div>
-
-          <div class="pager-controls" data-pager-controls hidden>
-            <button type="button" class="pager-button" data-pager-prev>← Zurück</button>
-            <span class="pager-status" data-pager-status>1 / 1</span>
-            <button type="button" class="pager-button" data-pager-next>Weiter →</button>
-          </div>
-        </div>
+        </CardPager>
       </section>
     )}
   </div>
 </BaseLayout>
-
-<script is:inline>
-  (() => {
-    const setupCardPager = (root) => {
-      if (!(root instanceof HTMLElement) || root.dataset.pagerReady === "true") return;
-      root.dataset.pagerReady = "true";
-
-      const items = [...root.querySelectorAll("[data-pager-item]")];
-      const controls = root.querySelector("[data-pager-controls]");
-      const prevButton = root.querySelector("[data-pager-prev]");
-      const nextButton = root.querySelector("[data-pager-next]");
-      const status = root.querySelector("[data-pager-status]");
-      const pageSize = Number(root.dataset.pageSize ?? "4") || 4;
-
-      if (items.length <= pageSize) {
-        if (controls instanceof HTMLElement) controls.hidden = true;
-        items.forEach((item) => {
-          if (item instanceof HTMLElement) item.hidden = false;
-        });
-        return;
-      }
-
-      let page = 0;
-      const pageCount = Math.ceil(items.length / pageSize);
-
-      const renderPage = () => {
-        items.forEach((item, index) => {
-          if (!(item instanceof HTMLElement)) return;
-          const start = page * pageSize;
-          const end = start + pageSize;
-          item.hidden = index < start || index >= end;
-        });
-
-        if (controls instanceof HTMLElement) controls.hidden = false;
-        if (status instanceof HTMLElement) status.textContent = `${page + 1} / ${pageCount}`;
-        if (prevButton instanceof HTMLButtonElement) prevButton.disabled = page === 0;
-        if (nextButton instanceof HTMLButtonElement) nextButton.disabled = page >= pageCount - 1;
-      };
-
-      prevButton?.addEventListener("click", () => {
-        page = Math.max(page - 1, 0);
-        renderPage();
-      });
-
-      nextButton?.addEventListener("click", () => {
-        page = Math.min(page + 1, pageCount - 1);
-        renderPage();
-      });
-
-      renderPage();
-    };
-
-    document.querySelectorAll("[data-card-pager]").forEach(setupCardPager);
-  })();
-</script>
 
 <style>
   .page-shell { display: grid; gap: 1.15rem; }
@@ -240,29 +179,48 @@ const articleIcon = `
   .hero-link.secondary { background:transparent; box-shadow:none; }
   .exercise-shell, .related-section, .support-section { display: grid; gap: 1rem; }
   .exercise-content { padding: clamp(1.3rem, 2vw, 2rem); border: 1px solid var(--border); border-radius: 30px; background: var(--card-bg); box-shadow: var(--shadow-card); overflow: hidden; }
-  .support-grid,
-  .related-grid {
+  .support-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 18rem));
     gap: 0.9rem;
     justify-content: start;
     align-items: start;
   }
-  .pager-shell { display:grid; gap:1rem; }
-  .pager-controls { display:flex; align-items:center; justify-content:flex-end; gap:.7rem; flex-wrap:wrap; }
-  .pager-button { display:inline-flex; align-items:center; min-height:2.55rem; padding:0 .85rem; border-radius:999px; border:1px solid var(--border); background:var(--surface); color:var(--text-strong); font-weight:700; cursor:pointer; }
-  .pager-button:disabled { opacity:.45; cursor:default; }
-  .pager-status { color:var(--text-soft); font-weight:700; }
+  .related-grid {
+    display: grid;
+    gap: 0.9rem;
+    justify-content: start;
+    align-items: start;
+  }
+  .related-articles-grid {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 18rem));
+  }
+  .related-tasks-grid {
+    grid-template-columns: repeat(4, minmax(0, 18rem));
+  }
   .exercise-content :global(h2) { margin-top: 1.8rem; color: var(--text-strong); font-size: clamp(1.42rem, 2.35vw, 1.82rem); line-height: 1.15; }
   .exercise-content :global(h2:first-child) { margin-top: 0; }
   .exercise-content :global(h3) { margin-top: 1.15rem; color: var(--text-strong); font-size: 1.1rem; line-height: 1.2; }
   .exercise-content :global(p), .exercise-content :global(li) { color: var(--text); line-height: 1.82; font-size: 1rem; }
   .exercise-content :global(ul), .exercise-content :global(ol) { padding-left: 1.2rem; }
   .exercise-content :global(pre) { overflow-x: auto; }
-  @media (max-width: 980px) { .pager-controls { justify-content:flex-start; } }
+
+  @media (max-width: 1320px) {
+    .related-tasks-grid {
+      grid-template-columns: repeat(3, minmax(0, 18rem));
+    }
+  }
+
+  @media (max-width: 980px) {
+    .related-tasks-grid {
+      grid-template-columns: repeat(2, minmax(0, 18rem));
+    }
+  }
+
   @media (max-width: 580px) {
     .support-grid,
-    .related-grid {
+    .related-articles-grid,
+    .related-tasks-grid {
       grid-template-columns: 1fr;
       justify-content: stretch;
     }
