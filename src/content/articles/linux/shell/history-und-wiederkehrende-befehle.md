@@ -43,6 +43,12 @@ draft: false
 
 Shell-Arbeit besteht oft nicht aus völlig neuen Befehlen, sondern aus wiederkehrenden Mustern. Gerade deshalb ist der Befehlsverlauf mehr als eine Komfortfunktion: Er hilft beim Arbeiten, Prüfen und Nachvollziehen.
 
+<div class="example-card">
+  <p class="card-kicker">Leitbeispiel</p>
+  <h3>Eine kleine Analyse wiederholen</h3>
+  <p>Wenn du gerade mit <code>ls</code>, <code>cat</code>, <code>grep</code> und <code>wc</code> gearbeitet hast, ist es oft sinnvoller, den Ablauf aus dem Verlauf erneut zu prüfen, statt alles neu einzutippen.</p>
+</div>
+
 ## History als Arbeitsgedächtnis
 
 Die History sammelt frühere Eingaben. Dadurch kann man
@@ -53,10 +59,16 @@ Die History sammelt frühere Eingaben. Dadurch kann man
 
 Das macht Shell-Arbeit ruhiger und planbarer.
 
-<div class="example-card">
-  <p class="card-kicker">Leitbeispiel</p>
-  <h3>Eine kleine Analyse wiederholen</h3>
-  <p>Wenn du gerade mit <code>ls</code>, <code>cat</code>, <code>grep</code> und <code>wc</code> gearbeitet hast, ist es oft sinnvoller, den Ablauf aus dem Verlauf erneut zu prüfen, statt alles neu einzutippen.</p>
+<div class="figure-card">
+  <p class="card-kicker">Ablaufbild</p>
+  <h3>Vom Probieren zum wiederholbaren Muster</h3>
+  <div class="signal-flow compact">
+    <div><strong>Befehl eingeben</strong><span>ein erster Schritt</span></div>
+    <div class="flow-arrow">→</div>
+    <div><strong>Ergebnis prüfen</strong><span>passt der Output?</span></div>
+    <div class="flow-arrow">→</div>
+    <div><strong>Verlauf nutzen</strong><span>bewusst erneut einsetzen</span></div>
+  </div>
 </div>
 
 ## Warum Wiederverwendung Fehler reduzieren kann
@@ -67,6 +79,38 @@ Wer einen bereits funktionierenden Befehl kontrolliert wiederverwendet, tippt of
 - Passt die Datei noch?
 - Ist der Befehl in dieser Situation wirklich derselbe?
 
+<div class="comparison-grid">
+  <section>
+    <p class="card-kicker">Spontan neu tippen</p>
+    <h3>Schnell, aber fehleranfällig</h3>
+    <p>Gut für sehr einfache Kommandos, aber riskant bei längeren oder verschachtelten Befehlen.</p>
+  </section>
+  <section>
+    <p class="card-kicker">Verlauf bewusst nutzen</p>
+    <h3>Schneller und kontrollierter</h3>
+    <p>Hilft besonders dann, wenn eine Befehlskette schon funktioniert hat und nur leicht geprüft werden muss.</p>
+  </section>
+</div>
+
 ## Verlauf hilft auch beim Erklären
 
 History ist nicht nur für die schnelle Wiederholung nützlich. Sie hilft auch dabei, einen Arbeitsweg zu erklären. So wird sichtbar, welche Schritte zu welchem Ergebnis geführt haben.
+
+## Gute Fragen an den Verlauf
+
+Wenn du die History sinnvoll nutzen willst, helfen diese Fragen:
+
+- Welcher Befehl hat zu diesem Ergebnis geführt?
+- Welche Schritte kamen direkt davor?
+- Wo hat sich der Ablauf verändert?
+- Welcher Teil soll wiederholt werden und welcher nicht?
+
+<div class="practice-card wide-bleed">
+  <p class="card-kicker">Zum Anwenden</p>
+  <h3>So nutzt du History als Lernhilfe</h3>
+  <ol>
+    <li>Suche im Verlauf nicht nur nach dem letzten Befehl, sondern nach dem ganzen kleinen Arbeitsweg.</li>
+    <li>Beschreibe in Worten, was jeder Schritt im Ablauf gemacht hat.</li>
+    <li>Wiederhole nur die Teile, die zum aktuellen Kontext wirklich noch passen.</li>
+  </ol>
+</div>

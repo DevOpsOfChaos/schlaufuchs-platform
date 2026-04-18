@@ -40,18 +40,9 @@ selfCheckPoints:
 - Kann ich verstehst den Zusammenhang zwischen aktuellem Ort und ausgeführten Befehlen?
 ---
 
-
 ## Orientierung beginnt mit dem aktuellen Verzeichnis
 
 Im Terminal ist dein aktueller Ort entscheidend. Viele Befehle beziehen sich auf genau dieses Verzeichnis. Deshalb ist <code>pwd</code> oft der erste sinnvolle Schritt.
-
-## Wichtige Grundbefehle
-
-- <code>pwd</code> zeigt den aktuellen Pfad.
-- <code>ls</code> listet Inhalte auf.
-- <code>cd</code> wechselt in ein anderes Verzeichnis.
-- <code>tree</code> zeigt Strukturen unterhalb eines Ordners.
-- <code>find</code> hilft bei größeren Suchräumen.
 
 <div class="example-card">
   <p class="card-kicker">Leitbeispiel</p>
@@ -59,10 +50,76 @@ Im Terminal ist dein aktueller Ort entscheidend. Viele Befehle beziehen sich auf
   <p>Mit <code>pwd</code> prüfst du deinen Startpunkt, mit <code>ls</code> den Inhalt und mit <code>cd dokumente</code> wechselst du bewusst in einen Unterordner. Danach prüfst du erneut, ob du wirklich dort bist.</p>
 </div>
 
+## Wichtige Grundbefehle
+
+<div class="comparison-grid">
+  <section>
+    <p class="card-kicker">pwd</p>
+    <h3>Wo bin ich gerade?</h3>
+    <p>Zeigt den aktuellen Pfad. Gut, bevor du überhaupt weiterarbeitest.</p>
+    <div class="command-strip"><code>pwd</code></div>
+  </section>
+  <section>
+    <p class="card-kicker">ls</p>
+    <h3>Was liegt hier?</h3>
+    <p>Listet Inhalte auf. Hilfreich, um den aktuellen Ort besser zu lesen.</p>
+    <div class="command-strip"><code>ls</code></div>
+  </section>
+  <section>
+    <p class="card-kicker">cd</p>
+    <h3>Wohin will ich wechseln?</h3>
+    <p>Ändert den aktuellen Ort. Danach beziehen sich viele Befehle auf den neuen Kontext.</p>
+    <div class="command-strip"><code>cd dokumente</code></div>
+  </section>
+</div>
+
+## Struktur statt Einzelnamen lesen
+
+Ein häufiger Anfängerfehler ist, nur auf einen Dateinamen zu schauen. Besser ist es, eine Struktur zu lesen:
+
+<div class="figure-card">
+  <p class="card-kicker">Orientierungsbild</p>
+  <h3>So entsteht ein klares Bild vom Verzeichnis</h3>
+  <div class="signal-flow compact">
+    <div><strong>pwd</strong><span>aktuellen Ort prüfen</span></div>
+    <div class="flow-arrow">→</div>
+    <div><strong>ls oder tree</strong><span>Inhalte und Struktur lesen</span></div>
+    <div class="flow-arrow">→</div>
+    <div><strong>cd</strong><span>bewusst den Ort ändern</span></div>
+  </div>
+</div>
+
+Gerade mit <code>tree</code> oder <code>find</code> wird sichtbar, dass Dateien nicht isoliert existieren, sondern in einer geordneten Umgebung liegen.
+
 ## Relative und absolute Pfade
 
-Ein Pfad kann relativ oder absolut sein. Relativ bedeutet: vom aktuellen Ort aus gedacht. Absolut bedeutet: vom Wurzelverzeichnis aus gedacht. Diese Unterscheidung ist wichtig, wenn du Befehle wirklich verstehen willst.
+Ein Pfad kann relativ oder absolut sein. Relativ bedeutet: vom aktuellen Ort aus gedacht. Absolut bedeutet: vom Wurzelverzeichnis aus gedacht.
+
+<div class="comparison-grid">
+  <section>
+    <p class="card-kicker">Relativ</p>
+    <h3>Vom aktuellen Ort aus</h3>
+    <p>Passt gut, wenn du deinen Arbeitsort kennst und bewusst von dort weitergehst.</p>
+    <div class="command-strip"><code>cd dokumente/projekt</code></div>
+  </section>
+  <section>
+    <p class="card-kicker">Absolut</p>
+    <h3>Vom Wurzelverzeichnis aus</h3>
+    <p>Hilft, wenn du einen eindeutigen, ortsunabhängigen Pfad nennen willst.</p>
+    <div class="command-strip"><code>cd /home/fox/dokumente/projekt</code></div>
+  </section>
+</div>
 
 ## Anwendungen
 
 Sobald du Dateien bearbeitest, kopierst, verschiebst oder suchst, brauchst du diese Orientierung ständig. Sie ist Grundlage für fast jede weitere Linux-Arbeit.
+
+<div class="practice-card wide-bleed">
+  <p class="card-kicker">Zum Anwenden</p>
+  <h3>So arbeitest du mit Dateien und Ordnern ruhiger</h3>
+  <ol>
+    <li>Prüfe zuerst mit <code>pwd</code>, wo du wirklich bist.</li>
+    <li>Lies danach mit <code>ls</code> oder <code>tree</code>, was an diesem Ort vorhanden ist.</li>
+    <li>Wechsle erst dann mit <code>cd</code> weiter und kontrolliere den neuen Ort erneut.</li>
+  </ol>
+</div>

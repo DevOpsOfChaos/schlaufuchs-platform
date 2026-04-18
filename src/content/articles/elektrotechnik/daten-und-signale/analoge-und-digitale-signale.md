@@ -53,18 +53,59 @@ Viele technische Systeme verbinden physikalische Größen mit digitaler Verarbei
 
 Analoge Signale können Werte in einem kontinuierlichen Bereich annehmen. Typisch ist, dass sich die Größe stufenlos verändert.
 
-Beispiele:
+Beispiele sind:
 
 - Temperaturverläufe,
 - Lautstärke und Töne,
 - Helligkeitsverläufe,
 - viele Sensorsignale.
 
+<div class="figure-card">
+  <p class="figure-kicker">Signalbild</p>
+  <h3>So kannst du dir analog vorstellen</h3>
+  <div class="signal-grid">
+    <div class="signal-item">
+      <strong>stufenlos</strong>
+      Zwischen zwei Werten sind viele weitere Werte möglich.
+    </div>
+    <div class="signal-item">
+      <strong>Verlauf statt Sprung</strong>
+      Die Größe ändert sich oft weich und kontinuierlich.
+    </div>
+    <div class="signal-item">
+      <strong>messnah</strong>
+      Viele reale Größen treten zuerst analog auf.
+    </div>
+  </div>
+</div>
+
 ## Digitale Signale
 
 Digitale Signale arbeiten mit klar unterscheidbaren Zuständen. Im einfachen Fall sind das zwei Pegel, etwa 0 und 1 oder aus und an.
 
 Gerade dadurch werden Verarbeitung, Übertragung und Entscheidung oft robuster und eindeutiger.
+
+<div class="figure-card">
+  <p class="figure-kicker">Signalbild</p>
+  <h3>So kannst du dir digital vorstellen</h3>
+  <div class="step-flow">
+    <div class="flow-step">
+      <span class="step-number">0</span>
+      <strong>inaktiv</strong>
+      Der Pegel steht für einen klaren Zustand.
+    </div>
+    <div class="flow-step">
+      <span class="step-number">1</span>
+      <strong>aktiv</strong>
+      Das System erkennt eine zweite, eindeutige Lage.
+    </div>
+    <div class="flow-step">
+      <span class="step-number">✓</span>
+      <strong>gut unterscheidbar</strong>
+      Genau diese Klarheit macht digitale Logik so nützlich.
+    </div>
+  </div>
+</div>
 
 ## Warum digitale Technik klare Zustände nutzt
 
@@ -77,6 +118,9 @@ Wenn Zustände klar trennbar sind, lässt sich Information leichter
 
 Das ist ein wichtiger Grund dafür, dass Computer und viele Steuersysteme digital arbeiten.
 
+<p class="formula-block">analog = kontinuierlicher Verlauf · digital = klare Zustände</p>
+<p class="formula-note">Diese Kurzform ersetzt keine Definition, hilft aber beim schnellen Einordnen von Beispielen.</p>
+
 ## Analog und digital sind keine Wertung
 
 Analog bedeutet nicht automatisch ungenau, digital nicht automatisch besser. Entscheidend ist immer, welches Ziel ein System hat:
@@ -85,6 +129,17 @@ Analog bedeutet nicht automatisch ungenau, digital nicht automatisch besser. Ent
 - eindeutig schalten,
 - robust übertragen,
 - oder effizient verarbeiten.
+
+<div class="compare-grid">
+  <div class="compare-item">
+    <strong>Analog passt gut</strong>
+    wenn ein natürlicher Verlauf möglichst direkt erfasst werden soll.
+  </div>
+  <div class="compare-item">
+    <strong>Digital passt gut</strong>
+    wenn klare Entscheidungen, Speicherbarkeit oder robuste Verarbeitung wichtig sind.
+  </div>
+</div>
 
 <div class="practice-card wide-bleed">
   <p class="card-kicker">Zum Anwenden</p>

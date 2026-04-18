@@ -50,23 +50,57 @@ Formulare sind der Standardweg, um Nutzereingaben auf Webseiten strukturiert auf
   <p>Ein Namensfeld, eine E-Mail-Adresse, ein Auswahlfeld und ein Nachrichtenfeld wirken auf den ersten Blick simpel. Fachlich sauber werden sie aber erst dann, wenn Beschriftungen, Gruppen und Eingabearten zusammenpassen.</p>
 </div>
 
+## Formulare als kleine Eingabestruktur lesen
+
+Ein gutes Formular ist keine lose Sammlung von Kästchen, sondern eine kleine Struktur:
+
+<div class="figure-card">
+  <p class="card-kicker">Strukturbild</p>
+  <h3>So entsteht ein sinnvolles Formular</h3>
+  <div class="signal-flow compact">
+    <div><strong>Frage klären</strong><span>Welche Information wird gebraucht?</span></div>
+    <div class="flow-arrow">→</div>
+    <div><strong>passendes Feld wählen</strong><span>input, textarea oder select</span></div>
+    <div class="flow-arrow">→</div>
+    <div><strong>klar beschriften</strong><span>Label und Gruppierung setzen</span></div>
+  </div>
+</div>
+
 ## Zentrale Bausteine
 
-### form
+<div class="comparison-grid">
+  <section>
+    <p class="card-kicker">form</p>
+    <h3>Der gemeinsame Rahmen</h3>
+    <p>Das <code>form</code>-Element fasst Eingaben zusammen und markiert, dass Daten gemeinsam verarbeitet werden sollen.</p>
+  </section>
+  <section>
+    <p class="card-kicker">label</p>
+    <h3>Die verständliche Beschriftung</h3>
+    <p>Ein <code>label</code> beschreibt das Eingabefeld nicht nur optisch, sondern fachlich und zugänglich.</p>
+  </section>
+  <section>
+    <p class="card-kicker">input / textarea / select</p>
+    <h3>Die eigentliche Eingabe</h3>
+    <p>Je nach Aufgabe braucht ein Formular ein anderes Element – kurzes Feld, Freitext oder Auswahl.</p>
+  </section>
+</div>
 
-Das <code>form</code>-Element fasst Eingaben zusammen und markiert, dass Daten gemeinsam übermittelt oder verarbeitet werden sollen.
+## Ein kleines Beispiel in sauberer Struktur
 
-### label
+<pre><code>&lt;form&gt;
+  &lt;label for="name"&gt;Name&lt;/label&gt;
+  &lt;input id="name" type="text" /&gt;
 
-Ein <code>label</code> beschreibt ein Eingabefeld. Es hilft nicht nur optisch, sondern macht die Eingabe auch für Hilfstechnologien besser verständlich.
+  &lt;label for="topic"&gt;Thema&lt;/label&gt;
+  &lt;select id="topic"&gt;
+    &lt;option&gt;HTML&lt;/option&gt;
+    &lt;option&gt;CSS&lt;/option&gt;
+  &lt;/select&gt;
 
-### input
-
-Mit <code>input</code> entstehen unterschiedliche Eingabefelder, zum Beispiel für Text, E-Mail oder Auswahl.
-
-### textarea und select
-
-Mehrzeilige Eingaben gehören in <code>textarea</code>. Auswahllisten werden mit <code>select</code> und <code>option</code> gebaut.
+  &lt;label for="message"&gt;Nachricht&lt;/label&gt;
+  &lt;textarea id="message"&gt;&lt;/textarea&gt;
+&lt;/form&gt;</code></pre>
 
 ## Warum Beschriftung so wichtig ist
 
@@ -80,11 +114,28 @@ Deshalb sind Labels, Gruppierung und Hinweise keine Nebensache.
 
 ## Placeholder ist kein Ersatz für Struktur
 
-Placeholder-Text kann ergänzen, aber er ersetzt keine saubere Beschriftung. Wer Formulare nur über visuelle Hinweise baut, macht sie oft unklarer und weniger zugänglich.
+Placeholder-Text kann ergänzen, aber er ersetzt keine saubere Beschriftung.
+
+<div class="comparison-grid">
+  <section>
+    <p class="card-kicker">Gute Lösung</p>
+    <h3>Label plus Hinweis</h3>
+    <p>Das Feld ist dauerhaft verständlich, auch wenn schon etwas eingegeben wurde.</p>
+  </section>
+  <section>
+    <p class="card-kicker">Schwache Lösung</p>
+    <h3>Nur Placeholder</h3>
+    <p>Die Orientierung verschwindet schnell und das Feld wird fachlich unklarer.</p>
+  </section>
+</div>
 
 ## Gruppierung und Orientierung
 
 Mit <code>fieldset</code> und <code>legend</code> lassen sich zusammengehörige Eingaben bündeln. Dadurch wird besonders bei längeren Formularen schneller klar, welche Felder inhaltlich zusammengehören.
+
+<div class="note-panel">
+  <p><strong>Merke:</strong> Ein Formular soll nicht nur Daten sammeln, sondern Fragen verständlich stellen. Gute HTML-Struktur macht genau diese Fragen sichtbar.</p>
+</div>
 
 <div class="practice-card wide-bleed">
   <p class="card-kicker">Zum Anwenden</p>

@@ -43,6 +43,12 @@ draft: false
 
 Viele technische Systeme reagieren nicht zufällig, sondern auf Signale aus ihrer Umgebung. Genau dafür braucht man Bauteile, die Zustände erfassen, und Bauteile, die anschließend eine Wirkung auslösen.
 
+<div class="example-card">
+  <p class="card-kicker">Leitbeispiel</p>
+  <h3>Licht an bei Dunkelheit</h3>
+  <p>Ein Helligkeitssensor erfasst wenig Licht. Das System verarbeitet diesen Zustand und schaltet einen Aktor an, zum Beispiel eine Lampe oder LED. Der Sensor misst, der Aktor wirkt.</p>
+</div>
+
 ## Sensoren: Zustände erkennen
 
 Sensoren erfassen Veränderungen oder Zustände der Umgebung. Das können zum Beispiel sein:
@@ -66,18 +72,48 @@ Aktoren setzen elektrische oder digitale Signale in eine sichtbare oder messbare
 
 ## Vom Eingang zur Reaktion
 
-Technische Systeme bestehen oft aus drei Gedanken:
+Technische Systeme lassen sich oft in drei Gedanken gliedern.
 
-1. Ein Zustand wird erfasst.
-2. Das Signal wird verarbeitet.
-3. Eine Wirkung wird ausgelöst.
+<div class="figure-card">
+  <p class="card-kicker">Signalweg</p>
+  <h3>So liest du das System als Ablauf</h3>
+  <div class="signal-flow">
+    <div class="flow-node">
+      <strong>Sensor</strong>
+      <p>Erfasst einen Zustand oder eine Veränderung der Umgebung.</p>
+    </div>
+    <span class="flow-arrow" aria-hidden="true">→</span>
+    <div class="flow-node">
+      <strong>Auswertung</strong>
+      <p>Vergleicht, prüft oder entscheidet auf Basis des Signals.</p>
+    </div>
+    <span class="flow-arrow" aria-hidden="true">→</span>
+    <div class="flow-node">
+      <strong>Aktor</strong>
+      <p>Erzeugt eine sichtbare oder hörbare Wirkung im System.</p>
+    </div>
+  </div>
+</div>
 
-Damit wird das Thema zu einem guten Anschluss an Signalfluss und Systemdenken.
+## Typische Alltagsbeispiele
 
-<div class="example-card">
-  <p class="card-kicker">Leitbeispiel</p>
-  <h3>Licht an bei Dunkelheit</h3>
-  <p>Ein Helligkeitssensor erfasst wenig Licht. Das System verarbeitet diesen Zustand und schaltet einen Aktor an, zum Beispiel eine Lampe oder LED. Der Sensor misst, der Aktor wirkt.</p>
+<div class="compare-card">
+  <p class="card-kicker">Alltagsbezug</p>
+  <h3>Was misst, was wirkt?</h3>
+  <div class="compare-grid">
+    <div class="compare-item">
+      <strong>Automatisches Nachtlicht</strong>
+      <p>Sensor: Helligkeit<br />Aktor: Lampe</p>
+    </div>
+    <div class="compare-item">
+      <strong>Temperaturregelung</strong>
+      <p>Sensor: Temperaturfühler<br />Aktor: Lüfter oder Heizung</p>
+    </div>
+    <div class="compare-item">
+      <strong>Bewegungsmelder</strong>
+      <p>Sensor: Bewegungserfassung<br />Aktor: Licht oder Alarm</p>
+    </div>
+  </div>
 </div>
 
 ## Warum die Unterscheidung wichtig ist
@@ -87,3 +123,22 @@ Wer Sensoren und Aktoren nicht trennt, versteht technische Systeme schnell nur o
 - woher Informationen kommen,
 - wie sie genutzt werden,
 - und wo die eigentliche Wirkung entsteht.
+
+<div class="practice-card">
+  <p class="card-kicker">Zum Anwenden</p>
+  <h3>So analysierst du ein technisches System</h3>
+  <div class="step-grid">
+    <div class="step-item">
+      <strong>1. Eingang suchen</strong>
+      <p>Was wird aus der Umgebung erfasst?</p>
+    </div>
+    <div class="step-item">
+      <strong>2. Verarbeitung benennen</strong>
+      <p>Wo wird entschieden oder ausgewertet?</p>
+    </div>
+    <div class="step-item">
+      <strong>3. Wirkung zuordnen</strong>
+      <p>Welches Bauteil erzeugt am Ende die Reaktion?</p>
+    </div>
+  </div>
+</div>

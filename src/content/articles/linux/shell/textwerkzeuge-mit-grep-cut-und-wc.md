@@ -49,6 +49,29 @@ Viele Shell-Aufgaben bestehen nicht darin, große Programme zu schreiben, sonder
   <p>Mit <code>grep</code> findest du nur die Zeilen, die ein Muster enthalten. Mit <code>cut</code> liest du daraus gezielt Felder aus. Mit <code>wc</code> kannst du anschließend zusammenfassen, wie viele Zeilen oder Wörter übrig geblieben sind.</p>
 </div>
 
+## Drei Rollen statt ein Werkzeugbrei
+
+<div class="comparison-grid">
+  <section>
+    <p class="card-kicker">grep</p>
+    <h3>Zeilen filtern</h3>
+    <p>Hilft, wenn du aus einer Ausgabe nur die Zeilen mit einem bestimmten Muster brauchst.</p>
+    <div class="command-strip"><code>grep fox daten.txt</code></div>
+  </section>
+  <section>
+    <p class="card-kicker">cut</p>
+    <h3>Felder auswählen</h3>
+    <p>Nützlich, wenn aus geordneten Zeilen nur bestimmte Teile herausgelesen werden sollen.</p>
+    <div class="command-strip"><code>cut -d: -f1 daten.txt</code></div>
+  </section>
+  <section>
+    <p class="card-kicker">wc</p>
+    <h3>Zählen und zusammenfassen</h3>
+    <p>Gut, wenn am Ende nicht der Text, sondern seine Größe oder Anzahl wichtig ist.</p>
+    <div class="command-strip"><code>wc daten.txt</code></div>
+  </section>
+</div>
+
 ## grep
 
 <code>grep</code> durchsucht Text nach einem Muster. Praktisch betrachtet filtert es meist Zeilen.
@@ -62,6 +85,18 @@ Das ist hilfreich, wenn du aus einer längeren Ausgabe nur die Zeilen brauchst, 
 ## wc
 
 <code>wc</code> zählt Zeilen, Wörter oder Zeichen. Damit wird aus einer großen Ausgabe eine kleine Zusammenfassung.
+
+<div class="figure-card">
+  <p class="card-kicker">Arbeitsfolge</p>
+  <h3>So können die Werkzeuge zusammenspielen</h3>
+  <div class="signal-flow compact">
+    <div><strong>grep</strong><span>relevante Zeilen finden</span></div>
+    <div class="flow-arrow">→</div>
+    <div><strong>cut</strong><span>wichtige Felder herausholen</span></div>
+    <div class="flow-arrow">→</div>
+    <div><strong>wc</strong><span>Ergebnis zählen</span></div>
+  </div>
+</div>
 
 ## Warum diese Werkzeuge nicht austauschbar sind
 

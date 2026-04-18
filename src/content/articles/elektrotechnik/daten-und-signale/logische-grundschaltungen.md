@@ -54,6 +54,25 @@ Digitale Systeme arbeiten mit klaren Zuständen. Um aus solchen Zuständen Entsc
 
 Logische Grundschaltungen arbeiten typischerweise mit digitalen Zuständen wie 0 und 1 oder aus und an. Aus diesen Eingängen entsteht nach einer festen Regel ein Ausgang.
 
+<div class="figure-card">
+  <p class="card-kicker">Drei Grundideen</p>
+  <h3>Wie sich die Regeln unterscheiden</h3>
+  <div class="compare-grid">
+    <div class="compare-item">
+      <strong>UND</strong>
+      <p>Der Ausgang wird nur aktiv, wenn beide Bedingungen gleichzeitig erfüllt sind.</p>
+    </div>
+    <div class="compare-item">
+      <strong>ODER</strong>
+      <p>Der Ausgang wird aktiv, sobald mindestens eine passende Bedingung erfüllt ist.</p>
+    </div>
+    <div class="compare-item">
+      <strong>NICHT</strong>
+      <p>Der Ausgang kehrt den vorhandenen Zustand um.</p>
+    </div>
+  </div>
+</div>
+
 ## UND
 
 Beim UND-Zusammenhang wird der Ausgang nur dann aktiv, wenn beide relevanten Eingänge aktiv sind.
@@ -66,16 +85,44 @@ Beim ODER-Zusammenhang reicht es aus, wenn mindestens ein passender Eingang akti
 
 NICHT kehrt einen Zustand um: Aus aktiv wird inaktiv, aus 1 wird 0.
 
+<div class="compare-card">
+  <p class="card-kicker">Denkhilfe</p>
+  <h3>Typische Sprachmuster</h3>
+  <div class="compare-grid">
+    <div class="compare-item">
+      <strong>UND</strong>
+      <p>„nur wenn beides stimmt“</p>
+    </div>
+    <div class="compare-item">
+      <strong>ODER</strong>
+      <p>„es reicht schon eins“</p>
+    </div>
+    <div class="compare-item">
+      <strong>NICHT</strong>
+      <p>„genau der Gegenzustand“</p>
+    </div>
+  </div>
+</div>
+
 ## Warum diese Modelle so nützlich sind
 
 Sie helfen, digitale Technik nicht als Blackbox zu sehen, sondern als klar regelgeleitete Verarbeitung von Signalen. Genau damit werden auch komplexere Schaltungen später besser verständlich.
 
-<div class="practice-card wide-bleed">
+<div class="practice-card">
   <p class="card-kicker">Zum Anwenden</p>
   <h3>So kannst du Logik klarer lesen</h3>
-  <ul>
-    <li>Benenne zuerst die Eingänge und ihre Zustände.</li>
-    <li>Formuliere danach die Regel in einem Satz.</li>
-    <li>Prüfe erst dann, wann der Ausgang aktiv wird.</li>
-  </ul>
+  <div class="step-grid">
+    <div class="step-item">
+      <strong>1. Eingänge benennen</strong>
+      <p>Welche Bedingungen oder Zustände liegen vor?</p>
+    </div>
+    <div class="step-item">
+      <strong>2. Regel formulieren</strong>
+      <p>Beschreibe die logische Beziehung zunächst in einem Satz.</p>
+    </div>
+    <div class="step-item">
+      <strong>3. Ausgang prüfen</strong>
+      <p>Erst jetzt entscheidest du, wann der Ausgang aktiv wird.</p>
+    </div>
+  </div>
 </div>

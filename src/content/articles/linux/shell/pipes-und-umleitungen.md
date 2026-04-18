@@ -49,6 +49,23 @@ Die Shell wird stark, wenn Befehle nicht nur einzeln nebeneinander stehen, sonde
   <p>Mit <code>cat datei.txt | wc</code> wird der Text nicht erst von Hand gelesen und dann gezählt. Die Ausgabe des ersten Befehls geht direkt als Eingabe an den zweiten weiter. Mit <code>echo Test &gt; notiz.txt</code> wird die Ausgabe dagegen in eine Datei geschrieben.</p>
 </div>
 
+## Pipe und Umleitung sind nicht dasselbe
+
+<div class="comparison-grid">
+  <section>
+    <p class="card-kicker">Pipe</p>
+    <h3>Ausgabe wird Eingabe</h3>
+    <p>Die Daten laufen direkt in den nächsten Befehl. Es geht um Verarbeitung in mehreren Schritten.</p>
+    <div class="command-strip"><code>cat datei.txt | wc</code></div>
+  </section>
+  <section>
+    <p class="card-kicker">Umleitung</p>
+    <h3>Ausgabe geht an ein Ziel</h3>
+    <p>Die Daten werden nicht an einen weiteren Befehl weitergereicht, sondern in eine Datei geschrieben.</p>
+    <div class="command-strip"><code>echo Test &gt; notiz.txt</code></div>
+  </section>
+</div>
+
 ## Pipe: Ausgabe wird Eingabe
 
 Eine Pipe verbindet zwei Schritte:
@@ -58,6 +75,18 @@ Eine Pipe verbindet zwei Schritte:
 
 Dadurch entstehen Ketten, in denen Daten Schritt für Schritt verarbeitet werden.
 
+<div class="figure-card">
+  <p class="card-kicker">Datenfluss</p>
+  <h3>So liest du eine Pipe</h3>
+  <div class="signal-flow compact">
+    <div><strong>erster Befehl</strong><span>liefert Output</span></div>
+    <div class="flow-arrow">→</div>
+    <div><strong>|</strong><span>verbindet die Schritte</span></div>
+    <div class="flow-arrow">→</div>
+    <div><strong>zweiter Befehl</strong><span>nutzt den Output als Input</span></div>
+  </div>
+</div>
+
 ## Umleitung: Ausgabe geht in eine Datei
 
 Umleitungen ändern, wohin eine Ausgabe geschrieben wird.
@@ -65,7 +94,18 @@ Umleitungen ändern, wohin eine Ausgabe geschrieben wird.
 - <code>&gt;</code> schreibt in eine Datei und ersetzt den bisherigen Inhalt.
 - <code>&gt;&gt;</code> hängt neue Ausgabe an den bestehenden Inhalt an.
 
-Das ist kein Weiterreichen an den nächsten Befehl, sondern ein Umleiten an ein Ziel.
+<div class="comparison-grid">
+  <section>
+    <p class="card-kicker">&gt;</p>
+    <h3>Neu schreiben oder überschreiben</h3>
+    <p>Gut, wenn die Datei bewusst neu gesetzt werden soll.</p>
+  </section>
+  <section>
+    <p class="card-kicker">&gt;&gt;</p>
+    <h3>An bestehende Inhalte anhängen</h3>
+    <p>Gut, wenn neue Zeilen ergänzt statt alte Inhalte ersetzt werden sollen.</p>
+  </section>
+</div>
 
 ## Gute Lesestrategie für Befehlsketten
 

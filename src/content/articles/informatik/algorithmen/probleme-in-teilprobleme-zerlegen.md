@@ -61,6 +61,24 @@ Typische Fragen sind:
 - Welche Informationen brauche ich vorher?
 - Welche Teilaufgabe kann unabhängig betrachtet werden?
 
+<div class="comparison-grid">
+  <section>
+    <p class="card-kicker">Gesamtziel</p>
+    <h3>Was soll am Ende erreicht sein?</h3>
+    <p>Das ist die große Aufgabe, zum Beispiel „eine Suche bauen“ oder „Bestellungen sortieren“.</p>
+  </section>
+  <section>
+    <p class="card-kicker">Teilproblem</p>
+    <h3>Was ist einzeln lösbar?</h3>
+    <p>Ein Teilproblem hat ein eigenes kleines Ziel und bringt das Gesamtproblem einen Schritt weiter.</p>
+  </section>
+  <section>
+    <p class="card-kicker">Zwischenschritt</p>
+    <h3>Wie komme ich weiter?</h3>
+    <p>Ein Zwischenschritt beschreibt die Reihenfolge oder den Übergang zwischen Teilaufgaben.</p>
+  </section>
+</div>
+
 ## Warum Zerlegung beim Denken hilft
 
 Teilprobleme helfen, weil sie
@@ -72,6 +90,18 @@ Teilprobleme helfen, weil sie
 
 Wer Probleme gut zerlegt, versteht oft schon einen großen Teil der Lösung, bevor überhaupt programmiert wird.
 
+<div class="figure-card">
+  <p class="card-kicker">Denkbild</p>
+  <h3>Vom großen Problem zur bearbeitbaren Struktur</h3>
+  <div class="signal-flow compact">
+    <div><strong>Gesamtproblem</strong><span>noch zu groß und unklar</span></div>
+    <div class="flow-arrow">→</div>
+    <div><strong>Teilprobleme bilden</strong><span>kleinere Aufgaben finden</span></div>
+    <div class="flow-arrow">→</div>
+    <div><strong>Ablauf ordnen</strong><span>Schritte sinnvoll zusammensetzen</span></div>
+  </div>
+</div>
+
 ## Reihenfolge und Abhängigkeiten
 
 Nicht jedes Teilproblem kann sofort gelöst werden. Manche Schritte bauen auf anderen auf. Darum ist wichtig zu erkennen,
@@ -82,6 +112,14 @@ Nicht jedes Teilproblem kann sofort gelöst werden. Manche Schritte bauen auf an
 
 Das macht aus einer losen Ideenliste einen geordneten Ablauf.
 
+<pre><code>Gesamtziel: Suchfunktion bauen
+
+1. Eingabe lesen
+2. Suchbegriff prüfen
+3. Daten durchsuchen
+4. Treffer sortieren
+5. Ergebnis anzeigen</code></pre>
+
 ## Teilprobleme sind nicht zufällige Unterpunkte
 
 Eine gute Zerlegung besteht nicht nur aus vielen kleinen Stichworten. Sie braucht erkennbare Logik. Teilprobleme sollten
@@ -90,8 +128,22 @@ Eine gute Zerlegung besteht nicht nur aus vielen kleinen Stichworten. Sie brauch
 - ein eigenes Ziel haben,
 - und zusammen wieder zum Gesamtziel führen.
 
+<div class="note-panel">
+  <p><strong>Merke:</strong> Teilprobleme sind nicht einfach „mehr Punkte“. Sie sind bewusst gewählte, einzeln bearbeitbare Bausteine eines größeren Ziels.</p>
+</div>
+
 ## Warum das auch ohne Programmieren wichtig ist
 
 Algorithmisches Denken beginnt nicht erst mit einer Programmiersprache. Schon beim Planen, Strukturieren und Formulieren zeigt sich, ob ein Problem wirklich verstanden wurde.
 
 Darum ist die Zerlegung in Teilprobleme ein Kernthema für Informatik – und gleichzeitig eine sehr alltagstaugliche Denkweise.
+
+<div class="practice-card wide-bleed">
+  <p class="card-kicker">Zum Anwenden</p>
+  <h3>So zerlegst du Probleme ruhiger</h3>
+  <ol>
+    <li>Formuliere zuerst das Gesamtziel in einem klaren Satz.</li>
+    <li>Suche danach nach kleineren Aufgaben, die einzeln bearbeitbar sind.</li>
+    <li>Ordne diese Teilprobleme schließlich in eine sinnvolle Reihenfolge.</li>
+  </ol>
+</div>

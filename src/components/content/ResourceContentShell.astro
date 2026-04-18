@@ -123,6 +123,54 @@ const { kind = "article" } = Astro.props as Props;
     margin-bottom: 0;
   }
 
+
+.resource-prose :global(.command-strip) {
+  display: grid;
+  gap: 0.45rem;
+  margin: 1rem 0 1.15rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: color-mix(in oklab, var(--surface) 90%, black 10%);
+  box-shadow: var(--shadow-soft);
+  max-width: min(100%, 44rem);
+}
+
+.resource-prose :global(.command-strip code) {
+  display: inline-block;
+  width: fit-content;
+  max-width: 100%;
+  padding: 0.28rem 0.5rem;
+  border-radius: 0.7rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.06);
+  color: #f8fbff;
+  font-size: clamp(1rem, 1.45vw, 1.08rem);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.resource-prose :global(.command-strip p) {
+  margin: 0;
+  color: #f2f6fb;
+}
+
+.resource-prose :global(.note-panel) {
+  margin: 1rem 0 1.15rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: color-mix(in oklab, var(--surface) 92%, white 8%);
+}
+
+.resource-prose :global(.note-panel > *:first-child) {
+  margin-top: 0;
+}
+
+.resource-prose :global(.note-panel > *:last-child) {
+  margin-bottom: 0;
+}
+
   .resource-prose :global(table) {
     display: block;
     max-width: 100%;
@@ -142,6 +190,218 @@ const { kind = "article" } = Astro.props as Props;
     background: color-mix(in oklab, var(--surface) 90%, white 10%);
   }
 
+  .resource-prose :global(.card-kicker) {
+    margin: 0 0 0.2rem;
+    color: var(--text-soft);
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .resource-prose :global(.example-card),
+  .resource-prose :global(.practice-card),
+  .resource-prose :global(.figure-card),
+  .resource-prose :global(.compare-card),
+  .resource-prose :global(.formula-card) {
+    margin: 1rem 0 1.2rem;
+    padding: 1rem 1.05rem;
+    border: 1px solid var(--border);
+    border-radius: 22px;
+    box-shadow: var(--shadow-soft);
+    background: color-mix(in oklab, var(--surface) 92%, white 8%);
+  }
+
+  .resource-prose :global(.example-card),
+  .resource-prose :global(.figure-card) {
+    border-color: color-mix(in oklab, var(--border) 55%, #6f93ff 45%);
+    background: color-mix(in oklab, var(--surface) 82%, #dfe9ff 18%);
+  }
+
+  .resource-prose :global(.practice-card) {
+    border-color: color-mix(in oklab, var(--border) 58%, #56a570 42%);
+    background: color-mix(in oklab, var(--surface) 84%, #dff6e6 16%);
+  }
+
+  .resource-prose :global(.compare-card),
+  .resource-prose :global(.formula-card) {
+    border-color: color-mix(in oklab, var(--border) 60%, #d9a34d 40%);
+    background: color-mix(in oklab, var(--surface) 86%, #fff1d7 14%);
+  }
+
+  :global(html[data-theme="dark"]) .resource-prose :global(.example-card),
+  :global(html[data-theme="dark"]) .resource-prose :global(.figure-card) {
+    background: color-mix(in oklab, var(--surface) 58%, #0c224f 42%);
+  }
+
+  :global(html[data-theme="dark"]) .resource-prose :global(.practice-card) {
+    background: color-mix(in oklab, var(--surface) 58%, #0f3b29 42%);
+  }
+
+  :global(html[data-theme="dark"]) .resource-prose :global(.compare-card),
+  :global(html[data-theme="dark"]) .resource-prose :global(.formula-card) {
+    background: color-mix(in oklab, var(--surface) 60%, #4d3011 40%);
+  }
+
+  .resource-prose :global(.example-card h3),
+  .resource-prose :global(.practice-card h3),
+  .resource-prose :global(.figure-card h3),
+  .resource-prose :global(.compare-card h3),
+  .resource-prose :global(.formula-card h3) {
+    margin-top: 0;
+  }
+
+  .resource-prose :global(.visual-grid),
+  .resource-prose :global(.compare-grid),
+  .resource-prose :global(.comparison-grid),
+  .resource-prose :global(.info-grid),
+  .resource-prose :global(.step-grid) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 13.5rem), 1fr));
+    gap: 0.8rem;
+    margin-top: 0.8rem;
+  }
+
+  .resource-prose :global(.visual-item),
+  .resource-prose :global(.compare-item),
+  .resource-prose :global(.info-item),
+  .resource-prose :global(.step-item) {
+    min-height: 100%;
+    padding: 0.85rem 0.9rem;
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    background: color-mix(in oklab, var(--surface) 92%, white 8%);
+  }
+
+  .resource-prose :global(.visual-item strong),
+  .resource-prose :global(.compare-item strong),
+  .resource-prose :global(.info-item strong),
+  .resource-prose :global(.step-item strong) {
+    display: block;
+    margin-bottom: 0.35rem;
+    color: var(--text-strong);
+  }
+
+  .resource-prose :global(.signal-flow),
+  .resource-prose :global(.logic-flow) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 0.6rem;
+    margin-top: 0.8rem;
+  }
+
+  .resource-prose :global(.flow-node) {
+    flex: 1 1 10rem;
+    min-width: 0;
+    padding: 0.8rem 0.9rem;
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    background: color-mix(in oklab, var(--surface) 92%, white 8%);
+  }
+
+  .resource-prose :global(.flow-node strong) {
+    display: block;
+    margin-bottom: 0.25rem;
+    color: var(--text-strong);
+  }
+
+  .resource-prose :global(.flow-arrow) {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2rem;
+    color: var(--text-soft);
+    font-weight: 800;
+    font-size: 1.1rem;
+  }
+
+
+  .resource-prose :global(.terminal-card) {
+    margin: 1rem 0 1.2rem;
+    padding: 1rem 1.05rem;
+    border: 1px solid color-mix(in oklab, var(--border) 54%, #4a83ff 46%);
+    border-radius: 22px;
+    background: color-mix(in oklab, var(--surface) 62%, #0c1834 38%);
+    box-shadow: var(--shadow-soft);
+  }
+
+  .resource-prose :global(.terminal-card h3) {
+    margin-top: 0;
+    color: #f6f8ff;
+  }
+
+  .resource-prose :global(.terminal-card p),
+  .resource-prose :global(.terminal-card li) {
+    color: #eef3ff;
+  }
+
+  .resource-prose :global(.terminal-grid) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr));
+    gap: 0.8rem;
+    margin-top: 0.8rem;
+  }
+
+  .resource-prose :global(.terminal-item) {
+    min-height: 100%;
+    padding: 0.82rem 0.9rem;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.06);
+  }
+
+  .resource-prose :global(.terminal-item strong) {
+    display: block;
+    margin-bottom: 0.35rem;
+    color: #f6f8ff;
+  }
+
+  :global(html[data-theme="light"]) .resource-prose :global(.terminal-card) {
+    background: color-mix(in oklab, var(--surface) 34%, #14213f 66%);
+  }
+
+  .resource-prose :global(.logic-table) {
+    display: grid;
+    gap: 0.45rem;
+    margin-top: 0.8rem;
+  }
+
+  .resource-prose :global(.logic-row) {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 4.25rem));
+    gap: 0.45rem;
+    align-items: center;
+  }
+
+  .resource-prose :global(.logic-row.wide) {
+    grid-template-columns: repeat(4, minmax(0, 4.25rem));
+  }
+
+  .resource-prose :global(.logic-cell) {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.1rem;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: color-mix(in oklab, var(--surface) 92%, white 8%);
+    color: var(--text-strong);
+    font-weight: 700;
+  }
+
+  .resource-prose :global(.logic-cell.header) {
+    background: color-mix(in oklab, var(--surface) 82%, #dfe9ff 18%);
+  }
+
+  .resource-prose :global(.formula-card p:last-child),
+  .resource-prose :global(.example-card p:last-child),
+  .resource-prose :global(.practice-card p:last-child),
+  .resource-prose :global(.figure-card p:last-child),
+  .resource-prose :global(.compare-card p:last-child) {
+    margin-bottom: 0;
+  }
+
   @media (max-width: 720px) {
     .resource-prose :global(pre) {
       max-width: 100%;
@@ -154,6 +414,11 @@ const { kind = "article" } = Astro.props as Props;
 
     .resource-prose :global(p > code:only-child) {
       font-size: 1.02rem;
+    }
+
+    .resource-prose :global(.logic-row),
+    .resource-prose :global(.logic-row.wide) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
 </style>
