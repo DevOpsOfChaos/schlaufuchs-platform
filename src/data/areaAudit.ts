@@ -47,7 +47,7 @@ export const getAreaAuditData = async () => {
     if (!subjectSlug) return [];
 
     const canonicalPath = getAreaPathForEntry(subjectSlug, entry);
-    const legacyPaths = getAreaAliasPathsForEntry(entry);
+    const legacyPaths = getAreaAliasPathsForEntry(subjectSlug, entry);
     return [{
       kind: entry.collection === "articles" ? "Erklärung" : "Aufgabe",
       subjectSlug,
