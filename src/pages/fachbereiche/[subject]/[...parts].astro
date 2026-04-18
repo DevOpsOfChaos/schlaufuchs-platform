@@ -27,26 +27,25 @@ interface PageProps {
 
 type TopicEntry = Awaited<ReturnType<typeof getVisibleArticles>>[number] | Awaited<ReturnType<typeof getVisibleExercises>>[number];
 
-const collectVisibleTopicPaths = (
-  subjectSlug: string,
-  entries: TopicEntry[],
-  path: string[] = [],
-): string[][] => {
-  const cards = getVisibleAreaCards(subjectSlug, path, entries);
-  return cards.flatMap((card) => [card.path, ...collectVisibleTopicPaths(subjectSlug, entries, card.path)]);
-};
-
-const uniquePaths = (paths: string[][]) => {
-  const seen = new Set<string>();
-  return paths.filter((path) => {
-    const key = path.join("/");
-    if (seen.has(key)) return false;
-    seen.add(key);
-    return true;
-  });
-};
-
 export async function getStaticPaths() {
+  function collectVisibleTopicPaths(
+    subjectSlug: string,
+    entries: TopicEntry[],
+    path: string[] = [],
+  ): string[][] {
+    const cards = getVisibleAreaCards(subjectSlug, path, entries);
+    return cards.flatMap((card) => [card.path, ...collectVisibleTopicPaths(subjectSlug, entries, card.path)]);
+  }
+
+  function uniquePaths(paths: string[][]) {
+    const seen = new Set<string>();
+    return paths.filter((path) => {
+      const key = path.join("/");
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  }
   const [articles, exercises] = await Promise.all([getVisibleArticles(), getVisibleExercises()]);
   const entriesBySubject = new Map<string, TopicEntry[]>();
 
