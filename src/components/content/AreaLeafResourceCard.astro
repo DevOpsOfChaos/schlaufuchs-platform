@@ -34,7 +34,7 @@ const {
   <div class="leaf-copy">
     <p class="leaf-meta">{meta}</p>
     <h3>{title}</h3>
-    {!compact && <p class="leaf-description">{description}</p>}
+    <p class="leaf-description">{description}</p>
   </div>
   <span class="leaf-arrow" aria-hidden="true">→</span>
 </a>
@@ -48,10 +48,10 @@ const {
     position: relative;
     display: grid;
     grid-template-columns: minmax(0, 1fr) auto;
-    gap: 0.8rem;
+    gap: 0.76rem;
     align-items: center;
-    min-height: 7.7rem;
-    padding: 1.04rem 1.08rem;
+    min-height: 7.1rem;
+    padding: 0.98rem 1rem;
     border: 1px solid rgba(var(--accent-rgb), 0.18);
     border-radius: 21px;
     box-shadow: var(--shadow-soft);
@@ -108,59 +108,28 @@ const {
     transform: translateX(2px);
   }
 
-  .leaf-card.accent-a {
-    --accent-rgb: 86, 110, 214;
-    --accent-surface: 239, 244, 255;
-    --accent-dark: 24, 32, 64;
-  }
-
-  .leaf-card.accent-b {
-    --accent-rgb: 53, 154, 109;
-    --accent-surface: 236, 248, 241;
-    --accent-dark: 15, 44, 30;
-  }
-
-  .leaf-card.accent-c {
-    --accent-rgb: 214, 116, 82;
-    --accent-surface: 252, 241, 236;
-    --accent-dark: 52, 27, 22;
-  }
-
-  .leaf-card.accent-d {
-    --accent-rgb: 188, 152, 54;
-    --accent-surface: 250, 245, 228;
-    --accent-dark: 48, 38, 16;
-  }
-
-  .leaf-card.accent-e {
-    --accent-rgb: 55, 140, 186;
-    --accent-surface: 235, 247, 252;
-    --accent-dark: 17, 39, 49;
-  }
-
-  .leaf-card.accent-f {
-    --accent-rgb: 152, 90, 196;
-    --accent-surface: 246, 239, 252;
-    --accent-dark: 41, 24, 55;
-  }
+  .leaf-card.accent-a { --accent-rgb: 86, 110, 214; --accent-surface: 239, 244, 255; --accent-dark: 24, 32, 64; }
+  .leaf-card.accent-b { --accent-rgb: 53, 154, 109; --accent-surface: 236, 248, 241; --accent-dark: 15, 44, 30; }
+  .leaf-card.accent-c { --accent-rgb: 214, 116, 82; --accent-surface: 252, 241, 236; --accent-dark: 52, 27, 22; }
+  .leaf-card.accent-d { --accent-rgb: 188, 152, 54; --accent-surface: 250, 245, 228; --accent-dark: 48, 38, 16; }
+  .leaf-card.accent-e { --accent-rgb: 55, 140, 186; --accent-surface: 235, 247, 252; --accent-dark: 17, 39, 49; }
+  .leaf-card.accent-f { --accent-rgb: 152, 90, 196; --accent-surface: 246, 239, 252; --accent-dark: 41, 24, 55; }
 
   .leaf-copy {
     display: grid;
-    gap: 0.5rem;
+    gap: 0.42rem;
     min-width: 0;
-    align-content: start;
   }
 
   .leaf-card.compact {
-    min-height: 7.25rem;
-    gap: 0.76rem;
-    padding: 1rem 1.02rem;
+    gap: 0.7rem;
+    padding: 0.95rem 0.98rem;
   }
 
   .leaf-meta {
     margin: 0;
     color: var(--text-soft);
-    font-size: 0.77rem;
+    font-size: 0.76rem;
     font-weight: 800;
     letter-spacing: 0.05em;
     text-transform: uppercase;
@@ -169,15 +138,15 @@ const {
   h3 {
     margin: 0;
     color: var(--text-strong);
-    font-size: 1.04rem;
-    line-height: 1.24;
+    font-size: 1rem;
+    line-height: 1.22;
   }
 
   .leaf-description {
     margin: 0;
     color: var(--text);
-    line-height: 1.58;
-    font-size: 0.93rem;
+    line-height: 1.56;
+    font-size: 0.9rem;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
@@ -188,8 +157,8 @@ const {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 2.12rem;
-    height: 2.12rem;
+    width: 2.05rem;
+    height: 2.05rem;
     border-radius: 999px;
     border: 1px solid rgba(255, 255, 255, 0.18);
     background: rgba(255, 255, 255, 0.24);

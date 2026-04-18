@@ -1,35 +1,26 @@
 ---
 interface Props {
-  pageSizeXl?: number;
-  pageSizeLg?: number;
-  pageSizeMd?: number;
-  pageSizeSm?: number;
   maxColumns?: number;
   maxRows?: number;
   minCardWidthRem?: number;
+  fallbackPageSize?: number;
 }
 
 const {
-  pageSizeXl = 8,
-  pageSizeLg = 8,
-  pageSizeMd = 6,
-  pageSizeSm = 2,
   maxColumns = 4,
   maxRows = 2,
   minCardWidthRem = 16,
+  fallbackPageSize = 8,
 } = Astro.props as Props;
 ---
 
 <div
   class="pager-shell"
   data-card-pager
-  data-page-size-xl={pageSizeXl}
-  data-page-size-lg={pageSizeLg}
-  data-page-size-md={pageSizeMd}
-  data-page-size-sm={pageSizeSm}
   data-max-columns={maxColumns}
   data-max-rows={maxRows}
   data-min-card-width-rem={minCardWidthRem}
+  data-fallback-page-size={fallbackPageSize}
 >
   <slot />
 
@@ -42,19 +33,6 @@ const {
 
 <script is:inline>
   (() => {
-    const getBreakpointCap = (root) => {
-      const width = window.innerWidth;
-      const xl = Number(root.dataset.pageSizeXl ?? "8") || 8;
-      const lg = Number(root.dataset.pageSizeLg ?? "8") || 8;
-      const md = Number(root.dataset.pageSizeMd ?? "6") || 6;
-      const sm = Number(root.dataset.pageSizeSm ?? "2") || 2;
-
-      if (width >= 1320) return xl;
-      if (width >= 980) return lg;
-      if (width >= 580) return md;
-      return sm;
-    };
-
     const getRenderedColumnCount = (grid) => {
       const template = getComputedStyle(grid).gridTemplateColumns;
       if (!template || template === "none") return 0;
@@ -76,19 +54,18 @@ const {
       return Math.min(maxColumns, estimatedColumns);
     };
 
-    const getPageSize = (root) => {
+    const getPageSize = (root, items) => {
       const grid = root.querySelector("[data-pager-grid]");
+      const fallbackPageSize = Number(root.dataset.fallbackPageSize ?? "8") || 8;
       if (!(grid instanceof HTMLElement)) {
-        return getBreakpointCap(root);
+        return Math.min(items.length, fallbackPageSize);
       }
 
       const maxColumns = Number(root.dataset.maxColumns ?? "4") || 4;
       const maxRows = Number(root.dataset.maxRows ?? "2") || 2;
       const renderedColumns = getRenderedColumnCount(grid);
       const columns = Math.min(maxColumns, renderedColumns || estimateColumnCount(root, grid));
-      const responsiveCap = Math.max(1, columns * maxRows);
-
-      return Math.max(1, Math.min(getBreakpointCap(root), responsiveCap));
+      return Math.max(1, Math.min(items.length, columns * maxRows));
     };
 
     const setupCardPager = (root) => {
@@ -104,7 +81,7 @@ const {
       let page = 0;
 
       const renderPage = () => {
-        const pageSize = getPageSize(root);
+        const pageSize = getPageSize(root, items);
 
         if (items.length <= pageSize) {
           if (controls instanceof HTMLElement) controls.hidden = true;
@@ -137,7 +114,7 @@ const {
       });
 
       nextButton?.addEventListener("click", () => {
-        const pageSize = getPageSize(root);
+        const pageSize = getPageSize(root, items);
         const pageCount = Math.ceil(items.length / pageSize);
         page = Math.min(page + 1, pageCount - 1);
         renderPage();

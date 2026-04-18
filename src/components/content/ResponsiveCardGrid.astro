@@ -1,0 +1,64 @@
+---
+interface Props {
+  mode?: "fit" | "tasks";
+  minRem?: number;
+  maxRem?: number;
+  pagerGrid?: boolean;
+  class?: string;
+}
+
+const {
+  mode = "fit",
+  minRem = 16,
+  maxRem = 18,
+  pagerGrid = false,
+  class: className,
+} = Astro.props as Props;
+---
+
+<div
+  class:list={["responsive-card-grid", mode === "tasks" ? "is-tasks" : "is-fit", className]}
+  style={`--grid-min-rem:${minRem}; --grid-max-rem:${maxRem};`}
+  data-pager-grid={pagerGrid ? "true" : undefined}
+>
+  <slot />
+</div>
+
+<style>
+  .responsive-card-grid {
+    display: grid;
+    gap: 0.9rem;
+    justify-content: start;
+    align-items: stretch;
+  }
+
+  .responsive-card-grid.is-fit {
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(min(100%, calc(var(--grid-min-rem) * 1rem)), calc(var(--grid-max-rem) * 1rem))
+    );
+  }
+
+  .responsive-card-grid.is-tasks {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  @media (max-width: 1320px) {
+    .responsive-card-grid.is-tasks {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 980px) {
+    .responsive-card-grid.is-tasks {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 580px) {
+    .responsive-card-grid {
+      grid-template-columns: 1fr;
+      justify-content: stretch;
+    }
+  }
+</style>

@@ -11,6 +11,7 @@ import SectionHeading from "../../components/content/SectionHeading.astro";
 import ResourceCard from "../../components/content/ResourceCard.astro";
 import CardPager from "../../components/content/CardPager.astro";
 import ResourceDetailHero from "../../components/content/ResourceDetailHero.astro";
+import ResponsiveCardGrid from "../../components/content/ResponsiveCardGrid.astro";
 import SupportChecklist from "../../components/content/SupportChecklist.astro";
 import TransferIdeas from "../../components/content/TransferIdeas.astro";
 import ReflectionPrompt from "../../components/content/ReflectionPrompt.astro";
@@ -106,19 +107,19 @@ const articleIcon = `
     {hasSupportContent && (
       <section class="support-section wide-bleed">
         <SectionHeading kicker="Unterstützung" title="Hilfen und Kontrolle" />
-        <div class="support-grid">
+        <ResponsiveCardGrid mode="fit" minRem={16} maxRem={18}>
           <SupportChecklist title="Worauf du achten kannst" kicker="Hinweise" items={hintPoints} />
           <SupportChecklist title="Am Ende prüfen" kicker="Selbstkontrolle" items={selfCheckPoints} />
           <TransferIdeas items={transferIdeas} />
           {reflectionPrompt && <ReflectionPrompt prompt={reflectionPrompt} />}
-        </div>
+        </ResponsiveCardGrid>
       </section>
     )}
 
     {relatedArticles.length > 0 && (
       <section class="related-section">
         <SectionHeading kicker="Erklärungen" title="Passende Erklärungen" />
-        <div class="related-grid related-articles-grid">
+        <ResponsiveCardGrid mode="fit" minRem={16} maxRem={18}>
           {relatedArticlesWithLabels.map(({ entry: item, topicLabel }, index) => (
             <ResourceCard
               title={item.data.title}
@@ -132,15 +133,15 @@ const articleIcon = `
               accent={getAccent(index)}
             />
           ))}
-        </div>
+        </ResponsiveCardGrid>
       </section>
     )}
 
     {relatedExercises.length > 0 && (
       <section class="related-section">
         <SectionHeading kicker="Weitere Aufgaben" title="Mehr Aufgaben im gleichen Themenfeld" />
-        <CardPager pageSizeXl={8} pageSizeLg={8} pageSizeMd={6} pageSizeSm={2}>
-          <div class="related-grid related-tasks-grid" data-pager-grid>
+        <CardPager maxColumns={4} maxRows={2} minCardWidthRem={16}>
+          <ResponsiveCardGrid mode="tasks" pagerGrid={true}>
             {relatedExercises.map((item, index) => (
               <div data-pager-item>
                 <ResourceCard
@@ -156,7 +157,7 @@ const articleIcon = `
                 />
               </div>
             ))}
-          </div>
+          </ResponsiveCardGrid>
         </CardPager>
       </section>
     )}
@@ -167,50 +168,10 @@ const articleIcon = `
   .page-shell { display: grid; gap: 1.15rem; }
   .exercise-shell, .related-section, .support-section { display: grid; gap: 1rem; }
   .exercise-content { padding: clamp(1.3rem, 2vw, 2rem); border: 1px solid var(--border); border-radius: 30px; background: var(--card-bg); box-shadow: var(--shadow-card); overflow: hidden; }
-  .support-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 18rem));
-    gap: 0.9rem;
-    justify-content: start;
-    align-items: start;
-  }
-  .related-grid {
-    display: grid;
-    gap: 0.9rem;
-    justify-content: start;
-    align-items: start;
-  }
-  .related-articles-grid {
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 18rem));
-  }
-  .related-tasks-grid {
-    grid-template-columns: repeat(4, minmax(0, 18rem));
-  }
   .exercise-content :global(h2) { margin-top: 1.8rem; color: var(--text-strong); font-size: clamp(1.42rem, 2.35vw, 1.82rem); line-height: 1.15; }
   .exercise-content :global(h2:first-child) { margin-top: 0; }
   .exercise-content :global(h3) { margin-top: 1.15rem; color: var(--text-strong); font-size: 1.1rem; line-height: 1.2; }
   .exercise-content :global(p), .exercise-content :global(li) { color: var(--text); line-height: 1.82; font-size: 1rem; }
   .exercise-content :global(ul), .exercise-content :global(ol) { padding-left: 1.2rem; }
   .exercise-content :global(pre) { overflow-x: auto; }
-
-  @media (max-width: 1320px) {
-    .related-tasks-grid {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-  }
-
-  @media (max-width: 980px) {
-    .related-tasks-grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-  }
-
-  @media (max-width: 580px) {
-    .support-grid,
-    .related-articles-grid,
-    .related-tasks-grid {
-      grid-template-columns: 1fr;
-      justify-content: stretch;
-    }
-  }
 </style>

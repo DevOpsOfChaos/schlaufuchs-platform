@@ -5,11 +5,13 @@ import { getArticlesForSubject, getExercisesForSubject, getVisibleSubjects } fro
 import { getSubjectMeta } from "../../data/subjects";
 import { getEntriesForPrimarySubject } from "../../data/topics";
 import { getVisibleAreaCards } from "../../data/areaStructure";
-import { withBase, withBaseAsset } from "../../utils/base";
+import { withBase } from "../../utils/base";
+import { getSubjectMascotSources } from "../../utils/mascots";
 import AreaSearchHero from "../../components/content/AreaSearchHero.astro";
 import AreaTopicCard from "../../components/content/AreaTopicCard.astro";
 import AreaSectionSurface from "../../components/content/AreaSectionSurface.astro";
 import SectionHeading from "../../components/content/SectionHeading.astro";
+import ResponsiveCardGrid from "../../components/content/ResponsiveCardGrid.astro";
 
 export async function getStaticPaths() {
   const subjects = await getVisibleSubjects();
@@ -25,7 +27,7 @@ const detail = getSubjectMeta(subject.data.slug) ?? {
   highlights: [],
   intro: "",
   sections: [],
-  knowledgeLabel: "Wissensseiten",
+  knowledgeLabel: "Erklärungen",
   exerciseLabel: "Aufgaben",
 };
 
@@ -38,7 +40,7 @@ const subjectArticles = getEntriesForPrimarySubject(articles, subject.data.slug)
 const subjectExercises = getEntriesForPrimarySubject(exercises, subject.data.slug);
 const combinedEntries = [...subjectArticles, ...subjectExercises];
 const topicCards = getVisibleAreaCards(subject.data.slug, [], combinedEntries, { flattenSingleRoot: true });
-const imageSrc = withBaseAsset(`assets/mascots/${detail.icon}`);
+const { imageSrc, fallbackImageSrc } = getSubjectMascotSources(subject.data.slug);
 const accentOrder = ["a", "b", "c", "d", "e", "f"] as const;
 const getAccent = (index: number) => accentOrder[index % accentOrder.length];
 ---
@@ -49,6 +51,7 @@ const getAccent = (index: number) => accentOrder[index % accentOrder.length];
       title={subject.data.title}
       scopeLabel="Fachbereich"
       imageSrc={imageSrc}
+      fallbackImageSrc={fallbackImageSrc}
       imageAlt={`${subject.data.title} – Fuchsmotiv`}
       tone={detail.tone}
     />
@@ -56,7 +59,7 @@ const getAccent = (index: number) => accentOrder[index % accentOrder.length];
     {topicCards.length > 0 && (
       <AreaSectionSurface variant="topics">
         <SectionHeading kicker="Themen" title={`Themen in ${subject.data.title}`} />
-        <div class="topic-grid">
+        <ResponsiveCardGrid mode="fit" minRem={16.75} maxRem={18.75}>
           {topicCards.map((item, index) => (
             <AreaTopicCard
               title={item.title}
@@ -69,7 +72,7 @@ const getAccent = (index: number) => accentOrder[index % accentOrder.length];
               accent={getAccent(index)}
             />
           ))}
-        </div>
+        </ResponsiveCardGrid>
       </AreaSectionSurface>
     )}
   </div>
@@ -79,20 +82,5 @@ const getAccent = (index: number) => accentOrder[index % accentOrder.length];
   .page-shell {
     display: grid;
     gap: 1rem;
-  }
-
-  .topic-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 16.75rem), 18.75rem));
-    gap: 0.9rem;
-    justify-content: start;
-    align-items: stretch;
-  }
-
-  @media (max-width: 580px) {
-    .topic-grid {
-      grid-template-columns: 1fr;
-      justify-content: stretch;
-    }
   }
 </style>
