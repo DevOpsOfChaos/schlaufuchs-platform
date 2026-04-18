@@ -4,6 +4,9 @@ interface Props {
   pageSizeLg?: number;
   pageSizeMd?: number;
   pageSizeSm?: number;
+  maxColumns?: number;
+  maxRows?: number;
+  minCardWidthRem?: number;
 }
 
 const {
@@ -11,6 +14,9 @@ const {
   pageSizeLg = 8,
   pageSizeMd = 6,
   pageSizeSm = 2,
+  maxColumns = 4,
+  maxRows = 2,
+  minCardWidthRem = 16,
 } = Astro.props as Props;
 ---
 
@@ -21,6 +27,9 @@ const {
   data-page-size-lg={pageSizeLg}
   data-page-size-md={pageSizeMd}
   data-page-size-sm={pageSizeSm}
+  data-max-columns={maxColumns}
+  data-max-rows={maxRows}
+  data-min-card-width-rem={minCardWidthRem}
 >
   <slot />
 
@@ -33,7 +42,7 @@ const {
 
 <script is:inline>
   (() => {
-    const getPageSize = (root) => {
+    const getBreakpointCap = (root) => {
       const width = window.innerWidth;
       const xl = Number(root.dataset.pageSizeXl ?? "8") || 8;
       const lg = Number(root.dataset.pageSizeLg ?? "8") || 8;
@@ -44,6 +53,26 @@ const {
       if (width >= 980) return lg;
       if (width >= 580) return md;
       return sm;
+    };
+
+    const getPageSize = (root) => {
+      const grid = root.querySelector("[data-pager-grid]");
+      if (!(grid instanceof HTMLElement)) {
+        return getBreakpointCap(root);
+      }
+
+      const maxColumns = Number(root.dataset.maxColumns ?? "4") || 4;
+      const maxRows = Number(root.dataset.maxRows ?? "2") || 2;
+      const minCardWidthRem = Number(root.dataset.minCardWidthRem ?? "16") || 16;
+      const rem = Number.parseFloat(getComputedStyle(document.documentElement).fontSize) || 16;
+      const minCardWidthPx = minCardWidthRem * rem;
+      const gap = Number.parseFloat(getComputedStyle(grid).columnGap || getComputedStyle(grid).gap || "0") || 0;
+      const availableWidth = grid.clientWidth || root.clientWidth || window.innerWidth;
+      const estimatedColumns = Math.max(1, Math.floor((availableWidth + gap) / (minCardWidthPx + gap)));
+      const columns = Math.min(maxColumns, estimatedColumns);
+      const responsiveCap = columns * maxRows;
+
+      return Math.max(1, Math.min(getBreakpointCap(root), responsiveCap));
     };
 
     const setupCardPager = (root) => {
