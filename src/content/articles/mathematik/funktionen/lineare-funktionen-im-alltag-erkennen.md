@@ -19,9 +19,9 @@ commonMistakes:
   - Startwert und Änderungsrate zu verwechseln.
   - Nur auf einzelne Zahlen zu schauen statt auf die Veränderung zwischen ihnen.
 keyTakeaways:
-  - Linear bedeutet: gleiche Änderung pro gleichem Schritt.
-  - Startwert und Änderungsrate helfen, lineare Zusammenhänge zu beschreiben.
-  - Nicht jeder Zusammenhang mit Wachstum ist linear.
+  - Lineare Zusammenhänge ändern sich bei gleichen Schritten immer um denselben Betrag.
+  - Startwert und Änderungsrate beschreiben lineare Funktionen gut.
+  - Ein Zusammenhang ist nicht automatisch linear, nur weil er wächst.
 recognizeSignals:
   - Es geht um Zuordnungen, Tabellen, Graphen oder Alltagssituationen mit regelmäßigem Zuwachs.
   - Du sollst entscheiden, ob ein Zusammenhang linear ist.

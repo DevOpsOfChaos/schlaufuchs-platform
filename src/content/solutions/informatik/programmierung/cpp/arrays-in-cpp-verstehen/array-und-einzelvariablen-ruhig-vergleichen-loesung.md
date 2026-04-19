@@ -22,12 +22,12 @@ draft: false
 
 ## Aufgabe 1: Form wählen
 
-Ein Array ist passend, weil mehrere Werte desselben Typs gemeinsam und geordnet gespeichert werden. Vier getrennte Variablen funktionieren zwar auch, aber die Sammlungsidee und der Zugriff über Indizes werden damit unruhiger.
+Ein Array passt hier gut, weil mehrere Werte desselben Typs gemeinsam gespeichert werden. Die Messwerte bleiben als geordnete Sammlung lesbar und müssen nicht in viele ähnlich benannte Einzelvariablen aufgeteilt werden.
 
 ## Aufgabe 2: Zugriff erklären
 
-<code>werte[2]</code> meint den dritten Platz des Arrays. In diesem Beispiel ist dort der Inhalt <code>6</code> gespeichert.
+`werte[2]` bedeutet: Greife auf das Element an Position mit Index 2 zu. Das ist der dritte Platz im Array, hier also der Wert 6.
 
 ## Aufgabe 3: Denkfehler prüfen
 
-Der Index 2 sagt nur, welcher Platz angesprochen wird. Er sagt nicht automatisch, dass dort auch die Zahl 2 liegt.
+Der Index 2 sagt nur, welcher Platz gemeint ist. Er sagt nicht, welcher Wert dort gespeichert ist.

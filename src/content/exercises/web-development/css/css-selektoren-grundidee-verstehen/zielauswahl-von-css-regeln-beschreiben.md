@@ -8,6 +8,7 @@ topicPath:
   - selektoren
   - css-selektoren-grundidee-verstehen
   - zielauswahl-von-css-regeln-beschreiben
+taskId: WEB-CSS-SEL-001
 level: einfach
 draft: false
 tags:

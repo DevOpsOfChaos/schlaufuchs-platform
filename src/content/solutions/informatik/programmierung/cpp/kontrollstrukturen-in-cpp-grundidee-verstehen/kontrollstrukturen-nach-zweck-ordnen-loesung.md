@@ -22,12 +22,12 @@ draft: false
 
 ## Aufgabe 1: Grundidee zuordnen
 
-- mehrere Anweisungen nacheinander → Sequenz
-- <code>if</code> → Auswahl
-- <code>switch</code> → Auswahl
-- <code>for</code> → Wiederholung
-- <code>while</code> → Wiederholung
+- mehrere Anweisungen nacheinander -> Sequenz
+- `if` -> Auswahl
+- `switch` -> Auswahl
+- `for` -> Wiederholung
+- `while` -> Wiederholung
 
 ## Aufgabe 2: Kurz begründen
 
-<code>if</code> prüft eine Bedingung und kann den Ablauf verzweigen. <code>for</code> beschreibt dagegen eine Wiederholung mit Start, Bedingung und Änderung. Beide steuern zwar den Ablauf, aber mit klar unterschiedlicher Idee.
+`if` prüft eine Bedingung und entscheidet zwischen möglichen Zweigen. `for` wiederholt dagegen einen Ablauf mehrfach. Beide nutzen zwar Klammern und Blöcke, verfolgen aber unterschiedliche Ablaufideen.

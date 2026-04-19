@@ -5,9 +5,9 @@ subject: web-development
 section: HTML
 topicPath:
   - html
-  - navigation-und-menues
   - html-semantik-grundidee-verstehen
   - strukturelemente-fuer-inhalte-auswaehlen
+taskId: WEB-HTML-SEM-001
 level: einfach
 draft: false
 tags:

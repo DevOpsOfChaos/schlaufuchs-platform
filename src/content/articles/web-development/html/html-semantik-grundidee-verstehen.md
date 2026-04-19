@@ -1,160 +1,112 @@
 ---
 title: HTML-Semantik – Grundidee verstehen
-description: Verstehe, warum HTML nicht nur Inhalte anzeigt, sondern ihnen auch eine sinnvolle Bedeutung und Struktur gibt.
+description: Verstehe, warum HTML nicht nur Inhalt umschließt, sondern ihm auch eine klare Rolle gibt.
 subject: web-development
 section: HTML
 topicPath:
   - html
-  - navigation-und-menues
   - html-semantik-grundidee-verstehen
 learningGoals:
-  - Du erklärst, was mit semantischem HTML gemeint ist.
-  - Du unterscheidest neutrale und bedeutungstragende Elemente.
-  - Du wählst HTML-Elemente eher nach ihrer Rolle als nach ihrem Aussehen aus.
+  - Du erklärst die Grundidee semantischer HTML-Elemente.
+  - Du unterscheidest neutrale Container und bedeutungstragende Strukturelemente.
+  - Du begründest HTML-Entscheidungen eher mit Rolle als mit Aussehen.
 practiceIdeas:
-  - Prüfe bei einem kleinen Seitenausschnitt, welche Inhalte Überschrift, Navigation oder Hauptinhalt sind.
-  - Ersetze neutrale Container an passenden Stellen durch semantische Elemente.
-  - Begründe, warum ein Element wegen seiner Bedeutung und nicht wegen seines Standardstils gewählt wird.
+  - Lies eine kleine Seitenstruktur und benenne die Rollen von Kopf, Navigation, Hauptinhalt und Randnotiz.
+  - Vergleiche eine Lösung mit vielen div-Containern mit einer semantischeren Variante.
+  - Begründe für einzelne Bereiche, warum article, section oder aside näherliegt.
 commonMistakes:
-  - HTML-Elemente nur nach dem sichtbaren Aussehen auszuwählen.
-  - div überall als Standardlösung zu benutzen, obwohl die Rolle des Inhalts klar ist.
-  - Semantik mit Design oder Farben zu verwechseln.
+  - HTML-Tags nur nach Optik statt nach Bedeutung auszuwählen.
+  - main und article gleichzusetzen.
+  - Zu glauben, Semantik würde das Layout automatisch erzeugen.
 keyTakeaways:
-  - Semantik beschreibt die Bedeutung eines Inhalts im Dokument.
-  - HTML soll Inhalte nicht nur anzeigen, sondern sinnvoll strukturieren.
-  - Gute Semantik hilft Menschen, Tools und der Orientierung auf einer Seite.
+  - Semantische Elemente beschreiben die Rolle eines Bereichs.
+  - Semantik und Layout sind zwei verschiedene Entscheidungen.
+  - Gute Semantik macht Seiten verständlicher und wartbarer.
 recognizeSignals:
-  - Es geht um Seitenteile wie Navigation, Hauptinhalt, Artikel oder Abschnitte.
-  - Du sollst begründen, warum ein bestimmtes HTML-Element passend ist.
-  - In Aufgaben werden Struktur und Bedeutung wichtiger als Designfragen.
+  - Es geht um Seitenstruktur, Rollen von Bereichen oder verständlicheres HTML.
+  - Du sollst entscheiden, ob etwas Navigation, Hauptinhalt, Abschnitt oder Ergänzung ist.
+  - In Beispielen tauchen header, main, nav, article, section oder aside auf.
 selfCheckPoints:
-  - Kann ich Semantik in HTML erklären?
-  - Kann ich beschreiben, warum ein Element zu einer Rolle passt?
-  - Kann ich neutrale und semantische Elemente unterscheiden?
+  - Kann ich Rolle und Aussehen klar trennen?
+  - Kann ich neutrale und semantische Container vergleichen?
+  - Kann ich erklären, warum eine Struktur auch ohne CSS sinnvoll sein sollte?
 tags:
   - html
   - semantik
   - struktur
-  - barrierearm
+  - web-development
 level: einfach
 draft: false
 ---
 
 ## Grundidee
 
-HTML soll Inhalte nicht nur irgendwo auf einer Seite anzeigen. Es soll auch deutlich machen, **welche Rolle diese Inhalte im Dokument haben**.
-
-Genau darum geht es bei Semantik.
+HTML beschreibt nicht nur, **dass** es irgendwo Inhalt gibt, sondern auch, **welche Rolle** dieser Inhalt auf der Seite hat. Genau darum geht es bei Semantik.
 
 <div class="example-card">
   <p class="card-kicker">Leitbeispiel</p>
-  <h3>Navigation ist mehr als nur eine Reihe von Links</h3>
-  <p>Wenn mehrere Links die Hauptnavigation einer Seite bilden, ist das nicht bloß irgendein Container mit Text. Es ist ein eigener Navigationsbereich. Ein semantisches Element macht diese Rolle sichtbar und damit die Struktur der Seite verständlicher.</p>
+  <h3>Gleiche Optik, aber andere Aussage</h3>
+  <p>Zwei Seiten können gleich aussehen. Auf der ersten wurde alles mit <code>&lt;div&gt;</code> gebaut, auf der zweiten mit <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code> und <code>&lt;aside&gt;</code>. Für das Design kann beides gleich wirken. Für Struktur, Lesbarkeit und Wartung ist die zweite Variante oft klarer.</p>
 </div>
 
-## Was Semantik in HTML meint
+## Semantik fragt nach der Rolle
 
-Semantik bedeutet hier: Ein Element wird so gewählt, dass seine **Bedeutung** zur Aufgabe des Inhalts passt.
+Eine ruhige Leitfrage ist: **Was ist dieser Bereich auf der Seite?**
 
-Beispiele:
-- <code>&lt;nav&gt;</code> für Navigation,
-- <code>&lt;main&gt;</code> für den Hauptinhalt,
-- <code>&lt;article&gt;</code> für einen eigenständigen Inhalt,
-- <code>&lt;section&gt;</code> für einen thematischen Abschnitt.
+Nicht: Wie breit ist er? Welche Farbe hat er? Wie sieht er aus?  
+Sondern: Ist es Navigation, Hauptinhalt, ein eigenständiger Beitrag oder nur Ergänzung?
 
-## Mini-Demo: dieselbe Seite, unterschiedlich lesbar
+## Typische semantische Elemente
 
-<div class="figure-card">
-  <p class="card-kicker">Mini-Seite in der Seite</p>
-  <h3>Struktur wirkt nicht nur optisch, sondern inhaltlich</h3>
-  <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(16rem,1fr)); gap:0.9rem;">
-    <div style="padding:0.85rem; border:1px dashed #94a3b8; border-radius:16px; background:#f8fafc;">
-      <p style="margin:0 0 0.45rem;"><strong>Nur neutrale Container gedacht</strong></p>
-      <div style="padding:0.55rem; border-radius:10px; background:white; border:1px solid #e2e8f0;">div – Kopfbereich</div>
-      <div style="padding:0.55rem; border-radius:10px; background:white; border:1px solid #e2e8f0; margin-top:0.45rem;">div – Linkgruppe</div>
-      <div style="padding:0.55rem; border-radius:10px; background:white; border:1px solid #e2e8f0; margin-top:0.45rem;">div – Haupttext</div>
-      <div style="padding:0.55rem; border-radius:10px; background:white; border:1px solid #e2e8f0; margin-top:0.45rem;">div – Zusatzinfos</div>
-    </div>
-    <div style="padding:0.85rem; border:1px dashed #94a3b8; border-radius:16px; background:#f8fafc;">
-      <p style="margin:0 0 0.45rem;"><strong>Semantisch gedacht</strong></p>
-      <div style="padding:0.55rem; border-radius:10px; background:#dbeafe; font-weight:700;">header</div>
-      <div style="padding:0.55rem; border-radius:10px; background:#fef3c7; font-weight:700; margin-top:0.45rem;">nav</div>
-      <div style="padding:0.55rem; border-radius:10px; background:#dcfce7; font-weight:700; margin-top:0.45rem;">main</div>
-      <div style="padding:0.55rem; border-radius:10px; background:#e2e8f0; font-weight:700; margin-top:0.45rem;">aside</div>
-    </div>
-  </div>
+<div class="visual-grid">
+  <div class="visual-item"><strong>header</strong><span>Kopfbereich einer Seite oder eines Abschnitts.</span></div>
+  <div class="visual-item"><strong>nav</strong><span>Ein Bereich mit Navigationslinks.</span></div>
+  <div class="visual-item"><strong>main</strong><span>Der zentrale Hauptinhalt der Seite.</span></div>
+  <div class="visual-item"><strong>article</strong><span>Eigenständiger Inhalt, der auch für sich stehen kann.</span></div>
+  <div class="visual-item"><strong>section</strong><span>Ein inhaltlicher Abschnitt innerhalb eines größeren Zusammenhangs.</span></div>
+  <div class="visual-item"><strong>aside</strong><span>Ergänzende Randinformation, die nicht den Kern trägt.</span></div>
 </div>
 
-## Zweite Mini-Demo: dieselbe Optik, aber andere Bedeutung
-
-<div class="figure-card">
-  <p class="card-kicker">Mini-Seite in der Seite</p>
-  <h3>Semantik steckt nicht im Aussehen</h3>
-  <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(15rem,1fr)); gap:0.9rem; align-items:start;">
-    <div style="padding:0.85rem; border:1px dashed #94a3b8; border-radius:16px; background:#f8fafc;">
-      <p style="margin:0 0 0.45rem;"><strong>Gleiche Gestaltung</strong></p>
-      <div style="padding:0.7rem; border-radius:12px; background:#dbeafe; font-weight:700; margin-bottom:0.45rem;">Blauer Balken</div>
-      <div style="padding:0.7rem; border-radius:12px; background:#dbeafe; font-weight:700;">Noch ein blauer Balken</div>
-      <p style="margin:0.55rem 0 0;">Optisch ähnlich heißt noch nicht: gleiche Rolle.</p>
-    </div>
-    <div style="padding:0.85rem; border:1px dashed #94a3b8; border-radius:16px; background:#f8fafc;">
-      <p style="margin:0 0 0.45rem;"><strong>Inhaltlich verschieden</strong></p>
-      <div style="padding:0.7rem; border-radius:12px; background:#dbeafe; font-weight:700; margin-bottom:0.45rem;">header – Einstieg in die Seite</div>
-      <div style="padding:0.7rem; border-radius:12px; background:#dbeafe; font-weight:700;">nav – Bereich für Navigation</div>
-      <p style="margin:0.55rem 0 0;">Die Bedeutung ergibt sich aus der Rolle, nicht aus der Farbe.</p>
-    </div>
-  </div>
-</div>
-
-## Erst Rolle, dann Tag
-
-<div class="step-grid">
-  <div class="step-item">
-    <strong>1. Rolle klären</strong>
-    <span>Ist es Navigation, Hauptinhalt, Abschnitt oder nur ein neutraler Container?</span>
-  </div>
-  <div class="step-item">
-    <strong>2. Passendes Element suchen</strong>
-    <span>Erst wenn keine klarere Semantik passt, wird ein neutrales Element sinnvoll.</span>
-  </div>
-  <div class="step-item">
-    <strong>3. Styling getrennt denken</strong>
-    <span>Die Rolle kommt aus dem HTML, die Optik aus dem CSS.</span>
-  </div>
-</div>
-
-## Semantisch oder neutral?
+## div ist nicht falsch, aber neutral
 
 <div class="compare-card">
-  <p class="card-kicker">Vergleich</p>
-  <h3>Bedeutung sichtbar machen</h3>
+  <p class="card-kicker">Wichtiger Vergleich</p>
+  <h3>Neutraler Container gegen semantisches Element</h3>
   <div class="compare-grid">
-    <div class="compare-item">
-      <strong>Neutrales Element</strong>
-      <span>Ein <code>&lt;div&gt;</code> trägt zunächst keine eigene inhaltliche Rolle.</span>
-    </div>
-    <div class="compare-item">
-      <strong>Semantisches Element</strong>
-      <span>Ein Element wie <code>&lt;nav&gt;</code> oder <code>&lt;header&gt;</code> beschreibt die Funktion des Inhalts.</span>
-    </div>
+    <div class="compare-item"><strong>div</strong><span>Ein neutraler Container. Er gruppiert Inhalt, sagt aber nichts über dessen Bedeutung.</span></div>
+    <div class="compare-item"><strong>semantische Elemente</strong><span>Sie gruppieren ebenfalls, beschreiben aber zusätzlich die Rolle des Inhalts.</span></div>
   </div>
 </div>
 
-## Warum das hilfreich ist
+## Mini-Demo: gleiche Seite, unterschiedliche Aussagekraft
 
-Semantisches HTML hilft dabei,
-
-- Seiten klarer zu strukturieren,
-- Inhalte besser zu orientieren,
-- und technische Hilfsmittel sinnvoller mitlesen zu lassen.
+<div class="figure-card">
+  <p class="card-kicker">Mini-Seite in der Seite</p>
+  <h3>Beide Versionen können gleich aussehen</h3>
+  <div style="display:grid; gap:0.8rem;">
+    <div style="padding:0.9rem; border:1px dashed #94a3b8; border-radius:16px; background:#f8fafc;">
+      <p style="margin:0 0 0.45rem;"><strong>Neutral</strong></p>
+      <code>&lt;div class="kopf"&gt;...&lt;/div&gt;</code><br />
+      <code>&lt;div class="menu"&gt;...&lt;/div&gt;</code><br />
+      <code>&lt;div class="inhalt"&gt;...&lt;/div&gt;</code>
+    </div>
+    <div style="padding:0.9rem; border:1px dashed #94a3b8; border-radius:16px; background:#f8fafc;">
+      <p style="margin:0 0 0.45rem;"><strong>Semantisch</strong></p>
+      <code>&lt;header&gt;...&lt;/header&gt;</code><br />
+      <code>&lt;nav&gt;...&lt;/nav&gt;</code><br />
+      <code>&lt;main&gt;...&lt;/main&gt;</code>
+    </div>
+  </div>
+</div>
 
 ## Eine ruhige Prüfstrategie
 
-1. Welche Rolle hat dieser Inhalt auf der Seite?
-2. Ist er Navigation, Hauptinhalt, Abschnitt oder ergänzende Info?
-3. Gibt es dafür ein passendes semantisches Element?
-4. Erst danach: Wie soll es gestaltet werden?
+<div class="step-grid">
+  <div class="step-item"><strong>1. Rolle suchen</strong><span>Was ist dieser Bereich fachlich auf der Seite?</span></div>
+  <div class="step-item"><strong>2. Eigenständig oder Teil?</strong><span>Ist der Inhalt für sich verständlich oder nur Teil eines größeren Blocks?</span></div>
+  <div class="step-item"><strong>3. Erst danach CSS</strong><span>Layout und Aussehen kommen erst nach der Strukturentscheidung.</span></div>
+</div>
 
 <div class="note-panel">
-  <p><strong>Merke:</strong> HTML-Elemente sollten zuerst nach Bedeutung gewählt werden. Das Aussehen kommt später mit CSS.</p>
+  <p><strong>Merke:</strong> Gute HTML-Semantik macht eine Seite nicht automatisch schöner, aber oft deutlich verständlicher.</p>
 </div>
