@@ -16,25 +16,28 @@ tags:
   - aufgabe
   - programmierung
   - oop
+  - vererbung
 hintPoints:
-  - Lies zuerst ruhig, ob ein neues Objekt entsteht oder ein bestehendes genutzt wird.
-  - Benenne dann den Fachbegriff, statt nur den Code nachzusprechen.
+  - Frage zuerst, warum die normale Sicht der Unterklasse hier nicht reicht.
+  - Lies den Bereichsoperator als Wegweiser zu einer bestimmten Klassenebene.
 selfCheckPoints:
   - Habe ich Objekt, Klasse und Methode sauber getrennt?
-  - Habe ich meinen Fachbegriff begruendet statt nur geraten?
+  - Habe ich erklaert, warum der Rueckgriff bewusst markiert wird?
 transferIdeas:
-  - Uebertrage dieselbe Denkweise auf ein eigenes kleines Klassenbeispiel.
-reflectionPrompt: "Welche Stelle im Beispiel war fuer mich der beste Hinweis?"
+  - Uebertrage dieselbe Denkweise auf ein eigenes kleines Vererbungsbeispiel.
+reflectionPrompt: Welche Denkfrage hilft dir hier mehr, Name oder Klassenebene?
 ---
 
-## Aufgabe 1
+## Aufgabe 1: Rueckgriff erklaeren
 
 Beschreibe, warum ein Aufruf mit Klassenname und Bereichsoperator eine Basismethode gezielt sichtbar macht.
 
-## Aufgabe 2
+## Aufgabe 2: Normal und qualifiziert vergleichen
 
-Formuliere in 2-3 Saetzen die wichtigste Unterscheidung des Themas.
+Erklaere in 2 bis 4 Saetzen den Unterschied zwischen einem normalen Methodenaufruf und einem qualifizierten Rueckgriff auf die Basisklasse.
 
-## Aufgabe 3
+## Aufgabe 3: Missverstaendnis korrigieren
 
-Nenne ein typisches Missverstaendnis zu diesem Thema und korrigiere es kurz.
+Jemand sagt, eine verdeckte Basismethode sei einfach verschwunden.
+
+Erklaere, warum das nicht stimmt.

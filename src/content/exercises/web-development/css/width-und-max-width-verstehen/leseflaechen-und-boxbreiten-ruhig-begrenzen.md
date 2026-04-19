@@ -1,6 +1,6 @@
 ---
 title: Leseflächen und Boxbreiten ruhig begrenzen
-description: Begründe, wann width zu starr wirkt und warum max-width bei responsiven Flächen oft ruhiger ist.
+description: Begründe, wann width sinnvoll ist und wann max-width bei Boxen und Lesespalten ruhiger wirkt.
 subject: web-development
 section: CSS
 topicPath:
@@ -8,40 +8,42 @@ topicPath:
   - responsive-layouts
   - width-und-max-width-verstehen
   - leseflaechen-und-boxbreiten-ruhig-begrenzen
+taskId: WEB-CSS-LAYOUT-202
 level: einfach
 draft: false
 tags:
   - css
   - width
   - max-width
+  - responsive
 hintPoints:
-  - "Frage zuerst, ob eine feste Breite wirklich nötig ist oder nur eine Obergrenze sinnvoll wäre."
-  - "Denke an kleine und große Bildschirme zugleich."
-  - "Begründe nicht nur technisch, sondern auch aus Sicht der Lesbarkeit."
+  - Frage zuerst, ob die Breite exakt feststehen oder nur begrenzt werden soll.
+  - Denke auch an Lesbarkeit auf sehr breiten und sehr schmalen Flächen.
 selfCheckPoints:
-  - "Hast du Zwang und Obergrenze sauber unterschieden?"
-  - "Ist erklärt, was auf kleinen Flächen passiert?"
-  - "Beziehst du die Lesbarkeit auf großen Flächen mit ein?"
+  - Kannst du width und max-width fachlich trennen?
+  - Kannst du begründen, warum feste Breiten auf kleinen Geräten kippen können?
 transferIdeas:
-  - "Übertrage die Aufgabe auf Bilder, Formulare, Karten oder Inhaltsbereiche."
-  - "Vergleiche eine starre Werbefläche mit einer normalen Textspalte."
-reflectionPrompt: "Woran erkennst du, dass ein Element nicht eine feste Breite braucht, sondern nur eine gute Grenze?"
+  - Übertrage die Aufgabe auf Bilder, Formulare oder Kartenlisten.
+reflectionPrompt: Warum ist Begrenzen oft ruhiger als Erzwingen?
 ---
 
-## Aufgabe 1: Auswahl begründen
+## Aufgabe 1: Zwei Breitenideen vergleichen
 
-Ein Artikeltext soll auf kleinen Geräten die verfügbare Breite nutzen, auf großen Bildschirmen aber nicht endlos breit werden.
+Vergleiche diese beiden Ideen:
 
-Begründe, warum eine Kombination wie <code>width: 100%</code> und <code>max-width</code> hier oft ruhiger ist als eine starre feste Breite.
+- eine Box mit fester Breite
+- eine Box mit `width: 100%` und sinnvoller `max-width`
 
-## Aufgabe 2: Denkfehler prüfen
+Erkläre, welche Variante auf unterschiedlichen Bildschirmgrößen meist ruhiger wirkt und warum.
 
-Jemand sagt: „<code>max-width</code> ist nur eine andere Schreibweise für <code>width</code>.“
+## Aufgabe 2: Lesbarkeit begründen
 
-Erkläre, warum das nicht stimmt.
+Ein längerer Text läuft auf einem großen Bildschirm über die ganze Seitenbreite.
 
-## Aufgabe 3: Situation deuten
+Erkläre, warum `max-width` hier nicht nur ein Layout-, sondern auch ein Lesbarkeitswerkzeug sein kann.
 
-Eine Karte mit <code>width: 28rem</code> ragt auf einem kleinen Bildschirm aus dem sichtbaren Bereich heraus.
+## Aufgabe 3: Denkfehler prüfen
 
-Beschreibe, was an der Breitenlogik problematisch ist und welche ruhigere Alternative näherliegt.
+Jemand sagt: „Responsive heißt einfach, überall 100 Prozent Breite zu setzen.“
+
+Erkläre, warum das zu kurz gedacht ist.

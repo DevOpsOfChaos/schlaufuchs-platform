@@ -1,31 +1,31 @@
 ---
-title: Musterloesung - Direkten und indirekten Methodenzugriff vergleichen
-description: Musterloesung zur Aufgabe INF-PROG-OOP-023.
+title: Loesung – Direkten und indirekten Methodenzugriff vergleichen
+description: Musterloesung zur Aufgabe ueber Punktoperator und Pfeiloperator.
 subject: informatik
 section: Programmierung
 topicPath:
   - programmierung
   - oop
   - punktoperator-und-pfeiloperator-in-oop-zugriffen-unterscheiden
-  - direkten-und-indirekten-methodenzugriff-vergleichen-loesung
 taskId: INF-PROG-OOP-023
-relatedExercise: src/content/exercises/informatik/programmierung/oop/punktoperator-und-pfeiloperator-in-oop-zugriffen-unterscheiden/direkten-und-indirekten-methodenzugriff-vergleichen.md
+relatedExercise: informatik/programmierung/oop/punktoperator-und-pfeiloperator-in-oop-zugriffen-unterscheiden/direkten-und-indirekten-methodenzugriff-vergleichen
 tags:
   - informatik
-  - programmierung
   - oop
   - loesung
 draft: false
 ---
 
-## Aufgabe 1
+## Musterloesung
 
-Der Punktoperator greift direkt auf ein Objekt zu. Der Pfeiloperator greift indirekt ueber einen Zeiger auf ein Objekt zu.
+### Aufgabe 1
 
-## Aufgabe 2
+Direkter Zugriff liegt vor, wenn links ein Objekt steht und der Punktoperator benutzt wird. Indirekter Zugriff liegt vor, wenn links ein Zeiger steht und der Pfeiloperator benutzt wird.
 
-Die wichtigste Unterscheidung ist: Punkt bedeutet direkter Objektzugriff, Pfeil bedeutet Zugriff ueber einen Verweis auf ein Objekt.
+### Aufgabe 2
 
-## Aufgabe 3
+Der Punktoperator greift unmittelbar auf ein vorhandenes Objekt zu. Der Pfeiloperator fuehrt erst ueber einen Zeiger zum eigentlichen Objekt und beschreibt deshalb einen indirekten Zugriff.
 
-Ein typisches Missverstaendnis ist, dass beide nur anders aussehen. Korrekt ist: Sie verraten, ob links ein Objekt oder ein Objektzeiger steht.
+### Aufgabe 3
+
+Punkt und Pfeil sind keine reinen Stilvarianten. Sie unterscheiden sich darin, ob links direkt ein Objekt vorliegt oder erst ein Zeiger auf dieses Objekt.

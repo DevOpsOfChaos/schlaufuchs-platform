@@ -12,54 +12,44 @@ tags:
   - zugänglichkeit
   - html
 learningGoals:
-  - "Du erklärst, warum Bilder im Web einen passenden Alternativtext brauchen können."
-  - "Du unterscheidest informative, dekorative und funktionale Bilder grob voneinander."
-  - "Du erkennst, dass guter Alternativtext die Bedeutung oder Funktion beschreibt, nicht nur das Aussehen."
+  - Du erklärst, warum Bilder im Web einen passenden Alternativtext brauchen können.
+  - Du unterscheidest informative, dekorative und funktionale Bilder grob voneinander.
+  - Du erkennst, dass guter Alternativtext die Bedeutung oder Funktion beschreibt und nicht nur das Aussehen.
 practiceIdeas:
-  - "Vergleiche für ein Bild mehrere mögliche alt-Texte und bewerte sie."
-  - "Ordne Bilder danach ein, ob sie informativ, dekorativ oder funktional sind."
-  - "Prüfe bei einem Beispiel, ob der Alternativtext wirklich den Zweck des Bildes trifft."
+  - Vergleiche für ein Bild mehrere mögliche Alt-Texte und bewerte sie.
+  - Ordne Bilder danach ein, ob sie informativ, dekorativ oder funktional sind.
+  - Prüfe bei einem Beispiel, ob der Alternativtext wirklich den Zweck des Bildes trifft.
 commonMistakes:
-  - "Jedes Bild mit demselben allgemeinen Muster zu beschreiben."
-  - "Bei funktionalen Bildern nur das Aussehen statt die Aktion zu benennen."
-  - "Dekorative Bilder unnötig mit bedeutungsleerem Text zu versehen."
+  - Jedes Bild mit demselben allgemeinen Muster zu beschreiben.
+  - Bei funktionalen Bildern nur das Aussehen statt die Aktion zu benennen.
+  - Dekorative Bilder unnötig mit bedeutungsleerem Text zu versehen.
 keyTakeaways:
-  - "Alt-Texte sollen Bedeutung oder Funktion eines Bildes zugänglich machen."
-  - "Nicht jedes Bild braucht denselben Typ von Alternativtext."
-  - "Guter Alternativtext richtet sich nach dem Zweck des Bildes im Kontext."
+  - Alt-Texte sollen Bedeutung oder Funktion eines Bildes zugänglich machen.
+  - Nicht jedes Bild braucht denselben Typ von Alternativtext.
+  - Guter Alternativtext richtet sich nach dem Zweck des Bildes im Kontext.
 recognizeSignals:
-  - "Es geht um Bilder, img, alt, Zugänglichkeit oder Sinn eines Bildes im Kontext."
-  - "Du sollst entscheiden, was ein guter Alt-Text leisten muss."
-  - "Ein Beispiel fragt nicht nur nach HTML-Syntax, sondern nach der Funktion des Bildes."
+  - Es geht um Bilder, img, alt, Zugänglichkeit oder den Sinn eines Bildes im Kontext.
+  - Du sollst entscheiden, was ein guter Alt-Text leisten muss.
+  - Ein Beispiel fragt nicht nur nach HTML-Syntax, sondern nach der Funktion des Bildes.
 selfCheckPoints:
-  - "Kann ich zwischen dekorativem, informativem und funktionalem Bild unterscheiden?"
-  - "Kann ich erklären, warum ein Alt-Text den Zweck statt nur die Optik beschreiben soll?"
-  - "Kann ich für ein Beispiel einen passenden Alternativtext formulieren?"
+  - Kann ich zwischen dekorativem, informativem und funktionalem Bild unterscheiden?
+  - Kann ich erklären, warum ein Alt-Text den Zweck statt nur die Optik beschreiben soll?
+  - Kann ich für ein Beispiel einen passenden Alternativtext formulieren?
 level: einfach
 draft: false
 ---
 
-## Warum dieses Thema wichtig ist
+## Grundidee
 
-Bilder sind im Web nicht nur Schmuck. Sie transportieren Informationen, unterstützen Navigation oder lösen sogar Aktionen aus. Genau deshalb reicht es nicht, sie nur visuell zu betrachten.
-
-Der Alternativtext hilft dabei, den Zweck oder die Bedeutung eines Bildes zugänglich zu machen, wenn das Bild selbst nicht gesehen werden kann.
+Bilder sind im Web nicht nur Schmuck. Sie transportieren Informationen, unterstützen Orientierung oder lösen sogar Aktionen aus. Genau deshalb reicht es nicht, sie nur visuell zu betrachten.
 
 <div class="example-card">
   <p class="card-kicker">Leitbeispiel</p>
   <h3>Icon im Such-Button</h3>
-  <p>Wenn ein Lupenbild nur visuell zeigt, dass ein Button die Suche auslöst, ist nicht „Lupe“ die wichtigste Information, sondern die Funktion „Suche“.</p>
+  <p>Wenn ein Lupenbild nur visuell zeigt, dass ein Button die Suche auslöst, ist nicht Lupe die wichtigste Information, sondern die Funktion Suche.</p>
 </div>
 
-## Nicht jedes Bild hat denselben Zweck
-
-Ein Bild kann sehr unterschiedlich eingesetzt sein:
-
-- **informativ**, wenn es eine inhaltliche Aussage trägt,
-- **dekorativ**, wenn es nur Gestaltung unterstützt,
-- **funktional**, wenn es Teil eines Links oder Buttons ist.
-
-Davon hängt ab, wie der Alternativtext aussehen sollte.
+## Drei Bildrollen ruhig unterscheiden
 
 <div class="comparison-grid">
   <section>
@@ -79,6 +69,27 @@ Davon hängt ab, wie der Alternativtext aussehen sollte.
   </section>
 </div>
 
+## Mini-Demo: gleiches Motiv, anderer Zweck
+
+<div class="figure-card">
+  <p class="card-kicker">Kontextvergleich</p>
+  <h3>Dasselbe Bild braucht je nach Rolle einen anderen Umgang</h3>
+  <div style="display:grid; gap:0.8rem;">
+    <div style="padding:0.9rem; border-radius:16px; background:#f8fafc; border:1px dashed #94a3b8;">
+      <strong>Informativ</strong>
+      <p style="margin:0.35rem 0 0;">Ein Diagramm zeigt, dass der Umsatz von Januar bis März deutlich steigt.</p>
+    </div>
+    <div style="padding:0.9rem; border-radius:16px; background:#f8fafc; border:1px dashed #94a3b8;">
+      <strong>Dekorativ</strong>
+      <p style="margin:0.35rem 0 0;">Ein Ornament im Seitenkopf fügt keine eigene Information hinzu.</p>
+    </div>
+    <div style="padding:0.9rem; border-radius:16px; background:#f8fafc; border:1px dashed #94a3b8;">
+      <strong>Funktional</strong>
+      <p style="margin:0.35rem 0 0;">Ein Lupen-Icon steht im Such-Button für die Aktion Suche.</p>
+    </div>
+  </div>
+</div>
+
 ## Gute und schwache Alt-Texte
 
 <div class="good-bad-grid">
@@ -90,31 +101,23 @@ Davon hängt ab, wie der Alternativtext aussehen sollte.
   <section>
     <p class="card-kicker">Schwach</p>
     <h3>Nur die Optik wird benannt</h3>
-    <p>Ein Text wie <code>Lupe</code> beschreibt zwar das Bildmotiv, aber nicht die Funktion des Elements im Kontext.</p>
+    <p>Ein Text wie <code>Lupe</code> beschreibt zwar das Motiv, aber nicht die Funktion des Elements im Kontext.</p>
   </section>
 </div>
 
-## Informative Bilder
-
-Bei informativen Bildern soll der Alt-Text die wesentliche Aussage des Bildes transportieren. Es geht nicht darum, jedes Detail aufzuzählen, sondern das Bedeutende knapp und klar wiederzugeben.
+## Drei typische Fälle
 
 <pre><code>&lt;img src="diagramm.png" alt="Umsatz steigt von Januar bis März deutlich an" /&gt;</code></pre>
 
-## Dekorative Bilder
-
-Dekorative Bilder tragen keine wichtige Information für das Verständnis des Inhalts. In solchen Fällen sollte der Alternativtext nicht mit bedeutungslosem Text gefüllt werden.
-
 <pre><code>&lt;img src="ornament.png" alt="" /&gt;</code></pre>
-
-## Funktionale Bilder
-
-Wenn ein Bild Teil einer Aktion ist – etwa als verlinktes Logo oder Icon in einem Button –, sollte der Alternativtext die **Funktion oder das Ziel** beschreiben.
 
 <pre><code>&lt;a href="/suche"&gt;
   &lt;img src="lupe.svg" alt="Suche" /&gt;
 &lt;/a&gt;</code></pre>
 
-Gerade hier zeigt sich, dass Alternativtext immer vom Kontext abhängt.
+## Diese Seite behandelt bewusst den Bildzweck
+
+Die wichtigste Frage lautet nicht: Wie sieht das Bild aus? Sondern: **Wozu ist dieses Bild hier da?** Erst daraus ergibt sich, ob man Information, Funktion oder gar nichts formulieren sollte.
 
 <div class="figure-card">
   <p class="card-kicker">Denkbild</p>
@@ -128,22 +131,6 @@ Gerade hier zeigt sich, dass Alternativtext immer vom Kontext abhängt.
   </div>
 </div>
 
-## Gute Alt-Texte entstehen aus dem Zweck
-
-Die wichtigste Frage lautet nicht: „Wie sieht das Bild aus?“, sondern: „Wozu ist dieses Bild hier da?“
-
-Erst aus dieser Frage ergibt sich, ob man die Information, die Funktion oder gar nichts formulieren sollte.
-
 <div class="note-panel">
-  <p><strong>Merke:</strong> Ein Alt-Text soll fehlende Sicht nicht mit Bildbeschreibung „ersetzen“, sondern die relevante Information oder Funktion des Bildes zugänglich machen.</p>
-</div>
-
-<div class="practice-card wide-bleed">
-  <p class="card-kicker">Zum Anwenden</p>
-  <h3>So prüfst du Alt-Texte ruhiger</h3>
-  <ul>
-    <li>Frage zuerst, ob das Bild Information, Gestaltung oder Funktion trägt.</li>
-    <li>Formuliere dann nur das, was für diesen Zweck wirklich wichtig ist.</li>
-    <li>Prüfe am Ende, ob der Alt-Text auch ohne das sichtbare Bild sinnvoll bleibt.</li>
-  </ul>
+  <p><strong>Merke:</strong> Ein Alt-Text soll fehlende Sicht nicht einfach mit Bildbeschreibung ersetzen, sondern die relevante Information oder Funktion zugänglich machen.</p>
 </div>

@@ -1,6 +1,6 @@
 ---
 title: Konstruktoren und Destruktoren verstehen
-description: Verstehe, wie Objekte angelegt, vorbereitet und wieder sauber beendet werden.
+description: Verstehe, wie Objekte angelegt, sinnvoll gestartet und wieder sauber beendet werden.
 subject: informatik
 section: Programmierung
 topicPath:
@@ -43,7 +43,7 @@ draft: false
 
 ## Grundidee
 
-Objekte tauchen in einem Programm nicht einfach "fertig" auf. Sie werden angelegt, in einen sinnvollen Anfangszustand gebracht und spaeter wieder beendet. Genau dafuer sind Konstruktoren und Destruktoren da.
+Objekte tauchen in einem Programm nicht einfach fertig auf. Sie werden angelegt, in einen sinnvollen Anfangszustand gebracht und spaeter wieder beendet. Genau dafuer sind Konstruktoren und Destruktoren da.
 
 <div class="figure-card">
   <p class="card-kicker">Denkbild</p>
@@ -59,7 +59,7 @@ Objekte tauchen in einem Programm nicht einfach "fertig" auf. Sie werden angeleg
 
 ## Konstruktor
 
-Ein Konstruktor traegt denselben Namen wie die Klasse. Er wird benutzt, um beim Erzeugen eines Objekts einen sinnvollen Anfangszustand herzustellen.
+Ein Konstruktor traegt denselben Namen wie die Klasse. Er soll dafuer sorgen, dass ein Objekt schon beim Entstehen in einem brauchbaren Zustand startet.
 
 ```cpp
 class Konto {
@@ -67,8 +67,6 @@ public:
   Konto() { /* Startzustand setzen */ }
 };
 ```
-
-Der wichtige Gedanke ist: Ein Objekt soll nicht erst spaeter "irgendwann" brauchbar werden, sondern moeglichst schon beim Entstehen.
 
 ## Destruktor
 
@@ -83,30 +81,34 @@ public:
 
 Er gehoert zum Ende des Objektlebenszyklus. Besonders wichtig wird er, wenn ein Objekt Ressourcen verwaltet, zum Beispiel Dateien, Speicher oder Verbindungen.
 
-## Konstruktor und Destruktor nicht verwechseln
+## Nicht nur Start und Ende, sondern auch Verantwortung
 
 <div class="compare-card">
-  <p class="card-kicker">Vergleich</p>
-  <h3>Start vorbereiten vs. Ende sauber machen</h3>
+  <p class="card-kicker">Wichtige Trennung</p>
+  <h3>Was passiert automatisch und was braucht bewusste Steuerung?</h3>
   <div class="compare-grid">
     <div class="compare-item">
-      <strong>Konstruktor</strong>
-      <span>Hilft beim Start des Objekts. Er setzt Startwerte oder richtet Abhaengigkeiten ein.</span>
+      <strong>Automatisches Objekt</strong>
+      <span>Entsteht beim Betreten eines Bereichs und endet wieder beim Verlassen dieses Bereichs.</span>
     </div>
     <div class="compare-item">
-      <strong>Destruktor</strong>
-      <span>Hilft beim Ende des Objekts. Er raeumt auf, wenn das Objekt verschwindet.</span>
+      <strong>Dynamisches Objekt</strong>
+      <span>Entsteht mit <code>new</code> und braucht spaeter ein bewusstes <code>delete</code>.</span>
     </div>
   </div>
 </div>
 
-## Automatisch und dynamisch erzeugte Objekte
+## Leitbeispiel
 
 <div class="example-card">
   <p class="card-kicker">Leitbeispiel</p>
-  <h3>Zwei Wege, dasselbe Prinzip</h3>
-  <p>Ein automatisch erzeugtes Objekt wird beim Betreten eines Bereichs angelegt und am Ende dieses Bereichs wieder beendet. Ein dynamisch erzeugtes Objekt entsteht mit <code>new</code> und muss spaeter mit <code>delete</code> sauber freigegeben werden. Der Lebenszyklus ist also aehnlich, aber die Verantwortung beim Beenden ist nicht immer gleich verteilt.</p>
+  <h3>Ein Konto startet nicht neutral</h3>
+  <p>Ein <code>Konto</code>-Objekt soll zum Beispiel sofort eine Kontonummer oder einen Anfangssaldo sinnvoll gesetzt haben. Genau dafuer ist der Konstruktor da. Wenn das Objekt spaeter verschwindet, sorgt der Destruktor dafuer, dass offene Ressourcen sauber beendet werden.</p>
 </div>
+
+## Diese Seite behandelt bewusst nur den Objektlebenszyklus
+
+Hier geht es um Anfang und Ende eines Objekts. Mehrere Startwege in derselben Klasse, Delegation zwischen Konstruktoren oder Basisklassenaufrufe in der Vererbung sind eigene, feinere Themen.
 
 ## Ruhige Pruefstrategie
 
@@ -126,11 +128,5 @@ Er gehoert zum Ende des Objektlebenszyklus. Besonders wichtig wird er, wenn ein 
 </div>
 
 <div class="note-panel">
-  <p><strong>Merke:</strong> Konstruktoren und Destruktoren sind keine "irgendwelchen Sonderfaelle", sondern die ruhigste Art, den Anfang und das Ende eines Objekts sauber zu denken.</p>
+  <p><strong>Merke:</strong> Konstruktoren und Destruktoren sind die ruhigste Art, Anfang und Ende eines Objekts sauber zu denken.</p>
 </div>
-## Ergaenzung: Nicht jeder Konstruktor startet isoliert
-
-Bei Klassen mit mehreren Konstruktoren lohnt sich noch eine Zusatzfrage:  
-**Startet hier wirklich jeder Konstruktor komplett fuer sich oder leitet einer an einen anderen weiter?**
-
-Gerade bei moderneren C++-Beispielen wird die eigentliche Initialisierung oft in einen Kernkonstruktor gebuendelt. So bleibt der Objektstart ruhiger und besser lesbar.

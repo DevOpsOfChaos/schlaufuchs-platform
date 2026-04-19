@@ -16,7 +16,7 @@ practiceIdeas:
   - Markiere, wo nur weitergeleitet und wo wirklich initialisiert wird.
   - Vergleiche doppelte Zuweisungen mit einem delegierten Aufbau.
 commonMistakes:
-  - Zu denken, dass jeder Konstruktor immer denselben Code noch einmal komplett ausfuehren muss.
+  - Zu denken, dass jeder Konstruktor immer denselben Code komplett wiederholen muss.
   - Delegation mit Vererbung oder Oberklassenaufruf zu verwechseln.
   - Zu uebersehen, dass ein Konstruktor hoechstens an einen anderen delegieren darf.
 keyTakeaways:
@@ -43,21 +43,21 @@ draft: false
 
 ## Grundidee
 
-Nicht jede Klasse braucht nur **einen** Startweg. Manchmal soll ein Objekt ohne Werte, mit einem Wert oder mit mehreren Werten erzeugt werden koennen. Dann entstehen mehrere Konstruktoren mit unterschiedlicher Signatur.
+Nicht jede Klasse braucht nur einen Startweg. Manchmal soll ein Objekt ohne Werte, mit einem Wert oder mit mehreren Werten erzeugt werden koennen. Dann entstehen mehrere Konstruktoren mit unterschiedlicher Signatur.
 
 Wenn diese Konstruktoren dieselbe Initialisierungslogik wiederholen, wird der Code schnell unruhig. Delegation hilft dabei, einen gemeinsamen Kernkonstruktor zu nutzen.
 
 <div class="compare-card">
-  <p class="card-kicker">Trennung</p>
-  <h3>Ueberladen ist nicht automatisch Delegation</h3>
+  <p class="card-kicker">Kerntrennung</p>
+  <h3>Mehrere Startwege sind nicht automatisch mehrere Initialisierungen</h3>
   <div class="compare-grid">
     <div class="compare-item">
-      <strong>Ueberladene Konstruktoren</strong>
-      <span>Es gibt mehrere Konstruktoren mit unterschiedlicher Parameterliste.</span>
+      <strong>Ueberladen</strong>
+      <span>Es gibt mehrere Konstruktoren mit unterschiedlichen Parameterlisten.</span>
     </div>
     <div class="compare-item">
       <strong>Delegation</strong>
-      <span>Ein Konstruktor ruft einen anderen Konstruktor derselben Klasse auf.</span>
+      <span>Ein Konstruktor leitet an einen anderen Konstruktor derselben Klasse weiter.</span>
     </div>
   </div>
 </div>
@@ -77,11 +77,30 @@ public:
 
 Hier sieht man drei Startwege. Der parameterlose Konstruktor leitet an den Ein-Parameter-Konstruktor weiter. Dieser leitet an den Zwei-Parameter-Konstruktor weiter. Die eigentliche Arbeit liegt am Ende nur noch an einer Stelle.
 
-## Warum das didaktisch so wichtig ist
+## Was beim Lesen die wichtigste Frage ist
 
-Wer Konstruktoren nur als "viele Sonderfaelle" sieht, liest Klassen schnell hektisch. Ruhiger ist die Frage:
+**Welcher Konstruktor ist nur ein bequemer Einstieg und welcher setzt am Ende wirklich die Daten?**
 
-**Welcher Konstruktor ist nur ein bequemer Einstieg, und welcher setzt am Ende wirklich die Daten?**
+Diese Frage ist didaktisch hilfreicher als nur zu zaehlen, wie viele Konstruktoren es gibt.
+
+## Delegation ist kein Vererbungsfall
+
+<div class="good-bad-grid">
+  <section>
+    <p class="card-kicker">Gut</p>
+    <h3>Innerhalb derselben Klasse denken</h3>
+    <p>Delegation bleibt in der Klasse selbst. Ein Konstruktor ruft einen anderen Konstruktor derselben Klasse auf.</p>
+  </section>
+  <section>
+    <p class="card-kicker">Schwach</p>
+    <h3>Mit Basisklassen vermischen</h3>
+    <p>Dann wird aus einer ruhigen Startlogik schnell ein begriffliches Durcheinander mit Vererbung.</p>
+  </section>
+</div>
+
+## Diese Seite behandelt bewusst nur Startwege innerhalb einer Klasse
+
+Sobald beim Erzeugen eines Objekts auch eine Basisklasse beteiligt ist, geht es nicht mehr um Delegation innerhalb derselben Klasse, sondern um Konstruktoraufrufe in der Vererbung. Das ist ein eigenes Thema.
 
 ## Ruhige Lesestrategie
 
@@ -103,8 +122,3 @@ Wer Konstruktoren nur als "viele Sonderfaelle" sieht, liest Klassen schnell hekt
 <div class="note-panel">
   <p><strong>Merke:</strong> Ueberladung schafft mehrere Startwege. Delegation sorgt dafuer, dass diese Wege trotzdem auf eine ruhige gemeinsame Initialisierung hinauslaufen.</p>
 </div>
-
-
-## Ergaenzung: Weiterleitung ist kein zweiter Start
-
-Bei delegierten Konstruktoren lohnt sich eine ruhige Denkregel: **Die Weiterleitung erzeugt keinen zweiten Objektstart**, sondern buendelt nur die Initialisierung in einem zentralen Konstruktor. Dadurch bleibt die Startlogik einer Klasse konsistenter.

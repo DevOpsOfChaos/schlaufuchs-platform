@@ -1,42 +1,44 @@
 ---
 title: Flex-Ausrichtung auf Haupt- und Kreuzachse erklären
-description: Beschreibe bei kleinen Beispielen, welche Eigenschaft die sichtbare Ausrichtung erklärt.
+description: Erkläre, wie justify-content und align-items in Flexbox wirken und warum flex-direction die Lesart verändert.
 subject: web-development
 section: CSS
 topicPath:
   - css
   - flex-achsen-und-ausrichtung-verstehen
   - flex-ausrichtung-auf-haupt-und-kreuzachse-erklaeren
-taskId: WEB-CSS-FLEX-102
+taskId: WEB-CSS-FLEX-205
 level: einfach
 draft: false
 tags:
   - css
   - flexbox
   - ausrichtung
-  - aufgabe
 hintPoints:
-  - "Lies zuerst die Hauptachse über flex-direction."
-  - "Verteilung und Quer-Ausrichtung sind nicht dasselbe."
-  - "justify-content und align-items wirken auf verschiedene Achsen."
+  - Frage zuerst, welche Richtung die Hauptachse hat.
+  - Trenne Verteilung entlang der Hauptachse und Ausrichtung quer dazu.
 selfCheckPoints:
-  - "Ist die Hauptachse klar?"
-  - "Hast du justify-content und align-items nicht vertauscht?"
-  - "Begründest du mit Achsen statt mit Himmelsrichtungen?"
+  - Kannst du justify-content und align-items sicher unterscheiden?
+  - Kannst du erklären, was sich bei flex-direction column ändert?
 transferIdeas:
-  - "Übertrage die Aufgabe auf Spaltenlayouts mit flex-direction: column."
-  - "Vergleiche center und space-between."
-reflectionPrompt: "Welche Leitfrage verhindert am ehesten, dass du justify-content und align-items vertauschst?"
+  - Übertrage die Aufgabe auf Menüleisten, Kartenreihen oder kleine Toolbars.
+reflectionPrompt: Warum ist Achsendenken in Flexbox ruhiger als links-rechts-Denken?
 ---
 
-## Aufgabe 1: Raum auf der Hauptachse
+## Aufgabe 1: Ursache benennen
 
-Drei Elemente stehen mit großem Abstand voneinander in einer Flex-Reihe. Welche Eigenschaft ist dafür wahrscheinlich zentral?
+Eine Flex-Leiste zeigt große Abstände zwischen drei Elementen und richtet sie oben aus.
 
-## Aufgabe 2: Quer-Ausrichtung
+Erkläre, welche Rolle dabei `justify-content` und welche Rolle `align-items` spielen.
 
-Die Items beginnen alle oben an derselben Kante. Welche Eigenschaft erklärt das näher?
+## Aufgabe 2: Achse kippt
 
-## Aufgabe 3: Richtung kippt
+Die Richtung wird von `row` auf `column` geändert.
 
-Warum kann dieselbe Eigenschaft bei <code>flex-direction: column</code> eine andere sichtbare Wirkung haben?
+Erkläre, warum dieselben Ausrichtungsregeln jetzt anders sichtbar wirken.
+
+## Aufgabe 3: Denkfehler prüfen
+
+Jemand lernt nur: „justify-content ist horizontal, align-items ist vertikal.“
+
+Erkläre, warum das zu kurz gedacht ist.

@@ -1,31 +1,31 @@
 ---
-title: Musterloesung - virtual und konkretes Objekt bei Methodenwahl erklaeren
-description: Musterloesung zur Aufgabe INF-PROG-OOP-019.
+title: Loesung – virtual und konkretes Objekt bei Methodenwahl erklaeren
+description: Musterloesung zur Aufgabe ueber virtual, override und das konkrete Objekt.
 subject: informatik
 section: Programmierung
 topicPath:
   - programmierung
   - oop
   - virtual-methoden-und-override-verstehen
-  - virtual-und-konkretes-objekt-bei-methodenwahl-erklaeren-loesung
 taskId: INF-PROG-OOP-019
-relatedExercise: src/content/exercises/informatik/programmierung/oop/virtual-methoden-und-override-verstehen/virtual-und-konkretes-objekt-bei-methodenwahl-erklaeren.md
+relatedExercise: informatik/programmierung/oop/virtual-methoden-und-override-verstehen/virtual-und-konkretes-objekt-bei-methodenwahl-erklaeren
 tags:
   - informatik
-  - programmierung
   - oop
   - loesung
 draft: false
 ---
 
-## Aufgabe 1
+## Musterloesung
 
-Bei virtual entscheidet nicht nur der Basistyp der Referenz, sondern das konkrete Objekt zur Laufzeit ueber die passende Methode. Dadurch wird polymorphes Verhalten moeglich.
+### Aufgabe 1
 
-## Aufgabe 2
+Bei `virtual` reicht der Basisklassentyp allein nicht mehr fuer die endgueltige Methodenwahl. Wichtig wird, welches konkrete Objekt wirklich hinter der Referenz oder dem Zeiger steckt.
 
-Die wichtigste Unterscheidung ist: Ohne virtual wird eher statisch gebunden, mit virtual kann die Methodenwahl spaeter und objektnaher erfolgen.
+### Aufgabe 2
 
-## Aufgabe 3
+Ueberschreiben beschreibt zuerst die Struktur entlang einer Vererbung. `virtual` sorgt dann dafuer, dass die Auswahl der passenden Implementierung spaeter und am echten Objekt orientiert erfolgen kann.
 
-Ein typisches Missverstaendnis ist, dass jedes Ueberschreiben automatisch polymorph sei. Korrekt ist: Dazu braucht es die passende virtuelle Basismethode.
+### Aufgabe 3
+
+Ein typisches Missverstaendnis ist, dass jede ueberschriebene Methode automatisch polymorph wirkt. Ruhiger gedacht wird sie erst dann zur Laufzeit passend gewaehlt, wenn `virtual` die spaete Bindung erlaubt.

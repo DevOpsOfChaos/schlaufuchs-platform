@@ -12,7 +12,7 @@ learningGoals:
   - Du beschreibst, warum die Regel nicht bei jedem Element sichtbar gleich wirkt.
   - Du begründest Zentrierung über verfügbaren Außenraum statt über bloßes Ausprobieren.
 practiceIdeas:
-  - Vergleiche ein breitenbegrenztes Blockelement mit einem Inline-Element.
+  - Vergleiche ein breitenbegrenztes Blockelement mit einem Element ohne freien Außenraum.
   - Prüfe bei einer Karte zuerst, ob sie überhaupt freie Außenfläche zum Verteilen hat.
   - Lies Zentrierung eher als Randverteilung als als optischen Trick.
 commonMistakes:
@@ -26,7 +26,7 @@ keyTakeaways:
 recognizeSignals:
   - Es geht um mittig stehende Karten, Container oder Lesespalten.
   - Du sollst erklären, warum etwas trotz margin auto nicht zentriert wirkt.
-  - In Beispielen ist der freie Raum wichtiger als die Farbe des Elements.
+  - In Beispielen ist der freie Raum wichtiger als die Zahl in der Regel.
 selfCheckPoints:
   - Kann ich erklären, wann margin auto sichtbar wirkt?
   - Kann ich begründen, warum ein Element dazu eine steuerbare Breite braucht?
@@ -42,7 +42,7 @@ draft: false
 
 ## Grundidee
 
-Wenn viele Leute „zentrieren“ sagen, meinen sie oft nur das sichtbare Ergebnis. <code>margin: 0 auto;</code> ist aber interessanter, wenn man es als **Verteilung von freiem Außenraum** liest.
+Wenn viele Leute „zentrieren“ sagen, meinen sie oft nur das sichtbare Ergebnis. `margin: 0 auto;` wird verständlicher, wenn man es als **Verteilung von freiem Außenraum** liest.
 
 <div class="example-card">
   <p class="card-kicker">Leitbeispiel</p>
@@ -52,13 +52,13 @@ Wenn viele Leute „zentrieren“ sagen, meinen sie oft nur das sichtbare Ergebn
 
 ## Was margin auto eigentlich tut
 
-Wenn seitlich freier Platz vorhanden ist, kann <code>auto</code> diesen Außenraum verteilen. Bei einer klassischen Lesespalte heißt das oft:
+Wenn seitlich freier Platz vorhanden ist, kann `auto` diesen Außenraum verteilen. Bei einer klassischen Lesespalte heißt das oft:
 
 - die Box hat eine begrenzte Breite,
 - der Rest bleibt frei,
 - und dieser freie Raum wird links und rechts gleich verteilt.
 
-## Mini-Demo: gleiche Karte, unterschiedliche Wirkung
+## Mini-Demo: gleiche Regel, unterschiedliche Wirkung
 
 <div class="figure-card">
   <p class="card-kicker">Mini-Seite in der Seite</p>
@@ -72,30 +72,28 @@ Wenn seitlich freier Platz vorhanden ist, kann <code>auto</code> diesen Außenra
       <p style="margin:0.55rem 0 0;">Hier ist seitlich Platz übrig. Genau dieser Raum wird verteilt.</p>
     </div>
     <div style="padding:0.9rem; border:1px dashed #94a3b8; border-radius:16px; background:#f8fafc;">
-      <p style="margin:0 0 0.45rem;"><strong>Element ohne sinnvolle Begrenzung</strong></p>
+      <p style="margin:0 0 0.45rem;"><strong>Kaum freier Außenraum</strong></p>
       <div style="background:white; padding:0.9rem; border:1px solid #e2e8f0; border-radius:12px;">
-        <div style="margin:0 auto; padding:0.8rem; border-radius:12px; background:#dcfce7; font-weight:700; text-align:center;">Ich fülle fast alles</div>
+        <div style="width:100%; margin:0 auto; padding:0.8rem; border-radius:12px; background:#dcfce7; font-weight:700; text-align:center; box-sizing:border-box;">Ich fülle fast alles</div>
       </div>
       <p style="margin:0.55rem 0 0;">Wenn praktisch kein freier Außenraum übrig bleibt, sieht man auch keine klare Zentrierungswirkung.</p>
     </div>
   </div>
 </div>
 
-## Warum es bei Inline-Elementen oft nicht reicht
-
-Ein Inline-Element ist keine normale Flächenbox wie eine typische Karte oder Lesespalte. Darum ist es unruhig, margin auto einfach überall auszuprobieren, ohne das Grundverhalten mitzudenken.
+## Wo die eigentliche Ursache oft liegt
 
 <div class="compare-card">
-  <p class="card-kicker">Wichtiger Unterschied</p>
-  <h3>Zentrierung ist nicht nur ein CSS-Spruch</h3>
+  <p class="card-kicker">Wichtige Lesart</p>
+  <h3>Zentrierungsproblem oder Breitenproblem?</h3>
   <div class="compare-grid">
     <div class="compare-item">
-      <strong>Breitenbegrenztes Blockelement</strong>
-      <span>Hier kann seitlicher Außenraum sichtbar verteilt werden.</span>
+      <strong>Typischer Irrtum</strong>
+      <span>Die Regel wirkt nicht, also muss margin auto falsch sein.</span>
     </div>
     <div class="compare-item">
-      <strong>Inline-Element</strong>
-      <span>Hier fehlt oft die ruhige Boxlogik, auf die sich margin auto sichtbar beziehen könnte.</span>
+      <strong>Ruhigere Deutung</strong>
+      <span>Oft fehlt nicht die Regel, sondern der freie Außenraum, den sie verteilen könnte.</span>
     </div>
   </div>
 </div>
@@ -111,9 +109,9 @@ Ein Inline-Element ist keine normale Flächenbox wie eine typische Karte oder Le
 
 1. Hat das Element eine sinnvolle Breite oder Max-Breite?
 2. Bleibt links und rechts überhaupt freier Außenraum übrig?
-3. Ist das Element eine Box, bei der Außenränder sichtbar wirken?
+3. Ist das Element eine sichtbare Box, bei der Außenränder wirken?
 4. Erst danach über alternative Zentrierungswege nachdenken.
 
 <div class="note-panel">
-  <p><strong>Merke:</strong> <code>margin: auto</code> „zentriert“ nicht magisch. Es verteilt freien Außenraum.</p>
+  <p><strong>Merke:</strong> <code>margin: auto</code> zentriert nicht magisch. Es verteilt freien Außenraum.</p>
 </div>

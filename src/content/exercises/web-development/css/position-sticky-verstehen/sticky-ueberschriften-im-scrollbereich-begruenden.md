@@ -8,6 +8,7 @@ topicPath:
   - responsive-layouts
   - position-sticky-verstehen
   - sticky-ueberschriften-im-scrollbereich-begruenden
+taskId: WEB-CSS-POS-202
 level: mittel
 draft: false
 tags:
@@ -15,14 +16,14 @@ tags:
   - sticky
   - scroll
 hintPoints:
-  - "Frage zuerst, in welchem Bereich überhaupt gescrollt wird."
-  - "Vergleiche bereichsbezogenes Haften mit globalem Festsetzen am Viewport."
+  - Frage zuerst, in welchem Bereich überhaupt gescrollt wird.
+  - Vergleiche bereichsbezogenes Haften mit globalem Festsetzen am Viewport.
 selfCheckPoints:
-  - "Kannst du sticky und fixed fachlich trennen?"
-  - "Kannst du den relevanten Scrollbereich benennen?"
+  - Kannst du sticky und fixed fachlich trennen?
+  - Kannst du den relevanten Scrollbereich benennen?
 transferIdeas:
-  - "Übertrage die Logik auf Filterleisten, Inhaltsverzeichnisse oder Bereichstitel."
-reflectionPrompt: "Woran merkst du, dass ein Element Orientierung im Scrollverlauf geben soll und nicht dauerhaft global sichtbar sein muss?"
+  - Übertrage die Logik auf Filterleisten, Inhaltsverzeichnisse oder Bereichstitel.
+reflectionPrompt: Woran merkst du, dass ein Element Orientierung im Scrollverlauf geben soll und nicht dauerhaft global sichtbar sein muss?
 ---
 
 ## Aufgabe 1: Haftlogik beschreiben

@@ -16,25 +16,26 @@ tags:
   - aufgabe
   - programmierung
   - oop
+  - konstruktor
 hintPoints:
-  - Lies zuerst ruhig, welche Klassenebene oder Objektrolle hier gemeint ist.
-  - Trenne Begriffe sauber, bevor du Beispiele deutest.
+  - Frage zuerst, wie viele Startwege es gibt.
+  - Trenne bequemen Einstieg und eigentliche Initialisierung.
 selfCheckPoints:
-  - Habe ich die Schluesselbegriffe fachlich sauber getrennt?
-  - Habe ich meine Begruendung in ganzen Saetzen formuliert?
+  - Habe ich Ueberladung und Delegation sauber getrennt?
+  - Habe ich den Kernkonstruktor erkannt?
 transferIdeas:
   - Uebertrage dieselbe Denklogik auf ein eigenes Klassenbeispiel.
-reflectionPrompt: "Welche Begriffsverwechslung waere hier am wahrscheinlichsten gewesen?"
+reflectionPrompt: Welche Begriffsverwechslung waere hier am wahrscheinlichsten gewesen?
 ---
 
-## Aufgabe 1: Grundidee erklaeren
+## Aufgabe 1: Mehrere Startwege deuten
 
-Erklaere in 2-3 Saetzen die Kernidee von **Konstruktoren weiterleiten und ueberladen**.
+Erklaere in 2 bis 4 Saetzen, warum mehrere Konstruktoren noch nicht automatisch doppelte Initialisierung bedeuten.
 
-## Aufgabe 2: Vergleich sauber machen
+## Aufgabe 2: Delegation benennen
 
-Beschreibe in 2-4 Saetzen den wichtigsten Unterschied oder die wichtigste Aufgabentrennung in diesem Thema.
+Beschreibe, woran du erkennst, dass ein Konstruktor nur weiterleitet und die eigentliche Arbeit an anderer Stelle liegt.
 
-## Aufgabe 3: Beispiel deuten
+## Aufgabe 3: Vergleich sauber machen
 
-Formuliere ein eigenes kleines Beispiel oder deute ein moegliches Klassenbeispiel in Worten. Benenne dabei die Rolle der beteiligten Elemente fachlich sauber.
+Erklaere kurz den Unterschied zwischen Ueberladung und Delegation.

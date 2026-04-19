@@ -8,6 +8,7 @@ topicPath:
   - navigation-und-menues
   - header-main-footer-und-nav-strukturieren
   - dokumentbereiche-nach-rolle-ordnen
+taskId: WEB-HTML-CORE-102
 level: einfach
 draft: false
 tags:
@@ -15,19 +16,20 @@ tags:
   - semantik
   - nav
 hintPoints:
-  - "Beschreibe die Bereiche über ihre Aufgabe, nicht über ihre Position."
-  - "Frage bei main: Worum geht es auf dieser Seite hauptsächlich?"
+  - Beschreibe die Bereiche über ihre Aufgabe und nicht über ihre Position.
+  - Frage bei main, worum es auf dieser Seite hauptsächlich geht.
 selfCheckPoints:
-  - "Kannst du Navigation und Hauptinhalt fachlich trennen?"
-  - "Kannst du header und footer funktional erklären?"
+  - Kannst du Navigation und Hauptinhalt fachlich trennen?
+  - Kannst du header und footer funktional erklären?
 transferIdeas:
-  - "Übertrage die Logik auf eine Kursseite, eine Shopseite oder eine Projektübersicht."
-reflectionPrompt: "Woran merkst du, dass ein Bereich zur Orientierung dient und nicht selbst der eigentliche Hauptinhalt ist?"
+  - Übertrage die Logik auf eine Kursseite, eine Shopseite oder eine Projektübersicht.
+reflectionPrompt: Woran merkst du, dass ein Bereich zur Orientierung dient und nicht selbst der eigentliche Hauptinhalt ist?
 ---
 
 ## Aufgabe 1: Seitengerüst beschreiben
 
 Eine Seite hat:
+
 - oben Logo und Hauptmenü,
 - in der Mitte eine Lektion mit Text und Beispiel,
 - unten Kontakt und Lizenzhinweise.

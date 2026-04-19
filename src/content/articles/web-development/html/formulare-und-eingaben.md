@@ -13,34 +13,34 @@ tags:
   - label
   - accessibility
 learningGoals:
-  - "Du verstehst den Aufbau einfacher HTML-Formulare."
-  - "Du ordnest label, input, textarea und select fachlich richtig ein."
-  - "Du erkennst, warum Beschriftung und Struktur für Nutzbarkeit und Zugänglichkeit wichtig sind."
+  - Du verstehst den Aufbau einfacher HTML-Formulare.
+  - Du ordnest label, input, textarea und select fachlich richtig ein.
+  - Du erkennst, warum Beschriftung und Struktur für Nutzbarkeit und Zugänglichkeit wichtig sind.
 practiceIdeas:
-  - "Baue ein kleines Formular mit Name, Auswahl und Freitextfeld."
-  - "Prüfe bei jedem Eingabefeld, ob ein Label sinnvoll zugeordnet ist."
-  - "Vergleiche ein Formular mit und ohne Gruppierung über fieldset und legend."
+  - Baue ein kleines Formular mit Name, Auswahl und Freitextfeld.
+  - Prüfe bei jedem Eingabefeld, ob ein Label sinnvoll zugeordnet ist.
+  - Vergleiche ein Formular mit und ohne Gruppierung über fieldset und legend.
 commonMistakes:
-  - "Formularfelder ohne klare Beschriftung anzulegen."
-  - "Nur auf das Aussehen statt auf die Funktion der Eingabeelemente zu achten."
-  - "Placeholder mit echter Beschriftung zu verwechseln."
+  - Formularfelder ohne klare Beschriftung anzulegen.
+  - Nur auf das Aussehen statt auf die Funktion der Eingabeelemente zu achten.
+  - Placeholder mit echter Beschriftung zu verwechseln.
 keyTakeaways:
-  - "Formulare strukturieren Eingaben und nicht nur das Layout."
-  - "Labels sind zentral für Verständlichkeit und Zugänglichkeit."
-  - "Unterschiedliche Eingabetypen haben unterschiedliche Aufgaben."
+  - Formulare strukturieren Eingaben und nicht nur das Layout.
+  - Labels sind zentral für Verständlichkeit und Zugänglichkeit.
+  - Unterschiedliche Eingabetypen haben unterschiedliche Aufgaben.
 recognizeSignals:
-  - "Es geht um Formulare, Eingabefelder, Auswahlfelder, Beschriftung oder Validierung."
-  - "Du sollst eine Eingabesituation nicht nur bauen, sondern in ihrer Struktur erklären."
-  - "Ein Beispiel fragt nach der Rolle von label, input, textarea oder select."
+  - Es geht um Formulare, Eingabefelder, Auswahlfelder, Beschriftung oder Gruppierung.
+  - Du sollst eine Eingabesituation nicht nur bauen, sondern in ihrer Struktur erklären.
+  - Ein Beispiel fragt nach der Rolle von label, input, textarea, select oder fieldset.
 selfCheckPoints:
-  - "Kann ich ein Formular fachlich in sinnvolle Bausteine zerlegen?"
-  - "Kann ich erklären, warum ein Label mehr ist als nur sichtbarer Text?"
-  - "Kann ich ein einfaches Formular mit passenden Elementen planen?"
+  - Kann ich ein Formular fachlich in sinnvolle Bausteine zerlegen?
+  - Kann ich erklären, warum ein Label mehr ist als nur sichtbarer Text?
+  - Kann ich ein einfaches Formular mit passenden Elementen planen?
 level: einfach
 draft: false
 ---
 
-## Warum Formulare mehr als nur Felder sind
+## Grundidee
 
 Formulare sind der Standardweg, um Nutzereingaben auf Webseiten strukturiert aufzunehmen. Sie verbinden technische Funktion, inhaltliche Klarheit und Zugänglichkeit.
 
@@ -80,7 +80,7 @@ Ein gutes Formular ist keine lose Sammlung von Kästchen, sondern eine kleine St
     <p>Ein <code>label</code> beschreibt das Eingabefeld nicht nur optisch, sondern fachlich und zugänglich.</p>
   </section>
   <section>
-    <p class="card-kicker">input / textarea / select</p>
+    <p class="card-kicker">input, textarea, select</p>
     <h3>Die eigentliche Eingabe</h3>
     <p>Je nach Aufgabe braucht ein Formular ein anderes Element – kurzes Feld, Freitext oder Auswahl.</p>
   </section>
@@ -117,32 +117,9 @@ Ein gutes Formular ist keine lose Sammlung von Kästchen, sondern eine kleine St
   </section>
 </div>
 
-## Warum Beschriftung so wichtig ist
+## Placeholder ist nur Ergänzung
 
-Ein Formular ist nur dann wirklich benutzbar, wenn klar ist,
-
-- was eingegeben werden soll,
-- welches Feld zu welcher Frage gehört,
-- und welche Angaben nötig oder optional sind.
-
-Deshalb sind Labels, Gruppierung und Hinweise keine Nebensache.
-
-## Placeholder ist kein Ersatz für Struktur
-
-Placeholder-Text kann ergänzen, aber er ersetzt keine saubere Beschriftung.
-
-<div class="comparison-grid">
-  <section>
-    <p class="card-kicker">Gute Lösung</p>
-    <h3>Label plus Hinweis</h3>
-    <p>Das Feld ist dauerhaft verständlich, auch wenn schon etwas eingegeben wurde.</p>
-  </section>
-  <section>
-    <p class="card-kicker">Schwache Lösung</p>
-    <h3>Nur Placeholder</h3>
-    <p>Die Orientierung verschwindet schnell und das Feld wird fachlich unklarer.</p>
-  </section>
-</div>
+Placeholder kann helfen, etwa mit einem Formatbeispiel. Die eigentliche Feldfrage sollte aber über ein sichtbares Label laufen. Die genaue Trennung zwischen Label und Placeholder ist ein eigenes Unterthema und wird deshalb auf einer separaten Seite vertieft.
 
 ## Gruppierung und Orientierung
 
@@ -158,16 +135,10 @@ Mit <code>fieldset</code> und <code>legend</code> lassen sich zusammengehörige 
   &lt;input id="phone" type="tel" /&gt;
 &lt;/fieldset&gt;</code></pre>
 
+## Diese Seite erklärt bewusst die Struktur, nicht die Validierung
+
+Hier geht es um Aufbau, Rollen und Beschriftung eines Formulars. Fehlermeldungen, Prüfung und serverseitige Verarbeitung sind eigene Themen.
+
 <div class="note-panel">
   <p><strong>Merke:</strong> Ein Formular soll nicht nur Daten sammeln, sondern Fragen verständlich stellen. Gute HTML-Struktur macht genau diese Fragen sichtbar.</p>
-</div>
-
-<div class="practice-card wide-bleed">
-  <p class="card-kicker">Zum Anwenden</p>
-  <h3>So planst du Formulare ruhiger</h3>
-  <ul>
-    <li>Starte mit den inhaltlichen Fragen, nicht mit dem CSS.</li>
-    <li>Wähle für jede Eingabe den passenden Typ.</li>
-    <li>Prüfe anschließend, ob jedes Feld verständlich beschriftet ist.</li>
-  </ul>
 </div>

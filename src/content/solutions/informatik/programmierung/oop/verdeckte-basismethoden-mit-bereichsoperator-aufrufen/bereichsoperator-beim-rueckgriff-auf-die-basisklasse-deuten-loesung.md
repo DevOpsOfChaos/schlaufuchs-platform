@@ -1,31 +1,31 @@
 ---
-title: Musterloesung - Bereichsoperator beim Rueckgriff auf die Basisklasse deuten
-description: Musterloesung zur Aufgabe INF-PROG-OOP-020.
+title: Loesung – Bereichsoperator beim Rueckgriff auf die Basisklasse deuten
+description: Musterloesung zur Aufgabe ueber verdeckte Basismethoden und qualifizierten Zugriff.
 subject: informatik
 section: Programmierung
 topicPath:
   - programmierung
   - oop
   - verdeckte-basismethoden-mit-bereichsoperator-aufrufen
-  - bereichsoperator-beim-rueckgriff-auf-die-basisklasse-deuten-loesung
 taskId: INF-PROG-OOP-020
-relatedExercise: src/content/exercises/informatik/programmierung/oop/verdeckte-basismethoden-mit-bereichsoperator-aufrufen/bereichsoperator-beim-rueckgriff-auf-die-basisklasse-deuten.md
+relatedExercise: informatik/programmierung/oop/verdeckte-basismethoden-mit-bereichsoperator-aufrufen/bereichsoperator-beim-rueckgriff-auf-die-basisklasse-deuten
 tags:
   - informatik
-  - programmierung
   - oop
   - loesung
 draft: false
 ---
 
-## Aufgabe 1
+## Musterloesung
 
-Der Bereichsoperator zeigt, dass bewusst auf die Methode einer bestimmten Oberklasse zugegriffen wird. Er macht verdeckte Basismethoden wieder gezielt erreichbar.
+### Aufgabe 1
 
-## Aufgabe 2
+Ein Aufruf mit Klassenname und Bereichsoperator macht sichtbar, dass nicht die naechstliegende Methode der Unterklasse gemeint ist, sondern bewusst die Variante aus einer bestimmten Basisklasse.
 
-Die wichtigste Unterscheidung ist: Ein normaler Aufruf folgt der aktuellen Sicht der Unterklasse, ein qualifizierter Aufruf springt bewusst zu einer Klassenebene zurueck.
+### Aufgabe 2
 
-## Aufgabe 3
+Beim normalen Methodenaufruf gilt zuerst die aktuelle Sicht der Klasse. Der qualifizierte Aufruf mit Bereichsoperator fuehrt dagegen bewusst zu einer bestimmten Klassenebene zurueck.
 
-Ein typisches Missverstaendnis ist, dass verdeckte Basismethoden ganz verschwinden. Korrekt ist: Sie koennen explizit wieder angesprochen werden.
+### Aufgabe 3
+
+Eine verdeckte Basismethode ist nicht verschwunden. Sie wird nur nicht mehr als naechstliegende Standardvariante gesehen und kann deshalb gezielt qualifiziert aufgerufen werden.

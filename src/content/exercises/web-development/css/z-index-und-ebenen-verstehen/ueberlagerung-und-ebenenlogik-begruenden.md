@@ -8,6 +8,7 @@ topicPath:
   - responsive-layouts
   - z-index-und-ebenen-verstehen
   - ueberlagerung-und-ebenenlogik-begruenden
+taskId: WEB-CSS-POS-203
 level: einfach
 draft: false
 tags:
@@ -15,17 +16,17 @@ tags:
   - z-index
   - ebene
 hintPoints:
-  - "Frage zuerst, ob sich die Elemente überhaupt überlagern."
-  - "Trenne Ort und Ebene sauber voneinander."
-  - "Begründe, welches Element im Vordergrund sichtbar bleiben soll."
+  - Frage zuerst, ob sich die Elemente überhaupt überlagern.
+  - Trenne Ort und Ebene sauber voneinander.
+  - Begründe, welches Element im Vordergrund sichtbar bleiben soll.
 selfCheckPoints:
-  - "Hast du Position und Ebenenreihenfolge getrennt erklärt?"
-  - "Ist klar, warum z-index hier sichtbar relevant wird?"
-  - "Beschreibst du die Wirkung statt nur eine Zahl zu nennen?"
+  - Hast du Position und Ebenenreihenfolge getrennt erklärt?
+  - Ist klar, warum z-index hier sichtbar relevant wird?
+  - Beschreibst du die Wirkung statt nur eine Zahl zu nennen?
 transferIdeas:
-  - "Übertrage die Logik auf Tooltips, Menüs, Badges oder Bildbeschriftungen."
-  - "Vergleiche eine Überlagerung mit einem normalen Flusslayout ohne Ebenenkonflikt."
-reflectionPrompt: "Woran merkst du bei einem Layoutproblem, dass nicht die Position fehlt, sondern die sichtbare Ebenenreihenfolge?"
+  - Übertrage die Logik auf Tooltips, Menüs, Badges oder Bildbeschriftungen.
+  - Vergleiche eine Überlagerung mit einem normalen Flusslayout ohne Ebenenkonflikt.
+reflectionPrompt: Woran merkst du bei einem Layoutproblem, dass nicht die Position fehlt, sondern die sichtbare Ebenenreihenfolge?
 ---
 
 ## Aufgabe 1: Was liegt sichtbar oben?

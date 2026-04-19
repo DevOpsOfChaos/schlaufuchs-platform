@@ -8,6 +8,7 @@ topicPath:
   - responsive-layouts
   - margin-auto-und-zentrierung-verstehen
   - freien-aussenraum-bei-zentrierung-begruenden
+taskId: WEB-CSS-LAYOUT-203
 level: einfach
 draft: false
 tags:
@@ -16,8 +17,8 @@ tags:
   - auto
   - zentrierung
 hintPoints:
-  - "Frage zuerst: Gibt es überhaupt freien Raum links und rechts?"
-  - Prüfe, ob das Element eine Breitenbegrenzung hat.
+  - Frage zuerst, ob überhaupt freier Raum links und rechts vorhanden ist.
+  - Prüfe, ob das Element eine sinnvolle Breitenbegrenzung hat.
 selfCheckPoints:
   - Kannst du Zentrierung als Verteilung von Außenraum erklären?
   - Kannst du begründen, warum eine volle Breite kaum zentrierbar wirkt?
@@ -30,17 +31,17 @@ reflectionPrompt: Warum hilft es bei Zentrierungsproblemen oft mehr, zuerst übe
 
 Vergleiche diese beiden Ideen:
 
-- eine Karte mit <code>max-width: 42rem; margin: 0 auto;</code>
-- eine Box, die fast die ganze Breite einnimmt und ebenfalls <code>margin: 0 auto;</code> bekommt
+- eine Karte mit `max-width: 42rem; margin: 0 auto;`
+- eine Box, die fast die ganze Breite einnimmt und ebenfalls `margin: 0 auto;` bekommt
 
 Erkläre, bei welcher Variante Zentrierung ruhiger sichtbar wird und warum.
 
 ## Aufgabe 2: Denkfehler prüfen
 
-Jemand sagt: „Wenn <code>margin: auto</code> nicht zentriert, muss die Regel falsch sein.“
+Jemand sagt: „Wenn `margin: auto` nicht zentriert, muss die Regel falsch sein.“
 
 Erkläre, warum die eigentliche Ursache oft eher bei Breite und Boxverhalten liegt.
 
 ## Aufgabe 3: Eigene Begründung
 
-Formuliere in einem Satz, was <code>margin auto</code> fachlich eher tut als bloß „mittig machen“.
+Formuliere in einem Satz, was `margin auto` fachlich eher tut als bloß mittig machen.

@@ -1,6 +1,6 @@
 ---
 title: em, rem und px vergleichen
-description: Verstehe, wie sich px, em und rem als CSS-Längeneinheiten unterscheiden und warum ihr Bezugspunkt für Schriftgrößen und Abstände entscheidend ist.
+description: Verstehe, wie sich px, em und rem als CSS-Einheiten unterscheiden und warum ihr Bezugspunkt für Größen und Abstände entscheidend ist.
 subject: web-development
 section: CSS
 topicPath:
@@ -14,7 +14,7 @@ learningGoals:
 practiceIdeas:
   - Vergleiche dieselbe Box mit px-, em- und rem-Werten.
   - Prüfe bei verschachtelten Komponenten, wo ein relativer Bezug hilfreich ist.
-  - "Frage bei einer Schrift- oder Abstandseinheit zuerst: Woran hängt dieser Wert?"
+  - Lies eine Einheit zuerst über ihren Bezugspunkt und erst danach über ihre Zahl.
 commonMistakes:
   - em und rem als fast identisch zu behandeln.
   - nur Zahlen zu sehen und nicht den Bezugspunkt.
@@ -43,15 +43,15 @@ draft: false
 
 ## Grundidee
 
-CSS-Einheiten sind nicht nur Zahlen mit Anhängsel. Sie sagen auch etwas darüber aus, **woran sich eine Größe orientiert**. Genau deshalb ist der Unterschied zwischen <code>px</code>, <code>em</code> und <code>rem</code> didaktisch wichtig.
+CSS-Einheiten sind nicht nur Zahlen mit Anhängsel. Sie sagen auch etwas darüber aus, **woran sich eine Größe orientiert**. Genau deshalb ist der Unterschied zwischen `px`, `em` und `rem` didaktisch wichtig.
 
 <div class="example-card">
   <p class="card-kicker">Leitbeispiel</p>
   <h3>Drei Karten mit scheinbar ähnlichem Abstand</h3>
-  <p>Alle drei Karten bekommen „ungefähr denselben“ Innenabstand. Trotzdem reagieren sie unterschiedlich, sobald Schriftgrößen oder Kontexte verändert werden. Der Grund liegt nicht in der Farbe oder Form, sondern im <strong>Bezugspunkt der Einheit</strong>.</p>
+  <p>Alle drei Karten bekommen ungefähr denselben Innenabstand. Trotzdem reagieren sie unterschiedlich, sobald Schriftgrößen oder Kontexte verändert werden. Der Grund liegt nicht in der Form, sondern im <strong>Bezugspunkt der Einheit</strong>.</p>
 </div>
 
-## Die drei Denkweisen
+## Die drei Bezugspunkte
 
 <div class="visual-grid">
   <div class="visual-item">
@@ -98,9 +98,9 @@ CSS-Einheiten sind nicht nur Zahlen mit Anhängsel. Sie sagen auch etwas darübe
   </div>
 </div>
 
-## Warum em manchmal „stärker“ reagiert
+## Warum em manchmal stärker reagiert
 
-Wenn eine Komponente selbst eine größere Schriftgröße hat, wächst bei <code>em</code> oft auch der Abstand in derselben Komponente. Das ist kein Fehler, sondern Teil der Logik.
+Wenn eine Komponente selbst eine größere Schriftgröße hat, wächst bei `em` oft auch der Abstand in derselben Komponente. Das ist kein Fehler, sondern Teil der Logik.
 
 <div class="compare-card">
   <p class="card-kicker">Wichtiger Vergleich</p>

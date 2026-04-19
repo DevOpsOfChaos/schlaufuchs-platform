@@ -1,6 +1,6 @@
 ---
 title: Grundverhalten von Elementen sichtbar vergleichen
-description: Vergleiche, wie dieselben Inhalte als block, inline oder inline-block reagieren, und begründe die passende Wahl.
+description: Vergleiche block, inline und inline-block über ihr sichtbares Verhalten im Seitenfluss.
 subject: web-development
 section: CSS
 topicPath:
@@ -8,7 +8,7 @@ topicPath:
   - responsive-layouts
   - display-block-inline-und-inline-block-verstehen
   - grundverhalten-von-elementen-sichtbar-vergleichen
-taskId: WEB-CSS-DISPLAY-001
+taskId: WEB-CSS-LAYOUT-201
 level: einfach
 draft: false
 tags:
@@ -16,37 +16,34 @@ tags:
   - display
   - layout
 hintPoints:
-  - "Frage zuerst, ob das Element im Textfluss bleiben soll oder eine neue Zeile braucht."
-  - "Achte nicht nur auf Farben, sondern auf Umbruch und Boxverhalten."
-  - "Begründe die Wahl aus Sicht des Layouts, nicht aus Gewohnheit."
+  - Frage zuerst, ob das Element im Textfluss bleiben oder wie eine eigene Box wirken soll.
+  - Beschreibe das sichtbare Verhalten und nicht nur den Fachbegriff.
 selfCheckPoints:
-  - "Hast du sichtbar beschrieben, wie sich die Varianten unterscheiden?"
-  - "Benennst du Textfluss und neue Zeile sauber?"
-  - "Ist klar, warum inline-block oft für kleine UI-Bausteine hilfreich ist?"
+  - Kannst du block, inline und inline-block sichtbar unterscheiden?
+  - Kannst du erklären, wann ein Element eine neue Zeile beginnt?
 transferIdeas:
-  - "Übertrage die Aufgabe auf Navigationslinks, Badges oder kleine Produktchips."
-  - "Vergleiche ein Inline-Element im Satz mit einem Button in einer Leiste."
-reflectionPrompt: "Woran merkst du in einem Layout zuerst, dass nicht padding, sondern display das eigentliche Problem ist?"
+  - Übertrage die Aufgabe auf Links, Buttons, Badges oder kleine Navigationsleisten.
+reflectionPrompt: Welche Beobachtung hilft dir mehr als der Fachbegriff allein, um display ruhig zu verstehen?
 ---
 
-## Aufgabe 1: Wirkung beschreiben
+## Aufgabe 1: Sichtbar vergleichen
 
-Drei identische Links werden einmal als <code>block</code>, einmal als <code>inline</code> und einmal als <code>inline-block</code> dargestellt.
+Derselbe Inhalt wird einmal als `block`, einmal als `inline` und einmal als `inline-block` dargestellt.
 
-Beschreibe für jede Variante:
+Erkläre für jede Variante,
 
-- ob die Links eher untereinander oder im Fluss liegen,
-- wie stark sie wie eigene Boxen wirken,
-- und welche Variante für kleine klickbare Badges am passendsten ist.
+- wie sie im Seitenfluss wirkt,
+- ob sie eher wie Wort oder Box erscheint,
+- und wann diese Darstellungsform sinnvoll wäre.
 
-## Aufgabe 2: Auswahl begründen
+## Aufgabe 2: Denkfehler prüfen
 
-Eine kleine Navigationsleiste soll aus drei nebeneinander stehenden Links bestehen. Jeder Link soll Innenabstand haben und wie ein eigener kleiner Baustein wirken.
+Jemand sagt: „Inline ist einfach die kleine Version von block.“
 
-Begründe, warum <code>inline-block</code> hier oft näherliegt als reines <code>inline</code>.
+Erkläre, warum das fachlich zu kurz gedacht ist.
 
-## Aufgabe 3: Denkfehler prüfen
+## Aufgabe 3: Entscheidung begründen
 
-Jemand sagt: „Block ist einfach die große Version von Inline.“
+Ein kleiner Link soll wie ein kompakter Button im Fluss mitlaufen.
 
-Erkläre, warum diese Aussage zu kurz greift und warum es eigentlich um unterschiedliches Layoutverhalten geht.
+Begründe, warum `inline-block` hier oft ruhiger passt als `inline`.

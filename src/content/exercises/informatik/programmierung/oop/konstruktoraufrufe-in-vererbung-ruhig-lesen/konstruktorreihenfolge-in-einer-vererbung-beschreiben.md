@@ -16,25 +16,28 @@ tags:
   - aufgabe
   - programmierung
   - oop
+  - vererbung
 hintPoints:
-  - Lies zuerst ruhig, welche Klassenebene oder Objektrolle hier gemeint ist.
-  - Trenne Begriffe sauber, bevor du Beispiele deutest.
+  - Lies zuerst ruhig, welche Klasse Basis und welche Ableitung ist.
+  - Trenne Vererbungsaufruf und Delegation derselben Klasse.
 selfCheckPoints:
-  - Habe ich die Schluesselbegriffe fachlich sauber getrennt?
-  - Habe ich meine Begruendung in ganzen Saetzen formuliert?
+  - Habe ich die Reihenfolge klar benannt?
+  - Habe ich Konstruktoren und Vererbung nicht vermischt?
 transferIdeas:
   - Uebertrage dieselbe Denklogik auf ein eigenes Klassenbeispiel.
-reflectionPrompt: "Welche Begriffsverwechslung waere hier am wahrscheinlichsten gewesen?"
+reflectionPrompt: Welche Stelle im Ablauf zeigt am deutlichsten, dass zuerst die Basisklasse vorbereitet werden muss?
 ---
 
-## Aufgabe 1: Grundidee erklaeren
+## Aufgabe 1: Reihenfolge benennen
 
-Erklaere in 2-3 Saetzen die Kernidee von **Konstruktoraufrufe in Vererbung ruhig lesen**.
+Erklaere in 2 bis 4 Saetzen, warum bei einem Objekt der Unterklasse zuerst der Basisklassenteil vorbereitet wird.
 
-## Aufgabe 2: Vergleich sauber machen
+## Aufgabe 2: Denkfehler pruefen
 
-Beschreibe in 2-4 Saetzen den wichtigsten Unterschied oder die wichtigste Aufgabentrennung in diesem Thema.
+Jemand sagt, die Unterklasse werde zuerst konstruiert und die Basisklasse spaeter einfach ergaenzt.
 
-## Aufgabe 3: Beispiel deuten
+Erklaere, warum das fachlich unruhig gedacht ist.
 
-Formuliere ein eigenes kleines Beispiel oder deute ein moegliches Klassenbeispiel in Worten. Benenne dabei die Rolle der beteiligten Elemente fachlich sauber.
+## Aufgabe 3: Begriffe trennen
+
+Beschreibe kurz den Unterschied zwischen einem Basisklassenaufruf und Konstruktor-Delegation.

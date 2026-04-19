@@ -1,31 +1,31 @@
 ---
-title: Musterloesung - Delegierte Konstruktoren im Ablauf erklaeren
-description: Musterloesung zur Aufgabe INF-PROG-OOP-008.
+title: Loesung – Delegierte Konstruktoren im Ablauf erklaeren
+description: Musterloesung zur Aufgabe ueber ueberladene und delegierte Konstruktoren.
 subject: informatik
 section: Programmierung
 topicPath:
   - programmierung
   - oop
   - konstruktoren-weiterleiten-und-ueberladen-verstehen
-  - delegierte-konstruktoren-im-ablauf-erklaeren-loesung
 taskId: INF-PROG-OOP-008
-relatedExercise: src/content/exercises/informatik/programmierung/oop/konstruktoren-weiterleiten-und-ueberladen-verstehen/delegierte-konstruktoren-im-ablauf-erklaeren.md
+relatedExercise: informatik/programmierung/oop/konstruktoren-weiterleiten-und-ueberladen-verstehen/delegierte-konstruktoren-im-ablauf-erklaeren
 tags:
   - informatik
-  - programmierung
   - oop
   - loesung
 draft: false
 ---
 
-## Aufgabe 1: Grundidee erklaeren
+## Musterloesung
 
-Ueberladene Konstruktoren erlauben verschiedene Arten, ein Objekt zu erzeugen, zum Beispiel ohne Parameter, mit einem Parameter oder mit mehreren Parametern.
+### Aufgabe 1
 
-## Aufgabe 2: Vergleich sauber machen
+Mehrere Konstruktoren bedeuten zuerst nur, dass es mehrere Startwege gibt. Wenn delegiert wird, landet die eigentliche Initialisierung trotzdem gesammelt in einem Kernkonstruktor.
 
-Bei der Delegation ruft ein Konstruktor einen anderen Konstruktor derselben Klasse auf. Dadurch wird die eigentliche Initialisierung an einer zentralen Stelle gebuendelt.
+### Aufgabe 2
 
-## Aufgabe 3: Beispiel deuten
+Ein Konstruktor leitet nur weiter, wenn er selbst kaum Logik traegt und stattdessen an einen anderen Konstruktor derselben Klasse verweist. Der Kernkonstruktor ist dort, wo Attribute wirklich gesetzt oder zentrale Startwerte vorbereitet werden.
 
-Das macht den Code ruhiger, weil nicht jeder Konstruktor dieselben Attributzuweisungen noch einmal separat enthalten muss.
+### Aufgabe 3
+
+Ueberladung meint mehrere Konstruktoren mit unterschiedlichen Parameterlisten. Delegation meint, dass einer dieser Konstruktoren einen anderen Konstruktor derselben Klasse aufruft.

@@ -1,31 +1,31 @@
 ---
-title: Musterlösung – foreach bei numerischen und assoziativen Arrays richtig lesen
-description: Musterlösung zur Aufgabe INF-PHP-ARRAYS-002.
+title: Loesung – foreach bei numerischen und assoziativen Arrays richtig lesen
+description: Musterloesung zur Aufgabe ueber foreach bei Listen und assoziativen Arrays.
 subject: informatik
 section: Programmierung
 topicPath:
   - programmierung
   - php
   - array-schleifen-mit-foreach-in-php-verstehen
-  - foreach-bei-numerischen-und-assoziativen-arrays-richtig-lesen-loesung
 taskId: INF-PHP-ARRAYS-002
-relatedExercise: src/content/exercises/informatik/programmierung/php/array-schleifen-mit-foreach-in-php-verstehen/foreach-bei-numerischen-und-assoziativen-arrays-richtig-lesen.md
+relatedExercise: informatik/programmierung/php/array-schleifen-mit-foreach-in-php-verstehen/foreach-bei-numerischen-und-assoziativen-arrays-richtig-lesen
 tags:
   - informatik
-  - loesung
   - php
-  - task-id
+  - loesung
 draft: false
 ---
 
-## Aufgabe 1
+## Musterloesung
 
-In der ersten Form wird pro Durchlauf nur der Wert gelesen. In der zweiten Form werden Schlüssel und Wert gemeinsam gelesen.
+### Aufgabe 1
 
-## Aufgabe 2
+Die erste Form liest nur die Werte eines Arrays nacheinander. Die zweite Form liest bei einem assoziativen Array sowohl den Schluessel als auch den zugehoerigen Wert.
 
-Im zweiten Durchlauf steckt der Wert <code>"B"</code> in <code>$wert</code>.
+### Aufgabe 2
 
-## Aufgabe 3
+Im zweiten Durchlauf steckt hier <code>"B"</code> in <code>$wert</code>.
 
-Weil <code>foreach</code> direkt über die vorhandenen Daten läuft. Die Schleife muss nicht erst einen eigenen Index verwalten.
+### Aufgabe 3
+
+<code>foreach</code> ist hier ruhiger, weil die Datenliste schon vorliegt und kein eigener Index verwaltet werden muss. Der Fokus liegt direkt auf den Elementen statt auf der Schleifensteuerung.

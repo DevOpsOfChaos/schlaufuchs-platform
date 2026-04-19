@@ -1,31 +1,31 @@
 ---
-title: Musterloesung - Konstruktorreihenfolge in einer Vererbung beschreiben
-description: Musterloesung zur Aufgabe INF-PROG-OOP-009.
+title: Loesung – Konstruktorreihenfolge in einer Vererbung beschreiben
+description: Musterloesung zur Aufgabe ueber Basisklasse, Unterklasse und Reihenfolge.
 subject: informatik
 section: Programmierung
 topicPath:
   - programmierung
   - oop
   - konstruktoraufrufe-in-vererbung-ruhig-lesen
-  - konstruktorreihenfolge-in-einer-vererbung-beschreiben-loesung
 taskId: INF-PROG-OOP-009
-relatedExercise: src/content/exercises/informatik/programmierung/oop/konstruktoraufrufe-in-vererbung-ruhig-lesen/konstruktorreihenfolge-in-einer-vererbung-beschreiben.md
+relatedExercise: informatik/programmierung/oop/konstruktoraufrufe-in-vererbung-ruhig-lesen/konstruktorreihenfolge-in-einer-vererbung-beschreiben
 tags:
   - informatik
-  - programmierung
   - oop
   - loesung
 draft: false
 ---
 
-## Aufgabe 1: Grundidee erklaeren
+## Musterloesung
 
-Konstruktoren werden nicht vererbt. Die Unterklasse bekommt also nicht einfach den Konstruktor der Oberklasse als eigenen Konstruktor.
+### Aufgabe 1
 
-## Aufgabe 2: Vergleich sauber machen
+Der Basisklassenteil gehoert bereits zum Objekt der Unterklasse. Deshalb muss er zuerst vorbereitet werden, bevor die Spezialisierung der Unterklasse sinnvoll aufgebaut werden kann.
 
-Beim Erzeugen eines Objekts einer Unterklasse wird zuerst der Basisklassenteil vorbereitet. Deshalb wird der Konstruktor der Oberklasse vor dem Konstruktor der Unterklasse ausgefuehrt.
+### Aufgabe 2
 
-## Aufgabe 3: Beispiel deuten
+Die Unterklasse wird nicht zuerst fertig konstruiert und die Basisklasse spaeter angehaengt. Ruhiger gedacht ist, dass zuerst das Fundament der Basisklasse entsteht und darauf danach der Unterklassenteil aufgebaut wird.
 
-Erst danach ist das neue Objekt als Ganzes sinnvoll aufgebaut, weil sowohl der geerbte als auch der spezialisierte Teil initialisiert wurden.
+### Aufgabe 3
+
+Ein Basisklassenaufruf betrifft die Initialisierung einer Oberklasse in einer Vererbungshierarchie. Delegation betrifft dagegen nur Konstruktoren derselben Klasse.

@@ -10,7 +10,7 @@ topicPath:
 learningGoals:
   - Du erklärst den Unterschied zwischen width und max-width.
   - Du beschreibst, warum feste Breiten auf kleinen Bildschirmen problematisch sein können.
-  - Du liest responsive Breiten ruhiger über Begrenzung statt Zwang.
+  - Du liest responsive Breiten eher über Begrenzung als über Zwang.
 practiceIdeas:
   - Vergleiche eine Box mit fester Breite und eine Box mit sinnvoller Obergrenze.
   - Prüfe bei Bildern oder Formularen, ob etwas zu breit wird oder nur bis zu einer Grenze wachsen soll.
@@ -22,7 +22,7 @@ commonMistakes:
 keyTakeaways:
   - width erzwingt eine konkrete Breite, max-width setzt eine Obergrenze.
   - max-width ist oft ruhiger für responsive Layouts.
-  - Gute Breitenregeln lassen Platz für kleine Geräte und verhindern gleichzeitig zu breite Zeilen.
+  - Gute Breitenregeln lassen kleine Geräte atmen und verhindern gleichzeitig zu breite Zeilen.
 recognizeSignals:
   - Es geht um überbreite Boxen, Textspalten, Bilder oder Formulare.
   - Du sollst erklären, warum etwas auf einem schmalen Gerät aus dem Layout kippt.
@@ -50,7 +50,7 @@ Mit Breitenregeln steuerst du nicht nur, **wie groß etwas sein soll**, sondern 
   <p>Ein Inhaltsbereich soll auf kleinen Geräten die verfügbare Breite nutzen, auf großen Bildschirmen aber nicht endlos breit werden. Genau dort hilft <code>max-width</code>, weil es nicht erzwingt, sondern begrenzt.</p>
 </div>
 
-## Width und Max-Width unterschiedlich lesen
+## Zwei verschiedene Denkweisen
 
 <div class="compare-card">
   <p class="card-kicker">Breitenlogik</p>
@@ -80,26 +80,24 @@ Mit Breitenregeln steuerst du nicht nur, **wie groß etwas sein soll**, sondern 
     </div>
     <div style="padding:0.85rem; border:1px dashed #94a3b8; border-radius:16px; background:#f8fafc; max-width:18rem;">
       <p style="margin:0 0 0.45rem;"><strong>Begrenzt mit max-width</strong></p>
-      <div style="width:100%; max-width:18rem; padding:0.85rem; border-radius:12px; background:#dcfce7; font-weight:700; box-sizing:border-box;">Die Box darf groß werden, bleibt aber auf kleineren Flächen flexibler.</div>
+      <div style="width:100%; max-width:18rem; padding:0.85rem; border-radius:12px; background:#dcfce7; font-weight:700; box-sizing:border-box;">Die Box darf groß werden, bleibt auf kleineren Flächen aber flexibler.</div>
       <p style="margin:0.55rem 0 0;">Hier ist die Obergrenze gleich, aber die Reaktion auf wenig Platz deutlich ruhiger.</p>
     </div>
   </div>
 </div>
 
-## Zweite Mini-Demo: Zeilenlänge statt nur Boxgröße
+## Warum max-width auch Lesbarkeit schützt
 
 <div class="figure-card">
-  <p class="card-kicker">Mini-Seite in der Seite</p>
-  <h3>Warum max-width oft auch Lesbarkeit schützt</h3>
+  <p class="card-kicker">Lesespalten</p>
+  <h3>Zu breit ist nicht automatisch besser</h3>
   <div style="display:grid; gap:0.85rem;">
     <div style="padding:0.85rem; border:1px dashed #94a3b8; border-radius:16px; background:#f8fafc;">
-      <p style="margin:0 0 0.45rem;"><strong>Sehr breite Fläche</strong></p>
       <div style="padding:0.85rem; border-radius:12px; background:white; border:1px solid #cbd5e1;">
         Eine sehr breite Textfläche kann technisch möglich sein, wirkt beim Lesen aber schnell unruhig, weil die Augen weite Zeilen zurücklegen müssen.
       </div>
     </div>
     <div style="padding:0.85rem; border:1px dashed #94a3b8; border-radius:16px; background:#f8fafc;">
-      <p style="margin:0 0 0.45rem;"><strong>Begrenzte Lesespalte</strong></p>
       <div style="max-width:24rem; padding:0.85rem; border-radius:12px; background:white; border:1px solid #cbd5e1;">
         Eine mit max-width begrenzte Lesespalte nutzt den vorhandenen Platz auf kleinen Geräten und bleibt auf großen Flächen trotzdem angenehm lesbar.
       </div>

@@ -17,24 +17,26 @@ tags:
   - programmierung
   - oop
 hintPoints:
-  - Lies zuerst ruhig, welche Klassenebene oder Objektrolle hier gemeint ist.
-  - Trenne Begriffe sauber, bevor du Beispiele deutest.
+  - Schaue nicht nur auf den Namen, sondern auf die Signatur.
+  - Pruefe danach, ob Vererbung beteiligt ist.
 selfCheckPoints:
-  - Habe ich die Schluesselbegriffe fachlich sauber getrennt?
-  - Habe ich meine Begruendung in ganzen Saetzen formuliert?
+  - Habe ich gleiche Namen und gleiche Signatur nicht verwechselt?
+  - Habe ich Vererbung als eigenen Hinweis mitgedacht?
 transferIdeas:
   - Uebertrage dieselbe Denklogik auf ein eigenes Klassenbeispiel.
-reflectionPrompt: "Welche Begriffsverwechslung waere hier am wahrscheinlichsten gewesen?"
+reflectionPrompt: Welche einfache Prueffrage hilft dir am schnellsten aus der Verwechslung heraus?
 ---
 
-## Aufgabe 1: Grundidee erklaeren
+## Aufgabe 1: Signatur pruefen
 
-Erklaere in 2-3 Saetzen die Kernidee von **Methoden ueberschreiben und ueberladen**.
+Erklaere in 2 bis 4 Saetzen, woran du erkennst, ob zwei gleichnamige Methoden nur ueberladen oder wirklich ueberschrieben werden.
 
-## Aufgabe 2: Vergleich sauber machen
+## Aufgabe 2: Fall unterscheiden
 
-Beschreibe in 2-4 Saetzen den wichtigsten Unterschied oder die wichtigste Aufgabentrennung in diesem Thema.
+Nenne einen typischen Fall fuer Ueberladen und einen typischen Fall fuer Ueberschreiben.
 
-## Aufgabe 3: Beispiel deuten
+## Aufgabe 3: Denkfehler korrigieren
 
-Formuliere ein eigenes kleines Beispiel oder deute ein moegliches Klassenbeispiel in Worten. Benenne dabei die Rolle der beteiligten Elemente fachlich sauber.
+Jemand sagt, gleicher Name bedeute immer Ueberschreiben.
+
+Erklaere, warum das nicht reicht.

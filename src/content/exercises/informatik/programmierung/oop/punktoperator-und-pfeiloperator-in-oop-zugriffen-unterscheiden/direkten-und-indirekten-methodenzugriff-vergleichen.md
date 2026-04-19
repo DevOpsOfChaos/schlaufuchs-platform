@@ -16,25 +16,28 @@ tags:
   - aufgabe
   - programmierung
   - oop
+  - pointer
 hintPoints:
-  - Lies zuerst ruhig, ob ein neues Objekt entsteht oder ein bestehendes genutzt wird.
-  - Benenne dann den Fachbegriff, statt nur den Code nachzusprechen.
+  - Schaue zuerst links vom Operator.
+  - Trenne Objekt und Zeiger in deiner Sprache bewusst.
 selfCheckPoints:
-  - Habe ich Objekt, Klasse und Methode sauber getrennt?
-  - Habe ich meinen Fachbegriff begruendet statt nur geraten?
+  - Habe ich direkten und indirekten Zugriff sauber getrennt?
+  - Habe ich erklaert, warum der Pfeil ein Zeigerzeichen ist?
 transferIdeas:
-  - Uebertrage dieselbe Denkweise auf ein eigenes kleines Klassenbeispiel.
-reflectionPrompt: "Welche Stelle im Beispiel war fuer mich der beste Hinweis?"
+  - Uebertrage dieselbe Denkweise auf dynamisch erzeugte Objekte mit new.
+reflectionPrompt: Welche kleine Vorfrage verhindert hier die meisten Lesefehler?
 ---
 
-## Aufgabe 1
+## Aufgabe 1: Links deuten
 
-Vergleiche Punktoperator und Pfeiloperator in kurzen Methodenaufrufen.
+Erklaere, woran du erkennst, ob ein Methodenaufruf direkt auf ein Objekt geht oder indirekt ueber einen Zeiger.
 
-## Aufgabe 2
+## Aufgabe 2: Punkt und Pfeil vergleichen
 
-Formuliere in 2-3 Saetzen die wichtigste Unterscheidung des Themas.
+Formuliere in 2 bis 4 Saetzen den Unterschied zwischen Punktoperator und Pfeiloperator.
 
-## Aufgabe 3
+## Aufgabe 3: Denkfehler korrigieren
 
-Nenne ein typisches Missverstaendnis zu diesem Thema und korrigiere es kurz.
+Jemand sagt, Punkt und Pfeil seien nur zwei Schreibstile fuer dieselbe Sache.
+
+Erklaere, warum das nicht stimmt.

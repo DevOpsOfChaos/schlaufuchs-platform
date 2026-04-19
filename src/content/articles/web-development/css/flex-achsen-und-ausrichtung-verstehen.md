@@ -1,6 +1,6 @@
 ---
 title: Flex-Achsen und Ausrichtung verstehen
-description: Verstehe, wie justify-content und align-items auf Haupt- und Kreuzachse wirken.
+description: Verstehe, wie justify-content und align-items auf Haupt- und Kreuzachse wirken und warum Flexbox zuerst als Achsenproblem gelesen werden sollte.
 subject: web-development
 section: CSS
 topicPath:
@@ -16,8 +16,8 @@ practiceIdeas:
   - Prüfe, welche Eigenschaft auf welcher Achse wirkt.
 commonMistakes:
   - justify-content und align-items zu vertauschen.
-  - Von links/rechts statt von Haupt- und Kreuzachse aus zu denken.
-  - Zu vergessen, dass flex-direction die Achsrichtung verändern kann.
+  - von links und rechts statt von Haupt- und Kreuzachse aus zu denken.
+  - zu vergessen, dass flex-direction die Achsrichtung verändern kann.
 keyTakeaways:
   - justify-content steuert die Verteilung auf der Hauptachse.
   - align-items steuert die Ausrichtung auf der Kreuzachse.
@@ -29,7 +29,7 @@ recognizeSignals:
 selfCheckPoints:
   - Kann ich Achsen statt Himmelsrichtungen denken?
   - Kann ich justify-content und align-items sicher trennen?
-  - "Kann ich erklären, was sich bei flex-direction: column ändert?"
+  - Kann ich erklären, was sich bei flex-direction column ändert?
 tags:
   - css
   - flexbox
@@ -52,7 +52,7 @@ Bei Flexbox hilft eine ruhige Denkweise: **nicht sofort links, rechts, oben oder
 
 ## flex-direction verändert die Lesart
 
-Wenn die Hauptachse durch <code>flex-direction: row</code> horizontal läuft, wirkt justify-content horizontal. Bei <code>column</code> läuft sie vertikal – und dieselbe Eigenschaft wirkt dann entsprechend anders.
+Wenn die Hauptachse durch <code>flex-direction: row</code> horizontal läuft, wirkt justify-content horizontal. Bei <code>column</code> läuft sie vertikal und dieselbe Eigenschaft wirkt dann entsprechend anders.
 
 ## Mini-Demo: Hauptachse gegen Kreuzachse
 
@@ -69,6 +69,10 @@ Wenn die Hauptachse durch <code>flex-direction: row</code> horizontal läuft, wi
   </div>
 </div>
 
+## Diese Seite erklärt bewusst nur die Ausrichtung
+
+Flexbox hat noch eine zweite Logik: **das Größenverhalten** der Items. Diese Seite behandelt nur die Achsen und Ausrichtung. Für Wachstum, Schrumpfen und Ausgangsgrößen ist die Seite zu `flex-grow`, `flex-shrink` und `flex-basis` zuständig.
+
 ## Typische Verwechslung
 
 <div class="good-bad-grid">
@@ -79,7 +83,7 @@ Wenn die Hauptachse durch <code>flex-direction: row</code> horizontal läuft, wi
   </section>
   <section>
     <p class="card-kicker">Schwach</p>
-    <h3>Nur "horizontal" oder "vertikal" merken</h3>
+    <h3>Nur horizontal oder vertikal merken</h3>
     <p>Dann kippt die Logik schnell, sobald flex-direction geändert wird.</p>
   </section>
 </div>
@@ -93,5 +97,5 @@ Wenn die Hauptachse durch <code>flex-direction: row</code> horizontal läuft, wi
 </div>
 
 <div class="note-panel">
-  <p><strong>Merke:</strong> In Flexbox ist nicht "oben" oder "links" der Startpunkt der Logik, sondern die aktuell gewählte Hauptachse.</p>
+  <p><strong>Merke:</strong> In Flexbox ist nicht oben oder links der Startpunkt der Logik, sondern die aktuell gewählte Hauptachse.</p>
 </div>

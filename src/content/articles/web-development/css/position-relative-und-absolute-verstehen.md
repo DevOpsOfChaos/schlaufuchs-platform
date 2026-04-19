@@ -1,4 +1,4 @@
-﻿---
+---
 title: Position – Relative und Absolute verstehen
 description: Verstehe, wie relative und absolute Positionierung zusammenwirken und warum der Bezugspunkt wichtiger ist als die reine Verschiebung.
 subject: web-development
@@ -22,11 +22,11 @@ commonMistakes:
 keyTakeaways:
   - relative hält ein Element im normalen Fluss, kann aber einen Bezugspunkt schaffen.
   - absolute nimmt ein Element aus dem normalen Fluss heraus.
-  - "Die wichtigste Frage lautet oft: Worauf bezieht sich diese Lage?"
+  - Die wichtigste Frage lautet: Worauf bezieht sich diese Lage?
 recognizeSignals:
   - Es geht um Badges, Ecken, Overlays oder schwebende UI-Teile.
   - Du sollst erklären, warum ein Element an einer bestimmten Stelle erscheint.
-  - In Beispielen zählt der Bezugspunkt stärker als die Dekoration.
+  - In Beispielen zählt der Bezugspunkt stärker als Farbe oder Dekoration.
 selfCheckPoints:
   - Kann ich absolute und relative fachlich unterscheiden?
   - Kann ich den Bezugspunkt einer Positionierung erklären?
@@ -42,7 +42,7 @@ draft: false
 
 ## Grundidee
 
-Positionierung wirkt oft wie ein Sichtbarkeits-Trick: ein Element sitzt oben rechts, unten links oder halb über einer Fläche. Fachlich spannender ist aber die Frage: **Worauf bezieht sich diese Lage?**
+Positionierung wirkt oft wie ein Sichtbarkeits-Trick: Ein Element sitzt oben rechts, unten links oder halb über einer Fläche. Fachlich spannender ist aber die Frage: **Worauf bezieht sich diese Lage?**
 
 <div class="example-card">
   <p class="card-kicker">Leitbeispiel</p>
@@ -55,11 +55,11 @@ Positionierung wirkt oft wie ein Sichtbarkeits-Trick: ein Element sitzt oben rec
 <div class="visual-grid">
   <div class="visual-item">
     <strong><code>position: relative</code></strong>
-    <span>Das Element bleibt im normalen Fluss, kann aber zum Bezugspunkt für absolut positionierte Kinder werden.</span>
+    <span>Das Element bleibt im normalen Fluss und kann zum Bezugspunkt für absolut positionierte Kinder werden.</span>
   </div>
   <div class="visual-item">
     <strong><code>position: absolute</code></strong>
-    <span>Das Element wird gezielt im Bezugssystem eines passenden Containers verankert.</span>
+    <span>Das Element wird aus dem normalen Fluss gelöst und gezielt in einem Bezugssystem verankert.</span>
   </div>
 </div>
 
@@ -86,7 +86,7 @@ Positionierung wirkt oft wie ein Sichtbarkeits-Trick: ein Element sitzt oben rec
   </div>
 </div>
 
-## Warum relative mehr ist als eine kleine Verschiebung
+## Relative ist oft der Anker, nicht der Effekt
 
 Viele lesen <code>position: relative</code> zuerst als „ich kann das Element etwas verschieben“. In der Praxis ist oft wichtiger, dass ein Container dadurch zum **Bezugspunkt** für absolut positionierte Kinder wird.
 
@@ -116,6 +116,16 @@ Viele lesen <code>position: relative</code> zuerst als „ich kann das Element e
   right: 0.7rem;
 }
 ```
+
+## Abgrenzung zu den Nachbarseiten
+
+Diese Seite klärt die **Flächenlage im Bezugssystem**.  
+Sie erklärt bewusst **nicht ausführlich**,
+
+- wie ein Element beim Scrollen haftet (`sticky`),
+- oder welche Ebene bei Überlagerung sichtbar vorne liegt (`z-index`).
+
+Dafür gibt es eigene Seiten, damit dieselbe Logik nicht mehrfach in leicht anderer Form wiederholt wird.
 
 ## Eine ruhige Prüfstrategie
 

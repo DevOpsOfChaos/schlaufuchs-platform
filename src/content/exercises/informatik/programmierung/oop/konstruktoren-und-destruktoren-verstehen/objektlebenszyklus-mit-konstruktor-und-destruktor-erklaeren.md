@@ -25,17 +25,17 @@ selfCheckPoints:
   - Habe ich Konstruktor und Destruktor in Worten erklaert?
 transferIdeas:
   - Uebertrage die Aufgabe auf ein Objekt mit Datei- oder Speicherverwaltung.
-reflectionPrompt: "Was war anfangs schwerer zu benennen: der Start des Objekts oder sein Ende?"
+reflectionPrompt: Was war anfangs schwerer zu benennen, der Start des Objekts oder sein Ende?
 ---
 
 ## Aufgabe 1: Start beschreiben
 
-Erklaere in 2-3 Saetzen, was der Konstruktor beim Erzeugen eines Objekts leistet.
+Erklaere in 2 bis 3 Saetzen, was der Konstruktor beim Erzeugen eines Objekts leistet.
 
 ## Aufgabe 2: Ende beschreiben
 
-Erklaere in 2-3 Saetzen, welche Rolle der Destruktor spielt.
+Erklaere in 2 bis 3 Saetzen, welche Rolle der Destruktor spielt.
 
-## Aufgabe 3: Fall unterscheiden
+## Aufgabe 3: Verantwortung unterscheiden
 
 Beschreibe den Unterschied zwischen einem automatisch erzeugten Objekt und einem mit <code>new</code> erzeugten Objekt im Hinblick auf das Ende seines Lebenszyklus.

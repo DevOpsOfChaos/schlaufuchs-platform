@@ -22,7 +22,7 @@ commonMistakes:
 keyTakeaways:
   - z-index ist für überlagernde Elemente relevant, nicht für jedes normale Layout.
   - Sichtbarkeit in der Tiefe ist etwas anderes als Position auf x- und y-Achse.
-  - Gute Ebenenlogik bleibt bewusst und sparsam.
+  - Gute Ebenenlogik bleibt bewusst, sparsam und begründet.
 recognizeSignals:
   - Es geht um Menüs, Badges, Overlays, Tooltips oder verdeckte Boxen.
   - Du sollst erklären, warum etwas hinter oder vor etwas anderem liegt.
@@ -117,15 +117,15 @@ Im Layout gibt es nicht nur links, rechts, oben und unten. Sobald sich Elemente 
 }
 ```
 
-## Wann z-index überhaupt wichtig wird
+## Abgrenzung zu den Nachbarseiten
 
-z-index wird erst relevant, wenn
+Diese Seite klärt die **sichtbare Reihenfolge in der Tiefe**.  
+Sie erklärt bewusst nicht ausführlich,
 
-- Elemente sich überlagern,
-- ihre Position bewusst gelöst ist,
-- und sichtbar entschieden werden muss, wer oben liegt.
+- wie ein Element an einem Bezugspunkt verankert wird (`relative`/`absolute`),
+- oder wie ein Element beim Scrollen haftet (`sticky`).
 
-Für normale Textabsätze oder Karten untereinander bringt z-index oft gar nichts.
+So bleibt die Ebenenlogik von Flächenlage und Scrolllogik getrennt.
 
 ## Eine ruhige Prüfstrategie
 

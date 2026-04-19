@@ -7,6 +7,7 @@ topicPath:
   - html
   - navigation-und-menues
   - navigation-struktur-und-menuewege-beurteilen
+taskId: WEB-HTML-A11Y-304
 level: einfach
 draft: false
 tags:
@@ -14,15 +15,15 @@ tags:
   - menue
   - struktur
 hintPoints:
-  - "Frage zuerst: Welche Hauptbereiche der Website sollen sichtbar werden?"
-  - "Achte darauf, ob Unterpunkte nur versteckt oder auch anders erreichbar sind."
+  - Frage zuerst, welche Hauptbereiche der Website sichtbar werden sollen.
+  - Achte darauf, ob Unterpunkte nur versteckt oder auch anders erreichbar sind.
 selfCheckPoints:
-  - "Kannst du Hauptpunkte und Unterpunkte sinnvoll unterscheiden?"
-  - "Bleibt klar, warum ein Menü mehr als nur eine Linkliste ist?"
+  - Kannst du Hauptpunkte und Unterpunkte sinnvoll unterscheiden?
+  - Bleibt klar, warum ein Menü mehr als nur eine Linkliste ist?
 transferIdeas:
-  - "Übertrage die Idee auf eine Lernplattform, einen Shop oder eine Vereinsseite."
-  - "Formuliere eine Seitenstruktur zuerst als Inhaltsliste und danach als Menü."
-reflectionPrompt: "Woran merkst du, dass ein Menü die Struktur einer Website wirklich unterstützt und nicht nur hübsch aussieht?"
+  - Übertrage die Idee auf eine Lernplattform, einen Shop oder eine Vereinsseite.
+  - Formuliere eine Seitenstruktur zuerst als Inhaltsliste und danach als Menü.
+reflectionPrompt: Woran merkst du, dass ein Menü die Struktur einer Website wirklich unterstützt und nicht nur hübsch aussieht?
 ---
 
 ## Aufgabe 1: Hauptpunkte finden

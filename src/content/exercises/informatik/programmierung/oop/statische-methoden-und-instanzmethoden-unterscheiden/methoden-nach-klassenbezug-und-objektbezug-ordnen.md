@@ -16,25 +16,28 @@ tags:
   - aufgabe
   - programmierung
   - oop
+  - static
 hintPoints:
-  - Lies zuerst ruhig, ob ein neues Objekt entsteht oder ein bestehendes genutzt wird.
-  - Benenne dann den Fachbegriff, statt nur den Code nachzusprechen.
+  - Frage zuerst, ob die Methode ohne konkretes Objekt sinnvoll waere.
+  - Trenne gemeinsame Klassenlogik und individuellen Objektzustand.
 selfCheckPoints:
-  - Habe ich Objekt, Klasse und Methode sauber getrennt?
-  - Habe ich meinen Fachbegriff begruendet statt nur geraten?
+  - Habe ich Objektbezug und Klassenbezug sauber getrennt?
+  - Habe ich erklaert, warum manche Methoden kein Objekt brauchen?
 transferIdeas:
-  - Uebertrage dieselbe Denkweise auf ein eigenes kleines Klassenbeispiel.
-reflectionPrompt: "Welche Stelle im Beispiel war fuer mich der beste Hinweis?"
+  - Uebertrage dieselbe Denkweise auf Zaehler, Hilfsfunktionen oder Kontologik.
+reflectionPrompt: Welche Frage hilft dir schneller, der Methodenaufruf oder der benoetigte Zustand?
 ---
 
-## Aufgabe 1
+## Aufgabe 1: Methoden einordnen
 
-Ordne Methoden danach, ob sie ein konkretes Objekt brauchen oder zur Klasse als Ganzes gehoeren.
+Ordne kurze Beispielmethoden danach, ob sie eher Instanzmethoden oder statische Methoden sein sollten.
 
-## Aufgabe 2
+## Aufgabe 2: Begruendung formulieren
 
-Formuliere in 2-3 Saetzen die wichtigste Unterscheidung des Themas.
+Erklaere in 2 bis 4 Saetzen, warum eine Methode mit starkem Objektzustand anders einzuordnen ist als eine allgemeine Klassenfunktion.
 
-## Aufgabe 3
+## Aufgabe 3: Missverstaendnis korrigieren
 
-Nenne ein typisches Missverstaendnis zu diesem Thema und korrigiere es kurz.
+Jemand sagt, jede Methode in einer Klasse sei automatisch an ein Objekt gebunden.
+
+Erklaere, warum das nicht stimmt.

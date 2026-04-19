@@ -12,7 +12,7 @@ learningGoals:
   - Du erklärst, warum Items unterschiedlich viel Platz bekommen können.
 practiceIdeas:
   - Vergleiche zwei Items mit unterschiedlichem flex-grow.
-  - "Lies eine Kurzschreibweise wie flex: 1 1 auto und ordne die Teile zu."
+  - Lies eine Kurzschreibweise wie <code>flex: 1 1 auto</code> und ordne die Teile zu.
   - Prüfe, welches Item bei Platzmangel schrumpfen darf.
 commonMistakes:
   - Zu denken, flex-grow sei eine absolute Breite.
@@ -25,7 +25,7 @@ keyTakeaways:
 recognizeSignals:
   - Es geht um flex, flex-grow, flex-shrink oder flex-basis.
   - Items in einem Flex-Layout werden unterschiedlich groß.
-  - "Eine Kurzschreibweise wie flex: 0 1 auto soll erklärt werden."
+  - Eine Kurzschreibweise wie <code>flex: 0 1 auto</code> soll erklärt werden.
 selfCheckPoints:
   - Kann ich Ausgangsgröße und Wachstumsverhalten trennen?
   - Kann ich die drei Teile der Kurzschreibweise grob einordnen?
@@ -71,11 +71,15 @@ Das ist eine Kurzform für:
   <p class="card-kicker">Mini-Seite in der Seite</p>
   <h3>Warum ein Item mehr Platz bekommt</h3>
   <div style="display:flex; gap:0.6rem; padding:0.8rem; border:1px dashed #94a3b8; border-radius:16px; background:#f8fafc;">
-    <div style="flex:1 1 120px; padding:0.7rem; border-radius:12px; background:#dbeafe;"><strong>flex:1 1 120px</strong></div>
-    <div style="flex:2 1 120px; padding:0.7rem; border-radius:12px; background:#dcfce7;"><strong>flex:2 1 120px</strong></div>
+    <div style="flex:1 1 120px; padding:0.7rem; border-radius:12px; background:#dbeafe;"><strong>flex: 1 1 120px</strong></div>
+    <div style="flex:2 1 120px; padding:0.7rem; border-radius:12px; background:#dcfce7;"><strong>flex: 2 1 120px</strong></div>
   </div>
   <p style="margin:0.6rem 0 0;">Beide starten mit derselben Basis. Das zweite Item wächst stärker, weil sein flex-grow größer ist.</p>
 </div>
+
+## Diese Seite erklärt bewusst nur Größenverhalten
+
+Achsenrichtung und Ausrichtung gehören zu einer anderen Frage in Flexbox. Diese Seite behandelt nur, **wie Platz verteilt oder entzogen wird**, nicht wie Items auf Haupt- und Kreuzachse ausgerichtet sind.
 
 ## Typische Verwechslung
 

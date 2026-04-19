@@ -1,31 +1,31 @@
 ---
-title: Musterloesung - Ueberladen und Ueberschreiben sauber trennen
-description: Musterloesung zur Aufgabe INF-PROG-OOP-010.
+title: Loesung – Ueberladen und Ueberschreiben sauber trennen
+description: Musterloesung zur Aufgabe ueber gleiche Methodennamen, Signaturen und Vererbung.
 subject: informatik
 section: Programmierung
 topicPath:
   - programmierung
   - oop
   - methoden-ueberschreiben-und-ueberladen-unterscheiden
-  - ueberladen-und-ueberschreiben-sauber-trennen-loesung
 taskId: INF-PROG-OOP-010
-relatedExercise: src/content/exercises/informatik/programmierung/oop/methoden-ueberschreiben-und-ueberladen-unterscheiden/ueberladen-und-ueberschreiben-sauber-trennen.md
+relatedExercise: informatik/programmierung/oop/methoden-ueberschreiben-und-ueberladen-unterscheiden/ueberladen-und-ueberschreiben-sauber-trennen
 tags:
   - informatik
-  - programmierung
   - oop
   - loesung
 draft: false
 ---
 
-## Aufgabe 1: Grundidee erklaeren
+## Musterloesung
 
-Beim Ueberladen haben Methoden denselben Namen, aber unterschiedliche Signaturen, zum Beispiel verschiedene Parameteranzahl oder Parametertypen.
+### Aufgabe 1
 
-## Aufgabe 2: Vergleich sauber machen
+Ueberladen erkennst du daran, dass der Name gleich bleibt, die Signatur aber unterschiedlich ist. Ueberschreiben erkennst du daran, dass eine Unterklasse dieselbe Methode mit identischer Signatur erneut definiert.
 
-Beim Ueberschreiben besitzt eine Unterklasse eine Methode mit demselben Namen und derselben Signatur wie in der Oberklasse.
+### Aufgabe 2
 
-## Aufgabe 3: Beispiel deuten
+Ein typischer Fall fuer Ueberladen ist `fkt()` neben `fkt(int)` in derselben Klasse. Ein typischer Fall fuer Ueberschreiben ist eine Methode `fkt()` in der Unterklasse, die die geerbte Variante `fkt()` der Basisklasse ersetzt.
 
-Ueberladen erweitert also eine Methodenfamilie, waehrend Ueberschreiben Verhalten der Basisklasse in der Ableitung ersetzt oder ueberdeckt.
+### Aufgabe 3
+
+Gleicher Name reicht nicht als Urteil. Erst Signatur und Vererbungsbezug zusammen entscheiden, ob ueberladen oder ueberschrieben wird.

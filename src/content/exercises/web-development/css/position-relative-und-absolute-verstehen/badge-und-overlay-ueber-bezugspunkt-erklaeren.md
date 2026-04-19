@@ -8,6 +8,7 @@ topicPath:
   - responsive-layouts
   - position-relative-und-absolute-verstehen
   - badge-und-overlay-ueber-bezugspunkt-erklaeren
+taskId: WEB-CSS-POS-201
 level: mittel
 draft: false
 tags:
@@ -15,7 +16,7 @@ tags:
   - position
   - overlay
 hintPoints:
-  - Frage zuerst, an welchem Element das Badge sichtbar „haften“ soll.
+  - Frage zuerst, an welchem Element das Badge sichtbar haften soll.
   - Unterscheide Bezugspunkt und schwebendes Element.
 selfCheckPoints:
   - Kannst du den Anker einer absoluten Positionierung benennen?

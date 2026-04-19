@@ -51,13 +51,13 @@ objekt.A::fkt();
 
 ## Warum das gebraucht wird
 
-In Vererbungshierarchien gibt es nicht nur "eine Methode pro Name". Es kann sein, dass eine Unterklasse eine Basismethode ueberschreibt oder dabei zugleich weitere ueberladene Varianten der Oberklasse verdeckt.
+In Vererbungshierarchien gibt es nicht nur eine Methode pro Name. Es kann sein, dass eine Unterklasse eine Basismethode ueberschreibt oder dabei zugleich weitere ueberladene Varianten der Oberklasse verdeckt.
 
 ## Bereichsoperator als Wegweiser
 
 <div class="example-card">
   <p class="card-kicker">Denkbild</p>
-  <h3>Zurueck zur Oberklasse schauen</h3>
+  <h3>Bewusst zur Oberklasse zurueckschauen</h3>
   <p>Der Bereichsoperator ist hier wie ein ausdruecklicher Wegweiser im Code: Nicht die naechstliegende Methode der Unterklasse ist gemeint, sondern die Version aus einer bestimmten Oberklasse.</p>
 </div>
 
@@ -65,7 +65,7 @@ In Vererbungshierarchien gibt es nicht nur "eine Methode pro Name". Es kann sein
 
 <div class="compare-card">
   <p class="card-kicker">Vergleich</p>
-  <h3>Normaler Aufruf vs. qualifizierter Aufruf</h3>
+  <h3>Normaler Aufruf oder qualifizierter Aufruf</h3>
   <div class="compare-grid">
     <div class="compare-item">
       <strong>objekt.fkt()</strong>
@@ -77,6 +77,18 @@ In Vererbungshierarchien gibt es nicht nur "eine Methode pro Name". Es kann sein
     </div>
   </div>
 </div>
+
+## Leitbeispiel
+
+<div class="example-card">
+  <p class="card-kicker">Leitbeispiel</p>
+  <h3>Unterklasse mit eigener und geerbter Sicht</h3>
+  <p>Eine Unterklasse kann eine eigene Variante von <code>anzeigen()</code> besitzen. Wenn du trotzdem gezielt die geerbte Sicht der Basisklasse brauchst, macht der Bereichsoperator diese Rueckkehr explizit sichtbar.</p>
+</div>
+
+## Diese Seite behandelt bewusst den Rueckgriff auf die Basis
+
+Hier geht es nicht um die allgemeine Frage, ob ueberschrieben oder ueberladen wurde, sondern um den bewussten Zugriff auf eine **bestimmte Klassenebene**.
 
 ## Ruhige Pruefstrategie
 
@@ -93,4 +105,8 @@ In Vererbungshierarchien gibt es nicht nur "eine Methode pro Name". Es kann sein
     <strong>3. Bereichsoperator lesen</strong>
     <span>Er ist die bewusste Rueckkehr zu einer bestimmten Klassenebene.</span>
   </div>
+</div>
+
+<div class="note-panel">
+  <p><strong>Merke:</strong> Der Bereichsoperator ist hier kein reines Syntaxdetail, sondern ein Wegweiser zur gewollten Basismethode.</p>
 </div>

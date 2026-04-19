@@ -1,30 +1,30 @@
 ---
-title: Musterlösung – Flex-Ausrichtung auf Haupt- und Kreuzachse erklären
-description: Musterlösung zur Aufgabe WEB-CSS-FLEX-102.
+title: Lösung – Flex-Ausrichtung auf Haupt- und Kreuzachse erklären
+description: Musterlösung zur Aufgabe über Flex-Achsen, justify-content und align-items.
 subject: web-development
 section: CSS
 topicPath:
   - css
   - flex-achsen-und-ausrichtung-verstehen
-  - flex-ausrichtung-auf-haupt-und-kreuzachse-erklaeren-loesung
-taskId: WEB-CSS-FLEX-102
-relatedExercise: src/content/exercises/web-development/css/flex-achsen-und-ausrichtung-verstehen/flex-ausrichtung-auf-haupt-und-kreuzachse-erklaeren.md
+taskId: WEB-CSS-FLEX-205
+relatedExercise: web-development/css/flex-achsen-und-ausrichtung-verstehen/flex-ausrichtung-auf-haupt-und-kreuzachse-erklaeren
 tags:
-  - web-development
   - css
+  - flexbox
   - loesung
-  - task-id
 draft: false
 ---
 
-## Aufgabe 1: Raum auf der Hauptachse
+## Musterlösung
 
-Naheliegend ist <code>justify-content</code>, weil diese Eigenschaft die Verteilung auf der Hauptachse steuert.
+### Aufgabe 1
 
-## Aufgabe 2: Quer-Ausrichtung
+`justify-content` verteilt Elemente entlang der Hauptachse. `align-items` richtet sie quer zur Hauptachse auf der Kreuzachse aus.
 
-Naheliegend ist <code>align-items</code>, weil sie die Ausrichtung auf der Kreuzachse beschreibt.
+### Aufgabe 2
 
-## Aufgabe 3: Richtung kippt
+Wenn aus `row` ein `column` wird, kippt die Hauptachse. Dadurch wirkt dieselbe Ausrichtungsregel plötzlich in einer anderen Richtung.
 
-Wenn die Hauptachse von row auf column wechselt, ändert sich die Richtung, in der justify-content wirkt.
+### Aufgabe 3
+
+Die Aussage „justify-content ist horizontal“ ist zu kurz gedacht, weil die Richtung von der aktuellen Hauptachse abhängt und diese sich über `flex-direction` ändern kann.

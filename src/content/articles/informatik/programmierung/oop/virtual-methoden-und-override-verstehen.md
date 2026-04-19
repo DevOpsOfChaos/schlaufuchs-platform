@@ -1,6 +1,6 @@
 ---
 title: Virtual-Methoden und override verstehen
-description: Verstehe, warum manche Methoden erst zur Laufzeit passend ausgewaehlt werden.
+description: Verstehe, warum manche Methoden erst zur Laufzeit passend ausgewaehlt werden und wie virtual und override diese Absicht sichtbar machen.
 subject: informatik
 section: Programmierung
 topicPath:
@@ -43,19 +43,19 @@ draft: false
 
 ## Grundidee
 
-Beim Ueberschreiben gleichnamiger Methoden ist die wichtigste Frage nicht nur, **welche Signatur gleich ist**, sondern **wann entschieden wird**, welche Methode wirklich laeuft.
+Beim Ueberschreiben gleichnamiger Methoden ist die wichtigste Frage nicht nur, welche Signatur gleich ist, sondern **wann entschieden wird**, welche Methode wirklich laeuft.
 
 ## Ohne virtual
 
-Ohne <code>virtual</code> wird oft schon beim Kompilieren festgelegt, welche Methode aufgerufen wird. Dann zaehlt vor allem der Typ der Referenz oder Variable, ueber die du aufrufst.
+Ohne <code>virtual</code> wird oft schon beim Kompilieren festgelegt, welche Methode aufgerufen wird. Dann zaehlt vor allem der Typ der Referenz oder Variable, ueber die aufgerufen wird.
 
 ## Mit virtual
 
-Mit <code>virtual</code> darf die Entscheidung bis zur Laufzeit offen bleiben. Dann zaehlt das **echte konkrete Objekt**, nicht nur der Basisklassentyp der Referenz.
+Mit <code>virtual</code> darf die Entscheidung bis zur Laufzeit offen bleiben. Dann zaehlt das **echte konkrete Objekt** und nicht nur der Basisklassentyp der Referenz.
 
 <div class="figure-card">
   <p class="card-kicker">Denkbild</p>
-  <h3>Basistyp zeigt hin – Objekt entscheidet</h3>
+  <h3>Basistyp zeigt hin und Objekt entscheidet</h3>
   <div class="signal-flow">
     <div class="flow-node"><strong>Basisklassen-Referenz</strong><span>beschreibt die gemeinsame Schnittstelle</span></div>
     <div class="flow-arrow">→</div>
@@ -70,25 +70,29 @@ Mit <code>virtual</code> darf die Entscheidung bis zur Laufzeit offen bleiben. D
 <div class="example-card">
   <p class="card-kicker">Praxisnutzen</p>
   <h3>Absicht sichtbar machen</h3>
-  <p><code>override</code> sagt nicht nur dem Compiler, sondern auch dir beim Lesen: Diese Methode soll bewusst eine Basismethode ersetzen. Das macht Vererbungslogik deutlich ruhiger.</p>
+  <p><code>override</code> sagt nicht nur dem Compiler, sondern auch dir beim Lesen, dass diese Methode bewusst eine Basismethode ersetzen soll. Das macht Vererbungslogik deutlich ruhiger.</p>
 </div>
 
-## Vergleich
+## Nicht alles auf einmal verwechseln
 
 <div class="compare-card">
-  <p class="card-kicker">Vergleich</p>
-  <h3>Ueberschrieben ist nicht automatisch polymorph</h3>
+  <p class="card-kicker">Sauber trennen</p>
+  <h3>Ueberschreiben ist die Struktur und virtual ist die spaetere Auswahl</h3>
   <div class="compare-grid">
     <div class="compare-item">
-      <strong>Ohne virtual</strong>
-      <span>Die Methodenwahl bleibt eher beim statischen Typ des Ausdrucks.</span>
+      <strong>Ueberschreiben</strong>
+      <span>Die Unterklasse definiert dieselbe Methode erneut.</span>
     </div>
     <div class="compare-item">
-      <strong>Mit virtual</strong>
-      <span>Die Methodenwahl kann zum echten Objekttyp wandern und wird erst spaeter entschieden.</span>
+      <strong>virtual</strong>
+      <span>Die Methodenwahl darf sich am echten Objekttyp orientieren.</span>
     </div>
   </div>
 </div>
+
+## Diese Seite behandelt bewusst die Marker und die Objektlogik
+
+Die noch allgemeinere Frage, wann man von statischem oder dynamischem Binden spricht, wird im naechsten Thema als eigenes Lesemodell ausgefaltet. Hier bleibt der Fokus auf `virtual`, `override` und der konkreten Objektentscheidung.
 
 ## Ruhige Pruefstrategie
 
@@ -105,4 +109,8 @@ Mit <code>virtual</code> darf die Entscheidung bis zur Laufzeit offen bleiben. D
     <strong>3. override als Signal lesen</strong>
     <span>Es macht die Ersetzungsabsicht in der Unterklasse deutlich.</span>
   </div>
+</div>
+
+<div class="note-panel">
+  <p><strong>Merke:</strong> `virtual` macht Methodenwahl beweglich und `override` macht Absicht sichtbar.</p>
 </div>

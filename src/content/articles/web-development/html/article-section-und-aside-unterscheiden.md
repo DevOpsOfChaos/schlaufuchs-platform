@@ -1,6 +1,6 @@
 ---
 title: Article, Section und Aside unterscheiden
-description: Verstehe, wie diese HTML-Elemente unterschiedliche Rollen in einer Seite markieren und warum ähnliche Boxen nicht automatisch dieselbe Bedeutung haben.
+description: Verstehe, wie diese HTML-Elemente unterschiedliche Rollen innerhalb des Inhalts markieren und warum ähnliche Boxen nicht automatisch dieselbe Bedeutung haben.
 subject: web-development
 section: HTML
 topicPath:
@@ -8,13 +8,13 @@ topicPath:
   - navigation-und-menues
   - article-section-und-aside-unterscheiden
 learningGoals:
-  - Du unterscheidest article, section und aside nach ihrer Rolle.
-  - Du erklärst, warum ähnliche sichtbare Boxen inhaltlich trotzdem verschieden sein können.
+  - Du unterscheidest article, section und aside nach ihrer inhaltlichen Rolle.
+  - Du erklärst, warum ähnliche sichtbare Boxen fachlich trotzdem verschieden sein können.
   - Du wählst Strukturelemente eher nach Bedeutung als nach dem späteren Layout.
 practiceIdeas:
   - Prüfe bei einem Seitenausschnitt, welcher Teil eigenständig, welcher thematisch gruppiert und welcher ergänzend ist.
-  - Begründe, warum ein Infokasten nicht automatisch ein article ist.
-  - Lies semantische HTML-Elemente als Rollen im Dokument statt als Designbausteine.
+  - Begründe, warum ein Merkkasten nicht automatisch ein article ist.
+  - Lies diese Elemente als Rollen innerhalb des Inhalts statt als Designbausteine.
 commonMistakes:
   - article, section und aside nur optisch zu unterscheiden.
   - section mit irgendeinem Container gleichzusetzen.
@@ -26,7 +26,7 @@ keyTakeaways:
 recognizeSignals:
   - Es geht um Seitenteile, Wissensboxen, Randspalten oder eigenständige Beiträge.
   - Du sollst begründen, warum ein Element strukturell passt.
-  - In Beispielen zählt die Rolle des Inhalts stärker als seine sichtbare Boxform.
+  - In Beispielen zählt die Rolle des Inhalts stärker als seine sichtbare Form.
 selfCheckPoints:
   - Kann ich article, section und aside fachlich auseinanderhalten?
   - Kann ich einen ergänzenden Inhalt als solchen erkennen?
@@ -43,12 +43,12 @@ draft: false
 
 ## Grundidee
 
-Auf einer Seite können mehrere Bereiche ähnlich aussehen und trotzdem **unterschiedliche Rollen** haben. Genau deshalb reicht es nicht, nur auf Kästen, Farben oder Abstände zu schauen.
+Diese Seite betrachtet **nicht** das große Seitengerüst, sondern die **innere Struktur des Inhalts**. Die ruhige Leitfrage lautet: **Ist dieser Teil eigenständig, untergeordnet oder ergänzend?**
 
 <div class="example-card">
   <p class="card-kicker">Leitbeispiel</p>
-  <h3>Ein Lernartikel mit Abschnitt und Merkkasten</h3>
-  <p>Der eigentliche Beitrag ist ein zusammenhängender Hauptinhalt. Darin gibt es Abschnitte mit Unterthemen und daneben einen ergänzenden Merkkasten. Obwohl alles wie „eine Box“ aussehen kann, erfüllen diese Teile unterschiedliche Aufgaben im Dokument.</p>
+  <h3>Ein Lernartikel mit Unterabschnitten und Merkkasten</h3>
+  <p>Der eigentliche Beitrag ist ein zusammenhängender Hauptinhalt. Darin gibt es Abschnitte mit Unterthemen und daneben einen ergänzenden Merkkasten. Obwohl alles wie „eine Box“ wirken kann, erfüllen diese Teile unterschiedliche Aufgaben im Dokument.</p>
 </div>
 
 ## Die drei Rollen im Überblick
@@ -56,7 +56,7 @@ Auf einer Seite können mehrere Bereiche ähnlich aussehen und trotzdem **unters
 <div class="visual-grid">
   <div class="visual-item">
     <strong><code>article</code></strong>
-    <span>Ein in sich sinnvoller Inhalt, etwa ein eigenständiger Beitrag, eine Meldung oder ein kompletter Lernartikel.</span>
+    <span>Ein in sich sinnvoller Inhalt, etwa ein Beitrag, eine Meldung oder ein kompletter Lernartikel.</span>
   </div>
   <div class="visual-item">
     <strong><code>section</code></strong>
@@ -64,15 +64,15 @@ Auf einer Seite können mehrere Bereiche ähnlich aussehen und trotzdem **unters
   </div>
   <div class="visual-item">
     <strong><code>aside</code></strong>
-    <span>Ein ergänzender Bereich, zum Beispiel Zusatzinfos, Merkkästen oder Randhinweise.</span>
+    <span>Ein ergänzender Bereich, etwa Zusatzinfos, Merkkästen oder Randhinweise.</span>
   </div>
 </div>
 
-## Mini-Demo: gleiche Kastenform, andere Dokumentrolle
+## Mini-Demo: gleiche Boxform, andere Inhaltsrolle
 
 <div class="figure-card">
   <p class="card-kicker">Mini-Seite in der Seite</p>
-  <h3>Die Optik kann ähnlich sein – die Aufgabe im Dokument nicht</h3>
+  <h3>Die Optik kann ähnlich sein, die Dokumentrolle nicht</h3>
   <div style="display:grid; grid-template-columns:minmax(0,2fr) minmax(14rem,1fr); gap:0.9rem; align-items:start;">
     <div style="display:grid; gap:0.8rem;">
       <div style="padding:0.9rem; border-radius:16px; background:#e2e8f0;">
@@ -90,38 +90,18 @@ Auf einer Seite können mehrere Bereiche ähnlich aussehen und trotzdem **unters
     </div>
     <div style="padding:0.9rem; border-radius:16px; background:#fde68a;">
       <strong>aside</strong>
-      <div style="margin-top:0.45rem; padding:0.8rem; border-radius:12px; background:white;">Merkkasten: „Pflichtfelder ruhig kennzeichnen“</div>
-    </div>
-  </div>
-  <p>Alles sind sichtbare Blöcke. Die semantische Frage lautet aber: <strong>Was ist Hauptinhalt, was ist Abschnitt, was ist Ergänzung?</strong></p>
-</div>
-
-## Eine ruhige Denklogik
-
-<div class="compare-card">
-  <p class="card-kicker">Entscheidungshilfe</p>
-  <h3>Nicht nach Optik, sondern nach Dokumentrolle fragen</h3>
-  <div class="compare-grid">
-    <div class="compare-item">
-      <strong>article</strong>
-      <span>Kann oft für sich stehen und in anderer Umgebung ebenfalls sinnvoll sein.</span>
-    </div>
-    <div class="compare-item">
-      <strong>section</strong>
-      <span>Ordnet einen Teilbereich innerhalb des Hauptinhalts thematisch.</span>
-    </div>
-    <div class="compare-item">
-      <strong>aside</strong>
-      <span>Ergänzt, kommentiert oder unterstützt, ohne der Kern des Inhalts zu sein.</span>
+      <div style="margin-top:0.45rem; padding:0.8rem; border-radius:12px; background:white;">Merkkasten mit Zusatzhinweis</div>
     </div>
   </div>
 </div>
 
 ## Drei ruhige Leitfragen
 
-1. Würde dieser Inhalt auch allein noch als eigener Beitrag Sinn ergeben?
-2. Ist er eher ein Unterthema innerhalb eines größeren Haupttextes?
-3. Oder ergänzt er den Hauptinhalt nur am Rand?
+<div class="step-grid">
+  <div class="step-item"><strong>1. Eigenständig</strong><span>Würde dieser Inhalt auch allein noch als eigener Beitrag Sinn ergeben?</span></div>
+  <div class="step-item"><strong>2. Untergeordnet</strong><span>Ist er eher ein Teil innerhalb eines größeren Haupttextes?</span></div>
+  <div class="step-item"><strong>3. Ergänzend</strong><span>Oder unterstützt er den Hauptinhalt nur am Rand?</span></div>
+</div>
 
 ```html
 <article>
@@ -141,17 +121,14 @@ Auf einer Seite können mehrere Bereiche ähnlich aussehen und trotzdem **unters
   <section>
     <p class="card-kicker">Schwach</p>
     <h3>Alles nur nach Boxform</h3>
-    <p>Dann bekommen sehr unterschiedliche Inhalte dieselbe Struktur, obwohl ihre Funktion auf der Seite verschieden ist.</p>
+    <p>Dann bekommen sehr unterschiedliche Inhalte dieselbe Struktur, obwohl ihre Funktion im Dokument verschieden ist.</p>
   </section>
 </div>
 
-## Eine ruhige Prüfstrategie
+## Was diese Seite bewusst nicht doppelt erklärt
 
-1. Was ist der eigentliche Hauptinhalt?
-2. Welche Teile sind thematische Unterbereiche davon?
-3. Welche Teile sind eher Zusatz, Hinweis oder Nebeninformation?
-4. Erst danach an Layout und Darstellung denken.
+Diese Seite behandelt nur die **Inhaltsstruktur innerhalb des Inhaltsbereichs**. Für das große Seitengerüst mit `header`, `nav`, `main` und `footer` gibt es die eigene Landmarken-Seite.
 
 <div class="note-panel">
-  <p><strong>Merke:</strong> Gleiche Boxoptik bedeutet nicht gleiche HTML-Rolle.</p>
+  <p><strong>Merke:</strong> Gleiche Boxoptik bedeutet nicht gleiche inhaltliche Rolle.</p>
 </div>

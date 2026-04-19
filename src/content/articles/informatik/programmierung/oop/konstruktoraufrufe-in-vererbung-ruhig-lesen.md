@@ -22,7 +22,7 @@ commonMistakes:
 keyTakeaways:
   - Konstruktoren werden nicht vererbt.
   - Beim Erzeugen eines Objekts wird die Basisklasse vor der abgeleiteten Klasse vorbereitet.
-  - Explizite Weiterleitung macht diese Reihenfolge nur sichtbar, nicht grundsaetzlich neu.
+  - Explizite Weiterleitung macht diese Reihenfolge nur sichtbar und fuehrt sie nicht neu ein.
 recognizeSignals:
   - Es geht um Oberklasse, Unterklasse und Konstruktoraufrufe.
   - Eine abgeleitete Klasse nennt im Konstruktor eine Basisklasse.
@@ -49,7 +49,7 @@ Bei Vererbung entsteht ein Objekt der Unterklasse nicht auf leerem Raum. Es enth
   <p class="card-kicker">Ablaufbild</p>
   <h3>Von oben nach unten aufbauen</h3>
   <div class="signal-flow">
-    <div class="flow-node"><strong>Basisklasse</strong><span>Der geerbte Teil wird zuerst bereitgestellt.</span></div>
+    <div class="flow-node"><strong>Basisklasse</strong><span>Der geerbte Teil wird zuerst vorbereitet.</span></div>
     <div class="flow-arrow">→</div>
     <div class="flow-node"><strong>Abgeleitete Klasse</strong><span>Danach kommt die Spezialisierung der Unterklasse.</span></div>
     <div class="flow-arrow">→</div>
@@ -62,26 +62,38 @@ Bei Vererbung entsteht ein Objekt der Unterklasse nicht auf leerem Raum. Es enth
 **Konstruktoren werden nicht vererbt.**  
 Die Unterklasse besitzt ihren eigenen Konstruktor. Dieser sorgt aber dafuer, dass der Basisklassenteil korrekt vorbereitet wird.
 
-## Beispielidee
+## Leitbeispiel
 
 Wenn eine Klasse `Fahrzeug` und eine Klasse `Auto` existieren, dann ist ein `Auto` auch ein `Fahrzeug`. Beim Erzeugen eines `Auto` muss also zuerst der `Fahrzeug`-Teil stimmen, bevor die Spezialisierung des `Auto` fertig werden kann.
 
-## Typische Verwechslung
+## Nicht mit Delegation verwechseln
 
 <div class="compare-card">
-  <p class="card-kicker">Nicht verwechseln</p>
-  <h3>Delegation vs. Basisklassenaufruf</h3>
+  <p class="card-kicker">Saubere Trennung</p>
+  <h3>Gleiche Syntaxfamilie, andere Denkfrage</h3>
   <div class="compare-grid">
     <div class="compare-item">
       <strong>Delegation</strong>
       <span>Ein Konstruktor ruft einen anderen Konstruktor derselben Klasse auf.</span>
     </div>
     <div class="compare-item">
-      <strong>Vererbungsaufruf</strong>
+      <strong>Basisklassenaufruf</strong>
       <span>Ein Konstruktor der Unterklasse sorgt fuer die Initialisierung der Basisklasse.</span>
     </div>
   </div>
 </div>
+
+## Was die Reihenfolge didaktisch bedeutet
+
+Die Basisklasse ist kein Nebenschritt. Sie bildet das Fundament des geerbten Objekts. Deshalb gilt ruhig gelesen immer:
+
+1. Basisklassenteil vorbereiten
+2. Unterklassenteil ergaenzen
+3. Gesamtes Objekt fertig denken
+
+## Diese Seite behandelt bewusst nur Vererbungsreihenfolge
+
+Mehrere Startwege innerhalb derselben Klasse gehoeren nicht hierher. Sobald nur Konstruktoren derselben Klasse miteinander zusammenarbeiten, geht es um Ueberladung und Delegation.
 
 ## Ruhige Pruefstrategie
 
@@ -103,8 +115,3 @@ Wenn eine Klasse `Fahrzeug` und eine Klasse `Auto` existieren, dann ist ein `Aut
 <div class="note-panel">
   <p><strong>Merke:</strong> Beim Erzeugen eines Objekts in einer Vererbungshierarchie wird erst das Fundament der Basisklasse vorbereitet und danach die Spezialisierung der Unterklasse.</p>
 </div>
-
-
-## Ergaenzung: Konstruktoren werden nicht vererbt
-
-Wichtig ist hier die Denkgrenze: Eine Unterklasse bekommt nicht einfach die Konstruktoren der Oberklasse geschenkt. Sie kann sie nur in ihrer eigenen Konstruktorlogik gezielt ansprechen oder weiterleiten lassen.

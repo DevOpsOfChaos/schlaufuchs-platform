@@ -12,38 +12,36 @@ tags:
   - struktur
   - accessibility
 learningGoals:
-  - "Du erklärst, warum Navigation die Seitenstruktur sichtbar macht."
-  - "Du erkennst, warum Menüs konsistent und erreichbar aufgebaut sein müssen."
-  - "Du unterscheidest grob zwischen Navigationsstruktur und bloßer Linksammlung."
+  - Du erklärst, warum Navigation die Seitenstruktur sichtbar macht.
+  - Du erkennst, warum Menüs konsistent und erreichbar aufgebaut sein müssen.
+  - Du unterscheidest grob zwischen Navigationsstruktur und bloßer Linksammlung.
 practiceIdeas:
-  - "Vergleiche zwei Menüs danach, wie klar ihre Struktur ist."
-  - "Prüfe bei einer Navigation, ob Ober- und Unterpunkte verständlich bleiben."
-  - "Ordne einer kleinen Website sinnvolle Navigationspunkte zu."
+  - Vergleiche zwei Menüs danach, wie klar ihre Struktur ist.
+  - Prüfe bei einer Navigation, ob Ober- und Unterpunkte verständlich bleiben.
+  - Ordne einer kleinen Website sinnvolle Navigationspunkte zu.
 commonMistakes:
-  - "Ein Menü nur optisch statt strukturell zu planen."
-  - "Unterpunkte zu verstecken, ohne alternative Zugänge mitzudenken."
-  - "Links zu sammeln, ohne klare Hierarchie oder Beschriftung."
+  - Ein Menü nur optisch statt strukturell zu planen.
+  - Unterpunkte zu verstecken, ohne alternative Zugänge mitzudenken.
+  - Links zu sammeln, ohne klare Hierarchie oder Beschriftung.
 keyTakeaways:
-  - "Navigation zeigt die Struktur einer Website."
-  - "Menüs müssen klar beschriftet, konsistent und erreichbar sein."
-  - "Gute Navigation hilft nicht nur beim Finden, sondern auch beim Verstehen des Aufbaus."
+  - Navigation zeigt die Struktur einer Website.
+  - Menüs müssen klar beschriftet, konsistent und erreichbar sein.
+  - Gute Navigation hilft nicht nur beim Finden, sondern auch beim Verstehen des Aufbaus.
 recognizeSignals:
-  - "Es geht um Navigation, Menüs, Hierarchie oder Zugänglichkeit von Website-Strukturen."
-  - "Du sollst nicht nur Links benennen, sondern Struktur und Erreichbarkeit beurteilen."
-  - "Ein Beispiel fragt nach Oberpunkten, Unterpunkten oder Bedienbarkeit eines Menüs."
+  - Es geht um Navigation, Menüs, Hierarchie oder Zugänglichkeit von Website-Strukturen.
+  - Du sollst nicht nur Links benennen, sondern Struktur und Erreichbarkeit beurteilen.
+  - Ein Beispiel fragt nach Oberpunkten, Unterpunkten oder Bedienbarkeit eines Menüs.
 selfCheckPoints:
-  - "Kann ich erklären, warum Navigation mehr ist als eine Linkliste?"
-  - "Kann ich benennen, was ein Menü konsistent und zugänglich macht?"
-  - "Kann ich eine kleine Seitenstruktur in sinnvolle Navigationspunkte gliedern?"
+  - Kann ich erklären, warum Navigation mehr ist als eine Linkliste?
+  - Kann ich benennen, was ein Menü konsistent und zugänglich macht?
+  - Kann ich eine kleine Seitenstruktur in sinnvolle Navigationspunkte gliedern?
 level: einfach
 draft: false
 ---
 
-## Warum dieses Thema wichtig ist
+## Grundidee
 
 Navigation ist ein zentrales Orientierungssystem einer Website. Sie zeigt nicht nur Wege an, sondern macht die Struktur des Angebots sichtbar.
-
-Darum ist ein gutes Menü nicht bloß eine Designfrage, sondern auch eine Frage von Verständlichkeit und Zugänglichkeit.
 
 <div class="example-card">
   <p class="card-kicker">Leitbeispiel</p>
@@ -59,8 +57,6 @@ Wenn ein Menü gut geplant ist, erkennt man daran oft schon,
 - welche Inhalte zusammengehören,
 - und wo Unterseiten eingeordnet sind.
 
-So hilft Navigation nicht nur beim Klicken, sondern auch beim inhaltlichen Verstehen.
-
 <div class="figure-card">
   <p class="card-kicker">Strukturbild</p>
   <h3>Von Inhalten zur Navigation</h3>
@@ -73,9 +69,7 @@ So hilft Navigation nicht nur beim Klicken, sondern auch beim inhaltlichen Verst
   </div>
 </div>
 
-## Menüs müssen erreichbar bleiben
-
-Gerade bei Untermenüs reicht es nicht, nur optisch etwas einzublenden. Nutzerinnen und Nutzer müssen Unterpunkte auch zuverlässig erreichen können – nicht nur mit Maus, sondern auch mit Tastatur und klarer Struktur.
+## Linksammlung oder Navigation?
 
 <div class="comparison-grid">
   <section>
@@ -90,7 +84,9 @@ Gerade bei Untermenüs reicht es nicht, nur optisch etwas einzublenden. Nutzerin
   </section>
 </div>
 
-## Ein kleines HTML-Grundgerüst
+## Menüs müssen erreichbar bleiben
+
+Gerade bei Untermenüs reicht es nicht, nur optisch etwas einzublenden. Nutzende müssen Unterpunkte auch zuverlässig erreichen können – nicht nur mit Maus, sondern auch mit Tastatur und klarer Struktur.
 
 <pre><code>&lt;nav aria-label="Hauptnavigation"&gt;
   &lt;ul&gt;
@@ -99,6 +95,10 @@ Gerade bei Untermenüs reicht es nicht, nur optisch etwas einzublenden. Nutzerin
     &lt;li&gt;&lt;a href="/kontakt"&gt;Kontakt&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;</code></pre>
+
+## Diese Seite behandelt bewusst die große Menülogik
+
+Hier geht es um **Hierarchie, Hauptpunkte und Erreichbarkeit**. Die Formulierung einzelner Linktexte ist eine andere, kleinere Frage und gehört auf die eigene Linktext-Seite.
 
 ## Gute und schwache Menülogik
 
@@ -115,33 +115,13 @@ Gerade bei Untermenüs reicht es nicht, nur optisch etwas einzublenden. Nutzerin
   </section>
 </div>
 
-## Konsistenz ist wichtiger als kreative Effekte
+## Eine ruhige Prüfstrategie
 
-Ein Menü wirkt dann gut, wenn Bezeichnungen, Positionen und Verhalten verlässlich bleiben. Wechselnde Begriffe, unstete Hierarchien oder versteckte Wege machen eine Seite schnell unruhig und schwer nutzbar.
-
-## Woran gute Navigation erkennbar wird
-
-Eine gute Navigation ist meist dann gegeben, wenn
-
-- Hauptpunkte verständlich benannt sind,
-- Unterpunkte logisch zugeordnet sind,
-- die Hierarchie ruhig bleibt,
-- und wichtige Ziele nicht versteckt werden.
+1. Welche Hauptbereiche der Website sollen sichtbar werden?
+2. Welche Unterpunkte gehören wirklich unter denselben Oberpunkt?
+3. Bleiben wichtige Ziele auch erreichbar, wenn ein Untermenü nicht perfekt funktioniert?
+4. Bleiben Bezeichnungen und Positionen konsistent?
 
 <div class="note-panel">
   <p><strong>Merke:</strong> Ein Menü soll nicht beeindrucken, sondern Orientierung geben. Gute Navigation macht Inhalte lesbar, bevor überhaupt geklickt wird.</p>
-</div>
-
-## Von der Seitenstruktur zum Menü
-
-Oft ist es hilfreich, zuerst die Inhalte einer Website zu ordnen und erst danach ein Menü zu bauen. Dann wird das Menü zu einem sichtbaren Ausdruck der Struktur – nicht zu einer zufälligen Liste von Links.
-
-<div class="practice-card wide-bleed">
-  <p class="card-kicker">Zum Anwenden</p>
-  <h3>So planst du Navigation ruhiger</h3>
-  <ul>
-    <li>Sortiere Inhalte zuerst nach Themen und Beziehungen.</li>
-    <li>Bilde daraus verständliche Hauptpunkte.</li>
-    <li>Prüfe dann, ob Unterpunkte klar eingeordnet und auch tatsächlich erreichbar sind.</li>
-  </ul>
 </div>

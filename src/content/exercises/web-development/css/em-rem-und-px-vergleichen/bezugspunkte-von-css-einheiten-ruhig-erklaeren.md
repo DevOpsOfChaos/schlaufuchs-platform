@@ -1,6 +1,6 @@
 ---
 title: Bezugspunkte von CSS-Einheiten ruhig erklären
-description: Begründe, wann px, em oder rem sinnvoller wirken und woran sich die Einheit jeweils orientiert.
+description: Erkläre, woran px, rem und em jeweils hängen und warum dieselbe Zahl sichtbar verschieden wirken kann.
 subject: web-development
 section: CSS
 topicPath:
@@ -8,6 +8,7 @@ topicPath:
   - responsive-layouts
   - em-rem-und-px-vergleichen
   - bezugspunkte-von-css-einheiten-ruhig-erklaeren
+taskId: WEB-CSS-LAYOUT-204
 level: einfach
 draft: false
 tags:
@@ -17,33 +18,32 @@ tags:
   - rem
   - px
 hintPoints:
-  - Beschreibe nicht nur die Zahl, sondern den Bezugspunkt.
-  - Unterscheide globalen und lokalen Kontext.
+  - Beschreibe nicht nur die Zahl, sondern zuerst den Bezugspunkt.
+  - Unterscheide globalen und lokalen Bezug sauber.
 selfCheckPoints:
-  - Kannst du erklären, woran em und rem hängen?
-  - Kannst du px von relativen Einheiten trennen?
+  - Kannst du px, rem und em fachlich trennen?
+  - Kannst du erklären, warum em in verschachtelten Bereichen stärker mitwächst?
 transferIdeas:
-  - Übertrage die Frage auf Schriftgrößen, Lücken oder Kartenabstände.
-reflectionPrompt: Wann hilft ein lokaler Bezug über em mehr als ein globaler Bezug über rem?
+  - Übertrage die Aufgabe auf Textgrößen, Kartenabstände oder Buttons.
+reflectionPrompt: Warum hilft dir die Frage nach dem Bezugspunkt mehr als bloßes Auswendiglernen der Kürzel?
 ---
 
-## Aufgabe 1: Einheit begründen
+## Aufgabe 1: Drei Einheiten vergleichen
 
-Begründe für jede Situation eine naheliegende Einheit:
+Erkläre für `px`, `rem` und `em` jeweils,
 
-- global abgestimmte Grundabstände auf einer ganzen Seite
-- ein Badge, das mit seiner lokalen Schriftgröße mitwachsen soll
-- ein sehr direkter, fester Linienwert
+- worauf sich der Wert bezieht,
+- wann die Einheit ruhig passt,
+- und warum dieselbe Zahl sichtbar unterschiedlich wirken kann.
 
-## Aufgabe 2: rem oder em?
+## Aufgabe 2: Lokaler oder globaler Bezug?
 
-Erkläre den Unterschied zwischen diesen beiden Aussagen:
+Eine Komponente soll mit ihrer eigenen Typografie mitwachsen.
 
-- „Der Abstand hängt an der Wurzel des Dokuments.“
-- „Der Abstand hängt am lokalen Kontext der Komponente.“
+Begründe, warum `em` hier oft anders wirkt als `rem`.
 
-## Aufgabe 3: Sichtbar vergleichen
+## Aufgabe 3: Denkfehler prüfen
 
-Eine Komponente hat eine größere Schriftgröße als der Rest der Seite.
+Jemand sagt: „1rem und 1em sind praktisch dasselbe.“
 
-Beschreibe, warum <code>padding: 1em</code> und <code>padding: 1rem</code> dort sichtbar unterschiedlich wirken können.
+Erkläre, warum das nur in bestimmten Situationen so aussieht.

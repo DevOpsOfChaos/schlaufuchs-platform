@@ -1,6 +1,6 @@
 ---
 title: Methoden ueberschreiben und ueberladen unterscheiden
-description: Verstehe, wann gleiche Namen verschiedene Signaturen haben und wann dieselbe Signatur Verhalten einer Oberklasse ueberdeckt.
+description: Verstehe, wann gleiche Namen verschiedene Signaturen haben und wann dieselbe Signatur Verhalten einer Oberklasse ersetzt.
 subject: informatik
 section: Programmierung
 topicPath:
@@ -14,7 +14,7 @@ learningGoals:
 practiceIdeas:
   - Vergleiche zwei Methoden mit gleichem Namen und unterschiedlichen Parametern.
   - Pruefe, ob in der Unterklasse exakt dieselbe Signatur erneut auftaucht.
-  - Begründe, welche Methoden fuer ein Objekt der Unterklasse direkt sichtbar sind.
+  - Begruende, welche Methoden fuer ein Objekt der Unterklasse direkt sichtbar sind.
 commonMistakes:
   - Gleichen Namen sofort als Ueberschreiben zu deuten.
   - Signatur und Rueckgabetyp nicht sauber zu trennen.
@@ -45,12 +45,12 @@ draft: false
 
 Die beiden Begriffe klingen fast gleich, aber die Denkfragen dahinter sind verschieden.
 
-- **Ueberladen** fragt: Gibt es mehrere passende Varianten mit demselben Namen?
-- **Ueberschreiben** fragt: Ersetzt die Unterklasse das Verhalten einer geerbten Methode?
+- **Ueberladen** fragt, ob es mehrere passende Varianten mit demselben Namen gibt.
+- **Ueberschreiben** fragt, ob eine Unterklasse geerbtes Verhalten ersetzt.
 
 <div class="compare-card">
   <p class="card-kicker">Kernvergleich</p>
-  <h3>Varianten anbieten vs. Verhalten ersetzen</h3>
+  <h3>Varianten anbieten oder Verhalten ersetzen</h3>
   <div class="compare-grid">
     <div class="compare-item">
       <strong>Ueberladen</strong>
@@ -68,15 +68,30 @@ Die beiden Begriffe klingen fast gleich, aber die Denkfragen dahinter sind versc
 Eine Klasse `A` kann `fkt()` und `fkt(int)` besitzen. Das ist Ueberladen.  
 Wenn eine Unterklasse `B` ebenfalls `fkt()` mit derselben Signatur definiert, dann ueberschreibt `B` die geerbte Variante `A::fkt()`.
 
-## Warum das wichtig ist
+## Die ruhigste Prueffrage
 
-Viele Lernende schauen nur auf den Namen. Ruhiger ist die Prueffrage:
+**Aendert sich nur die Parameterliste oder taucht dieselbe Methode in einer Unterklasse noch einmal auf?**
 
-**Aendert sich nur die Parameterliste oder kommt dieselbe Methode in einer Unterklasse noch einmal vor?**
+Diese Frage fuehrt meist schneller zur richtigen Einordnung als nur auf den Namen zu schauen.
 
-## Ueberschreiben kann ueberdeckend wirken
+## Warum das leicht verwechselt wird
 
-Beim Ueberschreiben verschwindet die Basismethode nicht magisch aus der Geschichte, aber fuer das Objekt der Unterklasse ist die neue Variante zunaechst die naheliegende.
+<div class="good-bad-grid">
+  <section>
+    <p class="card-kicker">Gut</p>
+    <h3>Auf Signatur und Klassenebene achten</h3>
+    <p>Du pruefst erst die Parameter und dann, ob Vererbung beteiligt ist.</p>
+  </section>
+  <section>
+    <p class="card-kicker">Schwach</p>
+    <h3>Nur am Namen haengen bleiben</h3>
+    <p>Dann wirkt fast jeder gleiche Methodenname sofort wie Ueberschreiben.</p>
+  </section>
+</div>
+
+## Diese Seite behandelt bewusst nur Namens- und Signaturfragen
+
+Sobald danach noch die Frage dazukommt, **wann** die passende Methode wirklich ausgewaehlt wird, bist du schon beim naechsten Thema mit `virtual` und Binden.
 
 ## Ruhige Pruefstrategie
 
@@ -98,8 +113,3 @@ Beim Ueberschreiben verschwindet die Basismethode nicht magisch aus der Geschich
 <div class="note-panel">
   <p><strong>Merke:</strong> Ueberladen organisiert Auswahl zwischen Varianten. Ueberschreiben organisiert Verhalten entlang einer Vererbung.</p>
 </div>
-
-
-## Ergaenzung: Gleicher Name allein reicht als Urteil nicht
-
-Der ruhigste Test ist immer zweistufig: **Ist die Signatur gleich?** Dann geht es eher um Ueberschreiben. **Unterscheidet sich die Signatur?** Dann geht es eher um Ueberladen. Der gleiche Name allein ist noch kein sauberes Urteil.

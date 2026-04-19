@@ -1,6 +1,6 @@
 ---
 title: HTML-Semantik – Grundidee verstehen
-description: Verstehe, warum HTML nicht nur Inhalt umschließt, sondern ihm auch eine klare Rolle gibt.
+description: Verstehe, warum HTML nicht nur Inhalt umschließt, sondern ihm eine klare Rolle im Dokument gibt.
 subject: web-development
 section: HTML
 topicPath:
@@ -8,28 +8,28 @@ topicPath:
   - html-semantik-grundidee-verstehen
 learningGoals:
   - Du erklärst die Grundidee semantischer HTML-Elemente.
-  - Du unterscheidest neutrale Container und bedeutungstragende Strukturelemente.
-  - Du begründest HTML-Entscheidungen eher mit Rolle als mit Aussehen.
+  - Du trennst neutrale Container und bedeutungstragende Strukturelemente sauber.
+  - Du ordnest Semantik zuerst über Dokumentrolle und erst danach über Layout ein.
 practiceIdeas:
-  - Lies eine kleine Seitenstruktur und benenne die Rollen von Kopf, Navigation, Hauptinhalt und Randnotiz.
-  - Vergleiche eine Lösung mit vielen div-Containern mit einer semantischeren Variante.
-  - Begründe für einzelne Bereiche, warum article, section oder aside näherliegt.
+  - Lies eine Seitenstruktur zuerst ohne CSS und beschreibe die Rollen der Bereiche.
+  - Vergleiche eine neutrale div-Lösung mit einer semantischen HTML-Lösung.
+  - Prüfe bei einer Strukturfrage zuerst, ob es um Seitengerüst oder um Inhaltsstruktur geht.
 commonMistakes:
   - HTML-Tags nur nach Optik statt nach Bedeutung auszuwählen.
   - main und article gleichzusetzen.
   - Zu glauben, Semantik würde das Layout automatisch erzeugen.
 keyTakeaways:
-  - Semantische Elemente beschreiben die Rolle eines Bereichs.
+  - Semantische Elemente beschreiben die Rolle eines Bereichs im Dokument.
   - Semantik und Layout sind zwei verschiedene Entscheidungen.
-  - Gute Semantik macht Seiten verständlicher und wartbarer.
+  - Gute Semantik beginnt mit der Frage nach Aufgabe und Kontext eines Bereichs.
 recognizeSignals:
-  - Es geht um Seitenstruktur, Rollen von Bereichen oder verständlicheres HTML.
-  - Du sollst entscheiden, ob etwas Navigation, Hauptinhalt, Abschnitt oder Ergänzung ist.
-  - In Beispielen tauchen header, main, nav, article, section oder aside auf.
+  - Es geht um Seitenstruktur, Dokumentrollen oder verständlicheres HTML.
+  - Du sollst entscheiden, ob etwas zum Seitengerüst oder zur Inhaltsstruktur gehört.
+  - In Beispielen tauchen header, nav, main, article, section oder aside auf.
 selfCheckPoints:
   - Kann ich Rolle und Aussehen klar trennen?
   - Kann ich neutrale und semantische Container vergleichen?
-  - Kann ich erklären, warum eine Struktur auch ohne CSS sinnvoll sein sollte?
+  - Kann ich erklären, warum eine Struktur auch ohne CSS sinnvoll lesbar sein sollte?
 tags:
   - html
   - semantik
@@ -41,48 +41,49 @@ draft: false
 
 ## Grundidee
 
-HTML beschreibt nicht nur, **dass** es irgendwo Inhalt gibt, sondern auch, **welche Rolle** dieser Inhalt auf der Seite hat. Genau darum geht es bei Semantik.
+HTML beschreibt nicht nur, **dass** es irgendwo Inhalt gibt, sondern auch, **welche Rolle** dieser Inhalt im Dokument hat. Genau darum geht es bei Semantik.
 
 <div class="example-card">
-  <p class="card-kicker">Leitbeispiel</p>
-  <h3>Gleiche Optik, aber andere Aussage</h3>
-  <p>Zwei Seiten können gleich aussehen. Auf der ersten wurde alles mit <code>&lt;div&gt;</code> gebaut, auf der zweiten mit <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code> und <code>&lt;aside&gt;</code>. Für das Design kann beides gleich wirken. Für Struktur, Lesbarkeit und Wartung ist die zweite Variante oft klarer.</p>
+  <p class="card-kicker">Leitbild</p>
+  <h3>Zwei Ebenen der Struktur</h3>
+  <p>Bei Semantik hilft eine ruhige Unterscheidung: Manche Elemente beschreiben das <strong>Seitengerüst</strong>, andere die <strong>Inhaltsstruktur</strong>. Erst diese Trennung verhindert, dass verschiedene Seitenrollen versehentlich durcheinandergeraten.</p>
 </div>
 
-## Semantik fragt nach der Rolle
-
-Eine ruhige Leitfrage ist: **Was ist dieser Bereich auf der Seite?**
-
-Nicht: Wie breit ist er? Welche Farbe hat er? Wie sieht er aus?  
-Sondern: Ist es Navigation, Hauptinhalt, ein eigenständiger Beitrag oder nur Ergänzung?
-
-## Typische semantische Elemente
-
-<div class="visual-grid">
-  <div class="visual-item"><strong>header</strong><span>Kopfbereich einer Seite oder eines Abschnitts.</span></div>
-  <div class="visual-item"><strong>nav</strong><span>Ein Bereich mit Navigationslinks.</span></div>
-  <div class="visual-item"><strong>main</strong><span>Der zentrale Hauptinhalt der Seite.</span></div>
-  <div class="visual-item"><strong>article</strong><span>Eigenständiger Inhalt, der auch für sich stehen kann.</span></div>
-  <div class="visual-item"><strong>section</strong><span>Ein inhaltlicher Abschnitt innerhalb eines größeren Zusammenhangs.</span></div>
-  <div class="visual-item"><strong>aside</strong><span>Ergänzende Randinformation, die nicht den Kern trägt.</span></div>
-</div>
-
-## div ist nicht falsch, aber neutral
+## Die zwei wichtigsten Denkebenen
 
 <div class="compare-card">
-  <p class="card-kicker">Wichtiger Vergleich</p>
-  <h3>Neutraler Container gegen semantisches Element</h3>
+  <p class="card-kicker">Grundordnung</p>
+  <h3>Seitengerüst ist nicht dasselbe wie Inhaltsstruktur</h3>
   <div class="compare-grid">
-    <div class="compare-item"><strong>div</strong><span>Ein neutraler Container. Er gruppiert Inhalt, sagt aber nichts über dessen Bedeutung.</span></div>
-    <div class="compare-item"><strong>semantische Elemente</strong><span>Sie gruppieren ebenfalls, beschreiben aber zusätzlich die Rolle des Inhalts.</span></div>
+    <div class="compare-item">
+      <strong>Seitengerüst</strong>
+      <span>Elemente wie <code>header</code>, <code>nav</code>, <code>main</code> und <code>footer</code> helfen dabei, die großen Rollen einer Seite zu lesen.</span>
+    </div>
+    <div class="compare-item">
+      <strong>Inhaltsstruktur</strong>
+      <span>Elemente wie <code>article</code>, <code>section</code> und <code>aside</code> helfen dabei, den Inhalt innerhalb dieses Gerüsts fachlich zu gliedern.</span>
+    </div>
   </div>
 </div>
 
-## Mini-Demo: gleiche Seite, unterschiedliche Aussagekraft
+## Neutrale und semantische Container
+
+<div class="visual-grid">
+  <div class="visual-item">
+    <strong>div</strong>
+    <span>Ein neutraler Container. Er gruppiert Inhalt, sagt aber noch nichts über dessen Rolle.</span>
+  </div>
+  <div class="visual-item">
+    <strong>semantische Elemente</strong>
+    <span>Sie gruppieren ebenfalls, beschreiben aber zusätzlich die Aufgabe des Inhalts im Dokument.</span>
+  </div>
+</div>
+
+## Mini-Demo: gleiche Optik, klarere Aussage
 
 <div class="figure-card">
   <p class="card-kicker">Mini-Seite in der Seite</p>
-  <h3>Beide Versionen können gleich aussehen</h3>
+  <h3>Beide Varianten können ähnlich aussehen, aber nur eine ist sofort lesbarer</h3>
   <div style="display:grid; gap:0.8rem;">
     <div style="padding:0.9rem; border:1px dashed #94a3b8; border-radius:16px; background:#f8fafc;">
       <p style="margin:0 0 0.45rem;"><strong>Neutral</strong></p>
@@ -99,14 +100,21 @@ Sondern: Ist es Navigation, Hauptinhalt, ein eigenständiger Beitrag oder nur Er
   </div>
 </div>
 
-## Eine ruhige Prüfstrategie
+## Ruhige Entscheidungslogik
 
 <div class="step-grid">
-  <div class="step-item"><strong>1. Rolle suchen</strong><span>Was ist dieser Bereich fachlich auf der Seite?</span></div>
-  <div class="step-item"><strong>2. Eigenständig oder Teil?</strong><span>Ist der Inhalt für sich verständlich oder nur Teil eines größeren Blocks?</span></div>
-  <div class="step-item"><strong>3. Erst danach CSS</strong><span>Layout und Aussehen kommen erst nach der Strukturentscheidung.</span></div>
+  <div class="step-item"><strong>1. Ebene klären</strong><span>Geht es um das große Seitengerüst oder um einen Teil innerhalb des Inhalts?</span></div>
+  <div class="step-item"><strong>2. Rolle benennen</strong><span>Ist der Bereich Navigation, Hauptinhalt, eigenständiger Beitrag, Abschnitt oder Ergänzung?</span></div>
+  <div class="step-item"><strong>3. Erst danach CSS</strong><span>Layout, Farben und Abstände kommen erst nach der Strukturentscheidung.</span></div>
 </div>
 
+## Was diese Seite bewusst nicht doppelt erklärt
+
+Diese Grundseite klärt nur die **große Denkordnung**. Für die genauere Unterscheidung einzelner Rollen gibt es eigene Seiten:
+
+- `header`, `main`, `footer` und `nav` für das Seitengerüst
+- `article`, `section` und `aside` für die Inhaltsstruktur
+
 <div class="note-panel">
-  <p><strong>Merke:</strong> Gute HTML-Semantik macht eine Seite nicht automatisch schöner, aber oft deutlich verständlicher.</p>
+  <p><strong>Merke:</strong> Gute HTML-Semantik wird klarer, sobald du zuerst zwischen <strong>Seitengerüst</strong> und <strong>Inhaltsstruktur</strong> trennst.</p>
 </div>

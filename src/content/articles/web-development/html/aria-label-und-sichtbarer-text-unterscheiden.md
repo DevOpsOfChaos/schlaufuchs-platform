@@ -1,6 +1,6 @@
 ---
 title: ARIA-Label und sichtbaren Text unterscheiden
-description: Verstehe, warum ein sichtbarer Text und ein ARIA-Label nicht dieselbe Rolle haben und warum gute Bedienbarkeit meist mit klar erkennbarem Inhalt beginnt.
+description: Verstehe, warum sichtbarer Text und aria-label nicht dieselbe Rolle haben und warum gute Verständlichkeit meist sichtbar beginnt.
 subject: web-development
 section: HTML
 topicPath:
@@ -8,9 +8,9 @@ topicPath:
   - linktexte-und-links
   - aria-label-und-sichtbarer-text-unterscheiden
 learningGoals:
-  - Du erklärst den Unterschied zwischen sichtbarem Text und ARIA-Label.
+  - Du erklärst den Unterschied zwischen sichtbarem Text und aria-label.
   - Du beschreibst, warum sichtbarer Inhalt oft die erste und ruhigere Lösung ist.
-  - Du liest Beschriftung eher als Orientierung für Menschen und Hilfstechnologien zusammen.
+  - Du liest Beschriftung als Zusammenspiel aus Oberfläche und technischer Benennung.
 practiceIdeas:
   - Vergleiche einen Icon-Button mit und ohne klar erkennbare Beschriftung.
   - Prüfe, wann ein sichtbarer Text schon ausreicht und wann eine zusätzliche Benennung nötig wird.
@@ -21,14 +21,14 @@ commonMistakes:
   - sichtbare Beschriftung und technische Benennung nicht zusammen zu denken.
 keyTakeaways:
   - Sichtbarer Text hilft direkt beim Verstehen.
-  - ARIA-Labels unterstützen vor allem die technische Benennung von Elementen.
+  - aria-label unterstützt vor allem die technische Benennung von Elementen.
   - Gute Oberflächen versuchen zuerst verständliche sichtbare Beschriftung.
 recognizeSignals:
   - Es geht um Icon-Buttons, unklare Schaltflächen oder knappe Oberflächen.
   - Du sollst erklären, wie ein Element benannt oder verstanden wird.
   - In Beispielen ist die Verständlichkeit wichtiger als die reine Platzersparnis.
 selfCheckPoints:
-  - Kann ich sichtbaren Text und ARIA-Label trennen?
+  - Kann ich sichtbaren Text und aria-label trennen?
   - Kann ich begründen, warum sichtbare Beschriftung oft die ruhigere Lösung ist?
   - Kann ich einen unklar benannten Button kritisch lesen?
 tags:
@@ -42,26 +42,26 @@ draft: false
 
 ## Grundidee
 
-Ein sichtbarer Text erklärt direkt, was ein Element tut. Ein `aria-label` hilft vor allem dabei, ein Element technisch sinnvoll zu benennen. Beides kann zusammenwirken, aber es ist nicht dieselbe Rolle.
+Ein sichtbarer Text erklärt direkt, was ein Element tut. Ein `aria-label` hilft vor allem dabei, ein Element technisch sinnvoll zu benennen. Beides kann zusammenwirken, aber es ist **nicht dieselbe Rolle**.
 
 <div class="example-card">
   <p class="card-kicker">Leitbeispiel</p>
   <h3>Ein Papierkorb-Icon ohne Text</h3>
-  <p>Für manche Menschen ist das Symbol klar, für andere nicht. Ein sichtbarer Text wie „Löschen“ schafft sofort Verständlichkeit. Ein zusätzliches technisches Label kann helfen, ersetzt aber nicht automatisch eine insgesamt gute Oberfläche.</p>
+  <p>Für manche Menschen ist das Symbol klar, für andere nicht. Ein sichtbarer Text wie <code>Löschen</code> schafft sofort Verständlichkeit. Ein zusätzliches technisches Label kann helfen, ersetzt aber nicht automatisch eine insgesamt gute Oberfläche.</p>
 </div>
 
-## Sichtbare Beschriftung und technische Benennung
+## Zwei Ebenen der Benennung
 
 <div class="compare-card">
   <p class="card-kicker">Rollen trennen</p>
-  <h3>Beides unterstützt Orientierung, aber auf unterschiedliche Weise</h3>
+  <h3>Oberfläche und technische Benennung arbeiten zusammen</h3>
   <div class="compare-grid">
     <div class="compare-item">
       <strong>Sichtbarer Text</strong>
       <span>Ist direkt für alle auf der Oberfläche erkennbar und erklärt die Aufgabe sofort.</span>
     </div>
     <div class="compare-item">
-      <strong>ARIA-Label</strong>
+      <strong>aria-label</strong>
       <span>Hilft bei der technischen Benennung eines Elements, besonders wenn sichtbarer Text fehlt oder ergänzt werden muss.</span>
     </div>
   </div>
@@ -85,6 +85,20 @@ Ein sichtbarer Text erklärt direkt, was ein Element tut. Ein `aria-label` hilft
     </div>
   </div>
 </div>
+
+## Wann aria-label sinnvoll ergänzen kann
+
+Ein `aria-label` ist vor allem dann sinnvoll, wenn
+
+- ein Element technisch benannt werden muss,
+- sichtbarer Text fehlt oder sehr knapp ist,
+- und die Oberfläche sonst für Hilfstechnologien zu wenig klar benannt wäre.
+
+Das ist aber eine **Ergänzung**, keine Ausrede für unnötig unklare Oberflächen.
+
+## Diese Seite behandelt bewusst Benennung, nicht Formularlabels
+
+Hier geht es um die **Benennung von Bedienelementen** wie Buttons oder Icons. Die Frage, warum ein Formularfeld ein echtes sichtbares `<label>` braucht und warum Placeholder das nicht ersetzt, gehört auf die eigene Formular-/Label-Seite.
 
 ## Eine ruhige Prüfstrategie
 

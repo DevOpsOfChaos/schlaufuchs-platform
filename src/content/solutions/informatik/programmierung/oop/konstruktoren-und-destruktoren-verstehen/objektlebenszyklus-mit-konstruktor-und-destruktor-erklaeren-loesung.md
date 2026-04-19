@@ -1,31 +1,31 @@
 ---
-title: Musterloesung - Objektlebenszyklus mit Konstruktor und Destruktor erklaeren
-description: Musterloesung zur Aufgabe INF-PROG-OOP-005.
+title: Loesung – Objektlebenszyklus mit Konstruktor und Destruktor erklaeren
+description: Musterloesung zur Aufgabe ueber Konstruktor, Destruktor und Objektlebenszyklus.
 subject: informatik
 section: Programmierung
 topicPath:
   - programmierung
   - oop
   - konstruktoren-und-destruktoren-verstehen
-  - objektlebenszyklus-mit-konstruktor-und-destruktor-erklaeren-loesung
 taskId: INF-PROG-OOP-005
-relatedExercise: src/content/exercises/informatik/programmierung/oop/konstruktoren-und-destruktoren-verstehen/objektlebenszyklus-mit-konstruktor-und-destruktor-erklaeren.md
+relatedExercise: informatik/programmierung/oop/konstruktoren-und-destruktoren-verstehen/objektlebenszyklus-mit-konstruktor-und-destruktor-erklaeren
 tags:
   - informatik
-  - programmierung
   - oop
   - loesung
 draft: false
 ---
 
-## Aufgabe 1: Start beschreiben
+## Musterloesung
 
-Der Konstruktor wird beim Erzeugen eines Objekts genutzt. Er sorgt dafuer, dass das Objekt direkt in einen sinnvollen Anfangszustand kommt.
+### Aufgabe 1
 
-## Aufgabe 2: Ende beschreiben
+Der Konstruktor sorgt dafuer, dass ein neues Objekt in einem sinnvollen Anfangszustand startet. Er setzt also Startwerte oder bereitet benoetigte Bestandteile direkt beim Erzeugen vor.
 
-Der Destruktor gehoert zum Ende des Objektlebenszyklus. Er dient vor allem dazu, sauber aufzuraeumen, wenn das Objekt verschwindet.
+### Aufgabe 2
 
-## Aufgabe 3: Fall unterscheiden
+Der Destruktor gehoert zum Ende des Objektlebenszyklus. Er hilft dabei, Ressourcen oder offene Zustaende sauber aufzuraeumen, wenn das Objekt verschwindet.
 
-Ein automatisch erzeugtes Objekt endet typischerweise mit dem Verlassen seines Bereichs. Ein mit <code>new</code> erzeugtes Objekt bleibt bestehen, bis es ausdruecklich mit <code>delete</code> freigegeben wird.
+### Aufgabe 3
+
+Ein automatisch erzeugtes Objekt endet meist automatisch beim Verlassen seines Geltungsbereichs. Ein mit `new` erzeugtes Objekt braucht spaeter ein bewusstes `delete`, damit sein Lebenszyklus sauber beendet wird.

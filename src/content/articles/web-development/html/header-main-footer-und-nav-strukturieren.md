@@ -1,6 +1,6 @@
 ---
 title: Header, Main, Footer und Nav strukturieren
-description: Verstehe, wie diese HTML-Bereiche unterschiedliche Rollen auf einer Seite übernehmen und warum gute Seitengliederung mehr ist als nur optische Kästen.
+description: Verstehe, wie diese HTML-Bereiche unterschiedliche Rollen im Seitengerüst übernehmen und warum gute Gliederung mehr ist als optische Kästen.
 subject: web-development
 section: HTML
 topicPath:
@@ -8,29 +8,29 @@ topicPath:
   - navigation-und-menues
   - header-main-footer-und-nav-strukturieren
 learningGoals:
-  - Du unterscheidest header, main, footer und nav nach ihrer Rolle.
-  - Du beschreibst eine Seite eher über Dokumentbereiche als über bloße Boxen.
-  - Du begründest, warum Navigation nicht einfach nur eine Linkreihe ist.
+  - Du unterscheidest header, main, footer und nav nach ihrer Dokumentrolle.
+  - Du erklärst, warum main nicht einfach der größte sichtbare Block ist.
+  - Du begründest, warum Navigation eine andere Aufgabe hat als Hauptinhalt.
 practiceIdeas:
-  - Zerlege eine kleine Seite in Kopfbereich, Hauptinhalt, Navigation und Abschlussbereich.
+  - Zerlege eine kleine Seite in Einstieg, Orientierung, Hauptinhalt und Abschluss.
   - Prüfe bei einem Entwurf, wo der eigentliche Hauptinhalt liegt.
-  - Erkläre, warum ein Navigationsblock eine andere Aufgabe hat als ein normaler Inhaltsabschnitt.
+  - Begründe Navigation über ihre Aufgabe und nicht über ihre Form.
 commonMistakes:
   - main mit dem ganzen sichtbaren Bereich gleichzusetzen.
   - nav nur als optische Menüleiste zu lesen.
   - header und footer nur über Position statt über Funktion zu unterscheiden.
 keyTakeaways:
-  - Header, main, footer und nav markieren unterschiedliche Rollen auf einer Seite.
-  - Gute Struktur hilft beim Verstehen, Navigieren und Weiterverarbeiten.
-  - "Semantik bedeutet hier vor allem: Der Bereich bekommt eine nachvollziehbare Aufgabe."
+  - Header, nav, main und footer markieren verschiedene Rollen im Seitengerüst.
+  - Main bezeichnet den eigentlichen Hauptinhalt einer Seite.
+  - Gute Landmarken helfen beim Verstehen, Navigieren und Wiederfinden von Inhalten.
 recognizeSignals:
-  - Es geht um Seitengerüst, Orientierung oder strukturelle HTML-Bereiche.
+  - Es geht um Seitengerüst, Orientierung oder große HTML-Bereiche.
   - Du sollst erklären, wo der Hauptinhalt beginnt und wo Navigation liegt.
-  - In Beispielen zählt die Dokumentrolle stärker als das Layout.
+  - In Beispielen zählt die Dokumentrolle stärker als die optische Lage.
 selfCheckPoints:
   - Kann ich den Hauptinhalt einer Seite klar benennen?
   - Kann ich erklären, warum ein Navigationsblock als nav sinnvoll ist?
-  - Kann ich Kopfbereich und Abschlussbereich funktional unterscheiden?
+  - Kann ich header und footer funktional unterscheiden?
 tags:
   - html
   - semantik
@@ -43,12 +43,12 @@ draft: false
 
 ## Grundidee
 
-Viele Seiten bestehen sichtbar aus mehreren Kästen. Fachlich spannender ist aber: **Welche Aufgabe hat jeder dieser Bereiche?** Genau hier helfen `header`, `main`, `footer` und `nav`.
+Diese Seite betrachtet nur das **große Seitengerüst**. Die zentrale Frage lautet hier nicht: Wie sehen die Boxen aus? Sondern: **Welche Aufgabe hat jeder große Bereich der Seite?**
 
 <div class="example-card">
   <p class="card-kicker">Leitbeispiel</p>
   <h3>Eine kleine Kursseite</h3>
-  <p>Oben stehen Logo und Hauptnavigation, in der Mitte die aktuelle Lektion, unten ergänzende Hinweise und Kontaktlinks. Sichtbar sind das nur Blöcke – semantisch sind es aber unterschiedliche Rollen, die beim Lesen und Navigieren helfen.</p>
+  <p>Oben stehen Logo und Orientierung, darunter die Navigation, in der Mitte die aktuelle Lektion und unten ergänzende Hinweise. Sichtbar sind das nur Blöcke. Fachlich sind es unterschiedliche Landmarken der Seite.</p>
 </div>
 
 ## Die Rollen im Überblick
@@ -56,7 +56,7 @@ Viele Seiten bestehen sichtbar aus mehreren Kästen. Fachlich spannender ist abe
 <div class="visual-grid">
   <div class="visual-item">
     <strong>header</strong>
-    <span>Ein Kopfbereich mit Einstieg, Orientierung oder Einleitung.</span>
+    <span>Ein Kopfbereich mit Einstieg, Einleitung oder Orientierung.</span>
   </div>
   <div class="visual-item">
     <strong>nav</strong>
@@ -64,7 +64,7 @@ Viele Seiten bestehen sichtbar aus mehreren Kästen. Fachlich spannender ist abe
   </div>
   <div class="visual-item">
     <strong>main</strong>
-    <span>Der zentrale Hauptinhalt der Seite.</span>
+    <span>Der zentrale Hauptinhalt, wegen dem die Seite besucht wird.</span>
   </div>
   <div class="visual-item">
     <strong>footer</strong>
@@ -72,11 +72,11 @@ Viele Seiten bestehen sichtbar aus mehreren Kästen. Fachlich spannender ist abe
   </div>
 </div>
 
-## Mini-Demo: gleiche Seite, klarere Rollen
+## Mini-Demo: Landmarken statt bloße Kisten
 
 <div class="figure-card">
   <p class="card-kicker">Mini-Seite in der Seite</p>
-  <h3>Hier wird nicht nur gestylt, sondern der Seitenbau lesbar gemacht</h3>
+  <h3>Hier wird nicht nur gestylt, sondern das Seitengerüst lesbar gemacht</h3>
   <div style="padding:0.95rem; border:1px dashed #94a3b8; border-radius:16px; background:#f8fafc;">
     <div style="display:grid; gap:0.7rem; padding:0.9rem; border-radius:14px; background:white; border:1px solid #e2e8f0;">
       <div style="padding:0.8rem 0.9rem; border-radius:12px; background:#dbeafe;"><strong>header</strong> – Logo, Seitentitel, kurze Einordnung</div>
@@ -84,13 +84,12 @@ Viele Seiten bestehen sichtbar aus mehreren Kästen. Fachlich spannender ist abe
       <div style="padding:1rem 0.9rem; border-radius:12px; background:#dcfce7;"><strong>main</strong> – aktuelle Lektion, Beispiel, Erklärung</div>
       <div style="padding:0.8rem 0.9rem; border-radius:12px; background:#e9d5ff;"><strong>footer</strong> – Kontakt, Lizenz, ergänzende Links</div>
     </div>
-    <p style="margin:0.65rem 0 0;">Die Farben sind hier nur Hilfe. Der eigentliche Punkt ist die unterschiedliche <strong>Dokumentrolle</strong> der Bereiche.</p>
   </div>
 </div>
 
-## Main ist nicht einfach „alles in der Mitte“
+## Main ist nicht alles
 
-`main` meint nicht irgendeinen großen Container, sondern den **eigentlichen Hauptinhalt**, wegen dem die Seite besucht wird.
+`main` meint nicht den gesamten sichtbaren Seitenbereich. Navigation und Abschluss gehören oft sichtbar dazu, sind aber **nicht** der Hauptinhalt.
 
 <div class="compare-card">
   <p class="card-kicker">Wichtige Trennung</p>
@@ -102,7 +101,7 @@ Viele Seiten bestehen sichtbar aus mehreren Kästen. Fachlich spannender ist abe
     </div>
     <div class="compare-item">
       <strong>Main</strong>
-      <span>Ist der Inhalt, um den es auf dieser Seite hauptsächlich geht.</span>
+      <span>Ist der Inhalt, um den es auf dieser einzelnen Seite hauptsächlich geht.</span>
     </div>
   </div>
 </div>
@@ -114,9 +113,9 @@ Viele Seiten bestehen sichtbar aus mehreren Kästen. Fachlich spannender ist abe
 <footer>...</footer>
 ```
 
-## Rollen zuerst, Feinschliff später
+## Was diese Seite bewusst nicht doppelt erklärt
 
-Gerade bei Seitenstrukturen hilft es, nicht mit Farben oder Breiten zu starten, sondern mit der Frage: Welcher Bereich eröffnet, navigiert, trägt den Hauptinhalt oder schließt die Seite ab?
+Diese Seite erklärt **nur** die großen Landmarken der Seite. Für die feinere Inhaltsstruktur innerhalb von `main` sind `article`, `section` und `aside` die bessere nächste Ebene.
 
 ## Eine ruhige Prüfstrategie
 
@@ -126,5 +125,5 @@ Gerade bei Seitenstrukturen hilft es, nicht mit Farben oder Breiten zu starten, 
 4. Welche Informationen gehören eher in den Abschluss?
 
 <div class="note-panel">
-  <p><strong>Merke:</strong> Gute Seitensemantik beschreibt nicht primär Farben oder Boxen, sondern <strong>Rollen im Dokument</strong>.</p>
+  <p><strong>Merke:</strong> Gute Seitensemantik beschreibt hier vor allem <strong>Landmarken des Seitengerüsts</strong>.</p>
 </div>

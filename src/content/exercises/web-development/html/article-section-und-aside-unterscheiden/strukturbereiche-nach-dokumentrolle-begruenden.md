@@ -8,6 +8,7 @@ topicPath:
   - navigation-und-menues
   - article-section-und-aside-unterscheiden
   - strukturbereiche-nach-dokumentrolle-begruenden
+taskId: WEB-HTML-CORE-103
 level: mittel
 draft: false
 tags:
@@ -32,9 +33,9 @@ reflectionPrompt: Warum führt ähnliche Optik auf Seiten oft dazu, dass semanti
 
 Ordne zu und begründe:
 
-- Ein kompletter Lernbeitrag mit eigener Überschrift und eigenem Thema
-- Ein Unterabschnitt innerhalb dieses Beitrags
-- Ein seitlicher Merkkasten mit zusätzlichem Hinweis
+- ein kompletter Lernbeitrag mit eigener Überschrift und eigenem Thema
+- ein Unterabschnitt innerhalb dieses Beitrags
+- ein seitlicher Merkkasten mit zusätzlichem Hinweis
 
 Begründe jede Zuordnung über die Dokumentrolle des Inhalts.
 

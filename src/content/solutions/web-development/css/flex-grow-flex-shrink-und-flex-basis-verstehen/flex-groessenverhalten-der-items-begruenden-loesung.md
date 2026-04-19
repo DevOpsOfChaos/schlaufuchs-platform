@@ -1,30 +1,33 @@
 ---
-title: Musterlösung – Flex-Größenverhalten der Items begründen
-description: Musterlösung zur Aufgabe WEB-CSS-FLEX-103.
+title: Lösung – Flex-Größenverhalten der Items begründen
+description: Musterlösung zur Aufgabe über flex-grow, flex-shrink und flex-basis.
 subject: web-development
 section: CSS
 topicPath:
   - css
   - flex-grow-flex-shrink-und-flex-basis-verstehen
-  - flex-groessenverhalten-der-items-begruenden-loesung
-taskId: WEB-CSS-FLEX-103
-relatedExercise: src/content/exercises/web-development/css/flex-grow-flex-shrink-und-flex-basis-verstehen/flex-groessenverhalten-der-items-begruenden.md
+taskId: WEB-CSS-FLEX-206
+relatedExercise: web-development/css/flex-grow-flex-shrink-und-flex-basis-verstehen/flex-groessenverhalten-der-items-begruenden
 tags:
-  - web-development
   - css
+  - flexbox
   - loesung
-  - task-id
 draft: false
 ---
 
-## Aufgabe 1: Mehr wachsen
+## Musterlösung
 
-Dann ist wahrscheinlich <code>flex-grow</code> beim zweiten Item größer.
+### Aufgabe 1
 
-## Aufgabe 2: Platzmangel
+Beide Items starten mit derselben Basisgröße. Das Item mit `flex-grow: 2` darf zusätzlichen freien Platz stärker mitnutzen als das Item mit `flex-grow: 1`.
 
-Das beschreibt <code>flex-shrink</code>. Es sagt, wie ein Item bei zu wenig Platz schrumpfen darf.
+### Aufgabe 2
 
-## Aufgabe 3: Startwert
+`flex-shrink` beschreibt, wie ein Item bei Platzmangel kleiner werden darf. Es wird also relevant, wenn der Container enger ist als die Summe der gewünschten Größen.
 
-<code>flex-basis</code> beschreibt die Ausgangsgröße, von der aus die weitere Platzverteilung startet.
+### Aufgabe 3
+
+`flex: 0 1 auto` bedeutet:
+- nicht zusätzlich wachsen,
+- bei Platzmangel schrumpfen dürfen,
+- als Ausgangspunkt von einer automatischen Basisgröße ausgehen.

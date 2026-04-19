@@ -1,6 +1,6 @@
 ---
 title: Methodenwahl bei virtual und Referenzen begruenden
-description: Begründe, wann eine Methodenwahl statisch und wann dynamisch erfolgt.
+description: Begruende, wann eine Methodenwahl statisch und wann dynamisch erfolgt.
 subject: informatik
 section: Programmierung
 topicPath:
@@ -16,25 +16,26 @@ tags:
   - aufgabe
   - programmierung
   - oop
+  - polymorphie
 hintPoints:
-  - Lies zuerst ruhig, welche Klassenebene oder Objektrolle hier gemeint ist.
-  - Trenne Begriffe sauber, bevor du Beispiele deutest.
+  - Lies zuerst ruhig, welcher Typ in der Referenz steht.
+  - Trenne Referenztyp und Objekttyp, bevor du bindest.
 selfCheckPoints:
-  - Habe ich die Schluesselbegriffe fachlich sauber getrennt?
-  - Habe ich meine Begruendung in ganzen Saetzen formuliert?
+  - Habe ich statisch und dynamisch in ganzen Saetzen unterschieden?
+  - Habe ich virtual als Bindehinweis erkannt?
 transferIdeas:
   - Uebertrage dieselbe Denklogik auf ein eigenes Klassenbeispiel.
-reflectionPrompt: "Welche Begriffsverwechslung waere hier am wahrscheinlichsten gewesen?"
+reflectionPrompt: Welche Frage hilft dir mehr, der sichtbare Typ oder das wirkliche Objekt?
 ---
 
 ## Aufgabe 1: Grundidee erklaeren
 
-Erklaere in 2-3 Saetzen die Kernidee von **Statisches und dynamisches Binden**.
+Erklaere in 2 bis 3 Saetzen die Kernidee von statischem und dynamischem Binden.
 
 ## Aufgabe 2: Vergleich sauber machen
 
-Beschreibe in 2-4 Saetzen den wichtigsten Unterschied oder die wichtigste Aufgabentrennung in diesem Thema.
+Beschreibe in 2 bis 4 Saetzen den wichtigsten Unterschied zwischen frueher und spaeter Methodenwahl.
 
 ## Aufgabe 3: Beispiel deuten
 
-Formuliere ein eigenes kleines Beispiel oder deute ein moegliches Klassenbeispiel in Worten. Benenne dabei die Rolle der beteiligten Elemente fachlich sauber.
+Formuliere ein kleines Beispiel in Worten, in dem eine Basisklassenreferenz auf ein Objekt der Unterklasse zeigt, und erklaere, wann dynamisches Binden relevant wird.

@@ -13,15 +13,15 @@ learningGoals:
   - Du liest Referenzen auf Oberklassen ruhiger.
 practiceIdeas:
   - Vergleiche einen direkten Objektaufruf mit einem Aufruf ueber eine Basisklassenreferenz.
-  - Markiere, welche Methode ohne virtual feststeht und welche spaeter gewaehlt wird.
+  - Markiere, welche Methode ohne virtual frueh feststeht und welche spaeter gewaehlt wird.
   - Formuliere die Entscheidung einmal in Alltagssprache.
 commonMistakes:
   - Zu glauben, dass Polymorphie automatisch immer dynamisch ist.
   - Direkten Objektaufruf und Basisklassenreferenz gleich zu lesen.
   - virtual nur als Zusatzwort statt als Bindehinweis zu sehen.
 keyTakeaways:
-  - Statisches Binden entscheidet frueh, meist beim Kompilieren.
-  - Dynamisches Binden entscheidet spaeter, zur Laufzeit.
+  - Statisches Binden entscheidet frueh und meist beim Kompilieren.
+  - Dynamisches Binden entscheidet spaeter und zur Laufzeit.
   - Virtual macht polymorphes Verhalten ueber Oberklassenreferenzen moeglich.
 recognizeSignals:
   - Es geht um virtual, Referenzen oder Laufzeitwahl.
@@ -49,7 +49,7 @@ Nicht immer ist sofort klar, welche konkrete Methode am Ende ausgefuehrt wird. M
 
 <div class="compare-card">
   <p class="card-kicker">Vergleich</p>
-  <h3>Frueh festgelegt vs. zur Laufzeit entschieden</h3>
+  <h3>Frueh festgelegt oder zur Laufzeit entschieden</h3>
   <div class="compare-grid">
     <div class="compare-item">
       <strong>Statisches Binden</strong>
@@ -74,9 +74,28 @@ Bei virtuellen Methoden kann genau daraus polymorphes Verhalten entstehen.
 
 Viele Codebeispiele zeigen nur Namen und Klassen. Das eigentliche Denkbild ist aber:
 
-- **Welcher Typ steht links in der Referenz?**
-- **Welches Objekt steckt wirklich dahinter?**
-- **Ist die Methode virtuell?**
+- Welcher Typ steht links in der Referenz?
+- Welches Objekt steckt wirklich dahinter?
+- Ist die Methode virtuell?
+
+## Nicht dieselbe Frage wie beim Ueberschreiben
+
+<div class="good-bad-grid">
+  <section>
+    <p class="card-kicker">Gut</p>
+    <h3>Erst Struktur, dann Entscheidungszeit</h3>
+    <p>Zuerst klaerst du, ob Methoden ueberschrieben werden. Danach klaerst du, ob die Auswahl frueh oder spaet getroffen wird.</p>
+  </section>
+  <section>
+    <p class="card-kicker">Schwach</p>
+    <h3>Alles unter einem Schlagwort sammeln</h3>
+    <p>Dann vermischen sich Ueberschreiben, virtual und Laufzeitwahl unnötig.</p>
+  </section>
+</div>
+
+## Diese Seite behandelt bewusst den Zeitpunkt der Methodenwahl
+
+`virtual` und `override` sind die sichtbaren Sprachmittel. Hier geht es noch abstrakter um die Frage, **wann** die Entscheidung faellt.
 
 ## Ruhige Pruefstrategie
 
@@ -96,5 +115,5 @@ Viele Codebeispiele zeigen nur Namen und Klassen. Das eigentliche Denkbild ist a
 </div>
 
 <div class="note-panel">
-  <p><strong>Merke:</strong> Dynamisches Binden ist die ruhigere Antwort auf die Frage, wie gemeinsame Schnittstellen bei unterschiedlichen Unterklassen wirklich lebendig werden.</p>
+  <p><strong>Merke:</strong> Dynamisches Binden ist die ruhige Antwort auf die Frage, wie gemeinsame Schnittstellen bei unterschiedlichen Unterklassen wirklich lebendig werden.</p>
 </div>

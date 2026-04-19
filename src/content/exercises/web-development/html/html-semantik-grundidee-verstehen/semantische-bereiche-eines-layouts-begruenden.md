@@ -15,34 +15,35 @@ tags:
   - semantik
   - aufgabe
 hintPoints:
-  - "Frage zuerst nach der Rolle des Bereichs."
-  - "Navigation, Hauptinhalt und Ergänzung sind nicht dasselbe."
-  - "Begründe mit Bedeutung, nicht mit Optik."
+  - Frage zuerst nach der Rolle des Bereichs.
+  - Trenne Seitengerüst und innere Inhaltsstruktur.
+  - Begründe mit Bedeutung und nicht mit Optik.
 selfCheckPoints:
-  - "Ist die Rollenbegründung klar?"
-  - "Trennst du Struktur und Layout?"
-  - "Ist main nicht einfach nur irgendein großer Block?"
+  - Ist die Rollenbegründung klar?
+  - Trennst du Landmarken und Inhaltsstruktur?
+  - Ist main nicht einfach nur irgendein großer Block?
 transferIdeas:
-  - "Übertrage die Aufgabe auf eine Blogseite oder Produktseite."
-  - "Vergleiche dieselbe Struktur mit einer neutralen div-Lösung."
-reflectionPrompt: "Welche Leitfrage hätte dir geholfen, das passende Element schneller zu finden?"
+  - Übertrage die Aufgabe auf eine Blogseite oder Produktseite.
+  - Vergleiche dieselbe Struktur mit einer neutralen div-Lösung.
+reflectionPrompt: Welche Leitfrage hätte dir geholfen, das passende Element schneller zu finden?
 ---
 
-## Aufgabe 1: Bereiche zuordnen
+## Aufgabe 1: Zwei Ebenen benennen
 
 Eine Seite enthält:
 
 - einen Seitenkopf mit Logo,
 - eine Navigationsleiste,
 - einen eigenständigen Magazinbeitrag,
-- eine Randspalte mit weiterführenden Links,
+- innerhalb des Beitrags zwei Unterabschnitte,
+- daneben eine Randspalte mit weiterführenden Links,
 - einen Fußbereich.
 
-Ordne passende semantische HTML-Elemente zu.
+Ordne passende semantische HTML-Elemente zu und trenne dabei klar zwischen Seitengerüst und innerer Inhaltsstruktur.
 
 ## Aufgabe 2: Rolle begründen
 
-Erkläre kurz, warum <code>&lt;aside&gt;</code> hier eher passt als <code>&lt;main&gt;</code>.
+Erkläre kurz, warum `<aside>` hier eher passt als `<main>` und warum `<section>` nicht dieselbe Aufgabe wie `<article>` hat.
 
 ## Aufgabe 3: Nur Optik?
 

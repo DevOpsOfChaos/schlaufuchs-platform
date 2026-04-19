@@ -1,42 +1,40 @@
 ---
 title: Flex-Größenverhalten der Items begründen
-description: Erkläre an kleinen Beispielen, warum Flex-Items wachsen, schrumpfen oder mit einer Basisgröße starten.
+description: Begründe, wie flex-grow, flex-shrink und flex-basis zusammenwirken und warum gleiche Startgrößen zu unterschiedlichen Ergebnissen führen können.
 subject: web-development
 section: CSS
 topicPath:
   - css
   - flex-grow-flex-shrink-und-flex-basis-verstehen
   - flex-groessenverhalten-der-items-begruenden
-taskId: WEB-CSS-FLEX-103
+taskId: WEB-CSS-FLEX-206
 level: einfach
 draft: false
 tags:
   - css
   - flexbox
   - groesse
-  - aufgabe
 hintPoints:
-  - "Trenne Ausgangsgröße, Wachstum und Schrumpfen."
-  - "Flex-Kurzschreibweise besteht aus mehreren Teilen."
-  - "Eine Basisgröße ist noch nicht das fertige Endmaß."
+  - Trenne Ausgangsgröße, Wachsen und Schrumpfen sauber.
+  - Lies die Kurzschreibweise als drei Rollen und nicht als Zahlencode.
 selfCheckPoints:
-  - "Ist die Rolle von flex-basis klar?"
-  - "Begründest du Wachstum und Schrumpfen getrennt?"
-  - "Liest du die Kurzschreibweise fachlich sauber?"
+  - Kannst du flex-basis und Endgröße unterscheiden?
+  - Kannst du erklären, warum ein Item mehr Platz bekommt als ein anderes?
 transferIdeas:
-  - "Übertrage die Aufgabe auf Karten mit unterschiedlicher Wichtigkeit."
-  - "Vergleiche flex:1 1 auto und flex:0 1 auto."
-reflectionPrompt: "Welcher Teil der Kurzschreibweise war für dich am wenigsten intuitiv?"
+  - Übertrage die Logik auf Kartenreihen, Preisboxen oder Navigationsleisten.
+reflectionPrompt: Warum ist bei Flexbox-Größen oft der Startpunkt wichtiger als die Endbreite allein?
 ---
 
-## Aufgabe 1: Mehr wachsen
+## Aufgabe 1: Zwei Items vergleichen
 
-Zwei Flex-Items starten beide mit derselben Basisgröße. Das zweite Item bekommt am Ende mehr Platz. Welche Flex-Eigenschaft ist dafür wahrscheinlich größer?
+Zwei Flex-Items starten mit derselben Basisgröße. Eines hat `flex-grow: 1`, das andere `flex-grow: 2`.
 
-## Aufgabe 2: Platzmangel
+Erkläre, warum sie am Ende unterschiedlich breit werden können.
 
-Erkläre grob, welche Eigenschaft beschreibt, ob ein Item bei Platzmangel kleiner werden darf.
+## Aufgabe 2: Platzmangel einordnen
 
-## Aufgabe 3: Startwert
+Beschreibe, welche Rolle `flex-shrink` spielt, wenn im Container weniger Platz vorhanden ist als die Items eigentlich brauchen.
 
-Was beschreibt <code>flex-basis</code> in eigenen Worten?
+## Aufgabe 3: Kurzschreibweise lesen
+
+Erkläre die drei Teile der Schreibweise `flex: 0 1 auto` in eigenen Worten.

@@ -1,30 +1,42 @@
 ---
-title: Musterlösung – Semantische Bereiche eines Layouts begründen
-description: Musterlösung zur Aufgabe WEB-HTML-CORE-101.
+title: Lösung – Semantische Bereiche eines Layouts begründen
+description: Musterlösung zur Aufgabe über semantische Bereiche, Landmarken und Inhaltsstruktur.
 subject: web-development
 section: HTML
 topicPath:
   - html
   - html-semantik-grundidee-verstehen
-  - semantische-bereiche-eines-layouts-begruenden-loesung
 taskId: WEB-HTML-CORE-101
-relatedExercise: src/content/exercises/web-development/html/html-semantik-grundidee-verstehen/semantische-bereiche-eines-layouts-begruenden.md
+relatedExercise: web-development/html/html-semantik-grundidee-verstehen/semantische-bereiche-eines-layouts-begruenden
 tags:
-  - web-development
   - html
+  - semantik
   - loesung
-  - task-id
 draft: false
 ---
 
-## Aufgabe 1: Bereiche zuordnen
+## Musterlösung
 
-Naheliegend sind header, nav, article, aside und footer.
+### Aufgabe 1
 
-## Aufgabe 2: Rolle begründen
+- Seitenkopf mit Logo → `header`
+- Navigationsleiste → `nav`
+- eigenständiger Magazinbeitrag → `article`
+- zwei Unterabschnitte im Beitrag → `section`
+- Randspalte mit weiterführenden Links → `aside`
+- Fußbereich → `footer`
 
-<code>aside</code> passt eher, weil die weiterführenden Links ergänzend sind und nicht den Kern der Seite bilden.
+Die sinnvolle Trennung lautet also:  
+**Landmarken der Seite** mit `header`, `nav` und `footer`,  
+**Hauptinhalt** mit `article`,  
+**Untergliederung im Hauptinhalt** mit `section`,  
+**ergänzende Inhalte** mit `aside`.
 
-## Aufgabe 3: Nur Optik?
+### Aufgabe 2
 
-Die Rolle eines Bereichs bleibt gleich, auch wenn Farben, Abstände oder Spaltenbreiten später mit CSS geändert werden.
+`aside` passt besser als `main`, weil die Randspalte nicht der zentrale Hauptinhalt der Seite ist.  
+`section` ist außerdem nicht dasselbe wie `article`, weil ein Abschnitt meist nur ein Teil eines größeren Ganzen ist, während ein Article eher als eigenständiger Inhalt gedacht wird.
+
+### Aufgabe 3
+
+Die Wahl semantischer Elemente hängt nicht am Farbschema, weil Farben nur Darstellung sind. Semantik beschreibt dagegen die Aufgabe und Rolle eines Bereichs im Dokument.

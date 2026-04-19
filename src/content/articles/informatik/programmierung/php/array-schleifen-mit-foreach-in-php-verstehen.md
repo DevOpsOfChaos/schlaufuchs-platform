@@ -1,6 +1,6 @@
 ---
 title: Array-Schleifen mit foreach in PHP verstehen
-description: Verstehe, wie foreach numerische und assoziative Arrays durchläuft und warum die Schleife gut zu fertigen Datenlisten passt.
+description: Verstehe, wie foreach numerische und assoziative Arrays durchlaeuft und warum die Schleife gut zu fertigen Datenlisten passt.
 subject: informatik
 section: Programmierung
 topicPath:
@@ -8,29 +8,29 @@ topicPath:
   - php
   - array-schleifen-mit-foreach-in-php-verstehen
 learningGoals:
-  - Du erklärst den Grundablauf einer foreach-Schleife in PHP.
-  - Du unterscheidest Wert- und Schlüsselzugriff bei Arrays.
-  - Du erkennst, wann foreach ruhiger ist als eine selbst gebaute Zählschleife.
+  - Du erklaerst den Grundablauf einer foreach-Schleife in PHP.
+  - Du unterscheidest Wert- und Schluesselzugriff bei Arrays.
+  - Du erkennst, wann foreach ruhiger ist als eine selbst gebaute Zaehlschleife.
 practiceIdeas:
   - Lies ein Arraybeispiel und sage, welcher Wert in einem Schleifendurchlauf gerade gemeint ist.
   - Vergleiche eine numerische Liste mit einem assoziativen Array.
-  - Ordne Schlüssel und Wert in einer foreach-Schleife sauber zu.
+  - Ordne Schluessel und Wert in einer foreach-Schleife sauber zu.
 commonMistakes:
-  - Schlüssel und Wert zu vertauschen.
+  - Schluessel und Wert zu vertauschen.
   - Zu glauben, foreach brauche immer einen Zahlenindex.
-  - Die Schleife wie eine manuelle Zählschleife zu lesen, obwohl die Elemente schon vorliegen.
+  - Die Schleife wie eine manuelle Zaehlschleife zu lesen, obwohl die Elemente schon vorliegen.
 keyTakeaways:
-  - foreach läuft direkt über vorhandene Arrayelemente.
-  - Bei assoziativen Arrays können Schlüssel und Wert gemeinsam gelesen werden.
-  - foreach ist besonders gut für vorhandene Datensammlungen geeignet.
+  - foreach laeuft direkt ueber vorhandene Arrayelemente.
+  - Bei assoziativen Arrays koennen Schluessel und Wert gemeinsam gelesen werden.
+  - foreach ist besonders gut fuer vorhandene Datensammlungen geeignet.
 recognizeSignals:
   - Es geht um Arrays, Listen, name => wert oder Wiederholung.
   - Du sollst bestehende Daten ausgeben oder verarbeiten.
   - Eine Schleife arbeitet nicht mit selbst berechnetem Index, sondern direkt mit Elementen.
 selfCheckPoints:
   - Kann ich sagen, was bei jedem Durchlauf gerade in der Schleifenvariablen steckt?
-  - Kann ich Schlüssel und Wert getrennt benennen?
-  - Kann ich erklären, warum foreach hier passend ist?
+  - Kann ich Schluessel und Wert getrennt benennen?
+  - Kann ich erklaeren, warum foreach hier passend ist?
 level: einfach
 tags:
   - informatik
@@ -43,12 +43,12 @@ draft: false
 
 ## Grundidee
 
-Mit <code>foreach</code> läuft PHP schrittweise über die vorhandenen Elemente eines Arrays. Du musst dabei keinen Index selbst hochzählen. Die Schleife bekommt jedes Element nacheinander direkt geliefert.
+Mit <code>foreach</code> laeuft PHP schrittweise ueber die vorhandenen Elemente eines Arrays. Du musst dabei keinen Index selbst hochzaehlen. Die Schleife bekommt jedes Element nacheinander direkt geliefert.
 
 <div class="example-card">
   <p class="card-kicker">Leitbeispiel</p>
-  <h3>Eine Liste von Getränken ausgeben</h3>
-  <p>Ein Array enthält <code>"Wasser"</code>, <code>"Saft"</code> und <code>"Tee"</code>. Mit <code>foreach</code> kannst du jeden Eintrag einzeln ausgeben, ohne selbst mit 0, 1, 2 zu arbeiten.</p>
+  <h3>Eine Liste von Getraenken ausgeben</h3>
+  <p>Ein Array enthaelt <code>"Wasser"</code>, <code>"Saft"</code> und <code>"Tee"</code>. Mit <code>foreach</code> kannst du jeden Eintrag einzeln ausgeben, ohne selbst mit 0, 1, 2 zu arbeiten.</p>
 </div>
 
 ## Die einfache Form
@@ -63,19 +63,19 @@ foreach ($liste as $wert) {
 Hier bedeutet das:
 
 - <code>$liste</code> ist das Array,
-- <code>$wert</code> steht in jedem Durchlauf für genau ein Element,
+- <code>$wert</code> steht in jedem Durchlauf fuer genau ein Element,
 - die Schleife endet automatisch nach dem letzten Element.
 
-## Bei assoziativen Arrays kommt der Schlüssel dazu
+## Bei assoziativen Arrays kommt der Schluessel dazu
 
 ```php
-$person = ["name" => "Mina", "stadt" => "Köln"];
+$person = ["name" => "Mina", "stadt" => "Koeln"];
 foreach ($person as $schluessel => $wert) {
   echo $schluessel . ": " . $wert;
 }
 ```
 
-Jetzt wird nicht nur der Wert gelesen, sondern auch der passende Schlüssel.
+Jetzt wird nicht nur der Wert gelesen, sondern auch der passende Schluessel.
 
 <div class="compare-card">
   <p class="card-kicker">Vergleich</p>
@@ -87,25 +87,56 @@ Jetzt wird nicht nur der Wert gelesen, sondern auch der passende Schlüssel.
     </div>
     <div class="compare-item">
       <strong>Assoziatives Array</strong>
-      <span>Du brauchst oft Schlüssel und Wert gemeinsam, weil beide Bedeutung tragen.</span>
+      <span>Du brauchst oft Schluessel und Wert gemeinsam, weil beide Bedeutung tragen.</span>
     </div>
   </div>
 </div>
 
-## Warum foreach oft ruhiger ist
+## Warum foreach oft ruhiger ist als for
 
-Bei fertigen Datenlisten ist <code>foreach</code> meist lesbarer als eine Schleife mit manuell erhöhtem Index. Der Schwerpunkt liegt dann auf den Daten selbst und nicht auf der Verwaltung der Laufvariable.
+<div class="compare-card">
+  <p class="card-kicker">Leselogik</p>
+  <h3>Index verwalten oder Elemente direkt lesen</h3>
+  <div class="compare-grid">
+    <div class="compare-item">
+      <strong>for</strong>
+      <span>Hilft, wenn du stark ueber Positionen, Grenzen oder Schrittweiten nachdenken musst.</span>
+    </div>
+    <div class="compare-item">
+      <strong>foreach</strong>
+      <span>Hilft, wenn die Datenliste schon da ist und du die Elemente direkt nacheinander verarbeiten willst.</span>
+    </div>
+  </div>
+</div>
 
-## Eine ruhige Prüfstrategie
+## Mini-Demo: ein Schleifendurchlauf ruhig gelesen
+
+<div class="figure-card">
+  <p class="card-kicker">Denkbild</p>
+  <h3>Nicht die ganze Schleife auf einmal lesen</h3>
+  <div class="signal-flow">
+    <div class="flow-node"><strong>Array ansehen</strong><span>Welche Elemente sind vorhanden?</span></div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-node"><strong>Einen Durchlauf denken</strong><span>Was steckt jetzt konkret in <code>$wert</code>?</span></div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-node"><strong>Dann verallgemeinern</strong><span>Dasselbe passiert mit den restlichen Elementen.</span></div>
+  </div>
+</div>
+
+## Diese Seite behandelt bewusst Datenlisten und nicht Zustandswechsel
+
+Hier geht es um Schleifen ueber bereits vorhandene Arrays. Wenn du stattdessen ueber mehrere Requests hinweg Daten behalten oder aufraeumen willst, bist du schon beim Thema Sessions und nicht mehr bei foreach.
+
+## Eine ruhige Pruefstrategie
 
 <div class="step-grid">
   <div class="step-item">
     <strong>1. Arraytyp erkennen</strong>
-    <span>Ist es eher eine Liste oder eher ein Schlüssel-Wert-Speicher?</span>
+    <span>Ist es eher eine Liste oder eher ein Schluessel Wert Speicher?</span>
   </div>
   <div class="step-item">
     <strong>2. Schleifenvariablen lesen</strong>
-    <span>Prüfe, ob nur <code>$wert</code> oder <code>$schluessel => $wert</code> verwendet wird.</span>
+    <span>Pruefe, ob nur <code>$wert</code> oder <code>$schluessel => $wert</code> verwendet wird.</span>
   </div>
   <div class="step-item">
     <strong>3. Einen Durchlauf denken</strong>
@@ -113,7 +144,7 @@ Bei fertigen Datenlisten ist <code>foreach</code> meist lesbarer als eine Schlei
   </div>
   <div class="step-item">
     <strong>4. Danach verallgemeinern</strong>
-    <span>Erst dann auf die restlichen Elemente übertragen.</span>
+    <span>Erst dann auf die restlichen Elemente uebertragen.</span>
   </div>
 </div>
 

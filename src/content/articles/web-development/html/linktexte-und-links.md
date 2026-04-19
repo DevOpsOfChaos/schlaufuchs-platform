@@ -1,6 +1,6 @@
 ---
 title: Linktexte und Links sinnvoll schreiben
-description: Verstehe, warum gute Linktexte Orientierung geben und wie Links inhaltlich statt nur optisch wirken.
+description: Verstehe, warum gute Linktexte Orientierung geben und wie einzelne Links inhaltlich statt nur optisch wirken.
 subject: web-development
 section: HTML
 topicPath:
@@ -12,36 +12,36 @@ tags:
   - barrierefreiheit
   - navigation
 learningGoals:
-  - "Du erklärst, warum Linktexte den Zweck eines Links deutlich machen sollen."
-  - "Du unterscheidest aussagekräftige und unklare Linktexte."
-  - "Du erkennst Links als inhaltliche Navigation statt nur als klickbare Farbe."
+  - Du erklärst, warum Linktexte den Zweck eines Links deutlich machen sollen.
+  - Du unterscheidest aussagekräftige und unklare Linktexte.
+  - Du erkennst einzelne Links als inhaltliche Wegweiser und nicht nur als klickbare Farbe.
 practiceIdeas:
-  - "Vergleiche gute und schlechte Linktexte in kleinen Beispielen."
-  - "Verbessere unklare Formulierungen wie 'hier klicken'."
-  - "Prüfe bei einem Link, ob sein Ziel aus dem Text verständlich wird."
+  - Vergleiche gute und schlechte Linktexte in kleinen Beispielen.
+  - Verbessere unklare Formulierungen wie hier klicken.
+  - Prüfe bei einem Link, ob sein Ziel aus dem Text verständlich wird.
 commonMistakes:
-  - "Links nur visuell statt inhaltlich zu betrachten."
-  - "Linktexte zu allgemein zu formulieren."
-  - "Den Zweck des Ziels nicht im Linktext sichtbar zu machen."
+  - Links nur visuell statt inhaltlich zu betrachten.
+  - Linktexte zu allgemein zu formulieren.
+  - Den Zweck des Ziels nicht im Linktext sichtbar zu machen.
 keyTakeaways:
-  - "Ein guter Linktext macht den Zweck des Ziels erkennbar."
-  - "Links sind Teil der Orientierung auf einer Seite."
-  - "Unklare Standardformulierungen helfen oft weniger als präzise Benennungen."
+  - Ein guter Linktext macht den Zweck des Ziels erkennbar.
+  - Einzelne Links sind Teil der Orientierung auf einer Seite.
+  - Unklare Standardformulierungen helfen oft weniger als präzise Benennungen.
 recognizeSignals:
-  - "Es geht um Navigation, Verlinkung, Linkzweck oder Barrierefreiheit."
-  - "Du sollst Links verbessern oder ihre Verständlichkeit beurteilen."
-  - "Ein Beispiel vergleicht mehrere Linkformulierungen."
+  - Es geht um Linkzweck, Formulierungen oder Verständlichkeit einzelner Verlinkungen.
+  - Du sollst Links verbessern oder ihre Aussagekraft beurteilen.
+  - Ein Beispiel vergleicht mehrere Linktexte für dasselbe Ziel.
 selfCheckPoints:
-  - "Kann ich erklären, warum 'hier' oft kein guter Linktext ist?"
-  - "Kann ich einen Linkzweck in wenigen Worten präzise beschreiben?"
-  - "Kann ich beurteilen, ob ein Linktext auch ohne Farbe sinnvoll bleibt?"
+  - Kann ich erklären, warum hier oft kein guter Linktext ist?
+  - Kann ich einen Linkzweck in wenigen Worten präzise beschreiben?
+  - Kann ich beurteilen, ob ein Linktext auch ohne Farbe sinnvoll bleibt?
 level: einfach
 draft: false
 ---
 
-## Warum dieses Thema wichtig ist
+## Grundidee
 
-Links sind nicht nur klickbare Stellen, sondern Orientierungspunkte. Sie helfen Menschen zu verstehen, wohin eine Seite weiterführt und welche Information dahinter liegt.
+Ein Link ist nicht nur eine klickbare Stelle. Er ist ein **kleiner Wegweiser**. Darum ist bei einzelnen Links vor allem wichtig, ob ihr Text schon vor dem Klick erklärt, **wohin** er führt oder **was** dort zu finden ist.
 
 <div class="example-card">
   <p class="card-kicker">Leitbeispiel</p>
@@ -56,35 +56,53 @@ Ein Link ist am hilfreichsten, wenn sein Zweck aus dem Text deutlich wird.
 <div class="comparison-grid">
   <section>
     <p class="card-kicker">Unklar</p>
-    <h3>„Hier klicken“</h3>
+    <h3>Hier klicken</h3>
     <p>Der Text sagt kaum etwas darüber, wohin die Reise geht oder was nach dem Klick passiert.</p>
   </section>
   <section>
     <p class="card-kicker">Klar</p>
-    <h3>„Zur Übersicht der Prüfungsformate“</h3>
+    <h3>Zur Übersicht der Prüfungsformate</h3>
     <p>Das Ziel wird schon vor dem Klick inhaltlich verständlich.</p>
   </section>
 </div>
 
-## Links sind Teil der Seitenlogik
+## Ein guter Linktext beantwortet drei leise Fragen
 
-Ein Link ist nicht nur eine farbige Stelle im Text. Er ist Teil der Orientierung einer Seite.
-
-<div class="figure-card">
-  <p class="card-kicker">Orientierungsbild</p>
-  <h3>So hilft ein guter Link beim Lesen</h3>
-  <div class="signal-flow compact">
-    <div><strong>Linktext lesen</strong><span>Ziel oder Zweck erkennen</span></div>
-    <div class="flow-arrow">→</div>
-    <div><strong>Entscheidung treffen</strong><span>Ist das gerade relevant?</span></div>
-    <div class="flow-arrow">→</div>
-    <div><strong>gezielt weitergehen</strong><span>ohne Rätselraten klicken</span></div>
+<div class="visual-grid">
+  <div class="visual-item">
+    <strong>Was finde ich dort?</strong>
+    <span>Der Text sollte erkennen lassen, welches Ziel hinter dem Link liegt.</span>
+  </div>
+  <div class="visual-item">
+    <strong>Warum sollte ich klicken?</strong>
+    <span>Der Nutzen oder die Funktion wird zumindest grob sichtbar.</span>
+  </div>
+  <div class="visual-item">
+    <strong>Würde das auch ohne Farbe funktionieren?</strong>
+    <span>Ein guter Link bleibt auch als bloßer Text sinnvoll.</span>
   </div>
 </div>
 
-## Ein kleines HTML-Beispiel
+## Mini-Demo: Zieltext statt Klicktext
 
-<pre><code>&lt;a href="/pruefungen/formate"&gt;Zur Übersicht der Prüfungsformate&lt;/a&gt;</code></pre>
+<div class="figure-card">
+  <p class="card-kicker">Vergleich</p>
+  <h3>Ein Link hilft erst dann, wenn das Ziel im Text auftaucht</h3>
+  <div style="display:grid; gap:0.8rem;">
+    <div style="padding:0.9rem; border-radius:16px; background:#f8fafc; border:1px dashed #94a3b8;">
+      <strong>Schwach</strong>
+      <p style="margin:0.4rem 0 0;">Weitere Informationen finden Sie <a href="#">hier</a>.</p>
+    </div>
+    <div style="padding:0.9rem; border-radius:16px; background:#f8fafc; border:1px dashed #94a3b8;">
+      <strong>Ruhiger</strong>
+      <p style="margin:0.4rem 0 0;">Zur <a href="#">Übersicht der Prüfungsformate</a>.</p>
+    </div>
+  </div>
+</div>
+
+## Diese Seite behandelt bewusst nur einzelne Linktexte
+
+Die **Struktur ganzer Menüs** ist eine andere Frage. Dort geht es um Hierarchie, Hauptpunkte und Erreichbarkeit. Diese Seite bleibt bewusst bei der kleineren Einheit: **dem einzelnen Linktext**.
 
 ## Gute und schwache Linktexte
 
@@ -97,40 +115,18 @@ Ein Link ist nicht nur eine farbige Stelle im Text. Er ist Teil der Orientierung
   <section>
     <p class="card-kicker">Schwach</p>
     <h3>Der Klick muss den Sinn erst verraten</h3>
-    <p>Wenn der Linktext nur „mehr“, „weiter“ oder „hier“ sagt, entsteht Orientierung oft erst nach dem Öffnen der Zielseite.</p>
+    <p>Wenn der Linktext nur mehr, weiter oder hier sagt, entsteht Orientierung oft erst nach dem Öffnen der Zielseite.</p>
   </section>
 </div>
 
-## Warum Standardformulierungen oft zu schwach sind
-
-Allgemeine Formulierungen wie „hier“, „mehr“ oder „weiter“ wirken nur dann sinnvoll, wenn der Kontext extrem klar ist. Oft ist ein präziserer Zwecktext aber deutlich hilfreicher.
-
-## Gute Linktexte beschreiben nicht alles, aber das Richtige
-
-Ein guter Linktext muss nicht lang sein. Er soll vor allem den Zweck des Ziels erkennbar machen:
-
-- Was finde ich dort?
-- Welche Aktion steht dahinter?
-- Warum sollte ich dorthin gehen?
+<pre><code>&lt;a href="/pruefungen/formate"&gt;Zur Übersicht der Prüfungsformate&lt;/a&gt;</code></pre>
 
 ## Eine ruhige Prüfstrategie
 
-Frage bei jedem Link nacheinander:
-
 1. Was ist das Ziel?
 2. Wird dieses Ziel im Text sichtbar?
-3. Würde der Link auch ohne Farbe oder Kontext noch sinnvoll wirken?
+3. Würde der Link auch ohne Farbe oder direkten Kontext noch sinnvoll wirken?
 
 <div class="note-panel">
-  <p><strong>Merke:</strong> Gute Linktexte helfen auch dann, wenn Farbe, Layout oder unmittelbarer Kontext wegfallen. Genau deshalb sind sie wichtig für Orientierung und Zugänglichkeit.</p>
-</div>
-
-<div class="practice-card wide-bleed">
-  <p class="card-kicker">Zum Anwenden</p>
-  <h3>So verbesserst du Linktexte ruhiger</h3>
-  <ul>
-    <li>Frage zuerst, welches Ziel oder welche Funktion der Link wirklich hat.</li>
-    <li>Formuliere dann einen kurzen Text, der genau diesen Zweck sichtbar macht.</li>
-    <li>Prüfe am Ende, ob der Link auch ohne umgebenden Satz noch sinnvoll wirkt.</li>
-  </ul>
+  <p><strong>Merke:</strong> Gute Linktexte helfen auch dann, wenn Farbe, Layout oder unmittelbarer Kontext wegfallen.</p>
 </div>

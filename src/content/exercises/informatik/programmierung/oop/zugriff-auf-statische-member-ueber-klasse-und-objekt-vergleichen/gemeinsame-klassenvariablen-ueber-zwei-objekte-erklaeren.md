@@ -16,25 +16,28 @@ tags:
   - aufgabe
   - programmierung
   - oop
+  - static
 hintPoints:
-  - Lies zuerst ruhig, ob ein neues Objekt entsteht oder ein bestehendes genutzt wird.
-  - Benenne dann den Fachbegriff, statt nur den Code nachzusprechen.
+  - Frage zuerst, ob der Wert zur Klasse oder zu jedem Objekt einzeln gehoert.
+  - Lass dich nicht von der Objekt-Schreibweise taeuschen.
 selfCheckPoints:
-  - Habe ich Objekt, Klasse und Methode sauber getrennt?
-  - Habe ich meinen Fachbegriff begruendet statt nur geraten?
+  - Habe ich Instanzdaten und Klassendaten nicht vermischt?
+  - Habe ich erklaert, warum zwei Objekte denselben Wert sehen?
 transferIdeas:
-  - Uebertrage dieselbe Denkweise auf ein eigenes kleines Klassenbeispiel.
-reflectionPrompt: "Welche Stelle im Beispiel war fuer mich der beste Hinweis?"
+  - Uebertrage dieselbe Denkweise auf Zaehler, Nummernkreise oder gemeinsame Limits.
+reflectionPrompt: Welche Beobachtung zeigt dir am schnellsten, dass hier Klassendaten und nicht Instanzdaten vorliegen?
 ---
 
-## Aufgabe 1
+## Aufgabe 1: Zwei Objekte deuten
 
-Erklaere, warum zwei Objekte auf denselben statischen Wert schauen koennen.
+Erklaere, warum zwei verschiedene Objekte trotzdem denselben statischen Wert sehen koennen.
 
-## Aufgabe 2
+## Aufgabe 2: Schreibweisen vergleichen
 
-Formuliere in 2-3 Saetzen die wichtigste Unterscheidung des Themas.
+Beschreibe in 2 bis 4 Saetzen, warum <code>Klasse::wert</code> und <code>objekt.wert</code> bei statischen Membern trotzdem denselben Bezug haben koennen.
 
-## Aufgabe 3
+## Aufgabe 3: Denkfehler korrigieren
 
-Nenne ein typisches Missverstaendnis zu diesem Thema und korrigiere es kurz.
+Jemand sagt, wenn der Zugriff ueber ein Objekt geschrieben wird, muesse der Wert diesem Objekt gehoeren.
+
+Erklaere, warum das fachlich zu kurz gedacht ist.

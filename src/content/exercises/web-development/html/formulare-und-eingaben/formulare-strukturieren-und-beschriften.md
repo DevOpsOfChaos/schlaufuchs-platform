@@ -7,6 +7,7 @@ topicPath:
   - html
   - formulare-und-eingaben
   - formulare-strukturieren-und-beschriften
+taskId: WEB-HTML-A11Y-303
 level: einfach
 draft: false
 tags:
@@ -14,15 +15,15 @@ tags:
   - form
   - label
 hintPoints:
-  - "Überlege zuerst, welche Informationen eingegeben werden sollen."
-  - "Prüfe danach, welches Element jeweils am besten passt."
+  - Überlege zuerst, welche Informationen eingegeben werden sollen.
+  - Prüfe danach, welches Element jeweils am besten passt.
 selfCheckPoints:
-  - "Hat jedes Feld eine klare Beschriftung?"
-  - "Passen Eingabetyp und inhaltliche Aufgabe zusammen?"
+  - Hat jedes Feld eine klare Beschriftung?
+  - Passen Eingabetyp und inhaltliche Aufgabe zusammen?
 transferIdeas:
-  - "Übertrage das Formular auf eine andere Situation wie Anmeldung, Bestellung oder Feedback."
-  - "Erkläre die Struktur einmal aus Nutzersicht und einmal aus Entwicklersicht."
-reflectionPrompt: "Welche Rolle spielt für dich ein gutes Label, wenn du ein Formular fachlich sauber aufbauen willst?"
+  - Übertrage das Formular auf eine andere Situation wie Anmeldung, Bestellung oder Feedback.
+  - Erkläre die Struktur einmal aus Nutzersicht und einmal aus Entwicklersicht.
+reflectionPrompt: Welche Rolle spielt für dich ein gutes Label, wenn du ein Formular fachlich sauber aufbauen willst?
 ---
 
 ## Aufgabe 1: Elemente auswählen

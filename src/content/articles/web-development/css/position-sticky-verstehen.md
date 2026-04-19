@@ -22,11 +22,11 @@ commonMistakes:
 keyTakeaways:
   - sticky bleibt zunächst im normalen Fluss.
   - Erst beim Scrollen haftet das Element an einer definierten Kante.
-  - Sticky ist besonders nützlich für Bereichsüberschriften und Orientierungshilfen.
+  - Sticky eignet sich besonders für Orientierung innerhalb eines Inhaltsbereichs.
 recognizeSignals:
   - Es geht um Inhaltslisten, Kapitelüberschriften oder Filterleisten, die beim Scrollen sichtbar bleiben sollen.
   - Du sollst erklären, warum etwas erst mitscrollt und dann „haftet“.
-  - In Beispielen zählt der Scrollkontext stärker als die Farbe des Balkens.
+  - In Beispielen zählt der Scrollkontext stärker als Farbe oder Balkenoptik.
 selfCheckPoints:
   - Kann ich sticky und fixed sauber unterscheiden?
   - Kann ich erklären, wann ein sticky Element zu haften beginnt?
@@ -102,36 +102,19 @@ draft: false
   </div>
 </div>
 
-## Typische Einsatzentscheidung
+## Sticky ist vor allem eine Scroll-Logik
 
 <div class="compare-card">
-  <p class="card-kicker">Wann welche Idee?</p>
-  <h3>Sticky orientiert im Inhalt, Fixed wirkt globaler</h3>
+  <p class="card-kicker">Wichtige Trennung</p>
+  <h3>Bereichsbezogen haften ist etwas anderes als global festbleiben</h3>
   <div class="compare-grid">
-    <div class="compare-item">
-      <strong>Sticky</strong>
-      <span>Sinnvoll für Kapitel, Tabellenköpfe oder Bereichsfilter innerhalb eines Inhaltsblocks.</span>
-    </div>
-    <div class="compare-item">
-      <strong>Fixed</strong>
-      <span>Sinnvoll für globale Leisten, die unabhängig vom Inhaltsbereich sichtbar bleiben sollen.</span>
-    </div>
-  </div>
-</div>
-
-## Sticky ist nicht fixed
-
-<div class="compare-card">
-  <p class="card-kicker">Wichtiger Unterschied</p>
-  <h3>Global fest ist etwas anderes als bereichsbezogen haften</h3>
-  <div class="compare-grid">
-    <div class="compare-item">
-      <strong>fixed</strong>
-      <span>Das Element löst sich vom normalen Fluss und bleibt am Viewport hängen.</span>
-    </div>
     <div class="compare-item">
       <strong>sticky</strong>
       <span>Das Element gehört weiter zum Inhaltsbereich und haftet nur innerhalb seines Scrollkontexts.</span>
+    </div>
+    <div class="compare-item">
+      <strong>fixed</strong>
+      <span>Das Element löst sich vom normalen Fluss und bleibt global am Viewport hängen.</span>
     </div>
   </div>
 </div>
@@ -142,6 +125,16 @@ draft: false
   top: 0;
 }
 ```
+
+## Abgrenzung zu den Nachbarseiten
+
+Diese Seite klärt die **Scroll- und Haftlogik**.  
+Sie erklärt bewusst nicht ausführlich,
+
+- wie ein Element in einer Ecke verankert wird (`relative`/`absolute`),
+- oder wie bei Überlagerung die sichtbare Ebene entschieden wird (`z-index`).
+
+So bleibt Sticky als eigenes Denkmodell klar lesbar.
 
 ## Eine ruhige Prüfstrategie
 
