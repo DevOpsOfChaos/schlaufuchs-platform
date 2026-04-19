@@ -14,7 +14,7 @@ learningGoals:
   - Du liest kleine Konsolenprogramme eher als Datenfluss als als Symbolkette.
 practiceIdeas:
   - Ordne in Mini-Beispielen Eingabe, normale Ausgabe und Fehlermeldung.
-  - Lies ein kurzes Programm nur unter der Frage: Was kommt hinein und was wird sichtbar?
+  - "Lies ein kurzes Programm nur unter der Frage: Was kommt hinein und was wird sichtbar?"
   - Vergleiche einen normalen Hinweis mit einer Fehlermeldung.
 commonMistakes:
   - cin, cout und cerr als fast dasselbe zu behandeln.

@@ -21,7 +21,7 @@ commonMistakes:
   - Objekt und Ergebnisressource durcheinanderzubringen.
 keyTakeaways:
   - MySQLi unterstützt zwei Schreibstile für ähnliche Aufgaben.
-  - Fachlich bleibt der Ablauf gleich: verbinden, Anfrage senden, Ergebnis lesen, schließen.
+  - "Fachlich bleibt der Ablauf gleich: verbinden, Anfrage senden, Ergebnis lesen, schließen."
   - Ruhiger Code entsteht meist durch konsequenten Stil.
 recognizeSignals:
   - Es geht um <code>mysqli_connect</code> oder <code>new mysqli(...)</code>.

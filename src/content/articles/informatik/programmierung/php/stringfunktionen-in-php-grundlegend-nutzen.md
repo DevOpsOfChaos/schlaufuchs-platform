@@ -21,7 +21,7 @@ commonMistakes:
   - Einen Text zu zerlegen, obwohl eigentlich nur ersetzt werden soll.
 keyTakeaways:
   - Stringfunktionen haben typische Rollen wie zählen, finden, ersetzen oder zerlegen.
-  - Die ruhige Frage lautet zuerst: Was soll mit dem Text fachlich passieren?
+  - "Die ruhige Frage lautet zuerst: Was soll mit dem Text fachlich passieren?"
   - Gute Funktionswahl beginnt mit dem Ziel, nicht mit dem Namen.
 recognizeSignals:
   - Es geht um E-Mail-Adressen, Dateinamen, Trennzeichen oder Textbereinigung.

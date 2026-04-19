@@ -22,7 +22,7 @@ commonMistakes:
 keyTakeaways:
   - GET-Daten stehen typischerweise in der URL, POST-Daten kommen meist aus Formularen im Request.
   - PHP stellt sie über $_GET und $_POST bereit.
-  - Die fachliche Frage lautet zuerst: Abrufen, senden oder verändern?
+  - "Die fachliche Frage lautet zuerst: Abrufen, senden oder verändern?"
 recognizeSignals:
   - Ein Beispiel zeigt Fragezeichen in URLs, Formularfelder oder <code>method="POST"</code>.
   - Es geht um Linkparameter, Formulare oder Superglobals.

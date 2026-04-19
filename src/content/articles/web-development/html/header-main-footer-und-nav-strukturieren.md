@@ -22,7 +22,7 @@ commonMistakes:
 keyTakeaways:
   - Header, main, footer und nav markieren unterschiedliche Rollen auf einer Seite.
   - Gute Struktur hilft beim Verstehen, Navigieren und Weiterverarbeiten.
-  - Semantik bedeutet hier vor allem: Der Bereich bekommt eine nachvollziehbare Aufgabe.
+  - "Semantik bedeutet hier vor allem: Der Bereich bekommt eine nachvollziehbare Aufgabe."
 recognizeSignals:
   - Es geht um Seitengerüst, Orientierung oder strukturelle HTML-Bereiche.
   - Du sollst erklären, wo der Hauptinhalt beginnt und wo Navigation liegt.

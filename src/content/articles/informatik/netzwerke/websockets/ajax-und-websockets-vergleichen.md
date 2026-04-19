@@ -14,7 +14,7 @@ learningGoals:
 practiceIdeas:
   - Vergleiche Kommentar-Formular, Live-Chat und Dashboard fachlich.
   - Begründe, wann einzelne Hintergrundanfragen ausreichen.
-  - Suche in einem Szenario nach der Frage: seltene Aktualisierung oder laufender Strom neuer Daten?
+  - "Suche in einem Szenario nach der Frage: seltene Aktualisierung oder laufender Strom neuer Daten?"
 commonMistakes:
   - AJAX und WebSockets als direkte Konkurrenten für jede Aufgabe zu sehen.
   - WebSockets überall einzusetzen, nur weil sie moderner wirken.

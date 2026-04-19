@@ -1,4 +1,4 @@
----
+﻿---
 title: Punktoperator und Pfeiloperator in OOP-Zugriffen unterscheiden
 description: Verstehe, wann Methoden ueber ein Objekt und wann ueber einen Objektzeiger aufgerufen werden.
 subject: informatik
@@ -22,7 +22,7 @@ commonMistakes:
 keyTakeaways:
   - Mit dem Punktoperator greifst du direkt auf ein Objekt zu.
   - Mit dem Pfeiloperator greifst du indirekt ueber einen Zeiger auf ein Objekt zu.
-  - Vor dem Methodenlesen lohnt sich immer die Frage: Was ist der Typ links vom Operator?
+  - "Vor dem Methodenlesen lohnt sich immer die Frage: Was ist der Typ links vom Operator?"
 recognizeSignals:
   - Es tauchen sowohl <code>obj.methode()</code> als auch <code>ptr->methode()</code> auf.
   - Ein Objekt wird mit <code>new</code> erzeugt oder eine Zeigervariable kommt vor.

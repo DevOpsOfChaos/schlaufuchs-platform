@@ -1,4 +1,4 @@
----
+﻿---
 title: Position – Relative und Absolute verstehen
 description: Verstehe, wie relative und absolute Positionierung zusammenwirken und warum der Bezugspunkt wichtiger ist als die reine Verschiebung.
 subject: web-development
@@ -22,7 +22,7 @@ commonMistakes:
 keyTakeaways:
   - relative hält ein Element im normalen Fluss, kann aber einen Bezugspunkt schaffen.
   - absolute nimmt ein Element aus dem normalen Fluss heraus.
-  - Die wichtigste Frage lautet oft: Worauf bezieht sich diese Lage?
+  - "Die wichtigste Frage lautet oft: Worauf bezieht sich diese Lage?"
 recognizeSignals:
   - Es geht um Badges, Ecken, Overlays oder schwebende UI-Teile.
   - Du sollst erklären, warum ein Element an einer bestimmten Stelle erscheint.

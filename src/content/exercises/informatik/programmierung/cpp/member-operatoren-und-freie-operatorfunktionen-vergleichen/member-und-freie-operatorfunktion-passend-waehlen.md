@@ -18,7 +18,7 @@ tags:
   - cpp
   - operatoren
 hintPoints:
-  - Frage zuerst: Wo steckt das linke Argument?
+  - "Frage zuerst: Wo steckt das linke Argument?"
   - Denke an <code>this</code> bei Member-Funktionen.
 selfCheckPoints:
   - Habe ich implizites und explizites Argument sauber getrennt?

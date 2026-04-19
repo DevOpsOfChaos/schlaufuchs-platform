@@ -16,7 +16,7 @@ tags:
   - auto
   - zentrierung
 hintPoints:
-  - Frage zuerst: Gibt es überhaupt freien Raum links und rechts?
+  - "Frage zuerst: Gibt es überhaupt freien Raum links und rechts?"
   - Prüfe, ob das Element eine Breitenbegrenzung hat.
 selfCheckPoints:
   - Kannst du Zentrierung als Verteilung von Außenraum erklären?

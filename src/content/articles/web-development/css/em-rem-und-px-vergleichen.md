@@ -14,7 +14,7 @@ learningGoals:
 practiceIdeas:
   - Vergleiche dieselbe Box mit px-, em- und rem-Werten.
   - Prüfe bei verschachtelten Komponenten, wo ein relativer Bezug hilfreich ist.
-  - Frage bei einer Schrift- oder Abstandseinheit zuerst: Woran hängt dieser Wert?
+  - "Frage bei einer Schrift- oder Abstandseinheit zuerst: Woran hängt dieser Wert?"
 commonMistakes:
   - em und rem als fast identisch zu behandeln.
   - nur Zahlen zu sehen und nicht den Bezugspunkt.

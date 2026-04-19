@@ -12,7 +12,7 @@ learningGoals:
   - Du erklärst die Rollen von <code>filter_has_var</code> und <code>filter_var</code>.
   - Du liest einfache Filterlogik ruhiger als Prüfablauf statt als Funktionsnamenliste.
 practiceIdeas:
-  - Beschreibe, was zuerst geprüft werden sollte: ob ein Wert da ist oder ob er gültig ist.
+  - "Beschreibe, was zuerst geprüft werden sollte: ob ein Wert da ist oder ob er gültig ist."
   - Ordne E-Mail, URL und Zahl passenden Filterideen zu.
   - Vergleiche validieren und bereinigen an einem kleinen Beispiel.
 commonMistakes:
@@ -22,7 +22,7 @@ commonMistakes:
 keyTakeaways:
   - <code>filter_has_var</code> prüft zuerst, ob eine Variable vorhanden ist.
   - <code>filter_var</code> validiert oder bereinigt konkrete Werte.
-  - Gute Prüfabläufe laufen meist in klarer Reihenfolge: vorhanden, plausibel, dann weiterverarbeiten.
+  - "Gute Prüfabläufe laufen meist in klarer Reihenfolge: vorhanden, plausibel, dann weiterverarbeiten."
 recognizeSignals:
   - Im Code tauchen Filterfunktionen oder Begriffe wie VALIDATE und SANITIZE auf.
   - Es geht um E-Mail, URL, Integer oder Formulareingaben.

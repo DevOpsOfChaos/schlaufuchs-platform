@@ -29,7 +29,7 @@ recognizeSignals:
 selfCheckPoints:
   - Kann ich Achsen statt Himmelsrichtungen denken?
   - Kann ich justify-content und align-items sicher trennen?
-  - Kann ich erklären, was sich bei flex-direction: column ändert?
+  - "Kann ich erklären, was sich bei flex-direction: column ändert?"
 tags:
   - css
   - flexbox

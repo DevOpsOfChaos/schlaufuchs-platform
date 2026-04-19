@@ -19,7 +19,7 @@ commonMistakes:
   - Nur auf größere Zahlen zu schauen, ohne das Verhältnis zu prüfen.
   - Eine Startgebühr oder einen festen Zusatz zu übersehen.
 keyTakeaways:
-  - Proportional heißt: gleiche Veränderung im gleichen Verhältnis.
+  - "Proportional heißt: gleiche Veränderung im gleichen Verhältnis."
   - Bei proportionalen Zuordnungen bleibt der Quotient konstant.
   - Nicht jeder lineare Zusammenhang ist proportional.
 recognizeSignals:

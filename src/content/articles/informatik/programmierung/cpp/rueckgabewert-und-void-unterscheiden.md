@@ -14,7 +14,7 @@ learningGoals:
   - Du liest <code>void</code> nicht als „leer“, sondern als bewusste Aussage über die Funktion.
 practiceIdeas:
   - Vergleiche eine Berechnungsfunktion mit einer Ausgabe-Funktion.
-  - Frage bei Beispielen: Kommt hier ein Wert zurück oder passiert nur eine Aktion?
+  - "Frage bei Beispielen: Kommt hier ein Wert zurück oder passiert nur eine Aktion?"
   - Beschreibe in eigenen Worten, was mit dem Ergebnis einer Funktion weiter geschieht.
 commonMistakes:
   - Jede Funktion müsse zwingend einen berechneten Wert zurückgeben.

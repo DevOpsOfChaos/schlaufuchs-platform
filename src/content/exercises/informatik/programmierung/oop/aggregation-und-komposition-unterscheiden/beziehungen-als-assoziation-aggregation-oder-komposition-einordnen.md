@@ -18,7 +18,7 @@ tags:
   - uml
   - oop
 hintPoints:
-  - Frage immer zuerst: Ist das ueberhaupt eine Teil-von-Beziehung?
+  - "Frage immer zuerst: Ist das ueberhaupt eine Teil-von-Beziehung?"
   - Pruefe dann, ob das Teil ohne das Ganze weiterbestehen kann.
 selfCheckPoints:
   - Habe ich Existenzabhaengigkeit mitgedacht?

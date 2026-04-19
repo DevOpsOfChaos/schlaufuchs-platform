@@ -12,7 +12,7 @@ learningGoals:
   - Du erklärst, warum Items unterschiedlich viel Platz bekommen können.
 practiceIdeas:
   - Vergleiche zwei Items mit unterschiedlichem flex-grow.
-  - Lies eine Kurzschreibweise wie flex: 1 1 auto und ordne die Teile zu.
+  - "Lies eine Kurzschreibweise wie flex: 1 1 auto und ordne die Teile zu."
   - Prüfe, welches Item bei Platzmangel schrumpfen darf.
 commonMistakes:
   - Zu denken, flex-grow sei eine absolute Breite.
@@ -25,7 +25,7 @@ keyTakeaways:
 recognizeSignals:
   - Es geht um flex, flex-grow, flex-shrink oder flex-basis.
   - Items in einem Flex-Layout werden unterschiedlich groß.
-  - Eine Kurzschreibweise wie flex: 0 1 auto soll erklärt werden.
+  - "Eine Kurzschreibweise wie flex: 0 1 auto soll erklärt werden."
 selfCheckPoints:
   - Kann ich Ausgangsgröße und Wachstumsverhalten trennen?
   - Kann ich die drei Teile der Kurzschreibweise grob einordnen?

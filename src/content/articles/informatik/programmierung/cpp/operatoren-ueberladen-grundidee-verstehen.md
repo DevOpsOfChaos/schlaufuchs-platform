@@ -1,4 +1,4 @@
----
+﻿---
 title: Operatoren überladen – Grundidee verstehen
 description: Verstehe, warum selbstdefinierte Typen in C++ bekannte Operatoren wie + oder == mit eigener Logik verwenden können.
 subject: informatik
@@ -11,7 +11,7 @@ topicPath:
 learningGoals:
   - Du erklärst die Grundidee des Überladens von Operatoren.
   - Du erkennst, warum Operatoren für eigene Typen lesbarer gemacht werden können.
-  - Du beschreibst wichtige Grenzen: keine neuen Symbole, keine geänderte Priorität, kein Überladen nur für Basistypen.
+  - "Du beschreibst wichtige Grenzen: keine neuen Symbole, keine geänderte Priorität, kein Überladen nur für Basistypen."
 practiceIdeas:
   - Erkläre an einem Punkt- oder Vektor-Typ, warum <code>a + b</code> lesbarer sein kann als eine Hilfsfunktion mit langem Namen.
   - Prüfe Beispiele darauf, ob wirklich ein eigener Typ beteiligt ist.

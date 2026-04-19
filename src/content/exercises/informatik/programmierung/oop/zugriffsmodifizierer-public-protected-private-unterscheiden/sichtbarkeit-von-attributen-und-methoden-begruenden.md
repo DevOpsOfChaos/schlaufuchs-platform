@@ -18,7 +18,7 @@ tags:
   - oop
   - sichtbarkeit
 hintPoints:
-  - Frage immer zuerst: Wer soll darauf zugreifen duerfen?
+  - "Frage immer zuerst: Wer soll darauf zugreifen duerfen?"
   - Trenne Aussenwelt, Klasse selbst und Unterklassen.
 selfCheckPoints:
   - Habe ich public und protected nicht gleichgesetzt?

@@ -14,7 +14,7 @@ learningGoals:
   - Du vermeidest die Gleichsetzung „alles beendet einfach irgendetwas“.
 practiceIdeas:
   - Vergleiche die Wirkung in einer Schleife mit mehreren Durchläufen.
-  - Frage bei jedem Schlüsselwort: Was endet genau, was geht weiter?
+  - "Frage bei jedem Schlüsselwort: Was endet genau, was geht weiter?"
   - Formuliere die Wirkung einmal ohne Fachbegriffe in Alltagssprache.
 commonMistakes:
   - break und return gleichzusetzen.

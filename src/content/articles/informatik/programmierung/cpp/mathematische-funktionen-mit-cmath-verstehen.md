@@ -13,7 +13,7 @@ learningGoals:
   - Du ordnest typische mathematische Funktionen wie sqrt, pow, floor und ceil grob ein.
   - Du liest Funktionsaufrufe eher nach Zweck als nach reiner Symbolform.
 practiceIdeas:
-  - Ordne Funktionen nach ihrem Zweck: runden, Wurzel, Potenz, Vergleich.
+  - "Ordne Funktionen nach ihrem Zweck: runden, Wurzel, Potenz, Vergleich."
   - Erkläre in Worten, was ein kleiner Funktionsaufruf bewirkt.
   - Suche passende Funktionen für typische Mini-Probleme.
 commonMistakes:

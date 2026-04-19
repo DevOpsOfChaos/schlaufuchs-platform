@@ -21,7 +21,7 @@ commonMistakes:
   - Zu übersehen, zu welchem Block eine Anweisung gehört.
   - Eine verschachtelte Struktur für "kompliziert" zu halten, obwohl nur zwei Ebenen getrennt gelesen werden müssen.
 keyTakeaways:
-  - Verschachtelung bedeutet: Eine Struktur liegt innerhalb einer anderen.
+  - "Verschachtelung bedeutet: Eine Struktur liegt innerhalb einer anderen."
   - Äußere und innere Ebene sollten nacheinander gelesen werden.
   - Gute Blocklogik wird über Klammern und Einrückung sichtbar.
 recognizeSignals:
