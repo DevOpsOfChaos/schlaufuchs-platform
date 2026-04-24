@@ -27,16 +27,73 @@ transferIdeas:
 reflectionPrompt: Warum ist ein technisch benanntes Element noch nicht automatisch eine gut verständliche Oberfläche?
 ---
 
-## Aufgabe 1: Symbol bewerten
+Gegeben sind diese vier Varianten:
 
-Ein Button zeigt nur ein Mülleimer-Symbol.
+```html
+<button>🗑</button>
+<button aria-label="Löschen">🗑</button>
+<button>🗑 Löschen</button>
+<button aria-label="Löschen">🗑 Löschen</button>
+```
 
-Erkläre, warum das für manche Nutzende zu unklar sein kann.
+## Aufgabe 1: Vier Varianten ordnen
 
-## Aufgabe 2: Sichtbar oder nur technisch?
+Ordne die vier Varianten von **sichtbar am ruhigsten verständlich** nach **sichtbar am stärksten deutungsbedürftig**.
 
-Begründe, warum ein sichtbarer Text wie Löschen oft die ruhigere Lösung ist als ein reines Symbol mit unsichtbarer Zusatzbenennung.
+Begründe deine Reihenfolge in 4 bis 6 Sätzen.
 
-## Aufgabe 3: Ergänzung erklären
+## Aufgabe 2: Zwei Ebenen trennen
 
-Beschreibe in 2 bis 4 Sätzen, wie ein aria-label eine Oberfläche ergänzen kann, ohne sichtbare Klarheit vollständig zu ersetzen.
+Beschreibe für jede Variante kurz:
+
+- was auf der Oberfläche direkt lesbar ist,
+- was höchstens technisch ergänzt wird.
+
+## Aufgabe 3: Riskante Aktion bewerten
+
+Warum ist bei einer Lösch-Handlung sichtbare Klarheit oft wichtiger als bei einer harmlosen Routinefunktion?
+
+## Aufgabe 4: Widerspruch prüfen
+
+Bewerte diesen Code:
+
+```html
+<button aria-label="Löschen">Entfernen</button>
+```
+
+Erkläre, warum diese Variante unnötig unruhig wirken kann.
+
+## Aufgabe 5: Zusätzliche Benennung einordnen
+
+Bewerte diese Aussage:
+
+> „Wenn ein sichtbarer Text schon klar ist, macht ein zusätzliches `aria-label` den Button automatisch besser.“
+
+Erkläre in 2 bis 4 Sätzen, warum diese Aussage zu grob ist.
+
+## Aufgabe 6: Zwei Aktionen vergleichen
+
+Vergleiche diese beiden Fälle kurz:
+
+```html
+<button aria-label="Suche">🔍</button>
+<button aria-label="Löschen">🗑</button>
+```
+
+Warum ist der zweite Fall oft kritischer zu lesen als der erste?
+
+## Aufgabe 7: Ruhig umbauen
+
+Formuliere eine ruhigere Variante für denselben Lösch-Button, bei der sichtbarer Name und technische Benennung nicht gegeneinander laufen.
+
+## Aufgabe 8: Toolbar-Fall einordnen
+
+In einer kleinen Toolbar stehen diese drei Buttons nebeneinander:
+
+```html
+<button aria-label="Suche">🔍</button>
+<button aria-label="Teilen">🔗</button>
+<button aria-label="Löschen">🗑</button>
+```
+
+Erkläre kurz, warum gerade der dritte Button sichtbare Beschriftung eher gebrauchen kann als die beiden anderen.

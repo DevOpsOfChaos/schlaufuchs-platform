@@ -27,21 +27,73 @@ transferIdeas:
 reflectionPrompt: Warum wirkt ein Feld oft erst dann wirklich verständlich, wenn die Frage außerhalb des Feldes sichtbar bleibt?
 ---
 
-## Aufgabe 1: Zwei Felder vergleichen
+Gegeben sind drei Varianten:
 
-Vergleiche diese beiden Varianten:
+```html
+<label for="mail-a">E-Mail-Adresse</label>
+<input id="mail-a" type="email" placeholder="name@example.de" />
 
-- ein Feld mit sichtbarem Label und zusätzlichem Placeholder
-- ein Feld nur mit Placeholder
+<label for="mail-b">E-Mail-Adresse</label>
+<input id="mail-b" type="email" />
 
-Erkläre, welche Variante ruhiger verständlich ist und warum.
+<input type="email" placeholder="name@example.de" />
+```
 
-## Aufgabe 2: Denkfehler prüfen
+## Aufgabe 1: Drei Varianten ordnen
 
-Jemand sagt: Ein Placeholder reicht doch, man sieht ja, was eingegeben werden soll.
+Ordne diese drei Fälle von **am ruhigsten verständlich** nach **am schwächsten orientierend**.
 
-Erkläre, warum das zu kurz gedacht ist.
+Begründe deine Reihenfolge in 3 bis 5 Sätzen.
 
-## Aufgabe 3: Rolle formulieren
+## Aufgabe 2: Vorher, währenddessen, danach
 
-Beschreibe in 2 bis 4 Sätzen, welche Aufgabe ein Label hat und welche Aufgabe ein Placeholder höchstens ergänzend übernimmt.
+Beschreibe kurz, wie sich die Orientierung in den drei Varianten in diesen Momenten verändert:
+
+- vor dem Tippen
+- während der Eingabe
+- nach dem ersten getippten Zeichen
+
+## Aufgabe 3: Frage und Zusatzhinweis trennen
+
+Erkläre in 2 bis 4 Sätzen, welche Rolle das Label trägt und welche Rolle ein Placeholder höchstens ergänzend übernehmen darf.
+
+## Aufgabe 4: Rettungsversuch prüfen
+
+Jemand sagt: „Dann mache ich den Placeholder einfach länger, dann ersetzt er das Label doch fast.“
+
+Erkläre, warum das die Grundfrage noch nicht sauber löst.
+
+## Aufgabe 5: Feldfrage umbauen
+
+Formuliere aus diesem schwachen Fall eine ruhigere Variante:
+
+```html
+<input type="tel" placeholder="+49 123 456789" />
+```
+
+## Aufgabe 6: Beispiel statt Hauptfrage prüfen
+
+Bewerte diesen Fall:
+
+```html
+<label for="telefon">Telefonnummer</label>
+<input id="telefon" type="tel" placeholder="+49 123 456789" />
+```
+
+Erkläre kurz, warum der Placeholder hier eher als Formatbeispiel gelesen werden darf.
+
+## Aufgabe 7: Zweiten Feldtyp mitdenken
+
+Ein Suchfeld hat sichtbar schon eine Überschrift darüber, aber zusätzlich noch den Placeholder `Suche nach Themen`.
+
+Erkläre kurz, warum dieser Placeholder dann eher eine Ergänzung als die eigentliche Feldfrage sein kann.
+
+## Aufgabe 8: Längeren Placeholder einordnen
+
+Bewerte diesen Versuch:
+
+```html
+<input type="email" placeholder="Bitte geschäftliche E-Mail-Adresse eingeben" />
+```
+
+Erkläre in 2 bis 4 Sätzen, warum mehr Placeholder-Text die Feldfrage trotzdem nicht stabil trägt.

@@ -1,6 +1,6 @@
 ---
 title: Boxenmodell mit Margin, Padding und Border verstehen
-description: Verstehe das Boxenmodell über Abstände und Abmessungen, damit du Layoutprobleme ruhiger lesen kannst.
+description: Verstehe das Boxenmodell über Abstände und Schichten, damit du Layoutprobleme ruhiger lesen kannst.
 subject: web-development
 section: CSS
 topicPath:
@@ -41,12 +41,12 @@ draft: false
 
 ## Grundidee
 
-Jedes sichtbare Element auf einer Webseite lässt sich als rechteckige Box denken. Für das Verständnis von Layouts reicht es deshalb nicht, nur auf den Text oder das Bild zu schauen. Wichtig ist die ganze Box mit ihren Abständen.
+Jedes sichtbare Element auf einer Webseite lässt sich als rechteckige Box denken. Für Layoutfragen reicht es deshalb nicht, nur auf den Text oder das Bild zu schauen. Wichtig ist die ganze Box mit ihren **inneren Schichten** und ihrem **äußeren Abstand**.
 
 <div class="example-card">
   <p class="card-kicker">Leitbeispiel</p>
   <h3>Warum wirkt eine Karte größer als der eigentliche Text?</h3>
-  <p>Eine kleine Textmenge kann in einer Karte trotzdem viel Platz einnehmen, wenn innen Luft gelassen wird, ein Rahmen sichtbar ist und außen noch Abstand zu anderen Karten besteht. Das Boxenmodell erklärt genau diese Schichten.</p>
+  <p>Eine kleine Textmenge kann in einer Karte trotzdem viel Platz einnehmen, wenn innen Luft gelassen wird, ein Rahmen sichtbar ist und außen noch Abstand zu anderen Karten besteht. Das Boxenmodell trennt genau diese Schichten, damit du nicht alles nur als „irgendwie Abstand“ liest.</p>
 </div>
 
 ## Die vier Schichten der Box
@@ -70,11 +70,11 @@ Jedes sichtbare Element auf einer Webseite lässt sich als rechteckige Box denke
   </div>
 </div>
 
-## Mini-Demo: dieselbe Box mit mehr Innen- oder Außenluft
+## Mini-Demo: innen größer oder außen weiter weg?
 
 <div class="figure-card">
   <p class="card-kicker">Mini-Seite in der Seite</p>
-  <h3>Innen größer oder außen weiter weg?</h3>
+  <h3>Padding und Margin erzeugen beide Abstand, aber nicht am selben Ort</h3>
   <div style="display:grid; gap:0.9rem;">
     <div style="padding:1.25rem; border:2px solid #3b82f6; border-radius:14px; background:white; max-width:22rem;">
       Mehr Padding: der Inhalt rückt nach innen.
@@ -85,14 +85,87 @@ Jedes sichtbare Element auf einer Webseite lässt sich als rechteckige Box denke
   </div>
 </div>
 
-## Abmessungen ruhiger lesen
+## Der Zahlenblick zum Leitbeispiel
 
-Wenn du <code>width</code> oder <code>height</code> siehst, solltest du nicht sofort denken: "Das ist die komplette sichtbare Fläche." Oft kommen Padding und Border noch dazu. Deshalb lohnt sich immer die Frage:
+Gegeben ist:
 
-- Wie groß ist der Inhalt?
-- Wie viel Luft kommt innen dazu?
-- Gibt es einen sichtbaren Rahmen?
-- Wie viel Abstand liegt außen?
+```css
+.karte {
+  width: 240px;
+  padding: 16px;
+  border: 2px solid #334155;
+  margin: 24px;
+}
+```
+
+Die ruhige Lesart ist:
+
+- `240px` beschreibt hier zuerst die **Inhaltsbreite**,
+- links und rechts kommen jeweils `16px` Padding dazu,
+- links und rechts kommen jeweils `2px` Border dazu,
+- und außerhalb der sichtbaren Box liegen links und rechts noch `24px` Margin.
+
+## Zwei Formeln, die fast alle Missverständnisse auflösen
+
+<div class="compare-card">
+  <p class="card-kicker">Rechenraster</p>
+  <h3>Box selbst und Platzbedarf im Layout getrennt lesen</h3>
+  <div class="compare-grid">
+    <div class="compare-item">
+      <strong>Sichtbare Boxbreite</strong>
+      <span><code>Inhalt + Padding links/rechts + Border links/rechts</code></span>
+    </div>
+    <div class="compare-item">
+      <strong>Gesamter Platzbedarf</strong>
+      <span><code>sichtbare Boxbreite + Margin links/rechts</code></span>
+    </div>
+  </div>
+</div>
+
+Für das Leitbeispiel bedeutet das:
+
+```text
+sichtbare Boxbreite = 240 + 16 + 16 + 2 + 2 = 276px
+gesamter Platzbedarf = 276 + 24 + 24 = 324px
+```
+
+## Gleiche sichtbare Breite, andere innere Verteilung
+
+Eine zweite Karte kann sichtbar gleich breit wirken und trotzdem anders gebaut sein:
+
+```css
+.karte-zwei {
+  width: 208px;
+  padding: 32px;
+  border: 2px solid;
+  margin: 8px;
+}
+```
+
+Hier bleibt die sichtbare Boxbreite ebenfalls `276px`, aber:
+
+- der **Inhaltsbereich** wird kleiner,
+- der **Innenabstand** wird größer,
+- und der **gesamte Platzbedarf** im Layout sinkt wegen der kleineren Margin.
+
+Gerade diese Trennung macht das Thema didaktisch wichtig: **sichtbar gleich** ist nicht automatisch **strukturell gleich**.
+
+## Typische Fehlersätze ruhig korrigieren
+
+<div class="compare-card">
+  <p class="card-kicker">Fehlersprache</p>
+  <h3>Was ist mit „Die Karte ist 324px breit“ eigentlich gemeint?</h3>
+  <div class="compare-grid">
+    <div class="compare-item">
+      <strong>Ungenau</strong>
+      <span>„Die Karte ist 324px breit.“</span>
+    </div>
+    <div class="compare-item">
+      <strong>Ruhig präzise</strong>
+      <span>„Die sichtbare Box ist 276px breit. Mit linker und rechter Margin braucht sie im Layout insgesamt 324px Platz.“</span>
+    </div>
+  </div>
+</div>
 
 ## Eine ruhige Prüfstrategie
 
@@ -106,8 +179,12 @@ Wenn du <code>width</code> oder <code>height</code> siehst, solltest du nicht so
     <span>Liegt zusätzlicher Platz innerhalb der Box?</span>
   </div>
   <div class="step-item">
-    <strong>3. Außenluft prüfen</strong>
-    <span>Oder wird nur die ganze Box von anderen Elementen entfernt?</span>
+    <strong>3. Rahmen mitdenken</strong>
+    <span>Der Border ist nicht nur Deko, sondern Teil der sichtbaren Box.</span>
+  </div>
+  <div class="step-item">
+    <strong>4. Außenabstand getrennt lesen</strong>
+    <span>Margin vergrößert nicht die sichtbare Box, aber den Platzbedarf im Layout.</span>
   </div>
 </div>
 
