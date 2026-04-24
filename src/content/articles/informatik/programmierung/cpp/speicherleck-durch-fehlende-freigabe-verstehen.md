@@ -23,7 +23,7 @@ commonMistakes:
 keyTakeaways:
   - Ein Speicherleck entsteht, wenn reservierter Speicher ohne sauberen Abschluss zurückbleibt.
   - Kritisch ist nicht nur fehlendes <code>delete</code>, sondern auch verlorene Erreichbarkeit.
-  - Gute Prüfung fragt immer: Wo entsteht Speicher, wie bleibt er erreichbar, wo endet er?
+  - "Gute Prüfung fragt immer: Wo entsteht Speicher, wie bleibt er erreichbar, wo endet er?"
 recognizeSignals:
   - Ein Pointer bekommt mit <code>new</code> eine Adresse und wird später überschrieben.
   - Eine Reservierung ist sichtbar, aber eine Freigabe fehlt.

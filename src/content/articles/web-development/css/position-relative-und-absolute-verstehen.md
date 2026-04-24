@@ -21,8 +21,8 @@ commonMistakes:
   - Positionierung mit margin oder z-index durcheinanderzubringen.
 keyTakeaways:
   - relative hält ein Element im normalen Fluss, kann aber einen Bezugspunkt schaffen.
-  - absolute nimmt ein Element aus dem normalen Fluss heraus.
-  - Die wichtigste Frage lautet: Worauf bezieht sich diese Lage?
+  - "absolute nimmt ein Element aus dem normalen Fluss heraus."
+  - "Die wichtigste Frage lautet: Worauf bezieht sich diese Lage?"
 recognizeSignals:
   - Es geht um Badges, Ecken, Overlays oder schwebende UI-Teile.
   - Du sollst erklären, warum ein Element an einer bestimmten Stelle erscheint.

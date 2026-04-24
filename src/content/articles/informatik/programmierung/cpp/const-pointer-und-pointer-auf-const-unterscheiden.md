@@ -14,15 +14,15 @@ learningGoals:
   - Du liest die beiden Schreibweisen systematischer statt sie nur optisch ähnlich zu finden.
 practiceIdeas:
   - Sprich beide Deklarationen laut in klaren Worten aus.
-  - Markiere in kleinen Beispielen, was fest ist: die Adresse oder der Zielwert.
+  - "Markiere in kleinen Beispielen, was fest ist: die Adresse oder der Zielwert."
   - Vergleiche, welche Änderungen bei beiden Varianten erlaubt oder verboten sind.
 commonMistakes:
   - Beide Schreibweisen nur als "irgendwas mit const" zu behandeln.
   - Zu übersehen, ob sich <code>const</code> auf den Pointer oder auf den Zielwert bezieht.
   - Zu glauben, beide Varianten hätten dieselbe praktische Wirkung.
 keyTakeaways:
-  - <code>const int *p</code> bedeutet: Über <code>p</code> soll der Zielwert nicht verändert werden.
-  - <code>int * const p</code> bedeutet: Die gespeicherte Adresse in <code>p</code> bleibt fest.
+  - "<code>const int *p</code> bedeutet: Über <code>p</code> soll der Zielwert nicht verändert werden."
+  - "<code>int * const p</code> bedeutet: Die gespeicherte Adresse in <code>p</code> bleibt fest."
   - Eine ruhige Lesestrategie macht die scheinbar ähnlichen Schreibweisen klar unterscheidbar.
 recognizeSignals:
   - In einer Deklaration steht <code>const</code> direkt beim Grundtyp oder direkt beim Pointer.

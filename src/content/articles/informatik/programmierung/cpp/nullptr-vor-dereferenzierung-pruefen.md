@@ -10,7 +10,7 @@ topicPath:
   - nullptr-vor-dereferenzierung-pruefen
 learningGoals:
   - Du erklärst, warum ein Nullpointer vor <code>*p</code> geprüft werden sollte.
-  - Du erkennst die logische Reihenfolge: erst Zustand prüfen, dann Zielwert benutzen.
+  - "Du erkennst die logische Reihenfolge: erst Zustand prüfen, dann Zielwert benutzen."
   - Du trennst die Zugriffsfrage sauber von der früheren Initialisierungsfrage.
 practiceIdeas:
   - Lies kleine Pointer-Beispiele in der Reihenfolge Zustand → Prüfung → Zugriff.

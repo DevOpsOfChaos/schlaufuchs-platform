@@ -21,7 +21,7 @@ commonMistakes:
   - Zu glauben, man könne einen uninitialisierten Pointer erst einmal gefahrlos stehen lassen.
   - Die Startzustandsfrage mit der späteren Zugriffsfrage zu vermischen.
 keyTakeaways:
-  - <code>nullptr</code> bedeutet bewusst: Dieser Pointer zeigt aktuell auf kein Objekt.
+  - "<code>nullptr</code> bedeutet bewusst: Dieser Pointer zeigt aktuell auf kein Objekt."
   - Ein uninitialisierter Pointer hat keinen verlässlichen Startzustand.
   - Diese Seite klärt den Anfangszustand, noch nicht die spätere Dereferenzierung.
 recognizeSignals:

@@ -23,7 +23,7 @@ commonMistakes:
 keyTakeaways:
   - Nach <code>delete</code> kann der Pointer selbst noch existieren.
   - Sein früheres Ziel ist aber nicht mehr sicher nutzbar.
-  - Die kritische Frage lautet danach: Wo passiert der nächste Zugriff?
+  - "Die kritische Frage lautet danach: Wo passiert der nächste Zugriff?"
 recognizeSignals:
   - Ein Beispiel enthält <code>delete p;</code> und später wird <code>p</code> erneut benutzt.
   - Du sollst entscheiden, ob ein Pointer nach der Freigabe noch sicher ist.

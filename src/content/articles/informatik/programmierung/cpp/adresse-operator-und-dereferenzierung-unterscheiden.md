@@ -15,7 +15,7 @@ learningGoals:
 practiceIdeas:
   - Übersetze Zeilen mit <code>&amp;</code>, <code>p</code> und <code>*p</code> jeweils in klare Sprache.
   - Prüfe in kleinen Beispielen, ob gerade eine Adresse gespeichert, gelesen oder dereferenziert wird.
-  - Ergänze zu jeder Pointer-Zeile bewusst die Frage: „Adresse oder Wert?“
+  - "Ergänze zu jeder Pointer-Zeile bewusst die Frage: „Adresse oder Wert?“"
 commonMistakes:
   - <code>&amp;</code> in jeder Situation als logischen oder bitweisen Operator zu lesen.
   - <code>*</code> beim Dereferenzieren mit Multiplikation zu verwechseln.
