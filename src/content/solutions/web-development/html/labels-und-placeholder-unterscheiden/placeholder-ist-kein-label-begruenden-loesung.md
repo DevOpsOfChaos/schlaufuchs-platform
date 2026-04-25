@@ -12,7 +12,7 @@ relatedExercise: src/content/exercises/web-development/html/labels-und-placehold
 tags:
   - html
   - form
-  - loesung
+  - lösung
 draft: false
 ---
 
@@ -20,11 +20,11 @@ draft: false
 
 ### Aufgabe 1
 
-Am ruhigsten verständlich ist das Feld mit sichtbarem Label und zusätzlichem Placeholder, weil die Feldfrage sichtbar bleibt und der Placeholder nur ergänzt. Danach folgt das Feld mit sichtbarem Label ohne Placeholder, weil die Hauptfrage weiterhin klar ist, auch wenn kein Zusatzbeispiel im Feld steht. Am schwächsten ist das Feld nur mit Placeholder, weil die Orientierung an einen Text gebunden wird, der oft wieder verschwindet. Genau diese Reihenfolge zeigt: **Ein Placeholder kann nützlich sein, trägt die Hauptbeschriftung aber nicht selbst.**
+Am ruhigsten verständlich ist das Feld mit sichtbarem Label und zusätzlichem Placeholder, weil die Feldfrage sichtbar bleibt und der Placeholder nur ergänzt. Danach folgt das Feld mit sichtbarem Label ohne Placeholder, weil die Hauptfrage weiterhin klar ist, auch wenn kein Zusatzbeispiel im Feld steht. Am schwächsten ist das Feld nur mit Placeholder, weil die Orientierung an einen Text gebunden wird, der oft wieder verschwindet.
 
 ### Aufgabe 2
 
-- **Vor dem Tippen:** Alle drei Varianten wirken zunächst noch einigermaßen lesbar, die mit sichtbarem Label aber am ruhigsten.
+- **Vor dem Tippen:** Alle drei Varianten wirken zunächst noch einigermaßen lesbar, die Varianten mit sichtbarem Label aber am ruhigsten.
 - **Während der Eingabe:** Beim Feld nur mit Placeholder verschwindet die Hauptorientierung gerade dann, wenn sie gebraucht wird.
 - **Nach dem ersten Zeichen:** Das Label bleibt als Frage sichtbar, der Placeholder trägt die Feldfrage nicht mehr.
 
@@ -45,7 +45,7 @@ Eine ruhige Verbesserung wäre zum Beispiel:
 <input id="telefon" type="tel" placeholder="+49 123 456789" />
 ```
 
-Hier stellt das Label die sichtbare Feldfrage. Der Placeholder ergänzt nur noch ein möglichiges Format.
+Hier stellt das Label die sichtbare Feldfrage. Der Placeholder ergänzt nur noch ein mögliches Format.
 
 ### Aufgabe 6
 
@@ -55,6 +55,13 @@ Der Placeholder darf hier eher als Formatbeispiel gelesen werden, weil die eigen
 
 Wenn über dem Suchfeld bereits sichtbar eine Überschrift oder ein Label steht, kann der Placeholder ruhig nur noch ergänzen. Dann trägt die eigentliche Feldfrage schon die sichtbare Beschriftung. Der Placeholder hilft höchstens mit einer Formulierung oder einem Beispiel, ersetzt die Frage aber nicht.
 
+
 ### Aufgabe 8
 
-Mehr Placeholder-Text macht die Orientierung zunächst ausführlicher, aber nicht stabiler. Die Feldfrage sitzt weiterhin im Eingabefeld selbst und verschwindet oft, sobald jemand zu tippen beginnt. Gerade deshalb wird aus einem langen Placeholder noch kein echtes Label.
+Beide Varianten können ruhig sein, weil in beiden Fällen das sichtbare Label die eigentliche Feldfrage trägt. Die zweite Variante ergänzt zusätzlich ein kleines Beispiel mit dem Placeholder. Der Unterschied liegt also nicht in der Hauptverständlichkeit, sondern nur darin, ob ein zusätzliches Format- oder Inhaltsbeispiel hilfreich ist.
+
+
+### Aufgabe 9
+
+Hier fehlen in beiden Feldern sichtbare Feldfragen. Am Anfang lassen sich Name und E-Mail noch ungefähr aus den Placeholdern erraten. Sobald aber in beiden Feldern echte Eingaben stehen, verschwindet diese Orientierung gleichzeitig. Genau deshalb wird in einem kleinen Mehrfeld-Formular noch deutlicher, warum Placeholder keine stabile Hauptbeschriftung tragen sollten.
+

@@ -20,8 +20,8 @@ commonMistakes:
   - relative nur als kleine Verschiebung statt als Anker für andere Elemente zu lesen.
   - Positionierung mit margin oder z-index durcheinanderzubringen.
 keyTakeaways:
-  - relative hält ein Element im normalen Fluss, kann aber einen Bezugspunkt schaffen.
-  - "absolute nimmt ein Element aus dem normalen Fluss heraus."
+  - relative hält ein Element im normalen Fluss und kann einen Bezugspunkt schaffen.
+  - absolute nimmt ein Element aus dem normalen Fluss heraus.
   - "Die wichtigste Frage lautet: Worauf bezieht sich diese Lage?"
 recognizeSignals:
   - Es geht um Badges, Ecken, Overlays oder schwebende UI-Teile.
@@ -116,6 +116,56 @@ Viele lesen <code>position: relative</code> zuerst als „ich kann das Element e
   right: 0.7rem;
 }
 ```
+
+## Ein zweiter Blick: gleiche Werte, andere Wirkung
+
+Die Zahlen `top: 0.7rem` und `right: 0.7rem` wirken nur deshalb sinnvoll, weil sie sich auf einen passenden Bezugspunkt beziehen. Ohne diesen Anker beschreiben dieselben Werte keine ruhige Kartenecke, sondern nur irgendeinen Abstand in einem anderen Zusammenhang.
+
+## Zwei Lesefragen bewusst trennen
+
+<div class="compare-card">
+  <p class="card-kicker">Diagnose-Raster</p>
+  <h3>Erst den Anker klären, dann die Verschiebung lesen</h3>
+  <div class="compare-grid">
+    <div class="compare-item">
+      <strong>Bezogener Kontext</strong>
+      <span><code>Worauf</code> bezieht sich die Lage überhaupt?</span>
+    </div>
+    <div class="compare-item">
+      <strong>Abstand im Kontext</strong>
+      <span><code>Wie weit</code> liegt das Element dann von oben oder rechts entfernt?</span>
+    </div>
+  </div>
+</div>
+
+Gerade diese Reihenfolge macht den Unterschied zwischen fachlicher Erklärung und bloßem „irgendwie nach rechts geschoben“.
+
+## Mini-Gegenbild: optisch ähnlich, fachlich schwächer
+
+<div class="figure-card">
+  <p class="card-kicker">Gegenfall</p>
+  <h3>Ein Badge über Außenabstände in die Ecke drücken</h3>
+  <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(16rem,1fr)); gap:0.9rem;">
+    <div style="padding:0.95rem; border-radius:16px; border:1px dashed #94a3b8; background:#f8fafc;">
+      <p style="margin:0 0 0.45rem;"><strong>Ruhig verankert</strong></p>
+      <pre style="margin:0; white-space:pre-wrap;"><code>.karte { position: relative; }
+.badge {
+  position: absolute;
+  top: 0.7rem;
+  right: 0.7rem;
+}</code></pre>
+      <p style="margin:0.55rem 0 0;">Die Lage wird über einen klaren Bezugspunkt erklärt.</p>
+    </div>
+    <div style="padding:0.95rem; border-radius:16px; border:1px dashed #94a3b8; background:#f8fafc;">
+      <p style="margin:0 0 0.45rem;"><strong>Unruhig geschoben</strong></p>
+      <pre style="margin:0; white-space:pre-wrap;"><code>.badge {
+  margin-left: 11rem;
+  margin-top: -2rem;
+}</code></pre>
+      <p style="margin:0.55rem 0 0;">Optisch vielleicht ähnlich, aber fachlich deutlich schlechter begründet.</p>
+    </div>
+  </div>
+</div>
 
 ## Abgrenzung zu den Nachbarseiten
 

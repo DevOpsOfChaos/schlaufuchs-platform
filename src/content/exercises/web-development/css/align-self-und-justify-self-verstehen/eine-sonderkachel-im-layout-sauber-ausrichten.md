@@ -23,7 +23,7 @@ selfCheckPoints:
   - Kannst du begründen, warum ein Margin-Hack hier unnötig wäre?
 transferIdeas:
   - Übertrage die Logik auf Buttons, Teaser-Karten oder Dashboard-Elemente.
-reflectionPrompt: Woran erkennst du, dass ein Problem eigentlich keine Verschiebung, sondern eine Ausrichtungsfrage ist?
+reflectionPrompt: "Woran erkennst du, dass ein Problem eigentlich keine Verschiebung, sondern eine Ausrichtungsfrage ist?"
 ---
 
 Gegeben sind diese drei CSS-Ausschnitte:

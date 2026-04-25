@@ -1,0 +1,98 @@
+---
+title: ATmega – TWI Clock Stretching verstehen
+description: Verstehe, warum ein I²C beziehungsweise TWI-Teilnehmer die Taktleitung kurz festhalten kann und warum das kein zufälliger Fehler sein muss.
+subject: elektrotechnik
+section: mikrocontroller-und-atmega
+topicPath:
+  - mikrocontroller-und-atmega
+  - serielle-schnittstellen-und-busse
+  - atmega-twi-clock-stretching-verstehen
+learningGoals:
+  - Du erklärst die Grundidee von Clock Stretching am TWI beziehungsweise I²C-Bus.
+  - Du unterscheidest ein bewusstes Warten am Bus von einem echten Hänger.
+  - Du liest SCL nicht nur als Takt aus dem Master, sondern als gemeinsame Busleitung mit Rückwirkung.
+practiceIdeas:
+  - Vergleiche einen sauberen TWI-Ablauf mit einem Fall, in dem ein Slave kurz Zeit braucht.
+  - Prüfe bei einem langsamen Bus, ob wirklich ein Fehler vorliegt oder ob eine Gegenstelle den Takt bewusst hält.
+  - Lies SDA und SCL als gemeinsame Leitungen statt nur als Einbahnstraße vom Master.
+commonMistakes:
+  - Zu denken, nur der Master bestimme die Taktleitung vollständig allein.
+  - Clock Stretching sofort als Defekt oder Timingfehler abzutun.
+  - Einen langen Low-Pegel auf SCL nicht mit dem Buszustand in Verbindung zu bringen.
+keyTakeaways:
+  - Beim TWI kann eine Gegenstelle SCL kurz auf Low halten, um Zeit zu gewinnen.
+  - Clock Stretching ist ein Busmechanismus und nicht automatisch ein Fehlerbild.
+  - Erst Dauer und Kontext zeigen, ob ein geordnetes Warten oder ein Busproblem vorliegt.
+recognizeSignals:
+  - Es geht um I²C oder TWI, SCL, langsame Gegenstellen oder unerwartetes Warten auf dem Bus.
+  - Du sollst erklären, warum ein Zugriff nicht sofort weiterläuft, obwohl die Verdrahtung stimmt.
+  - In Aufgaben zählt die Buslogik stärker als die reine Registerliste.
+selfCheckPoints:
+  - Kann ich erklären, warum SCL nicht immer sofort weiter taktet?
+  - Kann ich Clock Stretching und echten Busstillstand unterscheiden?
+  - Kann ich den Nutzen für langsame Slaves in Worte fassen?
+tags:
+  - elektrotechnik
+  - mikrocontroller
+  - atmega
+  - twi
+  - i2c
+level: mittel
+draft: false
+---
+
+## Grundidee
+
+Bei TWI beziehungsweise I²C wirkt es auf den ersten Blick so, als würde der Master den Takt einfach ausgeben und alle anderen folgen. In der Praxis ist die Taktleitung aber eine **gemeinsame Busleitung**. Genau deshalb kann eine Gegenstelle den Takt kurz festhalten, wenn sie noch nicht bereit ist. Dieses Verhalten nennt man **Clock Stretching**.
+
+<div class="example-card">
+  <p class="card-kicker">Leitbeispiel</p>
+  <h3>Ein Sensor braucht noch einen Moment</h3>
+  <p>Der AVR spricht einen Sensor an. Der Sensor hat die Adresse verstanden, braucht aber noch kurz Zeit, bevor der nächste Schritt sauber weiterlaufen kann. Statt dass der Bus sofort weitertaktet, hält die Gegenstelle SCL kurz auf Low. Erst dann geht der Zugriff geordnet weiter.</p>
+</div>
+
+## Was dabei fachlich passiert
+
+<div class="visual-grid">
+  <div class="visual-item">
+    <strong>Master startet</strong>
+    <span>Der Zugriff wird normal begonnen.</span>
+  </div>
+  <div class="visual-item">
+    <strong>Gegenstelle braucht Zeit</strong>
+    <span>Ein Slave ist noch nicht bereit für den nächsten Schritt.</span>
+  </div>
+  <div class="visual-item">
+    <strong>SCL bleibt kurz Low</strong>
+    <span>Der Bus wartet sichtbar an der Taktleitung.</span>
+  </div>
+  <div class="visual-item">
+    <strong>Ablauf geht weiter</strong>
+    <span>Danach läuft die Kommunikation geordnet weiter.</span>
+  </div>
+</div>
+
+## Mini-Demo: geordnetes Warten oder echter Hänger?
+
+<div class="figure-card">
+  <p class="card-kicker">Denkbild</p>
+  <h3>Die Dauer und der Kontext entscheiden</h3>
+  <pre><code>Fall A: Start → Adresse → ACK → kurzes Warten auf SCL → Daten
+Fall B: Start → Adresse → ACK → SCL bleibt dauerhaft Low → Busproblem</code></pre>
+  <p>Beide Fälle sehen am Anfang ähnlich aus. Erst die Dauer und der weitere Ablauf zeigen, ob noch ein geordneter Busmechanismus läuft oder ob der Bus wirklich hängt.</p>
+</div>
+
+## Diese Seite behandelt bewusst Buslogik, nicht Registerdetails
+
+Hier geht es darum, **warum** der Bus manchmal wartet. Die genaue Initialisierung des AVR-TWI-Moduls oder einzelne Statuscodes sind eine andere Ebene. Diese Seite soll zuerst das Denkmodell für die Leitung selbst ruhig machen.
+
+## Eine ruhige Prüfstrategie
+
+1. Läuft der Zugriff grundsätzlich an?
+2. Gibt es eine plausible Gegenstelle, die Zeit brauchen könnte?
+3. Ist das Halten von SCL nur kurz und kontextgebunden?
+4. Oder bleibt der Buszustand dauerhaft stehen?
+
+<div class="note-panel">
+  <p><strong>Merke:</strong> Clock Stretching bedeutet nicht automatisch „der Bus ist kaputt“. Oft zeigt es nur, dass eine Gegenstelle gerade noch nicht bereit für den nächsten Schritt ist.</p>
+</div>

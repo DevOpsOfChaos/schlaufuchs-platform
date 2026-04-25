@@ -52,7 +52,7 @@ Ein sichtbarer Text erklärt direkt, was ein Element tut. Ein `aria-label` hilft
 
 ## Die ruhige Leitfrage ist zweistufig
 
-Nicht nur fragen: **„Hat der Button irgendeinen Namen?“**
+Nicht nur fragen: <strong>„Hat der Button irgendeinen Namen?“</strong>  
 Sondern ruhiger lesen:
 
 1. **Ist die Handlung sichtbar verständlich?**
@@ -100,7 +100,9 @@ Die entscheidende Lesart ist:
 
 ## Nicht jedes sichtbare Wort braucht noch ein zusätzliches `aria-label`
 
-Ein häufiger Fehlstart ist, nach dem Motto **„mehr Benennung ist automatisch besser“** zu arbeiten. Wenn ein Button bereits sichtbar klar beschriftet ist, wird durch ein zusätzliches `aria-label` nicht automatisch die Oberfläche besser. Entscheidend ist vielmehr:
+Ein häufiger Fehlstart ist, nach dem Motto **„mehr Benennung ist automatisch besser“** zu arbeiten. Wenn ein Button bereits sichtbar klar beschriftet ist, wird durch ein zusätzliches `aria-label` nicht automatisch die Oberfläche besser.
+
+Entscheidend ist vielmehr:
 
 - Trägt die sichtbare Beschriftung die Handlung schon ruhig?
 - Ergänzt ein technischer Name wirklich etwas Neues?
@@ -137,7 +139,7 @@ Ein häufiger Fehlstart ist, nach dem Motto **„mehr Benennung ist automatisch 
 <button aria-label="Löschen">Entfernen</button>
 ```
 
-Sichtbar steht hier <code>Entfernen</code>, technisch aber <code>Löschen</code>. Das kann unnötig unruhig wirken, weil zwei Namen für dieselbe Handlung gleichzeitig im Raum stehen. Ruhiger ist es fast immer, wenn sichtbarer Name und technische Benennung dieselbe Handlung tragen.
+Sichtbar steht hier <code>Entfernen</code>, technisch aber <code>Löschen</code>. Das kann unnötig unruhig wirken, weil zwei Namen für dieselbe Handlung gleichzeitig im Raum stehen.
 
 ## Umbau von schwach zu ruhig
 
@@ -159,38 +161,6 @@ Sichtbar steht hier <code>Entfernen</code>, technisch aber <code>Löschen</code>
     </div>
   </div>
 </div>
-
-## Toolbar-Fall: knapp ist nicht automatisch gut
-
-<div class="compare-card">
-  <p class="card-kicker">Praxisfall</p>
-  <h3>Eine Toolbar kann technisch benannt und trotzdem sichtbar unnötig knapp sein</h3>
-  <div class="compare-grid">
-    <div class="compare-item">
-      <strong>Nur Icons plus <code>aria-label</code></strong>
-      <span>Technisch oft deutlich besser, sichtbar aber weiter auf Symboldeutung angewiesen.</span>
-    </div>
-    <div class="compare-item">
-      <strong>Wichtige Aktionen sichtbar beschriftet</strong>
-      <span>Gerade riskante oder leicht verwechselbare Handlungen werden ruhiger und direkter lesbar.</span>
-    </div>
-  </div>
-</div>
-
-## Wann aria-label sinnvoll ergänzt
-
-Ein `aria-label` ist besonders dann nützlich, wenn
-
-- sichtbarer Text fehlt oder sehr knapp ist,
-- ein Icon-Button technisch benannt werden muss,
-- oder eine knappe Oberfläche zusätzlich eindeutig gemacht werden soll.
-
-Aber: **Ergänzen** ist nicht dasselbe wie **sichtbare Verständlichkeit ersetzen**.
-
-## Riskante Handlungen brauchen besonders ruhige Beschriftung
-
-Bei Aktionen wie `Löschen`, `Abbrechen` oder `Entfernen` ist die Fehlbedienung teurer als bei harmlosen Routinefunktionen. Genau dort hilft sichtbare Klarheit noch mehr, weil die Handlung nicht erst aus einem Symbol erraten werden sollte.
-
 
 ## Risikostufe mitdenken
 

@@ -118,7 +118,7 @@ Gerade deshalb kann diese Kombination sehr sinnvoll sein:
 <input id="telefon" type="tel" placeholder="+49 123 456789" />
 ```
 
-Hier stellt das Label die Frage **„Welche Information wird erwartet?“**
+Hier stellt das Label die Frage **„Welche Information wird erwartet?“**  
 Der Placeholder beantwortet nur die Zusatzfrage **„Wie könnte das ungefähr aussehen?“**
 
 ## Die Kernfrage ist nicht „Placeholder ja oder nein?“
@@ -149,6 +149,33 @@ Ein längerer Placeholder wie <code>Bitte geschäftliche E-Mail-Adresse eingeben
 ## Fehlerfall: Eingabe läuft, Orientierung verschwindet
 
 Gerade bei längeren Formularen schaut man während der Eingabe oft noch einmal zurück: „Was sollte ich hier nochmal eintragen?“ Wenn die Feldfrage nur als Placeholder im Feld stand, fehlt diese Orientierung genau in diesem Moment. Ein sichtbares Label löst genau dieses Problem ruhiger.
+
+
+## Zwei Felder nebeneinander zeigen das Problem noch deutlicher
+
+Ein einzelnes Feld nur mit Placeholder wirkt oft zunächst „noch okay“. In einem kleinen Formular mit mehreren Feldern wird die Schwäche aber deutlicher:
+
+```html
+<input type="text" placeholder="Max Mustermann" />
+<input type="email" placeholder="name@example.de" />
+```
+
+Am Anfang kann man noch ungefähr ahnen, was gemeint ist. Sobald in beiden Feldern Eingaben stehen, verschwinden die eigentlichen Feldfragen aber gleichzeitig. Gerade in solchen Mehrfeld-Situationen wird sichtbar, warum Label und Placeholder nicht dieselbe Aufgabe tragen.
+
+<div class="compare-card">
+  <p class="card-kicker">Mehrfeld-Blick</p>
+  <h3>Ein Problem wird mit mehreren Eingaben nicht kleiner, sondern deutlicher</h3>
+  <div class="compare-grid">
+    <div class="compare-item">
+      <strong>Nur ein Feld</strong>
+      <span>Der Placeholder wirkt anfangs noch wie eine provisorische Orientierung.</span>
+    </div>
+    <div class="compare-item">
+      <strong>Mehrere Felder</strong>
+      <span>Wenn mehrere Placeholder verschwinden, fällt die fehlende sichtbare Feldstruktur sofort stärker auf.</span>
+    </div>
+  </div>
+</div>
 
 ## Diese Seite behandelt bewusst Formularfelder, nicht Buttons
 

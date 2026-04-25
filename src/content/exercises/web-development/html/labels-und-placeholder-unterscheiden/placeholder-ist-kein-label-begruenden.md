@@ -24,7 +24,7 @@ selfCheckPoints:
   - Kannst du erklären, warum grauer Beispieltext allein oft nicht reicht?
 transferIdeas:
   - Übertrage die Aufgabe auf Login-, Kontakt- oder Suchformulare.
-reflectionPrompt: Warum wirkt ein Feld oft erst dann wirklich verständlich, wenn die Frage außerhalb des Feldes sichtbar bleibt?
+reflectionPrompt: "Warum wirkt ein Feld oft erst dann wirklich verständlich, wenn die Frage außerhalb des Feldes sichtbar bleibt?"
 ---
 
 Gegeben sind drei Varianten:
@@ -88,12 +88,30 @@ Ein Suchfeld hat sichtbar schon eine Überschrift darüber, aber zusätzlich noc
 
 Erkläre kurz, warum dieser Placeholder dann eher eine Ergänzung als die eigentliche Feldfrage sein kann.
 
-## Aufgabe 8: Längeren Placeholder einordnen
 
-Bewerte diesen Versuch:
+## Aufgabe 8: Zwei ruhige Formularvarianten vergleichen
+
+Vergleiche diese beiden Felder kurz:
 
 ```html
-<input type="email" placeholder="Bitte geschäftliche E-Mail-Adresse eingeben" />
+<label for="stadt">Stadt</label>
+<input id="stadt" type="text" />
+
+<label for="stadt-zwei">Stadt</label>
+<input id="stadt-zwei" type="text" placeholder="z. B. Karlsruhe" />
 ```
 
-Erkläre in 2 bis 4 Sätzen, warum mehr Placeholder-Text die Feldfrage trotzdem nicht stabil trägt.
+Erkläre, warum beide Varianten ruhig sein können und worin sich ihre Zusatzqualität unterscheidet.
+
+
+## Aufgabe 9: Zwei-Felder-Fall beurteilen
+
+Bewerte dieses kleine Formular:
+
+```html
+<input type="text" placeholder="Max Mustermann" />
+<input type="email" placeholder="name@example.de" />
+```
+
+Erkläre kurz, warum die Orientierung hier nach Beginn der Eingabe noch instabiler wird als bei nur einem einzelnen Placeholder-Feld.
+

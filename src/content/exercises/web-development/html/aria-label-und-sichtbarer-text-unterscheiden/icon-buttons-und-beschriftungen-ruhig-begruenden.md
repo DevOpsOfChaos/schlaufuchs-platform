@@ -24,7 +24,7 @@ selfCheckPoints:
   - Trennst du sichtbaren Text und aria-label sauber?
 transferIdeas:
   - Übertrage die Aufgabe auf Such-, Menü- oder Teilen-Buttons.
-reflectionPrompt: Warum ist ein technisch benanntes Element noch nicht automatisch eine gut verständliche Oberfläche?
+reflectionPrompt: "Warum ist ein technisch benanntes Element noch nicht automatisch eine gut verständliche Oberfläche?"
 ---
 
 Gegeben sind diese vier Varianten:
@@ -86,9 +86,21 @@ Warum ist der zweite Fall oft kritischer zu lesen als der erste?
 
 Formuliere eine ruhigere Variante für denselben Lösch-Button, bei der sichtbarer Name und technische Benennung nicht gegeneinander laufen.
 
-## Aufgabe 8: Toolbar-Fall einordnen
 
-In einer kleinen Toolbar stehen diese drei Buttons nebeneinander:
+## Aufgabe 8: Zwei klare Namen oder nur doppelte Pflege?
+
+Bewerte diesen Fall:
+
+```html
+<button aria-label="Löschen">🗑 Löschen</button>
+```
+
+Erkläre kurz, warum diese Variante sichtbar ruhig sein kann, aber nicht automatisch in jeder Situation einen zusätzlichen Qualitätsgewinn bringt.
+
+
+## Aufgabe 9: Toolbar ruhig umbauen
+
+Du hast diese Toolbar:
 
 ```html
 <button aria-label="Suche">🔍</button>
@@ -96,4 +108,5 @@ In einer kleinen Toolbar stehen diese drei Buttons nebeneinander:
 <button aria-label="Löschen">🗑</button>
 ```
 
-Erkläre kurz, warum gerade der dritte Button sichtbare Beschriftung eher gebrauchen kann als die beiden anderen.
+Formuliere eine ruhigere Variante, in der vor allem die riskantere Handlung sichtbar klarer wird, ohne dass die übrigen Buttons unnötig aus dem Kontext fallen.
+
