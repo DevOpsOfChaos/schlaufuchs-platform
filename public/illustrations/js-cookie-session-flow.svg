@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Cookie-Sitzungen</title>
+  <desc id="desc">Cookie-Attribute bestimmen, wann Sitzungsdaten gesendet und gelesen werden dürfen.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#eef2ff"/>
+      <stop offset="55%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#ecfeff"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="420" rx="36" fill="url(#bg)"/>
+  <circle cx="860" cy="58" r="86" fill="#9333ea" opacity="0.12"/>
+  <circle cx="96" cy="356" r="70" fill="#06b6d4" opacity="0.10"/>
+  <text x="70" y="84" font-family="Inter, system-ui, sans-serif" font-size="38" font-weight="900" fill="#0f172a">Cookie-Sitzungen</text>
+  <foreignObject x="72" y="106" width="720" height="62">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:Inter,system-ui,sans-serif;font-size:20px;line-height:1.35;color:#475569;">Cookie-Attribute bestimmen, wann Sitzungsdaten gesendet und gelesen werden dürfen.</div>
+  </foreignObject>
+  
+  <rect x="70.0" y="190" width="250.0" height="142" rx="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <circle cx="104.0" cy="226" r="16" fill="#9333ea" opacity="0.18"/>
+  <text x="130.0" y="232" font-family="Inter, system-ui, sans-serif" font-size="21" font-weight="800" fill="#0f172a">Session</text>
+  <foreignObject x="94.0" y="258" width="202.0" height="58">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:Inter,system-ui,sans-serif;font-size:17px;line-height:1.35;color:#334155;">Identität</div>
+  </foreignObject>
+  <path d="M 327.0 255 L 347.0 255" stroke="#64748b" stroke-width="5" stroke-linecap="round"/><path d="M 347.0 255 l -8 -8 M 347.0 255 l -8 8" stroke="#64748b" stroke-width="5" stroke-linecap="round"/>
+
+  <rect x="355.0" y="190" width="250.0" height="142" rx="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <circle cx="389.0" cy="226" r="16" fill="#9333ea" opacity="0.18"/>
+  <text x="415.0" y="232" font-family="Inter, system-ui, sans-serif" font-size="21" font-weight="800" fill="#0f172a">Attribute</text>
+  <foreignObject x="379.0" y="258" width="202.0" height="58">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:Inter,system-ui,sans-serif;font-size:17px;line-height:1.35;color:#334155;">Schutz</div>
+  </foreignObject>
+  <path d="M 612.0 255 L 632.0 255" stroke="#64748b" stroke-width="5" stroke-linecap="round"/><path d="M 632.0 255 l -8 -8 M 632.0 255 l -8 8" stroke="#64748b" stroke-width="5" stroke-linecap="round"/>
+
+  <rect x="640.0" y="190" width="250.0" height="142" rx="24" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <circle cx="674.0" cy="226" r="16" fill="#9333ea" opacity="0.18"/>
+  <text x="700.0" y="232" font-family="Inter, system-ui, sans-serif" font-size="21" font-weight="800" fill="#0f172a">Request</text>
+  <foreignObject x="664.0" y="258" width="202.0" height="58">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:Inter,system-ui,sans-serif;font-size:17px;line-height:1.35;color:#334155;">kontrolliert</div>
+  </foreignObject>
+  
+
+</svg>
