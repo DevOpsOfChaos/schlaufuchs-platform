@@ -1,0 +1,121 @@
+---
+title: "CSS – focus-visible, hover und Pointer-Zustände planen"
+description: "Verstehe, warum Interaktionszustände nicht nur hübsch sein dürfen, sondern Tastatur, Maus und Touch sauber unterstützen müssen."
+subject: web-development
+section: "CSS"
+topicPath:
+  - "css"
+  - "selektoren"
+  - "focus-visible-hover-und-pointer-zustaende-planen"
+learningGoals:
+  - "Du unterscheidest hover, focus und focus-visible."
+  - "Du erklärst, warum Tastaturfokus sichtbar bleiben muss."
+  - "Du vermeidest Interaktionen, die nur mit Maus funktionieren."
+practiceIdeas:
+  - "Prüfe einen Button nur mit Tab-Taste."
+  - "Vergleiche hover-Stil und focus-visible-Stil."
+  - "Überlege, was auf Touch-Geräten ohne Hover passiert."
+commonMistakes:
+  - "outline: none zu setzen, ohne Ersatz zu bieten."
+  - "Wichtige Informationen nur bei hover sichtbar zu machen."
+  - "focus und active durcheinanderzubringen."
+keyTakeaways:
+  - "hover ist kein Ersatz für Fokus."
+  - "focus-visible hilft, Tastaturfokus gezielt sichtbar zu machen."
+  - "Interaktionszustände müssen Eingabegeräte berücksichtigen."
+recognizeSignals:
+  - "Es geht um Buttons, Links, Tastaturbedienung, hover, focus oder outline."
+  - "Eine Aufgabe fragt, warum eine Seite per Tab schwer nutzbar ist."
+  - "CSS entfernt Fokusrahmen."
+selfCheckPoints:
+  - "Ist der Tastaturfokus sichtbar?"
+  - "Ist die Information auch ohne hover erreichbar?"
+  - "Sind Touch-Geräte mitgedacht?"
+tags:
+  - "web development"
+  - "css"
+  - "focus-visible"
+  - "hover"
+  - "accessibility"
+level: mittel
+draft: false
+---
+## Grundidee
+
+Verstehe, warum Interaktionszustände nicht nur hübsch sein dürfen, sondern Tastatur, Maus und Touch sauber unterstützen müssen. Die Kernfrage lautet dabei nicht: „Wie bekomme ich es irgendwie hin?“, sondern: **Welche Information braucht die Person, und welche technische Struktur unterstützt diese Information?**
+
+<div class="example-card">
+  <p class="card-kicker">Leitbeispiel</p>
+  <h3>Hover ist ein Komfortzustand, Fokus ist Orientierung</h3>
+  <p>Wer mit der Tastatur navigiert, braucht einen sichtbaren Fokus. Ein hübscher Hover-Effekt hilft dort nicht, weil er nur bei bestimmten Eingabegeräten entsteht.</p>
+</div>
+
+<div class="figure-card">
+  <p class="card-kicker">Visuelle Orientierung</p>
+  <h3>Der Prüfpfad in einem Bild</h3>
+  <img class="content-illustration" src="/schlaufuchs-platform/illustrations/css-focus-hover-pointer.svg" alt="Vergleich von Maus-Hover, Tastaturfokus und Touch-Interaktion." style="width:100%; max-width:52rem; border-radius:18px; border:1px solid var(--border); background:#f8fafc;" />
+</div>
+
+## Worum es fachlich geht
+
+<div class="visual-grid">
+  <div class="visual-item">
+    <strong>Kontext lesen</strong>
+    <span>Hover ergänzt, ersetzt aber nicht.</span>
+  </div>
+  <div class="visual-item">
+    <strong>Technik zuordnen</strong>
+    <span>focus-visible zeigt Tastaturorientierung.</span>
+  </div>
+  <div class="visual-item">
+    <strong>Nutzerwirkung prüfen</strong>
+    <span>Touch hat oft keinen echten Hover.</span>
+  </div>
+</div>
+
+## Mini-Demo
+
+<div class="figure-card">
+  <p class="card-kicker">Codeblick</p>
+  <h3>Eine kleine, aber entscheidende Struktur</h3>
+  <pre><code>a:hover { text-decoration-thickness: 0.18em; }
+
+a:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 0.2rem;
+}</code></pre>
+  <p>Die Demo ist bewusst klein. Sie zeigt nicht jedes Detail, sondern den didaktischen Kern: erst Bedeutung klären, dann Code schreiben.</p>
+</div>
+
+## Schwache und bessere Lesart
+
+<div class="compare-card">
+  <p class="card-kicker">Qualitätsvergleich</p>
+  <h3>Vom schnellen Hack zur belastbaren Lösung</h3>
+  <div class="compare-grid">
+    <div class="compare-item">
+      <strong>Schwach</strong>
+      <span>outline: none; und wichtige Menüpunkte nur bei hover sichtbar.</span>
+    </div>
+    <div class="compare-item">
+      <strong>Besser</strong>
+      <span>Ein klarer focus-visible-Stil plus robuste sichtbare Inhalte.</span>
+    </div>
+  </div>
+</div>
+
+## Prüfraster für Reviews
+
+1. Welche Person oder welches Gerät muss die Information verstehen?
+2. Ist die Information sichtbar, semantisch oder beides?
+3. Gibt es eine technische Verknüpfung, die mehr ist als reine Optik?
+4. Funktioniert die Lösung auch mit Tastatur, Screenreader, kleiner Breite oder reduzierter Bewegung?
+5. Bleibt der Code wartbar, ohne Spezialtricks zu stapeln?
+
+## Abgrenzung
+
+Diese Seite behandelt CSS-Zustände. Komplexe Menüs mit JavaScript-Fokusmanagement brauchen zusätzliche Logik. Dadurch bleibt die Seite klar: Sie erklärt eine konkrete Entscheidung und vermischt sie nicht mit allen Nachbarthemen.
+
+<div class="note-panel">
+  <p><strong>Merke:</strong> Gute Weboberflächen entstehen selten durch einen einzelnen Trick. Sie entstehen, wenn Inhalt, Semantik, Gestaltung und Verhalten dieselbe Aussage stützen.</p>
+</div>

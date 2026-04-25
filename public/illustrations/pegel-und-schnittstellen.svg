@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+<title id="title">5-Volt- und 3,3-Volt-Schnittstelle</title>
+<desc id="desc">Zwei Mikrocontroller-Module mit getrennt geprüften TX- und RX-Richtungen.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8fafc"/><stop offset="1" stop-color="#eef2ff"/></linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#0f172a" flood-opacity="0.13"/></filter>
+</defs>
+<rect width="900" height="420" rx="34" fill="url(#bg)"/>
+<g filter="url(#shadow)">
+  <rect x="70" y="88" width="240" height="220" rx="30" fill="#ffffff" stroke="#60a5fa" stroke-width="4"/>
+  <text x="190" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="30" font-weight="850" fill="#1d4ed8">5 V</text>
+  <text x="190" y="177" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#334155">ATmega</text>
+  <text x="190" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-size="17" fill="#475569">TX kann 5 V liefern</text>
+  <text x="190" y="248" text-anchor="middle" font-family="system-ui, sans-serif" font-size="17" fill="#475569">RX-Schwelle prüfen</text>
+  <rect x="590" y="88" width="240" height="220" rx="30" fill="#ffffff" stroke="#34d399" stroke-width="4"/>
+  <text x="710" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="30" font-weight="850" fill="#047857">3,3 V</text>
+  <text x="710" y="177" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#334155">Modul</text>
+  <text x="710" y="220" text-anchor="middle" font-family="system-ui, sans-serif" font-size="17" fill="#475569">RX oft nicht 5-V-tolerant</text>
+  <text x="710" y="248" text-anchor="middle" font-family="system-ui, sans-serif" font-size="17" fill="#475569">TX liefert 3,3 V</text>
+  <rect x="365" y="62" width="170" height="70" rx="22" fill="#fff7ed" stroke="#fb923c" stroke-width="3"/>
+  <text x="450" y="104" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" font-weight="800" fill="#9a3412">Pegel prüfen</text>
+  <rect x="365" y="286" width="170" height="70" rx="22" fill="#f1f5f9" stroke="#94a3b8" stroke-width="3"/>
+  <text x="450" y="328" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" font-weight="800" fill="#334155">GND gemeinsam</text>
+</g>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
+  <path d="M310 155 C405 105 500 105 590 155" stroke="#ea580c"/>
+  <path d="M590 238 C500 285 405 285 310 238" stroke="#0f766e"/>
+  <path d="M310 285 H590" stroke="#64748b" stroke-dasharray="12 12"/>
+</g>
+<g font-family="system-ui, sans-serif" font-size="18" font-weight="800">
+  <text x="450" y="143" text-anchor="middle" fill="#9a3412">TX 5 V → RX 3,3 V</text>
+  <text x="450" y="270" text-anchor="middle" fill="#0f766e">TX 3,3 V → RX 5 V</text>
+</g>
+<g fill="#ea580c"><path d="M580 141l24 13-25 11z"/></g>
+<g fill="#0f766e"><path d="M320 226l-25 11 24 13z"/></g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" role="img" aria-labelledby="title desc">
+  <title id="title">Diagnosepfad für Takt und Upload</title>
+  <desc id="desc">Ein Ablaufdiagramm zeigt Versorgung, Reset, Takt, Bootloader und ISP als getrennte Prüfpunkte.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#f0fdf4"/><stop offset="1" stop-color="#eff6ff"/></linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10z" fill="#0f766e"/></marker>
+  </defs>
+  <rect width="960" height="380" rx="30" fill="url(#bg)"/>
+  <text x="480" y="48" text-anchor="middle" font-family="system-ui, sans-serif" font-size="25" font-weight="900" fill="#0f172a">Uploadfehler ruhig eingrenzen</text>
+  <g font-family="system-ui, sans-serif" font-size="17" fill="#0f172a" font-weight="800">
+    <rect x="54" y="105" width="140" height="86" rx="20" fill="#ffffff" stroke="#86efac" stroke-width="3"/><text x="124" y="142" text-anchor="middle">Versorgung</text><text x="124" y="168" text-anchor="middle" font-size="14" font-weight="600" fill="#475569">VCC + GND</text>
+    <rect x="235" y="105" width="140" height="86" rx="20" fill="#ffffff" stroke="#93c5fd" stroke-width="3"/><text x="305" y="142" text-anchor="middle">Reset</text><text x="305" y="168" text-anchor="middle" font-size="14" font-weight="600" fill="#475569">Pegel + Timing</text>
+    <rect x="416" y="105" width="140" height="86" rx="20" fill="#ffffff" stroke="#facc15" stroke-width="3"/><text x="486" y="142" text-anchor="middle">Takt</text><text x="486" y="168" text-anchor="middle" font-size="14" font-weight="600" fill="#475569">Fuses + CKDIV8</text>
+    <rect x="597" y="105" width="140" height="86" rx="20" fill="#ffffff" stroke="#c4b5fd" stroke-width="3"/><text x="667" y="142" text-anchor="middle">Bootloader</text><text x="667" y="168" text-anchor="middle" font-size="14" font-weight="600" fill="#475569">serieller Weg</text>
+    <rect x="778" y="105" width="140" height="86" rx="20" fill="#ffffff" stroke="#fca5a5" stroke-width="3"/><text x="848" y="142" text-anchor="middle">ISP</text><text x="848" y="168" text-anchor="middle" font-size="14" font-weight="600" fill="#475569">direkter Weg</text>
+  </g>
+  <g stroke="#0f766e" stroke-width="5" fill="none" marker-end="url(#arrow)">
+    <path d="M194 148h35"/><path d="M375 148h35"/><path d="M556 148h35"/><path d="M737 148h35"/>
+  </g>
+  <rect x="170" y="242" width="620" height="82" rx="24" fill="#ffffff" stroke="#99f6e4" stroke-width="3"/>
+  <text x="480" y="278" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" font-weight="900" fill="#115e59">Nicht sofort den Chip verdächtigen.</text>
+  <text x="480" y="306" text-anchor="middle" font-family="system-ui, sans-serif" font-size="17" fill="#475569">Erst den Programmierweg und seine Voraussetzungen trennen.</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 300" role="img" aria-labelledby="title desc">
+<title id="title">Button oder Link entscheiden</title>
+<desc id="desc">Schematische Illustration: Zielwechsel; Aktion; Text</desc>
+<defs><linearGradient id="bg" x1="0" x2="1"><stop offset="0" stop-color="#eff6ff"/><stop offset="1" stop-color="#f8fafc"/></linearGradient></defs>
+<rect width="920" height="300" rx="28" fill="url(#bg)"/>
+<rect x="22" y="22" width="876" height="256" rx="24" fill="white" stroke="#cbd5e1"/>
+<text x="52" y="62" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">Button oder Link entscheiden</text>
+<rect x="52" y="92" width="261" height="150" rx="18" fill="#f8fafc" stroke="#bfdbfe"/>
+<circle cx="82" cy="124" r="16" fill="#dbeafe" stroke="#93c5fd"/>
+<text x="82" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#1d4ed8">1</text>
+<text x="110" y="130" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Zielwechsel</text>
+<text x="76" y="162" font-family="Arial, sans-serif" font-size="15" fill="#334155">Link führt zu neuer Adresse</text>
+<path d="M 321 166 h 15" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+<path d="m 336 166 -7 -6 m 7 6 -7 6" stroke="#94a3b8" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="341" y="92" width="261" height="150" rx="18" fill="#f8fafc" stroke="#bfdbfe"/>
+<circle cx="371" cy="124" r="16" fill="#dbeafe" stroke="#93c5fd"/>
+<text x="371" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#1d4ed8">2</text>
+<text x="399" y="130" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Aktion</text>
+<text x="365" y="162" font-family="Arial, sans-serif" font-size="15" fill="#334155">Button verändert den aktuellen</text>
+<text x="365" y="184" font-family="Arial, sans-serif" font-size="15" fill="#334155">Zustand</text>
+<path d="M 610 166 h 15" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+<path d="m 625 166 -7 -6 m 7 6 -7 6" stroke="#94a3b8" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="630" y="92" width="261" height="150" rx="18" fill="#f8fafc" stroke="#bfdbfe"/>
+<circle cx="660" cy="124" r="16" fill="#dbeafe" stroke="#93c5fd"/>
+<text x="660" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#1d4ed8">3</text>
+<text x="688" y="130" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Text</text>
+<text x="654" y="162" font-family="Arial, sans-serif" font-size="15" fill="#334155">Beschriftung sagt die Handlung</text>
+</svg>
