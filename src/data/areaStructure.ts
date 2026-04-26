@@ -34,81 +34,81 @@ const iconMap = {
 
 const areaNodesBySubject: Record<PrimarySubjectSlug, AreaNodeDefinition[]> = {
   mathematik: [
-    { slug: "rechenstrategien-und-kontrolle", title: "Rechenstrategien und Kontrolle", description: "Rechenwege, PlausibilitÃ¤t und typische Kontrollpunkte werden getrennt geÃ¼bt.", icon: iconMap.numbers, chips: ["v116", "Feinstruktur"], prefixes: [["rechenstrategien-und-kontrolle"]], children: [
-      { slug: "bruch-prozent-und-verhaeltnis", title: "Bruch, Prozent und VerhÃ¤ltnis", description: "Feines v116-Unterthema: Bruch, Prozent und VerhÃ¤ltnis.", icon: iconMap.numbers, chips: ["v116", "Praxis"], prefixes: [["rechenstrategien-und-kontrolle", "bruch-prozent-und-verhaeltnis"]] },
-      { slug: "einheiten-und-groessencheck", title: "Einheiten und GrÃ¶ÃŸencheck", description: "Feines v116-Unterthema: Einheiten und GrÃ¶ÃŸencheck.", icon: iconMap.numbers, chips: ["v116", "Praxis"], prefixes: [["rechenstrategien-und-kontrolle", "einheiten-und-groessencheck"]] },
+    { slug: "rechenstrategien-und-kontrolle", title: "Rechenstrategien und Kontrolle", description: "Rechenwege, Plausibilität und typische Kontrollpunkte werden getrennt geübt.", icon: iconMap.numbers, chips: ["v116", "Feinstruktur"], prefixes: [["rechenstrategien-und-kontrolle"]], children: [
+      { slug: "bruch-prozent-und-verhaeltnis", title: "Bruch, Prozent und Verhältnis", description: "Feines v116-Unterthema: Bruch, Prozent und Verhältnis.", icon: iconMap.numbers, chips: ["v116", "Praxis"], prefixes: [["rechenstrategien-und-kontrolle", "bruch-prozent-und-verhaeltnis"]] },
+      { slug: "einheiten-und-groessencheck", title: "Einheiten und Größencheck", description: "Feines v116-Unterthema: Einheiten und Größencheck.", icon: iconMap.numbers, chips: ["v116", "Praxis"], prefixes: [["rechenstrategien-und-kontrolle", "einheiten-und-groessencheck"]] },
       { slug: "termwerte-und-fehlerfallen", title: "Termwerte und Fehlerfallen", description: "Feines v116-Unterthema: Termwerte und Fehlerfallen.", icon: iconMap.numbers, chips: ["v116", "Praxis"], prefixes: [["rechenstrategien-und-kontrolle", "termwerte-und-fehlerfallen"]] }
     ] },
-    { slug: "modellieren-und-validieren", title: "Modellieren und Validieren", description: "Textaufgaben, Annahmen und Gegenproben werden als eigener Modellierungsblock gefÃ¼hrt.", icon: iconMap.graph, chips: ["v116", "Feinstruktur"], prefixes: [["modellieren-und-validieren"]], children: [
+    { slug: "modellieren-und-validieren", title: "Modellieren und Validieren", description: "Textaufgaben, Annahmen und Gegenproben werden als eigener Modellierungsblock geführt.", icon: iconMap.graph, chips: ["v116", "Feinstruktur"], prefixes: [["modellieren-und-validieren"]], children: [
       { slug: "textmodell-und-variablenwahl", title: "Textmodell und Variablenwahl", description: "Feines v116-Unterthema: Textmodell und Variablenwahl.", icon: iconMap.graph, chips: ["v116", "Praxis"], prefixes: [["modellieren-und-validieren", "textmodell-und-variablenwahl"]] },
-      { slug: "modellgrenzen-und-plausibilitaet", title: "Modellgrenzen und PlausibilitÃ¤t", description: "Feines v116-Unterthema: Modellgrenzen und PlausibilitÃ¤t.", icon: iconMap.graph, chips: ["v116", "Praxis"], prefixes: [["modellieren-und-validieren", "modellgrenzen-und-plausibilitaet"]] },
+      { slug: "modellgrenzen-und-plausibilitaet", title: "Modellgrenzen und Plausibilität", description: "Feines v116-Unterthema: Modellgrenzen und Plausibilität.", icon: iconMap.graph, chips: ["v116", "Praxis"], prefixes: [["modellieren-und-validieren", "modellgrenzen-und-plausibilitaet"]] },
       { slug: "tabellen-formeln-und-graphen", title: "Tabellen, Formeln und Graphen", description: "Feines v116-Unterthema: Tabellen, Formeln und Graphen.", icon: iconMap.graph, chips: ["v116", "Praxis"], prefixes: [["modellieren-und-validieren", "tabellen-formeln-und-graphen"]] }
     ] },
-    { slug: "funktionen-im-vergleich", title: "Funktionen im Vergleich", description: "Funktionstypen werden Ã¼ber VerÃ¤nderung, Graph und Bedeutung unterschieden.", icon: iconMap.graph, chips: ["v116", "Feinstruktur"], prefixes: [["funktionen-im-vergleich"]], children: [
+    { slug: "funktionen-im-vergleich", title: "Funktionen im Vergleich", description: "Funktionstypen werden über Veränderung, Graph und Bedeutung unterschieden.", icon: iconMap.graph, chips: ["v116", "Feinstruktur"], prefixes: [["funktionen-im-vergleich"]], children: [
       { slug: "linear-und-quadratisch-trennen", title: "Linear und quadratisch trennen", description: "Feines v116-Unterthema: Linear und quadratisch trennen.", icon: iconMap.graph, chips: ["v116", "Praxis"], prefixes: [["funktionen-im-vergleich", "linear-und-quadratisch-trennen"]] },
       { slug: "exponentielles-wachstum-erkennen", title: "Exponentielles Wachstum erkennen", description: "Feines v116-Unterthema: Exponentielles Wachstum erkennen.", icon: iconMap.graph, chips: ["v116", "Praxis"], prefixes: [["funktionen-im-vergleich", "exponentielles-wachstum-erkennen"]] },
       { slug: "nullstellen-und-schnittpunkte", title: "Nullstellen und Schnittpunkte", description: "Feines v116-Unterthema: Nullstellen und Schnittpunkte.", icon: iconMap.graph, chips: ["v116", "Praxis"], prefixes: [["funktionen-im-vergleich", "nullstellen-und-schnittpunkte"]] }
     ] },
-    { slug: "geometrie-messen-und-begruenden", title: "Geometrie messen und begrÃ¼nden", description: "Figuren, MaÃŸe und BegrÃ¼ndungen werden nicht vermischt, sondern schrittweise geprÃ¼ft.", icon: iconMap.ruler, chips: ["v116", "Feinstruktur"], prefixes: [["geometrie-messen-und-begruenden"]], children: [
+    { slug: "geometrie-messen-und-begruenden", title: "Geometrie messen und begründen", description: "Figuren, Maße und Begründungen werden nicht vermischt, sondern schrittweise geprüft.", icon: iconMap.ruler, chips: ["v116", "Feinstruktur"], prefixes: [["geometrie-messen-und-begruenden"]], children: [
       { slug: "winkel-und-parallelen", title: "Winkel und Parallelen", description: "Feines v116-Unterthema: Winkel und Parallelen.", icon: iconMap.ruler, chips: ["v116", "Praxis"], prefixes: [["geometrie-messen-und-begruenden", "winkel-und-parallelen"]] },
-      { slug: "flaeche-umfang-und-volumen", title: "FlÃ¤che, Umfang und Volumen", description: "Feines v116-Unterthema: FlÃ¤che, Umfang und Volumen.", icon: iconMap.ruler, chips: ["v116", "Praxis"], prefixes: [["geometrie-messen-und-begruenden", "flaeche-umfang-und-volumen"]] },
+      { slug: "flaeche-umfang-und-volumen", title: "Fläche, Umfang und Volumen", description: "Feines v116-Unterthema: Fläche, Umfang und Volumen.", icon: iconMap.ruler, chips: ["v116", "Praxis"], prefixes: [["geometrie-messen-und-begruenden", "flaeche-umfang-und-volumen"]] },
       { slug: "skizzen-und-hilfslinien", title: "Skizzen und Hilfslinien", description: "Feines v116-Unterthema: Skizzen und Hilfslinien.", icon: iconMap.ruler, chips: ["v116", "Praxis"], prefixes: [["geometrie-messen-und-begruenden", "skizzen-und-hilfslinien"]] }
     ] },
-    { slug: "daten-deuten-und-pruefen", title: "Daten deuten und prÃ¼fen", description: "Diagramme, Kennwerte und AusreiÃŸer werden als getrennte Leseschritte aufgebaut.", icon: iconMap.chart, chips: ["v116", "Feinstruktur"], prefixes: [["daten-deuten-und-pruefen"]], children: [
+    { slug: "daten-deuten-und-pruefen", title: "Daten deuten und prüfen", description: "Diagramme, Kennwerte und Ausreißer werden als getrennte Leseschritte aufgebaut.", icon: iconMap.chart, chips: ["v116", "Feinstruktur"], prefixes: [["daten-deuten-und-pruefen"]], children: [
       { slug: "mittelwert-median-und-spannweite", title: "Mittelwert, Median und Spannweite", description: "Feines v116-Unterthema: Mittelwert, Median und Spannweite.", icon: iconMap.chart, chips: ["v116", "Praxis"], prefixes: [["daten-deuten-und-pruefen", "mittelwert-median-und-spannweite"]] },
       { slug: "diagramme-kritisch-lesen", title: "Diagramme kritisch lesen", description: "Feines v116-Unterthema: Diagramme kritisch lesen.", icon: iconMap.chart, chips: ["v116", "Praxis"], prefixes: [["daten-deuten-und-pruefen", "diagramme-kritisch-lesen"]] },
       { slug: "wahrscheinlichkeit-und-simulation", title: "Wahrscheinlichkeit und Simulation", description: "Feines v116-Unterthema: Wahrscheinlichkeit und Simulation.", icon: iconMap.chart, chips: ["v116", "Praxis"], prefixes: [["daten-deuten-und-pruefen", "wahrscheinlichkeit-und-simulation"]] }
     ] },
-    { slug: "analysis-vorbereitung", title: "Analysis vorbereiten", description: "Ã„nderung, Steigung und FlÃ¤chenidee werden als Vorstufe zur Analysis greifbar.", icon: iconMap.graph, chips: ["v116", "Feinstruktur"], prefixes: [["analysis-vorbereitung"]], children: [
-      { slug: "aenderungsrate-und-steigung", title: "Ã„nderungsrate und Steigung", description: "Feines v116-Unterthema: Ã„nderungsrate und Steigung.", icon: iconMap.graph, chips: ["v116", "Praxis"], prefixes: [["analysis-vorbereitung", "aenderungsrate-und-steigung"]] },
+    { slug: "analysis-vorbereitung", title: "Analysis vorbereiten", description: "Änderung, Steigung und Flächenidee werden als Vorstufe zur Analysis greifbar.", icon: iconMap.graph, chips: ["v116", "Feinstruktur"], prefixes: [["analysis-vorbereitung"]], children: [
+      { slug: "aenderungsrate-und-steigung", title: "Änderungsrate und Steigung", description: "Feines v116-Unterthema: Änderungsrate und Steigung.", icon: iconMap.graph, chips: ["v116", "Praxis"], prefixes: [["analysis-vorbereitung", "aenderungsrate-und-steigung"]] },
       { slug: "grenzwertidee-alltagsnah", title: "Grenzwertidee alltagsnah", description: "Feines v116-Unterthema: Grenzwertidee alltagsnah.", icon: iconMap.graph, chips: ["v116", "Praxis"], prefixes: [["analysis-vorbereitung", "grenzwertidee-alltagsnah"]] },
-      { slug: "flaechennaeherung-und-summe", title: "FlÃ¤chennÃ¤herung und Summe", description: "Feines v116-Unterthema: FlÃ¤chennÃ¤herung und Summe.", icon: iconMap.graph, chips: ["v116", "Praxis"], prefixes: [["analysis-vorbereitung", "flaechennaeherung-und-summe"]] }
+      { slug: "flaechennaeherung-und-summe", title: "Flächennäherung und Summe", description: "Feines v116-Unterthema: Flächennäherung und Summe.", icon: iconMap.graph, chips: ["v116", "Praxis"], prefixes: [["analysis-vorbereitung", "flaechennaeherung-und-summe"]] }
     ] },
-    { slug: "grundlagen", title: "Grundlagen", description: "Zahlen, Anteile, Einheiten und GrÃ¶ÃŸen als sauber getrennte Einstiegsthemen.", icon: iconMap.numbers, chips: ["Zahlen", "Einheiten", "Anteile"], prefixes: [["grundlagen"]], children: [
+    { slug: "grundlagen", title: "Grundlagen", description: "Zahlen, Anteile, Einheiten und Größen als sauber getrennte Einstiegsthemen.", icon: iconMap.numbers, chips: ["Zahlen", "Einheiten", "Anteile"], prefixes: [["grundlagen"]], children: [
       { slug: "prozent-und-wachstum", title: "Prozent und Wachstum", description: "Prozentsatz, Prozentpunkte und Wachstumsfaktor bewusst trennen.", icon: iconMap.numbers, chips: ["Prozent", "Faktor"], prefixes: [["grundlagen", "prozent-und-wachstum"]] },
-      { slug: "einheiten-und-groessen", title: "Einheiten und GrÃ¶ÃŸen", description: "Zusammengesetzte Einheiten und GrÃ¶ÃŸenbeziehungen lesbar machen.", icon: iconMap.ruler, chips: ["Einheiten", "km/h"], prefixes: [["grundlagen", "einheiten-und-groessen"]] },
+      { slug: "einheiten-und-groessen", title: "Einheiten und Größen", description: "Zusammengesetzte Einheiten und Größenbeziehungen lesbar machen.", icon: iconMap.ruler, chips: ["Einheiten", "km/h"], prefixes: [["grundlagen", "einheiten-und-groessen"]] },
     ] },
-    { slug: "algebra", title: "Algebra", description: "Gleichungen, Terme und Parameter werden in kleinere LÃ¶sestrategien aufgeteilt.", icon: iconMap.numbers, chips: ["Gleichungen", "Terme", "Parameter"], prefixes: [["algebra"]], children: [
+    { slug: "algebra", title: "Algebra", description: "Gleichungen, Terme und Parameter werden in kleinere Lösestrategien aufgeteilt.", icon: iconMap.numbers, chips: ["Gleichungen", "Terme", "Parameter"], prefixes: [["algebra"]], children: [
       { slug: "quadratische-funktionen", title: "Quadratische Funktionen", description: "Scheitelpunktform, Verschiebung und Streckung getrennt lesen.", icon: iconMap.graph, chips: ["Parabel", "Scheitel"], prefixes: [["algebra", "quadratische-funktionen"]] },
-      { slug: "gleichungen-strategisch-loesen", title: "Gleichungen strategisch lÃ¶sen", description: "Umformen, Parameter und SonderfÃ¤lle bewusst trennen.", icon: iconMap.numbers, chips: ["Parameter", "Umformen"], prefixes: [["algebra", "gleichungen-strategisch-loesen"]] },
+      { slug: "gleichungen-strategisch-loesen", title: "Gleichungen strategisch lösen", description: "Umformen, Parameter und Sonderfälle bewusst trennen.", icon: iconMap.numbers, chips: ["Parameter", "Umformen"], prefixes: [["algebra", "gleichungen-strategisch-loesen"]] },
     ] },
-    { slug: "funktionen", title: "Funktionen", description: "Funktionen werden nach Modellierung, Graph, Ã„nderung und PrÃ¼fung gegliedert.", icon: iconMap.graph, chips: ["Graphen", "Modelle", "Ã„nderung"], prefixes: [["funktionen"]], children: [
-      { slug: "analysis-einstieg", title: "Analysis-Einstieg", description: "Durchschnittliche und lokale Ã„nderung voneinander trennen.", icon: iconMap.graph, chips: ["Ableitung", "Ã„nderung"], prefixes: [["funktionen", "analysis-einstieg"]] },
-      { slug: "modellieren-und-pruefen", title: "Modellieren und PrÃ¼fen", description: "Annahmen, Definitionsbereich und Modellgrenzen sichtbar machen.", icon: iconMap.graph, chips: ["Modelle", "Annahmen"], prefixes: [["funktionen", "modellieren-und-pruefen"]] },
-      { slug: "aenderungsraten-und-naeherung", title: "Ã„nderungsraten und NÃ¤herung", description: "Sekante, Tangente und lokale Ã„nderungsbilder getrennt Ã¼ben.", icon: iconMap.graph, chips: ["Sekante", "Tangente"], prefixes: [["funktionen", "aenderungsraten-und-naeherung"]] },
+    { slug: "funktionen", title: "Funktionen", description: "Funktionen werden nach Modellierung, Graph, Änderung und Prüfung gegliedert.", icon: iconMap.graph, chips: ["Graphen", "Modelle", "Änderung"], prefixes: [["funktionen"]], children: [
+      { slug: "analysis-einstieg", title: "Analysis-Einstieg", description: "Durchschnittliche und lokale Änderung voneinander trennen.", icon: iconMap.graph, chips: ["Ableitung", "Änderung"], prefixes: [["funktionen", "analysis-einstieg"]] },
+      { slug: "modellieren-und-pruefen", title: "Modellieren und Prüfen", description: "Annahmen, Definitionsbereich und Modellgrenzen sichtbar machen.", icon: iconMap.graph, chips: ["Modelle", "Annahmen"], prefixes: [["funktionen", "modellieren-und-pruefen"]] },
+      { slug: "aenderungsraten-und-naeherung", title: "Änderungsraten und Näherung", description: "Sekante, Tangente und lokale Änderungsbilder getrennt üben.", icon: iconMap.graph, chips: ["Sekante", "Tangente"], prefixes: [["funktionen", "aenderungsraten-und-naeherung"]] },
       { slug: "lineare-funktionen", title: "Lineare Funktionen", description: "Steigung, Startwert und Darstellungswechsel als eigener Block.", icon: iconMap.graph, chips: ["Steigung", "Tabelle"], prefixes: [["funktionen", "lineare-funktionen"]] },
     ] },
-    { slug: "daten-und-zufall", title: "Daten und Zufall", description: "Diagramme, Kennwerte, AusreiÃŸer und Zufall werden getrennt auffindbar.", icon: iconMap.chart, chips: ["Daten", "Diagramme", "AusreiÃŸer"], prefixes: [["daten-und-zufall"]], children: [
-      { slug: "wahrscheinlichkeit", title: "Wahrscheinlichkeit", description: "Gegenereignis, FÃ¤lle und ErgÃ¤nzungsregel als eigene Strategie.", icon: iconMap.chart, chips: ["Zufall", "Gegenereignis"], prefixes: [["daten-und-zufall", "wahrscheinlichkeit"]] },
-      { slug: "boxplot", title: "Boxplot", description: "Quartile, Median, Spannweite und AusreiÃŸer getrennt lesen.", icon: iconMap.chart, chips: ["Median", "Quartile"], prefixes: [["daten-und-zufall", "diagramme-und-ausreisser", "boxplot"]] },
-      { slug: "diagramme-und-ausreisser", title: "Diagramme und AusreiÃŸer", description: "AuffÃ¤llige Werte prÃ¼fen, statt sie vorschnell zu lÃ¶schen.", icon: iconMap.chart, chips: ["AusreiÃŸer", "Median"], prefixes: [["daten-und-zufall", "diagramme-und-ausreisser"]] },
+    { slug: "daten-und-zufall", title: "Daten und Zufall", description: "Diagramme, Kennwerte, Ausreißer und Zufall werden getrennt auffindbar.", icon: iconMap.chart, chips: ["Daten", "Diagramme", "Ausreißer"], prefixes: [["daten-und-zufall"]], children: [
+      { slug: "wahrscheinlichkeit", title: "Wahrscheinlichkeit", description: "Gegenereignis, Fälle und Ergänzungsregel als eigene Strategie.", icon: iconMap.chart, chips: ["Zufall", "Gegenereignis"], prefixes: [["daten-und-zufall", "wahrscheinlichkeit"]] },
+      { slug: "boxplot", title: "Boxplot", description: "Quartile, Median, Spannweite und Ausreißer getrennt lesen.", icon: iconMap.chart, chips: ["Median", "Quartile"], prefixes: [["daten-und-zufall", "diagramme-und-ausreisser", "boxplot"]] },
+      { slug: "diagramme-und-ausreisser", title: "Diagramme und Ausreißer", description: "Auffällige Werte prüfen, statt sie vorschnell zu löschen.", icon: iconMap.chart, chips: ["Ausreißer", "Median"], prefixes: [["daten-und-zufall", "diagramme-und-ausreisser"]] },
     ] },
-    { slug: "geometrie", title: "Geometrie", description: "LÃ¤ngen, FlÃ¤chen, Volumen und Skalierung bleiben klar getrennt.", icon: iconMap.ruler, chips: ["FlÃ¤chen", "Volumen", "Skalierung"], prefixes: [["geometrie"]], children: [
-      { slug: "vektoren-und-richtung", title: "Vektoren und Richtung", description: "VektorlÃ¤nge, Richtung und Skalierung sauber unterscheiden.", icon: iconMap.ruler, chips: ["Vektor", "Richtung"], prefixes: [["geometrie", "vektoren-und-richtung"]] },
-      { slug: "einheiten-und-skalierung", title: "Einheiten und Skalierung", description: "MaÃŸstab, FlÃ¤chenfaktor und Einheiten sauber unterscheiden.", icon: iconMap.ruler, chips: ["MaÃŸstab", "Einheiten"], prefixes: [["geometrie", "einheiten-und-skalierung"]] },
+    { slug: "geometrie", title: "Geometrie", description: "Längen, Flächen, Volumen und Skalierung bleiben klar getrennt.", icon: iconMap.ruler, chips: ["Flächen", "Volumen", "Skalierung"], prefixes: [["geometrie"]], children: [
+      { slug: "vektoren-und-richtung", title: "Vektoren und Richtung", description: "Vektorlänge, Richtung und Skalierung sauber unterscheiden.", icon: iconMap.ruler, chips: ["Vektor", "Richtung"], prefixes: [["geometrie", "vektoren-und-richtung"]] },
+      { slug: "einheiten-und-skalierung", title: "Einheiten und Skalierung", description: "Maßstab, Flächenfaktor und Einheiten sauber unterscheiden.", icon: iconMap.ruler, chips: ["Maßstab", "Einheiten"], prefixes: [["geometrie", "einheiten-und-skalierung"]] },
     ] },
-    { slug: "rechnen-und-schaetzen", title: "Rechnen und SchÃ¤tzen", description: "Kopfrechnen, GrÃ¶ÃŸenordnung und EinheitenprÃ¼fung werden als eigene PrÃ¼fpraxis sichtbar.", icon: iconMap.numbers, chips: ["Rechnen", "Unterthemen"], prefixes: [["rechnen-und-schaetzen"]], children: [
-      { slug: "kopfrechnen-und-plausibilitaet", title: "Kopfrechnen und PlausibilitÃ¤t", description: "Ãœberschlag, Rundung und GrÃ¶ÃŸenordnung helfen gegen blinde Rechenwege.", icon: iconMap.numbers, chips: ["PrÃ¼fen", "Abgrenzen"], prefixes: [["rechnen-und-schaetzen", "kopfrechnen-und-plausibilitaet"]] },
+    { slug: "rechnen-und-schaetzen", title: "Rechnen und Schätzen", description: "Kopfrechnen, Größenordnung und Einheitenprüfung werden als eigene Prüfpraxis sichtbar.", icon: iconMap.numbers, chips: ["Rechnen", "Unterthemen"], prefixes: [["rechnen-und-schaetzen"]], children: [
+      { slug: "kopfrechnen-und-plausibilitaet", title: "Kopfrechnen und Plausibilität", description: "Überschlag, Rundung und Größenordnung helfen gegen blinde Rechenwege.", icon: iconMap.numbers, chips: ["Prüfen", "Abgrenzen"], prefixes: [["rechnen-und-schaetzen", "kopfrechnen-und-plausibilitaet"]] },
     ] },
-    { slug: "gleichungen-und-modelle", title: "Gleichungen und Modelle", description: "LÃ¶sungsmenge, Definitionsmenge und Modellgrenzen werden getrennt geprÃ¼ft.", icon: iconMap.numbers, chips: ["Gleichungen", "Unterthemen"], prefixes: [["gleichungen-und-modelle"]], children: [
-      { slug: "bedingungen-und-loesungsmenge", title: "Bedingungen und LÃ¶sungsmenge", description: "SonderfÃ¤lle, Proben und erlaubte Umformungen gehÃ¶ren in einen engen Block.", icon: iconMap.numbers, chips: ["PrÃ¼fen", "Abgrenzen"], prefixes: [["gleichungen-und-modelle", "bedingungen-und-loesungsmenge"]] },
+    { slug: "gleichungen-und-modelle", title: "Gleichungen und Modelle", description: "Lösungsmenge, Definitionsmenge und Modellgrenzen werden getrennt geprüft.", icon: iconMap.numbers, chips: ["Gleichungen", "Unterthemen"], prefixes: [["gleichungen-und-modelle"]], children: [
+      { slug: "bedingungen-und-loesungsmenge", title: "Bedingungen und Lösungsmenge", description: "Sonderfälle, Proben und erlaubte Umformungen gehören in einen engen Block.", icon: iconMap.numbers, chips: ["Prüfen", "Abgrenzen"], prefixes: [["gleichungen-und-modelle", "bedingungen-und-loesungsmenge"]] },
     ] },
     { slug: "funktionen-und-graphen", title: "Funktionen und Graphen", description: "Graphen werden nach Nullstellen, Steigung, Parameterwirkung und Definitionsbereich gegliedert.", icon: iconMap.numbers, chips: ["Funktionen", "Unterthemen"], prefixes: [["funktionen-und-graphen"]], children: [
-      { slug: "graphen-deuten", title: "Graphen deuten", description: "Ein Graph liefert mehrere Informationen, die getrennt gelesen werden mÃ¼ssen.", icon: iconMap.numbers, chips: ["PrÃ¼fen", "Abgrenzen"], prefixes: [["funktionen-und-graphen", "graphen-deuten"]] },
+      { slug: "graphen-deuten", title: "Graphen deuten", description: "Ein Graph liefert mehrere Informationen, die getrennt gelesen werden müssen.", icon: iconMap.numbers, chips: ["Prüfen", "Abgrenzen"], prefixes: [["funktionen-und-graphen", "graphen-deuten"]] },
     ] },
-    { slug: "daten-und-wahrscheinlichkeit", title: "Daten und Wahrscheinlichkeit", description: "Datenkritik, HÃ¤ufigkeit und Erwartungswert werden kleinteilig getrennt.", icon: iconMap.numbers, chips: ["Daten", "Unterthemen"], prefixes: [["daten-und-wahrscheinlichkeit"]], children: [
-      { slug: "datenkritik-und-zufall", title: "Datenkritik und Zufall", description: "Stichproben, relative HÃ¤ufigkeit und Bedingungen sind eigene Entscheidungspunkte.", icon: iconMap.numbers, chips: ["PrÃ¼fen", "Abgrenzen"], prefixes: [["daten-und-wahrscheinlichkeit", "datenkritik-und-zufall"]] },
+    { slug: "daten-und-wahrscheinlichkeit", title: "Daten und Wahrscheinlichkeit", description: "Datenkritik, Häufigkeit und Erwartungswert werden kleinteilig getrennt.", icon: iconMap.numbers, chips: ["Daten", "Unterthemen"], prefixes: [["daten-und-wahrscheinlichkeit"]], children: [
+      { slug: "datenkritik-und-zufall", title: "Datenkritik und Zufall", description: "Stichproben, relative Häufigkeit und Bedingungen sind eigene Entscheidungspunkte.", icon: iconMap.numbers, chips: ["Prüfen", "Abgrenzen"], prefixes: [["daten-und-wahrscheinlichkeit", "datenkritik-und-zufall"]] },
     ] },
     {
       slug: "analysis-pruefschritte",
-      title: "Analysis-PrÃ¼fschritte",
-      description: "Ableitungen, Integrale und Grenzideen als kleine PrÃ¼ffragen.",
+      title: "Analysis-Prüfschritte",
+      description: "Ableitungen, Integrale und Grenzideen als kleine Prüffragen.",
       icon: iconMap.graph,
       chips: ["v114", "Feinstruktur"],
       prefixes: [["analysis-pruefschritte"]],
       children: [
-        { slug: "ableitungen-deuten", title: "Ableitungen Deuten", description: "Kleine PrÃ¼ffragen zu ableitungen deuten statt breitem Sammelkapitel.", icon: iconMap.graph, chips: ["v114", "Feinstruktur"], prefixes: [["analysis-pruefschritte", "ableitungen-deuten"]] },
-        { slug: "integral-und-flaeche", title: "Integral und Flaeche", description: "Kleine PrÃ¼ffragen zu integral und flaeche statt breitem Sammelkapitel.", icon: iconMap.graph, chips: ["v114", "Feinstruktur"], prefixes: [["analysis-pruefschritte", "integral-und-flaeche"]] }
+        { slug: "ableitungen-deuten", title: "Ableitungen Deuten", description: "Kleine Prüffragen zu ableitungen deuten statt breitem Sammelkapitel.", icon: iconMap.graph, chips: ["v114", "Feinstruktur"], prefixes: [["analysis-pruefschritte", "ableitungen-deuten"]] },
+        { slug: "integral-und-flaeche", title: "Integral und Flaeche", description: "Kleine Prüffragen zu integral und flaeche statt breitem Sammelkapitel.", icon: iconMap.graph, chips: ["v114", "Feinstruktur"], prefixes: [["analysis-pruefschritte", "integral-und-flaeche"]] }
       ],
     },
     {
@@ -119,111 +119,111 @@ const areaNodesBySubject: Record<PrimarySubjectSlug, AreaNodeDefinition[]> = {
       chips: ["v114", "Feinstruktur"],
       prefixes: [["algebra-modelle"]],
       children: [
-        { slug: "gleichungen-pruefen", title: "Gleichungen Pruefen", description: "Kleine PrÃ¼ffragen zu gleichungen pruefen statt breitem Sammelkapitel.", icon: iconMap.numbers, chips: ["v114", "Feinstruktur"], prefixes: [["algebra-modelle", "gleichungen-pruefen"]] },
-        { slug: "parameter-und-formen", title: "Parameter und Formen", description: "Kleine PrÃ¼ffragen zu parameter und formen statt breitem Sammelkapitel.", icon: iconMap.numbers, chips: ["v114", "Feinstruktur"], prefixes: [["algebra-modelle", "parameter-und-formen"]] }
+        { slug: "gleichungen-pruefen", title: "Gleichungen Pruefen", description: "Kleine Prüffragen zu gleichungen pruefen statt breitem Sammelkapitel.", icon: iconMap.numbers, chips: ["v114", "Feinstruktur"], prefixes: [["algebra-modelle", "gleichungen-pruefen"]] },
+        { slug: "parameter-und-formen", title: "Parameter und Formen", description: "Kleine Prüffragen zu parameter und formen statt breitem Sammelkapitel.", icon: iconMap.numbers, chips: ["v114", "Feinstruktur"], prefixes: [["algebra-modelle", "parameter-und-formen"]] }
       ],
     },
     {
       slug: "daten-und-geometrie",
       title: "Daten und Geometrie",
-      description: "Streuung, Lage, Vektoren und rÃ¤umliche Fragen sauber trennen.",
+      description: "Streuung, Lage, Vektoren und räumliche Fragen sauber trennen.",
       icon: iconMap.ruler,
       chips: ["v114", "Feinstruktur"],
       prefixes: [["daten-und-geometrie"]],
       children: [
-        { slug: "statistik-und-daten", title: "Statistik und Daten", description: "Kleine PrÃ¼ffragen zu statistik und daten statt breitem Sammelkapitel.", icon: iconMap.ruler, chips: ["v114", "Feinstruktur"], prefixes: [["daten-und-geometrie", "statistik-und-daten"]] },
-        { slug: "vektoren-und-geometrie", title: "Vektoren und Geometrie", description: "Kleine PrÃ¼ffragen zu vektoren und geometrie statt breitem Sammelkapitel.", icon: iconMap.ruler, chips: ["v114", "Feinstruktur"], prefixes: [["daten-und-geometrie", "vektoren-und-geometrie"]] }
+        { slug: "statistik-und-daten", title: "Statistik und Daten", description: "Kleine Prüffragen zu statistik und daten statt breitem Sammelkapitel.", icon: iconMap.ruler, chips: ["v114", "Feinstruktur"], prefixes: [["daten-und-geometrie", "statistik-und-daten"]] },
+        { slug: "vektoren-und-geometrie", title: "Vektoren und Geometrie", description: "Kleine Prüffragen zu vektoren und geometrie statt breitem Sammelkapitel.", icon: iconMap.ruler, chips: ["v114", "Feinstruktur"], prefixes: [["daten-und-geometrie", "vektoren-und-geometrie"]] }
       ],
     }
   ],
   informatik: [
-    { slug: "programmierpraxis-und-tests", title: "Programmierpraxis und Tests", description: "Kleine Programme werden Ã¼ber Schnittstellen, Tests und Fehlerbilder kontrollierbar.", icon: iconMap.terminal, chips: ["v116", "Feinstruktur"], prefixes: [["programmierpraxis-und-tests"]], children: [
+    { slug: "programmierpraxis-und-tests", title: "Programmierpraxis und Tests", description: "Kleine Programme werden über Schnittstellen, Tests und Fehlerbilder kontrollierbar.", icon: iconMap.terminal, chips: ["v116", "Feinstruktur"], prefixes: [["programmierpraxis-und-tests"]], children: [
       { slug: "funktionen-und-verantwortung", title: "Funktionen und Verantwortung", description: "Feines v116-Unterthema: Funktionen und Verantwortung.", icon: iconMap.terminal, chips: ["v116", "Praxis"], prefixes: [["programmierpraxis-und-tests", "funktionen-und-verantwortung"]] },
-      { slug: "testfaelle-und-randfaelle", title: "TestfÃ¤lle und RandfÃ¤lle", description: "Feines v116-Unterthema: TestfÃ¤lle und RandfÃ¤lle.", icon: iconMap.terminal, chips: ["v116", "Praxis"], prefixes: [["programmierpraxis-und-tests", "testfaelle-und-randfaelle"]] },
+      { slug: "testfaelle-und-randfaelle", title: "Testfälle und Randfälle", description: "Feines v116-Unterthema: Testfälle und Randfälle.", icon: iconMap.terminal, chips: ["v116", "Praxis"], prefixes: [["programmierpraxis-und-tests", "testfaelle-und-randfaelle"]] },
       { slug: "debugging-und-fehlerhypothesen", title: "Debugging und Fehlerhypothesen", description: "Feines v116-Unterthema: Debugging und Fehlerhypothesen.", icon: iconMap.terminal, chips: ["v116", "Praxis"], prefixes: [["programmierpraxis-und-tests", "debugging-und-fehlerhypothesen"]] }
     ] },
-    { slug: "datenstrukturen-im-einsatz", title: "Datenstrukturen im Einsatz", description: "Listen, Mengen, Maps und Queues werden nach Zugriffsmuster gewÃ¤hlt.", icon: iconMap.data, chips: ["v116", "Feinstruktur"], prefixes: [["datenstrukturen-im-einsatz"]], children: [
+    { slug: "datenstrukturen-im-einsatz", title: "Datenstrukturen im Einsatz", description: "Listen, Mengen, Maps und Queues werden nach Zugriffsmuster gewählt.", icon: iconMap.data, chips: ["v116", "Feinstruktur"], prefixes: [["datenstrukturen-im-einsatz"]], children: [
       { slug: "listen-und-indizes", title: "Listen und Indizes", description: "Feines v116-Unterthema: Listen und Indizes.", icon: iconMap.data, chips: ["v116", "Praxis"], prefixes: [["datenstrukturen-im-einsatz", "listen-und-indizes"]] },
       { slug: "sets-maps-und-eindeutigkeit", title: "Sets, Maps und Eindeutigkeit", description: "Feines v116-Unterthema: Sets, Maps und Eindeutigkeit.", icon: iconMap.data, chips: ["v116", "Praxis"], prefixes: [["datenstrukturen-im-einsatz", "sets-maps-und-eindeutigkeit"]] },
       { slug: "queues-stacks-und-ablauf", title: "Queues, Stacks und Ablauf", description: "Feines v116-Unterthema: Queues, Stacks und Ablauf.", icon: iconMap.data, chips: ["v116", "Praxis"], prefixes: [["datenstrukturen-im-einsatz", "queues-stacks-und-ablauf"]] }
     ] },
-    { slug: "algorithmen-klein-begruenden", title: "Algorithmen klein begrÃ¼nden", description: "Algorithmische Ideen werden in Zustand, Schritt und Abbruchbedingung zerlegt.", icon: iconMap.numbers, chips: ["v116", "Feinstruktur"], prefixes: [["algorithmen-klein-begruenden"]], children: [
+    { slug: "algorithmen-klein-begruenden", title: "Algorithmen klein begründen", description: "Algorithmische Ideen werden in Zustand, Schritt und Abbruchbedingung zerlegt.", icon: iconMap.numbers, chips: ["v116", "Feinstruktur"], prefixes: [["algorithmen-klein-begruenden"]], children: [
       { slug: "sortieren-und-invariante", title: "Sortieren und Invariante", description: "Feines v116-Unterthema: Sortieren und Invariante.", icon: iconMap.numbers, chips: ["v116", "Praxis"], prefixes: [["algorithmen-klein-begruenden", "sortieren-und-invariante"]] },
       { slug: "suchen-und-teilen", title: "Suchen und Teilen", description: "Feines v116-Unterthema: Suchen und Teilen.", icon: iconMap.numbers, chips: ["v116", "Praxis"], prefixes: [["algorithmen-klein-begruenden", "suchen-und-teilen"]] },
       { slug: "rekursion-und-abbruch", title: "Rekursion und Abbruch", description: "Feines v116-Unterthema: Rekursion und Abbruch.", icon: iconMap.numbers, chips: ["v116", "Praxis"], prefixes: [["algorithmen-klein-begruenden", "rekursion-und-abbruch"]] }
     ] },
     { slug: "datenbanken-und-modelle", title: "Datenbanken und Modelle", description: "Tabellen, Beziehungen und Abfragen werden als kleine Modellentscheidungen verstanden.", icon: iconMap.data, chips: ["v116", "Feinstruktur"], prefixes: [["datenbanken-und-modelle"]], children: [
-      { slug: "tabellen-und-schluessel", title: "Tabellen und SchlÃ¼ssel", description: "Feines v116-Unterthema: Tabellen und SchlÃ¼ssel.", icon: iconMap.data, chips: ["v116", "Praxis"], prefixes: [["datenbanken-und-modelle", "tabellen-und-schluessel"]] },
+      { slug: "tabellen-und-schluessel", title: "Tabellen und Schlüssel", description: "Feines v116-Unterthema: Tabellen und Schlüssel.", icon: iconMap.data, chips: ["v116", "Praxis"], prefixes: [["datenbanken-und-modelle", "tabellen-und-schluessel"]] },
       { slug: "joins-und-beziehungen", title: "Joins und Beziehungen", description: "Feines v116-Unterthema: Joins und Beziehungen.", icon: iconMap.data, chips: ["v116", "Praxis"], prefixes: [["datenbanken-und-modelle", "joins-und-beziehungen"]] },
       { slug: "normalisierung-und-redundanz", title: "Normalisierung und Redundanz", description: "Feines v116-Unterthema: Normalisierung und Redundanz.", icon: iconMap.data, chips: ["v116", "Praxis"], prefixes: [["datenbanken-und-modelle", "normalisierung-und-redundanz"]] }
     ] },
-    { slug: "sicherheit-und-robustheit", title: "Sicherheit und Robustheit", description: "Risiken werden Ã¼ber Angriffsweg, Auswirkung und GegenmaÃŸnahme eingeordnet.", icon: iconMap.shield, chips: ["v116", "Feinstruktur"], prefixes: [["sicherheit-und-robustheit"]], children: [
+    { slug: "sicherheit-und-robustheit", title: "Sicherheit und Robustheit", description: "Risiken werden über Angriffsweg, Auswirkung und Gegenmaßnahme eingeordnet.", icon: iconMap.shield, chips: ["v116", "Feinstruktur"], prefixes: [["sicherheit-und-robustheit"]], children: [
       { slug: "eingaben-und-validierung", title: "Eingaben und Validierung", description: "Feines v116-Unterthema: Eingaben und Validierung.", icon: iconMap.shield, chips: ["v116", "Praxis"], prefixes: [["sicherheit-und-robustheit", "eingaben-und-validierung"]] },
       { slug: "rechte-und-prinzip-minimum", title: "Rechte und Prinzip Minimum", description: "Feines v116-Unterthema: Rechte und Prinzip Minimum.", icon: iconMap.shield, chips: ["v116", "Praxis"], prefixes: [["sicherheit-und-robustheit", "rechte-und-prinzip-minimum"]] },
       { slug: "datenfluss-und-vertrauen", title: "Datenfluss und Vertrauen", description: "Feines v116-Unterthema: Datenfluss und Vertrauen.", icon: iconMap.shield, chips: ["v116", "Praxis"], prefixes: [["sicherheit-und-robustheit", "datenfluss-und-vertrauen"]] }
     ] },
     { slug: "systemnahes-denken", title: "Systemnahes Denken", description: "Speicher, Prozesse und Schnittstellen werden als Ursache-Wirkung-Ketten gelesen.", icon: iconMap.terminal, chips: ["v116", "Feinstruktur"], prefixes: [["systemnahes-denken"]], children: [
       { slug: "speicher-und-lebensdauer", title: "Speicher und Lebensdauer", description: "Feines v116-Unterthema: Speicher und Lebensdauer.", icon: iconMap.terminal, chips: ["v116", "Praxis"], prefixes: [["systemnahes-denken", "speicher-und-lebensdauer"]] },
-      { slug: "prozesse-und-nebenlaeufigkeit", title: "Prozesse und NebenlÃ¤ufigkeit", description: "Feines v116-Unterthema: Prozesse und NebenlÃ¤ufigkeit.", icon: iconMap.terminal, chips: ["v116", "Praxis"], prefixes: [["systemnahes-denken", "prozesse-und-nebenlaeufigkeit"]] },
+      { slug: "prozesse-und-nebenlaeufigkeit", title: "Prozesse und Nebenläufigkeit", description: "Feines v116-Unterthema: Prozesse und Nebenläufigkeit.", icon: iconMap.terminal, chips: ["v116", "Praxis"], prefixes: [["systemnahes-denken", "prozesse-und-nebenlaeufigkeit"]] },
       { slug: "schnittstellen-und-protokolle", title: "Schnittstellen und Protokolle", description: "Feines v116-Unterthema: Schnittstellen und Protokolle.", icon: iconMap.terminal, chips: ["v116", "Praxis"], prefixes: [["systemnahes-denken", "schnittstellen-und-protokolle"]] }
     ] },
-    { slug: "algorithmen-und-struktur", title: "Algorithmen und Struktur", description: "AblÃ¤ufe, Tests und KomplexitÃ¤t werden als getrennte Denkschritte sichtbar.", icon: iconMap.numbers, chips: ["Algorithmen", "Tests"], prefixes: [["algorithmen"]], children: [
-      { slug: "bedingungen-und-logik", title: "Bedingungen und Logik", description: "Boolesche AusdrÃ¼cke und ZustÃ¤nde klein zerlegen.", icon: iconMap.logic, chips: ["Bedingung", "Logik"], prefixes: [["algorithmen", "bedingungen-und-logik"]] },
-      { slug: "korrektheit-und-beweise", title: "Korrektheit und Beweise", description: "Invarianten und BegrÃ¼ndungen in Alltagssprache fassen.", icon: iconMap.numbers, chips: ["Invariante", "Beweis"], prefixes: [["algorithmen", "korrektheit-und-beweise"]] },
-      { slug: "zustaende-und-automaten", title: "ZustÃ¤nde und Automaten", description: "Zustand, Eingabe und Ãœbergang tabellarisch prÃ¼fen.", icon: iconMap.logic, chips: ["Automat", "Zustand"], prefixes: [["algorithmen", "zustaende-und-automaten"]] },
-      { slug: "test-und-komplexitaet", title: "Tests und KomplexitÃ¤t", description: "RandfÃ¤lle, Laufzeitideen und PrÃ¼ffÃ¤lle bewusst trennen.", icon: iconMap.numbers, chips: ["Tests", "RandfÃ¤lle"], prefixes: [["algorithmen", "test-und-komplexitaet"]] },
+    { slug: "algorithmen-und-struktur", title: "Algorithmen und Struktur", description: "Abläufe, Tests und Komplexität werden als getrennte Denkschritte sichtbar.", icon: iconMap.numbers, chips: ["Algorithmen", "Tests"], prefixes: [["algorithmen"]], children: [
+      { slug: "bedingungen-und-logik", title: "Bedingungen und Logik", description: "Boolesche Ausdrücke und Zustände klein zerlegen.", icon: iconMap.logic, chips: ["Bedingung", "Logik"], prefixes: [["algorithmen", "bedingungen-und-logik"]] },
+      { slug: "korrektheit-und-beweise", title: "Korrektheit und Beweise", description: "Invarianten und Begründungen in Alltagssprache fassen.", icon: iconMap.numbers, chips: ["Invariante", "Beweis"], prefixes: [["algorithmen", "korrektheit-und-beweise"]] },
+      { slug: "zustaende-und-automaten", title: "Zustände und Automaten", description: "Zustand, Eingabe und Übergang tabellarisch prüfen.", icon: iconMap.logic, chips: ["Automat", "Zustand"], prefixes: [["algorithmen", "zustaende-und-automaten"]] },
+      { slug: "test-und-komplexitaet", title: "Tests und Komplexität", description: "Randfälle, Laufzeitideen und Prüffälle bewusst trennen.", icon: iconMap.numbers, chips: ["Tests", "Randfälle"], prefixes: [["algorithmen", "test-und-komplexitaet"]] },
     ] },
-    { slug: "programmierung", title: "Programmierung", description: "Funktionen, Schnittstellen, Kontrollstrukturen und DatenflÃ¼sse als PraxisblÃ¶cke.", icon: iconMap.terminal, chips: ["Funktionen", "Code"], prefixes: [["programmieren"], ["programmierung"]], children: [
-      { slug: "rekursion-und-abbruch", title: "Rekursion und Abbruch", description: "Basisfall, Fortschritt und RÃ¼ckweg trennen.", icon: iconMap.terminal, chips: ["Rekursion", "Basisfall"], prefixes: [["programmieren", "rekursion-und-abbruch"]] },
+    { slug: "programmierung", title: "Programmierung", description: "Funktionen, Schnittstellen, Kontrollstrukturen und Datenflüsse als Praxisblöcke.", icon: iconMap.terminal, chips: ["Funktionen", "Code"], prefixes: [["programmieren"], ["programmierung"]], children: [
+      { slug: "rekursion-und-abbruch", title: "Rekursion und Abbruch", description: "Basisfall, Fortschritt und Rückweg trennen.", icon: iconMap.terminal, chips: ["Rekursion", "Basisfall"], prefixes: [["programmieren", "rekursion-und-abbruch"]] },
       { slug: "fehlerarten-und-debugging", title: "Fehlerarten und Debugging", description: "Syntax-, Laufzeit- und Logikfehler unterscheiden.", icon: iconMap.terminal, chips: ["Fehler", "Debugging"], prefixes: [["programmieren", "fehlerarten-und-debugging"]] },
-      { slug: "funktionen-und-schnittstellen", title: "Funktionen und Schnittstellen", description: "Eingabe, Ausgabe und Nebenwirkung klein und prÃ¼fbar halten.", icon: iconMap.terminal, chips: ["Funktionen", "Tests"], prefixes: [["programmieren", "funktionen-und-schnittstellen"]] },
+      { slug: "funktionen-und-schnittstellen", title: "Funktionen und Schnittstellen", description: "Eingabe, Ausgabe und Nebenwirkung klein und prüfbar halten.", icon: iconMap.terminal, chips: ["Funktionen", "Tests"], prefixes: [["programmieren", "funktionen-und-schnittstellen"]] },
     ] },
     { slug: "datenstrukturen", title: "Datenstrukturen", description: "Listen, Sets, Maps und Zugriffsmuster getrennt einordnen.", icon: iconMap.data, chips: ["Listen", "Maps", "Sets"], prefixes: [["datenstrukturen"]], children: [
-      { slug: "listen-arrays-und-zugriff", title: "Listen, Arrays und Zugriff", description: "Zugriff, EinfÃ¼gen und Ã„nderungskosten getrennt bewerten.", icon: iconMap.data, chips: ["Array", "Liste"], prefixes: [["datenstrukturen", "listen-arrays-und-zugriff"]] },
-      { slug: "maps-und-sets", title: "Maps und Sets", description: "Eindeutigkeit und SchlÃ¼ssel-Wert-Zugriff als eigene Entscheidung.", icon: iconMap.data, chips: ["Map", "Set"], prefixes: [["datenstrukturen", "maps-und-sets"]] },
+      { slug: "listen-arrays-und-zugriff", title: "Listen, Arrays und Zugriff", description: "Zugriff, Einfügen und Änderungskosten getrennt bewerten.", icon: iconMap.data, chips: ["Array", "Liste"], prefixes: [["datenstrukturen", "listen-arrays-und-zugriff"]] },
+      { slug: "maps-und-sets", title: "Maps und Sets", description: "Eindeutigkeit und Schlüssel-Wert-Zugriff als eigene Entscheidung.", icon: iconMap.data, chips: ["Map", "Set"], prefixes: [["datenstrukturen", "maps-und-sets"]] },
     ] },
-    { slug: "datenbanken", title: "Datenbanken", description: "Tabellen, Abfragen und Indexe werden als eigene Strukturthemen gefÃ¼hrt.", icon: iconMap.data, chips: ["Tabellen", "Abfragen"], prefixes: [["datenbanken"]], children: [
+    { slug: "datenbanken", title: "Datenbanken", description: "Tabellen, Abfragen und Indexe werden als eigene Strukturthemen geführt.", icon: iconMap.data, chips: ["Tabellen", "Abfragen"], prefixes: [["datenbanken"]], children: [
       { slug: "where-having", title: "WHERE und HAVING", description: "Filter vor und nach Gruppierung sauber trennen.", icon: iconMap.data, chips: ["SQL", "GROUP BY"], prefixes: [["datenbanken", "abfragen-und-indizes", "where-having"]] },
-      { slug: "abfragen-und-indizes", title: "Abfragen und Indizes", description: "Suchmuster, Sortierung und Schreibkosten gemeinsam prÃ¼fen.", icon: iconMap.data, chips: ["Index", "Abfrage"], prefixes: [["datenbanken", "abfragen-und-indizes"]] },
+      { slug: "abfragen-und-indizes", title: "Abfragen und Indizes", description: "Suchmuster, Sortierung und Schreibkosten gemeinsam prüfen.", icon: iconMap.data, chips: ["Index", "Abfrage"], prefixes: [["datenbanken", "abfragen-und-indizes"]] },
     ] },
     { slug: "zugang-und-sicherheit", title: "Zugang und Sicherheit", description: "Sicherheitsfragen werden nach Daten, Akteuren und Grenzen gegliedert.", icon: iconMap.shield, chips: ["Sicherheit", "Grenzen"], prefixes: [["sicherheit"]], children: [
-      { slug: "api-vertrag", title: "API-Vertrag", description: "Eingaben, Ausgaben und FehlerfÃ¤lle als Schnittstellenvertrag dokumentieren.", icon: iconMap.shield, chips: ["API", "Fehlerfall"], prefixes: [["sicherheit", "berechtigungen-und-rollen", "api-vertrag"]] },
-      { slug: "bedrohungsmodelle", title: "Bedrohungsmodelle", description: "Akteure, Daten und MissbrauchsfÃ¤lle konkret machen.", icon: iconMap.shield, chips: ["Risiko", "Daten"], prefixes: [["sicherheit", "bedrohungsmodelle"]] },
+      { slug: "api-vertrag", title: "API-Vertrag", description: "Eingaben, Ausgaben und Fehlerfälle als Schnittstellenvertrag dokumentieren.", icon: iconMap.shield, chips: ["API", "Fehlerfall"], prefixes: [["sicherheit", "berechtigungen-und-rollen", "api-vertrag"]] },
+      { slug: "bedrohungsmodelle", title: "Bedrohungsmodelle", description: "Akteure, Daten und Missbrauchsfälle konkret machen.", icon: iconMap.shield, chips: ["Risiko", "Daten"], prefixes: [["sicherheit", "bedrohungsmodelle"]] },
     ] },
-    { slug: "programmierpraxis", title: "Programmierpraxis", description: "Funktionen, Tests und Fehlerbehandlung werden als kleine Praxisentscheidungen gefÃ¼hrt.", icon: iconMap.terminal, chips: ["Programmierpraxis", "Unterthemen"], prefixes: [["programmierpraxis"]], children: [
-      { slug: "funktionen-tests-und-fehler", title: "Funktionen, Tests und Fehler", description: "Seiteneffekte, Testaufbau und RÃ¼ckgabeverhalten werden getrennt.", icon: iconMap.terminal, chips: ["PrÃ¼fen", "Abgrenzen"], prefixes: [["programmierpraxis", "funktionen-tests-und-fehler"]] },
+    { slug: "programmierpraxis", title: "Programmierpraxis", description: "Funktionen, Tests und Fehlerbehandlung werden als kleine Praxisentscheidungen geführt.", icon: iconMap.terminal, chips: ["Programmierpraxis", "Unterthemen"], prefixes: [["programmierpraxis"]], children: [
+      { slug: "funktionen-tests-und-fehler", title: "Funktionen, Tests und Fehler", description: "Seiteneffekte, Testaufbau und Rückgabeverhalten werden getrennt.", icon: iconMap.terminal, chips: ["Prüfen", "Abgrenzen"], prefixes: [["programmierpraxis", "funktionen-tests-und-fehler"]] },
     ] },
-    { slug: "datenmodellierung", title: "Datenmodellierung", description: "IdentitÃ¤t, Beziehungen und Datenformate werden nicht in einen Topf geworfen.", icon: iconMap.terminal, chips: ["Datenmodellierung", "Unterthemen"], prefixes: [["datenmodellierung"]], children: [
-      { slug: "struktur-und-identitaet", title: "Struktur und IdentitÃ¤t", description: "EntitÃ¤ten, SchlÃ¼ssel und verschachtelte Daten werden gezielt unterschieden.", icon: iconMap.terminal, chips: ["PrÃ¼fen", "Abgrenzen"], prefixes: [["datenmodellierung", "struktur-und-identitaet"]] },
+    { slug: "datenmodellierung", title: "Datenmodellierung", description: "Identität, Beziehungen und Datenformate werden nicht in einen Topf geworfen.", icon: iconMap.terminal, chips: ["Datenmodellierung", "Unterthemen"], prefixes: [["datenmodellierung"]], children: [
+      { slug: "struktur-und-identitaet", title: "Struktur und Identität", description: "Entitäten, Schlüssel und verschachtelte Daten werden gezielt unterschieden.", icon: iconMap.terminal, chips: ["Prüfen", "Abgrenzen"], prefixes: [["datenmodellierung", "struktur-und-identitaet"]] },
     ] },
-    { slug: "algorithmen-denken", title: "Algorithmen denken", description: "Suchen, Sortieren und Beenden werden als Ã¼berprÃ¼fbare Strategien beschrieben.", icon: iconMap.terminal, chips: ["Algorithmen", "Unterthemen"], prefixes: [["algorithmen-denken"]], children: [
-      { slug: "such-und-sortierideen", title: "Such- und Sortierideen", description: "Effizienz und Korrektheit werden nicht nur als Codefrage betrachtet.", icon: iconMap.terminal, chips: ["PrÃ¼fen", "Abgrenzen"], prefixes: [["algorithmen-denken", "such-und-sortierideen"]] },
+    { slug: "algorithmen-denken", title: "Algorithmen denken", description: "Suchen, Sortieren und Beenden werden als überprüfbare Strategien beschrieben.", icon: iconMap.terminal, chips: ["Algorithmen", "Unterthemen"], prefixes: [["algorithmen-denken"]], children: [
+      { slug: "such-und-sortierideen", title: "Such- und Sortierideen", description: "Effizienz und Korrektheit werden nicht nur als Codefrage betrachtet.", icon: iconMap.terminal, chips: ["Prüfen", "Abgrenzen"], prefixes: [["algorithmen-denken", "such-und-sortierideen"]] },
     ] },
     { slug: "sicherheit-und-betrieb", title: "Sicherheit und Betrieb", description: "Geheimnisse, Rechte, Logs und Lastschutz werden als Betriebsentscheidungen sichtbar.", icon: iconMap.terminal, chips: ["Sicherheit", "Unterthemen"], prefixes: [["sicherheit-und-betrieb"]], children: [
-      { slug: "zugriff-logs-und-geheimnisse", title: "Zugriff, Logs und Geheimnisse", description: "Berechtigungen und Diagnose dÃ¼rfen sensible Daten nicht gefÃ¤hrden.", icon: iconMap.terminal, chips: ["PrÃ¼fen", "Abgrenzen"], prefixes: [["sicherheit-und-betrieb", "zugriff-logs-und-geheimnisse"]] },
+      { slug: "zugriff-logs-und-geheimnisse", title: "Zugriff, Logs und Geheimnisse", description: "Berechtigungen und Diagnose dürfen sensible Daten nicht gefährden.", icon: iconMap.terminal, chips: ["Prüfen", "Abgrenzen"], prefixes: [["sicherheit-und-betrieb", "zugriff-logs-und-geheimnisse"]] },
     ] },
     {
       slug: "programmierpraxis",
       title: "Programmierpraxis",
-      description: "Funktionen, Fehler und Tests als kleine, prÃ¼fbare Codeentscheidungen.",
+      description: "Funktionen, Fehler und Tests als kleine, prüfbare Codeentscheidungen.",
       icon: iconMap.terminal,
       chips: ["v114", "Feinstruktur"],
       prefixes: [["programmierpraxis"]],
       children: [
-        { slug: "funktionen-und-schnittstellen", title: "Funktionen und Schnittstellen", description: "Kleine PrÃ¼ffragen zu funktionen und schnittstellen statt breitem Sammelkapitel.", icon: iconMap.terminal, chips: ["v114", "Feinstruktur"], prefixes: [["programmierpraxis", "funktionen-und-schnittstellen"]] },
-        { slug: "fehler-und-tests", title: "Fehler und Tests", description: "Kleine PrÃ¼ffragen zu fehler und tests statt breitem Sammelkapitel.", icon: iconMap.terminal, chips: ["v114", "Feinstruktur"], prefixes: [["programmierpraxis", "fehler-und-tests"]] }
+        { slug: "funktionen-und-schnittstellen", title: "Funktionen und Schnittstellen", description: "Kleine Prüffragen zu funktionen und schnittstellen statt breitem Sammelkapitel.", icon: iconMap.terminal, chips: ["v114", "Feinstruktur"], prefixes: [["programmierpraxis", "funktionen-und-schnittstellen"]] },
+        { slug: "fehler-und-tests", title: "Fehler und Tests", description: "Kleine Prüffragen zu fehler und tests statt breitem Sammelkapitel.", icon: iconMap.terminal, chips: ["v114", "Feinstruktur"], prefixes: [["programmierpraxis", "fehler-und-tests"]] }
       ],
     },
     {
       slug: "datenstrukturen",
       title: "Datenstrukturen",
-      description: "Listen, Maps, Sets, BÃ¤ume und Graphen nach ihrer Aufgabe auswÃ¤hlen.",
+      description: "Listen, Maps, Sets, Bäume und Graphen nach ihrer Aufgabe auswählen.",
       icon: iconMap.data,
       chips: ["v114", "Feinstruktur"],
       prefixes: [["datenstrukturen"]],
       children: [
-        { slug: "listen-maps-sets", title: "Listen Maps Sets", description: "Kleine PrÃ¼ffragen zu listen maps sets statt breitem Sammelkapitel.", icon: iconMap.data, chips: ["v114", "Feinstruktur"], prefixes: [["datenstrukturen", "listen-maps-sets"]] },
-        { slug: "graphen-und-baeume", title: "Graphen und Baeume", description: "Kleine PrÃ¼ffragen zu graphen und baeume statt breitem Sammelkapitel.", icon: iconMap.data, chips: ["v114", "Feinstruktur"], prefixes: [["datenstrukturen", "graphen-und-baeume"]] }
+        { slug: "listen-maps-sets", title: "Listen Maps Sets", description: "Kleine Prüffragen zu listen maps sets statt breitem Sammelkapitel.", icon: iconMap.data, chips: ["v114", "Feinstruktur"], prefixes: [["datenstrukturen", "listen-maps-sets"]] },
+        { slug: "graphen-und-baeume", title: "Graphen und Baeume", description: "Kleine Prüffragen zu graphen und baeume statt breitem Sammelkapitel.", icon: iconMap.data, chips: ["v114", "Feinstruktur"], prefixes: [["datenstrukturen", "graphen-und-baeume"]] }
       ],
     },
     {
@@ -234,83 +234,83 @@ const areaNodesBySubject: Record<PrimarySubjectSlug, AreaNodeDefinition[]> = {
       chips: ["v114", "Feinstruktur"],
       prefixes: [["system-und-architektur"]],
       children: [
-        { slug: "speicher-und-laufzeit", title: "Speicher und Laufzeit", description: "Kleine PrÃ¼ffragen zu speicher und laufzeit statt breitem Sammelkapitel.", icon: iconMap.network, chips: ["v114", "Feinstruktur"], prefixes: [["system-und-architektur", "speicher-und-laufzeit"]] },
-        { slug: "schnittstellen-und-formate", title: "Schnittstellen und Formate", description: "Kleine PrÃ¼ffragen zu schnittstellen und formate statt breitem Sammelkapitel.", icon: iconMap.network, chips: ["v114", "Feinstruktur"], prefixes: [["system-und-architektur", "schnittstellen-und-formate"]] }
+        { slug: "speicher-und-laufzeit", title: "Speicher und Laufzeit", description: "Kleine Prüffragen zu speicher und laufzeit statt breitem Sammelkapitel.", icon: iconMap.network, chips: ["v114", "Feinstruktur"], prefixes: [["system-und-architektur", "speicher-und-laufzeit"]] },
+        { slug: "schnittstellen-und-formate", title: "Schnittstellen und Formate", description: "Kleine Prüffragen zu schnittstellen und formate statt breitem Sammelkapitel.", icon: iconMap.network, chips: ["v114", "Feinstruktur"], prefixes: [["system-und-architektur", "schnittstellen-und-formate"]] }
       ],
     }
   ],
   elektrotechnik: [
-    { slug: "messpraxis-und-diagnose", title: "Messpraxis und Diagnose", description: "Messaufbau, Referenzpunkt und Fehlerbild werden getrennt geprÃ¼ft.", icon: iconMap.meter, chips: ["v116", "Feinstruktur"], prefixes: [["messpraxis-und-diagnose"]], children: [
+    { slug: "messpraxis-und-diagnose", title: "Messpraxis und Diagnose", description: "Messaufbau, Referenzpunkt und Fehlerbild werden getrennt geprüft.", icon: iconMap.meter, chips: ["v116", "Feinstruktur"], prefixes: [["messpraxis-und-diagnose"]], children: [
       { slug: "multimeter-und-bezugspunkt", title: "Multimeter und Bezugspunkt", description: "Feines v116-Unterthema: Multimeter und Bezugspunkt.", icon: iconMap.meter, chips: ["v116", "Praxis"], prefixes: [["messpraxis-und-diagnose", "multimeter-und-bezugspunkt"]] },
       { slug: "oszilloskop-und-trigger", title: "Oszilloskop und Trigger", description: "Feines v116-Unterthema: Oszilloskop und Trigger.", icon: iconMap.meter, chips: ["v116", "Praxis"], prefixes: [["messpraxis-und-diagnose", "oszilloskop-und-trigger"]] },
       { slug: "messfehler-und-belastung", title: "Messfehler und Belastung", description: "Feines v116-Unterthema: Messfehler und Belastung.", icon: iconMap.meter, chips: ["v116", "Praxis"], prefixes: [["messpraxis-und-diagnose", "messfehler-und-belastung"]] }
     ] },
-    { slug: "grundschaltungen-klein-lesen", title: "Grundschaltungen klein lesen", description: "Widerstand, Diode, Transistor und Schutzbauteil werden Ã¼ber Aufgabe und Grenze getrennt.", icon: iconMap.circuit, chips: ["v116", "Feinstruktur"], prefixes: [["grundschaltungen-klein-lesen"]], children: [
+    { slug: "grundschaltungen-klein-lesen", title: "Grundschaltungen klein lesen", description: "Widerstand, Diode, Transistor und Schutzbauteil werden über Aufgabe und Grenze getrennt.", icon: iconMap.circuit, chips: ["v116", "Feinstruktur"], prefixes: [["grundschaltungen-klein-lesen"]], children: [
       { slug: "spannungsteiler-und-last", title: "Spannungsteiler und Last", description: "Feines v116-Unterthema: Spannungsteiler und Last.", icon: iconMap.circuit, chips: ["v116", "Praxis"], prefixes: [["grundschaltungen-klein-lesen", "spannungsteiler-und-last"]] },
       { slug: "diode-und-schutzrichtung", title: "Diode und Schutzrichtung", description: "Feines v116-Unterthema: Diode und Schutzrichtung.", icon: iconMap.circuit, chips: ["v116", "Praxis"], prefixes: [["grundschaltungen-klein-lesen", "diode-und-schutzrichtung"]] },
       { slug: "transistor-als-schalter", title: "Transistor als Schalter", description: "Feines v116-Unterthema: Transistor als Schalter.", icon: iconMap.circuit, chips: ["v116", "Praxis"], prefixes: [["grundschaltungen-klein-lesen", "transistor-als-schalter"]] }
     ] },
-    { slug: "digitaltechnik-und-pegel", title: "Digitaltechnik und Pegel", description: "Digitale ZustÃ¤nde werden mit realen Pegeln, Schwellen und StÃ¶rungen verbunden.", icon: iconMap.logic, chips: ["v116", "Feinstruktur"], prefixes: [["digitaltechnik-und-pegel"]], children: [
+    { slug: "digitaltechnik-und-pegel", title: "Digitaltechnik und Pegel", description: "Digitale Zustände werden mit realen Pegeln, Schwellen und Störungen verbunden.", icon: iconMap.logic, chips: ["v116", "Feinstruktur"], prefixes: [["digitaltechnik-und-pegel"]], children: [
       { slug: "high-low-und-schwellen", title: "High, Low und Schwellen", description: "Feines v116-Unterthema: High, Low und Schwellen.", icon: iconMap.logic, chips: ["v116", "Praxis"], prefixes: [["digitaltechnik-und-pegel", "high-low-und-schwellen"]] },
       { slug: "pullup-pulldown-und-ruhelage", title: "Pull-up, Pull-down und Ruhelage", description: "Feines v116-Unterthema: Pull-up, Pull-down und Ruhelage.", icon: iconMap.logic, chips: ["v116", "Praxis"], prefixes: [["digitaltechnik-und-pegel", "pullup-pulldown-und-ruhelage"]] },
       { slug: "gatter-und-fehlerlogik", title: "Gatter und Fehlerlogik", description: "Feines v116-Unterthema: Gatter und Fehlerlogik.", icon: iconMap.logic, chips: ["v116", "Praxis"], prefixes: [["digitaltechnik-und-pegel", "gatter-und-fehlerlogik"]] }
     ] },
-    { slug: "mikrocontroller-strukturpraxis", title: "Mikrocontroller-Strukturpraxis", description: "Register, Timer, Interrupts und ZustÃ¤nde werden als getrennte Mikrocontroller-Fragen gefÃ¼hrt.", icon: iconMap.terminal, chips: ["v116", "Feinstruktur"], prefixes: [["mikrocontroller-strukturpraxis"]], children: [
+    { slug: "mikrocontroller-strukturpraxis", title: "Mikrocontroller-Strukturpraxis", description: "Register, Timer, Interrupts und Zustände werden als getrennte Mikrocontroller-Fragen geführt.", icon: iconMap.terminal, chips: ["v116", "Feinstruktur"], prefixes: [["mikrocontroller-strukturpraxis"]], children: [
       { slug: "register-und-bitmasken", title: "Register und Bitmasken", description: "Feines v116-Unterthema: Register und Bitmasken.", icon: iconMap.terminal, chips: ["v116", "Praxis"], prefixes: [["mikrocontroller-strukturpraxis", "register-und-bitmasken"]] },
       { slug: "timer-und-softtimer", title: "Timer und Softtimer", description: "Feines v116-Unterthema: Timer und Softtimer.", icon: iconMap.terminal, chips: ["v116", "Praxis"], prefixes: [["mikrocontroller-strukturpraxis", "timer-und-softtimer"]] },
       { slug: "interrupts-und-hauptprogramm", title: "Interrupts und Hauptprogramm", description: "Feines v116-Unterthema: Interrupts und Hauptprogramm.", icon: iconMap.terminal, chips: ["v116", "Praxis"], prefixes: [["mikrocontroller-strukturpraxis", "interrupts-und-hauptprogramm"]] }
     ] },
-    { slug: "energie-versorgung-und-schutz", title: "Energie, Versorgung und Schutz", description: "Versorgung, Stromgrenzen und SchutzmaÃŸnahmen werden praxisnah unterschieden.", icon: iconMap.shield, chips: ["v116", "Feinstruktur"], prefixes: [["energie-versorgung-und-schutz"]], children: [
+    { slug: "energie-versorgung-und-schutz", title: "Energie, Versorgung und Schutz", description: "Versorgung, Stromgrenzen und Schutzmaßnahmen werden praxisnah unterschieden.", icon: iconMap.shield, chips: ["v116", "Feinstruktur"], prefixes: [["energie-versorgung-und-schutz"]], children: [
       { slug: "strombedarf-und-reserve", title: "Strombedarf und Reserve", description: "Feines v116-Unterthema: Strombedarf und Reserve.", icon: iconMap.shield, chips: ["v116", "Praxis"], prefixes: [["energie-versorgung-und-schutz", "strombedarf-und-reserve"]] },
       { slug: "verpolung-und-sicherung", title: "Verpolung und Sicherung", description: "Feines v116-Unterthema: Verpolung und Sicherung.", icon: iconMap.shield, chips: ["v116", "Praxis"], prefixes: [["energie-versorgung-und-schutz", "verpolung-und-sicherung"]] },
-      { slug: "waerme-und-verlustleistung", title: "WÃ¤rme und Verlustleistung", description: "Feines v116-Unterthema: WÃ¤rme und Verlustleistung.", icon: iconMap.shield, chips: ["v116", "Praxis"], prefixes: [["energie-versorgung-und-schutz", "waerme-und-verlustleistung"]] }
+      { slug: "waerme-und-verlustleistung", title: "Wärme und Verlustleistung", description: "Feines v116-Unterthema: Wärme und Verlustleistung.", icon: iconMap.shield, chips: ["v116", "Praxis"], prefixes: [["energie-versorgung-und-schutz", "waerme-und-verlustleistung"]] }
     ] },
-    { slug: "sensorik-und-signalaufbereitung", title: "Sensorik und Signalaufbereitung", description: "Sensorwerte werden Ã¼ber Bereich, Rauschen, Filter und Kalibrierung gelesen.", icon: iconMap.meter, chips: ["v116", "Feinstruktur"], prefixes: [["sensorik-und-signalaufbereitung"]], children: [
+    { slug: "sensorik-und-signalaufbereitung", title: "Sensorik und Signalaufbereitung", description: "Sensorwerte werden über Bereich, Rauschen, Filter und Kalibrierung gelesen.", icon: iconMap.meter, chips: ["v116", "Feinstruktur"], prefixes: [["sensorik-und-signalaufbereitung"]], children: [
       { slug: "rauschen-und-mittelwert", title: "Rauschen und Mittelwert", description: "Feines v116-Unterthema: Rauschen und Mittelwert.", icon: iconMap.meter, chips: ["v116", "Praxis"], prefixes: [["sensorik-und-signalaufbereitung", "rauschen-und-mittelwert"]] },
-      { slug: "filter-und-traegheit", title: "Filter und TrÃ¤gheit", description: "Feines v116-Unterthema: Filter und TrÃ¤gheit.", icon: iconMap.meter, chips: ["v116", "Praxis"], prefixes: [["sensorik-und-signalaufbereitung", "filter-und-traegheit"]] },
+      { slug: "filter-und-traegheit", title: "Filter und Trägheit", description: "Feines v116-Unterthema: Filter und Trägheit.", icon: iconMap.meter, chips: ["v116", "Praxis"], prefixes: [["sensorik-und-signalaufbereitung", "filter-und-traegheit"]] },
       { slug: "kalibrierung-und-offset", title: "Kalibrierung und Offset", description: "Feines v116-Unterthema: Kalibrierung und Offset.", icon: iconMap.meter, chips: ["v116", "Praxis"], prefixes: [["sensorik-und-signalaufbereitung", "kalibrierung-und-offset"]] }
     ] },
     { slug: "daten-und-signale", title: "Daten und Signale", description: "Signale, Logik, Messen und Schaltungen bleiben in klaren Unterthemen getrennt.", icon: iconMap.data, chips: ["Signale", "Messen"], prefixes: [["daten-und-signale"]], children: [
       { slug: "signale-und-codierung", title: "Signale und Codierung", description: "Analog, digital, Codierung und Quantisierung als Grundlagenblock.", icon: iconMap.data, chips: ["Analog", "Digital"], prefixes: [["daten-und-signale", "analoge-und-digitale-signale"], ["daten-und-signale", "binaersystem-und-stellenwerte"]] },
-      { slug: "logik-und-wahrheitstabellen", title: "Logik und Wahrheitstabellen", description: "Gatter, Wahrheitstabellen und Fehlerbilder getrennt Ã¼ben.", icon: iconMap.logic, chips: ["Logik", "Gatter"], prefixes: [["daten-und-signale", "logische-grundschaltungen"], ["daten-und-signale", "wahrheitstabellen-und-logik"]] },
+      { slug: "logik-und-wahrheitstabellen", title: "Logik und Wahrheitstabellen", description: "Gatter, Wahrheitstabellen und Fehlerbilder getrennt üben.", icon: iconMap.logic, chips: ["Logik", "Gatter"], prefixes: [["daten-und-signale", "logische-grundschaltungen"], ["daten-und-signale", "wahrheitstabellen-und-logik"]] },
     ] },
-    { slug: "messen-und-fehler", title: "Messen und Fehler", description: "MessgerÃ¤te, Messbereiche, Oszilloskop und Fehlerbilder als eigene PraxisblÃ¶cke.", icon: iconMap.meter, chips: ["Messen", "Fehler"], prefixes: [["messen-und-fehler"], ["daten-und-signale", "messbereiche-und-messfehler"], ["daten-und-signale", "messgeraete-und-messgroessen"]], children: [
+    { slug: "messen-und-fehler", title: "Messen und Fehler", description: "Messgeräte, Messbereiche, Oszilloskop und Fehlerbilder als eigene Praxisblöcke.", icon: iconMap.meter, chips: ["Messen", "Fehler"], prefixes: [["messen-und-fehler"], ["daten-und-signale", "messbereiche-und-messfehler"], ["daten-und-signale", "messgeraete-und-messgroessen"]], children: [
       { slug: "oszilloskop-und-signale", title: "Oszilloskop und Signale", description: "Trigger, Zeitbasis und Signalform getrennt lesen.", icon: iconMap.meter, chips: ["Trigger", "Zeitbasis"], prefixes: [["messen-und-fehler", "oszilloskop-und-signale"]] },
     ] },
-    { slug: "schaltungen-und-stromkreis", title: "Schaltungen und Stromkreis", description: "Grundschaltungen, Schutz, Grenzwerte und Strompfade Ã¼bersichtlich trennen.", icon: iconMap.circuit, chips: ["Stromkreis", "Schutz"], prefixes: [["schaltungen-und-stromkreis"], ["daten-und-signale", "stromkreis-offen-geschlossen-und-fehlerbilder"], ["daten-und-signale", "reihen-und-parallelschaltung-verstehen"]], children: [
-      { slug: "schutz-und-grenzwerte", title: "Schutz und Grenzwerte", description: "Vorwiderstand, Strombegrenzung und zulÃ¤ssige Werte prÃ¼fen.", icon: iconMap.circuit, chips: ["Grenzwerte", "Schutz"], prefixes: [["schaltungen-und-stromkreis", "schutz-und-grenzwerte"]] },
+    { slug: "schaltungen-und-stromkreis", title: "Schaltungen und Stromkreis", description: "Grundschaltungen, Schutz, Grenzwerte und Strompfade übersichtlich trennen.", icon: iconMap.circuit, chips: ["Stromkreis", "Schutz"], prefixes: [["schaltungen-und-stromkreis"], ["daten-und-signale", "stromkreis-offen-geschlossen-und-fehlerbilder"], ["daten-und-signale", "reihen-und-parallelschaltung-verstehen"]], children: [
+      { slug: "schutz-und-grenzwerte", title: "Schutz und Grenzwerte", description: "Vorwiderstand, Strombegrenzung und zulässige Werte prüfen.", icon: iconMap.circuit, chips: ["Grenzwerte", "Schutz"], prefixes: [["schaltungen-und-stromkreis", "schutz-und-grenzwerte"]] },
     ] },
-    { slug: "digitale-eingaenge-und-ausgaenge", title: "Digitale Ein- und AusgÃ¤nge", description: "Pegel, Taster, Pull-ups und Entprellung als eigene Unterthemen.", icon: iconMap.logic, chips: ["Pegel", "Taster"], prefixes: [["digitale-eingaenge-und-ausgaenge"]], children: [
+    { slug: "digitale-eingaenge-und-ausgaenge", title: "Digitale Ein- und Ausgänge", description: "Pegel, Taster, Pull-ups und Entprellung als eigene Unterthemen.", icon: iconMap.logic, chips: ["Pegel", "Taster"], prefixes: [["digitale-eingaenge-und-ausgaenge"]], children: [
       { slug: "pegel-und-entprellung", title: "Pegel und Entprellung", description: "Zustand, Flanke und Prellen bewusst unterscheiden.", icon: iconMap.logic, chips: ["Flanke", "Entprellung"], prefixes: [["digitale-eingaenge-und-ausgaenge", "pegel-und-entprellung"]] },
     ] },
     { slug: "mikrocontroller-und-atmega", title: "Mikrocontroller und ATmega", description: "Register, Timer, ADC, Schnittstellen und Stromversorgung kleinteiliger auffindbar machen.", icon: iconMap.circuit, chips: ["ATmega", "Register", "UART"], prefixes: [["mikrocontroller-und-atmega"]], children: [
       { slug: "stromversorgung-und-pegel", title: "Stromversorgung und Pegel", description: "VCC, Logikpegel, Eingangsschwellen und Pegelwandler trennen.", icon: iconMap.circuit, chips: ["VCC", "Pegel"], prefixes: [["mikrocontroller-und-atmega", "stromversorgung-und-pegel"]] },
-      { slug: "schnittstellen-und-fehlerbilder", title: "Schnittstellen und Fehlerbilder", description: "UART, IÂ²C, SPI und typische Verdrahtungsfehler getrennt prÃ¼fen.", icon: iconMap.network, chips: ["UART", "Fehler"], prefixes: [["mikrocontroller-und-atmega", "schnittstellen-und-fehlerbilder"]] },
+      { slug: "schnittstellen-und-fehlerbilder", title: "Schnittstellen und Fehlerbilder", description: "UART, I²C, SPI und typische Verdrahtungsfehler getrennt prüfen.", icon: iconMap.network, chips: ["UART", "Fehler"], prefixes: [["mikrocontroller-und-atmega", "schnittstellen-und-fehlerbilder"]] },
     ] },
     { slug: "grundlagen", title: "Grundlagen", description: "Spannung, Strom, Widerstand und Belastung in kleinen Unterthemen.", icon: iconMap.circuit, chips: ["Spannung", "Strom"], prefixes: [["grundlagen"]], children: [
-      { slug: "spannung-strom-widerstand", title: "Spannung, Strom und Widerstand", description: "GrundgrÃ¶ÃŸen, Messpunkte und Belastung sauber trennen.", icon: iconMap.circuit, chips: ["Ohm", "Messpunkt"], prefixes: [["grundlagen", "spannung-strom-widerstand"]] },
+      { slug: "spannung-strom-widerstand", title: "Spannung, Strom und Widerstand", description: "Grundgrößen, Messpunkte und Belastung sauber trennen.", icon: iconMap.circuit, chips: ["Ohm", "Messpunkt"], prefixes: [["grundlagen", "spannung-strom-widerstand"]] },
     ] },
-    { slug: "bauteile", title: "Bauteile", description: "Kondensatoren, Filter, MOSFETs und typische Anschlussfragen getrennt Ã¼ben.", icon: iconMap.circuit, chips: ["RC", "MOSFET"], prefixes: [["bauteile"]], children: [
+    { slug: "bauteile", title: "Bauteile", description: "Kondensatoren, Filter, MOSFETs und typische Anschlussfragen getrennt üben.", icon: iconMap.circuit, chips: ["RC", "MOSFET"], prefixes: [["bauteile"]], children: [
       { slug: "kondensatoren-und-filter", title: "Kondensatoren und Filter", description: "Zeitverhalten, Hochpass und Tiefpass qualitativ unterscheiden.", icon: iconMap.meter, chips: ["RC", "Filter"], prefixes: [["bauteile", "kondensatoren-und-filter"]] },
       { slug: "mosfet-und-transistor", title: "MOSFET und Transistor", description: "Steuerkreis und Lastkreis bei Schaltstufen trennen.", icon: iconMap.circuit, chips: ["Gate", "Drain"], prefixes: [["bauteile", "mosfet-und-transistor"]] },
     ] },
-    { slug: "digitaltechnik", title: "Digitaltechnik", description: "Pegel, Pull-up/Pull-down und digitale EingÃ¤nge kleinteilig auffindbar.", icon: iconMap.logic, chips: ["Pegel", "Taster"], prefixes: [["digitaltechnik"]], children: [
+    { slug: "digitaltechnik", title: "Digitaltechnik", description: "Pegel, Pull-up/Pull-down und digitale Eingänge kleinteilig auffindbar.", icon: iconMap.logic, chips: ["Pegel", "Taster"], prefixes: [["digitaltechnik"]], children: [
       { slug: "pegel-und-entprellung", title: "Pegel und Entprellung", description: "Ruhezustand, Ereignis und Tasterlogik getrennt lesen.", icon: iconMap.logic, chips: ["Pull-up", "Low"], prefixes: [["digitaltechnik", "pegel-und-entprellung"]] },
     ] },
-    { slug: "kommunikation", title: "Kommunikation", description: "IÂ²C, SPI, Adressen und GerÃ¤teauswahl getrennt diagnostizieren.", icon: iconMap.network, chips: ["IÂ²C", "SPI"], prefixes: [["kommunikation"]], children: [
-      { slug: "i2c-und-spi-bus", title: "IÂ²C und SPI-Bus", description: "Pull-ups, Adressen, Chip Select und Massebezug einzeln prÃ¼fen.", icon: iconMap.network, chips: ["Bus", "CS"], prefixes: [["kommunikation"], ["mikrocontroller-und-atmega", "i2c-und-spi-bus"]] },
+    { slug: "kommunikation", title: "Kommunikation", description: "I²C, SPI, Adressen und Geräteauswahl getrennt diagnostizieren.", icon: iconMap.network, chips: ["I²C", "SPI"], prefixes: [["kommunikation"]], children: [
+      { slug: "i2c-und-spi-bus", title: "I²C und SPI-Bus", description: "Pull-ups, Adressen, Chip Select und Massebezug einzeln prüfen.", icon: iconMap.network, chips: ["Bus", "CS"], prefixes: [["kommunikation"], ["mikrocontroller-und-atmega", "i2c-und-spi-bus"]] },
     ] },
-    { slug: "grundschaltungen", title: "Grundschaltungen", description: "Spannung, Strom, Widerstand und MessrÃ¼ckwirkung werden sauber getrennt.", icon: iconMap.circuit, chips: ["Grundschaltungen", "Unterthemen"], prefixes: [["grundschaltungen"]], children: [
-      { slug: "spannung-strom-widerstand", title: "Spannung, Strom und Widerstand", description: "Reale Mess- und BelastungsfÃ¤lle ergÃ¤nzen die Grundformeln.", icon: iconMap.circuit, chips: ["PrÃ¼fen", "Abgrenzen"], prefixes: [["grundschaltungen", "spannung-strom-widerstand"]] },
+    { slug: "grundschaltungen", title: "Grundschaltungen", description: "Spannung, Strom, Widerstand und Messrückwirkung werden sauber getrennt.", icon: iconMap.circuit, chips: ["Grundschaltungen", "Unterthemen"], prefixes: [["grundschaltungen"]], children: [
+      { slug: "spannung-strom-widerstand", title: "Spannung, Strom und Widerstand", description: "Reale Mess- und Belastungsfälle ergänzen die Grundformeln.", icon: iconMap.circuit, chips: ["Prüfen", "Abgrenzen"], prefixes: [["grundschaltungen", "spannung-strom-widerstand"]] },
     ] },
-    { slug: "digitale-praxis", title: "Digitale Praxis", description: "Pegel, Flanken, EntstÃ¶rung und Busverhalten werden als getrennte Praxisfragen gefÃ¼hrt.", icon: iconMap.circuit, chips: ["Digitale", "Unterthemen"], prefixes: [["digitale-praxis"]], children: [
-      { slug: "pegel-timing-entstoerung", title: "Pegel, Timing und EntstÃ¶rung", description: "Digitale Signale sind nicht nur 0 und 1, sondern haben Grenzen und Zeitverhalten.", icon: iconMap.circuit, chips: ["PrÃ¼fen", "Abgrenzen"], prefixes: [["digitale-praxis", "pegel-timing-entstoerung"]] },
+    { slug: "digitale-praxis", title: "Digitale Praxis", description: "Pegel, Flanken, Entstörung und Busverhalten werden als getrennte Praxisfragen geführt.", icon: iconMap.circuit, chips: ["Digitale", "Unterthemen"], prefixes: [["digitale-praxis"]], children: [
+      { slug: "pegel-timing-entstoerung", title: "Pegel, Timing und Entstörung", description: "Digitale Signale sind nicht nur 0 und 1, sondern haben Grenzen und Zeitverhalten.", icon: iconMap.circuit, chips: ["Prüfen", "Abgrenzen"], prefixes: [["digitale-praxis", "pegel-timing-entstoerung"]] },
     ] },
-    { slug: "mikrocontroller-system", title: "Mikrocontroller-System", description: "Versorgung, Reset, Takt und StÃ¼tzkondensatoren bilden die Systembasis.", icon: iconMap.circuit, chips: ["Mikrocontroller-System", "Unterthemen"], prefixes: [["mikrocontroller-system"]], children: [
-      { slug: "versorgung-reset-takt", title: "Versorgung, Reset und Takt", description: "Ein Mikrocontrollerproblem ist oft kein Codeproblem, sondern ein Systemproblem.", icon: iconMap.circuit, chips: ["PrÃ¼fen", "Abgrenzen"], prefixes: [["mikrocontroller-system", "versorgung-reset-takt"]] },
+    { slug: "mikrocontroller-system", title: "Mikrocontroller-System", description: "Versorgung, Reset, Takt und Stützkondensatoren bilden die Systembasis.", icon: iconMap.circuit, chips: ["Mikrocontroller-System", "Unterthemen"], prefixes: [["mikrocontroller-system"]], children: [
+      { slug: "versorgung-reset-takt", title: "Versorgung, Reset und Takt", description: "Ein Mikrocontrollerproblem ist oft kein Codeproblem, sondern ein Systemproblem.", icon: iconMap.circuit, chips: ["Prüfen", "Abgrenzen"], prefixes: [["mikrocontroller-system", "versorgung-reset-takt"]] },
     ] },
     { slug: "messpraxis", title: "Messpraxis", description: "Oszilloskop und Multimeter werden nach Messziel und Messfehler gegliedert.", icon: iconMap.circuit, chips: ["Messpraxis", "Unterthemen"], prefixes: [["messpraxis"]], children: [
-      { slug: "oszi-und-multimeter", title: "Oszi und Multimeter", description: "MessgerÃ¤te zeigen unterschiedliche Wahrheiten Ã¼ber dasselbe Signal.", icon: iconMap.circuit, chips: ["PrÃ¼fen", "Abgrenzen"], prefixes: [["messpraxis", "oszi-und-multimeter"]] },
+      { slug: "oszi-und-multimeter", title: "Oszi und Multimeter", description: "Messgeräte zeigen unterschiedliche Wahrheiten über dasselbe Signal.", icon: iconMap.circuit, chips: ["Prüfen", "Abgrenzen"], prefixes: [["messpraxis", "oszi-und-multimeter"]] },
     ] },
     {
       slug: "messen-und-sicherheit",
@@ -320,8 +320,8 @@ const areaNodesBySubject: Record<PrimarySubjectSlug, AreaNodeDefinition[]> = {
       chips: ["v114", "Feinstruktur"],
       prefixes: [["messen-und-sicherheit"]],
       children: [
-        { slug: "messaufbau-und-schutz", title: "Messaufbau und Schutz", description: "Kleine PrÃ¼ffragen zu messaufbau und schutz statt breitem Sammelkapitel.", icon: iconMap.meter, chips: ["v114", "Feinstruktur"], prefixes: [["messen-und-sicherheit", "messaufbau-und-schutz"]] },
-        { slug: "fehlerbilder-und-diagnose", title: "Fehlerbilder und Diagnose", description: "Kleine PrÃ¼ffragen zu fehlerbilder und diagnose statt breitem Sammelkapitel.", icon: iconMap.meter, chips: ["v114", "Feinstruktur"], prefixes: [["messen-und-sicherheit", "fehlerbilder-und-diagnose"]] }
+        { slug: "messaufbau-und-schutz", title: "Messaufbau und Schutz", description: "Kleine Prüffragen zu messaufbau und schutz statt breitem Sammelkapitel.", icon: iconMap.meter, chips: ["v114", "Feinstruktur"], prefixes: [["messen-und-sicherheit", "messaufbau-und-schutz"]] },
+        { slug: "fehlerbilder-und-diagnose", title: "Fehlerbilder und Diagnose", description: "Kleine Prüffragen zu fehlerbilder und diagnose statt breitem Sammelkapitel.", icon: iconMap.meter, chips: ["v114", "Feinstruktur"], prefixes: [["messen-und-sicherheit", "fehlerbilder-und-diagnose"]] }
       ],
     },
     {
@@ -332,8 +332,8 @@ const areaNodesBySubject: Record<PrimarySubjectSlug, AreaNodeDefinition[]> = {
       chips: ["v114", "Feinstruktur"],
       prefixes: [["mikrocontroller-systeme"]],
       children: [
-        { slug: "energie-und-reset", title: "Energie und Reset", description: "Kleine PrÃ¼ffragen zu energie und reset statt breitem Sammelkapitel.", icon: iconMap.circuit, chips: ["v114", "Feinstruktur"], prefixes: [["mikrocontroller-systeme", "energie-und-reset"]] },
-        { slug: "peripherie-und-timing", title: "Peripherie und Timing", description: "Kleine PrÃ¼ffragen zu peripherie und timing statt breitem Sammelkapitel.", icon: iconMap.circuit, chips: ["v114", "Feinstruktur"], prefixes: [["mikrocontroller-systeme", "peripherie-und-timing"]] }
+        { slug: "energie-und-reset", title: "Energie und Reset", description: "Kleine Prüffragen zu energie und reset statt breitem Sammelkapitel.", icon: iconMap.circuit, chips: ["v114", "Feinstruktur"], prefixes: [["mikrocontroller-systeme", "energie-und-reset"]] },
+        { slug: "peripherie-und-timing", title: "Peripherie und Timing", description: "Kleine Prüffragen zu peripherie und timing statt breitem Sammelkapitel.", icon: iconMap.circuit, chips: ["v114", "Feinstruktur"], prefixes: [["mikrocontroller-systeme", "peripherie-und-timing"]] }
       ],
     },
     {
@@ -344,18 +344,18 @@ const areaNodesBySubject: Record<PrimarySubjectSlug, AreaNodeDefinition[]> = {
       chips: ["v114", "Feinstruktur"],
       prefixes: [["signale-und-schaltungen"]],
       children: [
-        { slug: "analog-digital-grenzen", title: "Analog Digital Grenzen", description: "Kleine PrÃ¼ffragen zu analog digital grenzen statt breitem Sammelkapitel.", icon: iconMap.logic, chips: ["v114", "Feinstruktur"], prefixes: [["signale-und-schaltungen", "analog-digital-grenzen"]] },
-        { slug: "transistoren-und-lasten", title: "Transistoren und Lasten", description: "Kleine PrÃ¼ffragen zu transistoren und lasten statt breitem Sammelkapitel.", icon: iconMap.logic, chips: ["v114", "Feinstruktur"], prefixes: [["signale-und-schaltungen", "transistoren-und-lasten"]] }
+        { slug: "analog-digital-grenzen", title: "Analog Digital Grenzen", description: "Kleine Prüffragen zu analog digital grenzen statt breitem Sammelkapitel.", icon: iconMap.logic, chips: ["v114", "Feinstruktur"], prefixes: [["signale-und-schaltungen", "analog-digital-grenzen"]] },
+        { slug: "transistoren-und-lasten", title: "Transistoren und Lasten", description: "Kleine Prüffragen zu transistoren und lasten statt breitem Sammelkapitel.", icon: iconMap.logic, chips: ["v114", "Feinstruktur"], prefixes: [["signale-und-schaltungen", "transistoren-und-lasten"]] }
       ],
     }
   ],
   linux: [
-    { slug: "shell-arbeitsfluss", title: "Shell-Arbeitsfluss", description: "Navigation, Suche und kleine Arbeitsschritte werden als wiederholbarer Workflow geÃ¼bt.", icon: iconMap.terminal, chips: ["v116", "Feinstruktur"], prefixes: [["shell-arbeitsfluss"]], children: [
+    { slug: "shell-arbeitsfluss", title: "Shell-Arbeitsfluss", description: "Navigation, Suche und kleine Arbeitsschritte werden als wiederholbarer Workflow geübt.", icon: iconMap.terminal, chips: ["v116", "Feinstruktur"], prefixes: [["shell-arbeitsfluss"]], children: [
       { slug: "pfade-und-kontext", title: "Pfade und Kontext", description: "Feines v116-Unterthema: Pfade und Kontext.", icon: iconMap.terminal, chips: ["v116", "Praxis"], prefixes: [["shell-arbeitsfluss", "pfade-und-kontext"]] },
-      { slug: "dateien-finden-und-pruefen", title: "Dateien finden und prÃ¼fen", description: "Feines v116-Unterthema: Dateien finden und prÃ¼fen.", icon: iconMap.terminal, chips: ["v116", "Praxis"], prefixes: [["shell-arbeitsfluss", "dateien-finden-und-pruefen"]] },
+      { slug: "dateien-finden-und-pruefen", title: "Dateien finden und prüfen", description: "Feines v116-Unterthema: Dateien finden und prüfen.", icon: iconMap.terminal, chips: ["v116", "Praxis"], prefixes: [["shell-arbeitsfluss", "dateien-finden-und-pruefen"]] },
       { slug: "history-und-wiederholung", title: "History und Wiederholung", description: "Feines v116-Unterthema: History und Wiederholung.", icon: iconMap.terminal, chips: ["v116", "Praxis"], prefixes: [["shell-arbeitsfluss", "history-und-wiederholung"]] }
     ] },
-    { slug: "textdaten-und-pipelines", title: "Textdaten und Pipelines", description: "TextstrÃ¶me werden mit grep, cut, sort und wc in kleine Auswertungsschritte zerlegt.", icon: iconMap.data, chips: ["v116", "Feinstruktur"], prefixes: [["textdaten-und-pipelines"]], children: [
+    { slug: "textdaten-und-pipelines", title: "Textdaten und Pipelines", description: "Textströme werden mit grep, cut, sort und wc in kleine Auswertungsschritte zerlegt.", icon: iconMap.data, chips: ["v116", "Feinstruktur"], prefixes: [["textdaten-und-pipelines"]], children: [
       { slug: "grep-und-filterlogik", title: "grep und Filterlogik", description: "Feines v116-Unterthema: grep und Filterlogik.", icon: iconMap.data, chips: ["v116", "Praxis"], prefixes: [["textdaten-und-pipelines", "grep-und-filterlogik"]] },
       { slug: "cut-sort-uniq", title: "cut, sort, uniq", description: "Feines v116-Unterthema: cut, sort, uniq.", icon: iconMap.data, chips: ["v116", "Praxis"], prefixes: [["textdaten-und-pipelines", "cut-sort-uniq"]] },
       { slug: "wc-und-statistik", title: "wc und Statistik", description: "Feines v116-Unterthema: wc und Statistik.", icon: iconMap.data, chips: ["v116", "Praxis"], prefixes: [["textdaten-und-pipelines", "wc-und-statistik"]] }
@@ -365,22 +365,22 @@ const areaNodesBySubject: Record<PrimarySubjectSlug, AreaNodeDefinition[]> = {
       { slug: "besitzer-gruppe-und-umask", title: "Besitzer, Gruppe und umask", description: "Feines v116-Unterthema: Besitzer, Gruppe und umask.", icon: iconMap.shield, chips: ["v116", "Praxis"], prefixes: [["rechte-benutzer-und-sicherheit", "besitzer-gruppe-und-umask"]] },
       { slug: "sudo-und-minimalrechte", title: "sudo und Minimalrechte", description: "Feines v116-Unterthema: sudo und Minimalrechte.", icon: iconMap.shield, chips: ["v116", "Praxis"], prefixes: [["rechte-benutzer-und-sicherheit", "sudo-und-minimalrechte"]] }
     ] },
-    { slug: "prozesse-logs-und-dienste", title: "Prozesse, Logs und Dienste", description: "Laufende Programme werden Ã¼ber Prozess, Dienststatus und Logspur eingeordnet.", icon: iconMap.terminal, chips: ["v116", "Feinstruktur"], prefixes: [["prozesse-logs-und-dienste"]], children: [
+    { slug: "prozesse-logs-und-dienste", title: "Prozesse, Logs und Dienste", description: "Laufende Programme werden über Prozess, Dienststatus und Logspur eingeordnet.", icon: iconMap.terminal, chips: ["v116", "Feinstruktur"], prefixes: [["prozesse-logs-und-dienste"]], children: [
       { slug: "ps-top-und-kill", title: "ps, top und kill", description: "Feines v116-Unterthema: ps, top und kill.", icon: iconMap.terminal, chips: ["v116", "Praxis"], prefixes: [["prozesse-logs-und-dienste", "ps-top-und-kill"]] },
       { slug: "journalctl-und-logspur", title: "journalctl und Logspur", description: "Feines v116-Unterthema: journalctl und Logspur.", icon: iconMap.terminal, chips: ["v116", "Praxis"], prefixes: [["prozesse-logs-und-dienste", "journalctl-und-logspur"]] },
       { slug: "systemd-status-und-restart", title: "systemd Status und Restart", description: "Feines v116-Unterthema: systemd Status und Restart.", icon: iconMap.terminal, chips: ["v116", "Praxis"], prefixes: [["prozesse-logs-und-dienste", "systemd-status-und-restart"]] }
     ] },
-    { slug: "netzwerk-und-fernzugriff", title: "Netzwerk und Fernzugriff", description: "IP, Port, DNS und SSH werden als prÃ¼fbare Verbindungskette behandelt.", icon: iconMap.network, chips: ["v116", "Feinstruktur"], prefixes: [["netzwerk-und-fernzugriff"]], children: [
+    { slug: "netzwerk-und-fernzugriff", title: "Netzwerk und Fernzugriff", description: "IP, Port, DNS und SSH werden als prüfbare Verbindungskette behandelt.", icon: iconMap.network, chips: ["v116", "Feinstruktur"], prefixes: [["netzwerk-und-fernzugriff"]], children: [
       { slug: "ip-ping-und-dns", title: "IP, Ping und DNS", description: "Feines v116-Unterthema: IP, Ping und DNS.", icon: iconMap.network, chips: ["v116", "Praxis"], prefixes: [["netzwerk-und-fernzugriff", "ip-ping-und-dns"]] },
-      { slug: "ssh-schluessel-und-agent", title: "SSH-SchlÃ¼ssel und Agent", description: "Feines v116-Unterthema: SSH-SchlÃ¼ssel und Agent.", icon: iconMap.network, chips: ["v116", "Praxis"], prefixes: [["netzwerk-und-fernzugriff", "ssh-schluessel-und-agent"]] },
+      { slug: "ssh-schluessel-und-agent", title: "SSH-Schlüssel und Agent", description: "Feines v116-Unterthema: SSH-Schlüssel und Agent.", icon: iconMap.network, chips: ["v116", "Praxis"], prefixes: [["netzwerk-und-fernzugriff", "ssh-schluessel-und-agent"]] },
       { slug: "ports-und-firewall", title: "Ports und Firewall", description: "Feines v116-Unterthema: Ports und Firewall.", icon: iconMap.network, chips: ["v116", "Praxis"], prefixes: [["netzwerk-und-fernzugriff", "ports-und-firewall"]] }
     ] },
-    { slug: "automation-und-skripte", title: "Automation und Skripte", description: "Skripte werden Ã¼ber Parameter, Fehlerbehandlung und Wiederholbarkeit stabil gemacht.", icon: iconMap.terminal, chips: ["v116", "Feinstruktur"], prefixes: [["automation-und-skripte"]], children: [
+    { slug: "automation-und-skripte", title: "Automation und Skripte", description: "Skripte werden über Parameter, Fehlerbehandlung und Wiederholbarkeit stabil gemacht.", icon: iconMap.terminal, chips: ["v116", "Feinstruktur"], prefixes: [["automation-und-skripte"]], children: [
       { slug: "parameter-und-quoting", title: "Parameter und Quoting", description: "Feines v116-Unterthema: Parameter und Quoting.", icon: iconMap.terminal, chips: ["v116", "Praxis"], prefixes: [["automation-und-skripte", "parameter-und-quoting"]] },
       { slug: "exitcodes-und-set-e", title: "Exitcodes und set -e", description: "Feines v116-Unterthema: Exitcodes und set -e.", icon: iconMap.terminal, chips: ["v116", "Praxis"], prefixes: [["automation-und-skripte", "exitcodes-und-set-e"]] },
       { slug: "cron-und-systemd-timer", title: "cron und systemd Timer", description: "Feines v116-Unterthema: cron und systemd Timer.", icon: iconMap.terminal, chips: ["v116", "Praxis"], prefixes: [["automation-und-skripte", "cron-und-systemd-timer"]] }
     ] },
-    { slug: "shell", title: "Shell", description: "Orientierung, Prozesse, Logs und Textarbeit werden als eigene PraxisblÃ¶cke gefÃ¼hrt.", icon: iconMap.terminal, chips: ["Pfade", "Prozesse", "Logs"], prefixes: [["shell"]], children: [
+    { slug: "shell", title: "Shell", description: "Orientierung, Prozesse, Logs und Textarbeit werden als eigene Praxisblöcke geführt.", icon: iconMap.terminal, chips: ["Pfade", "Prozesse", "Logs"], prefixes: [["shell"]], children: [
       { slug: "pipelines-und-exitcodes", title: "Pipelines und Exitcodes", description: "Exitstatus, pipefail und Fehlerweitergabe sichtbar machen.", icon: iconMap.terminal, chips: ["pipefail", "Exitcode"], prefixes: [["shell", "pipelines-und-exitcodes"]] },
       { slug: "dateisuche-und-filter", title: "Dateisuche und Filter", description: "find-Kriterien nach Name, Typ und Zeit kombinieren.", icon: iconMap.data, chips: ["find", "mtime"], prefixes: [["shell", "dateisuche-und-filter"]] },
       { slug: "orientierung-und-pfade", title: "Orientierung und Pfade", description: "Pfadwerkzeuge, Verlauf und sichere Navigation.", icon: iconMap.terminal, chips: ["Pfade", "History"], prefixes: [["shell", "pfade-mit-basename-dirname-und-realpath"], ["shell", "history-und-wiederkehrende-befehle"]] },
@@ -388,47 +388,47 @@ const areaNodesBySubject: Record<PrimarySubjectSlug, AreaNodeDefinition[]> = {
       { slug: "log-analyse-und-fehler", title: "Loganalyse und Fehler", description: "Logs nach Zeit, Dienst, Suchwort und Kontext eingrenzen.", icon: iconMap.data, chips: ["Logs", "grep"], prefixes: [["shell", "log-analyse-und-fehler"]] },
       { slug: "text-und-auswertung", title: "Text und Auswertung", description: "Pipes, grep, cut und wc als Auswertungswerkzeuge.", icon: iconMap.data, chips: ["Pipes", "grep"], prefixes: [["shell", "pipes-und-umleitungen"], ["shell", "textwerkzeuge-mit-grep-cut-und-wc"]] },
     ] },
-    { slug: "shellskripte", title: "Shellskripte", description: "Kleine Automatisierungen, Fehlerbehandlung und sichere VariablenfÃ¼hrung.", icon: iconMap.terminal, chips: ["Skripte", "Automatisierung"], prefixes: [["shellskripte"]], children: [
-      { slug: "robuste-skripte", title: "Robuste Skripte", description: "set -eu, Quoting und EingabeprÃ¼fungen sichtbar trainieren.", icon: iconMap.terminal, chips: ["set -eu", "Quoting"], prefixes: [["shellskripte", "robuste-skripte"]] },
+    { slug: "shellskripte", title: "Shellskripte", description: "Kleine Automatisierungen, Fehlerbehandlung und sichere Variablenführung.", icon: iconMap.terminal, chips: ["Skripte", "Automatisierung"], prefixes: [["shellskripte"]], children: [
+      { slug: "robuste-skripte", title: "Robuste Skripte", description: "set -eu, Quoting und Eingabeprüfungen sichtbar trainieren.", icon: iconMap.terminal, chips: ["set -eu", "Quoting"], prefixes: [["shellskripte", "robuste-skripte"]] },
     ] },
     { slug: "rechte-und-shell-kontext", title: "Rechte und Shell-Kontext", description: "Dateirechte, Besitz, PATH und sudo klarer trennen.", icon: iconMap.shield, chips: ["Rechte", "sudo"], prefixes: [["system", "rechte-und-besitz"], ["shell", "umgebungsvariablen-und-path"], ["shell", "dateirechte-mit-ls-stat-und-chmod-lesen"], ["system", "dateirechte"]], children: [
-      { slug: "symbolisch-oktal", title: "Symbolisch und oktal", description: "chmod-Ã„nderung und Zielzustand klar unterscheiden.", icon: iconMap.shield, chips: ["chmod", "640"], prefixes: [["system", "rechte-und-acl", "symbolisch-oktal"]] },
-      { slug: "rechte-und-besitz", title: "Rechte und Besitz", description: "Besitz, Rechte und erhÃ¶hte AusfÃ¼hrung nicht vermischen.", icon: iconMap.shield, chips: ["sudo", "Besitz"], prefixes: [["system", "rechte-und-besitz"]] },
+      { slug: "symbolisch-oktal", title: "Symbolisch und oktal", description: "chmod-Änderung und Zielzustand klar unterscheiden.", icon: iconMap.shield, chips: ["chmod", "640"], prefixes: [["system", "rechte-und-acl", "symbolisch-oktal"]] },
+      { slug: "rechte-und-besitz", title: "Rechte und Besitz", description: "Besitz, Rechte und erhöhte Ausführung nicht vermischen.", icon: iconMap.shield, chips: ["sudo", "Besitz"], prefixes: [["system", "rechte-und-besitz"]] },
     ] },
-    { slug: "ssh", title: "SSH", description: "SchlÃ¼ssel, Agent, Fernzugriff und typische Sicherheitsfragen.", icon: iconMap.shield, chips: ["SSH", "SchlÃ¼ssel"], prefixes: [["ssh"]], children: [
-      { slug: "ssh-config", title: "SSH-Config", description: "Host-Alias, Port, User und SchlÃ¼ssel lesbar bÃ¼ndeln.", icon: iconMap.shield, chips: ["Config", "Alias"], prefixes: [["ssh", "schluessel-und-agent", "ssh-config"]] },
-      { slug: "schluessel-und-agent", title: "SchlÃ¼ssel und Agent", description: "Passphrase, privater SchlÃ¼ssel und ssh-agent getrennt verstehen.", icon: iconMap.shield, chips: ["Agent", "Key"], prefixes: [["ssh", "schluessel-und-agent"]] },
+    { slug: "ssh", title: "SSH", description: "Schlüssel, Agent, Fernzugriff und typische Sicherheitsfragen.", icon: iconMap.shield, chips: ["SSH", "Schlüssel"], prefixes: [["ssh"]], children: [
+      { slug: "ssh-config", title: "SSH-Config", description: "Host-Alias, Port, User und Schlüssel lesbar bündeln.", icon: iconMap.shield, chips: ["Config", "Alias"], prefixes: [["ssh", "schluessel-und-agent", "ssh-config"]] },
+      { slug: "schluessel-und-agent", title: "Schlüssel und Agent", description: "Passphrase, privater Schlüssel und ssh-agent getrennt verstehen.", icon: iconMap.shield, chips: ["Agent", "Key"], prefixes: [["ssh", "schluessel-und-agent"]] },
     ] },
-    { slug: "system", title: "System", description: "Dienste, Journal, Cron und Rechte als getrennte SystemblÃ¶cke.", icon: iconMap.terminal, chips: ["systemd", "Cron"], prefixes: [["system"]], children: [
-      { slug: "dienste-und-systemd", title: "Dienste und systemd", description: "start, enable und Journalabfragen einzeln prÃ¼fen.", icon: iconMap.terminal, chips: ["systemctl", "journalctl"], prefixes: [["system", "dienste-und-systemd"]] },
+    { slug: "system", title: "System", description: "Dienste, Journal, Cron und Rechte als getrennte Systemblöcke.", icon: iconMap.terminal, chips: ["systemd", "Cron"], prefixes: [["system"]], children: [
+      { slug: "dienste-und-systemd", title: "Dienste und systemd", description: "start, enable und Journalabfragen einzeln prüfen.", icon: iconMap.terminal, chips: ["systemctl", "journalctl"], prefixes: [["system", "dienste-und-systemd"]] },
       { slug: "automatisierung-und-cron", title: "Automatisierung und Cron", description: "Cron-Umgebung, PATH und Arbeitsverzeichnis sichtbar machen.", icon: iconMap.terminal, chips: ["Cron", "PATH"], prefixes: [["system", "automatisierung-und-cron"]] },
-      { slug: "rechte-und-acl", title: "Rechte und ACL", description: "Dateirechte, Besitz und ACL-Schichten getrennt prÃ¼fen.", icon: iconMap.shield, chips: ["Rechte", "ACL"], prefixes: [["system", "rechte-und-acl"]] },
+      { slug: "rechte-und-acl", title: "Rechte und ACL", description: "Dateirechte, Besitz und ACL-Schichten getrennt prüfen.", icon: iconMap.shield, chips: ["Rechte", "ACL"], prefixes: [["system", "rechte-und-acl"]] },
     ] },
-    { slug: "praxis", title: "Praxis", description: "Backup, Restore und sichere VorabprÃ¼fung in konkreten ArbeitsablÃ¤ufen.", icon: iconMap.data, chips: ["Backup", "Restore"], prefixes: [["praxis"]], children: [
-      { slug: "backup-und-wiederherstellung", title: "Backup und Wiederherstellung", description: "Dry-run, Restore-Test und LÃ¶schrisiken bewusst prÃ¼fen.", icon: iconMap.data, chips: ["rsync", "Restore"], prefixes: [["praxis", "backup-und-wiederherstellung"]] },
+    { slug: "praxis", title: "Praxis", description: "Backup, Restore und sichere Vorabprüfung in konkreten Arbeitsabläufen.", icon: iconMap.data, chips: ["Backup", "Restore"], prefixes: [["praxis"]], children: [
+      { slug: "backup-und-wiederherstellung", title: "Backup und Wiederherstellung", description: "Dry-run, Restore-Test und Löschrisiken bewusst prüfen.", icon: iconMap.data, chips: ["rsync", "Restore"], prefixes: [["praxis", "backup-und-wiederherstellung"]] },
     ] },
     { slug: "shell-praxis", title: "Shell-Praxis", description: "Dateien werden sicher bearbeitet, bevor riskante Befehle laufen.", icon: iconMap.terminal, chips: ["Shell-Praxis", "Unterthemen"], prefixes: [["shell-praxis"]], children: [
-      { slug: "dateien-sicher-bearbeiten", title: "Dateien sicher bearbeiten", description: "Kopieren, Verschieben, LÃ¶schen und temporÃ¤re Dateien brauchen klare Vorsicht.", icon: iconMap.terminal, chips: ["PrÃ¼fen", "Abgrenzen"], prefixes: [["shell-praxis", "dateien-sicher-bearbeiten"]] },
+      { slug: "dateien-sicher-bearbeiten", title: "Dateien sicher bearbeiten", description: "Kopieren, Verschieben, Löschen und temporäre Dateien brauchen klare Vorsicht.", icon: iconMap.terminal, chips: ["Prüfen", "Abgrenzen"], prefixes: [["shell-praxis", "dateien-sicher-bearbeiten"]] },
     ] },
     { slug: "systembetrieb", title: "Systembetrieb", description: "Prozesse, Dienste und Logs werden nach Diagnoseziel getrennt.", icon: iconMap.terminal, chips: ["Systembetrieb", "Unterthemen"], prefixes: [["systembetrieb"]], children: [
-      { slug: "prozesse-dienste-logs", title: "Prozesse, Dienste und Logs", description: "Ein laufendes System wird in Zustand, Ursache und Aktion zerlegt.", icon: iconMap.terminal, chips: ["PrÃ¼fen", "Abgrenzen"], prefixes: [["systembetrieb", "prozesse-dienste-logs"]] },
+      { slug: "prozesse-dienste-logs", title: "Prozesse, Dienste und Logs", description: "Ein laufendes System wird in Zustand, Ursache und Aktion zerlegt.", icon: iconMap.terminal, chips: ["Prüfen", "Abgrenzen"], prefixes: [["systembetrieb", "prozesse-dienste-logs"]] },
     ] },
     { slug: "rechte-und-zugriff", title: "Rechte und Zugriff", description: "Besitz, Modus, umask und sudo werden getrennt nachvollziehbar.", icon: iconMap.terminal, chips: ["Rechte", "Unterthemen"], prefixes: [["rechte-und-zugriff"]], children: [
-      { slug: "besitz-rechte-sudo", title: "Besitz, Rechte und sudo", description: "Zugriff ist mehr als chmod: EigentÃ¼mer, Gruppe und Kontext zÃ¤hlen mit.", icon: iconMap.terminal, chips: ["PrÃ¼fen", "Abgrenzen"], prefixes: [["rechte-und-zugriff", "besitz-rechte-sudo"]] },
+      { slug: "besitz-rechte-sudo", title: "Besitz, Rechte und sudo", description: "Zugriff ist mehr als chmod: Eigentümer, Gruppe und Kontext zählen mit.", icon: iconMap.terminal, chips: ["Prüfen", "Abgrenzen"], prefixes: [["rechte-und-zugriff", "besitz-rechte-sudo"]] },
     ] },
-    { slug: "netzwerk-und-ssh", title: "Netzwerk und SSH", description: "Verbindungen, Ports und DateiÃ¼bertragung werden als eigene Diagnoseschritte gefÃ¼hrt.", icon: iconMap.terminal, chips: ["Netzwerk", "Unterthemen"], prefixes: [["netzwerk-und-ssh"]], children: [
-      { slug: "verbindungen-und-diagnose", title: "Verbindungen und Diagnose", description: "Nicht jedes Netzwerkproblem ist ein SSH-Problem.", icon: iconMap.terminal, chips: ["PrÃ¼fen", "Abgrenzen"], prefixes: [["netzwerk-und-ssh", "verbindungen-und-diagnose"]] },
+    { slug: "netzwerk-und-ssh", title: "Netzwerk und SSH", description: "Verbindungen, Ports und Dateiübertragung werden als eigene Diagnoseschritte geführt.", icon: iconMap.terminal, chips: ["Netzwerk", "Unterthemen"], prefixes: [["netzwerk-und-ssh"]], children: [
+      { slug: "verbindungen-und-diagnose", title: "Verbindungen und Diagnose", description: "Nicht jedes Netzwerkproblem ist ein SSH-Problem.", icon: iconMap.terminal, chips: ["Prüfen", "Abgrenzen"], prefixes: [["netzwerk-und-ssh", "verbindungen-und-diagnose"]] },
     ] },
     {
       slug: "shell-automation",
       title: "Shell-Automation",
-      description: "Robuste Skripte und TextstrÃ¶me in kleinen Arbeitsschritten.",
+      description: "Robuste Skripte und Textströme in kleinen Arbeitsschritten.",
       icon: iconMap.terminal,
       chips: ["v114", "Feinstruktur"],
       prefixes: [["shell-automation"]],
       children: [
-        { slug: "robuste-skripte", title: "Robuste Skripte", description: "Kleine PrÃ¼ffragen zu robuste skripte statt breitem Sammelkapitel.", icon: iconMap.terminal, chips: ["v114", "Feinstruktur"], prefixes: [["shell-automation", "robuste-skripte"]] },
-        { slug: "textstroeme-und-pipes", title: "Textstroeme und Pipes", description: "Kleine PrÃ¼ffragen zu textstroeme und pipes statt breitem Sammelkapitel.", icon: iconMap.terminal, chips: ["v114", "Feinstruktur"], prefixes: [["shell-automation", "textstroeme-und-pipes"]] }
+        { slug: "robuste-skripte", title: "Robuste Skripte", description: "Kleine Prüffragen zu robuste skripte statt breitem Sammelkapitel.", icon: iconMap.terminal, chips: ["v114", "Feinstruktur"], prefixes: [["shell-automation", "robuste-skripte"]] },
+        { slug: "textstroeme-und-pipes", title: "Textstroeme und Pipes", description: "Kleine Prüffragen zu textstroeme und pipes statt breitem Sammelkapitel.", icon: iconMap.terminal, chips: ["v114", "Feinstruktur"], prefixes: [["shell-automation", "textstroeme-und-pipes"]] }
       ],
     },
     {
@@ -439,8 +439,8 @@ const areaNodesBySubject: Record<PrimarySubjectSlug, AreaNodeDefinition[]> = {
       chips: ["v114", "Feinstruktur"],
       prefixes: [["systembetrieb"]],
       children: [
-        { slug: "systemd-und-dienste", title: "Systemd und Dienste", description: "Kleine PrÃ¼ffragen zu systemd und dienste statt breitem Sammelkapitel.", icon: iconMap.shield, chips: ["v114", "Feinstruktur"], prefixes: [["systembetrieb", "systemd-und-dienste"]] },
-        { slug: "logs-und-diagnose", title: "Logs und Diagnose", description: "Kleine PrÃ¼ffragen zu logs und diagnose statt breitem Sammelkapitel.", icon: iconMap.shield, chips: ["v114", "Feinstruktur"], prefixes: [["systembetrieb", "logs-und-diagnose"]] }
+        { slug: "systemd-und-dienste", title: "Systemd und Dienste", description: "Kleine Prüffragen zu systemd und dienste statt breitem Sammelkapitel.", icon: iconMap.shield, chips: ["v114", "Feinstruktur"], prefixes: [["systembetrieb", "systemd-und-dienste"]] },
+        { slug: "logs-und-diagnose", title: "Logs und Diagnose", description: "Kleine Prüffragen zu logs und diagnose statt breitem Sammelkapitel.", icon: iconMap.shield, chips: ["v114", "Feinstruktur"], prefixes: [["systembetrieb", "logs-und-diagnose"]] }
       ],
     },
     {
@@ -451,80 +451,80 @@ const areaNodesBySubject: Record<PrimarySubjectSlug, AreaNodeDefinition[]> = {
       chips: ["v114", "Feinstruktur"],
       prefixes: [["netzwerk-und-rechte"]],
       children: [
-        { slug: "ssh-und-schluessel", title: "Ssh und Schluessel", description: "Kleine PrÃ¼ffragen zu ssh und schluessel statt breitem Sammelkapitel.", icon: iconMap.network, chips: ["v114", "Feinstruktur"], prefixes: [["netzwerk-und-rechte", "ssh-und-schluessel"]] },
-        { slug: "firewall-und-dateirechte", title: "Firewall und Dateirechte", description: "Kleine PrÃ¼ffragen zu firewall und dateirechte statt breitem Sammelkapitel.", icon: iconMap.network, chips: ["v114", "Feinstruktur"], prefixes: [["netzwerk-und-rechte", "firewall-und-dateirechte"]] }
+        { slug: "ssh-und-schluessel", title: "Ssh und Schluessel", description: "Kleine Prüffragen zu ssh und schluessel statt breitem Sammelkapitel.", icon: iconMap.network, chips: ["v114", "Feinstruktur"], prefixes: [["netzwerk-und-rechte", "ssh-und-schluessel"]] },
+        { slug: "firewall-und-dateirechte", title: "Firewall und Dateirechte", description: "Kleine Prüffragen zu firewall und dateirechte statt breitem Sammelkapitel.", icon: iconMap.network, chips: ["v114", "Feinstruktur"], prefixes: [["netzwerk-und-rechte", "firewall-und-dateirechte"]] }
       ],
     }
   ],
   "web-development": [
-    { slug: "html-zugaenglichkeit-und-struktur", title: "HTML-ZugÃ¤nglichkeit und Struktur", description: "Semantik, Fokus und Statusmeldungen werden als eigene HTML-Entscheidungen gefÃ¼hrt.", icon: iconMap.form, chips: ["v116", "Feinstruktur"], prefixes: [["html-zugaenglichkeit-und-struktur"]], children: [
+    { slug: "html-zugaenglichkeit-und-struktur", title: "HTML-Zugänglichkeit und Struktur", description: "Semantik, Fokus und Statusmeldungen werden als eigene HTML-Entscheidungen geführt.", icon: iconMap.form, chips: ["v116", "Feinstruktur"], prefixes: [["html-zugaenglichkeit-und-struktur"]], children: [
       { slug: "semantik-und-bedienabsicht", title: "Semantik und Bedienabsicht", description: "Feines v116-Unterthema: Semantik und Bedienabsicht.", icon: iconMap.form, chips: ["v116", "Praxis"], prefixes: [["html-zugaenglichkeit-und-struktur", "semantik-und-bedienabsicht"]] },
       { slug: "formulare-und-fehlertexte", title: "Formulare und Fehlertexte", description: "Feines v116-Unterthema: Formulare und Fehlertexte.", icon: iconMap.form, chips: ["v116", "Praxis"], prefixes: [["html-zugaenglichkeit-und-struktur", "formulare-und-fehlertexte"]] },
       { slug: "fokus-und-tastatur", title: "Fokus und Tastatur", description: "Feines v116-Unterthema: Fokus und Tastatur.", icon: iconMap.form, chips: ["v116", "Praxis"], prefixes: [["html-zugaenglichkeit-und-struktur", "fokus-und-tastatur"]] }
     ] },
-    { slug: "css-layoutsysteme", title: "CSS-Layoutsysteme", description: "Grid, Flexbox, Container und AbstÃ¤nde werden als getrennte Layoutfragen behandelt.", icon: iconMap.css, chips: ["v116", "Feinstruktur"], prefixes: [["css-layoutsysteme"]], children: [
+    { slug: "css-layoutsysteme", title: "CSS-Layoutsysteme", description: "Grid, Flexbox, Container und Abstände werden als getrennte Layoutfragen behandelt.", icon: iconMap.css, chips: ["v116", "Feinstruktur"], prefixes: [["css-layoutsysteme"]], children: [
       { slug: "grid-und-layoutachsen", title: "Grid und Layoutachsen", description: "Feines v116-Unterthema: Grid und Layoutachsen.", icon: iconMap.css, chips: ["v116", "Praxis"], prefixes: [["css-layoutsysteme", "grid-und-layoutachsen"]] },
       { slug: "flexbox-und-verteilung", title: "Flexbox und Verteilung", description: "Feines v116-Unterthema: Flexbox und Verteilung.", icon: iconMap.css, chips: ["v116", "Praxis"], prefixes: [["css-layoutsysteme", "flexbox-und-verteilung"]] },
-      { slug: "responsive-abstaende", title: "Responsive AbstÃ¤nde", description: "Feines v116-Unterthema: Responsive AbstÃ¤nde.", icon: iconMap.css, chips: ["v116", "Praxis"], prefixes: [["css-layoutsysteme", "responsive-abstaende"]] }
+      { slug: "responsive-abstaende", title: "Responsive Abstände", description: "Feines v116-Unterthema: Responsive Abstände.", icon: iconMap.css, chips: ["v116", "Praxis"], prefixes: [["css-layoutsysteme", "responsive-abstaende"]] }
     ] },
-    { slug: "javascript-interaktion", title: "JavaScript-Interaktion", description: "DOM-Zustand, Events und asynchrone AblÃ¤ufe werden klein und testbar gehalten.", icon: iconMap.terminal, chips: ["v116", "Feinstruktur"], prefixes: [["javascript-interaktion"]], children: [
+    { slug: "javascript-interaktion", title: "JavaScript-Interaktion", description: "DOM-Zustand, Events und asynchrone Abläufe werden klein und testbar gehalten.", icon: iconMap.terminal, chips: ["v116", "Feinstruktur"], prefixes: [["javascript-interaktion"]], children: [
       { slug: "dom-zustand-und-rendern", title: "DOM-Zustand und Rendern", description: "Feines v116-Unterthema: DOM-Zustand und Rendern.", icon: iconMap.terminal, chips: ["v116", "Praxis"], prefixes: [["javascript-interaktion", "dom-zustand-und-rendern"]] },
       { slug: "events-und-delegation", title: "Events und Delegation", description: "Feines v116-Unterthema: Events und Delegation.", icon: iconMap.terminal, chips: ["v116", "Praxis"], prefixes: [["javascript-interaktion", "events-und-delegation"]] },
       { slug: "async-und-fehlerfluss", title: "Async und Fehlerfluss", description: "Feines v116-Unterthema: Async und Fehlerfluss.", icon: iconMap.terminal, chips: ["v116", "Praxis"], prefixes: [["javascript-interaktion", "async-und-fehlerfluss"]] }
     ] },
-    { slug: "browser-daten-und-http", title: "Browser-Daten und HTTP", description: "Anfragen, Statuscodes, Cache und Speicher werden als Browser-Verhalten erklÃ¤rbar.", icon: iconMap.network, chips: ["v116", "Feinstruktur"], prefixes: [["browser-daten-und-http"]], children: [
+    { slug: "browser-daten-und-http", title: "Browser-Daten und HTTP", description: "Anfragen, Statuscodes, Cache und Speicher werden als Browser-Verhalten erklärbar.", icon: iconMap.network, chips: ["v116", "Feinstruktur"], prefixes: [["browser-daten-und-http"]], children: [
       { slug: "fetch-und-statuscodes", title: "Fetch und Statuscodes", description: "Feines v116-Unterthema: Fetch und Statuscodes.", icon: iconMap.network, chips: ["v116", "Praxis"], prefixes: [["browser-daten-und-http", "fetch-und-statuscodes"]] },
-      { slug: "cache-und-aktualitaet", title: "Cache und AktualitÃ¤t", description: "Feines v116-Unterthema: Cache und AktualitÃ¤t.", icon: iconMap.network, chips: ["v116", "Praxis"], prefixes: [["browser-daten-und-http", "cache-und-aktualitaet"]] },
+      { slug: "cache-und-aktualitaet", title: "Cache und Aktualität", description: "Feines v116-Unterthema: Cache und Aktualität.", icon: iconMap.network, chips: ["v116", "Praxis"], prefixes: [["browser-daten-und-http", "cache-und-aktualitaet"]] },
       { slug: "localstorage-und-datenschutz", title: "localStorage und Datenschutz", description: "Feines v116-Unterthema: localStorage und Datenschutz.", icon: iconMap.network, chips: ["v116", "Praxis"], prefixes: [["browser-daten-und-http", "localstorage-und-datenschutz"]] }
     ] },
-    { slug: "frontend-qualitaet", title: "Frontend-QualitÃ¤t", description: "Tests, Reviews und Wartbarkeit werden als sichtbare Projektpraxis trainiert.", icon: iconMap.shield, chips: ["v116", "Feinstruktur"], prefixes: [["frontend-qualitaet"]], children: [
+    { slug: "frontend-qualitaet", title: "Frontend-Qualität", description: "Tests, Reviews und Wartbarkeit werden als sichtbare Projektpraxis trainiert.", icon: iconMap.shield, chips: ["v116", "Feinstruktur"], prefixes: [["frontend-qualitaet"]], children: [
       { slug: "komponententest-und-story", title: "Komponententest und Story", description: "Feines v116-Unterthema: Komponententest und Story.", icon: iconMap.shield, chips: ["v116", "Praxis"], prefixes: [["frontend-qualitaet", "komponententest-und-story"]] },
       { slug: "review-und-checkliste", title: "Review und Checkliste", description: "Feines v116-Unterthema: Review und Checkliste.", icon: iconMap.shield, chips: ["v116", "Praxis"], prefixes: [["frontend-qualitaet", "review-und-checkliste"]] },
       { slug: "performance-und-messung", title: "Performance und Messung", description: "Feines v116-Unterthema: Performance und Messung.", icon: iconMap.shield, chips: ["v116", "Praxis"], prefixes: [["frontend-qualitaet", "performance-und-messung"]] }
     ] },
-    { slug: "ux-feedback-und-fehlerzustaende", title: "UX-Feedback und FehlerzustÃ¤nde", description: "NutzerfÃ¼hrung wird Ã¼ber leere ZustÃ¤nde, Fehler, Erfolg und Wartezeit gestaltet.", icon: iconMap.form, chips: ["v116", "Feinstruktur"], prefixes: [["ux-feedback-und-fehlerzustaende"]], children: [
-      { slug: "empty-state-und-naechster-schritt", title: "Empty State und nÃ¤chster Schritt", description: "Feines v116-Unterthema: Empty State und nÃ¤chster Schritt.", icon: iconMap.form, chips: ["v116", "Praxis"], prefixes: [["ux-feedback-und-fehlerzustaende", "empty-state-und-naechster-schritt"]] },
+    { slug: "ux-feedback-und-fehlerzustaende", title: "UX-Feedback und Fehlerzustände", description: "Nutzerführung wird über leere Zustände, Fehler, Erfolg und Wartezeit gestaltet.", icon: iconMap.form, chips: ["v116", "Feinstruktur"], prefixes: [["ux-feedback-und-fehlerzustaende"]], children: [
+      { slug: "empty-state-und-naechster-schritt", title: "Empty State und nächster Schritt", description: "Feines v116-Unterthema: Empty State und nächster Schritt.", icon: iconMap.form, chips: ["v116", "Praxis"], prefixes: [["ux-feedback-und-fehlerzustaende", "empty-state-und-naechster-schritt"]] },
       { slug: "toast-dialog-und-inline", title: "Toast, Dialog und Inline", description: "Feines v116-Unterthema: Toast, Dialog und Inline.", icon: iconMap.form, chips: ["v116", "Praxis"], prefixes: [["ux-feedback-und-fehlerzustaende", "toast-dialog-und-inline"]] },
       { slug: "ladezustand-und-skeleton", title: "Ladezustand und Skeleton", description: "Feines v116-Unterthema: Ladezustand und Skeleton.", icon: iconMap.form, chips: ["v116", "Praxis"], prefixes: [["ux-feedback-und-fehlerzustaende", "ladezustand-und-skeleton"]] }
     ] },
-    { slug: "html", title: "HTML", description: "Semantik, Formulare, Navigation, Tabellen und Statusmeldungen als getrennte HTML-BlÃ¶cke.", icon: iconMap.form, chips: ["HTML", "Semantik"], prefixes: [["html"]], children: [
+    { slug: "html", title: "HTML", description: "Semantik, Formulare, Navigation, Tabellen und Statusmeldungen als getrennte HTML-Blöcke.", icon: iconMap.form, chips: ["HTML", "Semantik"], prefixes: [["html"]], children: [
       { slug: "semantik-und-interaktion", title: "Semantik und Interaktion", description: "Button, Link und Nutzerabsicht semantisch unterscheiden.", icon: iconMap.form, chips: ["Button", "Link"], prefixes: [["html", "semantik-und-interaktion"]] },
       { slug: "accessibility-und-status", title: "Accessibility und Status", description: "aria-live, Statusmeldungen und Dringlichkeit trennen.", icon: iconMap.form, chips: ["aria-live", "Status"], prefixes: [["html", "accessibility-und-status"]] },
       { slug: "formulare-und-tabellen", title: "Formulare und Tabellen", description: "Formulare, Validierung und Tabellen als Grundlagenblock.", icon: iconMap.form, chips: ["Formulare", "Tabellen"], prefixes: [["html", "formulare-und-eingaben"], ["html", "formular-validierung"], ["html", "tabellen-barrierearm"]] },
-      { slug: "formularfeedback-und-zustaende", title: "Formularfeedback und ZustÃ¤nde", description: "Fehler, Erfolg, Wartezustand und FokusfÃ¼hrung getrennt prÃ¼fen.", icon: iconMap.form, chips: ["Fehler", "Status"], prefixes: [["html", "formularfeedback-und-zustaende"]] },
-      { slug: "bilder-navigation-und-links", title: "Bilder, Navigation und Links", description: "Bilder, MenÃ¼s und Linktexte als Orientierungsblock.", icon: iconMap.image, chips: ["Bilder", "Links"], prefixes: [["html", "bilder-und-alt-texte"], ["html", "navigation-und-menues"], ["html", "linktexte-und-links"]] },
+      { slug: "formularfeedback-und-zustaende", title: "Formularfeedback und Zustände", description: "Fehler, Erfolg, Wartezustand und Fokusführung getrennt prüfen.", icon: iconMap.form, chips: ["Fehler", "Status"], prefixes: [["html", "formularfeedback-und-zustaende"]] },
+      { slug: "bilder-navigation-und-links", title: "Bilder, Navigation und Links", description: "Bilder, Menüs und Linktexte als Orientierungsblock.", icon: iconMap.image, chips: ["Bilder", "Links"], prefixes: [["html", "bilder-und-alt-texte"], ["html", "navigation-und-menues"], ["html", "linktexte-und-links"]] },
     ] },
     { slug: "css", title: "CSS", description: "Layout, Kaskade, Tokens und Komponentenvarianten werden kleinteiliger auffindbar.", icon: iconMap.css, chips: ["CSS", "Layout"], prefixes: [["css"]], children: [
-      { slug: "responsive-design", title: "Responsive Design", description: "Fluid Typography, Breakpoints und Layoutgrenzen bewusst wÃ¤hlen.", icon: iconMap.css, chips: ["clamp", "responsive"], prefixes: [["css", "responsive-design"]] },
-      { slug: "grid-und-layout", title: "Grid und Layout", description: "auto-fit, auto-fill und Rasterverhalten getrennt prÃ¼fen.", icon: iconMap.css, chips: ["Grid", "Tracks"], prefixes: [["css", "grid-und-layout"]] },
+      { slug: "responsive-design", title: "Responsive Design", description: "Fluid Typography, Breakpoints und Layoutgrenzen bewusst wählen.", icon: iconMap.css, chips: ["clamp", "responsive"], prefixes: [["css", "responsive-design"]] },
+      { slug: "grid-und-layout", title: "Grid und Layout", description: "auto-fit, auto-fill und Rasterverhalten getrennt prüfen.", icon: iconMap.css, chips: ["Grid", "Tracks"], prefixes: [["css", "grid-und-layout"]] },
       { slug: "css-und-layout", title: "CSS und Layout", description: "Boxmodell, Flexbox, Grid und responsive Layouts.", icon: iconMap.css, chips: ["Layout", "Responsive"], prefixes: [["css", "responsive-layouts"], ["css", "box-modell"], ["css", "flexbox"], ["css", "selektoren"]] },
       { slug: "design-systeme", title: "Design-Systeme", description: "Tokens, Varianten und Komponentenregeln sauber trennen.", icon: iconMap.css, chips: ["Tokens", "Varianten"], prefixes: [["css", "design-systeme"], ["css", "css-spezifitaet-und-kaskade"]] },
     ] },
     { slug: "javascript", title: "JavaScript", description: "DOM, Browser-APIs, Async, Speicher und Fehlerbehandlung getrennt lernen.", icon: iconMap.terminal, chips: ["JS", "Browser"], prefixes: [["javascript"]], children: [
-      { slug: "dom-events-und-zustand", title: "DOM-Events und Zustand", description: "Event Delegation, ZielprÃ¼fung und dynamische Listen.", icon: iconMap.terminal, chips: ["Events", "DOM"], prefixes: [["javascript", "dom-events-und-zustand"]] },
+      { slug: "dom-events-und-zustand", title: "DOM-Events und Zustand", description: "Event Delegation, Zielprüfung und dynamische Listen.", icon: iconMap.terminal, chips: ["Events", "DOM"], prefixes: [["javascript", "dom-events-und-zustand"]] },
       { slug: "async-und-fehlerbehandlung", title: "Async und Fehlerbehandlung", description: "Ladezustand, Fehlerpfad und Wiederholbarkeit sichtbar machen.", icon: iconMap.terminal, chips: ["async", "Fehler"], prefixes: [["javascript", "async-und-fehlerbehandlung"]] },
     ] },
-    { slug: "ux", title: "UX und NutzerfÃ¼hrung", description: "Orientierung, RÃ¼ckwege und ZustÃ¤nde aus Nutzersicht prÃ¼fen.", icon: iconMap.network, chips: ["UX", "Navigation"], prefixes: [["ux"]], children: [
-      { slug: "navigation-und-orientierung", title: "Navigation und Orientierung", description: "Aktiver Zustand, Breadcrumb und RÃ¼ckweg zusammen planen.", icon: iconMap.network, chips: ["Navigation", "Breadcrumb"], prefixes: [["ux", "navigation-und-orientierung"]] },
+    { slug: "ux", title: "UX und Nutzerführung", description: "Orientierung, Rückwege und Zustände aus Nutzersicht prüfen.", icon: iconMap.network, chips: ["UX", "Navigation"], prefixes: [["ux"]], children: [
+      { slug: "navigation-und-orientierung", title: "Navigation und Orientierung", description: "Aktiver Zustand, Breadcrumb und Rückweg zusammen planen.", icon: iconMap.network, chips: ["Navigation", "Breadcrumb"], prefixes: [["ux", "navigation-und-orientierung"]] },
     ] },
-    { slug: "projektpraxis", title: "Projektpraxis", description: "Tests, Review, Betrieb und Wartung als eigene PraxisblÃ¶cke.", icon: iconMap.shield, chips: ["Review", "Tests"], prefixes: [["projektpraxis"]], children: [
-      { slug: "formulare-und-validierung", title: "Formulare und Validierung", description: "Client- und ServerprÃ¼fung als getrennte Schichten.", icon: iconMap.form, chips: ["Validierung", "Server"], prefixes: [["projektpraxis", "formulare-und-validierung"]] },
+    { slug: "projektpraxis", title: "Projektpraxis", description: "Tests, Review, Betrieb und Wartung als eigene Praxisblöcke.", icon: iconMap.shield, chips: ["Review", "Tests"], prefixes: [["projektpraxis"]], children: [
+      { slug: "formulare-und-validierung", title: "Formulare und Validierung", description: "Client- und Serverprüfung als getrennte Schichten.", icon: iconMap.form, chips: ["Validierung", "Server"], prefixes: [["projektpraxis", "formulare-und-validierung"]] },
       { slug: "performance-und-cache", title: "Performance und Cache", description: "Statische Assets, Versionierung und Cache-Regeln planen.", icon: iconMap.network, chips: ["Cache", "Assets"], prefixes: [["projektpraxis", "performance-und-cache"]] },
       { slug: "content-security-policy", title: "Content Security Policy", description: "Skriptquellen, Nonces und Inline-Risiken begrenzen.", icon: iconMap.shield, chips: ["CSP", "Nonce"], prefixes: [["projektpraxis", "sicherheit-und-datenschutz", "content-security-policy"]] },
       { slug: "tests-und-review", title: "Tests und Review", description: "Regressionen, Gegenproben und Review-Fragen klein halten.", icon: iconMap.shield, chips: ["Tests", "Review"], prefixes: [["projektpraxis", "tests-und-review"]] },
       { slug: "betrieb-und-release", title: "Betrieb und Release", description: "Build, Deploy, Monitoring und Release-Notizen.", icon: iconMap.network, chips: ["Release", "Build"], prefixes: [["projektpraxis", "betrieb-und-release"]] },
     ] },
-    { slug: "html-a11y", title: "HTML und Accessibility", description: "Semantik, Statusmeldungen und FokusfÃ¼hrung werden nicht vermischt.", icon: iconMap.css, chips: ["HTML", "Unterthemen"], prefixes: [["html-a11y"]], children: [
-      { slug: "semantik-status-fokus", title: "Semantik, Status und Fokus", description: "ZugÃ¤ngliche OberflÃ¤chen brauchen mehrere kleine Entscheidungen.", icon: iconMap.css, chips: ["PrÃ¼fen", "Abgrenzen"], prefixes: [["html-a11y", "semantik-status-fokus"]] },
+    { slug: "html-a11y", title: "HTML und Accessibility", description: "Semantik, Statusmeldungen und Fokusführung werden nicht vermischt.", icon: iconMap.css, chips: ["HTML", "Unterthemen"], prefixes: [["html-a11y"]], children: [
+      { slug: "semantik-status-fokus", title: "Semantik, Status und Fokus", description: "Zugängliche Oberflächen brauchen mehrere kleine Entscheidungen.", icon: iconMap.css, chips: ["Prüfen", "Abgrenzen"], prefixes: [["html-a11y", "semantik-status-fokus"]] },
     ] },
     { slug: "css-systeme", title: "CSS-Systeme", description: "Tokens, Komponenten und Layoutgrenzen werden als Systementscheidungen sichtbar.", icon: iconMap.css, chips: ["CSS-Systeme", "Unterthemen"], prefixes: [["css-systeme"]], children: [
-      { slug: "layout-tokens-komponenten", title: "Layout, Tokens und Komponenten", description: "Wiederverwendbares CSS entsteht durch klare AbhÃ¤ngigkeiten.", icon: iconMap.css, chips: ["PrÃ¼fen", "Abgrenzen"], prefixes: [["css-systeme", "layout-tokens-komponenten"]] },
+      { slug: "layout-tokens-komponenten", title: "Layout, Tokens und Komponenten", description: "Wiederverwendbares CSS entsteht durch klare Abhängigkeiten.", icon: iconMap.css, chips: ["Prüfen", "Abgrenzen"], prefixes: [["css-systeme", "layout-tokens-komponenten"]] },
     ] },
-    { slug: "javascript-browser", title: "JavaScript im Browser", description: "Events, Zustand und asynchrone AblÃ¤ufe werden kleinteilig gefÃ¼hrt.", icon: iconMap.css, chips: ["JavaScript", "Unterthemen"], prefixes: [["javascript-browser"]], children: [
-      { slug: "events-state-async", title: "Events, State und Async", description: "Interaktion wird Ã¼ber AuslÃ¶ser, Zustand und Nebenwirkung verstÃ¤ndlich.", icon: iconMap.css, chips: ["PrÃ¼fen", "Abgrenzen"], prefixes: [["javascript-browser", "events-state-async"]] },
+    { slug: "javascript-browser", title: "JavaScript im Browser", description: "Events, Zustand und asynchrone Abläufe werden kleinteilig geführt.", icon: iconMap.css, chips: ["JavaScript", "Unterthemen"], prefixes: [["javascript-browser"]], children: [
+      { slug: "events-state-async", title: "Events, State und Async", description: "Interaktion wird über Auslöser, Zustand und Nebenwirkung verständlich.", icon: iconMap.css, chips: ["Prüfen", "Abgrenzen"], prefixes: [["javascript-browser", "events-state-async"]] },
     ] },
-    { slug: "frontend-betrieb", title: "Frontend-Betrieb", description: "Performance, Build-Artefakte und Sicherheitsheader werden getrennt geprÃ¼ft.", icon: iconMap.css, chips: ["Frontend-Betrieb", "Unterthemen"], prefixes: [["frontend-betrieb"]], children: [
-      { slug: "build-performance-security", title: "Build, Performance und Security", description: "Nach dem Code kommt die Frage, wie die Seite ausgeliefert wird.", icon: iconMap.css, chips: ["PrÃ¼fen", "Abgrenzen"], prefixes: [["frontend-betrieb", "build-performance-security"]] },
+    { slug: "frontend-betrieb", title: "Frontend-Betrieb", description: "Performance, Build-Artefakte und Sicherheitsheader werden getrennt geprüft.", icon: iconMap.css, chips: ["Frontend-Betrieb", "Unterthemen"], prefixes: [["frontend-betrieb"]], children: [
+      { slug: "build-performance-security", title: "Build, Performance und Security", description: "Nach dem Code kommt die Frage, wie die Seite ausgeliefert wird.", icon: iconMap.css, chips: ["Prüfen", "Abgrenzen"], prefixes: [["frontend-betrieb", "build-performance-security"]] },
     ] },
     {
       slug: "frontend-struktur",
@@ -534,20 +534,20 @@ const areaNodesBySubject: Record<PrimarySubjectSlug, AreaNodeDefinition[]> = {
       chips: ["v114", "Feinstruktur"],
       prefixes: [["frontend-struktur"]],
       children: [
-        { slug: "html-semantik-praxis", title: "Html Semantik Praxis", description: "Kleine PrÃ¼ffragen zu html semantik praxis statt breitem Sammelkapitel.", icon: iconMap.form, chips: ["v114", "Feinstruktur"], prefixes: [["frontend-struktur", "html-semantik-praxis"]] },
-        { slug: "css-layout-systeme", title: "Css Layout Systeme", description: "Kleine PrÃ¼ffragen zu css layout systeme statt breitem Sammelkapitel.", icon: iconMap.form, chips: ["v114", "Feinstruktur"], prefixes: [["frontend-struktur", "css-layout-systeme"]] }
+        { slug: "html-semantik-praxis", title: "Html Semantik Praxis", description: "Kleine Prüffragen zu html semantik praxis statt breitem Sammelkapitel.", icon: iconMap.form, chips: ["v114", "Feinstruktur"], prefixes: [["frontend-struktur", "html-semantik-praxis"]] },
+        { slug: "css-layout-systeme", title: "Css Layout Systeme", description: "Kleine Prüffragen zu css layout systeme statt breitem Sammelkapitel.", icon: iconMap.form, chips: ["v114", "Feinstruktur"], prefixes: [["frontend-struktur", "css-layout-systeme"]] }
       ],
     },
     {
       slug: "browser-javascript",
       title: "Browser-JavaScript",
-      description: "DOM, Events, Zustand und Fetch als prÃ¤zise UI-Fragen.",
+      description: "DOM, Events, Zustand und Fetch als präzise UI-Fragen.",
       icon: iconMap.terminal,
       chips: ["v114", "Feinstruktur"],
       prefixes: [["browser-javascript"]],
       children: [
-        { slug: "dom-zustand-events", title: "Dom Zustand Events", description: "Kleine PrÃ¼ffragen zu dom zustand events statt breitem Sammelkapitel.", icon: iconMap.terminal, chips: ["v114", "Feinstruktur"], prefixes: [["browser-javascript", "dom-zustand-events"]] },
-        { slug: "fetch-und-fehler", title: "Fetch und Fehler", description: "Kleine PrÃ¼ffragen zu fetch und fehler statt breitem Sammelkapitel.", icon: iconMap.terminal, chips: ["v114", "Feinstruktur"], prefixes: [["browser-javascript", "fetch-und-fehler"]] }
+        { slug: "dom-zustand-events", title: "Dom Zustand Events", description: "Kleine Prüffragen zu dom zustand events statt breitem Sammelkapitel.", icon: iconMap.terminal, chips: ["v114", "Feinstruktur"], prefixes: [["browser-javascript", "dom-zustand-events"]] },
+        { slug: "fetch-und-fehler", title: "Fetch und Fehler", description: "Kleine Prüffragen zu fetch und fehler statt breitem Sammelkapitel.", icon: iconMap.terminal, chips: ["v114", "Feinstruktur"], prefixes: [["browser-javascript", "fetch-und-fehler"]] }
       ],
     },
     {
@@ -558,8 +558,8 @@ const areaNodesBySubject: Record<PrimarySubjectSlug, AreaNodeDefinition[]> = {
       chips: ["v114", "Feinstruktur"],
       prefixes: [["web-betrieb"]],
       children: [
-        { slug: "performance-a11y", title: "Performance A11Y", description: "Kleine PrÃ¼ffragen zu performance a11y statt breitem Sammelkapitel.", icon: iconMap.shield, chips: ["v114", "Feinstruktur"], prefixes: [["web-betrieb", "performance-a11y"]] },
-        { slug: "release-monitoring", title: "Release Monitoring", description: "Kleine PrÃ¼ffragen zu release monitoring statt breitem Sammelkapitel.", icon: iconMap.shield, chips: ["v114", "Feinstruktur"], prefixes: [["web-betrieb", "release-monitoring"]] }
+        { slug: "performance-a11y", title: "Performance A11Y", description: "Kleine Prüffragen zu performance a11y statt breitem Sammelkapitel.", icon: iconMap.shield, chips: ["v114", "Feinstruktur"], prefixes: [["web-betrieb", "performance-a11y"]] },
+        { slug: "release-monitoring", title: "Release Monitoring", description: "Kleine Prüffragen zu release monitoring statt breitem Sammelkapitel.", icon: iconMap.shield, chips: ["v114", "Feinstruktur"], prefixes: [["web-betrieb", "release-monitoring"]] }
       ],
     }
   ],
@@ -727,21 +727,21 @@ export const hasAreaChildren = (subjectSlug: string, path: string[], entries: To
   getVisibleAreaCards(subjectSlug, path, entries).length > 0;
 
 
-// v115: zusÃ¤tzliche Feinstruktur-Knoten fÃ¼r fachbereichsÃ¼bergreifende GroÃŸlÃ¤ufe.
+// v115: zusätzliche Feinstruktur-Knoten für fachbereichsübergreifende Großläufe.
 areaNodesBySubject["mathematik"].push(
-  { slug: "zahlenstrategien-v115", title: "Zahlenstrategien", description: "Sicher rechnen, Ã¼berschlagen und Einheiten sauber trennen.", icon: iconMap.numbers, chips: ["v115", "Feinstruktur", "Praxis"], searchAliases: ["zahlenstrategien", "zahlenstrategien v115"], prefixes: [["zahlenstrategien-v115"]], children: [
-      { slug: "brueche-und-anteile", title: "BrÃ¼che und Anteile", description: "Kleine Lerneinheiten zu BrÃ¼che und Anteile mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.numbers, chips: ["BrÃ¼che", "Praxis", "Gegenprobe"], searchAliases: ["brÃ¼che und anteile", "brueche und anteile"], prefixes: [["zahlenstrategien-v115", "brueche-und-anteile"]] },
-      { slug: "ueberschlag-und-plausibilitaet", title: "Ãœberschlag und PlausibilitÃ¤t", description: "Kleine Lerneinheiten zu Ãœberschlag und PlausibilitÃ¤t mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.numbers, chips: ["Ãœberschlag", "Praxis", "Gegenprobe"], searchAliases: ["Ã¼berschlag und plausibilitÃ¤t", "ueberschlag und plausibilitaet"], prefixes: [["zahlenstrategien-v115", "ueberschlag-und-plausibilitaet"]] }
+  { slug: "zahlenstrategien-v115", title: "Zahlenstrategien", description: "Sicher rechnen, überschlagen und Einheiten sauber trennen.", icon: iconMap.numbers, chips: ["v115", "Feinstruktur", "Praxis"], searchAliases: ["zahlenstrategien", "zahlenstrategien v115"], prefixes: [["zahlenstrategien-v115"]], children: [
+      { slug: "brueche-und-anteile", title: "Brüche und Anteile", description: "Kleine Lerneinheiten zu Brüche und Anteile mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.numbers, chips: ["Brüche", "Praxis", "Gegenprobe"], searchAliases: ["brüche und anteile", "brueche und anteile"], prefixes: [["zahlenstrategien-v115", "brueche-und-anteile"]] },
+      { slug: "ueberschlag-und-plausibilitaet", title: "Überschlag und Plausibilität", description: "Kleine Lerneinheiten zu Überschlag und Plausibilität mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.numbers, chips: ["Überschlag", "Praxis", "Gegenprobe"], searchAliases: ["überschlag und plausibilität", "ueberschlag und plausibilitaet"], prefixes: [["zahlenstrategien-v115", "ueberschlag-und-plausibilitaet"]] }
     ] },
-  { slug: "funktionsdenken-v115", title: "Funktionsdenken", description: "Funktionen als Zuordnung, Ã„nderung und Modell lesen.", icon: iconMap.graph, chips: ["v115", "Feinstruktur", "Praxis"], searchAliases: ["funktionsdenken", "funktionsdenken v115"], prefixes: [["funktionsdenken-v115"]], children: [
+  { slug: "funktionsdenken-v115", title: "Funktionsdenken", description: "Funktionen als Zuordnung, Änderung und Modell lesen.", icon: iconMap.graph, chips: ["v115", "Feinstruktur", "Praxis"], searchAliases: ["funktionsdenken", "funktionsdenken v115"], prefixes: [["funktionsdenken-v115"]], children: [
       { slug: "lineare-modelle", title: "Lineare Modelle", description: "Kleine Lerneinheiten zu Lineare Modelle mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.graph, chips: ["Lineare", "Praxis", "Gegenprobe"], searchAliases: ["lineare modelle", "lineare modelle"], prefixes: [["funktionsdenken-v115", "lineare-modelle"]] },
-      { slug: "nichtlineare-verlaeufe", title: "Nichtlineare VerlÃ¤ufe", description: "Kleine Lerneinheiten zu Nichtlineare VerlÃ¤ufe mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.graph, chips: ["Nichtlineare", "Praxis", "Gegenprobe"], searchAliases: ["nichtlineare verlÃ¤ufe", "nichtlineare verlaeufe"], prefixes: [["funktionsdenken-v115", "nichtlineare-verlaeufe"]] }
+      { slug: "nichtlineare-verlaeufe", title: "Nichtlineare Verläufe", description: "Kleine Lerneinheiten zu Nichtlineare Verläufe mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.graph, chips: ["Nichtlineare", "Praxis", "Gegenprobe"], searchAliases: ["nichtlineare verläufe", "nichtlineare verlaeufe"], prefixes: [["funktionsdenken-v115", "nichtlineare-verlaeufe"]] }
     ] },
-  { slug: "geometrie-begruenden-v115", title: "Geometrisch begrÃ¼nden", description: "Formen, Lagebeziehungen und Einheiten sauber unterscheiden.", icon: iconMap.ruler, chips: ["v115", "Feinstruktur", "Praxis"], searchAliases: ["geometrisch begrÃ¼nden", "geometrie begruenden v115"], prefixes: [["geometrie-begruenden-v115"]], children: [
-      { slug: "flaechen-und-koerper", title: "FlÃ¤chen und KÃ¶rper", description: "Kleine Lerneinheiten zu FlÃ¤chen und KÃ¶rper mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.ruler, chips: ["FlÃ¤chen", "Praxis", "Gegenprobe"], searchAliases: ["flÃ¤chen und kÃ¶rper", "flaechen und koerper"], prefixes: [["geometrie-begruenden-v115", "flaechen-und-koerper"]] },
+  { slug: "geometrie-begruenden-v115", title: "Geometrisch begründen", description: "Formen, Lagebeziehungen und Einheiten sauber unterscheiden.", icon: iconMap.ruler, chips: ["v115", "Feinstruktur", "Praxis"], searchAliases: ["geometrisch begründen", "geometrie begruenden v115"], prefixes: [["geometrie-begruenden-v115"]], children: [
+      { slug: "flaechen-und-koerper", title: "Flächen und Körper", description: "Kleine Lerneinheiten zu Flächen und Körper mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.ruler, chips: ["Flächen", "Praxis", "Gegenprobe"], searchAliases: ["flächen und körper", "flaechen und koerper"], prefixes: [["geometrie-begruenden-v115", "flaechen-und-koerper"]] },
       { slug: "lage-und-winkel", title: "Lage und Winkel", description: "Kleine Lerneinheiten zu Lage und Winkel mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.ruler, chips: ["Lage", "Praxis", "Gegenprobe"], searchAliases: ["lage und winkel", "lage und winkel"], prefixes: [["geometrie-begruenden-v115", "lage-und-winkel"]] }
     ] },
-  { slug: "daten-und-zufall-v115", title: "Daten und Zufall", description: "Daten lesen, Diagramme prÃ¼fen und Zufallsaussagen begrÃ¼nden.", icon: iconMap.chart, chips: ["v115", "Feinstruktur", "Praxis"], searchAliases: ["daten und zufall", "daten und zufall v115"], prefixes: [["daten-und-zufall-v115"]], children: [
+  { slug: "daten-und-zufall-v115", title: "Daten und Zufall", description: "Daten lesen, Diagramme prüfen und Zufallsaussagen begründen.", icon: iconMap.chart, chips: ["v115", "Feinstruktur", "Praxis"], searchAliases: ["daten und zufall", "daten und zufall v115"], prefixes: [["daten-und-zufall-v115"]], children: [
       { slug: "diagramme-kritisch-lesen", title: "Diagramme kritisch lesen", description: "Kleine Lerneinheiten zu Diagramme kritisch lesen mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.chart, chips: ["Diagramme", "Praxis", "Gegenprobe"], searchAliases: ["diagramme kritisch lesen", "diagramme kritisch lesen"], prefixes: [["daten-und-zufall-v115", "diagramme-kritisch-lesen"]] },
       { slug: "wahrscheinlichkeit-einordnen", title: "Wahrscheinlichkeit einordnen", description: "Kleine Lerneinheiten zu Wahrscheinlichkeit einordnen mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.chart, chips: ["Wahrscheinlichkeit", "Praxis", "Gegenprobe"], searchAliases: ["wahrscheinlichkeit einordnen", "wahrscheinlichkeit einordnen"], prefixes: [["daten-und-zufall-v115", "wahrscheinlichkeit-einordnen"]] }
     ] }
@@ -749,23 +749,23 @@ areaNodesBySubject["mathematik"].push(
 areaNodesBySubject["informatik"].push(
   { slug: "programmierpraxis-v115", title: "Programmierpraxis", description: "Code lesen, testen und kleine Fehler gezielt eingrenzen.", icon: iconMap.terminal, chips: ["v115", "Feinstruktur", "Praxis"], searchAliases: ["programmierpraxis", "programmierpraxis v115"], prefixes: [["programmierpraxis-v115"]], children: [
       { slug: "debugging-klein", title: "Debugging klein schneiden", description: "Kleine Lerneinheiten zu Debugging klein schneiden mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.terminal, chips: ["Debugging", "Praxis", "Gegenprobe"], searchAliases: ["debugging klein schneiden", "debugging klein"], prefixes: [["programmierpraxis-v115", "debugging-klein"]] },
-      { slug: "variablen-und-zustaende", title: "Variablen und ZustÃ¤nde", description: "Kleine Lerneinheiten zu Variablen und ZustÃ¤nde mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.terminal, chips: ["Variablen", "Praxis", "Gegenprobe"], searchAliases: ["variablen und zustÃ¤nde", "variablen und zustaende"], prefixes: [["programmierpraxis-v115", "variablen-und-zustaende"]] }
+      { slug: "variablen-und-zustaende", title: "Variablen und Zustände", description: "Kleine Lerneinheiten zu Variablen und Zustände mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.terminal, chips: ["Variablen", "Praxis", "Gegenprobe"], searchAliases: ["variablen und zustände", "variablen und zustaende"], prefixes: [["programmierpraxis-v115", "variablen-und-zustaende"]] }
     ] },
-  { slug: "algorithmen-fein-v115", title: "Algorithmische Feinstruktur", description: "AblÃ¤ufe begrÃ¼nden statt nur Code ausfÃ¼hren.", icon: iconMap.numbers, chips: ["v115", "Feinstruktur", "Praxis"], searchAliases: ["algorithmische feinstruktur", "algorithmen fein v115"], prefixes: [["algorithmen-fein-v115"]], children: [
+  { slug: "algorithmen-fein-v115", title: "Algorithmische Feinstruktur", description: "Abläufe begründen statt nur Code ausführen.", icon: iconMap.numbers, chips: ["v115", "Feinstruktur", "Praxis"], searchAliases: ["algorithmische feinstruktur", "algorithmen fein v115"], prefixes: [["algorithmen-fein-v115"]], children: [
       { slug: "suchen-und-sortieren", title: "Suchen und Sortieren", description: "Kleine Lerneinheiten zu Suchen und Sortieren mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.numbers, chips: ["Suchen", "Praxis", "Gegenprobe"], searchAliases: ["suchen und sortieren", "suchen und sortieren"], prefixes: [["algorithmen-fein-v115", "suchen-und-sortieren"]] },
-      { slug: "komplexitaet-anschaulich", title: "KomplexitÃ¤t anschaulich", description: "Kleine Lerneinheiten zu KomplexitÃ¤t anschaulich mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.numbers, chips: ["KomplexitÃ¤t", "Praxis", "Gegenprobe"], searchAliases: ["komplexitÃ¤t anschaulich", "komplexitaet anschaulich"], prefixes: [["algorithmen-fein-v115", "komplexitaet-anschaulich"]] }
+      { slug: "komplexitaet-anschaulich", title: "Komplexität anschaulich", description: "Kleine Lerneinheiten zu Komplexität anschaulich mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.numbers, chips: ["Komplexität", "Praxis", "Gegenprobe"], searchAliases: ["komplexität anschaulich", "komplexitaet anschaulich"], prefixes: [["algorithmen-fein-v115", "komplexitaet-anschaulich"]] }
     ] },
   { slug: "datenmodellierung-v115", title: "Datenmodellierung", description: "Daten passend strukturieren und Beziehungen sichtbar machen.", icon: iconMap.data, chips: ["v115", "Feinstruktur", "Praxis"], searchAliases: ["datenmodellierung", "datenmodellierung v115"], prefixes: [["datenmodellierung-v115"]], children: [
       { slug: "listen-mengen-tabellen", title: "Listen, Mengen und Tabellen", description: "Kleine Lerneinheiten zu Listen, Mengen und Tabellen mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.data, chips: ["Listen,", "Praxis", "Gegenprobe"], searchAliases: ["listen, mengen und tabellen", "listen mengen tabellen"], prefixes: [["datenmodellierung-v115", "listen-mengen-tabellen"]] },
       { slug: "schnittstellen-und-formate", title: "Schnittstellen und Formate", description: "Kleine Lerneinheiten zu Schnittstellen und Formate mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.data, chips: ["Schnittstellen", "Praxis", "Gegenprobe"], searchAliases: ["schnittstellen und formate", "schnittstellen und formate"], prefixes: [["datenmodellierung-v115", "schnittstellen-und-formate"]] }
     ] },
-  { slug: "softwarequalitaet-v115", title: "SoftwarequalitÃ¤t", description: "Lesbarkeit, Tests und Schnittstellen als eigene Themen behandeln.", icon: iconMap.shield, chips: ["v115", "Feinstruktur", "Praxis"], searchAliases: ["softwarequalitÃ¤t", "softwarequalitaet v115"], prefixes: [["softwarequalitaet-v115"]], children: [
-      { slug: "tests-und-vertraege", title: "Tests und VertrÃ¤ge", description: "Kleine Lerneinheiten zu Tests und VertrÃ¤ge mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.shield, chips: ["Tests", "Praxis", "Gegenprobe"], searchAliases: ["tests und vertrÃ¤ge", "tests und vertraege"], prefixes: [["softwarequalitaet-v115", "tests-und-vertraege"]] },
+  { slug: "softwarequalitaet-v115", title: "Softwarequalität", description: "Lesbarkeit, Tests und Schnittstellen als eigene Themen behandeln.", icon: iconMap.shield, chips: ["v115", "Feinstruktur", "Praxis"], searchAliases: ["softwarequalität", "softwarequalitaet v115"], prefixes: [["softwarequalitaet-v115"]], children: [
+      { slug: "tests-und-vertraege", title: "Tests und Verträge", description: "Kleine Lerneinheiten zu Tests und Verträge mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.shield, chips: ["Tests", "Praxis", "Gegenprobe"], searchAliases: ["tests und verträge", "tests und vertraege"], prefixes: [["softwarequalitaet-v115", "tests-und-vertraege"]] },
       { slug: "code-lesbarkeit", title: "Code-Lesbarkeit", description: "Kleine Lerneinheiten zu Code-Lesbarkeit mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.shield, chips: ["Code-Lesbarkeit", "Praxis", "Gegenprobe"], searchAliases: ["code-lesbarkeit", "code lesbarkeit"], prefixes: [["softwarequalitaet-v115", "code-lesbarkeit"]] }
     ] }
 );
 areaNodesBySubject["elektrotechnik"].push(
-  { slug: "messpraxis-v115", title: "Messpraxis", description: "MessgerÃ¤te, Fehlerbilder und sichere Gegenproben kleinteilig Ã¼ben.", icon: iconMap.meter, chips: ["v115", "Feinstruktur", "Praxis"], searchAliases: ["messpraxis", "messpraxis v115"], prefixes: [["messpraxis-v115"]], children: [
+  { slug: "messpraxis-v115", title: "Messpraxis", description: "Messgeräte, Fehlerbilder und sichere Gegenproben kleinteilig üben.", icon: iconMap.meter, chips: ["v115", "Feinstruktur", "Praxis"], searchAliases: ["messpraxis", "messpraxis v115"], prefixes: [["messpraxis-v115"]], children: [
       { slug: "spannung-strom-widerstand", title: "Spannung, Strom und Widerstand", description: "Kleine Lerneinheiten zu Spannung, Strom und Widerstand mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.meter, chips: ["Spannung,", "Praxis", "Gegenprobe"], searchAliases: ["spannung, strom und widerstand", "spannung strom widerstand"], prefixes: [["messpraxis-v115", "spannung-strom-widerstand"]] },
       { slug: "fehlerbilder-systematisch", title: "Fehlerbilder systematisch", description: "Kleine Lerneinheiten zu Fehlerbilder systematisch mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.meter, chips: ["Fehlerbilder", "Praxis", "Gegenprobe"], searchAliases: ["fehlerbilder systematisch", "fehlerbilder systematisch"], prefixes: [["messpraxis-v115", "fehlerbilder-systematisch"]] }
     ] },
@@ -773,12 +773,12 @@ areaNodesBySubject["elektrotechnik"].push(
       { slug: "dioden-und-schutz", title: "Dioden und Schutz", description: "Kleine Lerneinheiten zu Dioden und Schutz mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.circuit, chips: ["Dioden", "Praxis", "Gegenprobe"], searchAliases: ["dioden und schutz", "dioden und schutz"], prefixes: [["bauteile-praxis-v115", "dioden-und-schutz"]] },
       { slug: "transistoren-und-mosfets", title: "Transistoren und MOSFETs", description: "Kleine Lerneinheiten zu Transistoren und MOSFETs mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.circuit, chips: ["Transistoren", "Praxis", "Gegenprobe"], searchAliases: ["transistoren und mosfets", "transistoren und mosfets"], prefixes: [["bauteile-praxis-v115", "transistoren-und-mosfets"]] }
     ] },
-  { slug: "mikrocontroller-praxis-v115", title: "Mikrocontroller-Praxis", description: "EingÃ¤nge, AusgÃ¤nge und Versorgung als getrennte Praxisfragen lesen.", icon: iconMap.logic, chips: ["v115", "Feinstruktur", "Praxis"], searchAliases: ["mikrocontroller-praxis", "mikrocontroller praxis v115"], prefixes: [["mikrocontroller-praxis-v115"]], children: [
+  { slug: "mikrocontroller-praxis-v115", title: "Mikrocontroller-Praxis", description: "Eingänge, Ausgänge und Versorgung als getrennte Praxisfragen lesen.", icon: iconMap.logic, chips: ["v115", "Feinstruktur", "Praxis"], searchAliases: ["mikrocontroller-praxis", "mikrocontroller praxis v115"], prefixes: [["mikrocontroller-praxis-v115"]], children: [
       { slug: "eingang-ausgang-pegel", title: "Eingang, Ausgang, Pegel", description: "Kleine Lerneinheiten zu Eingang, Ausgang, Pegel mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.logic, chips: ["Eingang,", "Praxis", "Gegenprobe"], searchAliases: ["eingang, ausgang, pegel", "eingang ausgang pegel"], prefixes: [["mikrocontroller-praxis-v115", "eingang-ausgang-pegel"]] },
       { slug: "zeit-und-energie", title: "Zeit und Energie", description: "Kleine Lerneinheiten zu Zeit und Energie mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.logic, chips: ["Zeit", "Praxis", "Gegenprobe"], searchAliases: ["zeit und energie", "zeit und energie"], prefixes: [["mikrocontroller-praxis-v115", "zeit-und-energie"]] }
     ] },
-  { slug: "signale-stoerungen-v115", title: "Signale und StÃ¶rungen", description: "StÃ¶rungen, Filter und LeitungsfÃ¼hrung nicht vermischen.", icon: iconMap.data, chips: ["v115", "Feinstruktur", "Praxis"], searchAliases: ["signale und stÃ¶rungen", "signale stoerungen v115"], prefixes: [["signale-stoerungen-v115"]], children: [
-      { slug: "stoerungen-und-filter", title: "StÃ¶rungen und Filter", description: "Kleine Lerneinheiten zu StÃ¶rungen und Filter mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.data, chips: ["StÃ¶rungen", "Praxis", "Gegenprobe"], searchAliases: ["stÃ¶rungen und filter", "stoerungen und filter"], prefixes: [["signale-stoerungen-v115", "stoerungen-und-filter"]] },
+  { slug: "signale-stoerungen-v115", title: "Signale und Störungen", description: "Störungen, Filter und Leitungsführung nicht vermischen.", icon: iconMap.data, chips: ["v115", "Feinstruktur", "Praxis"], searchAliases: ["signale und störungen", "signale stoerungen v115"], prefixes: [["signale-stoerungen-v115"]], children: [
+      { slug: "stoerungen-und-filter", title: "Störungen und Filter", description: "Kleine Lerneinheiten zu Störungen und Filter mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.data, chips: ["Störungen", "Praxis", "Gegenprobe"], searchAliases: ["störungen und filter", "stoerungen und filter"], prefixes: [["signale-stoerungen-v115", "stoerungen-und-filter"]] },
       { slug: "kommunikation-robust", title: "Kommunikation robust machen", description: "Kleine Lerneinheiten zu Kommunikation robust machen mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.data, chips: ["Kommunikation", "Praxis", "Gegenprobe"], searchAliases: ["kommunikation robust machen", "kommunikation robust"], prefixes: [["signale-stoerungen-v115", "kommunikation-robust"]] }
     ] }
 );
@@ -791,9 +791,9 @@ areaNodesBySubject["linux"].push(
       { slug: "prozesse-und-dienste", title: "Prozesse und Dienste", description: "Kleine Lerneinheiten zu Prozesse und Dienste mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.chart, chips: ["Prozesse", "Praxis", "Gegenprobe"], searchAliases: ["prozesse und dienste", "prozesse und dienste"], prefixes: [["systembetrieb-v115", "prozesse-und-dienste"]] },
       { slug: "ressourcen-und-speicher", title: "Ressourcen und Speicher", description: "Kleine Lerneinheiten zu Ressourcen und Speicher mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.chart, chips: ["Ressourcen", "Praxis", "Gegenprobe"], searchAliases: ["ressourcen und speicher", "ressourcen und speicher"], prefixes: [["systembetrieb-v115", "ressourcen-und-speicher"]] }
     ] },
-  { slug: "rechte-und-sicherheit-v115", title: "Rechte und Sicherheit", description: "Zugriffe, Besitzer und SchlÃ¼ssel sauber abgrenzen.", icon: iconMap.shield, chips: ["v115", "Feinstruktur", "Praxis"], searchAliases: ["rechte und sicherheit", "rechte und sicherheit v115"], prefixes: [["rechte-und-sicherheit-v115"]], children: [
+  { slug: "rechte-und-sicherheit-v115", title: "Rechte und Sicherheit", description: "Zugriffe, Besitzer und Schlüssel sauber abgrenzen.", icon: iconMap.shield, chips: ["v115", "Feinstruktur", "Praxis"], searchAliases: ["rechte und sicherheit", "rechte und sicherheit v115"], prefixes: [["rechte-und-sicherheit-v115"]], children: [
       { slug: "dateirechte-und-besitz", title: "Dateirechte und Besitz", description: "Kleine Lerneinheiten zu Dateirechte und Besitz mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.shield, chips: ["Dateirechte", "Praxis", "Gegenprobe"], searchAliases: ["dateirechte und besitz", "dateirechte und besitz"], prefixes: [["rechte-und-sicherheit-v115", "dateirechte-und-besitz"]] },
-      { slug: "ssh-und-schluessel", title: "SSH und SchlÃ¼ssel", description: "Kleine Lerneinheiten zu SSH und SchlÃ¼ssel mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.shield, chips: ["SSH", "Praxis", "Gegenprobe"], searchAliases: ["ssh und schlÃ¼ssel", "ssh und schluessel"], prefixes: [["rechte-und-sicherheit-v115", "ssh-und-schluessel"]] }
+      { slug: "ssh-und-schluessel", title: "SSH und Schlüssel", description: "Kleine Lerneinheiten zu SSH und Schlüssel mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.shield, chips: ["SSH", "Praxis", "Gegenprobe"], searchAliases: ["ssh und schlüssel", "ssh und schluessel"], prefixes: [["rechte-und-sicherheit-v115", "ssh-und-schluessel"]] }
     ] },
   { slug: "paket-und-backup-v115", title: "Pakete und Backups", description: "Installation, Aktualisierung und Sicherung als getrennte Arbeitsroutinen behandeln.", icon: iconMap.shield, chips: ["v115", "Feinstruktur", "Praxis"], searchAliases: ["pakete und backups", "paket und backup v115"], prefixes: [["paket-und-backup-v115"]], children: [
       { slug: "pakete-und-repositories", title: "Pakete und Repositories", description: "Kleine Lerneinheiten zu Pakete und Repositories mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.shield, chips: ["Pakete", "Praxis", "Gegenprobe"], searchAliases: ["pakete und repositories", "pakete und repositories"], prefixes: [["paket-und-backup-v115", "pakete-und-repositories"]] },
@@ -801,11 +801,11 @@ areaNodesBySubject["linux"].push(
     ] }
 );
 areaNodesBySubject["web-development"].push(
-  { slug: "frontend-semantik-v115", title: "Frontend-Semantik", description: "HTML-Struktur, Barrierefreiheit und ZustÃ¤nde in kleinen Themen Ã¼ben.", icon: iconMap.form, chips: ["v115", "Feinstruktur", "Praxis"], searchAliases: ["frontend-semantik", "frontend semantik v115"], prefixes: [["frontend-semantik-v115"]], children: [
+  { slug: "frontend-semantik-v115", title: "Frontend-Semantik", description: "HTML-Struktur, Barrierefreiheit und Zustände in kleinen Themen üben.", icon: iconMap.form, chips: ["v115", "Feinstruktur", "Praxis"], searchAliases: ["frontend-semantik", "frontend semantik v115"], prefixes: [["frontend-semantik-v115"]], children: [
       { slug: "html-struktur-klein", title: "HTML-Struktur klein schneiden", description: "Kleine Lerneinheiten zu HTML-Struktur klein schneiden mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.form, chips: ["HTML-Struktur", "Praxis", "Gegenprobe"], searchAliases: ["html-struktur klein schneiden", "html struktur klein"], prefixes: [["frontend-semantik-v115", "html-struktur-klein"]] },
-      { slug: "zustaende-und-feedback", title: "ZustÃ¤nde und Feedback", description: "Kleine Lerneinheiten zu ZustÃ¤nde und Feedback mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.form, chips: ["ZustÃ¤nde", "Praxis", "Gegenprobe"], searchAliases: ["zustÃ¤nde und feedback", "zustaende und feedback"], prefixes: [["frontend-semantik-v115", "zustaende-und-feedback"]] }
+      { slug: "zustaende-und-feedback", title: "Zustände und Feedback", description: "Kleine Lerneinheiten zu Zustände und Feedback mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.form, chips: ["Zustände", "Praxis", "Gegenprobe"], searchAliases: ["zustände und feedback", "zustaende und feedback"], prefixes: [["frontend-semantik-v115", "zustaende-und-feedback"]] }
     ] },
-  { slug: "css-systeme-v115", title: "CSS-Systeme", description: "Layout, Tokens und ZustÃ¤nde als kleine Designentscheidungen behandeln.", icon: iconMap.css, chips: ["v115", "Feinstruktur", "Praxis"], searchAliases: ["css-systeme", "css systeme v115"], prefixes: [["css-systeme-v115"]], children: [
+  { slug: "css-systeme-v115", title: "CSS-Systeme", description: "Layout, Tokens und Zustände als kleine Designentscheidungen behandeln.", icon: iconMap.css, chips: ["v115", "Feinstruktur", "Praxis"], searchAliases: ["css-systeme", "css systeme v115"], prefixes: [["css-systeme-v115"]], children: [
       { slug: "layout-entscheidungen", title: "Layout-Entscheidungen", description: "Kleine Lerneinheiten zu Layout-Entscheidungen mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.css, chips: ["Layout-Entscheidungen", "Praxis", "Gegenprobe"], searchAliases: ["layout-entscheidungen", "layout entscheidungen"], prefixes: [["css-systeme-v115", "layout-entscheidungen"]] },
       { slug: "visuelle-robustheit", title: "Visuelle Robustheit", description: "Kleine Lerneinheiten zu Visuelle Robustheit mit Beispiel, Aufgabe und Gegenprobe.", icon: iconMap.css, chips: ["Visuelle", "Praxis", "Gegenprobe"], searchAliases: ["visuelle robustheit", "visuelle robustheit"], prefixes: [["css-systeme-v115", "visuelle-robustheit"]] }
     ] },
