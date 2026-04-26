@@ -1,7 +1,14 @@
 {
   "name": "schlaufuchs-platform",
-  "type": "module",
   "version": "0.0.1",
+  "description": "Ruhige Lern- und Informationsplattform für Mathematik, Informatik, Elektrotechnik, Linux und Web Development.",
+  "type": "module",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevOpsOfChaos/schlaufuchs-platform.git"
+  },
+  "homepage": "https://devopsofchaos.github.io/schlaufuchs-platform/",
   "engines": {
     "node": ">=22.12.0"
   },
@@ -9,8 +16,17 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "repair:mojibake": "node scripts/quality/repair-mojibake.mjs",
+    "check:content": "node scripts/quality/check-content-encoding-and-structure.mjs",
+    "quality": "npm run repair:mojibake && npm run check:content && npm run build"
   },
+  "keywords": [
+    "astro",
+    "learning-platform",
+    "education",
+    "schlaufuchs"
+  ],
   "dependencies": {
     "astro": "^6.1.7"
   }
