@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" role="img" aria-labelledby="title desc">
+  <title id="title">Informatik – Primary Key als stabile Identität lesen</title>
+  <desc id="desc">Lernillustration zu Primary Key als stabile Identität lesen: Situation, Verwechslung, Prüfschritt und Gegenprobe.</desc>
+  <rect width="960" height="320" rx="36" fill="#eef2ff"/>
+  <circle cx="82" cy="76" r="46" fill="#c7d2fe" opacity=".86"/>
+  <text x="82" y="90" text-anchor="middle" font-size="38" font-weight="900" fill="#4338ca">I</text>
+  <text x="148" y="68" font-size="27" font-weight="900" fill="#0f172a">Primary Key als stabile Identität lesen</text>
+  <text x="148" y="100" font-size="16" fill="#475569">Feinstruktur · Abgrenzung · Gegenprobe</text>
+  <g transform="translate(54 150)">
+    <rect width="190" height="102" rx="22" fill="#ffffff" stroke="#c7d2fe" stroke-width="3"/>
+    <text x="95" y="39" text-anchor="middle" font-size="16" font-weight="900" fill="#0f172a">Situation</text>
+    <text x="95" y="66" text-anchor="middle" font-size="13" fill="#475569">Was liegt vor?</text>
+  </g>
+  <path d="M258 201h42" stroke="#4338ca" stroke-width="5" stroke-linecap="round"/><path d="m291 189 15 12-15 12" fill="none" stroke="#4338ca" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(318 150)">
+    <rect width="190" height="102" rx="22" fill="#ffffff" stroke="#c7d2fe" stroke-width="3"/>
+    <text x="95" y="39" text-anchor="middle" font-size="16" font-weight="900" fill="#0f172a">Verwechslung</text>
+    <text x="95" y="66" text-anchor="middle" font-size="13" fill="#475569">Was ist es nicht?</text>
+  </g>
+  <path d="M522 201h42" stroke="#4338ca" stroke-width="5" stroke-linecap="round"/><path d="m555 189 15 12-15 12" fill="none" stroke="#4338ca" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(582 150)">
+    <rect width="190" height="102" rx="22" fill="#ffffff" stroke="#c7d2fe" stroke-width="3"/>
+    <text x="95" y="39" text-anchor="middle" font-size="16" font-weight="900" fill="#0f172a">Prüfschritt</text>
+    <text x="95" y="66" text-anchor="middle" font-size="13" fill="#475569">Woran erkenne ich es?</text>
+  </g>
+  <path d="M786 201h42" stroke="#4338ca" stroke-width="5" stroke-linecap="round"/><path d="m819 189 15 12-15 12" fill="none" stroke="#4338ca" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(846 150)">
+    <rect width="82" height="102" rx="22" fill="#ffffff" stroke="#c7d2fe" stroke-width="3"/>
+    <text x="41" y="39" text-anchor="middle" font-size="15" font-weight="900" fill="#0f172a">Probe</text>
+    <text x="41" y="66" text-anchor="middle" font-size="12" fill="#475569">zweiter</text>
+    <text x="41" y="82" text-anchor="middle" font-size="12" fill="#475569">Fall</text>
+  </g>
+</svg>

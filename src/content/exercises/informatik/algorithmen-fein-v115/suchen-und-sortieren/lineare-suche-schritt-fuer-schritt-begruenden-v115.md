@@ -1,0 +1,60 @@
+---
+title: "Aufgabe: Lineare Suche Schritt für Schritt begründen"
+description: "Trainiere Lineare Suche Schritt für Schritt begründen an einem kleinen, klar abgegrenzten Fall."
+subject: informatik
+section: "Feinstruktur Informatik"
+topicPath:
+  - "algorithmen-fein-v115"
+  - "suchen-und-sortieren"
+  - "lineare-suche-schritt-fuer-schritt-begruenden-v115"
+taskId: "informatik-lineare-suche-schritt-fuer-schritt-begruenden-v115"
+tags:
+  - "informatik"
+  - "feinstruktur"
+  - "unterthema"
+  - "algorithmische feinstruktur"
+  - "suchen und sortieren"
+  - "aufgabe"
+hintPoints:
+  - "Grenze zuerst den kleinen Fall vom breiten Themenfeld ab."
+  - "Nutze die Prüffrage: Gibt es eine Ordnung, die schnelleres Suchen erlaubt?"
+  - "Begründe mit zwei konkreten Hinweisen aus dem Fall."
+selfCheckPoints:
+  - "Kann ich das Unterthema in einem Satz benennen?"
+  - "Kann ich sagen, womit es leicht verwechselt wird?"
+  - "Kann ich eine Gegenprobe formulieren?"
+transferIdeas:
+  - "Übertrage dieselbe Trennkante auf ein eigenes Mini-Beispiel."
+  - "Formuliere einen Gegenfall, der ähnlich aussieht, aber anders entschieden wird."
+reflectionPrompt: "Was war bei „Lineare Suche Schritt für Schritt begründen“ die wichtigste Trennkante?"
+level: mittel
+draft: false
+---
+
+## Aufgabe
+
+Bearbeite den folgenden Fall zu **Lineare Suche Schritt für Schritt begründen**.
+
+<div class="practice-card">
+  <p class="card-kicker">Fall</p>
+  <h3>Fall: Lineare Suche Schritt für Schritt begründen</h3>
+  <p>Ein Wert soll in einer unsortierten Liste gefunden werden.</p>
+</div>
+
+## Teil 1: Einordnung
+
+1. Benenne das kleine Unterthema, das hier wirklich geprüft wird.
+2. Formuliere in einem Satz, womit man den Fall leicht verwechseln könnte.
+3. Markiere die fachliche Trennkante.
+
+## Teil 2: Entscheidung
+
+Beantworte die Prüffrage:
+
+> Gibt es eine Ordnung, die schnelleres Suchen erlaubt?
+
+Nutze dabei mindestens zwei konkrete Hinweise aus dem Fall.
+
+## Teil 3: Gegenprobe
+
+Ändere ein Detail gedanklich so, dass die Entscheidung kippen würde. Beschreibe kurz, welches Detail das wäre und warum.

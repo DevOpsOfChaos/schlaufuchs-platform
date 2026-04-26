@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Zustand passend speichern statt überall merken</title>
+  <desc id="desc">Schematische Lernillustration mit den Stationen URL, Session und Local.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#eef2ff"/>
+      <stop offset="0.55" stop-color="#ecfeff"/>
+      <stop offset="1" stop-color="#fff7ed"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#0f172a" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="960" height="420" rx="34" fill="url(#bg)"/>
+  <circle cx="106" cy="86" r="52" fill="#dbeafe" opacity="0.85"/>
+  <circle cx="850" cy="316" r="70" fill="#fed7aa" opacity="0.55"/>
+  <path d="M126 300 C220 210 300 350 397 252 S568 120 690 221 S795 344 864 190" fill="none" stroke="#8b5cf6" stroke-width="11" stroke-linecap="round" opacity="0.32"/>
+  <g filter="url(#shadow)">
+    <rect x="82" y="122" width="220" height="150" rx="28" fill="#ffffff" stroke="#bfdbfe" stroke-width="3"/>
+    <rect x="370" y="86" width="220" height="186" rx="28" fill="#ffffff" stroke="#a7f3d0" stroke-width="3"/>
+    <rect x="658" y="122" width="220" height="150" rx="28" fill="#ffffff" stroke="#fde68a" stroke-width="3"/>
+  </g>
+  <rect x="119" y="151" width="146" height="42" rx="21" fill="#2563eb" opacity="0.95"/>
+  <rect x="407" y="118" width="146" height="42" rx="21" fill="#059669" opacity="0.95"/>
+  <rect x="695" y="151" width="146" height="42" rx="21" fill="#d97706" opacity="0.95"/>
+  <text x="192" y="180" text-anchor="middle" font-size="23" font-weight="800" fill="#fff">1</text>
+  <text x="480" y="147" text-anchor="middle" font-size="23" font-weight="800" fill="#fff">2</text>
+  <text x="768" y="180" text-anchor="middle" font-size="23" font-weight="800" fill="#fff">3</text>
+  <text x="192" y="227" text-anchor="middle" font-size="28" font-weight="800" fill="#0f172a">URL</text>
+  <text x="480" y="205" text-anchor="middle" font-size="28" font-weight="800" fill="#0f172a">Session</text>
+  <text x="768" y="227" text-anchor="middle" font-size="28" font-weight="800" fill="#0f172a">Local</text>
+  <path d="M319 194 H350" stroke="#475569" stroke-width="7" stroke-linecap="round"/>
+  <path d="M350 194 l-17 -13 v26 z" fill="#475569"/>
+  <path d="M607 194 H638" stroke="#475569" stroke-width="7" stroke-linecap="round"/>
+  <path d="M638 194 l-17 -13 v26 z" fill="#475569"/>
+  <rect x="134" y="318" width="692" height="56" rx="28" fill="#0f172a" opacity="0.92"/>
+  <text x="480" y="354" text-anchor="middle" font-size="23" font-weight="800" fill="#f8fafc">Zustand passend speichern statt überall merken</text>
+</svg>

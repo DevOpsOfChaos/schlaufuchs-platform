@@ -1,0 +1,50 @@
+---
+title: "Lösung: Schnittpunkt zweier Geraden deuten"
+description: "Musterlösung zu Schnittpunkt zweier Geraden deuten mit Trennkante und Gegenprobe."
+subject: mathematik
+section: "Feinstruktur Mathematik"
+topicPath:
+  - "funktionsdenken-v115"
+  - "lineare-modelle"
+  - "schnittpunkt-zweier-geraden-deuten-v115"
+taskId: "mathematik-schnittpunkt-zweier-geraden-deuten-v115"
+relatedExercise: "mathematik/funktionsdenken-v115/lineare-modelle/schnittpunkt-zweier-geraden-deuten-v115"
+tags:
+  - "mathematik"
+  - "feinstruktur"
+  - "unterthema"
+  - "funktionsdenken"
+  - "lineare modelle"
+  - "lösung"
+draft: false
+---
+
+## Musterlösung
+
+Das geprüfte Unterthema ist **Schnittpunkt zweier Geraden deuten**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.
+
+## Einordnung
+
+Die naheliegende Verwechslung lautet:
+
+> Der Schnittpunkt wird nur als Rechenpunkt statt als Bedeutungswechsel gelesen.
+
+Fachlich ruhiger ist dagegen:
+
+> Die Aufgabe wird über Bezugsgröße, Einheit und Gegenprobe entschieden, nicht nur über die sichtbare Zahl.
+
+## Begründung
+
+Die zentrale Prüffrage war:
+
+> Was ist vor und nach dem Schnittpunkt günstiger?
+
+Eine passende Antwort ist: Zuerst wird die Bezugsgröße aus dem Fall bestimmt. Danach wird geprüft, ob eine Rechnung, ein Vergleich oder nur eine Darstellung verändert wird. Damit ist die Antwort auf die Prüffrage: was ist vor und nach dem schnittpunkt günstiger?
+
+## Gegenprobe
+
+Die Entscheidung würde kippen, wenn die Bezugsgröße, Einheit oder der betrachtete Abschnitt wechselt. Dann wäre nicht mehr dieselbe Trennkante entscheidend, sondern ein Nachbarthema.
+
+## Lernwert
+
+Die Lösung passt zur Wissensseite, weil sie dieselbe kleine Entscheidung trainiert. Genau dadurch bleibt der Fachbereich übersichtlich: Eine Seite erklärt eine Trennkante, die Aufgabe prüft dieselbe Trennkante und die Lösung macht die Gegenprobe sichtbar.

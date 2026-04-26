@@ -1,0 +1,36 @@
+---
+title: "Lösung – Mittelwert und Median bei Ausreißern vergleichen"
+description: "Musterlösung zu Kennwerte mit Ausreißern mit Einordnung, Prüfschritt und Gegenprobe."
+subject: "mathematik"
+section: "Daten und Zufall"
+topicPath:
+  - "daten-und-zufall"
+  - "diagramme-und-ausreisser"
+  - "kennwerte"
+  - "mittelwert-und-median-bei-ausreissern-vergleichen"
+taskId: "v107-mathematik-mittelwert-und-median-bei-ausreissern-vergleichen"
+relatedExercise: "mathematik/daten-und-zufall/diagramme-und-ausreisser/kennwerte/mittelwert-und-median-bei-ausreissern-vergleichen"
+tags:
+  - "mathematik"
+  - "rechnen"
+  - "modellieren"
+  - "kennwerte mit ausreißern"
+  - "daten-und-zufall"
+  - "diagramme-und-ausreisser"
+draft: false
+---
+
+## Musterlösung
+
+Das Szenario gehört zum Unterthema **Kennwerte mit Ausreißern**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.
+
+## Schrittfolge
+
+1. **Einordnung:** Das kleine Unterthema wird ausdrücklich benannt.
+2. **Trennung:** Die naheliegende Verwechslung wird ausgeschlossen.
+3. **Prüfung:** Ein konkreter Rechen-, Code-, Mess- oder Beobachtungsschritt belegt die Entscheidung.
+4. **Gegenprobe:** Wird der zentrale Wert, Zustand oder Kontext geändert, muss sich die Begründung nachvollziehbar ändern.
+
+## Warum das übersichtlicher ist
+
+Die Antwort bleibt fachlich enger. Dadurch entstehen weniger Doppelungen mit Nachbarseiten, und die Aufgabe passt besser zur Wissensseite.

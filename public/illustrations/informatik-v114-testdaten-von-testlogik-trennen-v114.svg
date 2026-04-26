@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Testdaten von Testlogik trennen</title>
+  <desc id="desc">Schlaufuchs-Lernillustration für Testdaten von Testlogik trennen</desc>
+  <rect width="960" height="420" rx="36" fill="#f5f3ff"/>
+  <circle cx="780" cy="88" r="132" fill="#ede9fe"/>
+  <circle cx="170" cy="350" r="110" fill="#ede9fe"/>
+  <path d="M120 110h720M120 210h520M120 310h660" stroke="#7c3aed" stroke-width="16" stroke-linecap="round" opacity=".22"/>
+  <g transform="translate(100 74)">
+    <rect x="0" y="0" width="760" height="272" rx="30" fill="#ffffff" opacity=".86"/>
+    <rect x="36" y="36" width="92" height="92" rx="24" fill="#ede9fe" stroke="#7c3aed" stroke-width="5"/>
+    <path d="M58 84h48M82 60v48" stroke="#7c3aed" stroke-width="10" stroke-linecap="round"/>
+    <text x="154" y="68" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="800" fill="#7c3aed">Programmierpraxis</text>
+    <foreignObject x="154" y="88" width="540" height="112">
+      <div xmlns="http://www.w3.org/1999/xhtml" style="font-family:Inter,Arial,sans-serif;font-size:34px;font-weight:800;line-height:1.18;color:#0f172a;">Testdaten von Testlogik trennen</div>
+    </foreignObject>
+    <g transform="translate(36 190)">
+      <rect width="184" height="46" rx="23" fill="#ede9fe"/>
+      <rect x="206" width="184" height="46" rx="23" fill="#ede9fe"/>
+      <rect x="412" width="184" height="46" rx="23" fill="#ede9fe"/>
+      <circle cx="24" cy="23" r="7" fill="#7c3aed"/>
+      <circle cx="230" cy="23" r="7" fill="#7c3aed"/>
+      <circle cx="436" cy="23" r="7" fill="#7c3aed"/>
+    </g>
+  </g>
+</svg>

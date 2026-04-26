@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" role="img" aria-labelledby="title desc">
+  <title id="title">Linux – apt update und upgrade als zwei Schritte lesen</title>
+  <desc id="desc">Strukturillustration zu apt update und upgrade: einordnen, abgrenzen, prüfen und übertragen.</desc>
+  <rect width="960" height="320" rx="36" fill="#f8fafc"/>
+  <circle cx="92" cy="78" r="48" fill="#cbd5e1" opacity=".78"/>
+  <text x="92" y="91" text-anchor="middle" font-size="38" font-weight="900" fill="#334155">L</text>
+  <text x="158" y="74" font-size="28" font-weight="900" fill="#0f172a">apt update und upgrade</text>
+  <text x="158" y="104" font-size="16" fill="#475569">kleines Unterthema · klare Grenze · prüfbarer Schritt</text>
+  <g transform="translate(66 154)">
+    <rect width="172" height="94" rx="20" fill="#fff" stroke="#cbd5e1" stroke-width="3"/>
+    <text x="86" y="38" text-anchor="middle" font-size="16" font-weight="800" fill="#0f172a">Einordnen</text>
+    <text x="86" y="64" text-anchor="middle" font-size="13" fill="#475569">Was ist gemeint?</text>
+  </g>
+  <path d="M250 201h46" stroke="#334155" stroke-width="5" stroke-linecap="round"/><path d="m287 189 15 12-15 12" fill="none" stroke="#334155" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(314 154)">
+    <rect width="172" height="94" rx="20" fill="#fff" stroke="#cbd5e1" stroke-width="3"/>
+    <text x="86" y="38" text-anchor="middle" font-size="16" font-weight="800" fill="#0f172a">Abgrenzen</text>
+    <text x="86" y="64" text-anchor="middle" font-size="13" fill="#475569">Was ist es nicht?</text>
+  </g>
+  <path d="M498 201h46" stroke="#334155" stroke-width="5" stroke-linecap="round"/><path d="m535 189 15 12-15 12" fill="none" stroke="#334155" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(562 154)">
+    <rect width="172" height="94" rx="20" fill="#fff" stroke="#cbd5e1" stroke-width="3"/>
+    <text x="86" y="38" text-anchor="middle" font-size="16" font-weight="800" fill="#0f172a">Prüfen</text>
+    <text x="86" y="64" text-anchor="middle" font-size="13" fill="#475569">Welcher Schritt belegt es?</text>
+  </g>
+  <path d="M746 201h46" stroke="#334155" stroke-width="5" stroke-linecap="round"/><path d="m783 189 15 12-15 12" fill="none" stroke="#334155" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(810 154)">
+    <rect width="112" height="94" rx="20" fill="#fff" stroke="#cbd5e1" stroke-width="3"/>
+    <text x="56" y="38" text-anchor="middle" font-size="16" font-weight="800" fill="#0f172a">Transfer</text>
+    <text x="56" y="64" text-anchor="middle" font-size="13" fill="#475569">zweiter Fall</text>
+  </g>
+</svg>

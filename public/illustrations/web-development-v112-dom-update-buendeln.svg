@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">DOM-Update bündeln</title>
+  <desc id="desc">Schlaufuchs Lernillustration für ein kleines Unterthema.</desc>
+  <rect width="960" height="540" rx="42" fill="#fdf2f8"/>
+  <circle cx="820" cy="100" r="72" fill="#be185d" opacity="0.14"/>
+  <circle cx="130" cy="430" r="90" fill="#be185d" opacity="0.10"/>
+  <rect x="86" y="84" width="788" height="372" rx="34" fill="white" opacity="0.82"/>
+  <path d="M160 170h220M160 220h330M160 270h250" stroke="#be185d" stroke-width="18" stroke-linecap="round" opacity="0.65"/>
+  <path d="M570 165h150v150H570z" fill="none" stroke="#be185d" stroke-width="18" rx="18"/>
+  <path d="M610 235h70M645 200v70" stroke="#be185d" stroke-width="16" stroke-linecap="round"/>
+  <text x="160" y="360" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800" fill="#111827">Web Development</text>
+  <text x="160" y="404" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="700" fill="#be185d">v112 · kleines Unterthema</text>
+</svg>

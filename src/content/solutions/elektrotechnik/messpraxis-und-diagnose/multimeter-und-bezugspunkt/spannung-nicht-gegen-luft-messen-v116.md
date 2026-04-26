@@ -1,0 +1,50 @@
+---
+title: "Lösung: Spannung nicht gegen Luft messen"
+description: "Musterlösung zur Aufgabe „Spannung nicht gegen Luft messen“ mit Unterfrage, Begründung und Gegenprobe."
+subject: "elektrotechnik"
+section: "Elektrotechnik vertiefen"
+topicPath:
+  - "messpraxis-und-diagnose"
+  - "multimeter-und-bezugspunkt"
+  - "spannung-nicht-gegen-luft-messen-v116"
+taskId: "spannung-nicht-gegen-luft-messen-v116"
+relatedExercise: "elektrotechnik/messpraxis-und-diagnose/multimeter-und-bezugspunkt/spannung-nicht-gegen-luft-messen-v116"
+tags:
+  - "elektrotechnik"
+  - "messen"
+  - "praxis"
+  - "multimeter und bezugspunkt"
+  - "spannung nicht gegen luft messen"
+  - "v116"
+draft: false
+---
+
+## Lösung zu Aufgabe 1
+
+Die kleine Fachfrage lautet:
+
+> Wie kann ich **Spannung nicht gegen Luft messen** sauber erkennen, begründen und prüfen?
+
+Wichtig ist, nicht sofort das ganze Thema aufzureißen. Die Aufgabe zielt auf eine einzelne Entscheidung.
+
+## Lösung zu Aufgabe 2
+
+Eine mögliche Lösungsskizze:
+
+1. **Gegeben:** das Stichwort „Spannung nicht gegen Luft messen“ und ein konkreter Anwendungskontext
+2. **Regel oder Struktur:** erst Unterfrage bestimmen, dann Regel anwenden, dann Gegenprobe formulieren
+3. **Entscheidung:** Spannung nicht gegen Luft messen wird als eigenes kleines Unterthema behandelt.
+
+Damit ist die Begründung nicht nur ein Bauchgefühl, sondern an eine erkennbare Struktur gebunden.
+
+## Lösung zu Aufgabe 3
+
+Eine passende Gegenprobe ist:
+
+> Ändere eine Randbedingung und prüfe, ob die Begründung zu „Spannung nicht gegen Luft messen“ weiterhin passt.
+
+Wenn diese Gegenprobe scheitert, war wahrscheinlich entweder das Unterthema falsch gewählt oder eine wichtige Bedingung wurde übersehen.
+
+## Zusatzlösung
+
+Die Aufgabe gehört in das Unterthema **Multimeter und Bezugspunkt**. Dort bleibt sie auffindbar, ohne ein breites Sammelkapitel mit zu vielen verschiedenen Lernzielen zu überladen.

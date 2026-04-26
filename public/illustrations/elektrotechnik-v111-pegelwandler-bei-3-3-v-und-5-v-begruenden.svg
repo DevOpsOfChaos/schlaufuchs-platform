@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" role="img" aria-labelledby="title desc">
+  <title id="title">Elektrotechnik – Pegelwandler bei 3,3 V und 5 V begründen</title>
+  <desc id="desc">Lernillustration zu Pegelwandler: einordnen, abgrenzen, prüfen und übertragen.</desc>
+  <rect width="960" height="320" rx="36" fill="#fff7ed"/>
+  <circle cx="92" cy="78" r="48" fill="#fed7aa" opacity=".84"/>
+  <text x="92" y="91" text-anchor="middle" font-size="38" font-weight="900" fill="#c2410c">E</text>
+  <text x="158" y="74" font-family="Arial, sans-serif" font-size="28" font-weight="900" fill="#0f172a">Pegelwandler</text>
+  <text x="158" y="104" font-family="Arial, sans-serif" font-size="16" fill="#475569">Feines Unterthema statt breiter Sammelablage</text>
+  <g transform="translate(58 154)">
+    <rect width="178" height="96" rx="20" fill="#fff" stroke="#fed7aa" stroke-width="3"/>
+    <text x="89" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="800" fill="#0f172a">Kontext</text>
+    <text x="89" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">Was liegt vor?</text>
+  </g>
+  <path d="M248 202h44" stroke="#c2410c" stroke-width="5" stroke-linecap="round"/><path d="m283 190 15 12-15 12" fill="none" stroke="#c2410c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(312 154)">
+    <rect width="178" height="96" rx="20" fill="#fff" stroke="#fed7aa" stroke-width="3"/>
+    <text x="89" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="800" fill="#0f172a">Trennkante</text>
+    <text x="89" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">Was ist ähnlich?</text>
+  </g>
+  <path d="M502 202h44" stroke="#c2410c" stroke-width="5" stroke-linecap="round"/><path d="m537 190 15 12-15 12" fill="none" stroke="#c2410c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(566 154)">
+    <rect width="178" height="96" rx="20" fill="#fff" stroke="#fed7aa" stroke-width="3"/>
+    <text x="89" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="800" fill="#0f172a">Prüfung</text>
+    <text x="89" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">Was belegt es?</text>
+  </g>
+  <path d="M756 202h44" stroke="#c2410c" stroke-width="5" stroke-linecap="round"/><path d="m791 190 15 12-15 12" fill="none" stroke="#c2410c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(820 154)">
+    <rect width="92" height="96" rx="20" fill="#fff" stroke="#fed7aa" stroke-width="3"/>
+    <text x="46" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="800" fill="#0f172a">Transfer</text>
+    <text x="46" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#475569">zweiter Fall</text>
+  </g>
+</svg>

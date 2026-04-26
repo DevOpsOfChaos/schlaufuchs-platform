@@ -1,0 +1,117 @@
+---
+title: "JavaScript – kleine Tests für UI-Logik planen"
+description: "Plane Tests so, dass Zustände, Eingaben und Fehlerrückmeldungen prüfbar werden, ohne die gesamte Oberfläche zu überladen."
+subject: "web-development"
+section: "JavaScript"
+topicPath:
+  - "javascript"
+  - "module-und-struktur"
+  - "kleine-tests-fuer-ui-logik-planen"
+tags:
+  - "web development"
+  - "javascript"
+  - "tests"
+  - "ui"
+  - "qualität"
+learningGoals:
+  - "Du trennst reine Entscheidungslogik von DOM-Anpassung."
+  - "Du formulierst kleine Testfälle für typische Zustände."
+  - "Du prüfst nicht nur Erfolg, sondern auch leere und fehlerhafte Fälle."
+practiceIdeas:
+  - "Übertrage die Idee auf eine kleine eigene Seite."
+  - "Prüfe die Bedienung einmal mit Tastatur und einmal mit Maus."
+  - "Formuliere die technische Entscheidung in Alltagssprache."
+commonMistakes:
+  - "Nur den glücklichen Pfad zu testen."
+  - "Logik und DOM so zu vermischen, dass nichts einzeln prüfbar ist."
+  - "Tests ohne fachliche Erwartung zu schreiben."
+keyTakeaways:
+  - "Struktur, Zustand und Rückmeldung müssen zusammenpassen."
+  - "Sichtbare Nutzerführung ist Teil der technischen Lösung."
+  - "Saubere Webentwicklung prüft auch Fehlerfälle und Sonderwege."
+recognizeSignals:
+  - "Eine Oberfläche soll verständlicher, robuster oder zugänglicher werden."
+  - "HTML, CSS und JavaScript müssen gemeinsam gelesen werden."
+  - "Es gibt einen Zustand, der sichtbar gemacht oder kontrolliert werden muss."
+selfCheckPoints:
+  - "Kann ich die Entscheidung in einem Satz erklären?"
+  - "Bleibt die Lösung bei Fehlern oder Tastaturbedienung verständlich?"
+  - "Sind sichtbare Texte klar und deutsch formuliert?"
+level: "mittel"
+draft: false
+---
+
+## Grundidee
+
+Plane Tests so, dass Zustände, Eingaben und Fehlerrückmeldungen prüfbar werden, ohne die gesamte Oberfläche zu überladen. Die Seite betrachtet das Thema nicht als isolierten Syntaxtrick, sondern als kleine Entscheidung für Bedienbarkeit, Wartbarkeit und verständliche Rückmeldung.
+
+<div class="example-card">
+  <p class="card-kicker">Leitbeispiel</p>
+  <h3>kleine Tests für UI-Logik planen</h3>
+  <p>Plane Tests so, dass Zustände, Eingaben und Fehlerrückmeldungen prüfbar werden, ohne die gesamte Oberfläche zu überladen.</p>
+</div>
+
+<div class="figure-card">
+  <p class="card-kicker">Orientierung</p>
+  <h3>Die Entscheidung sichtbar machen</h3>
+  <img class="content-illustration" src="/schlaufuchs-platform/illustrations/web-v101-quality-loop.svg" alt="Schematische Lernillustration zu JavaScript – kleine Tests für UI-Logik planen." style="width:100%; max-width:52rem; border-radius:18px; border:1px solid var(--border); background:#f8fafc;" />
+</div>
+
+## Worum es fachlich geht
+
+Gute Weboberflächen entstehen selten durch eine einzelne Eigenschaft. Meist müssen Struktur, Zustand und Rückmeldung zusammenpassen. Die technische Lösung ist dann gut, wenn sie für Nutzerinnen und Nutzer nachvollziehbar bleibt und später im Code wiedergefunden werden kann.
+
+<div class="visual-grid">
+  <div class="visual-item">
+    <strong>Struktur lesen</strong>
+    <span>Welche HTML- oder Komponentenstruktur ist wirklich vorhanden?</span>
+  </div>
+  <div class="visual-item">
+    <strong>Zustand benennen</strong>
+    <span>Was ist gerade aktiv, fehlerhaft, leer, geladen oder noch unbestätigt?</span>
+  </div>
+  <div class="visual-item">
+    <strong>Rückmeldung planen</strong>
+    <span>Wie erfahren Nutzerinnen und Nutzer, was passiert ist oder was als Nächstes möglich ist?</span>
+  </div>
+</div>
+
+## Mini-Demo
+
+```js
+function getSubmitState(input) {
+  if (!input.trim()) return "empty";
+  if (input.length < 3) return "too-short";
+  return "ready";
+}
+```
+
+Die Demo ist bewusst klein. Sie zeigt nicht die einzig richtige Lösung, sondern die Denkbewegung: erst die Situation sauber lesen, dann Zuständigkeiten trennen und am Ende eine verständliche Rückmeldung ermöglichen.
+
+## Schwach oder sauber?
+
+<div class="compare-card">
+  <p class="card-kicker">Vergleich</p>
+  <h3>Der Unterschied liegt in der Zuständigkeit</h3>
+  <div class="compare-grid">
+    <div class="compare-item">
+      <strong>Schwache Lesart</strong>
+      <span>Der Test klickt irgendetwas an, ohne klar zu prüfen, welcher Zustand erwartet wird.</span>
+    </div>
+    <div class="compare-item">
+      <strong>Saubere Lesart</strong>
+      <span>Die Entscheidungslogik ist klein genug, um leere, ungültige und gültige Eingaben gezielt zu prüfen.</span>
+    </div>
+  </div>
+</div>
+
+## Prüffragen für eigene Seiten
+
+- Ist die sichtbare Oberfläche auch mit Tastatur, Fehlermeldung oder langsamem Laden verständlich?
+- Wird die technische Entscheidung an einer klaren Stelle getroffen?
+- Ist die Rückmeldung deutsch, konkret und nah an der betroffenen Aktion?
+- Kann eine andere Person später erkennen, warum die Lösung so gebaut wurde?
+
+<div class="note-panel">
+  <p><strong>Merke:</strong> Gute Webentwicklung verbindet Technik und Nutzerführung. Eine Lösung ist erst dann wirklich sauber, wenn Zustand, Bedienung und Code dieselbe Geschichte erzählen.</p>
+</div>

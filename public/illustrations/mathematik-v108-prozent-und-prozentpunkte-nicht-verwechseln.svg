@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" role="img" aria-labelledby="title desc">
+  <title id="title">Prozent und Prozentpunkte</title>
+  <desc id="desc">Strukturierte Lernillustration mit Fachbereich, Unterthema und Gegenprobe.</desc>
+  <rect width="960" height="320" rx="36" fill="#eef6ff"/>
+  <circle cx="96" cy="76" r="48" fill="#bfdbfe" opacity=".95"/>
+  <circle cx="870" cy="254" r="58" fill="#bfdbfe" opacity=".75"/>
+  <path d="M80 210 C180 125, 260 248, 370 160 S570 122, 690 195 S820 226, 890 142" fill="none" stroke="#2563eb" stroke-width="8" stroke-linecap="round" opacity=".22"/>
+  <text x="58" y="70" font-size="27" font-weight="900" fill="#0f172a">Prozent und Prozentpunkte</text>
+  <text x="58" y="102" font-size="16" fill="#475569">Fachbereich · Unterthema · Prüfschritt · Gegenprobe</text>
+  <g transform="translate(62 145)">
+    <rect width="178" height="94" rx="22" fill="white" opacity=".9" stroke="#2563eb" stroke-opacity=".28"/>
+    <text x="89" y="38" text-anchor="middle" font-size="15" font-weight="800" fill="#0f172a">Einordnen</text>
+    <text x="89" y="64" text-anchor="middle" font-size="12" fill="#475569">Was ist gemeint?</text>
+  </g>
+  <g transform="translate(282 145)">
+    <rect width="178" height="94" rx="22" fill="white" opacity=".9" stroke="#2563eb" stroke-opacity=".28"/>
+    <text x="89" y="38" text-anchor="middle" font-size="15" font-weight="800" fill="#0f172a">Abgrenzen</text>
+    <text x="89" y="64" text-anchor="middle" font-size="12" fill="#475569">Was nicht?</text>
+  </g>
+  <g transform="translate(502 145)">
+    <rect width="178" height="94" rx="22" fill="white" opacity=".9" stroke="#2563eb" stroke-opacity=".28"/>
+    <text x="89" y="38" text-anchor="middle" font-size="15" font-weight="800" fill="#0f172a">Prüfen</text>
+    <text x="89" y="64" text-anchor="middle" font-size="12" fill="#475569">Welcher Schritt?</text>
+  </g>
+  <g transform="translate(722 145)">
+    <rect width="178" height="94" rx="22" fill="white" opacity=".9" stroke="#2563eb" stroke-opacity=".28"/>
+    <text x="89" y="38" text-anchor="middle" font-size="15" font-weight="800" fill="#0f172a">Gegenprobe</text>
+    <text x="89" y="64" text-anchor="middle" font-size="12" fill="#475569">Bleibt es stabil?</text>
+  </g>
+  <text x="58" y="286" font-size="13" fill="#64748b">prozent-und-prozentpunkte-nicht-</text>
+</svg>
