@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">Dienste absichern</title>
+  <desc id="desc">Vereinfachtes Schaubild zur Überblicksseite Dienste absichern.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="960" height="520" rx="32" fill="#f8fafc"/>
+  <rect x="28" y="28" width="904" height="464" rx="28" fill="#ffffff" stroke="#e2e8f0" stroke-width="3" filter="url(#shadow)"/>
+  <text x="480" y="82" text-anchor="middle" font-size="34" font-weight="800" fill="#0f172a">Dienste absichern</text>
+  <path d="M480 100 L720 190 V320 C720 410 610 455 480 480 C350 455 240 410 240 320 V190 Z" fill="#e0f2fe" stroke="#1f2937" stroke-width="4"/><text x="480" y="190" text-anchor="middle" font-size="24" font-weight="700">Benutzer</text><text x="480" y="248" text-anchor="middle" font-size="24" font-weight="700">Port</text><text x="480" y="306" text-anchor="middle" font-size="24" font-weight="700">Config</text><text x="480" y="364" text-anchor="middle" font-size="24" font-weight="700">Log</text>
+  <text x="480" y="480" text-anchor="middle" font-size="18" fill="#475569">Vereinfachte Orientierung – Details hängen vom konkreten Kontext ab.</text>
+</svg>

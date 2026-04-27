@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">Dateiänderungen beobachten</title>
+  <desc id="desc">Vereinfachtes Schaubild zur Überblicksseite Dateiänderungen beobachten.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="960" height="520" rx="32" fill="#f8fafc"/>
+  <rect x="28" y="28" width="904" height="464" rx="28" fill="#ffffff" stroke="#e2e8f0" stroke-width="3" filter="url(#shadow)"/>
+  <text x="480" y="82" text-anchor="middle" font-size="34" font-weight="800" fill="#0f172a">Dateiänderungen beobachten</text>
+  <rect x="60" y="220" width="150" height="90" rx="18" fill="#dbeafe" stroke="#1f2937" stroke-width="3"/><text x="135" y="272" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Datei</text><path d="M 224 265 L 276 265" stroke="#334155" stroke-width="4" marker-end="url(#arrow)"/><rect x="290" y="220" width="150" height="90" rx="18" fill="#dcfce7" stroke="#1f2937" stroke-width="3"/><text x="365" y="272" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Änderung</text><path d="M 454 265 L 506 265" stroke="#334155" stroke-width="4" marker-end="url(#arrow)"/><rect x="520" y="220" width="150" height="90" rx="18" fill="#fef3c7" stroke="#1f2937" stroke-width="3"/><text x="595" y="272" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Ereignis</text><path d="M 684 265 L 736 265" stroke="#334155" stroke-width="4" marker-end="url(#arrow)"/><rect x="750" y="220" width="150" height="90" rx="18" fill="#fae8ff" stroke="#1f2937" stroke-width="3"/><text x="825" y="272" text-anchor="middle" font-size="24" font-weight="700" fill="#111827">Reaktion</text>
+  <text x="480" y="480" text-anchor="middle" font-size="18" fill="#475569">Vereinfachte Orientierung – Details hängen vom konkreten Kontext ab.</text>
+</svg>

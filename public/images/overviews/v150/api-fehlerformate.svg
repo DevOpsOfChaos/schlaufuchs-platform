@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#64748b"/></marker></defs>
+<rect width="1200" height="360" fill="#ffffff"/>
+<text x="50" y="46" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#0f172a">Api Fehlerformate</text>
+<text x="50" y="78" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#475569">Übersichtsgrafik – zentrale Stationen, Beziehungen und Prüfgedanken.</text>
+<rect x="50" y="138" rx="12" ry="12" width="226" height="86" fill="#eff6ff" stroke="#475569" stroke-width="2"/>
+<text x="163.0" y="181.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#111827">Fehler</text>
+<line x1="276" y1="181.0" x2="320" y2="181.0" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="338" y="138" rx="12" ry="12" width="226" height="86" fill="#ecfdf5" stroke="#475569" stroke-width="2"/>
+<text x="451.0" y="181.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#111827">Statuscode</text>
+<line x1="564" y1="181.0" x2="608" y2="181.0" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="626" y="138" rx="12" ry="12" width="226" height="86" fill="#fff7ed" stroke="#475569" stroke-width="2"/>
+<text x="739.0" y="181.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#111827">Fehlerkörper</text>
+<line x1="852" y1="181.0" x2="896" y2="181.0" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="914" y="138" rx="12" ry="12" width="226" height="86" fill="#f5f3ff" stroke="#475569" stroke-width="2"/>
+<text x="1027.0" y="181.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#111827">Clientreaktion</text>
+<text x="50" y="314" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#64748b">Nicht maßstäblich; die Grafik dient als fachliche Orientierung.</text>
+</svg>

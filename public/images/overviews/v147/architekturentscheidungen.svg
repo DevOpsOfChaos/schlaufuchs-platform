@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">Architekturentscheidungen</title>
+  <desc id="desc">Vereinfachtes Schaubild zur Überblicksseite Architekturentscheidungen.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="960" height="520" rx="32" fill="#f8fafc"/>
+  <rect x="28" y="28" width="904" height="464" rx="28" fill="#ffffff" stroke="#e2e8f0" stroke-width="3" filter="url(#shadow)"/>
+  <text x="480" y="82" text-anchor="middle" font-size="34" font-weight="800" fill="#0f172a">Architekturentscheidungen</text>
+  <polygon points="480,120 660,245 480,370 300,245" fill="#fef3c7" stroke="#1f2937" stroke-width="4"/><text x="480" y="238" text-anchor="middle" font-size="23" font-weight="700">Kontext</text><text x="480" y="270" text-anchor="middle" font-size="20">Optionen</text><rect x="40" y="210" width="190" height="70" rx="18" fill="#dcfce7" stroke="#1f2937" stroke-width="3"/><text x="135" y="253" text-anchor="middle" font-size="22" font-weight="700">Entscheid</text><rect x="670" y="210" width="190" height="70" rx="18" fill="#dcfce7" stroke="#1f2937" stroke-width="3"/><text x="765" y="253" text-anchor="middle" font-size="22" font-weight="700">Folgen</text><path d="M300 245 H235 M660 245 H670" stroke="#334155" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="480" y="480" text-anchor="middle" font-size="18" fill="#475569">Vereinfachte Orientierung – Details hängen vom konkreten Kontext ab.</text>
+</svg>

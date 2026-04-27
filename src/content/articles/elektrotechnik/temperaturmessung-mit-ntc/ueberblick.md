@@ -1,0 +1,76 @@
+---
+title: "Temperaturmessung mit NTC"
+description: "Ein NTC ist ein temperaturabhängiger Widerstand, dessen Widerstandswert bei steigender Temperatur typischerweise sinkt."
+subject: elektrotechnik
+section: "Sensorik"
+topicPath:
+  - "temperaturmessung-mit-ntc"
+  - "ueberblick"
+learningGoals:
+  - "Du kannst Temperaturmessung mit NTC als allgemeinen Grundbegriff einordnen."
+  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
+  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+practiceIdeas: []
+commonMistakes:
+  - "Oft wird eine lineare Umrechnung angenommen. In vielen Temperaturbereichen ist das nur eine grobe Näherung."
+keyTakeaways:
+  - "Ein NTC ist ein temperaturabhängiger Widerstand, dessen Widerstandswert bei steigender Temperatur typischerweise sinkt."
+  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
+  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
+recognizeSignals:
+  - "Es geht um Temperaturmessung mit NTC, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
+  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
+selfCheckPoints:
+  - "Kann ich Temperaturmessung mit NTC in eigenen Worten erklären?"
+  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
+level: einfach
+tags:
+  - "elektrotechnik"
+  - "sensor"
+  - "temperatur"
+draft: false
+---
+
+# Temperaturmessung mit NTC
+
+Ein NTC ist ein temperaturabhängiger Widerstand, dessen Widerstandswert bei steigender
+Temperatur typischerweise sinkt. Diese Überblicksseite ordnet das Thema ruhig und allgemein ein. Sie ist nicht als Aufgabe oder Einzelfall gedacht, sondern als Einstieg, bevor konkrete Situationen, Werkzeuge, Formeln oder Fehlersuchen betrachtet werden.
+
+## Einordnung
+
+Das Thema gehört im Bereich Sensorik zu den Begriffen, die viele spätere Spezialfälle
+verständlicher machen. Es beschreibt nicht nur ein einzelnes Detail, sondern einen Zusammenhang:
+Was wird beobachtet, warum ist es wichtig, welche Größen oder Entscheidungen spielen hinein und
+wo liegen typische Grenzen?
+
+## Zentrale Teilaspekte
+
+- NTCs werden oft in Spannungsteilern gemessen.
+- Die Kennlinie ist nicht linear und muss interpretiert werden.
+- Selbsterwärmung durch Messstrom kann Messwerte verfälschen.
+- Toleranz und Kalibrierung bestimmen die erreichbare Genauigkeit.
+
+## Beispiel im Zusammenhang
+
+Ein Mikrocontroller misst einen Spannungsteiler aus Festwiderstand und NTC. Aus dem ADC-Wert
+wird über Kennlinie oder Tabelle eine Temperatur geschätzt.
+
+Das Beispiel zeigt, dass der Begriff nicht isoliert betrachtet werden sollte. In der Praxis hängt er mit Rahmenbedingungen, Messung, Darstellung, Bedienung oder Modellannahmen zusammen. Wer nur einen einzelnen Wert, Befehl oder sichtbaren Effekt betrachtet, übersieht leicht die eigentliche Ursache.
+
+## Abgrenzung
+
+Ein NTC liefert nicht direkt eine Temperatur, sondern einen Widerstand beziehungsweise eine
+Spannung.
+
+Diese Abgrenzung ist wichtig, weil viele Lernseiten später einzelne Werkzeuge oder Sonderfälle behandeln. Der Überblick hilft, solche Spezialfälle nicht mit dem ganzen Thema zu verwechseln.
+
+## Häufige Missverständnisse
+
+Oft wird eine lineare Umrechnung angenommen. In vielen Temperaturbereichen ist das nur eine
+grobe Näherung.
+
+Ein zweites Missverständnis besteht darin, das Thema nur als Rezept zu behandeln. Gerade bei Grundbegriffen ist aber entscheidend, die Voraussetzungen und Grenzen zu kennen. Dadurch wird klarer, wann ein Verfahren, eine Einstellung oder eine Erklärung wirklich passt.
+
+## Merksatz
+
+Temperaturmessung mit NTC ist ein Orientierungsbegriff: Er hilft, Beobachtungen zu sortieren, typische Entscheidungen zu begründen und Spezialfälle in einen größeren Zusammenhang einzuordnen.

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#64748b"/></marker></defs>
+<rect width="1200" height="360" fill="#ffffff"/>
+<text x="48" y="46" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#0f172a">Client Und Server Rendering</text>
+<text x="48" y="78" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#475569">Didaktische Übersicht – zentrale Beziehungen und Denkstationen auf einen Blick.</text>
+<rect x="48" y="138" width="228" height="86" rx="12" ry="12" fill="#eef4ff" stroke="#4a6fa5" stroke-width="2"/>
+<text x="162.0" y="181.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#1f2937">Server rendert</text>
+<line x1="276" y1="181.0" x2="318" y2="181.0" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="336" y="138" width="228" height="86" rx="12" ry="12" fill="#eefbf3" stroke="#4a6fa5" stroke-width="2"/>
+<text x="450.0" y="181.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#1f2937">HTML</text>
+<line x1="564" y1="181.0" x2="606" y2="181.0" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="624" y="138" width="228" height="86" rx="12" ry="12" fill="#fff8eb" stroke="#4a6fa5" stroke-width="2"/>
+<text x="738.0" y="181.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#1f2937">Browser ergänzt</text>
+<line x1="852" y1="181.0" x2="894" y2="181.0" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="912" y="138" width="228" height="86" rx="12" ry="12" fill="#f5f3ff" stroke="#4a6fa5" stroke-width="2"/>
+<text x="1026.0" y="181.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#1f2937">Interaktion</text>
+<text x="48" y="314" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#64748b">Skizze zur Orientierung – vereinfacht und nicht maßstäblich.</text>
+</svg>

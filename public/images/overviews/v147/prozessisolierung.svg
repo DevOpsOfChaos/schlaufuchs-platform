@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">Prozessisolierung</title>
+  <desc id="desc">Vereinfachtes Schaubild zur Überblicksseite Prozessisolierung.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0f172a" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="960" height="520" rx="32" fill="#f8fafc"/>
+  <rect x="28" y="28" width="904" height="464" rx="28" fill="#ffffff" stroke="#e2e8f0" stroke-width="3" filter="url(#shadow)"/>
+  <text x="480" y="82" text-anchor="middle" font-size="34" font-weight="800" fill="#0f172a">Prozessisolierung</text>
+  <rect x="180" y="120" width="520" height="70" rx="16" fill="#dbeafe" stroke="#1f2937" stroke-width="3"/><text x="440" y="164" text-anchor="middle" font-size="24" font-weight="700">Prozess</text><rect x="240" y="190" width="520" height="70" rx="16" fill="#dcfce7" stroke="#1f2937" stroke-width="3"/><text x="500" y="234" text-anchor="middle" font-size="24" font-weight="700">Rechte</text><rect x="300" y="260" width="520" height="70" rx="16" fill="#fef3c7" stroke="#1f2937" stroke-width="3"/><text x="560" y="304" text-anchor="middle" font-size="24" font-weight="700">Namespace</text><rect x="360" y="330" width="520" height="70" rx="16" fill="#fae8ff" stroke="#1f2937" stroke-width="3"/><text x="620" y="374" text-anchor="middle" font-size="24" font-weight="700">Grenze</text>
+  <text x="480" y="480" text-anchor="middle" font-size="18" fill="#475569">Vereinfachte Orientierung – Details hängen vom konkreten Kontext ab.</text>
+</svg>
