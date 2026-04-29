@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 960 540">
+  <title id="title">8-Bit- und 16-Bit-Timer</title>
+  <desc id="desc">Zählbereich, Prescaler und Zeitfenster werden als Zusammenhang dargestellt.</desc>
+  <style>
+    .bg{fill:#f8fafc}.card{fill:#fff;stroke:#334155;stroke-width:2}.soft{fill:#e0f2fe;stroke:#0369a1;stroke-width:2}.ok{fill:#dcfce7;stroke:#15803d;stroke-width:2}.warn{fill:#fef3c7;stroke:#b45309;stroke-width:2}.line{stroke:#334155;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}.muted{stroke:#64748b;stroke-width:2;fill:none;stroke-linecap:round}.txt{font-family:Arial,Helvetica,sans-serif;font-size:24px;fill:#0f172a;font-weight:700}.label{font-family:Arial,Helvetica,sans-serif;font-size:18px;fill:#0f172a;font-weight:700}.small{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#334155}
+  </style>
+  <rect class="bg" width="960" height="540" rx="28"/>
+  <text class="txt" x="48" y="62">8-Bit- und 16-Bit-Timer</text>
+  <rect class="card" x="80" y="180" width="210" height="120" rx="18"/><text class="label" x="185" y="230" text-anchor="middle">8 Bit</text><text class="small" x="185" y="258" text-anchor="middle">0 bis 255</text><rect class="card" x="375" y="150" width="210" height="180" rx="18"/><text class="label" x="480" y="226" text-anchor="middle">Prescaler</text><text class="small" x="480" y="254" text-anchor="middle">Takt wird geteilt</text><rect class="card" x="670" y="180" width="210" height="120" rx="18"/><text class="label" x="775" y="230" text-anchor="middle">16 Bit</text><text class="small" x="775" y="258" text-anchor="middle">0 bis 65535</text><path class="line" d="M290 240 H375 M585 240 H670"/>
+  <text class="small" x="48" y="500">Timerwahl hängt von Zählbereich, Takt und benötigtem Zeitfenster ab.</text>
+</svg>

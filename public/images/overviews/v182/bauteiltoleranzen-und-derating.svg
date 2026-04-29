@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 960 540">
+  <title id="title">Bauteiltoleranzen und Derating</title>
+  <desc id="desc">Didaktisches Schaubild für eine Schlaufuchs-Überblicksseite.</desc>
+  <rect width="960" height="540" rx="28" fill="#eff6ff"/>
+  <text x="54" y="62" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="800" fill="#0f172a">Bauteiltoleranzen und Derating</text>
+  <rect x="72" y="132" width="220" height="128" rx="20" fill="#ffffff" stroke="#2563eb" stroke-width="2.5"/>
+  <rect x="370" y="132" width="220" height="128" rx="20" fill="#ffffff" stroke="#2563eb" stroke-width="2.5"/>
+  <rect x="668" y="132" width="220" height="128" rx="20" fill="#ffffff" stroke="#2563eb" stroke-width="2.5"/>
+  <circle cx="96" cy="156" r="18" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="394" cy="156" r="18" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="692" cy="156" r="18" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="126" y="163" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Toleranz</text>
+  <text x="424" y="163" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Grenzwert</text>
+  <text x="722" y="163" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Derating</text>
+  <text x="96" y="215" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#334155">Beobachtung</text>
+  <text x="394" y="215" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#334155">Einordnung</text>
+  <text x="692" y="215" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#334155">Gegenprobe</text>
+  <path d="M302 196 H356" stroke="#475569" stroke-width="4" stroke-linecap="round"/>
+  <path d="M356 196 l-12 -9 m12 9 l-12 9" stroke="#475569" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M600 196 H654" stroke="#475569" stroke-width="4" stroke-linecap="round"/>
+  <path d="M654 196 l-12 -9 m12 9 l-12 9" stroke="#475569" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="115" y="332" width="730" height="96" rx="22" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="480" y="372" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#0f172a">Erst Zusammenhang klären, dann Detailfall prüfen.</text>
+  <text x="480" y="405" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#334155">Denkspur: Symptom → fachliche Einordnung → überprüfbare Gegenprobe.</text>
+</svg>

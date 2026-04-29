@@ -1,55 +1,64 @@
 ---
-title: "Codierung und Zeichensätze – Überblick"
-description: "Ein allgemeiner Überblick darüber, wie Zeichen technisch als Daten gespeichert werden und warum Zeichensätze wichtig sind."
+title: "Grundlagen: Codierung und Zeichensätze"
+description: "Text braucht eine Codierung, damit gespeicherte Daten korrekt als Zeichen gelesen werden."
 subject: informatik
 section: "Daten und Information"
 topicPath:
-  - daten-und-information
-  - codierung-und-zeichensaetze
-  - ueberblick
+  - "daten-und-information"
+  - "codierung-und-zeichensaetze"
+  - "ueberblick"
 learningGoals:
-  - Du kennst die Grundidee von Codierung.
-  - Du verstehst, warum Zeichensätze für Texte wichtig sind.
-  - Du kannst typische Darstellungsfehler einordnen.
+  - "Du ordnest Codierung und Zeichensätze fachlich ein."
+  - "Du unterscheidest zentrale Begriffe und typische Rollen."
+  - "Du erkennst häufige Fehler beim Anwenden."
 practiceIdeas:
-  - Vergleiche sichtbare Zeichen mit ihrer technischen Speicherung.
-  - Prüfe, warum Umlaute bei falscher Codierung kaputt aussehen können.
+  - "Formuliere die Grundidee in zwei Sätzen."
+  - "Ordne ein Beispiel den wichtigsten Begriffen zu."
 commonMistakes:
-  - Zeichen und gespeicherte Bytes gleichzusetzen.
-  - UTF-8 nur als Detail statt als wichtige Textgrundlage zu behandeln.
+  - "Sichtbaren Text mit seiner gespeicherten Bytefolge gleichzusetzen."
 keyTakeaways:
-  - Computer speichern Zeichen als Zahlen oder Bytefolgen.
-  - Eine falsche Codierung kann sichtbare Texte beschädigen.
+  - "Text braucht eine Codierung, damit gespeicherte Daten korrekt als Zeichen gelesen werden."
 recognizeSignals:
-  - Es geht um Text, Umlaute, Unicode, ASCII oder UTF-8.
+  - "Du brauchst eine ruhige Einordnung vor einer Einzelfalllösung."
 selfCheckPoints:
-  - Kann ich erklären, warum ein Zeichen technisch codiert werden muss?
-  - Kann ich sagen, warum UTF-8 wichtig ist?
-tags:
-  - informatik
-  - codierung
-  - zeichensaetze
-  - utf-8
+  - "Kann ich die Grundbegriffe voneinander unterscheiden?"
 level: einfach
+tags:
+  - "informatik"
+  - "daten-und-information"
+  - "codierung-und-zeichensaetze"
 draft: false
 ---
 
-# Codierung und Zeichensätze
+![Schaubild zu Codierung und Zeichensätze](/schlaufuchs-platform/images/overviews/v183/informatik-codierung-und-zeichensaetze.svg)
 
-Computer speichern Texte nicht direkt als Buchstaben, sondern als Zahlen. Eine **Codierung** legt fest, welche Zahl oder Bytefolge für welches Zeichen steht. Ein **Zeichensatz** beschreibt die Menge der Zeichen, die dargestellt werden können.
+## Begriff
 
-## Grundprinzip
+**Codierung und Zeichensätze** ist ein Grundthema der Informatik. Diese Überblicksseite erklärt den allgemeinen Rahmen, damit Detailseiten und Aufgaben nicht als isolierte Einzelfälle gelesen werden.
 
-Damit ein Computer den Buchstaben „A“ speichern kann, braucht er eine eindeutige technische Darstellung. Beim Anzeigen wird diese Darstellung wieder in ein sichtbares Zeichen übersetzt. Codierung ist also eine Vereinbarung zwischen Speicherung und Darstellung.
+## Zentrale Begriffe
 
-## Warum Zeichensätze wichtig sind
+- **Zeichen**: wichtiger Begriff für die Einordnung dieses Themas.
+- **Codepunkt**: wichtiger Begriff für die Einordnung dieses Themas.
+- **Zeichensatz**: wichtiger Begriff für die Einordnung dieses Themas.
+- **Encoding**: wichtiger Begriff für die Einordnung dieses Themas.
 
-Wenn zwei Programme unterschiedliche Codierungen erwarten, können Zeichen falsch erscheinen. Besonders sichtbar wird das bei Umlauten und Sonderzeichen. Aus „ä“ kann dann eine fehlerhafte Zeichenfolge werden. Das Problem liegt nicht am Buchstaben selbst, sondern an der falschen Interpretation der gespeicherten Bytes.
+## Warum das Thema wichtig ist
 
-## ASCII, Unicode und UTF-8
+Text braucht eine Codierung, damit gespeicherte Daten korrekt als Zeichen gelesen werden. Wer diesen Rahmen kennt, kann Aufgaben ruhiger bearbeiten und erkennt schneller, ob ein Problem wirklich zu diesem Thema gehört.
 
-ASCII ist ein älterer Zeichensatz für grundlegende englische Zeichen. Für moderne Texte reicht ASCII allein nicht aus. Unicode beschreibt eine sehr große Menge an Zeichen aus vielen Sprachen. UTF-8 ist eine verbreitete Art, Unicode-Zeichen in Bytes zu speichern.
+## Typisches Beispiel
+
+Ein kleines Beispiel sollte immer zeigen, welche Begriffe wirken, welche Voraussetzung gilt und wo die Grenze des Beispiels liegt. So wird aus einem Einzelfall eine übertragbare Lernspur.
+
+## Abgrenzung
+
+Diese Seite ersetzt keine Syntaxreferenz und keine Spezialseite. Sie klärt die Grundidee, typische Begriffe, Zweck und häufige Missverständnisse.
+
+## Häufiges Missverständnis
+
+Sichtbaren Text mit seiner gespeicherten Bytefolge gleichzusetzen.
 
 ## Merksatz
 
-Ein Zeichen ist für den Computer eine vereinbarte technische Darstellung. Wird diese Darstellung falsch gelesen, erscheint der Text fehlerhaft.
+Text braucht eine Codierung, damit gespeicherte Daten korrekt als Zeichen gelesen werden.

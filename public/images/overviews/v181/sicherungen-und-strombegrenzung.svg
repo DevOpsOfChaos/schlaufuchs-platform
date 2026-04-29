@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 960 540">
+<title id="title">Strombegrenzung als Schutzkette</title>
+<desc id="desc">Schematische Lernillustration für die Schlaufuchs-Überblicksseite Strombegrenzung als Schutzkette.</desc>
+<style>
+.bg{fill:#f8fafc}.card{fill:#ffffff;stroke:#334155;stroke-width:2}.line{stroke:#334155;stroke-width:2.4;fill:none;stroke-linecap:round;stroke-linejoin:round}.txt{font-family:Arial,Helvetica,sans-serif;font-size:24px;fill:#0f172a;font-weight:700}.small{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#334155}.label{font-family:Arial,Helvetica,sans-serif;font-size:16px;fill:#0f172a;font-weight:700}.accent{fill:#dbeafe;stroke:#1d4ed8;stroke-width:2}.ok{fill:#dcfce7;stroke:#15803d;stroke-width:2}.warn{fill:#fef3c7;stroke:#b45309;stroke-width:2}
+</style>
+<rect class="bg" x="0" y="0" width="960" height="540" rx="24"/>
+<text class="txt" x="48" y="62">Strombegrenzung als Schutzkette</text>
+<rect class="accent" x="80" y="110" width="800" height="72" rx="18"/>
+<text class="label" text-anchor="middle" x="480" y="154">Allgemeiner Überblick über Sicherungen, Strombegrenzung und Schutz bei elektrischen Fehlerfä</text>
+<rect class="card" x="70" y="205" width="170" height="84" rx="16"/><text class="label" text-anchor="middle" x="155" y="254">Fehlerstrom</text><path class="line" d="M245 247 H275"/><path class="line" d="m267 238 10 9-10 9"/><rect class="card" x="285" y="205" width="170" height="84" rx="16"/><text class="label" text-anchor="middle" x="370" y="254">Sicherung</text><path class="line" d="M460 247 H490"/><path class="line" d="m482 238 10 9-10 9"/><rect class="card" x="500" y="205" width="170" height="84" rx="16"/><text class="label" text-anchor="middle" x="585" y="254">Last</text><path class="line" d="M675 247 H705"/><path class="line" d="m697 238 10 9-10 9"/><rect class="card" x="715" y="205" width="170" height="84" rx="16"/><text class="label" text-anchor="middle" x="800" y="254">Grenzwert</text>
+<rect class="ok" x="170" y="365" width="270" height="70" rx="16"/><text class="label" text-anchor="middle" x="305" y="406">Normalfall beschreiben</text>
+<rect class="warn" x="520" y="365" width="270" height="70" rx="16"/><text class="label" text-anchor="middle" x="655" y="406">Fehlerfall prüfen</text>
+<path class="line" d="M440 400 H520"/>
+<text class="small" x="48" y="500">Schaubild: erst Zusammenhang lesen, dann konkrete Werte, Code oder Bauteile bewerten.</text>
+</svg>

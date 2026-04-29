@@ -1,74 +1,64 @@
 ---
 title: "Grundlagen: Listen und Indizes"
-description: "Allgemeine Einordnung zu Listen, Positionen, Zugriffen und typischen Indexfehlern."
+description: "Listen ordnen Werte, Indizes greifen auf Positionen zu und brauchen klare Grenzen."
 subject: informatik
-section: "Programmierung"
+section: "Datenstrukturen im Einsatz"
 topicPath:
   - "datenstrukturen-im-einsatz"
   - "listen-und-indizes"
   - "ueberblick"
 learningGoals:
-  - "Du kennst die Grundidee des Themas und kannst sie in eigenen Worten erklären."
-  - "Du kannst typische Begriffe einordnen, ohne sofort in Spezialfälle zu springen."
-  - "Du erkennst, welche Detailseiten zu welchem Teilaspekt gehören."
+  - "Du ordnest Listen und Indizes fachlich ein."
+  - "Du unterscheidest zentrale Begriffe und typische Rollen."
+  - "Du erkennst häufige Fehler beim Anwenden."
 practiceIdeas:
-  - "Lies zuerst diese Überblicksseite und danach eine passende Detailseite."
-  - "Notiere drei zentrale Begriffe und formuliere zu jedem eine kurze Erklärung."
-  - "Ordne eine konkrete Aufgabe dem passenden Teilaspekt des Themas zu."
+  - "Formuliere die Grundidee in zwei Sätzen."
+  - "Ordne ein Beispiel den wichtigsten Begriffen zu."
 commonMistakes:
-  - "Direkt mit Spezialfällen zu beginnen, bevor die Grundidee klar ist."
-  - "Ähnliche Begriffe zu vermischen, obwohl sie verschiedene Rollen haben."
-  - "Ein einzelnes Beispiel für das gesamte Thema zu halten."
+  - "Index und Anzahl zu verwechseln und dadurch Off-by-one-Fehler zu erzeugen."
 keyTakeaways:
-  - "Die Überblicksseite erklärt den allgemeinen Zusammenhang des Themas."
-  - "Detailseiten behandeln danach konkrete Situationen, Methoden oder Fehlerbilder."
-  - "Gute Orientierung entsteht durch Definition, Zweck, Aufbau und Abgrenzung."
+  - "Listen ordnen Werte, Indizes greifen auf Positionen zu und brauchen klare Grenzen."
 recognizeSignals:
-  - "Du suchst zuerst eine allgemeine Einordnung statt einer einzelnen Übungssituation."
-  - "Mehrere Detailseiten wirken ähnlich und sollen fachlich sortiert werden."
-  - "Ein Thema braucht eine ruhige Erklärung, bevor Beispiele sinnvoll werden."
+  - "Du brauchst eine ruhige Einordnung vor einer Einzelfalllösung."
 selfCheckPoints:
-  - "Kann ich das Thema in zwei bis drei Sätzen allgemein erklären?"
-  - "Kann ich die wichtigsten Unterbegriffe voneinander unterscheiden?"
-  - "Weiß ich, welche Detailseite ich als Nächstes lesen würde?"
+  - "Kann ich die Grundbegriffe voneinander unterscheiden?"
+level: einfach
 tags:
   - "informatik"
-  - "listen"
-  - "indizes"
-  - "datenstrukturen"
-level: einfach
+  - "datenstrukturen-im-einsatz"
+  - "listen-und-indizes"
 draft: false
 ---
 
-Eine Liste speichert mehrere Werte in einer geordneten Folge. Ein Index beschreibt die Position eines Elements innerhalb dieser Folge.
+![Schaubild zu Listen und Indizes](/schlaufuchs-platform/images/overviews/v183/informatik-listen-und-indizes.svg)
 
-## Einordnung
+## Begriff
 
-Listen gehören zu den wichtigsten Datenstrukturen in der Programmierung. Sie werden genutzt, wenn Werte gesammelt, durchlaufen, verändert oder ausgewertet werden sollen.
+**Listen und Indizes** ist ein Grundthema der Informatik. Diese Überblicksseite erklärt den allgemeinen Rahmen, damit Detailseiten und Aufgaben nicht als isolierte Einzelfälle gelesen werden.
+
+## Zentrale Begriffe
+
+- **Liste**: wichtiger Begriff für die Einordnung dieses Themas.
+- **Index**: wichtiger Begriff für die Einordnung dieses Themas.
+- **Position**: wichtiger Begriff für die Einordnung dieses Themas.
+- **Grenze**: wichtiger Begriff für die Einordnung dieses Themas.
 
 ## Warum das Thema wichtig ist
 
-Ohne Überblick wirken Detailseiten schnell wie voneinander getrennte Einzelfälle. Diese Seite erklärt deshalb zuerst den allgemeinen Zusammenhang, bevor konkrete Situationen, Aufgaben oder Fehlerbilder behandelt werden.
+Listen ordnen Werte, Indizes greifen auf Positionen zu und brauchen klare Grenzen. Wer diesen Rahmen kennt, kann Aufgaben ruhiger bearbeiten und erkennt schneller, ob ein Problem wirklich zu diesem Thema gehört.
 
-## Zentrale Bestandteile
+## Typisches Beispiel
 
-- **Element:** Ein einzelner gespeicherter Wert.
-- **Index:** Eine Positionsangabe, oft beginnend bei 0.
-- **Länge:** Die Anzahl der Elemente.
-- **Iteration:** Das schrittweise Durchlaufen der Liste.
+Ein kleines Beispiel sollte immer zeigen, welche Begriffe wirken, welche Voraussetzung gilt und wo die Grenze des Beispiels liegt. So wird aus einem Einzelfall eine übertragbare Lernspur.
 
-## Grundprinzip
+## Abgrenzung
 
-Das Thema wird zuerst über Begriffe, Zweck und typische Entscheidungen verstanden. Erst danach lohnt sich der Blick auf Spezialfälle, Codebeispiele, Messwerte oder Rechenschritte.
+Diese Seite ersetzt keine Syntaxreferenz und keine Spezialseite. Sie klärt die Grundidee, typische Begriffe, Zweck und häufige Missverständnisse.
 
-## Abgrenzung zu Detailseiten
+## Häufiges Missverständnis
 
-Detailseiten erklären konkrete Methoden, Situationen oder Fehlerbilder. Diese Überblicksseite ist allgemeiner: Sie beschreibt, worum es im Themenfeld geht, warum es gebraucht wird und wie die folgenden Lernseiten eingeordnet werden können.
+Index und Anzahl zu verwechseln und dadurch Off-by-one-Fehler zu erzeugen.
 
-## Beispielhafte Anwendung
+## Merksatz
 
-Bei einer Liste mit fünf Elementen sind in vielen Programmiersprachen die Indizes 0 bis 4 gültig. Der Index 5 wirkt naheliegend, ist aber außerhalb der Liste.
-
-## Zusammenfassung
-
-Eine gute Überblicksseite ersetzt keine Detailseite. Sie ordnet ein Thema so ein, dass einzelne Spezialfälle später verständlich werden. Wer zuerst Begriffe, Zweck und Grenzen kennt, kann Aufgaben und Beispiele deutlich ruhiger lesen.
+Listen ordnen Werte, Indizes greifen auf Positionen zu und brauchen klare Grenzen.

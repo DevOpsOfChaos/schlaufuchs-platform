@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 960 540">
+<title id="title">Elektrotechnik-Praxis</title>
+<desc id="desc">Praxis verbindet Begriffe, Schaltung, Messung und Gegenprobe.</desc>
+<style>
+.bg{fill:#f8fafc}.panel{fill:#ffffff;stroke:#cbd5e1;stroke-width:2}.card{fill:#eef6ff;stroke:#2563eb;stroke-width:2}.line{stroke:#334155;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}.txt{font-family:Arial,Helvetica,sans-serif;font-size:28px;fill:#0f172a;font-weight:800}.small{font-family:Arial,Helvetica,sans-serif;font-size:17px;fill:#334155}.label{font-family:Arial,Helvetica,sans-serif;font-size:19px;fill:#0f172a;font-weight:700}
+</style>
+<rect class="bg" width="960" height="540" rx="28"/>
+<rect class="panel" x="48" y="70" width="864" height="390" rx="24"/>
+<text class="txt" x="86" y="132">Elektrotechnik-Praxis</text>
+<text class="small" x="86" y="170">Praxis verbindet Begriffe, Schaltung, Messung und Gegenprobe.</text>
+<rect class="card" x="90" y="205" width="200" height="92" rx="18"/><text class="label" text-anchor="middle" x="190" y="258">Planen</text><path class="line" d="M295 251 H335"/><path class="line" d="m326 240 13 11-13 11"/><rect class="card" x="350" y="205" width="200" height="92" rx="18"/><text class="label" text-anchor="middle" x="450" y="258">Messen</text><path class="line" d="M555 251 H595"/><path class="line" d="m586 240 13 11-13 11"/><rect class="card" x="610" y="205" width="200" height="92" rx="18"/><text class="label" text-anchor="middle" x="710" y="258">Prüfen</text>
+<text class="small" x="86" y="410">Überblicksbild: erst den Zusammenhang lesen, dann Detailaufgaben bearbeiten.</text>
+</svg>

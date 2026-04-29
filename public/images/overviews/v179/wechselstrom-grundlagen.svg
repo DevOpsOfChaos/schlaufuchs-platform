@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 960 540">
+  <title id="title">Wechselstrom als zeitlicher Verlauf</title>
+  <desc id="desc">Amplitude, Periodendauer und Nulldurchgang werden an einer Sinuskurve gezeigt.</desc>
+  <style>
+    .bg{fill:#f8fafc}.card{fill:#fff;stroke:#334155;stroke-width:2}.soft{fill:#e0f2fe;stroke:#0369a1;stroke-width:2}.ok{fill:#dcfce7;stroke:#15803d;stroke-width:2}.warn{fill:#fef3c7;stroke:#b45309;stroke-width:2}.line{stroke:#334155;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}.muted{stroke:#64748b;stroke-width:2;fill:none;stroke-linecap:round}.txt{font-family:Arial,Helvetica,sans-serif;font-size:24px;fill:#0f172a;font-weight:700}.label{font-family:Arial,Helvetica,sans-serif;font-size:18px;fill:#0f172a;font-weight:700}.small{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#334155}
+  </style>
+  <rect class="bg" width="960" height="540" rx="28"/>
+  <text class="txt" x="48" y="62">Wechselstrom als zeitlicher Verlauf</text>
+  <path class="muted" d="M100 270 H860 M140 120 V420"/><path class="line" d="M140 270 C210 120 280 120 350 270 S490 420 560 270 S700 120 770 270 S850 360 900 270"/><line class="muted" x1="350" y1="270" x2="350" y2="120"/><text class="small" x="360" y="150">Amplitude</text><path class="muted" d="M350 455 H770"/><text class="label" x="560" y="480" text-anchor="middle">Periodendauer</text>
+  <text class="small" x="48" y="500">Wechselstrom wird über zeitliche Änderung gelesen, nicht nur über einen einzelnen Momentanwert.</text>
+</svg>

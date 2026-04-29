@@ -19,6 +19,7 @@
     "astro": "astro",
     "repair:mojibake": "node scripts/quality/repair-mojibake.mjs",
     "check:content": "node scripts/quality/check-content-encoding-and-structure.mjs",
+    "audit:content": "node scripts/quality/generate-content-quality-audit.mjs",
     "quality": "npm run repair:mojibake && npm run check:content && npm run build"
   },
   "keywords": [

@@ -1,51 +1,64 @@
 ---
 title: "Grundlagen: Sets, Maps und Eindeutigkeit"
-description: "Allgemeiner Überblick über Mengen, Zuordnungen und die Frage, wann Daten eindeutig sein sollen."
+description: "Sets sichern Eindeutigkeit, Maps verbinden eindeutige Schlüssel mit Werten."
 subject: informatik
 section: "Datenstrukturen im Einsatz"
 topicPath:
-  - datenstrukturen-im-einsatz
-  - sets-maps-und-eindeutigkeit
-  - grundlagen-sets-maps-und-eindeutigkeit
+  - "datenstrukturen-im-einsatz"
+  - "sets-maps-und-eindeutigkeit"
+  - "ueberblick"
 learningGoals:
-  - "Du unterscheidest Listen, Sets und Maps nach ihrem Zweck."
-  - "Du erklärst Eindeutigkeit als zentrale Eigenschaft eines Sets."
-  - "Du beschreibst Maps als Zuordnung von Schlüsseln zu Werten."
-practiceIdeas: []
+  - "Du ordnest Sets, Maps und Eindeutigkeit fachlich ein."
+  - "Du unterscheidest zentrale Begriffe und typische Rollen."
+  - "Du erkennst häufige Fehler beim Anwenden."
+practiceIdeas:
+  - "Formuliere die Grundidee in zwei Sätzen."
+  - "Ordne ein Beispiel den wichtigsten Begriffen zu."
 commonMistakes:
-  - "Ein Set wie eine sortierte Liste zu behandeln."
-  - "Schlüssel und Wert in einer Map zu vertauschen."
-  - "Eindeutigkeit erst nachträglich statt bei der Datenstruktur mitzudenken."
+  - "Eine Liste zu verwenden, obwohl Eindeutigkeit oder Schlüsselzugriff fachlich wichtiger wäre."
 keyTakeaways:
-  - "Sets speichern Elemente ohne doppelte Einträge."
-  - "Maps speichern Werte unter eindeutigen Schlüsseln."
-  - "Die Datenstruktur sollte zum Zugriffsmuster passen."
-recognizeSignals: []
-selfCheckPoints: []
-level: einfach
+  - "Sets sichern Eindeutigkeit, Maps verbinden eindeutige Schlüssel mit Werten."
+recognizeSignals:
+  - "Du brauchst eine ruhige Einordnung vor einer Einzelfalllösung."
+selfCheckPoints:
+  - "Kann ich die Grundbegriffe voneinander unterscheiden?"
+level: mittel
 tags:
-  - informatik
-  - datenstrukturen
-  - set
-  - map
+  - "informatik"
+  - "datenstrukturen-im-einsatz"
+  - "sets-maps-und-eindeutigkeit"
 draft: false
 ---
+
+![Schaubild zu Sets, Maps und Eindeutigkeit](/schlaufuchs-platform/images/overviews/v183/informatik-sets-maps-und-eindeutigkeit.svg)
+
 ## Begriff
 
-**Sets** und **Maps** sind Datenstrukturen für spezielle Ordnungsfragen. Ein Set beantwortet vor allem: Ist ein Element vorhanden? Eine Map beantwortet: Welcher Wert gehört zu einem Schlüssel?
+**Sets, Maps und Eindeutigkeit** ist ein Grundthema der Informatik. Diese Überblicksseite erklärt den allgemeinen Rahmen, damit Detailseiten und Aufgaben nicht als isolierte Einzelfälle gelesen werden.
 
-## Sets
+## Zentrale Begriffe
 
-Ein Set ist eine Menge. Es speichert ein Element höchstens einmal. Dadurch eignet es sich gut, wenn Eindeutigkeit wichtig ist: doppelte Namen vermeiden, bereits besuchte Knoten merken oder bekannte Werte schnell prüfen.
+- **Set**: wichtiger Begriff für die Einordnung dieses Themas.
+- **Map**: wichtiger Begriff für die Einordnung dieses Themas.
+- **Schlüssel**: wichtiger Begriff für die Einordnung dieses Themas.
+- **Eindeutigkeit**: wichtiger Begriff für die Einordnung dieses Themas.
 
-## Maps
+## Warum das Thema wichtig ist
 
-Eine Map arbeitet mit Paaren aus Schlüssel und Wert. Der Schlüssel ist eindeutig und führt zum gespeicherten Wert. Beispiele sind Benutzername zu Profil, Artikelnummer zu Preis oder Dateiendung zu Dateityp.
+Sets sichern Eindeutigkeit, Maps verbinden eindeutige Schlüssel mit Werten. Wer diesen Rahmen kennt, kann Aufgaben ruhiger bearbeiten und erkennt schneller, ob ein Problem wirklich zu diesem Thema gehört.
 
-## Unterschied zu Listen
+## Typisches Beispiel
 
-Eine Liste bewahrt Reihenfolge und Positionen. Ein Set betont Eindeutigkeit. Eine Map betont Zuordnung. Deshalb ist die Frage nicht, welche Datenstruktur „besser“ ist, sondern welche Frage das Programm häufig stellt.
+Ein kleines Beispiel sollte immer zeigen, welche Begriffe wirken, welche Voraussetzung gilt und wo die Grenze des Beispiels liegt. So wird aus einem Einzelfall eine übertragbare Lernspur.
 
-<div class="note-panel">
-  <p><strong>Merke:</strong> Sets und Maps sind keine komplizierteren Listen. Sie lösen andere Fragen: Eindeutigkeit und Zuordnung.</p>
-</div>
+## Abgrenzung
+
+Diese Seite ersetzt keine Syntaxreferenz und keine Spezialseite. Sie klärt die Grundidee, typische Begriffe, Zweck und häufige Missverständnisse.
+
+## Häufiges Missverständnis
+
+Eine Liste zu verwenden, obwohl Eindeutigkeit oder Schlüsselzugriff fachlich wichtiger wäre.
+
+## Merksatz
+
+Sets sichern Eindeutigkeit, Maps verbinden eindeutige Schlüssel mit Werten.

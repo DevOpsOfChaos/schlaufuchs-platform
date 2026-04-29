@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 960 540">
+  <title id="title">Spannungsteiler unter Last</title>
+  <desc id="desc">Unbelasteter und belasteter Spannungsteiler werden unterschieden.</desc>
+  <style>
+    .bg{fill:#f8fafc}.card{fill:#fff;stroke:#334155;stroke-width:2}.soft{fill:#e0f2fe;stroke:#0369a1;stroke-width:2}.ok{fill:#dcfce7;stroke:#15803d;stroke-width:2}.warn{fill:#fef3c7;stroke:#b45309;stroke-width:2}.line{stroke:#334155;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}.muted{stroke:#64748b;stroke-width:2;fill:none;stroke-linecap:round}.txt{font-family:Arial,Helvetica,sans-serif;font-size:24px;fill:#0f172a;font-weight:700}.label{font-family:Arial,Helvetica,sans-serif;font-size:18px;fill:#0f172a;font-weight:700}.small{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#334155}
+  </style>
+  <rect class="bg" width="960" height="540" rx="28"/>
+  <text class="txt" x="48" y="62">Spannungsteiler unter Last</text>
+  <rect class="card" x="100" y="145" width="300" height="230" rx="18"/><text class="label" x="250" y="190" text-anchor="middle">unbelastet</text><path class="line" d="M250 215 V320"/><rect class="warn" x="220" y="225" width="60" height="36" rx="8"/><rect class="warn" x="220" y="285" width="60" height="36" rx="8"/><rect class="card" x="560" y="145" width="300" height="230" rx="18"/><text class="label" x="710" y="190" text-anchor="middle">belastet</text><path class="line" d="M710 215 V320 M710 270 H790"/><rect class="warn" x="680" y="225" width="60" height="36" rx="8"/><rect class="warn" x="680" y="285" width="60" height="36" rx="8"/><rect class="soft" x="790" y="245" width="48" height="50" rx="8"/>
+  <text class="small" x="48" y="500">Eine Last verändert den wirksamen Widerstand und damit die Teilspannung.</text>
+</svg>

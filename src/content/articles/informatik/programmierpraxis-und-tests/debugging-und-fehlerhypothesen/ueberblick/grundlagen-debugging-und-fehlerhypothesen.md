@@ -1,74 +1,73 @@
 ---
 title: "Grundlagen: Debugging und Fehlerhypothesen"
-description: "Allgemeine Einordnung zu systematischer Fehlersuche, Beobachtung und Hypothesenbildung im Code."
+description: "Ordne Debugging als systematische Prüfung von Annahmen statt als wildes Ausprobieren ein."
 subject: informatik
-section: "Programmierpraxis"
+section: "programmierpraxis-und-tests"
 topicPath:
   - "programmierpraxis-und-tests"
   - "debugging-und-fehlerhypothesen"
-  - "ueberblick"
 learningGoals:
-  - "Du kennst die Grundidee des Themas und kannst sie in eigenen Worten erklären."
-  - "Du kannst typische Begriffe einordnen, ohne sofort in Spezialfälle zu springen."
-  - "Du erkennst, welche Detailseiten zu welchem Teilaspekt gehören."
+  - "Du erklärst die Grundidee von Debugging und Fehlerhypothesen in eigenen Worten."
+  - "Du ordnest typische Begriffe und Teilaspekte fachlich richtig ein."
+  - "Du erkennst, welche Detailseiten, Aufgaben oder Fehlerbilder zum Thema passen."
 practiceIdeas:
-  - "Lies zuerst diese Überblicksseite und danach eine passende Detailseite."
-  - "Notiere drei zentrale Begriffe und formuliere zu jedem eine kurze Erklärung."
-  - "Ordne eine konkrete Aufgabe dem passenden Teilaspekt des Themas zu."
+  - "Beschreibe ein eigenes Beispiel und markiere die wichtigsten Begriffe."
+  - "Vergleiche die Übersicht mit einer konkreten Aufgabe zum gleichen Thema."
 commonMistakes:
-  - "Direkt mit Spezialfällen zu beginnen, bevor die Grundidee klar ist."
-  - "Ähnliche Begriffe zu vermischen, obwohl sie verschiedene Rollen haben."
   - "Ein einzelnes Beispiel für das gesamte Thema zu halten."
+  - "Begriffe zu vermischen, die unterschiedliche Rollen haben."
+  - "Direkt mit Spezialfällen zu beginnen, bevor die Grundidee klar ist."
 keyTakeaways:
-  - "Die Überblicksseite erklärt den allgemeinen Zusammenhang des Themas."
-  - "Detailseiten behandeln danach konkrete Situationen, Methoden oder Fehlerbilder."
-  - "Gute Orientierung entsteht durch Definition, Zweck, Aufbau und Abgrenzung."
+  - "Debugging beginnt mit einer genauen Beobachtung."
+  - "Eine Fehlerhypothese beschreibt, was vermutlich schief läuft."
+  - "Gute Fehlersuche prüft gezielt eine Annahme nach der anderen."
 recognizeSignals:
-  - "Du suchst zuerst eine allgemeine Einordnung statt einer einzelnen Übungssituation."
+  - "Du suchst zuerst eine allgemeine Einordnung statt eines Einzelfalls."
   - "Mehrere Detailseiten wirken ähnlich und sollen fachlich sortiert werden."
-  - "Ein Thema braucht eine ruhige Erklärung, bevor Beispiele sinnvoll werden."
 selfCheckPoints:
   - "Kann ich das Thema in zwei bis drei Sätzen allgemein erklären?"
-  - "Kann ich die wichtigsten Unterbegriffe voneinander unterscheiden?"
-  - "Weiß ich, welche Detailseite ich als Nächstes lesen würde?"
+  - "Kann ich die wichtigsten Teilaspekte voneinander unterscheiden?"
+level: einfach
 tags:
   - "informatik"
   - "debugging"
-  - "tests"
-  - "fehleranalyse"
-level: einfach
+  - "fehler"
 draft: false
 ---
 
-Debugging ist die systematische Suche nach Ursachen für unerwartetes Verhalten in Programmen. Eine Fehlerhypothese ist eine prüfbare Vermutung darüber, wo oder warum ein Fehler entsteht.
+![Debugging als Prüfprozess](/schlaufuchs-platform/images/overviews/v184/debugging-und-fehlerhypothesen-v184.svg)
 
-## Einordnung
+## Begriff
 
-In der Programmierpraxis ist Debugging kein zufälliges Herumprobieren. Es verbindet Beobachten, Eingrenzen, Prüfen und Korrigieren zu einem nachvollziehbaren Ablauf.
+**Debugging und Fehlerhypothesen** ist ein grundlegendes Thema der Informatik, weil es hilft, Programme, Daten oder Systeme nicht nur als Einzelfälle zu sehen. Die Seite ordnet das Thema allgemein ein, bevor konkrete Übungen oder Spezialprobleme folgen.
 
 ## Warum das Thema wichtig ist
 
-Ohne Überblick wirken Detailseiten schnell wie voneinander getrennte Einzelfälle. Diese Seite erklärt deshalb zuerst den allgemeinen Zusammenhang, bevor konkrete Situationen, Aufgaben oder Fehlerbilder behandelt werden.
+Debugging beginnt mit einer genauen Beobachtung. Eine Fehlerhypothese beschreibt, was vermutlich schief läuft. Wer diese Ebene versteht, kann spätere Detailseiten ruhiger lesen und typische Fehler besser einordnen.
 
-## Zentrale Bestandteile
+## Zentrale Teilaspekte
 
-- **Symptom:** Das sichtbare falsche Verhalten.
-- **Ursache:** Der eigentliche Grund für das Symptom.
-- **Hypothese:** Eine überprüfbare Vermutung.
-- **Minimalbeispiel:** Ein kleiner Fall, der den Fehler reproduzierbar zeigt.
+Im Einstieg sind besonders wichtig:
 
-## Grundprinzip
+- der Zweck des Themas,
+- die beteiligten Begriffe,
+- typische Grenzen oder Fehlannahmen,
+- der Zusammenhang zu Programmabläufen, Daten oder Systemen.
 
-Das Thema wird zuerst über Begriffe, Zweck und typische Entscheidungen verstanden. Erst danach lohnt sich der Blick auf Spezialfälle, Codebeispiele, Messwerte oder Rechenschritte.
+Gute Fehlersuche prüft gezielt eine Annahme nach der anderen.
+
+## Beispielhafte Einordnung
+
+Ein konkretes Beispiel sollte nicht isoliert betrachtet werden. Zuerst wird geklärt, welche Rolle Eingaben, Daten, Regeln, Zustände oder Schnittstellen spielen. Danach lassen sich Aufgaben, Codeausschnitte oder Fehlersituationen deutlich besser zuordnen.
+
+## Häufiges Missverständnis
+
+Viele zufällige Änderungen sind keine systematische Fehlersuche. Diese Abgrenzung ist wichtig, damit aus einer einzelnen Problemsituation kein falsches Gesamtverständnis entsteht.
 
 ## Abgrenzung zu Detailseiten
 
-Detailseiten erklären konkrete Methoden, Situationen oder Fehlerbilder. Diese Überblicksseite ist allgemeiner: Sie beschreibt, worum es im Themenfeld geht, warum es gebraucht wird und wie die folgenden Lernseiten eingeordnet werden können.
+Detailseiten können bestimmte Aufgaben, Fehlerbilder oder Verfahren behandeln. Diese Überblicksseite liefert den gemeinsamen Rahmen: Begriff, Zweck, Teilaspekte, typische Grenzen und Orientierung im Lernpfad.
 
-## Beispielhafte Anwendung
-
-Wenn eine Funktion manchmal `undefined` liefert, wird zuerst geprüft, für welche Eingaben es passiert und welcher Rückgabepfad betroffen ist.
-
-## Zusammenfassung
-
-Eine gute Überblicksseite ersetzt keine Detailseite. Sie ordnet ein Thema so ein, dass einzelne Spezialfälle später verständlich werden. Wer zuerst Begriffe, Zweck und Grenzen kennt, kann Aufgaben und Beispiele deutlich ruhiger lesen.
+<div class="note-panel">
+  <p><strong>Merke:</strong> Eine gute Überblicksseite erklärt zuerst den Zusammenhang. Erst danach werden Spezialfälle, Aufgaben und Lösungen wirklich sinnvoll.</p>
+</div>

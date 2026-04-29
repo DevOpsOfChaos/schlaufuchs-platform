@@ -1,62 +1,64 @@
 ---
 title: "Grundlagen: Tabellen und Schlüssel"
-description: "Allgemeiner Überblick über Tabellen, Datensätze, Attribute, Primärschlüssel und Beziehungen in Datenbanken."
+description: "Schlüssel machen Daten zuverlässig identifizierbar und verbinden Tabellen kontrolliert."
 subject: informatik
 section: "Datenbanken"
 topicPath:
-  - datenbanken
-  - tabellen-und-schluessel
-  - grundlagen-tabellen-und-schluessel
+  - "datenbanken"
+  - "tabellen-und-schluessel"
+  - "ueberblick"
 learningGoals:
-  - "Du erklärst Tabellen als strukturierte Sammlung gleichartiger Datensätze."
-  - "Du beschreibst Attribute, Zeilen und Schlüssel in einer Datenbank."
-  - "Du ordnest Primärschlüssel als eindeutige Kennzeichnung eines Datensatzes ein."
-practiceIdeas: []
+  - "Du ordnest Tabellen und Schlüssel fachlich ein."
+  - "Du unterscheidest zentrale Begriffe und typische Rollen."
+  - "Du erkennst häufige Fehler beim Anwenden."
+practiceIdeas:
+  - "Formuliere die Grundidee in zwei Sätzen."
+  - "Ordne ein Beispiel den wichtigsten Begriffen zu."
 commonMistakes:
-  - "Eine Tabelle mit einer beliebigen Liste zu verwechseln."
-  - "Namen oder Beschreibungen als sichere eindeutige Kennung anzunehmen."
-  - "Beziehungen zwischen Tabellen in eine einzige große Tabelle zu pressen."
+  - "Namen oder Beschreibungen als eindeutig zu behandeln, obwohl sie doppelt vorkommen können."
 keyTakeaways:
-  - "Tabellen strukturieren Daten in Zeilen und Spalten."
-  - "Ein Primärschlüssel identifiziert einen Datensatz eindeutig."
-  - "Beziehungen zwischen Tabellen vermeiden unnötige Wiederholung und Widersprüche."
-recognizeSignals: []
-selfCheckPoints: []
+  - "Schlüssel machen Daten zuverlässig identifizierbar und verbinden Tabellen kontrolliert."
+recognizeSignals:
+  - "Du brauchst eine ruhige Einordnung vor einer Einzelfalllösung."
+selfCheckPoints:
+  - "Kann ich die Grundbegriffe voneinander unterscheiden?"
 level: einfach
 tags:
   - "informatik"
   - "datenbanken"
-  - "tabellen"
-  - "schlüssel"
+  - "tabellen-und-schluessel"
 draft: false
 ---
 
+![Schaubild zu Tabellen und Schlüssel](/schlaufuchs-platform/images/overviews/v183/informatik-tabellen-und-schluessel.svg)
+
 ## Begriff
 
-In relationalen Datenbanken werden Informationen häufig in **Tabellen** organisiert. Eine Tabelle besteht aus Zeilen und Spalten. Jede Zeile beschreibt einen Datensatz, jede Spalte beschreibt ein Attribut, also eine bestimmte Eigenschaft.
+**Tabellen und Schlüssel** ist ein Grundthema der Informatik. Diese Überblicksseite erklärt den allgemeinen Rahmen, damit Detailseiten und Aufgaben nicht als isolierte Einzelfälle gelesen werden.
 
-Ein **Schlüssel** ist ein Merkmal oder eine Kombination von Merkmalen, mit dem ein Datensatz eindeutig identifiziert werden kann. Der wichtigste Schlüssel ist der Primärschlüssel.
+## Zentrale Begriffe
 
-## Tabellenstruktur
+- **Tabelle**: wichtiger Begriff für die Einordnung dieses Themas.
+- **Datensatz**: wichtiger Begriff für die Einordnung dieses Themas.
+- **Primärschlüssel**: wichtiger Begriff für die Einordnung dieses Themas.
+- **Fremdschlüssel**: wichtiger Begriff für die Einordnung dieses Themas.
 
-Eine Tabelle bündelt gleichartige Dinge. Eine Tabelle Schülerinnen und Schüler enthält beispielsweise Datensätze über Personen. Spalten können Name, Geburtsdatum oder Klasse heißen. Jede Zeile beschreibt eine Person innerhalb dieser Struktur.
+## Warum das Thema wichtig ist
 
-Diese Gleichartigkeit ist entscheidend. Eine Tabelle sollte nicht beliebige Informationen durcheinander aufnehmen, sondern eine klare Art von Datensatz beschreiben.
+Schlüssel machen Daten zuverlässig identifizierbar und verbinden Tabellen kontrolliert. Wer diesen Rahmen kennt, kann Aufgaben ruhiger bearbeiten und erkennt schneller, ob ein Problem wirklich zu diesem Thema gehört.
 
-## Primärschlüssel
+## Typisches Beispiel
 
-Ein Primärschlüssel identifiziert jede Zeile eindeutig. Häufig wird dafür eine technische ID verwendet. Namen eignen sich oft nicht als sichere Schlüssel, weil mehrere Personen gleich heißen können oder sich Namen ändern können.
+Ein kleines Beispiel sollte immer zeigen, welche Begriffe wirken, welche Voraussetzung gilt und wo die Grenze des Beispiels liegt. So wird aus einem Einzelfall eine übertragbare Lernspur.
 
-Der Primärschlüssel ermöglicht, Datensätze stabil zu referenzieren. Andere Tabellen können sich über Fremdschlüssel auf ihn beziehen.
+## Abgrenzung
 
-## Beziehungen zwischen Tabellen
+Diese Seite ersetzt keine Syntaxreferenz und keine Spezialseite. Sie klärt die Grundidee, typische Begriffe, Zweck und häufige Missverständnisse.
 
-Datenbanken verteilen Informationen oft bewusst auf mehrere Tabellen. Eine Tabelle kann Personen speichern, eine andere Bestellungen, eine dritte Produkte. Beziehungen verbinden diese Tabellen. Dadurch werden Wiederholungen reduziert und Widersprüche vermieden.
+## Häufiges Missverständnis
 
-## Abgrenzung zu Tabellenkalkulationen
+Namen oder Beschreibungen als eindeutig zu behandeln, obwohl sie doppelt vorkommen können.
 
-Eine Tabellenkalkulation sieht äußerlich ähnlich aus, ist aber nicht dasselbe wie eine relationale Datenbank. Datenbanken erzwingen stärker Struktur, Beziehungen und Eindeutigkeit. Tabellenkalkulationen sind freier, aber dadurch auch anfälliger für uneinheitliche Daten.
+## Merksatz
 
-<div class="note-panel">
-  <p><strong>Merke:</strong> Eine Datenbanktabelle ist mehr als eine Liste. Sie beschreibt eine klar definierte Art von Datensatz und braucht eindeutige Schlüssel.</p>
-</div>
+Schlüssel machen Daten zuverlässig identifizierbar und verbinden Tabellen kontrolliert.

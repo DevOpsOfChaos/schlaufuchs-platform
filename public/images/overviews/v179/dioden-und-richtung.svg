@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 960 540">
+  <title id="title">Dioden und Richtung</title>
+  <desc id="desc">Durchlassrichtung und Sperrrichtung werden gegenübergestellt.</desc>
+  <style>
+    .bg{fill:#f8fafc}.card{fill:#fff;stroke:#334155;stroke-width:2}.soft{fill:#e0f2fe;stroke:#0369a1;stroke-width:2}.ok{fill:#dcfce7;stroke:#15803d;stroke-width:2}.warn{fill:#fef3c7;stroke:#b45309;stroke-width:2}.line{stroke:#334155;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}.muted{stroke:#64748b;stroke-width:2;fill:none;stroke-linecap:round}.txt{font-family:Arial,Helvetica,sans-serif;font-size:24px;fill:#0f172a;font-weight:700}.label{font-family:Arial,Helvetica,sans-serif;font-size:18px;fill:#0f172a;font-weight:700}.small{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#334155}
+  </style>
+  <rect class="bg" width="960" height="540" rx="28"/>
+  <text class="txt" x="48" y="62">Dioden und Richtung</text>
+  <rect class="ok" x="110" y="170" width="320" height="150" rx="20"/><text class="label" x="270" y="220" text-anchor="middle">Durchlassrichtung</text><path class="line" d="M185 270 H350"/><path class="line" d="M330 250 L360 270 L330 290"/><rect class="warn" x="530" y="170" width="320" height="150" rx="20"/><text class="label" x="690" y="220" text-anchor="middle">Sperrrichtung</text><path class="muted" d="M605 270 H770"/><path class="muted" d="M690 245 V295"/>
+  <text class="small" x="48" y="500">Die Wirkung einer Diode hängt von Richtung und Schaltungszusammenhang ab.</text>
+</svg>

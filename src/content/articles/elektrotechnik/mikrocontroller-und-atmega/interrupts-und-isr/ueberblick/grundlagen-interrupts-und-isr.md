@@ -1,70 +1,92 @@
 ---
 title: "Grundlagen: Interrupts und ISR"
-description: "Allgemeiner Überblick über Interrupts, Interrupt-Service-Routinen, Ereignisse, Hauptprogramm und typische Vorsichtsregeln."
+description: "Allgemeiner Überblick über Ereignisse, Interrupt-Service-Routinen und kurze Reaktionswege in Mikrocontrollerprogrammen."
 subject: elektrotechnik
 section: "Mikrocontroller und ATmega"
 topicPath:
   - mikrocontroller-und-atmega
   - interrupts-und-isr
   - ueberblick
-  - grundlagen-interrupts-und-isr
 learningGoals:
-  - "Du erklärst, warum Interrupts Ereignisse neben dem Hauptprogramm behandeln."
-  - "Du beschreibst die Rolle einer Interrupt-Service-Routine."
-  - "Du erkennst, warum ISR-Code kurz und eindeutig bleiben sollte."
-practiceIdeas: []
+  - "Du erklärst die Grundidee von Interrupts und ISR in eigenen Worten."
+  - "Du ordnest typische Begriffe und Fehlerquellen ruhig ein."
+  - "Du erkennst, welche Detailfragen zu diesem Themenbereich gehören."
+practiceIdeas:
+  - "Skizziere den Zusammenhang als kleines Signal-, Strom- oder Ablaufbild."
+  - "Notiere typische Fehlerquellen und prüfe, ob sie elektrisch, logisch oder organisatorisch sind."
 commonMistakes:
-  - "Interrupts als paralleles zweites Programm zu verstehen."
-  - "In einer ISR lange Berechnungen oder blockierende Wartezeiten auszuführen."
-  - "Gemeinsam genutzte Variablen ohne Vorsicht zu verwenden."
+  - "In einer ISR lange Wartezeiten einzubauen."
+  - "Flags und eigentliche Verarbeitung zu vermischen."
+  - "Gemeinsame Variablen ohne Schutz zu verändern."
 keyTakeaways:
-  - "Interrupts reagieren auf Ereignisse, ohne ständig aktiv abfragen zu müssen."
-  - "Eine ISR sollte kurz bleiben und nur das Nötige erledigen."
-  - "Hauptprogramm und ISR müssen sauber über gemeinsame Zustände kommunizieren."
-recognizeSignals: []
-selfCheckPoints: []
-level: mittel
+  - "Interrupts reagieren auf Ereignisse."
+  - "Eine ISR sollte kurz bleiben."
+  - "Hauptprogramm und ISR brauchen klare Zuständigkeiten."
+recognizeSignals:
+  - "Du brauchst zuerst Orientierung, bevor du eine konkrete Schaltung oder Aufgabe bewertest."
+  - "Mehrere Einzelfälle wirken ähnlich, aber der gemeinsame fachliche Rahmen fehlt."
+selfCheckPoints:
+  - "Kann ich den Zweck des Themas ohne Formel auswendig zu lernen erklären?"
+  - "Kann ich typische Fehlerquellen in der richtigen Reihenfolge prüfen?"
+level: einfach
 tags:
   - elektrotechnik
-  - mikrocontroller
-  - interrupt
-  - isr
+  - interrupts-und-isr
+  - mikrocontroller-und-atmega
 draft: false
 ---
 
-## Begriff
+![Interrupt als Ereignispfad](/schlaufuchs-platform/images/overviews/v181/interrupts-und-isr.svg)
 
-Ein **Interrupt** ist eine Unterbrechung des normalen Programmablaufs durch ein Ereignis. Dieses Ereignis kann zum Beispiel ein Timerüberlauf, ein externer Pinwechsel oder eine abgeschlossene Datenübertragung sein. Die zugehörige Funktion heißt **Interrupt-Service-Routine**, kurz ISR.
+## Überblick
 
-Interrupts sind wichtig, wenn ein Mikrocontroller auf Ereignisse reagieren soll, ohne im Hauptprogramm ständig aktiv nachfragen zu müssen.
+**Interrupts und ISR** ist ein Querschnittsthema der Elektrotechnik. Es hilft, Schaltungen nicht nur als Sammlung einzelner Bauteile zu sehen, sondern als geordneten Zusammenhang aus Ursache, Wirkung, Grenze und Prüfung.
 
-## Hauptprogramm und Ereignis
+Die Seite ist bewusst allgemein angelegt. Sie soll Orientierung geben, bevor einzelne Aufgaben, Messsituationen oder Spezialfälle bearbeitet werden.
 
-Ohne Interrupt müsste ein Programm regelmäßig prüfen, ob etwas passiert ist. Das nennt man Polling. Bei einem Interrupt meldet die Hardware dagegen selbst, dass ein bestimmtes Ereignis eingetreten ist. Das Hauptprogramm wird kurz unterbrochen, die ISR läuft, danach geht es weiter.
+## Grundidee
 
-## Aufgabe der ISR
+Ein Timerereignis oder externer Pinwechsel kann ein Programm unterbrechen. Die Reaktion sollte kurz und klar bleiben.
 
-Eine ISR sollte möglichst kurz sein. Häufig setzt sie nur ein Flag, speichert einen Messwert oder zählt ein Ereignis. Die eigentliche Auswertung kann danach im Hauptprogramm stattfinden.
+Wichtig ist dabei, nicht nur den sichtbaren Einzelzustand zu betrachten. In der Elektrotechnik entstehen viele Fehler dadurch, dass Strompfade, Bezugspunkte, Grenzwerte oder zeitliche Abläufe nicht gemeinsam gelesen werden.
 
-Diese Trennung hält das System übersichtlich und verhindert, dass andere wichtige Ereignisse zu lange warten müssen.
+## Wichtige Begriffe
 
-## Typische Vorsichtsregeln
+- **Interrupt**: wichtiger Begriff im Zusammenhang mit Interrupts und ISR.
+- **ISR**: wichtiger Begriff im Zusammenhang mit Interrupts und ISR.
+- **Flag**: wichtiger Begriff im Zusammenhang mit Interrupts und ISR.
+- **Hauptprogramm**: wichtiger Begriff im Zusammenhang mit Interrupts und ISR.
 
-Wichtige Regeln sind:
+Diese Begriffe sind keine isolierten Vokabeln. Sie beschreiben Rollen innerhalb einer Schaltung oder eines Messablaufs.
 
-- keine langen Warteschleifen in der ISR,
-- keine unnötig umfangreichen Berechnungen,
-- gemeinsam genutzte Variablen bewusst behandeln,
-- Ereignis und Auswertung trennen.
+## Typische Denkweise
 
-## Warum Interrupts nicht automatisch einfacher sind
+Eine gute Prüfung beginnt meist mit drei Fragen:
 
-Interrupts können Programme reaktionsschneller machen. Sie machen den Ablauf aber auch weniger linear. Man muss dann verstehen, dass bestimmte Variablen außerhalb des normalen Hauptprogrammflusses verändert werden können.
+1. Welcher Zustand ist im Normalfall erwartet?
+2. Welcher Fehlerfall soll erkannt oder verhindert werden?
+3. Welche Grenze darf im Betrieb nicht überschritten werden?
+
+Erst danach lohnt sich der Blick auf konkrete Zahlen, Bauteile oder Codeausschnitte.
+
+## Typische Missverständnisse
+
+- In einer ISR lange Wartezeiten einzubauen.
+- Flags und eigentliche Verarbeitung zu vermischen.
+- Gemeinsame Variablen ohne Schutz zu verändern.
+
+## Beispiel
+
+Ein Timerereignis oder externer Pinwechsel kann ein Programm unterbrechen. Die Reaktion sollte kurz und klar bleiben.
+
+Das Beispiel zeigt: Die fachliche Frage ist selten nur „welches Bauteil wird benutzt?“. Entscheidend ist, welche Aufgabe das Bauteil im System erfüllt.
 
 ## Abgrenzung
 
-Einzelne Lernseiten können `volatile`, Timer-Interrupts, externe Interrupts oder konkrete Register behandeln. Diese Überblicksseite beschreibt den gemeinsamen Begriff und die Grundlogik.
+Diese Überblicksseite ersetzt keine Detailseite. Einzelne Seiten können konkrete Rechnungen, Schaltbilder, Messungen oder Programmbeispiele behandeln. Hier geht es um den gemeinsamen Rahmen: Begriff, Zweck, Zusammenhang und typische Fehlerquellen.
 
-<div class="note-panel">
-  <p><strong>Merke:</strong> Ein Interrupt ist ein Ereignisruf der Hardware. Die ISR reagiert kurz darauf; die ruhige Verarbeitung gehört meist zurück ins Hauptprogramm.</p>
-</div>
+## Merksätze
+
+- Interrupts reagieren auf Ereignisse.
+- Eine ISR sollte kurz bleiben.
+- Hauptprogramm und ISR brauchen klare Zuständigkeiten.

@@ -1,84 +1,64 @@
 ---
 title: "Grundlagen: Rekursion und Abbruch"
-description: "Ein Überblick über rekursive Problemlösung, Basisfall und die Bedeutung sicherer Abbruchbedingungen."
+description: "Rekursion führt ein Problem auf kleinere Fälle zurück und braucht einen klaren Abbruch."
 subject: informatik
-section: "Algorithmen"
+section: "Algorithmen klein begründen"
 topicPath:
-  - algorithmen-klein-begruenden
-  - rekursion-und-abbruch
-  - ueberblick
+  - "algorithmen-klein-begruenden"
+  - "rekursion-und-abbruch"
+  - "ueberblick"
 learningGoals:
-  - "Du kennst die Grundbegriffe dieses Themenbereichs."
-  - "Du kannst typische Situationen grob einordnen, bevor du Detailseiten liest."
-  - "Du erkennst, welche Nachbarseiten für Vertiefung oder Übungen passen."
+  - "Du ordnest Rekursion und Abbruch fachlich ein."
+  - "Du unterscheidest zentrale Begriffe und typische Rollen."
+  - "Du erkennst häufige Fehler beim Anwenden."
 practiceIdeas:
-  - "Lies zuerst diese Überblicksseite und danach eine konkrete Lernsituation aus dem gleichen Unterthema."
-  - "Notiere die wichtigsten Begriffe und prüfe, welche davon in den Detailseiten wieder auftauchen."
+  - "Formuliere die Grundidee in zwei Sätzen."
+  - "Ordne ein Beispiel den wichtigsten Begriffen zu."
 commonMistakes:
-  - "Direkt mit Sonderfällen zu beginnen, ohne die Grundbegriffe zu klären."
-  - "Ein einzelnes Beispiel für die ganze Themenlogik zu halten."
+  - "Rekursion nur als Selbstaufruf zu sehen, ohne den Fortschritt zum Basisfall zu prüfen."
 keyTakeaways:
-  - "Rekursion ist kontrollierte Selbstbezüglichkeit. Entscheidend sind Basisfall und echte Annäherung an diesen Basisfall."
+  - "Rekursion führt ein Problem auf kleinere Fälle zurück und braucht einen klaren Abbruch."
 recognizeSignals:
-  - "Du suchst eine allgemeine Einordnung, bevor du Aufgaben oder Spezialfälle bearbeitest."
-  - "Mehrere Detailseiten wirken ähnlich, aber dir fehlt der gemeinsame Rahmen."
+  - "Du brauchst eine ruhige Einordnung vor einer Einzelfalllösung."
 selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten beschreiben?"
-  - "Kann ich Grundidee, typische Begriffe und Grenzen auseinanderhalten?"
+  - "Kann ich die Grundbegriffe voneinander unterscheiden?"
 level: mittel
 tags:
   - "informatik"
-  - "algorithmen"
-  - "rekursion"
-  - "abbruch"
+  - "algorithmen-klein-begruenden"
+  - "rekursion-und-abbruch"
 draft: false
 ---
 
-## Überblick
+![Schaubild zu Rekursion und Abbruch](/schlaufuchs-platform/images/overviews/v183/informatik-rekursion-und-abbruch.svg)
 
-Rekursion bedeutet, dass eine Lösung auf eine kleinere Version desselben Problems zurückgreift. Damit Rekursion funktioniert, braucht sie einen Basisfall, der ohne weiteren rekursiven Aufruf gelöst werden kann.
+## Begriff
 
-<div class="note-panel">
-  <p><strong>Kurz gesagt:</strong> Rekursion ist kontrollierte Selbstbezüglichkeit. Entscheidend sind Basisfall und echte Annäherung an diesen Basisfall.</p>
-</div>
+**Rekursion und Abbruch** ist ein Grundthema der Informatik. Diese Überblicksseite erklärt den allgemeinen Rahmen, damit Detailseiten und Aufgaben nicht als isolierte Einzelfälle gelesen werden.
 
-## Grundidee
+## Zentrale Begriffe
 
-Ein rekursives Verfahren zerlegt ein Problem in einen einfachen aktuellen Schritt und ein kleineres Restproblem. Diese Struktur ist besonders nützlich bei Bäumen, verschachtelten Daten oder mathematischen Definitionen.
+- **Basisfall**: wichtiger Begriff für die Einordnung dieses Themas.
+- **Teilproblem**: wichtiger Begriff für die Einordnung dieses Themas.
+- **Abbruchbedingung**: wichtiger Begriff für die Einordnung dieses Themas.
+- **rekursiver Schritt**: wichtiger Begriff für die Einordnung dieses Themas.
 
-## Basisfall
+## Warum das Thema wichtig ist
 
-Der Basisfall verhindert endlose Wiederholung. Er beschreibt die kleinste Situation, die direkt gelöst werden kann. Ohne Basisfall läuft ein rekursives Programm immer weiter, bis ein technischer Fehler entsteht.
+Rekursion führt ein Problem auf kleinere Fälle zurück und braucht einen klaren Abbruch. Wer diesen Rahmen kennt, kann Aufgaben ruhiger bearbeiten und erkennt schneller, ob ein Problem wirklich zu diesem Thema gehört.
 
-## Rekursiver Schritt
+## Typisches Beispiel
 
-Der rekursive Schritt muss das Problem wirklich kleiner oder einfacher machen. Wenn sich die Eingabe nicht in Richtung Basisfall bewegt, ist die Rekursion fachlich fehlerhaft.
-
-## Lesestrategie
-
-Beim Lesen rekursiver Programme sollte man nicht alle Aufrufe gleichzeitig im Kopf ausführen. Besser ist: Basisfall erkennen, Verkleinerung prüfen und dann die Rückgabeidee verstehen.
-
-## Typische Beispiele
-
-<div class="visual-grid">
-  <div class="visual-item">
-    <strong>Beispiel</strong>
-    <span>Fakultät: n! wird über n · (n-1)! beschrieben.</span>
-  </div>
-  <div class="visual-item">
-    <strong>Beispiel</strong>
-    <span>Ordnerdurchlauf: Jeder Unterordner wird nach demselben Verfahren durchsucht.</span>
-  </div>
-  <div class="visual-item">
-    <strong>Beispiel</strong>
-    <span>Baumstruktur: Linker und rechter Teilbaum werden gleichartig verarbeitet.</span>
-  </div>
-</div>
-
-## Einordnung im Lernpfad
-
-Diese Seite ist als allgemeiner Einstieg gedacht. Sie erklärt Begriffe und Zusammenhänge, bevor einzelne Detailseiten bestimmte Situationen, Fehlerbilder oder Rechenwege behandeln. Wer neu in das Thema einsteigt, sollte zuerst diese Übersicht lesen und danach gezielt zu passenden Vertiefungen wechseln.
+Ein kleines Beispiel sollte immer zeigen, welche Begriffe wirken, welche Voraussetzung gilt und wo die Grenze des Beispiels liegt. So wird aus einem Einzelfall eine übertragbare Lernspur.
 
 ## Abgrenzung
 
-Die Übersicht ersetzt keine Übung und keine Spezialseite. Sie soll den Rahmen geben: Was ist das Thema, warum ist es wichtig, welche Begriffe kommen vor und worauf muss man beim Weiterlesen achten?
+Diese Seite ersetzt keine Syntaxreferenz und keine Spezialseite. Sie klärt die Grundidee, typische Begriffe, Zweck und häufige Missverständnisse.
+
+## Häufiges Missverständnis
+
+Rekursion nur als Selbstaufruf zu sehen, ohne den Fortschritt zum Basisfall zu prüfen.
+
+## Merksatz
+
+Rekursion führt ein Problem auf kleinere Fälle zurück und braucht einen klaren Abbruch.

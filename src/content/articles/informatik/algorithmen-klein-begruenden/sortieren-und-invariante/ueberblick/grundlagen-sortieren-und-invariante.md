@@ -1,62 +1,64 @@
 ---
-title: "Grundlagen: Sortieren und Invariante"
-description: "Allgemeiner Überblick über Sortierverfahren, Zwischenschritte und die Idee einer Invariante als Begründungshilfe."
+title: "Grundlagen: Sortieren und Invarianten"
+description: "Sortierverfahren werden verständlicher, wenn man erkennt, welche Ordnung während des Ablaufs erhalten bleibt."
 subject: informatik
-section: "Algorithmen"
+section: "Algorithmen klein begründen"
 topicPath:
-  - algorithmen-klein-begruenden
-  - sortieren-und-invariante
-  - grundlagen-sortieren-und-invariante
+  - "algorithmen-klein-begruenden"
+  - "sortieren-und-invariante"
+  - "ueberblick"
 learningGoals:
-  - "Du beschreibst Sortieren als geordnetes Umstellen von Daten."
-  - "Du erklärst, warum Zwischenschritte bei Sortierverfahren wichtig sind."
-  - "Du ordnest Invarianten als Aussagen ein, die während eines Algorithmus erhalten bleiben."
-practiceIdeas: []
+  - "Du ordnest Sortieren und Invarianten fachlich ein."
+  - "Du unterscheidest zentrale Begriffe und typische Rollen."
+  - "Du erkennst häufige Fehler beim Anwenden."
+practiceIdeas:
+  - "Formuliere die Grundidee in zwei Sätzen."
+  - "Ordne ein Beispiel den wichtigsten Begriffen zu."
 commonMistakes:
-  - "Nur das Endergebnis zu betrachten und den Ablauf zu ignorieren."
-  - "Eine Invariante mit einer beliebigen Beobachtung zu verwechseln."
-  - "Sortierverfahren nur auswendig zu lernen, ohne ihre Begründung zu verstehen."
+  - "Nur das Endergebnis zu betrachten und die Invariante des Verfahrens zu übersehen."
 keyTakeaways:
-  - "Sortieren ist ein algorithmischer Prozess mit kontrollierten Zwischenschritten."
-  - "Eine Invariante hilft zu begründen, warum ein Verfahren korrekt bleibt."
-  - "Unterschiedliche Sortierverfahren unterscheiden sich in Strategie, Aufwand und Zwischeneigenschaften."
-recognizeSignals: []
-selfCheckPoints: []
-level: einfach
+  - "Sortierverfahren werden verständlicher, wenn man erkennt, welche Ordnung während des Ablaufs erhalten bleibt."
+recognizeSignals:
+  - "Du brauchst eine ruhige Einordnung vor einer Einzelfalllösung."
+selfCheckPoints:
+  - "Kann ich die Grundbegriffe voneinander unterscheiden?"
+level: mittel
 tags:
   - "informatik"
-  - "algorithmen"
-  - "sortieren"
-  - "invariante"
+  - "algorithmen-klein-begruenden"
+  - "sortieren-und-invariante"
 draft: false
 ---
 
+![Schaubild zu Sortieren und Invarianten](/schlaufuchs-platform/images/overviews/v183/informatik-sortieren-und-invariante.svg)
+
 ## Begriff
 
-**Sortieren** bedeutet in der Informatik, Daten in eine gewünschte Reihenfolge zu bringen. Die Ordnung kann numerisch, alphabetisch, zeitlich oder durch ein anderes Vergleichskriterium festgelegt sein. Eine **Invariante** ist eine Aussage, die während bestimmter Schritte eines Algorithmus wahr bleibt.
+**Sortieren und Invarianten** ist ein Grundthema der Informatik. Diese Überblicksseite erklärt den allgemeinen Rahmen, damit Detailseiten und Aufgaben nicht als isolierte Einzelfälle gelesen werden.
 
-Beide Begriffe gehören eng zusammen, weil Sortierverfahren nicht nur am Endergebnis beurteilt werden. Man möchte verstehen, warum ein Verfahren zuverlässig zu einer sortierten Folge führt.
+## Zentrale Begriffe
 
-## Sortieren als Algorithmus
+- **Sortierkriterium**: wichtiger Begriff für die Einordnung dieses Themas.
+- **Teilordnung**: wichtiger Begriff für die Einordnung dieses Themas.
+- **Invariante**: wichtiger Begriff für die Einordnung dieses Themas.
+- **Vergleichsschritt**: wichtiger Begriff für die Einordnung dieses Themas.
 
-Ein Sortierverfahren besteht aus wiederholbaren Schritten. Es vergleicht Elemente, vertauscht sie, fügt sie an passender Stelle ein oder teilt Datenbereiche auf. Bekannte Verfahren sind Bubble Sort, Selection Sort, Insertion Sort, Merge Sort und Quick Sort.
+## Warum das Thema wichtig ist
 
-Für das Grundverständnis ist nicht der Name des Verfahrens entscheidend, sondern die Strategie: Wird das kleinste Element gesucht? Wird schrittweise eine sortierte Teilliste aufgebaut? Wird die Liste geteilt und später zusammengeführt?
+Sortierverfahren werden verständlicher, wenn man erkennt, welche Ordnung während des Ablaufs erhalten bleibt. Wer diesen Rahmen kennt, kann Aufgaben ruhiger bearbeiten und erkennt schneller, ob ein Problem wirklich zu diesem Thema gehört.
 
-## Invariante
+## Typisches Beispiel
 
-Eine Invariante beschreibt eine Eigenschaft, die nach jedem wichtigen Schritt erhalten bleibt. Bei einem einfachen Einfügesortieren kann zum Beispiel gelten: Der linke Teil der Liste ist bereits sortiert. Nach jedem Einfügeschritt wird diese Aussage wieder hergestellt.
+Ein kleines Beispiel sollte immer zeigen, welche Begriffe wirken, welche Voraussetzung gilt und wo die Grenze des Beispiels liegt. So wird aus einem Einzelfall eine übertragbare Lernspur.
 
-Invarianten sind keine Dekoration. Sie erklären, warum ein Algorithmus nicht nur zufällig funktioniert, sondern systematisch korrekt bleibt.
+## Abgrenzung
 
-## Warum Zwischenschritte wichtig sind
+Diese Seite ersetzt keine Syntaxreferenz und keine Spezialseite. Sie klärt die Grundidee, typische Begriffe, Zweck und häufige Missverständnisse.
 
-Wer nur das Endergebnis betrachtet, kann schwer beurteilen, ob ein Verfahren immer funktioniert. Zwischenschritte zeigen, welche Ordnung bereits erreicht wurde und welcher Bereich noch unsortiert ist. Dadurch lassen sich Fehler, Abbruchbedingungen und Sonderfälle besser erkennen.
+## Häufiges Missverständnis
 
-## Abgrenzung zu Einzelfällen
+Nur das Endergebnis zu betrachten und die Invariante des Verfahrens zu übersehen.
 
-Einzelne Lernseiten können ein konkretes Verfahren Schritt für Schritt ausführen. Diese Überblicksseite erklärt den allgemeinen Rahmen: Sortieren ist geordnetes Umstellen von Daten, und Invarianten helfen, die Korrektheit eines solchen Ablaufs zu begründen.
+## Merksatz
 
-<div class="note-panel">
-  <p><strong>Merke:</strong> Ein Sortierverfahren ist nicht nur dann interessant, wenn die Liste am Ende stimmt. Wichtig ist, welche Aussage während des Ablaufs immer erhalten bleibt.</p>
-</div>
+Sortierverfahren werden verständlicher, wenn man erkennt, welche Ordnung während des Ablaufs erhalten bleibt.

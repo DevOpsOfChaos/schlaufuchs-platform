@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 960 540">
+  <title id="title">Logikgatter und Wahrheitstabellen</title>
+  <desc id="desc">Eingänge, feste Regel und Ausgang werden als logische Verarbeitung gezeigt.</desc>
+  <style>
+    .bg{fill:#f8fafc}.card{fill:#fff;stroke:#334155;stroke-width:2}.soft{fill:#e0f2fe;stroke:#0369a1;stroke-width:2}.ok{fill:#dcfce7;stroke:#15803d;stroke-width:2}.warn{fill:#fef3c7;stroke:#b45309;stroke-width:2}.line{stroke:#334155;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}.muted{stroke:#64748b;stroke-width:2;fill:none;stroke-linecap:round}.txt{font-family:Arial,Helvetica,sans-serif;font-size:24px;fill:#0f172a;font-weight:700}.label{font-family:Arial,Helvetica,sans-serif;font-size:18px;fill:#0f172a;font-weight:700}.small{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#334155}
+  </style>
+  <rect class="bg" width="960" height="540" rx="28"/>
+  <text class="txt" x="48" y="62">Logikgatter und Wahrheitstabellen</text>
+  <circle class="soft" cx="180" cy="190" r="48"/><text class="label" x="180" y="197" text-anchor="middle">A</text><circle class="soft" cx="180" cy="310" r="48"/><text class="label" x="180" y="317" text-anchor="middle">B</text><path class="line" d="M228 190 H370 M228 310 H370"/><rect class="card" x="370" y="185" width="220" height="130" rx="22"/><text class="label" x="480" y="242" text-anchor="middle">Gatter</text><text class="small" x="480" y="270" text-anchor="middle">feste Regel</text><path class="line" d="M590 250 H730"/><circle class="ok" cx="790" cy="250" r="54"/><text class="label" x="790" y="257" text-anchor="middle">Y</text>
+  <text class="small" x="48" y="500">Eine Wahrheitstabelle prüft alle Eingangskombinationen statt nur einen Einzelfall.</text>
+</svg>

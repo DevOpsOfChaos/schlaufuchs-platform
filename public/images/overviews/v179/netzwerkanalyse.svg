@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc" viewBox="0 0 960 540">
+  <title id="title">Netzwerkanalyse ruhig lesen</title>
+  <desc id="desc">Knoten, Zweig und Masche werden als Struktur einer Schaltung markiert.</desc>
+  <style>
+    .bg{fill:#f8fafc}.card{fill:#fff;stroke:#334155;stroke-width:2}.soft{fill:#e0f2fe;stroke:#0369a1;stroke-width:2}.ok{fill:#dcfce7;stroke:#15803d;stroke-width:2}.warn{fill:#fef3c7;stroke:#b45309;stroke-width:2}.line{stroke:#334155;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}.muted{stroke:#64748b;stroke-width:2;fill:none;stroke-linecap:round}.txt{font-family:Arial,Helvetica,sans-serif;font-size:24px;fill:#0f172a;font-weight:700}.label{font-family:Arial,Helvetica,sans-serif;font-size:18px;fill:#0f172a;font-weight:700}.small{font-family:Arial,Helvetica,sans-serif;font-size:15px;fill:#334155}
+  </style>
+  <rect class="bg" width="960" height="540" rx="28"/>
+  <text class="txt" x="48" y="62">Netzwerkanalyse ruhig lesen</text>
+  <circle class="soft" cx="220" cy="180" r="36"/><circle class="soft" cx="520" cy="180" r="36"/><circle class="soft" cx="520" cy="360" r="36"/><circle class="soft" cx="220" cy="360" r="36"/><path class="line" d="M256 180 H484 V324 H256 V180"/><rect class="warn" x="335" y="130" width="70" height="42" rx="10"/><text class="small" x="370" y="156" text-anchor="middle">R1</text><rect class="warn" x="485" y="250" width="42" height="70" rx="10"/><text class="small" x="506" y="291" text-anchor="middle">R2</text><text class="label" x="370" y="420" text-anchor="middle">Masche</text><path class="muted" d="M310 390 C360 430 450 430 500 390"/>
+  <text class="small" x="48" y="500">Netzwerkanalyse beginnt mit Struktur: Knoten, Zweige, Maschen und Bezugspunkte.</text>
+</svg>

@@ -1,63 +1,64 @@
 ---
 title: "Grundlagen: IP-Adressen und Ports"
-description: "Allgemeiner Überblick über IP-Adressen, Ports und die Zuordnung von Netzwerkverbindungen zu Diensten."
+description: "Die Adresse findet das System, der Port den Dienst auf diesem System."
 subject: informatik
 section: "Netzwerke und Dienste"
 topicPath:
-  - netzwerke-und-dienste
-  - ip-adressen-und-ports
-  - grundlagen-ip-adressen-und-ports
+  - "netzwerke-und-dienste"
+  - "ip-adressen-und-ports"
+  - "ueberblick"
 learningGoals:
-  - "Du erklärst IP-Adressen als Adressierung von Geräten oder Schnittstellen im Netzwerk."
-  - "Du beschreibst Ports als Zuordnung zu Diensten auf einem System."
-  - "Du unterscheidest Zielsystem und Dienst innerhalb einer Netzwerkverbindung."
-practiceIdeas: []
+  - "Du ordnest IP-Adressen und Ports fachlich ein."
+  - "Du unterscheidest zentrale Begriffe und typische Rollen."
+  - "Du erkennst häufige Fehler beim Anwenden."
+practiceIdeas:
+  - "Formuliere die Grundidee in zwei Sätzen."
+  - "Ordne ein Beispiel den wichtigsten Begriffen zu."
 commonMistakes:
-  - "IP-Adresse und Port als dasselbe zu behandeln."
-  - "Einen Port für eine Sicherheitsgarantie zu halten."
-  - "Nur den Server zu betrachten und lokale Ports zu ignorieren."
+  - "Portnummern wie Geräteadressen zu behandeln."
 keyTakeaways:
-  - "Die IP-Adresse hilft, ein Ziel im Netzwerk zu finden."
-  - "Der Port hilft, den passenden Dienst auf dem Zielsystem anzusprechen."
-  - "Eine Netzwerkverbindung wird durch mehrere Angaben gemeinsam beschrieben."
-recognizeSignals: []
-selfCheckPoints: []
+  - "Die Adresse findet das System, der Port den Dienst auf diesem System."
+recognizeSignals:
+  - "Du brauchst eine ruhige Einordnung vor einer Einzelfalllösung."
+selfCheckPoints:
+  - "Kann ich die Grundbegriffe voneinander unterscheiden?"
 level: einfach
 tags:
   - "informatik"
-  - "netzwerke"
-  - "ip-adresse"
-  - "port"
-  - "dienste"
+  - "netzwerke-und-dienste"
+  - "ip-adressen-und-ports"
 draft: false
 ---
 
+![Schaubild zu IP-Adressen und Ports](/schlaufuchs-platform/images/overviews/v183/informatik-ip-adressen-und-ports.svg)
+
 ## Begriff
 
-**IP-Adressen** und **Ports** gehören zu den Grundbegriffen von Netzwerken. Eine IP-Adresse hilft dabei, ein Gerät oder eine Netzwerkschnittstelle erreichbar zu machen. Ein Port hilft, auf diesem System einen bestimmten Dienst anzusprechen.
+**IP-Adressen und Ports** ist ein Grundthema der Informatik. Diese Überblicksseite erklärt den allgemeinen Rahmen, damit Detailseiten und Aufgaben nicht als isolierte Einzelfälle gelesen werden.
 
-Zusammen beantworten sie zwei verschiedene Fragen: Wohin soll die Verbindung gehen, und welcher Dienst soll dort erreicht werden?
+## Zentrale Begriffe
 
-## IP-Adressen
+- **IP-Adresse**: wichtiger Begriff für die Einordnung dieses Themas.
+- **Port**: wichtiger Begriff für die Einordnung dieses Themas.
+- **Dienst**: wichtiger Begriff für die Einordnung dieses Themas.
+- **Ziel**: wichtiger Begriff für die Einordnung dieses Themas.
 
-Eine IP-Adresse ist eine Adresse innerhalb eines IP-Netzwerks. Sie kann zu einem Rechner, Router, Server, Smartphone oder einer virtuellen Netzwerkschnittstelle gehören. Es gibt IPv4- und IPv6-Adressen. IPv4-Adressen bestehen typischerweise aus vier Zahlenblöcken, IPv6-Adressen aus längeren hexadezimalen Schreibweisen.
+## Warum das Thema wichtig ist
 
-IP-Adressen können öffentlich oder privat sein. Private Adressen werden häufig in Heim- und Schulnetzen verwendet und sind nicht direkt aus dem Internet erreichbar.
+Die Adresse findet das System, der Port den Dienst auf diesem System. Wer diesen Rahmen kennt, kann Aufgaben ruhiger bearbeiten und erkennt schneller, ob ein Problem wirklich zu diesem Thema gehört.
 
-## Ports
+## Typisches Beispiel
 
-Ein Port ist eine Nummer, über die ein Dienst auf einem System angesprochen wird. Ein Webserver verwendet häufig Port 80 für HTTP und Port 443 für HTTPS. SSH verwendet oft Port 22. Die Portnummer allein sagt aber nicht sicher, welcher Dienst tatsächlich läuft; sie ist eine Konvention und Konfiguration.
+Ein kleines Beispiel sollte immer zeigen, welche Begriffe wirken, welche Voraussetzung gilt und wo die Grenze des Beispiels liegt. So wird aus einem Einzelfall eine übertragbare Lernspur.
 
-Ports ermöglichen, dass ein System mehrere Netzwerkdienste gleichzeitig anbieten kann.
+## Abgrenzung
 
-## Verbindung als Kombination
+Diese Seite ersetzt keine Syntaxreferenz und keine Spezialseite. Sie klärt die Grundidee, typische Begriffe, Zweck und häufige Missverständnisse.
 
-Eine konkrete Verbindung wird nicht nur durch eine IP-Adresse beschrieben. Protokoll, Zieladresse, Zielport und lokale Verbindungsdaten gehören zusammen. Deshalb kann derselbe Rechner gleichzeitig Webseiten ausliefern, SSH anbieten und andere Dienste betreiben.
+## Häufiges Missverständnis
 
-## Abgrenzung zu Einzelfällen
+Portnummern wie Geräteadressen zu behandeln.
 
-Einzelne Lernseiten können DNS, HTTP, Client-Server-Prinzip oder Firewall-Regeln behandeln. Diese Überblicksseite erklärt den allgemeinen Rahmen: IP-Adresse findet das System, Port adressiert den Dienst.
+## Merksatz
 
-<div class="note-panel">
-  <p><strong>Merke:</strong> Die IP-Adresse sagt „welcher Rechner“, der Port sagt „welcher Dienst auf diesem Rechner“.</p>
-</div>
+Die Adresse findet das System, der Port den Dienst auf diesem System.

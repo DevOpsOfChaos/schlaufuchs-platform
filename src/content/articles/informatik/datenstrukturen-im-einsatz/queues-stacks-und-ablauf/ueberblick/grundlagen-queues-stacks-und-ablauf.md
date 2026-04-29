@@ -1,80 +1,64 @@
 ---
-title: Informatik – Queues, Stacks und Ablauf im Überblick
-description: Ordnet Warteschlangen und Stapel als Datenstrukturen nach ihrem Zugriffsprinzip ein.
+title: "Grundlagen: Queues, Stacks und Ablauf"
+description: "Queues und Stacks bestimmen nicht nur Speicherung, sondern die Reihenfolge der Verarbeitung."
 subject: informatik
-section: Datenstrukturen
+section: "Datenstrukturen im Einsatz"
 topicPath:
   - "datenstrukturen-im-einsatz"
   - "queues-stacks-und-ablauf"
   - "ueberblick"
 learningGoals:
-  - "Den Themenbereich Queues, Stacks und Ablauf im Überblick allgemein einordnen."
-  - "Grundbegriffe, Nutzen und typische Grenzen unterscheiden."
-  - "Einzelne Lernseiten als Vertiefung statt als Einstieg lesen."
+  - "Du ordnest Queues, Stacks und Ablauf fachlich ein."
+  - "Du unterscheidest zentrale Begriffe und typische Rollen."
+  - "Du erkennst häufige Fehler beim Anwenden."
 practiceIdeas:
-  - "Erstelle eine kurze Begriffskarte mit Zweck, typischem Beispiel und häufiger Verwechslung."
-  - "Ordne vorhandene Lernseiten danach, welchen Teil des Überblicks sie vertiefen."
-  - "Formuliere zu jedem Abschnitt eine eigene Kontrollfrage."
+  - "Formuliere die Grundidee in zwei Sätzen."
+  - "Ordne ein Beispiel den wichtigsten Begriffen zu."
 commonMistakes:
-  - "Queue und Stack nur als Liste mit anderem Namen zu behandeln."
-  - "Die Verarbeitungsreihenfolge nicht zu begründen."
+  - "Queue und Stack nur als Namen zu lernen, ohne ihre Auswirkungsregel zu verstehen."
 keyTakeaways:
-  - "Queues modellieren Warteschlangen."
-  - "Stacks modellieren Stapel und Rückwärtsabläufe."
-  - "Die Zugriffslösung folgt aus dem Ablaufproblem."
+  - "Queues und Stacks bestimmen nicht nur Speicherung, sondern die Reihenfolge der Verarbeitung."
 recognizeSignals:
-  - "Ein Unterthema enthält viele einzelne Situationsseiten, aber es fehlt eine gemeinsame Einordnung."
-  - "Begriffe werden in Aufgaben verwendet, bevor Zweck und Zusammenhang klar sind."
-  - "Man muss entscheiden, welche Vertiefungsseite als nächstes sinnvoll ist."
+  - "Du brauchst eine ruhige Einordnung vor einer Einzelfalllösung."
 selfCheckPoints:
-  - "Kann ich das Thema in zwei bis drei Sätzen allgemein erklären?"
-  - "Kann ich Zweck, Vorgehen und typische Fehler getrennt benennen?"
-  - "Kann ich erklären, welche Vertiefungsseite zu welcher Frage passt?"
-level: einfach
+  - "Kann ich die Grundbegriffe voneinander unterscheiden?"
+level: mittel
 tags:
   - "informatik"
-  - "datenstrukturen"
-  - "queue"
-  - "stack"
-  - "überblick"
+  - "datenstrukturen-im-einsatz"
+  - "queues-stacks-und-ablauf"
 draft: false
 ---
 
-## Überblick
+![Schaubild zu Queues, Stacks und Ablauf](/schlaufuchs-platform/images/overviews/v183/informatik-queues-stacks-und-ablauf.svg)
 
-Queues und Stacks sind Datenstrukturen, die Reihenfolgen bewusst einschränken. Sie speichern nicht nur Elemente, sondern legen fest, welches Element als nächstes verarbeitet wird.
+## Begriff
 
-Diese Seite ist als allgemeiner Einstieg gedacht. Sie erklärt nicht jede Spezialaufgabe im Detail, sondern ordnet die wichtigsten Begriffe, Ziele und Entscheidungen ein. Die einzelnen Lernseiten im gleichen Themenfeld können danach als Vertiefungen gelesen werden.
+**Queues, Stacks und Ablauf** ist ein Grundthema der Informatik. Diese Überblicksseite erklärt den allgemeinen Rahmen, damit Detailseiten und Aufgaben nicht als isolierte Einzelfälle gelesen werden.
 
-## Begriff und Zweck
+## Zentrale Begriffe
 
-Eine Queue arbeitet wie eine Warteschlange: Wer zuerst hineinkommt, wird zuerst verarbeitet. Ein Stack arbeitet wie ein Stapel: Das zuletzt abgelegte Element liegt oben und wird zuerst genommen.
+- **Queue**: wichtiger Begriff für die Einordnung dieses Themas.
+- **Stack**: wichtiger Begriff für die Einordnung dieses Themas.
+- **FIFO**: wichtiger Begriff für die Einordnung dieses Themas.
+- **LIFO**: wichtiger Begriff für die Einordnung dieses Themas.
 
-## Typische Bestandteile
+## Warum das Thema wichtig ist
 
-Typische Operationen sind Einfügen, Entnehmen, Ansehen des nächsten Elements und Prüfen auf Leere.
+Queues und Stacks bestimmen nicht nur Speicherung, sondern die Reihenfolge der Verarbeitung. Wer diesen Rahmen kennt, kann Aufgaben ruhiger bearbeiten und erkennt schneller, ob ein Problem wirklich zu diesem Thema gehört.
 
-## Vorgehensweise
+## Typisches Beispiel
 
-Bei einer Aufgabe wird zuerst gefragt, welche Reihenfolge fachlich nötig ist. Danach wird entschieden, ob Queue, Stack oder eine andere Struktur passt.
+Ein kleines Beispiel sollte immer zeigen, welche Begriffe wirken, welche Voraussetzung gilt und wo die Grenze des Beispiels liegt. So wird aus einem Einzelfall eine übertragbare Lernspur.
 
 ## Abgrenzung
 
-Listen können frei indiziert werden. Queues und Stacks sind bewusst eingeschränkter und dadurch oft einfacher zu begründen.
+Diese Seite ersetzt keine Syntaxreferenz und keine Spezialseite. Sie klärt die Grundidee, typische Begriffe, Zweck und häufige Missverständnisse.
 
-## Typische Fehler
+## Häufiges Missverständnis
 
-Häufig wird nur die gespeicherte Menge betrachtet. Entscheidend ist aber die Reihenfolge des Zugriffs.
+Queue und Stack nur als Namen zu lernen, ohne ihre Auswirkungsregel zu verstehen.
 
-## Orientierung für weitere Lernseiten
+## Merksatz
 
-Eine gute Reihenfolge ist meist:
-
-1. zuerst die Grundbegriffe klären,
-2. danach einfache Beispiele lesen,
-3. anschließend Sonderfälle oder Fehlersituationen betrachten,
-4. zum Schluss Aufgaben nutzen, um die eigene Erklärung zu prüfen.
-
-<blockquote>
-<strong>Merksatz:</strong> Eine Überblicksseite beantwortet zuerst „Worum geht es überhaupt?“ und erst danach „Wie löse ich einen bestimmten Fall?“.
-</blockquote>
+Queues und Stacks bestimmen nicht nur Speicherung, sondern die Reihenfolge der Verarbeitung.

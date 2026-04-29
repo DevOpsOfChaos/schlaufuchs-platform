@@ -1,62 +1,64 @@
 ---
 title: "Grundlagen: Funktionen und Verantwortung"
-description: "Allgemeiner Überblick darüber, warum Funktionen in Programmen klar abgegrenzte Aufgaben übernehmen sollten."
+description: "Eine gute Funktion hat eine erkennbare Aufgabe und macht Eingaben und Ergebnisse nachvollziehbar."
 subject: informatik
-section: "Programmierung"
+section: "Programmierpraxis und Tests"
 topicPath:
-  - programmierpraxis-und-tests
-  - funktionen-und-verantwortung
-  - grundlagen-funktionen-und-verantwortung
+  - "programmierpraxis-und-tests"
+  - "funktionen-und-verantwortung"
+  - "ueberblick"
 learningGoals:
-  - "Du erklärst Funktionen als benannte Programmteile mit einer klaren Aufgabe."
-  - "Du beschreibst Eingaben, Ausgabe und Seiteneffekte einer Funktion."
-  - "Du ordnest Funktionsverantwortung als Grundlage für lesbaren und testbaren Code ein."
-practiceIdeas: []
+  - "Du ordnest Funktionen und Verantwortung fachlich ein."
+  - "Du unterscheidest zentrale Begriffe und typische Rollen."
+  - "Du erkennst häufige Fehler beim Anwenden."
+practiceIdeas:
+  - "Formuliere die Grundidee in zwei Sätzen."
+  - "Ordne ein Beispiel den wichtigsten Begriffen zu."
 commonMistakes:
-  - "Eine Funktion mit zu vielen verschiedenen Aufgaben zu füllen."
-  - "Eingaben, Ausgabe und globale Zustände zu vermischen."
-  - "Funktionen nur als Abkürzung gegen Wiederholung zu sehen."
+  - "Zu viele Aufgaben in eine Funktion zu packen, sodass Name und Verhalten nicht mehr zusammenpassen."
 keyTakeaways:
-  - "Eine gute Funktion hat eine erkennbare Verantwortung."
-  - "Klare Eingaben und Ausgaben erleichtern Tests."
-  - "Kleine Funktionen machen Programme verständlicher und wartbarer."
-recognizeSignals: []
-selfCheckPoints: []
-level: einfach
+  - "Eine gute Funktion hat eine erkennbare Aufgabe und macht Eingaben und Ergebnisse nachvollziehbar."
+recognizeSignals:
+  - "Du brauchst eine ruhige Einordnung vor einer Einzelfalllösung."
+selfCheckPoints:
+  - "Kann ich die Grundbegriffe voneinander unterscheiden?"
+level: mittel
 tags:
   - "informatik"
-  - "programmierung"
-  - "funktionen"
-  - "struktur"
+  - "programmierpraxis-und-tests"
+  - "funktionen-und-verantwortung"
 draft: false
 ---
 
+![Schaubild zu Funktionen und Verantwortung](/schlaufuchs-platform/images/overviews/v183/informatik-funktionen-und-verantwortung.svg)
+
 ## Begriff
 
-Eine **Funktion** ist ein benannter Programmabschnitt, der eine bestimmte Aufgabe ausführt. Funktionen helfen, Programme zu gliedern, Wiederholung zu vermeiden und Abläufe verständlicher zu machen. Wichtig ist dabei nicht nur, dass eine Funktion funktioniert, sondern wofür sie verantwortlich ist.
+**Funktionen und Verantwortung** ist ein Grundthema der Informatik. Diese Überblicksseite erklärt den allgemeinen Rahmen, damit Detailseiten und Aufgaben nicht als isolierte Einzelfälle gelesen werden.
 
-Der Begriff Verantwortung meint: Welche Aufgabe soll diese Funktion übernehmen, und welche Aufgaben gehören ausdrücklich nicht hinein?
+## Zentrale Begriffe
 
-## Eingaben und Ausgaben
+- **Eingabe**: wichtiger Begriff für die Einordnung dieses Themas.
+- **Rückgabe**: wichtiger Begriff für die Einordnung dieses Themas.
+- **Seiteneffekt**: wichtiger Begriff für die Einordnung dieses Themas.
+- **Verantwortung**: wichtiger Begriff für die Einordnung dieses Themas.
 
-Viele Funktionen erhalten Eingaben, verarbeiten sie und liefern ein Ergebnis zurück. Diese Form ist besonders gut verständlich, weil der Zusammenhang zwischen Eingabe und Ausgabe sichtbar bleibt. Eine Funktion, die zwei Zahlen addiert, sollte nicht gleichzeitig eine Datei löschen oder eine Benutzeroberfläche verändern.
+## Warum das Thema wichtig ist
 
-Je klarer Eingaben und Ausgaben sind, desto leichter lässt sich die Funktion testen.
+Eine gute Funktion hat eine erkennbare Aufgabe und macht Eingaben und Ergebnisse nachvollziehbar. Wer diesen Rahmen kennt, kann Aufgaben ruhiger bearbeiten und erkennt schneller, ob ein Problem wirklich zu diesem Thema gehört.
 
-## Seiteneffekte
+## Typisches Beispiel
 
-Nicht jede Funktion gibt nur einen Wert zurück. Manche Funktionen schreiben in Dateien, ändern Datenstrukturen, senden Netzwerkanfragen oder verändern eine Anzeige. Solche Wirkungen nennt man Seiteneffekte. Sie sind nicht grundsätzlich falsch, müssen aber bewusst eingesetzt werden.
+Ein kleines Beispiel sollte immer zeigen, welche Begriffe wirken, welche Voraussetzung gilt und wo die Grenze des Beispiels liegt. So wird aus einem Einzelfall eine übertragbare Lernspur.
 
-Viele Fehler entstehen, wenn eine Funktion heimlich mehr verändert, als ihr Name vermuten lässt.
+## Abgrenzung
 
-## Verantwortung und Lesbarkeit
+Diese Seite ersetzt keine Syntaxreferenz und keine Spezialseite. Sie klärt die Grundidee, typische Begriffe, Zweck und häufige Missverständnisse.
 
-Eine Funktion mit klarer Verantwortung ist leichter zu benennen. Wenn ein guter Name schwer zu finden ist, ist das oft ein Hinweis darauf, dass zu viele Aufgaben vermischt wurden. Dann kann es sinnvoll sein, die Funktion aufzuteilen.
+## Häufiges Missverständnis
 
-## Abgrenzung zu Einzelfällen
+Zu viele Aufgaben in eine Funktion zu packen, sodass Name und Verhalten nicht mehr zusammenpassen.
 
-Einzelne Lernseiten behandeln Parameter, Rückgabewerte, Tests oder konkrete Programmiersprachen. Diese Überblicksseite erklärt den allgemeinen Rahmen: Funktionen strukturieren Programme, indem sie abgegrenzte Verantwortung sichtbar machen.
+## Merksatz
 
-<div class="note-panel">
-  <p><strong>Merke:</strong> Eine Funktion sollte nicht nur Code enthalten, sondern eine klare Aufgabe haben, die man in einem Satz beschreiben kann.</p>
-</div>
+Eine gute Funktion hat eine erkennbare Aufgabe und macht Eingaben und Ergebnisse nachvollziehbar.

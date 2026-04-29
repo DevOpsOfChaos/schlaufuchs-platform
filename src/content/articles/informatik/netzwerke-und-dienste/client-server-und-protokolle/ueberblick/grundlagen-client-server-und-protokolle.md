@@ -1,51 +1,64 @@
 ---
 title: "Grundlagen: Client, Server und Protokolle"
-description: "Allgemeiner Überblick über das Client-Server-Prinzip und die Rolle von Protokollen in Netzwerken."
+description: "Protokolle beschreiben, wie Rollen miteinander sprechen und welche Antwort erwartet wird."
 subject: informatik
 section: "Netzwerke und Dienste"
 topicPath:
-  - netzwerke-und-dienste
-  - client-server-und-protokolle
-  - grundlagen-client-server-und-protokolle
+  - "netzwerke-und-dienste"
+  - "client-server-und-protokolle"
+  - "ueberblick"
 learningGoals:
-  - "Du erklärst das Client-Server-Prinzip."
-  - "Du beschreibst Protokolle als Regeln für Kommunikation."
-  - "Du unterscheidest Dienst, Adresse und Nachricht."
-practiceIdeas: []
+  - "Du ordnest Client, Server und Protokolle fachlich ein."
+  - "Du unterscheidest zentrale Begriffe und typische Rollen."
+  - "Du erkennst häufige Fehler beim Anwenden."
+practiceIdeas:
+  - "Formuliere die Grundidee in zwei Sätzen."
+  - "Ordne ein Beispiel den wichtigsten Begriffen zu."
 commonMistakes:
-  - "Server nur als besonders starken Computer zu verstehen."
-  - "Protokoll und Programm gleichzusetzen."
-  - "Adresse, Port und Dienst nicht zu unterscheiden."
+  - "Client und Server als feste Geräte statt als Rollen einer Kommunikation zu verstehen."
 keyTakeaways:
-  - "Ein Client stellt eine Anfrage, ein Server stellt einen Dienst bereit."
-  - "Protokolle legen fest, wie Nachrichten aufgebaut und verstanden werden."
-  - "Netzwerkkommunikation braucht Adressen, Regeln und Rollen."
-recognizeSignals: []
-selfCheckPoints: []
+  - "Protokolle beschreiben, wie Rollen miteinander sprechen und welche Antwort erwartet wird."
+recognizeSignals:
+  - "Du brauchst eine ruhige Einordnung vor einer Einzelfalllösung."
+selfCheckPoints:
+  - "Kann ich die Grundbegriffe voneinander unterscheiden?"
 level: einfach
 tags:
-  - informatik
-  - netzwerk
-  - client-server
-  - protokoll
+  - "informatik"
+  - "netzwerke-und-dienste"
+  - "client-server-und-protokolle"
 draft: false
 ---
+
+![Schaubild zu Client, Server und Protokolle](/schlaufuchs-platform/images/overviews/v183/informatik-client-server-und-protokolle.svg)
+
 ## Begriff
 
-Das **Client-Server-Prinzip** beschreibt eine Rollenverteilung in Netzwerken. Ein Client fordert etwas an, ein Server stellt einen Dienst bereit. Ein **Protokoll** legt fest, wie diese Kommunikation abläuft.
+**Client, Server und Protokolle** ist ein Grundthema der Informatik. Diese Überblicksseite erklärt den allgemeinen Rahmen, damit Detailseiten und Aufgaben nicht als isolierte Einzelfälle gelesen werden.
 
-## Rollen
+## Zentrale Begriffe
 
-Ein Client kann ein Browser, eine App oder ein anderes Programm sein. Er sendet eine Anfrage. Der Server wartet auf Anfragen und antwortet mit Daten, Statusinformationen oder Fehlermeldungen. Ein Gerät kann je nach Situation Client und Server sein.
+- **Client**: wichtiger Begriff für die Einordnung dieses Themas.
+- **Server**: wichtiger Begriff für die Einordnung dieses Themas.
+- **Request**: wichtiger Begriff für die Einordnung dieses Themas.
+- **Response**: wichtiger Begriff für die Einordnung dieses Themas.
 
-## Protokolle
+## Warum das Thema wichtig ist
 
-Ein Protokoll ist ein Regelwerk. Es beschreibt, wie Nachrichten aufgebaut sind, welche Reihenfolge sinnvoll ist und wie Fehler behandelt werden. HTTP, DNS, TCP und IP sind bekannte Beispiele aus unterschiedlichen Schichten der Netzwerkkommunikation.
+Protokolle beschreiben, wie Rollen miteinander sprechen und welche Antwort erwartet wird. Wer diesen Rahmen kennt, kann Aufgaben ruhiger bearbeiten und erkennt schneller, ob ein Problem wirklich zu diesem Thema gehört.
 
-## Warum diese Trennung hilft
+## Typisches Beispiel
 
-Viele Netzwerkprobleme werden übersichtlicher, wenn man Rollen und Ebenen trennt: Ist die Adresse erreichbar? Antwortet der Dienst? Wird das richtige Protokoll verwendet? Ist die Anfrage gültig?
+Ein kleines Beispiel sollte immer zeigen, welche Begriffe wirken, welche Voraussetzung gilt und wo die Grenze des Beispiels liegt. So wird aus einem Einzelfall eine übertragbare Lernspur.
 
-<div class="note-panel">
-  <p><strong>Merke:</strong> Netzwerke funktionieren nicht nur durch Kabel oder Funk. Entscheidend sind Rollen, Adressen und gemeinsame Protokolle.</p>
-</div>
+## Abgrenzung
+
+Diese Seite ersetzt keine Syntaxreferenz und keine Spezialseite. Sie klärt die Grundidee, typische Begriffe, Zweck und häufige Missverständnisse.
+
+## Häufiges Missverständnis
+
+Client und Server als feste Geräte statt als Rollen einer Kommunikation zu verstehen.
+
+## Merksatz
+
+Protokolle beschreiben, wie Rollen miteinander sprechen und welche Antwort erwartet wird.
