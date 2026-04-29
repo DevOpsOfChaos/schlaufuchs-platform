@@ -1,32 +1,17 @@
 ---
-title: SQL-Anweisungen nach Lese- und Änderungsziel trennen
-description: Trenne SQL-Anweisungen nach lesender und verändernder Wirkung und leite die PHP-Folge ab.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - dql-und-dml-bei-sql-anweisungen-unterscheiden
-  - sql-anweisungen-nach-lese-und-aenderungsziel-trennen
-taskId: INF-PHP-MYSQL-006
-level: einfach
+title: "SQL-Anweisungen nach Lese- und Änderungsziel trennen"
+description: "Trenne SQL-Anweisungen nach lesender und verändernder Wirkung und leite die PHP-Folge ab."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "dql-und-dml-bei-sql-anweisungen-unterscheiden", "sql-anweisungen-nach-lese-und-aenderungsziel-trennen"]
+taskId: "INF-PHP-MYSQL-006"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - informatik
-  - aufgabe
-  - php
-hintPoints:
-  - "Trenne SQL-Ziel, Rückgabeart und PHP-Folgeschritt voneinander."
-  - "Frage zuerst: Wird gelesen oder verändert?"
-selfCheckPoints:
-  - "Habe ich die zentrale Unterscheidung der Aufgabe sauber benannt?"
-  - "Habe ich meinen Ablauf oder Vergleich nachvollziehbar begründet?"
-transferIdeas:
-  - "Übertrage die Denkweise auf einen ähnlichen kleinen PHP-Ausschnitt."
-  - "Formuliere die Logik zusätzlich in einem eigenen Mini-Beispiel."
-reflectionPrompt: "Welche fachliche Trennung war hier am wichtigsten?"
 ---
-
 ## Aufgabe 1: Einordnen
 
 Ordne grob zu:

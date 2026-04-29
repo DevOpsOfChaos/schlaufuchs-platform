@@ -3,22 +3,12 @@ title: "Lösung – Skriptpfad und Arbeitsverzeichnis trennen"
 description: "Musterlösung zu Skriptkontext mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell"
-  - "dateisystem-und-pfade"
-  - "skriptkontext"
-  - "skriptpfad-und-arbeitsverzeichnis-trennen"
+topicPath: ["shell", "dateisystem-und-pfade", "skriptkontext", "skriptpfad-und-arbeitsverzeichnis-trennen"]
 taskId: "v107-linux-skriptpfad-und-arbeitsverzeichnis-trennen"
 relatedExercise: "linux/shell/dateisystem-und-pfade/skriptkontext/skriptpfad-und-arbeitsverzeichnis-trennen"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "skriptkontext"
-  - "dateisystem-und-pfade"
+tags: ["linux", "Shell", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Skriptkontext**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

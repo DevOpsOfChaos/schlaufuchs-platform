@@ -3,24 +3,12 @@ title: "Lösung: Eingabevalidierung im Frontend: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-development-v194-010a im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "formulare-und-feedback"
-  - "eingabevalidierung-im-frontend"
-  - "loesung-a"
-
+topicPath: ["sanierung-v194", "eingabevalidierung-im-frontend-loesung-a"]
 taskId: "web-development-v194-010a"
 relatedExercise: "web-development/sanierung-v194/eingabevalidierung-im-frontend-aufgabe-a"
-tags:
-  - "eingabevalidierung"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-010a`
 
 Ausgangsauftrag: Plane eine Validierung für ein Newsletterformular.

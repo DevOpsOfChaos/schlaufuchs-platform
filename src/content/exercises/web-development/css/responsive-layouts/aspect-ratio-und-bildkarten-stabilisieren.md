@@ -3,33 +3,15 @@ title: "CSS – Aufgabe: aspect-ratio und Bildkarten stabilisieren"
 description: "Plane eine Lernkartenübersicht mit Bildern im Verhältnis 16:9. Beschreibe, welche CSS-Eigenschaften Bildfläche und Zuschnitt steuern."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "responsive-layouts"
-  - "aspect-ratio-und-bildkarten-stabilisieren"
+topicPath: ["css", "responsive-layouts", "aspect-ratio-und-bildkarten-stabilisieren"]
 taskId: "wd-v97-aspect-ratio-und-bildkarten-stabilisieren"
-tags:
-  - "web development"
-  - "css"
-  - "aspect-ratio"
-  - "layout"
-  - "bilder"
-hintPoints:
-  - "Trenne zuerst sichtbare Wirkung, semantische Bedeutung und technische Umsetzung."
-  - "Begründe deine Entscheidung aus Nutzerperspektive, nicht nur aus Code-Sicht."
-  - "Prüfe am Ende, ob die Lösung ohne Ratespiel verständlich bleibt."
-selfCheckPoints:
-  - "Ist der betroffene UI-Baustein eindeutig benannt?"
-  - "Ist die technische Entscheidung fachlich begründet?"
-  - "Gibt es eine klare Verbesserung gegenüber dem Ausgangszustand?"
-transferIdeas:
-  - "Übertrage die Entscheidung auf eine zweite Komponente derselben Seite."
-  - "Formuliere eine kurze Prüfregel, die ein Team beim Review verwenden könnte."
-reflectionPrompt: "Welche kleine Änderung hätte hier die größte Wirkung auf Verständlichkeit oder Zugänglichkeit?"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Ausgangslage
 
 Plane eine Lernkartenübersicht mit Bildern im Verhältnis 16:9. Beschreibe, welche CSS-Eigenschaften Bildfläche und Zuschnitt steuern.

@@ -3,22 +3,12 @@ title: "Lösung – update und upgrade in apt unterscheiden"
 description: "Musterlösung zu apt-Schritte mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "System"
-topicPath:
-  - "system"
-  - "pakete-und-updates"
-  - "releasepflege"
-  - "update-und-upgrade-in-apt-unterscheiden"
+topicPath: ["system", "pakete-und-updates", "releasepflege", "update-und-upgrade-in-apt-unterscheiden"]
 taskId: "v107-linux-update-und-upgrade-in-apt-unterscheiden"
 relatedExercise: "linux/system/pakete-und-updates/releasepflege/update-und-upgrade-in-apt-unterscheiden"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "apt-schritte"
-  - "pakete-und-updates"
+tags: ["linux", "System", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **apt-Schritte**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

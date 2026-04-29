@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – UART-Text und Rohbytes am AVR ruhig trennen
-description: Musterlösung zur Aufgabe ET-ATMEGA-UART-211.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-kommunikation
-  - atmega-uart-ascii-und-rohbytes-unterscheiden
-  - uart-text-und-rohbytes-am-avr-ruhig-trennen-loesung
-taskId: ET-ATMEGA-UART-211
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-uart-ascii-und-rohbytes-unterscheiden/uart-text-und-rohbytes-am-avr-ruhig-trennen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – UART-Text und Rohbytes am AVR ruhig trennen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-UART-211."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-uart-ascii-und-rohbytes-unterscheiden", "uart-text-und-rohbytes-am-avr-ruhig-trennen"]
+taskId: "ET-ATMEGA-UART-211"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-uart-ascii-und-rohbytes-unterscheiden/uart-text-und-rohbytes-am-avr-ruhig-trennen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Der Bytewert 65 beschreibt zunächst nur einen übertragenen Zahlenwert. Wenn dieser Wert nach ASCII interpretiert wird, erscheint daraus der Buchstabe `A`. Die UART hat also das Byte transportiert, während die Darstellung daraus ein Zeichen macht.

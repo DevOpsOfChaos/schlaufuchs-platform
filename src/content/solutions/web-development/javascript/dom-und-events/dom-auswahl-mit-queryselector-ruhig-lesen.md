@@ -3,22 +3,12 @@ title: "Lösung – JavaScript: DOM-Auswahl mit querySelector ruhig lesen"
 description: "Musterlösung zur Aufgabe: Wähle ein Element mit der Klasse status aus und setze den Text nur dann auf „Gespeichert“, wenn das Element existiert. Erkläre jeden Schritt."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "dom-und-events"
-  - "dom-auswahl-mit-queryselector-ruhig-lesen"
+topicPath: ["javascript", "dom-und-events", "dom-auswahl-mit-queryselector-ruhig-lesen"]
 taskId: "web-js-dom-auswahl-mit-queryselector-ruhig-lesen"
 relatedExercise: "web-development/javascript/dom-und-events/dom-auswahl-mit-queryselector-ruhig-lesen"
-tags:
-  - "web development"
-  - "javascript"
-  - "dom"
-  - "queryselector"
-  - "browser"
-  - "lösung"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Zuerst wird mit document.querySelector(".status") gesucht. Danach prüft if (status), ob wirklich ein Element gefunden wurde. Erst im if-Block wird textContent gesetzt. So bleibt der Code stabil, wenn die Seite das Element noch nicht enthält.

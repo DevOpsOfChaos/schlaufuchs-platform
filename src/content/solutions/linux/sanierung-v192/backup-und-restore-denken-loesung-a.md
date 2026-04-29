@@ -3,26 +3,12 @@ title: "Lösung: Backup und Restore denken: Aufgabe A"
 description: "Musterlösung zur Aufgabe linux-v192-022a im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "dateisystem-und-speicher"
-  - "backup-und-restore-denken"
-  - "loesung-a"
+topicPath: ["sanierung-v192", "backup-und-restore-denken-loesung-a"]
 taskId: "linux-v192-022a"
 relatedExercise: "linux/sanierung-v192/backup-und-restore-denken-aufgabe-a"
-tags:
-  - "dateisystem-und-speicher"
-  - "backup"
-  - "restore"
-  - "denken"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-022a`
 
 Ausgangsauftrag: Plane einen Restore-Test für einen kleinen Dienst.

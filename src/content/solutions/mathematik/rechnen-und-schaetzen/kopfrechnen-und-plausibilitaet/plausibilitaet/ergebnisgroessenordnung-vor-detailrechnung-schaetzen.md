@@ -3,23 +3,12 @@ title: "Lösung – Ergebnisgrößenordnung vor Detailrechnung schätzen"
 description: "Musterlösung zu Größenordnungsschätzung mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "rechnen-und-schaetzen"
-  - "kopfrechnen-und-plausibilitaet"
-  - "plausibilitaet"
-  - "ergebnisgroessenordnung-vor-detailrechnung-schaetzen"
+topicPath: ["rechnen-und-schaetzen", "kopfrechnen-und-plausibilitaet", "plausibilitaet", "ergebnisgroessenordnung-vor-detailrechnung-schaetzen"]
 taskId: "v111-mathematik-ergebnisgroessenordnung-vor-detailrechnung-schaetzen"
 relatedExercise: "mathematik/rechnen-und-schaetzen/kopfrechnen-und-plausibilitaet/plausibilitaet/ergebnisgroessenordnung-vor-detailrechnung-schaetzen"
-tags:
-  - "mathematik"
-  - "prüfung"
-  - "unterthema"
-  - "rechnen-und-schaetzen"
-  - "kopfrechnen-und-plausibilitaet"
-  - "ergebnisgroessenordnung-vor-detailrechnung-schaetzen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Größenordnungsschätzung**.

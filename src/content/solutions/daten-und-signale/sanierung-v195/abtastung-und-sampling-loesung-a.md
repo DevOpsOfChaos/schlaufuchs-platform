@@ -3,24 +3,12 @@ title: "Lösung: Abtastung und Sampling: Aufgabe A"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-003a im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "digitalisierung"
-  - "abtastung-und-sampling"
-  - "loesung-a"
-
+topicPath: ["sanierung-v195", "abtastung-und-sampling-loesung-a"]
 taskId: "daten-und-signale-v195-003a"
 relatedExercise: "daten-und-signale/sanierung-v195/abtastung-und-sampling-aufgabe-a"
-tags:
-  - "abtastung"
-  - "sampling"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-003a`
 
 Ausgangsauftrag: Erkläre, warum ein schnell wechselndes Signal häufiger abgetastet werden muss.

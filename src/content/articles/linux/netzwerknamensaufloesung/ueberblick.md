@@ -1,33 +1,17 @@
 ---
 title: "Netzwerknamensauflösung"
 description: "Überblick über die Auflösung von Namen zu IP-Adressen über Hosts-Datei, DNS, Cache und Suchdomänen."
-subject: linux
+subject: "linux"
 section: "Netzwerk"
-topicPath:
-  - "netzwerknamensaufloesung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Netzwerknamensauflösung als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["netzwerknamensaufloesung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Wenn ein Ping fehlschlägt, ist nicht automatisch das Zielsystem aus. Oft ist zuerst zu prüfen, ob der Name richtig aufgelöst wird."
-keyTakeaways:
-  - "Namensauflösung übersetzt lesbare Namen in technische Adressen. Dabei können mehrere Quellen und Zwischenspeicher beteiligt sein."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um netzwerknamensauflösung, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich netzwerknamensauflösung in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "netzwerknamensauflösung"
-  - "überblick"
-  - "hosts-datei"
-  - "dns-server"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Netzwerk"]
 draft: false
 ---
 # Netzwerknamensauflösung

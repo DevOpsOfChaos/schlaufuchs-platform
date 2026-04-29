@@ -3,25 +3,12 @@ title: "Lösung: CLI-Ausgaben verständlich machen: Aufgabe B"
 description: "Musterlösung zur Aufgabe informatik-v193-026b im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "projektstruktur-und-codepflege"
-  - "cli-ausgaben-verstaendlich-machen"
-  - "loesung-b"
+topicPath: ["sanierung-v193", "cli-ausgaben-verstaendlich-machen-loesung-b"]
 taskId: "informatik-v193-026b"
 relatedExercise: "informatik/sanierung-v193/cli-ausgaben-verstaendlich-machen-aufgabe-b"
-tags:
-  - "cli"
-  - "ausgaben"
-  - "verstaendlich"
-  - "machen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-026b`
 
 Ausgangsauftrag: Übertrage das Thema CLI-Ausgaben verständlich machen auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

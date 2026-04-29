@@ -3,21 +3,12 @@ title: "Lösung – Boxplot-Spannweite richtig lesen"
 description: "Musterlösung zu boxplot-spannweite richtig lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "daten-und-zufall"
-  - "diagramme-und-kennwerte"
-  - "boxplot-spannweite-richtig-lesen"
+topicPath: ["daten-und-zufall", "diagramme-und-kennwerte", "boxplot-spannweite-richtig-lesen"]
 taskId: "v112-mathematik-boxplot-spannweite-richtig-lesen"
 relatedExercise: "mathematik/daten-und-zufall/diagramme-und-kennwerte/boxplot-spannweite-richtig-lesen"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-zufall"
-  - "boxplot-spannweite-richtig-lesen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Diagramme und Kennwerte**.

@@ -1,35 +1,19 @@
 ---
 title: "Ohmsches Gesetz"
 description: "Allgemeiner Überblick über den Zusammenhang von Spannung, Strom und Widerstand in einfachen Stromkreisen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Grundlagen"
-topicPath:
-  - ohmsches-gesetz
-  - ueberblick
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen und von verwandten Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte und typische Anwendungsfälle."
-  - "Du erkennst häufige Missverständnisse und prüfst Aussagen auf Plausibilität."
+topicPath: ["ohmsches-gesetz", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Irrtum ist, Spannung und Strom unabhängig voneinander zu betrachten."
-keyTakeaways:
-  - "Das ohmsche Gesetz beschreibt den Zusammenhang zwischen Spannung, Stromstärke und Widerstand."
-  - "Die genaue Bedeutung hängt vom Zusammenhang, den Einheiten und den Randbedingungen ab."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Begriffe, Beispiele oder Fehlerbilder aus diesem Bereich erklärt und eingeordnet werden sollen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten erklären, ohne sofort eine Spezialaufgabe zu rechnen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "grundlagen"
-  - "spannung"
-  - "strom"
-  - "widerstand"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Grundlagen"]
 draft: false
 ---
-
 # Ohmsches Gesetz
 
 ![Schaubild zum ohmschen Gesetz.](/schlaufuchs-platform/images/overviews/v149/ohmsches-gesetz.svg)

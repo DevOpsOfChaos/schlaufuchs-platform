@@ -1,29 +1,17 @@
 ---
 title: "Speicherplatz und Ressourcen – anwenden und prüfen"
 description: "Übe, Speicherplatz und Ressourcen an kleinen Praxissituationen zu prüfen."
-subject: linux
+subject: "linux"
 section: "system-und-dienste"
-topicPath:
-  - "system-und-dienste"
-  - "speicherplatz-und-ressourcen"
-taskId: LINUX-SPEICHERPLATZ-UND-RESSOURCEN-V186-2
-tags:
-  - "linux"
-  - "ressourcen"
-  - "speicher"
-  - "aufgabe"
-hintPoints:
-  - "Beginne mit Begriff und Kontext."
-  - "Trenne Beobachtung, Prüfung und mögliche Änderung."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe erklären."
-  - "Ich kann einen typischen Fehler vermeiden."
-transferIdeas:
-  - "Formuliere eine ähnliche Prüfsituation aus deinem eigenen Linux-Alltag."
-level: mittel
+topicPath: ["system-und-dienste", "speicherplatz-und-ressourcen", "speicherplatz-und-ressourcen-anwenden-und-pruefen-v186"]
+taskId: "LINUX-SPEICHERPLATZ-UND-RESSOURCEN-V186-2"
+tags: ["linux", "system-und-dienste", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Lernziel
 
 Du sollst **Speicherplatz und Ressourcen** nicht nur als Befehl oder Schlagwort sehen, sondern als geordnetes Linux-Thema mit Zweck, Kontext und typischen Prüfschritten.

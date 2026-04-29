@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Interruptflag und Hauptprogramm trennen"
 description: "Musterlösung zur Aufgabe Interruptflag und Hauptprogramm trennen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - mikrocontroller-und-atmega
-  - interrupts-und-isr
-taskId: ET-V181-018
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/interrupts-und-isr/interruptflag-und-hauptprogramm-trennen.md
-tags:
-  - elektrotechnik
-  - interrupts-und-isr
-  - loesung
+topicPath: ["mikrocontroller-und-atmega", "interrupts-und-isr", "interruptflag-und-hauptprogramm-trennen"]
+taskId: "ET-V181-018"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/interrupts-und-isr/interruptflag-und-hauptprogramm-trennen.md"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

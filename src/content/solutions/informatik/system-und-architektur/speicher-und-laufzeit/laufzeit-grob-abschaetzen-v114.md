@@ -1,23 +1,14 @@
 ---
-title: Lösung – Laufzeit grob abschätzen
-description: Musterlösung zur Aufgabe über Laufzeit grob abschätzen.
-subject: informatik
-section: Feinstruktur Informatik
-topicPath:
-- system-und-architektur
-- speicher-und-laufzeit
-- laufzeit-grob-abschaetzen-v114
-taskId: v114-informatik-laufzeit-grob-abschaetzen-v114
-relatedExercise: informatik/system-und-architektur/speicher-und-laufzeit/laufzeit-grob-abschaetzen-v114
-tags:
-- informatik
-- v114
-- loesung
-- system-und-architektur
-- speicher-und-laufzeit
+title: "Lösung – Laufzeit grob abschätzen"
+description: "Musterlösung zur Aufgabe über Laufzeit grob abschätzen."
+subject: "informatik"
+section: "Feinstruktur Informatik"
+topicPath: ["system-und-architektur", "speicher-und-laufzeit", "laufzeit-grob-abschaetzen-v114"]
+taskId: "v114-informatik-laufzeit-grob-abschaetzen-v114"
+relatedExercise: "informatik/system-und-architektur/speicher-und-laufzeit/laufzeit-grob-abschaetzen-v114"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

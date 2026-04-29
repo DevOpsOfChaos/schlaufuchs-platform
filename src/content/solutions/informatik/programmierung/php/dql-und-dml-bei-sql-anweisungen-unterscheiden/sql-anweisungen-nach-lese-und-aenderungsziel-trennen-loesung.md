@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – SQL-Anweisungen nach Lese- und Änderungsziel trennen
-description: Musterlösung zur Aufgabe INF-PHP-MYSQL-006.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - dql-und-dml-bei-sql-anweisungen-unterscheiden
-  - sql-anweisungen-nach-lese-und-aenderungsziel-trennen-loesung
-taskId: INF-PHP-MYSQL-006
-relatedExercise: src/content/exercises/informatik/programmierung/php/dql-und-dml-bei-sql-anweisungen-unterscheiden/sql-anweisungen-nach-lese-und-aenderungsziel-trennen.md
-tags:
-  - informatik
-  - loesung
-  - php
-  - task-id
+title: "Musterlösung – SQL-Anweisungen nach Lese- und Änderungsziel trennen"
+description: "Musterlösung zur Aufgabe INF-PHP-MYSQL-006."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "dql-und-dml-bei-sql-anweisungen-unterscheiden", "sql-anweisungen-nach-lese-und-aenderungsziel-trennen"]
+taskId: "INF-PHP-MYSQL-006"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/dql-und-dml-bei-sql-anweisungen-unterscheiden/sql-anweisungen-nach-lese-und-aenderungsziel-trennen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Lesend: <code>SELECT</code>. Verändernd: <code>INSERT</code>, <code>UPDATE</code>, <code>DELETE</code>.

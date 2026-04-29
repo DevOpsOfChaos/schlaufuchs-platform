@@ -1,20 +1,14 @@
 ---
 title: "Lösung: Arduino Basisaufgaben"
 description: "Lösung zu grundlegenden Arduino-Aufgaben."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Grundlagen Elektrotechnik"
-topicPath:
-  - "arduino-basisaufgaben"
+topicPath: ["arduino-basisaufgaben"]
 taskId: "ET-GR-ARDUINO-001"
 relatedExercise: "src/content/exercises/elektrotechnik/arduino-basisaufgaben.md"
-tags:
-  - "elektrotechnik"
-  - "arduino"
-  - "mikrocontroller"
-  - "loesung"
+tags: ["elektrotechnik", "Grundlagen Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Lösungsgedanke
 
 Diese Musterlösung trennt zuerst Begriff, Schaltungszusammenhang und Begründung. Dadurch wird nicht nur ein Ergebnis genannt, sondern der fachliche Weg sichtbar.

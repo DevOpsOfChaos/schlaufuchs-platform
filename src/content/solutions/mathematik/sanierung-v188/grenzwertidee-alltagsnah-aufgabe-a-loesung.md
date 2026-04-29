@@ -3,22 +3,12 @@ title: "Lösung: Grenzwertidee alltagsnah: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-037a."
 subject: "mathematik"
 section: "analysis-vorbereitung"
-topicPath:
-  - "analysis-vorbereitung"
-  - "grenzwertidee-alltagsnah"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "grenzwertidee-alltagsnah-aufgabe-a"]
 taskId: "mat-v188-037a"
 relatedExercise: "mathematik/sanierung-v188/grenzwertidee-alltagsnah-aufgabe-a"
-tags:
-  - "grenzwert"
-  - "analysis"
-  - "naeherung"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "analysis-vorbereitung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-037a`
 
 Eine mögliche Lösung:

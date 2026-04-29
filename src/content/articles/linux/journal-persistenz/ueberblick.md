@@ -1,34 +1,19 @@
 ---
 title: "Journal-Persistenz"
 description: "Überblick darüber, ob systemd-Journal-Logs nur flüchtig oder dauerhaft gespeichert werden."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "journal-persistenz"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["journal-persistenz", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nach einem Neustart nach Logs zu suchen, obwohl das Journal nur flüchtig konfiguriert war."
-keyTakeaways:
-  - "Journal-Persistenz entscheidet, ob systemd-Logs über Neustarts hinweg verfügbar bleiben."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Fehler erst nach einem Neustart untersucht werden können oder Bootprobleme sporadisch auftreten."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "logs"
-  - "systemd"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # Journal-Persistenz
 
 Das systemd-Journal kann Logs im Arbeitsspeicher oder dauerhaft auf Datenträger speichern. Diese Entscheidung beeinflusst, ob Meldungen nach einem Neustart noch verfügbar sind.

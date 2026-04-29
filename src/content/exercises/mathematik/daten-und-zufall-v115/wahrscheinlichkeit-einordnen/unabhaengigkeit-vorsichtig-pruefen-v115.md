@@ -1,36 +1,17 @@
 ---
 title: "Aufgabe: Unabhängigkeit vorsichtig prüfen"
 description: "Trainiere Unabhängigkeit vorsichtig prüfen an einem kleinen, klar abgegrenzten Fall."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "daten-und-zufall-v115"
-  - "wahrscheinlichkeit-einordnen"
-  - "unabhaengigkeit-vorsichtig-pruefen-v115"
+topicPath: ["daten-und-zufall-v115", "wahrscheinlichkeit-einordnen", "unabhaengigkeit-vorsichtig-pruefen-v115"]
 taskId: "mathematik-unabhaengigkeit-vorsichtig-pruefen-v115"
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "daten und zufall"
-  - "wahrscheinlichkeit einordnen"
-  - "aufgabe"
-hintPoints:
-  - "Grenze zuerst den kleinen Fall vom breiten Themenfeld ab."
-  - "Nutze die Prüffrage: Ändert das erste Ereignis die Wahrscheinlichkeit des zweiten?"
-  - "Begründe mit zwei konkreten Hinweisen aus dem Fall."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-transferIdeas:
-  - "Übertrage dieselbe Trennkante auf ein eigenes Mini-Beispiel."
-  - "Formuliere einen Gegenfall, der ähnlich aussieht, aber anders entschieden wird."
-reflectionPrompt: "Was war bei „Unabhängigkeit vorsichtig prüfen“ die wichtigste Trennkante?"
-level: mittel
+tags: ["mathematik", "Feinstruktur Mathematik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den folgenden Fall zu **Unabhängigkeit vorsichtig prüfen**.

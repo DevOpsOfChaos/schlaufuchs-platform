@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Anfrageweg im Client-Server-Modell beschreiben
-description: Erste festgehaltene Musterlösung zur Aufgabe INF-NETZWERKE-CLIENTSERVER-001.
-subject: informatik
-section: Netzwerke
-topicPath:
-  - netzwerke
-  - client-server-prinzip-verstehen
-  - anfrageweg-im-client-server-modell-beschreiben-loesung
-taskId: INF-NETZWERKE-CLIENTSERVER-001
-relatedExercise: src/content/exercises/informatik/netzwerke/client-server-prinzip-verstehen/anfrageweg-im-client-server-modell-beschreiben.md
-tags:
-  - informatik
-  - netzwerke
-  - client-server
-  - loesung
-  - task-id
+title: "Musterlösung – Anfrageweg im Client-Server-Modell beschreiben"
+description: "Erste festgehaltene Musterlösung zur Aufgabe INF-NETZWERKE-CLIENTSERVER-001."
+subject: "informatik"
+section: "Netzwerke"
+topicPath: ["netzwerke", "client-server-prinzip-verstehen", "anfrageweg-im-client-server-modell-beschreiben"]
+taskId: "INF-NETZWERKE-CLIENTSERVER-001"
+relatedExercise: "src/content/exercises/informatik/netzwerke/client-server-prinzip-verstehen/anfrageweg-im-client-server-modell-beschreiben.md"
+tags: ["informatik", "Netzwerke", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Website aufrufen
 
 - **Client**: der Browser auf dem eigenen Gerät  

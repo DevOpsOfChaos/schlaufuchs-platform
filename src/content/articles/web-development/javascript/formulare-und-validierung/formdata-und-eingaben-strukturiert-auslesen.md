@@ -3,44 +3,17 @@ title: "JavaScript – FormData und Eingaben strukturiert auslesen"
 description: "Verstehe, wie FormData Formularwerte als zusammenhängende Daten liest, ohne jedes Feld einzeln zusammenzusuchen."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "formulare-und-validierung"
-  - "formdata-und-eingaben-strukturiert-auslesen"
-learningGoals:
-  - "Du erklärst FormData als strukturierte Sicht auf Formularfelder."
-  - "Du erkennst die Bedeutung von name-Attributen."
-  - "Du unterscheidest einzelne Feldabfrage und gesamtes Formularpaket."
-practiceIdeas:
-  - "Baue ein sehr kleines Beispiel mit genau einem sichtbaren Zustand."
-  - "Erkläre den Code zuerst in Alltagssprache und danach mit Fachbegriffen."
-  - "Prüfe bewusst den Fall, dass ein Element, Wert oder Netzwerkzugriff nicht wie erwartet vorhanden ist."
-commonMistakes:
-  - "name-Attribute zu vergessen und dann keine Werte in FormData zu finden."
-  - "Formularwerte nur über zufällige CSS-Klassen auszulesen."
-  - "Mehrfachwerte wie Checkboxen wie einfache Textfelder zu behandeln."
-keyTakeaways:
-  - "JavaScript im Browser verbindet Struktur, Ereignisse, Daten und Rückmeldung."
-  - "Robuste Lösungen behandeln nicht nur den Erfolgsfall."
-  - "Lesbarer Code trennt Auswahl, Entscheidung und Wirkung."
-recognizeSignals:
-  - "Es geht um Browserverhalten, Interaktion, Formularwerte, Datenladen oder gespeicherten Zustand."
-  - "Eine sichtbare Oberfläche soll durch JavaScript verständlicher oder interaktiver werden."
-  - "Der Code muss mit Fehlern, fehlenden Elementen oder leeren Werten umgehen."
-selfCheckPoints:
-  - "Kann ich sagen, welche Browseraufgabe der Code übernimmt?"
-  - "Ist die Rückmeldung für Nutzerinnen und Nutzer sichtbar?"
-  - "Bleibt die Lösung klein genug, um später erweitert zu werden?"
+topicPath: ["javascript", "formulare-und-validierung", "formdata-und-eingaben-strukturiert-auslesen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "web development"
-  - "javascript"
-  - "formdata"
-  - "formular"
-  - "daten"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Verstehe, wie FormData Formularwerte als zusammenhängende Daten liest, ohne jedes Feld einzeln zusammenzusuchen. Im Mittelpunkt steht nicht ein einzelner Trick, sondern eine ruhige Entscheidung: Was passiert im Browser, was sieht der Mensch und welche Stelle im Code ist dafür zuständig?

@@ -1,45 +1,19 @@
 ---
-title: White-Space und Umbruchverhalten verstehen
-description: Verstehe, wie white-space bestimmt, ob Text normal umbrechen darf, in einer Zeile bleibt oder Leerraum besonders behandelt.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - white-space-und-umbruchverhalten-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von white-space.
-  - Du unterscheidest normales Umbrechen, Zeilenhalten und bewusst erhaltenen Leerraum.
-  - Du beschreibst Umbruchverhalten eher als Leselogik als als bloße CSS-Liste.
-practiceIdeas:
-  - Vergleiche einen Buttontext, einen Codeausschnitt und einen normalen Absatz.
-  - Prüfe, ob Text umbrechen, in einer Zeile bleiben oder Leerzeichen sichtbar bewahren soll.
-  - Lies white-space immer mit dem Inhaltstyp zusammen.
-commonMistakes:
-  - white-space als rein dekorative Detailregel abzutun.
-  - no-wrap für lange Texte zu verwenden und damit Layoutprobleme zu erzeugen.
-  - normalen Fließtext wie einen Codeblock zu behandeln.
-keyTakeaways:
-  - white-space steuert, wie Text, Leerraum und Zeilenumbrüche behandelt werden.
-  - Unterschiedliche Inhalte brauchen unterschiedliches Umbruchverhalten.
-  - Besonders bei Buttons, Tabellen und Code ist white-space gut sichtbar.
-recognizeSignals:
-  - Es geht um Text, der plötzlich nicht umbrechen soll oder genau seinen Abstand behalten soll.
-  - Du sollst erklären, warum ein Label in einer Zeile bleibt oder ein Block horizontal wächst.
-  - In Beispielen ist die Textart wichtiger als die Hintergrundfarbe.
-selfCheckPoints:
-  - Kann ich normales Umbrechen und nowrap unterscheiden?
-  - Kann ich erklären, wann erhaltene Leerzeichen sinnvoll sind?
-  - Kann ich das Umbruchverhalten aus dem Inhalt heraus begründen?
-tags:
-  - css
-  - white-space
-  - text
-  - umbruch
-level: mittel
+title: "White-Space und Umbruchverhalten verstehen"
+description: "Verstehe, wie white-space bestimmt, ob Text normal umbrechen darf, in einer Zeile bleibt oder Leerraum besonders behandelt."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "white-space-und-umbruchverhalten-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Nicht jeder Text soll sich gleich verhalten. Ein normaler Absatz darf umbrechen. Ein kurzer Buttontext soll oft kompakt in einer Zeile bleiben. Ein Codebeispiel soll Leerzeichen und Zeilenstruktur oft sichtbarer bewahren. `white-space` steuert genau dieses Verhalten.

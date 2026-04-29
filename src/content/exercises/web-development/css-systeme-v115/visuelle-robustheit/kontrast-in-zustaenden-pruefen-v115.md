@@ -1,36 +1,17 @@
 ---
 title: "Aufgabe: Kontrast in Zuständen prüfen"
 description: "Trainiere Kontrast in Zuständen prüfen an einem kleinen, klar abgegrenzten Fall."
-subject: web-development
+subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "css-systeme-v115"
-  - "visuelle-robustheit"
-  - "kontrast-in-zustaenden-pruefen-v115"
+topicPath: ["css-systeme-v115", "visuelle-robustheit", "kontrast-in-zustaenden-pruefen-v115"]
 taskId: "web-development-kontrast-in-zustaenden-pruefen-v115"
-tags:
-  - "web development"
-  - "feinstruktur"
-  - "unterthema"
-  - "css-systeme"
-  - "visuelle robustheit"
-  - "aufgabe"
-hintPoints:
-  - "Grenze zuerst den kleinen Fall vom breiten Themenfeld ab."
-  - "Nutze die Prüffrage: Bleibt der Kontrast in allen Zuständen ausreichend?"
-  - "Begründe mit zwei konkreten Hinweisen aus dem Fall."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-transferIdeas:
-  - "Übertrage dieselbe Trennkante auf ein eigenes Mini-Beispiel."
-  - "Formuliere einen Gegenfall, der ähnlich aussieht, aber anders entschieden wird."
-reflectionPrompt: "Was war bei „Kontrast in Zuständen prüfen“ die wichtigste Trennkante?"
-level: mittel
+tags: ["web-development", "Feinstruktur Web Development", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den folgenden Fall zu **Kontrast in Zuständen prüfen**.

@@ -1,34 +1,19 @@
 ---
 title: "Sicherheit und Authentifizierung"
 description: "Überblick über Authentifizierung, Autorisierung und grundlegende Sicherheitsziele in Softwaresystemen."
-subject: informatik
+subject: "informatik"
 section: "Sicherheit"
-topicPath:
-  - "sicherheit-und-authentifizierung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Authentifizierung und Autorisierung unterscheiden."
-  - "Du kennst Vertraulichkeit, Integrität und Verfügbarkeit als Sicherheitsziele."
-  - "Du verstehst Sicherheit als Prozess, nicht als einzelnes Feature."
+topicPath: ["sicherheit-und-authentifizierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Login mit vollständiger Sicherheit gleichzusetzen."
-  - "Authentifizierung und Berechtigungsprüfung zu vermischen."
-keyTakeaways:
-  - "Authentifizierung klärt, wer jemand ist; Autorisierung klärt, was erlaubt ist."
-  - "Sicherheit entsteht durch mehrere abgestimmte Schutzmaßnahmen."
-recognizeSignals:
-  - "Es geht um Login, Rollen, Rechte, Token, Passwort, Sitzung, Zugriff oder Schutzbedarf."
-selfCheckPoints:
-  - "Kann ich erklären, warum ein angemeldeter Nutzer nicht automatisch alles dürfen sollte?"
-level: einfach
-tags:
-  - "informatik"
-  - "sicherheit"
-  - "authentifizierung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Sicherheit"]
 draft: false
 ---
-
 # Sicherheit und Authentifizierung
 
 ![Schaubild zu Sicherheit und Authentifizierung.](/schlaufuchs-platform/images/overviews/v148/sicherheit-und-authentifizierung.svg)

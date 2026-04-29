@@ -1,23 +1,14 @@
 ---
-title: Lösung – Baum und Graph abgrenzen
-description: Musterlösung zur Aufgabe über Baum und Graph abgrenzen.
-subject: informatik
-section: Feinstruktur Informatik
-topicPath:
-- datenstrukturen
-- graphen-und-baeume
-- baum-und-graph-abgrenzen-v114
-taskId: v114-informatik-baum-und-graph-abgrenzen-v114
-relatedExercise: informatik/datenstrukturen/graphen-und-baeume/baum-und-graph-abgrenzen-v114
-tags:
-- informatik
-- v114
-- loesung
-- datenstrukturen
-- graphen-und-baeume
+title: "Lösung – Baum und Graph abgrenzen"
+description: "Musterlösung zur Aufgabe über Baum und Graph abgrenzen."
+subject: "informatik"
+section: "Feinstruktur Informatik"
+topicPath: ["datenstrukturen", "graphen-und-baeume", "baum-und-graph-abgrenzen-v114"]
+taskId: "v114-informatik-baum-und-graph-abgrenzen-v114"
+relatedExercise: "informatik/datenstrukturen/graphen-und-baeume/baum-und-graph-abgrenzen-v114"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

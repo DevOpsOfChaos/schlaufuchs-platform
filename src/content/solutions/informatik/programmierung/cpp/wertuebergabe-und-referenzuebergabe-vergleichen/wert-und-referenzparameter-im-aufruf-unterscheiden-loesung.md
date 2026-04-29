@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – Wert- und Referenzparameter im Aufruf unterscheiden
-description: Musterlösung zur Aufgabe INF-PROG-CPP-FUNC-007.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - funktionen-und-parameter
-  - wertuebergabe-und-referenzuebergabe-vergleichen
-  - wert-und-referenzparameter-im-aufruf-unterscheiden-loesung
-taskId: INF-PROG-CPP-FUNC-007
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/wertuebergabe-und-referenzuebergabe-vergleichen/wert-und-referenzparameter-im-aufruf-unterscheiden.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – Wert- und Referenzparameter im Aufruf unterscheiden"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-FUNC-007."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "wertuebergabe-und-referenzuebergabe-vergleichen", "wert-und-referenzparameter-im-aufruf-unterscheiden"]
+taskId: "INF-PROG-CPP-FUNC-007"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/wertuebergabe-und-referenzuebergabe-vergleichen/wert-und-referenzparameter-im-aufruf-unterscheiden.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Zwei Signaturen lesen
 
 - <code>halbieren(int zahl)</code> arbeitet mit einer Kopie.

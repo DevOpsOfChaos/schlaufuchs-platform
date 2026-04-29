@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Rollback-Bedingung vorher definieren"
 description: "Musterlösung zu Rollback-Bedingung vorher definieren mit Trennkante und Gegenprobe."
-subject: web-development
+subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "web-projektpraxis-v115"
-  - "release-und-betrieb"
-  - "rollback-bedingung-vorher-definieren-v115"
+topicPath: ["web-projektpraxis-v115", "release-und-betrieb", "rollback-bedingung-vorher-definieren-v115"]
 taskId: "web-development-rollback-bedingung-vorher-definieren-v115"
 relatedExercise: "web-development/web-projektpraxis-v115/release-und-betrieb/rollback-bedingung-vorher-definieren-v115"
-tags:
-  - "web development"
-  - "feinstruktur"
-  - "unterthema"
-  - "web-projektpraxis"
-  - "release und betrieb"
-  - "lösung"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Rollback-Bedingung vorher definieren**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

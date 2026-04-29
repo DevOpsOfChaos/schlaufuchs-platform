@@ -1,11 +1,10 @@
 ---
-title: Neue Inhalte in allen Hauptfächern
-description: Die Plattform wurde erneut mit frischen Wissensseiten und Übungen in allen fünf Hauptfächern erweitert.
-publishedAt: 2026-04-06
-tags: [Inhalte, Aufgaben, Fachbereiche]
+title: "Neue Inhalte in allen Hauptfächern"
+description: "Die Plattform wurde erneut mit frischen Wissensseiten und Übungen in allen fünf Hauptfächern erweitert."
+publishedAt: "2026-04-01"
+tags: ["Inhalte", "Aufgaben", "Fachbereiche"]
 draft: false
 ---
-
 Die Plattform wurde in einer weiteren Arbeitswelle gleichzeitig über **Wissensseiten** und **Aufgaben** ausgebaut.
 
 ## Was neu dazugekommen ist

@@ -1,47 +1,19 @@
 ---
-title: Adressoperator und Dereferenzierung unterscheiden
-description: Verstehe den Unterschied zwischen dem Ermitteln einer Adresse mit & und dem Zugriff auf den Zielwert mit *.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - pointer-und-adressen
-  - adresse-operator-und-dereferenzierung-unterscheiden
-learningGoals:
-  - Du erklärst die Rollen von <code>&amp;</code> und <code>*</code> im Pointer-Kontext.
-  - Du liest Ausdrücke mit Adresse, Pointerwert und Zielwert sauber auseinander.
-  - Du erkennst, wann ein Ausdruck eine Adresse liefert und wann er einen normalen Nutzwert liefert.
-practiceIdeas:
-  - Übersetze Zeilen mit <code>&amp;</code>, <code>p</code> und <code>*p</code> jeweils in klare Sprache.
-  - Prüfe in kleinen Beispielen, ob gerade eine Adresse gespeichert, gelesen oder dereferenziert wird.
-  - "Ergänze zu jeder Pointer-Zeile bewusst die Frage: „Adresse oder Wert?“"
-commonMistakes:
-  - <code>&amp;</code> in jeder Situation als logischen oder bitweisen Operator zu lesen.
-  - <code>*</code> beim Dereferenzieren mit Multiplikation zu verwechseln.
-  - <code>p</code> und <code>*p</code> so zu behandeln, als wäre beides dasselbe.
-keyTakeaways:
-  - <code>&amp;</code> liefert die Adresse einer Variable.
-  - <code>p</code> ist der Pointerwert, also selbst eine gespeicherte Adresse.
-  - <code>*p</code> greift auf den Wert zu, der an dieser Adresse liegt.
-recognizeSignals:
-  - Eine Adresse soll gespeichert oder an eine Funktion übergeben werden.
-  - Ein Pointer soll gelesen oder verändert werden.
-  - In einem Ausdruck mit <code>*</code> geht es nicht um Multiplikation, sondern um den Zielwert eines Pointers.
-selfCheckPoints:
-  - Kann ich sagen, wann <code>&amp;</code> eine Adresse liefert?
-  - Kann ich den Unterschied zwischen <code>p</code> und <code>*p</code> erklären?
-  - Kann ich in einem kleinen Beispiel benennen, welcher Ausdruck Adresse und welcher Ausdruck Wert ist?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - pointer
-  - dereferenzierung
+title: "Adressoperator und Dereferenzierung unterscheiden"
+description: "Verstehe den Unterschied zwischen dem Ermitteln einer Adresse mit & und dem Zugriff auf den Zielwert mit *."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "adresse-operator-und-dereferenzierung-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Im Pointer-Kontext haben drei Dinge unterschiedliche Rollen:

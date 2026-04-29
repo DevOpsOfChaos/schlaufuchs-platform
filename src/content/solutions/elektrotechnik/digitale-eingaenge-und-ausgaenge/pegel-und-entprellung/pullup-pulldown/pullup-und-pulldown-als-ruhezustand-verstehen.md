@@ -3,23 +3,12 @@ title: "Lösung – Pull-up und Pull-down als Ruhezustand verstehen"
 description: "Musterlösung zu Pull-up und Pull-down mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "elektrotechnik"
 section: "Digitaltechnik"
-topicPath:
-  - "digitale-eingaenge-und-ausgaenge"
-  - "pegel-und-entprellung"
-  - "pullup-pulldown"
-  - "pullup-und-pulldown-als-ruhezustand-verstehen"
+topicPath: ["digitale-eingaenge-und-ausgaenge", "pegel-und-entprellung", "pullup-pulldown", "pullup-und-pulldown-als-ruhezustand-verstehen"]
 taskId: "v108-elektrotechnik-pullup-und-pulldown-als-ruhezustand-verstehen"
 relatedExercise: "elektrotechnik/digitale-eingaenge-und-ausgaenge/pegel-und-entprellung/pullup-pulldown/pullup-und-pulldown-als-ruhezustand-verstehen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "schaltungen"
-  - "digitale-eingaenge-und-ausgaenge"
-  - "pegel-und-entprellung"
-  - "pull-up und pull-down"
+tags: ["elektrotechnik", "Digitaltechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **Pull-up und Pull-down**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

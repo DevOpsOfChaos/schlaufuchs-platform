@@ -1,46 +1,19 @@
 ---
 title: "Linux – cut und awk passend wählen"
 description: "Trainiere cut und awk passend wählen als kleines Unterthema mit klarer Trennkante, Beispiel und Gegenprobe."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell-praxis-v115"
-  - "pipes-und-textfilter"
-  - "cut-und-awk-passend-waehlen-v115"
-learningGoals:
-  - "Du erklärst cut und awk passend wählen an einem kleinen, abgegrenzten Fall."
-  - "Du trennst das Unterthema von einem naheliegenden Nachbarthema."
-  - "Du formulierst eine passende Gegenprobe statt nur eine fertige Antwort."
-practiceIdeas:
-  - "Schreibe zuerst die Prüffrage in eigenen Worten auf."
-  - "Markiere im Fall zwei Hinweise, die wirklich zur Entscheidung gehören."
-  - "Formuliere einen Gegenfall, in dem die Entscheidung anders ausfallen würde."
-commonMistakes:
-  - "cut wird genutzt, obwohl Felder unterschiedlich breit sind."
-  - "Das Thema wird zu breit eingeordnet und verliert dadurch die prüfbare Trennkante."
-  - "Die Lösung nennt ein Ergebnis, begründet aber nicht die Abgrenzung."
-keyTakeaways:
-  - "Dieses Unterthema prüft vor allem: Sind die Trennzeichen stabil genug?"
-  - "Eine gute Lösung benennt die Trennkante ausdrücklich."
-  - "Die Gegenprobe zeigt, ob die Begründung wirklich trägt."
-recognizeSignals:
-  - "Die Aufgabe fragt nach cut und awk passend wählen."
-  - "Ähnliche Begriffe oder Fälle liegen nah beieinander."
-  - "Eine kleine Änderung im Fall würde zu einer anderen Entscheidung führen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-level: mittel
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "shell-praxis"
-  - "pipes und textfilter"
+topicPath: ["shell-praxis-v115", "pipes-und-textfilter", "cut-und-awk-passend-waehlen-v115"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["linux", "Feinstruktur Linux"]
 draft: false
 ---
-
 <img src="/schlaufuchs-platform/illustrations/linux-cut-und-awk-passend-waehlen-v115.svg" alt="Lernillustration zu cut und awk passend wählen" loading="lazy" />
 
 ## Grundidee

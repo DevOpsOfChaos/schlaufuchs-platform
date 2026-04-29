@@ -1,37 +1,19 @@
 ---
 title: "Datenbankindizes"
 description: "Überblick über Indizes in Datenbanken, Suchgeschwindigkeit und Kosten bei Schreiboperationen."
-subject: informatik
+subject: "informatik"
 section: "Datenbanken"
-topicPath:
-  - "datenbankindizes"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Datenbankindizes als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["datenbankindizes", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Entweder fehlen Indizes komplett oder jede Spalte wird blind indexiert."
-keyTakeaways:
-  - "Indizes beschleunigen passende Abfragen."
-  - "Sie kosten Speicher und Schreibaufwand."
-  - "Gute Indizes folgen realen Nutzungsmustern."
-recognizeSignals:
-  - "Abfragen sind langsam, obwohl wenige Ergebnisse erwartet werden."
-  - "Analyse zeigt Table Scan oder fehlende Indexnutzung."
-selfCheckPoints:
-  - "Kann ich Datenbankindizes in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "datenbanken"
-  - "index"
-  - "performance"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Datenbanken"]
 draft: false
 ---
-
 # Datenbankindizes
 
 Ein Datenbankindex ist eine zusätzliche Datenstruktur, die bestimmte Abfragen schneller machen kann.

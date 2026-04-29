@@ -3,23 +3,12 @@ title: "Lösung – Alt-Text nach Bildfunktion formulieren"
 description: "Musterlösung zu Alt-Text nach Bildfunktion mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "bilder-navigation-und-links"
-  - "alt-kontext"
-  - "alt-text-nach-bildfunktion-formulieren"
+topicPath: ["html", "bilder-navigation-und-links", "alt-kontext", "alt-text-nach-bildfunktion-formulieren"]
 taskId: "v109-web-development-alt-text-nach-bildfunktion-formulieren"
 relatedExercise: "web-development/html/bilder-navigation-und-links/alt-kontext/alt-text-nach-bildfunktion-formulieren"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "html"
-  - "bilder-navigation-und-links"
-  - "alt-text nach bildfunktion"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Alt-Text nach Bildfunktion**.

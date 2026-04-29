@@ -1,13 +1,19 @@
 ---
-title: Dateirechte – Grundlagen
-description: Verstehe, wie Lesen, Schreiben und Ausführen in Linux geregelt werden.
-subject: linux
-section: rechte-und-benutzer
-level: einfach
-tags: [dateirechte, linux, chmod, grundlagen]
+title: "Dateirechte – Grundlagen"
+description: "Verstehe, wie Lesen, Schreiben und Ausführen in Linux geregelt werden."
+subject: "linux"
+section: "rechte-und-benutzer"
+topicPath: ["dateirechte-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["dateirechte", "linux", "chmod", "grundlagen"]
 draft: false
 ---
-
 Linux steuert Zugriffe auf Dateien und Ordner über Rechte. Damit wird geregelt, wer etwas lesen, verändern oder ausführen darf.
 
 ## Die drei Grundrechte

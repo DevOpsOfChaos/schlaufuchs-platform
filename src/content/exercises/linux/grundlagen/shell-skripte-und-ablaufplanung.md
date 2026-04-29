@@ -1,12 +1,17 @@
 ---
-title: Shell-Skripte und Ablaufplanung
-description: Diese Aufgabe vertieft die Grundidee von Shell-Skripten als gespeicherte und wiederverwendbare Befehlsfolgen.
-subject: linux
-section: Grundlagen
-level: mittel
+title: "Shell-Skripte und Ablaufplanung"
+description: "Diese Aufgabe vertieft die Grundidee von Shell-Skripten als gespeicherte und wiederverwendbare Befehlsfolgen."
+subject: "linux"
+section: "Grundlagen"
+topicPath: ["grundlagen", "shell-skripte-und-ablaufplanung"]
+taskId: "AUTO-SHELL-SKRIPTE-UND-ABLAUFPLANUNG"
+tags: ["linux", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben so, dass immer klar bleibt, warum ein Shell-Skript mehr ist als nur eine lose Sammlung von Befehlen.

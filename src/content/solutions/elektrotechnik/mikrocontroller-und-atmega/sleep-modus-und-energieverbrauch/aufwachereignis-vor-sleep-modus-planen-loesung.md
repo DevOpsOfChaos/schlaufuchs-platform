@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Aufwachereignis vor Sleep-Modus planen"
 description: "Musterlösung zur Aufgabe: Aufwachereignis vor Sleep-Modus planen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - mikrocontroller-und-atmega
-  - sleep-modus-und-energieverbrauch
-taskId: ET-V182-014
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/sleep-modus-und-energieverbrauch/aufwachereignis-vor-sleep-modus-planen.md
-tags:
-  - elektrotechnik
-  - sleep-modus-und-energieverbrauch
-  - loesung
-  - sanierung-v182
+topicPath: ["mikrocontroller-und-atmega", "sleep-modus-und-energieverbrauch", "aufwachereignis-vor-sleep-modus-planen"]
+taskId: "ET-V182-014"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/sleep-modus-und-energieverbrauch/aufwachereignis-vor-sleep-modus-planen.md"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Authentifizierung und Autorisierung – ruhig einordnen"
 description: "Musterlösung zur Aufgabe über authentifizierung und autorisierung."
-subject: informatik
+subject: "informatik"
 section: "Sicherheit und Berechtigungen"
-topicPath:
-  - "sicherheit-und-berechtigungen"
-  - "authentifizierung-und-autorisierung"
-  - "loesung"
-taskId: INF-V185-021-1
-relatedExercise: src/content/exercises/informatik/sicherheit-und-berechtigungen/authentifizierung-und-autorisierung/authentifizierung-und-autorisierung-ruhig-einordnen-v185.md
-tags:
-  - "informatik"
-  - "sicherheit-und-berechtigungen"
-  - "authentifizierung-und-autorisierung"
-  - "loesung"
+topicPath: ["sicherheit-und-berechtigungen", "authentifizierung-und-autorisierung", "authentifizierung-und-autorisierung-ruhig-einordnen-v185"]
+taskId: "INF-V185-021-1"
+relatedExercise: "src/content/exercises/informatik/sicherheit-und-berechtigungen/authentifizierung-und-autorisierung/authentifizierung-und-autorisierung-ruhig-einordnen-v185.md"
+tags: ["informatik", "Sicherheit und Berechtigungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

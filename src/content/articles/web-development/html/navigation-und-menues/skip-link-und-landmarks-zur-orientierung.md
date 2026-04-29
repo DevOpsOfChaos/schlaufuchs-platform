@@ -3,44 +3,17 @@ title: "HTML – Skip-Link und Landmarks zur Orientierung"
 description: "Plane Seitenbereiche so, dass Tastatur- und Screenreader-Nutzung schnell zum Hauptinhalt findet."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "navigation-und-menues"
-  - "skip-link-und-landmarks-zur-orientierung"
-tags:
-  - "web development"
-  - "html"
-  - "accessibility"
-  - "landmarks"
-  - "skip link"
-learningGoals:
-  - "Du erklärst, warum Skip-Links nicht nur ein Detail für Screenreader sind."
-  - "Du unterscheidest sichtbare Seitenbereiche und semantische Orientierungspunkte."
-  - "Du prüfst, ob eine Seite per Tastatur schnell zum Hauptinhalt führt."
-practiceIdeas:
-  - "Übertrage die Idee auf eine kleine eigene Seite."
-  - "Prüfe die Bedienung einmal mit Tastatur und einmal mit Maus."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "Nur optisch sichtbare Bereiche zu bauen und semantische Orientierung zu vergessen."
-  - "Skip-Links so zu verstecken, dass sie beim Fokus nicht sichtbar werden."
-  - "Mehrere main-Bereiche oder unklare Landmark-Strukturen zu erzeugen."
-keyTakeaways:
-  - "Struktur, Zustand und Rückmeldung müssen zusammenpassen."
-  - "Sichtbare Nutzerführung ist Teil der technischen Lösung."
-  - "Saubere Webentwicklung prüft auch Fehlerfälle und Sonderwege."
-recognizeSignals:
-  - "Eine Oberfläche soll verständlicher, robuster oder zugänglicher werden."
-  - "HTML, CSS und JavaScript müssen gemeinsam gelesen werden."
-  - "Es gibt einen Zustand, der sichtbar gemacht oder kontrolliert werden muss."
-selfCheckPoints:
-  - "Kann ich die Entscheidung in einem Satz erklären?"
-  - "Bleibt die Lösung bei Fehlern oder Tastaturbedienung verständlich?"
-  - "Sind sichtbare Texte klar und deutsch formuliert?"
+topicPath: ["html", "navigation-und-menues", "skip-link-und-landmarks-zur-orientierung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Plane Seitenbereiche so, dass Tastatur- und Screenreader-Nutzung schnell zum Hauptinhalt findet. Die Seite betrachtet das Thema nicht als isolierten Syntaxtrick, sondern als kleine Entscheidung für Bedienbarkeit, Wartbarkeit und verständliche Rückmeldung.

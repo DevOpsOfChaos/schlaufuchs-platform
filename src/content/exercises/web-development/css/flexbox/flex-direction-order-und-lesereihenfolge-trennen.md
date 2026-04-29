@@ -3,33 +3,15 @@ title: "CSS – Aufgabe: flex-direction, order und Lesereihenfolge trennen"
 description: "Prüfe eine Produktkarte mit Bild, Titel, Preis und Kaufen-Button. Lege eine sinnvolle DOM-Reihenfolge fest und entscheide, ob order nötig ist."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "flexbox"
-  - "flex-direction-order-und-lesereihenfolge-trennen"
+topicPath: ["css", "flexbox", "flex-direction-order-und-lesereihenfolge-trennen"]
 taskId: "wd-v97-flex-direction-order-und-lesereihenfolge-trennen"
-tags:
-  - "web development"
-  - "css"
-  - "flexbox"
-  - "order"
-  - "accessibility"
-hintPoints:
-  - "Trenne zuerst sichtbare Wirkung, semantische Bedeutung und technische Umsetzung."
-  - "Begründe deine Entscheidung aus Nutzerperspektive, nicht nur aus Code-Sicht."
-  - "Prüfe am Ende, ob die Lösung ohne Ratespiel verständlich bleibt."
-selfCheckPoints:
-  - "Ist der betroffene UI-Baustein eindeutig benannt?"
-  - "Ist die technische Entscheidung fachlich begründet?"
-  - "Gibt es eine klare Verbesserung gegenüber dem Ausgangszustand?"
-transferIdeas:
-  - "Übertrage die Entscheidung auf eine zweite Komponente derselben Seite."
-  - "Formuliere eine kurze Prüfregel, die ein Team beim Review verwenden könnte."
-reflectionPrompt: "Welche kleine Änderung hätte hier die größte Wirkung auf Verständlichkeit oder Zugänglichkeit?"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Ausgangslage
 
 Prüfe eine Produktkarte mit Bild, Titel, Preis und Kaufen-Button. Lege eine sinnvolle DOM-Reihenfolge fest und entscheide, ob order nötig ist.

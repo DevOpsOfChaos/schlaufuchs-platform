@@ -3,23 +3,12 @@ title: "Lösung – Container Queries statt nur Viewport denken"
 description: "Musterlösung zu Container Queries statt nur Viewport denken mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css-systeme"
-  - "layout-tokens-komponenten"
-  - "v110-teil-1"
-  - "container-queries-statt-nur-viewport-denken"
+topicPath: ["css-systeme", "layout-tokens-komponenten", "v110-teil-1", "container-queries-statt-nur-viewport-denken"]
 taskId: "v110-web-development-container-queries-statt-nur-viewport-denken"
 relatedExercise: "web-development/css-systeme/layout-tokens-komponenten/v110-teil-1/container-queries-statt-nur-viewport-denken"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "css-systeme"
-  - "layout-tokens-komponenten"
-  - "container-queries-statt-nur-viewport-denken"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Container Queries statt nur Viewport denken**.

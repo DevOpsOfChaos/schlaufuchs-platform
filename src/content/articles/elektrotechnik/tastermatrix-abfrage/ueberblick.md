@@ -1,35 +1,17 @@
 ---
 title: "Tastermatrix-Abfrage"
 description: "Überblick über Tastermatrizen, Zeilen-Spalten-Abfrage und typische Grenzen bei mehreren Tasten."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Digitale Eingänge und Ausgänge"
-topicPath:
-  - "tastermatrix-abfrage"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Tastermatrix-Abfrage als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["tastermatrix-abfrage", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird nur die Pin-Ersparnis betrachtet. Ohne Betrachtung von Ghosting, Entprellung und Scanzeit entstehen schwer erklärbare Fehleingaben."
-keyTakeaways:
-  - "Eine Tastermatrix ordnet viele Tasten in Zeilen und Spalten an, damit weniger Mikrocontroller-Pins benötigt werden."
-  - "Sie reduziert Anschlussaufwand und Verdrahtung, verlangt aber eine klare Abfragestrategie und den Umgang mit Mehrfachbetätigung."
-  - "Eine Matrix ist nicht automatisch für jede Tastatur geeignet. Für viele gleichzeitige Tastendrücke können Dioden oder andere Scanverfahren nötig sein."
-recognizeSignals:
-  - "Es geht um Tastermatrix-Abfrage, wenn zeilen werden nacheinander aktiviert, Spalten gelesen oder umgekehrt."
-  - "Das Thema wird relevant, wenn Beispiele wie eine 4x4-Matrix kann 16 Tasten mit acht Leitungen erfassen, statt jede Taste einzeln an einen Pin zu führen."
-selfCheckPoints:
-  - "Kann ich Tastermatrix-Abfrage in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "taster"
-  - "matrix"
-  - "mikrocontroller"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Digitale Eingänge und Ausgänge"]
 draft: false
 ---
 # Tastermatrix-Abfrage

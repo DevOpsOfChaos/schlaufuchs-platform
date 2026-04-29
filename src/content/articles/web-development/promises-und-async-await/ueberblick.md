@@ -1,31 +1,17 @@
 ---
 title: "Promises und async/await"
 description: "Allgemeiner Überblick über Promises, async/await und strukturierte asynchrone JavaScript-Abläufe."
-subject: web-development
+subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "promises-und-async-await"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Promises und async/await grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["promises-und-async-await", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Promises und async/await nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Promises und async/await beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Promises und async/await, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Promises und async/await in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "web-development"
-  - "javascript"
-  - "promises"
-  - "async-await"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
 # Promises und async/await

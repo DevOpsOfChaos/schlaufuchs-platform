@@ -3,21 +3,12 @@ title: "Lösung – Ressourcenengpass mit top prüfen"
 description: "Musterlösung zu ressourcenengpass mit top prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "prozess-und-dienste"
-  - "ressourcenengpass-mit-top-pruefen"
+topicPath: ["shell", "prozess-und-dienste", "ressourcenengpass-mit-top-pruefen"]
 taskId: "v112-linux-ressourcenengpass-mit-top-pruefen"
 relatedExercise: "linux/shell/prozess-und-dienste/ressourcenengpass-mit-top-pruefen"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "ressourcenengpass-mit-top-pruefen"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Prozesse und Dienste**.

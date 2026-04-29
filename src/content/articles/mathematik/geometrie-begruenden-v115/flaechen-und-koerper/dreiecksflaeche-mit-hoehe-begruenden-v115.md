@@ -1,46 +1,19 @@
 ---
 title: "Mathematik – Dreiecksfläche mit Höhe begründen"
 description: "Trainiere Dreiecksfläche mit Höhe begründen als kleines Unterthema mit klarer Trennkante, Beispiel und Gegenprobe."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "geometrie-begruenden-v115"
-  - "flaechen-und-koerper"
-  - "dreiecksflaeche-mit-hoehe-begruenden-v115"
-learningGoals:
-  - "Du erklärst Dreiecksfläche mit Höhe begründen an einem kleinen, abgegrenzten Fall."
-  - "Du trennst das Unterthema von einem naheliegenden Nachbarthema."
-  - "Du formulierst eine passende Gegenprobe statt nur eine fertige Antwort."
-practiceIdeas:
-  - "Schreibe zuerst die Prüffrage in eigenen Worten auf."
-  - "Markiere im Fall zwei Hinweise, die wirklich zur Entscheidung gehören."
-  - "Formuliere einen Gegenfall, in dem die Entscheidung anders ausfallen würde."
-commonMistakes:
-  - "Die schräge Seite wird automatisch als Höhe genutzt."
-  - "Das Thema wird zu breit eingeordnet und verliert dadurch die prüfbare Trennkante."
-  - "Die Lösung nennt ein Ergebnis, begründet aber nicht die Abgrenzung."
-keyTakeaways:
-  - "Dieses Unterthema prüft vor allem: Steht die gewählte Höhe senkrecht auf der Grundseite?"
-  - "Eine gute Lösung benennt die Trennkante ausdrücklich."
-  - "Die Gegenprobe zeigt, ob die Begründung wirklich trägt."
-recognizeSignals:
-  - "Die Aufgabe fragt nach Dreiecksfläche mit Höhe begründen."
-  - "Ähnliche Begriffe oder Fälle liegen nah beieinander."
-  - "Eine kleine Änderung im Fall würde zu einer anderen Entscheidung führen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-level: mittel
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "geometrisch begründen"
-  - "flächen und körper"
+topicPath: ["geometrie-begruenden-v115", "flaechen-und-koerper", "dreiecksflaeche-mit-hoehe-begruenden-v115"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["mathematik", "Feinstruktur Mathematik"]
 draft: false
 ---
-
 <img src="/schlaufuchs-platform/illustrations/mathematik-dreiecksflaeche-mit-hoehe-begruenden-v115.svg" alt="Lernillustration zu Dreiecksfläche mit Höhe begründen" loading="lazy" />
 
 ## Grundidee

@@ -3,26 +3,12 @@ title: "Lösung: Pakete installieren und prüfen: Aufgabe B"
 description: "Musterlösung zur Aufgabe linux-v192-013b im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "pakete-und-updates"
-  - "pakete-installieren-und-pruefen"
-  - "loesung-b"
+topicPath: ["sanierung-v192", "pakete-installieren-und-pruefen-loesung-b"]
 taskId: "linux-v192-013b"
 relatedExercise: "linux/sanierung-v192/pakete-installieren-und-pruefen-aufgabe-b"
-tags:
-  - "pakete-und-updates"
-  - "pakete"
-  - "installieren"
-  - "pruefen"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-013b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Pakete installieren und prüfen“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

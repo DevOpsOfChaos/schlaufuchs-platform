@@ -3,32 +3,17 @@ title: "Tastaturbedienung und Fokusreihenfolge"
 description: "Allgemeiner Überblick über Tastaturbedienung, Fokus und eine nachvollziehbare Reihenfolge interaktiver Elemente."
 subject: "web-development"
 section: "Barrierefreiheit"
-topicPath:
-  - "tastaturbedienung-und-fokusreihenfolge"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["tastaturbedienung-und-fokusreihenfolge", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird der Fokusrahmen aus optischen Gründen entfernt. Ohne Ersatz verlieren Tastaturnutzende die Orientierung."
-keyTakeaways:
-  - "Gute Tastaturbedienung macht Interaktion sichtbar, vorhersehbar und unabhängig von einer Maus."
-  - "Tastaturzugänglichkeit ist nicht nur ein ARIA-Thema. Native HTML-Elemente bieten viele Tastaturfunktionen bereits automatisch."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "web development"
-  - "barrierefreiheit"
-  - "tastatur"
-  - "fokus"
+tags: ["web-development", "Barrierefreiheit"]
 draft: false
 ---
-
 # Tastaturbedienung und Fokusreihenfolge
 
 Tastaturbedienung bedeutet, dass eine Webseite ohne Maus nutzbar bleibt. Die Fokusreihenfolge legt fest, in welcher Reihenfolge interaktive Elemente erreicht werden.

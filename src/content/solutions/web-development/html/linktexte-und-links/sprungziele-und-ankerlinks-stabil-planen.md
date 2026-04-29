@@ -3,21 +3,12 @@ title: "Lösung – Sprungziele und Ankerlinks stabil planen"
 description: "Musterlösung zu: Plane drei Ankerlinks für eine lange Übungsseite: Aufgabe, Hinweise und Lösung. Formuliere gute Linktexte und Ziel-IDs."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "linktexte-und-links"
-  - "sprungziele-und-ankerlinks-stabil-planen"
+topicPath: ["html", "linktexte-und-links", "sprungziele-und-ankerlinks-stabil-planen"]
 taskId: "wd-v97-sprungziele-und-ankerlinks-stabil-planen"
 relatedExercise: "web-development/html/linktexte-und-links/sprungziele-und-ankerlinks-stabil-planen"
-tags:
-  - "web development"
-  - "html"
-  - "links"
-  - "anker"
-  - "navigation"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Das Problem entsteht nicht nur im Code, sondern in der Nutzung: Wenn Bedeutung, Struktur oder Rückmeldung unklar bleiben, müssen Nutzerinnen und Nutzer raten. Besonders kritisch wird das bei Tastaturbedienung, kleinen Bildschirmen, langen Inhalten oder assistiven Technologien.

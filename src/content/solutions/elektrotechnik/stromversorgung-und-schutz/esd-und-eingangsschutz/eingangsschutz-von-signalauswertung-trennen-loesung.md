@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Eingangsschutz von Signalauswertung trennen"
 description: "Musterlösung zur Aufgabe: Eingangsschutz von Signalauswertung trennen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Stromversorgung und Schutz"
-topicPath:
-  - stromversorgung-und-schutz
-  - esd-und-eingangsschutz
-taskId: ET-V182-016
-relatedExercise: src/content/exercises/elektrotechnik/stromversorgung-und-schutz/esd-und-eingangsschutz/eingangsschutz-von-signalauswertung-trennen.md
-tags:
-  - elektrotechnik
-  - esd-und-eingangsschutz
-  - loesung
-  - sanierung-v182
+topicPath: ["stromversorgung-und-schutz", "esd-und-eingangsschutz", "eingangsschutz-von-signalauswertung-trennen"]
+taskId: "ET-V182-016"
+relatedExercise: "src/content/exercises/elektrotechnik/stromversorgung-und-schutz/esd-und-eingangsschutz/eingangsschutz-von-signalauswertung-trennen.md"
+tags: ["elektrotechnik", "Stromversorgung und Schutz", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

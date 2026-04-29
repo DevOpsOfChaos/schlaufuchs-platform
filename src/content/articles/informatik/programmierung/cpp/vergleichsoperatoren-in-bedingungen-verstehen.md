@@ -1,47 +1,19 @@
 ---
-title: Vergleichsoperatoren in Bedingungen verstehen
-description: Verstehe, wie Bedingungen mit ==, !=, <, >, <= und >= Entscheidungen im C++-Code steuern.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - kontrollstrukturen
-  - vergleichsoperatoren-in-bedingungen-verstehen
-learningGoals:
-  - Du erklärst, warum Vergleichsoperatoren Bedingungen wahr oder falsch machen.
-  - Du unterscheidest Gleichheit, Ungleichheit und Größenvergleich sauber.
-  - Du liest einfache if-Bedingungen ruhiger als Entscheidung statt als Symbolkette.
-practiceIdeas:
-  - Übersetze kleine Bedingungen zuerst in Alltagssprache.
-  - Vergleiche ähnliche Bedingungen wie <code>x == 0</code> und <code>x != 0</code>.
-  - Prüfe in Beispielen, wann eine Bedingung wahr und wann sie falsch ist.
-commonMistakes:
-  - == mit = zu verwechseln.
-  - Eine Bedingung nur symbolisch statt inhaltlich zu lesen.
-  - Zu übersehen, dass aus einem Vergleich nur wahr oder falsch folgt.
-keyTakeaways:
-  - Vergleichsoperatoren erzeugen eine Wahrheitsentscheidung.
-  - Bedingungen steuern Auswahl und Wiederholung.
-  - Das ruhige Lesen in Worten verhindert viele Flüchtigkeitsfehler.
-recognizeSignals:
-  - Es geht um if, while oder Bedingungen mit Vergleichszeichen.
-  - Du sollst erklären, wann ein Programmzweig betreten wird.
-  - In Beispielen musst du Bedingungen in Worte übersetzen.
-selfCheckPoints:
-  - Kann ich == und = sauber unterscheiden?
-  - Kann ich eine Bedingung in Alltagssprache formulieren?
-  - Kann ich sagen, wann sie wahr oder falsch ist?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - bedingungen
-  - vergleich
+title: "Vergleichsoperatoren in Bedingungen verstehen"
+description: "Verstehe, wie Bedingungen mit ==, !=, <, >, <= und >= Entscheidungen im C++-Code steuern."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "vergleichsoperatoren-in-bedingungen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Kontrollstrukturen brauchen oft eine Bedingung. Damit das Programm entscheiden kann, muss etwas **verglichen** werden. Genau dafür dienen Vergleichsoperatoren.

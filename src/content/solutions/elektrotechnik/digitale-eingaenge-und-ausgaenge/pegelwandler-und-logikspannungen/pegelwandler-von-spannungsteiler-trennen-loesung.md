@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Pegelwandler von Spannungsteiler trennen"
 description: "Musterlösung zur Aufgabe Pegelwandler von Spannungsteiler trennen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Digitale Eingänge und Ausgänge"
-topicPath:
-  - digitale-eingaenge-und-ausgaenge
-  - pegelwandler-und-logikspannungen
-taskId: ET-V181-010
-relatedExercise: src/content/exercises/elektrotechnik/digitale-eingaenge-und-ausgaenge/pegelwandler-und-logikspannungen/pegelwandler-von-spannungsteiler-trennen.md
-tags:
-  - elektrotechnik
-  - pegelwandler-und-logikspannungen
-  - loesung
+topicPath: ["digitale-eingaenge-und-ausgaenge", "pegelwandler-und-logikspannungen", "pegelwandler-von-spannungsteiler-trennen"]
+taskId: "ET-V181-010"
+relatedExercise: "src/content/exercises/elektrotechnik/digitale-eingaenge-und-ausgaenge/pegelwandler-und-logikspannungen/pegelwandler-von-spannungsteiler-trennen.md"
+tags: ["elektrotechnik", "Digitale Eingänge und Ausgänge", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

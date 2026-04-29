@@ -3,23 +3,12 @@ title: "Lösung: Tests, Checklisten und Abnahme: Prüfung und Verbesserung"
 description: "Musterlösung zur Aufgabe web-v187-030b im Web-Development-Block v187."
 subject: "web-development"
 section: "qualitaet"
-topicPath: 
-  - "qualitaet-und-zugaenglichkeit"
-  - "tests-und-abnahme"
-  - "loesung-b"
+topicPath: ["sanierung-v187", "tests-checklisten-und-abnahme-aufgabe-b"]
 taskId: "web-v187-030b"
 relatedExercise: "web-development/sanierung-v187/tests-checklisten-und-abnahme-aufgabe-b"
-tags: 
-  - "tests"
-  - "checklisten"
-  - "qualitaet"
-  - "abnahme"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "qualitaet", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-030b`
 
     Ausgangsauftrag: Unterscheide bei zehn Prüfpunkten, ob sie automatisch, manuell oder fachlich geprüft werden müssen.

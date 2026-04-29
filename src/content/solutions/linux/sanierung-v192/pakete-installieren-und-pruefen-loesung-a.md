@@ -3,26 +3,12 @@ title: "Lösung: Pakete installieren und prüfen: Aufgabe A"
 description: "Musterlösung zur Aufgabe linux-v192-013a im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "pakete-und-updates"
-  - "pakete-installieren-und-pruefen"
-  - "loesung-a"
+topicPath: ["sanierung-v192", "pakete-installieren-und-pruefen-loesung-a"]
 taskId: "linux-v192-013a"
 relatedExercise: "linux/sanierung-v192/pakete-installieren-und-pruefen-aufgabe-a"
-tags:
-  - "pakete-und-updates"
-  - "pakete"
-  - "installieren"
-  - "pruefen"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-013a`
 
 Ausgangsauftrag: Dokumentiere eine Paketinstallation mit Kontrollschritt.

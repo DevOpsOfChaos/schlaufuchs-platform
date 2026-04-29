@@ -1,47 +1,19 @@
 ---
-title: Mathematische Funktionen mit <cmath> verstehen
-description: Verstehe, warum <cmath> eingebunden wird und welche typischen mathematischen Funktionen in C++ bereitstehen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - cmath
-  - mathematische-funktionen-mit-cmath-verstehen
-learningGoals:
-  - Du erklärst, warum <code>&lt;cmath&gt;</code> eingebunden wird.
-  - Du ordnest typische mathematische Funktionen wie sqrt, pow, floor und ceil grob ein.
-  - Du liest Funktionsaufrufe eher nach Zweck als nach reiner Symbolform.
-practiceIdeas:
-  - "Ordne Funktionen nach ihrem Zweck: runden, Wurzel, Potenz, Vergleich."
-  - Erkläre in Worten, was ein kleiner Funktionsaufruf bewirkt.
-  - Suche passende Funktionen für typische Mini-Probleme.
-commonMistakes:
-  - Funktionsnamen nur auswendig zu lernen.
-  - Funktionen ohne Eingabe und Ergebnis inhaltlich zu lesen.
-  - Zu glauben, alle mathematischen Operationen seien automatische Sprachgrundlage.
-keyTakeaways:
-  - <cmath> stellt viele mathematische Funktionen bereit.
-  - Funktionsnamen zeigen meist schon ihren Zweck.
-  - Ein Funktionsaufruf ist leichter verständlich, wenn du ihn als Frage an die Funktion liest.
-recognizeSignals:
-  - Es geht um sqrt, pow, ceil, floor, fabs oder ähnliche Namen.
-  - Du sollst erklären, welche Funktion für welches Rechenziel passt.
-  - In Codebeispielen werden mathematische Hilfsfunktionen eingebunden.
-selfCheckPoints:
-  - Kann ich erklären, warum <code>&lt;cmath&gt;</code> eingebunden wird?
-  - Kann ich typische Funktionen grob nach Zweck ordnen?
-  - Kann ich einen Funktionsaufruf in Worte übersetzen?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - cmath
-  - funktionen
+title: "Mathematische Funktionen mit <cmath> verstehen"
+description: "Verstehe, warum <cmath> eingebunden wird und welche typischen mathematischen Funktionen in C++ bereitstehen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "mathematische-funktionen-mit-cmath-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Viele mathematische Aufgaben lassen sich in C++ nicht nur mit den Grundrechenarten lösen. Für Wurzeln, Potenzen, Rundungen oder bestimmte Vergleichsfunktionen wird oft die Header-Datei <code>&lt;cmath&gt;</code> eingebunden.

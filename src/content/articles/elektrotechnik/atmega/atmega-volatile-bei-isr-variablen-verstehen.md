@@ -1,47 +1,19 @@
 ---
-title: ATmega – volatile bei ISR-Variablen verstehen
-description: Verstehe, warum gemeinsam genutzte Variablen zwischen Hauptprogramm und ISR am AVR oft als volatile markiert werden müssen.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - ereignisse-und-interrupts
-  - atmega-volatile-bei-isr-variablen-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von volatile bei AVR-Programmen mit ISR.
-  - Du unterscheidest Speicherinhalt und C-Sicht des Compilers sauber.
-  - Du liest gemeinsame Variablen zwischen ISR und Hauptprogramm fachlich ruhiger.
-practiceIdeas:
-  - Prüfe bei kleinen Interrupt-Beispielen, welche Variablen in ISR und Hauptprogramm beide vorkommen.
-  - Vergleiche eine Zählvariable mit und ohne volatile im Denkmodell.
-  - Beschreibe zuerst, wer die Variable ändern darf, und erst danach das Schlüsselwort.
-commonMistakes:
-  - volatile als Schutz gegen alle Nebenläufigkeitsprobleme zu sehen.
-  - Zu denken, volatile mache Variablen automatisch threadsicher oder atomar.
-  - Zu übersehen, dass eine ISR Werte auch außerhalb des sichtbaren Hauptablaufs ändern kann.
-keyTakeaways:
-  - volatile sagt dem Compiler, dass sich ein Wert auch außerhalb des direkt sichtbaren Hauptcodes ändern kann.
-  - Gemeinsam genutzte ISR-Variablen brauchen oft genau diese Sichtbarkeit.
-  - volatile löst nicht automatisch jedes Konsistenzproblem, sondern zuerst ein Sichtbarkeitsproblem.
-recognizeSignals:
-  - Eine Variable wird in ISR und Hauptprogramm beide benutzt.
-  - Du sollst erklären, warum eine Abfrage in einer while-Schleife sonst unzuverlässig wirken kann.
-  - In Beispielen zählt die Änderung durch ein Ereignis mehr als ein normaler Funktionsaufruf.
-selfCheckPoints:
-  - Kann ich erklären, warum die ISR eine Variable „von außen“ verändern kann?
-  - Kann ich volatile als Sichtbarkeits- statt als Zauberwort einordnen?
-  - Kann ich sagen, was volatile gerade nicht automatisch löst?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - avr
-  - interrupt
-  - volatile
-level: mittel
+title: "ATmega – volatile bei ISR-Variablen verstehen"
+description: "Verstehe, warum gemeinsam genutzte Variablen zwischen Hauptprogramm und ISR am AVR oft als volatile markiert werden müssen."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-volatile-bei-isr-variablen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 Wenn Hauptprogramm und ISR dieselbe Variable benutzen, reicht die naive Lesart „Der Wert bleibt so, bis die nächste Zeile im Hauptprogramm ihn ändert“ oft nicht mehr. Eine ISR kann den Wert jederzeit durch ein Ereignis verändern. Genau dafür ist `volatile` bei AVR-Programmen ein wichtiges Grundwerkzeug.
 
 <div class="example-card">

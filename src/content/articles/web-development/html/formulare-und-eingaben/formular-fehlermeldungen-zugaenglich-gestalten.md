@@ -1,43 +1,17 @@
 ---
 title: "HTML – Formularfehlermeldungen zugänglich gestalten"
 description: "Lerne, Fehlermeldungen in Formularen so zu formulieren und zu verknüpfen, dass Nutzerinnen, Nutzer und Hilfstechnologien sie zuverlässig verstehen."
-subject: web-development
+subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "formulare-und-eingaben"
-  - "formular-fehlermeldungen-zugaenglich-gestalten"
-learningGoals:
-  - "Du unterscheidest sichtbare Fehlermeldung, Programmzustand und technische Verknüpfung."
-  - "Du erklärst, warum eine Fehlermeldung nahe am Feld stehen und konkret helfen muss."
-  - "Du setzt aria-describedby und aria-invalid als Ergänzung zu sichtbarem Text ein."
-practiceIdeas:
-  - "Formuliere eine Fehlermeldung für ein E-Mail-Feld einmal ungenau und einmal hilfreich."
-  - "Prüfe, ob ein Screenreader die Fehlermeldung über eine ID-Verknüpfung finden könnte."
-  - "Vergleiche Fehlermeldung, Hilfetext und Placeholder bewusst getrennt."
-commonMistakes:
-  - "Nur rote Farbe zu verwenden, ohne Text zu zeigen."
-  - "Die Fehlermeldung weit weg vom betroffenen Feld zu platzieren."
-  - "aria-invalid zu setzen, aber keine verständliche Erklärung anzubieten."
-keyTakeaways:
-  - "Fehlermeldungen brauchen sichtbaren Text und eine klare Beziehung zum Eingabefeld."
-  - "aria-describedby verbindet Feld, Hilfetext und Fehlermeldung."
-  - "Gute Fehlermeldungen sagen, was falsch ist und wie es korrigiert werden kann."
-recognizeSignals:
-  - "Es geht um Formularfehler, Validierung, Screenreader oder unklare Eingabefelder."
-  - "Eine Aufgabe fragt, warum rote Rahmen allein nicht ausreichen."
-  - "Ein Feld hat Hilfetext oder Fehlermeldungen mit eigener ID."
-selfCheckPoints:
-  - "Kann ich erklären, welches Feld betroffen ist?"
-  - "Kann ich eine Fehlermeldung ohne reine Farbcodierung verständlich machen?"
-  - "Kann ich aria-describedby fachlich sauber begründen?"
-tags:
-  - "web development"
-  - "html"
-  - "formulare"
-  - "accessibility"
-  - "fehlermeldungen"
-level: mittel
+topicPath: ["html", "formulare-und-eingaben", "formular-fehlermeldungen-zugaenglich-gestalten"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "HTML"]
 draft: false
 ---
 ## Grundidee

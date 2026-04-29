@@ -1,33 +1,19 @@
 ---
 title: "MOSFET-Grundlagen"
 description: "Überblick über MOSFETs als spannungsgesteuerte Schalter in elektronischen Schaltungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Bauteile"
-topicPath:
-  - mosfet-grundlagen
-  - ueberblick
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen und von verwandten Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte und typische Anwendungsfälle."
-  - "Du erkennst häufige Missverständnisse und prüfst Aussagen auf Plausibilität."
+topicPath: ["mosfet-grundlagen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Irrtum ist, jeden MOSFET mit jedem Mikrocontroller-Pin vollständig einschalten zu können."
-keyTakeaways:
-  - "Ein MOSFET ist ein Transistor, der über eine Gate-Spannung gesteuert wird."
-  - "Die genaue Bedeutung hängt vom Zusammenhang, den Einheiten und den Randbedingungen ab."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Begriffe, Beispiele oder Fehlerbilder aus diesem Bereich erklärt und eingeordnet werden sollen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten erklären, ohne sofort eine Spezialaufgabe zu rechnen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "mosfet"
-  - "leistungsschalter"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Bauteile"]
 draft: false
 ---
-
 # MOSFET-Grundlagen
 
 ![Schaubild zu MOSFET-Grundlagen.](/schlaufuchs-platform/images/overviews/v149/mosfet-grundlagen.svg)

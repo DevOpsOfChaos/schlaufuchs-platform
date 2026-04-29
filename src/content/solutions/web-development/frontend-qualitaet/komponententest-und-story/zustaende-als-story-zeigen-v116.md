@@ -3,22 +3,12 @@ title: "Lösung: Zustände als Story zeigen"
 description: "Musterlösung zur Aufgabe „Zustände als Story zeigen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "frontend-qualitaet"
-  - "komponententest-und-story"
-  - "zustaende-als-story-zeigen-v116"
+topicPath: ["frontend-qualitaet", "komponententest-und-story", "zustaende-als-story-zeigen-v116"]
 taskId: "zustaende-als-story-zeigen-v116"
 relatedExercise: "web-development/frontend-qualitaet/komponententest-und-story/zustaende-als-story-zeigen-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "komponententest und story"
-  - "zustaende als story zeigen"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

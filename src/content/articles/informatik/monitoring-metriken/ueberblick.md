@@ -1,33 +1,19 @@
 ---
 title: "Monitoring-Metriken"
 description: "Monitoring-Metriken machen Systemzustände messbar. Sie zeigen Auslastung, Fehlerquoten, Latenzen und fachliche Indikatoren."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "monitoring-metriken"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Monitoring-Metriken."
-  - "Du kannst Monitoring-Metriken in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["monitoring-metriken", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Alles zu messen und nichts gezielt auszuwerten."
-keyTakeaways:
-  - "Monitoring-Metriken machen Systemzustände messbar."
-  - "Wichtig sind vor allem counter, gauge und histogramm, technische und fachliche metriken und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Monitoring-Metriken, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Monitoring-Metriken dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "informatik"
-  - "grundlagen"
-  - "monitoring metriken"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Monitoring-Metriken
 
 Monitoring-Metriken machen Systemzustände messbar. Sie zeigen Auslastung, Fehlerquoten, Latenzen und fachliche Indikatoren. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

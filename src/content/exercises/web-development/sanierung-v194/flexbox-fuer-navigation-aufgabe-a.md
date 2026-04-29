@@ -3,36 +3,15 @@ title: "Flexbox für Navigation: Aufgabe A"
 description: "Überarbeite eine Navigation mit Flexbox-Regeln."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "responsive-layout"
-  - "flexbox-fuer-navigation"
-  - "aufgabe-a"
-
+topicPath: ["sanierung-v194", "flexbox-fuer-navigation-aufgabe-a"]
 taskId: "web-development-v194-014a"
-tags:
-  - "flexbox"
-  - "navigation"
-  - "web-development"
-  - "aufgabe"
-  - "v194"
-
-hintPoints:
-  - "Beschreibe zuerst die konkrete Seitensituation."
-  - "Trenne Beobachtung, gewünschtes Verhalten und Änderung."
-  - "Lege einen kleinen Kontrollpunkt fest."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Flexbox für Navigation."
-  - "Die Prüfung ist klein genug, um sie direkt nachzuvollziehen."
-  - "Nutzerperspektive und technische Umsetzung werden nicht vermischt."
-transferIdeas:
-  - "Übertrage den Prüfweg auf eine andere Bildschirmbreite."
-  - "Notiere, welcher Zustand zusätzlich getestet werden sollte."
-reflectionPrompt: "Welche Annahme über Nutzerinnen und Nutzer wäre gefährlich, wenn sie still falsch bleibt?"
+tags: ["web-development", "barrierefreiheit-responsive-ux", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Überarbeite eine Navigation mit Flexbox-Regeln.

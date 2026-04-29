@@ -3,21 +3,12 @@ title: "Lösung – Komplexität ohne Stoppuhr erklären"
 description: "Musterlösung zu komplexität ohne stoppuhr erklären mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "algorithmen"
-  - "test-und-komplexitaet"
-  - "komplexitaet-ohne-stoppuhr-erklaeren"
+topicPath: ["algorithmen", "test-und-komplexitaet", "komplexitaet-ohne-stoppuhr-erklaeren"]
 taskId: "v112-informatik-komplexitaet-ohne-stoppuhr-erklaeren"
 relatedExercise: "informatik/algorithmen/test-und-komplexitaet/komplexitaet-ohne-stoppuhr-erklaeren"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "algorithmen"
-  - "komplexitaet-ohne-stoppuhr-erklaeren"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Tests und Komplexität**.

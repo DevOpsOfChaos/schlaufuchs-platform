@@ -3,22 +3,12 @@ title: "Lösung: Wechselwinkel begründet nutzen"
 description: "Musterlösung zur Aufgabe „Wechselwinkel begründet nutzen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "geometrie-messen-und-begruenden"
-  - "winkel-und-parallelen"
-  - "wechselwinkel-begruendet-nutzen-v116"
+topicPath: ["geometrie-messen-und-begruenden", "winkel-und-parallelen", "wechselwinkel-begruendet-nutzen-v116"]
 taskId: "wechselwinkel-begruendet-nutzen-v116"
 relatedExercise: "mathematik/geometrie-messen-und-begruenden/winkel-und-parallelen/wechselwinkel-begruendet-nutzen-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "winkel und parallelen"
-  - "wechselwinkel begruendet nutzen"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

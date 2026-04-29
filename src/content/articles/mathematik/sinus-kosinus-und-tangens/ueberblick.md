@@ -1,31 +1,17 @@
 ---
 title: "Sinus, Kosinus und Tangens"
 description: "Allgemeiner Überblick über trigonometrische Grundfunktionen und ihre Bedeutung in Dreiecken und Kreisbewegungen."
-subject: mathematik
+subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - "sinus-kosinus-und-tangens"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Sinus, Kosinus und Tangens grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["sinus-kosinus-und-tangens", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Sinus, Kosinus und Tangens nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Sinus, Kosinus und Tangens beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Sinus, Kosinus und Tangens, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Sinus, Kosinus und Tangens in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "trigonometrie"
-  - "sinus"
-  - "kosinus"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Geometrie"]
 draft: false
 ---
 # Sinus, Kosinus und Tangens

@@ -1,36 +1,17 @@
 ---
 title: "Aufgabe: Sleep-Modus nach Ereignis wählen"
 description: "Trainiere Sleep-Modus nach Ereignis wählen an einem kleinen, klar abgegrenzten Fall."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-praxis-v115"
-  - "zeit-und-energie"
-  - "sleep-modus-nach-ereignis-waehlen-v115"
+topicPath: ["mikrocontroller-praxis-v115", "zeit-und-energie", "sleep-modus-nach-ereignis-waehlen-v115"]
 taskId: "elektrotechnik-sleep-modus-nach-ereignis-waehlen-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "mikrocontroller-praxis"
-  - "zeit und energie"
-  - "aufgabe"
-hintPoints:
-  - "Grenze zuerst den kleinen Fall vom breiten Themenfeld ab."
-  - "Nutze die Prüffrage: Wartet das System aktiv oder kann es schlafen?"
-  - "Begründe mit zwei konkreten Hinweisen aus dem Fall."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-transferIdeas:
-  - "Übertrage dieselbe Trennkante auf ein eigenes Mini-Beispiel."
-  - "Formuliere einen Gegenfall, der ähnlich aussieht, aber anders entschieden wird."
-reflectionPrompt: "Was war bei „Sleep-Modus nach Ereignis wählen“ die wichtigste Trennkante?"
-level: mittel
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den folgenden Fall zu **Sleep-Modus nach Ereignis wählen**.

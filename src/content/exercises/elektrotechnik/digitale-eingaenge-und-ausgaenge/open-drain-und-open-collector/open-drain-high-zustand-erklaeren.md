@@ -1,28 +1,17 @@
 ---
 title: "Open-Drain-High-Zustand erklären"
 description: "Erkläre, warum der High-Pegel nicht aktiv vom Ausgang getrieben wird."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Digitale Eingänge und Ausgänge"
-topicPath:
-  - digitale-eingaenge-und-ausgaenge
-  - open-drain-und-open-collector
-taskId: ET-V182-007
-tags:
-  - elektrotechnik
-  - open-drain-und-open-collector
-  - sanierung-v182
-hintPoints:
-  - "Lies zuerst den Normalzustand und danach den Fehlerfall."
-  - "Trenne Beobachtung, Vermutung und Gegenprobe."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["digitale-eingaenge-und-ausgaenge", "open-drain-und-open-collector", "open-drain-high-zustand-erklaeren"]
+taskId: "ET-V182-007"
+tags: ["elektrotechnik", "Digitale Eingänge und Ausgänge", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **Open-Drain und Open-Collector** ruhig und schrittweise.

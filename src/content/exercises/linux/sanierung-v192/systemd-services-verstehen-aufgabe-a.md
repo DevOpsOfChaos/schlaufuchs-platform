@@ -3,38 +3,15 @@ title: "systemd Services verstehen: Aufgabe A"
 description: "Lies einen systemctl-status-Auszug und formuliere die Diagnose."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "prozesse-und-dienste"
-  - "systemd-services-verstehen"
-  - "aufgabe-a"
+topicPath: ["sanierung-v192", "systemd-services-verstehen-aufgabe-a"]
 taskId: "linux-v192-008a"
-tags:
-  - "prozesse-und-dienste"
-  - "systemd"
-  - "services"
-  - "verstehen"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "aufgabe"
-  - "v192"
-hintPoints:
-  - "Trenne Beobachtung, Eingriff und Kontrolle."
-  - "Nenne den betroffenen Benutzer, Dienst, Pfad, Port oder Zeitplan."
-  - "Beschreibe mindestens einen Rückweg oder Sicherheitscheck."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema systemd Services verstehen."
-  - "Es gibt eine klare Kontrolle nach der Änderung."
-  - "Risiko und Nebenwirkung werden nicht verschwiegen."
-transferIdeas:
-  - "Übertrage den Prüfweg auf eine zweite Linux-VM oder einen anderen Dienst."
-  - "Formuliere aus deiner Lösung eine kurze Betriebsnotiz."
-reflectionPrompt: "Welcher Schritt verhindert hier den wahrscheinlichsten Adminfehler?"
+tags: ["linux", "adminpraxis-und-betrieb", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Lies einen systemctl-status-Auszug und formuliere die Diagnose.

@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Zustand vor und nach einer Zuweisung lesen"
 description: "Musterlösung zu Zustand vor und nach einer Zuweisung lesen mit Trennkante und Gegenprobe."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "programmierpraxis-v115"
-  - "variablen-und-zustaende"
-  - "zustand-vor-und-nach-einer-zuweisung-lesen-v115"
+topicPath: ["programmierpraxis-v115", "variablen-und-zustaende", "zustand-vor-und-nach-einer-zuweisung-lesen-v115"]
 taskId: "informatik-zustand-vor-und-nach-einer-zuweisung-lesen-v115"
 relatedExercise: "informatik/programmierpraxis-v115/variablen-und-zustaende/zustand-vor-und-nach-einer-zuweisung-lesen-v115"
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "programmierpraxis"
-  - "variablen und zustände"
-  - "lösung"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Zustand vor und nach einer Zuweisung lesen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

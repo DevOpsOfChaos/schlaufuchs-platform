@@ -1,36 +1,19 @@
 ---
 title: "Backup-Strategien"
 description: "Backup-Strategien beschreiben, welche Daten wann, wohin und mit welcher Wiederherstellbarkeit gesichert werden."
-subject: linux
+subject: "linux"
 section: "Betrieb"
-topicPath:
-  - "backup-strategien"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Backup-Strategien als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["backup-strategien", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird nur das Erstellen einer Kopie geplant, nicht aber Rücksicherung, Zeitbedarf und Integrität."
-keyTakeaways:
-  - "Backup-Strategien beschreiben, welche Daten wann, wohin und mit welcher Wiederherstellbarkeit gesichert werden."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Backup-Strategien, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Backup-Strategien in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "backup"
-  - "zuverlaessigkeit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Betrieb"]
 draft: false
 ---
-
 # Backup-Strategien
 
 ![Schaubild zu Backup-Strategien.](/schlaufuchs-platform/images/overviews/v150/backup-strategien.svg)

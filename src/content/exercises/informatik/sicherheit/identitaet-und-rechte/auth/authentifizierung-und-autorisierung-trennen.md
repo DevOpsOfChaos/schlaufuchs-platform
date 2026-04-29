@@ -3,35 +3,15 @@ title: "Aufgabe – Authentifizierung und Autorisierung trennen"
 description: "Übe Authentifizierung und Autorisierung mit einem kleinen Szenario, Prüfschritt und Gegenprobe."
 subject: "informatik"
 section: "Sicherheit"
-topicPath:
-  - "sicherheit"
-  - "identitaet-und-rechte"
-  - "auth"
-  - "authentifizierung-und-autorisierung-trennen"
+topicPath: ["sicherheit", "identitaet-und-rechte", "auth", "authentifizierung-und-autorisierung-trennen"]
 taskId: "v109-informatik-authentifizierung-und-autorisierung-trennen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "sicherheit"
-  - "identitaet-und-rechte"
-  - "authentifizierung und autorisierung"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Übertrage den Prüfschritt auf ein Nachbarthema und nenne den Unterschied."
-reflectionPrompt: "Welche kleine Trennkante macht Authentifizierung und Autorisierung übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["informatik", "Sicherheit", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Authentifizierung und Autorisierung**.

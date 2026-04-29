@@ -1,28 +1,17 @@
 ---
 title: "Abschaltmoment als Fehlerfall lesen"
 description: "Ordne den kritischen Moment einer induktiven Last fachlich ein."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schaltungen"
-topicPath:
-  - schaltungen
-  - induktive-lasten-und-freilaufdioden
-taskId: ET-V181-008
-tags:
-  - elektrotechnik
-  - induktive-lasten-und-freilaufdioden
-  - sanierung-v181
-hintPoints:
-  - "Lies zuerst den Normalzustand und dann den Fehlerfall."
-  - "Trenne elektrische Ebene, logische Bedeutung und praktische Prüfung."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["schaltungen", "induktive-lasten-und-freilaufdioden", "abschaltmoment-als-fehlerfall-lesen"]
+taskId: "ET-V181-008"
+tags: ["elektrotechnik", "Schaltungen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **Induktive Lasten und Freilaufdioden** ruhig und schrittweise.

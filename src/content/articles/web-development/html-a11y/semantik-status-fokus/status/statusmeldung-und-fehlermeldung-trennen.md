@@ -3,46 +3,17 @@ title: "Web Development – Statusmeldung und Fehlermeldung trennen"
 description: "Lerne Statusmeldungen als kleines, klar auffindbares Unterthema mit Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "html-a11y"
-  - "semantik-status-fokus"
-  - "status"
-  - "statusmeldung-und-fehlermeldung-trennen"
-learningGoals:
-  - "Du erklärst Statusmeldungen als enges Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich sauber ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Formuliere eine Gegenprobe mit verändertem Kontext."
-  - "Ordne die Seite bewusst einem kleinen Unterthemenpfad zu."
-commonMistakes:
-  - "Erfolg, Fehler und Wartezustand werden im gleichen Text versteckt."
-  - "Das Thema in einem breiten Sammelkapitel verschwinden lassen."
-  - "Eine Lösung ohne konkreten Prüfschritt formulieren."
-keyTakeaways:
-  - "Statusmeldungen wird durch Kontext, Abgrenzung und Prüfung klar."
-  - "Feinere Unterthemen reduzieren Doppelungen und Suchaufwand."
-  - "Aufgabe und Lösung sollen dieselbe Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Eine breite Kapitelüberschrift reicht für die Entscheidung nicht aus."
-  - "Ein konkreter Prüfschritt kann die Einordnung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "web development"
-  - "frontend"
-  - "unterthema"
-  - "html-a11y"
-  - "semantik-status-fokus"
-  - "statusmeldung-und-fehlermeldung-trennen"
+topicPath: ["html-a11y", "semantik-status-fokus", "status", "statusmeldung-und-fehlermeldung-trennen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["web-development", "Feinstruktur Web Development"]
 draft: false
 ---
-
 ## Grundidee
 
 **Statusmeldungen** ist bewusst als kleines Unterthema angelegt. Lerne Statusmeldungen als kleines, klar auffindbares Unterthema mit Abgrenzung, Prüfschritt und Gegenprobe. So bleibt die Lernseite auffindbar, ohne noch mehr Inhalt in ein übergroßes Sammelthema zu schieben.

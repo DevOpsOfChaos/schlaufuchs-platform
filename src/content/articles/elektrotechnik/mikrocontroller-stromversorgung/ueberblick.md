@@ -1,34 +1,19 @@
 ---
 title: "Mikrocontroller-Stromversorgung"
 description: "Überblick über Versorgungsspannung, Masse, Entkopplung und typische Stabilitätsfragen bei Mikrocontrollern."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "mikrocontroller-stromversorgung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Versorgungsspannung und Masse als Bezugssystem einordnen."
-  - "Du kennst typische Ursachen instabiler Mikrocontroller-Schaltungen."
-  - "Du verstehst die Rolle von Entkopplung und Spannungsreglern."
+topicPath: ["mikrocontroller-stromversorgung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur die Nennspannung zu betrachten und Strombedarf, Einbrüche oder Masseführung zu ignorieren."
-  - "Entkopplungskondensatoren als optionales Detail zu behandeln."
-keyTakeaways:
-  - "Eine stabile Versorgung ist Grundlage für zuverlässige digitale und analoge Signale."
-  - "Masse ist ein gemeinsames Bezugspotential, nicht nur ein beliebiger Rückleiter."
-recognizeSignals:
-  - "Es geht um Reset, Brown-out, Störungen, Spannungseinbrüche, Regler, Masse oder unzuverlässiges Startverhalten."
-selfCheckPoints:
-  - "Kann ich erklären, warum ein Mikrocontroller trotz richtiger Nennspannung instabil laufen kann?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "stromversorgung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
-
 # Mikrocontroller-Stromversorgung
 
 ![Schaubild zur Stromversorgung eines Mikrocontrollers.](/schlaufuchs-platform/images/overviews/v148/mikrocontroller-stromversorgung.svg)

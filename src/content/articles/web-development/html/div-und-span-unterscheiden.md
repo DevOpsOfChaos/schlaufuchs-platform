@@ -1,45 +1,19 @@
 ---
-title: Div und Span unterscheiden
-description: Verstehe, warum div und span neutrale HTML-Elemente mit unterschiedlichem Einsatzzweck sind und wie sie sich im Dokumentenfluss unterschiedlich verhalten.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - navigation-und-menues
-  - div-und-span-unterscheiden
-learningGoals:
-  - Du erklärst die Grundidee von div und span.
-  - Du unterscheidest Block- und Inline-Rolle in einfachen HTML-Situationen.
-  - Du liest neutrale Container eher über ihren Einsatzzweck als über ihr Aussehen.
-practiceIdeas:
-  - Vergleiche einen größeren Inhaltsblock mit einer kleinen Hervorhebung innerhalb eines Satzes.
-  - Prüfe, ob eine Gruppe einen eigenen Abschnitt bildet oder nur ein Teil des laufenden Textes markiert wird.
-  - Lies div und span eher als neutrale Werkzeuge denn als semantische Rollen.
-commonMistakes:
-  - div und span als austauschbar zu behandeln.
-  - span für ganze Layoutblöcke zu verwenden.
-  - div für kleine Textmarkierungen mitten im Satz zu nutzen.
-keyTakeaways:
-  - div ist ein neutraler Block-Container.
-  - span ist ein neutrales Inline-Element für kleinere Teile im laufenden Text.
-  - Keines von beiden trägt automatisch eine eigene inhaltliche Rolle.
-recognizeSignals:
-  - Es geht um Container, Hervorhebungen, kleine Labels oder Strukturgruppen ohne eigene Semantik.
-  - Du sollst entscheiden, ob etwas eine eigene Zeile oder nur ein Teil eines Satzes ist.
-  - In Beispielen ist der Einsatzkontext wichtiger als die Farbe des Elements.
-selfCheckPoints:
-  - Kann ich div und span über Block und Inline unterscheiden?
-  - Kann ich erklären, warum beide neutral und nicht automatisch semantisch sind?
-  - Kann ich eine typische Einsatzsituation für jedes Element nennen?
-tags:
-  - html
-  - div
-  - span
-  - struktur
-level: einfach
+title: "Div und Span unterscheiden"
+description: "Verstehe, warum div und span neutrale HTML-Elemente mit unterschiedlichem Einsatzzweck sind und wie sie sich im Dokumentenfluss unterschiedlich verhalten."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "div-und-span-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 `div` und `span` sind zwei sehr häufige HTML-Elemente. Beide sind **neutral**, also nicht automatisch semantisch. Trotzdem sind sie nicht gleich: `div` wird für größere Gruppen oder Blöcke genutzt, `span` eher für kleinere Teile **im laufenden Text**.

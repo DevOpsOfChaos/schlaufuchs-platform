@@ -3,18 +3,10 @@ title: "Lösung – Logische Eigenschaften und Schreibrichtungen verstehen"
 description: "Musterlösung mit kurzer Begründung zur passenden Web-Development-Entscheidung."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "responsive-layouts"
-  - "logische-css-eigenschaften-und-schreibrichtungen"
+topicPath: ["css", "responsive-layouts", "logische-css-eigenschaften-und-schreibrichtungen"]
 taskId: "logische-css-eigenschaften-und-schreibrichtungen"
 relatedExercise: "web-development/css/responsive-layouts/logische-css-eigenschaften-und-schreibrichtungen"
-tags:
-  - "web development"
-  - "css"
-  - "logical properties"
-  - "responsive"
-  - "layout"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
 ## Musterlösung

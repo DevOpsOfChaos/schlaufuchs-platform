@@ -3,22 +3,12 @@ title: "Lösung: Flexbox im Überblick: Prüfung und Verbesserung"
 description: "Musterlösung zur Aufgabe web-v187-014b im Web-Development-Block v187."
 subject: "web-development"
 section: "css"
-topicPath: 
-  - "css-und-layout"
-  - "flexbox"
-  - "loesung-b"
+topicPath: ["sanierung-v187", "flexbox-ueberblick-aufgabe-b"]
 taskId: "web-v187-014b"
 relatedExercise: "web-development/sanierung-v187/flexbox-ueberblick-aufgabe-b"
-tags: 
-  - "css"
-  - "flexbox"
-  - "layout"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "css", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-014b`
 
     Ausgangsauftrag: Korrigiere eine Flexbox-Navigation, deren Abstand und Umbruch unruhig wirken.

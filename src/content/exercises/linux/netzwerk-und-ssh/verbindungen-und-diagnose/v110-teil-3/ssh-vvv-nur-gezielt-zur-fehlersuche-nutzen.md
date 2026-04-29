@@ -3,35 +3,15 @@ title: "Aufgabe – ssh -vvv gezielt zur Fehlersuche nutzen"
 description: "Übe ssh -vvv gezielt zur Fehlersuche nutzen mit Einordnung, Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "Netzwerk"
-topicPath:
-  - "netzwerk-und-ssh"
-  - "verbindungen-und-diagnose"
-  - "v110-teil-3"
-  - "ssh-vvv-nur-gezielt-zur-fehlersuche-nutzen"
+topicPath: ["netzwerk-und-ssh", "verbindungen-und-diagnose", "v110-teil-3", "ssh-vvv-nur-gezielt-zur-fehlersuche-nutzen"]
 taskId: "v110-linux-ssh-vvv-nur-gezielt-zur-fehlersuche-nutzen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "netzwerk-und-ssh"
-  - "verbindungen-und-diagnose"
-  - "ssh-vvv-gezielt-zur-fehlersuche-nutzen"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Vergleiche das Thema mit einem Nachbarthema und nenne die Trennkante."
-reflectionPrompt: "Welche kleine Trennkante macht ssh -vvv gezielt zur Fehlersuche nutzen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["linux", "Netzwerk", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **ssh -vvv gezielt zur Fehlersuche nutzen**.

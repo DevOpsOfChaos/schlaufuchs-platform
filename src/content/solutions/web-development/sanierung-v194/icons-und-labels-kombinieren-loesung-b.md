@@ -3,25 +3,12 @@ title: "Lösung: Icons und Labels kombinieren: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-development-v194-018b im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "visuelle-qualitaet"
-  - "icons-und-labels-kombinieren"
-  - "loesung-b"
-
+topicPath: ["sanierung-v194", "icons-und-labels-kombinieren-loesung-b"]
 taskId: "web-development-v194-018b"
 relatedExercise: "web-development/sanierung-v194/icons-und-labels-kombinieren-aufgabe-b"
-tags:
-  - "icons"
-  - "labels"
-  - "kombinieren"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-018b`
 
 Ausgangsauftrag: Übertrage das Thema Icons und Labels kombinieren auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

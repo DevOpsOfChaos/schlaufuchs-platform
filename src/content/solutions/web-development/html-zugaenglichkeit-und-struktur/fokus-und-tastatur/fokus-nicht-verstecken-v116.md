@@ -3,22 +3,12 @@ title: "Lösung: Fokus nicht verstecken"
 description: "Musterlösung zur Aufgabe „Fokus nicht verstecken“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "html-zugaenglichkeit-und-struktur"
-  - "fokus-und-tastatur"
-  - "fokus-nicht-verstecken-v116"
+topicPath: ["html-zugaenglichkeit-und-struktur", "fokus-und-tastatur", "fokus-nicht-verstecken-v116"]
 taskId: "fokus-nicht-verstecken-v116"
 relatedExercise: "web-development/html-zugaenglichkeit-und-struktur/fokus-und-tastatur/fokus-nicht-verstecken-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "fokus und tastatur"
-  - "fokus nicht verstecken"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

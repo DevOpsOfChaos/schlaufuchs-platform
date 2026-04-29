@@ -1,32 +1,17 @@
 ---
 title: "Web App Manifest"
 description: "Allgemeiner Überblick über Metadaten installierbarer Webanwendungen."
-subject: web-development
+subject: "web-development"
 section: "PWA"
-topicPath:
-  - "web-app-manifest"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Web App Manifest als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Icons, Start URL, Display Mode."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["web-app-manifest", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein Manifest allein als vollständige Progressive Web App zu verstehen."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Web App Manifest beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich App-Metadaten im Web."
-  - "Wichtige Hinweise liefern vor allem Icons, Start URL, Display Mode."
-recognizeSignals:
-  - "Es geht um app-metadaten im web, icons oder start url."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Web App Manifest erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "web-development"
-  - "pwa"
-  - "manifest"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "PWA"]
 draft: false
 ---
 # Web App Manifest

@@ -3,22 +3,12 @@ title: "Lösung: Dashboards und Interpretation: Grundordnung"
 description: "Musterlösung zur Aufgabe dat-v189-057a."
 subject: "daten-und-signale"
 section: "systeme"
-topicPath:
-  - "systeme"
-  - "dashboards-und-interpretation"
-  - "loesung-a"
+topicPath: ["sanierung-v189", "dashboards-und-interpretation-aufgabe-a"]
 taskId: "dat-v189-057a"
 relatedExercise: "daten-und-signale/sanierung-v189/dashboards-und-interpretation-aufgabe-a"
-tags:
-  - "dashboard"
-  - "visualisierung"
-  - "interpretation"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "systeme", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-057a`
 
 Eine mögliche Lösung:

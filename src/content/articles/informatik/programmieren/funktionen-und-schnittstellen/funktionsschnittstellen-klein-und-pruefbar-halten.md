@@ -3,46 +3,17 @@ title: "Informatik – Funktionsschnittstellen klein und prüfbar halten"
 description: "Plane Funktionen so, dass Eingabe, Ausgabe und Nebenwirkung klar bleiben und Tests nicht durch versteckte Abhängigkeiten erschwert werden."
 subject: "informatik"
 section: "Programmierung"
-topicPath:
-  - "programmieren"
-  - "funktionen-und-schnittstellen"
-  - "funktionsschnittstellen-klein-und-pruefbar-halten"
-learningGoals:
-  - "Du erklärst die Kernidee von „Funktionsdesign“ in eigenen Worten."
-  - "Du ordnest das Thema einem klaren Unterthema zu statt es in einem Sammelbereich zu verlieren."
-  - "Du leitest eine kleine Gegenprobe für echte Aufgaben oder Projekte ab."
-practiceIdeas:
-  - "Markiere zuerst, welche Unterfrage wirklich gestellt ist."
-  - "Notiere eine typische Fehlannahme und eine passende Gegenprobe."
-  - "Übertrage die Denkbewegung auf ein zweites kleines Beispiel."
-commonMistakes:
-  - "globale Variablen heimlich ändern"
-  - "zu viele Aufgaben in einer Funktion"
-  - "Rückgabe und Ausgabe vermischen"
-keyTakeaways:
-  - "Funktionsdesign wird klarer, wenn Zustand, Ursache und Prüfschritt getrennt werden."
-  - "Kleine Unterthemen sind leichter auffindbar und besser prüfbar als breite Sammelordner."
-  - "Eine gute Erklärung endet mit einer konkreten Gegenprobe."
-recognizeSignals:
-  - "Die Aufgabe enthält einen scheinbar kleinen Sonderfall oder Fehlerzustand."
-  - "Es muss zwischen Begriffen unterschieden werden, die im Alltag leicht vermischt werden."
-  - "Eine Entscheidung soll begründet und nicht nur auswendig angewendet werden."
-selfCheckPoints:
-  - "Kann ich das Unterthema mit einem Satz von Nachbarthemen abgrenzen?"
-  - "Kann ich einen typischen Fehler benennen?"
-  - "Kann ich eine konkrete Prüfung oder Rechnung anschließen?"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "daten"
-  - "algorithmen"
-  - "funktionsdesign"
-  - "programmieren"
-  - "funktionen-und-schnittstellen"
+topicPath: ["programmieren", "funktionen-und-schnittstellen", "funktionsschnittstellen-klein-und-pruefbar-halten"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Eine Funktion ist leichter zu verstehen, wenn sie wenige klare Eingaben hat, ein erkennbares Ergebnis liefert und nicht heimlich globalen Zustand verändert.

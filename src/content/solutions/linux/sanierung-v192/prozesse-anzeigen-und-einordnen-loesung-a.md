@@ -3,26 +3,12 @@ title: "Lösung: Prozesse anzeigen und einordnen: Aufgabe A"
 description: "Musterlösung zur Aufgabe linux-v192-006a im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "prozesse-und-dienste"
-  - "prozesse-anzeigen-und-einordnen"
-  - "loesung-a"
+topicPath: ["sanierung-v192", "prozesse-anzeigen-und-einordnen-loesung-a"]
 taskId: "linux-v192-006a"
 relatedExercise: "linux/sanierung-v192/prozesse-anzeigen-und-einordnen-aufgabe-a"
-tags:
-  - "prozesse-und-dienste"
-  - "prozesse"
-  - "anzeigen"
-  - "einordnen"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-006a`
 
 Ausgangsauftrag: Analysiere eine kleine Prozessliste nach auffälligen Einträgen.

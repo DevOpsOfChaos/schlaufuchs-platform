@@ -1,29 +1,17 @@
 ---
 title: "Abhängigkeiten und Schnittstellengrenzen – ruhig einordnen"
 description: "Übe, abhängigkeiten und schnittstellengrenzen fachlich zu erklären und abzugrenzen."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "abhaengigkeiten-und-schnittstellengrenzen"
-  - "uebung"
-taskId: INF-V185-017-1
-tags:
-  - "informatik"
-  - "programmierpraxis-und-tests"
-  - "abhaengigkeiten-und-schnittstellengrenzen"
-hintPoints:
-  - "Beginne mit der Grundidee, nicht mit einem Spezialfall."
-  - "Trenne Begriff, Beispiel und Prüfung."
-selfCheckPoints:
-  - "Ich kann das Thema in eigenen Worten erklären."
-  - "Ich kann ein passendes Beispiel begründen."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel in einem anderen Fachbereich."
-level: einfach
+topicPath: ["programmierpraxis-und-tests", "abhaengigkeiten-und-schnittstellengrenzen", "abhaengigkeiten-und-schnittstellengrenzen-ruhig-einordnen-v185"]
+taskId: "INF-V185-017-1"
+tags: ["informatik", "Programmierpraxis und Tests", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe prüft, ob du **Abhängigkeiten und Schnittstellengrenzen** zuerst als allgemeines Thema und nicht nur als Einzelfall lesen kannst.
 
 ## Lernziel

@@ -3,34 +3,15 @@ title: "Aufgabe – update und upgrade in apt unterscheiden"
 description: "Übe apt-Schritte mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "System"
-topicPath:
-  - "system"
-  - "pakete-und-updates"
-  - "releasepflege"
-  - "update-und-upgrade-in-apt-unterscheiden"
+topicPath: ["system", "pakete-und-updates", "releasepflege", "update-und-upgrade-in-apt-unterscheiden"]
 taskId: "v107-linux-update-und-upgrade-in-apt-unterscheiden"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "apt-schritte"
-  - "pakete-und-updates"
-hintPoints:
-  - "Grenze das Unterthema zuerst ein."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Formuliere eine kleine Gegenprobe."
-selfCheckPoints:
-  - "Ist das Unterthema klar benannt?"
-  - "Ist die Lösung nicht zu breit formuliert?"
-  - "Ist die Gegenprobe konkret?"
-transferIdeas:
-  - "Ändere einen Randwert und prüfe die Begründung erneut."
-  - "Erkläre die Lösung einmal als Merksatz und einmal am Beispiel."
-reflectionPrompt: "Warum hilft dir das kleine Unterthema „apt-Schritte“ mehr als ein breiter Sammelbegriff?"
+tags: ["linux", "System", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite ein kleines Szenario zu **apt-Schritte**.

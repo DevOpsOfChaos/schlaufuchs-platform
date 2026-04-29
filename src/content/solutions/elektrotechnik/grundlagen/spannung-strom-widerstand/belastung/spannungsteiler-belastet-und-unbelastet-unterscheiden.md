@@ -3,23 +3,12 @@ title: "Lösung – Spannungsteiler belastet und unbelastet unterscheiden"
 description: "Musterlösung zu Belasteter Spannungsteiler mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "elektrotechnik"
 section: "Grundlagen"
-topicPath:
-  - "grundlagen"
-  - "spannung-strom-widerstand"
-  - "belastung"
-  - "spannungsteiler-belastet-und-unbelastet-unterscheiden"
+topicPath: ["grundlagen", "spannung-strom-widerstand", "belastung", "spannungsteiler-belastet-und-unbelastet-unterscheiden"]
 taskId: "v108-elektrotechnik-spannungsteiler-belastet-und-unbelastet-unterscheiden"
 relatedExercise: "elektrotechnik/grundlagen/spannung-strom-widerstand/belastung/spannungsteiler-belastet-und-unbelastet-unterscheiden"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "schaltungen"
-  - "grundlagen"
-  - "spannung-strom-widerstand"
-  - "belasteter spannungsteiler"
+tags: ["elektrotechnik", "Grundlagen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **Belasteter Spannungsteiler**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

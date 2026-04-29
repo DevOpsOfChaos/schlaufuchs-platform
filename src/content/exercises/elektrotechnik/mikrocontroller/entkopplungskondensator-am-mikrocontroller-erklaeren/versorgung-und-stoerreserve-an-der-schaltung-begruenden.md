@@ -1,31 +1,17 @@
 ---
-title: Versorgung und Störreserve an der Schaltung begründen
-description: Begründe an kleinen Schaltungsfällen, warum ein Entkopplungskondensator nahe am Mikrocontroller für stabiles Verhalten wichtig ist.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - entkopplungskondensator-am-mikrocontroller-erklaeren
-  - versorgung-und-stoerreserve-an-der-schaltung-begruenden
-taskId: ELE-MCU-GEN-107
-level: mittel
+title: "Versorgung und Störreserve an der Schaltung begründen"
+description: "Begründe an kleinen Schaltungsfällen, warum ein Entkopplungskondensator nahe am Mikrocontroller für stabiles Verhalten wichtig ist."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "entkopplungskondensator-am-mikrocontroller-erklaeren", "versorgung-und-stoerreserve-an-der-schaltung-begruenden"]
+taskId: "ELE-MCU-GEN-107"
+tags: ["elektrotechnik", "mikrocontroller", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - aufgabe
-hintPoints:
-  - Formuliere zuerst die technische Hauptfrage des Falls.
-  - Trenne Ursache, Wirkung und passende Maßnahme ruhig voneinander.
-selfCheckPoints:
-  - Hast du die elektrische und die logische Ebene nicht vermischt?
-  - Ist deine Begründung mehr als nur ein Schlagwort?
-transferIdeas:
-  - Übertrage die Denklogik auf einen ähnlichen Embedded-Fall mit Sensor, Aktor oder Kommunikation.
-reflectionPrompt: "Welche Störung würdest du heute eher an der Versorgung suchen, statt sofort im Code?"
 ---
-
 ## Aufgabe 1
 
 Beschreibe die Grundidee des Themas in 3 bis 5 Sätzen so, dass klar wird, **welche technische Hauptfrage** gelöst werden soll.

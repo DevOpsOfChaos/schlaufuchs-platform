@@ -3,33 +3,15 @@ title: "CSS – Aufgabe: scroll-margin und Sprungziele mit Sticky Header planen"
 description: "Eine Seite hat einen 72px hohen Sticky Header. Lege eine robuste Regel für Abschnittsziele fest und erkläre den Unterschied zu normalem margin-top."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "box-modell"
-  - "scroll-margin-und-sprungziele-mit-sticky-header"
+topicPath: ["css", "box-modell", "scroll-margin-und-sprungziele-mit-sticky-header"]
 taskId: "wd-v97-scroll-margin-und-sprungziele-mit-sticky-header"
-tags:
-  - "web development"
-  - "css"
-  - "scroll-margin"
-  - "sticky"
-  - "anker"
-hintPoints:
-  - "Trenne zuerst sichtbare Wirkung, semantische Bedeutung und technische Umsetzung."
-  - "Begründe deine Entscheidung aus Nutzerperspektive, nicht nur aus Code-Sicht."
-  - "Prüfe am Ende, ob die Lösung ohne Ratespiel verständlich bleibt."
-selfCheckPoints:
-  - "Ist der betroffene UI-Baustein eindeutig benannt?"
-  - "Ist die technische Entscheidung fachlich begründet?"
-  - "Gibt es eine klare Verbesserung gegenüber dem Ausgangszustand?"
-transferIdeas:
-  - "Übertrage die Entscheidung auf eine zweite Komponente derselben Seite."
-  - "Formuliere eine kurze Prüfregel, die ein Team beim Review verwenden könnte."
-reflectionPrompt: "Welche kleine Änderung hätte hier die größte Wirkung auf Verständlichkeit oder Zugänglichkeit?"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Ausgangslage
 
 Eine Seite hat einen 72px hohen Sticky Header. Lege eine robuste Regel für Abschnittsziele fest und erkläre den Unterschied zu normalem margin-top.

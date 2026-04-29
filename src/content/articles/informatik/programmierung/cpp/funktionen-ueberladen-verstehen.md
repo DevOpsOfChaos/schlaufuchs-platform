@@ -1,46 +1,19 @@
 ---
-title: Funktionen ueberladen verstehen
-description: Verstehe, warum gleich benannte Funktionen in C++ moeglich sind, solange sich ihre Parametersignatur unterscheidet.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - funktionen-ueberladen-verstehen
-learningGoals:
-  - Du erklaerst Ueberladung ueber die Parametersignatur.
-  - Du trennst Parameterliste und Rueckgabewert sauber.
-  - Du liest mehrdeutige Aufrufe vorsichtiger.
-practiceIdeas:
-  - Vergleiche mehrere Varianten derselben Funktion.
-  - Pruefe, welche Aufrufe eindeutig und welche mehrdeutig sind.
-  - Begruende, warum der Rueckgabewert allein nicht ausreicht.
-commonMistakes:
-  - Nur auf den Namen zu achten.
-  - Den Rueckgabewert zur Signatur zu zaehlen.
-  - Mehrdeutigkeiten bei Typumwandlungen zu uebersehen.
-keyTakeaways:
-  - Ueberladung braucht gleiche Namen, aber unterschiedliche Parameterlisten.
-  - Der Rueckgabewert allein erzeugt keine gueltige Ueberladung.
-  - Mehrdeutigkeit ist ein Warnsignal, nicht nur ein kleiner Schoenheitsfehler.
-recognizeSignals:
-  - Mehrere Funktionen tragen denselben Namen.
-  - Es gibt verschiedene Parameterzahlen oder Typen.
-  - Ein Aufruf scheint zu mehreren Varianten zu passen.
-selfCheckPoints:
-  - Kann ich die Parametersignatur benennen?
-  - Kann ich erklaeren, warum ein Aufruf mehrdeutig sein kann?
-  - Kann ich Rueckgabewert und Parameterliste sauber trennen?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - funktionen
-  - ueberladung
+title: "Funktionen ueberladen verstehen"
+description: "Verstehe, warum gleich benannte Funktionen in C++ moeglich sind, solange sich ihre Parametersignatur unterscheidet."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "funktionen-ueberladen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 In C++ duerfen mehrere Funktionen denselben Namen tragen, wenn sie sich in Art oder Anzahl ihrer Parameter unterscheiden.

@@ -1,34 +1,19 @@
 ---
 title: "Tasterschnittstelle"
 description: "Überblick über Taster als elektrische Schnittstelle zwischen Mensch und digitalem Eingang."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik"
-topicPath:
-  - "tasterschnittstelle"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["tasterschnittstelle", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Den Taster als perfekten Schalter ohne Übergangszeit und ohne Ruhepegel zu betrachten."
-keyTakeaways:
-  - "Ein Taster erzeugt erst mit Ruhepegel, Entprellung und Auswertung ein zuverlässiges digitales Signal."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Tastendrücke mehrfach erkannt werden, gar nicht erkannt werden oder zufällig auslösen."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "taster"
-  - "digitale eingänge"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik"]
 draft: false
 ---
-
 # Tasterschnittstelle
 
 Eine Tasterschnittstelle verbindet eine mechanische Betätigung mit einem elektrischen Signal. Sie besteht nicht nur aus dem Taster, sondern auch aus Pegelbildung, Bezugspunkt, Entprellung und oft Schutz gegen Störungen.

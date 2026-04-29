@@ -3,21 +3,12 @@ title: "Lösung – Filterbedingung von Sortierung trennen"
 description: "Musterlösung zu filterbedingung von sortierung trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenbanken"
-  - "tabellen-und-abfragen"
-  - "filterbedingung-von-sortierung-trennen"
+topicPath: ["datenbanken", "tabellen-und-abfragen", "filterbedingung-von-sortierung-trennen"]
 taskId: "v112-informatik-filterbedingung-von-sortierung-trennen"
 relatedExercise: "informatik/datenbanken/tabellen-und-abfragen/filterbedingung-von-sortierung-trennen"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "datenbanken"
-  - "filterbedingung-von-sortierung-trennen"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Tabellen und Abfragen**.

@@ -1,45 +1,19 @@
 ---
-title: Line-Height und lesbare Textabstände verstehen
-description: Verstehe, wie line-height die Lesbarkeit von Text beeinflusst und warum gute Zeilenabstände weder zu eng noch zu luftig sein sollten.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - line-height-und-lesbare-textabstaende-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von line-height.
-  - Du beschreibst Zeilenabstand eher über Lesbarkeit als über Dekoration.
-  - Du erkennst zu enge und zu luftige Textabstände in kleinen Beispielen.
-practiceIdeas:
-  - Vergleiche denselben Text mit enger, mittlerer und sehr großer line-height.
-  - Lies Textblöcke nicht nur optisch schön, sondern funktional auf Lesbarkeit.
-  - Prüfe bei einer Infobox, ob der Zeilenabstand zur Textmenge passt.
-commonMistakes:
-  - line-height nur als Stilfrage zu sehen.
-  - sehr kleine Zeilenabstände zu wählen, weil dadurch „mehr auf die Seite passt“.
-  - line-height so groß zu machen, dass Textzusammenhänge zerfallen.
-keyTakeaways:
-  - line-height steuert den vertikalen Abstand zwischen Textzeilen.
-  - Gute Lesbarkeit braucht oft einen ruhigen Mittelweg.
-  - Zeilenabstand sollte zur Textmenge und Textgröße passen.
-recognizeSignals:
-  - Es geht um Lesbarkeit, Textblöcke, Absätze oder Infotexte.
-  - Du sollst begründen, warum ein Text gedrängt oder zu locker wirkt.
-  - In Beispielen zählt der Textfluss stärker als die Farbe der Box.
-selfCheckPoints:
-  - Kann ich line-height fachlich beschreiben?
-  - Kann ich zu enge und zu lockere Zeilenabstände unterscheiden?
-  - Kann ich erklären, warum Lesbarkeit nicht nur von Schriftgröße abhängt?
-tags:
-  - css
-  - typografie
-  - line-height
-  - lesbarkeit
-level: einfach
+title: "Line-Height und lesbare Textabstände verstehen"
+description: "Verstehe, wie line-height die Lesbarkeit von Text beeinflusst und warum gute Zeilenabstände weder zu eng noch zu luftig sein sollten."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "line-height-und-lesbare-textabstaende-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 `line-height` bestimmt, wie viel vertikaler Raum eine Textzeile bekommt. Das klingt klein, hat aber große Wirkung: Schon bei gleicher Schriftgröße kann ein Absatz gedrängt, ruhig oder unnötig auseinandergezogen wirken.

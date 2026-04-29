@@ -3,26 +3,12 @@ title: "Lösung: Admin-Dokumentation schreiben: Aufgabe B"
 description: "Musterlösung zur Aufgabe linux-v192-032b im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "betrieb-nahe-grundlagen"
-  - "admin-dokumentation-schreiben"
-  - "loesung-b"
+topicPath: ["sanierung-v192", "admin-dokumentation-schreiben-loesung-b"]
 taskId: "linux-v192-032b"
 relatedExercise: "linux/sanierung-v192/admin-dokumentation-schreiben-aufgabe-b"
-tags:
-  - "betrieb-nahe-grundlagen"
-  - "admin"
-  - "dokumentation"
-  - "schreiben"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-032b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Admin-Dokumentation schreiben“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

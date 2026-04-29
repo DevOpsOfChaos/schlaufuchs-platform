@@ -1,17 +1,19 @@
 ---
-title: HTML-Struktur und Semantik
-description: HTML gibt einer Webseite ihre Struktur und semantische Bedeutung, bevor Gestaltung und Verhalten hinzukommen.
-subject: web-development
-section: Grundlagen
-level: einfach
-tags:
-  - HTML
-  - Semantik
-  - Struktur
-  - Web Development
+title: "HTML-Struktur und Semantik"
+description: "HTML gibt einer Webseite ihre Struktur und semantische Bedeutung, bevor Gestaltung und Verhalten hinzukommen."
+subject: "web-development"
+section: "Grundlagen"
+topicPath: ["grundlagen", "html-struktur-und-semantik"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 HTML ist die strukturelle Grundlage fast jeder Webseite. Noch bevor Farben, Abstände oder Interaktionen ins Spiel kommen, legt HTML fest, welche Inhalte vorhanden sind und welche Bedeutung diese Inhalte haben. Gute HTML-Struktur macht Seiten verständlicher, zugänglicher und leichter wartbar.

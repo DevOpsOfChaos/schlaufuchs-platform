@@ -3,22 +3,12 @@ title: "Lösung: Steigung als Einheit pro Einheit lesen"
 description: "Musterlösung zur Aufgabe „Steigung als Einheit pro Einheit lesen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "analysis-vorbereitung"
-  - "aenderungsrate-und-steigung"
-  - "steigung-als-einheit-pro-einheit-lesen-v116"
+topicPath: ["analysis-vorbereitung", "aenderungsrate-und-steigung", "steigung-als-einheit-pro-einheit-lesen-v116"]
 taskId: "steigung-als-einheit-pro-einheit-lesen-v116"
 relatedExercise: "mathematik/analysis-vorbereitung/aenderungsrate-und-steigung/steigung-als-einheit-pro-einheit-lesen-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "aenderungsrate und steigung"
-  - "steigung als einheit pro einheit lesen"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

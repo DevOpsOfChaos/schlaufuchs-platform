@@ -1,33 +1,17 @@
 ---
 title: "Komponenten-API"
 description: "Überblick über Eigenschaften, Ereignisse, Slots und Zustände als öffentliche Schnittstelle einer UI-Komponente."
-subject: web-development
+subject: "web-development"
 section: "Komponenten"
-topicPath:
-  - "komponenten-api"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Komponenten-API als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["komponenten-api", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Eine Komponente ist nicht nur ihre sichtbare Form. Ihre API bestimmt, ob sie verständlich, wiederverwendbar und langfristig wartbar bleibt."
-keyTakeaways:
-  - "Eine Komponenten-API beschreibt, wie andere Teile einer Anwendung eine Komponente benutzen dürfen."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um komponenten-api, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich komponenten-api in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "web-development"
-  - "komponenten-api"
-  - "überblick"
-  - "eingaben"
-  - "ausgaben"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Komponenten"]
 draft: false
 ---
 # Komponenten-API

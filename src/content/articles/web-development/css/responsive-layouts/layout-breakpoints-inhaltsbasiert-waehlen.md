@@ -3,44 +3,17 @@ title: "CSS – Layout-Breakpoints inhaltsbasiert wählen"
 description: "Wähle Breakpoints nach Inhalt und Layoutbedarf statt nach zufälligen Gerätegrößen."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "responsive-layouts"
-  - "layout-breakpoints-inhaltsbasiert-waehlen"
-learningGoals:
-  - "Du erklärst, welche Kernidee hinter „Layout-Breakpoints inhaltsbasiert wählen“ steht."
-  - "Du trennst sichtbare Oberfläche, technische Umsetzung und Nutzererwartung sauber."
-  - "Du leitest aus einem kleinen Beispiel konkrete Verbesserungen für echte Seiten ab."
-practiceIdeas:
-  - "Prüfe eine vorhandene Seite mit genau diesem Blick und notiere drei Verbesserungen."
-  - "Formuliere ein schwaches Beispiel in eine nutzerfreundlichere Variante um."
-  - "Verbinde die technische Regel mit einer sichtbaren Auswirkung für Nutzerinnen und Nutzer."
-commonMistakes:
-  - "nur 375, 768 und 1024 auswendig übernehmen"
-  - "Inhalt quetschen"
-  - "Breakpoints ohne sichtbaren Grund setzen"
-keyTakeaways:
-  - "Ein Breakpoint gehört dorthin, wo der Inhalt bricht"
-  - "Gute Web-Entwicklung verbindet technische Korrektheit mit verständlicher Nutzerführung."
-  - "Eine kleine, klare Regel ist wertvoller als eine große Sammlung ungetesteter Sonderfälle."
-recognizeSignals:
-  - "Eine Oberfläche wirkt technisch vorhanden, aber für Nutzende unklar."
-  - "Ein Verhalten funktioniert im Idealfall, bricht aber bei Fehlern, langsamen Netzen oder anderen Geräten."
-  - "Du sollst nicht nur Code schreiben, sondern eine robuste Entscheidung begründen."
-selfCheckPoints:
-  - "Kann ich das Problem in einem Satz ohne Fachjargon erklären?"
-  - "Kann ich zeigen, woran Nutzende die Verbesserung bemerken?"
-  - "Kann ich eine einfache Prüffrage für den nächsten Review ableiten?"
-tags:
-  - "web development"
-  - "css"
-  - "responsive"
-  - "breakpoints"
-  - "layout"
-level: mittel
+topicPath: ["css", "responsive-layouts", "layout-breakpoints-inhaltsbasiert-waehlen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Breakpoints sind keine Liste beliebter Gerätebreiten. Sie sind Stellen, an denen ein Layout fachlich kippt: Karten werden zu eng, Zeilen zu lang oder Bedienelemente verlieren Abstand.

@@ -3,32 +3,15 @@ title: "Aufgabe – Abort bei veralteter Anfrage nutzen"
 description: "Übe Abort bei veralteter Anfrage nutzen mit Szenario, Trennkante und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "javascript"
-  - "async-und-fetch"
-  - "abort-bei-veralteter-anfrage-nutzen-v113"
+topicPath: ["javascript", "async-und-fetch", "abort-bei-veralteter-anfrage-nutzen-v113"]
 taskId: "v113-web-development-abort-bei-veralteter-anfrage-nutzen-v113"
-tags:
-  - "web development"
-  - "strukturcheck"
-  - "unterthema"
-  - "abort-bei-veralteter-anfrage-nutzen-v113"
-hintPoints:
-  - "Benenne zuerst das genaue Unterthema."
-  - "Notiere die typische Verwechslung ausdrücklich."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Antwort enger als ein breites Kapitel?"
-  - "Wird ein Nachbarthema sauber ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere eine zweite Aufgabe im gleichen Unterthema mit anderer Oberfläche."
-reflectionPrompt: "Welche kleine Trennkante macht Abort bei veralteter Anfrage nutzen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["web-development", "Feinstruktur Web Development", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Abort bei veralteter Anfrage nutzen**.

@@ -1,46 +1,19 @@
 ---
-title: ATmega – UART-Zeilenende und Befehlsparser verstehen
-description: Verstehe am AVR, warum serielle Textkommandos oft nicht zeichenweise beliebig ausgewertet, sondern bis zu einem Zeilenende gesammelt und dann als vollständiger Befehl interpretiert werden.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - uart-und-serielle-schnittstellen
-  - atmega-uart-zeilenende-und-befehlsparser-verstehen
-learningGoals:
-  - Du erklärst die Rolle von Zeilenenden in einfachen UART-Textprotokollen.
-  - Du unterscheidest Zeichenempfang und Befehlsauswertung sauber.
-  - Du liest Parserlogik eher als Zustands- und Strukturfrage statt als bloße Zeichenkette.
-practiceIdeas:
-  - Verfolge den Empfang eines Befehls bis zum Zeilenende.
-  - Prüfe, warum eine Auswertung erst nach vollständig angekommenem Kommando ruhiger ist.
-  - Erkläre Ringpuffer, Zeilenpuffer und Parser als unterschiedliche Rollen.
-commonMistakes:
-  - Jedes einzelne Zeichen sofort als fertigen Befehl zu behandeln.
-  - Zeilenende als nebensächliches Sonderzeichen zu sehen.
-  - Empfang, Pufferung und Kommandoauswertung in dieselbe Stufe zu werfen.
-keyTakeaways:
-  - Viele UART-Textprotokolle trennen Zeichenempfang und Befehlsauswertung.
-  - Ein Zeilenende markiert oft den Punkt, an dem ein Kommando vollständig vorliegt.
-  - Parserlogik wird ruhiger, wenn nicht jedes Zeichen sofort Hauptlogik auslöst.
-recognizeSignals:
-  - Es geht um serielle Textbefehle, Terminaleingaben oder Kommandos mit Enter.
-  - Du sollst erklären, wann ein empfangener Text als vollständig gilt.
-  - In Aufgaben sind Zeilenende und Pufferrollen wichtiger als einzelne ASCII-Zeichen.
-selfCheckPoints:
-  - Kann ich Zeichenempfang und Befehlsauswertung trennen?
-  - Kann ich erklären, warum ein Zeilenende strukturell wichtig ist?
-  - Kann ich den Unterschied zwischen Ringpuffer und Zeilenpuffer benennen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - uart
-  - parser
-level: mittel
+title: "ATmega – UART-Zeilenende und Befehlsparser verstehen"
+description: "Verstehe am AVR, warum serielle Textkommandos oft nicht zeichenweise beliebig ausgewertet, sondern bis zu einem Zeilenende gesammelt und dann als vollständiger Befehl interpretiert werden."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-uart-zeilenende-und-befehlsparser-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei seriellen Textkommandos ist ein Zeichen noch kein fertiger Befehl. Erst wenn klar ist, **wo ein Kommando endet**, kann es ruhig ausgewertet werden. Am AVR geschieht das oft über ein **Zeilenende**, das wie eine kleine Abschlussmarke funktioniert.

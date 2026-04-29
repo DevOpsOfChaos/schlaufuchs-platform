@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Tasterprellen als Signalproblem erklären
-description: Musterlösung zur Aufgabe ET-ATMEGA-BTN-204.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - polling-und-entprellen
-  - atmega-entprellen-grundidee-verstehen
-  - tasterprellen-als-signalproblem-erklaeren-loesung
-taskId: ET-ATMEGA-BTN-204
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-entprellen-grundidee-verstehen/tasterprellen-als-signalproblem-erklaeren.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - loesung
+title: "Musterlösung – Tasterprellen als Signalproblem erklären"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-BTN-204."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-entprellen-grundidee-verstehen", "tasterprellen-als-signalproblem-erklaeren"]
+taskId: "ET-ATMEGA-BTN-204"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-entprellen-grundidee-verstehen/tasterprellen-als-signalproblem-erklaeren.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Ein mechanischer Taster wechselt beim Drücken nicht immer sofort stabil in den neuen Zustand. Der Kontakt kann kurz prellen, also mehrmals schnell zwischen den Pegeln hin- und herspringen. Für den Mikrocontroller sieht das dann wie mehrere Ereignisse aus, obwohl aus menschlicher Sicht nur einmal gedrückt wurde.

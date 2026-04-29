@@ -1,49 +1,19 @@
 ---
-title: Ein- und Ausgabe mit cin und cout verstehen
-description: Verstehe, wie ein einfaches C++-Programm Eingaben liest und Ausgaben Schritt für Schritt sichtbar macht.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - erstes-programm
-  - ein-und-ausgabe-mit-cin-und-cout-verstehen
-learningGoals:
-  - Du erklärst die Rollen von cout und cin im Grundablauf eines kleinen Programms.
-  - Du liest den Operatorfluss mit << und >> ruhiger statt nur als ungewohnte Syntax.
-  - Du beschreibst, wie Eingabe, Verarbeitung und Ausgabe zusammenhängen.
-practiceIdeas:
-  - Lies ein Mini-Programm zuerst nur als Ablauf aus Ausgabe, Eingabe und Rückmeldung.
-  - Erkläre bei einem Beispiel, welche Zeile eine Frage stellt und welche Zeile einen Wert übernimmt.
-  - Formuliere in Worten, was zwischen Tastatureingabe und Bildschirmausgabe passiert.
-commonMistakes:
-  - cout und cin nur als Befehlswörter auswendig zu lernen.
-  - << und >> mit Rechenoperatoren zu verwechseln.
-  - Zu übersehen, dass Eingabe und Ausgabe Teil desselben Programmablaufs sind.
-keyTakeaways:
-  - cout gibt Text oder Werte aus.
-  - cin liest einen Wert in eine Variable ein.
-  - Einfache Programme werden über Einlesen, Verarbeiten und Ausgeben lesbar.
-recognizeSignals:
-  - Es geht um Konsolenprogramme, Eingaben, Ausgaben oder die ersten Codezeilen in C++.
-  - Du sollst erklären, was eine Zeile mit cin oder cout bewirkt.
-  - In Beispielen musst du die Richtung von Datenfluss im Code ruhig lesen.
-selfCheckPoints:
-  - Kann ich erklären, was cout macht?
-  - Kann ich erklären, was cin macht?
-  - Kann ich den kleinen Ablauf von Eingabe zu Ausgabe in Worten beschreiben?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - cin
-  - cout
-  - eingabe
-  - ausgabe
+title: "Ein- und Ausgabe mit cin und cout verstehen"
+description: "Verstehe, wie ein einfaches C++-Programm Eingaben liest und Ausgaben Schritt für Schritt sichtbar macht."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "ein-und-ausgabe-mit-cin-und-cout-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Schon sehr kleine C++-Programme zeigen oft denselben Grundablauf: Das Programm gibt einen Hinweis aus, liest eine Eingabe ein und zeigt danach ein Ergebnis oder eine Rückmeldung.

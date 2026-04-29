@@ -1,12 +1,17 @@
 ---
-title: Spannungsteiler anwenden und prüfen
-description: Diese Aufgabe vertieft die Berechnung von Teilspannungen und das Verständnis für Widerstandsverhältnisse im Spannungsteiler.
-subject: elektrotechnik
-section: Grundlagen
-level: mittel
+title: "Spannungsteiler anwenden und prüfen"
+description: "Diese Aufgabe vertieft die Berechnung von Teilspannungen und das Verständnis für Widerstandsverhältnisse im Spannungsteiler."
+subject: "elektrotechnik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "spannungsteiler-anwenden-und-pruefen"]
+taskId: "AUTO-SPANNUNGSTEILER-ANWENDEN-UND-PRUEFEN"
+tags: ["elektrotechnik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben Schritt für Schritt. Notiere jeweils zuerst die gegebene Spannung und die beiden Widerstände.

@@ -1,29 +1,17 @@
 ---
 title: "Kontrollstrukturen und Ablauf – Ruhig einordnen"
 description: "Übe, Kontrollstrukturen und Ablauf fachlich einzuordnen."
-subject: informatik
+subject: "informatik"
 section: "programmablauf-und-steuerung"
-topicPath:
-  - "programmablauf-und-steuerung"
-  - "kontrollstrukturen-und-ablauf"
-taskId: INF-KONTROLLSTRUKTUREN-UND-ABLAUF-841
-tags:
-  - "informatik"
-  - "kontrollstrukturen"
-  - "schleifen"
-hintPoints:
-  - "Beginne mit der allgemeinen Rolle des Themas."
-  - "Trenne Begriff, Beispiel und Sonderfall sauber."
-selfCheckPoints:
-  - "Ich kann meine Zuordnung begründen."
-  - "Ich vermeide eine reine Einzelfallantwort."
-transferIdeas:
-  - "Übertrage die Idee auf ein anderes kleines Informatikbeispiel."
-reflectionPrompt: "Welche Annahme musste ich bewusst prüfen?"
-level: einfach
+topicPath: ["programmablauf-und-steuerung", "kontrollstrukturen-und-ablauf", "kontrollstrukturen-und-ablauf-ruhig-einordnen-v184"]
+taskId: "INF-KONTROLLSTRUKTUREN-UND-ABLAUF-841"
+tags: ["informatik", "programmablauf-und-steuerung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Kontrollstrukturen und Ablauf**. Sie soll nicht nur eine einzelne Situation lösen, sondern das Thema fachlich einordnen.
 
 ## Lernziel

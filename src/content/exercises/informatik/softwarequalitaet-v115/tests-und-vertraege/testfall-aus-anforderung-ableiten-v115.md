@@ -1,36 +1,17 @@
 ---
 title: "Aufgabe: Testfall aus Anforderung ableiten"
 description: "Trainiere Testfall aus Anforderung ableiten an einem kleinen, klar abgegrenzten Fall."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "softwarequalitaet-v115"
-  - "tests-und-vertraege"
-  - "testfall-aus-anforderung-ableiten-v115"
+topicPath: ["softwarequalitaet-v115", "tests-und-vertraege", "testfall-aus-anforderung-ableiten-v115"]
 taskId: "informatik-testfall-aus-anforderung-ableiten-v115"
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "softwarequalität"
-  - "tests und verträge"
-  - "aufgabe"
-hintPoints:
-  - "Grenze zuerst den kleinen Fall vom breiten Themenfeld ab."
-  - "Nutze die Prüffrage: Welche Anforderung wird durch den Test konkret abgesichert?"
-  - "Begründe mit zwei konkreten Hinweisen aus dem Fall."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-transferIdeas:
-  - "Übertrage dieselbe Trennkante auf ein eigenes Mini-Beispiel."
-  - "Formuliere einen Gegenfall, der ähnlich aussieht, aber anders entschieden wird."
-reflectionPrompt: "Was war bei „Testfall aus Anforderung ableiten“ die wichtigste Trennkante?"
-level: mittel
+tags: ["informatik", "Feinstruktur Informatik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den folgenden Fall zu **Testfall aus Anforderung ableiten**.

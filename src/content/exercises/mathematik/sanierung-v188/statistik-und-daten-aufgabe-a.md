@@ -3,33 +3,15 @@ title: "Statistik und Daten: Grundordnung"
 description: "Ordne Statistik und Daten in Zweck, Prüffragen und Fehlerquellen."
 subject: "mathematik"
 section: "daten-und-geometrie"
-topicPath:
-  - "daten-und-geometrie"
-  - "statistik-und-daten"
-  - "aufgabe-a"
+topicPath: ["sanierung-v188", "statistik-und-daten-aufgabe-a"]
 taskId: "mat-v188-065a"
-tags:
-  - "statistik"
-  - "daten"
-  - "interpretation"
-  - "mathematik"
-  - "aufgabe"
-  - "v188"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["mathematik", "daten-und-geometrie", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Du arbeitest am Thema **Statistik und Daten**. Erstelle eine kurze, geordnete Erklärung für eine lernende Person.

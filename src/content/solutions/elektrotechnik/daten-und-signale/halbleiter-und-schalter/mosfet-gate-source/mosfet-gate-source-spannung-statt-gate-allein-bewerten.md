@@ -3,23 +3,12 @@ title: "Lösung – MOSFET-Gate-Source-Spannung statt Gate allein bewerten"
 description: "Musterlösung zu Gate-Source-Spannung mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Bauteile"
-topicPath:
-  - "daten-und-signale"
-  - "halbleiter-und-schalter"
-  - "mosfet-gate-source"
-  - "mosfet-gate-source-spannung-statt-gate-allein-bewerten"
+topicPath: ["daten-und-signale", "halbleiter-und-schalter", "mosfet-gate-source", "mosfet-gate-source-spannung-statt-gate-allein-bewerten"]
 taskId: "v109-elektrotechnik-mosfet-gate-source-spannung-statt-gate-allein-bewerten"
 relatedExercise: "elektrotechnik/daten-und-signale/halbleiter-und-schalter/mosfet-gate-source/mosfet-gate-source-spannung-statt-gate-allein-bewerten"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "daten-und-signale"
-  - "halbleiter-und-schalter"
-  - "gate-source-spannung"
+tags: ["elektrotechnik", "Bauteile", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Gate-Source-Spannung**.

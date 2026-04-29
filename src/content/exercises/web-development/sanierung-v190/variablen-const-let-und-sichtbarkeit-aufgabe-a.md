@@ -3,36 +3,15 @@ title: "Variablen, const, let und Sichtbarkeit: Aufgabe A"
 description: "Entscheide für drei Zwischenergebnisse, ob const oder let sinnvoller ist."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "werte-und-typen"
-  - "variablen-const-let-und-sichtbarkeit"
-  - "aufgabe-a"
+topicPath: ["sanierung-v190", "variablen-const-let-und-sichtbarkeit-aufgabe-a"]
 taskId: "web-v190-002a"
-tags:
-  - "werte-und-typen"
-  - "variablen"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "aufgabe"
-  - "v190"
-hintPoints:
-  - "Trenne Zweck, Daten, Zustand und sichtbare Wirkung."
-  - "Nenne mindestens einen Fehlerfall."
-  - "Begründe, warum die Lösung wartbar bleibt."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Variablen, const, let und Sichtbarkeit."
-  - "Mindestens ein Prüfpunkt ist konkret formuliert."
-  - "Die Lösung ist ohne vollständige Website nachvollziehbar."
-transferIdeas:
-  - "Übertrage die Idee auf eine zweite kleine Komponente."
-  - "Formuliere eine kurze Checkliste für spätere Wiederholung."
-reflectionPrompt: "Welche Entscheidung macht die Lösung am meisten wartbar?"
+tags: ["web-development", "javascript-vertiefung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Entscheide für drei Zwischenergebnisse, ob const oder let sinnvoller ist.

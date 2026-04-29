@@ -1,24 +1,14 @@
 ---
 title: "Lösung – PWM-Tastverhältnis zeichnen und Wirkung erklären"
 description: "Musterlösung zu PWM-Zeitbild, LED-Wirkung und Trennung von Frequenz und Tastverhältnis."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - pwm-tastverhaeltnis-und-mittelwert
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "pwm-tastverhaeltnis-und-mittelwert"]
 taskId: "et-mc-pwm-duty-cycle"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/pwm-tastverhaeltnis-und-mittelwert"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - pwm
-  - timer
-  - led
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
-
 ## Lösung zu Aufgabe 1
 
 Ein mögliches Textbild:

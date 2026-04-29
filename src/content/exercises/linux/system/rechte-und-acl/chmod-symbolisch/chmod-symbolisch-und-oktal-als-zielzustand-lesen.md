@@ -3,35 +3,15 @@ title: "Aufgabe – chmod symbolisch und oktal als Zielzustand lesen"
 description: "Übe chmod symbolisch und oktal mit einem kleinen Szenario, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "Rechte"
-topicPath:
-  - "system"
-  - "rechte-und-acl"
-  - "chmod-symbolisch"
-  - "chmod-symbolisch-und-oktal-als-zielzustand-lesen"
+topicPath: ["system", "rechte-und-acl", "chmod-symbolisch", "chmod-symbolisch-und-oktal-als-zielzustand-lesen"]
 taskId: "v109-linux-chmod-symbolisch-und-oktal-als-zielzustand-lesen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "system"
-  - "rechte-und-acl"
-  - "chmod symbolisch und oktal"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Übertrage den Prüfschritt auf ein Nachbarthema und nenne den Unterschied."
-reflectionPrompt: "Welche kleine Trennkante macht chmod symbolisch und oktal übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["linux", "Rechte", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **chmod symbolisch und oktal**.

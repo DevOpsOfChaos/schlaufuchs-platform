@@ -3,35 +3,15 @@ title: "Aufgabe – Greedy-Entscheidung mit Gegenbeispiel testen"
 description: "Übe Greedy-Entscheidung mit Gegenbeispiel testen mit Einordnung, Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "informatik"
 section: "Algorithmen"
-topicPath:
-  - "algorithmen-denken"
-  - "such-und-sortierideen"
-  - "v110-teil-3"
-  - "greedy-entscheidung-mit-gegenbeispiel-testen"
+topicPath: ["algorithmen-denken", "such-und-sortierideen", "v110-teil-3", "greedy-entscheidung-mit-gegenbeispiel-testen"]
 taskId: "v110-informatik-greedy-entscheidung-mit-gegenbeispiel-testen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "praxis"
-  - "algorithmen-denken"
-  - "such-und-sortierideen"
-  - "greedy-entscheidung-mit-gegenbeispiel-testen"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Vergleiche das Thema mit einem Nachbarthema und nenne die Trennkante."
-reflectionPrompt: "Welche kleine Trennkante macht Greedy-Entscheidung mit Gegenbeispiel testen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["informatik", "Algorithmen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Greedy-Entscheidung mit Gegenbeispiel testen**.

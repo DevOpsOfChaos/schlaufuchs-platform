@@ -3,23 +3,12 @@ title: "Lösung – Scheinlösung nach Quadrieren erkennen"
 description: "Musterlösung zu Scheinlösungen nach Quadrieren mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "gleichungen-und-modelle"
-  - "bedingungen-und-loesungsmenge"
-  - "loesungsmenge"
-  - "scheinloesung-nach-quadrieren-erkennen"
+topicPath: ["gleichungen-und-modelle", "bedingungen-und-loesungsmenge", "loesungsmenge", "scheinloesung-nach-quadrieren-erkennen"]
 taskId: "v111-mathematik-scheinloesung-nach-quadrieren-erkennen"
 relatedExercise: "mathematik/gleichungen-und-modelle/bedingungen-und-loesungsmenge/loesungsmenge/scheinloesung-nach-quadrieren-erkennen"
-tags:
-  - "mathematik"
-  - "prüfung"
-  - "unterthema"
-  - "gleichungen-und-modelle"
-  - "bedingungen-und-loesungsmenge"
-  - "scheinloesung-nach-quadrieren-erkennen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Scheinlösungen nach Quadrieren**.

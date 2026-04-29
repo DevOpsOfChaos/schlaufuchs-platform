@@ -3,34 +3,15 @@ title: "Aufgabe – systemctl status und journalctl zusammen lesen"
 description: "Übe Dienstdiagnose mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "System"
-topicPath:
-  - "system"
-  - "dienste-und-systemd"
-  - "fehlersuche"
-  - "systemctl-status-und-journalctl-zusammen-lesen"
+topicPath: ["system", "dienste-und-systemd", "fehlersuche", "systemctl-status-und-journalctl-zusammen-lesen"]
 taskId: "v107-linux-systemctl-status-und-journalctl-zusammen-lesen"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "dienstdiagnose"
-  - "dienste-und-systemd"
-hintPoints:
-  - "Grenze das Unterthema zuerst ein."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Formuliere eine kleine Gegenprobe."
-selfCheckPoints:
-  - "Ist das Unterthema klar benannt?"
-  - "Ist die Lösung nicht zu breit formuliert?"
-  - "Ist die Gegenprobe konkret?"
-transferIdeas:
-  - "Ändere einen Randwert und prüfe die Begründung erneut."
-  - "Erkläre die Lösung einmal als Merksatz und einmal am Beispiel."
-reflectionPrompt: "Warum hilft dir das kleine Unterthema „Dienstdiagnose“ mehr als ein breiter Sammelbegriff?"
+tags: ["linux", "System", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite ein kleines Szenario zu **Dienstdiagnose**.

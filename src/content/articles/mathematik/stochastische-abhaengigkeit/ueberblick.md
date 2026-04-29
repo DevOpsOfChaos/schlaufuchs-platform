@@ -1,32 +1,17 @@
 ---
 title: "Stochastische Abhängigkeit"
 description: "Lexikonartiger Überblick über Ereignisse, deren Wahrscheinlichkeiten sich gegenseitig beeinflussen."
-subject: mathematik
+subject: "mathematik"
 section: "Wahrscheinlichkeit"
-topicPath:
-  - "stochastische-abhaengigkeit"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Stochastische Abhängigkeit als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie bedingte Wahrscheinlichkeit, Unabhängigkeit, Schnittmenge."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["stochastische-abhaengigkeit", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Alltagsnähe oder zeitliche Reihenfolge automatisch als mathematische Abhängigkeit zu deuten."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Stochastische Abhängigkeit beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Zusammenhang zwischen Ereignissen."
-  - "Wichtige Hinweise liefern vor allem bedingte Wahrscheinlichkeit, Unabhängigkeit, Schnittmenge."
-recognizeSignals:
-  - "Es geht um zusammenhang zwischen ereignissen, bedingte wahrscheinlichkeit oder unabhängigkeit."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Stochastische Abhängigkeit erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "wahrscheinlichkeit"
-  - "abhaengigkeit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Wahrscheinlichkeit"]
 draft: false
 ---
 # Stochastische Abhängigkeit

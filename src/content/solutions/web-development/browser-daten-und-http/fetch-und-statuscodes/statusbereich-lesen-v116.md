@@ -3,22 +3,12 @@ title: "Lösung: Statusbereich lesen"
 description: "Musterlösung zur Aufgabe „Statusbereich lesen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "browser-daten-und-http"
-  - "fetch-und-statuscodes"
-  - "statusbereich-lesen-v116"
+topicPath: ["browser-daten-und-http", "fetch-und-statuscodes", "statusbereich-lesen-v116"]
 taskId: "statusbereich-lesen-v116"
 relatedExercise: "web-development/browser-daten-und-http/fetch-und-statuscodes/statusbereich-lesen-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "fetch und statuscodes"
-  - "statusbereich lesen"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

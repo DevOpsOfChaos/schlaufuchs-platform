@@ -1,42 +1,19 @@
 ---
 title: "Grundlagen: Spannung und Strom richtig messen"
 description: "Überblick über Messanordnung, Messbereich und typische Fehler beim Messen von Spannung und Strom."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - "praxis"
-  - "spannung-und-strom-richtig-messen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen, bevor du Detailaufgaben bearbeitest."
-  - "Du unterscheidest zentrale Begriffe und typische Fehlerquellen."
-  - "Du erkennst, welche Nachbarseiten und Übungen zu diesem Thema passen."
-practiceIdeas:
-  - "Lies zuerst die Übersicht und markiere die Begriffe, die in Aufgaben wieder auftauchen."
-  - "Formuliere zu jedem Abschnitt eine eigene kurze Prüffrage."
-commonMistakes:
-  - "Direkt mit einem Einzelfall zu beginnen, ohne den allgemeinen Zusammenhang zu klären."
-  - "Mess-, Rechen- und Schaltungsbegriffe zu vermischen."
-  - "Ein einzelnes Beispiel für die komplette Themenlogik zu halten."
-keyTakeaways:
-  - "Spannung wird zwischen zwei Punkten gemessen."
-  - "Strommessung braucht den Strompfad und wird in Reihe geplant."
-  - "Messbereich und Anschlussbuchse sind Teil der Sicherheit."
-recognizeSignals:
-  - "Du suchst eine ruhige Einordnung statt einer einzelnen Problemsituation."
-  - "Mehrere Detailseiten wirken ähnlich und sollen fachlich sortiert werden."
-selfCheckPoints:
-  - "Kann ich die Grundidee in eigenen Worten erklären?"
-  - "Kann ich typische Fehler benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "spannung"
-  - "strom"
+topicPath: ["praxis", "spannung-und-strom-richtig-messen", "ueberblick", "grundlagen-spannung-und-strom-richtig-messen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Praxis"]
 draft: false
 ---
-
 ![Grundlagen: Spannung und Strom richtig messen](/schlaufuchs-platform/images/overviews/v178/spannungsmessung-strommessung.svg)
 
 ## Begriff und Zweck

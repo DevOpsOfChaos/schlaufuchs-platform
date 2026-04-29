@@ -3,22 +3,12 @@ title: "Lösung: Agent-Zustand prüfen"
 description: "Musterlösung zur Aufgabe „Agent-Zustand prüfen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "netzwerk-und-fernzugriff"
-  - "ssh-schluessel-und-agent"
-  - "agent-zustand-pruefen-v116"
+topicPath: ["netzwerk-und-fernzugriff", "ssh-schluessel-und-agent", "agent-zustand-pruefen-v116"]
 taskId: "agent-zustand-pruefen-v116"
 relatedExercise: "linux/netzwerk-und-fernzugriff/ssh-schluessel-und-agent/agent-zustand-pruefen-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "ssh schluessel und agent"
-  - "agent zustand pruefen"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

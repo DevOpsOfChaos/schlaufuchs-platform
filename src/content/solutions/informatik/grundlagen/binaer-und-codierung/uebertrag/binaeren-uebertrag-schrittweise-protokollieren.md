@@ -3,23 +3,12 @@ title: "Lösung – Binären Übertrag schrittweise protokollieren"
 description: "Musterlösung zu Binärer Übertrag mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Grundlagen"
-topicPath:
-  - "grundlagen"
-  - "binaer-und-codierung"
-  - "uebertrag"
-  - "binaeren-uebertrag-schrittweise-protokollieren"
+topicPath: ["grundlagen", "binaer-und-codierung", "uebertrag", "binaeren-uebertrag-schrittweise-protokollieren"]
 taskId: "v109-informatik-binaeren-uebertrag-schrittweise-protokollieren"
 relatedExercise: "informatik/grundlagen/binaer-und-codierung/uebertrag/binaeren-uebertrag-schrittweise-protokollieren"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "grundlagen"
-  - "binaer-und-codierung"
-  - "binärer übertrag"
+tags: ["informatik", "Grundlagen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Binärer Übertrag**.

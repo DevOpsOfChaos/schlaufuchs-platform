@@ -1,39 +1,19 @@
 ---
 title: "Grundlagen: DNS und Namen im Netzwerk"
 description: "Ein allgemeiner Überblick darüber, warum Netzwerke Namen und Adressen trennen."
-subject: informatik
+subject: "informatik"
 section: "Netzwerke und Dienste"
-topicPath:
-  - netzwerke-und-dienste
-  - dns-und-namen
-  - ueberblick
-learningGoals:
-  - "Du kennst die Grundbegriffe dieses Themenbereichs."
-  - "Du kannst typische Situationen grob einordnen, bevor du Detailseiten liest."
-  - "Du erkennst, welche Nachbarseiten für Vertiefung oder Übungen passen."
-practiceIdeas:
-  - "Lies zuerst diese Überblicksseite und danach eine konkrete Lernsituation aus dem gleichen Unterthema."
-  - "Notiere die wichtigsten Begriffe und prüfe, welche davon in den Detailseiten wieder auftauchen."
-commonMistakes:
-  - "Direkt mit Sonderfällen zu beginnen, ohne die Grundbegriffe zu klären."
-  - "Ein einzelnes Beispiel für die ganze Themenlogik zu halten."
-keyTakeaways:
-  - "DNS trennt menschlich verständliche Namen von technischen Adressen und macht Netzwerke dadurch nutzbarer."
-recognizeSignals:
-  - "Du suchst eine allgemeine Einordnung, bevor du Aufgaben oder Spezialfälle bearbeitest."
-  - "Mehrere Detailseiten wirken ähnlich, aber dir fehlt der gemeinsame Rahmen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten beschreiben?"
-  - "Kann ich Grundidee, typische Begriffe und Grenzen auseinanderhalten?"
-level: einfach
-tags:
-  - "informatik"
-  - "netzwerke"
-  - "dns"
-  - "namen"
+topicPath: ["netzwerke-und-dienste", "dns-und-namen", "ueberblick", "grundlagen-dns-und-namen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Netzwerke und Dienste"]
 draft: false
 ---
-
 ## Überblick
 
 DNS ist das Namenssystem des Internets. Es verbindet gut lesbare Namen wie Webadressen mit technischen Adressen, die Rechner zur Verbindung benötigen. Dadurch müssen Menschen sich nicht die numerischen Adressen einzelner Server merken.

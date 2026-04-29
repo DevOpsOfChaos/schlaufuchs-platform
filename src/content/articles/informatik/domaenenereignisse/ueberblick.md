@@ -1,33 +1,19 @@
 ---
 title: "Domänenereignisse"
 description: "Domänenereignisse beschreiben fachlich bedeutsame Ereignisse in einem System. Sie helfen, Abläufe und Reaktionen aus Sicht der Fachdomäne zu modellieren."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "domaenenereignisse"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Domänenereignisse."
-  - "Du kannst Domänenereignisse in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["domaenenereignisse", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Technische Implementierungsdetails als fachliche Ereignisse zu modellieren."
-keyTakeaways:
-  - "Domänenereignisse beschreiben fachlich bedeutsame Ereignisse in einem System."
-  - "Wichtig sind vor allem vergangenheitsform wie bestellungabgeschlossen, lose kopplung und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Domänenereignisse, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Domänenereignisse dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "informatik"
-  - "grundlagen"
-  - "domänenereignisse"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Domänenereignisse
 
 Domänenereignisse beschreiben fachlich bedeutsame Ereignisse in einem System. Sie helfen, Abläufe und Reaktionen aus Sicht der Fachdomäne zu modellieren. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

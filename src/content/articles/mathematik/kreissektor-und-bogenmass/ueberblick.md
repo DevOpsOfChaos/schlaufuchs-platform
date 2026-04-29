@@ -1,34 +1,19 @@
 ---
 title: "Kreissektor und Bogenmaß"
 description: "Allgemeiner Überblick über Kreissektoren, Bogenlängen und Winkel im Bogenmaß."
-subject: mathematik
+subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - "kreissektor-und-bogenmass"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Kreissektor und Bogenmaß als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["kreissektor-und-bogenmass", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Gradwerte direkt in Formeln eingesetzt, die Bogenmaß erwarten."
-keyTakeaways:
-  - "Kreissektoren und Bogenmaß verbinden Geometrie und Funktionen."
-  - "Kreissektor und Bogenmaß sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Kreissektor und Bogenmaß."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Kreissektor und Bogenmaß erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "mathematik"
-  - "kreis"
-  - "bogenmaß"
-  - "geometrie"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Geometrie"]
 draft: false
 ---
-
 # Kreissektor und Bogenmaß
 
 Ein Kreissektor ist ein durch zwei Radien und einen Kreisbogen begrenzter Teil eines Kreises.

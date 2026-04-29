@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – UART-Ringpuffer als Empfangsstruktur ruhig erklären
-description: Musterlösung zur Aufgabe ET-ATMEGA-UART-302.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - uart-und-serielle-schnittstellen
-  - atmega-uart-ringpuffer-beim-empfang-verstehen
-  - uart-ringpuffer-als-empfangsstruktur-ruhig-erklaeren-loesung
-taskId: ET-ATMEGA-UART-302
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-uart-ringpuffer-beim-empfang-verstehen/uart-ringpuffer-als-empfangsstruktur-ruhig-erklaeren.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – UART-Ringpuffer als Empfangsstruktur ruhig erklären"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-UART-302."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-uart-ringpuffer-beim-empfang-verstehen", "uart-ringpuffer-als-empfangsstruktur-ruhig-erklaeren"]
+taskId: "ET-ATMEGA-UART-302"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-uart-ringpuffer-beim-empfang-verstehen/uart-ringpuffer-als-empfangsstruktur-ruhig-erklaeren.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

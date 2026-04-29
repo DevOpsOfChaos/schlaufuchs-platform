@@ -3,25 +3,12 @@ title: "Lösung: Risiko vor dem Umbau: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-031a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "zusammenarbeit-und-audit"
-  - "risiko-vor-dem-umbau"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "risiko-vor-dem-umbau-loesung-a"]
 taskId: "informatik-v193-031a"
 relatedExercise: "informatik/sanierung-v193/risiko-vor-dem-umbau-aufgabe-a"
-tags:
-  - "risiko"
-  - "vor"
-  - "dem"
-  - "umbau"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-031a`
 
 Ausgangsauftrag: Bewerte das Risiko eines Umbaus an Importen, Pfaden und Ausgaben.

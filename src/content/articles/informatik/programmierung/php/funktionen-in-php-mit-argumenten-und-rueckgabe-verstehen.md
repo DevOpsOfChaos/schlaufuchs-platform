@@ -1,44 +1,17 @@
 ---
-title: Funktionen in PHP mit Argumenten und Rückgabe verstehen
-description: Verstehe, wie PHP-Funktionen Werte entgegennehmen, verarbeiten und ein Ergebnis zurückgeben.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - funktionen-in-php-mit-argumenten-und-rueckgabe-verstehen
-learningGoals:
-  - Du erklärst Pflichtargumente und Rückgabe in einfachen Funktionen.
-  - Du liest einen Funktionsaufruf mit Argumenten ruhig.
-  - Du verstehst return als Rückkehr mit Ergebnis.
-practiceIdeas:
-  - Ordne Funktionsname, Argumente und Rückgabe in einem Beispiel zu.
-  - Erkläre, warum eine Funktion ohne Rückgabe anders eingesetzt wird.
-  - Lies einen geschachtelten Funktionsaufruf schrittweise.
-commonMistakes:
-  - Funktionsdefinition und Funktionsaufruf zu verwechseln.
-  - Zu glauben, jede Funktion müsse immer etwas ausgeben statt zurückzugeben.
-  - return nur als Abbruch statt auch als Ergebnisrückgabe zu sehen.
-keyTakeaways:
-  - Funktionen kapseln Teilaufgaben.
-  - Argumente liefern Eingangsdaten.
-  - return gibt ein Ergebnis an die Aufrufstelle zurück.
-recognizeSignals:
-  - Es geht um function, Argumente, Rückgabe oder Aufruf.
-  - Eine Funktion wird in einem Ausdruck verwendet.
-  - Du sollst beschreiben, was an die Funktion hinein- und herausgeht.
-selfCheckPoints:
-  - Kann ich Definition und Aufruf trennen?
-  - Kann ich return fachlich erklären?
-  - Kann ich sagen, welche Daten die Funktion erhält?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - backend
-  - web
-  - grundlagen
+title: "Funktionen in PHP mit Argumenten und Rückgabe verstehen"
+description: "Verstehe, wie PHP-Funktionen Werte entgegennehmen, verarbeiten und ein Ergebnis zurückgeben."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "funktionen-in-php-mit-argumenten-und-rueckgabe-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
 ## Grundidee

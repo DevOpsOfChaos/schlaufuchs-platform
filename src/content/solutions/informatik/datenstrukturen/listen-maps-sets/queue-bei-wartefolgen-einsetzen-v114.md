@@ -1,23 +1,14 @@
 ---
-title: Lösung – Queue bei Wartefolgen einsetzen
-description: Musterlösung zur Aufgabe über Queue bei Wartefolgen einsetzen.
-subject: informatik
-section: Feinstruktur Informatik
-topicPath:
-- datenstrukturen
-- listen-maps-sets
-- queue-bei-wartefolgen-einsetzen-v114
-taskId: v114-informatik-queue-bei-wartefolgen-einsetzen-v114
-relatedExercise: informatik/datenstrukturen/listen-maps-sets/queue-bei-wartefolgen-einsetzen-v114
-tags:
-- informatik
-- v114
-- loesung
-- datenstrukturen
-- listen-maps-sets
+title: "Lösung – Queue bei Wartefolgen einsetzen"
+description: "Musterlösung zur Aufgabe über Queue bei Wartefolgen einsetzen."
+subject: "informatik"
+section: "Feinstruktur Informatik"
+topicPath: ["datenstrukturen", "listen-maps-sets", "queue-bei-wartefolgen-einsetzen-v114"]
+taskId: "v114-informatik-queue-bei-wartefolgen-einsetzen-v114"
+relatedExercise: "informatik/datenstrukturen/listen-maps-sets/queue-bei-wartefolgen-einsetzen-v114"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

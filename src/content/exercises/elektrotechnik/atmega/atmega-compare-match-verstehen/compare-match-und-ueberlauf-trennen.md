@@ -1,33 +1,17 @@
 ---
-title: Compare Match und Überlauf trennen
-description: Erkläre, warum ein AVR-Timer schon vor dem Überlauf reagieren kann und wie sich Compare Match fachlich vom Überlauf unterscheidet.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - zeitbasis-und-timer
-  - atmega-compare-match-verstehen
-  - compare-match-und-ueberlauf-trennen
-taskId: ET-ATMEGA-TMR-205
-level: mittel
+title: "Compare Match und Überlauf trennen"
+description: "Erkläre, warum ein AVR-Timer schon vor dem Überlauf reagieren kann und wie sich Compare Match fachlich vom Überlauf unterscheidet."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-compare-match-verstehen", "compare-match-und-ueberlauf-trennen"]
+taskId: "ET-ATMEGA-TMR-205"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - timer
-  - compare-match
-hintPoints:
-  - Trenne zuerst volle Zählerbreite und gesetzten Vergleichswert.
-  - Lies den Timer als Taktzähler, nicht als fertige Uhr.
-selfCheckPoints:
-  - Kannst du Überlauf und Compare Match fachlich unterscheiden?
-  - Kannst du erklären, warum ein Ereignis schon vor 255 auftreten kann?
-transferIdeas:
-  - Übertrage die Logik auf Blinkzyklen oder periodische Interrupts.
-reflectionPrompt: "Welche ruhige Lesefrage hilft dir am meisten, wenn Timerereignisse nur als Registerkürzel dastehen?"
 ---
-
 ## Aufgabe 1
 
 Erkläre in 3 bis 5 Sätzen den Unterschied zwischen Überlauf und Compare Match.

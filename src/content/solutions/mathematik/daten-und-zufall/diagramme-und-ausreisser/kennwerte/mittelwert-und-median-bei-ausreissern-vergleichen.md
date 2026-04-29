@@ -3,23 +3,12 @@ title: "Lösung – Mittelwert und Median bei Ausreißern vergleichen"
 description: "Musterlösung zu Kennwerte mit Ausreißern mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Daten und Zufall"
-topicPath:
-  - "daten-und-zufall"
-  - "diagramme-und-ausreisser"
-  - "kennwerte"
-  - "mittelwert-und-median-bei-ausreissern-vergleichen"
+topicPath: ["daten-und-zufall", "diagramme-und-ausreisser", "kennwerte", "mittelwert-und-median-bei-ausreissern-vergleichen"]
 taskId: "v107-mathematik-mittelwert-und-median-bei-ausreissern-vergleichen"
 relatedExercise: "mathematik/daten-und-zufall/diagramme-und-ausreisser/kennwerte/mittelwert-und-median-bei-ausreissern-vergleichen"
-tags:
-  - "mathematik"
-  - "rechnen"
-  - "modellieren"
-  - "kennwerte mit ausreißern"
-  - "daten-und-zufall"
-  - "diagramme-und-ausreisser"
+tags: ["mathematik", "Daten und Zufall", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Kennwerte mit Ausreißern**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

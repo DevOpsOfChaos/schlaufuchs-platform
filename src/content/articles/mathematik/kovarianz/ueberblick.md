@@ -1,32 +1,17 @@
 ---
 title: "Kovarianz"
 description: "Lexikonartiger Überblick über gemeinsame Streuung zweier Größen."
-subject: mathematik
+subject: "mathematik"
 section: "Daten und Statistik"
-topicPath:
-  - "kovarianz"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Kovarianz als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Vorzeichen, Skalierung, Korrelation."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["kovarianz", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Eine positive Kovarianz automatisch als starken oder kausalen Zusammenhang zu deuten."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Kovarianz beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Gemeinsame Veränderung."
-  - "Wichtige Hinweise liefern vor allem Vorzeichen, Skalierung, Korrelation."
-recognizeSignals:
-  - "Es geht um gemeinsame veränderung, vorzeichen oder skalierung."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Kovarianz erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "statistik"
-  - "zusammenhang"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Daten und Statistik"]
 draft: false
 ---
 # Kovarianz

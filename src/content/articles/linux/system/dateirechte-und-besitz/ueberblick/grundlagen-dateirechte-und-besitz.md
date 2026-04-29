@@ -1,45 +1,19 @@
 ---
-title: Linux – Dateirechte und Besitz im Überblick
-description: Erklärt Benutzer, Gruppen, Rechte und Besitz als Grundlage für Zugriffskontrolle.
-subject: linux
-section: System
-topicPath:
-  - "system"
-  - "dateirechte-und-besitz"
-  - "ueberblick"
-learningGoals:
-  - "Den Themenbereich Dateirechte und Besitz im Überblick allgemein einordnen."
-  - "Grundbegriffe, Nutzen und typische Grenzen unterscheiden."
-  - "Einzelne Lernseiten als Vertiefung statt als Einstieg lesen."
-practiceIdeas:
-  - "Erstelle eine kurze Begriffskarte mit Zweck, typischem Beispiel und häufiger Verwechslung."
-  - "Ordne vorhandene Lernseiten danach, welchen Teil des Überblicks sie vertiefen."
-  - "Formuliere zu jedem Abschnitt eine eigene Kontrollfrage."
-commonMistakes:
-  - "Besitz und Rechte zu vermischen."
-  - "Verzeichnisrechte wie Dateirechte zu lesen."
-keyTakeaways:
-  - "Linux-Zugriff hängt von Benutzer, Gruppe und Rechten ab."
-  - "Dateien und Verzeichnisse müssen getrennt gelesen werden."
-  - "Rechte erklären viele Zugriffsfehler systematisch."
-recognizeSignals:
-  - "Ein Unterthema enthält viele einzelne Situationsseiten, aber es fehlt eine gemeinsame Einordnung."
-  - "Begriffe werden in Aufgaben verwendet, bevor Zweck und Zusammenhang klar sind."
-  - "Man muss entscheiden, welche Vertiefungsseite als nächstes sinnvoll ist."
-selfCheckPoints:
-  - "Kann ich das Thema in zwei bis drei Sätzen allgemein erklären?"
-  - "Kann ich Zweck, Vorgehen und typische Fehler getrennt benennen?"
-  - "Kann ich erklären, welche Vertiefungsseite zu welcher Frage passt?"
-level: einfach
-tags:
-  - "linux"
-  - "rechte"
-  - "besitz"
-  - "chmod"
-  - "überblick"
+title: "Linux – Dateirechte und Besitz im Überblick"
+description: "Erklärt Benutzer, Gruppen, Rechte und Besitz als Grundlage für Zugriffskontrolle."
+subject: "linux"
+section: "System"
+topicPath: ["system", "dateirechte-und-besitz", "ueberblick", "grundlagen-dateirechte-und-besitz"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "System"]
 draft: false
 ---
-
 ## Überblick
 
 Linux schützt Dateien und Verzeichnisse über Eigentümer, Gruppen und Rechte. Dadurch wird festgelegt, wer lesen, schreiben oder ausführen darf.

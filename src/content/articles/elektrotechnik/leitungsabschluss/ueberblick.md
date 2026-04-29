@@ -1,34 +1,19 @@
 ---
 title: "Leitungsabschluss"
 description: "Überblick über Abschlusswiderstände und die Frage, wann Leitungen nicht mehr als ideale Verbindungen betrachtet werden können."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik"
-topicPath:
-  - "leitungsabschluss"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["leitungsabschluss", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur die Taktrate zu betrachten und schnelle Flanken auf kurzen Pulsen zu unterschätzen."
-keyTakeaways:
-  - "Leitungsabschluss wird wichtig, wenn Leitungen und schnelle Flanken das Signalverhalten prägen."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Oszilloskopbilder Überschwingen, Klingeln oder unerwartete Mehrfachflanken zeigen."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "signalintegritaet"
-  - "leitungen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik"]
 draft: false
 ---
-
 # Leitungsabschluss
 
 Ein Leitungsabschluss sorgt dafür, dass Signale am Ende einer Leitung weniger reflektiert werden. Er wird wichtig, wenn Signalflanken schnell sind oder Leitungen im Verhältnis zur Signaländerung lang werden.

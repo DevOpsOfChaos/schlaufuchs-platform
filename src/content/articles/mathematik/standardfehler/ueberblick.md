@@ -1,36 +1,19 @@
 ---
 title: "Standardfehler"
 description: "Der Standardfehler beschreibt, wie stark eine geschätzte Kennzahl, etwa ein Mittelwert, von Stichprobe zu Stichprobe schwanken kann."
-subject: mathematik
+subject: "mathematik"
 section: "Statistik"
-topicPath:
-  - "standardfehler"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Standardfehler als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["standardfehler", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird ein kleiner Standardfehler als geringe Streuung der Einzeldaten interpretiert."
-keyTakeaways:
-  - "Der Standardfehler beschreibt, wie stark eine geschätzte Kennzahl, etwa ein Mittelwert, von Stichprobe zu Stichprobe schwanken kann."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Standardfehler, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Standardfehler in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "statistik"
-  - "unsicherheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Statistik"]
 draft: false
 ---
-
 # Standardfehler
 
 Der Standardfehler beschreibt, wie stark eine geschätzte Kennzahl, etwa ein Mittelwert, von

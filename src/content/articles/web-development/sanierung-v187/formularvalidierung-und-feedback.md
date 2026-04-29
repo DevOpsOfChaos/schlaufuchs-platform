@@ -3,39 +3,17 @@ title: "Formularvalidierung und Feedback"
 description: "Gib Formularrückmeldungen so, dass Nutzer Fehler finden und korrigieren können."
 subject: "web-development"
 section: "javascript"
-topicPath: 
-  - "javascript-und-interaktion"
-  - "formularfeedback"
-learningGoals: 
-  - "Eingaben prüfen und erklären ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Formuliere klare Fehlermeldungen für Name, E-Mail und Nachricht in einem Kontaktformular."
-  - "Plane einen Validierungsablauf mit Feldzuständen, Fehlermeldung und abschließender Kontrolle."
-commonMistakes: 
-  - "Fehlermeldungen sind zu allgemein."
-  - "Gültige und ungültige Zustände sind nur farblich markiert."
-  - "Validierung startet ohne klare Regelbeschreibung."
-keyTakeaways: 
-  - "Gutes Feedback sagt, was falsch ist und wie die Eingabe korrigiert werden kann."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "Gutes Feedback sagt, was falsch ist und wie die Eingabe korrigiert werden kann."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "formularvalidierung-und-feedback"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags: 
-  - "formulare"
-  - "validierung"
-  - "feedback"
-  - "javascript"
-  - "web-development"
+tags: ["web-development", "javascript"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Formularvalidierung und Feedback](/schlaufuchs-platform/images/web-development/sanierung-v187/formularvalidierung-und-feedback.svg)
 
     Formularvalidierung und Feedback ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

@@ -1,33 +1,17 @@
 ---
 title: "Rechenwegkontrolle"
 description: "Überblick über Strategien, mit denen Rechenwege auf Plausibilität, Einheiten, Vorzeichen und Größenordnung geprüft werden."
-subject: mathematik
+subject: "mathematik"
 section: "Rechenstrategien"
-topicPath:
-  - "rechenwegkontrolle"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Rechenwegkontrolle als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["rechenwegkontrolle", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Kontrolle wird oft erst nach dem Ergebnis gemacht. Besser ist sie als Begleitung des gesamten Rechenwegs."
-keyTakeaways:
-  - "Rechenwegkontrolle sucht nicht nur den Endwert, sondern prüft, ob der Weg dorthin sinnvoll und widerspruchsfrei ist."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um rechenwegkontrolle, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich rechenwegkontrolle in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "rechenwegkontrolle"
-  - "überblick"
-  - "einheitencheck"
-  - "vorzeichen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Rechenstrategien"]
 draft: false
 ---
 # Rechenwegkontrolle

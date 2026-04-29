@@ -3,46 +3,17 @@ title: "Informatik – Stabile Sortierung am Beispiel erklären"
 description: "Lerne Stabile Sortierung als kleines, klar auffindbares Unterthema mit Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "algorithmen-denken"
-  - "such-und-sortierideen"
-  - "sortieren"
-  - "stabile-sortierung-am-beispiel-erklaeren"
-learningGoals:
-  - "Du erklärst Stabile Sortierung als enges Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich sauber ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Formuliere eine Gegenprobe mit verändertem Kontext."
-  - "Ordne die Seite bewusst einem kleinen Unterthemenpfad zu."
-commonMistakes:
-  - "Die zweite Sortierung zerstört unbeabsichtigt die erste Ordnung."
-  - "Das Thema in einem breiten Sammelkapitel verschwinden lassen."
-  - "Eine Lösung ohne konkreten Prüfschritt formulieren."
-keyTakeaways:
-  - "Stabile Sortierung wird durch Kontext, Abgrenzung und Prüfung klar."
-  - "Feinere Unterthemen reduzieren Doppelungen und Suchaufwand."
-  - "Aufgabe und Lösung sollen dieselbe Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Eine breite Kapitelüberschrift reicht für die Entscheidung nicht aus."
-  - "Ein konkreter Prüfschritt kann die Einordnung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "informatik"
-  - "struktur"
-  - "unterthema"
-  - "algorithmen-denken"
-  - "such-und-sortierideen"
-  - "stabile-sortierung-am-beispiel-erklaeren"
+topicPath: ["algorithmen-denken", "such-und-sortierideen", "sortieren", "stabile-sortierung-am-beispiel-erklaeren"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["informatik", "Feinstruktur Informatik"]
 draft: false
 ---
-
 ## Grundidee
 
 **Stabile Sortierung** ist bewusst als kleines Unterthema angelegt. Lerne Stabile Sortierung als kleines, klar auffindbares Unterthema mit Abgrenzung, Prüfschritt und Gegenprobe. So bleibt die Lernseite auffindbar, ohne noch mehr Inhalt in ein übergroßes Sammelthema zu schieben.

@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Mittelwert und Median unterscheiden"
 description: "Musterlösung zu Mittelwert und Median unterscheiden mit Trennkante und Gegenprobe."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "daten-und-zufall-v115"
-  - "diagramme-kritisch-lesen"
-  - "mittelwert-und-median-unterscheiden-v115"
+topicPath: ["daten-und-zufall-v115", "diagramme-kritisch-lesen", "mittelwert-und-median-unterscheiden-v115"]
 taskId: "mathematik-mittelwert-und-median-unterscheiden-v115"
 relatedExercise: "mathematik/daten-und-zufall-v115/diagramme-kritisch-lesen/mittelwert-und-median-unterscheiden-v115"
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "daten und zufall"
-  - "diagramme kritisch lesen"
-  - "lösung"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Mittelwert und Median unterscheiden**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

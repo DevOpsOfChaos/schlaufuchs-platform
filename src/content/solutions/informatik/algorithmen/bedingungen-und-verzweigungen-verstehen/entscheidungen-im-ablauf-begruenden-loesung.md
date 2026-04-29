@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Entscheidungen im Ablauf begründen
-description: Musterlösung zur Aufgabe INF-ALG-VERZWEIGUNG-001.
-subject: informatik
-section: Algorithmen
-topicPath:
-  - algorithmen
-  - bedingungen-und-verzweigungen-verstehen
-  - entscheidungen-im-ablauf-begruenden-loesung
-taskId: INF-ALG-VERZWEIGUNG-001
-relatedExercise: src/content/exercises/informatik/algorithmen/bedingungen-und-verzweigungen-verstehen/entscheidungen-im-ablauf-begruenden.md
-tags:
-  - informatik
-  - algorithmus
-  - bedingung
-  - loesung
-  - task-id
+title: "Musterlösung – Entscheidungen im Ablauf begründen"
+description: "Musterlösung zur Aufgabe INF-ALG-VERZWEIGUNG-001."
+subject: "informatik"
+section: "Algorithmen"
+topicPath: ["algorithmen", "bedingungen-und-verzweigungen-verstehen", "entscheidungen-im-ablauf-begruenden"]
+taskId: "INF-ALG-VERZWEIGUNG-001"
+relatedExercise: "src/content/exercises/informatik/algorithmen/bedingungen-und-verzweigungen-verstehen/entscheidungen-im-ablauf-begruenden.md"
+tags: ["informatik", "Algorithmen", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Bedingung finden
 
 Die Bedingung lautet hier sinngemäß: **Ist jemand zu Hause?**  

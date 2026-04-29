@@ -3,21 +3,12 @@ title: "Lösung – scroll-margin und Sprungziele mit Sticky Header planen"
 description: "Musterlösung zu: Eine Seite hat einen 72px hohen Sticky Header. Lege eine robuste Regel für Abschnittsziele fest und erkläre den Unterschied zu normalem margin-top."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "box-modell"
-  - "scroll-margin-und-sprungziele-mit-sticky-header"
+topicPath: ["css", "box-modell", "scroll-margin-und-sprungziele-mit-sticky-header"]
 taskId: "wd-v97-scroll-margin-und-sprungziele-mit-sticky-header"
 relatedExercise: "web-development/css/box-modell/scroll-margin-und-sprungziele-mit-sticky-header"
-tags:
-  - "web development"
-  - "css"
-  - "scroll-margin"
-  - "sticky"
-  - "anker"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Das Problem entsteht nicht nur im Code, sondern in der Nutzung: Wenn Bedeutung, Struktur oder Rückmeldung unklar bleiben, müssen Nutzerinnen und Nutzer raten. Besonders kritisch wird das bei Tastaturbedienung, kleinen Bildschirmen, langen Inhalten oder assistiven Technologien.

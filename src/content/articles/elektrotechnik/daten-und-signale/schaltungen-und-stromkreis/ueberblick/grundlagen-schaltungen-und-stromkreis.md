@@ -1,37 +1,19 @@
 ---
 title: "Grundlagen: Schaltungen und Stromkreis"
 description: "Allgemeiner Überblick über geschlossene Stromkreise, Spannungsquellen, Verbraucher sowie Reihen- und Parallelschaltungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Daten und Signale"
-topicPath:
-  - daten-und-signale
-  - schaltungen-und-stromkreis
-  - grundlagen-schaltungen-und-stromkreis
-learningGoals:
-  - "Du erklärst einen Stromkreis als geschlossenen leitfähigen Pfad."
-  - "Du beschreibst Spannungsquelle, Verbraucher und Leitung als Grundelemente."
-  - "Du unterscheidest Reihen- und Parallelschaltung nach Strom- und Spannungsverhalten."
+topicPath: ["daten-und-signale", "schaltungen-und-stromkreis", "ueberblick", "grundlagen-schaltungen-und-stromkreis"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Einen offenen Stromkreis wie einen geschlossenen zu behandeln."
-  - "Stromverbrauch im Bauteil als Verschwinden von Strom zu deuten."
-  - "Reihen- und Parallelschaltung nur an der Zeichnung statt am Verhalten zu erkennen."
-keyTakeaways:
-  - "Ein Strom fließt nur in einem geschlossenen Stromkreis."
-  - "In Reihenschaltungen ist der Strom durch die Bauteile gleich."
-  - "In Parallelschaltungen liegt an Zweigen dieselbe Spannung an."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "stromkreis"
-  - "schaltung"
-  - "reihe"
-  - "parallel"
+level: "einfach"
+tags: ["elektrotechnik", "Daten und Signale"]
 draft: false
 ---
-
 ## Begriff
 
 Eine **Schaltung** ist eine Anordnung elektrischer Bauteile. Ein **Stromkreis** ist der leitfähige Weg, über den elektrische Ladung fließen kann. Damit ein dauerhafter Strom fließt, muss der Stromkreis geschlossen sein.

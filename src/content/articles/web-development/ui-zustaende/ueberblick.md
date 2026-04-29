@@ -1,33 +1,17 @@
 ---
 title: "UI-Zustände"
 description: "Überblick über typische Zustände einer Benutzeroberfläche wie leer, lädt, erfolgreich, fehlerhaft und deaktiviert."
-subject: web-development
+subject: "web-development"
 section: "UX"
-topicPath:
-  - "ui-zustaende"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst UI-Zustände als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["ui-zustaende", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oberflächen werden oft nur für den Idealzustand gestaltet. Gute UI erklärt auch, was passiert, wenn Daten fehlen, langsam laden oder eine Aktion scheitert."
-keyTakeaways:
-  - "UI-Zustände beschreiben, was eine Oberfläche zu einem bestimmten Zeitpunkt weiß, erwartet oder nicht leisten kann."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um ui-zustände, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich ui-zustände in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "web-development"
-  - "ui-zustände"
-  - "überblick"
-  - "initialzustand"
-  - "ladezustand"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "UX"]
 draft: false
 ---
 # UI-Zustände

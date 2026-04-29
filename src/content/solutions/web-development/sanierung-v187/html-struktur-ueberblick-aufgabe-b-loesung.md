@@ -3,22 +3,12 @@ title: "Lösung: HTML-Struktur im Überblick: Prüfung und Verbesserung"
 description: "Musterlösung zur Aufgabe web-v187-002b im Web-Development-Block v187."
 subject: "web-development"
 section: "html"
-topicPath: 
-  - "html-und-semantik"
-  - "struktur"
-  - "loesung-b"
+topicPath: ["sanierung-v187", "html-struktur-ueberblick-aufgabe-b"]
 taskId: "web-v187-002b"
 relatedExercise: "web-development/sanierung-v187/html-struktur-ueberblick-aufgabe-b"
-tags: 
-  - "html"
-  - "struktur"
-  - "semantik"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "html", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-002b`
 
     Ausgangsauftrag: Bringe eine unsortierte HTML-Skizze in eine sinnvolle Reihenfolge und begründe die wichtigsten Umstellungen.

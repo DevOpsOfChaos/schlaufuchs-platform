@@ -3,20 +3,12 @@ title: "Lösung – ADC-Kanalwechsel beruhigen"
 description: "Musterlösung zu ADC-Kanalwechsel beruhigen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "adc"
-  - "adc-kanalwechsel-beruhigen-v113"
+topicPath: ["mikrocontroller-und-atmega", "adc", "adc-kanalwechsel-beruhigen-v113"]
 taskId: "v113-elektrotechnik-adc-kanalwechsel-beruhigen-v113"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/adc/adc-kanalwechsel-beruhigen-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "adc-kanalwechsel-beruhigen-v113"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **ADC-Kanalwechsel beruhigen**.

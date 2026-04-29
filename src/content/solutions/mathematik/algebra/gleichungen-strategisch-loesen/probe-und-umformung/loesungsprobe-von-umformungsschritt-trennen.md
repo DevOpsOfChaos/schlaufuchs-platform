@@ -3,23 +3,12 @@ title: "Lösung – Lösungsprobe von Umformungsschritt trennen"
 description: "Musterlösung zu Lösungsprobe und Umformung mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Algebra"
-topicPath:
-  - "algebra"
-  - "gleichungen-strategisch-loesen"
-  - "probe-und-umformung"
-  - "loesungsprobe-von-umformungsschritt-trennen"
+topicPath: ["algebra", "gleichungen-strategisch-loesen", "probe-und-umformung", "loesungsprobe-von-umformungsschritt-trennen"]
 taskId: "v109-mathematik-loesungsprobe-von-umformungsschritt-trennen"
 relatedExercise: "mathematik/algebra/gleichungen-strategisch-loesen/probe-und-umformung/loesungsprobe-von-umformungsschritt-trennen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfen"
-  - "algebra"
-  - "gleichungen-strategisch-loesen"
-  - "lösungsprobe und umformung"
+tags: ["mathematik", "Algebra", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Lösungsprobe und Umformung**.

@@ -3,46 +3,17 @@ title: "Informatik – Test-Fixture von Testfall unterscheiden"
 description: "Lerne Test-Fixture von Testfall unterscheiden als kleines, klar prüfbares Unterthema mit Abgrenzung, Beispiel und Gegenprobe."
 subject: "informatik"
 section: "Programmierung"
-topicPath:
-  - "programmierpraxis"
-  - "funktionen-tests-und-fehler"
-  - "v110-teil-2"
-  - "test-fixture-von-testfall-unterscheiden"
-learningGoals:
-  - "Du erklärst Test-Fixture von Testfall unterscheiden als eigenes Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Erstelle eine Gegenprobe mit verändertem Wert, Zustand oder Kontext."
-  - "Vergleiche die Seite mit einem Nachbarthema und nenne die Trennkante."
-commonMistakes:
-  - "Vorbereitung und eigentliche Prüfung werden vermischt."
-  - "Das Thema nur einem breiten Kapitel zuordnen."
-  - "Eine Lösung formulieren, die keine konkrete Prüfung enthält."
-keyTakeaways:
-  - "Test-Fixture von Testfall unterscheiden wird über Einordnung, Abgrenzung und Gegenprobe stabil."
-  - "Kleine Unterthemen erhöhen Auffindbarkeit und reduzieren Doppelungen."
-  - "Aufgabe und Lösung sollen dieselbe fachliche Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Ein breites Kapitel wäre als Antwort zu ungenau."
-  - "Ein konkreter Prüfschritt kann die Entscheidung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "informatik"
-  - "struktur"
-  - "praxis"
-  - "programmierpraxis"
-  - "funktionen-tests-und-fehler"
-  - "test-fixture-von-testfall-unterscheiden"
+topicPath: ["programmierpraxis", "funktionen-tests-und-fehler", "v110-teil-2", "test-fixture-von-testfall-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 **Test-Fixture von Testfall unterscheiden** ist bewusst als enges Unterthema angelegt. Die Seite beantwortet nicht das ganze Kapitel, sondern die kleine fachliche Entscheidung, die in Aufgaben oft den Unterschied macht.

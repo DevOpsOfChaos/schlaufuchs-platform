@@ -1,36 +1,19 @@
 ---
 title: "Cookies und Sessions"
 description: "Überblick über Cookies, Sessions und zustandsbehaftete Webnutzung."
-subject: web-development
+subject: "web-development"
 section: "Browser und Server"
-topicPath:
-  - "cookies-und-sessions"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Cookies und Sessions als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["cookies-und-sessions", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird eine Session nur als Komfortfunktion betrachtet."
-keyTakeaways:
-  - "Cookies bringen Zustand in zustandslose HTTP-Kommunikation."
-  - "Sessions sollten serverseitig kontrolliert und zeitlich begrenzt sein."
-  - "Cookie-Attribute sind Teil der Sicherheit."
-recognizeSignals:
-  - "Es geht um Cookies und Sessions als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Cookies und Sessions in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "web development"
-  - "cookies"
-  - "sessions"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Browser und Server"]
 draft: false
 ---
-
 # Cookies und Sessions
 
 ![Schaubild zu Cookies und Sessions.](/schlaufuchs-platform/images/overviews/v149/cookies-und-sessions.svg)

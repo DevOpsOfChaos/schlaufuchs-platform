@@ -1,21 +1,14 @@
 ---
 title: "Lösung – API-Verträge und Datenfluss – Ruhig einordnen"
 description: "Musterlösung zur Aufgabe über API-Verträge und Datenfluss."
-subject: informatik
+subject: "informatik"
 section: "netzwerke-und-dienste"
-topicPath:
-  - "netzwerke-und-dienste"
-  - "api-vertraege-und-datenfluss"
-taskId: INF-API-VERTRAEGE-UND-DATENFLUSS-841
-relatedExercise: src/content/exercises/informatik/netzwerke-und-dienste/api-vertraege-und-datenfluss/api-vertraege-und-datenfluss-ruhig-einordnen-v184.md
-tags:
-  - "informatik"
-  - "api"
-  - "datenfluss"
-  - "loesung"
+topicPath: ["netzwerke-und-dienste", "api-vertraege-und-datenfluss", "api-vertraege-und-datenfluss-ruhig-einordnen-v184"]
+taskId: "INF-API-VERTRAEGE-UND-DATENFLUSS-841"
+relatedExercise: "src/content/exercises/informatik/netzwerke-und-dienste/api-vertraege-und-datenfluss/api-vertraege-und-datenfluss-ruhig-einordnen-v184.md"
+tags: ["informatik", "netzwerke-und-dienste", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

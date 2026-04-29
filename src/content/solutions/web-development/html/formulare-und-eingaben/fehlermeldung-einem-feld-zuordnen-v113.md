@@ -3,20 +3,12 @@ title: "Lösung – Fehlermeldung einem Feld zuordnen"
 description: "Musterlösung zu Fehlermeldung einem Feld zuordnen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "html"
-  - "formulare-und-eingaben"
-  - "fehlermeldung-einem-feld-zuordnen-v113"
+topicPath: ["html", "formulare-und-eingaben", "fehlermeldung-einem-feld-zuordnen-v113"]
 taskId: "v113-web-development-fehlermeldung-einem-feld-zuordnen-v113"
 relatedExercise: "web-development/html/formulare-und-eingaben/fehlermeldung-einem-feld-zuordnen-v113"
-tags:
-  - "web development"
-  - "strukturcheck"
-  - "unterthema"
-  - "fehlermeldung-einem-feld-zuordnen-v113"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Fehlermeldung einem Feld zuordnen**.

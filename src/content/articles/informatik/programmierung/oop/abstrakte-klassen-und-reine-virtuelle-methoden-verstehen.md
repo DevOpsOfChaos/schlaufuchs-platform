@@ -1,46 +1,19 @@
 ---
-title: Abstrakte Klassen und reine virtuelle Methoden verstehen
-description: Verstehe, warum manche Basisklassen nur einen Rahmen vorgeben und noch keine fertigen Objekte sein sollen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - abstrakte-klassen-und-reine-virtuelle-methoden-verstehen
-learningGoals:
-  - Du erklaerst die Idee einer abstrakten Klasse.
-  - Du beschreibst reine virtuelle Methoden als offene Pflichtstellen fuer Unterklassen.
-  - Du erkennst, warum manche Basisklassen eher Schablonen als fertige Objekte sind.
-practiceIdeas:
-  - Vergleiche eine allgemeine Basisklasse mit einer konkreten Unterklasse.
-  - Markiere in einem Beispiel, welche Methode noch keine fertige Umsetzung hat.
-  - Beschreibe, warum eine abstrakte Klasse oft nicht direkt instanziiert werden soll.
-commonMistakes:
-  - Zu denken, dass jede Klasse sofort fertige Objekte liefern muss.
-  - Reine virtuelle Methoden mit normalen virtuellen Methoden zu verwechseln.
-  - Abstrakte Klasse und Interface Idee ohne klare Rollen zu vermischen.
-keyTakeaways:
-  - Eine abstrakte Klasse gibt einen gemeinsamen Rahmen vor.
-  - Reine virtuelle Methoden markieren Verhalten, das Unterklassen selbst konkret fuellen muessen.
-  - Abstrakte Klassen sind oft Denkmodelle fuer gemeinsame Struktur und Pflichten.
-recognizeSignals:
-  - Es geht um Basisklassen, die nicht direkt erzeugt werden sollen.
-  - Eine Methode wird als reine virtuelle Methode beschrieben.
-  - Die Aufgabe fragt nach gemeinsamen Eigenschaften und offener Spezialisierung.
-selfCheckPoints:
-  - Kann ich erklaeren, warum eine abstrakte Klasse oft kein direktes Objekt liefern soll?
-  - Kann ich reine virtuelle Methoden von normalen virtuellen Methoden unterscheiden?
-  - Kann ich die Rolle einer konkreten Unterklasse im Vergleich zur abstrakten Basis benennen?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - abstrakt
-  - virtual
+title: "Abstrakte Klassen und reine virtuelle Methoden verstehen"
+description: "Verstehe, warum manche Basisklassen nur einen Rahmen vorgeben und noch keine fertigen Objekte sein sollen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "abstrakte-klassen-und-reine-virtuelle-methoden-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Manche Basisklassen sollen nicht selbst als fertige Objekte benutzt werden. Sie geben eher einen **gemeinsamen Rahmen** vor, den konkrete Unterklassen spaeter ausfuellen.

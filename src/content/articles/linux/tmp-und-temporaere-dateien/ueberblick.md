@@ -1,34 +1,19 @@
 ---
 title: "tmp und temporäre Dateien"
 description: "Allgemeiner Überblick über temporäre Dateien und Verzeichnisse unter Linux."
-subject: linux
+subject: "linux"
 section: "Dateisystem"
-topicPath:
-  - "tmp-und-temporaere-dateien"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst tmp und temporäre Dateien als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["tmp-und-temporaere-dateien", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden temporäre Dateien gelöscht, ohne laufende Prozesse zu beachten."
-keyTakeaways:
-  - "Temporäre Dateien sind Teil normaler Systemarbeit."
-  - "tmp und temporäre Dateien sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um tmp und temporäre Dateien."
-selfCheckPoints:
-  - "Kann ich erklären, woran man tmp und temporäre Dateien erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "linux"
-  - "tmp"
-  - "temporäre dateien"
-  - "dateisystem"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dateisystem"]
 draft: false
 ---
-
 # tmp und temporäre Dateien
 
 Temporäre Dateien speichern Zwischenstände, Caches oder kurzlebige Daten.

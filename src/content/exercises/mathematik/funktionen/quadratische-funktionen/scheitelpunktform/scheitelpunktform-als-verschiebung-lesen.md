@@ -3,35 +3,15 @@ title: "Aufgabe – Scheitelpunktform als Verschiebung lesen"
 description: "Übe Scheitelpunktform mit einem kleinen Szenario, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "funktionen"
-  - "quadratische-funktionen"
-  - "scheitelpunktform"
-  - "scheitelpunktform-als-verschiebung-lesen"
+topicPath: ["funktionen", "quadratische-funktionen", "scheitelpunktform", "scheitelpunktform-als-verschiebung-lesen"]
 taskId: "v109-mathematik-scheitelpunktform-als-verschiebung-lesen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfen"
-  - "funktionen"
-  - "quadratische-funktionen"
-  - "scheitelpunktform"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Übertrage den Prüfschritt auf ein Nachbarthema und nenne den Unterschied."
-reflectionPrompt: "Welche kleine Trennkante macht Scheitelpunktform übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["mathematik", "Funktionen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Scheitelpunktform**.

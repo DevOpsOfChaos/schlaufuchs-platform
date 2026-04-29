@@ -1,29 +1,17 @@
 ---
 title: "Dienste und systemd – ruhig einordnen"
 description: "Übe, Dienste und systemd fachlich einzuordnen."
-subject: linux
+subject: "linux"
 section: "system-und-dienste"
-topicPath:
-  - "system-und-dienste"
-  - "dienste-und-systemd"
-taskId: LINUX-DIENSTE-UND-SYSTEMD-V186-1
-tags:
-  - "linux"
-  - "systemd"
-  - "dienste"
-  - "aufgabe"
-hintPoints:
-  - "Beginne mit Begriff und Kontext."
-  - "Trenne Beobachtung, Prüfung und mögliche Änderung."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe erklären."
-  - "Ich kann einen typischen Fehler vermeiden."
-transferIdeas:
-  - "Formuliere eine ähnliche Prüfsituation aus deinem eigenen Linux-Alltag."
-level: mittel
+topicPath: ["system-und-dienste", "dienste-und-systemd", "dienste-und-systemd-ruhig-einordnen-v186"]
+taskId: "LINUX-DIENSTE-UND-SYSTEMD-V186-1"
+tags: ["linux", "system-und-dienste", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Lernziel
 
 Du sollst **Dienste und systemd** nicht nur als Befehl oder Schlagwort sehen, sondern als geordnetes Linux-Thema mit Zweck, Kontext und typischen Prüfschritten.

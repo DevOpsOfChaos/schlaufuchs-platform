@@ -3,32 +3,17 @@ title: "Referenzspannung und Messbezug"
 description: "Allgemeiner Überblick über Referenzspannungen, Bezugspunkte und ihre Bedeutung für Messwerte."
 subject: "elektrotechnik"
 section: "Messen"
-topicPath:
-  - "referenzspannung-und-messbezug"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["referenzspannung-und-messbezug", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird ein Messwert nur als Zahl betrachtet. Ohne Kenntnis von Referenz, Auflösung und Bezugspunkt ist diese Zahl schwer richtig zu deuten."
-keyTakeaways:
-  - "Referenzspannung und Messbezug legen fest, was eine Messung bedeutet. Sie sind zentral für zuverlässige Analogwerte."
-  - "Eine Versorgungsspannung kann als Referenz dienen, ist aber nicht automatisch präzise oder störarm. Für genaue Messungen kann eine eigene Referenz nötig sein."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "elektrotechnik"
-  - "referenzspannung"
-  - "messung"
-  - "adc"
+tags: ["elektrotechnik", "Messen"]
 draft: false
 ---
-
 # Referenzspannung und Messbezug
 
 Eine Referenzspannung ist ein festgelegter Vergleichswert, gegen den eine Messung oder Wandlung bewertet wird. Der Messbezug bestimmt, worauf sich eine Spannung bezieht.

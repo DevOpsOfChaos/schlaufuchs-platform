@@ -1,35 +1,17 @@
 ---
 title: "Least Privilege"
 description: "Überblick über das Prinzip der minimal nötigen Rechte in Software, Betrieb und Organisation."
-subject: informatik
+subject: "informatik"
 section: "Sicherheit"
-topicPath:
-  - "least-privilege"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Least Privilege als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["least-privilege", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, Problemen durch immer mehr Rechte zu begegnen, statt die benötigte Berechtigung präzise zu klären."
-keyTakeaways:
-  - "Least Privilege bedeutet, dass Benutzer, Dienste und Programme nur die Rechte erhalten, die sie für ihre Aufgabe benötigen."
-  - "Das Prinzip begrenzt Schäden bei Fehlern, Missbrauch oder kompromittierten Komponenten."
-  - "Least Privilege darf Arbeitsfähigkeit nicht durch unverständliche Berechtigungsmodelle blockieren. Es braucht klare Rollen und Prozesse."
-recognizeSignals:
-  - "Es geht um Least Privilege, wenn dienstkonten erhalten eng definierte Berechtigungen."
-  - "Das Thema wird relevant, wenn Beispiele wie ein Webdienst, der nur Daten lesen muss, sollte keinen Datenbanknutzer mit Schema-Änderungsrechten verwenden."
-selfCheckPoints:
-  - "Kann ich Least Privilege in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "sicherheit"
-  - "rechte"
-  - "zugriffskontrolle"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Sicherheit"]
 draft: false
 ---
 # Least Privilege

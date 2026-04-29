@@ -3,39 +3,17 @@ title: "Box-Modell, Abstände und Größen"
 description: "Unterscheide Inhalt, Innenabstand, Rahmen und Außenabstand als Grundlage jedes Layouts."
 subject: "web-development"
 section: "css"
-topicPath: 
-  - "css-und-layout"
-  - "box-modell"
-learningGoals: 
-  - "Raum um Elemente verstehen ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Markiere an drei Elementen Content, Padding, Border und Margin."
-  - "Entwirf eine einfache Kartenkomponente mit nachvollziehbaren Abständen."
-commonMistakes: 
-  - "Margin und Padding werden beliebig vertauscht."
-  - "Breiten werden ohne box-sizing geprüft."
-  - "Abstände werden an zu vielen Stellen gleichzeitig gesetzt."
-keyTakeaways: 
-  - "Ein Layout wird ruhiger, wenn jeder Abstand einen klaren Ort und Zweck hat."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "Ein Layout wird ruhiger, wenn jeder Abstand einen klaren Ort und Zweck hat."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "box-modell-abstaende-und-groessen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags: 
-  - "css"
-  - "box-modell"
-  - "abstand"
-  - "layout"
-  - "web-development"
+tags: ["web-development", "css"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Box-Modell, Abstände und Größen](/schlaufuchs-platform/images/web-development/sanierung-v187/box-modell-abstaende-und-groessen.svg)
 
     Box-Modell, Abstände und Größen ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Kehrwert als Umkehrbeziehung lesen"
 description: "Musterlösung zu Kehrwert als Umkehrbeziehung lesen mit Trennkante und Gegenprobe."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "zahlenstrategien-v115"
-  - "brueche-und-anteile"
-  - "kehrwert-als-umkehrbeziehung-lesen-v115"
+topicPath: ["zahlenstrategien-v115", "brueche-und-anteile", "kehrwert-als-umkehrbeziehung-lesen-v115"]
 taskId: "mathematik-kehrwert-als-umkehrbeziehung-lesen-v115"
 relatedExercise: "mathematik/zahlenstrategien-v115/brueche-und-anteile/kehrwert-als-umkehrbeziehung-lesen-v115"
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "zahlenstrategien"
-  - "brüche und anteile"
-  - "lösung"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Kehrwert als Umkehrbeziehung lesen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

@@ -1,45 +1,19 @@
 ---
-title: Elektrotechnik – Register und Bitmasken im Überblick
-description: Erklärt Register, Bits und Masken als Grundlage für Mikrocontroller-Konfiguration.
-subject: elektrotechnik
-section: Mikrocontroller und ATmega
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "register-und-bitmasken"
-  - "ueberblick"
-learningGoals:
-  - "Den Themenbereich Register und Bitmasken im Überblick allgemein einordnen."
-  - "Grundbegriffe, Nutzen und typische Grenzen unterscheiden."
-  - "Einzelne Lernseiten als Vertiefung statt als Einstieg lesen."
-practiceIdeas:
-  - "Erstelle eine kurze Begriffskarte mit Zweck, typischem Beispiel und häufiger Verwechslung."
-  - "Ordne vorhandene Lernseiten danach, welchen Teil des Überblicks sie vertiefen."
-  - "Formuliere zu jedem Abschnitt eine eigene Kontrollfrage."
-commonMistakes:
-  - "Nachbarbits unbeabsichtigt zu verändern."
-  - "Lesen und Schreiben eines Hardwareflags wie normale Variablenlogik zu behandeln."
-keyTakeaways:
-  - "Register steuern Hardwarefunktionen."
-  - "Bitmasken schützen Nachbarbits."
-  - "Datenblatt, Bitposition und Operation müssen zusammen gelesen werden."
-recognizeSignals:
-  - "Ein Unterthema enthält viele einzelne Situationsseiten, aber es fehlt eine gemeinsame Einordnung."
-  - "Begriffe werden in Aufgaben verwendet, bevor Zweck und Zusammenhang klar sind."
-  - "Man muss entscheiden, welche Vertiefungsseite als nächstes sinnvoll ist."
-selfCheckPoints:
-  - "Kann ich das Thema in zwei bis drei Sätzen allgemein erklären?"
-  - "Kann ich Zweck, Vorgehen und typische Fehler getrennt benennen?"
-  - "Kann ich erklären, welche Vertiefungsseite zu welcher Frage passt?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "register"
-  - "bitmasken"
-  - "überblick"
+title: "Elektrotechnik – Register und Bitmasken im Überblick"
+description: "Erklärt Register, Bits und Masken als Grundlage für Mikrocontroller-Konfiguration."
+subject: "elektrotechnik"
+section: "Mikrocontroller und ATmega"
+topicPath: ["mikrocontroller-und-atmega", "register-und-bitmasken", "ueberblick", "grundlagen-register-und-bitmasken"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-
 ## Überblick
 
 Register sind kleine Speicherbereiche im Mikrocontroller, über die Hardwarefunktionen eingestellt oder gelesen werden. Bitmasken helfen, einzelne Bits gezielt zu setzen, zu löschen oder zu prüfen.

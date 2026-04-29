@@ -3,23 +3,12 @@ title: "Lösung – Lazy Loading nicht für kritische Inhalte nutzen"
 description: "Musterlösung zu Lazy Loading nicht für kritische Inhalte nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Betrieb und Sicherheit"
-topicPath:
-  - "frontend-betrieb"
-  - "build-performance-security"
-  - "v110-teil-2"
-  - "lazy-loading-nicht-fuer-kritische-inhalte-nutzen"
+topicPath: ["frontend-betrieb", "build-performance-security", "v110-teil-2", "lazy-loading-nicht-fuer-kritische-inhalte-nutzen"]
 taskId: "v110-web-development-lazy-loading-nicht-fuer-kritische-inhalte-nutzen"
 relatedExercise: "web-development/frontend-betrieb/build-performance-security/v110-teil-2/lazy-loading-nicht-fuer-kritische-inhalte-nutzen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "frontend-betrieb"
-  - "build-performance-security"
-  - "lazy-loading-nicht-fuer-kritische-inhalte-nutzen"
+tags: ["web-development", "Betrieb und Sicherheit", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Lazy Loading nicht für kritische Inhalte nutzen**.

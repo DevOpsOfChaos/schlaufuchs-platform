@@ -3,24 +3,12 @@ title: "Lösung: RC-Glied als Zeitverhalten: Aufgabe B"
 description: "Musterlösung zur Aufgabe etech-v191-020b im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "zeitverhalten"
-  - "rc-glied-als-zeitverhalten"
-  - "loesung-b"
+topicPath: ["sanierung-v191", "rc-glied-als-zeitverhalten-aufgabe-b"]
 taskId: "etech-v191-020b"
 relatedExercise: "elektrotechnik/sanierung-v191/rc-glied-als-zeitverhalten-aufgabe-b"
-tags:
-  - "zeitverhalten"
-  - "rc"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-020b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „RC-Glied als Zeitverhalten“ um einen Messfehler, einen Sicherheitscheck und eine kurze Plausibilitätsprüfung.

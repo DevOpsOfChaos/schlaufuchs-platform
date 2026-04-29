@@ -3,23 +3,12 @@ title: "Lösung: CSS Grid im Überblick: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-015a im Web-Development-Block v187."
 subject: "web-development"
 section: "css"
-topicPath: 
-  - "css-und-layout"
-  - "grid"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "css-grid-ueberblick-aufgabe-a"]
 taskId: "web-v187-015a"
 relatedExercise: "web-development/sanierung-v187/css-grid-ueberblick-aufgabe-a"
-tags: 
-  - "css"
-  - "grid"
-  - "layout"
-  - "raster"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "css", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-015a`
 
     Ausgangsauftrag: Entwirf ein zweispaltiges Themenraster mit Hauptbereich und Seitenbereich.

@@ -3,38 +3,17 @@ title: "Änderungsrate und Steigung"
 description: "Änderungsraten beschreiben, wie stark sich eine Größe verändert."
 subject: "mathematik"
 section: "analysis-vorbereitung"
-topicPath:
-  - "analysis-vorbereitung"
-  - "aenderungsrate-und-steigung"
-learningGoals:
-  - "Änderungsraten beschreiben, wie stark sich eine Größe verändert fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Änderungsraten beschreiben, wie stark sich eine Größe verändert wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v188", "aenderungsrate-und-steigung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "analysis"
-  - "steigung"
-  - "aenderungsrate"
-  - "mathematik"
-  - "v188"
+tags: ["mathematik", "analysis-vorbereitung"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Änderungsrate und Steigung](/schlaufuchs-platform/images/mathematik/sanierung-188/aenderungsrate-und-steigung.svg)
 
 ## Überblick

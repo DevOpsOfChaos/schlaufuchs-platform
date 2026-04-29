@@ -1,33 +1,19 @@
 ---
 title: "Testdoubles"
 description: "Testdoubles ersetzen echte Abhängigkeiten in Tests. Sie machen Verhalten isoliert prüfbar, müssen aber bewusst und realitätsnah eingesetzt werden."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "testdoubles"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Testdoubles."
-  - "Du kannst Testdoubles in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["testdoubles", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Tests nur gegen Mocks zu schreiben und Integration nie zu prüfen."
-keyTakeaways:
-  - "Testdoubles ersetzen echte Abhängigkeiten in Tests."
-  - "Wichtig sind vor allem mocks, stubs und fakes, isolation von schnittstellen und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Testdoubles, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Testdoubles dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "informatik"
-  - "grundlagen"
-  - "testdoubles"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Testdoubles
 
 Testdoubles ersetzen echte Abhängigkeiten in Tests. Sie machen Verhalten isoliert prüfbar, müssen aber bewusst und realitätsnah eingesetzt werden. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

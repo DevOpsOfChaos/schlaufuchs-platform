@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: systemd-Units verstehen"
 description: "Verstehe Unit-Dateien als Beschreibung von Startbedingungen, Abhängigkeiten und Verhalten."
-subject: linux
+subject: "linux"
 section: "system-und-dienste"
-topicPath:
-  - "system-und-dienste"
-  - "systemd-units-verstehen"
-learningGoals:
-  - "Du erklärst systemd-Units verstehen in eigenen Worten."
-  - "Du ordnest typische Befehle, Begriffe oder Prüfschritte richtig ein."
-  - "Du erkennst typische Grenzen und Fehlerquellen im Linux-Alltag."
-practiceIdeas:
-  - "Beschreibe eine kleine Alltagssituation zu diesem Thema."
-  - "Markiere, welche Information zuerst geprüft werden muss."
-commonMistakes:
-  - "Ein einzelnes Kommando für das ganze Thema zu halten."
-  - "Ausgabe, Zustand und Ursache zu vermischen."
-  - "Ohne Kontext direkt an Sonderfälle zu springen."
-keyTakeaways:
-  - "Unit-Dateien beschreiben, was systemd verwalten soll."
-  - "Abhängigkeiten legen Reihenfolge und Voraussetzungen fest."
-  - "Kleine Änderungen können Startverhalten deutlich verändern."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung statt nur eines Befehlsrezepts."
-  - "Mehrere ähnliche Befehle oder Dateien wirken unklar."
-selfCheckPoints:
-  - "Kann ich Zweck, Kontext und typischen Prüfschritt unterscheiden?"
-  - "Kann ich eine einfache Fehlannahme zum Thema benennen?"
-level: fortgeschritten
-tags:
-  - "linux"
-  - "systemd"
-  - "unit"
+topicPath: ["system-und-dienste", "systemd-units-verstehen", "ueberblick", "grundlagen-systemd-units-verstehen-v186"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
+tags: ["linux", "system-und-dienste"]
 draft: false
 ---
-
 ![systemd-Units verstehen](/schlaufuchs-platform/images/overviews/v186/systemd-units-verstehen.svg)
 
 ## Begriff

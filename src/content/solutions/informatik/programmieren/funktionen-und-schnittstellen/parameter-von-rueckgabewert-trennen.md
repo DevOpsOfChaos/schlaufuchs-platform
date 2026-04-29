@@ -3,21 +3,12 @@ title: "Lösung – Parameter von Rückgabewert trennen"
 description: "Musterlösung zu parameter von rückgabewert trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "programmieren"
-  - "funktionen-und-schnittstellen"
-  - "parameter-von-rueckgabewert-trennen"
+topicPath: ["programmieren", "funktionen-und-schnittstellen", "parameter-von-rueckgabewert-trennen"]
 taskId: "v112-informatik-parameter-von-rueckgabewert-trennen"
 relatedExercise: "informatik/programmieren/funktionen-und-schnittstellen/parameter-von-rueckgabewert-trennen"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "programmieren"
-  - "parameter-von-rueckgabewert-trennen"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Funktionen und Schnittstellen**.

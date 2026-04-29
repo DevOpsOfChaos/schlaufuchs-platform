@@ -3,22 +3,12 @@ title: "Lösung: Cache-Grund erkennen"
 description: "Musterlösung zur Aufgabe „Cache-Grund erkennen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "browser-daten-und-http"
-  - "cache-und-aktualitaet"
-  - "cache-grund-erkennen-v116"
+topicPath: ["browser-daten-und-http", "cache-und-aktualitaet", "cache-grund-erkennen-v116"]
 taskId: "cache-grund-erkennen-v116"
 relatedExercise: "web-development/browser-daten-und-http/cache-und-aktualitaet/cache-grund-erkennen-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "cache und aktualitaet"
-  - "cache grund erkennen"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

@@ -3,23 +3,12 @@ title: "Lösung – Pure Functions und Seiteneffekte trennen"
 description: "Musterlösung zu Pure Functions und Seiteneffekte trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Programmierung"
-topicPath:
-  - "programmierpraxis"
-  - "funktionen-tests-und-fehler"
-  - "v110-teil-1"
-  - "pure-functions-und-seiteneffekte-trennen"
+topicPath: ["programmierpraxis", "funktionen-tests-und-fehler", "v110-teil-1", "pure-functions-und-seiteneffekte-trennen"]
 taskId: "v110-informatik-pure-functions-und-seiteneffekte-trennen"
 relatedExercise: "informatik/programmierpraxis/funktionen-tests-und-fehler/v110-teil-1/pure-functions-und-seiteneffekte-trennen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "praxis"
-  - "programmierpraxis"
-  - "funktionen-tests-und-fehler"
-  - "pure-functions-und-seiteneffekte-trennen"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Pure Functions und Seiteneffekte trennen**.

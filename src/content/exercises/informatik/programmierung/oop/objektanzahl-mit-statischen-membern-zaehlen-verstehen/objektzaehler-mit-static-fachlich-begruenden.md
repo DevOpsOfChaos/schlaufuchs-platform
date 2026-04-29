@@ -1,32 +1,17 @@
 ---
-title: Objektzaehler mit static fachlich begruenden
-description: Erklaere, warum ein Objektzaehler statisch sein muss und wie er gepflegt wird.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - objektanzahl-mit-statischen-membern-zaehlen-verstehen
-  - objektzaehler-mit-static-fachlich-begruenden
-taskId: INF-PROG-OOP-014
-level: mittel
+title: "Objektzaehler mit static fachlich begruenden"
+description: "Erklaere, warum ein Objektzaehler statisch sein muss und wie er gepflegt wird."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "objektanzahl-mit-statischen-membern-zaehlen-verstehen", "objektzaehler-mit-static-fachlich-begruenden"]
+taskId: "INF-PROG-OOP-014"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - informatik
-  - aufgabe
-  - programmierung
-  - oop
-hintPoints:
-  - Lies zuerst ruhig, welche Klassenebene oder Objektrolle hier gemeint ist.
-  - Trenne Begriffe sauber, bevor du Beispiele deutest.
-selfCheckPoints:
-  - Habe ich die Schluesselbegriffe fachlich sauber getrennt?
-  - Habe ich meine Begruendung in ganzen Saetzen formuliert?
-transferIdeas:
-  - Uebertrage dieselbe Denklogik auf ein eigenes Klassenbeispiel.
-reflectionPrompt: "Welche Begriffsverwechslung waere hier am wahrscheinlichsten gewesen?"
 ---
-
 ## Aufgabe 1: Grundidee erklaeren
 
 Erklaere in 2-3 Saetzen die Kernidee von **Objektanzahl mit statischen Membern zaehlen**.

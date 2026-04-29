@@ -1,32 +1,17 @@
 ---
-title: Vorhandensein und Leere von Eingaben ruhig trennen
-description: Trenne bei PHP Eingaben die Frage nach dem Vorhandensein von der Frage nach der inhaltlichen Leere.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - isset-und-empty-in-php-unterscheiden
-  - vorhandensein-und-leere-von-eingaben-ruhig-trennen
-taskId: INF-PHP-FORMS-007
-level: mittel
+title: "Vorhandensein und Leere von Eingaben ruhig trennen"
+description: "Trenne bei PHP Eingaben die Frage nach dem Vorhandensein von der Frage nach der inhaltlichen Leere."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "isset-und-empty-in-php-unterscheiden", "vorhandensein-und-leere-von-eingaben-ruhig-trennen"]
+taskId: "INF-PHP-FORMS-007"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - informatik
-  - aufgabe
-  - php
-  - pruefung
-hintPoints:
-  - Frage zuerst, ob der Schluessel ueberhaupt existiert.
-  - Trenne danach Vorhandensein und inhaltliche Leere.
-selfCheckPoints:
-  - Habe ich isset und empty nicht als dasselbe behandelt?
-  - Habe ich erklaert, warum ein Feld vorhanden, aber trotzdem leer sein kann?
-transferIdeas:
-  - Uebertrage dieselbe Denkweise auf Login, Kontakt oder Suchfelder.
-reflectionPrompt: Welche kleine Vorfrage hat dir hier die meiste Klarheit gebracht?
 ---
-
 ## Aufgabe 1
 
 Erklaere in 2 bis 4 Saetzen den Unterschied zwischen der Frage nach einem vorhandenen Feld und der Frage nach einem leeren Inhalt.

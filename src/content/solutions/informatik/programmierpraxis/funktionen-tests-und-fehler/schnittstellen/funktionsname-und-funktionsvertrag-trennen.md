@@ -3,23 +3,12 @@ title: "Lösung – Funktionsname und Funktionsvertrag trennen"
 description: "Musterlösung zu Funktionsvertrag mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "programmierpraxis"
-  - "funktionen-tests-und-fehler"
-  - "schnittstellen"
-  - "funktionsname-und-funktionsvertrag-trennen"
+topicPath: ["programmierpraxis", "funktionen-tests-und-fehler", "schnittstellen", "funktionsname-und-funktionsvertrag-trennen"]
 taskId: "v111-informatik-funktionsname-und-funktionsvertrag-trennen"
 relatedExercise: "informatik/programmierpraxis/funktionen-tests-und-fehler/schnittstellen/funktionsname-und-funktionsvertrag-trennen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "unterthema"
-  - "programmierpraxis"
-  - "funktionen-tests-und-fehler"
-  - "funktionsname-und-funktionsvertrag-trennen"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Funktionsvertrag**.

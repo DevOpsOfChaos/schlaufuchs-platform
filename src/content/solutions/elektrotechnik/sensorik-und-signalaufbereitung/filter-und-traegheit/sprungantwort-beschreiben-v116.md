@@ -3,22 +3,12 @@ title: "Lösung: Sprungantwort beschreiben"
 description: "Musterlösung zur Aufgabe „Sprungantwort beschreiben“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "sensorik-und-signalaufbereitung"
-  - "filter-und-traegheit"
-  - "sprungantwort-beschreiben-v116"
+topicPath: ["sensorik-und-signalaufbereitung", "filter-und-traegheit", "sprungantwort-beschreiben-v116"]
 taskId: "sprungantwort-beschreiben-v116"
 relatedExercise: "elektrotechnik/sensorik-und-signalaufbereitung/filter-und-traegheit/sprungantwort-beschreiben-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "filter und traegheit"
-  - "sprungantwort beschreiben"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

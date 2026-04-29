@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Unabhängigkeit vorsichtig prüfen"
 description: "Musterlösung zu Unabhängigkeit vorsichtig prüfen mit Trennkante und Gegenprobe."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "daten-und-zufall-v115"
-  - "wahrscheinlichkeit-einordnen"
-  - "unabhaengigkeit-vorsichtig-pruefen-v115"
+topicPath: ["daten-und-zufall-v115", "wahrscheinlichkeit-einordnen", "unabhaengigkeit-vorsichtig-pruefen-v115"]
 taskId: "mathematik-unabhaengigkeit-vorsichtig-pruefen-v115"
 relatedExercise: "mathematik/daten-und-zufall-v115/wahrscheinlichkeit-einordnen/unabhaengigkeit-vorsichtig-pruefen-v115"
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "daten und zufall"
-  - "wahrscheinlichkeit einordnen"
-  - "lösung"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Unabhängigkeit vorsichtig prüfen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

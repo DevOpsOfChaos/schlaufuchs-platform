@@ -1,31 +1,17 @@
 ---
 title: "Versionsverwaltung"
 description: "Allgemeiner Überblick über Versionsverwaltung, Änderungen und Zusammenarbeit an Dateien."
-subject: informatik
+subject: "informatik"
 section: "Softwareentwicklung"
-topicPath:
-  - "versionsverwaltung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Versionsverwaltung grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["versionsverwaltung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Versionsverwaltung nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Versionsverwaltung beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Versionsverwaltung, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Versionsverwaltung in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "git"
-  - "versionsverwaltung"
-  - "software"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Softwareentwicklung"]
 draft: false
 ---
 # Versionsverwaltung

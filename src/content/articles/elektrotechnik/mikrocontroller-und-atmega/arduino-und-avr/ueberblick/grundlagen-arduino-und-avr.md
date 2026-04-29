@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Arduino und AVR"
 description: "Ruhiger Überblick über Arduino-Boards, AVR-Mikrocontroller, Pins, Programm und typische Einordnung."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "arduino-und-avr"
-  - "ueberblick"
-learningGoals:
-  - "Du ordnest das Thema ruhig in den elektrotechnischen Zusammenhang ein."
-  - "Du unterscheidest Grundbegriffe, typische Teilaspekte und Grenzen."
-  - "Du erkennst passende Detailseiten, Aufgaben und typische Fehlerquellen."
-practiceIdeas:
-  - "Lies zuerst die Überblicksseite und bearbeite danach eine passende Aufgabe."
-  - "Markiere die wichtigsten Begriffe und erkläre sie mit eigenen Worten."
-commonMistakes:
-  - "Direkt mit Einzelfällen zu starten, ohne den allgemeinen Rahmen zu klären."
-  - "Begriffe aus Schaltung, Code und Messung zu vermischen."
-keyTakeaways:
-  - "Eine gute Einordnung verbindet Begriff, Zweck, Zusammenhang und Abgrenzung."
-recognizeSignals:
-  - "Mehrere Detailseiten wirken ähnlich und brauchen einen gemeinsamen Rahmen."
-  - "Eine Aufgabe setzt Begriffe voraus, die vorher allgemein geklärt werden sollten."
-selfCheckPoints:
-  - "Kann ich das Thema in zwei bis drei Sätzen allgemein erklären?"
-  - "Kann ich typische Fehler oder Missverständnisse benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "arduino"
-  - "avr"
-  - "mikrocontroller"
-  - "elektrotechnik"
+topicPath: ["mikrocontroller-und-atmega", "arduino-und-avr", "ueberblick", "grundlagen-arduino-und-avr"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-
 ![Grundlagen: Arduino und AVR](/schlaufuchs-platform/images/overviews/v179/arduino-und-avr.svg)
 
 Arduino ist für viele Lernende der erste praktische Zugang zu Mikrocontrollern. Wichtig ist aber, Arduino nicht mit dem gesamten Mikrocontroller-Thema gleichzusetzen. Ein Arduino-Board ist eine Lern- und Entwicklungsumgebung, auf der häufig ein AVR-Mikrocontroller sitzt.

@@ -3,23 +3,12 @@ title: "Lösung – Request und Response im HTTP-Ablauf trennen"
 description: "Musterlösung zu HTTP Request und Response mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Netzwerke"
-topicPath:
-  - "netzwerke"
-  - "client-server-und-http"
-  - "request-response"
-  - "request-und-response-in-http-ablauf-trennen"
+topicPath: ["netzwerke", "client-server-und-http", "request-response", "request-und-response-in-http-ablauf-trennen"]
 taskId: "v109-informatik-request-und-response-in-http-ablauf-trennen"
 relatedExercise: "informatik/netzwerke/client-server-und-http/request-response/request-und-response-in-http-ablauf-trennen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "netzwerke"
-  - "client-server-und-http"
-  - "http request und response"
+tags: ["informatik", "Netzwerke", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **HTTP Request und Response**.

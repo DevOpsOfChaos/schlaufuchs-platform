@@ -3,23 +3,12 @@ title: "Lösung – Achsenabschnitt aus Text und Graph verbinden"
 description: "Musterlösung zu Achsenabschnitt in Kontexten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "funktionen"
-  - "lineare-funktionen"
-  - "achsenabschnitt"
-  - "achsenabschnitt-aus-text-und-graph-verbinden"
+topicPath: ["funktionen", "lineare-funktionen", "achsenabschnitt", "achsenabschnitt-aus-text-und-graph-verbinden"]
 taskId: "v109-mathematik-achsenabschnitt-aus-text-und-graph-verbinden"
 relatedExercise: "mathematik/funktionen/lineare-funktionen/achsenabschnitt/achsenabschnitt-aus-text-und-graph-verbinden"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfen"
-  - "funktionen"
-  - "lineare-funktionen"
-  - "achsenabschnitt in kontexten"
+tags: ["mathematik", "Funktionen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Achsenabschnitt in Kontexten**.

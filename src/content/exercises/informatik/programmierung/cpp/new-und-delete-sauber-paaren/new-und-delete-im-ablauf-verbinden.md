@@ -1,35 +1,17 @@
 ---
-title: new und delete im Ablauf verbinden
-description: Ordne in kleinen Beispielen Reservierung, Nutzung und Freigabe von dynamischem Speicher sauber zu.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - dynamischer-speicher
-  - new-und-delete-sauber-paaren
-  - new-und-delete-im-ablauf-verbinden
-taskId: INF-PROG-CPP-MEM-001
-level: mittel
+title: "new und delete im Ablauf verbinden"
+description: "Ordne in kleinen Beispielen Reservierung, Nutzung und Freigabe von dynamischem Speicher sauber zu."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "new-und-delete-sauber-paaren", "new-und-delete-im-ablauf-verbinden"]
+taskId: "INF-PROG-CPP-MEM-001"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - aufgabe
-hintPoints:
-  - "Suche zuerst die Stelle, an der Speicher neu entsteht."
-  - "Trenne Pointervariable und reservierten Speicher sauber."
-  - "Lies das Beispiel in den drei Phasen Reservieren, Nutzen, Beenden."
-selfCheckPoints:
-  - "Habe ich Reservieren, Nutzen und Freigeben als verschiedene Phasen beschrieben?"
-  - "Habe ich erklärt, warum delete zu new gehört?"
-  - "Habe ich lokale Variable und dynamischen Bereich nicht vermischt?"
-transferIdeas:
-  - "Übertrage das Leseraster auf andere Beispiele mit dynamischem Speicher."
-reflectionPrompt: "An welcher Stelle wärst du früher versucht gewesen, nur den Pointer statt den reservierten Speicher mitzudenken?"
 ---
-
 ## Aufgabe 1: Grundmuster markieren
 
 Gegeben ist:

@@ -3,44 +3,17 @@ title: "Mathematik – Diagrammachse kritisch prüfen"
 description: "Lerne diagrammachse kritisch prüfen als kleines Unterthema mit Beispiel, Abgrenzung und Prüfstrategie."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "daten-und-zufall"
-  - "diagramme-und-kennwerte"
-  - "diagrammachse-kritisch-pruefen"
-learningGoals:
-  - "Du erklärst diagrammachse kritisch prüfen in einem klaren Kontext."
-  - "Du grenzt das Unterthema von einem typischen Nachbarthema ab."
-  - "Du nutzt eine konkrete Gegenprobe statt nur eine Merkliste."
-practiceIdeas:
-  - "Formuliere ein eigenes Mini-Beispiel mit einer typischen Verwechslung."
-  - "Schreibe einen Prüfschritt auf, der das Ergebnis kontrolliert."
-  - "Ordne das Thema bewusst in den kleinen Unterpfad ein."
-commonMistakes:
-  - "Die Balkenhöhe wird ohne Achsenprüfung verglichen."
-  - "Das Thema wird in einem breiten Sammelkapitel versteckt."
-  - "Die Lösung nennt ein Ergebnis, aber keinen prüfbaren Weg."
-keyTakeaways:
-  - "Achsenwahl beeinflusst die visuelle Wirkung einer Veränderung."
-  - "Kleine Unterthemen machen Wiederholung und Suche einfacher."
-  - "Aufgabe und Lösung sollen dieselbe Trennkante verwenden."
-recognizeSignals:
-  - "Eine Aufgabe enthält einen Begriff, der leicht mit einem Nachbarthema verwechselt wird."
-  - "Ein Beispiel braucht vor der Rechnung oder Umsetzung eine Einordnung."
-  - "Eine Gegenprobe kann den gewählten Weg bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich den typischen Fehler fachlich ausschließen?"
-  - "Passt meine Lösung genau zum Unterpfad?"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-zufall"
-  - "diagrammachse-kritisch-pruefen"
+topicPath: ["daten-und-zufall", "diagramme-und-kennwerte", "diagrammachse-kritisch-pruefen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["mathematik", "Feinstruktur Mathematik"]
 draft: false
 ---
-
 ## Grundidee
 
 **Diagrammachse kritisch prüfen** ist bewusst als kleines Unterthema angelegt. Lerne diagrammachse kritisch prüfen als kleines Unterthema mit Beispiel, Abgrenzung und Prüfstrategie. Dadurch bleibt die Seite auffindbar und landet nicht in einem übergroßen Sammelbereich.

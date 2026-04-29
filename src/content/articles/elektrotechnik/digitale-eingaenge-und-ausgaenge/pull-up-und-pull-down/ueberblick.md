@@ -1,37 +1,19 @@
 ---
 title: "Pull-up und Pull-down"
 description: "Allgemeiner Überblick über Pull-up- und Pull-down-Widerstände und ihre Bedeutung für stabile digitale Eingänge."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "digitale-eingaenge-und-ausgaenge"
-  - "pull-up-und-pull-down"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst den Zweck von Pull-up- und Pull-down-Widerständen."
-  - "Du kannst schwebende Eingänge erklären."
-  - "Du verstehst die Grundidee eines definierten Ruhezustands."
+topicPath: ["digitale-eingaenge-und-ausgaenge", "pull-up-und-pull-down", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Einen offenen Eingang als automatisch Low zu betrachten."
-  - "Pull-up und Pull-down nur als Softwareeinstellung zu verstehen."
-keyTakeaways:
-  - "Pull-up und Pull-down legen einen definierten Pegel fest, wenn kein aktives Signal anliegt."
-  - "Sie verhindern schwebende Eingänge und zufällige Zustandswechsel."
-recognizeSignals:
-  - "Es geht um offene Schalter, Taster, undefinierte Pegel oder zufällige Eingangswerte."
-selfCheckPoints:
-  - "Kann ich erklären, welcher Pegel bei geöffnetem Taster anliegt?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "pull-up"
-  - "pull-down"
-  - "digitale eingänge"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
-
 # Pull-up und Pull-down
 
 ![Schaubild zu Pull-up und Pull-down als definierte Eingangsbeschaltung.](/schlaufuchs-platform/images/overviews/v148/pull-up-und-pull-down.svg)

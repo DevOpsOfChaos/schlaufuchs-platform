@@ -1,35 +1,17 @@
 ---
 title: "Begrenztes Wachstum"
 description: "Überblick über logistische Funktionen als Modell für begrenztes Wachstum."
-subject: mathematik
+subject: "mathematik"
 section: "Modellieren"
-topicPath:
-  - "begrenztes-wachstum"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Begrenztes Wachstum als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["begrenztes-wachstum", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird jeder abflachende Verlauf als logistisch bezeichnet, ohne die zugrunde liegende Sättigungsannahme zu prüfen."
-keyTakeaways:
-  - "Die logistische Funktion beschreibt Wachstum, das anfangs schnell ist, sich aber einer oberen Grenze annähert."
-  - "Sie erweitert einfaches exponentielles Wachstum um Sättigungseffekte."
-  - "Ein logistisches Modell passt nicht automatisch zu jeder S-Kurve. Die Annahmen über Grenze und Wachstumsmechanismus müssen plausibel sein."
-recognizeSignals:
-  - "Es geht um Begrenztes Wachstum, wenn zu Beginn kann der Verlauf annähernd exponentiell wirken."
-  - "Das Thema wird relevant, wenn Beispiele wie bevölkerungswachstum in begrenztem Raum kann näherungsweise logistisch modelliert werden."
-selfCheckPoints:
-  - "Kann ich Begrenztes Wachstum in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "funktionen"
-  - "modellieren"
-  - "wachstum"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Modellieren"]
 draft: false
 ---
 # Begrenztes Wachstum

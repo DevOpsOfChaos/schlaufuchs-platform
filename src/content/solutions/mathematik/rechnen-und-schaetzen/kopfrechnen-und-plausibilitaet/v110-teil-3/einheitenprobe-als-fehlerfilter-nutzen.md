@@ -3,23 +3,12 @@ title: "Lösung – Einheitenprobe als Fehlerfilter nutzen"
 description: "Musterlösung zu Einheitenprobe als Fehlerfilter nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Grundlagen"
-topicPath:
-  - "rechnen-und-schaetzen"
-  - "kopfrechnen-und-plausibilitaet"
-  - "v110-teil-3"
-  - "einheitenprobe-als-fehlerfilter-nutzen"
+topicPath: ["rechnen-und-schaetzen", "kopfrechnen-und-plausibilitaet", "v110-teil-3", "einheitenprobe-als-fehlerfilter-nutzen"]
 taskId: "v110-mathematik-einheitenprobe-als-fehlerfilter-nutzen"
 relatedExercise: "mathematik/rechnen-und-schaetzen/kopfrechnen-und-plausibilitaet/v110-teil-3/einheitenprobe-als-fehlerfilter-nutzen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfung"
-  - "rechnen-und-schaetzen"
-  - "kopfrechnen-und-plausibilitaet"
-  - "einheitenprobe-als-fehlerfilter-nutzen"
+tags: ["mathematik", "Grundlagen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Einheitenprobe als Fehlerfilter nutzen**.

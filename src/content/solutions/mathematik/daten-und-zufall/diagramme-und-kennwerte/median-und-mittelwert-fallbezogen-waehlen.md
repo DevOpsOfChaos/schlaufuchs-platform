@@ -3,21 +3,12 @@ title: "Lösung – Median und Mittelwert fallbezogen wählen"
 description: "Musterlösung zu median und mittelwert fallbezogen wählen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "daten-und-zufall"
-  - "diagramme-und-kennwerte"
-  - "median-und-mittelwert-fallbezogen-waehlen"
+topicPath: ["daten-und-zufall", "diagramme-und-kennwerte", "median-und-mittelwert-fallbezogen-waehlen"]
 taskId: "v112-mathematik-median-und-mittelwert-fallbezogen-waehlen"
 relatedExercise: "mathematik/daten-und-zufall/diagramme-und-kennwerte/median-und-mittelwert-fallbezogen-waehlen"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-zufall"
-  - "median-und-mittelwert-fallbezogen-waehlen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Diagramme und Kennwerte**.

@@ -1,47 +1,19 @@
 ---
-title: Prepared Statements in PHP verstehen
-description: Verstehe, warum vorbereitete SQL-Anfragen Eingaben sauber von der Abfrage trennen und dadurch robuster und sicherer werden.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - prepared-statements-in-php-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von Prepared Statements.
-  - Du beschreibst, warum SQL und Eingabewerte getrennt werden.
-  - Du erkennst, warum das bei Anwenderdaten sicherer ist als rohe String-Zusammensetzung.
-practiceIdeas:
-  - Vergleiche eine zusammengesetzte SQL-Zeile mit einer vorbereiteten Anfrage mit Platzhaltern.
-  - Erkläre, an welcher Stelle Benutzereingaben in den Ablauf eingebunden werden.
-  - Prüfe, warum Prepared Statements vor allem bei Formular- und Login-Daten sinnvoll sind.
-commonMistakes:
-  - Zu glauben, Prepared Statements seien nur eine andere Schreibweise ohne fachlichen Mehrwert.
-  - SQL-Text und Anwenderwerte weiter in einem String zu vermischen.
-  - Platzhalter und spätere Parameterbindung nicht getrennt zu lesen.
-keyTakeaways:
-  - Prepared Statements trennen Anfrage und Werte.
-  - Platzhalter werden später typisiert mit echten Werten belegt.
-  - Das reduziert Fehler und schützt besser vor SQL-Injection.
-recognizeSignals:
-  - Ein Beispiel nutzt prepare, bind_param oder execute.
-  - Es geht um Formulardaten, Login, Suche oder andere Anwenderwerte in SQL.
-  - Du sollst erklären, warum Platzhalter fachlich sinnvoll sind.
-selfCheckPoints:
-  - Kann ich die Grundidee der Trennung von SQL und Eingaben erklären?
-  - Kann ich sagen, was ein Platzhalter im Statement bedeutet?
-  - Kann ich den Sicherheitsnutzen grob beschreiben?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - php
-  - mysqli
-  - prepared-statements
-  - sql
+title: "Prepared Statements in PHP verstehen"
+description: "Verstehe, warum vorbereitete SQL-Anfragen Eingaben sauber von der Abfrage trennen und dadurch robuster und sicherer werden."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "prepared-statements-in-php-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei Prepared Statements wird die SQL-Anfrage nicht als fertig zusammengesetzter Text mit Benutzereingaben an den Server geschickt. Stattdessen wird zuerst ein Statement mit Platzhaltern vorbereitet, und die konkreten Werte werden später getrennt eingebunden.

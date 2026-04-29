@@ -3,38 +3,17 @@ title: "Events und Zustand"
 description: "Unterscheide Auslöser, Reaktion und gespeicherten Zustand bei interaktiven Oberflächen."
 subject: "web-development"
 section: "javascript"
-topicPath: 
-  - "javascript-und-interaktion"
-  - "events-und-zustand"
-learningGoals: 
-  - "Interaktionen kontrollieren ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Modelliere die Zustände eines Tabsystems und notiere die auslösenden Events."
-  - "Analysiere ein fehlerhaftes Toggle-Verhalten und finde den fehlenden Initialzustand."
-commonMistakes: 
-  - "Klickereignis und Zustand werden verwechselt."
-  - "Mehrere Handler verändern denselben Zustand ungeordnet."
-  - "Initialzustand wird nicht festgelegt."
-keyTakeaways: 
-  - "Eine Interaktion wird stabil, wenn du jeden Zustand und jeden Übergang benennen kannst."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "Eine Interaktion wird stabil, wenn du jeden Zustand und jeden Übergang benennen kannst."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "events-und-zustand"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags: 
-  - "events"
-  - "zustand"
-  - "javascript"
-  - "web-development"
+tags: ["web-development", "javascript"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Events und Zustand](/schlaufuchs-platform/images/web-development/sanierung-v187/events-und-zustand.svg)
 
     Events und Zustand ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

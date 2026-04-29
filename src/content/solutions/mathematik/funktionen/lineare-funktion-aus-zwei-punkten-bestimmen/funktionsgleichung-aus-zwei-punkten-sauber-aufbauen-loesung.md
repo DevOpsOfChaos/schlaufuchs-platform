@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Funktionsgleichung aus zwei Punkten sauber aufbauen
-description: Musterlösung zur Aufgabe MATH-FUNKTIONEN-ZWEIPUNKTE-001.
-subject: mathematik
-section: Funktionen
-topicPath:
-  - funktionen
-  - lineare-funktion-aus-zwei-punkten-bestimmen
-  - funktionsgleichung-aus-zwei-punkten-sauber-aufbauen-loesung
-taskId: MATH-FUNKTIONEN-ZWEIPUNKTE-001
-relatedExercise: src/content/exercises/mathematik/funktionen/lineare-funktion-aus-zwei-punkten-bestimmen/funktionsgleichung-aus-zwei-punkten-sauber-aufbauen.md
-tags:
-  - mathematik
-  - funktionen
-  - zwei-punkte
-  - loesung
-  - task-id
+title: "Musterlösung – Funktionsgleichung aus zwei Punkten sauber aufbauen"
+description: "Musterlösung zur Aufgabe MATH-FUNKTIONEN-ZWEIPUNKTE-001."
+subject: "mathematik"
+section: "Funktionen"
+topicPath: ["funktionen", "lineare-funktion-aus-zwei-punkten-bestimmen", "funktionsgleichung-aus-zwei-punkten-sauber-aufbauen"]
+taskId: "MATH-FUNKTIONEN-ZWEIPUNKTE-001"
+relatedExercise: "src/content/exercises/mathematik/funktionen/lineare-funktion-aus-zwei-punkten-bestimmen/funktionsgleichung-aus-zwei-punkten-sauber-aufbauen.md"
+tags: ["mathematik", "Funktionen", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Zwei Punkte auswerten
 
 Gegeben sind `A(2|5)` und `B(5|11)`.

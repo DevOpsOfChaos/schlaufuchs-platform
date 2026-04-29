@@ -3,45 +3,17 @@ title: "Linux – Prozesse mit ps, top und kill ruhig einordnen"
 description: "Lerne, laufende Programme als Prozesse zu lesen und Eingriffe mit kill nicht reflexhaft, sondern kontrolliert zu wählen."
 subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell"
-  - "prozess-und-dienste"
-  - "prozesse-mit-ps-top-und-kill-ruhig-einordnen"
-learningGoals:
-  - "Du erklärst die Kernidee von „Prozesse“ in eigenen Worten."
-  - "Du ordnest das Thema einem klaren Unterthema zu statt es in einem Sammelbereich zu verlieren."
-  - "Du leitest eine kleine Gegenprobe für echte Aufgaben oder Projekte ab."
-practiceIdeas:
-  - "Markiere zuerst, welche Unterfrage wirklich gestellt ist."
-  - "Notiere eine typische Fehlannahme und eine passende Gegenprobe."
-  - "Übertrage die Denkbewegung auf ein zweites kleines Beispiel."
-commonMistakes:
-  - "blind kill -9 nutzen"
-  - "ähnliche Prozesse verwechseln"
-  - "Ressourcenverbrauch ohne Kontext bewerten"
-keyTakeaways:
-  - "Prozesse wird klarer, wenn Zustand, Ursache und Prüfschritt getrennt werden."
-  - "Kleine Unterthemen sind leichter auffindbar und besser prüfbar als breite Sammelordner."
-  - "Eine gute Erklärung endet mit einer konkreten Gegenprobe."
-recognizeSignals:
-  - "Die Aufgabe enthält einen scheinbar kleinen Sonderfall oder Fehlerzustand."
-  - "Es muss zwischen Begriffen unterschieden werden, die im Alltag leicht vermischt werden."
-  - "Eine Entscheidung soll begründet und nicht nur auswendig angewendet werden."
-selfCheckPoints:
-  - "Kann ich das Unterthema mit einem Satz von Nachbarthemen abgrenzen?"
-  - "Kann ich einen typischen Fehler benennen?"
-  - "Kann ich eine konkrete Prüfung oder Rechnung anschließen?"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "praxis"
-  - "prozesse"
-  - "prozess-und-dienste"
+topicPath: ["shell", "prozess-und-dienste", "prozesse-mit-ps-top-und-kill-ruhig-einordnen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Prozess ist ein laufendes Programm mit Zustand, Nutzer, Kennung und Ressourcenverbrauch. Werkzeuge wie ps und top zeigen Beobachtungen, kill ist erst danach ein Eingriff.

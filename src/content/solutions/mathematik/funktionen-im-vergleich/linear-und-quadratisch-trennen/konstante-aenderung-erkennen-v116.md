@@ -3,22 +3,12 @@ title: "Lösung: Konstante Änderung erkennen"
 description: "Musterlösung zur Aufgabe „Konstante Änderung erkennen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "funktionen-im-vergleich"
-  - "linear-und-quadratisch-trennen"
-  - "konstante-aenderung-erkennen-v116"
+topicPath: ["funktionen-im-vergleich", "linear-und-quadratisch-trennen", "konstante-aenderung-erkennen-v116"]
 taskId: "konstante-aenderung-erkennen-v116"
 relatedExercise: "mathematik/funktionen-im-vergleich/linear-und-quadratisch-trennen/konstante-aenderung-erkennen-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "linear und quadratisch trennen"
-  - "konstante aenderung erkennen"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

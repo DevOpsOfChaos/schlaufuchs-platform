@@ -3,37 +3,15 @@ title: "Daten und Signale im Überblick: Aufgabe A"
 description: "Ordne Beispiele aus Alltag und Technik nach Daten, Signal und Information."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "grundlagen-und-begriffe"
-  - "daten-und-signale-im-ueberblick"
-  - "aufgabe-a"
-
+topicPath: ["sanierung-v195", "daten-und-signale-im-ueberblick-aufgabe-a"]
 taskId: "daten-und-signale-v195-001a"
-tags:
-  - "daten"
-  - "signale"
-  - "ueberblick"
-  - "daten-und-signale"
-  - "aufgabe"
-  - "v195"
-
-hintPoints:
-  - "Beschreibe zuerst Quelle, Einheit und Ziel der Auswertung."
-  - "Trenne Beobachtung, mögliche Ursache und sichere Aussage."
-  - "Lege einen kleinen Kontrollpunkt fest."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Daten und Signale im Überblick."
-  - "Die Aussage bleibt auf die vorhandenen Daten begrenzt."
-  - "Mindestens ein Risiko oder eine Unsicherheit wird benannt."
-transferIdeas:
-  - "Übertrage den Prüfweg auf ein anderes Messsignal."
-  - "Notiere, welche Metadaten für eine spätere Auswertung fehlen könnten."
-reflectionPrompt: "Welche Annahme wäre in deiner Lösung am leichtesten zu übersehen?"
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Ordne Beispiele aus Alltag und Technik nach Daten, Signal und Information.

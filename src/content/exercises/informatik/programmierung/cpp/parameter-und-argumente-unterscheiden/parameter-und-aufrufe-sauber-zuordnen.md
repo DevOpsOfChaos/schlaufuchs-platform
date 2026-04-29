@@ -1,33 +1,17 @@
 ---
-title: Parameter und Aufrufe sauber zuordnen
-description: Unterscheide bei kleinen Beispielen zwischen Platzhaltern in der Funktion und konkreten Werten im Aufruf.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - funktionen-und-ablauf
-  - parameter-und-argumente-unterscheiden
-  - parameter-und-aufrufe-sauber-zuordnen
-taskId: INF-PROG-CPP-FUNC-002
-level: einfach
+title: "Parameter und Aufrufe sauber zuordnen"
+description: "Unterscheide bei kleinen Beispielen zwischen Platzhaltern in der Funktion und konkreten Werten im Aufruf."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "parameter-und-argumente-unterscheiden", "parameter-und-aufrufe-sauber-zuordnen"]
+taskId: "INF-PROG-CPP-FUNC-002"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - parameter
-hintPoints:
-  - "Lies zuerst die Definition, dann den Aufruf."
-  - "Frage bei jedem Wert: Ist das ein Platzhalter oder eine konkrete Eingabe?"
-selfCheckPoints:
-  - "Sind Parameter und Argumente nicht verwechselt?"
-  - "Wird der konkrete Aufruf nachvollziehbar erklärt?"
-transferIdeas:
-  - "Übertrage die Unterscheidung auf mehrere Parameter oder Textwerte."
-reflectionPrompt: "Warum ist die Unterscheidung fachlich hilfreicher als nur die Klammern zu sehen?"
 ---
-
 ## Aufgabe 1: Begriffe zuordnen
 
 Gegeben ist:

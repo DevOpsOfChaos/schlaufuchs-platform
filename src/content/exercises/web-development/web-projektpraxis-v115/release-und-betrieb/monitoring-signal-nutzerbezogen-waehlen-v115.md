@@ -1,36 +1,17 @@
 ---
 title: "Aufgabe: Monitoring-Signal nutzerbezogen wählen"
 description: "Trainiere Monitoring-Signal nutzerbezogen wählen an einem kleinen, klar abgegrenzten Fall."
-subject: web-development
+subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "web-projektpraxis-v115"
-  - "release-und-betrieb"
-  - "monitoring-signal-nutzerbezogen-waehlen-v115"
+topicPath: ["web-projektpraxis-v115", "release-und-betrieb", "monitoring-signal-nutzerbezogen-waehlen-v115"]
 taskId: "web-development-monitoring-signal-nutzerbezogen-waehlen-v115"
-tags:
-  - "web development"
-  - "feinstruktur"
-  - "unterthema"
-  - "web-projektpraxis"
-  - "release und betrieb"
-  - "aufgabe"
-hintPoints:
-  - "Grenze zuerst den kleinen Fall vom breiten Themenfeld ab."
-  - "Nutze die Prüffrage: Welches Signal zeigt echte Nutzerprobleme?"
-  - "Begründe mit zwei konkreten Hinweisen aus dem Fall."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-transferIdeas:
-  - "Übertrage dieselbe Trennkante auf ein eigenes Mini-Beispiel."
-  - "Formuliere einen Gegenfall, der ähnlich aussieht, aber anders entschieden wird."
-reflectionPrompt: "Was war bei „Monitoring-Signal nutzerbezogen wählen“ die wichtigste Trennkante?"
-level: mittel
+tags: ["web-development", "Feinstruktur Web Development", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den folgenden Fall zu **Monitoring-Signal nutzerbezogen wählen**.

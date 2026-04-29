@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Graphen und Beziehungen – anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über graphen und beziehungen."
-subject: informatik
+subject: "informatik"
 section: "Datenstrukturen im Einsatz"
-topicPath:
-  - "datenstrukturen-im-einsatz"
-  - "graphen-und-beziehungen"
-  - "loesung"
-taskId: INF-V185-014-2
-relatedExercise: src/content/exercises/informatik/datenstrukturen-im-einsatz/graphen-und-beziehungen/graphen-und-beziehungen-anwenden-und-pruefen-v185.md
-tags:
-  - "informatik"
-  - "datenstrukturen-im-einsatz"
-  - "graphen-und-beziehungen"
-  - "loesung"
+topicPath: ["datenstrukturen-im-einsatz", "graphen-und-beziehungen", "graphen-und-beziehungen-anwenden-und-pruefen-v185"]
+taskId: "INF-V185-014-2"
+relatedExercise: "src/content/exercises/informatik/datenstrukturen-im-einsatz/graphen-und-beziehungen/graphen-und-beziehungen-anwenden-und-pruefen-v185.md"
+tags: ["informatik", "Datenstrukturen im Einsatz", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

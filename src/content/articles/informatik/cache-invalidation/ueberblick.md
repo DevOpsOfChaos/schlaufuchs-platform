@@ -1,34 +1,19 @@
 ---
 title: "Cache-Invalidierung"
 description: "Überblick über die schwierige Frage, wann zwischengespeicherte Daten als veraltet gelten und erneuert werden müssen."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "cache-invalidation"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["cache-invalidation", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Einen Cache einzubauen, ohne eine klare Strategie für veraltete Daten zu haben."
-keyTakeaways:
-  - "Caches brauchen Regeln, wann gespeicherte Kopien erneuert oder verworfen werden."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Nutzer alte Daten sehen, obwohl Ursprungssysteme bereits geändert wurden."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "cache"
-  - "daten"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Cache-Invalidierung
 
 Cache-Invalidierung beschreibt Strategien, um veraltete Cache-Inhalte zu erkennen oder zu entfernen. Sie ist oft schwieriger als das Speichern selbst, weil Systeme entscheiden müssen, wann eine Kopie nicht mehr gültig ist.

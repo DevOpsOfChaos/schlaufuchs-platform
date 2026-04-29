@@ -1,33 +1,19 @@
 ---
 title: "Logikpegel und Kompatibilität"
 description: "Überblick über digitale Logikpegel und die Frage, wann Baugruppen elektrisch zusammenpassen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Digitale Signale"
-topicPath:
-  - logikpegel-und-kompatibilitaet
-  - ueberblick
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen und von verwandten Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte und typische Anwendungsfälle."
-  - "Du erkennst häufige Missverständnisse und prüfst Aussagen auf Plausibilität."
+topicPath: ["logikpegel-und-kompatibilitaet", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Irrtum ist, dass ein funktionierender Test auf dem Steckbrett automatisch sichere Kompatibilität beweist."
-keyTakeaways:
-  - "Digitale Signale werden oft als 0 und 1 beschrieben."
-  - "Die genaue Bedeutung hängt vom Zusammenhang, den Einheiten und den Randbedingungen ab."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Begriffe, Beispiele oder Fehlerbilder aus diesem Bereich erklärt und eingeordnet werden sollen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten erklären, ohne sofort eine Spezialaufgabe zu rechnen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "logikpegel"
-  - "kompatibilität"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Digitale Signale"]
 draft: false
 ---
-
 # Logikpegel und Kompatibilität
 
 ## Begriff und Zweck

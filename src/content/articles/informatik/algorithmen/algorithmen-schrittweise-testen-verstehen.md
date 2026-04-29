@@ -1,45 +1,19 @@
 ---
-title: Algorithmen schrittweise testen verstehen
-description: Verstehe, wie man einen Ablauf mit Beispielwerten ruhig durchgeht, um Logikfehler und Entscheidungsstellen sichtbar zu machen.
-subject: informatik
-section: Algorithmen
-topicPath:
-  - algorithmen
-  - probleme-in-teilprobleme-zerlegen
-  - algorithmen-schrittweise-testen-verstehen
-learningGoals:
-  - Du erklärst, warum Testläufe mit Beispielwerten beim Prüfen von Algorithmen helfen.
-  - Du beschreibst einen Ablauf Schritt für Schritt statt nur als grobe Idee.
-  - Du erkennst eher, an welcher Stelle ein Entscheidungs- oder Reihenfolgefehler entsteht.
-practiceIdeas:
-  - Gehe einen kleinen Such- oder Prüfablauf mit festen Beispielwerten durch.
-  - Notiere Zwischenzustände statt nur Start und Ende.
-  - Prüfe besonders Verzweigungen und Wiederholungen mit ruhigen Testfällen.
-commonMistakes:
-  - nur Start und Ergebnis anzuschauen.
-  - Zwischenwerte nicht mitzuschreiben.
-  - einen Ablauf „im Gefühl“ statt nachvollziehbar zu testen.
-keyTakeaways:
-  - Ein Testlauf macht versteckte Ablaufentscheidungen sichtbar.
-  - Zwischenzustände helfen, Fehlerstellen genauer zu finden.
-  - Gutes Testen beginnt oft schon vor dem eigentlichen Programmcode.
-recognizeSignals:
-  - Es geht um Algorithmen, Ablaufpläne, Verzweigungen oder Schleifen.
-  - Du sollst erklären, was ein Programm oder Ablauf mit konkreten Eingaben tut.
-  - In Beispielen ist die Reihenfolge der Zustände wichtiger als die reine Idee des Verfahrens.
-selfCheckPoints:
-  - Kann ich einen Ablauf mit Testwerten sauber durchgehen?
-  - Kann ich Zwischenzustände notieren?
-  - Kann ich erklären, an welcher Stelle ein Fehler sichtbar wird?
-tags:
-  - informatik
-  - algorithmus
-  - testlauf
-  - dry-run
-level: einfach
+title: "Algorithmen schrittweise testen verstehen"
+description: "Verstehe, wie man einen Ablauf mit Beispielwerten ruhig durchgeht, um Logikfehler und Entscheidungsstellen sichtbar zu machen."
+subject: "informatik"
+section: "Algorithmen"
+topicPath: ["algorithmen", "algorithmen-schrittweise-testen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Algorithmen"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Algorithmus kann auf dem Papier logisch klingen und trotzdem an einer kleinen Stelle falsch abbiegen. Darum hilft es, einen Ablauf mit **konkreten Beispielwerten** durchzugehen.

@@ -1,46 +1,19 @@
 ---
-title: Takt, Spannung und Reset als Startbedingungen verstehen
-description: Verstehe, warum ein Mikrocontrollerprogramm nicht nur vom Code abhängt, sondern auch von sauberer Versorgung, passender Taktbasis und einem definierten Reset-Start.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - takt-spannung-und-reset-als-startbedingungen-verstehen
-learningGoals:
-  - Du beschreibst Takt, Versorgung und Reset als Startbedingungen statt als Nebensache.
-  - Du erklärst, warum ein Controller ohne diese Rahmenbedingungen trotz richtiger Software nicht sauber startet.
-  - Du liest Startprobleme eher systemisch als nur als Programmlogikfehler.
-practiceIdeas:
-  - Vergleiche ein Programm, das logisch richtig ist, aber ohne stabile Versorgung oder passenden Takt nicht wie erwartet läuft.
-  - Ordne Reset nicht nur als Notfall, sondern als definierten Startpunkt ein.
-  - Beschreibe die Rolle von F_CPU, Betriebsspannung und Resetzustand jeweils getrennt.
-commonMistakes:
-  - Nur auf den Quellcode zu schauen und Versorgung oder Takt auszublenden.
-  - Reset nur als Fehlerfall statt als definierte Startbedingung zu lesen.
-  - Takt, reale Zeit und Softwareannahmen durcheinanderzubringen.
-keyTakeaways:
-  - Ein Controller startet nicht nur wegen Code, sondern wegen sauberer Rahmenbedingungen.
-  - Versorgung, Takt und Reset sind Grundvoraussetzungen für ruhiges Laufverhalten.
-  - Startprobleme sind oft Systemprobleme und nicht sofort Softwareprobleme.
-recognizeSignals:
-  - Es geht um Inbetriebnahme, merkwürdige Laufzeiten, Startfehler oder instabile Reaktion.
-  - Du sollst erklären, warum gleiche Software auf zwei Aufbauten unterschiedlich wirkt.
-  - In Aufgaben sind Grundbedingungen wichtiger als Detailoptimierung des Codes.
-selfCheckPoints:
-  - Kann ich Takt, Spannung und Reset jeweils als eigene Systemrolle beschreiben?
-  - Kann ich erklären, warum F_CPU-Annahme und reale Taktquelle zusammenpassen müssen?
-  - Kann ich Startprobleme systemisch lesen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - takt
-  - reset
-  - versorgung
-level: einfach
+title: "Takt, Spannung und Reset als Startbedingungen verstehen"
+description: "Verstehe, warum ein Mikrocontrollerprogramm nicht nur vom Code abhängt, sondern auch von sauberer Versorgung, passender Taktbasis und einem definierten Reset-Start."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "takt-spannung-und-reset-als-startbedingungen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "mikrocontroller"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Mikrocontroller läuft nicht "einfach so", nur weil das Programm richtig aussieht. Er braucht **stabile Versorgung**, eine **passende Taktbasis** und einen **definierten Reset-Start**. Erst dann wird aus Quellcode auch wirklich ein ruhiger technischer Ablauf.

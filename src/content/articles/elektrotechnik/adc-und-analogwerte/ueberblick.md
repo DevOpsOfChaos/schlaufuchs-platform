@@ -1,35 +1,19 @@
 ---
 title: "ADC und Analogwerte"
 description: "Allgemeiner Überblick über Analog-Digital-Wandler, Messwerte und die Interpretation analoger Signale im Mikrocontroller."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "adc-und-analogwerte"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst den ADC als Übersetzer analoger Spannungen in digitale Werte."
-  - "Du kannst Auflösung, Referenzspannung und Messbereich einordnen."
-  - "Du verstehst typische Grenzen analoger Messungen."
+topicPath: ["adc-und-analogwerte", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "ADC-Werte als absolut perfekte Messwerte zu betrachten."
-  - "Referenzspannung und Auflösung bei der Umrechnung zu ignorieren."
-keyTakeaways:
-  - "Ein ADC bildet einen Spannungsbereich auf diskrete Zahlenwerte ab."
-  - "Messwerte hängen von Referenz, Auflösung, Beschaltung und Störungen ab."
-recognizeSignals:
-  - "Es geht um Sensorwerte, Spannungsteiler, Messbereich, Rauschen oder digitale Rohwerte."
-selfCheckPoints:
-  - "Kann ich erklären, welche Spannung einem ADC-Rohwert ungefähr entspricht?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "adc"
-  - "analogwerte"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
-
 # ADC und Analogwerte
 
 ![Schaubild zu ADC und Analogwerten.](/schlaufuchs-platform/images/overviews/v148/adc-und-analogwerte.svg)

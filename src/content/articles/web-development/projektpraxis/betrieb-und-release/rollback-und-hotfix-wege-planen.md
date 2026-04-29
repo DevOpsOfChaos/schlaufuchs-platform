@@ -3,44 +3,17 @@ title: "Web-Projektpraxis – Rollback und Hotfix-Wege planen"
 description: "Plane vor dem Ernstfall, wie ein fehlerhaftes Release zurückgenommen oder klein repariert wird, ohne hektisch neue Risiken zu erzeugen."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "rollback-und-hotfix-wege-planen"
-learningGoals:
-  - "Du erklärst die Kernidee von „Rollback und Hotfix-Wege planen“."
-  - "Du trennst sichtbare Nutzerwirkung, technische Ursache und organisatorische Prüffrage."
-  - "Du leitest aus einem kleinen Web-Szenario eine robuste Projektregel ab."
-practiceIdeas:
-  - "Prüfe eine vorhandene Web-Seite mit genau diesem Blick und notiere drei konkrete Beobachtungen."
-  - "Formuliere aus einer technischen Regel eine kurze Review-Frage."
-  - "Verbinde eine technische Maßnahme mit einer sichtbaren Auswirkung für Nutzende."
-commonMistakes:
-  - "im Produktionsstress alles umbauen"
-  - "Rollback als Niederlage sehen"
-  - "Hotfix ohne erneuten Build veröffentlichen"
-keyTakeaways:
-  - "Ruhig reagieren statt hektisch retten"
-  - "Projektpraxis wird besser, wenn Entscheidungen klein, prüfbar und dokumentiert bleiben."
-  - "Robuste Web-Arbeit denkt Idealfall, Fehlerfall und späteres Ändern gemeinsam."
-recognizeSignals:
-  - "Eine Seite funktioniert im Idealfall, aber der Veröffentlichungs- oder Fehlerfall ist unklar."
-  - "Du sollst nicht nur Code schreiben, sondern Betrieb, Wartung oder Review mitdenken."
-  - "Eine technische Entscheidung braucht eine einfache Gegenprobe."
-selfCheckPoints:
-  - "Kann ich das Risiko ohne Fachjargon erklären?"
-  - "Kann ich eine konkrete Prüffrage formulieren?"
-  - "Kann ich zeigen, was sich für Nutzende oder Wartende verbessert?"
-tags:
-  - "web development"
-  - "rollback"
-  - "hotfix"
-  - "release"
-  - "betrieb"
+topicPath: ["projektpraxis", "betrieb-und-release", "rollback-und-hotfix-wege-planen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "Projektpraxis"]
 draft: false
 ---
-
 ## Grundidee
 
 Nicht jeder Fehler muss sofort mit einer großen neuen Änderung beantwortet werden. Manchmal ist ein Rollback sicherer, manchmal ein kleiner Hotfix. Gute Projektpraxis kennt beide Wege, bevor ein Problem auftritt.

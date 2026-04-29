@@ -3,41 +3,15 @@ title: "HTML – aria-current und Breadcrumbs verständlich nutzen"
 description: "Lerne, aktuelle Seitenpositionen in Navigationen und Breadcrumbs sichtbar und semantisch sauber zu markieren."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "navigation-und-menues"
-  - "aria-current-und-breadcrumbs-verstaendlich-nutzen"
-learningGoals:
-  - "Du erklärst, was aria-current ausdrückt."
-  - "Du unterscheidest aktuelle Seite, aktueller Schritt und aktiver Zustand."
-  - "Du baust Breadcrumbs als Orientierungshilfe statt als Dekoration."
-practiceIdeas:
-  - "Prüfe ein kleines Beispiel zuerst fachlich und erst danach im Code."
-  - "Vergleiche eine schwache und eine bessere Umsetzung."
-  - "Teste die Entscheidung mit Tastatur, kleiner Breite und verständlichem sichtbarem Text."
-commonMistakes:
-  - "aria-current auf mehrere Links derselben Navigation zu setzen."
-  - "Den aktuellen Link nur farblich hervorzuheben."
-  - "Breadcrumbs ohne klare Reihenfolge zu schreiben."
-keyTakeaways:
-  - "Die sichtbare Bedeutung und die technische Struktur müssen zusammenpassen."
-  - "Robuste Weboberflächen entstehen durch kleine, bewusst geprüfte Entscheidungen."
-  - "Ein gutes Review fragt nach Nutzbarkeit, Semantik, Layout und Wartbarkeit."
-recognizeSignals:
-  - "Es geht um HTML- oder CSS-Entscheidungen, die nicht nur optisch wirken."
-  - "Eine Aufgabe fragt nach Bedienbarkeit, Lesbarkeit oder semantischer Zuordnung."
-  - "Der Code funktioniert scheinbar, aber die Nutzererfahrung ist noch unsicher."
-selfCheckPoints:
-  - "Kann ich die Entscheidung ohne Fachjargon erklären?"
-  - "Passt der sichtbare Text zur technischen Struktur?"
-  - "Bleibt die Lösung bei kleinen Breiten und Tastaturbedienung nutzbar?"
-tags:
-  - "web development"
-  - "html"
-  - "navigation"
-  - "aria-current"
-  - "breadcrumbs"
+topicPath: ["html", "navigation-und-menues", "aria-current-und-breadcrumbs-verstaendlich-nutzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "HTML"]
 draft: false
 ---
 ## Grundidee

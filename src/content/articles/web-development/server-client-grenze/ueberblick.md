@@ -1,34 +1,19 @@
 ---
 title: "Server-Client-Grenze"
 description: "Überblick über die Trennung zwischen serverseitiger Verarbeitung und clientseitiger Ausführung im Web."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "server-client-grenze"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["server-client-grenze", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Browsercode als vertrauenswürdig zu behandeln, weil er aus der eigenen Anwendung stammt."
-keyTakeaways:
-  - "Die Server-Client-Grenze klärt, wo Daten, Darstellung und Sicherheitsentscheidungen hingehören."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Daten geladen, Secrets verwendet, Formulare verarbeitet oder interaktive Komponenten eingebunden werden."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "web development"
-  - "architektur"
-  - "server client"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # Server-Client-Grenze
 
 Die Server-Client-Grenze beschreibt, welche Teile einer Webanwendung auf dem Server und welche im Browser laufen. Sie beeinflusst Datenzugriff, Sicherheit, Ladezeit und Zuständigkeiten.

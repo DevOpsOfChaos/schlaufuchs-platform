@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Schwellwert und Hysterese gegen Flattern begründen
-description: Musterlösung zur Aufgabe ELE-MCU-GEN-112.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - hysterese-bei-schwellwerten-gegen-flattern-einsetzen
-  - schwellwert-und-hysterese-gegen-flattern-begruenden-loesung
-taskId: ELE-MCU-GEN-112
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller/hysterese-bei-schwellwerten-gegen-flattern-einsetzen/schwellwert-und-hysterese-gegen-flattern-begruenden.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - loesung
-  - task-id
+title: "Musterlösung – Schwellwert und Hysterese gegen Flattern begründen"
+description: "Musterlösung zur Aufgabe ELE-MCU-GEN-112."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "hysterese-bei-schwellwerten-gegen-flattern-einsetzen", "schwellwert-und-hysterese-gegen-flattern-begruenden"]
+taskId: "ELE-MCU-GEN-112"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller/hysterese-bei-schwellwerten-gegen-flattern-einsetzen/schwellwert-und-hysterese-gegen-flattern-begruenden.md"
+tags: ["elektrotechnik", "mikrocontroller", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Die Hauptfrage ist hier, wie Zustandswechsel nahe an einem Grenzwert stabil gehalten werden. Ein einzelner Schwellwert reicht bei schwankenden Signalen oft nicht aus. Hysterese nutzt deshalb getrennte Ein- und Ausschaltschwellen.

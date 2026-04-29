@@ -1,44 +1,19 @@
 ---
-title: Zwei-Faktor-Authentifizierung verstehen
-description: Verstehe, warum ein zweiter Faktor den Zugang stärkt und wie sich zusätzliche Prüfungen von einem einzelnen Passwort unterscheiden.
-subject: informatik
-section: Sicherheit
-topicPath:
-  - sicherheit
-  - zwei-faktor-authentifizierung-verstehen
-learningGoals:
-  - Du erklärst die Grundidee der Zwei-Faktor-Authentifizierung.
-  - Du unterscheidest einen einzelnen Faktor von zusätzlichem Schutz.
-  - Du beschreibst, warum ein zweiter Faktor Risiken deutlich verringern kann.
-practiceIdeas:
-  - Ordne Login-Beispiele danach, ob nur ein Faktor oder mehr als ein Faktor genutzt wird.
-  - Vergleiche Passwort plus Code mit einem reinen Passwort-Login.
-  - Erkläre bei einem Beispiel, warum Besitz eines Geräts als zusätzlicher Faktor wirken kann.
-commonMistakes:
-  - Zwei-Faktor-Authentifizierung mit einem besonders starken Passwort zu verwechseln.
-  - Zu denken, dass zwei Abfragen automatisch zwei verschiedene Faktoren sind.
-  - Nur Bequemlichkeit zu sehen, aber nicht den Sicherheitsgewinn.
-keyTakeaways:
-  - Zwei-Faktor-Authentifizierung ergänzt den Zugang um einen zweiten unabhängigen Nachweis.
-  - Ein zweiter Faktor erschwert Missbrauch deutlich.
-  - Zwei Schritte sind nur dann sinnvoll verschieden, wenn sie nicht auf derselben Grundlage beruhen.
-recognizeSignals:
-  - Es geht um Logins, Zusatzcodes, Gerätebestätigung oder Schutz vor Fremdzugriff.
-  - Du sollst nicht nur den Ablauf nennen, sondern die Schutzidee dahinter erklären.
-  - In Beispielen musst du prüfen, ob wirklich zwei unterschiedliche Faktoren vorliegen.
-selfCheckPoints:
-  - Kann ich erklären, was an zwei Faktoren der eigentliche Sicherheitsgewinn ist?
-  - Kann ich Beispiele mit einem und mit mehreren Faktoren unterscheiden?
-  - Kann ich erklären, warum zwei Passworteingaben nicht automatisch zwei Faktoren sind?
-tags:
-  - sicherheit
-  - authentifizierung
-  - zwei-faktor
-  - login
-level: einfach
+title: "Zwei-Faktor-Authentifizierung verstehen"
+description: "Verstehe, warum ein zweiter Faktor den Zugang stärkt und wie sich zusätzliche Prüfungen von einem einzelnen Passwort unterscheiden."
+subject: "informatik"
+section: "Sicherheit"
+topicPath: ["sicherheit", "zwei-faktor-authentifizierung-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Sicherheit"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Passwort allein ist oft nicht genug. Wenn es bekannt wird, kann ein Fremdzugriff leichter möglich sein. Die **Zwei-Faktor-Authentifizierung** stärkt den Zugang, weil neben dem Passwort noch **ein weiterer unabhängiger Nachweis** verlangt wird.

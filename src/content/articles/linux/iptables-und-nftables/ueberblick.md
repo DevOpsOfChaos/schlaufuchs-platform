@@ -1,36 +1,19 @@
 ---
 title: "iptables und nftables"
 description: "iptables und nftables sind Werkzeuge beziehungsweise Systeme zur Paketfilterung unter Linux. nftables ist der moderne Nachfolger vieler klassischer iptables-Szena..."
-subject: linux
+subject: "linux"
 section: "Netzwerk"
-topicPath:
-  - "iptables-und-nftables"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst iptables und nftables als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["iptables-und-nftables", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft werden einzelne Regeln ad hoc ergänzt, ohne die Reihenfolge und das Gesamtkonzept zu verstehen."
-keyTakeaways:
-  - "iptables und nftables sind Werkzeuge beziehungsweise Systeme zur Paketfilterung unter Linux."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um iptables und nftables, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich iptables und nftables in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "firewall"
-  - "netzwerk"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Netzwerk"]
 draft: false
 ---
-
 # iptables und nftables
 
 iptables und nftables sind Werkzeuge beziehungsweise Systeme zur Paketfilterung unter Linux.

@@ -3,22 +3,12 @@ title: "Lösung: Winkelsumme mit Skizze prüfen"
 description: "Musterlösung zur Aufgabe „Winkelsumme mit Skizze prüfen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "geometrie-messen-und-begruenden"
-  - "winkel-und-parallelen"
-  - "winkelsumme-mit-skizze-pruefen-v116"
+topicPath: ["geometrie-messen-und-begruenden", "winkel-und-parallelen", "winkelsumme-mit-skizze-pruefen-v116"]
 taskId: "winkelsumme-mit-skizze-pruefen-v116"
 relatedExercise: "mathematik/geometrie-messen-und-begruenden/winkel-und-parallelen/winkelsumme-mit-skizze-pruefen-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "winkel und parallelen"
-  - "winkelsumme mit skizze pruefen"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

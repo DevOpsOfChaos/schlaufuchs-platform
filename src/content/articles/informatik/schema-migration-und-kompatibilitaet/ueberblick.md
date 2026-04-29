@@ -1,35 +1,17 @@
 ---
 title: "Schema-Migration und Kompatibilität"
 description: "Überblick über Schemaänderungen, Abwärtskompatibilität und sichere Weiterentwicklung von Datenstrukturen."
-subject: informatik
+subject: "informatik"
 section: "APIs"
-topicPath:
-  - "schema-migration-und-kompatibilitaet"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Schema-Migration und Kompatibilität als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["schema-migration-und-kompatibilitaet", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird angenommen, alle Komponenten würden gleichzeitig aktualisiert. In verteilten Systemen ist das selten sicher."
-keyTakeaways:
-  - "Schema-Migration beschreibt, wie Datenstrukturen verändert werden, ohne bestehende Daten oder Clients unnötig zu brechen."
-  - "Sie macht Systeme entwickelbar, wenn Anforderungen wachsen und Daten langfristig erhalten bleiben müssen."
-  - "Eine Migration ist kein reines Datenbankskript. Auch Anwendungscode, APIs und Import/Export-Formate sind betroffen."
-recognizeSignals:
-  - "Es geht um Schema-Migration und Kompatibilität, wenn neue Felder sind oft einfacher kompatibel als entfernte oder umbenannte Felder."
-  - "Das Thema wird relevant, wenn Beispiele wie ein neues optionales Feld kann eingeführt werden, bevor es später verpflichtend wird."
-selfCheckPoints:
-  - "Kann ich Schema-Migration und Kompatibilität in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "schema"
-  - "migration"
-  - "kompatibilität"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "APIs"]
 draft: false
 ---
 # Schema-Migration und Kompatibilität

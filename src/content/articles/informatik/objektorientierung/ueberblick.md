@@ -1,33 +1,19 @@
 ---
 title: "Objektorientierung"
 description: "Einordnung objektorientierter Programmierung als Modellierung über Objekte, Daten und Verhalten."
-subject: informatik
+subject: "informatik"
 section: "Programmierung"
-topicPath:
-  - objektorientierung
-  - ueberblick
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen und von verwandten Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte und typische Anwendungsfälle."
-  - "Du erkennst häufige Missverständnisse und prüfst Aussagen auf Plausibilität."
+topicPath: ["objektorientierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, Klassen nur als Container für beliebige Funktionen zu verwenden."
-keyTakeaways:
-  - "Objektorientierung organisiert Programme um Objekte, die Zustand und Verhalten zusammenfassen."
-  - "Die genaue Bedeutung hängt vom Zusammenhang, den Einheiten und den Randbedingungen ab."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Begriffe, Beispiele oder Fehlerbilder aus diesem Bereich erklärt und eingeordnet werden sollen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten erklären, ohne sofort eine Spezialaufgabe zu rechnen?"
-level: einfach
-tags:
-  - "informatik"
-  - "objektorientierung"
-  - "programmierung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 # Objektorientierung
 
 ## Begriff und Zweck

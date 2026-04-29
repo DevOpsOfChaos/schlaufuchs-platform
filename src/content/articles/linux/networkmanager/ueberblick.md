@@ -1,33 +1,19 @@
 ---
 title: "NetworkManager"
 description: "NetworkManager verwaltet Netzwerkverbindungen auf vielen Linux-Systemen. Er koordiniert Interfaces, WLAN, Profile, DNS und Routing."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "networkmanager"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von NetworkManager."
-  - "Du kannst NetworkManager in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["networkmanager", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Manuelle Interface-Konfiguration und NetworkManager gleichzeitig ungeordnet zu nutzen."
-keyTakeaways:
-  - "NetworkManager verwaltet Netzwerkverbindungen auf vielen Linux-Systemen."
-  - "Wichtig sind vor allem verbindungsprofile, nmcli und grafische oberflächen und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um NetworkManager, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu NetworkManager dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "linux"
-  - "grundlagen"
-  - "networkmanager"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # NetworkManager
 
 NetworkManager verwaltet Netzwerkverbindungen auf vielen Linux-Systemen. Er koordiniert Interfaces, WLAN, Profile, DNS und Routing. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

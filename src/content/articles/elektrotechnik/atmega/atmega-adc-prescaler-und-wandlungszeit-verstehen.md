@@ -1,46 +1,19 @@
 ---
-title: ATmega – ADC-Prescaler und Wandlungszeit verstehen
-description: Verstehe, wie am ATmega aus ADC-Prescaler und Taktbasis die Wandlungsdauer entsteht und warum schnelle Wandlung nicht automatisch die ruhigste ist.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - analoge-eingaenge
-  - atmega-adc-prescaler-und-wandlungszeit-verstehen
-learningGoals:
-  - Du erklärst die Rolle des ADC-Prescalers am ATmega.
-  - Du beschreibst, wie aus Taktbasis und ADC-Takt eine Wandlungszeit entsteht.
-  - Du liest ADC-Tempo ruhiger als Abwägung statt nur als „möglichst schnell“.
-practiceIdeas:
-  - Vergleiche zwei Prescaler-Einstellungen bei derselben Taktbasis.
-  - Lies eine ADC-Konfiguration als Zeitproblem und nicht nur als Registerbits.
-  - Prüfe bei einer Messaufgabe, ob die Wandlungsgeschwindigkeit überhaupt der Engpass ist.
-commonMistakes:
-  - Zu denken, der ADC solle immer mit maximal möglicher Geschwindigkeit laufen.
-  - ADC-Prescaler und CPU-Takt unabhängig voneinander zu betrachten.
-  - Messprobleme sofort dem Sensor statt der Taktwahl oder Wandlungszeit zuzuschreiben.
-keyTakeaways:
-  - Der ADC-Prescaler teilt die Taktbasis für den ADC herunter.
-  - Aus ADC-Takt und Wandlungsdauer ergibt sich die Zeit pro Messung.
-  - Die ruhigste ADC-Einstellung ist nicht automatisch die schnellste, sondern die zur Aufgabe passende.
-recognizeSignals:
-  - Es geht um ADPS-Bits, ADC-Takt, Wandlungszeit oder zu schnelle bzw. zu grobe Messung.
-  - Du sollst erklären, warum eine ADC-Messung Zeit braucht.
-  - In Aufgaben ist das Zusammenspiel von F_CPU, Prescaler und Messdauer entscheidend.
-selfCheckPoints:
-  - Kann ich CPU-Takt und ADC-Takt sauber unterscheiden?
-  - Kann ich erklären, warum der Prescaler die Messgeschwindigkeit beeinflusst?
-  - Kann ich begründen, warum „schneller“ beim ADC nicht automatisch „besser“ ist?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - adc
-  - prescaler
-level: mittel
+title: "ATmega – ADC-Prescaler und Wandlungszeit verstehen"
+description: "Verstehe, wie am ATmega aus ADC-Prescaler und Taktbasis die Wandlungsdauer entsteht und warum schnelle Wandlung nicht automatisch die ruhigste ist."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-adc-prescaler-und-wandlungszeit-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Der ADC am ATmega misst nicht in einem einzigen magischen Schritt. Er braucht dafür einen **ADC-Takt** – und dieser entsteht aus der Taktbasis plus **Prescaler**. Genau daraus ergibt sich, wie lange eine Messung ungefähr dauert.

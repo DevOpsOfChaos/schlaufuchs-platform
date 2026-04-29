@@ -1,22 +1,14 @@
 ---
-title: Musterlösung – Stylesheet-Einbindungen nach Einsatzfall wählen
-description: Musterlösung zur Aufgabe WEB-CSS-CORE-101.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - css-stylesheets-einbinden-und-priorisieren-verstehen
-  - stylesheet-einbindungen-nach-einsatzfall-waehlen-loesung
-taskId: WEB-CSS-CORE-101
-relatedExercise: src/content/exercises/web-development/css/css-stylesheets-einbinden-und-priorisieren-verstehen/stylesheet-einbindungen-nach-einsatzfall-waehlen.md
-tags:
-  - web-development
-  - css
-  - loesung
-  - task-id
+title: "Musterlösung – Stylesheet-Einbindungen nach Einsatzfall wählen"
+description: "Musterlösung zur Aufgabe WEB-CSS-CORE-101."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "css-stylesheets-einbinden-und-priorisieren-verstehen", "stylesheet-einbindungen-nach-einsatzfall-waehlen"]
+taskId: "WEB-CSS-CORE-101"
+relatedExercise: "src/content/exercises/web-development/css/css-stylesheets-einbinden-und-priorisieren-verstehen/stylesheet-einbindungen-nach-einsatzfall-waehlen.md"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Drei Varianten vergleichen
 
 - Inline-CSS passt eher für eine einmalige Ausnahme direkt an genau einem Element.

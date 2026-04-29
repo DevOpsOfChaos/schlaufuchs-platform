@@ -3,44 +3,17 @@ title: "HTML – preload, prefetch und Resource Hints einordnen"
 description: "Ordne Resource Hints als Priorisierungshilfe ein, ohne jede Datei vorsorglich als wichtig zu markieren."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "performance-und-medien"
-  - "preload-prefetch-und-resource-hints-einordnen"
-learningGoals:
-  - "Du erklärst die Grundidee von preload, prefetch und Resource Hints einordnen."
-  - "Du trennst sichtbares Nutzerverhalten, technische Ursache und passende Entscheidung."
-  - "Du begründest eine robuste Lösung statt nur einen einzelnen Trick zu merken."
-practiceIdeas:
-  - "Beschreibe zuerst die sichtbare Situation auf der Seite."
-  - "Markiere danach die technische Stelle, an der die Entscheidung getroffen wird."
-  - "Formuliere am Ende eine Prüffrage, mit der du die Lösung kontrollierst."
-commonMistakes:
-  - "Nur den Erfolgsfall oder Schönfall zu betrachten."
-  - "Performance, Sicherheit oder Wartbarkeit erst nachträglich zu prüfen."
-  - "Werkzeuge zu benutzen, ohne die eigentliche Browserentscheidung zu benennen."
-keyTakeaways:
-  - "Robuste Webentwicklung verbindet Inhalt, Gestaltung, Verhalten und Prüfung."
-  - "Gute Entscheidungen sind sichtbar begründet und nicht nur technisch möglich."
-  - "Resource Hints sind Prioritäten, keine Dekoration. Jeder Hinweis sollte eine klare Ladeentscheidung ausdrücken."
-recognizeSignals:
-  - "Es geht um Ladeverhalten, Diagnose, Sicherheit oder Projektqualität."
-  - "Eine Seite funktioniert grundsätzlich, soll aber stabiler, schneller oder verständlicher werden."
-  - "Du sollst nicht nur Code schreiben, sondern eine Entscheidung begründen."
-selfCheckPoints:
-  - "Kann ich die sichtbare Auswirkung für Nutzerinnen und Nutzer benennen?"
-  - "Kann ich die technische Ursache von der Lösung trennen?"
-  - "Habe ich einen Fehler-, Lade- oder Sicherheitsfall mitgedacht?"
+topicPath: ["html", "performance-und-medien", "preload-prefetch-und-resource-hints-einordnen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
-tags:
-  - "web development"
-  - "html"
-  - "performance"
-  - "preload"
-  - "prefetch"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Resource Hints sind Hinweise an den Browser. Sie sind kein Allheilmittel und kein Ersatz für gute Dateigrößen. Wer sie falsch nutzt, macht manchmal genau das Gegenteil: Unwichtige Dateien drängeln sich vor wichtige Inhalte.

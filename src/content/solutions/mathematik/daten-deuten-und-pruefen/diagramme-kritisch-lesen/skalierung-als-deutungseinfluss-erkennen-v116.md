@@ -3,22 +3,12 @@ title: "Lösung: Skalierung als Deutungseinfluss erkennen"
 description: "Musterlösung zur Aufgabe „Skalierung als Deutungseinfluss erkennen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "daten-deuten-und-pruefen"
-  - "diagramme-kritisch-lesen"
-  - "skalierung-als-deutungseinfluss-erkennen-v116"
+topicPath: ["daten-deuten-und-pruefen", "diagramme-kritisch-lesen", "skalierung-als-deutungseinfluss-erkennen-v116"]
 taskId: "skalierung-als-deutungseinfluss-erkennen-v116"
 relatedExercise: "mathematik/daten-deuten-und-pruefen/diagramme-kritisch-lesen/skalierung-als-deutungseinfluss-erkennen-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "diagramme kritisch lesen"
-  - "skalierung als deutungseinfluss erkennen"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

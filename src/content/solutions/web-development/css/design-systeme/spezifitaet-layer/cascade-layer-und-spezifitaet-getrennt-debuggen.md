@@ -3,23 +3,12 @@ title: "Lösung – Cascade Layer und Spezifität getrennt debuggen"
 description: "Musterlösung zu Cascade Layer und Spezifität mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "design-systeme"
-  - "spezifitaet-layer"
-  - "cascade-layer-und-spezifitaet-getrennt-debuggen"
+topicPath: ["css", "design-systeme", "spezifitaet-layer", "cascade-layer-und-spezifitaet-getrennt-debuggen"]
 taskId: "v109-web-development-cascade-layer-und-spezifitaet-getrennt-debuggen"
 relatedExercise: "web-development/css/design-systeme/spezifitaet-layer/cascade-layer-und-spezifitaet-getrennt-debuggen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "css"
-  - "design-systeme"
-  - "cascade layer und spezifität"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Cascade Layer und Spezifität**.

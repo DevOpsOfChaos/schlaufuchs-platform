@@ -1,45 +1,19 @@
 ---
-title: Object-Position verstehen
-description: Verstehe, wie object-position festlegt, welcher Bereich eines Bildes im sichtbaren Ausschnitt betont wird.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - object-position-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von object-position.
-  - Du beschreibst object-position als Blickpunktsteuerung innerhalb eines Ausschnitts.
-  - Du unterscheidest object-fit und object-position sauber.
-practiceIdeas:
-  - Vergleiche denselben Bildrahmen mit Fokus auf links, Mitte und rechts.
-  - Lies object-fit zuerst als Größelogik und object-position danach als Fokuslogik.
-  - Prüfe bei Kartenbildern, welcher Bildteil im Ausschnitt sichtbar bleiben soll.
-commonMistakes:
-  - object-position ohne object-fit als Hauptthema zu lesen.
-  - zu glauben, object-position ändere die Boxgröße.
-  - zu übersehen, dass dieselbe Box je nach Fokus ganz anders wirkt.
-keyTakeaways:
-  - object-position steuert den sichtbaren Schwerpunkt eines Bildausschnitts.
-  - object-fit und object-position erfüllen unterschiedliche Aufgaben.
-  - Besonders bei Karten- und Bannerbildern ist die Fokuswahl wichtig.
-recognizeSignals:
-  - Es geht um Bilder in Karten, Headern oder festen Rahmen.
-  - Du sollst begründen, warum ein Gesicht oder Objekt angeschnitten wird oder sichtbar bleibt.
-  - In Beispielen zählt der Bildausschnitt stärker als die Dateigröße.
-selfCheckPoints:
-  - Kann ich object-fit und object-position fachlich trennen?
-  - Kann ich erklären, welcher Bildteil betont wird?
-  - Kann ich object-position als Fokussteuerung lesen?
-tags:
-  - css
-  - bilder
-  - object-fit
-  - object-position
-level: mittel
+title: "Object-Position verstehen"
+description: "Verstehe, wie object-position festlegt, welcher Bereich eines Bildes im sichtbaren Ausschnitt betont wird."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "object-position-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Wenn ein Bild in einen festen Rahmen gezwungen wird, ist oft nicht nur wichtig, **wie** es skaliert wird, sondern auch **welcher Teil sichtbar bleiben soll**. Genau dort kommt `object-position` ins Spiel.

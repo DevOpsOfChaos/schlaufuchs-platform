@@ -3,32 +3,17 @@ title: "Zufall und Seeds"
 description: "Allgemeiner Überblick über Zufallszahlen, Seeds und reproduzierbare Zufallsabläufe."
 subject: "informatik"
 section: "Algorithmen"
-topicPath:
-  - "zufall-und-seeds"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["zufall-und-seeds", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Zufall genutzt, ohne den Seed zu dokumentieren. Dann sind Fehler oder Simulationsergebnisse schwer nachvollziehbar."
-keyTakeaways:
-  - "Seeds verbinden Zufall mit Reproduzierbarkeit. Für Sicherheit muss aber ein geeigneter kryptographischer Zufall verwendet werden."
-  - "Ein normaler Pseudozufallszahlengenerator ist nicht automatisch sicher für Passwörter, Schlüssel oder Tokens."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "informatik"
-  - "zufall"
-  - "seed"
-  - "simulation"
+tags: ["informatik", "Algorithmen"]
 draft: false
 ---
-
 # Zufall und Seeds
 
 Ein Seed ist ein Startwert für einen Pseudozufallszahlengenerator. Mit demselben Seed kann dieselbe Folge scheinbar zufälliger Werte erneut erzeugt werden.

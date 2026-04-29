@@ -1,46 +1,19 @@
 ---
-title: ATmega – Registerbits sicher setzen und löschen
-description: Lerne, wie einzelne Registerbits geändert werden, ohne Nachbarbits versehentlich zu überschreiben.
-subject: elektrotechnik
-section: Mikrocontroller und ATmega
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - registerbits-sicher-setzen-und-loeschen
-learningGoals:
-  - "Du erklärst, warum Registeränderungen meistens bitweise erfolgen sollten."
-  - "Du unterscheidest Setzen, Löschen, Umschalten und Prüfen einzelner Bits."
-  - "Du vermeidest typische Fehler, bei denen Nachbarbits unabsichtlich verändert werden."
-practiceIdeas:
-  - "Markiere in einem Register zuerst das Zielbit und dann alle Bits, die unverändert bleiben müssen."
-  - "Übersetze jede Bitoperation einmal in Alltagssprache: setzen, löschen, umschalten oder prüfen."
-  - "Vergleiche eine sichere Bitmaske mit einer direkten Registerzuweisung."
-commonMistakes:
-  - "Ein ganzes Register neu zu beschreiben, obwohl nur ein einzelnes Bit geändert werden soll."
-  - "Setzen und Prüfen eines Bits im Code miteinander zu verwechseln."
-  - "Bitmasken zu kopieren, ohne zu lesen, welches Bit tatsächlich betroffen ist."
-keyTakeaways:
-  - "Register enthalten oft mehrere unabhängige Einstellungen im selben Byte."
-  - "Bitmasken ändern gezielt einzelne Bits und schützen die übrigen Einstellungen."
-  - "Sichere Registerarbeit beginnt mit der Frage, welches Bit verändert werden darf."
-recognizeSignals:
-  - "Es geht um DDRx, PORTx, PINx oder andere Register mit einzelnen Steuerbits."
-  - "Im Code stehen Operatoren wie |, &, ~ oder ^ zusammen mit einer Bitverschiebung."
-  - "Eine Aufgabe fragt, warum eine direkte Zuweisung zu grob oder gefährlich wäre."
-selfCheckPoints:
-  - "Kann ich sagen, welches Bit mein Code verändert?"
-  - "Bleiben alle Nachbarbits unverändert?"
-  - "Kann ich die Bitoperation ohne Codewörter erklären?"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - register
-  - bitmasken
-level: einfach
+title: "ATmega – Registerbits sicher setzen und löschen"
+description: "Lerne, wie einzelne Registerbits geändert werden, ohne Nachbarbits versehentlich zu überschreiben."
+subject: "elektrotechnik"
+section: "Mikrocontroller und ATmega"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "registerbits-sicher-setzen-und-loeschen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein ATmega steuert viele Funktionen über Register. Ein Register ist dabei kein einzelner Schalter, sondern eher eine kleine Schalterleiste aus Bits. Darum ist die wichtigste Frage nicht nur: **Welches Register brauche ich?** Sondern auch: **Welches Bit in diesem Register darf ich verändern?**

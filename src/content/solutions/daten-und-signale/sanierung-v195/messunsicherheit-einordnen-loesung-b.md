@@ -3,24 +3,12 @@ title: "Lösung: Messunsicherheit einordnen: Aufgabe B"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-026b im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "messung-und-diagnose"
-  - "messunsicherheit-einordnen"
-  - "loesung-b"
-
+topicPath: ["sanierung-v195", "messunsicherheit-einordnen-loesung-b"]
 taskId: "daten-und-signale-v195-026b"
 relatedExercise: "daten-und-signale/sanierung-v195/messunsicherheit-einordnen-aufgabe-b"
-tags:
-  - "messunsicherheit"
-  - "einordnen"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-026b`
 
 Ausgangsauftrag: Übertrage das Thema Messunsicherheit einordnen auf ein zweites Beispiel und formuliere eine kurze Prüfung.

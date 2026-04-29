@@ -1,39 +1,19 @@
 ---
 title: "Grundlagen: Variablen und Zustand"
 description: "Ein allgemeiner Überblick darüber, wie Programme Werte speichern, verändern und als Zustand verwenden."
-subject: informatik
+subject: "informatik"
 section: "Programmierung"
-topicPath:
-  - programmierpraxis-und-tests
-  - variablen-und-zustand
-  - ueberblick
-learningGoals:
-  - "Du kennst die Grundbegriffe dieses Themenbereichs."
-  - "Du kannst typische Situationen grob einordnen, bevor du Detailseiten liest."
-  - "Du erkennst, welche Nachbarseiten für Vertiefung oder Übungen passen."
-practiceIdeas:
-  - "Lies zuerst diese Überblicksseite und danach eine konkrete Lernsituation aus dem gleichen Unterthema."
-  - "Notiere die wichtigsten Begriffe und prüfe, welche davon in den Detailseiten wieder auftauchen."
-commonMistakes:
-  - "Direkt mit Sonderfällen zu beginnen, ohne die Grundbegriffe zu klären."
-  - "Ein einzelnes Beispiel für die ganze Themenlogik zu halten."
-keyTakeaways:
-  - "Variablen speichern Werte; Zustand beschreibt, was ein Programm sich über die Zeit merkt."
-recognizeSignals:
-  - "Du suchst eine allgemeine Einordnung, bevor du Aufgaben oder Spezialfälle bearbeitest."
-  - "Mehrere Detailseiten wirken ähnlich, aber dir fehlt der gemeinsame Rahmen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten beschreiben?"
-  - "Kann ich Grundidee, typische Begriffe und Grenzen auseinanderhalten?"
-level: einfach
-tags:
-  - "informatik"
-  - "programmierung"
-  - "variablen"
-  - "zustand"
+topicPath: ["programmierpraxis-und-tests", "variablen-und-zustand", "ueberblick", "grundlagen-variablen-und-zustand"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Überblick
 
 Variablen sind benannte Speicherstellen für Werte. Programme verwenden sie, um Informationen zwischen einzelnen Anweisungen festzuhalten. Sobald Werte über die Zeit verändert werden, spricht man oft vom Zustand eines Programms.

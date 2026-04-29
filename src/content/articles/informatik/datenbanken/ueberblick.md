@@ -1,35 +1,19 @@
 ---
 title: "Datenbanken"
 description: "Allgemeiner Überblick über Datenbanken als Systeme zur strukturierten Speicherung und Abfrage von Daten."
-subject: informatik
+subject: "informatik"
 section: "Daten"
-topicPath:
-  - "datenbanken"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst Datenbanken als strukturierte Datenspeicher."
-  - "Du kannst Tabellen, Datensätze und Abfragen grob einordnen."
-  - "Du verstehst, warum Konsistenz und Modellierung wichtig sind."
+topicPath: ["datenbanken", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Eine Datenbank nur als große Tabelle zu verstehen."
-  - "Datenmodell und Benutzeroberfläche zu verwechseln."
-keyTakeaways:
-  - "Datenbanken speichern Daten strukturiert, dauerhaft und abfragbar."
-  - "Ein gutes Datenmodell macht Beziehungen, Regeln und Abfragen nachvollziehbar."
-recognizeSignals:
-  - "Es geht um Tabellen, Datensätze, SQL, Beziehungen, Schlüssel oder Abfragen."
-selfCheckPoints:
-  - "Kann ich unterscheiden, welche Daten gespeichert werden und welche nur berechnet oder angezeigt werden?"
-level: einfach
-tags:
-  - "informatik"
-  - "datenbanken"
-  - "daten"
-  - "sql"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Daten"]
 draft: false
 ---
-
 # Datenbanken
 
 ![Schaubild zu Datenbanken.](/schlaufuchs-platform/images/overviews/v148/datenbanken.svg)

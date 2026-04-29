@@ -3,32 +3,15 @@ title: "Aufgabe – LED-Helligkeit nicht über Spannung raten"
 description: "Übe LED-Helligkeit nicht über Spannung raten mit Szenario, Trennkante und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "dioden-und-leds"
-  - "led-helligkeit-nicht-ueber-spannung-raten-v113"
+topicPath: ["daten-und-signale", "dioden-und-leds", "led-helligkeit-nicht-ueber-spannung-raten-v113"]
 taskId: "v113-elektrotechnik-led-helligkeit-nicht-ueber-spannung-raten-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "led-helligkeit-nicht-ueber-spannung-raten-v113"
-hintPoints:
-  - "Benenne zuerst das genaue Unterthema."
-  - "Notiere die typische Verwechslung ausdrücklich."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Antwort enger als ein breites Kapitel?"
-  - "Wird ein Nachbarthema sauber ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere eine zweite Aufgabe im gleichen Unterthema mit anderer Oberfläche."
-reflectionPrompt: "Welche kleine Trennkante macht LED-Helligkeit nicht über Spannung raten übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **LED-Helligkeit nicht über Spannung raten**.

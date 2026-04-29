@@ -1,12 +1,17 @@
 ---
-title: Verhältnisse und Proportionen anwenden
-description: Diese Aufgabe vertieft den sicheren Umgang mit Verhältnissen, Proportionen und einfachen proportionalen Zusammenhängen.
-subject: mathematik
-section: Grundlagen
-level: mittel
+title: "Verhältnisse und Proportionen anwenden"
+description: "Diese Aufgabe vertieft den sicheren Umgang mit Verhältnissen, Proportionen und einfachen proportionalen Zusammenhängen."
+subject: "mathematik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "verhaeltnisse", "verhaeltnisse-und-proportionen-anwenden"]
+taskId: "AUTO-VERHAELTNISSE-UND-PROPORTIONEN-ANWENDEN"
+tags: ["mathematik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben ruhig und prüfe immer, welche Größen miteinander verglichen werden.

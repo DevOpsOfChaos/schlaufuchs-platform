@@ -3,23 +3,12 @@ title: "Lösung – Steigung im Sachkontext als Änderung pro Einheit lesen"
 description: "Musterlösung zu Steigung im Sachkontext als Änderung pro Einheit lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "funktionen-und-graphen"
-  - "graphen-deuten"
-  - "v110-teil-2"
-  - "steigung-im-sachkontext-als-aenderung-pro-einheit-lesen"
+topicPath: ["funktionen-und-graphen", "graphen-deuten", "v110-teil-2", "steigung-im-sachkontext-als-aenderung-pro-einheit-lesen"]
 taskId: "v110-mathematik-steigung-im-sachkontext-als-aenderung-pro-einheit-lesen"
 relatedExercise: "mathematik/funktionen-und-graphen/graphen-deuten/v110-teil-2/steigung-im-sachkontext-als-aenderung-pro-einheit-lesen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfung"
-  - "funktionen-und-graphen"
-  - "graphen-deuten"
-  - "steigung-im-sachkontext-als-aenderung-pro-einheit-lesen"
+tags: ["mathematik", "Funktionen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Steigung im Sachkontext als Änderung pro Einheit lesen**.

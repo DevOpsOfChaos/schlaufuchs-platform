@@ -3,20 +3,12 @@ title: "Lösung – Compare Match von Overflow trennen"
 description: "Musterlösung zu Compare Match von Overflow trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "timer"
-  - "compare-match-von-overflow-trennen-v113"
+topicPath: ["mikrocontroller-und-atmega", "timer", "compare-match-von-overflow-trennen-v113"]
 taskId: "v113-elektrotechnik-compare-match-von-overflow-trennen-v113"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/timer/compare-match-von-overflow-trennen-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "compare-match-von-overflow-trennen-v113"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Compare Match von Overflow trennen**.

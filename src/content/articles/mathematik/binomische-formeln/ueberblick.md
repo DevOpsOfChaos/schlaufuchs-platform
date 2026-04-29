@@ -1,33 +1,19 @@
 ---
 title: "Binomische Formeln"
 description: "Binomische Formeln beschreiben feste Muster beim Ausmultiplizieren von Summen und Differenzen. Sie helfen, Terme zu vereinfachen und Gleichungen zu lösen."
-subject: mathematik
+subject: "mathematik"
 section: "Mathematik"
-topicPath:
-  - "binomische-formeln"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Binomische Formeln."
-  - "Du kannst Binomische Formeln in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["binomische-formeln", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "(a+b)^2 fälschlich als a^2+b^2 zu schreiben."
-keyTakeaways:
-  - "Binomische Formeln beschreiben feste Muster beim Ausmultiplizieren von Summen und Differenzen."
-  - "Wichtig sind vor allem quadrat einer summe, quadrat einer differenz und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Binomische Formeln, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Binomische Formeln dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "grundlagen"
-  - "binomische formeln"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Mathematik"]
 draft: false
 ---
-
 # Binomische Formeln
 
 ![Schaubild zu binomischen Formeln.](/schlaufuchs-platform/images/overviews/v149/binomische-formeln.svg)

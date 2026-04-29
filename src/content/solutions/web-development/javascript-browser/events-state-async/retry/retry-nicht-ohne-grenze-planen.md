@@ -3,23 +3,12 @@ title: "Lösung – Retry nicht ohne Grenze planen"
 description: "Musterlösung zu Retry-Logik mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "javascript-browser"
-  - "events-state-async"
-  - "retry"
-  - "retry-nicht-ohne-grenze-planen"
+topicPath: ["javascript-browser", "events-state-async", "retry", "retry-nicht-ohne-grenze-planen"]
 taskId: "v111-web-development-retry-nicht-ohne-grenze-planen"
 relatedExercise: "web-development/javascript-browser/events-state-async/retry/retry-nicht-ohne-grenze-planen"
-tags:
-  - "web development"
-  - "frontend"
-  - "unterthema"
-  - "javascript-browser"
-  - "events-state-async"
-  - "retry-nicht-ohne-grenze-planen"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Retry-Logik**.

@@ -1,46 +1,19 @@
 ---
-title: ATmega – Active-Low-Signale und Pull-up verstehen
-description: Verstehe, warum ein Eingang mit Pull-up im Ruhezustand logisch 1 liest und beim Drücken oft logisch 0 wird.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - digitale-eingaenge-und-ausgaenge
-  - atmega-active-low-signale-und-pullup-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von Active-Low-Signalen am ATmega.
-  - Du beschreibst, warum interne Pull-ups oft zu einer invertierten Logik führen.
-  - Du liest einen Tastereingang ruhiger als Ruhezustand, Ereigniszustand und Logikebene.
-practiceIdeas:
-  - Vergleiche die Zustände „nicht gedrückt“ und „gedrückt“ bei einem Taster mit internem Pull-up.
-  - Übersetze kleine AVR-Abfragen zuerst in Alltagssprache und dann in Logikpegel.
-  - Prüfe bei einer Bedingung bewusst, ob das Ereignis logisch 0 oder logisch 1 bedeutet.
-commonMistakes:
-  - Zu denken, dass „gedrückt“ automatisch immer logisch 1 bedeuten muss.
-  - Pull-up-Eingänge nur als Schaltungstrick statt als definierte Ruhelage zu lesen.
-  - Active-Low als Sonderfall zu sehen, ohne Ruhezustand und Ereignis sauber zu trennen.
-keyTakeaways:
-  - Ein Pull-up zieht den Eingang im Ruhezustand auf logisch 1.
-  - Beim Taster gegen Masse wird das Ereignis oft als logisch 0 gelesen.
-  - Active-Low bedeutet nicht „falsch herum“, sondern beschreibt nur die Zuordnung von Ereignis und Pegel.
-recognizeSignals:
-  - Es geht um Taster, Pull-ups, invertierte Logik oder Abfragen wie <code>if (!(PINB &amp; ...))</code>.
-  - Du sollst erklären, warum ein gedrückter Taster logisch 0 liefern kann.
-  - In Aufgaben ist der Ruhezustand wichtiger als die bloße Form der if-Bedingung.
-selfCheckPoints:
-  - Kann ich Ruhezustand und Ereigniszustand sauber benennen?
-  - Kann ich erklären, warum Active-Low mit internem Pull-up am AVR oft sinnvoll ist?
-  - Kann ich eine invertierte Tasterabfrage fachlich lesen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - pullup
-  - active-low
-level: einfach
+title: "ATmega – Active-Low-Signale und Pull-up verstehen"
+description: "Verstehe, warum ein Eingang mit Pull-up im Ruhezustand logisch 1 liest und beim Drücken oft logisch 0 wird."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-active-low-signale-und-pullup-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Am ATmega werden Tastereingänge sehr oft mit **internem Pull-up** betrieben. Dann liegt der Eingang im Ruhezustand auf logisch **1**. Wird der Taster gedrückt und nach Masse gezogen, liest der Controller logisch **0**. Genau diese Zuordnung nennt man oft **Active-Low**.

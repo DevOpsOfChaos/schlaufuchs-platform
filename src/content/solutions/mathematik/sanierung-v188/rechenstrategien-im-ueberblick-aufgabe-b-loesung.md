@@ -3,22 +3,12 @@ title: "Lösung: Rechenstrategien im Überblick: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-002b."
 subject: "mathematik"
 section: "rechenstrategien-und-kontrolle"
-topicPath:
-  - "rechenstrategien-und-kontrolle"
-  - "ueberblick"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "rechenstrategien-im-ueberblick-aufgabe-b"]
 taskId: "mat-v188-002b"
 relatedExercise: "mathematik/sanierung-v188/rechenstrategien-im-ueberblick-aufgabe-b"
-tags:
-  - "rechnen"
-  - "strategie"
-  - "kontrolle"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "rechenstrategien-und-kontrolle", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-002b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

@@ -1,46 +1,19 @@
 ---
-title: ATmega – Flags zwischen ISR und Hauptschleife koordinieren
-description: Verstehe, warum viele AVR-Programme Ereignisse zuerst nur mit einem Flag markieren und die eigentliche Verarbeitung danach ruhiger in der Hauptschleife erledigen.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - programmstruktur-und-reaktivitaet
-  - atmega-flags-zwischen-isr-und-hauptschleife-koordinieren
-learningGoals:
-  - Du erklärst die Grundidee von Ereignis-Flags zwischen ISR und Hauptschleife.
-  - Du beschreibst, warum die ISR oft nur markieren statt komplett verarbeiten sollte.
-  - Du liest Flag-Logik eher als Aufgabenübergabe als als zusätzliche Sondervariable.
-practiceIdeas:
-  - Vergleiche eine lange ISR mit einer ISR, die nur ein Flag setzt.
-  - Prüfe, welche Arbeit direkt im Ereignis nötig ist und was ruhiger in die Hauptschleife gehört.
-  - Lies Flag-Variablen zuerst als Kommunikationssignal zwischen zwei Programmbereichen.
-commonMistakes:
-  - Die ISR mit kompletter Fachlogik zu überladen.
-  - Zu denken, ein Flag sei nur „eine zusätzliche Variable“ ohne strukturelle Bedeutung.
-  - ISR und Hauptschleife als zwei völlig getrennte Welten zu betrachten.
-keyTakeaways:
-  - Ein Flag markiert, dass ein Ereignis stattgefunden hat.
-  - Die ISR kann dadurch kurz bleiben und nur den Auslöser melden.
-  - Die Hauptschleife verarbeitet später ruhiger, wenn dafür mehr Zeit und Kontext vorhanden ist.
-recognizeSignals:
-  - Es geht um ISR, Ereignisse, kurze Reaktion und spätere Verarbeitung.
-  - Du sollst erklären, warum eine ISR oft nur ein Flag setzt.
-  - In Aufgaben ist die Aufgabenverteilung wichtiger als der bloße Variablenname.
-selfCheckPoints:
-  - Kann ich erklären, warum Flags ISR und Hauptschleife verbinden?
-  - Kann ich begründen, warum eine kurze ISR meist ruhiger ist?
-  - Kann ich sagen, welche Arbeit besser in die Hauptschleife gehört?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - interrupt
-  - programmstruktur
-level: mittel
+title: "ATmega – Flags zwischen ISR und Hauptschleife koordinieren"
+description: "Verstehe, warum viele AVR-Programme Ereignisse zuerst nur mit einem Flag markieren und die eigentliche Verarbeitung danach ruhiger in der Hauptschleife erledigen."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-flags-zwischen-isr-und-hauptschleife-koordinieren"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Viele AVR-Ereignisse brauchen eine schnelle Reaktion, aber nicht sofort eine vollständige Verarbeitung. Genau deshalb ist ein typisches Muster:

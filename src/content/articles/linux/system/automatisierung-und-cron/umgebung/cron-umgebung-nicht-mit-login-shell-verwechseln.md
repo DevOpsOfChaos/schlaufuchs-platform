@@ -3,46 +3,17 @@ title: "Linux – Cron-Umgebung nicht mit Login-Shell verwechseln"
 description: "Lerne Cron-Umgebung als kleines, klar auffindbares Unterthema mit Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "system"
-  - "automatisierung-und-cron"
-  - "umgebung"
-  - "cron-umgebung-nicht-mit-login-shell-verwechseln"
-learningGoals:
-  - "Du erklärst Cron-Umgebung als enges Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich sauber ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Formuliere eine Gegenprobe mit verändertem Kontext."
-  - "Ordne die Seite bewusst einem kleinen Unterthemenpfad zu."
-commonMistakes:
-  - "PATH und Arbeitsverzeichnis werden wie im Terminal erwartet."
-  - "Das Thema in einem breiten Sammelkapitel verschwinden lassen."
-  - "Eine Lösung ohne konkreten Prüfschritt formulieren."
-keyTakeaways:
-  - "Cron-Umgebung wird durch Kontext, Abgrenzung und Prüfung klar."
-  - "Feinere Unterthemen reduzieren Doppelungen und Suchaufwand."
-  - "Aufgabe und Lösung sollen dieselbe Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Eine breite Kapitelüberschrift reicht für die Entscheidung nicht aus."
-  - "Ein konkreter Prüfschritt kann die Einordnung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "linux"
-  - "betrieb"
-  - "unterthema"
-  - "system"
-  - "automatisierung-und-cron"
-  - "cron-umgebung-nicht-mit-login-shell-verwechseln"
+topicPath: ["system", "automatisierung-und-cron", "umgebung", "cron-umgebung-nicht-mit-login-shell-verwechseln"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["linux", "Feinstruktur Linux"]
 draft: false
 ---
-
 ## Grundidee
 
 **Cron-Umgebung** ist bewusst als kleines Unterthema angelegt. Lerne Cron-Umgebung als kleines, klar auffindbares Unterthema mit Abgrenzung, Prüfschritt und Gegenprobe. So bleibt die Lernseite auffindbar, ohne noch mehr Inhalt in ein übergroßes Sammelthema zu schieben.

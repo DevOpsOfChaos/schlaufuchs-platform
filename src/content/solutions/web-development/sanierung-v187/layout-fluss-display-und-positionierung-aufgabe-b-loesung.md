@@ -3,23 +3,12 @@ title: "Lösung: Layoutfluss, Display und Positionierung: Prüfung und Verbesser
 description: "Musterlösung zur Aufgabe web-v187-013b im Web-Development-Block v187."
 subject: "web-development"
 section: "css"
-topicPath: 
-  - "css-und-layout"
-  - "layoutfluss"
-  - "loesung-b"
+topicPath: ["sanierung-v187", "layout-fluss-display-und-positionierung-aufgabe-b"]
 taskId: "web-v187-013b"
 relatedExercise: "web-development/sanierung-v187/layout-fluss-display-und-positionierung-aufgabe-b"
-tags: 
-  - "css"
-  - "layout"
-  - "display"
-  - "position"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "css", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-013b`
 
     Ausgangsauftrag: Erkläre, warum eine absolut positionierte Infobox andere Inhalte überdecken kann.

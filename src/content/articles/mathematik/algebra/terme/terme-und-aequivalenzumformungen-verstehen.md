@@ -1,17 +1,19 @@
 ---
-title: Terme und Äquivalenzumformungen verstehen
-description: Terme beschreiben Rechenausdrücke ohne Gleichheitszeichen und Äquivalenzumformungen helfen dabei, mathematische Aussagen korrekt umzuschreiben.
-subject: mathematik
-section: Algebra
-level: mittel
-tags:
-  - Terme
-  - Äquivalenzumformung
-  - Algebra
-  - Umformen
+title: "Terme und Äquivalenzumformungen verstehen"
+description: "Terme beschreiben Rechenausdrücke ohne Gleichheitszeichen und Äquivalenzumformungen helfen dabei, mathematische Aussagen korrekt umzuschreiben."
+subject: "mathematik"
+section: "Algebra"
+topicPath: ["algebra", "terme", "terme-und-aequivalenzumformungen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["mathematik", "Algebra"]
 draft: false
 ---
-
 ## Überblick
 
 Algebra beginnt nicht erst bei komplizierten Gleichungen. Ein großer Teil des Verständnisses entsteht schon beim sicheren Umgang mit Termen. Wer Terme sauber lesen, vereinfachen und umformen kann, arbeitet später sicherer mit Gleichungen, Funktionen und Formeln.

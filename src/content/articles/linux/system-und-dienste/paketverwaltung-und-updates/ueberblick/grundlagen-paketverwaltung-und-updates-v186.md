@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Paketverwaltung und Updates"
 description: "Ordne Paketquellen, Installation, Updates und Abhängigkeiten ein."
-subject: linux
+subject: "linux"
 section: "system-und-dienste"
-topicPath:
-  - "system-und-dienste"
-  - "paketverwaltung-und-updates"
-learningGoals:
-  - "Du erklärst Paketverwaltung und Updates in eigenen Worten."
-  - "Du ordnest typische Befehle, Begriffe oder Prüfschritte richtig ein."
-  - "Du erkennst typische Grenzen und Fehlerquellen im Linux-Alltag."
-practiceIdeas:
-  - "Beschreibe eine kleine Alltagssituation zu diesem Thema."
-  - "Markiere, welche Information zuerst geprüft werden muss."
-commonMistakes:
-  - "Ein einzelnes Kommando für das ganze Thema zu halten."
-  - "Ausgabe, Zustand und Ursache zu vermischen."
-  - "Ohne Kontext direkt an Sonderfälle zu springen."
-keyTakeaways:
-  - "Paketverwaltung installiert Software aus bekannten Quellen."
-  - "Abhängigkeiten werden dabei mitgedacht und verwaltet."
-  - "Updates betreffen Sicherheit, Fehlerkorrekturen und Kompatibilität."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung statt nur eines Befehlsrezepts."
-  - "Mehrere ähnliche Befehle oder Dateien wirken unklar."
-selfCheckPoints:
-  - "Kann ich Zweck, Kontext und typischen Prüfschritt unterscheiden?"
-  - "Kann ich eine einfache Fehlannahme zum Thema benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "pakete"
-  - "updates"
+topicPath: ["system-und-dienste", "paketverwaltung-und-updates", "ueberblick", "grundlagen-paketverwaltung-und-updates-v186"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "system-und-dienste"]
 draft: false
 ---
-
 ![Paketverwaltung und Updates](/schlaufuchs-platform/images/overviews/v186/paketverwaltung-und-updates.svg)
 
 ## Begriff

@@ -1,35 +1,17 @@
 ---
 title: "Referrer Policy"
 description: "Überblick über Referrer Policy und die Steuerung, welche Herkunftsinformationen bei Webanfragen weitergegeben werden."
-subject: web-development
+subject: "web-development"
 section: "Sicherheit"
-topicPath:
-  - "referrer-policy"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Referrer Policy als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["referrer-policy", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Viele Fehler entstehen, wenn Tokens oder persönliche Daten in URLs stehen und allein auf Referrer Policy vertraut wird."
-keyTakeaways:
-  - "Referrer Policy legt fest, ob und wie viel von der aktuellen URL beim Laden anderer Ressourcen oder beim Folgen von Links mitgesendet wird."
-  - "Sie schützt sensible Pfadinformationen und reduziert unnötige Weitergabe von Nutzungs- oder Kontextdaten."
-  - "Referrer Policy ist ein Datenschutz- und Sicherheitsbaustein, ersetzt aber keine Geheimhaltung sensibler Daten in URLs."
-recognizeSignals:
-  - "Es geht um Referrer Policy, wenn der Referrer kann Domain, Pfad und manchmal Query-Informationen enthalten."
-  - "Das Thema wird relevant, wenn Beispiele wie strict-origin-when-cross-origin sendet extern meist nur die Herkunft, intern aber genauere Informationen."
-selfCheckPoints:
-  - "Kann ich Referrer Policy in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "web development"
-  - "sicherheit"
-  - "privacy"
-  - "http"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Sicherheit"]
 draft: false
 ---
 # Referrer Policy

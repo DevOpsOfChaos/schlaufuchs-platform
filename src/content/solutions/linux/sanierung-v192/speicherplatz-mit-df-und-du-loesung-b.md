@@ -3,26 +3,12 @@ title: "Lösung: Speicherplatz mit df und du: Aufgabe B"
 description: "Musterlösung zur Aufgabe linux-v192-020b im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "dateisystem-und-speicher"
-  - "speicherplatz-mit-df-und-du"
-  - "loesung-b"
+topicPath: ["sanierung-v192", "speicherplatz-mit-df-und-du-loesung-b"]
 taskId: "linux-v192-020b"
 relatedExercise: "linux/sanierung-v192/speicherplatz-mit-df-und-du-aufgabe-b"
-tags:
-  - "dateisystem-und-speicher"
-  - "speicherplatz"
-  - "df"
-  - "du"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-020b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Speicherplatz mit df und du“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

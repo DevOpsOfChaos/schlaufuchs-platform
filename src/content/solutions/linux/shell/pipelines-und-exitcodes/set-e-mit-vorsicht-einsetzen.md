@@ -3,21 +3,12 @@ title: "Lösung – set -e mit Vorsicht einsetzen"
 description: "Musterlösung zu set -e mit vorsicht einsetzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "pipelines-und-exitcodes"
-  - "set-e-mit-vorsicht-einsetzen"
+topicPath: ["shell", "pipelines-und-exitcodes", "set-e-mit-vorsicht-einsetzen"]
 taskId: "v112-linux-set-e-mit-vorsicht-einsetzen"
 relatedExercise: "linux/shell/pipelines-und-exitcodes/set-e-mit-vorsicht-einsetzen"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "set-e-mit-vorsicht-einsetzen"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Pipelines und Exitcodes**.

@@ -3,44 +3,17 @@ title: "JavaScript – classList und UI-Zustand sichtbar machen"
 description: "Verstehe, wie JavaScript Zustände über CSS-Klassen steuert, ohne Styling direkt im Code zu verstreuen."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "dom-und-events"
-  - "classlist-und-ui-zustand-sichtbar-machen"
-learningGoals:
-  - "Du nutzt classList als Brücke zwischen Zustand und CSS."
-  - "Du unterscheidest Inhalt ändern und Darstellung umschalten."
-  - "Du hältst Styling-Regeln im CSS statt in vielen JavaScript-Zuweisungen."
-practiceIdeas:
-  - "Baue ein sehr kleines Beispiel mit genau einem sichtbaren Zustand."
-  - "Erkläre den Code zuerst in Alltagssprache und danach mit Fachbegriffen."
-  - "Prüfe bewusst den Fall, dass ein Element, Wert oder Netzwerkzugriff nicht wie erwartet vorhanden ist."
-commonMistakes:
-  - "Viele style-Eigenschaften direkt in JavaScript zu setzen."
-  - "Klassen umzuschalten, ohne den Zustand fachlich zu benennen."
-  - "toggle zu nutzen, wenn add oder remove klarer wäre."
-keyTakeaways:
-  - "JavaScript im Browser verbindet Struktur, Ereignisse, Daten und Rückmeldung."
-  - "Robuste Lösungen behandeln nicht nur den Erfolgsfall."
-  - "Lesbarer Code trennt Auswahl, Entscheidung und Wirkung."
-recognizeSignals:
-  - "Es geht um Browserverhalten, Interaktion, Formularwerte, Datenladen oder gespeicherten Zustand."
-  - "Eine sichtbare Oberfläche soll durch JavaScript verständlicher oder interaktiver werden."
-  - "Der Code muss mit Fehlern, fehlenden Elementen oder leeren Werten umgehen."
-selfCheckPoints:
-  - "Kann ich sagen, welche Browseraufgabe der Code übernimmt?"
-  - "Ist die Rückmeldung für Nutzerinnen und Nutzer sichtbar?"
-  - "Bleibt die Lösung klein genug, um später erweitert zu werden?"
+topicPath: ["javascript", "dom-und-events", "classlist-und-ui-zustand-sichtbar-machen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "web development"
-  - "javascript"
-  - "classlist"
-  - "ui"
-  - "css"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Verstehe, wie JavaScript Zustände über CSS-Klassen steuert, ohne Styling direkt im Code zu verstreuen. Im Mittelpunkt steht nicht ein einzelner Trick, sondern eine ruhige Entscheidung: Was passiert im Browser, was sieht der Mensch und welche Stelle im Code ist dafür zuständig?

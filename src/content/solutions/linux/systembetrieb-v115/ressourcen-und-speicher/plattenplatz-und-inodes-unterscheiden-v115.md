@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Plattenplatz und Inodes unterscheiden"
 description: "Musterlösung zu Plattenplatz und Inodes unterscheiden mit Trennkante und Gegenprobe."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "systembetrieb-v115"
-  - "ressourcen-und-speicher"
-  - "plattenplatz-und-inodes-unterscheiden-v115"
+topicPath: ["systembetrieb-v115", "ressourcen-und-speicher", "plattenplatz-und-inodes-unterscheiden-v115"]
 taskId: "linux-plattenplatz-und-inodes-unterscheiden-v115"
 relatedExercise: "linux/systembetrieb-v115/ressourcen-und-speicher/plattenplatz-und-inodes-unterscheiden-v115"
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "systembetrieb"
-  - "ressourcen und speicher"
-  - "lösung"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Plattenplatz und Inodes unterscheiden**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

@@ -1,29 +1,17 @@
 ---
 title: "Graphen und Beziehungen – ruhig einordnen"
 description: "Übe, graphen und beziehungen fachlich zu erklären und abzugrenzen."
-subject: informatik
+subject: "informatik"
 section: "Datenstrukturen im Einsatz"
-topicPath:
-  - "datenstrukturen-im-einsatz"
-  - "graphen-und-beziehungen"
-  - "uebung"
-taskId: INF-V185-014-1
-tags:
-  - "informatik"
-  - "datenstrukturen-im-einsatz"
-  - "graphen-und-beziehungen"
-hintPoints:
-  - "Beginne mit der Grundidee, nicht mit einem Spezialfall."
-  - "Trenne Begriff, Beispiel und Prüfung."
-selfCheckPoints:
-  - "Ich kann das Thema in eigenen Worten erklären."
-  - "Ich kann ein passendes Beispiel begründen."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel in einem anderen Fachbereich."
-level: einfach
+topicPath: ["datenstrukturen-im-einsatz", "graphen-und-beziehungen", "graphen-und-beziehungen-ruhig-einordnen-v185"]
+taskId: "INF-V185-014-1"
+tags: ["informatik", "Datenstrukturen im Einsatz", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe prüft, ob du **Graphen und Beziehungen** zuerst als allgemeines Thema und nicht nur als Einzelfall lesen kannst.
 
 ## Lernziel

@@ -1,37 +1,19 @@
 ---
 title: "Container-Grundlagen"
 description: "Allgemeiner Überblick über Container, Images und isolierte Laufzeitumgebungen unter Linux."
-subject: linux
+subject: "linux"
 section: "System"
-topicPath:
-  - "container-grundlagen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Container-Grundlagen als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["container-grundlagen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Daten im Container werden oft für dauerhaft gehalten, obwohl sie ohne Volume verloren gehen können."
-keyTakeaways:
-  - "Container isolieren Prozesse und Umgebung."
-  - "Images beschreiben, Container laufen daraus."
-  - "Persistente Daten brauchen bewusste Speicherstrategie."
-recognizeSignals:
-  - "Eine Anwendung soll reproduzierbar laufen."
-  - "Begriffe wie Image, Container, Volume oder Port-Mapping tauchen auf."
-selfCheckPoints:
-  - "Kann ich Container-Grundlagen in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "container"
-  - "docker"
-  - "isolation"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "System"]
 draft: false
 ---
-
 # Container-Grundlagen
 
 ![Schaubild zu Container-Grundlagen.](/schlaufuchs-platform/images/overviews/v149/container-grundlagen.svg)

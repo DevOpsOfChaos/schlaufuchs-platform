@@ -1,34 +1,19 @@
 ---
 title: "Service Worker und Offline-Fähigkeit"
 description: "Allgemeiner Überblick über Service Worker, Caching und Offline-Fähigkeit im Web."
-subject: web-development
+subject: "web-development"
 section: "Browser"
-topicPath:
-  - "service-worker-und-offline-faehigkeit"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Service Worker und Offline-Fähigkeit als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["service-worker-und-offline-faehigkeit", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Falsche Cache-Strategien können veraltete Dateien ausliefern und Fehler schwer nachvollziehbar machen."
-keyTakeaways:
-  - "Service Worker erweitern Webanwendungen um kontrolliertes Caching und Offline-Verhalten."
-  - "Service Worker und Offline-Fähigkeit sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Service Worker und Offline-Fähigkeit."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Service Worker und Offline-Fähigkeit erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "web development"
-  - "service worker"
-  - "offline"
-  - "browser"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Browser"]
 draft: false
 ---
-
 # Service Worker und Offline-Fähigkeit
 
 Ein Service Worker ist ein Skript, das zwischen Browser und Netzwerk vermitteln kann.

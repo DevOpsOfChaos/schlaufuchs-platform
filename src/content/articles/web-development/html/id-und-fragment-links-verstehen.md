@@ -1,45 +1,19 @@
 ---
-title: ID und Fragment-Links verstehen
-description: Verstehe, wie IDs einzelne Bereiche einer Seite eindeutig markieren und wie Fragment-Links gezielt zu genau diesen Stellen springen.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - navigation-und-menues
-  - id-und-fragment-links-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von IDs im HTML-Dokument.
-  - Du beschreibst, wie Fragment-Links zu bestimmten Stellen auf einer Seite springen.
-  - Du liest IDs eher als eindeutige Bezugspunkte als als Styling-Notlösung.
-practiceIdeas:
-  - Vergleiche ein langes Dokument ohne Sprungziele mit einer Seite mit Inhaltsverzeichnis.
-  - Prüfe, welche Abschnittsüberschriften sinnvolle Zielpunkte für Sprunglinks sind.
-  - Lies `#kontakt` oder ähnliche Fragmente eher als Seitenziel denn als Zufallszeichenfolge.
-commonMistakes:
-  - IDs nur als Selektor für CSS zu sehen.
-  - denselben ID-Wert mehrfach auf einer Seite zu verwenden.
-  - Fragment-Links zu setzen, ohne sinnvolle Zielstellen im Inhalt zu haben.
-keyTakeaways:
-  - Eine ID markiert eine Stelle im Dokument eindeutig.
-  - Fragment-Links springen zu genau diesem Bezugspunkt.
-  - Gute Sprungziele verbessern Orientierung auf längeren Seiten.
-recognizeSignals:
-  - Es geht um Inhaltsverzeichnisse, Sprungmarken, Seitenmenüs oder direkte Zielbereiche.
-  - Du sollst erklären, warum ein Link nicht nur eine neue Seite lädt, sondern auf eine Stelle zeigt.
-  - In Beispielen ist Orientierung wichtiger als Design.
-selfCheckPoints:
-  - Kann ich erklären, was eine ID eindeutig macht?
-  - Kann ich beschreiben, wie ein Fragment-Link funktioniert?
-  - Kann ich sinnvolle Ziele für Sprunglinks auf einer Seite benennen?
-tags:
-  - html
-  - id
-  - links
-  - navigation
-level: einfach
+title: "ID und Fragment-Links verstehen"
+description: "Verstehe, wie IDs einzelne Bereiche einer Seite eindeutig markieren und wie Fragment-Links gezielt zu genau diesen Stellen springen."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "id-und-fragment-links-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Lange Seiten brauchen oft mehr als nur normale Links. Manchmal soll ein Klick **nicht auf eine andere Seite**, sondern direkt zu einer bestimmten Stelle **innerhalb derselben Seite** führen. Genau dafür sind IDs und Fragment-Links wichtig.

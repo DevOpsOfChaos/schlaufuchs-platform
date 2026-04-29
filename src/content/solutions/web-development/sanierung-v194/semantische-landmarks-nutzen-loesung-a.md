@@ -3,25 +3,12 @@ title: "Lösung: Semantische Landmarks nutzen: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-development-v194-002a im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "zugang-und-semantik"
-  - "semantische-landmarks-nutzen"
-  - "loesung-a"
-
+topicPath: ["sanierung-v194", "semantische-landmarks-nutzen-loesung-a"]
 taskId: "web-development-v194-002a"
 relatedExercise: "web-development/sanierung-v194/semantische-landmarks-nutzen-aufgabe-a"
-tags:
-  - "semantische"
-  - "landmarks"
-  - "nutzen"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-002a`
 
 Ausgangsauftrag: Ordne die Bereiche einer Lernseite passenden semantischen Elementen zu.

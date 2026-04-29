@@ -1,32 +1,17 @@
 ---
 title: "Garbage-Collection-Pausen"
 description: "Überblick über automatische Speicherbereinigung und ihre Auswirkungen auf Laufzeitverhalten."
-subject: informatik
+subject: "informatik"
 section: "Programmierung"
-topicPath:
-  - "garbage-collection-pausen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Garbage-Collection-Pausen als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Heap, Collector, Pause."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["garbage-collection-pausen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Garbage Collection als kostenlos und zeitlich unsichtbar zu betrachten."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Garbage-Collection-Pausen beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Automatische Speicherbereinigung."
-  - "Wichtige Hinweise liefern vor allem Heap, Collector, Pause."
-recognizeSignals:
-  - "Es geht um automatische speicherbereinigung, heap oder collector."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Garbage-Collection-Pausen erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "informatik"
-  - "speicher"
-  - "laufzeit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
 # Garbage-Collection-Pausen

@@ -3,35 +3,15 @@ title: "Aufgabe – Optimistic UI mit Rollback planen"
 description: "Übe Optimistic UI mit Rollback planen mit Einordnung, Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript-browser"
-  - "events-state-async"
-  - "v110-teil-3"
-  - "optimistic-ui-mit-rollback-planen"
+topicPath: ["javascript-browser", "events-state-async", "v110-teil-3", "optimistic-ui-mit-rollback-planen"]
 taskId: "v110-web-development-optimistic-ui-mit-rollback-planen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "javascript-browser"
-  - "events-state-async"
-  - "optimistic-ui-mit-rollback-planen"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Vergleiche das Thema mit einem Nachbarthema und nenne die Trennkante."
-reflectionPrompt: "Welche kleine Trennkante macht Optimistic UI mit Rollback planen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["web-development", "JavaScript", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Optimistic UI mit Rollback planen**.

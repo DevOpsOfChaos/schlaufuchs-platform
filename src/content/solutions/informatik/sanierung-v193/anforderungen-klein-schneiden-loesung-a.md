@@ -3,24 +3,12 @@ title: "Lösung: Anforderungen klein schneiden: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-002a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "qualitaet-und-wartbarkeit"
-  - "anforderungen-klein-schneiden"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "anforderungen-klein-schneiden-loesung-a"]
 taskId: "informatik-v193-002a"
 relatedExercise: "informatik/sanierung-v193/anforderungen-klein-schneiden-aufgabe-a"
-tags:
-  - "anforderungen"
-  - "klein"
-  - "schneiden"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-002a`
 
 Ausgangsauftrag: Formuliere aus einer unklaren Funktionsidee drei prüfbare Anforderungen.

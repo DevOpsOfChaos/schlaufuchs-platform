@@ -1,48 +1,19 @@
 ---
-title: Stream-Verhalten bei Eingaben verstehen
-description: Verstehe, wie cin Eingaben liest, führende Leerzeichen überspringt und an Zwischenräumen stoppt.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - ein-und-ausgabe
-  - stream-verhalten-bei-eingaben-verstehen
-learningGoals:
-  - Du erklärst, warum cin führende Zwischenräume meist ignoriert.
-  - Du beschreibst, warum Leerzeichen oder Zeilenumbrüche oft das Ende eines Eingabeteils markieren.
-  - Du liest Eingaben ruhiger als Zeichenfolge, die zum erwarteten Typ passen muss.
-practiceIdeas:
-  - Untersuche Beispiele mit Leerzeichen, Tabulatoren und Zeilenumbrüchen.
-  - Vergleiche eine Eingabe für int, char und float.
-  - Beschreibe, an welcher Stelle cin aufhört zu lesen.
-commonMistakes:
-  - Zu glauben, cin übernehme automatisch ganze Eingabezeilen.
-  - Zwischenraumzeichen als normalen Teil jeder Eingabe zu behandeln.
-  - Zu übersehen, dass der erwartete Datentyp das Einlesen mitsteuert.
-keyTakeaways:
-  - cin überspringt führende Zwischenräume meist.
-  - Leerzeichen und Zeilenenden markieren oft das Ende eines Tokens.
-  - Der erwartete Datentyp beeinflusst, wie der Stream gelesen wird.
-recognizeSignals:
-  - Es geht um Leerzeichen, Eingabestreams oder seltsame Eingabeeffekte.
-  - Du sollst erklären, warum nur ein Teil einer Eingabe übernommen wurde.
-  - In Beispielen werden float, int oder char mit derselben Eingabe verglichen.
-selfCheckPoints:
-  - Kann ich erklären, warum ein führendes Leerzeichen oft ignoriert wird?
-  - Kann ich sagen, wann cin mit einem Eingabeteil stoppt?
-  - Kann ich den erwarteten Datentyp in die Erklärung einbauen?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - streams
-  - cin
-  - whitespace
+title: "Stream-Verhalten bei Eingaben verstehen"
+description: "Verstehe, wie cin Eingaben liest, führende Leerzeichen überspringt und an Zwischenräumen stoppt."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "stream-verhalten-bei-eingaben-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Beim Einlesen mit <code>cin</code> ist nicht nur wichtig, **welche Variable** beschrieben wird, sondern auch **wie der Eingabestrom gelesen wird**. Für den Einstieg hilft eine einfache Denkweise: <code>cin</code> liest normalerweise den nächsten passenden Eingabeteil und trennt dabei an Zwischenräumen.

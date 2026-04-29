@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – EEPROM als persistenten Speicher ruhig zuordnen
-description: Musterlösung zur Aufgabe ET-ATMEGA-MEM-301.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - speicher-und-persistenz
-  - atmega-eeprom-grundidee-und-einsatz-verstehen
-  - eeprom-als-persistenten-speicher-ruhig-zuordnen-loesung
-taskId: ET-ATMEGA-MEM-301
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-eeprom-grundidee-und-einsatz-verstehen/eeprom-als-persistenten-speicher-ruhig-zuordnen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – EEPROM als persistenten Speicher ruhig zuordnen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-MEM-301."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-eeprom-grundidee-und-einsatz-verstehen", "eeprom-als-persistenten-speicher-ruhig-zuordnen"]
+taskId: "ET-ATMEGA-MEM-301"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-eeprom-grundidee-und-einsatz-verstehen/eeprom-als-persistenten-speicher-ruhig-zuordnen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

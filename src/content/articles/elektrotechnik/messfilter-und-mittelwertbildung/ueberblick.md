@@ -1,37 +1,19 @@
 ---
 title: "Messfilter und Mittelwertbildung"
 description: "Überblick über einfache Filterung, Mittelwerte und die Glättung von Messsignalen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Messwerte"
-topicPath:
-  - "messfilter-und-mittelwertbildung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Messfilter und Mittelwertbildung als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["messfilter-und-mittelwertbildung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Jede schwankende Messung einfach stärker zu mitteln, ohne die benötigte Reaktionszeit zu prüfen."
-keyTakeaways:
-  - "Filter machen Messwerte ruhiger, aber oft langsamer."
-  - "Der Filter muss zur physikalischen Größe passen."
-  - "Ausreißer, Rauschen und echte Änderungen sind zu unterscheiden."
-recognizeSignals:
-  - "Eine Anzeige zittert oder springt."
-  - "Mehrere Messwerte sollen zu einem stabileren Wert zusammengefasst werden."
-selfCheckPoints:
-  - "Kann ich Messfilter und Mittelwertbildung in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "messwerte"
-  - "filter"
-  - "mittelwert"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Messwerte"]
 draft: false
 ---
-
 # Messfilter und Mittelwertbildung
 
 Messfilter reduzieren Schwankungen in Messwerten. Mittelwertbildung fasst mehrere Messungen zu einem ruhigeren Ergebnis zusammen.

@@ -1,16 +1,19 @@
 ---
 title: "pwd verstehen"
 description: "Wie pwd das aktuelle Verzeichnis anzeigt und warum das für Orientierung im Terminal wichtig ist."
-subject: linux
+subject: "linux"
 section: "Shell / Navigation"
-level: einfach
-tags:
-  - pwd
-  - Shell
-  - Navigation
+topicPath: ["shell", "navigation", "pwd"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell / Navigation"]
 draft: false
 ---
-
 ![Terminal-Beispiel](./pwd-terminal-beispiel.svg)
 
 ## Worum geht es?

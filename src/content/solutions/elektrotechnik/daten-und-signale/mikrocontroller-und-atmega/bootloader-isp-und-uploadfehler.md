@@ -3,20 +3,10 @@ title: "Lösung – Uploadfehler zwischen Bootloader und ISP einordnen"
 description: "Musterlösung zu „Uploadfehler zwischen Bootloader und ISP einordnen“."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "bootloader-isp-und-uploadfehler"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "bootloader-isp-und-uploadfehler"]
 taskId: "et-mc-v93-upload"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/bootloader-isp-und-uploadfehler"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "atmega"
-  - "bootloader"
-  - "isp"
-  - "upload"
-  - "debugging"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

@@ -1,46 +1,19 @@
 ---
 title: "Web Development – A11y-Test mit Tastatur ergänzen"
 description: "Trainiere A11y-Test mit Tastatur ergänzen als kleines Unterthema mit klarer Trennkante, Beispiel und Gegenprobe."
-subject: web-development
+subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "web-projektpraxis-v115"
-  - "reviews-und-tests"
-  - "a11y-test-mit-tastatur-ergaenzen-v115"
-learningGoals:
-  - "Du erklärst A11y-Test mit Tastatur ergänzen an einem kleinen, abgegrenzten Fall."
-  - "Du trennst das Unterthema von einem naheliegenden Nachbarthema."
-  - "Du formulierst eine passende Gegenprobe statt nur eine fertige Antwort."
-practiceIdeas:
-  - "Schreibe zuerst die Prüffrage in eigenen Worten auf."
-  - "Markiere im Fall zwei Hinweise, die wirklich zur Entscheidung gehören."
-  - "Formuliere einen Gegenfall, in dem die Entscheidung anders ausfallen würde."
-commonMistakes:
-  - "Die Tastaturbedienung wird nicht ausprobiert."
-  - "Das Thema wird zu breit eingeordnet und verliert dadurch die prüfbare Trennkante."
-  - "Die Lösung nennt ein Ergebnis, begründet aber nicht die Abgrenzung."
-keyTakeaways:
-  - "Dieses Unterthema prüft vor allem: Kann der Ablauf ohne Maus abgeschlossen werden?"
-  - "Eine gute Lösung benennt die Trennkante ausdrücklich."
-  - "Die Gegenprobe zeigt, ob die Begründung wirklich trägt."
-recognizeSignals:
-  - "Die Aufgabe fragt nach A11y-Test mit Tastatur ergänzen."
-  - "Ähnliche Begriffe oder Fälle liegen nah beieinander."
-  - "Eine kleine Änderung im Fall würde zu einer anderen Entscheidung führen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-level: mittel
-tags:
-  - "web development"
-  - "feinstruktur"
-  - "unterthema"
-  - "web-projektpraxis"
-  - "reviews und tests"
+topicPath: ["web-projektpraxis-v115", "reviews-und-tests", "a11y-test-mit-tastatur-ergaenzen-v115"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "Feinstruktur Web Development"]
 draft: false
 ---
-
 <img src="/schlaufuchs-platform/illustrations/web-development-a11y-test-mit-tastatur-ergaenzen-v115.svg" alt="Lernillustration zu A11y-Test mit Tastatur ergänzen" loading="lazy" />
 
 ## Grundidee

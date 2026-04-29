@@ -1,44 +1,19 @@
 ---
-title: Prozentuale Veränderung verstehen
-description: Verstehe, wie sich eine Größe relativ zu ihrem Ausgangswert verändert und warum Prozentangaben mehr sagen als bloße Differenzen.
-subject: mathematik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - prozentuale-veraenderung-verstehen
-learningGoals:
-  - Du erklärst, was eine prozentuale Veränderung beschreibt.
-  - Du unterscheidest absolute und relative Veränderung sauber.
-  - Du deutest Prozentangaben in Alltagssituationen ruhiger.
-practiceIdeas:
-  - Vergleiche zwei Preisänderungen auf ihren prozentualen Unterschied.
-  - Erkläre, warum dieselbe absolute Änderung bei verschiedenen Ausgangswerten unterschiedlich stark wirkt.
-  - Formuliere eine Erhöhung oder Senkung einmal in Euro und einmal in Prozent.
-commonMistakes:
-  - Prozentangaben mit bloßen Punktunterschieden zu verwechseln.
-  - Den Ausgangswert nicht zu beachten.
-  - Eine Veränderung nur über den Endwert zu deuten.
-keyTakeaways:
-  - Prozentuale Veränderung bezieht sich immer auf einen Ausgangswert.
-  - Dieselbe absolute Änderung kann relativ unterschiedlich stark sein.
-  - Prozent helfen, Veränderungen vergleichbar zu machen.
-recognizeSignals:
-  - Es geht um Preissteigerungen, Rabatte, Wachstum oder Rückgang.
-  - Du sollst beurteilen, wie stark sich etwas relativ verändert hat.
-  - In Beispielen muss der Ausgangswert ausdrücklich mitgedacht werden.
-selfCheckPoints:
-  - Kann ich absolute und prozentuale Veränderung unterscheiden?
-  - Kann ich den Ausgangswert in meiner Deutung sauber benennen?
-  - Kann ich erklären, warum Prozentangaben für Vergleiche nützlich sind?
-tags:
-  - prozent
-  - veraenderung
-  - grundwert
-  - grundlagen
-level: einfach
+title: "Prozentuale Veränderung verstehen"
+description: "Verstehe, wie sich eine Größe relativ zu ihrem Ausgangswert verändert und warum Prozentangaben mehr sagen als bloße Differenzen."
+subject: "mathematik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "prozentuale-veraenderung-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Grundlagen"]
 draft: false
 ---
-
 ## Grundidee
 
 Eine prozentuale Veränderung beschreibt nicht nur, **wie viel mehr oder weniger** etwas geworden ist, sondern **wie stark sich eine Größe im Verhältnis zu ihrem Ausgangswert verändert hat**.

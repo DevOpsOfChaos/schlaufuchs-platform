@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Prozentrollen in Alltagssätzen erkennen
-description: Erste festgehaltene Musterlösung zur Aufgabe MATH-GRUNDLAGEN-PROZENT-001.
-subject: mathematik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - prozentsatz-grundwert-und-prozentwert-verstehen
-  - prozentrollen-in-alltagssaetzen-erkennen-loesung
-taskId: MATH-GRUNDLAGEN-PROZENT-001
-relatedExercise: src/content/exercises/mathematik/grundlagen/prozentsatz-grundwert-und-prozentwert-verstehen/prozentrollen-in-alltagssaetzen-erkennen.md
-tags:
-  - mathematik
-  - prozent
-  - grundwert
-  - loesung
-  - task-id
+title: "Musterlösung – Prozentrollen in Alltagssätzen erkennen"
+description: "Erste festgehaltene Musterlösung zur Aufgabe MATH-GRUNDLAGEN-PROZENT-001."
+subject: "mathematik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "prozentsatz-grundwert-und-prozentwert-verstehen", "prozentrollen-in-alltagssaetzen-erkennen"]
+taskId: "MATH-GRUNDLAGEN-PROZENT-001"
+relatedExercise: "src/content/exercises/mathematik/grundlagen/prozentsatz-grundwert-und-prozentwert-verstehen/prozentrollen-in-alltagssaetzen-erkennen.md"
+tags: ["mathematik", "Grundlagen", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Rollen benennen
 
 In einer Klasse mit 30 Schülerinnen und Schülern fahren 40 % mit dem Fahrrad.

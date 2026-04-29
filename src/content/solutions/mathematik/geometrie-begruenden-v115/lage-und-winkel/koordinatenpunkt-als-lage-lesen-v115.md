@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Koordinatenpunkt als Lage lesen"
 description: "Musterlösung zu Koordinatenpunkt als Lage lesen mit Trennkante und Gegenprobe."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "geometrie-begruenden-v115"
-  - "lage-und-winkel"
-  - "koordinatenpunkt-als-lage-lesen-v115"
+topicPath: ["geometrie-begruenden-v115", "lage-und-winkel", "koordinatenpunkt-als-lage-lesen-v115"]
 taskId: "mathematik-koordinatenpunkt-als-lage-lesen-v115"
 relatedExercise: "mathematik/geometrie-begruenden-v115/lage-und-winkel/koordinatenpunkt-als-lage-lesen-v115"
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "geometrisch begründen"
-  - "lage und winkel"
-  - "lösung"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Koordinatenpunkt als Lage lesen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

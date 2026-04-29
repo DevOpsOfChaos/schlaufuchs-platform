@@ -1,47 +1,19 @@
 ---
-title: Bitoperatoren und Bitmasken verstehen
-description: Verstehe, wie einzelne Bits gesetzt, gelöscht und invertiert werden und warum dafür Masken benutzt werden.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - operatoren-und-ausdruecke
-  - bitoperatoren-und-bitmasken-verstehen
-learningGoals:
-  - Du erklärst die Grundidee bitweiser Operatoren.
-  - Du liest einfache Bitmasken zum Setzen, Löschen und Invertieren von Bits.
-  - Du unterscheidest bitweise Operatoren von logischen Operatoren.
-practiceIdeas:
-  - Beschreibe eine Bitmaske in Worten, bevor du sie symbolisch liest.
-  - Markiere in einer Zahl das Bit, das verändert werden soll.
-  - Vergleiche logisches UND mit bitweisem UND bewusst nach ihrer Rolle.
-commonMistakes:
-  - <code>&</code> und <code>&&</code> zu verwechseln.
-  - Zu denken, Bitoperatoren arbeiteten mit wahr/falsch statt mit Bitmustern.
-  - Eine Bitmaske anzuwenden, ohne das Zielbit vorher zu markieren.
-keyTakeaways:
-  - Bitoperatoren arbeiten direkt auf der Binärdarstellung.
-  - Bitmasken helfen, einzelne Bits gezielt zu verändern.
-  - Setzen, Rücksetzen und Invertieren folgen jeweils einem eigenen Muster.
-recognizeSignals:
-  - Es geht um Schieben, bitweises UND/ODER/XOR oder Komplement.
-  - Ein Beispiel möchte ein bestimmtes Bit manipulieren.
-  - Du sollst Binärdarstellung statt nur Dezimalwerten betrachten.
-selfCheckPoints:
-  - Kann ich <code>|</code>, <code>&</code> und <code>^</code> fachlich auseinanderhalten?
-  - Kann ich erklären, was eine Bitmaske tut?
-  - Kann ich ein Zielbit in einem Datenwort markieren?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - bitoperatoren
-  - masken
+title: "Bitoperatoren und Bitmasken verstehen"
+description: "Verstehe, wie einzelne Bits gesetzt, gelöscht und invertiert werden und warum dafür Masken benutzt werden."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "bitoperatoren-und-bitmasken-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Bitoperatoren arbeiten nicht auf der „normalen Zahl als Ganze“, sondern auf ihrer Binärdarstellung. Genau deshalb sind sie nützlich, wenn einzelne Bits in einem Datenwort gezielt verändert werden sollen.

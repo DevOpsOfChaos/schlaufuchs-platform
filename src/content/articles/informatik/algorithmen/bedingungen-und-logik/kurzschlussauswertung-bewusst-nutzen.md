@@ -3,44 +3,17 @@ title: "Informatik – Kurzschlussauswertung bewusst nutzen"
 description: "Lerne kurzschlussauswertung bewusst nutzen als kleines Unterthema mit Beispiel, Abgrenzung und Prüfstrategie."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "algorithmen"
-  - "bedingungen-und-logik"
-  - "kurzschlussauswertung-bewusst-nutzen"
-learningGoals:
-  - "Du erklärst kurzschlussauswertung bewusst nutzen in einem klaren Kontext."
-  - "Du grenzt das Unterthema von einem typischen Nachbarthema ab."
-  - "Du nutzt eine konkrete Gegenprobe statt nur eine Merkliste."
-practiceIdeas:
-  - "Formuliere ein eigenes Mini-Beispiel mit einer typischen Verwechslung."
-  - "Schreibe einen Prüfschritt auf, der das Ergebnis kontrolliert."
-  - "Ordne das Thema bewusst in den kleinen Unterpfad ein."
-commonMistakes:
-  - "Alle Teilbedingungen werden als immer ausgeführt angenommen."
-  - "Das Thema wird in einem breiten Sammelkapitel versteckt."
-  - "Die Lösung nennt ein Ergebnis, aber keinen prüfbaren Weg."
-keyTakeaways:
-  - "Kurzschlussauswertung kann Fehler vermeiden und Absicht zeigen."
-  - "Kleine Unterthemen machen Wiederholung und Suche einfacher."
-  - "Aufgabe und Lösung sollen dieselbe Trennkante verwenden."
-recognizeSignals:
-  - "Eine Aufgabe enthält einen Begriff, der leicht mit einem Nachbarthema verwechselt wird."
-  - "Ein Beispiel braucht vor der Rechnung oder Umsetzung eine Einordnung."
-  - "Eine Gegenprobe kann den gewählten Weg bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich den typischen Fehler fachlich ausschließen?"
-  - "Passt meine Lösung genau zum Unterpfad?"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "algorithmen"
-  - "kurzschlussauswertung-bewusst-nutzen"
+topicPath: ["algorithmen", "bedingungen-und-logik", "kurzschlussauswertung-bewusst-nutzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["informatik", "Feinstruktur Informatik"]
 draft: false
 ---
-
 ## Grundidee
 
 **Kurzschlussauswertung bewusst nutzen** ist bewusst als kleines Unterthema angelegt. Lerne kurzschlussauswertung bewusst nutzen als kleines Unterthema mit Beispiel, Abgrenzung und Prüfstrategie. Dadurch bleibt die Seite auffindbar und landet nicht in einem übergroßen Sammelbereich.

@@ -3,22 +3,12 @@ title: "Lösung: Normalisierung von Daten: Grundordnung"
 description: "Musterlösung zur Aufgabe dat-v189-039a."
 subject: "daten-und-signale"
 section: "datenpraxis"
-topicPath:
-  - "datenpraxis"
-  - "normalisierung-von-daten"
-  - "loesung-a"
+topicPath: ["sanierung-v189", "normalisierung-von-daten-aufgabe-a"]
 taskId: "dat-v189-039a"
 relatedExercise: "daten-und-signale/sanierung-v189/normalisierung-von-daten-aufgabe-a"
-tags:
-  - "normalisierung"
-  - "daten"
-  - "vergleich"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-039a`
 
 Eine mögliche Lösung:

@@ -1,46 +1,19 @@
 ---
 title: "Informatik – Ausgabe als Zwischenkontrolle nutzen"
 description: "Trainiere Ausgabe als Zwischenkontrolle nutzen als kleines Unterthema mit klarer Trennkante, Beispiel und Gegenprobe."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "programmierpraxis-v115"
-  - "debugging-klein"
-  - "ausgabe-als-zwischenkontrolle-nutzen-v115"
-learningGoals:
-  - "Du erklärst Ausgabe als Zwischenkontrolle nutzen an einem kleinen, abgegrenzten Fall."
-  - "Du trennst das Unterthema von einem naheliegenden Nachbarthema."
-  - "Du formulierst eine passende Gegenprobe statt nur eine fertige Antwort."
-practiceIdeas:
-  - "Schreibe zuerst die Prüffrage in eigenen Worten auf."
-  - "Markiere im Fall zwei Hinweise, die wirklich zur Entscheidung gehören."
-  - "Formuliere einen Gegenfall, in dem die Entscheidung anders ausfallen würde."
-commonMistakes:
-  - "Nur das Endergebnis wird betrachtet."
-  - "Das Thema wird zu breit eingeordnet und verliert dadurch die prüfbare Trennkante."
-  - "Die Lösung nennt ein Ergebnis, begründet aber nicht die Abgrenzung."
-keyTakeaways:
-  - "Dieses Unterthema prüft vor allem: Welche Zwischenwerte zeigen, ab wann der Fehler entsteht?"
-  - "Eine gute Lösung benennt die Trennkante ausdrücklich."
-  - "Die Gegenprobe zeigt, ob die Begründung wirklich trägt."
-recognizeSignals:
-  - "Die Aufgabe fragt nach Ausgabe als Zwischenkontrolle nutzen."
-  - "Ähnliche Begriffe oder Fälle liegen nah beieinander."
-  - "Eine kleine Änderung im Fall würde zu einer anderen Entscheidung führen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-level: mittel
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "programmierpraxis"
-  - "debugging klein schneiden"
+topicPath: ["programmierpraxis-v115", "debugging-klein", "ausgabe-als-zwischenkontrolle-nutzen-v115"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Feinstruktur Informatik"]
 draft: false
 ---
-
 <img src="/schlaufuchs-platform/illustrations/informatik-ausgabe-als-zwischenkontrolle-nutzen-v115.svg" alt="Lernillustration zu Ausgabe als Zwischenkontrolle nutzen" loading="lazy" />
 
 ## Grundidee

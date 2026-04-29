@@ -3,22 +3,12 @@ title: "Lösung – Sicherheits-Header als Grundidee einordnen"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Projektpraxis-Aufgabe."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "sicherheits-header-grundidee-einordnen"
-tags:
-  - "web development"
-  - "sicherheit"
-  - "header"
-  - "browser"
-  - "betrieb"
-  - "lösung"
+topicPath: ["projektpraxis", "betrieb-und-release", "sicherheits-header-grundidee-einordnen"]
 taskId: "web-v105-sicherheits-header-grundidee-einordnen"
 relatedExercise: "web-development/projektpraxis/betrieb-und-release/sicherheits-header-grundidee-einordnen"
+tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Eine gute Lösung beginnt mit der Nutzer- oder Wartungssituation. Das Problem wird nicht nur als technische Kleinigkeit behandelt, sondern als Risiko für Verständlichkeit, Betrieb oder spätere Änderung.

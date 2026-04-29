@@ -3,44 +3,17 @@ title: "HTML – responsive Tabellen ohne Bedeutungsverlust"
 description: "Verstehe, warum eine Tabelle auf kleinen Bildschirmen nicht einfach zerlegt werden darf, wenn Kopf- und Datenbezug verloren gehen."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "tabellen-barrierearm"
-  - "responsive-tabellen-ohne-bedeutungsverlust"
-tags:
-  - "web development"
-  - "html"
-  - "tabellen"
-  - "responsive"
-  - "semantik"
-learningGoals:
-  - "Du unterscheidest echte Datentabellen von Layoutgittern."
-  - "Du erklärst, warum Tabellenköpfe für Bedeutung wichtig sind."
-  - "Du planst mobile Darstellung ohne Bedeutungsverlust."
-practiceIdeas:
-  - "Übertrage das Muster auf eine kleine eigene Oberfläche."
-  - "Prüfe den Fall mit Tastatur, kleinem Bildschirm oder Fehlermeldung."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "Tabellenzellen auf Karten umzubauen, ohne die Spaltenüberschrift mitzunehmen."
-  - "Layoutprobleme durch Entfernen semantischer Tabellenstruktur zu lösen."
-  - "Horizontales Scrollen grundsätzlich als Fehler zu sehen."
-keyTakeaways:
-  - "Robuste Webentwicklung verbindet Struktur, Zustand und verständliche Rückmeldung."
-  - "Eine gute Lösung bleibt auch bei Tastaturbedienung, Fehlern oder kleinen Bildschirmen nachvollziehbar."
-  - "Saubere Projektpraxis bedeutet, Entscheidungen sichtbar und überprüfbar zu machen."
-recognizeSignals:
-  - "Eine Oberfläche funktioniert scheinbar, wird aber in Sonderfällen unklar."
-  - "Nutzerinnen und Nutzer brauchen Orientierung, Status oder eine konkrete Korrekturmöglichkeit."
-  - "HTML, CSS und JavaScript müssen gemeinsam statt isoliert betrachtet werden."
-selfCheckPoints:
-  - "Kann ich erklären, welcher Zustand gerade sichtbar gemacht wird?"
-  - "Ist die Lösung auch ohne Maus, perfekte Verbindung oder großen Bildschirm verständlich?"
-  - "Sind sichtbare Texte klar, deutsch und nah an der betroffenen Handlung formuliert?"
+topicPath: ["html", "tabellen-barrierearm", "responsive-tabellen-ohne-bedeutungsverlust"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Verstehe, warum eine Tabelle auf kleinen Bildschirmen nicht einfach zerlegt werden darf, wenn Kopf- und Datenbezug verloren gehen. Diese Seite behandelt das Thema als praktische Entscheidung im Webprojekt: Was sehen Nutzerinnen und Nutzer, was passiert technisch im Hintergrund und wie bleibt die Lösung später wartbar?

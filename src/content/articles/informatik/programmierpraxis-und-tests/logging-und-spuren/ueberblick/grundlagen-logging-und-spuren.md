@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Logging und Programmspruren"
 description: "Allgemeiner Überblick über logging und programmspruren in der Informatik."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "logging-und-spuren"
-  - "ueberblick"
-learningGoals:
-  - "Du erklärst, wie Logs Abläufe nachvollziehbar machen, ohne das Programm selbst zu erklären."
-  - "Du ordnest typische Beispiele und Grenzen des Themas ein."
-  - "Du unterscheidest Grundidee, Anwendung und häufige Fehler."
-practiceIdeas:
-  - "Formuliere die Grundidee in drei Sätzen ohne Spezialfall."
-  - "Ordne ein eigenes Beispiel dem passenden Teilaspekt zu."
-commonMistakes:
-  - "Passwörter loggen"
-  - "zu viel Rauschen erzeugen"
-  - "Logs als Ersatz für Tests sehen"
-keyTakeaways:
-  - "Logging und Programmspruren braucht zuerst eine klare begriffliche Einordnung."
-  - "Beispiele helfen nur, wenn ihr Kontext bekannt ist."
-  - "Gute Informatikarbeit trennt Modell, Umsetzung und Prüfung."
-recognizeSignals:
-  - "Ein Thema wirkt wie ein Einzelfall, braucht aber zuerst einen allgemeinen Rahmen."
-  - "Mehrere Beispiele zeigen dieselbe Grundidee aus verschiedenen Blickwinkeln."
-selfCheckPoints:
-  - "Kann ich Grundidee und Beispiel unterscheiden?"
-  - "Kann ich typische Fehler nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "programmierpraxis-und-tests"
-  - "logging-und-spuren"
+topicPath: ["programmierpraxis-und-tests", "logging-und-spuren", "ueberblick", "grundlagen-logging-und-spuren"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierpraxis und Tests"]
 draft: false
 ---
-
 ![Schaubild: Logging und Programmspruren](/schlaufuchs-platform/images/overviews/v185/logging-und-spuren.svg)
 
 ## Begriff

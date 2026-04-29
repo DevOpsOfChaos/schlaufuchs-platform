@@ -3,45 +3,17 @@ title: "Linux – sudo nicht als Standardlösung verwenden"
 description: "Unterscheide Rechteproblem, Besitzproblem und falschen Pfad, bevor du Befehle pauschal mit sudo ausführst."
 subject: "linux"
 section: "Rechte"
-topicPath:
-  - "system"
-  - "rechte-und-besitz"
-  - "sudo-nicht-als-standardloesung-verwenden"
-learningGoals:
-  - "Du erklärst die Kernidee von „Rechteentscheidung“ in eigenen Worten."
-  - "Du ordnest das Thema einem klaren Unterthema zu statt es in einem Sammelbereich zu verlieren."
-  - "Du leitest eine kleine Gegenprobe für echte Aufgaben oder Projekte ab."
-practiceIdeas:
-  - "Markiere zuerst, welche Unterfrage wirklich gestellt ist."
-  - "Notiere eine typische Fehlannahme und eine passende Gegenprobe."
-  - "Übertrage die Denkbewegung auf ein zweites kleines Beispiel."
-commonMistakes:
-  - "jeden Fehler mit sudo wiederholen"
-  - "Dateien versehentlich root gehören lassen"
-  - "Berechtigung und Existenz verwechseln"
-keyTakeaways:
-  - "Rechteentscheidung wird klarer, wenn Zustand, Ursache und Prüfschritt getrennt werden."
-  - "Kleine Unterthemen sind leichter auffindbar und besser prüfbar als breite Sammelordner."
-  - "Eine gute Erklärung endet mit einer konkreten Gegenprobe."
-recognizeSignals:
-  - "Die Aufgabe enthält einen scheinbar kleinen Sonderfall oder Fehlerzustand."
-  - "Es muss zwischen Begriffen unterschieden werden, die im Alltag leicht vermischt werden."
-  - "Eine Entscheidung soll begründet und nicht nur auswendig angewendet werden."
-selfCheckPoints:
-  - "Kann ich das Unterthema mit einem Satz von Nachbarthemen abgrenzen?"
-  - "Kann ich einen typischen Fehler benennen?"
-  - "Kann ich eine konkrete Prüfung oder Rechnung anschließen?"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "praxis"
-  - "rechteentscheidung"
-  - "rechte-und-besitz"
+topicPath: ["system", "rechte-und-besitz", "sudo-nicht-als-standardloesung-verwenden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["linux", "Rechte"]
 draft: false
 ---
-
 ## Grundidee
 
 sudo gibt einem Befehl mehr Rechte. Das löst manche Verwaltungsaufgaben, kann aber ein falsches Verständnis von Besitz, Pfad oder Dateirechten verdecken.

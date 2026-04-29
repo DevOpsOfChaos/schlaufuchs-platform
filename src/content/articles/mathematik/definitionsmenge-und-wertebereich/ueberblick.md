@@ -1,37 +1,19 @@
 ---
 title: "Definitionsmenge und Wertebereich"
 description: "Überblick über erlaubte Eingaben und mögliche Ausgaben von Funktionen."
-subject: mathematik
+subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "definitionsmenge-und-wertebereich"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Definitionsmenge und Wertebereich als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["definitionsmenge-und-wertebereich", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nullstellen werden oft berechnet, ohne zu prüfen, ob sie in der Definitionsmenge liegen."
-keyTakeaways:
-  - "Definitionsmenge beschreibt erlaubte Eingaben."
-  - "Wertebereich beschreibt mögliche Ausgaben."
-  - "Rechenvorschrift und Kontext bestimmen Grenzen."
-recognizeSignals:
-  - "Eine Funktion enthält Brüche, Wurzeln oder Sachgrenzen."
-  - "Gefundene Werte müssen auf Zulässigkeit geprüft werden."
-selfCheckPoints:
-  - "Kann ich Definitionsmenge und Wertebereich in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "funktionen"
-  - "definitionsmenge"
-  - "wertebereich"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
-
 # Definitionsmenge und Wertebereich
 
 ![Schaubild zu Definitionsmenge und Wertebereich.](/schlaufuchs-platform/images/overviews/v149/definitionsmenge-und-wertebereich.svg)

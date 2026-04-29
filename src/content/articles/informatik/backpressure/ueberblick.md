@@ -1,36 +1,19 @@
 ---
 title: "Backpressure"
 description: "Backpressure bezeichnet ein Grundthema im Bereich Software, Daten, Architektur und systematische Problemlösung. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-subject: informatik
+subject: "informatik"
 section: "Verteilte Systeme"
-topicPath:
-  - "backpressure"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Backpressure als allgemeinen Grundbegriff einordnen."
-  - "Du kennst Zweck, Zusammenhang, typische Teilaspekte und Grenzen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle behandelt werden."
+topicPath: ["backpressure", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Backpressure nur als einzelner Arbeitsschritt verstanden, obwohl der Begriff einen größeren Zusammenhang beschreibt."
-keyTakeaways:
-  - "Backpressure bezeichnet ein Grundthema im Bereich Software, Daten, Architektur und systematische Problemlösung. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-  - "Ein Überblick trennt Begriff, Zweck, Beispiel und Grenze."
-  - "Spezialseiten werden verständlicher, wenn die allgemeine Einordnung vorher klar ist."
-recognizeSignals:
-  - "Es geht um Backpressure, wenn mehrere Einzelbeobachtungen ohne Grundbegriff schwer einzuordnen sind."
-  - "Der Begriff hilft, Werkzeuge, Werte, Regeln oder Darstellungen fachlich zu sortieren."
-selfCheckPoints:
-  - "Kann ich Backpressure in zwei bis drei Sätzen erklären?"
-  - "Kann ich ein Beispiel und eine typische Grenze nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "last"
-  - "streams"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Verteilte Systeme"]
 draft: false
 ---
-
 # Backpressure
 
 ![Schaubild zu Backpressure.](/schlaufuchs-platform/images/overviews/v150/backpressure.svg)

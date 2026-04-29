@@ -1,23 +1,14 @@
 ---
-title: Lösung – Masseverbindung bewusst prüfen
-description: Musterlösung zur Aufgabe über Masseverbindung bewusst prüfen.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- messen-und-sicherheit
-- messaufbau-und-schutz
-- masseverbindung-bewusst-pruefen-v114
-taskId: v114-elektrotechnik-masseverbindung-bewusst-pruefen-v114
-relatedExercise: elektrotechnik/messen-und-sicherheit/messaufbau-und-schutz/masseverbindung-bewusst-pruefen-v114
-tags:
-- elektrotechnik
-- v114
-- loesung
-- messen-und-sicherheit
-- messaufbau-und-schutz
+title: "Lösung – Masseverbindung bewusst prüfen"
+description: "Musterlösung zur Aufgabe über Masseverbindung bewusst prüfen."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["messen-und-sicherheit", "messaufbau-und-schutz", "masseverbindung-bewusst-pruefen-v114"]
+taskId: "v114-elektrotechnik-masseverbindung-bewusst-pruefen-v114"
+relatedExercise: "elektrotechnik/messen-und-sicherheit/messaufbau-und-schutz/masseverbindung-bewusst-pruefen-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

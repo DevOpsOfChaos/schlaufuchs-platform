@@ -3,21 +3,12 @@ title: "Lösung – Landmarken für Orientierung nutzen"
 description: "Musterlösung zu landmarken für orientierung nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "html"
-  - "semantik-und-struktur"
-  - "landmarken-fuer-orientierung-nutzen"
+topicPath: ["html", "semantik-und-struktur", "landmarken-fuer-orientierung-nutzen"]
 taskId: "v112-web-development-landmarken-fuer-orientierung-nutzen"
 relatedExercise: "web-development/html/semantik-und-struktur/landmarken-fuer-orientierung-nutzen"
-tags:
-  - "web-development"
-  - "v112"
-  - "feinstruktur"
-  - "html"
-  - "landmarken-fuer-orientierung-nutzen"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **HTML Semantik und Struktur**.

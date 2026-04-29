@@ -3,22 +3,12 @@ title: "Lösung: Bedingungen und Lösungsmenge: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-059a."
 subject: "mathematik"
 section: "gleichungen-und-modelle"
-topicPath:
-  - "gleichungen-und-modelle"
-  - "bedingungen-und-loesungsmenge"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "bedingungen-und-loesungsmenge-aufgabe-a"]
 taskId: "mat-v188-059a"
 relatedExercise: "mathematik/sanierung-v188/bedingungen-und-loesungsmenge-aufgabe-a"
-tags:
-  - "loesungsmenge"
-  - "bedingungen"
-  - "gleichungen"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "gleichungen-und-modelle", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-059a`
 
 Eine mögliche Lösung:

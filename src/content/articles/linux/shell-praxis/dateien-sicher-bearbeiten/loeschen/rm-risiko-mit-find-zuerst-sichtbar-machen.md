@@ -3,46 +3,17 @@ title: "Linux – rm-Risiko mit find zuerst sichtbar machen"
 description: "Lerne Sicheres Löschen als kleines, klar auffindbares Unterthema mit Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell-praxis"
-  - "dateien-sicher-bearbeiten"
-  - "loeschen"
-  - "rm-risiko-mit-find-zuerst-sichtbar-machen"
-learningGoals:
-  - "Du erklärst Sicheres Löschen als enges Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich sauber ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Formuliere eine Gegenprobe mit verändertem Kontext."
-  - "Ordne die Seite bewusst einem kleinen Unterthemenpfad zu."
-commonMistakes:
-  - "Die Löschaktion wird ohne vorherige Trefferliste gestartet."
-  - "Das Thema in einem breiten Sammelkapitel verschwinden lassen."
-  - "Eine Lösung ohne konkreten Prüfschritt formulieren."
-keyTakeaways:
-  - "Sicheres Löschen wird durch Kontext, Abgrenzung und Prüfung klar."
-  - "Feinere Unterthemen reduzieren Doppelungen und Suchaufwand."
-  - "Aufgabe und Lösung sollen dieselbe Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Eine breite Kapitelüberschrift reicht für die Entscheidung nicht aus."
-  - "Ein konkreter Prüfschritt kann die Einordnung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "linux"
-  - "betrieb"
-  - "unterthema"
-  - "shell-praxis"
-  - "dateien-sicher-bearbeiten"
-  - "rm-risiko-mit-find-zuerst-sichtbar-machen"
+topicPath: ["shell-praxis", "dateien-sicher-bearbeiten", "loeschen", "rm-risiko-mit-find-zuerst-sichtbar-machen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["linux", "Feinstruktur Linux"]
 draft: false
 ---
-
 ## Grundidee
 
 **Sicheres Löschen** ist bewusst als kleines Unterthema angelegt. Lerne Sicheres Löschen als kleines, klar auffindbares Unterthema mit Abgrenzung, Prüfschritt und Gegenprobe. So bleibt die Lernseite auffindbar, ohne noch mehr Inhalt in ein übergroßes Sammelthema zu schieben.

@@ -3,35 +3,15 @@ title: "Aufgabe – systemctl start und enable unterscheiden"
 description: "Übe start und enable mit einem konkreten Fall, einer Abgrenzung und einer Gegenprobe."
 subject: "linux"
 section: "System"
-topicPath:
-  - "system"
-  - "dienste-und-systemd"
-  - "start-enable"
-  - "systemctl-start-und-enable-unterscheiden"
+topicPath: ["system", "dienste-und-systemd", "start-enable", "systemctl-start-und-enable-unterscheiden"]
 taskId: "v108-linux-systemctl-start-und-enable-unterscheiden"
-tags:
-  - "linux"
-  - "shell"
-  - "praxis"
-  - "system"
-  - "dienste-und-systemd"
-  - "start und enable"
-hintPoints:
-  - "Bestimme zuerst das kleine Unterthema."
-  - "Notiere, welches Nachbarthema ausdrücklich nicht gemeint ist."
-  - "Nutze eine Gegenprobe statt nur eine Behauptung."
-selfCheckPoints:
-  - "Ist der Fall eng genug eingeordnet?"
-  - "Wird die typische Verwechslung sichtbar?"
-  - "Passt die Gegenprobe zur Wissensseite?"
-transferIdeas:
-  - "Verändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere aus deiner Lösung einen kurzen Merksatz für eine zweite Person."
-reflectionPrompt: "Warum wäre eine breite Sammelantwort hier unübersichtlicher als das Unterthema „start und enable“?"
+tags: ["linux", "System", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den Fall zu **start und enable**.

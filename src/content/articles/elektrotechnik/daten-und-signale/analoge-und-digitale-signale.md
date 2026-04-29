@@ -1,44 +1,19 @@
 ---
-title: Analoge und digitale Signale
-description: Unterscheide kontinuierliche und diskrete Signale und verstehe, warum digitale Technik klare Zustände bevorzugt.
-subject: elektrotechnik
-section: Daten und Signale
-topicPath:
-  - daten-und-signale
-  - analoge-und-digitale-signale
-tags:
-  - signal
-  - analog
-  - digital
-  - rechteck
-learningGoals:
-  - "Du unterscheidest analoge und digitale Signale fachlich sauber."
-  - "Du erklärst, warum digitale Technik mit klaren Zuständen arbeitet."
-  - "Du ordnest einfache Beispiele aus Messung und Datenverarbeitung richtig ein."
-practiceIdeas:
-  - "Vergleiche Temperatur, Ton oder Helligkeit danach, ob die Größe kontinuierlich oder in klaren Stufen betrachtet wird."
-  - "Lies Spannungs-Zeit-Diagramme bewusst nach Signalform und Zuständen."
-  - "Beschreibe, welche Vorteile klare Zustände in digitalen Systemen haben."
-commonMistakes:
-  - "Digital mit modern und analog mit alt gleichzusetzen."
-  - "Zu glauben, digitale Signale seien automatisch genauer."
-  - "Signalform und Informationsbedeutung nicht zu trennen."
-keyTakeaways:
-  - "Analoge Signale ändern sich kontinuierlich."
-  - "Digitale Signale arbeiten mit klar unterscheidbaren Zuständen."
-  - "Digitale Verarbeitung profitiert von eindeutigen Pegeln und Regeln."
-recognizeSignals:
-  - "Es geht um Signalformen, Spannungs-Zeit-Diagramme, Messwerte oder die Umwandlung zwischen analog und digital."
-  - "Du sollst erklären, warum ein System mit Stufen oder klaren Zuständen arbeitet."
-  - "Ein Beispiel vergleicht kontinuierliche Verläufe mit Schaltzuständen."
-selfCheckPoints:
-  - "Kann ich analog und digital sauber unterscheiden?"
-  - "Kann ich an einem Beispiel begründen, welche Darstellung vorliegt?"
-  - "Kann ich erklären, warum digitale Systeme feste Zustände bevorzugen?"
-level: einfach
+title: "Analoge und digitale Signale"
+description: "Unterscheide kontinuierliche und diskrete Signale und verstehe, warum digitale Technik klare Zustände bevorzugt."
+subject: "elektrotechnik"
+section: "Daten und Signale"
+topicPath: ["daten-und-signale", "analoge-und-digitale-signale"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Daten und Signale"]
 draft: false
 ---
-
 ## Warum diese Unterscheidung wichtig ist
 
 Viele technische Systeme verbinden physikalische Größen mit digitaler Verarbeitung. Genau deshalb ist die Unterscheidung zwischen analog und digital grundlegend.

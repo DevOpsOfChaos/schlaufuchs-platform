@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Binärlogik und Bedingungen – ruhig einordnen"
 description: "Musterlösung zur Aufgabe über binärlogik und bedingungen."
-subject: informatik
+subject: "informatik"
 section: "Programmablauf und Steuerung"
-topicPath:
-  - "programmablauf-und-steuerung"
-  - "binaerlogik-und-bedingungen"
-  - "loesung"
-taskId: INF-V185-002-1
-relatedExercise: src/content/exercises/informatik/programmablauf-und-steuerung/binaerlogik-und-bedingungen/binaerlogik-und-bedingungen-ruhig-einordnen-v185.md
-tags:
-  - "informatik"
-  - "programmablauf-und-steuerung"
-  - "binaerlogik-und-bedingungen"
-  - "loesung"
+topicPath: ["programmablauf-und-steuerung", "binaerlogik-und-bedingungen", "binaerlogik-und-bedingungen-ruhig-einordnen-v185"]
+taskId: "INF-V185-002-1"
+relatedExercise: "src/content/exercises/informatik/programmablauf-und-steuerung/binaerlogik-und-bedingungen/binaerlogik-und-bedingungen-ruhig-einordnen-v185.md"
+tags: ["informatik", "Programmablauf und Steuerung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

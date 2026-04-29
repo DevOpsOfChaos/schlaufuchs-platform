@@ -3,46 +3,17 @@ title: "Linux – chmod symbolisch statt oktaler Raterei nutzen"
 description: "Lerne chmod symbolisch statt oktaler Raterei nutzen als kleines, klar prüfbares Unterthema mit Abgrenzung, Beispiel und Gegenprobe."
 subject: "linux"
 section: "Rechte"
-topicPath:
-  - "rechte-und-zugriff"
-  - "besitz-rechte-sudo"
-  - "v110-teil-1"
-  - "chmod-symbolisch-statt-oktaler-raterei-nutzen"
-learningGoals:
-  - "Du erklärst chmod symbolisch statt oktaler Raterei nutzen als eigenes Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Erstelle eine Gegenprobe mit verändertem Wert, Zustand oder Kontext."
-  - "Vergleiche die Seite mit einem Nachbarthema und nenne die Trennkante."
-commonMistakes:
-  - "Oktale Rechte werden nach Gefühl gesetzt."
-  - "Das Thema nur einem breiten Kapitel zuordnen."
-  - "Eine Lösung formulieren, die keine konkrete Prüfung enthält."
-keyTakeaways:
-  - "chmod symbolisch statt oktaler Raterei nutzen wird über Einordnung, Abgrenzung und Gegenprobe stabil."
-  - "Kleine Unterthemen erhöhen Auffindbarkeit und reduzieren Doppelungen."
-  - "Aufgabe und Lösung sollen dieselbe fachliche Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Ein breites Kapitel wäre als Antwort zu ungenau."
-  - "Ein konkreter Prüfschritt kann die Entscheidung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "rechte-und-zugriff"
-  - "besitz-rechte-sudo"
-  - "chmod-symbolisch-statt-oktaler-raterei-nutzen"
+topicPath: ["rechte-und-zugriff", "besitz-rechte-sudo", "v110-teil-1", "chmod-symbolisch-statt-oktaler-raterei-nutzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["linux", "Rechte"]
 draft: false
 ---
-
 ## Grundidee
 
 **chmod symbolisch statt oktaler Raterei nutzen** ist bewusst als enges Unterthema angelegt. Die Seite beantwortet nicht das ganze Kapitel, sondern die kleine fachliche Entscheidung, die in Aufgaben oft den Unterschied macht.

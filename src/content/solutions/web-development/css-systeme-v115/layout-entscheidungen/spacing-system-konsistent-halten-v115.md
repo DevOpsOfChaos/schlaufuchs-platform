@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Spacing-System konsistent halten"
 description: "Musterlösung zu Spacing-System konsistent halten mit Trennkante und Gegenprobe."
-subject: web-development
+subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "css-systeme-v115"
-  - "layout-entscheidungen"
-  - "spacing-system-konsistent-halten-v115"
+topicPath: ["css-systeme-v115", "layout-entscheidungen", "spacing-system-konsistent-halten-v115"]
 taskId: "web-development-spacing-system-konsistent-halten-v115"
 relatedExercise: "web-development/css-systeme-v115/layout-entscheidungen/spacing-system-konsistent-halten-v115"
-tags:
-  - "web development"
-  - "feinstruktur"
-  - "unterthema"
-  - "css-systeme"
-  - "layout-entscheidungen"
-  - "lösung"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Spacing-System konsistent halten**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

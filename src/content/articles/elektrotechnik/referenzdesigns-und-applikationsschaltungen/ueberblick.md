@@ -1,33 +1,17 @@
 ---
 title: "Referenzdesigns und Applikationsschaltungen"
 description: "Überblick über Referenzdesigns, Applikationsschaltungen und deren Rolle beim Verstehen und Entwerfen elektronischer Schaltungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schaltungstechnik"
-topicPath:
-  - "referenzdesigns-und-applikationsschaltungen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Referenzdesigns und Applikationsschaltungen als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["referenzdesigns-und-applikationsschaltungen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein Referenzdesign wird leicht als unveränderliche Vorschrift verstanden. Tatsächlich muss geprüft werden, ob Versorgung, Temperatur, Last, Toleranzen und Layout zur eigenen Anwendung passen."
-keyTakeaways:
-  - "Referenzdesigns zeigen, wie ein Bauteil typischerweise eingesetzt wird. Sie sind keine fertige Garantie für jede Anwendung, sondern ein begründeter Startpunkt."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um referenzdesigns und applikationsschaltungen, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich referenzdesigns und applikationsschaltungen in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "referenzdesigns applikationsschaltungen"
-  - "überblick"
-  - "datenblattbezug"
-  - "randbedingungen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Schaltungstechnik"]
 draft: false
 ---
 # Referenzdesigns und Applikationsschaltungen

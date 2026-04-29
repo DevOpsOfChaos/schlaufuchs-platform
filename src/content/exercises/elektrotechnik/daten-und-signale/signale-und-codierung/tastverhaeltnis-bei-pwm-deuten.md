@@ -3,33 +3,15 @@ title: "Aufgabe – Tastverhältnis bei PWM deuten"
 description: "Übe tastverhältnis bei pwm deuten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "signale-und-codierung"
-  - "tastverhaeltnis-bei-pwm-deuten"
+topicPath: ["daten-und-signale", "signale-und-codierung", "tastverhaeltnis-bei-pwm-deuten"]
 taskId: "v112-elektrotechnik-tastverhaeltnis-bei-pwm-deuten"
-tags:
-  - "elektrotechnik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-signale"
-  - "tastverhaeltnis-bei-pwm-deuten"
-hintPoints:
-  - "Benenne zuerst das kleine Unterthema."
-  - "Prüfe bewusst den Unterschied zum Fehler: PWM wird mit kleinerer Spannung gleichgesetzt."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Einordnung enger als nur der breite Fachbereich?"
-  - "Wird der typische Fehler ausdrücklich ausgeschlossen?"
-  - "Passt die Lösung zur Wissensseite?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Begriff und prüfe, ob die gleiche Strategie gilt."
-  - "Erkläre die Lösung einmal alltagssprachlich und danach fachlich sauber."
-reflectionPrompt: "Was war bei „Tastverhältnis bei PWM deuten“ die wichtigste Trennkante?"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation:

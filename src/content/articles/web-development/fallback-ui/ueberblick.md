@@ -1,33 +1,19 @@
 ---
 title: "Fallback-UI"
 description: "Eine Fallback-UI zeigt verständliche Zwischen- oder Ersatzzustände, wenn Daten laden, fehlen oder fehlschlagen. Sie macht Anwendungen robuster und ruhiger bedienbar."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "fallback-ui"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Fallback-UI."
-  - "Du kannst Fallback-UI in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["fallback-ui", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Fehlerzustände erst zu bedenken, wenn sie im Betrieb sichtbar werden."
-keyTakeaways:
-  - "Eine Fallback-UI zeigt verständliche Zwischen- oder Ersatzzustände, wenn Daten laden, fehlen oder fehlschlagen."
-  - "Wichtig sind vor allem ladezustände, leere zustände und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Fallback-UI, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Fallback-UI dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "web development"
-  - "grundlagen"
-  - "fallback ui"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # Fallback-UI
 
 Eine Fallback-UI zeigt verständliche Zwischen- oder Ersatzzustände, wenn Daten laden, fehlen oder fehlschlagen. Sie macht Anwendungen robuster und ruhiger bedienbar. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

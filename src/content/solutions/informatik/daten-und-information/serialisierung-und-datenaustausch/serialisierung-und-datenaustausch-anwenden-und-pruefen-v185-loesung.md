@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Serialisierung und Datenaustausch – anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über serialisierung und datenaustausch."
-subject: informatik
+subject: "informatik"
 section: "Daten und Information"
-topicPath:
-  - "daten-und-information"
-  - "serialisierung-und-datenaustausch"
-  - "loesung"
-taskId: INF-V185-011-2
-relatedExercise: src/content/exercises/informatik/daten-und-information/serialisierung-und-datenaustausch/serialisierung-und-datenaustausch-anwenden-und-pruefen-v185.md
-tags:
-  - "informatik"
-  - "daten-und-information"
-  - "serialisierung-und-datenaustausch"
-  - "loesung"
+topicPath: ["daten-und-information", "serialisierung-und-datenaustausch", "serialisierung-und-datenaustausch-anwenden-und-pruefen-v185"]
+taskId: "INF-V185-011-2"
+relatedExercise: "src/content/exercises/informatik/daten-und-information/serialisierung-und-datenaustausch/serialisierung-und-datenaustausch-anwenden-und-pruefen-v185.md"
+tags: ["informatik", "Daten und Information", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

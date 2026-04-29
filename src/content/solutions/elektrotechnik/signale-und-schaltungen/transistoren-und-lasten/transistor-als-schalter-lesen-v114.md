@@ -1,23 +1,14 @@
 ---
-title: Lösung – Transistor als Schalter lesen
-description: Musterlösung zur Aufgabe über Transistor als Schalter lesen.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- signale-und-schaltungen
-- transistoren-und-lasten
-- transistor-als-schalter-lesen-v114
-taskId: v114-elektrotechnik-transistor-als-schalter-lesen-v114
-relatedExercise: elektrotechnik/signale-und-schaltungen/transistoren-und-lasten/transistor-als-schalter-lesen-v114
-tags:
-- elektrotechnik
-- v114
-- loesung
-- signale-und-schaltungen
-- transistoren-und-lasten
+title: "Lösung – Transistor als Schalter lesen"
+description: "Musterlösung zur Aufgabe über Transistor als Schalter lesen."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["signale-und-schaltungen", "transistoren-und-lasten", "transistor-als-schalter-lesen-v114"]
+taskId: "v114-elektrotechnik-transistor-als-schalter-lesen-v114"
+relatedExercise: "elektrotechnik/signale-und-schaltungen/transistoren-und-lasten/transistor-als-schalter-lesen-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

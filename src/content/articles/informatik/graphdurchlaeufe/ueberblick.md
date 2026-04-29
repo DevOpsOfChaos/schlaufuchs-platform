@@ -1,34 +1,19 @@
 ---
 title: "Graphdurchläufe"
 description: "Allgemeiner Überblick über Durchläufe in Graphen."
-subject: informatik
+subject: "informatik"
 section: "Graphen"
-topicPath:
-  - "graphdurchlaeufe"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Graphdurchläufe als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["graphdurchlaeufe", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird vergessen, besuchte Knoten zu speichern. In Graphen mit Zyklen kann ein Algorithmus dadurch nie enden."
-keyTakeaways:
-  - "Graphdurchläufe sind elementare Bewegungsmuster durch vernetzte Daten."
-  - "Graphdurchläufe sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Graphdurchläufe."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Graphdurchläufe erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "informatik"
-  - "graphen"
-  - "breitensuche"
-  - "tiefensuche"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Graphen"]
 draft: false
 ---
-
 # Graphdurchläufe
 
 Ein Graphdurchlauf besucht Knoten und Kanten eines Graphen nach einer bestimmten Strategie.

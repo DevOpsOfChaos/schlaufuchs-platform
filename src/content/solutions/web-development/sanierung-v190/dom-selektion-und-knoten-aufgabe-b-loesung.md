@@ -3,24 +3,12 @@ title: "Lösung: DOM-Selektion und Knoten: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-v190-009b im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "dom-und-ui"
-  - "dom-selektion-und-knoten"
-  - "loesung-b"
+topicPath: ["sanierung-v190", "dom-selektion-und-knoten-aufgabe-b"]
 taskId: "web-v190-009b"
 relatedExercise: "web-development/sanierung-v190/dom-selektion-und-knoten-aufgabe-b"
-tags:
-  - "dom-und-ui"
-  - "dom"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-009b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „DOM-Selektion und Knoten“ um einen Fehlerfall, eine Abnahmebedingung und eine kurze Begründung.

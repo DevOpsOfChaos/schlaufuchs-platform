@@ -1,36 +1,19 @@
 ---
 title: "rsync und Dateiabgleich"
 description: "Einordnung von rsync als Werkzeug zum effizienten Abgleichen von Dateien und Verzeichnissen."
-subject: linux
+subject: "linux"
 section: "Dateien"
-topicPath:
-  - "rsync-und-dateiabgleich"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst rsync und Dateiabgleich als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["rsync-und-dateiabgleich", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird `--delete` verwendet, ohne vorher einen Trockenlauf zu machen."
-keyTakeaways:
-  - "rsync ist effizient für Datei- und Verzeichnisabgleich."
-  - "Pfadschreibweise und Optionen verändern das Ergebnis stark."
-  - "Trockenlauf ist vor riskanten Abgleichen wichtig."
-recognizeSignals:
-  - "Es geht um rsync und Dateiabgleich als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich rsync und Dateiabgleich in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "rsync"
-  - "dateien"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dateien"]
 draft: false
 ---
-
 # rsync und Dateiabgleich
 
 `rsync` gleicht Dateien und Verzeichnisse zwischen Orten ab. Es kopiert dabei nicht blind alles neu, sondern kann Unterschiede erkennen und nur notwendige Daten übertragen. Dadurch eignet es sich für Backups, Deployments und Synchronisation über Netzwerk oder lokal.

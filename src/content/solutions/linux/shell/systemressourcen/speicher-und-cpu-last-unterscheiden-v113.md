@@ -3,20 +3,12 @@ title: "Lösung – Speicher- und CPU-Last unterscheiden"
 description: "Musterlösung zu Speicher- und CPU-Last unterscheiden mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "systemressourcen"
-  - "speicher-und-cpu-last-unterscheiden-v113"
+topicPath: ["shell", "systemressourcen", "speicher-und-cpu-last-unterscheiden-v113"]
 taskId: "v113-linux-speicher-und-cpu-last-unterscheiden-v113"
 relatedExercise: "linux/shell/systemressourcen/speicher-und-cpu-last-unterscheiden-v113"
-tags:
-  - "linux"
-  - "strukturcheck"
-  - "unterthema"
-  - "speicher-und-cpu-last-unterscheiden-v113"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Speicher- und CPU-Last unterscheiden**.

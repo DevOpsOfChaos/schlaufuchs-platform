@@ -1,47 +1,19 @@
 ---
-title: Session-ID und serverseitigen Zustand verstehen
-description: Verstehe, wie eine Session den Benutzer über mehrere Requests wiedererkennbar macht, ohne alle Daten im Browser selbst zu speichern.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - session-id-und-serverseitigen-zustand-verstehen
-learningGoals:
-  - Du erklärst die Rolle einer Session-ID.
-  - Du unterscheidest serverseitige Session-Daten von clientseitigen Cookies.
-  - Du beschreibst, warum HTTP ohne solche Techniken zustandslos wirkt.
-practiceIdeas:
-  - Erkläre einen Login- oder Warenkorbfall über mehrere Seitenaufrufe.
-  - Vergleiche Session-ID und gespeicherte Nutzdaten.
-  - Beschreibe, warum eine Session ohne Identifikation nicht zuordenbar wäre.
-commonMistakes:
-  - Zu denken, die Session-Daten selbst lägen alle direkt im Browser.
-  - Session-ID und Session-Inhalt gleichzusetzen.
-  - Die Zustandslosigkeit von HTTP zu übersehen.
-keyTakeaways:
-  - HTTP ist grundsätzlich zustandslos.
-  - Die Session-ID identifiziert eine gespeicherte Sitzung wieder.
-  - Die eigentlichen Session-Daten liegen typischerweise serverseitig.
-recognizeSignals:
-  - Es geht um session_start, session_id, Warenkorb oder Login über mehrere Seiten.
-  - Ein Beispiel fragt nach serverseitigem Zustand.
-  - Du sollst ID und gespeicherte Daten auseinanderhalten.
-selfCheckPoints:
-  - Kann ich Session-ID und Session-Inhalt trennen?
-  - Kann ich erklären, warum HTTP ohne Session keinen fortlaufenden Zustand kennt?
-  - Kann ich den Nutzen für Login oder Warenkorb beschreiben?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - php
-  - session
-  - zustand
-  - http
+title: "Session-ID und serverseitigen Zustand verstehen"
+description: "Verstehe, wie eine Session den Benutzer über mehrere Requests wiedererkennbar macht, ohne alle Daten im Browser selbst zu speichern."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "session-id-und-serverseitigen-zustand-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 HTTP ist grundsätzlich zustandslos. Ein Webserver erkennt also nicht automatisch, dass zwei Requests „zur selben Person und zum selben Vorgang“ gehören. Genau hier helfen Sessions.

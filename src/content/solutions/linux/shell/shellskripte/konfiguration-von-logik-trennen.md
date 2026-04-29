@@ -3,21 +3,12 @@ title: "Lösung – Konfiguration von Logik trennen"
 description: "Musterlösung zu konfiguration von logik trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "shellskripte"
-  - "konfiguration-von-logik-trennen"
+topicPath: ["shell", "shellskripte", "konfiguration-von-logik-trennen"]
 taskId: "v112-linux-konfiguration-von-logik-trennen"
 relatedExercise: "linux/shell/shellskripte/konfiguration-von-logik-trennen"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "konfiguration-von-logik-trennen"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Shellskripte**.

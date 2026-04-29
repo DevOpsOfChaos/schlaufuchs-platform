@@ -3,22 +3,12 @@ title: "Lösung: Wartezeit sichtbar machen"
 description: "Musterlösung zur Aufgabe „Wartezeit sichtbar machen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "ux-feedback-und-fehlerzustaende"
-  - "ladezustand-und-skeleton"
-  - "wartezeit-sichtbar-machen-v116"
+topicPath: ["ux-feedback-und-fehlerzustaende", "ladezustand-und-skeleton", "wartezeit-sichtbar-machen-v116"]
 taskId: "wartezeit-sichtbar-machen-v116"
 relatedExercise: "web-development/ux-feedback-und-fehlerzustaende/ladezustand-und-skeleton/wartezeit-sichtbar-machen-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "ladezustand und skeleton"
-  - "wartezeit sichtbar machen"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

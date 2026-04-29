@@ -3,21 +3,12 @@ title: "Lösung – grep-Muster bewusst eingrenzen"
 description: "Musterlösung zu grep-muster bewusst eingrenzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "text-und-auswertung"
-  - "grep-muster-bewusst-eingrenzen"
+topicPath: ["shell", "text-und-auswertung", "grep-muster-bewusst-eingrenzen"]
 taskId: "v112-linux-grep-muster-bewusst-eingrenzen"
 relatedExercise: "linux/shell/text-und-auswertung/grep-muster-bewusst-eingrenzen"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "grep-muster-bewusst-eingrenzen"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Text und Auswertung**.

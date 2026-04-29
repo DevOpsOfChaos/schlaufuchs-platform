@@ -1,45 +1,19 @@
 ---
-title: Buttons, Links und Aktionen unterscheiden
-description: Verstehe, wann ein Link die richtige Wahl ist, wann ein Button besser passt und warum diese Unterscheidung für Bedienung und Struktur wichtig ist.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - navigation-und-menues
-  - buttons-links-und-aktionen-unterscheiden
-learningGoals:
-  - Du unterscheidest Links und Buttons nach ihrer Aufgabe.
-  - Du erklärst, warum Navigation und Aktion nicht dasselbe sind.
-  - Du wählst HTML-Elemente eher nach Funktion als nach Optik.
-practiceIdeas:
-  - Prüfe bei einer Oberfläche, welche Elemente auf eine neue Seite führen und welche etwas auslösen.
-  - Vergleiche einen Navigationslink mit einem Formularbutton.
-  - Begründe bei einem Beispiel, warum dieselbe Gestaltung nicht automatisch dasselbe HTML bedeutet.
-commonMistakes:
-  - Links und Buttons nur nach Aussehen zu unterscheiden.
-  - einen Button für Navigation zu verwenden, obwohl eigentlich ein Seitenwechsel gemeint ist.
-  - einen Link für eine Aktion zu verwenden, obwohl nichts navigiert wird.
-keyTakeaways:
-  - Links führen zu Zielen, Buttons lösen Aktionen aus.
-  - Gestaltung kann ähnlich sein, die Funktion bleibt trotzdem verschieden.
-  - Gute HTML-Wahl macht Bedienung und Bedeutung klarer.
-recognizeSignals:
-  - Es geht um Menüs, Formulare, Call-to-Action-Flächen oder klickbare Elemente.
-  - Du sollst nicht nur benennen, was klickbar ist, sondern warum es Link oder Button sein sollte.
-  - In Aufgaben wird Funktion wichtiger als Stil.
-selfCheckPoints:
-  - Kann ich erklären, wann ein Link richtig ist?
-  - Kann ich erklären, wann ein Button richtig ist?
-  - Kann ich Funktion und Aussehen sauber trennen?
-tags:
-  - html
-  - links
-  - button
-  - navigation
-level: einfach
+title: "Buttons, Links und Aktionen unterscheiden"
+description: "Verstehe, wann ein Link die richtige Wahl ist, wann ein Button besser passt und warum diese Unterscheidung für Bedienung und Struktur wichtig ist."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "buttons-links-und-aktionen-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Nicht alles, was klickbar aussieht, hat in HTML dieselbe Aufgabe. Ein Link und ein Button können optisch ähnlich gestaltet werden, aber sie erfüllen **unterschiedliche Funktionen**.

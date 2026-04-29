@@ -1,46 +1,19 @@
 ---
-title: this Zeiger und Selbstbezug verstehen
-description: Verstehe, wie Methoden auf genau ihr aktuelles Objekt verweisen und warum this beim Lesen von Objektlogik hilft.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - this-zeiger-und-selbstbezug-verstehen
-learningGoals:
-  - Du erklaerst die Grundidee von this als Verweis auf das aktuelle Objekt.
-  - Du beschreibst, warum innerhalb einer Instanzmethode der Selbstbezug wichtig ist.
-  - Du erkennst typische Lesefaelle, in denen this Klarheit schafft.
-practiceIdeas:
-  - Markiere in einer Instanzmethode, welche Werte zum aktuellen Objekt gehoeren.
-  - Vergleiche eine Schreibweise mit und ohne this.
-  - Pruefe bei Namensgleichheit zwischen Parameter und Attribut, warum this helfen kann.
-commonMistakes:
-  - Zu denken, dass this auf irgendein Objekt der Klasse zeigt.
-  - this mit statischer Klassenlogik zu verwechseln.
-  - Nicht zu erkennen, dass this immer zum aktuell bearbeiteten Objekt gehoert.
-keyTakeaways:
-  - this verweist auf das aktuelle Objekt einer Instanzmethode.
-  - Damit werden Objektzustand und Selbstbezug sichtbar.
-  - Besonders bei Namensgleichheit oder Rueckgaben des eigenen Objekts wird this klarer.
-recognizeSignals:
-  - In einer Methode taucht <code>this</code> auf.
-  - Ein Parametername ist gleich wie ein Attributname.
-  - Eine Methode arbeitet sichtbar mit dem eigenen Objektzustand.
-selfCheckPoints:
-  - Kann ich erklaeren, worauf this gerade zeigt?
-  - Kann ich this von Klassenbezug trennen?
-  - Kann ich sagen, warum this beim Lesen manchmal Klarheit schafft?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - this
-  - objektbezug
+title: "this Zeiger und Selbstbezug verstehen"
+description: "Verstehe, wie Methoden auf genau ihr aktuelles Objekt verweisen und warum this beim Lesen von Objektlogik hilft."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "this-zeiger-und-selbstbezug-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 In einer Instanzmethode geht es immer um **ein konkretes aktuelles Objekt**. `this` macht genau diesen Selbstbezug sichtbar.

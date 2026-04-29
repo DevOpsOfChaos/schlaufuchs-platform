@@ -1,36 +1,19 @@
 ---
 title: "Bauteiltoleranzen"
 description: "Allgemeiner Überblick über Toleranzen, Streuungen und ihre Bedeutung für reale elektronische Schaltungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Grundlagen"
-topicPath:
-  - "bauteiltoleranzen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Bauteiltoleranzen als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["bauteiltoleranzen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird mit idealen Zahlen gerechnet und erwartet, dass der reale Aufbau exakt dasselbe Ergebnis liefert."
-keyTakeaways:
-  - "Reale Bauteile haben erlaubte Abweichungen."
-  - "Toleranzen beeinflussen Messwerte, Grenzwerte und Zeiten."
-  - "Robuste Schaltungen berücksichtigen Streuungen."
-recognizeSignals:
-  - "Es geht um Nennwerte, Datenblattangaben oder unerwartete Abweichungen."
-  - "Eine Schaltung reagiert empfindlich auf Bauteilwerte."
-selfCheckPoints:
-  - "Kann ich Bauteiltoleranzen in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "bauteile"
-  - "toleranz"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Grundlagen"]
 draft: false
 ---
-
 # Bauteiltoleranzen
 
 Bauteiltoleranzen beschreiben, wie stark ein realer Bauteilwert vom Nennwert abweichen darf. Ein Widerstand mit 10 kΩ ist nicht zwingend exakt 10 kΩ.

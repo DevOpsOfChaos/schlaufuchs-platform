@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – Speicherleck im Ablauf erkennen
-description: Musterlösung zur Aufgabe INF-PROG-CPP-MEM-004.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - dynamischer-speicher
-  - speicherleck-durch-fehlende-freigabe-verstehen
-  - speicherleck-im-ablauf-erkennen-loesung
-taskId: INF-PROG-CPP-MEM-004
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/speicherleck-durch-fehlende-freigabe-verstehen/speicherleck-im-ablauf-erkennen.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – Speicherleck im Ablauf erkennen"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-MEM-004."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "speicherleck-durch-fehlende-freigabe-verstehen", "speicherleck-im-ablauf-erkennen"]
+taskId: "INF-PROG-CPP-MEM-004"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/speicherleck-durch-fehlende-freigabe-verstehen/speicherleck-im-ablauf-erkennen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Kippstelle benennen
 
 Die Kippstelle ist die zweite Zeile <code>p = new int;</code>, weil <code>p</code> dadurch auf einen neuen Bereich umgehängt wird. Der erste Bereich bleibt ohne sichtbaren Zugriffspfad zurück.

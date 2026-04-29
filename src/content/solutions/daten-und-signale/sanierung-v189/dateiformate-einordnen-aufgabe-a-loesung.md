@@ -3,22 +3,12 @@ title: "Lösung: Dateiformate einordnen: Grundordnung"
 description: "Musterlösung zur Aufgabe dat-v189-051a."
 subject: "daten-und-signale"
 section: "speicherung"
-topicPath:
-  - "speicherung"
-  - "dateiformate-einordnen"
-  - "loesung-a"
+topicPath: ["sanierung-v189", "dateiformate-einordnen-aufgabe-a"]
 taskId: "dat-v189-051a"
 relatedExercise: "daten-und-signale/sanierung-v189/dateiformate-einordnen-aufgabe-a"
-tags:
-  - "dateiformate"
-  - "speicherung"
-  - "struktur"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "speicherung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-051a`
 
 Eine mögliche Lösung:

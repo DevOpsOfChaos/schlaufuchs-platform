@@ -1,33 +1,17 @@
 ---
 title: "Dienste absichern"
 description: "Überblick über grundlegende Absicherung von Linux-Diensten durch Rechte, Konfiguration, Netzwerkgrenzen und Beobachtung."
-subject: linux
+subject: "linux"
 section: "Dienste"
-topicPath:
-  - "dienste-absichern"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Dienste absichern als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["dienste-absichern", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein Dienst gilt nicht als sicher, nur weil er läuft. Entscheidend ist, wer ihn erreichen kann, mit welchen Rechten er läuft und wie Fehler sichtbar werden."
-keyTakeaways:
-  - "Dienste absichern bedeutet, ihre Rechte, Erreichbarkeit, Konfiguration und Überwachung bewusst zu begrenzen."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um dienste absichern, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich dienste absichern in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "dienste absichern"
-  - "überblick"
-  - "least privilege"
-  - "firewall"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dienste"]
 draft: false
 ---
 # Dienste absichern

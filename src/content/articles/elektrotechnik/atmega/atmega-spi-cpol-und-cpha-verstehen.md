@@ -1,46 +1,19 @@
 ---
-title: ATmega SPI CPOL und CPHA verstehen
-description: Verstehe, wie Taktruhelage und Abtastzeitpunkt bei SPI zusammenwirken und warum der richtige Modus wichtiger ist als bloß „Takt läuft“.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-schnittstellen-und-busse
-  - atmega-spi-cpol-und-cpha-verstehen
-learningGoals:
-  - Du erklärst die Rollen von CPOL und CPHA.
-  - Du unterscheidest Taktruhelage und Abtastkante sauber.
-  - Du liest SPI-Modi eher als Timingfrage denn als bloße Registernummer.
-practiceIdeas:
-  - Vergleiche zwei SPI-Modi mit unterschiedlicher Taktruhelage.
-  - Beschreibe, auf welcher Taktkante Daten gelten und auf welcher sie wechseln.
-  - Begründe, warum derselbe Datenstrom im falschen Modus instabil gelesen werden kann.
-commonMistakes:
-  - CPOL und CPHA als austauschbare Bits zu betrachten.
-  - Nur die Frequenz zu sehen und das Timing im Bitfenster zu übergehen.
-  - Den SPI-Modus als reine Tabelle auswendig zu lernen statt als Timingfrage zu verstehen.
-keyTakeaways:
-  - CPOL beschreibt die Ruhelage des Takts.
-  - CPHA beschreibt, an welcher Kante das Sample-/Shift-Verhalten orientiert wird.
-  - Ein falscher SPI-Modus führt leicht zu zeitlich unstimmigem Lesen oder Schreiben.
-recognizeSignals:
-  - Es geht um SPI-Modi, Taktflanken, Sampling oder instabile Datenübernahme.
-  - Du sollst erklären, warum zwei Geräte trotz gleicher Leitungen nicht sauber zusammenarbeiten.
-  - In Beispielen ist die Taktkante wichtiger als das einzelne Byte.
-selfCheckPoints:
-  - Kann ich CPOL und CPHA in ihrer Funktion trennen?
-  - Kann ich erklären, warum die richtige Taktkante wichtig ist?
-  - Kann ich einen SPI-Modus als Timingbild beschreiben?
-tags:
-  - elektrotechnik
-  - atmega
-  - spi
-  - timing
-  - cpol
-level: mittel
+title: "ATmega SPI CPOL und CPHA verstehen"
+description: "Verstehe, wie Taktruhelage und Abtastzeitpunkt bei SPI zusammenwirken und warum der richtige Modus wichtiger ist als bloß „Takt läuft“."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-spi-cpol-und-cpha-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei SPI reicht es nicht, nur zu wissen, **dass** ein Takt vorhanden ist. Fachlich entscheidend ist: **Wie ruht der Takt, und an welcher Kante werden Daten übernommen?**

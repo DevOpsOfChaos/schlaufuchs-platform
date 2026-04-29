@@ -1,37 +1,19 @@
 ---
 title: "Normalisierung"
 description: "Allgemeiner Überblick über Normalisierung, Redundanzvermeidung und konsistente relationale Datenmodelle."
-subject: informatik
+subject: "informatik"
 section: "Datenbanken"
-topicPath:
-  - "normalisierung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Normalisierung als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["normalisierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Alles wird oft in eine große Tabelle geschrieben, bis Änderungen schwer kontrollierbar werden."
-keyTakeaways:
-  - "Normalisierung reduziert Redundanz."
-  - "Schlüssel und Beziehungen halten Daten konsistenter."
-  - "Denormalisierung sollte bewusst erfolgen."
-recognizeSignals:
-  - "Dieselbe Information steht an vielen Stellen."
-  - "Änderungen müssen mehrfach durchgeführt werden."
-selfCheckPoints:
-  - "Kann ich Normalisierung in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "datenbanken"
-  - "normalisierung"
-  - "datenmodell"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Datenbanken"]
 draft: false
 ---
-
 # Normalisierung
 
 Normalisierung ist ein Entwurfsprinzip für relationale Datenbanken. Daten werden so strukturiert, dass Redundanzen und Widersprüche reduziert werden.

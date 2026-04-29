@@ -1,47 +1,19 @@
 ---
-title: GET, POST und Superglobals in PHP verstehen
-description: Verstehe, wie PHP Anfragedaten über $_GET und $_POST zugänglich macht und warum die Übertragungsart fachlich einen Unterschied macht.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - get-post-und-superglobals-in-php-verstehen
-learningGoals:
-  - Du unterscheidest GET und POST fachlich grob voneinander.
-  - Du erklärst die Rolle von $_GET und $_POST als Superglobals.
-  - Du liest einen kleinen Formular- oder Linkaufruf ruhiger als Datenübergabe an den Server.
-practiceIdeas:
-  - Ordne einen Linkaufruf mit Parametern eher GET und ein Formular zum Senden eher POST zu.
-  - Lies in einem Beispiel, wie aus dem Bezeichner eines Eingabefeldes ein Zugriff im PHP-Skript wird.
-  - Vergleiche sichtbare URL-Parameter mit Daten aus dem Request-Körper.
-commonMistakes:
-  - GET und POST nur als zwei Zufallswörter zu sehen.
-  - Zu glauben, der Feldname im Formular werde automatisch zu einer normalen PHP-Variablen.
-  - Die Superglobals nicht als Sammlungen von übertragenen Werten zu lesen.
-keyTakeaways:
-  - GET-Daten stehen typischerweise in der URL, POST-Daten kommen meist aus Formularen im Request.
-  - PHP stellt sie über $_GET und $_POST bereit.
-  - "Die fachliche Frage lautet zuerst: Abrufen, senden oder verändern?"
-recognizeSignals:
-  - Ein Beispiel zeigt Fragezeichen in URLs, Formularfelder oder <code>method="POST"</code>.
-  - Es geht um Linkparameter, Formulare oder Superglobals.
-  - Du sollst erklären, wie Daten vom Browser ins Skript gelangen.
-selfCheckPoints:
-  - Kann ich erklären, wann GET grob passt?
-  - Kann ich erklären, wann POST grob passt?
-  - Kann ich einen Zugriff wie <code>$_POST['email']</code> fachlich lesen?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - get
-  - post
-  - superglobals
+title: "GET, POST und Superglobals in PHP verstehen"
+description: "Verstehe, wie PHP Anfragedaten über $_GET und $_POST zugänglich macht und warum die Übertragungsart fachlich einen Unterschied macht."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "get-post-und-superglobals-in-php-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Wenn der Browser Daten an ein PHP-Skript schickt, landen diese nicht einfach als lose Variablen im Programm. PHP sammelt sie typischerweise in sogenannten Superglobals wie <code>$_GET</code> oder <code>$_POST</code>.

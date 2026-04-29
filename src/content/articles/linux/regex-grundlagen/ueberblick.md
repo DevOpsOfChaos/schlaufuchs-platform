@@ -1,36 +1,19 @@
 ---
 title: "Regex-Grundlagen"
 description: "Einordnung regulärer Ausdrücke als Muster zum Suchen und Prüfen von Text."
-subject: linux
+subject: "linux"
 section: "Textwerkzeuge"
-topicPath:
-  - "regex-grundlagen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Regex-Grundlagen als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["regex-grundlagen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Sonderzeichen nicht maskiert oder falsche Regex-Dialekte vermischt."
-keyTakeaways:
-  - "Regex beschreibt Textmuster statt nur feste Wörter."
-  - "Viele Linux-Werkzeuge nutzen Regex-Varianten."
-  - "Komplexe Datenformate brauchen oft Parser statt Regex."
-recognizeSignals:
-  - "Es geht um Regex-Grundlagen als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Regex-Grundlagen in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "regex"
-  - "textwerkzeuge"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Textwerkzeuge"]
 draft: false
 ---
-
 # Regex-Grundlagen
 
 Reguläre Ausdrücke, kurz Regex, beschreiben Textmuster. Sie können Zeichenfolgen finden, prüfen oder zerlegen. In Linux-Werkzeugen wie `grep`, `sed`, `awk` und vielen Editoren sind sie ein zentrales Mittel, um Text gezielt zu bearbeiten.

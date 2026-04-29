@@ -1,46 +1,19 @@
 ---
-title: ATmega – PWM nichtinvertierend und invertierend unterscheiden
-description: Verstehe, warum der AVR denselben PWM-Zeitverlauf mit unterschiedlicher Ausgangslogik ausgeben kann und wie sich das auf den sichtbaren Tastgrad auswirkt.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - timer-und-pwm
-  - atmega-pwm-nichtinvertierend-und-invertierend-unterscheiden
-learningGoals:
-  - Du erklärst den Unterschied zwischen nichtinvertierender und invertierender PWM am AVR.
-  - Du beschreibst, warum derselbe Compare-Wert je nach Ausgangslogik anders wirkt.
-  - Du liest PWM-Ausgabe eher als Zeitverlauf plus Logikrichtung statt nur als Zahl im Register.
-practiceIdeas:
-  - Vergleiche denselben OCR-Wert in invertierender und nichtinvertierender Ausgangslogik.
-  - Prüfe bei PWM-Fällen, ob „mehr Wert“ wirklich mehr Ein-Zeit am Pin bedeutet.
-  - Übersetze die Ausgangslogik in ein sichtbares Zeitbild.
-commonMistakes:
-  - Zu denken, der OCR-Wert bestimme immer direkt dieselbe High-Zeit.
-  - invertierend nur als theoretische Spezialfunktion abzutun.
-  - Compare-Wert und Pinlogik nicht gemeinsam zu lesen.
-keyTakeaways:
-  - Nichtinvertierend und invertierend unterscheiden die Ausgangslogik am PWM-Pin.
-  - Derselbe Compare-Wert kann je nach Modus ein gegensätzlich wirkendes Zeitbild erzeugen.
-  - Zur PWM gehört nicht nur der Timer, sondern auch die gewählte Ausgangslogik.
-recognizeSignals:
-  - Es geht um COM-Bits, invertierende PWM oder auffällig „falsch herum“ wirkende Tastgrade.
-  - Du sollst erklären, warum ein Signal trotz gleichem OCR-Wert anders aussieht.
-  - In Aufgaben wird zwischen Zeitbasis und Ausgangslogik unterschieden.
-selfCheckPoints:
-  - Kann ich nichtinvertierend und invertierend sauber unterscheiden?
-  - Kann ich erklären, warum derselbe OCR-Wert unterschiedlich wirken kann?
-  - Kann ich PWM als Kombination aus Zeitverlauf und Pinlogik lesen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - pwm
-  - compare
-level: mittel
+title: "ATmega – PWM nichtinvertierend und invertierend unterscheiden"
+description: "Verstehe, warum der AVR denselben PWM-Zeitverlauf mit unterschiedlicher Ausgangslogik ausgeben kann und wie sich das auf den sichtbaren Tastgrad auswirkt."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-pwm-nichtinvertierend-und-invertierend-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei PWM denkt man oft zuerst an Frequenz und Tastgrad. Am AVR gehört aber noch eine zweite Ebene dazu: **Wie wird der Pin beim Compare-Ereignis behandelt?** Genau darüber entscheidet, ob die PWM **nichtinvertierend** oder **invertierend** ausgegeben wird.

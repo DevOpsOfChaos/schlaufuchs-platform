@@ -1,37 +1,19 @@
 ---
 title: "Grundlagen: Asynchronität und Promises"
 description: "Allgemeiner Überblick über asynchrone Abläufe in JavaScript, Promises, Warten auf Ergebnisse und typische Fehlerquellen."
-subject: web-development
+subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - javascript
-  - asynchronitaet-und-promises
-  - grundlagen-asynchronitaet-und-promises
-learningGoals:
-  - "Du erklärst asynchrone Abläufe als zeitlich verzögerte Ergebnisse."
-  - "Du beschreibst Promises als Platzhalter für zukünftige Werte oder Fehler."
-  - "Du ordnest await als Lesewerkzeug für asynchronen Code ein."
+topicPath: ["javascript", "asynchronitaet-und-promises", "ueberblick", "grundlagen-asynchronitaet-und-promises"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Zu erwarten, dass eine asynchrone Operation sofort einen fertigen Wert liefert."
-  - "Fehlerbehandlung bei Promises zu vergessen."
-  - "Asynchronität mit Parallelität gleichzusetzen."
-keyTakeaways:
-  - "Asynchronität verhindert, dass lange Vorgänge die Oberfläche blockieren."
-  - "Promises beschreiben Erfolg oder Fehler eines zukünftigen Ergebnisses."
-  - "async und await machen asynchronen Code lesbarer, ändern aber nicht die zeitliche Natur des Vorgangs."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - "webentwicklung"
-  - "javascript"
-  - "asynchronität"
-  - "promises"
-  - "fetch"
+level: "einfach"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Begriff
 
 **Asynchronität** bedeutet in JavaScript, dass ein Vorgang gestartet wird, dessen Ergebnis erst später verfügbar ist. Typische Beispiele sind Netzwerkanfragen, Timer, Dateizugriffe oder Benutzerinteraktionen. Ein **Promise** beschreibt ein solches zukünftiges Ergebnis.

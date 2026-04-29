@@ -1,33 +1,19 @@
 ---
 title: "Normalenvektor"
 description: "Ein Normalenvektor steht senkrecht auf einer Geraden oder Ebene. In der Analytischen Geometrie beschreibt er Orientierung und Koordinatengleichungen."
-subject: mathematik
+subject: "mathematik"
 section: "Mathematik"
-topicPath:
-  - "normalenvektor"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Normalenvektor."
-  - "Du kannst Normalenvektor in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["normalenvektor", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Normalenvektor und Richtungsvektor zu verwechseln."
-keyTakeaways:
-  - "Ein Normalenvektor steht senkrecht auf einer Geraden oder Ebene."
-  - "Wichtig sind vor allem senkrechte richtung, ebenengleichung und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Normalenvektor, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Normalenvektor dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "grundlagen"
-  - "normalenvektor"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Mathematik"]
 draft: false
 ---
-
 # Normalenvektor
 
 Ein Normalenvektor steht senkrecht auf einer Geraden oder Ebene. In der Analytischen Geometrie beschreibt er Orientierung und Koordinatengleichungen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

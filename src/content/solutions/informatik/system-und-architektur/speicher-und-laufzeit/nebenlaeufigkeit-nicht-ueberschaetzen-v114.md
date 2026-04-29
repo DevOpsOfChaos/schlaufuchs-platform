@@ -1,23 +1,14 @@
 ---
-title: Lösung – Nebenläufigkeit nicht überschätzen
-description: Musterlösung zur Aufgabe über Nebenläufigkeit nicht überschätzen.
-subject: informatik
-section: Feinstruktur Informatik
-topicPath:
-- system-und-architektur
-- speicher-und-laufzeit
-- nebenlaeufigkeit-nicht-ueberschaetzen-v114
-taskId: v114-informatik-nebenlaeufigkeit-nicht-ueberschaetzen-v114
-relatedExercise: informatik/system-und-architektur/speicher-und-laufzeit/nebenlaeufigkeit-nicht-ueberschaetzen-v114
-tags:
-- informatik
-- v114
-- loesung
-- system-und-architektur
-- speicher-und-laufzeit
+title: "Lösung – Nebenläufigkeit nicht überschätzen"
+description: "Musterlösung zur Aufgabe über Nebenläufigkeit nicht überschätzen."
+subject: "informatik"
+section: "Feinstruktur Informatik"
+topicPath: ["system-und-architektur", "speicher-und-laufzeit", "nebenlaeufigkeit-nicht-ueberschaetzen-v114"]
+taskId: "v114-informatik-nebenlaeufigkeit-nicht-ueberschaetzen-v114"
+relatedExercise: "informatik/system-und-architektur/speicher-und-laufzeit/nebenlaeufigkeit-nicht-ueberschaetzen-v114"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

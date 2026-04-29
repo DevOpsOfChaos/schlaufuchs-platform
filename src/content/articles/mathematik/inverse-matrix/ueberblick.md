@@ -1,33 +1,19 @@
 ---
 title: "Inverse Matrix"
 description: "Eine inverse Matrix macht eine lineare Abbildung rückgängig. Sie existiert nur für quadratische Matrizen mit nichtverschwindender Determinante."
-subject: mathematik
+subject: "mathematik"
 section: "Mathematik"
-topicPath:
-  - "inverse-matrix"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Inverse Matrix."
-  - "Du kannst Inverse Matrix in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["inverse-matrix", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Division durch Matrizen wie bei Zahlen zu behandeln."
-keyTakeaways:
-  - "Eine inverse Matrix macht eine lineare Abbildung rückgängig."
-  - "Wichtig sind vor allem umkehrabbildung, einheitsmatrix und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Inverse Matrix, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Inverse Matrix dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "grundlagen"
-  - "inverse matrix"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Mathematik"]
 draft: false
 ---
-
 # Inverse Matrix
 
 Eine inverse Matrix macht eine lineare Abbildung rückgängig. Sie existiert nur für quadratische Matrizen mit nichtverschwindender Determinante. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

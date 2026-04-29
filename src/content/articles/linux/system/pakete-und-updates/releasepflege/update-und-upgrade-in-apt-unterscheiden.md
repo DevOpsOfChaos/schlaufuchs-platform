@@ -3,45 +3,17 @@ title: "Linux – update und upgrade in apt unterscheiden"
 description: "Lerne apt-Schritte als klar abgegrenztes Unterthema mit Beispiel, Prüfraster und Gegenprobe."
 subject: "linux"
 section: "System"
-topicPath:
-  - "system"
-  - "pakete-und-updates"
-  - "releasepflege"
-  - "update-und-upgrade-in-apt-unterscheiden"
-learningGoals:
-  - "Du erklärst apt-Schritte als eigenes Unterthema."
-  - "Du grenzt das Thema von einem breiteren Sammelbereich ab."
-  - "Du formulierst eine konkrete Gegenprobe."
-practiceIdeas:
-  - "Erstelle ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Prüfe, welche Nachbarseite nicht gemeint ist."
-  - "Übertrage das Prüfraster auf einen zweiten Fall."
-commonMistakes:
-  - "Das Thema zu breit einordnen und die Trennkante verlieren."
-  - "Nur einen Begriff nennen, ohne Beispiel oder Gegenprobe."
-  - "Aufgabe und Wissensseite sprachlich auseinanderlaufen lassen."
-keyTakeaways:
-  - "apt-Schritte wird durch Einordnung, Trennung und Gegenprobe stabil."
-  - "Feinere Unterthemen verbessern Orientierung und vermeiden Doppelungen."
-  - "Eine gute Lösung nennt auch, was nicht gemeint ist."
-recognizeSignals:
-  - "Die Aufgabe enthält eine kleine, aber entscheidende Unterscheidung."
-  - "Eine allgemeine Antwort wäre zu ungenau."
-  - "Ein Prüfschritt kann die Einordnung bestätigen oder widerlegen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich das Nachbarthema abgrenzen?"
-  - "Ist meine Gegenprobe konkret?"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "apt-schritte"
-  - "pakete-und-updates"
+topicPath: ["system", "pakete-und-updates", "releasepflege", "update-und-upgrade-in-apt-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["linux", "System"]
 draft: false
 ---
-
 ## Grundidee
 
 **apt-Schritte** ist ein kleines, bewusst abgegrenztes Unterthema. Lerne apt-Schritte als klar abgegrenztes Unterthema mit Beispiel, Prüfraster und Gegenprobe. Die Seite verhindert, dass mehrere Nachbarfragen in einem breiten Sammelbegriff verschwimmen.

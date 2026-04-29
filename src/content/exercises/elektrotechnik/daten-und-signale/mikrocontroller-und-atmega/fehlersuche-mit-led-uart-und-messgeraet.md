@@ -1,35 +1,17 @@
 ---
-title: Mikrocontrollerfehler mit passenden Werkzeugen eingrenzen
-description: Übe, LED, UART und Messgerät gezielt auszuwählen und eine ruhige Fehlersuchstrategie zu formulieren.
-subject: elektrotechnik
-section: Mikrocontroller und ATmega
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - fehlersuche-mit-led-uart-und-messgeraet
-taskId: et-mc-debugging-led-uart-messgeraet
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - debugging
-  - uart
-  - messgeraet
-hintPoints:
-  - "Frage bei jedem Werkzeug, welche konkrete Aussage es liefern kann."
-  - "Eine LED zeigt nicht dasselbe wie ein Messgerät."
-  - "Ändere bei der Fehlersuche möglichst nur eine Sache auf einmal."
-selfCheckPoints:
-  - "Habe ich eine sinnvolle Reihenfolge für die Tests gewählt?"
-  - "Kann ich elektrische Prüfung und Programmausgabe unterscheiden?"
-  - "Habe ich aus jeder Beobachtung eine klare nächste Frage abgeleitet?"
-transferIdeas:
-  - "Übertrage die Strategie auf einen Sensor, der scheinbar falsche ADC-Werte liefert."
-  - "Formuliere eine eigene Debugging-Checkliste für kleine ATmega-Projekte."
-reflectionPrompt: "Welches Diagnosewerkzeug würdest du zuerst einsetzen, wenn gar nichts sichtbar funktioniert, und warum?"
-level: einfach
+title: "Mikrocontrollerfehler mit passenden Werkzeugen eingrenzen"
+description: "Übe, LED, UART und Messgerät gezielt auszuwählen und eine ruhige Fehlersuchstrategie zu formulieren."
+subject: "elektrotechnik"
+section: "Mikrocontroller und ATmega"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "fehlersuche-mit-led-uart-und-messgeraet"]
+taskId: "et-mc-debugging-led-uart-messgeraet"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe 1: Werkzeug auswählen
 
 Ein LED-Blinkprogramm funktioniert nicht. Ordne den folgenden Fragen jeweils ein passendes Werkzeug zu: LED-Debugging, UART-Ausgabe oder Messgerät.

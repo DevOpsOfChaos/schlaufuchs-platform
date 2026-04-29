@@ -3,22 +3,12 @@ title: "Lösung: Einheiten und Größencheck: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-006b."
 subject: "mathematik"
 section: "rechenstrategien-und-kontrolle"
-topicPath:
-  - "rechenstrategien-und-kontrolle"
-  - "einheiten-und-groessencheck"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "einheiten-und-groessencheck-aufgabe-b"]
 taskId: "mat-v188-006b"
 relatedExercise: "mathematik/sanierung-v188/einheiten-und-groessencheck-aufgabe-b"
-tags:
-  - "einheiten"
-  - "groessen"
-  - "plausibilitaet"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "rechenstrategien-und-kontrolle", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-006b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

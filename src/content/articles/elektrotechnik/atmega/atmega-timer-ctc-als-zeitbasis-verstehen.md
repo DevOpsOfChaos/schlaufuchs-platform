@@ -1,46 +1,19 @@
 ---
-title: ATmega – Timer CTC als Zeitbasis verstehen
-description: Verstehe, warum der CTC-Modus eine ruhige Zeitbasis für wiederkehrende Ereignisse liefern kann.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - timer-und-zeitverhalten
-  - atmega-timer-ctc-als-zeitbasis-verstehen
-learningGoals:
-  - Du erklärst die Grundidee des CTC-Modus am AVR-Timer.
-  - Du beschreibst, warum ein definierter Vergleichswert eine feste Zeitbasis ermöglicht.
-  - Du trennst Überlaufdenken und Compare-Match-Denken sauber voneinander.
-practiceIdeas:
-  - Vergleiche Zeitmessung über Überlauf mit einer festen CTC-Zeitbasis.
-  - Prüfe, warum regelmäßige Ticks oft leichter planbar sind als unruhige Delay-Schleifen.
-  - Lies Compare-Match als geordneten Zeitanker statt nur als Registerereignis.
-commonMistakes:
-  - CTC und Overflow als praktisch dasselbe zu behandeln.
-  - Den Compare-Wert als bloße Zahl statt als Zeitanker zu lesen.
-  - Wiederkehrende Aufgaben weiter mit blockierenden Delays zu planen.
-keyTakeaways:
-  - CTC erzeugt einen wiederkehrenden Vergleichspunkt im Timerlauf.
-  - Daraus lässt sich eine ruhige Zeitbasis für periodische Aufgaben ableiten.
-  - CTC ist besonders nützlich, wenn Zeitplanung klar und wiederholbar sein soll.
-recognizeSignals:
-  - Es geht um Compare-Match, CTC, periodische Ticks oder regelmäßige Zeitraster.
-  - Du sollst erklären, warum eine Aufgabe in festen Abständen laufen soll.
-  - In Aufgaben ist das Zeitraster wichtiger als der einzelne Timerzählerstand.
-selfCheckPoints:
-  - Kann ich CTC und Overflow fachlich unterscheiden?
-  - Kann ich erklären, warum Compare-Match eine ruhige Zeitbasis liefert?
-  - Kann ich den Nutzen für periodische Aufgaben beschreiben?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - timer
-  - ctc
-level: mittel
+title: "ATmega – Timer CTC als Zeitbasis verstehen"
+description: "Verstehe, warum der CTC-Modus eine ruhige Zeitbasis für wiederkehrende Ereignisse liefern kann."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-timer-ctc-als-zeitbasis-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Timer ist nicht nur zum Zählen da. Oft soll er eine **wiederkehrende Zeitbasis** liefern, zum Beispiel alle 1 Millisekunde oder alle 10 Millisekunden. Genau dafür ist der **CTC-Modus** besonders nützlich. Der Timer zählt dabei bis zu einem Vergleichswert und beginnt danach wieder in derselben geordneten Struktur.

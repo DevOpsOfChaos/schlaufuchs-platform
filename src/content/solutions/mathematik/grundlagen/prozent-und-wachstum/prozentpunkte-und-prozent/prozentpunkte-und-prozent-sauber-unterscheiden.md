@@ -3,23 +3,12 @@ title: "Lösung – Prozentpunkte und Prozent sauber unterscheiden"
 description: "Musterlösung zu Prozentpunkte und Prozent mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Grundlagen"
-topicPath:
-  - "grundlagen"
-  - "prozent-und-wachstum"
-  - "prozentpunkte-und-prozent"
-  - "prozentpunkte-und-prozent-sauber-unterscheiden"
+topicPath: ["grundlagen", "prozent-und-wachstum", "prozentpunkte-und-prozent", "prozentpunkte-und-prozent-sauber-unterscheiden"]
 taskId: "v109-mathematik-prozentpunkte-und-prozent-sauber-unterscheiden"
 relatedExercise: "mathematik/grundlagen/prozent-und-wachstum/prozentpunkte-und-prozent/prozentpunkte-und-prozent-sauber-unterscheiden"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfen"
-  - "grundlagen"
-  - "prozent-und-wachstum"
-  - "prozentpunkte und prozent"
+tags: ["mathematik", "Grundlagen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Prozentpunkte und Prozent**.

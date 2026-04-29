@@ -3,21 +3,12 @@ title: "Lösung – Pull-down und Pull-up vergleichen"
 description: "Musterlösung zu pull-down und pull-up vergleichen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "schaltungen-und-stromkreis"
-  - "pull-down-und-pull-up-vergleichen"
+topicPath: ["daten-und-signale", "schaltungen-und-stromkreis", "pull-down-und-pull-up-vergleichen"]
 taskId: "v112-elektrotechnik-pull-down-und-pull-up-vergleichen"
 relatedExercise: "elektrotechnik/daten-und-signale/schaltungen-und-stromkreis/pull-down-und-pull-up-vergleichen"
-tags:
-  - "elektrotechnik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-signale"
-  - "pull-down-und-pull-up-vergleichen"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Schaltungen und Stromkreis**.

@@ -3,23 +3,12 @@ title: "Lösung – Timerzeit aus Takt, Prescaler und Zählwert abschätzen"
 description: "Musterlösung zu Timerabschätzung mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "timer-und-zeitbasis"
-  - "zeitfenster"
-  - "timerzeit-aus-takt-prescaler-und-zaehlwert-abschaetzen"
+topicPath: ["mikrocontroller-und-atmega", "timer-und-zeitbasis", "zeitfenster", "timerzeit-aus-takt-prescaler-und-zaehlwert-abschaetzen"]
 taskId: "v107-elektrotechnik-timerzeit-aus-takt-prescaler-und-zaehlwert-abschaetzen"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/timer-und-zeitbasis/zeitfenster/timerzeit-aus-takt-prescaler-und-zaehlwert-abschaetzen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "schaltungen"
-  - "timerabschätzung"
-  - "mikrocontroller-und-atmega"
-  - "timer-und-zeitbasis"
+tags: ["elektrotechnik", "Mikrocontroller", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Timerabschätzung**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

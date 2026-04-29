@@ -1,15 +1,14 @@
 ---
-title: Skizze vor Formel – Lösung A
-description: Musterlösung zu Skizze vor Formel mit Kontrolle.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Skizze vor Formel – Lösung A"
+description: "Musterlösung zu Skizze vor Formel mit Kontrolle."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "geometrie-messen-und-begruenden", "skizze-vor-formel"]
 taskId: "mat-v196-skizze-vor-formel-a"
 relatedExercise: "mathematik/sanierung-v196/skizze-vor-formel-aufgabe-a"
 tags: ["mathematik", "v196", "geometrie-messen-und-begruenden", "skizze-vor-formel"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine passende Lösung zu dieser Aufgabe muss nicht exakt dieselben Zahlen oder Beispiele verwenden. Entscheidend ist der saubere Aufbau.

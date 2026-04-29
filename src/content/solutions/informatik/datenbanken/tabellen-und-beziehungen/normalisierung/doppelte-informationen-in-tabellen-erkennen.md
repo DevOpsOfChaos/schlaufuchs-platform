@@ -3,23 +3,12 @@ title: "Lösung – Doppelte Informationen in Tabellen erkennen"
 description: "Musterlösung zu Tabellenentwurf mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "informatik"
 section: "Datenbanken"
-topicPath:
-  - "datenbanken"
-  - "tabellen-und-beziehungen"
-  - "normalisierung"
-  - "doppelte-informationen-in-tabellen-erkennen"
+topicPath: ["datenbanken", "tabellen-und-beziehungen", "normalisierung", "doppelte-informationen-in-tabellen-erkennen"]
 taskId: "v107-informatik-doppelte-informationen-in-tabellen-erkennen"
 relatedExercise: "informatik/datenbanken/tabellen-und-beziehungen/normalisierung/doppelte-informationen-in-tabellen-erkennen"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "algorithmen"
-  - "tabellenentwurf"
-  - "datenbanken"
-  - "tabellen-und-beziehungen"
+tags: ["informatik", "Datenbanken", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Tabellenentwurf**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

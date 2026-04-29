@@ -3,22 +3,12 @@ title: "Lösung: Modellgrenzen und Plausibilität: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-011a."
 subject: "mathematik"
 section: "modellieren-und-validieren"
-topicPath:
-  - "modellieren-und-validieren"
-  - "modellgrenzen-und-plausibilitaet"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "modellgrenzen-und-plausibilitaet-aufgabe-a"]
 taskId: "mat-v188-011a"
 relatedExercise: "mathematik/sanierung-v188/modellgrenzen-und-plausibilitaet-aufgabe-a"
-tags:
-  - "modellgrenzen"
-  - "plausibilitaet"
-  - "pruefen"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "modellieren-und-validieren", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-011a`
 
 Eine mögliche Lösung:

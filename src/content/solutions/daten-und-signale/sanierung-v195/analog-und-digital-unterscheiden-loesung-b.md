@@ -3,25 +3,12 @@ title: "Lösung: Analog und digital unterscheiden: Aufgabe B"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-002b im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "grundlagen-und-begriffe"
-  - "analog-und-digital-unterscheiden"
-  - "loesung-b"
-
+topicPath: ["sanierung-v195", "analog-und-digital-unterscheiden-loesung-b"]
 taskId: "daten-und-signale-v195-002b"
 relatedExercise: "daten-und-signale/sanierung-v195/analog-und-digital-unterscheiden-aufgabe-b"
-tags:
-  - "analog"
-  - "digital"
-  - "unterscheiden"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-002b`
 
 Ausgangsauftrag: Übertrage das Thema Analog und digital unterscheiden auf ein zweites Beispiel und formuliere eine kurze Prüfung.

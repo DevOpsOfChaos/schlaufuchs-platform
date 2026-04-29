@@ -1,12 +1,17 @@
 ---
-title: Kontrollstrukturen, Bedingungen und Schleifen
-description: Diese Aufgabe vertieft die Grundideen von Auswahl und Wiederholung in einfachen Programmen.
-subject: informatik
-section: Grundlagen
-level: mittel
+title: "Kontrollstrukturen, Bedingungen und Schleifen"
+description: "Diese Aufgabe vertieft die Grundideen von Auswahl und Wiederholung in einfachen Programmen."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "kontrollstrukturen-bedingungen-und-schleifen"]
+taskId: "AUTO-KONTROLLSTRUKTUREN-BEDINGUNGEN-UND-SCHLEIFEN"
+tags: ["informatik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben so, dass immer klar ist, ob ein Fall geprüft oder ein Ablauf wiederholt werden soll.

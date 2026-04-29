@@ -3,22 +3,12 @@ title: "Lösung: kritischen Pfad bestimmen"
 description: "Musterlösung zur Aufgabe „kritischen Pfad bestimmen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "frontend-qualitaet"
-  - "performance-und-messung"
-  - "kritischen-pfad-bestimmen-v116"
+topicPath: ["frontend-qualitaet", "performance-und-messung", "kritischen-pfad-bestimmen-v116"]
 taskId: "kritischen-pfad-bestimmen-v116"
 relatedExercise: "web-development/frontend-qualitaet/performance-und-messung/kritischen-pfad-bestimmen-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "performance und messung"
-  - "kritischen pfad bestimmen"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

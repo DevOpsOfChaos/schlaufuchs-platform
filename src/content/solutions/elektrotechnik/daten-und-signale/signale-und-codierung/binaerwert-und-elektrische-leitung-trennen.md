@@ -3,21 +3,12 @@ title: "Lösung – Binärwert und elektrische Leitung trennen"
 description: "Musterlösung zu binärwert und elektrische leitung trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "signale-und-codierung"
-  - "binaerwert-und-elektrische-leitung-trennen"
+topicPath: ["daten-und-signale", "signale-und-codierung", "binaerwert-und-elektrische-leitung-trennen"]
 taskId: "v112-elektrotechnik-binaerwert-und-elektrische-leitung-trennen"
 relatedExercise: "elektrotechnik/daten-und-signale/signale-und-codierung/binaerwert-und-elektrische-leitung-trennen"
-tags:
-  - "elektrotechnik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-signale"
-  - "binaerwert-und-elektrische-leitung-trennen"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Signale und Codierung**.

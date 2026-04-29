@@ -1,33 +1,17 @@
 ---
 title: "Informationsduft"
 description: "Überblick über Informationsduft als Hinweisstruktur, die Nutzenden zeigt, wohin ein Link, Button oder Bereich führt."
-subject: web-development
+subject: "web-development"
 section: "UX"
-topicPath:
-  - "informationsduft"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Informationsduft als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["informationsduft", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein Linktext wie „mehr“ oder „hier“ wirkt kurz, liefert aber kaum Orientierung. Gute Beschriftungen sagen, was hinter der Aktion steckt."
-keyTakeaways:
-  - "Informationsduft bezeichnet die Signale, an denen Nutzende erkennen, ob ein Weg vermutlich zur gesuchten Information führt."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um informationsduft, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich informationsduft in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "web-development"
-  - "informationsduft"
-  - "überblick"
-  - "beschriftung"
-  - "kontext"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "UX"]
 draft: false
 ---
 # Informationsduft

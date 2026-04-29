@@ -3,23 +3,12 @@ title: "Lösung – Fehlerhypothese vor Codeänderung formulieren"
 description: "Musterlösung zu Debugging-Hypothese mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "programmierpraxis"
-  - "funktionen-tests-und-fehler"
-  - "debugging"
-  - "fehlerhypothese-vor-codeaenderung-formulieren"
+topicPath: ["programmierpraxis", "funktionen-tests-und-fehler", "debugging", "fehlerhypothese-vor-codeaenderung-formulieren"]
 taskId: "v111-informatik-fehlerhypothese-vor-codeaenderung-formulieren"
 relatedExercise: "informatik/programmierpraxis/funktionen-tests-und-fehler/debugging/fehlerhypothese-vor-codeaenderung-formulieren"
-tags:
-  - "informatik"
-  - "struktur"
-  - "unterthema"
-  - "programmierpraxis"
-  - "funktionen-tests-und-fehler"
-  - "fehlerhypothese-vor-codeaenderung-formulieren"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Debugging-Hypothese**.

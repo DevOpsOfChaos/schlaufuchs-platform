@@ -1,24 +1,14 @@
 ---
 title: "Lösung: less statt cat bei großen Dateien wählen"
 description: "Musterlösung zu less statt cat bei großen Dateien wählen mit Trennkante und Gegenprobe."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell-praxis-v115"
-  - "dateien-finden-lesen"
-  - "less-statt-cat-bei-grossen-dateien-waehlen-v115"
+topicPath: ["shell-praxis-v115", "dateien-finden-lesen", "less-statt-cat-bei-grossen-dateien-waehlen-v115"]
 taskId: "linux-less-statt-cat-bei-grossen-dateien-waehlen-v115"
 relatedExercise: "linux/shell-praxis-v115/dateien-finden-lesen/less-statt-cat-bei-grossen-dateien-waehlen-v115"
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "shell-praxis"
-  - "dateien finden und lesen"
-  - "lösung"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **less statt cat bei großen Dateien wählen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

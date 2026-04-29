@@ -1,46 +1,19 @@
 ---
-title: ATmega – UART-Baudrate und UBRR verstehen
-description: Verstehe, wie der AVR aus Takt und UBRR die UART-Baudrate ableitet und warum derselbe Terminalwert je nach Taktbasis etwas anderes bedeuten kann.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-kommunikation
-  - atmega-uart-baudrate-und-ubrr-verstehen
-learningGoals:
-  - Du erklärst die Rolle von Baudrate, Systemtakt und UBRR beim AVR.
-  - Du beschreibst, warum dieselbe gewünschte Baudrate zu verschiedenen Registerwerten führen kann.
-  - Du liest UART-Konfiguration eher als Zeitproblem statt nur als Zahleneingabe.
-practiceIdeas:
-  - Vergleiche zwei AVR-Takte bei derselben gewünschten Baudrate.
-  - Lies einen UBRR-Wert zuerst als Zeitbasis und erst danach als Registerzahl.
-  - Prüfe bei fehlerhafter Terminalausgabe zuerst Taktannahme und Baudratenwahl.
-commonMistakes:
-  - Zu denken, Baudrate werde direkt als Zahl ins Register geschrieben.
-  - UBRR als magischen Konstantenwert ohne Bezug zu F_CPU zu behandeln.
-  - Serielle Zeichensalat-Probleme sofort als Text- oder Softwarefehler zu deuten.
-keyTakeaways:
-  - Die UART-Baudrate entsteht beim AVR aus Taktbasis und Registereinstellung.
-  - Derselbe Zielwert kann je nach F_CPU einen anderen UBRR-Wert brauchen.
-  - Wer Zeitbasis und Register gemeinsam liest, versteht UART deutlich ruhiger.
-recognizeSignals:
-  - Es geht um Baudrate, UBRR, F_CPU oder falsch lesbare UART-Ausgabe.
-  - Du sollst erklären, warum ein Terminal trotz scheinbar richtiger Einstellungen Zeichenmüll zeigt.
-  - In Aufgaben werden Takt, Registerwert und gewünschte Baudrate gemeinsam betrachtet.
-selfCheckPoints:
-  - Kann ich erklären, warum UBRR nicht einfach die Baudrate selbst ist?
-  - Kann ich F_CPU als Grundlage der UART-Zeitbasis benennen?
-  - Kann ich beschreiben, warum dieselbe Baudrate bei anderem Takt neue Registerwerte braucht?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - uart
-  - baudrate
-level: mittel
+title: "ATmega – UART-Baudrate und UBRR verstehen"
+description: "Verstehe, wie der AVR aus Takt und UBRR die UART-Baudrate ableitet und warum derselbe Terminalwert je nach Taktbasis etwas anderes bedeuten kann."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-uart-baudrate-und-ubrr-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei der UART stellt man am AVR nicht einfach nur „9600“ oder „115200“ ein und alles passt. Der Controller braucht eine **Zeitbasis**, aus der er die Bitdauer ableitet. Genau dafür ist die Kombination aus **Systemtakt** und **UBRR-Registerwert** wichtig.

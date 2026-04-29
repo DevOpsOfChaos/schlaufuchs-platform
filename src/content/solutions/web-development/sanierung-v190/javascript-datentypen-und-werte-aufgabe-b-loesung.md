@@ -3,23 +3,12 @@ title: "Lösung: JavaScript-Datentypen und Werte: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-v190-001b im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "werte-und-typen"
-  - "javascript-datentypen-und-werte"
-  - "loesung-b"
+topicPath: ["sanierung-v190", "javascript-datentypen-und-werte-aufgabe-b"]
 taskId: "web-v190-001b"
 relatedExercise: "web-development/sanierung-v190/javascript-datentypen-und-werte-aufgabe-b"
-tags:
-  - "werte-und-typen"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-001b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „JavaScript-Datentypen und Werte“ um einen Fehlerfall, eine Abnahmebedingung und eine kurze Begründung.

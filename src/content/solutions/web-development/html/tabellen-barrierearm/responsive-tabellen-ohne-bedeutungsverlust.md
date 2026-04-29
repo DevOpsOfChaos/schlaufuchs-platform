@@ -3,22 +3,12 @@ title: "Lösung – HTML: responsive Tabellen ohne Bedeutungsverlust"
 description: "Musterlösung zur Aufgabe: Verstehe, warum eine Tabelle auf kleinen Bildschirmen nicht einfach zerlegt werden darf, wenn Kopf- und Datenbezug verloren gehen."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "tabellen-barrierearm"
-  - "responsive-tabellen-ohne-bedeutungsverlust"
+topicPath: ["html", "tabellen-barrierearm", "responsive-tabellen-ohne-bedeutungsverlust"]
 taskId: "web-v102-responsive-tabellen-ohne-bedeutungsverlust"
 relatedExercise: "web-development/html/tabellen-barrierearm/responsive-tabellen-ohne-bedeutungsverlust"
-tags:
-  - "web development"
-  - "html"
-  - "tabellen"
-  - "responsive"
-  - "semantik"
-  - "lösung"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Bei wenigen Spalten kann ein horizontal scrollbarer Tabellenbereich sinnvoll sein. Bei kartenartiger Darstellung müssen die Spaltenüberschriften pro Wert sichtbar oder technisch nachvollziehbar bleiben.

@@ -3,23 +3,12 @@ title: "Lösung – Quoting bei Leerzeichen in Dateinamen anwenden"
 description: "Musterlösung zu Shell-Quoting mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell-praxis"
-  - "dateien-sicher-bearbeiten"
-  - "quoting"
-  - "quoting-bei-leerzeichen-in-dateinamen-anwenden"
+topicPath: ["shell-praxis", "dateien-sicher-bearbeiten", "quoting", "quoting-bei-leerzeichen-in-dateinamen-anwenden"]
 taskId: "v111-linux-quoting-bei-leerzeichen-in-dateinamen-anwenden"
 relatedExercise: "linux/shell-praxis/dateien-sicher-bearbeiten/quoting/quoting-bei-leerzeichen-in-dateinamen-anwenden"
-tags:
-  - "linux"
-  - "betrieb"
-  - "unterthema"
-  - "shell-praxis"
-  - "dateien-sicher-bearbeiten"
-  - "quoting-bei-leerzeichen-in-dateinamen-anwenden"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Shell-Quoting**.

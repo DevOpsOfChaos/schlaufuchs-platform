@@ -3,21 +3,12 @@ title: "Lösung – Samplingrate und Signaländerung verbinden"
 description: "Musterlösung zu samplingrate und signaländerung verbinden mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "signale-und-codierung"
-  - "samplingrate-und-signalaenderung-verbinden"
+topicPath: ["daten-und-signale", "signale-und-codierung", "samplingrate-und-signalaenderung-verbinden"]
 taskId: "v112-elektrotechnik-samplingrate-und-signalaenderung-verbinden"
 relatedExercise: "elektrotechnik/daten-und-signale/signale-und-codierung/samplingrate-und-signalaenderung-verbinden"
-tags:
-  - "elektrotechnik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-signale"
-  - "samplingrate-und-signalaenderung-verbinden"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Signale und Codierung**.

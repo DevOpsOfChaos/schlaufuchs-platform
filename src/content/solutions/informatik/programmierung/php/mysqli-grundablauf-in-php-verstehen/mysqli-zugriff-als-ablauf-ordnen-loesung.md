@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – MySQLi-Zugriff als Ablauf ordnen
-description: Musterlösung zur Aufgabe INF-PHP-MYSQL-001.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - mysqli-grundablauf-in-php-verstehen
-  - mysqli-zugriff-als-ablauf-ordnen-loesung
-taskId: INF-PHP-MYSQL-001
-relatedExercise: src/content/exercises/informatik/programmierung/php/mysqli-grundablauf-in-php-verstehen/mysqli-zugriff-als-ablauf-ordnen.md
-tags:
-  - informatik
-  - loesung
-  - php
-  - task-id
+title: "Musterlösung – MySQLi-Zugriff als Ablauf ordnen"
+description: "Musterlösung zur Aufgabe INF-PHP-MYSQL-001."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "mysqli-grundablauf-in-php-verstehen", "mysqli-zugriff-als-ablauf-ordnen"]
+taskId: "INF-PHP-MYSQL-001"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/mysqli-grundablauf-in-php-verstehen/mysqli-zugriff-als-ablauf-ordnen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Sinnvolle Reihenfolge: Verbindung aufbauen → Anfrage senden → Ergebnis lesen → Verbindung schließen.

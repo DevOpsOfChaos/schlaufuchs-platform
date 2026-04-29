@@ -3,32 +3,17 @@ title: "Typsysteme"
 description: "Allgemeiner Überblick über Typsysteme und ihre Rolle beim Beschreiben von Daten und Programmen."
 subject: "informatik"
 section: "Programmierung"
-topicPath:
-  - "typsysteme"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["typsysteme", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Typen nur als Einschränkung gesehen. In gut gestalteten Programmen sind sie ein Kommunikationsmittel über Absichten."
-keyTakeaways:
-  - "Typsysteme machen Datenannahmen sichtbar. Sie verbessern Programme besonders dann, wenn Typen fachliche Bedeutung tragen."
-  - "Typen beweisen nicht automatisch fachliche Korrektheit. Ein Wert kann den richtigen Typ haben und trotzdem inhaltlich falsch sein."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "informatik"
-  - "typen"
-  - "programmierung"
-  - "sprachen"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 # Typsysteme
 
 Ein Typsystem ordnet Werten und Ausdrücken Kategorien zu und legt fest, welche Operationen damit sinnvoll oder erlaubt sind.

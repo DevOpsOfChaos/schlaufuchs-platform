@@ -3,35 +3,15 @@ title: "Aufgabe – Audit-Logs nach Nachvollziehbarkeit planen"
 description: "Übe Audit-Logs nach Nachvollziehbarkeit planen mit Einordnung, Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "informatik"
 section: "Sicherheit und Betrieb"
-topicPath:
-  - "sicherheit-und-betrieb"
-  - "zugriff-logs-und-geheimnisse"
-  - "v110-teil-4"
-  - "audit-logs-nach-nachvollziehbarkeit-planen"
+topicPath: ["sicherheit-und-betrieb", "zugriff-logs-und-geheimnisse", "v110-teil-4", "audit-logs-nach-nachvollziehbarkeit-planen"]
 taskId: "v110-informatik-audit-logs-nach-nachvollziehbarkeit-planen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "praxis"
-  - "sicherheit-und-betrieb"
-  - "zugriff-logs-und-geheimnisse"
-  - "audit-logs-nach-nachvollziehbarkeit-planen"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Vergleiche das Thema mit einem Nachbarthema und nenne die Trennkante."
-reflectionPrompt: "Welche kleine Trennkante macht Audit-Logs nach Nachvollziehbarkeit planen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["informatik", "Sicherheit und Betrieb", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Audit-Logs nach Nachvollziehbarkeit planen**.

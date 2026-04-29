@@ -1,27 +1,17 @@
 ---
 title: "Listen und Indizes ruhig einordnen"
 description: "Übe Listen und Indizes mit Begriffen, Beispielen und typischen Prüfungen."
-subject: informatik
+subject: "informatik"
 section: "Datenstrukturen im Einsatz"
-topicPath:
-  - "datenstrukturen-im-einsatz"
-  - "listen-und-indizes"
-taskId: INF-V183-04-A
-tags:
-  - "informatik"
-  - "listen-und-indizes"
-hintPoints:
-  - "Beginne mit der allgemeinen Idee."
-  - "Trenne Begriff, Beispiel und Fehlerquelle."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe sauber unterscheiden."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel aus einem anderen Informatikthema."
-reflectionPrompt: "Welche Unterscheidung war hier am wichtigsten?"
-level: einfach
+topicPath: ["datenstrukturen-im-einsatz", "listen-und-indizes", "listen-und-indizes-ruhig-einordnen-v183"]
+taskId: "INF-V183-04-A"
+tags: ["informatik", "Datenstrukturen im Einsatz", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Listen und Indizes**.
 
 ## Aufgabe 1 – Begriffe klären

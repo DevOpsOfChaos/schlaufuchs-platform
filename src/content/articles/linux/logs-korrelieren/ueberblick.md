@@ -1,37 +1,19 @@
 ---
 title: "Logs korrelieren"
 description: "Überblick über das Zusammenführen von Logmeldungen über Dienste, Zeiten und Systeme hinweg."
-subject: linux
+subject: "linux"
 section: "Logging"
-topicPath:
-  - "logs-korrelieren"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Logs korrelieren als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["logs-korrelieren", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Die lauteste oder späteste Fehlermeldung als Ursache zu nehmen, obwohl sie nur Folge eines früheren Problems ist."
-keyTakeaways:
-  - "Logkorrelation verbindet verstreute Hinweise."
-  - "Zeit, IDs und Kontext sind entscheidend."
-  - "Korrelation ist Hinweis, nicht endgültiger Beweis."
-recognizeSignals:
-  - "Mehrere Dienste zeigen zeitnah Fehler."
-  - "Eine Anfrage soll über verschiedene Systeme verfolgt werden."
-selfCheckPoints:
-  - "Kann ich Logs korrelieren in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "logs"
-  - "debugging"
-  - "observability"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Logging"]
 draft: false
 ---
-
 # Logs korrelieren
 
 Logs korrelieren bedeutet, Meldungen aus verschiedenen Quellen anhand von Zeit, Anfrage, Prozess oder Ereignis zusammenzubringen.

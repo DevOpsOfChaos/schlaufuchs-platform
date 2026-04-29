@@ -1,31 +1,17 @@
 ---
 title: "Dienst-Lebenszyklus"
 description: "Überblick über Start, Laufzeit, Überwachung, Neustart und Fehleranalyse von Diensten auf Linux-Systemen."
-subject: linux
+subject: "linux"
 section: "Administration"
-topicPath:
-  - "dienst-lebenszyklus"
-learningGoals:
-  - "Du kannst Dienste als dauerhaft laufende Systemprogramme einordnen."
-  - "Du kennst typische Zustände im Lebenszyklus eines Dienstes."
-  - "Du verstehst den Zusammenhang zwischen Unit, Prozess, Log und Abhängigkeit."
+topicPath: ["dienst-lebenszyklus", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "systemctl status als vollständige Fehleranalyse zu behandeln."
-  - "Dienst, Prozess und Port gleichzusetzen."
-keyTakeaways:
-  - "Dienste haben Zustände, Abhängigkeiten, Logs und Ressourcen."
-  - "Fehleranalyse verbindet Unit-Status, Prozesssicht, Logs und Netzwerkprüfung."
-recognizeSignals:
-  - "Es geht um systemd, systemctl, journalctl, Dienste, Neustart oder Autostart."
-selfCheckPoints:
-  - "Kann ich erklären, warum ein Dienst aktiv sein kann, obwohl die Anwendung nicht erreichbar ist?"
-level: einfach
-tags:
-  - "linux"
-  - "systemd"
-  - "dienste"
-  - "administration"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Administration"]
 draft: false
 ---
 # Dienst-Lebenszyklus

@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Version in Datenformaten planen"
 description: "Musterlösung zu Version in Datenformaten planen mit Trennkante und Gegenprobe."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenmodellierung-v115"
-  - "schnittstellen-und-formate"
-  - "version-in-datenformaten-planen-v115"
+topicPath: ["datenmodellierung-v115", "schnittstellen-und-formate", "version-in-datenformaten-planen-v115"]
 taskId: "informatik-version-in-datenformaten-planen-v115"
 relatedExercise: "informatik/datenmodellierung-v115/schnittstellen-und-formate/version-in-datenformaten-planen-v115"
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "datenmodellierung"
-  - "schnittstellen und formate"
-  - "lösung"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Version in Datenformaten planen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

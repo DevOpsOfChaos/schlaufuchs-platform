@@ -1,36 +1,19 @@
 ---
 title: "Data Warehouse und Datenbank"
 description: "Eine operative Datenbank unterstützt laufende Anwendungen, während ein Data Warehouse Daten für Analyse und Berichte bündelt."
-subject: informatik
+subject: "informatik"
 section: "Daten"
-topicPath:
-  - "data-warehouse-und-datenbank"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Data Warehouse und Datenbank als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["data-warehouse-und-datenbank", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Analyseabfragen direkt auf operative Systeme gelegt und beeinträchtigen dann Anwendungslast oder Datenmodell."
-keyTakeaways:
-  - "Eine operative Datenbank unterstützt laufende Anwendungen, während ein Data Warehouse Daten für Analyse und Berichte bündelt."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Data Warehouse und Datenbank, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Data Warehouse und Datenbank in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "datenbank"
-  - "warehouse"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Daten"]
 draft: false
 ---
-
 # Data Warehouse und Datenbank
 
 Eine operative Datenbank unterstützt laufende Anwendungen, während ein Data Warehouse Daten für

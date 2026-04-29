@@ -1,33 +1,16 @@
 ---
-title: delete-Form zur Reservierung zuordnen
-description: Ordne Reservierungen mit new oder new[] die passende Freigabe mit delete oder delete[] zu.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - dynamischer-speicher
-  - delete-und-delete-array-unterscheiden
-  - delete-form-zur-reservierung-zuordnen
-taskId: INF-PROG-CPP-MEM-002
-level: mittel
+title: "delete-Form zur Reservierung zuordnen"
+description: "Ordne Reservierungen mit new oder new[] die passende Freigabe mit delete oder delete[] zu."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "delete-und-delete-array-unterscheiden", "delete-form-zur-reservierung-zuordnen"]
+taskId: "INF-PROG-CPP-MEM-002"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - aufgabe
-hintPoints:
-  - "Lies zuerst die Erzeugungszeile genau ab."
-  - "Achte auf eckige Klammern und die Frage: ein Objekt oder mehrere?"
-  - "Starte nicht vom Pointertyp und nicht vom späteren Zugriff."
-selfCheckPoints:
-  - "Habe ich die Freigabeform begründet statt nur genannt?"
-  - "Habe ich zwischen Einzelobjekt und Array sauber getrennt?"
-  - "Habe ich die Freigabeform nicht mit der allgemeinen Lebenszyklusfrage vermischt?"
-transferIdeas:
-  - "Prüfe auch in anderen Beispielen, ob die Freigabeform zur ursprünglichen Erzeugung passt."
-reflectionPrompt: "Worauf schaust du jetzt zuerst: auf den Typ, auf den Zugriff oder auf die Erzeugungszeile?"
 ---
 ## Aufgabe 1: Direkt zuordnen
 

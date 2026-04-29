@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – rand, srand und Zielbereich ruhig erklären
-description: Musterlösung zur Aufgabe INF-PROG-CPP-RAND-001.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - cmath
-  - zufallszahlen-mit-rand-und-srand-verstehen
-  - rand-srand-und-zielbereich-ruhig-erklaeren-loesung
-taskId: INF-PROG-CPP-RAND-001
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/zufallszahlen-mit-rand-und-srand-verstehen/rand-srand-und-zielbereich-ruhig-erklaeren.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – rand, srand und Zielbereich ruhig erklären"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-RAND-001."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "zufallszahlen-mit-rand-und-srand-verstehen", "rand-srand-und-zielbereich-ruhig-erklaeren"]
+taskId: "INF-PROG-CPP-RAND-001"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/zufallszahlen-mit-rand-und-srand-verstehen/rand-srand-und-zielbereich-ruhig-erklaeren.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Rollen trennen
 
 <code>srand(time(NULL))</code> setzt einen Startwert für die Zahlenfolge. <code>rand()</code> erzeugt danach den eigentlichen Zufallswert. Der Startwert ist also Vorbereitung, die Zahl aus <code>rand()</code> ist das spätere Ergebnis im Ablauf.

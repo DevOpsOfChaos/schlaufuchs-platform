@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Kontrollstrukturen und Ablauf – Anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über Kontrollstrukturen und Ablauf."
-subject: informatik
+subject: "informatik"
 section: "programmablauf-und-steuerung"
-topicPath:
-  - "programmablauf-und-steuerung"
-  - "kontrollstrukturen-und-ablauf"
-taskId: INF-KONTROLLSTRUKTUREN-UND-ABLAUF-842
-relatedExercise: src/content/exercises/informatik/programmablauf-und-steuerung/kontrollstrukturen-und-ablauf/kontrollstrukturen-und-ablauf-anwenden-und-pruefen-v184.md
-tags:
-  - "informatik"
-  - "kontrollstrukturen"
-  - "schleifen"
-  - "loesung"
+topicPath: ["programmablauf-und-steuerung", "kontrollstrukturen-und-ablauf", "kontrollstrukturen-und-ablauf-anwenden-und-pruefen-v184"]
+taskId: "INF-KONTROLLSTRUKTUREN-UND-ABLAUF-842"
+relatedExercise: "src/content/exercises/informatik/programmablauf-und-steuerung/kontrollstrukturen-und-ablauf/kontrollstrukturen-und-ablauf-anwenden-und-pruefen-v184.md"
+tags: ["informatik", "programmablauf-und-steuerung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

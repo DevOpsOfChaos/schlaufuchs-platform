@@ -3,24 +3,12 @@ title: "Lösung: Zeichen und Textcodierung: Aufgabe A"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-007a im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "darstellung-und-code"
-  - "zeichen-und-textcodierung"
-  - "loesung-a"
-
+topicPath: ["sanierung-v195", "zeichen-und-textcodierung-loesung-a"]
 taskId: "daten-und-signale-v195-007a"
 relatedExercise: "daten-und-signale/sanierung-v195/zeichen-und-textcodierung-aufgabe-a"
-tags:
-  - "zeichen"
-  - "textcodierung"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-007a`
 
 Ausgangsauftrag: Analysiere, warum falsch codierte Umlaute zu Mojibake führen.

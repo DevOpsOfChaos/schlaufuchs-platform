@@ -3,23 +3,12 @@ title: "Lösung – SPI Chip Select als Geräteauswahl verstehen"
 description: "Musterlösung zu SPI Chip Select mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Kommunikation"
-topicPath:
-  - "daten-und-signale"
-  - "buskommunikation"
-  - "spi-chip-select"
-  - "spi-chip-select-als-geraeteauswahl-verstehen"
+topicPath: ["daten-und-signale", "buskommunikation", "spi-chip-select", "spi-chip-select-als-geraeteauswahl-verstehen"]
 taskId: "v109-elektrotechnik-spi-chip-select-als-geraeteauswahl-verstehen"
 relatedExercise: "elektrotechnik/daten-und-signale/buskommunikation/spi-chip-select/spi-chip-select-als-geraeteauswahl-verstehen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "daten-und-signale"
-  - "buskommunikation"
-  - "spi chip select"
+tags: ["elektrotechnik", "Kommunikation", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **SPI Chip Select**.

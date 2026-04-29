@@ -1,29 +1,17 @@
 ---
 title: "Pfade und Navigation – anwenden und prüfen"
 description: "Übe, Pfade und Navigation an kleinen Praxissituationen zu prüfen."
-subject: linux
+subject: "linux"
 section: "shell-und-terminal"
-topicPath:
-  - "shell-und-terminal"
-  - "pfade-und-navigation"
-taskId: LINUX-PFADE-UND-NAVIGATION-V186-2
-tags:
-  - "linux"
-  - "pfade"
-  - "dateisystem"
-  - "aufgabe"
-hintPoints:
-  - "Beginne mit Begriff und Kontext."
-  - "Trenne Beobachtung, Prüfung und mögliche Änderung."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe erklären."
-  - "Ich kann einen typischen Fehler vermeiden."
-transferIdeas:
-  - "Formuliere eine ähnliche Prüfsituation aus deinem eigenen Linux-Alltag."
-level: einfach
+topicPath: ["shell-und-terminal", "pfade-und-navigation", "pfade-und-navigation-anwenden-und-pruefen-v186"]
+taskId: "LINUX-PFADE-UND-NAVIGATION-V186-2"
+tags: ["linux", "shell-und-terminal", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Lernziel
 
 Du sollst **Pfade und Navigation** nicht nur als Befehl oder Schlagwort sehen, sondern als geordnetes Linux-Thema mit Zweck, Kontext und typischen Prüfschritten.

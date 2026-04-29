@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Ereignisgesteuerte Programme"
 description: "Allgemeiner Überblick über ereignisgesteuerte programme in der Informatik."
-subject: informatik
+subject: "informatik"
 section: "Programmablauf und Steuerung"
-topicPath:
-  - "programmablauf-und-steuerung"
-  - "ereignisgesteuerte-programme"
-  - "ueberblick"
-learningGoals:
-  - "Du erklärst, wie Programme auf Ereignisse reagieren statt nur linear abzulaufen."
-  - "Du ordnest typische Beispiele und Grenzen des Themas ein."
-  - "Du unterscheidest Grundidee, Anwendung und häufige Fehler."
-practiceIdeas:
-  - "Formuliere die Grundidee in drei Sätzen ohne Spezialfall."
-  - "Ordne ein eigenes Beispiel dem passenden Teilaspekt zu."
-commonMistakes:
-  - "Ereignisse wie normale Reihenfolge lesen"
-  - "Handler und Auslöser verwechseln"
-  - "globale Zustände verstecken"
-keyTakeaways:
-  - "Ereignisgesteuerte Programme braucht zuerst eine klare begriffliche Einordnung."
-  - "Beispiele helfen nur, wenn ihr Kontext bekannt ist."
-  - "Gute Informatikarbeit trennt Modell, Umsetzung und Prüfung."
-recognizeSignals:
-  - "Ein Thema wirkt wie ein Einzelfall, braucht aber zuerst einen allgemeinen Rahmen."
-  - "Mehrere Beispiele zeigen dieselbe Grundidee aus verschiedenen Blickwinkeln."
-selfCheckPoints:
-  - "Kann ich Grundidee und Beispiel unterscheiden?"
-  - "Kann ich typische Fehler nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "programmablauf-und-steuerung"
-  - "ereignisgesteuerte-programme"
+topicPath: ["programmablauf-und-steuerung", "ereignisgesteuerte-programme", "ueberblick", "grundlagen-ereignisgesteuerte-programme"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmablauf und Steuerung"]
 draft: false
 ---
-
 ![Schaubild: Ereignisgesteuerte Programme](/schlaufuchs-platform/images/overviews/v185/ereignisgesteuerte-programme.svg)
 
 ## Begriff

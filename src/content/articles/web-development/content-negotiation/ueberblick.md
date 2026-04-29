@@ -1,37 +1,19 @@
 ---
 title: "Content Negotiation"
 description: "Überblick über Aushandlung von Formaten, Sprachen und Darstellungsvarianten zwischen Client und Server."
-subject: web-development
+subject: "web-development"
 section: "HTTP"
-topicPath:
-  - "content-negotiation"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Content Negotiation als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["content-negotiation", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Varianten auszuliefern, ohne Cache-Header wie `Vary` zu setzen, sodass falsche Inhalte wiederverwendet werden."
-keyTakeaways:
-  - "Content Negotiation trennt Ressource und Darstellung."
-  - "Header bestimmen bevorzugte Formate und Sprachen."
-  - "Caching muss Varianten korrekt berücksichtigen."
-recognizeSignals:
-  - "Eine Ressource soll mehrere Formate oder Sprachen liefern."
-  - "Antworten hängen von `Accept`-Headern ab."
-selfCheckPoints:
-  - "Kann ich Content Negotiation in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "web-development"
-  - "http"
-  - "header"
-  - "api"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTTP"]
 draft: false
 ---
-
 # Content Negotiation
 
 Content Negotiation bedeutet, dass Client und Server über Header aushandeln, welche Repräsentation einer Ressource geliefert wird.

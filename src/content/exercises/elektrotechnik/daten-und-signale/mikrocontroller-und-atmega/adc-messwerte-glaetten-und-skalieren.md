@@ -1,36 +1,17 @@
 ---
 title: "ADC-Messwerte beruhigen und sinnvoll deuten"
 description: "Übe, eine schwankende ADC-Messreihe geglättet und passend skaliert zu bewerten."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - adc-messwerte-glaetten-und-skalieren
-selfCheckPoints:
-  - "Habe ich Beobachtung, Ursache und Lösung sauber getrennt?"
-  - "Habe ich mindestens einen typischen Denkfehler vermieden?"
-  - "Kann ich meine Antwort ohne reine Schlagwörter begründen?"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "adc-messwerte-glaetten-und-skalieren"]
 taskId: "et-mc-adc-glaetten-skalieren"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - adc
-  - sensoren
-  - mittelwert
-hintPoints:
-  - "Trenne Rohwerte, Mittelwert und spätere Anzeigegröße."
-  - "Eine kleine Schwankung um wenige Stufen ist noch kein Beweis für einen defekten Sensor."
-  - "Überlege, ob die Anwendung schnell reagieren muss oder eine ruhige Anzeige wichtiger ist."
-transferIdeas:
-  - "Übertrage die Idee auf ein zweites Bauteil oder einen anderen Sensor."
-  - "Formuliere eine kurze Checkliste, die du bei echter Fehlersuche nutzen würdest."
-reflectionPrompt: "Welche Stelle war eher ein Verständnisproblem als ein reines Codeproblem?"
-level: mittel
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
-
 ## Aufgabe 1: Messreihe beurteilen
 
 Ein Sensor liefert diese ADC-Rohwerte:

@@ -1,46 +1,19 @@
 ---
-title: fopen-Dateimodi r, a, w und Plus-Varianten vergleichen
-description: Verstehe, wie sich Lesemodus, Schreibmodus, Anhängen und Plus-Varianten beim Öffnen einer Datei unterscheiden.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - fopen-dateimodi-r-a-w-und-plus-varianten-vergleichen
-learningGoals:
-  - Du unterscheidest Lesen, Schreiben und Anhängen fachlich voneinander.
-  - Du erklärst grob, was die Plus-Varianten zusätzlich erlauben.
-  - Du wählst für einfache Fälle einen passenden Dateimodus begründet aus.
-practiceIdeas:
-  - Ordne einen Modus einer typischen Aufgabe wie "nur lesen" oder "hinten anhängen" zu.
-  - Vergleiche, ob ein Modus bestehenden Inhalt löscht oder bewahrt.
-  - Begründe, warum ein Logfile oft anders geöffnet wird als eine Datei zum Überschreiben.
-commonMistakes:
-  - r, w und a nur als Buchstaben auswendig zu lernen.
-  - Zu übersehen, dass manche Modi Inhalt löschen können.
-  - Plus-Varianten nicht als "lesen und zusätzlich schreiben" zu verstehen.
-keyTakeaways:
-  - r steht grob für Lesen, w für neu schreiben, a für Anhängen.
-  - Plus-Varianten erweitern den Modus um die jeweils andere Richtung.
-  - Die Moduswahl ist eine Fachentscheidung über den gewünschten Dateiumgang.
-recognizeSignals:
-  - Es geht um <code>fopen(..., "r")</code>, <code>"w"</code>, <code>"a"</code> oder Varianten mit Plus.
-  - Du sollst entscheiden, ob bestehender Inhalt erhalten, ergänzt oder überschrieben werden soll.
-  - In Beispielen tauchen Logdateien, Konfigurationen oder Textspeicherung auf.
-selfCheckPoints:
-  - Kann ich sagen, wann r passt?
-  - Kann ich sagen, wann w gefährlich sein kann?
-  - Kann ich erklären, warum a gut zu Anhängen passt?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - fopen
-  - dateimodus
+title: "fopen-Dateimodi r, a, w und Plus-Varianten vergleichen"
+description: "Verstehe, wie sich Lesemodus, Schreibmodus, Anhängen und Plus-Varianten beim Öffnen einer Datei unterscheiden."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "fopen-dateimodi-r-a-w-und-plus-varianten-vergleichen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Beim Öffnen einer Datei entscheidet nicht nur der Dateiname, sondern auch der Modus darüber, wie das Skript mit der Datei arbeiten darf. Genau deshalb sind die Buchstaben bei <code>fopen</code> fachlich wichtig.

@@ -3,21 +3,12 @@ title: "Lösung – NULL nicht als leeren Text behandeln"
 description: "Musterlösung zu null nicht als leeren text behandeln mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenbanken"
-  - "tabellen-und-abfragen"
-  - "null-nicht-als-leeren-text-behandeln"
+topicPath: ["datenbanken", "tabellen-und-abfragen", "null-nicht-als-leeren-text-behandeln"]
 taskId: "v112-informatik-null-nicht-als-leeren-text-behandeln"
 relatedExercise: "informatik/datenbanken/tabellen-und-abfragen/null-nicht-als-leeren-text-behandeln"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "datenbanken"
-  - "null-nicht-als-leeren-text-behandeln"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Tabellen und Abfragen**.

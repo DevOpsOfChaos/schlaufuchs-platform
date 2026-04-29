@@ -3,35 +3,15 @@ title: "Aufgabe – Spannung zwischen zwei Punkten messen"
 description: "Übe Spannungsmessung mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "elektrotechnik"
 section: "Grundlagen"
-topicPath:
-  - "grundlagen"
-  - "spannung-strom-widerstand"
-  - "messpunkte"
-  - "spannung-zwischen-zwei-punkten-messen"
+topicPath: ["grundlagen", "spannung-strom-widerstand", "messpunkte", "spannung-zwischen-zwei-punkten-messen"]
 taskId: "v107-elektrotechnik-spannung-zwischen-zwei-punkten-messen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "schaltungen"
-  - "spannungsmessung"
-  - "grundlagen"
-  - "spannung-strom-widerstand"
-hintPoints:
-  - "Grenze das Unterthema zuerst ein."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Formuliere eine kleine Gegenprobe."
-selfCheckPoints:
-  - "Ist das Unterthema klar benannt?"
-  - "Ist die Lösung nicht zu breit formuliert?"
-  - "Ist die Gegenprobe konkret?"
-transferIdeas:
-  - "Ändere einen Randwert und prüfe die Begründung erneut."
-  - "Erkläre die Lösung einmal als Merksatz und einmal am Beispiel."
-reflectionPrompt: "Warum hilft dir das kleine Unterthema „Spannungsmessung“ mehr als ein breiter Sammelbegriff?"
+tags: ["elektrotechnik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite ein kleines Szenario zu **Spannungsmessung**.

@@ -1,21 +1,14 @@
 ---
-title: Lösung – Bezugspunkte von CSS-Einheiten ruhig erklären
-description: Musterlösung zur Aufgabe über px, rem und em.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - em-rem-und-px-vergleichen
-taskId: WEB-CSS-LAYOUT-204
-relatedExercise: web-development/css/em-rem-und-px-vergleichen/bezugspunkte-von-css-einheiten-ruhig-erklaeren
-tags:
-  - css
-  - einheiten
-  - loesung
+title: "Lösung – Bezugspunkte von CSS-Einheiten ruhig erklären"
+description: "Musterlösung zur Aufgabe über px, rem und em."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "em-rem-und-px-vergleichen", "bezugspunkte-von-css-einheiten-ruhig-erklaeren"]
+taskId: "WEB-CSS-LAYOUT-204"
+relatedExercise: "web-development/css/em-rem-und-px-vergleichen/bezugspunkte-von-css-einheiten-ruhig-erklaeren"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

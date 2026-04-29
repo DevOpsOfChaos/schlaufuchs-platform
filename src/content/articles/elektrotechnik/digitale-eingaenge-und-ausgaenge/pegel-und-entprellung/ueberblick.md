@@ -1,36 +1,19 @@
 ---
 title: "Pegel und Entprellung"
 description: "Allgemeiner Überblick über digitale Pegel, Tasterprellen und die Bedeutung stabiler Eingangssignale."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "digitale-eingaenge-und-ausgaenge"
-  - "pegel-und-entprellung"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee digitaler Pegel."
-  - "Du verstehst, warum mechanische Taster prellen können."
-  - "Du kannst Entprellung als Stabilisierung eines Eingangssignals einordnen."
+topicPath: ["digitale-eingaenge-und-ausgaenge", "pegel-und-entprellung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein digitales Signal als sofort perfekt stabil zu betrachten."
-  - "Entprellung nur als Softwaretrick zu sehen und elektrische Ursachen zu übersehen."
-keyTakeaways:
-  - "Digitale Eingänge unterscheiden Pegelbereiche, nicht beliebig genaue Spannungen."
-  - "Taster können beim Schalten mehrere schnelle Wechsel erzeugen."
-recognizeSignals:
-  - "Es geht um Taster, Eingangssignale, High/Low, Flanken oder instabile Schaltzustände."
-selfCheckPoints:
-  - "Kann ich erklären, warum ein gedrückter Taster nicht immer sofort ein sauberes Digitalsignal liefert?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "digitale eingänge"
-  - "entprellung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
-
 # Pegel und Entprellung
 
 ![Schaubild zu Pegel, Prellen und Entprellung.](/schlaufuchs-platform/images/overviews/v148/pegel-und-entprellung.svg)

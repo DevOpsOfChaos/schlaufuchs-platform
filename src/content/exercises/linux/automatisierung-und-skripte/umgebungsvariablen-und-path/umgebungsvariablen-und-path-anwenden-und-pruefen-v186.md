@@ -1,29 +1,17 @@
 ---
 title: "Umgebungsvariablen und PATH – anwenden und prüfen"
 description: "Übe, Umgebungsvariablen und PATH an kleinen Praxissituationen zu prüfen."
-subject: linux
+subject: "linux"
 section: "automatisierung-und-skripte"
-topicPath:
-  - "automatisierung-und-skripte"
-  - "umgebungsvariablen-und-path"
-taskId: LINUX-UMGEBUNGSVARIABLEN-UND-PATH-V186-2
-tags:
-  - "linux"
-  - "umgebung"
-  - "path"
-  - "aufgabe"
-hintPoints:
-  - "Beginne mit Begriff und Kontext."
-  - "Trenne Beobachtung, Prüfung und mögliche Änderung."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe erklären."
-  - "Ich kann einen typischen Fehler vermeiden."
-transferIdeas:
-  - "Formuliere eine ähnliche Prüfsituation aus deinem eigenen Linux-Alltag."
-level: mittel
+topicPath: ["automatisierung-und-skripte", "umgebungsvariablen-und-path", "umgebungsvariablen-und-path-anwenden-und-pruefen-v186"]
+taskId: "LINUX-UMGEBUNGSVARIABLEN-UND-PATH-V186-2"
+tags: ["linux", "automatisierung-und-skripte", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Lernziel
 
 Du sollst **Umgebungsvariablen und PATH** nicht nur als Befehl oder Schlagwort sehen, sondern als geordnetes Linux-Thema mit Zweck, Kontext und typischen Prüfschritten.

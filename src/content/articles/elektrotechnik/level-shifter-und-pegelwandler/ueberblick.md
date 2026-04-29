@@ -1,37 +1,19 @@
 ---
 title: "Level-Shifter und Pegelwandler"
 description: "Allgemeiner Überblick über Pegelwandler zwischen Schaltungen mit unterschiedlichen Logikspannungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "level-shifter-und-pegelwandler"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Level-Shifter und Pegelwandler als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["level-shifter-und-pegelwandler", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird nur die Versorgungsspannung betrachtet und die erlaubte Signalspannung ignoriert."
-keyTakeaways:
-  - "Pegelwandler verbinden unterschiedliche Logikspannungen."
-  - "Richtung und Signalart bestimmen die Lösung."
-  - "Unangepasste Pegel können unzuverlässig oder schädlich sein."
-recognizeSignals:
-  - "Ein 5-V-System soll mit einem 3,3-V-Modul verbunden werden."
-  - "Ein Signal wird nicht sicher erkannt oder überschreitet Grenzwerte."
-selfCheckPoints:
-  - "Kann ich Level-Shifter und Pegelwandler in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "pegelwandler"
-  - "level shifter"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
-
 # Level-Shifter und Pegelwandler
 
 Ein Level-Shifter oder Pegelwandler verbindet digitale Schaltungen mit unterschiedlichen Logikspannungen. Typische Spannungen sind 5 V, 3,3 V oder niedrigere Pegel.

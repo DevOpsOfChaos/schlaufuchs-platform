@@ -3,24 +3,12 @@ title: "Lösung: Kompatibilität bei Änderungen: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-027a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "projektstruktur-und-codepflege"
-  - "kompatibilitaet-bei-aenderungen"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "kompatibilitaet-bei-aenderungen-loesung-a"]
 taskId: "informatik-v193-027a"
 relatedExercise: "informatik/sanierung-v193/kompatibilitaet-bei-aenderungen-aufgabe-a"
-tags:
-  - "kompatibilitaet"
-  - "bei"
-  - "aenderungen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-027a`
 
 Ausgangsauftrag: Plane eine Änderung an einer Funktion ohne bestehende Aufrufer zu brechen.

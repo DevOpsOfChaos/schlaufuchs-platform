@@ -1,36 +1,19 @@
 ---
 title: "Cross-Site Scripting (XSS)"
 description: "Cross-Site Scripting bezeichnet Angriffe, bei denen fremder Code im Kontext einer Webseite ausgeführt wird."
-subject: web-development
+subject: "web-development"
 section: "Sicherheit"
-topicPath:
-  - "cross-site-scripting-xss"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Cross-Site Scripting (XSS) als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["cross-site-scripting-xss", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird angenommen, XSS betreffe nur Formulare. Auch Markdown, URLs, Dateinamen oder Fehlermeldungen können Einfallstore sein."
-keyTakeaways:
-  - "Cross-Site Scripting bezeichnet Angriffe, bei denen fremder Code im Kontext einer Webseite ausgeführt wird."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Cross-Site Scripting (XSS), wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Cross-Site Scripting (XSS) in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "web"
-  - "sicherheit"
-  - "xss"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Sicherheit"]
 draft: false
 ---
-
 # Cross-Site Scripting (XSS)
 
 Cross-Site Scripting bezeichnet Angriffe, bei denen fremder Code im Kontext einer Webseite

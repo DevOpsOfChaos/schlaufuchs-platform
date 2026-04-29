@@ -3,46 +3,17 @@ title: "Mathematik – Ausreißer in Datensätzen sachlich bewerten"
 description: "Entscheide nicht vorschnell, ob ein auffälliger Wert falsch ist, sondern prüfe Messfehler, Sonderfall und Einfluss auf Kennwerte."
 subject: "mathematik"
 section: "Daten und Zufall"
-topicPath:
-  - "daten-und-zufall"
-  - "diagramme-und-ausreisser"
-  - "ausreisser-in-datensaetzen-sachlich-bewerten"
-learningGoals:
-  - "Du erklärst die Kernidee von „Datenbewertung“ in eigenen Worten."
-  - "Du ordnest das Thema einem klaren Unterthema zu statt es in einem Sammelbereich zu verlieren."
-  - "Du leitest eine kleine Gegenprobe für echte Aufgaben oder Projekte ab."
-practiceIdeas:
-  - "Markiere zuerst, welche Unterfrage wirklich gestellt ist."
-  - "Notiere eine typische Fehlannahme und eine passende Gegenprobe."
-  - "Übertrage die Denkbewegung auf ein zweites kleines Beispiel."
-commonMistakes:
-  - "auffällige Werte löschen"
-  - "nur Mittelwert betrachten"
-  - "Ursache behaupten ohne Prüfung"
-keyTakeaways:
-  - "Datenbewertung wird klarer, wenn Zustand, Ursache und Prüfschritt getrennt werden."
-  - "Kleine Unterthemen sind leichter auffindbar und besser prüfbar als breite Sammelordner."
-  - "Eine gute Erklärung endet mit einer konkreten Gegenprobe."
-recognizeSignals:
-  - "Die Aufgabe enthält einen scheinbar kleinen Sonderfall oder Fehlerzustand."
-  - "Es muss zwischen Begriffen unterschieden werden, die im Alltag leicht vermischt werden."
-  - "Eine Entscheidung soll begründet und nicht nur auswendig angewendet werden."
-selfCheckPoints:
-  - "Kann ich das Unterthema mit einem Satz von Nachbarthemen abgrenzen?"
-  - "Kann ich einen typischen Fehler benennen?"
-  - "Kann ich eine konkrete Prüfung oder Rechnung anschließen?"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "daten"
-  - "funktionen"
-  - "datenbewertung"
-  - "daten-und-zufall"
-  - "diagramme-und-ausreisser"
+topicPath: ["daten-und-zufall", "diagramme-und-ausreisser", "ausreisser-in-datensaetzen-sachlich-bewerten"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["mathematik", "Daten und Zufall"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Ausreißer ist ein auffälliger Wert. Er kann Fehler, Sonderfall oder wichtige Information sein. Deshalb wird er zuerst geprüft und nicht automatisch gelöscht.

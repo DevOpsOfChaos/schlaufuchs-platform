@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Daten in Tabellen strukturieren
-description: Erste festgehaltene Musterlösung zur Aufgabe INF-DATENBANKEN-TABELLEN-001.
-subject: informatik
-section: Datenbanken
-topicPath:
-  - datenbanken
-  - relationale-tabellen-verstehen
-  - daten-in-tabellen-strukturieren-loesung
-taskId: INF-DATENBANKEN-TABELLEN-001
-relatedExercise: src/content/exercises/informatik/datenbanken/relationale-tabellen-verstehen/daten-in-tabellen-strukturieren.md
-tags:
-  - informatik
-  - datenbanken
-  - relationale-tabellen
-  - loesung
-  - task-id
+title: "Musterlösung – Daten in Tabellen strukturieren"
+description: "Erste festgehaltene Musterlösung zur Aufgabe INF-DATENBANKEN-TABELLEN-001."
+subject: "informatik"
+section: "Datenbanken"
+topicPath: ["datenbanken", "relationale-tabellen-verstehen", "daten-in-tabellen-strukturieren"]
+taskId: "INF-DATENBANKEN-TABELLEN-001"
+relatedExercise: "src/content/exercises/informatik/datenbanken/relationale-tabellen-verstehen/daten-in-tabellen-strukturieren.md"
+tags: ["informatik", "Datenbanken", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Tabellenidee entwickeln
 
 Für eine Bibliothek wären zum Beispiel diese Tabellen sinnvoll:

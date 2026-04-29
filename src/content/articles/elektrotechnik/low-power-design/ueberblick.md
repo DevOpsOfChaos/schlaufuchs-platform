@@ -1,33 +1,19 @@
 ---
 title: "Low-Power-Design"
 description: "Low-Power-Design fasst Maßnahmen zusammen, um den Energieverbrauch einer Schaltung zu senken. Es betrifft Bauteilwahl, Takt, Sleep-Modi, Sensorzyklen und Leckströme."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik und Mikrocontroller"
-topicPath:
-  - "low-power-design"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Low-Power-Design."
-  - "Du kannst Low-Power-Design in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["low-power-design", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur den Mikrocontroller zu optimieren und Nebenverbraucher zu vergessen."
-keyTakeaways:
-  - "Low-Power-Design fasst Maßnahmen zusammen, um den Energieverbrauch einer Schaltung zu senken."
-  - "Wichtig sind vor allem aktive und schlafende zustände, duty cycle und messintervalle und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Low-Power-Design, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Low-Power-Design dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "grundlagen"
-  - "low power design"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik und Mikrocontroller"]
 draft: false
 ---
-
 # Low-Power-Design
 
 Low-Power-Design fasst Maßnahmen zusammen, um den Energieverbrauch einer Schaltung zu senken. Es betrifft Bauteilwahl, Takt, Sleep-Modi, Sensorzyklen und Leckströme. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

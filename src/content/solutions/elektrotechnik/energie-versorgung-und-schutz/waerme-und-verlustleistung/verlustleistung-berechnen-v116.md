@@ -3,22 +3,12 @@ title: "Lösung: Verlustleistung berechnen"
 description: "Musterlösung zur Aufgabe „Verlustleistung berechnen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "energie-versorgung-und-schutz"
-  - "waerme-und-verlustleistung"
-  - "verlustleistung-berechnen-v116"
+topicPath: ["energie-versorgung-und-schutz", "waerme-und-verlustleistung", "verlustleistung-berechnen-v116"]
 taskId: "verlustleistung-berechnen-v116"
 relatedExercise: "elektrotechnik/energie-versorgung-und-schutz/waerme-und-verlustleistung/verlustleistung-berechnen-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "waerme und verlustleistung"
-  - "verlustleistung berechnen"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

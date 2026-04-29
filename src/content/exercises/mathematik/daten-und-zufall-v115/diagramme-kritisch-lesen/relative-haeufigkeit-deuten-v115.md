@@ -1,36 +1,17 @@
 ---
 title: "Aufgabe: Relative Häufigkeit deuten"
 description: "Trainiere Relative Häufigkeit deuten an einem kleinen, klar abgegrenzten Fall."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "daten-und-zufall-v115"
-  - "diagramme-kritisch-lesen"
-  - "relative-haeufigkeit-deuten-v115"
+topicPath: ["daten-und-zufall-v115", "diagramme-kritisch-lesen", "relative-haeufigkeit-deuten-v115"]
 taskId: "mathematik-relative-haeufigkeit-deuten-v115"
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "daten und zufall"
-  - "diagramme kritisch lesen"
-  - "aufgabe"
-hintPoints:
-  - "Grenze zuerst den kleinen Fall vom breiten Themenfeld ab."
-  - "Nutze die Prüffrage: Müssen die Treffer auf die Gruppengröße bezogen werden?"
-  - "Begründe mit zwei konkreten Hinweisen aus dem Fall."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-transferIdeas:
-  - "Übertrage dieselbe Trennkante auf ein eigenes Mini-Beispiel."
-  - "Formuliere einen Gegenfall, der ähnlich aussieht, aber anders entschieden wird."
-reflectionPrompt: "Was war bei „Relative Häufigkeit deuten“ die wichtigste Trennkante?"
-level: mittel
+tags: ["mathematik", "Feinstruktur Mathematik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den folgenden Fall zu **Relative Häufigkeit deuten**.

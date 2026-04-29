@@ -3,34 +3,15 @@ title: "Übung: öffentlichen und privaten Schlüssel trennen"
 description: "Übe, „öffentlichen und privaten Schlüssel trennen“ als kleines Unterthema zu erkennen, zu begründen und mit einer Gegenprobe abzusichern."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "netzwerk-und-fernzugriff"
-  - "ssh-schluessel-und-agent"
-  - "oeffentlichen-und-privaten-schluessel-trennen-v116"
+topicPath: ["netzwerk-und-fernzugriff", "ssh-schluessel-und-agent", "oeffentlichen-und-privaten-schluessel-trennen-v116"]
 taskId: "oeffentlichen-und-privaten-schluessel-trennen-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "ssh schluessel und agent"
-  - "oeffentlichen und privaten schluessel trennen"
-  - "v116"
-hintPoints:
-  - "Lies zuerst nur die konkrete Unterfrage."
-  - "Markiere eine typische Fehlannahme."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Lösung fachlich begründet?"
-  - "Ist die Abgrenzung zum Nachbarthema sichtbar?"
-  - "Passt die Gegenprobe zur Aufgabe?"
-transferIdeas:
-  - "Ändere eine Bedingung und prüfe, ob deine Begründung noch trägt."
-  - "Erkläre die Lösung einmal ohne Fachwörter und danach fachlich sauber."
-reflectionPrompt: "Welche kleine Entscheidung war bei „öffentlichen und privaten Schlüssel trennen“ am wichtigsten?"
+tags: ["linux", "Linux vertiefen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe 1: Unterfrage erkennen
 
 Lies die Situation:

@@ -1,37 +1,19 @@
 ---
 title: "Boundary und Adapter"
 description: "Überblick über Grenzen zwischen Fachlogik und technischen Anschlüssen in Softwarearchitekturen."
-subject: informatik
+subject: "informatik"
 section: "Architektur"
-topicPath:
-  - "boundary-und-adapter"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Boundary und Adapter als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["boundary-und-adapter", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Technische Details direkt in Fachlogik einzubauen und dadurch Tests und Änderungen schwer zu machen."
-keyTakeaways:
-  - "Boundaries schützen den fachlichen Kern."
-  - "Adapter übersetzen zu konkreten Technologien."
-  - "Klare Grenzen verbessern Testbarkeit und Wartbarkeit."
-recognizeSignals:
-  - "Fachlogik hängt direkt von Datenbank, HTTP oder UI ab."
-  - "Eine Technologie soll austauschbar bleiben."
-selfCheckPoints:
-  - "Kann ich Boundary und Adapter in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "architektur"
-  - "adapter"
-  - "schnittstellen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Architektur"]
 draft: false
 ---
-
 # Boundary und Adapter
 
 ![Schaubild zu Boundary und Adapter.](/schlaufuchs-platform/images/overviews/v150/boundary-und-adapter.svg)

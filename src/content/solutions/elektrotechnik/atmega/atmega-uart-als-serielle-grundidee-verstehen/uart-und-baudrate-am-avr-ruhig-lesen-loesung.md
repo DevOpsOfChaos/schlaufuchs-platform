@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – UART und Baudrate am AVR ruhig lesen
-description: Musterlösung zur Aufgabe ET-ATMEGA-UART-208.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-kommunikation
-  - atmega-uart-als-serielle-grundidee-verstehen
-  - uart-und-baudrate-am-avr-ruhig-lesen-loesung
-taskId: ET-ATMEGA-UART-208
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-uart-als-serielle-grundidee-verstehen/uart-und-baudrate-am-avr-ruhig-lesen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – UART und Baudrate am AVR ruhig lesen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-UART-208."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-uart-als-serielle-grundidee-verstehen", "uart-und-baudrate-am-avr-ruhig-lesen"]
+taskId: "ET-ATMEGA-UART-208"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-uart-als-serielle-grundidee-verstehen/uart-und-baudrate-am-avr-ruhig-lesen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

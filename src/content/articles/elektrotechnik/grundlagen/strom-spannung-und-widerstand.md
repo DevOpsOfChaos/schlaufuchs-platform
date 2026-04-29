@@ -1,17 +1,19 @@
 ---
-title: Strom, Spannung und Widerstand
-description: Strom, Spannung und Widerstand gehören zu den wichtigsten Grundgrößen der Elektrotechnik und müssen klar voneinander unterschieden werden.
-subject: elektrotechnik
-section: Grundlagen
-level: einfach
-tags:
-  - Strom
-  - Spannung
-  - Widerstand
-  - Elektrotechnik
+title: "Strom, Spannung und Widerstand"
+description: "Strom, Spannung und Widerstand gehören zu den wichtigsten Grundgrößen der Elektrotechnik und müssen klar voneinander unterschieden werden."
+subject: "elektrotechnik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "strom-spannung-und-widerstand"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 Viele Missverständnisse in der Elektrotechnik entstehen nicht durch komplizierte Schaltungen, sondern durch unklare Grundbegriffe. Strom, Spannung und Widerstand hängen eng zusammen, bedeuten aber nicht dasselbe. Wer diese drei Größen sicher unterscheiden kann, versteht spätere Themen deutlich leichter.

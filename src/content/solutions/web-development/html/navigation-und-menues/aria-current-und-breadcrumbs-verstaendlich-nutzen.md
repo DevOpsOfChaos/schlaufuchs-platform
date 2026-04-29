@@ -3,18 +3,10 @@ title: "Lösung – aria-current und Breadcrumbs verständlich nutzen"
 description: "Musterlösung mit kurzer Begründung zur passenden Web-Development-Entscheidung."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "navigation-und-menues"
-  - "aria-current-und-breadcrumbs-verstaendlich-nutzen"
+topicPath: ["html", "navigation-und-menues", "aria-current-und-breadcrumbs-verstaendlich-nutzen"]
 taskId: "aria-current-und-breadcrumbs-verstaendlich-nutzen"
 relatedExercise: "web-development/html/navigation-und-menues/aria-current-und-breadcrumbs-verstaendlich-nutzen"
-tags:
-  - "web development"
-  - "html"
-  - "navigation"
-  - "aria-current"
-  - "breadcrumbs"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
 ## Musterlösung

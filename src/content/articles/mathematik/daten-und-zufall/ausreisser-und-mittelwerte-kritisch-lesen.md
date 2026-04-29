@@ -1,46 +1,19 @@
 ---
-title: Ausreißer und Mittelwerte kritisch lesen
-description: Verstehe, warum einzelne extreme Werte einen Durchschnitt stark verschieben können und weshalb Median und Spannweite beim Deuten von Daten helfen.
-subject: mathematik
-section: Daten und Zufall
-topicPath:
-  - daten-und-zufall
-  - mittelwert-median-und-spannweite
-  - ausreisser-und-mittelwerte-kritisch-lesen
-learningGoals:
-  - Du erkennst Ausreißer in kleinen Datensätzen.
-  - Du beschreibst, wie extreme Werte den Mittelwert beeinflussen.
-  - Du deutest Daten vorsichtiger, wenn Durchschnitt und Mitte nicht dasselbe erzählen.
-practiceIdeas:
-  - Vergleiche einen Datensatz mit und ohne extremen Einzelwert.
-  - Prüfe bei Kennwerten, ob ein Ausreißer den Eindruck verzerrt.
-  - Begründe, wann Median hilfreicher wirkt als der Mittelwert.
-commonMistakes:
-  - den Durchschnitt immer als neutralsten Wert zu lesen.
-  - Ausreißer nur als Fehler statt als wichtigen Hinweis zu sehen.
-  - einen Kennwert zu nennen, ohne die Verteilung mitzudenken.
-keyTakeaways:
-  - Ausreißer können Mittelwerte deutlich verschieben.
-  - Median und Spannweite helfen, Daten ruhiger einzuordnen.
-  - Ein einzelner Kennwert reicht oft nicht für eine faire Deutung.
-recognizeSignals:
-  - Es geht um Durchschnittswerte, Verteilungen oder ungewöhnlich hohe bzw. niedrige Einzelwerte.
-  - Du sollst erklären, warum Daten trotz gleichem Mittelwert unterschiedlich wirken können.
-  - In Aufgaben ist die Verteilung der Werte wichtiger als eine einzelne Zahl.
-selfCheckPoints:
-  - Kann ich einen Ausreißer im Datensatz erkennen?
-  - Kann ich erklären, wie er den Mittelwert verändert?
-  - Kann ich begründen, wann Median hilfreicher ist?
-tags:
-  - mathematik
-  - daten
-  - mittelwert
-  - median
-  - ausreisser
-level: einfach
+title: "Ausreißer und Mittelwerte kritisch lesen"
+description: "Verstehe, warum einzelne extreme Werte einen Durchschnitt stark verschieben können und weshalb Median und Spannweite beim Deuten von Daten helfen."
+subject: "mathematik"
+section: "Daten und Zufall"
+topicPath: ["daten-und-zufall", "ausreisser-und-mittelwerte-kritisch-lesen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Daten und Zufall"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Durchschnitt wirkt oft objektiv. Er kann aber täuschen, wenn ein einzelner Wert sehr stark aus der Reihe fällt. Solche Werte nennt man **Ausreißer**.

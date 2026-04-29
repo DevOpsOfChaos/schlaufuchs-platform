@@ -1,46 +1,19 @@
 ---
-title: Getter und Setter als Schnittstelle verstehen
-description: Verstehe, warum Getter und Setter oft als kontrollierte Zugaenge zu gekapselten Daten dienen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - getter-und-setter-als-schnittstelle-verstehen
-learningGoals:
-  - Du erklaerst die Rolle von Getter- und Setter-Methoden.
-  - Du unterscheidest direkten Attributzugriff von kontrolliertem Methodenzugriff.
-  - Du liest Klassenbeispiele ruhiger, wenn Daten privat und Methoden oeffentlich sind.
-practiceIdeas:
-  - Markiere, welche Methode nur liest und welche auch veraendert.
-  - Begruende, warum eine Klasse Daten nicht direkt oeffentlich macht.
-  - Ueberlege, welche Pruefungen in einem Setter sinnvoll waeren.
-commonMistakes:
-  - Getter und Setter fuer ueberfluessigen Umweg zu halten.
-  - Zu vergessen, dass ein Setter Eingaben pruefen oder anpassen kann.
-  - Direkten Datenzugriff mit sauberer Schnittstelle zu verwechseln.
-keyTakeaways:
-  - Getter lesen gekapselte Daten nach aussen aus.
-  - Setter aendern Daten kontrolliert.
-  - Beide sind Teil der oeffentlichen Schnittstelle einer Klasse.
-recognizeSignals:
-  - Eine Klasse hat private Attribute und oeffentliche Methoden wie getX oder setX.
-  - Es geht um Datenkapselung oder kontrollierten Zugriff.
-  - In Aufgaben soll begruendet werden, warum direkte Attributaenderung vermieden wird.
-selfCheckPoints:
-  - Kann ich sagen, was Getter und Setter fachlich leisten?
-  - Kann ich erklaeren, warum direkte Aenderung nicht immer sinnvoll ist?
-  - Kann ich eine moegliche Pruefung im Setter nennen?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - getter
-  - setter
+title: "Getter und Setter als Schnittstelle verstehen"
+description: "Verstehe, warum Getter und Setter oft als kontrollierte Zugaenge zu gekapselten Daten dienen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "getter-und-setter-als-schnittstelle-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Getter und Setter sind oft der sichtbare Teil einer gekapselten Klasse. Die eigentlichen Daten bleiben intern geschuetzt, aber die Klasse stellt gezielte Methoden bereit, um zu lesen oder zu aendern.

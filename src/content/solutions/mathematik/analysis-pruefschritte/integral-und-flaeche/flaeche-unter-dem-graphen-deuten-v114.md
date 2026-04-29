@@ -1,23 +1,14 @@
 ---
-title: Lösung – Fläche unter dem Graphen deuten
-description: Musterlösung zur Aufgabe über Fläche unter dem Graphen deuten.
-subject: mathematik
-section: Feinstruktur Mathematik
-topicPath:
-- analysis-pruefschritte
-- integral-und-flaeche
-- flaeche-unter-dem-graphen-deuten-v114
-taskId: v114-mathematik-flaeche-unter-dem-graphen-deuten-v114
-relatedExercise: mathematik/analysis-pruefschritte/integral-und-flaeche/flaeche-unter-dem-graphen-deuten-v114
-tags:
-- mathematik
-- v114
-- loesung
-- analysis-pruefschritte
-- integral-und-flaeche
+title: "Lösung – Fläche unter dem Graphen deuten"
+description: "Musterlösung zur Aufgabe über Fläche unter dem Graphen deuten."
+subject: "mathematik"
+section: "Feinstruktur Mathematik"
+topicPath: ["analysis-pruefschritte", "integral-und-flaeche", "flaeche-unter-dem-graphen-deuten-v114"]
+taskId: "v114-mathematik-flaeche-unter-dem-graphen-deuten-v114"
+relatedExercise: "mathematik/analysis-pruefschritte/integral-und-flaeche/flaeche-unter-dem-graphen-deuten-v114"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

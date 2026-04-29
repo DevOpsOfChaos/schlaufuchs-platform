@@ -1,12 +1,17 @@
 ---
-title: Funktionen in C planen
-description: Diese Aufgabe trainiert das saubere Denken in Teilaufgaben, Parametern und Rückgabewerten.
-subject: informatik
-section: Programmstruktur
-level: mittel
+title: "Funktionen in C planen"
+description: "Diese Aufgabe trainiert das saubere Denken in Teilaufgaben, Parametern und Rückgabewerten."
+subject: "informatik"
+section: "Programmstruktur"
+topicPath: ["funktionen-in-c-planen"]
+taskId: "AUTO-FUNKTIONEN-IN-C-PLANEN"
+tags: ["informatik", "Programmstruktur", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben zunächst konzeptionell. Es geht nicht nur darum, Syntax aufzuschreiben, sondern auch darum, sinnvolle Funktionsgrenzen zu erkennen.

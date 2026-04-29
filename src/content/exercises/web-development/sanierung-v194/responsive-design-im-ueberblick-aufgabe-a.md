@@ -3,37 +3,15 @@ title: "Responsive Design im Überblick: Aufgabe A"
 description: "Skizziere, wie eine Kartenübersicht auf drei Breiten reagieren soll."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "responsive-layout"
-  - "responsive-design-im-ueberblick"
-  - "aufgabe-a"
-
+topicPath: ["sanierung-v194", "responsive-design-im-ueberblick-aufgabe-a"]
 taskId: "web-development-v194-011a"
-tags:
-  - "responsive"
-  - "design"
-  - "ueberblick"
-  - "web-development"
-  - "aufgabe"
-  - "v194"
-
-hintPoints:
-  - "Beschreibe zuerst die konkrete Seitensituation."
-  - "Trenne Beobachtung, gewünschtes Verhalten und Änderung."
-  - "Lege einen kleinen Kontrollpunkt fest."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Responsive Design im Überblick."
-  - "Die Prüfung ist klein genug, um sie direkt nachzuvollziehen."
-  - "Nutzerperspektive und technische Umsetzung werden nicht vermischt."
-transferIdeas:
-  - "Übertrage den Prüfweg auf eine andere Bildschirmbreite."
-  - "Notiere, welcher Zustand zusätzlich getestet werden sollte."
-reflectionPrompt: "Welche Annahme über Nutzerinnen und Nutzer wäre gefährlich, wenn sie still falsch bleibt?"
+tags: ["web-development", "barrierefreiheit-responsive-ux", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Skizziere, wie eine Kartenübersicht auf drei Breiten reagieren soll.

@@ -3,40 +3,17 @@ title: "DOM-Selektion und Knoten"
 description: "Verstehe elemente zuverlässig finden als ruhigen Baustein für wartbare Frontend-Projekte."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "dom-und-ui"
-  - "dom-selektion-und-knoten"
-learningGoals:
-  - "Elemente zuverlässig finden"
-  - "typische Fehlerquellen erkennen"
-  - "eine kleine Frontend-Entscheidung begründen"
-practiceIdeas:
-  - "Plane die DOM-Auswahl für eine Tab-Navigation."
-  - "Formuliere eine Mini-Checkliste für eine zweite ähnliche Oberfläche."
-commonMistakes:
-  - "Technik wird benutzt, ohne den Zweck zu klären."
-  - "Fehlerfälle werden erst nachträglich betrachtet."
-  - "HTML, CSS und JavaScript werden unnötig vermischt."
-keyTakeaways:
-  - "Selektoren müssen zur echten HTML-Struktur passen."
-  - "Kleine, klare Prüfschritte machen Frontend-Code wartbarer."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Verhalten, Daten oder Zustand einer Webseite bewusst gesteuert werden müssen."
-selfCheckPoints:
-  - "Kann ich Zweck, Daten und sichtbare Wirkung trennen?"
-  - "Ist mindestens ein Fehlerfall genannt?"
-  - "Bleibt die Lösung auch ohne Spezialwissen nachvollziehbar?"
+topicPath: ["sanierung-v190", "dom-selektion-und-knoten"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "dom-und-ui"
-  - "dom"
-  - "javascript"
-  - "frontend"
-  - "web-development"
+tags: ["web-development", "javascript-vertiefung"]
 draft: false
 ---
-
 ![Didaktische Skizze zu DOM-Selektion und Knoten](/schlaufuchs-platform/images/web-development/sanierung-v190/dom-selektion-und-knoten.svg)
 
 DOM-Selektion und Knoten gehört zur JavaScript-Vertiefung im Web Development. Die Seite betrachtet das Thema nicht als isolierten Code-Trick, sondern als Entscheidungspunkt: Welche Aufgabe hat der Baustein, welche Daten oder Elemente sind beteiligt und wie bleibt die Lösung auch später verständlich?

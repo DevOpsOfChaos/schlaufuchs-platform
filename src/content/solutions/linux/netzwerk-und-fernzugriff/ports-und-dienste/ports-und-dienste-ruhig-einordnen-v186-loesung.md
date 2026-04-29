@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Ports und Dienste – ruhig einordnen"
 description: "Musterlösung zur Linux-Aufgabe Ports und Dienste."
-subject: linux
+subject: "linux"
 section: "netzwerk-und-fernzugriff"
-topicPath:
-  - "netzwerk-und-fernzugriff"
-  - "ports-und-dienste"
-taskId: LINUX-PORTS-UND-DIENSTE-V186-1
-relatedExercise: src/content/exercises/linux/netzwerk-und-fernzugriff/ports-und-dienste/ports-und-dienste-ruhig-einordnen-v186.md
-tags:
-  - "linux"
-  - "ports"
-  - "dienste"
-  - "loesung"
+topicPath: ["netzwerk-und-fernzugriff", "ports-und-dienste", "ports-und-dienste-ruhig-einordnen-v186"]
+taskId: "LINUX-PORTS-UND-DIENSTE-V186-1"
+relatedExercise: "src/content/exercises/linux/netzwerk-und-fernzugriff/ports-und-dienste/ports-und-dienste-ruhig-einordnen-v186.md"
+tags: ["linux", "netzwerk-und-fernzugriff", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

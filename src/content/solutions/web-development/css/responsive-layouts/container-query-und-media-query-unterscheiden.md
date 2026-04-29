@@ -1,20 +1,12 @@
 ---
 title: "Lösung – Media Query oder Container Query wählen"
 description: "Musterlösung zu: Entscheide für verschiedene Layoutprobleme, ob Viewport oder Container die richtige Bezugsgröße ist."
-subject: web-development
+subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "responsive-layouts"
-  - "container-query-und-media-query-unterscheiden"
+topicPath: ["css", "responsive-layouts", "container-query-und-media-query-unterscheiden"]
 taskId: "wd-css-v95-container-media-query"
 relatedExercise: "web-development/css/responsive-layouts/container-query-und-media-query-unterscheiden"
-tags:
-  - "web development"
-  - "css"
-  - "responsive"
-  - "container queries"
-  - "media queries"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

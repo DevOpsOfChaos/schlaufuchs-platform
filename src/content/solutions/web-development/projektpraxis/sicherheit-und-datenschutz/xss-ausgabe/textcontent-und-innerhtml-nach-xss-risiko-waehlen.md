@@ -3,23 +3,12 @@ title: "Lösung – textContent und innerHTML nach XSS-Risiko wählen"
 description: "Musterlösung zu textContent und innerHTML mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Sicherheit"
-topicPath:
-  - "projektpraxis"
-  - "sicherheit-und-datenschutz"
-  - "xss-ausgabe"
-  - "textcontent-und-innerhtml-nach-xss-risiko-waehlen"
+topicPath: ["projektpraxis", "sicherheit-und-datenschutz", "xss-ausgabe", "textcontent-und-innerhtml-nach-xss-risiko-waehlen"]
 taskId: "v109-web-development-textcontent-und-innerhtml-nach-xss-risiko-waehlen"
 relatedExercise: "web-development/projektpraxis/sicherheit-und-datenschutz/xss-ausgabe/textcontent-und-innerhtml-nach-xss-risiko-waehlen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "projektpraxis"
-  - "sicherheit-und-datenschutz"
-  - "textcontent und innerhtml"
+tags: ["web-development", "Sicherheit", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **textContent und innerHTML**.

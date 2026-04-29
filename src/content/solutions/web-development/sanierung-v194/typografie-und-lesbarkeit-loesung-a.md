@@ -3,24 +3,12 @@ title: "Lösung: Typografie und Lesbarkeit: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-development-v194-016a im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "visuelle-qualitaet"
-  - "typografie-und-lesbarkeit"
-  - "loesung-a"
-
+topicPath: ["sanierung-v194", "typografie-und-lesbarkeit-loesung-a"]
 taskId: "web-development-v194-016a"
 relatedExercise: "web-development/sanierung-v194/typografie-und-lesbarkeit-aufgabe-a"
-tags:
-  - "typografie"
-  - "lesbarkeit"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-016a`
 
 Ausgangsauftrag: Verbessere einen Textblock hinsichtlich Lesbarkeit.

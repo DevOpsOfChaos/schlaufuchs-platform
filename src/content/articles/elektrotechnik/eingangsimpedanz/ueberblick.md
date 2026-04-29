@@ -1,33 +1,19 @@
 ---
 title: "Eingangsimpedanz"
 description: "Die Eingangsimpedanz beschreibt, wie stark ein Eingang eine angeschlossene Signalquelle belastet. Sie ist wichtig, weil Messungen und digitale oder analoge Eingänge ein Signal verändern können, wenn sie nicht hochohmig genug sind."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik und Mikrocontroller"
-topicPath:
-  - "eingangsimpedanz"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Eingangsimpedanz."
-  - "Du kannst Eingangsimpedanz in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["eingangsimpedanz", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Einen Eingang als völlig unsichtbar für die Schaltung zu betrachten."
-keyTakeaways:
-  - "Die Eingangsimpedanz beschreibt, wie stark ein Eingang eine angeschlossene Signalquelle belastet."
-  - "Wichtig sind vor allem belastung der signalquelle, spannungsteilerwirkung mit dem quellwiderstand und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Eingangsimpedanz, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Eingangsimpedanz dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "grundlagen"
-  - "eingangsimpedanz"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik und Mikrocontroller"]
 draft: false
 ---
-
 # Eingangsimpedanz
 
 Die Eingangsimpedanz beschreibt, wie stark ein Eingang eine angeschlossene Signalquelle belastet. Sie ist wichtig, weil Messungen und digitale oder analoge Eingänge ein Signal verändern können, wenn sie nicht hochohmig genug sind. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

@@ -3,23 +3,12 @@ title: "Lösung: Projektstruktur, Dateien und Assets: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-019a im Web-Development-Block v187."
 subject: "web-development"
 section: "werkzeuge"
-topicPath: 
-  - "werkzeuge-und-projektarbeit"
-  - "projektstruktur"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "projektstruktur-dateien-und-assets-aufgabe-a"]
 taskId: "web-v187-019a"
 relatedExercise: "web-development/sanierung-v187/projektstruktur-dateien-und-assets-aufgabe-a"
-tags: 
-  - "projektstruktur"
-  - "dateien"
-  - "assets"
-  - "pfade"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "werkzeuge", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-019a`
 
     Ausgangsauftrag: Entwirf eine Ordnerstruktur für eine kleine Lernwebsite mit Bildern, CSS und drei Seiten.

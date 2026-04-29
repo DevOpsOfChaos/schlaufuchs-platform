@@ -1,29 +1,17 @@
 ---
 title: "Modularisierung und Pakete – anwenden und prüfen"
 description: "Übe, modularisierung und pakete fachlich auf Beispiele anzuwenden und zu überprüfen."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "modularisierung-und-pakete"
-  - "uebung"
-taskId: INF-V185-016-2
-tags:
-  - "informatik"
-  - "programmierpraxis-und-tests"
-  - "modularisierung-und-pakete"
-hintPoints:
-  - "Beginne mit der Grundidee, nicht mit einem Spezialfall."
-  - "Trenne Begriff, Beispiel und Prüfung."
-selfCheckPoints:
-  - "Ich kann das Thema in eigenen Worten erklären."
-  - "Ich kann ein passendes Beispiel begründen."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel in einem anderen Fachbereich."
-level: einfach
+topicPath: ["programmierpraxis-und-tests", "modularisierung-und-pakete", "modularisierung-und-pakete-anwenden-und-pruefen-v185"]
+taskId: "INF-V185-016-2"
+tags: ["informatik", "Programmierpraxis und Tests", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe nutzt **Modularisierung und Pakete**, um Beispiele, Grenzen und Prüfwege bewusster zu unterscheiden.
 
 ## Lernziel

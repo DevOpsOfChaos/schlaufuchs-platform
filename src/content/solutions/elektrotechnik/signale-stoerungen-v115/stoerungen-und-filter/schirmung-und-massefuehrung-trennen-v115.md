@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Schirmung und Masseführung trennen"
 description: "Musterlösung zu Schirmung und Masseführung trennen mit Trennkante und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "signale-stoerungen-v115"
-  - "stoerungen-und-filter"
-  - "schirmung-und-massefuehrung-trennen-v115"
+topicPath: ["signale-stoerungen-v115", "stoerungen-und-filter", "schirmung-und-massefuehrung-trennen-v115"]
 taskId: "elektrotechnik-schirmung-und-massefuehrung-trennen-v115"
 relatedExercise: "elektrotechnik/signale-stoerungen-v115/stoerungen-und-filter/schirmung-und-massefuehrung-trennen-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "signale und störungen"
-  - "störungen und filter"
-  - "lösung"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Schirmung und Masseführung trennen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

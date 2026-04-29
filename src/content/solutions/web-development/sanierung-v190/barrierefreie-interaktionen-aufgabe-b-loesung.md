@@ -3,24 +3,12 @@ title: "Lösung: Barrierefreie Interaktionen: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-v190-026b im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "robuste-webseiten"
-  - "barrierefreie-interaktionen"
-  - "loesung-b"
+topicPath: ["sanierung-v190", "barrierefreie-interaktionen-aufgabe-b"]
 taskId: "web-v190-026b"
 relatedExercise: "web-development/sanierung-v190/barrierefreie-interaktionen-aufgabe-b"
-tags:
-  - "robuste-webseiten"
-  - "barrierefreie"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-026b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Barrierefreie Interaktionen“ um einen Fehlerfall, eine Abnahmebedingung und eine kurze Begründung.

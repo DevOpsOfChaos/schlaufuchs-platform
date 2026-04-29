@@ -1,33 +1,19 @@
 ---
 title: "ulimit"
 description: "ulimit begrenzt Ressourcen für Prozesse, etwa offene Dateien, Speicher oder Prozessanzahl. Solche Grenzen schützen Systeme und erklären manche schwer verständlichen Fehler."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "ulimit"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von ulimit."
-  - "Du kannst ulimit in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["ulimit", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Grenzen nur im interaktiven Terminal zu prüfen, obwohl Dienste eigene Limits haben können."
-keyTakeaways:
-  - "ulimit begrenzt Ressourcen für Prozesse, etwa offene Dateien, Speicher oder Prozessanzahl."
-  - "Wichtig sind vor allem soft- und hard-limits, offene dateien und prozesse und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um ulimit, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu ulimit dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "linux"
-  - "grundlagen"
-  - "ulimit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # ulimit
 
 ulimit begrenzt Ressourcen für Prozesse, etwa offene Dateien, Speicher oder Prozessanzahl. Solche Grenzen schützen Systeme und erklären manche schwer verständlichen Fehler. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

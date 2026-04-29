@@ -1,46 +1,19 @@
 ---
-title: Funktionen mit Parametern und Rueckgaben in PHP ruhig lesen
-description: Verstehe, wie Funktionen Eingaben annehmen, verarbeiten und Ergebnisse zurueckgeben.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - funktionen-mit-parametern-und-rueckgaben-in-php-ruhig-lesen
-learningGoals:
-  - Du erklaerst die Rolle von Parametern und Rueckgabewerten.
-  - Du unterscheidest Eingabe, Verarbeitung und Ergebnis sauber.
-  - Du liest kleine PHP Funktionen ruhiger als Datenfluss.
-practiceIdeas:
-  - Markiere Parameter und Rueckgabestelle in einer Funktion.
-  - Beschreibe eine Funktion zuerst in Alltagssprache.
-  - Verfolge, welcher Wert hineingeht und welcher zurueckkommt.
-commonMistakes:
-  - Parameter und Rueckgabewert zu vermischen.
-  - Funktionen nur ueber Syntax statt ueber Datenfluss zu lesen.
-  - Zu glauben, dass eine Funktion automatisch etwas ausgibt, nur weil sie etwas berechnet.
-keyTakeaways:
-  - Parameter sind Eingaben fuer eine Funktion.
-  - Rueckgabewerte sind Ergebnisse, die aus der Funktion herauskommen.
-  - Ruhiges Lesen gelingt ueber die Abfolge Eingabe, Verarbeitung, Ergebnis.
-recognizeSignals:
-  - Eine Funktion nimmt Klammerwerte an und verwendet return.
-  - Es geht um kleine Berechnungen oder Umformungen.
-  - Du sollst sagen, was hinein- und was herausgeht.
-selfCheckPoints:
-  - Kann ich Parameter und Rueckgabe sicher unterscheiden?
-  - Kann ich eine Funktion als kleinen Ablauf in Worten beschreiben?
-  - Kann ich erklaeren, warum return nicht dasselbe wie echo ist?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - funktionen
-  - return
+title: "Funktionen mit Parametern und Rueckgaben in PHP ruhig lesen"
+description: "Verstehe, wie Funktionen Eingaben annehmen, verarbeiten und Ergebnisse zurueckgeben."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "funktionen-mit-parametern-und-rueckgaben-in-php-ruhig-lesen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Eine Funktion ist ein kleiner verpackter Ablauf. Sie bekommt oft **Eingaben**, verarbeitet diese und liefert ein **Ergebnis** zurueck.

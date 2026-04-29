@@ -3,44 +3,17 @@ title: "JavaScript – Formular-submit, preventDefault und Validierung"
 description: "Lerne, wann JavaScript das Absenden eines Formulars begleitet und wann es das Standardverhalten bewusst anhält."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "formulare-und-validierung"
-  - "formular-submit-preventdefault-und-validierung"
-learningGoals:
-  - "Du erklärst das submit-Ereignis als Formularereignis."
-  - "Du nutzt preventDefault nur begründet."
-  - "Du zeigst Fehler so an, dass Nutzerinnen und Nutzer weiterarbeiten können."
-practiceIdeas:
-  - "Baue ein sehr kleines Beispiel mit genau einem sichtbaren Zustand."
-  - "Erkläre den Code zuerst in Alltagssprache und danach mit Fachbegriffen."
-  - "Prüfe bewusst den Fall, dass ein Element, Wert oder Netzwerkzugriff nicht wie erwartet vorhanden ist."
-commonMistakes:
-  - "Jeden Klick auf den Button statt das submit-Ereignis des Formulars zu behandeln."
-  - "preventDefault zu setzen, ohne danach eine klare Alternative auszuführen."
-  - "Fehler nur in der Konsole auszugeben."
-keyTakeaways:
-  - "JavaScript im Browser verbindet Struktur, Ereignisse, Daten und Rückmeldung."
-  - "Robuste Lösungen behandeln nicht nur den Erfolgsfall."
-  - "Lesbarer Code trennt Auswahl, Entscheidung und Wirkung."
-recognizeSignals:
-  - "Es geht um Browserverhalten, Interaktion, Formularwerte, Datenladen oder gespeicherten Zustand."
-  - "Eine sichtbare Oberfläche soll durch JavaScript verständlicher oder interaktiver werden."
-  - "Der Code muss mit Fehlern, fehlenden Elementen oder leeren Werten umgehen."
-selfCheckPoints:
-  - "Kann ich sagen, welche Browseraufgabe der Code übernimmt?"
-  - "Ist die Rückmeldung für Nutzerinnen und Nutzer sichtbar?"
-  - "Bleibt die Lösung klein genug, um später erweitert zu werden?"
+topicPath: ["javascript", "formulare-und-validierung", "formular-submit-preventdefault-und-validierung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "web development"
-  - "javascript"
-  - "formular"
-  - "validierung"
-  - "preventdefault"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Lerne, wann JavaScript das Absenden eines Formulars begleitet und wann es das Standardverhalten bewusst anhält. Im Mittelpunkt steht nicht ein einzelner Trick, sondern eine ruhige Entscheidung: Was passiert im Browser, was sieht der Mensch und welche Stelle im Code ist dafür zuständig?

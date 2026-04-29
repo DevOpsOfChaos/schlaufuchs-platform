@@ -1,32 +1,17 @@
 ---
 title: "Skip Links"
 description: "Allgemeiner Überblick über Sprunglinks als einfache Hilfe für Tastatur- und Screenreader-Nutzung."
-subject: web-development
+subject: "web-development"
 section: "Barrierefreiheit"
-topicPath:
-  - "skip-links"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Skip Links als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Fokusreihenfolge, sichtbar bei Fokus, Hauptinhalt."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["skip-links", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Skip Links nur als unsichtbares Spezialdetail für Screenreader zu betrachten."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Skip Links beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Tastaturnavigation."
-  - "Wichtige Hinweise liefern vor allem Fokusreihenfolge, sichtbar bei Fokus, Hauptinhalt."
-recognizeSignals:
-  - "Es geht um tastaturnavigation, fokusreihenfolge oder sichtbar bei fokus."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Skip Links erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "web-development"
-  - "barrierefreiheit"
-  - "navigation"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Barrierefreiheit"]
 draft: false
 ---
 # Skip Links

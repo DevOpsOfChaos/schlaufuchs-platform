@@ -1,12 +1,17 @@
 ---
-title: CSS-Box-Modell, Padding, Margin und Border
-description: Diese Aufgabe vertieft das CSS-Box-Modell und die sichere Unterscheidung von Innenabstand, Rand und Außenabstand.
-subject: web-development
-section: Grundlagen
-level: mittel
+title: "CSS-Box-Modell, Padding, Margin und Border"
+description: "Diese Aufgabe vertieft das CSS-Box-Modell und die sichere Unterscheidung von Innenabstand, Rand und Außenabstand."
+subject: "web-development"
+section: "Grundlagen"
+topicPath: ["grundlagen", "css-box-modell-padding-margin-und-border"]
+taskId: "AUTO-CSS-BOX-MODELL-PADDING-MARGIN-UND-BORDER"
+tags: ["web-development", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben mit Blick auf Layout und Struktur. Es geht darum, die Wirkung von content, padding, border und margin sicher zu verstehen.

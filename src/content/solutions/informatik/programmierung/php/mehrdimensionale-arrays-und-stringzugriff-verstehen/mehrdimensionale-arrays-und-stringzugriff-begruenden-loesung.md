@@ -1,20 +1,12 @@
 ---
-title: Musterlösung – Mehrdimensionale Arrays und Stringzugriff unterscheiden
-description: Musterlösung zur Aufgabe INF-PHP-ADV-004.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - mehrdimensionale-arrays-und-stringzugriff-verstehen
-  - mehrdimensionale-arrays-und-stringzugriff-begruenden-loesung
-taskId: INF-PHP-ADV-004
-relatedExercise: src/content/exercises/informatik/programmierung/php/mehrdimensionale-arrays-und-stringzugriff-verstehen/mehrdimensionale-arrays-und-stringzugriff-begruenden.md
-tags:
-  - informatik
-  - loesung
-  - php
-  - task-id
+title: "Musterlösung – Mehrdimensionale Arrays und Stringzugriff unterscheiden"
+description: "Musterlösung zur Aufgabe INF-PHP-ADV-004."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "mehrdimensionale-arrays-und-stringzugriff-verstehen", "mehrdimensionale-arrays-und-stringzugriff-begruenden"]
+taskId: "INF-PHP-ADV-004"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/mehrdimensionale-arrays-und-stringzugriff-verstehen/mehrdimensionale-arrays-und-stringzugriff-begruenden.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
 ## Aufgabe 1

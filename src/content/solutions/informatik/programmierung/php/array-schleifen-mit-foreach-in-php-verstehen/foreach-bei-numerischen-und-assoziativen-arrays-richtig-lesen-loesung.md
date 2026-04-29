@@ -1,21 +1,14 @@
 ---
-title: Loesung – foreach bei numerischen und assoziativen Arrays richtig lesen
-description: Musterloesung zur Aufgabe ueber foreach bei Listen und assoziativen Arrays.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - array-schleifen-mit-foreach-in-php-verstehen
-taskId: INF-PHP-ARRAYS-002
-relatedExercise: informatik/programmierung/php/array-schleifen-mit-foreach-in-php-verstehen/foreach-bei-numerischen-und-assoziativen-arrays-richtig-lesen
-tags:
-  - informatik
-  - php
-  - loesung
+title: "Loesung – foreach bei numerischen und assoziativen Arrays richtig lesen"
+description: "Musterloesung zur Aufgabe ueber foreach bei Listen und assoziativen Arrays."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "array-schleifen-mit-foreach-in-php-verstehen", "foreach-bei-numerischen-und-assoziativen-arrays-richtig-lesen"]
+taskId: "INF-PHP-ARRAYS-002"
+relatedExercise: "informatik/programmierung/php/array-schleifen-mit-foreach-in-php-verstehen/foreach-bei-numerischen-und-assoziativen-arrays-richtig-lesen"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterloesung
 
 ### Aufgabe 1

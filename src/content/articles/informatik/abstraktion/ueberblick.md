@@ -1,36 +1,19 @@
 ---
 title: "Abstraktion"
 description: "Einordnung von Abstraktion als Grundprinzip der Informatik."
-subject: informatik
+subject: "informatik"
 section: "Grundlagen"
-topicPath:
-  - "abstraktion"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Abstraktion als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["abstraktion", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Abstraktionen zu früh oder zu allgemein gebaut."
-keyTakeaways:
-  - "Abstraktion reduziert Komplexität durch bewusste Auswahl."
-  - "Schnittstellen bilden wichtige Abstraktionsgrenzen."
-  - "Gute Abstraktionen sind einfach, aber nicht irreführend."
-recognizeSignals:
-  - "Es geht um Abstraktion als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Abstraktion in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "abstraktion"
-  - "grundlagen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Grundlagen"]
 draft: false
 ---
-
 # Abstraktion
 
 ![Schaubild zu Abstraktion.](/schlaufuchs-platform/images/overviews/v150/abstraktion.svg)

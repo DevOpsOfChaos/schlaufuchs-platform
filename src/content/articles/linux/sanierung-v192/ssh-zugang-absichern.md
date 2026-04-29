@@ -3,42 +3,17 @@ title: "SSH-Zugang absichern"
 description: "Verstehe fernzugriff kontrolliert und nachvollziehbar halten als ruhigen Linux-Baustein für Betrieb, Diagnose und sichere Änderungen."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "netzwerk-und-zugriff"
-  - "ssh-zugang-absichern"
-learningGoals:
-  - "Fernzugriff kontrolliert und nachvollziehbar halten"
-  - "Beobachtung, Änderung und Kontrolle trennen"
-  - "einen einfachen Rückweg oder Prüfpunkt benennen"
-practiceIdeas:
-  - "Erstelle eine kleine SSH-Härtungscheckliste."
-  - "Formuliere eine zweite Kontrolle, die ohne gefährliche Änderung auskommt."
-commonMistakes:
-  - "Befehle werden ausgeführt, bevor Ziel und aktueller Zustand klar sind."
-  - "Logs, Rechte oder Dienststatus werden isoliert statt gemeinsam gelesen."
-  - "Eine Änderung wird nicht mit Rückweg und Kontrolle dokumentiert."
-keyTakeaways:
-  - "SSH verbindet entfernte Anmeldung und Dateiübertragung."
-  - "Sichere Linux-Adminpraxis arbeitet beobachtbar, schrittweise und reversibel."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn ein Linux-System betrieben, geprüft oder vorsichtig geändert werden muss."
-selfCheckPoints:
-  - "Kann ich Ist-Zustand, geplante Änderung und Kontrollschritt trennen?"
-  - "Ist klar, welcher Benutzer, Dienst, Pfad oder Port betroffen ist?"
-  - "Gibt es einen plausiblen Rückweg, falls die Änderung nicht wirkt?"
+topicPath: ["sanierung-v192", "ssh-zugang-absichern"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "netzwerk-und-zugriff"
-  - "ssh"
-  - "zugang"
-  - "absichern"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
+tags: ["linux", "adminpraxis-und-betrieb"]
 draft: false
 ---
-
 ![Didaktische Skizze zu SSH-Zugang absichern](/schlaufuchs-platform/images/linux/sanierung-v192/ssh-zugang-absichern.svg)
 
 SSH-Zugang absichern gehört zur Linux-Sanierung v192. Die Seite behandelt das Thema nicht als Befehlsliste, sondern als Betriebsentscheidung: Was ist der aktuelle Zustand, welche Änderung ist wirklich nötig und wie wird danach geprüft, ob das System stabil bleibt?

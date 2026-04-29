@@ -3,44 +3,17 @@ title: "CSS – Font Loading und Layout Shift vermeiden"
 description: "Lerne, warum Schriftarten Layoutverschiebungen auslösen können und wie du Fallback, font-display und Größen stabil planst."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "performance-und-laden"
-  - "font-loading-und-layout-shift-vermeiden"
-learningGoals:
-  - "Du erklärst die Grundidee von Font Loading und Layout Shift vermeiden."
-  - "Du trennst sichtbares Nutzerverhalten, technische Ursache und passende Entscheidung."
-  - "Du begründest eine robuste Lösung statt nur einen einzelnen Trick zu merken."
-practiceIdeas:
-  - "Beschreibe zuerst die sichtbare Situation auf der Seite."
-  - "Markiere danach die technische Stelle, an der die Entscheidung getroffen wird."
-  - "Formuliere am Ende eine Prüffrage, mit der du die Lösung kontrollierst."
-commonMistakes:
-  - "Nur den Erfolgsfall oder Schönfall zu betrachten."
-  - "Performance, Sicherheit oder Wartbarkeit erst nachträglich zu prüfen."
-  - "Werkzeuge zu benutzen, ohne die eigentliche Browserentscheidung zu benennen."
-keyTakeaways:
-  - "Robuste Webentwicklung verbindet Inhalt, Gestaltung, Verhalten und Prüfung."
-  - "Gute Entscheidungen sind sichtbar begründet und nicht nur technisch möglich."
-  - "Gute Font-Nutzung bedeutet nicht nur die richtige Schrift, sondern ein stabiles Verhalten während des Ladens."
-recognizeSignals:
-  - "Es geht um Ladeverhalten, Diagnose, Sicherheit oder Projektqualität."
-  - "Eine Seite funktioniert grundsätzlich, soll aber stabiler, schneller oder verständlicher werden."
-  - "Du sollst nicht nur Code schreiben, sondern eine Entscheidung begründen."
-selfCheckPoints:
-  - "Kann ich die sichtbare Auswirkung für Nutzerinnen und Nutzer benennen?"
-  - "Kann ich die technische Ursache von der Lösung trennen?"
-  - "Habe ich einen Fehler-, Lade- oder Sicherheitsfall mitgedacht?"
+topicPath: ["css", "performance-und-laden", "font-loading-und-layout-shift-vermeiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "web development"
-  - "css"
-  - "fonts"
-  - "layout shift"
-  - "performance"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Webfonts machen eine Seite oft schöner, können aber die Nutzererfahrung stören, wenn Text erst unsichtbar bleibt oder beim Nachladen springt. Gute Schriftplanung ist deshalb auch Performance- und UX-Arbeit.

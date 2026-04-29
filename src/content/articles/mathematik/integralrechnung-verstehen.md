@@ -1,17 +1,19 @@
 ---
-title: Integralrechnung verstehen
-description: Die Integralrechnung ordnet Stammfunktionen, Flächeninhalte und den Zusammenhang zur Ableitung in einem ruhigen Überblick.
-subject: mathematik
-section: Analysis
-level: mittel
-tags:
-  - Integralrechnung
-  - Stammfunktion
-  - Fläche
-  - Analysis
+title: "Integralrechnung verstehen"
+description: "Die Integralrechnung ordnet Stammfunktionen, Flächeninhalte und den Zusammenhang zur Ableitung in einem ruhigen Überblick."
+subject: "mathematik"
+section: "Analysis"
+topicPath: ["integralrechnung-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["mathematik", "Analysis"]
 draft: false
 ---
-
 ## Überblick
 
 Die Integralrechnung ergänzt die Differentialrechnung. Während die Ableitung beschreibt, wie stark sich eine Funktion an einer Stelle verändert, fragt die Integralrechnung oft nach einer gesamten angesammelten Größe. Typische Beispiele sind Flächeninhalte unter einem Graphen, zurückgelegte Wege aus einer Geschwindigkeitsfunktion oder aufaddierte Mengen über ein Intervall.

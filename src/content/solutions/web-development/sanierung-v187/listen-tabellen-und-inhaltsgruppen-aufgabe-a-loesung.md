@@ -3,23 +3,12 @@ title: "Lösung: Listen, Tabellen und Inhaltsgruppen: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-005a im Web-Development-Block v187."
 subject: "web-development"
 section: "html"
-topicPath: 
-  - "html-und-semantik"
-  - "inhaltsgruppen"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "listen-tabellen-und-inhaltsgruppen-aufgabe-a"]
 taskId: "web-v187-005a"
 relatedExercise: "web-development/sanierung-v187/listen-tabellen-und-inhaltsgruppen-aufgabe-a"
-tags: 
-  - "html"
-  - "listen"
-  - "tabellen"
-  - "struktur"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "html", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-005a`
 
     Ausgangsauftrag: Wähle für fünf Inhaltsbeispiele jeweils Liste, Tabelle oder Gruppe und begründe die Entscheidung.

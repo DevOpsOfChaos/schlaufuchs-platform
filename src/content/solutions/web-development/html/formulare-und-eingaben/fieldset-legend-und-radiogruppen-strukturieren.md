@@ -3,18 +3,10 @@ title: "Lösung – fieldset, legend und Radiogruppen strukturieren"
 description: "Musterlösung mit kurzer Begründung zur passenden Web-Development-Entscheidung."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "formulare-und-eingaben"
-  - "fieldset-legend-und-radiogruppen-strukturieren"
+topicPath: ["html", "formulare-und-eingaben", "fieldset-legend-und-radiogruppen-strukturieren"]
 taskId: "fieldset-legend-und-radiogruppen-strukturieren"
 relatedExercise: "web-development/html/formulare-und-eingaben/fieldset-legend-und-radiogruppen-strukturieren"
-tags:
-  - "web development"
-  - "html"
-  - "formulare"
-  - "fieldset"
-  - "radio"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
 ## Musterlösung

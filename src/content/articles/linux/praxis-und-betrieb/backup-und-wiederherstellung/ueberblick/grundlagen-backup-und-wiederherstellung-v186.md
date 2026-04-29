@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Backup und Wiederherstellung"
 description: "Ordne Backups nach Zweck, Umfang, Wiederherstellung und Prüfung ein."
-subject: linux
+subject: "linux"
 section: "praxis-und-betrieb"
-topicPath:
-  - "praxis-und-betrieb"
-  - "backup-und-wiederherstellung"
-learningGoals:
-  - "Du erklärst Backup und Wiederherstellung in eigenen Worten."
-  - "Du ordnest typische Befehle, Begriffe oder Prüfschritte richtig ein."
-  - "Du erkennst typische Grenzen und Fehlerquellen im Linux-Alltag."
-practiceIdeas:
-  - "Beschreibe eine kleine Alltagssituation zu diesem Thema."
-  - "Markiere, welche Information zuerst geprüft werden muss."
-commonMistakes:
-  - "Ein einzelnes Kommando für das ganze Thema zu halten."
-  - "Ausgabe, Zustand und Ursache zu vermischen."
-  - "Ohne Kontext direkt an Sonderfälle zu springen."
-keyTakeaways:
-  - "Ein Backup ist erst wertvoll, wenn Wiederherstellung möglich und geprüft ist."
-  - "Umfang und Häufigkeit hängen vom Risiko ab."
-  - "Gute Backups trennen Daten, Konfiguration und Nachweis."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung statt nur eines Befehlsrezepts."
-  - "Mehrere ähnliche Befehle oder Dateien wirken unklar."
-selfCheckPoints:
-  - "Kann ich Zweck, Kontext und typischen Prüfschritt unterscheiden?"
-  - "Kann ich eine einfache Fehlannahme zum Thema benennen?"
-level: mittel
-tags:
-  - "linux"
-  - "backup"
-  - "restore"
+topicPath: ["praxis-und-betrieb", "backup-und-wiederherstellung", "ueberblick", "grundlagen-backup-und-wiederherstellung-v186"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["linux", "praxis-und-betrieb"]
 draft: false
 ---
-
 ![Backup und Wiederherstellung](/schlaufuchs-platform/images/overviews/v186/backup-und-wiederherstellung.svg)
 
 ## Begriff

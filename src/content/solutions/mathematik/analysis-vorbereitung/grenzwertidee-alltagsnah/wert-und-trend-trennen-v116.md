@@ -3,22 +3,12 @@ title: "Lösung: Wert und Trend trennen"
 description: "Musterlösung zur Aufgabe „Wert und Trend trennen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "analysis-vorbereitung"
-  - "grenzwertidee-alltagsnah"
-  - "wert-und-trend-trennen-v116"
+topicPath: ["analysis-vorbereitung", "grenzwertidee-alltagsnah", "wert-und-trend-trennen-v116"]
 taskId: "wert-und-trend-trennen-v116"
 relatedExercise: "mathematik/analysis-vorbereitung/grenzwertidee-alltagsnah/wert-und-trend-trennen-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "grenzwertidee alltagsnah"
-  - "wert und trend trennen"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

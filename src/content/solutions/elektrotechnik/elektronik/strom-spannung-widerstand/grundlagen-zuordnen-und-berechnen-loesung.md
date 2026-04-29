@@ -1,23 +1,14 @@
 ---
 title: "Lösung: Strom, Spannung und Widerstand sicher zuordnen"
 description: "Lösung zur Grundaufgabe über Strom, Spannung, Widerstand und Ohmsches Gesetz."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektronik"
-topicPath:
-  - "elektronik"
-  - "strom-spannung-widerstand"
-  - "grundlagen-zuordnen-und-berechnen"
+topicPath: ["elektronik", "strom-spannung-widerstand", "grundlagen-zuordnen-und-berechnen"]
 taskId: "ET-EL-UIR-001"
 relatedExercise: "src/content/exercises/elektrotechnik/elektronik/strom-spannung-widerstand/grundlagen-zuordnen-und-berechnen.md"
-tags:
-  - "elektrotechnik"
-  - "spannung"
-  - "strom"
-  - "widerstand"
-  - "ohmsches gesetz"
+tags: ["elektrotechnik", "Elektronik", "loesung"]
 draft: false
 ---
-
 ## Lösungsgedanke
 
 Diese Lösung ist bewusst als Musterlösung aufgebaut. Sie zeigt nicht nur ein Ergebnis, sondern die fachliche Begründung, damit die Aufgabe später nachvollziehbar kontrolliert werden kann.

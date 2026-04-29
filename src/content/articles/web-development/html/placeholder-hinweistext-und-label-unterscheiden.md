@@ -1,46 +1,19 @@
 ---
-title: Placeholder, Hinweistext und Label unterscheiden
-description: Verstehe, welche Aufgabe Feldbeschriftung, Zusatzhinweis und Platzhalter im Formular jeweils haben und warum gleiche Nähe nicht dieselbe Rolle bedeutet.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - formulare-und-eingaben
-  - placeholder-hinweistext-und-label-unterscheiden
-learningGoals:
-  - Du unterscheidest Label, Hinweistext und Placeholder nach ihrer Rolle.
-  - Du erklärst, warum ein Placeholder keine dauerhafte Hauptbeschriftung ersetzt.
-  - Du liest Formulartexte eher als Aufgabenverteilung statt nur als „Text beim Feld“.
-practiceIdeas:
-  - Zerlege ein Formularfeld bewusst in Benennung, Zusatzhilfe und Beispiel im Feld.
-  - Prüfe, welche Information nach der Eingabe sichtbar bleiben muss.
-  - Vergleiche ein Feld nur mit Placeholder mit einem sauber beschrifteten Feld.
-commonMistakes:
-  - Placeholder und Label gleichzusetzen.
-  - Hinweistext als eigentliche Feldbenennung zu verwenden.
-  - nur auf die Nähe zum Feld statt auf die Funktion des Textes zu achten.
-keyTakeaways:
-  - Das Label benennt das Feld.
-  - Hinweistext ergänzt Regeln oder Kontext.
-  - Der Placeholder ist eher ein kurzer Beispiel- oder Erwartungshinweis im Feld.
-recognizeSignals:
-  - Es geht um Formulare, Eingabefelder oder die Verständlichkeit von Feldtexten.
-  - Du sollst erklären, welcher Text wofür da ist.
-  - In Beispielen zählt die Rolle des Textes stärker als seine Position.
-selfCheckPoints:
-  - Kann ich Label, Hinweistext und Placeholder fachlich trennen?
-  - Kann ich erklären, welcher Text nach der Eingabe sichtbar bleiben sollte?
-  - Kann ich begründen, warum ein Placeholder keine volle Hauptbeschriftung ersetzt?
-tags:
-  - html
-  - formular
-  - label
-  - placeholder
-  - hinweistext
-level: einfach
+title: "Placeholder, Hinweistext und Label unterscheiden"
+description: "Verstehe, welche Aufgabe Feldbeschriftung, Zusatzhinweis und Platzhalter im Formular jeweils haben und warum gleiche Nähe nicht dieselbe Rolle bedeutet."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "placeholder-hinweistext-und-label-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei Formularen stehen oft mehrere Texte in der Nähe eines Feldes. Trotzdem haben sie **nicht dieselbe Aufgabe**. Genau hier wird ruhiges Formulardenken wichtig.

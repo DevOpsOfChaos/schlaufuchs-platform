@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Schnittstellenverträge und Versionierung – ruhig einordnen"
 description: "Musterlösung zur Aufgabe über schnittstellenverträge und versionierung."
-subject: informatik
+subject: "informatik"
 section: "Netzwerke und Dienste"
-topicPath:
-  - "netzwerke-und-dienste"
-  - "schnittstellenvertraege-und-versionierung"
-  - "loesung"
-taskId: INF-V185-024-1
-relatedExercise: src/content/exercises/informatik/netzwerke-und-dienste/schnittstellenvertraege-und-versionierung/schnittstellenvertraege-und-versionierung-ruhig-einordnen-v185.md
-tags:
-  - "informatik"
-  - "netzwerke-und-dienste"
-  - "schnittstellenvertraege-und-versionierung"
-  - "loesung"
+topicPath: ["netzwerke-und-dienste", "schnittstellenvertraege-und-versionierung", "schnittstellenvertraege-und-versionierung-ruhig-einordnen-v185"]
+taskId: "INF-V185-024-1"
+relatedExercise: "src/content/exercises/informatik/netzwerke-und-dienste/schnittstellenvertraege-und-versionierung/schnittstellenvertraege-und-versionierung-ruhig-einordnen-v185.md"
+tags: ["informatik", "Netzwerke und Dienste", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

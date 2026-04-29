@@ -1,35 +1,19 @@
 ---
 title: "Umgebungsvariablen und Pfade"
 description: "Überblick über Umgebungsvariablen, PATH und Pfadangaben in Linux-Shells."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - "umgebungsvariablen-und-pfade"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst Umgebungsvariablen als Kontextinformationen für Prozesse."
-  - "Du verstehst PATH als Suchliste für ausführbare Programme."
-  - "Du kannst absolute und relative Pfade unterscheiden."
+topicPath: ["umgebungsvariablen-und-pfade", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "PATH-Probleme mit fehlender Installation zu verwechseln."
-  - "Relative Pfade ohne Blick auf das aktuelle Verzeichnis zu verwenden."
-keyTakeaways:
-  - "Umgebungsvariablen beeinflussen, wie Programme gestartet und konfiguriert werden."
-  - "Pfade beschreiben Orte im Dateisystem und hängen bei relativen Angaben vom Arbeitsverzeichnis ab."
-recognizeSignals:
-  - "Es geht um PATH, HOME, SHELL, export, absolute Pfade, relative Pfade oder Kommando nicht gefunden."
-selfCheckPoints:
-  - "Kann ich erklären, warum ein Programm über den vollen Pfad startet, aber nicht als kurzer Befehl?"
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "umgebungsvariablen"
-  - "pfade"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
-
 # Umgebungsvariablen und Pfade
 
 ![Schaubild zu Umgebungsvariablen.](/schlaufuchs-platform/images/overviews/v149/umgebungsvariablen.svg)

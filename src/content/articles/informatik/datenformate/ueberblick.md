@@ -1,31 +1,17 @@
 ---
 title: "Datenformate"
 description: "Allgemeiner Überblick über Datenformate, Struktur, Austausch und typische Beispiele."
-subject: informatik
+subject: "informatik"
 section: "Daten und Formate"
-topicPath:
-  - "datenformate"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Datenformate grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["datenformate", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Datenformate nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Datenformate beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Datenformate, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Datenformate in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "datenformate"
-  - "json"
-  - "csv"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Daten und Formate"]
 draft: false
 ---
 # Datenformate

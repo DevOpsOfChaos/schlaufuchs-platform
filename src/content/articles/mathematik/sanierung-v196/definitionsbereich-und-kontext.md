@@ -1,20 +1,19 @@
 ---
-title: Definitionsbereich und Kontext
-description: Erlaubte Werte aus Aufgabe und Formel gemeinsam prüfen.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Definitionsbereich und Kontext"
+description: "Erlaubte Werte aus Aufgabe und Formel gemeinsam prüfen."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "funktionen-im-vergleich", "definitionsbereich-und-kontext"]
-learningGoals: ["Erlaubte Werte aus Aufgabe und Formel gemeinsam prüfen", "Zwischenschritte begründen", "Ergebnis im Kontext kontrollieren"]
-practiceIdeas: ["Formuliere ein eigenes Beispiel zu Definitionsbereich und Kontext.", "Markiere Frage, Daten und Kontrolle getrennt.", "Vergleiche zwei mögliche Lösungswege."]
-commonMistakes: ["Zu früh rechnen", "Einheiten oder Bedingungen weglassen", "Das Ergebnis nicht rückprüfen"]
-keyTakeaways: ["Definitionsbereich und Kontext beginnt mit einer klaren Frage und nicht sofort mit Rechnen.", "Der Themenblock funktionen im vergleich braucht sichtbare Zwischenschritte.", "Ein Ergebnis ist erst belastbar, wenn es im Kontext geprüft wurde."]
-recognizeSignals: ["Die Aufgabe enthält mehrere Angaben.", "Eine Darstellung muss gedeutet werden.", "Das Ergebnis braucht eine Plausibilitätsprüfung."]
-selfCheckPoints: ["Ist die Frage klar?", "Sind Einheiten und Bedingungen sichtbar?", "Passt das Ergebnis zur Situation?"]
-level: fortgeschritten
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
 tags: ["mathematik", "v196", "funktionen-im-vergleich", "definitionsbereich-und-kontext"]
 draft: false
 ---
-
 ![Definitionsbereich und Kontext](/schlaufuchs-platform/images/mathematik/sanierung-v196/definitionsbereich-und-kontext.svg)
 
 ## Worum es geht

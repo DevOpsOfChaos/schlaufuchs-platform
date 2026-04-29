@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Graphen und Beziehungen"
 description: "Allgemeiner Überblick über graphen und beziehungen in der Informatik."
-subject: informatik
+subject: "informatik"
 section: "Datenstrukturen im Einsatz"
-topicPath:
-  - "datenstrukturen-im-einsatz"
-  - "graphen-und-beziehungen"
-  - "ueberblick"
-learningGoals:
-  - "Du erklärst, wie vernetzte Beziehungen modelliert werden."
-  - "Du ordnest typische Beispiele und Grenzen des Themas ein."
-  - "Du unterscheidest Grundidee, Anwendung und häufige Fehler."
-practiceIdeas:
-  - "Formuliere die Grundidee in drei Sätzen ohne Spezialfall."
-  - "Ordne ein eigenes Beispiel dem passenden Teilaspekt zu."
-commonMistakes:
-  - "Graph mit Baum gleichsetzen"
-  - "Richtung von Kanten übersehen"
-  - "Pfad und Knoten verwechseln"
-keyTakeaways:
-  - "Graphen und Beziehungen braucht zuerst eine klare begriffliche Einordnung."
-  - "Beispiele helfen nur, wenn ihr Kontext bekannt ist."
-  - "Gute Informatikarbeit trennt Modell, Umsetzung und Prüfung."
-recognizeSignals:
-  - "Ein Thema wirkt wie ein Einzelfall, braucht aber zuerst einen allgemeinen Rahmen."
-  - "Mehrere Beispiele zeigen dieselbe Grundidee aus verschiedenen Blickwinkeln."
-selfCheckPoints:
-  - "Kann ich Grundidee und Beispiel unterscheiden?"
-  - "Kann ich typische Fehler nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "datenstrukturen-im-einsatz"
-  - "graphen-und-beziehungen"
+topicPath: ["datenstrukturen-im-einsatz", "graphen-und-beziehungen", "ueberblick", "grundlagen-graphen-und-beziehungen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Datenstrukturen im Einsatz"]
 draft: false
 ---
-
 ![Schaubild: Graphen und Beziehungen](/schlaufuchs-platform/images/overviews/v185/graphen-und-beziehungen.svg)
 
 ## Begriff

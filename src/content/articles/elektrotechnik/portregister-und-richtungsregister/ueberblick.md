@@ -1,35 +1,17 @@
 ---
 title: "Portregister und Richtungsregister"
 description: "Überblick über Portregister, Richtungsregister und die Trennung von Pin-Zustand, Ausgangswert und Pin-Richtung."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "portregister-und-richtungsregister"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Portregister und Richtungsregister als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["portregister-und-richtungsregister", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird ein Registereintrag direkt mit dem physikalischen Pinzustand gleichgesetzt. Bei Eingängen, offenen Leitungen oder Überlastung ist das falsch."
-keyTakeaways:
-  - "Portregister speichern oder lesen digitale Zustände, während Richtungsregister festlegen, ob ein Pin als Eingang oder Ausgang arbeitet."
-  - "Die Trennung verhindert Verwechslungen zwischen dem gewünschten Ausgangswert, dem tatsächlichen Pinpegel und der elektrischen Richtung des Anschlusses."
-  - "Registerbegriffe unterscheiden sich je nach Mikrocontrollerfamilie; das Prinzip bleibt ähnlich, die konkreten Namen aber nicht."
-recognizeSignals:
-  - "Es geht um Portregister und Richtungsregister, wenn richtungsbits bestimmen, ob ein Ausgangstreiber aktiv ist."
-  - "Das Thema wird relevant, wenn Beispiele wie ein Pin kann im Portregister auf High stehen, aber als Eingang geschaltet sein. Dann treibt er den Pegel nicht aktiv."
-selfCheckPoints:
-  - "Kann ich Portregister und Richtungsregister in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "register"
-  - "gpio"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
 # Portregister und Richtungsregister

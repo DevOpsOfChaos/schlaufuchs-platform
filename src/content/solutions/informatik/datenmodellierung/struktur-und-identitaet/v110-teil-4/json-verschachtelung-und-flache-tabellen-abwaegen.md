@@ -3,23 +3,12 @@ title: "Lösung – JSON-Verschachtelung und flache Tabellen abwägen"
 description: "Musterlösung zu JSON-Verschachtelung und flache Tabellen abwägen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Datenmodellierung"
-topicPath:
-  - "datenmodellierung"
-  - "struktur-und-identitaet"
-  - "v110-teil-4"
-  - "json-verschachtelung-und-flache-tabellen-abwaegen"
+topicPath: ["datenmodellierung", "struktur-und-identitaet", "v110-teil-4", "json-verschachtelung-und-flache-tabellen-abwaegen"]
 taskId: "v110-informatik-json-verschachtelung-und-flache-tabellen-abwaegen"
 relatedExercise: "informatik/datenmodellierung/struktur-und-identitaet/v110-teil-4/json-verschachtelung-und-flache-tabellen-abwaegen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "praxis"
-  - "datenmodellierung"
-  - "struktur-und-identitaet"
-  - "json-verschachtelung-und-flache-tabellen-abwaegen"
+tags: ["informatik", "Datenmodellierung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **JSON-Verschachtelung und flache Tabellen abwägen**.

@@ -3,23 +3,12 @@ title: "Lösung – Resetbeschaltung nicht als Nebensache behandeln"
 description: "Musterlösung zu Resetbeschaltung nicht als Nebensache behandeln mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "mikrocontroller-system"
-  - "versorgung-reset-takt"
-  - "v110-teil-3"
-  - "resetbeschaltung-nicht-als-nebensache-behandeln"
+topicPath: ["mikrocontroller-system", "versorgung-reset-takt", "v110-teil-3", "resetbeschaltung-nicht-als-nebensache-behandeln"]
 taskId: "v110-elektrotechnik-resetbeschaltung-nicht-als-nebensache-behandeln"
 relatedExercise: "elektrotechnik/mikrocontroller-system/versorgung-reset-takt/v110-teil-3/resetbeschaltung-nicht-als-nebensache-behandeln"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "mikrocontroller-system"
-  - "versorgung-reset-takt"
-  - "resetbeschaltung-nicht-als-nebensache-behandeln"
+tags: ["elektrotechnik", "Mikrocontroller", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Resetbeschaltung nicht als Nebensache behandeln**.

@@ -3,22 +3,12 @@ title: "Lösung – Cookie, Session Storage und Local Storage sicher abgrenzen"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Development-Aufgabe."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "browser-speicher"
-  - "cookie-session-localstorage-sicher-abgrenzen"
-tags:
-  - "web development"
-  - "javascript"
-  - "browser-speicher"
-  - "cookies"
-  - "sicherheit"
-  - "lösung"
+topicPath: ["javascript", "browser-speicher", "cookie-session-localstorage-sicher-abgrenzen"]
 taskId: "web-v103-cookie-session-localstorage-sicher-abgrenzen"
 relatedExercise: "web-development/javascript/browser-speicher/cookie-session-localstorage-sicher-abgrenzen"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Die Theme-Auswahl kann lokal gespeichert werden, ein Formular-Zwischenstand eher kurzlebig, und Sitzungsdaten müssen sicherheitsbewusst server- und cookiebezogen geplant werden.

@@ -3,23 +3,12 @@ title: "Lösung – Cache-Regel nach Änderbarkeit wählen"
 description: "Musterlösung zu Cache-Regeln mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "frontend-betrieb"
-  - "build-performance-security"
-  - "cache"
-  - "cache-regel-nach-aenderbarkeit-waehlen"
+topicPath: ["frontend-betrieb", "build-performance-security", "cache", "cache-regel-nach-aenderbarkeit-waehlen"]
 taskId: "v111-web-development-cache-regel-nach-aenderbarkeit-waehlen"
 relatedExercise: "web-development/frontend-betrieb/build-performance-security/cache/cache-regel-nach-aenderbarkeit-waehlen"
-tags:
-  - "web development"
-  - "frontend"
-  - "unterthema"
-  - "frontend-betrieb"
-  - "build-performance-security"
-  - "cache-regel-nach-aenderbarkeit-waehlen"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Cache-Regeln**.

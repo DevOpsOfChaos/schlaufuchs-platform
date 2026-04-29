@@ -1,17 +1,19 @@
 ---
-title: Prozesse und Prozesskontrolle verstehen
-description: Prozesse sind laufende Programme und gehören zu den wichtigsten Grundideen beim Verstehen eines Linux-Systems.
-subject: linux
-section: Grundlagen
-level: mittel
-tags:
-  - Prozesse
-  - Linux
-  - ps
-  - Prozesskontrolle
+title: "Prozesse und Prozesskontrolle verstehen"
+description: "Prozesse sind laufende Programme und gehören zu den wichtigsten Grundideen beim Verstehen eines Linux-Systems."
+subject: "linux"
+section: "Grundlagen"
+topicPath: ["grundlagen", "prozesse-und-prozesskontrolle-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["linux", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 Ein Linux-System besteht nicht nur aus Dateien und Verzeichnissen, sondern auch aus laufenden Aktivitäten. Jedes Programm, das gerade ausgeführt wird, läuft als Prozess. Wer Linux sicher nutzen will, sollte verstehen, was Prozesse sind, wie sie erkannt werden und warum ihre Kontrolle wichtig ist.

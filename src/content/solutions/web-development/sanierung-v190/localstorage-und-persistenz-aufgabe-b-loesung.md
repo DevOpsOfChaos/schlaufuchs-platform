@@ -3,24 +3,12 @@ title: "Lösung: LocalStorage und Persistenz: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-v190-019b im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "browser-api"
-  - "localstorage-und-persistenz"
-  - "loesung-b"
+topicPath: ["sanierung-v190", "localstorage-und-persistenz-aufgabe-b"]
 taskId: "web-v190-019b"
 relatedExercise: "web-development/sanierung-v190/localstorage-und-persistenz-aufgabe-b"
-tags:
-  - "browser-api"
-  - "localstorage"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-019b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „LocalStorage und Persistenz“ um einen Fehlerfall, eine Abnahmebedingung und eine kurze Begründung.

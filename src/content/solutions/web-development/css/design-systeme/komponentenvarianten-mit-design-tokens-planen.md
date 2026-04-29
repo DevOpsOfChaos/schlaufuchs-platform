@@ -3,23 +3,12 @@ title: "Lösung – Komponentenvarianten mit Design-Tokens planen"
 description: "Musterlösung zur Aufgabe über Design-System mit Begründung und Gegenprobe."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "design-systeme"
-  - "komponentenvarianten-mit-design-tokens-planen"
+topicPath: ["css", "design-systeme", "komponentenvarianten-mit-design-tokens-planen"]
 taskId: "v106-web-development-komponentenvarianten-mit-design-tokens-planen"
 relatedExercise: "web-development/css/design-systeme/komponentenvarianten-mit-design-tokens-planen"
-tags:
-  - "web development"
-  - "html"
-  - "css"
-  - "javascript"
-  - "ux"
-  - "design-system"
-  - "design-systeme"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Beobachtung

@@ -1,44 +1,19 @@
 ---
-title: Dateiformate und Kompatibilität verstehen
-description: Verstehe, warum Dateien nicht nur Inhalte haben, sondern auch ein Format, das über Öffnen, Bearbeiten und Austausch entscheidet.
-subject: informatik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - dateiformate-und-kompatibilitaet-verstehen
-learningGoals:
-  - Du erklärst, was ein Dateiformat ist.
-  - Du unterscheidest Inhalt und Format einer Datei sauber.
-  - Du beschreibst, warum Kompatibilität beim Austausch von Dateien wichtig ist.
-practiceIdeas:
-  - Vergleiche zwei Dateien mit ähnlichem Inhalt, aber unterschiedlichen Formaten.
-  - Prüfe bei einem Alltagsbeispiel, welches Programm eine Datei öffnen kann und warum.
-  - Erkläre, warum beim Austausch manchmal ein PDF statt einer bearbeitbaren Datei genutzt wird.
-commonMistakes:
-  - Die Dateiendung mit dem eigentlichen Inhalt gleichzusetzen.
-  - Zu glauben, dass jede Datei in jedem Programm gleich gut bearbeitet werden kann.
-  - Kompatibilität nur als technisches Detail statt als Nutzungsfrage zu sehen.
-keyTakeaways:
-  - Ein Dateiformat beschreibt, wie Information gespeichert ist.
-  - Inhalt und Format gehören zusammen, sind aber nicht dasselbe.
-  - Kompatibilität entscheidet mit darüber, ob Dateien sinnvoll geteilt und weiterverarbeitet werden können.
-recognizeSignals:
-  - Es geht um Dateien, Austausch, Öffnen, Speichern oder Programme.
-  - Du sollst erklären, warum eine Datei lesbar, bearbeitbar oder schwer austauschbar ist.
-  - In Beispielen musst du zwischen Inhalt, Format und geeignetem Werkzeug unterscheiden.
-selfCheckPoints:
-  - Kann ich Inhalt und Format voneinander trennen?
-  - Kann ich erklären, warum zwei Dateien mit ähnlichem Inhalt trotzdem unterschiedlich nutzbar sind?
-  - Kann ich Kompatibilität an einem praktischen Beispiel beschreiben?
-tags:
-  - dateiformate
-  - kompatibilitaet
-  - dateien
-  - information
-level: einfach
+title: "Dateiformate und Kompatibilität verstehen"
+description: "Verstehe, warum Dateien nicht nur Inhalte haben, sondern auch ein Format, das über Öffnen, Bearbeiten und Austausch entscheidet."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "dateiformate-und-kompatibilitaet-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Grundlagen"]
 draft: false
 ---
-
 ## Grundidee
 
 Eine Datei besteht nicht nur aus ihrem Inhalt. Sie hat auch ein **Format**, also eine bestimmte Art, wie Information gespeichert und gelesen wird. Genau dieses Format entscheidet oft darüber, **welches Programm die Datei sinnvoll öffnen, anzeigen oder bearbeiten kann**.

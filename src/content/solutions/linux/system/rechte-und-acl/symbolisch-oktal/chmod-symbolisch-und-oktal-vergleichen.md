@@ -3,23 +3,12 @@ title: "Lösung – chmod symbolisch und oktal vergleichen"
 description: "Musterlösung zu chmod-Schreibweisen mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "Rechte"
-topicPath:
-  - "system"
-  - "rechte-und-acl"
-  - "symbolisch-oktal"
-  - "chmod-symbolisch-und-oktal-vergleichen"
+topicPath: ["system", "rechte-und-acl", "symbolisch-oktal", "chmod-symbolisch-und-oktal-vergleichen"]
 taskId: "v108-linux-chmod-symbolisch-und-oktal-vergleichen"
 relatedExercise: "linux/system/rechte-und-acl/symbolisch-oktal/chmod-symbolisch-und-oktal-vergleichen"
-tags:
-  - "linux"
-  - "shell"
-  - "praxis"
-  - "system"
-  - "rechte-und-acl"
-  - "chmod-schreibweisen"
+tags: ["linux", "Rechte", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **chmod-Schreibweisen**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

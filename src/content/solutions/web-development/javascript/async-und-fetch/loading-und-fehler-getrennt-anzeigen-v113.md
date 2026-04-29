@@ -3,20 +3,12 @@ title: "Lösung – Loading und Fehler getrennt anzeigen"
 description: "Musterlösung zu Loading und Fehler getrennt anzeigen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "javascript"
-  - "async-und-fetch"
-  - "loading-und-fehler-getrennt-anzeigen-v113"
+topicPath: ["javascript", "async-und-fetch", "loading-und-fehler-getrennt-anzeigen-v113"]
 taskId: "v113-web-development-loading-und-fehler-getrennt-anzeigen-v113"
 relatedExercise: "web-development/javascript/async-und-fetch/loading-und-fehler-getrennt-anzeigen-v113"
-tags:
-  - "web development"
-  - "strukturcheck"
-  - "unterthema"
-  - "loading-und-fehler-getrennt-anzeigen-v113"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Loading und Fehler getrennt anzeigen**.

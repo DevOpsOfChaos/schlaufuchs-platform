@@ -1,34 +1,19 @@
 ---
 title: "Kontrollstrukturen"
 description: "Überblick über Sequenz, Verzweigung und Wiederholung als Grundformen programmierter Abläufe."
-subject: informatik
+subject: "informatik"
 section: "Programmierung"
-topicPath:
-  - "kontrollstrukturen"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst Sequenz, Verzweigung und Schleife als Grundstrukturen."
-  - "Du verstehst Kontrollstrukturen als Steuerung des Programmablaufs."
-  - "Du kannst typische Fehler bei Bedingungen und Schleifen einordnen."
+topicPath: ["kontrollstrukturen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Schleifen ohne sichere Abbruchbedingung zu schreiben."
-  - "Bedingungen zu komplex und ungetestet zu formulieren."
-keyTakeaways:
-  - "Kontrollstrukturen bestimmen, welche Anweisungen wann ausgeführt werden."
-  - "Klare Bedingungen und Abbruchfälle sind entscheidend für nachvollziehbare Programme."
-recognizeSignals:
-  - "Es geht um if, else, while, for, Ablauf, Bedingung, Wiederholung oder Fallunterscheidung."
-selfCheckPoints:
-  - "Kann ich für einen Programmabschnitt sagen, welche Anweisungen immer, manchmal oder mehrfach laufen?"
-level: einfach
-tags:
-  - "informatik"
-  - "programmierung"
-  - "kontrollstrukturen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 # Kontrollstrukturen
 
 ![Schaubild zu Kontrollstrukturen.](/schlaufuchs-platform/images/overviews/v148/kontrollstrukturen.svg)

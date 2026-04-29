@@ -3,21 +3,12 @@ title: "Lösung – trap für Aufräumen nutzen"
 description: "Musterlösung zu trap für aufräumen nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "shellskripte"
-  - "trap-fuer-aufraeumen-nutzen"
+topicPath: ["shell", "shellskripte", "trap-fuer-aufraeumen-nutzen"]
 taskId: "v112-linux-trap-fuer-aufraeumen-nutzen"
 relatedExercise: "linux/shell/shellskripte/trap-fuer-aufraeumen-nutzen"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "trap-fuer-aufraeumen-nutzen"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Shellskripte**.

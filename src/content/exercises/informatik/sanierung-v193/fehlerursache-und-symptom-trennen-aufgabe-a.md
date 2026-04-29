@@ -3,36 +3,15 @@ title: "Fehlerursache und Symptom trennen: Aufgabe A"
 description: "Unterscheide in drei Aussagen Ursache, Symptom und Folgefehler."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "debugging-und-diagnose"
-  - "fehlerursache-und-symptom-trennen"
-  - "aufgabe-a"
+topicPath: ["sanierung-v193", "fehlerursache-und-symptom-trennen-aufgabe-a"]
 taskId: "informatik-v193-014a"
-tags:
-  - "fehlerursache"
-  - "symptom"
-  - "trennen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "aufgabe"
-  - "v193"
-hintPoints:
-  - "Beschreibe zuerst das erwartete Verhalten."
-  - "Nenne mindestens eine beteiligte Datenstruktur, Schnittstelle oder Zustandsänderung."
-  - "Formuliere einen kleinen Kontrollpunkt oder Test."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Fehlerursache und Symptom trennen."
-  - "Erwartung und tatsächliche Beobachtung werden getrennt."
-  - "Der Prüfweg ist klein genug, um ihn direkt nachzuvollziehen."
-transferIdeas:
-  - "Übertrage den Prüfweg auf ein anderes Modul oder eine zweite Eingabe."
-  - "Notiere, welche Annahme du durch einen Test absichern würdest."
-reflectionPrompt: "Welche Annahme wäre am gefährlichsten, wenn sie still falsch bleibt?"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Unterscheide in drei Aussagen Ursache, Symptom und Folgefehler.

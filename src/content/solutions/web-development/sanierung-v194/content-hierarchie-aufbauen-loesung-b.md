@@ -3,25 +3,12 @@ title: "Lösung: Content-Hierarchie aufbauen: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-development-v194-019b im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "content-und-navigation"
-  - "content-hierarchie-aufbauen"
-  - "loesung-b"
-
+topicPath: ["sanierung-v194", "content-hierarchie-aufbauen-loesung-b"]
 taskId: "web-development-v194-019b"
 relatedExercise: "web-development/sanierung-v194/content-hierarchie-aufbauen-aufgabe-b"
-tags:
-  - "content"
-  - "hierarchie"
-  - "aufbauen"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-019b`
 
 Ausgangsauftrag: Übertrage das Thema Content-Hierarchie aufbauen auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

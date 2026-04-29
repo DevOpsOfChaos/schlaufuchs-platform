@@ -3,22 +3,12 @@ title: "Lösung: Messgerät als Teil der Schaltung sehen"
 description: "Musterlösung zur Aufgabe „Messgerät als Teil der Schaltung sehen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "messpraxis-und-diagnose"
-  - "messfehler-und-belastung"
-  - "messgeraet-als-teil-der-schaltung-sehen-v116"
+topicPath: ["messpraxis-und-diagnose", "messfehler-und-belastung", "messgeraet-als-teil-der-schaltung-sehen-v116"]
 taskId: "messgeraet-als-teil-der-schaltung-sehen-v116"
 relatedExercise: "elektrotechnik/messpraxis-und-diagnose/messfehler-und-belastung/messgeraet-als-teil-der-schaltung-sehen-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "messfehler und belastung"
-  - "messgeraet als teil der schaltung sehen"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Elektrotechnik-Praxis"
 description: "Überblick darüber, wie Schaltung, Messung, Bauteilgrenzen und Gegenprobe zusammengehören."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - "praxis"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen, bevor du Detailaufgaben bearbeitest."
-  - "Du unterscheidest zentrale Begriffe und typische Fehlerquellen."
-  - "Du erkennst, welche Nachbarseiten und Übungen zu diesem Thema passen."
-practiceIdeas:
-  - "Lies zuerst die Übersicht und markiere die Begriffe, die in Aufgaben wieder auftauchen."
-  - "Formuliere zu jedem Abschnitt eine eigene kurze Prüffrage."
-commonMistakes:
-  - "Direkt mit einem Einzelfall zu beginnen, ohne den allgemeinen Zusammenhang zu klären."
-  - "Mess-, Rechen- und Schaltungsbegriffe zu vermischen."
-  - "Ein einzelnes Beispiel für die komplette Themenlogik zu halten."
-keyTakeaways:
-  - "Praxis beginnt mit einer fachlichen Vermutung, nicht mit blindem Messen."
-  - "Messung, Rechnung und Beobachtung müssen zusammenpassen."
-  - "Gegenproben verhindern, dass Einzelwerte überschätzt werden."
-recognizeSignals:
-  - "Du suchst eine ruhige Einordnung statt einer einzelnen Problemsituation."
-  - "Mehrere Detailseiten wirken ähnlich und sollen fachlich sortiert werden."
-selfCheckPoints:
-  - "Kann ich die Grundidee in eigenen Worten erklären?"
-  - "Kann ich typische Fehler benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "praxis"
-  - "messen"
-  - "fehlersuche"
+topicPath: ["praxis", "ueberblick", "grundlagen-elektrotechnik-praxis"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Praxis"]
 draft: false
 ---
-
 ![Grundlagen: Elektrotechnik-Praxis](/schlaufuchs-platform/images/overviews/v178/elektrotechnik-praxis.svg)
 
 ## Begriff und Zweck

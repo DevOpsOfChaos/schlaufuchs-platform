@@ -1,33 +1,19 @@
 ---
 title: "sudo und Rechteerhöhung"
 description: "Überblick über sudo, administrative Rechte und sichere Rechteerhöhung."
-subject: linux
+subject: "linux"
 section: "Rechte und Sicherheit"
-topicPath:
-  - sudo-und-rechteerhoehung
-  - ueberblick
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen und von verwandten Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte und typische Anwendungsfälle."
-  - "Du erkennst häufige Missverständnisse und prüfst Aussagen auf Plausibilität."
+topicPath: ["sudo-und-rechteerhoehung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, bei jeder Fehlermeldung sofort `sudo` voranzustellen."
-keyTakeaways:
-  - "`sudo` ermöglicht, einzelne Befehle mit erhöhten Rechten auszuführen, wenn der Benutzer dazu berechtigt ist."
-  - "Die genaue Bedeutung hängt vom Zusammenhang, den Einheiten und den Randbedingungen ab."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Begriffe, Beispiele oder Fehlerbilder aus diesem Bereich erklärt und eingeordnet werden sollen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten erklären, ohne sofort eine Spezialaufgabe zu rechnen?"
-level: einfach
-tags:
-  - "linux"
-  - "sudo"
-  - "rechte"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Rechte und Sicherheit"]
 draft: false
 ---
-
 # sudo und Rechteerhöhung
 
 ## Begriff und Zweck

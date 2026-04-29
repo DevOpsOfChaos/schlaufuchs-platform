@@ -1,36 +1,19 @@
 ---
 title: "Digitale Filter im Mikrocontroller"
 description: "Digitale Filter im Mikrocontroller glätten, begrenzen oder strukturieren Messwerte nach der Abtastung."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "digitale-filter-im-mikrocontroller"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Digitale Filter im Mikrocontroller als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["digitale-filter-im-mikrocontroller", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird jede Messwertschwankung softwareseitig geglättet, obwohl die Ursache in Versorgung, Masse oder Sensor liegt."
-keyTakeaways:
-  - "Digitale Filter im Mikrocontroller glätten, begrenzen oder strukturieren Messwerte nach der Abtastung."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Digitale Filter im Mikrocontroller, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Digitale Filter im Mikrocontroller in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "filter"
-  - "messwerte"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
-
 # Digitale Filter im Mikrocontroller
 
 Digitale Filter im Mikrocontroller glätten, begrenzen oder strukturieren Messwerte nach der

@@ -1,21 +1,14 @@
 ---
 title: "Lösung – DNS und Namensauflösung – ruhig einordnen"
 description: "Musterlösung zur Linux-Aufgabe DNS und Namensauflösung."
-subject: linux
+subject: "linux"
 section: "netzwerk-und-fernzugriff"
-topicPath:
-  - "netzwerk-und-fernzugriff"
-  - "dns-und-namensaufloesung"
-taskId: LINUX-DNS-UND-NAMENSAUFLOESUNG-V186-1
-relatedExercise: src/content/exercises/linux/netzwerk-und-fernzugriff/dns-und-namensaufloesung/dns-und-namensaufloesung-ruhig-einordnen-v186.md
-tags:
-  - "linux"
-  - "dns"
-  - "netzwerk"
-  - "loesung"
+topicPath: ["netzwerk-und-fernzugriff", "dns-und-namensaufloesung", "dns-und-namensaufloesung-ruhig-einordnen-v186"]
+taskId: "LINUX-DNS-UND-NAMENSAUFLOESUNG-V186-1"
+relatedExercise: "src/content/exercises/linux/netzwerk-und-fernzugriff/dns-und-namensaufloesung/dns-und-namensaufloesung-ruhig-einordnen-v186.md"
+tags: ["linux", "netzwerk-und-fernzugriff", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

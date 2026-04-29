@@ -1,46 +1,19 @@
 ---
-title: ATmega – Sleep-Modi als Grundidee verstehen
-description: Verstehe, warum ein AVR nicht immer aktiv laufen muss und wie Sleep-Modi Strom sparen, ohne die gesamte Logik aufzugeben.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - robustheit-und-fehlersicherheit
-  - atmega-sleep-modi-grundidee-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von Sleep-Modi am AVR.
-  - Du unterscheidest aktives Rechnen und wartendes Schlafen sauber.
-  - Du liest Schlafmodi ruhiger als Energiestrategie statt als „nichts tun“.
-practiceIdeas:
-  - Vergleiche einen ständig laufenden AVR mit einem Controller, der nur bei Bedarf aufwacht.
-  - Prüfe, welches Ereignis einen Schlafmodus wieder verlassen lässt.
-  - Lies Sleep-Fälle über Aktivität, Energiebedarf und Aufweckquelle.
-commonMistakes:
-  - Sleep als komplettes Abschalten des Systems zu verstehen.
-  - Zu denken, ein Controller müsse ständig voll aktiv bleiben, um korrekt zu arbeiten.
-  - Aufweckquelle und Schlafzustand nicht zusammen zu lesen.
-keyTakeaways:
-  - Sleep-Modi sparen Energie, indem der AVR nicht permanent voll aktiv bleibt.
-  - Entscheidend ist immer auch, wodurch der Controller wieder aufwacht.
-  - Wer Aktivphase, Wartephase und Aufweckquelle trennt, versteht Schlafmodi deutlich ruhiger.
-recognizeSignals:
-  - Es geht um Stromsparen, Sleep, Wake-up oder wartende Mikrocontroller.
-  - Du sollst erklären, warum ein AVR nicht durchgehend rechnen muss.
-  - In Beispielen ist die Aufweckquelle wichtiger als der bloße Modusname.
-selfCheckPoints:
-  - Kann ich erklären, warum Sleep etwas anderes ist als „kaputt“ oder „aus“?
-  - Kann ich eine passende Aufweckquelle mitdenken?
-  - Kann ich Energiesparen als geordnete Strategie statt als Stillstand beschreiben?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - sleep
-  - avr
-level: einfach
+title: "ATmega – Sleep-Modi als Grundidee verstehen"
+description: "Verstehe, warum ein AVR nicht immer aktiv laufen muss und wie Sleep-Modi Strom sparen, ohne die gesamte Logik aufzugeben."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-sleep-modi-grundidee-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 Ein AVR muss nicht immer voll aktiv rechnen. Gerade in batteriebetriebenen oder wartenden Systemen ist die ruhige Leitfrage:
 
 **Muss der Controller jetzt wirklich aktiv arbeiten – oder wartet er nur auf ein Ereignis?**

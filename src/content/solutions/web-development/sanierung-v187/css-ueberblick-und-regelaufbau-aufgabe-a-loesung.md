@@ -3,23 +3,12 @@ title: "Lösung: CSS-Überblick und Regelaufbau: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-009a im Web-Development-Block v187."
 subject: "web-development"
 section: "css"
-topicPath: 
-  - "css-und-layout"
-  - "grundlagen"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "css-ueberblick-und-regelaufbau-aufgabe-a"]
 taskId: "web-v187-009a"
 relatedExercise: "web-development/sanierung-v187/css-ueberblick-und-regelaufbau-aufgabe-a"
-tags: 
-  - "css"
-  - "selektoren"
-  - "regeln"
-  - "gestaltung"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "css", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-009a`
 
     Ausgangsauftrag: Zerlege fünf CSS-Regeln in Selektor, Eigenschaft und Wert.

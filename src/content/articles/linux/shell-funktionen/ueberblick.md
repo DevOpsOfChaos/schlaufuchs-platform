@@ -3,32 +3,17 @@ title: "Shell-Funktionen"
 description: "Allgemeiner Überblick über Funktionen in Shell-Skripten und interaktiven Shells."
 subject: "linux"
 section: "Shell-Skripte"
-topicPath:
-  - "shell-funktionen"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["shell-funktionen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig geben Funktionen unkontrolliert Text aus und werden später in Pipelines verwendet. Dann vermischen sich Statusmeldungen und verarbeitbare Daten."
-keyTakeaways:
-  - "Shell-Funktionen machen Skripte lesbarer, wenn Ein- und Ausgaben klar bleiben. Sie strukturieren Abläufe, ersetzen aber keine saubere Fehlerbehandlung."
-  - "Shell-Funktionen sind keine vollwertigen Funktionen wie in allgemeinen Programmiersprachn. Textausgabe, Exit-Codes und Nebenwirkungen bleiben zentrale Kommunikationswege."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "linux"
-  - "shell"
-  - "funktionen"
-  - "skripte"
+tags: ["linux", "Shell-Skripte"]
 draft: false
 ---
-
 # Shell-Funktionen
 
 Eine Shell-Funktion bündelt mehrere Befehle unter einem Namen. Sie kann in Skripten oder interaktiv genutzt werden, um wiederkehrende Abläufe zu strukturieren.

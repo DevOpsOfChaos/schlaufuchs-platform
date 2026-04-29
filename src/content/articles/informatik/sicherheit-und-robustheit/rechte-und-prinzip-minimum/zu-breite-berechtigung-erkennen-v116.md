@@ -3,45 +3,17 @@ title: "Sicherheit und Robustheit – zu breite Berechtigung erkennen"
 description: "Verstehe „zu breite Berechtigung erkennen“ als klar abgegrenztes Unterthema mit Beispiel, Gegenprobe und passender Übung."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "sicherheit-und-robustheit"
-  - "rechte-und-prinzip-minimum"
-  - "zu-breite-berechtigung-erkennen-v116"
-learningGoals:
-  - "Du erklärst zu breite Berechtigung erkennen in eigenen Worten."
-  - "Du ordnest die Frage in ein kleines Unterthema ein statt in einen breiten Sammelbereich."
-  - "Du formulierst eine passende Gegenprobe für Aufgabe oder Projekt."
-practiceIdeas:
-  - "Markiere zuerst den konkreten Auslöser der Aufgabe."
-  - "Trenne Begriff, Beispiel und Prüfschritt."
-  - "Übertrage die Denkbewegung auf ein zweites kleines Beispiel."
-commonMistakes:
-  - "das Unterthema zu breit lesen"
-  - "die Gegenprobe weglassen"
-  - "Begriff und Beispiel miteinander verwechseln"
-keyTakeaways:
-  - "zu breite Berechtigung erkennen wird verständlich, wenn Ursache, Wirkung und Kontrolle getrennt werden."
-  - "Feine Unterthemen helfen beim Wiederfinden und verhindern überladene Sammelseiten."
-  - "Eine gute Erklärung endet mit einer konkreten Prüfung."
-recognizeSignals:
-  - "Die Aufgabe enthält einen scheinbar kleinen Sonderfall."
-  - "Zwei ähnliche Begriffe werden leicht verwechselt."
-  - "Eine Entscheidung soll begründet statt nur geraten werden."
-selfCheckPoints:
-  - "Kann ich das Unterthema von einem Nachbarthema abgrenzen?"
-  - "Kann ich einen typischen Fehler benennen?"
-  - "Kann ich eine kleine Gegenprobe anschließen?"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "rechte und prinzip minimum"
-  - "zu breite berechtigung erkennen"
-  - "v116"
+topicPath: ["sicherheit-und-robustheit", "rechte-und-prinzip-minimum", "zu-breite-berechtigung-erkennen-v116"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["informatik", "Informatik vertiefen"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei **zu breite Berechtigung erkennen** geht es nicht darum, möglichst viel Stoff auf einmal zu erklären. Entscheidend ist, die konkrete Beobachtung, die passende Regel und eine einfache Kontrolle voneinander zu trennen.

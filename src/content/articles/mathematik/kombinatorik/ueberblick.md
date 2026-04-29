@@ -1,31 +1,17 @@
 ---
 title: "Kombinatorik"
 description: "Allgemeiner Überblick über Zählprinzipien, Anordnungen und Auswahlmöglichkeiten."
-subject: mathematik
+subject: "mathematik"
 section: "Daten und Zufall"
-topicPath:
-  - "kombinatorik"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Kombinatorik grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["kombinatorik", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Kombinatorik nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Kombinatorik beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Kombinatorik, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Kombinatorik in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "kombinatorik"
-  - "zaehlen"
-  - "wahrscheinlichkeit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Daten und Zufall"]
 draft: false
 ---
 # Kombinatorik

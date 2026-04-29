@@ -1,12 +1,17 @@
 ---
-title: Dateisystem und Pfade lesen
-description: Diese Aufgabe trainiert den sicheren Umgang mit absoluten und relativen Pfaden sowie mit der Grundstruktur des Linux-Dateisystems.
-subject: linux
-section: Grundlagen
-level: einfach
+title: "Dateisystem und Pfade lesen"
+description: "Diese Aufgabe trainiert den sicheren Umgang mit absoluten und relativen Pfaden sowie mit der Grundstruktur des Linux-Dateisystems."
+subject: "linux"
+section: "Grundlagen"
+topicPath: ["grundlagen", "dateisystem-und-pfade-lesen"]
+taskId: "AUTO-DATEISYSTEM-UND-PFADE-LESEN"
+tags: ["linux", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben so, als würdest du dich in einem Linux-System orientieren. Ziel ist sauberes Lesen von Pfaden und Verzeichnisbeziehungen.

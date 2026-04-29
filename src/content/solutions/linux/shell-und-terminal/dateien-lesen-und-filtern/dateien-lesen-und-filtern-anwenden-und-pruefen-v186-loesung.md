@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Dateien lesen und filtern – anwenden und prüfen"
 description: "Musterlösung zur Linux-Aufgabe Dateien lesen und filtern."
-subject: linux
+subject: "linux"
 section: "shell-und-terminal"
-topicPath:
-  - "shell-und-terminal"
-  - "dateien-lesen-und-filtern"
-taskId: LINUX-DATEIEN-LESEN-UND-FILTERN-V186-2
-relatedExercise: src/content/exercises/linux/shell-und-terminal/dateien-lesen-und-filtern/dateien-lesen-und-filtern-anwenden-und-pruefen-v186.md
-tags:
-  - "linux"
-  - "dateien"
-  - "grep"
-  - "loesung"
+topicPath: ["shell-und-terminal", "dateien-lesen-und-filtern", "dateien-lesen-und-filtern-anwenden-und-pruefen-v186"]
+taskId: "LINUX-DATEIEN-LESEN-UND-FILTERN-V186-2"
+relatedExercise: "src/content/exercises/linux/shell-und-terminal/dateien-lesen-und-filtern/dateien-lesen-und-filtern-anwenden-und-pruefen-v186.md"
+tags: ["linux", "shell-und-terminal", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

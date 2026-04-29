@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – Pointerzustand nach delete ruhig bewerten
-description: Musterlösung zur Aufgabe INF-PROG-CPP-MEM-003.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - dynamischer-speicher
-  - dangling-pointer-nach-delete-verstehen
-  - pointerzustand-nach-delete-ruhig-bewerten-loesung
-taskId: INF-PROG-CPP-MEM-003
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/dangling-pointer-nach-delete-verstehen/pointerzustand-nach-delete-ruhig-bewerten.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – Pointerzustand nach delete ruhig bewerten"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-MEM-003."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "dangling-pointer-nach-delete-verstehen", "pointerzustand-nach-delete-ruhig-bewerten"]
+taskId: "INF-PROG-CPP-MEM-003"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/dangling-pointer-nach-delete-verstehen/pointerzustand-nach-delete-ruhig-bewerten.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Drei Aussagen sortieren
 
 - <code>p</code> existiert als Variable noch. → **stimmt**

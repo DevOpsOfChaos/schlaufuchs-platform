@@ -1,47 +1,19 @@
 ---
-title: Wichtige Operatoren in C++ nach Gruppen ordnen
-description: Verstehe arithmetische, Vergleichs-, logische, Zuweisungs- und Bitoperatoren als unterschiedliche Arbeitsgruppen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - operatoren-und-ausdruecke
-  - wichtige-operatoren-in-cpp-nach-gruppen-ordnen
-learningGoals:
-  - Du ordnest wichtige Operatoren ihren fachlichen Gruppen zu.
-  - Du beschreibst, welche Art von Aussage oder Berechnung ein Operator erzeugt.
-  - Du trennst arithmetische, logische und bitweise Operatoren sicher voneinander.
-practiceIdeas:
-  - Sortiere Operatoren in kleine Fachgruppen mit ähnlicher Wirkung.
-  - Formuliere für einen Ausdruck in Worten, welche Art von Ergebnis entsteht.
-  - Vergleiche ähnliche Zeichen wie <code>&&</code> und <code>&</code> bewusst nach ihrer Rolle.
-commonMistakes:
-  - Bitoperatoren und logische Operatoren gleichzusetzen.
-  - Zuweisung und Vergleich zu verwechseln.
-  - Nur das Symbol zu sehen, aber nicht die Art des Ergebnisses.
-keyTakeaways:
-  - Operatoren lassen sich nach ihrer Wirkung in Gruppen ordnen.
-  - Nicht ähnliche Zeichen, sondern ähnliche Rollen sind entscheidend.
-  - Wer die Gruppe kennt, liest einen Ausdruck ruhiger.
-recognizeSignals:
-  - In Tabellen oder Beispielen tauchen viele Operatorzeichen nebeneinander auf.
-  - Du sollst erklären, ob gerechnet, verglichen, zugewiesen oder bitweise gearbeitet wird.
-  - Ein Beispiel will ähnliche Zeichen bewusst trennen.
-selfCheckPoints:
-  - Kann ich mindestens fünf Operatorgruppen benennen?
-  - Kann ich <code>=</code> und <code>==</code> sicher unterscheiden?
-  - Kann ich logische und bitweise Operatoren sauber trennen?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - operatoren
-  - ausdruecke
+title: "Wichtige Operatoren in C++ nach Gruppen ordnen"
+description: "Verstehe arithmetische, Vergleichs-, logische, Zuweisungs- und Bitoperatoren als unterschiedliche Arbeitsgruppen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "wichtige-operatoren-in-cpp-nach-gruppen-ordnen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Operatoren verknüpfen Daten. Damit ein Ausdruck ruhig lesbar bleibt, hilft eine einfache Fachfrage: **Welche Art von Arbeit macht dieser Operator gerade?**

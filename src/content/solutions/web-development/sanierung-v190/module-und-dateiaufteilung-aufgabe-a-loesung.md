@@ -3,24 +3,12 @@ title: "Lösung: Module und Dateiaufteilung: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-v190-016a im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "projektstruktur"
-  - "module-und-dateiaufteilung"
-  - "loesung-a"
+topicPath: ["sanierung-v190", "module-und-dateiaufteilung-aufgabe-a"]
 taskId: "web-v190-016a"
 relatedExercise: "web-development/sanierung-v190/module-und-dateiaufteilung-aufgabe-a"
-tags:
-  - "projektstruktur"
-  - "module"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-016a`
 
 Ausgangsauftrag: Teile ein kleines Skript in Daten, DOM und Logik auf.

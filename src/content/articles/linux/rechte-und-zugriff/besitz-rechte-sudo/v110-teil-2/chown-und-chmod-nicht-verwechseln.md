@@ -3,46 +3,17 @@ title: "Linux – chown und chmod nicht verwechseln"
 description: "Lerne chown und chmod nicht verwechseln als kleines, klar prüfbares Unterthema mit Abgrenzung, Beispiel und Gegenprobe."
 subject: "linux"
 section: "Rechte"
-topicPath:
-  - "rechte-und-zugriff"
-  - "besitz-rechte-sudo"
-  - "v110-teil-2"
-  - "chown-und-chmod-nicht-verwechseln"
-learningGoals:
-  - "Du erklärst chown und chmod nicht verwechseln als eigenes Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Erstelle eine Gegenprobe mit verändertem Wert, Zustand oder Kontext."
-  - "Vergleiche die Seite mit einem Nachbarthema und nenne die Trennkante."
-commonMistakes:
-  - "Besitz und Berechtigung werden gleichgesetzt."
-  - "Das Thema nur einem breiten Kapitel zuordnen."
-  - "Eine Lösung formulieren, die keine konkrete Prüfung enthält."
-keyTakeaways:
-  - "chown und chmod nicht verwechseln wird über Einordnung, Abgrenzung und Gegenprobe stabil."
-  - "Kleine Unterthemen erhöhen Auffindbarkeit und reduzieren Doppelungen."
-  - "Aufgabe und Lösung sollen dieselbe fachliche Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Ein breites Kapitel wäre als Antwort zu ungenau."
-  - "Ein konkreter Prüfschritt kann die Entscheidung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "rechte-und-zugriff"
-  - "besitz-rechte-sudo"
-  - "chown-und-chmod-nicht-verwechseln"
+topicPath: ["rechte-und-zugriff", "besitz-rechte-sudo", "v110-teil-2", "chown-und-chmod-nicht-verwechseln"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["linux", "Rechte"]
 draft: false
 ---
-
 ## Grundidee
 
 **chown und chmod nicht verwechseln** ist bewusst als enges Unterthema angelegt. Die Seite beantwortet nicht das ganze Kapitel, sondern die kleine fachliche Entscheidung, die in Aufgaben oft den Unterschied macht.

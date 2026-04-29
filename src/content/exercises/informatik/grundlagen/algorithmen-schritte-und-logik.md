@@ -1,12 +1,17 @@
 ---
-title: Algorithmen, Schritte und Logik
-description: Diese Aufgabe trainiert das Denken in eindeutigen Abläufen, Bedingungen und sauberer Reihenfolge.
-subject: informatik
-section: Grundlagen
-level: einfach
+title: "Algorithmen, Schritte und Logik"
+description: "Diese Aufgabe trainiert das Denken in eindeutigen Abläufen, Bedingungen und sauberer Reihenfolge."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "algorithmen-schritte-und-logik"]
+taskId: "AUTO-ALGORITHMEN-SCHRITTE-UND-LOGIK"
+tags: ["informatik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben so, dass immer klar wird: Welche Eingabe gibt es, welche Verarbeitung passiert und welche Ausgabe soll entstehen?

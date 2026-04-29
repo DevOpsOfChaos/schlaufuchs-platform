@@ -3,35 +3,15 @@ title: "Aufgabe – Content Security Policy als Ausführungsgrenze lesen"
 description: "Übe Content Security Policy als Ausführungsgrenze lesen mit Einordnung, Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "web-development"
 section: "Betrieb und Sicherheit"
-topicPath:
-  - "frontend-betrieb"
-  - "build-performance-security"
-  - "v110-teil-1"
-  - "content-security-policy-als-ausfuehrungsgrenze-lesen"
+topicPath: ["frontend-betrieb", "build-performance-security", "v110-teil-1", "content-security-policy-als-ausfuehrungsgrenze-lesen"]
 taskId: "v110-web-development-content-security-policy-als-ausfuehrungsgrenze-lesen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "frontend-betrieb"
-  - "build-performance-security"
-  - "content-security-policy-als-ausfuehrungsgrenze-lesen"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Vergleiche das Thema mit einem Nachbarthema und nenne die Trennkante."
-reflectionPrompt: "Welche kleine Trennkante macht Content Security Policy als Ausführungsgrenze lesen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["web-development", "Betrieb und Sicherheit", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Content Security Policy als Ausführungsgrenze lesen**.

@@ -1,47 +1,19 @@
 ---
-title: main-Funktion und Programmstart einordnen
-description: Verstehe, warum main als Startpunkt eines einfachen C++-Programms gilt und wie return 0 in diesen Ablauf gehört.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - erstes-programm
-  - main-funktion-und-programmstart-einordnen
-learningGoals:
-  - Du erklärst, warum main als Einstiegspunkt des Programms gelesen wird.
-  - Du unterscheidest Startpunkt, Programmkörper und Rückgabewert.
-  - Du ordnest return 0 ruhiger ein statt es nur als Pflichtzeile auswendig zu lernen.
-practiceIdeas:
-  - Lies kleine Programme zuerst ab der main-Funktion und ordne darin Anfang, Ablauf und Ende.
-  - Vergleiche eine Funktion main mit einer Hilfsfunktion.
-  - Erkläre, warum der Programmstart nicht irgendwo mitten im Code beginnt.
-commonMistakes:
-  - Zu glauben, ein Programm starte an jeder beliebigen Stelle.
-  - return 0 als inhaltslose Dekoration zu behandeln.
-  - main mit irgendeiner normalen Hilfsfunktion gleichzusetzen.
-keyTakeaways:
-  - main ist der Einstiegspunkt eines einfachen C++-Programms.
-  - In main wird der grobe Ablauf des Programms sichtbar.
-  - return 0 markiert im Einstiegsthema das normale Ende von main.
-recognizeSignals:
-  - Es geht um Hauptprogramm, Einstiegspunkt, main oder die Grundstruktur eines C++-Programms.
-  - Du sollst Code nicht nur zeilenweise, sondern als Start-Ende-Struktur lesen.
-  - In Beispielen musst du klären, warum return 0 am Ende von main steht.
-selfCheckPoints:
-  - Kann ich erklären, warum main der Startpunkt ist?
-  - Kann ich main von einer Hilfsfunktion unterscheiden?
-  - Kann ich return 0 ruhig einordnen?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - main
-  - programmstart
+title: "main-Funktion und Programmstart einordnen"
+description: "Verstehe, warum main als Startpunkt eines einfachen C++-Programms gilt und wie return 0 in diesen Ablauf gehört."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "main-funktion-und-programmstart-einordnen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Wenn du ein kleines C++-Programm zum ersten Mal liest, hilft eine sehr ruhige Grundfrage: **Wo beginnt der eigentliche Ablauf?**  

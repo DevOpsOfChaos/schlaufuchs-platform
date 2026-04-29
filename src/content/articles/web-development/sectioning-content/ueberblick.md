@@ -1,33 +1,19 @@
 ---
 title: "Sectioning Content"
 description: "Sectioning Content beschreibt HTML-Elemente, die Dokumentabschnitte strukturieren. Dazu gehören etwa section, article, nav und aside. Sie helfen, Inhalte semantisch und navigierbar aufzubauen."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "sectioning-content"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Sectioning Content."
-  - "Du kannst Sectioning Content in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["sectioning-content", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "section nur als neutrales Layout-Div zu verwenden."
-keyTakeaways:
-  - "Sectioning Content beschreibt HTML-Elemente, die Dokumentabschnitte strukturieren."
-  - "Wichtig sind vor allem semantische abschnitte, überschriftenhierarchie und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Sectioning Content, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Sectioning Content dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "web development"
-  - "grundlagen"
-  - "sectioning content"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # Sectioning Content
 
 Sectioning Content beschreibt HTML-Elemente, die Dokumentabschnitte strukturieren. Dazu gehören etwa section, article, nav und aside. Sie helfen, Inhalte semantisch und navigierbar aufzubauen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

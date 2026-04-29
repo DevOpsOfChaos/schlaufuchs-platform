@@ -3,44 +3,17 @@ title: "HTML – figure, figcaption und Bildkontext sauber verbinden"
 description: "Verstehe, wie Bilder, Diagramme und Codeausschnitte mit einer sichtbaren Beschriftung fachlich eingeordnet werden."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "bilder-und-alt-texte"
-  - "figure-figcaption-und-bildkontext-sauber-verbinden"
-learningGoals:
-  - "Du unterscheidest Alternativtext und sichtbare Bildbeschriftung."
-  - "Du nutzt figure für eigenständige Abbildungen."
-  - "Du erklärst, wann eine figcaption den Kontext besser macht."
-practiceIdeas:
-  - "Prüfe eine vorhandene Seite mit genau dieser Fragestellung."
-  - "Formuliere eine kleine Vorher-nachher-Verbesserung."
-  - "Teste die Entscheidung mit Tastatur, kleiner Breite und längeren Texten."
-commonMistakes:
-  - "Den Alternativtext als Bildunterschrift zu missbrauchen."
-  - "Eine Abbildung ohne sichtbaren Kontext stehen zu lassen."
-  - "Jedes dekorative Bild unnötig in figure zu packen."
-keyTakeaways:
-  - "Bedeutung, Technik und Nutzungssituation müssen zusammenpassen."
-  - "Eine optisch passende Lösung ist noch nicht automatisch strukturell gut."
-  - "Kleine Prüfregeln helfen, Weboberflächen verlässlich zu verbessern."
-recognizeSignals:
-  - "Du siehst eine Stelle, die optisch funktioniert, aber fachlich unklar bleibt."
-  - "Im Review taucht die Frage auf, ob HTML-Struktur oder CSS-Verhalten wirklich passt."
-  - "Eine Komponente soll robuster, zugänglicher oder wartbarer werden."
-selfCheckPoints:
-  - "Kann ich die fachliche Bedeutung der Stelle benennen?"
-  - "Kann ich die technische Entscheidung begründen?"
-  - "Kann ich eine typische Fehlinterpretation vermeiden?"
-tags:
-  - "web development"
-  - "html"
-  - "bilder"
-  - "figure"
-  - "figcaption"
+topicPath: ["html", "bilder-und-alt-texte", "figure-figcaption-und-bildkontext-sauber-verbinden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Diese Seite hilft dir, **figure, figcaption und Bildkontext sauber verbinden** nicht als isolierte Technik zu lernen. Entscheidend ist, welche Bedeutung auf der Seite entsteht und ob diese Bedeutung für Nutzerinnen und Nutzer zuverlässig erkennbar bleibt.

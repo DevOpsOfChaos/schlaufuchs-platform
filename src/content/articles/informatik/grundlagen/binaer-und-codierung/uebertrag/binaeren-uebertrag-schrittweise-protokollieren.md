@@ -3,46 +3,17 @@ title: "Informatik – Binären Übertrag schrittweise protokollieren"
 description: "Lerne Binärer Übertrag als enges, prüfbares Unterthema mit Beispiel, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Grundlagen"
-topicPath:
-  - "grundlagen"
-  - "binaer-und-codierung"
-  - "uebertrag"
-  - "binaeren-uebertrag-schrittweise-protokollieren"
-learningGoals:
-  - "Du erklärst Binärer Übertrag als eigenes Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Erstelle eine Gegenprobe mit verändertem Wert, Zustand oder Kontext."
-  - "Vergleiche die Seite mit einem Nachbarthema und nenne die Trennkante."
-commonMistakes:
-  - "Der Übertrag wird eine Stelle zu früh oder zu spät genutzt."
-  - "Das Thema nur einem breiten Kapitel zuordnen."
-  - "Eine Lösung formulieren, die keine konkrete Prüfung enthält."
-keyTakeaways:
-  - "Binärer Übertrag wird über Einordnung, Abgrenzung und Gegenprobe stabil."
-  - "Kleine Unterthemen erhöhen Auffindbarkeit und reduzieren Doppelungen."
-  - "Aufgabe und Lösung sollen dieselbe fachliche Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Ein breites Kapitel wäre als Antwort zu ungenau."
-  - "Ein konkreter Prüfschritt kann die Entscheidung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "grundlagen"
-  - "binaer-und-codierung"
-  - "binärer übertrag"
+topicPath: ["grundlagen", "binaer-und-codierung", "uebertrag", "binaeren-uebertrag-schrittweise-protokollieren"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["informatik", "Grundlagen"]
 draft: false
 ---
-
 ## Grundidee
 
 **Binärer Übertrag** ist ein kleines Unterthema mit einer klaren Trennkante. Lerne Binärer Übertrag als enges, prüfbares Unterthema mit Beispiel, Abgrenzung und Gegenprobe. Dadurch bleibt die Seite übersichtlich und landet nicht als weiterer Abschnitt in einem zu breiten Sammelthema.

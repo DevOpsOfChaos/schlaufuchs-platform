@@ -1,22 +1,14 @@
 ---
-title: Musterlösung – Datenformat passend auswählen
-description: Musterlösung zur Aufgabe INF-DATA-FORMAT-COMP-001.
-subject: informatik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - datenformate
-  - csv-json-und-xml-vergleichen
-  - datenformat-fuer-anwendungsfall-begruenden-loesung
-taskId: INF-DATA-FORMAT-COMP-001
-relatedExercise: src/content/exercises/informatik/grundlagen/datenformate/csv-json-und-xml-vergleichen/datenformat-fuer-anwendungsfall-begruenden.md
-tags:
-  - informatik
-  - loesung
-  - task-id
+title: "Musterlösung – Datenformat passend auswählen"
+description: "Musterlösung zur Aufgabe INF-DATA-FORMAT-COMP-001."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "datenformate", "csv-json-und-xml-vergleichen", "datenformat-fuer-anwendungsfall-begruenden"]
+taskId: "INF-DATA-FORMAT-COMP-001"
+relatedExercise: "src/content/exercises/informatik/grundlagen/datenformate/csv-json-und-xml-vergleichen/datenformat-fuer-anwendungsfall-begruenden.md"
+tags: ["informatik", "Grundlagen", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Format zuordnen
 
 - einfache Tabelle → CSV

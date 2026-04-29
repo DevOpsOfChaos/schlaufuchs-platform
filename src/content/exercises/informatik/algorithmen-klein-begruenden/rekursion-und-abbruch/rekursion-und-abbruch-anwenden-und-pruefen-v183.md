@@ -1,27 +1,17 @@
 ---
 title: "Rekursion und Abbruch anwenden und prüfen"
 description: "Übe Rekursion und Abbruch mit Begriffen, Beispielen und typischen Prüfungen."
-subject: informatik
+subject: "informatik"
 section: "Algorithmen klein begründen"
-topicPath:
-  - "algorithmen-klein-begruenden"
-  - "rekursion-und-abbruch"
-taskId: INF-V183-01-B
-tags:
-  - "informatik"
-  - "rekursion-und-abbruch"
-hintPoints:
-  - "Beginne mit der allgemeinen Idee."
-  - "Trenne Begriff, Beispiel und Fehlerquelle."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe sauber unterscheiden."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel aus einem anderen Informatikthema."
-reflectionPrompt: "Welche Unterscheidung war hier am wichtigsten?"
-level: mittel
+topicPath: ["algorithmen-klein-begruenden", "rekursion-und-abbruch", "rekursion-und-abbruch-anwenden-und-pruefen-v183"]
+taskId: "INF-V183-01-B"
+tags: ["informatik", "Algorithmen klein begründen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Rekursion und Abbruch**.
 
 ## Aufgabe 1 – Begriffe klären

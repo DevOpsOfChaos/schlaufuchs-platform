@@ -1,32 +1,17 @@
 ---
 title: "Command Grouping"
 description: "Überblick über das Gruppieren von Shell-Befehlen mit Klammern oder geschweiften Klammern."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - "command-grouping"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Command Grouping als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Subshell, geschweifte Klammern, Umleitung."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["command-grouping", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Runde und geschweifte Klammern in der Shell als gleichwertig zu betrachten."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Command Grouping beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Gemeinsame Behandlung mehrerer Kommandos."
-  - "Wichtige Hinweise liefern vor allem Subshell, geschweifte Klammern, Umleitung."
-recognizeSignals:
-  - "Es geht um gemeinsame behandlung mehrerer kommandos, subshell oder geschweifte klammern."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Command Grouping erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "skripte"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
 # Command Grouping

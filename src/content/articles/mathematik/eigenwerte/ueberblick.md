@@ -1,33 +1,19 @@
 ---
 title: "Eigenwerte"
 description: "Eigenwerte beschreiben Faktoren, mit denen eine lineare Abbildung bestimmte Richtungen streckt oder staucht. Die zugehörigen Richtungen heißen Eigenvektoren."
-subject: mathematik
+subject: "mathematik"
 section: "Mathematik"
-topicPath:
-  - "eigenwerte"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Eigenwerte."
-  - "Du kannst Eigenwerte in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["eigenwerte", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Eigenwert und Eigenvektor voneinander zu trennen, als hätten sie keinen Zusammenhang."
-keyTakeaways:
-  - "Eigenwerte beschreiben Faktoren, mit denen eine lineare Abbildung bestimmte Richtungen streckt oder staucht."
-  - "Wichtig sind vor allem eigenvektor bleibt in seiner richtung, eigenwert als streckfaktor und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Eigenwerte, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Eigenwerte dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "grundlagen"
-  - "eigenwerte"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Mathematik"]
 draft: false
 ---
-
 # Eigenwerte
 
 Eigenwerte beschreiben Faktoren, mit denen eine lineare Abbildung bestimmte Richtungen streckt oder staucht. Die zugehörigen Richtungen heißen Eigenvektoren. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

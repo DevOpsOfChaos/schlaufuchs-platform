@@ -3,21 +3,12 @@ title: "Lösung – Prozess und Programm trennen"
 description: "Musterlösung zu prozess und programm trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "prozess-und-dienste"
-  - "prozess-und-programm-trennen"
+topicPath: ["shell", "prozess-und-dienste", "prozess-und-programm-trennen"]
 taskId: "v112-linux-prozess-und-programm-trennen"
 relatedExercise: "linux/shell/prozess-und-dienste/prozess-und-programm-trennen"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "prozess-und-programm-trennen"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Prozesse und Dienste**.

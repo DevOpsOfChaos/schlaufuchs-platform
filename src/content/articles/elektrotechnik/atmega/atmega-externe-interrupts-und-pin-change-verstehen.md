@@ -1,46 +1,19 @@
 ---
-title: ATmega – Externe Interrupts und Pin-Change-Interrupts verstehen
-description: Verstehe, warum es am AVR verschiedene Interruptarten für Eingangssignale gibt und welche Frage jeweils im Vordergrund steht.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - ereignisse-und-interrupts
-  - atmega-externe-interrupts-und-pin-change-verstehen
-learningGoals:
-  - Du erklärst den Unterschied zwischen externen Interrupts und Pin-Change-Interrupts grundlegend.
-  - Du liest Eingangssignale eher über Ereignisart als nur über Registernamen.
-  - Du unterscheidest gezielte Ereignisreaktion und allgemeine Pinänderung fachlich sauber.
-practiceIdeas:
-  - Vergleiche einen Tasterfall mit genauer Flankenauswertung und einen Fall mit bloßer Pegeländerung.
-  - Lies kleine AVR-Beispiele zuerst als Ereignisfrage und dann als Vektor oder Registerkonfiguration.
-  - Prüfe, ob das System wirklich eine bestimmte Flanke braucht oder nur auf Änderungen reagieren soll.
-commonMistakes:
-  - Externe Interrupts und Pin-Change-Interrupts als völlig identisch zu betrachten.
-  - Zu denken, jeder Eingangswechsel sei automatisch gleich präzise spezifiziert.
-  - Nur den Vektornamen zu lernen, aber die Ereignislogik dahinter nicht mitzudenken.
-keyTakeaways:
-  - Externe Interrupts passen gut zu gezielt beschriebenen Ereignissen wie Flanken oder Pegeln an bestimmten Quellen.
-  - Pin-Change-Interrupts reagieren allgemeiner auf Änderungen an überwachten Pins.
-  - Wer zuerst die Ereignisfrage klärt, liest die Interruptart deutlich ruhiger.
-recognizeSignals:
-  - Es geht um INT0, INT1, Pin-Change oder unterschiedliche Eingangsevents.
-  - Du sollst erklären, warum nicht jede Eingangssignaländerung dieselbe Art von Interrupt braucht.
-  - In Aufgaben wird zwischen genauer Ereignisdefinition und allgemeiner Zustandsänderung unterschieden.
-selfCheckPoints:
-  - Kann ich gezielte Flankenreaktion und allgemeine Pinänderung trennen?
-  - Kann ich erklären, warum die Wahl der Interruptart von der Ereignisfrage abhängt?
-  - Kann ich einen Tasterfall fachlich passend einordnen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - interrupt
-  - pin-change
-level: mittel
+title: "ATmega – Externe Interrupts und Pin-Change-Interrupts verstehen"
+description: "Verstehe, warum es am AVR verschiedene Interruptarten für Eingangssignale gibt und welche Frage jeweils im Vordergrund steht."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-externe-interrupts-und-pin-change-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 Am AVR gibt es nicht nur „Interrupt für Pin-Ereignisse“, sondern verschiedene Arten von Interruptquellen. Besonders wichtig ist die ruhige Trennung zwischen **externen Interrupts** und **Pin-Change-Interrupts**. Die entscheidende Frage ist dabei: **Brauche ich ein klar definiertes Ereignis oder reicht mir jede Änderung an einem überwachten Pin?**
 
 <div class="example-card">

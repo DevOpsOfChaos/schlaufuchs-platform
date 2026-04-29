@@ -1,15 +1,14 @@
 ---
-title: Lokale Änderung annähern – Lösung B
-description: Musterlösung zu Lokale Änderung annähern mit Kontrolle.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Lokale Änderung annähern – Lösung B"
+description: "Musterlösung zu Lokale Änderung annähern mit Kontrolle."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "analysis-vorbereitung", "lokale-aenderung-annaehern"]
 taskId: "mat-v196-lokale-aenderung-annaehern-b"
 relatedExercise: "mathematik/sanierung-v196/lokale-aenderung-annaehern-aufgabe-b"
 tags: ["mathematik", "v196", "analysis-vorbereitung", "lokale-aenderung-annaehern"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine passende Lösung zu dieser Aufgabe muss nicht exakt dieselben Zahlen oder Beispiele verwenden. Entscheidend ist der saubere Aufbau.

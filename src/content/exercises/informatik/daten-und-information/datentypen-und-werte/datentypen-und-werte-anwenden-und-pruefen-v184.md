@@ -1,29 +1,17 @@
 ---
 title: "Datentypen und Werte – Anwenden und prüfen"
 description: "Übe, Datentypen und Werte an kleinen Situationen zu prüfen."
-subject: informatik
+subject: "informatik"
 section: "daten-und-information"
-topicPath:
-  - "daten-und-information"
-  - "datentypen-und-werte"
-taskId: INF-DATENTYPEN-UND-WERTE-842
-tags:
-  - "informatik"
-  - "datentypen"
-  - "werte"
-hintPoints:
-  - "Beginne mit der allgemeinen Rolle des Themas."
-  - "Trenne Begriff, Beispiel und Sonderfall sauber."
-selfCheckPoints:
-  - "Ich kann meine Zuordnung begründen."
-  - "Ich vermeide eine reine Einzelfallantwort."
-transferIdeas:
-  - "Übertrage die Idee auf ein anderes kleines Informatikbeispiel."
-reflectionPrompt: "Welche Annahme musste ich bewusst prüfen?"
-level: einfach
+topicPath: ["daten-und-information", "datentypen-und-werte", "datentypen-und-werte-anwenden-und-pruefen-v184"]
+taskId: "INF-DATENTYPEN-UND-WERTE-842"
+tags: ["informatik", "daten-und-information", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Datentypen und Werte**. Sie soll nicht nur eine einzelne Situation lösen, sondern das Thema fachlich einordnen.
 
 ## Lernziel

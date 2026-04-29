@@ -1,29 +1,17 @@
 ---
 title: "Datentypen und Werte – Ruhig einordnen"
 description: "Übe, Datentypen und Werte fachlich einzuordnen."
-subject: informatik
+subject: "informatik"
 section: "daten-und-information"
-topicPath:
-  - "daten-und-information"
-  - "datentypen-und-werte"
-taskId: INF-DATENTYPEN-UND-WERTE-841
-tags:
-  - "informatik"
-  - "datentypen"
-  - "werte"
-hintPoints:
-  - "Beginne mit der allgemeinen Rolle des Themas."
-  - "Trenne Begriff, Beispiel und Sonderfall sauber."
-selfCheckPoints:
-  - "Ich kann meine Zuordnung begründen."
-  - "Ich vermeide eine reine Einzelfallantwort."
-transferIdeas:
-  - "Übertrage die Idee auf ein anderes kleines Informatikbeispiel."
-reflectionPrompt: "Welche Annahme musste ich bewusst prüfen?"
-level: einfach
+topicPath: ["daten-und-information", "datentypen-und-werte", "datentypen-und-werte-ruhig-einordnen-v184"]
+taskId: "INF-DATENTYPEN-UND-WERTE-841"
+tags: ["informatik", "daten-und-information", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Datentypen und Werte**. Sie soll nicht nur eine einzelne Situation lösen, sondern das Thema fachlich einordnen.
 
 ## Lernziel

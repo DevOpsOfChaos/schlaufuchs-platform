@@ -1,35 +1,19 @@
 ---
 title: "HTTP und Fetch"
 description: "Allgemeiner Überblick über HTTP-Anfragen und die Fetch-Schnittstelle im Browser."
-subject: web-development
+subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "http-und-fetch"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst HTTP als Anfrage-Antwort-Protokoll des Webs."
-  - "Du kannst Fetch als Browser-Schnittstelle für Netzwerkanfragen einordnen."
-  - "Du verstehst Statuscodes, Methoden und Fehlerfälle grundsätzlich."
+topicPath: ["http-und-fetch", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Eine erfolgreiche Netzwerkverbindung mit einer fachlich erfolgreichen Antwort zu verwechseln."
-  - "Fehlerfälle nur im `catch`-Block zu erwarten."
-keyTakeaways:
-  - "HTTP arbeitet mit Anfragen, Antworten, Methoden, Headern und Statuscodes."
-  - "Fetch liefert auch bei vielen HTTP-Fehlerstatus zunächst eine Antwort zurück."
-recognizeSignals:
-  - "Es geht um APIs, JSON, GET, POST, Statuscodes, Ladezustände oder Fehleranzeigen."
-selfCheckPoints:
-  - "Kann ich Netzwerkfehler und HTTP-Fehlerstatus unterscheiden?"
-level: einfach
-tags:
-  - "web development"
-  - "http"
-  - "fetch"
-  - "javascript"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 # HTTP und Fetch
 
 ![Schaubild zu HTTP und Fetch.](/schlaufuchs-platform/images/overviews/v148/http-und-fetch.svg)

@@ -1,44 +1,19 @@
 ---
-title: Client-Server-Prinzip verstehen
-description: Verstehe, warum viele digitale Dienste aus anfragenden Clients und antwortenden Servern bestehen.
-subject: informatik
-section: Netzwerke
-topicPath:
-  - netzwerke
-  - client-server-prinzip
-tags:
-  - client
-  - server
-  - netzwerk
-  - dienst
-learningGoals:
-  - "Du erklärst die Grundidee des Client-Server-Prinzips in eigenen Worten."
-  - "Du unterscheidest Anfrage, Antwort und bereitgestellten Dienst."
-  - "Du erkennst das Prinzip in typischen Alltagsdiensten wieder."
-practiceIdeas:
-  - "Ordne in Beispielen jeweils zu, was Client und was Server ist."
-  - "Beschreibe einen Ablauf von Anfrage bis Antwort Schritt für Schritt."
-  - "Vergleiche lokale Dateien mit einem Dienst, der über das Netzwerk bereitsteht."
-commonMistakes:
-  - "Client und Server nur als Geräte statt als Rollen zu sehen."
-  - "Zu denken, ein Server sei immer ein großer Spezialrechner."
-  - "Anfrage und Antwort nicht als zusammenhängenden Ablauf zu lesen."
-keyTakeaways:
-  - "Ein Client fordert etwas an, ein Server stellt etwas bereit."
-  - "Client und Server beschreiben zuerst Rollen im Ablauf."
-  - "Viele Web- und App-Dienste folgen genau diesem Muster."
-recognizeSignals:
-  - "Es geht um Anfragen, Antworten, Dienste, Browser, Apps oder Netzwerknutzung."
-  - "Du sollst erklären, wo Informationen herkommen und wohin sie zurückgehen."
-  - "Ein Beispiel trennt Nutzergerät und bereitgestellten Dienst."
-selfCheckPoints:
-  - "Kann ich Client und Server in einem Beispiel sicher zuordnen?"
-  - "Kann ich den Ablauf von Anfrage und Antwort verständlich beschreiben?"
-  - "Kann ich erklären, warum ein Dienst nicht vollständig lokal vorliegt?"
-level: einfach
+title: "Client-Server-Prinzip verstehen"
+description: "Verstehe, warum viele digitale Dienste aus anfragenden Clients und antwortenden Servern bestehen."
+subject: "informatik"
+section: "Netzwerke"
+topicPath: ["netzwerke", "client-server-prinzip"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Netzwerke"]
 draft: false
 ---
-
 ## Warum dieses Thema wichtig ist
 
 Viele digitale Dienste wirken im Alltag selbstverständlich. Technisch steckt dahinter aber oft dieselbe Grundidee: Ein Teil fordert etwas an, ein anderer Teil liefert etwas zurück.

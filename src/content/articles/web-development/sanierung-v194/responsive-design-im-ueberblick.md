@@ -3,44 +3,17 @@ title: "Responsive Design im Überblick"
 description: "Verstehe layout an inhalt und bildschirm anpassen als ruhigen Web-Development-Baustein für zugängliche, responsive und gut prüfbare Seiten."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "responsive-layout"
-  - "responsive-design-im-ueberblick"
-
-learningGoals:
-  - "Layout an Inhalt und Bildschirm anpassen"
-  - "Struktur, Gestaltung und Nutzung klar trennen"
-  - "einen kleinen prüfbaren nächsten Schritt formulieren"
-practiceIdeas:
-  - "Skizziere, wie eine Kartenübersicht auf drei Breiten reagieren soll."
-  - "Prüfe eine zweite Seite mit demselben Blickwinkel."
-commonMistakes:
-  - "Das Thema wird erst nach dem visuellen Design betrachtet."
-  - "Ein einzelner Test wird mit echter Nutzbarkeit verwechselt."
-  - "Zustände wie Fokus, Fehler oder kleine Bildschirme bleiben ungetestet."
-keyTakeaways:
-  - "Responsive Design beginnt beim Inhalt."
-  - "Breakpoints sollten echte Layoutprobleme lösen."
-  - "Flexible Einheiten verhindern starre Seiten."
-
-recognizeSignals:
-  - "Das Thema taucht auf, wenn eine Seite zwar sichtbar funktioniert, aber Bedienung, Lesbarkeit oder Prüfung unsicher bleiben."
-selfCheckPoints:
-  - "Kann ich beschreiben, welches Problem für Nutzerinnen und Nutzer gelöst wird?"
-  - "Ist klar, ob HTML-Struktur, CSS-Layout, Interaktion oder Inhalt betroffen ist?"
-  - "Gibt es einen kleinen Test nach der Änderung?"
+topicPath: ["sanierung-v194", "responsive-design-im-ueberblick"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "responsive"
-  - "design"
-  - "ueberblick"
-  - "web-development"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Responsive Design im Überblick](/schlaufuchs-platform/images/web-development/sanierung-v194/responsive-design-im-ueberblick.svg)
 
 Responsive Design im Überblick gehört zur Web-Development-Sanierung v194. Die Seite behandelt das Thema als Qualitätsentscheidung: Eine Webseite soll nicht nur hübsch aussehen, sondern verständlich, bedienbar und überprüfbar bleiben.

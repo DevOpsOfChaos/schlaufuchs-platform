@@ -3,43 +3,15 @@ title: "Mikrocontroller – lange Leitungen und Störungen erkennen"
 description: "Verstehe, warum ein Signal auf dem Steckbrett noch funktioniert, aber mit längerer Leitung, Motoren oder schlechter Masse plötzlich instabil werden kann."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "lange-leitungen-und-stoerungen-erkennen"
-learningGoals:
-  - "Du erklärst, warum lange Leitungen störanfälliger sind."
-  - "Du unterscheidest Softwarefehler und elektrische Signalprobleme."
-  - "Du planst einfache Gegenmaßnahmen wie Pull-ups, Entkopplung, verdrillte Leitungen oder langsamere Abtastung."
-practiceIdeas:
-  - "Vergleiche kurze Steckbrettleitung mit langer Sensorleitung."
-  - "Markiere gemeinsame Masse und Rückstrompfad in einer Skizze."
-  - "Prüfe, ob Fehler zeitlich mit Motoren oder Relais zusammenfallen."
-commonMistakes:
-  - "Instabile Eingänge sofort dem Programm zuzuschreiben."
-  - "Masseführung und Leitungslänge zu ignorieren."
-  - "Störimpulse mit echten Tastendrücken oder Sensordaten zu verwechseln."
-keyTakeaways:
-  - "Leitungen sind Teil der Schaltung und nicht nur neutrale Verbindung."
-  - "Störungen entstehen oft durch schlechte Pegel, Rückwege oder nahe Lasten."
-  - "Gute Diagnose verbindet Beobachtung, Messung und kleine Gegenmaßnahmen."
-recognizeSignals:
-  - "Ein Aufbau funktioniert nur mit kurzen Kabeln."
-  - "Taster oder Sensoren lösen zufällig aus."
-  - "Motoren, Relais oder lange Leitungen sind im Spiel."
-selfCheckPoints:
-  - "Kann ich Leitung, Masse und Störquelle getrennt betrachten?"
-  - "Kann ich einen Software- und einen Hardwareverdacht formulieren?"
-  - "Kann ich eine einfache Gegenmaßnahme begründen?"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "stoerungen"
-  - "leitungen"
-  - "masse"
-  - "signalqualitaet"
-  - "debugging"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "lange-leitungen-und-stoerungen-erkennen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
 ## Grundidee

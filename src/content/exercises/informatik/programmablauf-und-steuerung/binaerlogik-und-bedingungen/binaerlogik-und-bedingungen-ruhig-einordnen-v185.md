@@ -1,29 +1,17 @@
 ---
 title: "Binärlogik und Bedingungen – ruhig einordnen"
 description: "Übe, binärlogik und bedingungen fachlich zu erklären und abzugrenzen."
-subject: informatik
+subject: "informatik"
 section: "Programmablauf und Steuerung"
-topicPath:
-  - "programmablauf-und-steuerung"
-  - "binaerlogik-und-bedingungen"
-  - "uebung"
-taskId: INF-V185-002-1
-tags:
-  - "informatik"
-  - "programmablauf-und-steuerung"
-  - "binaerlogik-und-bedingungen"
-hintPoints:
-  - "Beginne mit der Grundidee, nicht mit einem Spezialfall."
-  - "Trenne Begriff, Beispiel und Prüfung."
-selfCheckPoints:
-  - "Ich kann das Thema in eigenen Worten erklären."
-  - "Ich kann ein passendes Beispiel begründen."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel in einem anderen Fachbereich."
-level: einfach
+topicPath: ["programmablauf-und-steuerung", "binaerlogik-und-bedingungen", "binaerlogik-und-bedingungen-ruhig-einordnen-v185"]
+taskId: "INF-V185-002-1"
+tags: ["informatik", "Programmablauf und Steuerung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe prüft, ob du **Binärlogik und Bedingungen** zuerst als allgemeines Thema und nicht nur als Einzelfall lesen kannst.
 
 ## Lernziel

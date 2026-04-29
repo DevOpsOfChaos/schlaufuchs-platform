@@ -3,46 +3,17 @@ title: "Elektrotechnik – Tastkopf-Einstellung am Oszilloskop beachten"
 description: "Lerne Oszilloskop-Tastkopf als kleines, klar auffindbares Unterthema mit Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "messen-und-fehler"
-  - "oszilloskop-und-signale"
-  - "tastkopf"
-  - "tastkopf-einstellung-am-oszilloskop-beachten"
-learningGoals:
-  - "Du erklärst Oszilloskop-Tastkopf als enges Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich sauber ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Formuliere eine Gegenprobe mit verändertem Kontext."
-  - "Ordne die Seite bewusst einem kleinen Unterthemenpfad zu."
-commonMistakes:
-  - "Die Anzeige wird ohne Tastkopffaktor gelesen."
-  - "Das Thema in einem breiten Sammelkapitel verschwinden lassen."
-  - "Eine Lösung ohne konkreten Prüfschritt formulieren."
-keyTakeaways:
-  - "Oszilloskop-Tastkopf wird durch Kontext, Abgrenzung und Prüfung klar."
-  - "Feinere Unterthemen reduzieren Doppelungen und Suchaufwand."
-  - "Aufgabe und Lösung sollen dieselbe Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Eine breite Kapitelüberschrift reicht für die Entscheidung nicht aus."
-  - "Ein konkreter Prüfschritt kann die Einordnung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "elektrotechnik"
-  - "praxis"
-  - "unterthema"
-  - "messen-und-fehler"
-  - "oszilloskop-und-signale"
-  - "tastkopf-einstellung-am-oszilloskop-beachten"
+topicPath: ["messen-und-fehler", "oszilloskop-und-signale", "tastkopf", "tastkopf-einstellung-am-oszilloskop-beachten"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik"]
 draft: false
 ---
-
 ## Grundidee
 
 **Oszilloskop-Tastkopf** ist bewusst als kleines Unterthema angelegt. Lerne Oszilloskop-Tastkopf als kleines, klar auffindbares Unterthema mit Abgrenzung, Prüfschritt und Gegenprobe. So bleibt die Lernseite auffindbar, ohne noch mehr Inhalt in ein übergroßes Sammelthema zu schieben.

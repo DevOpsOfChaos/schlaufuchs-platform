@@ -3,24 +3,12 @@ title: "Lösung: Schaltplan und Aufbau vergleichen: Aufgabe A"
 description: "Musterlösung zur Aufgabe etech-v191-029a im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "fehlersuche"
-  - "schaltplan-und-aufbau-vergleichen"
-  - "loesung-a"
+topicPath: ["sanierung-v191", "schaltplan-und-aufbau-vergleichen-aufgabe-a"]
 taskId: "etech-v191-029a"
 relatedExercise: "elektrotechnik/sanierung-v191/schaltplan-und-aufbau-vergleichen-aufgabe-a"
-tags:
-  - "fehlersuche"
-  - "schaltplan"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-029a`
 
 Ausgangsauftrag: Führe einen Knotenvergleich zwischen Schaltplan und Steckbrettaufbau durch.

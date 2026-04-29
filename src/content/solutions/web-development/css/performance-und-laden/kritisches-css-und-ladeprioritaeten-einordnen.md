@@ -3,22 +3,12 @@ title: "Lösung – Kritisches CSS und Ladeprioritäten einordnen"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Development-Aufgabe."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "performance-und-laden"
-  - "kritisches-css-und-ladeprioritaeten-einordnen"
-tags:
-  - "web development"
-  - "css"
-  - "performance"
-  - "laden"
-  - "critical css"
-  - "lösung"
+topicPath: ["css", "performance-und-laden", "kritisches-css-und-ladeprioritaeten-einordnen"]
 taskId: "web-v104-kritisches-css-und-ladeprioritaeten-einordnen"
 relatedExercise: "web-development/css/performance-und-laden/kritisches-css-und-ladeprioritaeten-einordnen"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Eine gute Lösung beginnt mit der Nutzer-Situation. Das Problem ist nicht nur technisch, sondern zeigt sich daran, dass eine Person nicht sicher erkennt, was gerade passiert oder wie sie weitermachen kann.

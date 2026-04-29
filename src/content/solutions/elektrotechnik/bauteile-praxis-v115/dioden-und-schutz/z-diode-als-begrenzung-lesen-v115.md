@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Z-Diode als Begrenzung lesen"
 description: "Musterlösung zu Z-Diode als Begrenzung lesen mit Trennkante und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "bauteile-praxis-v115"
-  - "dioden-und-schutz"
-  - "z-diode-als-begrenzung-lesen-v115"
+topicPath: ["bauteile-praxis-v115", "dioden-und-schutz", "z-diode-als-begrenzung-lesen-v115"]
 taskId: "elektrotechnik-z-diode-als-begrenzung-lesen-v115"
 relatedExercise: "elektrotechnik/bauteile-praxis-v115/dioden-und-schutz/z-diode-als-begrenzung-lesen-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "bauteile in der praxis"
-  - "dioden und schutz"
-  - "lösung"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Z-Diode als Begrenzung lesen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

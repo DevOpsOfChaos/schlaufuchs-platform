@@ -3,23 +3,12 @@ title: "Lösung – Journal-Zeitraum gezielt eingrenzen"
 description: "Musterlösung zu journalctl-Zeitraum mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "systembetrieb"
-  - "prozesse-dienste-logs"
-  - "journal"
-  - "journal-zeitraum-gezielt-eingrenzen"
+topicPath: ["systembetrieb", "prozesse-dienste-logs", "journal", "journal-zeitraum-gezielt-eingrenzen"]
 taskId: "v111-linux-journal-zeitraum-gezielt-eingrenzen"
 relatedExercise: "linux/systembetrieb/prozesse-dienste-logs/journal/journal-zeitraum-gezielt-eingrenzen"
-tags:
-  - "linux"
-  - "betrieb"
-  - "unterthema"
-  - "systembetrieb"
-  - "prozesse-dienste-logs"
-  - "journal-zeitraum-gezielt-eingrenzen"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **journalctl-Zeitraum**.

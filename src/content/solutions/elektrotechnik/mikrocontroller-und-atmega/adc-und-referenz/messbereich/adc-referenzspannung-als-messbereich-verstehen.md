@@ -3,23 +3,12 @@ title: "Lösung – ADC-Referenzspannung als Messbereich verstehen"
 description: "Musterlösung zu ADC-Referenz mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "adc-und-referenz"
-  - "messbereich"
-  - "adc-referenzspannung-als-messbereich-verstehen"
+topicPath: ["mikrocontroller-und-atmega", "adc-und-referenz", "messbereich", "adc-referenzspannung-als-messbereich-verstehen"]
 taskId: "v108-elektrotechnik-adc-referenzspannung-als-messbereich-verstehen"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/adc-und-referenz/messbereich/adc-referenzspannung-als-messbereich-verstehen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "schaltungen"
-  - "mikrocontroller-und-atmega"
-  - "adc-und-referenz"
-  - "adc-referenz"
+tags: ["elektrotechnik", "Mikrocontroller", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **ADC-Referenz**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

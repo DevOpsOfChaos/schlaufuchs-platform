@@ -1,34 +1,17 @@
 ---
 title: "Grundlagen: Bruch, Prozent und Verhältnis"
 description: "Allgemeiner Überblick über Brüche, Prozente und Verhältnisse als verschiedene Darstellungen von Anteilen."
-subject: mathematik
+subject: "mathematik"
 section: "Rechenstrategien und Kontrolle"
-topicPath:
-  - rechenstrategien-und-kontrolle
-  - bruch-prozent-und-verhaeltnis
-  - grundlagen-bruch-prozent-und-verhaeltnis
-learningGoals:
-  - "Du erklärst Bruch, Prozent und Verhältnis als verwandte Anteilsschreibweisen."
-  - "Du unterscheidest Grundwert, Anteil und Vergleichsgröße."
-  - "Du erkennst, wann eine Umrechnung nur Darstellung und wann sie Interpretation ist."
+topicPath: ["rechenstrategien-und-kontrolle", "bruch-prozent-und-verhaeltnis", "ueberblick", "grundlagen-bruch-prozent-und-verhaeltnis"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Prozentwerte ohne Grundwert zu vergleichen."
-  - "Verhältnis und Differenz gleichzusetzen."
-  - "Brüche nur als Rechenaufgabe statt als Anteil zu lesen."
-keyTakeaways:
-  - "Brüche, Prozente und Verhältnisse beschreiben Anteile aus unterschiedlichen Blickwinkeln."
-  - "Ohne Bezugsgröße ist ein Prozentwert oft unvollständig."
-  - "Verhältnisse vergleichen Größen zueinander, nicht nur einzelne Zahlen."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - mathematik
-  - bruch
-  - prozent
-  - verhaeltnis
-  - anteile
+level: "einfach"
+tags: ["mathematik", "Rechenstrategien und Kontrolle"]
 draft: false
 ---
 ## Begriff

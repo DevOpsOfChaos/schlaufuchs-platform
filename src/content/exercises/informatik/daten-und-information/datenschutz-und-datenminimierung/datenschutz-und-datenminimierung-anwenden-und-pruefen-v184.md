@@ -1,29 +1,17 @@
 ---
 title: "Datenschutz und Datenminimierung – Anwenden und prüfen"
 description: "Übe, Datenschutz und Datenminimierung an kleinen Situationen zu prüfen."
-subject: informatik
+subject: "informatik"
 section: "daten-und-information"
-topicPath:
-  - "daten-und-information"
-  - "datenschutz-und-datenminimierung"
-taskId: INF-DATENSCHUTZ-UND-DATENMINIMIERUNG-842
-tags:
-  - "informatik"
-  - "datenschutz"
-  - "datenminimierung"
-hintPoints:
-  - "Beginne mit der allgemeinen Rolle des Themas."
-  - "Trenne Begriff, Beispiel und Sonderfall sauber."
-selfCheckPoints:
-  - "Ich kann meine Zuordnung begründen."
-  - "Ich vermeide eine reine Einzelfallantwort."
-transferIdeas:
-  - "Übertrage die Idee auf ein anderes kleines Informatikbeispiel."
-reflectionPrompt: "Welche Annahme musste ich bewusst prüfen?"
-level: mittel
+topicPath: ["daten-und-information", "datenschutz-und-datenminimierung", "datenschutz-und-datenminimierung-anwenden-und-pruefen-v184"]
+taskId: "INF-DATENSCHUTZ-UND-DATENMINIMIERUNG-842"
+tags: ["informatik", "daten-und-information", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Datenschutz und Datenminimierung**. Sie soll nicht nur eine einzelne Situation lösen, sondern das Thema fachlich einordnen.
 
 ## Lernziel

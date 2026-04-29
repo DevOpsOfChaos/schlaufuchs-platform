@@ -3,20 +3,12 @@ title: "Lösung – Zeitstempel in Logs nutzen"
 description: "Musterlösung zu Zeitstempel in Logs nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "logs-und-diagnose"
-  - "zeitstempel-in-logs-nutzen-v113"
+topicPath: ["shell", "logs-und-diagnose", "zeitstempel-in-logs-nutzen-v113"]
 taskId: "v113-linux-zeitstempel-in-logs-nutzen-v113"
 relatedExercise: "linux/shell/logs-und-diagnose/zeitstempel-in-logs-nutzen-v113"
-tags:
-  - "linux"
-  - "strukturcheck"
-  - "unterthema"
-  - "zeitstempel-in-logs-nutzen-v113"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Zeitstempel in Logs nutzen**.

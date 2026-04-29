@@ -1,45 +1,19 @@
 ---
-title: Labels und Placeholder unterscheiden
-description: Verstehe, warum ein sichtbares Label die eigentliche Feldbeschriftung ist und warum Placeholder diese Aufgabe nicht zuverlässig ersetzt.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - formulare-und-eingaben
-  - labels-und-placeholder-unterscheiden
-learningGoals:
-  - Du erklärst den Unterschied zwischen Label und Placeholder.
-  - Du beschreibst, warum Placeholder keine vollständige Feldbeschriftung ersetzt.
-  - Du planst Formularfelder eher über Fragen und Beschriftungen als über graue Beispieltexte.
-practiceIdeas:
-  - Vergleiche ein Feld mit sichtbarem Label und ein Feld nur mit Placeholder.
-  - Prüfe bei Formularen, welche Information dauerhaft sichtbar bleiben muss.
-  - Lies Placeholder als Ergänzung und nicht als Hauptbeschriftung.
-commonMistakes:
-  - Placeholder mit echter Beschriftung zu verwechseln.
-  - zu glauben, dass ein grauer Beispieltext für Orientierung ausreicht.
-  - Formulare zuerst nach Optik statt nach verständlichen Fragen zu bauen.
-keyTakeaways:
-  - Ein Label benennt das Feld dauerhaft und klar.
-  - Placeholder kann ergänzen, ersetzt aber keine richtige Beschriftung.
-  - Gute Formulare beginnen mit verständlichen Fragen und nicht mit Designtricks.
-recognizeSignals:
-  - Es geht um Formulare, Eingabefelder, Beschriftung oder graue Beispieltexte.
-  - Du sollst erklären, warum ein Feld ohne sichtbares Label problematisch wird.
-  - In Beispielen wird ein Formular sichtbar unklar, obwohl ein Placeholder vorhanden ist.
-selfCheckPoints:
-  - Kann ich Label und Placeholder sauber unterscheiden?
-  - Kann ich erklären, warum Beschriftung dauerhaft sichtbar bleiben sollte?
-  - Kann ich formulieren, wann ein Placeholder sinnvoll ergänzt, aber nicht trägt?
-tags:
-  - html
-  - form
-  - label
-  - placeholder
-level: einfach
+title: "Labels und Placeholder unterscheiden"
+description: "Verstehe, warum ein sichtbares Label die eigentliche Feldbeschriftung ist und warum Placeholder diese Aufgabe nicht zuverlässig ersetzt."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "labels-und-placeholder-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Formularfeld braucht eine **klare Frage**. Diese Frage wird durch ein sichtbares `label` gestellt. Ein Placeholder im Feld kann helfen, ist aber etwas anderes: Er ist eher ein kurzer Hinweis oder ein Beispiel im Eingabebereich.

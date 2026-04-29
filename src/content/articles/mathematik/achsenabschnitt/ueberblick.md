@@ -3,32 +3,17 @@ title: "Achsenabschnitt"
 description: "Allgemeiner Überblick über achsenabschnitt und die wichtigsten Zusammenhänge."
 subject: "mathematik"
 section: "Lineare Funktionen"
-topicPath:
-  - "achsenabschnitt"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["achsenabschnitt", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird der Wert bei x gleich null interpretiert, obwohl er im Modell keinen Sinn ergibt."
-keyTakeaways:
-  - "Achsenabschnitte verbinden Graphen und Formeln mit Startwerten."
-  - "Der Achsenabschnitt ist nicht dasselbe wie die Steigung; er beschreibt Lage, nicht Änderung."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "mathematik"
-  - "funktionen"
-  - "achsenabschnitt"
-  - "graph"
+tags: ["mathematik", "Lineare Funktionen"]
 draft: false
 ---
-
 # Achsenabschnitt
 
 ![Schaubild zum Achsenabschnitt.](/schlaufuchs-platform/images/overviews/v149/achsenabschnitt.svg)

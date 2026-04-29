@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Variablen, Zustand und Speicher"
 description: "Verstehe, wie Programme Werte über Namen festhalten und wie Zustand dadurch entsteht."
-subject: informatik
+subject: "informatik"
 section: "programmablauf-und-steuerung"
-topicPath:
-  - "programmablauf-und-steuerung"
-  - "variablen-zustand-und-speicher"
-learningGoals:
-  - "Du erklärst die Grundidee von Variablen, Zustand und Speicher in eigenen Worten."
-  - "Du ordnest typische Begriffe und Teilaspekte fachlich richtig ein."
-  - "Du erkennst, welche Detailseiten, Aufgaben oder Fehlerbilder zum Thema passen."
-practiceIdeas:
-  - "Beschreibe ein eigenes Beispiel und markiere die wichtigsten Begriffe."
-  - "Vergleiche die Übersicht mit einer konkreten Aufgabe zum gleichen Thema."
-commonMistakes:
-  - "Ein einzelnes Beispiel für das gesamte Thema zu halten."
-  - "Begriffe zu vermischen, die unterschiedliche Rollen haben."
-  - "Direkt mit Spezialfällen zu beginnen, bevor die Grundidee klar ist."
-keyTakeaways:
-  - "Variablen geben Werten im Programm einen Namen."
-  - "Zustand entsteht, wenn Werte über Schritte hinweg erhalten bleiben oder verändert werden."
-  - "Gerade Zustandsänderungen erklären viele Fehler und Abläufe."
-recognizeSignals:
-  - "Du suchst zuerst eine allgemeine Einordnung statt eines Einzelfalls."
-  - "Mehrere Detailseiten wirken ähnlich und sollen fachlich sortiert werden."
-selfCheckPoints:
-  - "Kann ich das Thema in zwei bis drei Sätzen allgemein erklären?"
-  - "Kann ich die wichtigsten Teilaspekte voneinander unterscheiden?"
-level: einfach
-tags:
-  - "informatik"
-  - "variablen"
-  - "zustand"
+topicPath: ["programmablauf-und-steuerung", "variablen-zustand-und-speicher", "ueberblick", "grundlagen-variablen-zustand-und-speicher"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "programmablauf-und-steuerung"]
 draft: false
 ---
-
 ![Zustand über Variablen](/schlaufuchs-platform/images/overviews/v184/variablen-zustand-und-speicher.svg)
 
 ## Begriff

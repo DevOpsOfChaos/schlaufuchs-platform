@@ -3,24 +3,12 @@ title: "Lösung: Dateipfade plattformneutral denken: Aufgabe B"
 description: "Musterlösung zur Aufgabe informatik-v193-025b im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "projektstruktur-und-codepflege"
-  - "dateipfade-plattformneutral-denken"
-  - "loesung-b"
+topicPath: ["sanierung-v193", "dateipfade-plattformneutral-denken-loesung-b"]
 taskId: "informatik-v193-025b"
 relatedExercise: "informatik/sanierung-v193/dateipfade-plattformneutral-denken-aufgabe-b"
-tags:
-  - "dateipfade"
-  - "plattformneutral"
-  - "denken"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-025b`
 
 Ausgangsauftrag: Übertrage das Thema Dateipfade plattformneutral denken auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

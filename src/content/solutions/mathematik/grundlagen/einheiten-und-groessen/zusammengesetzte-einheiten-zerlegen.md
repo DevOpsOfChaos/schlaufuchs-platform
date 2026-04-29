@@ -3,21 +3,12 @@ title: "Lösung – Zusammengesetzte Einheiten zerlegen"
 description: "Musterlösung zu zusammengesetzte einheiten zerlegen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "grundlagen"
-  - "einheiten-und-groessen"
-  - "zusammengesetzte-einheiten-zerlegen"
+topicPath: ["grundlagen", "einheiten-und-groessen", "zusammengesetzte-einheiten-zerlegen"]
 taskId: "v112-mathematik-zusammengesetzte-einheiten-zerlegen"
 relatedExercise: "mathematik/grundlagen/einheiten-und-groessen/zusammengesetzte-einheiten-zerlegen"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "grundlagen"
-  - "zusammengesetzte-einheiten-zerlegen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Einheiten und Größen**.

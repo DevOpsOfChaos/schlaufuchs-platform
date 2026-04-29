@@ -1,36 +1,19 @@
 ---
 title: "sort, uniq und cut"
 description: "sort, uniq und cut sind klassische Textwerkzeuge, um Zeilen zu ordnen, Duplikate zusammenzufassen und Spalten oder Zeichenbereiche auszuschneiden."
-subject: linux
+subject: "linux"
 section: "Textwerkzeuge"
-topicPath:
-  - "sort-uniq-und-cut"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst sort, uniq und cut als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["sort-uniq-und-cut", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird uniq ohne vorheriges sort genutzt und dadurch nur ein Teil der Duplikate erkannt."
-keyTakeaways:
-  - "sort, uniq und cut sind klassische Textwerkzeuge, um Zeilen zu ordnen, Duplikate zusammenzufassen und Spalten oder Zeichenbereiche auszuschneiden."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um sort, uniq und cut, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich sort, uniq und cut in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "text"
-  - "shell"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Textwerkzeuge"]
 draft: false
 ---
-
 # sort, uniq und cut
 
 sort, uniq und cut sind klassische Textwerkzeuge, um Zeilen zu ordnen, Duplikate

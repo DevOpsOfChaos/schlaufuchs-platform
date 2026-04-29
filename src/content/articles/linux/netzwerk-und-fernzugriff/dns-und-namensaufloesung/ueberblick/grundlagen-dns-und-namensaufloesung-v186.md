@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: DNS und Namensauflösung"
 description: "Verstehe, wie Namen zu Adressen aufgelöst werden und wo Fehler entstehen können."
-subject: linux
+subject: "linux"
 section: "netzwerk-und-fernzugriff"
-topicPath:
-  - "netzwerk-und-fernzugriff"
-  - "dns-und-namensaufloesung"
-learningGoals:
-  - "Du erklärst DNS und Namensauflösung in eigenen Worten."
-  - "Du ordnest typische Befehle, Begriffe oder Prüfschritte richtig ein."
-  - "Du erkennst typische Grenzen und Fehlerquellen im Linux-Alltag."
-practiceIdeas:
-  - "Beschreibe eine kleine Alltagssituation zu diesem Thema."
-  - "Markiere, welche Information zuerst geprüft werden muss."
-commonMistakes:
-  - "Ein einzelnes Kommando für das ganze Thema zu halten."
-  - "Ausgabe, Zustand und Ursache zu vermischen."
-  - "Ohne Kontext direkt an Sonderfälle zu springen."
-keyTakeaways:
-  - "DNS übersetzt Namen in Adressen und weitere Informationen."
-  - "Caches und Resolver beeinflussen, welches Ergebnis sichtbar wird."
-  - "Namensauflösung ist ein eigener Prüfschritt vor Verbindungsdiagnose."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung statt nur eines Befehlsrezepts."
-  - "Mehrere ähnliche Befehle oder Dateien wirken unklar."
-selfCheckPoints:
-  - "Kann ich Zweck, Kontext und typischen Prüfschritt unterscheiden?"
-  - "Kann ich eine einfache Fehlannahme zum Thema benennen?"
-level: mittel
-tags:
-  - "linux"
-  - "dns"
-  - "netzwerk"
+topicPath: ["netzwerk-und-fernzugriff", "dns-und-namensaufloesung", "ueberblick", "grundlagen-dns-und-namensaufloesung-v186"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["linux", "netzwerk-und-fernzugriff"]
 draft: false
 ---
-
 ![DNS und Namensauflösung](/schlaufuchs-platform/images/overviews/v186/dns-und-namensaufloesung.svg)
 
 ## Begriff

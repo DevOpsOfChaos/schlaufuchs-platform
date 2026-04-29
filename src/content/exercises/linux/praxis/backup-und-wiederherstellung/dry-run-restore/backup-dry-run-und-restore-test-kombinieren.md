@@ -3,35 +3,15 @@ title: "Aufgabe – Backup-Dry-run und Restore-Test kombinieren"
 description: "Übe Dry-run und Restore-Test mit einem kleinen Szenario, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "Praxis"
-topicPath:
-  - "praxis"
-  - "backup-und-wiederherstellung"
-  - "dry-run-restore"
-  - "backup-dry-run-und-restore-test-kombinieren"
+topicPath: ["praxis", "backup-und-wiederherstellung", "dry-run-restore", "backup-dry-run-und-restore-test-kombinieren"]
 taskId: "v109-linux-backup-dry-run-und-restore-test-kombinieren"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "praxis"
-  - "backup-und-wiederherstellung"
-  - "dry-run und restore-test"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Übertrage den Prüfschritt auf ein Nachbarthema und nenne den Unterschied."
-reflectionPrompt: "Welche kleine Trennkante macht Dry-run und Restore-Test übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["linux", "Praxis", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Dry-run und Restore-Test**.

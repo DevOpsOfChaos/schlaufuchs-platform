@@ -1,27 +1,17 @@
 ---
 title: "Suchverfahren vergleichen ruhig einordnen"
 description: "Übe Suchverfahren vergleichen mit Begriffen, Beispielen und typischen Prüfungen."
-subject: informatik
+subject: "informatik"
 section: "Algorithmen klein begründen"
-topicPath:
-  - "algorithmen-klein-begruenden"
-  - "suchverfahren"
-taskId: INF-V183-03-A
-tags:
-  - "informatik"
-  - "suchverfahren"
-hintPoints:
-  - "Beginne mit der allgemeinen Idee."
-  - "Trenne Begriff, Beispiel und Fehlerquelle."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe sauber unterscheiden."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel aus einem anderen Informatikthema."
-reflectionPrompt: "Welche Unterscheidung war hier am wichtigsten?"
-level: mittel
+topicPath: ["algorithmen-klein-begruenden", "suchverfahren", "suchverfahren-ruhig-einordnen-v183"]
+taskId: "INF-V183-03-A"
+tags: ["informatik", "Algorithmen klein begründen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Suchverfahren vergleichen**.
 
 ## Aufgabe 1 – Begriffe klären

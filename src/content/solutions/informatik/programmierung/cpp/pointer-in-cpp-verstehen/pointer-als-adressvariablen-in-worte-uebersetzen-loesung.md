@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – Pointer als Adressvariablen in Worte übersetzen
-description: Musterlösung zur Aufgabe INF-PROG-CPP-PTR-001.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - pointer-und-adressen
-  - pointer-in-cpp-verstehen
-  - pointer-als-adressvariablen-in-worte-uebersetzen-loesung
-taskId: INF-PROG-CPP-PTR-001
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/pointer-in-cpp-verstehen/pointer-als-adressvariablen-in-worte-uebersetzen.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – Pointer als Adressvariablen in Worte übersetzen"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-PTR-001."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "pointer-in-cpp-verstehen", "pointer-als-adressvariablen-in-worte-uebersetzen"]
+taskId: "INF-PROG-CPP-PTR-001"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/pointer-in-cpp-verstehen/pointer-als-adressvariablen-in-worte-uebersetzen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Rollen benennen
 
 - <code>varA</code> ist die eigentliche Variable mit Nutzwert.

@@ -3,23 +3,12 @@ title: "Lösung: Box-Modell, Abstände und Größen: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-011a im Web-Development-Block v187."
 subject: "web-development"
 section: "css"
-topicPath: 
-  - "css-und-layout"
-  - "box-modell"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "box-modell-abstaende-und-groessen-aufgabe-a"]
 taskId: "web-v187-011a"
 relatedExercise: "web-development/sanierung-v187/box-modell-abstaende-und-groessen-aufgabe-a"
-tags: 
-  - "css"
-  - "box-modell"
-  - "abstand"
-  - "layout"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "css", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-011a`
 
     Ausgangsauftrag: Markiere an drei Elementen Content, Padding, Border und Margin.

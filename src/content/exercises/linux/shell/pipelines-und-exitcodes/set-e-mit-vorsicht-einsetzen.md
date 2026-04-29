@@ -3,33 +3,15 @@ title: "Aufgabe – set -e mit Vorsicht einsetzen"
 description: "Übe set -e mit vorsicht einsetzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "pipelines-und-exitcodes"
-  - "set-e-mit-vorsicht-einsetzen"
+topicPath: ["shell", "pipelines-und-exitcodes", "set-e-mit-vorsicht-einsetzen"]
 taskId: "v112-linux-set-e-mit-vorsicht-einsetzen"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "set-e-mit-vorsicht-einsetzen"
-hintPoints:
-  - "Benenne zuerst das kleine Unterthema."
-  - "Prüfe bewusst den Unterschied zum Fehler: set -e wird als vollständige Fehlerbehandlung betrachtet."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Einordnung enger als nur der breite Fachbereich?"
-  - "Wird der typische Fehler ausdrücklich ausgeschlossen?"
-  - "Passt die Lösung zur Wissensseite?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Begriff und prüfe, ob die gleiche Strategie gilt."
-  - "Erkläre die Lösung einmal alltagssprachlich und danach fachlich sauber."
-reflectionPrompt: "Was war bei „set -e mit Vorsicht einsetzen“ die wichtigste Trennkante?"
+tags: ["linux", "Feinstruktur Linux", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation:

@@ -3,23 +3,12 @@ title: "Lösung – Innenwiderstand als Messfehlerquelle einordnen"
 description: "Musterlösung zu Innenwiderstand mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "grundlagen"
-  - "spannung-strom-widerstand"
-  - "innenwiderstand"
-  - "innenwiderstand-als-messfehlerquelle-einordnen"
+topicPath: ["grundlagen", "spannung-strom-widerstand", "innenwiderstand", "innenwiderstand-als-messfehlerquelle-einordnen"]
 taskId: "v111-elektrotechnik-innenwiderstand-als-messfehlerquelle-einordnen"
 relatedExercise: "elektrotechnik/grundlagen/spannung-strom-widerstand/innenwiderstand/innenwiderstand-als-messfehlerquelle-einordnen"
-tags:
-  - "elektrotechnik"
-  - "praxis"
-  - "unterthema"
-  - "grundlagen"
-  - "spannung-strom-widerstand"
-  - "innenwiderstand-als-messfehlerquelle-einordnen"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Innenwiderstand**.

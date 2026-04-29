@@ -3,23 +3,12 @@ title: "Lösung – Leistung im Widerstand vor Bauteilwahl prüfen"
 description: "Musterlösung zu Leistung im Widerstand vor Bauteilwahl prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Grundschaltungen"
-topicPath:
-  - "grundschaltungen"
-  - "spannung-strom-widerstand"
-  - "v110-teil-3"
-  - "leistung-im-widerstand-vor-bauteilwahl-pruefen"
+topicPath: ["grundschaltungen", "spannung-strom-widerstand", "v110-teil-3", "leistung-im-widerstand-vor-bauteilwahl-pruefen"]
 taskId: "v110-elektrotechnik-leistung-im-widerstand-vor-bauteilwahl-pruefen"
 relatedExercise: "elektrotechnik/grundschaltungen/spannung-strom-widerstand/v110-teil-3/leistung-im-widerstand-vor-bauteilwahl-pruefen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "grundschaltungen"
-  - "spannung-strom-widerstand"
-  - "leistung-im-widerstand-vor-bauteilwahl-pruefen"
+tags: ["elektrotechnik", "Grundschaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Leistung im Widerstand vor Bauteilwahl prüfen**.

@@ -3,21 +3,12 @@ title: "Lösung – Pegel und Flanke unterscheiden"
 description: "Musterlösung zu pegel und flanke unterscheiden mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "signale-und-codierung"
-  - "pegel-und-flanke-unterscheiden"
+topicPath: ["daten-und-signale", "signale-und-codierung", "pegel-und-flanke-unterscheiden"]
 taskId: "v112-elektrotechnik-pegel-und-flanke-unterscheiden"
 relatedExercise: "elektrotechnik/daten-und-signale/signale-und-codierung/pegel-und-flanke-unterscheiden"
-tags:
-  - "elektrotechnik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-signale"
-  - "pegel-und-flanke-unterscheiden"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Signale und Codierung**.

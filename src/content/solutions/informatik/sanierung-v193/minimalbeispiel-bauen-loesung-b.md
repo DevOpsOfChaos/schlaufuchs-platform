@@ -3,23 +3,12 @@ title: "Lösung: Minimalbeispiel bauen: Aufgabe B"
 description: "Musterlösung zur Aufgabe informatik-v193-013b im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "debugging-und-diagnose"
-  - "minimalbeispiel-bauen"
-  - "loesung-b"
+topicPath: ["sanierung-v193", "minimalbeispiel-bauen-loesung-b"]
 taskId: "informatik-v193-013b"
 relatedExercise: "informatik/sanierung-v193/minimalbeispiel-bauen-aufgabe-b"
-tags:
-  - "minimalbeispiel"
-  - "bauen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-013b`
 
 Ausgangsauftrag: Übertrage das Thema Minimalbeispiel bauen auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

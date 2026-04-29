@@ -1,24 +1,14 @@
 ---
-title: Musterlösung – CTC-Tick als Zeitraster am AVR ruhig erklären
-description: Musterlösung zur Aufgabe ET-ATM-TMR-301.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - timer-und-zeitverhalten
-  - atmega-timer-ctc-als-zeitbasis-verstehen
-  - ctc-tick-als-zeitraster-am-avr-ruhig-erklaeren-loesung
-taskId: ET-ATM-TMR-301
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-timer-ctc-als-zeitbasis-verstehen/ctc-tick-als-zeitraster-am-avr-ruhig-erklaeren.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – CTC-Tick als Zeitraster am AVR ruhig erklären"
+description: "Musterlösung zur Aufgabe ET-ATM-TMR-301."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-timer-ctc-als-zeitbasis-verstehen", "ctc-tick-als-zeitraster-am-avr-ruhig-erklaeren"]
+taskId: "ET-ATM-TMR-301"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-timer-ctc-als-zeitbasis-verstehen/ctc-tick-als-zeitraster-am-avr-ruhig-erklaeren.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Der CTC-Modus passt gut zu periodischen Aufgaben, weil er einen wiederkehrenden Vergleichspunkt liefert. Daraus kann ein klarer Tick entstehen, an dem regelmäßig Aufgaben geprüft oder ausgelöst werden. Der Timer wird damit nicht nur zum Zählen genutzt, sondern als geordnete Zeitbasis. Das ist besonders nützlich, wenn Abläufe in festen Abständen stattfinden sollen.

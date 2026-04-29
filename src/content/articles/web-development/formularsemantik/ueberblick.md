@@ -1,35 +1,17 @@
 ---
 title: "Formularsemantik"
 description: "Überblick über semantische HTML-Formulare, ihre Struktur und Bedeutung für Bedienbarkeit und Barrierefreiheit."
-subject: web-development
+subject: "web-development"
 section: "HTML und Semantik"
-topicPath:
-  - "formularsemantik"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Formularsemantik als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["formularsemantik", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Platzhalter als Ersatz für Labels verwendet. Das verschlechtert Orientierung und Zugänglichkeit."
-keyTakeaways:
-  - "Formularsemantik beschreibt, wie Eingabefelder, Labels, Gruppen, Hinweise und Fehlermeldungen sinnvoll mit HTML ausgezeichnet werden."
-  - "Sie macht Formulare für Browser, Assistenztechnologien, Tastaturbedienung und automatische Ausfüllhilfen verständlich."
-  - "Semantik ersetzt kein gutes Formular-Design und keine serverseitige Prüfung. Sie ist aber die Grundlage, auf der viele Hilfen funktionieren."
-recognizeSignals:
-  - "Es geht um Formularsemantik, wenn labels verbinden sichtbaren Text eindeutig mit einem Eingabefeld."
-  - "Das Thema wird relevant, wenn Beispiele wie eine Radiogruppe für Versandarten wird mit fieldset und legend verständlicher als mit lose angeordneten Eingaben."
-selfCheckPoints:
-  - "Kann ich Formularsemantik in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "web development"
-  - "html"
-  - "formulare"
-  - "barrierefreiheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML und Semantik"]
 draft: false
 ---
 # Formularsemantik

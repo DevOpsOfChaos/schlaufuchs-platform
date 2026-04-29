@@ -1,33 +1,19 @@
 ---
 title: "WebSockets"
 description: "WebSockets ermöglichen eine dauerhafte bidirektionale Verbindung zwischen Browser und Server. Sie eignen sich für Anwendungen mit laufenden Aktualisierungen."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "websockets"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von WebSockets."
-  - "Du kannst WebSockets in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["websockets", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "WebSockets als Ersatz für alle normalen Abrufe zu verwenden."
-keyTakeaways:
-  - "WebSockets ermöglichen eine dauerhafte bidirektionale Verbindung zwischen Browser und Server."
-  - "Wichtig sind vor allem handshake über http, dauerhafte verbindung und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um WebSockets, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu WebSockets dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "web development"
-  - "grundlagen"
-  - "websockets"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # WebSockets
 
 ![Schaubild zu WebSockets.](/schlaufuchs-platform/images/overviews/v149/websockets.svg)

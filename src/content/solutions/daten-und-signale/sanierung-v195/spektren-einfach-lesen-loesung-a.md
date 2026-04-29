@@ -3,25 +3,12 @@ title: "Lösung: Spektren einfach lesen: Aufgabe A"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-023a im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "signalverarbeitung"
-  - "spektren-einfach-lesen"
-  - "loesung-a"
-
+topicPath: ["sanierung-v195", "spektren-einfach-lesen-loesung-a"]
 taskId: "daten-und-signale-v195-023a"
 relatedExercise: "daten-und-signale/sanierung-v195/spektren-einfach-lesen-aufgabe-a"
-tags:
-  - "spektren"
-  - "einfach"
-  - "lesen"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-023a`
 
 Ausgangsauftrag: Beschreibe ein einfaches Spektrum mit Grundton und Störanteil.

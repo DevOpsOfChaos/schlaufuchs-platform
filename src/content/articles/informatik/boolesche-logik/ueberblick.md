@@ -1,31 +1,17 @@
 ---
 title: "Boolesche Logik"
 description: "Allgemeiner Überblick über Wahrheitswerte, logische Operatoren und Entscheidungen in der Informatik."
-subject: informatik
+subject: "informatik"
 section: "Grundlagen"
-topicPath:
-  - "boolesche-logik"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Boolesche Logik grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["boolesche-logik", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Boolesche Logik nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Boolesche Logik beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Boolesche Logik, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Boolesche Logik in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "logik"
-  - "boolesch"
-  - "grundlagen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Grundlagen"]
 draft: false
 ---
 # Boolesche Logik

@@ -3,22 +3,12 @@ title: "Lösung: Amplitude, Frequenz und Phase: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe dat-v189-038b."
 subject: "daten-und-signale"
 section: "analyse"
-topicPath:
-  - "analyse"
-  - "amplitude-frequenz-und-phase"
-  - "loesung-b"
+topicPath: ["sanierung-v189", "amplitude-frequenz-und-phase-aufgabe-b"]
 taskId: "dat-v189-038b"
 relatedExercise: "daten-und-signale/sanierung-v189/amplitude-frequenz-und-phase-aufgabe-b"
-tags:
-  - "amplitude"
-  - "frequenz"
-  - "phase"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "analyse", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-038b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

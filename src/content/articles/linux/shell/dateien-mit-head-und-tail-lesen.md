@@ -1,44 +1,19 @@
 ---
-title: Dateien mit head und tail lesen
-description: Verstehe, wie du den Anfang oder das Ende einer Datei gezielt ansiehst, statt immer den gesamten Inhalt zu öffnen.
-subject: linux
-section: Shell
-topicPath:
-  - shell
-  - dateien-mit-head-und-tail
-tags:
-  - linux
-  - head
-  - tail
-  - datei
-learningGoals:
-  - "Du erklärst den Unterschied zwischen head, tail und cat."
-  - "Du liest gezielt den Anfang oder das Ende einer Datei."
-  - "Du ordnest head und tail als Werkzeuge für schnelle Orientierung ein."
-practiceIdeas:
-  - "Vergleiche dieselbe Datei mit cat, head und tail."
-  - "Prüfe bewusst, wann nur ein Ausschnitt statt der ganzen Datei sinnvoll ist."
-  - "Nutze kleine Log- oder Listenbeispiele, um Anfang und Ende zu lesen."
-commonMistakes:
-  - "Immer die ganze Datei mit cat lesen zu wollen."
-  - "head und tail nur als Varianten von cat zu sehen."
-  - "Zu übersehen, dass Anfang und Ende oft unterschiedliche Informationen zeigen."
-keyTakeaways:
-  - "head zeigt den Anfang einer Datei."
-  - "tail zeigt das Ende einer Datei."
-  - "Beide helfen bei schneller Orientierung ohne Vollausgabe."
-recognizeSignals:
-  - "Es geht um Dateiausschnitte, Logdateien, Listen oder schnelle Orientierung."
-  - "Du sollst entscheiden, welches Werkzeug für Anfang oder Ende passt."
-  - "Ein Beispiel fragt, warum nicht immer die ganze Datei nötig ist."
-selfCheckPoints:
-  - "Kann ich den Zweck von head und tail sauber unterscheiden?"
-  - "Kann ich erklären, wann cat zu viel Ausgabe erzeugt?"
-  - "Kann ich für ein Beispiel das passende Werkzeug begründen?"
-level: einfach
+title: "Dateien mit head und tail lesen"
+description: "Verstehe, wie du den Anfang oder das Ende einer Datei gezielt ansiehst, statt immer den gesamten Inhalt zu öffnen."
+subject: "linux"
+section: "Shell"
+topicPath: ["shell", "dateien-mit-head-und-tail-lesen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
-
 ## Warum dieses Thema wichtig ist
 
 Viele Dateien sind so aufgebaut, dass du für den ersten Überblick nicht alles lesen musst. Oft reichen der Anfang oder das Ende, um Struktur, Überschrift oder letzte Einträge zu erkennen.

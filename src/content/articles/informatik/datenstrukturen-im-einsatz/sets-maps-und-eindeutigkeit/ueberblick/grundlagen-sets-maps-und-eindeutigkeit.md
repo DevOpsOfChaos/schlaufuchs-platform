@@ -1,35 +1,19 @@
 ---
 title: "Grundlagen: Sets, Maps und Eindeutigkeit"
 description: "Sets sichern Eindeutigkeit, Maps verbinden eindeutige Schlüssel mit Werten."
-subject: informatik
+subject: "informatik"
 section: "Datenstrukturen im Einsatz"
-topicPath:
-  - "datenstrukturen-im-einsatz"
-  - "sets-maps-und-eindeutigkeit"
-  - "ueberblick"
-learningGoals:
-  - "Du ordnest Sets, Maps und Eindeutigkeit fachlich ein."
-  - "Du unterscheidest zentrale Begriffe und typische Rollen."
-  - "Du erkennst häufige Fehler beim Anwenden."
-practiceIdeas:
-  - "Formuliere die Grundidee in zwei Sätzen."
-  - "Ordne ein Beispiel den wichtigsten Begriffen zu."
-commonMistakes:
-  - "Eine Liste zu verwenden, obwohl Eindeutigkeit oder Schlüsselzugriff fachlich wichtiger wäre."
-keyTakeaways:
-  - "Sets sichern Eindeutigkeit, Maps verbinden eindeutige Schlüssel mit Werten."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung vor einer Einzelfalllösung."
-selfCheckPoints:
-  - "Kann ich die Grundbegriffe voneinander unterscheiden?"
-level: mittel
-tags:
-  - "informatik"
-  - "datenstrukturen-im-einsatz"
-  - "sets-maps-und-eindeutigkeit"
+topicPath: ["datenstrukturen-im-einsatz", "sets-maps-und-eindeutigkeit", "ueberblick", "grundlagen-sets-maps-und-eindeutigkeit"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Datenstrukturen im Einsatz"]
 draft: false
 ---
-
 ![Schaubild zu Sets, Maps und Eindeutigkeit](/schlaufuchs-platform/images/overviews/v183/informatik-sets-maps-und-eindeutigkeit.svg)
 
 ## Begriff

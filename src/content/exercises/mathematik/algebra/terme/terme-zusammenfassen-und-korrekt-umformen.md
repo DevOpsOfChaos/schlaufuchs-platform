@@ -1,12 +1,17 @@
 ---
-title: Terme zusammenfassen und korrekt umformen
-description: Diese Aufgabe vertieft den sicheren Umgang mit gleichartigen Termen, Klammern und einfachen Äquivalenzumformungen.
-subject: mathematik
-section: Algebra
-level: mittel
+title: "Terme zusammenfassen und korrekt umformen"
+description: "Diese Aufgabe vertieft den sicheren Umgang mit gleichartigen Termen, Klammern und einfachen Äquivalenzumformungen."
+subject: "mathematik"
+section: "Algebra"
+topicPath: ["algebra", "terme", "terme-zusammenfassen-und-korrekt-umformen"]
+taskId: "AUTO-TERME-ZUSAMMENFASSEN-UND-KORREKT-UMFORMEN"
+tags: ["mathematik", "Algebra", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben sauber und notiere Zwischenschritte. Achte besonders darauf, was ein Term ist und was bereits eine Gleichung ist.

@@ -3,33 +3,15 @@ title: "Aufgabe – Oszilloskopbild ruhig lesen"
 description: "Übe oszilloskopbild ruhig lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "messen-und-fehler"
-  - "oszilloskopbild-ruhig-lesen"
+topicPath: ["daten-und-signale", "messen-und-fehler", "oszilloskopbild-ruhig-lesen"]
 taskId: "v112-elektrotechnik-oszilloskopbild-ruhig-lesen"
-tags:
-  - "elektrotechnik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-signale"
-  - "oszilloskopbild-ruhig-lesen"
-hintPoints:
-  - "Benenne zuerst das kleine Unterthema."
-  - "Prüfe bewusst den Unterschied zum Fehler: Nur die Kurvenform wird betrachtet."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Einordnung enger als nur der breite Fachbereich?"
-  - "Wird der typische Fehler ausdrücklich ausgeschlossen?"
-  - "Passt die Lösung zur Wissensseite?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Begriff und prüfe, ob die gleiche Strategie gilt."
-  - "Erkläre die Lösung einmal alltagssprachlich und danach fachlich sauber."
-reflectionPrompt: "Was war bei „Oszilloskopbild ruhig lesen“ die wichtigste Trennkante?"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation:

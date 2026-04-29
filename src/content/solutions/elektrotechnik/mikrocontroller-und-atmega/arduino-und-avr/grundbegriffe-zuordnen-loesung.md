@@ -1,22 +1,14 @@
 ---
 title: "Lösung: Arduino und AVR: Grundbegriffe zuordnen"
 description: "Musterlösung zu: Arduino und AVR: Grundbegriffe zuordnen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "arduino-und-avr"
+topicPath: ["mikrocontroller-und-atmega", "arduino-und-avr", "grundbegriffe-zuordnen"]
 taskId: "ET-MCU-ARDUINO-179-001"
 relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/arduino-und-avr/grundbegriffe-zuordnen.md"
-tags:
-  - "elektrotechnik"
-  - "arduino"
-  - "avr"
-  - "mikrocontroller"
-  - "loesung"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
 ## Lösungsgedanke
 
 Diese Musterlösung trennt zuerst Begriff, Schaltungszusammenhang und Begründung. Dadurch wird nicht nur ein Ergebnis genannt, sondern der fachliche Weg sichtbar.

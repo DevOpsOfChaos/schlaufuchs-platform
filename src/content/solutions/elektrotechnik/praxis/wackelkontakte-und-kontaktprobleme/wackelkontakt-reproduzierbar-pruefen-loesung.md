@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Wackelkontakt reproduzierbar prüfen"
 description: "Musterlösung zur Aufgabe: Wackelkontakt reproduzierbar prüfen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - praxis
-  - wackelkontakte-und-kontaktprobleme
-taskId: ET-V182-003
-relatedExercise: src/content/exercises/elektrotechnik/praxis/wackelkontakte-und-kontaktprobleme/wackelkontakt-reproduzierbar-pruefen.md
-tags:
-  - elektrotechnik
-  - wackelkontakte-und-kontaktprobleme
-  - loesung
-  - sanierung-v182
+topicPath: ["praxis", "wackelkontakte-und-kontaktprobleme", "wackelkontakt-reproduzierbar-pruefen"]
+taskId: "ET-V182-003"
+relatedExercise: "src/content/exercises/elektrotechnik/praxis/wackelkontakte-und-kontaktprobleme/wackelkontakt-reproduzierbar-pruefen.md"
+tags: ["elektrotechnik", "Praxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

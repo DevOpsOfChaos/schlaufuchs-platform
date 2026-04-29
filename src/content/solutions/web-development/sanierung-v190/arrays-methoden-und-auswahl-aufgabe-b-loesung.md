@@ -3,24 +3,12 @@ title: "Lösung: Arrays, Methoden und Auswahl: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-v190-007b im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "daten-im-frontend"
-  - "arrays-methoden-und-auswahl"
-  - "loesung-b"
+topicPath: ["sanierung-v190", "arrays-methoden-und-auswahl-aufgabe-b"]
 taskId: "web-v190-007b"
 relatedExercise: "web-development/sanierung-v190/arrays-methoden-und-auswahl-aufgabe-b"
-tags:
-  - "daten-im-frontend"
-  - "arrays"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-007b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Arrays, Methoden und Auswahl“ um einen Fehlerfall, eine Abnahmebedingung und eine kurze Begründung.

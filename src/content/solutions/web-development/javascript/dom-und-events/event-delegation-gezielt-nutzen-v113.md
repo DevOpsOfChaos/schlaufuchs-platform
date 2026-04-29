@@ -3,20 +3,12 @@ title: "Lösung – Event Delegation gezielt nutzen"
 description: "Musterlösung zu Event Delegation gezielt nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "javascript"
-  - "dom-und-events"
-  - "event-delegation-gezielt-nutzen-v113"
+topicPath: ["javascript", "dom-und-events", "event-delegation-gezielt-nutzen-v113"]
 taskId: "v113-web-development-event-delegation-gezielt-nutzen-v113"
 relatedExercise: "web-development/javascript/dom-und-events/event-delegation-gezielt-nutzen-v113"
-tags:
-  - "web development"
-  - "strukturcheck"
-  - "unterthema"
-  - "event-delegation-gezielt-nutzen-v113"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Event Delegation gezielt nutzen**.

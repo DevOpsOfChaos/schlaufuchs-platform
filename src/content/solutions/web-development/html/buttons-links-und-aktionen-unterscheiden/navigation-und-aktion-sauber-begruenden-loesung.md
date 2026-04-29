@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – Navigation und Aktion sauber begründen
-description: Erste festgehaltene Musterlösung zur Aufgabe WEB-HTML-AKTIONEN-001.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - linktexte-und-links
-  - buttons-links-und-aktionen-unterscheiden
-  - navigation-und-aktion-sauber-begruenden-loesung
-taskId: WEB-HTML-AKTIONEN-001
-relatedExercise: src/content/exercises/web-development/html/buttons-links-und-aktionen-unterscheiden/navigation-und-aktion-sauber-begruenden.md
-tags:
-  - web-development
-  - html
-  - buttons
-  - links
-  - loesung
-  - task-id
+title: "Musterlösung – Navigation und Aktion sauber begründen"
+description: "Erste festgehaltene Musterlösung zur Aufgabe WEB-HTML-AKTIONEN-001."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "buttons-links-und-aktionen-unterscheiden", "navigation-und-aktion-sauber-begruenden"]
+taskId: "WEB-HTML-AKTIONEN-001"
+relatedExercise: "src/content/exercises/web-development/html/buttons-links-und-aktionen-unterscheiden/navigation-und-aktion-sauber-begruenden.md"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Lösungsidee
 
 Die Kernfrage ist: Führt das Element zu einem **anderen Ort** oder löst es **hier auf derselben Oberfläche eine Handlung** aus?

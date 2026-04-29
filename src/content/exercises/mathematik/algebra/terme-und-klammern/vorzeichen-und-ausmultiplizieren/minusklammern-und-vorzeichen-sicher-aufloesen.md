@@ -3,35 +3,15 @@ title: "Aufgabe – Minusklammern und Vorzeichen sicher auflösen"
 description: "Übe Minusklammern mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Algebra"
-topicPath:
-  - "algebra"
-  - "terme-und-klammern"
-  - "vorzeichen-und-ausmultiplizieren"
-  - "minusklammern-und-vorzeichen-sicher-aufloesen"
+topicPath: ["algebra", "terme-und-klammern", "vorzeichen-und-ausmultiplizieren", "minusklammern-und-vorzeichen-sicher-aufloesen"]
 taskId: "v107-mathematik-minusklammern-und-vorzeichen-sicher-aufloesen"
-tags:
-  - "mathematik"
-  - "rechnen"
-  - "modellieren"
-  - "minusklammern"
-  - "algebra"
-  - "terme-und-klammern"
-hintPoints:
-  - "Grenze das Unterthema zuerst ein."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Formuliere eine kleine Gegenprobe."
-selfCheckPoints:
-  - "Ist das Unterthema klar benannt?"
-  - "Ist die Lösung nicht zu breit formuliert?"
-  - "Ist die Gegenprobe konkret?"
-transferIdeas:
-  - "Ändere einen Randwert und prüfe die Begründung erneut."
-  - "Erkläre die Lösung einmal als Merksatz und einmal am Beispiel."
-reflectionPrompt: "Warum hilft dir das kleine Unterthema „Minusklammern“ mehr als ein breiter Sammelbegriff?"
+tags: ["mathematik", "Algebra", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite ein kleines Szenario zu **Minusklammern**.

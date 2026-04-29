@@ -3,23 +3,12 @@ title: "Lösung – Lineare und binäre Suche nach Voraussetzung wählen"
 description: "Musterlösung zu Lineare und binäre Suche nach Voraussetzung wählen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Algorithmen"
-topicPath:
-  - "algorithmen-denken"
-  - "such-und-sortierideen"
-  - "v110-teil-1"
-  - "lineare-und-binaere-suche-nach-voraussetzung-waehlen"
+topicPath: ["algorithmen-denken", "such-und-sortierideen", "v110-teil-1", "lineare-und-binaere-suche-nach-voraussetzung-waehlen"]
 taskId: "v110-informatik-lineare-und-binaere-suche-nach-voraussetzung-waehlen"
 relatedExercise: "informatik/algorithmen-denken/such-und-sortierideen/v110-teil-1/lineare-und-binaere-suche-nach-voraussetzung-waehlen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "praxis"
-  - "algorithmen-denken"
-  - "such-und-sortierideen"
-  - "lineare-und-binaere-suche-nach-voraussetzung-waehlen"
+tags: ["informatik", "Algorithmen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Lineare und binäre Suche nach Voraussetzung wählen**.

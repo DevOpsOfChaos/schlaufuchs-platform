@@ -1,12 +1,17 @@
 ---
-title: Arduino-LED mit Taster
-description: Diese neu formulierte Bestandsaufgabe verbindet eine klassische Arduino-Grundschaltung mit ruhiger Logik und klarer Beobachtung.
-subject: elektrotechnik
-section: Mikrocontroller
-level: einfach
+title: "Arduino-LED mit Taster"
+description: "Diese neu formulierte Bestandsaufgabe verbindet eine klassische Arduino-Grundschaltung mit ruhiger Logik und klarer Beobachtung."
+subject: "elektrotechnik"
+section: "Mikrocontroller"
+topicPath: ["arduino-led-mit-taster"]
+taskId: "AUTO-ARDUINO-LED-MIT-TASTER"
+tags: ["elektrotechnik", "Mikrocontroller", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Diese Aufgabe greift eine typische klassische Einstiegssituation auf: Eine LED soll über einen Taster gesteuert werden. Ziel ist nicht nur Code, sondern auch das Verständnis der Grundidee hinter Ein- und Ausgängen.

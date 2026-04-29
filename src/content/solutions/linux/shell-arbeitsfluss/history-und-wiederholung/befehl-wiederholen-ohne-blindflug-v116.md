@@ -3,22 +3,12 @@ title: "Lösung: Befehl wiederholen ohne Blindflug"
 description: "Musterlösung zur Aufgabe „Befehl wiederholen ohne Blindflug“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "shell-arbeitsfluss"
-  - "history-und-wiederholung"
-  - "befehl-wiederholen-ohne-blindflug-v116"
+topicPath: ["shell-arbeitsfluss", "history-und-wiederholung", "befehl-wiederholen-ohne-blindflug-v116"]
 taskId: "befehl-wiederholen-ohne-blindflug-v116"
 relatedExercise: "linux/shell-arbeitsfluss/history-und-wiederholung/befehl-wiederholen-ohne-blindflug-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "history und wiederholung"
-  - "befehl wiederholen ohne blindflug"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

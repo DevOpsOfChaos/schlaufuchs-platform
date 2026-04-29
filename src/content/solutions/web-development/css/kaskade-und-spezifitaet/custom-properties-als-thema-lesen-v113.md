@@ -3,20 +3,12 @@ title: "Lösung – Custom Properties als Thema lesen"
 description: "Musterlösung zu Custom Properties als Thema lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "css"
-  - "kaskade-und-spezifitaet"
-  - "custom-properties-als-thema-lesen-v113"
+topicPath: ["css", "kaskade-und-spezifitaet", "custom-properties-als-thema-lesen-v113"]
 taskId: "v113-web-development-custom-properties-als-thema-lesen-v113"
 relatedExercise: "web-development/css/kaskade-und-spezifitaet/custom-properties-als-thema-lesen-v113"
-tags:
-  - "web development"
-  - "strukturcheck"
-  - "unterthema"
-  - "custom-properties-als-thema-lesen-v113"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Custom Properties als Thema lesen**.

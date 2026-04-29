@@ -3,24 +3,12 @@ title: "Lösung – Visuelle Regressionen in kleinen Schritten prüfen"
 description: "Musterlösung zur Aufgabe über UI-Prüfung mit Begründung und Gegenprobe."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "tests-und-review"
-  - "visuelle-regressionen-in-kleinen-schritten-pruefen"
+topicPath: ["projektpraxis", "tests-und-review", "visuelle-regressionen-in-kleinen-schritten-pruefen"]
 taskId: "v106-web-development-visuelle-regressionen-in-kleinen-schritten-pruefen"
 relatedExercise: "web-development/projektpraxis/tests-und-review/visuelle-regressionen-in-kleinen-schritten-pruefen"
-tags:
-  - "web development"
-  - "html"
-  - "css"
-  - "javascript"
-  - "ux"
-  - "ui-prüfung"
-  - "projektpraxis"
-  - "tests-und-review"
+tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Beobachtung

@@ -3,33 +3,15 @@ title: "Aufgabe – Argumente mit shift verarbeiten"
 description: "Übe argumente mit shift verarbeiten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "shellskripte"
-  - "argumente-mit-shift-verarbeiten"
+topicPath: ["shell", "shellskripte", "argumente-mit-shift-verarbeiten"]
 taskId: "v112-linux-argumente-mit-shift-verarbeiten"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "argumente-mit-shift-verarbeiten"
-hintPoints:
-  - "Benenne zuerst das kleine Unterthema."
-  - "Prüfe bewusst den Unterschied zum Fehler: Positionsparameter werden zufällig überschrieben."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Einordnung enger als nur der breite Fachbereich?"
-  - "Wird der typische Fehler ausdrücklich ausgeschlossen?"
-  - "Passt die Lösung zur Wissensseite?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Begriff und prüfe, ob die gleiche Strategie gilt."
-  - "Erkläre die Lösung einmal alltagssprachlich und danach fachlich sauber."
-reflectionPrompt: "Was war bei „Argumente mit shift verarbeiten“ die wichtigste Trennkante?"
+tags: ["linux", "Feinstruktur Linux", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation:

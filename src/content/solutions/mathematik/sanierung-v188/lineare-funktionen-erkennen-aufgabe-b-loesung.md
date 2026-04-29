@@ -3,22 +3,12 @@ title: "Lösung: Lineare Funktionen erkennen: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-016b."
 subject: "mathematik"
 section: "funktionen-im-vergleich"
-topicPath:
-  - "funktionen-im-vergleich"
-  - "linear-und-quadratisch-trennen"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "lineare-funktionen-erkennen-aufgabe-b"]
 taskId: "mat-v188-016b"
 relatedExercise: "mathematik/sanierung-v188/lineare-funktionen-erkennen-aufgabe-b"
-tags:
-  - "funktionen"
-  - "linear"
-  - "steigung"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "funktionen-im-vergleich", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-016b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

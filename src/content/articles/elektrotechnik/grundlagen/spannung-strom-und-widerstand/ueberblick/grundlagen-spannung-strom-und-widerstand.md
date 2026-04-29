@@ -1,39 +1,19 @@
 ---
 title: "Grundlagen: Spannung, Strom und Widerstand"
 description: "Ein lexikonartiger Überblick über die drei zentralen Grundgrößen einfacher Stromkreise."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Grundlagen"
-topicPath:
-  - grundlagen
-  - spannung-strom-und-widerstand
-  - ueberblick
-learningGoals:
-  - "Du kennst die Grundbegriffe dieses Themenbereichs."
-  - "Du kannst typische Situationen grob einordnen, bevor du Detailseiten liest."
-  - "Du erkennst, welche Nachbarseiten für Vertiefung oder Übungen passen."
-practiceIdeas:
-  - "Lies zuerst diese Überblicksseite und danach eine konkrete Lernsituation aus dem gleichen Unterthema."
-  - "Notiere die wichtigsten Begriffe und prüfe, welche davon in den Detailseiten wieder auftauchen."
-commonMistakes:
-  - "Direkt mit Sonderfällen zu beginnen, ohne die Grundbegriffe zu klären."
-  - "Ein einzelnes Beispiel für die ganze Themenlogik zu halten."
-keyTakeaways:
-  - "Spannung treibt, Strom fließt, Widerstand begrenzt. Erst zusammen beschreiben die drei Größen einen Stromkreis sinnvoll."
-recognizeSignals:
-  - "Du suchst eine allgemeine Einordnung, bevor du Aufgaben oder Spezialfälle bearbeitest."
-  - "Mehrere Detailseiten wirken ähnlich, aber dir fehlt der gemeinsame Rahmen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten beschreiben?"
-  - "Kann ich Grundidee, typische Begriffe und Grenzen auseinanderhalten?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "spannung"
-  - "strom"
-  - "widerstand"
+topicPath: ["grundlagen", "spannung-strom-und-widerstand", "ueberblick", "grundlagen-spannung-strom-und-widerstand"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 Spannung, Strom und Widerstand gehören zu den grundlegenden Begriffen der Elektrotechnik. Sie beschreiben, warum elektrische Ladung bewegt wird, wie stark sie fließt und wodurch der Fluss begrenzt wird.

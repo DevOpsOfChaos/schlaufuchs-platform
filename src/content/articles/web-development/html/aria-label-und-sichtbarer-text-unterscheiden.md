@@ -1,45 +1,19 @@
 ---
-title: ARIA-Label und sichtbaren Text unterscheiden
-description: Verstehe, warum sichtbarer Text die Oberfläche direkt erklärt und aria-label vor allem die technische Benennung ergänzt.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - linktexte-und-links
-  - aria-label-und-sichtbarer-text-unterscheiden
-learningGoals:
-  - Du erklärst den Unterschied zwischen sichtbarem Text und aria-label.
-  - Du beschreibst, warum sichtbarer Inhalt oft die erste und ruhigere Lösung ist.
-  - Du liest Beschriftung als Zusammenspiel aus Oberfläche und technischer Benennung.
-practiceIdeas:
-  - Vergleiche einen Icon-Button nur mit Symbol, mit aria-label und mit sichtbarer Beschriftung.
-  - Prüfe, wann ein sichtbarer Text schon ausreicht und wann eine zusätzliche Benennung nötig wird.
-  - Lies Beschriftung nicht nur aus Designsicht, sondern auch aus Bedien- und Verständnissicht.
-commonMistakes:
-  - ARIA als Ersatz für fehlende klare sichtbare Inhalte zu behandeln.
-  - zu denken, dass ein Symbol immer schon selbsterklärend genug ist.
-  - sichtbare Beschriftung und technische Benennung nicht zusammen zu denken.
-keyTakeaways:
-  - Sichtbarer Text hilft direkt beim Verstehen.
-  - aria-label ergänzt vor allem die technische Benennung eines Elements.
-  - Gute Oberflächen versuchen zuerst verständliche sichtbare Beschriftung.
-recognizeSignals:
-  - Es geht um Icon-Buttons, unklare Schaltflächen oder knappe Oberflächen.
-  - Du sollst erklären, wie ein Element benannt oder verstanden wird.
-  - In Beispielen ist die Verständlichkeit wichtiger als die reine Platzersparnis.
-selfCheckPoints:
-  - Kann ich sichtbaren Text und aria-label trennen?
-  - Kann ich begründen, warum sichtbare Beschriftung oft die ruhigere Lösung ist?
-  - Kann ich einen unklar benannten Button kritisch lesen?
-tags:
-  - html
-  - aria-label
-  - accessibility
-  - buttons
-level: mittel
+title: "ARIA-Label und sichtbaren Text unterscheiden"
+description: "Verstehe, warum sichtbarer Text die Oberfläche direkt erklärt und aria-label vor allem die technische Benennung ergänzt."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "aria-label-und-sichtbarer-text-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein sichtbarer Text erklärt direkt, was ein Element tut. Ein `aria-label` hilft vor allem dabei, ein Element technisch sinnvoll zu benennen. Beides kann zusammenwirken, aber es ist **nicht dieselbe Rolle**.

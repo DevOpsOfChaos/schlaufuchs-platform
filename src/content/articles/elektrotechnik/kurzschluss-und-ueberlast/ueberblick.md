@@ -1,37 +1,19 @@
 ---
 title: "Kurzschluss und Überlast"
 description: "Überblick über Kurzschluss, Überlast und die Bedeutung von Strombegrenzung in elektrischen Schaltungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Sicherheit"
-topicPath:
-  - "kurzschluss-und-ueberlast"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Kurzschluss und Überlast als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["kurzschluss-und-ueberlast", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird nur die Spannung betrachtet, obwohl Strom, Leistung und Zeit entscheidend sind."
-keyTakeaways:
-  - "Kurzschluss und Überlast betreffen Strom, Wärme und Sicherheit."
-  - "Strombegrenzung schützt Bauteile und Quellen."
-  - "Grenzwerte müssen zur Anwendung passen."
-recognizeSignals:
-  - "Ein Bauteil wird heiß, ein Netzteil begrenzt Strom oder eine Sicherung löst aus."
-  - "Eine Verbindung überbrückt unbeabsichtigt einen Lastpfad."
-selfCheckPoints:
-  - "Kann ich Kurzschluss und Überlast in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "kurzschluss"
-  - "ueberlast"
-  - "schutz"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Sicherheit"]
 draft: false
 ---
-
 # Kurzschluss und Überlast
 
 Ein Kurzschluss ist eine unbeabsichtigte Verbindung mit sehr kleinem Widerstand zwischen Punkten unterschiedlicher Spannung. Überlast bedeutet, dass ein Bauteil oder eine Quelle stärker beansprucht wird als vorgesehen.

@@ -3,23 +3,12 @@ title: "Lösung – Button und Link nach Nutzerabsicht wählen"
 description: "Musterlösung zu Button und Link mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "semantik-und-interaktion"
-  - "button-link"
-  - "button-und-link-nach-nutzerabsicht-waehlen"
+topicPath: ["html", "semantik-und-interaktion", "button-link", "button-und-link-nach-nutzerabsicht-waehlen"]
 taskId: "v109-web-development-button-und-link-nach-nutzerabsicht-waehlen"
 relatedExercise: "web-development/html/semantik-und-interaktion/button-link/button-und-link-nach-nutzerabsicht-waehlen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "html"
-  - "semantik-und-interaktion"
-  - "button und link"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Button und Link**.

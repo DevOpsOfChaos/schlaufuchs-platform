@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Datenformate: JSON, CSV und Tabellen – Ruhig einordnen"
 description: "Musterlösung zur Aufgabe über Datenformate: JSON, CSV und Tabellen."
-subject: informatik
+subject: "informatik"
 section: "daten-und-information"
-topicPath:
-  - "daten-und-information"
-  - "datenformate-json-csv-und-tabellen"
-taskId: INF-DATENFORMATE-JSON-CSV-UND-TABELLEN-841
-relatedExercise: src/content/exercises/informatik/daten-und-information/datenformate-json-csv-und-tabellen/datenformate-json-csv-und-tabellen-ruhig-einordnen-v184.md
-tags:
-  - "informatik"
-  - "datenformate"
-  - "json"
-  - "csv"
-  - "loesung"
+topicPath: ["daten-und-information", "datenformate-json-csv-und-tabellen", "datenformate-json-csv-und-tabellen-ruhig-einordnen-v184"]
+taskId: "INF-DATENFORMATE-JSON-CSV-UND-TABELLEN-841"
+relatedExercise: "src/content/exercises/informatik/daten-und-information/datenformate-json-csv-und-tabellen/datenformate-json-csv-und-tabellen-ruhig-einordnen-v184.md"
+tags: ["informatik", "daten-und-information", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

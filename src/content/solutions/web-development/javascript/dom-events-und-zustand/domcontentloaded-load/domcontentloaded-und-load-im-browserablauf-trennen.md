@@ -3,23 +3,12 @@ title: "Lösung – DOMContentLoaded und load im Browserablauf trennen"
 description: "Musterlösung zu DOMContentLoaded und load mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "dom-events-und-zustand"
-  - "domcontentloaded-load"
-  - "domcontentloaded-und-load-im-browserablauf-trennen"
+topicPath: ["javascript", "dom-events-und-zustand", "domcontentloaded-load", "domcontentloaded-und-load-im-browserablauf-trennen"]
 taskId: "v109-web-development-domcontentloaded-und-load-im-browserablauf-trennen"
 relatedExercise: "web-development/javascript/dom-events-und-zustand/domcontentloaded-load/domcontentloaded-und-load-im-browserablauf-trennen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "javascript"
-  - "dom-events-und-zustand"
-  - "domcontentloaded und load"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **DOMContentLoaded und load**.

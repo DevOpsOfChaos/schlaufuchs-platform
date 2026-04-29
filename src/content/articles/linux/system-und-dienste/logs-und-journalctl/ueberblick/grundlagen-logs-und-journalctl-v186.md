@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Logs und journalctl"
 description: "Verstehe Logs als Zeitspur von Systemereignissen und journalctl als Auswertungswerkzeug."
-subject: linux
+subject: "linux"
 section: "system-und-dienste"
-topicPath:
-  - "system-und-dienste"
-  - "logs-und-journalctl"
-learningGoals:
-  - "Du erklärst Logs und journalctl in eigenen Worten."
-  - "Du ordnest typische Befehle, Begriffe oder Prüfschritte richtig ein."
-  - "Du erkennst typische Grenzen und Fehlerquellen im Linux-Alltag."
-practiceIdeas:
-  - "Beschreibe eine kleine Alltagssituation zu diesem Thema."
-  - "Markiere, welche Information zuerst geprüft werden muss."
-commonMistakes:
-  - "Ein einzelnes Kommando für das ganze Thema zu halten."
-  - "Ausgabe, Zustand und Ursache zu vermischen."
-  - "Ohne Kontext direkt an Sonderfälle zu springen."
-keyTakeaways:
-  - "Logs halten System- und Dienstereignisse nachvollziehbar fest."
-  - "journalctl hilft beim Filtern nach Zeit, Dienst oder Priorität."
-  - "Gute Diagnose liest Logs zusammen mit dem beobachteten Verhalten."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung statt nur eines Befehlsrezepts."
-  - "Mehrere ähnliche Befehle oder Dateien wirken unklar."
-selfCheckPoints:
-  - "Kann ich Zweck, Kontext und typischen Prüfschritt unterscheiden?"
-  - "Kann ich eine einfache Fehlannahme zum Thema benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "logs"
-  - "journalctl"
+topicPath: ["system-und-dienste", "logs-und-journalctl", "ueberblick", "grundlagen-logs-und-journalctl-v186"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "system-und-dienste"]
 draft: false
 ---
-
 ![Logs und journalctl](/schlaufuchs-platform/images/overviews/v186/logs-und-journalctl.svg)
 
 ## Begriff

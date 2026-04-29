@@ -1,34 +1,19 @@
 ---
 title: "Route-Parameter"
 description: "Überblick über dynamische URL-Abschnitte und ihre Rolle beim Aufbau strukturierter Webanwendungen."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "route-parameter"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["route-parameter", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Route-Parameter direkt als vertrauenswürdige Dateipfade oder Datenbankwerte zu verwenden."
-keyTakeaways:
-  - "Route-Parameter machen URLs flexibel, müssen aber validiert und eindeutig interpretiert werden."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Seiten aus Slugs, IDs oder verschachtelten Pfaden generiert werden."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "web development"
-  - "routing"
-  - "url"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # Route-Parameter
 
 Route-Parameter sind veränderliche Teile einer URL, die eine konkrete Ressource, Kategorie oder Ansicht auswählen. Sie machen aus einer allgemeinen Route viele konkrete Seiten.

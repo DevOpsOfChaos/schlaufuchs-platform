@@ -1,36 +1,19 @@
 ---
 title: "Sticky Bit, setuid und setgid"
 description: "Sticky Bit, setuid und setgid bezeichnet ein Grundthema im Bereich Shell, Dateisystem, Dienste und Betrieb von Linux-Systemen. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-subject: linux
+subject: "linux"
 section: "Dateien"
-topicPath:
-  - "sticky-bit-setuid-und-setgid"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Sticky Bit, setuid und setgid als allgemeinen Grundbegriff einordnen."
-  - "Du kennst Zweck, Zusammenhang, typische Teilaspekte und Grenzen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle behandelt werden."
+topicPath: ["sticky-bit-setuid-und-setgid", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Sticky Bit, setuid und setgid nur als einzelner Arbeitsschritt verstanden, obwohl der Begriff einen größeren Zusammenhang beschreibt."
-keyTakeaways:
-  - "Sticky Bit, setuid und setgid bezeichnet ein Grundthema im Bereich Shell, Dateisystem, Dienste und Betrieb von Linux-Systemen. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-  - "Ein Überblick trennt Begriff, Zweck, Beispiel und Grenze."
-  - "Spezialseiten werden verständlicher, wenn die allgemeine Einordnung vorher klar ist."
-recognizeSignals:
-  - "Es geht um Sticky Bit, setuid und setgid, wenn mehrere Einzelbeobachtungen ohne Grundbegriff schwer einzuordnen sind."
-  - "Der Begriff hilft, Werkzeuge, Werte, Regeln oder Darstellungen fachlich zu sortieren."
-selfCheckPoints:
-  - "Kann ich Sticky Bit, setuid und setgid in zwei bis drei Sätzen erklären?"
-  - "Kann ich ein Beispiel und eine typische Grenze nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "rechte"
-  - "spezialrechte"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dateien"]
 draft: false
 ---
-
 # Sticky Bit, setuid und setgid
 
 Sticky Bit, setuid und setgid bezeichnet ein Grundthema im Bereich Shell, Dateisystem, Dienste

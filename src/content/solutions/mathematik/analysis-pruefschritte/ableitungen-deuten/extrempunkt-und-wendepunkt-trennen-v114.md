@@ -1,23 +1,14 @@
 ---
-title: Lösung – Extrempunkt und Wendepunkt trennen
-description: Musterlösung zur Aufgabe über Extrempunkt und Wendepunkt trennen.
-subject: mathematik
-section: Feinstruktur Mathematik
-topicPath:
-- analysis-pruefschritte
-- ableitungen-deuten
-- extrempunkt-und-wendepunkt-trennen-v114
-taskId: v114-mathematik-extrempunkt-und-wendepunkt-trennen-v114
-relatedExercise: mathematik/analysis-pruefschritte/ableitungen-deuten/extrempunkt-und-wendepunkt-trennen-v114
-tags:
-- mathematik
-- v114
-- loesung
-- analysis-pruefschritte
-- ableitungen-deuten
+title: "Lösung – Extrempunkt und Wendepunkt trennen"
+description: "Musterlösung zur Aufgabe über Extrempunkt und Wendepunkt trennen."
+subject: "mathematik"
+section: "Feinstruktur Mathematik"
+topicPath: ["analysis-pruefschritte", "ableitungen-deuten", "extrempunkt-und-wendepunkt-trennen-v114"]
+taskId: "v114-mathematik-extrempunkt-und-wendepunkt-trennen-v114"
+relatedExercise: "mathematik/analysis-pruefschritte/ableitungen-deuten/extrempunkt-und-wendepunkt-trennen-v114"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

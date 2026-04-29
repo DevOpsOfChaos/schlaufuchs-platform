@@ -3,22 +3,12 @@ title: "Lösung: Prozess identifizieren"
 description: "Musterlösung zur Aufgabe „Prozess identifizieren“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "prozesse-logs-und-dienste"
-  - "ps-top-und-kill"
-  - "prozess-identifizieren-v116"
+topicPath: ["prozesse-logs-und-dienste", "ps-top-und-kill", "prozess-identifizieren-v116"]
 taskId: "prozess-identifizieren-v116"
 relatedExercise: "linux/prozesse-logs-und-dienste/ps-top-und-kill/prozess-identifizieren-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "ps top und kill"
-  - "prozess identifizieren"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

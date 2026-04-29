@@ -3,23 +3,12 @@ title: "Lösung – Release-Notiz nach Nutzerwirkung schreiben"
 description: "Musterlösung zu Release Notes mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "release"
-  - "release-notiz-nach-nutzerwirkung-schreiben"
+topicPath: ["projektpraxis", "betrieb-und-release", "release", "release-notiz-nach-nutzerwirkung-schreiben"]
 taskId: "v111-web-development-release-notiz-nach-nutzerwirkung-schreiben"
 relatedExercise: "web-development/projektpraxis/betrieb-und-release/release/release-notiz-nach-nutzerwirkung-schreiben"
-tags:
-  - "web development"
-  - "frontend"
-  - "unterthema"
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "release-notiz-nach-nutzerwirkung-schreiben"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Release Notes**.

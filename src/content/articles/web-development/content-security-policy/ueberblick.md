@@ -1,37 +1,19 @@
 ---
 title: "Content Security Policy"
 description: "Überblick über Content Security Policy als Schutzmechanismus gegen unerwünschte Skripte und Ressourcen."
-subject: web-development
+subject: "web-development"
 section: "Sicherheit"
-topicPath:
-  - "content-security-policy"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Content Security Policy als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["content-security-policy", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "CSPs werden oft mit zu vielen Wildcards formuliert und schützen dann kaum."
-keyTakeaways:
-  - "CSP begrenzt erlaubte Quellen."
-  - "Sie ist eine zusätzliche Schutzschicht."
-  - "Eine wirksame Policy muss getestet werden."
-recognizeSignals:
-  - "Es geht um Security-Header, externe Skripte oder XSS-Abwehr."
-  - "Der Browser blockiert Ressourcen wegen Policy-Verstößen."
-selfCheckPoints:
-  - "Kann ich Content Security Policy in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "web-development"
-  - "sicherheit"
-  - "csp"
-  - "security headers"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Sicherheit"]
 draft: false
 ---
-
 # Content Security Policy
 
 ![Schaubild zur Content Security Policy.](/schlaufuchs-platform/images/overviews/v149/content-security-policy.svg)

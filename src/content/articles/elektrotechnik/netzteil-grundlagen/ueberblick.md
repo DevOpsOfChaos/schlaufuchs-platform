@@ -3,32 +3,17 @@ title: "Netzteil-Grundlagen"
 description: "Allgemeiner Überblick über netzteil-grundlagen und die wichtigsten Zusammenhänge."
 subject: "elektrotechnik"
 section: "Versorgung"
-topicPath:
-  - "netzteil-grundlagen"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["netzteil-grundlagen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird ein Netzteil nur nach Spannung gewählt, obwohl Stromreserve und Qualität entscheidend sind."
-keyTakeaways:
-  - "Gute Netzteilwahl verbindet passende Spannung, Belastbarkeit und Sicherheit."
-  - "Ein Netzteil ist nicht nur eine Spannungsquelle. Es besitzt Grenzen, Regelverhalten und Schutzfunktionen."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "elektrotechnik"
-  - "netzteil"
-  - "versorgung"
-  - "spannung"
+tags: ["elektrotechnik", "Versorgung"]
 draft: false
 ---
-
 # Netzteil-Grundlagen
 
 Ein Netzteil stellt elektrische Energie in einer für die Schaltung passenden Form bereit, meist als geregelte Gleichspannung.

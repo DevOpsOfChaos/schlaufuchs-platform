@@ -1,33 +1,17 @@
 ---
 title: "Signalpegelreserve"
 description: "Überblick über Pegelreserve, Störabstand und die Bedeutung klarer High-/Low-Bereiche bei digitalen Signalen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Digitale Signale"
-topicPath:
-  - "signalpegelreserve"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Signalpegelreserve als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["signalpegelreserve", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Digitale Signale werden oft als vollständig eindeutig betrachtet. In Wirklichkeit entscheidet eine analoge Spannung über einen logischen Zustand, und diese Spannung braucht Abstand zu den Grenzbereichen."
-keyTakeaways:
-  - "Signalpegelreserve ist der Abstand zwischen tatsächlichem Signalpegel und der Grenze, ab der ein Eingang den Zustand nicht mehr sicher erkennt."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um signalpegelreserve, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich signalpegelreserve in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "signalpegelreserve"
-  - "überblick"
-  - "high- und low-bereiche"
-  - "schaltschwellen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Digitale Signale"]
 draft: false
 ---
 # Signalpegelreserve

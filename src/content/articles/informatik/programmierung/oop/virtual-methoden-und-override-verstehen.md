@@ -1,46 +1,19 @@
 ---
-title: Virtual-Methoden und override verstehen
-description: Verstehe, warum manche Methoden erst zur Laufzeit passend ausgewaehlt werden und wie virtual und override diese Absicht sichtbar machen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - virtual-methoden-und-override-verstehen
-learningGoals:
-  - Du erklaerst die Rolle von virtual fuer polymorphes Verhalten.
-  - Du unterscheidest ueberschriebene Methoden mit und ohne spaete Bindung.
-  - Du erkennst, warum Referenzen und Basisklassentypen hier wichtig werden.
-practiceIdeas:
-  - Vergleiche denselben Methodenaufruf mit und ohne virtual.
-  - Beschreibe, welche Klasse bei der Methodenwahl wirklich entscheidet.
-  - Erklaere, warum override den Code klarer macht.
-commonMistakes:
-  - Zu denken, dass Ueberschreiben automatisch immer spaet gebunden ist.
-  - Basisklassentyp und konkretes Objekt zu vermischen.
-  - Polymorphie mit einfachem Ueberladen zu verwechseln.
-keyTakeaways:
-  - Mit virtual kann die Methodenwahl zur Laufzeit passend zum echten Objekt erfolgen.
-  - override macht deutlich, dass eine Basismethode bewusst ueberschrieben wird.
-  - Polymorphie wird besonders wichtig, wenn ueber Referenzen oder Zeiger auf Basistypen gearbeitet wird.
-recognizeSignals:
-  - Eine Basisklasse deklariert eine Methode als virtual.
-  - Eine Unterklasse liefert eine eigene Implementierung mit gleicher Signatur.
-  - Ein Aufruf laeuft ueber Referenz oder Zeiger auf die Basisklasse.
-selfCheckPoints:
-  - Kann ich sagen, wann statische und wann dynamische Methodenwahl gemeint ist?
-  - Kann ich die Rolle von virtual in Worten erklaeren?
-  - Kann ich beschreiben, welches Objekt fuer die echte Methodenwahl zaehlt?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - polymorphie
-  - virtual
+title: "Virtual-Methoden und override verstehen"
+description: "Verstehe, warum manche Methoden erst zur Laufzeit passend ausgewaehlt werden und wie virtual und override diese Absicht sichtbar machen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "virtual-methoden-und-override-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Beim Ueberschreiben gleichnamiger Methoden ist die wichtigste Frage nicht nur, welche Signatur gleich ist, sondern **wann entschieden wird**, welche Methode wirklich laeuft.

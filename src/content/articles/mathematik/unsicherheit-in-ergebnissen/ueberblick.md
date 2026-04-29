@@ -1,33 +1,17 @@
 ---
 title: "Unsicherheit in Ergebnissen"
 description: "Überblick über Unsicherheit als Bestandteil von Messungen, Datenanalysen, Modellen und Prognosen."
-subject: mathematik
+subject: "mathematik"
 section: "Daten"
-topicPath:
-  - "unsicherheit-in-ergebnissen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Unsicherheit in Ergebnissen als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["unsicherheit-in-ergebnissen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein einzelner Zahlenwert wirkt oft genauer, als er ist. Seriöse Ergebnisse nennen auch Streuung, Fehlergrenzen oder Annahmen."
-keyTakeaways:
-  - "Unsicherheit bedeutet nicht Unwissen, sondern beschreibt, wie genau oder belastbar ein Ergebnis im gegebenen Kontext ist."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um unsicherheit in ergebnissen, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich unsicherheit in ergebnissen in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "unsicherheit in ergebnissen"
-  - "überblick"
-  - "messfehler"
-  - "stichprobe"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Daten"]
 draft: false
 ---
 # Unsicherheit in Ergebnissen

@@ -3,22 +3,12 @@ title: "Lösung – HTML – Bildgrößen, srcset und sizes für Ladezeit planen
 description: "Musterlösung zur Aufgabe: Plane für eine Bildkarte drei Bildgrößen und beschreibe, welche Information srcset und sizes dem Browser geben."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "performance-und-medien"
-  - "bildgroessen-srcset-sizes-und-ladezeit"
+topicPath: ["html", "performance-und-medien", "bildgroessen-srcset-sizes-und-ladezeit"]
 taskId: "web-v100-bildgroessen-srcset-sizes-und-ladezeit"
 relatedExercise: "web-development/html/performance-und-medien/bildgroessen-srcset-sizes-und-ladezeit"
-tags:
-  - "web development"
-  - "html"
-  - "bilder"
-  - "srcset"
-  - "performance"
-  - "lösung"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine gute Lösung beginnt nicht mit möglichst viel Code, sondern mit einer klaren Einordnung: Verstehe, wie responsive Bilder dem Browser helfen, die passende Bilddatei statt unnötig großer Medien zu laden.

@@ -1,45 +1,19 @@
 ---
-title: EVA-Prinzip und Datenfluss
-description: Verstehe Eingabe, Verarbeitung und Ausgabe als ruhigen Grundablauf vieler Informatiksysteme.
-subject: informatik
-section: Systemnah
-topicPath:
-  - systemnah
-  - eva-prinzip-und-datenfluss
-learningGoals:
-  - Du erklärst das EVA-Prinzip als Grundmuster technischer Systeme.
-  - Du trennst Eingabe, Verarbeitung und Ausgabe sauber.
-  - Du beschreibst einfache digitale Abläufe als Datenfluss statt nur als Gerätesammlung.
-practiceIdeas:
-  - Ordne bei einem Gerät oder Programm die Schritte Eingabe, Verarbeitung und Ausgabe zu.
-  - Prüfe bei einem Beispiel, wo Daten gespeichert oder weitergegeben werden.
-  - Erkläre denselben Ablauf einmal als Alltagssatz und einmal als EVA-Struktur.
-commonMistakes:
-  - Eingabe und Ausgabe zu verwechseln.
-  - Nur das sichtbare Gerät zu beschreiben, nicht den Ablauf.
-  - Verarbeitung mit bloßer Speicherung gleichzusetzen.
-keyTakeaways:
-  - EVA ist ein Grundmuster vieler Informatiksysteme.
-  - Der Ablauf wird klarer, wenn Rollen statt Geräte betrachtet werden.
-  - Datenflussdenken hilft auch ohne Programmcode.
-recognizeSignals:
-  - Es geht um technische Abläufe, Eingaben, Reaktionen oder Systemverständnis.
-  - Du sollst einen Vorgang strukturieren, nicht nur Begriffe nennen.
-  - In Beispielen musst du erklären, was mit Daten nacheinander passiert.
-selfCheckPoints:
-  - Kann ich Eingabe, Verarbeitung und Ausgabe sauber unterscheiden?
-  - Kann ich einen Ablauf als Datenfluss erklären?
-  - Kann ich begründen, warum EVA mehr ist als eine Merkhilfe?
-tags:
-  - eva
-  - systeme
-  - datenfluss
-  - eingabe
-  - ausgabe
-level: einfach
+title: "EVA-Prinzip und Datenfluss"
+description: "Verstehe Eingabe, Verarbeitung und Ausgabe als ruhigen Grundablauf vieler Informatiksysteme."
+subject: "informatik"
+section: "Systemnah"
+topicPath: ["systemnah", "eva-prinzip-und-datenfluss"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Systemnah"]
 draft: false
 ---
-
 ## Grundidee
 
 Viele technische Systeme lassen sich zunächst sehr ruhig über drei Rollen verstehen:

@@ -1,37 +1,19 @@
 ---
 title: "curl und wget"
 description: "Überblick über Kommandozeilenwerkzeuge zum Abrufen von Webressourcen."
-subject: linux
+subject: "linux"
 section: "Netzwerk"
-topicPath:
-  - "curl-und-wget"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst curl und wget als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["curl-und-wget", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird nur der sichtbare Inhalt betrachtet und der Statuscode ignoriert."
-keyTakeaways:
-  - "curl und wget helfen beim Abrufen und Prüfen von Webressourcen."
-  - "Header und Statuscodes sind oft wichtiger als der reine Inhalt."
-  - "Zugangsdaten in Befehlen müssen sorgfältig behandelt werden."
-recognizeSignals:
-  - "Es geht um curl und wget als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich curl und wget in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "curl"
-  - "wget"
-  - "netzwerk"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Netzwerk"]
 draft: false
 ---
-
 # curl und wget
 
 ![Schaubild zu curl und wget.](/schlaufuchs-platform/images/overviews/v150/curl-und-wget.svg)

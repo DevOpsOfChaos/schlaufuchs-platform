@@ -3,22 +3,12 @@ title: "Lösung – Toasts und Statusmeldungen nicht verstecken"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Development-Aufgabe."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "zugaenglichkeit-und-ux"
-  - "toast-und-statusmeldungen-nicht-verstecken"
-tags:
-  - "web development"
-  - "javascript"
-  - "ux"
-  - "barrierefreiheit"
-  - "status"
-  - "lösung"
+topicPath: ["javascript", "zugaenglichkeit-und-ux", "toast-und-statusmeldungen-nicht-verstecken"]
 taskId: "web-v103-toast-und-statusmeldungen-nicht-verstecken"
 relatedExercise: "web-development/javascript/zugaenglichkeit-und-ux/toast-und-statusmeldungen-nicht-verstecken"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Die Meldung erscheint in einem festen Statusbereich mit `role="status"`, bleibt lesbar stehen und nutzt eine konkrete deutschsprachige Rückmeldung.

@@ -3,44 +3,17 @@ title: "CSS – Container Queries für Komponenten denken"
 description: "Lerne, warum manche Layoutentscheidungen nicht von der Fensterbreite, sondern vom verfügbaren Komponentenplatz abhängen."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "responsive-layouts"
-  - "container-queries-fuer-komponenten-denken"
-tags:
-  - "web development"
-  - "css"
-  - "container queries"
-  - "responsive"
-  - "layout"
-learningGoals:
-  - "Du unterscheidest Viewport-Fragen und Container-Fragen."
-  - "Du erklärst, warum wiederverwendbare Karten vom verfügbaren Platz abhängig sein können."
-  - "Du erkennst, wann Media Queries zu grob sind."
-practiceIdeas:
-  - "Übertrage die Idee auf eine kleine eigene Seite."
-  - "Prüfe die Bedienung einmal mit Tastatur und einmal mit Maus."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "Jede responsive Entscheidung über die Fensterbreite zu lösen."
-  - "Komponenten so zu bauen, dass sie nur an einer einzigen Stelle funktionieren."
-  - "Container-Abhängigkeiten ohne klare Größenbasis zu formulieren."
-keyTakeaways:
-  - "Struktur, Zustand und Rückmeldung müssen zusammenpassen."
-  - "Sichtbare Nutzerführung ist Teil der technischen Lösung."
-  - "Saubere Webentwicklung prüft auch Fehlerfälle und Sonderwege."
-recognizeSignals:
-  - "Eine Oberfläche soll verständlicher, robuster oder zugänglicher werden."
-  - "HTML, CSS und JavaScript müssen gemeinsam gelesen werden."
-  - "Es gibt einen Zustand, der sichtbar gemacht oder kontrolliert werden muss."
-selfCheckPoints:
-  - "Kann ich die Entscheidung in einem Satz erklären?"
-  - "Bleibt die Lösung bei Fehlern oder Tastaturbedienung verständlich?"
-  - "Sind sichtbare Texte klar und deutsch formuliert?"
+topicPath: ["css", "responsive-layouts", "container-queries-fuer-komponenten-denken"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Lerne, warum manche Layoutentscheidungen nicht von der Fensterbreite, sondern vom verfügbaren Komponentenplatz abhängen. Die Seite betrachtet das Thema nicht als isolierten Syntaxtrick, sondern als kleine Entscheidung für Bedienbarkeit, Wartbarkeit und verständliche Rückmeldung.

@@ -3,22 +3,12 @@ title: "Lösung: Anlaufstrom beachten"
 description: "Musterlösung zur Aufgabe „Anlaufstrom beachten“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "energie-versorgung-und-schutz"
-  - "strombedarf-und-reserve"
-  - "anlaufstrom-beachten-v116"
+topicPath: ["energie-versorgung-und-schutz", "strombedarf-und-reserve", "anlaufstrom-beachten-v116"]
 taskId: "anlaufstrom-beachten-v116"
 relatedExercise: "elektrotechnik/energie-versorgung-und-schutz/strombedarf-und-reserve/anlaufstrom-beachten-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "strombedarf und reserve"
-  - "anlaufstrom beachten"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

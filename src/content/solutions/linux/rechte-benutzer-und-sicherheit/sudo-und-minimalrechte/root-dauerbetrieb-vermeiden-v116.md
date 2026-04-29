@@ -3,22 +3,12 @@ title: "Lösung: Root-Dauerbetrieb vermeiden"
 description: "Musterlösung zur Aufgabe „Root-Dauerbetrieb vermeiden“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "rechte-benutzer-und-sicherheit"
-  - "sudo-und-minimalrechte"
-  - "root-dauerbetrieb-vermeiden-v116"
+topicPath: ["rechte-benutzer-und-sicherheit", "sudo-und-minimalrechte", "root-dauerbetrieb-vermeiden-v116"]
 taskId: "root-dauerbetrieb-vermeiden-v116"
 relatedExercise: "linux/rechte-benutzer-und-sicherheit/sudo-und-minimalrechte/root-dauerbetrieb-vermeiden-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "sudo und minimalrechte"
-  - "root dauerbetrieb vermeiden"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

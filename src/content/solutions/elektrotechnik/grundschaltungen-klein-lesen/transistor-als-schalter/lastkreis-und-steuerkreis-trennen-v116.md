@@ -3,22 +3,12 @@ title: "Lösung: Lastkreis und Steuerkreis trennen"
 description: "Musterlösung zur Aufgabe „Lastkreis und Steuerkreis trennen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "grundschaltungen-klein-lesen"
-  - "transistor-als-schalter"
-  - "lastkreis-und-steuerkreis-trennen-v116"
+topicPath: ["grundschaltungen-klein-lesen", "transistor-als-schalter", "lastkreis-und-steuerkreis-trennen-v116"]
 taskId: "lastkreis-und-steuerkreis-trennen-v116"
 relatedExercise: "elektrotechnik/grundschaltungen-klein-lesen/transistor-als-schalter/lastkreis-und-steuerkreis-trennen-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "transistor als schalter"
-  - "lastkreis und steuerkreis trennen"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

@@ -3,46 +3,17 @@ title: "Informatik – Indexe als Suchhilfe statt Magie verstehen"
 description: "Verstehe Datenbankindexe als vorbereitete Suchstruktur, die bestimmte Abfragen beschleunigt, aber Schreibaufwand und Speicher kostet."
 subject: "informatik"
 section: "Datenbanken"
-topicPath:
-  - "datenbanken"
-  - "abfragen-und-indizes"
-  - "indexe-als-suchhilfe-statt-magie-verstehen"
-learningGoals:
-  - "Du erklärst die Kernidee von „Datenbankindex“ in eigenen Worten."
-  - "Du ordnest das Thema einem klaren Unterthema zu statt es in einem Sammelbereich zu verlieren."
-  - "Du leitest eine kleine Gegenprobe für echte Aufgaben oder Projekte ab."
-practiceIdeas:
-  - "Markiere zuerst, welche Unterfrage wirklich gestellt ist."
-  - "Notiere eine typische Fehlannahme und eine passende Gegenprobe."
-  - "Übertrage die Denkbewegung auf ein zweites kleines Beispiel."
-commonMistakes:
-  - "jede Spalte indizieren"
-  - "Index als allgemeine Beschleunigung sehen"
-  - "Schreiblast ignorieren"
-keyTakeaways:
-  - "Datenbankindex wird klarer, wenn Zustand, Ursache und Prüfschritt getrennt werden."
-  - "Kleine Unterthemen sind leichter auffindbar und besser prüfbar als breite Sammelordner."
-  - "Eine gute Erklärung endet mit einer konkreten Gegenprobe."
-recognizeSignals:
-  - "Die Aufgabe enthält einen scheinbar kleinen Sonderfall oder Fehlerzustand."
-  - "Es muss zwischen Begriffen unterschieden werden, die im Alltag leicht vermischt werden."
-  - "Eine Entscheidung soll begründet und nicht nur auswendig angewendet werden."
-selfCheckPoints:
-  - "Kann ich das Unterthema mit einem Satz von Nachbarthemen abgrenzen?"
-  - "Kann ich einen typischen Fehler benennen?"
-  - "Kann ich eine konkrete Prüfung oder Rechnung anschließen?"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "daten"
-  - "algorithmen"
-  - "datenbankindex"
-  - "datenbanken"
-  - "abfragen-und-indizes"
+topicPath: ["datenbanken", "abfragen-und-indizes", "indexe-als-suchhilfe-statt-magie-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["informatik", "Datenbanken"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Index macht nicht jede Datenbank automatisch schneller. Er hilft vor allem, wenn oft nach bestimmten Spalten gesucht, sortiert oder verbunden wird.

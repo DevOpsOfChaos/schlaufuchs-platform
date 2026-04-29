@@ -3,24 +3,12 @@ title: "Lösung: Navigation und Breadcrumbs: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-development-v194-020a im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "content-und-navigation"
-  - "navigation-und-breadcrumbs"
-  - "loesung-a"
-
+topicPath: ["sanierung-v194", "navigation-und-breadcrumbs-loesung-a"]
 taskId: "web-development-v194-020a"
 relatedExercise: "web-development/sanierung-v194/navigation-und-breadcrumbs-aufgabe-a"
-tags:
-  - "navigation"
-  - "breadcrumbs"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-020a`
 
 Ausgangsauftrag: Entwirf eine Breadcrumb-Struktur für ein Unterthema.

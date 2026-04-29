@@ -1,31 +1,17 @@
 ---
 title: "Modellierungszyklus"
 description: "Überblick über den mathematischen Modellierungszyklus von realer Situation über Modell, Rechnung, Interpretation und Prüfung."
-subject: mathematik
+subject: "mathematik"
 section: "Modellieren"
-topicPath:
-  - "modellierungszyklus"
-learningGoals:
-  - "Du kennst die Schritte eines Modellierungszyklus."
-  - "Du verstehst die Rolle von Annahmen und Vereinfachungen."
-  - "Du kannst Ergebnisse im Kontext prüfen."
+topicPath: ["modellierungszyklus", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Das Rechenergebnis ohne Rückbezug zur Situation zu übernehmen."
-  - "Annahmen unsichtbar zu lassen."
-keyTakeaways:
-  - "Mathematisches Modellieren verbindet Realität, Modell, Rechnung und Prüfung."
-  - "Ein Ergebnis ist erst sinnvoll, wenn es im Kontext interpretiert wird."
-recognizeSignals:
-  - "Es geht um Textaufgaben, Annahmen, Formeln, Plausibilität oder Modellgrenzen."
-selfCheckPoints:
-  - "Kann ich bei einem Modell sagen, welche Realität es vereinfacht?"
-level: einfach
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "plausibilitaet"
-  - "anwendung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Modellieren"]
 draft: false
 ---
 # Modellierungszyklus

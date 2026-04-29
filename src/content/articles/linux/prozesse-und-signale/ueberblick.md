@@ -1,35 +1,19 @@
 ---
 title: "Prozesse und Signale"
 description: "Allgemeiner Überblick über laufende Prozesse, Prozessverwaltung und Signale unter Linux."
-subject: linux
+subject: "linux"
 section: "System"
-topicPath:
-  - "prozesse-und-signale"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst Prozesse als laufende Programme."
-  - "Du kannst Signale als einfache Steuer- und Benachrichtigungsform einordnen."
-  - "Du verstehst typische Werkzeuge zur Prozessbeobachtung."
+topicPath: ["prozesse-und-signale", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein Programmname und einen konkreten Prozess zu verwechseln."
-  - "`kill` nur als hartes Beenden zu verstehen."
-keyTakeaways:
-  - "Ein Prozess ist eine laufende Instanz eines Programms mit eigener Prozess-ID."
-  - "Signale informieren oder steuern Prozesse, vom sanften Beenden bis zum erzwungenen Abbruch."
-recognizeSignals:
-  - "Es geht um `ps`, `top`, `kill`, hängende Programme, Dienste oder Prozess-IDs."
-selfCheckPoints:
-  - "Kann ich den Unterschied zwischen Programmdatei und laufendem Prozess erklären?"
-level: einfach
-tags:
-  - "linux"
-  - "prozesse"
-  - "signale"
-  - "system"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "System"]
 draft: false
 ---
-
 # Prozesse und Signale
 
 ![Schaubild zu Prozessen und Signalen.](/schlaufuchs-platform/images/overviews/v148/prozesse-und-signale.svg)

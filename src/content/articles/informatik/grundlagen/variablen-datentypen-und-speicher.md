@@ -1,17 +1,19 @@
 ---
-title: Variablen, Datentypen und Speicher verstehen
-description: Variablen, Datentypen und Speicher gehören zu den wichtigsten Grundlagen der Informatik und helfen dabei, Programme logisch und korrekt aufzubauen.
-subject: informatik
-section: Grundlagen
-level: einfach
-tags:
-  - Variablen
-  - Datentypen
-  - Speicher
-  - Grundlagen
+title: "Variablen, Datentypen und Speicher verstehen"
+description: "Variablen, Datentypen und Speicher gehören zu den wichtigsten Grundlagen der Informatik und helfen dabei, Programme logisch und korrekt aufzubauen."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "variablen-datentypen-und-speicher"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 Programme arbeiten nicht mit abstrakten Ideen allein, sondern mit konkreten Werten. Diese Werte müssen gespeichert, verändert und korrekt verarbeitet werden. Genau dafür braucht man Variablen und Datentypen. Wer dieses Fundament nicht sauber versteht, produziert später leicht Fehler bei Berechnungen, Vergleichen oder Ein- und Ausgaben.

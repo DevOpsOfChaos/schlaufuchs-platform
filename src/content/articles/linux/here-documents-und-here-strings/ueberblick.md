@@ -3,32 +3,17 @@ title: "Here-Documents und Here-Strings"
 description: "Allgemeiner Überblick über Here-Documents und Here-Strings als Eingabeformen in der Shell."
 subject: "linux"
 section: "Shell"
-topicPath:
-  - "here-documents-und-here-strings"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["here-documents-und-here-strings", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird übersehen, dass Variablen im Here-Document expandieren können. Dadurch entstehen ungewollte Ersetzungen oder Sicherheitsprobleme."
-keyTakeaways:
-  - "Here-Documents und Here-Strings sind praktische Shell-Werkzeuge für kontrollierte Eingaben. Wichtig ist, Expansion und Quoting bewusst zu wählen."
-  - "Here-Documents sind kein Ersatz für saubere Konfigurationsdateien, wenn Inhalte groß, wiederverwendbar oder sicherheitskritisch werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "linux"
-  - "shell"
-  - "umleitung"
-  - "skripte"
+tags: ["linux", "Shell"]
 draft: false
 ---
-
 # Here-Documents und Here-Strings
 
 Here-Documents und Here-Strings geben Text direkt aus einem Skript oder Befehl an die Standardeingabe eines Programms weiter.

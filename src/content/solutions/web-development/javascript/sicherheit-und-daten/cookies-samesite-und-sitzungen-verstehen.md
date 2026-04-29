@@ -3,22 +3,12 @@ title: "Lösung – JavaScript – Cookies, SameSite und Sitzungen verstehen"
 description: "Musterlösung zur Aufgabe: Erkläre an einem Login-Beispiel, warum ein Sitzungscookie anders behandelt werden sollte als eine harmlose Anzeigeeinstellung."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "sicherheit-und-daten"
-  - "cookies-samesite-und-sitzungen-verstehen"
+topicPath: ["javascript", "sicherheit-und-daten", "cookies-samesite-und-sitzungen-verstehen"]
 taskId: "web-v100-cookies-samesite-und-sitzungen-verstehen"
 relatedExercise: "web-development/javascript/sicherheit-und-daten/cookies-samesite-und-sitzungen-verstehen"
-tags:
-  - "web development"
-  - "javascript"
-  - "cookies"
-  - "sicherheit"
-  - "sessions"
-  - "lösung"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine gute Lösung beginnt nicht mit möglichst viel Code, sondern mit einer klaren Einordnung: Ordne Cookies als Sitzungswerkzeug ein und verstehe, warum SameSite, Secure und HttpOnly wichtige Schutzentscheidungen sind.

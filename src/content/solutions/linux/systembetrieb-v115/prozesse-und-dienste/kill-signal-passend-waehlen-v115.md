@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Kill-Signal passend wählen"
 description: "Musterlösung zu Kill-Signal passend wählen mit Trennkante und Gegenprobe."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "systembetrieb-v115"
-  - "prozesse-und-dienste"
-  - "kill-signal-passend-waehlen-v115"
+topicPath: ["systembetrieb-v115", "prozesse-und-dienste", "kill-signal-passend-waehlen-v115"]
 taskId: "linux-kill-signal-passend-waehlen-v115"
 relatedExercise: "linux/systembetrieb-v115/prozesse-und-dienste/kill-signal-passend-waehlen-v115"
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "systembetrieb"
-  - "prozesse und dienste"
-  - "lösung"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Kill-Signal passend wählen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

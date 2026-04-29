@@ -1,31 +1,17 @@
 ---
 title: "Oszilloskop und Logikanalysator"
 description: "Allgemeiner Überblick über Oszilloskop, Logikanalysator und ihre Rolle bei der Untersuchung elektrischer Signale."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mess- und Sensortechnik"
-topicPath:
-  - "oszilloskop-und-logikanalysator"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Oszilloskop und Logikanalysator grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["oszilloskop-und-logikanalysator", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oszilloskop und Logikanalysator nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Oszilloskop und Logikanalysator beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Oszilloskop und Logikanalysator, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Oszilloskop und Logikanalysator in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "oszilloskop"
-  - "logikanalysator"
-  - "messen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mess- und Sensortechnik"]
 draft: false
 ---
 # Oszilloskop und Logikanalysator

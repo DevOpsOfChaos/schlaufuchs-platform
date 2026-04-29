@@ -3,24 +3,12 @@ title: "Lösung: Spule und induktive Last: Aufgabe A"
 description: "Musterlösung zur Aufgabe etech-v191-022a im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "zeitverhalten"
-  - "spule-und-induktive-last"
-  - "loesung-a"
+topicPath: ["sanierung-v191", "spule-und-induktive-last-aufgabe-a"]
 taskId: "etech-v191-022a"
 relatedExercise: "elektrotechnik/sanierung-v191/spule-und-induktive-last-aufgabe-a"
-tags:
-  - "zeitverhalten"
-  - "spule"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-022a`
 
 Ausgangsauftrag: Begründe die Freilaufdiode an einem Relais.

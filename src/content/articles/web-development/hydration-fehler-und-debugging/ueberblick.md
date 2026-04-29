@@ -3,32 +3,17 @@ title: "Hydration-Fehler und Debugging"
 description: "Allgemeiner Überblick über Hydration-Fehler in modernen Weboberflächen und ihre Einordnung."
 subject: "web-development"
 section: "Debugging"
-topicPath:
-  - "hydration-fehler-und-debugging"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["hydration-fehler-und-debugging", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird ein Hydration-Fehler durch zufällige Client-only-Abfragen verdeckt, statt die Ursache in Datenfluss und Renderzeitpunkt zu klären."
-keyTakeaways:
-  - "Hydration-Fehler entstehen an der Grenze zwischen vorgerendertem HTML und Browserzustand. Saubere Trennung von Server- und Clientlogik erleichtert die Fehlersuche."
-  - "Nicht jeder JavaScript-Fehler ist ein Hydration-Fehler. Hydration betrifft speziell die Übergabe von statischem oder serverseitigem HTML an interaktive Komponenten."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "web development"
-  - "hydration"
-  - "debugging"
-  - "frontend"
+tags: ["web-development", "Debugging"]
 draft: false
 ---
-
 # Hydration-Fehler und Debugging
 
 Hydration verbindet serverseitig erzeugtes HTML mit clientseitiger JavaScript-Interaktivität. Hydration-Fehler entstehen, wenn beide Seiten nicht dieselbe Struktur oder denselben Zustand erwarten.

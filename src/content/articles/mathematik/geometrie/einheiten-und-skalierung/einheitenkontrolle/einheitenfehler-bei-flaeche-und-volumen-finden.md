@@ -3,46 +3,17 @@ title: "Mathematik – Einheitenfehler bei Fläche und Volumen finden"
 description: "Lerne Einheitenkontrolle als klar abgegrenztes Unterthema mit Beispiel, Prüfraster und Gegenprobe."
 subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - "geometrie"
-  - "einheiten-und-skalierung"
-  - "einheitenkontrolle"
-  - "einheitenfehler-bei-flaeche-und-volumen-finden"
-learningGoals:
-  - "Du erklärst Einheitenkontrolle als eigenes Unterthema."
-  - "Du grenzt das Thema von einem breiteren Sammelbereich ab."
-  - "Du formulierst eine konkrete Gegenprobe."
-practiceIdeas:
-  - "Erstelle ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Prüfe, welche Nachbarseite nicht gemeint ist."
-  - "Übertrage das Prüfraster auf einen zweiten Fall."
-commonMistakes:
-  - "Das Thema zu breit einordnen und die Trennkante verlieren."
-  - "Nur einen Begriff nennen, ohne Beispiel oder Gegenprobe."
-  - "Aufgabe und Wissensseite sprachlich auseinanderlaufen lassen."
-keyTakeaways:
-  - "Einheitenkontrolle wird durch Einordnung, Trennung und Gegenprobe stabil."
-  - "Feinere Unterthemen verbessern Orientierung und vermeiden Doppelungen."
-  - "Eine gute Lösung nennt auch, was nicht gemeint ist."
-recognizeSignals:
-  - "Die Aufgabe enthält eine kleine, aber entscheidende Unterscheidung."
-  - "Eine allgemeine Antwort wäre zu ungenau."
-  - "Ein Prüfschritt kann die Einordnung bestätigen oder widerlegen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich das Nachbarthema abgrenzen?"
-  - "Ist meine Gegenprobe konkret?"
-tags:
-  - "mathematik"
-  - "rechnen"
-  - "modellieren"
-  - "einheitenkontrolle"
-  - "geometrie"
-  - "einheiten-und-skalierung"
+topicPath: ["geometrie", "einheiten-und-skalierung", "einheitenkontrolle", "einheitenfehler-bei-flaeche-und-volumen-finden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["mathematik", "Geometrie"]
 draft: false
 ---
-
 ## Grundidee
 
 **Einheitenkontrolle** ist ein kleines, bewusst abgegrenztes Unterthema. Lerne Einheitenkontrolle als klar abgegrenztes Unterthema mit Beispiel, Prüfraster und Gegenprobe. Die Seite verhindert, dass mehrere Nachbarfragen in einem breiten Sammelbegriff verschwimmen.

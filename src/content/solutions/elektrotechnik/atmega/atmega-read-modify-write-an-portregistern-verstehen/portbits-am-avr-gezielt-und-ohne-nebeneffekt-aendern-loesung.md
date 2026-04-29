@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Portbits am AVR gezielt und ohne Nebeneffekt ändern
-description: Musterlösung zur Aufgabe ET-ATMEGA-REG-301.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - register-und-bitoperationen
-  - atmega-read-modify-write-an-portregistern-verstehen
-  - portbits-am-avr-gezielt-und-ohne-nebeneffekt-aendern-loesung
-taskId: ET-ATMEGA-REG-301
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-read-modify-write-an-portregistern-verstehen/portbits-am-avr-gezielt-und-ohne-nebeneffekt-aendern.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – Portbits am AVR gezielt und ohne Nebeneffekt ändern"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-REG-301."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-read-modify-write-an-portregistern-verstehen", "portbits-am-avr-gezielt-und-ohne-nebeneffekt-aendern"]
+taskId: "ET-ATMEGA-REG-301"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-read-modify-write-an-portregistern-verstehen/portbits-am-avr-gezielt-und-ohne-nebeneffekt-aendern.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

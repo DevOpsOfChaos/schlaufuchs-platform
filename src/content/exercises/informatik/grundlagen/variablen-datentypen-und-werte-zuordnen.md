@@ -1,12 +1,17 @@
 ---
-title: Variablen, Datentypen und Werte zuordnen
-description: Diese Aufgabe vertieft den sicheren Umgang mit Variablen, Datentypen und passenden Beispielwerten.
-subject: informatik
-section: Grundlagen
-level: einfach
+title: "Variablen, Datentypen und Werte zuordnen"
+description: "Diese Aufgabe vertieft den sicheren Umgang mit Variablen, Datentypen und passenden Beispielwerten."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "variablen-datentypen-und-werte-zuordnen"]
+taskId: "AUTO-VARIABLEN-DATENTYPEN-UND-WERTE-ZUORDNEN"
+tags: ["informatik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben so, dass immer klar wird, was gespeichert wird und welcher Datentyp dafür sinnvoll ist.

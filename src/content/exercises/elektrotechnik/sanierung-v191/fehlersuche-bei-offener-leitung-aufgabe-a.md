@@ -3,35 +3,15 @@ title: "Fehlersuche bei offener Leitung: Aufgabe A"
 description: "Plane eine Fehlersuche bei einer nicht leuchtenden Lampe."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "fehlersuche"
-  - "fehlersuche-bei-offener-leitung"
-  - "aufgabe-a"
+topicPath: ["sanierung-v191", "fehlersuche-bei-offener-leitung-aufgabe-a"]
 taskId: "etech-v191-026a"
-tags:
-  - "fehlersuche"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "aufgabe"
-  - "v191"
-hintPoints:
-  - "Trenne Schaltplan, realen Aufbau und Messpunkt."
-  - "Nenne mindestens eine Einheit oder einen Grenzwert."
-  - "Formuliere einen passenden Fehlerfall."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Fehlersuche bei offener Leitung."
-  - "Messrichtung, Anschluss oder Bauteilrolle sind nachvollziehbar."
-  - "Die Lösung bleibt ohne Spezialgerät verständlich."
-transferIdeas:
-  - "Übertrage die Idee auf eine zweite kleine Schaltung."
-  - "Erstelle eine Mini-Checkliste für die Messung."
-reflectionPrompt: "Welcher Prüfschritt verhindert hier den wahrscheinlichsten Fehler?"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Plane eine Fehlersuche bei einer nicht leuchtenden Lampe.

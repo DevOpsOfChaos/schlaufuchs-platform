@@ -1,23 +1,14 @@
 ---
 title: "Lösung – Bitmaske vor Registerzugriff erklären"
 description: "Musterlösung zur Aufgabe Bitmaske vor Registerzugriff erklären."
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - register-und-bitmasken
-  - pinregister-ruhig-lesen
-taskId: ET-V180-REG-001
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/register-und-bitmasken/pinregister-ruhig-lesen/bitmaske-vor-registerzugriff-erklaeren.md
-tags:
-  - elektrotechnik
-  - loesung
-  - register
-  - bitmaske
-  - mikrocontroller
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["mikrocontroller-und-atmega", "register-und-bitmasken", "pinregister-ruhig-lesen", "bitmaske-vor-registerzugriff-erklaeren"]
+taskId: "ET-V180-REG-001"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/register-und-bitmasken/pinregister-ruhig-lesen/bitmaske-vor-registerzugriff-erklaeren.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1

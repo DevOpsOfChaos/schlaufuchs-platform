@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Testfälle, Randfälle und Regression"
 description: "Verstehe, warum Tests nicht nur Normalfälle, sondern auch Grenzen und alte Fehler abdecken."
-subject: informatik
+subject: "informatik"
 section: "programmierpraxis-und-tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "testfaelle-randfaelle-und-regression"
-learningGoals:
-  - "Du erklärst die Grundidee von Testfälle, Randfälle und Regression in eigenen Worten."
-  - "Du ordnest typische Begriffe und Teilaspekte fachlich richtig ein."
-  - "Du erkennst, welche Detailseiten, Aufgaben oder Fehlerbilder zum Thema passen."
-practiceIdeas:
-  - "Beschreibe ein eigenes Beispiel und markiere die wichtigsten Begriffe."
-  - "Vergleiche die Übersicht mit einer konkreten Aufgabe zum gleichen Thema."
-commonMistakes:
-  - "Ein einzelnes Beispiel für das gesamte Thema zu halten."
-  - "Begriffe zu vermischen, die unterschiedliche Rollen haben."
-  - "Direkt mit Spezialfällen zu beginnen, bevor die Grundidee klar ist."
-keyTakeaways:
-  - "Testfälle beschreiben erwartetes Verhalten prüfbar."
-  - "Randfälle zeigen, ob eine Lösung an Grenzen stabil bleibt."
-  - "Regressionstests verhindern, dass alte Fehler zurückkehren."
-recognizeSignals:
-  - "Du suchst zuerst eine allgemeine Einordnung statt eines Einzelfalls."
-  - "Mehrere Detailseiten wirken ähnlich und sollen fachlich sortiert werden."
-selfCheckPoints:
-  - "Kann ich das Thema in zwei bis drei Sätzen allgemein erklären?"
-  - "Kann ich die wichtigsten Teilaspekte voneinander unterscheiden?"
-level: mittel
-tags:
-  - "informatik"
-  - "tests"
-  - "randfaelle"
+topicPath: ["programmierpraxis-und-tests", "testfaelle-randfaelle-und-regression", "ueberblick", "grundlagen-testfaelle-randfaelle-und-regression"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "programmierpraxis-und-tests"]
 draft: false
 ---
-
 ![Tests als Sicherheitsnetz](/schlaufuchs-platform/images/overviews/v184/testfaelle-randfaelle-regression.svg)
 
 ## Begriff

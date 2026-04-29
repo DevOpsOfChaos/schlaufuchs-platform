@@ -1,46 +1,19 @@
 ---
-title: ATmega – PWM als Grundidee verstehen
-description: Verstehe, wie der AVR mit Timer und Compare aus digitalem Schalten ein zeitlich gemitteltes Steuersignal macht.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - pwm-und-signalerzeugung
-  - atmega-pwm-als-grundidee-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von PWM als schnelles Ein- und Ausschalten mit veränderlichem Tastverhältnis.
-  - Du beschreibst, warum PWM oft keine echte Analogspannung ist.
-  - Du liest PWM ruhiger als Zeitverhältnis statt als magische Helligkeits- oder Motorspannung.
-practiceIdeas:
-  - Vergleiche zwei Tastverhältnisse und ihre grobe Wirkung auf LED oder Motor.
-  - Übersetze eine PWM zuerst in Ein-Zeit und Aus-Zeit innerhalb einer Periode.
-  - Prüfe, warum Timer und Compare für PWM zusammengedacht werden müssen.
-commonMistakes:
-  - PWM mit einer echten kontinuierlichen Analogspannung gleichzusetzen.
-  - Nur den Mittelwert zu sehen und die schnelle Schaltstruktur zu vergessen.
-  - Frequenz und Tastverhältnis durcheinanderzubringen.
-keyTakeaways:
-  - PWM schaltet digital, aber in einem zeitlich gewichteten Verhältnis.
-  - Das Tastverhältnis bestimmt grob die mittlere Wirkung.
-  - Timer, Zählbereich und Compare-Wert bilden zusammen die Grundlage einer PWM.
-recognizeSignals:
-  - Es geht um PWM, Duty Cycle, Tastverhältnis oder Helligkeitssteuerung am AVR.
-  - Du sollst erklären, warum eine LED heller oder dunkler wirkt.
-  - In Aufgaben werden Timer, Compare und Schaltverhältnis gemeinsam betrachtet.
-selfCheckPoints:
-  - Kann ich Tastverhältnis und Frequenz sauber unterscheiden?
-  - Kann ich erklären, warum PWM keine echte Analogspannung sein muss?
-  - Kann ich die Wirkung eines größeren Compare-Werts grob einordnen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - pwm
-  - timer
-level: mittel
+title: "ATmega – PWM als Grundidee verstehen"
+description: "Verstehe, wie der AVR mit Timer und Compare aus digitalem Schalten ein zeitlich gemitteltes Steuersignal macht."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-pwm-als-grundidee-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 PWM steht für **Pulsweitenmodulation**. Die Grundidee ist einfach: Ein Ausgang wird schnell zwischen **ein** und **aus** umgeschaltet. Entscheidend ist nicht nur, dass geschaltet wird, sondern **wie lange innerhalb einer Periode der Ein-Zustand anhält**.
 
 <div class="example-card">

@@ -1,33 +1,19 @@
 ---
 title: "Trigonometrie"
 description: "Trigonometrie untersucht Beziehungen zwischen Winkeln und Seitenlängen. Sie verbindet Geometrie, Funktionen und periodische Vorgänge."
-subject: mathematik
+subject: "mathematik"
 section: "Mathematik"
-topicPath:
-  - "trigonometrie"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Trigonometrie."
-  - "Du kannst Trigonometrie in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["trigonometrie", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Gradmaß und Bogenmaß zu vermischen."
-keyTakeaways:
-  - "Trigonometrie untersucht Beziehungen zwischen Winkeln und Seitenlängen."
-  - "Wichtig sind vor allem sinus, kosinus und tangens, rechtwinklige dreiecke und einheitskreis und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Trigonometrie, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Trigonometrie dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "grundlagen"
-  - "trigonometrie"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Mathematik"]
 draft: false
 ---
-
 # Trigonometrie
 
 Trigonometrie untersucht Beziehungen zwischen Winkeln und Seitenlängen. Sie verbindet Geometrie, Funktionen und periodische Vorgänge. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

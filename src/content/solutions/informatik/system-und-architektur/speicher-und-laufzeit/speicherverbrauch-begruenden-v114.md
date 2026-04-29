@@ -1,23 +1,14 @@
 ---
-title: Lösung – Speicherverbrauch begründen
-description: Musterlösung zur Aufgabe über Speicherverbrauch begründen.
-subject: informatik
-section: Feinstruktur Informatik
-topicPath:
-- system-und-architektur
-- speicher-und-laufzeit
-- speicherverbrauch-begruenden-v114
-taskId: v114-informatik-speicherverbrauch-begruenden-v114
-relatedExercise: informatik/system-und-architektur/speicher-und-laufzeit/speicherverbrauch-begruenden-v114
-tags:
-- informatik
-- v114
-- loesung
-- system-und-architektur
-- speicher-und-laufzeit
+title: "Lösung – Speicherverbrauch begründen"
+description: "Musterlösung zur Aufgabe über Speicherverbrauch begründen."
+subject: "informatik"
+section: "Feinstruktur Informatik"
+topicPath: ["system-und-architektur", "speicher-und-laufzeit", "speicherverbrauch-begruenden-v114"]
+taskId: "v114-informatik-speicherverbrauch-begruenden-v114"
+relatedExercise: "informatik/system-und-architektur/speicher-und-laufzeit/speicherverbrauch-begruenden-v114"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

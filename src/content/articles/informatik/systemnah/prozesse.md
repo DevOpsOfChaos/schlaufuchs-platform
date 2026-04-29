@@ -1,45 +1,19 @@
 ---
-title: Prozesse
-description: Verstehe Prozesse als laufende Programme und lerne, wie ein System viele Abläufe parallel verwaltet.
-subject: informatik
-section: Systemnah
-topicPath:
-- systemnah
-- prozesse
-learningGoals:
-- Du unterscheidest Programm und Prozess.
-- Du verstehst Prozesse als laufende Systemabläufe.
-- Du ordnest sichtbare und unsichtbare Prozesse besser ein.
-practiceIdeas:
-- Beschreibe den Start eines Programms als Folge mehrerer Prozessschritte.
-- Vergleiche sichtbare Programme mit Hintergrunddiensten.
-- Überlege, warum Prozesse Speicher und Rechenzeit brauchen.
-commonMistakes:
-- Programm und Prozess gleichzusetzen.
-- Nur sichtbare Fenster als Prozesse zu betrachten.
-- Systemaktivitäten nicht als verwaltete Abläufe zu sehen.
-keyTakeaways:
-- Prozesse sind laufende Programmausführungen.
-- Ein System verwaltet viele Prozesse parallel.
-- Prozessverständnis macht Rechnerverhalten lesbarer.
-level: einfach
-tags:
-- prozesse
-- system
-- betriebssystem
-- programm
+title: "Prozesse"
+description: "Verstehe Prozesse als laufende Programme und lerne, wie ein System viele Abläufe parallel verwaltet."
+subject: "informatik"
+section: "Systemnah"
+topicPath: ["systemnah", "prozesse"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Systemnah"]
 draft: false
-recognizeSignals:
-- Die Aufgabe oder Erklärung nennt Prozesse direkt oder greift eng benachbarte Begriffe aus Systemnah auf.
-- Du sollst nicht nur einen Begriff nennen, sondern einen Zusammenhang, Ablauf oder eine Struktur sauber erklären.
-- In Beispielen musst du Werte, Schritte oder Bauteile geordnet lesen und richtig einordnen.
-selfCheckPoints:
-- Kann ich unterscheidest Programm und Prozess?
-- Kann ich verstehst Prozesse als laufende Systemabläufe?
-- Kann ich ordnest sichtbare und unsichtbare Prozesse besser ein?
 ---
-
-
 ## Programm und Prozess
 
 Ein **Programm** ist zunächst eine gespeicherte Datei oder Anwendung. Ein **Prozess** entsteht erst dann, wenn dieses Programm wirklich gestartet wird.

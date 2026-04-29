@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – Textwerte und Zeichenketten begründen
-description: Musterlösung zur Aufgabe INF-PROG-CPP-STRING-001.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - typen-und-texte
-  - zeichenketten-mit-std-string-verstehen
-  - textwerte-und-zeichenketten-begruenden-loesung
-taskId: INF-PROG-CPP-STRING-001
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/zeichenketten-mit-std-string-verstehen/textwerte-und-zeichenketten-begruenden.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – Textwerte und Zeichenketten begründen"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-STRING-001."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "zeichenketten-mit-std-string-verstehen", "textwerte-und-zeichenketten-begruenden"]
+taskId: "INF-PROG-CPP-STRING-001"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/zeichenketten-mit-std-string-verstehen/textwerte-und-zeichenketten-begruenden.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Typen zuordnen
 
 - Anfangsbuchstabe eines Namens → eher <code>char</code>

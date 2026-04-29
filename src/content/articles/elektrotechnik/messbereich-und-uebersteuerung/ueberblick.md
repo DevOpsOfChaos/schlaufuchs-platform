@@ -1,34 +1,19 @@
 ---
 title: "Messbereich und Übersteuerung"
 description: "Überblick darüber, warum Messwerte nur innerhalb eines geeigneten Messbereichs zuverlässig interpretierbar sind."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik"
-topicPath:
-  - "messbereich-und-uebersteuerung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["messbereich-und-uebersteuerung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Maximal angezeigte Werte als echte Messwerte zu deuten, obwohl der Eingang begrenzt."
-keyTakeaways:
-  - "Messwerte sind nur aussagekräftig, wenn Messbereich, Auflösung und Signalgröße zusammenpassen."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Werte am Anschlag liegen, Signale abgeschnitten wirken oder kleine Änderungen nicht sichtbar sind."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "messbereich"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik"]
 draft: false
 ---
-
 # Messbereich und Übersteuerung
 
 Der Messbereich beschreibt, welche Werte ein Messgerät oder Eingang sinnvoll erfassen kann. Übersteuerung tritt auf, wenn das Signal außerhalb dieses Bereichs liegt oder intern nicht mehr linear verarbeitet wird.

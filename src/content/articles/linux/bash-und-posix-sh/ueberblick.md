@@ -1,36 +1,19 @@
 ---
 title: "Bash und POSIX sh"
 description: "Bash und POSIX sh sind verwandte, aber nicht identische Shell-Umgebungen. Viele Skripte laufen in Bash, obwohl sie im Shebang nur sh versprechen."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - "bash-und-posix-sh"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Bash und POSIX sh als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["bash-und-posix-sh", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird jede Linux-Shell als Bash behandelt. Das führt zu schwer erkennbaren Skriptfehlern."
-keyTakeaways:
-  - "Bash und POSIX sh sind verwandte, aber nicht identische Shell-Umgebungen."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Bash und POSIX sh, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Bash und POSIX sh in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "bash"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
-
 # Bash und POSIX sh
 
 ![Schaubild zu Bash und POSIX sh.](/schlaufuchs-platform/images/overviews/v150/bash-und-posix-sh.svg)

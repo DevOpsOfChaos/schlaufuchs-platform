@@ -1,36 +1,19 @@
 ---
 title: "Parasitäre Kapazität und Induktivität"
 description: "Parasitäre Kapazität und Induktivität sind unbeabsichtigte elektrische Eigenschaften von Leitungen, Bauteilen und Layouts. Sie sind nicht als eigenes Bauteil eing..."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schaltungen"
-topicPath:
-  - "parasitaere-kapazitaet-und-induktivitaet"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Parasitäre Kapazität und Induktivität als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["parasitaere-kapazitaet-und-induktivitaet", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Parasitäre Effekte werden oft ignoriert, weil der Schaltplan ideal aussieht. In der Praxis ist aber auch der physische Aufbau Teil der Schaltung."
-keyTakeaways:
-  - "Parasitäre Kapazität und Induktivität sind unbeabsichtigte elektrische Eigenschaften von Leitungen, Bauteilen und Layouts."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Parasitäre Kapazität und Induktivität, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Parasitäre Kapazität und Induktivität in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "schaltung"
-  - "signalverhalten"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Schaltungen"]
 draft: false
 ---
-
 # Parasitäre Kapazität und Induktivität
 
 Parasitäre Kapazität und Induktivität sind unbeabsichtigte elektrische Eigenschaften von

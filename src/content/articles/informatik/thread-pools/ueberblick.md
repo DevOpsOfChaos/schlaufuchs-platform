@@ -1,35 +1,17 @@
 ---
 title: "Thread Pools"
 description: "Überblick über Thread Pools als begrenzte Menge wiederverwendbarer Ausführungsstränge."
-subject: informatik
+subject: "informatik"
 section: "Laufzeit und Nebenläufigkeit"
-topicPath:
-  - "thread-pools"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Thread Pools als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["thread-pools", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, bei langsamen Programmen einfach mehr Threads zu erzeugen, obwohl die eigentliche Grenze Datenbank, Netzwerk oder Locking ist."
-keyTakeaways:
-  - "Ein Thread Pool hält eine kontrollierte Anzahl von Threads bereit, um Aufgaben auszuführen, ohne ständig neue Threads zu erzeugen."
-  - "Er begrenzt Ressourcenverbrauch und macht parallele oder blockierende Arbeit planbarer."
-  - "Ein Thread Pool macht Arbeit nicht automatisch schneller. Bei falscher Größe oder falschem Aufgabentyp entstehen Engpässe."
-recognizeSignals:
-  - "Es geht um Thread Pools, wenn aufgaben warten in einer Queue, bis ein Thread frei wird."
-  - "Das Thema wird relevant, wenn Beispiele wie ein Webserver nutzt einen Pool, um Datenbankoperationen oder Dateizugriffe auszulagern."
-selfCheckPoints:
-  - "Kann ich Thread Pools in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "threads"
-  - "nebenläufigkeit"
-  - "laufzeit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Laufzeit und Nebenläufigkeit"]
 draft: false
 ---
 # Thread Pools

@@ -1,20 +1,12 @@
 ---
-title: Musterlösung – Typumwandlungen in PHP ruhig erklären
-description: Musterlösung zur Aufgabe INF-PHP-ADV-003.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - typumwandlung-und-casts-in-php-verstehen
-  - typumwandlung-und-casts-in-php-begruenden-loesung
-taskId: INF-PHP-ADV-003
-relatedExercise: src/content/exercises/informatik/programmierung/php/typumwandlung-und-casts-in-php-verstehen/typumwandlung-und-casts-in-php-begruenden.md
-tags:
-  - informatik
-  - loesung
-  - php
-  - task-id
+title: "Musterlösung – Typumwandlungen in PHP ruhig erklären"
+description: "Musterlösung zur Aufgabe INF-PHP-ADV-003."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "typumwandlung-und-casts-in-php-verstehen", "typumwandlung-und-casts-in-php-begruenden"]
+taskId: "INF-PHP-ADV-003"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/typumwandlung-und-casts-in-php-verstehen/typumwandlung-und-casts-in-php-begruenden.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
 ## Aufgabe 1

@@ -1,30 +1,17 @@
 ---
-title: Formularfeedback planen und verbessern
-description: Plane Label, Hinweise und Fehlermeldungen so, dass Eingaben verständlich und gut korrigierbar bleiben.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - formular-validierung
-  - formularfeedback-planen-und-verbessern
-level: einfach
+title: "Formularfeedback planen und verbessern"
+description: "Plane Label, Hinweise und Fehlermeldungen so, dass Eingaben verständlich und gut korrigierbar bleiben."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "formular-validierung", "formularfeedback-planen-und-verbessern"]
+taskId: "AUTO-FORMULARFEEDBACK-PLANEN-UND-VERBESSERN"
+tags: ["web-development", "HTML", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - html
-  - formular
-  - validation
-hintPoints:
-  - "Trenne Beschriftung, Hinweis und Fehlermeldung bewusst."
-  - "Achte darauf, dass Feedback nicht nur über Farbe läuft."
-selfCheckPoints:
-  - "Ist klar, was eingegeben werden soll?"
-  - "Erklärt die Fehlermeldung, was falsch ist und wie es besser geht?"
-transferIdeas:
-  - "Übertrage die Idee auf Login, Registrierung oder Kontaktformular."
-  - "Erkläre die Lösung einmal aus Sicht der Nutzenden und einmal aus Sicht des HTML-Aufbaus."
-reflectionPrompt: "Welche Art von Formularfeedback hilft dir selbst am meisten: frühe Hinweise oder klare Fehlermeldungen?"
 ---
-
 ## Aufgabe 1: Rollen trennen
 
 Formuliere für ein Feld „E-Mail-Adresse“ jeweils:

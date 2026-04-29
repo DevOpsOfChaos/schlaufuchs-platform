@@ -3,22 +3,12 @@ title: "Lösung – flüssige Typografie mit clamp planen"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Development-Aufgabe."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "responsive-layouts"
-  - "fluid-typography-mit-clamp-planen"
-tags:
-  - "web development"
-  - "css"
-  - "responsive"
-  - "typografie"
-  - "clamp"
-  - "lösung"
+topicPath: ["css", "responsive-layouts", "fluid-typography-mit-clamp-planen"]
 taskId: "web-v103-fluid-typography-mit-clamp-planen"
 relatedExercise: "web-development/css/responsive-layouts/fluid-typography-mit-clamp-planen"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Eine sinnvolle Lösung ist zum Beispiel `clamp(2rem, 5vw, 4rem)`: klein genug für mobile Breiten, flexibel dazwischen und begrenzt auf großen Screens.

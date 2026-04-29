@@ -1,29 +1,17 @@
 ---
 title: "Hash-Tabellen und Lookup – anwenden und prüfen"
 description: "Übe, hash-tabellen und lookup fachlich auf Beispiele anzuwenden und zu überprüfen."
-subject: informatik
+subject: "informatik"
 section: "Datenstrukturen im Einsatz"
-topicPath:
-  - "datenstrukturen-im-einsatz"
-  - "hash-tabellen-und-lookup"
-  - "uebung"
-taskId: INF-V185-012-2
-tags:
-  - "informatik"
-  - "datenstrukturen-im-einsatz"
-  - "hash-tabellen-und-lookup"
-hintPoints:
-  - "Beginne mit der Grundidee, nicht mit einem Spezialfall."
-  - "Trenne Begriff, Beispiel und Prüfung."
-selfCheckPoints:
-  - "Ich kann das Thema in eigenen Worten erklären."
-  - "Ich kann ein passendes Beispiel begründen."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel in einem anderen Fachbereich."
-level: einfach
+topicPath: ["datenstrukturen-im-einsatz", "hash-tabellen-und-lookup", "hash-tabellen-und-lookup-anwenden-und-pruefen-v185"]
+taskId: "INF-V185-012-2"
+tags: ["informatik", "Datenstrukturen im Einsatz", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe nutzt **Hash-Tabellen und Lookup**, um Beispiele, Grenzen und Prüfwege bewusster zu unterscheiden.
 
 ## Lernziel

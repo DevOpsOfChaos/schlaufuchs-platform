@@ -1,30 +1,17 @@
 ---
 title: "Energiefluss in Schaltungen"
 description: "Allgemeiner Überblick: Elektrische Energie fließt von Quellen über Leitungen und Verbraucher zurück zum Bezugssystem."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schaltungstechnik"
-topicPath:
-  - "energiefluss-in-schaltungen"
-learningGoals:
-  - "Du kannst energiefluss in schaltungen als Grundidee einordnen."
-  - "Du erkennst wichtige Bestandteile und typische Grenzen."
-  - "Du kannst das Thema in einfachen Worten erklären."
+topicPath: ["energiefluss-in-schaltungen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur ein Detail zu betrachten und den Zusammenhang zu übersehen."
-  - "Das Schaubild als exakte technische Darstellung statt als Orientierung zu lesen."
-keyTakeaways:
-  - "Elektrische Energie fließt von Quellen über Leitungen und Verbraucher zurück zum Bezugssystem."
-  - "Ein Überblicksbild hilft, Begriffe und Beziehungen ruhig zu ordnen."
-recognizeSignals:
-  - "Es geht um energiefluss in schaltungen, Grundbegriffe, Zusammenhänge oder typische Fehlerquellen."
-selfCheckPoints:
-  - "Kann ich erklären, welche Rolle energiefluss in schaltungen im größeren Zusammenhang spielt?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "energiefluss in schaltungen"
-  - "überblick"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Schaltungstechnik"]
 draft: false
 ---
 # Energiefluss in Schaltungen

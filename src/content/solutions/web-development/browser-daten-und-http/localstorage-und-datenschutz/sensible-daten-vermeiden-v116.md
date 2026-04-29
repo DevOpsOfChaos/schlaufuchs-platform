@@ -3,22 +3,12 @@ title: "Lösung: sensible Daten vermeiden"
 description: "Musterlösung zur Aufgabe „sensible Daten vermeiden“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "browser-daten-und-http"
-  - "localstorage-und-datenschutz"
-  - "sensible-daten-vermeiden-v116"
+topicPath: ["browser-daten-und-http", "localstorage-und-datenschutz", "sensible-daten-vermeiden-v116"]
 taskId: "sensible-daten-vermeiden-v116"
 relatedExercise: "web-development/browser-daten-und-http/localstorage-und-datenschutz/sensible-daten-vermeiden-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "localstorage und datenschutz"
-  - "sensible daten vermeiden"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

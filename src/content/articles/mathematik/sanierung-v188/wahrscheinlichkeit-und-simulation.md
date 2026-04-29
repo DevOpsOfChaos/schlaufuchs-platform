@@ -3,38 +3,17 @@ title: "Wahrscheinlichkeit und Simulation"
 description: "Wahrscheinlichkeit beschreibt erwartbare Häufigkeiten unter klaren Bedingungen."
 subject: "mathematik"
 section: "daten-deuten-und-pruefen"
-topicPath:
-  - "daten-deuten-und-pruefen"
-  - "wahrscheinlichkeit-und-simulation"
-learningGoals:
-  - "Wahrscheinlichkeit beschreibt erwartbare Häufigkeiten unter klaren Bedingungen fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Wahrscheinlichkeit beschreibt erwartbare Häufigkeiten unter klaren Bedingungen wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v188", "wahrscheinlichkeit-und-simulation"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "wahrscheinlichkeit"
-  - "simulation"
-  - "zufall"
-  - "mathematik"
-  - "v188"
+tags: ["mathematik", "daten-deuten-und-pruefen"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Wahrscheinlichkeit und Simulation](/schlaufuchs-platform/images/mathematik/sanierung-188/wahrscheinlichkeit-und-simulation.svg)
 
 ## Überblick

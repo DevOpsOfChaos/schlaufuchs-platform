@@ -1,23 +1,14 @@
 ---
-title: Lösung – Optimistische UI absichern
-description: Musterlösung zur Aufgabe über Optimistische UI absichern.
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- browser-javascript
-- fetch-und-fehler
-- optimistische-ui-absichern-v114
-taskId: v114-web-development-optimistische-ui-absichern-v114
-relatedExercise: web-development/browser-javascript/fetch-und-fehler/optimistische-ui-absichern-v114
-tags:
-- web-development
-- v114
-- loesung
-- browser-javascript
-- fetch-und-fehler
+title: "Lösung – Optimistische UI absichern"
+description: "Musterlösung zur Aufgabe über Optimistische UI absichern."
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["browser-javascript", "fetch-und-fehler", "optimistische-ui-absichern-v114"]
+taskId: "v114-web-development-optimistische-ui-absichern-v114"
+relatedExercise: "web-development/browser-javascript/fetch-und-fehler/optimistische-ui-absichern-v114"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

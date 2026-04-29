@@ -1,36 +1,17 @@
 ---
 title: "Aufgabe: Kommentar und Code synchron halten"
 description: "Trainiere Kommentar und Code synchron halten an einem kleinen, klar abgegrenzten Fall."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "softwarequalitaet-v115"
-  - "code-lesbarkeit"
-  - "kommentar-und-code-synchron-halten-v115"
+topicPath: ["softwarequalitaet-v115", "code-lesbarkeit", "kommentar-und-code-synchron-halten-v115"]
 taskId: "informatik-kommentar-und-code-synchron-halten-v115"
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "softwarequalität"
-  - "code-lesbarkeit"
-  - "aufgabe"
-hintPoints:
-  - "Grenze zuerst den kleinen Fall vom breiten Themenfeld ab."
-  - "Nutze die Prüffrage: Beschreibt der Kommentar warum oder nur veraltet was?"
-  - "Begründe mit zwei konkreten Hinweisen aus dem Fall."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-transferIdeas:
-  - "Übertrage dieselbe Trennkante auf ein eigenes Mini-Beispiel."
-  - "Formuliere einen Gegenfall, der ähnlich aussieht, aber anders entschieden wird."
-reflectionPrompt: "Was war bei „Kommentar und Code synchron halten“ die wichtigste Trennkante?"
-level: mittel
+tags: ["informatik", "Feinstruktur Informatik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den folgenden Fall zu **Kommentar und Code synchron halten**.

@@ -3,23 +3,12 @@ title: "Lösung – chmod symbolisch statt oktaler Raterei nutzen"
 description: "Musterlösung zu chmod symbolisch statt oktaler Raterei nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Rechte"
-topicPath:
-  - "rechte-und-zugriff"
-  - "besitz-rechte-sudo"
-  - "v110-teil-1"
-  - "chmod-symbolisch-statt-oktaler-raterei-nutzen"
+topicPath: ["rechte-und-zugriff", "besitz-rechte-sudo", "v110-teil-1", "chmod-symbolisch-statt-oktaler-raterei-nutzen"]
 taskId: "v110-linux-chmod-symbolisch-statt-oktaler-raterei-nutzen"
 relatedExercise: "linux/rechte-und-zugriff/besitz-rechte-sudo/v110-teil-1/chmod-symbolisch-statt-oktaler-raterei-nutzen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "rechte-und-zugriff"
-  - "besitz-rechte-sudo"
-  - "chmod-symbolisch-statt-oktaler-raterei-nutzen"
+tags: ["linux", "Rechte", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **chmod symbolisch statt oktaler Raterei nutzen**.

@@ -1,46 +1,19 @@
 ---
-title: Minmax in Grid verstehen
-description: Mindestbreite und verfügbaren Platz kombinieren
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- frontend-struktur
-- css-layout-systeme
-- minmax-in-grid-verstehen-v114
-learningGoals:
-- Du erklärst Minmax in Grid verstehen als klar abgegrenztes Unterthema.
-- Du erkennst die typische Verwechslung und formulierst eine passende Prüffrage.
-- Du nutzt eine Gegenprobe, statt dich nur auf den Kapitelbegriff zu verlassen.
-practiceIdeas:
-- Wende die Prüffrage auf ein zweites Beispiel an.
-- Notiere zuerst Kontext, Entscheidung und Gegenprobe.
-- Grenze das Thema bewusst von einem Nachbarthema ab.
-commonMistakes:
-- Feste Pixelbreiten brechen mobil.
-- Das Thema wird zu breit einsortiert und verliert dadurch seine konkrete Trennkante.
-- Eine Lösung wird akzeptiert, ohne eine Gegenprobe zu prüfen.
-keyTakeaways:
-- Minmax in Grid verstehen wird verständlich, wenn du die kleine Entscheidung im Beispiel sauber benennst.
-- Die Prüffrage hilft stärker als ein breiter Sammelbegriff.
-- Aufgaben bleiben übersichtlich, wenn das Unterthema eng geführt wird.
-recognizeSignals:
-- Eine Aufgabe enthält eine typische Verwechslung.
-- Ein Begriff wirkt bekannt, aber der konkrete Prüfschritt fehlt.
-- Die Lösung muss begründen, warum ein Nachbarthema nicht passt.
-selfCheckPoints:
-- Kann ich die Trennkante in einem Satz nennen?
-- Kann ich die Prüffrage auf das Beispiel anwenden?
-- Kann ich eine sinnvolle Gegenprobe formulieren?
-tags:
-- web-development
-- v114
-- feinstruktur
-- frontend-struktur
-- css-layout-systeme
-level: fortgeschritten
+title: "Minmax in Grid verstehen"
+description: "Mindestbreite und verfügbaren Platz kombinieren"
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["frontend-struktur", "css-layout-systeme", "minmax-in-grid-verstehen-v114"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
+tags: ["web-development", "Feinstruktur Web Development"]
 draft: false
 ---
-
 ## Grundidee
 
 **Minmax in Grid verstehen** ist bewusst als kleines Unterthema angelegt. Mindestbreite und verfügbaren Platz kombinieren. Dadurch bleibt die Seite auffindbar und vermischt sich nicht mit einem übergroßen Sammelkapitel.

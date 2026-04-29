@@ -1,13 +1,19 @@
 ---
-title: HTML-Semantik und Struktur
-description: Nutze HTML-Elemente nicht nur korrekt, sondern auch sinnvoll.
-subject: web-development
-section: html
-level: einfach
-tags: [html, semantik, struktur]
+title: "HTML-Semantik und Struktur"
+description: "Nutze HTML-Elemente nicht nur korrekt, sondern auch sinnvoll."
+subject: "web-development"
+section: "html"
+topicPath: ["html-semantik-und-struktur"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["html", "semantik", "struktur"]
 draft: false
 ---
-
 Gutes HTML beschreibt nicht nur Inhalte, sondern auch ihre Bedeutung innerhalb einer Seite. Genau darum geht es bei Semantik: Elemente sollen nicht zufällig gewählt, sondern passend eingesetzt werden.
 
 ## Was bedeutet Semantik in HTML?

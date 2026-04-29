@@ -3,25 +3,12 @@ title: "Lösung: Container-Grundidee unter Linux: Aufgabe B"
 description: "Musterlösung zur Aufgabe linux-v192-029b im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "betrieb-nahe-grundlagen"
-  - "container-grundidee-unter-linux"
-  - "loesung-b"
+topicPath: ["sanierung-v192", "container-grundidee-unter-linux-loesung-b"]
 taskId: "linux-v192-029b"
 relatedExercise: "linux/sanierung-v192/container-grundidee-unter-linux-aufgabe-b"
-tags:
-  - "betrieb-nahe-grundlagen"
-  - "container"
-  - "grundidee"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-029b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Container-Grundidee unter Linux“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

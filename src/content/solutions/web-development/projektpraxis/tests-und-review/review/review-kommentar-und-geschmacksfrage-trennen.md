@@ -3,23 +3,12 @@ title: "Lösung – Review-Kommentar und Geschmacksfrage trennen"
 description: "Musterlösung zu Code Review mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "projektpraxis"
-  - "tests-und-review"
-  - "review"
-  - "review-kommentar-und-geschmacksfrage-trennen"
+topicPath: ["projektpraxis", "tests-und-review", "review", "review-kommentar-und-geschmacksfrage-trennen"]
 taskId: "v111-web-development-review-kommentar-und-geschmacksfrage-trennen"
 relatedExercise: "web-development/projektpraxis/tests-und-review/review/review-kommentar-und-geschmacksfrage-trennen"
-tags:
-  - "web development"
-  - "frontend"
-  - "unterthema"
-  - "projektpraxis"
-  - "tests-und-review"
-  - "review-kommentar-und-geschmacksfrage-trennen"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Code Review**.

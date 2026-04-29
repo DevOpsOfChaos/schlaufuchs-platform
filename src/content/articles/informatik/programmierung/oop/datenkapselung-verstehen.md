@@ -1,45 +1,19 @@
 ---
-title: Datenkapselung verstehen
-description: Verstehe, warum Daten in Klassen geschuetzt und nur ueber geeignete Methoden zugaenglich gemacht werden.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - datenkapselung-verstehen
-learningGoals:
-  - Du erklaerst Datenkapselung als Schutz und Ordnung von Objektzustaenden.
-  - Du unterscheidest private Daten und oeffentliche Schnittstelle.
-  - Du liest Getter und Setter als Folge von Kapselung statt als isolierte Technik.
-practiceIdeas:
-  - Pruefe bei einer Klasse, welche Daten direkt unsichtbar bleiben sollten.
-  - Begruende, warum Getter oder Setter sinnvoll sein koennen.
-  - Uebertrage das Prinzip auf Zeit, Konto oder Temperatur.
-commonMistakes:
-  - Kapselung nur als Verstecken zu sehen.
-  - Oeffentliche Methoden und interne Daten zu vermischen.
-  - Zu uebersehen, dass Kapselung auch das Testen und Pflegen erleichtert.
-keyTakeaways:
-  - Kapselung schuetzt interne Daten.
-  - Die Klasse steuert den Zugriff ueber Methoden.
-  - Sichtbarkeit und Getter/Setter gehoeren fachlich zusammen.
-recognizeSignals:
-  - Es gibt private Attribute und oeffentliche Methoden.
-  - Aufgaben sprechen ueber Zugriffsschutz, Integritaet oder Getter und Setter.
-  - UML-Sichtbarkeit oder Zugriffsmodifizierer tauchen auf.
-selfCheckPoints:
-  - Kann ich erklaeren, was Kapselung schuetzt?
-  - Kann ich die Rolle von public, protected und private mitdenken?
-  - Kann ich Getter und Setter als Schnittstelle deuten?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - kapselung
+title: "Datenkapselung verstehen"
+description: "Verstehe, warum Daten in Klassen geschuetzt und nur ueber geeignete Methoden zugaenglich gemacht werden."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "datenkapselung-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Datenkapselung bedeutet, dass die Daten eines Objekts nicht beliebig offen zugaenglich sind, sondern durch die Klasse geschuetzt werden.

@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Stromaufnahme und Versorgungsreserve grob abschätzen
-description: Musterlösung zur Aufgabe ELE-MCU-GEN-110.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - strombudget-von-mikrocontroller-schaltungen-grob-abschaetzen
-  - stromaufnahme-und-versorgungsreserve-grob-abschaetzen-loesung
-taskId: ELE-MCU-GEN-110
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller/strombudget-von-mikrocontroller-schaltungen-grob-abschaetzen/stromaufnahme-und-versorgungsreserve-grob-abschaetzen.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - loesung
-  - task-id
+title: "Musterlösung – Stromaufnahme und Versorgungsreserve grob abschätzen"
+description: "Musterlösung zur Aufgabe ELE-MCU-GEN-110."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "strombudget-von-mikrocontroller-schaltungen-grob-abschaetzen", "stromaufnahme-und-versorgungsreserve-grob-abschaetzen"]
+taskId: "ELE-MCU-GEN-110"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller/strombudget-von-mikrocontroller-schaltungen-grob-abschaetzen/stromaufnahme-und-versorgungsreserve-grob-abschaetzen.md"
+tags: ["elektrotechnik", "mikrocontroller", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Die Hauptfrage lautet, ob die Versorgung einer Schaltung nicht nur im Idealbild, sondern auch mit Reserve trägt. Dazu wird der Gesamtstrom mehrerer Verbraucher grob überschlagen, statt nur Einzelbauteile isoliert zu betrachten.

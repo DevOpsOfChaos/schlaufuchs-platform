@@ -1,47 +1,19 @@
 ---
-title: Lokale Variablen und Gültigkeitsbereich verstehen
-description: Verstehe, warum Variablen nur in bestimmten Blöcken sichtbar sind und wie das Funktionen und Kontrollstrukturen lesbarer macht.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - funktionen-und-ablauf
-  - lokale-variablen-und-gueltigkeitsbereich-verstehen
-learningGoals:
-  - Du erklärst, was mit Gültigkeitsbereich gemeint ist.
-  - Du unterscheidest Variablen in Funktionen und Blöcken sauber.
-  - Du erkennst, warum gleichnamige Variablen nicht automatisch dieselbe Rolle haben.
-practiceIdeas:
-  - Vergleiche eine Variable in <code>main</code> mit einer Variable in einer Funktion.
-  - Suche in einem Codebeispiel, ab wo ein Name sichtbar ist und wo nicht.
-  - Begründe, warum ein Block eigene lokale Namen haben kann.
-commonMistakes:
-  - Zu glauben, ein Variablenname gelte automatisch im ganzen Programm.
-  - Gleichnamige Variablen für dieselbe Speicherstelle zu halten.
-  - Zu wenig auf geschweifte Klammern zu achten.
-keyTakeaways:
-  - Variablen sind nur in bestimmten Bereichen sichtbar.
-  - Geschweifte Klammern markieren oft einen neuen Gültigkeitsbereich.
-  - Sauberer Scope schützt vor Verwechslungen.
-recognizeSignals:
-  - Es geht um lokale Variablen, Blöcke, Funktionen oder Sichtbarkeit von Namen.
-  - Du sollst erklären, warum ein Name in einem Bereich funktioniert und in einem anderen nicht.
-  - In Beispielen musst du Klammerblöcke fachlich mitlesen.
-selfCheckPoints:
-  - Kann ich erklären, was ein Gültigkeitsbereich ist?
-  - Kann ich sagen, warum ein Name nicht überall sichtbar ist?
-  - Kann ich gleichnamige lokale Variablen sauber einordnen?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - scope
-  - variablen
+title: "Lokale Variablen und Gültigkeitsbereich verstehen"
+description: "Verstehe, warum Variablen nur in bestimmten Blöcken sichtbar sind und wie das Funktionen und Kontrollstrukturen lesbarer macht."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "lokale-variablen-und-gueltigkeitsbereich-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Variablen gelten nicht automatisch im ganzen Programm. Meist sind sie nur in dem Block sichtbar, in dem sie deklariert wurden. Genau das nennt man ihren Gültigkeitsbereich.

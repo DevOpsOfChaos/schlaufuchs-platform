@@ -3,22 +3,12 @@ title: "Lösung: erste Aktion sichtbar machen"
 description: "Musterlösung zur Aufgabe „erste Aktion sichtbar machen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "ux-feedback-und-fehlerzustaende"
-  - "empty-state-und-naechster-schritt"
-  - "erste-aktion-sichtbar-machen-v116"
+topicPath: ["ux-feedback-und-fehlerzustaende", "empty-state-und-naechster-schritt", "erste-aktion-sichtbar-machen-v116"]
 taskId: "erste-aktion-sichtbar-machen-v116"
 relatedExercise: "web-development/ux-feedback-und-fehlerzustaende/empty-state-und-naechster-schritt/erste-aktion-sichtbar-machen-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "empty state und naechster schritt"
-  - "erste aktion sichtbar machen"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

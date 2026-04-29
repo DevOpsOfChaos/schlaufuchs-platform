@@ -1,15 +1,14 @@
 ---
-title: Überschlag als Sicherheitsnetz – Lösung B
-description: Musterlösung zu Überschlag als Sicherheitsnetz mit Kontrolle.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Überschlag als Sicherheitsnetz – Lösung B"
+description: "Musterlösung zu Überschlag als Sicherheitsnetz mit Kontrolle."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "rechenstrategien-und-kontrolle", "ueberschlag-als-sicherheitsnetz"]
 taskId: "mat-v196-ueberschlag-als-sicherheitsnetz-b"
 relatedExercise: "mathematik/sanierung-v196/ueberschlag-als-sicherheitsnetz-aufgabe-b"
 tags: ["mathematik", "v196", "rechenstrategien-und-kontrolle", "ueberschlag-als-sicherheitsnetz"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine passende Lösung zu dieser Aufgabe muss nicht exakt dieselben Zahlen oder Beispiele verwenden. Entscheidend ist der saubere Aufbau.

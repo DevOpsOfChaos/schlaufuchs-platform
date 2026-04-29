@@ -3,23 +3,12 @@ title: "Lösung – Spannung parallel zum Bauteil messen"
 description: "Musterlösung zu Spannungsmessung parallel mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Messen"
-topicPath:
-  - "daten-und-signale"
-  - "messen-und-fehler"
-  - "spannung-parallel"
-  - "spannung-parallel-zum-bauteil-messen"
+topicPath: ["daten-und-signale", "messen-und-fehler", "spannung-parallel", "spannung-parallel-zum-bauteil-messen"]
 taskId: "v109-elektrotechnik-spannung-parallel-zum-bauteil-messen"
 relatedExercise: "elektrotechnik/daten-und-signale/messen-und-fehler/spannung-parallel/spannung-parallel-zum-bauteil-messen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "daten-und-signale"
-  - "messen-und-fehler"
-  - "spannungsmessung parallel"
+tags: ["elektrotechnik", "Messen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Spannungsmessung parallel**.

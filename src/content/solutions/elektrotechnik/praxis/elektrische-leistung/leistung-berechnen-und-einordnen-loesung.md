@@ -1,23 +1,14 @@
 ---
 title: "Lösung: Leistung berechnen und einordnen"
 description: "Lösung zur Aufgabe über elektrische Leistung, Bauteilgrenzen und Plausibilität."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - "praxis"
-  - "elektrische-leistung"
-  - "leistung-berechnen-und-einordnen"
+topicPath: ["praxis", "elektrische-leistung", "leistung-berechnen-und-einordnen"]
 taskId: "ET-PR-LEISTUNG-001"
 relatedExercise: "src/content/exercises/elektrotechnik/praxis/elektrische-leistung/leistung-berechnen-und-einordnen.md"
-tags:
-  - "elektrotechnik"
-  - "leistung"
-  - "spannung"
-  - "strom"
-  - "verlustleistung"
+tags: ["elektrotechnik", "Praxis", "loesung"]
 draft: false
 ---
-
 ## Lösungsgedanke
 
 Diese Lösung ist bewusst als Musterlösung aufgebaut. Sie zeigt nicht nur ein Ergebnis, sondern die fachliche Begründung, damit die Aufgabe später nachvollziehbar kontrolliert werden kann.

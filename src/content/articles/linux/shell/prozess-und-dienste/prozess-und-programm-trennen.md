@@ -3,44 +3,17 @@ title: "Linux – Prozess und Programm trennen"
 description: "Lerne prozess und programm trennen als kleines Unterthema mit Beispiel, Abgrenzung und Prüfstrategie."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "prozess-und-dienste"
-  - "prozess-und-programm-trennen"
-learningGoals:
-  - "Du erklärst prozess und programm trennen in einem klaren Kontext."
-  - "Du grenzt das Unterthema von einem typischen Nachbarthema ab."
-  - "Du nutzt eine konkrete Gegenprobe statt nur eine Merkliste."
-practiceIdeas:
-  - "Formuliere ein eigenes Mini-Beispiel mit einer typischen Verwechslung."
-  - "Schreibe einen Prüfschritt auf, der das Ergebnis kontrolliert."
-  - "Ordne das Thema bewusst in den kleinen Unterpfad ein."
-commonMistakes:
-  - "Programmdatei und laufender Prozess werden gleichgesetzt."
-  - "Das Thema wird in einem breiten Sammelkapitel versteckt."
-  - "Die Lösung nennt ein Ergebnis, aber keinen prüfbaren Weg."
-keyTakeaways:
-  - "Ein Prozess ist eine laufende Instanz eines Programms."
-  - "Kleine Unterthemen machen Wiederholung und Suche einfacher."
-  - "Aufgabe und Lösung sollen dieselbe Trennkante verwenden."
-recognizeSignals:
-  - "Eine Aufgabe enthält einen Begriff, der leicht mit einem Nachbarthema verwechselt wird."
-  - "Ein Beispiel braucht vor der Rechnung oder Umsetzung eine Einordnung."
-  - "Eine Gegenprobe kann den gewählten Weg bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich den typischen Fehler fachlich ausschließen?"
-  - "Passt meine Lösung genau zum Unterpfad?"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "prozess-und-programm-trennen"
+topicPath: ["shell", "prozess-und-dienste", "prozess-und-programm-trennen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["linux", "Feinstruktur Linux"]
 draft: false
 ---
-
 ## Grundidee
 
 **Prozess und Programm trennen** ist bewusst als kleines Unterthema angelegt. Lerne prozess und programm trennen als kleines Unterthema mit Beispiel, Abgrenzung und Prüfstrategie. Dadurch bleibt die Seite auffindbar und landet nicht in einem übergroßen Sammelbereich.

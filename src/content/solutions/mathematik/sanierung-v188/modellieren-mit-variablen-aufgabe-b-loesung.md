@@ -3,22 +3,12 @@ title: "Lösung: Modellieren mit Variablen: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-010b."
 subject: "mathematik"
 section: "modellieren-und-validieren"
-topicPath:
-  - "modellieren-und-validieren"
-  - "textmodell-und-variablenwahl"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "modellieren-mit-variablen-aufgabe-b"]
 taskId: "mat-v188-010b"
 relatedExercise: "mathematik/sanierung-v188/modellieren-mit-variablen-aufgabe-b"
-tags:
-  - "modellieren"
-  - "variablen"
-  - "textaufgaben"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "modellieren-und-validieren", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-010b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

@@ -1,0 +1,21 @@
+{
+  "version": "v206",
+  "title": "Informatik Datenplattform Cloud KI",
+  "counts": {
+    "articles": 1,
+    "svgs": 1,
+    "exercises": 2,
+    "solutions": 2,
+    "docs": 3
+  },
+  "paths": [
+    "src/content/articles/informatik/sanierung-v206-datenplattform-cloud-ki/datenplattformen-im-ueberblick.md",
+    "public/images/informatik/sanierung-v206-datenplattform-cloud-ki/datenplattformen-im-ueberblick.svg",
+    "src/content/exercises/informatik/sanierung-v206-datenplattform-cloud-ki/datenplattformen-im-ueberblick-aufgabe-a.md",
+    "src/content/solutions/informatik/sanierung-v206-datenplattform-cloud-ki/datenplattformen-im-ueberblick-aufgabe-a-loesung.md",
+    "src/content/exercises/informatik/sanierung-v206-datenplattform-cloud-ki/datenplattformen-im-ueberblick-aufgabe-b.md",
+    "src/content/solutions/informatik/sanierung-v206-datenplattform-cloud-ki/datenplattformen-im-ueberblick-aufgabe-b-loesung.md",
+    "docs/audit-nachtraege/v206-informatik-datenplattform-cloud-ki.md",
+    "docs/status/v206-informatik-datenplattform-cloud-ki.md"
+  ]
+}

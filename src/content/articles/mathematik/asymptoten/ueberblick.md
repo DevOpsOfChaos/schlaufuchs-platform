@@ -1,33 +1,19 @@
 ---
 title: "Asymptoten"
 description: "Asymptoten beschreiben Geraden oder Kurven, denen sich ein Graph annähert. Sie helfen, langfristiges oder grenznahes Verhalten von Funktionen zu verstehen."
-subject: mathematik
+subject: "mathematik"
 section: "Mathematik"
-topicPath:
-  - "asymptoten"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Asymptoten."
-  - "Du kannst Asymptoten in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["asymptoten", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Asymptoten nur aus dem Bild abzulesen, ohne Funktionsverhalten zu prüfen."
-keyTakeaways:
-  - "Asymptoten beschreiben Geraden oder Kurven, denen sich ein Graph annähert."
-  - "Wichtig sind vor allem waagerechte, senkrechte und schräge asymptoten, grenzverhalten und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Asymptoten, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Asymptoten dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "grundlagen"
-  - "asymptoten"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Mathematik"]
 draft: false
 ---
-
 # Asymptoten
 
 ![Schaubild zu Asymptoten.](/schlaufuchs-platform/images/overviews/v149/asymptoten.svg)

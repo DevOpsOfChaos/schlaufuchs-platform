@@ -1,32 +1,17 @@
 ---
 title: "Markov-Ketten"
 description: "Allgemeiner Überblick über Zufallsprozesse, deren nächster Zustand nur vom aktuellen Zustand abhängt."
-subject: mathematik
+subject: "mathematik"
 section: "Wahrscheinlichkeit"
-topicPath:
-  - "markov-ketten"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Markov-Ketten als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Zustand, Übergangsmatrix, Gedächtnislosigkeit."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["markov-ketten", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Jeden zufälligen Prozess automatisch als Markov-Kette zu behandeln."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Markov-Ketten beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Zustandsmodelle mit Übergangswahrscheinlichkeiten."
-  - "Wichtige Hinweise liefern vor allem Zustand, Übergangsmatrix, Gedächtnislosigkeit."
-recognizeSignals:
-  - "Es geht um zustandsmodelle mit übergangswahrscheinlichkeiten, zustand oder übergangsmatrix."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Markov-Ketten erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "wahrscheinlichkeit"
-  - "modelle"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Wahrscheinlichkeit"]
 draft: false
 ---
 # Markov-Ketten

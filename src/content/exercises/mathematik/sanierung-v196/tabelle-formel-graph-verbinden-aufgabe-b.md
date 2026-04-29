@@ -1,19 +1,17 @@
 ---
-title: Tabelle, Formel und Graph verbinden – Aufgabe B
-description: Kurze Übung zu Tabelle, Formel und Graph verbinden mit sichtbarem Lösungsweg.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Tabelle, Formel und Graph verbinden – Aufgabe B"
+description: "Kurze Übung zu Tabelle, Formel und Graph verbinden mit sichtbarem Lösungsweg."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "modellieren-und-validieren", "tabelle-formel-graph-verbinden"]
 taskId: "mat-v196-tabelle-formel-graph-verbinden-b"
 tags: ["mathematik", "v196", "modellieren-und-validieren", "tabelle-formel-graph-verbinden"]
-hintPoints: ["Schreibe zuerst die Frage auf.", "Trenne Angaben, Rechnung und Kontrolle.", "Nutze eine Einheit oder einen Größencheck."]
-selfCheckPoints: ["Ist dein Weg nachvollziehbar?", "Ist die Antwort im Kontext formuliert?", "Hast du mindestens eine Kontrolle genannt?"]
-transferIdeas: ["Wähle ein zweites Zahlenbeispiel.", "Erkläre den Weg einer anderen Person.", "Vergleiche mit einer Skizze oder Tabelle."]
-reflectionPrompt: "Welche Stelle war entscheidend: Deutung, Rechnung oder Kontrolle?"
-level: mittel
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Übertrage Tabelle, Formel und Graph verbinden auf ein eigenes Beispiel. Zeige dabei, welche Annahme du machst und wie du dein Ergebnis prüfst.

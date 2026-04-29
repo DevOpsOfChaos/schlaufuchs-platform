@@ -3,23 +3,12 @@ title: "Lösung – active und enabled bei systemd trennen"
 description: "Musterlösung zu systemd active/enabled mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "systembetrieb"
-  - "prozesse-dienste-logs"
-  - "systemctl"
-  - "active-und-enabled-bei-systemd-trennen"
+topicPath: ["systembetrieb", "prozesse-dienste-logs", "systemctl", "active-und-enabled-bei-systemd-trennen"]
 taskId: "v111-linux-active-und-enabled-bei-systemd-trennen"
 relatedExercise: "linux/systembetrieb/prozesse-dienste-logs/systemctl/active-und-enabled-bei-systemd-trennen"
-tags:
-  - "linux"
-  - "betrieb"
-  - "unterthema"
-  - "systembetrieb"
-  - "prozesse-dienste-logs"
-  - "active-und-enabled-bei-systemd-trennen"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **systemd active/enabled**.

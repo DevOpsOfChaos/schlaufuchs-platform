@@ -3,23 +3,12 @@ title: "Lösung – Längenfaktor und Flächenfaktor trennen"
 description: "Musterlösung zu Skalierungsfaktoren mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "geometrie"
-  - "einheiten-und-skalierung"
-  - "flaechenfaktor"
-  - "laengenfaktor-und-flaechenfaktor-trennen"
+topicPath: ["geometrie", "einheiten-und-skalierung", "flaechenfaktor", "laengenfaktor-und-flaechenfaktor-trennen"]
 taskId: "v111-mathematik-laengenfaktor-und-flaechenfaktor-trennen"
 relatedExercise: "mathematik/geometrie/einheiten-und-skalierung/flaechenfaktor/laengenfaktor-und-flaechenfaktor-trennen"
-tags:
-  - "mathematik"
-  - "prüfung"
-  - "unterthema"
-  - "geometrie"
-  - "einheiten-und-skalierung"
-  - "laengenfaktor-und-flaechenfaktor-trennen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Skalierungsfaktoren**.

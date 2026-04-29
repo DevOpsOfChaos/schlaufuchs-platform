@@ -3,21 +3,12 @@ title: "Lösung – Review-Frage vor Kommentar klären"
 description: "Musterlösung zu review-frage vor kommentar klären mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "projektpraxis"
-  - "tests-und-review"
-  - "review-frage-vor-kommentar-klaeren"
+topicPath: ["projektpraxis", "tests-und-review", "review-frage-vor-kommentar-klaeren"]
 taskId: "v112-web-development-review-frage-vor-kommentar-klaeren"
 relatedExercise: "web-development/projektpraxis/tests-und-review/review-frage-vor-kommentar-klaeren"
-tags:
-  - "web-development"
-  - "v112"
-  - "feinstruktur"
-  - "projektpraxis"
-  - "review-frage-vor-kommentar-klaeren"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Projektpraxis Tests und Review**.

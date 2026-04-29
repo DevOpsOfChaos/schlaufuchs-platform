@@ -1,12 +1,17 @@
 ---
-title: Schaltpläne und Symbole lesen
-description: Diese Aufgabe vertieft die Grundidee von Schaltplänen als funktionale Darstellung elektrischer Schaltungen.
-subject: elektrotechnik
-section: Grundlagen
-level: einfach
+title: "Schaltpläne und Symbole lesen"
+description: "Diese Aufgabe vertieft die Grundidee von Schaltplänen als funktionale Darstellung elektrischer Schaltungen."
+subject: "elektrotechnik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "schaltplaene-und-symbole-lesen"]
+taskId: "AUTO-SCHALTPLAENE-UND-SYMBOLE-LESEN"
+tags: ["elektrotechnik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben so, dass immer klar bleibt, dass ein Schaltplan keine Fotoansicht, sondern eine Funktionsdarstellung ist.

@@ -1,33 +1,17 @@
 ---
 title: "Grundlagen: Semantik und Barrierefreiheit"
 description: "Allgemeiner Überblick über semantisches HTML und barrierearme Webinhalte."
-subject: web-development
+subject: "web-development"
 section: "HTML"
-topicPath:
-  - html
-  - semantik-und-barrierefreiheit
-  - grundlagen-semantik-und-barrierefreiheit
-learningGoals:
-  - "Du erklärst semantisches HTML als Bedeutung statt nur Darstellung."
-  - "Du beschreibst Barrierefreiheit als Nutzbarkeit für verschiedene Menschen und Geräte."
-  - "Du ordnest Überschriften, Landmarken und Alternativtexte als Strukturhilfen ein."
+topicPath: ["html", "semantik-und-barrierefreiheit", "ueberblick", "grundlagen-semantik-und-barrierefreiheit"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "HTML-Elemente nur nach Aussehen zu wählen."
-  - "Barrierefreiheit als nachträgliches Extra zu behandeln."
-  - "ARIA zu verwenden, obwohl semantisches HTML reichen würde."
-keyTakeaways:
-  - "Semantik beschreibt die Bedeutung von Inhalten."
-  - "Barrierefreiheit beginnt bei klarer Struktur."
-  - "Gutes HTML hilft Menschen, Browsern, Suchmaschinen und Hilfstechnologien."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - web
-  - html
-  - semantik
-  - barrierefreiheit
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
 ## Begriff

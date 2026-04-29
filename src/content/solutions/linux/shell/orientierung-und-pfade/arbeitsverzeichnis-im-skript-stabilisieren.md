@@ -3,21 +3,12 @@ title: "Lösung – Arbeitsverzeichnis im Skript stabilisieren"
 description: "Musterlösung zu arbeitsverzeichnis im skript stabilisieren mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "orientierung-und-pfade"
-  - "arbeitsverzeichnis-im-skript-stabilisieren"
+topicPath: ["shell", "orientierung-und-pfade", "arbeitsverzeichnis-im-skript-stabilisieren"]
 taskId: "v112-linux-arbeitsverzeichnis-im-skript-stabilisieren"
 relatedExercise: "linux/shell/orientierung-und-pfade/arbeitsverzeichnis-im-skript-stabilisieren"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "arbeitsverzeichnis-im-skript-stabilisieren"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Orientierung und Pfade**.

@@ -1,33 +1,19 @@
 ---
 title: "Event Sourcing"
 description: "Event Sourcing speichert Zustandsänderungen als Folge von Ereignissen. Der aktuelle Zustand entsteht durch Wiederabspielen dieser Ereignisse."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "event-sourcing"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Event Sourcing."
-  - "Du kannst Event Sourcing in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["event-sourcing", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Event Sourcing einzusetzen, obwohl einfache Zustandspeicherung genügt."
-keyTakeaways:
-  - "Event Sourcing speichert Zustandsänderungen als Folge von Ereignissen."
-  - "Wichtig sind vor allem event-log als quelle, projektionen und read models und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Event Sourcing, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Event Sourcing dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "informatik"
-  - "grundlagen"
-  - "event sourcing"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Event Sourcing
 
 Event Sourcing speichert Zustandsänderungen als Folge von Ereignissen. Der aktuelle Zustand entsteht durch Wiederabspielen dieser Ereignisse. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

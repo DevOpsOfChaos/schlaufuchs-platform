@@ -1,33 +1,19 @@
 ---
 title: "Hardware-Entprellung"
 description: "Hardware-Entprellung stabilisiert mechanische Schaltsignale mit Bauteilen wie RC-Gliedern, Schmitt-Triggern oder speziellen Entprellschaltungen. Sie kann Software entlasten und Störungen früher begrenzen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik und Mikrocontroller"
-topicPath:
-  - "hardware-entprellung"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Hardware-Entprellung."
-  - "Du kannst Hardware-Entprellung in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["hardware-entprellung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Einen Kondensator ohne Blick auf Schaltgeschwindigkeit und Eingangsstrom einzusetzen."
-keyTakeaways:
-  - "Hardware-Entprellung stabilisiert mechanische Schaltsignale mit Bauteilen wie RC-Gliedern, Schmitt-Triggern oder speziellen Entprellschaltungen."
-  - "Wichtig sind vor allem rc-zeitkonstante, schmitt-trigger als schwellenformer und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Hardware-Entprellung, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Hardware-Entprellung dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "grundlagen"
-  - "hardware entprellung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik und Mikrocontroller"]
 draft: false
 ---
-
 # Hardware-Entprellung
 
 Hardware-Entprellung stabilisiert mechanische Schaltsignale mit Bauteilen wie RC-Gliedern, Schmitt-Triggern oder speziellen Entprellschaltungen. Sie kann Software entlasten und Störungen früher begrenzen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

@@ -3,40 +3,17 @@ title: "Pull-up- und Pull-down-Widerstände"
 description: "Verstehe digitale eingänge eindeutig halten als ruhigen Baustein für sichere und nachvollziehbare Elektrotechnik."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "digitale-schaltungen"
-  - "pullup-und-pulldown-widerstaende"
-learningGoals:
-  - "Digitale Eingänge eindeutig halten"
-  - "Mess- und Schaltungsentscheidungen begründen"
-  - "typische Fehlerbilder früh erkennen"
-practiceIdeas:
-  - "Entscheide, ob ein Taster mit Pull-up oder Pull-down beschrieben ist."
-  - "Formuliere eine kurze Prüfcheckliste für einen zweiten ähnlichen Aufbau."
-commonMistakes:
-  - "Schaltplan, Aufbau und Messgerät werden nicht getrennt betrachtet."
-  - "Einheiten oder Messbereiche werden erst nach dem Rechnen geprüft."
-  - "Sicherheits- und Grenzwerte werden als Nachtrag behandelt."
-keyTakeaways:
-  - "Ein offener Eingang kann undefiniert wirken."
-  - "Ruhige Elektrotechnik trennt Größe, Bauteil, Messpunkt und Fehlerfall."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn ein Messwert, ein Bauteil oder ein Schaltungszustand sicher eingeordnet werden muss."
-selfCheckPoints:
-  - "Kann ich Messpunkt, Strompfad und Bauteilrolle unterscheiden?"
-  - "Ist mindestens ein Grenz- oder Fehlerfall benannt?"
-  - "Bleibt die Begründung mit Einheiten und Richtung verständlich?"
+topicPath: ["sanierung-v191", "pullup-und-pulldown-widerstaende"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "digitale-schaltungen"
-  - "pullup"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Pull-up- und Pull-down-Widerstände](/schlaufuchs-platform/images/elektrotechnik/sanierung-v191/pullup-und-pulldown-widerstaende.svg)
 
 Pull-up- und Pull-down-Widerstände gehört zur Elektrotechnik-Sanierung v191. Die Seite behandelt das Thema als praktische Entscheidung: Was zeigt der Schaltplan, was passiert im realen Aufbau, wo wird gemessen und welcher Fehlerfall muss vor dem Einschalten bedacht werden?

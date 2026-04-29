@@ -1,46 +1,19 @@
 ---
-title: WebSockets-Grundidee verstehen
-description: Verstehe, warum WebSockets für Echtzeitkommunikation geeignet sind und wie sie sich von reinen HTTP-Antworten unterscheiden.
-subject: informatik
-section: Netzwerke
-topicPath:
-  - netzwerke
-  - websockets
-  - websockets-grundidee-verstehen
-learningGoals:
-  - Du erklärst die Grundidee einer dauerhaften bidirektionalen Verbindung.
-  - Du erkennst, warum WebSockets für Echtzeit-Anwendungen nützlich sind.
-  - Du unterscheidest eine dauerhafte Verbindung von einzelnen HTTP-Anfragen.
-practiceIdeas:
-  - Ordne Chat, Live-Ticker oder Statusanzeigen als Echtzeitszenarien ein.
-  - Beschreibe, warum der Server bei WebSockets auch ohne neue Benutzeraktion Daten schicken kann.
-  - Vergleiche WebSockets grob mit einer wiederholten Polling-Lösung.
-commonMistakes:
-  - WebSockets mit einer normalen einmaligen HTTP-Anfrage zu verwechseln.
-  - Zu denken, der Server könne sonst nie ungefragt Daten senden.
-  - Die Bedeutung der offenen Verbindung zu unterschätzen.
-keyTakeaways:
-  - WebSockets nutzen eine dauerhafte Verbindung.
-  - Beide Seiten können Nachrichten senden.
-  - Das macht WebSockets besonders geeignet für Echtzeit-Webanwendungen.
-recognizeSignals:
-  - Eine Anwendung zeigt laufend neue Daten ohne ständiges Neuladen.
-  - Es geht um Chat, Live-Werte oder Statusänderungen.
-  - Du sollst erklären, warum eine offene Verbindung nützlich ist.
-selfCheckPoints:
-  - Kann ich die Rolle der dauerhaften Verbindung erklären?
-  - Kann ich beschreiben, warum WebSockets bidirektional sind?
-  - Kann ich ein passendes Echtzeitbeispiel nennen?
-level: einfach
-tags:
-  - informatik
-  - netzwerke
-  - websockets
-  - echtzeit
-  - web
+title: "WebSockets-Grundidee verstehen"
+description: "Verstehe, warum WebSockets für Echtzeitkommunikation geeignet sind und wie sie sich von reinen HTTP-Antworten unterscheiden."
+subject: "informatik"
+section: "Netzwerke"
+topicPath: ["netzwerke", "websockets", "websockets-grundidee-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Netzwerke"]
 draft: false
 ---
-
 ## Grundidee
 
 WebSockets ermöglichen eine dauerhafte Verbindung zwischen Browser und Server. Dadurch können beide Seiten Nachrichten austauschen, ohne für jede einzelne Nachricht eine komplett neue Anfrage aufzubauen.

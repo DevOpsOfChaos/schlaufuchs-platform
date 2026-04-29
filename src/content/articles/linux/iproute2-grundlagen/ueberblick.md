@@ -1,35 +1,17 @@
 ---
 title: "iproute2-Grundlagen"
 description: "Überblick über iproute2 als moderne Werkzeugsammlung für Netzwerkadressen, Routen und Links."
-subject: linux
+subject: "linux"
 section: "Netzwerk"
-topicPath:
-  - "iproute2-grundlagen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst iproute2-Grundlagen als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["iproute2-grundlagen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird nur die IP-Adresse betrachtet. Ohne Route, Linkstatus und Netzmaske ist die Diagnose unvollständig."
-keyTakeaways:
-  - "iproute2 stellt Befehle wie ip bereit, um Netzwerkinterfaces, Adressen, Routen und Nachbarschaftstabellen zu betrachten und zu konfigurieren."
-  - "Es ist die moderne Grundlage vieler Netzwerkdiagnosen unter Linux."
-  - "iproute2 ersetzt nicht das Verständnis von DNS, Firewall oder Diensten. Es zeigt vor allem lokale Netzwerkzustände und Routing."
-recognizeSignals:
-  - "Es geht um iproute2-Grundlagen, wenn ip addr zeigt Adressen und Interfacezustände."
-  - "Das Thema wird relevant, wenn Beispiele wie wenn ein Server keine Verbindung aufbaut, kann ip route zeigen, ob überhaupt eine passende Standardroute existiert."
-selfCheckPoints:
-  - "Kann ich iproute2-Grundlagen in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "netzwerk"
-  - "iproute2"
-  - "ip"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Netzwerk"]
 draft: false
 ---
 # iproute2-Grundlagen

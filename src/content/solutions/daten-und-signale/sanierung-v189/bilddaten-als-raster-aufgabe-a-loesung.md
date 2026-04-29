@@ -3,22 +3,12 @@ title: "Lösung: Bilddaten als Raster: Grundordnung"
 description: "Musterlösung zur Aufgabe dat-v189-013a."
 subject: "daten-und-signale"
 section: "codierung"
-topicPath:
-  - "codierung"
-  - "bilddaten-als-raster"
-  - "loesung-a"
+topicPath: ["sanierung-v189", "bilddaten-als-raster-aufgabe-a"]
 taskId: "dat-v189-013a"
 relatedExercise: "daten-und-signale/sanierung-v189/bilddaten-als-raster-aufgabe-a"
-tags:
-  - "bilddaten"
-  - "raster"
-  - "pixel"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "codierung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-013a`
 
 Eine mögliche Lösung:

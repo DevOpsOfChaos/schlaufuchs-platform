@@ -3,26 +3,12 @@ title: "Lösung: Admin-Dokumentation schreiben: Aufgabe A"
 description: "Musterlösung zur Aufgabe linux-v192-032a im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "betrieb-nahe-grundlagen"
-  - "admin-dokumentation-schreiben"
-  - "loesung-a"
+topicPath: ["sanierung-v192", "admin-dokumentation-schreiben-loesung-a"]
 taskId: "linux-v192-032a"
 relatedExercise: "linux/sanierung-v192/admin-dokumentation-schreiben-aufgabe-a"
-tags:
-  - "betrieb-nahe-grundlagen"
-  - "admin"
-  - "dokumentation"
-  - "schreiben"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-032a`
 
 Ausgangsauftrag: Schreibe eine kurze Betriebsnotiz zu einer behobenen Störung.

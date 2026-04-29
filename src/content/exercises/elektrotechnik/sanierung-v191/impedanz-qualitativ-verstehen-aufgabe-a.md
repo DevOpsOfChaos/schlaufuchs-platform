@@ -3,36 +3,15 @@ title: "Impedanz qualitativ verstehen: Aufgabe A"
 description: "Erkläre qualitativ, warum ein Kondensator bei höherer Frequenz anders wirkt."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "wechselstrom"
-  - "impedanz-qualitativ-verstehen"
-  - "aufgabe-a"
+topicPath: ["sanierung-v191", "impedanz-qualitativ-verstehen-aufgabe-a"]
 taskId: "etech-v191-024a"
-tags:
-  - "wechselstrom"
-  - "impedanz"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "aufgabe"
-  - "v191"
-hintPoints:
-  - "Trenne Schaltplan, realen Aufbau und Messpunkt."
-  - "Nenne mindestens eine Einheit oder einen Grenzwert."
-  - "Formuliere einen passenden Fehlerfall."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Impedanz qualitativ verstehen."
-  - "Messrichtung, Anschluss oder Bauteilrolle sind nachvollziehbar."
-  - "Die Lösung bleibt ohne Spezialgerät verständlich."
-transferIdeas:
-  - "Übertrage die Idee auf eine zweite kleine Schaltung."
-  - "Erstelle eine Mini-Checkliste für die Messung."
-reflectionPrompt: "Welcher Prüfschritt verhindert hier den wahrscheinlichsten Fehler?"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Erkläre qualitativ, warum ein Kondensator bei höherer Frequenz anders wirkt.

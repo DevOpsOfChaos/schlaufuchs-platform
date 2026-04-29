@@ -3,23 +3,12 @@ title: "Lösung: Responsive Design im Überblick: Prüfung und Verbesserung"
 description: "Musterlösung zur Aufgabe web-v187-016b im Web-Development-Block v187."
 subject: "web-development"
 section: "css"
-topicPath: 
-  - "css-und-layout"
-  - "responsive-design"
-  - "loesung-b"
+topicPath: ["sanierung-v187", "responsive-design-ueberblick-aufgabe-b"]
 taskId: "web-v187-016b"
 relatedExercise: "web-development/sanierung-v187/responsive-design-ueberblick-aufgabe-b"
-tags: 
-  - "responsive"
-  - "css"
-  - "layout"
-  - "mobile"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "css", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-016b`
 
     Ausgangsauftrag: Finde in einem CSS-Auszug starre Werte, die ein responsives Layout stören.

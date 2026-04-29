@@ -3,40 +3,17 @@ title: "Formulareingaben auslesen"
 description: "Verstehe eingaben als daten verstehen als ruhigen Baustein für wartbare Frontend-Projekte."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "formulare"
-  - "formulareingaben-auslesen"
-learningGoals:
-  - "Eingaben als Daten verstehen"
-  - "typische Fehlerquellen erkennen"
-  - "eine kleine Frontend-Entscheidung begründen"
-practiceIdeas:
-  - "Lies drei Formularfelder aus und beschreibe ihre Rollen."
-  - "Formuliere eine Mini-Checkliste für eine zweite ähnliche Oberfläche."
-commonMistakes:
-  - "Technik wird benutzt, ohne den Zweck zu klären."
-  - "Fehlerfälle werden erst nachträglich betrachtet."
-  - "HTML, CSS und JavaScript werden unnötig vermischt."
-keyTakeaways:
-  - "Formularwerte sind zunächst Zeichenketten."
-  - "Kleine, klare Prüfschritte machen Frontend-Code wartbarer."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Verhalten, Daten oder Zustand einer Webseite bewusst gesteuert werden müssen."
-selfCheckPoints:
-  - "Kann ich Zweck, Daten und sichtbare Wirkung trennen?"
-  - "Ist mindestens ein Fehlerfall genannt?"
-  - "Bleibt die Lösung auch ohne Spezialwissen nachvollziehbar?"
+topicPath: ["sanierung-v190", "formulareingaben-auslesen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "formulare"
-  - "formulareingaben"
-  - "javascript"
-  - "frontend"
-  - "web-development"
+tags: ["web-development", "javascript-vertiefung"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Formulareingaben auslesen](/schlaufuchs-platform/images/web-development/sanierung-v190/formulareingaben-auslesen.svg)
 
 Formulareingaben auslesen gehört zur JavaScript-Vertiefung im Web Development. Die Seite betrachtet das Thema nicht als isolierten Code-Trick, sondern als Entscheidungspunkt: Welche Aufgabe hat der Baustein, welche Daten oder Elemente sind beteiligt und wie bleibt die Lösung auch später verständlich?

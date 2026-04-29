@@ -3,23 +3,12 @@ title: "Lösung – Widerstandsleistung als Grenzwert beachten"
 description: "Musterlösung zu Leistungsgrenze mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "elektrotechnik"
 section: "Schaltungen"
-topicPath:
-  - "schaltungen-und-stromkreis"
-  - "schutz-und-grenzwerte"
-  - "leistung"
-  - "widerstandsleistung-als-grenzwert-beachten"
+topicPath: ["schaltungen-und-stromkreis", "schutz-und-grenzwerte", "leistung", "widerstandsleistung-als-grenzwert-beachten"]
 taskId: "v107-elektrotechnik-widerstandsleistung-als-grenzwert-beachten"
 relatedExercise: "elektrotechnik/schaltungen-und-stromkreis/schutz-und-grenzwerte/leistung/widerstandsleistung-als-grenzwert-beachten"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "schaltungen"
-  - "leistungsgrenze"
-  - "schaltungen-und-stromkreis"
-  - "schutz-und-grenzwerte"
+tags: ["elektrotechnik", "Schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Leistungsgrenze**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

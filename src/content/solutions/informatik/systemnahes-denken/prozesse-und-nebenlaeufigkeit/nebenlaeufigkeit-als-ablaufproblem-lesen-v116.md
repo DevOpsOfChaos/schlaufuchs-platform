@@ -3,22 +3,12 @@ title: "Lösung: Nebenläufigkeit als Ablaufproblem lesen"
 description: "Musterlösung zur Aufgabe „Nebenläufigkeit als Ablaufproblem lesen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "systemnahes-denken"
-  - "prozesse-und-nebenlaeufigkeit"
-  - "nebenlaeufigkeit-als-ablaufproblem-lesen-v116"
+topicPath: ["systemnahes-denken", "prozesse-und-nebenlaeufigkeit", "nebenlaeufigkeit-als-ablaufproblem-lesen-v116"]
 taskId: "nebenlaeufigkeit-als-ablaufproblem-lesen-v116"
 relatedExercise: "informatik/systemnahes-denken/prozesse-und-nebenlaeufigkeit/nebenlaeufigkeit-als-ablaufproblem-lesen-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "prozesse und nebenlaeufigkeit"
-  - "nebenlaeufigkeit als ablaufproblem lesen"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

@@ -1,35 +1,17 @@
 ---
 title: "API-Fehlerformate"
 description: "Überblick über konsistente Fehlerformate in APIs und ihre Bedeutung für robuste Benutzeroberflächen."
-subject: web-development
+subject: "web-development"
 section: "APIs"
-topicPath:
-  - "api-fehlerformate"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst API-Fehlerformate als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["api-fehlerformate", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird nur eine freie Textmeldung zurückgegeben. Das erschwert Übersetzung, Barrierefreiheit und automatische Verarbeitung."
-keyTakeaways:
-  - "API-Fehlerformate beschreiben, wie Server Fehler strukturiert an Clients zurückgeben."
-  - "Ein konsistentes Format hilft Frontends, Fehlermeldungen, Feldfehler, Wiederholbarkeit und Supportinformationen zuverlässig darzustellen."
-  - "Ein Fehlerformat ersetzt keine Fehlerbehandlung. Es schafft nur eine klare Grundlage dafür."
-recognizeSignals:
-  - "Es geht um API-Fehlerformate, wenn hTTP-Statuscode und Antwortkörper erfüllen unterschiedliche Aufgaben."
-  - "Das Thema wird relevant, wenn Beispiele wie ein Formular kann Feldfehler markieren, wenn die API ein strukturiertes Objekt mit Feldnamen und Meldungscodes liefert."
-selfCheckPoints:
-  - "Kann ich API-Fehlerformate in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "web development"
-  - "api"
-  - "fehler"
-  - "json"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "APIs"]
 draft: false
 ---
 # API-Fehlerformate

@@ -3,32 +3,17 @@ title: "Diskriminante"
 description: "Allgemeiner Überblick über diskriminante und die wichtigsten Zusammenhänge."
 subject: "mathematik"
 section: "Quadratische Gleichungen"
-topicPath:
-  - "diskriminante"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["diskriminante", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird sie berechnet, aber nicht mit dem Graphen verbunden."
-keyTakeaways:
-  - "Die Diskriminante verbindet Gleichungsrechnung mit Parabellage."
-  - "Die Diskriminante ist kein zusätzlicher Lösungsweg, sondern ein Diagnoseausdruck."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "mathematik"
-  - "quadratische gleichungen"
-  - "diskriminante"
-  - "lösungen"
+tags: ["mathematik", "Quadratische Gleichungen"]
 draft: false
 ---
-
 # Diskriminante
 
 Die Diskriminante gibt bei quadratischen Gleichungen Hinweise auf Anzahl und Art der Lösungen.

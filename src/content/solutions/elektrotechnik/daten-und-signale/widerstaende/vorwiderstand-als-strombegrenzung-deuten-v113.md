@@ -3,20 +3,12 @@ title: "Lösung – Vorwiderstand als Strombegrenzung deuten"
 description: "Musterlösung zu Vorwiderstand als Strombegrenzung deuten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "widerstaende"
-  - "vorwiderstand-als-strombegrenzung-deuten-v113"
+topicPath: ["daten-und-signale", "widerstaende", "vorwiderstand-als-strombegrenzung-deuten-v113"]
 taskId: "v113-elektrotechnik-vorwiderstand-als-strombegrenzung-deuten-v113"
 relatedExercise: "elektrotechnik/daten-und-signale/widerstaende/vorwiderstand-als-strombegrenzung-deuten-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "vorwiderstand-als-strombegrenzung-deuten-v113"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Vorwiderstand als Strombegrenzung deuten**.

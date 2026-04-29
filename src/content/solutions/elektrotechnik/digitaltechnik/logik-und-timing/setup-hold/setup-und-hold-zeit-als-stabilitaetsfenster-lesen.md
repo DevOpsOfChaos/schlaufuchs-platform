@@ -3,23 +3,12 @@ title: "Lösung – Setup- und Hold-Zeit als Stabilitätsfenster lesen"
 description: "Musterlösung zu Setup und Hold mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "digitaltechnik"
-  - "logik-und-timing"
-  - "setup-hold"
-  - "setup-und-hold-zeit-als-stabilitaetsfenster-lesen"
+topicPath: ["digitaltechnik", "logik-und-timing", "setup-hold", "setup-und-hold-zeit-als-stabilitaetsfenster-lesen"]
 taskId: "v111-elektrotechnik-setup-und-hold-zeit-als-stabilitaetsfenster-lesen"
 relatedExercise: "elektrotechnik/digitaltechnik/logik-und-timing/setup-hold/setup-und-hold-zeit-als-stabilitaetsfenster-lesen"
-tags:
-  - "elektrotechnik"
-  - "praxis"
-  - "unterthema"
-  - "digitaltechnik"
-  - "logik-und-timing"
-  - "setup-und-hold-zeit-als-stabilitaetsfenster-lesen"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Setup und Hold**.

@@ -1,12 +1,17 @@
 ---
-title: Layout für kleine Breiten anpassen
-description: Diese Aufgabe trainiert einfache responsive Anpassungen mit Media Queries, damit Inhalte auch auf kleinen Breiten ruhig und nutzbar bleiben.
-subject: web-development
-section: CSS und Layout
-level: mittel
+title: "Layout für kleine Breiten anpassen"
+description: "Diese Aufgabe trainiert einfache responsive Anpassungen mit Media Queries, damit Inhalte auch auf kleinen Breiten ruhig und nutzbar bleiben."
+subject: "web-development"
+section: "CSS und Layout"
+topicPath: ["layout-fuer-kleine-breiten-anpassen"]
+taskId: "AUTO-LAYOUT-FUER-KLEINE-BREITEN-ANPASSEN"
+tags: ["web-development", "CSS und Layout", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben mit Fokus auf Lesbarkeit und Struktur. Es geht nicht um möglichst viele Effekte, sondern um saubere Anpassungen für kleine Breiten.

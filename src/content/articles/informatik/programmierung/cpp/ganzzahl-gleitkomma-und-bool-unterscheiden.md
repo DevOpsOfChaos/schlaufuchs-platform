@@ -1,48 +1,19 @@
 ---
-title: Ganzzahl-, Gleitkomma- und bool-Werte unterscheiden
-description: Verstehe, wann ein exakter Zählwert, ein Näherungswert oder ein Ja-Nein-Zustand gebraucht wird.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - primitive-datentypen
-  - ganzzahl-gleitkomma-und-bool-unterscheiden
-learningGoals:
-  - Du unterscheidest ganze Zahlen, Näherungswerte und bool-Werte sauber.
-  - Du erklärst, warum Messwerte und Zählwerte nicht gleich behandelt werden sollten.
-  - Du erkennst typische Verwechslungen zwischen 0, false und Zeichenwerten.
-practiceIdeas:
-  - Begründe für mehrere Variablen, ob ein Zählwert, Näherungswert oder Zustand vorliegt.
-  - Prüfe, welche Werte exakt gezählt werden und welche nur angenähert vorliegen.
-  - Vergleiche Beispiele mit <code>int</code>, <code>double</code> und <code>bool</code> bewusst über ihre Rolle im Ablauf.
-commonMistakes:
-  - Eine Messgröße mit Nachkommastellen als exakte Anzahl zu behandeln.
-  - bool-Werte nur als verkleidete Zahlen zu sehen.
-  - Zeichen, Zustände und ganze Zahlen über dieselbe Sichtweise zu lesen.
-keyTakeaways:
-  - Ganze Zahlen eignen sich für exakte Stückzahlen oder Zähler.
-  - Gleitkommawerte eignen sich für Näherungswerte wie Längen, Zeiten oder Temperaturen.
-  - bool ist für Entscheidungen und Zustände gedacht.
-recognizeSignals:
-  - Es geht um Typwahl, Variablenrollen oder die Frage, ob ein Wert genau oder nur angenähert vorliegt.
-  - In Beispielen musst du zwischen Rechnen, Vergleichen und Entscheiden unterscheiden.
-  - Du sollst begründen, warum ein bestimmter Grundtyp sinnvoller ist als ein anderer.
-selfCheckPoints:
-  - Kann ich ganze Zahlen, Näherungswerte und Zustände auseinanderhalten?
-  - Kann ich erklären, warum Messwerte oft anders behandelt werden als Zählwerte?
-  - Kann ich Verwechslungen zwischen 0, false und Zeichenwerten vermeiden?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - int
-  - double
-  - bool
+title: "Ganzzahl-, Gleitkomma- und bool-Werte unterscheiden"
+description: "Verstehe, wann ein exakter Zählwert, ein Näherungswert oder ein Ja-Nein-Zustand gebraucht wird."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "ganzzahl-gleitkomma-und-bool-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Beim Programmieren ist nicht nur wichtig, <em>dass</em> ein Wert gespeichert wird, sondern auch <em>welche Art von Wert</em> vorliegt. Ein Lagerbestand, eine Temperatur und ein Zustand wie „eingeloggt oder nicht“ brauchen nicht dieselbe Denkweise.

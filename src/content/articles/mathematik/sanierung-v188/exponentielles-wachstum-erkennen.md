@@ -3,38 +3,17 @@ title: "Exponentielles Wachstum erkennen"
 description: "Exponentielles Wachstum arbeitet mit Faktoren statt festen Zuwächsen."
 subject: "mathematik"
 section: "funktionen-im-vergleich"
-topicPath:
-  - "funktionen-im-vergleich"
-  - "exponentielles-wachstum-erkennen"
-learningGoals:
-  - "Exponentielles Wachstum arbeitet mit Faktoren statt festen Zuwächsen fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Exponentielles Wachstum arbeitet mit Faktoren statt festen Zuwächsen wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v188", "exponentielles-wachstum-erkennen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "exponential"
-  - "wachstum"
-  - "faktor"
-  - "mathematik"
-  - "v188"
+tags: ["mathematik", "funktionen-im-vergleich"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Exponentielles Wachstum erkennen](/schlaufuchs-platform/images/mathematik/sanierung-188/exponentielles-wachstum-erkennen.svg)
 
 ## Überblick

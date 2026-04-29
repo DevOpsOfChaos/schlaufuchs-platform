@@ -3,22 +3,12 @@ title: "Lösung: Flächennäherung und Summe: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-039a."
 subject: "mathematik"
 section: "analysis-vorbereitung"
-topicPath:
-  - "analysis-vorbereitung"
-  - "flaechennaeherung-und-summe"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "flaechennaeherung-und-summe-aufgabe-a"]
 taskId: "mat-v188-039a"
 relatedExercise: "mathematik/sanierung-v188/flaechennaeherung-und-summe-aufgabe-a"
-tags:
-  - "flaeche"
-  - "summe"
-  - "analysis"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "analysis-vorbereitung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-039a`
 
 Eine mögliche Lösung:

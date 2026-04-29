@@ -3,21 +3,10 @@ title: "Lösung – Eingang mit Pull-Widerstand und Schutzgedanke bewerten"
 description: "Musterlösung zu „Eingang mit Pull-Widerstand und Schutzgedanke bewerten“."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "pullup-pulldown-und-eingangsschutz"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "pullup-pulldown-und-eingangsschutz"]
 taskId: "et-mc-v94-pullup-pulldown-schutz"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/pullup-pulldown-und-eingangsschutz"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "atmega"
-  - "pullup"
-  - "pulldown"
-  - "eingang"
-  - "schutz"
-  - "taster"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

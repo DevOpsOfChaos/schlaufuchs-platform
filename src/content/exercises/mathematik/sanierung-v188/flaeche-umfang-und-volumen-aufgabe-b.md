@@ -3,33 +3,15 @@ title: "Fläche, Umfang und Volumen: Prüfen und Begründen"
 description: "Bewerte eine Aussage zu Fläche, Umfang und Volumen und formuliere eine bessere Arbeitsregel."
 subject: "mathematik"
 section: "geometrie-messen-und-begruenden"
-topicPath:
-  - "geometrie-messen-und-begruenden"
-  - "flaeche-umfang-und-volumen"
-  - "aufgabe-b"
+topicPath: ["sanierung-v188", "flaeche-umfang-und-volumen-aufgabe-b"]
 taskId: "mat-v188-026b"
-tags:
-  - "flaeche"
-  - "umfang"
-  - "volumen"
-  - "mathematik"
-  - "aufgabe"
-  - "v188"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["mathematik", "geometrie-messen-und-begruenden", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Prüfe die folgende Aussage zum Thema **Fläche, Umfang und Volumen**:

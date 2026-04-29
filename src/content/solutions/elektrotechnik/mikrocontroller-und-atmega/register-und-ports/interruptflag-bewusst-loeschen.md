@@ -3,21 +3,12 @@ title: "Lösung – Interruptflag bewusst löschen"
 description: "Musterlösung zu interruptflag bewusst löschen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "register-und-ports"
-  - "interruptflag-bewusst-loeschen"
+topicPath: ["mikrocontroller-und-atmega", "register-und-ports", "interruptflag-bewusst-loeschen"]
 taskId: "v112-elektrotechnik-interruptflag-bewusst-loeschen"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/register-und-ports/interruptflag-bewusst-loeschen"
-tags:
-  - "elektrotechnik"
-  - "v112"
-  - "feinstruktur"
-  - "mikrocontroller-und-atmega"
-  - "interruptflag-bewusst-loeschen"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Mikrocontroller Register und Ports**.

@@ -1,35 +1,17 @@
 ---
 title: "pipefail und Pipeline-Fehler"
 description: "Überblick über Fehlererkennung in Shell-Pipelines und die Bedeutung von pipefail."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - "pipefail-und-pipeline-fehler"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst pipefail und Pipeline-Fehler als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["pipefail-und-pipeline-fehler", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Viele Skripte prüfen nur den letzten Exit-Code und übersehen dadurch Fehler in früheren Pipeline-Schritten."
-keyTakeaways:
-  - "In Shell-Pipelines zählt standardmäßig oft nur der Exit-Status des letzten Befehls, obwohl vorherige Befehle bereits fehlgeschlagen sein können."
-  - "pipefail macht Pipelines robuster, weil ein Fehler in einem früheren Schritt nicht still verschwindet."
-  - "pipefail ist nicht in jeder Shell identisch verfügbar. Skripte müssen zur verwendeten Shell passen."
-recognizeSignals:
-  - "Es geht um pipefail und Pipeline-Fehler, wenn eine Pipeline verbindet mehrere Befehle über Datenströme."
-  - "Das Thema wird relevant, wenn Beispiele wie wenn grep nichts findet und danach sort läuft, kann die Pipeline ohne klare Fehlerbehandlung trotzdem scheinbar erfolgreich enden."
-selfCheckPoints:
-  - "Kann ich pipefail und Pipeline-Fehler in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "pipeline"
-  - "fehlerbehandlung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
 # pipefail und Pipeline-Fehler

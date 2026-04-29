@@ -1,34 +1,19 @@
 ---
 title: "Masse und Bezugspotential"
 description: "Überblick über Masse als Bezugspotential und Rückstrompfad in elektrischen Schaltungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Grundlagen"
-topicPath:
-  - "masse-und-bezugspotential"
-  - "ueberblick"
-learningGoals:
-  - "Du verstehst Masse als gemeinsamen Bezug für Spannungen."
-  - "Du erkennst Masse nicht nur als Symbol, sondern als realen Strompfad."
-  - "Du kannst typische Masseprobleme grob einordnen."
+topicPath: ["masse-und-bezugspotential", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Masse als idealen Punkt ohne Spannungseinfluss zu behandeln."
-  - "Alle Masseverbindungen automatisch als gleich gut anzusehen."
-keyTakeaways:
-  - "Masse ist das Bezugspotential, gegen das viele Spannungen gemessen werden."
-  - "In realen Schaltungen kann Masse durch Ströme und Leitungen beeinflusst werden."
-recognizeSignals:
-  - "Es geht um GND, Bezug, Rückleitung, Messfehler, Störungen, gemeinsame Masse oder Potentialunterschiede."
-selfCheckPoints:
-  - "Kann ich erklären, warum zwei Geräte für digitale Signale oft eine gemeinsame Masse brauchen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "masse"
-  - "bezugspotential"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Grundlagen"]
 draft: false
 ---
-
 # Masse und Bezugspotential
 
 ## Grundidee

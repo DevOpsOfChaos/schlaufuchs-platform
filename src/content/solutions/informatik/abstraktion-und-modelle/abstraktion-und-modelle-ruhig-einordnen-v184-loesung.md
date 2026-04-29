@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Abstraktion und Modelle – Ruhig einordnen"
 description: "Musterlösung zur Aufgabe über Abstraktion und Modelle."
-subject: informatik
+subject: "informatik"
 section: "abstraktion-und-modelle"
-topicPath:
-  - "abstraktion-und-modelle"
-taskId: INF-ABSTRAKTION-UND-MODELLE-841
-relatedExercise: src/content/exercises/informatik/abstraktion-und-modelle/abstraktion-und-modelle-ruhig-einordnen-v184.md
-tags:
-  - "informatik"
-  - "abstraktion"
-  - "modelle"
-  - "loesung"
+topicPath: ["abstraktion-und-modelle", "abstraktion-und-modelle-ruhig-einordnen-v184"]
+taskId: "INF-ABSTRAKTION-UND-MODELLE-841"
+relatedExercise: "src/content/exercises/informatik/abstraktion-und-modelle/abstraktion-und-modelle-ruhig-einordnen-v184.md"
+tags: ["informatik", "abstraktion-und-modelle", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

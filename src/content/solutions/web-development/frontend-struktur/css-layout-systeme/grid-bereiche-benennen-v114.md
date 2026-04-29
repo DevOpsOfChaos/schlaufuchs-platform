@@ -1,23 +1,14 @@
 ---
-title: Lösung – Grid-Bereiche benennen
-description: Musterlösung zur Aufgabe über Grid-Bereiche benennen.
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- frontend-struktur
-- css-layout-systeme
-- grid-bereiche-benennen-v114
-taskId: v114-web-development-grid-bereiche-benennen-v114
-relatedExercise: web-development/frontend-struktur/css-layout-systeme/grid-bereiche-benennen-v114
-tags:
-- web-development
-- v114
-- loesung
-- frontend-struktur
-- css-layout-systeme
+title: "Lösung – Grid-Bereiche benennen"
+description: "Musterlösung zur Aufgabe über Grid-Bereiche benennen."
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["frontend-struktur", "css-layout-systeme", "grid-bereiche-benennen-v114"]
+taskId: "v114-web-development-grid-bereiche-benennen-v114"
+relatedExercise: "web-development/frontend-struktur/css-layout-systeme/grid-bereiche-benennen-v114"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

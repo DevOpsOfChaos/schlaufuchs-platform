@@ -1,34 +1,19 @@
 ---
 title: "Motortreiber-Grundlagen"
 description: "Überblick darüber, warum Motoren meist nicht direkt von Mikrocontroller-Pins betrieben werden und welche Rolle Treiberstufen übernehmen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik"
-topicPath:
-  - "motortreiber-grundlagen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["motortreiber-grundlagen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Einen Motor direkt an einen GPIO-Pin anzuschließen, weil der Pin logisch High liefern kann."
-keyTakeaways:
-  - "Motortreiber übersetzen Logiksignale in belastbare Leistungssignale und schützen die Steuerung."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Motoren, Spulen, Lüfter oder Relais von einer digitalen Steuerung geschaltet werden sollen."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "motoren"
-  - "leistungselektronik"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik"]
 draft: false
 ---
-
 # Motortreiber-Grundlagen
 
 Ein Motortreiber ist eine Leistungsschnittstelle zwischen Steuerlogik und Motor. Er sorgt dafür, dass ein kleines Steuersignal eine deutlich größere Last sicher schalten oder regeln kann.

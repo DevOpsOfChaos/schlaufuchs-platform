@@ -1,44 +1,19 @@
 ---
-title: Responsive Layouts
-description: Verstehe, wie Layouts auf unterschiedliche Bildschirmgrößen reagieren und warum das kein nachträglicher Zusatz ist.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-tags:
-  - css
-  - responsive
-  - media queries
-  - layout
-learningGoals:
-  - "Du verstehst responsive Design als Grundprinzip moderner Weblayouts."
-  - "Du erkennst, wie Layouts auf verschiedene Viewports reagieren sollen."
-  - "Du ordnest Media Queries, flexible Breiten und sinnvolle Umbrüche fachlich ein."
-practiceIdeas:
-  - "Vergleiche ein Layout auf großem und kleinem Bildschirm bewusst nach Lesbarkeit und Struktur."
-  - "Plane zuerst die Reihenfolge wichtiger Inhalte, bevor du Spalten festlegst."
-  - "Nutze Media Queries nur dort, wo der Inhalt wirklich einen sinnvollen Umbruch braucht."
-commonMistakes:
-  - "Responsive Design nur als Handy-Version zu verstehen."
-  - "Zu starre Pixel-Layouts zu bauen."
-  - "Umbrüche rein optisch statt inhaltlich zu entscheiden."
-keyTakeaways:
-  - "Responsive Layouts passen sich unterschiedlichen Geräten und Viewports an."
-  - "Flexibilität beginnt bei Inhalt, Reihenfolge und Lesbarkeit."
-  - "Media Queries sind ein Werkzeug, aber nicht die ganze Idee."
-recognizeSignals:
-  - "Es geht um unterschiedliche Bildschirmgrößen, Umbrüche, Viewports oder Media Queries."
-  - "Du sollst erklären, warum ein Layout auf kleinen Geräten anders aufgebaut sein sollte."
-  - "Ein Beispiel fragt nach Lesbarkeit, Reihenfolge und Struktur statt nur nach Optik."
-selfCheckPoints:
-  - "Kann ich responsive Design als inhaltliches Prinzip erklären?"
-  - "Kann ich benennen, wann ein Layout umgebaut werden sollte?"
-  - "Kann ich Media Queries sinnvoll einordnen?"
-level: einfach
+title: "Responsive Layouts"
+description: "Verstehe, wie Layouts auf unterschiedliche Bildschirmgrößen reagieren und warum das kein nachträglicher Zusatz ist."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "responsive-layouts"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Warum responsive Design zum Standard gehört
 
 Webseiten werden heute auf sehr unterschiedlichen Geräten genutzt: vom breiten Desktopfenster bis zum kleinen Smartphone. Darum reicht es nicht, nur „eine feste Seite“ zu bauen. Layouts müssen sich sinnvoll anpassen.

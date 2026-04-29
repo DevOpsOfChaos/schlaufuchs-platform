@@ -3,24 +3,12 @@ title: "Lösung: async, await und Fehlerbehandlung: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-v190-015b im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "datenladen"
-  - "async-await-und-fehlerbehandlung"
-  - "loesung-b"
+topicPath: ["sanierung-v190", "async-await-und-fehlerbehandlung-aufgabe-b"]
 taskId: "web-v190-015b"
 relatedExercise: "web-development/sanierung-v190/async-await-und-fehlerbehandlung-aufgabe-b"
-tags:
-  - "datenladen"
-  - "async"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-015b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „async, await und Fehlerbehandlung“ um einen Fehlerfall, eine Abnahmebedingung und eine kurze Begründung.

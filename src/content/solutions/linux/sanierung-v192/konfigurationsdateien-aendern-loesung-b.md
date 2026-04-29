@@ -3,25 +3,12 @@ title: "Lösung: Konfigurationsdateien ändern: Aufgabe B"
 description: "Musterlösung zur Aufgabe linux-v192-025b im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "automatisierung"
-  - "konfigurationsdateien-aendern"
-  - "loesung-b"
+topicPath: ["sanierung-v192", "konfigurationsdateien-aendern-loesung-b"]
 taskId: "linux-v192-025b"
 relatedExercise: "linux/sanierung-v192/konfigurationsdateien-aendern-aufgabe-b"
-tags:
-  - "automatisierung"
-  - "konfigurationsdateien"
-  - "aendern"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-025b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Konfigurationsdateien ändern“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

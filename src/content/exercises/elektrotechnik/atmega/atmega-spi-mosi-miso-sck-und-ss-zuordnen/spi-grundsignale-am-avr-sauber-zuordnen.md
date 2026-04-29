@@ -1,32 +1,17 @@
 ---
-title: SPI-Grundsignale am AVR sauber zuordnen
-description: Ordne MOSI, MISO, SCK und SS in einem typischen Master-Slave-Aufbau am ATmega ruhig zu.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-kommunikation
-  - atmega-spi-mosi-miso-sck-und-ss-zuordnen
-  - spi-grundsignale-am-avr-sauber-zuordnen
-taskId: ET-ATMEGA-SPI-208
-level: mittel
+title: "SPI-Grundsignale am AVR sauber zuordnen"
+description: "Ordne MOSI, MISO, SCK und SS in einem typischen Master-Slave-Aufbau am ATmega ruhig zu."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-spi-mosi-miso-sck-und-ss-zuordnen", "spi-grundsignale-am-avr-sauber-zuordnen"]
+taskId: "ET-ATMEGA-SPI-208"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - atmega
-  - spi
-  - pins
-hintPoints:
-  - Denke die Signalnamen zuerst aus Sicht des Masters.
-  - Trenne Datenrichtung und Gerätesicht bewusst.
-selfCheckPoints:
-  - Kannst du MOSI, MISO, SCK und SS sicher erklären?
-  - Kannst du Master- und Slave-Sicht ohne Richtungsfehler wechseln?
-transferIdeas:
-  - Übertrage die Logik auf Sensoren, Displays oder Speichermodule am SPI-Bus.
-reflectionPrompt: "Welche der vier Leitungen wirkt auf den ersten Blick am „selbstverständlichsten“, ist aber in Wahrheit leicht falsch zu lesen?"
 ---
-
 ## Aufgabe 1
 
 Ordne die vier Signalnamen **MOSI**, **MISO**, **SCK** und **SS** jeweils einer kurzen Funktionsbeschreibung zu.

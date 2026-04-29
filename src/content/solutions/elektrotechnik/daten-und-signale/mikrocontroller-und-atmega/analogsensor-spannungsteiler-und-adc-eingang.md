@@ -3,19 +3,10 @@ title: "Lösung – Analogsensor am ADC mit Spannungsteiler beurteilen"
 description: "Musterlösung zu „Analogsensor am ADC mit Spannungsteiler beurteilen“."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "analogsensor-spannungsteiler-und-adc-eingang"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "analogsensor-spannungsteiler-und-adc-eingang"]
 taskId: "et-mc-v93-analogsensor"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/analogsensor-spannungsteiler-und-adc-eingang"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "adc"
-  - "sensor"
-  - "spannungsteiler"
-  - "messung"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

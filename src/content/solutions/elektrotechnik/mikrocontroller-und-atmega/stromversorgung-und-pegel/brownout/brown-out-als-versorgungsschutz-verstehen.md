@@ -3,23 +3,12 @@ title: "Lösung – Brown-out als Versorgungsschutz verstehen"
 description: "Musterlösung zu Brown-out mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "stromversorgung-und-pegel"
-  - "brownout"
-  - "brown-out-als-versorgungsschutz-verstehen"
+topicPath: ["mikrocontroller-und-atmega", "stromversorgung-und-pegel", "brownout", "brown-out-als-versorgungsschutz-verstehen"]
 taskId: "v111-elektrotechnik-brown-out-als-versorgungsschutz-verstehen"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/stromversorgung-und-pegel/brownout/brown-out-als-versorgungsschutz-verstehen"
-tags:
-  - "elektrotechnik"
-  - "praxis"
-  - "unterthema"
-  - "mikrocontroller-und-atmega"
-  - "stromversorgung-und-pegel"
-  - "brown-out-als-versorgungsschutz-verstehen"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Brown-out**.

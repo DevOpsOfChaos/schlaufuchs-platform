@@ -3,44 +3,17 @@ title: "JavaScript – Race Conditions beim Fetch vermeiden"
 description: "Erkenne, warum ältere Antworten neue UI-Zustände überschreiben können, und plane Schutzmechanismen für Datenladen."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "daten-laden"
-  - "race-conditions-beim-fetch-vermeiden"
-learningGoals:
-  - "Du erklärst, welche Kernidee hinter „Race Conditions beim Fetch vermeiden“ steht."
-  - "Du trennst sichtbare Oberfläche, technische Umsetzung und Nutzererwartung sauber."
-  - "Du leitest aus einem kleinen Beispiel konkrete Verbesserungen für echte Seiten ab."
-practiceIdeas:
-  - "Prüfe eine vorhandene Seite mit genau diesem Blick und notiere drei Verbesserungen."
-  - "Formuliere ein schwaches Beispiel in eine nutzerfreundlichere Variante um."
-  - "Verbinde die technische Regel mit einer sichtbaren Auswirkung für Nutzerinnen und Nutzer."
-commonMistakes:
-  - "jede Antwort blind rendern"
-  - "nur auf schnelles Netz testen"
-  - "UI-Zustand und Anfrage nicht koppeln"
-keyTakeaways:
-  - "Die letzte Anfrage muss nicht als Letztes antworten"
-  - "Gute Web-Entwicklung verbindet technische Korrektheit mit verständlicher Nutzerführung."
-  - "Eine kleine, klare Regel ist wertvoller als eine große Sammlung ungetesteter Sonderfälle."
-recognizeSignals:
-  - "Eine Oberfläche wirkt technisch vorhanden, aber für Nutzende unklar."
-  - "Ein Verhalten funktioniert im Idealfall, bricht aber bei Fehlern, langsamen Netzen oder anderen Geräten."
-  - "Du sollst nicht nur Code schreiben, sondern eine robuste Entscheidung begründen."
-selfCheckPoints:
-  - "Kann ich das Problem in einem Satz ohne Fachjargon erklären?"
-  - "Kann ich zeigen, woran Nutzende die Verbesserung bemerken?"
-  - "Kann ich eine einfache Prüffrage für den nächsten Review ableiten?"
-tags:
-  - "web development"
-  - "javascript"
-  - "fetch"
-  - "race condition"
-  - "ux"
-level: fortgeschritten
+topicPath: ["javascript", "daten-laden", "race-conditions-beim-fetch-vermeiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Beim Suchen, Filtern oder schnellen Wechseln können mehrere Anfragen gleichzeitig unterwegs sein. Wenn eine alte Antwort später eintrifft, darf sie nicht den neuen Zustand überschreiben.

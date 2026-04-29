@@ -3,34 +3,15 @@ title: "Aufgabe – focus-visible und Tastaturfokus gestalten"
 description: "Verbessere einen Button-Stil, der outline entfernt. Ergänze eine tastaturfreundliche Alternative."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "selektoren"
-  - "focus-visible-und-tastaturfokus-gestalten"
-tags:
-  - "web development"
-  - "css"
-  - "focus-visible"
-  - "accessibility"
-  - "tastatur"
-  - "aufgabe"
+topicPath: ["css", "selektoren", "focus-visible-und-tastaturfokus-gestalten"]
 taskId: "web-v101-focus-visible-und-tastaturfokus-gestalten"
-hintPoints:
-  - "Lies zuerst die vorhandene HTML-, CSS- oder JavaScript-Situation."
-  - "Trenne sichtbare Rückmeldung von interner Logik."
-  - "Begründe, warum dein Vorschlag für Nutzerinnen und Nutzer verständlich ist."
-selfCheckPoints:
-  - "Ist die Lösung auch bei fehlenden Daten oder Fehlern nachvollziehbar?"
-  - "Sind Struktur, Gestaltung und Verhalten sauber getrennt?"
-  - "Gibt es eine passende Rückmeldung?"
-transferIdeas:
-  - "Übertrage die Aufgabe auf eine Formular-, Karten- oder Navigationsoberfläche."
-  - "Vergleiche eine schnelle, aber fragile Lösung mit einer robusteren Lösung."
-reflectionPrompt: "Welche kleine Entscheidung verbessert hier nicht nur den Code, sondern auch die Nutzererfahrung?"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Verbessere einen Button-Stil, der outline entfernt. Ergänze eine tastaturfreundliche Alternative.

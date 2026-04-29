@@ -1,17 +1,19 @@
 ---
-title: Elektrische Leistung verstehen
-description: Elektrische Leistung beschreibt, wie viel elektrische Energie pro Zeit umgesetzt wird und ist eine zentrale Größe in Elektrotechnik und Elektronik.
-subject: elektrotechnik
-section: Grundlagen
-level: mittel
-tags:
-  - Leistung
-  - Spannung
-  - Strom
-  - Elektrotechnik
+title: "Elektrische Leistung verstehen"
+description: "Elektrische Leistung beschreibt, wie viel elektrische Energie pro Zeit umgesetzt wird und ist eine zentrale Größe in Elektrotechnik und Elektronik."
+subject: "elektrotechnik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "elektrische-leistung-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 Elektrische Leistung ist eine der wichtigsten Größen in der Elektrotechnik. Sie beschreibt nicht einfach nur „wie stark etwas ist“, sondern wie viel Energie in einer bestimmten Zeit umgesetzt wird. Leistung spielt deshalb bei Lampen, Motoren, Netzteilen, Widerständen und vielen technischen Geräten eine zentrale Rolle.

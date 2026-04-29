@@ -1,35 +1,19 @@
 ---
 title: "Grundlagen: Rekursion und Abbruch"
 description: "Rekursion führt ein Problem auf kleinere Fälle zurück und braucht einen klaren Abbruch."
-subject: informatik
+subject: "informatik"
 section: "Algorithmen klein begründen"
-topicPath:
-  - "algorithmen-klein-begruenden"
-  - "rekursion-und-abbruch"
-  - "ueberblick"
-learningGoals:
-  - "Du ordnest Rekursion und Abbruch fachlich ein."
-  - "Du unterscheidest zentrale Begriffe und typische Rollen."
-  - "Du erkennst häufige Fehler beim Anwenden."
-practiceIdeas:
-  - "Formuliere die Grundidee in zwei Sätzen."
-  - "Ordne ein Beispiel den wichtigsten Begriffen zu."
-commonMistakes:
-  - "Rekursion nur als Selbstaufruf zu sehen, ohne den Fortschritt zum Basisfall zu prüfen."
-keyTakeaways:
-  - "Rekursion führt ein Problem auf kleinere Fälle zurück und braucht einen klaren Abbruch."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung vor einer Einzelfalllösung."
-selfCheckPoints:
-  - "Kann ich die Grundbegriffe voneinander unterscheiden?"
-level: mittel
-tags:
-  - "informatik"
-  - "algorithmen-klein-begruenden"
-  - "rekursion-und-abbruch"
+topicPath: ["algorithmen-klein-begruenden", "rekursion-und-abbruch", "ueberblick", "grundlagen-rekursion-und-abbruch"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Algorithmen klein begründen"]
 draft: false
 ---
-
 ![Schaubild zu Rekursion und Abbruch](/schlaufuchs-platform/images/overviews/v183/informatik-rekursion-und-abbruch.svg)
 
 ## Begriff

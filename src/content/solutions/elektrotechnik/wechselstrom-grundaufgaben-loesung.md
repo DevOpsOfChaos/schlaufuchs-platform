@@ -1,21 +1,14 @@
 ---
 title: "Lösung: Wechselstrom – Grundaufgaben"
 description: "Lösung zu Grundaufgaben über Wechselstrom, Frequenz und zeitlichen Verlauf."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Wechselstrom"
-topicPath:
-  - "wechselstrom"
+topicPath: ["wechselstrom-grundaufgaben"]
 taskId: "ET-GR-AC-001"
 relatedExercise: "src/content/exercises/elektrotechnik/wechselstrom-grundaufgaben.md"
-tags:
-  - "elektrotechnik"
-  - "wechselstrom"
-  - "frequenz"
-  - "phase"
-  - "loesung"
+tags: ["elektrotechnik", "Wechselstrom", "loesung"]
 draft: false
 ---
-
 ## Lösungsgedanke
 
 Diese Musterlösung trennt zuerst Begriff, Schaltungszusammenhang und Begründung. Dadurch wird nicht nur ein Ergebnis genannt, sondern der fachliche Weg sichtbar.

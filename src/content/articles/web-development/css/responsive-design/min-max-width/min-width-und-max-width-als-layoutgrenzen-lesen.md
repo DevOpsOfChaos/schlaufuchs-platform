@@ -3,46 +3,17 @@ title: "Web Development – min-width und max-width als Layoutgrenzen lesen"
 description: "Lerne min-width und max-width als enges, prüfbares Unterthema mit Beispiel, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "responsive-design"
-  - "min-max-width"
-  - "min-width-und-max-width-als-layoutgrenzen-lesen"
-learningGoals:
-  - "Du erklärst min-width und max-width als eigenes Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Erstelle eine Gegenprobe mit verändertem Wert, Zustand oder Kontext."
-  - "Vergleiche die Seite mit einem Nachbarthema und nenne die Trennkante."
-commonMistakes:
-  - "Mindest- und Höchstgrenze werden vertauscht."
-  - "Das Thema nur einem breiten Kapitel zuordnen."
-  - "Eine Lösung formulieren, die keine konkrete Prüfung enthält."
-keyTakeaways:
-  - "min-width und max-width wird über Einordnung, Abgrenzung und Gegenprobe stabil."
-  - "Kleine Unterthemen erhöhen Auffindbarkeit und reduzieren Doppelungen."
-  - "Aufgabe und Lösung sollen dieselbe fachliche Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Ein breites Kapitel wäre als Antwort zu ungenau."
-  - "Ein konkreter Prüfschritt kann die Entscheidung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "css"
-  - "responsive-design"
-  - "min-width und max-width"
+topicPath: ["css", "responsive-design", "min-max-width", "min-width-und-max-width-als-layoutgrenzen-lesen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 **min-width und max-width** ist ein kleines Unterthema mit einer klaren Trennkante. Lerne min-width und max-width als enges, prüfbares Unterthema mit Beispiel, Abgrenzung und Gegenprobe. Dadurch bleibt die Seite übersichtlich und landet nicht als weiterer Abschnitt in einem zu breiten Sammelthema.

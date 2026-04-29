@@ -3,24 +3,12 @@ title: "Lösung: Glättung und Mittelwert: Aufgabe B"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-020b im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "signalverarbeitung"
-  - "glattung-und-mittelwert"
-  - "loesung-b"
-
+topicPath: ["sanierung-v195", "glattung-und-mittelwert-loesung-b"]
 taskId: "daten-und-signale-v195-020b"
 relatedExercise: "daten-und-signale/sanierung-v195/glattung-und-mittelwert-aufgabe-b"
-tags:
-  - "glattung"
-  - "mittelwert"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-020b`
 
 Ausgangsauftrag: Übertrage das Thema Glättung und Mittelwert auf ein zweites Beispiel und formuliere eine kurze Prüfung.

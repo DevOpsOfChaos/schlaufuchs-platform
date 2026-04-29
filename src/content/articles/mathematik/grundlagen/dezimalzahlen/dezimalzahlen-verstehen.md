@@ -1,17 +1,19 @@
 ---
-title: Dezimalzahlen verstehen
-description: Dezimalzahlen erweitern das Stellenwertsystem auf Zehntel, Hundertstel und weitere Nachkommastellen und sind im Alltag und in der Mathematik zentral.
-subject: mathematik
-section: Grundlagen
-level: einfach
-tags:
-  - Dezimalzahlen
-  - Stellenwertsystem
-  - Zahlen
-  - Grundlagen
+title: "Dezimalzahlen verstehen"
+description: "Dezimalzahlen erweitern das Stellenwertsystem auf Zehntel, Hundertstel und weitere Nachkommastellen und sind im Alltag und in der Mathematik zentral."
+subject: "mathematik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "dezimalzahlen", "dezimalzahlen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 Dezimalzahlen begegnen uns ständig: bei Preisen, Längen, Gewichten, Messwerten oder technischen Angaben. Sie wirken oft selbstverständlich, bauen aber auf derselben Stellenwertidee auf wie natürliche Zahlen. Der Unterschied ist nur, dass das Stellenwertsystem nicht bei den Einern endet.

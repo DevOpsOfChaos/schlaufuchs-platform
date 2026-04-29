@@ -3,40 +3,17 @@ title: "Kondensator im Gleichstromkreis"
 description: "Verstehe kurzzeit- und langzeitverhalten trennen als ruhigen Baustein für sichere und nachvollziehbare Elektrotechnik."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "zeitverhalten"
-  - "kondensator-im-gleichstromkreis"
-learningGoals:
-  - "Kurzzeit- und Langzeitverhalten trennen"
-  - "Mess- und Schaltungsentscheidungen begründen"
-  - "typische Fehlerbilder früh erkennen"
-practiceIdeas:
-  - "Vergleiche den Moment nach dem Einschalten mit dem eingeschwungenen Zustand."
-  - "Formuliere eine kurze Prüfcheckliste für einen zweiten ähnlichen Aufbau."
-commonMistakes:
-  - "Schaltplan, Aufbau und Messgerät werden nicht getrennt betrachtet."
-  - "Einheiten oder Messbereiche werden erst nach dem Rechnen geprüft."
-  - "Sicherheits- und Grenzwerte werden als Nachtrag behandelt."
-keyTakeaways:
-  - "Direkt nach dem Umschalten verhält sich ein Kondensator anders als im Endzustand."
-  - "Ruhige Elektrotechnik trennt Größe, Bauteil, Messpunkt und Fehlerfall."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn ein Messwert, ein Bauteil oder ein Schaltungszustand sicher eingeordnet werden muss."
-selfCheckPoints:
-  - "Kann ich Messpunkt, Strompfad und Bauteilrolle unterscheiden?"
-  - "Ist mindestens ein Grenz- oder Fehlerfall benannt?"
-  - "Bleibt die Begründung mit Einheiten und Richtung verständlich?"
+topicPath: ["sanierung-v191", "kondensator-im-gleichstromkreis"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "zeitverhalten"
-  - "kondensator"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Kondensator im Gleichstromkreis](/schlaufuchs-platform/images/elektrotechnik/sanierung-v191/kondensator-im-gleichstromkreis.svg)
 
 Kondensator im Gleichstromkreis gehört zur Elektrotechnik-Sanierung v191. Die Seite behandelt das Thema als praktische Entscheidung: Was zeigt der Schaltplan, was passiert im realen Aufbau, wo wird gemessen und welcher Fehlerfall muss vor dem Einschalten bedacht werden?

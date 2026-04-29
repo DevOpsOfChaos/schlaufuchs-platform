@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Ruhestrom als Systemwert einordnen"
 description: "Musterlösung zur Aufgabe: Ruhestrom als Systemwert einordnen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - mikrocontroller-und-atmega
-  - sleep-modus-und-energieverbrauch
-taskId: ET-V182-013
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/sleep-modus-und-energieverbrauch/ruhestrom-als-systemwert-einordnen.md
-tags:
-  - elektrotechnik
-  - sleep-modus-und-energieverbrauch
-  - loesung
-  - sanierung-v182
+topicPath: ["mikrocontroller-und-atmega", "sleep-modus-und-energieverbrauch", "ruhestrom-als-systemwert-einordnen"]
+taskId: "ET-V182-013"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/sleep-modus-und-energieverbrauch/ruhestrom-als-systemwert-einordnen.md"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

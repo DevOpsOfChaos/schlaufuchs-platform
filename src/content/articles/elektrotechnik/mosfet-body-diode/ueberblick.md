@@ -1,32 +1,17 @@
 ---
 title: "MOSFET-Body-Diode"
 description: "Lexikonartiger Überblick über die Body-Diode eines MOSFETs und ihre Wirkung in Schaltungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Leistungselektronik"
-topicPath:
-  - "mosfet-body-diode"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst MOSFET-Body-Diode als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Source-Drain-Richtung, Freilaufpfad, Rückstrom."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["mosfet-body-diode", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Einen MOSFET als idealen Schalter ohne interne Diode zu modellieren."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "MOSFET-Body-Diode beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Interne Struktur von MOSFETs."
-  - "Wichtige Hinweise liefern vor allem Source-Drain-Richtung, Freilaufpfad, Rückstrom."
-recognizeSignals:
-  - "Es geht um interne struktur von mosfets, source-drain-richtung oder freilaufpfad."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck MOSFET-Body-Diode erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "mosfet"
-  - "diode"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Leistungselektronik"]
 draft: false
 ---
 # MOSFET-Body-Diode

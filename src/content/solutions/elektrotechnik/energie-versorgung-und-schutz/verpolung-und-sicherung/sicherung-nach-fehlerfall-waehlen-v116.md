@@ -3,22 +3,12 @@ title: "Lösung: Sicherung nach Fehlerfall wählen"
 description: "Musterlösung zur Aufgabe „Sicherung nach Fehlerfall wählen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "energie-versorgung-und-schutz"
-  - "verpolung-und-sicherung"
-  - "sicherung-nach-fehlerfall-waehlen-v116"
+topicPath: ["energie-versorgung-und-schutz", "verpolung-und-sicherung", "sicherung-nach-fehlerfall-waehlen-v116"]
 taskId: "sicherung-nach-fehlerfall-waehlen-v116"
 relatedExercise: "elektrotechnik/energie-versorgung-und-schutz/verpolung-und-sicherung/sicherung-nach-fehlerfall-waehlen-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "verpolung und sicherung"
-  - "sicherung nach fehlerfall waehlen"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

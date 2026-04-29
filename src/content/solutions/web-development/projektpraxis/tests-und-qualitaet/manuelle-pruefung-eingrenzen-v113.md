@@ -3,20 +3,12 @@ title: "Lösung – Manuelle Prüfung eingrenzen"
 description: "Musterlösung zu Manuelle Prüfung eingrenzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "projektpraxis"
-  - "tests-und-qualitaet"
-  - "manuelle-pruefung-eingrenzen-v113"
+topicPath: ["projektpraxis", "tests-und-qualitaet", "manuelle-pruefung-eingrenzen-v113"]
 taskId: "v113-web-development-manuelle-pruefung-eingrenzen-v113"
 relatedExercise: "web-development/projektpraxis/tests-und-qualitaet/manuelle-pruefung-eingrenzen-v113"
-tags:
-  - "web development"
-  - "strukturcheck"
-  - "unterthema"
-  - "manuelle-pruefung-eingrenzen-v113"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Manuelle Prüfung eingrenzen**.

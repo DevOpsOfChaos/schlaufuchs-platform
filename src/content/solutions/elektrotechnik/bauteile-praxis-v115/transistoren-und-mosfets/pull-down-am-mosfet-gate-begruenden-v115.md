@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Pull-down am MOSFET-Gate begründen"
 description: "Musterlösung zu Pull-down am MOSFET-Gate begründen mit Trennkante und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "bauteile-praxis-v115"
-  - "transistoren-und-mosfets"
-  - "pull-down-am-mosfet-gate-begruenden-v115"
+topicPath: ["bauteile-praxis-v115", "transistoren-und-mosfets", "pull-down-am-mosfet-gate-begruenden-v115"]
 taskId: "elektrotechnik-pull-down-am-mosfet-gate-begruenden-v115"
 relatedExercise: "elektrotechnik/bauteile-praxis-v115/transistoren-und-mosfets/pull-down-am-mosfet-gate-begruenden-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "bauteile in der praxis"
-  - "transistoren und mosfets"
-  - "lösung"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Pull-down am MOSFET-Gate begründen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

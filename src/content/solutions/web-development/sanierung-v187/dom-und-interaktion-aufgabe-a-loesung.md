@@ -3,22 +3,12 @@ title: "Lösung: DOM und Interaktion: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-021a im Web-Development-Block v187."
 subject: "web-development"
 section: "javascript"
-topicPath: 
-  - "javascript-und-interaktion"
-  - "dom"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "dom-und-interaktion-aufgabe-a"]
 taskId: "web-v187-021a"
 relatedExercise: "web-development/sanierung-v187/dom-und-interaktion-aufgabe-a"
-tags: 
-  - "dom"
-  - "javascript"
-  - "interaktion"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "javascript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-021a`
 
     Ausgangsauftrag: Beschreibe, welche DOM-Elemente ein Skript für ein Akkordeon finden und verändern muss.

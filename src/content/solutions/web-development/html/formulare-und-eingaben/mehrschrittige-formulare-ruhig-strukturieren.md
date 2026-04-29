@@ -3,22 +3,12 @@ title: "Lösung – Mehrschrittige Formulare ruhig strukturieren"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Development-Aufgabe."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "formulare-und-eingaben"
-  - "mehrschrittige-formulare-ruhig-strukturieren"
-tags:
-  - "web development"
-  - "html"
-  - "formulare"
-  - "ux"
-  - "mehrschrittig"
-  - "lösung"
+topicPath: ["html", "formulare-und-eingaben", "mehrschrittige-formulare-ruhig-strukturieren"]
 taskId: "web-v104-mehrschrittige-formulare-ruhig-strukturieren"
 relatedExercise: "web-development/html/formulare-und-eingaben/mehrschrittige-formulare-ruhig-strukturieren"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Eine gute Lösung beginnt mit der Nutzer-Situation. Das Problem ist nicht nur technisch, sondern zeigt sich daran, dass eine Person nicht sicher erkennt, was gerade passiert oder wie sie weitermachen kann.

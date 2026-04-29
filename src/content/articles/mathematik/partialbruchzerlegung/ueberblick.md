@@ -1,35 +1,17 @@
 ---
 title: "Partialbruchzerlegung"
 description: "Überblick über Partialbruchzerlegung als Zerlegung rationaler Funktionen in einfachere Bruchteile."
-subject: mathematik
+subject: "mathematik"
 section: "Algebra"
-topicPath:
-  - "partialbruchzerlegung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Partialbruchzerlegung als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["partialbruchzerlegung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, nur den Nenner zu zerlegen und den Zählervergleich zu vernachlässigen."
-keyTakeaways:
-  - "Partialbruchzerlegung stellt eine rationale Funktion als Summe einfacherer Brüche dar."
-  - "Sie vereinfacht Integration, Grenzwertbetrachtungen und das Verständnis von Polstellen."
-  - "Partialbruchzerlegung setzt bestimmte algebraische Voraussetzungen voraus und ist nicht für jede Funktion direkt anwendbar."
-recognizeSignals:
-  - "Es geht um Partialbruchzerlegung, wenn der Nenner wird in Faktoren zerlegt."
-  - "Das Thema wird relevant, wenn Beispiele wie ein Bruch mit Nenner (x-1)(x+2) kann in zwei einfachere Terme mit diesen Faktoren zerlegt werden."
-selfCheckPoints:
-  - "Kann ich Partialbruchzerlegung in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "algebra"
-  - "rationale funktionen"
-  - "analysis"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Algebra"]
 draft: false
 ---
 # Partialbruchzerlegung

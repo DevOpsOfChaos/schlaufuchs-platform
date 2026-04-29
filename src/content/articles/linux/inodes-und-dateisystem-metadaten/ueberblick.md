@@ -1,37 +1,19 @@
 ---
 title: "Inodes und Dateisystem-Metadaten"
 description: "Überblick über Inodes, Metadaten und die interne Verwaltung von Dateien in Linux-Dateisystemen."
-subject: linux
+subject: "linux"
 section: "Dateisystem"
-topicPath:
-  - "inodes-und-dateisystem-metadaten"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Inodes und Dateisystem-Metadaten als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["inodes-und-dateisystem-metadaten", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Gelöschte Dateien werden oft für sofort frei gehalten, obwohl Prozesse sie noch offen halten."
-keyTakeaways:
-  - "Inodes speichern Dateimetadaten."
-  - "Namen und Dateiobjekte sind getrennte Konzepte."
-  - "Harte Links und offene gelöschte Dateien werden dadurch verständlich."
-recognizeSignals:
-  - "Speicherplatz bleibt trotz gelöschter Dateien belegt."
-  - "Tools zeigen inode usage oder Link-Zahlen."
-selfCheckPoints:
-  - "Kann ich Inodes und Dateisystem-Metadaten in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "dateisystem"
-  - "inode"
-  - "metadaten"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dateisystem"]
 draft: false
 ---
-
 # Inodes und Dateisystem-Metadaten
 
 Ein Inode ist eine Datenstruktur, die Metadaten über eine Datei speichert. Der Dateiname liegt dagegen in einem Verzeichniseintrag, der auf einen Inode zeigt.

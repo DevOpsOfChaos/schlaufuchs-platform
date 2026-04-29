@@ -3,24 +3,12 @@ title: "Lösung: Sensoren als Spannungssignal: Aufgabe B"
 description: "Musterlösung zur Aufgabe etech-v191-016b im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "sensorik"
-  - "sensoren-als-spannungssignal"
-  - "loesung-b"
+topicPath: ["sanierung-v191", "sensoren-als-spannungssignal-aufgabe-b"]
 taskId: "etech-v191-016b"
 relatedExercise: "elektrotechnik/sanierung-v191/sensoren-als-spannungssignal-aufgabe-b"
-tags:
-  - "sensorik"
-  - "sensoren"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-016b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Sensoren als Spannungssignal“ um einen Messfehler, einen Sicherheitscheck und eine kurze Plausibilitätsprüfung.

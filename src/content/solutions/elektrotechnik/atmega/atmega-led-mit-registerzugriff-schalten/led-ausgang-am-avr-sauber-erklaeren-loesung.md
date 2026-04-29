@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – LED-Ausgang am AVR sauber erklären
-description: Musterlösung zur Aufgabe ET-ATMEGA-IO-202.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - digitale-eingaenge-und-ausgaenge
-  - atmega-led-mit-registerzugriff-schalten
-  - led-ausgang-am-avr-sauber-erklaeren-loesung
-taskId: ET-ATMEGA-IO-202
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-led-mit-registerzugriff-schalten/led-ausgang-am-avr-sauber-erklaeren.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - loesung
+title: "Musterlösung – LED-Ausgang am AVR sauber erklären"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-IO-202."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-led-mit-registerzugriff-schalten", "led-ausgang-am-avr-sauber-erklaeren"]
+taskId: "ET-ATMEGA-IO-202"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-led-mit-registerzugriff-schalten/led-ausgang-am-avr-sauber-erklaeren.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Die erste Zeile richtet PB0 als Ausgang ein. Die zweite Zeile setzt diesen Ausgang auf High, wodurch die LED eingeschaltet werden kann. Die dritte Zeile löscht das Bit wieder, sodass der Ausgang auf Low geht und die LED wieder ausgeht. Fachlich ist also zuerst die Ausgangsrolle wichtig und danach erst der sichtbare Pegelwechsel.

@@ -3,46 +3,17 @@ title: "Informatik – Rate Limit und Sperre unterscheiden"
 description: "Lerne Missbrauchsschutz als kleines, klar auffindbares Unterthema mit Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "sicherheit-und-betrieb"
-  - "zugriff-logs-und-geheimnisse"
-  - "lastschutz"
-  - "rate-limit-und-sperre-unterscheiden"
-learningGoals:
-  - "Du erklärst Missbrauchsschutz als enges Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich sauber ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Formuliere eine Gegenprobe mit verändertem Kontext."
-  - "Ordne die Seite bewusst einem kleinen Unterthemenpfad zu."
-commonMistakes:
-  - "Jede Begrenzung wird als vollständige Kontosperre verstanden."
-  - "Das Thema in einem breiten Sammelkapitel verschwinden lassen."
-  - "Eine Lösung ohne konkreten Prüfschritt formulieren."
-keyTakeaways:
-  - "Missbrauchsschutz wird durch Kontext, Abgrenzung und Prüfung klar."
-  - "Feinere Unterthemen reduzieren Doppelungen und Suchaufwand."
-  - "Aufgabe und Lösung sollen dieselbe Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Eine breite Kapitelüberschrift reicht für die Entscheidung nicht aus."
-  - "Ein konkreter Prüfschritt kann die Einordnung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "informatik"
-  - "struktur"
-  - "unterthema"
-  - "sicherheit-und-betrieb"
-  - "zugriff-logs-und-geheimnisse"
-  - "rate-limit-und-sperre-unterscheiden"
+topicPath: ["sicherheit-und-betrieb", "zugriff-logs-und-geheimnisse", "lastschutz", "rate-limit-und-sperre-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["informatik", "Feinstruktur Informatik"]
 draft: false
 ---
-
 ## Grundidee
 
 **Missbrauchsschutz** ist bewusst als kleines Unterthema angelegt. Lerne Missbrauchsschutz als kleines, klar auffindbares Unterthema mit Abgrenzung, Prüfschritt und Gegenprobe. So bleibt die Lernseite auffindbar, ohne noch mehr Inhalt in ein übergroßes Sammelthema zu schieben.

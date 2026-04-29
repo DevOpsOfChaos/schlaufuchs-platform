@@ -1,36 +1,19 @@
 ---
 title: "Residuen und Fehlerterme"
 description: "Residuen beschreiben die Abweichung zwischen beobachteten Werten und den Werten eines Modells."
-subject: mathematik
+subject: "mathematik"
 section: "Daten"
-topicPath:
-  - "residuen-und-fehlerterme"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Residuen und Fehlerterme als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["residuen-und-fehlerterme", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird nur die Regressionslinie betrachtet, ohne die verbleibenden Abweichungen zu prüfen."
-keyTakeaways:
-  - "Residuen beschreiben die Abweichung zwischen beobachteten Werten und den Werten eines Modells."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Residuen und Fehlerterme, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Residuen und Fehlerterme in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "regression"
-  - "fehler"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Daten"]
 draft: false
 ---
-
 # Residuen und Fehlerterme
 
 Residuen beschreiben die Abweichung zwischen beobachteten Werten und den Werten eines Modells. Diese Überblicksseite ordnet das Thema ruhig und allgemein ein. Sie ist nicht als Aufgabe oder Einzelfall gedacht, sondern als Einstieg, bevor konkrete Situationen, Werkzeuge, Formeln oder Fehlersuchen betrachtet werden.

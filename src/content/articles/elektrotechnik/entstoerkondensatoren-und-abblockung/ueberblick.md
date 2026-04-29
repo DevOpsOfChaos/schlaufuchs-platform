@@ -1,37 +1,19 @@
 ---
 title: "Entstörkondensatoren und Abblockung"
 description: "Überblick über Abblockkondensatoren, Entstörung und lokale Versorgungspufferung in elektronischen Schaltungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Signale"
-topicPath:
-  - "entstoerkondensatoren-und-abblockung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Entstörkondensatoren und Abblockung als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["entstoerkondensatoren-und-abblockung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Kondensatoren werden oft im Schaltplan vorgesehen, aber im Layout zu weit entfernt platziert."
-keyTakeaways:
-  - "Abblockung stabilisiert lokale Versorgungspunkte."
-  - "Platzierung und Frequenzverhalten sind entscheidend."
-  - "Kleine Kondensatoren vermeiden viele Zuverlässigkeitsprobleme."
-recognizeSignals:
-  - "Eine Schaltung resetet, misst instabil oder stört andere Signale."
-  - "Datenblätter empfehlen Kondensatoren nahe an Versorgungspins."
-selfCheckPoints:
-  - "Kann ich Entstörkondensatoren und Abblockung in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "kondensator"
-  - "entstoerung"
-  - "versorgung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Signale"]
 draft: false
 ---
-
 # Entstörkondensatoren und Abblockung
 
 Entstör- und Abblockkondensatoren stabilisieren Versorgungsspannungen und reduzieren Störungen. Sie sitzen häufig nahe an integrierten Schaltungen.

@@ -3,22 +3,12 @@ title: "Lösung: Audiodaten als Messreihe: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe dat-v189-016b."
 subject: "daten-und-signale"
 section: "codierung"
-topicPath:
-  - "codierung"
-  - "audiodaten-als-messreihe"
-  - "loesung-b"
+topicPath: ["sanierung-v189", "audiodaten-als-messreihe-aufgabe-b"]
 taskId: "dat-v189-016b"
 relatedExercise: "daten-und-signale/sanierung-v189/audiodaten-als-messreihe-aufgabe-b"
-tags:
-  - "audio"
-  - "abtastung"
-  - "messreihe"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "codierung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-016b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

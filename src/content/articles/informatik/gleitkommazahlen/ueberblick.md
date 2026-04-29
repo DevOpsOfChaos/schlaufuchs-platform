@@ -1,34 +1,19 @@
 ---
 title: "Gleitkommazahlen"
 description: "Allgemeiner Überblick über Gleitkommazahlen und begrenzte Präzision."
-subject: informatik
+subject: "informatik"
 section: "Zahlen und Darstellung"
-topicPath:
-  - "gleitkommazahlen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Gleitkommazahlen als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["gleitkommazahlen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Gleitkommazahlen direkt auf Gleichheit verglichen. Besser ist oft ein Toleranzbereich."
-keyTakeaways:
-  - "Gleitkommazahlen ermöglichen effiziente Näherungsrechnung."
-  - "Gleitkommazahlen sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Gleitkommazahlen."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Gleitkommazahlen erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "informatik"
-  - "gleitkomma"
-  - "zahlen"
-  - "präzision"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Zahlen und Darstellung"]
 draft: false
 ---
-
 # Gleitkommazahlen
 
 Gleitkommazahlen stellen reelle Zahlen näherungsweise mit begrenzter Genauigkeit dar.

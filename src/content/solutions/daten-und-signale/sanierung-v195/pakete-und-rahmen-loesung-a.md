@@ -3,24 +3,12 @@ title: "Lösung: Pakete und Rahmen: Aufgabe A"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-012a im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "uebertragung"
-  - "pakete-und-rahmen"
-  - "loesung-a"
-
+topicPath: ["sanierung-v195", "pakete-und-rahmen-loesung-a"]
 taskId: "daten-und-signale-v195-012a"
 relatedExercise: "daten-und-signale/sanierung-v195/pakete-und-rahmen-aufgabe-a"
-tags:
-  - "pakete"
-  - "rahmen"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-012a`
 
 Ausgangsauftrag: Skizziere, wie eine Nachricht in Pakete zerlegt und wieder zusammengesetzt wird.

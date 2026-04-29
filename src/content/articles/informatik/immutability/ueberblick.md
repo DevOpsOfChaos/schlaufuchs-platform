@@ -1,36 +1,19 @@
 ---
 title: "Immutability"
 description: "Immutability bezeichnet ein Grundthema im Bereich Software, Daten, Architektur und systematische Problemlösung. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-subject: informatik
+subject: "informatik"
 section: "Programmierung"
-topicPath:
-  - "immutability"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Immutability als allgemeinen Grundbegriff einordnen."
-  - "Du kennst Zweck, Zusammenhang, typische Teilaspekte und Grenzen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle behandelt werden."
+topicPath: ["immutability", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Immutability nur als einzelner Arbeitsschritt verstanden, obwohl der Begriff einen größeren Zusammenhang beschreibt."
-keyTakeaways:
-  - "Immutability bezeichnet ein Grundthema im Bereich Software, Daten, Architektur und systematische Problemlösung. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-  - "Ein Überblick trennt Begriff, Zweck, Beispiel und Grenze."
-  - "Spezialseiten werden verständlicher, wenn die allgemeine Einordnung vorher klar ist."
-recognizeSignals:
-  - "Es geht um Immutability, wenn mehrere Einzelbeobachtungen ohne Grundbegriff schwer einzuordnen sind."
-  - "Der Begriff hilft, Werkzeuge, Werte, Regeln oder Darstellungen fachlich zu sortieren."
-selfCheckPoints:
-  - "Kann ich Immutability in zwei bis drei Sätzen erklären?"
-  - "Kann ich ein Beispiel und eine typische Grenze nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "immutability"
-  - "daten"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 # Immutability
 
 Immutability bezeichnet ein Grundthema im Bereich Software, Daten, Architektur und systematische

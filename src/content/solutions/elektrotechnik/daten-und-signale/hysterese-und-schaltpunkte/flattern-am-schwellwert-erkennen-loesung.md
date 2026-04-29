@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Flattern am Schwellwert erkennen"
 description: "Musterlösung zur Aufgabe: Flattern am Schwellwert erkennen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Daten und Signale"
-topicPath:
-  - daten-und-signale
-  - hysterese-und-schaltpunkte
-taskId: ET-V182-021
-relatedExercise: src/content/exercises/elektrotechnik/daten-und-signale/hysterese-und-schaltpunkte/flattern-am-schwellwert-erkennen.md
-tags:
-  - elektrotechnik
-  - hysterese-und-schaltpunkte
-  - loesung
-  - sanierung-v182
+topicPath: ["daten-und-signale", "hysterese-und-schaltpunkte", "flattern-am-schwellwert-erkennen"]
+taskId: "ET-V182-021"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/hysterese-und-schaltpunkte/flattern-am-schwellwert-erkennen.md"
+tags: ["elektrotechnik", "Daten und Signale", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

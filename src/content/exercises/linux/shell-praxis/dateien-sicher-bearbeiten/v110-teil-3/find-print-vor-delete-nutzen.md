@@ -3,35 +3,15 @@ title: "Aufgabe – find -print vor -delete nutzen"
 description: "Übe find -print vor -delete nutzen mit Einordnung, Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell-praxis"
-  - "dateien-sicher-bearbeiten"
-  - "v110-teil-3"
-  - "find-print-vor-delete-nutzen"
+topicPath: ["shell-praxis", "dateien-sicher-bearbeiten", "v110-teil-3", "find-print-vor-delete-nutzen"]
 taskId: "v110-linux-find-print-vor-delete-nutzen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "shell-praxis"
-  - "dateien-sicher-bearbeiten"
-  - "find-print-vor-delete-nutzen"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Vergleiche das Thema mit einem Nachbarthema und nenne die Trennkante."
-reflectionPrompt: "Welche kleine Trennkante macht find -print vor -delete nutzen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["linux", "Shell", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **find -print vor -delete nutzen**.

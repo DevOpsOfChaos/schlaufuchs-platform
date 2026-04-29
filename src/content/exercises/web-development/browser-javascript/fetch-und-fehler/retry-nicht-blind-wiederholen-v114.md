@@ -1,35 +1,17 @@
 ---
-title: Aufgabe – Retry nicht blind wiederholen
-description: Übe Retry nicht blind wiederholen mit einem kleinen, prüfbaren Szenario.
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- browser-javascript
-- fetch-und-fehler
-- retry-nicht-blind-wiederholen-v114
-taskId: v114-web-development-retry-nicht-blind-wiederholen-v114
-tags:
-- web-development
-- v114
-- aufgabe
-- browser-javascript
-- fetch-und-fehler
-hintPoints:
-- Beginne mit der konkreten Situation, nicht mit einer allgemeinen Definition.
-- 'Nutze die Prüffrage: Welche Fehlerart lohnt einen erneuten Versuch?'
-- Formuliere am Ende eine Gegenprobe.
-selfCheckPoints:
-- Habe ich die Trennkante klar benannt?
-- Habe ich das Nachbarthema bewusst ausgeschlossen?
-- Ist meine Begründung an das Beispiel gekoppelt?
-transferIdeas:
-- Ändere eine Bedingung im Szenario und prüfe, ob die Entscheidung gleich bleibt.
-- Erkläre die Lösung einmal ohne Fachsprache und danach fachlich sauber.
-reflectionPrompt: Welche kleine Prüffrage hat dir am meisten geholfen?
-level: fortgeschritten
+title: "Aufgabe – Retry nicht blind wiederholen"
+description: "Übe Retry nicht blind wiederholen mit einem kleinen, prüfbaren Szenario."
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["browser-javascript", "fetch-und-fehler", "retry-nicht-blind-wiederholen-v114"]
+taskId: "v114-web-development-retry-nicht-blind-wiederholen-v114"
+tags: ["web-development", "Feinstruktur Web Development", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Retry nicht blind wiederholen**.

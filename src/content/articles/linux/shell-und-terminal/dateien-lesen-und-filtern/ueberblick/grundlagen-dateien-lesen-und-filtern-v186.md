@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Dateien lesen und filtern"
 description: "Ordne Werkzeuge zum Anzeigen, Suchen und Filtern von Textdateien ein."
-subject: linux
+subject: "linux"
 section: "shell-und-terminal"
-topicPath:
-  - "shell-und-terminal"
-  - "dateien-lesen-und-filtern"
-learningGoals:
-  - "Du erklärst Dateien lesen und filtern in eigenen Worten."
-  - "Du ordnest typische Befehle, Begriffe oder Prüfschritte richtig ein."
-  - "Du erkennst typische Grenzen und Fehlerquellen im Linux-Alltag."
-practiceIdeas:
-  - "Beschreibe eine kleine Alltagssituation zu diesem Thema."
-  - "Markiere, welche Information zuerst geprüft werden muss."
-commonMistakes:
-  - "Ein einzelnes Kommando für das ganze Thema zu halten."
-  - "Ausgabe, Zustand und Ursache zu vermischen."
-  - "Ohne Kontext direkt an Sonderfälle zu springen."
-keyTakeaways:
-  - "Linux-Werkzeuge arbeiten häufig mit Textströmen und Dateien."
-  - "Anzeigen, Suchen und Filtern sind unterschiedliche Arbeitsschritte."
-  - "Wer diese Trennung versteht, kombiniert Befehle ruhiger."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung statt nur eines Befehlsrezepts."
-  - "Mehrere ähnliche Befehle oder Dateien wirken unklar."
-selfCheckPoints:
-  - "Kann ich Zweck, Kontext und typischen Prüfschritt unterscheiden?"
-  - "Kann ich eine einfache Fehlannahme zum Thema benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "dateien"
-  - "grep"
+topicPath: ["shell-und-terminal", "dateien-lesen-und-filtern", "ueberblick", "grundlagen-dateien-lesen-und-filtern-v186"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "shell-und-terminal"]
 draft: false
 ---
-
 ![Dateien lesen und filtern](/schlaufuchs-platform/images/overviews/v186/dateien-lesen-und-filtern.svg)
 
 ## Begriff

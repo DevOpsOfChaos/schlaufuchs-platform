@@ -3,44 +3,17 @@ title: "Browser – sessionStorage und URL-Zustand unterscheiden"
 description: "Lerne, wann ein Zustand in die URL gehört und wann sessionStorage für temporäre Bedienzustände besser passt."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "browser-speicher"
-  - "sessionstorage-und-url-state-unterscheiden"
-tags:
-  - "web development"
-  - "javascript"
-  - "sessionstorage"
-  - "url"
-  - "zustand"
-learningGoals:
-  - "Du unterscheidest teilbaren Zustand und nur temporären Sitzungszustand."
-  - "Du erklärst, warum Filter oft in die URL gehören."
-  - "Du vermeidest, wichtige Navigation unsichtbar im Speicher zu verstecken."
-practiceIdeas:
-  - "Übertrage das Muster auf eine kleine eigene Oberfläche."
-  - "Prüfe den Fall mit Tastatur, kleinem Bildschirm oder Fehlermeldung."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "Such- und Filterzustände nur im Speicher abzulegen, sodass Links nicht teilbar sind."
-  - "Kurzlebige UI-Zustände unnötig in die URL zu schreiben."
-  - "Sessiondaten mit dauerhaftem Speicher zu verwechseln."
-keyTakeaways:
-  - "Robuste Webentwicklung verbindet Struktur, Zustand und verständliche Rückmeldung."
-  - "Eine gute Lösung bleibt auch bei Tastaturbedienung, Fehlern oder kleinen Bildschirmen nachvollziehbar."
-  - "Saubere Projektpraxis bedeutet, Entscheidungen sichtbar und überprüfbar zu machen."
-recognizeSignals:
-  - "Eine Oberfläche funktioniert scheinbar, wird aber in Sonderfällen unklar."
-  - "Nutzerinnen und Nutzer brauchen Orientierung, Status oder eine konkrete Korrekturmöglichkeit."
-  - "HTML, CSS und JavaScript müssen gemeinsam statt isoliert betrachtet werden."
-selfCheckPoints:
-  - "Kann ich erklären, welcher Zustand gerade sichtbar gemacht wird?"
-  - "Ist die Lösung auch ohne Maus, perfekte Verbindung oder großen Bildschirm verständlich?"
-  - "Sind sichtbare Texte klar, deutsch und nah an der betroffenen Handlung formuliert?"
+topicPath: ["javascript", "browser-speicher", "sessionstorage-und-url-state-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Lerne, wann ein Zustand in die URL gehört und wann sessionStorage für temporäre Bedienzustände besser passt. Diese Seite behandelt das Thema als praktische Entscheidung im Webprojekt: Was sehen Nutzerinnen und Nutzer, was passiert technisch im Hintergrund und wie bleibt die Lösung später wartbar?

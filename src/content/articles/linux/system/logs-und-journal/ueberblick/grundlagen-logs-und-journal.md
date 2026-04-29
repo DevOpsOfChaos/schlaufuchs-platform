@@ -1,39 +1,19 @@
 ---
 title: "Grundlagen: Logs und Journal"
 description: "Ein allgemeiner Einstieg in Protokolldateien, Systemmeldungen und die Fehlersuche mit Logs."
-subject: linux
+subject: "linux"
 section: "System"
-topicPath:
-  - system
-  - logs-und-journal
-  - ueberblick
-learningGoals:
-  - "Du kennst die Grundbegriffe dieses Themenbereichs."
-  - "Du kannst typische Situationen grob einordnen, bevor du Detailseiten liest."
-  - "Du erkennst, welche Nachbarseiten für Vertiefung oder Übungen passen."
-practiceIdeas:
-  - "Lies zuerst diese Überblicksseite und danach eine konkrete Lernsituation aus dem gleichen Unterthema."
-  - "Notiere die wichtigsten Begriffe und prüfe, welche davon in den Detailseiten wieder auftauchen."
-commonMistakes:
-  - "Direkt mit Sonderfällen zu beginnen, ohne die Grundbegriffe zu klären."
-  - "Ein einzelnes Beispiel für die ganze Themenlogik zu halten."
-keyTakeaways:
-  - "Logs sind das Gedächtnis eines Systems. Sie helfen besonders dann, wenn Fehler nicht direkt sichtbar sind."
-recognizeSignals:
-  - "Du suchst eine allgemeine Einordnung, bevor du Aufgaben oder Spezialfälle bearbeitest."
-  - "Mehrere Detailseiten wirken ähnlich, aber dir fehlt der gemeinsame Rahmen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten beschreiben?"
-  - "Kann ich Grundidee, typische Begriffe und Grenzen auseinanderhalten?"
-level: mittel
-tags:
-  - "linux"
-  - "logs"
-  - "journal"
-  - "fehlersuche"
+topicPath: ["system", "logs-und-journal", "ueberblick", "grundlagen-logs-und-journal"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["linux", "System"]
 draft: false
 ---
-
 ## Überblick
 
 Logs sind protokollierte Ereignisse eines Systems oder Programms. Sie helfen dabei, Fehler, Starts, Abstürze, Anmeldungen und Hintergrundprozesse nachzuvollziehen. Unter vielen Linux-Systemen sammelt systemd zusätzlich Meldungen im Journal.

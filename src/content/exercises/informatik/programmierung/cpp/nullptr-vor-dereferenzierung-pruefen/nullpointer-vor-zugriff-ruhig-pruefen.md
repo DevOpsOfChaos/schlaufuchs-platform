@@ -1,35 +1,17 @@
 ---
-title: Nullpointer vor Zugriff ruhig prüfen
-description: Trainiere die sichere Reihenfolge beim Arbeiten mit <code>nullptr</code> und Dereferenzierung.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - pointer-und-adressen
-  - nullptr-vor-dereferenzierung-pruefen
-  - nullpointer-vor-zugriff-ruhig-pruefen
-taskId: INF-PROG-CPP-PTR-007
-level: einfach
+title: "Nullpointer vor Zugriff ruhig prüfen"
+description: "Trainiere die sichere Reihenfolge beim Arbeiten mit <code>nullptr</code> und Dereferenzierung."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "nullptr-vor-dereferenzierung-pruefen", "nullpointer-vor-zugriff-ruhig-pruefen"]
+taskId: "INF-PROG-CPP-PTR-007"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - aufgabe
-hintPoints:
-  - "Achte besonders auf die Reihenfolge von Prüfung und Zugriff."
-  - "Ein definierter Zustand ist nicht automatisch schon ein nutzbarer Zielwertzugang."
-  - "Bewerte hier die Zugriffssituation, nicht noch einmal die Deklaration."
-selfCheckPoints:
-  - "Habe ich Prüfung und Dereferenzierung klar getrennt?"
-  - "Habe ich begründet, warum die Reihenfolge wichtig ist?"
-  - "Habe ich Startzustand und Zugriff nicht vermischt?"
-transferIdeas:
-  - "Übertrage die Prüfregel auf Funktionen, die Pointer entgegennehmen."
-reflectionPrompt: "Warum hilft ein sauberer Startzustand allein noch nicht, wenn direkt danach falsch zugegriffen wird?"
 ---
-
 ## Aufgabe 1: Kernregel formulieren
 
 Formuliere in einem Satz die ruhige Grundreihenfolge fuer Pointer, bei denen der Zugriff noch unsicher ist.

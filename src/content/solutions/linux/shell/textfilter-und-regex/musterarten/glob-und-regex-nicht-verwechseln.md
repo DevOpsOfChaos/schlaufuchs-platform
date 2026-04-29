@@ -3,22 +3,12 @@ title: "Lösung – Glob und Regex nicht verwechseln"
 description: "Musterlösung zu Glob und Regex mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell"
-  - "textfilter-und-regex"
-  - "musterarten"
-  - "glob-und-regex-nicht-verwechseln"
+topicPath: ["shell", "textfilter-und-regex", "musterarten", "glob-und-regex-nicht-verwechseln"]
 taskId: "v108-linux-glob-und-regex-nicht-verwechseln"
 relatedExercise: "linux/shell/textfilter-und-regex/musterarten/glob-und-regex-nicht-verwechseln"
-tags:
-  - "linux"
-  - "shell"
-  - "praxis"
-  - "textfilter-und-regex"
-  - "glob und regex"
+tags: ["linux", "Shell", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **Glob und Regex**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

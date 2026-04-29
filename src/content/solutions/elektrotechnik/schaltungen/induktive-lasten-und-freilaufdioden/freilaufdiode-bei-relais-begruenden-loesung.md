@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Freilaufdiode bei Relais begründen"
 description: "Musterlösung zur Aufgabe Freilaufdiode bei Relais begründen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schaltungen"
-topicPath:
-  - schaltungen
-  - induktive-lasten-und-freilaufdioden
-taskId: ET-V181-007
-relatedExercise: src/content/exercises/elektrotechnik/schaltungen/induktive-lasten-und-freilaufdioden/freilaufdiode-bei-relais-begruenden.md
-tags:
-  - elektrotechnik
-  - induktive-lasten-und-freilaufdioden
-  - loesung
+topicPath: ["schaltungen", "induktive-lasten-und-freilaufdioden", "freilaufdiode-bei-relais-begruenden"]
+taskId: "ET-V181-007"
+relatedExercise: "src/content/exercises/elektrotechnik/schaltungen/induktive-lasten-und-freilaufdioden/freilaufdiode-bei-relais-begruenden.md"
+tags: ["elektrotechnik", "Schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

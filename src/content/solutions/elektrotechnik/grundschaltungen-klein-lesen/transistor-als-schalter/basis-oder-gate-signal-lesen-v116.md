@@ -3,22 +3,12 @@ title: "Lösung: Basis- oder Gate-Signal lesen"
 description: "Musterlösung zur Aufgabe „Basis- oder Gate-Signal lesen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "grundschaltungen-klein-lesen"
-  - "transistor-als-schalter"
-  - "basis-oder-gate-signal-lesen-v116"
+topicPath: ["grundschaltungen-klein-lesen", "transistor-als-schalter", "basis-oder-gate-signal-lesen-v116"]
 taskId: "basis-oder-gate-signal-lesen-v116"
 relatedExercise: "elektrotechnik/grundschaltungen-klein-lesen/transistor-als-schalter/basis-oder-gate-signal-lesen-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "transistor als schalter"
-  - "basis oder gate signal lesen"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

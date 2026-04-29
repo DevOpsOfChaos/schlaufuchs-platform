@@ -1,23 +1,14 @@
 ---
-title: Musterloesung - Klassendiagramm und Objektdiagramm begruendet trennen
-description: Musterloesung zur Aufgabe INF-PROG-OOP-015.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - uml-klassen-und-objektdiagramme-unterscheiden
-  - klassendiagramm-und-objektdiagramm-begruendet-trennen-loesung
-taskId: INF-PROG-OOP-015
-relatedExercise: src/content/exercises/informatik/programmierung/oop/uml-klassen-und-objektdiagramme-unterscheiden/klassendiagramm-und-objektdiagramm-begruendet-trennen.md
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - loesung
+title: "Musterloesung - Klassendiagramm und Objektdiagramm begruendet trennen"
+description: "Musterloesung zur Aufgabe INF-PROG-OOP-015."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "uml-klassen-und-objektdiagramme-unterscheiden", "klassendiagramm-und-objektdiagramm-begruendet-trennen"]
+taskId: "INF-PROG-OOP-015"
+relatedExercise: "src/content/exercises/informatik/programmierung/oop/uml-klassen-und-objektdiagramme-unterscheiden/klassendiagramm-und-objektdiagramm-begruendet-trennen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Grundidee erklaeren
 
 Ein Klassendiagramm zeigt die allgemeine Struktur einer Klasse, also zum Beispiel Attribute, Methoden und Sichtbarkeiten.

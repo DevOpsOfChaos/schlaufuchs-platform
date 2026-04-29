@@ -3,22 +3,12 @@ title: "Lösung – JavaScript – Console, Debugger und Breakpoints gezielt nut
 description: "Musterlösung zur Aufgabe: Beschreibe für einen fehlerhaften Button-Klick, welche drei Stellen du mit Console oder Breakpoint prüfst und welche Information du dort erwartest."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "debugging-und-diagnose"
-  - "console-debugger-und-breakpoints-gezielt-nutzen"
+topicPath: ["javascript", "debugging-und-diagnose", "console-debugger-und-breakpoints-gezielt-nutzen"]
 taskId: "web-v100-console-debugger-und-breakpoints-gezielt-nutzen"
 relatedExercise: "web-development/javascript/debugging-und-diagnose/console-debugger-und-breakpoints-gezielt-nutzen"
-tags:
-  - "web development"
-  - "javascript"
-  - "debugging"
-  - "console"
-  - "breakpoints"
-  - "lösung"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine gute Lösung beginnt nicht mit möglichst viel Code, sondern mit einer klaren Einordnung: Lerne, Fehler nicht durch Raten zu suchen, sondern Werte, Ablauf und Zustand im Browser systematisch zu prüfen.

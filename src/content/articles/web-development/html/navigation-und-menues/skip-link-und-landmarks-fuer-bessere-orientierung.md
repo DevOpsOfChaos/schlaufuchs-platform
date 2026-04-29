@@ -1,43 +1,17 @@
 ---
 title: "HTML – Skip-Link und Landmarks für bessere Orientierung"
 description: "Lerne, wie main, nav, header, footer und ein Skip-Link Tastatur- und Screenreader-Nutzung erleichtern."
-subject: web-development
+subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "navigation-und-menues"
-  - "skip-link-und-landmarks-fuer-bessere-orientierung"
-learningGoals:
-  - "Du erklärst, warum Landmark-Elemente Orientierung geben."
-  - "Du verstehst den Zweck eines Skip-Links."
-  - "Du trennst visuelle Kopfbereiche von semantischen Seitenregionen."
-practiceIdeas:
-  - "Baue eine einfache Seitenstruktur aus header, nav, main und footer."
-  - "Prüfe, ob der Hauptinhalt per Tastatur schnell erreichbar ist."
-  - "Erkläre, warum mehrere nav-Bereiche unterscheidbare Namen brauchen können."
-commonMistakes:
-  - "Nur div-Container ohne semantische Bereiche zu verwenden."
-  - "Einen Skip-Link optisch zu verstecken, aber beim Fokus nicht sichtbar zu machen."
-  - "Mehrere Navigationen ohne verständlichen Namen einzubauen."
-keyTakeaways:
-  - "Landmarks geben der Seite eine navigierbare Struktur."
-  - "Ein Skip-Link spart Tastaturwegen über wiederholte Navigation."
-  - "Der Hauptinhalt sollte eindeutig in main liegen."
-recognizeSignals:
-  - "Es geht um Tastaturnavigation, Seitenstruktur, main, nav oder Skip-Link."
-  - "Eine Aufgabe fragt nach Orientierung auf langen Seiten."
-  - "Der Kopfbereich wird auf jeder Seite wiederholt."
-selfCheckPoints:
-  - "Gibt es genau einen zentralen main-Bereich?"
-  - "Ist der Skip-Link beim Fokus sichtbar?"
-  - "Sind Navigationen eindeutig verständlich?"
-tags:
-  - "web development"
-  - "html"
-  - "navigation"
-  - "landmarks"
-  - "accessibility"
-level: mittel
+topicPath: ["html", "navigation-und-menues", "skip-link-und-landmarks-fuer-bessere-orientierung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "HTML"]
 draft: false
 ---
 ## Grundidee

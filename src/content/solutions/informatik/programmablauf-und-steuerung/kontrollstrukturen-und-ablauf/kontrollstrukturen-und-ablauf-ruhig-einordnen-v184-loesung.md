@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Kontrollstrukturen und Ablauf – Ruhig einordnen"
 description: "Musterlösung zur Aufgabe über Kontrollstrukturen und Ablauf."
-subject: informatik
+subject: "informatik"
 section: "programmablauf-und-steuerung"
-topicPath:
-  - "programmablauf-und-steuerung"
-  - "kontrollstrukturen-und-ablauf"
-taskId: INF-KONTROLLSTRUKTUREN-UND-ABLAUF-841
-relatedExercise: src/content/exercises/informatik/programmablauf-und-steuerung/kontrollstrukturen-und-ablauf/kontrollstrukturen-und-ablauf-ruhig-einordnen-v184.md
-tags:
-  - "informatik"
-  - "kontrollstrukturen"
-  - "schleifen"
-  - "loesung"
+topicPath: ["programmablauf-und-steuerung", "kontrollstrukturen-und-ablauf", "kontrollstrukturen-und-ablauf-ruhig-einordnen-v184"]
+taskId: "INF-KONTROLLSTRUKTUREN-UND-ABLAUF-841"
+relatedExercise: "src/content/exercises/informatik/programmablauf-und-steuerung/kontrollstrukturen-und-ablauf/kontrollstrukturen-und-ablauf-ruhig-einordnen-v184.md"
+tags: ["informatik", "programmablauf-und-steuerung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

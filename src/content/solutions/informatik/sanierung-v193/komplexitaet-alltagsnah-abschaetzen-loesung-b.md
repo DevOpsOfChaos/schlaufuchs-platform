@@ -3,24 +3,12 @@ title: "Lösung: Komplexität alltagsnah abschätzen: Aufgabe B"
 description: "Musterlösung zur Aufgabe informatik-v193-022b im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "datenstrukturen-und-algorithmen"
-  - "komplexitaet-alltagsnah-abschaetzen"
-  - "loesung-b"
+topicPath: ["sanierung-v193", "komplexitaet-alltagsnah-abschaetzen-loesung-b"]
 taskId: "informatik-v193-022b"
 relatedExercise: "informatik/sanierung-v193/komplexitaet-alltagsnah-abschaetzen-aufgabe-b"
-tags:
-  - "komplexitaet"
-  - "alltagsnah"
-  - "abschaetzen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-022b`
 
 Ausgangsauftrag: Übertrage das Thema Komplexität alltagsnah abschätzen auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

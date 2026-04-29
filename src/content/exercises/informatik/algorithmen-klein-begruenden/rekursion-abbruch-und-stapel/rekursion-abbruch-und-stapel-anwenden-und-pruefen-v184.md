@@ -1,29 +1,17 @@
 ---
 title: "Rekursion, Abbruch und Stapel – Anwenden und prüfen"
 description: "Übe, Rekursion, Abbruch und Stapel an kleinen Situationen zu prüfen."
-subject: informatik
+subject: "informatik"
 section: "algorithmen-klein-begruenden"
-topicPath:
-  - "algorithmen-klein-begruenden"
-  - "rekursion-abbruch-und-stapel"
-taskId: INF-REKURSION-ABBRUCH-UND-STAPEL-842
-tags:
-  - "informatik"
-  - "rekursion"
-  - "abbruch"
-hintPoints:
-  - "Beginne mit der allgemeinen Rolle des Themas."
-  - "Trenne Begriff, Beispiel und Sonderfall sauber."
-selfCheckPoints:
-  - "Ich kann meine Zuordnung begründen."
-  - "Ich vermeide eine reine Einzelfallantwort."
-transferIdeas:
-  - "Übertrage die Idee auf ein anderes kleines Informatikbeispiel."
-reflectionPrompt: "Welche Annahme musste ich bewusst prüfen?"
-level: mittel
+topicPath: ["algorithmen-klein-begruenden", "rekursion-abbruch-und-stapel", "rekursion-abbruch-und-stapel-anwenden-und-pruefen-v184"]
+taskId: "INF-REKURSION-ABBRUCH-UND-STAPEL-842"
+tags: ["informatik", "algorithmen-klein-begruenden", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Rekursion, Abbruch und Stapel**. Sie soll nicht nur eine einzelne Situation lösen, sondern das Thema fachlich einordnen.
 
 ## Lernziel

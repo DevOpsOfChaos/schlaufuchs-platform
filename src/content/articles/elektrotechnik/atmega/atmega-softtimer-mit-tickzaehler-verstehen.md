@@ -1,46 +1,19 @@
 ---
-title: ATmega – Softtimer mit Tickzähler verstehen
-description: Verstehe, wie ein periodischer Tick am ATmega in Software zu mehreren Zeitmarken und nichtblockierenden Wartezeiten ausgebaut werden kann.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - programmstruktur-und-reaktivitaet
-  - atmega-softtimer-mit-tickzaehler-verstehen
-learningGoals:
-  - Du erklärst die Grundidee eines Softtimers auf Basis eines periodischen Ticks.
-  - Du beschreibst, warum ein Tickzähler mehrere Zeitaufgaben parallel strukturieren kann.
-  - Du liest nichtblockierende Zeitlogik ruhiger als Zeitmarken statt als Delay-Warten.
-practiceIdeas:
-  - Vergleiche einen Blinkablauf mit Delay und mit Tickzähler.
-  - Prüfe bei zwei gleichzeitigen Aufgaben, warum ein gemeinsamer Tick ruhiger ist als mehrere Warteblöcke.
-  - Lies einen Zählerwert als Zeitmarke und nicht nur als nackte Variable.
-commonMistakes:
-  - Softtimer mit „echtem Hardware-Timer“ gleichzusetzen.
-  - Zu denken, dass für jede Zeitaufgabe ein eigener Blockier-Delay nötig ist.
-  - Den periodischen Tick und die daraus abgeleiteten Software-Zeitmarken durcheinanderzubringen.
-keyTakeaways:
-  - Ein periodischer Tick kann in Software zu mehreren Zeitaufgaben weiterverarbeitet werden.
-  - Softtimer helfen, Programme reaktiv und nichtblockierend zu strukturieren.
-  - "Die ruhige Denkfigur lautet: Zeitmarke prüfen statt Zeit verstreichen lassen."
-recognizeSignals:
-  - Es geht um Tickzähler, nichtblockierende Blinklogik, mehrere Zeitaufgaben oder die Frage, wie etwas „gleichzeitig“ wirken kann.
-  - Du sollst erklären, warum ein Softtimer mit Zeitmarken ruhiger ist als Delay-Warten.
-  - In Aufgaben werden mehrere periodische Reaktionen über einen gemeinsamen Tick organisiert.
-selfCheckPoints:
-  - Kann ich Tickquelle und Softtimer-Aufgabe sauber trennen?
-  - Kann ich erklären, warum ein Tickzähler mehrere Zeitmarken tragen kann?
-  - Kann ich eine nichtblockierende Zeitlogik in Worten beschreiben?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - programmstruktur
-  - softtimer
-level: mittel
+title: "ATmega – Softtimer mit Tickzähler verstehen"
+description: "Verstehe, wie ein periodischer Tick am ATmega in Software zu mehreren Zeitmarken und nichtblockierenden Wartezeiten ausgebaut werden kann."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-softtimer-mit-tickzaehler-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Hardware-Timer kann eine **periodische Marke** liefern, zum Beispiel alle 1 ms. In Software kann daraus ein **Tickzähler** werden. Genau dieser Zähler lässt sich dann nutzen, um mehrere Zeitaufgaben gleichzeitig ruhig zu organisieren – ohne überall mit `delay` zu blockieren.

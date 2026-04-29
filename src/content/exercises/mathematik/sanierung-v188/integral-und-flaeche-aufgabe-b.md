@@ -3,33 +3,15 @@ title: "Integral und Fläche: Prüfen und Begründen"
 description: "Bewerte eine Aussage zu Integral und Fläche und formuliere eine bessere Arbeitsregel."
 subject: "mathematik"
 section: "analysis-pruefschritte"
-topicPath:
-  - "analysis-pruefschritte"
-  - "integral-und-flaeche"
-  - "aufgabe-b"
+topicPath: ["sanierung-v188", "integral-und-flaeche-aufgabe-b"]
 taskId: "mat-v188-064b"
-tags:
-  - "integral"
-  - "flaeche"
-  - "analysis"
-  - "mathematik"
-  - "aufgabe"
-  - "v188"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["mathematik", "analysis-pruefschritte", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Prüfe die folgende Aussage zum Thema **Integral und Fläche**:

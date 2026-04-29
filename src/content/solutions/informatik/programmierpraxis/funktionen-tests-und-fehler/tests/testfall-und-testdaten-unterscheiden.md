@@ -3,23 +3,12 @@ title: "Lösung – Testfall und Testdaten unterscheiden"
 description: "Musterlösung zu Testfall und Testdaten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "programmierpraxis"
-  - "funktionen-tests-und-fehler"
-  - "tests"
-  - "testfall-und-testdaten-unterscheiden"
+topicPath: ["programmierpraxis", "funktionen-tests-und-fehler", "tests", "testfall-und-testdaten-unterscheiden"]
 taskId: "v111-informatik-testfall-und-testdaten-unterscheiden"
 relatedExercise: "informatik/programmierpraxis/funktionen-tests-und-fehler/tests/testfall-und-testdaten-unterscheiden"
-tags:
-  - "informatik"
-  - "struktur"
-  - "unterthema"
-  - "programmierpraxis"
-  - "funktionen-tests-und-fehler"
-  - "testfall-und-testdaten-unterscheiden"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Testfall und Testdaten**.

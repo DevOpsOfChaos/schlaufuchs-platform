@@ -1,31 +1,17 @@
 ---
 title: "Assets und Bilder im Web"
 description: "Allgemeiner Überblick über Bilder, Assets, Dateigrößen und passende Einbindung in Webseiten."
-subject: web-development
+subject: "web-development"
 section: "Web-Grundlagen"
-topicPath:
-  - "assets-und-bilder-im-web"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Assets und Bilder im Web grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["assets-und-bilder-im-web", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Assets und Bilder im Web nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Assets und Bilder im Web beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Assets und Bilder im Web, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Assets und Bilder im Web in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "web-development"
-  - "assets"
-  - "bilder"
-  - "performance"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web-Grundlagen"]
 draft: false
 ---
 # Assets und Bilder im Web

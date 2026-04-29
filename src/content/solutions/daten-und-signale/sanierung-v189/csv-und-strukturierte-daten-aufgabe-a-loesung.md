@@ -3,22 +3,12 @@ title: "Lösung: CSV und strukturierte Daten: Grundordnung"
 description: "Musterlösung zur Aufgabe dat-v189-045a."
 subject: "daten-und-signale"
 section: "datenpraxis"
-topicPath:
-  - "datenpraxis"
-  - "csv-und-strukturierte-daten"
-  - "loesung-a"
+topicPath: ["sanierung-v189", "csv-und-strukturierte-daten-aufgabe-a"]
 taskId: "dat-v189-045a"
 relatedExercise: "daten-und-signale/sanierung-v189/csv-und-strukturierte-daten-aufgabe-a"
-tags:
-  - "csv"
-  - "strukturierte-daten"
-  - "tabellen"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-045a`
 
 Eine mögliche Lösung:

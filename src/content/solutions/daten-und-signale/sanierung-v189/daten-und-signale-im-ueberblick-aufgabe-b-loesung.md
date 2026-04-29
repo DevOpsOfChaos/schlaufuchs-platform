@@ -3,22 +3,12 @@ title: "Lösung: Daten und Signale im Überblick: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe dat-v189-002b."
 subject: "daten-und-signale"
 section: "grundlagen"
-topicPath:
-  - "grundlagen"
-  - "ueberblick"
-  - "loesung-b"
+topicPath: ["sanierung-v189", "daten-und-signale-im-ueberblick-aufgabe-b"]
 taskId: "dat-v189-002b"
 relatedExercise: "daten-und-signale/sanierung-v189/daten-und-signale-im-ueberblick-aufgabe-b"
-tags:
-  - "daten"
-  - "signale"
-  - "ueberblick"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "grundlagen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-002b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

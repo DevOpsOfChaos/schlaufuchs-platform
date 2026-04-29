@@ -3,46 +3,17 @@ title: "Elektrotechnik – Pull-up-Widerstand nicht beliebig wählen"
 description: "Lerne Pull-up-Widerstand nicht beliebig wählen als kleines, klar prüfbares Unterthema mit Abgrenzung, Beispiel und Gegenprobe."
 subject: "elektrotechnik"
 section: "Grundschaltungen"
-topicPath:
-  - "grundschaltungen"
-  - "spannung-strom-widerstand"
-  - "v110-teil-2"
-  - "pullup-widerstand-nicht-beliebig-waehlen"
-learningGoals:
-  - "Du erklärst Pull-up-Widerstand nicht beliebig wählen als eigenes Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Erstelle eine Gegenprobe mit verändertem Wert, Zustand oder Kontext."
-  - "Vergleiche die Seite mit einem Nachbarthema und nenne die Trennkante."
-commonMistakes:
-  - "Pull-up wird nur als Ein-Aus-Schalter im Code gesehen."
-  - "Das Thema nur einem breiten Kapitel zuordnen."
-  - "Eine Lösung formulieren, die keine konkrete Prüfung enthält."
-keyTakeaways:
-  - "Pull-up-Widerstand nicht beliebig wählen wird über Einordnung, Abgrenzung und Gegenprobe stabil."
-  - "Kleine Unterthemen erhöhen Auffindbarkeit und reduzieren Doppelungen."
-  - "Aufgabe und Lösung sollen dieselbe fachliche Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Ein breites Kapitel wäre als Antwort zu ungenau."
-  - "Ein konkreter Prüfschritt kann die Entscheidung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "grundschaltungen"
-  - "spannung-strom-widerstand"
-  - "pull-up-widerstand-nicht-beliebig-waehlen"
+topicPath: ["grundschaltungen", "spannung-strom-widerstand", "v110-teil-2", "pullup-widerstand-nicht-beliebig-waehlen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["elektrotechnik", "Grundschaltungen"]
 draft: false
 ---
-
 ## Grundidee
 
 **Pull-up-Widerstand nicht beliebig wählen** ist bewusst als enges Unterthema angelegt. Die Seite beantwortet nicht das ganze Kapitel, sondern die kleine fachliche Entscheidung, die in Aufgaben oft den Unterschied macht.

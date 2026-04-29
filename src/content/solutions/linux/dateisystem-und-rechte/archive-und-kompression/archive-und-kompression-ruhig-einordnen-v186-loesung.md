@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Archive und Kompression – ruhig einordnen"
 description: "Musterlösung zur Linux-Aufgabe Archive und Kompression."
-subject: linux
+subject: "linux"
 section: "dateisystem-und-rechte"
-topicPath:
-  - "dateisystem-und-rechte"
-  - "archive-und-kompression"
-taskId: LINUX-ARCHIVE-UND-KOMPRESSION-V186-1
-relatedExercise: src/content/exercises/linux/dateisystem-und-rechte/archive-und-kompression/archive-und-kompression-ruhig-einordnen-v186.md
-tags:
-  - "linux"
-  - "tar"
-  - "archive"
-  - "loesung"
+topicPath: ["dateisystem-und-rechte", "archive-und-kompression", "archive-und-kompression-ruhig-einordnen-v186"]
+taskId: "LINUX-ARCHIVE-UND-KOMPRESSION-V186-1"
+relatedExercise: "src/content/exercises/linux/dateisystem-und-rechte/archive-und-kompression/archive-und-kompression-ruhig-einordnen-v186.md"
+tags: ["linux", "dateisystem-und-rechte", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

@@ -3,35 +3,15 @@ title: "Static-Site-Deployment: Prüfung und Verbesserung"
 description: "Analysiere einen Deploymentfehler, bei dem CSS lokal lädt, online aber fehlt."
 subject: "web-development"
 section: "deployment"
-topicPath: 
-  - "deployment-und-betrieb"
-  - "static-sites"
-  - "aufgabe-b"
+topicPath: ["sanierung-v187", "static-site-deployment-aufgabe-b"]
 taskId: "web-v187-028b"
-tags: 
-  - "deployment"
-  - "static-site"
-  - "build"
-  - "hosting"
-  - "web-development"
-  - "aufgabe"
-  - "v187"
-hintPoints: 
-  - "Trenne Zweck, Struktur und sichtbare Wirkung."
-  - "Begründe mindestens eine Entscheidung mit dem Nutzerziel."
-  - "Prüfe einen typischen Fehlerfall aus der Erklärseite."
-selfCheckPoints: 
-  - "Die Lösung passt zur Aufgabenstellung."
-  - "Mindestens eine Entscheidung ist begründet."
-  - "Es gibt keine neue Aufgabe ohne passende Lösung."
-transferIdeas: 
-  - "Übertrage die Entscheidung auf eine zweite kleine Seite."
-  - "Formuliere eine kurze Checkliste für spätere Wiederholung."
-reflectionPrompt: "Welche Entscheidung war am wichtigsten, damit die Lösung ruhig und wartbar bleibt?"
+tags: ["web-development", "deployment", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Analysiere einen Deploymentfehler, bei dem CSS lokal lädt, online aber fehlt.

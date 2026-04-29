@@ -1,33 +1,19 @@
 ---
 title: "Container Images"
 description: "Container Images sind schichtweise aufgebaute Vorlagen für Container. Sie enthalten Dateisystem, Programme und Metadaten für den Start."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "container-images"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Container Images."
-  - "Du kannst Container Images in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["container-images", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "latest als stabile Versionsangabe zu behandeln."
-keyTakeaways:
-  - "Container Images sind schichtweise aufgebaute Vorlagen für Container."
-  - "Wichtig sind vor allem layers, tags und digests und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Container Images, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Container Images dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "linux"
-  - "grundlagen"
-  - "container images"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # Container Images
 
 Container Images sind schichtweise aufgebaute Vorlagen für Container. Sie enthalten Dateisystem, Programme und Metadaten für den Start. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

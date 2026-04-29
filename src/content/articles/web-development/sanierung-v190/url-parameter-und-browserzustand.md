@@ -3,40 +3,17 @@ title: "URL-Parameter und Browserzustand"
 description: "Verstehe zustand teilbar machen als ruhigen Baustein für wartbare Frontend-Projekte."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "browser-api"
-  - "url-parameter-und-browserzustand"
-learningGoals:
-  - "Zustand teilbar machen"
-  - "typische Fehlerquellen erkennen"
-  - "eine kleine Frontend-Entscheidung begründen"
-practiceIdeas:
-  - "Plane URL-Parameter für Suche, Kategorie und Sortierung."
-  - "Formuliere eine Mini-Checkliste für eine zweite ähnliche Oberfläche."
-commonMistakes:
-  - "Technik wird benutzt, ohne den Zweck zu klären."
-  - "Fehlerfälle werden erst nachträglich betrachtet."
-  - "HTML, CSS und JavaScript werden unnötig vermischt."
-keyTakeaways:
-  - "URL-Parameter machen Ansichten verlinkbar."
-  - "Kleine, klare Prüfschritte machen Frontend-Code wartbarer."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Verhalten, Daten oder Zustand einer Webseite bewusst gesteuert werden müssen."
-selfCheckPoints:
-  - "Kann ich Zweck, Daten und sichtbare Wirkung trennen?"
-  - "Ist mindestens ein Fehlerfall genannt?"
-  - "Bleibt die Lösung auch ohne Spezialwissen nachvollziehbar?"
+topicPath: ["sanierung-v190", "url-parameter-und-browserzustand"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "browser-api"
-  - "url"
-  - "javascript"
-  - "frontend"
-  - "web-development"
+tags: ["web-development", "javascript-vertiefung"]
 draft: false
 ---
-
 ![Didaktische Skizze zu URL-Parameter und Browserzustand](/schlaufuchs-platform/images/web-development/sanierung-v190/url-parameter-und-browserzustand.svg)
 
 URL-Parameter und Browserzustand gehört zur JavaScript-Vertiefung im Web Development. Die Seite betrachtet das Thema nicht als isolierten Code-Trick, sondern als Entscheidungspunkt: Welche Aufgabe hat der Baustein, welche Daten oder Elemente sind beteiligt und wie bleibt die Lösung auch später verständlich?

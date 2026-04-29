@@ -1,29 +1,17 @@
 ---
 title: "Berechtigungen und Zugriffskontrolle – Anwenden und prüfen"
 description: "Übe, Berechtigungen und Zugriffskontrolle an kleinen Situationen zu prüfen."
-subject: informatik
+subject: "informatik"
 section: "sicherheit-und-berechtigungen"
-topicPath:
-  - "sicherheit-und-berechtigungen"
-  - "berechtigungen-und-zugriffskontrolle"
-taskId: INF-BERECHTIGUNGEN-UND-ZUGRIFFSKONTROLLE-842
-tags:
-  - "informatik"
-  - "sicherheit"
-  - "berechtigungen"
-hintPoints:
-  - "Beginne mit der allgemeinen Rolle des Themas."
-  - "Trenne Begriff, Beispiel und Sonderfall sauber."
-selfCheckPoints:
-  - "Ich kann meine Zuordnung begründen."
-  - "Ich vermeide eine reine Einzelfallantwort."
-transferIdeas:
-  - "Übertrage die Idee auf ein anderes kleines Informatikbeispiel."
-reflectionPrompt: "Welche Annahme musste ich bewusst prüfen?"
-level: mittel
+topicPath: ["sicherheit-und-berechtigungen", "berechtigungen-und-zugriffskontrolle", "berechtigungen-und-zugriffskontrolle-anwenden-und-pruefen-v184"]
+taskId: "INF-BERECHTIGUNGEN-UND-ZUGRIFFSKONTROLLE-842"
+tags: ["informatik", "sicherheit-und-berechtigungen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Berechtigungen und Zugriffskontrolle**. Sie soll nicht nur eine einzelne Situation lösen, sondern das Thema fachlich einordnen.
 
 ## Lernziel

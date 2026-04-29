@@ -1,21 +1,14 @@
 ---
-title: Loesung – Gemeinsame Klassenvariablen ueber zwei Objekte erklaeren
-description: Musterloesung zur Aufgabe ueber statische Member und gemeinsame Klassendaten.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - zugriff-auf-statische-member-ueber-klasse-und-objekt-vergleichen
-taskId: INF-PROG-OOP-022
-relatedExercise: informatik/programmierung/oop/zugriff-auf-statische-member-ueber-klasse-und-objekt-vergleichen/gemeinsame-klassenvariablen-ueber-zwei-objekte-erklaeren
-tags:
-  - informatik
-  - oop
-  - loesung
+title: "Loesung – Gemeinsame Klassenvariablen ueber zwei Objekte erklaeren"
+description: "Musterloesung zur Aufgabe ueber statische Member und gemeinsame Klassendaten."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "zugriff-auf-statische-member-ueber-klasse-und-objekt-vergleichen", "gemeinsame-klassenvariablen-ueber-zwei-objekte-erklaeren"]
+taskId: "INF-PROG-OOP-022"
+relatedExercise: "informatik/programmierung/oop/zugriff-auf-statische-member-ueber-klasse-und-objekt-vergleichen/gemeinsame-klassenvariablen-ueber-zwei-objekte-erklaeren"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterloesung
 
 ### Aufgabe 1

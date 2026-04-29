@@ -1,33 +1,19 @@
 ---
 title: "Zeit und Zeitzonen"
 description: "Zeit und Zeitzonen beeinflussen Logs, Cronjobs, Zertifikate und verteilte Systeme. Linux trennt Systemzeit, Hardwareuhr und lokale Darstellung."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "zeit-und-zeitzonen"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Zeit und Zeitzonen."
-  - "Du kannst Zeit und Zeitzonen in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["zeit-und-zeitzonen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Logeinträge verschiedener Systeme ohne Zeitzonenbezug direkt zu vergleichen."
-keyTakeaways:
-  - "Zeit und Zeitzonen beeinflussen Logs, Cronjobs, Zertifikate und verteilte Systeme."
-  - "Wichtig sind vor allem utc und lokale zeit, timedatectl und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Zeit und Zeitzonen, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Zeit und Zeitzonen dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "linux"
-  - "grundlagen"
-  - "zeit zeitzonen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # Zeit und Zeitzonen
 
 Zeit und Zeitzonen beeinflussen Logs, Cronjobs, Zertifikate und verteilte Systeme. Linux trennt Systemzeit, Hardwareuhr und lokale Darstellung. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

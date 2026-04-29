@@ -3,23 +3,12 @@ title: "Lösung: Dictionaries als Zuordnung: Aufgabe B"
 description: "Musterlösung zur Aufgabe informatik-v193-018b im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "datenstrukturen-und-algorithmen"
-  - "dictionaries-als-zuordnung"
-  - "loesung-b"
+topicPath: ["sanierung-v193", "dictionaries-als-zuordnung-loesung-b"]
 taskId: "informatik-v193-018b"
 relatedExercise: "informatik/sanierung-v193/dictionaries-als-zuordnung-aufgabe-b"
-tags:
-  - "dictionaries"
-  - "zuordnung"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-018b`
 
 Ausgangsauftrag: Übertrage das Thema Dictionaries als Zuordnung auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

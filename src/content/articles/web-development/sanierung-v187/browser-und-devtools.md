@@ -3,39 +3,17 @@ title: "Browser und DevTools"
 description: "Nutze Browser-Entwicklertools als Lesewerkzeug für Struktur, Styles, Netzwerk und Fehler."
 subject: "web-development"
 section: "werkzeuge"
-topicPath: 
-  - "werkzeuge-und-projektarbeit"
-  - "browser-devtools"
-learningGoals: 
-  - "Gezieltes Untersuchen im Browser ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Untersuche mit DevTools, welche CSS-Regel einen Abstand auf einer Seite erzeugt."
-  - "Beschreibe einen Debugging-Ablauf für eine Seite, deren Bild nicht lädt."
-commonMistakes: 
-  - "DevTools-Änderungen werden für gespeicherte Dateien gehalten."
-  - "Fehler werden nur optisch gesucht."
-  - "Console-Meldungen werden ignoriert oder überbewertet."
-keyTakeaways: 
-  - "DevTools helfen, eine Beobachtung in eine überprüfbare Ursache zu verwandeln."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "DevTools helfen, eine Beobachtung in eine überprüfbare Ursache zu verwandeln."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "browser-und-devtools"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags: 
-  - "browser"
-  - "devtools"
-  - "debugging"
-  - "werkzeuge"
-  - "web-development"
+tags: ["web-development", "werkzeuge"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Browser und DevTools](/schlaufuchs-platform/images/web-development/sanierung-v187/browser-und-devtools.svg)
 
     Browser und DevTools ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

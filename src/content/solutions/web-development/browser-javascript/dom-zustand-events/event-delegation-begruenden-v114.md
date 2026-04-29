@@ -1,23 +1,14 @@
 ---
-title: Lösung – Event Delegation begründen
-description: Musterlösung zur Aufgabe über Event Delegation begründen.
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- browser-javascript
-- dom-zustand-events
-- event-delegation-begruenden-v114
-taskId: v114-web-development-event-delegation-begruenden-v114
-relatedExercise: web-development/browser-javascript/dom-zustand-events/event-delegation-begruenden-v114
-tags:
-- web-development
-- v114
-- loesung
-- browser-javascript
-- dom-zustand-events
+title: "Lösung – Event Delegation begründen"
+description: "Musterlösung zur Aufgabe über Event Delegation begründen."
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["browser-javascript", "dom-zustand-events", "event-delegation-begruenden-v114"]
+taskId: "v114-web-development-event-delegation-begruenden-v114"
+relatedExercise: "web-development/browser-javascript/dom-zustand-events/event-delegation-begruenden-v114"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

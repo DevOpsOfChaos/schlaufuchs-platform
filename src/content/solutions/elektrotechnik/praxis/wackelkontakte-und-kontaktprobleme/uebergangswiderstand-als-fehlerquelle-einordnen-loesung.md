@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Übergangswiderstand als Fehlerquelle einordnen"
 description: "Musterlösung zur Aufgabe: Übergangswiderstand als Fehlerquelle einordnen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - praxis
-  - wackelkontakte-und-kontaktprobleme
-taskId: ET-V182-004
-relatedExercise: src/content/exercises/elektrotechnik/praxis/wackelkontakte-und-kontaktprobleme/uebergangswiderstand-als-fehlerquelle-einordnen.md
-tags:
-  - elektrotechnik
-  - wackelkontakte-und-kontaktprobleme
-  - loesung
-  - sanierung-v182
+topicPath: ["praxis", "wackelkontakte-und-kontaktprobleme", "uebergangswiderstand-als-fehlerquelle-einordnen"]
+taskId: "ET-V182-004"
+relatedExercise: "src/content/exercises/elektrotechnik/praxis/wackelkontakte-und-kontaktprobleme/uebergangswiderstand-als-fehlerquelle-einordnen.md"
+tags: ["elektrotechnik", "Praxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

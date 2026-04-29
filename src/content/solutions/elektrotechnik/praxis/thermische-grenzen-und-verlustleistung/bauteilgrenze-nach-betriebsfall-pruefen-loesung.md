@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Bauteilgrenze nach Betriebsfall prüfen"
 description: "Musterlösung zur Aufgabe Bauteilgrenze nach Betriebsfall prüfen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - praxis
-  - thermische-grenzen-und-verlustleistung
-taskId: ET-V181-022
-relatedExercise: src/content/exercises/elektrotechnik/praxis/thermische-grenzen-und-verlustleistung/bauteilgrenze-nach-betriebsfall-pruefen.md
-tags:
-  - elektrotechnik
-  - thermische-grenzen-und-verlustleistung
-  - loesung
+topicPath: ["praxis", "thermische-grenzen-und-verlustleistung", "bauteilgrenze-nach-betriebsfall-pruefen"]
+taskId: "ET-V181-022"
+relatedExercise: "src/content/exercises/elektrotechnik/praxis/thermische-grenzen-und-verlustleistung/bauteilgrenze-nach-betriebsfall-pruefen.md"
+tags: ["elektrotechnik", "Praxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

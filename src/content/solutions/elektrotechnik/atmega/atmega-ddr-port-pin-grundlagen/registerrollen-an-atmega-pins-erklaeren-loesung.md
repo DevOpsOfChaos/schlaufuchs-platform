@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Registerrollen an ATmega-Pins erklären
-description: Musterlösung zur Aufgabe ET-ATMEGA-IO-201.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - digitale-eingaenge-und-ausgaenge
-  - atmega-ddr-port-pin-grundlagen
-  - registerrollen-an-atmega-pins-erklaeren-loesung
-taskId: ET-ATMEGA-IO-201
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-ddr-port-pin-grundlagen/registerrollen-an-atmega-pins-erklaeren.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – Registerrollen an ATmega-Pins erklären"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-IO-201."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-ddr-port-pin-grundlagen", "registerrollen-an-atmega-pins-erklaeren"]
+taskId: "ET-ATMEGA-IO-201"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-ddr-port-pin-grundlagen/registerrollen-an-atmega-pins-erklaeren.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

@@ -3,20 +3,12 @@ title: "Lösung – Datei und Verzeichnis am Typ erkennen"
 description: "Musterlösung zu Datei und Verzeichnis am Typ erkennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "dateien-und-ordner"
-  - "datei-und-verzeichnis-am-typ-erkennen-v113"
+topicPath: ["shell", "dateien-und-ordner", "datei-und-verzeichnis-am-typ-erkennen-v113"]
 taskId: "v113-linux-datei-und-verzeichnis-am-typ-erkennen-v113"
 relatedExercise: "linux/shell/dateien-und-ordner/datei-und-verzeichnis-am-typ-erkennen-v113"
-tags:
-  - "linux"
-  - "strukturcheck"
-  - "unterthema"
-  - "datei-und-verzeichnis-am-typ-erkennen-v113"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Datei und Verzeichnis am Typ erkennen**.

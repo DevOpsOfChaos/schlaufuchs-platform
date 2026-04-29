@@ -1,37 +1,19 @@
 ---
 title: "Fehlerbehandlung in Shell-Skripten"
 description: "Überblick über Exit-Codes, Abbruchstrategien und kontrollierte Fehlerbehandlung in Shell-Skripten."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell-fehlerbehandlung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Fehlerbehandlung in Shell-Skripten als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["shell-fehlerbehandlung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur die letzte Zeile eines Skripts zu prüfen und Fehler in früheren Pipeline-Schritten zu übersehen."
-keyTakeaways:
-  - "Exit-Codes sind Grundlage der Shell-Fehlerbehandlung."
-  - "Automatisierung braucht klare Abbruchbedingungen."
-  - "Erwartete und unerwartete Fehler werden unterschiedlich behandelt."
-recognizeSignals:
-  - "Ein Skript automatisiert mehrere kritische Schritte."
-  - "Fehler sollen reproduzierbar und sichtbar werden."
-selfCheckPoints:
-  - "Kann ich Fehlerbehandlung in Shell-Skripten in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "skripte"
-  - "fehlerbehandlung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
-
 # Fehlerbehandlung in Shell-Skripten
 
 Fehlerbehandlung in Shell-Skripten bedeutet, Rückgabewerte zu prüfen, erwartete Fehler zu behandeln und unerwartete Zustände sichtbar zu machen.

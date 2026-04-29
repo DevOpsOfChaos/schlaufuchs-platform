@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Cron und systemd-Timer – ruhig einordnen"
 description: "Musterlösung zur Linux-Aufgabe Cron und systemd-Timer."
-subject: linux
+subject: "linux"
 section: "automatisierung-und-skripte"
-topicPath:
-  - "automatisierung-und-skripte"
-  - "cron-und-systemd-timer"
-taskId: LINUX-CRON-UND-SYSTEMD-TIMER-V186-1
-relatedExercise: src/content/exercises/linux/automatisierung-und-skripte/cron-und-systemd-timer/cron-und-systemd-timer-ruhig-einordnen-v186.md
-tags:
-  - "linux"
-  - "cron"
-  - "timer"
-  - "loesung"
+topicPath: ["automatisierung-und-skripte", "cron-und-systemd-timer", "cron-und-systemd-timer-ruhig-einordnen-v186"]
+taskId: "LINUX-CRON-UND-SYSTEMD-TIMER-V186-1"
+relatedExercise: "src/content/exercises/linux/automatisierung-und-skripte/cron-und-systemd-timer/cron-und-systemd-timer-ruhig-einordnen-v186.md"
+tags: ["linux", "automatisierung-und-skripte", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

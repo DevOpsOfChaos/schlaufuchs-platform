@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – SPI-Grundsignale am AVR sauber zuordnen
-description: Musterlösung zur Aufgabe ET-ATMEGA-SPI-208.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-kommunikation
-  - atmega-spi-mosi-miso-sck-und-ss-zuordnen
-  - spi-grundsignale-am-avr-sauber-zuordnen-loesung
-taskId: ET-ATMEGA-SPI-208
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-spi-mosi-miso-sck-und-ss-zuordnen/spi-grundsignale-am-avr-sauber-zuordnen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - spi
-  - loesung
+title: "Musterlösung – SPI-Grundsignale am AVR sauber zuordnen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-SPI-208."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-spi-mosi-miso-sck-und-ss-zuordnen", "spi-grundsignale-am-avr-sauber-zuordnen"]
+taskId: "ET-ATMEGA-SPI-208"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-spi-mosi-miso-sck-und-ss-zuordnen/spi-grundsignale-am-avr-sauber-zuordnen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 - **MOSI** → Daten vom Master zum Slave

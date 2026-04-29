@@ -3,22 +3,12 @@ title: "Lösung: Gruppenzugriff prüfen"
 description: "Musterlösung zur Aufgabe „Gruppenzugriff prüfen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "rechte-benutzer-und-sicherheit"
-  - "besitzer-gruppe-und-umask"
-  - "gruppenzugriff-pruefen-v116"
+topicPath: ["rechte-benutzer-und-sicherheit", "besitzer-gruppe-und-umask", "gruppenzugriff-pruefen-v116"]
 taskId: "gruppenzugriff-pruefen-v116"
 relatedExercise: "linux/rechte-benutzer-und-sicherheit/besitzer-gruppe-und-umask/gruppenzugriff-pruefen-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "besitzer gruppe und umask"
-  - "gruppenzugriff pruefen"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

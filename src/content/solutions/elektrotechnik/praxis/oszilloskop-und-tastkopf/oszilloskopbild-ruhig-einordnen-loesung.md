@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Oszilloskopbild ruhig einordnen"
 description: "Musterlösung zur Aufgabe Oszilloskopbild ruhig einordnen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - praxis
-  - oszilloskop-und-tastkopf
-taskId: ET-V181-016
-relatedExercise: src/content/exercises/elektrotechnik/praxis/oszilloskop-und-tastkopf/oszilloskopbild-ruhig-einordnen.md
-tags:
-  - elektrotechnik
-  - oszilloskop-und-tastkopf
-  - loesung
+topicPath: ["praxis", "oszilloskop-und-tastkopf", "oszilloskopbild-ruhig-einordnen"]
+taskId: "ET-V181-016"
+relatedExercise: "src/content/exercises/elektrotechnik/praxis/oszilloskop-und-tastkopf/oszilloskopbild-ruhig-einordnen.md"
+tags: ["elektrotechnik", "Praxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

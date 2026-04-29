@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Bitmasken an AVR-Registern ruhig lesen
-description: Musterlösung zur Aufgabe ET-ATMEGA-REG-201.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - register-und-bitoperationen
-  - atmega-bitmasken-und-bitoperationen-verstehen
-  - bitmasken-an-avr-registern-ruhig-lesen-loesung
-taskId: ET-ATMEGA-REG-201
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-bitmasken-und-bitoperationen-verstehen/bitmasken-an-avr-registern-ruhig-lesen.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - loesung
+title: "Musterlösung – Bitmasken an AVR-Registern ruhig lesen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-REG-201."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-bitmasken-und-bitoperationen-verstehen", "bitmasken-an-avr-registern-ruhig-lesen"]
+taskId: "ET-ATMEGA-REG-201"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-bitmasken-und-bitoperationen-verstehen/bitmasken-an-avr-registern-ruhig-lesen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 - `PORTB |= (1 << PB0);` → Das Bit für PB0 wird gesetzt. Andere Bits bleiben erhalten.

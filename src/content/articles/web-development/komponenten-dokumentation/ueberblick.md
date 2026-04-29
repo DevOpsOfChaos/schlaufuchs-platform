@@ -1,35 +1,17 @@
 ---
 title: "Komponenten-Dokumentation"
 description: "Überblick über die Dokumentation wiederverwendbarer UI-Komponenten, Varianten und Zustände."
-subject: web-development
+subject: "web-development"
 section: "Designsysteme"
-topicPath:
-  - "komponenten-dokumentation"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Komponenten-Dokumentation als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["komponenten-dokumentation", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird Dokumentation erst nachträglich geschrieben. Dann spiegelt sie selten die tatsächlichen Entscheidungen und Grenzen wider."
-keyTakeaways:
-  - "Komponenten-Dokumentation beschreibt, wie UI-Bausteine verwendet werden, welche Varianten sie besitzen und welche Zustände sie darstellen können."
-  - "Sie macht Wiederverwendung verlässlich und verhindert, dass ähnliche Oberflächen mehrfach und uneinheitlich entstehen."
-  - "Eine Galerie schöner Komponenten ersetzt keine Nutzungsregeln. Entscheidend ist, wann und warum eine Komponente verwendet wird."
-recognizeSignals:
-  - "Es geht um Komponenten-Dokumentation, wenn dokumentiert werden Zweck, Props, Varianten, Zustände und Barrierefreiheitsanforderungen."
-  - "Das Thema wird relevant, wenn Beispiele wie ein Button wird mit Varianten für primäre Aktion, sekundäre Aktion, deaktivierten Zustand und Ladezustand beschrieben."
-selfCheckPoints:
-  - "Kann ich Komponenten-Dokumentation in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "web development"
-  - "designsystem"
-  - "komponenten"
-  - "dokumentation"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Designsysteme"]
 draft: false
 ---
 # Komponenten-Dokumentation

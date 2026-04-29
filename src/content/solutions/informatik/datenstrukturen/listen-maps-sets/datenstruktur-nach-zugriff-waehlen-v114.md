@@ -1,23 +1,14 @@
 ---
-title: Lösung – Datenstruktur nach Zugriff wählen
-description: Musterlösung zur Aufgabe über Datenstruktur nach Zugriff wählen.
-subject: informatik
-section: Feinstruktur Informatik
-topicPath:
-- datenstrukturen
-- listen-maps-sets
-- datenstruktur-nach-zugriff-waehlen-v114
-taskId: v114-informatik-datenstruktur-nach-zugriff-waehlen-v114
-relatedExercise: informatik/datenstrukturen/listen-maps-sets/datenstruktur-nach-zugriff-waehlen-v114
-tags:
-- informatik
-- v114
-- loesung
-- datenstrukturen
-- listen-maps-sets
+title: "Lösung – Datenstruktur nach Zugriff wählen"
+description: "Musterlösung zur Aufgabe über Datenstruktur nach Zugriff wählen."
+subject: "informatik"
+section: "Feinstruktur Informatik"
+topicPath: ["datenstrukturen", "listen-maps-sets", "datenstruktur-nach-zugriff-waehlen-v114"]
+taskId: "v114-informatik-datenstruktur-nach-zugriff-waehlen-v114"
+relatedExercise: "informatik/datenstrukturen/listen-maps-sets/datenstruktur-nach-zugriff-waehlen-v114"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

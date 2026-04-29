@@ -1,36 +1,19 @@
 ---
 title: "Endianness"
 description: "Endianness bezeichnet ein Grundthema im Bereich Software, Daten, Architektur und systematische Problemlösung. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-subject: informatik
+subject: "informatik"
 section: "Datenrepräsentation"
-topicPath:
-  - "endianness"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Endianness als allgemeinen Grundbegriff einordnen."
-  - "Du kennst Zweck, Zusammenhang, typische Teilaspekte und Grenzen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle behandelt werden."
+topicPath: ["endianness", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Endianness nur als einzelner Arbeitsschritt verstanden, obwohl der Begriff einen größeren Zusammenhang beschreibt."
-keyTakeaways:
-  - "Endianness bezeichnet ein Grundthema im Bereich Software, Daten, Architektur und systematische Problemlösung. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-  - "Ein Überblick trennt Begriff, Zweck, Beispiel und Grenze."
-  - "Spezialseiten werden verständlicher, wenn die allgemeine Einordnung vorher klar ist."
-recognizeSignals:
-  - "Es geht um Endianness, wenn mehrere Einzelbeobachtungen ohne Grundbegriff schwer einzuordnen sind."
-  - "Der Begriff hilft, Werkzeuge, Werte, Regeln oder Darstellungen fachlich zu sortieren."
-selfCheckPoints:
-  - "Kann ich Endianness in zwei bis drei Sätzen erklären?"
-  - "Kann ich ein Beispiel und eine typische Grenze nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "speicher"
-  - "bytes"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Datenrepräsentation"]
 draft: false
 ---
-
 # Endianness
 
 Endianness bezeichnet ein Grundthema im Bereich Software, Daten, Architektur und systematische

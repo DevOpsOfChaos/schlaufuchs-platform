@@ -3,20 +3,12 @@ title: "Lösung – grep-Muster von Dateiname trennen"
 description: "Musterlösung zu grep-Muster von Dateiname trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "text-und-auswertung"
-  - "grep-muster-von-dateiname-trennen-v113"
+topicPath: ["shell", "text-und-auswertung", "grep-muster-von-dateiname-trennen-v113"]
 taskId: "v113-linux-grep-muster-von-dateiname-trennen-v113"
 relatedExercise: "linux/shell/text-und-auswertung/grep-muster-von-dateiname-trennen-v113"
-tags:
-  - "linux"
-  - "strukturcheck"
-  - "unterthema"
-  - "grep-muster-von-dateiname-trennen-v113"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **grep-Muster von Dateiname trennen**.

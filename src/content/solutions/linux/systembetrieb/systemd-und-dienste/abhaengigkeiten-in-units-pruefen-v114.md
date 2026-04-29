@@ -1,23 +1,14 @@
 ---
-title: Lösung – Abhängigkeiten in Units prüfen
-description: Musterlösung zur Aufgabe über Abhängigkeiten in Units prüfen.
-subject: linux
-section: Feinstruktur Linux
-topicPath:
-- systembetrieb
-- systemd-und-dienste
-- abhaengigkeiten-in-units-pruefen-v114
-taskId: v114-linux-abhaengigkeiten-in-units-pruefen-v114
-relatedExercise: linux/systembetrieb/systemd-und-dienste/abhaengigkeiten-in-units-pruefen-v114
-tags:
-- linux
-- v114
-- loesung
-- systembetrieb
-- systemd-und-dienste
+title: "Lösung – Abhängigkeiten in Units prüfen"
+description: "Musterlösung zur Aufgabe über Abhängigkeiten in Units prüfen."
+subject: "linux"
+section: "Feinstruktur Linux"
+topicPath: ["systembetrieb", "systemd-und-dienste", "abhaengigkeiten-in-units-pruefen-v114"]
+taskId: "v114-linux-abhaengigkeiten-in-units-pruefen-v114"
+relatedExercise: "linux/systembetrieb/systemd-und-dienste/abhaengigkeiten-in-units-pruefen-v114"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

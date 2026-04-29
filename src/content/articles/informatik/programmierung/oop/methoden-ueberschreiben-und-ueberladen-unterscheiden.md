@@ -1,46 +1,19 @@
 ---
-title: Methoden ueberschreiben und ueberladen unterscheiden
-description: Verstehe, wann gleiche Namen verschiedene Signaturen haben und wann dieselbe Signatur Verhalten einer Oberklasse ersetzt.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - methoden-ueberschreiben-und-ueberladen-unterscheiden
-learningGoals:
-  - Du unterscheidest Ueberladen und Ueberschreiben fachlich sauber.
-  - Du erklaerst, was eine identische Signatur beim Ueberschreiben bedeutet.
-  - Du liest Methodenfamilien in Vererbung ruhiger.
-practiceIdeas:
-  - Vergleiche zwei Methoden mit gleichem Namen und unterschiedlichen Parametern.
-  - Pruefe, ob in der Unterklasse exakt dieselbe Signatur erneut auftaucht.
-  - Begruende, welche Methoden fuer ein Objekt der Unterklasse direkt sichtbar sind.
-commonMistakes:
-  - Gleichen Namen sofort als Ueberschreiben zu deuten.
-  - Signatur und Rueckgabetyp nicht sauber zu trennen.
-  - Zu uebersehen, dass beim Ueberschreiben ueberladene Varianten der Basis ueberdeckt werden koennen.
-keyTakeaways:
-  - Ueberladen nutzt denselben Namen mit verschiedener Signatur.
-  - Ueberschreiben nutzt denselben Namen mit identischer Signatur in einer Unterklasse.
-  - Beides klingt aehnlich, beschreibt aber zwei andere Situationen.
-recognizeSignals:
-  - Es tauchen mehrere Methoden mit gleichem Namen auf.
-  - Eine Aufgabe erwaehnt Oberklasse und Unterklasse.
-  - Die Frage lautet, ob eine Variante ersetzt oder nur zusaetzlich angeboten wird.
-selfCheckPoints:
-  - Kann ich gleiche Namen und gleiche Signatur auseinanderhalten?
-  - Kann ich Ueberladen ohne Vererbung denken?
-  - Kann ich Ueberschreiben als Vererbungsfall erkennen?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - ueberladen
-  - ueberschreiben
+title: "Methoden ueberschreiben und ueberladen unterscheiden"
+description: "Verstehe, wann gleiche Namen verschiedene Signaturen haben und wann dieselbe Signatur Verhalten einer Oberklasse ersetzt."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "methoden-ueberschreiben-und-ueberladen-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Die beiden Begriffe klingen fast gleich, aber die Denkfragen dahinter sind verschieden.

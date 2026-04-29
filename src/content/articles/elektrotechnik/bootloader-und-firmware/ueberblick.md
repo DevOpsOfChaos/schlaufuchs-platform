@@ -1,33 +1,19 @@
 ---
 title: "Bootloader und Firmware"
 description: "Ein Bootloader ist ein kleines Startprogramm, das Firmware laden, prüfen oder aktualisieren kann. Firmware ist die dauerhaft gespeicherte Software, die ein Gerät steuert."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik und Mikrocontroller"
-topicPath:
-  - "bootloader-und-firmware"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Bootloader und Firmware."
-  - "Du kannst Bootloader und Firmware in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["bootloader-und-firmware", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Bootloader, Betriebssystem und Anwendungsprogramm gleichzusetzen."
-keyTakeaways:
-  - "Ein Bootloader ist ein kleines Startprogramm, das Firmware laden, prüfen oder aktualisieren kann."
-  - "Wichtig sind vor allem startreihenfolge nach reset, firmware-update und recovery und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Bootloader und Firmware, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Bootloader und Firmware dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "grundlagen"
-  - "bootloader firmware"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik und Mikrocontroller"]
 draft: false
 ---
-
 # Bootloader und Firmware
 
 Ein Bootloader ist ein kleines Startprogramm, das Firmware laden, prüfen oder aktualisieren kann. Firmware ist die dauerhaft gespeicherte Software, die ein Gerät steuert. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

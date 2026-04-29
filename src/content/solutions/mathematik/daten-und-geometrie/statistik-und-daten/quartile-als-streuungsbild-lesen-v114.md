@@ -1,23 +1,14 @@
 ---
-title: Lösung – Quartile als Streuungsbild lesen
-description: Musterlösung zur Aufgabe über Quartile als Streuungsbild lesen.
-subject: mathematik
-section: Feinstruktur Mathematik
-topicPath:
-- daten-und-geometrie
-- statistik-und-daten
-- quartile-als-streuungsbild-lesen-v114
-taskId: v114-mathematik-quartile-als-streuungsbild-lesen-v114
-relatedExercise: mathematik/daten-und-geometrie/statistik-und-daten/quartile-als-streuungsbild-lesen-v114
-tags:
-- mathematik
-- v114
-- loesung
-- daten-und-geometrie
-- statistik-und-daten
+title: "Lösung – Quartile als Streuungsbild lesen"
+description: "Musterlösung zur Aufgabe über Quartile als Streuungsbild lesen."
+subject: "mathematik"
+section: "Feinstruktur Mathematik"
+topicPath: ["daten-und-geometrie", "statistik-und-daten", "quartile-als-streuungsbild-lesen-v114"]
+taskId: "v114-mathematik-quartile-als-streuungsbild-lesen-v114"
+relatedExercise: "mathematik/daten-und-geometrie/statistik-und-daten/quartile-als-streuungsbild-lesen-v114"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

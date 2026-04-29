@@ -1,45 +1,19 @@
 ---
-title: Listen und Navigation strukturieren
-description: Verstehe, warum Menüs oft als Listen gedacht werden und wie eine ruhige HTML-Struktur Navigationen klarer und wartbarer macht.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - navigation-und-menues
-  - listen-und-navigation-strukturieren
-learningGoals:
-  - Du erklärst, warum mehrere Navigationspunkte oft als Liste modelliert werden.
-  - Du beschreibst den Zusammenhang von <code>nav</code>, <code>ul</code> und <code>li</code>.
-  - Du strukturierst kleine Menüs ruhiger als geordnete Gruppe statt als lose Linkreihe.
-practiceIdeas:
-  - Prüfe bei einem Menü, ob die Punkte als zusammengehörige Gruppe erkennbar sind.
-  - Vergleiche lose Links mit einer Navigation aus Liste und Listeneinträgen.
-  - Begründe, warum HTML-Struktur auch dann wichtig bleibt, wenn CSS die Punkte nebeneinander anordnet.
-commonMistakes:
-  - Menüpunkte nur als optische Reihe zu sehen.
-  - Listenelemente wegzulassen, obwohl mehrere Einträge zusammengehören.
-  - zu glauben, dass eine horizontale Darstellung automatisch keine Liste mehr sei.
-keyTakeaways:
-  - Navigation besteht oft aus mehreren zusammengehörigen Zielen.
-  - Eine Liste macht diese Gruppe in HTML ruhig und eindeutig sichtbar.
-  - CSS kann die Darstellung ändern, die Strukturidee bleibt trotzdem sinnvoll.
-recognizeSignals:
-  - Es geht um Menüs, Linkgruppen, Navigationsleisten oder Seitenstrukturen.
-  - Du sollst nicht nur Links bauen, sondern ihre Gruppierung begründen.
-  - In Beispielen ist wichtig, ob mehrere Navigationspunkte als Einheit gedacht sind.
-selfCheckPoints:
-  - Kann ich erklären, warum eine Navigation oft eine Liste enthält?
-  - Kann ich nav, ul und li in ihrer Rolle unterscheiden?
-  - Kann ich beschreiben, warum horizontale Menüs trotzdem Listen bleiben können?
-tags:
-  - html
-  - navigation
-  - listen
-  - struktur
-level: einfach
+title: "Listen und Navigation strukturieren"
+description: "Verstehe, warum Menüs oft als Listen gedacht werden und wie eine ruhige HTML-Struktur Navigationen klarer und wartbarer macht."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "listen-und-navigation-strukturieren"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Viele Menüs bestehen nicht nur aus einzelnen Links, sondern aus **einer zusammengehörigen Gruppe von Navigationspunkten**. Genau deshalb werden sie in HTML oft als Liste strukturiert.

@@ -3,23 +3,12 @@ title: "Lösung – Statusmeldung und Fehlermeldung trennen"
 description: "Musterlösung zu Statusmeldungen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "html-a11y"
-  - "semantik-status-fokus"
-  - "status"
-  - "statusmeldung-und-fehlermeldung-trennen"
+topicPath: ["html-a11y", "semantik-status-fokus", "status", "statusmeldung-und-fehlermeldung-trennen"]
 taskId: "v111-web-development-statusmeldung-und-fehlermeldung-trennen"
 relatedExercise: "web-development/html-a11y/semantik-status-fokus/status/statusmeldung-und-fehlermeldung-trennen"
-tags:
-  - "web development"
-  - "frontend"
-  - "unterthema"
-  - "html-a11y"
-  - "semantik-status-fokus"
-  - "statusmeldung-und-fehlermeldung-trennen"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Statusmeldungen**.

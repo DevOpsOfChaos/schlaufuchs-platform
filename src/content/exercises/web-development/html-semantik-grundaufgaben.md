@@ -1,11 +1,17 @@
 ---
-title: HTML-Semantik – Grundaufgaben
-description: Übe, HTML-Elemente nach ihrer Bedeutung sinnvoll auszuwählen.
-subject: web-development
-level: einfach
+title: "HTML-Semantik – Grundaufgaben"
+description: "Übe, HTML-Elemente nach ihrer Bedeutung sinnvoll auszuwählen."
+subject: "web-development"
+section: "html-semantik-grundaufgaben"
+topicPath: ["html-semantik-grundaufgaben"]
+taskId: "AUTO-HTML-SEMANTIK-GRUNDAUFGABEN"
+tags: ["web-development", "html-semantik-grundaufgaben", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Übung hilft dir, Inhalte nicht nur irgendwie zu markieren, sondern passende HTML-Elemente bewusst auszuwählen.
 
 ## Aufgabenideen

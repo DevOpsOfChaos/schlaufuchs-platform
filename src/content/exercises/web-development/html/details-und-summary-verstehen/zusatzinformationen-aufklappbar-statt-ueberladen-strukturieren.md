@@ -1,32 +1,17 @@
 ---
-title: Zusatzinformationen aufklappbar statt überladen strukturieren
-description: Begründe, wann details und summary einen Bereich ruhiger machen als sofort sichtbarer Zusatztext.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - navigation-und-menues
-  - details-und-summary-verstehen
-  - zusatzinformationen-aufklappbar-statt-ueberladen-strukturieren
-level: einfach
+title: "Zusatzinformationen aufklappbar statt überladen strukturieren"
+description: "Begründe, wann details und summary einen Bereich ruhiger machen als sofort sichtbarer Zusatztext."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "details-und-summary-verstehen", "zusatzinformationen-aufklappbar-statt-ueberladen-strukturieren"]
+taskId: "AUTO-ZUSATZINFORMATIONEN-AUFKLAPPBAR-STATT-UEBERLADEN-STRUKTURIEREN"
+tags: ["web-development", "HTML", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - html
-  - details
-  - summary
-  - struktur
-hintPoints:
-  - Trenne Kerninhalt von Zusatzinformation.
-  - Prüfe, ob der aufklappbare Bereich klar beschrieben wird.
-  - Frage dich, ob der Hauptinhalt auch ohne Öffnen verständlich bleibt.
-selfCheckPoints:
-  - Kannst du Hauptinformation und Zusatz trennen?
-  - Kannst du begründen, wann ein aufklappbarer Bereich ruhig wirkt?
-transferIdeas:
-  - Übertrage die Idee auf FAQ, Hilfetexte, Filtererklärungen oder Datenschutz-Hinweise.
-reflectionPrompt: Warum ist „weniger sofort sichtbar“ nicht automatisch „weniger hilfreich“?
 ---
-
 ## Aufgabe 1: Geeignete Inhalte wählen
 
 Entscheide bei einem Registrierungsformular, was eher

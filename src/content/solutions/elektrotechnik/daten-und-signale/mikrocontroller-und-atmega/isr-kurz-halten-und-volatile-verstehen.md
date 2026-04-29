@@ -1,23 +1,14 @@
 ---
-title: Lösung – ISR, Flag und volatile sauber zuordnen
-description: Musterlösung zur sauberen Trennung von ISR-Arbeit, Hauptschleife und volatile-Variablen.
-subject: elektrotechnik
-section: Mikrocontroller und ATmega
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - isr-kurz-halten-und-volatile-verstehen
-taskId: et-mc-isr-flag-volatile
-relatedExercise: elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/isr-kurz-halten-und-volatile-verstehen
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - interrupt
-  - volatile
+title: "Lösung – ISR, Flag und volatile sauber zuordnen"
+description: "Musterlösung zur sauberen Trennung von ISR-Arbeit, Hauptschleife und volatile-Variablen."
+subject: "elektrotechnik"
+section: "Mikrocontroller und ATmega"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "isr-kurz-halten-und-volatile-verstehen"]
+taskId: "et-mc-isr-flag-volatile"
+relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/isr-kurz-halten-und-volatile-verstehen"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Der Code ist problematisch, weil die ISR sehr lange beschäftigt wäre. Dadurch kann das Hauptprogramm nicht normal weiterlaufen. Außerdem können andere zeitkritische Ereignisse verzögert werden.

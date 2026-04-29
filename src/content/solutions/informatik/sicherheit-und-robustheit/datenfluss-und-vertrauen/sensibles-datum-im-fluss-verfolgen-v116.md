@@ -3,22 +3,12 @@ title: "Lösung: sensibles Datum im Fluss verfolgen"
 description: "Musterlösung zur Aufgabe „sensibles Datum im Fluss verfolgen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "sicherheit-und-robustheit"
-  - "datenfluss-und-vertrauen"
-  - "sensibles-datum-im-fluss-verfolgen-v116"
+topicPath: ["sicherheit-und-robustheit", "datenfluss-und-vertrauen", "sensibles-datum-im-fluss-verfolgen-v116"]
 taskId: "sensibles-datum-im-fluss-verfolgen-v116"
 relatedExercise: "informatik/sicherheit-und-robustheit/datenfluss-und-vertrauen/sensibles-datum-im-fluss-verfolgen-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "datenfluss und vertrauen"
-  - "sensibles datum im fluss verfolgen"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

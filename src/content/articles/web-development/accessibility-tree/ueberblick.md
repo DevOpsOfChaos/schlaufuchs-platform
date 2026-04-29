@@ -3,32 +3,17 @@ title: "Accessibility Tree"
 description: "Allgemeiner Überblick über accessibility tree und die wichtigsten Zusammenhänge."
 subject: "web-development"
 section: "Barrierefreiheit"
-topicPath:
-  - "accessibility-tree"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["accessibility-tree", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird ARIA ergänzt, ohne die erzeugte Zugänglichkeitsstruktur zu prüfen."
-keyTakeaways:
-  - "Der Accessibility Tree erklärt, warum Semantik und zugängliche Namen wichtig sind."
-  - "Der Accessibility Tree ist nicht identisch mit dem DOM; er enthält vor allem bedienungsrelevante Bedeutung."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "web development"
-  - "barrierefreiheit"
-  - "accessibility tree"
-  - "html"
+tags: ["web-development", "Barrierefreiheit"]
 draft: false
 ---
-
 # Accessibility Tree
 
 ![Schaubild zum Accessibility Tree.](/schlaufuchs-platform/images/overviews/v149/accessibility-tree.svg)

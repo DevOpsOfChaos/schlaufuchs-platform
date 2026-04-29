@@ -3,32 +3,17 @@ title: "IndexedDB"
 description: "Allgemeiner Überblick über IndexedDB als strukturierten Speicher im Browser."
 subject: "web-development"
 section: "Browser-Speicher"
-topicPath:
-  - "indexeddb"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["indexeddb", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird lokaler Browser-Speicher als dauerhaft garantiert betrachtet. Nutzer, Browser oder Speicherbereinigung können Daten entfernen."
-keyTakeaways:
-  - "IndexedDB ist ein mächtiger lokaler Speicher für Webanwendungen. Er eignet sich besonders für Offline-Fähigkeit und größere strukturierte Daten."
-  - "IndexedDB ersetzt keinen Server und keine Datensicherung. Lokale Browserdaten können gelöscht, begrenzt oder gerätegebunden sein."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "web development"
-  - "indexeddb"
-  - "browser-speicher"
-  - "daten"
+tags: ["web-development", "Browser-Speicher"]
 draft: false
 ---
-
 # IndexedDB
 
 IndexedDB ist eine browserseitige Datenbank für größere oder strukturiertere Datenmengen, die dauerhaft lokal gespeichert werden können.

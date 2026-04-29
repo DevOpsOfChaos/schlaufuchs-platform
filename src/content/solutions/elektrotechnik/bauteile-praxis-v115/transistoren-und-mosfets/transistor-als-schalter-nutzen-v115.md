@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Transistor als Schalter nutzen"
 description: "Musterlösung zu Transistor als Schalter nutzen mit Trennkante und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "bauteile-praxis-v115"
-  - "transistoren-und-mosfets"
-  - "transistor-als-schalter-nutzen-v115"
+topicPath: ["bauteile-praxis-v115", "transistoren-und-mosfets", "transistor-als-schalter-nutzen-v115"]
 taskId: "elektrotechnik-transistor-als-schalter-nutzen-v115"
 relatedExercise: "elektrotechnik/bauteile-praxis-v115/transistoren-und-mosfets/transistor-als-schalter-nutzen-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "bauteile in der praxis"
-  - "transistoren und mosfets"
-  - "lösung"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Transistor als Schalter nutzen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

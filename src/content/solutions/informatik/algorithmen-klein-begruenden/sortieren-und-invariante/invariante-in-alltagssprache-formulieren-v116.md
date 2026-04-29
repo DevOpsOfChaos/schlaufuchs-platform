@@ -3,22 +3,12 @@ title: "Lösung: Invariante in Alltagssprache formulieren"
 description: "Musterlösung zur Aufgabe „Invariante in Alltagssprache formulieren“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "algorithmen-klein-begruenden"
-  - "sortieren-und-invariante"
-  - "invariante-in-alltagssprache-formulieren-v116"
+topicPath: ["algorithmen-klein-begruenden", "sortieren-und-invariante", "invariante-in-alltagssprache-formulieren-v116"]
 taskId: "invariante-in-alltagssprache-formulieren-v116"
 relatedExercise: "informatik/algorithmen-klein-begruenden/sortieren-und-invariante/invariante-in-alltagssprache-formulieren-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "sortieren und invariante"
-  - "invariante in alltagssprache formulieren"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

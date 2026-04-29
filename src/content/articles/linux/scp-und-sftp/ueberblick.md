@@ -1,34 +1,19 @@
 ---
 title: "scp und sftp"
 description: "Allgemeiner Überblick über Dateiübertragung mit scp und sftp."
-subject: linux
+subject: "linux"
 section: "SSH"
-topicPath:
-  - "scp-und-sftp"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst scp und sftp als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["scp-und-sftp", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden lokale und entfernte Pfade verwechselt. Ein falscher Zielpfad kopiert Dateien an unerwartete Orte."
-keyTakeaways:
-  - "Scp und sftp sind einfache Wege für sichere Dateiübertragung über SSH."
-  - "scp und sftp sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um scp und sftp."
-selfCheckPoints:
-  - "Kann ich erklären, woran man scp und sftp erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "linux"
-  - "scp"
-  - "sftp"
-  - "dateitransfer"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "SSH"]
 draft: false
 ---
-
 # scp und sftp
 
 scp und sftp übertragen Dateien über SSH-Verbindungen.

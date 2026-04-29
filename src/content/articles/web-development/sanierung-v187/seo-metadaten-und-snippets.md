@@ -3,39 +3,17 @@ title: "SEO, Metadaten und Snippets"
 description: "Verstehe Metadaten als kurze, ehrliche Beschreibung einer Seite für Browser, Suche und Teilen."
 subject: "web-development"
 section: "qualitaet"
-topicPath: 
-  - "qualitaet-und-zugaenglichkeit"
-  - "metadaten"
-learningGoals: 
-  - "Auffindbarkeit und Vorschau ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Schreibe Title und Description für drei verschiedene Unterseiten einer Lernwebsite."
-  - "Verbessere eine Seite mit unklarem Titel, fehlender Beschreibung und sprunghafter Überschriftenstruktur."
-commonMistakes: 
-  - "Jede Seite bekommt denselben Titel."
-  - "Descriptions sind zu allgemein oder werblich."
-  - "SEO wird als Trick statt als Strukturqualität verstanden."
-keyTakeaways: 
-  - "Gute Metadaten helfen Nutzern vor dem Klick zu verstehen, was die Seite bietet."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "Gute Metadaten helfen Nutzern vor dem Klick zu verstehen, was die Seite bietet."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "seo-metadaten-und-snippets"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags: 
-  - "seo"
-  - "metadaten"
-  - "html"
-  - "suchmaschinen"
-  - "web-development"
+tags: ["web-development", "qualitaet"]
 draft: false
 ---
-
 ![Didaktische Skizze zu SEO, Metadaten und Snippets](/schlaufuchs-platform/images/web-development/sanierung-v187/seo-metadaten-und-snippets.svg)
 
     SEO, Metadaten und Snippets ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

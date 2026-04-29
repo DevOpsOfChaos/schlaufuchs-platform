@@ -1,36 +1,19 @@
 ---
 title: "Modularisierung"
 description: "Überblick über Modularisierung als Zerlegung von Software in überschaubare Teile."
-subject: informatik
+subject: "informatik"
 section: "Softwareentwicklung"
-topicPath:
-  - "modularisierung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Modularisierung als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["modularisierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Module nach zufälligen Dateinamen statt nach Verantwortung geschnitten."
-keyTakeaways:
-  - "Module teilen Software in verantwortliche Einheiten."
-  - "Stabile Schnittstellen schützen vor unnötigen Änderungen."
-  - "Zu grobe und zu feine Module können beide problematisch sein."
-recognizeSignals:
-  - "Es geht um Modularisierung als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Modularisierung in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "module"
-  - "softwareentwicklung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Softwareentwicklung"]
 draft: false
 ---
-
 # Modularisierung
 
 Modularisierung bedeutet, ein System in getrennte, zusammenhängende Einheiten aufzuteilen. Ein Modul soll eine klare Verantwortung haben und über definierte Schnittstellen mit anderen Modulen zusammenarbeiten. Dadurch wird Software verständlicher, testbarer und änderbarer.

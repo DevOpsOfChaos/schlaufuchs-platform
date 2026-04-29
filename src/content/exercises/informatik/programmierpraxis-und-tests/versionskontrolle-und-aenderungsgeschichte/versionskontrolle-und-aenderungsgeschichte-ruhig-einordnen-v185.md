@@ -1,29 +1,17 @@
 ---
 title: "Versionskontrolle und Änderungsgeschichte – ruhig einordnen"
 description: "Übe, versionskontrolle und änderungsgeschichte fachlich zu erklären und abzugrenzen."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "versionskontrolle-und-aenderungsgeschichte"
-  - "uebung"
-taskId: INF-V185-018-1
-tags:
-  - "informatik"
-  - "programmierpraxis-und-tests"
-  - "versionskontrolle-und-aenderungsgeschichte"
-hintPoints:
-  - "Beginne mit der Grundidee, nicht mit einem Spezialfall."
-  - "Trenne Begriff, Beispiel und Prüfung."
-selfCheckPoints:
-  - "Ich kann das Thema in eigenen Worten erklären."
-  - "Ich kann ein passendes Beispiel begründen."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel in einem anderen Fachbereich."
-level: einfach
+topicPath: ["programmierpraxis-und-tests", "versionskontrolle-und-aenderungsgeschichte", "versionskontrolle-und-aenderungsgeschichte-ruhig-einordnen-v185"]
+taskId: "INF-V185-018-1"
+tags: ["informatik", "Programmierpraxis und Tests", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe prüft, ob du **Versionskontrolle und Änderungsgeschichte** zuerst als allgemeines Thema und nicht nur als Einzelfall lesen kannst.
 
 ## Lernziel

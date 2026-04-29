@@ -1,33 +1,17 @@
 ---
 title: "Toleranzkette"
 description: "Überblick über die Frage, wie sich Bauteiltoleranzen, Messfehler und Umgebungsbedingungen zu einer Gesamtunsicherheit verbinden."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Messtechnik"
-topicPath:
-  - "toleranzkette"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Toleranzkette als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["toleranzkette", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Viele Lernende betrachten Toleranzen einzeln. Entscheidend ist aber oft die Kombination: Referenzspannung, Sensorfehler, Widerstandstoleranz und Rundung wirken gemeinsam."
-keyTakeaways:
-  - "Eine Toleranzkette beschreibt, wie mehrere kleine Abweichungen zusammen ein spürbar unsicheres Ergebnis erzeugen können."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um toleranzkette, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich toleranzkette in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "toleranzkette"
-  - "überblick"
-  - "einzelabweichung"
-  - "worst case"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Messtechnik"]
 draft: false
 ---
 # Toleranzkette

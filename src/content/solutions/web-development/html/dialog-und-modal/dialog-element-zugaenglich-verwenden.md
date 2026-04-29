@@ -3,22 +3,12 @@ title: "Lösung – HTML: dialog-Element zugänglich verwenden"
 description: "Musterlösung zur Aufgabe: Verstehe, warum ein modaler Dialog Fokus, Schließen und Hintergrundbedienung gemeinsam kontrollieren muss."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "dialog-und-modal"
-  - "dialog-element-zugaenglich-verwenden"
+topicPath: ["html", "dialog-und-modal", "dialog-element-zugaenglich-verwenden"]
 taskId: "web-v102-dialog-element-zugaenglich-verwenden"
 relatedExercise: "web-development/html/dialog-und-modal/dialog-element-zugaenglich-verwenden"
-tags:
-  - "web development"
-  - "html"
-  - "dialog"
-  - "accessibility"
-  - "fokus"
-  - "lösung"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Ein sauberer Dialog hat einen auslösenden Button, eine erkennbare Überschrift, einen klaren Schließen-Weg und eine Fokusstrategie. Nach dem Schließen sollte der Fokus wieder sinnvoll beim auslösenden Element oder im Arbeitskontext landen.

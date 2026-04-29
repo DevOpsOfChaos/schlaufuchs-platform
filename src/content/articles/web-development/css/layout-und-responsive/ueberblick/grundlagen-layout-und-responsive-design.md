@@ -1,45 +1,19 @@
 ---
 title: "Grundlagen: Layout und Responsive Design"
 description: "Allgemeine Einordnung zu Layoutsystemen, Bildschirmgrößen, Inhaltsfluss und responsiven Entscheidungen."
-subject: web-development
+subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "layout-und-responsive"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee des Themas und kannst sie in eigenen Worten erklären."
-  - "Du kannst typische Begriffe einordnen, ohne sofort in Spezialfälle zu springen."
-  - "Du erkennst, welche Detailseiten zu welchem Teilaspekt gehören."
-practiceIdeas:
-  - "Lies zuerst diese Überblicksseite und danach eine passende Detailseite."
-  - "Notiere drei zentrale Begriffe und formuliere zu jedem eine kurze Erklärung."
-  - "Ordne eine konkrete Aufgabe dem passenden Teilaspekt des Themas zu."
-commonMistakes:
-  - "Direkt mit Spezialfällen zu beginnen, bevor die Grundidee klar ist."
-  - "Ähnliche Begriffe zu vermischen, obwohl sie verschiedene Rollen haben."
-  - "Ein einzelnes Beispiel für das gesamte Thema zu halten."
-keyTakeaways:
-  - "Die Überblicksseite erklärt den allgemeinen Zusammenhang des Themas."
-  - "Detailseiten behandeln danach konkrete Situationen, Methoden oder Fehlerbilder."
-  - "Gute Orientierung entsteht durch Definition, Zweck, Aufbau und Abgrenzung."
-recognizeSignals:
-  - "Du suchst zuerst eine allgemeine Einordnung statt einer einzelnen Übungssituation."
-  - "Mehrere Detailseiten wirken ähnlich und sollen fachlich sortiert werden."
-  - "Ein Thema braucht eine ruhige Erklärung, bevor Beispiele sinnvoll werden."
-selfCheckPoints:
-  - "Kann ich das Thema in zwei bis drei Sätzen allgemein erklären?"
-  - "Kann ich die wichtigsten Unterbegriffe voneinander unterscheiden?"
-  - "Weiß ich, welche Detailseite ich als Nächstes lesen würde?"
-tags:
-  - "web-development"
-  - "css"
-  - "layout"
-  - "responsive"
-level: einfach
+topicPath: ["css", "layout-und-responsive", "ueberblick", "grundlagen-layout-und-responsive-design"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 Layout beschreibt, wie Inhalte auf einer Webseite räumlich angeordnet werden. Responsive Design bedeutet, dass diese Anordnung auf unterschiedliche Bildschirmgrößen, Eingabegeräte und Inhaltsmengen reagieren kann.
 
 ## Einordnung

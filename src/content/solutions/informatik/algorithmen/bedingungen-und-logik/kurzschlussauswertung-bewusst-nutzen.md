@@ -3,21 +3,12 @@ title: "Lösung – Kurzschlussauswertung bewusst nutzen"
 description: "Musterlösung zu kurzschlussauswertung bewusst nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "algorithmen"
-  - "bedingungen-und-logik"
-  - "kurzschlussauswertung-bewusst-nutzen"
+topicPath: ["algorithmen", "bedingungen-und-logik", "kurzschlussauswertung-bewusst-nutzen"]
 taskId: "v112-informatik-kurzschlussauswertung-bewusst-nutzen"
 relatedExercise: "informatik/algorithmen/bedingungen-und-logik/kurzschlussauswertung-bewusst-nutzen"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "algorithmen"
-  - "kurzschlussauswertung-bewusst-nutzen"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Bedingungen und Logik**.

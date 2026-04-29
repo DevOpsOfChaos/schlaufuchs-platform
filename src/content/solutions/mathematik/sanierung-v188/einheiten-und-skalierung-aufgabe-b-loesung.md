@@ -3,22 +3,12 @@ title: "Lösung: Einheiten und Skalierung: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-056b."
 subject: "mathematik"
 section: "geometrie"
-topicPath:
-  - "geometrie"
-  - "einheiten-und-skalierung"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "einheiten-und-skalierung-aufgabe-b"]
 taskId: "mat-v188-056b"
 relatedExercise: "mathematik/sanierung-v188/einheiten-und-skalierung-aufgabe-b"
-tags:
-  - "skalierung"
-  - "einheiten"
-  - "geometrie"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "geometrie", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-056b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

@@ -3,43 +3,17 @@ title: "Kalibrierung und Referenz"
 description: "Verstehe messwerte an bekannten punkten prüfen als ruhigen Baustein für Daten, Signale, Messung und Übertragung."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "messung-und-diagnose"
-  - "kalibrierung-und-referenz"
-
-learningGoals:
-  - "Messwerte an bekannten Punkten prüfen"
-  - "Rohdaten, Darstellung und Interpretation sauber trennen"
-  - "einen kleinen prüfbaren nächsten Schritt formulieren"
-practiceIdeas:
-  - "Plane eine einfache Kalibrierung mit zwei Referenzpunkten."
-  - "Prüfe denselben Gedanken an einem zweiten Signalbeispiel."
-commonMistakes:
-  - "Rohwerte werden vorschnell als fertige Information gelesen."
-  - "Ein einzelnes Diagramm wird ohne Messkontext bewertet."
-  - "Einheiten, Zeitbezug oder Codierung bleiben unausgesprochen."
-keyTakeaways:
-  - "Kalibrierung vergleicht mit Referenzwerten."
-  - "Ein Offsetfehler verschiebt Messwerte gleichartig."
-  - "Referenzen müssen vertrauenswürdig und dokumentiert sein."
-
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Messwerte, Übertragung oder Darstellung nicht mehr eindeutig lesbar sind."
-selfCheckPoints:
-  - "Kann ich beschreiben, welche Größe tatsächlich gemessen oder übertragen wird?"
-  - "Sind Einheit, Zeitbezug und Codierung benannt?"
-  - "Gibt es einen Kontrollpunkt gegen Fehlinterpretation?"
+topicPath: ["sanierung-v195", "kalibrierung-und-referenz"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "kalibrierung"
-  - "referenz"
-  - "daten-und-signale"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Kalibrierung und Referenz](/schlaufuchs-platform/images/daten-und-signale/sanierung-v195/kalibrierung-und-referenz.svg)
 
 Kalibrierung und Referenz gehört zur Daten-und-Signale-Sanierung v195. Die Seite behandelt das Thema als ruhigen Arbeitsbaustein: Erst wird geklärt, welches Signal oder welche Daten vorliegen, dann wird entschieden, wie sie dargestellt, übertragen oder ausgewertet werden.

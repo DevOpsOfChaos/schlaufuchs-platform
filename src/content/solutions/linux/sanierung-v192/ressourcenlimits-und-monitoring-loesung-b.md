@@ -3,25 +3,12 @@ title: "Lösung: Ressourcenlimits und Monitoring: Aufgabe B"
 description: "Musterlösung zur Aufgabe linux-v192-030b im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "betrieb-nahe-grundlagen"
-  - "ressourcenlimits-und-monitoring"
-  - "loesung-b"
+topicPath: ["sanierung-v192", "ressourcenlimits-und-monitoring-loesung-b"]
 taskId: "linux-v192-030b"
 relatedExercise: "linux/sanierung-v192/ressourcenlimits-und-monitoring-aufgabe-b"
-tags:
-  - "betrieb-nahe-grundlagen"
-  - "ressourcenlimits"
-  - "monitoring"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-030b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Ressourcenlimits und Monitoring“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

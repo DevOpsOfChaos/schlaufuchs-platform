@@ -1,42 +1,19 @@
 ---
 title: "Grundlagen: Wackelkontakte und Kontaktprobleme"
 description: "Allgemeiner Überblick über lose Verbindungen, Übergangswiderstände und reproduzierbare Prüfung."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - praxis
-  - wackelkontakte-und-kontaktprobleme
-  - ueberblick
-learningGoals:
-  - "Du erklärst die Grundidee des Themas in eigenen Worten."
-  - "Du ordnest typische Begriffe, Grenzen und Fehlerquellen ruhig ein."
-  - "Du erkennst, welche Detailfragen zu diesem Themenbereich gehören."
-practiceIdeas:
-  - "Skizziere den Zusammenhang als Prüf-, Signal- oder Strompfad."
-  - "Notiere eine typische Fehlannahme und formuliere eine Gegenprobe."
-commonMistakes:
-  - "Einen sporadischen Fehler als Zufall abzutun."
-  - "Nur am Code zu suchen, obwohl ein Kontakt mechanisch instabil ist."
-  - "Steckverbindungen ohne Last oder Bewegung zu prüfen."
-keyTakeaways:
-  - "Kontaktfehler sind oft zeit- oder bewegungsabhängig."
-  - "Eine reproduzierbare Gegenprobe ist wichtiger als einmaliges Glück."
-  - "Mechanik, Strompfad und Messwert müssen gemeinsam betrachtet werden."
-recognizeSignals:
-  - "Du brauchst zuerst Orientierung, bevor du eine konkrete Schaltung oder Aufgabe bewertest."
-  - "Ein Einzelfall wirkt plausibel, aber der allgemeine fachliche Rahmen fehlt."
-selfCheckPoints:
-  - "Kann ich das Thema ohne reines Auswendiglernen erklären?"
-  - "Kann ich typische Fehlerquellen in einer sinnvollen Prüfreihenfolge nennen?"
-level: einfach
-tags:
-  - elektrotechnik
-  - kontaktproblem
-  - wackelkontakt
-  - fehlersuche
+topicPath: ["praxis", "wackelkontakte-und-kontaktprobleme", "ueberblick", "grundlagen-wackelkontakte-und-kontaktprobleme"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Praxis"]
 draft: false
 ---
-
 ![Wackelkontakte und Kontaktprobleme](/schlaufuchs-platform/images/overviews/v182/wackelkontakte-und-kontaktprobleme.svg)
 
 ## Überblick

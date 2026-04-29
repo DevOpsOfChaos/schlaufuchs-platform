@@ -3,21 +3,12 @@ title: "Lösung – Ladezustand, Leerzustand und Fehlerzustand in UI planen"
 description: "Musterlösung zu: Skizziere drei Kartenzustände für eine Suchergebnisliste: lädt, keine Treffer, Fehler. Formuliere je einen sichtbaren Text."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "responsive-layouts"
-  - "ladezustand-leerzustand-und-fehlerzustand-in-ui-planen"
+topicPath: ["css", "responsive-layouts", "ladezustand-leerzustand-und-fehlerzustand-in-ui-planen"]
 taskId: "wd-v97-ladezustand-leerzustand-und-fehlerzustand-in-ui-planen"
 relatedExercise: "web-development/css/responsive-layouts/ladezustand-leerzustand-und-fehlerzustand-in-ui-planen"
-tags:
-  - "web development"
-  - "css"
-  - "ui"
-  - "zustand"
-  - "ux"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Das Problem entsteht nicht nur im Code, sondern in der Nutzung: Wenn Bedeutung, Struktur oder Rückmeldung unklar bleiben, müssen Nutzerinnen und Nutzer raten. Besonders kritisch wird das bei Tastaturbedienung, kleinen Bildschirmen, langen Inhalten oder assistiven Technologien.

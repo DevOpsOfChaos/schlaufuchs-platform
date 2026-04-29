@@ -3,22 +3,12 @@ title: "Lösung: Portdienst zuordnen"
 description: "Musterlösung zur Aufgabe „Portdienst zuordnen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "netzwerk-und-fernzugriff"
-  - "ports-und-firewall"
-  - "portdienst-zuordnen-v116"
+topicPath: ["netzwerk-und-fernzugriff", "ports-und-firewall", "portdienst-zuordnen-v116"]
 taskId: "portdienst-zuordnen-v116"
 relatedExercise: "linux/netzwerk-und-fernzugriff/ports-und-firewall/portdienst-zuordnen-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "ports und firewall"
-  - "portdienst zuordnen"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

@@ -1,35 +1,17 @@
 ---
 title: "Browser-Kompatibilität"
 description: "Überblick über Browser-Kompatibilität, Feature-Support und realistische Entscheidungen in Webprojekten."
-subject: web-development
+subject: "web-development"
 section: "Browser"
-topicPath:
-  - "browser-kompatibilitaet"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Browser-Kompatibilität als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["browser-kompatibilitaet", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, nur im eigenen Browser zu testen und daraus allgemeine Unterstützung abzuleiten."
-keyTakeaways:
-  - "Browser-Kompatibilität beschreibt, ob Webfunktionen in den Zielbrowsern zuverlässig unterstützt werden."
-  - "Sie verhindert, dass Oberflächen nur in der Entwicklungsumgebung funktionieren und in realen Nutzungssituationen ausfallen."
-  - "Kompatibilität bedeutet nicht, jede alte Umgebung identisch zu unterstützen. Entscheidend ist ein bewusster Zielrahmen."
-recognizeSignals:
-  - "Es geht um Browser-Kompatibilität, wenn kompatibilität hängt von Browser, Version, Gerät und Einstellungen ab."
-  - "Das Thema wird relevant, wenn Beispiele wie container Queries können genutzt werden, wenn ein sinnvoller Fallback oder eine klare Mindestanforderung vorhanden ist."
-selfCheckPoints:
-  - "Kann ich Browser-Kompatibilität in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "web development"
-  - "browser"
-  - "kompatibilität"
-  - "frontend"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Browser"]
 draft: false
 ---
 # Browser-Kompatibilität

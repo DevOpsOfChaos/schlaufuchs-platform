@@ -1,46 +1,19 @@
 ---
 title: "Elektrotechnik – SPI-Chip-Select einzeln führen"
 description: "Trainiere SPI-Chip-Select einzeln führen als kleines Unterthema mit klarer Trennkante, Beispiel und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "signale-stoerungen-v115"
-  - "kommunikation-robust"
-  - "spi-chip-select-einzeln-fuehren-v115"
-learningGoals:
-  - "Du erklärst SPI-Chip-Select einzeln führen an einem kleinen, abgegrenzten Fall."
-  - "Du trennst das Unterthema von einem naheliegenden Nachbarthema."
-  - "Du formulierst eine passende Gegenprobe statt nur eine fertige Antwort."
-practiceIdeas:
-  - "Schreibe zuerst die Prüffrage in eigenen Worten auf."
-  - "Markiere im Fall zwei Hinweise, die wirklich zur Entscheidung gehören."
-  - "Formuliere einen Gegenfall, in dem die Entscheidung anders ausfallen würde."
-commonMistakes:
-  - "Alle Bausteine werden gleichzeitig aktiviert."
-  - "Das Thema wird zu breit eingeordnet und verliert dadurch die prüfbare Trennkante."
-  - "Die Lösung nennt ein Ergebnis, begründet aber nicht die Abgrenzung."
-keyTakeaways:
-  - "Dieses Unterthema prüft vor allem: Ist immer nur ein Chip-Select aktiv?"
-  - "Eine gute Lösung benennt die Trennkante ausdrücklich."
-  - "Die Gegenprobe zeigt, ob die Begründung wirklich trägt."
-recognizeSignals:
-  - "Die Aufgabe fragt nach SPI-Chip-Select einzeln führen."
-  - "Ähnliche Begriffe oder Fälle liegen nah beieinander."
-  - "Eine kleine Änderung im Fall würde zu einer anderen Entscheidung führen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-level: mittel
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "signale und störungen"
-  - "kommunikation robust machen"
+topicPath: ["signale-stoerungen-v115", "kommunikation-robust", "spi-chip-select-einzeln-fuehren-v115"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik"]
 draft: false
 ---
-
 <img src="/schlaufuchs-platform/illustrations/elektrotechnik-spi-chip-select-einzeln-fuehren-v115.svg" alt="Lernillustration zu SPI-Chip-Select einzeln führen" loading="lazy" />
 
 ## Grundidee

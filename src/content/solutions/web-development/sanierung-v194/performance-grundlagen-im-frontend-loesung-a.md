@@ -3,25 +3,12 @@ title: "Lösung: Performance-Grundlagen im Frontend: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-development-v194-023a im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "performance-und-medien"
-  - "performance-grundlagen-im-frontend"
-  - "loesung-a"
-
+topicPath: ["sanierung-v194", "performance-grundlagen-im-frontend-loesung-a"]
 taskId: "web-development-v194-023a"
 relatedExercise: "web-development/sanierung-v194/performance-grundlagen-im-frontend-aufgabe-a"
-tags:
-  - "performance"
-  - "grundlagen"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-023a`
 
 Ausgangsauftrag: Analysiere eine Seite nach drei möglichen Ladezeitbremsen.

@@ -3,46 +3,17 @@ title: "Elektrotechnik – UART-Baudrate und Frameformat gemeinsam prüfen"
 description: "Lerne UART-Baudrate und Frameformat als enges, prüfbares Unterthema mit Beispiel, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Kommunikation"
-topicPath:
-  - "daten-und-signale"
-  - "serielle-kommunikation"
-  - "uart-baudrate"
-  - "uart-baudrate-und-frameformat-gemeinsam-pruefen"
-learningGoals:
-  - "Du erklärst UART-Baudrate und Frameformat als eigenes Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Erstelle eine Gegenprobe mit verändertem Wert, Zustand oder Kontext."
-  - "Vergleiche die Seite mit einem Nachbarthema und nenne die Trennkante."
-commonMistakes:
-  - "Nur TX und RX werden geprüft."
-  - "Das Thema nur einem breiten Kapitel zuordnen."
-  - "Eine Lösung formulieren, die keine konkrete Prüfung enthält."
-keyTakeaways:
-  - "UART-Baudrate und Frameformat wird über Einordnung, Abgrenzung und Gegenprobe stabil."
-  - "Kleine Unterthemen erhöhen Auffindbarkeit und reduzieren Doppelungen."
-  - "Aufgabe und Lösung sollen dieselbe fachliche Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Ein breites Kapitel wäre als Antwort zu ungenau."
-  - "Ein konkreter Prüfschritt kann die Entscheidung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "daten-und-signale"
-  - "serielle-kommunikation"
-  - "uart-baudrate und frameformat"
+topicPath: ["daten-und-signale", "serielle-kommunikation", "uart-baudrate", "uart-baudrate-und-frameformat-gemeinsam-pruefen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["elektrotechnik", "Kommunikation"]
 draft: false
 ---
-
 ## Grundidee
 
 **UART-Baudrate und Frameformat** ist ein kleines Unterthema mit einer klaren Trennkante. Lerne UART-Baudrate und Frameformat als enges, prüfbares Unterthema mit Beispiel, Abgrenzung und Gegenprobe. Dadurch bleibt die Seite übersichtlich und landet nicht als weiterer Abschnitt in einem zu breiten Sammelthema.

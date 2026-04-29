@@ -3,33 +3,15 @@ title: "Periodische Signale: Grundordnung"
 description: "Ordne Periodische Signale in Zweck, Prüffragen und Fehlerquellen."
 subject: "daten-und-signale"
 section: "analyse"
-topicPath:
-  - "analyse"
-  - "periodische-signale"
-  - "aufgabe-a"
+topicPath: ["sanierung-v189", "periodische-signale-aufgabe-a"]
 taskId: "dat-v189-035a"
-tags:
-  - "periode"
-  - "frequenz"
-  - "signal"
-  - "daten-und-signale"
-  - "aufgabe"
-  - "v189"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["daten-und-signale", "analyse", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Du arbeitest am Thema **Periodische Signale**. Erstelle eine kurze, geordnete Erklärung für eine lernende Person.

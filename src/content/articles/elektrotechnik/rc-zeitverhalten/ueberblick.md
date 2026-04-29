@@ -1,31 +1,17 @@
 ---
 title: "RC-Zeitverhalten"
 description: "Allgemeiner Überblick über Widerstand-Kondensator-Schaltungen, Ladeverhalten und Zeitkonstanten."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Grundlagen"
-topicPath:
-  - "rc-zeitverhalten"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst RC-Zeitverhalten grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["rc-zeitverhalten", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "RC-Zeitverhalten nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "RC-Zeitverhalten beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um RC-Zeitverhalten, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich RC-Zeitverhalten in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "kondensator"
-  - "zeitkonstante"
-  - "grundlagen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Grundlagen"]
 draft: false
 ---
 # RC-Zeitverhalten

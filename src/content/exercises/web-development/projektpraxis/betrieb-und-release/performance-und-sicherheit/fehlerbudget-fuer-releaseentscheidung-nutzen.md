@@ -3,34 +3,15 @@ title: "Aufgabe – Fehlerbudget für Releaseentscheidung nutzen"
 description: "Übe fehlerbudget für releaseentscheidung nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "performance-und-sicherheit"
-  - "fehlerbudget-fuer-releaseentscheidung-nutzen"
+topicPath: ["projektpraxis", "betrieb-und-release", "performance-und-sicherheit", "fehlerbudget-fuer-releaseentscheidung-nutzen"]
 taskId: "v112-web-development-fehlerbudget-fuer-releaseentscheidung-nutzen"
-tags:
-  - "web-development"
-  - "v112"
-  - "feinstruktur"
-  - "projektpraxis"
-  - "fehlerbudget-fuer-releaseentscheidung-nutzen"
-hintPoints:
-  - "Benenne zuerst das kleine Unterthema."
-  - "Prüfe bewusst den Unterschied zum Fehler: Jeder Fehler wird entweder ignoriert oder als kompletter Stopp behandelt."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Einordnung enger als nur der breite Fachbereich?"
-  - "Wird der typische Fehler ausdrücklich ausgeschlossen?"
-  - "Passt die Lösung zur Wissensseite?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Begriff und prüfe, ob die gleiche Strategie gilt."
-  - "Erkläre die Lösung einmal alltagssprachlich und danach fachlich sauber."
-reflectionPrompt: "Was war bei „Fehlerbudget für Releaseentscheidung nutzen“ die wichtigste Trennkante?"
+tags: ["web-development", "Feinstruktur Web Development", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation:

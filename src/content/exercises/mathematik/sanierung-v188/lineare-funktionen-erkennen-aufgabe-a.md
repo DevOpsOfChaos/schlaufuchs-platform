@@ -3,33 +3,15 @@ title: "Lineare Funktionen erkennen: Grundordnung"
 description: "Ordne Lineare Funktionen erkennen in Zweck, Prüffragen und Fehlerquellen."
 subject: "mathematik"
 section: "funktionen-im-vergleich"
-topicPath:
-  - "funktionen-im-vergleich"
-  - "linear-und-quadratisch-trennen"
-  - "aufgabe-a"
+topicPath: ["sanierung-v188", "lineare-funktionen-erkennen-aufgabe-a"]
 taskId: "mat-v188-015a"
-tags:
-  - "funktionen"
-  - "linear"
-  - "steigung"
-  - "mathematik"
-  - "aufgabe"
-  - "v188"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["mathematik", "funktionen-im-vergleich", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Du arbeitest am Thema **Lineare Funktionen erkennen**. Erstelle eine kurze, geordnete Erklärung für eine lernende Person.

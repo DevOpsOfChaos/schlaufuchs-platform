@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Dreiecksfläche mit Höhe begründen"
 description: "Musterlösung zu Dreiecksfläche mit Höhe begründen mit Trennkante und Gegenprobe."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "geometrie-begruenden-v115"
-  - "flaechen-und-koerper"
-  - "dreiecksflaeche-mit-hoehe-begruenden-v115"
+topicPath: ["geometrie-begruenden-v115", "flaechen-und-koerper", "dreiecksflaeche-mit-hoehe-begruenden-v115"]
 taskId: "mathematik-dreiecksflaeche-mit-hoehe-begruenden-v115"
 relatedExercise: "mathematik/geometrie-begruenden-v115/flaechen-und-koerper/dreiecksflaeche-mit-hoehe-begruenden-v115"
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "geometrisch begründen"
-  - "flächen und körper"
-  - "lösung"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Dreiecksfläche mit Höhe begründen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

@@ -3,24 +3,12 @@ title: "Lösung: Commit-Scope und Historie: Aufgabe B"
 description: "Musterlösung zur Aufgabe informatik-v193-029b im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "zusammenarbeit-und-audit"
-  - "commit-scope-und-historie"
-  - "loesung-b"
+topicPath: ["sanierung-v193", "commit-scope-und-historie-loesung-b"]
 taskId: "informatik-v193-029b"
 relatedExercise: "informatik/sanierung-v193/commit-scope-und-historie-aufgabe-b"
-tags:
-  - "commit"
-  - "scope"
-  - "historie"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-029b`
 
 Ausgangsauftrag: Übertrage das Thema Commit-Scope und Historie auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

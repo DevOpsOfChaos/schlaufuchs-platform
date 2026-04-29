@@ -1,32 +1,17 @@
 ---
-title: UART-Text und Rohbytes am AVR ruhig trennen
-description: Erkläre, warum der ATmega über UART zunächst nur Bytes sendet und wieso lesbarer Text erst durch die Darstellung entsteht.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-kommunikation
-  - atmega-uart-ascii-und-rohbytes-unterscheiden
-  - uart-text-und-rohbytes-am-avr-ruhig-trennen
-taskId: ET-ATMEGA-UART-211
-level: einfach
+title: "UART-Text und Rohbytes am AVR ruhig trennen"
+description: "Erkläre, warum der ATmega über UART zunächst nur Bytes sendet und wieso lesbarer Text erst durch die Darstellung entsteht."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-uart-ascii-und-rohbytes-unterscheiden", "uart-text-und-rohbytes-am-avr-ruhig-trennen"]
+taskId: "ET-ATMEGA-UART-211"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - elektrotechnik
-  - atmega
-  - uart
-  - ascii
-hintPoints:
-  - Trenne Übertragung und Darstellung bewusst.
-  - Lies einen Bytewert einmal als Zahl und einmal als Zeichen.
-selfCheckPoints:
-  - Kannst du ASCII und Rohdaten sauber unterscheiden?
-  - Kannst du erklären, warum dieselbe UART-Verbindung sowohl Text als auch Messdaten übertragen kann?
-transferIdeas:
-  - Übertrage die Logik auf serielle Debug-Ausgabe, Parser oder einfache Binärprotokolle.
-reflectionPrompt: "Warum hilft es, serielle Daten zuerst als Bytefolge und erst danach als Text zu lesen?"
 ---
-
 ## Aufgabe 1: Byte oder Buchstabe?
 
 Erkläre den Unterschied zwischen diesen beiden Aussagen:

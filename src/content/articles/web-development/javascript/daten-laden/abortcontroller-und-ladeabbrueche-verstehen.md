@@ -3,44 +3,17 @@ title: "JavaScript – AbortController und Ladeabbrüche verstehen"
 description: "Lerne, warum alte oder zu langsame Anfragen kontrolliert beendet werden sollten, statt spätere UI-Zustände zu überschreiben."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "daten-laden"
-  - "abortcontroller-und-ladeabbrueche-verstehen"
-tags:
-  - "web development"
-  - "javascript"
-  - "fetch"
-  - "abortcontroller"
-  - "ladezustand"
-learningGoals:
-  - "Du erklärst, warum parallele Anfragen zu falschen Oberflächenzuständen führen können."
-  - "Du nutzt ein AbortSignal als kontrollierten Abbruchweg."
-  - "Du unterscheidest echten Fehler und bewusst abgebrochene Anfrage."
-practiceIdeas:
-  - "Übertrage die Idee auf eine kleine eigene Seite."
-  - "Prüfe die Bedienung einmal mit Tastatur und einmal mit Maus."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "Jede verspätete Antwort ungeprüft in die Oberfläche zu schreiben."
-  - "Abbruch und Netzwerkfehler gleich zu behandeln."
-  - "Ladezustände ohne Rückweg anzuzeigen."
-keyTakeaways:
-  - "Struktur, Zustand und Rückmeldung müssen zusammenpassen."
-  - "Sichtbare Nutzerführung ist Teil der technischen Lösung."
-  - "Saubere Webentwicklung prüft auch Fehlerfälle und Sonderwege."
-recognizeSignals:
-  - "Eine Oberfläche soll verständlicher, robuster oder zugänglicher werden."
-  - "HTML, CSS und JavaScript müssen gemeinsam gelesen werden."
-  - "Es gibt einen Zustand, der sichtbar gemacht oder kontrolliert werden muss."
-selfCheckPoints:
-  - "Kann ich die Entscheidung in einem Satz erklären?"
-  - "Bleibt die Lösung bei Fehlern oder Tastaturbedienung verständlich?"
-  - "Sind sichtbare Texte klar und deutsch formuliert?"
+topicPath: ["javascript", "daten-laden", "abortcontroller-und-ladeabbrueche-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Lerne, warum alte oder zu langsame Anfragen kontrolliert beendet werden sollten, statt spätere UI-Zustände zu überschreiben. Die Seite betrachtet das Thema nicht als isolierten Syntaxtrick, sondern als kleine Entscheidung für Bedienbarkeit, Wartbarkeit und verständliche Rückmeldung.

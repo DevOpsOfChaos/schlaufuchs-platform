@@ -3,33 +3,15 @@ title: "Skizzen und Hilfslinien: Prüfen und Begründen"
 description: "Bewerte eine Aussage zu Skizzen und Hilfslinien und formuliere eine bessere Arbeitsregel."
 subject: "mathematik"
 section: "geometrie-messen-und-begruenden"
-topicPath:
-  - "geometrie-messen-und-begruenden"
-  - "skizzen-und-hilfslinien"
-  - "aufgabe-b"
+topicPath: ["sanierung-v188", "skizzen-und-hilfslinien-aufgabe-b"]
 taskId: "mat-v188-028b"
-tags:
-  - "skizze"
-  - "hilfslinie"
-  - "begruendung"
-  - "mathematik"
-  - "aufgabe"
-  - "v188"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["mathematik", "geometrie-messen-und-begruenden", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Prüfe die folgende Aussage zum Thema **Skizzen und Hilfslinien**:

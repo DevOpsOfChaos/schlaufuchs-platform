@@ -3,25 +3,12 @@ title: "Lösung: Updates und Risikoabschätzung: Aufgabe B"
 description: "Musterlösung zur Aufgabe linux-v192-014b im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "pakete-und-updates"
-  - "updates-und-risikoabschaetzung"
-  - "loesung-b"
+topicPath: ["sanierung-v192", "updates-und-risikoabschaetzung-loesung-b"]
 taskId: "linux-v192-014b"
 relatedExercise: "linux/sanierung-v192/updates-und-risikoabschaetzung-aufgabe-b"
-tags:
-  - "pakete-und-updates"
-  - "updates"
-  - "risikoabschaetzung"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-014b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Updates und Risikoabschätzung“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

@@ -1,36 +1,19 @@
 ---
 title: "ETag und Cache-Validierung"
 description: "ETag und Cache-Validierung bezeichnet ein Grundthema im Bereich Webseiten, Browser, Schnittstellen und Bedienoberflächen. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-subject: web-development
+subject: "web-development"
 section: "HTTP"
-topicPath:
-  - "etag-und-cache-validierung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst ETag und Cache-Validierung als allgemeinen Grundbegriff einordnen."
-  - "Du kennst Zweck, Zusammenhang, typische Teilaspekte und Grenzen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle behandelt werden."
+topicPath: ["etag-und-cache-validierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird ETag und Cache-Validierung nur als einzelner Arbeitsschritt verstanden, obwohl der Begriff einen größeren Zusammenhang beschreibt."
-keyTakeaways:
-  - "ETag und Cache-Validierung bezeichnet ein Grundthema im Bereich Webseiten, Browser, Schnittstellen und Bedienoberflächen. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-  - "Ein Überblick trennt Begriff, Zweck, Beispiel und Grenze."
-  - "Spezialseiten werden verständlicher, wenn die allgemeine Einordnung vorher klar ist."
-recognizeSignals:
-  - "Es geht um ETag und Cache-Validierung, wenn mehrere Einzelbeobachtungen ohne Grundbegriff schwer einzuordnen sind."
-  - "Der Begriff hilft, Werkzeuge, Werte, Regeln oder Darstellungen fachlich zu sortieren."
-selfCheckPoints:
-  - "Kann ich ETag und Cache-Validierung in zwei bis drei Sätzen erklären?"
-  - "Kann ich ein Beispiel und eine typische Grenze nennen?"
-level: einfach
-tags:
-  - "web"
-  - "cache"
-  - "http"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTTP"]
 draft: false
 ---
-
 # ETag und Cache-Validierung
 
 ETag und Cache-Validierung bezeichnet ein Grundthema im Bereich Webseiten, Browser,

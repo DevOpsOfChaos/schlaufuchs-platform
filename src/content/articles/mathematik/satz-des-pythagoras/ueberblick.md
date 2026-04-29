@@ -1,31 +1,17 @@
 ---
 title: "Satz des Pythagoras"
 description: "Allgemeiner Überblick über den Satz des Pythagoras, rechtwinklige Dreiecke und Längenbeziehungen."
-subject: mathematik
+subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - "satz-des-pythagoras"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Satz des Pythagoras grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["satz-des-pythagoras", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Satz des Pythagoras nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Satz des Pythagoras beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Satz des Pythagoras, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Satz des Pythagoras in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "pythagoras"
-  - "geometrie"
-  - "dreieck"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Geometrie"]
 draft: false
 ---
 # Satz des Pythagoras

@@ -3,32 +3,17 @@ title: "Alternative Texte für Bilder"
 description: "Allgemeiner Überblick über alternative Texte und die Bedeutung von Bildern für zugängliche Webseiten."
 subject: "web-development"
 section: "Barrierefreiheit"
-topicPath:
-  - "alternative-texte-fuer-bilder"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["alternative-texte-fuer-bilder", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird jedes Bild mechanisch mit Beschreibung gefüllt. Dadurch entstehen Wiederholungen oder unnütze Informationen, die die Nutzung erschweren."
-keyTakeaways:
-  - "Gute Alternativtexte erklären nicht jedes Pixel, sondern die relevante Bedeutung des Bildes für die Seite."
-  - "Ein Alternativtext ist keine Bildunterschrift und keine Dateinamen-Wiederholung. Er ersetzt die relevante Funktion des Bildes im jeweiligen Nutzungskontext."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "web development"
-  - "bilder"
-  - "alt text"
-  - "barrierefreiheit"
+tags: ["web-development", "Barrierefreiheit"]
 draft: false
 ---
-
 # Alternative Texte für Bilder
 
 ![Schaubild zu Alternativtexten für Bilder.](/schlaufuchs-platform/images/overviews/v150/alternative-texte-fuer-bilder.svg)

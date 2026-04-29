@@ -1,17 +1,19 @@
 ---
-title: Arrays und Speicherzugriff tiefer verstehen
-description: Arrays ordnen mehrere Werte gleichen Typs in einer festen Struktur und machen systematischen Speicherzugriff in Programmen möglich.
-subject: informatik
-section: Grundlagen
-level: mittel
-tags:
-  - Arrays
-  - Speicherzugriff
-  - Indizes
-  - Programmierung
+title: "Arrays und Speicherzugriff tiefer verstehen"
+description: "Arrays ordnen mehrere Werte gleichen Typs in einer festen Struktur und machen systematischen Speicherzugriff in Programmen möglich."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "arrays-und-speicherzugriff-tiefer-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 Sobald Programme nicht nur einen einzelnen Wert, sondern eine ganze Folge ähnlicher Werte verarbeiten sollen, reichen einzelne Variablen oft nicht mehr aus. Genau dafür gibt es Arrays. Sie helfen, mehrere Elemente desselben Typs in einer klaren Struktur zusammenzufassen.

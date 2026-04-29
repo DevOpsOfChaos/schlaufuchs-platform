@@ -3,34 +3,15 @@ title: "Aufgabe – JavaScript – Network Tab und HTTP-Fehler diagnostizieren"
 description: "Untersuche gedanklich einen fehlgeschlagenen fetch-Aufruf und ordne mögliche Ursachen den Bereichen URL, Statuscode, Antwortformat und CORS zu."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "debugging-und-diagnose"
-  - "network-tab-und-http-fehler-diagnostizieren"
+topicPath: ["javascript", "debugging-und-diagnose", "network-tab-und-http-fehler-diagnostizieren"]
 taskId: "web-v100-network-tab-und-http-fehler-diagnostizieren"
-tags:
-  - "web development"
-  - "javascript"
-  - "network"
-  - "http"
-  - "fetch"
-  - "aufgabe"
-hintPoints:
-  - "Lies zuerst die sichtbare Seitensituation, nicht nur einzelne Codezeilen."
-  - "Trenne Ursache, Entscheidung und erwartete Wirkung."
-  - "Denke mindestens einen Fehler-, Lade- oder Randfall mit."
-selfCheckPoints:
-  - "Ist die Entscheidung fachlich begründet?"
-  - "Ist klar, welche Nutzererfahrung verbessert wird?"
-  - "Wird der passende Browser- oder Projektbereich geprüft?"
-transferIdeas:
-  - "Übertrage die Idee auf eine kleine Lernkarte, ein Formular oder eine Navigation."
-  - "Beschreibe eine schwache Variante, die technisch funktioniert, aber didaktisch oder praktisch riskant bleibt."
-reflectionPrompt: "Welche Prüfung hätte den häufigsten Fehler bei dieser Aufgabe am frühesten sichtbar gemacht?"
+tags: ["web-development", "JavaScript", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Untersuche gedanklich einen fehlgeschlagenen fetch-Aufruf und ordne mögliche Ursachen den Bereichen URL, Statuscode, Antwortformat und CORS zu.

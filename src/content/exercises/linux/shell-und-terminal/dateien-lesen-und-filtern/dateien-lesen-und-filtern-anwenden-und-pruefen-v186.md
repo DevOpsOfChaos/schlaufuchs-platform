@@ -1,29 +1,17 @@
 ---
 title: "Dateien lesen und filtern – anwenden und prüfen"
 description: "Übe, Dateien lesen und filtern an kleinen Praxissituationen zu prüfen."
-subject: linux
+subject: "linux"
 section: "shell-und-terminal"
-topicPath:
-  - "shell-und-terminal"
-  - "dateien-lesen-und-filtern"
-taskId: LINUX-DATEIEN-LESEN-UND-FILTERN-V186-2
-tags:
-  - "linux"
-  - "dateien"
-  - "grep"
-  - "aufgabe"
-hintPoints:
-  - "Beginne mit Begriff und Kontext."
-  - "Trenne Beobachtung, Prüfung und mögliche Änderung."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe erklären."
-  - "Ich kann einen typischen Fehler vermeiden."
-transferIdeas:
-  - "Formuliere eine ähnliche Prüfsituation aus deinem eigenen Linux-Alltag."
-level: einfach
+topicPath: ["shell-und-terminal", "dateien-lesen-und-filtern", "dateien-lesen-und-filtern-anwenden-und-pruefen-v186"]
+taskId: "LINUX-DATEIEN-LESEN-UND-FILTERN-V186-2"
+tags: ["linux", "shell-und-terminal", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Lernziel
 
 Du sollst **Dateien lesen und filtern** nicht nur als Befehl oder Schlagwort sehen, sondern als geordnetes Linux-Thema mit Zweck, Kontext und typischen Prüfschritten.

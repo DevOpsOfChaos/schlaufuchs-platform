@@ -3,39 +3,17 @@ title: "Tests, Checklisten und Abnahme"
 description: "Prüfe Webänderungen nicht nur optisch, sondern über Struktur, Bedienung, Inhalte und Grenzfälle."
 subject: "web-development"
 section: "qualitaet"
-topicPath: 
-  - "qualitaet-und-zugaenglichkeit"
-  - "tests-und-abnahme"
-learningGoals: 
-  - "Verlässliche Qualitätsprüfung ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Erstelle eine Abnahmecheckliste für eine neue Inhaltsseite mit Formular und Bild."
-  - "Unterscheide bei zehn Prüfpunkten, ob sie automatisch, manuell oder fachlich geprüft werden müssen."
-commonMistakes: 
-  - "Es wird nur im eigenen Browser getestet."
-  - "Checklisten sind zu allgemein."
-  - "Fehlerfälle werden nicht nachgestellt."
-keyTakeaways: 
-  - "Eine gute Abnahme macht sichtbar, was geprüft wurde und was bewusst offen bleibt."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "Eine gute Abnahme macht sichtbar, was geprüft wurde und was bewusst offen bleibt."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "tests-checklisten-und-abnahme"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags: 
-  - "tests"
-  - "checklisten"
-  - "qualitaet"
-  - "abnahme"
-  - "web-development"
+tags: ["web-development", "qualitaet"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Tests, Checklisten und Abnahme](/schlaufuchs-platform/images/web-development/sanierung-v187/tests-checklisten-und-abnahme.svg)
 
     Tests, Checklisten und Abnahme ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

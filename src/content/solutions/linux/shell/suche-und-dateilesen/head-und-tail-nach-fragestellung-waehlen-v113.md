@@ -3,20 +3,12 @@ title: "Lösung – head und tail nach Fragestellung wählen"
 description: "Musterlösung zu head und tail nach Fragestellung wählen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "suche-und-dateilesen"
-  - "head-und-tail-nach-fragestellung-waehlen-v113"
+topicPath: ["shell", "suche-und-dateilesen", "head-und-tail-nach-fragestellung-waehlen-v113"]
 taskId: "v113-linux-head-und-tail-nach-fragestellung-waehlen-v113"
 relatedExercise: "linux/shell/suche-und-dateilesen/head-und-tail-nach-fragestellung-waehlen-v113"
-tags:
-  - "linux"
-  - "strukturcheck"
-  - "unterthema"
-  - "head-und-tail-nach-fragestellung-waehlen-v113"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **head und tail nach Fragestellung wählen**.

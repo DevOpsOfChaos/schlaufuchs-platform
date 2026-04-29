@@ -1,45 +1,19 @@
 ---
-title: Fieldset und Legend im Formular verstehen
-description: Verstehe, wie zusammengehörige Formularfelder mit fieldset und legend klarer gegliedert und besser lesbar werden.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - formulare-und-eingaben
-  - fieldset-und-legend-im-formular-verstehen
-learningGoals:
-  - Du erklärst die Rolle von fieldset und legend.
-  - Du erkennst zusammengehörige Felder als inhaltliche Gruppe.
-  - Du strukturierst Formulare ruhiger über Abschnitte statt nur über Abstand.
-practiceIdeas:
-  - Suche in einem Formular Felder, die logisch zusammengehören.
-  - Formuliere eine passende Gruppenüberschrift für Adressdaten oder Einstellungen.
-  - Prüfe, ob eine bloße Zwischenüberschrift reicht oder ob eine echte Feldgruppe sinnvoller ist.
-commonMistakes:
-  - Formulare nur visuell mit Abständen zu gliedern.
-  - zusammengehörige Felder nicht als Gruppe zu kennzeichnen.
-  - legend als Deko statt als Gruppenbezeichnung zu behandeln.
-keyTakeaways:
-  - fieldset fasst zusammengehörige Formularfelder zu einer Gruppe zusammen.
-  - legend benennt diese Gruppe.
-  - Gute Gruppierung macht Formulare lesbarer und orientierbarer.
-recognizeSignals:
-  - Es geht um mehrteilige Formulare, Abschnitte oder logisch zusammenhängende Eingaben.
-  - Du sollst nicht nur Felder benennen, sondern ihre Gruppierung erklären.
-  - In Aufgaben geht es um Orientierung im Formular, nicht nur um das einzelne Input-Feld.
-selfCheckPoints:
-  - Kann ich erklären, wann fieldset sinnvoll ist?
-  - Kann ich eine passende legend formulieren?
-  - Kann ich begründen, warum Feldgruppen mehr sind als nur Abstand?
-tags:
-  - html
-  - formular
-  - fieldset
-  - legend
-level: einfach
+title: "Fieldset und Legend im Formular verstehen"
+description: "Verstehe, wie zusammengehörige Formularfelder mit fieldset und legend klarer gegliedert und besser lesbar werden."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "fieldset-und-legend-im-formular-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein längeres Formular besteht oft aus mehreren Bereichen: persönliche Daten, Adresse, Einstellungen oder Zahlungsinformationen. Damit diese Bereiche nicht nur optisch, sondern auch **inhaltlich als Gruppe** erkennbar werden, gibt es <code>&lt;fieldset&gt;</code> und <code>&lt;legend&gt;</code>.

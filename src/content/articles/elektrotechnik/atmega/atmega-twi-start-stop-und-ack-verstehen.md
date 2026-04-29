@@ -1,46 +1,19 @@
 ---
-title: ATmega TWI Start, Stop und ACK verstehen
-description: Verstehe, wie ein I²C-Austausch durch Startbedingung, Stopbedingung und Bestätigung logisch gerahmt wird.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-schnittstellen-und-busse
-  - atmega-twi-start-stop-und-ack-verstehen
-learningGoals:
-  - Du erklärst die Rolle von Start- und Stopbedingung auf dem I²C-Bus.
-  - Du beschreibst ACK und NACK als Bestätigung der Buskommunikation.
-  - Du liest einen I²C-Rahmen eher als Folge von Buszuständen als als bloßen Bytestrom.
-practiceIdeas:
-  - Ordne Start, Adresse, Datenbyte, ACK und Stop in einem einfachen Busrahmen.
-  - Vergleiche einen bestätigten und einen nicht bestätigten Transfer.
-  - Beschreibe, wie aus einzelnen Bits ein sinnvoll gerahmter Austausch wird.
-commonMistakes:
-  - Start und Stop nur als Softwareaufruf statt als Buszustand zu lesen.
-  - ACK mit einer vollständigen neuen Nachricht zu verwechseln.
-  - Nur auf die Datenbytes zu schauen und den Rahmen zu übersehen.
-keyTakeaways:
-  - I²C-Kommunikation braucht einen klaren Beginn und ein klares Ende auf dem Bus.
-  - ACK und NACK zeigen, ob ein Schritt bestätigt wurde.
-  - Ohne den Rahmen aus Start, Takt und Stop ist ein Datenbyte fachlich unvollständig beschrieben.
-recognizeSignals:
-  - Es geht um Startbedingung, Stopbedingung, ACK/NACK oder Adress-/Datenrahmen.
-  - Du sollst erklären, warum ein Transfer bestätigt oder abgebrochen wirkt.
-  - In Beispielen ist die Reihenfolge der Busereignisse wichtiger als die nackten Datenwerte.
-selfCheckPoints:
-  - Kann ich Start, Stop und ACK fachlich sauber unterscheiden?
-  - Kann ich erklären, warum ACK nicht bloß „noch ein Bit“ ist?
-  - Kann ich einen I²C-Rahmen in logischer Reihenfolge beschreiben?
-tags:
-  - elektrotechnik
-  - atmega
-  - i2c
-  - twi
-  - ack
-level: mittel
+title: "ATmega TWI Start, Stop und ACK verstehen"
+description: "Verstehe, wie ein I²C-Austausch durch Startbedingung, Stopbedingung und Bestätigung logisch gerahmt wird."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-twi-start-stop-und-ack-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein I²C-Transfer besteht nicht nur aus Adresse und Daten. Fachlich ruhiger wird er erst, wenn du auch den **Rahmen** mitliest: Wann beginnt der Austausch, wann wird bestätigt und wann endet er?

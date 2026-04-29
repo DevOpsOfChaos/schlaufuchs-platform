@@ -1,46 +1,19 @@
 ---
-title: ATmega – ADC Noise Reduction Sleep verstehen
-description: Verstehe, warum der AVR für empfindliche ADC-Messungen zeitweise in einen ruhigeren Betriebszustand gehen kann.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - messen-und-adc
-  - atmega-adc-noise-reduction-sleep-verstehen
-learningGoals:
-  - Du erklärst die Grundidee des ADC Noise Reduction Sleep Modus.
-  - Du beschreibst, warum weniger digitale Aktivität für eine Messung hilfreich sein kann.
-  - Du liest den Sleep-Modus eher als Messhilfsmittel statt nur als Energiespartechnik.
-practiceIdeas:
-  - Vergleiche eine Messung im aktiven Betrieb mit einer Messung in einem ruhigeren Betriebszustand.
-  - Prüfe, welche digitalen Aktivitäten während der Messung störend wirken könnten.
-  - Lies Sleep nicht nur als Stromsparthema, sondern auch als Messqualitätswerkzeug.
-commonMistakes:
-  - Zu denken, Sleep sei nur für Stromverbrauch wichtig.
-  - ADC-Rauschen nur am Sensor zu vermuten und die interne digitale Aktivität zu vergessen.
-  - Eine Messstrategie zu planen, ohne die Störumgebung des Controllers mitzudenken.
-keyTakeaways:
-  - Weniger digitale Aktivität kann ADC-Messungen ruhiger machen.
-  - ADC Noise Reduction ist ein Messqualitäts-Thema und nicht nur ein Energiespartrick.
-  - Gute Messung bedeutet nicht nur richtigen Kanal, sondern auch ruhigen Messzeitpunkt.
-recognizeSignals:
-  - Es geht um ADC, Rauschen, Messqualität oder ruhige Messphasen im AVR.
-  - Du sollst erklären, warum derselbe Kanal nicht immer gleich stabil wirkt.
-  - In Aufgaben zählt der Messzeitpunkt genauso wie die Kanalwahl.
-selfCheckPoints:
-  - Kann ich erklären, warum digitale Aktivität eine Messung stören kann?
-  - Kann ich Sleep als Messhilfe und nicht nur als Stromsparen einordnen?
-  - Kann ich den Zusammenhang zwischen ruhigem Zustand und ADC-Qualität beschreiben?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - adc
-  - sleep
-level: fortgeschritten
+title: "ATmega – ADC Noise Reduction Sleep verstehen"
+description: "Verstehe, warum der AVR für empfindliche ADC-Messungen zeitweise in einen ruhigeren Betriebszustand gehen kann."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-adc-noise-reduction-sleep-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Wenn der ADC misst, geht es nicht nur um Kanalwahl und Referenzspannung. Auch der **Zustand des Controllers während der Messung** spielt eine Rolle. Viel digitale Aktivität im Chip kann die Messung unruhiger machen. Genau deshalb gibt es beim AVR den Gedanken, während der Messung einen besonders ruhigen Betriebszustand zu nutzen.

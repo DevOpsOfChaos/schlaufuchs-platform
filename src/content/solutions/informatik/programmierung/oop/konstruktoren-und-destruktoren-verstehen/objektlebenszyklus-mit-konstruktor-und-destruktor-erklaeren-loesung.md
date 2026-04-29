@@ -1,21 +1,14 @@
 ---
-title: Loesung – Objektlebenszyklus mit Konstruktor und Destruktor erklaeren
-description: Musterloesung zur Aufgabe ueber Konstruktor, Destruktor und Objektlebenszyklus.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - konstruktoren-und-destruktoren-verstehen
-taskId: INF-PROG-OOP-005
-relatedExercise: informatik/programmierung/oop/konstruktoren-und-destruktoren-verstehen/objektlebenszyklus-mit-konstruktor-und-destruktor-erklaeren
-tags:
-  - informatik
-  - oop
-  - loesung
+title: "Loesung – Objektlebenszyklus mit Konstruktor und Destruktor erklaeren"
+description: "Musterloesung zur Aufgabe ueber Konstruktor, Destruktor und Objektlebenszyklus."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "konstruktoren-und-destruktoren-verstehen", "objektlebenszyklus-mit-konstruktor-und-destruktor-erklaeren"]
+taskId: "INF-PROG-OOP-005"
+relatedExercise: "informatik/programmierung/oop/konstruktoren-und-destruktoren-verstehen/objektlebenszyklus-mit-konstruktor-und-destruktor-erklaeren"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterloesung
 
 ### Aufgabe 1

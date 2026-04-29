@@ -3,23 +3,12 @@ title: "Lösung: Layoutfluss, Display und Positionierung: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-013a im Web-Development-Block v187."
 subject: "web-development"
 section: "css"
-topicPath: 
-  - "css-und-layout"
-  - "layoutfluss"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "layout-fluss-display-und-positionierung-aufgabe-a"]
 taskId: "web-v187-013a"
 relatedExercise: "web-development/sanierung-v187/layout-fluss-display-und-positionierung-aufgabe-a"
-tags: 
-  - "css"
-  - "layout"
-  - "display"
-  - "position"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "css", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-013a`
 
     Ausgangsauftrag: Ordne Elemente einer Beispielseite nach normalem Dokumentfluss und Display-Verhalten.

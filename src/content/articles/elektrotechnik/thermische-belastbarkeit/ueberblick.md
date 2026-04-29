@@ -1,34 +1,19 @@
 ---
 title: "Thermische Belastbarkeit"
 description: "Überblick über Wärme, Verlustleistung und die Frage, warum Bauteile elektrisch korrekt und trotzdem thermisch überlastet sein können."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik"
-topicPath:
-  - "thermische-belastbarkeit"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["thermische-belastbarkeit", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur den elektrischen Nennwert zu prüfen und die entstehende Wärme zu ignorieren."
-keyTakeaways:
-  - "Zuverlässige Schaltungen betrachten Verlustleistung und Wärmeabfuhr genauso wie Spannung und Strom."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Bauteile warm werden, Leistung umgesetzt wird oder Datenblattwerte knapp ausgenutzt werden."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "waerme"
-  - "verlustleistung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik"]
 draft: false
 ---
-
 # Thermische Belastbarkeit
 
 Thermische Belastbarkeit beschreibt, ob ein Bauteil die entstehende Wärme dauerhaft abführen kann. Ein Bauteil kann elektrisch passend ausgewählt sein und trotzdem zu heiß werden, wenn Verlustleistung und Kühlung nicht zusammenpassen.

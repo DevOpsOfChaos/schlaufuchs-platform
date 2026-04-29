@@ -1,37 +1,19 @@
 ---
 title: "DNS und Namensauflösung"
 description: "Allgemeiner Überblick über DNS, Hostnamen und Namensauflösung auf Linux-Systemen."
-subject: linux
+subject: "linux"
 section: "Netzwerk"
-topicPath:
-  - "dns-und-namensaufloesung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst DNS und Namensauflösung als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["dns-und-namensaufloesung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Bei Domainfehlern wird oft sofort die Firewall verdächtigt, ohne DNS getrennt zu prüfen."
-keyTakeaways:
-  - "DNS übersetzt Namen in IP-Adressen."
-  - "Namensauflösung ist ein eigener Teil der Netzwerkdiagnose."
-  - "Lokale Konfiguration und DNS-Server wirken zusammen."
-recognizeSignals:
-  - "IP-Adressen funktionieren, Namen aber nicht."
-  - "Fehler erwähnen Resolver, NXDOMAIN oder Name or service not known."
-selfCheckPoints:
-  - "Kann ich DNS und Namensauflösung in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "dns"
-  - "netzwerk"
-  - "namensaufloesung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Netzwerk"]
 draft: false
 ---
-
 # DNS und Namensauflösung
 
 DNS übersetzt menschenlesbare Namen in IP-Adressen. Auf Linux-Systemen wirken Resolver-Konfiguration, lokale Hosts-Datei und Netzwerkdienste zusammen.

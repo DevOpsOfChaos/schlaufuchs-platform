@@ -1,44 +1,19 @@
 ---
-title: Probleme in Teilprobleme zerlegen
-description: Verstehe, warum komplexe Aufgaben leichter lösbar werden, wenn sie in überschaubare Einzelschritte und Teilprobleme gegliedert werden.
-subject: informatik
-section: Algorithmen
-topicPath:
-  - algorithmen
-  - probleme-in-teilprobleme-zerlegen
-tags:
-  - algorithmus
-  - teilproblem
-  - struktur
-  - planen
-learningGoals:
-  - "Du erklärst, warum große Probleme in Teilprobleme zerlegt werden."
-  - "Du unterscheidest Gesamtziel, Zwischenschritt und Teilaufgabe."
-  - "Du beschreibst einfache Abläufe als geordnete Struktur statt als ungeordnete Sammlung von Ideen."
-practiceIdeas:
-  - "Gliedere eine Alltagsaufgabe bewusst in Teilaufgaben."
-  - "Suche in einem Beispiel den Punkt, an dem ein Problem zu groß für einen einzigen Schritt wird."
-  - "Formuliere ein Teilproblem so, dass es einzeln lösbar wirkt."
-commonMistakes:
-  - "Das Gesamtproblem sofort komplett lösen zu wollen."
-  - "Schritte aufzuschreiben, die kein klares Teilziel haben."
-  - "Zwischenziel und Endziel durcheinanderzubringen."
-keyTakeaways:
-  - "Große Probleme werden durch Zerlegung überschaubarer."
-  - "Teilprobleme helfen beim Planen, Prüfen und Verbessern."
-  - "Algorithmisches Denken beginnt oft mit guter Struktur, nicht mit Code."
-recognizeSignals:
-  - "Es geht um Abläufe, Planung, Struktur oder das Aufteilen einer Aufgabe."
-  - "Ein Beispiel fragt nach sinnvollen Zwischenschritten oder Teilzielen."
-  - "Du sollst ein komplexeres Problem erst gliedern und dann lösen."
-selfCheckPoints:
-  - "Kann ich ein Gesamtziel von einzelnen Teilzielen unterscheiden?"
-  - "Kann ich erklären, warum die Zerlegung das Problem einfacher macht?"
-  - "Kann ich einen Ablauf in sinnvolle Teilaufgaben gliedern?"
-level: einfach
+title: "Probleme in Teilprobleme zerlegen"
+description: "Verstehe, warum komplexe Aufgaben leichter lösbar werden, wenn sie in überschaubare Einzelschritte und Teilprobleme gegliedert werden."
+subject: "informatik"
+section: "Algorithmen"
+topicPath: ["algorithmen", "probleme-in-teilprobleme-zerlegen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Algorithmen"]
 draft: false
 ---
-
 ## Warum dieses Thema wichtig ist
 
 Viele Probleme scheitern nicht daran, dass sie unlösbar sind, sondern daran, dass sie **zu groß auf einmal** gedacht werden. Informatik arbeitet deshalb oft so, dass große Aufgaben in kleinere, verständliche Teilaufgaben zerlegt werden.

@@ -3,38 +3,17 @@ title: "Sensoren und Messwerte"
 description: "Sensoren übersetzen physikalische Größen in auswertbare Signale."
 subject: "daten-und-signale"
 section: "messung"
-topicPath:
-  - "messung"
-  - "sensoren-und-messwerte"
-learningGoals:
-  - "Sensoren übersetzen physikalische Größen in auswertbare Signale fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Sensoren übersetzen physikalische Größen in auswertbare Signale wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v189", "sensoren-und-messwerte"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "sensoren"
-  - "messwerte"
-  - "einheiten"
-  - "daten-und-signale"
-  - "v189"
+tags: ["daten-und-signale", "messung"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Sensoren und Messwerte](/schlaufuchs-platform/images/daten-und-signale/sanierung-189/sensoren-und-messwerte.svg)
 
 ## Überblick

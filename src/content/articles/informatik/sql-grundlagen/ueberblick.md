@@ -1,36 +1,19 @@
 ---
 title: "SQL-Grundlagen"
 description: "Überblick über SQL als Sprache zum Abfragen und Verändern relationaler Daten."
-subject: informatik
+subject: "informatik"
 section: "Datenbanken"
-topicPath:
-  - "sql-grundlagen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst SQL-Grundlagen als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["sql-grundlagen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Daten werden oft in Anwendungen manuell zusammengesucht, obwohl eine klare SQL-Abfrage passen würde."
-keyTakeaways:
-  - "SQL fragt und verändert relationale Daten."
-  - "Tabellen können über Beziehungen verknüpft werden."
-  - "SQL beschreibt Ergebnisse auf hoher Ebene."
-recognizeSignals:
-  - "Daten liegen in Tabellen und sollen gefiltert werden."
-  - "Begriffe wie SELECT, WHERE, JOIN oder Index tauchen auf."
-selfCheckPoints:
-  - "Kann ich SQL-Grundlagen in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "sql"
-  - "datenbanken"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Datenbanken"]
 draft: false
 ---
-
 # SQL-Grundlagen
 
 SQL ist eine Sprache für relationale Datenbanken. Mit ihr werden Tabellen abgefragt, gefiltert, verknüpft, sortiert und verändert.

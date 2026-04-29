@@ -3,22 +3,12 @@ title: "Lösung: Dringlichkeit bestimmen"
 description: "Musterlösung zur Aufgabe „Dringlichkeit bestimmen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "ux-feedback-und-fehlerzustaende"
-  - "toast-dialog-und-inline"
-  - "dringlichkeit-bestimmen-v116"
+topicPath: ["ux-feedback-und-fehlerzustaende", "toast-dialog-und-inline", "dringlichkeit-bestimmen-v116"]
 taskId: "dringlichkeit-bestimmen-v116"
 relatedExercise: "web-development/ux-feedback-und-fehlerzustaende/toast-dialog-und-inline/dringlichkeit-bestimmen-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "toast dialog und inline"
-  - "dringlichkeit bestimmen"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

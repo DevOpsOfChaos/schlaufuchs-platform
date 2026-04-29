@@ -3,38 +3,17 @@ title: "Kompression verstehen"
 description: "Kompression reduziert Datenmenge durch Ausnutzen von Mustern."
 subject: "daten-und-signale"
 section: "speicherung"
-topicPath:
-  - "speicherung"
-  - "kompression-verstehen"
-learningGoals:
-  - "Kompression reduziert Datenmenge durch Ausnutzen von Mustern fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Kompression reduziert Datenmenge durch Ausnutzen von Mustern wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v189", "kompression-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "kompression"
-  - "speicherung"
-  - "datenmenge"
-  - "daten-und-signale"
-  - "v189"
+tags: ["daten-und-signale", "speicherung"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Kompression verstehen](/schlaufuchs-platform/images/daten-und-signale/sanierung-189/kompression-verstehen.svg)
 
 ## Überblick

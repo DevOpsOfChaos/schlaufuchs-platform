@@ -1,23 +1,14 @@
 ---
-title: Lösung – SSH-Schlüsseldateien zuordnen
-description: Musterlösung zur Aufgabe über SSH-Schlüsseldateien zuordnen.
-subject: linux
-section: Feinstruktur Linux
-topicPath:
-- netzwerk-und-rechte
-- ssh-und-schluessel
-- ssh-schluesseldateien-zuordnen-v114
-taskId: v114-linux-ssh-schluesseldateien-zuordnen-v114
-relatedExercise: linux/netzwerk-und-rechte/ssh-und-schluessel/ssh-schluesseldateien-zuordnen-v114
-tags:
-- linux
-- v114
-- loesung
-- netzwerk-und-rechte
-- ssh-und-schluessel
+title: "Lösung – SSH-Schlüsseldateien zuordnen"
+description: "Musterlösung zur Aufgabe über SSH-Schlüsseldateien zuordnen."
+subject: "linux"
+section: "Feinstruktur Linux"
+topicPath: ["netzwerk-und-rechte", "ssh-und-schluessel", "ssh-schluesseldateien-zuordnen-v114"]
+taskId: "v114-linux-ssh-schluesseldateien-zuordnen-v114"
+relatedExercise: "linux/netzwerk-und-rechte/ssh-und-schluessel/ssh-schluesseldateien-zuordnen-v114"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

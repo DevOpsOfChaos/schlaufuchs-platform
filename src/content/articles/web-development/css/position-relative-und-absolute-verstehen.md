@@ -1,45 +1,19 @@
 ---
-title: Position – Relative und Absolute verstehen
-description: Verstehe, wie relative und absolute Positionierung zusammenwirken und warum der Bezugspunkt wichtiger ist als die reine Verschiebung.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - position-relative-und-absolute-verstehen
-learningGoals:
-  - Du erklärst den Unterschied zwischen relative und absolute.
-  - Du beschreibst, warum absolute Positionierung einen Bezugspunkt braucht.
-  - Du liest Überlagerungen und Badges eher über Bezugssysteme als über bloßes Verschieben.
-practiceIdeas:
-  - Suche bei Badges und Overlays zuerst den Bezugspunkt.
-  - Vergleiche absolute Elemente mit und ohne relativ gesetzten Elterncontainer.
-  - Beschreibe Positionierung eher als Lage im Bezugssystem als als „irgendwo hinschieben“.
-commonMistakes:
-  - absolute ohne Bezugspunkt zu verwenden.
-  - relative nur als kleine Verschiebung statt als Anker für andere Elemente zu lesen.
-  - Positionierung mit margin oder z-index durcheinanderzubringen.
-keyTakeaways:
-  - relative hält ein Element im normalen Fluss und kann einen Bezugspunkt schaffen.
-  - absolute nimmt ein Element aus dem normalen Fluss heraus.
-  - "Die wichtigste Frage lautet: Worauf bezieht sich diese Lage?"
-recognizeSignals:
-  - Es geht um Badges, Ecken, Overlays oder schwebende UI-Teile.
-  - Du sollst erklären, warum ein Element an einer bestimmten Stelle erscheint.
-  - In Beispielen zählt der Bezugspunkt stärker als Farbe oder Dekoration.
-selfCheckPoints:
-  - Kann ich absolute und relative fachlich unterscheiden?
-  - Kann ich den Bezugspunkt einer Positionierung erklären?
-  - Kann ich begründen, warum ein Badge ohne passenden Container verrutscht?
-tags:
-  - css
-  - position
-  - layout
-  - overlay
-level: mittel
+title: "Position – Relative und Absolute verstehen"
+description: "Verstehe, wie relative und absolute Positionierung zusammenwirken und warum der Bezugspunkt wichtiger ist als die reine Verschiebung."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "position-relative-und-absolute-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Positionierung wirkt oft wie ein Sichtbarkeits-Trick: Ein Element sitzt oben rechts, unten links oder halb über einer Fläche. Fachlich spannender ist aber die Frage: **Worauf bezieht sich diese Lage?**

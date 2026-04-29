@@ -1,16 +1,19 @@
 ---
 title: "Grundbefehle"
 description: "Die ersten wichtigen Linux-Befehle als ruhiger Einstieg in Orientierung und Arbeitsweise."
-subject: linux
+subject: "linux"
 section: "Shell / Befehle"
-level: einfach
-tags:
-  - Shell
-  - Grundbefehle
-  - Linux
+topicPath: ["shell", "befehle", "grundbefehle"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell / Befehle"]
 draft: false
 ---
-
 ## Worum geht es?
 
 Am Anfang musst du nicht sofort alles können.  

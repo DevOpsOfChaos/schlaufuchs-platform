@@ -3,23 +3,12 @@ title: "Lösung: Regressionen verhindern: Aufgabe B"
 description: "Musterlösung zur Aufgabe informatik-v193-009b im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "tests-und-randfaelle"
-  - "regressionen-verhindern"
-  - "loesung-b"
+topicPath: ["sanierung-v193", "regressionen-verhindern-loesung-b"]
 taskId: "informatik-v193-009b"
 relatedExercise: "informatik/sanierung-v193/regressionen-verhindern-aufgabe-b"
-tags:
-  - "regressionen"
-  - "verhindern"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-009b`
 
 Ausgangsauftrag: Übertrage das Thema Regressionen verhindern auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

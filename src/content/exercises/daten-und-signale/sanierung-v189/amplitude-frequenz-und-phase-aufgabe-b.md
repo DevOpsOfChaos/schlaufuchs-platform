@@ -3,33 +3,15 @@ title: "Amplitude, Frequenz und Phase: Prüfen und Begründen"
 description: "Bewerte eine Aussage zu Amplitude, Frequenz und Phase und formuliere eine bessere Arbeitsregel."
 subject: "daten-und-signale"
 section: "analyse"
-topicPath:
-  - "analyse"
-  - "amplitude-frequenz-und-phase"
-  - "aufgabe-b"
+topicPath: ["sanierung-v189", "amplitude-frequenz-und-phase-aufgabe-b"]
 taskId: "dat-v189-038b"
-tags:
-  - "amplitude"
-  - "frequenz"
-  - "phase"
-  - "daten-und-signale"
-  - "aufgabe"
-  - "v189"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["daten-und-signale", "analyse", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Prüfe die folgende Aussage zum Thema **Amplitude, Frequenz und Phase**:

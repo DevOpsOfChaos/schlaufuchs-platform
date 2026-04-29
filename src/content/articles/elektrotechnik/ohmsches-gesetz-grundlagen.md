@@ -1,13 +1,19 @@
 ---
-title: Ohmsches Gesetz – Grundlagen
-description: Verstehe den Zusammenhang zwischen Spannung, Stromstärke und Widerstand.
-subject: elektrotechnik
-section: ohmsches-gesetz
-level: einfach
-tags: [ohmsches gesetz, spannung, stromstaerke, widerstand, elektrotechnik]
+title: "Ohmsches Gesetz – Grundlagen"
+description: "Verstehe den Zusammenhang zwischen Spannung, Stromstärke und Widerstand."
+subject: "elektrotechnik"
+section: "ohmsches-gesetz"
+topicPath: ["ohmsches-gesetz-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["ohmsches gesetz", "spannung", "stromstaerke", "widerstand", "elektrotechnik"]
 draft: false
 ---
-
 Das ohmsche Gesetz gehört zu den wichtigsten Grundlagen der Elektrotechnik. Es beschreibt den Zusammenhang zwischen **Spannung**, **Stromstärke** und **Widerstand**.
 
 ## Warum ist das Thema so zentral?

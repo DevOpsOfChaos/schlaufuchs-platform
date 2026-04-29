@@ -1,34 +1,17 @@
 ---
-title: Arraygröße aus Werteliste herleiten
-description: Erkläre bei kleinen C++-Beispielen, wie Kurzschreibweise und feste Arraygröße zusammenhängen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - arrays
-  - arrays-initialisieren-und-kurzschreibweise-verstehen
-  - arraygroesse-aus-werteliste-herleiten
-taskId: INF-PROG-CPP-INITARRAY-001
-level: einfach
+title: "Arraygröße aus Werteliste herleiten"
+description: "Erkläre bei kleinen C++-Beispielen, wie Kurzschreibweise und feste Arraygröße zusammenhängen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "arrays-initialisieren-und-kurzschreibweise-verstehen", "arraygroesse-aus-werteliste-herleiten"]
+taskId: "INF-PROG-CPP-INITARRAY-001"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - arrays
-  - initialisierung
-hintPoints:
-  - "Zähle zuerst die Werte in der Liste."
-  - "Frage danach, ob das Array dadurch dynamisch wird oder fest bleibt."
-selfCheckPoints:
-  - "Ist die Feldgröße aus der Werteliste richtig hergeleitet?"
-  - "Ist die feste Struktur des Arrays erklärt?"
-transferIdeas:
-  - "Übertrage die Idee auf Listen von Messwerten oder Wochentagen."
-reflectionPrompt: "Warum ist eine kompakte Schreibweise nicht automatisch eine flexible Datenstruktur?"
 ---
-
 ## Aufgabe 1: Größe herleiten
 
 Gegeben ist:

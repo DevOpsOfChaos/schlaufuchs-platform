@@ -3,44 +3,17 @@ title: "JavaScript – Lazy Loading und Code Splitting ohne Framework denken"
 description: "Lerne, Ladezeit als Nutzererfahrung zu verstehen und Funktionen erst dann zu laden, wenn sie wirklich gebraucht werden."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "performance-und-laden"
-  - "lazy-loading-und-code-splitting-ohne-framework-denken"
-learningGoals:
-  - "Du erklärst Lazy Loading als spätes Laden bei Bedarf."
-  - "Du unterscheidest Startcode und Komfortcode."
-  - "Du planst Codegrenzen nach Nutzungszeitpunkt."
-practiceIdeas:
-  - "Übertrage die Idee auf eine kleine eigene Seite."
-  - "Prüfe die Bedienung einmal mit Tastatur und einmal mit Maus."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "Alles sofort beim Seitenstart zu laden."
-  - "Code Splitting nur als Build-Werkzeug statt als UX-Entscheidung zu sehen."
-  - "Wichtige Grundfunktionen unnötig spät zu laden."
-keyTakeaways:
-  - "Robuste Webinteraktion trennt Struktur, Zustand und Rückmeldung."
-  - "Nutzerführung ist Teil der technischen Lösung."
-  - "Fehler und Sonderfälle werden sichtbar geplant."
-recognizeSignals:
-  - "Es geht um JavaScript im Browser, UI-Zustand oder dynamische Rückmeldung."
-  - "Eine Interaktion soll verständlicher, sicherer oder robuster werden."
-  - "HTML, CSS und JavaScript müssen gemeinsam gelesen werden."
-selfCheckPoints:
-  - "Kann ich die Aufgabe des Codes in einem Satz erklären?"
-  - "Bleibt die Interaktion ohne Maus oder bei Fehlern nachvollziehbar?"
-  - "Sind sichtbare Texte verständlich und deutsch formuliert?"
+topicPath: ["javascript", "performance-und-laden", "lazy-loading-und-code-splitting-ohne-framework-denken"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
-tags:
-  - "web development"
-  - "javascript"
-  - "lazy loading"
-  - "performance"
-  - "module"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Diese Seite zeigt dir, wie du Lazy Loading und Code Splitting ohne Framework denken nicht als isolierten JavaScript-Trick, sondern als kleine UX- und Robustheitsentscheidung liest.

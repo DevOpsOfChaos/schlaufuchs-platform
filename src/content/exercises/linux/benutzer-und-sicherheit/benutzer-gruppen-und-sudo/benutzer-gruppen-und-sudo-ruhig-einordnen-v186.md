@@ -1,29 +1,17 @@
 ---
 title: "Benutzer, Gruppen und sudo – ruhig einordnen"
 description: "Übe, Benutzer, Gruppen und sudo fachlich einzuordnen."
-subject: linux
+subject: "linux"
 section: "benutzer-und-sicherheit"
-topicPath:
-  - "benutzer-und-sicherheit"
-  - "benutzer-gruppen-und-sudo"
-taskId: LINUX-BENUTZER-GRUPPEN-UND-SUDO-V186-1
-tags:
-  - "linux"
-  - "benutzer"
-  - "sudo"
-  - "aufgabe"
-hintPoints:
-  - "Beginne mit Begriff und Kontext."
-  - "Trenne Beobachtung, Prüfung und mögliche Änderung."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe erklären."
-  - "Ich kann einen typischen Fehler vermeiden."
-transferIdeas:
-  - "Formuliere eine ähnliche Prüfsituation aus deinem eigenen Linux-Alltag."
-level: mittel
+topicPath: ["benutzer-und-sicherheit", "benutzer-gruppen-und-sudo", "benutzer-gruppen-und-sudo-ruhig-einordnen-v186"]
+taskId: "LINUX-BENUTZER-GRUPPEN-UND-SUDO-V186-1"
+tags: ["linux", "benutzer-und-sicherheit", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Lernziel
 
 Du sollst **Benutzer, Gruppen und sudo** nicht nur als Befehl oder Schlagwort sehen, sondern als geordnetes Linux-Thema mit Zweck, Kontext und typischen Prüfschritten.

@@ -1,37 +1,19 @@
 ---
 title: "Garbage Collection"
 description: "Allgemeiner Überblick über automatische Speicherbereinigung und ihre Auswirkungen auf Programme."
-subject: informatik
+subject: "informatik"
 section: "Programmierung"
-topicPath:
-  - "garbage-collection"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Garbage Collection als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["garbage-collection", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Bei GC-Sprachen wird oft angenommen, Speicherlecks seien unmöglich."
-keyTakeaways:
-  - "Garbage Collection gibt unerreichbare Objekte frei."
-  - "Referenzen bestimmen, was erreichbar bleibt."
-  - "Automatische Speicherbereinigung hat Grenzen und Kosten."
-recognizeSignals:
-  - "Speicherverbrauch wächst trotz automatischer Speicherverwaltung."
-  - "Laufzeitumgebung meldet GC-Aktivität."
-selfCheckPoints:
-  - "Kann ich Garbage Collection in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "speicher"
-  - "garbage collection"
-  - "programmierung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 # Garbage Collection
 
 Garbage Collection ist automatische Speicherbereinigung. Eine Laufzeitumgebung erkennt unerreichbare Objekte und gibt deren Speicher frei.

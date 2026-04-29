@@ -3,21 +3,12 @@ title: "Lösung – Relative Häufigkeit aus Stichprobe deuten"
 description: "Musterlösung zu relative häufigkeit aus stichprobe deuten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "daten-und-zufall"
-  - "diagramme-und-kennwerte"
-  - "relative-haeufigkeit-aus-stichprobe-deuten"
+topicPath: ["daten-und-zufall", "diagramme-und-kennwerte", "relative-haeufigkeit-aus-stichprobe-deuten"]
 taskId: "v112-mathematik-relative-haeufigkeit-aus-stichprobe-deuten"
 relatedExercise: "mathematik/daten-und-zufall/diagramme-und-kennwerte/relative-haeufigkeit-aus-stichprobe-deuten"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-zufall"
-  - "relative-haeufigkeit-aus-stichprobe-deuten"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Diagramme und Kennwerte**.

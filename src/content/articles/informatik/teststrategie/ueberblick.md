@@ -1,33 +1,17 @@
 ---
 title: "Teststrategie"
 description: "Überblick über Teststrategie als geordnete Kombination aus Testarten, Risiken, Ebenen und Feedbackgeschwindigkeit."
-subject: informatik
+subject: "informatik"
 section: "Tests"
-topicPath:
-  - "teststrategie"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Teststrategie als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["teststrategie", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Mehr Tests bedeuten nicht automatisch mehr Sicherheit. Entscheidend ist, ob die richtigen Risiken mit passenden Testarten abgedeckt werden."
-keyTakeaways:
-  - "Eine Teststrategie beschreibt, welche Tests auf welcher Ebene sinnvoll sind und welches Risiko sie abdecken."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um teststrategie, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich teststrategie in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "teststrategie"
-  - "überblick"
-  - "unit-test"
-  - "integrationstest"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Tests"]
 draft: false
 ---
 # Teststrategie

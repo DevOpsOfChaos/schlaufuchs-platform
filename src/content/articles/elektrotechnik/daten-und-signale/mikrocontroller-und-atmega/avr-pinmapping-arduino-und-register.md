@@ -3,43 +3,15 @@ title: "ATmega – Arduino-Pins und AVR-Register nicht verwechseln"
 description: "Verstehe, warum D13, PB5 und Bit 5 in PORTB unterschiedliche Namen für zusammenhängende Ebenen sind."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "avr-pinmapping-arduino-und-register"
-learningGoals:
-  - "Du unterscheidest Board-Pinnummer, Controller-Pin und Registerbit."
-  - "Du erklärst, warum Arduino-Bezeichnungen beim Registerzugriff übersetzt werden müssen."
-  - "Du liest Beispiele mit PORTB, DDRB und PB5 ruhiger."
-practiceIdeas:
-  - "Ordne D13 einem konkreten AVR-Portbit zu."
-  - "Markiere in Code, ob Arduino-API oder Registerzugriff verwendet wird."
-  - "Vergleiche Board-Beschriftung und Datenblattname."
-commonMistakes:
-  - "D13 direkt für ein Registerbit zu halten."
-  - "PB5 und physische IC-Pinnummer gleichzusetzen."
-  - "Arduino-API und AVR-Registerzugriff im Kopf zu vermischen."
-keyTakeaways:
-  - "Pinnamen hängen von der Ebene ab: Board, Controllergehäuse oder Register."
-  - "Registercode arbeitet mit Ports und Bits, nicht direkt mit Arduino-D-Nummern."
-  - "Gute Fehlersuche beginnt mit einer Pinzuordnungstabelle."
-recognizeSignals:
-  - "Code nutzt PORTB, DDRB oder PINB neben Arduino-Pinnamen."
-  - "Eine LED an D13 soll über Register geschaltet werden."
-  - "Eine Aufgabe fragt nach Zuordnung statt nach neuer Schaltung."
-selfCheckPoints:
-  - "Kann ich drei Ebenen der Pinbezeichnung benennen?"
-  - "Kann ich erklären, warum D13 nicht automatisch Bit 13 ist?"
-  - "Kann ich bei Registercode zuerst das Mapping prüfen?"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "atmega"
-  - "arduino"
-  - "register"
-  - "pinmapping"
-  - "gpio"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "avr-pinmapping-arduino-und-register"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
 ## Grundidee

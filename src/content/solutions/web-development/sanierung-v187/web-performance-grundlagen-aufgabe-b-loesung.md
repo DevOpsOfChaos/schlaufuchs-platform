@@ -3,23 +3,12 @@ title: "Lösung: Web-Performance-Grundlagen: Prüfung und Verbesserung"
 description: "Musterlösung zur Aufgabe web-v187-025b im Web-Development-Block v187."
 subject: "web-development"
 section: "qualitaet"
-topicPath: 
-  - "qualitaet-und-zugaenglichkeit"
-  - "performance"
-  - "loesung-b"
+topicPath: ["sanierung-v187", "web-performance-grundlagen-aufgabe-b"]
 taskId: "web-v187-025b"
 relatedExercise: "web-development/sanierung-v187/web-performance-grundlagen-aufgabe-b"
-tags: 
-  - "performance"
-  - "ladezeit"
-  - "bilder"
-  - "css"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "qualitaet", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-025b`
 
     Ausgangsauftrag: Bewerte drei Optimierungsideen danach, ob sie Ladezeit, Stabilität oder Wartbarkeit verbessern.

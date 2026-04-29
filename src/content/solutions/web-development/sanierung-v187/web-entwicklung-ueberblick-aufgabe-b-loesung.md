@@ -3,21 +3,12 @@ title: "Lösung: Web-Entwicklung im Überblick: Prüfung und Verbesserung"
 description: "Musterlösung zur Aufgabe web-v187-001b im Web-Development-Block v187."
 subject: "web-development"
 section: "grundlagen"
-topicPath: 
-  - "grundlagen"
-  - "web-entwicklung-ueberblick"
-  - "loesung-b"
+topicPath: ["sanierung-v187", "web-entwicklung-ueberblick-aufgabe-b"]
 taskId: "web-v187-001b"
 relatedExercise: "web-development/sanierung-v187/web-entwicklung-ueberblick-aufgabe-b"
-tags: 
-  - "web-development"
-  - "grundlagen"
-  - "ueberblick"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "grundlagen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-001b`
 
     Ausgangsauftrag: Analysiere eine unklare Projektbeschreibung und trenne Struktur, Gestaltung, Verhalten und Medien in vier Spalten.

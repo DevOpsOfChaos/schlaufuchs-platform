@@ -3,32 +3,17 @@ title: "Skalenniveaus"
 description: "Allgemeiner Überblick über skalenniveaus und die wichtigsten Zusammenhänge."
 subject: "mathematik"
 section: "Statistik"
-topicPath:
-  - "skalenniveaus"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["skalenniveaus", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Kategorien wie Messwerte mit gleichen Abständen behandelt."
-keyTakeaways:
-  - "Skalenniveaus schützen vor irreführend genauen Auswertungen."
-  - "Das Skalenniveau entscheidet, welche Mittelwerte, Diagramme und Vergleiche sinnvoll sind."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "mathematik"
-  - "statistik"
-  - "daten"
-  - "skalenniveau"
+tags: ["mathematik", "Statistik"]
 draft: false
 ---
-
 # Skalenniveaus
 
 Skalenniveaus beschreiben, welche Art von Information in Datenwerten steckt und welche Auswertungen sinnvoll sind.

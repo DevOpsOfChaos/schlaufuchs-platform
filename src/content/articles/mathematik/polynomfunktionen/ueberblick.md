@@ -1,36 +1,19 @@
 ---
 title: "Polynomfunktionen"
 description: "Überblick über Polynomfunktionen, Grade, Koeffizienten und typische Graphenformen."
-subject: mathematik
+subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "polynomfunktionen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Polynomfunktionen als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["polynomfunktionen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird nur der konstante Term betrachtet, obwohl der höchste Grad das Verhalten stark bestimmt."
-keyTakeaways:
-  - "Polynomfunktionen sind Summen von Potenzen."
-  - "Der Grad bestimmt viele Grundmerkmale."
-  - "Nullstellen und Endverhalten sind zentrale Analysepunkte."
-recognizeSignals:
-  - "Eine Gleichung enthält Potenzen wie x² oder x³."
-  - "Graphen zeigen typische Verläufe mit Nullstellen und Wendungen."
-selfCheckPoints:
-  - "Kann ich Polynomfunktionen in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "funktionen"
-  - "polynome"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
-
 # Polynomfunktionen
 
 Polynomfunktionen bestehen aus Summen von Potenzen einer Variablen mit festen Koeffizienten.

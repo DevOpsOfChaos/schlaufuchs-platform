@@ -3,23 +3,12 @@ title: "Lösung: Selektoren, Kaskade und Spezifität: Prüfung und Verbesserung"
 description: "Musterlösung zur Aufgabe web-v187-010b im Web-Development-Block v187."
 subject: "web-development"
 section: "css"
-topicPath: 
-  - "css-und-layout"
-  - "kaskade"
-  - "loesung-b"
+topicPath: ["sanierung-v187", "selektoren-kaskade-und-spezifitaet-aufgabe-b"]
 taskId: "web-v187-010b"
 relatedExercise: "web-development/sanierung-v187/selektoren-kaskade-und-spezifitaet-aufgabe-b"
-tags: 
-  - "css"
-  - "kaskade"
-  - "spezifitaet"
-  - "selektoren"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "css", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-010b`
 
     Ausgangsauftrag: Vereinfache überladene Selektoren und erhalte trotzdem dieselbe Gestaltung.

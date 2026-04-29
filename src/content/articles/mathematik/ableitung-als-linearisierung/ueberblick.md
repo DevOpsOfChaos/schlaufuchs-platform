@@ -1,37 +1,19 @@
 ---
 title: "Ableitung als Linearisierung"
 description: "Überblick über die Ableitung als beste lokale lineare Näherung einer Funktion."
-subject: mathematik
+subject: "mathematik"
 section: "Analysis"
-topicPath:
-  - "ableitung-als-linearisierung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Ableitung als Linearisierung als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["ableitung-als-linearisierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Eine lokale lineare Näherung weit außerhalb ihres Gültigkeitsbereichs zu verwenden."
-keyTakeaways:
-  - "Ableitung liefert lokale lineare Information."
-  - "Linearisierung vereinfacht kleine Änderungen."
-  - "Der Gültigkeitsbereich muss beachtet werden."
-recognizeSignals:
-  - "Eine Funktion soll nahe einem Punkt angenähert werden."
-  - "Kleine Änderungen und Sensitivität stehen im Mittelpunkt."
-selfCheckPoints:
-  - "Kann ich Ableitung als Linearisierung in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "analysis"
-  - "ableitung"
-  - "linearisierung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Analysis"]
 draft: false
 ---
-
 # Ableitung als Linearisierung
 
 Die Ableitung beschreibt nicht nur Steigung, sondern auch die lokale lineare Näherung einer Funktion in der Nähe eines Punktes.

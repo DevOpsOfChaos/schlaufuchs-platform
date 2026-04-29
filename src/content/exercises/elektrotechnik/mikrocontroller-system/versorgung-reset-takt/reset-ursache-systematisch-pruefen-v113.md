@@ -3,32 +3,15 @@ title: "Aufgabe – Reset-Ursache systematisch prüfen"
 description: "Übe Reset-Ursache systematisch prüfen mit Szenario, Trennkante und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-system"
-  - "versorgung-reset-takt"
-  - "reset-ursache-systematisch-pruefen-v113"
+topicPath: ["mikrocontroller-system", "versorgung-reset-takt", "reset-ursache-systematisch-pruefen-v113"]
 taskId: "v113-elektrotechnik-reset-ursache-systematisch-pruefen-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "reset-ursache-systematisch-pruefen-v113"
-hintPoints:
-  - "Benenne zuerst das genaue Unterthema."
-  - "Notiere die typische Verwechslung ausdrücklich."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Antwort enger als ein breites Kapitel?"
-  - "Wird ein Nachbarthema sauber ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere eine zweite Aufgabe im gleichen Unterthema mit anderer Oberfläche."
-reflectionPrompt: "Welche kleine Trennkante macht Reset-Ursache systematisch prüfen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Reset-Ursache systematisch prüfen**.

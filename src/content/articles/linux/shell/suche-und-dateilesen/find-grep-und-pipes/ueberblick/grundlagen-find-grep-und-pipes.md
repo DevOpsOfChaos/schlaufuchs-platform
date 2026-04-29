@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: find, grep und Pipes"
 description: "Ein Überblick über das Zusammenspiel von Dateisuche, Textsuche und Weiterleitung in der Linux-Shell."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - shell
-  - suche-und-dateilesen
-  - find-grep-und-pipes
-  - ueberblick
-learningGoals:
-  - "Du kennst die Grundbegriffe dieses Themenbereichs."
-  - "Du kannst typische Situationen grob einordnen, bevor du Detailseiten liest."
-  - "Du erkennst, welche Nachbarseiten für Vertiefung oder Übungen passen."
-practiceIdeas:
-  - "Lies zuerst diese Überblicksseite und danach eine konkrete Lernsituation aus dem gleichen Unterthema."
-  - "Notiere die wichtigsten Begriffe und prüfe, welche davon in den Detailseiten wieder auftauchen."
-commonMistakes:
-  - "Direkt mit Sonderfällen zu beginnen, ohne die Grundbegriffe zu klären."
-  - "Ein einzelnes Beispiel für die ganze Themenlogik zu halten."
-keyTakeaways:
-  - "find, grep und Pipes bilden zusammen eine grundlegende Such- und Filterpraxis in der Shell."
-recognizeSignals:
-  - "Du suchst eine allgemeine Einordnung, bevor du Aufgaben oder Spezialfälle bearbeitest."
-  - "Mehrere Detailseiten wirken ähnlich, aber dir fehlt der gemeinsame Rahmen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten beschreiben?"
-  - "Kann ich Grundidee, typische Begriffe und Grenzen auseinanderhalten?"
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "find"
-  - "grep"
-  - "pipes"
+topicPath: ["shell", "suche-und-dateilesen", "find-grep-und-pipes", "ueberblick", "grundlagen-find-grep-und-pipes"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
-
 ## Überblick
 
 Die Linux-Shell arbeitet besonders stark mit kleinen Werkzeugen, die zusammen kombiniert werden. find sucht Dateien, grep sucht Text in Datenströmen oder Dateien, und Pipes verbinden Programme miteinander.

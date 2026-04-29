@@ -3,20 +3,12 @@ title: "Lösung – Pipe und Umleitung unterscheiden"
 description: "Musterlösung zu Pipe und Umleitung unterscheiden mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "pipes-und-umleitungen"
-  - "pipe-und-umleitung-unterscheiden-v113"
+topicPath: ["shell", "pipes-und-umleitungen", "pipe-und-umleitung-unterscheiden-v113"]
 taskId: "v113-linux-pipe-und-umleitung-unterscheiden-v113"
 relatedExercise: "linux/shell/pipes-und-umleitungen/pipe-und-umleitung-unterscheiden-v113"
-tags:
-  - "linux"
-  - "strukturcheck"
-  - "unterthema"
-  - "pipe-und-umleitung-unterscheiden-v113"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Pipe und Umleitung unterscheiden**.

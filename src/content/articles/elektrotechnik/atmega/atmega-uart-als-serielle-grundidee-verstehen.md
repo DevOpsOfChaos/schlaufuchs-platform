@@ -1,46 +1,19 @@
 ---
-title: ATmega – UART als serielle Grundidee verstehen
-description: Verstehe, wie der AVR Daten seriell Bit für Bit überträgt und warum Baudrate, Timing und Zeichenrahmen zusammen gelesen werden müssen.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-kommunikation
-  - atmega-uart-als-serielle-grundidee-verstehen
-learningGoals:
-  - Du erklärst die Grundidee der UART als serielle Übertragung beim AVR.
-  - Du beschreibst, warum Baudrate und Taktbasis zusammen gedacht werden müssen.
-  - Du liest Zeichenübertragung ruhiger als Bitfolge im Zeitrahmen statt nur als Textausgabe.
-practiceIdeas:
-  - Übersetze ein einzelnes gesendetes Zeichen zuerst in einen zeitlichen Rahmen und dann in Daten.
-  - Vergleiche zwei Baudraten und ihre grobe Bitdauer.
-  - Prüfe bei einem UART-Fehler zuerst Takt und Baudrate, bevor du den Textinhalt bewertest.
-commonMistakes:
-  - Zu denken, UART übertrage ein Zeichen auf einmal ohne Bit- und Zeitstruktur.
-  - Baudrate als abstrakte Zahl ohne zeitliche Bedeutung zu lesen.
-  - Serielle Fehler sofort als Softwarelogik zu deuten, obwohl die Zeitbasis nicht passt.
-keyTakeaways:
-  - UART sendet Daten seriell Bit für Bit.
-  - Baudrate beschreibt, wie schnell einzelne Bits zeitlich übertragen werden.
-  - Erst aus Taktbasis, Baudrate und Rahmenstruktur wird serielle Kommunikation verständlich.
-recognizeSignals:
-  - Es geht um UART, Baudrate, serielle Schnittstelle oder Terminalausgabe am AVR.
-  - Du sollst erklären, warum Zeichen falsch ankommen oder unleserlich wirken.
-  - In Aufgaben werden Takt, Baudrate und Zeichenübertragung gemeinsam betrachtet.
-selfCheckPoints:
-  - Kann ich Baudrate als zeitliche Bitgeschwindigkeit erklären?
-  - Kann ich sagen, warum UART an einer falschen Taktannahme scheitern kann?
-  - Kann ich eine Zeichenübertragung als Rahmen aus Start, Daten und Stop lesen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - uart
-  - seriell
-level: mittel
+title: "ATmega – UART als serielle Grundidee verstehen"
+description: "Verstehe, wie der AVR Daten seriell Bit für Bit überträgt und warum Baudrate, Timing und Zeichenrahmen zusammen gelesen werden müssen."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-uart-als-serielle-grundidee-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 Die UART ist beim AVR eine typische serielle Schnittstelle. Sie schickt Daten **nicht parallel als ganzes Byte auf einmal**, sondern **Bit für Bit nacheinander** über die Zeit. Genau deshalb sind Taktbasis und Baudrate hier so wichtig.
 
 <div class="example-card">

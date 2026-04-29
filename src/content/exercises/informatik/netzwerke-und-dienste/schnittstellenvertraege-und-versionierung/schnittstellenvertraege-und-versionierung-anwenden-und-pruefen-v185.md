@@ -1,29 +1,17 @@
 ---
 title: "Schnittstellenverträge und Versionierung – anwenden und prüfen"
 description: "Übe, schnittstellenverträge und versionierung fachlich auf Beispiele anzuwenden und zu überprüfen."
-subject: informatik
+subject: "informatik"
 section: "Netzwerke und Dienste"
-topicPath:
-  - "netzwerke-und-dienste"
-  - "schnittstellenvertraege-und-versionierung"
-  - "uebung"
-taskId: INF-V185-024-2
-tags:
-  - "informatik"
-  - "netzwerke-und-dienste"
-  - "schnittstellenvertraege-und-versionierung"
-hintPoints:
-  - "Beginne mit der Grundidee, nicht mit einem Spezialfall."
-  - "Trenne Begriff, Beispiel und Prüfung."
-selfCheckPoints:
-  - "Ich kann das Thema in eigenen Worten erklären."
-  - "Ich kann ein passendes Beispiel begründen."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel in einem anderen Fachbereich."
-level: einfach
+topicPath: ["netzwerke-und-dienste", "schnittstellenvertraege-und-versionierung", "schnittstellenvertraege-und-versionierung-anwenden-und-pruefen-v185"]
+taskId: "INF-V185-024-2"
+tags: ["informatik", "Netzwerke und Dienste", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe nutzt **Schnittstellenverträge und Versionierung**, um Beispiele, Grenzen und Prüfwege bewusster zu unterscheiden.
 
 ## Lernziel

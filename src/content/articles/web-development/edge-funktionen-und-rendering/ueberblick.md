@@ -1,37 +1,19 @@
 ---
 title: "Edge-Funktionen und Rendering"
 description: "Überblick über Rendering und kleine Serverfunktionen nahe am Nutzer."
-subject: web-development
+subject: "web-development"
 section: "Deployment"
-topicPath:
-  - "edge-funktionen-und-rendering"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Edge-Funktionen und Rendering als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["edge-funktionen-und-rendering", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Edge als kostenlosen Performance-Schalter zu sehen und Datenzugriff, Limits oder Beobachtbarkeit zu unterschätzen."
-keyTakeaways:
-  - "Edge Rendering reduziert Distanz zum Nutzer."
-  - "Verteilte Ausführung bringt neue Grenzen."
-  - "Caching, Daten und Personalisierung müssen bewusst geplant werden."
-recognizeSignals:
-  - "Eine Seite wird über CDN-Funktionen erzeugt."
-  - "Antwortzeiten hängen stark vom Standort ab."
-selfCheckPoints:
-  - "Kann ich Edge-Funktionen und Rendering in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "web-development"
-  - "edge"
-  - "rendering"
-  - "deployment"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Deployment"]
 draft: false
 ---
-
 # Edge-Funktionen und Rendering
 
 Edge Rendering erzeugt oder verändert Antworten auf Servern, die geografisch näher am Nutzer liegen als ein zentrales Backend.

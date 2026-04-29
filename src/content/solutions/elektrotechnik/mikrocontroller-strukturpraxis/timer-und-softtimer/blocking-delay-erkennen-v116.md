@@ -3,22 +3,12 @@ title: "Lösung: blocking delay erkennen"
 description: "Musterlösung zur Aufgabe „blocking delay erkennen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "mikrocontroller-strukturpraxis"
-  - "timer-und-softtimer"
-  - "blocking-delay-erkennen-v116"
+topicPath: ["mikrocontroller-strukturpraxis", "timer-und-softtimer", "blocking-delay-erkennen-v116"]
 taskId: "blocking-delay-erkennen-v116"
 relatedExercise: "elektrotechnik/mikrocontroller-strukturpraxis/timer-und-softtimer/blocking-delay-erkennen-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "timer und softtimer"
-  - "blocking delay erkennen"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

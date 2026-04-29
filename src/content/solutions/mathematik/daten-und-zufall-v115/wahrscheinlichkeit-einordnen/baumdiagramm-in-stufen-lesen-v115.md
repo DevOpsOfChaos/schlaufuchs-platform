@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Baumdiagramm in Stufen lesen"
 description: "Musterlösung zu Baumdiagramm in Stufen lesen mit Trennkante und Gegenprobe."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "daten-und-zufall-v115"
-  - "wahrscheinlichkeit-einordnen"
-  - "baumdiagramm-in-stufen-lesen-v115"
+topicPath: ["daten-und-zufall-v115", "wahrscheinlichkeit-einordnen", "baumdiagramm-in-stufen-lesen-v115"]
 taskId: "mathematik-baumdiagramm-in-stufen-lesen-v115"
 relatedExercise: "mathematik/daten-und-zufall-v115/wahrscheinlichkeit-einordnen/baumdiagramm-in-stufen-lesen-v115"
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "daten und zufall"
-  - "wahrscheinlichkeit einordnen"
-  - "lösung"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Baumdiagramm in Stufen lesen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

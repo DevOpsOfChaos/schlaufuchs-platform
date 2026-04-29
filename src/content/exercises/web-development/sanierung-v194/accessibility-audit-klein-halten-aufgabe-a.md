@@ -3,38 +3,15 @@ title: "Accessibility-Audit klein halten: Aufgabe A"
 description: "Plane einen 15-Minuten-Audit für eine Lernseite."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "diagnose-und-qa"
-  - "accessibility-audit-klein-halten"
-  - "aufgabe-a"
-
+topicPath: ["sanierung-v194", "accessibility-audit-klein-halten-aufgabe-a"]
 taskId: "web-development-v194-029a"
-tags:
-  - "accessibility"
-  - "audit"
-  - "klein"
-  - "halten"
-  - "web-development"
-  - "aufgabe"
-  - "v194"
-
-hintPoints:
-  - "Beschreibe zuerst die konkrete Seitensituation."
-  - "Trenne Beobachtung, gewünschtes Verhalten und Änderung."
-  - "Lege einen kleinen Kontrollpunkt fest."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Accessibility-Audit klein halten."
-  - "Die Prüfung ist klein genug, um sie direkt nachzuvollziehen."
-  - "Nutzerperspektive und technische Umsetzung werden nicht vermischt."
-transferIdeas:
-  - "Übertrage den Prüfweg auf eine andere Bildschirmbreite."
-  - "Notiere, welcher Zustand zusätzlich getestet werden sollte."
-reflectionPrompt: "Welche Annahme über Nutzerinnen und Nutzer wäre gefährlich, wenn sie still falsch bleibt?"
+tags: ["web-development", "barrierefreiheit-responsive-ux", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Plane einen 15-Minuten-Audit für eine Lernseite.

@@ -1,44 +1,19 @@
 ---
-title: Logikpegel zwischen 3,3-V- und 5-V-Systemen prüfen
-description: Verstehe, warum digitale Signale zwischen 3,3 Volt und 5 Volt nicht automatisch gefahrlos zusammenpassen.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - logikpegel-zwischen-3v3-und-5v-systemen-pruefen
-learningGoals:
-  - Du erklärst, warum ein HIGH-Signal nicht nur „an oder aus“ bedeutet, sondern an Spannungsgrenzen hängt.
-  - Du unterscheidest Eingangserkennung von maximal zulässiger Eingangsspannung.
-  - Du liest Verbindungen zwischen 3,3-V- und 5-V-Bausteinen ruhiger über Pegel und Grenzwerte.
-practiceIdeas:
-  - Vergleiche einen 3,3-V-Sensor mit einem 5-V-Mikrocontroller und umgekehrt.
-  - Trenne Eingangs-Schwelle, Ausgangspegel und absolute Maximalwerte.
-  - Begründe, wann ein Pegelwandler nötig wird und wann nicht.
-commonMistakes:
-  - HIGH immer als universell gleichwertig zu behandeln.
-  - Zu denken, „erkennt noch“ bedeute automatisch auch „darf dauerhaft so angeschlossen werden“.
-  - Nur auf die Versorgungsspannung zu schauen, aber nicht auf die Eingangsgrenzen.
-keyTakeaways:
-  - Kompatibilität digitaler Signale hängt an Schwellen und Grenzwerten.
-  - Erkennen und vertragen sind zwei verschiedene Fragen.
-  - Besonders bei 3,3-V-zu-5-V-Richtungen muss sauber geprüft werden.
-recognizeSignals:
-  - Es geht um 3,3 Volt, 5 Volt, HIGH, LOW oder Pegelwandler.
-  - Zwei digitale Bausteine mit unterschiedlicher Versorgung sollen verbunden werden.
-  - Eine Verbindung funktioniert im Versuch „irgendwie“, wirkt aber elektrisch unsicher.
-selfCheckPoints:
-  - Kann ich die technische Hauptfrage dieser Schaltung ruhig benennen?
-  - Kann ich Ursache, Wirkung und Schutz- oder Hilfsmaßnahme sauber trennen?
-  - Kann ich das Thema auf einen ähnlichen Mikrocontroller-Fall übertragen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - embedded
-level: mittel
+title: "Logikpegel zwischen 3,3-V- und 5-V-Systemen prüfen"
+description: "Verstehe, warum digitale Signale zwischen 3,3 Volt und 5 Volt nicht automatisch gefahrlos zusammenpassen."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "logikpegel-zwischen-3v3-und-5v-systemen-pruefen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller"]
 draft: false
 ---
-
 ## Grundidee
 
 Digitale Signale wirken oft binär: HIGH oder LOW. Elektrisch steckt dahinter aber eine Spannungswelt mit Schwellen und Grenzwerten. Gerade zwischen 3,3-Volt- und 5-Volt-Systemen ist deshalb sauberes Prüfen wichtiger als bloßes Ausprobieren.

@@ -1,33 +1,17 @@
 ---
-title: Wert- und Referenzparameter im Aufruf unterscheiden
-description: Vergleiche zwei Funktionssignaturen und begründe, wann Änderungen nur lokal bleiben und wann sie das Original betreffen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - funktionen-und-parameter
-  - wertuebergabe-und-referenzuebergabe-vergleichen
-  - wert-und-referenzparameter-im-aufruf-unterscheiden
-taskId: INF-PROG-CPP-FUNC-007
-level: mittel
+title: "Wert- und Referenzparameter im Aufruf unterscheiden"
+description: "Vergleiche zwei Funktionssignaturen und begründe, wann Änderungen nur lokal bleiben und wann sie das Original betreffen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "wertuebergabe-und-referenzuebergabe-vergleichen", "wert-und-referenzparameter-im-aufruf-unterscheiden"]
+taskId: "INF-PROG-CPP-FUNC-007"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - aufgabe
-hintPoints:
-  - "Lies zuerst die Signatur oder den Ausdruck ruhig in Worten."
-  - "Trenne Rolle, Wirkung und Ergebnis sauber voneinander."
-selfCheckPoints:
-  - "Habe ich die Fachbegriffe sauber benutzt?"
-  - "Habe ich begründet statt nur benannt?"
-transferIdeas:
-  - "Übertrage die Logik auf ähnliche Funktionen oder Ausdrücke."
-reflectionPrompt: "Welche Stelle im Beispiel war leicht zu verwechseln und warum?"
 ---
-
 ## Aufgabe 1: Zwei Signaturen lesen
 
 Vergleiche diese beiden Funktionen:

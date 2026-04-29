@@ -3,23 +3,12 @@ title: "Lösung: Funktionen, Parameter und Rückgabe: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-v190-006b im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "funktionen"
-  - "funktionen-parameter-und-rueckgabe"
-  - "loesung-b"
+topicPath: ["sanierung-v190", "funktionen-parameter-und-rueckgabe-aufgabe-b"]
 taskId: "web-v190-006b"
 relatedExercise: "web-development/sanierung-v190/funktionen-parameter-und-rueckgabe-aufgabe-b"
-tags:
-  - "funktionen"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-006b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Funktionen, Parameter und Rückgabe“ um einen Fehlerfall, eine Abnahmebedingung und eine kurze Begründung.

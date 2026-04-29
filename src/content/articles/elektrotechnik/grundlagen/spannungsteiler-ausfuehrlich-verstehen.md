@@ -1,17 +1,19 @@
 ---
-title: Spannungsteiler ausführlich verstehen
-description: Der Spannungsteiler ist eine zentrale Grundschaltung, mit der Teilspannungen gezielt erzeugt, berechnet und praktisch beurteilt werden können.
-subject: elektrotechnik
-section: Grundlagen
-level: mittel
-tags:
-  - Spannungsteiler
-  - Widerstand
-  - Teilspannung
-  - Schaltungstechnik
+title: "Spannungsteiler ausführlich verstehen"
+description: "Der Spannungsteiler ist eine zentrale Grundschaltung, mit der Teilspannungen gezielt erzeugt, berechnet und praktisch beurteilt werden können."
+subject: "elektrotechnik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "spannungsteiler-ausfuehrlich-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 Der Spannungsteiler gehört zu den wichtigsten Grundschaltungen der Elektrotechnik. Er wirkt auf den ersten Blick einfach, ist aber in vielen Anwendungen zentral: bei Messschaltungen, Sensorsignalen, Referenzspannungen und Pegelanpassungen. Wer den Spannungsteiler nur als Formel kennt, übersieht oft seine praktische Bedeutung.

@@ -3,22 +3,12 @@ title: "Lösung: Flächennäherung und Summe: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-040b."
 subject: "mathematik"
 section: "analysis-vorbereitung"
-topicPath:
-  - "analysis-vorbereitung"
-  - "flaechennaeherung-und-summe"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "flaechennaeherung-und-summe-aufgabe-b"]
 taskId: "mat-v188-040b"
 relatedExercise: "mathematik/sanierung-v188/flaechennaeherung-und-summe-aufgabe-b"
-tags:
-  - "flaeche"
-  - "summe"
-  - "analysis"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "analysis-vorbereitung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-040b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

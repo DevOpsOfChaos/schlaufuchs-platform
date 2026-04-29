@@ -1,31 +1,17 @@
 ---
 title: "Schichtenmodell in Software"
 description: "Überblick über Schichtenmodelle als Mittel zur Trennung von Darstellung, Fachlogik, Infrastruktur und Datenzugriff."
-subject: informatik
+subject: "informatik"
 section: "Softwarearchitektur"
-topicPath:
-  - "schichtenmodell-in-software"
-learningGoals:
-  - "Du verstehst Schichten als Ordnung von Verantwortlichkeiten."
-  - "Du kannst typische Schichten einer Anwendung benennen."
-  - "Du erkennst Vorteile und Grenzen von Schichtenmodellen."
+topicPath: ["schichtenmodell-in-software", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Schichten nur als Ordnerstruktur zu betrachten."
-  - "Jede kleine Anwendung künstlich in zu viele Schichten zu zerlegen."
-keyTakeaways:
-  - "Schichten trennen Verantwortlichkeiten und Abhängigkeiten."
-  - "Ein Schichtenmodell ist ein Denkwerkzeug, kein Selbstzweck."
-recognizeSignals:
-  - "Es geht um UI, Fachlogik, Datenzugriff, Infrastruktur oder Architektur."
-selfCheckPoints:
-  - "Kann ich erklären, welche Aufgabe nicht in die UI-Schicht gehört?"
-level: einfach
-tags:
-  - "informatik"
-  - "softwarearchitektur"
-  - "schichtenmodell"
-  - "abstraktion"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Softwarearchitektur"]
 draft: false
 ---
 # Schichtenmodell in Software

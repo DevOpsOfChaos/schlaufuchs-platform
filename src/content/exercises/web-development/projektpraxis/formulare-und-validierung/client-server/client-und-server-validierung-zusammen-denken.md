@@ -3,35 +3,15 @@ title: "Aufgabe – Client- und Servervalidierung zusammen denken"
 description: "Übe Validierungsschichten mit einem konkreten Fall, einer Abgrenzung und einer Gegenprobe."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "formulare-und-validierung"
-  - "client-server"
-  - "client-und-server-validierung-zusammen-denken"
+topicPath: ["projektpraxis", "formulare-und-validierung", "client-server", "client-und-server-validierung-zusammen-denken"]
 taskId: "v108-web-development-client-und-server-validierung-zusammen-denken"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "projektpraxis"
-  - "formulare-und-validierung"
-  - "validierungsschichten"
-hintPoints:
-  - "Bestimme zuerst das kleine Unterthema."
-  - "Notiere, welches Nachbarthema ausdrücklich nicht gemeint ist."
-  - "Nutze eine Gegenprobe statt nur eine Behauptung."
-selfCheckPoints:
-  - "Ist der Fall eng genug eingeordnet?"
-  - "Wird die typische Verwechslung sichtbar?"
-  - "Passt die Gegenprobe zur Wissensseite?"
-transferIdeas:
-  - "Verändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere aus deiner Lösung einen kurzen Merksatz für eine zweite Person."
-reflectionPrompt: "Warum wäre eine breite Sammelantwort hier unübersichtlicher als das Unterthema „Validierungsschichten“?"
+tags: ["web-development", "Projektpraxis", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den Fall zu **Validierungsschichten**.

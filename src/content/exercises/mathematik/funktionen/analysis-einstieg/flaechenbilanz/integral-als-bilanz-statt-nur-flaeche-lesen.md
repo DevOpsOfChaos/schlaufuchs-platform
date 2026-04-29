@@ -3,35 +3,15 @@ title: "Aufgabe – Integral als Bilanz statt nur Fläche lesen"
 description: "Übe Integral als Bilanz mit einem kleinen Szenario, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "funktionen"
-  - "analysis-einstieg"
-  - "flaechenbilanz"
-  - "integral-als-bilanz-statt-nur-flaeche-lesen"
+topicPath: ["funktionen", "analysis-einstieg", "flaechenbilanz", "integral-als-bilanz-statt-nur-flaeche-lesen"]
 taskId: "v109-mathematik-integral-als-bilanz-statt-nur-flaeche-lesen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfen"
-  - "funktionen"
-  - "analysis-einstieg"
-  - "integral als bilanz"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Übertrage den Prüfschritt auf ein Nachbarthema und nenne den Unterschied."
-reflectionPrompt: "Welche kleine Trennkante macht Integral als Bilanz übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["mathematik", "Funktionen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Integral als Bilanz**.

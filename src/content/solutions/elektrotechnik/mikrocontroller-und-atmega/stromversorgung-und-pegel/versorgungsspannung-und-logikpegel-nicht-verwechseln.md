@@ -3,23 +3,12 @@ title: "Lösung – Versorgungsspannung und Logikpegel nicht verwechseln"
 description: "Musterlösung zur Aufgabe über Logikpegel mit Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "stromversorgung-und-pegel"
-  - "versorgungsspannung-und-logikpegel-nicht-verwechseln"
+topicPath: ["mikrocontroller-und-atmega", "stromversorgung-und-pegel", "versorgungsspannung-und-logikpegel-nicht-verwechseln"]
 taskId: "v106-elektrotechnik-versorgungsspannung-und-logikpegel-nicht-verwechseln"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/stromversorgung-und-pegel/versorgungsspannung-und-logikpegel-nicht-verwechseln"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "mikrocontroller"
-  - "signale"
-  - "logikpegel"
-  - "mikrocontroller-und-atmega"
-  - "stromversorgung-und-pegel"
+tags: ["elektrotechnik", "Mikrocontroller", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Beobachtung

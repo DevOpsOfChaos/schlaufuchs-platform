@@ -1,30 +1,17 @@
 ---
 title: "Datenformate: JSON, CSV und Tabellen – Anwenden und prüfen"
 description: "Übe, Datenformate: JSON, CSV und Tabellen an kleinen Situationen zu prüfen."
-subject: informatik
+subject: "informatik"
 section: "daten-und-information"
-topicPath:
-  - "daten-und-information"
-  - "datenformate-json-csv-und-tabellen"
-taskId: INF-DATENFORMATE-JSON-CSV-UND-TABELLEN-842
-tags:
-  - "informatik"
-  - "datenformate"
-  - "json"
-  - "csv"
-hintPoints:
-  - "Beginne mit der allgemeinen Rolle des Themas."
-  - "Trenne Begriff, Beispiel und Sonderfall sauber."
-selfCheckPoints:
-  - "Ich kann meine Zuordnung begründen."
-  - "Ich vermeide eine reine Einzelfallantwort."
-transferIdeas:
-  - "Übertrage die Idee auf ein anderes kleines Informatikbeispiel."
-reflectionPrompt: "Welche Annahme musste ich bewusst prüfen?"
-level: mittel
+topicPath: ["daten-und-information", "datenformate-json-csv-und-tabellen", "datenformate-json-csv-und-tabellen-anwenden-und-pruefen-v184"]
+taskId: "INF-DATENFORMATE-JSON-CSV-UND-TABELLEN-842"
+tags: ["informatik", "daten-und-information", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Datenformate: JSON, CSV und Tabellen**. Sie soll nicht nur eine einzelne Situation lösen, sondern das Thema fachlich einordnen.
 
 ## Lernziel

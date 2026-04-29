@@ -3,20 +3,12 @@ title: "Lösung – Stabilität beim Sortieren deuten"
 description: "Musterlösung zu Stabilität beim Sortieren deuten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "algorithmen"
-  - "suchen-und-sortieren"
-  - "stabilitaet-beim-sortieren-deuten-v113"
+topicPath: ["algorithmen", "suchen-und-sortieren", "stabilitaet-beim-sortieren-deuten-v113"]
 taskId: "v113-informatik-stabilitaet-beim-sortieren-deuten-v113"
 relatedExercise: "informatik/algorithmen/suchen-und-sortieren/stabilitaet-beim-sortieren-deuten-v113"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "stabilitaet-beim-sortieren-deuten-v113"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Stabilität beim Sortieren deuten**.

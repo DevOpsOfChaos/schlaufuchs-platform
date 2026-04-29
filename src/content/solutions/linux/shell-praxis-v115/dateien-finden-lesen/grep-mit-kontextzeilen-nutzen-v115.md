@@ -1,24 +1,14 @@
 ---
 title: "Lösung: grep mit Kontextzeilen nutzen"
 description: "Musterlösung zu grep mit Kontextzeilen nutzen mit Trennkante und Gegenprobe."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell-praxis-v115"
-  - "dateien-finden-lesen"
-  - "grep-mit-kontextzeilen-nutzen-v115"
+topicPath: ["shell-praxis-v115", "dateien-finden-lesen", "grep-mit-kontextzeilen-nutzen-v115"]
 taskId: "linux-grep-mit-kontextzeilen-nutzen-v115"
 relatedExercise: "linux/shell-praxis-v115/dateien-finden-lesen/grep-mit-kontextzeilen-nutzen-v115"
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "shell-praxis"
-  - "dateien finden und lesen"
-  - "lösung"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **grep mit Kontextzeilen nutzen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

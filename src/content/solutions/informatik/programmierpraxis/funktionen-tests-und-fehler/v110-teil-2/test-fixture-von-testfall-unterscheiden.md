@@ -3,23 +3,12 @@ title: "Lösung – Test-Fixture von Testfall unterscheiden"
 description: "Musterlösung zu Test-Fixture von Testfall unterscheiden mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Programmierung"
-topicPath:
-  - "programmierpraxis"
-  - "funktionen-tests-und-fehler"
-  - "v110-teil-2"
-  - "test-fixture-von-testfall-unterscheiden"
+topicPath: ["programmierpraxis", "funktionen-tests-und-fehler", "v110-teil-2", "test-fixture-von-testfall-unterscheiden"]
 taskId: "v110-informatik-test-fixture-von-testfall-unterscheiden"
 relatedExercise: "informatik/programmierpraxis/funktionen-tests-und-fehler/v110-teil-2/test-fixture-von-testfall-unterscheiden"
-tags:
-  - "informatik"
-  - "struktur"
-  - "praxis"
-  - "programmierpraxis"
-  - "funktionen-tests-und-fehler"
-  - "test-fixture-von-testfall-unterscheiden"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Test-Fixture von Testfall unterscheiden**.

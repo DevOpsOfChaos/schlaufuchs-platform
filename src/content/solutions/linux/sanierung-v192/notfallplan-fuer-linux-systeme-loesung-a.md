@@ -3,25 +3,12 @@ title: "Lösung: Notfallplan für Linux-Systeme: Aufgabe A"
 description: "Musterlösung zur Aufgabe linux-v192-031a im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "betrieb-nahe-grundlagen"
-  - "notfallplan-fuer-linux-systeme"
-  - "loesung-a"
+topicPath: ["sanierung-v192", "notfallplan-fuer-linux-systeme-loesung-a"]
 taskId: "linux-v192-031a"
 relatedExercise: "linux/sanierung-v192/notfallplan-fuer-linux-systeme-aufgabe-a"
-tags:
-  - "betrieb-nahe-grundlagen"
-  - "notfallplan"
-  - "linux"
-  - "systeme"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-031a`
 
 Ausgangsauftrag: Erstelle einen Mini-Notfallplan für einen nicht erreichbaren Dienst.

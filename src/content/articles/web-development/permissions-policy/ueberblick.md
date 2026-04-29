@@ -1,35 +1,17 @@
 ---
 title: "Permissions Policy"
 description: "Überblick über Permissions Policy als Steuerung für Browserfunktionen wie Kamera, Mikrofon oder Geolocation."
-subject: web-development
+subject: "web-development"
 section: "Sicherheit"
-topicPath:
-  - "permissions-policy"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Permissions Policy als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["permissions-policy", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird angenommen, Berechtigungsabfragen allein seien ausreichend. Eine restriktive Policy begrenzt zusätzlich, wo solche Abfragen überhaupt möglich sind."
-keyTakeaways:
-  - "Permissions Policy begrenzt, welche Browserfunktionen eine Seite oder eingebettete Inhalte nutzen dürfen."
-  - "Sie reduziert unbeabsichtigte Berechtigungsnutzung und schafft klare Grenzen für eingebettete Drittinhalte."
-  - "Permissions Policy verhindert nicht jede Form von Datenabfluss. Sie kontrolliert bestimmte Browser-APIs."
-recognizeSignals:
-  - "Es geht um Permissions Policy, wenn funktionen wie camera, microphone, geolocation oder fullscreen können gezielt erlaubt oder blockiert werden."
-  - "Das Thema wird relevant, wenn Beispiele wie eine Dokumentationsseite kann Geolocation vollständig deaktivieren, wenn diese Funktion fachlich nicht gebraucht wird."
-selfCheckPoints:
-  - "Kann ich Permissions Policy in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "web development"
-  - "sicherheit"
-  - "browser"
-  - "permissions"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Sicherheit"]
 draft: false
 ---
 # Permissions Policy

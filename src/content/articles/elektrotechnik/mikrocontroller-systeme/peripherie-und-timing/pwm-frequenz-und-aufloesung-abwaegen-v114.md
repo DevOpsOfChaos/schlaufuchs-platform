@@ -1,46 +1,19 @@
 ---
-title: PWM-Frequenz und Auflösung abwägen
-description: Tastgrad nicht isoliert betrachten
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- mikrocontroller-systeme
-- peripherie-und-timing
-- pwm-frequenz-und-aufloesung-abwaegen-v114
-learningGoals:
-- Du erklärst PWM-Frequenz und Auflösung abwägen als klar abgegrenztes Unterthema.
-- Du erkennst die typische Verwechslung und formulierst eine passende Prüffrage.
-- Du nutzt eine Gegenprobe, statt dich nur auf den Kapitelbegriff zu verlassen.
-practiceIdeas:
-- Wende die Prüffrage auf ein zweites Beispiel an.
-- Notiere zuerst Kontext, Entscheidung und Gegenprobe.
-- Grenze das Thema bewusst von einem Nachbarthema ab.
-commonMistakes:
-- Maximale Auflösung wird ohne Frequenzfolge gewählt.
-- Das Thema wird zu breit einsortiert und verliert dadurch seine konkrete Trennkante.
-- Eine Lösung wird akzeptiert, ohne eine Gegenprobe zu prüfen.
-keyTakeaways:
-- PWM-Frequenz und Auflösung abwägen wird verständlich, wenn du die kleine Entscheidung im Beispiel sauber benennst.
-- Die Prüffrage hilft stärker als ein breiter Sammelbegriff.
-- Aufgaben bleiben übersichtlich, wenn das Unterthema eng geführt wird.
-recognizeSignals:
-- Eine Aufgabe enthält eine typische Verwechslung.
-- Ein Begriff wirkt bekannt, aber der konkrete Prüfschritt fehlt.
-- Die Lösung muss begründen, warum ein Nachbarthema nicht passt.
-selfCheckPoints:
-- Kann ich die Trennkante in einem Satz nennen?
-- Kann ich die Prüffrage auf das Beispiel anwenden?
-- Kann ich eine sinnvolle Gegenprobe formulieren?
-tags:
-- elektrotechnik
-- v114
-- feinstruktur
-- mikrocontroller-systeme
-- peripherie-und-timing
-level: fortgeschritten
+title: "PWM-Frequenz und Auflösung abwägen"
+description: "Tastgrad nicht isoliert betrachten"
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["mikrocontroller-systeme", "peripherie-und-timing", "pwm-frequenz-und-aufloesung-abwaegen-v114"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik"]
 draft: false
 ---
-
 ## Grundidee
 
 **PWM-Frequenz und Auflösung abwägen** ist bewusst als kleines Unterthema angelegt. Tastgrad nicht isoliert betrachten. Dadurch bleibt die Seite auffindbar und vermischt sich nicht mit einem übergroßen Sammelkapitel.

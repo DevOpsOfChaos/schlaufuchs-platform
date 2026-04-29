@@ -1,34 +1,19 @@
 ---
 title: "Affine Funktionen"
 description: "Allgemeiner Überblick über affine Funktionen, Steigung und Achsenabschnitt."
-subject: mathematik
+subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "affine-funktionen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Affine Funktionen als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["affine-funktionen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird der Achsenabschnitt nur als Rechenteil betrachtet, obwohl er fachlich einen Startwert bedeuten kann."
-keyTakeaways:
-  - "Affine Funktionen verbinden konstante Änderung mit einem Startwert."
-  - "Affine Funktionen sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Affine Funktionen."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Affine Funktionen erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "mathematik"
-  - "funktionen"
-  - "linear"
-  - "affin"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
-
 # Affine Funktionen
 
 ![Schaubild zu affinen Funktionen.](/schlaufuchs-platform/images/overviews/v150/affine-funktionen.svg)

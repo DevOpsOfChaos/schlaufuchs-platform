@@ -1,35 +1,19 @@
 ---
 title: "Shell als Arbeitsumgebung"
 description: "Allgemeiner Überblick über die Shell als textbasierte Schnittstelle zu Linux-Systemen."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell-als-arbeitsumgebung"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Shell als Schnittstelle zwischen Nutzer und System."
-  - "Du kannst Befehle, Optionen und Argumente grundlegend unterscheiden."
-  - "Du verstehst, warum die Shell für Automatisierung wichtig ist."
+topicPath: ["shell-als-arbeitsumgebung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Shell und Terminal gleichzusetzen."
-  - "Befehle auszuführen, ohne Pfad, Ziel und Wirkung zu prüfen."
-keyTakeaways:
-  - "Die Shell interpretiert Befehle und verbindet Werkzeuge miteinander."
-  - "Ihre Stärke liegt in Wiederholbarkeit, Kombination und Automatisierung."
-recognizeSignals:
-  - "Es geht um Terminalbefehle, Skripte, Pipes, Dateien oder Prozesssteuerung."
-selfCheckPoints:
-  - "Kann ich Befehl, Option und Argument in einer Zeile benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "terminal"
-  - "kommandozeile"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
-
 # Shell als Arbeitsumgebung
 
 ![Schaubild zur Shell als Arbeitsumgebung.](/schlaufuchs-platform/images/overviews/v148/shell-als-arbeitsumgebung.svg)

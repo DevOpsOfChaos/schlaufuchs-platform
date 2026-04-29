@@ -3,24 +3,12 @@ title: "Lösung: Algorithmus-Schritte begründen: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-021a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "datenstrukturen-und-algorithmen"
-  - "algorithmus-schritte-begruenden"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "algorithmus-schritte-begruenden-loesung-a"]
 taskId: "informatik-v193-021a"
 relatedExercise: "informatik/sanierung-v193/algorithmus-schritte-begruenden-aufgabe-a"
-tags:
-  - "algorithmus"
-  - "schritte"
-  - "begruenden"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-021a`
 
 Ausgangsauftrag: Beschreibe einen Suchalgorithmus mit Start, Schritt und Abbruch.

@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Lineare Annahme im Kontext prüfen"
 description: "Musterlösung zu Lineare Annahme im Kontext prüfen mit Trennkante und Gegenprobe."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "funktionsdenken-v115"
-  - "lineare-modelle"
-  - "lineare-annahme-im-kontext-pruefen-v115"
+topicPath: ["funktionsdenken-v115", "lineare-modelle", "lineare-annahme-im-kontext-pruefen-v115"]
 taskId: "mathematik-lineare-annahme-im-kontext-pruefen-v115"
 relatedExercise: "mathematik/funktionsdenken-v115/lineare-modelle/lineare-annahme-im-kontext-pruefen-v115"
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "funktionsdenken"
-  - "lineare modelle"
-  - "lösung"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Lineare Annahme im Kontext prüfen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

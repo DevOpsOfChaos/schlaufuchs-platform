@@ -3,23 +3,12 @@ title: "Lösung – Nennerbedingungen vor Gleichungslösung prüfen"
 description: "Musterlösung zu Nennerbedingungen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "gleichungen-und-modelle"
-  - "bedingungen-und-loesungsmenge"
-  - "definitionsmenge"
-  - "nennerbedingungen-vor-gleichungsloesung-pruefen"
+topicPath: ["gleichungen-und-modelle", "bedingungen-und-loesungsmenge", "definitionsmenge", "nennerbedingungen-vor-gleichungsloesung-pruefen"]
 taskId: "v111-mathematik-nennerbedingungen-vor-gleichungsloesung-pruefen"
 relatedExercise: "mathematik/gleichungen-und-modelle/bedingungen-und-loesungsmenge/definitionsmenge/nennerbedingungen-vor-gleichungsloesung-pruefen"
-tags:
-  - "mathematik"
-  - "prüfung"
-  - "unterthema"
-  - "gleichungen-und-modelle"
-  - "bedingungen-und-loesungsmenge"
-  - "nennerbedingungen-vor-gleichungsloesung-pruefen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Nennerbedingungen**.

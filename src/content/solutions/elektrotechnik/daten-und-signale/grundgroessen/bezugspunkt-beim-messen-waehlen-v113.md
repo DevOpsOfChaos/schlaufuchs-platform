@@ -3,20 +3,12 @@ title: "Lösung – Bezugspunkt beim Messen wählen"
 description: "Musterlösung zu Bezugspunkt beim Messen wählen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "grundgroessen"
-  - "bezugspunkt-beim-messen-waehlen-v113"
+topicPath: ["daten-und-signale", "grundgroessen", "bezugspunkt-beim-messen-waehlen-v113"]
 taskId: "v113-elektrotechnik-bezugspunkt-beim-messen-waehlen-v113"
 relatedExercise: "elektrotechnik/daten-und-signale/grundgroessen/bezugspunkt-beim-messen-waehlen-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "bezugspunkt-beim-messen-waehlen-v113"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Bezugspunkt beim Messen wählen**.

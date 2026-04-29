@@ -3,33 +3,15 @@ title: "Aufgabe – Fehlermeldungen als Teil der Schnittstelle sehen"
 description: "Übe fehlermeldungen als teil der schnittstelle sehen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "programmieren"
-  - "funktionen-und-schnittstellen"
-  - "fehlermeldungen-als-teil-der-schnittstelle-sehen"
+topicPath: ["programmieren", "funktionen-und-schnittstellen", "fehlermeldungen-als-teil-der-schnittstelle-sehen"]
 taskId: "v112-informatik-fehlermeldungen-als-teil-der-schnittstelle-sehen"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "programmieren"
-  - "fehlermeldungen-als-teil-der-schnittstelle-sehen"
-hintPoints:
-  - "Benenne zuerst das kleine Unterthema."
-  - "Prüfe bewusst den Unterschied zum Fehler: Nur Erfolgsfälle werden dokumentiert."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Einordnung enger als nur der breite Fachbereich?"
-  - "Wird der typische Fehler ausdrücklich ausgeschlossen?"
-  - "Passt die Lösung zur Wissensseite?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Begriff und prüfe, ob die gleiche Strategie gilt."
-  - "Erkläre die Lösung einmal alltagssprachlich und danach fachlich sauber."
-reflectionPrompt: "Was war bei „Fehlermeldungen als Teil der Schnittstelle sehen“ die wichtigste Trennkante?"
+tags: ["informatik", "Feinstruktur Informatik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation:

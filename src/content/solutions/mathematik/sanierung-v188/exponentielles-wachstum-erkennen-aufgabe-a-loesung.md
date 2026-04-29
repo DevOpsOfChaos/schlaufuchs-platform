@@ -3,22 +3,12 @@ title: "Lösung: Exponentielles Wachstum erkennen: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-019a."
 subject: "mathematik"
 section: "funktionen-im-vergleich"
-topicPath:
-  - "funktionen-im-vergleich"
-  - "exponentielles-wachstum-erkennen"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "exponentielles-wachstum-erkennen-aufgabe-a"]
 taskId: "mat-v188-019a"
 relatedExercise: "mathematik/sanierung-v188/exponentielles-wachstum-erkennen-aufgabe-a"
-tags:
-  - "exponential"
-  - "wachstum"
-  - "faktor"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "funktionen-im-vergleich", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-019a`
 
 Eine mögliche Lösung:

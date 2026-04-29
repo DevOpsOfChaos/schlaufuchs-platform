@@ -3,23 +3,12 @@ title: "Lösung – Wiederholgruppen als Normalisierungssignal erkennen"
 description: "Musterlösung zu Wiederholgruppen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenmodellierung"
-  - "struktur-und-identitaet"
-  - "normalisierung"
-  - "wiederholgruppen-als-normalisierungssignal-erkennen"
+topicPath: ["datenmodellierung", "struktur-und-identitaet", "normalisierung", "wiederholgruppen-als-normalisierungssignal-erkennen"]
 taskId: "v111-informatik-wiederholgruppen-als-normalisierungssignal-erkennen"
 relatedExercise: "informatik/datenmodellierung/struktur-und-identitaet/normalisierung/wiederholgruppen-als-normalisierungssignal-erkennen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "unterthema"
-  - "datenmodellierung"
-  - "struktur-und-identitaet"
-  - "wiederholgruppen-als-normalisierungssignal-erkennen"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Wiederholgruppen**.

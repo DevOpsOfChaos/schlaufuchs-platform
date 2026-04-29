@@ -3,22 +3,12 @@ title: "Lösung: Layoutsprung vermeiden"
 description: "Musterlösung zur Aufgabe „Layoutsprung vermeiden“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "ux-feedback-und-fehlerzustaende"
-  - "ladezustand-und-skeleton"
-  - "layoutsprung-vermeiden-v116"
+topicPath: ["ux-feedback-und-fehlerzustaende", "ladezustand-und-skeleton", "layoutsprung-vermeiden-v116"]
 taskId: "layoutsprung-vermeiden-v116"
 relatedExercise: "web-development/ux-feedback-und-fehlerzustaende/ladezustand-und-skeleton/layoutsprung-vermeiden-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "ladezustand und skeleton"
-  - "layoutsprung vermeiden"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

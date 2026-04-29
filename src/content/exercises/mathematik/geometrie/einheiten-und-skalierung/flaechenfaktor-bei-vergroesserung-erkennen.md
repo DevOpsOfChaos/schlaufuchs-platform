@@ -3,33 +3,15 @@ title: "Aufgabe – Flächenfaktor bei Vergrößerung erkennen"
 description: "Übe flächenfaktor bei vergrößerung erkennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "geometrie"
-  - "einheiten-und-skalierung"
-  - "flaechenfaktor-bei-vergroesserung-erkennen"
+topicPath: ["geometrie", "einheiten-und-skalierung", "flaechenfaktor-bei-vergroesserung-erkennen"]
 taskId: "v112-mathematik-flaechenfaktor-bei-vergroesserung-erkennen"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "geometrie"
-  - "flaechenfaktor-bei-vergroesserung-erkennen"
-hintPoints:
-  - "Benenne zuerst das kleine Unterthema."
-  - "Prüfe bewusst den Unterschied zum Fehler: Doppelte Länge wird mit doppelter Fläche gleichgesetzt."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Einordnung enger als nur der breite Fachbereich?"
-  - "Wird der typische Fehler ausdrücklich ausgeschlossen?"
-  - "Passt die Lösung zur Wissensseite?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Begriff und prüfe, ob die gleiche Strategie gilt."
-  - "Erkläre die Lösung einmal alltagssprachlich und danach fachlich sauber."
-reflectionPrompt: "Was war bei „Flächenfaktor bei Vergrößerung erkennen“ die wichtigste Trennkante?"
+tags: ["mathematik", "Feinstruktur Mathematik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation:

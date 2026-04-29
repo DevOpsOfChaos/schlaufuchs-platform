@@ -1,34 +1,19 @@
 ---
 title: "Bildformate im Web"
 description: "Überblick über gängige Bildformate und die Frage, wie Qualität, Dateigröße, Transparenz und Browserunterstützung zusammenhängen."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "bildformate-im-web"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["bildformate-im-web", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein großes Originalbild unverändert auf jeder Bildschirmgröße auszuliefern."
-keyTakeaways:
-  - "Gute Bildwahl verbindet Format, Größe, Inhalt, Qualität und Ladeverhalten."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Seiten langsam laden, Bilder unscharf wirken oder zu große Dateien ausgeliefert werden."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "web development"
-  - "bilder"
-  - "performance"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # Bildformate im Web
 
 Bildformate bestimmen, wie visuelle Inhalte gespeichert, komprimiert und im Browser dargestellt werden. Unterschiedliche Formate eignen sich für Fotos, Grafiken, Icons, Transparenz oder Animationen.

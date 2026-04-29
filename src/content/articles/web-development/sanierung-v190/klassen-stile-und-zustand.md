@@ -3,40 +3,17 @@ title: "Klassen, Stile und Zustand"
 description: "Verstehe sichtbare zustände wartbar ändern als ruhigen Baustein für wartbare Frontend-Projekte."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "dom-und-ui"
-  - "klassen-stile-und-zustand"
-learningGoals:
-  - "Sichtbare Zustände wartbar ändern"
-  - "typische Fehlerquellen erkennen"
-  - "eine kleine Frontend-Entscheidung begründen"
-practiceIdeas:
-  - "Beschreibe, welche Klasse eine Warnbox bei offenem Zustand bekommt."
-  - "Formuliere eine Mini-Checkliste für eine zweite ähnliche Oberfläche."
-commonMistakes:
-  - "Technik wird benutzt, ohne den Zweck zu klären."
-  - "Fehlerfälle werden erst nachträglich betrachtet."
-  - "HTML, CSS und JavaScript werden unnötig vermischt."
-keyTakeaways:
-  - "Klassenwechsel sind meist robuster als viele Inline-Stile."
-  - "Kleine, klare Prüfschritte machen Frontend-Code wartbarer."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Verhalten, Daten oder Zustand einer Webseite bewusst gesteuert werden müssen."
-selfCheckPoints:
-  - "Kann ich Zweck, Daten und sichtbare Wirkung trennen?"
-  - "Ist mindestens ein Fehlerfall genannt?"
-  - "Bleibt die Lösung auch ohne Spezialwissen nachvollziehbar?"
+topicPath: ["sanierung-v190", "klassen-stile-und-zustand"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "dom-und-ui"
-  - "klassen"
-  - "javascript"
-  - "frontend"
-  - "web-development"
+tags: ["web-development", "javascript-vertiefung"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Klassen, Stile und Zustand](/schlaufuchs-platform/images/web-development/sanierung-v190/klassen-stile-und-zustand.svg)
 
 Klassen, Stile und Zustand gehört zur JavaScript-Vertiefung im Web Development. Die Seite betrachtet das Thema nicht als isolierten Code-Trick, sondern als Entscheidungspunkt: Welche Aufgabe hat der Baustein, welche Daten oder Elemente sind beteiligt und wie bleibt die Lösung auch später verständlich?

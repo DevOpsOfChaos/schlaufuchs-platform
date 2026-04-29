@@ -3,23 +3,12 @@ title: "Lösung – Skalarprodukt zur Winkelentscheidung nutzen"
 description: "Musterlösung zu Skalarprodukt und Winkel mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - "geometrie"
-  - "vektoren-und-richtung"
-  - "skalarprodukt"
-  - "skalarprodukt-zur-winkelentscheidung-nutzen"
+topicPath: ["geometrie", "vektoren-und-richtung", "skalarprodukt", "skalarprodukt-zur-winkelentscheidung-nutzen"]
 taskId: "v109-mathematik-skalarprodukt-zur-winkelentscheidung-nutzen"
 relatedExercise: "mathematik/geometrie/vektoren-und-richtung/skalarprodukt/skalarprodukt-zur-winkelentscheidung-nutzen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfen"
-  - "geometrie"
-  - "vektoren-und-richtung"
-  - "skalarprodukt und winkel"
+tags: ["mathematik", "Geometrie", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Skalarprodukt und Winkel**.

@@ -3,24 +3,12 @@ title: "Lösung: Listen und Tupel abgrenzen: Aufgabe B"
 description: "Musterlösung zur Aufgabe informatik-v193-016b im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "datenstrukturen-und-algorithmen"
-  - "listen-und-tuples-abgrenzen"
-  - "loesung-b"
+topicPath: ["sanierung-v193", "listen-und-tuples-abgrenzen-loesung-b"]
 taskId: "informatik-v193-016b"
 relatedExercise: "informatik/sanierung-v193/listen-und-tuples-abgrenzen-aufgabe-b"
-tags:
-  - "listen"
-  - "tuples"
-  - "abgrenzen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-016b`
 
 Ausgangsauftrag: Übertrage das Thema Listen und Tupel abgrenzen auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

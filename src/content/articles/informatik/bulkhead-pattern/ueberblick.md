@@ -1,35 +1,17 @@
 ---
 title: "Bulkhead Pattern"
 description: "Überblick über das Bulkhead Pattern zur Begrenzung von Ausfällen in Softwaresystemen."
-subject: informatik
+subject: "informatik"
 section: "Resilienz"
-topicPath:
-  - "bulkhead-pattern"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Bulkhead Pattern als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["bulkhead-pattern", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird ein großer gemeinsamer Pool als effizient betrachtet. Bei Fehlern kann er jedoch alle Funktionen gleichzeitig blockieren."
-keyTakeaways:
-  - "Das Bulkhead Pattern trennt Ressourcenbereiche, damit ein überlasteter Teil nicht das gesamte System mitreißt."
-  - "Es erhöht Stabilität, indem Threads, Verbindungen, Queues oder Kapazitäten bewusst pro Bereich begrenzt werden."
-  - "Bulkheads verbessern Isolation, lösen aber nicht die Ursache von Überlast."
-recognizeSignals:
-  - "Es geht um Bulkhead Pattern, wenn kritische und weniger kritische Funktionen erhalten getrennte Ressourcen."
-  - "Das Thema wird relevant, wenn Beispiele wie ein langsamer Berichtsexport bekommt einen eigenen Worker-Pool, damit normale Anfragen weiter bedient werden."
-selfCheckPoints:
-  - "Kann ich Bulkhead Pattern in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "resilienz"
-  - "architektur"
-  - "bulkhead"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Resilienz"]
 draft: false
 ---
 # Bulkhead Pattern

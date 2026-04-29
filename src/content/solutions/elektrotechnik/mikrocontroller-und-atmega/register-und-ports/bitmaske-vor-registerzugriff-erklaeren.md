@@ -3,21 +3,12 @@ title: "Lösung – Bitmaske vor Registerzugriff erklären"
 description: "Musterlösung zu bitmaske vor registerzugriff erklären mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "register-und-ports"
-  - "bitmaske-vor-registerzugriff-erklaeren"
+topicPath: ["mikrocontroller-und-atmega", "register-und-ports", "bitmaske-vor-registerzugriff-erklaeren"]
 taskId: "v112-elektrotechnik-bitmaske-vor-registerzugriff-erklaeren"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/register-und-ports/bitmaske-vor-registerzugriff-erklaeren"
-tags:
-  - "elektrotechnik"
-  - "v112"
-  - "feinstruktur"
-  - "mikrocontroller-und-atmega"
-  - "bitmaske-vor-registerzugriff-erklaeren"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Mikrocontroller Register und Ports**.

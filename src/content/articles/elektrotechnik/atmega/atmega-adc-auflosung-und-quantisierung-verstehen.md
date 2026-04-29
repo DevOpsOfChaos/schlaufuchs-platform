@@ -1,46 +1,19 @@
 ---
-title: ATmega – ADC-Auflösung und Quantisierung verstehen
-description: Verstehe, warum der AVR eine analoge Spannung nur stufig erfassen kann und wie Referenzspannung, Bitzahl und Schrittweite zusammenhängen.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - analog-digital-wandlung
-  - atmega-adc-auflosung-und-quantisierung-verstehen
-learningGoals:
-  - Du erklärst die Grundidee der ADC-Auflösung als Anzahl unterscheidbarer Stufen.
-  - Du beschreibst Quantisierung eher als Einordnen in Stufen statt als „genaues Kopieren“ einer Spannung.
-  - Du liest ADC-Werte ruhiger über Referenz und Schrittweite statt nur als nackte Dezimalzahl.
-practiceIdeas:
-  - Übersetze eine Referenzspannung in eine grobe Schrittweite pro ADC-Stufe.
-  - Vergleiche zwei ADC-Situationen mit gleicher Bitzahl, aber anderer Referenz.
-  - Lies ADC-Werte eher als Stufenwert als als perfekte Spannungsabbildung.
-commonMistakes:
-  - Zu denken, ein ADC kopiere eine analoge Spannung exakt und lückenlos.
-  - Die Schrittweite nur an der Bitzahl festzumachen und die Referenzspannung zu vergessen.
-  - Einen Zählerwert direkt für die gemessene Spannung selbst zu halten.
-keyTakeaways:
-  - Ein ADC erfasst Spannungen nicht kontinuierlich, sondern in Stufen.
-  - Die Auflösung beschreibt, wie fein diese Stufen unterschieden werden können.
-  - Referenzspannung und Bitzahl bestimmen gemeinsam, wie grob oder fein die Quantisierung ist.
-recognizeSignals:
-  - Es geht um ADC-Wert, Referenzspannung, Auflösung oder Schrittweite.
-  - Du sollst erklären, warum kleine Spannungsänderungen manchmal denselben Messwert liefern.
-  - In Aufgaben müssen Spannungsbereich und Stufenanzahl zusammen gelesen werden.
-selfCheckPoints:
-  - Kann ich erklären, warum ein ADC-Wert immer eine Stufe und keine perfekte Kopie ist?
-  - Kann ich Bitzahl und Referenz zusammen denken?
-  - Kann ich begründen, warum gleiche Bitzahl bei anderer Referenz andere Schrittweiten erzeugt?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - adc
-  - quantisierung
-level: mittel
+title: "ATmega – ADC-Auflösung und Quantisierung verstehen"
+description: "Verstehe, warum der AVR eine analoge Spannung nur stufig erfassen kann und wie Referenzspannung, Bitzahl und Schrittweite zusammenhängen."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-adc-auflosung-und-quantisierung-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Eine analoge Spannung kann beim AVR nicht unendlich fein gespeichert werden. Der ADC ordnet den Eingangswert stattdessen einer **endlichen Zahl von Stufen** zu. Genau dieser Übergang von einer kontinuierlichen Spannung zu einem stufigen Zahlenwert heißt **Quantisierung**.

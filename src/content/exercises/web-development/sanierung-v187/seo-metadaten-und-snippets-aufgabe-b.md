@@ -3,35 +3,15 @@ title: "SEO, Metadaten und Snippets: Prüfung und Verbesserung"
 description: "Verbessere eine Seite mit unklarem Titel, fehlender Beschreibung und sprunghafter Überschriftenstruktur."
 subject: "web-development"
 section: "qualitaet"
-topicPath: 
-  - "qualitaet-und-zugaenglichkeit"
-  - "metadaten"
-  - "aufgabe-b"
+topicPath: ["sanierung-v187", "seo-metadaten-und-snippets-aufgabe-b"]
 taskId: "web-v187-027b"
-tags: 
-  - "seo"
-  - "metadaten"
-  - "html"
-  - "suchmaschinen"
-  - "web-development"
-  - "aufgabe"
-  - "v187"
-hintPoints: 
-  - "Trenne Zweck, Struktur und sichtbare Wirkung."
-  - "Begründe mindestens eine Entscheidung mit dem Nutzerziel."
-  - "Prüfe einen typischen Fehlerfall aus der Erklärseite."
-selfCheckPoints: 
-  - "Die Lösung passt zur Aufgabenstellung."
-  - "Mindestens eine Entscheidung ist begründet."
-  - "Es gibt keine neue Aufgabe ohne passende Lösung."
-transferIdeas: 
-  - "Übertrage die Entscheidung auf eine zweite kleine Seite."
-  - "Formuliere eine kurze Checkliste für spätere Wiederholung."
-reflectionPrompt: "Welche Entscheidung war am wichtigsten, damit die Lösung ruhig und wartbar bleibt?"
+tags: ["web-development", "qualitaet", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Verbessere eine Seite mit unklarem Titel, fehlender Beschreibung und sprunghafter Überschriftenstruktur.

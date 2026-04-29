@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Feature Flag begrenzt einsetzen"
 description: "Musterlösung zu Feature Flag begrenzt einsetzen mit Trennkante und Gegenprobe."
-subject: web-development
+subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "web-projektpraxis-v115"
-  - "release-und-betrieb"
-  - "feature-flag-begrenzt-einsetzen-v115"
+topicPath: ["web-projektpraxis-v115", "release-und-betrieb", "feature-flag-begrenzt-einsetzen-v115"]
 taskId: "web-development-feature-flag-begrenzt-einsetzen-v115"
 relatedExercise: "web-development/web-projektpraxis-v115/release-und-betrieb/feature-flag-begrenzt-einsetzen-v115"
-tags:
-  - "web development"
-  - "feinstruktur"
-  - "unterthema"
-  - "web-projektpraxis"
-  - "release und betrieb"
-  - "lösung"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Feature Flag begrenzt einsetzen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

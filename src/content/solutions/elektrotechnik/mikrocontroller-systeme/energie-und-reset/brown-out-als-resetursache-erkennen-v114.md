@@ -1,23 +1,14 @@
 ---
-title: Lösung – Brown-out als Resetursache erkennen
-description: Musterlösung zur Aufgabe über Brown-out als Resetursache erkennen.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- mikrocontroller-systeme
-- energie-und-reset
-- brown-out-als-resetursache-erkennen-v114
-taskId: v114-elektrotechnik-brown-out-als-resetursache-erkennen-v114
-relatedExercise: elektrotechnik/mikrocontroller-systeme/energie-und-reset/brown-out-als-resetursache-erkennen-v114
-tags:
-- elektrotechnik
-- v114
-- loesung
-- mikrocontroller-systeme
-- energie-und-reset
+title: "Lösung – Brown-out als Resetursache erkennen"
+description: "Musterlösung zur Aufgabe über Brown-out als Resetursache erkennen."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["mikrocontroller-systeme", "energie-und-reset", "brown-out-als-resetursache-erkennen-v114"]
+taskId: "v114-elektrotechnik-brown-out-als-resetursache-erkennen-v114"
+relatedExercise: "elektrotechnik/mikrocontroller-systeme/energie-und-reset/brown-out-als-resetursache-erkennen-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

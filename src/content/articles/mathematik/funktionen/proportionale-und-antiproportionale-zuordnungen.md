@@ -1,44 +1,19 @@
 ---
-title: Proportionale und antiproportionale Zuordnungen
-description: Unterscheide typische Muster funktionaler Zusammenhänge und ordne Beispiele sicher ein.
-subject: mathematik
-section: Funktionen
-topicPath:
-  - funktionen
-  - proportionale-und-antiproportionale-zuordnungen
-tags:
-  - proportional
-  - antiproportional
-  - zuordnung
-  - funktion
-learningGoals:
-  - "Du unterscheidest proportionale und antiproportionale Zusammenhänge."
-  - "Du begründest an Tabellen, Texten oder Formeln, welcher Zusammenhang vorliegt."
-  - "Du erklärst, was sich verändert, wenn eine Größe größer oder kleiner wird."
-practiceIdeas:
-  - "Vergleiche Tabellen danach, ob Quotient oder Produkt konstant bleibt."
-  - "Formuliere in Worten, wie zwei Größen zusammenhängen."
-  - "Prüfe bei Sachaufgaben, ob mehr von der einen Größe mehr oder weniger von der anderen bedeutet."
-commonMistakes:
-  - "Jede gleichmäßige Veränderung automatisch als proportional zu bezeichnen."
-  - "Antiproportionale Zusammenhänge nur sprachlich, aber nicht rechnerisch zu prüfen."
-  - "Formel, Tabelle und Bedeutung nicht zusammenzudenken."
-keyTakeaways:
-  - "Bei proportionalen Zuordnungen bleibt der Quotient konstant."
-  - "Bei antiproportionalen Zuordnungen bleibt das Produkt konstant."
-  - "Die Bedeutung des Zusammenhangs ist wichtiger als ein bloßes Schlagwort."
-recognizeSignals:
-  - "Es geht um feste Preis-pro-Stück-Verhältnisse, Wege-Zeiten, Arbeitsverteilungen oder andere gekoppelte Größen."
-  - "Tabellen und Texte sollen auf ihren funktionalen Zusammenhang geprüft werden."
-  - "Du sollst nicht nur rechnen, sondern den Typ der Zuordnung begründen."
-selfCheckPoints:
-  - "Kann ich proportional und antiproportional sicher unterscheiden?"
-  - "Kann ich mein Urteil mit Quotient oder Produkt begründen?"
-  - "Kann ich den Zusammenhang auch in Worten erklären?"
-level: einfach
+title: "Proportionale und antiproportionale Zuordnungen"
+description: "Unterscheide typische Muster funktionaler Zusammenhänge und ordne Beispiele sicher ein."
+subject: "mathematik"
+section: "Funktionen"
+topicPath: ["funktionen", "proportionale-und-antiproportionale-zuordnungen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
-
 ## Warum diese Unterscheidung wichtig ist
 
 Viele Aufgaben in Mathematik und Naturwissenschaften beruhen darauf, dass zwei Größen in einem typischen Muster zusammenhängen. Wer proportionale und antiproportionale Zuordnungen erkennt, versteht Tabellen, Formeln und Sachtexte deutlich besser.

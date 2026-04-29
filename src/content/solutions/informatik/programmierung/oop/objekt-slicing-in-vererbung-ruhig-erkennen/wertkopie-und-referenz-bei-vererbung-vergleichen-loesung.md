@@ -1,21 +1,14 @@
 ---
-title: Loesung – Wertkopie und Referenz bei Vererbung vergleichen
-description: Musterloesung zur Aufgabe ueber Objekt Slicing in Vererbung.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - objekt-slicing-in-vererbung-ruhig-erkennen
-taskId: INF-PROG-OOP-026
-relatedExercise: informatik/programmierung/oop/objekt-slicing-in-vererbung-ruhig-erkennen/wertkopie-und-referenz-bei-vererbung-vergleichen
-tags:
-  - informatik
-  - oop
-  - loesung
+title: "Loesung – Wertkopie und Referenz bei Vererbung vergleichen"
+description: "Musterloesung zur Aufgabe ueber Objekt Slicing in Vererbung."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "objekt-slicing-in-vererbung-ruhig-erkennen", "wertkopie-und-referenz-bei-vererbung-vergleichen"]
+taskId: "INF-PROG-OOP-026"
+relatedExercise: "informatik/programmierung/oop/objekt-slicing-in-vererbung-ruhig-erkennen/wertkopie-und-referenz-bei-vererbung-vergleichen"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterloesung
 
 ### Aufgabe 1

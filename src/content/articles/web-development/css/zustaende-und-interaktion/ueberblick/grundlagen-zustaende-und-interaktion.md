@@ -1,45 +1,19 @@
 ---
-title: Web Development – Zustände und Interaktion in CSS im Überblick
-description: Erklärt Hover, Fokus, aktive Zustände und sichtbare Rückmeldung als Teil nutzbarer Oberflächen.
-subject: web-development
-section: CSS
-topicPath:
-  - "css"
-  - "zustaende-und-interaktion"
-  - "ueberblick"
-learningGoals:
-  - "Den Themenbereich Zustände und Interaktion in CSS im Überblick allgemein einordnen."
-  - "Grundbegriffe, Nutzen und typische Grenzen unterscheiden."
-  - "Einzelne Lernseiten als Vertiefung statt als Einstieg lesen."
-practiceIdeas:
-  - "Erstelle eine kurze Begriffskarte mit Zweck, typischem Beispiel und häufiger Verwechslung."
-  - "Ordne vorhandene Lernseiten danach, welchen Teil des Überblicks sie vertiefen."
-  - "Formuliere zu jedem Abschnitt eine eigene Kontrollfrage."
-commonMistakes:
-  - "Nur Hover zu gestalten und Fokus zu vergessen."
-  - "Interaktion ausschließlich über Farbe zu kennzeichnen."
-keyTakeaways:
-  - "CSS-Zustände unterstützen Orientierung."
-  - "Fokus ist für Tastaturbedienung unverzichtbar."
-  - "Interaktive Elemente brauchen erkennbare Rückmeldung."
-recognizeSignals:
-  - "Ein Unterthema enthält viele einzelne Situationsseiten, aber es fehlt eine gemeinsame Einordnung."
-  - "Begriffe werden in Aufgaben verwendet, bevor Zweck und Zusammenhang klar sind."
-  - "Man muss entscheiden, welche Vertiefungsseite als nächstes sinnvoll ist."
-selfCheckPoints:
-  - "Kann ich das Thema in zwei bis drei Sätzen allgemein erklären?"
-  - "Kann ich Zweck, Vorgehen und typische Fehler getrennt benennen?"
-  - "Kann ich erklären, welche Vertiefungsseite zu welcher Frage passt?"
-level: einfach
-tags:
-  - "web development"
-  - "css"
-  - "interaktion"
-  - "fokus"
-  - "überblick"
+title: "Web Development – Zustände und Interaktion in CSS im Überblick"
+description: "Erklärt Hover, Fokus, aktive Zustände und sichtbare Rückmeldung als Teil nutzbarer Oberflächen."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "zustaende-und-interaktion", "ueberblick", "grundlagen-zustaende-und-interaktion"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Überblick
 
 CSS gestaltet nicht nur statische Flächen. Es beschreibt auch, wie Elemente auf Zustände reagieren, etwa wenn sie fokussiert, berührt, angeklickt oder deaktiviert sind.

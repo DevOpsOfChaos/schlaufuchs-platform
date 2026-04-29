@@ -1,34 +1,19 @@
 ---
 title: "Network-Panel in Browser-DevTools"
 description: "Überblick über das Network-Panel als Werkzeug, um Ladezeiten, HTTP-Anfragen und Ressourcen im Browser zu untersuchen."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "browser-devtools-network"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["browser-devtools-network", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur die Console zu prüfen und Netzwerkfehler zu übersehen."
-keyTakeaways:
-  - "Das Network-Panel macht Webkommunikation beobachtbar und ist ein zentrales Werkzeug für Lade- und API-Probleme."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Ressourcen fehlen, Seiten langsam laden oder Fetch-Anfragen unerwartet scheitern."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "web development"
-  - "devtools"
-  - "http"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # Network-Panel in Browser-DevTools
 
 ![Schaubild zum Network-Panel der Browser-DevTools.](/schlaufuchs-platform/images/overviews/v150/browser-devtools-network.svg)

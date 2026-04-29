@@ -1,37 +1,19 @@
 ---
 title: "Dateisystemprüfung"
 description: "Überblick über Dateisystemprüfung, Inkonsistenzen und vorsichtige Reparatur beschädigter Dateisysteme."
-subject: linux
+subject: "linux"
 section: "Dateisystem"
-topicPath:
-  - "dateisystem-pruefung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Dateisystemprüfung als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["dateisystem-pruefung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein beschädigtes Dateisystem weiter zu beschreiben, bevor wichtige Daten gesichert oder ein Image erstellt wurde."
-keyTakeaways:
-  - "Prüfung sucht Konsistenzfehler im Dateisystem."
-  - "Reparatur sollte vorsichtig und mit Backup erfolgen."
-  - "Hardwareursachen müssen mitgeprüft werden."
-recognizeSignals:
-  - "Dateien verschwinden, Mounts schlagen fehl oder der Kernel meldet I/O-Fehler."
-  - "Nach Absturz wird eine Prüfung verlangt."
-selfCheckPoints:
-  - "Kann ich Dateisystemprüfung in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "dateisystem"
-  - "fsck"
-  - "reparatur"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dateisystem"]
 draft: false
 ---
-
 # Dateisystemprüfung
 
 Dateisystemprüfung untersucht, ob Metadaten, Verzeichnisse und Belegungsinformationen eines Dateisystems konsistent sind.

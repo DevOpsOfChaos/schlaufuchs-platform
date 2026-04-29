@@ -1,33 +1,19 @@
 ---
 title: "xargs"
 description: "xargs baut aus Eingaben neue Befehlsaufrufe. Es wird häufig verwendet, um viele Dateinamen oder Werte an ein Programm zu übergeben."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "xargs"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von xargs."
-  - "Du kannst xargs in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["xargs", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Dateinamen ohne -0 und passende Eingabe sicher zu verarbeiten."
-keyTakeaways:
-  - "xargs baut aus Eingaben neue Befehlsaufrufe."
-  - "Wichtig sind vor allem argumentlisten aus standardeingabe, null-getrennte eingaben und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um xargs, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu xargs dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "linux"
-  - "grundlagen"
-  - "xargs"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # xargs
 
 xargs baut aus Eingaben neue Befehlsaufrufe. Es wird häufig verwendet, um viele Dateinamen oder Werte an ein Programm zu übergeben. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

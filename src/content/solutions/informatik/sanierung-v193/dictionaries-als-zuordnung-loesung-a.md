@@ -3,23 +3,12 @@ title: "Lösung: Dictionaries als Zuordnung: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-018a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "datenstrukturen-und-algorithmen"
-  - "dictionaries-als-zuordnung"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "dictionaries-als-zuordnung-loesung-a"]
 taskId: "informatik-v193-018a"
 relatedExercise: "informatik/sanierung-v193/dictionaries-als-zuordnung-aufgabe-a"
-tags:
-  - "dictionaries"
-  - "zuordnung"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-018a`
 
 Ausgangsauftrag: Modelliere Benutzerrollen als Dictionary und prüfe fehlende Schlüssel.

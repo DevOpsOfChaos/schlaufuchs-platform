@@ -1,12 +1,17 @@
 ---
-title: Links, Bilder und Pfade – Grundaufgaben
-description: Übe das fachliche Verstehen von Verweisen, Zielen und Dateipfaden im Web.
-subject: web-development
-section: links-bilder-und-pfade
-level: einfach
+title: "Links, Bilder und Pfade – Grundaufgaben"
+description: "Übe das fachliche Verstehen von Verweisen, Zielen und Dateipfaden im Web."
+subject: "web-development"
+section: "links-bilder-und-pfade"
+topicPath: ["links-bilder-und-pfade-grundaufgaben"]
+taskId: "AUTO-LINKS-BILDER-UND-PFADE-GRUNDAUFGABEN"
+tags: ["web-development", "links-bilder-und-pfade", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe hält die Grundidee von Links, Bildern und Pfaden bewusst zusammen: Du sollst nicht nur HTML-Elemente erkennen, sondern verstehen, **wie Verweise im Web funktionieren**.
 
 ## Lernziel

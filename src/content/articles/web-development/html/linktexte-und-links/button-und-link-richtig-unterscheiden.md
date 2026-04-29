@@ -3,41 +3,15 @@ title: "HTML – Button und Link richtig unterscheiden"
 description: "Verstehe, wann eine Oberfläche einen Link braucht und wann ein Button die fachlich richtige Wahl ist."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "linktexte-und-links"
-  - "button-und-link-richtig-unterscheiden"
-learningGoals:
-  - "Du unterscheidest Navigation von Aktion."
-  - "Du erklärst, warum ein klickbares Element semantisch stimmen muss."
-  - "Du formulierst Beschriftungen, die Ziel oder Handlung klar benennen."
-practiceIdeas:
-  - "Prüfe ein kleines Beispiel zuerst fachlich und erst danach im Code."
-  - "Vergleiche eine schwache und eine bessere Umsetzung."
-  - "Teste die Entscheidung mit Tastatur, kleiner Breite und verständlichem sichtbarem Text."
-commonMistakes:
-  - "Links für Aktionen zu verwenden, die keinen Zielwechsel bedeuten."
-  - "Buttons als Navigation zu missbrauchen."
-  - "Beschriftungen wie „Hier klicken“ ohne Kontext zu schreiben."
-keyTakeaways:
-  - "Die sichtbare Bedeutung und die technische Struktur müssen zusammenpassen."
-  - "Robuste Weboberflächen entstehen durch kleine, bewusst geprüfte Entscheidungen."
-  - "Ein gutes Review fragt nach Nutzbarkeit, Semantik, Layout und Wartbarkeit."
-recognizeSignals:
-  - "Es geht um HTML- oder CSS-Entscheidungen, die nicht nur optisch wirken."
-  - "Eine Aufgabe fragt nach Bedienbarkeit, Lesbarkeit oder semantischer Zuordnung."
-  - "Der Code funktioniert scheinbar, aber die Nutzererfahrung ist noch unsicher."
-selfCheckPoints:
-  - "Kann ich die Entscheidung ohne Fachjargon erklären?"
-  - "Passt der sichtbare Text zur technischen Struktur?"
-  - "Bleibt die Lösung bei kleinen Breiten und Tastaturbedienung nutzbar?"
-tags:
-  - "web development"
-  - "html"
-  - "links"
-  - "button"
-  - "semantik"
+topicPath: ["html", "linktexte-und-links", "button-und-link-richtig-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
 ## Grundidee

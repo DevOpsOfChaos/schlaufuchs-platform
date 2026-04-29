@@ -3,44 +3,17 @@ title: "CSS – Font Loading und Layout Shift reduzieren"
 description: "Plane Webfonts so, dass Text früh lesbar bleibt und spätere Schriftwechsel das Layout möglichst wenig verschieben."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "performance-und-laden"
-  - "font-loading-und-layout-shift-reduzieren"
-tags:
-  - "web development"
-  - "css"
-  - "performance"
-  - "fonts"
-  - "layout shift"
-learningGoals:
-  - "Du erklärst, worum es bei „Font Loading und Layout Shift reduzieren“ fachlich geht."
-  - "Du trennst technische Umsetzung, sichtbare Rückmeldung und Nutzererwartung."
-  - "Du erkennst typische Fehlerbilder und formulierst eine robuste Alternative."
-practiceIdeas:
-  - "Übertrage die Idee auf eine kleine eigene Beispielseite."
-  - "Prüfe die Lösung einmal aus Sicht von Tastatur, Mobilgerät oder langsamem Laden."
-  - "Formuliere die technische Entscheidung in gutem Deutsch für eine andere Person."
-commonMistakes:
-  - "Nur den sichtbaren Normalfall zu betrachten."
-  - "Technische Begriffe zu verwenden, ohne den Nutzen für die Bedienung zu klären."
-  - "Fehlerfälle, leere Zustände oder Wartbarkeit zu spät mitzudenken."
-keyTakeaways:
-  - "Robuste Webentwicklung verbindet Struktur, Verhalten und Rückmeldung."
-  - "Gute Lösungen bleiben auch bei kleinen Störungen verständlich."
-  - "Saubere sichtbare Texte sind Teil der technischen Qualität."
-recognizeSignals:
-  - "Eine Oberfläche soll verständlicher, stabiler oder zugänglicher werden."
-  - "Ein technischer Baustein beeinflusst direkt die Nutzerführung."
-  - "Du musst zwischen schneller Lösung und dauerhaft wartbarer Lösung abwägen."
-selfCheckPoints:
-  - "Kann ich die Entscheidung ohne Fachnebel erklären?"
-  - "Bleibt die Seite bei Fehlern oder Sonderfällen verständlich?"
-  - "Sind Code, sichtbarer Text und Verhalten konsistent?"
+topicPath: ["css", "performance-und-laden", "font-loading-und-layout-shift-reduzieren"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Schöne Schriften helfen wenig, wenn Text unsichtbar bleibt oder die Seite beim Nachladen springt. Font Loading ist deshalb auch eine Frage von Nutzererfahrung.

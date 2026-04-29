@@ -1,28 +1,17 @@
 ---
 title: "Flattern am Schwellwert erkennen"
 description: "Erkläre, warum ein Ausgang bei verrauschtem Signal ständig wechseln kann."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Daten und Signale"
-topicPath:
-  - daten-und-signale
-  - hysterese-und-schaltpunkte
-taskId: ET-V182-021
-tags:
-  - elektrotechnik
-  - hysterese-und-schaltpunkte
-  - sanierung-v182
-hintPoints:
-  - "Lies zuerst den Normalzustand und danach den Fehlerfall."
-  - "Trenne Beobachtung, Vermutung und Gegenprobe."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["daten-und-signale", "hysterese-und-schaltpunkte", "flattern-am-schwellwert-erkennen"]
+taskId: "ET-V182-021"
+tags: ["elektrotechnik", "Daten und Signale", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **Hysterese und Schaltpunkte** ruhig und schrittweise.

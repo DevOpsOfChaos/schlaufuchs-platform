@@ -1,36 +1,19 @@
 ---
 title: "Steckbrett und Prototyping"
 description: "Allgemeiner Überblick über Steckbretter, Prototypen und typische Grenzen beim schnellen Aufbau von Schaltungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Grundlagen"
-topicPath:
-  - "steckbrett-und-prototyping"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Steckbrett und Prototyping als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["steckbrett-und-prototyping", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird angenommen, der Steckbrettaufbau sei automatisch identisch mit dem Schaltplan."
-keyTakeaways:
-  - "Steckbretter sind gut für schnelle Lern- und Testaufbauten."
-  - "Der physische Aufbau beeinflusst reale Schaltungen."
-  - "Nicht jede Schaltung eignet sich dauerhaft für ein Steckbrett."
-recognizeSignals:
-  - "Es geht um Steckbrett und Prototyping als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Steckbrett und Prototyping in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "steckbrett"
-  - "prototyping"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Grundlagen"]
 draft: false
 ---
-
 # Steckbrett und Prototyping
 
 Ein Steckbrett ist ein Hilfsmittel, um elektronische Schaltungen ohne Löten aufzubauen. Bauteile und Drahtbrücken werden in Kontaktreihen gesteckt, die intern leitend verbunden sind. Dadurch lassen sich Ideen schnell ausprobieren, Messpunkte zugänglich halten und Fehler im Aufbau korrigieren.

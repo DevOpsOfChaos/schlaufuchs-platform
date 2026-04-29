@@ -3,33 +3,15 @@ title: "Aufgabe – Sensorwert vor Schwellwert glätten"
 description: "Übe sensorwert vor schwellwert glätten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "sensoren-und-aktoren"
-  - "sensorwert-vor-schwellwert-glaetten"
+topicPath: ["daten-und-signale", "sensoren-und-aktoren", "sensorwert-vor-schwellwert-glaetten"]
 taskId: "v112-elektrotechnik-sensorwert-vor-schwellwert-glaetten"
-tags:
-  - "elektrotechnik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-signale"
-  - "sensorwert-vor-schwellwert-glaetten"
-hintPoints:
-  - "Benenne zuerst das kleine Unterthema."
-  - "Prüfe bewusst den Unterschied zum Fehler: Ein einziger Schwellenwert wird als ausreichend stabil angenommen."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Einordnung enger als nur der breite Fachbereich?"
-  - "Wird der typische Fehler ausdrücklich ausgeschlossen?"
-  - "Passt die Lösung zur Wissensseite?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Begriff und prüfe, ob die gleiche Strategie gilt."
-  - "Erkläre die Lösung einmal alltagssprachlich und danach fachlich sauber."
-reflectionPrompt: "Was war bei „Sensorwert vor Schwellwert glätten“ die wichtigste Trennkante?"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation:

@@ -3,22 +3,12 @@ title: "Lösung: Umgebung im Job prüfen"
 description: "Musterlösung zur Aufgabe „Umgebung im Job prüfen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "automation-und-skripte"
-  - "cron-und-systemd-timer"
-  - "umgebung-im-job-pruefen-v116"
+topicPath: ["automation-und-skripte", "cron-und-systemd-timer", "umgebung-im-job-pruefen-v116"]
 taskId: "umgebung-im-job-pruefen-v116"
 relatedExercise: "linux/automation-und-skripte/cron-und-systemd-timer/umgebung-im-job-pruefen-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "cron und systemd timer"
-  - "umgebung im job pruefen"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

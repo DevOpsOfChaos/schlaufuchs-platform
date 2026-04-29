@@ -3,23 +3,12 @@ title: "Lösung: Browser und DevTools: Prüfung und Verbesserung"
 description: "Musterlösung zur Aufgabe web-v187-018b im Web-Development-Block v187."
 subject: "web-development"
 section: "werkzeuge"
-topicPath: 
-  - "werkzeuge-und-projektarbeit"
-  - "browser-devtools"
-  - "loesung-b"
+topicPath: ["sanierung-v187", "browser-und-devtools-aufgabe-b"]
 taskId: "web-v187-018b"
 relatedExercise: "web-development/sanierung-v187/browser-und-devtools-aufgabe-b"
-tags: 
-  - "browser"
-  - "devtools"
-  - "debugging"
-  - "werkzeuge"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "werkzeuge", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-018b`
 
     Ausgangsauftrag: Beschreibe einen Debugging-Ablauf für eine Seite, deren Bild nicht lädt.

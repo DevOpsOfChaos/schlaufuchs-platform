@@ -3,23 +3,12 @@ title: "Lösung – Listening Port und Firewallregel unterscheiden"
 description: "Musterlösung zu Portdiagnose mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "netzwerk-und-ssh"
-  - "verbindungen-und-diagnose"
-  - "ports"
-  - "listening-port-und-firewallregel-unterscheiden"
+topicPath: ["netzwerk-und-ssh", "verbindungen-und-diagnose", "ports", "listening-port-und-firewallregel-unterscheiden"]
 taskId: "v111-linux-listening-port-und-firewallregel-unterscheiden"
 relatedExercise: "linux/netzwerk-und-ssh/verbindungen-und-diagnose/ports/listening-port-und-firewallregel-unterscheiden"
-tags:
-  - "linux"
-  - "betrieb"
-  - "unterthema"
-  - "netzwerk-und-ssh"
-  - "verbindungen-und-diagnose"
-  - "listening-port-und-firewallregel-unterscheiden"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Portdiagnose**.

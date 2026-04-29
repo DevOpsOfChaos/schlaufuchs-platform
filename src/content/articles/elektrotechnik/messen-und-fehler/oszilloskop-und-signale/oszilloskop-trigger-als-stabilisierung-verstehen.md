@@ -3,46 +3,17 @@ title: "Elektrotechnik – Oszilloskop-Trigger als Stabilisierung verstehen"
 description: "Lerne, warum ein Trigger kein Messwert ist, sondern die Darstellung eines wiederkehrenden Signals ruhig macht."
 subject: "elektrotechnik"
 section: "Messen"
-topicPath:
-  - "messen-und-fehler"
-  - "oszilloskop-und-signale"
-  - "oszilloskop-trigger-als-stabilisierung-verstehen"
-learningGoals:
-  - "Du erklärst die Kernidee von „Oszilloskop“ in eigenen Worten."
-  - "Du ordnest das Thema einem klaren Unterthema zu statt es in einem Sammelbereich zu verlieren."
-  - "Du leitest eine kleine Gegenprobe für echte Aufgaben oder Projekte ab."
-practiceIdeas:
-  - "Markiere zuerst, welche Unterfrage wirklich gestellt ist."
-  - "Notiere eine typische Fehlannahme und eine passende Gegenprobe."
-  - "Übertrage die Denkbewegung auf ein zweites kleines Beispiel."
-commonMistakes:
-  - "Trigger als Fehlerfilter sehen"
-  - "Pegel außerhalb des Signals setzen"
-  - "Zeitbasis und Trigger vermischen"
-keyTakeaways:
-  - "Oszilloskop wird klarer, wenn Zustand, Ursache und Prüfschritt getrennt werden."
-  - "Kleine Unterthemen sind leichter auffindbar und besser prüfbar als breite Sammelordner."
-  - "Eine gute Erklärung endet mit einer konkreten Gegenprobe."
-recognizeSignals:
-  - "Die Aufgabe enthält einen scheinbar kleinen Sonderfall oder Fehlerzustand."
-  - "Es muss zwischen Begriffen unterschieden werden, die im Alltag leicht vermischt werden."
-  - "Eine Entscheidung soll begründet und nicht nur auswendig angewendet werden."
-selfCheckPoints:
-  - "Kann ich das Unterthema mit einem Satz von Nachbarthemen abgrenzen?"
-  - "Kann ich einen typischen Fehler benennen?"
-  - "Kann ich eine konkrete Prüfung oder Rechnung anschließen?"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "mikrocontroller"
-  - "signale"
-  - "oszilloskop"
-  - "messen-und-fehler"
-  - "oszilloskop-und-signale"
+topicPath: ["messen-und-fehler", "oszilloskop-und-signale", "oszilloskop-trigger-als-stabilisierung-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["elektrotechnik", "Messen"]
 draft: false
 ---
-
 ## Grundidee
 
 Ohne passenden Trigger läuft ein Signal scheinbar über den Bildschirm. Der Trigger legt fest, bei welchem Ereignis die Darstellung beginnt. Dadurch wird ein periodisches Signal vergleichbar.

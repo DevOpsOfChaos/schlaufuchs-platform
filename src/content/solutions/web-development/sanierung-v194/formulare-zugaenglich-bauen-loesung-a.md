@@ -3,25 +3,12 @@ title: "Lösung: Formulare zugänglich bauen: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-development-v194-008a im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "formulare-und-feedback"
-  - "formulare-zugaenglich-bauen"
-  - "loesung-a"
-
+topicPath: ["sanierung-v194", "formulare-zugaenglich-bauen-loesung-a"]
 taskId: "web-development-v194-008a"
 relatedExercise: "web-development/sanierung-v194/formulare-zugaenglich-bauen-aufgabe-a"
-tags:
-  - "formulare"
-  - "zugaenglich"
-  - "bauen"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-008a`
 
 Ausgangsauftrag: Verbessere ein Kontaktformular mit Labels, Hilfetexten und Fehlermeldungen.

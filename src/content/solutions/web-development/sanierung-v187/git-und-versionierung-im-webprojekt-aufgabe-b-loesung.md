@@ -3,23 +3,12 @@ title: "Lösung: Git und Versionierung im Webprojekt: Prüfung und Verbesserung"
 description: "Musterlösung zur Aufgabe web-v187-029b im Web-Development-Block v187."
 subject: "web-development"
 section: "werkzeuge"
-topicPath: 
-  - "werkzeuge-und-projektarbeit"
-  - "git-versionierung"
-  - "loesung-b"
+topicPath: ["sanierung-v187", "git-und-versionierung-im-webprojekt-aufgabe-b"]
 taskId: "web-v187-029b"
 relatedExercise: "web-development/sanierung-v187/git-und-versionierung-im-webprojekt-aufgabe-b"
-tags: 
-  - "git"
-  - "versionierung"
-  - "projektarbeit"
-  - "web"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "werkzeuge", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-029b`
 
     Ausgangsauftrag: Formuliere bessere Commitnachrichten für fünf unklare Webänderungen.

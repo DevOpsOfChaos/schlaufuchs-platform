@@ -3,35 +3,15 @@ title: "Aufgabe – ADC-Wert nur mit Referenzspannung deuten"
 description: "Übe ADC-Referenzspannung mit einem kleinen Szenario, Prüfschritt und Gegenprobe."
 subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "daten-und-signale"
-  - "analog-digital-wandlung"
-  - "adc-referenz"
-  - "adc-wert-nur-mit-referenzspannung-deuten"
+topicPath: ["daten-und-signale", "analog-digital-wandlung", "adc-referenz", "adc-wert-nur-mit-referenzspannung-deuten"]
 taskId: "v109-elektrotechnik-adc-wert-nur-mit-referenzspannung-deuten"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "daten-und-signale"
-  - "analog-digital-wandlung"
-  - "adc-referenzspannung"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Übertrage den Prüfschritt auf ein Nachbarthema und nenne den Unterschied."
-reflectionPrompt: "Welche kleine Trennkante macht ADC-Referenzspannung übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["elektrotechnik", "Mikrocontroller", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **ADC-Referenzspannung**.

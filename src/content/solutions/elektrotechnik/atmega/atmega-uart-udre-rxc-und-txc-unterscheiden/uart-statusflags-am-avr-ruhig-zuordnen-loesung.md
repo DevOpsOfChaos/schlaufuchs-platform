@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – UART-Statusflags am AVR ruhig zuordnen
-description: Musterlösung zur Aufgabe ET-ATMEGA-UART-207.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-kommunikation
-  - atmega-uart-udre-rxc-und-txc-unterscheiden
-  - uart-statusflags-am-avr-ruhig-zuordnen-loesung
-taskId: ET-ATMEGA-UART-207
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-uart-udre-rxc-und-txc-unterscheiden/uart-statusflags-am-avr-ruhig-zuordnen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - uart
-  - loesung
+title: "Musterlösung – UART-Statusflags am AVR ruhig zuordnen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-UART-207."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-uart-udre-rxc-und-txc-unterscheiden", "uart-statusflags-am-avr-ruhig-zuordnen"]
+taskId: "ET-ATMEGA-UART-207"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-uart-udre-rxc-und-txc-unterscheiden/uart-statusflags-am-avr-ruhig-zuordnen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 - **UDRE** → „Darf ich ein neues Byte in das Datenregister schreiben?“

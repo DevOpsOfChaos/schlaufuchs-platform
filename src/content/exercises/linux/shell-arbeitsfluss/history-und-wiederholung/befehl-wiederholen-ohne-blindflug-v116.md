@@ -3,34 +3,15 @@ title: "Übung: Befehl wiederholen ohne Blindflug"
 description: "Übe, „Befehl wiederholen ohne Blindflug“ als kleines Unterthema zu erkennen, zu begründen und mit einer Gegenprobe abzusichern."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "shell-arbeitsfluss"
-  - "history-und-wiederholung"
-  - "befehl-wiederholen-ohne-blindflug-v116"
+topicPath: ["shell-arbeitsfluss", "history-und-wiederholung", "befehl-wiederholen-ohne-blindflug-v116"]
 taskId: "befehl-wiederholen-ohne-blindflug-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "history und wiederholung"
-  - "befehl wiederholen ohne blindflug"
-  - "v116"
-hintPoints:
-  - "Lies zuerst nur die konkrete Unterfrage."
-  - "Markiere eine typische Fehlannahme."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Lösung fachlich begründet?"
-  - "Ist die Abgrenzung zum Nachbarthema sichtbar?"
-  - "Passt die Gegenprobe zur Aufgabe?"
-transferIdeas:
-  - "Ändere eine Bedingung und prüfe, ob deine Begründung noch trägt."
-  - "Erkläre die Lösung einmal ohne Fachwörter und danach fachlich sauber."
-reflectionPrompt: "Welche kleine Entscheidung war bei „Befehl wiederholen ohne Blindflug“ am wichtigsten?"
+tags: ["linux", "Linux vertiefen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe 1: Unterfrage erkennen
 
 Lies die Situation:

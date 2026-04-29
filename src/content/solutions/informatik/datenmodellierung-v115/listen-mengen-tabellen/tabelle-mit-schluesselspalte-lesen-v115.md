@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Tabelle mit Schlüsselspalte lesen"
 description: "Musterlösung zu Tabelle mit Schlüsselspalte lesen mit Trennkante und Gegenprobe."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenmodellierung-v115"
-  - "listen-mengen-tabellen"
-  - "tabelle-mit-schluesselspalte-lesen-v115"
+topicPath: ["datenmodellierung-v115", "listen-mengen-tabellen", "tabelle-mit-schluesselspalte-lesen-v115"]
 taskId: "informatik-tabelle-mit-schluesselspalte-lesen-v115"
 relatedExercise: "informatik/datenmodellierung-v115/listen-mengen-tabellen/tabelle-mit-schluesselspalte-lesen-v115"
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "datenmodellierung"
-  - "listen, mengen und tabellen"
-  - "lösung"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Tabelle mit Schlüsselspalte lesen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

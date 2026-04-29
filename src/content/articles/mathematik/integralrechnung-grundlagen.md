@@ -1,13 +1,19 @@
 ---
-title: Integralrechnung – Grundlagen
-description: Verstehe das Integral als Aufsummieren von Änderungen und Flächen.
-subject: mathematik
-section: analysis
-level: mittel
-tags: [integralrechnung, analysis, flaechen]
+title: "Integralrechnung – Grundlagen"
+description: "Verstehe das Integral als Aufsummieren von Änderungen und Flächen."
+subject: "mathematik"
+section: "analysis"
+topicPath: ["integralrechnung-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["integralrechnung", "analysis", "flaechen"]
 draft: false
 ---
-
 Die Integralrechnung hilft dabei, Änderungen aufzusummieren und Flächen unter Funktionsgraphen zu beschreiben. Sie ist damit ein wichtiges Gegenstück zur Differentialrechnung.
 
 ## Worum geht es beim Integral?

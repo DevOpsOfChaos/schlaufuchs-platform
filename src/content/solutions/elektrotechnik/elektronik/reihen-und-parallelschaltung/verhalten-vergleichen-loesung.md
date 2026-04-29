@@ -1,23 +1,14 @@
 ---
 title: "Lösung: Verhalten vergleichen"
 description: "Lösung zur Aufgabe über Reihen- und Parallelschaltungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektronik"
-topicPath:
-  - "elektronik"
-  - "reihen-und-parallelschaltung"
-  - "verhalten-vergleichen"
+topicPath: ["elektronik", "reihen-und-parallelschaltung", "verhalten-vergleichen"]
 taskId: "ET-EL-REIHE-PARALLEL-001"
 relatedExercise: "src/content/exercises/elektrotechnik/elektronik/reihen-und-parallelschaltung/verhalten-vergleichen.md"
-tags:
-  - "elektrotechnik"
-  - "reihe"
-  - "parallel"
-  - "strom"
-  - "spannung"
+tags: ["elektrotechnik", "Elektronik", "loesung"]
 draft: false
 ---
-
 ## Lösungsgedanke
 
 Diese Lösung ist bewusst als Musterlösung aufgebaut. Sie zeigt nicht nur ein Ergebnis, sondern die fachliche Begründung, damit die Aufgabe später nachvollziehbar kontrolliert werden kann.

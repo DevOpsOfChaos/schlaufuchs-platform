@@ -3,34 +3,15 @@ title: "Übung: Einheitenketten sauber kürzen"
 description: "Übe, „Einheitenketten sauber kürzen“ als kleines Unterthema zu erkennen, zu begründen und mit einer Gegenprobe abzusichern."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "rechenstrategien-und-kontrolle"
-  - "einheiten-und-groessencheck"
-  - "einheitenketten-sauber-kuerzen-v116"
+topicPath: ["rechenstrategien-und-kontrolle", "einheiten-und-groessencheck", "einheitenketten-sauber-kuerzen-v116"]
 taskId: "einheitenketten-sauber-kuerzen-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "einheiten und groessencheck"
-  - "einheitenketten sauber kuerzen"
-  - "v116"
-hintPoints:
-  - "Lies zuerst nur die konkrete Unterfrage."
-  - "Markiere eine typische Fehlannahme."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Lösung fachlich begründet?"
-  - "Ist die Abgrenzung zum Nachbarthema sichtbar?"
-  - "Passt die Gegenprobe zur Aufgabe?"
-transferIdeas:
-  - "Ändere eine Bedingung und prüfe, ob deine Begründung noch trägt."
-  - "Erkläre die Lösung einmal ohne Fachwörter und danach fachlich sauber."
-reflectionPrompt: "Welche kleine Entscheidung war bei „Einheitenketten sauber kürzen“ am wichtigsten?"
+tags: ["mathematik", "Mathematik vertiefen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe 1: Unterfrage erkennen
 
 Lies die Situation:

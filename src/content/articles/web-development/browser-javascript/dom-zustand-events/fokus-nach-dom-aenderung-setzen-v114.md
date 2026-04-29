@@ -1,46 +1,19 @@
 ---
-title: Fokus nach DOM-Änderung setzen
-description: Tastaturführung bei dynamischer UI erhalten
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- browser-javascript
-- dom-zustand-events
-- fokus-nach-dom-aenderung-setzen-v114
-learningGoals:
-- Du erklärst Fokus nach DOM-Änderung setzen als klar abgegrenztes Unterthema.
-- Du erkennst die typische Verwechslung und formulierst eine passende Prüffrage.
-- Du nutzt eine Gegenprobe, statt dich nur auf den Kapitelbegriff zu verlassen.
-practiceIdeas:
-- Wende die Prüffrage auf ein zweites Beispiel an.
-- Notiere zuerst Kontext, Entscheidung und Gegenprobe.
-- Grenze das Thema bewusst von einem Nachbarthema ab.
-commonMistakes:
-- Die Seite ändert sich, aber Fokus bleibt unklar.
-- Das Thema wird zu breit einsortiert und verliert dadurch seine konkrete Trennkante.
-- Eine Lösung wird akzeptiert, ohne eine Gegenprobe zu prüfen.
-keyTakeaways:
-- Fokus nach DOM-Änderung setzen wird verständlich, wenn du die kleine Entscheidung im Beispiel sauber benennst.
-- Die Prüffrage hilft stärker als ein breiter Sammelbegriff.
-- Aufgaben bleiben übersichtlich, wenn das Unterthema eng geführt wird.
-recognizeSignals:
-- Eine Aufgabe enthält eine typische Verwechslung.
-- Ein Begriff wirkt bekannt, aber der konkrete Prüfschritt fehlt.
-- Die Lösung muss begründen, warum ein Nachbarthema nicht passt.
-selfCheckPoints:
-- Kann ich die Trennkante in einem Satz nennen?
-- Kann ich die Prüffrage auf das Beispiel anwenden?
-- Kann ich eine sinnvolle Gegenprobe formulieren?
-tags:
-- web-development
-- v114
-- feinstruktur
-- browser-javascript
-- dom-zustand-events
-level: einfach
+title: "Fokus nach DOM-Änderung setzen"
+description: "Tastaturführung bei dynamischer UI erhalten"
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["browser-javascript", "dom-zustand-events", "fokus-nach-dom-aenderung-setzen-v114"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Feinstruktur Web Development"]
 draft: false
 ---
-
 ## Grundidee
 
 **Fokus nach DOM-Änderung setzen** ist bewusst als kleines Unterthema angelegt. Tastaturführung bei dynamischer UI erhalten. Dadurch bleibt die Seite auffindbar und vermischt sich nicht mit einem übergroßen Sammelkapitel.

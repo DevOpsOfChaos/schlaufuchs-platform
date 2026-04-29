@@ -1,16 +1,19 @@
 ---
 title: "Lineare Funktionen"
 description: "Geraden, Steigung und y-Achsenabschnitt als erste funktionale Grundidee."
-subject: mathematik
+subject: "mathematik"
 section: "Funktionen / Linear"
-level: einfach
-tags:
-  - Funktionen
-  - Linear
-  - Graph
+topicPath: ["funktionen", "linear", "lineare-funktionen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Funktionen / Linear"]
 draft: false
 ---
-
 ## Grundidee
 
 Lineare Funktionen beschreiben **gleichmäßige Veränderungen**.

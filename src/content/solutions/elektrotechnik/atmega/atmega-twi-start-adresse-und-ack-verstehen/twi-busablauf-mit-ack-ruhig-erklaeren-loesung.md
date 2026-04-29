@@ -1,24 +1,14 @@
 ---
-title: Musterlösung – TWI-Busablauf mit ACK ruhig erklären
-description: Musterlösung zur Aufgabe ET-ATMEGA-TWI-303.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-schnittstellen-und-busse
-  - atmega-twi-start-adresse-und-ack-verstehen
-  - twi-busablauf-mit-ack-ruhig-erklaeren-loesung
-taskId: ET-ATMEGA-TWI-303
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-twi-start-adresse-und-ack-verstehen/twi-busablauf-mit-ack-ruhig-erklaeren.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - twi
-  - loesung
+title: "Musterlösung – TWI-Busablauf mit ACK ruhig erklären"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-TWI-303."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-twi-start-adresse-und-ack-verstehen", "twi-busablauf-mit-ack-ruhig-erklaeren"]
+taskId: "ET-ATMEGA-TWI-303"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-twi-start-adresse-und-ack-verstehen/twi-busablauf-mit-ack-ruhig-erklaeren.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Die Reihenfolge ist sinnvoll, weil der Zugriff zuerst sichtbar beginnen muss, bevor überhaupt ein Gerät gemeint sein kann. Danach wird durch die Adresse klar, welche Gegenstelle angesprochen wird. Erst das ACK zeigt, ob diese Gegenstelle den Schritt wirklich angenommen hat. So wird Kommunikation als geordneter Busablauf statt als lose Bytefolge lesbar.

@@ -1,32 +1,17 @@
 ---
 title: "Audit Logging"
 description: "Lexikonartiger Überblick über revisionsrelevante Protokollierung von Aktionen."
-subject: informatik
+subject: "informatik"
 section: "Betrieb"
-topicPath:
-  - "audit-logging"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Audit Logging als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Identität, Zeitpunkt, Aktion."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["audit-logging", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Normale Debug-Logs automatisch als ausreichende Audit-Spur zu betrachten."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Audit Logging beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Nachvollziehbarkeit von Aktionen."
-  - "Wichtige Hinweise liefern vor allem Identität, Zeitpunkt, Aktion."
-recognizeSignals:
-  - "Es geht um nachvollziehbarkeit von aktionen, identität oder zeitpunkt."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Audit Logging erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "informatik"
-  - "logs"
-  - "sicherheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Betrieb"]
 draft: false
 ---
 # Audit Logging

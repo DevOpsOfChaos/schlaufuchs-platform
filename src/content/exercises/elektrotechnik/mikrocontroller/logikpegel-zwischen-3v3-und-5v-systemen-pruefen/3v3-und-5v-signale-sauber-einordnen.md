@@ -1,31 +1,17 @@
 ---
-title: 3,3-V- und 5-V-Signale sauber einordnen
-description: Prüfe an kleinen Mikrocontroller-Fällen, ob digitale Verbindungen zwischen 3,3-V- und 5-V-Systemen fachlich sauber sind.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - logikpegel-zwischen-3v3-und-5v-systemen-pruefen
-  - 3v3-und-5v-signale-sauber-einordnen
-taskId: ELE-MCU-GEN-109
-level: mittel
+title: "3,3-V- und 5-V-Signale sauber einordnen"
+description: "Prüfe an kleinen Mikrocontroller-Fällen, ob digitale Verbindungen zwischen 3,3-V- und 5-V-Systemen fachlich sauber sind."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "logikpegel-zwischen-3v3-und-5v-systemen-pruefen", "3v3-und-5v-signale-sauber-einordnen"]
+taskId: "ELE-MCU-GEN-109"
+tags: ["elektrotechnik", "mikrocontroller", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - aufgabe
-hintPoints:
-  - Formuliere zuerst die technische Hauptfrage des Falls.
-  - Trenne Ursache, Wirkung und passende Maßnahme ruhig voneinander.
-selfCheckPoints:
-  - Hast du die elektrische und die logische Ebene nicht vermischt?
-  - Ist deine Begründung mehr als nur ein Schlagwort?
-transferIdeas:
-  - Übertrage die Denklogik auf einen ähnlichen Embedded-Fall mit Sensor, Aktor oder Kommunikation.
-reflectionPrompt: "Welche der beiden Fragen würdest du heute zuerst prüfen: „Wird HIGH erkannt?“ oder „Ist die Eingangsspannung zulässig?“"
 ---
-
 ## Aufgabe 1
 
 Beschreibe die Grundidee des Themas in 3 bis 5 Sätzen so, dass klar wird, **welche technische Hauptfrage** gelöst werden soll.

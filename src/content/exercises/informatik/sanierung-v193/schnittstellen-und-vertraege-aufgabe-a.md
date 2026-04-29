@@ -3,35 +3,15 @@ title: "Schnittstellen und Verträge: Aufgabe A"
 description: "Beschreibe den Vertrag einer Funktion zum Einlesen einer Datei."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "qualitaet-und-wartbarkeit"
-  - "schnittstellen-und-vertraege"
-  - "aufgabe-a"
+topicPath: ["sanierung-v193", "schnittstellen-und-vertraege-aufgabe-a"]
 taskId: "informatik-v193-005a"
-tags:
-  - "schnittstellen"
-  - "vertraege"
-  - "informatik"
-  - "softwarequalitaet"
-  - "aufgabe"
-  - "v193"
-hintPoints:
-  - "Beschreibe zuerst das erwartete Verhalten."
-  - "Nenne mindestens eine beteiligte Datenstruktur, Schnittstelle oder Zustandsänderung."
-  - "Formuliere einen kleinen Kontrollpunkt oder Test."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Schnittstellen und Verträge."
-  - "Erwartung und tatsächliche Beobachtung werden getrennt."
-  - "Der Prüfweg ist klein genug, um ihn direkt nachzuvollziehen."
-transferIdeas:
-  - "Übertrage den Prüfweg auf ein anderes Modul oder eine zweite Eingabe."
-  - "Notiere, welche Annahme du durch einen Test absichern würdest."
-reflectionPrompt: "Welche Annahme wäre am gefährlichsten, wenn sie still falsch bleibt?"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Beschreibe den Vertrag einer Funktion zum Einlesen einer Datei.

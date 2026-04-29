@@ -1,35 +1,17 @@
 ---
 title: "Bidirektionale Pegelwandler"
 description: "Überblick über bidirektionale Pegelwandler für digitale Signale zwischen unterschiedlichen Versorgungsspannungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schnittstellen"
-topicPath:
-  - "bidirektionale-pegelwandler"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Bidirektionale Pegelwandler als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["bidirektionale-pegelwandler", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Viele Fehler entstehen, wenn ein I²C-Pegelwandler ungeprüft für SPI-Signale eingesetzt wird. Die elektrischen Betriebsarten unterscheiden sich."
-keyTakeaways:
-  - "Bidirektionale Pegelwandler erlauben Signale in beide Richtungen zwischen Schaltungen mit unterschiedlichen Logikspannungen."
-  - "Sie schützen Eingänge und sorgen dafür, dass High- und Low-Pegel von beiden Seiten sicher erkannt werden."
-  - "Ein einfacher Spannungsteiler ist für bidirektionale oder schnelle Signale meist ungeeignet."
-recognizeSignals:
-  - "Es geht um Bidirektionale Pegelwandler, wenn für Open-Drain-Busse wie I²C werden andere Konzepte genutzt als für schnelle Push-Pull-Signale."
-  - "Das Thema wird relevant, wenn Beispiele wie ein 3,3-V-Mikrocontroller kann über einen passenden Pegelwandler mit einem 5-V-I²C-Modul kommunizieren."
-selfCheckPoints:
-  - "Kann ich Bidirektionale Pegelwandler in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "pegelwandler"
-  - "schnittstellen"
-  - "i2c"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Schnittstellen"]
 draft: false
 ---
 # Bidirektionale Pegelwandler

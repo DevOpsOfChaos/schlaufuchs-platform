@@ -1,34 +1,19 @@
 ---
 title: "Fehlergrenzen im UI"
 description: "Überblick über Bereiche einer Oberfläche, die Fehler abfangen, eingrenzen und verständlich darstellen."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "fehlergrenzen-im-ui"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["fehlergrenzen-im-ui", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Jeden UI-Fehler als vollständigen Seitenabbruch zu behandeln."
-keyTakeaways:
-  - "Fehlergrenzen machen Oberflächen widerstandsfähiger und halten Fehler für Nutzer verständlich."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn einzelne Komponenten Daten laden, externe APIs nutzen oder unabhängig ausfallen können."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "web development"
-  - "ui"
-  - "robustheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # Fehlergrenzen im UI
 
 Fehlergrenzen im UI sind konzeptionelle Bereiche, in denen Fehler abgefangen und kontrolliert angezeigt werden. Sie verhindern, dass ein einzelner Fehler die gesamte Oberfläche unverständlich macht.

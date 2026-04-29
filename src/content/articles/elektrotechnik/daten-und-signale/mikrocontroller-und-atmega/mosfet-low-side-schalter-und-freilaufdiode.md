@@ -3,44 +3,15 @@ title: "Mikrocontroller – MOSFET-Low-Side-Schalter und Freilaufdiode verstehen
 description: "Verstehe, warum Motoren, Relais und größere Lasten nicht direkt am Mikrocontroller-Pin hängen und wie ein Low-Side-Schalter den Pin entlastet."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "mosfet-low-side-schalter-und-freilaufdiode"
-learningGoals:
-  - "Du erklärst den MOSFET als Schalter zwischen Last und Masse."
-  - "Du unterscheidest Signalstrom am Gate und Laststrom durch Motor oder Relais."
-  - "Du begründest, warum induktive Lasten eine Freilaufdiode brauchen."
-practiceIdeas:
-  - "Skizziere Steuerpfad und Lastpfad getrennt."
-  - "Prüfe, ob Lastversorgung und Controller eine gemeinsame Masse haben."
-  - "Vergleiche LED, Relais und Motor nach Strombedarf."
-commonMistakes:
-  - "Den Motorstrom direkt aus dem GPIO ziehen zu wollen."
-  - "Gate-Signal und Laststrom zu vermischen."
-  - "Die Freilaufdiode bei einer Spule zu vergessen."
-keyTakeaways:
-  - "Der GPIO steuert nur das Gate."
-  - "Der MOSFET trägt den größeren Laststrom."
-  - "Die Freilaufdiode schützt beim Abschalten induktiver Lasten."
-recognizeSignals:
-  - "Relais, Motor, Magnetventil oder größere Last tauchen auf."
-  - "Ein Pin soll mehr Strom liefern als plausibel ist."
-  - "Beim Abschalten treten Reset-Probleme auf."
-selfCheckPoints:
-  - "Kann ich Steuerpfad und Lastpfad zeigen?"
-  - "Kann ich die Freilaufdiode begründen?"
-  - "Kann ich gemeinsame Masse erklären?"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "mosfet-low-side-schalter-und-freilaufdiode"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "atmega"
-  - "mosfet"
-  - "transistor"
-  - "freilaufdiode"
-  - "relais"
-  - "motor"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
 Ein Mikrocontroller-Pin ist ein Steuersignal, keine Leistungsquelle. Sobald Motor, Relais oder Magnetventil ins Spiel kommen, braucht die Last einen eigenen Strompfad und der Controller nur noch eine kontrollierte Schaltaufgabe.

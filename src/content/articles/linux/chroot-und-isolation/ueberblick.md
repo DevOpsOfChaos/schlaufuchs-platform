@@ -3,32 +3,17 @@ title: "chroot und einfache Isolation"
 description: "Allgemeiner Überblick über chroot, isolierte Dateisystemansichten und ihre Grenzen."
 subject: "linux"
 section: "Isolation"
-topicPath:
-  - "chroot-und-isolation"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["chroot-und-isolation", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird chroot als starke Sandbox verstanden. Ohne weitere Schutzmaßnahmen kann es für privilegierte Prozesse umgehbar sein."
-keyTakeaways:
-  - "chroot verändert die Sicht auf das Dateisystem. Es ist nützlich, aber keine vollständige Sicherheitsgrenze."
-  - "chroot ist keine vollständige Sicherheitsisolation wie ein gut konfigurierter Container oder eine virtuelle Maschine. Es ist eher eine Dateisystemgrenze."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "linux"
-  - "chroot"
-  - "isolation"
-  - "dateisystem"
+tags: ["linux", "Isolation"]
 draft: false
 ---
-
 # chroot und einfache Isolation
 
 ![Schaubild zu chroot und Isolation.](/schlaufuchs-platform/images/overviews/v150/chroot-und-isolation.svg)

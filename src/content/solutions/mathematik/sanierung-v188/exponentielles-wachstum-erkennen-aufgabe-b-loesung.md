@@ -3,22 +3,12 @@ title: "Lösung: Exponentielles Wachstum erkennen: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-020b."
 subject: "mathematik"
 section: "funktionen-im-vergleich"
-topicPath:
-  - "funktionen-im-vergleich"
-  - "exponentielles-wachstum-erkennen"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "exponentielles-wachstum-erkennen-aufgabe-b"]
 taskId: "mat-v188-020b"
 relatedExercise: "mathematik/sanierung-v188/exponentielles-wachstum-erkennen-aufgabe-b"
-tags:
-  - "exponential"
-  - "wachstum"
-  - "faktor"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "funktionen-im-vergleich", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-020b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

@@ -3,22 +3,12 @@ title: "Lösung: Quadratische Funktionen abgrenzen: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-018b."
 subject: "mathematik"
 section: "funktionen-im-vergleich"
-topicPath:
-  - "funktionen-im-vergleich"
-  - "linear-und-quadratisch-trennen"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "quadratische-funktionen-abgrenzen-aufgabe-b"]
 taskId: "mat-v188-018b"
 relatedExercise: "mathematik/sanierung-v188/quadratische-funktionen-abgrenzen-aufgabe-b"
-tags:
-  - "funktionen"
-  - "quadratisch"
-  - "parabel"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "funktionen-im-vergleich", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-018b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

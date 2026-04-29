@@ -1,32 +1,17 @@
 ---
 title: "HTTP/2 und HTTP/3"
 description: "Allgemeiner Überblick über moderne HTTP-Versionen, Multiplexing und Verbindungsaufbau."
-subject: web-development
+subject: "web-development"
 section: "Protokolle"
-topicPath:
-  - "http2-und-http3"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst HTTP/2 und HTTP/3 als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Multiplexing, Header-Kompression, TLS."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["http2-und-http3", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "HTTP/2 oder HTTP/3 als automatische Lösung für jedes Performanceproblem zu sehen."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "HTTP/2 und HTTP/3 beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Transport moderner Webseiten."
-  - "Wichtige Hinweise liefern vor allem Multiplexing, Header-Kompression, TLS."
-recognizeSignals:
-  - "Es geht um transport moderner webseiten, multiplexing oder header-kompression."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck HTTP/2 und HTTP/3 erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "web-development"
-  - "http"
-  - "netzwerk"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Protokolle"]
 draft: false
 ---
 # HTTP/2 und HTTP/3

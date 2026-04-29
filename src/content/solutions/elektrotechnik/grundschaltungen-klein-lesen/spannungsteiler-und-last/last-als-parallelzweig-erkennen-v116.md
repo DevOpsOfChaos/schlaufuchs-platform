@@ -3,22 +3,12 @@ title: "Lösung: Last als Parallelzweig erkennen"
 description: "Musterlösung zur Aufgabe „Last als Parallelzweig erkennen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "grundschaltungen-klein-lesen"
-  - "spannungsteiler-und-last"
-  - "last-als-parallelzweig-erkennen-v116"
+topicPath: ["grundschaltungen-klein-lesen", "spannungsteiler-und-last", "last-als-parallelzweig-erkennen-v116"]
 taskId: "last-als-parallelzweig-erkennen-v116"
 relatedExercise: "elektrotechnik/grundschaltungen-klein-lesen/spannungsteiler-und-last/last-als-parallelzweig-erkennen-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "spannungsteiler und last"
-  - "last als parallelzweig erkennen"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

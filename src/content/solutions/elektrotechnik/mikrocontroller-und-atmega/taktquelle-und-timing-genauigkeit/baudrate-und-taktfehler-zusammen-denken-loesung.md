@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Baudrate und Taktfehler zusammen denken"
 description: "Musterlösung zur Aufgabe: Baudrate und Taktfehler zusammen denken."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - mikrocontroller-und-atmega
-  - taktquelle-und-timing-genauigkeit
-taskId: ET-V182-012
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/taktquelle-und-timing-genauigkeit/baudrate-und-taktfehler-zusammen-denken.md
-tags:
-  - elektrotechnik
-  - taktquelle-und-timing-genauigkeit
-  - loesung
-  - sanierung-v182
+topicPath: ["mikrocontroller-und-atmega", "taktquelle-und-timing-genauigkeit", "baudrate-und-taktfehler-zusammen-denken"]
+taskId: "ET-V182-012"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/taktquelle-und-timing-genauigkeit/baudrate-und-taktfehler-zusammen-denken.md"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

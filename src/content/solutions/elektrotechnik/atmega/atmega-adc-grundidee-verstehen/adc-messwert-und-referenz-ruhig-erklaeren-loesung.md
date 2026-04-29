@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – ADC-Messwert und Referenz ruhig erklären
-description: Musterlösung zur Aufgabe ET-ATMEGA-ADC-206.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - analoge-eingaenge
-  - atmega-adc-grundidee-verstehen
-  - adc-messwert-und-referenz-ruhig-erklaeren-loesung
-taskId: ET-ATMEGA-ADC-206
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-adc-grundidee-verstehen/adc-messwert-und-referenz-ruhig-erklaeren.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - loesung
+title: "Musterlösung – ADC-Messwert und Referenz ruhig erklären"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-ADC-206."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-adc-grundidee-verstehen", "adc-messwert-und-referenz-ruhig-erklaeren"]
+taskId: "ET-ATMEGA-ADC-206"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-adc-grundidee-verstehen/adc-messwert-und-referenz-ruhig-erklaeren.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Der AVR kann eine analoge Spannung nicht direkt als fortlaufende physikalische Größe weiterverarbeiten. Deshalb übersetzt der ADC die Eingangsspannung in einen digitalen Zahlenwert. Dieser Wert macht die analoge Situation für den Mikrocontroller berechenbar und vergleichbar.

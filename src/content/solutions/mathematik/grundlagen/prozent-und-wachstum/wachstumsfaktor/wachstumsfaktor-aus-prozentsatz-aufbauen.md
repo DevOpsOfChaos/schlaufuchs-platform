@@ -3,23 +3,12 @@ title: "Lösung – Wachstumsfaktor aus Prozentsatz aufbauen"
 description: "Musterlösung zu Wachstumsfaktor mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Grundlagen"
-topicPath:
-  - "grundlagen"
-  - "prozent-und-wachstum"
-  - "wachstumsfaktor"
-  - "wachstumsfaktor-aus-prozentsatz-aufbauen"
+topicPath: ["grundlagen", "prozent-und-wachstum", "wachstumsfaktor", "wachstumsfaktor-aus-prozentsatz-aufbauen"]
 taskId: "v108-mathematik-wachstumsfaktor-aus-prozentsatz-aufbauen"
 relatedExercise: "mathematik/grundlagen/prozent-und-wachstum/wachstumsfaktor/wachstumsfaktor-aus-prozentsatz-aufbauen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfen"
-  - "grundlagen"
-  - "prozent-und-wachstum"
-  - "wachstumsfaktor"
+tags: ["mathematik", "Grundlagen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **Wachstumsfaktor**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

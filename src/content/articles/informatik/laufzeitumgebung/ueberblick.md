@@ -1,33 +1,19 @@
 ---
 title: "Laufzeitumgebung"
 description: "Eine Laufzeitumgebung stellt bereit, was ein Programm während der Ausführung braucht. Dazu gehören Speicherverwaltung, Bibliotheken, Systemzugriffe und Ausführungsmodell."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "laufzeitumgebung"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Laufzeitumgebung."
-  - "Du kannst Laufzeitumgebung in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["laufzeitumgebung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Fehler der Umgebung als Fehler im Algorithmus zu behandeln."
-keyTakeaways:
-  - "Eine Laufzeitumgebung stellt bereit, was ein Programm während der Ausführung braucht."
-  - "Wichtig sind vor allem interpreter, vm oder native umgebung, bibliotheken und systemaufrufe und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Laufzeitumgebung, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Laufzeitumgebung dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "informatik"
-  - "grundlagen"
-  - "laufzeitumgebung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Laufzeitumgebung
 
 Eine Laufzeitumgebung stellt bereit, was ein Programm während der Ausführung braucht. Dazu gehören Speicherverwaltung, Bibliotheken, Systemzugriffe und Ausführungsmodell. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

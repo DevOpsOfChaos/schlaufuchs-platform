@@ -3,25 +3,12 @@ title: "Lösung: Bilder für Web optimieren: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-development-v194-024b im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "performance-und-medien"
-  - "bilder-fuer-web-optimieren"
-  - "loesung-b"
-
+topicPath: ["sanierung-v194", "bilder-fuer-web-optimieren-loesung-b"]
 taskId: "web-development-v194-024b"
 relatedExercise: "web-development/sanierung-v194/bilder-fuer-web-optimieren-aufgabe-b"
-tags:
-  - "bilder"
-  - "web"
-  - "optimieren"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-024b`
 
 Ausgangsauftrag: Übertrage das Thema Bilder für Web optimieren auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

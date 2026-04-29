@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Nebenläufigkeit und geteilte Zustände – Anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über Nebenläufigkeit und geteilte Zustände."
-subject: informatik
+subject: "informatik"
 section: "programmierpraxis-und-tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "nebenlaeufigkeit-und-geteilte-zustaende"
-taskId: INF-NEBENLAEUFIGKEIT-UND-GETEILTE-ZUSTAENDE-842
-relatedExercise: src/content/exercises/informatik/programmierpraxis-und-tests/nebenlaeufigkeit-und-geteilte-zustaende/nebenlaeufigkeit-und-geteilte-zustaende-anwenden-und-pruefen-v184.md
-tags:
-  - "informatik"
-  - "nebenlaeufigkeit"
-  - "zustand"
-  - "loesung"
+topicPath: ["programmierpraxis-und-tests", "nebenlaeufigkeit-und-geteilte-zustaende", "nebenlaeufigkeit-und-geteilte-zustaende-anwenden-und-pruefen-v184"]
+taskId: "INF-NEBENLAEUFIGKEIT-UND-GETEILTE-ZUSTAENDE-842"
+relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/nebenlaeufigkeit-und-geteilte-zustaende/nebenlaeufigkeit-und-geteilte-zustaende-anwenden-und-pruefen-v184.md"
+tags: ["informatik", "programmierpraxis-und-tests", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

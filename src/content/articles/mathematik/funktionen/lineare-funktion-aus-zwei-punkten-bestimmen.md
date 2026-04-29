@@ -1,44 +1,19 @@
 ---
-title: Lineare Funktion aus zwei Punkten bestimmen
-description: Verstehe, wie aus zwei gegebenen Punkten zuerst die Steigung und danach die vollständige lineare Funktionsgleichung bestimmt werden kann.
-subject: mathematik
-section: Funktionen
-topicPath:
-  - funktionen
-  - lineare-funktion-aus-zwei-punkten-bestimmen
-learningGoals:
-  - Du erklärst, wie die Steigung aus zwei Punkten bestimmt wird.
-  - Du beschreibst, wie daraus eine lineare Funktion Schritt für Schritt aufgebaut wird.
-  - Du liest zwei Punkte eher als Information über Veränderung und Startlage statt als lose Zahlenpaare.
-practiceIdeas:
-  - Bestimme aus zwei Punkten zuerst den Zuwachs und danach den Startwert.
-  - Vergleiche einen ruhigen Rechenweg mit einem Weg, der Steigung und Einsetzen vermischt.
-  - Prüfe am Ende mit beiden Punkten, ob die gefundene Funktion wirklich passt.
-commonMistakes:
-  - x- und y-Änderung zu verwechseln.
-  - die Steigung zu berechnen, aber den Startwert nicht sauber nachzuziehen.
-  - nur einen der beiden Punkte zu prüfen.
-keyTakeaways:
-  - Zwei Punkte reichen aus, um bei einer linearen Funktion Steigung und Lage festzulegen.
-  - Erst die Änderungsrate, dann der Startwert ist oft die ruhigste Strategie.
-  - Die Probe mit beiden Punkten zeigt, ob die gefundene Funktion wirklich passt.
-recognizeSignals:
-  - Es sind zwei Punkte gegeben und eine lineare Gleichung wird gesucht.
-  - Du sollst nicht nur zeichnen, sondern den Zusammenhang rechnerisch aufbauen.
-  - In Beispielen ist die Änderungslogik wichtiger als schnelles Einsetzen.
-selfCheckPoints:
-  - Kann ich aus zwei Punkten die Steigung bestimmen?
-  - Kann ich danach den Startwert sauber finden?
-  - Kann ich die fertige Funktion mit beiden Punkten prüfen?
-tags:
-  - mathematik
-  - funktionen
-  - steigung
-  - zwei-punkte
-level: mittel
+title: "Lineare Funktion aus zwei Punkten bestimmen"
+description: "Verstehe, wie aus zwei gegebenen Punkten zuerst die Steigung und danach die vollständige lineare Funktionsgleichung bestimmt werden kann."
+subject: "mathematik"
+section: "Funktionen"
+topicPath: ["funktionen", "lineare-funktion-aus-zwei-punkten-bestimmen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
-
 ## Grundidee
 
 Wenn zwei Punkte einer linearen Funktion bekannt sind, ist der Zusammenhang bereits stark festgelegt. Aus diesen beiden Punkten lässt sich zuerst die **Steigung** und danach der **Startwert** bestimmen. So entsteht Schritt für Schritt die Funktionsgleichung.

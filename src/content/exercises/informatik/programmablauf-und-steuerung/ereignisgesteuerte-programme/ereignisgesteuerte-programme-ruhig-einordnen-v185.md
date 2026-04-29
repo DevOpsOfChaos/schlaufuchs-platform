@@ -1,29 +1,17 @@
 ---
 title: "Ereignisgesteuerte Programme – ruhig einordnen"
 description: "Übe, ereignisgesteuerte programme fachlich zu erklären und abzugrenzen."
-subject: informatik
+subject: "informatik"
 section: "Programmablauf und Steuerung"
-topicPath:
-  - "programmablauf-und-steuerung"
-  - "ereignisgesteuerte-programme"
-  - "uebung"
-taskId: INF-V185-004-1
-tags:
-  - "informatik"
-  - "programmablauf-und-steuerung"
-  - "ereignisgesteuerte-programme"
-hintPoints:
-  - "Beginne mit der Grundidee, nicht mit einem Spezialfall."
-  - "Trenne Begriff, Beispiel und Prüfung."
-selfCheckPoints:
-  - "Ich kann das Thema in eigenen Worten erklären."
-  - "Ich kann ein passendes Beispiel begründen."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel in einem anderen Fachbereich."
-level: einfach
+topicPath: ["programmablauf-und-steuerung", "ereignisgesteuerte-programme", "ereignisgesteuerte-programme-ruhig-einordnen-v185"]
+taskId: "INF-V185-004-1"
+tags: ["informatik", "Programmablauf und Steuerung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe prüft, ob du **Ereignisgesteuerte Programme** zuerst als allgemeines Thema und nicht nur als Einzelfall lesen kannst.
 
 ## Lernziel

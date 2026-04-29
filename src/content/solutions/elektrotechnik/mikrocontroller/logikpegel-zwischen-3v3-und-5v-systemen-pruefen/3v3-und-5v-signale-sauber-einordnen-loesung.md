@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – 3,3-V- und 5-V-Signale sauber einordnen
-description: Musterlösung zur Aufgabe ELE-MCU-GEN-109.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - logikpegel-zwischen-3v3-und-5v-systemen-pruefen
-  - 3v3-und-5v-signale-sauber-einordnen-loesung
-taskId: ELE-MCU-GEN-109
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller/logikpegel-zwischen-3v3-und-5v-systemen-pruefen/3v3-und-5v-signale-sauber-einordnen.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - loesung
-  - task-id
+title: "Musterlösung – 3,3-V- und 5-V-Signale sauber einordnen"
+description: "Musterlösung zur Aufgabe ELE-MCU-GEN-109."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "logikpegel-zwischen-3v3-und-5v-systemen-pruefen", "3v3-und-5v-signale-sauber-einordnen"]
+taskId: "ELE-MCU-GEN-109"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller/logikpegel-zwischen-3v3-und-5v-systemen-pruefen/3v3-und-5v-signale-sauber-einordnen.md"
+tags: ["elektrotechnik", "mikrocontroller", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Die Hauptfrage ist hier, ob zwei digitale Systeme mit unterschiedlicher Versorgung **logisch kompatibel** und **elektrisch zulässig** verbunden sind. HIGH und LOW sind keine abstrakten Wahrheiten, sondern hängen an Schwellen und Grenzwerten. Deshalb müssen Erkennung und Verträglichkeit getrennt geprüft werden.

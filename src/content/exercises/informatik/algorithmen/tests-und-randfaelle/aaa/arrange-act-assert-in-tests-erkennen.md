@@ -3,35 +3,15 @@ title: "Aufgabe – Arrange, Act, Assert in Tests erkennen"
 description: "Übe Arrange, Act, Assert mit einem kleinen Szenario, Prüfschritt und Gegenprobe."
 subject: "informatik"
 section: "Qualität"
-topicPath:
-  - "algorithmen"
-  - "tests-und-randfaelle"
-  - "aaa"
-  - "arrange-act-assert-in-tests-erkennen"
+topicPath: ["algorithmen", "tests-und-randfaelle", "aaa", "arrange-act-assert-in-tests-erkennen"]
 taskId: "v109-informatik-arrange-act-assert-in-tests-erkennen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "algorithmen"
-  - "tests-und-randfaelle"
-  - "arrange, act, assert"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Übertrage den Prüfschritt auf ein Nachbarthema und nenne den Unterschied."
-reflectionPrompt: "Welche kleine Trennkante macht Arrange, Act, Assert übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["informatik", "Qualität", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Arrange, Act, Assert**.

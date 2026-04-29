@@ -3,21 +3,12 @@ title: "Lösung – details und summary für Zusatzinformationen nutzen"
 description: "Musterlösung zu: Formuliere drei summary-Texte für Zusatzinformationen in einem Formular. Einer soll bewusst verworfen werden, weil er zu unklar ist."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "navigation-und-menues"
-  - "details-summary-fuer-zusatzinformationen-nutzen"
+topicPath: ["html", "navigation-und-menues", "details-summary-fuer-zusatzinformationen-nutzen"]
 taskId: "wd-v97-details-summary-fuer-zusatzinformationen-nutzen"
 relatedExercise: "web-development/html/navigation-und-menues/details-summary-fuer-zusatzinformationen-nutzen"
-tags:
-  - "web development"
-  - "html"
-  - "details"
-  - "summary"
-  - "ux"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Das Problem entsteht nicht nur im Code, sondern in der Nutzung: Wenn Bedeutung, Struktur oder Rückmeldung unklar bleiben, müssen Nutzerinnen und Nutzer raten. Besonders kritisch wird das bei Tastaturbedienung, kleinen Bildschirmen, langen Inhalten oder assistiven Technologien.

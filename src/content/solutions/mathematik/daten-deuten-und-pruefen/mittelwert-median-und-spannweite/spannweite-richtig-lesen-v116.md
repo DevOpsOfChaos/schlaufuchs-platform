@@ -3,22 +3,12 @@ title: "Lösung: Spannweite richtig lesen"
 description: "Musterlösung zur Aufgabe „Spannweite richtig lesen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "daten-deuten-und-pruefen"
-  - "mittelwert-median-und-spannweite"
-  - "spannweite-richtig-lesen-v116"
+topicPath: ["daten-deuten-und-pruefen", "mittelwert-median-und-spannweite", "spannweite-richtig-lesen-v116"]
 taskId: "spannweite-richtig-lesen-v116"
 relatedExercise: "mathematik/daten-deuten-und-pruefen/mittelwert-median-und-spannweite/spannweite-richtig-lesen-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "mittelwert median und spannweite"
-  - "spannweite richtig lesen"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

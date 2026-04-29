@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Fehlerzustand sichtbar und lesbar machen"
 description: "Musterlösung zu Fehlerzustand sichtbar und lesbar machen mit Trennkante und Gegenprobe."
-subject: web-development
+subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "frontend-semantik-v115"
-  - "zustaende-und-feedback"
-  - "fehlerzustand-sichtbar-und-lesbar-machen-v115"
+topicPath: ["frontend-semantik-v115", "zustaende-und-feedback", "fehlerzustand-sichtbar-und-lesbar-machen-v115"]
 taskId: "web-development-fehlerzustand-sichtbar-und-lesbar-machen-v115"
 relatedExercise: "web-development/frontend-semantik-v115/zustaende-und-feedback/fehlerzustand-sichtbar-und-lesbar-machen-v115"
-tags:
-  - "web development"
-  - "feinstruktur"
-  - "unterthema"
-  - "frontend-semantik"
-  - "zustände und feedback"
-  - "lösung"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Fehlerzustand sichtbar und lesbar machen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

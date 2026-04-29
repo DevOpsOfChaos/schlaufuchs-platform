@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Filterwirkung und Reaktionszeit abwägen"
 description: "Musterlösung zur Aufgabe Filterwirkung und Reaktionszeit abwägen."
-subject: elektrotechnik
-section: schaltungen
-topicPath:
-  - schaltungen
-  - kondensator-rc-verhalten
-taskId: ET-V180-RC-002
-relatedExercise: src/content/exercises/elektrotechnik/schaltungen/kondensator-rc-verhalten/filterwirkung-und-reaktionszeit-abwaegen.md
-tags:
-  - elektrotechnik
-  - loesung
-  - rc
-  - filter
-  - reaktionszeit
+subject: "elektrotechnik"
+section: "schaltungen"
+topicPath: ["schaltungen", "kondensator-rc-verhalten", "filterwirkung-und-reaktionszeit-abwaegen"]
+taskId: "ET-V180-RC-002"
+relatedExercise: "src/content/exercises/elektrotechnik/schaltungen/kondensator-rc-verhalten/filterwirkung-und-reaktionszeit-abwaegen.md"
+tags: ["elektrotechnik", "schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1

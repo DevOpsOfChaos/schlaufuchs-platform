@@ -1,33 +1,17 @@
 ---
-title: Rückgaben und Nebenwirkungen unterscheiden
-description: Erkläre bei kleinen Funktionsbeispielen, ob ein Ergebnis zurückkommt oder nur eine Aktion ausgeführt wird.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - funktionen-und-ablauf
-  - rueckgabewert-und-void-unterscheiden
-  - rueckgaben-und-nebenwirkungen-unterscheiden
-taskId: INF-PROG-CPP-FUNC-003
-level: einfach
+title: "Rückgaben und Nebenwirkungen unterscheiden"
+description: "Erkläre bei kleinen Funktionsbeispielen, ob ein Ergebnis zurückkommt oder nur eine Aktion ausgeführt wird."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "rueckgabewert-und-void-unterscheiden", "rueckgaben-und-nebenwirkungen-unterscheiden"]
+taskId: "INF-PROG-CPP-FUNC-003"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - return
-hintPoints:
-  - "Frage zuerst: Kann das Ergebnis weitergerechnet werden?"
-  - "Eine sichtbare Ausgabe ist noch kein Rückgabewert."
-selfCheckPoints:
-  - "Wird Ausgabe nicht mit Rückgabe verwechselt?"
-  - "Ist klar, warum void trotzdem sinnvoll sein kann?"
-transferIdeas:
-  - "Übertrage die Aufgabe auf Funktionen zum Drucken, Prüfen oder Berechnen."
-reflectionPrompt: "Warum ist sichtbare Ausgabe fachlich etwas anderes als ein Rückgabewert?"
 ---
-
 ## Aufgabe 1: Funktionen ordnen
 
 Ordne diese Ideen den passenden Rollen zu:

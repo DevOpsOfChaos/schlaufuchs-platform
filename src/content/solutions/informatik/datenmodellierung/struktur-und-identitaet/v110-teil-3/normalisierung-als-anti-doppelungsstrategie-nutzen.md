@@ -3,23 +3,12 @@ title: "Lösung – Normalisierung als Anti-Doppelungsstrategie nutzen"
 description: "Musterlösung zu Normalisierung als Anti-Doppelungsstrategie nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Datenmodellierung"
-topicPath:
-  - "datenmodellierung"
-  - "struktur-und-identitaet"
-  - "v110-teil-3"
-  - "normalisierung-als-anti-doppelungsstrategie-nutzen"
+topicPath: ["datenmodellierung", "struktur-und-identitaet", "v110-teil-3", "normalisierung-als-anti-doppelungsstrategie-nutzen"]
 taskId: "v110-informatik-normalisierung-als-anti-doppelungsstrategie-nutzen"
 relatedExercise: "informatik/datenmodellierung/struktur-und-identitaet/v110-teil-3/normalisierung-als-anti-doppelungsstrategie-nutzen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "praxis"
-  - "datenmodellierung"
-  - "struktur-und-identitaet"
-  - "normalisierung-als-anti-doppelungsstrategie-nutzen"
+tags: ["informatik", "Datenmodellierung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Normalisierung als Anti-Doppelungsstrategie nutzen**.

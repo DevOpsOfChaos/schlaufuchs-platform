@@ -1,42 +1,19 @@
 ---
 title: "Grundlagen: ADC und Sensorwerte"
 description: "Allgemeiner Überblick darüber, wie Mikrocontroller analoge Sensorspannungen als digitale Werte auswerten."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - mikrocontroller-und-atmega
-  - adc-und-sensorwerte
-  - ueberblick
-learningGoals:
-  - "Du erklärst die Grundidee des Themas allgemein und ohne Spezialfall-Abhängigkeit."
-  - "Du ordnest typische Begriffe und Teilaspekte fachlich sauber ein."
-  - "Du erkennst, welche Detailseiten oder Aufgaben danach sinnvoll anschließen."
-practiceIdeas:
-  - "Lies die Überblicksseite und formuliere danach die drei wichtigsten Begriffe in eigenen Worten."
-  - "Ordne eine Beispielaufgabe dem passenden Teilaspekt des Themas zu."
-commonMistakes:
-  - "Einen einzelnen Spezialfall für die ganze Themenlogik zu halten."
-  - "Begriffe aus Schaltung, Messung und Programmcode zu vermischen."
-  - "Direkt mit Rechnungen oder Code zu beginnen, bevor der Zusammenhang klar ist."
-keyTakeaways:
-  - "Die Seite gibt zuerst Orientierung, bevor Detailfälle oder Aufgaben bearbeitet werden."
-  - "Wichtige Begriffe werden getrennt und danach wieder in Zusammenhang gesetzt."
-  - "Gute Einordnung verhindert typische Fehlannahmen beim Weiterlernen."
-recognizeSignals:
-  - "Du suchst eine allgemeine Einordnung statt einer einzelnen Problemsituation."
-  - "Mehrere Detailseiten wirken ähnlich und brauchen einen gemeinsamen Rahmen."
-selfCheckPoints:
-  - "Kann ich das Thema in zwei bis drei Sätzen allgemein erklären?"
-  - "Kann ich zentrale Begriffe voneinander unterscheiden?"
-level: einfach
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - adc
-  - sensorwerte
+topicPath: ["mikrocontroller-und-atmega", "adc-und-sensorwerte", "ueberblick", "grundlagen-adc-und-sensorwerte"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-
 ## Begriff
 
 Ein **ADC** wandelt eine analoge Spannung in einen digitalen Zahlenwert um. Für Mikrocontroller ist das wichtig, weil viele Sensoren keine fertigen Zahlen liefern, sondern eine Spannung, die erst gemessen und eingeordnet werden muss.

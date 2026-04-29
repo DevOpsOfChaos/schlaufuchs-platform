@@ -3,38 +3,17 @@ title: "DOM und Interaktion"
 description: "Verstehe den DOM als arbeitende Dokumentstruktur, die JavaScript lesen und verändern kann."
 subject: "web-development"
 section: "javascript"
-topicPath: 
-  - "javascript-und-interaktion"
-  - "dom"
-learningGoals: 
-  - "Elemente finden und verändern ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Beschreibe, welche DOM-Elemente ein Skript für ein Akkordeon finden und verändern muss."
-  - "Plane eine kleine Klassenumschaltung für eine Hinweisbox mit offenem und geschlossenem Zustand."
-commonMistakes: 
-  - "Selektoren passen nicht zur tatsächlichen Struktur."
-  - "Inhalte werden ohne Zustand überschrieben."
-  - "DOM-Änderungen ersetzen fehlende HTML-Grundstruktur."
-keyTakeaways: 
-  - "DOM-Arbeit ist sauber, wenn Auswahl, Änderung und gewünschter Effekt klar trennbar sind."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "DOM-Arbeit ist sauber, wenn Auswahl, Änderung und gewünschter Effekt klar trennbar sind."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "dom-und-interaktion"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags: 
-  - "dom"
-  - "javascript"
-  - "interaktion"
-  - "web-development"
+tags: ["web-development", "javascript"]
 draft: false
 ---
-
 ![Didaktische Skizze zu DOM und Interaktion](/schlaufuchs-platform/images/web-development/sanierung-v187/dom-und-interaktion.svg)
 
     DOM und Interaktion ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

@@ -1,23 +1,14 @@
 ---
 title: "Lösung: Messgrößen sauber zuordnen"
 description: "Lösung zur Aufgabe über Messgrößen, Einheiten und passende Messgeräte."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Daten und Signale"
-topicPath:
-  - "daten-und-signale"
-  - "messgeraete-und-messgroessen"
-  - "messgroessen-sauber-zuordnen"
+topicPath: ["daten-und-signale", "messgeraete-und-messgroessen", "messgroessen-sauber-zuordnen"]
 taskId: "ET-DS-MESS-001"
 relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/messgeraete-und-messgroessen/messgroessen-sauber-zuordnen.md"
-tags:
-  - "elektrotechnik"
-  - "spannung"
-  - "strom"
-  - "widerstand"
-  - "messbereich"
+tags: ["elektrotechnik", "Daten und Signale", "loesung"]
 draft: false
 ---
-
 ## Lösungsgedanke
 
 Diese Lösung ist bewusst als Musterlösung aufgebaut. Sie zeigt nicht nur ein Ergebnis, sondern die fachliche Begründung, damit die Aufgabe später nachvollziehbar kontrolliert werden kann.

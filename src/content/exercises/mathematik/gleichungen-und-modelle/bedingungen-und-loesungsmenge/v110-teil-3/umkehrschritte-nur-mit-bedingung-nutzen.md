@@ -3,35 +3,15 @@ title: "Aufgabe – Umkehrschritte nur mit Bedingung nutzen"
 description: "Übe Umkehrschritte nur mit Bedingung nutzen mit Einordnung, Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Algebra"
-topicPath:
-  - "gleichungen-und-modelle"
-  - "bedingungen-und-loesungsmenge"
-  - "v110-teil-3"
-  - "umkehrschritte-nur-mit-bedingung-nutzen"
+topicPath: ["gleichungen-und-modelle", "bedingungen-und-loesungsmenge", "v110-teil-3", "umkehrschritte-nur-mit-bedingung-nutzen"]
 taskId: "v110-mathematik-umkehrschritte-nur-mit-bedingung-nutzen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfung"
-  - "gleichungen-und-modelle"
-  - "bedingungen-und-loesungsmenge"
-  - "umkehrschritte-nur-mit-bedingung-nutzen"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Vergleiche das Thema mit einem Nachbarthema und nenne die Trennkante."
-reflectionPrompt: "Welche kleine Trennkante macht Umkehrschritte nur mit Bedingung nutzen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["mathematik", "Algebra", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Umkehrschritte nur mit Bedingung nutzen**.

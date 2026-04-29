@@ -1,44 +1,19 @@
 ---
-title: Pipes und Umleitungen
-description: Verstehe, wie Befehle Daten weitergeben oder in Dateien umleiten, statt jeden Schritt isoliert auszuführen.
-subject: linux
-section: Shell
-topicPath:
-  - shell
-  - pipes-und-umleitungen
-tags:
-  - linux
-  - shell
-  - pipes
-  - redirection
-learningGoals:
-  - "Du verstehst den Unterschied zwischen Pipe und Umleitung."
-  - "Du liest einfache Befehlsketten mit |, > und >> fachlich sauber."
-  - "Du erkennst, wann Ausgaben weiterverarbeitet und wann sie gespeichert werden sollen."
-practiceIdeas:
-  - "Vergleiche denselben Befehl einmal mit Ausgabe im Terminal und einmal mit Umleitung in eine Datei."
-  - "Lies kleine Befehlsketten immer von links nach rechts."
-  - "Prüfe bewusst, ob ein Schritt Daten weitergibt oder nur speichert."
-commonMistakes:
-  - "Pipe und Umleitung gleichzusetzen."
-  - "Zu übersehen, dass > vorhandene Inhalte überschreiben kann."
-  - "Befehlsketten als magische Kurzform zu benutzen, ohne den Datenfluss zu verstehen."
-keyTakeaways:
-  - "Eine Pipe verbindet die Ausgabe eines Befehls mit der Eingabe des nächsten."
-  - "> leitet Ausgabe in eine Datei um, >> hängt an eine Datei an."
-  - "Der Datenfluss ist bei Shell-Befehlen oft wichtiger als der einzelne Befehl."
-recognizeSignals:
-  - "Es geht um |, >, >> oder um die Frage, wohin Befehlsausgaben gehen."
-  - "Du sollst erklären, wie mehrere Befehle zusammenarbeiten."
-  - "Ein Beispiel fragt, ob etwas gespeichert, weitergeleitet oder direkt angezeigt wird."
-selfCheckPoints:
-  - "Kann ich Pipe und Umleitung sauber unterscheiden?"
-  - "Kann ich erklären, was in einer kleinen Befehlszeile zuerst und danach passiert?"
-  - "Kann ich den Effekt von > und >> richtig einordnen?"
-level: einfach
+title: "Pipes und Umleitungen"
+description: "Verstehe, wie Befehle Daten weitergeben oder in Dateien umleiten, statt jeden Schritt isoliert auszuführen."
+subject: "linux"
+section: "Shell"
+topicPath: ["shell", "pipes-und-umleitungen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
-
 ## Warum dieses Thema in der Shell zentral ist
 
 Die Shell wird stark, wenn Befehle nicht nur einzeln nebeneinander stehen, sondern Datenflüsse bilden. Pipes und Umleitungen sind genau dafür da.

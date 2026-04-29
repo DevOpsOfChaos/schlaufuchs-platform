@@ -3,20 +3,12 @@ title: "Lösung – Repository als Quelle verstehen"
 description: "Musterlösung zu Repository als Quelle verstehen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "paketverwaltung"
-  - "repository-als-quelle-verstehen-v113"
+topicPath: ["shell", "paketverwaltung", "repository-als-quelle-verstehen-v113"]
 taskId: "v113-linux-repository-als-quelle-verstehen-v113"
 relatedExercise: "linux/shell/paketverwaltung/repository-als-quelle-verstehen-v113"
-tags:
-  - "linux"
-  - "strukturcheck"
-  - "unterthema"
-  - "repository-als-quelle-verstehen-v113"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Repository als Quelle verstehen**.

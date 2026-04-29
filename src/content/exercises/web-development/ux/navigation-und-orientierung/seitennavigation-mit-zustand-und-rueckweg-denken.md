@@ -3,35 +3,15 @@ title: "Aufgabe – Seitennavigation mit Zustand und Rückweg denken"
 description: "Übe das Unterthema „Orientierung“ mit einem kleinen, prüfbaren Szenario."
 subject: "web-development"
 section: "UX"
-topicPath:
-  - "ux"
-  - "navigation-und-orientierung"
-  - "seitennavigation-mit-zustand-und-rueckweg-denken"
+topicPath: ["ux", "navigation-und-orientierung", "seitennavigation-mit-zustand-und-rueckweg-denken"]
 taskId: "v106-web-development-seitennavigation-mit-zustand-und-rueckweg-denken"
-tags:
-  - "web development"
-  - "html"
-  - "css"
-  - "javascript"
-  - "ux"
-  - "orientierung"
-  - "navigation-und-orientierung"
-hintPoints:
-  - "Beginne mit der konkreten Situation, nicht mit einer allgemeinen Regel."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Habe ich das passende Unterthema erkannt?"
-  - "Ist meine Begründung fachlich und sprachlich klar?"
-  - "Würde meine Gegenprobe einen typischen Fehler finden?"
-transferIdeas:
-  - "Ändere einen Randwert und prüfe, ob deine Begründung noch gilt."
-  - "Erkläre die Lösung einmal für Einsteigerinnen und danach fachlich genauer."
-reflectionPrompt: "Welche Abgrenzung macht „Orientierung“ für dich klarer als ein breites Sammelthema?"
+tags: ["web-development", "UX", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Du bekommst ein kleines Szenario zum Unterthema **Orientierung**.

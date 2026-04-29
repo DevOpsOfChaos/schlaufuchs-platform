@@ -3,23 +3,12 @@ title: "Lösung – SIGTERM und SIGKILL unterscheiden"
 description: "Musterlösung zu Prozesssignale mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "systembetrieb"
-  - "prozesse-dienste-logs"
-  - "signale"
-  - "sigterm-und-sigkill-unterscheiden"
+topicPath: ["systembetrieb", "prozesse-dienste-logs", "signale", "sigterm-und-sigkill-unterscheiden"]
 taskId: "v111-linux-sigterm-und-sigkill-unterscheiden"
 relatedExercise: "linux/systembetrieb/prozesse-dienste-logs/signale/sigterm-und-sigkill-unterscheiden"
-tags:
-  - "linux"
-  - "betrieb"
-  - "unterthema"
-  - "systembetrieb"
-  - "prozesse-dienste-logs"
-  - "sigterm-und-sigkill-unterscheiden"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Prozesssignale**.

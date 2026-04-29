@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Anteil von Anteil berechnen"
 description: "Musterlösung zu Anteil von Anteil berechnen mit Trennkante und Gegenprobe."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "zahlenstrategien-v115"
-  - "brueche-und-anteile"
-  - "anteil-von-anteil-berechnen-v115"
+topicPath: ["zahlenstrategien-v115", "brueche-und-anteile", "anteil-von-anteil-berechnen-v115"]
 taskId: "mathematik-anteil-von-anteil-berechnen-v115"
 relatedExercise: "mathematik/zahlenstrategien-v115/brueche-und-anteile/anteil-von-anteil-berechnen-v115"
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "zahlenstrategien"
-  - "brüche und anteile"
-  - "lösung"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Anteil von Anteil berechnen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

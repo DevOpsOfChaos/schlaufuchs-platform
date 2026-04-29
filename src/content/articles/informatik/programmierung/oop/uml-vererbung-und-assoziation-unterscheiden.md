@@ -1,46 +1,19 @@
 ---
-title: UML-Vererbung und Assoziation unterscheiden
-description: Verstehe, wann in UML eher eine ist-ein-Beziehung und wann eher eine hat-ein- oder benutzt-ein-Beziehung vorliegt.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - uml-vererbung-und-assoziation-unterscheiden
-learningGoals:
-  - Du unterscheidest Vererbung und Assoziation in UML fachlich sauber.
-  - Du uebersetzt Beziehungen in ruhige Sprachmuster wie ist-ein und hat-ein.
-  - Du liest einfache UML-Diagramme sicherer.
-practiceIdeas:
-  - Formuliere zu Beziehungen in Worten, ob eher ist-ein oder hat-ein passt.
-  - Pruefe in Beispielen, ob Wiederverwendung oder Objektbeziehung gemeint ist.
-  - Lies ein UML-Diagramm erst sprachlich und dann grafisch.
-commonMistakes:
-  - Jede Verbindung vorschnell als Vererbung zu deuten.
-  - Benutzung und Spezialisierung zu verwechseln.
-  - Pfeile zu sehen, ohne die fachliche Aussage zu benennen.
-keyTakeaways:
-  - Vererbung beschreibt Spezialisierung auf Klassenebene.
-  - Assoziation beschreibt Beziehungen zwischen Objekten oder Klassenrollen.
-  - Sprachmuster helfen beim Deuten von UML staerker als Symbolraten.
-recognizeSignals:
-  - Es geht um UML-Linien zwischen Klassen.
-  - Aussagen wie ist-ein, hat-ein oder benutzt-ein tauchen auf.
-  - Du sollst Beziehungen begruenden statt nur Namen nennen.
-selfCheckPoints:
-  - Kann ich ist-ein und hat-ein sauber unterscheiden?
-  - Kann ich sagen, ob die Aussage eher Spezialisierung oder Nutzung beschreibt?
-  - Kann ich die UML-Linie in Worte uebersetzen?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - uml
-  - beziehungen
+title: "UML-Vererbung und Assoziation unterscheiden"
+description: "Verstehe, wann in UML eher eine ist-ein-Beziehung und wann eher eine hat-ein- oder benutzt-ein-Beziehung vorliegt."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "uml-vererbung-und-assoziation-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 In UML sehen Beziehungen schnell aehnlich aus. Fachlich steckt aber etwas sehr Unterschiedliches dahinter. Die wichtigste erste Trennung ist: **Vererbung** oder **Assoziation**?

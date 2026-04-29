@@ -3,23 +3,12 @@ title: "Lösung: Messgeräte richtig anschließen: Aufgabe A"
 description: "Musterlösung zur Aufgabe etech-v191-008a im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "messpraxis"
-  - "messgeraete-richtig-anschliessen"
-  - "loesung-a"
+topicPath: ["sanierung-v191", "messgeraete-richtig-anschliessen-aufgabe-a"]
 taskId: "etech-v191-008a"
 relatedExercise: "elektrotechnik/sanierung-v191/messgeraete-richtig-anschliessen-aufgabe-a"
-tags:
-  - "messpraxis"
-  - "messgeraete"
-  - "schaltung"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-008a`
 
 Ausgangsauftrag: Entscheide, wie Multimeter für Spannungs- und Strommessung angeschlossen werden.

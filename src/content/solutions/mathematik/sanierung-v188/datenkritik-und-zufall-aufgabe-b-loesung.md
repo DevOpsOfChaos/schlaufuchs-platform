@@ -3,22 +3,12 @@ title: "Lösung: Datenkritik und Zufall: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-050b."
 subject: "mathematik"
 section: "daten-und-wahrscheinlichkeit"
-topicPath:
-  - "daten-und-wahrscheinlichkeit"
-  - "datenkritik-und-zufall"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "datenkritik-und-zufall-aufgabe-b"]
 taskId: "mat-v188-050b"
 relatedExercise: "mathematik/sanierung-v188/datenkritik-und-zufall-aufgabe-b"
-tags:
-  - "datenkritik"
-  - "zufall"
-  - "stichprobe"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "daten-und-wahrscheinlichkeit", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-050b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

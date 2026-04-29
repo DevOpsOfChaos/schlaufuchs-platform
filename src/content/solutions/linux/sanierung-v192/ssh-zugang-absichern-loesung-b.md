@@ -3,26 +3,12 @@ title: "Lösung: SSH-Zugang absichern: Aufgabe B"
 description: "Musterlösung zur Aufgabe linux-v192-018b im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "netzwerk-und-zugriff"
-  - "ssh-zugang-absichern"
-  - "loesung-b"
+topicPath: ["sanierung-v192", "ssh-zugang-absichern-loesung-b"]
 taskId: "linux-v192-018b"
 relatedExercise: "linux/sanierung-v192/ssh-zugang-absichern-aufgabe-b"
-tags:
-  - "netzwerk-und-zugriff"
-  - "ssh"
-  - "zugang"
-  - "absichern"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-018b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „SSH-Zugang absichern“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

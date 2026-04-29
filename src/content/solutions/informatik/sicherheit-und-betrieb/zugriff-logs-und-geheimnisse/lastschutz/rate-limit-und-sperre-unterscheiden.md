@@ -3,23 +3,12 @@ title: "Lösung – Rate Limit und Sperre unterscheiden"
 description: "Musterlösung zu Missbrauchsschutz mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "sicherheit-und-betrieb"
-  - "zugriff-logs-und-geheimnisse"
-  - "lastschutz"
-  - "rate-limit-und-sperre-unterscheiden"
+topicPath: ["sicherheit-und-betrieb", "zugriff-logs-und-geheimnisse", "lastschutz", "rate-limit-und-sperre-unterscheiden"]
 taskId: "v111-informatik-rate-limit-und-sperre-unterscheiden"
 relatedExercise: "informatik/sicherheit-und-betrieb/zugriff-logs-und-geheimnisse/lastschutz/rate-limit-und-sperre-unterscheiden"
-tags:
-  - "informatik"
-  - "struktur"
-  - "unterthema"
-  - "sicherheit-und-betrieb"
-  - "zugriff-logs-und-geheimnisse"
-  - "rate-limit-und-sperre-unterscheiden"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Missbrauchsschutz**.

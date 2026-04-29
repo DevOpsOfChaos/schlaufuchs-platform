@@ -1,37 +1,19 @@
 ---
 title: "Grundlagen: Caching und Ladeverhalten"
 description: "Allgemeiner Überblick über Browser-Cache, erneute Anfragen, Ladezeit und typische Aktualisierungsprobleme im Web."
-subject: web-development
+subject: "web-development"
 section: "HTTP und Browser"
-topicPath:
-  - http-und-browser
-  - caching-und-ladeverhalten
-  - grundlagen-caching-und-ladeverhalten
-learningGoals:
-  - "Du erklärst Caching als Wiederverwendung bereits geladener Ressourcen."
-  - "Du beschreibst den Zusammenhang zwischen Cache und Ladezeit."
-  - "Du ordnest Aktualisierungsprobleme als Folge von Speicher- und Gültigkeitsregeln ein."
+topicPath: ["http-und-browser", "caching-und-ladeverhalten", "ueberblick", "grundlagen-caching-und-ladeverhalten"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Den Cache nur als Fehlerquelle zu sehen."
-  - "Jede Aktualisierung sofort im Browser zu erwarten."
-  - "Caching und dauerhafte Datenspeicherung zu verwechseln."
-keyTakeaways:
-  - "Caching kann Ladezeiten stark verkürzen."
-  - "HTTP-Header und Dateiversionen beeinflussen, wann Ressourcen neu geladen werden."
-  - "Aktualisierungsprobleme entstehen oft durch alte gecachte Dateien."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - "webentwicklung"
-  - "browser"
-  - "cache"
-  - "performance"
-  - "http"
+level: "einfach"
+tags: ["web-development", "HTTP und Browser"]
 draft: false
 ---
-
 ## Begriff
 
 **Caching** bedeutet, dass bereits geladene Ressourcen zwischengespeichert und später wiederverwendet werden. Ein Browser kann Bilder, CSS-Dateien, JavaScript-Dateien oder andere Ressourcen aus dem Cache laden, statt sie erneut vollständig vom Server anzufordern.

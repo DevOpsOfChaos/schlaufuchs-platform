@@ -1,49 +1,19 @@
 ---
 title: "ATmega – I²C und SPI richtig unterscheiden"
 description: "Vergleiche I²C und SPI als Buskonzepte und entscheide ruhiger, welche Schnittstelle zu welchem Sensor- oder Modulproblem passt."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - i2c-und-spi-richtig-unterscheiden
-learningGoals:
-  - "Du vergleichst I²C und SPI über Leitungen, Adressierung und typische Einsatzfälle."
-  - "Du erklärst, warum I²C wenige Leitungen nutzt und SPI oft klare Chip-Auswahl braucht."
-  - "Du triffst eine begründete Schnittstellenentscheidung statt nur bekannte Modulnamen zu nennen."
-practiceIdeas:
-  - "Lies zuerst den praktischen Fehlerfall und danach die technische Regel."
-  - "Skizziere den Ablauf als kleines Zeit-, Signal- oder Entscheidungsbild."
-  - "Erkläre den Unterschied einmal ohne Code und danach mit den passenden Fachbegriffen."
-commonMistakes:
-  - "I²C und SPI nur als „beides seriell“ gleichzusetzen."
-  - "Bei SPI die Chip-Select-Leitungen zu vergessen."
-  - "Bei I²C Adresskonflikte und Pull-ups nicht mitzudenken."
-keyTakeaways:
-  - "I²C nutzt typischerweise SDA und SCL sowie Adressen auf einem gemeinsamen Bus."
-  - "SPI nutzt Datenleitungen, Takt und meist eine Chip-Select-Leitung pro Baustein."
-  - "Die bessere Schnittstelle hängt von Modul, Leitungsanzahl, Geschwindigkeit und Busstruktur ab."
-recognizeSignals:
-  - "Die Aufgabe enthält Mikrocontroller-Code, Register, Sensorwerte, Zeitverhalten oder Schnittstellen."
-  - "Es wird nach Ursache, Wirkung, Diagnose oder einer besseren Struktur gefragt."
-  - "Eine reine Codeantwort reicht nicht; die elektrische oder zeitliche Bedeutung muss mitgelesen werden."
-selfCheckPoints:
-  - "Kann ich den Hauptbegriff in einem Satz fachlich sauber erklären?"
-  - "Kann ich ein typisches Fehlerbild zuordnen?"
-  - "Kann ich begründen, warum die vorgeschlagene Lösung zur Anwendung passt?"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - i2c
-  - spi
-  - schnittstellen
-  - sensoren
-level: mittel
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "i2c-und-spi-richtig-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-
-
 ## Grundidee
 
 I²C und SPI sind beides serielle Schnittstellen, aber sie lösen das Verbindungsproblem unterschiedlich. I²C spart Leitungen und arbeitet mit Adressen. SPI nutzt meist mehr Leitungen, trennt Datenrichtungen klarer und wählt Bausteine über Chip Select aus.

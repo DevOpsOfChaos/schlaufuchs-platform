@@ -3,33 +3,15 @@ title: "Nullstellen und Schnittpunkte: Grundordnung"
 description: "Ordne Nullstellen und Schnittpunkte in Zweck, Prüffragen und Fehlerquellen."
 subject: "mathematik"
 section: "funktionen-im-vergleich"
-topicPath:
-  - "funktionen-im-vergleich"
-  - "nullstellen-und-schnittpunkte"
-  - "aufgabe-a"
+topicPath: ["sanierung-v188", "nullstellen-und-schnittpunkte-aufgabe-a"]
 taskId: "mat-v188-021a"
-tags:
-  - "nullstellen"
-  - "schnittpunkte"
-  - "graphen"
-  - "mathematik"
-  - "aufgabe"
-  - "v188"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["mathematik", "funktionen-im-vergleich", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Du arbeitest am Thema **Nullstellen und Schnittpunkte**. Erstelle eine kurze, geordnete Erklärung für eine lernende Person.

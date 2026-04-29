@@ -1,16 +1,19 @@
 ---
 title: "Dateien und Ordner"
 description: "Die Grundidee von Dateien, Ordnern und einer sinnvollen Struktur im Dateisystem."
-subject: linux
+subject: "linux"
 section: "Shell / Dateien"
-level: einfach
-tags:
-  - Dateien
-  - Ordner
-  - Shell
+topicPath: ["shell", "dateien", "dateien-und-ordner"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell / Dateien"]
 draft: false
 ---
-
 ## Worum geht es?
 
 Im Dateisystem werden Inhalte in **Dateien** gespeichert und mit **Ordnern** organisiert.

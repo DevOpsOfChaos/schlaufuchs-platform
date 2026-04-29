@@ -3,23 +3,12 @@ title: "Lösung – chmod symbolisch und oktal als Zielzustand lesen"
 description: "Musterlösung zu chmod symbolisch und oktal mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Rechte"
-topicPath:
-  - "system"
-  - "rechte-und-acl"
-  - "chmod-symbolisch"
-  - "chmod-symbolisch-und-oktal-als-zielzustand-lesen"
+topicPath: ["system", "rechte-und-acl", "chmod-symbolisch", "chmod-symbolisch-und-oktal-als-zielzustand-lesen"]
 taskId: "v109-linux-chmod-symbolisch-und-oktal-als-zielzustand-lesen"
 relatedExercise: "linux/system/rechte-und-acl/chmod-symbolisch/chmod-symbolisch-und-oktal-als-zielzustand-lesen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "system"
-  - "rechte-und-acl"
-  - "chmod symbolisch und oktal"
+tags: ["linux", "Rechte", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **chmod symbolisch und oktal**.

@@ -1,34 +1,19 @@
 ---
 title: "Umkehrfunktionen"
 description: "Allgemeiner Überblick über Umkehrfunktionen und rückwärts gelesene Zuordnungen."
-subject: mathematik
+subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "umkehrfunktionen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Umkehrfunktionen als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["umkehrfunktionen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird algebraisches Umstellen mit der Existenz einer Umkehrfunktion verwechselt."
-keyTakeaways:
-  - "Umkehrfunktionen erlauben rückwärts gerichtetes Denken in Zuordnungen."
-  - "Umkehrfunktionen sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Umkehrfunktionen."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Umkehrfunktionen erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "mathematik"
-  - "funktionen"
-  - "umkehrfunktion"
-  - "gleichungen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
-
 # Umkehrfunktionen
 
 Eine Umkehrfunktion ordnet Ausgabewerten wieder ihre ursprünglichen Eingabewerte zu, sofern das eindeutig möglich ist.

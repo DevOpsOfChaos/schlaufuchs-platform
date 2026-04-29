@@ -3,24 +3,12 @@ title: "Lösung: Schleifen und Listenverarbeitung: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-v190-005b im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "kontrollfluss"
-  - "schleifen-und-listenverarbeitung"
-  - "loesung-b"
+topicPath: ["sanierung-v190", "schleifen-und-listenverarbeitung-aufgabe-b"]
 taskId: "web-v190-005b"
 relatedExercise: "web-development/sanierung-v190/schleifen-und-listenverarbeitung-aufgabe-b"
-tags:
-  - "kontrollfluss"
-  - "schleifen"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-005b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Schleifen und Listenverarbeitung“ um einen Fehlerfall, eine Abnahmebedingung und eine kurze Begründung.

@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – main als Startpunkt des Programms begründen
-description: Musterlösung zur Aufgabe INF-PROG-CPP-MAIN-001.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - erstes-programm
-  - main-funktion-und-programmstart-einordnen
-  - main-als-startpunkt-des-programms-begruenden-loesung
-taskId: INF-PROG-CPP-MAIN-001
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/main-funktion-und-programmstart-einordnen/main-als-startpunkt-des-programms-begruenden.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – main als Startpunkt des Programms begründen"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-MAIN-001."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "main-funktion-und-programmstart-einordnen", "main-als-startpunkt-des-programms-begruenden"]
+taskId: "INF-PROG-CPP-MAIN-001"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/main-funktion-und-programmstart-einordnen/main-als-startpunkt-des-programms-begruenden.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Hauptrolle erklären
 
 `main` wird im Einstiegscode als Startpunkt des Programms gelesen, weil dort der Hauptablauf sichtbar wird. In dieser Funktion stehen die Anweisungen, die das Programm nacheinander ausführt.

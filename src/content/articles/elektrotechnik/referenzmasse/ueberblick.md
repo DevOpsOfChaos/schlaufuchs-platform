@@ -1,33 +1,19 @@
 ---
 title: "Referenzmasse"
 description: "Referenzmasse ist der Bezugspunkt, gegen den Spannungen gemessen und Signale interpretiert werden. Unterschiedliche Massepunkte können zu Messfehlern und Störungen führen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik und Mikrocontroller"
-topicPath:
-  - "referenzmasse"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Referenzmasse."
-  - "Du kannst Referenzmasse in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["referenzmasse", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Jede GND-Markierung als perfekte, störungsfreie Referenz zu betrachten."
-keyTakeaways:
-  - "Referenzmasse ist der Bezugspunkt, gegen den Spannungen gemessen und Signale interpretiert werden."
-  - "Wichtig sind vor allem gemeinsamer bezugspunkt, sternpunkt und rückstrompfade und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Referenzmasse, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Referenzmasse dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "grundlagen"
-  - "referenzmasse"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik und Mikrocontroller"]
 draft: false
 ---
-
 # Referenzmasse
 
 Referenzmasse ist der Bezugspunkt, gegen den Spannungen gemessen und Signale interpretiert werden. Unterschiedliche Massepunkte können zu Messfehlern und Störungen führen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

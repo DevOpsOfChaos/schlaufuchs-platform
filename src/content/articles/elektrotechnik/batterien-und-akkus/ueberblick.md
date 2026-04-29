@@ -1,37 +1,19 @@
 ---
 title: "Batterien und Akkus"
 description: "Überblick über Batterien und Akkus als Energiequellen für elektronische Schaltungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Versorgung"
-topicPath:
-  - "batterien-und-akkus"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Batterien und Akkus als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["batterien-und-akkus", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird die Nennspannung als fester Wert behandelt."
-keyTakeaways:
-  - "Energiequellen haben elektrische und sicherheitsrelevante Grenzen."
-  - "Spannung, Kapazität und Laststrom müssen gemeinsam betrachtet werden."
-  - "Akkus benötigen passende Lade- und Schutzkonzepte."
-recognizeSignals:
-  - "Es geht um Batterien und Akkus als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Batterien und Akkus in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "batterie"
-  - "akku"
-  - "versorgung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Versorgung"]
 draft: false
 ---
-
 # Batterien und Akkus
 
 ![Schaubild zu Batterien und Akkus.](/schlaufuchs-platform/images/overviews/v150/batterien-und-akkus.svg)

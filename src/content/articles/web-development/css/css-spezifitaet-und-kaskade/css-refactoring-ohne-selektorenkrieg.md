@@ -3,44 +3,17 @@ title: "CSS – Refactoring ohne Selektorenkrieg"
 description: "Lerne, CSS schrittweise zu vereinfachen, ohne immer stärkere Selektoren oder unnötiges !important einzubauen."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "css-spezifitaet-und-kaskade"
-  - "css-refactoring-ohne-selektorenkrieg"
-learningGoals:
-  - "Du erklärst, welche Kernidee hinter „Refactoring ohne Selektorenkrieg“ steht."
-  - "Du trennst sichtbare Oberfläche, technische Umsetzung und Nutzererwartung sauber."
-  - "Du leitest aus einem kleinen Beispiel konkrete Verbesserungen für echte Seiten ab."
-practiceIdeas:
-  - "Prüfe eine vorhandene Seite mit genau diesem Blick und notiere drei Verbesserungen."
-  - "Formuliere ein schwaches Beispiel in eine nutzerfreundlichere Variante um."
-  - "Verbinde die technische Regel mit einer sichtbaren Auswirkung für Nutzerinnen und Nutzer."
-commonMistakes:
-  - "immer tiefer verschachteln"
-  - "!important als Standardlösung nutzen"
-  - "Globale Regeln unkontrolliert wachsen lassen"
-keyTakeaways:
-  - "CSS wird nicht durch stärkere Selektoren sauberer"
-  - "Gute Web-Entwicklung verbindet technische Korrektheit mit verständlicher Nutzerführung."
-  - "Eine kleine, klare Regel ist wertvoller als eine große Sammlung ungetesteter Sonderfälle."
-recognizeSignals:
-  - "Eine Oberfläche wirkt technisch vorhanden, aber für Nutzende unklar."
-  - "Ein Verhalten funktioniert im Idealfall, bricht aber bei Fehlern, langsamen Netzen oder anderen Geräten."
-  - "Du sollst nicht nur Code schreiben, sondern eine robuste Entscheidung begründen."
-selfCheckPoints:
-  - "Kann ich das Problem in einem Satz ohne Fachjargon erklären?"
-  - "Kann ich zeigen, woran Nutzende die Verbesserung bemerken?"
-  - "Kann ich eine einfache Prüffrage für den nächsten Review ableiten?"
-tags:
-  - "web development"
-  - "css"
-  - "refactoring"
-  - "kaskade"
-  - "wartbarkeit"
-level: fortgeschritten
+topicPath: ["css", "css-spezifitaet-und-kaskade", "css-refactoring-ohne-selektorenkrieg"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Wenn Styles nicht greifen, ist die schnelle Reaktion oft ein stärkerer Selektor. Auf Dauer entsteht daraus ein Selektorenkrieg. Sauberer ist es, Zuständigkeiten, Reihenfolge und Komponentengrenzen zu prüfen.

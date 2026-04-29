@@ -3,26 +3,12 @@ title: "Lösung: Lazy Loading sinnvoll nutzen: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-development-v194-025b im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "performance-und-medien"
-  - "lazy-loading-sinnvoll-nutzen"
-  - "loesung-b"
-
+topicPath: ["sanierung-v194", "lazy-loading-sinnvoll-nutzen-loesung-b"]
 taskId: "web-development-v194-025b"
 relatedExercise: "web-development/sanierung-v194/lazy-loading-sinnvoll-nutzen-aufgabe-b"
-tags:
-  - "lazy"
-  - "loading"
-  - "sinnvoll"
-  - "nutzen"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-025b`
 
 Ausgangsauftrag: Übertrage das Thema Lazy Loading sinnvoll nutzen auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

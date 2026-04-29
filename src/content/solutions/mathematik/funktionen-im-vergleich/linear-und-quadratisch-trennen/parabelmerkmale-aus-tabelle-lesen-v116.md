@@ -3,22 +3,12 @@ title: "Lösung: Parabelmerkmale aus Tabelle lesen"
 description: "Musterlösung zur Aufgabe „Parabelmerkmale aus Tabelle lesen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "funktionen-im-vergleich"
-  - "linear-und-quadratisch-trennen"
-  - "parabelmerkmale-aus-tabelle-lesen-v116"
+topicPath: ["funktionen-im-vergleich", "linear-und-quadratisch-trennen", "parabelmerkmale-aus-tabelle-lesen-v116"]
 taskId: "parabelmerkmale-aus-tabelle-lesen-v116"
 relatedExercise: "mathematik/funktionen-im-vergleich/linear-und-quadratisch-trennen/parabelmerkmale-aus-tabelle-lesen-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "linear und quadratisch trennen"
-  - "parabelmerkmale aus tabelle lesen"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

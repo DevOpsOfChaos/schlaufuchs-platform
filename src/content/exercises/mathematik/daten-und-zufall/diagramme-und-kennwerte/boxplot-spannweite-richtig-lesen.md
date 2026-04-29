@@ -3,33 +3,15 @@ title: "Aufgabe – Boxplot-Spannweite richtig lesen"
 description: "Übe boxplot-spannweite richtig lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "daten-und-zufall"
-  - "diagramme-und-kennwerte"
-  - "boxplot-spannweite-richtig-lesen"
+topicPath: ["daten-und-zufall", "diagramme-und-kennwerte", "boxplot-spannweite-richtig-lesen"]
 taskId: "v112-mathematik-boxplot-spannweite-richtig-lesen"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-zufall"
-  - "boxplot-spannweite-richtig-lesen"
-hintPoints:
-  - "Benenne zuerst das kleine Unterthema."
-  - "Prüfe bewusst den Unterschied zum Fehler: Die Box wird mit der gesamten Spannweite verwechselt."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Einordnung enger als nur der breite Fachbereich?"
-  - "Wird der typische Fehler ausdrücklich ausgeschlossen?"
-  - "Passt die Lösung zur Wissensseite?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Begriff und prüfe, ob die gleiche Strategie gilt."
-  - "Erkläre die Lösung einmal alltagssprachlich und danach fachlich sauber."
-reflectionPrompt: "Was war bei „Boxplot-Spannweite richtig lesen“ die wichtigste Trennkante?"
+tags: ["mathematik", "Feinstruktur Mathematik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation:

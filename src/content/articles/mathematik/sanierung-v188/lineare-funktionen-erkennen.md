@@ -3,38 +3,17 @@ title: "Lineare Funktionen erkennen"
 description: "Lineare Funktionen beschreiben gleichmäßige Änderung."
 subject: "mathematik"
 section: "funktionen-im-vergleich"
-topicPath:
-  - "funktionen-im-vergleich"
-  - "linear-und-quadratisch-trennen"
-learningGoals:
-  - "Lineare Funktionen beschreiben gleichmäßige Änderung fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Lineare Funktionen beschreiben gleichmäßige Änderung wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v188", "lineare-funktionen-erkennen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "funktionen"
-  - "linear"
-  - "steigung"
-  - "mathematik"
-  - "v188"
+tags: ["mathematik", "funktionen-im-vergleich"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Lineare Funktionen erkennen](/schlaufuchs-platform/images/mathematik/sanierung-188/lineare-funktionen-erkennen.svg)
 
 ## Überblick

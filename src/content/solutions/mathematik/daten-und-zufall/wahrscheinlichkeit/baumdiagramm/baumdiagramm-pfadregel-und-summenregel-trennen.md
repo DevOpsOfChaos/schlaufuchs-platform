@@ -3,23 +3,12 @@ title: "Lösung – Baumdiagramm-Pfadregel und Summenregel trennen"
 description: "Musterlösung zu Pfadregel und Summenregel mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Daten und Zufall"
-topicPath:
-  - "daten-und-zufall"
-  - "wahrscheinlichkeit"
-  - "baumdiagramm"
-  - "baumdiagramm-pfadregel-und-summenregel-trennen"
+topicPath: ["daten-und-zufall", "wahrscheinlichkeit", "baumdiagramm", "baumdiagramm-pfadregel-und-summenregel-trennen"]
 taskId: "v109-mathematik-baumdiagramm-pfadregel-und-summenregel-trennen"
 relatedExercise: "mathematik/daten-und-zufall/wahrscheinlichkeit/baumdiagramm/baumdiagramm-pfadregel-und-summenregel-trennen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfen"
-  - "daten-und-zufall"
-  - "wahrscheinlichkeit"
-  - "pfadregel und summenregel"
+tags: ["mathematik", "Daten und Zufall", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Pfadregel und Summenregel**.

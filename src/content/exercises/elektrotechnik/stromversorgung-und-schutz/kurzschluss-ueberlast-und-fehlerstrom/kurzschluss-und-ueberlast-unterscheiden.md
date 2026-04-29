@@ -1,28 +1,17 @@
 ---
 title: "Kurzschluss und Überlast unterscheiden"
 description: "Ordne Fehlerfälle danach ein, ob eher Kurzschluss oder Überlast vorliegt."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Stromversorgung und Schutz"
-topicPath:
-  - stromversorgung-und-schutz
-  - kurzschluss-ueberlast-und-fehlerstrom
-taskId: ET-V182-005
-tags:
-  - elektrotechnik
-  - kurzschluss-ueberlast-und-fehlerstrom
-  - sanierung-v182
-hintPoints:
-  - "Lies zuerst den Normalzustand und danach den Fehlerfall."
-  - "Trenne Beobachtung, Vermutung und Gegenprobe."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["stromversorgung-und-schutz", "kurzschluss-ueberlast-und-fehlerstrom", "kurzschluss-und-ueberlast-unterscheiden"]
+taskId: "ET-V182-005"
+tags: ["elektrotechnik", "Stromversorgung und Schutz", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **Kurzschluss, Überlast und Fehlerstrom** ruhig und schrittweise.

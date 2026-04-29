@@ -1,47 +1,19 @@
 ---
-title: Rückgabewert und void unterscheiden
-description: Verstehe, wann eine Funktion ein Ergebnis zurückliefert und wann sie nur eine Aktion ohne Rückgabewert ausführt.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - funktionen-und-ablauf
-  - rueckgabewert-und-void-unterscheiden
-learningGoals:
-  - Du erklärst die Rolle eines Rückgabewerts.
-  - Du unterscheidest Funktionen mit Ergebnis von Funktionen ohne Rückgabe.
-  - Du liest <code>void</code> nicht als „leer“, sondern als bewusste Aussage über die Funktion.
-practiceIdeas:
-  - Vergleiche eine Berechnungsfunktion mit einer Ausgabe-Funktion.
-  - "Frage bei Beispielen: Kommt hier ein Wert zurück oder passiert nur eine Aktion?"
-  - Beschreibe in eigenen Worten, was mit dem Ergebnis einer Funktion weiter geschieht.
-commonMistakes:
-  - Jede Funktion müsse zwingend einen berechneten Wert zurückgeben.
-  - <code>void</code> mit „unnütze Funktion“ zu verwechseln.
-  - Ausgaben mit Rückgabewerten durcheinanderzubringen.
-keyTakeaways:
-  - Rückgabewerte liefern Ergebnisse zur weiteren Verarbeitung.
-  - <code>void</code> zeigt an, dass kein Wert zurückgegeben wird.
-  - Aktion und Ergebnis sind zwei verschiedene Rollen einer Funktion.
-recognizeSignals:
-  - Es geht um <code>return</code>, <code>void</code> oder um die Frage, ob eine Funktion einen Wert liefert.
-  - Du sollst erklären, was nach dem Funktionsaufruf weiter genutzt werden kann.
-  - In Beispielen musst du Ausgabe und Rückgabe unterscheiden.
-selfCheckPoints:
-  - Kann ich den Unterschied zwischen Aktion und Ergebnis erklären?
-  - Kann ich beschreiben, wann <code>void</code> sinnvoll ist?
-  - Kann ich sagen, was mit einem Rückgabewert weiter passiert?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - return
-  - void
+title: "Rückgabewert und void unterscheiden"
+description: "Verstehe, wann eine Funktion ein Ergebnis zurückliefert und wann sie nur eine Aktion ohne Rückgabewert ausführt."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "rueckgabewert-und-void-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Manche Funktionen berechnen etwas und geben dieses Ergebnis zurück. Andere Funktionen führen nur eine Aktion aus, zum Beispiel Text ausgeben oder einen Zustand ändern.

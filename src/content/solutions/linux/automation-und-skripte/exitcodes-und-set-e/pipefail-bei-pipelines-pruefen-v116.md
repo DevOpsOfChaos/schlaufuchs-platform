@@ -3,22 +3,12 @@ title: "Lösung: pipefail bei Pipelines prüfen"
 description: "Musterlösung zur Aufgabe „pipefail bei Pipelines prüfen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "automation-und-skripte"
-  - "exitcodes-und-set-e"
-  - "pipefail-bei-pipelines-pruefen-v116"
+topicPath: ["automation-und-skripte", "exitcodes-und-set-e", "pipefail-bei-pipelines-pruefen-v116"]
 taskId: "pipefail-bei-pipelines-pruefen-v116"
 relatedExercise: "linux/automation-und-skripte/exitcodes-und-set-e/pipefail-bei-pipelines-pruefen-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "exitcodes und set e"
-  - "pipefail bei pipelines pruefen"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

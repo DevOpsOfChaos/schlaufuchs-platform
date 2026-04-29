@@ -1,49 +1,19 @@
 ---
 title: "ATmega – ADC-Messwerte glätten und skalieren"
 description: "Lerne, warum rohe ADC-Werte schwanken und wie Mittelwert, Plausibilitätsprüfung und Skalierung daraus brauchbare Messwerte machen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - adc-messwerte-glaetten-und-skalieren
-learningGoals:
-  - "Du erklärst, warum ADC-Rohwerte trotz gleicher Eingangsspannung leicht schwanken können."
-  - "Du unterscheidest Rohwert, geglätteten Wert und angezeigte Größe."
-  - "Du beschreibst den Preis von Glättung: ruhigere Anzeige, aber trägere Reaktion."
-practiceIdeas:
-  - "Lies zuerst den praktischen Fehlerfall und danach die technische Regel."
-  - "Skizziere den Ablauf als kleines Zeit-, Signal- oder Entscheidungsbild."
-  - "Erkläre den Unterschied einmal ohne Code und danach mit den passenden Fachbegriffen."
-commonMistakes:
-  - "Jede kleine Schwankung sofort als Sensorfehler zu deuten."
-  - "Glättung als Ersatz für saubere Verdrahtung, Referenz und Messbereich zu verwenden."
-  - "ADC-Rohwert, Spannung und physikalische Einheit durcheinanderzuwerfen."
-keyTakeaways:
-  - "ADC-Werte sind stufige Rohwerte und können leicht schwanken."
-  - "Mittelwerte beruhigen Anzeigen, verschleppen aber schnelle Änderungen."
-  - "Skalierung ist erst sinnvoll, wenn Referenz, Messbereich und Einheit klar sind."
-recognizeSignals:
-  - "Die Aufgabe enthält Mikrocontroller-Code, Register, Sensorwerte, Zeitverhalten oder Schnittstellen."
-  - "Es wird nach Ursache, Wirkung, Diagnose oder einer besseren Struktur gefragt."
-  - "Eine reine Codeantwort reicht nicht; die elektrische oder zeitliche Bedeutung muss mitgelesen werden."
-selfCheckPoints:
-  - "Kann ich den Hauptbegriff in einem Satz fachlich sauber erklären?"
-  - "Kann ich ein typisches Fehlerbild zuordnen?"
-  - "Kann ich begründen, warum die vorgeschlagene Lösung zur Anwendung passt?"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - adc
-  - sensoren
-  - mittelwert
-  - messwerte
-level: mittel
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "adc-messwerte-glaetten-und-skalieren"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-
-
 ## Grundidee
 
 Ein ADC-Wert ist selten eine vollkommen ruhige Zahl. Selbst bei einer scheinbar konstanten Spannung können Rohwerte leicht springen. Das ist nicht automatisch ein Defekt, sondern oft die normale Mischung aus Quantisierung, Rauschen, Sensorstreuung und Referenzspannung.

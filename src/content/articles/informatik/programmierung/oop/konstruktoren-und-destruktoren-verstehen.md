@@ -1,46 +1,19 @@
 ---
-title: Konstruktoren und Destruktoren verstehen
-description: Verstehe, wie Objekte angelegt, sinnvoll gestartet und wieder sauber beendet werden.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - konstruktoren-und-destruktoren-verstehen
-learningGoals:
-  - Du erklaerst die Rolle von Konstruktor und Destruktor beim Objektlebenszyklus.
-  - Du unterscheidest Anlegen, Initialisieren und Aufraeumen sauber.
-  - Du liest Klassendefinitionen ruhiger, wenn mehrere spezielle Methoden vorkommen.
-practiceIdeas:
-  - Markiere in einer Klassendefinition Konstruktor, Destruktor und normale Methode.
-  - Beschreibe, was beim Erzeugen und Beenden eines Objekts fachlich passiert.
-  - Vergleiche automatische und dynamische Objekterzeugung.
-commonMistakes:
-  - Konstruktoren fuer normale Methoden zu halten.
-  - Zu denken, dass ein Destruktor beliebige Parameter haben darf.
-  - Objektanlage und Initialisierung sprachlich zu vermischen.
-keyTakeaways:
-  - Ein Konstruktor bereitet ein neues Objekt vor.
-  - Ein Destruktor gehoert zum sauberen Ende eines Objekts.
-  - Beide helfen, Zustaende und Ressourcen geordnet zu halten.
-recognizeSignals:
-  - Eine Klasse enthaelt einen Methodennamen wie den Klassennamen selbst.
-  - Vor einem Methodennamen steht eine Tilde.
-  - In Aufgaben geht es um new, delete oder den Lebenszyklus von Objekten.
-selfCheckPoints:
-  - Kann ich Konstruktor und Destruktor im Code erkennen?
-  - Kann ich sagen, wann sie typischerweise wirken?
-  - Kann ich den Lebenszyklus eines Objekts in drei Schritten beschreiben?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - konstruktor
-  - destruktor
+title: "Konstruktoren und Destruktoren verstehen"
+description: "Verstehe, wie Objekte angelegt, sinnvoll gestartet und wieder sauber beendet werden."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "konstruktoren-und-destruktoren-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Objekte tauchen in einem Programm nicht einfach fertig auf. Sie werden angelegt, in einen sinnvollen Anfangszustand gebracht und spaeter wieder beendet. Genau dafuer sind Konstruktoren und Destruktoren da.

@@ -1,35 +1,17 @@
 ---
 title: "p-Wert"
 description: "Überblick über den p-Wert als Maß dafür, wie ungewöhnlich Daten unter einer Nullhypothese wären."
-subject: mathematik
+subject: "mathematik"
 section: "Statistik"
-topicPath:
-  - "p-wert"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst p-Wert als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["p-wert", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, p < 0,05 automatisch als großen praktischen Effekt zu deuten."
-keyTakeaways:
-  - "Der p-Wert beschreibt, wie wahrscheinlich ein mindestens so extremes Ergebnis wäre, wenn die Nullhypothese gilt."
-  - "Er hilft, Daten im Rahmen eines Hypothesentests einzuordnen."
-  - "Der p-Wert ist nicht die Wahrscheinlichkeit, dass die Nullhypothese wahr ist."
-recognizeSignals:
-  - "Es geht um p-Wert, wenn der p-Wert hängt von Modell, Teststatistik und Nullhypothese ab."
-  - "Das Thema wird relevant, wenn Beispiele wie ein p-Wert von 0,03 bedeutet: Unter der Nullhypothese wäre ein so extremes oder extremeres Ergebnis mit Wahrscheinlichkeit 3 Prozent zu erwarten."
-selfCheckPoints:
-  - "Kann ich p-Wert in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "statistik"
-  - "hypothesentest"
-  - "p-wert"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Statistik"]
 draft: false
 ---
 # p-Wert

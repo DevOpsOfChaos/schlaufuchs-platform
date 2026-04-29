@@ -1,36 +1,19 @@
 ---
 title: "Graceful Degradation"
 description: "Graceful Degradation beschreibt, dass ein System bei Teilproblemen eingeschränkt, aber kontrolliert weiterarbeitet."
-subject: informatik
+subject: "informatik"
 section: "Robustheit"
-topicPath:
-  - "graceful-degradation"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Graceful Degradation als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["graceful-degradation", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Fallbacks erst nach einem Ausfall improvisiert."
-keyTakeaways:
-  - "Graceful Degradation beschreibt, dass ein System bei Teilproblemen eingeschränkt, aber kontrolliert weiterarbeitet."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Graceful Degradation, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Graceful Degradation in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "robustheit"
-  - "systeme"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Robustheit"]
 draft: false
 ---
-
 # Graceful Degradation
 
 Graceful Degradation beschreibt, dass ein System bei Teilproblemen eingeschränkt, aber

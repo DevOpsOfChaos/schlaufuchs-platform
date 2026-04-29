@@ -1,35 +1,17 @@
 ---
 title: "Simpson-Paradoxon"
 description: "Überblick über das Simpson-Paradoxon und die Bedeutung von Gruppenstruktur bei Datenvergleichen."
-subject: mathematik
+subject: "mathematik"
 section: "Daten und Wahrscheinlichkeit"
-topicPath:
-  - "simpson-paradoxon"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Simpson-Paradoxon als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["simpson-paradoxon", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird die Gesamtrate als objektivste Sicht betrachtet. Manchmal ist gerade die Aufteilung in Gruppen entscheidend."
-keyTakeaways:
-  - "Das Simpson-Paradoxon tritt auf, wenn ein Trend in mehreren Teilgruppen anders aussieht als im zusammengefassten Datensatz."
-  - "Es zeigt, warum Gruppierung, Gewichtung und Kontext bei Datenvergleichen entscheidend sind."
-  - "Das Paradoxon ist kein Rechenfehler, sondern ein Hinweis auf Struktur in den Daten."
-recognizeSignals:
-  - "Es geht um Simpson-Paradoxon, wenn unterschiedlich große Gruppen können Gesamtraten stark beeinflussen."
-  - "Das Thema wird relevant, wenn Beispiele wie eine Behandlung kann in jeder Teilgruppe bessere Quoten haben, im Gesamtdatensatz aber schlechter wirken, wenn die Gruppengrößen stark verschieden sind."
-selfCheckPoints:
-  - "Kann ich Simpson-Paradoxon in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "statistik"
-  - "daten"
-  - "paradoxon"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Daten und Wahrscheinlichkeit"]
 draft: false
 ---
 # Simpson-Paradoxon

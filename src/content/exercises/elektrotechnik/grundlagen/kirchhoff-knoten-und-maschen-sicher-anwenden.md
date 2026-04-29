@@ -1,12 +1,17 @@
 ---
-title: Kirchhoff, Knoten und Maschen sicher anwenden
-description: Diese Aufgabe vertieft die Anwendung von Knotenregel und Maschenregel in einfachen Netzwerken.
-subject: elektrotechnik
-section: Grundlagen
-level: mittel
+title: "Kirchhoff, Knoten und Maschen sicher anwenden"
+description: "Diese Aufgabe vertieft die Anwendung von Knotenregel und Maschenregel in einfachen Netzwerken."
+subject: "elektrotechnik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "kirchhoff-knoten-und-maschen-sicher-anwenden"]
+taskId: "AUTO-KIRCHHOFF-KNOTEN-UND-MASCHEN-SICHER-ANWENDEN"
+tags: ["elektrotechnik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben so, dass immer klar ist, ob eine Strom- oder eine Spannungsgleichung gebraucht wird.

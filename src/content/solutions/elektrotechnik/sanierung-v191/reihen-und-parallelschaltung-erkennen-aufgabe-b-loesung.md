@@ -3,24 +3,12 @@ title: "Lösung: Reihen- und Parallelschaltung erkennen: Aufgabe B"
 description: "Musterlösung zur Aufgabe etech-v191-004b im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "schaltungsanalyse"
-  - "reihen-und-parallelschaltung-erkennen"
-  - "loesung-b"
+topicPath: ["sanierung-v191", "reihen-und-parallelschaltung-erkennen-aufgabe-b"]
 taskId: "etech-v191-004b"
 relatedExercise: "elektrotechnik/sanierung-v191/reihen-und-parallelschaltung-erkennen-aufgabe-b"
-tags:
-  - "schaltungsanalyse"
-  - "reihen"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-004b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Reihen- und Parallelschaltung erkennen“ um einen Messfehler, einen Sicherheitscheck und eine kurze Plausibilitätsprüfung.

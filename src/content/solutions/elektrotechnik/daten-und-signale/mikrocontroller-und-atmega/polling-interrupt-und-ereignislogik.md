@@ -3,21 +3,10 @@ title: "Lösung – Polling und Interrupt passend auswählen"
 description: "Musterlösung zu „Polling und Interrupt passend auswählen“."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "polling-interrupt-und-ereignislogik"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "polling-interrupt-und-ereignislogik"]
 taskId: "et-mc-v94-polling-interrupt"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/polling-interrupt-und-ereignislogik"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "atmega"
-  - "polling"
-  - "interrupt"
-  - "isr"
-  - "ereignis"
-  - "softwarelogik"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

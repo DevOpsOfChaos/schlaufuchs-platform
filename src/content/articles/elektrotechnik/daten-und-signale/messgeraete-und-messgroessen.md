@@ -1,45 +1,19 @@
 ---
-title: Messgeräte und Messgrößen
-description: Lerne wichtige elektrische Messgrößen kennen und verstehe, welches Messgerät wofür verwendet wird.
-subject: elektrotechnik
-section: Daten und Signale
-topicPath:
-  - daten-und-signale
-  - messgeraete-und-messgroessen
-tags:
-  - messgeraete
-  - messgroessen
-  - spannung
-  - strom
-  - widerstand
-learningGoals:
-  - "Du ordnest wichtige elektrische Messgrößen sicher zu."
-  - "Du verstehst, welches Messgerät welche Aufgabe hat."
-  - "Du erkennst, warum sauberes Messen fachlich und praktisch wichtig ist."
-practiceIdeas:
-  - "Ordne vor jeder Messung zuerst die Messgröße und dann das Gerät zu."
-  - "Vergleiche Voltmeter, Amperemeter und Ohmmeter bewusst nach Aufgabe statt nur nach Namen."
-  - "Prüfe bei jedem Beispiel, ob nicht nur das Gerät, sondern auch die Messidee klar ist."
-commonMistakes:
-  - "Messgröße und Messgerät werden verwechselt."
-  - "Ein Multimeter wird als automatisch richtig verstanden."
-  - "Man konzentriert sich nur auf Zahlenwerte und nicht auf die Messidee."
-keyTakeaways:
-  - "Messgrößen beschreiben, was bestimmt werden soll."
-  - "Messgeräte sind Werkzeuge für klar definierte Größen."
-  - "Sauberes Messen beginnt mit der richtigen Frage, nicht mit dem Gerät."
-recognizeSignals:
-  - "Die Aufgabe oder Erklärung nennt Messgeräte und Messgrößen direkt oder greift eng benachbarte Begriffe aus Daten und Signale auf."
-  - "Du sollst nicht nur einen Begriff nennen, sondern einen Zusammenhang, Ablauf oder eine Struktur sauber erklären."
-  - "In Beispielen musst du Werte, Schritte oder Bauteile geordnet lesen und richtig einordnen."
-selfCheckPoints:
-  - "Kann ich wichtige elektrische Messgrößen sicher zuordnen?"
-  - "Kann ich erklären, welches Messgerät welche Aufgabe hat?"
-  - "Kann ich begründen, warum sauberes Messen fachlich und praktisch wichtig ist?"
-level: einfach
+title: "Messgeräte und Messgrößen"
+description: "Lerne wichtige elektrische Messgrößen kennen und verstehe, welches Messgerät wofür verwendet wird."
+subject: "elektrotechnik"
+section: "Daten und Signale"
+topicPath: ["daten-und-signale", "messgeraete-und-messgroessen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Daten und Signale"]
 draft: false
 ---
-
 ## Messgröße und Messgerät trennen
 
 Die Messgröße beschreibt, **was** du wissen willst. Das Messgerät beschreibt, **womit** du diese Größe erfasst. Erst diese Trennung macht Messaufgaben sauber.

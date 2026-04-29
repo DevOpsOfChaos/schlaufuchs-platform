@@ -1,33 +1,19 @@
 ---
 title: "Progressive Enhancement"
 description: "Überblick über Progressive Enhancement als Prinzip für robuste und zugängliche Webseiten."
-subject: web-development
+subject: "web-development"
 section: "Robuste Webseiten"
-topicPath:
-  - progressive-enhancement
-  - ueberblick
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen und von verwandten Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte und typische Anwendungsfälle."
-  - "Du erkennst häufige Missverständnisse und prüfst Aussagen auf Plausibilität."
+topicPath: ["progressive-enhancement", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Irrtum ist, dass alle Nutzenden immer die gleiche moderne Umgebung haben."
-keyTakeaways:
-  - "Progressive Enhancement bedeutet, eine Webseite zuerst auf einer stabilen Grundfunktion aufzubauen und zusätzliche Fähigkeiten schrittweise zu ergänzen."
-  - "Die genaue Bedeutung hängt vom Zusammenhang, den Einheiten und den Randbedingungen ab."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Begriffe, Beispiele oder Fehlerbilder aus diesem Bereich erklärt und eingeordnet werden sollen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten erklären, ohne sofort eine Spezialaufgabe zu rechnen?"
-level: einfach
-tags:
-  - "web development"
-  - "progressive enhancement"
-  - "robustheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Robuste Webseiten"]
 draft: false
 ---
-
 # Progressive Enhancement
 
 ![Schaubild zu Progressive Enhancement.](/schlaufuchs-platform/images/overviews/v149/progressive-enhancement.svg)

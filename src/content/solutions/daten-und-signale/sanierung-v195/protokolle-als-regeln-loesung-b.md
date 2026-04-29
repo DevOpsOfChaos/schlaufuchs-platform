@@ -3,24 +3,12 @@ title: "Lösung: Protokolle als Regeln: Aufgabe B"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-014b im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "uebertragung"
-  - "protokolle-als-regeln"
-  - "loesung-b"
-
+topicPath: ["sanierung-v195", "protokolle-als-regeln-loesung-b"]
 taskId: "daten-und-signale-v195-014b"
 relatedExercise: "daten-und-signale/sanierung-v195/protokolle-als-regeln-aufgabe-b"
-tags:
-  - "protokolle"
-  - "regeln"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-014b`
 
 Ausgangsauftrag: Übertrage das Thema Protokolle als Regeln auf ein zweites Beispiel und formuliere eine kurze Prüfung.

@@ -3,46 +3,17 @@ title: "Linux – umask als Standardrechte verstehen"
 description: "Lerne umask als Standardrechte verstehen als kleines, klar prüfbares Unterthema mit Abgrenzung, Beispiel und Gegenprobe."
 subject: "linux"
 section: "Rechte"
-topicPath:
-  - "rechte-und-zugriff"
-  - "besitz-rechte-sudo"
-  - "v110-teil-3"
-  - "umask-als-standardrechte-verstehen"
-learningGoals:
-  - "Du erklärst umask als Standardrechte verstehen als eigenes Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Erstelle eine Gegenprobe mit verändertem Wert, Zustand oder Kontext."
-  - "Vergleiche die Seite mit einem Nachbarthema und nenne die Trennkante."
-commonMistakes:
-  - "Nur chmod wird betrachtet, nicht die Voreinstellung."
-  - "Das Thema nur einem breiten Kapitel zuordnen."
-  - "Eine Lösung formulieren, die keine konkrete Prüfung enthält."
-keyTakeaways:
-  - "umask als Standardrechte verstehen wird über Einordnung, Abgrenzung und Gegenprobe stabil."
-  - "Kleine Unterthemen erhöhen Auffindbarkeit und reduzieren Doppelungen."
-  - "Aufgabe und Lösung sollen dieselbe fachliche Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Ein breites Kapitel wäre als Antwort zu ungenau."
-  - "Ein konkreter Prüfschritt kann die Entscheidung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "rechte-und-zugriff"
-  - "besitz-rechte-sudo"
-  - "umask-als-standardrechte-verstehen"
+topicPath: ["rechte-und-zugriff", "besitz-rechte-sudo", "v110-teil-3", "umask-als-standardrechte-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["linux", "Rechte"]
 draft: false
 ---
-
 ## Grundidee
 
 **umask als Standardrechte verstehen** ist bewusst als enges Unterthema angelegt. Die Seite beantwortet nicht das ganze Kapitel, sondern die kleine fachliche Entscheidung, die in Aufgaben oft den Unterschied macht.

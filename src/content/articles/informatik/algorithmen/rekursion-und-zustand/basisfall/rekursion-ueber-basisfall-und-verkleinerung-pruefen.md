@@ -3,46 +3,17 @@ title: "Informatik – Rekursion über Basisfall und Verkleinerung prüfen"
 description: "Lerne Rekursionsbasis und Verkleinerung als enges, prüfbares Unterthema mit Beispiel, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Algorithmen"
-topicPath:
-  - "algorithmen"
-  - "rekursion-und-zustand"
-  - "basisfall"
-  - "rekursion-ueber-basisfall-und-verkleinerung-pruefen"
-learningGoals:
-  - "Du erklärst Rekursionsbasis und Verkleinerung als eigenes Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Erstelle eine Gegenprobe mit verändertem Wert, Zustand oder Kontext."
-  - "Vergleiche die Seite mit einem Nachbarthema und nenne die Trennkante."
-commonMistakes:
-  - "Nur der Selbstaufruf wird gesehen, nicht der Stoppfall."
-  - "Das Thema nur einem breiten Kapitel zuordnen."
-  - "Eine Lösung formulieren, die keine konkrete Prüfung enthält."
-keyTakeaways:
-  - "Rekursionsbasis und Verkleinerung wird über Einordnung, Abgrenzung und Gegenprobe stabil."
-  - "Kleine Unterthemen erhöhen Auffindbarkeit und reduzieren Doppelungen."
-  - "Aufgabe und Lösung sollen dieselbe fachliche Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Ein breites Kapitel wäre als Antwort zu ungenau."
-  - "Ein konkreter Prüfschritt kann die Entscheidung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "algorithmen"
-  - "rekursion-und-zustand"
-  - "rekursionsbasis und verkleinerung"
+topicPath: ["algorithmen", "rekursion-und-zustand", "basisfall", "rekursion-ueber-basisfall-und-verkleinerung-pruefen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["informatik", "Algorithmen"]
 draft: false
 ---
-
 ## Grundidee
 
 **Rekursionsbasis und Verkleinerung** ist ein kleines Unterthema mit einer klaren Trennkante. Lerne Rekursionsbasis und Verkleinerung als enges, prüfbares Unterthema mit Beispiel, Abgrenzung und Gegenprobe. Dadurch bleibt die Seite übersichtlich und landet nicht als weiterer Abschnitt in einem zu breiten Sammelthema.

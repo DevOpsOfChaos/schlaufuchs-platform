@@ -3,34 +3,15 @@ title: "Aufgabe – stdout und stderr bei Umleitungen trennen"
 description: "Übe stdout und stderr mit einem kleinen Szenario, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell"
-  - "text-und-auswertung"
-  - "stdout-stderr"
-  - "stdout-und-stderr-bei-umleitungen-trennen"
+topicPath: ["shell", "text-und-auswertung", "stdout-stderr", "stdout-und-stderr-bei-umleitungen-trennen"]
 taskId: "v109-linux-stdout-und-stderr-bei-umleitungen-trennen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "text-und-auswertung"
-  - "stdout und stderr"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Übertrage den Prüfschritt auf ein Nachbarthema und nenne den Unterschied."
-reflectionPrompt: "Welche kleine Trennkante macht stdout und stderr übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["linux", "Shell", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **stdout und stderr**.

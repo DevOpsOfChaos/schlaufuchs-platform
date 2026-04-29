@@ -3,22 +3,12 @@ title: "Lösung: Events und Zustand: Prüfung und Verbesserung"
 description: "Musterlösung zur Aufgabe web-v187-022b im Web-Development-Block v187."
 subject: "web-development"
 section: "javascript"
-topicPath: 
-  - "javascript-und-interaktion"
-  - "events-und-zustand"
-  - "loesung-b"
+topicPath: ["sanierung-v187", "events-und-zustand-aufgabe-b"]
 taskId: "web-v187-022b"
 relatedExercise: "web-development/sanierung-v187/events-und-zustand-aufgabe-b"
-tags: 
-  - "events"
-  - "zustand"
-  - "javascript"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "javascript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-022b`
 
     Ausgangsauftrag: Analysiere ein fehlerhaftes Toggle-Verhalten und finde den fehlenden Initialzustand.

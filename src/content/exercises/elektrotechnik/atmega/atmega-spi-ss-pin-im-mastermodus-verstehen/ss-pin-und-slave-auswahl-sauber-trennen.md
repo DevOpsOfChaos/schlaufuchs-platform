@@ -1,32 +1,17 @@
 ---
-title: SS-Pin und Slave-Auswahl sauber trennen
-description: Erkläre am AVR-SPI, warum der SS-Pin des Controllers nicht einfach mit frei gewählten Chip-Select-Leitungen gleichgesetzt werden darf.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-schnittstellen-und-busse
-  - atmega-spi-ss-pin-im-mastermodus-verstehen
-  - ss-pin-und-slave-auswahl-sauber-trennen
-taskId: ET-ATMEGA-SPI-306
-level: fortgeschritten
+title: "SS-Pin und Slave-Auswahl sauber trennen"
+description: "Erkläre am AVR-SPI, warum der SS-Pin des Controllers nicht einfach mit frei gewählten Chip-Select-Leitungen gleichgesetzt werden darf."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-spi-ss-pin-im-mastermodus-verstehen", "ss-pin-und-slave-auswahl-sauber-trennen"]
+taskId: "ET-ATMEGA-SPI-306"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "fortgeschritten"
 draft: false
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - spi
-hintPoints:
-  - Trenne Auswahl nach außen und Zustandslogik im Controller.
-  - Frage immer, welche Rolle ein Signal am Controller selbst hat.
-selfCheckPoints:
-  - Kannst du SS-Pin und externe Chip-Selects unterscheiden?
-  - Kannst du erklären, warum der Master trotz korrekter Verdrahtung unruhig sein kann?
-transferIdeas:
-  - Übertrage die Logik auf komplexere SPI-Topologien mit mehreren Slaves.
-reflectionPrompt: "Warum hilft bei SPI-Masterproblemen oft zuerst die Zustandsfrage des Controllers und nicht sofort nur der Blick aufs Kabel?"
 ---
-
 ## Aufgabe 1
 
 Erkläre in 3 bis 5 Sätzen den Unterschied zwischen

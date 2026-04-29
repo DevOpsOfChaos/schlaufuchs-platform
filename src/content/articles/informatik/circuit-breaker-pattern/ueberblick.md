@@ -1,36 +1,19 @@
 ---
 title: "Circuit Breaker"
 description: "Circuit Breaker bezeichnet ein Grundthema im Bereich Software, Daten, Architektur und systematische Problemlösung. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-subject: informatik
+subject: "informatik"
 section: "Robustheit"
-topicPath:
-  - "circuit-breaker-pattern"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Circuit Breaker als allgemeinen Grundbegriff einordnen."
-  - "Du kennst Zweck, Zusammenhang, typische Teilaspekte und Grenzen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle behandelt werden."
+topicPath: ["circuit-breaker-pattern", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Circuit Breaker nur als einzelner Arbeitsschritt verstanden, obwohl der Begriff einen größeren Zusammenhang beschreibt."
-keyTakeaways:
-  - "Circuit Breaker bezeichnet ein Grundthema im Bereich Software, Daten, Architektur und systematische Problemlösung. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-  - "Ein Überblick trennt Begriff, Zweck, Beispiel und Grenze."
-  - "Spezialseiten werden verständlicher, wenn die allgemeine Einordnung vorher klar ist."
-recognizeSignals:
-  - "Es geht um Circuit Breaker, wenn mehrere Einzelbeobachtungen ohne Grundbegriff schwer einzuordnen sind."
-  - "Der Begriff hilft, Werkzeuge, Werte, Regeln oder Darstellungen fachlich zu sortieren."
-selfCheckPoints:
-  - "Kann ich Circuit Breaker in zwei bis drei Sätzen erklären?"
-  - "Kann ich ein Beispiel und eine typische Grenze nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "robustheit"
-  - "pattern"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Robustheit"]
 draft: false
 ---
-
 # Circuit Breaker
 
 Circuit Breaker bezeichnet ein Grundthema im Bereich Software, Daten, Architektur und

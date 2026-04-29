@@ -3,21 +3,12 @@ title: "Lösung – Flächenfaktor bei Vergrößerung erkennen"
 description: "Musterlösung zu flächenfaktor bei vergrößerung erkennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "geometrie"
-  - "einheiten-und-skalierung"
-  - "flaechenfaktor-bei-vergroesserung-erkennen"
+topicPath: ["geometrie", "einheiten-und-skalierung", "flaechenfaktor-bei-vergroesserung-erkennen"]
 taskId: "v112-mathematik-flaechenfaktor-bei-vergroesserung-erkennen"
 relatedExercise: "mathematik/geometrie/einheiten-und-skalierung/flaechenfaktor-bei-vergroesserung-erkennen"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "geometrie"
-  - "flaechenfaktor-bei-vergroesserung-erkennen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Geometrie und Skalierung**.

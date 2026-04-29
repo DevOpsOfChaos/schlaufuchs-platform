@@ -3,22 +3,12 @@ title: "Lösung: Analog und digital unterscheiden: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe dat-v189-004b."
 subject: "daten-und-signale"
 section: "grundlagen"
-topicPath:
-  - "grundlagen"
-  - "analog-und-digital"
-  - "loesung-b"
+topicPath: ["sanierung-v189", "analog-und-digital-unterscheiden-aufgabe-b"]
 taskId: "dat-v189-004b"
 relatedExercise: "daten-und-signale/sanierung-v189/analog-und-digital-unterscheiden-aufgabe-b"
-tags:
-  - "analog"
-  - "digital"
-  - "darstellung"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "grundlagen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-004b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

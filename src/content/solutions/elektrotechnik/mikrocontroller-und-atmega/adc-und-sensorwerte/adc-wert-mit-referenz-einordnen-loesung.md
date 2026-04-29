@@ -1,22 +1,14 @@
 ---
 title: "Lösung – ADC-Wert mit Referenz einordnen"
 description: "Musterlösung zur Aufgabe ADC-Wert mit Referenz einordnen."
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - adc-und-sensorwerte
-taskId: ET-V180-ADC-001
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/adc-und-sensorwerte/adc-wert-mit-referenz-einordnen.md
-tags:
-  - elektrotechnik
-  - loesung
-  - adc
-  - sensorwerte
-  - messung
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["mikrocontroller-und-atmega", "adc-und-sensorwerte", "adc-wert-mit-referenz-einordnen"]
+taskId: "ET-V180-ADC-001"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/adc-und-sensorwerte/adc-wert-mit-referenz-einordnen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1

@@ -1,13 +1,19 @@
 ---
-title: CSS-Selektoren – Grundlagen
-description: Verstehe, wie CSS gezielt HTML-Elemente auswählt und warum Selektoren für Gestaltung zentral sind.
-subject: web-development
-section: css-selektoren
-level: einfach
-tags: [css, selektoren, web-development]
+title: "CSS-Selektoren – Grundlagen"
+description: "Verstehe, wie CSS gezielt HTML-Elemente auswählt und warum Selektoren für Gestaltung zentral sind."
+subject: "web-development"
+section: "css-selektoren"
+topicPath: ["css-selektoren-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["css", "selektoren", "web-development"]
 draft: false
 ---
-
 CSS wirkt nicht einfach „auf die ganze Seite“, sondern gezielt auf bestimmte Elemente. Genau dafür braucht man **Selektoren**.
 
 ## Was machen CSS-Selektoren?

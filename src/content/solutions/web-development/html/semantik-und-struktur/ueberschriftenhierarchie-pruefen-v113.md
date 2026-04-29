@@ -3,20 +3,12 @@ title: "Lösung – Überschriftenhierarchie prüfen"
 description: "Musterlösung zu Überschriftenhierarchie prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "html"
-  - "semantik-und-struktur"
-  - "ueberschriftenhierarchie-pruefen-v113"
+topicPath: ["html", "semantik-und-struktur", "ueberschriftenhierarchie-pruefen-v113"]
 taskId: "v113-web-development-ueberschriftenhierarchie-pruefen-v113"
 relatedExercise: "web-development/html/semantik-und-struktur/ueberschriftenhierarchie-pruefen-v113"
-tags:
-  - "web development"
-  - "strukturcheck"
-  - "unterthema"
-  - "ueberschriftenhierarchie-pruefen-v113"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Überschriftenhierarchie prüfen**.

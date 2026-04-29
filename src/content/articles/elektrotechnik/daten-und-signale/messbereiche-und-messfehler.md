@@ -1,44 +1,19 @@
 ---
-title: Messbereiche und Messfehler
-description: Verstehe, warum Messergebnisse nicht nur vom Zahlenwert, sondern auch vom Messbereich, vom Messgerät und von möglichen Fehlerquellen abhängen.
-subject: elektrotechnik
-section: Daten und Signale
-topicPath:
-  - daten-und-signale
-  - messbereiche-und-messfehler
-tags:
-  - messen
-  - messbereich
-  - messfehler
-  - multimeter
-learningGoals:
-  - "Du erklärst, warum der gewählte Messbereich das Ablesen beeinflusst."
-  - "Du unterscheidest grob zwischen systematischen und zufälligen Messfehlern."
-  - "Du erkennst, warum Messen mehr ist als nur eine Zahl vom Display abzulesen."
-practiceIdeas:
-  - "Prüfe bei einer Messung erst die Messgröße und dann den Messbereich."
-  - "Vergleiche mögliche Fehlerquellen in Messgerät, Aufbau und Ablesung."
-  - "Begründe, warum ein Ergebnis plausibel oder unplausibel wirkt."
-commonMistakes:
-  - "Einen Zahlenwert ohne Blick auf Messbereich und Einheit zu übernehmen."
-  - "Alle Messfehler als reinen Bedienfehler zu deuten."
-  - "Ein Messgerät als automatisch richtig zu verstehen."
-keyTakeaways:
-  - "Der Messbereich beeinflusst, wie gut ein Wert ablesbar ist."
-  - "Messfehler können systematisch oder zufällig entstehen."
-  - "Gutes Messen verbindet richtige Frage, passendes Gerät und Plausibilitätsprüfung."
-recognizeSignals:
-  - "Es geht um Messgeräte, Messbereiche, Abweichungen oder die Bewertung von Messergebnissen."
-  - "Ein Beispiel fragt nach Fehlerquellen statt nur nach einem Zahlenwert."
-  - "Du sollst begründen, warum ein Messwert zuverlässig oder problematisch ist."
-selfCheckPoints:
-  - "Kann ich erklären, warum ein Messbereich passend gewählt werden muss?"
-  - "Kann ich systematische und zufällige Fehler grob unterscheiden?"
-  - "Kann ich beschreiben, warum Messen mehr als Zahlenablesen ist?"
-level: einfach
+title: "Messbereiche und Messfehler"
+description: "Verstehe, warum Messergebnisse nicht nur vom Zahlenwert, sondern auch vom Messbereich, vom Messgerät und von möglichen Fehlerquellen abhängen."
+subject: "elektrotechnik"
+section: "Daten und Signale"
+topicPath: ["daten-und-signale", "messbereiche-und-messfehler"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Daten und Signale"]
 draft: false
 ---
-
 ## Warum dieses Thema wichtig ist
 
 Ein Messergebnis ist nie nur eine Zahl. Es hängt davon ab,

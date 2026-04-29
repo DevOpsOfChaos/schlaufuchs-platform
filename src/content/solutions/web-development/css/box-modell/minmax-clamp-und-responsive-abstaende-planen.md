@@ -1,20 +1,12 @@
 ---
 title: "Lösung – starre Abstände in flexible Werte übersetzen"
 description: "Musterlösung zu: Verbessere ein Kartenlayout mit minmax und clamp, damit es ruhiger reagiert."
-subject: web-development
+subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "box-modell"
-  - "minmax-clamp-und-responsive-abstaende-planen"
+topicPath: ["css", "box-modell", "minmax-clamp-und-responsive-abstaende-planen"]
 taskId: "wd-css-v95-minmax-clamp-responsive"
 relatedExercise: "web-development/css/box-modell/minmax-clamp-und-responsive-abstaende-planen"
-tags:
-  - "web development"
-  - "css"
-  - "responsive"
-  - "clamp"
-  - "grid"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

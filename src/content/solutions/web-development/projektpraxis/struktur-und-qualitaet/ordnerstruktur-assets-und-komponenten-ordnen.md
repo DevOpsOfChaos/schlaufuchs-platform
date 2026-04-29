@@ -3,22 +3,12 @@ title: "Lösung – Web-Projektpraxis – Ordnerstruktur, Assets und Komponenten
 description: "Musterlösung zur Aufgabe: Entwirf eine kleine Ordnerstruktur für eine Lernseite mit Bildern, Komponenten und Inhaltsdateien. Begründe, was wohin gehört."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "struktur-und-qualitaet"
-  - "ordnerstruktur-assets-und-komponenten-ordnen"
+topicPath: ["projektpraxis", "struktur-und-qualitaet", "ordnerstruktur-assets-und-komponenten-ordnen"]
 taskId: "web-v100-ordnerstruktur-assets-und-komponenten-ordnen"
 relatedExercise: "web-development/projektpraxis/struktur-und-qualitaet/ordnerstruktur-assets-und-komponenten-ordnen"
-tags:
-  - "web development"
-  - "projektpraxis"
-  - "ordnerstruktur"
-  - "assets"
-  - "komponenten"
-  - "lösung"
+tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine gute Lösung beginnt nicht mit möglichst viel Code, sondern mit einer klaren Einordnung: Lerne, Projektdateien so zu strukturieren, dass Inhalte, wiederverwendbare Bausteine und statische Assets auffindbar bleiben.

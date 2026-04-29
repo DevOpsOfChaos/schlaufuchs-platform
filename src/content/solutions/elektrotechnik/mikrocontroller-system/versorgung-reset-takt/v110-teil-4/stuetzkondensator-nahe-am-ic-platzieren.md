@@ -3,23 +3,12 @@ title: "Lösung – Stützkondensator nahe am IC platzieren"
 description: "Musterlösung zu Stützkondensator nahe am IC platzieren mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "mikrocontroller-system"
-  - "versorgung-reset-takt"
-  - "v110-teil-4"
-  - "stuetzkondensator-nahe-am-ic-platzieren"
+topicPath: ["mikrocontroller-system", "versorgung-reset-takt", "v110-teil-4", "stuetzkondensator-nahe-am-ic-platzieren"]
 taskId: "v110-elektrotechnik-stuetzkondensator-nahe-am-ic-platzieren"
 relatedExercise: "elektrotechnik/mikrocontroller-system/versorgung-reset-takt/v110-teil-4/stuetzkondensator-nahe-am-ic-platzieren"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "mikrocontroller-system"
-  - "versorgung-reset-takt"
-  - "stuetzkondensator-nahe-am-ic-platzieren"
+tags: ["elektrotechnik", "Mikrocontroller", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Stützkondensator nahe am IC platzieren**.

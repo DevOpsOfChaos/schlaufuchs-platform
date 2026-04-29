@@ -3,23 +3,12 @@ title: "Lösung – Fetch-Netzwerkfehler und HTTP-Status trennen"
 description: "Musterlösung zu Fetch-Fehlerarten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "async-und-fehlerbehandlung"
-  - "fetch-status"
-  - "fetch-netzwerkfehler-und-http-status-trennen"
+topicPath: ["javascript", "async-und-fehlerbehandlung", "fetch-status", "fetch-netzwerkfehler-und-http-status-trennen"]
 taskId: "v109-web-development-fetch-netzwerkfehler-und-http-status-trennen"
 relatedExercise: "web-development/javascript/async-und-fehlerbehandlung/fetch-status/fetch-netzwerkfehler-und-http-status-trennen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "javascript"
-  - "async-und-fehlerbehandlung"
-  - "fetch-fehlerarten"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Fetch-Fehlerarten**.

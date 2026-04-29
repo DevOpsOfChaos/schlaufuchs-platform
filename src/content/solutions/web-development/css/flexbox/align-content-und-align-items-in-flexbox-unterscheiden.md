@@ -3,18 +3,10 @@ title: "Lösung – align-content und align-items in Flexbox unterscheiden"
 description: "Musterlösung mit kurzer Begründung zur passenden Web-Development-Entscheidung."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "flexbox"
-  - "align-content-und-align-items-in-flexbox-unterscheiden"
+topicPath: ["css", "flexbox", "align-content-und-align-items-in-flexbox-unterscheiden"]
 taskId: "align-content-und-align-items-in-flexbox-unterscheiden"
 relatedExercise: "web-development/css/flexbox/align-content-und-align-items-in-flexbox-unterscheiden"
-tags:
-  - "web development"
-  - "css"
-  - "flexbox"
-  - "align-content"
-  - "align-items"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
 ## Musterlösung

@@ -1,36 +1,19 @@
 ---
 title: "Browser DevTools"
 description: "Überblick über Browser-Entwicklungswerkzeuge zum Prüfen, Messen und Debuggen von Webseiten."
-subject: web-development
+subject: "web-development"
 section: "Werkzeuge"
-topicPath:
-  - "browser-devtools"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Browser DevTools als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["browser-devtools", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird nur die Console betrachtet."
-keyTakeaways:
-  - "DevTools zeigen den tatsächlichen Zustand im Browser."
-  - "Netzwerk, DOM, CSS und JavaScript müssen gemeinsam betrachtet werden."
-  - "DevTools sind Diagnosewerkzeug, kein Ersatz für Tests."
-recognizeSignals:
-  - "Es geht um Browser DevTools als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Browser DevTools in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "web development"
-  - "devtools"
-  - "debugging"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Werkzeuge"]
 draft: false
 ---
-
 # Browser DevTools
 
 ![Schaubild zu DevTools.](/schlaufuchs-platform/images/overviews/v149/devtools.svg)

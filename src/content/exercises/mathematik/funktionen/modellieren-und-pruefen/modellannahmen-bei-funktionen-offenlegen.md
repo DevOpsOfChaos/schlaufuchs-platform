@@ -3,33 +3,15 @@ title: "Aufgabe – Modellannahmen bei Funktionen offenlegen"
 description: "Übe das Unterthema „Modellieren“ mit einem kleinen, prüfbaren Szenario."
 subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "funktionen"
-  - "modellieren-und-pruefen"
-  - "modellannahmen-bei-funktionen-offenlegen"
+topicPath: ["funktionen", "modellieren-und-pruefen", "modellannahmen-bei-funktionen-offenlegen"]
 taskId: "v106-mathematik-modellannahmen-bei-funktionen-offenlegen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "daten"
-  - "funktionen"
-  - "modellieren-und-pruefen"
-hintPoints:
-  - "Beginne mit der konkreten Situation, nicht mit einer allgemeinen Regel."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Habe ich das passende Unterthema erkannt?"
-  - "Ist meine Begründung fachlich und sprachlich klar?"
-  - "Würde meine Gegenprobe einen typischen Fehler finden?"
-transferIdeas:
-  - "Ändere einen Randwert und prüfe, ob deine Begründung noch gilt."
-  - "Erkläre die Lösung einmal für Einsteigerinnen und danach fachlich genauer."
-reflectionPrompt: "Welche Abgrenzung macht „Modellieren“ für dich klarer als ein breites Sammelthema?"
+tags: ["mathematik", "Funktionen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Du bekommst ein kleines Szenario zum Unterthema **Modellieren**.

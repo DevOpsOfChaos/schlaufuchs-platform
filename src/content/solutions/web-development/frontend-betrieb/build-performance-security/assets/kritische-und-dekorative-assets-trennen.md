@@ -3,23 +3,12 @@ title: "Lösung – Kritische und dekorative Assets trennen"
 description: "Musterlösung zu Asset-Priorität mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "frontend-betrieb"
-  - "build-performance-security"
-  - "assets"
-  - "kritische-und-dekorative-assets-trennen"
+topicPath: ["frontend-betrieb", "build-performance-security", "assets", "kritische-und-dekorative-assets-trennen"]
 taskId: "v111-web-development-kritische-und-dekorative-assets-trennen"
 relatedExercise: "web-development/frontend-betrieb/build-performance-security/assets/kritische-und-dekorative-assets-trennen"
-tags:
-  - "web development"
-  - "frontend"
-  - "unterthema"
-  - "frontend-betrieb"
-  - "build-performance-security"
-  - "kritische-und-dekorative-assets-trennen"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Asset-Priorität**.

@@ -3,44 +3,17 @@ title: "CSS – Utility-Klassen und Komponenten-CSS abwägen"
 description: "Unterscheide kleine Hilfsklassen von wiederverwendbaren Komponentenstilen, damit CSS nicht zufällig wächst."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "css-spezifitaet-und-kaskade"
-  - "utility-klassen-und-komponenten-css-abwaegen"
-tags:
-  - "web development"
-  - "css"
-  - "architektur"
-  - "komponenten"
-  - "wartbarkeit"
-learningGoals:
-  - "Du erklärst, worum es bei „Utility-Klassen und Komponenten-CSS abwägen“ fachlich geht."
-  - "Du trennst technische Umsetzung, sichtbare Rückmeldung und Nutzererwartung."
-  - "Du erkennst typische Fehlerbilder und formulierst eine robuste Alternative."
-practiceIdeas:
-  - "Übertrage die Idee auf eine kleine eigene Beispielseite."
-  - "Prüfe die Lösung einmal aus Sicht von Tastatur, Mobilgerät oder langsamem Laden."
-  - "Formuliere die technische Entscheidung in gutem Deutsch für eine andere Person."
-commonMistakes:
-  - "Nur den sichtbaren Normalfall zu betrachten."
-  - "Technische Begriffe zu verwenden, ohne den Nutzen für die Bedienung zu klären."
-  - "Fehlerfälle, leere Zustände oder Wartbarkeit zu spät mitzudenken."
-keyTakeaways:
-  - "Robuste Webentwicklung verbindet Struktur, Verhalten und Rückmeldung."
-  - "Gute Lösungen bleiben auch bei kleinen Störungen verständlich."
-  - "Saubere sichtbare Texte sind Teil der technischen Qualität."
-recognizeSignals:
-  - "Eine Oberfläche soll verständlicher, stabiler oder zugänglicher werden."
-  - "Ein technischer Baustein beeinflusst direkt die Nutzerführung."
-  - "Du musst zwischen schneller Lösung und dauerhaft wartbarer Lösung abwägen."
-selfCheckPoints:
-  - "Kann ich die Entscheidung ohne Fachnebel erklären?"
-  - "Bleibt die Seite bei Fehlern oder Sonderfällen verständlich?"
-  - "Sind Code, sichtbarer Text und Verhalten konsistent?"
+topicPath: ["css", "css-spezifitaet-und-kaskade", "utility-klassen-und-komponenten-css-abwaegen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 CSS wird schnell schwer wartbar, wenn jede neue Stelle eine eigene Sonderklasse bekommt. Gleichzeitig sind kleine Utility-Klassen nützlich, wenn sie bewusst und begrenzt eingesetzt werden.

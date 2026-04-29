@@ -3,23 +3,12 @@ title: "Lösung – Parameter in Funktionsfamilien getrennt deuten"
 description: "Musterlösung zu Parameterwirkung mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "funktionen-und-graphen"
-  - "graphen-deuten"
-  - "parameter"
-  - "parameter-in-funktionsfamilien-getrennt-deuten"
+topicPath: ["funktionen-und-graphen", "graphen-deuten", "parameter", "parameter-in-funktionsfamilien-getrennt-deuten"]
 taskId: "v111-mathematik-parameter-in-funktionsfamilien-getrennt-deuten"
 relatedExercise: "mathematik/funktionen-und-graphen/graphen-deuten/parameter/parameter-in-funktionsfamilien-getrennt-deuten"
-tags:
-  - "mathematik"
-  - "prüfung"
-  - "unterthema"
-  - "funktionen-und-graphen"
-  - "graphen-deuten"
-  - "parameter-in-funktionsfamilien-getrennt-deuten"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Parameterwirkung**.

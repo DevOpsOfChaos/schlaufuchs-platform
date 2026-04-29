@@ -3,22 +3,12 @@ title: "Lösung: Relative Häufigkeit: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-051a."
 subject: "mathematik"
 section: "daten-und-wahrscheinlichkeit"
-topicPath:
-  - "daten-und-wahrscheinlichkeit"
-  - "datenkritik-und-zufall"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "relative-haeufigkeit-aufgabe-a"]
 taskId: "mat-v188-051a"
 relatedExercise: "mathematik/sanierung-v188/relative-haeufigkeit-aufgabe-a"
-tags:
-  - "haeufigkeit"
-  - "wahrscheinlichkeit"
-  - "daten"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "daten-und-wahrscheinlichkeit", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-051a`
 
 Eine mögliche Lösung:

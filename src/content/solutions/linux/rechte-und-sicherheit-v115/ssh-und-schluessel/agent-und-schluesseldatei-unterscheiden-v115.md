@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Agent und Schlüsseldatei unterscheiden"
 description: "Musterlösung zu Agent und Schlüsseldatei unterscheiden mit Trennkante und Gegenprobe."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "rechte-und-sicherheit-v115"
-  - "ssh-und-schluessel"
-  - "agent-und-schluesseldatei-unterscheiden-v115"
+topicPath: ["rechte-und-sicherheit-v115", "ssh-und-schluessel", "agent-und-schluesseldatei-unterscheiden-v115"]
 taskId: "linux-agent-und-schluesseldatei-unterscheiden-v115"
 relatedExercise: "linux/rechte-und-sicherheit-v115/ssh-und-schluessel/agent-und-schluesseldatei-unterscheiden-v115"
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "rechte und sicherheit"
-  - "ssh und schlüssel"
-  - "lösung"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Agent und Schlüsseldatei unterscheiden**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

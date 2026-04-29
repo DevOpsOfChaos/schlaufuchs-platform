@@ -3,35 +3,15 @@ title: "Aufgabe – Testfall und Testdaten unterscheiden"
 description: "Übe Testfall und Testdaten mit Szenario, Trennkante und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "programmierpraxis"
-  - "funktionen-tests-und-fehler"
-  - "tests"
-  - "testfall-und-testdaten-unterscheiden"
+topicPath: ["programmierpraxis", "funktionen-tests-und-fehler", "tests", "testfall-und-testdaten-unterscheiden"]
 taskId: "v111-informatik-testfall-und-testdaten-unterscheiden"
-tags:
-  - "informatik"
-  - "struktur"
-  - "unterthema"
-  - "programmierpraxis"
-  - "funktionen-tests-und-fehler"
-  - "testfall-und-testdaten-unterscheiden"
-hintPoints:
-  - "Benenne zuerst das genaue Unterthema."
-  - "Schreibe die typische Verwechslung ausdrücklich auf."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Lösung enger als ein breites Kapitel?"
-  - "Wird ein Nachbarthema sauber ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere eine zweite Aufgabe im gleichen Unterthema mit anderer Oberfläche."
-reflectionPrompt: "Welche kleine Trennkante macht Testfall und Testdaten übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["informatik", "Feinstruktur Informatik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Testfall und Testdaten**.

@@ -3,24 +3,12 @@ title: "Lösung: Bedingungen lesbar formulieren: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-v190-004a im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "kontrollfluss"
-  - "bedingungen-lesbar-formulieren"
-  - "loesung-a"
+topicPath: ["sanierung-v190", "bedingungen-lesbar-formulieren-aufgabe-a"]
 taskId: "web-v190-004a"
 relatedExercise: "web-development/sanierung-v190/bedingungen-lesbar-formulieren-aufgabe-a"
-tags:
-  - "kontrollfluss"
-  - "bedingungen"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-004a`
 
 Ausgangsauftrag: Formuliere eine verschachtelte if-Struktur in klare Prüfschritte um.

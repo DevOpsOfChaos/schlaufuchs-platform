@@ -1,34 +1,19 @@
 ---
 title: "Repository-Signaturen"
 description: "Überblick über Signaturen von Paketquellen und ihre Bedeutung für vertrauenswürdige Softwareinstallation."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "repository-signaturen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["repository-signaturen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Signaturwarnungen durch unsichere Optionen zu umgehen, nur damit eine Installation weiterläuft."
-keyTakeaways:
-  - "Repository-Signaturen schützen die Integrität der Paketquelle und sollten bewusst gepflegt werden."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Paketmanager GPG- oder Signaturwarnungen melden."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "pakete"
-  - "sicherheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # Repository-Signaturen
 
 Repository-Signaturen helfen zu prüfen, ob Paketinformationen aus einer vertrauenswürdigen Quelle stammen und unterwegs nicht verändert wurden. Sie sind ein zentraler Baustein sicherer Paketverwaltung.

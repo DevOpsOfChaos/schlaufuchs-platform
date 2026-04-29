@@ -1,37 +1,19 @@
 ---
 title: "Vektorräume"
 description: "Überblick über Vektorräume als Mengen mit Addition und Skalarmultiplikation."
-subject: mathematik
+subject: "mathematik"
 section: "Lineare Algebra"
-topicPath:
-  - "vektorraeume"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Vektorräume als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["vektorraeume", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Vektorräume nur mit dreidimensionaler Geometrie gleichzusetzen."
-keyTakeaways:
-  - "Vektorräume abstrahieren lineares Rechnen."
-  - "Viele unterschiedliche Objekte können Vektoren sein."
-  - "Basis und Dimension strukturieren den Raum."
-recognizeSignals:
-  - "Objekte werden addiert und skaliert."
-  - "Linearkombinationen, Basis oder Dimension werden betrachtet."
-selfCheckPoints:
-  - "Kann ich Vektorräume in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "vektoren"
-  - "lineare algebra"
-  - "struktur"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Lineare Algebra"]
 draft: false
 ---
-
 # Vektorräume
 
 Ein Vektorraum ist eine Menge von Objekten, die sinnvoll addiert und mit Skalaren multipliziert werden können und dabei bestimmte Regeln erfüllen.

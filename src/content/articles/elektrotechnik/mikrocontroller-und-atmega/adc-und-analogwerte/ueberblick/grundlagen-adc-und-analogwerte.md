@@ -1,45 +1,19 @@
 ---
 title: "Grundlagen: ADC und Analogwerte"
 description: "Allgemeine Einordnung zu analoger Spannung, Referenz, Quantisierung und digitalem Messwert."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "adc-und-analogwerte"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee des Themas und kannst sie in eigenen Worten erklären."
-  - "Du kannst typische Begriffe einordnen, ohne sofort in Spezialfälle zu springen."
-  - "Du erkennst, welche Detailseiten zu welchem Teilaspekt gehören."
-practiceIdeas:
-  - "Lies zuerst diese Überblicksseite und danach eine passende Detailseite."
-  - "Notiere drei zentrale Begriffe und formuliere zu jedem eine kurze Erklärung."
-  - "Ordne eine konkrete Aufgabe dem passenden Teilaspekt des Themas zu."
-commonMistakes:
-  - "Direkt mit Spezialfällen zu beginnen, bevor die Grundidee klar ist."
-  - "Ähnliche Begriffe zu vermischen, obwohl sie verschiedene Rollen haben."
-  - "Ein einzelnes Beispiel für das gesamte Thema zu halten."
-keyTakeaways:
-  - "Die Überblicksseite erklärt den allgemeinen Zusammenhang des Themas."
-  - "Detailseiten behandeln danach konkrete Situationen, Methoden oder Fehlerbilder."
-  - "Gute Orientierung entsteht durch Definition, Zweck, Aufbau und Abgrenzung."
-recognizeSignals:
-  - "Du suchst zuerst eine allgemeine Einordnung statt einer einzelnen Übungssituation."
-  - "Mehrere Detailseiten wirken ähnlich und sollen fachlich sortiert werden."
-  - "Ein Thema braucht eine ruhige Erklärung, bevor Beispiele sinnvoll werden."
-selfCheckPoints:
-  - "Kann ich das Thema in zwei bis drei Sätzen allgemein erklären?"
-  - "Kann ich die wichtigsten Unterbegriffe voneinander unterscheiden?"
-  - "Weiß ich, welche Detailseite ich als Nächstes lesen würde?"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "adc"
-  - "analogwerte"
-level: einfach
+topicPath: ["mikrocontroller-und-atmega", "adc-und-analogwerte", "ueberblick", "grundlagen-adc-und-analogwerte"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-
 Ein ADC wandelt eine analoge Spannung in einen digitalen Zahlenwert um. Dabei wird die Spannung nicht unendlich genau kopiert, sondern einer endlichen Stufe zugeordnet.
 
 ## Einordnung

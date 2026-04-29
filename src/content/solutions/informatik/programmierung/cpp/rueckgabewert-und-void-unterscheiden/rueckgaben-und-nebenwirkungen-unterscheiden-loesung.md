@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – Rückgaben und Nebenwirkungen unterscheiden
-description: Musterlösung zur Aufgabe INF-PROG-CPP-FUNC-003.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - funktionen-und-ablauf
-  - rueckgabewert-und-void-unterscheiden
-  - rueckgaben-und-nebenwirkungen-unterscheiden-loesung
-taskId: INF-PROG-CPP-FUNC-003
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/rueckgabewert-und-void-unterscheiden/rueckgaben-und-nebenwirkungen-unterscheiden.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – Rückgaben und Nebenwirkungen unterscheiden"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-FUNC-003."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "rueckgabewert-und-void-unterscheiden", "rueckgaben-und-nebenwirkungen-unterscheiden"]
+taskId: "INF-PROG-CPP-FUNC-003"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/rueckgabewert-und-void-unterscheiden/rueckgaben-und-nebenwirkungen-unterscheiden.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Funktionen ordnen
 
 - Eine Summe berechnen und zurückliefern → eher Funktion mit Rückgabewert.

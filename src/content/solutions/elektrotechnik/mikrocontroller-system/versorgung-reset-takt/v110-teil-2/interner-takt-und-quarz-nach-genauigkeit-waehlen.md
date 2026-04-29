@@ -3,23 +3,12 @@ title: "Lösung – Interner Takt und Quarz nach Genauigkeit wählen"
 description: "Musterlösung zu Interner Takt und Quarz nach Genauigkeit wählen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "mikrocontroller-system"
-  - "versorgung-reset-takt"
-  - "v110-teil-2"
-  - "interner-takt-und-quarz-nach-genauigkeit-waehlen"
+topicPath: ["mikrocontroller-system", "versorgung-reset-takt", "v110-teil-2", "interner-takt-und-quarz-nach-genauigkeit-waehlen"]
 taskId: "v110-elektrotechnik-interner-takt-und-quarz-nach-genauigkeit-waehlen"
 relatedExercise: "elektrotechnik/mikrocontroller-system/versorgung-reset-takt/v110-teil-2/interner-takt-und-quarz-nach-genauigkeit-waehlen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "mikrocontroller-system"
-  - "versorgung-reset-takt"
-  - "interner-takt-und-quarz-nach-genauigkeit-waehlen"
+tags: ["elektrotechnik", "Mikrocontroller", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Interner Takt und Quarz nach Genauigkeit wählen**.

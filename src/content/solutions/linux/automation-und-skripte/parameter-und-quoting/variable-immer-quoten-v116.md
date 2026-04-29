@@ -3,22 +3,12 @@ title: "Lösung: Variable immer quoten"
 description: "Musterlösung zur Aufgabe „Variable immer quoten“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "automation-und-skripte"
-  - "parameter-und-quoting"
-  - "variable-immer-quoten-v116"
+topicPath: ["automation-und-skripte", "parameter-und-quoting", "variable-immer-quoten-v116"]
 taskId: "variable-immer-quoten-v116"
 relatedExercise: "linux/automation-und-skripte/parameter-und-quoting/variable-immer-quoten-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "parameter und quoting"
-  - "variable immer quoten"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

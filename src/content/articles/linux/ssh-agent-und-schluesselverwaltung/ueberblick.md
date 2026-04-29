@@ -1,37 +1,19 @@
 ---
 title: "SSH-Agent und Schlüsselverwaltung"
 description: "Überblick über SSH-Agent, private Schlüssel und komfortable sichere Anmeldung auf Linux-Systemen."
-subject: linux
+subject: "linux"
 section: "Sicherheit"
-topicPath:
-  - "ssh-agent-und-schluesselverwaltung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst SSH-Agent und Schlüsselverwaltung als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["ssh-agent-und-schluesselverwaltung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Agent Forwarding wird oft dauerhaft aktiviert, obwohl Zielsysteme dadurch indirekt Authentifizierungsmöglichkeiten erhalten."
-keyTakeaways:
-  - "Der SSH-Agent erleichtert passphrasegeschützte Schlüssel."
-  - "Private Schlüssel müssen geheim bleiben."
-  - "Agent Forwarding sollte sparsam eingesetzt werden."
-recognizeSignals:
-  - "SSH fragt wiederholt nach Passphrases."
-  - "Git oder Serverzugriff nutzen SSH-Schlüssel."
-selfCheckPoints:
-  - "Kann ich SSH-Agent und Schlüsselverwaltung in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "ssh"
-  - "ssh-agent"
-  - "schluessel"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Sicherheit"]
 draft: false
 ---
-
 # SSH-Agent und Schlüsselverwaltung
 
 Der SSH-Agent speichert entschlüsselte private Schlüssel temporär im Arbeitsspeicher, damit SSH-Verbindungen ohne erneute Passphrase-Eingabe möglich sind.

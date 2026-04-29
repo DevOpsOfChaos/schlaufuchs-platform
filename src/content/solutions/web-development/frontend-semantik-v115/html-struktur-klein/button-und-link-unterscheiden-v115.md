@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Button und Link unterscheiden"
 description: "Musterlösung zu Button und Link unterscheiden mit Trennkante und Gegenprobe."
-subject: web-development
+subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "frontend-semantik-v115"
-  - "html-struktur-klein"
-  - "button-und-link-unterscheiden-v115"
+topicPath: ["frontend-semantik-v115", "html-struktur-klein", "button-und-link-unterscheiden-v115"]
 taskId: "web-development-button-und-link-unterscheiden-v115"
 relatedExercise: "web-development/frontend-semantik-v115/html-struktur-klein/button-und-link-unterscheiden-v115"
-tags:
-  - "web development"
-  - "feinstruktur"
-  - "unterthema"
-  - "frontend-semantik"
-  - "html-struktur klein schneiden"
-  - "lösung"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Button und Link unterscheiden**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

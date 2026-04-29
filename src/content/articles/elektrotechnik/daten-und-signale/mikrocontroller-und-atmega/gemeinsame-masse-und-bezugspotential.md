@@ -3,43 +3,15 @@ title: "Mikrocontroller – gemeinsame Masse und Bezugspotential verstehen"
 description: "Verstehe, warum ein Signal nur dann eindeutig ist, wenn Sender und Empfänger denselben elektrischen Bezug haben."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "gemeinsame-masse-und-bezugspotential"
-learningGoals:
-  - "Du erklärst Masse als gemeinsamen Spannungsbezug."
-  - "Du unterscheidest Versorgungsspannung und Signalbezug."
-  - "Du erkennst typische Fehler, wenn Module keine gemeinsame Masse teilen."
-practiceIdeas:
-  - "Markiere GND-Verbindungen in einer Modulkette."
-  - "Prüfe bei jedem Signal: Gegen welchen Bezug wird es gemessen?"
-  - "Beschreibe ein UART- oder Servo-Beispiel mit gemeinsamer Masse."
-commonMistakes:
-  - "Nur TX/RX oder Signal anzuschließen und GND zu vergessen."
-  - "Masse als optionales Kabel zu behandeln."
-  - "Versorgung und Signalbezug durcheinanderzuwerfen."
-keyTakeaways:
-  - "Spannung ist immer eine Differenz zwischen zwei Punkten."
-  - "Ein Signalpegel braucht einen gemeinsamen Bezug."
-  - "Viele scheinbare Softwarefehler sind fehlende Massebezüge."
-recognizeSignals:
-  - "Ein Modul sendet Datenmüll oder reagiert zufällig."
-  - "Servo, Sensor oder UART haben nur Signalleitung, aber keinen gemeinsamen GND."
-  - "High und Low werden nicht eindeutig erkannt."
-selfCheckPoints:
-  - "Kann ich den Bezugspunkt einer Spannung benennen?"
-  - "Kann ich erklären, warum ein einzelnes Signalkabel nicht reicht?"
-  - "Kann ich gemeinsame Masse von gemeinsamer Versorgung unterscheiden?"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "gemeinsame-masse-und-bezugspotential"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "atmega"
-  - "masse"
-  - "gnd"
-  - "bezugspotential"
-  - "sensoren"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
 „5 Volt“ oder „High“ klingt absolut, ist aber immer relativ zu einem Bezugspunkt gemeint. Ohne gemeinsamen Bezug können zwei Baugruppen denselben Draht völlig unterschiedlich lesen.

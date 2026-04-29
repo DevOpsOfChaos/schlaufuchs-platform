@@ -1,23 +1,14 @@
 ---
-title: Lösung – UI-Zustand minimal halten
-description: Musterlösung zur Aufgabe über UI-Zustand minimal halten.
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- browser-javascript
-- dom-zustand-events
-- ui-zustand-minimal-halten-v114
-taskId: v114-web-development-ui-zustand-minimal-halten-v114
-relatedExercise: web-development/browser-javascript/dom-zustand-events/ui-zustand-minimal-halten-v114
-tags:
-- web-development
-- v114
-- loesung
-- browser-javascript
-- dom-zustand-events
+title: "Lösung – UI-Zustand minimal halten"
+description: "Musterlösung zur Aufgabe über UI-Zustand minimal halten."
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["browser-javascript", "dom-zustand-events", "ui-zustand-minimal-halten-v114"]
+taskId: "v114-web-development-ui-zustand-minimal-halten-v114"
+relatedExercise: "web-development/browser-javascript/dom-zustand-events/ui-zustand-minimal-halten-v114"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

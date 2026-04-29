@@ -1,36 +1,19 @@
 ---
 title: "Schema Registry"
 description: "Eine Schema Registry verwaltet Daten- oder Event-Schemata zentral, damit Produzenten und Konsumenten kompatible Strukturen verwenden."
-subject: informatik
+subject: "informatik"
 section: "Daten und Schnittstellen"
-topicPath:
-  - "schema-registry"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Schema Registry als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["schema-registry", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft werden Eventstrukturen spontan geändert, ohne Konsumenten und Versionierung zu berücksichtigen."
-keyTakeaways:
-  - "Eine Schema Registry verwaltet Daten- oder Event-Schemata zentral, damit Produzenten und Konsumenten kompatible Strukturen verwenden."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Schema Registry, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Schema Registry in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "schema"
-  - "events"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Daten und Schnittstellen"]
 draft: false
 ---
-
 # Schema Registry
 
 Eine Schema Registry verwaltet Daten- oder Event-Schemata zentral, damit Produzenten und

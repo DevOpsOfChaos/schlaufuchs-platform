@@ -3,22 +3,12 @@ title: "Lösung – CSS: Logical Properties für Schreibrichtung und Layout"
 description: "Musterlösung zur Aufgabe: Nutze Eigenschaften wie margin-inline und padding-block, damit Layouts weniger an links/rechts und oben/unten kleben."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "box-modell"
-  - "logical-properties-fuer-schreibrichtung-und-layout"
+topicPath: ["css", "box-modell", "logical-properties-fuer-schreibrichtung-und-layout"]
 taskId: "web-v102-logical-properties-fuer-schreibrichtung-und-layout"
 relatedExercise: "web-development/css/box-modell/logical-properties-fuer-schreibrichtung-und-layout"
-tags:
-  - "web development"
-  - "css"
-  - "logical properties"
-  - "layout"
-  - "internationalisierung"
-  - "lösung"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 padding-top und padding-bottom werden zu padding-block. padding-left und padding-right werden zu padding-inline. Zentrierung kann häufig über margin-inline: auto beschrieben werden.

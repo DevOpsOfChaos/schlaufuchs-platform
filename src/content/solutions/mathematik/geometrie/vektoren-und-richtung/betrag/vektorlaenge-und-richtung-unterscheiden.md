@@ -3,23 +3,12 @@ title: "Lösung – Vektorlänge und Richtung unterscheiden"
 description: "Musterlösung zu Vektorlänge und Richtung mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - "geometrie"
-  - "vektoren-und-richtung"
-  - "betrag"
-  - "vektorlaenge-und-richtung-unterscheiden"
+topicPath: ["geometrie", "vektoren-und-richtung", "betrag", "vektorlaenge-und-richtung-unterscheiden"]
 taskId: "v108-mathematik-vektorlaenge-und-richtung-unterscheiden"
 relatedExercise: "mathematik/geometrie/vektoren-und-richtung/betrag/vektorlaenge-und-richtung-unterscheiden"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfen"
-  - "geometrie"
-  - "vektoren-und-richtung"
-  - "vektorlänge und richtung"
+tags: ["mathematik", "Geometrie", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **Vektorlänge und Richtung**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

@@ -1,45 +1,19 @@
 ---
-title: Tabindex und Fokusreihenfolge verstehen
-description: Verstehe, warum die Fokusreihenfolge einer Seite eine Bedienlogik ist und warum tabindex sparsam und bewusst eingesetzt werden sollte.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - navigation-und-menues
-  - tabindex-und-fokusreihenfolge-verstehen
-learningGoals:
-  - Du erklärst die Grundidee der Fokusreihenfolge.
-  - Du beschreibst, wann tabindex helfen kann und wann er eher Unruhe erzeugt.
-  - Du liest Tastaturnavigation als Reihenfolgeproblem statt als reinen Spezialfall.
-practiceIdeas:
-  - Gehe eine kleine Oberfläche gedanklich mit der Tab-Taste durch.
-  - Prüfe, ob die Fokusreihenfolge zur sichtbaren Reihenfolge passt.
-  - Lies tabindex eher als Eingriff in die Bedienlogik als als normales Styling.
-commonMistakes:
-  - tabindex wahllos zu setzen, um Probleme schnell zu „reparieren“.
-  - die sichtbare Reihenfolge und die Fokusreihenfolge getrennt zu denken.
-  - Tastaturnavigation erst dann zu prüfen, wenn etwas bereits schiefgeht.
-keyTakeaways:
-  - Die Fokusreihenfolge gehört zur Benutzbarkeit einer Oberfläche.
-  - tabindex kann sinnvoll sein, sollte aber sparsam und bewusst genutzt werden.
-  - Eine ruhige Seitenlogik ist oft besser als viele manuelle Eingriffe.
-recognizeSignals:
-  - Es geht um Formulare, Dialoge, Navigationen oder Tastaturbedienung.
-  - Du sollst erklären, warum der Fokus „komisch springt“ oder unlogisch wirkt.
-  - In Beispielen ist die Reihenfolge wichtiger als die Farbe der Elemente.
-selfCheckPoints:
-  - Kann ich erklären, warum Fokusreihenfolge wichtig ist?
-  - Kann ich begründen, warum zu viel tabindex unruhig wird?
-  - Kann ich sichtbare und tastaturbezogene Reihenfolge zusammen lesen?
-tags:
-  - html
-  - tabindex
-  - focus
-  - accessibility
-level: mittel
+title: "Tabindex und Fokusreihenfolge verstehen"
+description: "Verstehe, warum die Fokusreihenfolge einer Seite eine Bedienlogik ist und warum tabindex sparsam und bewusst eingesetzt werden sollte."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "tabindex-und-fokusreihenfolge-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Wer mit der Tab-Taste durch eine Seite geht, erlebt eine Reihenfolge. Diese Reihenfolge ist kein Zufall, sondern ein Teil der Bedienlogik. `tabindex` kann diese Logik beeinflussen.

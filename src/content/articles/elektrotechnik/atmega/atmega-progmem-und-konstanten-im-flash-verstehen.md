@@ -1,46 +1,19 @@
 ---
-title: ATmega – PROGMEM und Konstanten im Flash verstehen
-description: Verstehe, warum konstante Tabellen oder Texte am AVR oft besser im Flash liegen als im SRAM und warum das fachlich mehr ist als bloß „Speicher sparen“.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - speicher-und-programmdaten
-  - atmega-progmem-und-konstanten-im-flash-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von PROGMEM am AVR.
-  - Du beschreibst, warum konstante Daten das knappe SRAM belasten können.
-  - Du liest PROGMEM eher als bewusste Speicherrolle als als bloßen C-Trick.
-practiceIdeas:
-  - Vergleiche konstante Texte oder Tabellen im SRAM und im Flash.
-  - Prüfe, welche Daten sich im Lauf des Programms ändern und welche nicht.
-  - Lies PROGMEM als Entscheidung über Datenrolle und nicht nur über Syntax.
-commonMistakes:
-  - Zu denken, jede Konstante lande automatisch im richtigen Speicherbereich.
-  - Flash und SRAM funktional nicht auseinanderzuhalten.
-  - PROGMEM nur als Makro und nicht als Speicherstrategie zu lesen.
-keyTakeaways:
-  - PROGMEM hilft, konstante Daten im Programmspeicher zu halten.
-  - Dadurch bleibt das knappe SRAM eher für veränderliche Laufzeitdaten frei.
-  - "Die eigentliche Fachfrage ist die Datenrolle: konstant oder veränderlich?"
-recognizeSignals:
-  - Es geht um Tabellen, Texte, Look-up-Daten oder knappen SRAM am AVR.
-  - Du sollst erklären, warum sich bestimmte Daten besser im Flash halten lassen.
-  - In Aufgaben müssen Datenrolle und Speicherart zusammen gedacht werden.
-selfCheckPoints:
-  - Kann ich Flash und SRAM fachlich sauber trennen?
-  - Kann ich erklären, warum konstante Daten SRAM unnötig belasten können?
-  - Kann ich PROGMEM als Speicherstrategie in Worte fassen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - flash
-  - progmem
-level: fortgeschritten
+title: "ATmega – PROGMEM und Konstanten im Flash verstehen"
+description: "Verstehe, warum konstante Tabellen oder Texte am AVR oft besser im Flash liegen als im SRAM und warum das fachlich mehr ist als bloß „Speicher sparen“."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-progmem-und-konstanten-im-flash-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 Am AVR ist Speicher nicht einfach „irgendwo Platz“. Gerade das **SRAM** ist oft knapp. Deshalb wird wichtig, **welche Daten sich wirklich ändern** und welche nur als feste Tabelle, fester Text oder konstante Zuordnung im Programm gebraucht werden. Genau hier kommt **PROGMEM** ins Spiel.
 
 <div class="example-card">

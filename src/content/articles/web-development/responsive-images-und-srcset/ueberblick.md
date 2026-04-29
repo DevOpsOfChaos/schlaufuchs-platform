@@ -1,37 +1,19 @@
 ---
 title: "Responsive Images und srcset"
 description: "Überblick über responsive Bilder, srcset, Größenangaben und performante Bildauslieferung."
-subject: web-development
+subject: "web-development"
 section: "Medien"
-topicPath:
-  - "responsive-images-und-srcset"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Responsive Images und srcset als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["responsive-images-und-srcset", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "`srcset` wird definiert, aber `sizes` fehlt oder passt nicht zum Layout."
-keyTakeaways:
-  - "Responsive Bilder sparen Daten und verbessern Schärfe."
-  - "Der Browser braucht Varianten und Layoutinformationen."
-  - "Bildgröße, Format und Layoutstabilität gehören zusammen."
-recognizeSignals:
-  - "Bilder laden langsam oder sind unscharf."
-  - "Eine Seite nutzt große Bilder in responsiven Layouts."
-selfCheckPoints:
-  - "Kann ich Responsive Images und srcset in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "web-development"
-  - "bilder"
-  - "responsive"
-  - "performance"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Medien"]
 draft: false
 ---
-
 # Responsive Images und srcset
 
 Responsive Images sorgen dafür, dass Browser je nach Gerät, Bildschirmdichte und Layout passende Bilddateien laden können.

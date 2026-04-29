@@ -3,23 +3,12 @@ title: "Lösung – rsync-Trailing-Slash bewusst verwenden"
 description: "Musterlösung zu rsync-Pfade mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "netzwerk-und-ssh"
-  - "verbindungen-und-diagnose"
-  - "rsync"
-  - "rsync-trailing-slash-bewusst-verwenden"
+topicPath: ["netzwerk-und-ssh", "verbindungen-und-diagnose", "rsync", "rsync-trailing-slash-bewusst-verwenden"]
 taskId: "v111-linux-rsync-trailing-slash-bewusst-verwenden"
 relatedExercise: "linux/netzwerk-und-ssh/verbindungen-und-diagnose/rsync/rsync-trailing-slash-bewusst-verwenden"
-tags:
-  - "linux"
-  - "betrieb"
-  - "unterthema"
-  - "netzwerk-und-ssh"
-  - "verbindungen-und-diagnose"
-  - "rsync-trailing-slash-bewusst-verwenden"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **rsync-Pfade**.

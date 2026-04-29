@@ -1,46 +1,19 @@
 ---
-title: ATmega – UART-Fehlerflags FE, DOR und UPE verstehen
-description: Verstehe am AVR-UART, warum beim Empfang nicht nur Datenbytes, sondern auch Fehlerflags wie Framing Error, Data OverRun und Parity Error mitgelesen werden müssen.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-kommunikation
-  - atmega-uart-fehlerflags-fe-dor-und-upe-verstehen
-learningGoals:
-  - Du erklärst die Bedeutung von FE, DOR und UPE am AVR-UART.
-  - Du unterscheidest Rahmenfehler, Überlauf und Paritätsfehler sauber.
-  - Du liest seriellen Empfang eher als Daten plus Status statt nur als Byte-Strom.
-practiceIdeas:
-  - Vergleiche Empfangsfehler nach Ursache und nicht nur nach Symbolkürzel.
-  - Prüfe bei UART-Problemen, ob Timing, Pufferung oder Prüfbitlogik betroffen ist.
-  - Lies UCSRnA nicht nur als Nebenregister, sondern als Statusblick auf den Empfang.
-commonMistakes:
-  - Nur UDR zu lesen und die Fehlerflags zu ignorieren.
-  - FE, DOR und UPE als denselben „kaputten UART“ zu behandeln.
-  - Empfangsprobleme nur auf die Baudrate zu schieben.
-keyTakeaways:
-  - UART-Empfang liefert nicht nur Daten, sondern auch Statusinformationen.
-  - FE, DOR und UPE beschreiben unterschiedliche Fehlerursachen.
-  - Wer Daten und Status trennt, diagnostiziert serielle Probleme deutlich ruhiger.
-recognizeSignals:
-  - Es geht um fehlerhafte Zeichen, verlorene Bytes oder unruhigen UART-Empfang.
-  - Du sollst erklären, warum ein Byte zwar ankommt, aber nicht vertrauenswürdig ist.
-  - In Aufgaben ist die Fehlerursache wichtiger als die bloße Flag-Abkürzung.
-selfCheckPoints:
-  - Kann ich FE, DOR und UPE unterscheiden?
-  - Kann ich erklären, warum Statusflags vor der Auswertung wichtig sind?
-  - Kann ich UART-Fehler eher über Ursache als über Bauchgefühl einordnen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - uart
-  - fehlerflags
-level: fortgeschritten
+title: "ATmega – UART-Fehlerflags FE, DOR und UPE verstehen"
+description: "Verstehe am AVR-UART, warum beim Empfang nicht nur Datenbytes, sondern auch Fehlerflags wie Framing Error, Data OverRun und Parity Error mitgelesen werden müssen."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-uart-fehlerflags-fe-dor-und-upe-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Beim UART-Empfang ist ein Byte nicht automatisch „gut“, nur weil etwas im Datenregister steht. Der AVR liefert zusätzlich **Statusinformationen**, mit denen sich beurteilen lässt, ob beim Empfang selbst etwas schiefgelaufen ist. Genau dort kommen **FE**, **DOR** und **UPE** ins Spiel.

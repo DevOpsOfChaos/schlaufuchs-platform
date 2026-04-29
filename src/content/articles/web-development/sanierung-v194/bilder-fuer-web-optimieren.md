@@ -3,44 +3,17 @@ title: "Bilder für Web optimieren"
 description: "Verstehe bildqualität und dateigröße ausbalancieren als ruhigen Web-Development-Baustein für zugängliche, responsive und gut prüfbare Seiten."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "performance-und-medien"
-  - "bilder-fuer-web-optimieren"
-
-learningGoals:
-  - "Bildqualität und Dateigröße ausbalancieren"
-  - "Struktur, Gestaltung und Nutzung klar trennen"
-  - "einen kleinen prüfbaren nächsten Schritt formulieren"
-practiceIdeas:
-  - "Erstelle eine Bild-Checkliste für eine Artikelseite."
-  - "Prüfe eine zweite Seite mit demselben Blickwinkel."
-commonMistakes:
-  - "Das Thema wird erst nach dem visuellen Design betrachtet."
-  - "Ein einzelner Test wird mit echter Nutzbarkeit verwechselt."
-  - "Zustände wie Fokus, Fehler oder kleine Bildschirme bleiben ungetestet."
-keyTakeaways:
-  - "Bildmaße sollten zur Anzeigegröße passen."
-  - "Moderne Formate können Dateigröße senken."
-  - "Alttext und Performance gehören beide zur Bildpflege."
-
-recognizeSignals:
-  - "Das Thema taucht auf, wenn eine Seite zwar sichtbar funktioniert, aber Bedienung, Lesbarkeit oder Prüfung unsicher bleiben."
-selfCheckPoints:
-  - "Kann ich beschreiben, welches Problem für Nutzerinnen und Nutzer gelöst wird?"
-  - "Ist klar, ob HTML-Struktur, CSS-Layout, Interaktion oder Inhalt betroffen ist?"
-  - "Gibt es einen kleinen Test nach der Änderung?"
+topicPath: ["sanierung-v194", "bilder-fuer-web-optimieren"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
-tags:
-  - "bilder"
-  - "web"
-  - "optimieren"
-  - "web-development"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Bilder für Web optimieren](/schlaufuchs-platform/images/web-development/sanierung-v194/bilder-fuer-web-optimieren.svg)
 
 Bilder für Web optimieren gehört zur Web-Development-Sanierung v194. Die Seite behandelt das Thema als Qualitätsentscheidung: Eine Webseite soll nicht nur hübsch aussehen, sondern verständlich, bedienbar und überprüfbar bleiben.

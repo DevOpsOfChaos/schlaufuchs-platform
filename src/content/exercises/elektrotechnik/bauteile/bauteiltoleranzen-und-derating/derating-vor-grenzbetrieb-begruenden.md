@@ -1,28 +1,17 @@
 ---
 title: "Derating vor Grenzbetrieb begründen"
 description: "Erkläre, warum Bauteile nicht dauerhaft am Maximalwert betrieben werden sollten."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Bauteile"
-topicPath:
-  - bauteile
-  - bauteiltoleranzen-und-derating
-taskId: ET-V182-018
-tags:
-  - elektrotechnik
-  - bauteiltoleranzen-und-derating
-  - sanierung-v182
-hintPoints:
-  - "Lies zuerst den Normalzustand und danach den Fehlerfall."
-  - "Trenne Beobachtung, Vermutung und Gegenprobe."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["bauteile", "bauteiltoleranzen-und-derating", "derating-vor-grenzbetrieb-begruenden"]
+taskId: "ET-V182-018"
+tags: ["elektrotechnik", "Bauteile", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **Bauteiltoleranzen und Derating** ruhig und schrittweise.

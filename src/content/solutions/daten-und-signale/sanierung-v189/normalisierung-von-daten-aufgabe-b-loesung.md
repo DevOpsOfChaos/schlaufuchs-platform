@@ -3,22 +3,12 @@ title: "Lösung: Normalisierung von Daten: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe dat-v189-040b."
 subject: "daten-und-signale"
 section: "datenpraxis"
-topicPath:
-  - "datenpraxis"
-  - "normalisierung-von-daten"
-  - "loesung-b"
+topicPath: ["sanierung-v189", "normalisierung-von-daten-aufgabe-b"]
 taskId: "dat-v189-040b"
 relatedExercise: "daten-und-signale/sanierung-v189/normalisierung-von-daten-aufgabe-b"
-tags:
-  - "normalisierung"
-  - "daten"
-  - "vergleich"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-040b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

@@ -1,23 +1,14 @@
 ---
 title: "Lösung – Busfehler systematisch eingrenzen"
 description: "Musterlösung zur Aufgabe Busfehler systematisch eingrenzen."
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - schnittstellen-und-busse
-  - uart-i2c-spi-vergleichen
-taskId: ET-V180-BUS-002
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/schnittstellen-und-busse/uart-i2c-spi-vergleichen/busfehler-systematisch-eingrenzen.md
-tags:
-  - elektrotechnik
-  - loesung
-  - schnittstellen
-  - fehleranalyse
-  - bus
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["mikrocontroller-und-atmega", "schnittstellen-und-busse", "uart-i2c-spi-vergleichen", "busfehler-systematisch-eingrenzen"]
+taskId: "ET-V180-BUS-002"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/schnittstellen-und-busse/uart-i2c-spi-vergleichen/busfehler-systematisch-eingrenzen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1

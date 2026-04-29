@@ -1,32 +1,17 @@
 ---
 title: "ShellCheck und Linting"
 description: "Lexikonartiger Überblick über statische Prüfung von Shell-Skripten."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - "shellcheck-und-linting"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst ShellCheck und Linting als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Quoting, undefinierte Variablen, Portabilität."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["shellcheck-und-linting", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein Skript als korrekt zu betrachten, nur weil es bei einem Beispielaufruf funktioniert."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "ShellCheck und Linting beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Qualität von Shell-Skripten."
-  - "Wichtige Hinweise liefern vor allem Quoting, undefinierte Variablen, Portabilität."
-recognizeSignals:
-  - "Es geht um qualität von shell-skripten, quoting oder undefinierte variablen."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck ShellCheck und Linting erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "qualitaet"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
 # ShellCheck und Linting

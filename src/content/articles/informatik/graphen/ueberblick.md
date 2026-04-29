@@ -1,36 +1,19 @@
 ---
 title: "Graphen"
 description: "Allgemeiner Überblick über Graphen als Modell für Beziehungen zwischen Objekten."
-subject: informatik
+subject: "informatik"
 section: "Datenstrukturen"
-topicPath:
-  - "graphen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Graphen als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["graphen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird bei Beziehungen sofort eine Tabelle oder Liste verwendet, obwohl ein Graph natürlicher wäre."
-keyTakeaways:
-  - "Graphen modellieren Objekte und Beziehungen."
-  - "Richtung und Gewicht von Kanten sind wichtige Eigenschaften."
-  - "Die Darstellung eines Graphen ist nicht dasselbe wie seine Datenstruktur."
-recognizeSignals:
-  - "Es geht um Graphen als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Graphen in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "graphen"
-  - "datenstrukturen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Datenstrukturen"]
 draft: false
 ---
-
 # Graphen
 
 Ein Graph besteht aus Knoten und Kanten. Knoten stehen für Objekte, Kanten für Beziehungen zwischen ihnen. Graphen eignen sich, wenn nicht nur einzelne Datenwerte wichtig sind, sondern Verbindungen, Wege, Abhängigkeiten oder Netzwerke.

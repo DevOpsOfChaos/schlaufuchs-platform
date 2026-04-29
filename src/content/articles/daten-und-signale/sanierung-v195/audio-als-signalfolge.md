@@ -3,43 +3,17 @@ title: "Audio als Signalfolge"
 description: "Verstehe schwingungen als zahlenfolge verstehen als ruhigen Baustein für Daten, Signale, Messung und Übertragung."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "darstellung-und-code"
-  - "audio-als-signalfolge"
-
-learningGoals:
-  - "Schwingungen als Zahlenfolge verstehen"
-  - "Rohdaten, Darstellung und Interpretation sauber trennen"
-  - "einen kleinen prüfbaren nächsten Schritt formulieren"
-practiceIdeas:
-  - "Beschreibe den Weg von Schall zu einer digitalen Audiodatei."
-  - "Prüfe denselben Gedanken an einem zweiten Signalbeispiel."
-commonMistakes:
-  - "Rohwerte werden vorschnell als fertige Information gelesen."
-  - "Ein einzelnes Diagramm wird ohne Messkontext bewertet."
-  - "Einheiten, Zeitbezug oder Codierung bleiben unausgesprochen."
-keyTakeaways:
-  - "Audio wird über zeitliche Abtastwerte dargestellt."
-  - "Abtastrate und Bittiefe beeinflussen Qualität und Größe."
-  - "Rauschen kann Messung und Wahrnehmung verändern."
-
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Messwerte, Übertragung oder Darstellung nicht mehr eindeutig lesbar sind."
-selfCheckPoints:
-  - "Kann ich beschreiben, welche Größe tatsächlich gemessen oder übertragen wird?"
-  - "Sind Einheit, Zeitbezug und Codierung benannt?"
-  - "Gibt es einen Kontrollpunkt gegen Fehlinterpretation?"
+topicPath: ["sanierung-v195", "audio-als-signalfolge"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
-tags:
-  - "audio"
-  - "signalfolge"
-  - "daten-und-signale"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Audio als Signalfolge](/schlaufuchs-platform/images/daten-und-signale/sanierung-v195/audio-als-signalfolge.svg)
 
 Audio als Signalfolge gehört zur Daten-und-Signale-Sanierung v195. Die Seite behandelt das Thema als ruhigen Arbeitsbaustein: Erst wird geklärt, welches Signal oder welche Daten vorliegen, dann wird entschieden, wie sie dargestellt, übertragen oder ausgewertet werden.

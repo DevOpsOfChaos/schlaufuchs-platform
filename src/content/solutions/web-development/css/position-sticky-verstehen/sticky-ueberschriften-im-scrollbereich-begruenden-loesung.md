@@ -1,21 +1,14 @@
 ---
-title: Lösung – Sticky-Überschriften im Scrollbereich begründen
-description: Musterlösung zur Aufgabe über sticky, fixed und Scrollbereiche.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - position-sticky-verstehen
-taskId: WEB-CSS-POS-202
-relatedExercise: web-development/css/position-sticky-verstehen/sticky-ueberschriften-im-scrollbereich-begruenden
-tags:
-  - css
-  - sticky
-  - loesung
+title: "Lösung – Sticky-Überschriften im Scrollbereich begründen"
+description: "Musterlösung zur Aufgabe über sticky, fixed und Scrollbereiche."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "position-sticky-verstehen", "sticky-ueberschriften-im-scrollbereich-begruenden"]
+taskId: "WEB-CSS-POS-202"
+relatedExercise: "web-development/css/position-sticky-verstehen/sticky-ueberschriften-im-scrollbereich-begruenden"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

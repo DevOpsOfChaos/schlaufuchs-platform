@@ -1,30 +1,17 @@
 ---
 title: "Filterwirkung und Reaktionszeit abwägen"
 description: "Übe, Glättung nicht ohne Nebenwirkung zu betrachten."
-subject: elektrotechnik
-section: schaltungen
-topicPath:
-  - schaltungen
-  - kondensator-rc-verhalten
-taskId: ET-V180-RC-002
-tags:
-  - elektrotechnik
-  - rc
-  - filter
-  - reaktionszeit
-hintPoints:
-  - "Trenne zuerst Begriffe, bevor du rechnest oder Code liest."
-  - "Begründe deine Zuordnung fachlich in ganzen Sätzen."
-selfCheckPoints:
-  - "Kann ich die Grundidee ohne Spezialfall erklären?"
-  - "Kann ich typische Fehler benennen?"
-transferIdeas:
-  - "Übertrage die gleiche Prüflogik auf eine ähnliche Schaltung oder Mikrocontroller-Situation."
-reflectionPrompt: "Welche Annahme müsste ich prüfen, bevor ich die Aufgabe praktisch umsetze?"
-level: einfach
+subject: "elektrotechnik"
+section: "schaltungen"
+topicPath: ["schaltungen", "kondensator-rc-verhalten", "filterwirkung-und-reaktionszeit-abwaegen"]
+taskId: "ET-V180-RC-002"
+tags: ["elektrotechnik", "schaltungen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe trainiert die ruhige fachliche Einordnung. Ziel ist nicht, sofort eine Formel oder Codezeile zu suchen, sondern den Zusammenhang sauber zu lesen.
 
 ## Aufgabe

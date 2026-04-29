@@ -1,45 +1,19 @@
 ---
-title: Box-Sizing und Border-Box verstehen
+title: "Box-Sizing und Border-Box verstehen"
 description: "Verstehe, warum <code>box-sizing: border-box</code> die Gesamtbreite eines Elements leichter lesbar und berechenbar macht."
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - box-modell
-  - box-sizing-border-box-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von <code>box-sizing</code>.
-  - Du beschreibst den Unterschied zwischen Inhaltsbreite und Gesamtbreite.
-  - Du begründest, warum <code>border-box</code> in Layouts oft ruhiger zu lesen ist.
-practiceIdeas:
-  - Vergleiche zwei Boxen mit gleicher Breite, aber unterschiedlichem <code>box-sizing</code>.
-  - Prüfe bei einem Layoutproblem, ob die Gesamtbreite größer geworden ist als gedacht.
-  - Erkläre, warum Padding mit <code>border-box</code> anders in die Breite eingeht.
-commonMistakes:
-  - Zu denken, dass <code>width</code> immer die sichtbare Gesamtbreite meint.
-  - Padding und Border nicht in die Breitenlogik einzubeziehen.
-  - <code>border-box</code> als reinen Trick statt als Lesemodell zu sehen.
-keyTakeaways:
-  - <code>box-sizing</code> bestimmt, wie Breitenangaben gelesen werden.
-  - Mit <code>border-box</code> bleibt die angegebene Breite meist leichter kontrollierbar.
-  - Gerade in Layouts mit mehreren Spalten reduziert das Überraschungen.
-recognizeSignals:
-  - Es geht um Breiten, Überläufe oder Boxen, die größer wirken als geplant.
-  - Du sollst erklären, warum eine Box trotz fester Breite zu breit wird.
-  - In Beispielen ist die Gesamtbreite wichtiger als nur die Inhaltsfläche.
-selfCheckPoints:
-  - Kann ich beschreiben, was <code>box-sizing</code> verändert?
-  - Kann ich erklären, warum <code>border-box</code> oft ruhiger ist?
-  - Kann ich Padding und Border in die Breitenlogik einordnen?
-tags:
-  - css
-  - box-modell
-  - box-sizing
-  - layout
-level: einfach
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "box-sizing-border-box-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Beim Box-Modell ist nicht nur wichtig, **welche Teile eine Box hat**, sondern auch, **wie eine Breitenangabe gelesen wird**. Genau hier kommt <code>box-sizing</code> ins Spiel.

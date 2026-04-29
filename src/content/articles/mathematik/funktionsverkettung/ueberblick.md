@@ -1,34 +1,19 @@
 ---
 title: "Funktionsverkettung"
 description: "Allgemeiner Überblick über Funktionsverkettung und mehrstufige Abbildungen."
-subject: mathematik
+subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "funktionsverkettung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Funktionsverkettung als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["funktionsverkettung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird die Reihenfolge vertauscht. Bei Verkettungen führt das meist zu anderen Ergebnissen."
-keyTakeaways:
-  - "Funktionsverkettung beschreibt mehrstufige Abbildungen."
-  - "Funktionsverkettung sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Funktionsverkettung."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Funktionsverkettung erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "mathematik"
-  - "funktionen"
-  - "verkettung"
-  - "modellierung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
-
 # Funktionsverkettung
 
 Bei einer Funktionsverkettung wird das Ergebnis einer Funktion als Eingabe einer weiteren Funktion verwendet.

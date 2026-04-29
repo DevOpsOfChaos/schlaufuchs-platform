@@ -1,46 +1,19 @@
 ---
-title: ATmega – Input Capture als Grundidee verstehen
-description: Verstehe, wie ein AVR einen Timerstand genau beim Eintreffen eines Signals festhält und warum das für Zeitmessungen nützlich ist.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - timer-und-zeitbasis
-  - atmega-input-capture-grundidee-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von Input Capture am AVR.
-  - Du beschreibst, warum ein gespeicherter Timerstand für Zeitmessungen hilfreich ist.
-  - Du liest Input Capture eher als Zeitmarke als als bloßes Interrupt-Ereignis.
-practiceIdeas:
-  - Vergleiche eine grobe Polling-Messung mit einer sauberen Zeitmarke durch Hardware.
-  - Erkläre, warum die Flanke eines Signals als Messmoment wichtig ist.
-  - Lies einen Capture-Wert als festgehaltenen Zeitpunkt im Timerlauf.
-commonMistakes:
-  - Input Capture mit gewöhnlichem Timerüberlauf zu verwechseln.
-  - Zu denken, es gehe nur um irgendeinen Interrupt.
-  - Den Capture-Wert nicht als Zeitmarke, sondern als beliebige Zahl zu lesen.
-keyTakeaways:
-  - Input Capture hält den Timerstand in genau dem Moment eines Signalereignisses fest.
-  - Dadurch lassen sich Zeitabstände präziser bestimmen als mit grobem Nachsehen in Schleifen.
-  - Der Capture-Wert ist fachlich eine gespeicherte Zeitmarke im laufenden Timer.
-recognizeSignals:
-  - Es geht um Flanken, Pulsbreite, Periodendauer oder Zeitmessung am AVR.
-  - Du sollst erklären, wie ein genauer Messzeitpunkt im Timer erfasst wird.
-  - In Aufgaben müssen Signalereignis und gespeicherter Timerstand zusammen gedacht werden.
-selfCheckPoints:
-  - Kann ich Input Capture als Zeitmarke erklären?
-  - Kann ich Signalflanke und gespeicherten Timerwert zusammenlesen?
-  - Kann ich sagen, warum Polling für solche Messmomente oft unruhiger ist?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - timer
-  - input-capture
-level: fortgeschritten
+title: "ATmega – Input Capture als Grundidee verstehen"
+description: "Verstehe, wie ein AVR einen Timerstand genau beim Eintreffen eines Signals festhält und warum das für Zeitmessungen nützlich ist."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-input-capture-grundidee-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 Wenn ein AVR Zeitabstände messen soll, reicht es nicht immer, „irgendwann mal nach dem Timer zu schauen“. Oft ist entscheidend, **genau den Moment eines Signalereignisses festzuhalten**. Genau dafür ist **Input Capture** gedacht.
 
 <div class="example-card">

@@ -3,33 +3,15 @@ title: "Dashboards und Interpretation: Grundordnung"
 description: "Ordne Dashboards und Interpretation in Zweck, Prüffragen und Fehlerquellen."
 subject: "daten-und-signale"
 section: "systeme"
-topicPath:
-  - "systeme"
-  - "dashboards-und-interpretation"
-  - "aufgabe-a"
+topicPath: ["sanierung-v189", "dashboards-und-interpretation-aufgabe-a"]
 taskId: "dat-v189-057a"
-tags:
-  - "dashboard"
-  - "visualisierung"
-  - "interpretation"
-  - "daten-und-signale"
-  - "aufgabe"
-  - "v189"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["daten-und-signale", "systeme", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Du arbeitest am Thema **Dashboards und Interpretation**. Erstelle eine kurze, geordnete Erklärung für eine lernende Person.

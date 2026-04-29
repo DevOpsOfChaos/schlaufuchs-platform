@@ -3,44 +3,17 @@ title: "Mathematik – Relative Häufigkeit aus Stichprobe deuten"
 description: "Lerne relative häufigkeit aus stichprobe deuten als kleines Unterthema mit Beispiel, Abgrenzung und Prüfstrategie."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "daten-und-zufall"
-  - "diagramme-und-kennwerte"
-  - "relative-haeufigkeit-aus-stichprobe-deuten"
-learningGoals:
-  - "Du erklärst relative häufigkeit aus stichprobe deuten in einem klaren Kontext."
-  - "Du grenzt das Unterthema von einem typischen Nachbarthema ab."
-  - "Du nutzt eine konkrete Gegenprobe statt nur eine Merkliste."
-practiceIdeas:
-  - "Formuliere ein eigenes Mini-Beispiel mit einer typischen Verwechslung."
-  - "Schreibe einen Prüfschritt auf, der das Ergebnis kontrolliert."
-  - "Ordne das Thema bewusst in den kleinen Unterpfad ein."
-commonMistakes:
-  - "Die Quote wird als sichere Wahrscheinlichkeit behauptet."
-  - "Das Thema wird in einem breiten Sammelkapitel versteckt."
-  - "Die Lösung nennt ein Ergebnis, aber keinen prüfbaren Weg."
-keyTakeaways:
-  - "Relative Häufigkeit ist ein Anteil an der betrachteten Stichprobe."
-  - "Kleine Unterthemen machen Wiederholung und Suche einfacher."
-  - "Aufgabe und Lösung sollen dieselbe Trennkante verwenden."
-recognizeSignals:
-  - "Eine Aufgabe enthält einen Begriff, der leicht mit einem Nachbarthema verwechselt wird."
-  - "Ein Beispiel braucht vor der Rechnung oder Umsetzung eine Einordnung."
-  - "Eine Gegenprobe kann den gewählten Weg bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich den typischen Fehler fachlich ausschließen?"
-  - "Passt meine Lösung genau zum Unterpfad?"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-zufall"
-  - "relative-haeufigkeit-aus-stichprobe-deuten"
+topicPath: ["daten-und-zufall", "diagramme-und-kennwerte", "relative-haeufigkeit-aus-stichprobe-deuten"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["mathematik", "Feinstruktur Mathematik"]
 draft: false
 ---
-
 ## Grundidee
 
 **Relative Häufigkeit aus Stichprobe deuten** ist bewusst als kleines Unterthema angelegt. Lerne relative häufigkeit aus stichprobe deuten als kleines Unterthema mit Beispiel, Abgrenzung und Prüfstrategie. Dadurch bleibt die Seite auffindbar und landet nicht in einem übergroßen Sammelbereich.

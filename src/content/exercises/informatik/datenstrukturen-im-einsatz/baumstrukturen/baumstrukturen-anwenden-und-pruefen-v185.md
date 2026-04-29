@@ -1,29 +1,17 @@
 ---
 title: "Baumstrukturen – anwenden und prüfen"
 description: "Übe, baumstrukturen fachlich auf Beispiele anzuwenden und zu überprüfen."
-subject: informatik
+subject: "informatik"
 section: "Datenstrukturen im Einsatz"
-topicPath:
-  - "datenstrukturen-im-einsatz"
-  - "baumstrukturen"
-  - "uebung"
-taskId: INF-V185-013-2
-tags:
-  - "informatik"
-  - "datenstrukturen-im-einsatz"
-  - "baumstrukturen"
-hintPoints:
-  - "Beginne mit der Grundidee, nicht mit einem Spezialfall."
-  - "Trenne Begriff, Beispiel und Prüfung."
-selfCheckPoints:
-  - "Ich kann das Thema in eigenen Worten erklären."
-  - "Ich kann ein passendes Beispiel begründen."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel in einem anderen Fachbereich."
-level: einfach
+topicPath: ["datenstrukturen-im-einsatz", "baumstrukturen", "baumstrukturen-anwenden-und-pruefen-v185"]
+taskId: "INF-V185-013-2"
+tags: ["informatik", "Datenstrukturen im Einsatz", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe nutzt **Baumstrukturen**, um Beispiele, Grenzen und Prüfwege bewusster zu unterscheiden.
 
 ## Lernziel

@@ -1,12 +1,17 @@
 ---
-title: Pipes, grep und Umleitungen
-description: Diese Aufgabe trainiert typische Shell-Ketten mit grep, Pipes und Umleitungen in einer ruhigen, praxisnahen Form.
-subject: linux
-section: Shell-Werkzeuge
-level: mittel
+title: "Pipes, grep und Umleitungen"
+description: "Diese Aufgabe trainiert typische Shell-Ketten mit grep, Pipes und Umleitungen in einer ruhigen, praxisnahen Form."
+subject: "linux"
+section: "Shell-Werkzeuge"
+topicPath: ["pipes-grep-und-umleitungen"]
+taskId: "AUTO-PIPES-GREP-UND-UMLEITUNGEN"
+tags: ["linux", "Shell-Werkzeuge", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben so, als würdest du im Terminal arbeiten. Schreibe die passenden Befehle vollständig auf und begründe kurz, warum sie funktionieren.

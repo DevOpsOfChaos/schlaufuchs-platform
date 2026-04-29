@@ -3,22 +3,12 @@ title: "Lösung: Rauschen von Trend unterscheiden"
 description: "Musterlösung zur Aufgabe „Rauschen von Trend unterscheiden“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "sensorik-und-signalaufbereitung"
-  - "rauschen-und-mittelwert"
-  - "rauschen-von-trend-unterscheiden-v116"
+topicPath: ["sensorik-und-signalaufbereitung", "rauschen-und-mittelwert", "rauschen-von-trend-unterscheiden-v116"]
 taskId: "rauschen-von-trend-unterscheiden-v116"
 relatedExercise: "elektrotechnik/sensorik-und-signalaufbereitung/rauschen-und-mittelwert/rauschen-von-trend-unterscheiden-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "rauschen und mittelwert"
-  - "rauschen von trend unterscheiden"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

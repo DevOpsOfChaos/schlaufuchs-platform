@@ -1,13 +1,19 @@
 ---
-title: Dioden – Grundlagen
-description: Verstehe die Grundidee von Dioden und warum ihre Stromrichtung in der Elektrotechnik wichtig ist.
-subject: elektrotechnik
-section: dioden
-level: einfach
-tags: [dioden, halbleiter, elektrotechnik]
+title: "Dioden – Grundlagen"
+description: "Verstehe die Grundidee von Dioden und warum ihre Stromrichtung in der Elektrotechnik wichtig ist."
+subject: "elektrotechnik"
+section: "dioden"
+topicPath: ["dioden-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["dioden", "halbleiter", "elektrotechnik"]
 draft: false
 ---
-
 Dioden gehören zu den wichtigsten Grundbausteinen der Elektrotechnik. Sie sind besonders interessant, weil sie Strom **nicht in jede Richtung gleich** behandeln.
 
 ## Was ist die Grundidee einer Diode?

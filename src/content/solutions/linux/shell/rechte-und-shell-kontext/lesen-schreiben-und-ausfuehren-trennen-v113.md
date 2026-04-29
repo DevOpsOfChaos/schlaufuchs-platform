@@ -3,20 +3,12 @@ title: "Lösung – Lesen, Schreiben und Ausführen trennen"
 description: "Musterlösung zu Lesen, Schreiben und Ausführen trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "rechte-und-shell-kontext"
-  - "lesen-schreiben-und-ausfuehren-trennen-v113"
+topicPath: ["shell", "rechte-und-shell-kontext", "lesen-schreiben-und-ausfuehren-trennen-v113"]
 taskId: "v113-linux-lesen-schreiben-und-ausfuehren-trennen-v113"
 relatedExercise: "linux/shell/rechte-und-shell-kontext/lesen-schreiben-und-ausfuehren-trennen-v113"
-tags:
-  - "linux"
-  - "strukturcheck"
-  - "unterthema"
-  - "lesen-schreiben-und-ausfuehren-trennen-v113"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Lesen, Schreiben und Ausführen trennen**.

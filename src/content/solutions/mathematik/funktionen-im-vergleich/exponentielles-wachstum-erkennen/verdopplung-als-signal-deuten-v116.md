@@ -3,22 +3,12 @@ title: "Lösung: Verdopplung als Signal deuten"
 description: "Musterlösung zur Aufgabe „Verdopplung als Signal deuten“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "funktionen-im-vergleich"
-  - "exponentielles-wachstum-erkennen"
-  - "verdopplung-als-signal-deuten-v116"
+topicPath: ["funktionen-im-vergleich", "exponentielles-wachstum-erkennen", "verdopplung-als-signal-deuten-v116"]
 taskId: "verdopplung-als-signal-deuten-v116"
 relatedExercise: "mathematik/funktionen-im-vergleich/exponentielles-wachstum-erkennen/verdopplung-als-signal-deuten-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "exponentielles wachstum erkennen"
-  - "verdopplung als signal deuten"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

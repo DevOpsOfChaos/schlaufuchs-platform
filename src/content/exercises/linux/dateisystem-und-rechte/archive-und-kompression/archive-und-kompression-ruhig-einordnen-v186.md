@@ -1,29 +1,17 @@
 ---
 title: "Archive und Kompression – ruhig einordnen"
 description: "Übe, Archive und Kompression fachlich einzuordnen."
-subject: linux
+subject: "linux"
 section: "dateisystem-und-rechte"
-topicPath:
-  - "dateisystem-und-rechte"
-  - "archive-und-kompression"
-taskId: LINUX-ARCHIVE-UND-KOMPRESSION-V186-1
-tags:
-  - "linux"
-  - "tar"
-  - "archive"
-  - "aufgabe"
-hintPoints:
-  - "Beginne mit Begriff und Kontext."
-  - "Trenne Beobachtung, Prüfung und mögliche Änderung."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe erklären."
-  - "Ich kann einen typischen Fehler vermeiden."
-transferIdeas:
-  - "Formuliere eine ähnliche Prüfsituation aus deinem eigenen Linux-Alltag."
-level: einfach
+topicPath: ["dateisystem-und-rechte", "archive-und-kompression", "archive-und-kompression-ruhig-einordnen-v186"]
+taskId: "LINUX-ARCHIVE-UND-KOMPRESSION-V186-1"
+tags: ["linux", "dateisystem-und-rechte", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Lernziel
 
 Du sollst **Archive und Kompression** nicht nur als Befehl oder Schlagwort sehen, sondern als geordnetes Linux-Thema mit Zweck, Kontext und typischen Prüfschritten.

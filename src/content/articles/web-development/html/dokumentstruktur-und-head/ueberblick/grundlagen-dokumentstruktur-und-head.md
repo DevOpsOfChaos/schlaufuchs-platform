@@ -1,39 +1,19 @@
 ---
 title: "Grundlagen: Dokumentstruktur und head-Bereich"
 description: "Ein Überblick über HTML-Grundgerüst, head-Bereich, Metadaten und sichtbaren Seiteninhalt."
-subject: web-development
+subject: "web-development"
 section: "HTML"
-topicPath:
-  - html
-  - dokumentstruktur-und-head
-  - ueberblick
-learningGoals:
-  - "Du kennst die Grundbegriffe dieses Themenbereichs."
-  - "Du kannst typische Situationen grob einordnen, bevor du Detailseiten liest."
-  - "Du erkennst, welche Nachbarseiten für Vertiefung oder Übungen passen."
-practiceIdeas:
-  - "Lies zuerst diese Überblicksseite und danach eine konkrete Lernsituation aus dem gleichen Unterthema."
-  - "Notiere die wichtigsten Begriffe und prüfe, welche davon in den Detailseiten wieder auftauchen."
-commonMistakes:
-  - "Direkt mit Sonderfällen zu beginnen, ohne die Grundbegriffe zu klären."
-  - "Ein einzelnes Beispiel für die ganze Themenlogik zu halten."
-keyTakeaways:
-  - "HTML trennt Metadaten und sichtbaren Inhalt. Beide Bereiche sind wichtig für eine robuste Webseite."
-recognizeSignals:
-  - "Du suchst eine allgemeine Einordnung, bevor du Aufgaben oder Spezialfälle bearbeitest."
-  - "Mehrere Detailseiten wirken ähnlich, aber dir fehlt der gemeinsame Rahmen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten beschreiben?"
-  - "Kann ich Grundidee, typische Begriffe und Grenzen auseinanderhalten?"
-level: einfach
-tags:
-  - "web-development"
-  - "html"
-  - "head"
-  - "dokumentstruktur"
+topicPath: ["html", "dokumentstruktur-und-head", "ueberblick", "grundlagen-dokumentstruktur-und-head"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Überblick
 
 Ein HTML-Dokument besteht nicht nur aus sichtbarem Inhalt. Es enthält ein Grundgerüst, Metadaten im head-Bereich und den sichtbaren Seitenkörper im body-Bereich. Diese Trennung hilft Browsern, Suchmaschinen und Hilfstechnologien.

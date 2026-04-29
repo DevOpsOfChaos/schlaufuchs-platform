@@ -1,36 +1,19 @@
 ---
 title: "Mount-Optionen"
 description: "Mount-Optionen bezeichnet ein Grundthema im Bereich Shell, Dateisystem, Dienste und Betrieb von Linux-Systemen. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-subject: linux
+subject: "linux"
 section: "Dateisysteme"
-topicPath:
-  - "mount-optionen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Mount-Optionen als allgemeinen Grundbegriff einordnen."
-  - "Du kennst Zweck, Zusammenhang, typische Teilaspekte und Grenzen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle behandelt werden."
+topicPath: ["mount-optionen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Mount-Optionen nur als einzelner Arbeitsschritt verstanden, obwohl der Begriff einen größeren Zusammenhang beschreibt."
-keyTakeaways:
-  - "Mount-Optionen bezeichnet ein Grundthema im Bereich Shell, Dateisystem, Dienste und Betrieb von Linux-Systemen. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-  - "Ein Überblick trennt Begriff, Zweck, Beispiel und Grenze."
-  - "Spezialseiten werden verständlicher, wenn die allgemeine Einordnung vorher klar ist."
-recognizeSignals:
-  - "Es geht um Mount-Optionen, wenn mehrere Einzelbeobachtungen ohne Grundbegriff schwer einzuordnen sind."
-  - "Der Begriff hilft, Werkzeuge, Werte, Regeln oder Darstellungen fachlich zu sortieren."
-selfCheckPoints:
-  - "Kann ich Mount-Optionen in zwei bis drei Sätzen erklären?"
-  - "Kann ich ein Beispiel und eine typische Grenze nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "mount"
-  - "dateisystem"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dateisysteme"]
 draft: false
 ---
-
 # Mount-Optionen
 
 Mount-Optionen bezeichnet ein Grundthema im Bereich Shell, Dateisystem, Dienste und Betrieb von

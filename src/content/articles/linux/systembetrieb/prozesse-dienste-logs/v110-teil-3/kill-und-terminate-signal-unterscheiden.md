@@ -3,46 +3,17 @@ title: "Linux – kill und Terminate-Signal unterscheiden"
 description: "Lerne kill und Terminate-Signal unterscheiden als kleines, klar prüfbares Unterthema mit Abgrenzung, Beispiel und Gegenprobe."
 subject: "linux"
 section: "Systembetrieb"
-topicPath:
-  - "systembetrieb"
-  - "prozesse-dienste-logs"
-  - "v110-teil-3"
-  - "kill-und-terminate-signal-unterscheiden"
-learningGoals:
-  - "Du erklärst kill und Terminate-Signal unterscheiden als eigenes Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Erstelle eine Gegenprobe mit verändertem Wert, Zustand oder Kontext."
-  - "Vergleiche die Seite mit einem Nachbarthema und nenne die Trennkante."
-commonMistakes:
-  - "kill wird automatisch mit hartem Töten gleichgesetzt."
-  - "Das Thema nur einem breiten Kapitel zuordnen."
-  - "Eine Lösung formulieren, die keine konkrete Prüfung enthält."
-keyTakeaways:
-  - "kill und Terminate-Signal unterscheiden wird über Einordnung, Abgrenzung und Gegenprobe stabil."
-  - "Kleine Unterthemen erhöhen Auffindbarkeit und reduzieren Doppelungen."
-  - "Aufgabe und Lösung sollen dieselbe fachliche Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Ein breites Kapitel wäre als Antwort zu ungenau."
-  - "Ein konkreter Prüfschritt kann die Entscheidung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "systembetrieb"
-  - "prozesse-dienste-logs"
-  - "kill-und-terminate-signal-unterscheiden"
+topicPath: ["systembetrieb", "prozesse-dienste-logs", "v110-teil-3", "kill-und-terminate-signal-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["linux", "Systembetrieb"]
 draft: false
 ---
-
 ## Grundidee
 
 **kill und Terminate-Signal unterscheiden** ist bewusst als enges Unterthema angelegt. Die Seite beantwortet nicht das ganze Kapitel, sondern die kleine fachliche Entscheidung, die in Aufgaben oft den Unterschied macht.

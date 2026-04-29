@@ -3,25 +3,12 @@ title: "Lösung: Pfade und Befehlsauflösung: Aufgabe A"
 description: "Musterlösung zur Aufgabe linux-v192-027a im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "shell-und-umgebung"
-  - "pfade-und-befehlsaufloesung"
-  - "loesung-a"
+topicPath: ["sanierung-v192", "pfade-und-befehlsaufloesung-loesung-a"]
 taskId: "linux-v192-027a"
 relatedExercise: "linux/sanierung-v192/pfade-und-befehlsaufloesung-aufgabe-a"
-tags:
-  - "shell-und-umgebung"
-  - "pfade"
-  - "befehlsaufloesung"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-027a`
 
 Ausgangsauftrag: Diagnostiziere einen Befehl, der nur für einen Benutzer gefunden wird.

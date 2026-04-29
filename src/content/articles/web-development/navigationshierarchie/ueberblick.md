@@ -1,33 +1,17 @@
 ---
 title: "Navigationshierarchie"
 description: "Überblick über Hauptnavigation, Unterbereiche, Breadcrumbs und die Ordnung von Webinhalten."
-subject: web-development
+subject: "web-development"
 section: "Informationsarchitektur"
-topicPath:
-  - "navigationshierarchie"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Navigationshierarchie als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["navigationshierarchie", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Mehr Links bedeuten nicht automatisch bessere Navigation. Ohne klare Hierarchie entsteht Auswahlstress statt Orientierung."
-keyTakeaways:
-  - "Eine Navigationshierarchie ordnet Inhalte so, dass Nutzende ihre Position und sinnvolle nächste Schritte erkennen."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um navigationshierarchie, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich navigationshierarchie in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "web-development"
-  - "navigationshierarchie"
-  - "überblick"
-  - "hauptnavigation"
-  - "unterstruktur"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Informationsarchitektur"]
 draft: false
 ---
 # Navigationshierarchie

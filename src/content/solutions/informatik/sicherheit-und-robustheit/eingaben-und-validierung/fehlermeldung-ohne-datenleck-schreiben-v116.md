@@ -3,22 +3,12 @@ title: "Lösung: Fehlermeldung ohne Datenleck schreiben"
 description: "Musterlösung zur Aufgabe „Fehlermeldung ohne Datenleck schreiben“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "sicherheit-und-robustheit"
-  - "eingaben-und-validierung"
-  - "fehlermeldung-ohne-datenleck-schreiben-v116"
+topicPath: ["sicherheit-und-robustheit", "eingaben-und-validierung", "fehlermeldung-ohne-datenleck-schreiben-v116"]
 taskId: "fehlermeldung-ohne-datenleck-schreiben-v116"
 relatedExercise: "informatik/sicherheit-und-robustheit/eingaben-und-validierung/fehlermeldung-ohne-datenleck-schreiben-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "eingaben und validierung"
-  - "fehlermeldung ohne datenleck schreiben"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

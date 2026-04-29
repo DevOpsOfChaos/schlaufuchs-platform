@@ -1,44 +1,19 @@
 ---
-title: Textwerkzeuge mit grep, cut und wc
-description: Nutze einfache Shell-Werkzeuge, um Texte zu durchsuchen, Felder auszulesen und Ausgaben zusammenzufassen.
-subject: linux
-section: Shell
-topicPath:
-  - shell
-  - textwerkzeuge-mit-grep-cut-und-wc
-tags:
-  - linux
-  - grep
-  - cut
-  - wc
-learningGoals:
-  - "Du ordnest grep, cut und wc ihren typischen Aufgaben zu."
-  - "Du liest einfache Textanalysen in der Shell fachlich sauber."
-  - "Du erkennst, wann Suchen, Herausschneiden oder Zusammenfassen gebraucht wird."
-practiceIdeas:
-  - "Vergleiche bewusst, ob du nach Zeilen suchst, Felder auswählst oder nur zählst."
-  - "Nutze kleine Testdateien statt direkt große Ausgaben."
-  - "Beschreibe vor der Ausführung, was der Befehl liefern sollte."
-commonMistakes:
-  - "Zu glauben, dass alle drei Werkzeuge dasselbe leisten."
-  - "grep nur als Suchbegriff statt als Zeilenfilter zu verstehen."
-  - "cut ohne sauberen Trenner zu verwenden."
-keyTakeaways:
-  - "grep filtert Zeilen nach Mustern."
-  - "cut wählt Teile von Zeilen oder Feldern aus."
-  - "wc fasst Ausgaben in Zählwerten zusammen."
-recognizeSignals:
-  - "Es geht um Dateiausgaben, Textzeilen, Suchmuster, Spalten oder Zählwerte."
-  - "Du sollst entscheiden, welches Werkzeug zu einer Analyseaufgabe passt."
-  - "Ein Beispiel fragt nach Filtern, Extrahieren oder Zählen."
-selfCheckPoints:
-  - "Kann ich grep, cut und wc funktional unterscheiden?"
-  - "Kann ich erklären, welches Werkzeug für welche Aufgabe passt?"
-  - "Kann ich den erwarteten Output grob vorhersagen?"
-level: einfach
+title: "Textwerkzeuge mit grep, cut und wc"
+description: "Nutze einfache Shell-Werkzeuge, um Texte zu durchsuchen, Felder auszulesen und Ausgaben zusammenzufassen."
+subject: "linux"
+section: "Shell"
+topicPath: ["shell", "textwerkzeuge-mit-grep-cut-und-wc"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
-
 ## Warum diese Werkzeuge zusammenpassen
 
 Viele Shell-Aufgaben bestehen nicht darin, große Programme zu schreiben, sondern Ausgaben gezielt zu lesen und weiterzuverarbeiten. Genau dafür sind kleine Textwerkzeuge nützlich.

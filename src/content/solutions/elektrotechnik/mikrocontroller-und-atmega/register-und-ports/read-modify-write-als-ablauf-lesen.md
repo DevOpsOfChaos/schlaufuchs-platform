@@ -3,21 +3,12 @@ title: "Lösung – Read-Modify-Write als Ablauf lesen"
 description: "Musterlösung zu read-modify-write als ablauf lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "register-und-ports"
-  - "read-modify-write-als-ablauf-lesen"
+topicPath: ["mikrocontroller-und-atmega", "register-und-ports", "read-modify-write-als-ablauf-lesen"]
 taskId: "v112-elektrotechnik-read-modify-write-als-ablauf-lesen"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/register-und-ports/read-modify-write-als-ablauf-lesen"
-tags:
-  - "elektrotechnik"
-  - "v112"
-  - "feinstruktur"
-  - "mikrocontroller-und-atmega"
-  - "read-modify-write-als-ablauf-lesen"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Mikrocontroller Register und Ports**.

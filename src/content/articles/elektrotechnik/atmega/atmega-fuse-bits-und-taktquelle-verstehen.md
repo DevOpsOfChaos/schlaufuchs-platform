@@ -1,46 +1,19 @@
 ---
-title: ATmega – Fuse-Bits und Taktquelle verstehen
-description: Verstehe, warum der ATmega nicht nur Programmcodes braucht, sondern auch dauerhafte Startvorgaben wie Taktquelle und Startverhalten.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - systemstart-und-robustheit
-  - atmega-fuse-bits-und-taktquelle-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von Fuse-Bits am ATmega.
-  - Du unterscheidest Programmcode und dauerhafte Startkonfiguration sauber.
-  - Du beschreibst, warum die Wahl der Taktquelle das ganze Systemverhalten beeinflusst.
-practiceIdeas:
-  - Vergleiche dieselbe Firmware auf interner und externer Taktquelle.
-  - Lies Fuse-Einstellungen zuerst als Startvorgaben und nicht als normalen Laufzeitcode.
-  - Prüfe bei einem „toten“ Controller zuerst, ob Takt und Fuses grundsätzlich passen.
-commonMistakes:
-  - Fuse-Bits wie normale Variablen im C-Programm zu behandeln.
-  - zu denken, dass nur der Flash-Inhalt bestimmt, ob der Controller sinnvoll startet.
-  - eine falsche Taktquelle nur als Geschwindigkeitsfrage zu sehen.
-keyTakeaways:
-  - Fuse-Bits sind dauerhafte Grundvorgaben für den Controllerstart.
-  - Die Taktquelle muss zur realen Beschaltung passen.
-  - Falsche Fuse-Einstellungen können ein korrektes Programm unbenutzbar wirken lassen.
-recognizeSignals:
-  - Es geht um internen RC-Oszillator, Quarz, Clock Source oder Startverhalten.
-  - Ein ATmega scheint nicht richtig zu laufen, obwohl der Programmcode plausibel ist.
-  - In Aufgaben soll erklärt werden, warum Fuses keine normalen Register im Hauptprogramm sind.
-selfCheckPoints:
-  - Kann ich Fuse-Bits und normalen Programmcode sauber trennen?
-  - Kann ich erklären, warum die Taktquelle nicht nur eine Detailfrage ist?
-  - Kann ich einen Startfehler eher als Konfigurations- als als Codeproblem lesen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - fuse-bits
-  - takt
-level: mittel
+title: "ATmega – Fuse-Bits und Taktquelle verstehen"
+description: "Verstehe, warum der ATmega nicht nur Programmcodes braucht, sondern auch dauerhafte Startvorgaben wie Taktquelle und Startverhalten."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-fuse-bits-und-taktquelle-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 Fuse-Bits beim ATmega legen dauerhafte Grundvorgaben fest, die **vor** dem eigentlichen Programm wichtig werden. Dazu gehört besonders die Frage, **woher der Systemtakt kommt** und wie der Controller überhaupt startet.
 
 <div class="example-card">

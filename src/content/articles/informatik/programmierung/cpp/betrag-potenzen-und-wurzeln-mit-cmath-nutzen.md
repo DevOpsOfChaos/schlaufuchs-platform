@@ -1,49 +1,19 @@
 ---
-title: Betrag, Potenzen und Wurzeln mit <cmath> nutzen
-description: Verstehe an kleinen Beispielen, wann fabs, pow, sqrt und hypot fachlich sinnvoll sind.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - cmath
-  - betrag-potenzen-und-wurzeln-mit-cmath-nutzen
-learningGoals:
-  - Du ordnest fabs, pow, sqrt und hypot passenden Rechenzielen zu.
-  - Du erklärst, was an kleinen Zahlenbeispielen berechnet wird.
-  - Du liest Funktionsnamen nicht nur formal, sondern fachlich passend.
-practiceIdeas:
-  - Vergleiche, wann Betrag und wann Quadratwurzel gebraucht werden.
-  - Suche ein passendes Beispiel für Potenz und Pythagoras.
-  - Übersetze Funktionsaufrufe in Alltagssprache.
-commonMistakes:
-  - sqrt und pow gegeneinander zu verwechseln.
-  - hypot nur als neues Symbol statt als Pythagoras-Abkürzung zu sehen.
-  - Betrag und Vorzeichenblindheit durcheinanderzubringen.
-keyTakeaways:
-  - fabs entfernt das Vorzeichen und liefert den Betrag.
-  - pow beschreibt Potenzen, sqrt die Quadratwurzel.
-  - hypot bündelt die Pythagoras-Idee in einer Funktion.
-recognizeSignals:
-  - Es geht um Abstände, Potenzen, Wurzeln oder rechtwinklige Dreiecke.
-  - Du sollst sagen, welche Funktion zu einem Rechenziel passt.
-  - In Codebeispielen musst du mathematische Funktionsnamen in Worte übersetzen.
-selfCheckPoints:
-  - Kann ich fabs, pow, sqrt und hypot unterscheiden?
-  - Kann ich zu kleinen Beispielen die richtige Funktion wählen?
-  - Kann ich erklären, was der Funktionsaufruf fachlich tut?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - cmath
-  - sqrt
-  - pow
-  - hypot
+title: "Betrag, Potenzen und Wurzeln mit <cmath> nutzen"
+description: "Verstehe an kleinen Beispielen, wann fabs, pow, sqrt und hypot fachlich sinnvoll sind."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "betrag-potenzen-und-wurzeln-mit-cmath-nutzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Einige mathematische Funktionen tauchen besonders oft auf, weil sie typische Rechenziele abdecken: Betrag, Potenz, Wurzel und geometrische Länge.

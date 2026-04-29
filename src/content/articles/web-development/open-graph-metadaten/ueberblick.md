@@ -1,34 +1,19 @@
 ---
 title: "Open-Graph-Metadaten"
 description: "Überblick über Metadaten, die Vorschauen von Webseiten in sozialen Netzwerken und Messengern beeinflussen."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "open-graph-metadaten"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["open-graph-metadaten", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur den sichtbaren Seitentitel zu pflegen und Linkvorschauen zu ignorieren."
-keyTakeaways:
-  - "Open-Graph-Metadaten verbessern, wie Inhalte außerhalb der eigenen Webseite verstanden werden."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Links in Messengern, Plattformen oder Vorschaukarten unpassend erscheinen."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "web development"
-  - "metadaten"
-  - "seo"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # Open-Graph-Metadaten
 
 Open-Graph-Metadaten beschreiben Titel, Beschreibung, Bild und Typ einer Webseite für externe Plattformen. Sie bestimmen häufig, wie ein Link in Chats, sozialen Netzwerken oder Vorschaukarten erscheint.

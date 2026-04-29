@@ -1,36 +1,19 @@
 ---
 title: "HTTP-Methoden"
 description: "HTTP-Methoden beschreiben die Absicht einer Anfrage, etwa Lesen, Erstellen, Ändern oder Löschen einer Ressource."
-subject: web-development
+subject: "web-development"
 section: "HTTP"
-topicPath:
-  - "http-methoden"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst HTTP-Methoden als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["http-methoden", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, zustandsändernde Aktionen über GET-Links auszulösen."
-keyTakeaways:
-  - "HTTP-Methoden beschreiben die Absicht einer Anfrage, etwa Lesen, Erstellen, Ändern oder Löschen einer Ressource."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um HTTP-Methoden, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich HTTP-Methoden in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "web"
-  - "http"
-  - "apis"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTTP"]
 draft: false
 ---
-
 # HTTP-Methoden
 
 HTTP-Methoden beschreiben die Absicht einer Anfrage, etwa Lesen, Erstellen, Ändern oder Löschen

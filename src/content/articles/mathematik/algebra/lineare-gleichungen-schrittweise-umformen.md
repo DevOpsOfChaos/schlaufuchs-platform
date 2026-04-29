@@ -1,44 +1,19 @@
 ---
-title: Lineare Gleichungen schrittweise umformen
-description: Verstehe, wie lineare Gleichungen ruhig und regelgeleitet umgeformt werden, damit die gesuchte Variable sauber freisteht.
-subject: mathematik
-section: Algebra
-topicPath:
-  - algebra
-  - lineare-gleichungen-schrittweise-umformen
-learningGoals:
-  - Du erklärst die Grundidee des Umformens linearer Gleichungen.
-  - Du beschreibst, warum auf beiden Seiten dieselbe Operation ausgeführt werden muss.
-  - Du löst einfache lineare Gleichungen ruhiger als Folge nachvollziehbarer Schritte.
-practiceIdeas:
-  - Forme einfache Gleichungen Schritt für Schritt um und benenne jede Operation.
-  - Vergleiche eine saubere Zeilenlösung mit einer Lösung, in der mehrere Schritte vermischt wurden.
-  - Prüfe nach dem Umformen mit einer Probe, ob die Lösung wirklich passt.
-commonMistakes:
-  - nur auf einer Seite der Gleichung etwas zu verändern.
-  - mehrere Rechenschritte unübersichtlich in einer Zeile zu vermischen.
-  - Vorzeichen beim Verschieben oder Teilen zu verlieren.
-keyTakeaways:
-  - Eine Gleichung bleibt nur dann gleichwertig, wenn auf beiden Seiten passend gearbeitet wird.
-  - Ziel ist, die Variable schrittweise freizustellen.
-  - Ruhige Umformung und Probe sind oft wichtiger als Tempo.
-recognizeSignals:
-  - Es geht um eine unbekannte Zahl, die in einer linearen Gleichung gesucht wird.
-  - Du sollst einen Rechenweg erklären, nicht nur das Ergebnis nennen.
-  - In Beispielen ist die Gleichgewichtslogik wichtiger als bloßes "rüberziehen".
-selfCheckPoints:
-  - Kann ich erklären, warum beide Seiten gleich behandelt werden müssen?
-  - Kann ich lineare Gleichungen Schritt für Schritt umformen?
-  - Kann ich eine Probe als Kontrolle durchführen?
-tags:
-  - mathematik
-  - algebra
-  - gleichungen
-  - umformen
-level: einfach
+title: "Lineare Gleichungen schrittweise umformen"
+description: "Verstehe, wie lineare Gleichungen ruhig und regelgeleitet umgeformt werden, damit die gesuchte Variable sauber freisteht."
+subject: "mathematik"
+section: "Algebra"
+topicPath: ["algebra", "lineare-gleichungen-schrittweise-umformen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Algebra"]
 draft: false
 ---
-
 ## Grundidee
 
 Eine lineare Gleichung beschreibt ein Gleichgewicht zwischen zwei Seiten. Beim Umformen geht es deshalb nicht darum, "etwas irgendwie rüberzuschieben", sondern die Gleichung **regelgeleitet so zu verändern, dass die gesuchte Variable freisteht**.

@@ -1,23 +1,14 @@
 ---
-title: Lösung – Container Query sinnvoll einsetzen
-description: Musterlösung zur Aufgabe über Container Query sinnvoll einsetzen.
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- frontend-struktur
-- css-layout-systeme
-- container-query-sinnvoll-einsetzen-v114
-taskId: v114-web-development-container-query-sinnvoll-einsetzen-v114
-relatedExercise: web-development/frontend-struktur/css-layout-systeme/container-query-sinnvoll-einsetzen-v114
-tags:
-- web-development
-- v114
-- loesung
-- frontend-struktur
-- css-layout-systeme
+title: "Lösung – Container Query sinnvoll einsetzen"
+description: "Musterlösung zur Aufgabe über Container Query sinnvoll einsetzen."
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["frontend-struktur", "css-layout-systeme", "container-query-sinnvoll-einsetzen-v114"]
+taskId: "v114-web-development-container-query-sinnvoll-einsetzen-v114"
+relatedExercise: "web-development/frontend-struktur/css-layout-systeme/container-query-sinnvoll-einsetzen-v114"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

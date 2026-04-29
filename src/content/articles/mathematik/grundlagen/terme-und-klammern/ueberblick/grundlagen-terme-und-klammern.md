@@ -1,39 +1,19 @@
 ---
 title: "Grundlagen: Terme und Klammern"
 description: "Ein Überblick über Terme, Klammern und Rechenreihenfolgen als Basis für sichere Umformungen."
-subject: mathematik
+subject: "mathematik"
 section: "Grundlagen"
-topicPath:
-  - grundlagen
-  - terme-und-klammern
-  - ueberblick
-learningGoals:
-  - "Du kennst die Grundbegriffe dieses Themenbereichs."
-  - "Du kannst typische Situationen grob einordnen, bevor du Detailseiten liest."
-  - "Du erkennst, welche Nachbarseiten für Vertiefung oder Übungen passen."
-practiceIdeas:
-  - "Lies zuerst diese Überblicksseite und danach eine konkrete Lernsituation aus dem gleichen Unterthema."
-  - "Notiere die wichtigsten Begriffe und prüfe, welche davon in den Detailseiten wieder auftauchen."
-commonMistakes:
-  - "Direkt mit Sonderfällen zu beginnen, ohne die Grundbegriffe zu klären."
-  - "Ein einzelnes Beispiel für die ganze Themenlogik zu halten."
-keyTakeaways:
-  - "Terme sind strukturierte Ausdrücke. Klammern sind dabei keine Verzierung, sondern ein Hinweis darauf, welche Teile mathematisch zusammengehören."
-recognizeSignals:
-  - "Du suchst eine allgemeine Einordnung, bevor du Aufgaben oder Spezialfälle bearbeitest."
-  - "Mehrere Detailseiten wirken ähnlich, aber dir fehlt der gemeinsame Rahmen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten beschreiben?"
-  - "Kann ich Grundidee, typische Begriffe und Grenzen auseinanderhalten?"
-level: einfach
-tags:
-  - "mathematik"
-  - "terme"
-  - "klammern"
-  - "grundlagen"
+topicPath: ["grundlagen", "terme-und-klammern", "ueberblick", "grundlagen-terme-und-klammern"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 Terme beschreiben Rechenzusammenhänge, ohne dass immer sofort ein einzelnes Ergebnis im Vordergrund steht. Sie können Zahlen, Variablen, Rechenzeichen und Klammern enthalten. Klammern legen fest, welche Teile zuerst betrachtet oder zusammengefasst werden.

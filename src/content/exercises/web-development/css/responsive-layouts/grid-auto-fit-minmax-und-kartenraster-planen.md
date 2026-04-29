@@ -3,29 +3,12 @@ title: "Aufgabe – Grid mit auto-fit und minmax als Kartenraster planen"
 description: "Trainiere die Entscheidung aus der Wissensseite an einem konkreten Mini-Fall."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "responsive-layouts"
-  - "grid-auto-fit-minmax-und-kartenraster-planen"
+topicPath: ["css", "responsive-layouts", "grid-auto-fit-minmax-und-kartenraster-planen"]
 taskId: "grid-auto-fit-minmax-und-kartenraster-planen"
-tags:
-  - "web development"
-  - "css"
-  - "grid"
-  - "responsive"
-  - "layout"
-hintPoints:
-  - "Beginne mit der sichtbaren Bedeutung, nicht mit dem ersten Code-Snippet."
-  - "Prüfe danach, welches HTML- oder CSS-Mittel diese Bedeutung trägt."
-  - "Achte darauf, ob die Lösung auch bei Tastaturbedienung oder kleiner Breite verständlich bleibt."
-selfCheckPoints:
-  - "Ist die Entscheidung fachlich begründet?"
-  - "Sind sichtbarer Text und technische Struktur konsistent?"
-  - "Würde eine andere Person im Team die Lösung nachvollziehen können?"
-transferIdeas:
-  - "Übertrage die Entscheidung auf eine zweite Komponente mit ähnlicher Struktur."
-  - "Formuliere eine schwache und eine bessere Variante in eigenen Worten."
-reflectionPrompt: "Welche kleine Prüfregel würdest du dir für das nächste Web-Review merken?"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---

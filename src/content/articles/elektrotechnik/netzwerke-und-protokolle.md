@@ -1,13 +1,19 @@
 ---
-title: Netzwerke und Protokolle
-description: Verstehe grundlegende Kommunikation in technischen Netzwerken.
-subject: elektrotechnik
-section: daten-und-kommunikation
-level: einfach
-tags: [netzwerke, protokolle, osi, http, mqtt]
+title: "Netzwerke und Protokolle"
+description: "Verstehe grundlegende Kommunikation in technischen Netzwerken."
+subject: "elektrotechnik"
+section: "daten-und-kommunikation"
+topicPath: ["netzwerke-und-protokolle"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["netzwerke", "protokolle", "osi", "http", "mqtt"]
 draft: false
 ---
-
 Netzwerke verbinden Geräte miteinander, und Protokolle regeln, wie Informationen dabei ausgetauscht werden. Ohne solche Regeln wäre zuverlässige Kommunikation kaum möglich.
 
 ## Was ist ein Netzwerk?

@@ -1,26 +1,14 @@
 ---
-title: Musterlösung – Passende Datentypen für Werte begründen
-description: Musterlösung zur Aufgabe INF-PROG-CPP-DATENTYPEN-001.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - primitive-datentypen
-  - primitive-datentypen-in-cpp-verstehen
-  - passende-datentypen-fuer-werte-begruenden-loesung
-taskId: INF-PROG-CPP-DATENTYPEN-001
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/primitive-datentypen-in-cpp-verstehen/passende-datentypen-fuer-werte-begruenden.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - datentypen
-  - loesung
-  - task-id
+title: "Musterlösung – Passende Datentypen für Werte begründen"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-DATENTYPEN-001."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "primitive-datentypen-in-cpp-verstehen", "passende-datentypen-fuer-werte-begruenden"]
+taskId: "INF-PROG-CPP-DATENTYPEN-001"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/primitive-datentypen-in-cpp-verstehen/passende-datentypen-fuer-werte-begruenden.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Typ zuordnen
 
 - **Ist das Formular abgeschickt?** → `bool`, weil es hier um einen Ja-Nein-Zustand geht.

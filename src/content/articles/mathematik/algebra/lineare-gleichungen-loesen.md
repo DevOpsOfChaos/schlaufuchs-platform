@@ -1,44 +1,19 @@
 ---
-title: Lineare Gleichungen lösen
-description: Verstehe lineare Gleichungen als Ausgleichsaufgaben und löse sie schrittweise und begründet.
-subject: mathematik
-section: Algebra
-topicPath:
-  - algebra
-  - lineare-gleichungen
-tags:
-  - gleichung
-  - algebra
-  - x
-  - term
-learningGoals:
-  - "Du erklärst eine lineare Gleichung als Aussage mit gleichem Wert auf beiden Seiten."
-  - "Du löst einfache lineare Gleichungen schrittweise und begründet."
-  - "Du prüfst am Ende durch Einsetzen, ob das Ergebnis passt."
-practiceIdeas:
-  - "Erkläre jeden Umformungsschritt als Erhaltung der Gleichheit."
-  - "Vergleiche eine Gleichung mit einer Waage, die im Gleichgewicht bleiben muss."
-  - "Führe am Ende immer eine Probe mit dem gefundenen Wert aus."
-commonMistakes:
-  - "Operationen nur auf einer Seite auszuführen."
-  - "Vorzeichen beim Umformen zu verlieren."
-  - "Das Ergebnis nicht zu prüfen."
-keyTakeaways:
-  - "Bei Gleichungen muss die Gleichheit erhalten bleiben."
-  - "Erlaubt sind nur Schritte, die beide Seiten gleich behandeln."
-  - "Die Probe gehört zum sauberen Lösen dazu."
-recognizeSignals:
-  - "Es geht um x, Terme, Gleichheit oder gesuchte Werte."
-  - "Du sollst eine Gleichung Schritt für Schritt umformen."
-  - "Ein Beispiel fragt nach einer Lösung und ihrer Kontrolle."
-selfCheckPoints:
-  - "Kann ich erklären, warum ich denselben Schritt auf beiden Seiten mache?"
-  - "Kann ich eine Probe sauber durchführen?"
-  - "Kann ich einen typischen Vorzeichenfehler erkennen?"
-level: einfach
+title: "Lineare Gleichungen lösen"
+description: "Verstehe lineare Gleichungen als Ausgleichsaufgaben und löse sie schrittweise und begründet."
+subject: "mathematik"
+section: "Algebra"
+topicPath: ["algebra", "lineare-gleichungen-loesen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Algebra"]
 draft: false
 ---
-
 ## Warum dieses Thema wichtig ist
 
 Lineare Gleichungen gehören zu den Grundmustern der Algebra. Sie helfen dir, unbekannte Werte nicht durch Raten, sondern durch geordnetes Umformen zu bestimmen.

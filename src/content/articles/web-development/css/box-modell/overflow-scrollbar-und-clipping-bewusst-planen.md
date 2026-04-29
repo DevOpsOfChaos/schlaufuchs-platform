@@ -3,41 +3,15 @@ title: "CSS – Overflow, Scrollbar und Clipping bewusst planen"
 description: "Verstehe, wann Inhalte überlaufen dürfen, wann sie scrollbar sein müssen und warum abgeschnittene Inhalte ein UX-Problem werden können."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "box-modell"
-  - "overflow-scrollbar-und-clipping-bewusst-planen"
-learningGoals:
-  - "Du unterscheidest sichtbaren Überlauf, Scrollbereich und abgeschnittenen Inhalt."
-  - "Du prüfst, ob verborgenes Material noch bedienbar ist."
-  - "Du planst Containergrößen nicht nur optisch, sondern nutzbar."
-practiceIdeas:
-  - "Prüfe ein kleines Beispiel zuerst fachlich und erst danach im Code."
-  - "Vergleiche eine schwache und eine bessere Umsetzung."
-  - "Teste die Entscheidung mit Tastatur, kleiner Breite und verständlichem sichtbarem Text."
-commonMistakes:
-  - "overflow: hidden als schnelle Reparatur für jedes Layoutproblem zu nutzen."
-  - "Fokuszustände oder Dropdowns abzuschneiden."
-  - "Horizontales Scrollen ohne Hinweis zu erzeugen."
-keyTakeaways:
-  - "Die sichtbare Bedeutung und die technische Struktur müssen zusammenpassen."
-  - "Robuste Weboberflächen entstehen durch kleine, bewusst geprüfte Entscheidungen."
-  - "Ein gutes Review fragt nach Nutzbarkeit, Semantik, Layout und Wartbarkeit."
-recognizeSignals:
-  - "Es geht um HTML- oder CSS-Entscheidungen, die nicht nur optisch wirken."
-  - "Eine Aufgabe fragt nach Bedienbarkeit, Lesbarkeit oder semantischer Zuordnung."
-  - "Der Code funktioniert scheinbar, aber die Nutzererfahrung ist noch unsicher."
-selfCheckPoints:
-  - "Kann ich die Entscheidung ohne Fachjargon erklären?"
-  - "Passt der sichtbare Text zur technischen Struktur?"
-  - "Bleibt die Lösung bei kleinen Breiten und Tastaturbedienung nutzbar?"
-tags:
-  - "web development"
-  - "css"
-  - "overflow"
-  - "scrollbar"
-  - "layout"
+topicPath: ["css", "box-modell", "overflow-scrollbar-und-clipping-bewusst-planen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
 ## Grundidee

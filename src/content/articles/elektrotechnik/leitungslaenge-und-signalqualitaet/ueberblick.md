@@ -1,37 +1,19 @@
 ---
 title: "Leitungslänge und Signalqualität"
 description: "Allgemeiner Überblick über Leitungslänge, Kapazität, Störungen und Signalqualität bei elektrischen Verbindungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Kommunikation"
-topicPath:
-  - "leitungslaenge-und-signalqualitaet"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Leitungslänge und Signalqualität als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["leitungslaenge-und-signalqualitaet", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Kabel werden oft als verlängerter idealer Draht betrachtet."
-keyTakeaways:
-  - "Lange Leitungen verändern Signalverhalten."
-  - "Signal und Massebezug gehören zusammen."
-  - "Geschwindigkeit und Umgebung bestimmen Zuverlässigkeit."
-recognizeSignals:
-  - "Eine Schaltung funktioniert nur mit kurzen Kabeln."
-  - "Signale zeigen langsame Flanken, Störungen oder Kommunikationsfehler."
-selfCheckPoints:
-  - "Kann ich Leitungslänge und Signalqualität in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "leitungen"
-  - "signalqualitaet"
-  - "kommunikation"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Kommunikation"]
 draft: false
 ---
-
 # Leitungslänge und Signalqualität
 
 Leitungen sind keine idealen Verbindungen. Mit zunehmender Länge beeinflussen Widerstand, Kapazität, Induktivität, Störungen und Masseführung das Signal.

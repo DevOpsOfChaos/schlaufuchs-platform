@@ -3,24 +3,12 @@ title: "Lösung: Formulareingaben auslesen: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-v190-012a im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "formulare"
-  - "formulareingaben-auslesen"
-  - "loesung-a"
+topicPath: ["sanierung-v190", "formulareingaben-auslesen-aufgabe-a"]
 taskId: "web-v190-012a"
 relatedExercise: "web-development/sanierung-v190/formulareingaben-auslesen-aufgabe-a"
-tags:
-  - "formulare"
-  - "formulareingaben"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-012a`
 
 Ausgangsauftrag: Lies drei Formularfelder aus und beschreibe ihre Rollen.

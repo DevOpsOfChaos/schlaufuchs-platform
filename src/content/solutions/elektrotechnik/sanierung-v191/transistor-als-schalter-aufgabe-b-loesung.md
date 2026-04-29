@@ -3,24 +3,12 @@ title: "Lösung: Transistor als Schalter: Aufgabe B"
 description: "Musterlösung zur Aufgabe etech-v191-015b im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "halbleiter"
-  - "transistor-als-schalter"
-  - "loesung-b"
+topicPath: ["sanierung-v191", "transistor-als-schalter-aufgabe-b"]
 taskId: "etech-v191-015b"
 relatedExercise: "elektrotechnik/sanierung-v191/transistor-als-schalter-aufgabe-b"
-tags:
-  - "halbleiter"
-  - "transistor"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-015b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Transistor als Schalter“ um einen Messfehler, einen Sicherheitscheck und eine kurze Plausibilitätsprüfung.

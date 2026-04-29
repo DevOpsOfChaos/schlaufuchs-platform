@@ -3,22 +3,12 @@ title: "Lösung: Ausgabe gezielt platzieren"
 description: "Musterlösung zur Aufgabe „Ausgabe gezielt platzieren“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "debugging-und-fehlerhypothesen"
-  - "ausgabe-gezielt-platzieren-v116"
+topicPath: ["programmierpraxis-und-tests", "debugging-und-fehlerhypothesen", "ausgabe-gezielt-platzieren-v116"]
 taskId: "ausgabe-gezielt-platzieren-v116"
 relatedExercise: "informatik/programmierpraxis-und-tests/debugging-und-fehlerhypothesen/ausgabe-gezielt-platzieren-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "debugging und fehlerhypothesen"
-  - "ausgabe gezielt platzieren"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

@@ -1,44 +1,19 @@
 ---
-title: Suchen und Sortieren unterscheiden
-description: Verstehe, warum Suchen und Sortieren zwei verschiedene Aufgaben sind und wie beide Schritte in Datenabläufen oft zusammenwirken.
-subject: informatik
-section: Algorithmen
-topicPath:
-  - algorithmen
-  - suchen-und-sortieren-unterscheiden
-learningGoals:
-  - Du unterscheidest Suchen und Sortieren nach ihrem Ziel.
-  - Du beschreibst, warum beide Prozesse in Datenabläufen unterschiedliche Rollen haben.
-  - Du erkennst, wann erst gefunden und wann erst geordnet werden muss.
-practiceIdeas:
-  - Vergleiche eine Suchfunktion mit einer Sortieroption in einer Liste.
-  - Prüfe bei Beispielen, ob eine Aufgabe nach einem Treffer oder nach einer Ordnung fragt.
-  - Erkläre, warum beide Ideen oft zusammen vorkommen, aber nicht dasselbe bedeuten.
-commonMistakes:
-  - Suchen und Sortieren als denselben Verarbeitungsschritt zu behandeln.
-  - eine gefundene Position mit einer geordneten Liste zu verwechseln.
-  - zu glauben, Sortieren liefere automatisch die Antwort auf jede Suchfrage.
-keyTakeaways:
-  - Suchen beantwortet die Frage nach einem passenden Treffer.
-  - Sortieren ordnet viele Elemente nach einer Regel.
-  - Beide Aufgaben können zusammen auftreten, haben aber unterschiedliche Ziele.
-recognizeSignals:
-  - Es geht um Listen, Datensätze, Treffer, Reihenfolge oder Auswahl.
-  - Du sollst erklären, ob in einem Ablauf eher ein Treffer gesucht oder eine Ordnung hergestellt wird.
-  - In Beispielen tauchen Suchfeld und Sortiermenü nebeneinander auf.
-selfCheckPoints:
-  - Kann ich Ziel und Wirkung von Suchen und Sortieren trennen?
-  - Kann ich beschreiben, warum eine Sortierung nicht automatisch eine Suche ersetzt?
-  - Kann ich erklären, wann beide Schritte sinnvoll kombiniert werden?
-tags:
-  - informatik
-  - algorithmus
-  - suchen
-  - sortieren
-level: einfach
+title: "Suchen und Sortieren unterscheiden"
+description: "Verstehe, warum Suchen und Sortieren zwei verschiedene Aufgaben sind und wie beide Schritte in Datenabläufen oft zusammenwirken."
+subject: "informatik"
+section: "Algorithmen"
+topicPath: ["algorithmen", "suchen-und-sortieren-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Algorithmen"]
 draft: false
 ---
-
 ## Grundidee
 
 In der Informatik tauchen Suchen und Sortieren ständig auf. Sie wirken ähnlich, weil beide mit Datenlisten arbeiten. Trotzdem verfolgen sie **verschiedene Ziele**.

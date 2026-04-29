@@ -1,36 +1,19 @@
 ---
 title: "Dimensionsanalyse"
 description: "Dimensionsanalyse prüft, ob Größenbeziehungen hinsichtlich ihrer Einheiten und Dimensionen plausibel sind."
-subject: mathematik
+subject: "mathematik"
 section: "Größen"
-topicPath:
-  - "dimensionsanalyse"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Dimensionsanalyse als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["dimensionsanalyse", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Einheiten erst am Ende ergänzt, statt sie während des Rechenwegs mitzudenken."
-keyTakeaways:
-  - "Dimensionsanalyse prüft, ob Größenbeziehungen hinsichtlich ihrer Einheiten und Dimensionen plausibel sind."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Dimensionsanalyse, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Dimensionsanalyse in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "einheiten"
-  - "modellieren"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Größen"]
 draft: false
 ---
-
 # Dimensionsanalyse
 
 Dimensionsanalyse prüft, ob Größenbeziehungen hinsichtlich ihrer Einheiten und Dimensionen

@@ -1,20 +1,14 @@
 ---
-title: Lösung – Linktexte beurteilen und verbessern
-description: Musterlösung zur Aufgabe über klare und unklare Linktexte.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - linktexte-und-links
-taskId: WEB-HTML-A11Y-301
-relatedExercise: web-development/html/linktexte-und-links/linktexte-beurteilen-und-verbessern
-tags:
-  - html
-  - links
-  - loesung
+title: "Lösung – Linktexte beurteilen und verbessern"
+description: "Musterlösung zur Aufgabe über klare und unklare Linktexte."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "linktexte-und-links", "linktexte-beurteilen-und-verbessern"]
+taskId: "WEB-HTML-A11Y-301"
+relatedExercise: "web-development/html/linktexte-und-links/linktexte-beurteilen-und-verbessern"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

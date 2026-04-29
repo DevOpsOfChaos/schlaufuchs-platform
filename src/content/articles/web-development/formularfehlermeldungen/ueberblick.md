@@ -1,37 +1,19 @@
 ---
 title: "Formularfehlermeldungen"
 description: "Überblick über verständliche Fehlermeldungen in Formularen und ihre Rolle für Nutzbarkeit und Barrierefreiheit."
-subject: web-development
+subject: "web-development"
 section: "Formulare"
-topicPath:
-  - "formularfehlermeldungen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Formularfehlermeldungen als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["formularfehlermeldungen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Fehler erst nach dem Absenden pauschal oben zu melden und die betroffenen Felder nicht eindeutig zu verbinden."
-keyTakeaways:
-  - "Fehlermeldungen müssen konkret und auffindbar sein."
-  - "Barrierefreiheit verlangt mehr als rote Rahmen."
-  - "Gute Meldungen helfen beim Korrigieren, nicht nur beim Ablehnen."
-recognizeSignals:
-  - "Ein Formular wird abgesendet und einzelne Felder sind ungültig."
-  - "Nutzer sollen Eingabefehler schnell verstehen."
-selfCheckPoints:
-  - "Kann ich Formularfehlermeldungen in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "web-development"
-  - "formulare"
-  - "validierung"
-  - "barrierefreiheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Formulare"]
 draft: false
 ---
-
 # Formularfehlermeldungen
 
 Formularfehlermeldungen erklären, welche Eingabe problematisch ist, warum sie nicht akzeptiert wurde und wie sie korrigiert werden kann.

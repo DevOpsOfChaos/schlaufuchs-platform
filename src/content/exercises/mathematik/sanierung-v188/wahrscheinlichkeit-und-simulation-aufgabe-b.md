@@ -3,33 +3,15 @@ title: "Wahrscheinlichkeit und Simulation: Prüfen und Begründen"
 description: "Bewerte eine Aussage zu Wahrscheinlichkeit und Simulation und formuliere eine bessere Arbeitsregel."
 subject: "mathematik"
 section: "daten-deuten-und-pruefen"
-topicPath:
-  - "daten-deuten-und-pruefen"
-  - "wahrscheinlichkeit-und-simulation"
-  - "aufgabe-b"
+topicPath: ["sanierung-v188", "wahrscheinlichkeit-und-simulation-aufgabe-b"]
 taskId: "mat-v188-034b"
-tags:
-  - "wahrscheinlichkeit"
-  - "simulation"
-  - "zufall"
-  - "mathematik"
-  - "aufgabe"
-  - "v188"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["mathematik", "daten-deuten-und-pruefen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Prüfe die folgende Aussage zum Thema **Wahrscheinlichkeit und Simulation**:

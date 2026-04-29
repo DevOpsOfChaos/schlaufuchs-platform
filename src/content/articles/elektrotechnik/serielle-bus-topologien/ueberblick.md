@@ -1,35 +1,17 @@
 ---
 title: "Serielle Bus-Topologien"
 description: "Überblick über die Anordnung serieller Teilnehmer, Leitungslängen und typische Busformen in digitalen Schnittstellen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schnittstellen"
-topicPath:
-  - "serielle-bus-topologien"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Serielle Bus-Topologien als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["serielle-bus-topologien", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird ein funktionierendes kurzes Kabel als Beweis für eine robuste Topologie verstanden. Bei längeren Leitungen können dieselben Signale instabil werden."
-keyTakeaways:
-  - "Serielle Bus-Topologien beschreiben, wie Teilnehmer elektrisch und logisch an gemeinsame Kommunikationsleitungen angeschlossen sind."
-  - "Die Topologie beeinflusst Signalqualität, Störanfälligkeit, Adressierung, Abschluss und Fehlersuche."
-  - "Eine Protokollbeschreibung allein reicht nicht aus. Auch Leitungslänge, Massebezug und elektrische Treiber müssen passen."
-recognizeSignals:
-  - "Es geht um Serielle Bus-Topologien, wenn ein Punkt-zu-Punkt-Link verhält sich anders als ein gemeinsamer Bus mit mehreren Teilnehmern."
-  - "Das Thema wird relevant, wenn Beispiele wie i²C ist typischerweise ein kurzer gemeinsamer Bus, während UART meist eine Punkt-zu-Punkt-Verbindung ist."
-selfCheckPoints:
-  - "Kann ich Serielle Bus-Topologien in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "schnittstellen"
-  - "bus"
-  - "topologie"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Schnittstellen"]
 draft: false
 ---
 # Serielle Bus-Topologien

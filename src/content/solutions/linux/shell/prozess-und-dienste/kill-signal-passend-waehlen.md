@@ -3,21 +3,12 @@ title: "Lösung – kill-Signal passend wählen"
 description: "Musterlösung zu kill-signal passend wählen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "prozess-und-dienste"
-  - "kill-signal-passend-waehlen"
+topicPath: ["shell", "prozess-und-dienste", "kill-signal-passend-waehlen"]
 taskId: "v112-linux-kill-signal-passend-waehlen"
 relatedExercise: "linux/shell/prozess-und-dienste/kill-signal-passend-waehlen"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "kill-signal-passend-waehlen"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Prozesse und Dienste**.

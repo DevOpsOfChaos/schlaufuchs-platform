@@ -1,32 +1,17 @@
 ---
 title: "Gewichtetes Mittel"
 description: "Allgemeiner Überblick über Mittelwerte mit unterschiedlich stark gewichteten Beiträgen."
-subject: mathematik
+subject: "mathematik"
 section: "Daten und Statistik"
-topicPath:
-  - "gewichtetes-mittel"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Gewichtetes Mittel als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Gewichte, Summe der Gewichte, Notendurchschnitt."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["gewichtetes-mittel", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein gewichtetes Mittel wie einen einfachen Durchschnitt zu berechnen."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Gewichtetes Mittel beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Zusammenfassung ungleich wichtiger Werte."
-  - "Wichtige Hinweise liefern vor allem Gewichte, Summe der Gewichte, Notendurchschnitt."
-recognizeSignals:
-  - "Es geht um zusammenfassung ungleich wichtiger werte, gewichte oder summe der gewichte."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Gewichtetes Mittel erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "statistik"
-  - "mittelwert"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Daten und Statistik"]
 draft: false
 ---
 # Gewichtetes Mittel

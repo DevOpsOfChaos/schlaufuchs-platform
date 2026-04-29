@@ -3,44 +3,17 @@ title: "JavaScript – Fehlerzustände in der Oberfläche verständlich machen"
 description: "Verstehe Fehler nicht als Konsolenausgabe, sondern als Zustand, zu dem Nutzerinnen und Nutzer eine klare Rückmeldung brauchen."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "robustheit-und-fehler"
-  - "fehlerzustaende-in-der-oberflaeche-verstaendlich-machen"
-learningGoals:
-  - "Du behandelst Fehler als sichtbaren UI-Zustand."
-  - "Du gibst Nutzerinnen und Nutzern einen sinnvollen nächsten Schritt."
-  - "Du unterscheidest technische Ursache und verständliche Meldung."
-practiceIdeas:
-  - "Übertrage die Idee auf eine kleine eigene Seite."
-  - "Prüfe die Bedienung einmal mit Tastatur und einmal mit Maus."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "Nur console.error zu nutzen und die Oberfläche unverändert zu lassen."
-  - "Technische Fehlermeldungen ungefiltert anzuzeigen."
-  - "Keinen Weg zum Wiederholen oder Korrigieren anzubieten."
-keyTakeaways:
-  - "Robuste Webinteraktion trennt Struktur, Zustand und Rückmeldung."
-  - "Nutzerführung ist Teil der technischen Lösung."
-  - "Fehler und Sonderfälle werden sichtbar geplant."
-recognizeSignals:
-  - "Es geht um JavaScript im Browser, UI-Zustand oder dynamische Rückmeldung."
-  - "Eine Interaktion soll verständlicher, sicherer oder robuster werden."
-  - "HTML, CSS und JavaScript müssen gemeinsam gelesen werden."
-selfCheckPoints:
-  - "Kann ich die Aufgabe des Codes in einem Satz erklären?"
-  - "Bleibt die Interaktion ohne Maus oder bei Fehlern nachvollziehbar?"
-  - "Sind sichtbare Texte verständlich und deutsch formuliert?"
+topicPath: ["javascript", "robustheit-und-fehler", "fehlerzust+ñnde-in-der-oberfl+ñche-verstaendlich-machen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "web development"
-  - "javascript"
-  - "fehler"
-  - "ux"
-  - "robustheit"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Diese Seite zeigt dir, wie du Fehlerzustände in der Oberfläche verständlich machen nicht als isolierten JavaScript-Trick, sondern als kleine UX- und Robustheitsentscheidung liest.

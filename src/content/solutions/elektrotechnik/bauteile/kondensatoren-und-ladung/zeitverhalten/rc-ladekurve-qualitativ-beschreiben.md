@@ -3,23 +3,12 @@ title: "Lösung – RC-Ladekurve qualitativ beschreiben"
 description: "Musterlösung zu RC-Zeitverhalten mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "elektrotechnik"
 section: "Bauteile"
-topicPath:
-  - "bauteile"
-  - "kondensatoren-und-ladung"
-  - "zeitverhalten"
-  - "rc-ladekurve-qualitativ-beschreiben"
+topicPath: ["bauteile", "kondensatoren-und-ladung", "zeitverhalten", "rc-ladekurve-qualitativ-beschreiben"]
 taskId: "v107-elektrotechnik-rc-ladekurve-qualitativ-beschreiben"
 relatedExercise: "elektrotechnik/bauteile/kondensatoren-und-ladung/zeitverhalten/rc-ladekurve-qualitativ-beschreiben"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "schaltungen"
-  - "rc-zeitverhalten"
-  - "bauteile"
-  - "kondensatoren-und-ladung"
+tags: ["elektrotechnik", "Bauteile", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **RC-Zeitverhalten**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

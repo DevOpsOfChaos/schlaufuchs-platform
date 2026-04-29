@@ -3,24 +3,12 @@ title: "Lösung: Queues und Stacks im Ablauf: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-019a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "datenstrukturen-und-algorithmen"
-  - "queues-und-stacks-im-ablauf"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "queues-und-stacks-im-ablauf-loesung-a"]
 taskId: "informatik-v193-019a"
 relatedExercise: "informatik/sanierung-v193/queues-und-stacks-im-ablauf-aufgabe-a"
-tags:
-  - "queues"
-  - "stacks"
-  - "ablauf"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-019a`
 
 Ausgangsauftrag: Ordne Browser-Zurück, Druckwarteschlange und Undo einer Struktur zu.

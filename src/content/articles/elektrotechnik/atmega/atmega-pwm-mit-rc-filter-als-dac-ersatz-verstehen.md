@@ -1,46 +1,19 @@
 ---
-title: ATmega – PWM mit RC-Filter als DAC-Ersatz verstehen
-description: Verstehe, warum ein PWM-Signal mit Tiefpass ähnlich wie eine analoge Ausgangsspannung wirken kann und wo die Grenzen dieser Idee liegen.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - ausgabe-und-pwm
-  - atmega-pwm-mit-rc-filter-als-dac-ersatz-verstehen
-learningGoals:
-  - Du erklärst die Grundidee eines PWM-Ausgangs mit RC-Filter.
-  - Du unterscheidest Tastverhältnis und geglätteten Mittelwert sauber voneinander.
-  - Du benennst die Grenzen dieser Lösung gegenüber einem echten DAC.
-practiceIdeas:
-  - Vergleiche ein rohes PWM-Signal mit einer geglätteten Spannung hinter einem RC-Filter.
-  - Prüfe, warum PWM-Frequenz und Filterzeitkonstante zusammen gedacht werden müssen.
-  - Lies eine analoge Näherung nicht sofort als vollwertigen DAC-Ersatz.
-commonMistakes:
-  - Zu denken, der PWM-Pin liefere direkt eine echte Analogspannung.
-  - Tastverhältnis und Filterwirkung getrennt voneinander zu betrachten.
-  - Zu übersehen, dass Restwelligkeit und Dynamik Grenzen setzen.
-keyTakeaways:
-  - PWM liefert zunächst nur ein getaktetes Digitalsignal.
-  - Erst ein Tiefpass macht daraus eine ruhigere Spannung mit Mittelwertcharakter.
-  - Diese Lösung ist praktisch, aber nicht gleichwertig mit einem echten präzisen DAC.
-recognizeSignals:
-  - Es geht um PWM, RC-Filter, analoge Näherung oder „Pseudo-DAC“.
-  - Du sollst erklären, warum ein digitales Signal analog wirken kann.
-  - In Aufgaben ist der Zusammenhang zwischen Frequenz, Tastverhältnis und Filter entscheidend.
-selfCheckPoints:
-  - Kann ich rohes PWM-Signal und geglättete Spannung trennen?
-  - Kann ich den Mittelwertgedanken verständlich erklären?
-  - Kann ich die Grenzen gegenüber einem echten DAC benennen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - pwm
-  - dac
-level: fortgeschritten
+title: "ATmega – PWM mit RC-Filter als DAC-Ersatz verstehen"
+description: "Verstehe, warum ein PWM-Signal mit Tiefpass ähnlich wie eine analoge Ausgangsspannung wirken kann und wo die Grenzen dieser Idee liegen."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-pwm-mit-rc-filter-als-dac-ersatz-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein PWM-Pin des ATmega ist zunächst kein Analogausgang. Er schaltet nur zwischen zwei digitalen Pegeln um. Wenn dieses Signal aber schnell genug ist und danach durch einen **RC-Tiefpass** läuft, entsteht am Ausgang eine geglättete Spannung, die sich wie ein analoger Mittelwert lesen lässt.

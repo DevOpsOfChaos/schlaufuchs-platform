@@ -1,46 +1,19 @@
 ---
-title: ATmega – ISR kurz halten und volatile verstehen
-description: Verstehe, warum Interrupt-Service-Routinen knapp bleiben sollten und warum gemeinsam genutzte Variablen volatile brauchen können.
-subject: elektrotechnik
-section: Mikrocontroller und ATmega
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - isr-kurz-halten-und-volatile-verstehen
-learningGoals:
-  - "Du erklärst, warum eine ISR nur sehr kurze, klare Arbeit erledigen sollte."
-  - "Du beschreibst, warum Hauptprogramm und ISR gemeinsame Daten besonders vorsichtig nutzen müssen."
-  - "Du verstehst volatile als Hinweis an den Compiler, dass sich ein Wert außerhalb des sichtbaren Programmflusses ändern kann."
-practiceIdeas:
-  - "Markiere in Beispielcode, welche Variable im Hauptprogramm und in der ISR benutzt wird."
-  - "Formuliere eine ISR zuerst als Ereignisnotiz statt als vollständige Verarbeitung."
-  - "Unterscheide zwischen Flag setzen und umfangreicher Arbeit erledigen."
-commonMistakes:
-  - "In einer ISR lange Berechnungen, Warteschleifen oder umfangreiche Ausgaben unterzubringen."
-  - "Eine von der ISR geänderte Variable im Hauptprogramm ohne volatile zu verwenden."
-  - "Interrupts als normale Funktionsaufrufe zu lesen und den unterbrochenen Programmfluss zu vergessen."
-keyTakeaways:
-  - "Eine ISR sollte schnell zurückkehren, damit das System reaktionsfähig bleibt."
-  - "Oft setzt die ISR nur ein Flag, während das Hauptprogramm die eigentliche Arbeit erledigt."
-  - "volatile kann nötig sein, wenn eine Variable außerhalb des normalen Programmflusses verändert wird."
-recognizeSignals:
-  - "Es geht um ISR, Interrupt, Flag, Hauptschleife oder gemeinsam genutzte Variablen."
-  - "Eine Variable wird in einer ISR geschrieben und im Hauptprogramm gelesen."
-  - "Eine Aufgabe fragt, warum langer Code in einer ISR problematisch ist."
-selfCheckPoints:
-  - "Kann ich sagen, welche Arbeit wirklich in die ISR muss?"
-  - "Kann ich ein Ereignis über ein Flag an die Hauptschleife übergeben?"
-  - "Kann ich erklären, warum volatile hier nicht Geschwindigkeit, sondern Sichtbarkeit betrifft?"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - interrupt
-  - volatile
-level: mittel
+title: "ATmega – ISR kurz halten und volatile verstehen"
+description: "Verstehe, warum Interrupt-Service-Routinen knapp bleiben sollten und warum gemeinsam genutzte Variablen volatile brauchen können."
+subject: "elektrotechnik"
+section: "Mikrocontroller und ATmega"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "isr-kurz-halten-und-volatile-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Interrupt unterbricht den normalen Ablauf. Die Interrupt-Service-Routine, kurz ISR, läuft also nicht „irgendwann gemütlich“, sondern mitten in einem anderen Programmzustand. Darum sollte sie kurz, eindeutig und vorhersehbar bleiben.

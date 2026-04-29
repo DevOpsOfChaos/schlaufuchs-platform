@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – GET, POST und Superglobals zuordnen
-description: Musterlösung zur Aufgabe INF-PHP-REQUEST-001.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - get-post-und-superglobals-in-php-verstehen
-  - get-post-und-superglobals-zuordnen-loesung
-taskId: INF-PHP-REQUEST-001
-relatedExercise: src/content/exercises/informatik/programmierung/php/get-post-und-superglobals-in-php-verstehen/get-post-und-superglobals-zuordnen.md
-tags:
-  - informatik
-  - loesung
-  - php
-  - task-id
+title: "Musterlösung – GET, POST und Superglobals zuordnen"
+description: "Musterlösung zur Aufgabe INF-PHP-REQUEST-001."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "get-post-und-superglobals-in-php-verstehen", "get-post-und-superglobals-zuordnen"]
+taskId: "INF-PHP-REQUEST-001"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/get-post-und-superglobals-in-php-verstehen/get-post-und-superglobals-zuordnen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Suchbegriff über Link mit Parametern → eher GET. Login-Formular → eher POST. Einfache Filterauswahl in einer URL → eher GET.

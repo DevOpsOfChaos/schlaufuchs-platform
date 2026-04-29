@@ -3,23 +3,12 @@ title: "Lösung – Schleifeninvariante als Kontrollsatz formulieren"
 description: "Musterlösung zu Schleifeninvariante mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Algorithmen"
-topicPath:
-  - "algorithmen"
-  - "schleifen-und-invarianten"
-  - "invariante"
-  - "schleifeninvariante-als-kontrollsatz-formulieren"
+topicPath: ["algorithmen", "schleifen-und-invarianten", "invariante", "schleifeninvariante-als-kontrollsatz-formulieren"]
 taskId: "v109-informatik-schleifeninvariante-als-kontrollsatz-formulieren"
 relatedExercise: "informatik/algorithmen/schleifen-und-invarianten/invariante/schleifeninvariante-als-kontrollsatz-formulieren"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "algorithmen"
-  - "schleifen-und-invarianten"
-  - "schleifeninvariante"
+tags: ["informatik", "Algorithmen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Schleifeninvariante**.

@@ -3,22 +3,12 @@ title: "Lösung: Überschriftenhierarchie prüfen"
 description: "Musterlösung zur Aufgabe „Überschriftenhierarchie prüfen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "html-zugaenglichkeit-und-struktur"
-  - "semantik-und-bedienabsicht"
-  - "ueberschriftenhierarchie-pruefen-v116"
+topicPath: ["html-zugaenglichkeit-und-struktur", "semantik-und-bedienabsicht", "ueberschriftenhierarchie-pruefen-v116"]
 taskId: "ueberschriftenhierarchie-pruefen-v116"
 relatedExercise: "web-development/html-zugaenglichkeit-und-struktur/semantik-und-bedienabsicht/ueberschriftenhierarchie-pruefen-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "semantik und bedienabsicht"
-  - "ueberschriftenhierarchie pruefen"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

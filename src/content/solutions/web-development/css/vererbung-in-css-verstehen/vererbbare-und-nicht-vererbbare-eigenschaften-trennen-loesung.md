@@ -1,22 +1,14 @@
 ---
-title: Musterlösung – Vererbbare und nicht vererbbare Eigenschaften trennen
-description: Musterlösung zur Aufgabe WEB-CSS-CORE-103.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - vererbung-in-css-verstehen
-  - vererbbare-und-nicht-vererbbare-eigenschaften-trennen-loesung
-taskId: WEB-CSS-CORE-103
-relatedExercise: src/content/exercises/web-development/css/vererbung-in-css-verstehen/vererbbare-und-nicht-vererbbare-eigenschaften-trennen.md
-tags:
-  - web-development
-  - css
-  - loesung
-  - task-id
+title: "Musterlösung – Vererbbare und nicht vererbbare Eigenschaften trennen"
+description: "Musterlösung zur Aufgabe WEB-CSS-CORE-103."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "vererbung-in-css-verstehen", "vererbbare-und-nicht-vererbbare-eigenschaften-trennen"]
+taskId: "WEB-CSS-CORE-103"
+relatedExercise: "src/content/exercises/web-development/css/vererbung-in-css-verstehen/vererbbare-und-nicht-vererbbare-eigenschaften-trennen.md"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Farbe oder Border?
 
 Die Kindelemente übernehmen typischerweise eher die rote Schriftfarbe, weil das eine textnahe Eigenschaft ist. Der grüne Rahmen gehört zur Box des Elternelements und wird nicht automatisch als eigener Rahmen an jedes Kind weitergegeben.

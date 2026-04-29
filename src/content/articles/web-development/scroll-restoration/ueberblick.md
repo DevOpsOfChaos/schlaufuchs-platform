@@ -1,36 +1,19 @@
 ---
 title: "Scroll Restoration"
 description: "Scroll Restoration beschreibt, ob und wie eine Webseite nach Navigation oder Zurückspringen die vorherige Scrollposition wiederherstellt."
-subject: web-development
+subject: "web-development"
 section: "Browser"
-topicPath:
-  - "scroll-restoration"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Scroll Restoration als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["scroll-restoration", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird nur die Detailseite optimiert, während Rückwege in langen Listen frustrierend bleiben."
-keyTakeaways:
-  - "Scroll Restoration beschreibt, ob und wie eine Webseite nach Navigation oder Zurückspringen die vorherige Scrollposition wiederherstellt."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Scroll Restoration, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Scroll Restoration in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "web"
-  - "navigation"
-  - "browser"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Browser"]
 draft: false
 ---
-
 # Scroll Restoration
 
 Scroll Restoration beschreibt, ob und wie eine Webseite nach Navigation oder Zurückspringen die

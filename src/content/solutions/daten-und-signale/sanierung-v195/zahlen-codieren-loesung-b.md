@@ -3,24 +3,12 @@ title: "Lösung: Zahlen codieren: Aufgabe B"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-006b im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "darstellung-und-code"
-  - "zahlen-codieren"
-  - "loesung-b"
-
+topicPath: ["sanierung-v195", "zahlen-codieren-loesung-b"]
 taskId: "daten-und-signale-v195-006b"
 relatedExercise: "daten-und-signale/sanierung-v195/zahlen-codieren-aufgabe-b"
-tags:
-  - "zahlen"
-  - "codieren"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-006b`
 
 Ausgangsauftrag: Übertrage das Thema Zahlen codieren auf ein zweites Beispiel und formuliere eine kurze Prüfung.

@@ -1,42 +1,19 @@
 ---
 title: "Grundlagen: Kalibrierung und Sensorlinearität"
 description: "Allgemeiner Überblick über Messwertzuordnung, Offset, Steigung und Grenzen einfacher Sensormodelle."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Daten und Signale"
-topicPath:
-  - daten-und-signale
-  - kalibrierung-und-sensorlinearitaet
-  - ueberblick
-learningGoals:
-  - "Du erklärst die Grundidee des Themas in eigenen Worten."
-  - "Du ordnest typische Begriffe, Grenzen und Fehlerquellen ruhig ein."
-  - "Du erkennst, welche Detailfragen zu diesem Themenbereich gehören."
-practiceIdeas:
-  - "Skizziere den Zusammenhang als Prüf-, Signal- oder Strompfad."
-  - "Notiere eine typische Fehlannahme und formuliere eine Gegenprobe."
-commonMistakes:
-  - "ADC-Werte direkt als physikalische Größe zu lesen."
-  - "Offset und Steigung zu verwechseln."
-  - "Ein lineares Modell außerhalb seines Bereichs zu verwenden."
-keyTakeaways:
-  - "Kalibrierung ordnet Messwerten Bedeutung zu."
-  - "Offset und Steigung beschreiben unterschiedliche Fehlerarten."
-  - "Sensorwerte sind nur im gültigen Bereich verlässlich."
-recognizeSignals:
-  - "Du brauchst zuerst Orientierung, bevor du eine konkrete Schaltung oder Aufgabe bewertest."
-  - "Ein Einzelfall wirkt plausibel, aber der allgemeine fachliche Rahmen fehlt."
-selfCheckPoints:
-  - "Kann ich das Thema ohne reines Auswendiglernen erklären?"
-  - "Kann ich typische Fehlerquellen in einer sinnvollen Prüfreihenfolge nennen?"
-level: einfach
-tags:
-  - elektrotechnik
-  - sensoren
-  - kalibrierung
-  - messwerte
+topicPath: ["daten-und-signale", "kalibrierung-und-sensorlinearitaet", "ueberblick", "grundlagen-kalibrierung-und-sensorlinearitaet"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Daten und Signale"]
 draft: false
 ---
-
 ![Kalibrierung und Sensorlinearität](/schlaufuchs-platform/images/overviews/v182/kalibrierung-und-sensorlinearitaet.svg)
 
 ## Überblick

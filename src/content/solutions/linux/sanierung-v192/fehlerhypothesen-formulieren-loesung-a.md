@@ -3,25 +3,12 @@ title: "Lösung: Fehlerhypothesen formulieren: Aufgabe A"
 description: "Musterlösung zur Aufgabe linux-v192-012a im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "logging-und-diagnose"
-  - "fehlerhypothesen-formulieren"
-  - "loesung-a"
+topicPath: ["sanierung-v192", "fehlerhypothesen-formulieren-loesung-a"]
 taskId: "linux-v192-012a"
 relatedExercise: "linux/sanierung-v192/fehlerhypothesen-formulieren-aufgabe-a"
-tags:
-  - "logging-und-diagnose"
-  - "fehlerhypothesen"
-  - "formulieren"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-012a`
 
 Ausgangsauftrag: Formuliere drei prüfbare Hypothesen zu einem Dienstfehler.

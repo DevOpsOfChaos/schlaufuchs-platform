@@ -3,23 +3,12 @@ title: "Lösung – LIFO und FIFO an Beispielen erkennen"
 description: "Musterlösung zu LIFO/FIFO mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "informatik"
 section: "Datenstrukturen"
-topicPath:
-  - "datenstrukturen"
-  - "stapel-und-warteschlangen"
-  - "zugriffsregel"
-  - "lifo-und-fifo-an-beispielen-erkennen"
+topicPath: ["datenstrukturen", "stapel-und-warteschlangen", "zugriffsregel", "lifo-und-fifo-an-beispielen-erkennen"]
 taskId: "v107-informatik-lifo-und-fifo-an-beispielen-erkennen"
 relatedExercise: "informatik/datenstrukturen/stapel-und-warteschlangen/zugriffsregel/lifo-und-fifo-an-beispielen-erkennen"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "algorithmen"
-  - "lifo/fifo"
-  - "datenstrukturen"
-  - "stapel-und-warteschlangen"
+tags: ["informatik", "Datenstrukturen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **LIFO/FIFO**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

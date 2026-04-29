@@ -3,24 +3,12 @@ title: "Lösung: Objekte und Konfigurationen: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-v190-008a im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "daten-im-frontend"
-  - "objekte-und-konfigurationen"
-  - "loesung-a"
+topicPath: ["sanierung-v190", "objekte-und-konfigurationen-aufgabe-a"]
 taskId: "web-v190-008a"
 relatedExercise: "web-development/sanierung-v190/objekte-und-konfigurationen-aufgabe-a"
-tags:
-  - "daten-im-frontend"
-  - "objekte"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-008a`
 
 Ausgangsauftrag: Entwirf ein Objekt für eine Lernkarte mit Titel, Level und Tags.

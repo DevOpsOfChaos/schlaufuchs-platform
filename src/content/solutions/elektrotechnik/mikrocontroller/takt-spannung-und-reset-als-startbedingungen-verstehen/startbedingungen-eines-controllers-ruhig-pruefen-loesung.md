@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Startbedingungen eines Controllers ruhig prüfen
-description: Musterlösung zur Aufgabe ELE-MCU-GEN-105.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - takt-spannung-und-reset-als-startbedingungen-verstehen
-  - startbedingungen-eines-controllers-ruhig-pruefen-loesung
-taskId: ELE-MCU-GEN-105
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller/takt-spannung-und-reset-als-startbedingungen-verstehen/startbedingungen-eines-controllers-ruhig-pruefen.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - loesung
-  - task-id
+title: "Musterlösung – Startbedingungen eines Controllers ruhig prüfen"
+description: "Musterlösung zur Aufgabe ELE-MCU-GEN-105."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "takt-spannung-und-reset-als-startbedingungen-verstehen", "startbedingungen-eines-controllers-ruhig-pruefen"]
+taskId: "ELE-MCU-GEN-105"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller/takt-spannung-und-reset-als-startbedingungen-verstehen/startbedingungen-eines-controllers-ruhig-pruefen.md"
+tags: ["elektrotechnik", "mikrocontroller", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Die Versorgung stellt die elektrische Grundlage bereit, damit der Controller stabil arbeiten kann. Der Takt bestimmt das Zeitraster für Befehle und Peripherie. Der Reset sorgt dafür, dass der Controller in einem definierten Anfangszustand startet.

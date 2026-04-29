@@ -3,23 +3,12 @@ title: "Lösung: Semantik und Landmarks: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-003a im Web-Development-Block v187."
 subject: "web-development"
 section: "html"
-topicPath: 
-  - "html-und-semantik"
-  - "landmarks"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "semantik-und-landmarks-aufgabe-a"]
 taskId: "web-v187-003a"
 relatedExercise: "web-development/sanierung-v187/semantik-und-landmarks-aufgabe-a"
-tags: 
-  - "html"
-  - "semantik"
-  - "landmarks"
-  - "barrierefreiheit"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "html", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-003a`
 
     Ausgangsauftrag: Ordne einer Beispielseite passende semantische Bereiche zu und erkläre, warum du sie gewählt hast.

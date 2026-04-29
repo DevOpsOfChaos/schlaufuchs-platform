@@ -1,22 +1,14 @@
 ---
 title: "Lösung – RC-Zeitverhalten qualitativ deuten"
 description: "Musterlösung zur Aufgabe RC-Zeitverhalten qualitativ deuten."
-subject: elektrotechnik
-section: schaltungen
-topicPath:
-  - schaltungen
-  - kondensator-rc-verhalten
-taskId: ET-V180-RC-001
-relatedExercise: src/content/exercises/elektrotechnik/schaltungen/kondensator-rc-verhalten/rc-zeitverhalten-qualitativ-deuten.md
-tags:
-  - elektrotechnik
-  - loesung
-  - kondensator
-  - rc
-  - zeitverhalten
+subject: "elektrotechnik"
+section: "schaltungen"
+topicPath: ["schaltungen", "kondensator-rc-verhalten", "rc-zeitverhalten-qualitativ-deuten"]
+taskId: "ET-V180-RC-001"
+relatedExercise: "src/content/exercises/elektrotechnik/schaltungen/kondensator-rc-verhalten/rc-zeitverhalten-qualitativ-deuten.md"
+tags: ["elektrotechnik", "schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1

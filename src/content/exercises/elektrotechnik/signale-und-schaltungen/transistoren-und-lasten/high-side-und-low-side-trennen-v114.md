@@ -1,35 +1,17 @@
 ---
-title: Aufgabe – High-Side und Low-Side trennen
-description: Übe High-Side und Low-Side trennen mit einem kleinen, prüfbaren Szenario.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- signale-und-schaltungen
-- transistoren-und-lasten
-- high-side-und-low-side-trennen-v114
-taskId: v114-elektrotechnik-high-side-und-low-side-trennen-v114
-tags:
-- elektrotechnik
-- v114
-- aufgabe
-- signale-und-schaltungen
-- transistoren-und-lasten
-hintPoints:
-- Beginne mit der konkreten Situation, nicht mit einer allgemeinen Definition.
-- 'Nutze die Prüffrage: Liegt der Schalter oberhalb oder unterhalb der Last?'
-- Formuliere am Ende eine Gegenprobe.
-selfCheckPoints:
-- Habe ich die Trennkante klar benannt?
-- Habe ich das Nachbarthema bewusst ausgeschlossen?
-- Ist meine Begründung an das Beispiel gekoppelt?
-transferIdeas:
-- Ändere eine Bedingung im Szenario und prüfe, ob die Entscheidung gleich bleibt.
-- Erkläre die Lösung einmal ohne Fachsprache und danach fachlich sauber.
-reflectionPrompt: Welche kleine Prüffrage hat dir am meisten geholfen?
-level: fortgeschritten
+title: "Aufgabe – High-Side und Low-Side trennen"
+description: "Übe High-Side und Low-Side trennen mit einem kleinen, prüfbaren Szenario."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["signale-und-schaltungen", "transistoren-und-lasten", "high-side-und-low-side-trennen-v114"]
+taskId: "v114-elektrotechnik-high-side-und-low-side-trennen-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **High-Side und Low-Side trennen**.

@@ -3,24 +3,12 @@ title: "Lösung: async, await und Fehlerbehandlung: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-v190-015a im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "datenladen"
-  - "async-await-und-fehlerbehandlung"
-  - "loesung-a"
+topicPath: ["sanierung-v190", "async-await-und-fehlerbehandlung-aufgabe-a"]
 taskId: "web-v190-015a"
 relatedExercise: "web-development/sanierung-v190/async-await-und-fehlerbehandlung-aufgabe-a"
-tags:
-  - "datenladen"
-  - "async"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-015a`
 
 Ausgangsauftrag: Plane Lade-, Erfolgs- und Fehlerzustand für eine kleine API-Abfrage.

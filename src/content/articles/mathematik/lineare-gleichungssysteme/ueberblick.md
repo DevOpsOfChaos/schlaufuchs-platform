@@ -1,31 +1,17 @@
 ---
 title: "Lineare Gleichungssysteme"
 description: "Allgemeiner Überblick über mehrere lineare Gleichungen, Lösungsverfahren und geometrische Deutung."
-subject: mathematik
+subject: "mathematik"
 section: "Algebra"
-topicPath:
-  - "lineare-gleichungssysteme"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Lineare Gleichungssysteme grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["lineare-gleichungssysteme", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Lineare Gleichungssysteme nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Lineare Gleichungssysteme beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Lineare Gleichungssysteme, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Lineare Gleichungssysteme in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "gleichungssysteme"
-  - "linear"
-  - "algebra"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Algebra"]
 draft: false
 ---
 # Lineare Gleichungssysteme

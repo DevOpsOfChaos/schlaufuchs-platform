@@ -1,36 +1,19 @@
 ---
 title: "Web Components"
 description: "Einordnung von Web Components als Browser-Standard für eigene wiederverwendbare Elemente."
-subject: web-development
+subject: "web-development"
 section: "Web-Standards"
-topicPath:
-  - "web-components"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Web Components als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["web-components", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Shadow DOM als vollständige Isolation missverstanden."
-keyTakeaways:
-  - "Web Components ermöglichen eigene HTML-Elemente."
-  - "Kapselung und Wiederverwendbarkeit sind zentrale Ziele."
-  - "Barrierefreiheit und Schnittstellen bleiben aktive Gestaltungsaufgaben."
-recognizeSignals:
-  - "Es geht um Web Components als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Web Components in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "web development"
-  - "web components"
-  - "standards"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web-Standards"]
 draft: false
 ---
-
 # Web Components
 
 Web Components sind eine Gruppe von Webstandards, mit denen eigene HTML-Elemente definiert werden können. Dazu gehören Custom Elements, Shadow DOM und Templates. Ziel ist, wiederverwendbare UI-Bausteine direkt mit Browsermitteln zu erstellen.

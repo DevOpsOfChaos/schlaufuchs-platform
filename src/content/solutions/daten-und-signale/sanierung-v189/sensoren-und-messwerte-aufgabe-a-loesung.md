@@ -3,22 +3,12 @@ title: "Lösung: Sensoren und Messwerte: Grundordnung"
 description: "Musterlösung zur Aufgabe dat-v189-027a."
 subject: "daten-und-signale"
 section: "messung"
-topicPath:
-  - "messung"
-  - "sensoren-und-messwerte"
-  - "loesung-a"
+topicPath: ["sanierung-v189", "sensoren-und-messwerte-aufgabe-a"]
 taskId: "dat-v189-027a"
 relatedExercise: "daten-und-signale/sanierung-v189/sensoren-und-messwerte-aufgabe-a"
-tags:
-  - "sensoren"
-  - "messwerte"
-  - "einheiten"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "messung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-027a`
 
 Eine mögliche Lösung:

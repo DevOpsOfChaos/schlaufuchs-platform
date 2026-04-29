@@ -1,32 +1,17 @@
 ---
 title: "I²C-Buskapazität"
 description: "Überblick über Leitungskapazität, Anstiegszeiten und Grenzen eines I²C-Busses."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schnittstellen"
-topicPath:
-  - "i2c-buskapazitaet"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst I²C-Buskapazität als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Leitungslänge, Eingangskapazität, Anstiegszeit."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["i2c-buskapazitaet", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "I²C-Probleme nur auf Softwareadressen oder falsche Register zurückzuführen."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "I²C-Buskapazität beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Kapazitive Belastung offener Busleitungen."
-  - "Wichtige Hinweise liefern vor allem Leitungslänge, Eingangskapazität, Anstiegszeit."
-recognizeSignals:
-  - "Es geht um kapazitive belastung offener busleitungen, leitungslänge oder eingangskapazität."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck I²C-Buskapazität erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "i2c"
-  - "bus"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Schnittstellen"]
 draft: false
 ---
 # I²C-Buskapazität

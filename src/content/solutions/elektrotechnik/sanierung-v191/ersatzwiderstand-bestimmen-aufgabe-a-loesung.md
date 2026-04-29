@@ -3,24 +3,12 @@ title: "Lösung: Ersatzwiderstand bestimmen: Aufgabe A"
 description: "Musterlösung zur Aufgabe etech-v191-007a im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "schaltungsanalyse"
-  - "ersatzwiderstand-bestimmen"
-  - "loesung-a"
+topicPath: ["sanierung-v191", "ersatzwiderstand-bestimmen-aufgabe-a"]
 taskId: "etech-v191-007a"
 relatedExercise: "elektrotechnik/sanierung-v191/ersatzwiderstand-bestimmen-aufgabe-a"
-tags:
-  - "schaltungsanalyse"
-  - "ersatzwiderstand"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-007a`
 
 Ausgangsauftrag: Vereinfache eine Widerstandsschaltung in zwei Schritten.

@@ -3,36 +3,15 @@ title: "Diode als Richtungsbauteil: Aufgabe A"
 description: "Erkläre eine LED-Schaltung mit Vorwiderstand und Polung."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "halbleiter"
-  - "diode-als-richtungsbauteil"
-  - "aufgabe-a"
+topicPath: ["sanierung-v191", "diode-als-richtungsbauteil-aufgabe-a"]
 taskId: "etech-v191-013a"
-tags:
-  - "halbleiter"
-  - "diode"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "aufgabe"
-  - "v191"
-hintPoints:
-  - "Trenne Schaltplan, realen Aufbau und Messpunkt."
-  - "Nenne mindestens eine Einheit oder einen Grenzwert."
-  - "Formuliere einen passenden Fehlerfall."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Diode als Richtungsbauteil."
-  - "Messrichtung, Anschluss oder Bauteilrolle sind nachvollziehbar."
-  - "Die Lösung bleibt ohne Spezialgerät verständlich."
-transferIdeas:
-  - "Übertrage die Idee auf eine zweite kleine Schaltung."
-  - "Erstelle eine Mini-Checkliste für die Messung."
-reflectionPrompt: "Welcher Prüfschritt verhindert hier den wahrscheinlichsten Fehler?"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Erkläre eine LED-Schaltung mit Vorwiderstand und Polung.

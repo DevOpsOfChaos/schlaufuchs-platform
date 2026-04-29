@@ -3,22 +3,12 @@ title: "Lösung – title, description und Social Preview sauber planen"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Development-Aufgabe."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "metadaten-und-seo"
-  - "title-description-und-social-preview-sauber-planen"
-tags:
-  - "web development"
-  - "html"
-  - "metadaten"
-  - "seo"
-  - "preview"
-  - "lösung"
+topicPath: ["html", "metadaten-und-seo", "title-description-und-social-preview-sauber-planen"]
 taskId: "web-v103-title-description-und-social-preview-sauber-planen"
 relatedExercise: "web-development/html/metadaten-und-seo/title-description-und-social-preview-sauber-planen"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Der Titel nennt Thema und Plattform, die Beschreibung erklärt den Nutzen und der Social-Titel bleibt auch außerhalb der Website verständlich.

@@ -1,24 +1,14 @@
 ---
-title: Musterlösung – UART-Baudrate und Taktbasis ruhig zuordnen
-description: Musterlösung zur Aufgabe ET-ATMEGA-UART-301.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-kommunikation
-  - atmega-uart-baudrate-und-ubrr-verstehen
-  - uart-baudrate-und-taktbasis-ruhig-zuordnen-loesung
-taskId: ET-ATMEGA-UART-301
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-uart-baudrate-und-ubrr-verstehen/uart-baudrate-und-taktbasis-ruhig-zuordnen.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - uart
-  - loesung
+title: "Musterlösung – UART-Baudrate und Taktbasis ruhig zuordnen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-UART-301."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-uart-baudrate-und-ubrr-verstehen", "uart-baudrate-und-taktbasis-ruhig-zuordnen"]
+taskId: "ET-ATMEGA-UART-301"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-uart-baudrate-und-ubrr-verstehen/uart-baudrate-und-taktbasis-ruhig-zuordnen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Die Baudrate ist der gewünschte Zielwert für die Bitgeschwindigkeit auf der seriellen Leitung. Der UBRR-Wert ist dagegen der Registerwert, mit dem der AVR aus seiner Taktbasis diese Geschwindigkeit annähert. Beides gehört zusammen, ist aber nicht dieselbe Zahl. Genau deshalb darf man UBRR nicht einfach als „das Baudratenfeld“ lesen.

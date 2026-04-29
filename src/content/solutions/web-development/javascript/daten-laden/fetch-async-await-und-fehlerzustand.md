@@ -3,22 +3,12 @@ title: "Lösung – JavaScript: fetch, async/await und Fehlerzustand"
 description: "Musterlösung zur Aufgabe: Skizziere eine Funktion, die Daten lädt und drei Zustände behandelt: lädt, erfolgreich, Fehler. Benenne, wo await sinnvoll steht."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "daten-laden"
-  - "fetch-async-await-und-fehlerzustand"
+topicPath: ["javascript", "daten-laden", "fetch-async-await-und-fehlerzustand"]
 taskId: "web-js-fetch-async-await-und-fehlerzustand"
 relatedExercise: "web-development/javascript/daten-laden/fetch-async-await-und-fehlerzustand"
-tags:
-  - "web development"
-  - "javascript"
-  - "fetch"
-  - "async"
-  - "await"
-  - "lösung"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Beim Start wird ein Ladezustand gesetzt. await steht vor fetch und vor response.json(), weil beide Ergebnisse später kommen. Im try-Block wird gerendert, im catch-Block ein sichtbarer Fehlerzustand angezeigt.

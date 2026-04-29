@@ -1,34 +1,19 @@
 ---
 title: "LED-Vorwiderstand"
 description: "Überblick über die Aufgabe eines Vorwiderstands bei LEDs und die Abgrenzung zwischen Spannungsquelle und Strombegrenzung."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik"
-topicPath:
-  - "led-vorwiderstand"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["led-vorwiderstand", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Eine LED direkt an eine Spannungsquelle anzuschließen, weil ihre Durchlassspannung bekannt ist."
-keyTakeaways:
-  - "Der Vorwiderstand schützt die LED, indem er den Strom begrenzt und Schwankungen abfängt."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn LEDs an GPIOs, Versorgungsschienen oder einfachen Anzeigeausgängen betrieben werden."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "led"
-  - "strombegrenzung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik"]
 draft: false
 ---
-
 # LED-Vorwiderstand
 
 Eine LED benötigt in einfachen Schaltungen fast immer eine Strombegrenzung. Der Vorwiderstand übernimmt diese Aufgabe, indem er einen Teil der Spannung aufnimmt und den Strom auf einen sinnvollen Bereich begrenzt.

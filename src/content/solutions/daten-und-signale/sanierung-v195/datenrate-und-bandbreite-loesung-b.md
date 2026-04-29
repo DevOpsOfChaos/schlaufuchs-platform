@@ -3,24 +3,12 @@ title: "Lösung: Datenrate und Bandbreite: Aufgabe B"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-010b im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "uebertragung"
-  - "datenrate-und-bandbreite"
-  - "loesung-b"
-
+topicPath: ["sanierung-v195", "datenrate-und-bandbreite-loesung-b"]
 taskId: "daten-und-signale-v195-010b"
 relatedExercise: "daten-und-signale/sanierung-v195/datenrate-und-bandbreite-aufgabe-b"
-tags:
-  - "datenrate"
-  - "bandbreite"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-010b`
 
 Ausgangsauftrag: Übertrage das Thema Datenrate und Bandbreite auf ein zweites Beispiel und formuliere eine kurze Prüfung.

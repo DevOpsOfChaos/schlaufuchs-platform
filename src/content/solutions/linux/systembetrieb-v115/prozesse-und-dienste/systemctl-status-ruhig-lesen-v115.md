@@ -1,24 +1,14 @@
 ---
 title: "Lösung: systemctl status ruhig lesen"
 description: "Musterlösung zu systemctl status ruhig lesen mit Trennkante und Gegenprobe."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "systembetrieb-v115"
-  - "prozesse-und-dienste"
-  - "systemctl-status-ruhig-lesen-v115"
+topicPath: ["systembetrieb-v115", "prozesse-und-dienste", "systemctl-status-ruhig-lesen-v115"]
 taskId: "linux-systemctl-status-ruhig-lesen-v115"
 relatedExercise: "linux/systembetrieb-v115/prozesse-und-dienste/systemctl-status-ruhig-lesen-v115"
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "systembetrieb"
-  - "prozesse und dienste"
-  - "lösung"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **systemctl status ruhig lesen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

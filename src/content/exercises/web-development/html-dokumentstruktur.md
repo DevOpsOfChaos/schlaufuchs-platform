@@ -1,11 +1,17 @@
 ---
-title: HTML-Dokumentstruktur üben
-description: Übe den Aufbau eines einfachen HTML-Dokuments.
-subject: web-development
-level: einfach
+title: "HTML-Dokumentstruktur üben"
+description: "Übe den Aufbau eines einfachen HTML-Dokuments."
+subject: "web-development"
+section: "html-dokumentstruktur"
+topicPath: ["html-dokumentstruktur"]
+taskId: "AUTO-HTML-DOKUMENTSTRUKTUR"
+tags: ["web-development", "html-dokumentstruktur", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Übung hilft dir, die Grundstruktur eines HTML-Dokuments sicher zu erkennen und richtig zusammenzusetzen.
 
 ## Aufgabenideen

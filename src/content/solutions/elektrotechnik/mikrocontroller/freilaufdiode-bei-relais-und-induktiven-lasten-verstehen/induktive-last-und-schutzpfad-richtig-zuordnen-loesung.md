@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Induktive Last und Schutzpfad richtig zuordnen
-description: Musterlösung zur Aufgabe ELE-MCU-GEN-108.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - freilaufdiode-bei-relais-und-induktiven-lasten-verstehen
-  - induktive-last-und-schutzpfad-richtig-zuordnen-loesung
-taskId: ELE-MCU-GEN-108
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller/freilaufdiode-bei-relais-und-induktiven-lasten-verstehen/induktive-last-und-schutzpfad-richtig-zuordnen.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - loesung
-  - task-id
+title: "Musterlösung – Induktive Last und Schutzpfad richtig zuordnen"
+description: "Musterlösung zur Aufgabe ELE-MCU-GEN-108."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "freilaufdiode-bei-relais-und-induktiven-lasten-verstehen", "induktive-last-und-schutzpfad-richtig-zuordnen"]
+taskId: "ELE-MCU-GEN-108"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller/freilaufdiode-bei-relais-und-induktiven-lasten-verstehen/induktive-last-und-schutzpfad-richtig-zuordnen.md"
+tags: ["elektrotechnik", "mikrocontroller", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Die Hauptfrage ist, wie eine induktive Last beim Abschalten kontrolliert behandelt wird. Eine Spule speichert Energie und braucht danach einen Strompfad. Die Freilaufdiode verhindert, dass daraus eine schädliche Spannungsspitze entsteht.

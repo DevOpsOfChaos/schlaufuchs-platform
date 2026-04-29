@@ -3,21 +3,12 @@ title: "Lösung – grid-template-areas und Layoutzonen planen"
 description: "Musterlösung zu: Plane ein zweispaltiges Lernseitenlayout mit Kopfbereich, Navigation, Inhalt und Fußbereich. Schreibe die Grid-Areas als Textplan."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "responsive-layouts"
-  - "grid-template-areas-und-layoutzonen-planen"
+topicPath: ["css", "responsive-layouts", "grid-template-areas-und-layoutzonen-planen"]
 taskId: "wd-v97-grid-template-areas-und-layoutzonen-planen"
 relatedExercise: "web-development/css/responsive-layouts/grid-template-areas-und-layoutzonen-planen"
-tags:
-  - "web development"
-  - "css"
-  - "grid"
-  - "layout"
-  - "responsive"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Das Problem entsteht nicht nur im Code, sondern in der Nutzung: Wenn Bedeutung, Struktur oder Rückmeldung unklar bleiben, müssen Nutzerinnen und Nutzer raten. Besonders kritisch wird das bei Tastaturbedienung, kleinen Bildschirmen, langen Inhalten oder assistiven Technologien.

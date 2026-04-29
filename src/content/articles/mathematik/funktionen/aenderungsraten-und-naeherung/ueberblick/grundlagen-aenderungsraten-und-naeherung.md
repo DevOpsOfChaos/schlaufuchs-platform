@@ -1,37 +1,19 @@
 ---
 title: "Grundlagen: Änderungsraten und Näherung"
 description: "Allgemeiner Überblick über Änderungsraten, Sekanten, Tangenten und Näherungen als Grundidee der Analysis."
-subject: mathematik
+subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - funktionen
-  - aenderungsraten-und-naeherung
-  - grundlagen-aenderungsraten-und-naeherung
-learningGoals:
-  - "Du erklärst Änderungsraten als Beschreibung von Veränderung pro Bezugsgröße."
-  - "Du unterscheidest durchschnittliche und lokale Änderung."
-  - "Du ordnest Näherungen als kontrollierte Vereinfachungen ein."
+topicPath: ["funktionen", "aenderungsraten-und-naeherung", "ueberblick", "grundlagen-aenderungsraten-und-naeherung"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Eine Änderungsrate nur als Steigung einer Geraden zu verstehen."
-  - "Durchschnittliche und momentane Änderung zu vermischen."
-  - "Näherungen als bloß ungenau statt als bewusstes Werkzeug zu betrachten."
-keyTakeaways:
-  - "Änderungsraten beschreiben, wie stark sich eine Größe im Verhältnis zu einer anderen ändert."
-  - "Sekanten beschreiben durchschnittliche Änderungen, Tangenten lokale Änderungen."
-  - "Näherungen helfen, komplizierte Verläufe schrittweise verständlich zu machen."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - "mathematik"
-  - "funktionen"
-  - "änderungsrate"
-  - "näherung"
-  - "analysis"
+level: "einfach"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
-
 ## Begriff
 
 **Änderungsraten** beschreiben, wie stark sich eine Größe verändert, wenn sich eine andere Größe ändert. In Funktionen geht es dabei häufig um die Frage, wie sich ein Funktionswert verändert, wenn sich der Eingabewert bewegt. Die Idee ist zentral für Wachstum, Geschwindigkeit, Steigung und später für die Differentialrechnung.

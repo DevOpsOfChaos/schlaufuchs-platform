@@ -1,33 +1,19 @@
 ---
 title: "Konfigurationsmanagement"
 description: "Konfigurationsmanagement trennt veränderliche Einstellungen vom Programmcode. Es macht Systeme anpassbar, nachvollziehbar und betreibbar."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "konfigurationsmanagement"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Konfigurationsmanagement."
-  - "Du kannst Konfigurationsmanagement in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["konfigurationsmanagement", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Produktionsgeheimnisse fest in den Code zu schreiben."
-keyTakeaways:
-  - "Konfigurationsmanagement trennt veränderliche Einstellungen vom Programmcode."
-  - "Wichtig sind vor allem konfiguration pro umgebung, dateien, variablen und secrets und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Konfigurationsmanagement, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Konfigurationsmanagement dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "informatik"
-  - "grundlagen"
-  - "konfigurationsmanagement"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Konfigurationsmanagement
 
 Konfigurationsmanagement trennt veränderliche Einstellungen vom Programmcode. Es macht Systeme anpassbar, nachvollziehbar und betreibbar. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

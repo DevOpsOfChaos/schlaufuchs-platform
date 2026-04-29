@@ -1,36 +1,19 @@
 ---
 title: "Authentifizierung und Autorisierung"
 description: "Einordnung des Unterschieds zwischen Anmeldung und Berechtigung im Web."
-subject: web-development
+subject: "web-development"
 section: "Sicherheit"
-topicPath:
-  - "authentifizierung-und-autorisierung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Authentifizierung und Autorisierung als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["authentifizierung-und-autorisierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, Authentifizierung und Autorisierung gleichzusetzen."
-keyTakeaways:
-  - "Authentifizierung beantwortet die Frage nach der Identität."
-  - "Autorisierung beantwortet die Frage nach erlaubten Aktionen."
-  - "Berechtigungen müssen serverseitig geprüft werden."
-recognizeSignals:
-  - "Es geht um Authentifizierung und Autorisierung als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Authentifizierung und Autorisierung in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "web development"
-  - "auth"
-  - "sicherheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Sicherheit"]
 draft: false
 ---
-
 # Authentifizierung und Autorisierung
 
 ![Schaubild zu Authentifizierung und Autorisierung.](/schlaufuchs-platform/images/overviews/v150/authentifizierung-und-autorisierung.svg)

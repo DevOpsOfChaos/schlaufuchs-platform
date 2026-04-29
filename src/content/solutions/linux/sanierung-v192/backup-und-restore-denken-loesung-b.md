@@ -3,26 +3,12 @@ title: "Lösung: Backup und Restore denken: Aufgabe B"
 description: "Musterlösung zur Aufgabe linux-v192-022b im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "dateisystem-und-speicher"
-  - "backup-und-restore-denken"
-  - "loesung-b"
+topicPath: ["sanierung-v192", "backup-und-restore-denken-loesung-b"]
 taskId: "linux-v192-022b"
 relatedExercise: "linux/sanierung-v192/backup-und-restore-denken-aufgabe-b"
-tags:
-  - "dateisystem-und-speicher"
-  - "backup"
-  - "restore"
-  - "denken"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-022b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Backup und Restore denken“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

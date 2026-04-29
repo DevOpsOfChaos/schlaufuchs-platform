@@ -3,24 +3,12 @@ title: "Lösung: Events und Eventobjekt: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-v190-011b im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "dom-und-ui"
-  - "events-und-eventobjekt"
-  - "loesung-b"
+topicPath: ["sanierung-v190", "events-und-eventobjekt-aufgabe-b"]
 taskId: "web-v190-011b"
 relatedExercise: "web-development/sanierung-v190/events-und-eventobjekt-aufgabe-b"
-tags:
-  - "dom-und-ui"
-  - "events"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-011b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Events und Eventobjekt“ um einen Fehlerfall, eine Abnahmebedingung und eine kurze Begründung.

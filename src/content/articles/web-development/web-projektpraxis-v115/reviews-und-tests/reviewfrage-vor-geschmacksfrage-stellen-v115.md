@@ -1,46 +1,19 @@
 ---
 title: "Web Development – Reviewfrage vor Geschmacksfrage stellen"
 description: "Trainiere Reviewfrage vor Geschmacksfrage stellen als kleines Unterthema mit klarer Trennkante, Beispiel und Gegenprobe."
-subject: web-development
+subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "web-projektpraxis-v115"
-  - "reviews-und-tests"
-  - "reviewfrage-vor-geschmacksfrage-stellen-v115"
-learningGoals:
-  - "Du erklärst Reviewfrage vor Geschmacksfrage stellen an einem kleinen, abgegrenzten Fall."
-  - "Du trennst das Unterthema von einem naheliegenden Nachbarthema."
-  - "Du formulierst eine passende Gegenprobe statt nur eine fertige Antwort."
-practiceIdeas:
-  - "Schreibe zuerst die Prüffrage in eigenen Worten auf."
-  - "Markiere im Fall zwei Hinweise, die wirklich zur Entscheidung gehören."
-  - "Formuliere einen Gegenfall, in dem die Entscheidung anders ausfallen würde."
-commonMistakes:
-  - "Das Review diskutiert zuerst persönliche Stilvorlieben."
-  - "Das Thema wird zu breit eingeordnet und verliert dadurch die prüfbare Trennkante."
-  - "Die Lösung nennt ein Ergebnis, begründet aber nicht die Abgrenzung."
-keyTakeaways:
-  - "Dieses Unterthema prüft vor allem: Welche Nutzerwirkung oder Fehlerklasse wird geprüft?"
-  - "Eine gute Lösung benennt die Trennkante ausdrücklich."
-  - "Die Gegenprobe zeigt, ob die Begründung wirklich trägt."
-recognizeSignals:
-  - "Die Aufgabe fragt nach Reviewfrage vor Geschmacksfrage stellen."
-  - "Ähnliche Begriffe oder Fälle liegen nah beieinander."
-  - "Eine kleine Änderung im Fall würde zu einer anderen Entscheidung führen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-level: mittel
-tags:
-  - "web development"
-  - "feinstruktur"
-  - "unterthema"
-  - "web-projektpraxis"
-  - "reviews und tests"
+topicPath: ["web-projektpraxis-v115", "reviews-und-tests", "reviewfrage-vor-geschmacksfrage-stellen-v115"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "Feinstruktur Web Development"]
 draft: false
 ---
-
 <img src="/schlaufuchs-platform/illustrations/web-development-reviewfrage-vor-geschmacksfrage-stellen-v115.svg" alt="Lernillustration zu Reviewfrage vor Geschmacksfrage stellen" loading="lazy" />
 
 ## Grundidee

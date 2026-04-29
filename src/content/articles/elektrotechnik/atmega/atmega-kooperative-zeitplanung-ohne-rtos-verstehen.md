@@ -1,46 +1,19 @@
 ---
-title: ATmega – Kooperative Zeitplanung ohne RTOS verstehen
-description: Verstehe, wie ein AVR mehrere wiederkehrende Aufgaben ohne Betriebssystem geordnet abarbeiten kann.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - programmstruktur-und-ablauf
-  - atmega-kooperative-zeitplanung-ohne-rtos-verstehen
-learningGoals:
-  - Du erklärst die Grundidee kooperativer Zeitplanung auf einem einfachen Mikrocontroller.
-  - Du unterscheidest geordnete Aufgabentakte von blockierenden Einzelwarteschleifen.
-  - Du liest die Hauptschleife eher als Koordinator als als Endlosort für Delay-Ketten.
-practiceIdeas:
-  - Vergleiche ein Programm mit vielen Delays mit einem Programm auf Tick-Basis.
-  - Prüfe, welche Aufgaben schnell, selten oder regelmäßig laufen sollen.
-  - Lies Flags und Zeitmarken als Planungswerkzeug statt als Nebencode.
-commonMistakes:
-  - Alle Aufgaben nacheinander mit Delays zu verketten.
-  - Zu denken, ohne RTOS gäbe es nur chaotische Hauptschleifen.
-  - Regelmäßige und ereignisgetriebene Aufgaben nicht sauber zu trennen.
-keyTakeaways:
-  - Auch ohne RTOS kann ein Mikrocontroller mehrere Aufgaben geordnet planen.
-  - Eine ruhige Hauptschleife prüft Bedingungen und Zeitmarken statt blind zu blockieren.
-  - Gute Programmstruktur beginnt oft mit klaren Aufgabentakten und kurzen Reaktionswegen.
-recognizeSignals:
-  - Es geht um mehrere wiederkehrende Aufgaben, Ticks, Scheduler-Denken oder blockierende Delays.
-  - Du sollst erklären, wie ein kleiner Controller mehrere Dinge „gleichzeitig“ schafft.
-  - In Aufgaben ist die Struktur der Hauptschleife wichtiger als ein einzelner Registerzugriff.
-selfCheckPoints:
-  - Kann ich kooperative Zeitplanung und Delay-Ketten unterscheiden?
-  - Kann ich erklären, warum kurze Schleifendurchläufe nützlich sind?
-  - Kann ich Aufgaben nach Häufigkeit oder Reaktionsbedarf ordnen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - scheduler
-  - programmstruktur
-level: fortgeschritten
+title: "ATmega – Kooperative Zeitplanung ohne RTOS verstehen"
+description: "Verstehe, wie ein AVR mehrere wiederkehrende Aufgaben ohne Betriebssystem geordnet abarbeiten kann."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-kooperative-zeitplanung-ohne-rtos-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein kleiner Mikrocontroller hat oft kein großes Betriebssystem und trotzdem mehrere Aufgaben: LED blinken, Taster prüfen, Sensor lesen, Nachrichten senden. Das wirkt schnell nach „alles gleichzeitig“, obwohl der Controller in Wahrheit nur Schritt für Schritt arbeitet. Genau deshalb ist **kooperative Zeitplanung** ein starkes Denkmodell.

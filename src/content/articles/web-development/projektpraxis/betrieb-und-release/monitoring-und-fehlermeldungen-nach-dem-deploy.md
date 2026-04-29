@@ -3,44 +3,17 @@ title: "Web-Projektpraxis – Monitoring und Fehlermeldungen nach dem Deploy"
 description: "Lerne, nach einem Deploy nicht nur auf grüne Builds zu achten, sondern echte Fehlerzustände und Nutzerwirkung zu beobachten."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "monitoring-und-fehlermeldungen-nach-dem-deploy"
-learningGoals:
-  - "Du erklärst die Kernidee von „Monitoring und Fehlermeldungen nach dem Deploy“."
-  - "Du trennst sichtbare Nutzerwirkung, technische Ursache und organisatorische Prüffrage."
-  - "Du leitest aus einem kleinen Web-Szenario eine robuste Projektregel ab."
-practiceIdeas:
-  - "Prüfe eine vorhandene Web-Seite mit genau diesem Blick und notiere drei konkrete Beobachtungen."
-  - "Formuliere aus einer technischen Regel eine kurze Review-Frage."
-  - "Verbinde eine technische Maßnahme mit einer sichtbaren Auswirkung für Nutzende."
-commonMistakes:
-  - "grüner Build als Ende sehen"
-  - "Fehler ohne Kontext ignorieren"
-  - "nur einzelne Browseransicht testen"
-keyTakeaways:
-  - "Nach dem Deploy weiter hinsehen"
-  - "Projektpraxis wird besser, wenn Entscheidungen klein, prüfbar und dokumentiert bleiben."
-  - "Robuste Web-Arbeit denkt Idealfall, Fehlerfall und späteres Ändern gemeinsam."
-recognizeSignals:
-  - "Eine Seite funktioniert im Idealfall, aber der Veröffentlichungs- oder Fehlerfall ist unklar."
-  - "Du sollst nicht nur Code schreiben, sondern Betrieb, Wartung oder Review mitdenken."
-  - "Eine technische Entscheidung braucht eine einfache Gegenprobe."
-selfCheckPoints:
-  - "Kann ich das Risiko ohne Fachjargon erklären?"
-  - "Kann ich eine konkrete Prüffrage formulieren?"
-  - "Kann ich zeigen, was sich für Nutzende oder Wartende verbessert?"
-tags:
-  - "web development"
-  - "monitoring"
-  - "deployment"
-  - "fehlerdiagnose"
-  - "ux"
+topicPath: ["projektpraxis", "betrieb-und-release", "monitoring-und-fehlermeldungen-nach-dem-deploy"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "Projektpraxis"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein grüner Build sagt, dass die Seite gebaut werden konnte. Er sagt noch nicht, ob Nutzende nach dem Deploy alle wichtigen Wege erreichen. Monitoring bedeutet deshalb, technische Signale mit Nutzerwirkung zu verbinden.

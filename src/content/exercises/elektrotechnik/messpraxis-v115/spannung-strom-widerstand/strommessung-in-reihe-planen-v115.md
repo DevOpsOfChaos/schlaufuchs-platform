@@ -1,36 +1,17 @@
 ---
 title: "Aufgabe: Strommessung in Reihe planen"
 description: "Trainiere Strommessung in Reihe planen an einem kleinen, klar abgegrenzten Fall."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "messpraxis-v115"
-  - "spannung-strom-widerstand"
-  - "strommessung-in-reihe-planen-v115"
+topicPath: ["messpraxis-v115", "spannung-strom-widerstand", "strommessung-in-reihe-planen-v115"]
 taskId: "elektrotechnik-strommessung-in-reihe-planen-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "messpraxis"
-  - "spannung, strom und widerstand"
-  - "aufgabe"
-hintPoints:
-  - "Grenze zuerst den kleinen Fall vom breiten Themenfeld ab."
-  - "Nutze die Prüffrage: Muss der Strom durch das Messgerät hindurchfließen?"
-  - "Begründe mit zwei konkreten Hinweisen aus dem Fall."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-transferIdeas:
-  - "Übertrage dieselbe Trennkante auf ein eigenes Mini-Beispiel."
-  - "Formuliere einen Gegenfall, der ähnlich aussieht, aber anders entschieden wird."
-reflectionPrompt: "Was war bei „Strommessung in Reihe planen“ die wichtigste Trennkante?"
-level: mittel
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den folgenden Fall zu **Strommessung in Reihe planen**.

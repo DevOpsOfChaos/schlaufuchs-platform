@@ -1,37 +1,19 @@
 ---
 title: "Strommessung: High-Side und Low-Side"
 description: "Überblick über Strommessung oberhalb oder unterhalb der Last und die Folgen für Bezugspotentiale."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Messschaltungen"
-topicPath:
-  - "strommessung-high-side-low-side"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Strommessung: High-Side und Low-Side als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["strommessung-high-side-low-side", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Den Shunt so groß zu wählen, dass die Messspannung bequem ist, aber die Last merklich schlechter versorgt wird."
-keyTakeaways:
-  - "High-Side und Low-Side unterscheiden sich im Bezugspotential."
-  - "Der Messwiderstand beeinflusst die Schaltung."
-  - "Messbereich und Verlustleistung müssen zusammen passen."
-recognizeSignals:
-  - "Ein Strom soll über einen Shunt gemessen werden."
-  - "Die Last darf ihren Massebezug nicht verlieren."
-selfCheckPoints:
-  - "Kann ich Strommessung: High-Side und Low-Side in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "strommessung"
-  - "shunt"
-  - "high-side"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Messschaltungen"]
 draft: false
 ---
-
 # Strommessung: High-Side und Low-Side
 
 Bei Low-Side-Messung liegt der Messwiderstand zwischen Last und Masse. Bei High-Side-Messung liegt er zwischen Versorgung und Last.

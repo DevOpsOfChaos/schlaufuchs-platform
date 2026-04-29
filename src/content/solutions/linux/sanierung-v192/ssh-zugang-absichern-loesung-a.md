@@ -3,26 +3,12 @@ title: "Lösung: SSH-Zugang absichern: Aufgabe A"
 description: "Musterlösung zur Aufgabe linux-v192-018a im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "netzwerk-und-zugriff"
-  - "ssh-zugang-absichern"
-  - "loesung-a"
+topicPath: ["sanierung-v192", "ssh-zugang-absichern-loesung-a"]
 taskId: "linux-v192-018a"
 relatedExercise: "linux/sanierung-v192/ssh-zugang-absichern-aufgabe-a"
-tags:
-  - "netzwerk-und-zugriff"
-  - "ssh"
-  - "zugang"
-  - "absichern"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-018a`
 
 Ausgangsauftrag: Erstelle eine kleine SSH-Härtungscheckliste.

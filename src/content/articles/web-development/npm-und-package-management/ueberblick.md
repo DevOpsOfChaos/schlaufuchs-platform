@@ -1,37 +1,19 @@
 ---
 title: "npm und Package Management"
 description: "Allgemeiner Überblick über npm, package.json, Lockfiles und Abhängigkeiten in Webprojekten."
-subject: web-development
+subject: "web-development"
 section: "Werkzeuge"
-topicPath:
-  - "npm-und-package-management"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst npm und Package Management als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["npm-und-package-management", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "`package.json` wird geändert, ohne das Lockfile passend zu aktualisieren."
-keyTakeaways:
-  - "npm verwaltet Abhängigkeiten und Skripte."
-  - "Lockfiles machen Installationen reproduzierbarer."
-  - "Updates sollten gebaut und getestet werden."
-recognizeSignals:
-  - "Es geht um Abhängigkeiten, `npm install`, `npm ci` oder Build-Skripte."
-  - "Ein Update verändert `package.json` und `package-lock.json`."
-selfCheckPoints:
-  - "Kann ich npm und Package Management in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "web-development"
-  - "npm"
-  - "package management"
-  - "dependencies"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Werkzeuge"]
 draft: false
 ---
-
 # npm und Package Management
 
 npm ist ein Paketmanager für JavaScript-Projekte. Er installiert Abhängigkeiten, führt Skripte aus und nutzt `package.json` sowie Lockfiles.

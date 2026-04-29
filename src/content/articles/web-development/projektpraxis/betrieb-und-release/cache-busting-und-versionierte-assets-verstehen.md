@@ -3,44 +3,17 @@ title: "Web-Projektpraxis – Cache Busting und versionierte Assets verstehen"
 description: "Verstehe, warum Browser alte Dateien behalten dürfen und wie versionierte Dateinamen verhindern, dass Nutzende veraltete Oberflächen sehen."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "cache-busting-und-versionierte-assets-verstehen"
-learningGoals:
-  - "Du erklärst die Kernidee von „Cache Busting und versionierte Assets verstehen“."
-  - "Du trennst sichtbare Nutzerwirkung, technische Ursache und organisatorische Prüffrage."
-  - "Du leitest aus einem kleinen Web-Szenario eine robuste Projektregel ab."
-practiceIdeas:
-  - "Prüfe eine vorhandene Web-Seite mit genau diesem Blick und notiere drei konkrete Beobachtungen."
-  - "Formuliere aus einer technischen Regel eine kurze Review-Frage."
-  - "Verbinde eine technische Maßnahme mit einer sichtbaren Auswirkung für Nutzende."
-commonMistakes:
-  - "Cache komplett abschalten"
-  - "alte und neue Dateien vermischen"
-  - "Fehler nur mit hartem Neuladen lösen"
-keyTakeaways:
-  - "Schnell laden, aber richtig aktualisieren"
-  - "Projektpraxis wird besser, wenn Entscheidungen klein, prüfbar und dokumentiert bleiben."
-  - "Robuste Web-Arbeit denkt Idealfall, Fehlerfall und späteres Ändern gemeinsam."
-recognizeSignals:
-  - "Eine Seite funktioniert im Idealfall, aber der Veröffentlichungs- oder Fehlerfall ist unklar."
-  - "Du sollst nicht nur Code schreiben, sondern Betrieb, Wartung oder Review mitdenken."
-  - "Eine technische Entscheidung braucht eine einfache Gegenprobe."
-selfCheckPoints:
-  - "Kann ich das Risiko ohne Fachjargon erklären?"
-  - "Kann ich eine konkrete Prüffrage formulieren?"
-  - "Kann ich zeigen, was sich für Nutzende oder Wartende verbessert?"
-tags:
-  - "web development"
-  - "cache"
-  - "assets"
-  - "deployment"
-  - "performance"
+topicPath: ["projektpraxis", "betrieb-und-release", "cache-busting-und-versionierte-assets-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "Projektpraxis"]
 draft: false
 ---
-
 ## Grundidee
 
 Caching macht Seiten schneller, kann aber nach einem Update verwirren. Wenn eine CSS- oder JavaScript-Datei denselben Namen behält, kann ein Browser unter Umständen noch eine alte Version nutzen. Versionierte Assets lösen dieses Problem kontrolliert.

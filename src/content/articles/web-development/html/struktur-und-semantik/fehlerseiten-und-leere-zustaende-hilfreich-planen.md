@@ -3,44 +3,17 @@ title: "HTML – Fehlerseiten und leere Zustände hilfreich planen"
 description: "Plane 404-Seiten, leere Listen und fehlende Ergebnisse so, dass Nutzerinnen und Nutzer nicht in einer Sackgasse landen."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "struktur-und-semantik"
-  - "fehlerseiten-und-leere-zustaende-hilfreich-planen"
-learningGoals:
-  - "Du erklärst, welche Kernidee hinter „Fehlerseiten und leere Zustände hilfreich planen“ steht."
-  - "Du trennst sichtbare Oberfläche, technische Umsetzung und Nutzererwartung sauber."
-  - "Du leitest aus einem kleinen Beispiel konkrete Verbesserungen für echte Seiten ab."
-practiceIdeas:
-  - "Prüfe eine vorhandene Seite mit genau diesem Blick und notiere drei Verbesserungen."
-  - "Formuliere ein schwaches Beispiel in eine nutzerfreundlichere Variante um."
-  - "Verbinde die technische Regel mit einer sichtbaren Auswirkung für Nutzerinnen und Nutzer."
-commonMistakes:
-  - "nur „Fehler“ anzeigen"
-  - "Nutzende allein lassen"
-  - "keinen Rückweg anbieten"
-keyTakeaways:
-  - "Ein leerer Zustand ist kein leerer Bildschirm"
-  - "Gute Web-Entwicklung verbindet technische Korrektheit mit verständlicher Nutzerführung."
-  - "Eine kleine, klare Regel ist wertvoller als eine große Sammlung ungetesteter Sonderfälle."
-recognizeSignals:
-  - "Eine Oberfläche wirkt technisch vorhanden, aber für Nutzende unklar."
-  - "Ein Verhalten funktioniert im Idealfall, bricht aber bei Fehlern, langsamen Netzen oder anderen Geräten."
-  - "Du sollst nicht nur Code schreiben, sondern eine robuste Entscheidung begründen."
-selfCheckPoints:
-  - "Kann ich das Problem in einem Satz ohne Fachjargon erklären?"
-  - "Kann ich zeigen, woran Nutzende die Verbesserung bemerken?"
-  - "Kann ich eine einfache Prüffrage für den nächsten Review ableiten?"
-tags:
-  - "web development"
-  - "html"
-  - "ux"
-  - "fehlerzustände"
-  - "leere zustände"
-level: mittel
+topicPath: ["html", "struktur-und-semantik", "fehlerseiten-und-leere-zustaende-hilfreich-planen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Wenn eine Suche nichts findet oder eine Seite nicht existiert, ist das kein Nebenthema. Genau dann braucht die Oberfläche Orientierung: Was ist passiert, was kann ich prüfen und was ist der nächste sinnvolle Schritt?

@@ -1,23 +1,14 @@
 ---
-title: Lösung – Verlustleistung abschätzen
-description: Musterlösung zur Aufgabe über Verlustleistung abschätzen.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- signale-und-schaltungen
-- transistoren-und-lasten
-- verlustleistung-abschaetzen-v114
-taskId: v114-elektrotechnik-verlustleistung-abschaetzen-v114
-relatedExercise: elektrotechnik/signale-und-schaltungen/transistoren-und-lasten/verlustleistung-abschaetzen-v114
-tags:
-- elektrotechnik
-- v114
-- loesung
-- signale-und-schaltungen
-- transistoren-und-lasten
+title: "Lösung – Verlustleistung abschätzen"
+description: "Musterlösung zur Aufgabe über Verlustleistung abschätzen."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["signale-und-schaltungen", "transistoren-und-lasten", "verlustleistung-abschaetzen-v114"]
+taskId: "v114-elektrotechnik-verlustleistung-abschaetzen-v114"
+relatedExercise: "elektrotechnik/signale-und-schaltungen/transistoren-und-lasten/verlustleistung-abschaetzen-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

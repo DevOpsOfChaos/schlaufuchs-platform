@@ -3,24 +3,12 @@ title: "Lösung: Datenmodelle lesbar entwerfen: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-004a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "qualitaet-und-wartbarkeit"
-  - "datenmodelle-lesbar-entwerfen"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "datenmodelle-lesbar-entwerfen-loesung-a"]
 taskId: "informatik-v193-004a"
 relatedExercise: "informatik/sanierung-v193/datenmodelle-lesbar-entwerfen-aufgabe-a"
-tags:
-  - "datenmodelle"
-  - "lesbar"
-  - "entwerfen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-004a`
 
 Ausgangsauftrag: Entwirf ein kleines Datenmodell für Medien-Dateien mit klaren Feldern.

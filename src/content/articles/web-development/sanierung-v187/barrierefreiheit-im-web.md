@@ -3,39 +3,17 @@ title: "Barrierefreiheit im Web"
 description: "Betrachte Barrierefreiheit als Grundqualität und nicht als spätes Zusatzthema."
 subject: "web-development"
 section: "qualitaet"
-topicPath: 
-  - "qualitaet-und-zugaenglichkeit"
-  - "barrierefreiheit"
-learningGoals: 
-  - "Zugängliche Nutzung ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Prüfe eine Formularseite auf Labels, Fokusreihenfolge und Fehlermeldungen."
-  - "Erstelle eine kurze Accessibility-Checkliste für eine neue Inhaltsseite."
-commonMistakes: 
-  - "Barrierefreiheit wird nur mit Screenreadern gleichgesetzt."
-  - "Fokuszustände werden entfernt."
-  - "Informationen werden nur über Farbe vermittelt."
-keyTakeaways: 
-  - "Eine zugängliche Seite bleibt ohne Maus, ohne perfektes Sehen und mit Hilfstechniken nutzbar."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "Eine zugängliche Seite bleibt ohne Maus, ohne perfektes Sehen und mit Hilfstechniken nutzbar."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "barrierefreiheit-im-web"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags: 
-  - "barrierefreiheit"
-  - "accessibility"
-  - "html"
-  - "css"
-  - "web-development"
+tags: ["web-development", "qualitaet"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Barrierefreiheit im Web](/schlaufuchs-platform/images/web-development/sanierung-v187/barrierefreiheit-im-web.svg)
 
     Barrierefreiheit im Web ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

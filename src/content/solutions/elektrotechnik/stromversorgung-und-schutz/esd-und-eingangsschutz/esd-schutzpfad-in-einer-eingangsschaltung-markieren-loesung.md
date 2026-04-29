@@ -1,21 +1,14 @@
 ---
 title: "Lösung – ESD-Schutzpfad in einer Eingangsschaltung markieren"
 description: "Musterlösung zur Aufgabe: ESD-Schutzpfad in einer Eingangsschaltung markieren."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Stromversorgung und Schutz"
-topicPath:
-  - stromversorgung-und-schutz
-  - esd-und-eingangsschutz
-taskId: ET-V182-015
-relatedExercise: src/content/exercises/elektrotechnik/stromversorgung-und-schutz/esd-und-eingangsschutz/esd-schutzpfad-in-einer-eingangsschaltung-markieren.md
-tags:
-  - elektrotechnik
-  - esd-und-eingangsschutz
-  - loesung
-  - sanierung-v182
+topicPath: ["stromversorgung-und-schutz", "esd-und-eingangsschutz", "esd-schutzpfad-in-einer-eingangsschaltung-markieren"]
+taskId: "ET-V182-015"
+relatedExercise: "src/content/exercises/elektrotechnik/stromversorgung-und-schutz/esd-und-eingangsschutz/esd-schutzpfad-in-einer-eingangsschaltung-markieren.md"
+tags: ["elektrotechnik", "Stromversorgung und Schutz", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

@@ -1,36 +1,19 @@
 ---
 title: "Zufallsvariablen"
 description: "Allgemeiner Überblick über Zufallsvariablen als Zahlenwerte zufälliger Ergebnisse."
-subject: mathematik
+subject: "mathematik"
 section: "Wahrscheinlichkeit"
-topicPath:
-  - "zufallsvariablen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Zufallsvariablen als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["zufallsvariablen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Die Zufallsvariable wird oft mit einem einzelnen beobachteten Wert verwechselt."
-keyTakeaways:
-  - "Zufallsvariablen machen zufällige Ergebnisse numerisch beschreibbar."
-  - "Ihre Verteilung zeigt Wahrscheinlichkeiten möglicher Werte."
-  - "Kennwerte fassen Lage und Streuung zusammen."
-recognizeSignals:
-  - "Ein Zufallsexperiment liefert Trefferzahl, Gewinn oder Wartezeit."
-  - "Wahrscheinlichkeiten beziehen sich auf Zahlenwerte."
-selfCheckPoints:
-  - "Kann ich Zufallsvariablen in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "wahrscheinlichkeit"
-  - "zufallsvariablen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Wahrscheinlichkeit"]
 draft: false
 ---
-
 # Zufallsvariablen
 
 Eine Zufallsvariable ordnet jedem Ergebnis eines Zufallsexperiments einen Zahlenwert zu.

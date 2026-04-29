@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Verlustleistung als Wärme deuten"
 description: "Musterlösung zur Aufgabe Verlustleistung als Wärme deuten."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - praxis
-  - thermische-grenzen-und-verlustleistung
-taskId: ET-V181-021
-relatedExercise: src/content/exercises/elektrotechnik/praxis/thermische-grenzen-und-verlustleistung/verlustleistung-als-waerme-deuten.md
-tags:
-  - elektrotechnik
-  - thermische-grenzen-und-verlustleistung
-  - loesung
+topicPath: ["praxis", "thermische-grenzen-und-verlustleistung", "verlustleistung-als-waerme-deuten"]
+taskId: "ET-V181-021"
+relatedExercise: "src/content/exercises/elektrotechnik/praxis/thermische-grenzen-und-verlustleistung/verlustleistung-als-waerme-deuten.md"
+tags: ["elektrotechnik", "Praxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

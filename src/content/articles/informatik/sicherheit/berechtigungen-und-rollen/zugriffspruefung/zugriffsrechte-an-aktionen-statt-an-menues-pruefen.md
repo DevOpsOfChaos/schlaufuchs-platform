@@ -3,46 +3,17 @@ title: "Informatik – Zugriffsrechte an Aktionen statt an Menüs prüfen"
 description: "Lerne Zugriffsprüfung als klar abgegrenztes Unterthema mit Beispiel, Prüfraster und Gegenprobe."
 subject: "informatik"
 section: "Sicherheit"
-topicPath:
-  - "sicherheit"
-  - "berechtigungen-und-rollen"
-  - "zugriffspruefung"
-  - "zugriffsrechte-an-aktionen-statt-an-menues-pruefen"
-learningGoals:
-  - "Du erklärst Zugriffsprüfung als eigenes Unterthema."
-  - "Du grenzt das Thema von einem breiteren Sammelbereich ab."
-  - "Du formulierst eine konkrete Gegenprobe."
-practiceIdeas:
-  - "Erstelle ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Prüfe, welche Nachbarseite nicht gemeint ist."
-  - "Übertrage das Prüfraster auf einen zweiten Fall."
-commonMistakes:
-  - "Das Thema zu breit einordnen und die Trennkante verlieren."
-  - "Nur einen Begriff nennen, ohne Beispiel oder Gegenprobe."
-  - "Aufgabe und Wissensseite sprachlich auseinanderlaufen lassen."
-keyTakeaways:
-  - "Zugriffsprüfung wird durch Einordnung, Trennung und Gegenprobe stabil."
-  - "Feinere Unterthemen verbessern Orientierung und vermeiden Doppelungen."
-  - "Eine gute Lösung nennt auch, was nicht gemeint ist."
-recognizeSignals:
-  - "Die Aufgabe enthält eine kleine, aber entscheidende Unterscheidung."
-  - "Eine allgemeine Antwort wäre zu ungenau."
-  - "Ein Prüfschritt kann die Einordnung bestätigen oder widerlegen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich das Nachbarthema abgrenzen?"
-  - "Ist meine Gegenprobe konkret?"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "algorithmen"
-  - "zugriffsprüfung"
-  - "sicherheit"
-  - "berechtigungen-und-rollen"
+topicPath: ["sicherheit", "berechtigungen-und-rollen", "zugriffspruefung", "zugriffsrechte-an-aktionen-statt-an-menues-pruefen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["informatik", "Sicherheit"]
 draft: false
 ---
-
 ## Grundidee
 
 **Zugriffsprüfung** ist ein kleines, bewusst abgegrenztes Unterthema. Lerne Zugriffsprüfung als klar abgegrenztes Unterthema mit Beispiel, Prüfraster und Gegenprobe. Die Seite verhindert, dass mehrere Nachbarfragen in einem breiten Sammelbegriff verschwimmen.

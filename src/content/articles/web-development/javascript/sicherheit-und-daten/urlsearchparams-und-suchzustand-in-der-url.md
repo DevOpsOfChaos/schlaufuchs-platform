@@ -3,44 +3,17 @@ title: "JavaScript – URLSearchParams und Suchzustand in der URL"
 description: "Lerne, Such- und Filterzustände so in der URL abzulegen, dass Seiten teilbar und nachvollziehbar bleiben."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "sicherheit-und-daten"
-  - "urlsearchparams-und-suchzustand-in-der-url"
-learningGoals:
-  - "Du erklärst Query-Parameter als sichtbaren Seitenzustand."
-  - "Du liest und schreibst Parameter mit URLSearchParams."
-  - "Du entscheidest, welche Zustände in die URL gehören und welche nicht."
-practiceIdeas:
-  - "Übertrage die Idee auf eine kleine eigene Seite."
-  - "Prüfe die Bedienung einmal mit Tastatur und einmal mit Maus."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "Filter nur im Speicher zu halten, sodass Links nicht teilbar sind."
-  - "Private oder sensible Daten in die URL zu schreiben."
-  - "Query-Strings manuell mit unsicheren Verkettungen zu bauen."
-keyTakeaways:
-  - "Robuste Webinteraktion trennt Struktur, Zustand und Rückmeldung."
-  - "Nutzerführung ist Teil der technischen Lösung."
-  - "Fehler und Sonderfälle werden sichtbar geplant."
-recognizeSignals:
-  - "Es geht um JavaScript im Browser, UI-Zustand oder dynamische Rückmeldung."
-  - "Eine Interaktion soll verständlicher, sicherer oder robuster werden."
-  - "HTML, CSS und JavaScript müssen gemeinsam gelesen werden."
-selfCheckPoints:
-  - "Kann ich die Aufgabe des Codes in einem Satz erklären?"
-  - "Bleibt die Interaktion ohne Maus oder bei Fehlern nachvollziehbar?"
-  - "Sind sichtbare Texte verständlich und deutsch formuliert?"
+topicPath: ["javascript", "sicherheit-und-daten", "urlsearchparams-und-suchzustand-in-der-url"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "web development"
-  - "javascript"
-  - "urlsearchparams"
-  - "suchparameter"
-  - "ux"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Diese Seite zeigt dir, wie du URLSearchParams und Suchzustand in der URL nicht als isolierten JavaScript-Trick, sondern als kleine UX- und Robustheitsentscheidung liest.

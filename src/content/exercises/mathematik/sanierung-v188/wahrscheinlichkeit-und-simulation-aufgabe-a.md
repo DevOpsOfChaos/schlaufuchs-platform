@@ -3,33 +3,15 @@ title: "Wahrscheinlichkeit und Simulation: Grundordnung"
 description: "Ordne Wahrscheinlichkeit und Simulation in Zweck, Prüffragen und Fehlerquellen."
 subject: "mathematik"
 section: "daten-deuten-und-pruefen"
-topicPath:
-  - "daten-deuten-und-pruefen"
-  - "wahrscheinlichkeit-und-simulation"
-  - "aufgabe-a"
+topicPath: ["sanierung-v188", "wahrscheinlichkeit-und-simulation-aufgabe-a"]
 taskId: "mat-v188-033a"
-tags:
-  - "wahrscheinlichkeit"
-  - "simulation"
-  - "zufall"
-  - "mathematik"
-  - "aufgabe"
-  - "v188"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["mathematik", "daten-deuten-und-pruefen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Du arbeitest am Thema **Wahrscheinlichkeit und Simulation**. Erstelle eine kurze, geordnete Erklärung für eine lernende Person.

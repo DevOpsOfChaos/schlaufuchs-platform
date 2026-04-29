@@ -3,36 +3,15 @@ title: "Alternativtexte für Bilder: Aufgabe B"
 description: "Übertrage das Thema Alternativtexte für Bilder auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "zugang-und-semantik"
-  - "alternativtexte-fuer-bilder"
-  - "aufgabe-b"
-
+topicPath: ["sanierung-v194", "alternativtexte-fuer-bilder-aufgabe-b"]
 taskId: "web-development-v194-004b"
-tags:
-  - "alternativtexte"
-  - "bilder"
-  - "web-development"
-  - "aufgabe"
-  - "v194"
-
-hintPoints:
-  - "Beschreibe zuerst die konkrete Seitensituation."
-  - "Trenne Beobachtung, gewünschtes Verhalten und Änderung."
-  - "Lege einen kleinen Kontrollpunkt fest."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Alternativtexte für Bilder."
-  - "Die Prüfung ist klein genug, um sie direkt nachzuvollziehen."
-  - "Nutzerperspektive und technische Umsetzung werden nicht vermischt."
-transferIdeas:
-  - "Übertrage den Prüfweg auf eine andere Bildschirmbreite."
-  - "Notiere, welcher Zustand zusätzlich getestet werden sollte."
-reflectionPrompt: "Welche Annahme über Nutzerinnen und Nutzer wäre gefährlich, wenn sie still falsch bleibt?"
+tags: ["web-development", "barrierefreiheit-responsive-ux", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Übertrage das Thema Alternativtexte für Bilder auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

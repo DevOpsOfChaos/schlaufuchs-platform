@@ -3,22 +3,12 @@ title: "Lösung: Rechtecksumme deuten"
 description: "Musterlösung zur Aufgabe „Rechtecksumme deuten“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "analysis-vorbereitung"
-  - "flaechennaeherung-und-summe"
-  - "rechtecksumme-deuten-v116"
+topicPath: ["analysis-vorbereitung", "flaechennaeherung-und-summe", "rechtecksumme-deuten-v116"]
 taskId: "rechtecksumme-deuten-v116"
 relatedExercise: "mathematik/analysis-vorbereitung/flaechennaeherung-und-summe/rechtecksumme-deuten-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "flaechennaeherung und summe"
-  - "rechtecksumme deuten"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

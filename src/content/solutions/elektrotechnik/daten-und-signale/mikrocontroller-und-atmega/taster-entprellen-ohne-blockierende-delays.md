@@ -1,23 +1,14 @@
 ---
-title: Lösung – Tasterprellen erkennen und nicht blockierend entprellen
-description: Musterlösung zu Prellimpulsen, Delay-Entprellung und Zustandslogik mit Softtimer.
-subject: elektrotechnik
-section: Mikrocontroller und ATmega
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - taster-entprellen-ohne-blockierende-delays
-taskId: et-mc-taster-entprellen-softtimer
-relatedExercise: elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/taster-entprellen-ohne-blockierende-delays
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - taster
-  - entprellen
-  - softtimer
+title: "Lösung – Tasterprellen erkennen und nicht blockierend entprellen"
+description: "Musterlösung zu Prellimpulsen, Delay-Entprellung und Zustandslogik mit Softtimer."
+subject: "elektrotechnik"
+section: "Mikrocontroller und ATmega"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "taster-entprellen-ohne-blockierende-delays"]
+taskId: "et-mc-taster-entprellen-softtimer"
+relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/taster-entprellen-ohne-blockierende-delays"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Bei einem Pull-up bedeutet `1` normalerweise losgelassen und `0` gedrückt. Die Folge

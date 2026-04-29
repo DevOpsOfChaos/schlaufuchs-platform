@@ -1,46 +1,19 @@
 ---
-title: isset und empty in PHP unterscheiden
-description: Verstehe, warum in PHP nicht jede fehlende oder leere Eingabe dasselbe bedeutet und wie isset und empty unterschiedlich pruefen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - isset-und-empty-in-php-unterscheiden
-learningGoals:
-  - Du erklaerst den groben Unterschied zwischen isset und empty.
-  - Du erkennst, warum vorhandene und inhaltlich leere Werte verschiedene Fragen sind.
-  - Du liest einfache PHP Pruefungen ruhiger ueber ihre Absicht.
-practiceIdeas:
-  - Vergleiche fehlende Felder mit leeren Eingaben.
-  - Formuliere in Alltagssprache, welche Frage eine Pruefung mit isset oder empty stellt.
-  - Pruefe Formularbeispiele auf Vorhandensein und auf inhaltliche Leere.
-commonMistakes:
-  - Vorhandensein und Inhalt zu vermischen.
-  - Zu glauben, dass isset automatisch eine sinnvolle Eingabe bestaetigt.
-  - empty nur als Gegenteil von isset zu lesen.
-keyTakeaways:
-  - isset fragt zuerst, ob etwas ueberhaupt gesetzt vorhanden ist.
-  - empty fragt, ob ein Wert als leer gelesen wird.
-  - Beide Funktionen beantworten also nicht dieselbe Frage.
-recognizeSignals:
-  - Es geht um Formulareingaben, Superglobals oder defensive Abfragen.
-  - Eine Aufgabe vergleicht fehlende Schluessel mit leeren Strings.
-  - Im Code tauchen <code>isset(...)</code> oder <code>empty(...)</code> auf.
-selfCheckPoints:
-  - Kann ich Vorhandensein und Leere sauber trennen?
-  - Kann ich sagen, welche Frage isset und welche Frage empty beantwortet?
-  - Kann ich erklaeren, warum eine Eingabe gesetzt, aber trotzdem leer sein kann?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - php
-  - pruefung
-  - formular
+title: "isset und empty in PHP unterscheiden"
+description: "Verstehe, warum in PHP nicht jede fehlende oder leere Eingabe dasselbe bedeutet und wie isset und empty unterschiedlich pruefen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "isset-und-empty-in-php-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Beim Verarbeiten von Daten reicht es oft nicht, nur zu fragen, ob irgendwo ein Wert steht. Manchmal musst du unterscheiden zwischen:

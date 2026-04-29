@@ -1,33 +1,19 @@
 ---
 title: "Locales und Zeichensätze"
 description: "Locales und Zeichensätze steuern Sprache, Sortierung, Datumsformate und Textkodierung. Sie beeinflussen, wie Programme Zeichen lesen, schreiben und anzeigen."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "locales-und-zeichensaetze"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Locales und Zeichensätze."
-  - "Du kannst Locales und Zeichensätze in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["locales-und-zeichensaetze", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Encoding-Probleme mit defekten Dateien zu verwechseln, obwohl nur die Umgebung falsch eingestellt ist."
-keyTakeaways:
-  - "Locales und Zeichensätze steuern Sprache, Sortierung, Datumsformate und Textkodierung."
-  - "Wichtig sind vor allem utf-8 als kodierung, lc_* variablen und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Locales und Zeichensätze, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Locales und Zeichensätze dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "linux"
-  - "grundlagen"
-  - "locales zeichensätze"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # Locales und Zeichensätze
 
 Locales und Zeichensätze steuern Sprache, Sortierung, Datumsformate und Textkodierung. Sie beeinflussen, wie Programme Zeichen lesen, schreiben und anzeigen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

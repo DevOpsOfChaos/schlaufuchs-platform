@@ -3,25 +3,12 @@ title: "Lösung: Fokuszustand sichtbar machen: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-development-v194-006a im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "interaktion-und-fokus"
-  - "fokuszustand-sichtbar-machen"
-  - "loesung-a"
-
+topicPath: ["sanierung-v194", "fokuszustand-sichtbar-machen-loesung-a"]
 taskId: "web-development-v194-006a"
 relatedExercise: "web-development/sanierung-v194/fokuszustand-sichtbar-machen-aufgabe-a"
-tags:
-  - "fokuszustand"
-  - "sichtbar"
-  - "machen"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-006a`
 
 Ausgangsauftrag: Entwirf einen sichtbaren Fokuszustand für Links und Buttons.

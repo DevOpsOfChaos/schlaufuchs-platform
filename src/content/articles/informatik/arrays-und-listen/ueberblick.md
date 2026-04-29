@@ -1,35 +1,19 @@
 ---
 title: "Arrays und Listen"
 description: "Überblick über Arrays und Listen als geordnete Sammlungen von Werten."
-subject: informatik
+subject: "informatik"
 section: "Datenstrukturen"
-topicPath:
-  - "arrays-und-listen"
-  - "ueberblick"
-learningGoals:
-  - "Du verstehst Arrays und Listen als geordnete Datenstrukturen."
-  - "Du kennst Index, Länge und Iteration als Grundbegriffe."
-  - "Du kannst typische Fehler bei Grenzen und Änderungen einordnen."
+topicPath: ["arrays-und-listen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Indexgrenzen zu übersehen."
-  - "Beim Durchlaufen eine Sammlung unbedacht zu verändern."
-keyTakeaways:
-  - "Arrays und Listen speichern mehrere Werte in einer Reihenfolge."
-  - "Indexzugriff, Einfügen und Entfernen haben je nach Struktur unterschiedliche Kosten und Risiken."
-recognizeSignals:
-  - "Es geht um Reihenfolge, Elemente, Index, Länge, Iteration, Einfügen oder Entfernen."
-selfCheckPoints:
-  - "Kann ich erklären, warum der letzte Index häufig nicht der Länge entspricht?"
-level: einfach
-tags:
-  - "informatik"
-  - "datenstrukturen"
-  - "arrays"
-  - "listen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Datenstrukturen"]
 draft: false
 ---
-
 # Arrays und Listen
 
 ![Schaubild zu Arrays und Listen.](/schlaufuchs-platform/images/overviews/v149/arrays-und-listen.svg)

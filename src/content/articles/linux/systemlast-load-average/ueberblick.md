@@ -3,32 +3,17 @@ title: "Systemlast und Load Average"
 description: "Allgemeiner Überblick über Load Average und die Einordnung von Systemlast unter Linux."
 subject: "linux"
 section: "Systembeobachtung"
-topicPath:
-  - "systemlast-load-average"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["systemlast-load-average", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird jeder Load-Wert über 1 als kritisch betrachtet. Ohne Blick auf CPU-Anzahl und Ursache ist das irreführend."
-keyTakeaways:
-  - "Load Average ist ein nützlicher Überblickswert, aber kein vollständiges Diagnosewerkzeug. Er braucht Kontext."
-  - "Load Average ist nicht dasselbe wie CPU-Auslastung. Ein System kann hohe Last haben, obwohl die CPU nicht vollständig arbeitet."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "linux"
-  - "load average"
-  - "systemlast"
-  - "monitoring"
+tags: ["linux", "Systembeobachtung"]
 draft: false
 ---
-
 # Systemlast und Load Average
 
 Load Average beschreibt die durchschnittliche Zahl von Prozessen, die laufen wollen oder auf bestimmte Ressourcen warten, über mehrere Zeitfenster.

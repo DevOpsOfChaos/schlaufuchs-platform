@@ -1,33 +1,19 @@
 ---
 title: "Wartbarkeit"
 description: "Wartbarkeit beschreibt, wie gut Software verstanden, geändert, getestet und betrieben werden kann. Sie ist eine zentrale Qualitätseigenschaft langlebiger Systeme."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "wartbarkeit"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Wartbarkeit."
-  - "Du kannst Wartbarkeit in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["wartbarkeit", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur die Erstimplementierung zu optimieren und spätere Änderungen auszublenden."
-keyTakeaways:
-  - "Wartbarkeit beschreibt, wie gut Software verstanden, geändert, getestet und betrieben werden kann."
-  - "Wichtig sind vor allem lesbarkeit, modularität und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Wartbarkeit, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Wartbarkeit dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "informatik"
-  - "grundlagen"
-  - "wartbarkeit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Wartbarkeit
 
 Wartbarkeit beschreibt, wie gut Software verstanden, geändert, getestet und betrieben werden kann. Sie ist eine zentrale Qualitätseigenschaft langlebiger Systeme. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

@@ -3,32 +3,17 @@ title: "Rate Limiting"
 description: "Allgemeiner Überblick über rate limiting und die wichtigsten Zusammenhänge."
 subject: "informatik"
 section: "Schnittstellen"
-topicPath:
-  - "rate-limiting"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["rate-limiting", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Grenzen gesetzt, ohne legitime Lastspitzen zu planen."
-keyTakeaways:
-  - "Rate Limiting schützt Stabilität, Fairness und Sicherheit."
-  - "Rate Limiting ist nicht dasselbe wie Authentifizierung."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "informatik"
-  - "api"
-  - "rate limiting"
-  - "sicherheit"
+tags: ["informatik", "Schnittstellen"]
 draft: false
 ---
-
 # Rate Limiting
 
 Rate Limiting begrenzt, wie viele Anfragen in einem Zeitraum erlaubt sind.

@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – SPI-Austausch als Voll-Duplex ruhig lesen
-description: Musterlösung zur Aufgabe ET-ATMEGA-SPI-301.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-schnittstellen-und-busse
-  - atmega-spi-voll-duplex-grundidee-verstehen
-  - spi-austausch-als-voll-duplex-ruhig-lesen-loesung
-taskId: ET-ATMEGA-SPI-301
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-spi-voll-duplex-grundidee-verstehen/spi-austausch-als-voll-duplex-ruhig-lesen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – SPI-Austausch als Voll-Duplex ruhig lesen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-SPI-301."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-spi-voll-duplex-grundidee-verstehen", "spi-austausch-als-voll-duplex-ruhig-lesen"]
+taskId: "ET-ATMEGA-SPI-301"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-spi-voll-duplex-grundidee-verstehen/spi-austausch-als-voll-duplex-ruhig-lesen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

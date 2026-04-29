@@ -1,46 +1,19 @@
 ---
-title: ATmega – Bootloader und Programmstart verstehen
-description: Verstehe, was nach einem Reset am AVR grundsätzlich passiert und wie sich Bootloader und Anwendungsprogramm beim Start unterscheiden.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - programmstart-und-reset
-  - atmega-bootloader-und-programmstart-verstehen
-learningGoals:
-  - Du erklärst die Grundidee eines Bootloaders am AVR.
-  - Du beschreibst den Unterschied zwischen Bootbereich und eigentlichem Anwendungsprogramm.
-  - Du liest den Programmstart eher als geordneten Startpfad als als magischen Beginn.
-practiceIdeas:
-  - Vergleiche einen direkten Start ins Hauptprogramm mit einem Start über einen Bootloader.
-  - Erkläre, warum ein Reset nicht automatisch schon „das Programm läuft“ bedeutet.
-  - Lies Bootloader und Anwendungsprogramm als zwei mögliche Rollen im Startablauf.
-commonMistakes:
-  - Den Bootloader mit dem eigentlichen Anwendungsprogramm gleichzusetzen.
-  - Zu denken, ein Reset starte immer genau denselben Pfad.
-  - Programmstart nur als Blackbox und nicht als Startlogik zu lesen.
-keyTakeaways:
-  - Ein Bootloader ist ein spezieller Startbereich mit eigener Aufgabe vor dem Anwendungsprogramm.
-  - Nach einem Reset geht es nicht nur um „an oder aus“, sondern um einen geordneten Startpfad.
-  - Bootloader und Hauptprogramm haben unterschiedliche Rollen, auch wenn beide im Flash liegen.
-recognizeSignals:
-  - Es geht um Reset, Programmstart, Flash-Bereiche oder Firmware-Übertragung am AVR.
-  - Du sollst erklären, was vor dem eigentlichen Hauptprogramm passieren kann.
-  - In Aufgaben müssen Startpfad und Programmbereich zusammen gedacht werden.
-selfCheckPoints:
-  - Kann ich Bootloader und Hauptprogramm sauber unterscheiden?
-  - Kann ich erklären, warum der Startpfad nach einem Reset wichtig ist?
-  - Kann ich den Bootloader als Startrolle und nicht als „zweites normales Programm“ beschreiben?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - bootloader
-  - reset
-level: mittel
+title: "ATmega – Bootloader und Programmstart verstehen"
+description: "Verstehe, was nach einem Reset am AVR grundsätzlich passiert und wie sich Bootloader und Anwendungsprogramm beim Start unterscheiden."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-bootloader-und-programmstart-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 Ein AVR startet nicht einfach „irgendwie los“. Nach einem Reset gibt es einen **geordneten Programmstart**. Dabei ist fachlich wichtig, ob der Controller direkt in das Anwendungsprogramm springt oder ob zunächst ein **Bootloader** eine besondere Startrolle übernimmt.
 
 <div class="example-card">

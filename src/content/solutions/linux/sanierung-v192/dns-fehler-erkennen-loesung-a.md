@@ -3,26 +3,12 @@ title: "Lösung: DNS-Fehler erkennen: Aufgabe A"
 description: "Musterlösung zur Aufgabe linux-v192-017a im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "netzwerk-und-zugriff"
-  - "dns-fehler-erkennen"
-  - "loesung-a"
+topicPath: ["sanierung-v192", "dns-fehler-erkennen-loesung-a"]
 taskId: "linux-v192-017a"
 relatedExercise: "linux/sanierung-v192/dns-fehler-erkennen-aufgabe-a"
-tags:
-  - "netzwerk-und-zugriff"
-  - "dns"
-  - "fehler"
-  - "erkennen"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-017a`
 
 Ausgangsauftrag: Unterscheide DNS-Fehler von allgemeinem Netzwerkfehler.

@@ -3,22 +3,12 @@ title: "Lösung: Dashboards und Interpretation: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe dat-v189-058b."
 subject: "daten-und-signale"
 section: "systeme"
-topicPath:
-  - "systeme"
-  - "dashboards-und-interpretation"
-  - "loesung-b"
+topicPath: ["sanierung-v189", "dashboards-und-interpretation-aufgabe-b"]
 taskId: "dat-v189-058b"
 relatedExercise: "daten-und-signale/sanierung-v189/dashboards-und-interpretation-aufgabe-b"
-tags:
-  - "dashboard"
-  - "visualisierung"
-  - "interpretation"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "systeme", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-058b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

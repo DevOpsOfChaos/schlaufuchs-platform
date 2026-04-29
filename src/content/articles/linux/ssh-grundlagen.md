@@ -1,13 +1,19 @@
 ---
-title: SSH – Grundlagen
-description: Verstehe, was SSH ist, wofür es genutzt wird und warum es für sicheren Fernzugriff wichtig ist.
-subject: linux
-section: ssh
-level: einfach
-tags: [ssh, fernzugriff, linux, sicherheit]
+title: "SSH – Grundlagen"
+description: "Verstehe, was SSH ist, wofür es genutzt wird und warum es für sicheren Fernzugriff wichtig ist."
+subject: "linux"
+section: "ssh"
+topicPath: ["ssh-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["ssh", "fernzugriff", "linux", "sicherheit"]
 draft: false
 ---
-
 SSH gehört zu den wichtigsten Werkzeugen im Linux-Umfeld, sobald man nicht mehr nur lokal am eigenen Rechner arbeitet. Es ermöglicht einen **sicheren Fernzugriff** auf andere Systeme.
 
 ## Was ist SSH?

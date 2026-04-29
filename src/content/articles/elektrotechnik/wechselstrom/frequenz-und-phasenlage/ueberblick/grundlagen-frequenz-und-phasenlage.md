@@ -1,36 +1,19 @@
 ---
 title: "Grundlagen: Frequenz und Phasenlage"
 description: "Allgemeiner Überblick über periodische Signale, Frequenz, Periodendauer und Phasenverschiebung."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Wechselstrom"
-topicPath:
-  - wechselstrom
-  - frequenz-und-phasenlage
-  - grundlagen-frequenz-und-phasenlage
-learningGoals:
-  - "Du erklärst Frequenz als Anzahl periodischer Wiederholungen pro Zeit."
-  - "Du beschreibst die Periodendauer als Zeit für einen vollständigen Zyklus."
-  - "Du ordnest Phasenlage als zeitliche Verschiebung zwischen Signalen ein."
+topicPath: ["wechselstrom", "frequenz-und-phasenlage", "ueberblick", "grundlagen-frequenz-und-phasenlage"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Frequenz und Periodendauer unabhängig voneinander zu behandeln."
-  - "Phasenverschiebung nur als Bildverschiebung statt als zeitliche Beziehung zu sehen."
-  - "Gleichfrequente Signale automatisch als gleichphasig anzunehmen."
-keyTakeaways:
-  - "Frequenz beschreibt, wie oft sich ein Signal pro Sekunde wiederholt."
-  - "Periodendauer und Frequenz gehören direkt zusammen."
-  - "Phasenlage beschreibt die zeitliche Lage zweier periodischer Signale zueinander."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "wechselstrom"
-  - "frequenz"
-  - "phase"
+level: "einfach"
+tags: ["elektrotechnik", "Wechselstrom"]
 draft: false
 ---
-
 ## Begriff
 
 **Frequenz** beschreibt, wie oft sich ein periodisches Signal pro Sekunde wiederholt. Die Einheit ist Hertz. Ein Signal mit 50 Hertz wiederholt seinen Verlauf fünfzigmal pro Sekunde.

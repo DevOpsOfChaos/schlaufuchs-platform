@@ -3,22 +3,12 @@ title: "Lösung: Schnittpunkt zweier Modelle deuten"
 description: "Musterlösung zur Aufgabe „Schnittpunkt zweier Modelle deuten“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "funktionen-im-vergleich"
-  - "nullstellen-und-schnittpunkte"
-  - "schnittpunkt-zweier-modelle-deuten-v116"
+topicPath: ["funktionen-im-vergleich", "nullstellen-und-schnittpunkte", "schnittpunkt-zweier-modelle-deuten-v116"]
 taskId: "schnittpunkt-zweier-modelle-deuten-v116"
 relatedExercise: "mathematik/funktionen-im-vergleich/nullstellen-und-schnittpunkte/schnittpunkt-zweier-modelle-deuten-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "nullstellen und schnittpunkte"
-  - "schnittpunkt zweier modelle deuten"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

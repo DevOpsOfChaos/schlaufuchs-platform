@@ -3,22 +3,12 @@ title: "Lösung – Content Security Policy als Denkrichtung verstehen"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Projektpraxis-Aufgabe."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "content-security-policy-als-denkrichtung-verstehen"
-tags:
-  - "web development"
-  - "csp"
-  - "sicherheit"
-  - "browser"
-  - "ressourcen"
-  - "lösung"
+topicPath: ["projektpraxis", "betrieb-und-release", "content-security-policy-als-denkrichtung-verstehen"]
 taskId: "web-v105-content-security-policy-als-denkrichtung-verstehen"
 relatedExercise: "web-development/projektpraxis/betrieb-und-release/content-security-policy-als-denkrichtung-verstehen"
+tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Eine gute Lösung beginnt mit der Nutzer- oder Wartungssituation. Das Problem wird nicht nur als technische Kleinigkeit behandelt, sondern als Risiko für Verständlichkeit, Betrieb oder spätere Änderung.

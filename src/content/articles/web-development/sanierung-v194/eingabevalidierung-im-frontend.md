@@ -3,43 +3,17 @@ title: "Eingabevalidierung im Frontend"
 description: "Verstehe schnelle rückmeldung und echte prüfung trennen als ruhigen Web-Development-Baustein für zugängliche, responsive und gut prüfbare Seiten."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "formulare-und-feedback"
-  - "eingabevalidierung-im-frontend"
-
-learningGoals:
-  - "Schnelle Rückmeldung und echte Prüfung trennen"
-  - "Struktur, Gestaltung und Nutzung klar trennen"
-  - "einen kleinen prüfbaren nächsten Schritt formulieren"
-practiceIdeas:
-  - "Plane eine Validierung für ein Newsletterformular."
-  - "Prüfe eine zweite Seite mit demselben Blickwinkel."
-commonMistakes:
-  - "Das Thema wird erst nach dem visuellen Design betrachtet."
-  - "Ein einzelner Test wird mit echter Nutzbarkeit verwechselt."
-  - "Zustände wie Fokus, Fehler oder kleine Bildschirme bleiben ungetestet."
-keyTakeaways:
-  - "Frontendvalidierung unterstützt, ersetzt aber keine Serverprüfung."
-  - "Regeln sollten für Nutzer sichtbar sein."
-  - "Fehlerzustände brauchen Text, nicht nur rote Rahmen."
-
-recognizeSignals:
-  - "Das Thema taucht auf, wenn eine Seite zwar sichtbar funktioniert, aber Bedienung, Lesbarkeit oder Prüfung unsicher bleiben."
-selfCheckPoints:
-  - "Kann ich beschreiben, welches Problem für Nutzerinnen und Nutzer gelöst wird?"
-  - "Ist klar, ob HTML-Struktur, CSS-Layout, Interaktion oder Inhalt betroffen ist?"
-  - "Gibt es einen kleinen Test nach der Änderung?"
+topicPath: ["sanierung-v194", "eingabevalidierung-im-frontend"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "eingabevalidierung"
-  - "frontend"
-  - "web-development"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Eingabevalidierung im Frontend](/schlaufuchs-platform/images/web-development/sanierung-v194/eingabevalidierung-im-frontend.svg)
 
 Eingabevalidierung im Frontend gehört zur Web-Development-Sanierung v194. Die Seite behandelt das Thema als Qualitätsentscheidung: Eine Webseite soll nicht nur hübsch aussehen, sondern verständlich, bedienbar und überprüfbar bleiben.

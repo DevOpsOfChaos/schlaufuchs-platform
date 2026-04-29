@@ -3,22 +3,12 @@ title: "Lösung: Integral und Fläche: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-063a."
 subject: "mathematik"
 section: "analysis-pruefschritte"
-topicPath:
-  - "analysis-pruefschritte"
-  - "integral-und-flaeche"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "integral-und-flaeche-aufgabe-a"]
 taskId: "mat-v188-063a"
 relatedExercise: "mathematik/sanierung-v188/integral-und-flaeche-aufgabe-a"
-tags:
-  - "integral"
-  - "flaeche"
-  - "analysis"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "analysis-pruefschritte", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-063a`
 
 Eine mögliche Lösung:

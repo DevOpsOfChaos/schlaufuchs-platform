@@ -1,34 +1,19 @@
 ---
 title: "Domänenmodell"
 description: "Allgemeiner Überblick über Domänenmodelle in Softwareprojekten."
-subject: informatik
+subject: "informatik"
 section: "Modellierung"
-topicPath:
-  - "domaenenmodell"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Domänenmodell als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["domaenenmodell", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden technische Tabellen oder Klassen zu früh als Fachmodell betrachtet."
-keyTakeaways:
-  - "Ein Domänenmodell ordnet Fachbegriffe und Regeln."
-  - "Domänenmodell sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Domänenmodell."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Domänenmodell erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "informatik"
-  - "modellierung"
-  - "domäne"
-  - "software"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Modellierung"]
 draft: false
 ---
-
 # Domänenmodell
 
 Ein Domänenmodell beschreibt zentrale Begriffe, Beziehungen und Regeln eines fachlichen Problembereichs.

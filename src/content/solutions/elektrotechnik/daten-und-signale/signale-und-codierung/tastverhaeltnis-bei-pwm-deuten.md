@@ -3,21 +3,12 @@ title: "Lösung – Tastverhältnis bei PWM deuten"
 description: "Musterlösung zu tastverhältnis bei pwm deuten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "signale-und-codierung"
-  - "tastverhaeltnis-bei-pwm-deuten"
+topicPath: ["daten-und-signale", "signale-und-codierung", "tastverhaeltnis-bei-pwm-deuten"]
 taskId: "v112-elektrotechnik-tastverhaeltnis-bei-pwm-deuten"
 relatedExercise: "elektrotechnik/daten-und-signale/signale-und-codierung/tastverhaeltnis-bei-pwm-deuten"
-tags:
-  - "elektrotechnik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-signale"
-  - "tastverhaeltnis-bei-pwm-deuten"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Signale und Codierung**.

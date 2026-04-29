@@ -3,23 +3,12 @@ title: "Lösung: Browser und DevTools: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-018a im Web-Development-Block v187."
 subject: "web-development"
 section: "werkzeuge"
-topicPath: 
-  - "werkzeuge-und-projektarbeit"
-  - "browser-devtools"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "browser-und-devtools-aufgabe-a"]
 taskId: "web-v187-018a"
 relatedExercise: "web-development/sanierung-v187/browser-und-devtools-aufgabe-a"
-tags: 
-  - "browser"
-  - "devtools"
-  - "debugging"
-  - "werkzeuge"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "werkzeuge", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-018a`
 
     Ausgangsauftrag: Untersuche mit DevTools, welche CSS-Regel einen Abstand auf einer Seite erzeugt.

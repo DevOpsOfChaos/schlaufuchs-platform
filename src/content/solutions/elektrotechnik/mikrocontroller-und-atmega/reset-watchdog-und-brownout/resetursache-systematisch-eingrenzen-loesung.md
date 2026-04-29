@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Resetursache systematisch eingrenzen"
 description: "Musterlösung zur Aufgabe Resetursache systematisch eingrenzen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - mikrocontroller-und-atmega
-  - reset-watchdog-und-brownout
-taskId: ET-V181-011
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/reset-watchdog-und-brownout/resetursache-systematisch-eingrenzen.md
-tags:
-  - elektrotechnik
-  - reset-watchdog-und-brownout
-  - loesung
+topicPath: ["mikrocontroller-und-atmega", "reset-watchdog-und-brownout", "resetursache-systematisch-eingrenzen"]
+taskId: "ET-V181-011"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/reset-watchdog-und-brownout/resetursache-systematisch-eingrenzen.md"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

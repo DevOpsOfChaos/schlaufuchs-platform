@@ -3,33 +3,15 @@ title: "Flächennäherung und Summe: Grundordnung"
 description: "Ordne Flächennäherung und Summe in Zweck, Prüffragen und Fehlerquellen."
 subject: "mathematik"
 section: "analysis-vorbereitung"
-topicPath:
-  - "analysis-vorbereitung"
-  - "flaechennaeherung-und-summe"
-  - "aufgabe-a"
+topicPath: ["sanierung-v188", "flaechennaeherung-und-summe-aufgabe-a"]
 taskId: "mat-v188-039a"
-tags:
-  - "flaeche"
-  - "summe"
-  - "analysis"
-  - "mathematik"
-  - "aufgabe"
-  - "v188"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["mathematik", "analysis-vorbereitung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Du arbeitest am Thema **Flächennäherung und Summe**. Erstelle eine kurze, geordnete Erklärung für eine lernende Person.

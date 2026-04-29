@@ -3,20 +3,12 @@ title: "Lösung – Pull-down und Pull-up unterscheiden"
 description: "Musterlösung zu Pull-down und Pull-up unterscheiden mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "widerstaende"
-  - "pull-down-und-pull-up-unterscheiden-v113"
+topicPath: ["daten-und-signale", "widerstaende", "pull-down-und-pull-up-unterscheiden-v113"]
 taskId: "v113-elektrotechnik-pull-down-und-pull-up-unterscheiden-v113"
 relatedExercise: "elektrotechnik/daten-und-signale/widerstaende/pull-down-und-pull-up-unterscheiden-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "pull-down-und-pull-up-unterscheiden-v113"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Pull-down und Pull-up unterscheiden**.

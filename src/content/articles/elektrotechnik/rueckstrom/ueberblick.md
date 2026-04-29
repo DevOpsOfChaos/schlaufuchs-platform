@@ -1,36 +1,19 @@
 ---
 title: "Rückstrom"
 description: "Rückstrom bezeichnet ein Grundthema im Bereich elektrische Schaltungen, Messungen und reale Bauteile. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Stromversorgung"
-topicPath:
-  - "rueckstrom"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Rückstrom als allgemeinen Grundbegriff einordnen."
-  - "Du kennst Zweck, Zusammenhang, typische Teilaspekte und Grenzen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle behandelt werden."
+topicPath: ["rueckstrom", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Rückstrom nur als einzelner Arbeitsschritt verstanden, obwohl der Begriff einen größeren Zusammenhang beschreibt."
-keyTakeaways:
-  - "Rückstrom bezeichnet ein Grundthema im Bereich elektrische Schaltungen, Messungen und reale Bauteile. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-  - "Ein Überblick trennt Begriff, Zweck, Beispiel und Grenze."
-  - "Spezialseiten werden verständlicher, wenn die allgemeine Einordnung vorher klar ist."
-recognizeSignals:
-  - "Es geht um Rückstrom, wenn mehrere Einzelbeobachtungen ohne Grundbegriff schwer einzuordnen sind."
-  - "Der Begriff hilft, Werkzeuge, Werte, Regeln oder Darstellungen fachlich zu sortieren."
-selfCheckPoints:
-  - "Kann ich Rückstrom in zwei bis drei Sätzen erklären?"
-  - "Kann ich ein Beispiel und eine typische Grenze nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "stromversorgung"
-  - "schutz"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Stromversorgung"]
 draft: false
 ---
-
 # Rückstrom
 
 Rückstrom bezeichnet ein Grundthema im Bereich elektrische Schaltungen, Messungen und reale

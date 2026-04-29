@@ -3,22 +3,12 @@ title: "Lösung: Bit, Byte und Codierung: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe dat-v189-010b."
 subject: "daten-und-signale"
 section: "codierung"
-topicPath:
-  - "codierung"
-  - "bit-byte-und-codierung"
-  - "loesung-b"
+topicPath: ["sanierung-v189", "bit-byte-und-codierung-aufgabe-b"]
 taskId: "dat-v189-010b"
 relatedExercise: "daten-und-signale/sanierung-v189/bit-byte-und-codierung-aufgabe-b"
-tags:
-  - "bit"
-  - "byte"
-  - "codierung"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "codierung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-010b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

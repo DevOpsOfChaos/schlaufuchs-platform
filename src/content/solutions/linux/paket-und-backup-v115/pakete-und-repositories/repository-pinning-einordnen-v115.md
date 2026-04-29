@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Repository-Pinning einordnen"
 description: "Musterlösung zu Repository-Pinning einordnen mit Trennkante und Gegenprobe."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "paket-und-backup-v115"
-  - "pakete-und-repositories"
-  - "repository-pinning-einordnen-v115"
+topicPath: ["paket-und-backup-v115", "pakete-und-repositories", "repository-pinning-einordnen-v115"]
 taskId: "linux-repository-pinning-einordnen-v115"
 relatedExercise: "linux/paket-und-backup-v115/pakete-und-repositories/repository-pinning-einordnen-v115"
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "pakete und backups"
-  - "pakete und repositories"
-  - "lösung"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Repository-Pinning einordnen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

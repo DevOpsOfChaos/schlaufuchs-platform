@@ -3,24 +3,12 @@ title: "Lösung: Tests für kleine Funktionen: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-v190-023a im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "qualitaet"
-  - "tests-fuer-kleine-funktionen"
-  - "loesung-a"
+topicPath: ["sanierung-v190", "tests-fuer-kleine-funktionen-aufgabe-a"]
 taskId: "web-v190-023a"
 relatedExercise: "web-development/sanierung-v190/tests-fuer-kleine-funktionen-aufgabe-a"
-tags:
-  - "qualitaet"
-  - "tests"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-023a`
 
 Ausgangsauftrag: Formuliere Testfälle für eine Rabattfunktion.

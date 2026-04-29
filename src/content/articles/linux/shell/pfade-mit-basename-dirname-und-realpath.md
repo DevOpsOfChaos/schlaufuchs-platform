@@ -1,44 +1,19 @@
 ---
-title: Pfade mit basename, dirname und realpath verstehen
-description: Lerne, wie du mit einfachen Werkzeugen Dateinamen, Verzeichnisse und vollständige Pfade sauber auseinanderhältst.
-subject: linux
-section: Shell
-topicPath:
-  - shell
-  - pfade-mit-basename-dirname-und-realpath
-tags:
-  - pfad
-  - basename
-  - dirname
-  - realpath
-learningGoals:
-  - "Du erklärst, was basename, dirname und realpath jeweils sichtbar machen."
-  - "Du unterscheidest Dateiname, Ordnerpfad und vollständigen Pfad sauber voneinander."
-  - "Du erkennst, warum genaue Pfadangaben in der Shell Missverständnisse verhindern."
-practiceIdeas:
-  - "Vergleiche denselben Pfad mit basename, dirname und realpath."
-  - "Prüfe bei einem Beispiel, welche Information für den nächsten Arbeitsschritt wichtig ist."
-  - "Nutze Pfadwerkzeuge, um einen Dateipfad in Teilinformationen zu zerlegen."
-commonMistakes:
-  - "Dateiname und Verzeichnispfad gleichzusetzen."
-  - "Den aktuellen Ort mit dem vollständigen Zielpfad zu verwechseln."
-  - "Pfade nur optisch statt strukturell zu lesen."
-keyTakeaways:
-  - "basename zeigt den letzten Namensteil eines Pfades."
-  - "dirname zeigt das übergeordnete Verzeichnis."
-  - "realpath macht einen vollständigen, aufgelösten Pfad sichtbar."
-recognizeSignals:
-  - "Es geht um Pfade, Dateinamen, Verzeichnisse oder die genaue Lage einer Datei."
-  - "Du sollst einen Pfad in Bestandteile zerlegen oder eindeutig angeben."
-  - "Ein Beispiel fragt, welcher Teil eines Pfades der Name und welcher das Verzeichnis ist."
-selfCheckPoints:
-  - "Kann ich basename, dirname und realpath in eigenen Worten unterscheiden?"
-  - "Kann ich an einem Beispiel Dateiname und Verzeichnis sauber trennen?"
-  - "Kann ich erklären, warum vollständige Pfade in der Shell hilfreich sind?"
-level: einfach
+title: "Pfade mit basename, dirname und realpath verstehen"
+description: "Lerne, wie du mit einfachen Werkzeugen Dateinamen, Verzeichnisse und vollständige Pfade sauber auseinanderhältst."
+subject: "linux"
+section: "Shell"
+topicPath: ["shell", "pfade-mit-basename-dirname-und-realpath"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
-
 ## Warum dieses Thema wichtig ist
 
 In der Shell ist ein Pfad nicht bloß Text, sondern eine strukturierte Wegbeschreibung. Wer Pfade sauber lesen kann, arbeitet ruhiger, vermeidet Missverständnisse und versteht besser, worauf sich ein Befehl eigentlich bezieht.

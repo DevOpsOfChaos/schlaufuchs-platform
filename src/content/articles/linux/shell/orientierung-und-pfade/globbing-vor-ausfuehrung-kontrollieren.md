@@ -3,44 +3,17 @@ title: "Linux – Globbing vor Ausführung kontrollieren"
 description: "Lerne globbing vor ausführung kontrollieren als kleines Unterthema mit Beispiel, Abgrenzung und Prüfstrategie."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "orientierung-und-pfade"
-  - "globbing-vor-ausfuehrung-kontrollieren"
-learningGoals:
-  - "Du erklärst globbing vor ausführung kontrollieren in einem klaren Kontext."
-  - "Du grenzt das Unterthema von einem typischen Nachbarthema ab."
-  - "Du nutzt eine konkrete Gegenprobe statt nur eine Merkliste."
-practiceIdeas:
-  - "Formuliere ein eigenes Mini-Beispiel mit einer typischen Verwechslung."
-  - "Schreibe einen Prüfschritt auf, der das Ergebnis kontrolliert."
-  - "Ordne das Thema bewusst in den kleinen Unterpfad ein."
-commonMistakes:
-  - "Das Programm selbst wird für die Auswahl verantwortlich gemacht."
-  - "Das Thema wird in einem breiten Sammelkapitel versteckt."
-  - "Die Lösung nennt ein Ergebnis, aber keinen prüfbaren Weg."
-keyTakeaways:
-  - "Globs werden von der Shell vor dem Befehl erweitert."
-  - "Kleine Unterthemen machen Wiederholung und Suche einfacher."
-  - "Aufgabe und Lösung sollen dieselbe Trennkante verwenden."
-recognizeSignals:
-  - "Eine Aufgabe enthält einen Begriff, der leicht mit einem Nachbarthema verwechselt wird."
-  - "Ein Beispiel braucht vor der Rechnung oder Umsetzung eine Einordnung."
-  - "Eine Gegenprobe kann den gewählten Weg bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich den typischen Fehler fachlich ausschließen?"
-  - "Passt meine Lösung genau zum Unterpfad?"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "globbing-vor-ausfuehrung-kontrollieren"
+topicPath: ["shell", "orientierung-und-pfade", "globbing-vor-ausfuehrung-kontrollieren"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["linux", "Feinstruktur Linux"]
 draft: false
 ---
-
 ## Grundidee
 
 **Globbing vor Ausführung kontrollieren** ist bewusst als kleines Unterthema angelegt. Lerne globbing vor ausführung kontrollieren als kleines Unterthema mit Beispiel, Abgrenzung und Prüfstrategie. Dadurch bleibt die Seite auffindbar und landet nicht in einem übergroßen Sammelbereich.

@@ -3,38 +3,17 @@ title: "Daten und Signale im Überblick"
 description: "Daten und Signale verbinden Information, Darstellung und Übertragung."
 subject: "daten-und-signale"
 section: "grundlagen"
-topicPath:
-  - "grundlagen"
-  - "ueberblick"
-learningGoals:
-  - "Daten und Signale verbinden Information, Darstellung und Übertragung fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Daten und Signale verbinden Information, Darstellung und Übertragung wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v189", "daten-und-signale-im-ueberblick"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "daten"
-  - "signale"
-  - "ueberblick"
-  - "daten-und-signale"
-  - "v189"
+tags: ["daten-und-signale", "grundlagen"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Daten und Signale im Überblick](/schlaufuchs-platform/images/daten-und-signale/sanierung-189/daten-und-signale-im-ueberblick.svg)
 
 ## Überblick

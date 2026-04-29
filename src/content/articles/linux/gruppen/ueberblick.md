@@ -1,33 +1,19 @@
 ---
 title: "Gruppen"
 description: "Gruppen bündeln Benutzer für gemeinsame Rechte. Sie steuern Dateizugriff, Gerätezugriff und administrative Rollen."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "gruppen"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Gruppen."
-  - "Du kannst Gruppen in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["gruppen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nach einer Gruppenänderung zu vergessen, dass bestehende Sitzungen oft neu gestartet werden müssen."
-keyTakeaways:
-  - "Gruppen bündeln Benutzer für gemeinsame Rechte."
-  - "Wichtig sind vor allem primäre und zusätzliche gruppen, dateibesitz und gruppenrechte und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Gruppen, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Gruppen dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "linux"
-  - "grundlagen"
-  - "gruppen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # Gruppen
 
 Gruppen bündeln Benutzer für gemeinsame Rechte. Sie steuern Dateizugriff, Gerätezugriff und administrative Rollen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

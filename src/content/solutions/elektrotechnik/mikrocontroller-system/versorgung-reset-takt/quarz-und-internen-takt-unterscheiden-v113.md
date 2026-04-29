@@ -3,20 +3,12 @@ title: "Lösung – Quarz und internen Takt unterscheiden"
 description: "Musterlösung zu Quarz und internen Takt unterscheiden mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-system"
-  - "versorgung-reset-takt"
-  - "quarz-und-internen-takt-unterscheiden-v113"
+topicPath: ["mikrocontroller-system", "versorgung-reset-takt", "quarz-und-internen-takt-unterscheiden-v113"]
 taskId: "v113-elektrotechnik-quarz-und-internen-takt-unterscheiden-v113"
 relatedExercise: "elektrotechnik/mikrocontroller-system/versorgung-reset-takt/quarz-und-internen-takt-unterscheiden-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "quarz-und-internen-takt-unterscheiden-v113"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Quarz und internen Takt unterscheiden**.

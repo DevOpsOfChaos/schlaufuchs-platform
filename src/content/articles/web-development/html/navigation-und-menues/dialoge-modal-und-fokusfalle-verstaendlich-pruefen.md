@@ -3,44 +3,17 @@ title: "HTML – Dialoge, Modalzustand und Fokusführung prüfen"
 description: "Lerne, Dialoge nicht nur sichtbar zu öffnen, sondern Tastaturfokus, Schließen und Rücksprung mitzudenken."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "navigation-und-menues"
-  - "dialoge-modal-und-fokusfalle-verstaendlich-pruefen"
-learningGoals:
-  - "Du beschreibst, warum ein Dialog ein eigener Interaktionszustand ist."
-  - "Du prüfst Fokus beim Öffnen und Schließen."
-  - "Du unterscheidest kurzen Hinweisdialog von komplexer Seite."
-practiceIdeas:
-  - "Prüfe eine vorhandene Seite mit genau dieser Fragestellung."
-  - "Formuliere eine kleine Vorher-nachher-Verbesserung."
-  - "Teste die Entscheidung mit Tastatur, kleiner Breite und längeren Texten."
-commonMistakes:
-  - "Ein Modal nur als großes div über die Seite zu legen."
-  - "Den Fokus hinter dem Dialog weiterlaufen zu lassen."
-  - "Nach dem Schließen nicht zum Auslöser zurückzuführen."
-keyTakeaways:
-  - "Bedeutung, Technik und Nutzungssituation müssen zusammenpassen."
-  - "Eine optisch passende Lösung ist noch nicht automatisch strukturell gut."
-  - "Kleine Prüfregeln helfen, Weboberflächen verlässlich zu verbessern."
-recognizeSignals:
-  - "Du siehst eine Stelle, die optisch funktioniert, aber fachlich unklar bleibt."
-  - "Im Review taucht die Frage auf, ob HTML-Struktur oder CSS-Verhalten wirklich passt."
-  - "Eine Komponente soll robuster, zugänglicher oder wartbarer werden."
-selfCheckPoints:
-  - "Kann ich die fachliche Bedeutung der Stelle benennen?"
-  - "Kann ich die technische Entscheidung begründen?"
-  - "Kann ich eine typische Fehlinterpretation vermeiden?"
-tags:
-  - "web development"
-  - "html"
-  - "dialog"
-  - "modal"
-  - "fokus"
+topicPath: ["html", "navigation-und-menues", "dialoge-modal-und-fokusfalle-verstaendlich-pruefen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Diese Seite hilft dir, **Dialoge, Modalzustand und Fokusführung prüfen** nicht als isolierte Technik zu lernen. Entscheidend ist, welche Bedeutung auf der Seite entsteht und ob diese Bedeutung für Nutzerinnen und Nutzer zuverlässig erkennbar bleibt.

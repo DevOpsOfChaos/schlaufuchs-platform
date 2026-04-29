@@ -3,38 +3,17 @@ title: "Definitionsbereich prüfen"
 description: "Der Definitionsbereich legt fest, welche Eingaben erlaubt sind."
 subject: "mathematik"
 section: "funktionen-und-graphen"
-topicPath:
-  - "funktionen-und-graphen"
-  - "graphen-deuten"
-learningGoals:
-  - "Der Definitionsbereich legt fest, welche Eingaben erlaubt sind fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Der Definitionsbereich legt fest, welche Eingaben erlaubt sind wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v188", "definitionsbereich-pruefen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "definitionsbereich"
-  - "funktionen"
-  - "pruefen"
-  - "mathematik"
-  - "v188"
+tags: ["mathematik", "funktionen-und-graphen"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Definitionsbereich prüfen](/schlaufuchs-platform/images/mathematik/sanierung-188/definitionsbereich-pruefen.svg)
 
 ## Überblick

@@ -3,20 +3,10 @@ title: "Lösung – Open-Drain-Buslogik mit Pull-up erklären"
 description: "Musterlösung zu „Open-Drain-Buslogik mit Pull-up erklären“."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "open-drain-pullup-und-buslogik"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "open-drain-pullup-und-buslogik"]
 taskId: "et-mc-v93-open-drain"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/open-drain-pullup-und-buslogik"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "open-drain"
-  - "pullup"
-  - "i2c"
-  - "bus"
-  - "logik"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

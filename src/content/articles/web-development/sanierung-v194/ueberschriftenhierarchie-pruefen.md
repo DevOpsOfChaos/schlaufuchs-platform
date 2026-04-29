@@ -3,43 +3,17 @@ title: "Überschriftenhierarchie prüfen"
 description: "Verstehe dokumentstruktur lesbar halten als ruhigen Web-Development-Baustein für zugängliche, responsive und gut prüfbare Seiten."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "zugang-und-semantik"
-  - "ueberschriftenhierarchie-pruefen"
-
-learningGoals:
-  - "Dokumentstruktur lesbar halten"
-  - "Struktur, Gestaltung und Nutzung klar trennen"
-  - "einen kleinen prüfbaren nächsten Schritt formulieren"
-practiceIdeas:
-  - "Verbessere eine fehlerhafte Überschriftenstruktur."
-  - "Prüfe eine zweite Seite mit demselben Blickwinkel."
-commonMistakes:
-  - "Das Thema wird erst nach dem visuellen Design betrachtet."
-  - "Ein einzelner Test wird mit echter Nutzbarkeit verwechselt."
-  - "Zustände wie Fokus, Fehler oder kleine Bildschirme bleiben ungetestet."
-keyTakeaways:
-  - "Überschriften bilden eine Inhaltskarte."
-  - "Sprünge in der Ebene machen Orientierung schwerer."
-  - "Eine gute H1 beschreibt die konkrete Seite."
-
-recognizeSignals:
-  - "Das Thema taucht auf, wenn eine Seite zwar sichtbar funktioniert, aber Bedienung, Lesbarkeit oder Prüfung unsicher bleiben."
-selfCheckPoints:
-  - "Kann ich beschreiben, welches Problem für Nutzerinnen und Nutzer gelöst wird?"
-  - "Ist klar, ob HTML-Struktur, CSS-Layout, Interaktion oder Inhalt betroffen ist?"
-  - "Gibt es einen kleinen Test nach der Änderung?"
+topicPath: ["sanierung-v194", "ueberschriftenhierarchie-pruefen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
-tags:
-  - "ueberschriftenhierarchie"
-  - "pruefen"
-  - "web-development"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Überschriftenhierarchie prüfen](/schlaufuchs-platform/images/web-development/sanierung-v194/ueberschriftenhierarchie-pruefen.svg)
 
 Überschriftenhierarchie prüfen gehört zur Web-Development-Sanierung v194. Die Seite behandelt das Thema als Qualitätsentscheidung: Eine Webseite soll nicht nur hübsch aussehen, sondern verständlich, bedienbar und überprüfbar bleiben.

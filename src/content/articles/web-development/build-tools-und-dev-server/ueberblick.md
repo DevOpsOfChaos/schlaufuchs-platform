@@ -1,34 +1,19 @@
 ---
 title: "Build-Tools und Dev-Server"
 description: "Allgemeiner Überblick über Build-Tools, Entwicklungsserver und moderne Frontend-Arbeitsabläufe."
-subject: web-development
+subject: "web-development"
 section: "Werkzeuge"
-topicPath:
-  - "build-tools-und-dev-server"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Build-Tools und Dev-Server als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["build-tools-und-dev-server", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird ein erfolgreicher Dev-Server mit einem erfolgreichen Produktionsbuild gleichgesetzt."
-keyTakeaways:
-  - "Build-Tools verbinden Quellcode mit auslieferbaren Webdateien."
-  - "Build-Tools und Dev-Server sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Build-Tools und Dev-Server."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Build-Tools und Dev-Server erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "web development"
-  - "build"
-  - "dev server"
-  - "werkzeuge"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Werkzeuge"]
 draft: false
 ---
-
 # Build-Tools und Dev-Server
 
 Build-Tools verarbeiten Quellcode und Ressourcen zu Dateien, die ein Browser effizient ausführen oder laden kann.

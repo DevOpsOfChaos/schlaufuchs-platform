@@ -1,47 +1,19 @@
 ---
-title: Serverseitige Validierungsreihenfolge verstehen
-description: Verstehe, in welcher Reihenfolge Formulardaten auf dem Server sinnvoll geprüft werden sollten.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - serverseitige-validierungsreihenfolge-verstehen
-learningGoals:
-  - Du erklärst eine ruhige Reihenfolge für serverseitige Datenprüfung.
-  - Du unterscheidest Typprüfung, Längenprüfung und Inhaltsprüfung.
-  - Du begründest, warum HTML-Attribute oder JavaScript allein nicht reichen.
-practiceIdeas:
-  - Ordne Prüfschritte für ein Formular mit Alter, Name und E-Mail.
-  - Erkläre, warum eine spätere Inhaltsprüfung ohne saubere Grundprüfung unruhig wird.
-  - Vergleiche clientseitige Hinweise mit echter serverseitiger Kontrolle.
-commonMistakes:
-  - Sich auf maxlength oder type="number" als Schutz zu verlassen.
-  - Prüfungen ohne Reihenfolge durcheinander auszuführen.
-  - Zu glauben, String-Eingaben hätten auf dem Server schon automatisch den richtigen Datentyp.
-keyTakeaways:
-  - Clientseitige Regeln helfen, ersetzen aber keine serverseitige Prüfung.
-  - Eine ruhige Prüfstrategie geht meist von Typ über Länge zu Inhalt und Bereich.
-  - Erst eine saubere Reihenfolge macht Validierung nachvollziehbar.
-recognizeSignals:
-  - Es geht um Formulare, Validierung, Strings aus POST oder GET.
-  - Ein Beispiel fragt nach Sicherheits- oder Qualitätsprüfung.
-  - Du sollst erklären, wie Eingaben sinnvoll geprüft werden.
-selfCheckPoints:
-  - Kann ich sagen, warum Serverprüfung nötig bleibt?
-  - Kann ich eine sinnvolle Prüf-Reihenfolge nennen?
-  - Kann ich Typ, Länge und Inhalt sauber trennen?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - php
-  - validierung
-  - formular
-  - sicherheit
+title: "Serverseitige Validierungsreihenfolge verstehen"
+description: "Verstehe, in welcher Reihenfolge Formulardaten auf dem Server sinnvoll geprüft werden sollten."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "serverseitige-validierungsreihenfolge-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Formulardaten kommen auf dem Server zunächst oft als Strings an. Deshalb ist eine ruhige serverseitige Prüfung wichtig. HTML-Attribute, JavaScript oder vorgegebene Formularwerte helfen zwar, sind aber kein verlässlicher Schutz.

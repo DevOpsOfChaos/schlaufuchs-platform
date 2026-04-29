@@ -3,23 +3,12 @@ title: "Lösung – Arrange, Act, Assert in Tests erkennen"
 description: "Musterlösung zu Arrange, Act, Assert mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Qualität"
-topicPath:
-  - "algorithmen"
-  - "tests-und-randfaelle"
-  - "aaa"
-  - "arrange-act-assert-in-tests-erkennen"
+topicPath: ["algorithmen", "tests-und-randfaelle", "aaa", "arrange-act-assert-in-tests-erkennen"]
 taskId: "v109-informatik-arrange-act-assert-in-tests-erkennen"
 relatedExercise: "informatik/algorithmen/tests-und-randfaelle/aaa/arrange-act-assert-in-tests-erkennen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "algorithmen"
-  - "tests-und-randfaelle"
-  - "arrange, act, assert"
+tags: ["informatik", "Qualität", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Arrange, Act, Assert**.

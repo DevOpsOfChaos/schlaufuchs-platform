@@ -1,32 +1,17 @@
 ---
-title: SPI-Austausch als Voll-Duplex ruhig lesen
-description: Erkläre am ATmega, warum ein SPI-Lesevorgang zugleich auch ein Sendevorgang ist und warum der Takt beide Richtungen koppelt.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-schnittstellen-und-busse
-  - atmega-spi-voll-duplex-grundidee-verstehen
-  - spi-austausch-als-voll-duplex-ruhig-lesen
-taskId: ET-ATMEGA-SPI-301
-level: mittel
+title: "SPI-Austausch als Voll-Duplex ruhig lesen"
+description: "Erkläre am ATmega, warum ein SPI-Lesevorgang zugleich auch ein Sendevorgang ist und warum der Takt beide Richtungen koppelt."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-spi-voll-duplex-grundidee-verstehen", "spi-austausch-als-voll-duplex-ruhig-lesen"]
+taskId: "ET-ATMEGA-SPI-301"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - atmega
-  - spi
-  - voll-duplex
-hintPoints:
-  - Denke MOSI, MISO und SCK immer gemeinsam.
-  - Frage zuerst, was pro Takt in beide Richtungen passiert.
-selfCheckPoints:
-  - Kannst du SPI von einer rein einseitigen Datenvorstellung trennen?
-  - Kannst du erklären, warum der Master zum Lesen trotzdem selbst senden muss?
-transferIdeas:
-  - Übertrage die Idee auf Sensorabfragen oder Schieberegister.
-reflectionPrompt: "Welche ruhige Leitfrage hilft dir bei SPI mehr: Welches Byte will ich lesen oder was passiert bei jedem Takt in beide Richtungen?"
 ---
-
 Gegeben ist dieses Denkbild:
 
 <pre><code>Master sendet gleichzeitig Dummy-Byte

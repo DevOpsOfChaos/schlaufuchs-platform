@@ -1,35 +1,17 @@
 ---
 title: "resolv.conf und Namensauflösung"
 description: "Überblick über resolv.conf, DNS-Resolver und typische Wege der Namensauflösung unter Linux."
-subject: linux
+subject: "linux"
 section: "Netzwerk"
-topicPath:
-  - "resolv-conf-und-namensaufloesung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst resolv.conf und Namensauflösung als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["resolv-conf-und-namensaufloesung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird bei jedem Verbindungsproblem DNS verdächtigt. DNS ist wichtig, aber nicht die einzige mögliche Ursache."
-keyTakeaways:
-  - "resolv.conf enthält oder verweist auf Einstellungen, mit denen ein System DNS-Namen in IP-Adressen auflöst."
-  - "Das Verständnis hilft, DNS-Probleme von Routing-, Firewall- oder Dienstproblemen zu trennen."
-  - "resolv.conf ist nur ein Teil der Namensauflösung. hosts-Datei, NSS-Konfiguration und lokale Resolver können ebenfalls beteiligt sein."
-recognizeSignals:
-  - "Es geht um resolv.conf und Namensauflösung, wenn moderne Distributionen verwalten resolv.conf oft über systemd-resolved, NetworkManager oder andere Dienste."
-  - "Das Thema wird relevant, wenn Beispiele wie ein Server kann per IP erreichbar sein, aber per Hostname scheitern, wenn DNS falsch konfiguriert ist."
-selfCheckPoints:
-  - "Kann ich resolv.conf und Namensauflösung in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "dns"
-  - "resolv.conf"
-  - "netzwerk"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Netzwerk"]
 draft: false
 ---
 # resolv.conf und Namensauflösung

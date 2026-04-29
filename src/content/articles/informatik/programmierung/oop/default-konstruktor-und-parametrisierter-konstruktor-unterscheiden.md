@@ -1,46 +1,19 @@
 ---
-title: Default-Konstruktor und parametrisierter Konstruktor unterscheiden
-description: Verstehe, wie sich Objektstart ohne Werte und Objektstart mit Werten unterscheiden.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - default-konstruktor-und-parametrisierter-konstruktor-unterscheiden
-learningGoals:
-  - Du unterscheidest parameterlosen und parametrisierten Konstruktor sicher.
-  - Du beschreibst, wann ein Objekt mit Standardwerten und wann mit uebergebenen Werten startet.
-  - Du liest verschiedene Schreibweisen der Objekterzeugung ruhiger.
-practiceIdeas:
-  - Vergleiche zwei Konstruktoren derselben Klasse.
-  - Ordne Objektaufrufe passenden Konstruktoren zu.
-  - Formuliere fuer einen Konstruktor den Startzustand in Worten.
-commonMistakes:
-  - Zu denken, dass jeder Konstruktor automatisch dieselbe Startlogik ausfuehrt.
-  - Parameterlose und leere Klammern mit einer Funktionsdeklaration zu verwechseln.
-  - Zu vergessen, dass Parameter den Startzustand gezielt steuern sollen.
-keyTakeaways:
-  - Ein Default-Konstruktor startet ohne zusaetzliche Werte.
-  - Ein parametrisierter Konstruktor startet mit uebergebenen Informationen.
-  - Die Objektanlage verrät oft schon, welcher Konstruktor gemeint ist.
-recognizeSignals:
-  - Objekterzeugung ohne oder mit Argumenten wird verglichen.
-  - In einer Klasse stehen mehrere Konstruktoren mit unterschiedlicher Parameterzahl.
-  - Es geht um Startwerte und Initialisierung.
-selfCheckPoints:
-  - Kann ich Objektanlage mit und ohne Argumente unterscheiden?
-  - Kann ich sagen, welcher Konstruktor zu welchem Aufruf passt?
-  - Kann ich Startzustand und uebergebene Werte sprachlich sauber trennen?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - konstruktor
-  - initialisierung
+title: "Default-Konstruktor und parametrisierter Konstruktor unterscheiden"
+description: "Verstehe, wie sich Objektstart ohne Werte und Objektstart mit Werten unterscheiden."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "default-konstruktor-und-parametrisierter-konstruktor-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Objekte koennen unterschiedlich starten. Manchmal reicht ein sinnvoller Standardzustand. Manchmal muessen beim Start direkt Werte mitgegeben werden. Deshalb gibt es oft mehrere Konstruktoren mit verschiedenen Rollen.

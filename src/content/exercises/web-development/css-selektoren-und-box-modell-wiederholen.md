@@ -1,12 +1,17 @@
 ---
-title: CSS-Selektoren und Box-Modell wiederholen
-description: Diese neu formulierte Bestandsaufgabe verbindet klassische CSS-Grundlagen mit einer sauberen Wiederholung von Selektoren, Abstand und Box-Modell.
-subject: web-development
-section: CSS und Layout
-level: einfach
+title: "CSS-Selektoren und Box-Modell wiederholen"
+description: "Diese neu formulierte Bestandsaufgabe verbindet klassische CSS-Grundlagen mit einer sauberen Wiederholung von Selektoren, Abstand und Box-Modell."
+subject: "web-development"
+section: "CSS und Layout"
+topicPath: ["css-selektoren-und-box-modell-wiederholen"]
+taskId: "AUTO-CSS-SELEKTOREN-UND-BOX-MODELL-WIEDERHOLEN"
+tags: ["web-development", "CSS und Layout", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgabe mit Blick auf Struktur und Wirkung. Es geht nicht um Design-Spielereien, sondern um einen sicheren CSS-Grundbestand.

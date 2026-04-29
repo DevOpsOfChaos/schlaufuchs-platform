@@ -1,46 +1,19 @@
 ---
-title: Statische Methoden und Instanzmethoden unterscheiden
-description: Verstehe, welche Methoden an die Klasse und welche an einzelne Objekte gebunden sind.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - statische-methoden-und-instanzmethoden-unterscheiden
-learningGoals:
-  - Du unterscheidest Methoden mit Objektbezug von Methoden mit Klassenbezug.
-  - Du erklaerst, warum statische Methoden nicht den Zustand eines konkreten Objekts brauchen.
-  - Du liest Klassencodes mit static ruhiger.
-practiceIdeas:
-  - Ordne Methoden danach, ob sie ein Objekt voraussetzen.
-  - Suche in einem Beispiel, welche Methoden auf Instanzdaten zugreifen.
-  - Vergleiche Aufrufe ueber Objekt und ueber Klassenname.
-commonMistakes:
-  - Jede Methode automatisch an ein Objekt zu binden.
-  - Zu denken, dass statische Methoden direkten Zugriff auf beliebige Instanzdaten haben.
-  - static nur als Zufallswort im Code zu lesen.
-keyTakeaways:
-  - Instanzmethoden arbeiten fuer ein bestimmtes Objekt.
-  - Statische Methoden arbeiten fuer die Klasse als Ganzes.
-  - Welche Daten verfuegbar sind, haengt vom Methoden-Typ ab.
-recognizeSignals:
-  - In einer Klasse steht das Schluesselwort <code>static</code> vor einer Methode.
-  - Eine Methode wird ueber <code>Klassenname::...</code> aufgerufen.
-  - Es geht um gemeinsamen Zustand oder allgemeinen Klassennutzen.
-selfCheckPoints:
-  - Kann ich sagen, ob eine Methode ein Objekt braucht?
-  - Kann ich Klassenbezug und Objektbezug sprachlich trennen?
-  - Kann ich erklaeren, warum statische Methoden anders auf Daten zugreifen?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - static
-  - methoden
+title: "Statische Methoden und Instanzmethoden unterscheiden"
+description: "Verstehe, welche Methoden an die Klasse und welche an einzelne Objekte gebunden sind."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "statische-methoden-und-instanzmethoden-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Nicht jede Methode arbeitet fuer ein einzelnes Objekt. Manche Methoden gehoeren fachlich zur ganzen Klasse. Dann werden sie als statische Methoden formuliert.

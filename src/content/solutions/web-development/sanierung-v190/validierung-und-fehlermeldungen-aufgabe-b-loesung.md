@@ -3,24 +3,12 @@ title: "Lösung: Validierung und Fehlermeldungen: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-v190-013b im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "formulare"
-  - "validierung-und-fehlermeldungen"
-  - "loesung-b"
+topicPath: ["sanierung-v190", "validierung-und-fehlermeldungen-aufgabe-b"]
 taskId: "web-v190-013b"
 relatedExercise: "web-development/sanierung-v190/validierung-und-fehlermeldungen-aufgabe-b"
-tags:
-  - "formulare"
-  - "validierung"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-013b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Validierung und Fehlermeldungen“ um einen Fehlerfall, eine Abnahmebedingung und eine kurze Begründung.

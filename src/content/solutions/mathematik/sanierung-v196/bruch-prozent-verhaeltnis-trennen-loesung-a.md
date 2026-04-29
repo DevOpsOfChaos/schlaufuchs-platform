@@ -1,15 +1,14 @@
 ---
-title: Bruch, Prozent und Verhältnis trennen – Lösung A
-description: Musterlösung zu Bruch, Prozent und Verhältnis trennen mit Kontrolle.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Bruch, Prozent und Verhältnis trennen – Lösung A"
+description: "Musterlösung zu Bruch, Prozent und Verhältnis trennen mit Kontrolle."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "rechenstrategien-und-kontrolle", "bruch-prozent-verhaeltnis-trennen"]
 taskId: "mat-v196-bruch-prozent-verhaeltnis-trennen-a"
 relatedExercise: "mathematik/sanierung-v196/bruch-prozent-verhaeltnis-trennen-aufgabe-a"
 tags: ["mathematik", "v196", "rechenstrategien-und-kontrolle", "bruch-prozent-verhaeltnis-trennen"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine passende Lösung zu dieser Aufgabe muss nicht exakt dieselben Zahlen oder Beispiele verwenden. Entscheidend ist der saubere Aufbau.

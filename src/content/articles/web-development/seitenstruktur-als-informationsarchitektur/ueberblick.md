@@ -1,31 +1,17 @@
 ---
 title: "Seitenstruktur als Informationsarchitektur"
 description: "Überblick darüber, wie Seitenstruktur, Navigation und Inhaltsgruppen eine Webseite verständlich und benutzbar machen."
-subject: web-development
+subject: "web-development"
 section: "Grundlagen"
-topicPath:
-  - "seitenstruktur-als-informationsarchitektur"
-learningGoals:
-  - "Du verstehst Seitenstruktur als Ordnung von Informationen."
-  - "Du erkennst den Unterschied zwischen visueller Gestaltung und semantischer Gliederung."
-  - "Du kannst Navigation, Hauptinhalt und Nebenbereiche einordnen."
+topicPath: ["seitenstruktur-als-informationsarchitektur", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Struktur nur als optisches Layout zu behandeln."
-  - "Überschriftenebenen nur wegen der Schriftgröße zu wählen."
-keyTakeaways:
-  - "Informationsarchitektur ordnet Inhalte nach Bedeutung und Nutzung."
-  - "HTML-Struktur, Navigation und Überschriften tragen zur Orientierung bei."
-recognizeSignals:
-  - "Es geht um Navigation, Seitenbereiche, Überschriften, Inhaltsgruppen oder Nutzerführung."
-selfCheckPoints:
-  - "Kann ich eine Seite erklären, ohne zuerst über Farben und Abstände zu sprechen?"
-level: einfach
-tags:
-  - "web-development"
-  - "informationsarchitektur"
-  - "html"
-  - "navigation"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Grundlagen"]
 draft: false
 ---
 # Seitenstruktur als Informationsarchitektur

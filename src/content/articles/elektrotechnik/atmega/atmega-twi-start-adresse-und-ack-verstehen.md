@@ -1,46 +1,19 @@
 ---
-title: ATmega – TWI Start, Adresse und ACK verstehen
-description: Verstehe, wie der AVR bei TWI beziehungsweise I²C eine Verbindung anbahnt und warum Startbedingung, Adressierung und Bestätigung logisch zusammengehören.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-schnittstellen-und-busse
-  - atmega-twi-start-adresse-und-ack-verstehen
-learningGoals:
-  - Du erklärst die Rollen von Startbedingung, Adresse und ACK beim AVR-TWI.
-  - Du beschreibst, warum I²C-Kommunikation als geordneter Busablauf und nicht als lose Datenreihe gelesen werden sollte.
-  - Du deutest Busfehler eher als Ablauf- und Bestätigungsproblem statt nur als falschen Zahlenwert.
-practiceIdeas:
-  - Lies einen TWI-Ablauf zuerst als Reihenfolge aus Start, Adresse und Reaktion.
-  - Vergleiche einen bestätigten und einen nicht bestätigten Gerätezugriff.
-  - Prüfe bei einem Busproblem zuerst, ob die Gegenstelle überhaupt angesprochen und bestätigt wurde.
-commonMistakes:
-  - Zu denken, der Datenwert sei schon das Erste, was auf dem Bus wichtig wird.
-  - ACK als Nebensache zu behandeln, obwohl es die Teilnahme des Gegenübers sichtbar macht.
-  - Start, Adresse und Antwort nicht als geordneten Ablauf zu lesen.
-keyTakeaways:
-  - Beim TWI beginnt ein geordneter Zugriff mit Startbedingung und Adressierung.
-  - ACK zeigt, ob die angesprochene Gegenstelle den Schritt bestätigt.
-  - Wer den Ablauf zuerst als Busgespräch liest, versteht I²C deutlich ruhiger.
-recognizeSignals:
-  - Es geht um TWI, I²C, Startbedingung, Geräteadresse oder ACK.
-  - Du sollst erklären, warum ein Gerätezugriff nicht zustande kommt.
-  - In Aufgaben ist die Reihenfolge der Busereignisse wichtiger als ein einzelnes Datenbyte.
-selfCheckPoints:
-  - Kann ich Startbedingung, Adresse und ACK fachlich trennen?
-  - Kann ich erklären, warum ein fehlendes ACK ein wichtiges Fehlerbild ist?
-  - Kann ich einen I²C-Zugriff als geordneten Ablauf beschreiben?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - twi
-  - i2c
-level: mittel
+title: "ATmega – TWI Start, Adresse und ACK verstehen"
+description: "Verstehe, wie der AVR bei TWI beziehungsweise I²C eine Verbindung anbahnt und warum Startbedingung, Adressierung und Bestätigung logisch zusammengehören."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-twi-start-adresse-und-ack-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Beim TWI beziehungsweise I²C beginnt Kommunikation nicht einfach mit „einem Datenbyte“. Zuerst muss auf dem Bus geordnet sichtbar werden, **dass ein Zugriff beginnt**, **welches Gerät gemeint ist** und **ob dieses Gerät überhaupt reagiert**. Genau dafür sind Startbedingung, Adresse und ACK wichtig.

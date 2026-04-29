@@ -1,28 +1,17 @@
 ---
 title: "Taktquelle vor Timerrechnung prüfen"
 description: "Prüfe, warum eine Timerrechnung ohne bekannte Taktquelle unsicher ist."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - mikrocontroller-und-atmega
-  - taktquelle-und-timing-genauigkeit
-taskId: ET-V182-011
-tags:
-  - elektrotechnik
-  - taktquelle-und-timing-genauigkeit
-  - sanierung-v182
-hintPoints:
-  - "Lies zuerst den Normalzustand und danach den Fehlerfall."
-  - "Trenne Beobachtung, Vermutung und Gegenprobe."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["mikrocontroller-und-atmega", "taktquelle-und-timing-genauigkeit", "taktquelle-vor-timerrechnung-pruefen"]
+taskId: "ET-V182-011"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **Taktquelle und Timing-Genauigkeit** ruhig und schrittweise.

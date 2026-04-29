@@ -1,46 +1,19 @@
 ---
-title: GET und POST bei Formularen unterscheiden
-description: Verstehe, wie Formulardaten ankommen und warum GET und POST unterschiedliche Rollen fuer Sichtbarkeit und Zweck haben.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - get-und-post-bei-formularen-unterscheiden
-learningGoals:
-  - Du erklaerst den Unterschied zwischen GET und POST in einfachen Worten.
-  - Du beschreibst, warum GET oft sichtbarer und POST oft stiller verarbeitet wird.
-  - Du waehlst die Request Art eher nach Zweck als nach Gewohnheit.
-practiceIdeas:
-  - Vergleiche eine Suchanfrage mit einem Login oder Kontaktformular.
-  - Beschreibe, welche Daten in der URL sichtbar werden und welche nicht.
-  - Lies ein Formular zuerst ueber seinen Zweck und dann ueber die passende Request Art.
-commonMistakes:
-  - GET und POST nur als Technikwoerter ohne Nutzungskontext zu sehen.
-  - Zu glauben, POST mache Daten automatisch sicher.
-  - Die Sichtbarkeit in der URL nicht mit dem Zweck der Anfrage zu verbinden.
-keyTakeaways:
-  - GET eignet sich oft fuer lesende, sichtbare Anfragen wie Suchen oder Filter.
-  - POST eignet sich oft fuer Datenuebertragung, die nicht direkt in der URL erscheinen soll.
-  - Die passende Wahl ergibt sich aus Zweck, Sichtbarkeit und Arbeitsweise der Anfrage.
-recognizeSignals:
-  - Es geht um Formulare, Request Arten, URL Parameter oder gesendete Eingaben.
-  - Ein Beispiel vergleicht Suche, Login, Filter oder Formularversand.
-  - Du sollst begruenden, warum eine Anfrage sichtbar in der URL landet oder nicht.
-selfCheckPoints:
-  - Kann ich GET und POST in Alltagssprache unterscheiden?
-  - Kann ich erklaeren, warum ein Suchformular oft gut zu GET passt?
-  - Kann ich begruenden, warum POST nicht einfach nur die sichere Variante heisst?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - formular
-  - request
+title: "GET und POST bei Formularen unterscheiden"
+description: "Verstehe, wie Formulardaten ankommen und warum GET und POST unterschiedliche Rollen fuer Sichtbarkeit und Zweck haben."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "get-und-post-bei-formularen-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Wenn ein Formular abgeschickt wird, muessen die Eingaben zum Server gelangen. Dabei stellt sich zuerst die ruhige Frage:

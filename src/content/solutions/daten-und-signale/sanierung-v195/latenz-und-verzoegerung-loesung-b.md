@@ -3,24 +3,12 @@ title: "Lösung: Latenz und Verzögerung: Aufgabe B"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-011b im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "uebertragung"
-  - "latenz-und-verzoegerung"
-  - "loesung-b"
-
+topicPath: ["sanierung-v195", "latenz-und-verzoegerung-loesung-b"]
 taskId: "daten-und-signale-v195-011b"
 relatedExercise: "daten-und-signale/sanierung-v195/latenz-und-verzoegerung-aufgabe-b"
-tags:
-  - "latenz"
-  - "verzoegerung"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-011b`
 
 Ausgangsauftrag: Übertrage das Thema Latenz und Verzögerung auf ein zweites Beispiel und formuliere eine kurze Prüfung.

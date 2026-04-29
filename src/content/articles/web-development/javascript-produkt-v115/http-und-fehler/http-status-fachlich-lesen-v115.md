@@ -1,46 +1,19 @@
 ---
 title: "Web Development – HTTP-Status fachlich lesen"
 description: "Trainiere HTTP-Status fachlich lesen als kleines Unterthema mit klarer Trennkante, Beispiel und Gegenprobe."
-subject: web-development
+subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "javascript-produkt-v115"
-  - "http-und-fehler"
-  - "http-status-fachlich-lesen-v115"
-learningGoals:
-  - "Du erklärst HTTP-Status fachlich lesen an einem kleinen, abgegrenzten Fall."
-  - "Du trennst das Unterthema von einem naheliegenden Nachbarthema."
-  - "Du formulierst eine passende Gegenprobe statt nur eine fertige Antwort."
-practiceIdeas:
-  - "Schreibe zuerst die Prüffrage in eigenen Worten auf."
-  - "Markiere im Fall zwei Hinweise, die wirklich zur Entscheidung gehören."
-  - "Formuliere einen Gegenfall, in dem die Entscheidung anders ausfallen würde."
-commonMistakes:
-  - "Jeder Fehler wird als Netzwerkproblem beschrieben."
-  - "Das Thema wird zu breit eingeordnet und verliert dadurch die prüfbare Trennkante."
-  - "Die Lösung nennt ein Ergebnis, begründet aber nicht die Abgrenzung."
-keyTakeaways:
-  - "Dieses Unterthema prüft vor allem: Kam eine Antwort vom Server oder scheiterte die Verbindung?"
-  - "Eine gute Lösung benennt die Trennkante ausdrücklich."
-  - "Die Gegenprobe zeigt, ob die Begründung wirklich trägt."
-recognizeSignals:
-  - "Die Aufgabe fragt nach HTTP-Status fachlich lesen."
-  - "Ähnliche Begriffe oder Fälle liegen nah beieinander."
-  - "Eine kleine Änderung im Fall würde zu einer anderen Entscheidung führen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-level: mittel
-tags:
-  - "web development"
-  - "feinstruktur"
-  - "unterthema"
-  - "javascript im produkt"
-  - "http und fehler"
+topicPath: ["javascript-produkt-v115", "http-und-fehler", "http-status-fachlich-lesen-v115"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "Feinstruktur Web Development"]
 draft: false
 ---
-
 <img src="/schlaufuchs-platform/illustrations/web-development-http-status-fachlich-lesen-v115.svg" alt="Lernillustration zu HTTP-Status fachlich lesen" loading="lazy" />
 
 ## Grundidee

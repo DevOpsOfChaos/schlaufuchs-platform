@@ -1,47 +1,19 @@
 ---
-title: Arrays initialisieren und Kurzschreibweise verstehen
-description: Verstehe, wie Arrays in C++ mit fester Größe oder über eine Kurzschreibweise mit Werteliste angelegt werden.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - arrays
-  - arrays-initialisieren-und-kurzschreibweise-verstehen
-learningGoals:
-  - Du erklärst zwei typische Wege, Arrays zu initialisieren.
-  - Du verstehst, warum die Anzahl der Werte die Feldgröße mitbestimmen kann.
-  - Du liest Kurzschreibweisen nicht als Magie, sondern als kompakte Initialisierung.
-practiceIdeas:
-  - Vergleiche eine Arraydeklaration mit Größenangabe mit einer kompakten Werteliste.
-  - Zähle bei Beispielen die Zahl der Elemente bewusst nach.
-  - Erkläre, warum die Größe eines klassischen Arrays nachträglich nicht einfach geändert wird.
-commonMistakes:
-  - Zu glauben, Kurzschreibweise bedeute ein "anderes" Array.
-  - Die Anzahl der Werte nicht mit der Feldgröße zu verbinden.
-  - Ein klassisches Array wie eine beliebig wachsende Sammlung zu behandeln.
-keyTakeaways:
-  - Arrays können mit Größe oder mit Werteliste angelegt werden.
-  - Die Anzahl der Startwerte bestimmt in der Kurzform die Größe mit.
-  - Klassische Arrays bleiben in ihrer Größe fest.
-recognizeSignals:
-  - Es geht um Deklaration, Initialisierung oder Wertelisten in Arrays.
-  - Du sollst erklären, warum ein Array in Kurzform trotzdem eine feste Größe hat.
-  - In Beispielen musst du Startwerte und spätere Feldgröße zusammen denken.
-selfCheckPoints:
-  - Kann ich Größenangabe und Kurzform unterscheiden?
-  - Kann ich die Feldgröße aus einer Werteliste herleiten?
-  - Kann ich erklären, warum das Array trotzdem statisch bleibt?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - arrays
-  - initialisierung
+title: "Arrays initialisieren und Kurzschreibweise verstehen"
+description: "Verstehe, wie Arrays in C++ mit fester Größe oder über eine Kurzschreibweise mit Werteliste angelegt werden."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "arrays-initialisieren-und-kurzschreibweise-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei klassischen Arrays in C++ gibt es zwei sehr typische Schreibweisen:  

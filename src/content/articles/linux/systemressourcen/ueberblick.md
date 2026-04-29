@@ -1,33 +1,17 @@
 ---
 title: "Systemressourcen"
 description: "Überblick über CPU, Speicher, I/O, Netzwerk und Prozesse als begrenzte Ressourcen eines Linux-Systems."
-subject: linux
+subject: "linux"
 section: "System"
-topicPath:
-  - "systemressourcen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Systemressourcen als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["systemressourcen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Hohe Last bedeutet nicht immer hohe CPU-Auslastung. Ein System kann auch durch I/O, Speicherknappheit oder blockierende Prozesse langsam sein."
-keyTakeaways:
-  - "Systemressourcen beschreiben, welche begrenzten Mittel ein Rechner laufenden Programmen bereitstellt."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um systemressourcen, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich systemressourcen in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "systemressourcen"
-  - "überblick"
-  - "prozesslast"
-  - "speichernutzung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "System"]
 draft: false
 ---
 # Systemressourcen

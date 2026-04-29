@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Zustandsautomaten"
 description: "Allgemeiner Überblick über zustandsautomaten in der Informatik."
-subject: informatik
+subject: "informatik"
 section: "Programmablauf und Steuerung"
-topicPath:
-  - "programmablauf-und-steuerung"
-  - "zustandsautomaten"
-  - "ueberblick"
-learningGoals:
-  - "Du erklärst, wie Systeme über Zustände und Übergänge beschrieben werden."
-  - "Du ordnest typische Beispiele und Grenzen des Themas ein."
-  - "Du unterscheidest Grundidee, Anwendung und häufige Fehler."
-practiceIdeas:
-  - "Formuliere die Grundidee in drei Sätzen ohne Spezialfall."
-  - "Ordne ein eigenes Beispiel dem passenden Teilaspekt zu."
-commonMistakes:
-  - "Zustand mit Ereignis verwechseln"
-  - "Übergänge nicht benennen"
-  - "Startzustand vergessen"
-keyTakeaways:
-  - "Zustandsautomaten braucht zuerst eine klare begriffliche Einordnung."
-  - "Beispiele helfen nur, wenn ihr Kontext bekannt ist."
-  - "Gute Informatikarbeit trennt Modell, Umsetzung und Prüfung."
-recognizeSignals:
-  - "Ein Thema wirkt wie ein Einzelfall, braucht aber zuerst einen allgemeinen Rahmen."
-  - "Mehrere Beispiele zeigen dieselbe Grundidee aus verschiedenen Blickwinkeln."
-selfCheckPoints:
-  - "Kann ich Grundidee und Beispiel unterscheiden?"
-  - "Kann ich typische Fehler nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "programmablauf-und-steuerung"
-  - "zustandsautomaten"
+topicPath: ["programmablauf-und-steuerung", "zustandsautomaten", "ueberblick", "grundlagen-zustandsautomaten"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmablauf und Steuerung"]
 draft: false
 ---
-
 ![Schaubild: Zustandsautomaten](/schlaufuchs-platform/images/overviews/v185/zustandsautomaten.svg)
 
 ## Begriff

@@ -1,37 +1,19 @@
 ---
 title: "Datenmigrationsstrategien"
 description: "Überblick über sichere Änderungen an Datenstrukturen und Bestandsdaten."
-subject: informatik
+subject: "informatik"
 section: "Daten"
-topicPath:
-  - "datenmigration-strategien"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Datenmigrationsstrategien als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["datenmigration-strategien", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Eine große blockierende Migration direkt im Produktionsstart auszuführen, ohne Laufzeit und Rollback zu prüfen."
-keyTakeaways:
-  - "Migrationen verbinden Codeänderung und Datenbestand."
-  - "Kompatible Zwischenschritte reduzieren Risiko."
-  - "Testbarkeit und Wiederholbarkeit sind zentral."
-recognizeSignals:
-  - "Eine Datenbankstruktur soll geändert werden."
-  - "Bestehende Datensätze müssen umgerechnet oder ergänzt werden."
-selfCheckPoints:
-  - "Kann ich Datenmigrationsstrategien in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "migration"
-  - "datenbank"
-  - "betrieb"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Daten"]
 draft: false
 ---
-
 # Datenmigrationsstrategien
 
 Datenmigration beschreibt die geplante Veränderung von Schema oder Bestandsdaten in einem laufenden System.

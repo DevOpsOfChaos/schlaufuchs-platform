@@ -1,35 +1,17 @@
 ---
 title: "Native Elemente und ARIA"
 description: "Überblick über die Beziehung zwischen nativen HTML-Elementen und ARIA-Rollen in barrierefreien Interfaces."
-subject: web-development
+subject: "web-development"
 section: "Barrierefreiheit"
-topicPath:
-  - "native-elemente-und-aria"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Native Elemente und ARIA als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["native-elemente-und-aria", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Viele Probleme entstehen aus der Annahme, ARIA mache jedes beliebige Element automatisch barrierefrei."
-keyTakeaways:
-  - "Native HTML-Elemente bringen viele Rollen, Zustände und Tastaturverhalten bereits mit, während ARIA vor allem fehlende Semantik ergänzt."
-  - "Die Unterscheidung hilft, robuste Oberflächen zu bauen, ohne vorhandene Browser- und Assistenzfunktionen zu überschreiben."
-  - "ARIA fügt keine Funktionalität hinzu. Tastaturverhalten, Fokussteuerung und Zustandswechsel müssen weiterhin korrekt umgesetzt werden."
-recognizeSignals:
-  - "Es geht um Native Elemente und ARIA, wenn buttons, Links, Überschriften und Formularelemente haben eingebaute Bedeutungen."
-  - "Das Thema wird relevant, wenn Beispiele wie ein echtes button-Element ist für Aktionen meist besser als ein div mit role=\"button\"."
-selfCheckPoints:
-  - "Kann ich Native Elemente und ARIA in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "web development"
-  - "barrierefreiheit"
-  - "aria"
-  - "html"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Barrierefreiheit"]
 draft: false
 ---
 # Native Elemente und ARIA

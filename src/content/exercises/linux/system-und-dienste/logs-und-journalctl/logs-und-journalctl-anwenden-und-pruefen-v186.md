@@ -1,29 +1,17 @@
 ---
 title: "Logs und journalctl – anwenden und prüfen"
 description: "Übe, Logs und journalctl an kleinen Praxissituationen zu prüfen."
-subject: linux
+subject: "linux"
 section: "system-und-dienste"
-topicPath:
-  - "system-und-dienste"
-  - "logs-und-journalctl"
-taskId: LINUX-LOGS-UND-JOURNALCTL-V186-2
-tags:
-  - "linux"
-  - "logs"
-  - "journalctl"
-  - "aufgabe"
-hintPoints:
-  - "Beginne mit Begriff und Kontext."
-  - "Trenne Beobachtung, Prüfung und mögliche Änderung."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe erklären."
-  - "Ich kann einen typischen Fehler vermeiden."
-transferIdeas:
-  - "Formuliere eine ähnliche Prüfsituation aus deinem eigenen Linux-Alltag."
-level: einfach
+topicPath: ["system-und-dienste", "logs-und-journalctl", "logs-und-journalctl-anwenden-und-pruefen-v186"]
+taskId: "LINUX-LOGS-UND-JOURNALCTL-V186-2"
+tags: ["linux", "system-und-dienste", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Lernziel
 
 Du sollst **Logs und journalctl** nicht nur als Befehl oder Schlagwort sehen, sondern als geordnetes Linux-Thema mit Zweck, Kontext und typischen Prüfschritten.

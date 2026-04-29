@@ -1,36 +1,19 @@
 ---
 title: "Leiterplatte und Layout"
 description: "Allgemeiner Überblick über Leiterplattenlayout als Brücke zwischen Schaltplan und funktionierender Hardware."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - "leiterplatte-und-layout"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Leiterplatte und Layout als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["leiterplatte-und-layout", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird das Layout erst nach dem Schaltplan als reine Zeichenarbeit betrachtet."
-keyTakeaways:
-  - "Layout beeinflusst elektrische Funktion und Zuverlässigkeit."
-  - "Masse, Versorgung und schnelle Signale brauchen besondere Sorgfalt."
-  - "Der Schaltplan allein garantiert noch keine robuste Hardware."
-recognizeSignals:
-  - "Es geht um Leiterplatte und Layout als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Leiterplatte und Layout in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "leiterplatte"
-  - "layout"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Praxis"]
 draft: false
 ---
-
 # Leiterplatte und Layout
 
 Eine Leiterplatte verbindet Bauteile über Kupferbahnen, Pads, Lagen und Durchkontaktierungen. Das Layout bestimmt, wie ein Schaltplan physisch umgesetzt wird. Es beeinflusst Stromtragfähigkeit, Störungen, Wärme, Messbarkeit und Zuverlässigkeit.

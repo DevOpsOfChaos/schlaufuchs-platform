@@ -3,20 +3,12 @@ title: "Lösung – Transistor als Schalter einordnen"
 description: "Musterlösung zu Transistor als Schalter einordnen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "transistoren"
-  - "transistor-als-schalter-einordnen-v113"
+topicPath: ["daten-und-signale", "transistoren", "transistor-als-schalter-einordnen-v113"]
 taskId: "v113-elektrotechnik-transistor-als-schalter-einordnen-v113"
 relatedExercise: "elektrotechnik/daten-und-signale/transistoren/transistor-als-schalter-einordnen-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "transistor-als-schalter-einordnen-v113"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Transistor als Schalter einordnen**.

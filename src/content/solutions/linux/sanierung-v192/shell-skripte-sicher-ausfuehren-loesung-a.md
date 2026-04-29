@@ -3,26 +3,12 @@ title: "Lösung: Shell-Skripte sicher ausführen: Aufgabe A"
 description: "Musterlösung zur Aufgabe linux-v192-024a im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "automatisierung"
-  - "shell-skripte-sicher-ausfuehren"
-  - "loesung-a"
+topicPath: ["sanierung-v192", "shell-skripte-sicher-ausfuehren-loesung-a"]
 taskId: "linux-v192-024a"
 relatedExercise: "linux/sanierung-v192/shell-skripte-sicher-ausfuehren-aufgabe-a"
-tags:
-  - "automatisierung"
-  - "shell"
-  - "skripte"
-  - "sicher"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-024a`
 
 Ausgangsauftrag: Entwirf Prüfschritte vor dem Ausführen eines Adminskripts.

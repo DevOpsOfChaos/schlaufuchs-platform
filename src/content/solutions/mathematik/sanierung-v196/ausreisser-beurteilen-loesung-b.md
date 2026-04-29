@@ -1,15 +1,14 @@
 ---
-title: Ausreißer beurteilen – Lösung B
-description: Musterlösung zu Ausreißer beurteilen mit Kontrolle.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Ausreißer beurteilen – Lösung B"
+description: "Musterlösung zu Ausreißer beurteilen mit Kontrolle."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "daten-deuten-und-pruefen", "ausreisser-beurteilen"]
 taskId: "mat-v196-ausreisser-beurteilen-b"
 relatedExercise: "mathematik/sanierung-v196/ausreisser-beurteilen-aufgabe-b"
 tags: ["mathematik", "v196", "daten-deuten-und-pruefen", "ausreisser-beurteilen"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine passende Lösung zu dieser Aufgabe muss nicht exakt dieselben Zahlen oder Beispiele verwenden. Entscheidend ist der saubere Aufbau.

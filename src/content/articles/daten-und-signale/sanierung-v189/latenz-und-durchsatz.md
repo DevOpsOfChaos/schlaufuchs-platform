@@ -3,38 +3,17 @@ title: "Latenz und Durchsatz"
 description: "Latenz und Durchsatz beschreiben unterschiedliche Eigenschaften einer Verbindung."
 subject: "daten-und-signale"
 section: "uebertragung"
-topicPath:
-  - "uebertragung"
-  - "latenz-und-durchsatz"
-learningGoals:
-  - "Latenz und Durchsatz beschreiben unterschiedliche Eigenschaften einer Verbindung fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Latenz und Durchsatz beschreiben unterschiedliche Eigenschaften einer Verbindung wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v189", "latenz-und-durchsatz"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "latenz"
-  - "durchsatz"
-  - "netz"
-  - "daten-und-signale"
-  - "v189"
+tags: ["daten-und-signale", "uebertragung"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Latenz und Durchsatz](/schlaufuchs-platform/images/daten-und-signale/sanierung-189/latenz-und-durchsatz.svg)
 
 ## Überblick

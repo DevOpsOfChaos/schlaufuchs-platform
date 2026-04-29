@@ -3,41 +3,17 @@ title: "Sets für Eindeutigkeit"
 description: "Verstehe doppelte werte vermeiden und zugehörigkeit schnell prüfen als ruhigen Informatik-Baustein für Qualität, Tests und nachvollziehbare Änderungen."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "datenstrukturen-und-algorithmen"
-  - "sets-fuer-eindeutigkeit"
-learningGoals:
-  - "Doppelte Werte vermeiden und Zugehörigkeit schnell prüfen"
-  - "Beobachtung, Entscheidung und Prüfung klar trennen"
-  - "einen kleinen überprüfbaren nächsten Schritt formulieren"
-practiceIdeas:
-  - "Nutze ein Set, um doppelte Tags in einem Datensatz zu erkennen."
-  - "Formuliere einen zweiten Prüfpunkt, der ohne große Umstellung auskommt."
-commonMistakes:
-  - "Es wird direkt geändert, bevor Verhalten und Erwartung klar sind."
-  - "Tests prüfen zu viele Dinge auf einmal."
-  - "Datenstruktur, Schnittstelle oder Fehlerfall bleiben unausgesprochen."
-keyTakeaways:
-  - "Sets beschreiben Eindeutigkeit."
-  - "Reihenfolge ist bei Sets nicht der Hauptpunkt."
-  - "Mitgliedschaftsprüfungen werden dadurch klarer."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Code wachsen, getestet, umgebaut oder erklärt werden muss."
-selfCheckPoints:
-  - "Kann ich das erwartete Verhalten in einem Satz beschreiben?"
-  - "Ist klar, welche Daten, Schnittstellen oder Zustände betroffen sind?"
-  - "Gibt es einen kleinen Test oder Kontrollpunkt nach der Änderung?"
+topicPath: ["sanierung-v193", "sets-fuer-eindeutigkeit"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "sets"
-  - "eindeutigkeit"
-  - "informatik"
-  - "softwarequalitaet"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Sets für Eindeutigkeit](/schlaufuchs-platform/images/informatik/sanierung-v193/sets-fuer-eindeutigkeit.svg)
 
 Sets für Eindeutigkeit gehört zur Informatik-Sanierung v193. Die Seite behandelt das Thema nicht als isolierten Programmiertrick, sondern als Qualitätsentscheidung: Was soll der Code leisten, woran erkennt man korrektes Verhalten und wie bleibt die Änderung später verständlich?

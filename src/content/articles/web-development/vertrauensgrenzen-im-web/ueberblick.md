@@ -1,31 +1,17 @@
 ---
 title: "Vertrauensgrenzen im Web"
 description: "Überblick über Vertrauensgrenzen zwischen Browser, Server, APIs, Nutzereingaben und externen Diensten."
-subject: web-development
+subject: "web-development"
 section: "Sicherheit"
-topicPath:
-  - "vertrauensgrenzen-im-web"
-learningGoals:
-  - "Du verstehst, warum Websysteme in Vertrauenszonen gedacht werden."
-  - "Du erkennst Eingaben, Cookies, Tokens und externe APIs als Grenzstellen."
-  - "Du kannst Sicherheitsmaßnahmen als Schutz an Vertrauensgrenzen einordnen."
+topicPath: ["vertrauensgrenzen-im-web", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Clientseitige Prüfungen als alleinige Sicherheit zu betrachten."
-  - "Alle Daten aus dem eigenen Frontend automatisch zu vertrauen."
-keyTakeaways:
-  - "Vertrauensgrenzen markieren Übergänge, an denen Daten geprüft werden müssen."
-  - "Der Server darf dem Browser nicht blind vertrauen."
-recognizeSignals:
-  - "Es geht um Authentifizierung, Eingaben, API, Cookies, Tokens oder externe Dienste."
-selfCheckPoints:
-  - "Kann ich erklären, warum eine Formularprüfung im Browser keine Serverprüfung ersetzt?"
-level: einfach
-tags:
-  - "web-development"
-  - "sicherheit"
-  - "vertrauensgrenzen"
-  - "api"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Sicherheit"]
 draft: false
 ---
 # Vertrauensgrenzen im Web

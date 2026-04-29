@@ -1,45 +1,19 @@
 ---
-title: Position Sticky verstehen
-description: Verstehe, wie sticky Elemente im normalen Fluss bleiben und trotzdem an einer Kante haften, sobald der Scrollbereich sie erreicht.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - position-sticky-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von position sticky.
-  - Du unterscheidest sticky von static, fixed und absolute.
-  - Du beschreibst Sticky-Verhalten eher über Scrollkontext und Haftkante als über bloßes Festkleben.
-practiceIdeas:
-  - Vergleiche eine normale Überschrift mit einer sticky Bereichsüberschrift.
-  - Suche bei einem sticky Element immer zuerst den Scrollbereich und die Haftkante.
-  - Prüfe, ob Sticky wirklich Teil des Inhaltsflusses bleibt.
-commonMistakes:
-  - sticky mit fixed gleichzusetzen.
-  - nur auf top zu schauen und den Scrollkontext zu vergessen.
-  - zu erwarten, dass sticky ohne sinnvolle Scrollstrecke sichtbar wird.
-keyTakeaways:
-  - sticky bleibt zunächst im normalen Fluss.
-  - Erst beim Scrollen haftet das Element an einer definierten Kante.
-  - Sticky eignet sich besonders für Orientierung innerhalb eines Inhaltsbereichs.
-recognizeSignals:
-  - Es geht um Inhaltslisten, Kapitelüberschriften oder Filterleisten, die beim Scrollen sichtbar bleiben sollen.
-  - Du sollst erklären, warum etwas erst mitscrollt und dann „haftet“.
-  - In Beispielen zählt der Scrollkontext stärker als Farbe oder Balkenoptik.
-selfCheckPoints:
-  - Kann ich sticky und fixed sauber unterscheiden?
-  - Kann ich erklären, wann ein sticky Element zu haften beginnt?
-  - Kann ich den Scrollbereich nennen, in dem Sticky wirkt?
-tags:
-  - css
-  - sticky
-  - scroll
-  - position
-level: mittel
+title: "Position Sticky verstehen"
+description: "Verstehe, wie sticky Elemente im normalen Fluss bleiben und trotzdem an einer Kante haften, sobald der Scrollbereich sie erreicht."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "position-sticky-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 `position: sticky` ist spannend, weil das Element **nicht sofort fest** auf dem Bildschirm sitzt. Es bleibt zuerst Teil des normalen Layouts und beginnt erst dann an einer Kante zu haften, wenn der Scrollbereich es dorthin schiebt.

@@ -1,36 +1,19 @@
 ---
 title: "LVM-Grundlagen"
 description: "LVM ist eine flexible Schicht zur Verwaltung von Speicher, die physische Geräte, Volume Groups und Logical Volumes trennt."
-subject: linux
+subject: "linux"
 section: "Dateisysteme"
-topicPath:
-  - "lvm-grundlagen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst LVM-Grundlagen als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["lvm-grundlagen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird Flexibilität mit Sicherheit verwechselt. Ein falscher Befehl kann auch bei LVM Daten zerstören."
-keyTakeaways:
-  - "LVM ist eine flexible Schicht zur Verwaltung von Speicher, die physische Geräte, Volume Groups und Logical Volumes trennt."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um LVM-Grundlagen, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich LVM-Grundlagen in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "lvm"
-  - "speicher"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dateisysteme"]
 draft: false
 ---
-
 # LVM-Grundlagen
 
 LVM ist eine flexible Schicht zur Verwaltung von Speicher, die physische Geräte, Volume Groups

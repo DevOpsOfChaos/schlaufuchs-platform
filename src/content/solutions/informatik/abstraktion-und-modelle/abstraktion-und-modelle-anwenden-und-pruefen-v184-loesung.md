@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Abstraktion und Modelle – Anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über Abstraktion und Modelle."
-subject: informatik
+subject: "informatik"
 section: "abstraktion-und-modelle"
-topicPath:
-  - "abstraktion-und-modelle"
-taskId: INF-ABSTRAKTION-UND-MODELLE-842
-relatedExercise: src/content/exercises/informatik/abstraktion-und-modelle/abstraktion-und-modelle-anwenden-und-pruefen-v184.md
-tags:
-  - "informatik"
-  - "abstraktion"
-  - "modelle"
-  - "loesung"
+topicPath: ["abstraktion-und-modelle", "abstraktion-und-modelle-anwenden-und-pruefen-v184"]
+taskId: "INF-ABSTRAKTION-UND-MODELLE-842"
+relatedExercise: "src/content/exercises/informatik/abstraktion-und-modelle/abstraktion-und-modelle-anwenden-und-pruefen-v184.md"
+tags: ["informatik", "abstraktion-und-modelle", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

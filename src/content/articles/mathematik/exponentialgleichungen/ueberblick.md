@@ -1,35 +1,17 @@
 ---
 title: "Exponentialgleichungen"
 description: "Überblick über Gleichungen, bei denen die Variable im Exponenten steht."
-subject: mathematik
+subject: "mathematik"
 section: "Gleichungen"
-topicPath:
-  - "exponentialgleichungen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Exponentialgleichungen als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["exponentialgleichungen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, die Variable wie bei einer linearen Gleichung aus dem Exponenten herauszuziehen."
-keyTakeaways:
-  - "Exponentialgleichungen enthalten eine Variable im Exponenten und beschreiben oft Wachstums- oder Zerfallsprozesse."
-  - "Sie verbinden Exponentialfunktionen mit Logarithmen und Modellierungsfragen."
-  - "Nicht jede Gleichung mit Potenzen ist eine Exponentialgleichung. Entscheidend ist, ob die Variable im Exponenten steht."
-recognizeSignals:
-  - "Es geht um Exponentialgleichungen, wenn gleiche Basen erlauben manchmal direkten Exponentenvergleich."
-  - "Das Thema wird relevant, wenn Beispiele wie 2^x = 16 lässt sich durch Erkennen der gleichen Basis lösen; 3^x = 7 nutzt meist Logarithmen."
-selfCheckPoints:
-  - "Kann ich Exponentialgleichungen in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "gleichungen"
-  - "exponentialfunktionen"
-  - "logarithmen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Gleichungen"]
 draft: false
 ---
 # Exponentialgleichungen

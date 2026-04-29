@@ -1,45 +1,19 @@
 ---
-title: Zahlen und Terme
-description: Verstehe den Unterschied zwischen einzelnen Zahlen, Rechenregeln und algebraischen Termen.
-subject: mathematik
-section: Grundlagen
-topicPath:
-- grundlagen
-- zahlen-und-terme
-learningGoals:
-- Du unterscheidest Zahlen, Rechenzeichen und Terme sauber.
-- Du vereinfachst einfache Terme strukturiert.
-- Du erkennst, wann gleichartige Terme zusammengefasst werden dürfen.
-practiceIdeas:
-- Markiere in einem Ausdruck Zahlen, Variablen und Rechenzeichen in verschiedenen Farben.
-- Vereinfache einen Term Schritt für Schritt statt in einem Sprung.
-- Prüfe bewusst, welche Teile wirklich gleichartig sind.
-commonMistakes:
-- Ungleichartige Terme zusammenzufassen.
-- Rechenregeln ohne Klammerblick anzuwenden.
-- Zahl und Variable nicht sauber zu unterscheiden.
-keyTakeaways:
-- Ein Term ist ein mathematischer Ausdruck.
-- Gleichartige Terme dürfen zusammengefasst werden.
-- Klammern und Struktur sind wichtiger als Tempo.
-level: einfach
-tags:
-- terme
-- algebra
-- grundlagen
-- mathematik
+title: "Zahlen und Terme"
+description: "Verstehe den Unterschied zwischen einzelnen Zahlen, Rechenregeln und algebraischen Termen."
+subject: "mathematik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "zahlen-und-terme"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Grundlagen"]
 draft: false
-recognizeSignals:
-- Die Aufgabe oder Erklärung nennt Zahlen und Terme direkt oder greift eng benachbarte Begriffe aus Grundlagen auf.
-- Du sollst nicht nur einen Begriff nennen, sondern einen Zusammenhang, Ablauf oder eine Struktur sauber erklären.
-- In Beispielen musst du Werte, Schritte oder Bauteile geordnet lesen und richtig einordnen.
-selfCheckPoints:
-- Kann ich unterscheidest Zahlen, Rechenzeichen und Terme sauber?
-- Kann ich vereinfachst einfache Terme strukturiert?
-- Kann ich erkennst, wann gleichartige Terme zusammengefasst werden dürfen?
 ---
-
-
 ## Was ein Term ist
 
 Ein Term ist ein mathematischer Ausdruck. Er kann aus Zahlen, Variablen, Klammern und Rechenzeichen bestehen.

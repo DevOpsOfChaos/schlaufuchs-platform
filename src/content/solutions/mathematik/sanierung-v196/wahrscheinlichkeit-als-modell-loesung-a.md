@@ -1,15 +1,14 @@
 ---
-title: Wahrscheinlichkeit als Modell – Lösung A
-description: Musterlösung zu Wahrscheinlichkeit als Modell mit Kontrolle.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Wahrscheinlichkeit als Modell – Lösung A"
+description: "Musterlösung zu Wahrscheinlichkeit als Modell mit Kontrolle."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "daten-deuten-und-pruefen", "wahrscheinlichkeit-als-modell"]
 taskId: "mat-v196-wahrscheinlichkeit-als-modell-a"
 relatedExercise: "mathematik/sanierung-v196/wahrscheinlichkeit-als-modell-aufgabe-a"
 tags: ["mathematik", "v196", "daten-deuten-und-pruefen", "wahrscheinlichkeit-als-modell"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine passende Lösung zu dieser Aufgabe muss nicht exakt dieselben Zahlen oder Beispiele verwenden. Entscheidend ist der saubere Aufbau.

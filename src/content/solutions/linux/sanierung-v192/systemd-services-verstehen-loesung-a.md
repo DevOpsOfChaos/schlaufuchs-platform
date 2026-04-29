@@ -3,26 +3,12 @@ title: "Lösung: systemd Services verstehen: Aufgabe A"
 description: "Musterlösung zur Aufgabe linux-v192-008a im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "prozesse-und-dienste"
-  - "systemd-services-verstehen"
-  - "loesung-a"
+topicPath: ["sanierung-v192", "systemd-services-verstehen-loesung-a"]
 taskId: "linux-v192-008a"
 relatedExercise: "linux/sanierung-v192/systemd-services-verstehen-aufgabe-a"
-tags:
-  - "prozesse-und-dienste"
-  - "systemd"
-  - "services"
-  - "verstehen"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-008a`
 
 Ausgangsauftrag: Lies einen systemctl-status-Auszug und formuliere die Diagnose.

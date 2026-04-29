@@ -3,35 +3,15 @@ title: "Aufgabe – Release-Notiz nach Nutzerwirkung schreiben"
 description: "Übe Release Notes mit Szenario, Trennkante und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "release"
-  - "release-notiz-nach-nutzerwirkung-schreiben"
+topicPath: ["projektpraxis", "betrieb-und-release", "release", "release-notiz-nach-nutzerwirkung-schreiben"]
 taskId: "v111-web-development-release-notiz-nach-nutzerwirkung-schreiben"
-tags:
-  - "web development"
-  - "frontend"
-  - "unterthema"
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "release-notiz-nach-nutzerwirkung-schreiben"
-hintPoints:
-  - "Benenne zuerst das genaue Unterthema."
-  - "Schreibe die typische Verwechslung ausdrücklich auf."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Lösung enger als ein breites Kapitel?"
-  - "Wird ein Nachbarthema sauber ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere eine zweite Aufgabe im gleichen Unterthema mit anderer Oberfläche."
-reflectionPrompt: "Welche kleine Trennkante macht Release Notes übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["web-development", "Feinstruktur Web Development", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Release Notes**.

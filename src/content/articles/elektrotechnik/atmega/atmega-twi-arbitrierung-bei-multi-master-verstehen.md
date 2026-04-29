@@ -1,46 +1,19 @@
 ---
-title: ATmega – TWI Arbitrierung bei Multi-Master verstehen
-description: Verstehe die Grundidee der Arbitrierung auf einem I²C beziehungsweise TWI-Bus, wenn mehr als ein Master gleichzeitig senden möchte.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-schnittstellen-und-busse
-  - atmega-twi-arbitrierung-bei-multi-master-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von Multi-Master-Arbitrierung am TWI-Bus.
-  - Du beschreibst, warum offene Leitungen eine konfliktarme Entscheidung erlauben.
-  - Du liest Buskollisionen eher als geregelte Prioritätsfrage statt als reinen Kurzschlussfehler.
-practiceIdeas:
-  - Vergleiche einen Single-Master-Bus mit einem Multi-Master-Fall.
-  - Lies ein Beispiel mit zwei Adressen danach, an welcher Stelle die Arbitrierung kippt.
-  - Prüfe, warum das Verlieren der Arbitrierung nicht automatisch einen Hardwaredefekt bedeutet.
-commonMistakes:
-  - Zu denken, zwei Master dürften niemals gleichzeitig starten.
-  - Eine verlorene Arbitrierung sofort als kaputte Kommunikation zu deuten.
-  - Nicht zu sehen, dass die Buslogik selbst die Entscheidung trägt.
-keyTakeaways:
-  - Multi-Master erfordert eine geregelte Entscheidung auf dem Bus.
-  - Die Arbitrierung endet dort, wo ein Master etwas anderes senden will als der Bus tatsächlich zeigt.
-  - Arbitrierung ist eine Busregel und nicht bloß ein Zufallsfehler.
-recognizeSignals:
-  - Es geht um Multi-Master, Arbitrierung, I²C-Kollisionen oder gleiche Startzeitpunkte.
-  - Du sollst erklären, warum ein Master plötzlich zurücktritt.
-  - In Aufgaben ist der Unterschied zwischen gesendetem und beobachtetem Pegel entscheidend.
-selfCheckPoints:
-  - Kann ich erklären, warum Arbitrierung auf offenen Busleitungen funktioniert?
-  - Kann ich beschreiben, wann ein Master erkennt, dass er verloren hat?
-  - Kann ich Multi-Master von einem einfachen Verdrahtungsfehler trennen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - twi
-  - i2c
-level: fortgeschritten
+title: "ATmega – TWI Arbitrierung bei Multi-Master verstehen"
+description: "Verstehe die Grundidee der Arbitrierung auf einem I²C beziehungsweise TWI-Bus, wenn mehr als ein Master gleichzeitig senden möchte."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-twi-arbitrierung-bei-multi-master-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Im einfachsten Fall gibt es an einem TWI beziehungsweise I²C-Bus genau einen Master. Dann startet immer nur eine Stelle aktiv eine Kommunikation. In einem **Multi-Master-System** können dagegen mehrere Master grundsätzlich busfähig sein. Genau dann braucht der Bus eine geregelte Entscheidung, falls zwei Teilnehmer gleichzeitig senden wollen. Diese Entscheidung heißt **Arbitrierung**.

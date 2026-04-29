@@ -1,45 +1,17 @@
 ---
-title: Double Delete als Fehlerbild erkennen
-description: Verstehe, warum dieselbe dynamische Reservierung nicht zweimal freigegeben werden darf und wie Alias-Pointer dieses Fehlerbild begünstigen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - dynamischer-speicher
-  - double-delete-als-fehlerbild-erkennen
-learningGoals:
-  - Du erklärst, warum derselbe Speicherbereich nur einmal freigegeben werden darf.
-  - Du erkennst Alias-Pointer als typischen Auslöser für Double Delete.
-  - Du liest kleine Speicherabläufe systematisch statt nur einzelne <code>delete</code>-Zeilen zu betrachten.
-practiceIdeas:
-  - Markiere in kurzen Beispielen, welcher Pointer welchen Speicherbereich meint.
-  - Prüfe, ob zwei Pointer auf dieselbe Adresse zeigen.
-  - Lies jede Freigabe als Ereignis und frage danach, ob derselbe Speicher schon beendet wurde.
-commonMistakes:
-  - Zu glauben, jeder Pointer dürfe seine eigene Freigabe ausführen.
-  - Alias-Pointer mit zwei verschiedenen Speicherbereichen zu verwechseln.
-  - Nur auf Syntax zu schauen statt auf den gemeinsam gemeinten Speicher.
-keyTakeaways:
-  - Eine Reservierung darf nur einmal freigegeben werden.
-  - Zwei Pointer können auf denselben Speicher zeigen, ohne dass dadurch zwei Freigaben erlaubt werden.
-  - Bei Double Delete liegt der Fehler in der Ablauflogik, nicht nur in einer einzelnen Zeile.
-recognizeSignals:
-  - Ein Pointer wird kopiert oder einer zweiten Variable zugewiesen.
-  - Mehrere <code>delete</code>-Stellen greifen scheinbar auf denselben Bereich zu.
-  - Es geht um Alias-Pointer und gemeinsame Verantwortung für dieselbe Adresse.
-selfCheckPoints:
-  - Kann ich sagen, ob zwei Pointer denselben Speicher meinen?
-  - Kann ich begründen, warum derselbe Bereich nur einmal freigegeben werden darf?
-  - Kann ich Double Delete von fehlender Freigabe unterscheiden?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - pointer
-  - speicher
-  - double-delete
+title: "Double Delete als Fehlerbild erkennen"
+description: "Verstehe, warum dieselbe dynamische Reservierung nicht zweimal freigegeben werden darf und wie Alias-Pointer dieses Fehlerbild begünstigen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "double-delete-als-fehlerbild-erkennen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
 ## Grundidee

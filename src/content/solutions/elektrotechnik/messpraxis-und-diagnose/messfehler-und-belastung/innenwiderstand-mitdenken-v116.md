@@ -3,22 +3,12 @@ title: "Lösung: Innenwiderstand mitdenken"
 description: "Musterlösung zur Aufgabe „Innenwiderstand mitdenken“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "messpraxis-und-diagnose"
-  - "messfehler-und-belastung"
-  - "innenwiderstand-mitdenken-v116"
+topicPath: ["messpraxis-und-diagnose", "messfehler-und-belastung", "innenwiderstand-mitdenken-v116"]
 taskId: "innenwiderstand-mitdenken-v116"
 relatedExercise: "elektrotechnik/messpraxis-und-diagnose/messfehler-und-belastung/innenwiderstand-mitdenken-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "messfehler und belastung"
-  - "innenwiderstand mitdenken"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

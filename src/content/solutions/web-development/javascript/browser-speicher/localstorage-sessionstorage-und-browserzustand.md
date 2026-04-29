@@ -3,22 +3,12 @@ title: "Lösung – JavaScript: localStorage, sessionStorage und Browserzustand"
 description: "Musterlösung zur Aufgabe: Ordne drei Werte zu: Farbschema, aktueller Wizard-Schritt und Passwort. Entscheide, ob localStorage, sessionStorage oder gar kein Browser-Speicher passt."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "browser-speicher"
-  - "localstorage-sessionstorage-und-browserzustand"
+topicPath: ["javascript", "browser-speicher", "localstorage-sessionstorage-und-browserzustand"]
 taskId: "web-js-localstorage-sessionstorage-und-browserzustand"
 relatedExercise: "web-development/javascript/browser-speicher/localstorage-sessionstorage-und-browserzustand"
-tags:
-  - "web development"
-  - "javascript"
-  - "localstorage"
-  - "sessionstorage"
-  - "browser"
-  - "lösung"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Farbschema kann in localStorage, weil es dauerhaft gewünscht sein kann. Ein Wizard-Schritt passt eher in sessionStorage. Ein Passwort gehört nicht in localStorage oder sessionStorage.

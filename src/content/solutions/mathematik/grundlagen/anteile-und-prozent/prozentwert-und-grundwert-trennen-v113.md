@@ -3,20 +3,12 @@ title: "Lösung – Prozentwert und Grundwert trennen"
 description: "Musterlösung zu Prozentwert und Grundwert trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "grundlagen"
-  - "anteile-und-prozent"
-  - "prozentwert-und-grundwert-trennen-v113"
+topicPath: ["grundlagen", "anteile-und-prozent", "prozentwert-und-grundwert-trennen-v113"]
 taskId: "v113-mathematik-prozentwert-und-grundwert-trennen-v113"
 relatedExercise: "mathematik/grundlagen/anteile-und-prozent/prozentwert-und-grundwert-trennen-v113"
-tags:
-  - "mathematik"
-  - "strukturcheck"
-  - "unterthema"
-  - "prozentwert-und-grundwert-trennen-v113"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Prozentwert und Grundwert trennen**.

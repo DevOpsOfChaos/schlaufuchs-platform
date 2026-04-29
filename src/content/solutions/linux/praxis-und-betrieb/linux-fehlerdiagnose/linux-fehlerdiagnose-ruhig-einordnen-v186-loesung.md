@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Linux-Fehlerdiagnose – ruhig einordnen"
 description: "Musterlösung zur Linux-Aufgabe Linux-Fehlerdiagnose."
-subject: linux
+subject: "linux"
 section: "praxis-und-betrieb"
-topicPath:
-  - "praxis-und-betrieb"
-  - "linux-fehlerdiagnose"
-taskId: LINUX-LINUX-FEHLERDIAGNOSE-V186-1
-relatedExercise: src/content/exercises/linux/praxis-und-betrieb/linux-fehlerdiagnose/linux-fehlerdiagnose-ruhig-einordnen-v186.md
-tags:
-  - "linux"
-  - "diagnose"
-  - "fehlersuche"
-  - "loesung"
+topicPath: ["praxis-und-betrieb", "linux-fehlerdiagnose", "linux-fehlerdiagnose-ruhig-einordnen-v186"]
+taskId: "LINUX-LINUX-FEHLERDIAGNOSE-V186-1"
+relatedExercise: "src/content/exercises/linux/praxis-und-betrieb/linux-fehlerdiagnose/linux-fehlerdiagnose-ruhig-einordnen-v186.md"
+tags: ["linux", "praxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

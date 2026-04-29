@@ -1,33 +1,19 @@
 ---
 title: "Quadratische Ergänzung"
 description: "Quadratische Ergänzung formt quadratische Terme so um, dass ein vollständiges Quadrat entsteht. Sie erklärt Scheitelpunktform und Lösungsformeln."
-subject: mathematik
+subject: "mathematik"
 section: "Mathematik"
-topicPath:
-  - "quadratische-ergaenzung"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Quadratische Ergänzung."
-  - "Du kannst Quadratische Ergänzung in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["quadratische-ergaenzung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Den halben linearen Koeffizienten nicht korrekt zu quadrieren."
-keyTakeaways:
-  - "Quadratische Ergänzung formt quadratische Terme so um, dass ein vollständiges Quadrat entsteht."
-  - "Wichtig sind vor allem vollständiges quadrat, scheitelpunktform und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Quadratische Ergänzung, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Quadratische Ergänzung dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "grundlagen"
-  - "quadratische ergänzung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Mathematik"]
 draft: false
 ---
-
 # Quadratische Ergänzung
 
 Quadratische Ergänzung formt quadratische Terme so um, dass ein vollständiges Quadrat entsteht. Sie erklärt Scheitelpunktform und Lösungsformeln. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

@@ -3,44 +3,17 @@ title: "JavaScript – Datenattribute als Brücke zwischen HTML und JavaScript"
 description: "Lerne, data-Attribute als kleine, lesbare Verbindung zwischen Markup und Verhalten zu verwenden."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "zustand-und-ui"
-  - "datenattribute-als-bruecke-zwischen-html-und-javascript"
-learningGoals:
-  - "Du erklärst, wofür data-Attribute im HTML geeignet sind."
-  - "Du liest dataset als Verbindung zu JavaScript."
-  - "Du vermeidest versteckte Bedeutungen in Klassennamen."
-practiceIdeas:
-  - "Übertrage die Idee auf eine kleine eigene Seite."
-  - "Prüfe die Bedienung einmal mit Tastatur und einmal mit Maus."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "data-Attribute als Ersatz für echte Inhalte oder Semantik zu verwenden."
-  - "Komplexe Datenstrukturen in HTML-Attribute zu quetschen."
-  - "Klassen für Logik zu missbrauchen, obwohl sie Styling beschreiben sollen."
-keyTakeaways:
-  - "Robuste Webinteraktion trennt Struktur, Zustand und Rückmeldung."
-  - "Nutzerführung ist Teil der technischen Lösung."
-  - "Fehler und Sonderfälle werden sichtbar geplant."
-recognizeSignals:
-  - "Es geht um JavaScript im Browser, UI-Zustand oder dynamische Rückmeldung."
-  - "Eine Interaktion soll verständlicher, sicherer oder robuster werden."
-  - "HTML, CSS und JavaScript müssen gemeinsam gelesen werden."
-selfCheckPoints:
-  - "Kann ich die Aufgabe des Codes in einem Satz erklären?"
-  - "Bleibt die Interaktion ohne Maus oder bei Fehlern nachvollziehbar?"
-  - "Sind sichtbare Texte verständlich und deutsch formuliert?"
+topicPath: ["javascript", "zustand-und-ui", "datenattribute-als-bruecke-zwischen-html-und-javascript"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "web development"
-  - "javascript"
-  - "data attribute"
-  - "html"
-  - "ui"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Diese Seite zeigt dir, wie du Datenattribute als Brücke zwischen HTML und JavaScript nicht als isolierten JavaScript-Trick, sondern als kleine UX- und Robustheitsentscheidung liest.

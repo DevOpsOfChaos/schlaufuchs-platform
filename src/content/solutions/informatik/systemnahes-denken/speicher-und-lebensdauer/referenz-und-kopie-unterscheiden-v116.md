@@ -3,22 +3,12 @@ title: "Lösung: Referenz und Kopie unterscheiden"
 description: "Musterlösung zur Aufgabe „Referenz und Kopie unterscheiden“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "systemnahes-denken"
-  - "speicher-und-lebensdauer"
-  - "referenz-und-kopie-unterscheiden-v116"
+topicPath: ["systemnahes-denken", "speicher-und-lebensdauer", "referenz-und-kopie-unterscheiden-v116"]
 taskId: "referenz-und-kopie-unterscheiden-v116"
 relatedExercise: "informatik/systemnahes-denken/speicher-und-lebensdauer/referenz-und-kopie-unterscheiden-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "speicher und lebensdauer"
-  - "referenz und kopie unterscheiden"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

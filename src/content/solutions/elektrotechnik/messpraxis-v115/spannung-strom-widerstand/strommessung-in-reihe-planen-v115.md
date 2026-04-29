@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Strommessung in Reihe planen"
 description: "Musterlösung zu Strommessung in Reihe planen mit Trennkante und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "messpraxis-v115"
-  - "spannung-strom-widerstand"
-  - "strommessung-in-reihe-planen-v115"
+topicPath: ["messpraxis-v115", "spannung-strom-widerstand", "strommessung-in-reihe-planen-v115"]
 taskId: "elektrotechnik-strommessung-in-reihe-planen-v115"
 relatedExercise: "elektrotechnik/messpraxis-v115/spannung-strom-widerstand/strommessung-in-reihe-planen-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "messpraxis"
-  - "spannung, strom und widerstand"
-  - "lösung"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Strommessung in Reihe planen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

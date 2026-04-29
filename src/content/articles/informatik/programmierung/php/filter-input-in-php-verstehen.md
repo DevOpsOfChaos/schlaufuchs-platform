@@ -1,46 +1,19 @@
 ---
-title: filter_input in PHP verstehen
-description: Verstehe, wie filter_input externe Eingaben direkt liest und optional prüft oder bereinigt, statt erst ungefiltert weiterzuarbeiten.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - filter-input-in-php-verstehen
-learningGoals:
-  - Du erklärst den Grundgedanken von filter_input.
-  - Du unterscheidest Quelle, Variablenname und Filterfunktion sauber.
-  - Du erkennst, wann filter_input ruhiger ist als ungeprüfter Direktzugriff.
-practiceIdeas:
-  - Lies einen filter_input-Aufruf und benenne Quelle, Feldname und Filter.
-  - Vergleiche einen ungefilterten $_GET-Zugriff mit einem gefilterten Aufruf.
-  - Erkläre, welche Rolle VALIDATE und SANITIZE spielen.
-commonMistakes:
-  - Zu glauben, filter_input ändere automatisch alle Eingaben im gesamten Skript.
-  - Quelle und Feldname zu vertauschen.
-  - Validierung und Bereinigung gleichzusetzen.
-keyTakeaways:
-  - filter_input liest eine externe Eingabe gezielt aus einer Quelle.
-  - Dabei kann sofort validiert oder bereinigt werden.
-  - Der Aufruf zwingt dazu, Quelle und Absicht klar zu benennen.
-recognizeSignals:
-  - Es geht um INPUT_GET, INPUT_POST oder Filterkonstanten.
-  - Ein Beispiel kombiniert Variablenlesen und Prüfung in einer Zeile.
-  - Du sollst erklären, warum dieser Zugriff sicherer oder klarer ist.
-selfCheckPoints:
-  - Kann ich Quelle, Name und Filter in einem Aufruf sauber benennen?
-  - Kann ich Validierung und Bereinigung unterscheiden?
-  - Kann ich sagen, was der Vorteil gegenüber ungefiltertem Direktzugriff ist?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - filter
-  - input
+title: "filter_input in PHP verstehen"
+description: "Verstehe, wie filter_input externe Eingaben direkt liest und optional prüft oder bereinigt, statt erst ungefiltert weiterzuarbeiten."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "filter-input-in-php-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Mit <code>filter_input</code> liest PHP eine Eingabe von außen direkt aus einer bestimmten Quelle und kann sie dabei sofort filtern. Das macht den Zugriff oft ruhiger, weil nicht erst ungeprüfte Daten verteilt werden.

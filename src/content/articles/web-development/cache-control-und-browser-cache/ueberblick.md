@@ -1,37 +1,19 @@
 ---
 title: "Cache-Control und Browser-Cache"
 description: "Allgemeiner Überblick über Browser-Caching, Cache-Control und die Balance zwischen Aktualität und Geschwindigkeit."
-subject: web-development
+subject: "web-development"
 section: "Performance"
-topicPath:
-  - "cache-control-und-browser-cache"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Cache-Control und Browser-Cache als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["cache-control-und-browser-cache", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Dateien werden häufig lange gecacht, ohne sie bei Änderungen zu versionieren."
-keyTakeaways:
-  - "Caching macht Webseiten schneller."
-  - "Aktualität und Geschwindigkeit müssen balanciert werden."
-  - "Versionierte Assets erlauben lange Cache-Zeiten."
-recognizeSignals:
-  - "Änderungen sind lokal oder bei Nutzern nicht sichtbar."
-  - "Performance-Analysen zeigen wiederholte Ressourcenanfragen."
-selfCheckPoints:
-  - "Kann ich Cache-Control und Browser-Cache in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "web-development"
-  - "cache"
-  - "performance"
-  - "http"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Performance"]
 draft: false
 ---
-
 # Cache-Control und Browser-Cache
 
 ![Schaubild zu Cache-Control und Browser-Cache.](/schlaufuchs-platform/images/overviews/v150/cache-control-und-browser-cache.svg)

@@ -1,33 +1,16 @@
 ---
-title: Double Delete im Ablauf prüfen
-description: Prüfe in kleinen Alias-Beispielen, ob derselbe Speicherbereich zweimal freigegeben wird.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - dynamischer-speicher
-  - double-delete-als-fehlerbild-erkennen
-  - double-delete-im-ablauf-pruefen
-taskId: INF-PROG-CPP-MEM-005
-level: mittel
+title: "Double Delete im Ablauf prüfen"
+description: "Prüfe in kleinen Alias-Beispielen, ob derselbe Speicherbereich zweimal freigegeben wird."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "double-delete-als-fehlerbild-erkennen", "double-delete-im-ablauf-pruefen"]
+taskId: "INF-PROG-CPP-MEM-005"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - aufgabe
-hintPoints:
-  - "Zähle zuerst echte Reservierungen mit new."
-  - "Markiere dann, welche Pointer nur dieselbe Adresse weitertragen."
-  - "Frage erst danach, ob dieselbe Reservierung ein zweites Mal beendet wird."
-selfCheckPoints:
-  - "Habe ich Bereich und Variablenname sauber getrennt?"
-  - "Habe ich Alias-Pointer nicht mit zwei getrennten Bereichen verwechselt?"
-  - "Habe ich Double Delete klar von Dangling Pointer abgegrenzt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf Beispiele mit mehr als zwei Pointern oder auf mehrfach verschachtelte Zuweisungen."
-reflectionPrompt: "Welche Stelle kippt für dich am leichtesten: q = p oder das zweite delete?"
 ---
 ## Aufgabe 1: Bereiche zählen
 

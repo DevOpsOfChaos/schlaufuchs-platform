@@ -3,46 +3,17 @@ title: "CSS – Komponentenvarianten mit Design-Tokens planen"
 description: "Trenne Grundkomponente, Variante und Token, damit Buttons, Hinweise und Karten konsistent bleiben statt per Einzelregel auseinanderzulaufen."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "design-systeme"
-  - "komponentenvarianten-mit-design-tokens-planen"
-learningGoals:
-  - "Du erklärst die Kernidee von „Design-System“ in eigenen Worten."
-  - "Du ordnest das Thema einem klaren Unterthema zu statt es in einem Sammelbereich zu verlieren."
-  - "Du leitest eine kleine Gegenprobe für echte Aufgaben oder Projekte ab."
-practiceIdeas:
-  - "Markiere zuerst, welche Unterfrage wirklich gestellt ist."
-  - "Notiere eine typische Fehlannahme und eine passende Gegenprobe."
-  - "Übertrage die Denkbewegung auf ein zweites kleines Beispiel."
-commonMistakes:
-  - "Farben direkt in jede Klasse schreiben"
-  - "Varianten nach Zufall benennen"
-  - "Fokuszustände vergessen"
-keyTakeaways:
-  - "Design-System wird klarer, wenn Zustand, Ursache und Prüfschritt getrennt werden."
-  - "Kleine Unterthemen sind leichter auffindbar und besser prüfbar als breite Sammelordner."
-  - "Eine gute Erklärung endet mit einer konkreten Gegenprobe."
-recognizeSignals:
-  - "Die Aufgabe enthält einen scheinbar kleinen Sonderfall oder Fehlerzustand."
-  - "Es muss zwischen Begriffen unterschieden werden, die im Alltag leicht vermischt werden."
-  - "Eine Entscheidung soll begründet und nicht nur auswendig angewendet werden."
-selfCheckPoints:
-  - "Kann ich das Unterthema mit einem Satz von Nachbarthemen abgrenzen?"
-  - "Kann ich einen typischen Fehler benennen?"
-  - "Kann ich eine konkrete Prüfung oder Rechnung anschließen?"
-tags:
-  - "web development"
-  - "html"
-  - "css"
-  - "javascript"
-  - "ux"
-  - "design-system"
-  - "design-systeme"
+topicPath: ["css", "design-systeme", "komponentenvarianten-mit-design-tokens-planen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Eine Komponente sollte nicht für jede Seite neu erfunden werden. Tokens beschreiben Werte, Varianten beschreiben Absichten, und die Komponente hält Struktur und Verhalten zusammen.

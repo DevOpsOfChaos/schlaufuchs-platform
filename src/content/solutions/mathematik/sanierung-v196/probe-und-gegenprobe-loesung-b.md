@@ -1,15 +1,14 @@
 ---
-title: Probe und Gegenprobe – Lösung B
-description: Musterlösung zu Probe und Gegenprobe mit Kontrolle.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Probe und Gegenprobe – Lösung B"
+description: "Musterlösung zu Probe und Gegenprobe mit Kontrolle."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "gleichungen-und-modelle", "probe-und-gegenprobe"]
 taskId: "mat-v196-probe-und-gegenprobe-b"
 relatedExercise: "mathematik/sanierung-v196/probe-und-gegenprobe-aufgabe-b"
 tags: ["mathematik", "v196", "gleichungen-und-modelle", "probe-und-gegenprobe"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine passende Lösung zu dieser Aufgabe muss nicht exakt dieselben Zahlen oder Beispiele verwenden. Entscheidend ist der saubere Aufbau.

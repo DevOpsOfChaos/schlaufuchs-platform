@@ -3,33 +3,15 @@ title: "Aufgabe – stderr und stdout trennen"
 description: "Übe stderr und stdout trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "text-und-auswertung"
-  - "stderr-und-stdout-trennen"
+topicPath: ["shell", "text-und-auswertung", "stderr-und-stdout-trennen"]
 taskId: "v112-linux-stderr-und-stdout-trennen"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "stderr-und-stdout-trennen"
-hintPoints:
-  - "Benenne zuerst das kleine Unterthema."
-  - "Prüfe bewusst den Unterschied zum Fehler: Alle Terminaltexte werden als eine Ausgabe gesehen."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Einordnung enger als nur der breite Fachbereich?"
-  - "Wird der typische Fehler ausdrücklich ausgeschlossen?"
-  - "Passt die Lösung zur Wissensseite?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Begriff und prüfe, ob die gleiche Strategie gilt."
-  - "Erkläre die Lösung einmal alltagssprachlich und danach fachlich sauber."
-reflectionPrompt: "Was war bei „stderr und stdout trennen“ die wichtigste Trennkante?"
+tags: ["linux", "Feinstruktur Linux", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation:

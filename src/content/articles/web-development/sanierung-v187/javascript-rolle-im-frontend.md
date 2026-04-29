@@ -3,38 +3,17 @@ title: "JavaScript im Frontend"
 description: "Ordne JavaScript als Verhaltensebene ein und trenne es von Struktur und Gestaltung."
 subject: "web-development"
 section: "javascript"
-topicPath: 
-  - "javascript-und-interaktion"
-  - "rolle-im-frontend"
-learningGoals: 
-  - "Rolle von JavaScript ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Entscheide für fünf Seitenelemente, ob HTML, CSS oder JavaScript zuständig ist."
-  - "Skizziere ein kleines Interaktionsverhalten für einen Ein-/Ausblenden-Button."
-commonMistakes: 
-  - "Alles wird per JavaScript erzeugt, obwohl HTML reichen würde."
-  - "Styles werden dauerhaft in Skripten versteckt."
-  - "Interaktion wird ohne Fehlerfall geplant."
-keyTakeaways: 
-  - "JavaScript ist sinnvoll, wenn es einen echten Zustands- oder Interaktionsbedarf löst."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "JavaScript ist sinnvoll, wenn es einen echten Zustands- oder Interaktionsbedarf löst."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "javascript-rolle-im-frontend"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags: 
-  - "javascript"
-  - "frontend"
-  - "interaktion"
-  - "web-development"
+tags: ["web-development", "javascript"]
 draft: false
 ---
-
 ![Didaktische Skizze zu JavaScript im Frontend](/schlaufuchs-platform/images/web-development/sanierung-v187/javascript-rolle-im-frontend.svg)
 
     JavaScript im Frontend ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

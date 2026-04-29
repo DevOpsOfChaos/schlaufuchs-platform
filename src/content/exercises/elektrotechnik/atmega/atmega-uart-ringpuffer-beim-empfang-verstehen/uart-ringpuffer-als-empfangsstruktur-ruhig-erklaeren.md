@@ -1,32 +1,17 @@
 ---
-title: UART-Ringpuffer als Empfangsstruktur ruhig erklären
-description: Erkläre am ATmega, warum UART-Zeichen oft zunächst in einen Ringpuffer geschrieben werden und nicht sofort vollständig in der ISR verarbeitet werden.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - uart-und-serielle-schnittstellen
-  - atmega-uart-ringpuffer-beim-empfang-verstehen
-  - uart-ringpuffer-als-empfangsstruktur-ruhig-erklaeren
-taskId: ET-ATMEGA-UART-302
-level: fortgeschritten
+title: "UART-Ringpuffer als Empfangsstruktur ruhig erklären"
+description: "Erkläre am ATmega, warum UART-Zeichen oft zunächst in einen Ringpuffer geschrieben werden und nicht sofort vollständig in der ISR verarbeitet werden."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-uart-ringpuffer-beim-empfang-verstehen", "uart-ringpuffer-als-empfangsstruktur-ruhig-erklaeren"]
+taskId: "ET-ATMEGA-UART-302"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "fortgeschritten"
 draft: false
-tags:
-  - elektrotechnik
-  - atmega
-  - uart
-  - puffer
-hintPoints:
-  - Trenne Empfang sichern und Inhalt auswerten bewusst.
-  - Lies Kopf und Ende zuerst als Rollen, nicht nur als Zahlen.
-selfCheckPoints:
-  - Kannst du erklären, warum die ISR kurz bleiben sollte?
-  - Kannst du den Nutzen eines Ringpuffers als Strukturfrage beschreiben?
-transferIdeas:
-  - Übertrage die Idee auf Tastenereignisse, Logpuffer oder ADC-Messreihen.
-reflectionPrompt: "Was hilft mehr beim Verstehen: Array-Größe merken oder die Rollen von Schreib- und Leseposition klären?"
 ---
-
 Gegeben ist dieses Denkbild:
 
 <pre><code>ISR bekommt Zeichen

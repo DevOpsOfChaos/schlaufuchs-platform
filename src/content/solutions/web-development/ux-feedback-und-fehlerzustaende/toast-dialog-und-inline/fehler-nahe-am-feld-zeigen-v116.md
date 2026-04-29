@@ -3,22 +3,12 @@ title: "Lösung: Fehler nahe am Feld zeigen"
 description: "Musterlösung zur Aufgabe „Fehler nahe am Feld zeigen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "ux-feedback-und-fehlerzustaende"
-  - "toast-dialog-und-inline"
-  - "fehler-nahe-am-feld-zeigen-v116"
+topicPath: ["ux-feedback-und-fehlerzustaende", "toast-dialog-und-inline", "fehler-nahe-am-feld-zeigen-v116"]
 taskId: "fehler-nahe-am-feld-zeigen-v116"
 relatedExercise: "web-development/ux-feedback-und-fehlerzustaende/toast-dialog-und-inline/fehler-nahe-am-feld-zeigen-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "toast dialog und inline"
-  - "fehler nahe am feld zeigen"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

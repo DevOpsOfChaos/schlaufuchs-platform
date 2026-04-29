@@ -3,35 +3,15 @@ title: "Aufgabe – Busfehler durch fehlende Masse erkennen"
 description: "Übe Massebezug mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "elektrotechnik"
 section: "Kommunikation"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "i2c-und-spi-bus"
-  - "fehlerbilder"
-  - "busfehler-durch-fehlende-masse-erkennen"
+topicPath: ["mikrocontroller-und-atmega", "i2c-und-spi-bus", "fehlerbilder", "busfehler-durch-fehlende-masse-erkennen"]
 taskId: "v107-elektrotechnik-busfehler-durch-fehlende-masse-erkennen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "schaltungen"
-  - "massebezug"
-  - "mikrocontroller-und-atmega"
-  - "i2c-und-spi-bus"
-hintPoints:
-  - "Grenze das Unterthema zuerst ein."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Formuliere eine kleine Gegenprobe."
-selfCheckPoints:
-  - "Ist das Unterthema klar benannt?"
-  - "Ist die Lösung nicht zu breit formuliert?"
-  - "Ist die Gegenprobe konkret?"
-transferIdeas:
-  - "Ändere einen Randwert und prüfe die Begründung erneut."
-  - "Erkläre die Lösung einmal als Merksatz und einmal am Beispiel."
-reflectionPrompt: "Warum hilft dir das kleine Unterthema „Massebezug“ mehr als ein breiter Sammelbegriff?"
+tags: ["elektrotechnik", "Kommunikation", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite ein kleines Szenario zu **Massebezug**.

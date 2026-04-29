@@ -1,31 +1,17 @@
 ---
 title: "Ablauf einer Datenanalyse"
 description: "Überblick über den typischen Ablauf einer Datenanalyse von Fragestellung über Daten, Bereinigung, Auswertung und Interpretation."
-subject: mathematik
+subject: "mathematik"
 section: "Daten"
-topicPath:
-  - "datenanalyse-ablauf"
-learningGoals:
-  - "Du kennst typische Schritte einer Datenanalyse."
-  - "Du verstehst, warum Daten vor der Auswertung geprüft werden müssen."
-  - "Du kannst Interpretation und Berechnung unterscheiden."
+topicPath: ["datenanalyse-ablauf", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Mit der Berechnung zu beginnen, bevor die Fragestellung klar ist."
-  - "Ausreißer ungeprüft zu löschen."
-keyTakeaways:
-  - "Datenanalyse beginnt mit einer Frage und endet mit einer begründeten Interpretation."
-  - "Datenqualität und Kontext beeinflussen jedes Ergebnis."
-recognizeSignals:
-  - "Es geht um Daten, Diagramme, Kennwerte, Ausreißer oder Interpretation."
-selfCheckPoints:
-  - "Kann ich sagen, welche Frage eine Auswertung beantworten soll?"
-level: einfach
-tags:
-  - "mathematik"
-  - "datenanalyse"
-  - "statistik"
-  - "diagramme"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Daten"]
 draft: false
 ---
 # Ablauf einer Datenanalyse

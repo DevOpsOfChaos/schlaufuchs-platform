@@ -3,23 +3,12 @@ title: "Lösung: Debugging als Hypothese: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-011a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "debugging-und-diagnose"
-  - "debugging-als-hypothese"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "debugging-als-hypothese-loesung-a"]
 taskId: "informatik-v193-011a"
 relatedExercise: "informatik/sanierung-v193/debugging-als-hypothese-aufgabe-a"
-tags:
-  - "debugging"
-  - "hypothese"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-011a`
 
 Ausgangsauftrag: Ordne eine Fehlersituation in Beobachtung, Hypothese und Prüfung.

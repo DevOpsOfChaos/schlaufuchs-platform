@@ -1,43 +1,17 @@
 ---
 title: "HTML – caption, scope und Tabellenkopf sauber nutzen"
 description: "Lerne, Datentabellen so auszuzeichnen, dass Überschriften, Bedeutung und Datenbezug klar erkennbar bleiben."
-subject: web-development
+subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "tabellen-barrierearm"
-  - "caption-scope-und-tabellenkopf-sauber-nutzen"
-learningGoals:
-  - "Du erklärst den Unterschied zwischen Layouttabelle und Datentabelle."
-  - "Du nutzt caption, th und scope für klare Tabellenstruktur."
-  - "Du erkennst, warum Tabellenköpfe nicht nur optische Fettschrift sind."
-practiceIdeas:
-  - "Baue eine kleine Preistabelle mit caption und Spaltenköpfen."
-  - "Prüfe, ob jede Datenzelle fachlich zu einer Überschrift gehört."
-  - "Vergleiche eine CSS-Layouttabelle mit einer echten Datentabelle."
-commonMistakes:
-  - "Tabellen nur für Layout zu verwenden."
-  - "Kopfzellen als normale td-Zellen mit Fettschrift zu schreiben."
-  - "Eine Tabelle ohne erkennbare Beschreibung einzubauen."
-keyTakeaways:
-  - "caption beschreibt, worum es in der Tabelle geht."
-  - "th und scope verbinden Datenzellen mit Überschriften."
-  - "Semantische Tabellen sind für Orientierung wichtiger als reine Optik."
-recognizeSignals:
-  - "Es geht um Datenvergleich, Tabellenkopf, caption, th oder scope."
-  - "Eine Aufgabe fragt, warum Screenreader Tabellenstruktur brauchen."
-  - "Eine Tabelle sieht gut aus, ist aber semantisch flach."
-selfCheckPoints:
-  - "Hat die Tabelle eine verständliche caption?"
-  - "Sind Kopfzellen als th ausgezeichnet?"
-  - "Ist scope für einfache Zeilen- oder Spaltenbezüge passend?"
-tags:
-  - "web development"
-  - "html"
-  - "tabellen"
-  - "accessibility"
-  - "semantik"
-level: mittel
+topicPath: ["html", "tabellen-barrierearm", "caption-scope-und-tabellenkopf-sauber-nutzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "HTML"]
 draft: false
 ---
 ## Grundidee

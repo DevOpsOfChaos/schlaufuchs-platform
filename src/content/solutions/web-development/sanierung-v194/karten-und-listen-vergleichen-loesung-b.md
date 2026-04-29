@@ -3,25 +3,12 @@ title: "Lösung: Karten und Listen vergleichen: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-development-v194-022b im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "content-und-navigation"
-  - "karten-und-listen-vergleichen"
-  - "loesung-b"
-
+topicPath: ["sanierung-v194", "karten-und-listen-vergleichen-loesung-b"]
 taskId: "web-development-v194-022b"
 relatedExercise: "web-development/sanierung-v194/karten-und-listen-vergleichen-aufgabe-b"
-tags:
-  - "karten"
-  - "listen"
-  - "vergleichen"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-022b`
 
 Ausgangsauftrag: Übertrage das Thema Karten und Listen vergleichen auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

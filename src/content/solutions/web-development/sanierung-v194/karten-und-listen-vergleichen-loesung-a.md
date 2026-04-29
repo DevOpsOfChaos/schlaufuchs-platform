@@ -3,25 +3,12 @@ title: "Lösung: Karten und Listen vergleichen: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-development-v194-022a im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "content-und-navigation"
-  - "karten-und-listen-vergleichen"
-  - "loesung-a"
-
+topicPath: ["sanierung-v194", "karten-und-listen-vergleichen-loesung-a"]
 taskId: "web-development-v194-022a"
 relatedExercise: "web-development/sanierung-v194/karten-und-listen-vergleichen-aufgabe-a"
-tags:
-  - "karten"
-  - "listen"
-  - "vergleichen"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-022a`
 
 Ausgangsauftrag: Entscheide, wann eine Kartenansicht besser als eine Liste ist.

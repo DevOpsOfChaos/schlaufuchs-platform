@@ -1,13 +1,19 @@
 ---
-title: Variablen und Datentypen – Grundlagen
-description: Verstehe, warum Programme Werte speichern und wie Datentypen diese Werte einordnen.
-subject: informatik
-section: variablen-und-datentypen
-level: einfach
-tags: [variablen, datentypen, programmierung, informatik]
+title: "Variablen und Datentypen – Grundlagen"
+description: "Verstehe, warum Programme Werte speichern und wie Datentypen diese Werte einordnen."
+subject: "informatik"
+section: "variablen-und-datentypen"
+topicPath: ["variablen-und-datentypen-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["variablen", "datentypen", "programmierung", "informatik"]
 draft: false
 ---
-
 Programme arbeiten mit Informationen. Damit Werte nicht verloren gehen, müssen sie gespeichert und geordnet werden. Genau dafür braucht man **Variablen** und **Datentypen**.
 
 ## Was ist eine Variable?

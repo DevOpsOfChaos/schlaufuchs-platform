@@ -1,0 +1,25 @@
+---
+title: "Lösung: TLS-Zertifikate – Praxisaufgabe B"
+description: "Musterlösung zur Linux-Praxisaufgabe B zu TLS-Zertifikate."
+subject: "linux"
+section: "netzwerkbetrieb-und-diagnose"
+topicPath: ["netzwerkbetrieb-und-diagnose", "tls-zertifikate"]
+taskId: "LINUX-V212-037-B"
+relatedExercise: "linux/sanierung-v212-betrieb-recovery/tls-zertifikate-aufgabe-b"
+tags: ["linux", "netzwerkbetrieb-und-diagnose", "tls-zertifikate", "betrieb", "recovery", "v212", "loesung"]
+draft: false
+---
+## Musterlösung
+
+Eine bessere Betriebsnotiz zu **TLS-Zertifikate** ersetzt Bauchgefühl durch Nachvollziehbarkeit.
+
+Sinnvoll sind diese Punkte:
+
+- Vor der Änderung fehlen Symptom, Zeitfenster, betroffener Dienst und letzter stabiler Zustand.
+- Eine unkontrollierte Aktion kann Datenverlust, längeren Ausfall oder verdeckte Ursachen erzeugen.
+- Nach der Änderung muss geprüft werden, ob das ursprüngliche Symptom weg ist und keine Nebenwirkung entstanden ist.
+- Für die Übergabe werden Aktion, Kontrollsignal, Restproblem und nächster Schritt notiert.
+
+## Kontrolle
+
+Die Antwort ist gut, wenn sie Diagnose und Betriebssicherheit gleichermaßen abdeckt.

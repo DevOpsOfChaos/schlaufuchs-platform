@@ -1,34 +1,17 @@
 ---
-title: Zielauswahl von CSS-Regeln beschreiben
-description: Erkläre bei einfachen CSS-Regeln, welche Elemente angesprochen werden und warum zu breite Auswahl problematisch sein kann.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - selektoren
-  - css-selektoren-grundidee-verstehen
-  - zielauswahl-von-css-regeln-beschreiben
-taskId: WEB-CSS-SEL-001
-level: einfach
+title: "Zielauswahl von CSS-Regeln beschreiben"
+description: "Erkläre bei einfachen CSS-Regeln, welche Elemente angesprochen werden und warum zu breite Auswahl problematisch sein kann."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "css-selektoren-grundidee-verstehen", "zielauswahl-von-css-regeln-beschreiben"]
+taskId: "WEB-CSS-SEL-001"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - css
-  - selektoren
-  - struktur
-hintPoints:
-  - "Frage zuerst: Welche Elemente trifft die Regel überhaupt?"
-  - "Achte darauf, nicht sofort mit Farben oder Abständen zu argumentieren."
-  - "Überlege, ob die Auswahl zu breit für das eigentliche Ziel ist."
-selfCheckPoints:
-  - "Beschreibst du die Zielauswahl verständlich?"
-  - "Ist klar, warum eine allgemeine Regel mehr Wirkung haben kann als gedacht?"
-  - "Begründest du, welche gezieltere Auswahl ruhiger wäre?"
-transferIdeas:
-  - "Übertrage die Aufgabe auf Überschriften, Buttons oder Kartenbereiche."
-  - "Vergleiche eine allgemeine Regel mit einer gezielteren Variante."
-reflectionPrompt: "Warum entstehen viele CSS-Probleme schon bei der Auswahl der Elemente und nicht erst bei den Eigenschaften?"
 ---
-
 ## Aufgabe 1: Regel deuten
 
 Gegeben ist diese CSS-Regel:

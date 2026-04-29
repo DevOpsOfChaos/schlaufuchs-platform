@@ -3,22 +3,12 @@ title: "Lösung: CSV und strukturierte Daten: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe dat-v189-046b."
 subject: "daten-und-signale"
 section: "datenpraxis"
-topicPath:
-  - "datenpraxis"
-  - "csv-und-strukturierte-daten"
-  - "loesung-b"
+topicPath: ["sanierung-v189", "csv-und-strukturierte-daten-aufgabe-b"]
 taskId: "dat-v189-046b"
 relatedExercise: "daten-und-signale/sanierung-v189/csv-und-strukturierte-daten-aufgabe-b"
-tags:
-  - "csv"
-  - "strukturierte-daten"
-  - "tabellen"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-046b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

@@ -1,36 +1,19 @@
 ---
 title: "Client- und Servervalidierung"
 description: "Client- und Servervalidierung prüfen Eingaben an unterschiedlichen Stellen: im Browser für schnelle Rückmeldung und auf dem Server für Verlässlichkeit."
-subject: web-development
+subject: "web-development"
 section: "Formulare"
-topicPath:
-  - "client-und-server-validierung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Client- und Servervalidierung als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["client-und-server-validierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, JavaScript-Prüfungen als ausreichend sicher zu betrachten."
-keyTakeaways:
-  - "Client- und Servervalidierung prüfen Eingaben an unterschiedlichen Stellen: im Browser für schnelle Rückmeldung und auf dem Server für Verlässlichkeit."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Client- und Servervalidierung, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Client- und Servervalidierung in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "web"
-  - "validierung"
-  - "sicherheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Formulare"]
 draft: false
 ---
-
 # Client- und Servervalidierung
 
 Client- und Servervalidierung prüfen Eingaben an unterschiedlichen Stellen: im Browser für

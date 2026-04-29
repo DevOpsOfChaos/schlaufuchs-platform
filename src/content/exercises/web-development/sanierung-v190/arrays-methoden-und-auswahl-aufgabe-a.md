@@ -3,36 +3,15 @@ title: "Arrays, Methoden und Auswahl: Aufgabe A"
 description: "Wähle passende Array-Methoden für eine kleine Ergebnisliste."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "daten-im-frontend"
-  - "arrays-methoden-und-auswahl"
-  - "aufgabe-a"
+topicPath: ["sanierung-v190", "arrays-methoden-und-auswahl-aufgabe-a"]
 taskId: "web-v190-007a"
-tags:
-  - "daten-im-frontend"
-  - "arrays"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "aufgabe"
-  - "v190"
-hintPoints:
-  - "Trenne Zweck, Daten, Zustand und sichtbare Wirkung."
-  - "Nenne mindestens einen Fehlerfall."
-  - "Begründe, warum die Lösung wartbar bleibt."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Arrays, Methoden und Auswahl."
-  - "Mindestens ein Prüfpunkt ist konkret formuliert."
-  - "Die Lösung ist ohne vollständige Website nachvollziehbar."
-transferIdeas:
-  - "Übertrage die Idee auf eine zweite kleine Komponente."
-  - "Formuliere eine kurze Checkliste für spätere Wiederholung."
-reflectionPrompt: "Welche Entscheidung macht die Lösung am meisten wartbar?"
+tags: ["web-development", "javascript-vertiefung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Wähle passende Array-Methoden für eine kleine Ergebnisliste.

@@ -1,37 +1,19 @@
 ---
 title: "Remote-Administration"
 description: "Überblick über Verwaltung entfernter Linux-Systeme, Zugriffswege und Sicherheitsaspekte."
-subject: linux
+subject: "linux"
 section: "Administration"
-topicPath:
-  - "remote-administration"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Remote-Administration als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["remote-administration", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Den einzigen Zugangskanal zu ändern, ohne eine zweite Konsole, Snapshot oder Rollback-Möglichkeit zu haben."
-keyTakeaways:
-  - "Remote-Administration braucht sichere Zugänge."
-  - "Änderungen sollten nachvollziehbar und rücknehmbar sein."
-  - "Notfallwege sind Teil des Betriebs."
-recognizeSignals:
-  - "Ein System wird per SSH oder Automatisierung verwaltet."
-  - "Konfigurationsänderungen passieren ohne lokale Konsole."
-selfCheckPoints:
-  - "Kann ich Remote-Administration in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "administration"
-  - "ssh"
-  - "betrieb"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Administration"]
 draft: false
 ---
-
 # Remote-Administration
 
 Remote-Administration ist die Verwaltung eines Systems über Netzwerkverbindungen statt direkt an der lokalen Konsole.

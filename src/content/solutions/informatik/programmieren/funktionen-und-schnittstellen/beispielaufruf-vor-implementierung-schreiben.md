@@ -3,21 +3,12 @@ title: "Lösung – Beispielaufruf vor Implementierung schreiben"
 description: "Musterlösung zu beispielaufruf vor implementierung schreiben mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "programmieren"
-  - "funktionen-und-schnittstellen"
-  - "beispielaufruf-vor-implementierung-schreiben"
+topicPath: ["programmieren", "funktionen-und-schnittstellen", "beispielaufruf-vor-implementierung-schreiben"]
 taskId: "v112-informatik-beispielaufruf-vor-implementierung-schreiben"
 relatedExercise: "informatik/programmieren/funktionen-und-schnittstellen/beispielaufruf-vor-implementierung-schreiben"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "programmieren"
-  - "beispielaufruf-vor-implementierung-schreiben"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Funktionen und Schnittstellen**.

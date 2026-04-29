@@ -3,23 +3,12 @@ title: "Lösung – Spannung immer zwischen zwei Punkten messen"
 description: "Musterlösung zu Spannungsmessung mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "grundlagen"
-  - "spannung-strom-widerstand"
-  - "messpunkte"
-  - "spannung-immer-zwischen-zwei-punkten-messen"
+topicPath: ["grundlagen", "spannung-strom-widerstand", "messpunkte", "spannung-immer-zwischen-zwei-punkten-messen"]
 taskId: "v111-elektrotechnik-spannung-immer-zwischen-zwei-punkten-messen"
 relatedExercise: "elektrotechnik/grundlagen/spannung-strom-widerstand/messpunkte/spannung-immer-zwischen-zwei-punkten-messen"
-tags:
-  - "elektrotechnik"
-  - "praxis"
-  - "unterthema"
-  - "grundlagen"
-  - "spannung-strom-widerstand"
-  - "spannung-immer-zwischen-zwei-punkten-messen"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Spannungsmessung**.

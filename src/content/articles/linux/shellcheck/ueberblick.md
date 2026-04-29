@@ -1,33 +1,19 @@
 ---
 title: "ShellCheck"
 description: "ShellCheck ist ein Analysewerkzeug für Shell-Skripte. Es erkennt typische Fehler bei Quoting, Variablen, Tests und Portabilität."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "shellcheck"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von ShellCheck."
-  - "Du kannst ShellCheck in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["shellcheck", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Warnungen pauschal zu ignorieren, ohne ihre Ursache zu verstehen."
-keyTakeaways:
-  - "ShellCheck ist ein Analysewerkzeug für Shell-Skripte."
-  - "Wichtig sind vor allem statische analyse, warnungen zu quoting und globbing und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um ShellCheck, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu ShellCheck dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "linux"
-  - "grundlagen"
-  - "shellcheck"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # ShellCheck
 
 ShellCheck ist ein Analysewerkzeug für Shell-Skripte. Es erkennt typische Fehler bei Quoting, Variablen, Tests und Portabilität. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

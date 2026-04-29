@@ -3,21 +3,12 @@ title: "Lösung – Oszilloskopbild ruhig lesen"
 description: "Musterlösung zu oszilloskopbild ruhig lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "messen-und-fehler"
-  - "oszilloskopbild-ruhig-lesen"
+topicPath: ["daten-und-signale", "messen-und-fehler", "oszilloskopbild-ruhig-lesen"]
 taskId: "v112-elektrotechnik-oszilloskopbild-ruhig-lesen"
 relatedExercise: "elektrotechnik/daten-und-signale/messen-und-fehler/oszilloskopbild-ruhig-lesen"
-tags:
-  - "elektrotechnik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-signale"
-  - "oszilloskopbild-ruhig-lesen"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Messen und Fehler**.

@@ -3,35 +3,15 @@ title: "Aufgabe – Brown-out als Versorgungseinbruch erkennen"
 description: "Übe Brown-out als Versorgungseinbruch erkennen mit Einordnung, Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "mikrocontroller-system"
-  - "versorgung-reset-takt"
-  - "v110-teil-1"
-  - "brown-out-als-versorgungseinbruch-erkennen"
+topicPath: ["mikrocontroller-system", "versorgung-reset-takt", "v110-teil-1", "brown-out-als-versorgungseinbruch-erkennen"]
 taskId: "v110-elektrotechnik-brown-out-als-versorgungseinbruch-erkennen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "mikrocontroller-system"
-  - "versorgung-reset-takt"
-  - "brown-out-als-versorgungseinbruch-erkennen"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Vergleiche das Thema mit einem Nachbarthema und nenne die Trennkante."
-reflectionPrompt: "Welche kleine Trennkante macht Brown-out als Versorgungseinbruch erkennen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["elektrotechnik", "Mikrocontroller", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Brown-out als Versorgungseinbruch erkennen**.

@@ -1,32 +1,17 @@
 ---
 title: "inotify"
 description: "Überblick über Ereignisüberwachung für Dateien und Verzeichnisse unter Linux."
-subject: linux
+subject: "linux"
 section: "Dateisysteme"
-topicPath:
-  - "inotify"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst inotify als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Events, Watcher, Limits."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["inotify", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Dateiänderungen nur durch regelmäßiges Polling erkennen zu können."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "inotify beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Dateiänderungen beobachten."
-  - "Wichtige Hinweise liefern vor allem Events, Watcher, Limits."
-recognizeSignals:
-  - "Es geht um dateiänderungen beobachten, events oder watcher."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck inotify erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "linux"
-  - "dateisystem"
-  - "monitoring"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dateisysteme"]
 draft: false
 ---
 # inotify

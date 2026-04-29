@@ -3,42 +3,15 @@ title: "Mikrocontroller – Stromaufnahme messen und Schlafmodus bewerten"
 description: "Verstehe, warum ein Schlafmodus nur dann hilft, wenn Messaufbau, Peripherie und Wachzeiten zusammen betrachtet werden."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "stromaufnahme-messen-und-schlafmodus-bewerten"
-learningGoals:
-  - "Du unterscheidest aktiven Strom, Schlafstrom und durchschnittliche Stromaufnahme."
-  - "Du erklärst, warum angeschlossene Module den Spareffekt überdecken können."
-  - "Du bewertest Schlafmodus über Messung und Tastverhältnis der Aktivzeit."
-practiceIdeas:
-  - "Vergleiche dauerhaft aktiven Betrieb mit kurzen Wachphasen."
-  - "Prüfe, welche Verbraucher auch im Schlaf weiter Strom ziehen."
-  - "Formuliere einen Messplan mit Multimeter oder Messgerät."
-commonMistakes:
-  - "Nur den Mikrocontroller-Schlafmodus zu betrachten und externe Module zu vergessen."
-  - "Stromaufnahme ohne Messbereich und Messstelle zu vergleichen."
-  - "Kurze hohe Wachströme und lange Schlafzeiten nicht als Mittelwert zu denken."
-keyTakeaways:
-  - "Energiesparen ist eine Systemfrage, nicht nur ein einzelner Befehl."
-  - "Der Durchschnitt hängt von Wachzeit, Schlafzeit und allen Verbrauchern ab."
-  - "Eine Messung muss an der richtigen Stelle im Strompfad erfolgen."
-recognizeSignals:
-  - "Batteriebetrieb, Sleep-Mode, Sensorversorgung oder lange Laufzeit sind Thema."
-  - "Ein Gerät schläft, verbraucht aber trotzdem zu viel."
-  - "Eine Aufgabe fragt nach Messung statt nur Codeänderung."
-selfCheckPoints:
-  - "Kann ich aktive und schlafende Phasen getrennt beschreiben?"
-  - "Kann ich externe Verbraucher in die Bilanz aufnehmen?"
-  - "Kann ich sagen, wo ich den Strom messen würde?"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "stromaufnahme"
-  - "sleep-mode"
-  - "energie"
-  - "messung"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "stromaufnahme-messen-und-schlafmodus-bewerten"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
 ## Grundidee

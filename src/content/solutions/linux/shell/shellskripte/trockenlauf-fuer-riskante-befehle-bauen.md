@@ -3,21 +3,12 @@ title: "Lösung – Trockenlauf für riskante Befehle bauen"
 description: "Musterlösung zu trockenlauf für riskante befehle bauen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "shellskripte"
-  - "trockenlauf-fuer-riskante-befehle-bauen"
+topicPath: ["shell", "shellskripte", "trockenlauf-fuer-riskante-befehle-bauen"]
 taskId: "v112-linux-trockenlauf-fuer-riskante-befehle-bauen"
 relatedExercise: "linux/shell/shellskripte/trockenlauf-fuer-riskante-befehle-bauen"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "trockenlauf-fuer-riskante-befehle-bauen"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Shellskripte**.

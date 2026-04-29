@@ -3,23 +3,12 @@ title: "Lösung – cp -a und normales cp unterscheiden"
 description: "Musterlösung zu cp -a und normales cp unterscheiden mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell-praxis"
-  - "dateien-sicher-bearbeiten"
-  - "v110-teil-1"
-  - "cp-a-und-normales-cp-unterscheiden"
+topicPath: ["shell-praxis", "dateien-sicher-bearbeiten", "v110-teil-1", "cp-a-und-normales-cp-unterscheiden"]
 taskId: "v110-linux-cp-a-und-normales-cp-unterscheiden"
 relatedExercise: "linux/shell-praxis/dateien-sicher-bearbeiten/v110-teil-1/cp-a-und-normales-cp-unterscheiden"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "shell-praxis"
-  - "dateien-sicher-bearbeiten"
-  - "cp-a-und-normales-cp-unterscheiden"
+tags: ["linux", "Shell", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **cp -a und normales cp unterscheiden**.

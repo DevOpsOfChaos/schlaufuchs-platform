@@ -1,28 +1,17 @@
 ---
 title: "Toleranz in einer Widerstandsauswahl mitdenken"
 description: "Bewerte, warum ein Nennwert allein nicht immer reicht."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Bauteile"
-topicPath:
-  - bauteile
-  - bauteiltoleranzen-und-derating
-taskId: ET-V182-017
-tags:
-  - elektrotechnik
-  - bauteiltoleranzen-und-derating
-  - sanierung-v182
-hintPoints:
-  - "Lies zuerst den Normalzustand und danach den Fehlerfall."
-  - "Trenne Beobachtung, Vermutung und Gegenprobe."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["bauteile", "bauteiltoleranzen-und-derating", "toleranz-in-einer-widerstandsauswahl-mitdenken"]
+taskId: "ET-V182-017"
+tags: ["elektrotechnik", "Bauteile", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **Bauteiltoleranzen und Derating** ruhig und schrittweise.

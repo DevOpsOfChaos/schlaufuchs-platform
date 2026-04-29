@@ -3,22 +3,12 @@ title: "Lösung: Grenzwertidee alltagsnah: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-038b."
 subject: "mathematik"
 section: "analysis-vorbereitung"
-topicPath:
-  - "analysis-vorbereitung"
-  - "grenzwertidee-alltagsnah"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "grenzwertidee-alltagsnah-aufgabe-b"]
 taskId: "mat-v188-038b"
 relatedExercise: "mathematik/sanierung-v188/grenzwertidee-alltagsnah-aufgabe-b"
-tags:
-  - "grenzwert"
-  - "analysis"
-  - "naeherung"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "analysis-vorbereitung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-038b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

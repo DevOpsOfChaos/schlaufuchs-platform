@@ -1,32 +1,17 @@
 ---
 title: "Offline-Fallback"
 description: "Überblick über Ersatzansichten, wenn eine Webanwendung keine Netzwerkverbindung hat."
-subject: web-development
+subject: "web-development"
 section: "Robuste Oberflächen"
-topicPath:
-  - "offline-fallback"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Offline-Fallback als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Service Worker, Cache, Fallback-Seite."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["offline-fallback", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Offline-Fähigkeit als Alles-oder-nichts-Eigenschaft zu behandeln."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Offline-Fallback beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Umgang mit fehlender Verbindung."
-  - "Wichtige Hinweise liefern vor allem Service Worker, Cache, Fallback-Seite."
-recognizeSignals:
-  - "Es geht um umgang mit fehlender verbindung, service worker oder cache."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Offline-Fallback erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "web-development"
-  - "pwa"
-  - "robustheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Robuste Oberflächen"]
 draft: false
 ---
 # Offline-Fallback

@@ -3,22 +3,12 @@ title: "Lösung – find mit mtime und name kombinieren"
 description: "Musterlösung zu find-Kriterien mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell"
-  - "dateisuche-und-filter"
-  - "find-kriterien"
-  - "find-mtime-und-name-kombinieren"
+topicPath: ["shell", "dateisuche-und-filter", "find-kriterien", "find-mtime-und-name-kombinieren"]
 taskId: "v108-linux-find-mtime-und-name-kombinieren"
 relatedExercise: "linux/shell/dateisuche-und-filter/find-kriterien/find-mtime-und-name-kombinieren"
-tags:
-  - "linux"
-  - "shell"
-  - "praxis"
-  - "dateisuche-und-filter"
-  - "find-kriterien"
+tags: ["linux", "Shell", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **find-Kriterien**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

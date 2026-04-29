@@ -3,20 +3,12 @@ title: "Lösung – Äquivalenzumformungen als Waage lesen"
 description: "Musterlösung zu Äquivalenzumformungen als Waage lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "algebra"
-  - "gleichungen"
-  - "aequivalenzumformungen-als-waage-lesen-v113"
+topicPath: ["algebra", "gleichungen", "aequivalenzumformungen-als-waage-lesen-v113"]
 taskId: "v113-mathematik-aequivalenzumformungen-als-waage-lesen-v113"
 relatedExercise: "mathematik/algebra/gleichungen/aequivalenzumformungen-als-waage-lesen-v113"
-tags:
-  - "mathematik"
-  - "strukturcheck"
-  - "unterthema"
-  - "aequivalenzumformungen-als-waage-lesen-v113"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Äquivalenzumformungen als Waage lesen**.

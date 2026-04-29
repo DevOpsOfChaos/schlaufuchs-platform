@@ -3,22 +3,12 @@ title: "Lösung – Logs mit journalctl und grep eingrenzen"
 description: "Musterlösung zur Aufgabe über Loganalyse mit Begründung und Gegenprobe."
 subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell"
-  - "log-analyse-und-fehler"
-  - "logs-mit-journalctl-und-grep-eingrenzen"
+topicPath: ["shell", "log-analyse-und-fehler", "logs-mit-journalctl-und-grep-eingrenzen"]
 taskId: "v106-linux-logs-mit-journalctl-und-grep-eingrenzen"
 relatedExercise: "linux/shell/log-analyse-und-fehler/logs-mit-journalctl-und-grep-eingrenzen"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "praxis"
-  - "loganalyse"
-  - "log-analyse-und-fehler"
+tags: ["linux", "Shell", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Beobachtung

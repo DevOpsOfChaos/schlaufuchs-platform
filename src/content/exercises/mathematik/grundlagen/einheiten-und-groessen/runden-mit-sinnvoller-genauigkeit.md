@@ -3,33 +3,15 @@ title: "Aufgabe – Runden mit sinnvoller Genauigkeit"
 description: "Übe runden mit sinnvoller genauigkeit mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "grundlagen"
-  - "einheiten-und-groessen"
-  - "runden-mit-sinnvoller-genauigkeit"
+topicPath: ["grundlagen", "einheiten-und-groessen", "runden-mit-sinnvoller-genauigkeit"]
 taskId: "v112-mathematik-runden-mit-sinnvoller-genauigkeit"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "grundlagen"
-  - "runden-mit-sinnvoller-genauigkeit"
-hintPoints:
-  - "Benenne zuerst das kleine Unterthema."
-  - "Prüfe bewusst den Unterschied zum Fehler: Mehr Dezimalstellen werden automatisch für genauer gehalten."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Einordnung enger als nur der breite Fachbereich?"
-  - "Wird der typische Fehler ausdrücklich ausgeschlossen?"
-  - "Passt die Lösung zur Wissensseite?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Begriff und prüfe, ob die gleiche Strategie gilt."
-  - "Erkläre die Lösung einmal alltagssprachlich und danach fachlich sauber."
-reflectionPrompt: "Was war bei „Runden mit sinnvoller Genauigkeit“ die wichtigste Trennkante?"
+tags: ["mathematik", "Feinstruktur Mathematik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation:

@@ -3,24 +3,12 @@ title: "Lösung: Bedingungen lesbar formulieren: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-v190-004b im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "kontrollfluss"
-  - "bedingungen-lesbar-formulieren"
-  - "loesung-b"
+topicPath: ["sanierung-v190", "bedingungen-lesbar-formulieren-aufgabe-b"]
 taskId: "web-v190-004b"
 relatedExercise: "web-development/sanierung-v190/bedingungen-lesbar-formulieren-aufgabe-b"
-tags:
-  - "kontrollfluss"
-  - "bedingungen"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-004b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Bedingungen lesbar formulieren“ um einen Fehlerfall, eine Abnahmebedingung und eine kurze Begründung.

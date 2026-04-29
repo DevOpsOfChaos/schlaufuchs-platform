@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Pipes und Umleitungen – ruhig einordnen"
 description: "Musterlösung zur Linux-Aufgabe Pipes und Umleitungen."
-subject: linux
+subject: "linux"
 section: "shell-und-terminal"
-topicPath:
-  - "shell-und-terminal"
-  - "pipes-und-umleitungen"
-taskId: LINUX-PIPES-UND-UMLEITUNGEN-V186-1
-relatedExercise: src/content/exercises/linux/shell-und-terminal/pipes-und-umleitungen/pipes-und-umleitungen-ruhig-einordnen-v186.md
-tags:
-  - "linux"
-  - "pipes"
-  - "umleitung"
-  - "loesung"
+topicPath: ["shell-und-terminal", "pipes-und-umleitungen", "pipes-und-umleitungen-ruhig-einordnen-v186"]
+taskId: "LINUX-PIPES-UND-UMLEITUNGEN-V186-1"
+relatedExercise: "src/content/exercises/linux/shell-und-terminal/pipes-und-umleitungen/pipes-und-umleitungen-ruhig-einordnen-v186.md"
+tags: ["linux", "shell-und-terminal", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

@@ -3,22 +3,12 @@ title: "Lösung: erwartetes Ergebnis festhalten"
 description: "Musterlösung zur Aufgabe „erwartetes Ergebnis festhalten“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "testfaelle-und-randfaelle"
-  - "erwartetes-ergebnis-festhalten-v116"
+topicPath: ["programmierpraxis-und-tests", "testfaelle-und-randfaelle", "erwartetes-ergebnis-festhalten-v116"]
 taskId: "erwartetes-ergebnis-festhalten-v116"
 relatedExercise: "informatik/programmierpraxis-und-tests/testfaelle-und-randfaelle/erwartetes-ergebnis-festhalten-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "testfaelle und randfaelle"
-  - "erwartetes ergebnis festhalten"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

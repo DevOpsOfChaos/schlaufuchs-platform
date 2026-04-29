@@ -3,23 +3,12 @@ title: "Lösung: Funktionen, Parameter und Rückgabe: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-v190-006a im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "funktionen"
-  - "funktionen-parameter-und-rueckgabe"
-  - "loesung-a"
+topicPath: ["sanierung-v190", "funktionen-parameter-und-rueckgabe-aufgabe-a"]
 taskId: "web-v190-006a"
 relatedExercise: "web-development/sanierung-v190/funktionen-parameter-und-rueckgabe-aufgabe-a"
-tags:
-  - "funktionen"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-006a`
 
 Ausgangsauftrag: Zerlege eine Preisberechnung in zwei kleine Funktionen.

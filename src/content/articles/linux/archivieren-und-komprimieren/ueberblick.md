@@ -1,34 +1,19 @@
 ---
 title: "Archivieren und Komprimieren"
 description: "Überblick über Archive, Komprimierung und typische Werkzeuge unter Linux."
-subject: linux
+subject: "linux"
 section: "Dateien und Werkzeuge"
-topicPath:
-  - archivieren-und-komprimieren
-  - ueberblick
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen und von verwandten Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte und typische Anwendungsfälle."
-  - "Du erkennst häufige Missverständnisse und prüfst Aussagen auf Plausibilität."
+topicPath: ["archivieren-und-komprimieren", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, vor dem Entpacken nicht zu prüfen, welche Pfade ein Archiv enthält."
-keyTakeaways:
-  - "Archivieren bedeutet, mehrere Dateien und Verzeichnisse zu einer Datei zusammenzufassen."
-  - "Die genaue Bedeutung hängt vom Zusammenhang, den Einheiten und den Randbedingungen ab."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Begriffe, Beispiele oder Fehlerbilder aus diesem Bereich erklärt und eingeordnet werden sollen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten erklären, ohne sofort eine Spezialaufgabe zu rechnen?"
-level: einfach
-tags:
-  - "linux"
-  - "tar"
-  - "zip"
-  - "archive"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dateien und Werkzeuge"]
 draft: false
 ---
-
 # Archivieren und Komprimieren
 
 ![Schaubild zu Archivieren und Komprimieren.](/schlaufuchs-platform/images/overviews/v150/archivieren-und-komprimieren.svg)

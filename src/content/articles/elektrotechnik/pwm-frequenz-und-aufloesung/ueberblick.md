@@ -3,32 +3,17 @@ title: "PWM-Frequenz und Auflösung"
 description: "Allgemeiner Überblick über pwm-frequenz und auflösung und die wichtigsten Zusammenhänge."
 subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "pwm-frequenz-und-aufloesung"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["pwm-frequenz-und-aufloesung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird nur das Tastverhältnis betrachtet, obwohl Frequenz und Auflösung die praktische Wirkung bestimmen."
-keyTakeaways:
-  - "PWM-Qualität hängt von Tastverhältnis, Frequenz, Auflösung und Last ab."
-  - "Frequenz und Auflösung lassen sich nicht unabhängig beliebig erhöhen."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "elektrotechnik"
-  - "pwm"
-  - "timer"
-  - "auflösung"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
-
 # PWM-Frequenz und Auflösung
 
 PWM-Frequenz und Auflösung beschreiben, wie schnell ein PWM-Signal wiederholt wird und wie fein das Tastverhältnis einstellbar ist.

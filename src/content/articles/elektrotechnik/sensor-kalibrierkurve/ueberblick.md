@@ -1,34 +1,19 @@
 ---
 title: "Sensor-Kalibrierkurve"
 description: "Überblick über Kalibrierkurven als Verbindung zwischen Rohsignal und physikalischer Messgröße."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik"
-topicPath:
-  - "sensor-kalibrierkurve"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["sensor-kalibrierkurve", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "ADC-Zählwerte direkt als physikalische Größe zu behandeln."
-keyTakeaways:
-  - "Eine Kalibrierkurve übersetzt Rohsignale in Bedeutung und macht Grenzen der Messung sichtbar."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Rohwerte angezeigt werden, aber noch nicht klar ist, welcher realen Größe sie entsprechen."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "sensoren"
-  - "kalibrierung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik"]
 draft: false
 ---
-
 # Sensor-Kalibrierkurve
 
 Eine Sensor-Kalibrierkurve beschreibt, wie ein Rohsignal in eine gesuchte Messgröße übersetzt wird. Sie verbindet beispielsweise Spannung, Widerstand oder Zählwert mit Temperatur, Druck, Abstand oder Helligkeit.

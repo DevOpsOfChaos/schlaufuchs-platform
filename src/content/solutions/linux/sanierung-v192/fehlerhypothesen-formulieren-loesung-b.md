@@ -3,25 +3,12 @@ title: "Lösung: Fehlerhypothesen formulieren: Aufgabe B"
 description: "Musterlösung zur Aufgabe linux-v192-012b im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "logging-und-diagnose"
-  - "fehlerhypothesen-formulieren"
-  - "loesung-b"
+topicPath: ["sanierung-v192", "fehlerhypothesen-formulieren-loesung-b"]
 taskId: "linux-v192-012b"
 relatedExercise: "linux/sanierung-v192/fehlerhypothesen-formulieren-aufgabe-b"
-tags:
-  - "logging-und-diagnose"
-  - "fehlerhypothesen"
-  - "formulieren"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-012b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Fehlerhypothesen formulieren“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

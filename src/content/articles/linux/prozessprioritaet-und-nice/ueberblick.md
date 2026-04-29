@@ -1,31 +1,17 @@
 ---
 title: "Prozesspriorität und nice"
 description: "Allgemeiner Überblick über Prozessprioritäten, nice-Werte und Ressourcennutzung unter Linux."
-subject: linux
+subject: "linux"
 section: "Prozesse"
-topicPath:
-  - "prozessprioritaet-und-nice"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Prozesspriorität und nice grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["prozessprioritaet-und-nice", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Prozesspriorität und nice nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Prozesspriorität und nice beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Prozesspriorität und nice, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Prozesspriorität und nice in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "prozesse"
-  - "nice"
-  - "ressourcen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Prozesse"]
 draft: false
 ---
 # Prozesspriorität und nice

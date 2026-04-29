@@ -3,41 +3,15 @@ title: "HTML – srcset, sizes und responsive Bilder verstehen"
 description: "Lerne, warum responsive Bilder nicht nur mehrere Dateien sind, sondern eine Absprache zwischen Inhalt, Layout und Browserauswahl."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "bilder-und-alt-texte"
-  - "srcset-sizes-und-responsive-bilder-verstehen"
-learningGoals:
-  - "Du erklärst den Unterschied zwischen Bildkandidaten und Layoutbreite."
-  - "Du liest srcset und sizes als gemeinsame Entscheidung."
-  - "Du vermeidest zu große Bilddateien für kleine Ansichten."
-practiceIdeas:
-  - "Prüfe ein kleines Beispiel zuerst fachlich und erst danach im Code."
-  - "Vergleiche eine schwache und eine bessere Umsetzung."
-  - "Teste die Entscheidung mit Tastatur, kleiner Breite und verständlichem sichtbarem Text."
-commonMistakes:
-  - "srcset zu setzen, aber sizes zu vergessen."
-  - "Bildbreiten mit CSS-Breite zu verwechseln."
-  - "Dekorative und informative Bilder in derselben Entscheidung zu vermischen."
-keyTakeaways:
-  - "Die sichtbare Bedeutung und die technische Struktur müssen zusammenpassen."
-  - "Robuste Weboberflächen entstehen durch kleine, bewusst geprüfte Entscheidungen."
-  - "Ein gutes Review fragt nach Nutzbarkeit, Semantik, Layout und Wartbarkeit."
-recognizeSignals:
-  - "Es geht um HTML- oder CSS-Entscheidungen, die nicht nur optisch wirken."
-  - "Eine Aufgabe fragt nach Bedienbarkeit, Lesbarkeit oder semantischer Zuordnung."
-  - "Der Code funktioniert scheinbar, aber die Nutzererfahrung ist noch unsicher."
-selfCheckPoints:
-  - "Kann ich die Entscheidung ohne Fachjargon erklären?"
-  - "Passt der sichtbare Text zur technischen Struktur?"
-  - "Bleibt die Lösung bei kleinen Breiten und Tastaturbedienung nutzbar?"
-tags:
-  - "web development"
-  - "html"
-  - "bilder"
-  - "srcset"
-  - "responsive"
+topicPath: ["html", "bilder-und-alt-texte", "srcset-sizes-und-responsive-bilder-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
+tags: ["web-development", "HTML"]
 draft: false
 ---
 ## Grundidee

@@ -1,23 +1,14 @@
 ---
-title: Lösung – Ober- und Untersumme unterscheiden
-description: Musterlösung zur Aufgabe über Ober- und Untersumme unterscheiden.
-subject: mathematik
-section: Feinstruktur Mathematik
-topicPath:
-- analysis-pruefschritte
-- integral-und-flaeche
-- ober-und-untersumme-unterscheiden-v114
-taskId: v114-mathematik-ober-und-untersumme-unterscheiden-v114
-relatedExercise: mathematik/analysis-pruefschritte/integral-und-flaeche/ober-und-untersumme-unterscheiden-v114
-tags:
-- mathematik
-- v114
-- loesung
-- analysis-pruefschritte
-- integral-und-flaeche
+title: "Lösung – Ober- und Untersumme unterscheiden"
+description: "Musterlösung zur Aufgabe über Ober- und Untersumme unterscheiden."
+subject: "mathematik"
+section: "Feinstruktur Mathematik"
+topicPath: ["analysis-pruefschritte", "integral-und-flaeche", "ober-und-untersumme-unterscheiden-v114"]
+taskId: "v114-mathematik-ober-und-untersumme-unterscheiden-v114"
+relatedExercise: "mathematik/analysis-pruefschritte/integral-und-flaeche/ober-und-untersumme-unterscheiden-v114"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

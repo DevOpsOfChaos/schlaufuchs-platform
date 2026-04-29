@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Backup von Synchronisation trennen"
 description: "Musterlösung zu Backup von Synchronisation trennen mit Trennkante und Gegenprobe."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "paket-und-backup-v115"
-  - "backup-und-wiederherstellung"
-  - "backup-von-synchronisation-trennen-v115"
+topicPath: ["paket-und-backup-v115", "backup-und-wiederherstellung", "backup-von-synchronisation-trennen-v115"]
 taskId: "linux-backup-von-synchronisation-trennen-v115"
 relatedExercise: "linux/paket-und-backup-v115/backup-und-wiederherstellung/backup-von-synchronisation-trennen-v115"
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "pakete und backups"
-  - "backup und wiederherstellung"
-  - "lösung"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Backup von Synchronisation trennen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

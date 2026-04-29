@@ -3,43 +3,17 @@ title: "Gleichartige Terme bewusst sammeln"
 description: "Lerne Gleichartige Terme bewusst sammeln als kleines, klar abgegrenztes Unterthema mit Prüffrage und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "algebra"
-  - "terme-und-klammern"
-  - "gleichartige-terme-bewusst-sammeln-v113"
-learningGoals:
-  - "Du erklärst Gleichartige Terme bewusst sammeln als enges Unterthema."
-  - "Du grenzt es von einem naheliegenden Nachbarthema ab."
-  - "Du nutzt eine konkrete Prüffrage statt einer allgemeinen Merkhilfe."
-practiceIdeas:
-  - "Wende die Prüffrage auf ein zweites Beispiel an."
-  - "Formuliere eine Gegenprobe mit geändertem Kontext."
-  - "Markiere, welches Nachbarthema hier gerade nicht gemeint ist."
-commonMistakes:
-  - "Alle Terme mit derselben Variablen werden ungeprüft zusammengefasst."
-  - "Zu breit einordnen und dadurch die eigentliche Trennkante verlieren."
-  - "Eine Lösung ohne Gegenprobe akzeptieren."
-keyTakeaways:
-  - "Gleichartige Terme bewusst sammeln wird über eine kleine Trennkante verständlich."
-  - "Die Prüffrage entscheidet stärker als ein grober Kapitelname."
-  - "Aufgabe und Lösung bleiben übersichtlich, wenn das Unterthema eng geführt wird."
-recognizeSignals:
-  - "Eine Aufgabe enthält eine typische Verwechslung."
-  - "Ein Begriff wirkt bekannt, aber der konkrete Prüfschritt fehlt."
-  - "Eine Lösung muss begründen, warum ein Nachbarthema nicht passt."
-selfCheckPoints:
-  - "Kann ich die Trennkante in einem Satz nennen?"
-  - "Kann ich die Prüffrage auf den Fall anwenden?"
-  - "Kann ich eine sinnvolle Gegenprobe formulieren?"
-tags:
-  - "mathematik"
-  - "strukturcheck"
-  - "unterthema"
-  - "gleichartige-terme-bewusst-sammeln-v113"
+topicPath: ["algebra", "terme-und-klammern", "gleichartige-terme-bewusst-sammeln-v113"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["mathematik", "Feinstruktur Mathematik"]
 draft: false
 ---
-
 ## Grundidee
 
 **Gleichartige Terme bewusst sammeln** ist bewusst als kleines Unterthema angelegt. Lerne Gleichartige Terme bewusst sammeln als kleines, klar abgegrenztes Unterthema mit Prüffrage und Gegenprobe. Dadurch bleibt die Seite auffindbar und vermischt sich nicht mit einem übergroßen Sammelkapitel.

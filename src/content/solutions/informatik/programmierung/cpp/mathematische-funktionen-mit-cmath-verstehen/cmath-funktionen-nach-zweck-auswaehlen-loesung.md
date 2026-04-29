@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – cmath-Funktionen nach Zweck auswählen
-description: Musterlösung zur Aufgabe INF-PROG-CPP-CMATH-001.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - cmath
-  - mathematische-funktionen-mit-cmath-verstehen
-  - cmath-funktionen-nach-zweck-auswaehlen-loesung
-taskId: INF-PROG-CPP-CMATH-001
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/mathematische-funktionen-mit-cmath-verstehen/cmath-funktionen-nach-zweck-auswaehlen.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – cmath-Funktionen nach Zweck auswählen"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-CMATH-001."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "mathematische-funktionen-mit-cmath-verstehen", "cmath-funktionen-nach-zweck-auswaehlen"]
+taskId: "INF-PROG-CPP-CMATH-001"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/mathematische-funktionen-mit-cmath-verstehen/cmath-funktionen-nach-zweck-auswaehlen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Passende Funktion finden
 
 - Quadratwurzel berechnen → <code>sqrt</code>

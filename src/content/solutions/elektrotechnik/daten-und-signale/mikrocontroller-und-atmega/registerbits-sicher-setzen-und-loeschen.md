@@ -1,23 +1,14 @@
 ---
-title: Lösung – Registerbits am ATmega sicher ändern
-description: Musterlösung zum sicheren Setzen, Löschen, Umschalten und Prüfen einzelner Registerbits.
-subject: elektrotechnik
-section: Mikrocontroller und ATmega
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - registerbits-sicher-setzen-und-loeschen
-taskId: et-mc-registerbits-sicher-aendern
-relatedExercise: elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/registerbits-sicher-setzen-und-loeschen
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - register
-  - bitmasken
+title: "Lösung – Registerbits am ATmega sicher ändern"
+description: "Musterlösung zum sicheren Setzen, Löschen, Umschalten und Prüfen einzelner Registerbits."
+subject: "elektrotechnik"
+section: "Mikrocontroller und ATmega"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "registerbits-sicher-setzen-und-loeschen"]
+taskId: "et-mc-registerbits-sicher-aendern"
+relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/registerbits-sicher-setzen-und-loeschen"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 ```c

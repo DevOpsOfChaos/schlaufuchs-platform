@@ -3,20 +3,12 @@ title: "Lösung – Vorbedingung vor dem Algorithmus prüfen"
 description: "Musterlösung zu Vorbedingung vor dem Algorithmus prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "algorithmen"
-  - "ablaufplaene"
-  - "vorbedingung-vor-dem-algorithmus-pruefen-v113"
+topicPath: ["algorithmen", "ablaufplaene", "vorbedingung-vor-dem-algorithmus-pruefen-v113"]
 taskId: "v113-informatik-vorbedingung-vor-dem-algorithmus-pruefen-v113"
 relatedExercise: "informatik/algorithmen/ablaufplaene/vorbedingung-vor-dem-algorithmus-pruefen-v113"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "vorbedingung-vor-dem-algorithmus-pruefen-v113"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Vorbedingung vor dem Algorithmus prüfen**.

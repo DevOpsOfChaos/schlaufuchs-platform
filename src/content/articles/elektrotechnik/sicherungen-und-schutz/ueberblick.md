@@ -1,36 +1,19 @@
 ---
 title: "Sicherungen und Schutz"
 description: "Einordnung von Sicherungen, Schutzbauteilen und Schutzkonzepten in elektronischen Schaltungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Sicherheit"
-topicPath:
-  - "sicherungen-und-schutz"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Sicherungen und Schutz als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["sicherungen-und-schutz", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Irrtum ist, eine Sicherung als allgemeinen Bauteilschutz zu verstehen."
-keyTakeaways:
-  - "Schutz ist ein System aus Bauteilen, Dimensionierung und Fehlerannahmen."
-  - "Sicherungen schützen vor bestimmten Überstromfällen, nicht vor allem."
-  - "Schutzbauteile müssen zur Energiequelle und zum Risiko passen."
-recognizeSignals:
-  - "Es geht um Sicherungen und Schutz als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Sicherungen und Schutz in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "sicherheit"
-  - "sicherung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Sicherheit"]
 draft: false
 ---
-
 # Sicherungen und Schutz
 
 Schutz in elektrischen Schaltungen soll verhindern, dass Fehler zu gefährlichen Strömen, Überhitzung oder Bauteilschäden führen. Eine Sicherung unterbricht den Stromkreis, wenn ein zu hoher Strom zu lange fließt. Schutzkonzepte umfassen aber mehr als eine einzelne Sicherung.

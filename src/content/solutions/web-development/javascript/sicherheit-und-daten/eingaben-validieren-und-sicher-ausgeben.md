@@ -3,22 +3,12 @@ title: "Lösung – Eingaben validieren und sicher ausgeben"
 description: "Musterlösung mit fachlicher Begründung zur passenden JavaScript-Aufgabe."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "sicherheit-und-daten"
-  - "eingaben-validieren-und-sicher-ausgeben"
+topicPath: ["javascript", "sicherheit-und-daten", "eingaben-validieren-und-sicher-ausgeben"]
 taskId: "web-js-v99-eingaben-validieren-und-sicher-ausgeben"
 relatedExercise: "web-development/javascript/sicherheit-und-daten/eingaben-validieren-und-sicher-ausgeben"
-tags:
-  - "web development"
-  - "javascript"
-  - "sicherheit"
-  - "validierung"
-  - "xss"
-  - "lösung"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 textContent behandelt die Eingabe als Text und nicht als HTML. Dadurch wird aus eingegebenen Zeichen keine ausführbare Struktur. Serverseitige Prüfung bleibt nötig, weil Client-Code verändert oder umgangen werden kann.

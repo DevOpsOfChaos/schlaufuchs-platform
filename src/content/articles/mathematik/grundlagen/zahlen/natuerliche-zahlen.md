@@ -1,19 +1,19 @@
 ---
-title: Natürliche Zahlen
-description: Natürliche Zahlen bilden die Grundlage für Zählen, Ordnen, Vergleichen und viele erste Rechenideen.
-subject: mathematik
-section: Grundlagen
-level: einfach
-tags:
-  - Zahlen
-  - Natürliche Zahlen
-  - Zahlbereiche
-  - Grundlagen
-  - Zählen
-  - Ordnen
+title: "Natürliche Zahlen"
+description: "Natürliche Zahlen bilden die Grundlage für Zählen, Ordnen, Vergleichen und viele erste Rechenideen."
+subject: "mathematik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "zahlen", "natuerliche-zahlen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 Natürliche Zahlen gehören zu den ersten mathematischen Ideen, die im Alltag wirklich gebraucht werden. Immer wenn Dinge **gezählt**, **geordnet**, **nummeriert** oder **verglichen** werden, tauchen natürliche Zahlen auf.

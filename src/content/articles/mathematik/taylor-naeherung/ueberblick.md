@@ -1,32 +1,17 @@
 ---
 title: "Taylor-Näherung"
 description: "Überblick über lokale Approximation von Funktionen durch Polynome."
-subject: mathematik
+subject: "mathematik"
 section: "Analysis"
-topicPath:
-  - "taylor-naeherung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Taylor-Näherung als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Entwicklungspunkt, Ableitungen, Restglied."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["taylor-naeherung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Eine Taylor-Näherung weit außerhalb ihres Entwicklungspunktes ungeprüft zu verwenden."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Taylor-Näherung beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Lokale Funktionsapproximation."
-  - "Wichtige Hinweise liefern vor allem Entwicklungspunkt, Ableitungen, Restglied."
-recognizeSignals:
-  - "Es geht um lokale funktionsapproximation, entwicklungspunkt oder ableitungen."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Taylor-Näherung erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "analysis"
-  - "naeherung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Analysis"]
 draft: false
 ---
 # Taylor-Näherung

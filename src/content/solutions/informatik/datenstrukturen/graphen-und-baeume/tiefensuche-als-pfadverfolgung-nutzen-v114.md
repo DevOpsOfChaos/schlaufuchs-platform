@@ -1,23 +1,14 @@
 ---
-title: Lösung – Tiefensuche als Pfadverfolgung nutzen
-description: Musterlösung zur Aufgabe über Tiefensuche als Pfadverfolgung nutzen.
-subject: informatik
-section: Feinstruktur Informatik
-topicPath:
-- datenstrukturen
-- graphen-und-baeume
-- tiefensuche-als-pfadverfolgung-nutzen-v114
-taskId: v114-informatik-tiefensuche-als-pfadverfolgung-nutzen-v114
-relatedExercise: informatik/datenstrukturen/graphen-und-baeume/tiefensuche-als-pfadverfolgung-nutzen-v114
-tags:
-- informatik
-- v114
-- loesung
-- datenstrukturen
-- graphen-und-baeume
+title: "Lösung – Tiefensuche als Pfadverfolgung nutzen"
+description: "Musterlösung zur Aufgabe über Tiefensuche als Pfadverfolgung nutzen."
+subject: "informatik"
+section: "Feinstruktur Informatik"
+topicPath: ["datenstrukturen", "graphen-und-baeume", "tiefensuche-als-pfadverfolgung-nutzen-v114"]
+taskId: "v114-informatik-tiefensuche-als-pfadverfolgung-nutzen-v114"
+relatedExercise: "informatik/datenstrukturen/graphen-und-baeume/tiefensuche-als-pfadverfolgung-nutzen-v114"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

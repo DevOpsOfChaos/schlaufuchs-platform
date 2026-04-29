@@ -3,22 +3,12 @@ title: "Lösung: Massebezug bewusst wählen"
 description: "Musterlösung zur Aufgabe „Massebezug bewusst wählen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "messpraxis-und-diagnose"
-  - "multimeter-und-bezugspunkt"
-  - "massebezug-bewusst-waehlen-v116"
+topicPath: ["messpraxis-und-diagnose", "multimeter-und-bezugspunkt", "massebezug-bewusst-waehlen-v116"]
 taskId: "massebezug-bewusst-waehlen-v116"
 relatedExercise: "elektrotechnik/messpraxis-und-diagnose/multimeter-und-bezugspunkt/massebezug-bewusst-waehlen-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "multimeter und bezugspunkt"
-  - "massebezug bewusst waehlen"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

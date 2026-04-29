@@ -1,23 +1,14 @@
 ---
-title: Lösung – Known-Hosts-Warnung prüfen
-description: Musterlösung zur Aufgabe über Known-Hosts-Warnung prüfen.
-subject: linux
-section: Feinstruktur Linux
-topicPath:
-- netzwerk-und-rechte
-- ssh-und-schluessel
-- known-hosts-warnung-pruefen-v114
-taskId: v114-linux-known-hosts-warnung-pruefen-v114
-relatedExercise: linux/netzwerk-und-rechte/ssh-und-schluessel/known-hosts-warnung-pruefen-v114
-tags:
-- linux
-- v114
-- loesung
-- netzwerk-und-rechte
-- ssh-und-schluessel
+title: "Lösung – Known-Hosts-Warnung prüfen"
+description: "Musterlösung zur Aufgabe über Known-Hosts-Warnung prüfen."
+subject: "linux"
+section: "Feinstruktur Linux"
+topicPath: ["netzwerk-und-rechte", "ssh-und-schluessel", "known-hosts-warnung-pruefen-v114"]
+taskId: "v114-linux-known-hosts-warnung-pruefen-v114"
+relatedExercise: "linux/netzwerk-und-rechte/ssh-und-schluessel/known-hosts-warnung-pruefen-v114"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

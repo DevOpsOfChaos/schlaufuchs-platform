@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Exit-Codes und Kontrollfluss – anwenden und prüfen"
 description: "Musterlösung zur Linux-Aufgabe Exit-Codes und Kontrollfluss."
-subject: linux
+subject: "linux"
 section: "shell-und-terminal"
-topicPath:
-  - "shell-und-terminal"
-  - "exit-codes-und-kontrollfluss"
-taskId: LINUX-EXIT-CODES-UND-KONTROLLFLUSS-V186-2
-relatedExercise: src/content/exercises/linux/shell-und-terminal/exit-codes-und-kontrollfluss/exit-codes-und-kontrollfluss-anwenden-und-pruefen-v186.md
-tags:
-  - "linux"
-  - "exit-code"
-  - "kontrollfluss"
-  - "loesung"
+topicPath: ["shell-und-terminal", "exit-codes-und-kontrollfluss", "exit-codes-und-kontrollfluss-anwenden-und-pruefen-v186"]
+taskId: "LINUX-EXIT-CODES-UND-KONTROLLFLUSS-V186-2"
+relatedExercise: "src/content/exercises/linux/shell-und-terminal/exit-codes-und-kontrollfluss/exit-codes-und-kontrollfluss-anwenden-und-pruefen-v186.md"
+tags: ["linux", "shell-und-terminal", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

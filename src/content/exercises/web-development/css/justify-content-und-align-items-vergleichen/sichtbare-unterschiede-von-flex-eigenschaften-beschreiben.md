@@ -1,33 +1,17 @@
 ---
-title: Sichtbare Unterschiede von Flex-Eigenschaften beschreiben
-description: Begründe an kleinen Flexbox-Beispielen, ob eine Änderung die Hauptachse oder die Querachse betrifft.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - flexbox
-  - justify-content-und-align-items-vergleichen
-  - sichtbare-unterschiede-von-flex-eigenschaften-beschreiben
-level: einfach
+title: "Sichtbare Unterschiede von Flex-Eigenschaften beschreiben"
+description: "Begründe an kleinen Flexbox-Beispielen, ob eine Änderung die Hauptachse oder die Querachse betrifft."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "justify-content-und-align-items-vergleichen", "sichtbare-unterschiede-von-flex-eigenschaften-beschreiben"]
+taskId: "AUTO-SICHTBARE-UNTERSCHIEDE-VON-FLEX-EIGENSCHAFTEN-BESCHREIBEN"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - css
-  - flexbox
-  - achsen
-hintPoints:
-  - "Frage zuerst nach der Hauptachse."
-  - "Beschreibe sichtbar, ob sich die Verteilung über die Breite oder die Lage quer dazu ändert."
-  - "Erwähne auch, was gleich bleibt."
-selfCheckPoints:
-  - "Ordnet deine Erklärung die Änderung einer Achse zu?"
-  - "Ist klar, was sichtbar anders wird?"
-  - "Benennst du nicht nur Eigenschaftsnamen, sondern deren Effekt?"
-transferIdeas:
-  - "Übertrage die Aufgabe auf Button-Leisten, Navigationsleisten oder Kartenköpfe."
-  - "Vergleiche zwei Layouts mit denselben Elementen und anderem Containerwert."
-reflectionPrompt: "Warum ist bei Flexbox die Achse oft wichtiger als der Eigenschaftsname selbst?"
 ---
-
 ## Aufgabe 1: Hauptachse oder Querachse?
 
 Erkläre, welche Eigenschaft eher gemeint ist, wenn:

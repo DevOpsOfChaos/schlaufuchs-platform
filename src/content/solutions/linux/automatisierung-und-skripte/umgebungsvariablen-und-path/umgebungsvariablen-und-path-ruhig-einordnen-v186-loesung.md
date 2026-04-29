@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Umgebungsvariablen und PATH – ruhig einordnen"
 description: "Musterlösung zur Linux-Aufgabe Umgebungsvariablen und PATH."
-subject: linux
+subject: "linux"
 section: "automatisierung-und-skripte"
-topicPath:
-  - "automatisierung-und-skripte"
-  - "umgebungsvariablen-und-path"
-taskId: LINUX-UMGEBUNGSVARIABLEN-UND-PATH-V186-1
-relatedExercise: src/content/exercises/linux/automatisierung-und-skripte/umgebungsvariablen-und-path/umgebungsvariablen-und-path-ruhig-einordnen-v186.md
-tags:
-  - "linux"
-  - "umgebung"
-  - "path"
-  - "loesung"
+topicPath: ["automatisierung-und-skripte", "umgebungsvariablen-und-path", "umgebungsvariablen-und-path-ruhig-einordnen-v186"]
+taskId: "LINUX-UMGEBUNGSVARIABLEN-UND-PATH-V186-1"
+relatedExercise: "src/content/exercises/linux/automatisierung-und-skripte/umgebungsvariablen-und-path/umgebungsvariablen-und-path-ruhig-einordnen-v186.md"
+tags: ["linux", "automatisierung-und-skripte", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

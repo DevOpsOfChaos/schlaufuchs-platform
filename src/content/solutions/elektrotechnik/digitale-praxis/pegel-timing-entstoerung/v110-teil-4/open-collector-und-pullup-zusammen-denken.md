@@ -3,23 +3,12 @@ title: "Lösung – Open Collector und Pull-up zusammen denken"
 description: "Musterlösung zu Open Collector und Pull-up zusammen denken mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Digitale Praxis"
-topicPath:
-  - "digitale-praxis"
-  - "pegel-timing-entstoerung"
-  - "v110-teil-4"
-  - "open-collector-und-pullup-zusammen-denken"
+topicPath: ["digitale-praxis", "pegel-timing-entstoerung", "v110-teil-4", "open-collector-und-pullup-zusammen-denken"]
 taskId: "v110-elektrotechnik-open-collector-und-pullup-zusammen-denken"
 relatedExercise: "elektrotechnik/digitale-praxis/pegel-timing-entstoerung/v110-teil-4/open-collector-und-pullup-zusammen-denken"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "digitale-praxis"
-  - "pegel-timing-entstoerung"
-  - "open-collector-und-pull-up-zusammen-denken"
+tags: ["elektrotechnik", "Digitale Praxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Open Collector und Pull-up zusammen denken**.

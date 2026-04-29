@@ -3,21 +3,12 @@ title: "Lösung – Binäre Suche an Sortierung koppeln"
 description: "Musterlösung zu binäre suche an sortierung koppeln mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "algorithmen"
-  - "test-und-komplexitaet"
-  - "binaere-suche-an-sortierung-koppeln"
+topicPath: ["algorithmen", "test-und-komplexitaet", "binaere-suche-an-sortierung-koppeln"]
 taskId: "v112-informatik-binaere-suche-an-sortierung-koppeln"
 relatedExercise: "informatik/algorithmen/test-und-komplexitaet/binaere-suche-an-sortierung-koppeln"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "algorithmen"
-  - "binaere-suche-an-sortierung-koppeln"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Tests und Komplexität**.

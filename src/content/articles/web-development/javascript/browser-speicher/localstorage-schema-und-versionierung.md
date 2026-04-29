@@ -3,44 +3,17 @@ title: "Browser – localStorage mit Schema und Versionierung nutzen"
 description: "Verstehe, warum dauerhaft gespeicherte Browserdaten eine kleine Struktur und einen Migrationsweg brauchen."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "browser-speicher"
-  - "localstorage-schema-und-versionierung"
-tags:
-  - "web development"
-  - "javascript"
-  - "localstorage"
-  - "browser speicher"
-  - "versionierung"
-learningGoals:
-  - "Du erklärst, warum localStorage-Werte nicht blind vertraut werden dürfen."
-  - "Du speicherst Daten mit Versionsnummer statt als zufällige Einzelwerte."
-  - "Du planst, was bei alten oder beschädigten Werten passiert."
-practiceIdeas:
-  - "Übertrage das Muster auf eine kleine eigene Oberfläche."
-  - "Prüfe den Fall mit Tastatur, kleinem Bildschirm oder Fehlermeldung."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "JSON aus localStorage ungeprüft zu verwenden."
-  - "Datenformat nachträglich zu ändern, ohne alte Werte zu behandeln."
-  - "Sensible Daten dauerhaft im Browser zu speichern."
-keyTakeaways:
-  - "Robuste Webentwicklung verbindet Struktur, Zustand und verständliche Rückmeldung."
-  - "Eine gute Lösung bleibt auch bei Tastaturbedienung, Fehlern oder kleinen Bildschirmen nachvollziehbar."
-  - "Saubere Projektpraxis bedeutet, Entscheidungen sichtbar und überprüfbar zu machen."
-recognizeSignals:
-  - "Eine Oberfläche funktioniert scheinbar, wird aber in Sonderfällen unklar."
-  - "Nutzerinnen und Nutzer brauchen Orientierung, Status oder eine konkrete Korrekturmöglichkeit."
-  - "HTML, CSS und JavaScript müssen gemeinsam statt isoliert betrachtet werden."
-selfCheckPoints:
-  - "Kann ich erklären, welcher Zustand gerade sichtbar gemacht wird?"
-  - "Ist die Lösung auch ohne Maus, perfekte Verbindung oder großen Bildschirm verständlich?"
-  - "Sind sichtbare Texte klar, deutsch und nah an der betroffenen Handlung formuliert?"
+topicPath: ["javascript", "browser-speicher", "localstorage-schema-und-versionierung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Verstehe, warum dauerhaft gespeicherte Browserdaten eine kleine Struktur und einen Migrationsweg brauchen. Diese Seite behandelt das Thema als praktische Entscheidung im Webprojekt: Was sehen Nutzerinnen und Nutzer, was passiert technisch im Hintergrund und wie bleibt die Lösung später wartbar?

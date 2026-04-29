@@ -3,23 +3,12 @@ title: "Lösung – Massebezug als gemeinsamen Nullpunkt verstehen"
 description: "Musterlösung zu Massebezug mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Grundlagen"
-topicPath:
-  - "daten-und-signale"
-  - "schaltungen-und-stromkreis"
-  - "massebezug"
-  - "massebezug-als-gemeinsamen-nullpunkt-verstehen"
+topicPath: ["daten-und-signale", "schaltungen-und-stromkreis", "massebezug", "massebezug-als-gemeinsamen-nullpunkt-verstehen"]
 taskId: "v109-elektrotechnik-massebezug-als-gemeinsamen-nullpunkt-verstehen"
 relatedExercise: "elektrotechnik/daten-und-signale/schaltungen-und-stromkreis/massebezug/massebezug-als-gemeinsamen-nullpunkt-verstehen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "daten-und-signale"
-  - "schaltungen-und-stromkreis"
-  - "massebezug"
+tags: ["elektrotechnik", "Grundlagen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Massebezug**.

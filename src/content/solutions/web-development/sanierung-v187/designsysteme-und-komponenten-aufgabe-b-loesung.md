@@ -3,23 +3,12 @@ title: "Lösung: Designsysteme und Komponenten: Prüfung und Verbesserung"
 description: "Musterlösung zur Aufgabe web-v187-031b im Web-Development-Block v187."
 subject: "web-development"
 section: "architektur"
-topicPath: 
-  - "werkzeuge-und-projektarbeit"
-  - "komponenten"
-  - "loesung-b"
+topicPath: ["sanierung-v187", "designsysteme-und-komponenten-aufgabe-b"]
 taskId: "web-v187-031b"
 relatedExercise: "web-development/sanierung-v187/designsysteme-und-komponenten-aufgabe-b"
-tags: 
-  - "komponenten"
-  - "designsystem"
-  - "css"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "architektur", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-031b`
 
     Ausgangsauftrag: Beschreibe für eine Kartenkomponente sinnvolle Varianten, Pflichtinhalte und Grenzen.

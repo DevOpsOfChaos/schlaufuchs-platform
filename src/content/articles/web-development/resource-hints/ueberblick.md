@@ -1,32 +1,17 @@
 ---
 title: "Resource Hints"
 description: "Überblick über Preload, Prefetch und Preconnect als Hinweise für schnelleres Laden von Webressourcen."
-subject: web-development
+subject: "web-development"
 section: "Performance"
-topicPath:
-  - "resource-hints"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Resource Hints als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie preload, prefetch, preconnect."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["resource-hints", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Alle Ressourcen möglichst früh vorzuladen."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Resource Hints beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Ladeplanung im Browser."
-  - "Wichtige Hinweise liefern vor allem preload, prefetch, preconnect."
-recognizeSignals:
-  - "Es geht um ladeplanung im browser, preload oder prefetch."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Resource Hints erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "web-development"
-  - "performance"
-  - "html"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Performance"]
 draft: false
 ---
 # Resource Hints

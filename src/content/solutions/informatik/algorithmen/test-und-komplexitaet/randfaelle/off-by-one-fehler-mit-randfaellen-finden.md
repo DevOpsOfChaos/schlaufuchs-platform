@@ -3,22 +3,12 @@ title: "Lösung – Off-by-one-Fehler mit Randfällen finden"
 description: "Musterlösung zu Off-by-one-Prüfung mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "informatik"
 section: "Algorithmen"
-topicPath:
-  - "algorithmen"
-  - "test-und-komplexitaet"
-  - "randfaelle"
-  - "off-by-one-fehler-mit-randfaellen-finden"
+topicPath: ["algorithmen", "test-und-komplexitaet", "randfaelle", "off-by-one-fehler-mit-randfaellen-finden"]
 taskId: "v107-informatik-off-by-one-fehler-mit-randfaellen-finden"
 relatedExercise: "informatik/algorithmen/test-und-komplexitaet/randfaelle/off-by-one-fehler-mit-randfaellen-finden"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "algorithmen"
-  - "off-by-one-prüfung"
-  - "test-und-komplexitaet"
+tags: ["informatik", "Algorithmen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Off-by-one-Prüfung**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

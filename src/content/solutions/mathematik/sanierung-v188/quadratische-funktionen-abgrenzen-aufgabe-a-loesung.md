@@ -3,22 +3,12 @@ title: "Lösung: Quadratische Funktionen abgrenzen: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-017a."
 subject: "mathematik"
 section: "funktionen-im-vergleich"
-topicPath:
-  - "funktionen-im-vergleich"
-  - "linear-und-quadratisch-trennen"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "quadratische-funktionen-abgrenzen-aufgabe-a"]
 taskId: "mat-v188-017a"
 relatedExercise: "mathematik/sanierung-v188/quadratische-funktionen-abgrenzen-aufgabe-a"
-tags:
-  - "funktionen"
-  - "quadratisch"
-  - "parabel"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "funktionen-im-vergleich", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-017a`
 
 Eine mögliche Lösung:

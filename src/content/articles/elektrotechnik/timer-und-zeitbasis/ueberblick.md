@@ -1,35 +1,19 @@
 ---
 title: "Timer und Zeitbasis"
 description: "Allgemeiner Überblick über Timer im Mikrocontroller und die Bedeutung einer verlässlichen Zeitbasis."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "timer-und-zeitbasis"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Timer als Hardware-Zähler einordnen."
-  - "Du kennst die Bedeutung von Takt, Prescaler und Überlauf."
-  - "Du verstehst, warum Timer für genaue Abläufe wichtig sind."
+topicPath: ["timer-und-zeitbasis", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Timer mit einer reinen Warteschleife zu verwechseln."
-  - "Den Prescaler zu ändern, ohne die Zeitwirkung neu zu berechnen."
-keyTakeaways:
-  - "Timer zählen Takte und erzeugen daraus Zeitpunkte oder periodische Ereignisse."
-  - "Eine stabile Zeitbasis ist Voraussetzung für sauberes Messen, Warten und Regeln."
-recognizeSignals:
-  - "Es geht um Millisekunden, Überlauf, PWM, periodische Interrupts oder Messzeiten."
-selfCheckPoints:
-  - "Kann ich erklären, aus welchen Größen eine Timerperiode entsteht?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "timer"
-  - "zeitbasis"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
-
 # Timer und Zeitbasis
 
 ![Schaubild zu Takt, Prescaler und Zeitbasis.](/schlaufuchs-platform/images/overviews/v148/timer-und-zeitbasis.svg)

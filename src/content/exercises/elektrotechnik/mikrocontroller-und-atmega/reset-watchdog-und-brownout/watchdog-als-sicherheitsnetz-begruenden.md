@@ -1,28 +1,17 @@
 ---
 title: "Watchdog als Sicherheitsnetz begründen"
 description: "Erkläre, wann ein Watchdog nützt und wann er Fehler verdeckt."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - mikrocontroller-und-atmega
-  - reset-watchdog-und-brownout
-taskId: ET-V181-012
-tags:
-  - elektrotechnik
-  - reset-watchdog-und-brownout
-  - sanierung-v181
-hintPoints:
-  - "Lies zuerst den Normalzustand und dann den Fehlerfall."
-  - "Trenne elektrische Ebene, logische Bedeutung und praktische Prüfung."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["mikrocontroller-und-atmega", "reset-watchdog-und-brownout", "watchdog-als-sicherheitsnetz-begruenden"]
+taskId: "ET-V181-012"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **Reset, Watchdog und Brown-out** ruhig und schrittweise.

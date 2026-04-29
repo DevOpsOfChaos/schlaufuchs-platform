@@ -3,34 +3,15 @@ title: "Aufgabe – Datenattribute als Brücke zwischen HTML und JavaScript"
 description: "Entwirf drei Filter-Buttons für Aufgaben: alle, offen, erledigt. Nutze data-Attribute und erkläre, warum das lesbarer ist als Styling-Klassen."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "zustand-und-ui"
-  - "datenattribute-als-bruecke-zwischen-html-und-javascript"
+topicPath: ["javascript", "zustand-und-ui", "datenattribute-als-bruecke-zwischen-html-und-javascript"]
 taskId: "web-js-v99-datenattribute-als-bruecke-zwischen-html-und-javascript"
-tags:
-  - "web development"
-  - "javascript"
-  - "data attribute"
-  - "html"
-  - "ui"
-  - "aufgabe"
-hintPoints:
-  - "Lies zuerst die vorhandene HTML- oder UI-Situation."
-  - "Trenne sichtbare Rückmeldung von interner Logik."
-  - "Begründe, warum dein Vorschlag für Nutzerinnen und Nutzer verständlich ist."
-selfCheckPoints:
-  - "Ist die Lösung auch bei fehlenden Daten oder Fehlern nachvollziehbar?"
-  - "Sind HTML, CSS und JavaScript sauber getrennt?"
-  - "Gibt es eine passende Rückmeldung?"
-transferIdeas:
-  - "Übertrage die Aufgabe auf eine Formular-, Such- oder Kartenoberfläche."
-  - "Vergleiche eine schnelle, aber fragile Lösung mit einer robusteren Lösung."
-reflectionPrompt: "Welche kleine Entscheidung verbessert hier nicht nur den Code, sondern auch die Nutzererfahrung?"
+tags: ["web-development", "JavaScript", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Entwirf drei Filter-Buttons für Aufgaben: alle, offen, erledigt. Nutze data-Attribute und erkläre, warum das lesbarer ist als Styling-Klassen.

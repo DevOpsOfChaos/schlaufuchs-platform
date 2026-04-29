@@ -3,22 +3,12 @@ title: "Lösung – Testfälle aus Randfällen ableiten"
 description: "Musterlösung zur Aufgabe über Testfälle mit Begründung und Gegenprobe."
 subject: "informatik"
 section: "Algorithmen"
-topicPath:
-  - "algorithmen"
-  - "test-und-komplexitaet"
-  - "testfaelle-aus-randfaellen-ableiten"
+topicPath: ["algorithmen", "test-und-komplexitaet", "testfaelle-aus-randfaellen-ableiten"]
 taskId: "v106-informatik-testfaelle-aus-randfaellen-ableiten"
 relatedExercise: "informatik/algorithmen/test-und-komplexitaet/testfaelle-aus-randfaellen-ableiten"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "daten"
-  - "algorithmen"
-  - "testfälle"
-  - "test-und-komplexitaet"
+tags: ["informatik", "Algorithmen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Beobachtung

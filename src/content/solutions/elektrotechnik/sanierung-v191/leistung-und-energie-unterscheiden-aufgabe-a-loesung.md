@@ -3,24 +3,12 @@ title: "Lösung: Leistung und Energie unterscheiden: Aufgabe A"
 description: "Musterlösung zur Aufgabe etech-v191-003a im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "grundgroessen"
-  - "leistung-und-energie-unterscheiden"
-  - "loesung-a"
+topicPath: ["sanierung-v191", "leistung-und-energie-unterscheiden-aufgabe-a"]
 taskId: "etech-v191-003a"
 relatedExercise: "elektrotechnik/sanierung-v191/leistung-und-energie-unterscheiden-aufgabe-a"
-tags:
-  - "grundgroessen"
-  - "leistung"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-003a`
 
 Ausgangsauftrag: Vergleiche zwei Verbraucher nach Leistung und täglichem Energiebedarf.

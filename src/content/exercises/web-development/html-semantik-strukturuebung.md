@@ -1,12 +1,17 @@
 ---
-title: HTML-Semantik – Strukturübung
-description: Übe, Seitenbereiche sinnvoll mit semantischen HTML-Elementen zu ordnen.
-subject: web-development
-section: html-semantik
-level: einfach
+title: "HTML-Semantik – Strukturübung"
+description: "Übe, Seitenbereiche sinnvoll mit semantischen HTML-Elementen zu ordnen."
+subject: "web-development"
+section: "html-semantik"
+topicPath: ["html-semantik-strukturuebung"]
+taskId: "AUTO-HTML-SEMANTIK-STRUKTURUEBUNG"
+tags: ["web-development", "html-semantik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Übung hilft dir, typische Seitenbereiche nicht nur zu benennen, sondern sinnvoll mit HTML zu strukturieren.
 
 ## Aufgabenideen

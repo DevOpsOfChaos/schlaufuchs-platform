@@ -1,32 +1,17 @@
 ---
 title: "ARIA-Live-Regionen"
 description: "Überblick über Live-Regionen für dynamische Statusmeldungen in barrierefreien Weboberflächen."
-subject: web-development
+subject: "web-development"
 section: "Barrierefreiheit"
-topicPath:
-  - "aria-live-regionen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst ARIA-Live-Regionen als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie polite, assertive, Statusmeldungen."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["aria-live-regionen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Jede dynamische Änderung laut ankündigen zu lassen."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "ARIA-Live-Regionen beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Dynamische Meldungen im Web."
-  - "Wichtige Hinweise liefern vor allem polite, assertive, Statusmeldungen."
-recognizeSignals:
-  - "Es geht um dynamische meldungen im web, polite oder assertive."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck ARIA-Live-Regionen erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "web-development"
-  - "barrierefreiheit"
-  - "aria"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Barrierefreiheit"]
 draft: false
 ---
 # ARIA-Live-Regionen

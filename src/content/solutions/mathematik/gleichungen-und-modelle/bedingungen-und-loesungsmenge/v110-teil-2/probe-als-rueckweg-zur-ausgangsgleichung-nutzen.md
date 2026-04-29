@@ -3,23 +3,12 @@ title: "Lösung – Probe als Rückweg zur Ausgangsgleichung nutzen"
 description: "Musterlösung zu Probe als Rückweg zur Ausgangsgleichung nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Algebra"
-topicPath:
-  - "gleichungen-und-modelle"
-  - "bedingungen-und-loesungsmenge"
-  - "v110-teil-2"
-  - "probe-als-rueckweg-zur-ausgangsgleichung-nutzen"
+topicPath: ["gleichungen-und-modelle", "bedingungen-und-loesungsmenge", "v110-teil-2", "probe-als-rueckweg-zur-ausgangsgleichung-nutzen"]
 taskId: "v110-mathematik-probe-als-rueckweg-zur-ausgangsgleichung-nutzen"
 relatedExercise: "mathematik/gleichungen-und-modelle/bedingungen-und-loesungsmenge/v110-teil-2/probe-als-rueckweg-zur-ausgangsgleichung-nutzen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfung"
-  - "gleichungen-und-modelle"
-  - "bedingungen-und-loesungsmenge"
-  - "probe-als-rueckweg-zur-ausgangsgleichung-nutzen"
+tags: ["mathematik", "Algebra", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Probe als Rückweg zur Ausgangsgleichung nutzen**.

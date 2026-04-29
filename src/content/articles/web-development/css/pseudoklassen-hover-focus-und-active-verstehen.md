@@ -1,45 +1,19 @@
 ---
-title: Pseudoklassen – Hover, Focus und Active verstehen
-description: Verstehe, wie Zustände von Links, Buttons und Formularfeldern mit Pseudoklassen sichtbar gemacht werden.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - selektoren
-  - pseudoklassen-hover-focus-und-active-verstehen
-learningGoals:
-  - Du erklärst, was Pseudoklassen wie hover, focus und active leisten.
-  - Du unterscheidest Maus-, Tastatur- und Klickzustand sauber.
-  - Du gestaltest Zustände eher als Rückmeldung als als bloßen Effekt.
-practiceIdeas:
-  - Vergleiche einen Link im Ruhezustand mit derselben Komponente bei focus oder active.
-  - Prüfe bei einer Schaltfläche, welche Zustandsrückmeldung für Maus und Tastatur sinnvoll ist.
-  - Erkläre, warum focus nicht einfach dasselbe wie hover ist.
-commonMistakes:
-  - hover als einzigen wichtigen Zustand zu behandeln.
-  - focus nur als optische Störung zu sehen und unsichtbar zu machen.
-  - active mit dauerhaft aktiv verwechselt.
-keyTakeaways:
-  - Pseudoklassen beschreiben Zustände, nicht neue HTML-Elemente.
-  - Hover, focus und active sind unterschiedliche Nutzungssituationen.
-  - Gute Zustände helfen bei Orientierung und Bedienbarkeit.
-recognizeSignals:
-  - Es geht um Buttons, Links, Eingabefelder oder sichtbare Reaktion auf Interaktion.
-  - Du sollst erklären, warum sich ein Element beim Überfahren, Fokussieren oder Klicken verändert.
-  - In Beispielen ist Rückmeldung wichtiger als Dekoration.
-selfCheckPoints:
-  - Kann ich hover, focus und active voneinander trennen?
-  - Kann ich erklären, warum focus besonders wichtig für Tastaturbedienung ist?
-  - Kann ich einen Zustandswechsel als Rückmeldung beschreiben?
-tags:
-  - css
-  - selektoren
-  - pseudoklassen
-  - fokus
-level: einfach
+title: "Pseudoklassen – Hover, Focus und Active verstehen"
+description: "Verstehe, wie Zustände von Links, Buttons und Formularfeldern mit Pseudoklassen sichtbar gemacht werden."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "pseudoklassen-hover-focus-und-active-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Mit Pseudoklassen reagiert CSS auf **Zustände** eines Elements. Ein Link bleibt derselbe Link, aber sein Aussehen kann sich ändern,

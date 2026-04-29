@@ -3,26 +3,12 @@ title: "Lösung: chmod und chown sicher anwenden: Aufgabe B"
 description: "Musterlösung zur Aufgabe linux-v192-004b im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "identitaet-und-rechte"
-  - "chmod-und-chown-sicher-anwenden"
-  - "loesung-b"
+topicPath: ["sanierung-v192", "chmod-und-chown-sicher-anwenden-loesung-b"]
 taskId: "linux-v192-004b"
 relatedExercise: "linux/sanierung-v192/chmod-und-chown-sicher-anwenden-aufgabe-b"
-tags:
-  - "identitaet-und-rechte"
-  - "chmod"
-  - "chown"
-  - "sicher"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-004b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „chmod und chown sicher anwenden“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

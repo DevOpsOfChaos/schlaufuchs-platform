@@ -1,29 +1,17 @@
 ---
 title: "Cron und systemd-Timer – anwenden und prüfen"
 description: "Übe, Cron und systemd-Timer an kleinen Praxissituationen zu prüfen."
-subject: linux
+subject: "linux"
 section: "automatisierung-und-skripte"
-topicPath:
-  - "automatisierung-und-skripte"
-  - "cron-und-systemd-timer"
-taskId: LINUX-CRON-UND-SYSTEMD-TIMER-V186-2
-tags:
-  - "linux"
-  - "cron"
-  - "timer"
-  - "aufgabe"
-hintPoints:
-  - "Beginne mit Begriff und Kontext."
-  - "Trenne Beobachtung, Prüfung und mögliche Änderung."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe erklären."
-  - "Ich kann einen typischen Fehler vermeiden."
-transferIdeas:
-  - "Formuliere eine ähnliche Prüfsituation aus deinem eigenen Linux-Alltag."
-level: mittel
+topicPath: ["automatisierung-und-skripte", "cron-und-systemd-timer", "cron-und-systemd-timer-anwenden-und-pruefen-v186"]
+taskId: "LINUX-CRON-UND-SYSTEMD-TIMER-V186-2"
+tags: ["linux", "automatisierung-und-skripte", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Lernziel
 
 Du sollst **Cron und systemd-Timer** nicht nur als Befehl oder Schlagwort sehen, sondern als geordnetes Linux-Thema mit Zweck, Kontext und typischen Prüfschritten.

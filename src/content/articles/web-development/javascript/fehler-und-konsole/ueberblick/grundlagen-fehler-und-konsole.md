@@ -1,36 +1,19 @@
 ---
 title: "Grundlagen: Fehler und Konsole in JavaScript"
 description: "Allgemeiner Überblick über Fehlermeldungen, Konsole, Stacktrace und systematische Fehlersuche im Browser."
-subject: web-development
+subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - javascript
-  - fehler-und-konsole
-  - grundlagen-fehler-und-konsole
-learningGoals:
-  - "Du erklärst die Browser-Konsole als Diagnosewerkzeug."
-  - "Du beschreibst Fehlermeldung, Dateiangabe und Stacktrace als Hinweise."
-  - "Du ordnest Debugging als systematisches Prüfen von Annahmen ein."
+topicPath: ["javascript", "fehler-und-konsole", "ueberblick", "grundlagen-fehler-und-konsole"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Fehlermeldungen zu ignorieren oder nur zu kopieren."
-  - "Die letzte Codezeile im Stacktrace automatisch für die Ursache zu halten."
-  - "console.log als einzige Debugging-Methode zu verwenden."
-keyTakeaways:
-  - "Die Konsole zeigt Fehler, Warnungen und eigene Ausgaben."
-  - "Ein Stacktrace beschreibt den Weg bis zur Fehlerstelle."
-  - "Gute Fehlersuche beginnt mit einer klaren Hypothese."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - "webentwicklung"
-  - "javascript"
-  - "debugging"
-  - "konsole"
+level: "einfach"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Begriff
 
 Die **Konsole** im Browser ist ein wichtiges Werkzeug zur Fehlersuche in JavaScript. Sie zeigt Fehlermeldungen, Warnungen, Netzwerkhinweise und eigene Ausgaben wie console.log. Für Webentwicklung ist sie eine zentrale Schnittstelle zwischen Code und Laufzeitverhalten.

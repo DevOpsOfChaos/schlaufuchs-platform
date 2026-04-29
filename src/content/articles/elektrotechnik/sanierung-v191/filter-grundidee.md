@@ -3,40 +3,17 @@ title: "Filter Grundidee"
 description: "Verstehe frequenzen gezielt abschwächen oder durchlassen als ruhigen Baustein für sichere und nachvollziehbare Elektrotechnik."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "wechselstrom"
-  - "filter-grundidee"
-learningGoals:
-  - "Frequenzen gezielt abschwächen oder durchlassen"
-  - "Mess- und Schaltungsentscheidungen begründen"
-  - "typische Fehlerbilder früh erkennen"
-practiceIdeas:
-  - "Ordne drei Alltagssignale einem Tiefpass- oder Hochpassgedanken zu."
-  - "Formuliere eine kurze Prüfcheckliste für einen zweiten ähnlichen Aufbau."
-commonMistakes:
-  - "Schaltplan, Aufbau und Messgerät werden nicht getrennt betrachtet."
-  - "Einheiten oder Messbereiche werden erst nach dem Rechnen geprüft."
-  - "Sicherheits- und Grenzwerte werden als Nachtrag behandelt."
-keyTakeaways:
-  - "Filter bewerten Signale nach Frequenzanteilen."
-  - "Ruhige Elektrotechnik trennt Größe, Bauteil, Messpunkt und Fehlerfall."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn ein Messwert, ein Bauteil oder ein Schaltungszustand sicher eingeordnet werden muss."
-selfCheckPoints:
-  - "Kann ich Messpunkt, Strompfad und Bauteilrolle unterscheiden?"
-  - "Ist mindestens ein Grenz- oder Fehlerfall benannt?"
-  - "Bleibt die Begründung mit Einheiten und Richtung verständlich?"
+topicPath: ["sanierung-v191", "filter-grundidee"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "wechselstrom"
-  - "filter"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Filter Grundidee](/schlaufuchs-platform/images/elektrotechnik/sanierung-v191/filter-grundidee.svg)
 
 Filter Grundidee gehört zur Elektrotechnik-Sanierung v191. Die Seite behandelt das Thema als praktische Entscheidung: Was zeigt der Schaltplan, was passiert im realen Aufbau, wo wird gemessen und welcher Fehlerfall muss vor dem Einschalten bedacht werden?

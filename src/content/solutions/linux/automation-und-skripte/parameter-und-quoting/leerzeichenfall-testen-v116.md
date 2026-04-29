@@ -3,22 +3,12 @@ title: "Lösung: Leerzeichenfall testen"
 description: "Musterlösung zur Aufgabe „Leerzeichenfall testen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "automation-und-skripte"
-  - "parameter-und-quoting"
-  - "leerzeichenfall-testen-v116"
+topicPath: ["automation-und-skripte", "parameter-und-quoting", "leerzeichenfall-testen-v116"]
 taskId: "leerzeichenfall-testen-v116"
 relatedExercise: "linux/automation-und-skripte/parameter-und-quoting/leerzeichenfall-testen-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "parameter und quoting"
-  - "leerzeichenfall testen"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

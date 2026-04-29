@@ -1,45 +1,19 @@
 ---
-title: Mikrocontroller und Mikroprozessor unterscheiden
-description: Verstehe, warum ein Mikrocontroller mehr als nur eine CPU ist und wie er sich von einem reinen Mikroprozessor als Systembaustein unterscheidet.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - mikrocontroller-und-mikroprozessor-unterscheiden
-learningGoals:
-  - Du erklärst den Unterschied zwischen Mikrocontroller und Mikroprozessor fachlich sauber.
-  - Du beschreibst Mikrocontroller eher als vollständiges eingebettetes System als nur als Recheneinheit.
-  - Du ordnest typische Einsatzfälle ruhiger über Systembedarf statt über Schlagworte ein.
-practiceIdeas:
-  - Vergleiche ein kleines eingebettetes Gerät mit einem System, das zusätzlich externen Speicher und viele Peripheriebausteine braucht.
-  - Ordne CPU, RAM, Flash und Peripherie einmal als "alles im Chip" und einmal als getrennte Systembausteine.
-  - Begründe bei einem Beispiel, warum ein Mikrocontroller oder ein Mikroprozessor die ruhigere Wahl wäre.
-commonMistakes:
-  - Mikrocontroller und Mikroprozessor als dasselbe zu behandeln.
-  - Nur auf die CPU zu schauen und Speicher oder Peripherie nicht mitzudenken.
-  - Kleine eingebettete Aufgaben automatisch als "vereinfachter PC" zu lesen.
-keyTakeaways:
-  - Ein Mikrocontroller vereint CPU, Speicher und typische Peripherie oft in einem Chip.
-  - Ein Mikroprozessor ist stärker als Recheneinheit zu lesen und braucht meist mehr äußere Systembausteine.
-  - Die ruhigere Unterscheidung lautet nicht "stark oder schwach", sondern "wie viel System steckt schon im Baustein?"
-recognizeSignals:
-  - Es geht um eingebettete Systeme, Controllerboards, SoCs oder den Aufbau kleiner technischer Geräte.
-  - Du sollst erklären, warum ein Baustein allein schon viel Systemlogik mitbringt oder warum zusätzliche Chips nötig werden.
-  - In Aufgaben ist die Systemarchitektur wichtiger als bloß die Taktfrequenz.
-selfCheckPoints:
-  - Kann ich CPU, Speicher und Peripherie als Systemrollen trennen?
-  - Kann ich erklären, warum ein Mikrocontroller oft ohne viele Zusatzchips auskommt?
-  - Kann ich begründen, wann ein Mikroprozessor die passendere Systemidee ist?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - mikroprozessor
-  - embedded
-level: einfach
+title: "Mikrocontroller und Mikroprozessor unterscheiden"
+description: "Verstehe, warum ein Mikrocontroller mehr als nur eine CPU ist und wie er sich von einem reinen Mikroprozessor als Systembaustein unterscheidet."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "mikrocontroller-und-mikroprozessor-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "mikrocontroller"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Mikrocontroller ist **mehr als nur eine CPU**. Er bringt oft schon Speicher, Timer, digitale Ein- und Ausgänge sowie serielle Schnittstellen mit. Ein Mikroprozessor ist dagegen stärker als **reine Recheneinheit** zu lesen und arbeitet typischerweise mit mehr externen Bausteinen zusammen.

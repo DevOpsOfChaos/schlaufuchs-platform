@@ -1,36 +1,19 @@
 ---
 title: "Eventual Consistency"
 description: "Eventual Consistency bedeutet, dass verteilte Daten nicht jederzeit überall gleich sind, aber ohne neue Änderungen schließlich konsistent werden sollen."
-subject: informatik
+subject: "informatik"
 section: "Verteilte Systeme"
-topicPath:
-  - "eventual-consistency"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Eventual Consistency als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["eventual-consistency", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft werden Verzögerungen nicht erklärt, wodurch Nutzer dieselbe Aktion mehrfach auslösen."
-keyTakeaways:
-  - "Eventual Consistency bedeutet, dass verteilte Daten nicht jederzeit überall gleich sind, aber ohne neue Änderungen schließlich konsistent werden sollen."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Eventual Consistency, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Eventual Consistency in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "konsistenz"
-  - "daten"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Verteilte Systeme"]
 draft: false
 ---
-
 # Eventual Consistency
 
 Eventual Consistency bedeutet, dass verteilte Daten nicht jederzeit überall gleich sind, aber

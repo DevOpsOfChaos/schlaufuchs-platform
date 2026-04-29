@@ -1,35 +1,17 @@
 ---
-title: Aufgabe – MOSFET-Gate-Pegel prüfen
-description: Übe MOSFET-Gate-Pegel prüfen mit einem kleinen, prüfbaren Szenario.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- signale-und-schaltungen
-- transistoren-und-lasten
-- mosfet-gate-pegel-pruefen-v114
-taskId: v114-elektrotechnik-mosfet-gate-pegel-pruefen-v114
-tags:
-- elektrotechnik
-- v114
-- aufgabe
-- signale-und-schaltungen
-- transistoren-und-lasten
-hintPoints:
-- Beginne mit der konkreten Situation, nicht mit einer allgemeinen Definition.
-- 'Nutze die Prüffrage: Ist der Durchlasswiderstand bei diesem Gate-Pegel angegeben?'
-- Formuliere am Ende eine Gegenprobe.
-selfCheckPoints:
-- Habe ich die Trennkante klar benannt?
-- Habe ich das Nachbarthema bewusst ausgeschlossen?
-- Ist meine Begründung an das Beispiel gekoppelt?
-transferIdeas:
-- Ändere eine Bedingung im Szenario und prüfe, ob die Entscheidung gleich bleibt.
-- Erkläre die Lösung einmal ohne Fachsprache und danach fachlich sauber.
-reflectionPrompt: Welche kleine Prüffrage hat dir am meisten geholfen?
-level: mittel
+title: "Aufgabe – MOSFET-Gate-Pegel prüfen"
+description: "Übe MOSFET-Gate-Pegel prüfen mit einem kleinen, prüfbaren Szenario."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["signale-und-schaltungen", "transistoren-und-lasten", "mosfet-gate-pegel-pruefen-v114"]
+taskId: "v114-elektrotechnik-mosfet-gate-pegel-pruefen-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **MOSFET-Gate-Pegel prüfen**.

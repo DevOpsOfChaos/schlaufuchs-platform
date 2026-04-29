@@ -1,46 +1,19 @@
 ---
 title: "Informatik – Gültigkeitsbereich von Variablen beachten"
 description: "Trainiere Gültigkeitsbereich von Variablen beachten als kleines Unterthema mit klarer Trennkante, Beispiel und Gegenprobe."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "programmierpraxis-v115"
-  - "variablen-und-zustaende"
-  - "gueltigkeitsbereich-von-variablen-beachten-v115"
-learningGoals:
-  - "Du erklärst Gültigkeitsbereich von Variablen beachten an einem kleinen, abgegrenzten Fall."
-  - "Du trennst das Unterthema von einem naheliegenden Nachbarthema."
-  - "Du formulierst eine passende Gegenprobe statt nur eine fertige Antwort."
-practiceIdeas:
-  - "Schreibe zuerst die Prüffrage in eigenen Worten auf."
-  - "Markiere im Fall zwei Hinweise, die wirklich zur Entscheidung gehören."
-  - "Formuliere einen Gegenfall, in dem die Entscheidung anders ausfallen würde."
-commonMistakes:
-  - "Sie wird außerhalb des Blocks weiter erwartet."
-  - "Das Thema wird zu breit eingeordnet und verliert dadurch die prüfbare Trennkante."
-  - "Die Lösung nennt ein Ergebnis, begründet aber nicht die Abgrenzung."
-keyTakeaways:
-  - "Dieses Unterthema prüft vor allem: In welchem Bereich existiert die Variable?"
-  - "Eine gute Lösung benennt die Trennkante ausdrücklich."
-  - "Die Gegenprobe zeigt, ob die Begründung wirklich trägt."
-recognizeSignals:
-  - "Die Aufgabe fragt nach Gültigkeitsbereich von Variablen beachten."
-  - "Ähnliche Begriffe oder Fälle liegen nah beieinander."
-  - "Eine kleine Änderung im Fall würde zu einer anderen Entscheidung führen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-level: mittel
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "programmierpraxis"
-  - "variablen und zustände"
+topicPath: ["programmierpraxis-v115", "variablen-und-zustaende", "gueltigkeitsbereich-von-variablen-beachten-v115"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Feinstruktur Informatik"]
 draft: false
 ---
-
 <img src="/schlaufuchs-platform/illustrations/informatik-gueltigkeitsbereich-von-variablen-beachten-v115.svg" alt="Lernillustration zu Gültigkeitsbereich von Variablen beachten" loading="lazy" />
 
 ## Grundidee

@@ -1,46 +1,19 @@
 ---
-title: Computer und CPU – Grundlagen
-description: Verstehe den Aufbau einfacher Computersysteme und die Rolle der CPU.
-subject: elektrotechnik
-section: Daten und Signale
-topicPath:
-- daten-und-signale
-- computer-und-cpu
-tags:
-- cpu
-- computer
-- speicher
-- eingabe
-- ausgabe
-learningGoals:
-- Du ordnest CPU, Speicher und Ein- und Ausgabe fachlich auseinander.
-- Du beschreibst einfache Datenverarbeitung als technischen Ablauf.
-- Du verstehst, warum ein Computersystem aus mehreren Baugruppen besteht.
-practiceIdeas:
-- Ordne CPU, Speicher und Ein- und Ausgabe in einer kleinen Skizze ihren Aufgaben zu.
-- Beschreibe einen einfachen Ablauf vom Eingangssignal bis zur Ausgabe.
-- Vergleiche zwei Geräte danach, welche Rolle die CPU jeweils spielt.
-commonMistakes:
-- Die CPU mit dem ganzen Computer zu verwechseln.
-- Speicher und Verarbeitung als dieselbe Aufgabe zu sehen.
-- Ein- und Ausgabe ohne Bezug zur Verarbeitung zu betrachten.
-keyTakeaways:
-- Die CPU verarbeitet Befehle und steuert Abläufe.
-- Speicher, Ein- und Ausgabe gehören immer zum Gesamtsystem.
-- Erst das Zusammenspiel der Baugruppen macht einen Computer nutzbar.
-level: einfach
+title: "Computer und CPU – Grundlagen"
+description: "Verstehe den Aufbau einfacher Computersysteme und die Rolle der CPU."
+subject: "elektrotechnik"
+section: "Daten und Signale"
+topicPath: ["daten-und-signale", "computer-und-cpu-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Daten und Signale"]
 draft: false
-recognizeSignals:
-- Die Aufgabe oder Erklärung nennt Computer und CPU – Grundlagen direkt oder greift eng benachbarte Begriffe aus Daten und Signale auf.
-- Du sollst nicht nur einen Begriff nennen, sondern einen Zusammenhang, Ablauf oder eine Struktur sauber erklären.
-- In Beispielen musst du Werte, Schritte oder Bauteile geordnet lesen und richtig einordnen.
-selfCheckPoints:
-- Kann ich ordnest CPU, Speicher und Ein- und Ausgabe fachlich auseinander?
-- Kann ich beschreibst einfache Datenverarbeitung als technischen Ablauf?
-- Kann ich verstehst, warum ein Computersystem aus mehreren Baugruppen besteht?
 ---
-
-
 <div class="learning-card">
   <p class="card-kicker">Einstieg</p>
   <h3>Was du hier lernst</h3>

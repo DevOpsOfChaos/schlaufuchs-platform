@@ -1,17 +1,19 @@
 ---
-title: Lineare Funktionen verstehen
-description: Lineare Funktionen beschreiben gleichmäßige Veränderungen und gehören zu den wichtigsten Grundideen beim Arbeiten mit Funktionen.
-subject: mathematik
-section: Funktionen
-level: mittel
-tags:
-  - Lineare Funktionen
-  - Steigung
-  - y-Achsenabschnitt
-  - Funktionen
+title: "Lineare Funktionen verstehen"
+description: "Lineare Funktionen beschreiben gleichmäßige Veränderungen und gehören zu den wichtigsten Grundideen beim Arbeiten mit Funktionen."
+subject: "mathematik"
+section: "Funktionen"
+topicPath: ["funktionen", "lineare-funktionen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
-
 ## Überblick
 
 Lineare Funktionen sind einer der wichtigsten Funktionstypen der Schulmathematik. Sie beschreiben Situationen, in denen sich eine Größe immer um denselben Betrag verändert. Solche Zusammenhänge tauchen in Tabellen, Graphen, Sachaufgaben und technischen Modellen auf.

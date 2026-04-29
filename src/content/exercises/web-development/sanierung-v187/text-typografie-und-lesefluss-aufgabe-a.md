@@ -3,35 +3,15 @@ title: "Text, Typografie und Lesefluss: Grundordnung"
 description: "Gliedere einen langen Fließtext in Überschriften, Absätze und Listen für eine Lernseite."
 subject: "web-development"
 section: "html-css"
-topicPath: 
-  - "html-und-semantik"
-  - "text-und-lesefluss"
-  - "aufgabe-a"
+topicPath: ["sanierung-v187", "text-typografie-und-lesefluss-aufgabe-a"]
 taskId: "web-v187-004a"
-tags: 
-  - "text"
-  - "typografie"
-  - "lesbarkeit"
-  - "css"
-  - "web-development"
-  - "aufgabe"
-  - "v187"
-hintPoints: 
-  - "Trenne Zweck, Struktur und sichtbare Wirkung."
-  - "Begründe mindestens eine Entscheidung mit dem Nutzerziel."
-  - "Prüfe einen typischen Fehlerfall aus der Erklärseite."
-selfCheckPoints: 
-  - "Die Lösung passt zur Aufgabenstellung."
-  - "Mindestens eine Entscheidung ist begründet."
-  - "Es gibt keine neue Aufgabe ohne passende Lösung."
-transferIdeas: 
-  - "Übertrage die Entscheidung auf eine zweite kleine Seite."
-  - "Formuliere eine kurze Checkliste für spätere Wiederholung."
-reflectionPrompt: "Welche Entscheidung war am wichtigsten, damit die Lösung ruhig und wartbar bleibt?"
+tags: ["web-development", "html-css", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Gliedere einen langen Fließtext in Überschriften, Absätze und Listen für eine Lernseite.

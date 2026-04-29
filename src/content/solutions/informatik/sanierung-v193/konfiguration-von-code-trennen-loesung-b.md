@@ -3,24 +3,12 @@ title: "Lösung: Konfiguration von Code trennen: Aufgabe B"
 description: "Musterlösung zur Aufgabe informatik-v193-024b im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "projektstruktur-und-codepflege"
-  - "konfiguration-von-code-trennen"
-  - "loesung-b"
+topicPath: ["sanierung-v193", "konfiguration-von-code-trennen-loesung-b"]
 taskId: "informatik-v193-024b"
 relatedExercise: "informatik/sanierung-v193/konfiguration-von-code-trennen-aufgabe-b"
-tags:
-  - "konfiguration"
-  - "code"
-  - "trennen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-024b`
 
 Ausgangsauftrag: Übertrage das Thema Konfiguration von Code trennen auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

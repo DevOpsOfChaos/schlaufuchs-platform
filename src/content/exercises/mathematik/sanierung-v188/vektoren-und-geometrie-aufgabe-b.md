@@ -3,33 +3,15 @@ title: "Vektoren und Geometrie: Prüfen und Begründen"
 description: "Bewerte eine Aussage zu Vektoren und Geometrie und formuliere eine bessere Arbeitsregel."
 subject: "mathematik"
 section: "daten-und-geometrie"
-topicPath:
-  - "daten-und-geometrie"
-  - "vektoren-und-geometrie"
-  - "aufgabe-b"
+topicPath: ["sanierung-v188", "vektoren-und-geometrie-aufgabe-b"]
 taskId: "mat-v188-068b"
-tags:
-  - "vektoren"
-  - "geometrie"
-  - "lage"
-  - "mathematik"
-  - "aufgabe"
-  - "v188"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["mathematik", "daten-und-geometrie", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Prüfe die folgende Aussage zum Thema **Vektoren und Geometrie**:

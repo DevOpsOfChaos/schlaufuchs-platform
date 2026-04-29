@@ -3,22 +3,12 @@ title: "Lösung: Mittelwertfenster begründen"
 description: "Musterlösung zur Aufgabe „Mittelwertfenster begründen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "sensorik-und-signalaufbereitung"
-  - "rauschen-und-mittelwert"
-  - "mittelwertfenster-begruenden-v116"
+topicPath: ["sensorik-und-signalaufbereitung", "rauschen-und-mittelwert", "mittelwertfenster-begruenden-v116"]
 taskId: "mittelwertfenster-begruenden-v116"
 relatedExercise: "elektrotechnik/sensorik-und-signalaufbereitung/rauschen-und-mittelwert/mittelwertfenster-begruenden-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "rauschen und mittelwert"
-  - "mittelwertfenster begruenden"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

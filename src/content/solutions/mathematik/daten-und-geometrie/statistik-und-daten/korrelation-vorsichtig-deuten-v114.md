@@ -1,23 +1,14 @@
 ---
-title: Lösung – Korrelation vorsichtig deuten
-description: Musterlösung zur Aufgabe über Korrelation vorsichtig deuten.
-subject: mathematik
-section: Feinstruktur Mathematik
-topicPath:
-- daten-und-geometrie
-- statistik-und-daten
-- korrelation-vorsichtig-deuten-v114
-taskId: v114-mathematik-korrelation-vorsichtig-deuten-v114
-relatedExercise: mathematik/daten-und-geometrie/statistik-und-daten/korrelation-vorsichtig-deuten-v114
-tags:
-- mathematik
-- v114
-- loesung
-- daten-und-geometrie
-- statistik-und-daten
+title: "Lösung – Korrelation vorsichtig deuten"
+description: "Musterlösung zur Aufgabe über Korrelation vorsichtig deuten."
+subject: "mathematik"
+section: "Feinstruktur Mathematik"
+topicPath: ["daten-und-geometrie", "statistik-und-daten", "korrelation-vorsichtig-deuten-v114"]
+taskId: "v114-mathematik-korrelation-vorsichtig-deuten-v114"
+relatedExercise: "mathematik/daten-und-geometrie/statistik-und-daten/korrelation-vorsichtig-deuten-v114"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

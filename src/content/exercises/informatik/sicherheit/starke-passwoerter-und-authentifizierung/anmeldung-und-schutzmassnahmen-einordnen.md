@@ -1,31 +1,17 @@
 ---
-title: Anmeldung und Schutzmaßnahmen einordnen
-description: Ordne bei Login-Beispielen ein, welche Schutzidee genutzt wird und wo typische Schwächen liegen.
-subject: informatik
-section: Sicherheit
-topicPath:
-  - sicherheit
-  - starke-passwoerter-und-authentifizierung
-  - anmeldung-und-schutzmassnahmen-einordnen
-taskId: INF-SICHERHEIT-AUTH-001
-level: einfach
+title: "Anmeldung und Schutzmaßnahmen einordnen"
+description: "Ordne bei Login-Beispielen ein, welche Schutzidee genutzt wird und wo typische Schwächen liegen."
+subject: "informatik"
+section: "Sicherheit"
+topicPath: ["sicherheit", "starke-passwoerter-und-authentifizierung", "anmeldung-und-schutzmassnahmen-einordnen"]
+taskId: "INF-SICHERHEIT-AUTH-001"
+tags: ["informatik", "Sicherheit", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - sicherheit
-  - passwort
-  - login
-hintPoints:
-  - "Trenne zuerst Passwort, Authentifizierung und zusätzlichen Faktor."
-  - "Frage danach, was bei Wiederverwendung oder Bekanntwerden des Passworts passieren würde."
-selfCheckPoints:
-  - "Hast du die Schutzmaßnahmen sauber benannt?"
-  - "Kannst du begründen, warum ein Beispiel stärker oder schwächer geschützt ist?"
-transferIdeas:
-  - "Übertrage die Aufgabe auf E-Mail, Online-Shop oder Messenger."
-  - "Vergleiche zwei Login-Beispiele mit und ohne zweiten Faktor."
-reflectionPrompt: "Warum ist Sicherheit mehr als nur 'ein gutes Passwort wählen'?"
 ---
-
 ## Aufgabe 1: Beispiele vergleichen
 
 Vergleiche diese beiden Konten:

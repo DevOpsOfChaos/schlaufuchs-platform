@@ -1,24 +1,14 @@
 ---
 title: "Lösung: xargs vorsichtig einsetzen"
 description: "Musterlösung zu xargs vorsichtig einsetzen mit Trennkante und Gegenprobe."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell-praxis-v115"
-  - "pipes-und-textfilter"
-  - "xargs-vorsichtig-einsetzen-v115"
+topicPath: ["shell-praxis-v115", "pipes-und-textfilter", "xargs-vorsichtig-einsetzen-v115"]
 taskId: "linux-xargs-vorsichtig-einsetzen-v115"
 relatedExercise: "linux/shell-praxis-v115/pipes-und-textfilter/xargs-vorsichtig-einsetzen-v115"
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "shell-praxis"
-  - "pipes und textfilter"
-  - "lösung"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **xargs vorsichtig einsetzen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

@@ -3,23 +3,12 @@ title: "Lösung – Gleichungen mit Parameter schrittweise lesen"
 description: "Musterlösung zur Aufgabe über Parameter mit Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Algebra"
-topicPath:
-  - "algebra"
-  - "gleichungen-strategisch-loesen"
-  - "gleichungen-mit-parameter-schrittweise-lesen"
+topicPath: ["algebra", "gleichungen-strategisch-loesen", "gleichungen-mit-parameter-schrittweise-lesen"]
 taskId: "v106-mathematik-gleichungen-mit-parameter-schrittweise-lesen"
 relatedExercise: "mathematik/algebra/gleichungen-strategisch-loesen/gleichungen-mit-parameter-schrittweise-lesen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "daten"
-  - "funktionen"
-  - "parameter"
-  - "algebra"
-  - "gleichungen-strategisch-loesen"
+tags: ["mathematik", "Algebra", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Beobachtung

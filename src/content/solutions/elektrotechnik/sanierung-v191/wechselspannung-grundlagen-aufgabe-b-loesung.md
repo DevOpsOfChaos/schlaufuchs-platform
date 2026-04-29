@@ -3,24 +3,12 @@ title: "Lösung: Wechselspannung Grundlagen: Aufgabe B"
 description: "Musterlösung zur Aufgabe etech-v191-023b im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "wechselstrom"
-  - "wechselspannung-grundlagen"
-  - "loesung-b"
+topicPath: ["sanierung-v191", "wechselspannung-grundlagen-aufgabe-b"]
 taskId: "etech-v191-023b"
 relatedExercise: "elektrotechnik/sanierung-v191/wechselspannung-grundlagen-aufgabe-b"
-tags:
-  - "wechselstrom"
-  - "wechselspannung"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-023b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Wechselspannung Grundlagen“ um einen Messfehler, einen Sicherheitscheck und eine kurze Plausibilitätsprüfung.

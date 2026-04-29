@@ -1,17 +1,19 @@
 ---
-title: Verhältnisse und Proportionen verstehen
-description: Verhältnisse und Proportionen helfen dabei, Größen miteinander zu vergleichen und gleichbleibende Beziehungen sicher zu erkennen.
-subject: mathematik
-section: Grundlagen
-level: mittel
-tags:
-  - Verhältnis
-  - Proportion
-  - Zuordnung
-  - Grundlagen
+title: "Verhältnisse und Proportionen verstehen"
+description: "Verhältnisse und Proportionen helfen dabei, Größen miteinander zu vergleichen und gleichbleibende Beziehungen sicher zu erkennen."
+subject: "mathematik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "verhaeltnisse", "verhaeltnisse-und-proportionen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["mathematik", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 Viele mathematische und technische Situationen drehen sich nicht nur um einzelne Zahlen, sondern um Beziehungen zwischen Größen. Genau hier kommen Verhältnisse und Proportionen ins Spiel. Sie helfen dabei, Größen zu vergleichen, Maßstäbe zu verstehen und Zusammenhänge sauber zu beschreiben.

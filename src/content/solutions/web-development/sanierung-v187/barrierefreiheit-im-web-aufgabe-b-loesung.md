@@ -3,23 +3,12 @@ title: "Lösung: Barrierefreiheit im Web: Prüfung und Verbesserung"
 description: "Musterlösung zur Aufgabe web-v187-017b im Web-Development-Block v187."
 subject: "web-development"
 section: "qualitaet"
-topicPath: 
-  - "qualitaet-und-zugaenglichkeit"
-  - "barrierefreiheit"
-  - "loesung-b"
+topicPath: ["sanierung-v187", "barrierefreiheit-im-web-aufgabe-b"]
 taskId: "web-v187-017b"
 relatedExercise: "web-development/sanierung-v187/barrierefreiheit-im-web-aufgabe-b"
-tags: 
-  - "barrierefreiheit"
-  - "accessibility"
-  - "html"
-  - "css"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "qualitaet", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-017b`
 
     Ausgangsauftrag: Erstelle eine kurze Accessibility-Checkliste für eine neue Inhaltsseite.

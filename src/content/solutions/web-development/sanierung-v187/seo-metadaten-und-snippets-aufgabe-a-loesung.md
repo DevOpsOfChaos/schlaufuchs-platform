@@ -3,23 +3,12 @@ title: "Lösung: SEO, Metadaten und Snippets: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-027a im Web-Development-Block v187."
 subject: "web-development"
 section: "qualitaet"
-topicPath: 
-  - "qualitaet-und-zugaenglichkeit"
-  - "metadaten"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "seo-metadaten-und-snippets-aufgabe-a"]
 taskId: "web-v187-027a"
 relatedExercise: "web-development/sanierung-v187/seo-metadaten-und-snippets-aufgabe-a"
-tags: 
-  - "seo"
-  - "metadaten"
-  - "html"
-  - "suchmaschinen"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "qualitaet", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-027a`
 
     Ausgangsauftrag: Schreibe Title und Description für drei verschiedene Unterseiten einer Lernwebsite.

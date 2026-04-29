@@ -1,45 +1,19 @@
 ---
-title: Justify-Content und Align-Items vergleichen
-description: Verstehe den sichtbaren Unterschied zwischen Verteilung auf der Hauptachse und Ausrichtung auf der Querachse.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - flexbox
-  - justify-content-und-align-items-vergleichen
-learningGoals:
-  - Du unterscheidest <code>justify-content</code> und <code>align-items</code> sicher.
-  - Du beschreibst Änderungen über Achsen statt über bloße Eigenschaftsnamen.
-  - Du erklärst sichtbare Layoutunterschiede an kleinen Flexbox-Beispielen.
-practiceIdeas:
-  - Vergleiche zwei Flex-Layouts mit gleichem HTML, aber unterschiedlichem Containerwert.
-  - Prüfe bei einer Leiste zuerst Hauptachse und Querachse.
-  - Beschreibe sichtbar, was sich verändert und was gleich bleibt.
-commonMistakes:
-  - Beide Eigenschaften für dieselbe Richtung zu halten.
-  - Nur Eigenschaftsnamen auswendig zu lernen, ohne sichtbaren Effekt zu verstehen.
-  - Die Achsrichtung nicht mitzudenken.
-keyTakeaways:
-  - <code>justify-content</code> arbeitet auf der Hauptachse.
-  - <code>align-items</code> arbeitet auf der Querachse.
-  - Dieselben Elemente können ganz anders wirken, obwohl nur der Containerwert geändert wird.
-recognizeSignals:
-  - Es geht um Flexbox, Ausrichtung, Verteilung oder unterschiedliche Positionen im selben Container.
-  - Du sollst CSS-Effekte sichtbar beschreiben statt nur Begriffe wiederholen.
-  - In Aufgaben wird nach dem Unterschied zwischen zwei fast gleichen Layouts gefragt.
-selfCheckPoints:
-  - Kann ich beide Eigenschaften einer Achse zuordnen?
-  - Kann ich die sichtbare Änderung benennen?
-  - Kann ich erklären, warum dieselben Elemente unterschiedlich wirken?
-tags:
-  - css
-  - flexbox
-  - justify-content
-  - align-items
-level: einfach
+title: "Justify-Content und Align-Items vergleichen"
+description: "Verstehe den sichtbaren Unterschied zwischen Verteilung auf der Hauptachse und Ausrichtung auf der Querachse."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "justify-content-und-align-items-vergleichen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei Flexbox wirken <code>justify-content</code> und <code>align-items</code> oft ähnlich, weil beide „irgendetwas mit Ausrichtung“ machen. Der entscheidende Unterschied liegt aber in der **Achse**, auf der sie arbeiten.

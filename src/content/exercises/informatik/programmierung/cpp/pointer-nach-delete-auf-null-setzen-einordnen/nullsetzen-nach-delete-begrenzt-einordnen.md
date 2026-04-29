@@ -1,35 +1,17 @@
 ---
-title: Nullsetzen nach delete begrenzt einordnen
-description: Erkläre, was das Setzen auf nullptr nach delete hilft und warum es Alias-Pointer nicht automatisch sicher macht.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - dynamischer-speicher
-  - pointer-nach-delete-auf-null-setzen-einordnen
-  - nullsetzen-nach-delete-begrenzt-einordnen
-taskId: INF-PROG-CPP-MEM-006
-level: mittel
+title: "Nullsetzen nach delete begrenzt einordnen"
+description: "Erkläre, was das Setzen auf nullptr nach delete hilft und warum es Alias-Pointer nicht automatisch sicher macht."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "pointer-nach-delete-auf-null-setzen-einordnen", "nullsetzen-nach-delete-begrenzt-einordnen"]
+taskId: "INF-PROG-CPP-MEM-006"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - aufgabe
-hintPoints:
-  - "Achte darauf, welche konkrete Variable wirklich geändert wird."
-  - "Prüfe bei mehreren Pointern, ob andere Alias-Pointer unberührt bleiben."
-  - "Beschreibe Nutzen und Grenze des Musters getrennt."
-selfCheckPoints:
-  - "Habe ich Nutzen und Grenze des Musters beide genannt?"
-  - "Habe ich erklärt, warum nur ein bestimmter Pointer sicherer wird?"
-  - "Habe ich das Nullsetzen nicht als Komplettlösung dargestellt?"
-transferIdeas:
-  - "Übertrage die Überlegung auf Beispiele mit zwei oder mehr Pointern auf dieselbe Adresse."
-reflectionPrompt: "Warum klingt das Nullsetzen auf den ersten Blick nach einer Komplettlösung, ist aber nur eine lokale Schutzmaßnahme?"
 ---
-
 ## Aufgabe 1: Lokalen Nutzen beschreiben
 
 Warum wird in einfachen Lehrbeispielen nach <code>delete p;</code> oft noch <code>p = nullptr;</code> geschrieben?

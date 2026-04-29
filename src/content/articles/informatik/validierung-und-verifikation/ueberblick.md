@@ -1,36 +1,19 @@
 ---
 title: "Validierung und Verifikation"
 description: "Validierung fragt, ob das richtige Problem gelöst wird. Verifikation fragt, ob die Lösung korrekt gemäß Vorgabe umgesetzt wurde."
-subject: informatik
+subject: "informatik"
 section: "Qualität"
-topicPath:
-  - "validierung-und-verifikation"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Validierung und Verifikation als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["validierung-und-verifikation", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird ein grüner Testlauf mit echter Problemlösung verwechselt."
-keyTakeaways:
-  - "Validierung fragt, ob das richtige Problem gelöst wird."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Validierung und Verifikation, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Validierung und Verifikation in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "qualitaet"
-  - "tests"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Qualität"]
 draft: false
 ---
-
 # Validierung und Verifikation
 
 Validierung fragt, ob das richtige Problem gelöst wird. Verifikation fragt, ob die Lösung

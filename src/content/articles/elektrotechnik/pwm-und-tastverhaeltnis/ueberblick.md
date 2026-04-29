@@ -1,35 +1,19 @@
 ---
 title: "PWM und Tastverhältnis"
 description: "Allgemeiner Überblick über Pulsweitenmodulation, Tastverhältnis und scheinbar analoge Wirkung digitaler Signale."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "pwm-und-tastverhaeltnis"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst PWM als schnelles Umschalten zwischen High und Low."
-  - "Du kannst das Tastverhältnis als Anteil der Einschaltzeit einordnen."
-  - "Du verstehst typische Anwendungen und Grenzen von PWM."
+topicPath: ["pwm-und-tastverhaeltnis", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "PWM mit einer echten analogen Ausgangsspannung gleichzusetzen."
-  - "Frequenz und Tastverhältnis zu verwechseln."
-keyTakeaways:
-  - "PWM erzeugt eine steuerbare mittlere Wirkung durch schnelles Schalten."
-  - "Tastverhältnis und Frequenz bestimmen, wie das Signal wirkt und wahrgenommen wird."
-recognizeSignals:
-  - "Es geht um LED-Helligkeit, Motorleistung, Servos, Duty Cycle oder periodische Rechtecksignale."
-selfCheckPoints:
-  - "Kann ich erklären, was sich bei 25 %, 50 % und 75 % Tastverhältnis ändert?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "pwm"
-  - "tastverhältnis"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
-
 # PWM und Tastverhältnis
 
 ![Schaubild zu PWM, Pulsbreite und mittlerer Wirkung.](/schlaufuchs-platform/images/overviews/v148/pwm-und-tastverhaeltnis.svg)

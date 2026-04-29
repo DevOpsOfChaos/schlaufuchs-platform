@@ -1,46 +1,19 @@
 ---
-title: Button-Typen button, submit und reset unterscheiden
-description: Verstehe, warum Buttons in Formularen nicht alle dieselbe Wirkung haben und wie ihr Typ das Verhalten bestimmt.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - formulare-und-eingaben
-  - button-typen-button-submit-und-reset-unterscheiden
-learningGoals:
-  - Du unterscheidest die Rollen von button, submit und reset.
-  - Du erklärst, welche sichtbare oder funktionale Wirkung diese Typen im Formular haben.
-  - Du begründest Button-Typen eher über Absicht als über Aussehen.
-practiceIdeas:
-  - Vergleiche Buttons für Absenden, Leeren und Zusatzaktionen.
-  - Prüfe bei einem Formular, welcher Button wirklich Daten senden soll.
-  - Lies Buttons eher als Handlungstypen als als bloße Designflächen.
-commonMistakes:
-  - jeden Button im Formular wie einen Submit-Button zu behandeln.
-  - Reset zu benutzen, obwohl die Aktion Nutzende leicht aus dem Fluss bringt.
-  - Button-Typ und sichtbare Beschriftung nicht zusammenzudenken.
-keyTakeaways:
-  - submit sendet ein Formular ab.
-  - reset setzt Formularwerte zurück.
-  - button ist für andere Aktionen sinnvoll, wenn gerade nicht abgeschickt werden soll.
-recognizeSignals:
-  - Es geht um Formulare mit mehreren Buttons.
-  - Du sollst erklären, warum eine Aktion absendet, leert oder nur etwas anzeigt.
-  - In Beispielen zählt die Handlung eines Buttons stärker als seine Farbe.
-selfCheckPoints:
-  - Kann ich button, submit und reset fachlich trennen?
-  - Kann ich erklären, warum nicht jeder Button absenden sollte?
-  - Kann ich einen neutralen Aktionsbutton von einem Formularabschluss unterscheiden?
-tags:
-  - html
-  - button
-  - submit
-  - reset
-  - formular
-level: einfach
+title: "Button-Typen button, submit und reset unterscheiden"
+description: "Verstehe, warum Buttons in Formularen nicht alle dieselbe Wirkung haben und wie ihr Typ das Verhalten bestimmt."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "button-typen-button-submit-und-reset-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 In Formularen sehen viele Buttons ähnlich aus. Ihre **Rolle** ist aber nicht dieselbe. Manche sollen Daten absenden, manche etwas zurücksetzen und manche nur eine kleine Zusatzaktion auslösen.

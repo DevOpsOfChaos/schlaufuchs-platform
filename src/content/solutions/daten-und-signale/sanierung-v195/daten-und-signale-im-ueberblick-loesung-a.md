@@ -3,25 +3,12 @@ title: "Lösung: Daten und Signale im Überblick: Aufgabe A"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-001a im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "grundlagen-und-begriffe"
-  - "daten-und-signale-im-ueberblick"
-  - "loesung-a"
-
+topicPath: ["sanierung-v195", "daten-und-signale-im-ueberblick-loesung-a"]
 taskId: "daten-und-signale-v195-001a"
 relatedExercise: "daten-und-signale/sanierung-v195/daten-und-signale-im-ueberblick-aufgabe-a"
-tags:
-  - "daten"
-  - "signale"
-  - "ueberblick"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-001a`
 
 Ausgangsauftrag: Ordne Beispiele aus Alltag und Technik nach Daten, Signal und Information.

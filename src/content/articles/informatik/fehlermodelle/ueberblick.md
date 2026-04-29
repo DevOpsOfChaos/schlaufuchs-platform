@@ -1,37 +1,19 @@
 ---
 title: "Fehlermodelle"
 description: "Überblick über Arten von Fehlern und ihre Bedeutung für robuste Systeme."
-subject: informatik
+subject: "informatik"
 section: "Fehler"
-topicPath:
-  - "fehlermodelle"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Fehlermodelle als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["fehlermodelle", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Alle Fehler gleich zu behandeln und dadurch Wiederholungen, Nutzerhinweise und Datenkonsistenz zu vermischen."
-keyTakeaways:
-  - "Fehler unterscheiden sich nach Ursache und Dauer."
-  - "Robuste Systeme behandeln Fehlerklassen gezielt."
-  - "Unbekannte Fehler brauchen sichere Rückfallwege."
-recognizeSignals:
-  - "Ein System soll mit Ausfällen umgehen."
-  - "Fehler werden geloggt, wiederholt oder an Nutzer gemeldet."
-selfCheckPoints:
-  - "Kann ich Fehlermodelle in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "fehler"
-  - "resilienz"
-  - "robustheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Fehler"]
 draft: false
 ---
-
 # Fehlermodelle
 
 Ein Fehlermodell beschreibt, welche Fehlerarten ein System erwartet, erkennt und behandelt.

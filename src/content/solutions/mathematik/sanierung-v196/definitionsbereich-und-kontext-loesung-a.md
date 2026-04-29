@@ -1,15 +1,14 @@
 ---
-title: Definitionsbereich und Kontext – Lösung A
-description: Musterlösung zu Definitionsbereich und Kontext mit Kontrolle.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Definitionsbereich und Kontext – Lösung A"
+description: "Musterlösung zu Definitionsbereich und Kontext mit Kontrolle."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "funktionen-im-vergleich", "definitionsbereich-und-kontext"]
 taskId: "mat-v196-definitionsbereich-und-kontext-a"
 relatedExercise: "mathematik/sanierung-v196/definitionsbereich-und-kontext-aufgabe-a"
 tags: ["mathematik", "v196", "funktionen-im-vergleich", "definitionsbereich-und-kontext"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine passende Lösung zu dieser Aufgabe muss nicht exakt dieselben Zahlen oder Beispiele verwenden. Entscheidend ist der saubere Aufbau.

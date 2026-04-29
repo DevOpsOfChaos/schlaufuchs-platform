@@ -1,36 +1,19 @@
 ---
 title: "Kryptographie-Grundlagen"
 description: "Einordnung grundlegender kryptographischer Ziele wie Vertraulichkeit, Integrität und Authentizität."
-subject: informatik
+subject: "informatik"
 section: "Sicherheit"
-topicPath:
-  - "kryptographie-grundlagen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Kryptographie-Grundlagen als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["kryptographie-grundlagen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Passwörter mit normalen Hashfunktionen ohne Salt gespeichert."
-keyTakeaways:
-  - "Kryptographie schützt unterschiedliche Sicherheitsziele."
-  - "Hashing, Verschlüsselung und Signatur sind verschieden."
-  - "Eigene Kryptoverfahren sind fast immer riskant."
-recognizeSignals:
-  - "Es geht um Kryptographie-Grundlagen als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Kryptographie-Grundlagen in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "kryptographie"
-  - "sicherheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Sicherheit"]
 draft: false
 ---
-
 # Kryptographie-Grundlagen
 
 Kryptographie stellt Verfahren bereit, um Informationen zu schützen. Je nach Verfahren geht es um Vertraulichkeit, Integrität, Authentizität oder Nichtabstreitbarkeit. Moderne Systeme nutzen Kryptographie in Transportverschlüsselung, Passworthashes, Signaturen und Schlüsselaustausch.

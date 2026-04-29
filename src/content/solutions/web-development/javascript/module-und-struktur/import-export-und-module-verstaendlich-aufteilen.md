@@ -3,22 +3,12 @@ title: "Lösung – JavaScript: import, export und Module verständlich aufteile
 description: "Musterlösung zur Aufgabe: Teile eine kleine Suchseite gedanklich in Module auf: Daten laden, Suchbegriff prüfen, Ergebnisse rendern. Benenne mögliche Dateien und Exporte."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "module-und-struktur"
-  - "import-export-und-module-verstaendlich-aufteilen"
+topicPath: ["javascript", "module-und-struktur", "import-export-und-module-verstaendlich-aufteilen"]
 taskId: "web-js-import-export-und-module-verstaendlich-aufteilen"
 relatedExercise: "web-development/javascript/module-und-struktur/import-export-und-module-verstaendlich-aufteilen"
-tags:
-  - "web development"
-  - "javascript"
-  - "module"
-  - "import"
-  - "export"
-  - "lösung"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Sinnvoll wären api.js mit loadResults, validation.js mit normalizeQuery oder validateQuery und render.js mit renderResults. app.js verbindet diese Bausteine. So bleiben Abhängigkeiten sichtbar.

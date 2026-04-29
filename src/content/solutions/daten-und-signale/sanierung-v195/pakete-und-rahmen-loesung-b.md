@@ -3,24 +3,12 @@ title: "Lösung: Pakete und Rahmen: Aufgabe B"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-012b im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "uebertragung"
-  - "pakete-und-rahmen"
-  - "loesung-b"
-
+topicPath: ["sanierung-v195", "pakete-und-rahmen-loesung-b"]
 taskId: "daten-und-signale-v195-012b"
 relatedExercise: "daten-und-signale/sanierung-v195/pakete-und-rahmen-aufgabe-b"
-tags:
-  - "pakete"
-  - "rahmen"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-012b`
 
 Ausgangsauftrag: Übertrage das Thema Pakete und Rahmen auf ein zweites Beispiel und formuliere eine kurze Prüfung.

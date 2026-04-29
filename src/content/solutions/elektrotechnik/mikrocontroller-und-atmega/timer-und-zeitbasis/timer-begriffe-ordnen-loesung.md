@@ -1,22 +1,14 @@
 ---
 title: "Lösung: Timerbegriffe ruhig ordnen"
 description: "Musterlösung zu: Timerbegriffe ruhig ordnen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "timer-und-zeitbasis"
+topicPath: ["mikrocontroller-und-atmega", "timer-und-zeitbasis", "timer-begriffe-ordnen"]
 taskId: "ET-MCU-TIMER-179-001"
 relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/timer-und-zeitbasis/timer-begriffe-ordnen.md"
-tags:
-  - "elektrotechnik"
-  - "timer"
-  - "prescaler"
-  - "overflow"
-  - "loesung"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
 ## Lösungsgedanke
 
 Diese Musterlösung trennt zuerst Begriff, Schaltungszusammenhang und Begründung. Dadurch wird nicht nur ein Ergebnis genannt, sondern der fachliche Weg sichtbar.

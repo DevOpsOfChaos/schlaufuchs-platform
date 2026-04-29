@@ -1,36 +1,19 @@
 ---
 title: "Hexadezimalzahlen"
 description: "Hexadezimalzahlen bezeichnet ein Grundthema im Bereich Software, Daten, Architektur und systematische Problemlösung. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-subject: informatik
+subject: "informatik"
 section: "Datenrepräsentation"
-topicPath:
-  - "hexadezimalzahlen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Hexadezimalzahlen als allgemeinen Grundbegriff einordnen."
-  - "Du kennst Zweck, Zusammenhang, typische Teilaspekte und Grenzen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle behandelt werden."
+topicPath: ["hexadezimalzahlen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Hexadezimalzahlen nur als einzelner Arbeitsschritt verstanden, obwohl der Begriff einen größeren Zusammenhang beschreibt."
-keyTakeaways:
-  - "Hexadezimalzahlen bezeichnet ein Grundthema im Bereich Software, Daten, Architektur und systematische Problemlösung. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-  - "Ein Überblick trennt Begriff, Zweck, Beispiel und Grenze."
-  - "Spezialseiten werden verständlicher, wenn die allgemeine Einordnung vorher klar ist."
-recognizeSignals:
-  - "Es geht um Hexadezimalzahlen, wenn mehrere Einzelbeobachtungen ohne Grundbegriff schwer einzuordnen sind."
-  - "Der Begriff hilft, Werkzeuge, Werte, Regeln oder Darstellungen fachlich zu sortieren."
-selfCheckPoints:
-  - "Kann ich Hexadezimalzahlen in zwei bis drei Sätzen erklären?"
-  - "Kann ich ein Beispiel und eine typische Grenze nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "zahlen"
-  - "binaer"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Datenrepräsentation"]
 draft: false
 ---
-
 # Hexadezimalzahlen
 
 Hexadezimalzahlen bezeichnet ein Grundthema im Bereich Software, Daten, Architektur und

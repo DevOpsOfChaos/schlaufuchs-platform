@@ -1,32 +1,17 @@
 ---
-title: Portbits am AVR gezielt und ohne Nebeneffekt ändern
-description: Begründe, wann am ATmega eine gezielte Bitoperation ruhiger ist als eine komplette Registerzuweisung.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - register-und-bitoperationen
-  - atmega-read-modify-write-an-portregistern-verstehen
-  - portbits-am-avr-gezielt-und-ohne-nebeneffekt-aendern
-taskId: ET-ATMEGA-REG-301
-level: mittel
+title: "Portbits am AVR gezielt und ohne Nebeneffekt ändern"
+description: "Begründe, wann am ATmega eine gezielte Bitoperation ruhiger ist als eine komplette Registerzuweisung."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-read-modify-write-an-portregistern-verstehen", "portbits-am-avr-gezielt-und-ohne-nebeneffekt-aendern"]
+taskId: "ET-ATMEGA-REG-301"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - atmega
-  - register
-  - bitmaske
-hintPoints:
-  - Frage zuerst, ob wirklich der ganze Registerzustand neu festgelegt werden soll.
-  - Denke an die übrigen Bits und nicht nur an das Zielbit.
-selfCheckPoints:
-  - Kannst du erklären, warum eine Komplettzuweisung andere Bits mitschreibt?
-  - Kannst du begründen, wann OR oder AND ruhiger ist?
-transferIdeas:
-  - Übertrage die Logik auf DDR, PORT oder Interrupt-Freigabebits.
-reflectionPrompt: "Welche ruhigere Leitfrage hilft hier: Welches Bit will ich ändern oder was passiert mit allen anderen Bits?"
 ---
-
 Gegeben sind diese beiden Zeilen:
 
 ```c

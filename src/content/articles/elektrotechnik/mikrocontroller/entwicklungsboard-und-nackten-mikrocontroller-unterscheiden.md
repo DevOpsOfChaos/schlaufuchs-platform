@@ -1,45 +1,19 @@
 ---
-title: Entwicklungsboard und nackten Mikrocontroller unterscheiden
-description: Verstehe, warum ein Entwicklungsboard mehr ist als nur der Controllerchip und welche Hilfsfunktionen das Board für Versorgung, Programmierung und Testen mitbringt.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - entwicklungsboard-und-nackten-mikrocontroller-unterscheiden
-learningGoals:
-  - Du erklärst den Unterschied zwischen einem Controllerchip und einem Entwicklungsboard.
-  - Du beschreibst Spannungsversorgung, Takt, Reset und Programmierzugang als Board-Hilfen statt als Nebensache.
-  - Du liest Board-Komfort nicht als Eigenschaft des Chips selbst, sondern als Systemumgebung.
-practiceIdeas:
-  - Vergleiche einen losen Controller im Datenblatt mit einem Arduino- oder Eval-Board.
-  - Ordne USB, Spannungsregler, Reset-Taster und Quarz eher dem Board als dem Kernchip zu.
-  - Begründe, warum ein erster Test auf dem Board oft ruhiger ist als direkt auf eigener Minimalhardware.
-commonMistakes:
-  - Board und Mikrocontroller als dasselbe zu behandeln.
-  - Zu denken, USB oder Spannungsregler gehörten automatisch zum Chip.
-  - Fehlersuche nur auf den Code zu schieben, obwohl die Grundhardware noch nicht vollständig ist.
-keyTakeaways:
-  - Das Board liefert oft Versorgung, Reset, Takt, Programmierzugang und Steckkomfort zusätzlich zum Chip.
-  - Der nackte Mikrocontroller braucht diese Rahmenbedingungen ebenfalls, aber nicht immer schon integriert.
-  - Wer Board und Chip trennt, versteht Aufbau und Fehlersuche deutlich ruhiger.
-recognizeSignals:
-  - Es geht um Arduino, Eval-Boards, nackte Controller, Minimalbeschaltung oder erste Inbetriebnahme.
-  - Du sollst erklären, warum etwas auf dem Board funktioniert, auf eigener Schaltung aber noch nicht.
-  - In Aufgaben ist die Hardwareumgebung wichtiger als die Programmiersprache.
-selfCheckPoints:
-  - Kann ich Chip und Board sauber unterscheiden?
-  - Kann ich benennen, welche Hilfsfunktionen das Board zusätzlich bereitstellt?
-  - Kann ich erklären, warum Minimalhardware mehr Voraussetzungen sichtbar macht?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - board
-  - inbetriebnahme
-level: einfach
+title: "Entwicklungsboard und nackten Mikrocontroller unterscheiden"
+description: "Verstehe, warum ein Entwicklungsboard mehr ist als nur der Controllerchip und welche Hilfsfunktionen das Board für Versorgung, Programmierung und Testen mitbringt."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "entwicklungsboard-und-nackten-mikrocontroller-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "mikrocontroller"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Entwicklungsboard ist **nicht einfach nur der Mikrocontroller**. Es ist eine fertigere Umgebung, in der der Controller bereits mit wichtigen Hilfsfunktionen verbunden ist – zum Beispiel mit Spannungsversorgung, Reset-Beschaltung, Taktquelle, USB-UART-Wandler oder Programmierstecker.

@@ -3,21 +3,12 @@ title: "Lösung – Rauschen von systematischem Fehler trennen"
 description: "Musterlösung zu rauschen von systematischem fehler trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "messen-und-fehler"
-  - "rauschen-von-systematischem-fehler-trennen"
+topicPath: ["daten-und-signale", "messen-und-fehler", "rauschen-von-systematischem-fehler-trennen"]
 taskId: "v112-elektrotechnik-rauschen-von-systematischem-fehler-trennen"
 relatedExercise: "elektrotechnik/daten-und-signale/messen-und-fehler/rauschen-von-systematischem-fehler-trennen"
-tags:
-  - "elektrotechnik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-signale"
-  - "rauschen-von-systematischem-fehler-trennen"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Messen und Fehler**.

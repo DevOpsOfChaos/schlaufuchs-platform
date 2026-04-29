@@ -1,46 +1,19 @@
 ---
-title: ATmega – UART Senden und Empfangen trennen
-description: Verstehe, warum UART am AVR nicht nur „serielle Daten“ bedeutet, sondern aus zwei klar unterscheidbaren Richtungen besteht.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - uart-und-serielle-schnittstellen
-  - atmega-uart-senden-und-empfangen-trennen
-learningGoals:
-  - Du erklärst den Unterschied zwischen UART-Senden und UART-Empfangen sauber.
-  - Du unterscheidest Datenquelle, Datenziel und jeweilige Richtung fachlich korrekt.
-  - Du liest UART-Code ruhiger als Weg eines Zeichens statt nur als Registernamen.
-practiceIdeas:
-  - Verfolge ein Zeichen gedanklich vom Mikrocontroller zum PC und umgekehrt.
-  - Vergleiche TX- und RX-Fälle zuerst als Datenrichtung und erst dann als Registerzugriff.
-  - Prüfe bei seriellen Beispielen bewusst, wer gerade sendet und wer gerade empfängt.
-commonMistakes:
-  - Senden und Empfangen als dieselbe UART-Aktion zu behandeln.
-  - TX und RX nur als Pin-Namen zu lernen, ohne die Richtung mitzudenken.
-  - Zu denken, eine gesendete Information sei automatisch auch schon lokal wieder eingelesen.
-keyTakeaways:
-  - Senden und Empfangen sind zwei getrennte Richtungen derselben seriellen Schnittstelle.
-  - TX steht für den Ausgang der seriellen Daten vom Controller, RX für den Eingang zum Controller.
-  - Wer die Richtung eines Zeichens sauber mitdenkt, liest UART deutlich ruhiger.
-recognizeSignals:
-  - Es geht um UART, TX, RX, Baudrate oder serielle Zeichenübertragung.
-  - Du sollst erklären, wohin ein Zeichen läuft oder woher es kommt.
-  - In kleinen Beispielen ist die Datenrichtung wichtiger als der bloße Registername.
-selfCheckPoints:
-  - Kann ich TX und RX als Richtungen statt nur als Kürzel erklären?
-  - Kann ich beschreiben, ob der AVR gerade sendet oder empfängt?
-  - Kann ich ein UART-Beispiel als Weg eines Zeichens lesen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - uart
-  - avr
-level: einfach
+title: "ATmega – UART Senden und Empfangen trennen"
+description: "Verstehe, warum UART am AVR nicht nur „serielle Daten“ bedeutet, sondern aus zwei klar unterscheidbaren Richtungen besteht."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-uart-senden-und-empfangen-trennen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 UART wirkt im Einstieg oft wie „da laufen halt serielle Daten“. Ruhiger ist aber die klare Frage: **Wer sendet gerade, und wer empfängt gerade?** Genau diese Trennung zwischen **TX** und **RX** macht den UART-Fall am AVR deutlich verständlicher.
 
 <div class="example-card">

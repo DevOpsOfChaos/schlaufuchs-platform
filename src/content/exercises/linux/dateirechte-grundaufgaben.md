@@ -1,11 +1,17 @@
 ---
-title: Dateirechte – Grundaufgaben
-description: Übe Lesen, Schreiben und Ausführen in der Linux-Rechte-Logik.
-subject: linux
-level: einfach
+title: "Dateirechte – Grundaufgaben"
+description: "Übe Lesen, Schreiben und Ausführen in der Linux-Rechte-Logik."
+subject: "linux"
+section: "dateirechte-grundaufgaben"
+topicPath: ["dateirechte-grundaufgaben"]
+taskId: "AUTO-DATEIRECHTE-GRUNDAUFGABEN"
+tags: ["linux", "dateirechte-grundaufgaben", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Übung trainiert dein Verständnis für Besitzer, Gruppe und andere sowie für die Grundlogik von Linux-Dateirechten.
 
 ## Aufgabenideen

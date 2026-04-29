@@ -1,33 +1,17 @@
 ---
 title: "Datenverantwortung"
 description: "Überblick über Besitz, Pflege, Qualität und Lebenszyklus von Daten in Software-Systemen."
-subject: informatik
+subject: "informatik"
 section: "Daten"
-topicPath:
-  - "datenverantwortung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Datenverantwortung als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["datenverantwortung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Daten gelten oft als neutraler Bestand. Ohne Verantwortung veralten sie, widersprechen sich oder werden falsch interpretiert."
-keyTakeaways:
-  - "Datenverantwortung klärt, wer Daten erzeugt, verändert, prüft, löscht und fachlich versteht."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um datenverantwortung, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich datenverantwortung in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "datenverantwortung"
-  - "überblick"
-  - "datenquelle"
-  - "verantwortliche rolle"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Daten"]
 draft: false
 ---
 # Datenverantwortung

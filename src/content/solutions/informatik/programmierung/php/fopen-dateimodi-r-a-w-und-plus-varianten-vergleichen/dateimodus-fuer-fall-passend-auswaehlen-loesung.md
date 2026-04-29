@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Dateimodus für einen Fall passend auswählen
-description: Musterlösung zur Aufgabe INF-PHP-FILES-002.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - fopen-dateimodi-r-a-w-und-plus-varianten-vergleichen
-  - dateimodus-fuer-fall-passend-auswaehlen-loesung
-taskId: INF-PHP-FILES-002
-relatedExercise: src/content/exercises/informatik/programmierung/php/fopen-dateimodi-r-a-w-und-plus-varianten-vergleichen/dateimodus-fuer-fall-passend-auswaehlen.md
-tags:
-  - informatik
-  - loesung
-  - php
-  - task-id
+title: "Musterlösung – Dateimodus für einen Fall passend auswählen"
+description: "Musterlösung zur Aufgabe INF-PHP-FILES-002."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "fopen-dateimodi-r-a-w-und-plus-varianten-vergleichen", "dateimodus-fuer-fall-passend-auswaehlen"]
+taskId: "INF-PHP-FILES-002"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/fopen-dateimodi-r-a-w-und-plus-varianten-vergleichen/dateimodus-fuer-fall-passend-auswaehlen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Nur auslesen → <code>r</code>. Logdatei ergänzen → <code>a</code>. Datei neu schreiben → <code>w</code>.

@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Funktionen und Verantwortung anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über Funktionen und Verantwortung."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "funktionen-und-verantwortung"
-taskId: INF-V183-13-B
-relatedExercise: src/content/exercises/informatik/programmierpraxis-und-tests/funktionen-und-verantwortung/funktionen-und-verantwortung-anwenden-und-pruefen-v183.md
-tags:
-  - "informatik"
-  - "funktionen-und-verantwortung"
-  - "loesung"
+topicPath: ["programmierpraxis-und-tests", "funktionen-und-verantwortung", "funktionen-und-verantwortung-anwenden-und-pruefen-v183"]
+taskId: "INF-V183-13-B"
+relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/funktionen-und-verantwortung/funktionen-und-verantwortung-anwenden-und-pruefen-v183.md"
+tags: ["informatik", "Programmierpraxis und Tests", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

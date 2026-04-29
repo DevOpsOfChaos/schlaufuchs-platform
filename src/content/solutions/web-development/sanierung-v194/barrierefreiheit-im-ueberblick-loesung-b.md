@@ -3,24 +3,12 @@ title: "Lösung: Barrierefreiheit im Überblick: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-development-v194-001b im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "zugang-und-semantik"
-  - "barrierefreiheit-im-ueberblick"
-  - "loesung-b"
-
+topicPath: ["sanierung-v194", "barrierefreiheit-im-ueberblick-loesung-b"]
 taskId: "web-development-v194-001b"
 relatedExercise: "web-development/sanierung-v194/barrierefreiheit-im-ueberblick-aufgabe-b"
-tags:
-  - "barrierefreiheit"
-  - "ueberblick"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-001b`
 
 Ausgangsauftrag: Übertrage das Thema Barrierefreiheit im Überblick auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

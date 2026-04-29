@@ -3,23 +3,12 @@ title: "Lösung – grid-template-areas für Dashboard-Layouts nutzen"
 description: "Musterlösung zu Grid-Layout mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "grid-und-layout"
-  - "seitenraster"
-  - "grid-template-areas-fuer-dashboard-layouts-nutzen"
+topicPath: ["css", "grid-und-layout", "seitenraster", "grid-template-areas-fuer-dashboard-layouts-nutzen"]
 taskId: "v107-web-development-grid-template-areas-fuer-dashboard-layouts-nutzen"
 relatedExercise: "web-development/css/grid-und-layout/seitenraster/grid-template-areas-fuer-dashboard-layouts-nutzen"
-tags:
-  - "web development"
-  - "html"
-  - "css"
-  - "javascript"
-  - "grid-layout"
-  - "grid-und-layout"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Grid-Layout**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

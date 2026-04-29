@@ -3,24 +3,12 @@ title: "Lösung: Navigation und Breadcrumbs: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-development-v194-020b im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "content-und-navigation"
-  - "navigation-und-breadcrumbs"
-  - "loesung-b"
-
+topicPath: ["sanierung-v194", "navigation-und-breadcrumbs-loesung-b"]
 taskId: "web-development-v194-020b"
 relatedExercise: "web-development/sanierung-v194/navigation-und-breadcrumbs-aufgabe-b"
-tags:
-  - "navigation"
-  - "breadcrumbs"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-020b`
 
 Ausgangsauftrag: Übertrage das Thema Navigation und Breadcrumbs auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

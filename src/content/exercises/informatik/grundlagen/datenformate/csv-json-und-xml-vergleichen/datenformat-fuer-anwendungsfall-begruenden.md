@@ -1,32 +1,17 @@
 ---
-title: Datenformat passend auswählen
-description: Begründe für verschiedene Situationen, ob CSV, JSON oder XML besser passt.
-subject: informatik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - datenformate
-  - csv-json-und-xml-vergleichen
-  - datenformat-fuer-anwendungsfall-begruenden
-taskId: INF-DATA-FORMAT-COMP-001
-level: einfach
+title: "Datenformat passend auswählen"
+description: "Begründe für verschiedene Situationen, ob CSV, JSON oder XML besser passt."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "datenformate", "csv-json-und-xml-vergleichen", "datenformat-fuer-anwendungsfall-begruenden"]
+taskId: "INF-DATA-FORMAT-COMP-001"
+tags: ["informatik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - informatik
-  - aufgabe
-  - grundlagen
-  - datenformate
-hintPoints:
-  - "Lies das Beispiel zuerst ruhig in Worten."
-  - "Trenne Struktur, Rolle und Wirkung sauber."
-selfCheckPoints:
-  - "Habe ich begründet statt nur benannt?"
-  - "Habe ich Fachbegriffe sauber verwendet?"
-transferIdeas:
-  - "Übertrage die Logik auf ein ähnliches Beispiel."
-reflectionPrompt: "Welche Stelle war leicht zu verwechseln und warum?"
 ---
-
 ## Aufgabe 1: Format zuordnen
 
 Ordne diese Situationen grob CSV, JSON oder XML zu und begründe kurz:

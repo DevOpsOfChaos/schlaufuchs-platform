@@ -1,28 +1,17 @@
 ---
 title: "Stützkondensator-Platzierung begründen"
 description: "Ordne, warum ein Stützkondensator nahe am IC sinnvoll ist."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Stromversorgung und Schutz"
-topicPath:
-  - stromversorgung-und-schutz
-  - entkopplung-und-stuetzelkos
-taskId: ET-V181-001
-tags:
-  - elektrotechnik
-  - entkopplung-und-stuetzelkos
-  - sanierung-v181
-hintPoints:
-  - "Lies zuerst den Normalzustand und dann den Fehlerfall."
-  - "Trenne elektrische Ebene, logische Bedeutung und praktische Prüfung."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["stromversorgung-und-schutz", "entkopplung-und-stuetzelkos", "stuetzkondensator-platzierung-begruenden"]
+taskId: "ET-V181-001"
+tags: ["elektrotechnik", "Stromversorgung und Schutz", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **Entkopplung und Stützkondensatoren** ruhig und schrittweise.

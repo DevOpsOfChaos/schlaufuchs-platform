@@ -1,22 +1,14 @@
 ---
-title: Lösung – 8-Bit- und 16-Bit-Timer am AVR ruhig zuordnen
-description: Musterlösung zur Aufgabe über Timergröße und Zählbereich am AVR.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - timer-und-zeitbasis
-  - atmega-8-bit-und-16-bit-timer-unterscheiden
-taskId: ET-ATMEGA-TIMER-401
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-8-bit-und-16-bit-timer-unterscheiden/8-bit-und-16-bit-timer-am-avr-ruhig-zuordnen.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - loesung
+title: "Lösung – 8-Bit- und 16-Bit-Timer am AVR ruhig zuordnen"
+description: "Musterlösung zur Aufgabe über Timergröße und Zählbereich am AVR."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-8-bit-und-16-bit-timer-unterscheiden", "8-bit-und-16-bit-timer-am-avr-ruhig-zuordnen"]
+taskId: "ET-ATMEGA-TIMER-401"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-8-bit-und-16-bit-timer-unterscheiden/8-bit-und-16-bit-timer-am-avr-ruhig-zuordnen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

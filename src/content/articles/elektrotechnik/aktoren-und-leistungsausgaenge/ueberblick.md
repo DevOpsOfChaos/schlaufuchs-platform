@@ -1,31 +1,17 @@
 ---
 title: "Aktoren und Leistungsausgänge"
 description: "Allgemeiner Überblick über Aktoren, Lasten und die elektrische Ansteuerung durch Mikrocontroller."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "aktoren-und-leistungsausgaenge"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Aktoren und Leistungsausgänge grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["aktoren-und-leistungsausgaenge", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Aktoren und Leistungsausgänge nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Aktoren und Leistungsausgänge beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Aktoren und Leistungsausgänge, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Aktoren und Leistungsausgänge in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "aktoren"
-  - "lasten"
-  - "leistungsausgang"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
 # Aktoren und Leistungsausgänge

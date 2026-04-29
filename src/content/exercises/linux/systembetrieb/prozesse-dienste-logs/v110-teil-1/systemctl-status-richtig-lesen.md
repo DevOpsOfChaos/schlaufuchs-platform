@@ -3,35 +3,15 @@ title: "Aufgabe – systemctl status richtig lesen"
 description: "Übe systemctl status richtig lesen mit Einordnung, Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "Systembetrieb"
-topicPath:
-  - "systembetrieb"
-  - "prozesse-dienste-logs"
-  - "v110-teil-1"
-  - "systemctl-status-richtig-lesen"
+topicPath: ["systembetrieb", "prozesse-dienste-logs", "v110-teil-1", "systemctl-status-richtig-lesen"]
 taskId: "v110-linux-systemctl-status-richtig-lesen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "systembetrieb"
-  - "prozesse-dienste-logs"
-  - "systemctl-status-richtig-lesen"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Vergleiche das Thema mit einem Nachbarthema und nenne die Trennkante."
-reflectionPrompt: "Welche kleine Trennkante macht systemctl status richtig lesen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["linux", "Systembetrieb", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **systemctl status richtig lesen**.

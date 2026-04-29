@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Sättigung in einem Graphen deuten"
 description: "Musterlösung zu Sättigung in einem Graphen deuten mit Trennkante und Gegenprobe."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "funktionsdenken-v115"
-  - "nichtlineare-verlaeufe"
-  - "saettigung-in-einem-graphen-deuten-v115"
+topicPath: ["funktionsdenken-v115", "nichtlineare-verlaeufe", "saettigung-in-einem-graphen-deuten-v115"]
 taskId: "mathematik-saettigung-in-einem-graphen-deuten-v115"
 relatedExercise: "mathematik/funktionsdenken-v115/nichtlineare-verlaeufe/saettigung-in-einem-graphen-deuten-v115"
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "funktionsdenken"
-  - "nichtlineare verläufe"
-  - "lösung"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Sättigung in einem Graphen deuten**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

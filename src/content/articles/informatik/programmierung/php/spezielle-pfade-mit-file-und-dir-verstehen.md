@@ -1,44 +1,17 @@
 ---
-title: Spezielle Pfade mit __FILE__ und __DIR__ verstehen
-description: Verstehe, was __FILE__ und __DIR__ liefern und warum feste relative Vermutungen in PHP schnell unruhig werden.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - spezielle-pfade-mit-file-und-dir-verstehen
-learningGoals:
-  - Du unterscheidest __FILE__ und __DIR__ sauber.
-  - Du erklärst, warum feste Pfadannahmen in Includes oder Dateizugriffen fehleranfällig sind.
-  - Du liest einfache Pfadangaben ruhiger im Kontext einer PHP-Datei.
-practiceIdeas:
-  - Vergleiche den kompletten Dateipfad mit dem Verzeichnis derselben Datei.
-  - Erkläre, warum include-Pfade ohne klaren Bezugspunkt schnell brechen können.
-  - Ordne in einem Beispiel zu, ob eher __FILE__ oder __DIR__ gebraucht wird.
-commonMistakes:
-  - __FILE__ nur als Dateiname statt als vollständigen Pfad zu lesen.
-  - __DIR__ mit dem aktuellen Browser-URL-Pfad zu verwechseln.
-  - Zu glauben, Pfadangaben würden sich immer auf die gleiche Stelle beziehen.
-keyTakeaways:
-  - __FILE__ beschreibt die aktuelle Datei, __DIR__ ihr Verzeichnis.
-  - Solche Konstanten helfen, Pfade robuster zu formulieren.
-  - Serverpfade sind etwas anderes als Browser-URLs.
-recognizeSignals:
-  - Es geht um include, require, Dateizugriff oder Verzeichnisbezug.
-  - Im Code tauchen __FILE__ oder __DIR__ auf.
-  - Du sollst erklären, warum eine Pfadangabe funktioniert oder nicht.
-selfCheckPoints:
-  - Kann ich __FILE__ und __DIR__ in Worten unterscheiden?
-  - Kann ich sagen, warum feste Pfade unruhig sein können?
-  - Kann ich Browser-URL und Serverpfad trennen?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - backend
-  - web
-  - grundlagen
+title: "Spezielle Pfade mit __FILE__ und __DIR__ verstehen"
+description: "Verstehe, was __FILE__ und __DIR__ liefern und warum feste relative Vermutungen in PHP schnell unruhig werden."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "spezielle-pfade-mit-file-und-dir-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
 ## Grundidee

@@ -1,36 +1,19 @@
 ---
 title: "Grundlagen: Graphen deuten"
 description: "Allgemeiner Überblick über Graphen als Darstellung von Zusammenhängen, Veränderung, Schnittpunkten und sinnvollen Fragen."
-subject: mathematik
+subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - funktionen-und-graphen
-  - graphen-deuten
-  - ueberblick
-  - grundlagen-graphen-deuten
-learningGoals:
-  - "Du erklärst, was ein Graph über einen Zusammenhang zeigt."
-  - "Du unterscheidest Ablesen, Deuten und Begründen."
-  - "Du erkennst typische Fragen an einen Graphen."
+topicPath: ["funktionen-und-graphen", "graphen-deuten", "ueberblick", "grundlagen-graphen-deuten"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur einzelne Punkte abzulesen und den Verlauf zu ignorieren."
-  - "Achsenbeschriftungen zu übersehen."
-  - "Graphen ohne Kontext zu interpretieren."
-keyTakeaways:
-  - "Graphen zeigen Zusammenhänge zwischen Größen."
-  - "Achsen und Einheiten sind Teil der Information."
-  - "Verlauf, Schnittpunkte und Steigung beantworten unterschiedliche Fragen."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - mathematik
-  - funktionen
-  - graphen
+level: "einfach"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
-
 ## Begriff
 
 Ein **Graph** stellt einen Zusammenhang zwischen Größen sichtbar dar. In der Mathematik beschreibt er oft, wie sich ein Wert verändert, wenn sich ein anderer Wert ändert. Ein Graph ist deshalb nicht nur ein Bild, sondern eine verdichtete Darstellung von Informationen.

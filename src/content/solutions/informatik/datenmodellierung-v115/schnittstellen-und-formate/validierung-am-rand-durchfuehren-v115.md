@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Validierung am Rand durchführen"
 description: "Musterlösung zu Validierung am Rand durchführen mit Trennkante und Gegenprobe."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenmodellierung-v115"
-  - "schnittstellen-und-formate"
-  - "validierung-am-rand-durchfuehren-v115"
+topicPath: ["datenmodellierung-v115", "schnittstellen-und-formate", "validierung-am-rand-durchfuehren-v115"]
 taskId: "informatik-validierung-am-rand-durchfuehren-v115"
 relatedExercise: "informatik/datenmodellierung-v115/schnittstellen-und-formate/validierung-am-rand-durchfuehren-v115"
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "datenmodellierung"
-  - "schnittstellen und formate"
-  - "lösung"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Validierung am Rand durchführen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

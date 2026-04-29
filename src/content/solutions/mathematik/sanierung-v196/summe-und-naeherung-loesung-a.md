@@ -1,15 +1,14 @@
 ---
-title: Summe und Näherung – Lösung A
-description: Musterlösung zu Summe und Näherung mit Kontrolle.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Summe und Näherung – Lösung A"
+description: "Musterlösung zu Summe und Näherung mit Kontrolle."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "analysis-vorbereitung", "summe-und-naeherung"]
 taskId: "mat-v196-summe-und-naeherung-a"
 relatedExercise: "mathematik/sanierung-v196/summe-und-naeherung-aufgabe-a"
 tags: ["mathematik", "v196", "analysis-vorbereitung", "summe-und-naeherung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine passende Lösung zu dieser Aufgabe muss nicht exakt dieselben Zahlen oder Beispiele verwenden. Entscheidend ist der saubere Aufbau.

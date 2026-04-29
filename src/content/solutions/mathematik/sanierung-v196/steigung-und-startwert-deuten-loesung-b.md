@@ -1,15 +1,14 @@
 ---
-title: Steigung und Startwert deuten – Lösung B
-description: Musterlösung zu Steigung und Startwert deuten mit Kontrolle.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Steigung und Startwert deuten – Lösung B"
+description: "Musterlösung zu Steigung und Startwert deuten mit Kontrolle."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "funktionen-im-vergleich", "steigung-und-startwert-deuten"]
 taskId: "mat-v196-steigung-und-startwert-deuten-b"
 relatedExercise: "mathematik/sanierung-v196/steigung-und-startwert-deuten-aufgabe-b"
 tags: ["mathematik", "v196", "funktionen-im-vergleich", "steigung-und-startwert-deuten"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine passende Lösung zu dieser Aufgabe muss nicht exakt dieselben Zahlen oder Beispiele verwenden. Entscheidend ist der saubere Aufbau.

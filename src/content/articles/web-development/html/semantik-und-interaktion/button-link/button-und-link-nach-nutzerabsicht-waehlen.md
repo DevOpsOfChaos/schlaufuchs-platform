@@ -3,46 +3,17 @@ title: "Web Development – Button und Link nach Nutzerabsicht wählen"
 description: "Lerne Button und Link als enges, prüfbares Unterthema mit Beispiel, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "semantik-und-interaktion"
-  - "button-link"
-  - "button-und-link-nach-nutzerabsicht-waehlen"
-learningGoals:
-  - "Du erklärst Button und Link als eigenes Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Erstelle eine Gegenprobe mit verändertem Wert, Zustand oder Kontext."
-  - "Vergleiche die Seite mit einem Nachbarthema und nenne die Trennkante."
-commonMistakes:
-  - "Alles wird als klickbarer Link gestaltet."
-  - "Das Thema nur einem breiten Kapitel zuordnen."
-  - "Eine Lösung formulieren, die keine konkrete Prüfung enthält."
-keyTakeaways:
-  - "Button und Link wird über Einordnung, Abgrenzung und Gegenprobe stabil."
-  - "Kleine Unterthemen erhöhen Auffindbarkeit und reduzieren Doppelungen."
-  - "Aufgabe und Lösung sollen dieselbe fachliche Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Ein breites Kapitel wäre als Antwort zu ungenau."
-  - "Ein konkreter Prüfschritt kann die Entscheidung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "html"
-  - "semantik-und-interaktion"
-  - "button und link"
+topicPath: ["html", "semantik-und-interaktion", "button-link", "button-und-link-nach-nutzerabsicht-waehlen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 **Button und Link** ist ein kleines Unterthema mit einer klaren Trennkante. Lerne Button und Link als enges, prüfbares Unterthema mit Beispiel, Abgrenzung und Gegenprobe. Dadurch bleibt die Seite übersichtlich und landet nicht als weiterer Abschnitt in einem zu breiten Sammelthema.

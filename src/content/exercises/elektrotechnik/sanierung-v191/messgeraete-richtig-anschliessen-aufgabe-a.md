@@ -3,35 +3,15 @@ title: "Messgeräte richtig anschließen: Aufgabe A"
 description: "Entscheide, wie Multimeter für Spannungs- und Strommessung angeschlossen werden."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "messpraxis"
-  - "messgeraete-richtig-anschliessen"
-  - "aufgabe-a"
+topicPath: ["sanierung-v191", "messgeraete-richtig-anschliessen-aufgabe-a"]
 taskId: "etech-v191-008a"
-tags:
-  - "messpraxis"
-  - "messgeraete"
-  - "schaltung"
-  - "elektrotechnik"
-  - "aufgabe"
-  - "v191"
-hintPoints:
-  - "Trenne Schaltplan, realen Aufbau und Messpunkt."
-  - "Nenne mindestens eine Einheit oder einen Grenzwert."
-  - "Formuliere einen passenden Fehlerfall."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Messgeräte richtig anschließen."
-  - "Messrichtung, Anschluss oder Bauteilrolle sind nachvollziehbar."
-  - "Die Lösung bleibt ohne Spezialgerät verständlich."
-transferIdeas:
-  - "Übertrage die Idee auf eine zweite kleine Schaltung."
-  - "Erstelle eine Mini-Checkliste für die Messung."
-reflectionPrompt: "Welcher Prüfschritt verhindert hier den wahrscheinlichsten Fehler?"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Entscheide, wie Multimeter für Spannungs- und Strommessung angeschlossen werden.

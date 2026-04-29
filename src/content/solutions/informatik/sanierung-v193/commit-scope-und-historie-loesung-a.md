@@ -3,24 +3,12 @@ title: "Lösung: Commit-Scope und Historie: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-029a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "zusammenarbeit-und-audit"
-  - "commit-scope-und-historie"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "commit-scope-und-historie-loesung-a"]
 taskId: "informatik-v193-029a"
 relatedExercise: "informatik/sanierung-v193/commit-scope-und-historie-aufgabe-a"
-tags:
-  - "commit"
-  - "scope"
-  - "historie"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-029a`
 
 Ausgangsauftrag: Zerlege eine große Änderung in sinnvolle Commit-Gruppen.

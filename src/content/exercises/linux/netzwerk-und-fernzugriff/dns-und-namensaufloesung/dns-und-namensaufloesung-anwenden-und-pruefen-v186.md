@@ -1,29 +1,17 @@
 ---
 title: "DNS und Namensauflösung – anwenden und prüfen"
 description: "Übe, DNS und Namensauflösung an kleinen Praxissituationen zu prüfen."
-subject: linux
+subject: "linux"
 section: "netzwerk-und-fernzugriff"
-topicPath:
-  - "netzwerk-und-fernzugriff"
-  - "dns-und-namensaufloesung"
-taskId: LINUX-DNS-UND-NAMENSAUFLOESUNG-V186-2
-tags:
-  - "linux"
-  - "dns"
-  - "netzwerk"
-  - "aufgabe"
-hintPoints:
-  - "Beginne mit Begriff und Kontext."
-  - "Trenne Beobachtung, Prüfung und mögliche Änderung."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe erklären."
-  - "Ich kann einen typischen Fehler vermeiden."
-transferIdeas:
-  - "Formuliere eine ähnliche Prüfsituation aus deinem eigenen Linux-Alltag."
-level: mittel
+topicPath: ["netzwerk-und-fernzugriff", "dns-und-namensaufloesung", "dns-und-namensaufloesung-anwenden-und-pruefen-v186"]
+taskId: "LINUX-DNS-UND-NAMENSAUFLOESUNG-V186-2"
+tags: ["linux", "netzwerk-und-fernzugriff", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Lernziel
 
 Du sollst **DNS und Namensauflösung** nicht nur als Befehl oder Schlagwort sehen, sondern als geordnetes Linux-Thema mit Zweck, Kontext und typischen Prüfschritten.

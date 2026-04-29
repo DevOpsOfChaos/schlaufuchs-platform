@@ -1,28 +1,17 @@
 ---
 title: "Resetursache systematisch eingrenzen"
 description: "Unterscheide Versorgungseinbruch, Reset-Pin und Softwarehänger."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - mikrocontroller-und-atmega
-  - reset-watchdog-und-brownout
-taskId: ET-V181-011
-tags:
-  - elektrotechnik
-  - reset-watchdog-und-brownout
-  - sanierung-v181
-hintPoints:
-  - "Lies zuerst den Normalzustand und dann den Fehlerfall."
-  - "Trenne elektrische Ebene, logische Bedeutung und praktische Prüfung."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["mikrocontroller-und-atmega", "reset-watchdog-und-brownout", "resetursache-systematisch-eingrenzen"]
+taskId: "ET-V181-011"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **Reset, Watchdog und Brown-out** ruhig und schrittweise.

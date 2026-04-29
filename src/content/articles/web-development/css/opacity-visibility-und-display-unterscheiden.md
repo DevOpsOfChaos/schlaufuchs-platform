@@ -1,45 +1,19 @@
 ---
-title: Opacity, Visibility und Display unterscheiden
-description: Verstehe, wie sich Elemente sichtbar ausblenden lassen und warum opacity, visibility und display trotz ähnlicher Wirkung fachlich Verschiedenes tun.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - opacity-visibility-und-display-unterscheiden
-learningGoals:
-  - Du erklärst den Unterschied zwischen opacity, visibility und display.
-  - Du beschreibst, ob ein Element noch Platz im Layout behält oder nicht.
-  - Du liest Ausblendung eher über Wirkung und Layoutrolle als nur über "man sieht es nicht".
-practiceIdeas:
-  - Vergleiche eine Karte, die nur transparent wird, mit einer, die wirklich aus dem Layout verschwindet.
-  - Prüfe bei einem Beispiel, ob der Platz des Elements erhalten bleibt.
-  - Lies ausgeblendete UI-Zustände eher als Sichtbarkeitsfrage als als reine Farbänderung.
-commonMistakes:
-  - opacity mit display none gleichzusetzen.
-  - zu denken, unsichtbar bedeute automatisch platzlos.
-  - visibility hidden und opacity 0 als dasselbe zu behandeln.
-keyTakeaways:
-  - opacity verändert vor allem die sichtbare Transparenz.
-  - visibility kann ein Element unsichtbar machen, ohne seinen Platz im Layout zu entfernen.
-  - display none nimmt das Element komplett aus dem normalen Layoutfluss.
-recognizeSignals:
-  - Es geht um ausblendbare Hinweise, Menüs, Fehlermeldungen oder Zustände in einer Oberfläche.
-  - Du sollst erklären, warum eine Lücke bleibt oder warum der Rest nachrückt.
-  - In Beispielen ist die Layoutwirkung wichtiger als die bloße Unsichtbarkeit.
-selfCheckPoints:
-  - Kann ich opacity, visibility und display fachlich trennen?
-  - Kann ich erklären, wann Platz im Layout erhalten bleibt?
-  - Kann ich bei einer UI-Situation begründen, welche Form des Ausblendens passender ist?
-tags:
-  - css
-  - opacity
-  - visibility
-  - display
-level: mittel
+title: "Opacity, Visibility und Display unterscheiden"
+description: "Verstehe, wie sich Elemente sichtbar ausblenden lassen und warum opacity, visibility und display trotz ähnlicher Wirkung fachlich Verschiedenes tun."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "opacity-visibility-und-display-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Nicht jedes "Ausblenden" funktioniert in CSS gleich. Manchmal soll ein Element nur **sichtbar verschwinden**, manchmal soll es **keinen Platz mehr belegen**. Genau an dieser Stelle muss man `opacity`, `visibility` und `display` sauber unterscheiden.

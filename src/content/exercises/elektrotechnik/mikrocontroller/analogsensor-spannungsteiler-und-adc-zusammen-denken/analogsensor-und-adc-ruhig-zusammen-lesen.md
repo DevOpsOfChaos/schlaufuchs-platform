@@ -1,31 +1,17 @@
 ---
-title: Analogsensor und ADC ruhig zusammen lesen
-description: Ordne in kleinen Messketten Sensor, Beschaltung und ADC fachlich sauber und begründe, wie daraus ein digitaler Wert entsteht.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - analogsensor-spannungsteiler-und-adc-zusammen-denken
-  - analogsensor-und-adc-ruhig-zusammen-lesen
-taskId: ELE-MCU-GEN-111
-level: mittel
+title: "Analogsensor und ADC ruhig zusammen lesen"
+description: "Ordne in kleinen Messketten Sensor, Beschaltung und ADC fachlich sauber und begründe, wie daraus ein digitaler Wert entsteht."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "analogsensor-spannungsteiler-und-adc-zusammen-denken", "analogsensor-und-adc-ruhig-zusammen-lesen"]
+taskId: "ELE-MCU-GEN-111"
+tags: ["elektrotechnik", "mikrocontroller", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - aufgabe
-hintPoints:
-  - Formuliere zuerst die technische Hauptfrage des Falls.
-  - Trenne Ursache, Wirkung und passende Maßnahme ruhig voneinander.
-selfCheckPoints:
-  - Hast du die elektrische und die logische Ebene nicht vermischt?
-  - Ist deine Begründung mehr als nur ein Schlagwort?
-transferIdeas:
-  - Übertrage die Denklogik auf einen ähnlichen Embedded-Fall mit Sensor, Aktor oder Kommunikation.
-reflectionPrompt: "Welchen Teil einer Messkette würdest du heute zuerst prüfen: Sensor, Beschaltung oder ADC-Referenz?"
 ---
-
 ## Aufgabe 1
 
 Beschreibe die Grundidee des Themas in 3 bis 5 Sätzen so, dass klar wird, **welche technische Hauptfrage** gelöst werden soll.

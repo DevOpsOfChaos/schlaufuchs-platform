@@ -3,36 +3,15 @@ title: "Logikpegel und Schwellen: Aufgabe A"
 description: "Prüfe, ob ein Sensorsignal sicher als HIGH erkannt wird."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "digitale-schaltungen"
-  - "logikpegel-und-schwellen"
-  - "aufgabe-a"
+topicPath: ["sanierung-v191", "logikpegel-und-schwellen-aufgabe-a"]
 taskId: "etech-v191-019a"
-tags:
-  - "digitale-schaltungen"
-  - "logikpegel"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "aufgabe"
-  - "v191"
-hintPoints:
-  - "Trenne Schaltplan, realen Aufbau und Messpunkt."
-  - "Nenne mindestens eine Einheit oder einen Grenzwert."
-  - "Formuliere einen passenden Fehlerfall."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Logikpegel und Schwellen."
-  - "Messrichtung, Anschluss oder Bauteilrolle sind nachvollziehbar."
-  - "Die Lösung bleibt ohne Spezialgerät verständlich."
-transferIdeas:
-  - "Übertrage die Idee auf eine zweite kleine Schaltung."
-  - "Erstelle eine Mini-Checkliste für die Messung."
-reflectionPrompt: "Welcher Prüfschritt verhindert hier den wahrscheinlichsten Fehler?"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Prüfe, ob ein Sensorsignal sicher als HIGH erkannt wird.

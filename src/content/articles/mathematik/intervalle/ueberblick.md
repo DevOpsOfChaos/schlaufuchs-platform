@@ -1,36 +1,19 @@
 ---
 title: "Intervalle"
 description: "Einordnung von Intervallen als zusammenhängende Zahlenbereiche."
-subject: mathematik
+subject: "mathematik"
 section: "Grundlagen"
-topicPath:
-  - "intervalle"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Intervalle als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["intervalle", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden runde und eckige Klammern verwechselt."
-keyTakeaways:
-  - "Intervalle beschreiben zusammenhängende Zahlenbereiche."
-  - "Randwerte können eingeschlossen oder ausgeschlossen sein."
-  - "Der Bezug zur Grundmenge bleibt wichtig."
-recognizeSignals:
-  - "Es geht um Intervalle als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Intervalle in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "intervalle"
-  - "zahlen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Grundlagen"]
 draft: false
 ---
-
 # Intervalle
 
 Ein Intervall beschreibt einen zusammenhängenden Bereich auf der Zahlengeraden. Es kann Grenzen enthalten oder ausschließen. Intervalle sind wichtig, um Definitionsbereiche, Lösungsbereiche, Messbereiche und Bedingungen kompakt zu beschreiben.

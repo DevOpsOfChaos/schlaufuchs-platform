@@ -3,32 +3,17 @@ title: "Signalrauschen und Störabstand"
 description: "Allgemeiner Überblick über Signalrauschen, Störabstand und die Lesbarkeit elektrischer Signale."
 subject: "elektrotechnik"
 section: "Signale"
-topicPath:
-  - "signalrauschen-und-stoerabstand"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["signalrauschen-und-stoerabstand", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird ein schwankender Messwert sofort als defekter Sensor gedeutet. Oft liegt die Ursache aber in Versorgung, Leitung, Bezugspotential oder fehlender Filterung."
-keyTakeaways:
-  - "Signalrauschen begrenzt, wie zuverlässig ein Signal gelesen werden kann. Der Störabstand hilft einzuschätzen, ob ein Signal robust genug für Auswertung oder Schaltentscheidungen ist."
-  - "Rauschen ist nicht dasselbe wie ein systematischer Messfehler. Ein Offset verschiebt ein Signal dauerhaft, während Rauschen unregelmäßige oder breitbandige Schwankungen beschreibt."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "elektrotechnik"
-  - "signale"
-  - "rauschen"
-  - "störabstand"
+tags: ["elektrotechnik", "Signale"]
 draft: false
 ---
-
 # Signalrauschen und Störabstand
 
 ![Schaubild zu Signalrauschen und Störungen.](/schlaufuchs-platform/images/overviews/v149/signalrauschen-und-stoerungen.svg)

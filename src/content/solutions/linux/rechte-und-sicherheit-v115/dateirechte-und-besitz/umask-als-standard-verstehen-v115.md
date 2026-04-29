@@ -1,24 +1,14 @@
 ---
 title: "Lösung: umask als Standard verstehen"
 description: "Musterlösung zu umask als Standard verstehen mit Trennkante und Gegenprobe."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "rechte-und-sicherheit-v115"
-  - "dateirechte-und-besitz"
-  - "umask-als-standard-verstehen-v115"
+topicPath: ["rechte-und-sicherheit-v115", "dateirechte-und-besitz", "umask-als-standard-verstehen-v115"]
 taskId: "linux-umask-als-standard-verstehen-v115"
 relatedExercise: "linux/rechte-und-sicherheit-v115/dateirechte-und-besitz/umask-als-standard-verstehen-v115"
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "rechte und sicherheit"
-  - "dateirechte und besitz"
-  - "lösung"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **umask als Standard verstehen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

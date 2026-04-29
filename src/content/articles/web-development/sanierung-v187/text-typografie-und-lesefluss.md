@@ -3,39 +3,17 @@ title: "Text, Typografie und Lesefluss"
 description: "Trenne Textstruktur, Hervorhebung und typografische Gestaltung bewusst voneinander."
 subject: "web-development"
 section: "html-css"
-topicPath: 
-  - "html-und-semantik"
-  - "text-und-lesefluss"
-learningGoals: 
-  - "Lesbare Texte im Web ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Gliedere einen langen Fließtext in Überschriften, Absätze und Listen für eine Lernseite."
-  - "Leite aus einem unruhigen Textbild drei CSS-Regeln ab, die den Lesefluss verbessern."
-commonMistakes: 
-  - "Fettung ersetzt eine echte Überschrift."
-  - "Zu viele Schriftgrößen erzeugen Unruhe."
-  - "Absätze werden nur über Leerzeilen simuliert."
-keyTakeaways: 
-  - "Ein guter Webtext bleibt auch ohne Design verständlich und wird durch CSS nur ruhiger lesbar gemacht."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "Ein guter Webtext bleibt auch ohne Design verständlich und wird durch CSS nur ruhiger lesbar gemacht."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "text-typografie-und-lesefluss"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags: 
-  - "text"
-  - "typografie"
-  - "lesbarkeit"
-  - "css"
-  - "web-development"
+tags: ["web-development", "html-css"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Text, Typografie und Lesefluss](/schlaufuchs-platform/images/web-development/sanierung-v187/text-typografie-und-lesefluss.svg)
 
     Text, Typografie und Lesefluss ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

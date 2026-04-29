@@ -1,34 +1,19 @@
 ---
 title: "Netzwerke und Protokolle"
 description: "Überblick über Netzwerke als Verbindung von Systemen und Protokolle als Regeln für Kommunikation."
-subject: informatik
+subject: "informatik"
 section: "Netzwerke"
-topicPath:
-  - "netzwerke-und-protokolle"
-  - "ueberblick"
-learningGoals:
-  - "Du verstehst Netzwerke als strukturierte Kommunikation zwischen Systemen."
-  - "Du kennst Protokolle als Regeln für Austausch und Interpretation von Daten."
-  - "Du kannst Adresse, Dienst und Nachricht grob unterscheiden."
+topicPath: ["netzwerke-und-protokolle", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "IP-Adresse, Port und Protokoll zu vermischen."
-  - "Netzwerkfehler nur auf eine einzelne Ursache zurückzuführen."
-keyTakeaways:
-  - "Netzwerke verbinden Geräte, Protokolle legen Kommunikationsregeln fest."
-  - "Adressierung, Transport und Anwendungsebene erfüllen unterschiedliche Aufgaben."
-recognizeSignals:
-  - "Es geht um IP, Port, DNS, TCP, UDP, HTTP, Paket, Verbindung oder Client-Server."
-selfCheckPoints:
-  - "Kann ich erklären, warum eine IP-Adresse allein noch keinen konkreten Dienst beschreibt?"
-level: einfach
-tags:
-  - "informatik"
-  - "netzwerke"
-  - "protokolle"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Netzwerke"]
 draft: false
 ---
-
 # Netzwerke und Protokolle
 
 ![Schaubild zu Netzwerken und Protokollen.](/schlaufuchs-platform/images/overviews/v148/netzwerke-und-protokolle.svg)

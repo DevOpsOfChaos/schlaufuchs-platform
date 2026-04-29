@@ -1,43 +1,17 @@
 ---
 title: "HTML – dekorative und informative Bilder unterscheiden"
 description: "Verstehe, wann ein Bild einen Alternativtext braucht und wann ein leeres alt-Attribut die bessere Lösung ist."
-subject: web-development
+subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "bilder-und-alt-texte"
-  - "dekorative-und-informative-bilder-unterscheiden"
-learningGoals:
-  - "Du unterscheidest dekorative von informativen Bildern."
-  - "Du formulierst Alternativtexte nach Funktion statt nach Dateiname."
-  - "Du erkennst, warum alt=\"\" bewusst richtig sein kann."
-practiceIdeas:
-  - "Entscheide bei drei Bildern, ob sie Information tragen oder nur schmücken."
-  - "Formuliere einen Alt-Text für ein Diagramm und einen für ein Icon."
-  - "Prüfe, ob Bildunterschrift und Alt-Text dieselbe Information doppeln."
-commonMistakes:
-  - "Jedes Bild mit „Bild von ...“ zu beginnen."
-  - "Dekorative Bilder mit langen Alt-Texten zu versehen."
-  - "Informative Diagramme nur mit Dateinamen zu beschreiben."
-keyTakeaways:
-  - "Der Alt-Text beschreibt die Funktion des Bildes im Kontext."
-  - "Dekorative Bilder dürfen alt=\"\" haben."
-  - "Informative Bilder brauchen die entscheidende Aussage, nicht jedes Pixel."
-recognizeSignals:
-  - "Es geht um img, alt, Icons, Diagramme oder dekorative Bilder."
-  - "Eine Aufgabe fragt, warum ein leeres alt nicht automatisch falsch ist."
-  - "Bild und Text transportieren teilweise dieselbe Information."
-selfCheckPoints:
-  - "Ist das Bild für das Verständnis nötig?"
-  - "Welche Information ginge ohne Bild verloren?"
-  - "Doppelt der Alt-Text nur sichtbaren Text?"
-tags:
-  - "web development"
-  - "html"
-  - "bilder"
-  - "alt text"
-  - "accessibility"
-level: einfach
+topicPath: ["html", "bilder-und-alt-texte", "dekorative-und-informative-bilder-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
 ## Grundidee

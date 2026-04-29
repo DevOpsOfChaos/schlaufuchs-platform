@@ -3,23 +3,12 @@ title: "Lösung – Fokus nach Dialogschluss zurückführen"
 description: "Musterlösung zu Dialog-Fokus mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "html-a11y"
-  - "semantik-status-fokus"
-  - "fokus"
-  - "fokus-nach-dialogschluss-zurueckfuehren"
+topicPath: ["html-a11y", "semantik-status-fokus", "fokus", "fokus-nach-dialogschluss-zurueckfuehren"]
 taskId: "v111-web-development-fokus-nach-dialogschluss-zurueckfuehren"
 relatedExercise: "web-development/html-a11y/semantik-status-fokus/fokus/fokus-nach-dialogschluss-zurueckfuehren"
-tags:
-  - "web development"
-  - "frontend"
-  - "unterthema"
-  - "html-a11y"
-  - "semantik-status-fokus"
-  - "fokus-nach-dialogschluss-zurueckfuehren"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Dialog-Fokus**.

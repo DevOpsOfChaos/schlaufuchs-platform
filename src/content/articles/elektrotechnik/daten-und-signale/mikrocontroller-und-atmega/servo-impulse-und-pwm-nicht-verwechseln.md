@@ -3,42 +3,15 @@ title: "Mikrocontroller – Servo-Impulse und PWM nicht verwechseln"
 description: "Verstehe, warum ein Servosignal zwar periodische Impulse nutzt, aber nicht einfach dieselbe Bedeutung wie Helligkeits-PWM hat."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "servo-impulse-und-pwm-nicht-verwechseln"
-learningGoals:
-  - "Du unterscheidest Tastverhältnis-PWM und Servo-Impulssteuerung."
-  - "Du erklärst, warum beim Servo die Impulsbreite die Position beschreibt."
-  - "Du vermeidest, Mittelwertdenken unkritisch auf Servos zu übertragen."
-practiceIdeas:
-  - "Vergleiche LED-Dimmen mit Servoposition."
-  - "Markiere Periodendauer und Impulsbreite in einer Skizze."
-  - "Erkläre, warum ein Servo eine eigene Versorgung braucht."
-commonMistakes:
-  - "Servo-Pulse als analoge Spannung über Mittelwert zu deuten."
-  - "Servostrom direkt aus dem Mikrocontroller-Pin zu ziehen."
-  - "Periodendauer und Impulsbreite durcheinanderzubringen."
-keyTakeaways:
-  - "Ein Servo bekommt ein Steuersignal, keine Leistungsversorgung aus dem Signalpin."
-  - "Die Impulsbreite codiert die gewünschte Position."
-  - "Normale PWM für Helligkeit und Servosignal haben unterschiedliche Lesarten."
-recognizeSignals:
-  - "Es geht um Servomotor, 1 ms bis 2 ms Impuls oder etwa 20 ms Periode."
-  - "Eine Aufgabe vermischt LED-Dimmen und Servoposition."
-  - "Stromversorgung und Signalpin müssen getrennt werden."
-selfCheckPoints:
-  - "Kann ich Impulsbreite und Tastverhältnis unterscheiden?"
-  - "Kann ich erklären, warum der Signalpin keinen Motorstrom liefert?"
-  - "Kann ich Servo-PWM von LED-PWM abgrenzen?"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "servo"
-  - "pwm"
-  - "impulsbreite"
-  - "signal"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "servo-impulse-und-pwm-nicht-verwechseln"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
 ## Grundidee

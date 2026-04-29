@@ -3,22 +3,12 @@ title: "Lösung: Datenrate und Bandbreite: Grundordnung"
 description: "Musterlösung zur Aufgabe dat-v189-017a."
 subject: "daten-und-signale"
 section: "uebertragung"
-topicPath:
-  - "uebertragung"
-  - "datenrate-und-bandbreite"
-  - "loesung-a"
+topicPath: ["sanierung-v189", "datenrate-und-bandbreite-aufgabe-a"]
 taskId: "dat-v189-017a"
 relatedExercise: "daten-und-signale/sanierung-v189/datenrate-und-bandbreite-aufgabe-a"
-tags:
-  - "datenrate"
-  - "bandbreite"
-  - "uebertragung"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-017a`
 
 Eine mögliche Lösung:

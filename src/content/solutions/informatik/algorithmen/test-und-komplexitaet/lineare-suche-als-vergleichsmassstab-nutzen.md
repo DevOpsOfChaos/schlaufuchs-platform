@@ -3,21 +3,12 @@ title: "Lösung – Lineare Suche als Vergleichsmaßstab nutzen"
 description: "Musterlösung zu lineare suche als vergleichsmaßstab nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "algorithmen"
-  - "test-und-komplexitaet"
-  - "lineare-suche-als-vergleichsmassstab-nutzen"
+topicPath: ["algorithmen", "test-und-komplexitaet", "lineare-suche-als-vergleichsmassstab-nutzen"]
 taskId: "v112-informatik-lineare-suche-als-vergleichsmassstab-nutzen"
 relatedExercise: "informatik/algorithmen/test-und-komplexitaet/lineare-suche-als-vergleichsmassstab-nutzen"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "algorithmen"
-  - "lineare-suche-als-vergleichsmassstab-nutzen"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Tests und Komplexität**.

@@ -3,22 +3,12 @@ title: "Lösung: Datenkritik und Zufall: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-049a."
 subject: "mathematik"
 section: "daten-und-wahrscheinlichkeit"
-topicPath:
-  - "daten-und-wahrscheinlichkeit"
-  - "datenkritik-und-zufall"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "datenkritik-und-zufall-aufgabe-a"]
 taskId: "mat-v188-049a"
 relatedExercise: "mathematik/sanierung-v188/datenkritik-und-zufall-aufgabe-a"
-tags:
-  - "datenkritik"
-  - "zufall"
-  - "stichprobe"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "daten-und-wahrscheinlichkeit", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-049a`
 
 Eine mögliche Lösung:

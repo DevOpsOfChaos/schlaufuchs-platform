@@ -3,20 +3,12 @@ title: "Lösung – Arbeitsverzeichnis vor Befehlen prüfen"
 description: "Musterlösung zu Arbeitsverzeichnis vor Befehlen prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "orientierung-und-pfade"
-  - "arbeitsverzeichnis-vor-befehlen-pruefen-v113"
+topicPath: ["shell", "orientierung-und-pfade", "arbeitsverzeichnis-vor-befehlen-pruefen-v113"]
 taskId: "v113-linux-arbeitsverzeichnis-vor-befehlen-pruefen-v113"
 relatedExercise: "linux/shell/orientierung-und-pfade/arbeitsverzeichnis-vor-befehlen-pruefen-v113"
-tags:
-  - "linux"
-  - "strukturcheck"
-  - "unterthema"
-  - "arbeitsverzeichnis-vor-befehlen-pruefen-v113"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Arbeitsverzeichnis vor Befehlen prüfen**.

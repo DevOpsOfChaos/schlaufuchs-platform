@@ -3,22 +3,12 @@ title: "Lösung – Fehlerbudget für Releaseentscheidung nutzen"
 description: "Musterlösung zu fehlerbudget für releaseentscheidung nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "performance-und-sicherheit"
-  - "fehlerbudget-fuer-releaseentscheidung-nutzen"
+topicPath: ["projektpraxis", "betrieb-und-release", "performance-und-sicherheit", "fehlerbudget-fuer-releaseentscheidung-nutzen"]
 taskId: "v112-web-development-fehlerbudget-fuer-releaseentscheidung-nutzen"
 relatedExercise: "web-development/projektpraxis/betrieb-und-release/performance-und-sicherheit/fehlerbudget-fuer-releaseentscheidung-nutzen"
-tags:
-  - "web-development"
-  - "v112"
-  - "feinstruktur"
-  - "projektpraxis"
-  - "fehlerbudget-fuer-releaseentscheidung-nutzen"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Betrieb, Performance und Sicherheit**.

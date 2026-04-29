@@ -3,21 +3,10 @@ title: "Lösung – ADC-Rauschen und Messfenster beurteilen"
 description: "Musterlösung zu „ADC-Rauschen und Messfenster beurteilen“."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "adc-rauschen-oversampling-und-messfenster"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "adc-rauschen-oversampling-und-messfenster"]
 taskId: "et-mc-v94-adc-rauschen"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/adc-rauschen-oversampling-und-messfenster"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "atmega"
-  - "adc"
-  - "rauschen"
-  - "oversampling"
-  - "mittelwert"
-  - "messfenster"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

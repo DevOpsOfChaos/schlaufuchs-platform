@@ -1,37 +1,19 @@
 ---
 title: "Summenzeichen"
 description: "Überblick über Sigma-Notation, Laufindex und die kompakte Darstellung von Summen."
-subject: mathematik
+subject: "mathematik"
 section: "Notation"
-topicPath:
-  - "summenzeichen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Summenzeichen als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["summenzeichen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Den Laufindex mit einer freien Variable zu verwechseln oder Grenzen falsch mitzulesen."
-keyTakeaways:
-  - "Sigma-Notation fasst wiederholte Addition zusammen."
-  - "Index, Grenzen und Summand müssen getrennt gelesen werden."
-  - "Ausmultiplizieren einzelner Fälle hilft beim Verstehen."
-recognizeSignals:
-  - "Viele ähnliche Terme werden addiert."
-  - "Ein Ausdruck enthält `Σ`, Laufindex und Grenzen."
-selfCheckPoints:
-  - "Kann ich Summenzeichen in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "notation"
-  - "summen"
-  - "sigma"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Notation"]
 draft: false
 ---
-
 # Summenzeichen
 
 Das Summenzeichen `Σ` fasst viele ähnlich aufgebaute Summanden in einer kompakten Schreibweise zusammen.

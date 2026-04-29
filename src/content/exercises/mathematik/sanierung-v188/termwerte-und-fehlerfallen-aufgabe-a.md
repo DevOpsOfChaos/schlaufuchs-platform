@@ -3,33 +3,15 @@ title: "Termwerte und Fehlerfallen: Grundordnung"
 description: "Ordne Termwerte und Fehlerfallen in Zweck, Prüffragen und Fehlerquellen."
 subject: "mathematik"
 section: "rechenstrategien-und-kontrolle"
-topicPath:
-  - "rechenstrategien-und-kontrolle"
-  - "termwerte-und-fehlerfallen"
-  - "aufgabe-a"
+topicPath: ["sanierung-v188", "termwerte-und-fehlerfallen-aufgabe-a"]
 taskId: "mat-v188-007a"
-tags:
-  - "terme"
-  - "fehler"
-  - "kontrolle"
-  - "mathematik"
-  - "aufgabe"
-  - "v188"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["mathematik", "rechenstrategien-und-kontrolle", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Du arbeitest am Thema **Termwerte und Fehlerfallen**. Erstelle eine kurze, geordnete Erklärung für eine lernende Person.

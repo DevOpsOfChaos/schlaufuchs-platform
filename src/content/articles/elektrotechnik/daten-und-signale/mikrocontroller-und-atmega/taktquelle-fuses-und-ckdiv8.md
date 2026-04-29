@@ -3,43 +3,15 @@ title: "ATmega – Taktquelle, Fuses und CKDIV8 ruhig lesen"
 description: "Verstehe, warum der eingestellte Systemtakt viele scheinbar getrennte Fehler bei UART, Delay, Timer und Upload erklären kann."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "taktquelle-fuses-und-ckdiv8"
-learningGoals:
-  - "Du erklärst, warum Taktquelle und Fuse-Einstellungen das Zeitverhalten bestimmen."
-  - "Du erkennst CKDIV8 als möglichen Grund für unerwartet langsame Abläufe."
-  - "Du prüfst Timingfehler nicht nur im Code, sondern auch in der Taktkonfiguration."
-practiceIdeas:
-  - "Vergleiche erwartete und beobachtete Blinkfrequenz."
-  - "Prüfe bei UART-Müllzeichen auch den tatsächlichen Systemtakt."
-  - "Ordne Fuse-Fragen vorsichtig ein, bevor du Änderungen vornimmst."
-commonMistakes:
-  - "Nur den Quelltext zu prüfen und den realen Takt zu vergessen."
-  - "Fuse-Einstellungen ohne Sicherung und Verständnis zu ändern."
-  - "UART-Fehler ausschließlich der Verdrahtung zuzuschreiben."
-keyTakeaways:
-  - "Der Systemtakt ist die Zeitbasis für Delay, Timer und serielle Schnittstellen."
-  - "CKDIV8 kann einen Controller deutlich langsamer laufen lassen als erwartet."
-  - "Fuse-Änderungen sind mächtig und sollten kontrolliert erfolgen."
-recognizeSignals:
-  - "Blinken ist zu langsam oder zu schnell."
-  - "UART-Zeichen sind unlesbar, obwohl RX/TX und GND stimmen."
-  - "Upload oder ISP-Verbindung wirkt abhängig vom Takt auffällig."
-selfCheckPoints:
-  - "Kann ich erklären, welche Rolle der Systemtakt für Timer und UART spielt?"
-  - "Kann ich CKDIV8 als Verdächtigen benennen?"
-  - "Kann ich Fuse-Änderungen als Konfigurationsschritt statt normalen Code lesen?"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "atmega"
-  - "takt"
-  - "fuses"
-  - "ckdiv8"
-  - "debugging"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "taktquelle-fuses-und-ckdiv8"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
 ## Grundidee

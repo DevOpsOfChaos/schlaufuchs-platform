@@ -3,23 +3,12 @@ title: "Lösung – journalctl nach Dienst und Zeit eingrenzen"
 description: "Musterlösung zu Journal eingrenzen mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "System"
-topicPath:
-  - "system"
-  - "dienste-und-systemd"
-  - "journalzeit"
-  - "journalctl-nach-dienst-und-zeit-eingrenzen"
+topicPath: ["system", "dienste-und-systemd", "journalzeit", "journalctl-nach-dienst-und-zeit-eingrenzen"]
 taskId: "v108-linux-journalctl-nach-dienst-und-zeit-eingrenzen"
 relatedExercise: "linux/system/dienste-und-systemd/journalzeit/journalctl-nach-dienst-und-zeit-eingrenzen"
-tags:
-  - "linux"
-  - "shell"
-  - "praxis"
-  - "system"
-  - "dienste-und-systemd"
-  - "journal eingrenzen"
+tags: ["linux", "System", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **Journal eingrenzen**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

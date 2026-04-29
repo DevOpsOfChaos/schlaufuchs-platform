@@ -3,35 +3,15 @@ title: "Aufgabe – Browser: Performance-Profiling mit DevTools lesen"
 description: "Übe: Lerne, Performance-Probleme nicht nach Gefühl zu bewerten, sondern Messspuren, lange Tasks und Renderarbeit zu lesen."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "debugging-und-diagnose"
-  - "performance-profiling-mit-devtools-lesen"
+topicPath: ["javascript", "debugging-und-diagnose", "performance-profiling-mit-devtools-lesen"]
 taskId: "web-v102-performance-profiling-mit-devtools-lesen"
-tags:
-  - "web development"
-  - "browser"
-  - "devtools"
-  - "performance"
-  - "profiling"
-  - "aufgabe"
-hintPoints:
-  - "Lies zuerst den Zustand, nicht nur den Code."
-  - "Achte auf sichtbare Rückmeldung und Bedienbarkeit."
-  - "Begründe deine Entscheidung mit einem konkreten Nutzerfall."
-selfCheckPoints:
-  - "Ist die Verbesserung prüfbar?"
-  - "Ist die Rückmeldung konkret formuliert?"
-  - "Passt die Technik wirklich zur Situation?"
-transferIdeas:
-  - "Übertrage die Lösung auf eine zweite Komponente."
-  - "Beschreibe den gleichen Gedanken einmal ohne Fachsprache."
-  - "Prüfe, ob ein Fehlerfall eine andere Rückmeldung braucht."
-reflectionPrompt: "Was ist bei „Browser – Performance-Profiling mit DevTools lesen“ der wichtigste Unterschied zwischen einer optischen Lösung und einer wirklich robusten Lösung?"
+tags: ["web-development", "JavaScript", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Beschreibe einen Messablauf für eine ruckelige Filterliste.

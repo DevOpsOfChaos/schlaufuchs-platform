@@ -1,12 +1,17 @@
 ---
-title: Arrays in C auswerten
-description: Diese Aufgabe trainiert den sicheren Umgang mit Indizes, Schleifenbedingungen und einfachen Auswertungen in C.
-subject: informatik
-section: Programmierung
-level: mittel
+title: "Arrays in C auswerten"
+description: "Diese Aufgabe trainiert den sicheren Umgang mit Indizes, Schleifenbedingungen und einfachen Auswertungen in C."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["arrays-in-c-auswerten"]
+taskId: "AUTO-ARRAYS-IN-C-AUSWERTEN"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Lies die kurzen Codeausschnitte sorgfältig. Bearbeite die Aufgaben zunächst ohne Compiler und prüfe danach deine Überlegungen mit sauberer Begründung.

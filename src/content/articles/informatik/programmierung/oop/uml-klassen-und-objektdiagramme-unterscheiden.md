@@ -1,47 +1,19 @@
 ---
-title: UML-Klassen- und Objektdiagramme unterscheiden
-description: Verstehe, wann UML eher einen Bauplan zeigt und wann konkrete Instanzen mit ihren aktuellen Werten sichtbar werden.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - uml-klassen-und-objektdiagramme-unterscheiden
-learningGoals:
-  - Du unterscheidest Klassendiagramm und Objektdiagramm.
-  - Du erklaerst, warum das eine eher Struktur und das andere eher Zustand zeigt.
-  - Du liest Klasse und konkrete Instanz auch in UML ruhiger.
-practiceIdeas:
-  - Ordne einem Diagramm zu, ob es Klassen oder konkrete Objekte zeigt.
-  - Pruefe, ob Attributwerte oder nur Attributnamen dargestellt werden.
-  - Uebertrage ein Klassendiagramm auf zwei moegliche Objektdiagramme.
-commonMistakes:
-  - Objektnamen fuer Klassennamen zu halten.
-  - Attributwerte und Attributtypen zu vermischen.
-  - Zu uebersehen, dass ein Objektdiagramm nur einen Momentzustand zeigt.
-keyTakeaways:
-  - Klassendiagramme zeigen den Bauplan.
-  - Objektdiagramme zeigen konkrete Instanzen und Werte.
-  - Beide gehoeren zusammen, beantworten aber unterschiedliche Fragen.
-recognizeSignals:
-  - Ein Diagramm zeigt Typen, Methoden oder Sichtbarkeiten.
-  - Ein anderes Diagramm zeigt konkrete Namen und aktuelle Werte.
-  - Die Aufgabe fragt nach Bauplan oder Momentaufnahme.
-selfCheckPoints:
-  - Kann ich Bauplan und Instanz auch grafisch unterscheiden?
-  - Kann ich sagen, welches Diagramm konkrete Werte zeigt?
-  - Kann ich beide Diagrammarten als zusammengehoerig beschreiben?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - uml
-  - klasse
-  - objekt
+title: "UML-Klassen- und Objektdiagramme unterscheiden"
+description: "Verstehe, wann UML eher einen Bauplan zeigt und wann konkrete Instanzen mit ihren aktuellen Werten sichtbar werden."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "uml-klassen-und-objektdiagramme-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Auch in UML taucht dieselbe Trennung wieder auf wie in OOP selbst:

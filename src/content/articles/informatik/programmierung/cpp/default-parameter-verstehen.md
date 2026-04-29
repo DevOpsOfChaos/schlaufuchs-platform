@@ -1,47 +1,19 @@
 ---
-title: Default-Parameter verstehen
-description: Verstehe, wie Vorgabewerte in Funktionssignaturen Aufrufe verkürzen und wo ihre Grenzen liegen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - funktionen-und-parameter
-  - default-parameter-verstehen
-learningGoals:
-  - Du erklärst, was ein Default-Parameter leistet.
-  - Du erkennst, warum Vorgabewerte am Ende der Parameterliste stehen müssen.
-  - Du liest Funktionsaufrufe ruhiger, wenn nicht alle Argumente explizit angegeben sind.
-practiceIdeas:
-  - Vergleiche zwei Funktionsaufrufe derselben Funktion mit und ohne letzten Parameter.
-  - Formuliere in Worten, welchen Wert der Compiler einsetzt, wenn ein Argument fehlt.
-  - Prüfe bei einer Signatur, ob die Reihenfolge der Default-Parameter fachlich sinnvoll ist.
-commonMistakes:
-  - Zu denken, Default-Parameter seien eigene überladene Funktionen.
-  - Vorgabewerte mitten in der Parameterliste zu erwarten.
-  - Nicht zu prüfen, welche Argumente beim Aufruf wirklich noch angegeben werden müssen.
-keyTakeaways:
-  - Default-Parameter liefern einen Vorgabewert, wenn beim Aufruf ein Argument fehlt.
-  - Sie gehören an das Ende der Parameterliste.
-  - Sie machen Aufrufe kürzer, ersetzen aber keine saubere Signatur.
-recognizeSignals:
-  - Eine Funktion kann mit unterschiedlich vielen Argumenten aufgerufen werden.
-  - In einer Signatur taucht ein Gleichheitszeichen mit Vorgabewert auf.
-  - Du sollst erklären, welcher Wert eingesetzt wird, wenn ein Argument fehlt.
-selfCheckPoints:
-  - Kann ich den Unterschied zwischen Pflichtargument und Vorgabewert erklären?
-  - Kann ich sagen, welcher Wert bei einem verkürzten Aufruf verwendet wird?
-  - Kann ich begründen, warum Default-Parameter am Ende stehen?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - funktionen
-  - parameter
+title: "Default-Parameter verstehen"
+description: "Verstehe, wie Vorgabewerte in Funktionssignaturen Aufrufe verkürzen und wo ihre Grenzen liegen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "default-parameter-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Manche Funktionen brauchen fast immer dieselben Werte für bestimmte Parameter. Ein Default-Parameter erlaubt deshalb, in der Signatur einen Vorgabewert festzulegen. Wenn dieser Wert beim Aufruf nicht mitgegeben wird, setzt der Compiler genau diesen Standardwert ein.

@@ -1,36 +1,19 @@
 ---
 title: "Stochastische Unabhängigkeit"
 description: "Stochastische Unabhängigkeit bedeutet, dass das Eintreten eines Ereignisses die Wahrscheinlichkeit eines anderen Ereignisses nicht verändert."
-subject: mathematik
+subject: "mathematik"
 section: "Stochastik"
-topicPath:
-  - "stochastische-unabhaengigkeit"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Stochastische Unabhängigkeit als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["stochastische-unabhaengigkeit", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden unabhängige und disjunkte Ereignisse verwechselt."
-keyTakeaways:
-  - "Stochastische Unabhängigkeit bedeutet, dass das Eintreten eines Ereignisses die Wahrscheinlichkeit eines anderen Ereignisses nicht verändert."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Stochastische Unabhängigkeit, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Stochastische Unabhängigkeit in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "wahrscheinlichkeit"
-  - "unabhaengigkeit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Stochastik"]
 draft: false
 ---
-
 # Stochastische Unabhängigkeit
 
 Stochastische Unabhängigkeit bedeutet, dass das Eintreten eines Ereignisses die

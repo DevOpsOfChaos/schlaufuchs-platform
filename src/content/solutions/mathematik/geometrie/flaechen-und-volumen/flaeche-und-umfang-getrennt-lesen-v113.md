@@ -3,20 +3,12 @@ title: "Lösung – Fläche und Umfang getrennt lesen"
 description: "Musterlösung zu Fläche und Umfang getrennt lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "geometrie"
-  - "flaechen-und-volumen"
-  - "flaeche-und-umfang-getrennt-lesen-v113"
+topicPath: ["geometrie", "flaechen-und-volumen", "flaeche-und-umfang-getrennt-lesen-v113"]
 taskId: "v113-mathematik-flaeche-und-umfang-getrennt-lesen-v113"
 relatedExercise: "mathematik/geometrie/flaechen-und-volumen/flaeche-und-umfang-getrennt-lesen-v113"
-tags:
-  - "mathematik"
-  - "strukturcheck"
-  - "unterthema"
-  - "flaeche-und-umfang-getrennt-lesen-v113"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Fläche und Umfang getrennt lesen**.

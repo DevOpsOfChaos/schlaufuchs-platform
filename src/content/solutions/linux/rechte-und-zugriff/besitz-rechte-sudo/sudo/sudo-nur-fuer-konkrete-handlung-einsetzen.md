@@ -3,23 +3,12 @@ title: "Lösung – sudo nur für konkrete Handlung einsetzen"
 description: "Musterlösung zu sudo-Grenzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "rechte-und-zugriff"
-  - "besitz-rechte-sudo"
-  - "sudo"
-  - "sudo-nur-fuer-konkrete-handlung-einsetzen"
+topicPath: ["rechte-und-zugriff", "besitz-rechte-sudo", "sudo", "sudo-nur-fuer-konkrete-handlung-einsetzen"]
 taskId: "v111-linux-sudo-nur-fuer-konkrete-handlung-einsetzen"
 relatedExercise: "linux/rechte-und-zugriff/besitz-rechte-sudo/sudo/sudo-nur-fuer-konkrete-handlung-einsetzen"
-tags:
-  - "linux"
-  - "betrieb"
-  - "unterthema"
-  - "rechte-und-zugriff"
-  - "besitz-rechte-sudo"
-  - "sudo-nur-fuer-konkrete-handlung-einsetzen"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **sudo-Grenzen**.

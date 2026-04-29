@@ -3,23 +3,12 @@ title: "Lösung – Steigung aus Graph, Tabelle und Text verbinden"
 description: "Musterlösung zu Steigung in Darstellungen mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "funktionen"
-  - "lineare-funktionen"
-  - "darstellungswechsel"
-  - "steigung-aus-graph-tabelle-und-text-verbinden"
+topicPath: ["funktionen", "lineare-funktionen", "darstellungswechsel", "steigung-aus-graph-tabelle-und-text-verbinden"]
 taskId: "v107-mathematik-steigung-aus-graph-tabelle-und-text-verbinden"
 relatedExercise: "mathematik/funktionen/lineare-funktionen/darstellungswechsel/steigung-aus-graph-tabelle-und-text-verbinden"
-tags:
-  - "mathematik"
-  - "rechnen"
-  - "modellieren"
-  - "steigung in darstellungen"
-  - "funktionen"
-  - "lineare-funktionen"
+tags: ["mathematik", "Funktionen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Steigung in Darstellungen**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

@@ -3,23 +3,12 @@ title: "Lösung – Backup-Dry-run und Restore-Test kombinieren"
 description: "Musterlösung zu Dry-run und Restore-Test mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Praxis"
-topicPath:
-  - "praxis"
-  - "backup-und-wiederherstellung"
-  - "dry-run-restore"
-  - "backup-dry-run-und-restore-test-kombinieren"
+topicPath: ["praxis", "backup-und-wiederherstellung", "dry-run-restore", "backup-dry-run-und-restore-test-kombinieren"]
 taskId: "v109-linux-backup-dry-run-und-restore-test-kombinieren"
 relatedExercise: "linux/praxis/backup-und-wiederherstellung/dry-run-restore/backup-dry-run-und-restore-test-kombinieren"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "praxis"
-  - "backup-und-wiederherstellung"
-  - "dry-run und restore-test"
+tags: ["linux", "Praxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Dry-run und Restore-Test**.

@@ -3,43 +3,17 @@ title: "Koordinaten und Lagebeziehungen – Überblick"
 description: "Eine allgemeine Einführung in Punkte, Koordinatensysteme und Lagebeziehungen in der Geometrie."
 subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - "geometrie"
-  - "koordinaten-und-lagebeziehungen"
-  - "ueberblick"
-learningGoals:
-  - "Du verstehst, warum Koordinaten geometrische Objekte eindeutig beschreibbar machen."
-  - "Du unterscheidest Punkte, Richtungen, Abstände und Lagebeziehungen."
-  - "Du erkennst, warum eine Übersicht vor einzelnen Rechenverfahren hilfreich ist."
-practiceIdeas:
-  - "Zeichne ein Koordinatensystem und markiere mehrere Punkte mit ihren Koordinaten."
-  - "Beschreibe in Alltagssprache, wann zwei Geraden parallel, schneidend oder identisch sind."
-  - "Prüfe bei jeder Aufgabe zuerst, welche Objekte überhaupt verglichen werden."
-commonMistakes:
-  - "Koordinaten nur als Zahlenpaar zu sehen und die geometrische Bedeutung zu übergehen."
-  - "Abstand, Richtung und Lagebeziehung miteinander zu vermischen."
-  - "Eine Formel zu verwenden, bevor klar ist, welche geometrische Frage gestellt wird."
-keyTakeaways:
-  - "Koordinaten verbinden geometrische Anschauung mit rechnerischer Beschreibung."
-  - "Lagebeziehungen beschreiben, wie Punkte, Geraden oder Figuren zueinander liegen."
-  - "Vor dem Rechnen hilft eine Skizze, weil sie die eigentliche Frage sichtbar macht."
-recognizeSignals:
-  - "Eine Aufgabe fragt nach Punkten, Geraden, Abstand, Schnittpunkt oder Parallelität."
-  - "Koordinaten sollen nicht nur eingesetzt, sondern geometrisch gedeutet werden."
-  - "Mehrere Objekte müssen zuerst sauber benannt und dann verglichen werden."
-selfCheckPoints:
-  - "Kann ich die beteiligten Punkte oder Geraden in einer Skizze einordnen?"
-  - "Ist klar, ob nach Abstand, Richtung, Schnitt oder Lage gefragt wird?"
-  - "Kann ich mein Ergebnis geometrisch erklären?"
+topicPath: ["geometrie", "koordinaten-und-lagebeziehungen", "ueberblick", "grundlagen-koordinaten-und-lagebeziehungen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "mathematik"
-  - "geometrie"
-  - "koordinaten"
-  - "lagebeziehungen"
+tags: ["mathematik", "Geometrie"]
 draft: false
 ---
-
 ## Begriff und Grundidee
 
 Koordinaten sind Zahlenangaben, mit denen die Lage eines Punktes in einem festgelegten Bezugssystem beschrieben wird. In der ebenen Geometrie nutzt man meist ein Koordinatensystem mit einer waagerechten x-Achse und einer senkrechten y-Achse. Ein Punkt wie `P(3 | 2)` bedeutet dann: vom Ursprung aus drei Einheiten in x-Richtung und zwei Einheiten in y-Richtung.

@@ -3,44 +3,17 @@ title: "HTML – Mehrschrittige Formulare ruhig strukturieren"
 description: "Plane lange Formulare in nachvollziehbaren Schritten mit klarer Beschriftung, Speicherung und Fehlerrückmeldung."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "formulare-und-eingaben"
-  - "mehrschrittige-formulare-ruhig-strukturieren"
-learningGoals:
-  - "Du erklärst, welche Kernidee hinter „Mehrschrittige Formulare ruhig strukturieren“ steht."
-  - "Du trennst sichtbare Oberfläche, technische Umsetzung und Nutzererwartung sauber."
-  - "Du leitest aus einem kleinen Beispiel konkrete Verbesserungen für echte Seiten ab."
-practiceIdeas:
-  - "Prüfe eine vorhandene Seite mit genau diesem Blick und notiere drei Verbesserungen."
-  - "Formuliere ein schwaches Beispiel in eine nutzerfreundlichere Variante um."
-  - "Verbinde die technische Regel mit einer sichtbaren Auswirkung für Nutzerinnen und Nutzer."
-commonMistakes:
-  - "willkürliche Schrittgrenzen"
-  - "Fehler erst ganz am Ende zeigen"
-  - "Pflichtfelder verstecken"
-keyTakeaways:
-  - "Mehr Schritte lösen nur dann ein Problem, wenn sie Orientierung schaffen"
-  - "Gute Web-Entwicklung verbindet technische Korrektheit mit verständlicher Nutzerführung."
-  - "Eine kleine, klare Regel ist wertvoller als eine große Sammlung ungetesteter Sonderfälle."
-recognizeSignals:
-  - "Eine Oberfläche wirkt technisch vorhanden, aber für Nutzende unklar."
-  - "Ein Verhalten funktioniert im Idealfall, bricht aber bei Fehlern, langsamen Netzen oder anderen Geräten."
-  - "Du sollst nicht nur Code schreiben, sondern eine robuste Entscheidung begründen."
-selfCheckPoints:
-  - "Kann ich das Problem in einem Satz ohne Fachjargon erklären?"
-  - "Kann ich zeigen, woran Nutzende die Verbesserung bemerken?"
-  - "Kann ich eine einfache Prüffrage für den nächsten Review ableiten?"
-tags:
-  - "web development"
-  - "html"
-  - "formulare"
-  - "ux"
-  - "mehrschrittig"
-level: mittel
+topicPath: ["html", "formulare-und-eingaben", "mehrschrittige-formulare-ruhig-strukturieren"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein langes Formular wird nicht automatisch besser, nur weil es in mehrere Seiten zerlegt wird. Hilfreich wird es erst, wenn jeder Schritt eine klare Aufgabe hat und Fehler, Fortschritt und Zurück-Navigation zuverlässig bleiben.

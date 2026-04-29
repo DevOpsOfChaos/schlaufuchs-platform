@@ -1,46 +1,19 @@
 ---
-title: ATmega UART Baudratenfehler und Toleranz verstehen
-description: Verstehe, warum UART nicht nur nominal dieselbe Baudrate braucht, sondern auch kleine Abweichungen innerhalb eines tolerierbaren Fensters.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - uart-und-serielle-schnittstellen
-  - atmega-uart-baudratenfehler-und-toleranz-verstehen
-learningGoals:
-  - Du erklärst, warum bei UART kleine Baudratenabweichungen relevant sind.
-  - Du beschreibst Toleranz eher als Timingfenster als als reine Prozentzahl.
-  - Du liest UART-Fehler nicht nur als Kabelproblem, sondern auch als Taktthema.
-practiceIdeas:
-  - Vergleiche Soll-Baudrate und tatsächlich eingestellte Baudrate.
-  - Begründe, warum ein kleines Timingdriften über ein ganzes Zeichen relevant wird.
-  - Lies UART-Fehlerbilder auch als Frage nach Taktquelle und UBRR-Einstellung.
-commonMistakes:
-  - Zu denken, nur exakt gleiche Sollwerte würden funktionieren.
-  - Kleine Abweichungen komplett zu ignorieren.
-  - UART-Probleme sofort nur auf Verdrahtung oder Pegel zu schieben.
-keyTakeaways:
-  - UART arbeitet mit einem zeitlichen Empfangsfenster.
-  - Kleine Baudratenabweichungen können tolerierbar sein, große nicht.
-  - Taktquelle, UBRR-Wahl und Gegenstelle müssen gemeinsam betrachtet werden.
-recognizeSignals:
-  - Es geht um Baudrate, UBRR, Zeichenfehler oder instabilen seriellen Empfang.
-  - Du sollst erklären, warum nominal gleiche Kommunikation praktisch trotzdem unruhig sein kann.
-  - In Beispielen ist die Zeitbasis wichtiger als das Zeichen selbst.
-selfCheckPoints:
-  - Kann ich erklären, warum Baudratenabweichung ein Timingthema ist?
-  - Kann ich UART-Fehler als mögliches Taktproblem mitdenken?
-  - Kann ich Sollwert und tatsächlich entstehende Baudrate auseinanderhalten?
-tags:
-  - elektrotechnik
-  - atmega
-  - uart
-  - baudrate
-  - timing
-level: mittel
+title: "ATmega UART Baudratenfehler und Toleranz verstehen"
+description: "Verstehe, warum UART nicht nur nominal dieselbe Baudrate braucht, sondern auch kleine Abweichungen innerhalb eines tolerierbaren Fensters."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-uart-baudratenfehler-und-toleranz-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei UART ist nicht nur wichtig, **welche Baudrate eingestellt wurde**, sondern auch, **wie genau sie tatsächlich getroffen wird**. Gerade aus Taktquelle und Registerwahl ergibt sich oft eine kleine Abweichung – und genau die kann ruhig tolerierbar oder bereits problematisch sein.

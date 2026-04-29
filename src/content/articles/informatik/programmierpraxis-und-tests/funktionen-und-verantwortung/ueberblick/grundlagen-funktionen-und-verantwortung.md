@@ -1,35 +1,19 @@
 ---
 title: "Grundlagen: Funktionen und Verantwortung"
 description: "Eine gute Funktion hat eine erkennbare Aufgabe und macht Eingaben und Ergebnisse nachvollziehbar."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "funktionen-und-verantwortung"
-  - "ueberblick"
-learningGoals:
-  - "Du ordnest Funktionen und Verantwortung fachlich ein."
-  - "Du unterscheidest zentrale Begriffe und typische Rollen."
-  - "Du erkennst häufige Fehler beim Anwenden."
-practiceIdeas:
-  - "Formuliere die Grundidee in zwei Sätzen."
-  - "Ordne ein Beispiel den wichtigsten Begriffen zu."
-commonMistakes:
-  - "Zu viele Aufgaben in eine Funktion zu packen, sodass Name und Verhalten nicht mehr zusammenpassen."
-keyTakeaways:
-  - "Eine gute Funktion hat eine erkennbare Aufgabe und macht Eingaben und Ergebnisse nachvollziehbar."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung vor einer Einzelfalllösung."
-selfCheckPoints:
-  - "Kann ich die Grundbegriffe voneinander unterscheiden?"
-level: mittel
-tags:
-  - "informatik"
-  - "programmierpraxis-und-tests"
-  - "funktionen-und-verantwortung"
+topicPath: ["programmierpraxis-und-tests", "funktionen-und-verantwortung", "ueberblick", "grundlagen-funktionen-und-verantwortung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierpraxis und Tests"]
 draft: false
 ---
-
 ![Schaubild zu Funktionen und Verantwortung](/schlaufuchs-platform/images/overviews/v183/informatik-funktionen-und-verantwortung.svg)
 
 ## Begriff

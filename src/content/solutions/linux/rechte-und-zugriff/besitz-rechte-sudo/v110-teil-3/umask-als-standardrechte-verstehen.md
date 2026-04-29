@@ -3,23 +3,12 @@ title: "Lösung – umask als Standardrechte verstehen"
 description: "Musterlösung zu umask als Standardrechte verstehen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Rechte"
-topicPath:
-  - "rechte-und-zugriff"
-  - "besitz-rechte-sudo"
-  - "v110-teil-3"
-  - "umask-als-standardrechte-verstehen"
+topicPath: ["rechte-und-zugriff", "besitz-rechte-sudo", "v110-teil-3", "umask-als-standardrechte-verstehen"]
 taskId: "v110-linux-umask-als-standardrechte-verstehen"
 relatedExercise: "linux/rechte-und-zugriff/besitz-rechte-sudo/v110-teil-3/umask-als-standardrechte-verstehen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "rechte-und-zugriff"
-  - "besitz-rechte-sudo"
-  - "umask-als-standardrechte-verstehen"
+tags: ["linux", "Rechte", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **umask als Standardrechte verstehen**.

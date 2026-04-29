@@ -1,44 +1,19 @@
 ---
-title: Daten filtern und sortieren verstehen
-description: Verstehe, wie Tabellen nicht nur gespeichert, sondern gezielt nach Bedingungen durchsucht und sinnvoll geordnet werden.
-subject: informatik
-section: Datenbanken
-topicPath:
-  - datenbanken
-  - daten-filtern-und-sortieren-verstehen
-learningGoals:
-  - Du erklärst den Unterschied zwischen Filtern und Sortieren.
-  - Du beschreibst, wie Bedingungen eine Datensicht verändern.
-  - Du liest Tabellenabfragen ruhiger als Auswahl und Ordnung statt als „andere Daten“.
-practiceIdeas:
-  - Wähle aus einer Tabelle nur die Zeilen aus, die zu einer Bedingung passen.
-  - Ordne dieselben Daten einmal nach Name und einmal nach Datum.
-  - Beschreibe, wie sich die Sicht auf dieselbe Tabelle durch Filtern und Sortieren ändert.
-commonMistakes:
-  - Filtern und Sortieren gleichzusetzen.
-  - Zu glauben, beim Filtern entstünden neue Daten.
-  - Die Reihenfolge zu ändern und das schon als Auswahl zu missverstehen.
-keyTakeaways:
-  - Filtern wählt passende Datensätze aus.
-  - Sortieren ordnet Datensätze nach einer Regel.
-  - Beides verändert die Sicht auf Daten, nicht unbedingt die Datenbasis selbst.
-recognizeSignals:
-  - Es geht um Tabellen, Datensätze, Bedingungen oder Reihenfolgen.
-  - Du sollst erklären, warum nur ein Teil der Tabelle sichtbar ist oder warum die Reihenfolge anders aussieht.
-  - In Beispielen muss Auswahl von Ordnung getrennt werden.
-selfCheckPoints:
-  - Kann ich Filtern und Sortieren sicher unterscheiden?
-  - Kann ich eine Bedingung für eine Datenauswahl formulieren?
-  - Kann ich erklären, warum dieselben Daten verschieden dargestellt werden können?
-tags:
-  - datenbanken
-  - tabellen
-  - filtern
-  - sortieren
-level: einfach
+title: "Daten filtern und sortieren verstehen"
+description: "Verstehe, wie Tabellen nicht nur gespeichert, sondern gezielt nach Bedingungen durchsucht und sinnvoll geordnet werden."
+subject: "informatik"
+section: "Datenbanken"
+topicPath: ["datenbanken", "daten-filtern-und-sortieren-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Datenbanken"]
 draft: false
 ---
-
 ## Grundidee
 
 In einer Tabelle stehen oft viele Datensätze. Damit diese Daten nutzbar werden, reicht Speichern allein nicht aus. Man muss sie auch **gezielt auswählen** und **sinnvoll ordnen** können.

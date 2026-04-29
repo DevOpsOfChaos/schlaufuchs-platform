@@ -3,22 +3,12 @@ title: "Lösung: Abhängigkeit benennen"
 description: "Musterlösung zur Aufgabe „Abhängigkeit benennen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "datenbanken-und-modelle"
-  - "normalisierung-und-redundanz"
-  - "abhaengigkeit-benennen-v116"
+topicPath: ["datenbanken-und-modelle", "normalisierung-und-redundanz", "abhaengigkeit-benennen-v116"]
 taskId: "abhaengigkeit-benennen-v116"
 relatedExercise: "informatik/datenbanken-und-modelle/normalisierung-und-redundanz/abhaengigkeit-benennen-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "normalisierung und redundanz"
-  - "abhaengigkeit benennen"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

@@ -1,13 +1,19 @@
 ---
-title: Links, Bilder und Pfade in HTML
-description: Verstehe, wie Webseiten Inhalte und Dateien miteinander verbinden.
-subject: web-development
-section: html
-level: einfach
-tags: [html, links, bilder, pfade]
+title: "Links, Bilder und Pfade in HTML"
+description: "Verstehe, wie Webseiten Inhalte und Dateien miteinander verbinden."
+subject: "web-development"
+section: "html"
+topicPath: ["html-links-bilder-pfade"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["html", "links", "bilder", "pfade"]
 draft: false
 ---
-
 Links und Bilder gehören zu den wichtigsten HTML-Bausteinen. Gleichzeitig führen sie direkt zu einer weiteren Grundfrage im Web: Wie hängen Dateien, Verzeichnisse und Pfade logisch zusammen?
 
 ## Links in HTML

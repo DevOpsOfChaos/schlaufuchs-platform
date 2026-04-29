@@ -1,34 +1,19 @@
 ---
 title: "Symbolische Links"
 description: "Allgemeiner Überblick über symbolische Links und ihre Rolle im Linux-Dateisystem."
-subject: linux
+subject: "linux"
 section: "Dateisystem"
-topicPath:
-  - "symbolische-links"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Symbolische Links als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["symbolische-links", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird ein Symlink wie eine Kopie behandelt. Änderungen am Ziel betreffen alle Zugriffe über den Link."
-keyTakeaways:
-  - "Symbolische Links machen Pfade flexibler, verlangen aber Verständnis für Zielpfade."
-  - "Symbolische Links sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Symbolische Links."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Symbolische Links erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "linux"
-  - "symlinks"
-  - "dateisystem"
-  - "pfade"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dateisystem"]
 draft: false
 ---
-
 # Symbolische Links
 
 Ein symbolischer Link ist ein Dateisystemeintrag, der auf einen anderen Pfad verweist.

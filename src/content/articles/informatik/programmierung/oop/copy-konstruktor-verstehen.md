@@ -1,46 +1,19 @@
 ---
-title: Kopier-Konstruktor verstehen
-description: Verstehe, warum Objekte beim Kopieren eigene spezielle Startlogik brauchen koennen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - kopier-konstruktor-verstehen
-learningGoals:
-  - Du erklaerst die Rolle eines Kopier-Konstruktors beim Erzeugen eines neuen Objekts aus einem vorhandenen Objekt.
-  - Du unterscheidest normales Zuweisen, Erzeugen und Kopieren sauber.
-  - Du erkennst, warum Kopieren mehr sein kann als nur Werte "irgendwie uebernehmen".
-practiceIdeas:
-  - Markiere in einer Klassendefinition den Kopier-Konstruktor.
-  - Vergleiche Objektanlage mit Parametern und Objektanlage durch Kopie.
-  - Beschreibe, wann ein neues Objekt aus einem bestehenden Objekt entsteht.
-commonMistakes:
-  - Den Kopier-Konstruktor mit dem Zuweisungsoperator gleichzusetzen.
-  - Zu denken, dass beim Kopieren gar kein neues Objekt entsteht.
-  - Kopieren nur als formalen Sonderfall statt als eigenen Start eines Objekts zu lesen.
-keyTakeaways:
-  - Ein Kopier-Konstruktor erzeugt ein neues Objekt auf Basis eines vorhandenen Objekts.
-  - Kopieren ist nicht dasselbe wie spaeteres Zuweisen an ein schon existierendes Objekt.
-  - Gerade bei verwalteten Ressourcen muss Kopieren bewusst gedacht werden.
-recognizeSignals:
-  - In der Klasse taucht ein Konstruktor mit einem Objekt derselben Klasse als Parameter auf.
-  - Eine Aufgabe zeigt Initialisierung aus einem vorhandenen Objekt.
-  - Es geht darum, ob beim Kopieren ein neues Objekt oder nur ein neuer Name entsteht.
-selfCheckPoints:
-  - Kann ich sagen, wann ein Kopier-Konstruktor beteiligt ist?
-  - Kann ich Kopieren und Zuweisen sauber trennen?
-  - Kann ich erklaeren, warum Kopieren fachlich ein neuer Objektstart ist?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - konstruktor
-  - kopieren
+title: "Kopier-Konstruktor verstehen"
+description: "Verstehe, warum Objekte beim Kopieren eigene spezielle Startlogik brauchen koennen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "copy-konstruktor-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Objekt kann nicht nur "frisch" mit Werten erzeugt werden. Es kann auch **aus einem vorhandenen Objekt** entstehen. Dann geht es nicht um einen normalen Methodenaufruf, sondern um einen besonderen Startfall: den Kopier-Konstruktor.

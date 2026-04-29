@@ -3,44 +3,17 @@ title: "Elektrotechnik – Sensorwert vor Schwellwert glätten"
 description: "Lerne sensorwert vor schwellwert glätten als kleines Unterthema mit Beispiel, Abgrenzung und Prüfstrategie."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "sensoren-und-aktoren"
-  - "sensorwert-vor-schwellwert-glaetten"
-learningGoals:
-  - "Du erklärst sensorwert vor schwellwert glätten in einem klaren Kontext."
-  - "Du grenzt das Unterthema von einem typischen Nachbarthema ab."
-  - "Du nutzt eine konkrete Gegenprobe statt nur eine Merkliste."
-practiceIdeas:
-  - "Formuliere ein eigenes Mini-Beispiel mit einer typischen Verwechslung."
-  - "Schreibe einen Prüfschritt auf, der das Ergebnis kontrolliert."
-  - "Ordne das Thema bewusst in den kleinen Unterpfad ein."
-commonMistakes:
-  - "Ein einziger Schwellenwert wird als ausreichend stabil angenommen."
-  - "Das Thema wird in einem breiten Sammelkapitel versteckt."
-  - "Die Lösung nennt ein Ergebnis, aber keinen prüfbaren Weg."
-keyTakeaways:
-  - "Glättung und Hysterese vermeiden instabile Entscheidungen."
-  - "Kleine Unterthemen machen Wiederholung und Suche einfacher."
-  - "Aufgabe und Lösung sollen dieselbe Trennkante verwenden."
-recognizeSignals:
-  - "Eine Aufgabe enthält einen Begriff, der leicht mit einem Nachbarthema verwechselt wird."
-  - "Ein Beispiel braucht vor der Rechnung oder Umsetzung eine Einordnung."
-  - "Eine Gegenprobe kann den gewählten Weg bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich den typischen Fehler fachlich ausschließen?"
-  - "Passt meine Lösung genau zum Unterpfad?"
-tags:
-  - "elektrotechnik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-signale"
-  - "sensorwert-vor-schwellwert-glaetten"
+topicPath: ["daten-und-signale", "sensoren-und-aktoren", "sensorwert-vor-schwellwert-glaetten"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik"]
 draft: false
 ---
-
 ## Grundidee
 
 **Sensorwert vor Schwellwert glätten** ist bewusst als kleines Unterthema angelegt. Lerne sensorwert vor schwellwert glätten als kleines Unterthema mit Beispiel, Abgrenzung und Prüfstrategie. Dadurch bleibt die Seite auffindbar und landet nicht in einem übergroßen Sammelbereich.

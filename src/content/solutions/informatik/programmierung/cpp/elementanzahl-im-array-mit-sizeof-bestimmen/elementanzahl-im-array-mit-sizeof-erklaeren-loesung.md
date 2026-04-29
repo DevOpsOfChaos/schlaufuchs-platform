@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – Elementanzahl im Array mit sizeof erklären
-description: Musterlösung zur Aufgabe INF-PROG-CPP-ARRAYS-003.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - arrays
-  - elementanzahl-im-array-mit-sizeof-bestimmen
-  - elementanzahl-im-array-mit-sizeof-erklaeren-loesung
-taskId: INF-PROG-CPP-ARRAYS-003
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/elementanzahl-im-array-mit-sizeof-bestimmen/elementanzahl-im-array-mit-sizeof-erklaeren.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – Elementanzahl im Array mit sizeof erklären"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-ARRAYS-003."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "elementanzahl-im-array-mit-sizeof-bestimmen", "elementanzahl-im-array-mit-sizeof-erklaeren"]
+taskId: "INF-PROG-CPP-ARRAYS-003"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/elementanzahl-im-array-mit-sizeof-bestimmen/elementanzahl-im-array-mit-sizeof-erklaeren.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Formel erklären
 
 Die Formel teilt die gesamte reservierte Array-Größe durch die Größe eines einzelnen Elements. Dadurch wird sichtbar, wie viele gleich große Plätze insgesamt im Feld enthalten sind.

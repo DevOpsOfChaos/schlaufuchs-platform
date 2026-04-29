@@ -1,35 +1,19 @@
 ---
 title: "Grundlagen: Abfragen und Filter"
 description: "Gute Abfragen machen Bedingungen sichtbar und liefern nur fachlich passende Daten."
-subject: informatik
+subject: "informatik"
 section: "Datenbanken"
-topicPath:
-  - "datenbanken"
-  - "abfragen-und-filter"
-  - "ueberblick"
-learningGoals:
-  - "Du ordnest Abfragen und Filter fachlich ein."
-  - "Du unterscheidest zentrale Begriffe und typische Rollen."
-  - "Du erkennst häufige Fehler beim Anwenden."
-practiceIdeas:
-  - "Formuliere die Grundidee in zwei Sätzen."
-  - "Ordne ein Beispiel den wichtigsten Begriffen zu."
-commonMistakes:
-  - "Filterbedingungen zu breit zu formulieren und dadurch irrelevante Treffer zu erhalten."
-keyTakeaways:
-  - "Gute Abfragen machen Bedingungen sichtbar und liefern nur fachlich passende Daten."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung vor einer Einzelfalllösung."
-selfCheckPoints:
-  - "Kann ich die Grundbegriffe voneinander unterscheiden?"
-level: mittel
-tags:
-  - "informatik"
-  - "datenbanken"
-  - "abfragen-und-filter"
+topicPath: ["datenbanken", "abfragen-und-filter", "ueberblick", "grundlagen-abfragen-und-filter"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Datenbanken"]
 draft: false
 ---
-
 ![Schaubild zu Abfragen und Filter](/schlaufuchs-platform/images/overviews/v183/informatik-abfragen-und-filter.svg)
 
 ## Begriff

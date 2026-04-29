@@ -3,24 +3,12 @@ title: "Lösung: Progressive Enhancement: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-v190-025b im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "robuste-webseiten"
-  - "progressive-enhancement"
-  - "loesung-b"
+topicPath: ["sanierung-v190", "progressive-enhancement-aufgabe-b"]
 taskId: "web-v190-025b"
 relatedExercise: "web-development/sanierung-v190/progressive-enhancement-aufgabe-b"
-tags:
-  - "robuste-webseiten"
-  - "progressive"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-025b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Progressive Enhancement“ um einen Fehlerfall, eine Abnahmebedingung und eine kurze Begründung.

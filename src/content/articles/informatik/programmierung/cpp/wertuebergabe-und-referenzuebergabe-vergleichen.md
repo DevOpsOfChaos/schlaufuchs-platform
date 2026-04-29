@@ -1,47 +1,19 @@
 ---
-title: Wertübergabe und Referenzübergabe vergleichen
-description: Verstehe, wann eine Funktion mit einer Kopie arbeitet und wann sie direkt auf die Originalvariable wirkt.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - funktionen-und-parameter
-  - wertuebergabe-und-referenzuebergabe-vergleichen
-learningGoals:
-  - Du erklärst den Unterschied zwischen call by value und Referenzübergabe.
-  - Du erkennst, wann Änderungen nur lokal bleiben und wann sie nach außen wirken.
-  - Du liest Referenzparameter als Alias auf eine bestehende Variable.
-practiceIdeas:
-  - Vergleiche eine Funktion mit normalem Parameter und eine mit Referenzparameter.
-  - Verfolge bei einem Beispiel, ob sich der Wert außerhalb der Funktion ändert.
-  - Formuliere in Worten, warum ein Referenzparameter keine neue Kopie braucht.
-commonMistakes:
-  - Referenzübergabe mit Zeigern gleichzusetzen.
-  - Zu denken, jede Parameterübergabe ändere automatisch das Original.
-  - Nicht zwischen lokalem Parameter und ursprünglicher Variable zu unterscheiden.
-keyTakeaways:
-  - Wertübergabe arbeitet mit einer Kopie.
-  - Referenzübergabe arbeitet mit einem Alias auf das Original.
-  - Änderungen an Referenzparametern wirken nach außen.
-recognizeSignals:
-  - In der Signatur taucht ein <code>&</code> beim Parametertyp auf.
-  - Du sollst vorhersagen, ob ein Wert nach dem Funktionsaufruf verändert ist.
-  - Ein Beispiel vergleicht lokale Änderungen mit sichtbaren Änderungen im Hauptablauf.
-selfCheckPoints:
-  - Kann ich Kopie und Original sauber trennen?
-  - Kann ich erklären, warum eine Referenz kein Zeiger ist?
-  - Kann ich die Wirkung eines Funktionsaufrufs auf eine Variable vorhersagen?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - funktionen
-  - referenz
+title: "Wertübergabe und Referenzübergabe vergleichen"
+description: "Verstehe, wann eine Funktion mit einer Kopie arbeitet und wann sie direkt auf die Originalvariable wirkt."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "wertuebergabe-und-referenzuebergabe-vergleichen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei einer normalen Wertübergabe bekommt die Funktion eine Kopie des Wertes. Bei einer Referenzübergabe arbeitet die Funktion dagegen mit einem Alias auf die ursprüngliche Variable.

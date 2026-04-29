@@ -3,34 +3,15 @@ title: "Events und Zustand: Grundordnung"
 description: "Modelliere die Zustände eines Tabsystems und notiere die auslösenden Events."
 subject: "web-development"
 section: "javascript"
-topicPath: 
-  - "javascript-und-interaktion"
-  - "events-und-zustand"
-  - "aufgabe-a"
+topicPath: ["sanierung-v187", "events-und-zustand-aufgabe-a"]
 taskId: "web-v187-022a"
-tags: 
-  - "events"
-  - "zustand"
-  - "javascript"
-  - "web-development"
-  - "aufgabe"
-  - "v187"
-hintPoints: 
-  - "Trenne Zweck, Struktur und sichtbare Wirkung."
-  - "Begründe mindestens eine Entscheidung mit dem Nutzerziel."
-  - "Prüfe einen typischen Fehlerfall aus der Erklärseite."
-selfCheckPoints: 
-  - "Die Lösung passt zur Aufgabenstellung."
-  - "Mindestens eine Entscheidung ist begründet."
-  - "Es gibt keine neue Aufgabe ohne passende Lösung."
-transferIdeas: 
-  - "Übertrage die Entscheidung auf eine zweite kleine Seite."
-  - "Formuliere eine kurze Checkliste für spätere Wiederholung."
-reflectionPrompt: "Welche Entscheidung war am wichtigsten, damit die Lösung ruhig und wartbar bleibt?"
+tags: ["web-development", "javascript", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Modelliere die Zustände eines Tabsystems und notiere die auslösenden Events.

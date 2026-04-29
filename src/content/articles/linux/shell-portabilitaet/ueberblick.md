@@ -1,34 +1,19 @@
 ---
 title: "Shell-Portabilität"
 description: "Überblick über Unterschiede zwischen Shells und die Frage, wann Skripte Bash-spezifisch oder POSIX-nah sein sollten."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "shell-portabilitaet"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["shell-portabilitaet", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Bash-Syntax in ein Skript mit `#!/bin/sh` zu schreiben."
-keyTakeaways:
-  - "Shell-Skripte sollten klar sagen, welche Shell sie benötigen, oder bewusst portable Syntax verwenden."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Skripte auf einem System laufen und auf einem anderen mit Syntaxfehlern abbrechen."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "skripte"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # Shell-Portabilität
 
 Shell-Portabilität beschreibt, ob ein Skript in verschiedenen Shells und Umgebungen zuverlässig läuft. Bash, dash, zsh und andere Shells teilen Grundlagen, unterscheiden sich aber in vielen Details.

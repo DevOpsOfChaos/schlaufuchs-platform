@@ -1,24 +1,14 @@
 ---
-title: Musterlösung – I²C-Open-Drain und Pull-ups ruhig erklären
-description: Musterlösung zur Aufgabe ET-ATMEGA-TWI-305.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-kommunikation
-  - atmega-twi-open-drain-und-pullup-verstehen
-  - i2c-open-drain-und-pullups-ruhig-erklaeren-loesung
-taskId: ET-ATMEGA-TWI-305
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-twi-open-drain-und-pullup-verstehen/i2c-open-drain-und-pullups-ruhig-erklaeren.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - twi
-  - loesung
+title: "Musterlösung – I²C-Open-Drain und Pull-ups ruhig erklären"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-TWI-305."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-twi-open-drain-und-pullup-verstehen", "i2c-open-drain-und-pullups-ruhig-erklaeren"]
+taskId: "ET-ATMEGA-TWI-305"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-twi-open-drain-und-pullup-verstehen/i2c-open-drain-und-pullups-ruhig-erklaeren.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Ein High-Pegel auf SDA oder SCL entsteht oft dadurch, dass die Leitung über Pull-up-Widerstände nach oben gezogen wird. Der Teilnehmer treibt also nicht aktiv „eine 1“ auf die Leitung, sondern lässt die Leitung los, damit der Pull-up den ruhenden High-Zustand herstellt.

@@ -3,23 +3,12 @@ title: "Lösung – Stichprobe und Grundgesamtheit trennen"
 description: "Musterlösung zu Stichprobe und Grundgesamtheit trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Daten und Zufall"
-topicPath:
-  - "daten-und-wahrscheinlichkeit"
-  - "datenkritik-und-zufall"
-  - "v110-teil-2"
-  - "stichprobe-und-grundgesamtheit-trennen"
+topicPath: ["daten-und-wahrscheinlichkeit", "datenkritik-und-zufall", "v110-teil-2", "stichprobe-und-grundgesamtheit-trennen"]
 taskId: "v110-mathematik-stichprobe-und-grundgesamtheit-trennen"
 relatedExercise: "mathematik/daten-und-wahrscheinlichkeit/datenkritik-und-zufall/v110-teil-2/stichprobe-und-grundgesamtheit-trennen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfung"
-  - "daten-und-wahrscheinlichkeit"
-  - "datenkritik-und-zufall"
-  - "stichprobe-und-grundgesamtheit-trennen"
+tags: ["mathematik", "Daten und Zufall", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Stichprobe und Grundgesamtheit trennen**.

@@ -3,20 +3,12 @@ title: "Lösung – Schlüssel und Wert in Map trennen"
 description: "Musterlösung zu Schlüssel und Wert in Map trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenstrukturen"
-  - "maps-und-sets"
-  - "schluessel-und-wert-in-map-trennen-v113"
+topicPath: ["datenstrukturen", "maps-und-sets", "schluessel-und-wert-in-map-trennen-v113"]
 taskId: "v113-informatik-schluessel-und-wert-in-map-trennen-v113"
 relatedExercise: "informatik/datenstrukturen/maps-und-sets/schluessel-und-wert-in-map-trennen-v113"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "schluessel-und-wert-in-map-trennen-v113"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Schlüssel und Wert in Map trennen**.

@@ -3,24 +3,12 @@ title: "Lösung: Kondensator im Gleichstromkreis: Aufgabe B"
 description: "Musterlösung zur Aufgabe etech-v191-021b im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "zeitverhalten"
-  - "kondensator-im-gleichstromkreis"
-  - "loesung-b"
+topicPath: ["sanierung-v191", "kondensator-im-gleichstromkreis-aufgabe-b"]
 taskId: "etech-v191-021b"
 relatedExercise: "elektrotechnik/sanierung-v191/kondensator-im-gleichstromkreis-aufgabe-b"
-tags:
-  - "zeitverhalten"
-  - "kondensator"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-021b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Kondensator im Gleichstromkreis“ um einen Messfehler, einen Sicherheitscheck und eine kurze Plausibilitätsprüfung.

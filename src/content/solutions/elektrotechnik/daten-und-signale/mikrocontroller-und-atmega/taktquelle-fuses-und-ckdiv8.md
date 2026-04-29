@@ -3,20 +3,10 @@ title: "Lösung – Taktquelle und CKDIV8 bei Upload- und Timingfehlern prüfen"
 description: "Musterlösung zu „Taktquelle und CKDIV8 bei Upload- und Timingfehlern prüfen“."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "taktquelle-fuses-und-ckdiv8"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "taktquelle-fuses-und-ckdiv8"]
 taskId: "et-mc-v93-takt-fuses"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/taktquelle-fuses-und-ckdiv8"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "atmega"
-  - "takt"
-  - "fuses"
-  - "ckdiv8"
-  - "debugging"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

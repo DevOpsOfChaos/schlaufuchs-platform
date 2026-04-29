@@ -1,31 +1,16 @@
 ---
-title: Arrayname und Pointer ruhig abgrenzen
-description: Vergleiche Array und Pointer so, dass ähnliche Nutzung nicht zur falschen Gleichsetzung führt.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - pointer-und-adressen
-  - arrayname-und-pointer-unterscheiden
-  - arrayname-und-pointer-ruhig-abgrenzen
-taskId: INF-PROG-CPP-PTR-006
-level: mittel
+title: "Arrayname und Pointer ruhig abgrenzen"
+description: "Vergleiche Array und Pointer so, dass ähnliche Nutzung nicht zur falschen Gleichsetzung führt."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "arrayname-und-pointer-unterscheiden", "arrayname-und-pointer-ruhig-abgrenzen"]
+taskId: "INF-PROG-CPP-PTR-006"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - aufgabe
-hintPoints:
-  - "Frage zuerst, wer den Speicherbereich selbst mitbringt."
-  - "Achte darauf, ob nur eine Adresse gespeichert wird oder mehrere Elemente fest angelegt sind."
-selfCheckPoints:
-  - "Habe ich ähnliche Nutzung und gleiche Struktur nicht verwechselt?"
-  - "Habe ich Array und Pointer jeweils sauber beschrieben?"
-transferIdeas:
-  - "Übertrage die Unterscheidung auf Funktionsparameter, Elementzugriffe oder sizeof-Ausdrücke."
-reflectionPrompt: "Welche Mini-Demo hat dir die Struktur klarer gezeigt: Zugriff oder sizeof?"
 ---
 ## Aufgabe 1: Strukturaussagen zuordnen
 

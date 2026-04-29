@@ -1,36 +1,19 @@
 ---
 title: "Zahlenmengen"
 description: "Überblick über natürliche, ganze, rationale und reelle Zahlen als grundlegende Zahlbereiche."
-subject: mathematik
+subject: "mathematik"
 section: "Grundlagen"
-topicPath:
-  - "zahlenmengen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Zahlenmengen als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["zahlenmengen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Rechnerische Ergebnisse werden oft übernommen, ohne zu prüfen, ob sie zum erlaubten Zahlbereich passen."
-keyTakeaways:
-  - "Zahlenmengen ordnen Zahlen nach Eigenschaften."
-  - "Lösbarkeit hängt vom erlaubten Zahlbereich ab."
-  - "Der Kontext entscheidet, welche Zahlen sinnvoll sind."
-recognizeSignals:
-  - "Eine Aufgabe beschränkt Lösungen auf bestimmte Zahlen."
-  - "Ein Ergebnis ist rechnerisch möglich, aber im Kontext fraglich."
-selfCheckPoints:
-  - "Kann ich Zahlenmengen in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "zahlen"
-  - "zahlenmengen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Grundlagen"]
 draft: false
 ---
-
 # Zahlenmengen
 
 Zahlenmengen ordnen Zahlen nach Eigenschaften. Natürliche Zahlen zählen, ganze Zahlen erlauben negative Werte, rationale Zahlen beschreiben Brüche und reelle Zahlen füllen die Zahlengerade.

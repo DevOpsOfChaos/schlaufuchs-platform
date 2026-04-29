@@ -3,22 +3,12 @@ title: "Lösung: Modellgrenzen und Plausibilität: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-012b."
 subject: "mathematik"
 section: "modellieren-und-validieren"
-topicPath:
-  - "modellieren-und-validieren"
-  - "modellgrenzen-und-plausibilitaet"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "modellgrenzen-und-plausibilitaet-aufgabe-b"]
 taskId: "mat-v188-012b"
 relatedExercise: "mathematik/sanierung-v188/modellgrenzen-und-plausibilitaet-aufgabe-b"
-tags:
-  - "modellgrenzen"
-  - "plausibilitaet"
-  - "pruefen"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "modellieren-und-validieren", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-012b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

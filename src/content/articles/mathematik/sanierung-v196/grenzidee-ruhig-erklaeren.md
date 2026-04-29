@@ -1,20 +1,19 @@
 ---
-title: Grenzidee ruhig erklären
-description: Annäherung als Denkweg statt als Sprung verstehen.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Grenzidee ruhig erklären"
+description: "Annäherung als Denkweg statt als Sprung verstehen."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "analysis-vorbereitung", "grenzidee-ruhig-erklaeren"]
-learningGoals: ["Annäherung als Denkweg statt als Sprung verstehen", "Zwischenschritte begründen", "Ergebnis im Kontext kontrollieren"]
-practiceIdeas: ["Formuliere ein eigenes Beispiel zu Grenzidee ruhig erklären.", "Markiere Frage, Daten und Kontrolle getrennt.", "Vergleiche zwei mögliche Lösungswege."]
-commonMistakes: ["Zu früh rechnen", "Einheiten oder Bedingungen weglassen", "Das Ergebnis nicht rückprüfen"]
-keyTakeaways: ["Grenzidee ruhig erklären beginnt mit einer klaren Frage und nicht sofort mit Rechnen.", "Der Themenblock analysis vorbereitung braucht sichtbare Zwischenschritte.", "Ein Ergebnis ist erst belastbar, wenn es im Kontext geprüft wurde."]
-recognizeSignals: ["Die Aufgabe enthält mehrere Angaben.", "Eine Darstellung muss gedeutet werden.", "Das Ergebnis braucht eine Plausibilitätsprüfung."]
-selfCheckPoints: ["Ist die Frage klar?", "Sind Einheiten und Bedingungen sichtbar?", "Passt das Ergebnis zur Situation?"]
-level: einfach
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
 tags: ["mathematik", "v196", "analysis-vorbereitung", "grenzidee-ruhig-erklaeren"]
 draft: false
 ---
-
 ![Grenzidee ruhig erklären](/schlaufuchs-platform/images/mathematik/sanierung-v196/grenzidee-ruhig-erklaeren.svg)
 
 ## Worum es geht

@@ -1,33 +1,17 @@
 ---
 title: "Grenzfallbetrachtung"
 description: "Überblick darüber, wie extreme, einfache oder randständige Fälle helfen, mathematische Aussagen zu prüfen."
-subject: mathematik
+subject: "mathematik"
 section: "Grenzideen"
-topicPath:
-  - "grenzfallbetrachtung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Grenzfallbetrachtung als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["grenzfallbetrachtung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Grenzfälle sind keine nebensächlichen Sonderfälle. Sie zeigen oft, ob eine Formel, ein Modell oder ein Rechenweg grundsätzlich plausibel ist."
-keyTakeaways:
-  - "Grenzfallbetrachtung prüft, ob eine Aussage auch in einfachen, extremen oder randständigen Situationen sinnvoll bleibt."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um grenzfallbetrachtung, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich grenzfallbetrachtung in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "grenzfallbetrachtung"
-  - "überblick"
-  - "nullfall"
-  - "sehr große werte"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Grenzideen"]
 draft: false
 ---
 # Grenzfallbetrachtung

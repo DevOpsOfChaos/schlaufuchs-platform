@@ -3,33 +3,15 @@ title: "Aufgabe – Debounce bei Eingaben erklären"
 description: "Übe debounce bei eingaben erklären mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "javascript"
-  - "dom-und-events"
-  - "debounce-bei-eingaben-erklaeren"
+topicPath: ["javascript", "dom-und-events", "debounce-bei-eingaben-erklaeren"]
 taskId: "v112-web-development-debounce-bei-eingaben-erklaeren"
-tags:
-  - "web-development"
-  - "v112"
-  - "feinstruktur"
-  - "javascript"
-  - "debounce-bei-eingaben-erklaeren"
-hintPoints:
-  - "Benenne zuerst das kleine Unterthema."
-  - "Prüfe bewusst den Unterschied zum Fehler: Jeder Tastendruck startet sofort teure Arbeit."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Einordnung enger als nur der breite Fachbereich?"
-  - "Wird der typische Fehler ausdrücklich ausgeschlossen?"
-  - "Passt die Lösung zur Wissensseite?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Begriff und prüfe, ob die gleiche Strategie gilt."
-  - "Erkläre die Lösung einmal alltagssprachlich und danach fachlich sauber."
-reflectionPrompt: "Was war bei „Debounce bei Eingaben erklären“ die wichtigste Trennkante?"
+tags: ["web-development", "Feinstruktur Web Development", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation:

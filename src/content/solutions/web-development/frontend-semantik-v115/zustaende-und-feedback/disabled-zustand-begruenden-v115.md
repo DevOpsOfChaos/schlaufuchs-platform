@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Disabled-Zustand begründen"
 description: "Musterlösung zu Disabled-Zustand begründen mit Trennkante und Gegenprobe."
-subject: web-development
+subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "frontend-semantik-v115"
-  - "zustaende-und-feedback"
-  - "disabled-zustand-begruenden-v115"
+topicPath: ["frontend-semantik-v115", "zustaende-und-feedback", "disabled-zustand-begruenden-v115"]
 taskId: "web-development-disabled-zustand-begruenden-v115"
 relatedExercise: "web-development/frontend-semantik-v115/zustaende-und-feedback/disabled-zustand-begruenden-v115"
-tags:
-  - "web development"
-  - "feinstruktur"
-  - "unterthema"
-  - "frontend-semantik"
-  - "zustände und feedback"
-  - "lösung"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Disabled-Zustand begründen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

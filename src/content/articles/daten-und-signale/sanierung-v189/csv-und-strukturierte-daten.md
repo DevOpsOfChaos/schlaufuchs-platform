@@ -3,38 +3,17 @@ title: "CSV und strukturierte Daten"
 description: "Strukturierte Daten folgen einem erkennbaren Aufbau aus Feldern und Datensätzen."
 subject: "daten-und-signale"
 section: "datenpraxis"
-topicPath:
-  - "datenpraxis"
-  - "csv-und-strukturierte-daten"
-learningGoals:
-  - "Strukturierte Daten folgen einem erkennbaren Aufbau aus Feldern und Datensätzen fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Strukturierte Daten folgen einem erkennbaren Aufbau aus Feldern und Datensätzen wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v189", "csv-und-strukturierte-daten"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "csv"
-  - "strukturierte-daten"
-  - "tabellen"
-  - "daten-und-signale"
-  - "v189"
+tags: ["daten-und-signale", "datenpraxis"]
 draft: false
 ---
-
 ![Didaktische Skizze zu CSV und strukturierte Daten](/schlaufuchs-platform/images/daten-und-signale/sanierung-189/csv-und-strukturierte-daten.svg)
 
 ## Überblick

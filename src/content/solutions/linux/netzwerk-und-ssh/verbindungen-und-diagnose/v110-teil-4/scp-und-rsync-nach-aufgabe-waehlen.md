@@ -3,23 +3,12 @@ title: "Lösung – scp und rsync nach Aufgabe wählen"
 description: "Musterlösung zu scp und rsync nach Aufgabe wählen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Netzwerk"
-topicPath:
-  - "netzwerk-und-ssh"
-  - "verbindungen-und-diagnose"
-  - "v110-teil-4"
-  - "scp-und-rsync-nach-aufgabe-waehlen"
+topicPath: ["netzwerk-und-ssh", "verbindungen-und-diagnose", "v110-teil-4", "scp-und-rsync-nach-aufgabe-waehlen"]
 taskId: "v110-linux-scp-und-rsync-nach-aufgabe-waehlen"
 relatedExercise: "linux/netzwerk-und-ssh/verbindungen-und-diagnose/v110-teil-4/scp-und-rsync-nach-aufgabe-waehlen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "netzwerk-und-ssh"
-  - "verbindungen-und-diagnose"
-  - "scp-und-rsync-nach-aufgabe-waehlen"
+tags: ["linux", "Netzwerk", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **scp und rsync nach Aufgabe wählen**.

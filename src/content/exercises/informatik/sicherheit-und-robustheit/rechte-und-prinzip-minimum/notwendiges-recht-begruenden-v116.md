@@ -3,34 +3,15 @@ title: "Übung: notwendiges Recht begründen"
 description: "Übe, „notwendiges Recht begründen“ als kleines Unterthema zu erkennen, zu begründen und mit einer Gegenprobe abzusichern."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "sicherheit-und-robustheit"
-  - "rechte-und-prinzip-minimum"
-  - "notwendiges-recht-begruenden-v116"
+topicPath: ["sicherheit-und-robustheit", "rechte-und-prinzip-minimum", "notwendiges-recht-begruenden-v116"]
 taskId: "notwendiges-recht-begruenden-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "rechte und prinzip minimum"
-  - "notwendiges recht begruenden"
-  - "v116"
-hintPoints:
-  - "Lies zuerst nur die konkrete Unterfrage."
-  - "Markiere eine typische Fehlannahme."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Lösung fachlich begründet?"
-  - "Ist die Abgrenzung zum Nachbarthema sichtbar?"
-  - "Passt die Gegenprobe zur Aufgabe?"
-transferIdeas:
-  - "Ändere eine Bedingung und prüfe, ob deine Begründung noch trägt."
-  - "Erkläre die Lösung einmal ohne Fachwörter und danach fachlich sauber."
-reflectionPrompt: "Welche kleine Entscheidung war bei „notwendiges Recht begründen“ am wichtigsten?"
+tags: ["informatik", "Informatik vertiefen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe 1: Unterfrage erkennen
 
 Lies die Situation:

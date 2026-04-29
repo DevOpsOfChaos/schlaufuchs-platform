@@ -3,34 +3,15 @@ title: "Aufgabe – Testfälle aus Randfällen ableiten"
 description: "Übe das Unterthema „Testfälle“ mit einem kleinen, prüfbaren Szenario."
 subject: "informatik"
 section: "Algorithmen"
-topicPath:
-  - "algorithmen"
-  - "test-und-komplexitaet"
-  - "testfaelle-aus-randfaellen-ableiten"
+topicPath: ["algorithmen", "test-und-komplexitaet", "testfaelle-aus-randfaellen-ableiten"]
 taskId: "v106-informatik-testfaelle-aus-randfaellen-ableiten"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "daten"
-  - "algorithmen"
-  - "testfälle"
-  - "test-und-komplexitaet"
-hintPoints:
-  - "Beginne mit der konkreten Situation, nicht mit einer allgemeinen Regel."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Habe ich das passende Unterthema erkannt?"
-  - "Ist meine Begründung fachlich und sprachlich klar?"
-  - "Würde meine Gegenprobe einen typischen Fehler finden?"
-transferIdeas:
-  - "Ändere einen Randwert und prüfe, ob deine Begründung noch gilt."
-  - "Erkläre die Lösung einmal für Einsteigerinnen und danach fachlich genauer."
-reflectionPrompt: "Welche Abgrenzung macht „Testfälle“ für dich klarer als ein breites Sammelthema?"
+tags: ["informatik", "Algorithmen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Du bekommst ein kleines Szenario zum Unterthema **Testfälle**.

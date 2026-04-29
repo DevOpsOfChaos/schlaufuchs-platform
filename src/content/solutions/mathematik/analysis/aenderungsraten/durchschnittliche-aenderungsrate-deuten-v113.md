@@ -3,20 +3,12 @@ title: "Lösung – Durchschnittliche Änderungsrate deuten"
 description: "Musterlösung zu Durchschnittliche Änderungsrate deuten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "analysis"
-  - "aenderungsraten"
-  - "durchschnittliche-aenderungsrate-deuten-v113"
+topicPath: ["analysis", "aenderungsraten", "durchschnittliche-aenderungsrate-deuten-v113"]
 taskId: "v113-mathematik-durchschnittliche-aenderungsrate-deuten-v113"
 relatedExercise: "mathematik/analysis/aenderungsraten/durchschnittliche-aenderungsrate-deuten-v113"
-tags:
-  - "mathematik"
-  - "strukturcheck"
-  - "unterthema"
-  - "durchschnittliche-aenderungsrate-deuten-v113"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Durchschnittliche Änderungsrate deuten**.

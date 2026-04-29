@@ -1,37 +1,19 @@
 ---
 title: "Matrixmultiplikation"
 description: "Überblick über Bedeutung, Regeln und typische Deutung der Matrixmultiplikation."
-subject: mathematik
+subject: "mathematik"
 section: "Lineare Algebra"
-topicPath:
-  - "matrixmultiplikation"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Matrixmultiplikation als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["matrixmultiplikation", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Die Reihenfolge zu vertauschen oder nur gleich große Matrizen als multiplizierbar anzusehen."
-keyTakeaways:
-  - "Matrixmultiplikation hat eine Struktur aus Zeilen und Spalten."
-  - "Reihenfolge ist meist entscheidend."
-  - "Sie beschreibt oft verkettete lineare Abbildungen."
-recognizeSignals:
-  - "Zwei lineare Transformationen werden nacheinander ausgeführt."
-  - "Matrizen mit passenden inneren Dimensionen treten auf."
-selfCheckPoints:
-  - "Kann ich Matrixmultiplikation in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "matrizen"
-  - "lineare algebra"
-  - "abbildungen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Lineare Algebra"]
 draft: false
 ---
-
 # Matrixmultiplikation
 
 Matrixmultiplikation verknüpft zwei Matrizen so, dass lineare Abbildungen hintereinander ausgeführt oder lineare Kombinationen berechnet werden.

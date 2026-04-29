@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Testfälle und Randfälle anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über Testfälle und Randfälle."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "testfaelle-und-randfaelle"
-taskId: INF-V183-14-B
-relatedExercise: src/content/exercises/informatik/programmierpraxis-und-tests/testfaelle-und-randfaelle/testfaelle-und-randfaelle-anwenden-und-pruefen-v183.md
-tags:
-  - "informatik"
-  - "testfaelle-und-randfaelle"
-  - "loesung"
+topicPath: ["programmierpraxis-und-tests", "testfaelle-und-randfaelle", "testfaelle-und-randfaelle-anwenden-und-pruefen-v183"]
+taskId: "INF-V183-14-B"
+relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/testfaelle-und-randfaelle/testfaelle-und-randfaelle-anwenden-und-pruefen-v183.md"
+tags: ["informatik", "Programmierpraxis und Tests", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

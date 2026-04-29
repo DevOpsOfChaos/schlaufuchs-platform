@@ -3,45 +3,15 @@ title: "Mikrocontroller – Kommunikationsfehler systematisch eingrenzen"
 description: "Verstehe, wie du Kommunikationsfehler Schritt für Schritt nach Versorgung, Pegel, Leitung, Protokoll und Software eingrenzt."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "kommunikationsfehler-systematisch-eingrenzen"
-learningGoals:
-  - "Du erklärst die Grundidee des Themas fachlich sauber."
-  - "Du trennst elektrische Ebene, Codeebene und Diagnoseebene."
-  - "Du begründest eine passende Gegenprobe."
-practiceIdeas:
-  - "Skizziere den relevanten Strom-, Signal- oder Ablaufpfad."
-  - "Formuliere zuerst das beobachtbare Fehlerbild."
-  - "Prüfe jeweils nur eine Vermutung auf einmal."
-commonMistakes:
-  - "Mehrere Ursachen gleichzeitig zu ändern."
-  - "Nur den Code zu prüfen und die elektrische Ebene zu vergessen."
-  - "Fachbegriffe zu verwenden, ohne den Zustand zu erklären."
-keyTakeaways:
-  - "Der sichtbare Effekt ist nicht automatisch die Ursache."
-  - "Saubere Diagnose trennt Zustand, Ursache und Gegenprobe."
-  - "Gute Schaltungen werden mit sicheren Standardzuständen geplant."
-recognizeSignals:
-  - "Ein Aufbau funktioniert nur manchmal."
-  - "Eine Aufgabe verlangt Begründung statt nur Begriff."
-  - "Signal, Strompfad oder Startzustand sind unklar."
-selfCheckPoints:
-  - "Kann ich den Ausgangszustand benennen?"
-  - "Kann ich eine konkrete Gegenprobe formulieren?"
-  - "Kann ich die Abgrenzung zu Nachbarthemen erklären?"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "kommunikationsfehler-systematisch-eingrenzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "atmega"
-  - "uart"
-  - "i2c"
-  - "spi"
-  - "debugging"
-  - "kommunikation"
-  - "fehleranalyse"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
 Verstehe, wie du Kommunikationsfehler Schritt für Schritt nach Versorgung, Pegel, Leitung, Protokoll und Software eingrenzt.

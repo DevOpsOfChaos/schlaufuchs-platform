@@ -1,49 +1,19 @@
 ---
 title: "ATmega – externe Interrupts, Flanken und Prellen verstehen"
 description: "Verstehe, warum ein externer Interrupt nicht einfach „ein Tastendruck“ ist, sondern von Pegel, Flanke und Entprellstrategie abhängt."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - externe-interrupts-flanken-und-prellen
-learningGoals:
-  - "Du erklärst den Unterschied zwischen Pegel, steigender Flanke und fallender Flanke."
-  - "Du beschreibst, warum ein prellender Taster mehrere Interrupts auslösen kann."
-  - "Du begründest, warum Entprellung meist nicht als lange Warteschleife in die ISR gehört."
-practiceIdeas:
-  - "Skizziere ein prellendes Tastensignal als mehrere schnelle Flanken."
-  - "Vergleiche Interruptauslösung auf Pegel und auf Flanke."
-  - "Plane eine Entprellung außerhalb der ISR."
-commonMistakes:
-  - "Einen Interrupt direkt mit einem einzelnen Ereignis gleichzusetzen."
-  - "Tasterprellen zu ignorieren, weil „der Mensch nur einmal gedrückt hat“."
-  - "In der ISR lange zu warten, um Prellen zu überdecken."
-keyTakeaways:
-  - "Externe Interrupts reagieren auf elektrische Signalbedingungen, nicht auf menschliche Absichten."
-  - "Prellen kann aus einem Tastendruck mehrere Flanken machen."
-  - "Die ISR sollte kurz bleiben und Entprellung eher im Hauptprogramm oder über Zeitmarken steuern."
-recognizeSignals:
-  - "Es geht um INT0, INT1, Pin Change Interrupt, Flanke oder Tasterprellen."
-  - "Ein Tastendruck zählt mehrfach."
-  - "Eine Aufgabe fragt, warum die ISR mehrfach ausgelöst wird."
-selfCheckPoints:
-  - "Kann ich eine fallende von einer steigenden Flanke unterscheiden?"
-  - "Kann ich erklären, warum Prellen mehrere Interrupts erzeugt?"
-  - "Kann ich eine kurze ISR von einer Entprelllogik trennen?"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - interrupt
-  - taster
-  - prellen
-  - flanke
-  - entprellen
-level: mittel
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "externe-interrupts-flanken-und-prellen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein externer Interrupt reagiert nicht auf „ich habe einmal gedrückt“, sondern auf elektrische Bedingungen am Pin. Bei Tastern ist das wichtig, weil ein mechanischer Kontakt beim Schließen und Öffnen prellen kann.

@@ -1,33 +1,19 @@
 ---
 title: "Feature Flags"
 description: "Feature Flags erlauben, Funktionen zur Laufzeit ein- oder auszuschalten. Sie unterstützen schrittweise Releases, Tests und kontrollierte Einführung."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "feature-flags"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Feature Flags."
-  - "Du kannst Feature Flags in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["feature-flags", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Temporäre Flags dauerhaft im Code zu lassen."
-keyTakeaways:
-  - "Feature Flags erlauben, Funktionen zur Laufzeit ein- oder auszuschalten."
-  - "Wichtig sind vor allem trennung von deployment und freischaltung, zielgruppen und rollouts und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Feature Flags, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Feature Flags dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "informatik"
-  - "grundlagen"
-  - "feature flags"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Feature Flags
 
 Feature Flags erlauben, Funktionen zur Laufzeit ein- oder auszuschalten. Sie unterstützen schrittweise Releases, Tests und kontrollierte Einführung. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

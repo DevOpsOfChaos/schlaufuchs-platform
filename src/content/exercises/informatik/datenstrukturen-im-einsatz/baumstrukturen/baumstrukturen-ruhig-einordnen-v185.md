@@ -1,29 +1,17 @@
 ---
 title: "Baumstrukturen – ruhig einordnen"
 description: "Übe, baumstrukturen fachlich zu erklären und abzugrenzen."
-subject: informatik
+subject: "informatik"
 section: "Datenstrukturen im Einsatz"
-topicPath:
-  - "datenstrukturen-im-einsatz"
-  - "baumstrukturen"
-  - "uebung"
-taskId: INF-V185-013-1
-tags:
-  - "informatik"
-  - "datenstrukturen-im-einsatz"
-  - "baumstrukturen"
-hintPoints:
-  - "Beginne mit der Grundidee, nicht mit einem Spezialfall."
-  - "Trenne Begriff, Beispiel und Prüfung."
-selfCheckPoints:
-  - "Ich kann das Thema in eigenen Worten erklären."
-  - "Ich kann ein passendes Beispiel begründen."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel in einem anderen Fachbereich."
-level: einfach
+topicPath: ["datenstrukturen-im-einsatz", "baumstrukturen", "baumstrukturen-ruhig-einordnen-v185"]
+taskId: "INF-V185-013-1"
+tags: ["informatik", "Datenstrukturen im Einsatz", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe prüft, ob du **Baumstrukturen** zuerst als allgemeines Thema und nicht nur als Einzelfall lesen kannst.
 
 ## Lernziel

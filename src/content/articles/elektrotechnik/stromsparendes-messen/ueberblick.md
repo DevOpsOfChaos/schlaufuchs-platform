@@ -1,35 +1,17 @@
 ---
 title: "Stromsparendes Messen"
 description: "Überblick über Messstrategien, die Energie sparen und dennoch verwertbare Sensorwerte liefern."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Stromversorgung"
-topicPath:
-  - "stromsparendes-messen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Stromsparendes Messen als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["stromsparendes-messen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, nur den Schlafstrom des Mikrocontrollers zu betrachten und dauerhafte Pull-ups, Teiler oder Sensorströme zu übersehen."
-keyTakeaways:
-  - "Stromsparendes Messen bedeutet, Sensoren, Teiler, Referenzen und Messlogik nur so lange aktiv zu halten, wie sie gebraucht werden."
-  - "Es verlängert Batterielaufzeiten und reduziert Verlustleistung, ohne auf Messwerte verzichten zu müssen."
-  - "Nicht jeder Sensor darf beliebig oft ein- und ausgeschaltet werden. Manche benötigen Aufwärmzeit, Kalibrierung oder stabile Betriebsbedingungen."
-recognizeSignals:
-  - "Es geht um Stromsparendes Messen, wenn sensorversorgung kann per GPIO, Schalter oder Lastschalter zeitweise aktiviert werden."
-  - "Das Thema wird relevant, wenn Beispiele wie ein Spannungsteiler zur Batteriemessung wird nur während der Messung eingeschaltet, damit er nicht dauerhaft Strom verbraucht."
-selfCheckPoints:
-  - "Kann ich Stromsparendes Messen in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "stromverbrauch"
-  - "sensorik"
-  - "mikrocontroller"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Stromversorgung"]
 draft: false
 ---
 # Stromsparendes Messen

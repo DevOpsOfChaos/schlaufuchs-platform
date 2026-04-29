@@ -1,44 +1,19 @@
 ---
-title: Prozentsatz, Grundwert und Prozentwert verstehen
-description: Verstehe, wie Prozentangaben aufgebaut sind und welche Rolle Grundwert, Prozentsatz und Prozentwert jeweils spielen.
-subject: mathematik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - prozentsatz-grundwert-und-prozentwert-verstehen
-learningGoals:
-  - Du unterscheidest Grundwert, Prozentsatz und Prozentwert sauber.
-  - Du erklärst Prozentangaben als Verhältnis statt als isolierte Zahl.
-  - Du liest typische Prozentaufgaben systematischer.
-practiceIdeas:
-  - Markiere in Alltagssätzen zuerst den ganzen Bezug und dann den Teil davon.
-  - Vergleiche zwei Prozentangaben mit unterschiedlichen Grundwerten.
-  - Formuliere bei einer Aufgabe zuerst in Worten, was „100 %“ bedeutet.
-commonMistakes:
-  - Prozentsatz und Prozentwert zu verwechseln.
-  - Den Grundwert nicht bewusst zu benennen.
-  - Eine Prozentzahl ohne Bezug zu interpretieren.
-keyTakeaways:
-  - Prozent braucht immer einen Bezug auf ein Ganzes.
-  - Der Grundwert ist das Ganze, der Prozentwert der Teil davon.
-  - Wer die Rollen sauber trennt, löst Prozentaufgaben ruhiger.
-recognizeSignals:
-  - Es geht um Rabatte, Anteile, Zuschläge oder Vergleiche in Prozent.
-  - Du sollst nicht nur rechnen, sondern die Rollen der Größen verstehen.
-  - In Beispielen musst du zuerst klären, was das Ganze und was der Teil ist.
-selfCheckPoints:
-  - Kann ich Grundwert, Prozentsatz und Prozentwert unterscheiden?
-  - Kann ich erklären, worauf sich 100 % in einer Aufgabe beziehen?
-  - Kann ich Prozentangaben in Worten sauber deuten?
-tags:
-  - prozent
-  - grundwert
-  - prozentwert
-  - prozentsatz
-level: einfach
+title: "Prozentsatz, Grundwert und Prozentwert verstehen"
+description: "Verstehe, wie Prozentangaben aufgebaut sind und welche Rolle Grundwert, Prozentsatz und Prozentwert jeweils spielen."
+subject: "mathematik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "prozentsatz-grundwert-und-prozentwert-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Grundlagen"]
 draft: false
 ---
-
 ## Grundidee
 
 Eine Prozentangabe ist keine isolierte Zahl. Sie beschreibt immer einen **Teil in Bezug auf ein Ganzes**. Damit Prozentaufgaben klar werden, musst du deshalb drei Rollen sauber unterscheiden: **Grundwert, Prozentsatz und Prozentwert**.

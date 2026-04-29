@@ -3,35 +3,15 @@ title: "Aufgabe – Lineare und binäre Suche nach Voraussetzung wählen"
 description: "Übe Lineare und binäre Suche nach Voraussetzung wählen mit Einordnung, Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "informatik"
 section: "Algorithmen"
-topicPath:
-  - "algorithmen-denken"
-  - "such-und-sortierideen"
-  - "v110-teil-1"
-  - "lineare-und-binaere-suche-nach-voraussetzung-waehlen"
+topicPath: ["algorithmen-denken", "such-und-sortierideen", "v110-teil-1", "lineare-und-binaere-suche-nach-voraussetzung-waehlen"]
 taskId: "v110-informatik-lineare-und-binaere-suche-nach-voraussetzung-waehlen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "praxis"
-  - "algorithmen-denken"
-  - "such-und-sortierideen"
-  - "lineare-und-binaere-suche-nach-voraussetzung-waehlen"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Vergleiche das Thema mit einem Nachbarthema und nenne die Trennkante."
-reflectionPrompt: "Welche kleine Trennkante macht Lineare und binäre Suche nach Voraussetzung wählen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["informatik", "Algorithmen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Lineare und binäre Suche nach Voraussetzung wählen**.

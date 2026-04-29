@@ -3,23 +3,12 @@ title: "Lösung – Brown-out als Versorgungseinbruch erkennen"
 description: "Musterlösung zu Brown-out als Versorgungseinbruch erkennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "mikrocontroller-system"
-  - "versorgung-reset-takt"
-  - "v110-teil-1"
-  - "brown-out-als-versorgungseinbruch-erkennen"
+topicPath: ["mikrocontroller-system", "versorgung-reset-takt", "v110-teil-1", "brown-out-als-versorgungseinbruch-erkennen"]
 taskId: "v110-elektrotechnik-brown-out-als-versorgungseinbruch-erkennen"
 relatedExercise: "elektrotechnik/mikrocontroller-system/versorgung-reset-takt/v110-teil-1/brown-out-als-versorgungseinbruch-erkennen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "mikrocontroller-system"
-  - "versorgung-reset-takt"
-  - "brown-out-als-versorgungseinbruch-erkennen"
+tags: ["elektrotechnik", "Mikrocontroller", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Brown-out als Versorgungseinbruch erkennen**.

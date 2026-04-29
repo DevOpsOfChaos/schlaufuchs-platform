@@ -1,32 +1,17 @@
 ---
-title: Stringaufgabe nach Funktionsidee zuordnen
-description: Ordne kleinen Textaufgaben eine passende Funktionsidee wie Suchen, Ersetzen oder Zerlegen zu.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - stringfunktionen-in-php-grundlegend-nutzen
-  - stringaufgabe-nach-funktionsidee-zuordnen
-taskId: INF-PHP-STRING-001
-level: einfach
+title: "Stringaufgabe nach Funktionsidee zuordnen"
+description: "Ordne kleinen Textaufgaben eine passende Funktionsidee wie Suchen, Ersetzen oder Zerlegen zu."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "stringfunktionen-in-php-grundlegend-nutzen", "stringaufgabe-nach-funktionsidee-zuordnen"]
+taskId: "INF-PHP-STRING-001"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - informatik
-  - aufgabe
-  - php
-  - string
-hintPoints:
-  - "Frage nicht zuerst nach dem Funktionsnamen, sondern nach dem Ziel."
-  - "Zählen, suchen, ersetzen und zerlegen sind vier unterschiedliche Rollen."
-selfCheckPoints:
-  - "Habe ich Funktionsidee und Ziel sauber verknüpft?"
-  - "Kann ich erklären, warum meine Zuordnung passt?"
-transferIdeas:
-  - "Übertrage die Logik auf CSV-Zeilen, E-Mail-Adressen oder Dateinamen."
-reflectionPrompt: "Welche Stringaufgabe war am schwersten vom Ziel her einzuordnen?"
 ---
-
 ## Aufgabe 1
 
 Ordne zu:

@@ -1,44 +1,19 @@
 ---
-title: Cache und Zwischenspeicherung verstehen
-description: Verstehe, warum Daten oder Inhalte zwischengespeichert werden und wie Cache Geschwindigkeit verbessern kann, aber manchmal auch zu veralteten Ansichten führt.
-subject: informatik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - cache-und-zwischenspeicherung-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von Cache und Zwischenspeicherung.
-  - Du unterscheidest Originalquelle und zwischengespeicherten Stand.
-  - Du beschreibst Geschwindigkeit und Aktualität als Spannungsverhältnis.
-practiceIdeas:
-  - Vergleiche das direkte Laden einer Quelle mit einer bereits zwischengespeicherten Ansicht.
-  - Überlege, warum Webseiten, Bilder oder Suchergebnisse manchmal schneller erscheinen.
-  - Prüfe bei veralteten Ansichten, ob ein alter Cache-Stand mitspielen könnte.
-commonMistakes:
-  - Cache mit dauerhafter Datensicherung zu verwechseln.
-  - zu denken, schnell bedeute automatisch aktuell.
-  - Zwischenspeicherung nur als Browserdetail statt als Grundidee der Informatik zu sehen.
-keyTakeaways:
-  - Ein Cache hält Daten oder Inhalte vorübergehend bereit, um Zugriffe zu beschleunigen.
-  - Zwischenspeicherung spart Zeit, kann aber veraltete Stände zeigen.
-  - Cache ist etwas anderes als Backup, Originalquelle oder dauerhafte Speicherung.
-recognizeSignals:
-  - Es geht um schnelles Laden, veraltete Inhalte, erneut geladene Bilder oder wiederholte Zugriffe.
-  - Du sollst erklären, warum etwas schnell erscheint oder warum eine alte Version sichtbar bleibt.
-  - In Beispielen zählen Quelle, Zwischenstand und Aktualität gemeinsam.
-selfCheckPoints:
-  - Kann ich Cache und Originalquelle unterscheiden?
-  - Kann ich erklären, warum Zwischenspeicherung Geschwindigkeit bringt?
-  - Kann ich beschreiben, warum ein Cache auch Probleme machen kann?
-tags:
-  - informatik
-  - cache
-  - daten
-  - zwischenspeicherung
-level: einfach
+title: "Cache und Zwischenspeicherung verstehen"
+description: "Verstehe, warum Daten oder Inhalte zwischengespeichert werden und wie Cache Geschwindigkeit verbessern kann, aber manchmal auch zu veralteten Ansichten führt."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "cache-und-zwischenspeicherung-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Grundlagen"]
 draft: false
 ---
-
 ## Grundidee
 
 Viele Systeme greifen immer wieder auf ähnliche Daten zu. Damit nicht jedes Mal alles komplett neu geladen oder berechnet werden muss, werden Inhalte oft **zwischengespeichert**. Genau dieser Zwischenstand heißt häufig **Cache**.

@@ -1,24 +1,14 @@
 ---
-title: Musterlösung – PWM-Frequenz und Tastverhältnis ruhig trennen
-description: Musterlösung zur Aufgabe ET-ATMEGA-TIMER-307.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - timer-und-zeitverhalten
-  - atmega-pwm-frequenz-und-tastverhaeltnis-trennen
-  - pwm-frequenz-und-tastverhaeltnis-ruhig-trennen-loesung
-taskId: ET-ATMEGA-TIMER-307
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-pwm-frequenz-und-tastverhaeltnis-trennen/pwm-frequenz-und-tastverhaeltnis-ruhig-trennen.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - pwm
-  - loesung
+title: "Musterlösung – PWM-Frequenz und Tastverhältnis ruhig trennen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-TIMER-307."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-pwm-frequenz-und-tastverhaeltnis-trennen", "pwm-frequenz-und-tastverhaeltnis-ruhig-trennen"]
+taskId: "ET-ATMEGA-TIMER-307"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-pwm-frequenz-und-tastverhaeltnis-trennen/pwm-frequenz-und-tastverhaeltnis-ruhig-trennen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Die PWM-Frequenz beschreibt, wie oft sich eine ganze Periode wiederholt. Das Tastverhältnis beschreibt, wie groß der Anteil der Ein-Zeit innerhalb dieser Periode ist. Beides gehört zum selben Signal, ist aber nicht dieselbe Größe.

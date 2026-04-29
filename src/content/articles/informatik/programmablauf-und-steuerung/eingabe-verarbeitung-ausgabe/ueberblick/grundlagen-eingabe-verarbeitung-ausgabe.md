@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Eingabe, Verarbeitung und Ausgabe"
 description: "Ordne Programme als Datenfluss aus Eingaben, Verarbeitungsschritten und Ausgaben ein."
-subject: informatik
+subject: "informatik"
 section: "programmablauf-und-steuerung"
-topicPath:
-  - "programmablauf-und-steuerung"
-  - "eingabe-verarbeitung-ausgabe"
-learningGoals:
-  - "Du erklärst die Grundidee von Eingabe, Verarbeitung und Ausgabe in eigenen Worten."
-  - "Du ordnest typische Begriffe und Teilaspekte fachlich richtig ein."
-  - "Du erkennst, welche Detailseiten, Aufgaben oder Fehlerbilder zum Thema passen."
-practiceIdeas:
-  - "Beschreibe ein eigenes Beispiel und markiere die wichtigsten Begriffe."
-  - "Vergleiche die Übersicht mit einer konkreten Aufgabe zum gleichen Thema."
-commonMistakes:
-  - "Ein einzelnes Beispiel für das gesamte Thema zu halten."
-  - "Begriffe zu vermischen, die unterschiedliche Rollen haben."
-  - "Direkt mit Spezialfällen zu beginnen, bevor die Grundidee klar ist."
-keyTakeaways:
-  - "Das EVA-Prinzip gibt einfachen Programmen eine lesbare Grundstruktur."
-  - "Eingaben liefern Informationen, Verarbeitung verändert oder bewertet sie, Ausgaben machen Ergebnisse nutzbar."
-  - "Der Ablauf hilft auch bei Fehlersuche und Aufgabenanalyse."
-recognizeSignals:
-  - "Du suchst zuerst eine allgemeine Einordnung statt eines Einzelfalls."
-  - "Mehrere Detailseiten wirken ähnlich und sollen fachlich sortiert werden."
-selfCheckPoints:
-  - "Kann ich das Thema in zwei bis drei Sätzen allgemein erklären?"
-  - "Kann ich die wichtigsten Teilaspekte voneinander unterscheiden?"
-level: einfach
-tags:
-  - "informatik"
-  - "datenfluss"
-  - "programmablauf"
+topicPath: ["programmablauf-und-steuerung", "eingabe-verarbeitung-ausgabe", "ueberblick", "grundlagen-eingabe-verarbeitung-ausgabe"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "programmablauf-und-steuerung"]
 draft: false
 ---
-
 ![EVA-Prinzip als Datenfluss](/schlaufuchs-platform/images/overviews/v184/eingabe-verarbeitung-ausgabe.svg)
 
 ## Begriff

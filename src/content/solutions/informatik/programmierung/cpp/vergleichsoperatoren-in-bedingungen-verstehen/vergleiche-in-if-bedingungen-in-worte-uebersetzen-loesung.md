@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – Vergleiche in if-Bedingungen in Worte übersetzen
-description: Musterlösung zur Aufgabe INF-PROG-CPP-COMPARE-001.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - kontrollstrukturen
-  - vergleichsoperatoren-in-bedingungen-verstehen
-  - vergleiche-in-if-bedingungen-in-worte-uebersetzen-loesung
-taskId: INF-PROG-CPP-COMPARE-001
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/vergleichsoperatoren-in-bedingungen-verstehen/vergleiche-in-if-bedingungen-in-worte-uebersetzen.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – Vergleiche in if-Bedingungen in Worte übersetzen"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-COMPARE-001."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "vergleichsoperatoren-in-bedingungen-verstehen", "vergleiche-in-if-bedingungen-in-worte-uebersetzen"]
+taskId: "INF-PROG-CPP-COMPARE-001"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/vergleichsoperatoren-in-bedingungen-verstehen/vergleiche-in-if-bedingungen-in-worte-uebersetzen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: In Worte übersetzen
 
 Die Bedingung bedeutet: Prüfe, ob `punkte` mindestens 50 ist. Nur wenn das stimmt, ist die Bedingung wahr.

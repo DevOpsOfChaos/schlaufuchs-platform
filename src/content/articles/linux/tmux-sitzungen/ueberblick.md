@@ -1,32 +1,17 @@
 ---
 title: "tmux-Sitzungen"
 description: "Allgemeiner Überblick über persistente Terminal-Sitzungen mit tmux."
-subject: linux
+subject: "linux"
 section: "Terminal"
-topicPath:
-  - "tmux-sitzungen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst tmux-Sitzungen als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Session, Window, Pane."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["tmux-sitzungen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "tmux nur als Fensterersatz und nicht als Sitzungsverwaltung zu sehen."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "tmux-Sitzungen beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Terminalarbeit über längere Sitzungen."
-  - "Wichtige Hinweise liefern vor allem Session, Window, Pane."
-recognizeSignals:
-  - "Es geht um terminalarbeit über längere sitzungen, session oder window."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck tmux-Sitzungen erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "linux"
-  - "terminal"
-  - "shell"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Terminal"]
 draft: false
 ---
 # tmux-Sitzungen

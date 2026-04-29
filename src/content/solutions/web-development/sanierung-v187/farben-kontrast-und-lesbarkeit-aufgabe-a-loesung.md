@@ -3,23 +3,12 @@ title: "Lösung: Farben, Kontrast und Lesbarkeit: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-012a im Web-Development-Block v187."
 subject: "web-development"
 section: "css"
-topicPath: 
-  - "css-und-layout"
-  - "farben-und-kontrast"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "farben-kontrast-und-lesbarkeit-aufgabe-a"]
 taskId: "web-v187-012a"
 relatedExercise: "web-development/sanierung-v187/farben-kontrast-und-lesbarkeit-aufgabe-a"
-tags: 
-  - "css"
-  - "farben"
-  - "kontrast"
-  - "lesbarkeit"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "css", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-012a`
 
     Ausgangsauftrag: Bewerte drei Farbpaare nach Lesbarkeit und Zweck.

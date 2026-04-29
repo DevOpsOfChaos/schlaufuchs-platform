@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Sets, Maps und Eindeutigkeit anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über Sets, Maps und Eindeutigkeit."
-subject: informatik
+subject: "informatik"
 section: "Datenstrukturen im Einsatz"
-topicPath:
-  - "datenstrukturen-im-einsatz"
-  - "sets-maps-und-eindeutigkeit"
-taskId: INF-V183-06-B
-relatedExercise: src/content/exercises/informatik/datenstrukturen-im-einsatz/sets-maps-und-eindeutigkeit/sets-maps-und-eindeutigkeit-anwenden-und-pruefen-v183.md
-tags:
-  - "informatik"
-  - "sets-maps-und-eindeutigkeit"
-  - "loesung"
+topicPath: ["datenstrukturen-im-einsatz", "sets-maps-und-eindeutigkeit", "sets-maps-und-eindeutigkeit-anwenden-und-pruefen-v183"]
+taskId: "INF-V183-06-B"
+relatedExercise: "src/content/exercises/informatik/datenstrukturen-im-einsatz/sets-maps-und-eindeutigkeit/sets-maps-und-eindeutigkeit-anwenden-und-pruefen-v183.md"
+tags: ["informatik", "Datenstrukturen im Einsatz", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

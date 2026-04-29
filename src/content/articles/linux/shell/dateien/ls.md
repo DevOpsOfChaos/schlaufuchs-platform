@@ -1,16 +1,19 @@
 ---
 title: "ls verstehen"
 description: "Wie ls Ordnerinhalte anzeigt und welche Optionen am Anfang besonders wichtig sind."
-subject: linux
+subject: "linux"
 section: "Shell / Dateien"
-level: einfach
-tags:
-  - ls
-  - Shell
-  - Dateien
+topicPath: ["shell", "dateien", "ls"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell / Dateien"]
 draft: false
 ---
-
 ## Worum geht es?
 
 Der Befehl `ls` zeigt Informationen über Dateien an.  

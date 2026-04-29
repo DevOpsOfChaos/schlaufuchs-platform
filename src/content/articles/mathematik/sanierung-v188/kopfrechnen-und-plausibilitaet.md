@@ -3,38 +3,17 @@ title: "Kopfrechnen und Plausibilität"
 description: "Kopfrechnen dient oft der Kontrolle, nicht nur dem schnellen Ergebnis."
 subject: "mathematik"
 section: "rechnen-und-schaetzen"
-topicPath:
-  - "rechnen-und-schaetzen"
-  - "kopfrechnen-und-plausibilitaet"
-learningGoals:
-  - "Kopfrechnen dient oft der Kontrolle, nicht nur dem schnellen Ergebnis fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Kopfrechnen dient oft der Kontrolle, nicht nur dem schnellen Ergebnis wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v188", "kopfrechnen-und-plausibilitaet"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "kopfrechnen"
-  - "schaetzen"
-  - "plausibilitaet"
-  - "mathematik"
-  - "v188"
+tags: ["mathematik", "rechnen-und-schaetzen"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Kopfrechnen und Plausibilität](/schlaufuchs-platform/images/mathematik/sanierung-188/kopfrechnen-und-plausibilitaet.svg)
 
 ## Überblick

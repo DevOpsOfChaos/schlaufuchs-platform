@@ -3,44 +3,17 @@ title: "Mathematik – Koordinatenabstand mit Pythagoras prüfen"
 description: "Lerne koordinatenabstand mit pythagoras prüfen als kleines Unterthema mit Beispiel, Abgrenzung und Prüfstrategie."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "geometrie"
-  - "einheiten-und-skalierung"
-  - "koordinatenabstand-mit-pythagoras-pruefen"
-learningGoals:
-  - "Du erklärst koordinatenabstand mit pythagoras prüfen in einem klaren Kontext."
-  - "Du grenzt das Unterthema von einem typischen Nachbarthema ab."
-  - "Du nutzt eine konkrete Gegenprobe statt nur eine Merkliste."
-practiceIdeas:
-  - "Formuliere ein eigenes Mini-Beispiel mit einer typischen Verwechslung."
-  - "Schreibe einen Prüfschritt auf, der das Ergebnis kontrolliert."
-  - "Ordne das Thema bewusst in den kleinen Unterpfad ein."
-commonMistakes:
-  - "Die Koordinatendifferenzen werden addiert."
-  - "Das Thema wird in einem breiten Sammelkapitel versteckt."
-  - "Die Lösung nennt ein Ergebnis, aber keinen prüfbaren Weg."
-keyTakeaways:
-  - "Der Abstand ergibt sich aus rechtwinkligem Dreieck und Pythagoras."
-  - "Kleine Unterthemen machen Wiederholung und Suche einfacher."
-  - "Aufgabe und Lösung sollen dieselbe Trennkante verwenden."
-recognizeSignals:
-  - "Eine Aufgabe enthält einen Begriff, der leicht mit einem Nachbarthema verwechselt wird."
-  - "Ein Beispiel braucht vor der Rechnung oder Umsetzung eine Einordnung."
-  - "Eine Gegenprobe kann den gewählten Weg bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich den typischen Fehler fachlich ausschließen?"
-  - "Passt meine Lösung genau zum Unterpfad?"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "geometrie"
-  - "koordinatenabstand-mit-pythagoras-pruefen"
+topicPath: ["geometrie", "einheiten-und-skalierung", "koordinatenabstand-mit-pythagoras-pruefen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["mathematik", "Feinstruktur Mathematik"]
 draft: false
 ---
-
 ## Grundidee
 
 **Koordinatenabstand mit Pythagoras prüfen** ist bewusst als kleines Unterthema angelegt. Lerne koordinatenabstand mit pythagoras prüfen als kleines Unterthema mit Beispiel, Abgrenzung und Prüfstrategie. Dadurch bleibt die Seite auffindbar und landet nicht in einem übergroßen Sammelbereich.

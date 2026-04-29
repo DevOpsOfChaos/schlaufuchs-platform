@@ -1,47 +1,19 @@
 ---
-title: ATmega – Bitmasken und Bitoperationen verstehen
-description: Verstehe, wie einzelne Bits in AVR-Registern gezielt gesetzt, gelöscht oder geprüft werden, ohne andere Bits versehentlich mitzuverändern.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - register-und-bitoperationen
-  - atmega-bitmasken-und-bitoperationen-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von Bitmasken bei AVR-Registern.
-  - Du unterscheidest Setzen, Löschen und Prüfen einzelner Bits fachlich sauber.
-  - Du liest Bitoperationen ruhiger als gezielte Registeränderung statt als reinen Symbolcode.
-practiceIdeas:
-  - Übersetze kleine AVR-Zeilen mit OR, AND und NOT erst in Alltagssprache und dann in Fachsprache.
-  - Prüfe bei einem Registerbeispiel, welches Bit verändert wird und welche Bits bewusst gleich bleiben.
-  - Vergleiche eine gezielte Bitmaske mit einer unruhigen Komplettzuweisung.
-commonMistakes:
-  - Ein ganzes Register neu zu schreiben, obwohl nur ein einzelnes Bit geändert werden soll.
-  - OR, AND und NOT nur symbolisch auswendig zu kennen, aber ihre Wirkung nicht ruhig zu lesen.
-  - Beim Löschen eines Bits versehentlich weitere Bits mit zu verändern.
-keyTakeaways:
-  - Bitmasken helfen, einzelne Registerbits gezielt zu bearbeiten.
-  - Mit OR wird ein Bit gesetzt, mit AND plus invertierter Maske gelöscht und mit AND geprüft.
-  - Gute AVR-Programmierung liest Register nicht nur als Zahl, sondern als Sammlung einzelner Funktionen.
-recognizeSignals:
-  - Es geht um Registercode mit |, &, ~ oder Bitverschiebung.
-  - Du sollst erklären, warum nur ein einzelnes Bit geändert werden soll.
-  - In Codebeispielen tauchen Ausdrücke wie (1 << PB0) oder ähnliche Masken auf.
-selfCheckPoints:
-  - Kann ich Setzen, Löschen und Prüfen eines Bits sauber unterscheiden?
-  - Kann ich erklären, warum eine Bitmaske andere Registerbits in Ruhe lässt?
-  - Kann ich eine kleine AVR-Bitzeile fachlich in Worte übersetzen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - avr
-  - register
-  - bitoperationen
-level: einfach
+title: "ATmega – Bitmasken und Bitoperationen verstehen"
+description: "Verstehe, wie einzelne Bits in AVR-Registern gezielt gesetzt, gelöscht oder geprüft werden, ohne andere Bits versehentlich mitzuverändern."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-bitmasken-und-bitoperationen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 Bei AVR-Mikrocontrollern stehen in einem Register oft mehrere Funktionen gleichzeitig nebeneinander. Genau deshalb reicht es selten, einfach „eine Zahl ins Register zu schreiben“. Meist soll **nur ein einzelnes Bit** gesetzt, gelöscht oder geprüft werden, während die übrigen Bits unverändert bleiben.
 
 <div class="example-card">

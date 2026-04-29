@@ -3,23 +3,12 @@ title: "Lösung – Label und Placeholder für Formulare trennen"
 description: "Musterlösung zu Label und Placeholder mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "formulare-und-tabellen"
-  - "label-placeholder"
-  - "label-und-placeholder-fuer-formulare-trennen"
+topicPath: ["html", "formulare-und-tabellen", "label-placeholder", "label-und-placeholder-fuer-formulare-trennen"]
 taskId: "v109-web-development-label-und-placeholder-fuer-formulare-trennen"
 relatedExercise: "web-development/html/formulare-und-tabellen/label-placeholder/label-und-placeholder-fuer-formulare-trennen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "html"
-  - "formulare-und-tabellen"
-  - "label und placeholder"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Label und Placeholder**.

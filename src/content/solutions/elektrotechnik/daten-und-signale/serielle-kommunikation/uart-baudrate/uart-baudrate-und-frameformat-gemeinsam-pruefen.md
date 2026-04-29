@@ -3,23 +3,12 @@ title: "Lösung – UART-Baudrate und Frameformat gemeinsam prüfen"
 description: "Musterlösung zu UART-Baudrate und Frameformat mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Kommunikation"
-topicPath:
-  - "daten-und-signale"
-  - "serielle-kommunikation"
-  - "uart-baudrate"
-  - "uart-baudrate-und-frameformat-gemeinsam-pruefen"
+topicPath: ["daten-und-signale", "serielle-kommunikation", "uart-baudrate", "uart-baudrate-und-frameformat-gemeinsam-pruefen"]
 taskId: "v109-elektrotechnik-uart-baudrate-und-frameformat-gemeinsam-pruefen"
 relatedExercise: "elektrotechnik/daten-und-signale/serielle-kommunikation/uart-baudrate/uart-baudrate-und-frameformat-gemeinsam-pruefen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "daten-und-signale"
-  - "serielle-kommunikation"
-  - "uart-baudrate und frameformat"
+tags: ["elektrotechnik", "Kommunikation", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **UART-Baudrate und Frameformat**.

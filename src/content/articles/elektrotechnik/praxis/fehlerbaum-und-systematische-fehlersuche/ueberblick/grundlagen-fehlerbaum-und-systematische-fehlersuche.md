@@ -1,42 +1,19 @@
 ---
 title: "Grundlagen: Fehlerbaum und systematische Fehlersuche"
 description: "Allgemeiner Überblick über geordnete Fehlersuche, Hypothesen, Gegenproben und saubere Messreihenfolge."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - praxis
-  - fehlerbaum-und-systematische-fehlersuche
-  - ueberblick
-learningGoals:
-  - "Du erklärst die Grundidee des Themas in eigenen Worten."
-  - "Du ordnest typische Begriffe, Grenzen und Fehlerquellen ruhig ein."
-  - "Du erkennst, welche Detailfragen zu diesem Themenbereich gehören."
-practiceIdeas:
-  - "Skizziere den Zusammenhang als Prüf-, Signal- oder Strompfad."
-  - "Notiere eine typische Fehlannahme und formuliere eine Gegenprobe."
-commonMistakes:
-  - "Symptome sofort als Ursache zu behandeln."
-  - "Viele Dinge gleichzeitig zu ändern."
-  - "Messwerte ohne Bezugspunkt oder Erwartungswert zu sammeln."
-keyTakeaways:
-  - "Fehlersuche beginnt mit einer klaren Beobachtung."
-  - "Eine Hypothese braucht eine überprüfbare Gegenprobe."
-  - "Gute Diagnose ändert immer nur eine Sache auf einmal."
-recognizeSignals:
-  - "Du brauchst zuerst Orientierung, bevor du eine konkrete Schaltung oder Aufgabe bewertest."
-  - "Ein Einzelfall wirkt plausibel, aber der allgemeine fachliche Rahmen fehlt."
-selfCheckPoints:
-  - "Kann ich das Thema ohne reines Auswendiglernen erklären?"
-  - "Kann ich typische Fehlerquellen in einer sinnvollen Prüfreihenfolge nennen?"
-level: einfach
-tags:
-  - elektrotechnik
-  - fehlerdiagnose
-  - messpraxis
-  - fehlersuche
+topicPath: ["praxis", "fehlerbaum-und-systematische-fehlersuche", "ueberblick", "grundlagen-fehlerbaum-und-systematische-fehlersuche"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Praxis"]
 draft: false
 ---
-
 ![Fehlerbaum und systematische Fehlersuche](/schlaufuchs-platform/images/overviews/v182/fehlerbaum-und-systematische-fehlersuche.svg)
 
 ## Überblick

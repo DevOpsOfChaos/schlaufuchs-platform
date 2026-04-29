@@ -1,12 +1,17 @@
 ---
-title: Dateisuche mit find und grep
-description: Diese Aufgabe trainiert die saubere Unterscheidung zwischen Dateisuche und Textsuche im Linux-Terminal.
-subject: linux
-section: Dateisuche und Textsuche
-level: einfach
+title: "Dateisuche mit find und grep"
+description: "Diese Aufgabe trainiert die saubere Unterscheidung zwischen Dateisuche und Textsuche im Linux-Terminal."
+subject: "linux"
+section: "Dateisuche und Textsuche"
+topicPath: ["dateisuche-mit-find-und-grep"]
+taskId: "AUTO-DATEISUCHE-MIT-FIND-UND-GREP"
+tags: ["linux", "Dateisuche und Textsuche", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben mit Blick auf den Unterschied zwischen Dateinamen und Dateiinhalt. Schreibe jeweils den passenden Befehl auf.

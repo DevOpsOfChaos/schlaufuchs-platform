@@ -1,37 +1,19 @@
 ---
 title: "Erdung, Schutzleiter und Potentialausgleich"
 description: "Allgemeiner Überblick über Erdung, Schutzleiter und Potentialausgleich als Sicherheits- und Bezugskonzepte."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Sicherheit"
-topicPath:
-  - "erdung-schutzleiter-und-potentialausgleich"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Erdung, Schutzleiter und Potentialausgleich als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["erdung-schutzleiter-und-potentialausgleich", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Gefährlich ist die Annahme, der Schutzleiter könne wie eine normale Signalleitung verwendet werden."
-keyTakeaways:
-  - "Schutzleiter und Potentialausgleich dienen der Sicherheit."
-  - "Masse und Schutzleiter sind nicht automatisch dasselbe."
-  - "Bei Netzspannung gelten besondere Fach- und Schutzregeln."
-recognizeSignals:
-  - "Es geht um Gehäuse, Netzspannung oder Berührungsschutz."
-  - "Mehrere Geräte sind über Schutzleiter oder Messleitungen verbunden."
-selfCheckPoints:
-  - "Kann ich Erdung, Schutzleiter und Potentialausgleich in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "erdung"
-  - "schutzleiter"
-  - "sicherheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Sicherheit"]
 draft: false
 ---
-
 # Erdung, Schutzleiter und Potentialausgleich
 
 Erdung, Schutzleiter und Potentialausgleich sind Sicherheitsbegriffe der Elektrotechnik. Sie sorgen dafür, dass gefährliche Spannungen im Fehlerfall kontrolliert abgeleitet werden.

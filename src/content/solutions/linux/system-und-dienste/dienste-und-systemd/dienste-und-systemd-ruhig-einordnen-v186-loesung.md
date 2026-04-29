@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Dienste und systemd – ruhig einordnen"
 description: "Musterlösung zur Linux-Aufgabe Dienste und systemd."
-subject: linux
+subject: "linux"
 section: "system-und-dienste"
-topicPath:
-  - "system-und-dienste"
-  - "dienste-und-systemd"
-taskId: LINUX-DIENSTE-UND-SYSTEMD-V186-1
-relatedExercise: src/content/exercises/linux/system-und-dienste/dienste-und-systemd/dienste-und-systemd-ruhig-einordnen-v186.md
-tags:
-  - "linux"
-  - "systemd"
-  - "dienste"
-  - "loesung"
+topicPath: ["system-und-dienste", "dienste-und-systemd", "dienste-und-systemd-ruhig-einordnen-v186"]
+taskId: "LINUX-DIENSTE-UND-SYSTEMD-V186-1"
+relatedExercise: "src/content/exercises/linux/system-und-dienste/dienste-und-systemd/dienste-und-systemd-ruhig-einordnen-v186.md"
+tags: ["linux", "system-und-dienste", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

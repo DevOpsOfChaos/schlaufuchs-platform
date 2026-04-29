@@ -1,36 +1,19 @@
 ---
 title: "NTP und Zeitsynchronisation"
 description: "NTP und verwandte Dienste halten die Systemzeit über Netzwerkquellen synchron."
-subject: linux
+subject: "linux"
 section: "Systembetrieb"
-topicPath:
-  - "ntp-und-zeitsynchronisation"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst NTP und Zeitsynchronisation als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["ntp-und-zeitsynchronisation", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft werden falsche Uhrzeit und falsche Zeitzone verwechselt."
-keyTakeaways:
-  - "NTP und verwandte Dienste halten die Systemzeit über Netzwerkquellen synchron."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um NTP und Zeitsynchronisation, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich NTP und Zeitsynchronisation in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "zeit"
-  - "netzwerk"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Systembetrieb"]
 draft: false
 ---
-
 # NTP und Zeitsynchronisation
 
 NTP und verwandte Dienste halten die Systemzeit über Netzwerkquellen synchron. Diese Überblicksseite ordnet das Thema ruhig und allgemein ein. Sie ist nicht als Aufgabe oder Einzelfall gedacht, sondern als Einstieg, bevor konkrete Situationen, Werkzeuge, Formeln oder Fehlersuchen betrachtet werden.

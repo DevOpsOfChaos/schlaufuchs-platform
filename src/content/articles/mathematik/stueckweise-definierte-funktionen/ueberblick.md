@@ -3,32 +3,17 @@ title: "Stückweise definierte Funktionen"
 description: "Allgemeiner Überblick über Funktionen, die in verschiedenen Bereichen unterschiedlich definiert sind."
 subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "stueckweise-definierte-funktionen"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["stueckweise-definierte-funktionen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird an einer Stelle die falsche Vorschrift eingesetzt. Entscheidend ist zuerst, in welchem Bereich der Eingabewert liegt."
-keyTakeaways:
-  - "Stückweise definierte Funktionen trennen Fälle im Definitionsbereich. Sie sind wichtig, wenn ein Zusammenhang nicht überall gleich funktioniert."
-  - "Stückweise definiert bedeutet nicht unordentlich. Im Gegenteil: Es ist eine präzise Art, unterschiedliche Fälle sauber zu trennen."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "mathematik"
-  - "funktionen"
-  - "stückweise"
-  - "definition"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
-
 # Stückweise definierte Funktionen
 
 Eine stückweise definierte Funktion verwendet je nach Bereich des Definitionsbereichs unterschiedliche Rechenvorschriften.

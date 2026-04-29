@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Testfälle, Randfälle und Regression – Anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über Testfälle, Randfälle und Regression."
-subject: informatik
+subject: "informatik"
 section: "programmierpraxis-und-tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "testfaelle-randfaelle-und-regression"
-taskId: INF-TESTFAELLE-RANDFAELLE-UND-REGRESSION-842
-relatedExercise: src/content/exercises/informatik/programmierpraxis-und-tests/testfaelle-randfaelle-und-regression/testfaelle-randfaelle-und-regression-anwenden-und-pruefen-v184.md
-tags:
-  - "informatik"
-  - "tests"
-  - "randfaelle"
-  - "loesung"
+topicPath: ["programmierpraxis-und-tests", "testfaelle-randfaelle-und-regression", "testfaelle-randfaelle-und-regression-anwenden-und-pruefen-v184"]
+taskId: "INF-TESTFAELLE-RANDFAELLE-UND-REGRESSION-842"
+relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/testfaelle-randfaelle-und-regression/testfaelle-randfaelle-und-regression-anwenden-und-pruefen-v184.md"
+tags: ["informatik", "programmierpraxis-und-tests", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

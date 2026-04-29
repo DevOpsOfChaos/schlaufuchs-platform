@@ -1,13 +1,19 @@
 ---
-title: Eingabe und Ausgabe – Grundlagen
-description: Verstehe, wie Programme Daten aufnehmen, verarbeiten und wieder ausgeben.
-subject: informatik
-section: eingaben-und-ausgaben
-level: einfach
-tags: [eingabe, ausgabe, programmablauf, informatik]
+title: "Eingabe und Ausgabe – Grundlagen"
+description: "Verstehe, wie Programme Daten aufnehmen, verarbeiten und wieder ausgeben."
+subject: "informatik"
+section: "eingaben-und-ausgaben"
+topicPath: ["eingabe-und-ausgabe-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["eingabe", "ausgabe", "programmablauf", "informatik"]
 draft: false
 ---
-
 Ein Programm arbeitet selten völlig isoliert. Meist bekommt es Informationen von außen, verarbeitet diese und liefert wieder ein Ergebnis. Genau dafür braucht man die Grundidee von **Eingabe und Ausgabe**.
 
 ## Was bedeutet Eingabe?

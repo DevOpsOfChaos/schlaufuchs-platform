@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Dioden und Richtung"
 description: "Allgemeiner Überblick über Durchlassrichtung, Sperrrichtung und typische Diodenwirkung."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Bauteile"
-topicPath:
-  - "bauteile"
-  - "dioden-und-richtung"
-  - "ueberblick"
-learningGoals:
-  - "Du ordnest das Thema ruhig in den elektrotechnischen Zusammenhang ein."
-  - "Du unterscheidest Grundbegriffe, typische Teilaspekte und Grenzen."
-  - "Du erkennst passende Detailseiten, Aufgaben und typische Fehlerquellen."
-practiceIdeas:
-  - "Lies zuerst die Überblicksseite und bearbeite danach eine passende Aufgabe."
-  - "Markiere die wichtigsten Begriffe und erkläre sie mit eigenen Worten."
-commonMistakes:
-  - "Direkt mit Einzelfällen zu starten, ohne den allgemeinen Rahmen zu klären."
-  - "Begriffe aus Schaltung, Code und Messung zu vermischen."
-keyTakeaways:
-  - "Eine gute Einordnung verbindet Begriff, Zweck, Zusammenhang und Abgrenzung."
-recognizeSignals:
-  - "Mehrere Detailseiten wirken ähnlich und brauchen einen gemeinsamen Rahmen."
-  - "Eine Aufgabe setzt Begriffe voraus, die vorher allgemein geklärt werden sollten."
-selfCheckPoints:
-  - "Kann ich das Thema in zwei bis drei Sätzen allgemein erklären?"
-  - "Kann ich typische Fehler oder Missverständnisse benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "diode"
-  - "durchlassrichtung"
-  - "sperrrichtung"
-  - "halbleiter"
+topicPath: ["bauteile", "dioden-und-richtung", "ueberblick", "grundlagen-dioden-und-richtung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Bauteile"]
 draft: false
 ---
-
 ![Grundlagen: Dioden und Richtung](/schlaufuchs-platform/images/overviews/v179/dioden-und-richtung.svg)
 
 Dioden sind Bauteile mit richtungsabhängiger Wirkung. Sie lassen sich nicht sinnvoll verstehen, wenn man sie wie einen gewöhnlichen Widerstand betrachtet.

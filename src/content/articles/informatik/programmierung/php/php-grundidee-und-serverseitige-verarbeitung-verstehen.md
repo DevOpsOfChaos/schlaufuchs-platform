@@ -1,46 +1,19 @@
 ---
-title: PHP-Grundidee und serverseitige Verarbeitung verstehen
-description: Verstehe, wie PHP im Webserver läuft, warum der Browser nur das Ergebnis sieht und wie aus einer Anfrage eine HTML-Antwort wird.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - php-grundidee-und-serverseitige-verarbeitung-verstehen
-learningGoals:
-  - Du erklärst den groben Ablauf von Anfrage, PHP-Verarbeitung und HTML-Antwort.
-  - Du unterscheidest serverseitigen PHP-Code vom Ergebnis im Browser.
-  - Du erkennst, warum eine PHP-Datei über einen Webserver aufgerufen werden muss.
-practiceIdeas:
-  - Ordne in einem Ablaufbild Browser, Webserver, PHP-Interpreter und Antwort richtig zu.
-  - Erkläre, warum der Client den PHP-Quellcode normalerweise nicht sieht.
-  - Vergleiche eine statische HTML-Seite mit einer PHP-Seite, die erst auf dem Server erzeugt wird.
-commonMistakes:
-  - Zu glauben, PHP laufe direkt im Browser wie JavaScript.
-  - Zu denken, eine .php-Datei werde einfach als Text an den Client geschickt.
-  - Den Webserver nur als Dateispeicher statt als Verarbeitungsschritt zu sehen.
-keyTakeaways:
-  - PHP läuft serverseitig.
-  - Der Browser erhält normalerweise nur das erzeugte HTML-Ergebnis.
-  - PHP-Seiten müssen in einer passenden Serverumgebung verarbeitet werden.
-recognizeSignals:
-  - Es geht um Browser, Request, Response oder serverseitiges Scripting.
-  - Ein Beispiel zeigt HTML mit eingebettetem PHP-Code.
-  - Du sollst erklären, wo im Ablauf Code ausgeführt wird.
-selfCheckPoints:
-  - Kann ich erklären, wo PHP ausgeführt wird?
-  - Kann ich beschreiben, was der Browser tatsächlich zurückbekommt?
-  - Kann ich sagen, warum eine PHP-Datei nicht einfach lokal wie eine reine HTML-Datei funktioniert?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - webserver
-  - request-response
+title: "PHP-Grundidee und serverseitige Verarbeitung verstehen"
+description: "Verstehe, wie PHP im Webserver läuft, warum der Browser nur das Ergebnis sieht und wie aus einer Anfrage eine HTML-Antwort wird."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "php-grundidee-und-serverseitige-verarbeitung-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 PHP ist eine serverseitige Skriptsprache. Das bedeutet: Nicht der Browser führt den PHP-Code aus, sondern der Webserver beziehungsweise die daran angeschlossene PHP-Verarbeitung. Der Browser bekommt am Ende nur das Ergebnis zurück.

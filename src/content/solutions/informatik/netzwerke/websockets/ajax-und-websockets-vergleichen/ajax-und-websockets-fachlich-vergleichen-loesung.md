@@ -1,22 +1,14 @@
 ---
-title: Musterlösung – AJAX und WebSockets passend vergleichen
-description: Musterlösung zur Aufgabe INF-NET-WS-002.
-subject: informatik
-section: Netzwerke
-topicPath:
-  - netzwerke
-  - websockets
-  - ajax-und-websockets-vergleichen
-  - ajax-und-websockets-fachlich-vergleichen-loesung
-taskId: INF-NET-WS-002
-relatedExercise: src/content/exercises/informatik/netzwerke/websockets/ajax-und-websockets-vergleichen/ajax-und-websockets-fachlich-vergleichen.md
-tags:
-  - informatik
-  - loesung
-  - task-id
+title: "Musterlösung – AJAX und WebSockets passend vergleichen"
+description: "Musterlösung zur Aufgabe INF-NET-WS-002."
+subject: "informatik"
+section: "Netzwerke"
+topicPath: ["netzwerke", "websockets", "ajax-und-websockets-vergleichen", "ajax-und-websockets-fachlich-vergleichen"]
+taskId: "INF-NET-WS-002"
+relatedExercise: "src/content/exercises/informatik/netzwerke/websockets/ajax-und-websockets-vergleichen/ajax-und-websockets-fachlich-vergleichen.md"
+tags: ["informatik", "Netzwerke", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Technik zuordnen
 
 - Kommentarformular mit Hintergrundspeichern → eher AJAX

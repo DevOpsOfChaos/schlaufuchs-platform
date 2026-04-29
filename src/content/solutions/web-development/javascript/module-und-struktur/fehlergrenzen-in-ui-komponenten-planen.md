@@ -3,22 +3,12 @@ title: "Lösung – Fehlergrenzen in UI-Komponenten planen"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Development-Aufgabe."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "module-und-struktur"
-  - "fehlergrenzen-in-ui-komponenten-planen"
-tags:
-  - "web development"
-  - "javascript"
-  - "ui"
-  - "fehler"
-  - "wartbarkeit"
-  - "lösung"
+topicPath: ["javascript", "module-und-struktur", "fehlergrenzen-in-ui-komponenten-planen"]
 taskId: "web-v103-fehlergrenzen-in-ui-komponenten-planen"
 relatedExercise: "web-development/javascript/module-und-struktur/fehlergrenzen-in-ui-komponenten-planen"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Hauptdaten, Empfehlungen und Bewertungen werden getrennt betrachtet; optionale Bereiche dürfen ausfallen, aber der Hauptinhalt braucht eine klare Fehlermeldung.

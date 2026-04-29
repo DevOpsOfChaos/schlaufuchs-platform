@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Shellskripte – ruhig einordnen"
 description: "Musterlösung zur Linux-Aufgabe Shellskripte."
-subject: linux
+subject: "linux"
 section: "automatisierung-und-skripte"
-topicPath:
-  - "automatisierung-und-skripte"
-  - "shellskripte"
-taskId: LINUX-SHELLSKRIPTE-V186-1
-relatedExercise: src/content/exercises/linux/automatisierung-und-skripte/shellskripte/shellskripte-ruhig-einordnen-v186.md
-tags:
-  - "linux"
-  - "shellskript"
-  - "automatisierung"
-  - "loesung"
+topicPath: ["automatisierung-und-skripte", "shellskripte", "shellskripte-ruhig-einordnen-v186"]
+taskId: "LINUX-SHELLSKRIPTE-V186-1"
+relatedExercise: "src/content/exercises/linux/automatisierung-und-skripte/shellskripte/shellskripte-ruhig-einordnen-v186.md"
+tags: ["linux", "automatisierung-und-skripte", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

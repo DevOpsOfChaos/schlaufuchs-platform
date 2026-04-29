@@ -3,20 +3,12 @@ title: "Lösung – Prozentuale Änderung mit Vorzeichen lesen"
 description: "Musterlösung zu Prozentuale Änderung mit Vorzeichen lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "grundlagen"
-  - "anteile-und-prozent"
-  - "prozentuale-aenderung-mit-vorzeichen-lesen-v113"
+topicPath: ["grundlagen", "anteile-und-prozent", "prozentuale-aenderung-mit-vorzeichen-lesen-v113"]
 taskId: "v113-mathematik-prozentuale-aenderung-mit-vorzeichen-lesen-v113"
 relatedExercise: "mathematik/grundlagen/anteile-und-prozent/prozentuale-aenderung-mit-vorzeichen-lesen-v113"
-tags:
-  - "mathematik"
-  - "strukturcheck"
-  - "unterthema"
-  - "prozentuale-aenderung-mit-vorzeichen-lesen-v113"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Prozentuale Änderung mit Vorzeichen lesen**.

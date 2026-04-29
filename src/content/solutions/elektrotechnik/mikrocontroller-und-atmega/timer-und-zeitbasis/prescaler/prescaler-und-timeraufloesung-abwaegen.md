@@ -3,23 +3,12 @@ title: "Lösung – Prescaler und Timerauflösung abwägen"
 description: "Musterlösung zu Timer-Prescaler mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "timer-und-zeitbasis"
-  - "prescaler"
-  - "prescaler-und-timeraufloesung-abwaegen"
+topicPath: ["mikrocontroller-und-atmega", "timer-und-zeitbasis", "prescaler", "prescaler-und-timeraufloesung-abwaegen"]
 taskId: "v111-elektrotechnik-prescaler-und-timeraufloesung-abwaegen"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/timer-und-zeitbasis/prescaler/prescaler-und-timeraufloesung-abwaegen"
-tags:
-  - "elektrotechnik"
-  - "praxis"
-  - "unterthema"
-  - "mikrocontroller-und-atmega"
-  - "timer-und-zeitbasis"
-  - "prescaler-und-timeraufloesung-abwaegen"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Timer-Prescaler**.

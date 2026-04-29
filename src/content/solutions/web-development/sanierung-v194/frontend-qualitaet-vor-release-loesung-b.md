@@ -3,25 +3,12 @@ title: "Lösung: Frontend-Qualität vor Release: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-development-v194-030b im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "diagnose-und-qa"
-  - "frontend-qualitaet-vor-release"
-  - "loesung-b"
-
+topicPath: ["sanierung-v194", "frontend-qualitaet-vor-release-loesung-b"]
 taskId: "web-development-v194-030b"
 relatedExercise: "web-development/sanierung-v194/frontend-qualitaet-vor-release-aufgabe-b"
-tags:
-  - "frontend"
-  - "qualitaet"
-  - "release"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-030b`
 
 Ausgangsauftrag: Übertrage das Thema Frontend-Qualität vor Release auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

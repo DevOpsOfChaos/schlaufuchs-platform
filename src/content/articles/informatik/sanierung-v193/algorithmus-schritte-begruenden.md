@@ -3,42 +3,17 @@ title: "Algorithmus-Schritte begründen"
 description: "Verstehe nicht nur was passiert, sondern warum es passiert erklären als ruhigen Informatik-Baustein für Qualität, Tests und nachvollziehbare Änderungen."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "datenstrukturen-und-algorithmen"
-  - "algorithmus-schritte-begruenden"
-learningGoals:
-  - "Nicht nur was passiert, sondern warum es passiert erklären"
-  - "Beobachtung, Entscheidung und Prüfung klar trennen"
-  - "einen kleinen überprüfbaren nächsten Schritt formulieren"
-practiceIdeas:
-  - "Beschreibe einen Suchalgorithmus mit Start, Schritt und Abbruch."
-  - "Formuliere einen zweiten Prüfpunkt, der ohne große Umstellung auskommt."
-commonMistakes:
-  - "Es wird direkt geändert, bevor Verhalten und Erwartung klar sind."
-  - "Tests prüfen zu viele Dinge auf einmal."
-  - "Datenstruktur, Schnittstelle oder Fehlerfall bleiben unausgesprochen."
-keyTakeaways:
-  - "Ein Algorithmus besteht aus Zuständen und Übergängen."
-  - "Jeder Schritt sollte ein Ziel haben."
-  - "Abbruchbedingungen verhindern Endlosschleifen."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Code wachsen, getestet, umgebaut oder erklärt werden muss."
-selfCheckPoints:
-  - "Kann ich das erwartete Verhalten in einem Satz beschreiben?"
-  - "Ist klar, welche Daten, Schnittstellen oder Zustände betroffen sind?"
-  - "Gibt es einen kleinen Test oder Kontrollpunkt nach der Änderung?"
+topicPath: ["sanierung-v193", "algorithmus-schritte-begruenden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "algorithmus"
-  - "schritte"
-  - "begruenden"
-  - "informatik"
-  - "softwarequalitaet"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Algorithmus-Schritte begründen](/schlaufuchs-platform/images/informatik/sanierung-v193/algorithmus-schritte-begruenden.svg)
 
 Algorithmus-Schritte begründen gehört zur Informatik-Sanierung v193. Die Seite behandelt das Thema nicht als isolierten Programmiertrick, sondern als Qualitätsentscheidung: Was soll der Code leisten, woran erkennt man korrektes Verhalten und wie bleibt die Änderung später verständlich?

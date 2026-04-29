@@ -1,44 +1,17 @@
 ---
-title: Arrayname und Pointer unterscheiden
-description: Verstehe, warum Arrayname und Pointer in C++ eng verwandt wirken, aber nicht einfach dasselbe sind.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - pointer-und-adressen
-  - arrayname-und-pointer-unterscheiden
-learningGoals:
-  - Du erklärst, warum ein Arrayname oft wie eine Adresse wirkt, aber kein frei umhängbarer Pointer ist.
-  - Du unterscheidest sicher zwischen einem festen Arrayspeicher und einer Pointer-Variablen.
-  - Du erkennst, warum ähnliche Nutzung nicht automatisch gleiche Bedeutung heißt.
-practiceIdeas:
-  - Vergleiche kleine Beispiele mit Arrayname und Pointervariable nebeneinander.
-  - Prüfe, bei welchem Ausdruck ein Umhängen auf ein anderes Ziel möglich ist.
-  - Beschreibe in Worten, was fest im Speicher angelegt ist und was nur auf etwas zeigt.
-commonMistakes:
-  - Zu glauben, Arrayname und Pointer seien vollständig austauschbar.
-  - Die feste Speicherstruktur eines Arrays zu übersehen.
-  - Aus ähnlicher Syntax automatisch auf identische Konzepte zu schließen.
-keyTakeaways:
-  - Ein Array reserviert einen festen zusammenhängenden Speicherbereich für mehrere Elemente.
-  - Ein Pointer ist eine eigene Variable, die eine Adresse speichert.
-  - Ein Arrayname kann oft adressähnlich verwendet werden, ist aber didaktisch nicht einfach nur ein normaler Pointer.
-recognizeSignals:
-  - In Beispielen stehen Arrayname und Pointer direkt nebeneinander.
-  - Du sollst begründen, warum ähnliche Schreibweise nicht dieselbe Struktur bedeutet.
-  - Es geht um Speicherbereiche, Adressen oder um die Frage, was umgehängt werden kann.
-selfCheckPoints:
-  - Kann ich erklären, was ein Array fest mitbringt, was ein Pointer nicht mitbringt?
-  - Kann ich sagen, warum ähnliche Nutzung nicht Gleichheit bedeutet?
-  - Kann ich beschreiben, was sich umhängen lässt und was nicht?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - arrays
-  - pointer
+title: "Arrayname und Pointer unterscheiden"
+description: "Verstehe, warum Arrayname und Pointer in C++ eng verwandt wirken, aber nicht einfach dasselbe sind."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "arrayname-und-pointer-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
 ## Grundidee

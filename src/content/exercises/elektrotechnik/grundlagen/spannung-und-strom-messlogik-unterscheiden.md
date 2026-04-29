@@ -1,12 +1,17 @@
 ---
-title: Spannung und Strom in der Messlogik unterscheiden
-description: Diese Aufgabe vertieft die unterschiedliche Denkweise beim Messen von Spannung und Strom in elektrischen Schaltungen.
-subject: elektrotechnik
-section: Grundlagen
-level: mittel
+title: "Spannung und Strom in der Messlogik unterscheiden"
+description: "Diese Aufgabe vertieft die unterschiedliche Denkweise beim Messen von Spannung und Strom in elektrischen Schaltungen."
+subject: "elektrotechnik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "spannung-und-strom-messlogik-unterscheiden"]
+taskId: "AUTO-SPANNUNG-UND-STROM-MESSLOGIK-UNTERSCHEIDEN"
+tags: ["elektrotechnik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben so, dass klar wird, warum Spannung und Strom nicht gleich gemessen werden.

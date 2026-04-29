@@ -1,31 +1,17 @@
 ---
 title: "Integral"
 description: "Allgemeiner Überblick über Integrale, Flächenidee und aufsummierte Größen."
-subject: mathematik
+subject: "mathematik"
 section: "Analysis"
-topicPath:
-  - "integral"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Integral grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["integral", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Integral nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Integral beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Integral, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Integral in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "analysis"
-  - "integral"
-  - "flaeche"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Analysis"]
 draft: false
 ---
 # Integral

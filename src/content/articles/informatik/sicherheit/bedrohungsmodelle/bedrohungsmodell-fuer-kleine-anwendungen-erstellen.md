@@ -3,46 +3,17 @@ title: "Informatik – Bedrohungsmodell für kleine Anwendungen erstellen"
 description: "Denke Sicherheit über Akteure, Daten, Grenzen und Missbrauchsfälle, bevor du einzelne Schutzmaßnahmen auswählst."
 subject: "informatik"
 section: "Sicherheit"
-topicPath:
-  - "sicherheit"
-  - "bedrohungsmodelle"
-  - "bedrohungsmodell-fuer-kleine-anwendungen-erstellen"
-learningGoals:
-  - "Du erklärst die Kernidee von „Bedrohungsmodell“ in eigenen Worten."
-  - "Du ordnest das Thema einem klaren Unterthema zu statt es in einem Sammelbereich zu verlieren."
-  - "Du leitest eine kleine Gegenprobe für echte Aufgaben oder Projekte ab."
-practiceIdeas:
-  - "Markiere zuerst, welche Unterfrage wirklich gestellt ist."
-  - "Notiere eine typische Fehlannahme und eine passende Gegenprobe."
-  - "Übertrage die Denkbewegung auf ein zweites kleines Beispiel."
-commonMistakes:
-  - "Sicherheit nur als Passwortthema sehen"
-  - "Angreifer unklar lassen"
-  - "Maßnahmen ohne Risiko sammeln"
-keyTakeaways:
-  - "Bedrohungsmodell wird klarer, wenn Zustand, Ursache und Prüfschritt getrennt werden."
-  - "Kleine Unterthemen sind leichter auffindbar und besser prüfbar als breite Sammelordner."
-  - "Eine gute Erklärung endet mit einer konkreten Gegenprobe."
-recognizeSignals:
-  - "Die Aufgabe enthält einen scheinbar kleinen Sonderfall oder Fehlerzustand."
-  - "Es muss zwischen Begriffen unterschieden werden, die im Alltag leicht vermischt werden."
-  - "Eine Entscheidung soll begründet und nicht nur auswendig angewendet werden."
-selfCheckPoints:
-  - "Kann ich das Unterthema mit einem Satz von Nachbarthemen abgrenzen?"
-  - "Kann ich einen typischen Fehler benennen?"
-  - "Kann ich eine konkrete Prüfung oder Rechnung anschließen?"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "daten"
-  - "algorithmen"
-  - "bedrohungsmodell"
-  - "sicherheit"
-  - "bedrohungsmodelle"
+topicPath: ["sicherheit", "bedrohungsmodelle", "bedrohungsmodell-fuer-kleine-anwendungen-erstellen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["informatik", "Sicherheit"]
 draft: false
 ---
-
 ## Grundidee
 
 Sicherheit beginnt nicht mit Werkzeugnamen. Zuerst muss klar sein, welche Daten schützenswert sind, wer darauf zugreifen darf und welche Grenze zwischen vertrauenswürdig und unsicher liegt.

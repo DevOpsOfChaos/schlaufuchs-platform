@@ -1,36 +1,19 @@
 ---
 title: "Einheitenumrechnung"
 description: "Einordnung von Einheitenumrechnung als kontrollierter Wechsel zwischen Maßeinheiten."
-subject: mathematik
+subject: "mathematik"
 section: "Größen und Einheiten"
-topicPath:
-  - "einheitenumrechnung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Einheitenumrechnung als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["einheitenumrechnung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird bei Flächen nur einmal mit 100 gerechnet, obwohl beide Längenrichtungen umgerechnet werden müssen."
-keyTakeaways:
-  - "Umrechnung ändert die Darstellung, nicht die Größe."
-  - "Zusammengesetzte Einheiten brauchen besondere Sorgfalt."
-  - "Einheiten sollten während der Rechnung mitgeführt werden."
-recognizeSignals:
-  - "Es geht um Einheitenumrechnung als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Einheitenumrechnung in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "einheiten"
-  - "umrechnung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Größen und Einheiten"]
 draft: false
 ---
-
 # Einheitenumrechnung
 
 ![Schaubild zur Einheitenumrechnung.](/schlaufuchs-platform/images/overviews/v149/einheitenumrechnung.svg)

@@ -1,36 +1,19 @@
 ---
 title: "journalctl-Filter"
 description: "journalctl-Filter bezeichnet ein Grundthema im Bereich Shell, Dateisystem, Dienste und Betrieb von Linux-Systemen. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-subject: linux
+subject: "linux"
 section: "Logs"
-topicPath:
-  - "journalctl-filter"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst journalctl-Filter als allgemeinen Grundbegriff einordnen."
-  - "Du kennst Zweck, Zusammenhang, typische Teilaspekte und Grenzen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle behandelt werden."
+topicPath: ["journalctl-filter", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird journalctl-Filter nur als einzelner Arbeitsschritt verstanden, obwohl der Begriff einen größeren Zusammenhang beschreibt."
-keyTakeaways:
-  - "journalctl-Filter bezeichnet ein Grundthema im Bereich Shell, Dateisystem, Dienste und Betrieb von Linux-Systemen. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-  - "Ein Überblick trennt Begriff, Zweck, Beispiel und Grenze."
-  - "Spezialseiten werden verständlicher, wenn die allgemeine Einordnung vorher klar ist."
-recognizeSignals:
-  - "Es geht um journalctl-Filter, wenn mehrere Einzelbeobachtungen ohne Grundbegriff schwer einzuordnen sind."
-  - "Der Begriff hilft, Werkzeuge, Werte, Regeln oder Darstellungen fachlich zu sortieren."
-selfCheckPoints:
-  - "Kann ich journalctl-Filter in zwei bis drei Sätzen erklären?"
-  - "Kann ich ein Beispiel und eine typische Grenze nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "journalctl"
-  - "logs"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Logs"]
 draft: false
 ---
-
 # journalctl-Filter
 
 journalctl-Filter bezeichnet ein Grundthema im Bereich Shell, Dateisystem, Dienste und Betrieb

@@ -3,46 +3,17 @@ title: "Web Development – focus-visible von hover und active trennen"
 description: "Lerne Fokusdesign als klar abgegrenztes Unterthema mit Beispiel, Prüfraster und Gegenprobe."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "zustand-und-interaktion"
-  - "fokusdesign"
-  - "focus-visible-von-hover-und-active-trennen"
-learningGoals:
-  - "Du erklärst Fokusdesign als eigenes Unterthema."
-  - "Du grenzt das Thema von einem breiteren Sammelbereich ab."
-  - "Du formulierst eine konkrete Gegenprobe."
-practiceIdeas:
-  - "Erstelle ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Prüfe, welche Nachbarseite nicht gemeint ist."
-  - "Übertrage das Prüfraster auf einen zweiten Fall."
-commonMistakes:
-  - "Das Thema zu breit einordnen und die Trennkante verlieren."
-  - "Nur einen Begriff nennen, ohne Beispiel oder Gegenprobe."
-  - "Aufgabe und Wissensseite sprachlich auseinanderlaufen lassen."
-keyTakeaways:
-  - "Fokusdesign wird durch Einordnung, Trennung und Gegenprobe stabil."
-  - "Feinere Unterthemen verbessern Orientierung und vermeiden Doppelungen."
-  - "Eine gute Lösung nennt auch, was nicht gemeint ist."
-recognizeSignals:
-  - "Die Aufgabe enthält eine kleine, aber entscheidende Unterscheidung."
-  - "Eine allgemeine Antwort wäre zu ungenau."
-  - "Ein Prüfschritt kann die Einordnung bestätigen oder widerlegen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich das Nachbarthema abgrenzen?"
-  - "Ist meine Gegenprobe konkret?"
-tags:
-  - "web development"
-  - "html"
-  - "css"
-  - "javascript"
-  - "fokusdesign"
-  - "zustand-und-interaktion"
+topicPath: ["css", "zustand-und-interaktion", "fokusdesign", "focus-visible-von-hover-und-active-trennen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 **Fokusdesign** ist ein kleines, bewusst abgegrenztes Unterthema. Lerne Fokusdesign als klar abgegrenztes Unterthema mit Beispiel, Prüfraster und Gegenprobe. Die Seite verhindert, dass mehrere Nachbarfragen in einem breiten Sammelbegriff verschwimmen.

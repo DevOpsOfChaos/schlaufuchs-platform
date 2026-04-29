@@ -3,24 +3,12 @@ title: "Lösung: Sensoren und Messketten: Aufgabe B"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-024b im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "messung-und-diagnose"
-  - "sensoren-und-messketten"
-  - "loesung-b"
-
+topicPath: ["sanierung-v195", "sensoren-und-messketten-loesung-b"]
 taskId: "daten-und-signale-v195-024b"
 relatedExercise: "daten-und-signale/sanierung-v195/sensoren-und-messketten-aufgabe-b"
-tags:
-  - "sensoren"
-  - "messketten"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-024b`
 
 Ausgangsauftrag: Übertrage das Thema Sensoren und Messketten auf ein zweites Beispiel und formuliere eine kurze Prüfung.

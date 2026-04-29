@@ -1,45 +1,19 @@
 ---
-title: Dialog und modale Oberflächen verstehen
-description: Verstehe, wie ein Dialog eine zusätzliche Aufgabe in den Vordergrund rückt und warum eine modale Oberfläche den restlichen Seitenkontext bewusst kurz zurücknimmt.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - navigation-und-menues
-  - dialog-und-modale-oberflaechen-verstehen
-learningGoals:
-  - Du erklärst die Grundidee eines Dialogs.
-  - Du beschreibst, warum eine modale Oberfläche den Fokus einer Aufgabe bündelt.
-  - Du liest Dialoge eher als Arbeitszustand als als bloße Box in der Mitte des Bildschirms.
-practiceIdeas:
-  - Vergleiche eine normale Inhaltskarte mit einem Bestätigungsdialog.
-  - Prüfe, ob eine Aufgabe wirklich den restlichen Seitenkontext kurz ausblenden soll.
-  - Lies Modalfenster eher über Aufgabe und Fokus als nur über dunklen Hintergrund.
-commonMistakes:
-  - jeden Pop-up-Kasten als sinnvollen Dialog zu behandeln.
-  - modale Oberflächen für unwichtige Hinweise zu nutzen.
-  - den Dialog nur optisch zu sehen, ohne seine Fokusrolle mitzudenken.
-keyTakeaways:
-  - Ein Dialog rückt eine konkrete Aufgabe oder Entscheidung in den Vordergrund.
-  - Modale Oberflächen nehmen den restlichen Seitenkontext vorübergehend zurück.
-  - Gute Dialoge sind kurz, klar und inhaltlich fokussiert.
-recognizeSignals:
-  - Es geht um Bestätigungen, kurze Formulare, Rückfragen oder gezielte Zusatzaktionen.
-  - Du sollst erklären, warum etwas den laufenden Arbeitsfluss bewusst unterbricht.
-  - In Beispielen ist die Aufgabenkonzentration wichtiger als die optische Mitte des Screens.
-selfCheckPoints:
-  - Kann ich erklären, was einen Dialog von einer normalen Inhaltsbox unterscheidet?
-  - Kann ich begründen, wann eine modale Oberfläche sinnvoll ist?
-  - Kann ich eine zu große oder zu unwichtige Dialognutzung kritisch erkennen?
-tags:
-  - html
-  - dialog
-  - modal
-  - fokus
-level: mittel
+title: "Dialog und modale Oberflächen verstehen"
+description: "Verstehe, wie ein Dialog eine zusätzliche Aufgabe in den Vordergrund rückt und warum eine modale Oberfläche den restlichen Seitenkontext bewusst kurz zurücknimmt."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "dialog-und-modale-oberflaechen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Dialog ist keine normale Inhaltsbox. Er rückt eine **konkrete Aufgabe**, **Frage** oder **Entscheidung** in den Vordergrund. Eine modale Oberfläche bedeutet zusätzlich: Für diesen Moment soll die Aufmerksamkeit bewusst auf genau dieser Aufgabe liegen.

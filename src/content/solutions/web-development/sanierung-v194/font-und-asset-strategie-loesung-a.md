@@ -3,25 +3,12 @@ title: "Lösung: Font- und Asset-Strategie: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-development-v194-026a im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "performance-und-medien"
-  - "font-und-asset-strategie"
-  - "loesung-a"
-
+topicPath: ["sanierung-v194", "font-und-asset-strategie-loesung-a"]
 taskId: "web-development-v194-026a"
 relatedExercise: "web-development/sanierung-v194/font-und-asset-strategie-aufgabe-a"
-tags:
-  - "font"
-  - "asset"
-  - "strategie"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-026a`
 
 Ausgangsauftrag: Bewerte eine Assetliste nach Nutzen und Ladeaufwand.

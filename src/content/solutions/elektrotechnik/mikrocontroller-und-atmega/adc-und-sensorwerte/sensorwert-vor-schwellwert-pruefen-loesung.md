@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Sensorwert vor Schwellwert prüfen"
 description: "Musterlösung zur Aufgabe Sensorwert vor Schwellwert prüfen."
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - adc-und-sensorwerte
-taskId: ET-V180-ADC-002
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/adc-und-sensorwerte/sensorwert-vor-schwellwert-pruefen.md
-tags:
-  - elektrotechnik
-  - loesung
-  - adc
-  - sensorwerte
-  - schwellwert
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["mikrocontroller-und-atmega", "adc-und-sensorwerte", "sensorwert-vor-schwellwert-pruefen"]
+taskId: "ET-V180-ADC-002"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/adc-und-sensorwerte/sensorwert-vor-schwellwert-pruefen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1

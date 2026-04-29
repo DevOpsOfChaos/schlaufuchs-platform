@@ -3,24 +3,12 @@ title: "Lösung: URL-Parameter und Browserzustand: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-v190-020b im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "browser-api"
-  - "url-parameter-und-browserzustand"
-  - "loesung-b"
+topicPath: ["sanierung-v190", "url-parameter-und-browserzustand-aufgabe-b"]
 taskId: "web-v190-020b"
 relatedExercise: "web-development/sanierung-v190/url-parameter-und-browserzustand-aufgabe-b"
-tags:
-  - "browser-api"
-  - "url"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-020b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „URL-Parameter und Browserzustand“ um einen Fehlerfall, eine Abnahmebedingung und eine kurze Begründung.

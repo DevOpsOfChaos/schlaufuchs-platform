@@ -1,35 +1,17 @@
 ---
 title: "Retry mit Jitter"
 description: "Überblick über Wiederholungsversuche mit zufälliger Streuung zur Vermeidung gemeinsamer Lastspitzen."
-subject: informatik
+subject: "informatik"
 section: "Resilienz"
-topicPath:
-  - "retry-mit-jitter"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Retry mit Jitter als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["retry-mit-jitter", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, sofortige und unbegrenzte Wiederholungen einzubauen. Das verschärft Ausfälle oft."
-keyTakeaways:
-  - "Retry mit Jitter ergänzt Wiederholungsstrategien um zufällige Zeitanteile, damit viele Clients nicht gleichzeitig erneut anfragen."
-  - "Er reduziert Lastspitzen nach Fehlern und verhindert, dass Wiederholungen ein angeschlagenes System zusätzlich überlasten."
-  - "Retries sind kein Ersatz für Fehlerbehebung. Bei dauerhaften Fehlern müssen sie begrenzt und sichtbar sein."
-recognizeSignals:
-  - "Es geht um Retry mit Jitter, wenn exponential Backoff vergrößert Wartezeiten nach wiederholten Fehlern."
-  - "Das Thema wird relevant, wenn Beispiele wie nach einem kurzen Netzwerkfehler warten Clients unterschiedlich lange, bevor sie denselben Dienst erneut anfragen."
-selfCheckPoints:
-  - "Kann ich Retry mit Jitter in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "retry"
-  - "resilienz"
-  - "verteilte systeme"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Resilienz"]
 draft: false
 ---
 # Retry mit Jitter

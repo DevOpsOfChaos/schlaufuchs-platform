@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Polling in der Hauptschleife sauber beschreiben
-description: Musterlösung zur Aufgabe ET-ATMEGA-POLL-203.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - polling-und-entprellen
-  - atmega-polling-grundidee-verstehen
-  - polling-in-der-hauptschleife-sauber-beschreiben-loesung
-taskId: ET-ATMEGA-POLL-203
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-polling-grundidee-verstehen/polling-in-der-hauptschleife-sauber-beschreiben.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - loesung
+title: "Musterlösung – Polling in der Hauptschleife sauber beschreiben"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-POLL-203."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-polling-grundidee-verstehen", "polling-in-der-hauptschleife-sauber-beschreiben"]
+taskId: "ET-ATMEGA-POLL-203"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-polling-grundidee-verstehen/polling-in-der-hauptschleife-sauber-beschreiben.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Das Beispiel ist Polling, weil der Eingang in der Hauptschleife immer wieder aktiv neu gelesen wird. Es wird also nicht auf eine Unterbrechung gewartet, sondern der Zustand des Tasters regelmäßig geprüft. Genau diese wiederholte Zustandsabfrage ist die Grundidee von Polling.

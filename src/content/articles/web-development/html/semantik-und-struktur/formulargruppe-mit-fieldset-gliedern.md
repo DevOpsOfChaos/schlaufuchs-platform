@@ -3,44 +3,17 @@ title: "Web Development – Formulargruppe mit fieldset gliedern"
 description: "Lerne formulargruppe mit fieldset gliedern als kleines Unterthema mit Beispiel, Abgrenzung und Prüfstrategie."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "html"
-  - "semantik-und-struktur"
-  - "formulargruppe-mit-fieldset-gliedern"
-learningGoals:
-  - "Du erklärst formulargruppe mit fieldset gliedern in einem klaren Kontext."
-  - "Du grenzt das Unterthema von einem typischen Nachbarthema ab."
-  - "Du nutzt eine konkrete Gegenprobe statt nur eine Merkliste."
-practiceIdeas:
-  - "Formuliere ein eigenes Mini-Beispiel mit einer typischen Verwechslung."
-  - "Schreibe einen Prüfschritt auf, der das Ergebnis kontrolliert."
-  - "Ordne das Thema bewusst in den kleinen Unterpfad ein."
-commonMistakes:
-  - "Die Gruppe wird nur optisch eingerückt."
-  - "Das Thema wird in einem breiten Sammelkapitel versteckt."
-  - "Die Lösung nennt ein Ergebnis, aber keinen prüfbaren Weg."
-keyTakeaways:
-  - "fieldset und legend geben Gruppen Bedeutung."
-  - "Kleine Unterthemen machen Wiederholung und Suche einfacher."
-  - "Aufgabe und Lösung sollen dieselbe Trennkante verwenden."
-recognizeSignals:
-  - "Eine Aufgabe enthält einen Begriff, der leicht mit einem Nachbarthema verwechselt wird."
-  - "Ein Beispiel braucht vor der Rechnung oder Umsetzung eine Einordnung."
-  - "Eine Gegenprobe kann den gewählten Weg bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich den typischen Fehler fachlich ausschließen?"
-  - "Passt meine Lösung genau zum Unterpfad?"
-tags:
-  - "web-development"
-  - "v112"
-  - "feinstruktur"
-  - "html"
-  - "formulargruppe-mit-fieldset-gliedern"
+topicPath: ["html", "semantik-und-struktur", "formulargruppe-mit-fieldset-gliedern"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "Feinstruktur Web Development"]
 draft: false
 ---
-
 ## Grundidee
 
 **Formulargruppe mit fieldset gliedern** ist bewusst als kleines Unterthema angelegt. Lerne formulargruppe mit fieldset gliedern als kleines Unterthema mit Beispiel, Abgrenzung und Prüfstrategie. Dadurch bleibt die Seite auffindbar und landet nicht in einem übergroßen Sammelbereich.

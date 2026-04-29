@@ -1,22 +1,14 @@
 ---
-title: Musterlösung – DOM-Knotenbeziehungen in Worten beschreiben
-description: Musterlösung zur Aufgabe WEB-HTML-CORE-105.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - dom-grundidee-und-knotenbeziehungen-verstehen
-  - dom-knotenbeziehungen-in-worten-beschreiben-loesung
-taskId: WEB-HTML-CORE-105
-relatedExercise: src/content/exercises/web-development/html/dom-grundidee-und-knotenbeziehungen-verstehen/dom-knotenbeziehungen-in-worten-beschreiben.md
-tags:
-  - web-development
-  - html
-  - loesung
-  - task-id
+title: "Musterlösung – DOM-Knotenbeziehungen in Worten beschreiben"
+description: "Musterlösung zur Aufgabe WEB-HTML-CORE-105."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "dom-grundidee-und-knotenbeziehungen-verstehen", "dom-knotenbeziehungen-in-worten-beschreiben"]
+taskId: "WEB-HTML-CORE-105"
+relatedExercise: "src/content/exercises/web-development/html/dom-grundidee-und-knotenbeziehungen-verstehen/dom-knotenbeziehungen-in-worten-beschreiben.md"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Kinder finden
 
 Das Elternelement der beiden <code>li</code>-Elemente ist das <code>ul</code>-Element.

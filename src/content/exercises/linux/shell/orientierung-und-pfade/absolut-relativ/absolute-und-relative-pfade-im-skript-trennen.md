@@ -3,34 +3,15 @@ title: "Aufgabe – Absolute und relative Pfade im Skript trennen"
 description: "Übe Absolute und relative Pfade mit einem kleinen Szenario, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell"
-  - "orientierung-und-pfade"
-  - "absolut-relativ"
-  - "absolute-und-relative-pfade-im-skript-trennen"
+topicPath: ["shell", "orientierung-und-pfade", "absolut-relativ", "absolute-und-relative-pfade-im-skript-trennen"]
 taskId: "v109-linux-absolute-und-relative-pfade-im-skript-trennen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "orientierung-und-pfade"
-  - "absolute und relative pfade"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Übertrage den Prüfschritt auf ein Nachbarthema und nenne den Unterschied."
-reflectionPrompt: "Welche kleine Trennkante macht Absolute und relative Pfade übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["linux", "Shell", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Absolute und relative Pfade**.

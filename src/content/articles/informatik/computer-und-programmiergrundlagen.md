@@ -1,13 +1,19 @@
 ---
-title: Computer und Programmiergrundlagen
-description: Verstehe, wie Computer arbeiten und wie Programme grundlegend aufgebaut sind.
-subject: informatik
-section: programmierung
-level: einfach
-tags: [computer, programmierung, grundlagen]
+title: "Computer und Programmiergrundlagen"
+description: "Verstehe, wie Computer arbeiten und wie Programme grundlegend aufgebaut sind."
+subject: "informatik"
+section: "programmierung"
+topicPath: ["computer-und-programmiergrundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["computer", "programmierung", "grundlagen"]
 draft: false
 ---
-
 Computer arbeiten nicht magisch, sondern nach klaren Regeln. Programme geben dabei vor, welche Schritte ausgeführt werden und wie mit Daten umgegangen wird.
 
 ## Was macht ein Computer grundsätzlich?

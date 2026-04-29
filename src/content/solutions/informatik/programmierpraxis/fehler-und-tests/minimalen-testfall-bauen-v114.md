@@ -1,23 +1,14 @@
 ---
-title: Lösung – Minimalen Testfall bauen
-description: Musterlösung zur Aufgabe über Minimalen Testfall bauen.
-subject: informatik
-section: Feinstruktur Informatik
-topicPath:
-- programmierpraxis
-- fehler-und-tests
-- minimalen-testfall-bauen-v114
-taskId: v114-informatik-minimalen-testfall-bauen-v114
-relatedExercise: informatik/programmierpraxis/fehler-und-tests/minimalen-testfall-bauen-v114
-tags:
-- informatik
-- v114
-- loesung
-- programmierpraxis
-- fehler-und-tests
+title: "Lösung – Minimalen Testfall bauen"
+description: "Musterlösung zur Aufgabe über Minimalen Testfall bauen."
+subject: "informatik"
+section: "Feinstruktur Informatik"
+topicPath: ["programmierpraxis", "fehler-und-tests", "minimalen-testfall-bauen-v114"]
+taskId: "v114-informatik-minimalen-testfall-bauen-v114"
+relatedExercise: "informatik/programmierpraxis/fehler-und-tests/minimalen-testfall-bauen-v114"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

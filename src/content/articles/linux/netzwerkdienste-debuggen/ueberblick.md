@@ -1,37 +1,19 @@
 ---
 title: "Netzwerkdienste debuggen"
 description: "Überblick über die Fehlersuche bei Diensten, Ports, Firewalls und Namensauflösung."
-subject: linux
+subject: "linux"
 section: "Netzwerk"
-topicPath:
-  - "netzwerkdienste-debuggen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Netzwerkdienste debuggen als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["netzwerkdienste-debuggen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Direkt die Anwendung zu ändern, ohne zuerst Prozess, Port, Adresse und Firewall zu prüfen."
-keyTakeaways:
-  - "Netzwerkfehler werden in Schichten geprüft."
-  - "Lauschender Port, Erreichbarkeit und Antwort sind verschiedene Fragen."
-  - "DNS-Probleme sind von Dienstproblemen zu trennen."
-recognizeSignals:
-  - "Ein Dienst ist lokal erreichbar, aber nicht aus dem Netzwerk."
-  - "Verbindungen enden mit Timeout oder Connection refused."
-selfCheckPoints:
-  - "Kann ich Netzwerkdienste debuggen in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "netzwerk"
-  - "debugging"
-  - "dienste"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Netzwerk"]
 draft: false
 ---
-
 # Netzwerkdienste debuggen
 
 Netzwerkdienst-Debugging untersucht, ob ein Dienst läuft, auf der richtigen Adresse lauscht, erreichbar ist und korrekt antwortet.

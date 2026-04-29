@@ -3,21 +3,12 @@ title: "Lösung – Zustände in CSS sichtbar gestalten"
 description: "Musterlösung zu zustände in css sichtbar gestalten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "css"
-  - "css-und-layout"
-  - "zustaende-in-css-sichtbar-gestalten"
+topicPath: ["css", "css-und-layout", "zustaende-in-css-sichtbar-gestalten"]
 taskId: "v112-web-development-zustaende-in-css-sichtbar-gestalten"
 relatedExercise: "web-development/css/css-und-layout/zustaende-in-css-sichtbar-gestalten"
-tags:
-  - "web-development"
-  - "v112"
-  - "feinstruktur"
-  - "css"
-  - "zustaende-in-css-sichtbar-gestalten"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **CSS Layout und Gestaltung**.

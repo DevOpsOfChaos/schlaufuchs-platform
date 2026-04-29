@@ -1,32 +1,17 @@
 ---
 title: "Resource Lifecycle"
 description: "Allgemeiner Überblick über Erzeugen, Verwenden und Freigeben von Ressourcen."
-subject: informatik
+subject: "informatik"
 section: "Programmierung"
-topicPath:
-  - "resource-lifecycle"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Resource Lifecycle als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Öffnen, Nutzen, Fehlerpfad."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["resource-lifecycle", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur Speicher als Ressource zu sehen und Dateien, Sockets oder Locks zu vergessen."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Resource Lifecycle beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Lebenszyklus technischer Ressourcen."
-  - "Wichtige Hinweise liefern vor allem Öffnen, Nutzen, Fehlerpfad."
-recognizeSignals:
-  - "Es geht um lebenszyklus technischer ressourcen, öffnen oder nutzen."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Resource Lifecycle erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "informatik"
-  - "programmierung"
-  - "ressourcen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
 # Resource Lifecycle

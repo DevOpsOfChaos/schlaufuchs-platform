@@ -3,22 +3,12 @@ title: "Lösung: Paketübertragung: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe dat-v189-022b."
 subject: "daten-und-signale"
 section: "uebertragung"
-topicPath:
-  - "uebertragung"
-  - "paketuebertragung"
-  - "loesung-b"
+topicPath: ["sanierung-v189", "paketuebertragung-aufgabe-b"]
 taskId: "dat-v189-022b"
 relatedExercise: "daten-und-signale/sanierung-v189/paketuebertragung-aufgabe-b"
-tags:
-  - "pakete"
-  - "netzwerk"
-  - "uebertragung"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-022b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

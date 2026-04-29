@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – UART-Baudrate und Abweichung ruhig einordnen
-description: Musterlösung zur Aufgabe ET-ATMEGA-UART-303.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - uart-und-serielle-schnittstellen
-  - atmega-uart-baudratenfehler-und-toleranz-verstehen
-  - uart-baudrate-und-abweichung-ruhig-einordnen-loesung
-taskId: ET-ATMEGA-UART-303
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-uart-baudratenfehler-und-toleranz-verstehen/uart-baudrate-und-abweichung-ruhig-einordnen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - uart
-  - loesung
+title: "Musterlösung – UART-Baudrate und Abweichung ruhig einordnen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-UART-303."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-uart-baudratenfehler-und-toleranz-verstehen", "uart-baudrate-und-abweichung-ruhig-einordnen"]
+taskId: "ET-ATMEGA-UART-303"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-uart-baudratenfehler-und-toleranz-verstehen/uart-baudrate-und-abweichung-ruhig-einordnen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Beide Geräte können nominal denselben Sollwert verwenden, aber durch Taktquelle und Registerwahl leicht unterschiedliche reale Baudraten erzeugen. Wenn diese Abweichung zu groß wird, verschiebt sich das zeitliche Abtastfenster im Empfänger. Dann wirken Zeichen fehlerhaft, obwohl im Code auf beiden Seiten derselbe Sollwert steht.

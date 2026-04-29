@@ -3,24 +3,12 @@ title: "Lösung: Entprellen von Tastern: Aufgabe A"
 description: "Musterlösung zur Aufgabe etech-v191-018a im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "digitale-schaltungen"
-  - "entprellen-von-tastern"
-  - "loesung-a"
+topicPath: ["sanierung-v191", "entprellen-von-tastern-aufgabe-a"]
 taskId: "etech-v191-018a"
 relatedExercise: "elektrotechnik/sanierung-v191/entprellen-von-tastern-aufgabe-a"
-tags:
-  - "digitale-schaltungen"
-  - "entprellen"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-018a`
 
 Ausgangsauftrag: Erkläre, warum ein Tastendruck mehrfach erkannt werden kann.

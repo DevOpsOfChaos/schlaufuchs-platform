@@ -3,22 +3,12 @@ title: "Lösung: Graphen deuten: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-046b."
 subject: "mathematik"
 section: "funktionen-und-graphen"
-topicPath:
-  - "funktionen-und-graphen"
-  - "graphen-deuten"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "graphen-deuten-aufgabe-b"]
 taskId: "mat-v188-046b"
 relatedExercise: "mathematik/sanierung-v188/graphen-deuten-aufgabe-b"
-tags:
-  - "graphen"
-  - "funktionen"
-  - "deuten"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "funktionen-und-graphen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-046b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

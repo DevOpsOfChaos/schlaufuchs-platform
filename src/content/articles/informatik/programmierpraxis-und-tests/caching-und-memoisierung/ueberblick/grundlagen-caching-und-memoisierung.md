@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Caching und Memoisierung"
 description: "Allgemeiner Überblick über caching und memoisierung in der Informatik."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "caching-und-memoisierung"
-  - "ueberblick"
-learningGoals:
-  - "Du erklärst, wie gespeicherte Zwischenergebnisse Arbeit sparen und neue Risiken erzeugen."
-  - "Du ordnest typische Beispiele und Grenzen des Themas ein."
-  - "Du unterscheidest Grundidee, Anwendung und häufige Fehler."
-practiceIdeas:
-  - "Formuliere die Grundidee in drei Sätzen ohne Spezialfall."
-  - "Ordne ein eigenes Beispiel dem passenden Teilaspekt zu."
-commonMistakes:
-  - "Cache als Wahrheit behandeln"
-  - "Invalidierung vergessen"
-  - "Speicherbedarf ignorieren"
-keyTakeaways:
-  - "Caching und Memoisierung braucht zuerst eine klare begriffliche Einordnung."
-  - "Beispiele helfen nur, wenn ihr Kontext bekannt ist."
-  - "Gute Informatikarbeit trennt Modell, Umsetzung und Prüfung."
-recognizeSignals:
-  - "Ein Thema wirkt wie ein Einzelfall, braucht aber zuerst einen allgemeinen Rahmen."
-  - "Mehrere Beispiele zeigen dieselbe Grundidee aus verschiedenen Blickwinkeln."
-selfCheckPoints:
-  - "Kann ich Grundidee und Beispiel unterscheiden?"
-  - "Kann ich typische Fehler nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "programmierpraxis-und-tests"
-  - "caching-und-memoisierung"
+topicPath: ["programmierpraxis-und-tests", "caching-und-memoisierung", "ueberblick", "grundlagen-caching-und-memoisierung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierpraxis und Tests"]
 draft: false
 ---
-
 ![Schaubild: Caching und Memoisierung](/schlaufuchs-platform/images/overviews/v185/caching-und-memoisierung.svg)
 
 ## Begriff

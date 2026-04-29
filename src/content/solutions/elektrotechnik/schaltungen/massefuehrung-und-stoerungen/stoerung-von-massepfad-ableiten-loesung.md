@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Störung von Massepfad ableiten"
 description: "Musterlösung zur Aufgabe Störung von Massepfad ableiten."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schaltungen"
-topicPath:
-  - schaltungen
-  - massefuehrung-und-stoerungen
-taskId: ET-V181-014
-relatedExercise: src/content/exercises/elektrotechnik/schaltungen/massefuehrung-und-stoerungen/stoerung-von-massepfad-ableiten.md
-tags:
-  - elektrotechnik
-  - massefuehrung-und-stoerungen
-  - loesung
+topicPath: ["schaltungen", "massefuehrung-und-stoerungen", "stoerung-von-massepfad-ableiten"]
+taskId: "ET-V181-014"
+relatedExercise: "src/content/exercises/elektrotechnik/schaltungen/massefuehrung-und-stoerungen/stoerung-von-massepfad-ableiten.md"
+tags: ["elektrotechnik", "Schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

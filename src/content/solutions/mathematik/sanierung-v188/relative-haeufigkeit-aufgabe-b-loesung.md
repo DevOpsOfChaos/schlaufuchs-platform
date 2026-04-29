@@ -3,22 +3,12 @@ title: "Lösung: Relative Häufigkeit: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-052b."
 subject: "mathematik"
 section: "daten-und-wahrscheinlichkeit"
-topicPath:
-  - "daten-und-wahrscheinlichkeit"
-  - "datenkritik-und-zufall"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "relative-haeufigkeit-aufgabe-b"]
 taskId: "mat-v188-052b"
 relatedExercise: "mathematik/sanierung-v188/relative-haeufigkeit-aufgabe-b"
-tags:
-  - "haeufigkeit"
-  - "wahrscheinlichkeit"
-  - "daten"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "daten-und-wahrscheinlichkeit", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-052b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

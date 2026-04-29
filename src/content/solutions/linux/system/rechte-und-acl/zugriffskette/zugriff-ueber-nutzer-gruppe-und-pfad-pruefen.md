@@ -3,22 +3,12 @@ title: "Lösung – Zugriff über Nutzer, Gruppe und Pfad prüfen"
 description: "Musterlösung zu Zugriffskette mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "Rechte"
-topicPath:
-  - "system"
-  - "rechte-und-acl"
-  - "zugriffskette"
-  - "zugriff-ueber-nutzer-gruppe-und-pfad-pruefen"
+topicPath: ["system", "rechte-und-acl", "zugriffskette", "zugriff-ueber-nutzer-gruppe-und-pfad-pruefen"]
 taskId: "v107-linux-zugriff-ueber-nutzer-gruppe-und-pfad-pruefen"
 relatedExercise: "linux/system/rechte-und-acl/zugriffskette/zugriff-ueber-nutzer-gruppe-und-pfad-pruefen"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "zugriffskette"
-  - "rechte-und-acl"
+tags: ["linux", "Rechte", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Zugriffskette**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

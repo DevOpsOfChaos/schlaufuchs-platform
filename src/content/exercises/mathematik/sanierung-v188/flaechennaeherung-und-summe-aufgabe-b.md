@@ -3,33 +3,15 @@ title: "Flächennäherung und Summe: Prüfen und Begründen"
 description: "Bewerte eine Aussage zu Flächennäherung und Summe und formuliere eine bessere Arbeitsregel."
 subject: "mathematik"
 section: "analysis-vorbereitung"
-topicPath:
-  - "analysis-vorbereitung"
-  - "flaechennaeherung-und-summe"
-  - "aufgabe-b"
+topicPath: ["sanierung-v188", "flaechennaeherung-und-summe-aufgabe-b"]
 taskId: "mat-v188-040b"
-tags:
-  - "flaeche"
-  - "summe"
-  - "analysis"
-  - "mathematik"
-  - "aufgabe"
-  - "v188"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["mathematik", "analysis-vorbereitung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Prüfe die folgende Aussage zum Thema **Flächennäherung und Summe**:

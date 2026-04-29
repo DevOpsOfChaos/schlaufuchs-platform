@@ -1,30 +1,17 @@
 ---
-title: Sprungziele auf langen Seiten sinnvoll begründen
-description: Begründe, warum IDs und Fragment-Links auf längeren Seiten Orientierung schaffen und welche Zielstellen dafür geeignet sind.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - navigation-und-menues
-  - id-und-fragment-links-verstehen
-  - sprungziele-auf-langen-seiten-sinnvoll-begruenden
-level: einfach
+title: "Sprungziele auf langen Seiten sinnvoll begründen"
+description: "Begründe, warum IDs und Fragment-Links auf längeren Seiten Orientierung schaffen und welche Zielstellen dafür geeignet sind."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "id-und-fragment-links-verstehen", "sprungziele-auf-langen-seiten-sinnvoll-begruenden"]
+taskId: "AUTO-SPRUNGZIELE-AUF-LANGEN-SEITEN-SINNVOLL-BEGRUENDEN"
+tags: ["web-development", "HTML", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - html
-  - id
-  - links
-hintPoints:
-  - "Frage zuerst, welche Abschnittsziele für Leser wirklich nützlich sind."
-  - "Achte darauf, dass jede ID im Dokument eindeutig bleibt."
-selfCheckPoints:
-  - "Kannst du erklären, wie ein Fragment-Link zu einer Stelle auf derselben Seite springt?"
-  - "Kannst du sinnvolle Zielstellen von unnötigen Zielstellen unterscheiden?"
-transferIdeas:
-  - "Übertrage die Logik auf FAQ-Seiten, Dokus, Produktseiten oder lange Formulare."
-reflectionPrompt: "Woran merkst du, dass eine Seite lang genug ist, damit Sprungziele echten Navigationsnutzen bringen?"
 ---
-
 ## Aufgabe 1: Inhaltsverzeichnis planen
 
 Eine Lernseite enthält die Abschnitte

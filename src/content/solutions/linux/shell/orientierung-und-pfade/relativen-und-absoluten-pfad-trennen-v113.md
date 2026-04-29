@@ -3,20 +3,12 @@ title: "Lösung – Relativen und absoluten Pfad trennen"
 description: "Musterlösung zu Relativen und absoluten Pfad trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "orientierung-und-pfade"
-  - "relativen-und-absoluten-pfad-trennen-v113"
+topicPath: ["shell", "orientierung-und-pfade", "relativen-und-absoluten-pfad-trennen-v113"]
 taskId: "v113-linux-relativen-und-absoluten-pfad-trennen-v113"
 relatedExercise: "linux/shell/orientierung-und-pfade/relativen-und-absoluten-pfad-trennen-v113"
-tags:
-  - "linux"
-  - "strukturcheck"
-  - "unterthema"
-  - "relativen-und-absoluten-pfad-trennen-v113"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Relativen und absoluten Pfad trennen**.

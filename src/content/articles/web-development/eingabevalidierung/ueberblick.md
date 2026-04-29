@@ -1,33 +1,19 @@
 ---
 title: "Eingabevalidierung"
 description: "Eingabevalidierung prüft, ob Daten formal und fachlich zu den erwarteten Regeln passen. Sie schützt vor Fehlern, Missbrauch und unklaren Zuständen."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "eingabevalidierung"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Eingabevalidierung."
-  - "Du kannst Eingabevalidierung in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["eingabevalidierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Validierung nur als Komfortfunktion im Formular zu sehen."
-keyTakeaways:
-  - "Eingabevalidierung prüft, ob Daten formal und fachlich zu den erwarteten Regeln passen."
-  - "Wichtig sind vor allem client- und servervalidierung, format, bereich und pflichtfelder und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Eingabevalidierung, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Eingabevalidierung dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "web development"
-  - "grundlagen"
-  - "eingabevalidierung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # Eingabevalidierung
 
 Eingabevalidierung prüft, ob Daten formal und fachlich zu den erwarteten Regeln passen. Sie schützt vor Fehlern, Missbrauch und unklaren Zuständen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

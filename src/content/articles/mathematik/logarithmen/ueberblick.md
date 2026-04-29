@@ -1,31 +1,17 @@
 ---
 title: "Logarithmen"
 description: "Allgemeiner Überblick über Logarithmen als Umkehroperation zur Potenz und ihre Anwendungen."
-subject: mathematik
+subject: "mathematik"
 section: "Algebra"
-topicPath:
-  - "logarithmen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Logarithmen grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["logarithmen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Logarithmen nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Logarithmen beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Logarithmen, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Logarithmen in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "logarithmen"
-  - "exponentialfunktionen"
-  - "algebra"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Algebra"]
 draft: false
 ---
 # Logarithmen

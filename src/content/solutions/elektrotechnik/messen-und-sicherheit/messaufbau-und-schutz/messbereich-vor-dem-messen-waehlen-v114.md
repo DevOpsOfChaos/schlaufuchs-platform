@@ -1,23 +1,14 @@
 ---
-title: Lösung – Messbereich vor dem Messen wählen
-description: Musterlösung zur Aufgabe über Messbereich vor dem Messen wählen.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- messen-und-sicherheit
-- messaufbau-und-schutz
-- messbereich-vor-dem-messen-waehlen-v114
-taskId: v114-elektrotechnik-messbereich-vor-dem-messen-waehlen-v114
-relatedExercise: elektrotechnik/messen-und-sicherheit/messaufbau-und-schutz/messbereich-vor-dem-messen-waehlen-v114
-tags:
-- elektrotechnik
-- v114
-- loesung
-- messen-und-sicherheit
-- messaufbau-und-schutz
+title: "Lösung – Messbereich vor dem Messen wählen"
+description: "Musterlösung zur Aufgabe über Messbereich vor dem Messen wählen."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["messen-und-sicherheit", "messaufbau-und-schutz", "messbereich-vor-dem-messen-waehlen-v114"]
+taskId: "v114-elektrotechnik-messbereich-vor-dem-messen-waehlen-v114"
+relatedExercise: "elektrotechnik/messen-und-sicherheit/messaufbau-und-schutz/messbereich-vor-dem-messen-waehlen-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

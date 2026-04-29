@@ -1,30 +1,17 @@
 ---
 title: "Schnittstelle als Vertrag"
 description: "Allgemeiner Überblick: Eine Schnittstelle beschreibt Erwartungen zwischen zwei Systemteilen."
-subject: informatik
+subject: "informatik"
 section: "Architektur"
-topicPath:
-  - "schnittstelle-als-vertrag"
-learningGoals:
-  - "Du kannst schnittstelle als vertrag als Grundidee einordnen."
-  - "Du erkennst wichtige Bestandteile und typische Grenzen."
-  - "Du kannst das Thema in einfachen Worten erklären."
+topicPath: ["schnittstelle-als-vertrag", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur ein Detail zu betrachten und den Zusammenhang zu übersehen."
-  - "Das Schaubild als exakte technische Darstellung statt als Orientierung zu lesen."
-keyTakeaways:
-  - "Eine Schnittstelle beschreibt Erwartungen zwischen zwei Systemteilen."
-  - "Ein Überblicksbild hilft, Begriffe und Beziehungen ruhig zu ordnen."
-recognizeSignals:
-  - "Es geht um schnittstelle als vertrag, Grundbegriffe, Zusammenhänge oder typische Fehlerquellen."
-selfCheckPoints:
-  - "Kann ich erklären, welche Rolle schnittstelle als vertrag im größeren Zusammenhang spielt?"
-level: einfach
-tags:
-  - "informatik"
-  - "schnittstelle als vertrag"
-  - "überblick"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Architektur"]
 draft: false
 ---
 # Schnittstelle als Vertrag

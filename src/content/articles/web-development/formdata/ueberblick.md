@@ -1,33 +1,19 @@
 ---
 title: "FormData"
 description: "FormData ist eine Browser-Schnittstelle zum Sammeln und Senden von Formulardaten. Sie unterstützt einfache Felder ebenso wie Dateien."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "formdata"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von FormData."
-  - "Du kannst FormData in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["formdata", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Content-Type manuell falsch zu setzen und dadurch Multipart-Grenzen zu zerstören."
-keyTakeaways:
-  - "FormData ist eine Browser-Schnittstelle zum Sammeln und Senden von Formulardaten."
-  - "Wichtig sind vor allem name-wert-paare aus formularen, dateiuploads und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um FormData, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu FormData dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "web development"
-  - "grundlagen"
-  - "formdata"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # FormData
 
 FormData ist eine Browser-Schnittstelle zum Sammeln und Senden von Formulardaten. Sie unterstützt einfache Felder ebenso wie Dateien. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

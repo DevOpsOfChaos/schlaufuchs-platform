@@ -3,22 +3,12 @@ title: "Lösung – Feature Detection statt Browser raten"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Development-Aufgabe."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "browser-apis"
-  - "feature-detection-statt-browser-raten"
-tags:
-  - "web development"
-  - "javascript"
-  - "browser api"
-  - "feature detection"
-  - "robustheit"
-  - "lösung"
+topicPath: ["javascript", "browser-apis", "feature-detection-statt-browser-raten"]
 taskId: "web-v104-feature-detection-statt-browser-raten"
 relatedExercise: "web-development/javascript/browser-apis/feature-detection-statt-browser-raten"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Eine gute Lösung beginnt mit der Nutzer-Situation. Das Problem ist nicht nur technisch, sondern zeigt sich daran, dass eine Person nicht sicher erkennt, was gerade passiert oder wie sie weitermachen kann.

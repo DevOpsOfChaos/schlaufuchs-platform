@@ -3,25 +3,12 @@ title: "Lösung: Bits, Bytes und Codierung: Aufgabe A"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-005a im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "darstellung-und-code"
-  - "bits-bytes-und-codierung"
-  - "loesung-a"
-
+topicPath: ["sanierung-v195", "bits-bytes-und-codierung-loesung-a"]
 taskId: "daten-und-signale-v195-005a"
 relatedExercise: "daten-und-signale/sanierung-v195/bits-bytes-und-codierung-aufgabe-a"
-tags:
-  - "bits"
-  - "bytes"
-  - "codierung"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-005a`
 
 Ausgangsauftrag: Erkläre, warum dieselbe Bitfolge unterschiedliche Bedeutungen haben kann.

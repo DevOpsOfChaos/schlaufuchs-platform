@@ -3,22 +3,12 @@ title: "Lösung: Zeitbereich und Frequenzbereich: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe dat-v189-034b."
 subject: "daten-und-signale"
 section: "analyse"
-topicPath:
-  - "analyse"
-  - "zeitbereich-und-frequenzbereich"
-  - "loesung-b"
+topicPath: ["sanierung-v189", "zeitbereich-und-frequenzbereich-aufgabe-b"]
 taskId: "dat-v189-034b"
 relatedExercise: "daten-und-signale/sanierung-v189/zeitbereich-und-frequenzbereich-aufgabe-b"
-tags:
-  - "zeitbereich"
-  - "frequenzbereich"
-  - "analyse"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "analyse", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-034b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

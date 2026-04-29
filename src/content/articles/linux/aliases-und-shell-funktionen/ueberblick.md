@@ -1,37 +1,19 @@
 ---
 title: "Aliases und Shell-Funktionen"
 description: "Überblick über Aliases, Shell-Funktionen und kleine Komfortabkürzungen in der Linux-Shell."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - "aliases-und-shell-funktionen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Aliases und Shell-Funktionen als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["aliases-und-shell-funktionen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Aliases werden manchmal so stark genutzt, dass Arbeitsweisen auf anderen Systemen nicht reproduzierbar sind."
-keyTakeaways:
-  - "Aliases kürzen einfache Befehle ab."
-  - "Shell-Funktionen eignen sich für kleine Abläufe."
-  - "Für reproduzierbare Skripte sind Abkürzungen vorsichtig zu nutzen."
-recognizeSignals:
-  - "Ein Befehl verhält sich anders als erwartet."
-  - "`type` zeigt alias oder function."
-selfCheckPoints:
-  - "Kann ich Aliases und Shell-Funktionen in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "alias"
-  - "funktionen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
-
 # Aliases und Shell-Funktionen
 
 ![Schaubild zu Aliases und Shell-Funktionen.](/schlaufuchs-platform/images/overviews/v150/aliases-und-shell-funktionen.svg)

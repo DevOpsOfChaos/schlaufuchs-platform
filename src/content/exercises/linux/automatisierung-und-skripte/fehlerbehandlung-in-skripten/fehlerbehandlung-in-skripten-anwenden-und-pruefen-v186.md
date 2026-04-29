@@ -1,29 +1,17 @@
 ---
 title: "Fehlerbehandlung in Skripten – anwenden und prüfen"
 description: "Übe, Fehlerbehandlung in Skripten an kleinen Praxissituationen zu prüfen."
-subject: linux
+subject: "linux"
 section: "automatisierung-und-skripte"
-topicPath:
-  - "automatisierung-und-skripte"
-  - "fehlerbehandlung-in-skripten"
-taskId: LINUX-FEHLERBEHANDLUNG-IN-SKRIPTEN-V186-2
-tags:
-  - "linux"
-  - "skripte"
-  - "fehlerbehandlung"
-  - "aufgabe"
-hintPoints:
-  - "Beginne mit Begriff und Kontext."
-  - "Trenne Beobachtung, Prüfung und mögliche Änderung."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe erklären."
-  - "Ich kann einen typischen Fehler vermeiden."
-transferIdeas:
-  - "Formuliere eine ähnliche Prüfsituation aus deinem eigenen Linux-Alltag."
-level: fortgeschritten
+topicPath: ["automatisierung-und-skripte", "fehlerbehandlung-in-skripten", "fehlerbehandlung-in-skripten-anwenden-und-pruefen-v186"]
+taskId: "LINUX-FEHLERBEHANDLUNG-IN-SKRIPTEN-V186-2"
+tags: ["linux", "automatisierung-und-skripte", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "fortgeschritten"
 draft: false
 ---
-
 ## Lernziel
 
 Du sollst **Fehlerbehandlung in Skripten** nicht nur als Befehl oder Schlagwort sehen, sondern als geordnetes Linux-Thema mit Zweck, Kontext und typischen Prüfschritten.

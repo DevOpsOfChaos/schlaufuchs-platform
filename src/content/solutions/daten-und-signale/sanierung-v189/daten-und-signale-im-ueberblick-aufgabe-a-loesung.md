@@ -3,22 +3,12 @@ title: "Lösung: Daten und Signale im Überblick: Grundordnung"
 description: "Musterlösung zur Aufgabe dat-v189-001a."
 subject: "daten-und-signale"
 section: "grundlagen"
-topicPath:
-  - "grundlagen"
-  - "ueberblick"
-  - "loesung-a"
+topicPath: ["sanierung-v189", "daten-und-signale-im-ueberblick-aufgabe-a"]
 taskId: "dat-v189-001a"
 relatedExercise: "daten-und-signale/sanierung-v189/daten-und-signale-im-ueberblick-aufgabe-a"
-tags:
-  - "daten"
-  - "signale"
-  - "ueberblick"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "grundlagen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-001a`
 
 Eine mögliche Lösung:

@@ -3,35 +3,15 @@ title: "Schnittstellen und Verträge: Aufgabe B"
 description: "Übertrage das Thema Schnittstellen und Verträge auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "qualitaet-und-wartbarkeit"
-  - "schnittstellen-und-vertraege"
-  - "aufgabe-b"
+topicPath: ["sanierung-v193", "schnittstellen-und-vertraege-aufgabe-b"]
 taskId: "informatik-v193-005b"
-tags:
-  - "schnittstellen"
-  - "vertraege"
-  - "informatik"
-  - "softwarequalitaet"
-  - "aufgabe"
-  - "v193"
-hintPoints:
-  - "Beschreibe zuerst das erwartete Verhalten."
-  - "Nenne mindestens eine beteiligte Datenstruktur, Schnittstelle oder Zustandsänderung."
-  - "Formuliere einen kleinen Kontrollpunkt oder Test."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Schnittstellen und Verträge."
-  - "Erwartung und tatsächliche Beobachtung werden getrennt."
-  - "Der Prüfweg ist klein genug, um ihn direkt nachzuvollziehen."
-transferIdeas:
-  - "Übertrage den Prüfweg auf ein anderes Modul oder eine zweite Eingabe."
-  - "Notiere, welche Annahme du durch einen Test absichern würdest."
-reflectionPrompt: "Welche Annahme wäre am gefährlichsten, wenn sie still falsch bleibt?"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Übertrage das Thema Schnittstellen und Verträge auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

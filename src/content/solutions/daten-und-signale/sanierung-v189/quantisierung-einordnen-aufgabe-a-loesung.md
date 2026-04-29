@@ -3,22 +3,12 @@ title: "Lösung: Quantisierung einordnen: Grundordnung"
 description: "Musterlösung zur Aufgabe dat-v189-007a."
 subject: "daten-und-signale"
 section: "grundlagen"
-topicPath:
-  - "grundlagen"
-  - "quantisierung"
-  - "loesung-a"
+topicPath: ["sanierung-v189", "quantisierung-einordnen-aufgabe-a"]
 taskId: "dat-v189-007a"
 relatedExercise: "daten-und-signale/sanierung-v189/quantisierung-einordnen-aufgabe-a"
-tags:
-  - "quantisierung"
-  - "stufen"
-  - "messung"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "grundlagen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-007a`
 
 Eine mögliche Lösung:

@@ -1,23 +1,14 @@
 ---
-title: Lösung – Map für Zuordnungen nutzen
-description: Musterlösung zur Aufgabe über Map für Zuordnungen nutzen.
-subject: informatik
-section: Feinstruktur Informatik
-topicPath:
-- datenstrukturen
-- listen-maps-sets
-- map-fuer-zuordnungen-nutzen-v114
-taskId: v114-informatik-map-fuer-zuordnungen-nutzen-v114
-relatedExercise: informatik/datenstrukturen/listen-maps-sets/map-fuer-zuordnungen-nutzen-v114
-tags:
-- informatik
-- v114
-- loesung
-- datenstrukturen
-- listen-maps-sets
+title: "Lösung – Map für Zuordnungen nutzen"
+description: "Musterlösung zur Aufgabe über Map für Zuordnungen nutzen."
+subject: "informatik"
+section: "Feinstruktur Informatik"
+topicPath: ["datenstrukturen", "listen-maps-sets", "map-fuer-zuordnungen-nutzen-v114"]
+taskId: "v114-informatik-map-fuer-zuordnungen-nutzen-v114"
+relatedExercise: "informatik/datenstrukturen/listen-maps-sets/map-fuer-zuordnungen-nutzen-v114"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

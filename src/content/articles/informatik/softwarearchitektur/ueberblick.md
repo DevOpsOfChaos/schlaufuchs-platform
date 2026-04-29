@@ -1,36 +1,19 @@
 ---
 title: "Softwarearchitektur"
 description: "Überblick über Softwarearchitektur als grundlegende Struktur und Entscheidungsrahmen eines Systems."
-subject: informatik
+subject: "informatik"
 section: "Softwaredesign"
-topicPath:
-  - "softwarearchitektur"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Softwarearchitektur als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["softwarearchitektur", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Architektur wird oft mit möglichst vielen Schichten verwechselt."
-keyTakeaways:
-  - "Softwarearchitektur strukturiert Verantwortungen."
-  - "Sie unterstützt Wartbarkeit und Qualität."
-  - "Architektur muss zum Projekt passen."
-recognizeSignals:
-  - "Ein System wird schwer änderbar."
-  - "Fragen nach Modulen, Schichten und Abhängigkeiten entstehen."
-selfCheckPoints:
-  - "Kann ich Softwarearchitektur in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "softwarearchitektur"
-  - "design"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Softwaredesign"]
 draft: false
 ---
-
 # Softwarearchitektur
 
 Softwarearchitektur beschreibt die grundlegende Struktur eines Softwaresystems: Teile, Zusammenarbeit, Abhängigkeiten und Qualitätsziele.

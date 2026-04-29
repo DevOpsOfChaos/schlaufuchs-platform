@@ -1,12 +1,17 @@
 ---
-title: Punkte eintragen und ablesen
-description: Diese Aufgabe vertieft das sichere Arbeiten mit Koordinaten, Quadranten und der richtigen Reihenfolge von x- und y-Wert.
-subject: mathematik
-section: Grundlagen
-level: einfach
+title: "Punkte eintragen und ablesen"
+description: "Diese Aufgabe vertieft das sichere Arbeiten mit Koordinaten, Quadranten und der richtigen Reihenfolge von x- und y-Wert."
+subject: "mathematik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "koordinatensystem", "punkte-eintragen-und-ablesen"]
+taskId: "AUTO-PUNKTE-EINTRAGEN-UND-ABLESEN"
+tags: ["mathematik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben sorgfältig und achte immer auf die richtige Reihenfolge der Koordinaten.

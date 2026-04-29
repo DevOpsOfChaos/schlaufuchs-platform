@@ -1,32 +1,17 @@
 ---
 title: "cgroups"
 description: "Überblick über Control Groups zur Begrenzung und Beobachtung von Prozessressourcen."
-subject: linux
+subject: "linux"
 section: "Ressourcen"
-topicPath:
-  - "cgroups"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst cgroups als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie CPU, Memory, systemd."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["cgroups", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Container nur als Dateisystemisolation zu verstehen und Ressourcensteuerung auszublenden."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "cgroups beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Ressourcensteuerung im Kernel."
-  - "Wichtige Hinweise liefern vor allem CPU, Memory, systemd."
-recognizeSignals:
-  - "Es geht um ressourcensteuerung im kernel, cpu oder memory."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck cgroups erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "linux"
-  - "ressourcen"
-  - "container"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Ressourcen"]
 draft: false
 ---
 # cgroups

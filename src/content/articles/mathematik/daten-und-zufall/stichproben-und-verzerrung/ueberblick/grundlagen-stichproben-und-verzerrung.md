@@ -1,39 +1,19 @@
 ---
 title: "Grundlagen: Stichproben und Verzerrung"
 description: "Ein allgemeiner Überblick über Stichproben, Repräsentativität und typische Verzerrungen in Daten."
-subject: mathematik
+subject: "mathematik"
 section: "Daten und Zufall"
-topicPath:
-  - daten-und-zufall
-  - stichproben-und-verzerrung
-  - ueberblick
-learningGoals:
-  - "Du kennst die Grundbegriffe dieses Themenbereichs."
-  - "Du kannst typische Situationen grob einordnen, bevor du Detailseiten liest."
-  - "Du erkennst, welche Nachbarseiten für Vertiefung oder Übungen passen."
-practiceIdeas:
-  - "Lies zuerst diese Überblicksseite und danach eine konkrete Lernsituation aus dem gleichen Unterthema."
-  - "Notiere die wichtigsten Begriffe und prüfe, welche davon in den Detailseiten wieder auftauchen."
-commonMistakes:
-  - "Direkt mit Sonderfällen zu beginnen, ohne die Grundbegriffe zu klären."
-  - "Ein einzelnes Beispiel für die ganze Themenlogik zu halten."
-keyTakeaways:
-  - "Daten sind nicht nur Zahlen. Ihre Herkunft entscheidet mit darüber, ob eine Aussage belastbar ist."
-recognizeSignals:
-  - "Du suchst eine allgemeine Einordnung, bevor du Aufgaben oder Spezialfälle bearbeitest."
-  - "Mehrere Detailseiten wirken ähnlich, aber dir fehlt der gemeinsame Rahmen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten beschreiben?"
-  - "Kann ich Grundidee, typische Begriffe und Grenzen auseinanderhalten?"
-level: mittel
-tags:
-  - "mathematik"
-  - "daten"
-  - "stichprobe"
-  - "verzerrung"
+topicPath: ["daten-und-zufall", "stichproben-und-verzerrung", "ueberblick", "grundlagen-stichproben-und-verzerrung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["mathematik", "Daten und Zufall"]
 draft: false
 ---
-
 ## Überblick
 
 Eine Stichprobe ist eine Auswahl aus einer größeren Grundgesamtheit. Sie wird verwendet, wenn nicht alle Personen, Objekte oder Messwerte vollständig untersucht werden können. Die Aussagekraft einer Stichprobe hängt stark davon ab, wie sie ausgewählt wurde.

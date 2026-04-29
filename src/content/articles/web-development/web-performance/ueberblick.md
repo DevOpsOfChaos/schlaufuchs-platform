@@ -1,34 +1,19 @@
 ---
 title: "Web-Performance"
 description: "Überblick über Web-Performance als Zusammenspiel aus Ladezeit, Reaktionsfähigkeit und wahrgenommener Geschwindigkeit."
-subject: web-development
+subject: "web-development"
 section: "Qualität und Betrieb"
-topicPath:
-  - "web-performance"
-  - "ueberblick"
-learningGoals:
-  - "Du verstehst Performance als Nutzererfahrung, nicht nur als Messwert."
-  - "Du kennst Ressourcen, Rendering und JavaScript als Einflussfaktoren."
-  - "Du kannst typische Performance-Probleme grob einordnen."
+topicPath: ["web-performance", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur die Dateigröße zu betrachten und Laufzeitverhalten zu ignorieren."
-  - "Optimierung ohne Messung vorzunehmen."
-keyTakeaways:
-  - "Gute Performance entsteht durch kleine, sinnvolle Ressourcen und schnelle Reaktion."
-  - "Messen, Priorisieren und schrittweises Verbessern sind wichtiger als blinde Optimierung."
-recognizeSignals:
-  - "Es geht um Ladezeit, Bundle-Größe, Bilder, Rendering, Core Web Vitals, Cache oder langsame Interaktion."
-selfCheckPoints:
-  - "Kann ich unterscheiden, ob eine Seite langsam lädt oder langsam auf Eingaben reagiert?"
-level: einfach
-tags:
-  - "web development"
-  - "performance"
-  - "qualität"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Qualität und Betrieb"]
 draft: false
 ---
-
 # Web-Performance
 
 ![Schaubild zu Web-Performance.](/schlaufuchs-platform/images/overviews/v148/web-performance.svg)

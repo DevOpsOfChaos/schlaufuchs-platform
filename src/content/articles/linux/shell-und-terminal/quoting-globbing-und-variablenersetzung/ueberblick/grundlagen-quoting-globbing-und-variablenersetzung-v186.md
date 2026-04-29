@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Quoting, Globbing und Variablenersetzung"
 description: "Ordne Anführungszeichen, Platzhalter und Variablenersetzung in der Shell ein."
-subject: linux
+subject: "linux"
 section: "shell-und-terminal"
-topicPath:
-  - "shell-und-terminal"
-  - "quoting-globbing-und-variablenersetzung"
-learningGoals:
-  - "Du erklärst Quoting, Globbing und Variablenersetzung in eigenen Worten."
-  - "Du ordnest typische Befehle, Begriffe oder Prüfschritte richtig ein."
-  - "Du erkennst typische Grenzen und Fehlerquellen im Linux-Alltag."
-practiceIdeas:
-  - "Beschreibe eine kleine Alltagssituation zu diesem Thema."
-  - "Markiere, welche Information zuerst geprüft werden muss."
-commonMistakes:
-  - "Ein einzelnes Kommando für das ganze Thema zu halten."
-  - "Ausgabe, Zustand und Ursache zu vermischen."
-  - "Ohne Kontext direkt an Sonderfälle zu springen."
-keyTakeaways:
-  - "Die Shell verarbeitet manche Zeichen, bevor ein Programm startet."
-  - "Quoting begrenzt diese Ersetzung, Globbing erweitert Muster zu Dateinamen."
-  - "Das erklärt viele scheinbar unerwartete Befehlswirkungen."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung statt nur eines Befehlsrezepts."
-  - "Mehrere ähnliche Befehle oder Dateien wirken unklar."
-selfCheckPoints:
-  - "Kann ich Zweck, Kontext und typischen Prüfschritt unterscheiden?"
-  - "Kann ich eine einfache Fehlannahme zum Thema benennen?"
-level: mittel
-tags:
-  - "linux"
-  - "quoting"
-  - "globbing"
+topicPath: ["shell-und-terminal", "quoting-globbing-und-variablenersetzung", "ueberblick", "grundlagen-quoting-globbing-und-variablenersetzung-v186"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["linux", "shell-und-terminal"]
 draft: false
 ---
-
 ![Quoting, Globbing und Variablenersetzung](/schlaufuchs-platform/images/overviews/v186/quoting-globbing-und-variablenersetzung.svg)
 
 ## Begriff

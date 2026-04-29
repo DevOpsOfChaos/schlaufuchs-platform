@@ -1,36 +1,19 @@
 ---
 title: "umask und Standardrechte"
 description: "Einordnung von umask als Vorgabe für neu erzeugte Datei- und Verzeichnisrechte."
-subject: linux
+subject: "linux"
 section: "Rechte und Sicherheit"
-topicPath:
-  - "umask-und-standardrechte"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst umask und Standardrechte als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["umask-und-standardrechte", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird `umask` mit `chmod` verwechselt."
-keyTakeaways:
-  - "umask entfernt Standardrechte bei neuen Dateien."
-  - "Sie ist wichtig für Privatsphäre und Teamarbeit."
-  - "Vorhandene Dateien werden dadurch nicht automatisch geändert."
-recognizeSignals:
-  - "Es geht um umask und Standardrechte als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich umask und Standardrechte in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "rechte"
-  - "umask"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Rechte und Sicherheit"]
 draft: false
 ---
-
 # umask und Standardrechte
 
 `umask` legt fest, welche Rechte bei neu erzeugten Dateien und Verzeichnissen standardmäßig entfernt werden. Sie ist keine Berechtigung selbst, sondern eine Maske. Dadurch beeinflusst sie, ob neue Dateien eher privat oder gruppenfreundlich angelegt werden.

@@ -1,29 +1,17 @@
 ---
 title: "Parsing und Tokenisierung – anwenden und prüfen"
 description: "Übe, parsing und tokenisierung fachlich auf Beispiele anzuwenden und zu überprüfen."
-subject: informatik
+subject: "informatik"
 section: "Daten und Information"
-topicPath:
-  - "daten-und-information"
-  - "parsing-und-tokenisierung"
-  - "uebung"
-taskId: INF-V185-010-2
-tags:
-  - "informatik"
-  - "daten-und-information"
-  - "parsing-und-tokenisierung"
-hintPoints:
-  - "Beginne mit der Grundidee, nicht mit einem Spezialfall."
-  - "Trenne Begriff, Beispiel und Prüfung."
-selfCheckPoints:
-  - "Ich kann das Thema in eigenen Worten erklären."
-  - "Ich kann ein passendes Beispiel begründen."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel in einem anderen Fachbereich."
-level: einfach
+topicPath: ["daten-und-information", "parsing-und-tokenisierung", "parsing-und-tokenisierung-anwenden-und-pruefen-v185"]
+taskId: "INF-V185-010-2"
+tags: ["informatik", "Daten und Information", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe nutzt **Parsing und Tokenisierung**, um Beispiele, Grenzen und Prüfwege bewusster zu unterscheiden.
 
 ## Lernziel

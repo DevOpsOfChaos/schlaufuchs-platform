@@ -3,35 +3,15 @@ title: "Aufgabe – Restore-Test als Teil des Backups planen"
 description: "Übe Restore-Test mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "Praxis"
-topicPath:
-  - "praxis"
-  - "backup-und-wiederherstellung"
-  - "restore-test"
-  - "restore-test-als-teil-des-backups-planen"
+topicPath: ["praxis", "backup-und-wiederherstellung", "restore-test", "restore-test-als-teil-des-backups-planen"]
 taskId: "v107-linux-restore-test-als-teil-des-backups-planen"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "restore-test"
-  - "praxis"
-  - "backup-und-wiederherstellung"
-hintPoints:
-  - "Grenze das Unterthema zuerst ein."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Formuliere eine kleine Gegenprobe."
-selfCheckPoints:
-  - "Ist das Unterthema klar benannt?"
-  - "Ist die Lösung nicht zu breit formuliert?"
-  - "Ist die Gegenprobe konkret?"
-transferIdeas:
-  - "Ändere einen Randwert und prüfe die Begründung erneut."
-  - "Erkläre die Lösung einmal als Merksatz und einmal am Beispiel."
-reflectionPrompt: "Warum hilft dir das kleine Unterthema „Restore-Test“ mehr als ein breiter Sammelbegriff?"
+tags: ["linux", "Praxis", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite ein kleines Szenario zu **Restore-Test**.

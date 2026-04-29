@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – EEPROM-Schreibhäufigkeit ruhig bewerten
-description: Musterlösung zur Aufgabe ET-ATMEGA-MEM-302.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - speicher-und-persistenz
-  - atmega-eeprom-schreibzyklen-und-verschleiss-verstehen
-  - eeprom-schreibhaeufigkeit-ruhig-bewerten-loesung
-taskId: ET-ATMEGA-MEM-302
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-eeprom-schreibzyklen-und-verschleiss-verstehen/eeprom-schreibhaeufigkeit-ruhig-bewerten.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – EEPROM-Schreibhäufigkeit ruhig bewerten"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-MEM-302."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-eeprom-schreibzyklen-und-verschleiss-verstehen", "eeprom-schreibhaeufigkeit-ruhig-bewerten"]
+taskId: "ET-ATMEGA-MEM-302"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-eeprom-schreibzyklen-und-verschleiss-verstehen/eeprom-schreibhaeufigkeit-ruhig-bewerten.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

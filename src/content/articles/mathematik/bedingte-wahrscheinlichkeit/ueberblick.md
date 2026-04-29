@@ -3,32 +3,17 @@ title: "Bedingte Wahrscheinlichkeit"
 description: "Allgemeiner Überblick über bedingte wahrscheinlichkeit und die wichtigsten Zusammenhänge."
 subject: "mathematik"
 section: "Wahrscheinlichkeit"
-topicPath:
-  - "bedingte-wahrscheinlichkeit"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["bedingte-wahrscheinlichkeit", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden `P(A unter B)` und `P(B unter A)` verwechselt."
-keyTakeaways:
-  - "Bedingte Wahrscheinlichkeit verknüpft Information und Ereignisse sauber."
-  - "Bedingte Wahrscheinlichkeit ist nicht dasselbe wie die umgekehrte Wahrscheinlichkeit."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "mathematik"
-  - "wahrscheinlichkeit"
-  - "bedingungen"
-  - "bayes"
+tags: ["mathematik", "Wahrscheinlichkeit"]
 draft: false
 ---
-
 # Bedingte Wahrscheinlichkeit
 
 ![Schaubild zu bedingter Wahrscheinlichkeit.](/schlaufuchs-platform/images/overviews/v150/bedingte-wahrscheinlichkeit.svg)

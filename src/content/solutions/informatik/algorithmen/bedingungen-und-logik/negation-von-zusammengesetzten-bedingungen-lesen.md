@@ -3,21 +3,12 @@ title: "Lösung – Negation von zusammengesetzten Bedingungen lesen"
 description: "Musterlösung zu negation von zusammengesetzten bedingungen lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "algorithmen"
-  - "bedingungen-und-logik"
-  - "negation-von-zusammengesetzten-bedingungen-lesen"
+topicPath: ["algorithmen", "bedingungen-und-logik", "negation-von-zusammengesetzten-bedingungen-lesen"]
 taskId: "v112-informatik-negation-von-zusammengesetzten-bedingungen-lesen"
 relatedExercise: "informatik/algorithmen/bedingungen-und-logik/negation-von-zusammengesetzten-bedingungen-lesen"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "algorithmen"
-  - "negation-von-zusammengesetzten-bedingungen-lesen"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Bedingungen und Logik**.

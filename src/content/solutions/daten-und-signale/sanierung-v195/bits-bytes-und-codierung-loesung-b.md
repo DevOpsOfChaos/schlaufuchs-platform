@@ -3,25 +3,12 @@ title: "Lösung: Bits, Bytes und Codierung: Aufgabe B"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-005b im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "darstellung-und-code"
-  - "bits-bytes-und-codierung"
-  - "loesung-b"
-
+topicPath: ["sanierung-v195", "bits-bytes-und-codierung-loesung-b"]
 taskId: "daten-und-signale-v195-005b"
 relatedExercise: "daten-und-signale/sanierung-v195/bits-bytes-und-codierung-aufgabe-b"
-tags:
-  - "bits"
-  - "bytes"
-  - "codierung"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-005b`
 
 Ausgangsauftrag: Übertrage das Thema Bits, Bytes und Codierung auf ein zweites Beispiel und formuliere eine kurze Prüfung.

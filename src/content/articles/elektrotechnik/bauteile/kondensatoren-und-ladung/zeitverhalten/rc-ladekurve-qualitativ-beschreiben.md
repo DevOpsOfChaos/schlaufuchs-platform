@@ -3,46 +3,17 @@ title: "Elektrotechnik – RC-Ladekurve qualitativ beschreiben"
 description: "Lerne RC-Zeitverhalten als klar abgegrenztes Unterthema mit Beispiel, Prüfraster und Gegenprobe."
 subject: "elektrotechnik"
 section: "Bauteile"
-topicPath:
-  - "bauteile"
-  - "kondensatoren-und-ladung"
-  - "zeitverhalten"
-  - "rc-ladekurve-qualitativ-beschreiben"
-learningGoals:
-  - "Du erklärst RC-Zeitverhalten als eigenes Unterthema."
-  - "Du grenzt das Thema von einem breiteren Sammelbereich ab."
-  - "Du formulierst eine konkrete Gegenprobe."
-practiceIdeas:
-  - "Erstelle ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Prüfe, welche Nachbarseite nicht gemeint ist."
-  - "Übertrage das Prüfraster auf einen zweiten Fall."
-commonMistakes:
-  - "Das Thema zu breit einordnen und die Trennkante verlieren."
-  - "Nur einen Begriff nennen, ohne Beispiel oder Gegenprobe."
-  - "Aufgabe und Wissensseite sprachlich auseinanderlaufen lassen."
-keyTakeaways:
-  - "RC-Zeitverhalten wird durch Einordnung, Trennung und Gegenprobe stabil."
-  - "Feinere Unterthemen verbessern Orientierung und vermeiden Doppelungen."
-  - "Eine gute Lösung nennt auch, was nicht gemeint ist."
-recognizeSignals:
-  - "Die Aufgabe enthält eine kleine, aber entscheidende Unterscheidung."
-  - "Eine allgemeine Antwort wäre zu ungenau."
-  - "Ein Prüfschritt kann die Einordnung bestätigen oder widerlegen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich das Nachbarthema abgrenzen?"
-  - "Ist meine Gegenprobe konkret?"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "schaltungen"
-  - "rc-zeitverhalten"
-  - "bauteile"
-  - "kondensatoren-und-ladung"
+topicPath: ["bauteile", "kondensatoren-und-ladung", "zeitverhalten", "rc-ladekurve-qualitativ-beschreiben"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["elektrotechnik", "Bauteile"]
 draft: false
 ---
-
 ## Grundidee
 
 **RC-Zeitverhalten** ist ein kleines, bewusst abgegrenztes Unterthema. Lerne RC-Zeitverhalten als klar abgegrenztes Unterthema mit Beispiel, Prüfraster und Gegenprobe. Die Seite verhindert, dass mehrere Nachbarfragen in einem breiten Sammelbegriff verschwimmen.

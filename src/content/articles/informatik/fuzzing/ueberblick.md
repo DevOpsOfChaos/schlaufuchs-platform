@@ -1,33 +1,19 @@
 ---
 title: "Fuzzing"
 description: "Fuzzing testet Programme mit vielen unerwarteten oder zufälligen Eingaben. Es hilft, Abstürze, Sicherheitslücken und Parserprobleme zu finden."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "fuzzing"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Fuzzing."
-  - "Du kannst Fuzzing in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["fuzzing", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur gültige Beispieldaten zu testen und robuste Fehlerbehandlung zu vergessen."
-keyTakeaways:
-  - "Fuzzing testet Programme mit vielen unerwarteten oder zufälligen Eingaben."
-  - "Wichtig sind vor allem zufällige und mutierte eingaben, crash- und fehlererkennung und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Fuzzing, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Fuzzing dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "informatik"
-  - "grundlagen"
-  - "fuzzing"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Fuzzing
 
 Fuzzing testet Programme mit vielen unerwarteten oder zufälligen Eingaben. Es hilft, Abstürze, Sicherheitslücken und Parserprobleme zu finden. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

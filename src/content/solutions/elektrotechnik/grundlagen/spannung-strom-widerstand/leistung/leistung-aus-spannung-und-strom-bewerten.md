@@ -3,23 +3,12 @@ title: "Lösung – Leistung aus Spannung und Strom bewerten"
 description: "Musterlösung zu Verlustleistung mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "grundlagen"
-  - "spannung-strom-widerstand"
-  - "leistung"
-  - "leistung-aus-spannung-und-strom-bewerten"
+topicPath: ["grundlagen", "spannung-strom-widerstand", "leistung", "leistung-aus-spannung-und-strom-bewerten"]
 taskId: "v111-elektrotechnik-leistung-aus-spannung-und-strom-bewerten"
 relatedExercise: "elektrotechnik/grundlagen/spannung-strom-widerstand/leistung/leistung-aus-spannung-und-strom-bewerten"
-tags:
-  - "elektrotechnik"
-  - "praxis"
-  - "unterthema"
-  - "grundlagen"
-  - "spannung-strom-widerstand"
-  - "leistung-aus-spannung-und-strom-bewerten"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Verlustleistung**.

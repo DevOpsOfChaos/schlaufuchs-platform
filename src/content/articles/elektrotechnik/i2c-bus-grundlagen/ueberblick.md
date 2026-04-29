@@ -1,34 +1,19 @@
 ---
 title: "I2C-Bus-Grundlagen"
 description: "Allgemeiner Überblick über den I2C-Bus, Adressen und typische elektrische Eigenschaften."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schnittstellen"
-topicPath:
-  - "i2c-bus-grundlagen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst I2C-Bus-Grundlagen als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["i2c-bus-grundlagen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft werden Pull-ups vergessen oder beliebig gewählt. Dann steigen Signale zu langsam oder erreichen keinen stabilen High-Pegel."
-keyTakeaways:
-  - "I2C ist ein kompakter Bus für kurze digitale Verbindungen."
-  - "I2C-Bus-Grundlagen sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um I2C-Bus-Grundlagen."
-selfCheckPoints:
-  - "Kann ich erklären, woran man I2C-Bus-Grundlagen erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "i2c"
-  - "bus"
-  - "schnittstelle"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Schnittstellen"]
 draft: false
 ---
-
 # I2C-Bus-Grundlagen
 
 I2C ist ein serieller Bus, bei dem mehrere Bausteine über eine Taktleitung und eine Datenleitung kommunizieren können.

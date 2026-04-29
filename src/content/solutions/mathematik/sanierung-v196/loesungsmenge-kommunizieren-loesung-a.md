@@ -1,15 +1,14 @@
 ---
-title: Lösungsmenge kommunizieren – Lösung A
-description: Musterlösung zu Lösungsmenge kommunizieren mit Kontrolle.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Lösungsmenge kommunizieren – Lösung A"
+description: "Musterlösung zu Lösungsmenge kommunizieren mit Kontrolle."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "gleichungen-und-modelle", "loesungsmenge-kommunizieren"]
 taskId: "mat-v196-loesungsmenge-kommunizieren-a"
 relatedExercise: "mathematik/sanierung-v196/loesungsmenge-kommunizieren-aufgabe-a"
 tags: ["mathematik", "v196", "gleichungen-und-modelle", "loesungsmenge-kommunizieren"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine passende Lösung zu dieser Aufgabe muss nicht exakt dieselben Zahlen oder Beispiele verwenden. Entscheidend ist der saubere Aufbau.

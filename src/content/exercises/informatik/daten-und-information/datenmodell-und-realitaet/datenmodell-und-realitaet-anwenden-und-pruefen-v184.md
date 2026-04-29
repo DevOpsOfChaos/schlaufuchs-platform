@@ -1,29 +1,17 @@
 ---
 title: "Datenmodell und Realität – Anwenden und prüfen"
 description: "Übe, Datenmodell und Realität an kleinen Situationen zu prüfen."
-subject: informatik
+subject: "informatik"
 section: "daten-und-information"
-topicPath:
-  - "daten-und-information"
-  - "datenmodell-und-realitaet"
-taskId: INF-DATENMODELL-UND-REALITAET-842
-tags:
-  - "informatik"
-  - "datenmodell"
-  - "modellierung"
-hintPoints:
-  - "Beginne mit der allgemeinen Rolle des Themas."
-  - "Trenne Begriff, Beispiel und Sonderfall sauber."
-selfCheckPoints:
-  - "Ich kann meine Zuordnung begründen."
-  - "Ich vermeide eine reine Einzelfallantwort."
-transferIdeas:
-  - "Übertrage die Idee auf ein anderes kleines Informatikbeispiel."
-reflectionPrompt: "Welche Annahme musste ich bewusst prüfen?"
-level: mittel
+topicPath: ["daten-und-information", "datenmodell-und-realitaet", "datenmodell-und-realitaet-anwenden-und-pruefen-v184"]
+taskId: "INF-DATENMODELL-UND-REALITAET-842"
+tags: ["informatik", "daten-und-information", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Datenmodell und Realität**. Sie soll nicht nur eine einzelne Situation lösen, sondern das Thema fachlich einordnen.
 
 ## Lernziel

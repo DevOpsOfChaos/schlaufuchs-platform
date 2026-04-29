@@ -3,22 +3,12 @@ title: "Lösung – JavaScript – Network Tab und HTTP-Fehler diagnostizieren"
 description: "Musterlösung zur Aufgabe: Untersuche gedanklich einen fehlgeschlagenen fetch-Aufruf und ordne mögliche Ursachen den Bereichen URL, Statuscode, Antwortformat und CORS zu."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "debugging-und-diagnose"
-  - "network-tab-und-http-fehler-diagnostizieren"
+topicPath: ["javascript", "debugging-und-diagnose", "network-tab-und-http-fehler-diagnostizieren"]
 taskId: "web-v100-network-tab-und-http-fehler-diagnostizieren"
 relatedExercise: "web-development/javascript/debugging-und-diagnose/network-tab-und-http-fehler-diagnostizieren"
-tags:
-  - "web development"
-  - "javascript"
-  - "network"
-  - "http"
-  - "fetch"
-  - "lösung"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine gute Lösung beginnt nicht mit möglichst viel Code, sondern mit einer klaren Einordnung: Verstehe, wie du Ladefehler, Statuscodes und falsche Antworten im Browser-Netzwerkbereich voneinander trennst.

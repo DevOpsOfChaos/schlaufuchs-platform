@@ -1,33 +1,19 @@
 ---
 title: "iproute2"
 description: "iproute2 ist die moderne Werkzeugsammlung für Linux-Netzwerkverwaltung. Befehle wie ip ersetzen viele ältere Werkzeuge wie ifconfig oder route."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "iproute2"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von iproute2."
-  - "Du kannst iproute2 in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["iproute2", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Alte und neue Befehle zu mischen, ohne ihre Ausgabeformen zu verstehen."
-keyTakeaways:
-  - "iproute2 ist die moderne Werkzeugsammlung für Linux-Netzwerkverwaltung."
-  - "Wichtig sind vor allem adressen und links, routen und regeln und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um iproute2, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu iproute2 dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "linux"
-  - "grundlagen"
-  - "iproute2"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # iproute2
 
 iproute2 ist die moderne Werkzeugsammlung für Linux-Netzwerkverwaltung. Befehle wie ip ersetzen viele ältere Werkzeuge wie ifconfig oder route. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

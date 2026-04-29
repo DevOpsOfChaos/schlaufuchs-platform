@@ -1,21 +1,14 @@
 ---
-title: Loesung – Session Ende als sauberen Aufraeumablauf beschreiben
-description: Musterloesung zur Aufgabe ueber Session Ende, Cookie und serverseitiges Aufraeumen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - sessions-sauber-beenden-und-aufraeumen
-taskId: INF-PHP-STATE-010
-relatedExercise: informatik/programmierung/php/sessions-sauber-beenden-und-aufraeumen/session-ende-als-sauberen-aufraeumablauf-beschreiben
-tags:
-  - informatik
-  - php
-  - loesung
+title: "Loesung – Session Ende als sauberen Aufraeumablauf beschreiben"
+description: "Musterloesung zur Aufgabe ueber Session Ende, Cookie und serverseitiges Aufraeumen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "sessions-sauber-beenden-und-aufraeumen", "session-ende-als-sauberen-aufraeumablauf-beschreiben"]
+taskId: "INF-PHP-STATE-010"
+relatedExercise: "informatik/programmierung/php/sessions-sauber-beenden-und-aufraeumen/session-ende-als-sauberen-aufraeumablauf-beschreiben"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterloesung
 
 ### Aufgabe 1

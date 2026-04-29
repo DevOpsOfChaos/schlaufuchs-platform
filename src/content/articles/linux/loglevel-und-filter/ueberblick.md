@@ -3,32 +3,17 @@ title: "Loglevel und Filter"
 description: "Allgemeiner Überblick über Loglevel, Filterung und gezieltes Lesen von Protokollen."
 subject: "linux"
 section: "Logs"
-topicPath:
-  - "loglevel-und-filter"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["loglevel-und-filter", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird nach dem Wort „error“ gesucht und alles andere ignoriert. Warnungen oder vorherige Kontextmeldungen erklären oft die eigentliche Ursache."
-keyTakeaways:
-  - "Loglevel und Filter machen Protokolle lesbar. Gute Fehlersuche stellt zuerst eine Frage und filtert dann gezielt nach passenden Hinweisen."
-  - "Ein Logeintrag ist ein Hinweis, kein vollständiger Beweis. Er muss mit Zeitpunkt, Konfiguration und beobachtetem Verhalten verbunden werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "linux"
-  - "logs"
-  - "loglevel"
-  - "fehlersuche"
+tags: ["linux", "Logs"]
 draft: false
 ---
-
 # Loglevel und Filter
 
 Loglevel ordnen Meldungen nach Schwere oder Bedeutung ein. Filter helfen, aus vielen Meldungen die relevanten Einträge für eine konkrete Frage zu finden.

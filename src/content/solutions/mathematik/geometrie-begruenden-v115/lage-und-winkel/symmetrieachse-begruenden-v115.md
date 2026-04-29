@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Symmetrieachse begründen"
 description: "Musterlösung zu Symmetrieachse begründen mit Trennkante und Gegenprobe."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "geometrie-begruenden-v115"
-  - "lage-und-winkel"
-  - "symmetrieachse-begruenden-v115"
+topicPath: ["geometrie-begruenden-v115", "lage-und-winkel", "symmetrieachse-begruenden-v115"]
 taskId: "mathematik-symmetrieachse-begruenden-v115"
 relatedExercise: "mathematik/geometrie-begruenden-v115/lage-und-winkel/symmetrieachse-begruenden-v115"
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "geometrisch begründen"
-  - "lage und winkel"
-  - "lösung"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Symmetrieachse begründen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

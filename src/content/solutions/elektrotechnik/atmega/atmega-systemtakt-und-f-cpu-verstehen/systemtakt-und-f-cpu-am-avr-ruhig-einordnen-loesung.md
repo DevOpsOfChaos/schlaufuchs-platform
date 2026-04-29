@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Systemtakt und F_CPU am AVR ruhig einordnen
-description: Musterlösung zur Aufgabe ET-ATMEGA-CLK-207.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - takt-und-zeitbasis
-  - atmega-systemtakt-und-f-cpu-verstehen
-  - systemtakt-und-f-cpu-am-avr-ruhig-einordnen-loesung
-taskId: ET-ATMEGA-CLK-207
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-systemtakt-und-f-cpu-verstehen/systemtakt-und-f-cpu-am-avr-ruhig-einordnen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – Systemtakt und F_CPU am AVR ruhig einordnen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-CLK-207."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-systemtakt-und-f-cpu-verstehen", "systemtakt-und-f-cpu-am-avr-ruhig-einordnen"]
+taskId: "ET-ATMEGA-CLK-207"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-systemtakt-und-f-cpu-verstehen/systemtakt-und-f-cpu-am-avr-ruhig-einordnen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

@@ -1,37 +1,19 @@
 ---
 title: "Grundlagen: Pegel und Entprellung"
 description: "Allgemeiner Überblick über digitale Pegel, Tasterprellen und Entprellung, bevor einzelne Schaltungssituationen betrachtet werden."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Digitale Eingänge und Ausgänge"
-topicPath:
-  - digitale-eingaenge-und-ausgaenge
-  - pegel-und-entprellung
-  - grundlagen-pegel-und-entprellung
-learningGoals:
-  - "Du erklärst, was ein digitaler Pegel grundsätzlich bedeutet."
-  - "Du beschreibst, warum mechanische Taster prellen können."
-  - "Du ordnest Entprellung als technische Stabilisierung eines Eingangssignals ein."
+topicPath: ["digitale-eingaenge-und-ausgaenge", "pegel-und-entprellung", "grundlagen-pegel-und-entprellung"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Entprellung nur als Programmiertrick zu sehen."
-  - "Low und High mit gedrückt und nicht gedrückt gleichzusetzen, ohne die Schaltung zu betrachten."
-  - "Prellen mit einem absichtlich schnellen Tastendruck zu verwechseln."
-keyTakeaways:
-  - "Digitale Eingänge lesen Spannungsbereiche als logische Zustände."
-  - "Taster können beim Umschalten kurz mehrere Signalwechsel erzeugen."
-  - "Entprellung sorgt dafür, dass aus einem unsauberen Übergang ein stabil interpretierbares Ereignis wird."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - pegel
-  - entprellung
-  - taster
+level: "einfach"
+tags: ["elektrotechnik", "Digitale Eingänge und Ausgänge"]
 draft: false
 ---
-
 ## Begriff
 
 **Pegel und Entprellung** beschreiben zwei grundlegende Themen digitaler Eingänge. Ein Pegel ist der elektrische Zustand, den ein Mikrocontroller als logisch `0` oder logisch `1` interpretiert. Entprellung ist die technische oder softwareseitige Maßnahme, mit der ein mechanisch unsauberes Tastensignal stabil ausgewertet wird.

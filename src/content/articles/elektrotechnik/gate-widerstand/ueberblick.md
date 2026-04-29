@@ -1,32 +1,17 @@
 ---
 title: "Gate-Widerstand"
 description: "Überblick über Gate-Widerstände bei MOSFETs, Schaltgeschwindigkeit und EMV."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Leistungselektronik"
-topicPath:
-  - "gate-widerstand"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Gate-Widerstand als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Gate-Ladung, Schaltflanke, Überschwingen."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["gate-widerstand", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Das Gate als reinen hochohmigen Eingang ohne dynamische Ströme zu behandeln."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Gate-Widerstand beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Ansteuerung von MOSFET-Gates."
-  - "Wichtige Hinweise liefern vor allem Gate-Ladung, Schaltflanke, Überschwingen."
-recognizeSignals:
-  - "Es geht um ansteuerung von mosfet-gates, gate-ladung oder schaltflanke."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Gate-Widerstand erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "mosfet"
-  - "emv"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Leistungselektronik"]
 draft: false
 ---
 # Gate-Widerstand

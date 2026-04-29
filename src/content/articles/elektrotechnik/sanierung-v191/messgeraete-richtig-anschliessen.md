@@ -3,39 +3,17 @@ title: "Messgeräte richtig anschließen"
 description: "Verstehe messung und schaltung passend verbinden als ruhigen Baustein für sichere und nachvollziehbare Elektrotechnik."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "messpraxis"
-  - "messgeraete-richtig-anschliessen"
-learningGoals:
-  - "Messung und Schaltung passend verbinden"
-  - "Mess- und Schaltungsentscheidungen begründen"
-  - "typische Fehlerbilder früh erkennen"
-practiceIdeas:
-  - "Entscheide, wie Multimeter für Spannungs- und Strommessung angeschlossen werden."
-  - "Formuliere eine kurze Prüfcheckliste für einen zweiten ähnlichen Aufbau."
-commonMistakes:
-  - "Schaltplan, Aufbau und Messgerät werden nicht getrennt betrachtet."
-  - "Einheiten oder Messbereiche werden erst nach dem Rechnen geprüft."
-  - "Sicherheits- und Grenzwerte werden als Nachtrag behandelt."
-keyTakeaways:
-  - "Spannungsmessung erfolgt parallel zum Messobjekt."
-  - "Ruhige Elektrotechnik trennt Größe, Bauteil, Messpunkt und Fehlerfall."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn ein Messwert, ein Bauteil oder ein Schaltungszustand sicher eingeordnet werden muss."
-selfCheckPoints:
-  - "Kann ich Messpunkt, Strompfad und Bauteilrolle unterscheiden?"
-  - "Ist mindestens ein Grenz- oder Fehlerfall benannt?"
-  - "Bleibt die Begründung mit Einheiten und Richtung verständlich?"
+topicPath: ["sanierung-v191", "messgeraete-richtig-anschliessen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "messpraxis"
-  - "messgeraete"
-  - "schaltung"
-  - "elektrotechnik"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Messgeräte richtig anschließen](/schlaufuchs-platform/images/elektrotechnik/sanierung-v191/messgeraete-richtig-anschliessen.svg)
 
 Messgeräte richtig anschließen gehört zur Elektrotechnik-Sanierung v191. Die Seite behandelt das Thema als praktische Entscheidung: Was zeigt der Schaltplan, was passiert im realen Aufbau, wo wird gemessen und welcher Fehlerfall muss vor dem Einschalten bedacht werden?

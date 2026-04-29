@@ -3,44 +3,17 @@ title: "JavaScript – Debounce und Throttle für Eingaben unterscheiden"
 description: "Unterscheide, wann Ereignisse gesammelt werden sollen und wann sie nur in festen Abständen verarbeitet werden."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "dom-und-events"
-  - "debounce-und-throttle-fuer-eingaben-unterscheiden"
-learningGoals:
-  - "Du erklärst, welche Kernidee hinter „Debounce und Throttle für Eingaben unterscheiden“ steht."
-  - "Du trennst sichtbare Oberfläche, technische Umsetzung und Nutzererwartung sauber."
-  - "Du leitest aus einem kleinen Beispiel konkrete Verbesserungen für echte Seiten ab."
-practiceIdeas:
-  - "Prüfe eine vorhandene Seite mit genau diesem Blick und notiere drei Verbesserungen."
-  - "Formuliere ein schwaches Beispiel in eine nutzerfreundlichere Variante um."
-  - "Verbinde die technische Regel mit einer sichtbaren Auswirkung für Nutzerinnen und Nutzer."
-commonMistakes:
-  - "jede Eingabe sofort ans Netz senden"
-  - "Debounce und Throttle gleichsetzen"
-  - "Bedienung träge machen"
-keyTakeaways:
-  - "Nicht jedes Ereignis braucht sofort eine Reaktion"
-  - "Gute Web-Entwicklung verbindet technische Korrektheit mit verständlicher Nutzerführung."
-  - "Eine kleine, klare Regel ist wertvoller als eine große Sammlung ungetesteter Sonderfälle."
-recognizeSignals:
-  - "Eine Oberfläche wirkt technisch vorhanden, aber für Nutzende unklar."
-  - "Ein Verhalten funktioniert im Idealfall, bricht aber bei Fehlern, langsamen Netzen oder anderen Geräten."
-  - "Du sollst nicht nur Code schreiben, sondern eine robuste Entscheidung begründen."
-selfCheckPoints:
-  - "Kann ich das Problem in einem Satz ohne Fachjargon erklären?"
-  - "Kann ich zeigen, woran Nutzende die Verbesserung bemerken?"
-  - "Kann ich eine einfache Prüffrage für den nächsten Review ableiten?"
-tags:
-  - "web development"
-  - "javascript"
-  - "events"
-  - "debounce"
-  - "throttle"
-level: mittel
+topicPath: ["javascript", "dom-und-events", "debounce-und-throttle-fuer-eingaben-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Tastatur-, Scroll- und Resize-Ereignisse können sehr häufig auftreten. Debounce und Throttle helfen, Reaktionen zu dosieren – aber sie lösen unterschiedliche Probleme.

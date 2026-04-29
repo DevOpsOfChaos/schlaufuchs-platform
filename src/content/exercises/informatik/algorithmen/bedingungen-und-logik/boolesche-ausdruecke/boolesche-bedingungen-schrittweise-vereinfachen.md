@@ -3,35 +3,15 @@ title: "Aufgabe – Boolesche Bedingungen schrittweise vereinfachen"
 description: "Übe Boolesche Bedingungen mit einem konkreten Fall, einer Abgrenzung und einer Gegenprobe."
 subject: "informatik"
 section: "Algorithmen"
-topicPath:
-  - "algorithmen"
-  - "bedingungen-und-logik"
-  - "boolesche-ausdruecke"
-  - "boolesche-bedingungen-schrittweise-vereinfachen"
+topicPath: ["algorithmen", "bedingungen-und-logik", "boolesche-ausdruecke", "boolesche-bedingungen-schrittweise-vereinfachen"]
 taskId: "v108-informatik-boolesche-bedingungen-schrittweise-vereinfachen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "algorithmen"
-  - "bedingungen-und-logik"
-  - "boolesche bedingungen"
-hintPoints:
-  - "Bestimme zuerst das kleine Unterthema."
-  - "Notiere, welches Nachbarthema ausdrücklich nicht gemeint ist."
-  - "Nutze eine Gegenprobe statt nur eine Behauptung."
-selfCheckPoints:
-  - "Ist der Fall eng genug eingeordnet?"
-  - "Wird die typische Verwechslung sichtbar?"
-  - "Passt die Gegenprobe zur Wissensseite?"
-transferIdeas:
-  - "Verändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere aus deiner Lösung einen kurzen Merksatz für eine zweite Person."
-reflectionPrompt: "Warum wäre eine breite Sammelantwort hier unübersichtlicher als das Unterthema „Boolesche Bedingungen“?"
+tags: ["informatik", "Algorithmen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den Fall zu **Boolesche Bedingungen**.

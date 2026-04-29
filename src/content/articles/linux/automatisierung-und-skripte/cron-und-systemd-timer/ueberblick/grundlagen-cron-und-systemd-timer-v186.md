@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Cron und systemd-Timer"
 description: "Vergleiche geplante Ausführung mit Cron und systemd-Timern."
-subject: linux
+subject: "linux"
 section: "automatisierung-und-skripte"
-topicPath:
-  - "automatisierung-und-skripte"
-  - "cron-und-systemd-timer"
-learningGoals:
-  - "Du erklärst Cron und systemd-Timer in eigenen Worten."
-  - "Du ordnest typische Befehle, Begriffe oder Prüfschritte richtig ein."
-  - "Du erkennst typische Grenzen und Fehlerquellen im Linux-Alltag."
-practiceIdeas:
-  - "Beschreibe eine kleine Alltagssituation zu diesem Thema."
-  - "Markiere, welche Information zuerst geprüft werden muss."
-commonMistakes:
-  - "Ein einzelnes Kommando für das ganze Thema zu halten."
-  - "Ausgabe, Zustand und Ursache zu vermischen."
-  - "Ohne Kontext direkt an Sonderfälle zu springen."
-keyTakeaways:
-  - "Geplante Aufgaben laufen oft in anderer Umgebung als interaktive Befehle."
-  - "Cron ist einfach, systemd-Timer bieten stärkere Einbindung ins System."
-  - "Logs und Exit-Codes sind für die Kontrolle zentral."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung statt nur eines Befehlsrezepts."
-  - "Mehrere ähnliche Befehle oder Dateien wirken unklar."
-selfCheckPoints:
-  - "Kann ich Zweck, Kontext und typischen Prüfschritt unterscheiden?"
-  - "Kann ich eine einfache Fehlannahme zum Thema benennen?"
-level: mittel
-tags:
-  - "linux"
-  - "cron"
-  - "timer"
+topicPath: ["automatisierung-und-skripte", "cron-und-systemd-timer", "ueberblick", "grundlagen-cron-und-systemd-timer-v186"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["linux", "automatisierung-und-skripte"]
 draft: false
 ---
-
 ![Cron und systemd-Timer](/schlaufuchs-platform/images/overviews/v186/cron-und-systemd-timer.svg)
 
 ## Begriff

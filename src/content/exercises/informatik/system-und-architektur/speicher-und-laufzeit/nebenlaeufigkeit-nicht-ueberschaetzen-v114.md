@@ -1,35 +1,17 @@
 ---
-title: Aufgabe – Nebenläufigkeit nicht überschätzen
-description: Übe Nebenläufigkeit nicht überschätzen mit einem kleinen, prüfbaren Szenario.
-subject: informatik
-section: Feinstruktur Informatik
-topicPath:
-- system-und-architektur
-- speicher-und-laufzeit
-- nebenlaeufigkeit-nicht-ueberschaetzen-v114
-taskId: v114-informatik-nebenlaeufigkeit-nicht-ueberschaetzen-v114
-tags:
-- informatik
-- v114
-- aufgabe
-- system-und-architektur
-- speicher-und-laufzeit
-hintPoints:
-- Beginne mit der konkreten Situation, nicht mit einer allgemeinen Definition.
-- 'Nutze die Prüffrage: Wartet das Programm auf CPU oder auf etwas Externes?'
-- Formuliere am Ende eine Gegenprobe.
-selfCheckPoints:
-- Habe ich die Trennkante klar benannt?
-- Habe ich das Nachbarthema bewusst ausgeschlossen?
-- Ist meine Begründung an das Beispiel gekoppelt?
-transferIdeas:
-- Ändere eine Bedingung im Szenario und prüfe, ob die Entscheidung gleich bleibt.
-- Erkläre die Lösung einmal ohne Fachsprache und danach fachlich sauber.
-reflectionPrompt: Welche kleine Prüffrage hat dir am meisten geholfen?
-level: einfach
+title: "Aufgabe – Nebenläufigkeit nicht überschätzen"
+description: "Übe Nebenläufigkeit nicht überschätzen mit einem kleinen, prüfbaren Szenario."
+subject: "informatik"
+section: "Feinstruktur Informatik"
+topicPath: ["system-und-architektur", "speicher-und-laufzeit", "nebenlaeufigkeit-nicht-ueberschaetzen-v114"]
+taskId: "v114-informatik-nebenlaeufigkeit-nicht-ueberschaetzen-v114"
+tags: ["informatik", "Feinstruktur Informatik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Nebenläufigkeit nicht überschätzen**.

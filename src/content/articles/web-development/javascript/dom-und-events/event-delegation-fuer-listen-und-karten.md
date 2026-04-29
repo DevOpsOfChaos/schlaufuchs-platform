@@ -3,44 +3,17 @@ title: "JavaScript – Event Delegation für Listen und Karten"
 description: "Verstehe, warum ein Listener am Container oft robuster ist als viele einzelne Listener an dynamischen Einträgen."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "dom-und-events"
-  - "event-delegation-fuer-listen-und-karten"
-tags:
-  - "web development"
-  - "javascript"
-  - "events"
-  - "dom"
-  - "event delegation"
-learningGoals:
-  - "Du erklärst Event Bubbling als Grundlage für Event Delegation."
-  - "Du prüfst das eigentliche Ziel eines Klicks sauber."
-  - "Du erkennst, wann Delegation dynamische Listen vereinfacht."
-practiceIdeas:
-  - "Übertrage die Idee auf eine kleine eigene Seite."
-  - "Prüfe die Bedienung einmal mit Tastatur und einmal mit Maus."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "Für jeden Eintrag einen eigenen Listener zu registrieren, obwohl Einträge dynamisch entstehen."
-  - "event.target ohne Prüfung direkt zu verwenden."
-  - "Interaktive Verschachtelungen nicht mitzudenken."
-keyTakeaways:
-  - "Struktur, Zustand und Rückmeldung müssen zusammenpassen."
-  - "Sichtbare Nutzerführung ist Teil der technischen Lösung."
-  - "Saubere Webentwicklung prüft auch Fehlerfälle und Sonderwege."
-recognizeSignals:
-  - "Eine Oberfläche soll verständlicher, robuster oder zugänglicher werden."
-  - "HTML, CSS und JavaScript müssen gemeinsam gelesen werden."
-  - "Es gibt einen Zustand, der sichtbar gemacht oder kontrolliert werden muss."
-selfCheckPoints:
-  - "Kann ich die Entscheidung in einem Satz erklären?"
-  - "Bleibt die Lösung bei Fehlern oder Tastaturbedienung verständlich?"
-  - "Sind sichtbare Texte klar und deutsch formuliert?"
+topicPath: ["javascript", "dom-und-events", "event-delegation-fuer-listen-und-karten"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Verstehe, warum ein Listener am Container oft robuster ist als viele einzelne Listener an dynamischen Einträgen. Die Seite betrachtet das Thema nicht als isolierten Syntaxtrick, sondern als kleine Entscheidung für Bedienbarkeit, Wartbarkeit und verständliche Rückmeldung.

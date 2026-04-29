@@ -3,23 +3,12 @@ title: "Lösung – Schleifeninvariante in Alltagssprache formulieren"
 description: "Musterlösung zu Schleifeninvariante mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "informatik"
 section: "Algorithmen"
-topicPath:
-  - "algorithmen"
-  - "korrektheit-und-beweise"
-  - "schleifeninvariante"
-  - "schleifeninvariante-in-alltagssprache-formulieren"
+topicPath: ["algorithmen", "korrektheit-und-beweise", "schleifeninvariante", "schleifeninvariante-in-alltagssprache-formulieren"]
 taskId: "v108-informatik-schleifeninvariante-in-alltagssprache-formulieren"
 relatedExercise: "informatik/algorithmen/korrektheit-und-beweise/schleifeninvariante/schleifeninvariante-in-alltagssprache-formulieren"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "algorithmen"
-  - "korrektheit-und-beweise"
-  - "schleifeninvariante"
+tags: ["informatik", "Algorithmen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **Schleifeninvariante**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

@@ -1,36 +1,17 @@
 ---
 title: "Aufgabe: Linearen Aufwand erkennen"
 description: "Trainiere Linearen Aufwand erkennen an einem kleinen, klar abgegrenzten Fall."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "algorithmen-fein-v115"
-  - "komplexitaet-anschaulich"
-  - "linearen-aufwand-erkennen-v115"
+topicPath: ["algorithmen-fein-v115", "komplexitaet-anschaulich", "linearen-aufwand-erkennen-v115"]
 taskId: "informatik-linearen-aufwand-erkennen-v115"
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "algorithmische feinstruktur"
-  - "komplexität anschaulich"
-  - "aufgabe"
-hintPoints:
-  - "Grenze zuerst den kleinen Fall vom breiten Themenfeld ab."
-  - "Nutze die Prüffrage: Wächst die Arbeit ungefähr proportional zur Eingabelänge?"
-  - "Begründe mit zwei konkreten Hinweisen aus dem Fall."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-transferIdeas:
-  - "Übertrage dieselbe Trennkante auf ein eigenes Mini-Beispiel."
-  - "Formuliere einen Gegenfall, der ähnlich aussieht, aber anders entschieden wird."
-reflectionPrompt: "Was war bei „Linearen Aufwand erkennen“ die wichtigste Trennkante?"
-level: mittel
+tags: ["informatik", "Feinstruktur Informatik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den folgenden Fall zu **Linearen Aufwand erkennen**.

@@ -1,33 +1,17 @@
 ---
 title: "Bauteildimensionierung"
 description: "Allgemeiner Überblick darüber, wie Bauteilwerte, Belastbarkeit und Reserven in elektronischen Schaltungen gewählt werden."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schaltungstechnik"
-topicPath:
-  - "bauteildimensionierung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Bauteildimensionierung als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["bauteildimensionierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, nur den Nennwert zu wählen. Ein Widerstand mit richtigem Ohmwert kann trotzdem ungeeignet sein, wenn Leistung, Spannung oder Temperaturreserve nicht passen."
-keyTakeaways:
-  - "Bauteildimensionierung verbindet Rechenwerte mit realen Bauteilgrenzen. Der rechnerisch passende Wert ist nur ein Teil der Entscheidung."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um bauteildimensionierung, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich bauteildimensionierung in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "bauteildimensionierung"
-  - "überblick"
-  - "sollfunktion"
-  - "leistung und strom"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Schaltungstechnik"]
 draft: false
 ---
 # Bauteildimensionierung

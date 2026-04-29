@@ -3,23 +3,12 @@ title: "Lösung – Nullstelle als x-Wert statt Punkt notieren"
 description: "Musterlösung zu Nullstelle als x-Wert mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "funktionen-und-graphen"
-  - "graphen-deuten"
-  - "nullstellen"
-  - "nullstelle-als-x-wert-statt-punkt-notieren"
+topicPath: ["funktionen-und-graphen", "graphen-deuten", "nullstellen", "nullstelle-als-x-wert-statt-punkt-notieren"]
 taskId: "v111-mathematik-nullstelle-als-x-wert-statt-punkt-notieren"
 relatedExercise: "mathematik/funktionen-und-graphen/graphen-deuten/nullstellen/nullstelle-als-x-wert-statt-punkt-notieren"
-tags:
-  - "mathematik"
-  - "prüfung"
-  - "unterthema"
-  - "funktionen-und-graphen"
-  - "graphen-deuten"
-  - "nullstelle-als-x-wert-statt-punkt-notieren"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Nullstelle als x-Wert**.

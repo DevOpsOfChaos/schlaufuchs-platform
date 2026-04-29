@@ -3,23 +3,12 @@ title: "Lösung – localStorage und sessionStorage nach Risiko wählen"
 description: "Musterlösung zu localStorage und sessionStorage mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "browser-speicher-und-session"
-  - "storage-risiko"
-  - "localstorage-und-sessionstorage-nach-risiko-waehlen"
+topicPath: ["javascript", "browser-speicher-und-session", "storage-risiko", "localstorage-und-sessionstorage-nach-risiko-waehlen"]
 taskId: "v109-web-development-localstorage-und-sessionstorage-nach-risiko-waehlen"
 relatedExercise: "web-development/javascript/browser-speicher-und-session/storage-risiko/localstorage-und-sessionstorage-nach-risiko-waehlen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "javascript"
-  - "browser-speicher-und-session"
-  - "localstorage und sessionstorage"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **localStorage und sessionStorage**.

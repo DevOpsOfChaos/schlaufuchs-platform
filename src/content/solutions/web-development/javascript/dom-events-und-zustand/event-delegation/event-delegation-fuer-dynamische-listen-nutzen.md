@@ -3,23 +3,12 @@ title: "Lösung – Event Delegation für dynamische Listen nutzen"
 description: "Musterlösung zu Event Delegation mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "dom-events-und-zustand"
-  - "event-delegation"
-  - "event-delegation-fuer-dynamische-listen-nutzen"
+topicPath: ["javascript", "dom-events-und-zustand", "event-delegation", "event-delegation-fuer-dynamische-listen-nutzen"]
 taskId: "v109-web-development-event-delegation-fuer-dynamische-listen-nutzen"
 relatedExercise: "web-development/javascript/dom-events-und-zustand/event-delegation/event-delegation-fuer-dynamische-listen-nutzen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "javascript"
-  - "dom-events-und-zustand"
-  - "event delegation"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Event Delegation**.

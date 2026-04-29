@@ -1,13 +1,19 @@
 ---
-title: Einführung in die Informatik
-description: Verstehe die Grundideen der Informatik als Fachbereich.
-subject: informatik
-section: einstieg
-level: einfach
-tags: [informatik, grundlagen, einstieg]
+title: "Einführung in die Informatik"
+description: "Verstehe die Grundideen der Informatik als Fachbereich."
+subject: "informatik"
+section: "einstieg"
+topicPath: ["informatik-einstieg"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "grundlagen", "einstieg"]
 draft: false
 ---
-
 Informatik beschäftigt sich damit, wie Informationen dargestellt, verarbeitet und durch Programme nutzbar gemacht werden. Das Fach ist also deutlich mehr als nur „am Computer arbeiten“ oder „Programmieren lernen“.
 
 ## Worum geht es in der Informatik?

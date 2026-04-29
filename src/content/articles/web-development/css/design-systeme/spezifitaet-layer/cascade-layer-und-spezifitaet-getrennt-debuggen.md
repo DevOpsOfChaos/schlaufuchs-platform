@@ -3,46 +3,17 @@ title: "Web Development – Cascade Layer und Spezifität getrennt debuggen"
 description: "Lerne Cascade Layer und Spezifität als enges, prüfbares Unterthema mit Beispiel, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "design-systeme"
-  - "spezifitaet-layer"
-  - "cascade-layer-und-spezifitaet-getrennt-debuggen"
-learningGoals:
-  - "Du erklärst Cascade Layer und Spezifität als eigenes Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Erstelle eine Gegenprobe mit verändertem Wert, Zustand oder Kontext."
-  - "Vergleiche die Seite mit einem Nachbarthema und nenne die Trennkante."
-commonMistakes:
-  - "Layer-Reihenfolge und Spezifität werden vermischt."
-  - "Das Thema nur einem breiten Kapitel zuordnen."
-  - "Eine Lösung formulieren, die keine konkrete Prüfung enthält."
-keyTakeaways:
-  - "Cascade Layer und Spezifität wird über Einordnung, Abgrenzung und Gegenprobe stabil."
-  - "Kleine Unterthemen erhöhen Auffindbarkeit und reduzieren Doppelungen."
-  - "Aufgabe und Lösung sollen dieselbe fachliche Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Ein breites Kapitel wäre als Antwort zu ungenau."
-  - "Ein konkreter Prüfschritt kann die Entscheidung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "css"
-  - "design-systeme"
-  - "cascade layer und spezifität"
+topicPath: ["css", "design-systeme", "spezifitaet-layer", "cascade-layer-und-spezifitaet-getrennt-debuggen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 **Cascade Layer und Spezifität** ist ein kleines Unterthema mit einer klaren Trennkante. Lerne Cascade Layer und Spezifität als enges, prüfbares Unterthema mit Beispiel, Abgrenzung und Gegenprobe. Dadurch bleibt die Seite übersichtlich und landet nicht als weiterer Abschnitt in einem zu breiten Sammelthema.

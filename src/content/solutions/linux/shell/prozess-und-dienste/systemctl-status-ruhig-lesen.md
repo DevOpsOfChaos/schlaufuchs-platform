@@ -3,21 +3,12 @@ title: "Lösung – systemctl status ruhig lesen"
 description: "Musterlösung zu systemctl status ruhig lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "prozess-und-dienste"
-  - "systemctl-status-ruhig-lesen"
+topicPath: ["shell", "prozess-und-dienste", "systemctl-status-ruhig-lesen"]
 taskId: "v112-linux-systemctl-status-ruhig-lesen"
 relatedExercise: "linux/shell/prozess-und-dienste/systemctl-status-ruhig-lesen"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "systemctl-status-ruhig-lesen"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Prozesse und Dienste**.

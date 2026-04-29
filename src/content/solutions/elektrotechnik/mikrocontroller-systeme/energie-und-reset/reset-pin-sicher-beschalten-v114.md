@@ -1,23 +1,14 @@
 ---
-title: Lösung – Reset-Pin sicher beschalten
-description: Musterlösung zur Aufgabe über Reset-Pin sicher beschalten.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- mikrocontroller-systeme
-- energie-und-reset
-- reset-pin-sicher-beschalten-v114
-taskId: v114-elektrotechnik-reset-pin-sicher-beschalten-v114
-relatedExercise: elektrotechnik/mikrocontroller-systeme/energie-und-reset/reset-pin-sicher-beschalten-v114
-tags:
-- elektrotechnik
-- v114
-- loesung
-- mikrocontroller-systeme
-- energie-und-reset
+title: "Lösung – Reset-Pin sicher beschalten"
+description: "Musterlösung zur Aufgabe über Reset-Pin sicher beschalten."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["mikrocontroller-systeme", "energie-und-reset", "reset-pin-sicher-beschalten-v114"]
+taskId: "v114-elektrotechnik-reset-pin-sicher-beschalten-v114"
+relatedExercise: "elektrotechnik/mikrocontroller-systeme/energie-und-reset/reset-pin-sicher-beschalten-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

@@ -1,21 +1,14 @@
 ---
-title: Loesung – Objektbeziehungen ueber Bindungsstaerke erklaeren
-description: Musterloesung zur Aufgabe ueber Aggregation und Komposition.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - aggregation-und-komposition-unterscheiden
-taskId: INF-PROG-OOP-024
-relatedExercise: informatik/programmierung/oop/aggregation-und-komposition-unterscheiden/objektbeziehungen-ueber-bindungsstaerke-erklaeren
-tags:
-  - informatik
-  - oop
-  - loesung
+title: "Loesung – Objektbeziehungen ueber Bindungsstaerke erklaeren"
+description: "Musterloesung zur Aufgabe ueber Aggregation und Komposition."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "aggregation-und-komposition-unterscheiden", "objektbeziehungen-ueber-bindungsstaerke-erklaeren"]
+taskId: "INF-PROG-OOP-024"
+relatedExercise: "informatik/programmierung/oop/aggregation-und-komposition-unterscheiden/objektbeziehungen-ueber-bindungsstaerke-erklaeren"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterloesung
 
 ### Aufgabe 1

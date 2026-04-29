@@ -1,32 +1,17 @@
 ---
 title: "Named Pipes und FIFOs"
 description: "Allgemeiner Überblick über benannte Pipes als einfache Kommunikationskanäle im Dateisystem."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - "named-pipes-fifos"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Named Pipes und FIFOs als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie FIFO-Datei, Leser und Schreiber, Blockieren."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["named-pipes-fifos", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Eine benannte Pipe wie eine gewöhnliche Datei mit dauerhaftem Inhalt zu behandeln."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Named Pipes und FIFOs beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Interprozesskommunikation."
-  - "Wichtige Hinweise liefern vor allem FIFO-Datei, Leser und Schreiber, Blockieren."
-recognizeSignals:
-  - "Es geht um interprozesskommunikation, fifo-datei oder leser und schreiber."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Named Pipes und FIFOs erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "pipes"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
 # Named Pipes und FIFOs

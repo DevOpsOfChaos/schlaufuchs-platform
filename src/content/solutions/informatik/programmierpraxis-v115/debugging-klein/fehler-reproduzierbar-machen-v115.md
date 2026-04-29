@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Fehler reproduzierbar machen"
 description: "Musterlösung zu Fehler reproduzierbar machen mit Trennkante und Gegenprobe."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "programmierpraxis-v115"
-  - "debugging-klein"
-  - "fehler-reproduzierbar-machen-v115"
+topicPath: ["programmierpraxis-v115", "debugging-klein", "fehler-reproduzierbar-machen-v115"]
 taskId: "informatik-fehler-reproduzierbar-machen-v115"
 relatedExercise: "informatik/programmierpraxis-v115/debugging-klein/fehler-reproduzierbar-machen-v115"
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "programmierpraxis"
-  - "debugging klein schneiden"
-  - "lösung"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Fehler reproduzierbar machen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

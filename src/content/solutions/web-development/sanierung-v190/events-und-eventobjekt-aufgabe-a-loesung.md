@@ -3,24 +3,12 @@ title: "Lösung: Events und Eventobjekt: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-v190-011a im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "dom-und-ui"
-  - "events-und-eventobjekt"
-  - "loesung-a"
+topicPath: ["sanierung-v190", "events-und-eventobjekt-aufgabe-a"]
 taskId: "web-v190-011a"
 relatedExercise: "web-development/sanierung-v190/events-und-eventobjekt-aufgabe-a"
-tags:
-  - "dom-und-ui"
-  - "events"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-011a`
 
 Ausgangsauftrag: Ordne Klick, Eingabe und Submit einer Formularprüfung zu.

@@ -1,29 +1,17 @@
 ---
 title: "Serialisierung und Datenaustausch – anwenden und prüfen"
 description: "Übe, serialisierung und datenaustausch fachlich auf Beispiele anzuwenden und zu überprüfen."
-subject: informatik
+subject: "informatik"
 section: "Daten und Information"
-topicPath:
-  - "daten-und-information"
-  - "serialisierung-und-datenaustausch"
-  - "uebung"
-taskId: INF-V185-011-2
-tags:
-  - "informatik"
-  - "daten-und-information"
-  - "serialisierung-und-datenaustausch"
-hintPoints:
-  - "Beginne mit der Grundidee, nicht mit einem Spezialfall."
-  - "Trenne Begriff, Beispiel und Prüfung."
-selfCheckPoints:
-  - "Ich kann das Thema in eigenen Worten erklären."
-  - "Ich kann ein passendes Beispiel begründen."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel in einem anderen Fachbereich."
-level: einfach
+topicPath: ["daten-und-information", "serialisierung-und-datenaustausch", "serialisierung-und-datenaustausch-anwenden-und-pruefen-v185"]
+taskId: "INF-V185-011-2"
+tags: ["informatik", "Daten und Information", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe nutzt **Serialisierung und Datenaustausch**, um Beispiele, Grenzen und Prüfwege bewusster zu unterscheiden.
 
 ## Lernziel

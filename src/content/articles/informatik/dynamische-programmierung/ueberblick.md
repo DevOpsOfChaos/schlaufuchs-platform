@@ -1,34 +1,19 @@
 ---
 title: "Dynamische Programmierung"
 description: "Allgemeiner Überblick über dynamische Programmierung und Teilprobleme."
-subject: informatik
+subject: "informatik"
 section: "Algorithmen"
-topicPath:
-  - "dynamische-programmierung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Dynamische Programmierung als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["dynamische-programmierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird der Zustand zu groß oder unklar gewählt. Dann wird die Lösung schwer verständlich."
-keyTakeaways:
-  - "Dynamische Programmierung macht wiederholte Teilprobleme kontrollierbar."
-  - "Dynamische Programmierung sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Dynamische Programmierung."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Dynamische Programmierung erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "informatik"
-  - "dynamische programmierung"
-  - "algorithmen"
-  - "optimierung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Algorithmen"]
 draft: false
 ---
-
 # Dynamische Programmierung
 
 Dynamische Programmierung löst Probleme, indem wiederkehrende Teilprobleme nur einmal berechnet und wiederverwendet werden.

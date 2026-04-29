@@ -3,23 +3,12 @@ title: "Lösung – Konstante Faktoren nicht mit Wachstum verwechseln"
 description: "Musterlösung zu Laufzeitwachstum mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "algorithmen-denken"
-  - "such-und-sortierideen"
-  - "komplexitaet"
-  - "konstante-faktoren-nicht-mit-wachstum-verwechseln"
+topicPath: ["algorithmen-denken", "such-und-sortierideen", "komplexitaet", "konstante-faktoren-nicht-mit-wachstum-verwechseln"]
 taskId: "v111-informatik-konstante-faktoren-nicht-mit-wachstum-verwechseln"
 relatedExercise: "informatik/algorithmen-denken/such-und-sortierideen/komplexitaet/konstante-faktoren-nicht-mit-wachstum-verwechseln"
-tags:
-  - "informatik"
-  - "struktur"
-  - "unterthema"
-  - "algorithmen-denken"
-  - "such-und-sortierideen"
-  - "konstante-faktoren-nicht-mit-wachstum-verwechseln"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Laufzeitwachstum**.

@@ -3,20 +3,12 @@ title: "Lösung – Stützkondensator nahe am IC platzieren"
 description: "Musterlösung zu Stützkondensator nahe am IC platzieren mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "kondensatoren"
-  - "stuetzkondensator-nahe-am-ic-platzieren-v113"
+topicPath: ["daten-und-signale", "kondensatoren", "stuetzkondensator-nahe-am-ic-platzieren-v113"]
 taskId: "v113-elektrotechnik-stuetzkondensator-nahe-am-ic-platzieren-v113"
 relatedExercise: "elektrotechnik/daten-und-signale/kondensatoren/stuetzkondensator-nahe-am-ic-platzieren-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "stuetzkondensator-nahe-am-ic-platzieren-v113"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Stützkondensator nahe am IC platzieren**.

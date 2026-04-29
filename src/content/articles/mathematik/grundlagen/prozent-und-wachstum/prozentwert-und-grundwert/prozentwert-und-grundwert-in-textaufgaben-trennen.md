@@ -3,46 +3,17 @@ title: "Mathematik – Prozentwert und Grundwert in Textaufgaben trennen"
 description: "Lerne Prozentwert und Grundwert als enges, prüfbares Unterthema mit Beispiel, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Grundlagen"
-topicPath:
-  - "grundlagen"
-  - "prozent-und-wachstum"
-  - "prozentwert-und-grundwert"
-  - "prozentwert-und-grundwert-in-textaufgaben-trennen"
-learningGoals:
-  - "Du erklärst Prozentwert und Grundwert als eigenes Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Erstelle eine Gegenprobe mit verändertem Wert, Zustand oder Kontext."
-  - "Vergleiche die Seite mit einem Nachbarthema und nenne die Trennkante."
-commonMistakes:
-  - "Prozentwert und Grundwert werden vertauscht."
-  - "Das Thema nur einem breiten Kapitel zuordnen."
-  - "Eine Lösung formulieren, die keine konkrete Prüfung enthält."
-keyTakeaways:
-  - "Prozentwert und Grundwert wird über Einordnung, Abgrenzung und Gegenprobe stabil."
-  - "Kleine Unterthemen erhöhen Auffindbarkeit und reduzieren Doppelungen."
-  - "Aufgabe und Lösung sollen dieselbe fachliche Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Ein breites Kapitel wäre als Antwort zu ungenau."
-  - "Ein konkreter Prüfschritt kann die Entscheidung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfen"
-  - "grundlagen"
-  - "prozent-und-wachstum"
-  - "prozentwert und grundwert"
+topicPath: ["grundlagen", "prozent-und-wachstum", "prozentwert-und-grundwert", "prozentwert-und-grundwert-in-textaufgaben-trennen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["mathematik", "Grundlagen"]
 draft: false
 ---
-
 ## Grundidee
 
 **Prozentwert und Grundwert** ist ein kleines Unterthema mit einer klaren Trennkante. Lerne Prozentwert und Grundwert als enges, prüfbares Unterthema mit Beispiel, Abgrenzung und Gegenprobe. Dadurch bleibt die Seite übersichtlich und landet nicht als weiterer Abschnitt in einem zu breiten Sammelthema.

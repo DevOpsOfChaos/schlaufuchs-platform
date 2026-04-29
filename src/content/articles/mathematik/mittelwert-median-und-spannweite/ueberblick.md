@@ -1,33 +1,19 @@
 ---
 title: "Mittelwert, Median und Spannweite"
 description: "Allgemeiner Überblick über einfache Kennwerte zur Beschreibung von Daten."
-subject: mathematik
+subject: "mathematik"
 section: "Daten und Zufall"
-topicPath:
-  - mittelwert-median-und-spannweite
-  - ueberblick
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen und von verwandten Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte und typische Anwendungsfälle."
-  - "Du erkennst häufige Missverständnisse und prüfst Aussagen auf Plausibilität."
+topicPath: ["mittelwert-median-und-spannweite", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, den Mittelwert immer als „typischen“ Wert zu deuten."
-keyTakeaways:
-  - "Mittelwert, Median und Spannweite sind Kennwerte, die Daten zusammenfassen."
-  - "Die genaue Bedeutung hängt vom Zusammenhang, den Einheiten und den Randbedingungen ab."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Begriffe, Beispiele oder Fehlerbilder aus diesem Bereich erklärt und eingeordnet werden sollen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten erklären, ohne sofort eine Spezialaufgabe zu rechnen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "statistik"
-  - "daten"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Daten und Zufall"]
 draft: false
 ---
-
 # Mittelwert, Median und Spannweite
 
 ## Begriff und Zweck

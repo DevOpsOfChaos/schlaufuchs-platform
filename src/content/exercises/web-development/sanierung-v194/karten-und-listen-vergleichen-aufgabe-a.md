@@ -3,37 +3,15 @@ title: "Karten und Listen vergleichen: Aufgabe A"
 description: "Entscheide, wann eine Kartenansicht besser als eine Liste ist."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "content-und-navigation"
-  - "karten-und-listen-vergleichen"
-  - "aufgabe-a"
-
+topicPath: ["sanierung-v194", "karten-und-listen-vergleichen-aufgabe-a"]
 taskId: "web-development-v194-022a"
-tags:
-  - "karten"
-  - "listen"
-  - "vergleichen"
-  - "web-development"
-  - "aufgabe"
-  - "v194"
-
-hintPoints:
-  - "Beschreibe zuerst die konkrete Seitensituation."
-  - "Trenne Beobachtung, gewünschtes Verhalten und Änderung."
-  - "Lege einen kleinen Kontrollpunkt fest."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Karten und Listen vergleichen."
-  - "Die Prüfung ist klein genug, um sie direkt nachzuvollziehen."
-  - "Nutzerperspektive und technische Umsetzung werden nicht vermischt."
-transferIdeas:
-  - "Übertrage den Prüfweg auf eine andere Bildschirmbreite."
-  - "Notiere, welcher Zustand zusätzlich getestet werden sollte."
-reflectionPrompt: "Welche Annahme über Nutzerinnen und Nutzer wäre gefährlich, wenn sie still falsch bleibt?"
+tags: ["web-development", "barrierefreiheit-responsive-ux", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Entscheide, wann eine Kartenansicht besser als eine Liste ist.

@@ -1,33 +1,17 @@
 ---
 title: "Dateiänderungen beobachten"
 description: "Überblick über Methoden, Dateiänderungen unter Linux zu erkennen, einzuordnen und für Automatisierung oder Fehlersuche zu nutzen."
-subject: linux
+subject: "linux"
 section: "Dateien"
-topicPath:
-  - "dateiaenderungen-beobachten"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Dateiänderungen beobachten als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["dateiaenderungen-beobachten", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein neuer Zeitstempel beweist nicht automatisch den Inhalt einer Änderung. Für Diagnosen sind Vergleich und Kontext wichtig."
-keyTakeaways:
-  - "Dateiänderungen können Hinweise auf Konfiguration, Logs, Buildprozesse oder Benutzeraktionen geben."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um dateiänderungen beobachten, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich dateiänderungen beobachten in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "dateiänderungen beobachten"
-  - "überblick"
-  - "zeitstempel"
-  - "inotify"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dateien"]
 draft: false
 ---
 # Dateiänderungen beobachten

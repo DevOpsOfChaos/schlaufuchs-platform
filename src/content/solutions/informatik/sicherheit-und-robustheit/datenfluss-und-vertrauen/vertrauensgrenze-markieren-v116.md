@@ -3,22 +3,12 @@ title: "Lösung: Vertrauensgrenze markieren"
 description: "Musterlösung zur Aufgabe „Vertrauensgrenze markieren“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "sicherheit-und-robustheit"
-  - "datenfluss-und-vertrauen"
-  - "vertrauensgrenze-markieren-v116"
+topicPath: ["sicherheit-und-robustheit", "datenfluss-und-vertrauen", "vertrauensgrenze-markieren-v116"]
 taskId: "vertrauensgrenze-markieren-v116"
 relatedExercise: "informatik/sicherheit-und-robustheit/datenfluss-und-vertrauen/vertrauensgrenze-markieren-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "datenfluss und vertrauen"
-  - "vertrauensgrenze markieren"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

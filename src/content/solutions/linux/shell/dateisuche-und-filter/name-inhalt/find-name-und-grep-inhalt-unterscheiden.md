@@ -3,22 +3,12 @@ title: "Lösung – find -name und grep-Inhalt unterscheiden"
 description: "Musterlösung zu Dateiname und Dateiinhalt mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell"
-  - "dateisuche-und-filter"
-  - "name-inhalt"
-  - "find-name-und-grep-inhalt-unterscheiden"
+topicPath: ["shell", "dateisuche-und-filter", "name-inhalt", "find-name-und-grep-inhalt-unterscheiden"]
 taskId: "v109-linux-find-name-und-grep-inhalt-unterscheiden"
 relatedExercise: "linux/shell/dateisuche-und-filter/name-inhalt/find-name-und-grep-inhalt-unterscheiden"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "dateisuche-und-filter"
-  - "dateiname und dateiinhalt"
+tags: ["linux", "Shell", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Dateiname und Dateiinhalt**.

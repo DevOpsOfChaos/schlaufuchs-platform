@@ -1,34 +1,19 @@
 ---
 title: "APIs und JSON"
 description: "Überblick über APIs und JSON als Grundlage für Datenaustausch im Web."
-subject: web-development
+subject: "web-development"
 section: "Daten und Schnittstellen"
-topicPath:
-  - apis-und-json
-  - ueberblick
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen und von verwandten Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte und typische Anwendungsfälle."
-  - "Du erkennst häufige Missverständnisse und prüfst Aussagen auf Plausibilität."
+topicPath: ["apis-und-json", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, erfolgreiche Antworten als einzigen Fall zu behandeln."
-keyTakeaways:
-  - "Eine API ist eine Schnittstelle, über die Programme miteinander kommunizieren."
-  - "Die genaue Bedeutung hängt vom Zusammenhang, den Einheiten und den Randbedingungen ab."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Begriffe, Beispiele oder Fehlerbilder aus diesem Bereich erklärt und eingeordnet werden sollen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten erklären, ohne sofort eine Spezialaufgabe zu rechnen?"
-level: einfach
-tags:
-  - "web development"
-  - "api"
-  - "json"
-  - "schnittstellen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Daten und Schnittstellen"]
 draft: false
 ---
-
 # APIs und JSON
 
 ![Schaubild zu APIs und JSON.](/schlaufuchs-platform/images/overviews/v150/apis-und-json.svg)

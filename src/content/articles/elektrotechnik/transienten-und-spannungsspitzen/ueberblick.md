@@ -3,32 +3,17 @@ title: "Transienten und Spannungsspitzen"
 description: "Allgemeiner Überblick über kurze Spannungsspitzen, Transienten und Schutzmaßnahmen."
 subject: "elektrotechnik"
 section: "Schutz"
-topicPath:
-  - "transienten-und-spannungsspitzen"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["transienten-und-spannungsspitzen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird nur die Betriebsspannung betrachtet. Kurzzeitige Überspannungen können aber Bauteile schädigen, obwohl die normale Versorgung korrekt ist."
-keyTakeaways:
-  - "Transienten sind kurze Ereignisse mit großer Wirkung. Robuste Schaltungen berücksichtigen sie durch geeignete Bauteile, Verdrahtung und Layout."
-  - "Ein normaler Spannungsregler ersetzt keinen schnellen Transientenschutz. Schutzmaßnahmen müssen zeitlich und energetisch zur Störung passen."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "elektrotechnik"
-  - "transienten"
-  - "spannungsspitzen"
-  - "schutz"
+tags: ["elektrotechnik", "Schutz"]
 draft: false
 ---
-
 # Transienten und Spannungsspitzen
 
 Transienten sind kurze, vorübergehende Änderungen von Spannung oder Strom. Spannungsspitzen sind besonders hohe kurze Spannungen, die Bauteile belasten können.

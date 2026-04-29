@@ -3,20 +3,12 @@ title: "Lösung – Referenzspannung beim ADC beachten"
 description: "Musterlösung zu Referenzspannung beim ADC beachten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "adc"
-  - "referenzspannung-beim-adc-beachten-v113"
+topicPath: ["mikrocontroller-und-atmega", "adc", "referenzspannung-beim-adc-beachten-v113"]
 taskId: "v113-elektrotechnik-referenzspannung-beim-adc-beachten-v113"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/adc/referenzspannung-beim-adc-beachten-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "referenzspannung-beim-adc-beachten-v113"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Referenzspannung beim ADC beachten**.

@@ -3,22 +3,12 @@ title: "Lösung: Leerzeilen bewusst mitzählen"
 description: "Musterlösung zur Aufgabe „Leerzeilen bewusst mitzählen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "textdaten-und-pipelines"
-  - "wc-und-statistik"
-  - "leerzeilen-bewusst-mitzaehlen-v116"
+topicPath: ["textdaten-und-pipelines", "wc-und-statistik", "leerzeilen-bewusst-mitzaehlen-v116"]
 taskId: "leerzeilen-bewusst-mitzaehlen-v116"
 relatedExercise: "linux/textdaten-und-pipelines/wc-und-statistik/leerzeilen-bewusst-mitzaehlen-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "wc und statistik"
-  - "leerzeilen bewusst mitzaehlen"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

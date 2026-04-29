@@ -1,36 +1,19 @@
 ---
 title: "DNS im Web"
 description: "DNS im Web bezeichnet ein Grundthema im Bereich Webseiten, Browser, Schnittstellen und Bedienoberflächen. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-subject: web-development
+subject: "web-development"
 section: "Web-Grundlagen"
-topicPath:
-  - "dns-im-web"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst DNS im Web als allgemeinen Grundbegriff einordnen."
-  - "Du kennst Zweck, Zusammenhang, typische Teilaspekte und Grenzen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle behandelt werden."
+topicPath: ["dns-im-web", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird DNS im Web nur als einzelner Arbeitsschritt verstanden, obwohl der Begriff einen größeren Zusammenhang beschreibt."
-keyTakeaways:
-  - "DNS im Web bezeichnet ein Grundthema im Bereich Webseiten, Browser, Schnittstellen und Bedienoberflächen. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-  - "Ein Überblick trennt Begriff, Zweck, Beispiel und Grenze."
-  - "Spezialseiten werden verständlicher, wenn die allgemeine Einordnung vorher klar ist."
-recognizeSignals:
-  - "Es geht um DNS im Web, wenn mehrere Einzelbeobachtungen ohne Grundbegriff schwer einzuordnen sind."
-  - "Der Begriff hilft, Werkzeuge, Werte, Regeln oder Darstellungen fachlich zu sortieren."
-selfCheckPoints:
-  - "Kann ich DNS im Web in zwei bis drei Sätzen erklären?"
-  - "Kann ich ein Beispiel und eine typische Grenze nennen?"
-level: einfach
-tags:
-  - "web"
-  - "dns"
-  - "netzwerk"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web-Grundlagen"]
 draft: false
 ---
-
 # DNS im Web
 
 DNS im Web bezeichnet ein Grundthema im Bereich Webseiten, Browser, Schnittstellen und

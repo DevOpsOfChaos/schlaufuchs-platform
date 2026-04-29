@@ -1,45 +1,19 @@
 ---
-title: Aspect-Ratio verstehen
-description: Verstehe, wie aspect-ratio feste Seitenverhältnisse sichert und warum Karten, Bilder oder Platzhalter dadurch ruhiger wirken.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - aspect-ratio-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von aspect-ratio.
-  - Du beschreibst, warum gleich hohe oder gleich proportionierte Flächen im Layout ruhiger wirken.
-  - Du begründest Seitenverhältnisse eher über Layoutwirkung als über Zufallsgrößen.
-practiceIdeas:
-  - Vergleiche Karten mit und ohne festes Seitenverhältnis.
-  - Prüfe bei Bildflächen, ob sie eher breit, quadratisch oder hochformatig gedacht sind.
-  - Begründe, warum Platzhalter schon vor dem eigentlichen Inhalt eine Form brauchen können.
-commonMistakes:
-  - nur an Bilder zu denken, obwohl auch Boxen ein Seitenverhältnis haben können.
-  - Breite und Höhe beliebig zu raten statt eine Proportion festzulegen.
-  - aspect-ratio mit der tatsächlichen Inhaltsgröße zu verwechseln.
-keyTakeaways:
-  - aspect-ratio beschreibt ein Seitenverhältnis von Breite zu Höhe.
-  - Es hilft, Flächen ruhig und konsistent aufzubauen.
-  - Besonders bei Karten, Medien und Vorschauen verhindert es unruhige Sprünge.
-recognizeSignals:
-  - Es geht um gleichmäßige Karten, Medienvorschauen oder Platzhalterflächen.
-  - Du sollst erklären, warum manche Boxen harmonisch und andere sprunghaft wirken.
-  - In Beispielen ist die Proportion wichtiger als die Farbe der Fläche.
-selfCheckPoints:
-  - Kann ich aspect-ratio als Breite-Höhe-Verhältnis erklären?
-  - Kann ich begründen, warum gleiche Proportionen ein Raster ruhiger machen?
-  - Kann ich unterscheiden zwischen Form der Fläche und Inhalt darin?
-tags:
-  - css
-  - layout
-  - aspect-ratio
-  - bilder
-level: einfach
+title: "Aspect-Ratio verstehen"
+description: "Verstehe, wie aspect-ratio feste Seitenverhältnisse sichert und warum Karten, Bilder oder Platzhalter dadurch ruhiger wirken."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "aspect-ratio-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Viele Layouts wirken unruhig, wenn ähnliche Boxen unterschiedliche Höhen bekommen, obwohl sie fachlich zusammengehören. <code>aspect-ratio</code> hilft, eine Fläche **proportional** zu denken.

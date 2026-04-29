@@ -1,36 +1,19 @@
 ---
 title: "State Management"
 description: "Allgemeiner Überblick über Zustand in Webanwendungen und seine Verwaltung."
-subject: web-development
+subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "state-management"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst State Management als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["state-management", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird derselbe Zustand an mehreren Stellen gespeichert."
-keyTakeaways:
-  - "State bestimmt, was eine Anwendung gerade zeigt und weiß."
-  - "Eine klare Quelle der Wahrheit verhindert Widersprüche."
-  - "Nicht jeder Zustand gehört an denselben Ort."
-recognizeSignals:
-  - "Es geht um State Management als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich State Management in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "web development"
-  - "state"
-  - "javascript"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 # State Management
 
 State bezeichnet veränderliche Informationen, die den aktuellen Zustand einer Anwendung bestimmen. Dazu gehören Eingabewerte, Filter, geladene Daten, Loginstatus, Fehlermeldungen oder UI-Zustände wie geöffnete Dialoge. State Management beschreibt, wie dieser Zustand gespeichert, verändert und angezeigt wird.

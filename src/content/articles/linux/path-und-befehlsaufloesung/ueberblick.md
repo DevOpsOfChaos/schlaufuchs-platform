@@ -1,37 +1,19 @@
 ---
 title: "PATH und Befehlsauflösung"
 description: "Allgemeiner Überblick über PATH, ausführbare Dateien und die Suche nach Befehlen in der Shell."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - "path-und-befehlsaufloesung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst PATH und Befehlsauflösung als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["path-und-befehlsaufloesung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein Programm wird oft für nicht installiert gehalten, obwohl es nur nicht im PATH liegt."
-keyTakeaways:
-  - "PATH bestimmt, wo die Shell nach Befehlen sucht."
-  - "Suchreihenfolge beeinflusst gleichnamige Programme."
-  - "Lokale Skripte werden oft explizit mit Pfad gestartet."
-recognizeSignals:
-  - "Die Shell meldet command not found."
-  - "Ein Befehl funktioniert in einer Sitzung, aber nicht in einer anderen."
-selfCheckPoints:
-  - "Kann ich PATH und Befehlsauflösung in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "path"
-  - "befehle"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
-
 # PATH und Befehlsauflösung
 
 Die Shell führt Befehle aus, indem sie einen angegebenen Pfad nutzt oder in Verzeichnissen aus der Variable `PATH` sucht.

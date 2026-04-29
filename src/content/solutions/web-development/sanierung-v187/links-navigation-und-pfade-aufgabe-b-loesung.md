@@ -3,23 +3,12 @@ title: "Lösung: Links, Navigation und Pfade: Prüfung und Verbesserung"
 description: "Musterlösung zur Aufgabe web-v187-006b im Web-Development-Block v187."
 subject: "web-development"
 section: "html"
-topicPath: 
-  - "html-und-semantik"
-  - "links-und-navigation"
-  - "loesung-b"
+topicPath: ["sanierung-v187", "links-navigation-und-pfade-aufgabe-b"]
 taskId: "web-v187-006b"
 relatedExercise: "web-development/sanierung-v187/links-navigation-und-pfade-aufgabe-b"
-tags: 
-  - "links"
-  - "navigation"
-  - "pfade"
-  - "html"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "html", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-006b`
 
     Ausgangsauftrag: Korrigiere fünf fehlerhafte relative Pfade in einer vorgegebenen Ordnerstruktur.

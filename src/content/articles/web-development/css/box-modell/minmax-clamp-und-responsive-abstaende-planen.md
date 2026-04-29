@@ -1,43 +1,17 @@
 ---
 title: "CSS – minmax, clamp und responsive Abstände planen"
 description: "Verstehe, wie flexible Größen helfen, harte Breakpoints zu reduzieren und Layouts ruhiger skalieren zu lassen."
-subject: web-development
+subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "box-modell"
-  - "minmax-clamp-und-responsive-abstaende-planen"
-learningGoals:
-  - "Du erklärst clamp als begrenzten flexiblen Wert."
-  - "Du nutzt minmax, um Grid-Spalten belastbarer zu machen."
-  - "Du unterscheidest harte Breakpoints von fließenden Größen."
-practiceIdeas:
-  - "Baue ein Grid, dessen Karten eine Mindestbreite behalten."
-  - "Vergleiche padding mit festem Wert und mit clamp."
-  - "Erkläre, warum fließende Abstände nicht jedes Media Query ersetzen, aber viele beruhigen."
-commonMistakes:
-  - "Alles mit vielen eng gesetzten Breakpoints zu steuern."
-  - "minmax ohne echte Mindestgröße zu verwenden."
-  - "clamp-Werte so zu wählen, dass sie praktisch nie skalieren."
-keyTakeaways:
-  - "clamp setzt Minimum, Wunschwert und Maximum."
-  - "minmax schützt Grid-Spalten vor zu engem Zusammendrücken."
-  - "Fließende Werte machen Layoutübergänge weicher."
-recognizeSignals:
-  - "Es geht um responsive Abstände, Grid-Spalten, Kartenbreiten oder harte Breakpoints."
-  - "Eine Aufgabe fragt, warum ein Layout zwischen zwei Breakpoints unruhig wirkt."
-  - "CSS enthält viele ähnliche Media Queries für kleine Größenänderungen."
-selfCheckPoints:
-  - "Welche Mindestgröße darf nicht unterschritten werden?"
-  - "Welcher Wert darf fließend wachsen?"
-  - "Braucht die Seite wirklich einen Breakpoint oder reicht clamp?"
-tags:
-  - "web development"
-  - "css"
-  - "responsive"
-  - "clamp"
-  - "grid"
-level: mittel
+topicPath: ["css", "box-modell", "minmax-clamp-und-responsive-abstaende-planen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
 ## Grundidee

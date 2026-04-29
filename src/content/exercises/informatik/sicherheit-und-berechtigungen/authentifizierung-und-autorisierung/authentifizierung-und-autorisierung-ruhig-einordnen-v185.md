@@ -1,29 +1,17 @@
 ---
 title: "Authentifizierung und Autorisierung – ruhig einordnen"
 description: "Übe, authentifizierung und autorisierung fachlich zu erklären und abzugrenzen."
-subject: informatik
+subject: "informatik"
 section: "Sicherheit und Berechtigungen"
-topicPath:
-  - "sicherheit-und-berechtigungen"
-  - "authentifizierung-und-autorisierung"
-  - "uebung"
-taskId: INF-V185-021-1
-tags:
-  - "informatik"
-  - "sicherheit-und-berechtigungen"
-  - "authentifizierung-und-autorisierung"
-hintPoints:
-  - "Beginne mit der Grundidee, nicht mit einem Spezialfall."
-  - "Trenne Begriff, Beispiel und Prüfung."
-selfCheckPoints:
-  - "Ich kann das Thema in eigenen Worten erklären."
-  - "Ich kann ein passendes Beispiel begründen."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel in einem anderen Fachbereich."
-level: einfach
+topicPath: ["sicherheit-und-berechtigungen", "authentifizierung-und-autorisierung", "authentifizierung-und-autorisierung-ruhig-einordnen-v185"]
+taskId: "INF-V185-021-1"
+tags: ["informatik", "Sicherheit und Berechtigungen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe prüft, ob du **Authentifizierung und Autorisierung** zuerst als allgemeines Thema und nicht nur als Einzelfall lesen kannst.
 
 ## Lernziel

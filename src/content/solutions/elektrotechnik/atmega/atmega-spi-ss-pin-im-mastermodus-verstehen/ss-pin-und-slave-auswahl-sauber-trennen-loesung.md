@@ -1,24 +1,14 @@
 ---
-title: Musterlösung – SS-Pin und Slave-Auswahl sauber trennen
-description: Musterlösung zur Aufgabe ET-ATMEGA-SPI-306.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-schnittstellen-und-busse
-  - atmega-spi-ss-pin-im-mastermodus-verstehen
-  - ss-pin-und-slave-auswahl-sauber-trennen-loesung
-taskId: ET-ATMEGA-SPI-306
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-spi-ss-pin-im-mastermodus-verstehen/ss-pin-und-slave-auswahl-sauber-trennen.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - spi
-  - loesung
+title: "Musterlösung – SS-Pin und Slave-Auswahl sauber trennen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-SPI-306."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-spi-ss-pin-im-mastermodus-verstehen", "ss-pin-und-slave-auswahl-sauber-trennen"]
+taskId: "ET-ATMEGA-SPI-306"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-spi-ss-pin-im-mastermodus-verstehen/ss-pin-und-slave-auswahl-sauber-trennen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Der SS-Pin am AVR gehört zur internen Betriebslogik des SPI-Moduls im Controller. Frei gewählte Chip-Select-Leitungen zu Sensoren oder Displays dienen dagegen der Aktivierung externer Slaves. Beide sehen ähnlich nach „Auswahl“ aus, haben aber nicht dieselbe fachliche Rolle.

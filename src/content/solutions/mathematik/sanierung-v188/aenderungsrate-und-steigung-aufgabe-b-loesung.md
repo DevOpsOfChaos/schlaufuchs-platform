@@ -3,22 +3,12 @@ title: "Lösung: Änderungsrate und Steigung: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-036b."
 subject: "mathematik"
 section: "analysis-vorbereitung"
-topicPath:
-  - "analysis-vorbereitung"
-  - "aenderungsrate-und-steigung"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "aenderungsrate-und-steigung-aufgabe-b"]
 taskId: "mat-v188-036b"
 relatedExercise: "mathematik/sanierung-v188/aenderungsrate-und-steigung-aufgabe-b"
-tags:
-  - "analysis"
-  - "steigung"
-  - "aenderungsrate"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "analysis-vorbereitung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-036b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

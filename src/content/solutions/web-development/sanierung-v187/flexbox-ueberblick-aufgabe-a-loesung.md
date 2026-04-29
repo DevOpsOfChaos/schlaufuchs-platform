@@ -3,22 +3,12 @@ title: "Lösung: Flexbox im Überblick: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-014a im Web-Development-Block v187."
 subject: "web-development"
 section: "css"
-topicPath: 
-  - "css-und-layout"
-  - "flexbox"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "flexbox-ueberblick-aufgabe-a"]
 taskId: "web-v187-014a"
 relatedExercise: "web-development/sanierung-v187/flexbox-ueberblick-aufgabe-a"
-tags: 
-  - "css"
-  - "flexbox"
-  - "layout"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "css", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-014a`
 
     Ausgangsauftrag: Plane eine horizontale Kartenreihe mit Flexbox und erkläre Haupt- und Querachse.

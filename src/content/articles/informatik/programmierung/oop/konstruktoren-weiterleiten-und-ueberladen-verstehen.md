@@ -1,46 +1,19 @@
 ---
-title: Konstruktoren weiterleiten und ueberladen verstehen
-description: Verstehe, wie mehrere Konstruktoren zusammenarbeiten und wie Delegation doppelte Initialisierungslogik vermeidet.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - konstruktoren-weiterleiten-und-ueberladen-verstehen
-learningGoals:
-  - Du erklaerst, was ueberladene Konstruktoren sind.
-  - Du beschreibst Konstruktor-Delegation als Weiterleitung an einen anderen Konstruktor derselben Klasse.
-  - Du liest die Aufrufreihenfolge ruhiger, wenn mehrere Konstruktoren beteiligt sind.
-practiceIdeas:
-  - Verfolge bei drei Konstruktoren, welcher den eigentlichen Initialisierungsteil ausfuehrt.
-  - Markiere, wo nur weitergeleitet und wo wirklich initialisiert wird.
-  - Vergleiche doppelte Zuweisungen mit einem delegierten Aufbau.
-commonMistakes:
-  - Zu denken, dass jeder Konstruktor immer denselben Code komplett wiederholen muss.
-  - Delegation mit Vererbung oder Oberklassenaufruf zu verwechseln.
-  - Zu uebersehen, dass ein Konstruktor hoechstens an einen anderen delegieren darf.
-keyTakeaways:
-  - Ueberladene Konstruktoren bieten verschiedene Startwege fuer dieselbe Klasse.
-  - Delegation leitet von einem Konstruktor an einen anderen derselben Klasse weiter.
-  - Dadurch bleibt Initialisierungslogik ruhiger und weniger doppelt.
-recognizeSignals:
-  - Eine Klasse hat mehrere Konstruktoren mit verschiedenen Parametern.
-  - In einem Initializer-Teil wird auf denselben Klassennamen verwiesen.
-  - Die Aufgabe fragt nach Aufrufreihenfolge oder doppelter Initialisierung.
-selfCheckPoints:
-  - Kann ich Ueberladung und Delegation trennen?
-  - Kann ich sagen, welcher Konstruktor am Ende die eigentliche Initialisierung macht?
-  - Kann ich erklaeren, warum Delegation Wiederholungen spart?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - konstruktor
-  - delegation
+title: "Konstruktoren weiterleiten und ueberladen verstehen"
+description: "Verstehe, wie mehrere Konstruktoren zusammenarbeiten und wie Delegation doppelte Initialisierungslogik vermeidet."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "konstruktoren-weiterleiten-und-ueberladen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Nicht jede Klasse braucht nur einen Startweg. Manchmal soll ein Objekt ohne Werte, mit einem Wert oder mit mehreren Werten erzeugt werden koennen. Dann entstehen mehrere Konstruktoren mit unterschiedlicher Signatur.

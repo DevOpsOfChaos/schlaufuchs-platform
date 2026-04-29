@@ -1,24 +1,14 @@
 ---
 title: "Lösung: A11y-Test mit Tastatur ergänzen"
 description: "Musterlösung zu A11y-Test mit Tastatur ergänzen mit Trennkante und Gegenprobe."
-subject: web-development
+subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "web-projektpraxis-v115"
-  - "reviews-und-tests"
-  - "a11y-test-mit-tastatur-ergaenzen-v115"
+topicPath: ["web-projektpraxis-v115", "reviews-und-tests", "a11y-test-mit-tastatur-ergaenzen-v115"]
 taskId: "web-development-a11y-test-mit-tastatur-ergaenzen-v115"
 relatedExercise: "web-development/web-projektpraxis-v115/reviews-und-tests/a11y-test-mit-tastatur-ergaenzen-v115"
-tags:
-  - "web development"
-  - "feinstruktur"
-  - "unterthema"
-  - "web-projektpraxis"
-  - "reviews und tests"
-  - "lösung"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **A11y-Test mit Tastatur ergänzen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

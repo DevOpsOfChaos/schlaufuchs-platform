@@ -3,22 +3,12 @@ title: "Lösung: Oktalwert in Rechte zerlegen"
 description: "Musterlösung zur Aufgabe „Oktalwert in Rechte zerlegen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "rechte-benutzer-und-sicherheit"
-  - "chmod-symbolisch-und-oktal"
-  - "oktalwert-in-rechte-zerlegen-v116"
+topicPath: ["rechte-benutzer-und-sicherheit", "chmod-symbolisch-und-oktal", "oktalwert-in-rechte-zerlegen-v116"]
 taskId: "oktalwert-in-rechte-zerlegen-v116"
 relatedExercise: "linux/rechte-benutzer-und-sicherheit/chmod-symbolisch-und-oktal/oktalwert-in-rechte-zerlegen-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "chmod symbolisch und oktal"
-  - "oktalwert in rechte zerlegen"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

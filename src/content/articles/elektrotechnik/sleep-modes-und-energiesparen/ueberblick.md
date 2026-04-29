@@ -3,32 +3,17 @@ title: "Sleep-Modes und Energiesparen"
 description: "Allgemeiner Überblick über Schlafmodi, Stromsparzustände und Energieplanung bei Mikrocontrollern."
 subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "sleep-modes-und-energiesparen"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["sleep-modes-und-energiesparen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird der Schlafmodus aktiviert, ohne die übrige Schaltung zu prüfen. Dann bleibt die erwartete Laufzeit aus, weil andere Verbraucher dominieren."
-keyTakeaways:
-  - "Sleep-Modes sind ein wichtiges Werkzeug für energiearme Mikrocontroller-Systeme. Gute Energieplanung betrachtet den gesamten Zyklus und alle Verbraucher."
-  - "Energiesparen ist nicht nur eine Softwareeinstellung. Hardwareauswahl, Versorgung, Messmethode und Leckströme bestimmen die reale Wirkung."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "energiesparen"
-  - "sleep"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
-
 # Sleep-Modes und Energiesparen
 
 Sleep-Modes sind Betriebszustände, in denen ein Mikrocontroller Teile seiner Hardware abschaltet oder verlangsamt, um Energie zu sparen.

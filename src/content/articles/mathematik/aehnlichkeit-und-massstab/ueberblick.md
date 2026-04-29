@@ -1,37 +1,19 @@
 ---
 title: "Ähnlichkeit und Maßstab"
 description: "Allgemeiner Überblick über ähnliche Figuren, Maßstab und proportionale Längenänderungen."
-subject: mathematik
+subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - "aehnlichkeit-und-massstab"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Ähnlichkeit und Maßstab als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["aehnlichkeit-und-massstab", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Der Längenmaßstab wird oft direkt auf Flächen oder Volumen übertragen."
-keyTakeaways:
-  - "Ähnliche Figuren haben gleiche Form und proportionale Längen."
-  - "Maßstäbe beziehen sich zunächst auf Längen."
-  - "Flächen und Volumen skalieren mit höheren Potenzen."
-recognizeSignals:
-  - "Eine Zeichnung oder Figur wird vergrößert oder verkleinert."
-  - "Längen, Flächen oder Volumen sollen aus Maßstab abgeleitet werden."
-selfCheckPoints:
-  - "Kann ich Ähnlichkeit und Maßstab in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "geometrie"
-  - "aehnlichkeit"
-  - "massstab"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Geometrie"]
 draft: false
 ---
-
 # Ähnlichkeit und Maßstab
 
 ![Schaubild zu Ähnlichkeit und Maßstab.](/schlaufuchs-platform/images/overviews/v150/aehnlichkeit-und-massstab.svg)

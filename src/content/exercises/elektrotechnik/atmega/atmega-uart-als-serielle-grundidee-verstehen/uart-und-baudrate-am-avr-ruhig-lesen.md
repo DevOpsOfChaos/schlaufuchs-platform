@@ -1,32 +1,17 @@
 ---
-title: UART und Baudrate am AVR ruhig lesen
-description: Erkläre serielle Bitübertragung, Baudrate und typische Timing-Probleme beim AVR.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-kommunikation
-  - atmega-uart-als-serielle-grundidee-verstehen
-  - uart-und-baudrate-am-avr-ruhig-lesen
-taskId: ET-ATMEGA-UART-208
-level: mittel
+title: "UART und Baudrate am AVR ruhig lesen"
+description: "Erkläre serielle Bitübertragung, Baudrate und typische Timing-Probleme beim AVR."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-uart-als-serielle-grundidee-verstehen", "uart-und-baudrate-am-avr-ruhig-lesen"]
+taskId: "ET-ATMEGA-UART-208"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - atmega
-  - uart
-  - baudrate
-hintPoints:
-  - Lies UART zuerst als Bitfolge in der Zeit und erst dann als Zeichen.
-  - Trenne Taktproblem, Baudratenproblem und Inhaltsproblem.
-selfCheckPoints:
-  - Kannst du erklären, warum falsche Baudrate Zeichensalat erzeugen kann?
-  - Kannst du die grobe Bitdauer aus einer Baudrate ableiten?
-transferIdeas:
-  - Übertrage die Logik auf Terminalausgaben oder Debug-Meldungen am Mikrocontroller.
-reflectionPrompt: "Welche Fehlannahme über UART würdest du am ehesten machen, wenn du nur an Text statt an Zeitrahmen denkst?"
 ---
-
 Gegeben ist:
 
 - Fall A: `9600 Baud`

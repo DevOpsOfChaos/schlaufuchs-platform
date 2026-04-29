@@ -1,13 +1,19 @@
 ---
-title: Lineare Funktionen – Grundlagen
-description: Verstehe, wie lineare Funktionen aufgebaut sind und wie Steigung und Achsenabschnitt gelesen werden.
-subject: mathematik
-section: lineare-funktionen
-level: einfach
-tags: [lineare funktionen, steigung, y-achsenabschnitt, mathematik]
+title: "Lineare Funktionen – Grundlagen"
+description: "Verstehe, wie lineare Funktionen aufgebaut sind und wie Steigung und Achsenabschnitt gelesen werden."
+subject: "mathematik"
+section: "lineare-funktionen"
+topicPath: ["lineare-funktionen-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["lineare funktionen", "steigung", "y-achsenabschnitt", "mathematik"]
 draft: false
 ---
-
 Lineare Funktionen gehören zu den wichtigsten Grundideen der Mathematik. Sie verbinden **Formel, Graph und Veränderung** auf besonders klare Weise.
 
 ## Was ist eine lineare Funktion?

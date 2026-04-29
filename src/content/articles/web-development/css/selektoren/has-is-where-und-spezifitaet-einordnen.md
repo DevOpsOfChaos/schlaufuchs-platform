@@ -3,41 +3,15 @@ title: "CSS – :has(), :is() und :where() mit Spezifität einordnen"
 description: "Lerne moderne CSS-Selektoren so zu lesen, dass Komfort, Lesbarkeit und Spezifität nicht durcheinandergeraten."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "selektoren"
-  - "has-is-where-und-spezifitaet-einordnen"
-learningGoals:
-  - "Du erklärst die Grundidee von :has(), :is() und :where()."
-  - "Du beachtest Spezifität statt nur Schreibkomfort."
-  - "Du entscheidest, wann ein Selektor die Wartbarkeit verbessert oder verschlechtert."
-practiceIdeas:
-  - "Prüfe ein kleines Beispiel zuerst fachlich und erst danach im Code."
-  - "Vergleiche eine schwache und eine bessere Umsetzung."
-  - "Teste die Entscheidung mit Tastatur, kleiner Breite und verständlichem sichtbarem Text."
-commonMistakes:
-  - ":has() als Ersatz für jede JavaScript-Logik zu behandeln."
-  - ":where() zu verwenden und danach Spezifität zu erwarten."
-  - "Sehr lange Selektoren zu bauen, die schwer überprüfbar sind."
-keyTakeaways:
-  - "Die sichtbare Bedeutung und die technische Struktur müssen zusammenpassen."
-  - "Robuste Weboberflächen entstehen durch kleine, bewusst geprüfte Entscheidungen."
-  - "Ein gutes Review fragt nach Nutzbarkeit, Semantik, Layout und Wartbarkeit."
-recognizeSignals:
-  - "Es geht um HTML- oder CSS-Entscheidungen, die nicht nur optisch wirken."
-  - "Eine Aufgabe fragt nach Bedienbarkeit, Lesbarkeit oder semantischer Zuordnung."
-  - "Der Code funktioniert scheinbar, aber die Nutzererfahrung ist noch unsicher."
-selfCheckPoints:
-  - "Kann ich die Entscheidung ohne Fachjargon erklären?"
-  - "Passt der sichtbare Text zur technischen Struktur?"
-  - "Bleibt die Lösung bei kleinen Breiten und Tastaturbedienung nutzbar?"
-tags:
-  - "web development"
-  - "css"
-  - "selektoren"
-  - "spezifitaet"
-  - "has"
+topicPath: ["css", "selektoren", "has-is-where-und-spezifitaet-einordnen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
+tags: ["web-development", "CSS"]
 draft: false
 ---
 ## Grundidee

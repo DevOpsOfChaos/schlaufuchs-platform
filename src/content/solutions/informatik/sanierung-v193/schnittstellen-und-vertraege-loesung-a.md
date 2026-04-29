@@ -3,23 +3,12 @@ title: "Lösung: Schnittstellen und Verträge: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-005a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "qualitaet-und-wartbarkeit"
-  - "schnittstellen-und-vertraege"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "schnittstellen-und-vertraege-loesung-a"]
 taskId: "informatik-v193-005a"
 relatedExercise: "informatik/sanierung-v193/schnittstellen-und-vertraege-aufgabe-a"
-tags:
-  - "schnittstellen"
-  - "vertraege"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-005a`
 
 Ausgangsauftrag: Beschreibe den Vertrag einer Funktion zum Einlesen einer Datei.

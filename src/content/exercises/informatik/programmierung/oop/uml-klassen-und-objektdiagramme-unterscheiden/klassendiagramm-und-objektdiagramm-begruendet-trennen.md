@@ -1,32 +1,17 @@
 ---
-title: Klassendiagramm und Objektdiagramm begruendet trennen
-description: Ordne UML-Darstellungen als Bauplan oder konkrete Instanz ein.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - uml-klassen-und-objektdiagramme-unterscheiden
-  - klassendiagramm-und-objektdiagramm-begruendet-trennen
-taskId: INF-PROG-OOP-015
-level: einfach
+title: "Klassendiagramm und Objektdiagramm begruendet trennen"
+description: "Ordne UML-Darstellungen als Bauplan oder konkrete Instanz ein."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "uml-klassen-und-objektdiagramme-unterscheiden", "klassendiagramm-und-objektdiagramm-begruendet-trennen"]
+taskId: "INF-PROG-OOP-015"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - informatik
-  - aufgabe
-  - programmierung
-  - oop
-hintPoints:
-  - Lies zuerst ruhig, welche Klassenebene oder Objektrolle hier gemeint ist.
-  - Trenne Begriffe sauber, bevor du Beispiele deutest.
-selfCheckPoints:
-  - Habe ich die Schluesselbegriffe fachlich sauber getrennt?
-  - Habe ich meine Begruendung in ganzen Saetzen formuliert?
-transferIdeas:
-  - Uebertrage dieselbe Denklogik auf ein eigenes Klassenbeispiel.
-reflectionPrompt: "Welche Begriffsverwechslung waere hier am wahrscheinlichsten gewesen?"
 ---
-
 ## Aufgabe 1: Grundidee erklaeren
 
 Erklaere in 2-3 Saetzen die Kernidee von **UML-Klassen- und Objektdiagramme**.

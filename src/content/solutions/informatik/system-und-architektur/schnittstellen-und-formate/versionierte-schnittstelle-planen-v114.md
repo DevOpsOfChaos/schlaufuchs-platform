@@ -1,23 +1,14 @@
 ---
-title: Lösung – Versionierte Schnittstelle planen
-description: Musterlösung zur Aufgabe über Versionierte Schnittstelle planen.
-subject: informatik
-section: Feinstruktur Informatik
-topicPath:
-- system-und-architektur
-- schnittstellen-und-formate
-- versionierte-schnittstelle-planen-v114
-taskId: v114-informatik-versionierte-schnittstelle-planen-v114
-relatedExercise: informatik/system-und-architektur/schnittstellen-und-formate/versionierte-schnittstelle-planen-v114
-tags:
-- informatik
-- v114
-- loesung
-- system-und-architektur
-- schnittstellen-und-formate
+title: "Lösung – Versionierte Schnittstelle planen"
+description: "Musterlösung zur Aufgabe über Versionierte Schnittstelle planen."
+subject: "informatik"
+section: "Feinstruktur Informatik"
+topicPath: ["system-und-architektur", "schnittstellen-und-formate", "versionierte-schnittstelle-planen-v114"]
+taskId: "v114-informatik-versionierte-schnittstelle-planen-v114"
+relatedExercise: "informatik/system-und-architektur/schnittstellen-und-formate/versionierte-schnittstelle-planen-v114"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

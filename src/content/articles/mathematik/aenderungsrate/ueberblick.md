@@ -1,34 +1,19 @@
 ---
 title: "Änderungsrate"
 description: "Überblick über Änderungsraten als Beschreibung, wie stark sich eine Größe in Bezug auf eine andere verändert."
-subject: mathematik
+subject: "mathematik"
 section: "Analysis vorbereiten"
-topicPath:
-  - "aenderungsrate"
-  - "ueberblick"
-learningGoals:
-  - "Du verstehst Änderungsrate als Verhältnis von Veränderungen."
-  - "Du kannst durchschnittliche und lokale Änderungsrate unterscheiden."
-  - "Du erkennst den Bezug zu Steigung und Ableitung."
+topicPath: ["aenderungsrate", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Änderungsrate mit absoluter Änderung zu verwechseln."
-  - "Einheiten bei Änderungsraten wegzulassen."
-keyTakeaways:
-  - "Eine Änderungsrate beschreibt Änderung pro Bezugseinheit."
-  - "Durchschnittliche Änderungsraten betrachten Intervalle, lokale Änderungsraten einzelne Stellen."
-recognizeSignals:
-  - "Es geht um Steigung, Geschwindigkeit, Wachstum pro Zeit, Sekante, Tangente oder Ableitung."
-selfCheckPoints:
-  - "Kann ich zu einer Änderungsrate die passende Einheit nennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "analysis"
-  - "änderungsrate"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Analysis vorbereiten"]
 draft: false
 ---
-
 # Änderungsrate
 
 ![Schaubild zur Änderungsrate.](/schlaufuchs-platform/images/overviews/v149/aenderungsrate.svg)

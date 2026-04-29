@@ -3,24 +3,12 @@ title: "Lösung: Überschriftenhierarchie prüfen: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-development-v194-003b im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "zugang-und-semantik"
-  - "ueberschriftenhierarchie-pruefen"
-  - "loesung-b"
-
+topicPath: ["sanierung-v194", "ueberschriftenhierarchie-pruefen-loesung-b"]
 taskId: "web-development-v194-003b"
 relatedExercise: "web-development/sanierung-v194/ueberschriftenhierarchie-pruefen-aufgabe-b"
-tags:
-  - "ueberschriftenhierarchie"
-  - "pruefen"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-003b`
 
 Ausgangsauftrag: Übertrage das Thema Überschriftenhierarchie prüfen auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

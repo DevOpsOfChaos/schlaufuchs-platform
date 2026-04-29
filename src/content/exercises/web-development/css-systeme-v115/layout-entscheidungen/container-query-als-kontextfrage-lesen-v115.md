@@ -1,36 +1,17 @@
 ---
 title: "Aufgabe: Container Query als Kontextfrage lesen"
 description: "Trainiere Container Query als Kontextfrage lesen an einem kleinen, klar abgegrenzten Fall."
-subject: web-development
+subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "css-systeme-v115"
-  - "layout-entscheidungen"
-  - "container-query-als-kontextfrage-lesen-v115"
+topicPath: ["css-systeme-v115", "layout-entscheidungen", "container-query-als-kontextfrage-lesen-v115"]
 taskId: "web-development-container-query-als-kontextfrage-lesen-v115"
-tags:
-  - "web development"
-  - "feinstruktur"
-  - "unterthema"
-  - "css-systeme"
-  - "layout-entscheidungen"
-  - "aufgabe"
-hintPoints:
-  - "Grenze zuerst den kleinen Fall vom breiten Themenfeld ab."
-  - "Nutze die Prüffrage: Soll die Komponente auf ihren Container reagieren?"
-  - "Begründe mit zwei konkreten Hinweisen aus dem Fall."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-transferIdeas:
-  - "Übertrage dieselbe Trennkante auf ein eigenes Mini-Beispiel."
-  - "Formuliere einen Gegenfall, der ähnlich aussieht, aber anders entschieden wird."
-reflectionPrompt: "Was war bei „Container Query als Kontextfrage lesen“ die wichtigste Trennkante?"
-level: mittel
+tags: ["web-development", "Feinstruktur Web Development", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den folgenden Fall zu **Container Query als Kontextfrage lesen**.

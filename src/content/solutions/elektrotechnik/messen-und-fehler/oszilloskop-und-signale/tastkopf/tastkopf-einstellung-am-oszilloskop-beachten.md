@@ -3,23 +3,12 @@ title: "Lösung – Tastkopf-Einstellung am Oszilloskop beachten"
 description: "Musterlösung zu Oszilloskop-Tastkopf mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "messen-und-fehler"
-  - "oszilloskop-und-signale"
-  - "tastkopf"
-  - "tastkopf-einstellung-am-oszilloskop-beachten"
+topicPath: ["messen-und-fehler", "oszilloskop-und-signale", "tastkopf", "tastkopf-einstellung-am-oszilloskop-beachten"]
 taskId: "v111-elektrotechnik-tastkopf-einstellung-am-oszilloskop-beachten"
 relatedExercise: "elektrotechnik/messen-und-fehler/oszilloskop-und-signale/tastkopf/tastkopf-einstellung-am-oszilloskop-beachten"
-tags:
-  - "elektrotechnik"
-  - "praxis"
-  - "unterthema"
-  - "messen-und-fehler"
-  - "oszilloskop-und-signale"
-  - "tastkopf-einstellung-am-oszilloskop-beachten"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Oszilloskop-Tastkopf**.

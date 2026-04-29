@@ -3,33 +3,15 @@ title: "Aufgabe – NULL nicht als leeren Text behandeln"
 description: "Übe null nicht als leeren text behandeln mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenbanken"
-  - "tabellen-und-abfragen"
-  - "null-nicht-als-leeren-text-behandeln"
+topicPath: ["datenbanken", "tabellen-und-abfragen", "null-nicht-als-leeren-text-behandeln"]
 taskId: "v112-informatik-null-nicht-als-leeren-text-behandeln"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "datenbanken"
-  - "null-nicht-als-leeren-text-behandeln"
-hintPoints:
-  - "Benenne zuerst das kleine Unterthema."
-  - "Prüfe bewusst den Unterschied zum Fehler: NULL wird wie eine normale Zeichenkette verglichen."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Einordnung enger als nur der breite Fachbereich?"
-  - "Wird der typische Fehler ausdrücklich ausgeschlossen?"
-  - "Passt die Lösung zur Wissensseite?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Begriff und prüfe, ob die gleiche Strategie gilt."
-  - "Erkläre die Lösung einmal alltagssprachlich und danach fachlich sauber."
-reflectionPrompt: "Was war bei „NULL nicht als leeren Text behandeln“ die wichtigste Trennkante?"
+tags: ["informatik", "Feinstruktur Informatik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation:

@@ -1,33 +1,19 @@
 ---
 title: "Performance Budget"
 description: "Ein Performance Budget legt Grenzen für Ladezeit, Dateigrößen oder Laufzeitkosten fest. Es macht Web-Performance messbar und teamfähig."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "performance-budget"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Performance Budget."
-  - "Du kannst Performance Budget in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["performance-budget", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Performance erst kurz vor Veröffentlichung zu prüfen."
-keyTakeaways:
-  - "Ein Performance Budget legt Grenzen für Ladezeit, Dateigrößen oder Laufzeitkosten fest."
-  - "Wichtig sind vor allem maximale assetgrößen, core web vitals und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Performance Budget, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Performance Budget dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "web development"
-  - "grundlagen"
-  - "performance budget"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # Performance Budget
 
 Ein Performance Budget legt Grenzen für Ladezeit, Dateigrößen oder Laufzeitkosten fest. Es macht Web-Performance messbar und teamfähig. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

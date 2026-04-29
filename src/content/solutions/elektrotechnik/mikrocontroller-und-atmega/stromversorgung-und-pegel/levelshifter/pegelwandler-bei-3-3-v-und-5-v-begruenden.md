@@ -3,23 +3,12 @@ title: "Lösung – Pegelwandler bei 3,3 V und 5 V begründen"
 description: "Musterlösung zu Pegelwandler mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "stromversorgung-und-pegel"
-  - "levelshifter"
-  - "pegelwandler-bei-3-3-v-und-5-v-begruenden"
+topicPath: ["mikrocontroller-und-atmega", "stromversorgung-und-pegel", "levelshifter", "pegelwandler-bei-3-3-v-und-5-v-begruenden"]
 taskId: "v111-elektrotechnik-pegelwandler-bei-3-3-v-und-5-v-begruenden"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/stromversorgung-und-pegel/levelshifter/pegelwandler-bei-3-3-v-und-5-v-begruenden"
-tags:
-  - "elektrotechnik"
-  - "praxis"
-  - "unterthema"
-  - "mikrocontroller-und-atmega"
-  - "stromversorgung-und-pegel"
-  - "pegelwandler-bei-3-3-v-und-5-v-begruenden"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Pegelwandler**.

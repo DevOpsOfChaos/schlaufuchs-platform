@@ -1,31 +1,17 @@
 ---
-title: Grundverhalten von Elementen sichtbar vergleichen
-description: Vergleiche block, inline und inline-block über ihr sichtbares Verhalten im Seitenfluss.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - display-block-inline-und-inline-block-verstehen
-  - grundverhalten-von-elementen-sichtbar-vergleichen
-taskId: WEB-CSS-LAYOUT-201
-level: einfach
+title: "Grundverhalten von Elementen sichtbar vergleichen"
+description: "Vergleiche block, inline und inline-block über ihr sichtbares Verhalten im Seitenfluss."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "display-block-inline-und-inline-block-verstehen", "grundverhalten-von-elementen-sichtbar-vergleichen"]
+taskId: "WEB-CSS-LAYOUT-201"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - css
-  - display
-  - layout
-hintPoints:
-  - Frage zuerst, ob das Element im Textfluss bleiben oder wie eine eigene Box wirken soll.
-  - Beschreibe das sichtbare Verhalten und nicht nur den Fachbegriff.
-selfCheckPoints:
-  - Kannst du block, inline und inline-block sichtbar unterscheiden?
-  - Kannst du erklären, wann ein Element eine neue Zeile beginnt?
-transferIdeas:
-  - Übertrage die Aufgabe auf Links, Buttons, Badges oder kleine Navigationsleisten.
-reflectionPrompt: Welche Beobachtung hilft dir mehr als der Fachbegriff allein, um display ruhig zu verstehen?
 ---
-
 ## Aufgabe 1: Sichtbar vergleichen
 
 Derselbe Inhalt wird einmal als `block`, einmal als `inline` und einmal als `inline-block` dargestellt.

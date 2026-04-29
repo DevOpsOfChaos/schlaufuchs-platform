@@ -1,21 +1,14 @@
 ---
-title: Lösung – Placeholder ist kein Label begründen
-description: Musterlösung zur Aufgabe über Labels und Placeholder in Formularen.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - formulare-und-eingaben
-  - labels-und-placeholder-unterscheiden
-taskId: WEB-HTML-A11Y-306
-relatedExercise: src/content/exercises/web-development/html/labels-und-placeholder-unterscheiden/placeholder-ist-kein-label-begruenden.md
-tags:
-  - html
-  - form
-  - lösung
+title: "Lösung – Placeholder ist kein Label begründen"
+description: "Musterlösung zur Aufgabe über Labels und Placeholder in Formularen."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "labels-und-placeholder-unterscheiden", "placeholder-ist-kein-label-begruenden"]
+taskId: "WEB-HTML-A11Y-306"
+relatedExercise: "src/content/exercises/web-development/html/labels-und-placeholder-unterscheiden/placeholder-ist-kein-label-begruenden.md"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

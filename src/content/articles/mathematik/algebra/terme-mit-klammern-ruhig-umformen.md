@@ -1,45 +1,19 @@
 ---
-title: Terme mit Klammern ruhig umformen
-description: Verstehe, wie Klammern in linearen Termen sauber aufgelöst werden und warum Vorzeichen dabei die ganze Struktur beeinflussen.
-subject: mathematik
-section: Algebra
-topicPath:
-  - algebra
-  - lineare-gleichungen-schrittweise-umformen
-  - terme-mit-klammern-ruhig-umformen
-learningGoals:
-  - Du erklärst, wie Klammern in linearen Termen aufgelöst werden.
-  - Du beschreibst die Rolle von Vorzeichen vor der Klammer.
-  - Du formst einfache Terme mit Klammern schrittweise und nachvollziehbar um.
-practiceIdeas:
-  - Löse Terme einmal mit Plus vor der Klammer und einmal mit Minus davor auf.
-  - Vergleiche, was beim Auflösen gleich bleibt und was sich ändert.
-  - Lies Klammern nicht nur als Schreibweise, sondern als Gruppenlogik.
-commonMistakes:
-  - das Minus vor der Klammer nur auf den ersten Term zu beziehen.
-  - Klammern zu früh wegzulassen, ohne den Schritt sauber zu begründen.
-  - Struktur und Vorzeichen durcheinanderzubringen.
-keyTakeaways:
-  - Eine Klammer gruppiert Terme.
-  - Ein Minus vor der Klammer verändert alle Terme in der Gruppe.
-  - Ruhige Umformungen sind oft wichtiger als schnelles Rechnen.
-recognizeSignals:
-  - Es geht um lineare Terme, Vorzeichen oder Klammern.
-  - Du sollst aus einer gruppierten Schreibweise eine einfachere Form machen.
-  - In Beispielen ist die Struktur des Terms wichtiger als große Zahlen.
-selfCheckPoints:
-  - Kann ich erklären, was das Vorzeichen vor der Klammer mit allen Termen macht?
-  - Kann ich Klammern schrittweise sauber auflösen?
-  - Kann ich typische Vorzeichenfehler erkennen?
-tags:
-  - mathematik
-  - algebra
-  - terme
-  - klammern
-level: einfach
+title: "Terme mit Klammern ruhig umformen"
+description: "Verstehe, wie Klammern in linearen Termen sauber aufgelöst werden und warum Vorzeichen dabei die ganze Struktur beeinflussen."
+subject: "mathematik"
+section: "Algebra"
+topicPath: ["algebra", "terme-mit-klammern-ruhig-umformen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Algebra"]
 draft: false
 ---
-
 ## Grundidee
 
 Klammern gruppieren Teile eines Terms. Beim Umformen geht es darum, diese Gruppe kontrolliert aufzulösen, ohne die innere Struktur aus den Augen zu verlieren.

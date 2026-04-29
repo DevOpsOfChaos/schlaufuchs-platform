@@ -1,32 +1,17 @@
 ---
 title: "ADC-Samplingzeit"
 description: "Allgemeiner Überblick über Samplingzeit, Eingangskapazität und stabile Messwerte beim ADC."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "adc-samplingzeit"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst ADC-Samplingzeit als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Sample-and-Hold, Quellimpedanz, Eingangskapazität."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["adc-samplingzeit", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "ADC-Auflösung nur als Bitzahl zu betrachten und die Abtastzeit zu vergessen."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "ADC-Samplingzeit beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Zeitverhalten analoger Messungen."
-  - "Wichtige Hinweise liefern vor allem Sample-and-Hold, Quellimpedanz, Eingangskapazität."
-recognizeSignals:
-  - "Es geht um zeitverhalten analoger messungen, sample-and-hold oder quellimpedanz."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck ADC-Samplingzeit erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "adc"
-  - "mikrocontroller"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
 # ADC-Samplingzeit

@@ -1,29 +1,17 @@
 ---
 title: "Debugging und Fehlerhypothesen – Ruhig einordnen"
 description: "Übe, Debugging und Fehlerhypothesen fachlich einzuordnen."
-subject: informatik
+subject: "informatik"
 section: "programmierpraxis-und-tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "debugging-und-fehlerhypothesen"
-taskId: INF-DEBUGGING-UND-FEHLERHYPOTHESEN-841
-tags:
-  - "informatik"
-  - "debugging"
-  - "fehler"
-hintPoints:
-  - "Beginne mit der allgemeinen Rolle des Themas."
-  - "Trenne Begriff, Beispiel und Sonderfall sauber."
-selfCheckPoints:
-  - "Ich kann meine Zuordnung begründen."
-  - "Ich vermeide eine reine Einzelfallantwort."
-transferIdeas:
-  - "Übertrage die Idee auf ein anderes kleines Informatikbeispiel."
-reflectionPrompt: "Welche Annahme musste ich bewusst prüfen?"
-level: einfach
+topicPath: ["programmierpraxis-und-tests", "debugging-und-fehlerhypothesen", "debugging-und-fehlerhypothesen-ruhig-einordnen-v184"]
+taskId: "INF-DEBUGGING-UND-FEHLERHYPOTHESEN-841"
+tags: ["informatik", "programmierpraxis-und-tests", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Debugging und Fehlerhypothesen**. Sie soll nicht nur eine einzelne Situation lösen, sondern das Thema fachlich einordnen.
 
 ## Lernziel

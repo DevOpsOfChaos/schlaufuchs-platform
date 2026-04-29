@@ -3,46 +3,17 @@ title: "Linux – journalctl mit Dienst und Zeitfenster eingrenzen"
 description: "Lerne Journal nach Dienst und Zeit als enges, prüfbares Unterthema mit Beispiel, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "System"
-topicPath:
-  - "system"
-  - "dienste-und-systemd"
-  - "journal-kontext"
-  - "journalctl-mit-dienst-und-zeitfenster-eingrenzen"
-learningGoals:
-  - "Du erklärst Journal nach Dienst und Zeit als eigenes Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Erstelle eine Gegenprobe mit verändertem Wert, Zustand oder Kontext."
-  - "Vergleiche die Seite mit einem Nachbarthema und nenne die Trennkante."
-commonMistakes:
-  - "Das gesamte Journal wird ungefiltert gelesen."
-  - "Das Thema nur einem breiten Kapitel zuordnen."
-  - "Eine Lösung formulieren, die keine konkrete Prüfung enthält."
-keyTakeaways:
-  - "Journal nach Dienst und Zeit wird über Einordnung, Abgrenzung und Gegenprobe stabil."
-  - "Kleine Unterthemen erhöhen Auffindbarkeit und reduzieren Doppelungen."
-  - "Aufgabe und Lösung sollen dieselbe fachliche Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Ein breites Kapitel wäre als Antwort zu ungenau."
-  - "Ein konkreter Prüfschritt kann die Entscheidung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "system"
-  - "dienste-und-systemd"
-  - "journal nach dienst und zeit"
+topicPath: ["system", "dienste-und-systemd", "journal-kontext", "journalctl-mit-dienst-und-zeitfenster-eingrenzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["linux", "System"]
 draft: false
 ---
-
 ## Grundidee
 
 **Journal nach Dienst und Zeit** ist ein kleines Unterthema mit einer klaren Trennkante. Lerne Journal nach Dienst und Zeit als enges, prüfbares Unterthema mit Beispiel, Abgrenzung und Gegenprobe. Dadurch bleibt die Seite übersichtlich und landet nicht als weiterer Abschnitt in einem zu breiten Sammelthema.

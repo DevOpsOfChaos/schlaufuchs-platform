@@ -3,22 +3,12 @@ title: "Lösung: Messfehler und Rauschen: Grundordnung"
 description: "Musterlösung zur Aufgabe dat-v189-029a."
 subject: "daten-und-signale"
 section: "messung"
-topicPath:
-  - "messung"
-  - "messfehler-und-rauschen"
-  - "loesung-a"
+topicPath: ["sanierung-v189", "messfehler-und-rauschen-aufgabe-a"]
 taskId: "dat-v189-029a"
 relatedExercise: "daten-und-signale/sanierung-v189/messfehler-und-rauschen-aufgabe-a"
-tags:
-  - "rauschen"
-  - "messfehler"
-  - "signal"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "messung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-029a`
 
 Eine mögliche Lösung:

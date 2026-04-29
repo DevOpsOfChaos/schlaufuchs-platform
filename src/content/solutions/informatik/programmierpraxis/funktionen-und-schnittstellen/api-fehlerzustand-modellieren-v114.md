@@ -1,23 +1,14 @@
 ---
-title: Lösung – API-Fehlerzustand modellieren
-description: Musterlösung zur Aufgabe über API-Fehlerzustand modellieren.
-subject: informatik
-section: Feinstruktur Informatik
-topicPath:
-- programmierpraxis
-- funktionen-und-schnittstellen
-- api-fehlerzustand-modellieren-v114
-taskId: v114-informatik-api-fehlerzustand-modellieren-v114
-relatedExercise: informatik/programmierpraxis/funktionen-und-schnittstellen/api-fehlerzustand-modellieren-v114
-tags:
-- informatik
-- v114
-- loesung
-- programmierpraxis
-- funktionen-und-schnittstellen
+title: "Lösung – API-Fehlerzustand modellieren"
+description: "Musterlösung zur Aufgabe über API-Fehlerzustand modellieren."
+subject: "informatik"
+section: "Feinstruktur Informatik"
+topicPath: ["programmierpraxis", "funktionen-und-schnittstellen", "api-fehlerzustand-modellieren-v114"]
+taskId: "v114-informatik-api-fehlerzustand-modellieren-v114"
+relatedExercise: "informatik/programmierpraxis/funktionen-und-schnittstellen/api-fehlerzustand-modellieren-v114"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

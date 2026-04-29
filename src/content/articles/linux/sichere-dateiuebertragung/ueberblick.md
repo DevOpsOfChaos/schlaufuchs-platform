@@ -1,34 +1,19 @@
 ---
 title: "Sichere Dateiübertragung"
 description: "Überblick über sichere Wege, Dateien zwischen Systemen zu übertragen, ohne Integrität und Zugriffsrechte zu vernachlässigen."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "sichere-dateiuebertragung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["sichere-dateiuebertragung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Eine verschlüsselte Verbindung als einzige Sicherheitsanforderung zu betrachten."
-keyTakeaways:
-  - "Sichere Dateiübertragung umfasst Verbindung, Ziel, Rechte und Überprüfung."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Dateien auf Server kopiert, Deployments vorbereitet oder Backups übertragen werden."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "ssh"
-  - "dateien"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # Sichere Dateiübertragung
 
 Sichere Dateiübertragung verbindet Transportverschlüsselung, Authentifizierung, Zielpfade und Rechte. Werkzeuge wie `scp`, `sftp` oder `rsync` über SSH lösen ähnliche Aufgaben mit unterschiedlichen Stärken.

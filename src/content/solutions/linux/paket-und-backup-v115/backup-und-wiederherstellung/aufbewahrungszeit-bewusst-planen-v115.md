@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Aufbewahrungszeit bewusst planen"
 description: "Musterlösung zu Aufbewahrungszeit bewusst planen mit Trennkante und Gegenprobe."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "paket-und-backup-v115"
-  - "backup-und-wiederherstellung"
-  - "aufbewahrungszeit-bewusst-planen-v115"
+topicPath: ["paket-und-backup-v115", "backup-und-wiederherstellung", "aufbewahrungszeit-bewusst-planen-v115"]
 taskId: "linux-aufbewahrungszeit-bewusst-planen-v115"
 relatedExercise: "linux/paket-und-backup-v115/backup-und-wiederherstellung/aufbewahrungszeit-bewusst-planen-v115"
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "pakete und backups"
-  - "backup und wiederherstellung"
-  - "lösung"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Aufbewahrungszeit bewusst planen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

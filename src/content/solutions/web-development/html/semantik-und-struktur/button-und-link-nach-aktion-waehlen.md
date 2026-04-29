@@ -3,21 +3,12 @@ title: "Lösung – Button und Link nach Aktion wählen"
 description: "Musterlösung zu button und link nach aktion wählen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "html"
-  - "semantik-und-struktur"
-  - "button-und-link-nach-aktion-waehlen"
+topicPath: ["html", "semantik-und-struktur", "button-und-link-nach-aktion-waehlen"]
 taskId: "v112-web-development-button-und-link-nach-aktion-waehlen"
 relatedExercise: "web-development/html/semantik-und-struktur/button-und-link-nach-aktion-waehlen"
-tags:
-  - "web-development"
-  - "v112"
-  - "feinstruktur"
-  - "html"
-  - "button-und-link-nach-aktion-waehlen"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **HTML Semantik und Struktur**.

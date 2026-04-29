@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Konfiguration und Umgebung – ruhig einordnen"
 description: "Musterlösung zur Aufgabe über konfiguration und umgebung."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "konfiguration-und-umgebung"
-  - "loesung"
-taskId: INF-V185-008-1
-relatedExercise: src/content/exercises/informatik/programmierpraxis-und-tests/konfiguration-und-umgebung/konfiguration-und-umgebung-ruhig-einordnen-v185.md
-tags:
-  - "informatik"
-  - "programmierpraxis-und-tests"
-  - "konfiguration-und-umgebung"
-  - "loesung"
+topicPath: ["programmierpraxis-und-tests", "konfiguration-und-umgebung", "konfiguration-und-umgebung-ruhig-einordnen-v185"]
+taskId: "INF-V185-008-1"
+relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/konfiguration-und-umgebung/konfiguration-und-umgebung-ruhig-einordnen-v185.md"
+tags: ["informatik", "Programmierpraxis und Tests", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

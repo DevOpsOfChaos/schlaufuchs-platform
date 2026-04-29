@@ -1,31 +1,17 @@
 ---
 title: "Zeichenkodierung und Unicode"
 description: "Allgemeiner Überblick über Zeichen, Codes, Unicode und typische Encoding-Probleme."
-subject: informatik
+subject: "informatik"
 section: "Daten und Formate"
-topicPath:
-  - "zeichenkodierung-und-unicode"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Zeichenkodierung und Unicode grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["zeichenkodierung-und-unicode", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Zeichenkodierung und Unicode nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Zeichenkodierung und Unicode beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Zeichenkodierung und Unicode, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Zeichenkodierung und Unicode in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "unicode"
-  - "encoding"
-  - "daten"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Daten und Formate"]
 draft: false
 ---
 # Zeichenkodierung und Unicode

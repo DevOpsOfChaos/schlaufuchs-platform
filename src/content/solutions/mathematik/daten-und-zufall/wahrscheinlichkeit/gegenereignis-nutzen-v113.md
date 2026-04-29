@@ -3,20 +3,12 @@ title: "Lösung – Gegenereignis nutzen"
 description: "Musterlösung zu Gegenereignis nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "daten-und-zufall"
-  - "wahrscheinlichkeit"
-  - "gegenereignis-nutzen-v113"
+topicPath: ["daten-und-zufall", "wahrscheinlichkeit", "gegenereignis-nutzen-v113"]
 taskId: "v113-mathematik-gegenereignis-nutzen-v113"
 relatedExercise: "mathematik/daten-und-zufall/wahrscheinlichkeit/gegenereignis-nutzen-v113"
-tags:
-  - "mathematik"
-  - "strukturcheck"
-  - "unterthema"
-  - "gegenereignis-nutzen-v113"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Gegenereignis nutzen**.

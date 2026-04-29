@@ -3,20 +3,12 @@ title: "Lösung – Authentifizierung und Autorisierung trennen"
 description: "Musterlösung zu Authentifizierung und Autorisierung trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "sicherheit"
-  - "authentifizierung"
-  - "authentifizierung-und-autorisierung-trennen-v113"
+topicPath: ["sicherheit", "authentifizierung", "authentifizierung-und-autorisierung-trennen-v113"]
 taskId: "v113-informatik-authentifizierung-und-autorisierung-trennen-v113"
 relatedExercise: "informatik/sicherheit/authentifizierung/authentifizierung-und-autorisierung-trennen-v113"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "authentifizierung-und-autorisierung-trennen-v113"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Authentifizierung und Autorisierung trennen**.

@@ -3,22 +3,12 @@ title: "Lösung – Fehlerseiten und leere Zustände hilfreich planen"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Development-Aufgabe."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "struktur-und-semantik"
-  - "fehlerseiten-und-leere-zustaende-hilfreich-planen"
-tags:
-  - "web development"
-  - "html"
-  - "ux"
-  - "fehlerzustände"
-  - "leere zustände"
-  - "lösung"
+topicPath: ["html", "struktur-und-semantik", "fehlerseiten-und-leere-zustaende-hilfreich-planen"]
 taskId: "web-v104-fehlerseiten-und-leere-zustaende-hilfreich-planen"
 relatedExercise: "web-development/html/struktur-und-semantik/fehlerseiten-und-leere-zustaende-hilfreich-planen"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Eine gute Lösung beginnt mit der Nutzer-Situation. Das Problem ist nicht nur technisch, sondern zeigt sich daran, dass eine Person nicht sicher erkennt, was gerade passiert oder wie sie weitermachen kann.

@@ -1,35 +1,19 @@
 ---
 title: "Grundlagen: Tabellen und Schlüssel"
 description: "Schlüssel machen Daten zuverlässig identifizierbar und verbinden Tabellen kontrolliert."
-subject: informatik
+subject: "informatik"
 section: "Datenbanken"
-topicPath:
-  - "datenbanken"
-  - "tabellen-und-schluessel"
-  - "ueberblick"
-learningGoals:
-  - "Du ordnest Tabellen und Schlüssel fachlich ein."
-  - "Du unterscheidest zentrale Begriffe und typische Rollen."
-  - "Du erkennst häufige Fehler beim Anwenden."
-practiceIdeas:
-  - "Formuliere die Grundidee in zwei Sätzen."
-  - "Ordne ein Beispiel den wichtigsten Begriffen zu."
-commonMistakes:
-  - "Namen oder Beschreibungen als eindeutig zu behandeln, obwohl sie doppelt vorkommen können."
-keyTakeaways:
-  - "Schlüssel machen Daten zuverlässig identifizierbar und verbinden Tabellen kontrolliert."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung vor einer Einzelfalllösung."
-selfCheckPoints:
-  - "Kann ich die Grundbegriffe voneinander unterscheiden?"
-level: einfach
-tags:
-  - "informatik"
-  - "datenbanken"
-  - "tabellen-und-schluessel"
+topicPath: ["datenbanken", "tabellen-und-schluessel", "ueberblick", "grundlagen-tabellen-und-schluessel"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Datenbanken"]
 draft: false
 ---
-
 ![Schaubild zu Tabellen und Schlüssel](/schlaufuchs-platform/images/overviews/v183/informatik-tabellen-und-schluessel.svg)
 
 ## Begriff

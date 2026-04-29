@@ -3,23 +3,12 @@ title: "Lösung – Hashmap-Schlüssel als eindeutige Zuordnung lesen"
 description: "Musterlösung zu Hashmap-Schlüssel mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Datenstrukturen"
-topicPath:
-  - "datenstrukturen"
-  - "hashmaps-und-schluessel"
-  - "eindeutigkeit"
-  - "hashmap-schluessel-als-eindeutige-zuordnung-lesen"
+topicPath: ["datenstrukturen", "hashmaps-und-schluessel", "eindeutigkeit", "hashmap-schluessel-als-eindeutige-zuordnung-lesen"]
 taskId: "v109-informatik-hashmap-schluessel-als-eindeutige-zuordnung-lesen"
 relatedExercise: "informatik/datenstrukturen/hashmaps-und-schluessel/eindeutigkeit/hashmap-schluessel-als-eindeutige-zuordnung-lesen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "datenstrukturen"
-  - "hashmaps-und-schluessel"
-  - "hashmap-schlüssel"
+tags: ["informatik", "Datenstrukturen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Hashmap-Schlüssel**.

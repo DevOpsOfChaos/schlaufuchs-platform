@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Offene Leitung erkennen"
 description: "Musterlösung zu Offene Leitung erkennen mit Trennkante und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "messpraxis-v115"
-  - "fehlerbilder-systematisch"
-  - "offene-leitung-erkennen-v115"
+topicPath: ["messpraxis-v115", "fehlerbilder-systematisch", "offene-leitung-erkennen-v115"]
 taskId: "elektrotechnik-offene-leitung-erkennen-v115"
 relatedExercise: "elektrotechnik/messpraxis-v115/fehlerbilder-systematisch/offene-leitung-erkennen-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "messpraxis"
-  - "fehlerbilder systematisch"
-  - "lösung"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Offene Leitung erkennen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

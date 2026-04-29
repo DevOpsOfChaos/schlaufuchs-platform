@@ -3,35 +3,15 @@ title: "Aufgabe – Schleifeninvariante in Alltagssprache formulieren"
 description: "Übe Schleifeninvariante mit einem konkreten Fall, einer Abgrenzung und einer Gegenprobe."
 subject: "informatik"
 section: "Algorithmen"
-topicPath:
-  - "algorithmen"
-  - "korrektheit-und-beweise"
-  - "schleifeninvariante"
-  - "schleifeninvariante-in-alltagssprache-formulieren"
+topicPath: ["algorithmen", "korrektheit-und-beweise", "schleifeninvariante", "schleifeninvariante-in-alltagssprache-formulieren"]
 taskId: "v108-informatik-schleifeninvariante-in-alltagssprache-formulieren"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "algorithmen"
-  - "korrektheit-und-beweise"
-  - "schleifeninvariante"
-hintPoints:
-  - "Bestimme zuerst das kleine Unterthema."
-  - "Notiere, welches Nachbarthema ausdrücklich nicht gemeint ist."
-  - "Nutze eine Gegenprobe statt nur eine Behauptung."
-selfCheckPoints:
-  - "Ist der Fall eng genug eingeordnet?"
-  - "Wird die typische Verwechslung sichtbar?"
-  - "Passt die Gegenprobe zur Wissensseite?"
-transferIdeas:
-  - "Verändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere aus deiner Lösung einen kurzen Merksatz für eine zweite Person."
-reflectionPrompt: "Warum wäre eine breite Sammelantwort hier unübersichtlicher als das Unterthema „Schleifeninvariante“?"
+tags: ["informatik", "Algorithmen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den Fall zu **Schleifeninvariante**.

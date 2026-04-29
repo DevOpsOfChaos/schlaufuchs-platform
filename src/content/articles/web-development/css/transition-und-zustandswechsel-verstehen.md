@@ -1,45 +1,19 @@
 ---
-title: Transition und Zustandswechsel verstehen
-description: Verstehe, wie CSS-Transitions sichtbare Zustandswechsel ruhiger machen und warum sie Wirkung nur zwischen zwei Zuständen entfalten.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - selektoren
-  - transition-und-zustandswechsel-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von CSS-Transitions.
-  - Du beschreibst, warum eine Transition zwischen Zuständen und nicht einfach „immer“ wirkt.
-  - Du liest Hover- oder Focus-Effekte eher als Übergang zwischen zwei Situationen.
-practiceIdeas:
-  - Vergleiche eine Karte mit abruptem Hover-Effekt und eine mit ruhigem Übergang.
-  - Lies zuerst den Ausgangszustand und danach den Zielzustand.
-  - Prüfe, ob eine Rückmeldung informativ oder nur dekorativ wirkt.
-commonMistakes:
-  - zu glauben, dass transition allein schon eine sichtbare Veränderung erzeugt.
-  - Übergangsdauer mit Zielzustand zu verwechseln.
-  - Effekte zu stark zu machen, obwohl nur eine kleine Rückmeldung nötig wäre.
-keyTakeaways:
-  - Transition beschreibt den Weg zwischen zwei Zuständen.
-  - Ohne Zustandsänderung gibt es keinen sichtbaren Übergang.
-  - Gute Transitions machen Interaktion lesbarer, nicht bloß bunter.
-recognizeSignals:
-  - Es geht um Hover, Focus, aktive Zustände oder kleine UI-Rückmeldungen.
-  - Du sollst erklären, warum etwas weich statt abrupt reagiert.
-  - In Beispielen zählt die Veränderung zwischen Ausgang und Ziel.
-selfCheckPoints:
-  - Kann ich erklären, welche zwei Zustände verbunden werden?
-  - Kann ich benennen, was die Transition ruhiger macht?
-  - Kann ich begründen, wann eine Transition sinnvoll ist und wann nicht?
-tags:
-  - css
-  - transition
-  - hover
-  - focus
-level: einfach
+title: "Transition und Zustandswechsel verstehen"
+description: "Verstehe, wie CSS-Transitions sichtbare Zustandswechsel ruhiger machen und warum sie Wirkung nur zwischen zwei Zuständen entfalten."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "transition-und-zustandswechsel-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Eine Transition erzeugt keine neue Gestaltungsidee, sondern macht einen **bereits vorhandenen Zustandswechsel** sichtbar ruhiger. Genau deshalb ist die wichtigste Frage oft nicht „Welche Dauer nehme ich?“, sondern: **Zwischen welchen zwei Zuständen wird hier gewechselt?**

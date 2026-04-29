@@ -3,32 +3,15 @@ title: "Aufgabe – Daten und Bedeutung trennen"
 description: "Übe Daten und Bedeutung trennen mit Szenario, Trennkante und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "grundlagen"
-  - "daten-und-information"
-  - "daten-und-bedeutung-trennen-v113"
+topicPath: ["grundlagen", "daten-und-information", "daten-und-bedeutung-trennen-v113"]
 taskId: "v113-informatik-daten-und-bedeutung-trennen-v113"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "daten-und-bedeutung-trennen-v113"
-hintPoints:
-  - "Benenne zuerst das genaue Unterthema."
-  - "Notiere die typische Verwechslung ausdrücklich."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Antwort enger als ein breites Kapitel?"
-  - "Wird ein Nachbarthema sauber ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere eine zweite Aufgabe im gleichen Unterthema mit anderer Oberfläche."
-reflectionPrompt: "Welche kleine Trennkante macht Daten und Bedeutung trennen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["informatik", "Feinstruktur Informatik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Daten und Bedeutung trennen**.

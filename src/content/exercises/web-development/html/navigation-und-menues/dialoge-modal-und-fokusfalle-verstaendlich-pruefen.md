@@ -3,33 +3,15 @@ title: "HTML – Aufgabe: Dialoge, Modalzustand und Fokusführung prüfen"
 description: "Beschreibe einen Prüfablauf für einen Hilfe-Dialog: öffnen, mit Tab bewegen, schließen und Rücksprung prüfen."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "navigation-und-menues"
-  - "dialoge-modal-und-fokusfalle-verstaendlich-pruefen"
+topicPath: ["html", "navigation-und-menues", "dialoge-modal-und-fokusfalle-verstaendlich-pruefen"]
 taskId: "wd-v97-dialoge-modal-und-fokusfalle-verstaendlich-pruefen"
-tags:
-  - "web development"
-  - "html"
-  - "dialog"
-  - "modal"
-  - "fokus"
-hintPoints:
-  - "Trenne zuerst sichtbare Wirkung, semantische Bedeutung und technische Umsetzung."
-  - "Begründe deine Entscheidung aus Nutzerperspektive, nicht nur aus Code-Sicht."
-  - "Prüfe am Ende, ob die Lösung ohne Ratespiel verständlich bleibt."
-selfCheckPoints:
-  - "Ist der betroffene UI-Baustein eindeutig benannt?"
-  - "Ist die technische Entscheidung fachlich begründet?"
-  - "Gibt es eine klare Verbesserung gegenüber dem Ausgangszustand?"
-transferIdeas:
-  - "Übertrage die Entscheidung auf eine zweite Komponente derselben Seite."
-  - "Formuliere eine kurze Prüfregel, die ein Team beim Review verwenden könnte."
-reflectionPrompt: "Welche kleine Änderung hätte hier die größte Wirkung auf Verständlichkeit oder Zugänglichkeit?"
+tags: ["web-development", "HTML", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Ausgangslage
 
 Beschreibe einen Prüfablauf für einen Hilfe-Dialog: öffnen, mit Tab bewegen, schließen und Rücksprung prüfen.

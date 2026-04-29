@@ -1,34 +1,19 @@
 ---
 title: "Paket-Cache"
 description: "Überblick über zwischengespeicherte Paketdaten und ihre Rolle bei Installation, Updates und Speicherplatz."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "paket-cache"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["paket-cache", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Veraltete Paketlisten mit einem defekten Repository oder fehlender Software zu verwechseln."
-keyTakeaways:
-  - "Paket-Caches verbessern Effizienz, müssen aber aktuell und platzmäßig kontrolliert bleiben."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Updates merkwürdig wirken, Installationen alte Versionen finden oder Speicherplatz verschwindet."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "pakete"
-  - "wartung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # Paket-Cache
 
 Ein Paket-Cache speichert heruntergeladene Paketinformationen oder Paketdateien lokal. Dadurch können Paketmanager schneller arbeiten oder Installationen wiederholen, ohne alles erneut zu laden.

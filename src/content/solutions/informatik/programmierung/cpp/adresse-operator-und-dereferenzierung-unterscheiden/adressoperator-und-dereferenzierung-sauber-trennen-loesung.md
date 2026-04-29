@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – Adressoperator und Dereferenzierung sauber trennen
-description: Musterlösung zur Aufgabe INF-PROG-CPP-PTR-002.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - pointer-und-adressen
-  - adresse-operator-und-dereferenzierung-unterscheiden
-  - adressoperator-und-dereferenzierung-sauber-trennen-loesung
-taskId: INF-PROG-CPP-PTR-002
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/adresse-operator-und-dereferenzierung-unterscheiden/adressoperator-und-dereferenzierung-sauber-trennen.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – Adressoperator und Dereferenzierung sauber trennen"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-PTR-002."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "adresse-operator-und-dereferenzierung-unterscheiden", "adressoperator-und-dereferenzierung-sauber-trennen"]
+taskId: "INF-PROG-CPP-PTR-002"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/adresse-operator-und-dereferenzierung-unterscheiden/adressoperator-und-dereferenzierung-sauber-trennen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Vier Ausdrücke unterscheiden
 
 - <code>zahl</code> liefert den normalen Variablenwert.

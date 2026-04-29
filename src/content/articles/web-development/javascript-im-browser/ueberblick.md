@@ -1,34 +1,19 @@
 ---
 title: "JavaScript im Browser"
 description: "Überblick über JavaScript als Sprache für Interaktion, Zustände und dynamisches Verhalten im Browser."
-subject: web-development
+subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript-im-browser"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst JavaScript im Browser von HTML und CSS abgrenzen."
-  - "Du verstehst Ereignisse, DOM und Zustand als zentrale Begriffe."
-  - "Du erkennst, warum robuste JavaScript-Logik Fehlerzustände beachten muss."
+topicPath: ["javascript-im-browser", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "JavaScript nur als Animationstechnik zu sehen."
-  - "Ohne Fehlerbehandlung externe Daten oder DOM-Zustände vorauszusetzen."
-keyTakeaways:
-  - "JavaScript verändert Verhalten, Zustand und Reaktion einer Webseite."
-  - "Robuste Browserlogik berücksichtigt Ladezeit, Fehler und unterschiedliche Umgebungen."
-recognizeSignals:
-  - "Es geht um Events, DOM, Fetch, Zustand, Interaktion, Module oder dynamische Oberflächen."
-selfCheckPoints:
-  - "Kann ich erklären, welche Aufgabe JavaScript übernimmt, die HTML und CSS allein nicht leisten?"
-level: einfach
-tags:
-  - "web development"
-  - "javascript"
-  - "browser"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 # JavaScript im Browser
 
 ![Schaubild zu JavaScript im Browser.](/schlaufuchs-platform/images/overviews/v148/javascript-im-browser.svg)

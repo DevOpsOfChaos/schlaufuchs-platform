@@ -3,33 +3,15 @@ title: "Tabellen, Formeln und Graphen: Prüfen und Begründen"
 description: "Bewerte eine Aussage zu Tabellen, Formeln und Graphen und formuliere eine bessere Arbeitsregel."
 subject: "mathematik"
 section: "modellieren-und-validieren"
-topicPath:
-  - "modellieren-und-validieren"
-  - "tabellen-formeln-und-graphen"
-  - "aufgabe-b"
+topicPath: ["sanierung-v188", "tabellen-formeln-und-graphen-aufgabe-b"]
 taskId: "mat-v188-014b"
-tags:
-  - "tabellen"
-  - "formeln"
-  - "graphen"
-  - "mathematik"
-  - "aufgabe"
-  - "v188"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["mathematik", "modellieren-und-validieren", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Prüfe die folgende Aussage zum Thema **Tabellen, Formeln und Graphen**:

@@ -3,24 +3,12 @@ title: "Lösung: Zustand in kleinen Interfaces: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-v190-017a im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "ui-zustand"
-  - "zustand-in-kleinen-interfaces"
-  - "loesung-a"
+topicPath: ["sanierung-v190", "zustand-in-kleinen-interfaces-aufgabe-a"]
 taskId: "web-v190-017a"
 relatedExercise: "web-development/sanierung-v190/zustand-in-kleinen-interfaces-aufgabe-a"
-tags:
-  - "ui-zustand"
-  - "zustand"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-017a`
 
 Ausgangsauftrag: Beschreibe den Zustand einer Filterliste mit zwei Kriterien.

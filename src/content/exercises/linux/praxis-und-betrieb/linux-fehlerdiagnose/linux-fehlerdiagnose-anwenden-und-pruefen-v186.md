@@ -1,29 +1,17 @@
 ---
 title: "Linux-Fehlerdiagnose – anwenden und prüfen"
 description: "Übe, Linux-Fehlerdiagnose an kleinen Praxissituationen zu prüfen."
-subject: linux
+subject: "linux"
 section: "praxis-und-betrieb"
-topicPath:
-  - "praxis-und-betrieb"
-  - "linux-fehlerdiagnose"
-taskId: LINUX-LINUX-FEHLERDIAGNOSE-V186-2
-tags:
-  - "linux"
-  - "diagnose"
-  - "fehlersuche"
-  - "aufgabe"
-hintPoints:
-  - "Beginne mit Begriff und Kontext."
-  - "Trenne Beobachtung, Prüfung und mögliche Änderung."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe erklären."
-  - "Ich kann einen typischen Fehler vermeiden."
-transferIdeas:
-  - "Formuliere eine ähnliche Prüfsituation aus deinem eigenen Linux-Alltag."
-level: mittel
+topicPath: ["praxis-und-betrieb", "linux-fehlerdiagnose", "linux-fehlerdiagnose-anwenden-und-pruefen-v186"]
+taskId: "LINUX-LINUX-FEHLERDIAGNOSE-V186-2"
+tags: ["linux", "praxis-und-betrieb", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Lernziel
 
 Du sollst **Linux-Fehlerdiagnose** nicht nur als Befehl oder Schlagwort sehen, sondern als geordnetes Linux-Thema mit Zweck, Kontext und typischen Prüfschritten.

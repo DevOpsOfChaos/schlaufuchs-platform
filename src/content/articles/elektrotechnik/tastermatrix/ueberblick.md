@@ -1,33 +1,19 @@
 ---
 title: "Tastermatrix"
 description: "Eine Tastermatrix ordnet mehrere Taster in Zeilen und Spalten an, um Pins zu sparen. Sie erfordert gezieltes Scannen und Schutz gegen Mehrdeutigkeiten."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik und Mikrocontroller"
-topicPath:
-  - "tastermatrix"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Tastermatrix."
-  - "Du kannst Tastermatrix in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["tastermatrix", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Mehrere gleichzeitige Tastendrücke ohne Ghosting-Betrachtung auszuwerten."
-keyTakeaways:
-  - "Eine Tastermatrix ordnet mehrere Taster in Zeilen und Spalten an, um Pins zu sparen."
-  - "Wichtig sind vor allem zeilen und spalten, scanning-verfahren und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Tastermatrix, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Tastermatrix dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "grundlagen"
-  - "tastermatrix"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik und Mikrocontroller"]
 draft: false
 ---
-
 # Tastermatrix
 
 Eine Tastermatrix ordnet mehrere Taster in Zeilen und Spalten an, um Pins zu sparen. Sie erfordert gezieltes Scannen und Schutz gegen Mehrdeutigkeiten. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

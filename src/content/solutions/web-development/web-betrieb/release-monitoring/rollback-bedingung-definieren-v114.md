@@ -1,23 +1,14 @@
 ---
-title: Lösung – Rollback-Bedingung definieren
-description: Musterlösung zur Aufgabe über Rollback-Bedingung definieren.
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- web-betrieb
-- release-monitoring
-- rollback-bedingung-definieren-v114
-taskId: v114-web-development-rollback-bedingung-definieren-v114
-relatedExercise: web-development/web-betrieb/release-monitoring/rollback-bedingung-definieren-v114
-tags:
-- web-development
-- v114
-- loesung
-- web-betrieb
-- release-monitoring
+title: "Lösung – Rollback-Bedingung definieren"
+description: "Musterlösung zur Aufgabe über Rollback-Bedingung definieren."
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["web-betrieb", "release-monitoring", "rollback-bedingung-definieren-v114"]
+taskId: "v114-web-development-rollback-bedingung-definieren-v114"
+relatedExercise: "web-development/web-betrieb/release-monitoring/rollback-bedingung-definieren-v114"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

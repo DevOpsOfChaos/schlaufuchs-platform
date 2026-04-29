@@ -3,23 +3,12 @@ title: "Lösung – Open-Drain-Ausgang nicht als normalen High-Treiber lesen"
 description: "Musterlösung zu Open Drain mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "digitale-eingaenge-und-ausgaenge"
-  - "pegel-und-entprellung"
-  - "open-drain"
-  - "open-drain-ausgang-nicht-als-normalen-high-treiber-lesen"
+topicPath: ["digitale-eingaenge-und-ausgaenge", "pegel-und-entprellung", "open-drain", "open-drain-ausgang-nicht-als-normalen-high-treiber-lesen"]
 taskId: "v111-elektrotechnik-open-drain-ausgang-nicht-als-normalen-high-treiber-lesen"
 relatedExercise: "elektrotechnik/digitale-eingaenge-und-ausgaenge/pegel-und-entprellung/open-drain/open-drain-ausgang-nicht-als-normalen-high-treiber-lesen"
-tags:
-  - "elektrotechnik"
-  - "praxis"
-  - "unterthema"
-  - "digitale-eingaenge-und-ausgaenge"
-  - "pegel-und-entprellung"
-  - "open-drain-ausgang-nicht-als-normalen-high-treiber-lesen"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Open Drain**.

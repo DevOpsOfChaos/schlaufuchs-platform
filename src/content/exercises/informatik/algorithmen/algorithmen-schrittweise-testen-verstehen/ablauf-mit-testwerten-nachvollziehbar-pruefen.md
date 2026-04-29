@@ -1,31 +1,17 @@
 ---
-title: Ablauf mit Testwerten nachvollziehbar prüfen
-description: Gehe einen kleinen Algorithmus mit Beispielwerten durch und begründe, an welcher Stelle welche Entscheidung fällt.
-subject: informatik
-section: Algorithmen
-topicPath:
-  - algorithmen
-  - probleme-in-teilprobleme-zerlegen
-  - algorithmen-schrittweise-testen-verstehen
-  - ablauf-mit-testwerten-nachvollziehbar-pruefen
-taskId: INF-ALG-TESTEN-001
-level: einfach
+title: "Ablauf mit Testwerten nachvollziehbar prüfen"
+description: "Gehe einen kleinen Algorithmus mit Beispielwerten durch und begründe, an welcher Stelle welche Entscheidung fällt."
+subject: "informatik"
+section: "Algorithmen"
+topicPath: ["algorithmen", "algorithmen-schrittweise-testen-verstehen", "ablauf-mit-testwerten-nachvollziehbar-pruefen"]
+taskId: "INF-ALG-TESTEN-001"
+tags: ["informatik", "Algorithmen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - algorithmus
-  - testlauf
-  - informatik
-hintPoints:
-  - Notiere nicht nur Start und Ende, sondern jeden wichtigen Zwischenschritt.
-  - Achte besonders auf Bedingungen wie >, < oder =.
-selfCheckPoints:
-  - Kannst du den Ablauf Schritt für Schritt notieren?
-  - Kannst du sagen, wo eine Entscheidung abzweigt?
-transferIdeas:
-  - Übertrage die Idee auf Schleifen, Suchabläufe oder Passwortprüfungen.
-reflectionPrompt: Warum reicht es bei Algorithmen oft nicht, nur das Endergebnis anzusehen?
 ---
-
 ## Aufgabe 1: Testlauf durchführen
 
 Gegeben ist der Ablauf:

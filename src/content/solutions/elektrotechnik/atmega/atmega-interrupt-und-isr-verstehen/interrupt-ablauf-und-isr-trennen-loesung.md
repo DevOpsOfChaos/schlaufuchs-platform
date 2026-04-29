@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Interrupt-Ablauf und ISR trennen
-description: Musterlösung zur Aufgabe ET-ATMEGA-INT-204.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - ereignisse-und-interrupts
-  - atmega-interrupt-und-isr-verstehen
-  - interrupt-ablauf-und-isr-trennen-loesung
-taskId: ET-ATMEGA-INT-204
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-interrupt-und-isr-verstehen/interrupt-ablauf-und-isr-trennen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – Interrupt-Ablauf und ISR trennen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-INT-204."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-interrupt-und-isr-verstehen", "interrupt-ablauf-und-isr-trennen"]
+taskId: "ET-ATMEGA-INT-204"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-interrupt-und-isr-verstehen/interrupt-ablauf-und-isr-trennen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

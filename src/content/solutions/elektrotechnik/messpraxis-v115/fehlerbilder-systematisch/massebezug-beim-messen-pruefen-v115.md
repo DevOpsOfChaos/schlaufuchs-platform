@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Massebezug beim Messen prüfen"
 description: "Musterlösung zu Massebezug beim Messen prüfen mit Trennkante und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "messpraxis-v115"
-  - "fehlerbilder-systematisch"
-  - "massebezug-beim-messen-pruefen-v115"
+topicPath: ["messpraxis-v115", "fehlerbilder-systematisch", "massebezug-beim-messen-pruefen-v115"]
 taskId: "elektrotechnik-massebezug-beim-messen-pruefen-v115"
 relatedExercise: "elektrotechnik/messpraxis-v115/fehlerbilder-systematisch/massebezug-beim-messen-pruefen-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "messpraxis"
-  - "fehlerbilder systematisch"
-  - "lösung"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Massebezug beim Messen prüfen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

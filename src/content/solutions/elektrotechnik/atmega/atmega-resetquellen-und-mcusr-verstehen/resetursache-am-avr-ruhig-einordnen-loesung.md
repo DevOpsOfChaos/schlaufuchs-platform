@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Resetursache am AVR ruhig einordnen
-description: Musterlösung zur Aufgabe ET-ATMEGA-SYS-302.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - systemstart-und-robustheit
-  - atmega-resetquellen-und-mcusr-verstehen
-  - resetursache-am-avr-ruhig-einordnen-loesung
-taskId: ET-ATMEGA-SYS-302
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-resetquellen-und-mcusr-verstehen/resetursache-am-avr-ruhig-einordnen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – Resetursache am AVR ruhig einordnen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-SYS-302."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-resetquellen-und-mcusr-verstehen", "resetursache-am-avr-ruhig-einordnen"]
+taskId: "ET-ATMEGA-SYS-302"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-resetquellen-und-mcusr-verstehen/resetursache-am-avr-ruhig-einordnen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

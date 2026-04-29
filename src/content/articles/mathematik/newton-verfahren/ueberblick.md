@@ -1,32 +1,17 @@
 ---
 title: "Newton-Verfahren"
 description: "Allgemeiner Überblick über ein iteratives Verfahren zur näherungsweisen Bestimmung von Nullstellen."
-subject: mathematik
+subject: "mathematik"
 section: "Numerik"
-topicPath:
-  - "newton-verfahren"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Newton-Verfahren als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Startwert, Tangente, Ableitung."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["newton-verfahren", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Das Newton-Verfahren als garantiert erfolgreich unabhängig vom Startwert zu betrachten."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Newton-Verfahren beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Näherungsweise Nullstellensuche."
-  - "Wichtige Hinweise liefern vor allem Startwert, Tangente, Ableitung."
-recognizeSignals:
-  - "Es geht um näherungsweise nullstellensuche, startwert oder tangente."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Newton-Verfahren erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "numerik"
-  - "nullstellen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Numerik"]
 draft: false
 ---
 # Newton-Verfahren

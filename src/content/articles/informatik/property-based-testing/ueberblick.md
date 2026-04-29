@@ -1,33 +1,19 @@
 ---
 title: "Property-Based Testing"
 description: "Property-Based Testing prüft allgemeine Eigenschaften eines Programms mit vielen automatisch erzeugten Beispielen. Es ergänzt klassische Beispieltests."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "property-based-testing"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Property-Based Testing."
-  - "Du kannst Property-Based Testing in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["property-based-testing", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Eigenschaften so allgemein zu formulieren, dass falsches Verhalten trotzdem durchkommt."
-keyTakeaways:
-  - "Property-Based Testing prüft allgemeine Eigenschaften eines Programms mit vielen automatisch erzeugten Beispielen."
-  - "Wichtig sind vor allem eigenschaften statt einzelner fälle, generatoren für eingaben und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Property-Based Testing, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Property-Based Testing dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "informatik"
-  - "grundlagen"
-  - "property based testing"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Property-Based Testing
 
 Property-Based Testing prüft allgemeine Eigenschaften eines Programms mit vielen automatisch erzeugten Beispielen. Es ergänzt klassische Beispieltests. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

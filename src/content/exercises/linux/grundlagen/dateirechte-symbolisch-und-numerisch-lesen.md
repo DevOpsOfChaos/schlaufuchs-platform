@@ -1,12 +1,17 @@
 ---
-title: Dateirechte symbolisch und numerisch lesen
-description: Diese Aufgabe vertieft das Lesen und Deuten von Linux-Dateirechten in symbolischer und numerischer Form.
-subject: linux
-section: Grundlagen
-level: mittel
+title: "Dateirechte symbolisch und numerisch lesen"
+description: "Diese Aufgabe vertieft das Lesen und Deuten von Linux-Dateirechten in symbolischer und numerischer Form."
+subject: "linux"
+section: "Grundlagen"
+topicPath: ["grundlagen", "dateirechte-symbolisch-und-numerisch-lesen"]
+taskId: "AUTO-DATEIRECHTE-SYMBOLISCH-UND-NUMERISCH-LESEN"
+tags: ["linux", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben so, dass immer klar ist, welche Rechte für Besitzer, Gruppe und andere gelten.

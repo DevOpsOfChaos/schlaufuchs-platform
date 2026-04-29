@@ -1,22 +1,14 @@
 ---
-title: Musterlösung – Relative und absolute Links passend unterscheiden
-description: Musterlösung zur Aufgabe WEB-HTML-CORE-104.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - url-aufbau-und-relative-links-verstehen
-  - relative-und-absolute-links-passend-unterscheiden-loesung
-taskId: WEB-HTML-CORE-104
-relatedExercise: src/content/exercises/web-development/html/url-aufbau-und-relative-links-verstehen/relative-und-absolute-links-passend-unterscheiden.md
-tags:
-  - web-development
-  - html
-  - loesung
-  - task-id
+title: "Musterlösung – Relative und absolute Links passend unterscheiden"
+description: "Musterlösung zur Aufgabe WEB-HTML-CORE-104."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "url-aufbau-und-relative-links-verstehen", "relative-und-absolute-links-passend-unterscheiden"]
+taskId: "WEB-HTML-CORE-104"
+relatedExercise: "src/content/exercises/web-development/html/url-aufbau-und-relative-links-verstehen/relative-und-absolute-links-passend-unterscheiden.md"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Linkart wählen
 
 - interne Projektdatei → eher relativ

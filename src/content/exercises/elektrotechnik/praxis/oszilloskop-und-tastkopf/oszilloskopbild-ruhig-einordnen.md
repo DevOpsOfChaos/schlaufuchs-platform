@@ -1,28 +1,17 @@
 ---
 title: "Oszilloskopbild ruhig einordnen"
 description: "Ordne Zeitbasis, Trigger und Kopplung als Messbedingungen ein."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - praxis
-  - oszilloskop-und-tastkopf
-taskId: ET-V181-016
-tags:
-  - elektrotechnik
-  - oszilloskop-und-tastkopf
-  - sanierung-v181
-hintPoints:
-  - "Lies zuerst den Normalzustand und dann den Fehlerfall."
-  - "Trenne elektrische Ebene, logische Bedeutung und praktische Prüfung."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["praxis", "oszilloskop-und-tastkopf", "oszilloskopbild-ruhig-einordnen"]
+taskId: "ET-V181-016"
+tags: ["elektrotechnik", "Praxis", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **Oszilloskop und Tastkopf** ruhig und schrittweise.

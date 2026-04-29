@@ -1,36 +1,19 @@
 ---
 title: "Erwartungswert"
 description: "Überblick über den Erwartungswert als langfristigen Durchschnittswert zufälliger Größen."
-subject: mathematik
+subject: "mathematik"
 section: "Wahrscheinlichkeit"
-topicPath:
-  - "erwartungswert"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Erwartungswert als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["erwartungswert", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Es wird oft erwartet, dass der Erwartungswert schon bei wenigen Versuchen ungefähr eintritt."
-keyTakeaways:
-  - "Der Erwartungswert ist ein langfristiger Durchschnitt."
-  - "Er wird mit Wahrscheinlichkeiten gewichtet."
-  - "Er ist nicht automatisch ein mögliches Ergebnis."
-recognizeSignals:
-  - "Zufällige Gewinne, Kosten oder Trefferzahlen sollen bewertet werden."
-  - "Ein Durchschnitt über viele Wiederholungen ist gefragt."
-selfCheckPoints:
-  - "Kann ich Erwartungswert in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "wahrscheinlichkeit"
-  - "erwartungswert"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Wahrscheinlichkeit"]
 draft: false
 ---
-
 # Erwartungswert
 
 ![Schaubild zum Erwartungswert.](/schlaufuchs-platform/images/overviews/v149/erwartungswert.svg)

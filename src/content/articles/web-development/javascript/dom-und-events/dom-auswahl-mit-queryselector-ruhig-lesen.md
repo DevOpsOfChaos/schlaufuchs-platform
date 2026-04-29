@@ -3,44 +3,17 @@ title: "JavaScript – DOM-Auswahl mit querySelector ruhig lesen"
 description: "Verstehe, wie JavaScript gezielt Elemente im Dokument findet, bevor Inhalte oder Klassen geändert werden."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "dom-und-events"
-  - "dom-auswahl-mit-queryselector-ruhig-lesen"
-learningGoals:
-  - "Du erklärst den Unterschied zwischen HTML-Struktur und DOM-Zugriff."
-  - "Du nutzt querySelector als gezielte Auswahl statt als magischen Suchbefehl."
-  - "Du prüfst, ob ein gefundenes Element wirklich existiert, bevor du es änderst."
-practiceIdeas:
-  - "Baue ein sehr kleines Beispiel mit genau einem sichtbaren Zustand."
-  - "Erkläre den Code zuerst in Alltagssprache und danach mit Fachbegriffen."
-  - "Prüfe bewusst den Fall, dass ein Element, Wert oder Netzwerkzugriff nicht wie erwartet vorhanden ist."
-commonMistakes:
-  - "Direkt Eigenschaften zu ändern, ohne null zu prüfen."
-  - "CSS-Selektoren in querySelector nur nach Gefühl zu schreiben."
-  - "Auswahl und Änderung in einem unlesbaren Ausdruck zu vermischen."
-keyTakeaways:
-  - "JavaScript im Browser verbindet Struktur, Ereignisse, Daten und Rückmeldung."
-  - "Robuste Lösungen behandeln nicht nur den Erfolgsfall."
-  - "Lesbarer Code trennt Auswahl, Entscheidung und Wirkung."
-recognizeSignals:
-  - "Es geht um Browserverhalten, Interaktion, Formularwerte, Datenladen oder gespeicherten Zustand."
-  - "Eine sichtbare Oberfläche soll durch JavaScript verständlicher oder interaktiver werden."
-  - "Der Code muss mit Fehlern, fehlenden Elementen oder leeren Werten umgehen."
-selfCheckPoints:
-  - "Kann ich sagen, welche Browseraufgabe der Code übernimmt?"
-  - "Ist die Rückmeldung für Nutzerinnen und Nutzer sichtbar?"
-  - "Bleibt die Lösung klein genug, um später erweitert zu werden?"
+topicPath: ["javascript", "dom-und-events", "dom-auswahl-mit-queryselector-ruhig-lesen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "web development"
-  - "javascript"
-  - "dom"
-  - "queryselector"
-  - "browser"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Verstehe, wie JavaScript gezielt Elemente im Dokument findet, bevor Inhalte oder Klassen geändert werden. Im Mittelpunkt steht nicht ein einzelner Trick, sondern eine ruhige Entscheidung: Was passiert im Browser, was sieht der Mensch und welche Stelle im Code ist dafür zuständig?

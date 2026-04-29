@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – Nullpointer und uninitialisierte Pointer ruhig bewerten
-description: Musterlösung zur Aufgabe INF-PROG-CPP-PTR-003.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - pointer-und-adressen
-  - nullpointer-und-uninitialisierte-pointer-unterscheiden
-  - nullpointer-und-uninitialisierte-pointer-ruhig-bewerten-loesung
-taskId: INF-PROG-CPP-PTR-003
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/nullpointer-und-uninitialisierte-pointer-unterscheiden/nullpointer-und-uninitialisierte-pointer-ruhig-bewerten.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – Nullpointer und uninitialisierte Pointer ruhig bewerten"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-PTR-003."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "nullpointer-und-uninitialisierte-pointer-unterscheiden", "nullpointer-und-uninitialisierte-pointer-ruhig-bewerten"]
+taskId: "INF-PROG-CPP-PTR-003"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/nullpointer-und-uninitialisierte-pointer-unterscheiden/nullpointer-und-uninitialisierte-pointer-ruhig-bewerten.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Mini-Beispiel lesen
 
 - Bei <code>a</code> ist der Startzustand bewusst gesetzt: Der Pointer zeigt aktuell auf kein Objekt.

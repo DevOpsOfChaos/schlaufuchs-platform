@@ -1,17 +1,19 @@
 ---
-title: Pipes und Umleitungen
-description: Pipes und Umleitungen helfen dabei, Befehle in der Shell zu verketten und Ein- oder Ausgaben gezielt weiterzuleiten.
-subject: linux
-section: Shell-Werkzeuge
-level: mittel
-tags:
-  - Pipe
-  - Umleitung
-  - Shell
-  - Terminal
+title: "Pipes und Umleitungen"
+description: "Pipes und Umleitungen helfen dabei, Befehle in der Shell zu verketten und Ein- oder Ausgaben gezielt weiterzuleiten."
+subject: "linux"
+section: "Shell-Werkzeuge"
+topicPath: ["pipes-und-umleitungen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["linux", "Shell-Werkzeuge"]
 draft: false
 ---
-
 ## Überblick
 
 In der Shell arbeitet man selten mit nur einem einzelnen Befehl. Häufig soll die Ausgabe eines Befehls gespeichert, gefiltert oder direkt an den nächsten Befehl weitergegeben werden. Genau dafür sind Umleitungen und Pipes gedacht.

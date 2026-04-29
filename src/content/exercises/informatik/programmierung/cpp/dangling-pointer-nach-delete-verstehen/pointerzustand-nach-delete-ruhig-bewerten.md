@@ -1,35 +1,17 @@
 ---
-title: Pointerzustand nach delete ruhig bewerten
-description: Bewerte in kleinen Beispielen, was nach einer Speicherfreigabe noch vom Pointer übrig bleibt und welche Folgezeile problematisch wird.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - dynamischer-speicher
-  - dangling-pointer-nach-delete-verstehen
-  - pointerzustand-nach-delete-ruhig-bewerten
-taskId: INF-PROG-CPP-MEM-003
-level: mittel
+title: "Pointerzustand nach delete ruhig bewerten"
+description: "Bewerte in kleinen Beispielen, was nach einer Speicherfreigabe noch vom Pointer übrig bleibt und welche Folgezeile problematisch wird."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "dangling-pointer-nach-delete-verstehen", "pointerzustand-nach-delete-ruhig-bewerten"]
+taskId: "INF-PROG-CPP-MEM-003"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - aufgabe
-hintPoints:
-  - "Trenne die Existenz der Variable vom Zustand ihres früheren Ziels."
-  - "Frage nach delete immer neu: Was ist noch da, was ist nicht mehr sicher?"
-  - "Suche die erste problematische Folgezeile."
-selfCheckPoints:
-  - "Habe ich sauber zwischen Pointername und Zielgültigkeit unterschieden?"
-  - "Habe ich den riskanten Folgezugriff benannt?"
-  - "Habe ich das Thema noch nicht mit p = nullptr vermischt?"
-transferIdeas:
-  - "Prüfe auch andere Beispiele darauf, ob ein späterer Zugriff nach delete kritisch wäre."
-reflectionPrompt: "Warum fühlt sich ein noch vorhandener Pointername leicht fälschlich sicher an?"
 ---
-
 ## Aufgabe 1: Drei Aussagen sortieren
 
 Gegeben ist:

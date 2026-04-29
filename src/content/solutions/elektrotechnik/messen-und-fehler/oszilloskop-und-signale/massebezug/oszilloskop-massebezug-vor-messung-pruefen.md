@@ -3,23 +3,12 @@ title: "Lösung – Oszilloskop-Massebezug vor Messung prüfen"
 description: "Musterlösung zu Massebezug mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "messen-und-fehler"
-  - "oszilloskop-und-signale"
-  - "massebezug"
-  - "oszilloskop-massebezug-vor-messung-pruefen"
+topicPath: ["messen-und-fehler", "oszilloskop-und-signale", "massebezug", "oszilloskop-massebezug-vor-messung-pruefen"]
 taskId: "v111-elektrotechnik-oszilloskop-massebezug-vor-messung-pruefen"
 relatedExercise: "elektrotechnik/messen-und-fehler/oszilloskop-und-signale/massebezug/oszilloskop-massebezug-vor-messung-pruefen"
-tags:
-  - "elektrotechnik"
-  - "praxis"
-  - "unterthema"
-  - "messen-und-fehler"
-  - "oszilloskop-und-signale"
-  - "oszilloskop-massebezug-vor-messung-pruefen"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Massebezug**.

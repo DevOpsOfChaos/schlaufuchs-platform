@@ -1,12 +1,17 @@
 ---
-title: CPU-Grundlagen zuordnen
-description: Diese neu formulierte Bestandsaufgabe ordnet zentrale CPU-Begriffe ruhig und verständlich einer klassischen Einstiegsperspektive zu.
-subject: elektrotechnik
-section: Computer und CPU
-level: einfach
+title: "CPU-Grundlagen zuordnen"
+description: "Diese neu formulierte Bestandsaufgabe ordnet zentrale CPU-Begriffe ruhig und verständlich einer klassischen Einstiegsperspektive zu."
+subject: "elektrotechnik"
+section: "Computer und CPU"
+topicPath: ["cpu-grundlagen-zuordnen"]
+taskId: "AUTO-CPU-GRUNDLAGEN-ZUORDNEN"
+tags: ["elektrotechnik", "Computer und CPU", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgabe mit Fokus auf Grundverständnis. Es geht nicht um Spezialarchitekturen, sondern um die saubere Einordnung zentraler CPU-Begriffe.

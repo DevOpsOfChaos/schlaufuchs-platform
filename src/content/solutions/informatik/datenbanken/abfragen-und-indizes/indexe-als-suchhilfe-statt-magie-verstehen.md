@@ -3,23 +3,12 @@ title: "Lösung – Indexe als Suchhilfe statt Magie verstehen"
 description: "Musterlösung zur Aufgabe über Datenbankindex mit Begründung und Gegenprobe."
 subject: "informatik"
 section: "Datenbanken"
-topicPath:
-  - "datenbanken"
-  - "abfragen-und-indizes"
-  - "indexe-als-suchhilfe-statt-magie-verstehen"
+topicPath: ["datenbanken", "abfragen-und-indizes", "indexe-als-suchhilfe-statt-magie-verstehen"]
 taskId: "v106-informatik-indexe-als-suchhilfe-statt-magie-verstehen"
 relatedExercise: "informatik/datenbanken/abfragen-und-indizes/indexe-als-suchhilfe-statt-magie-verstehen"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "daten"
-  - "algorithmen"
-  - "datenbankindex"
-  - "datenbanken"
-  - "abfragen-und-indizes"
+tags: ["informatik", "Datenbanken", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Beobachtung

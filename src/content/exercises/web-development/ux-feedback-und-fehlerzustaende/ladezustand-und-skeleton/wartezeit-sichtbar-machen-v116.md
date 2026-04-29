@@ -3,34 +3,15 @@ title: "Übung: Wartezeit sichtbar machen"
 description: "Übe, „Wartezeit sichtbar machen“ als kleines Unterthema zu erkennen, zu begründen und mit einer Gegenprobe abzusichern."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "ux-feedback-und-fehlerzustaende"
-  - "ladezustand-und-skeleton"
-  - "wartezeit-sichtbar-machen-v116"
+topicPath: ["ux-feedback-und-fehlerzustaende", "ladezustand-und-skeleton", "wartezeit-sichtbar-machen-v116"]
 taskId: "wartezeit-sichtbar-machen-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "ladezustand und skeleton"
-  - "wartezeit sichtbar machen"
-  - "v116"
-hintPoints:
-  - "Lies zuerst nur die konkrete Unterfrage."
-  - "Markiere eine typische Fehlannahme."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Lösung fachlich begründet?"
-  - "Ist die Abgrenzung zum Nachbarthema sichtbar?"
-  - "Passt die Gegenprobe zur Aufgabe?"
-transferIdeas:
-  - "Ändere eine Bedingung und prüfe, ob deine Begründung noch trägt."
-  - "Erkläre die Lösung einmal ohne Fachwörter und danach fachlich sauber."
-reflectionPrompt: "Welche kleine Entscheidung war bei „Wartezeit sichtbar machen“ am wichtigsten?"
+tags: ["web-development", "Web Development vertiefen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe 1: Unterfrage erkennen
 
 Lies die Situation:

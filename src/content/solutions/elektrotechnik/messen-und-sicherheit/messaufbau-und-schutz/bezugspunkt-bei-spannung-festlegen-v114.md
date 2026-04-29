@@ -1,23 +1,14 @@
 ---
-title: Lösung – Bezugspunkt bei Spannung festlegen
-description: Musterlösung zur Aufgabe über Bezugspunkt bei Spannung festlegen.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- messen-und-sicherheit
-- messaufbau-und-schutz
-- bezugspunkt-bei-spannung-festlegen-v114
-taskId: v114-elektrotechnik-bezugspunkt-bei-spannung-festlegen-v114
-relatedExercise: elektrotechnik/messen-und-sicherheit/messaufbau-und-schutz/bezugspunkt-bei-spannung-festlegen-v114
-tags:
-- elektrotechnik
-- v114
-- loesung
-- messen-und-sicherheit
-- messaufbau-und-schutz
+title: "Lösung – Bezugspunkt bei Spannung festlegen"
+description: "Musterlösung zur Aufgabe über Bezugspunkt bei Spannung festlegen."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["messen-und-sicherheit", "messaufbau-und-schutz", "bezugspunkt-bei-spannung-festlegen-v114"]
+taskId: "v114-elektrotechnik-bezugspunkt-bei-spannung-festlegen-v114"
+relatedExercise: "elektrotechnik/messen-und-sicherheit/messaufbau-und-schutz/bezugspunkt-bei-spannung-festlegen-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

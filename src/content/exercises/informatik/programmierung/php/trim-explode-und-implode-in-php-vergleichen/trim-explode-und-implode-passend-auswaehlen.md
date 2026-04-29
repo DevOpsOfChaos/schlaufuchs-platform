@@ -1,32 +1,17 @@
 ---
-title: trim, explode und implode passend auswählen
-description: Wähle für verschiedene Stringaufgaben die passende Grundfunktion aus und begründe die Richtung.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - trim-explode-und-implode-in-php-vergleichen
-  - trim-explode-und-implode-passend-auswaehlen
-taskId: INF-PHP-STRING-002
-level: einfach
+title: "trim, explode und implode passend auswählen"
+description: "Wähle für verschiedene Stringaufgaben die passende Grundfunktion aus und begründe die Richtung."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "trim-explode-und-implode-in-php-vergleichen", "trim-explode-und-implode-passend-auswaehlen"]
+taskId: "INF-PHP-STRING-002"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - informatik
-  - aufgabe
-  - php
-hintPoints:
-  - "Frage zuerst: String oder Array?"
-  - "Denke die Richtung der Funktion mit."
-selfCheckPoints:
-  - "Habe ich die zentrale Unterscheidung der Aufgabe sauber benannt?"
-  - "Habe ich meinen Ablauf oder Vergleich nachvollziehbar begründet?"
-transferIdeas:
-  - "Übertrage die Denkweise auf einen ähnlichen kleinen PHP-Ausschnitt."
-  - "Formuliere die Logik zusätzlich in einem eigenen Mini-Beispiel."
-reflectionPrompt: "Welche fachliche Trennung war hier am wichtigsten?"
 ---
-
 ## Aufgabe 1: Funktion auswählen
 
 Welche Funktion passt eher?

@@ -3,32 +3,17 @@ title: "Wahrscheinlichkeitsbaum"
 description: "Allgemeiner Überblick über wahrscheinlichkeitsbaum und die wichtigsten Zusammenhänge."
 subject: "mathematik"
 section: "Wahrscheinlichkeit"
-topicPath:
-  - "wahrscheinlichkeitsbaum"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["wahrscheinlichkeitsbaum", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Pfade addiert, obwohl innerhalb eines Pfades multipliziert werden muss."
-keyTakeaways:
-  - "Der Wahrscheinlichkeitsbaum macht mehrstufige Zufallsvorgänge prüfbar."
-  - "Ein Baumdiagramm ist nicht nur Zeichnung, sondern legt Bedingungen und Stufen offen."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "mathematik"
-  - "wahrscheinlichkeit"
-  - "baumdiagramm"
-  - "zufall"
+tags: ["mathematik", "Wahrscheinlichkeit"]
 draft: false
 ---
-
 # Wahrscheinlichkeitsbaum
 
 Ein Wahrscheinlichkeitsbaum stellt mehrstufige Zufallsvorgänge als verzweigte Struktur dar.

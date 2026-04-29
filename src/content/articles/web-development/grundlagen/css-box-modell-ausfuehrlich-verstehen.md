@@ -1,17 +1,19 @@
 ---
-title: CSS-Box-Modell ausführlich verstehen
-description: Das CSS-Box-Modell beschreibt, wie Elemente Platz einnehmen und warum content, padding, border und margin für das Layout so wichtig sind.
-subject: web-development
-section: Grundlagen
-level: mittel
-tags:
-  - CSS
-  - Box-Modell
-  - Padding
-  - Margin
+title: "CSS-Box-Modell ausführlich verstehen"
+description: "Das CSS-Box-Modell beschreibt, wie Elemente Platz einnehmen und warum content, padding, border und margin für das Layout so wichtig sind."
+subject: "web-development"
+section: "Grundlagen"
+topicPath: ["grundlagen", "css-box-modell-ausfuehrlich-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 Viele Layoutprobleme im Web entstehen nicht durch komplizierte Technik, sondern durch ein unsauberes Verständnis davon, wie HTML-Elemente überhaupt Raum einnehmen. Genau hier setzt das CSS-Box-Modell an. Es beschreibt, aus welchen Bereichen ein Element besteht und wie daraus die sichtbare Größe und der Abstand zu anderen Elementen entsteht.

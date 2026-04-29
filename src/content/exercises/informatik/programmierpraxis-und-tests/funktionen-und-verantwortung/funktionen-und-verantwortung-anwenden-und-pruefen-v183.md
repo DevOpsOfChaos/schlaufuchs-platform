@@ -1,27 +1,17 @@
 ---
 title: "Funktionen und Verantwortung anwenden und prüfen"
 description: "Übe Funktionen und Verantwortung mit Begriffen, Beispielen und typischen Prüfungen."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "funktionen-und-verantwortung"
-taskId: INF-V183-13-B
-tags:
-  - "informatik"
-  - "funktionen-und-verantwortung"
-hintPoints:
-  - "Beginne mit der allgemeinen Idee."
-  - "Trenne Begriff, Beispiel und Fehlerquelle."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe sauber unterscheiden."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel aus einem anderen Informatikthema."
-reflectionPrompt: "Welche Unterscheidung war hier am wichtigsten?"
-level: mittel
+topicPath: ["programmierpraxis-und-tests", "funktionen-und-verantwortung", "funktionen-und-verantwortung-anwenden-und-pruefen-v183"]
+taskId: "INF-V183-13-B"
+tags: ["informatik", "Programmierpraxis und Tests", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Funktionen und Verantwortung**.
 
 ## Aufgabe 1 – Begriffe klären

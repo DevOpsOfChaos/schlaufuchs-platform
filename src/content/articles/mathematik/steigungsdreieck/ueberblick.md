@@ -3,32 +3,17 @@ title: "Steigungsdreieck"
 description: "Allgemeiner Überblick über steigungsdreieck und die wichtigsten Zusammenhänge."
 subject: "mathematik"
 section: "Lineare Funktionen"
-topicPath:
-  - "steigungsdreieck"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["steigungsdreieck", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Zähler und Nenner vertauscht oder Achseneinheiten ignoriert."
-keyTakeaways:
-  - "Das Steigungsdreieck macht lineare Änderung anschaulich."
-  - "Das Steigungsdreieck ist nicht nur Zeichnungshilfe, sondern erklärt die Bedeutung der Steigung."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "mathematik"
-  - "lineare funktionen"
-  - "steigung"
-  - "graph"
+tags: ["mathematik", "Lineare Funktionen"]
 draft: false
 ---
-
 # Steigungsdreieck
 
 Das Steigungsdreieck macht die Steigung einer Geraden als Verhältnis von Höhenänderung zu waagerechter Änderung sichtbar.

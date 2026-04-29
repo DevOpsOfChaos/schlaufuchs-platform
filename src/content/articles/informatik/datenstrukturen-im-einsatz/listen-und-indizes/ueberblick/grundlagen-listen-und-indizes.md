@@ -1,35 +1,19 @@
 ---
 title: "Grundlagen: Listen und Indizes"
 description: "Listen ordnen Werte, Indizes greifen auf Positionen zu und brauchen klare Grenzen."
-subject: informatik
+subject: "informatik"
 section: "Datenstrukturen im Einsatz"
-topicPath:
-  - "datenstrukturen-im-einsatz"
-  - "listen-und-indizes"
-  - "ueberblick"
-learningGoals:
-  - "Du ordnest Listen und Indizes fachlich ein."
-  - "Du unterscheidest zentrale Begriffe und typische Rollen."
-  - "Du erkennst häufige Fehler beim Anwenden."
-practiceIdeas:
-  - "Formuliere die Grundidee in zwei Sätzen."
-  - "Ordne ein Beispiel den wichtigsten Begriffen zu."
-commonMistakes:
-  - "Index und Anzahl zu verwechseln und dadurch Off-by-one-Fehler zu erzeugen."
-keyTakeaways:
-  - "Listen ordnen Werte, Indizes greifen auf Positionen zu und brauchen klare Grenzen."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung vor einer Einzelfalllösung."
-selfCheckPoints:
-  - "Kann ich die Grundbegriffe voneinander unterscheiden?"
-level: einfach
-tags:
-  - "informatik"
-  - "datenstrukturen-im-einsatz"
-  - "listen-und-indizes"
+topicPath: ["datenstrukturen-im-einsatz", "listen-und-indizes", "ueberblick", "grundlagen-listen-und-indizes"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Datenstrukturen im Einsatz"]
 draft: false
 ---
-
 ![Schaubild zu Listen und Indizes](/schlaufuchs-platform/images/overviews/v183/informatik-listen-und-indizes.svg)
 
 ## Begriff

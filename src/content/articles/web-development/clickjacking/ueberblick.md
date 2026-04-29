@@ -1,36 +1,19 @@
 ---
 title: "Clickjacking"
 description: "Clickjacking beschreibt Angriffe, bei denen Nutzer auf sichtbare Elemente klicken, tatsächlich aber eine andere eingebettete Seite bedienen."
-subject: web-development
+subject: "web-development"
 section: "Sicherheit"
-topicPath:
-  - "clickjacking"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Clickjacking als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["clickjacking", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird nur auf Login-Sicherheit geachtet, während schützenswerte Aktionen weiterhin eingebettet werden können."
-keyTakeaways:
-  - "Clickjacking beschreibt Angriffe, bei denen Nutzer auf sichtbare Elemente klicken, tatsächlich aber eine andere eingebettete Seite bedienen."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Clickjacking, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Clickjacking in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "web"
-  - "sicherheit"
-  - "browser"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Sicherheit"]
 draft: false
 ---
-
 # Clickjacking
 
 Clickjacking beschreibt Angriffe, bei denen Nutzer auf sichtbare Elemente klicken, tatsächlich

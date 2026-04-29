@@ -3,32 +3,17 @@ title: "Hintergrundprozesse und Jobs"
 description: "Allgemeiner Überblick über Hintergrundprozesse, Jobs und einfache Prozesssteuerung in der Shell."
 subject: "linux"
 section: "Prozesse"
-topicPath:
-  - "hintergrundprozesse-und-jobs"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["hintergrundprozesse-und-jobs", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird angenommen, ein Hintergrundprozess überlebe immer das Schließen des Terminals. Ohne passende Entkopplung kann er beendet werden."
-keyTakeaways:
-  - "Hintergrundprozesse machen die Shell flexibler. Für dauerhafte Aufgaben sind jedoch Dienste, Timer oder entkoppelte Prozesse besser geeignet."
-  - "Ein Hintergrundjob ist nicht automatisch ein Dienst. Er hängt oft noch an der Sitzung, Umgebung und Ausgabe des aktuellen Terminals."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "linux"
-  - "shell"
-  - "prozesse"
-  - "jobs"
+tags: ["linux", "Prozesse"]
 draft: false
 ---
-
 # Hintergrundprozesse und Jobs
 
 Ein Hintergrundprozess läuft weiter, während die Shell wieder Eingaben annimmt. Jobs sind Prozesse, die von der aktuellen Shell verwaltet und in den Vorder- oder Hintergrund geschaltet werden können.

@@ -1,15 +1,14 @@
 ---
-title: Durchschnittliche Änderung – Lösung B
-description: Musterlösung zu Durchschnittliche Änderung mit Kontrolle.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Durchschnittliche Änderung – Lösung B"
+description: "Musterlösung zu Durchschnittliche Änderung mit Kontrolle."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "analysis-vorbereitung", "durchschnittliche-aenderung"]
 taskId: "mat-v196-durchschnittliche-aenderung-b"
 relatedExercise: "mathematik/sanierung-v196/durchschnittliche-aenderung-aufgabe-b"
 tags: ["mathematik", "v196", "analysis-vorbereitung", "durchschnittliche-aenderung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine passende Lösung zu dieser Aufgabe muss nicht exakt dieselben Zahlen oder Beispiele verwenden. Entscheidend ist der saubere Aufbau.

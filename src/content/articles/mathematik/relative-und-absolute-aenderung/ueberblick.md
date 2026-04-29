@@ -1,33 +1,17 @@
 ---
 title: "Relative und absolute Änderung"
 description: "Überblick über den Unterschied zwischen absoluter Differenz und relativer Veränderung."
-subject: mathematik
+subject: "mathematik"
 section: "Grundlagen"
-topicPath:
-  - "relative-und-absolute-aenderung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Relative und absolute Änderung als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["relative-und-absolute-aenderung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Eine Änderung um 10 kann groß oder klein sein. Ohne Bezugswert sagt die absolute Differenz wenig über die relative Bedeutung aus."
-keyTakeaways:
-  - "Absolute Änderung misst eine Differenz in Einheiten. Relative Änderung setzt diese Differenz ins Verhältnis zu einem Bezugswert."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um relative und absolute änderung, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich relative und absolute änderung in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "relative absolute änderung"
-  - "überblick"
-  - "ausgangswert"
-  - "differenz"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Grundlagen"]
 draft: false
 ---
 # Relative und absolute Änderung

@@ -1,29 +1,17 @@
 ---
 title: "Eingabe, Verarbeitung und Ausgabe – Ruhig einordnen"
 description: "Übe, Eingabe, Verarbeitung und Ausgabe fachlich einzuordnen."
-subject: informatik
+subject: "informatik"
 section: "programmablauf-und-steuerung"
-topicPath:
-  - "programmablauf-und-steuerung"
-  - "eingabe-verarbeitung-ausgabe"
-taskId: INF-EINGABE-VERARBEITUNG-AUSGABE-841
-tags:
-  - "informatik"
-  - "datenfluss"
-  - "programmablauf"
-hintPoints:
-  - "Beginne mit der allgemeinen Rolle des Themas."
-  - "Trenne Begriff, Beispiel und Sonderfall sauber."
-selfCheckPoints:
-  - "Ich kann meine Zuordnung begründen."
-  - "Ich vermeide eine reine Einzelfallantwort."
-transferIdeas:
-  - "Übertrage die Idee auf ein anderes kleines Informatikbeispiel."
-reflectionPrompt: "Welche Annahme musste ich bewusst prüfen?"
-level: einfach
+topicPath: ["programmablauf-und-steuerung", "eingabe-verarbeitung-ausgabe", "eingabe-verarbeitung-ausgabe-ruhig-einordnen-v184"]
+taskId: "INF-EINGABE-VERARBEITUNG-AUSGABE-841"
+tags: ["informatik", "programmablauf-und-steuerung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Eingabe, Verarbeitung und Ausgabe**. Sie soll nicht nur eine einzelne Situation lösen, sondern das Thema fachlich einordnen.
 
 ## Lernziel

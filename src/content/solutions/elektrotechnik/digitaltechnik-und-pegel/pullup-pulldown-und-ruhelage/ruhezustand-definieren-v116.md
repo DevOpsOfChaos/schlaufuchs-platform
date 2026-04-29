@@ -3,22 +3,12 @@ title: "Lösung: Ruhezustand definieren"
 description: "Musterlösung zur Aufgabe „Ruhezustand definieren“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "digitaltechnik-und-pegel"
-  - "pullup-pulldown-und-ruhelage"
-  - "ruhezustand-definieren-v116"
+topicPath: ["digitaltechnik-und-pegel", "pullup-pulldown-und-ruhelage", "ruhezustand-definieren-v116"]
 taskId: "ruhezustand-definieren-v116"
 relatedExercise: "elektrotechnik/digitaltechnik-und-pegel/pullup-pulldown-und-ruhelage/ruhezustand-definieren-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "pull up pull down und ruhelage"
-  - "ruhezustand definieren"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

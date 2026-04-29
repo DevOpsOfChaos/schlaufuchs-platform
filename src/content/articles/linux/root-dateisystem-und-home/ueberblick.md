@@ -1,37 +1,19 @@
 ---
 title: "Root-Dateisystem und Home-Verzeichnisse"
 description: "Überblick über `/`, Systembereiche und persönliche Daten unter `/home`."
-subject: linux
+subject: "linux"
 section: "Dateisystem"
-topicPath:
-  - "root-dateisystem-und-home"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Root-Dateisystem und Home-Verzeichnisse als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["root-dateisystem-und-home", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur `/home` zu sichern und wichtige Dienst- oder Konfigurationsdaten unter `/etc` und `/var` zu übersehen."
-keyTakeaways:
-  - "Der Linux-Verzeichnisbaum beginnt bei `/`."
-  - "`/home` ist wichtig, aber nicht der einzige Datenort."
-  - "System- und Nutzerdaten haben unterschiedliche Wartungsanforderungen."
-recognizeSignals:
-  - "Partitionierung, Backup oder Neuinstallation wird geplant."
-  - "Pfade beginnen mit `/` oder verweisen auf Benutzerverzeichnisse."
-selfCheckPoints:
-  - "Kann ich Root-Dateisystem und Home-Verzeichnisse in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "dateisystem"
-  - "home"
-  - "backup"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dateisystem"]
 draft: false
 ---
-
 # Root-Dateisystem und Home-Verzeichnisse
 
 Das Root-Dateisystem beginnt bei `/` und bildet die Wurzel des gesamten Verzeichnisbaums. Home-Verzeichnisse enthalten nutzerspezifische Daten und Konfiguration.

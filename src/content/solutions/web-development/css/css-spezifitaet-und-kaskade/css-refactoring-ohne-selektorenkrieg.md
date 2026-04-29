@@ -3,22 +3,12 @@ title: "Lösung – Refactoring ohne Selektorenkrieg"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Development-Aufgabe."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "css-spezifitaet-und-kaskade"
-  - "css-refactoring-ohne-selektorenkrieg"
-tags:
-  - "web development"
-  - "css"
-  - "refactoring"
-  - "kaskade"
-  - "wartbarkeit"
-  - "lösung"
+topicPath: ["css", "css-spezifitaet-und-kaskade", "css-refactoring-ohne-selektorenkrieg"]
 taskId: "web-v104-css-refactoring-ohne-selektorenkrieg"
 relatedExercise: "web-development/css/css-spezifitaet-und-kaskade/css-refactoring-ohne-selektorenkrieg"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Eine gute Lösung beginnt mit der Nutzer-Situation. Das Problem ist nicht nur technisch, sondern zeigt sich daran, dass eine Person nicht sicher erkennt, was gerade passiert oder wie sie weitermachen kann.

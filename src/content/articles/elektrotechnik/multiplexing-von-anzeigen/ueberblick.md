@@ -1,33 +1,19 @@
 ---
 title: "Multiplexing von Anzeigen"
 description: "Beim Multiplexing von Anzeigen werden Segmente oder Stellen zeitlich nacheinander angesteuert. Das Auge nimmt sie bei ausreichender Wiederholrate als dauerhaft sichtbar wahr."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik und Mikrocontroller"
-topicPath:
-  - "multiplexing-von-anzeigen"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Multiplexing von Anzeigen."
-  - "Du kannst Multiplexing von Anzeigen in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["multiplexing-von-anzeigen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Den Momentanstrom einer Stelle mit dem mittleren Strom zu verwechseln."
-keyTakeaways:
-  - "Beim Multiplexing von Anzeigen werden Segmente oder Stellen zeitlich nacheinander angesteuert."
-  - "Wichtig sind vor allem zeitmultiplex, stromspitzen und mittlere helligkeit und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Multiplexing von Anzeigen, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Multiplexing von Anzeigen dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "grundlagen"
-  - "multiplexing von anzeigen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik und Mikrocontroller"]
 draft: false
 ---
-
 # Multiplexing von Anzeigen
 
 Beim Multiplexing von Anzeigen werden Segmente oder Stellen zeitlich nacheinander angesteuert. Das Auge nimmt sie bei ausreichender Wiederholrate als dauerhaft sichtbar wahr. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Versionskontrolle und Änderungsgeschichte"
 description: "Allgemeiner Überblick über versionskontrolle und änderungsgeschichte in der Informatik."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "versionskontrolle-und-aenderungsgeschichte"
-  - "ueberblick"
-learningGoals:
-  - "Du erklärst, wie Änderungen nachvollziehbar, vergleichbar und rücknehmbar bleiben."
-  - "Du ordnest typische Beispiele und Grenzen des Themas ein."
-  - "Du unterscheidest Grundidee, Anwendung und häufige Fehler."
-practiceIdeas:
-  - "Formuliere die Grundidee in drei Sätzen ohne Spezialfall."
-  - "Ordne ein eigenes Beispiel dem passenden Teilaspekt zu."
-commonMistakes:
-  - "Commit als Backup missbrauchen"
-  - "große unklare Änderungen bündeln"
-  - "Konflikte blind lösen"
-keyTakeaways:
-  - "Versionskontrolle und Änderungsgeschichte braucht zuerst eine klare begriffliche Einordnung."
-  - "Beispiele helfen nur, wenn ihr Kontext bekannt ist."
-  - "Gute Informatikarbeit trennt Modell, Umsetzung und Prüfung."
-recognizeSignals:
-  - "Ein Thema wirkt wie ein Einzelfall, braucht aber zuerst einen allgemeinen Rahmen."
-  - "Mehrere Beispiele zeigen dieselbe Grundidee aus verschiedenen Blickwinkeln."
-selfCheckPoints:
-  - "Kann ich Grundidee und Beispiel unterscheiden?"
-  - "Kann ich typische Fehler nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "programmierpraxis-und-tests"
-  - "versionskontrolle-und-aenderungsgeschichte"
+topicPath: ["programmierpraxis-und-tests", "versionskontrolle-und-aenderungsgeschichte", "ueberblick", "grundlagen-versionskontrolle-und-aenderungsgeschichte"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierpraxis und Tests"]
 draft: false
 ---
-
 ![Schaubild: Versionskontrolle und Änderungsgeschichte](/schlaufuchs-platform/images/overviews/v185/versionskontrolle-und-aenderungsgeschichte.svg)
 
 ## Begriff

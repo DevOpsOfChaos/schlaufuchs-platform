@@ -1,47 +1,19 @@
 ---
-title: Strukturen in C++ verstehen
-description: Verstehe, warum struct mehrere zusammengehörige Werte zu einer logischen Einheit bündelt.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - strukturen
-  - strukturen-in-cpp-verstehen
-learningGoals:
-  - Du erklärst, warum eine Struktur mehrere Daten zu einer Einheit bündelt.
-  - Du unterscheidest Komponenten einer Struktur von einzelnen losen Variablen.
-  - Du liest struct eher als Modell für zusammengehörige Informationen.
-practiceIdeas:
-  - Überlege, welche Daten zu einem Punkt, Schüler oder Artikel zusammengehören.
-  - Vergleiche eine Gruppe einzelner Variablen mit einer logischen Struktur.
-  - Lies kleine struct-Beispiele zuerst nur nach ihren Komponenten.
-commonMistakes:
-  - struct nur als ungewohnte Schreibweise statt als Modell zu sehen.
-  - Zusammengehörige Daten weiter als lose Einzelvariablen zu denken.
-  - Komponenten und Strukturtyp durcheinanderzubringen.
-keyTakeaways:
-  - Eine Struktur fasst mehrere zusammengehörige Daten zusammen.
-  - Die Komponenten dürfen unterschiedliche Datentypen haben.
-  - struct macht Modelle im Code lesbarer.
-recognizeSignals:
-  - Es geht um Punkte, Personen, Datensätze oder zusammengehörige Werte.
-  - Du sollst erklären, warum mehrere Angaben in einer Einheit gespeichert werden.
-  - In Beispielen tauchen Komponenten wie x, y oder name gemeinsam auf.
-selfCheckPoints:
-  - Kann ich erklären, warum eine Struktur sinnvoll ist?
-  - Kann ich Strukturtyp und Komponenten trennen?
-  - Kann ich ein einfaches Alltagsbeispiel als Struktur beschreiben?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - struct
-  - datentypen
+title: "Strukturen in C++ verstehen"
+description: "Verstehe, warum struct mehrere zusammengehörige Werte zu einer logischen Einheit bündelt."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "strukturen-in-cpp-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Mit einer Struktur kannst du mehrere zusammengehörige Werte als logische Einheit behandeln. Statt einzelne Variablen lose nebeneinander zu notieren, bekommt das Ganze einen gemeinsamen Typ.

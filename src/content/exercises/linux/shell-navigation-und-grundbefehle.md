@@ -1,12 +1,17 @@
 ---
-title: Shell-Navigation und Grundbefehle
-description: Diese neu formulierte Bestandsaufgabe greift klassische Shell-Grundlagen auf und verbindet Orientierung, Dateiliste und Verzeichniswechsel.
-subject: linux
-section: Shell und Prompt
-level: einfach
+title: "Shell-Navigation und Grundbefehle"
+description: "Diese neu formulierte Bestandsaufgabe greift klassische Shell-Grundlagen auf und verbindet Orientierung, Dateiliste und Verzeichniswechsel."
+subject: "linux"
+section: "Shell und Prompt"
+topicPath: ["shell-navigation-und-grundbefehle"]
+taskId: "AUTO-SHELL-NAVIGATION-UND-GRUNDBEFEHLE"
+tags: ["linux", "Shell und Prompt", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgabe so, als würdest du dich in einem neuen Linux-System orientieren. Ziel ist nicht Geschwindigkeit, sondern sicheres Grundverhalten im Terminal.

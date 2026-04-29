@@ -1,33 +1,19 @@
 ---
 title: "Konsistenzmodelle"
 description: "Konsistenzmodelle beschreiben, welche Garantien ein System über sichtbare Datenzustände gibt. Sie sind besonders wichtig in verteilten Systemen."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "konsistenzmodelle"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Konsistenzmodelle."
-  - "Du kannst Konsistenzmodelle in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["konsistenzmodelle", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Eventuelle Konsistenz als Fehler statt als bewusstes Modell zu verstehen."
-keyTakeaways:
-  - "Konsistenzmodelle beschreiben, welche Garantien ein System über sichtbare Datenzustände gibt."
-  - "Wichtig sind vor allem starke und eventuelle konsistenz, lesen nach schreiben und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Konsistenzmodelle, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Konsistenzmodelle dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "informatik"
-  - "grundlagen"
-  - "konsistenzmodelle"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Konsistenzmodelle
 
 Konsistenzmodelle beschreiben, welche Garantien ein System über sichtbare Datenzustände gibt. Sie sind besonders wichtig in verteilten Systemen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

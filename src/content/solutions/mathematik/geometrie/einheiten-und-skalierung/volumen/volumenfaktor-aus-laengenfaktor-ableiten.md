@@ -3,23 +3,12 @@ title: "Lösung – Volumenfaktor aus Längenfaktor ableiten"
 description: "Musterlösung zu Volumenskalierung mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "geometrie"
-  - "einheiten-und-skalierung"
-  - "volumen"
-  - "volumenfaktor-aus-laengenfaktor-ableiten"
+topicPath: ["geometrie", "einheiten-und-skalierung", "volumen", "volumenfaktor-aus-laengenfaktor-ableiten"]
 taskId: "v111-mathematik-volumenfaktor-aus-laengenfaktor-ableiten"
 relatedExercise: "mathematik/geometrie/einheiten-und-skalierung/volumen/volumenfaktor-aus-laengenfaktor-ableiten"
-tags:
-  - "mathematik"
-  - "prüfung"
-  - "unterthema"
-  - "geometrie"
-  - "einheiten-und-skalierung"
-  - "volumenfaktor-aus-laengenfaktor-ableiten"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Volumenskalierung**.

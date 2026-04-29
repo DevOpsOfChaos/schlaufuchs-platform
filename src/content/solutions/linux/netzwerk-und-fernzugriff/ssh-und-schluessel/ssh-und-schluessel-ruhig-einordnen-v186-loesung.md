@@ -1,21 +1,14 @@
 ---
 title: "Lösung – SSH und Schlüssel – ruhig einordnen"
 description: "Musterlösung zur Linux-Aufgabe SSH und Schlüssel."
-subject: linux
+subject: "linux"
 section: "netzwerk-und-fernzugriff"
-topicPath:
-  - "netzwerk-und-fernzugriff"
-  - "ssh-und-schluessel"
-taskId: LINUX-SSH-UND-SCHLUESSEL-V186-1
-relatedExercise: src/content/exercises/linux/netzwerk-und-fernzugriff/ssh-und-schluessel/ssh-und-schluessel-ruhig-einordnen-v186.md
-tags:
-  - "linux"
-  - "ssh"
-  - "schluessel"
-  - "loesung"
+topicPath: ["netzwerk-und-fernzugriff", "ssh-und-schluessel", "ssh-und-schluessel-ruhig-einordnen-v186"]
+taskId: "LINUX-SSH-UND-SCHLUESSEL-V186-1"
+relatedExercise: "src/content/exercises/linux/netzwerk-und-fernzugriff/ssh-und-schluessel/ssh-und-schluessel-ruhig-einordnen-v186.md"
+tags: ["linux", "netzwerk-und-fernzugriff", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

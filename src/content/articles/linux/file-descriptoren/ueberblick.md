@@ -1,33 +1,19 @@
 ---
 title: "File-Descriptoren"
 description: "File-Descriptoren sind numerische Verweise auf offene Dateien, Geräte oder Streams eines Prozesses. Sie erklären Standardinput, Standardoutput und Fehlerausgabe."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "file-descriptoren"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von File-Descriptoren."
-  - "Du kannst File-Descriptoren in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["file-descriptoren", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "stdout und stderr zusammenzuwerfen, obwohl sie getrennt behandelbar sind."
-keyTakeaways:
-  - "File-Descriptoren sind numerische Verweise auf offene Dateien, Geräte oder Streams eines Prozesses."
-  - "Wichtig sind vor allem 0, 1 und 2 als standardstreams, umleitungen und zusätzliche deskriptoren und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um File-Descriptoren, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu File-Descriptoren dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "linux"
-  - "grundlagen"
-  - "file descriptoren"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # File-Descriptoren
 
 File-Descriptoren sind numerische Verweise auf offene Dateien, Geräte oder Streams eines Prozesses. Sie erklären Standardinput, Standardoutput und Fehlerausgabe. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

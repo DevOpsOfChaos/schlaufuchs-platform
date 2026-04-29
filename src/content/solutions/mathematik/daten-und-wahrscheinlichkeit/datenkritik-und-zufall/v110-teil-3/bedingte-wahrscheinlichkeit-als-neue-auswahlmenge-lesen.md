@@ -3,23 +3,12 @@ title: "Lösung – Bedingte Wahrscheinlichkeit als neue Auswahlmenge lesen"
 description: "Musterlösung zu Bedingte Wahrscheinlichkeit als neue Auswahlmenge lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Daten und Zufall"
-topicPath:
-  - "daten-und-wahrscheinlichkeit"
-  - "datenkritik-und-zufall"
-  - "v110-teil-3"
-  - "bedingte-wahrscheinlichkeit-als-neue-auswahlmenge-lesen"
+topicPath: ["daten-und-wahrscheinlichkeit", "datenkritik-und-zufall", "v110-teil-3", "bedingte-wahrscheinlichkeit-als-neue-auswahlmenge-lesen"]
 taskId: "v110-mathematik-bedingte-wahrscheinlichkeit-als-neue-auswahlmenge-lesen"
 relatedExercise: "mathematik/daten-und-wahrscheinlichkeit/datenkritik-und-zufall/v110-teil-3/bedingte-wahrscheinlichkeit-als-neue-auswahlmenge-lesen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfung"
-  - "daten-und-wahrscheinlichkeit"
-  - "datenkritik-und-zufall"
-  - "bedingte-wahrscheinlichkeit-als-neue-auswahlmenge-lesen"
+tags: ["mathematik", "Daten und Zufall", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Bedingte Wahrscheinlichkeit als neue Auswahlmenge lesen**.

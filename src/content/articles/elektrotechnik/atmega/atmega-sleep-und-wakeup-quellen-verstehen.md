@@ -1,46 +1,19 @@
 ---
-title: ATmega – Sleep und Wake-up-Quellen verstehen
-description: Verstehe, warum Schlafmodi am AVR nur zusammen mit passenden Weckquellen sinnvoll geplant werden können.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - interrupts-und-reaktivitaet
-  - atmega-sleep-und-wakeup-quellen-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von Sleep und Wake-up-Quellen am AVR.
-  - Du beschreibst Energiesparen nicht nur als „schlafen“, sondern als Zusammenspiel aus Ruhemodus und Rückkehrweg.
-  - Du liest einen Schlafmodus immer zusammen mit der Frage, wodurch das System wieder reagieren darf.
-practiceIdeas:
-  - Vergleiche verschiedene Weckquellen wie Taster, Watchdog oder Timer.
-  - Prüfe Sleep-Fälle immer zusammen mit dem vorgesehenen Rückkehrsignal.
-  - Lies Energiesparen nicht nur als Abschalten, sondern als geplante Reaktivierung.
-commonMistakes:
-  - Zu denken, Sleep sei allein schon das ganze Konzept.
-  - Einen Schlafmodus zu wählen, ohne die Weckquelle mitzudenken.
-  - Wake-up und Reset gleichzusetzen.
-keyTakeaways:
-  - Ein Sleep-Modus ist nur zusammen mit einer passenden Wake-up-Quelle sinnvoll.
-  - Energiesparen und Reaktivierung gehören als Paar zusammen.
-  - Wake-up ist nicht automatisch dasselbe wie ein Neustart.
-recognizeSignals:
-  - Es geht um Sleep-Modi, Energiesparen oder geplante Reaktivierung am AVR.
-  - Du sollst erklären, wodurch ein Controller aus dem Ruhemodus zurückkehrt.
-  - In Aufgaben wird zwischen Schlafzustand und Rückkehrsignal vermittelt.
-selfCheckPoints:
-  - Kann ich Sleep und Wake-up als zusammengehöriges Konzept erklären?
-  - Kann ich Timer, Watchdog oder externe Ereignisse als Weckquelle einordnen?
-  - Kann ich Wake-up und Reset fachlich sauber trennen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - sleep
-  - wakeup
-level: mittel
+title: "ATmega – Sleep und Wake-up-Quellen verstehen"
+description: "Verstehe, warum Schlafmodi am AVR nur zusammen mit passenden Weckquellen sinnvoll geplant werden können."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-sleep-und-wakeup-quellen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein AVR schläft nicht einfach nur „für Stromsparen“. Jeder Sleep-Modus ist nur dann sinnvoll, wenn auch klar ist, **wodurch der Controller wieder aufwachen darf**. Genau deshalb gehören **Sleep** und **Wake-up-Quelle** didaktisch zusammen.

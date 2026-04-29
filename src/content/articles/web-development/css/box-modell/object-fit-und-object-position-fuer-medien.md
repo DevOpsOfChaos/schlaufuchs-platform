@@ -3,44 +3,17 @@ title: "CSS – object-fit und object-position für Medien einsetzen"
 description: "Lerne, Bilder und Videos in festen Rahmen zu platzieren, ohne sie ungewollt zu verzerren."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "box-modell"
-  - "object-fit-und-object-position-fuer-medien"
-learningGoals:
-  - "Du unterscheidest cover, contain und fill."
-  - "Du erklärst, warum object-position den wichtigen Bildbereich steuert."
-  - "Du vermeidest verzerrte Medien in Kartenlayouts."
-practiceIdeas:
-  - "Prüfe eine vorhandene Seite mit genau dieser Fragestellung."
-  - "Formuliere eine kleine Vorher-nachher-Verbesserung."
-  - "Teste die Entscheidung mit Tastatur, kleiner Breite und längeren Texten."
-commonMistakes:
-  - "Bilder über width und height zu verzerren."
-  - "cover zu nutzen, ohne wichtigen Inhalt im Bild zu prüfen."
-  - "object-position zu vergessen, wenn der Zuschnitt unpassend sitzt."
-keyTakeaways:
-  - "Bedeutung, Technik und Nutzungssituation müssen zusammenpassen."
-  - "Eine optisch passende Lösung ist noch nicht automatisch strukturell gut."
-  - "Kleine Prüfregeln helfen, Weboberflächen verlässlich zu verbessern."
-recognizeSignals:
-  - "Du siehst eine Stelle, die optisch funktioniert, aber fachlich unklar bleibt."
-  - "Im Review taucht die Frage auf, ob HTML-Struktur oder CSS-Verhalten wirklich passt."
-  - "Eine Komponente soll robuster, zugänglicher oder wartbarer werden."
-selfCheckPoints:
-  - "Kann ich die fachliche Bedeutung der Stelle benennen?"
-  - "Kann ich die technische Entscheidung begründen?"
-  - "Kann ich eine typische Fehlinterpretation vermeiden?"
-tags:
-  - "web development"
-  - "css"
-  - "object-fit"
-  - "bilder"
-  - "layout"
+topicPath: ["css", "box-modell", "object-fit-und-object-position-fuer-medien"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Diese Seite hilft dir, **object-fit und object-position für Medien einsetzen** nicht als isolierte Technik zu lernen. Entscheidend ist, welche Bedeutung auf der Seite entsteht und ob diese Bedeutung für Nutzerinnen und Nutzer zuverlässig erkennbar bleibt.

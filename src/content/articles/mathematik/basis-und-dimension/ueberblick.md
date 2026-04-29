@@ -1,36 +1,19 @@
 ---
 title: "Basis und Dimension"
 description: "Eine Basis ist eine Menge von Vektoren, mit denen jeder Vektor eines Raums eindeutig dargestellt werden kann. Die Dimension ist die Anzahl der Basisvektoren."
-subject: mathematik
+subject: "mathematik"
 section: "Lineare Algebra"
-topicPath:
-  - "basis-und-dimension"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Basis und Dimension als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["basis-und-dimension", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird die gewohnte Standardbasis mit dem Begriff Basis selbst verwechselt."
-keyTakeaways:
-  - "Eine Basis ist eine Menge von Vektoren, mit denen jeder Vektor eines Raums eindeutig dargestellt werden kann."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Basis und Dimension, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Basis und Dimension in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "vektoren"
-  - "lineare algebra"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Lineare Algebra"]
 draft: false
 ---
-
 # Basis und Dimension
 
 ![Schaubild zu Basis und Dimension.](/schlaufuchs-platform/images/overviews/v150/basis-und-dimension.svg)

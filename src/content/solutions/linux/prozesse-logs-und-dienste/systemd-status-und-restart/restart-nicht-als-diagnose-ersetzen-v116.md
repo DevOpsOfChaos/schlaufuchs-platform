@@ -3,22 +3,12 @@ title: "Lösung: Restart nicht als Diagnose ersetzen"
 description: "Musterlösung zur Aufgabe „Restart nicht als Diagnose ersetzen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "prozesse-logs-und-dienste"
-  - "systemd-status-und-restart"
-  - "restart-nicht-als-diagnose-ersetzen-v116"
+topicPath: ["prozesse-logs-und-dienste", "systemd-status-und-restart", "restart-nicht-als-diagnose-ersetzen-v116"]
 taskId: "restart-nicht-als-diagnose-ersetzen-v116"
 relatedExercise: "linux/prozesse-logs-und-dienste/systemd-status-und-restart/restart-nicht-als-diagnose-ersetzen-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "systemd status und restart"
-  - "restart nicht als diagnose ersetzen"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

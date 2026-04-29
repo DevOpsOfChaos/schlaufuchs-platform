@@ -3,23 +3,12 @@ title: "Lösung – I²C-Adresse und Acknowledge im Buslesen trennen"
 description: "Musterlösung zu I²C-Adresse und ACK mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Kommunikation"
-topicPath:
-  - "daten-und-signale"
-  - "buskommunikation"
-  - "i2c-ack-adresse"
-  - "i2c-adresse-und-acknowledge-im-buslesen-trennen"
+topicPath: ["daten-und-signale", "buskommunikation", "i2c-ack-adresse", "i2c-adresse-und-acknowledge-im-buslesen-trennen"]
 taskId: "v109-elektrotechnik-i2c-adresse-und-acknowledge-im-buslesen-trennen"
 relatedExercise: "elektrotechnik/daten-und-signale/buskommunikation/i2c-ack-adresse/i2c-adresse-und-acknowledge-im-buslesen-trennen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "daten-und-signale"
-  - "buskommunikation"
-  - "i²c-adresse und ack"
+tags: ["elektrotechnik", "Kommunikation", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **I²C-Adresse und ACK**.

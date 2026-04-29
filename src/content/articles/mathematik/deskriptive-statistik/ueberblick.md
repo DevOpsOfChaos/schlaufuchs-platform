@@ -1,33 +1,19 @@
 ---
 title: "Deskriptive Statistik"
 description: "Deskriptive Statistik beschreibt und verdichtet Daten. Sie nutzt Kennwerte, Tabellen und Diagramme, ohne automatisch Ursachen oder Prognosen zu behaupten."
-subject: mathematik
+subject: "mathematik"
 section: "Mathematik"
-topicPath:
-  - "deskriptive-statistik"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Deskriptive Statistik."
-  - "Du kannst Deskriptive Statistik in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["deskriptive-statistik", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Aus einem Mittelwert allein eine vollständige Aussage über Daten abzuleiten."
-keyTakeaways:
-  - "Deskriptive Statistik beschreibt und verdichtet Daten."
-  - "Wichtig sind vor allem lage- und streuungsmaße, diagramme und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Deskriptive Statistik, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Deskriptive Statistik dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "grundlagen"
-  - "deskriptive statistik"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Mathematik"]
 draft: false
 ---
-
 # Deskriptive Statistik
 
 ![Schaubild zur deskriptiven Statistik.](/schlaufuchs-platform/images/overviews/v150/deskriptive-statistik.svg)

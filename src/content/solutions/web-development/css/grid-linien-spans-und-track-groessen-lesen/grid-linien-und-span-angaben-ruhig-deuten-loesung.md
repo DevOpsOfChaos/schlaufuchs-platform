@@ -1,22 +1,14 @@
 ---
-title: Musterlösung – Grid-Linien und span-Angaben ruhig deuten
-description: Musterlösung zur Aufgabe WEB-CSS-CORE-106.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - grid-linien-spans-und-track-groessen-lesen
-  - grid-linien-und-span-angaben-ruhig-deuten-loesung
-taskId: WEB-CSS-CORE-106
-relatedExercise: src/content/exercises/web-development/css/grid-linien-spans-und-track-groessen-lesen/grid-linien-und-span-angaben-ruhig-deuten.md
-tags:
-  - web-development
-  - css
-  - loesung
-  - task-id
+title: "Musterlösung – Grid-Linien und span-Angaben ruhig deuten"
+description: "Musterlösung zur Aufgabe WEB-CSS-CORE-106."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "grid-linien-spans-und-track-groessen-lesen", "grid-linien-und-span-angaben-ruhig-deuten"]
+taskId: "WEB-CSS-CORE-106"
+relatedExercise: "src/content/exercises/web-development/css/grid-linien-spans-und-track-groessen-lesen/grid-linien-und-span-angaben-ruhig-deuten.md"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Linien lesen
 
 <code>grid-column: 1 / 3</code> bedeutet: Das Element beginnt an Rasterlinie 1 und endet an Rasterlinie 3. Es reicht also über zwei Spaltenflächen.

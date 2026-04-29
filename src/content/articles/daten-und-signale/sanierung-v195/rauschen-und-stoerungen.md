@@ -3,43 +3,17 @@ title: "Rauschen und Störungen"
 description: "Verstehe signalqualität realistisch bewerten als ruhigen Baustein für Daten, Signale, Messung und Übertragung."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "fehler-und-robustheit"
-  - "rauschen-und-stoerungen"
-
-learningGoals:
-  - "Signalqualität realistisch bewerten"
-  - "Rohdaten, Darstellung und Interpretation sauber trennen"
-  - "einen kleinen prüfbaren nächsten Schritt formulieren"
-practiceIdeas:
-  - "Beschreibe drei mögliche Störquellen einer Messleitung."
-  - "Prüfe denselben Gedanken an einem zweiten Signalbeispiel."
-commonMistakes:
-  - "Rohwerte werden vorschnell als fertige Information gelesen."
-  - "Ein einzelnes Diagramm wird ohne Messkontext bewertet."
-  - "Einheiten, Zeitbezug oder Codierung bleiben unausgesprochen."
-keyTakeaways:
-  - "Rauschen überlagert ein Nutzsignal."
-  - "Störungen können zufällig oder systematisch auftreten."
-  - "Filterung darf das Nutzsignal nicht zerstören."
-
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Messwerte, Übertragung oder Darstellung nicht mehr eindeutig lesbar sind."
-selfCheckPoints:
-  - "Kann ich beschreiben, welche Größe tatsächlich gemessen oder übertragen wird?"
-  - "Sind Einheit, Zeitbezug und Codierung benannt?"
-  - "Gibt es einen Kontrollpunkt gegen Fehlinterpretation?"
+topicPath: ["sanierung-v195", "rauschen-und-stoerungen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "rauschen"
-  - "stoerungen"
-  - "daten-und-signale"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Rauschen und Störungen](/schlaufuchs-platform/images/daten-und-signale/sanierung-v195/rauschen-und-stoerungen.svg)
 
 Rauschen und Störungen gehört zur Daten-und-Signale-Sanierung v195. Die Seite behandelt das Thema als ruhigen Arbeitsbaustein: Erst wird geklärt, welches Signal oder welche Daten vorliegen, dann wird entschieden, wie sie dargestellt, übertragen oder ausgewertet werden.

@@ -3,32 +3,17 @@ title: "Testpyramide"
 description: "Allgemeiner Überblick über die Testpyramide und verschiedene Ebenen automatisierter Tests."
 subject: "informatik"
 section: "Tests"
-topicPath:
-  - "testpyramide"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["testpyramide", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden zu viele langsame Oberflächentests geschrieben. Sie finden Fehler spät und sagen oft wenig über die eigentliche Ursache."
-keyTakeaways:
-  - "Die Testpyramide hilft, Tests sinnvoll zu verteilen. Viele schnelle Tests schaffen Vertrauen, wenige große Tests prüfen kritische Gesamtabläufe."
-  - "Die Testpyramide ist ein Denkmodell, kein starres Gesetz. Je nach System können andere Formen wie Vertrags- oder Komponententests wichtig sein."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "informatik"
-  - "tests"
-  - "qualität"
-  - "softwareentwicklung"
+tags: ["informatik", "Tests"]
 draft: false
 ---
-
 # Testpyramide
 
 Die Testpyramide ist ein Modell, das viele schnelle, kleine Tests als Basis und weniger große, teure End-to-End-Tests an der Spitze empfiehlt.

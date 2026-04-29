@@ -1,33 +1,19 @@
 ---
 title: "Optimierung"
 description: "Optimierung sucht unter Bedingungen nach bestmöglichen Werten. Sie verbindet Zielfunktionen, Nebenbedingungen und sinnvolle Lösungsbereiche."
-subject: mathematik
+subject: "mathematik"
 section: "Mathematik"
-topicPath:
-  - "optimierung"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Optimierung."
-  - "Du kannst Optimierung in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["optimierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein rechnerisches Extremum ungeprüft außerhalb des sinnvollen Bereichs zu akzeptieren."
-keyTakeaways:
-  - "Optimierung sucht unter Bedingungen nach bestmöglichen Werten."
-  - "Wichtig sind vor allem zielfunktion, nebenbedingungen und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Optimierung, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Optimierung dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "grundlagen"
-  - "optimierung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Mathematik"]
 draft: false
 ---
-
 # Optimierung
 
 Optimierung sucht unter Bedingungen nach bestmöglichen Werten. Sie verbindet Zielfunktionen, Nebenbedingungen und sinnvolle Lösungsbereiche. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

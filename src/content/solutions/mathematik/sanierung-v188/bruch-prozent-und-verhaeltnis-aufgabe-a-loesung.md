@@ -3,22 +3,12 @@ title: "Lösung: Bruch, Prozent und Verhältnis: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-003a."
 subject: "mathematik"
 section: "rechenstrategien-und-kontrolle"
-topicPath:
-  - "rechenstrategien-und-kontrolle"
-  - "bruch-prozent-und-verhaeltnis"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "bruch-prozent-und-verhaeltnis-aufgabe-a"]
 taskId: "mat-v188-003a"
 relatedExercise: "mathematik/sanierung-v188/bruch-prozent-und-verhaeltnis-aufgabe-a"
-tags:
-  - "bruch"
-  - "prozent"
-  - "verhaeltnis"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "rechenstrategien-und-kontrolle", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-003a`
 
 Eine mögliche Lösung:

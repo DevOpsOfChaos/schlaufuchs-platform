@@ -1,33 +1,19 @@
 ---
 title: "Critical CSS"
 description: "Critical CSS umfasst die CSS-Regeln, die für den sofort sichtbaren Bereich benötigt werden. Ziel ist, den ersten sichtbaren Aufbau zu beschleunigen."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "critical-css"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Critical CSS."
-  - "Du kannst Critical CSS in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["critical-css", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Zu viel CSS als kritisch einzustufen und dadurch den Vorteil zu verlieren."
-keyTakeaways:
-  - "Critical CSS umfasst die CSS-Regeln, die für den sofort sichtbaren Bereich benötigt werden."
-  - "Wichtig sind vor allem above-the-fold bereich, render blocking css und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Critical CSS, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Critical CSS dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "web development"
-  - "grundlagen"
-  - "critical css"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # Critical CSS
 
 Critical CSS umfasst die CSS-Regeln, die für den sofort sichtbaren Bereich benötigt werden. Ziel ist, den ersten sichtbaren Aufbau zu beschleunigen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

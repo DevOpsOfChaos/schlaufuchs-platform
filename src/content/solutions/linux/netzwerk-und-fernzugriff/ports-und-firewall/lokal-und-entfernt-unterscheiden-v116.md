@@ -3,22 +3,12 @@ title: "Lösung: lokal und entfernt unterscheiden"
 description: "Musterlösung zur Aufgabe „lokal und entfernt unterscheiden“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "netzwerk-und-fernzugriff"
-  - "ports-und-firewall"
-  - "lokal-und-entfernt-unterscheiden-v116"
+topicPath: ["netzwerk-und-fernzugriff", "ports-und-firewall", "lokal-und-entfernt-unterscheiden-v116"]
 taskId: "lokal-und-entfernt-unterscheiden-v116"
 relatedExercise: "linux/netzwerk-und-fernzugriff/ports-und-firewall/lokal-und-entfernt-unterscheiden-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "ports und firewall"
-  - "lokal und entfernt unterscheiden"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

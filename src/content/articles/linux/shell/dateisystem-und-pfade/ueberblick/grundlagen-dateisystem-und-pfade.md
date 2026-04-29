@@ -1,37 +1,19 @@
 ---
 title: "Grundlagen: Dateisystem und Pfade"
 description: "Allgemeiner Überblick über Dateien, Ordner, absolute und relative Pfade sowie Orientierung in der Linux-Shell."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - shell
-  - dateisystem-und-pfade
-  - ueberblick
-  - grundlagen-dateisystem-und-pfade
-learningGoals:
-  - "Du erklärst, was ein Pfad im Dateisystem beschreibt."
-  - "Du unterscheidest absolute und relative Pfade."
-  - "Du erkennst, warum das aktuelle Arbeitsverzeichnis für Befehle wichtig ist."
+topicPath: ["shell", "dateisystem-und-pfade", "ueberblick", "grundlagen-dateisystem-und-pfade"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Dateinamen und Pfade gleichzusetzen."
-  - "Relative Pfade ohne aktuelles Verzeichnis zu lesen."
-  - "Leerzeichen oder Sonderzeichen in Pfaden zu ignorieren."
-keyTakeaways:
-  - "Pfade beschreiben Orte im Dateisystem."
-  - "Absolute Pfade beginnen an der Wurzel des Systems."
-  - "Relative Pfade hängen vom aktuellen Arbeitsverzeichnis ab."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - linux
-  - shell
-  - pfade
-  - dateisystem
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
-
 ## Begriff
 
 Ein **Dateisystem** ordnet Dateien und Ordner in einer hierarchischen Struktur. Ein **Pfad** beschreibt, wo sich eine Datei oder ein Ordner in dieser Struktur befindet. In der Linux-Shell sind Pfade eine zentrale Grundlage, weil fast jeder Befehl mit Orten im Dateisystem arbeitet.

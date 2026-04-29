@@ -1,30 +1,17 @@
 ---
 title: "Skizze als Denkwerkzeug"
 description: "Allgemeiner Überblick: Skizzen machen Beziehungen sichtbar, bevor exakt gerechnet wird."
-subject: mathematik
+subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - "skizze-als-denkwerkzeug"
-learningGoals:
-  - "Du kannst skizze als denkwerkzeug als Grundidee einordnen."
-  - "Du erkennst wichtige Bestandteile und typische Grenzen."
-  - "Du kannst das Thema in einfachen Worten erklären."
+topicPath: ["skizze-als-denkwerkzeug", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur ein Detail zu betrachten und den Zusammenhang zu übersehen."
-  - "Das Schaubild als exakte technische Darstellung statt als Orientierung zu lesen."
-keyTakeaways:
-  - "Skizzen machen Beziehungen sichtbar, bevor exakt gerechnet wird."
-  - "Ein Überblicksbild hilft, Begriffe und Beziehungen ruhig zu ordnen."
-recognizeSignals:
-  - "Es geht um skizze als denkwerkzeug, Grundbegriffe, Zusammenhänge oder typische Fehlerquellen."
-selfCheckPoints:
-  - "Kann ich erklären, welche Rolle skizze als denkwerkzeug im größeren Zusammenhang spielt?"
-level: einfach
-tags:
-  - "mathematik"
-  - "skizze als denkwerkzeug"
-  - "überblick"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Geometrie"]
 draft: false
 ---
 # Skizze als Denkwerkzeug

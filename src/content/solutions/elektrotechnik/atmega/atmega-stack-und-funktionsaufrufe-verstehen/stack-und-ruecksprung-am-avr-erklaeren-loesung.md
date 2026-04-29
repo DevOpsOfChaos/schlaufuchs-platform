@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Stack und Rücksprung am AVR erklären
-description: Musterlösung zur Aufgabe ET-ATMEGA-STK-210.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - programmablauf-und-speicher
-  - atmega-stack-und-funktionsaufrufe-verstehen
-  - stack-und-ruecksprung-am-avr-erklaeren-loesung
-taskId: ET-ATMEGA-STK-210
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-stack-und-funktionsaufrufe-verstehen/stack-und-ruecksprung-am-avr-erklaeren.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – Stack und Rücksprung am AVR erklären"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-STK-210."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-stack-und-funktionsaufrufe-verstehen", "stack-und-ruecksprung-am-avr-erklaeren"]
+taskId: "ET-ATMEGA-STK-210"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-stack-und-funktionsaufrufe-verstehen/stack-und-ruecksprung-am-avr-erklaeren.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

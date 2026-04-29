@@ -3,22 +3,12 @@ title: "Lösung: Dateiformate einordnen: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe dat-v189-052b."
 subject: "daten-und-signale"
 section: "speicherung"
-topicPath:
-  - "speicherung"
-  - "dateiformate-einordnen"
-  - "loesung-b"
+topicPath: ["sanierung-v189", "dateiformate-einordnen-aufgabe-b"]
 taskId: "dat-v189-052b"
 relatedExercise: "daten-und-signale/sanierung-v189/dateiformate-einordnen-aufgabe-b"
-tags:
-  - "dateiformate"
-  - "speicherung"
-  - "struktur"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "speicherung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-052b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

@@ -3,33 +3,15 @@ title: "Aufgabe – Überschriftenhierarchie prüfen"
 description: "Übe überschriftenhierarchie prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "html"
-  - "semantik-und-struktur"
-  - "ueberschriftenhierarchie-pruefen"
+topicPath: ["html", "semantik-und-struktur", "ueberschriftenhierarchie-pruefen"]
 taskId: "v112-web-development-ueberschriftenhierarchie-pruefen"
-tags:
-  - "web-development"
-  - "v112"
-  - "feinstruktur"
-  - "html"
-  - "ueberschriftenhierarchie-pruefen"
-hintPoints:
-  - "Benenne zuerst das kleine Unterthema."
-  - "Prüfe bewusst den Unterschied zum Fehler: Headings werden nur nach Aussehen gewählt."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Einordnung enger als nur der breite Fachbereich?"
-  - "Wird der typische Fehler ausdrücklich ausgeschlossen?"
-  - "Passt die Lösung zur Wissensseite?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Begriff und prüfe, ob die gleiche Strategie gilt."
-  - "Erkläre die Lösung einmal alltagssprachlich und danach fachlich sauber."
-reflectionPrompt: "Was war bei „Überschriftenhierarchie prüfen“ die wichtigste Trennkante?"
+tags: ["web-development", "Feinstruktur Web Development", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation:

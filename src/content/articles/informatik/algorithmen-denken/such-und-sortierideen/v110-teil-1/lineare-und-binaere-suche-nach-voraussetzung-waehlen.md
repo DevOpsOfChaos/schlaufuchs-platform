@@ -3,46 +3,17 @@ title: "Informatik – Lineare und binäre Suche nach Voraussetzung wählen"
 description: "Lerne Lineare und binäre Suche nach Voraussetzung wählen als kleines, klar prüfbares Unterthema mit Abgrenzung, Beispiel und Gegenprobe."
 subject: "informatik"
 section: "Algorithmen"
-topicPath:
-  - "algorithmen-denken"
-  - "such-und-sortierideen"
-  - "v110-teil-1"
-  - "lineare-und-binaere-suche-nach-voraussetzung-waehlen"
-learningGoals:
-  - "Du erklärst Lineare und binäre Suche nach Voraussetzung wählen als eigenes Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Erstelle eine Gegenprobe mit verändertem Wert, Zustand oder Kontext."
-  - "Vergleiche die Seite mit einem Nachbarthema und nenne die Trennkante."
-commonMistakes:
-  - "Binäre Suche wird gewählt, weil sie schneller klingt."
-  - "Das Thema nur einem breiten Kapitel zuordnen."
-  - "Eine Lösung formulieren, die keine konkrete Prüfung enthält."
-keyTakeaways:
-  - "Lineare und binäre Suche nach Voraussetzung wählen wird über Einordnung, Abgrenzung und Gegenprobe stabil."
-  - "Kleine Unterthemen erhöhen Auffindbarkeit und reduzieren Doppelungen."
-  - "Aufgabe und Lösung sollen dieselbe fachliche Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Ein breites Kapitel wäre als Antwort zu ungenau."
-  - "Ein konkreter Prüfschritt kann die Entscheidung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "informatik"
-  - "struktur"
-  - "praxis"
-  - "algorithmen-denken"
-  - "such-und-sortierideen"
-  - "lineare-und-binaere-suche-nach-voraussetzung-waehlen"
+topicPath: ["algorithmen-denken", "such-und-sortierideen", "v110-teil-1", "lineare-und-binaere-suche-nach-voraussetzung-waehlen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["informatik", "Algorithmen"]
 draft: false
 ---
-
 ## Grundidee
 
 **Lineare und binäre Suche nach Voraussetzung wählen** ist bewusst als enges Unterthema angelegt. Die Seite beantwortet nicht das ganze Kapitel, sondern die kleine fachliche Entscheidung, die in Aufgaben oft den Unterschied macht.

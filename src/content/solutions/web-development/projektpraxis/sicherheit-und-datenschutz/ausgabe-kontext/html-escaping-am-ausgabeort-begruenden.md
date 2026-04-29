@@ -3,24 +3,12 @@ title: "Lösung – HTML-Escaping am Ausgabeort begründen"
 description: "Musterlösung zu Escaping-Kontext mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "web-development"
 section: "Sicherheit"
-topicPath:
-  - "projektpraxis"
-  - "sicherheit-und-datenschutz"
-  - "ausgabe-kontext"
-  - "html-escaping-am-ausgabeort-begruenden"
+topicPath: ["projektpraxis", "sicherheit-und-datenschutz", "ausgabe-kontext", "html-escaping-am-ausgabeort-begruenden"]
 taskId: "v107-web-development-html-escaping-am-ausgabeort-begruenden"
 relatedExercise: "web-development/projektpraxis/sicherheit-und-datenschutz/ausgabe-kontext/html-escaping-am-ausgabeort-begruenden"
-tags:
-  - "web development"
-  - "html"
-  - "css"
-  - "javascript"
-  - "escaping-kontext"
-  - "projektpraxis"
-  - "sicherheit-und-datenschutz"
+tags: ["web-development", "Sicherheit", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Escaping-Kontext**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

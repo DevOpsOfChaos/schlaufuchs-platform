@@ -3,25 +3,12 @@ title: "Lösung: Repositorys und Quellen: Aufgabe B"
 description: "Musterlösung zur Aufgabe linux-v192-015b im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "pakete-und-updates"
-  - "repositorys-und-quellen"
-  - "loesung-b"
+topicPath: ["sanierung-v192", "repositorys-und-quellen-loesung-b"]
 taskId: "linux-v192-015b"
 relatedExercise: "linux/sanierung-v192/repositorys-und-quellen-aufgabe-b"
-tags:
-  - "pakete-und-updates"
-  - "repositorys"
-  - "quellen"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-015b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Repositorys und Quellen“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

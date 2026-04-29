@@ -3,23 +3,12 @@ title: "Lösung – apt update und upgrade als zwei Schritte lesen"
 description: "Musterlösung zu apt update und upgrade mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "System"
-topicPath:
-  - "system"
-  - "pakete-und-updates"
-  - "apt-cache"
-  - "apt-update-und-upgrade-als-zwei-schritte-lesen"
+topicPath: ["system", "pakete-und-updates", "apt-cache", "apt-update-und-upgrade-als-zwei-schritte-lesen"]
 taskId: "v109-linux-apt-update-und-upgrade-als-zwei-schritte-lesen"
 relatedExercise: "linux/system/pakete-und-updates/apt-cache/apt-update-und-upgrade-als-zwei-schritte-lesen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "system"
-  - "pakete-und-updates"
-  - "apt update und upgrade"
+tags: ["linux", "System", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **apt update und upgrade**.

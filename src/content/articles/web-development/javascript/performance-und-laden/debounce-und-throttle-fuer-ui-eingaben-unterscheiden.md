@@ -3,44 +3,17 @@ title: "JavaScript – Debounce und Throttle für UI-Eingaben unterscheiden"
 description: "Verstehe, warum häufige Ereignisse wie Tippen oder Scrollen begrenzt werden müssen und welche Strategie wann passt."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "performance-und-laden"
-  - "debounce-und-throttle-fuer-ui-eingaben-unterscheiden"
-learningGoals:
-  - "Du erklärst Debounce als Warten auf Ruhe."
-  - "Du erklärst Throttle als Begrenzung auf feste Abstände."
-  - "Du ordnest beide Strategien passenden UI-Ereignissen zu."
-practiceIdeas:
-  - "Übertrage die Idee auf eine kleine eigene Seite."
-  - "Prüfe die Bedienung einmal mit Tastatur und einmal mit Maus."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "Bei jedem Tastendruck sofort eine Netzwerkanfrage zu senden."
-  - "Debounce und Throttle als austauschbare Wörter zu behandeln."
-  - "Performance nur als Ladezeit und nicht als Reaktionsverhalten zu sehen."
-keyTakeaways:
-  - "Robuste Webinteraktion trennt Struktur, Zustand und Rückmeldung."
-  - "Nutzerführung ist Teil der technischen Lösung."
-  - "Fehler und Sonderfälle werden sichtbar geplant."
-recognizeSignals:
-  - "Es geht um JavaScript im Browser, UI-Zustand oder dynamische Rückmeldung."
-  - "Eine Interaktion soll verständlicher, sicherer oder robuster werden."
-  - "HTML, CSS und JavaScript müssen gemeinsam gelesen werden."
-selfCheckPoints:
-  - "Kann ich die Aufgabe des Codes in einem Satz erklären?"
-  - "Bleibt die Interaktion ohne Maus oder bei Fehlern nachvollziehbar?"
-  - "Sind sichtbare Texte verständlich und deutsch formuliert?"
+topicPath: ["javascript", "performance-und-laden", "debounce-und-throttle-fuer-ui-eingaben-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
-tags:
-  - "web development"
-  - "javascript"
-  - "debounce"
-  - "throttle"
-  - "performance"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Diese Seite zeigt dir, wie du Debounce und Throttle für UI-Eingaben unterscheiden nicht als isolierten JavaScript-Trick, sondern als kleine UX- und Robustheitsentscheidung liest.

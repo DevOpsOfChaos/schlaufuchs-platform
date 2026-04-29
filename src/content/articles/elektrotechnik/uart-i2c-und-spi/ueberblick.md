@@ -1,35 +1,19 @@
 ---
 title: "UART, I2C und SPI"
 description: "Allgemeiner Überblick über UART, I2C und SPI als verbreitete digitale Kommunikationsschnittstellen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Kommunikation"
-topicPath:
-  - "uart-i2c-und-spi"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst UART, I2C und SPI grob unterscheiden."
-  - "Du kennst typische Einsatzbereiche der drei Schnittstellen."
-  - "Du verstehst, warum Leitungen, Takt und Adressen wichtig sind."
+topicPath: ["uart-i2c-und-spi", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Alle seriellen Schnittstellen als gleich zu behandeln."
-  - "Pull-ups, Pegel und Leitungslänge bei I2C zu ignorieren."
-keyTakeaways:
-  - "UART ist einfach und punkt-zu-punkt orientiert."
-  - "I2C nutzt Adressen auf einem gemeinsamen Bus, SPI nutzt getrennte Auswahlleitungen."
-recognizeSignals:
-  - "Es geht um Sensoren, Displays, Module, Busleitungen, Baudrate, Takt, Adressen oder Chip-Select."
-selfCheckPoints:
-  - "Kann ich für ein Modul begründen, ob UART, I2C oder SPI naheliegend ist?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "kommunikation"
-  - "schnittstellen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Kommunikation"]
 draft: false
 ---
-
 # UART, I2C und SPI
 
 ![Schaubild zum Vergleich von UART, I²C und SPI.](/schlaufuchs-platform/images/overviews/v148/uart-i2c-und-spi.svg)

@@ -1,36 +1,17 @@
 ---
 title: "Aufgabe: Messbereich vor Messung wählen"
 description: "Trainiere Messbereich vor Messung wählen an einem kleinen, klar abgegrenzten Fall."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "messpraxis-v115"
-  - "spannung-strom-widerstand"
-  - "messbereich-vor-messung-waehlen-v115"
+topicPath: ["messpraxis-v115", "spannung-strom-widerstand", "messbereich-vor-messung-waehlen-v115"]
 taskId: "elektrotechnik-messbereich-vor-messung-waehlen-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "messpraxis"
-  - "spannung, strom und widerstand"
-  - "aufgabe"
-hintPoints:
-  - "Grenze zuerst den kleinen Fall vom breiten Themenfeld ab."
-  - "Nutze die Prüffrage: Welcher Bereich schützt Messgerät und Schaltung zuerst?"
-  - "Begründe mit zwei konkreten Hinweisen aus dem Fall."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-transferIdeas:
-  - "Übertrage dieselbe Trennkante auf ein eigenes Mini-Beispiel."
-  - "Formuliere einen Gegenfall, der ähnlich aussieht, aber anders entschieden wird."
-reflectionPrompt: "Was war bei „Messbereich vor Messung wählen“ die wichtigste Trennkante?"
-level: mittel
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den folgenden Fall zu **Messbereich vor Messung wählen**.

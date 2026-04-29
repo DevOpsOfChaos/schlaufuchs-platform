@@ -3,32 +3,17 @@ title: "SSH-Port-Forwarding"
 description: "Allgemeiner Überblick über ssh-port-forwarding und die wichtigsten Zusammenhänge."
 subject: "linux"
 section: "SSH"
-topicPath:
-  - "ssh-port-forwarding"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["ssh-port-forwarding", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Forwardings offen gelassen oder zu breit gebunden."
-keyTakeaways:
-  - "SSH-Port-Forwarding ist mächtig für Wartung und Diagnose, muss aber begrenzt werden."
-  - "Port-Forwarding ist kein Ersatz für ein Berechtigungskonzept."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "linux"
-  - "ssh"
-  - "netzwerk"
-  - "port forwarding"
+tags: ["linux", "SSH"]
 draft: false
 ---
-
 # SSH-Port-Forwarding
 
 ![Schaubild zu SSH-Port-Forwarding.](/schlaufuchs-platform/images/overviews/v149/ssh-port-forwarding.svg)

@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Active-Low-Tasterlogik am AVR ruhig lesen
-description: Musterlösung zur Aufgabe ET-ATMEGA-IO-207.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - digitale-eingaenge-und-ausgaenge
-  - atmega-active-low-signale-und-pullup-verstehen
-  - active-low-tasterlogik-am-avr-ruhig-lesen-loesung
-taskId: ET-ATMEGA-IO-207
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-active-low-signale-und-pullup-verstehen/active-low-tasterlogik-am-avr-ruhig-lesen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – Active-Low-Tasterlogik am AVR ruhig lesen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-IO-207."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-active-low-signale-und-pullup-verstehen", "active-low-tasterlogik-am-avr-ruhig-lesen"]
+taskId: "ET-ATMEGA-IO-207"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-active-low-signale-und-pullup-verstehen/active-low-tasterlogik-am-avr-ruhig-lesen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Im Ruhezustand liest der AVR typischerweise logisch 1. Der interne Pull-up zieht den Eingang ohne Tastendruck auf High und verhindert so einen undefinierten Zustand.

@@ -1,39 +1,19 @@
 ---
 title: "Grundlagen: Lineare Funktionen"
 description: "Ein lexikonartiger Einstieg in lineare Funktionen, Steigung, Startwert und Darstellungsformen."
-subject: mathematik
+subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - funktionen
-  - lineare-funktionen
-  - ueberblick
-learningGoals:
-  - "Du kennst die Grundbegriffe dieses Themenbereichs."
-  - "Du kannst typische Situationen grob einordnen, bevor du Detailseiten liest."
-  - "Du erkennst, welche Nachbarseiten für Vertiefung oder Übungen passen."
-practiceIdeas:
-  - "Lies zuerst diese Überblicksseite und danach eine konkrete Lernsituation aus dem gleichen Unterthema."
-  - "Notiere die wichtigsten Begriffe und prüfe, welche davon in den Detailseiten wieder auftauchen."
-commonMistakes:
-  - "Direkt mit Sonderfällen zu beginnen, ohne die Grundbegriffe zu klären."
-  - "Ein einzelnes Beispiel für die ganze Themenlogik zu halten."
-keyTakeaways:
-  - "Lineare Funktionen sind Modelle gleichmäßiger Änderung. Wichtig sind nicht nur Formelzeichen, sondern Steigung, Startwert und Bedeutung im Kontext."
-recognizeSignals:
-  - "Du suchst eine allgemeine Einordnung, bevor du Aufgaben oder Spezialfälle bearbeitest."
-  - "Mehrere Detailseiten wirken ähnlich, aber dir fehlt der gemeinsame Rahmen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten beschreiben?"
-  - "Kann ich Grundidee, typische Begriffe und Grenzen auseinanderhalten?"
-level: einfach
-tags:
-  - "mathematik"
-  - "funktionen"
-  - "linear"
-  - "steigung"
+topicPath: ["funktionen", "lineare-funktionen", "ueberblick", "grundlagen-lineare-funktionen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
-
 ## Überblick
 
 Lineare Funktionen beschreiben Zusammenhänge mit gleichmäßiger Änderung. Wenn sich der Eingangswert um denselben Schritt verändert, ändert sich der Ausgangswert immer um denselben Betrag. Dadurch entstehen Geraden im Koordinatensystem.

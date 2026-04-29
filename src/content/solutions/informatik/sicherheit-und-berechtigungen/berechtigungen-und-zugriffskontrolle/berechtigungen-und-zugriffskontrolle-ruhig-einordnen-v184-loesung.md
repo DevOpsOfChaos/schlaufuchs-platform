@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Berechtigungen und Zugriffskontrolle – Ruhig einordnen"
 description: "Musterlösung zur Aufgabe über Berechtigungen und Zugriffskontrolle."
-subject: informatik
+subject: "informatik"
 section: "sicherheit-und-berechtigungen"
-topicPath:
-  - "sicherheit-und-berechtigungen"
-  - "berechtigungen-und-zugriffskontrolle"
-taskId: INF-BERECHTIGUNGEN-UND-ZUGRIFFSKONTROLLE-841
-relatedExercise: src/content/exercises/informatik/sicherheit-und-berechtigungen/berechtigungen-und-zugriffskontrolle/berechtigungen-und-zugriffskontrolle-ruhig-einordnen-v184.md
-tags:
-  - "informatik"
-  - "sicherheit"
-  - "berechtigungen"
-  - "loesung"
+topicPath: ["sicherheit-und-berechtigungen", "berechtigungen-und-zugriffskontrolle", "berechtigungen-und-zugriffskontrolle-ruhig-einordnen-v184"]
+taskId: "INF-BERECHTIGUNGEN-UND-ZUGRIFFSKONTROLLE-841"
+relatedExercise: "src/content/exercises/informatik/sicherheit-und-berechtigungen/berechtigungen-und-zugriffskontrolle/berechtigungen-und-zugriffskontrolle-ruhig-einordnen-v184.md"
+tags: ["informatik", "sicherheit-und-berechtigungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

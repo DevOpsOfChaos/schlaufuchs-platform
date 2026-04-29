@@ -3,23 +3,12 @@ title: "Lösung – cp -a bei Rechten und Zeitstempeln begründen"
 description: "Musterlösung zu cp -a mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell-praxis"
-  - "dateien-sicher-bearbeiten"
-  - "kopieren"
-  - "cp-a-bei-rechten-und-zeitstempeln-begruenden"
+topicPath: ["shell-praxis", "dateien-sicher-bearbeiten", "kopieren", "cp-a-bei-rechten-und-zeitstempeln-begruenden"]
 taskId: "v111-linux-cp-a-bei-rechten-und-zeitstempeln-begruenden"
 relatedExercise: "linux/shell-praxis/dateien-sicher-bearbeiten/kopieren/cp-a-bei-rechten-und-zeitstempeln-begruenden"
-tags:
-  - "linux"
-  - "betrieb"
-  - "unterthema"
-  - "shell-praxis"
-  - "dateien-sicher-bearbeiten"
-  - "cp-a-bei-rechten-und-zeitstempeln-begruenden"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **cp -a**.

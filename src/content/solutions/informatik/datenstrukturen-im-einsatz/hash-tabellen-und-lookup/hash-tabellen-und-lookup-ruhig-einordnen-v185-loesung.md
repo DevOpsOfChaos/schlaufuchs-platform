@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Hash-Tabellen und Lookup – ruhig einordnen"
 description: "Musterlösung zur Aufgabe über hash-tabellen und lookup."
-subject: informatik
+subject: "informatik"
 section: "Datenstrukturen im Einsatz"
-topicPath:
-  - "datenstrukturen-im-einsatz"
-  - "hash-tabellen-und-lookup"
-  - "loesung"
-taskId: INF-V185-012-1
-relatedExercise: src/content/exercises/informatik/datenstrukturen-im-einsatz/hash-tabellen-und-lookup/hash-tabellen-und-lookup-ruhig-einordnen-v185.md
-tags:
-  - "informatik"
-  - "datenstrukturen-im-einsatz"
-  - "hash-tabellen-und-lookup"
-  - "loesung"
+topicPath: ["datenstrukturen-im-einsatz", "hash-tabellen-und-lookup", "hash-tabellen-und-lookup-ruhig-einordnen-v185"]
+taskId: "INF-V185-012-1"
+relatedExercise: "src/content/exercises/informatik/datenstrukturen-im-einsatz/hash-tabellen-und-lookup/hash-tabellen-und-lookup-ruhig-einordnen-v185.md"
+tags: ["informatik", "Datenstrukturen im Einsatz", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

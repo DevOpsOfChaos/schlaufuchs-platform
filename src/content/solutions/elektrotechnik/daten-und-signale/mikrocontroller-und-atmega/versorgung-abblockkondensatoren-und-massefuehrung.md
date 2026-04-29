@@ -1,24 +1,14 @@
 ---
 title: "Lösung – Versorgung und Abblockung als Fehlerursache prüfen"
 description: "Musterlösung zu versorgung und abblockung als fehlerursache prüfen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - versorgung-abblockkondensatoren-und-massefuehrung
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "versorgung-abblockkondensatoren-und-massefuehrung"]
 taskId: "et-mc-v92-versorgung-abblocken"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/versorgung-abblockkondensatoren-und-massefuehrung"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - versorgung
-  - abblockkondensator
-  - masse
-  - fehlersuche
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Das Symptom hängt klar mit dem Einschalten des Motors zusammen. Dadurch entstehen Lastwechsel und mögliche Spannungseinbrüche. Wenn der Mikrocontroller genau dann neu startet, spricht das eher für Versorgung, Masseführung oder fehlende Entkopplung als für eine zufällige falsche Schleife im Code.

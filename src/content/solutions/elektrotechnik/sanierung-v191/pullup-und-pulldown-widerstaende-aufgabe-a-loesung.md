@@ -3,24 +3,12 @@ title: "Lösung: Pull-up- und Pull-down-Widerstände: Aufgabe A"
 description: "Musterlösung zur Aufgabe etech-v191-017a im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "digitale-schaltungen"
-  - "pullup-und-pulldown-widerstaende"
-  - "loesung-a"
+topicPath: ["sanierung-v191", "pullup-und-pulldown-widerstaende-aufgabe-a"]
 taskId: "etech-v191-017a"
 relatedExercise: "elektrotechnik/sanierung-v191/pullup-und-pulldown-widerstaende-aufgabe-a"
-tags:
-  - "digitale-schaltungen"
-  - "pullup"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-017a`
 
 Ausgangsauftrag: Entscheide, ob ein Taster mit Pull-up oder Pull-down beschrieben ist.

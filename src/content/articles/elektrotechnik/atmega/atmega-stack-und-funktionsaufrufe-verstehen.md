@@ -1,46 +1,19 @@
 ---
-title: ATmega – Stack und Funktionsaufrufe verstehen
-description: Verstehe, warum ein AVR bei Funktionsaufrufen Rücksprungadressen und lokale Zusammenhänge auf dem Stack organisiert und warum das kein abstrakter Zusatz, sondern Programmablauf ist.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - programmablauf-und-speicher
-  - atmega-stack-und-funktionsaufrufe-verstehen
-learningGoals:
-  - Du erklärst die Grundidee des Stacks beim AVR.
-  - Du beschreibst, warum Funktionsaufrufe und Rücksprünge einen Stack brauchen.
-  - Du liest Stackfragen ruhiger als Organisationsproblem des Programmablaufs statt als reinen Spezialbegriff.
-practiceIdeas:
-  - Verfolge bei kleinen Funktionsaufrufen, wohin der AVR nach einem Aufruf zurückkehren muss.
-  - Vergleiche Hauptprogramm, Unterprogramm und Rücksprung als geordneten Ablauf.
-  - Prüfe bei verschachtelten Aufrufen, warum eine Rücksprunglogik gespeichert werden muss.
-commonMistakes:
-  - Den Stack nur als abstrakten Speicherbereich ohne konkrete Aufgabe zu sehen.
-  - Zu denken, der AVR könne nach einer Funktion automatisch „irgendwie“ an die richtige Stelle zurückspringen.
-  - Rücksprungadresse, Daten und Programmablauf durcheinanderzubringen.
-keyTakeaways:
-  - Der Stack organisiert beim AVR wichtige Ablaufinformationen für Aufrufe und Rücksprünge.
-  - Funktionsaufrufe brauchen eine gespeicherte Rücksprungstelle.
-  - Je verschachtelter der Ablauf, desto wichtiger wird eine saubere Stack-Logik.
-recognizeSignals:
-  - Es geht um Funktionen, Unterprogramme, Rücksprünge oder Stack Pointer am AVR.
-  - Du sollst erklären, wie der Mikrocontroller nach einer Funktion an die richtige Stelle zurückkehrt.
-  - In Aufgaben werden Hauptprogramm und Unterprogramm gemeinsam als Ablauf gelesen.
-selfCheckPoints:
-  - Kann ich erklären, warum ein Rücksprung gespeichert werden muss?
-  - Kann ich Stack und normalen Programmtext voneinander trennen?
-  - Kann ich einen verschachtelten Aufruf als geordneten Ablauf beschreiben?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - stack
-  - programmablauf
-level: mittel
+title: "ATmega – Stack und Funktionsaufrufe verstehen"
+description: "Verstehe, warum ein AVR bei Funktionsaufrufen Rücksprungadressen und lokale Zusammenhänge auf dem Stack organisiert und warum das kein abstrakter Zusatz, sondern Programmablauf ist."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-stack-und-funktionsaufrufe-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 Der Stack wirkt im Einstieg oft abstrakt. Für AVR-Programmierung wird er aber schnell konkret, sobald Funktionen oder Unterprogramme ins Spiel kommen. Der Mikrocontroller muss nämlich wissen, **wohin er nach einem Aufruf zurückkehren soll**.
 
 <div class="example-card">

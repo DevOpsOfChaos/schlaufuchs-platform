@@ -3,23 +3,12 @@ title: "Lösung – Pull-up und Pull-down nach Ruhezustand wählen"
 description: "Musterlösung zu Pull-up und Pull-down mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "digitale-eingaenge-und-ausgaenge"
-  - "pegel-und-entprellung"
-  - "pullup"
-  - "pull-up-und-pull-down-nach-ruhezustand-waehlen"
+topicPath: ["digitale-eingaenge-und-ausgaenge", "pegel-und-entprellung", "pullup", "pull-up-und-pull-down-nach-ruhezustand-waehlen"]
 taskId: "v111-elektrotechnik-pull-up-und-pull-down-nach-ruhezustand-waehlen"
 relatedExercise: "elektrotechnik/digitale-eingaenge-und-ausgaenge/pegel-und-entprellung/pullup/pull-up-und-pull-down-nach-ruhezustand-waehlen"
-tags:
-  - "elektrotechnik"
-  - "praxis"
-  - "unterthema"
-  - "digitale-eingaenge-und-ausgaenge"
-  - "pegel-und-entprellung"
-  - "pull-up-und-pull-down-nach-ruhezustand-waehlen"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Pull-up und Pull-down**.

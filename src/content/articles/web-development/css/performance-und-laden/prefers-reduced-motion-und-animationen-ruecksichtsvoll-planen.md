@@ -3,44 +3,17 @@ title: "CSS – prefers-reduced-motion und Animationen rücksichtsvoll planen"
 description: "Plane Animationen so, dass sie Orientierung geben, aber Menschen mit Bewegungsempfindlichkeit nicht stören."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "performance-und-laden"
-  - "prefers-reduced-motion-und-animationen-ruecksichtsvoll-planen"
-tags:
-  - "web development"
-  - "css"
-  - "animation"
-  - "reduced motion"
-  - "accessibility"
-learningGoals:
-  - "Du erklärst, warum Animation nicht nur Dekoration ist."
-  - "Du nutzt prefers-reduced-motion als Rücksicht auf Nutzereinstellungen."
-  - "Du unterscheidest hilfreiche Bewegung und unnötige Unruhe."
-practiceIdeas:
-  - "Übertrage die Idee auf eine kleine eigene Seite."
-  - "Prüfe die Bedienung einmal mit Tastatur und einmal mit Maus."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "Animationen ohne Ausweichzustand zu erzwingen."
-  - "Wichtige Informationen ausschließlich über Bewegung zu vermitteln."
-  - "Sehr lange oder großflächige Bewegungen als Standard zu setzen."
-keyTakeaways:
-  - "Struktur, Zustand und Rückmeldung müssen zusammenpassen."
-  - "Sichtbare Nutzerführung ist Teil der technischen Lösung."
-  - "Saubere Webentwicklung prüft auch Fehlerfälle und Sonderwege."
-recognizeSignals:
-  - "Eine Oberfläche soll verständlicher, robuster oder zugänglicher werden."
-  - "HTML, CSS und JavaScript müssen gemeinsam gelesen werden."
-  - "Es gibt einen Zustand, der sichtbar gemacht oder kontrolliert werden muss."
-selfCheckPoints:
-  - "Kann ich die Entscheidung in einem Satz erklären?"
-  - "Bleibt die Lösung bei Fehlern oder Tastaturbedienung verständlich?"
-  - "Sind sichtbare Texte klar und deutsch formuliert?"
+topicPath: ["css", "performance-und-laden", "prefers-reduced-motion-und-animationen-ruecksichtsvoll-planen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Plane Animationen so, dass sie Orientierung geben, aber Menschen mit Bewegungsempfindlichkeit nicht stören. Die Seite betrachtet das Thema nicht als isolierten Syntaxtrick, sondern als kleine Entscheidung für Bedienbarkeit, Wartbarkeit und verständliche Rückmeldung.

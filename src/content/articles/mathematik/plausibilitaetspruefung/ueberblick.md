@@ -1,35 +1,19 @@
 ---
 title: "Plausibilitätsprüfung"
 description: "Allgemeiner Überblick über Plausibilitätsprüfung als Kontrolle mathematischer Ergebnisse."
-subject: mathematik
+subject: "mathematik"
 section: "Grundlagen"
-topicPath:
-  - "plausibilitaetspruefung"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst Plausibilitätsprüfung als Kontrolle von Ergebnissen."
-  - "Du kannst Größenordnung, Einheit und Kontext als Prüfpunkte einordnen."
-  - "Du verstehst, warum ein rechnerisch entstandenes Ergebnis trotzdem unpassend sein kann."
+topicPath: ["plausibilitaetspruefung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein Ergebnis nur deshalb zu akzeptieren, weil es berechnet wurde."
-  - "Einheiten und Kontext nach der Rechnung zu ignorieren."
-keyTakeaways:
-  - "Plausibilität prüft, ob ein Ergebnis zum Kontext passt."
-  - "Größenordnung, Vorzeichen, Einheit und Randbedingungen sind zentrale Kontrollpunkte."
-recognizeSignals:
-  - "Es geht um Überschlag, Einheiten, Größenordnung, Textaufgaben oder Ergebnisprüfung."
-selfCheckPoints:
-  - "Kann ich erklären, ob mein Ergebnis größer, kleiner oder ungefähr passend sein sollte?"
-level: einfach
-tags:
-  - "mathematik"
-  - "plausibilität"
-  - "prüfung"
-  - "größenordnung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Grundlagen"]
 draft: false
 ---
-
 # Plausibilitätsprüfung
 
 ![Schaubild zur Plausibilitätsprüfung.](/schlaufuchs-platform/images/overviews/v148/plausibilitaetspruefung.svg)

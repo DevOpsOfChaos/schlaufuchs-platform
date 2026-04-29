@@ -1,42 +1,19 @@
 ---
 title: "Grundlagen: Spannungsteiler"
 description: "Allgemeiner Überblick über Teilspannungen, Bezugspunkt und Belastung eines Spannungsteilers."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - "praxis"
-  - "spannungsteiler"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen, bevor du Detailaufgaben bearbeitest."
-  - "Du unterscheidest zentrale Begriffe und typische Fehlerquellen."
-  - "Du erkennst, welche Nachbarseiten und Übungen zu diesem Thema passen."
-practiceIdeas:
-  - "Lies zuerst die Übersicht und markiere die Begriffe, die in Aufgaben wieder auftauchen."
-  - "Formuliere zu jedem Abschnitt eine eigene kurze Prüffrage."
-commonMistakes:
-  - "Direkt mit einem Einzelfall zu beginnen, ohne den allgemeinen Zusammenhang zu klären."
-  - "Mess-, Rechen- und Schaltungsbegriffe zu vermischen."
-  - "Ein einzelnes Beispiel für die komplette Themenlogik zu halten."
-keyTakeaways:
-  - "Ein Spannungsteiler verteilt eine Eingangsspannung auf Widerstände."
-  - "Die Ausgangsspannung ist immer auf einen Bezugspunkt bezogen."
-  - "Eine angeschlossene Last kann das Ergebnis verändern."
-recognizeSignals:
-  - "Du suchst eine ruhige Einordnung statt einer einzelnen Problemsituation."
-  - "Mehrere Detailseiten wirken ähnlich und sollen fachlich sortiert werden."
-selfCheckPoints:
-  - "Kann ich die Grundidee in eigenen Worten erklären?"
-  - "Kann ich typische Fehler benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "spannungsteiler"
-  - "teilspannung"
-  - "last"
+topicPath: ["praxis", "spannungsteiler", "ueberblick", "grundlagen-spannungsteiler"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Praxis"]
 draft: false
 ---
-
 ![Grundlagen: Spannungsteiler](/schlaufuchs-platform/images/overviews/v178/spannungsteiler.svg)
 
 ## Begriff und Zweck

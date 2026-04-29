@@ -3,23 +3,12 @@ title: "Lösung – Event Delegation bei Listen nutzen"
 description: "Musterlösung zu Event Delegation bei Listen nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript-browser"
-  - "events-state-async"
-  - "v110-teil-1"
-  - "event-delegation-bei-listen-nutzen"
+topicPath: ["javascript-browser", "events-state-async", "v110-teil-1", "event-delegation-bei-listen-nutzen"]
 taskId: "v110-web-development-event-delegation-bei-listen-nutzen"
 relatedExercise: "web-development/javascript-browser/events-state-async/v110-teil-1/event-delegation-bei-listen-nutzen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "javascript-browser"
-  - "events-state-async"
-  - "event-delegation-bei-listen-nutzen"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Event Delegation bei Listen nutzen**.

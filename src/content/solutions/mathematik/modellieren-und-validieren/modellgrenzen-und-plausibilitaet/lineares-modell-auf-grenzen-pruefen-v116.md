@@ -3,22 +3,12 @@ title: "Lösung: Lineares Modell auf Grenzen prüfen"
 description: "Musterlösung zur Aufgabe „Lineares Modell auf Grenzen prüfen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "modellieren-und-validieren"
-  - "modellgrenzen-und-plausibilitaet"
-  - "lineares-modell-auf-grenzen-pruefen-v116"
+topicPath: ["modellieren-und-validieren", "modellgrenzen-und-plausibilitaet", "lineares-modell-auf-grenzen-pruefen-v116"]
 taskId: "lineares-modell-auf-grenzen-pruefen-v116"
 relatedExercise: "mathematik/modellieren-und-validieren/modellgrenzen-und-plausibilitaet/lineares-modell-auf-grenzen-pruefen-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "modellgrenzen und plausibilitaet"
-  - "lineares modell auf grenzen pruefen"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

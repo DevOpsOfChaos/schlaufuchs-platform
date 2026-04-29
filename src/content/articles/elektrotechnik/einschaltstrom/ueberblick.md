@@ -3,32 +3,17 @@ title: "Einschaltstrom"
 description: "Allgemeiner Überblick über Einschaltstrom, Anlaufverhalten und Belastung beim Einschalten."
 subject: "elektrotechnik"
 section: "Versorgung"
-topicPath:
-  - "einschaltstrom"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["einschaltstrom", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird nur der Nennstrom aus dem Datenblatt betrachtet. Für reale Systeme müssen Startstrom, Pufferung und Spannungsabfall mitgedacht werden."
-keyTakeaways:
-  - "Einschaltstrom beschreibt den besonderen Moment des Startens. Wer ihn berücksichtigt, vermeidet Sicherungsprobleme, Spannungseinbrüche und instabile Starts."
-  - "Ein niedriger Betriebsstrom garantiert nicht, dass die Versorgung beim Einschalten stabil bleibt. Startvorgänge sind eigene Betriebszustände."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "elektrotechnik"
-  - "einschaltstrom"
-  - "versorgung"
-  - "schutz"
+tags: ["elektrotechnik", "Versorgung"]
 draft: false
 ---
-
 # Einschaltstrom
 
 Einschaltstrom ist der Strom, der unmittelbar nach dem Einschalten einer Schaltung fließt. Er kann deutlich höher sein als der Strom im normalen Betrieb.

@@ -1,36 +1,19 @@
 ---
 title: "Grundlagen: Prozesse und Dienste"
 description: "Allgemeiner Überblick über laufende Programme, Hintergrunddienste, Prozesszustände und typische Verwaltungsfragen unter Linux."
-subject: linux
+subject: "linux"
 section: "System"
-topicPath:
-  - system
-  - prozesse-und-dienste
-  - grundlagen-prozesse-und-dienste-erweitert
-learningGoals:
-  - "Du erklärst Prozesse als laufende Programminstanzen."
-  - "Du beschreibst Dienste als dauerhaft oder im Hintergrund laufende Aufgaben."
-  - "Du ordnest Prozessverwaltung als Beobachten, Starten, Stoppen und Prüfen ein."
+topicPath: ["system", "prozesse-und-dienste", "ueberblick", "grundlagen-prozesse-und-dienste-erweitert"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Programmdatei und laufenden Prozess zu verwechseln."
-  - "Jeden Hintergrundprozess automatisch für einen Dienst zu halten."
-  - "Einen Dienst zu stoppen, ohne Abhängigkeiten oder Zweck zu prüfen."
-keyTakeaways:
-  - "Ein Prozess ist ein laufendes Programm mit eigener Prozess-ID."
-  - "Dienste stellen häufig dauerhaft Systemfunktionen bereit."
-  - "Werkzeuge wie ps, top, systemctl und journalctl zeigen unterschiedliche Blickwinkel."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - "linux"
-  - "prozesse"
-  - "dienste"
-  - "systemd"
+level: "einfach"
+tags: ["linux", "System"]
 draft: false
 ---
-
 ## Begriff
 
 Ein **Prozess** ist ein laufendes Programm. Während eine Programmdatei auf der Festplatte liegt, befindet sich ein Prozess in Ausführung und besitzt eine Prozess-ID, Speicher, Rechte und einen Zustand. Ein **Dienst** ist eine Aufgabe, die häufig im Hintergrund läuft und eine Funktion des Systems bereitstellt.

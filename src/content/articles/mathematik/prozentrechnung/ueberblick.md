@@ -1,34 +1,19 @@
 ---
 title: "Prozentrechnung"
 description: "Überblick über Prozentrechnung als Beschreibung von Anteilen, Veränderungen und Vergleichen."
-subject: mathematik
+subject: "mathematik"
 section: "Grundlagen"
-topicPath:
-  - "prozentrechnung"
-  - "ueberblick"
-learningGoals:
-  - "Du verstehst Prozent als Anteil von hundert."
-  - "Du kannst Grundwert, Prozentwert und Prozentsatz unterscheiden."
-  - "Du erkennst den Unterschied zwischen Prozent und Prozentpunkten."
+topicPath: ["prozentrechnung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Prozentuale Änderungen direkt zu addieren, ohne den Grundwert zu beachten."
-  - "Prozent und Prozentpunkte zu verwechseln."
-keyTakeaways:
-  - "Prozentangaben beziehen sich immer auf einen Grundwert."
-  - "Bei Änderungen ist entscheidend, wovon die Änderung berechnet wird."
-recognizeSignals:
-  - "Es geht um Anteil, Rabatt, Wachstum, Vergleich, Grundwert, Prozentwert oder Prozentsatz."
-selfCheckPoints:
-  - "Kann ich bei einer Prozentangabe sagen, welcher Grundwert gemeint ist?"
-level: einfach
-tags:
-  - "mathematik"
-  - "prozentrechnung"
-  - "grundlagen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Grundlagen"]
 draft: false
 ---
-
 # Prozentrechnung
 
 ![Schaubild zur Prozentrechnung.](/schlaufuchs-platform/images/overviews/v148/prozentrechnung.svg)

@@ -3,23 +3,12 @@ title: "Lösung – Maßstab und Flächenfaktor unterscheiden"
 description: "Musterlösung zu Maßstab und Flächenfaktor mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - "geometrie"
-  - "einheiten-und-skalierung"
-  - "flaechenfaktor"
-  - "massstab-und-flaechenfaktor-unterscheiden"
+topicPath: ["geometrie", "einheiten-und-skalierung", "flaechenfaktor", "massstab-und-flaechenfaktor-unterscheiden"]
 taskId: "v108-mathematik-massstab-und-flaechenfaktor-unterscheiden"
 relatedExercise: "mathematik/geometrie/einheiten-und-skalierung/flaechenfaktor/massstab-und-flaechenfaktor-unterscheiden"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfen"
-  - "geometrie"
-  - "einheiten-und-skalierung"
-  - "maßstab und flächenfaktor"
+tags: ["mathematik", "Geometrie", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **Maßstab und Flächenfaktor**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

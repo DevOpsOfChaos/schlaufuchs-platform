@@ -3,23 +3,12 @@ title: "Lösung – Landmark-Regionen ohne div-Suppe planen"
 description: "Musterlösung zu HTML-Landmarks mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "semantik-und-landmarks"
-  - "seitenregionen"
-  - "landmark-regionen-ohne-div-suppe-planen"
+topicPath: ["html", "semantik-und-landmarks", "seitenregionen", "landmark-regionen-ohne-div-suppe-planen"]
 taskId: "v107-web-development-landmark-regionen-ohne-div-suppe-planen"
 relatedExercise: "web-development/html/semantik-und-landmarks/seitenregionen/landmark-regionen-ohne-div-suppe-planen"
-tags:
-  - "web development"
-  - "html"
-  - "css"
-  - "javascript"
-  - "html-landmarks"
-  - "semantik-und-landmarks"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **HTML-Landmarks**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

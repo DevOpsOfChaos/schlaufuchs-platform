@@ -1,37 +1,19 @@
 ---
 title: "Runtime-Konfiguration"
 description: "Überblick über Einstellungen, die ein Programm zur Laufzeit steuern."
-subject: informatik
+subject: "informatik"
 section: "Konfiguration"
-topicPath:
-  - "runtime-konfiguration"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Runtime-Konfiguration als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["runtime-konfiguration", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Fehlende Konfiguration still mit unsicheren Standardwerten zu ersetzen."
-keyTakeaways:
-  - "Runtime-Konfiguration macht Software umgebungsfähig."
-  - "Konfigurationswerte brauchen Validierung und Schutz."
-  - "Betrieb und Entwicklung profitieren von klaren Defaults und Fehlermeldungen."
-recognizeSignals:
-  - "Eine Anwendung läuft in mehreren Umgebungen."
-  - "Verhalten wird über Umgebungsvariablen oder Dateien gesteuert."
-selfCheckPoints:
-  - "Kann ich Runtime-Konfiguration in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "konfiguration"
-  - "runtime"
-  - "betrieb"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Konfiguration"]
 draft: false
 ---
-
 # Runtime-Konfiguration
 
 Runtime-Konfiguration umfasst Werte, die Verhalten, Verbindungen und Grenzen eines Programms beim Start oder während des Betriebs festlegen.

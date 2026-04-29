@@ -1,32 +1,17 @@
 ---
-title: Systemtakt und F_CPU am AVR ruhig einordnen
-description: Ordne Taktfrequenz, F_CPU und Zeitwirkung in kleinen AVR-Fällen sauber ein.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - takt-und-zeitbasis
-  - atmega-systemtakt-und-f-cpu-verstehen
-  - systemtakt-und-f-cpu-am-avr-ruhig-einordnen
-taskId: ET-ATMEGA-CLK-207
-level: einfach
+title: "Systemtakt und F_CPU am AVR ruhig einordnen"
+description: "Ordne Taktfrequenz, F_CPU und Zeitwirkung in kleinen AVR-Fällen sauber ein."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-systemtakt-und-f-cpu-verstehen", "systemtakt-und-f-cpu-am-avr-ruhig-einordnen"]
+taskId: "ET-ATMEGA-CLK-207"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - elektrotechnik
-  - atmega
-  - takt
-  - f_cpu
-hintPoints:
-  - Trenne Taktfrequenz, Taktzyklus und beobachtete Zeitwirkung.
-  - Frage zuerst, welche gemeinsame Basis Timer, Delay und UART teilen.
-selfCheckPoints:
-  - Kannst du erklären, warum derselbe Code auf anderer Taktbasis anders wirkt?
-  - Kannst du F_CPU als Annahme für Zeitrechnungen einordnen?
-transferIdeas:
-  - Übertrage die Logik auf Timer, UART oder PWM.
-reflectionPrompt: "Welche Fehlersuche würdest du ab jetzt früher auf die Taktbasis zurückführen?"
 ---
-
 Gegeben sind diese zwei Situationen:
 
 ```text

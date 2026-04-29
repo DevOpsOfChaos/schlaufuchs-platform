@@ -1,31 +1,17 @@
 ---
-title: Ausblendung und Layoutwirkung sauber begründen
-description: Begründe, warum opacity, visibility und display trotz ähnlicher Sichtwirkung unterschiedliche Folgen im Layout haben.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - opacity-visibility-und-display-unterscheiden
-  - ausblendung-und-layoutwirkung-sauber-begruenden
-level: mittel
+title: "Ausblendung und Layoutwirkung sauber begründen"
+description: "Begründe, warum opacity, visibility und display trotz ähnlicher Sichtwirkung unterschiedliche Folgen im Layout haben."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "opacity-visibility-und-display-unterscheiden", "ausblendung-und-layoutwirkung-sauber-begruenden"]
+taskId: "AUTO-AUSBLENDUNG-UND-LAYOUTWIRKUNG-SAUBER-BEGRUENDEN"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - css
-  - opacity
-  - visibility
-  - display
-hintPoints:
-  - "Frage immer zuerst, ob der Platz im Layout erhalten bleiben soll."
-  - "Achte darauf, ob Nachbarelemente nachrücken oder eine Lücke bleibt."
-selfCheckPoints:
-  - "Kannst du display none von unsichtbaren, aber platzhaltenden Zuständen trennen?"
-  - "Kannst du die sichtbare Wirkung von der Layoutwirkung unterscheiden?"
-transferIdeas:
-  - "Übertrage die Logik auf Fehlermeldungen, Menüs oder einblendbare Hinweise."
-reflectionPrompt: "Woran merkst du in einer kleinen Oberfläche, dass nicht nur die Sichtbarkeit, sondern auch der Layoutfluss geändert wurde?"
 ---
-
 ## Aufgabe 1: Lücke oder Nachrücken
 
 Unter einem Formularfeld soll eine Fehlermeldung bei Bedarf erscheinen. Ohne Fehler soll die Oberfläche möglichst ruhig bleiben und nicht springen.

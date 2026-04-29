@@ -1,17 +1,19 @@
 ---
-title: Shell-Skripte verstehen
-description: Shell-Skripte bündeln mehrere Terminalbefehle zu wiederverwendbaren Abläufen und sind ein wichtiger Einstieg in Automatisierung unter Linux.
-subject: linux
-section: Grundlagen
-level: mittel
-tags:
-  - Shell-Skripte
-  - Bash
-  - Linux
-  - Automatisierung
+title: "Shell-Skripte verstehen"
+description: "Shell-Skripte bündeln mehrere Terminalbefehle zu wiederverwendbaren Abläufen und sind ein wichtiger Einstieg in Automatisierung unter Linux."
+subject: "linux"
+section: "Grundlagen"
+topicPath: ["grundlagen", "shell-skripte-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["linux", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 Viele Aufgaben im Terminal wiederholen sich: Dateien umbenennen, Informationen sammeln, Programme starten, Ausgaben filtern oder einfache Abläufe nacheinander ausführen. Genau hier helfen Shell-Skripte. Sie erlauben es, mehrere Befehle in einer Datei zu bündeln und als wiederverwendbaren Ablauf zu speichern.

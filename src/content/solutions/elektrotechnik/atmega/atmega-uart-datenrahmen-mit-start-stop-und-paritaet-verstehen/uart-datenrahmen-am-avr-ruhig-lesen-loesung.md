@@ -1,24 +1,14 @@
 ---
-title: Musterlösung – UART-Datenrahmen am AVR ruhig lesen
-description: Musterlösung zur Aufgabe ET-ATMEGA-UART-302.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-kommunikation
-  - atmega-uart-datenrahmen-mit-start-stop-und-paritaet-verstehen
-  - uart-datenrahmen-am-avr-ruhig-lesen-loesung
-taskId: ET-ATMEGA-UART-302
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-uart-datenrahmen-mit-start-stop-und-paritaet-verstehen/uart-datenrahmen-am-avr-ruhig-lesen.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - uart
-  - loesung
+title: "Musterlösung – UART-Datenrahmen am AVR ruhig lesen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-UART-302."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-uart-datenrahmen-mit-start-stop-und-paritaet-verstehen", "uart-datenrahmen-am-avr-ruhig-lesen"]
+taskId: "ET-ATMEGA-UART-302"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-uart-datenrahmen-mit-start-stop-und-paritaet-verstehen/uart-datenrahmen-am-avr-ruhig-lesen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 `8N1` bedeutet: 8 Datenbits, keine Parität und 1 Stoppbit. Diese Kurzform beschreibt also die Struktur eines seriell übertragenen Zeichens und nicht den Inhalt des Zeichens selbst.

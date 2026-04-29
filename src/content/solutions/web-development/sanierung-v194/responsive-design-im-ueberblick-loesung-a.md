@@ -3,25 +3,12 @@ title: "Lösung: Responsive Design im Überblick: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-development-v194-011a im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "responsive-layout"
-  - "responsive-design-im-ueberblick"
-  - "loesung-a"
-
+topicPath: ["sanierung-v194", "responsive-design-im-ueberblick-loesung-a"]
 taskId: "web-development-v194-011a"
 relatedExercise: "web-development/sanierung-v194/responsive-design-im-ueberblick-aufgabe-a"
-tags:
-  - "responsive"
-  - "design"
-  - "ueberblick"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-011a`
 
 Ausgangsauftrag: Skizziere, wie eine Kartenübersicht auf drei Breiten reagieren soll.

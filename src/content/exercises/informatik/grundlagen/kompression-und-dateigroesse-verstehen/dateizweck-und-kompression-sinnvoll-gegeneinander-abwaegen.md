@@ -1,29 +1,17 @@
 ---
-title: Dateizweck und Kompression sinnvoll gegeneinander abwägen
-description: Begründe, warum Dateigröße praktisch wichtig ist und wann verlustfreie oder verlustbehaftete Kompression eher sinnvoll sein kann.
-subject: informatik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - kompression-und-dateigroesse-verstehen
-  - dateizweck-und-kompression-sinnvoll-gegeneinander-abwaegen
-level: einfach
+title: "Dateizweck und Kompression sinnvoll gegeneinander abwägen"
+description: "Begründe, warum Dateigröße praktisch wichtig ist und wann verlustfreie oder verlustbehaftete Kompression eher sinnvoll sein kann."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "kompression-und-dateigroesse-verstehen", "dateizweck-und-kompression-sinnvoll-gegeneinander-abwaegen"]
+taskId: "AUTO-DATEIZWECK-UND-KOMPRESSION-SINNVOLL-GEGENEINANDER-ABWAEGEN"
+tags: ["informatik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - informatik
-  - kompression
-  - dateien
-hintPoints:
-  - "Frage zuerst, wofür die Datei verwendet wird."
-  - "Trenne vollständige Erhaltung und stärkere Verkleinerung."
-selfCheckPoints:
-  - "Kannst du Dateigröße mit Speicher und Übertragung verbinden?"
-  - "Kannst du verlustfrei und verlustbehaftet grob unterscheiden?"
-transferIdeas:
-  - "Übertrage die Logik auf Bilder, Musik, Dokumente oder Backups."
-reflectionPrompt: "Woran merkst du, dass dieselbe Datei je nach Nutzung andere Prioritäten haben kann?"
 ---
-
 ## Aufgabe 1: Zweck begründen
 
 Ein Bild soll einmal archiviert und einmal auf einer Website eingebunden werden.

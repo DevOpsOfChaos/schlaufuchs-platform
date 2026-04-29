@@ -3,35 +3,15 @@ title: "Aufgabe – Funktionsschnittstellen klein und prüfbar halten"
 description: "Übe das Unterthema „Funktionsdesign“ mit einem kleinen, prüfbaren Szenario."
 subject: "informatik"
 section: "Programmierung"
-topicPath:
-  - "programmieren"
-  - "funktionen-und-schnittstellen"
-  - "funktionsschnittstellen-klein-und-pruefbar-halten"
+topicPath: ["programmieren", "funktionen-und-schnittstellen", "funktionsschnittstellen-klein-und-pruefbar-halten"]
 taskId: "v106-informatik-funktionsschnittstellen-klein-und-pruefbar-halten"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "daten"
-  - "algorithmen"
-  - "funktionsdesign"
-  - "programmieren"
-  - "funktionen-und-schnittstellen"
-hintPoints:
-  - "Beginne mit der konkreten Situation, nicht mit einer allgemeinen Regel."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Habe ich das passende Unterthema erkannt?"
-  - "Ist meine Begründung fachlich und sprachlich klar?"
-  - "Würde meine Gegenprobe einen typischen Fehler finden?"
-transferIdeas:
-  - "Ändere einen Randwert und prüfe, ob deine Begründung noch gilt."
-  - "Erkläre die Lösung einmal für Einsteigerinnen und danach fachlich genauer."
-reflectionPrompt: "Welche Abgrenzung macht „Funktionsdesign“ für dich klarer als ein breites Sammelthema?"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Du bekommst ein kleines Szenario zum Unterthema **Funktionsdesign**.

@@ -1,34 +1,19 @@
 ---
 title: "Geometrische Größen"
 description: "Überblick über geometrische Größen wie Länge, Fläche, Volumen, Winkel und Maßstab."
-subject: mathematik
+subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - "geometrische-groessen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Länge, Fläche und Volumen unterscheiden."
-  - "Du verstehst Einheiten als Teil der geometrischen Bedeutung."
-  - "Du erkennst typische Fehler beim Skalieren."
+topicPath: ["geometrische-groessen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Flächen- und Volumenfaktoren wie Längenfaktoren zu behandeln."
-  - "Einheiten bei geometrischen Berechnungen wegzulassen."
-keyTakeaways:
-  - "Geometrische Größen beschreiben unterschiedliche Eigenschaften von Figuren und Körpern."
-  - "Beim Skalieren wachsen Fläche und Volumen anders als Länge."
-recognizeSignals:
-  - "Es geht um Länge, Umfang, Fläche, Volumen, Winkel, Maßstab oder Einheit."
-selfCheckPoints:
-  - "Kann ich erklären, warum eine Verdopplung der Länge die Fläche nicht nur verdoppelt?"
-level: einfach
-tags:
-  - "mathematik"
-  - "geometrie"
-  - "größen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Geometrie"]
 draft: false
 ---
-
 # Geometrische Größen
 
 ![Schaubild zu geometrischen Größen.](/schlaufuchs-platform/images/overviews/v148/geometrische-groessen.svg)

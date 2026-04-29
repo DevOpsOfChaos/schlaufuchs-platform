@@ -1,32 +1,17 @@
 ---
-title: ADC-Referenzspannung sauber einordnen
-description: Ordne ADC-Rohwerte am AVR immer zusammen mit ihrer Referenzspannung und erkläre, warum gleiche Zahlen je nach Referenz etwas anderes bedeuten.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - adc-und-analogwerte
-  - atmega-adc-referenzspannung-avcc-aref-und-intern-unterscheiden
-  - adc-referenzspannung-sauber-einordnen
-taskId: ET-ATMEGA-ADC-306
-level: mittel
+title: "ADC-Referenzspannung sauber einordnen"
+description: "Ordne ADC-Rohwerte am AVR immer zusammen mit ihrer Referenzspannung und erkläre, warum gleiche Zahlen je nach Referenz etwas anderes bedeuten."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-adc-referenzspannung-avcc-aref-und-intern-unterscheiden", "adc-referenzspannung-sauber-einordnen"]
+taskId: "ET-ATMEGA-ADC-306"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - adc
-hintPoints:
-  - Trenne immer Rohwert und Referenz.
-  - Frage zuerst nach dem Messbereich und erst dann nach der Spannung.
-selfCheckPoints:
-  - Kannst du erklären, warum derselbe Rohwert nicht immer dieselbe Spannung meint?
-  - Kannst du Referenzwahl und Messbereich zusammen denken?
-transferIdeas:
-  - Übertrage die Logik auf Sensorsignale und auf verschiedene Versorgungsspannungen.
-reflectionPrompt: "Warum ist beim ADC oft die Referenzfrage wichtiger als die einzelne Zahl?"
 ---
-
 ## Aufgabe 1
 
 Ein AVR liefert den ADC-Rohwert `512`.

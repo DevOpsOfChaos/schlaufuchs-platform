@@ -3,21 +3,12 @@ title: "Lösung – Hysterese bei Temperaturregelung nutzen"
 description: "Musterlösung zu hysterese bei temperaturregelung nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "sensoren-und-aktoren"
-  - "hysterese-bei-temperaturregelung-nutzen"
+topicPath: ["daten-und-signale", "sensoren-und-aktoren", "hysterese-bei-temperaturregelung-nutzen"]
 taskId: "v112-elektrotechnik-hysterese-bei-temperaturregelung-nutzen"
 relatedExercise: "elektrotechnik/daten-und-signale/sensoren-und-aktoren/hysterese-bei-temperaturregelung-nutzen"
-tags:
-  - "elektrotechnik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-signale"
-  - "hysterese-bei-temperaturregelung-nutzen"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Sensoren und Aktoren**.

@@ -3,41 +3,17 @@ title: "Updates und Risikoabschätzung"
 description: "Verstehe sicherheit und stabilität abwägen als ruhigen Linux-Baustein für Betrieb, Diagnose und sichere Änderungen."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "pakete-und-updates"
-  - "updates-und-risikoabschaetzung"
-learningGoals:
-  - "Sicherheit und Stabilität abwägen"
-  - "Beobachtung, Änderung und Kontrolle trennen"
-  - "einen einfachen Rückweg oder Prüfpunkt benennen"
-practiceIdeas:
-  - "Plane ein kleines Updatefenster mit Rückfallplan."
-  - "Formuliere eine zweite Kontrolle, die ohne gefährliche Änderung auskommt."
-commonMistakes:
-  - "Befehle werden ausgeführt, bevor Ziel und aktueller Zustand klar sind."
-  - "Logs, Rechte oder Dienststatus werden isoliert statt gemeinsam gelesen."
-  - "Eine Änderung wird nicht mit Rückweg und Kontrolle dokumentiert."
-keyTakeaways:
-  - "Updates schließen Fehler und Sicherheitslücken."
-  - "Sichere Linux-Adminpraxis arbeitet beobachtbar, schrittweise und reversibel."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn ein Linux-System betrieben, geprüft oder vorsichtig geändert werden muss."
-selfCheckPoints:
-  - "Kann ich Ist-Zustand, geplante Änderung und Kontrollschritt trennen?"
-  - "Ist klar, welcher Benutzer, Dienst, Pfad oder Port betroffen ist?"
-  - "Gibt es einen plausiblen Rückweg, falls die Änderung nicht wirkt?"
+topicPath: ["sanierung-v192", "updates-und-risikoabschaetzung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "pakete-und-updates"
-  - "updates"
-  - "risikoabschaetzung"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
+tags: ["linux", "adminpraxis-und-betrieb"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Updates und Risikoabschätzung](/schlaufuchs-platform/images/linux/sanierung-v192/updates-und-risikoabschaetzung.svg)
 
 Updates und Risikoabschätzung gehört zur Linux-Sanierung v192. Die Seite behandelt das Thema nicht als Befehlsliste, sondern als Betriebsentscheidung: Was ist der aktuelle Zustand, welche Änderung ist wirklich nötig und wie wird danach geprüft, ob das System stabil bleibt?

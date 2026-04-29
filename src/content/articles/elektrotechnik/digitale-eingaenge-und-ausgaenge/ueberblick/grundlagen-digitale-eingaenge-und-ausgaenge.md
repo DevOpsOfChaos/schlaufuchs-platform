@@ -1,37 +1,19 @@
 ---
 title: "Grundlagen: Digitale Eingänge und Ausgänge"
 description: "Allgemeiner Überblick über digitale Pins, Zustände, Richtung, Pegel und typische Ein-/Ausgabeideen am Mikrocontroller."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Digitale Eingänge und Ausgänge"
-topicPath:
-  - digitale-eingaenge-und-ausgaenge
-  - ueberblick
-  - grundlagen-digitale-eingaenge-und-ausgaenge
-learningGoals:
-  - "Du erklärst den Unterschied zwischen Eingang und Ausgang."
-  - "Du beschreibst Pins als Schnittstelle zwischen Mikrocontroller und Außenwelt."
-  - "Du ordnest Pegel, Richtung und Beschaltung als gemeinsame Grundlage ein."
+topicPath: ["digitale-eingaenge-und-ausgaenge", "ueberblick", "grundlagen-digitale-eingaenge-und-ausgaenge"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Einen Pin nur als Zahl im Code zu betrachten."
-  - "Ein- und Ausgang zu vermischen."
-  - "Die äußere Beschaltung beim Lesen eines digitalen Zustands zu ignorieren."
-keyTakeaways:
-  - "Digitale Pins verbinden Software mit elektrischen Signalen."
-  - "Die Pinrichtung legt fest, ob ein Pin gelesen oder aktiv getrieben wird."
-  - "Ohne definierte Beschaltung entstehen leicht unklare Zustände."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - gpio
-  - eingang
-  - ausgang
+level: "einfach"
+tags: ["elektrotechnik", "Digitale Eingänge und Ausgänge"]
 draft: false
 ---
-
 ## Begriff
 
 **Digitale Eingänge und Ausgänge** sind die einfachste Schnittstelle zwischen einem Mikrocontroller und seiner Umgebung. Über sie kann ein Controller Zustände lesen oder Signale ausgeben. Typische Beispiele sind Taster, LEDs, Relais, einfache Sensoren und Steuersignale.

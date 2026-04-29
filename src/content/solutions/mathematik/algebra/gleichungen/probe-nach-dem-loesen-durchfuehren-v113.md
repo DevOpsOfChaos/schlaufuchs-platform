@@ -3,20 +3,12 @@ title: "Lösung – Probe nach dem Lösen durchführen"
 description: "Musterlösung zu Probe nach dem Lösen durchführen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "algebra"
-  - "gleichungen"
-  - "probe-nach-dem-loesen-durchfuehren-v113"
+topicPath: ["algebra", "gleichungen", "probe-nach-dem-loesen-durchfuehren-v113"]
 taskId: "v113-mathematik-probe-nach-dem-loesen-durchfuehren-v113"
 relatedExercise: "mathematik/algebra/gleichungen/probe-nach-dem-loesen-durchfuehren-v113"
-tags:
-  - "mathematik"
-  - "strukturcheck"
-  - "unterthema"
-  - "probe-nach-dem-loesen-durchfuehren-v113"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Probe nach dem Lösen durchführen**.

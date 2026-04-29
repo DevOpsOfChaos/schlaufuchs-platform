@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Dateizugriff als Ablauf ordnen
-description: Musterlösung zur Aufgabe INF-PHP-FILES-001.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - dateizugriff-mit-fopen-fgets-und-fclose-verstehen
-  - dateizugriff-als-ablauf-ordnen-loesung
-taskId: INF-PHP-FILES-001
-relatedExercise: src/content/exercises/informatik/programmierung/php/dateizugriff-mit-fopen-fgets-und-fclose-verstehen/dateizugriff-als-ablauf-ordnen.md
-tags:
-  - informatik
-  - loesung
-  - php
-  - task-id
+title: "Musterlösung – Dateizugriff als Ablauf ordnen"
+description: "Musterlösung zur Aufgabe INF-PHP-FILES-001."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "dateizugriff-mit-fopen-fgets-und-fclose-verstehen", "dateizugriff-als-ablauf-ordnen"]
+taskId: "INF-PHP-FILES-001"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/dateizugriff-mit-fopen-fgets-und-fclose-verstehen/dateizugriff-als-ablauf-ordnen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Sinnvolle Reihenfolge: Datei öffnen → Dateiende prüfen → Zeile lesen → Datei schließen.

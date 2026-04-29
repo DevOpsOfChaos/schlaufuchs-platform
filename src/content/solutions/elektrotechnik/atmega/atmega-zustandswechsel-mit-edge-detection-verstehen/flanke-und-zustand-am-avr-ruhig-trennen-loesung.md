@@ -1,22 +1,14 @@
 ---
-title: Musterlösung – Flanke und Zustand am AVR ruhig trennen
-description: Musterlösung zur Aufgabe ET-ATMEGA-REG-302.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - register-und-bitoperationen
-  - atmega-zustandswechsel-mit-edge-detection-verstehen
-  - flanke-und-zustand-am-avr-ruhig-trennen-loesung
-taskId: ET-ATMEGA-REG-302
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-zustandswechsel-mit-edge-detection-verstehen/flanke-und-zustand-am-avr-ruhig-trennen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
+title: "Musterlösung – Flanke und Zustand am AVR ruhig trennen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-REG-302."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-zustandswechsel-mit-edge-detection-verstehen", "flanke-und-zustand-am-avr-ruhig-trennen"]
+taskId: "ET-ATMEGA-REG-302"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-zustandswechsel-mit-edge-detection-verstehen/flanke-und-zustand-am-avr-ruhig-trennen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Ein Pegel beschreibt den aktuellen Zustand eines Eingangs, also zum Beispiel HIGH oder LOW. Eine Flanke beschreibt dagegen den Übergang von einem Zustand in einen anderen. Fachlich ist eine Flanke also kein Dauerzustand, sondern ein Wechselereignis.

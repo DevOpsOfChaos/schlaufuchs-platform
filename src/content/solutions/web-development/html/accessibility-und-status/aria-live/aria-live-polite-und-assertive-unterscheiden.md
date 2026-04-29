@@ -3,23 +3,12 @@ title: "Lösung – aria-live polite und assertive unterscheiden"
 description: "Musterlösung zu aria-live mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "accessibility-und-status"
-  - "aria-live"
-  - "aria-live-polite-und-assertive-unterscheiden"
+topicPath: ["html", "accessibility-und-status", "aria-live", "aria-live-polite-und-assertive-unterscheiden"]
 taskId: "v108-web-development-aria-live-polite-und-assertive-unterscheiden"
 relatedExercise: "web-development/html/accessibility-und-status/aria-live/aria-live-polite-und-assertive-unterscheiden"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "html"
-  - "accessibility-und-status"
-  - "aria-live"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **aria-live**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

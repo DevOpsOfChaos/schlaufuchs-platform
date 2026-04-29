@@ -3,20 +3,12 @@ title: "Lösung – I2C-Adresse und Datenbyte trennen"
 description: "Musterlösung zu I2C-Adresse und Datenbyte trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "schnittstellen"
-  - "i2c-adresse-und-datenbyte-trennen-v113"
+topicPath: ["mikrocontroller-und-atmega", "schnittstellen", "i2c-adresse-und-datenbyte-trennen-v113"]
 taskId: "v113-elektrotechnik-i2c-adresse-und-datenbyte-trennen-v113"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/schnittstellen/i2c-adresse-und-datenbyte-trennen-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "i2c-adresse-und-datenbyte-trennen-v113"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **I2C-Adresse und Datenbyte trennen**.

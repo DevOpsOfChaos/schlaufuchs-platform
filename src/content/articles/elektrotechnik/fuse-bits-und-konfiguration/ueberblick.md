@@ -3,32 +3,17 @@ title: "Fuse-Bits und Konfiguration"
 description: "Allgemeiner Überblick über dauerhafte Mikrocontroller-Konfigurationen wie Fuse-Bits und ihre Wirkung."
 subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "fuse-bits-und-konfiguration"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["fuse-bits-und-konfiguration", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Fuse-Einstellungen nebenbei geändert, ohne die Folgen zu dokumentieren. Das erschwert Fehlersuche und Wiederherstellung."
-keyTakeaways:
-  - "Fuse-Bits sind kleine Einstellungen mit großer Wirkung. Sie sollten nur bewusst, dokumentiert und mit Blick ins Datenblatt geändert werden."
-  - "Fuse-Bits sind nicht dasselbe wie Flash-Programmcode. Sie beschreiben Rahmenbedingungen, unter denen der Code läuft."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "fuse-bits"
-  - "konfiguration"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
-
 # Fuse-Bits und Konfiguration
 
 Fuse-Bits und ähnliche Konfigurationsspeicher legen grundlegende Eigenschaften eines Mikrocontrollers fest, zum Beispiel Taktquelle, Startverhalten oder Schutzoptionen.

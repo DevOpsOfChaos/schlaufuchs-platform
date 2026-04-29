@@ -1,31 +1,17 @@
 ---
-title: Dateiformat für einen Zweck begründen
-description: Entscheide bei typischen Alltagssituationen, welches Dateiformat für Lesen, Bearbeiten oder Austauschen sinnvoll ist.
-subject: informatik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - dateiformate-und-kompatibilitaet-verstehen
-  - dateiformat-fuer-einen-zweck-begruenden
-level: einfach
+title: "Dateiformat für einen Zweck begründen"
+description: "Entscheide bei typischen Alltagssituationen, welches Dateiformat für Lesen, Bearbeiten oder Austauschen sinnvoll ist."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "dateiformate-und-kompatibilitaet-verstehen", "dateiformat-fuer-einen-zweck-begruenden"]
+taskId: "AUTO-DATEIFORMAT-FUER-EINEN-ZWECK-BEGRUENDEN"
+tags: ["informatik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - dateiformate
-  - kompatibilitaet
-  - dateien
-hintPoints:
-  - "Frage zuerst: Soll die Datei eher gelesen, bearbeitet oder fest weitergegeben werden?"
-  - "Unterscheide Inhalt und Format bewusst in deiner Begründung."
-  - "Achte darauf, ob andere Personen die Datei problemlos nutzen können sollen."
-selfCheckPoints:
-  - "Hast du das Ziel der Datei klar benannt?"
-  - "Begründest du das Format über Nutzung statt nur über Gewohnheit?"
-transferIdeas:
-  - "Übertrage die Aufgabe auf Bilder, Tabellen oder Präsentationen."
-  - "Vergleiche eine Datei für Archivierung mit einer Datei für Zusammenarbeit."
-reflectionPrompt: "Warum ist ein technisch mögliches Format nicht automatisch auch das sinnvollste Format?"
 ---
-
 ## Aufgabe 1: Austausch vorbereiten
 
 Du möchtest ein fertiges Merkblatt an mehrere Personen verschicken. Es soll überall möglichst gleich aussehen.

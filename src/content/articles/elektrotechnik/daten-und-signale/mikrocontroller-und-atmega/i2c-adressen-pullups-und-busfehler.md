@@ -1,49 +1,19 @@
 ---
 title: "Mikrocontroller – I²C-Adressen, Pull-ups und Busfehler erkennen"
 description: "Verstehe, warum I²C-Probleme oft an Adressen, Pull-ups, Buspegeln oder blockierten Leitungen liegen und nicht nur am Bibliotheksaufruf."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - i2c-adressen-pullups-und-busfehler
-learningGoals:
-  - "Du erklärst die Rolle von SDA, SCL, Pull-ups und gemeinsamen Busleitungen."
-  - "Du unterscheidest Adressfehler, Pegelproblem und blockierte Leitung."
-  - "Du beschreibst eine ruhige Reihenfolge zur I²C-Fehlersuche."
-practiceIdeas:
-  - "Prüfe bei einem I²C-Modul zuerst Adresse, Versorgung und Pull-ups."
-  - "Vergleiche 7-Bit-Adresse und Schreibweise mit R/W-Bit."
-  - "Skizziere, was passiert, wenn SDA dauerhaft Low bleibt."
-commonMistakes:
-  - "Eine falsche Adresse sofort als defekten Sensor zu deuten."
-  - "Pull-ups zu vergessen oder mehrfach ungünstig zu kombinieren."
-  - "I²C wie UART als Punkt-zu-Punkt-Verbindung zu lesen."
-keyTakeaways:
-  - "I²C ist ein gemeinsamer Bus mit offenen Leitungen und Pull-ups."
-  - "Adressierung, Pegel und Leitungslage müssen gemeinsam passen."
-  - "Eine blockierte SDA- oder SCL-Leitung kann den ganzen Bus lahmlegen."
-recognizeSignals:
-  - "Es geht um Sensor wird nicht gefunden, I²C-Scanner, Adresse, SDA, SCL oder Pull-up."
-  - "Mehrere Module hängen an denselben zwei Leitungen."
-  - "Eine Aufgabe fragt nach NACK, Bus hängt oder falscher Adresse."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Pull-ups am I²C-Bus dienen?"
-  - "Kann ich eine 7-Bit-Adresse von einer verschobenen Adresse unterscheiden?"
-  - "Kann ich eine Bus-Fehlersuche in sinnvoller Reihenfolge durchführen?"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - i2c
-  - pullup
-  - bus
-  - adresse
-  - fehlersuche
-level: mittel
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "i2c-adressen-pullups-und-busfehler"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-
 ## Grundidee
 
 I²C wirkt einfach, weil nur zwei Signalleitungen genutzt werden. Genau diese Einfachheit führt aber oft zu falschen Annahmen. SDA und SCL sind gemeinsame Busleitungen, deren Pegel über Pull-ups und Teilnehmerverhalten entstehen.

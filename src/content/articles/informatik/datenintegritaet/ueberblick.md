@@ -1,37 +1,19 @@
 ---
 title: "Datenintegrität"
 description: "Überblick über Korrektheit, Vollständigkeit und Widerspruchsfreiheit von Daten."
-subject: informatik
+subject: "informatik"
 section: "Daten"
-topicPath:
-  - "datenintegritaet"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Datenintegrität als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["datenintegritaet", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Daten nur im Frontend zu prüfen und die Persistenz ohne eigene Constraints zu lassen."
-keyTakeaways:
-  - "Datenintegrität entsteht durch Regeln auf mehreren Ebenen."
-  - "Datenbanken, Anwendung und Prozesse tragen gemeinsam dazu bei."
-  - "Fehlerhafte Daten sind oft teurer als abgelehnte Eingaben."
-recognizeSignals:
-  - "Daten widersprechen sich oder verweisen ins Leere."
-  - "Mehrere Systeme ändern denselben Datenbestand."
-selfCheckPoints:
-  - "Kann ich Datenintegrität in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "daten"
-  - "integrität"
-  - "datenbank"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Daten"]
 draft: false
 ---
-
 # Datenintegrität
 
 ![Schaubild zu Datenintegrität.](/schlaufuchs-platform/images/overviews/v149/datenintegritaet.svg)

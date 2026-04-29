@@ -1,46 +1,19 @@
 ---
-title: ATmega – Taster mit Pull-up verstehen
-description: Verstehe, warum ein Tastereingang ohne definierten Pegel unruhig ist und wie der interne Pull-up am ATmega das sauber löst.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - digitale-eingaenge-und-ausgaenge
-  - atmega-taster-mit-pullup-verstehen
-learningGoals:
-  - Du erklärst, warum ein offener Eingang ohne Pull-up problematisch ist.
-  - Du beschreibst die Grundidee eines Tasters gegen Masse mit internem Pull-up.
-  - Du liest Tastercode ruhiger über Ruhezustand und Aktivzustand statt nur über if-Abfragen.
-practiceIdeas:
-  - Vergleiche einen offenen Eingang mit einem Pull-up-Eingang.
-  - Lies Tasterlogik zuerst als Zustandsfrage und dann erst als C-Code.
-  - Erkläre, warum „nicht gedrückt“ und „gedrückt“ an einem Pull-up-Taster invertiert wirken können.
-commonMistakes:
-  - Zu denken, ein nicht beschalteter Eingang liefere schon von selbst einen sauberen Wert.
-  - Den Pull-up mit einem Ausgangs-High zu verwechseln.
-  - Vergessen, dass ein gegen Masse geschalteter Taster oft active low arbeitet.
-keyTakeaways:
-  - Ein Eingang braucht einen definierten Ruhezustand.
-  - Der interne Pull-up sorgt dafür, dass ein offener Tastereingang nicht flottiert.
-  - Bei einem Taster gegen Masse ist gedrückt oft logisch 0.
-recognizeSignals:
-  - Es geht um Taster, Eingänge, Pull-up oder unruhige Pegel.
-  - Im Code wird ein Eingang konfiguriert und über PORTx der Pull-up aktiviert.
-  - In Aufgaben soll erklärt werden, warum ein Taster invertiert gelesen wird.
-selfCheckPoints:
-  - Kann ich erklären, warum ein Eingang ohne Pull-up unruhig sein kann?
-  - Kann ich den Ruhezustand und den gedrückten Zustand eines Pull-up-Tasters benennen?
-  - Kann ich einen Tastercode fachlich korrekt lesen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - taster
-  - pullup
-level: einfach
+title: "ATmega – Taster mit Pull-up verstehen"
+description: "Verstehe, warum ein Tastereingang ohne definierten Pegel unruhig ist und wie der interne Pull-up am ATmega das sauber löst."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-taster-mit-pullup-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 Unbenutzte oder offen gelassene AVR-Eingänge sollten einen definierten Pegel haben; Microchip empfiehlt ausdrücklich, Floating Inputs zu vermeiden und bei Bedarf interne Pull-ups zu aktivieren. Ein Pull-up wird aktiviert, indem ein Pin als Eingang konfiguriert bleibt und gleichzeitig das zugehörige `PORTx`-Bit auf 1 gesetzt wird.
 
 <div class="example-card">

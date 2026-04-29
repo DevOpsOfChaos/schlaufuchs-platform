@@ -3,22 +3,12 @@ title: "Lösung – Web-Projektpraxis – Linting, Formatierung und Code Review 
 description: "Musterlösung zur Aufgabe: Formuliere eine kleine Review-Checkliste für eine Webänderung: Lesbarkeit, Barrierefreiheit, Fehlerzustände und Build-Prüfung."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "struktur-und-qualitaet"
-  - "linting-formatierung-und-code-review-nutzen"
+topicPath: ["projektpraxis", "struktur-und-qualitaet", "linting-formatierung-und-code-review-nutzen"]
 taskId: "web-v100-linting-formatierung-und-code-review-nutzen"
 relatedExercise: "web-development/projektpraxis/struktur-und-qualitaet/linting-formatierung-und-code-review-nutzen"
-tags:
-  - "web development"
-  - "projektpraxis"
-  - "linting"
-  - "formatierung"
-  - "review"
-  - "lösung"
+tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine gute Lösung beginnt nicht mit möglichst viel Code, sondern mit einer klaren Einordnung: Verstehe, wie automatische Prüfungen und kurze Reviews helfen, Stilfragen, Flüchtigkeitsfehler und riskante Änderungen früher zu finden.

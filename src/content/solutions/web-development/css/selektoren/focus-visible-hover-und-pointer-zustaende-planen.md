@@ -1,20 +1,12 @@
 ---
 title: "Lösung – Fokuszustände zugänglich verbessern"
 description: "Musterlösung zu: Verbessere eine Button- und Linkgestaltung, damit Tastaturbedienung sichtbar bleibt."
-subject: web-development
+subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "selektoren"
-  - "focus-visible-hover-und-pointer-zustaende-planen"
+topicPath: ["css", "selektoren", "focus-visible-hover-und-pointer-zustaende-planen"]
 taskId: "wd-css-v95-focus-hover-pointer"
 relatedExercise: "web-development/css/selektoren/focus-visible-hover-und-pointer-zustaende-planen"
-tags:
-  - "web development"
-  - "css"
-  - "focus-visible"
-  - "hover"
-  - "accessibility"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

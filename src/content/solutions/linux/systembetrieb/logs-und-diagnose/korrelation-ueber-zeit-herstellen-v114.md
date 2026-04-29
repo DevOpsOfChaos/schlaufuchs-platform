@@ -1,23 +1,14 @@
 ---
-title: Lösung – Korrelation über Zeit herstellen
-description: Musterlösung zur Aufgabe über Korrelation über Zeit herstellen.
-subject: linux
-section: Feinstruktur Linux
-topicPath:
-- systembetrieb
-- logs-und-diagnose
-- korrelation-ueber-zeit-herstellen-v114
-taskId: v114-linux-korrelation-ueber-zeit-herstellen-v114
-relatedExercise: linux/systembetrieb/logs-und-diagnose/korrelation-ueber-zeit-herstellen-v114
-tags:
-- linux
-- v114
-- loesung
-- systembetrieb
-- logs-und-diagnose
+title: "Lösung – Korrelation über Zeit herstellen"
+description: "Musterlösung zur Aufgabe über Korrelation über Zeit herstellen."
+subject: "linux"
+section: "Feinstruktur Linux"
+topicPath: ["systembetrieb", "logs-und-diagnose", "korrelation-ueber-zeit-herstellen-v114"]
+taskId: "v114-linux-korrelation-ueber-zeit-herstellen-v114"
+relatedExercise: "linux/systembetrieb/logs-und-diagnose/korrelation-ueber-zeit-herstellen-v114"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

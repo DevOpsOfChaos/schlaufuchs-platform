@@ -3,35 +3,15 @@ title: "Aufgabe – Einheitenprobe als Fehlerfilter nutzen"
 description: "Übe Einheitenprobe als Fehlerfilter nutzen mit Einordnung, Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Grundlagen"
-topicPath:
-  - "rechnen-und-schaetzen"
-  - "kopfrechnen-und-plausibilitaet"
-  - "v110-teil-3"
-  - "einheitenprobe-als-fehlerfilter-nutzen"
+topicPath: ["rechnen-und-schaetzen", "kopfrechnen-und-plausibilitaet", "v110-teil-3", "einheitenprobe-als-fehlerfilter-nutzen"]
 taskId: "v110-mathematik-einheitenprobe-als-fehlerfilter-nutzen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfung"
-  - "rechnen-und-schaetzen"
-  - "kopfrechnen-und-plausibilitaet"
-  - "einheitenprobe-als-fehlerfilter-nutzen"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Vergleiche das Thema mit einem Nachbarthema und nenne die Trennkante."
-reflectionPrompt: "Welche kleine Trennkante macht Einheitenprobe als Fehlerfilter nutzen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["mathematik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Einheitenprobe als Fehlerfilter nutzen**.

@@ -1,46 +1,19 @@
 ---
-title: ATmega Zustandswechsel mit Edge Detection verstehen
-description: Verstehe, warum viele Mikrocontroller-Aufgaben nicht den dauerhaften Pegel, sondern den Übergang zwischen zwei Zuständen auswerten.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - register-und-bitoperationen
-  - atmega-zustandswechsel-mit-edge-detection-verstehen
-learningGoals:
-  - Du unterscheidest Pegel und Flanke fachlich sauber.
-  - Du beschreibst Edge Detection als Erkennen eines Zustandswechsels.
-  - Du liest Taster-, Sensor- oder Eingangssignale ruhiger, wenn du Dauerzustand und Übergang trennst.
-practiceIdeas:
-  - Vergleiche einen dauerhaft gedrückten Taster mit dem Moment des Drückens.
-  - Begründe, warum ein Ereignis manchmal nur einmal pro Übergang ausgelöst werden soll.
-  - Lies Flankenerkennung eher als Zustandsvergleich denn als „besonderes Bit“.
-commonMistakes:
-  - Pegel und Flanke gleichzusetzen.
-  - Bei einer dauerhaften Eingabe das Ereignis in jeder Schleife neu auszulösen.
-  - Nur den aktuellen Pinwert zu betrachten und den vorherigen Zustand zu vergessen.
-keyTakeaways:
-  - Ein Pegel beschreibt den aktuellen Zustand.
-  - Eine Flanke beschreibt den Übergang von einem Zustand in einen anderen.
-  - Viele Ereignisse sollen auf den Wechsel reagieren, nicht auf den dauerhaft anliegenden Zustand.
-recognizeSignals:
-  - Es geht um Taster, Trigger, Ereignisse oder das einmalige Auslösen bei Zustandswechseln.
-  - Du sollst erklären, warum ein Ereignis nur beim Übergang und nicht dauerhaft stattfinden soll.
-  - In Beispielen ist der Vergleich zwischen vorher und nachher wichtiger als der einzelne Momentwert.
-selfCheckPoints:
-  - Kann ich Pegel und Flanke sicher unterscheiden?
-  - Kann ich erklären, warum man einen vorherigen Zustand speichern muss?
-  - Kann ich ein einmaliges Ereignis über Zustandswechsel begründen?
-tags:
-  - elektrotechnik
-  - atmega
-  - flanke
-  - eingang
-  - zustand
-level: mittel
+title: "ATmega Zustandswechsel mit Edge Detection verstehen"
+description: "Verstehe, warum viele Mikrocontroller-Aufgaben nicht den dauerhaften Pegel, sondern den Übergang zwischen zwei Zuständen auswerten."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-zustandswechsel-mit-edge-detection-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Viele Mikrocontroller-Aufgaben sollen nicht einfach auf einen dauerhaft anliegenden Zustand reagieren, sondern auf den **Übergang**. Genau dort hilft Edge Detection: Sie trennt den aktuellen Pegel vom eigentlichen Ereignis.

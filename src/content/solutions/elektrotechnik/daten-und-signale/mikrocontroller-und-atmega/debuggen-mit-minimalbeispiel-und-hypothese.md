@@ -3,21 +3,10 @@ title: "Lösung – Fehlersuche mit Minimalbeispiel und Hypothese strukturieren"
 description: "Musterlösung zu „Fehlersuche mit Minimalbeispiel und Hypothese strukturieren“."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "debuggen-mit-minimalbeispiel-und-hypothese"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "debuggen-mit-minimalbeispiel-und-hypothese"]
 taskId: "et-mc-v94-debug-minimalbeispiel"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/debuggen-mit-minimalbeispiel-und-hypothese"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "atmega"
-  - "debugging"
-  - "minimalbeispiel"
-  - "fehlersuche"
-  - "hypothese"
-  - "test"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

@@ -1,16 +1,19 @@
 ---
 title: "cd verstehen"
 description: "Mit cd in andere Ordner wechseln und sich sicher durch das Dateisystem bewegen."
-subject: linux
+subject: "linux"
 section: "Shell / Navigation"
-level: einfach
-tags:
-  - cd
-  - Shell
-  - Navigation
+topicPath: ["shell", "navigation", "cd"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell / Navigation"]
 draft: false
 ---
-
 ## Worum geht es?
 
 Der Befehl `cd` steht für **change directory**.  

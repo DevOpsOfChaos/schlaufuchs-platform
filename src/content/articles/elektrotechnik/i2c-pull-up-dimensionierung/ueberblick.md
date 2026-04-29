@@ -1,36 +1,19 @@
 ---
 title: "I²C-Pull-up-Dimensionierung"
 description: "Die I²C-Pull-up-Dimensionierung legt fest, wie stark die offenen Leitungen SDA und SCL nach High gezogen werden."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schnittstellen"
-topicPath:
-  - "i2c-pull-up-dimensionierung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst I²C-Pull-up-Dimensionierung als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["i2c-pull-up-dimensionierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft werden alle Modul-Pull-ups gleichzeitig aktiv gelassen, wodurch der effektive Widerstand zu klein wird."
-keyTakeaways:
-  - "Die I²C-Pull-up-Dimensionierung legt fest, wie stark die offenen Leitungen SDA und SCL nach High gezogen werden."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um I²C-Pull-up-Dimensionierung, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich I²C-Pull-up-Dimensionierung in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "i2c"
-  - "pull-up"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Schnittstellen"]
 draft: false
 ---
-
 # I²C-Pull-up-Dimensionierung
 
 Die I²C-Pull-up-Dimensionierung legt fest, wie stark die offenen Leitungen SDA und SCL nach High

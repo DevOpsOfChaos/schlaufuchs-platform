@@ -1,23 +1,14 @@
 ---
-title: Lösung – Probe als Teil der Lösung nutzen
-description: Musterlösung zur Aufgabe über Probe als Teil der Lösung nutzen.
-subject: mathematik
-section: Feinstruktur Mathematik
-topicPath:
-- algebra-modelle
-- gleichungen-pruefen
-- probe-als-teil-der-loesung-nutzen-v114
-taskId: v114-mathematik-probe-als-teil-der-loesung-nutzen-v114
-relatedExercise: mathematik/algebra-modelle/gleichungen-pruefen/probe-als-teil-der-loesung-nutzen-v114
-tags:
-- mathematik
-- v114
-- loesung
-- algebra-modelle
-- gleichungen-pruefen
+title: "Lösung – Probe als Teil der Lösung nutzen"
+description: "Musterlösung zur Aufgabe über Probe als Teil der Lösung nutzen."
+subject: "mathematik"
+section: "Feinstruktur Mathematik"
+topicPath: ["algebra-modelle", "gleichungen-pruefen", "probe-als-teil-der-loesung-nutzen-v114"]
+taskId: "v114-mathematik-probe-als-teil-der-loesung-nutzen-v114"
+relatedExercise: "mathematik/algebra-modelle/gleichungen-pruefen/probe-als-teil-der-loesung-nutzen-v114"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

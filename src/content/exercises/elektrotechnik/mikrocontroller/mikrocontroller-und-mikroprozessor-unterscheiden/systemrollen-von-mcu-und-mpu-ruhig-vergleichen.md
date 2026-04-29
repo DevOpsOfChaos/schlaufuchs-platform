@@ -1,31 +1,17 @@
 ---
-title: Systemrollen von Mikrocontroller und Mikroprozessor ruhig vergleichen
-description: Ordne Mikrocontroller und Mikroprozessor als Systemideen ein und begründe, welcher Baustein zu einer Aufgabe ruhiger passt.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - mikrocontroller-und-mikroprozessor-unterscheiden
-  - systemrollen-von-mcu-und-mpu-ruhig-vergleichen
-taskId: ELE-MCU-GEN-101
-level: einfach
+title: "Systemrollen von Mikrocontroller und Mikroprozessor ruhig vergleichen"
+description: "Ordne Mikrocontroller und Mikroprozessor als Systemideen ein und begründe, welcher Baustein zu einer Aufgabe ruhiger passt."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "mikrocontroller-und-mikroprozessor-unterscheiden", "systemrollen-von-mcu-und-mpu-ruhig-vergleichen"]
+taskId: "ELE-MCU-GEN-101"
+tags: ["elektrotechnik", "mikrocontroller", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - mikroprozessor
-hintPoints:
-  - Trenne Recheneinheit und Gesamtsystem bewusst.
-  - Frage zuerst, welche Funktionen schon im Chip liegen sollen.
-selfCheckPoints:
-  - Kannst du begründen, warum ein Mikrocontroller oft als Gesamtsystem ruhiger passt?
-  - Kannst du Mikroprozessoren nicht nur als "größer" beschreiben, sondern systemisch einordnen?
-transferIdeas:
-  - Übertrage die Logik auf Datenlogger, Industrie-HMI oder ein größeres Linux-System.
-reflectionPrompt: "Welche Leitfrage hilft dir mehr als bloß \"welcher Chip ist stärker\"?"
 ---
-
 ## Aufgabe 1: Zwei Begriffe sauber trennen
 
 Erkläre in 3 bis 5 Sätzen den Unterschied zwischen Mikrocontroller und Mikroprozessor.

@@ -1,35 +1,17 @@
 ---
 title: "useradd und usermod"
 description: "Überblick über das Anlegen und Ändern von Benutzerkonten unter Linux."
-subject: linux
+subject: "linux"
 section: "Benutzer und Gruppen"
-topicPath:
-  - "useradd-und-usermod"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst useradd und usermod als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["useradd-und-usermod", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, Benutzer einfach in weitreichende Gruppen aufzunehmen, statt die benötigten Rechte gezielt zu vergeben."
-keyTakeaways:
-  - "useradd legt Benutzerkonten an, usermod verändert bestehende Konten und ihre Eigenschaften."
-  - "Die Werkzeuge bilden eine Grundlage für Zugriffskontrolle, Dienstkonten und saubere Systemadministration."
-  - "Benutzerverwaltung ist nicht nur Befehlssyntax. Sicherheitsmodell, Gruppenstruktur und Auditierbarkeit gehören dazu."
-recognizeSignals:
-  - "Es geht um useradd und usermod, wenn home-Verzeichnis, Login-Shell und UID/GID sind wichtige Kontoeigenschaften."
-  - "Das Thema wird relevant, wenn Beispiele wie ein Dienst kann mit einem eigenen Systembenutzer laufen, damit seine Rechte begrenzt bleiben."
-selfCheckPoints:
-  - "Kann ich useradd und usermod in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "benutzer"
-  - "gruppen"
-  - "administration"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Benutzer und Gruppen"]
 draft: false
 ---
 # useradd und usermod

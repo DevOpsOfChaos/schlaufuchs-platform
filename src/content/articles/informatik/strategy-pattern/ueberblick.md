@@ -1,35 +1,17 @@
 ---
 title: "Strategy Pattern"
 description: "Überblick über das Strategy Pattern zur austauschbaren Kapselung von Algorithmen oder Verhaltensvarianten."
-subject: informatik
+subject: "informatik"
 section: "Entwurfsmuster"
-topicPath:
-  - "strategy-pattern"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Strategy Pattern als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["strategy-pattern", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, Strategien nur als künstliche Klassen aufzubauen, ohne echte Austauschbarkeit zu gewinnen."
-keyTakeaways:
-  - "Das Strategy Pattern kapselt verschiedene Verfahren hinter einer gemeinsamen Schnittstelle."
-  - "Es erlaubt, Verhalten auszutauschen, ohne die nutzende Komponente mit vielen Fallunterscheidungen zu überfrachten."
-  - "Nicht jede if-Abfrage braucht sofort ein Strategy Pattern. Das Muster lohnt sich, wenn Varianten wachsen oder unabhängig testbar sein sollen."
-recognizeSignals:
-  - "Es geht um Strategy Pattern, wenn strategien implementieren dieselbe Aufgabe auf unterschiedliche Weise."
-  - "Das Thema wird relevant, wenn Beispiele wie ein Export kann Strategien für JSON, CSV und HTML besitzen, während der Exportablauf gleich bleibt."
-selfCheckPoints:
-  - "Kann ich Strategy Pattern in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "entwurfsmuster"
-  - "strategy"
-  - "softwaredesign"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Entwurfsmuster"]
 draft: false
 ---
 # Strategy Pattern

@@ -3,35 +3,15 @@ title: "Git und Versionierung im Webprojekt: Grundordnung"
 description: "Teile eine Webprojekt-Änderung in sinnvolle Commit-Schritte auf."
 subject: "web-development"
 section: "werkzeuge"
-topicPath: 
-  - "werkzeuge-und-projektarbeit"
-  - "git-versionierung"
-  - "aufgabe-a"
+topicPath: ["sanierung-v187", "git-und-versionierung-im-webprojekt-aufgabe-a"]
 taskId: "web-v187-029a"
-tags: 
-  - "git"
-  - "versionierung"
-  - "projektarbeit"
-  - "web"
-  - "web-development"
-  - "aufgabe"
-  - "v187"
-hintPoints: 
-  - "Trenne Zweck, Struktur und sichtbare Wirkung."
-  - "Begründe mindestens eine Entscheidung mit dem Nutzerziel."
-  - "Prüfe einen typischen Fehlerfall aus der Erklärseite."
-selfCheckPoints: 
-  - "Die Lösung passt zur Aufgabenstellung."
-  - "Mindestens eine Entscheidung ist begründet."
-  - "Es gibt keine neue Aufgabe ohne passende Lösung."
-transferIdeas: 
-  - "Übertrage die Entscheidung auf eine zweite kleine Seite."
-  - "Formuliere eine kurze Checkliste für spätere Wiederholung."
-reflectionPrompt: "Welche Entscheidung war am wichtigsten, damit die Lösung ruhig und wartbar bleibt?"
+tags: ["web-development", "werkzeuge", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Teile eine Webprojekt-Änderung in sinnvolle Commit-Schritte auf.

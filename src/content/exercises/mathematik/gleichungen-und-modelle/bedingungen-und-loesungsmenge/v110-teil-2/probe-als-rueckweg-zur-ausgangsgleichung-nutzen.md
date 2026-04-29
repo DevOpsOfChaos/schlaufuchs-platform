@@ -3,35 +3,15 @@ title: "Aufgabe – Probe als Rückweg zur Ausgangsgleichung nutzen"
 description: "Übe Probe als Rückweg zur Ausgangsgleichung nutzen mit Einordnung, Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Algebra"
-topicPath:
-  - "gleichungen-und-modelle"
-  - "bedingungen-und-loesungsmenge"
-  - "v110-teil-2"
-  - "probe-als-rueckweg-zur-ausgangsgleichung-nutzen"
+topicPath: ["gleichungen-und-modelle", "bedingungen-und-loesungsmenge", "v110-teil-2", "probe-als-rueckweg-zur-ausgangsgleichung-nutzen"]
 taskId: "v110-mathematik-probe-als-rueckweg-zur-ausgangsgleichung-nutzen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfung"
-  - "gleichungen-und-modelle"
-  - "bedingungen-und-loesungsmenge"
-  - "probe-als-rueckweg-zur-ausgangsgleichung-nutzen"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Vergleiche das Thema mit einem Nachbarthema und nenne die Trennkante."
-reflectionPrompt: "Welche kleine Trennkante macht Probe als Rückweg zur Ausgangsgleichung nutzen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["mathematik", "Algebra", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Probe als Rückweg zur Ausgangsgleichung nutzen**.

@@ -1,35 +1,17 @@
 ---
-title: Speicherleck im Ablauf erkennen
-description: Prüfe in kleinen Beispielen, ob dynamisch reservierter Speicher erreichbar bleibt und später wieder freigegeben werden kann.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - dynamischer-speicher
-  - speicherleck-durch-fehlende-freigabe-verstehen
-  - speicherleck-im-ablauf-erkennen
-taskId: INF-PROG-CPP-MEM-004
-level: mittel
+title: "Speicherleck im Ablauf erkennen"
+description: "Prüfe in kleinen Beispielen, ob dynamisch reservierter Speicher erreichbar bleibt und später wieder freigegeben werden kann."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "speicherleck-durch-fehlende-freigabe-verstehen", "speicherleck-im-ablauf-erkennen"]
+taskId: "INF-PROG-CPP-MEM-004"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - aufgabe
-hintPoints:
-  - "Suche zuerst die Reservierung und dann den Zugriffspfad auf diesen Speicher."
-  - "Achte darauf, ob ein Pointer überschrieben wird, bevor der alte Bereich freigegeben wurde."
-  - "Trenne verlorene Erreichbarkeit und fehlende Freigabe sauber."
-selfCheckPoints:
-  - "Habe ich erklärt, was konkret verloren geht?"
-  - "Habe ich Speicherleck und Dangling Pointer nicht vermischt?"
-  - "Habe ich auf den Lebenszyklus des Bereichs statt nur auf den Pointer geschaut?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf andere Beispiele mit mehreren Reservierungen oder mit ausbleibender Freigabe am Ende."
-reflectionPrompt: "Welche Kippstelle war für dich deutlicher: verlorener Pfad oder fehlender Abschluss?"
 ---
-
 ## Aufgabe 1: Kippstelle benennen
 
 Gegeben ist:

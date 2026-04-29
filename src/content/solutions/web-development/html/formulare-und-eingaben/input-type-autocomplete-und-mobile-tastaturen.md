@@ -3,18 +3,10 @@ title: "Lösung – input type, autocomplete und mobile Tastaturen sinnvoll wäh
 description: "Musterlösung mit kurzer Begründung zur passenden Web-Development-Entscheidung."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "formulare-und-eingaben"
-  - "input-type-autocomplete-und-mobile-tastaturen"
+topicPath: ["html", "formulare-und-eingaben", "input-type-autocomplete-und-mobile-tastaturen"]
 taskId: "input-type-autocomplete-und-mobile-tastaturen"
 relatedExercise: "web-development/html/formulare-und-eingaben/input-type-autocomplete-und-mobile-tastaturen"
-tags:
-  - "web development"
-  - "html"
-  - "formulare"
-  - "autocomplete"
-  - "mobile"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
 ## Musterlösung

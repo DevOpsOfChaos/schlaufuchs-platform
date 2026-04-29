@@ -3,20 +3,12 @@ title: "Lösung – PID vor kill prüfen"
 description: "Musterlösung zu PID vor kill prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "benutzer-und-prozesse"
-  - "pid-vor-kill-pruefen-v113"
+topicPath: ["shell", "benutzer-und-prozesse", "pid-vor-kill-pruefen-v113"]
 taskId: "v113-linux-pid-vor-kill-pruefen-v113"
 relatedExercise: "linux/shell/benutzer-und-prozesse/pid-vor-kill-pruefen-v113"
-tags:
-  - "linux"
-  - "strukturcheck"
-  - "unterthema"
-  - "pid-vor-kill-pruefen-v113"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **PID vor kill prüfen**.

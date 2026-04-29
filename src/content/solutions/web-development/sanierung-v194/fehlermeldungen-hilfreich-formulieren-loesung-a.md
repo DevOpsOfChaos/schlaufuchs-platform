@@ -3,25 +3,12 @@ title: "Lösung: Fehlermeldungen hilfreich formulieren: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-development-v194-009a im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "formulare-und-feedback"
-  - "fehlermeldungen-hilfreich-formulieren"
-  - "loesung-a"
-
+topicPath: ["sanierung-v194", "fehlermeldungen-hilfreich-formulieren-loesung-a"]
 taskId: "web-development-v194-009a"
 relatedExercise: "web-development/sanierung-v194/fehlermeldungen-hilfreich-formulieren-aufgabe-a"
-tags:
-  - "fehlermeldungen"
-  - "hilfreich"
-  - "formulieren"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-009a`
 
 Ausgangsauftrag: Schreibe drei unklare Fehlermeldungen in hilfreiche Meldungen um.

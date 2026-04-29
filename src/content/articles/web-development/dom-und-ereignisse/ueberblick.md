@@ -1,35 +1,19 @@
 ---
 title: "DOM und Ereignisse"
 description: "Allgemeiner Überblick über das Document Object Model und Ereignisse als Grundlage interaktiver Webseiten."
-subject: web-development
+subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "dom-und-ereignisse"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst das DOM als programmierbare Struktur einer Webseite."
-  - "Du kannst Ereignisse als Reaktion auf Nutzer- oder Browseraktionen einordnen."
-  - "Du verstehst die Verbindung zwischen HTML, DOM und JavaScript."
+topicPath: ["dom-und-ereignisse", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Das DOM mit dem ursprünglichen HTML-Text gleichzusetzen."
-  - "Ereignisse ohne Blick auf Ziel, Bubbling und Standardverhalten zu behandeln."
-keyTakeaways:
-  - "Das DOM ist die lebende Objektstruktur der geladenen Seite."
-  - "Ereignisse verbinden Nutzerhandlungen, Browserzustände und JavaScript-Code."
-recognizeSignals:
-  - "Es geht um Klicks, Eingaben, `querySelector`, Event Listener oder dynamische Inhalte."
-selfCheckPoints:
-  - "Kann ich erklären, welches Element ein Ereignis ausgelöst hat?"
-level: einfach
-tags:
-  - "web development"
-  - "javascript"
-  - "dom"
-  - "ereignisse"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 # DOM und Ereignisse
 
 ![Schaubild zum DOM und zu Ereignissen im Browser.](/schlaufuchs-platform/images/overviews/v148/dom-und-ereignisse.svg)

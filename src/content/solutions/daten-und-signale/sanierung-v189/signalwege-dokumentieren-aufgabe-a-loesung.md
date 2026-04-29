@@ -3,22 +3,12 @@ title: "Lösung: Signalwege dokumentieren: Grundordnung"
 description: "Musterlösung zur Aufgabe dat-v189-053a."
 subject: "daten-und-signale"
 section: "systeme"
-topicPath:
-  - "systeme"
-  - "signalwege-dokumentieren"
-  - "loesung-a"
+topicPath: ["sanierung-v189", "signalwege-dokumentieren-aufgabe-a"]
 taskId: "dat-v189-053a"
 relatedExercise: "daten-und-signale/sanierung-v189/signalwege-dokumentieren-aufgabe-a"
-tags:
-  - "signalweg"
-  - "dokumentation"
-  - "system"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "systeme", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-053a`
 
 Eine mögliche Lösung:

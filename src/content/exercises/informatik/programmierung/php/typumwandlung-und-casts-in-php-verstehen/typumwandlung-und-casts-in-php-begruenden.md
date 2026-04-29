@@ -1,30 +1,16 @@
 ---
-title: Typumwandlungen in PHP ruhig erklären
-description: Erkläre, was ein Cast macht und warum explizite Typumwandlung oft klarer als stilles Umdeuten ist.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - typumwandlung-und-casts-in-php-verstehen
-  - typumwandlung-und-casts-in-php-begruenden
-taskId: INF-PHP-ADV-003
-level: einfach
+title: "Typumwandlungen in PHP ruhig erklären"
+description: "Erkläre, was ein Cast macht und warum explizite Typumwandlung oft klarer als stilles Umdeuten ist."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "typumwandlung-und-casts-in-php-verstehen", "typumwandlung-und-casts-in-php-begruenden"]
+taskId: "INF-PHP-ADV-003"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - informatik
-  - aufgabe
-  - php
-  - task-id
-hintPoints:
-  - "Frage zuerst, welche fachliche Rolle im Beispiel wirklich gemeint ist."
-  - "Trenne Begriffe, Ablauf und sichtbares Ergebnis sauber."
-selfCheckPoints:
-  - "Habe ich die zentrale Unterscheidung dieser Seite sauber getroffen?"
-  - "Habe ich meine Begründung nicht nur benannt, sondern erklärt?"
-transferIdeas:
-  - "Übertrage die Idee auf ein kleines Formular- oder Dateibeispiel in PHP."
-reflectionPrompt: "Welche Unterscheidung war in dieser Aufgabe am leichtesten zu verwechseln?"
 ---
 ## Aufgabe 1: Cast lesen
 

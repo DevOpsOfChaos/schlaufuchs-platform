@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Masseführung und Störungen"
 description: "Allgemeiner Überblick über gemeinsame Bezugspunkte, Masseführung und typische Störeinflüsse in Schaltungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schaltungen"
-topicPath:
-  - schaltungen
-  - massefuehrung-und-stoerungen
-  - ueberblick
-learningGoals:
-  - "Du erklärst die Grundidee von Masseführung und Störungen in eigenen Worten."
-  - "Du ordnest typische Begriffe und Fehlerquellen ruhig ein."
-  - "Du erkennst, welche Detailfragen zu diesem Themenbereich gehören."
-practiceIdeas:
-  - "Skizziere den Zusammenhang als kleines Signal-, Strom- oder Ablaufbild."
-  - "Notiere typische Fehlerquellen und prüfe, ob sie elektrisch, logisch oder organisatorisch sind."
-commonMistakes:
-  - "Masse als beliebigen Nullpunkt zu behandeln."
-  - "Rückstrompfade beim Messen zu ignorieren."
-  - "Störungen nur durch Bauteiltausch lösen zu wollen."
-keyTakeaways:
-  - "Masse ist der gemeinsame Bezug einer Schaltung."
-  - "Strom fließt auch über Rückwege."
-  - "Ungünstige Masseführung kann Mess- und Funktionsfehler erzeugen."
-recognizeSignals:
-  - "Du brauchst zuerst Orientierung, bevor du eine konkrete Schaltung oder Aufgabe bewertest."
-  - "Mehrere Einzelfälle wirken ähnlich, aber der gemeinsame fachliche Rahmen fehlt."
-selfCheckPoints:
-  - "Kann ich den Zweck des Themas ohne Formel auswendig zu lernen erklären?"
-  - "Kann ich typische Fehlerquellen in der richtigen Reihenfolge prüfen?"
-level: einfach
-tags:
-  - elektrotechnik
-  - massefuehrung-und-stoerungen
-  - schaltungen
+topicPath: ["schaltungen", "massefuehrung-und-stoerungen", "ueberblick", "grundlagen-massefuehrung-und-stoerungen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Schaltungen"]
 draft: false
 ---
-
 ![Masse als gemeinsamer Bezug](/schlaufuchs-platform/images/overviews/v181/massefuehrung-und-stoerungen.svg)
 
 ## Überblick

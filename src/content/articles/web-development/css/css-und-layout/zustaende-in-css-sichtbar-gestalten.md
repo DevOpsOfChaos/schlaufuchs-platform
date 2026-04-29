@@ -3,44 +3,17 @@ title: "Web Development – Zustände in CSS sichtbar gestalten"
 description: "Lerne zustände in css sichtbar gestalten als kleines Unterthema mit Beispiel, Abgrenzung und Prüfstrategie."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "css"
-  - "css-und-layout"
-  - "zustaende-in-css-sichtbar-gestalten"
-learningGoals:
-  - "Du erklärst zustände in css sichtbar gestalten in einem klaren Kontext."
-  - "Du grenzt das Unterthema von einem typischen Nachbarthema ab."
-  - "Du nutzt eine konkrete Gegenprobe statt nur eine Merkliste."
-practiceIdeas:
-  - "Formuliere ein eigenes Mini-Beispiel mit einer typischen Verwechslung."
-  - "Schreibe einen Prüfschritt auf, der das Ergebnis kontrolliert."
-  - "Ordne das Thema bewusst in den kleinen Unterpfad ein."
-commonMistakes:
-  - "Nur der Normalzustand wird gestaltet."
-  - "Das Thema wird in einem breiten Sammelkapitel versteckt."
-  - "Die Lösung nennt ein Ergebnis, aber keinen prüfbaren Weg."
-keyTakeaways:
-  - "Interaktive Zustände müssen erkennbar und unterscheidbar sein."
-  - "Kleine Unterthemen machen Wiederholung und Suche einfacher."
-  - "Aufgabe und Lösung sollen dieselbe Trennkante verwenden."
-recognizeSignals:
-  - "Eine Aufgabe enthält einen Begriff, der leicht mit einem Nachbarthema verwechselt wird."
-  - "Ein Beispiel braucht vor der Rechnung oder Umsetzung eine Einordnung."
-  - "Eine Gegenprobe kann den gewählten Weg bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich den typischen Fehler fachlich ausschließen?"
-  - "Passt meine Lösung genau zum Unterpfad?"
-tags:
-  - "web-development"
-  - "v112"
-  - "feinstruktur"
-  - "css"
-  - "zustaende-in-css-sichtbar-gestalten"
+topicPath: ["css", "css-und-layout", "zustaende-in-css-sichtbar-gestalten"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "Feinstruktur Web Development"]
 draft: false
 ---
-
 ## Grundidee
 
 **Zustände in CSS sichtbar gestalten** ist bewusst als kleines Unterthema angelegt. Lerne zustände in css sichtbar gestalten als kleines Unterthema mit Beispiel, Abgrenzung und Prüfstrategie. Dadurch bleibt die Seite auffindbar und landet nicht in einem übergroßen Sammelbereich.

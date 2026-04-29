@@ -3,25 +3,12 @@ title: "Lösung: Konfigurationsdateien ändern: Aufgabe A"
 description: "Musterlösung zur Aufgabe linux-v192-025a im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "automatisierung"
-  - "konfigurationsdateien-aendern"
-  - "loesung-a"
+topicPath: ["sanierung-v192", "konfigurationsdateien-aendern-loesung-a"]
 taskId: "linux-v192-025a"
 relatedExercise: "linux/sanierung-v192/konfigurationsdateien-aendern-aufgabe-a"
-tags:
-  - "automatisierung"
-  - "konfigurationsdateien"
-  - "aendern"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-025a`
 
 Ausgangsauftrag: Plane eine sichere Änderung an einer Konfigurationsdatei.

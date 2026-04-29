@@ -1,46 +1,19 @@
 ---
-title: include und require ruhig unterscheiden
-description: Verstehe, wie PHP Dateien einbindet und warum include und require aehnlich wirken, aber unterschiedlich streng reagieren.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - include-und-require-ruhig-unterscheiden
-learningGoals:
-  - Du erklaerst die Grundidee von include und require.
-  - Du beschreibst den Unterschied in der Reaktion auf fehlende Dateien.
-  - Du liest Einbindungen eher ueber ihre Wichtigkeit als ueber reine Syntax.
-practiceIdeas:
-  - Vergleiche Kopfbereiche, Hilfsfunktionen und optionale Infoboxen als eingebundene Dateien.
-  - Frage bei jeder Einbindung zuerst, wie unverzichtbar sie fuer die Seite ist.
-  - Formuliere in Alltagssprache, ob ein fehlender Baustein kritisch oder eher optional ist.
-commonMistakes:
-  - include und require als voellig identisch zu behandeln.
-  - Nicht zu fragen, wie wichtig die eingebundene Datei fuer die Seite ist.
-  - Einbindelogik nur als Technik und nicht als Strukturentscheidung zu sehen.
-keyTakeaways:
-  - include und require binden externe PHP Dateien ein.
-  - require ist strenger, wenn eine notwendige Datei fehlt.
-  - Die ruhigste Unterscheidung lautet oft optionaler Baustein oder unverzichtbarer Kern.
-recognizeSignals:
-  - Es geht um eingebaute Kopf oder Fussbereiche, Hilfsdateien oder Konfigurationen.
-  - Eine Datei wird in PHP in eine andere eingebunden.
-  - Du sollst erklaeren, warum ein fehlender Bestandteil das Programm nur stoert oder ganz stoppt.
-selfCheckPoints:
-  - Kann ich include und require in einfacher Sprache unterscheiden?
-  - Kann ich sagen, wann eine Datei unverzichtbar ist?
-  - Kann ich erklaeren, warum die Einbindung mehr als nur Syntax ist?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - include
-  - require
+title: "include und require ruhig unterscheiden"
+description: "Verstehe, wie PHP Dateien einbindet und warum include und require aehnlich wirken, aber unterschiedlich streng reagieren."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "include-und-require-ruhig-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 PHP Dateien werden oft in kleinere Teile zerlegt, damit Kopfbereiche, Funktionen oder Konfigurationen nicht immer neu geschrieben werden muessen. Beim Einbinden solcher Dateien tauchen haeufig <code>include</code> und <code>require</code> auf.

@@ -3,22 +3,12 @@ title: "Lösung: Verhältnis als Vergleich statt als einzelne Zahl lesen"
 description: "Musterlösung zur Aufgabe „Verhältnis als Vergleich statt als einzelne Zahl lesen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "rechenstrategien-und-kontrolle"
-  - "bruch-prozent-und-verhaeltnis"
-  - "verhaeltnis-als-vergleich-statt-als-einzelne-zahl-lesen-v116"
+topicPath: ["rechenstrategien-und-kontrolle", "bruch-prozent-und-verhaeltnis", "verhaeltnis-als-vergleich-statt-als-einzelne-zahl-lesen-v116"]
 taskId: "verhaeltnis-als-vergleich-statt-als-einzelne-zahl-lesen-v116"
 relatedExercise: "mathematik/rechenstrategien-und-kontrolle/bruch-prozent-und-verhaeltnis/verhaeltnis-als-vergleich-statt-als-einzelne-zahl-lesen-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "bruch prozent und verhaeltnis"
-  - "verhaeltnis als vergleich statt als einzelne zahl lesen"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

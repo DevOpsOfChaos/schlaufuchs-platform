@@ -3,22 +3,12 @@ title: "Lösung: Hardwarezeit und Programmlogik trennen"
 description: "Musterlösung zur Aufgabe „Hardwarezeit und Programmlogik trennen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "mikrocontroller-strukturpraxis"
-  - "timer-und-softtimer"
-  - "hardwarezeit-und-programmlogik-trennen-v116"
+topicPath: ["mikrocontroller-strukturpraxis", "timer-und-softtimer", "hardwarezeit-und-programmlogik-trennen-v116"]
 taskId: "hardwarezeit-und-programmlogik-trennen-v116"
 relatedExercise: "elektrotechnik/mikrocontroller-strukturpraxis/timer-und-softtimer/hardwarezeit-und-programmlogik-trennen-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "timer und softtimer"
-  - "hardwarezeit und programmlogik trennen"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

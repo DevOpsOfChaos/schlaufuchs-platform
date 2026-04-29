@@ -3,36 +3,15 @@ title: "Sensoren und Messketten: Aufgabe B"
 description: "Übertrage das Thema Sensoren und Messketten auf ein zweites Beispiel und formuliere eine kurze Prüfung."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "messung-und-diagnose"
-  - "sensoren-und-messketten"
-  - "aufgabe-b"
-
+topicPath: ["sanierung-v195", "sensoren-und-messketten-aufgabe-b"]
 taskId: "daten-und-signale-v195-024b"
-tags:
-  - "sensoren"
-  - "messketten"
-  - "daten-und-signale"
-  - "aufgabe"
-  - "v195"
-
-hintPoints:
-  - "Beschreibe zuerst Quelle, Einheit und Ziel der Auswertung."
-  - "Trenne Beobachtung, mögliche Ursache und sichere Aussage."
-  - "Lege einen kleinen Kontrollpunkt fest."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Sensoren und Messketten."
-  - "Die Aussage bleibt auf die vorhandenen Daten begrenzt."
-  - "Mindestens ein Risiko oder eine Unsicherheit wird benannt."
-transferIdeas:
-  - "Übertrage den Prüfweg auf ein anderes Messsignal."
-  - "Notiere, welche Metadaten für eine spätere Auswertung fehlen könnten."
-reflectionPrompt: "Welche Annahme wäre in deiner Lösung am leichtesten zu übersehen?"
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Übertrage das Thema Sensoren und Messketten auf ein zweites Beispiel und formuliere eine kurze Prüfung.

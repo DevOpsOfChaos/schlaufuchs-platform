@@ -1,36 +1,19 @@
 ---
 title: "Sensorversorgung und Rauschabstand"
 description: "Sensorversorgung und Rauschabstand beschreiben, wie sauber ein Sensor mit Spannung versorgt wird und wie deutlich sein Nutzsignal über Störungen liegt."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Sensorik"
-topicPath:
-  - "sensorversorgung-und-rauschabstand"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Sensorversorgung und Rauschabstand als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["sensorversorgung-und-rauschabstand", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Viele Fehler werden dem Sensor zugeschrieben, obwohl Versorgung, Masse oder Referenzspannung die eigentliche Ursache sind."
-keyTakeaways:
-  - "Sensorversorgung und Rauschabstand beschreiben, wie sauber ein Sensor mit Spannung versorgt wird und wie deutlich sein Nutzsignal über Störungen liegt."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Sensorversorgung und Rauschabstand, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Sensorversorgung und Rauschabstand in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "sensoren"
-  - "rauschen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Sensorik"]
 draft: false
 ---
-
 # Sensorversorgung und Rauschabstand
 
 Sensorversorgung und Rauschabstand beschreiben, wie sauber ein Sensor mit Spannung versorgt wird

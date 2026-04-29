@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Softtimer am AVR als Zeitmarken-Struktur erklären
-description: Musterlösung zur Aufgabe ET-ATMEGA-PRG-212.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - programmstruktur-und-reaktivitaet
-  - atmega-softtimer-mit-tickzaehler-verstehen
-  - softtimer-am-avr-als-zeitmarken-struktur-erklaeren-loesung
-taskId: ET-ATMEGA-PRG-212
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-softtimer-mit-tickzaehler-verstehen/softtimer-am-avr-als-zeitmarken-struktur-erklaeren.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – Softtimer am AVR als Zeitmarken-Struktur erklären"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-PRG-212."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-softtimer-mit-tickzaehler-verstehen", "softtimer-am-avr-als-zeitmarken-struktur-erklaeren"]
+taskId: "ET-ATMEGA-PRG-212"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-softtimer-mit-tickzaehler-verstehen/softtimer-am-avr-als-zeitmarken-struktur-erklaeren.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Der Hardware-Timer liefert die periodische Grundzeit, zum Beispiel alle 1 ms. Der Tickzähler zählt diese Ereignisse mit und macht sie in Software als Zeitmarken nutzbar.

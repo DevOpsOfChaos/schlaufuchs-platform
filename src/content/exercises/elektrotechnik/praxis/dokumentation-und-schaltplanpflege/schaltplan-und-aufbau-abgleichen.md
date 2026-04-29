@@ -1,28 +1,17 @@
 ---
 title: "Schaltplan und Aufbau abgleichen"
 description: "Prüfe, welche Angaben zwischen realem Aufbau und Schaltplan übereinstimmen müssen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - praxis
-  - dokumentation-und-schaltplanpflege
-taskId: ET-V182-024
-tags:
-  - elektrotechnik
-  - dokumentation-und-schaltplanpflege
-  - sanierung-v182
-hintPoints:
-  - "Lies zuerst den Normalzustand und danach den Fehlerfall."
-  - "Trenne Beobachtung, Vermutung und Gegenprobe."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["praxis", "dokumentation-und-schaltplanpflege", "schaltplan-und-aufbau-abgleichen"]
+taskId: "ET-V182-024"
+tags: ["elektrotechnik", "Praxis", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **Dokumentation und Schaltplanpflege** ruhig und schrittweise.

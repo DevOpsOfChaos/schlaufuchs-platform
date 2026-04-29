@@ -1,33 +1,19 @@
 ---
 title: "Flächeninhalt"
 description: "Einordnung des Flächeninhalts als Maß für die Größe ebener Figuren."
-subject: mathematik
+subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - flaecheninhalt
-  - ueberblick
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen und von verwandten Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte und typische Anwendungsfälle."
-  - "Du erkennst häufige Missverständnisse und prüfst Aussagen auf Plausibilität."
+topicPath: ["flaecheninhalt", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Längeneinheiten und Flächeneinheiten verwechselt."
-keyTakeaways:
-  - "Der Flächeninhalt beschreibt, wie groß eine ebene Fläche ist."
-  - "Die genaue Bedeutung hängt vom Zusammenhang, den Einheiten und den Randbedingungen ab."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Begriffe, Beispiele oder Fehlerbilder aus diesem Bereich erklärt und eingeordnet werden sollen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten erklären, ohne sofort eine Spezialaufgabe zu rechnen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "geometrie"
-  - "flächeninhalt"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Geometrie"]
 draft: false
 ---
-
 # Flächeninhalt
 
 ## Begriff und Zweck

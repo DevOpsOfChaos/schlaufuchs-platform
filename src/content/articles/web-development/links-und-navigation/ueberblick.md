@@ -1,34 +1,19 @@
 ---
 title: "Links und Navigation"
 description: "Einordnung von Links und Navigation als Grundstruktur des Webs."
-subject: web-development
+subject: "web-development"
 section: "HTML und UX"
-topicPath:
-  - links-und-navigation
-  - ueberblick
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen und von verwandten Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte und typische Anwendungsfälle."
-  - "Du erkennst häufige Missverständnisse und prüfst Aussagen auf Plausibilität."
+topicPath: ["links-und-navigation", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, Links nur optisch als Buttons zu gestalten und ihre Bedeutung zu verwischen."
-keyTakeaways:
-  - "Links verbinden Dokumente und Bereiche miteinander."
-  - "Die genaue Bedeutung hängt vom Zusammenhang, den Einheiten und den Randbedingungen ab."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Begriffe, Beispiele oder Fehlerbilder aus diesem Bereich erklärt und eingeordnet werden sollen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten erklären, ohne sofort eine Spezialaufgabe zu rechnen?"
-level: einfach
-tags:
-  - "web development"
-  - "links"
-  - "navigation"
-  - "ux"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML und UX"]
 draft: false
 ---
-
 # Links und Navigation
 
 ## Begriff und Zweck

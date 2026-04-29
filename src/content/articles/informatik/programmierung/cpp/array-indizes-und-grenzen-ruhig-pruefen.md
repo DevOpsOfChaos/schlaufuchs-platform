@@ -1,47 +1,19 @@
 ---
-title: Array-Indizes und Grenzen ruhig prüfen
-description: Verstehe, warum bei Arrays die Indexgrenzen besonders sorgfältig gelesen werden müssen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - arrays
-  - array-indizes-und-grenzen-ruhig-pruefen
-learningGoals:
-  - Du erklärst, warum Array-Indizes bei 0 beginnen und am letzten gültigen Platz enden.
-  - Du erkennst typische Überlauf- und Unterlauffehler in Schleifenbedingungen.
-  - Du liest Array-Zugriffe ruhiger über den Bereich der gültigen Indizes.
-practiceIdeas:
-  - Prüfe Schleifenbedingungen bewusst gegen die Anzahl der Array-Elemente.
-  - Erkläre, warum <code>L &lt; 4</code> etwas anderes ist als <code>L &lt;= 4</code>.
-  - Lies Array-Fehler über gültige und ungültige Positionen statt nur über Compilerverhalten.
-commonMistakes:
-  - Zu glauben, der letzte Index sei gleich der Anzahl der Elemente.
-  - <code>&lt;</code> und <code>&lt;=</code> in Schleifen zu verwechseln.
-  - Sich darauf zu verlassen, dass ein Compiler jeden Arrayfehler automatisch meldet.
-keyTakeaways:
-  - Bei vier Elementen sind nur die Indizes 0 bis 3 gültig.
-  - Ein falscher Grenzvergleich kann über das Array hinaus zugreifen.
-  - Ruhige Bereichsprüfung schützt vor schwer auffindbaren Fehlern.
-recognizeSignals:
-  - Es geht um Schleifen über Arrays, Indexfehler, Grenzen oder ungültige Speicherzugriffe.
-  - Du sollst einen Fehler in einer Schleifenbedingung erklären.
-  - In Beispielen musst du Anzahl der Elemente und letzten gültigen Index unterscheiden.
-selfCheckPoints:
-  - Kann ich aus der Elementanzahl den letzten gültigen Index bestimmen?
-  - Kann ich erklären, warum <code>&lt;=</code> problematisch sein kann?
-  - Kann ich Arraygrenzen vor einem Zugriff ruhig prüfen?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - arrays
-  - fehler
+title: "Array-Indizes und Grenzen ruhig prüfen"
+description: "Verstehe, warum bei Arrays die Indexgrenzen besonders sorgfältig gelesen werden müssen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "array-indizes-und-grenzen-ruhig-pruefen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Arrayfehler entstehen oft nicht durch große Theorie, sondern durch kleine Grenzfehler. Gerade weil der Zugriff so einfach aussieht, lohnt sich eine ruhige Prüfung: Welche Positionen sind wirklich erlaubt?

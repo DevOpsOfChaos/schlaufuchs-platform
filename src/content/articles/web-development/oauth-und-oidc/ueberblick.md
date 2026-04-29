@@ -1,33 +1,19 @@
 ---
 title: "OAuth und OIDC"
 description: "OAuth und OpenID Connect regeln delegierte Zugriffe und Anmeldung über Identitätsanbieter. OAuth beschreibt Autorisierung, OIDC ergänzt Identitätsinformationen."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "oauth-und-oidc"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von OAuth und OIDC."
-  - "Du kannst OAuth und OIDC in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["oauth-und-oidc", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Access Token, ID Token und Session-Cookie zu verwechseln."
-keyTakeaways:
-  - "OAuth und OpenID Connect regeln delegierte Zugriffe und Anmeldung über Identitätsanbieter."
-  - "Wichtig sind vor allem access token und id token, redirect-flows und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um OAuth und OIDC, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu OAuth und OIDC dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "web development"
-  - "grundlagen"
-  - "oauth oidc"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # OAuth und OIDC
 
 OAuth und OpenID Connect regeln delegierte Zugriffe und Anmeldung über Identitätsanbieter. OAuth beschreibt Autorisierung, OIDC ergänzt Identitätsinformationen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

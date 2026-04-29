@@ -1,36 +1,19 @@
 ---
 title: "Register und Bitmasken"
 description: "Allgemeiner Überblick über Register, Bits und Bitmasken bei der Konfiguration von Mikrocontrollern."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "mikrocontroller-register-und-bits"
-  - "register-und-bitmasken"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst Register als steuerbare Speicherstellen in Hardware."
-  - "Du kannst Bitmasken als Werkzeug zum gezielten Setzen und Löschen einordnen."
-  - "Du verstehst, warum einzelne Bits oft unterschiedliche Funktionen haben."
+topicPath: ["mikrocontroller-register-und-bits", "register-und-bitmasken", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein Register wie eine gewöhnliche Variable ohne Nebenwirkung zu behandeln."
-  - "Beim Setzen eines Bits versehentlich andere Bits zu verändern."
-keyTakeaways:
-  - "Register verbinden Softwarebefehle mit Hardwarefunktionen."
-  - "Bitmasken schützen vor unbeabsichtigten Änderungen an Nachbarbits."
-recognizeSignals:
-  - "Es geht um DDR, PORT, PIN, Flags, einzelne Bits oder Konfigurationsfelder."
-selfCheckPoints:
-  - "Kann ich erklären, warum Lesen, Maskieren und Zurückschreiben oft zusammengehören?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "register"
-  - "bitmasken"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
-
 # Register und Bitmasken
 Register sind spezielle Speicherstellen, über die ein Programm Hardware steuert oder ausliest. Bei einem Mikrocontroller können Register festlegen, ob ein Pin Eingang oder Ausgang ist, ob ein Pull-up aktiv ist, ob ein Timer läuft oder ob ein Interrupt ausgelöst wurde. Ein Register ist damit mehr als eine normale Variable: Es ist eine Schnittstelle zur Hardware.
 

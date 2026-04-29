@@ -3,22 +3,12 @@ title: "Lösung: Periodische Signale: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe dat-v189-036b."
 subject: "daten-und-signale"
 section: "analyse"
-topicPath:
-  - "analyse"
-  - "periodische-signale"
-  - "loesung-b"
+topicPath: ["sanierung-v189", "periodische-signale-aufgabe-b"]
 taskId: "dat-v189-036b"
 relatedExercise: "daten-und-signale/sanierung-v189/periodische-signale-aufgabe-b"
-tags:
-  - "periode"
-  - "frequenz"
-  - "signal"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "analyse", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-036b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

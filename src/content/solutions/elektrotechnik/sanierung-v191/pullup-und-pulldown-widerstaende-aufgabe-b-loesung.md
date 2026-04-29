@@ -3,24 +3,12 @@ title: "Lösung: Pull-up- und Pull-down-Widerstände: Aufgabe B"
 description: "Musterlösung zur Aufgabe etech-v191-017b im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "digitale-schaltungen"
-  - "pullup-und-pulldown-widerstaende"
-  - "loesung-b"
+topicPath: ["sanierung-v191", "pullup-und-pulldown-widerstaende-aufgabe-b"]
 taskId: "etech-v191-017b"
 relatedExercise: "elektrotechnik/sanierung-v191/pullup-und-pulldown-widerstaende-aufgabe-b"
-tags:
-  - "digitale-schaltungen"
-  - "pullup"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-017b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Pull-up- und Pull-down-Widerstände“ um einen Messfehler, einen Sicherheitscheck und eine kurze Plausibilitätsprüfung.

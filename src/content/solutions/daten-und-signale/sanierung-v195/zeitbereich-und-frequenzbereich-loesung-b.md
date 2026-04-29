@@ -3,24 +3,12 @@ title: "Lösung: Zeitbereich und Frequenzbereich: Aufgabe B"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-022b im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "signalverarbeitung"
-  - "zeitbereich-und-frequenzbereich"
-  - "loesung-b"
-
+topicPath: ["sanierung-v195", "zeitbereich-und-frequenzbereich-loesung-b"]
 taskId: "daten-und-signale-v195-022b"
 relatedExercise: "daten-und-signale/sanierung-v195/zeitbereich-und-frequenzbereich-aufgabe-b"
-tags:
-  - "zeitbereich"
-  - "frequenzbereich"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-022b`
 
 Ausgangsauftrag: Übertrage das Thema Zeitbereich und Frequenzbereich auf ein zweites Beispiel und formuliere eine kurze Prüfung.

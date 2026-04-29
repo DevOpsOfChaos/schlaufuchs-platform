@@ -3,35 +3,15 @@ title: "Aufgabe – Stützkondensator nahe am IC platzieren"
 description: "Übe Stützkondensator nahe am IC platzieren mit Einordnung, Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "mikrocontroller-system"
-  - "versorgung-reset-takt"
-  - "v110-teil-4"
-  - "stuetzkondensator-nahe-am-ic-platzieren"
+topicPath: ["mikrocontroller-system", "versorgung-reset-takt", "v110-teil-4", "stuetzkondensator-nahe-am-ic-platzieren"]
 taskId: "v110-elektrotechnik-stuetzkondensator-nahe-am-ic-platzieren"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "mikrocontroller-system"
-  - "versorgung-reset-takt"
-  - "stuetzkondensator-nahe-am-ic-platzieren"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Vergleiche das Thema mit einem Nachbarthema und nenne die Trennkante."
-reflectionPrompt: "Welche kleine Trennkante macht Stützkondensator nahe am IC platzieren übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["elektrotechnik", "Mikrocontroller", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Stützkondensator nahe am IC platzieren**.

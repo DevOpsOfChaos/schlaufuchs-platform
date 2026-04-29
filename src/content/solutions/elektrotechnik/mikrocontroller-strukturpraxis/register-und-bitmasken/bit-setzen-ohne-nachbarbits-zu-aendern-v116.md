@@ -3,22 +3,12 @@ title: "Lösung: Bit setzen ohne Nachbarbits zu ändern"
 description: "Musterlösung zur Aufgabe „Bit setzen ohne Nachbarbits zu ändern“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "mikrocontroller-strukturpraxis"
-  - "register-und-bitmasken"
-  - "bit-setzen-ohne-nachbarbits-zu-aendern-v116"
+topicPath: ["mikrocontroller-strukturpraxis", "register-und-bitmasken", "bit-setzen-ohne-nachbarbits-zu-aendern-v116"]
 taskId: "bit-setzen-ohne-nachbarbits-zu-aendern-v116"
 relatedExercise: "elektrotechnik/mikrocontroller-strukturpraxis/register-und-bitmasken/bit-setzen-ohne-nachbarbits-zu-aendern-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "register und bitmasken"
-  - "bit setzen ohne nachbarbits zu aendern"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

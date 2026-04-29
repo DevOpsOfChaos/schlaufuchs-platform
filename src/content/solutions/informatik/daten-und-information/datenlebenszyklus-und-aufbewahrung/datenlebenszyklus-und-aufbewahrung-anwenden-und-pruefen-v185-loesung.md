@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Datenlebenszyklus und Aufbewahrung – anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über datenlebenszyklus und aufbewahrung."
-subject: informatik
+subject: "informatik"
 section: "Daten und Information"
-topicPath:
-  - "daten-und-information"
-  - "datenlebenszyklus-und-aufbewahrung"
-  - "loesung"
-taskId: INF-V185-023-2
-relatedExercise: src/content/exercises/informatik/daten-und-information/datenlebenszyklus-und-aufbewahrung/datenlebenszyklus-und-aufbewahrung-anwenden-und-pruefen-v185.md
-tags:
-  - "informatik"
-  - "daten-und-information"
-  - "datenlebenszyklus-und-aufbewahrung"
-  - "loesung"
+topicPath: ["daten-und-information", "datenlebenszyklus-und-aufbewahrung", "datenlebenszyklus-und-aufbewahrung-anwenden-und-pruefen-v185"]
+taskId: "INF-V185-023-2"
+relatedExercise: "src/content/exercises/informatik/daten-und-information/datenlebenszyklus-und-aufbewahrung/datenlebenszyklus-und-aufbewahrung-anwenden-und-pruefen-v185.md"
+tags: ["informatik", "Daten und Information", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

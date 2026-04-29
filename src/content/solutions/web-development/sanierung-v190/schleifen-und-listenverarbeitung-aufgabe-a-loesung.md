@@ -3,24 +3,12 @@ title: "Lösung: Schleifen und Listenverarbeitung: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-v190-005a im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "kontrollfluss"
-  - "schleifen-und-listenverarbeitung"
-  - "loesung-a"
+topicPath: ["sanierung-v190", "schleifen-und-listenverarbeitung-aufgabe-a"]
 taskId: "web-v190-005a"
 relatedExercise: "web-development/sanierung-v190/schleifen-und-listenverarbeitung-aufgabe-a"
-tags:
-  - "kontrollfluss"
-  - "schleifen"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-005a`
 
 Ausgangsauftrag: Plane eine Schleife, die Produktkarten aus einer Datenliste erzeugt.

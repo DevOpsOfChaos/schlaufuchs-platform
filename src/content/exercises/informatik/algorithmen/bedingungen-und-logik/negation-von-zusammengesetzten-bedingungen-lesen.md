@@ -3,33 +3,15 @@ title: "Aufgabe – Negation von zusammengesetzten Bedingungen lesen"
 description: "Übe negation von zusammengesetzten bedingungen lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "algorithmen"
-  - "bedingungen-und-logik"
-  - "negation-von-zusammengesetzten-bedingungen-lesen"
+topicPath: ["algorithmen", "bedingungen-und-logik", "negation-von-zusammengesetzten-bedingungen-lesen"]
 taskId: "v112-informatik-negation-von-zusammengesetzten-bedingungen-lesen"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "algorithmen"
-  - "negation-von-zusammengesetzten-bedingungen-lesen"
-hintPoints:
-  - "Benenne zuerst das kleine Unterthema."
-  - "Prüfe bewusst den Unterschied zum Fehler: UND und ODER werden beim Verneinen nicht sauber getrennt."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Einordnung enger als nur der breite Fachbereich?"
-  - "Wird der typische Fehler ausdrücklich ausgeschlossen?"
-  - "Passt die Lösung zur Wissensseite?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Begriff und prüfe, ob die gleiche Strategie gilt."
-  - "Erkläre die Lösung einmal alltagssprachlich und danach fachlich sauber."
-reflectionPrompt: "Was war bei „Negation von zusammengesetzten Bedingungen lesen“ die wichtigste Trennkante?"
+tags: ["informatik", "Feinstruktur Informatik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation:

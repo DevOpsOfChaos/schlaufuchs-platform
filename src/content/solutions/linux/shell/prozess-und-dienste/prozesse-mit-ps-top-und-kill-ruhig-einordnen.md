@@ -3,22 +3,12 @@ title: "Lösung – Prozesse mit ps, top und kill ruhig einordnen"
 description: "Musterlösung zur Aufgabe über Prozesse mit Begründung und Gegenprobe."
 subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell"
-  - "prozess-und-dienste"
-  - "prozesse-mit-ps-top-und-kill-ruhig-einordnen"
+topicPath: ["shell", "prozess-und-dienste", "prozesse-mit-ps-top-und-kill-ruhig-einordnen"]
 taskId: "v106-linux-prozesse-mit-ps-top-und-kill-ruhig-einordnen"
 relatedExercise: "linux/shell/prozess-und-dienste/prozesse-mit-ps-top-und-kill-ruhig-einordnen"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "praxis"
-  - "prozesse"
-  - "prozess-und-dienste"
+tags: ["linux", "Shell", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Beobachtung

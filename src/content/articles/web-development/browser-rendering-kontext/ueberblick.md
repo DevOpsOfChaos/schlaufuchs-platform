@@ -1,33 +1,17 @@
 ---
 title: "Browser-Rendering-Kontext"
 description: "Überblick über die Umgebung, in der Browser HTML, CSS, JavaScript, Layout und Barrierefreiheitsinformationen zusammenführen."
-subject: web-development
+subject: "web-development"
 section: "Rendering"
-topicPath:
-  - "browser-rendering-kontext"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Browser-Rendering-Kontext als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["browser-rendering-kontext", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird angenommen, der Browser zeige einfach HTML an. Tatsächlich entstehen mehrere abgeleitete Strukturen, die sich gegenseitig beeinflussen."
-keyTakeaways:
-  - "Der Browser-Rendering-Kontext umfasst mehrere Modelle, die gemeinsam bestimmen, was Nutzende sehen und bedienen können."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um browser-rendering-kontext, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich browser-rendering-kontext in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "web-development"
-  - "browser-rendering-kontext"
-  - "überblick"
-  - "dom"
-  - "cssom"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Rendering"]
 draft: false
 ---
 # Browser-Rendering-Kontext

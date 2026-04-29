@@ -3,24 +3,12 @@ title: "Lösung: RC-Glied als Zeitverhalten: Aufgabe A"
 description: "Musterlösung zur Aufgabe etech-v191-020a im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "zeitverhalten"
-  - "rc-glied-als-zeitverhalten"
-  - "loesung-a"
+topicPath: ["sanierung-v191", "rc-glied-als-zeitverhalten-aufgabe-a"]
 taskId: "etech-v191-020a"
 relatedExercise: "elektrotechnik/sanierung-v191/rc-glied-als-zeitverhalten-aufgabe-a"
-tags:
-  - "zeitverhalten"
-  - "rc"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-020a`
 
 Ausgangsauftrag: Beschreibe den Ladeverlauf eines Kondensators nach dem Einschalten.

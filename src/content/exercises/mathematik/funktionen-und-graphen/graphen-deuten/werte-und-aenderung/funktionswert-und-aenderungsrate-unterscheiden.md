@@ -3,35 +3,15 @@ title: "Aufgabe – Funktionswert und Änderungsrate unterscheiden"
 description: "Übe Funktionswert und Änderungsrate mit Szenario, Trennkante und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "funktionen-und-graphen"
-  - "graphen-deuten"
-  - "werte-und-aenderung"
-  - "funktionswert-und-aenderungsrate-unterscheiden"
+topicPath: ["funktionen-und-graphen", "graphen-deuten", "werte-und-aenderung", "funktionswert-und-aenderungsrate-unterscheiden"]
 taskId: "v111-mathematik-funktionswert-und-aenderungsrate-unterscheiden"
-tags:
-  - "mathematik"
-  - "prüfung"
-  - "unterthema"
-  - "funktionen-und-graphen"
-  - "graphen-deuten"
-  - "funktionswert-und-aenderungsrate-unterscheiden"
-hintPoints:
-  - "Benenne zuerst das genaue Unterthema."
-  - "Schreibe die typische Verwechslung ausdrücklich auf."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Lösung enger als ein breites Kapitel?"
-  - "Wird ein Nachbarthema sauber ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere eine zweite Aufgabe im gleichen Unterthema mit anderer Oberfläche."
-reflectionPrompt: "Welche kleine Trennkante macht Funktionswert und Änderungsrate übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["mathematik", "Feinstruktur Mathematik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Funktionswert und Änderungsrate**.

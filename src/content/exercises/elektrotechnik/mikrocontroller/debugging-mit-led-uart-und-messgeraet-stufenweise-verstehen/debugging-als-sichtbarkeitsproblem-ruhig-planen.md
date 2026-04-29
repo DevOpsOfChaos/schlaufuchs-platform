@@ -1,31 +1,17 @@
 ---
-title: Debugging als Sichtbarkeitsproblem ruhig planen
-description: Plane eine Mikrocontroller-Fehlersuche stufenweise über LED, UART und Messgerät und begründe die Reihenfolge deiner Diagnose.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - debugging-mit-led-uart-und-messgeraet-stufenweise-verstehen
-  - debugging-als-sichtbarkeitsproblem-ruhig-planen
-taskId: ELE-MCU-GEN-106
-level: mittel
+title: "Debugging als Sichtbarkeitsproblem ruhig planen"
+description: "Plane eine Mikrocontroller-Fehlersuche stufenweise über LED, UART und Messgerät und begründe die Reihenfolge deiner Diagnose."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "debugging-mit-led-uart-und-messgeraet-stufenweise-verstehen", "debugging-als-sichtbarkeitsproblem-ruhig-planen"]
+taskId: "ELE-MCU-GEN-106"
+tags: ["elektrotechnik", "mikrocontroller", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - debugging
-hintPoints:
-  - Frage zuerst, welche Beobachtung noch fehlt.
-  - Wähle das einfachste Werkzeug, das genau diese Frage beantworten kann.
-selfCheckPoints:
-  - Kannst du LED, UART und Messgerät als Diagnoseebenen trennen?
-  - Kannst du deine Reihenfolge begründen?
-transferIdeas:
-  - Übertrage die Logik auf Timerprobleme, UART-Empfang oder ADC-Messfehler.
-reflectionPrompt: "Welche Beobachtung würdest du in einem unbekannten System zuerst sichtbar machen?"
 ---
-
 ## Aufgabe 1: Drei Werkzeuge zuordnen
 
 Ordne LED, UART und Messgerät jeweils der Frage zu, die sie besonders ruhig beantworten können.

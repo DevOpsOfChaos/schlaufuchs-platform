@@ -1,32 +1,17 @@
 ---
 title: "Pessimistic Locking"
 description: "Überblick über Sperren, die konkurrierende Zugriffe bereits vor einer Änderung begrenzen."
-subject: informatik
+subject: "informatik"
 section: "Datenbanken"
-topicPath:
-  - "pessimistic-locking"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Pessimistic Locking als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Sperrmodus, Transaktion, Wartezeit."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["pessimistic-locking", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Sperren als immer sicherer und günstiger als Konflikterkennung zu betrachten."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Pessimistic Locking beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Sperrstrategien in Datenbanken."
-  - "Wichtige Hinweise liefern vor allem Sperrmodus, Transaktion, Wartezeit."
-recognizeSignals:
-  - "Es geht um sperrstrategien in datenbanken, sperrmodus oder transaktion."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Pessimistic Locking erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "informatik"
-  - "datenbanken"
-  - "locks"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Datenbanken"]
 draft: false
 ---
 # Pessimistic Locking

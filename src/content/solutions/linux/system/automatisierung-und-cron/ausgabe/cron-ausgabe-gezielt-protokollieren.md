@@ -3,23 +3,12 @@ title: "Lösung – Cron-Ausgabe gezielt protokollieren"
 description: "Musterlösung zu Cron-Logging mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "system"
-  - "automatisierung-und-cron"
-  - "ausgabe"
-  - "cron-ausgabe-gezielt-protokollieren"
+topicPath: ["system", "automatisierung-und-cron", "ausgabe", "cron-ausgabe-gezielt-protokollieren"]
 taskId: "v111-linux-cron-ausgabe-gezielt-protokollieren"
 relatedExercise: "linux/system/automatisierung-und-cron/ausgabe/cron-ausgabe-gezielt-protokollieren"
-tags:
-  - "linux"
-  - "betrieb"
-  - "unterthema"
-  - "system"
-  - "automatisierung-und-cron"
-  - "cron-ausgabe-gezielt-protokollieren"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Cron-Logging**.

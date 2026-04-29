@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Fehlerursache von Folgefehler trennen"
 description: "Musterlösung zu Fehlerursache von Folgefehler trennen mit Trennkante und Gegenprobe."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "programmierpraxis-v115"
-  - "debugging-klein"
-  - "fehlerursache-von-folgefehler-trennen-v115"
+topicPath: ["programmierpraxis-v115", "debugging-klein", "fehlerursache-von-folgefehler-trennen-v115"]
 taskId: "informatik-fehlerursache-von-folgefehler-trennen-v115"
 relatedExercise: "informatik/programmierpraxis-v115/debugging-klein/fehlerursache-von-folgefehler-trennen-v115"
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "programmierpraxis"
-  - "debugging klein schneiden"
-  - "lösung"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Fehlerursache von Folgefehler trennen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

@@ -1,39 +1,19 @@
 ---
 title: "Grundlagen: Stromversorgung und Brown-out"
 description: "Ein allgemeiner Überblick darüber, warum Mikrocontroller eine stabile Versorgung brauchen und was Brown-out bedeutet."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - mikrocontroller-und-atmega
-  - stromversorgung-und-brownout
-  - ueberblick
-learningGoals:
-  - "Du erklärst, warum Versorgungsspannung für Mikrocontroller grundlegend ist."
-  - "Du beschreibst Brown-out als problematischen Unterspannungszustand."
-  - "Du ordnest Reset, Stabilität und Fehlverhalten zusammen ein."
-practiceIdeas:
-  - "Vergleiche einen sauberen Start mit einem Start bei instabiler Spannung."
-  - "Beschreibe, was bei einem kurzen Spannungseinbruch passieren kann."
-commonMistakes:
-  - "Softwarefehler zu vermuten, obwohl die Versorgung instabil ist."
-  - "Brown-out nur als kompletten Stromausfall zu verstehen."
-keyTakeaways:
-  - "Mikrocontroller benötigen eine Versorgung innerhalb erlaubter Grenzen."
-  - "Brown-out bezeichnet einen gefährlichen Bereich zu niedriger Spannung."
-recognizeSignals:
-  - "Ein Mikrocontroller startet unzuverlässig oder hängt scheinbar zufällig."
-  - "Es geht um Reset, Spannungseinbruch oder Startverhalten."
-selfCheckPoints:
-  - "Kann ich Brown-out von einem normalen Ausschalten unterscheiden?"
-  - "Kann ich typische Symptome instabiler Versorgung benennen?"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - stromversorgung
-level: mittel
+topicPath: ["mikrocontroller-und-atmega", "stromversorgung-und-brownout", "ueberblick", "grundlagen-stromversorgung-und-brownout"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
-
 ## Begriff
 
 Die **Stromversorgung** stellt einem Mikrocontroller die elektrische Energie bereit, die er zum Rechnen, Speichern und Schalten benötigt. Ein **Brown-out** ist ein Zustand, in dem die Versorgungsspannung zu niedrig ist, aber nicht vollständig verschwunden sein muss.

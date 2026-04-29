@@ -3,25 +3,12 @@ title: "Lösung: Performance-Grundlagen im Frontend: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-development-v194-023b im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "performance-und-medien"
-  - "performance-grundlagen-im-frontend"
-  - "loesung-b"
-
+topicPath: ["sanierung-v194", "performance-grundlagen-im-frontend-loesung-b"]
 taskId: "web-development-v194-023b"
 relatedExercise: "web-development/sanierung-v194/performance-grundlagen-im-frontend-aufgabe-b"
-tags:
-  - "performance"
-  - "grundlagen"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-023b`
 
 Ausgangsauftrag: Übertrage das Thema Performance-Grundlagen im Frontend auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

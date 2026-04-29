@@ -3,43 +3,17 @@ title: "Datenpipeline im Kleinen"
 description: "Verstehe vom rohwert zur entscheidung strukturieren als ruhigen Baustein für Daten, Signale, Messung und Übertragung."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "auswertung-und-kommunikation"
-  - "datenpipeline-im-kleinen"
-
-learningGoals:
-  - "Vom Rohwert zur Entscheidung strukturieren"
-  - "Rohdaten, Darstellung und Interpretation sauber trennen"
-  - "einen kleinen prüfbaren nächsten Schritt formulieren"
-practiceIdeas:
-  - "Plane eine kleine Pipeline für Raumklimadaten."
-  - "Prüfe denselben Gedanken an einem zweiten Signalbeispiel."
-commonMistakes:
-  - "Rohwerte werden vorschnell als fertige Information gelesen."
-  - "Ein einzelnes Diagramm wird ohne Messkontext bewertet."
-  - "Einheiten, Zeitbezug oder Codierung bleiben unausgesprochen."
-keyTakeaways:
-  - "Eine Pipeline trennt Erfassen, Bereinigen, Auswerten und Darstellen."
-  - "Jede Stufe braucht Eingabe und Ausgabe."
-  - "Zwischenergebnisse machen Fehler leichter auffindbar."
-
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Messwerte, Übertragung oder Darstellung nicht mehr eindeutig lesbar sind."
-selfCheckPoints:
-  - "Kann ich beschreiben, welche Größe tatsächlich gemessen oder übertragen wird?"
-  - "Sind Einheit, Zeitbezug und Codierung benannt?"
-  - "Gibt es einen Kontrollpunkt gegen Fehlinterpretation?"
+topicPath: ["sanierung-v195", "datenpipeline-im-kleinen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
-tags:
-  - "datenpipeline"
-  - "kleinen"
-  - "daten-und-signale"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Datenpipeline im Kleinen](/schlaufuchs-platform/images/daten-und-signale/sanierung-v195/datenpipeline-im-kleinen.svg)
 
 Datenpipeline im Kleinen gehört zur Daten-und-Signale-Sanierung v195. Die Seite behandelt das Thema als ruhigen Arbeitsbaustein: Erst wird geklärt, welches Signal oder welche Daten vorliegen, dann wird entschieden, wie sie dargestellt, übertragen oder ausgewertet werden.

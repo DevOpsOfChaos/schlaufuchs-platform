@@ -1,31 +1,17 @@
 ---
 title: "Motoren und H-Brücke"
 description: "Allgemeiner Überblick über Gleichstrommotoren, Drehrichtung und H-Brücken als Treiberschaltung."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Leistungselektronik"
-topicPath:
-  - "motoren-und-h-bruecke"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Motoren und H-Brücke grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["motoren-und-h-bruecke", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Motoren und H-Brücke nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Motoren und H-Brücke beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Motoren und H-Brücke, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Motoren und H-Brücke in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "motor"
-  - "h-bruecke"
-  - "mikrocontroller"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Leistungselektronik"]
 draft: false
 ---
 # Motoren und H-Brücke

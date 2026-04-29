@@ -1,32 +1,15 @@
 ---
 title: "CSS – starre Abstände in flexible Werte übersetzen"
 description: "Verbessere ein Kartenlayout mit minmax und clamp, damit es ruhiger reagiert."
-subject: web-development
+subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "box-modell"
-  - "minmax-clamp-und-responsive-abstaende-planen"
+topicPath: ["css", "box-modell", "minmax-clamp-und-responsive-abstaende-planen"]
 taskId: "wd-css-v95-minmax-clamp-responsive"
-tags:
-  - "web development"
-  - "css"
-  - "responsive"
-  - "clamp"
-  - "grid"
-hintPoints:
-  - "Trenne zuerst sichtbares Verhalten, semantische Bedeutung und technische Umsetzung."
-  - "Begründe deine Entscheidung aus Nutzerperspektive, nicht nur aus Code-Sicht."
-  - "Prüfe am Ende, ob die Lösung ohne Ratespiel verständlich bleibt."
-selfCheckPoints:
-  - "Ist der betroffene UI-Baustein eindeutig benannt?"
-  - "Ist die technische Entscheidung fachlich begründet?"
-  - "Gibt es eine klare Verbesserung gegenüber dem Ausgangszustand?"
-transferIdeas:
-  - "Übertrage die Entscheidung auf eine zweite Komponente derselben Seite."
-  - "Formuliere eine kurze Prüfregel, die ein Team beim Review verwenden könnte."
-reflectionPrompt: "Welche kleine Änderung hätte hier die größte Wirkung auf Verständlichkeit oder Zugänglichkeit?"
-level: mittel
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
 ## Ausgangslage

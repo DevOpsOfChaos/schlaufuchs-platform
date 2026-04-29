@@ -1,46 +1,19 @@
 ---
-title: ATmega – UART Polling und Interrupt unterscheiden
-description: Verstehe, warum UART-Empfang am AVR entweder aktiv abgefragt oder ereignisgesteuert verarbeitet werden kann und warum das im Programm spürbar unterschiedliche Folgen hat.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - uart-und-serielle-schnittstellen
-  - atmega-uart-polling-und-interrupt-unterscheiden
-learningGoals:
-  - Du erklärst den Unterschied zwischen UART-Polling und UART-Interrupt fachlich sauber.
-  - Du beschreibst die Folgen für Reaktivität und Programmstruktur am AVR.
-  - Du liest UART-Code eher als Verarbeitungsstrategie als nur als Registerzugriff.
-practiceIdeas:
-  - Vergleiche ein UART-Programm mit ständigem Registerprüfen und ein UART-Programm mit ISR.
-  - Prüfe, was während langer Wartezeiten beim Polling leicht übersehen werden kann.
-  - Lies UART-Empfang zuerst als Zeit- und Reaktionsfrage und erst danach als C-Code.
-commonMistakes:
-  - Zu denken, Polling und Interrupt seien nur zwei Schreibweisen für dieselbe Programmlogik.
-  - Polling automatisch als falsch oder Interrupt automatisch als immer besser zu behandeln.
-  - Reaktionsprobleme nur der Baudrate statt der gewählten Struktur zuzuschreiben.
-keyTakeaways:
-  - Polling fragt aktiv nach einem neuen UART-Ereignis.
-  - Interrupts reagieren ereignisgesteuert und entlasten die Hauptschleife von ständigem Nachfragen.
-  - Welche Strategie ruhiger ist, hängt von Reaktivität, Einfachheit und restlicher Programmstruktur ab.
-recognizeSignals:
-  - Es geht um RXC, Empfangen, Wartezeiten oder eine UART-Quelle, die sporadisch Zeichen liefert.
-  - Du sollst begründen, warum ein Zeichen aktiv geprüft oder per ISR verarbeitet wird.
-  - In Aufgaben ist die Strukturfrage wichtiger als die bloße Registerliste.
-selfCheckPoints:
-  - Kann ich Polling und Interrupt als unterschiedliche Strategien erklären?
-  - Kann ich sagen, wann einfaches Polling noch vertretbar ist?
-  - Kann ich begründen, warum ein Interrupt die Hauptschleife ruhiger halten kann?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - uart
-  - interrupt
-level: mittel
+title: "ATmega – UART Polling und Interrupt unterscheiden"
+description: "Verstehe, warum UART-Empfang am AVR entweder aktiv abgefragt oder ereignisgesteuert verarbeitet werden kann und warum das im Programm spürbar unterschiedliche Folgen hat."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-uart-polling-und-interrupt-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Wenn der AVR über UART ein Zeichen empfangen soll, gibt es mindestens zwei ruhige Denkweisen:

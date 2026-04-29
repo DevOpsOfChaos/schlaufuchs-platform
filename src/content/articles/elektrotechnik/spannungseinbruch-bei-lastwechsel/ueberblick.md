@@ -3,32 +3,17 @@ title: "Spannungseinbruch bei Lastwechsel"
 description: "Allgemeiner Überblick über spannungseinbruch bei lastwechsel und die wichtigsten Zusammenhänge."
 subject: "elektrotechnik"
 section: "Versorgung"
-topicPath:
-  - "spannungseinbruch-bei-lastwechsel"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["spannungseinbruch-bei-lastwechsel", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird nur der mittlere Strom betrachtet, obwohl kurze Spitzenströme das Problem auslösen."
-keyTakeaways:
-  - "Spannungseinbrüche sind typische reale Fehlerquellen und müssen bei Lastwechseln mitgedacht werden."
-  - "Ein Spannungseinbruch ist nicht automatisch ein Defekt der Last. Oft zeigt er Grenzen der Versorgung oder Verdrahtung."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "elektrotechnik"
-  - "versorgung"
-  - "lastwechsel"
-  - "spannung"
+tags: ["elektrotechnik", "Versorgung"]
 draft: false
 ---
-
 # Spannungseinbruch bei Lastwechsel
 
 Ein Spannungseinbruch entsteht, wenn eine Versorgung bei plötzlich steigendem Strombedarf kurzfristig nicht stabil bleibt.

@@ -3,22 +3,12 @@ title: "Lösung – Datenschutzfreundliche Analyse ohne Trackingballast"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Projektpraxis-Aufgabe."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "datenschutzfreundliche-analyse-ohne-trackingballast"
-tags:
-  - "web development"
-  - "datenschutz"
-  - "analytics"
-  - "performance"
-  - "vertrauen"
-  - "lösung"
+topicPath: ["projektpraxis", "betrieb-und-release", "datenschutzfreundliche-analyse-ohne-trackingballast"]
 taskId: "web-v105-datenschutzfreundliche-analyse-ohne-trackingballast"
 relatedExercise: "web-development/projektpraxis/betrieb-und-release/datenschutzfreundliche-analyse-ohne-trackingballast"
+tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Eine gute Lösung beginnt mit der Nutzer- oder Wartungssituation. Das Problem wird nicht nur als technische Kleinigkeit behandelt, sondern als Risiko für Verständlichkeit, Betrieb oder spätere Änderung.

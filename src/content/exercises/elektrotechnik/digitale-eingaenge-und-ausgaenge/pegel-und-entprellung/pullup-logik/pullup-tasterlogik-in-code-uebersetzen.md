@@ -3,35 +3,15 @@ title: "Aufgabe – Pull-up-Tasterlogik in Code übersetzen"
 description: "Übe Pull-up-Code mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "elektrotechnik"
 section: "Digitaltechnik"
-topicPath:
-  - "digitale-eingaenge-und-ausgaenge"
-  - "pegel-und-entprellung"
-  - "pullup-logik"
-  - "pullup-tasterlogik-in-code-uebersetzen"
+topicPath: ["digitale-eingaenge-und-ausgaenge", "pegel-und-entprellung", "pullup-logik", "pullup-tasterlogik-in-code-uebersetzen"]
 taskId: "v107-elektrotechnik-pullup-tasterlogik-in-code-uebersetzen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "schaltungen"
-  - "pull-up-code"
-  - "digitale-eingaenge-und-ausgaenge"
-  - "pegel-und-entprellung"
-hintPoints:
-  - "Grenze das Unterthema zuerst ein."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Formuliere eine kleine Gegenprobe."
-selfCheckPoints:
-  - "Ist das Unterthema klar benannt?"
-  - "Ist die Lösung nicht zu breit formuliert?"
-  - "Ist die Gegenprobe konkret?"
-transferIdeas:
-  - "Ändere einen Randwert und prüfe die Begründung erneut."
-  - "Erkläre die Lösung einmal als Merksatz und einmal am Beispiel."
-reflectionPrompt: "Warum hilft dir das kleine Unterthema „Pull-up-Code“ mehr als ein breiter Sammelbegriff?"
+tags: ["elektrotechnik", "Digitaltechnik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite ein kleines Szenario zu **Pull-up-Code**.

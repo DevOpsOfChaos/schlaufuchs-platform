@@ -3,25 +3,12 @@ title: "Lösung: Bilder für Web optimieren: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-development-v194-024a im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "performance-und-medien"
-  - "bilder-fuer-web-optimieren"
-  - "loesung-a"
-
+topicPath: ["sanierung-v194", "bilder-fuer-web-optimieren-loesung-a"]
 taskId: "web-development-v194-024a"
 relatedExercise: "web-development/sanierung-v194/bilder-fuer-web-optimieren-aufgabe-a"
-tags:
-  - "bilder"
-  - "web"
-  - "optimieren"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-024a`
 
 Ausgangsauftrag: Erstelle eine Bild-Checkliste für eine Artikelseite.

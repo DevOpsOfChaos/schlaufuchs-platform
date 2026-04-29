@@ -3,24 +3,12 @@ title: "Lösung: Audit-Checklisten für Content: Aufgabe B"
 description: "Musterlösung zur Aufgabe informatik-v193-030b im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "zusammenarbeit-und-audit"
-  - "audit-checklisten-fuer-content"
-  - "loesung-b"
+topicPath: ["sanierung-v193", "audit-checklisten-fuer-content-loesung-b"]
 taskId: "informatik-v193-030b"
 relatedExercise: "informatik/sanierung-v193/audit-checklisten-fuer-content-aufgabe-b"
-tags:
-  - "audit"
-  - "checklisten"
-  - "content"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-030b`
 
 Ausgangsauftrag: Übertrage das Thema Audit-Checklisten für Content auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

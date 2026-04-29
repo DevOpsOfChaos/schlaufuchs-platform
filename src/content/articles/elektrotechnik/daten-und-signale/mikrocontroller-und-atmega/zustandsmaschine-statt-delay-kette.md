@@ -1,49 +1,19 @@
 ---
 title: "ATmega – Zustandsmaschine statt Delay-Kette"
 description: "Verstehe, wie eine kleine Zustandsmaschine Abläufe lesbar macht, ohne das Programm mit langen Delays zu blockieren."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - zustandsmaschine-statt-delay-kette
-learningGoals:
-  - "Du erklärst, warum lange Delay-Ketten Mikrocontrollerprogramme unreaktiv machen."
-  - "Du beschreibst Zustände, Ereignisse und Übergänge als Grundidee einer Zustandsmaschine."
-  - "Du wandelst einen einfachen Ablauf gedanklich von „warte und tue“ in „prüfe und wechsle“ um."
-practiceIdeas:
-  - "Lies zuerst den praktischen Fehlerfall und danach die technische Regel."
-  - "Skizziere den Ablauf als kleines Zeit-, Signal- oder Entscheidungsbild."
-  - "Erkläre den Unterschied einmal ohne Code und danach mit den passenden Fachbegriffen."
-commonMistakes:
-  - "Eine Zustandsmaschine mit besonders kompliziertem Code zu verwechseln."
-  - "Zustände nicht eindeutig zu benennen."
-  - "Ereignisse, Bedingungen und Aktionen in einer einzigen unklaren Zeile zu vermischen."
-keyTakeaways:
-  - "Eine Zustandsmaschine beschreibt, in welchem Zustand ein System gerade ist und wann es wechselt."
-  - "Sie ersetzt blockierendes Warten durch regelmäßiges Prüfen von Zeit und Ereignissen."
-  - "Gute Zustandsnamen machen Mikrocontrollerprogramme verständlicher."
-recognizeSignals:
-  - "Die Aufgabe enthält Mikrocontroller-Code, Register, Sensorwerte, Zeitverhalten oder Schnittstellen."
-  - "Es wird nach Ursache, Wirkung, Diagnose oder einer besseren Struktur gefragt."
-  - "Eine reine Codeantwort reicht nicht; die elektrische oder zeitliche Bedeutung muss mitgelesen werden."
-selfCheckPoints:
-  - "Kann ich den Hauptbegriff in einem Satz fachlich sauber erklären?"
-  - "Kann ich ein typisches Fehlerbild zuordnen?"
-  - "Kann ich begründen, warum die vorgeschlagene Lösung zur Anwendung passt?"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - zustandsmaschine
-  - softtimer
-  - delay
-  - programmstruktur
-level: mittel
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "zustandsmaschine-statt-delay-kette"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-
-
 ## Grundidee
 
 Viele Anfängerprogramme bestehen aus langen Ketten von <code>delay()</code>-Aufrufen. Das funktioniert für eine einzelne blinkende LED, wird aber schnell unübersichtlich und unreaktiv. Eine Zustandsmaschine beschreibt stattdessen: Wo ist das System gerade, was wird geprüft und wann wird gewechselt?

@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Low-Side-Schalter einordnen"
 description: "Musterlösung zur Aufgabe Low-Side-Schalter einordnen."
-subject: elektrotechnik
-section: bauteile
-topicPath:
-  - bauteile
-  - transistoren-und-mosfets
-taskId: ET-V180-MOS-002
-relatedExercise: src/content/exercises/elektrotechnik/bauteile/transistoren-und-mosfets/low-side-schalter-einordnen.md
-tags:
-  - elektrotechnik
-  - loesung
-  - mosfet
-  - low-side
-  - schalter
+subject: "elektrotechnik"
+section: "bauteile"
+topicPath: ["bauteile", "transistoren-und-mosfets", "low-side-schalter-einordnen"]
+taskId: "ET-V180-MOS-002"
+relatedExercise: "src/content/exercises/elektrotechnik/bauteile/transistoren-und-mosfets/low-side-schalter-einordnen.md"
+tags: ["elektrotechnik", "bauteile", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1

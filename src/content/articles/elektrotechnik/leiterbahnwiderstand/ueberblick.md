@@ -1,33 +1,19 @@
 ---
 title: "Leiterbahnwiderstand"
 description: "Leiterbahnen auf einer Platine haben einen endlichen Widerstand. Bei kleinen Signalen ist er oft vernachlässigbar, bei hohen Strömen, präzisen Messungen oder langen Wegen aber relevant."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik und Mikrocontroller"
-topicPath:
-  - "leiterbahnwiderstand"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Leiterbahnwiderstand."
-  - "Du kannst Leiterbahnwiderstand in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["leiterbahnwiderstand", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Alle Masse- und Versorgungspfade als widerstandslos zu behandeln."
-keyTakeaways:
-  - "Leiterbahnen auf einer Platine haben einen endlichen Widerstand."
-  - "Wichtig sind vor allem kupferbreite, länge und dicke, spannungsabfall und erwärmung und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Leiterbahnwiderstand, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Leiterbahnwiderstand dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "grundlagen"
-  - "leiterbahnwiderstand"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik und Mikrocontroller"]
 draft: false
 ---
-
 # Leiterbahnwiderstand
 
 Leiterbahnen auf einer Platine haben einen endlichen Widerstand. Bei kleinen Signalen ist er oft vernachlässigbar, bei hohen Strömen, präzisen Messungen oder langen Wegen aber relevant. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

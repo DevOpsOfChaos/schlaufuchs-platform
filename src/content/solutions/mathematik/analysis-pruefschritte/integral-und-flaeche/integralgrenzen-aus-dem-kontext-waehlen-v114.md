@@ -1,23 +1,14 @@
 ---
-title: Lösung – Integralgrenzen aus dem Kontext wählen
-description: Musterlösung zur Aufgabe über Integralgrenzen aus dem Kontext wählen.
-subject: mathematik
-section: Feinstruktur Mathematik
-topicPath:
-- analysis-pruefschritte
-- integral-und-flaeche
-- integralgrenzen-aus-dem-kontext-waehlen-v114
-taskId: v114-mathematik-integralgrenzen-aus-dem-kontext-waehlen-v114
-relatedExercise: mathematik/analysis-pruefschritte/integral-und-flaeche/integralgrenzen-aus-dem-kontext-waehlen-v114
-tags:
-- mathematik
-- v114
-- loesung
-- analysis-pruefschritte
-- integral-und-flaeche
+title: "Lösung – Integralgrenzen aus dem Kontext wählen"
+description: "Musterlösung zur Aufgabe über Integralgrenzen aus dem Kontext wählen."
+subject: "mathematik"
+section: "Feinstruktur Mathematik"
+topicPath: ["analysis-pruefschritte", "integral-und-flaeche", "integralgrenzen-aus-dem-kontext-waehlen-v114"]
+taskId: "v114-mathematik-integralgrenzen-aus-dem-kontext-waehlen-v114"
+relatedExercise: "mathematik/analysis-pruefschritte/integral-und-flaeche/integralgrenzen-aus-dem-kontext-waehlen-v114"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

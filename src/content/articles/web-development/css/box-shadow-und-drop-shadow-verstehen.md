@@ -1,45 +1,19 @@
 ---
-title: Box-Shadow und Drop-Shadow verstehen
-description: Verstehe, warum box-shadow und filter drop-shadow beide Schatten erzeugen, aber unterschiedlich stark an Rechteck, Inhalt und sichtbarer Form eines Elements gebunden sind.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - box-shadow-und-drop-shadow-verstehen
-learningGoals:
-  - Du erklärst den Unterschied zwischen box-shadow und drop-shadow.
-  - Du beschreibst, warum ein Rechteckschatten nicht immer dieselbe Wirkung hat wie ein Formschatten.
-  - Du liest Schatten eher über Bezug zur sichtbaren Form als nur über „mehr Tiefe".
-practiceIdeas:
-  - Vergleiche eine rechteckige Karte mit einem freigestellten Symbol oder Badge.
-  - Prüfe, ob der Schatten eher der Box oder der sichtbaren Form folgen soll.
-  - Lies Schatten nicht nur als Deko, sondern als Teil der Formwirkung.
-commonMistakes:
-  - box-shadow und drop-shadow als identisch zu behandeln.
-  - für freigestellte Formen automatisch box-shadow zu verwenden.
-  - Schattenwirkung nur nach Stärke statt nach Bezug zur Form zu beurteilen.
-keyTakeaways:
-  - box-shadow folgt stärker der Box des Elements.
-  - drop-shadow orientiert sich stärker an der sichtbaren Form des gerenderten Inhalts.
-  - Die passendere Wahl hängt davon ab, ob Box oder Form betont werden soll.
-recognizeSignals:
-  - Es geht um Karten, Icons, freigestellte Bilder, Badges oder schwebende Elemente.
-  - Du sollst erklären, warum ein Schatten eckig oder formnah wirkt.
-  - In Beispielen zählt die Formlogik stärker als bloße Intensität.
-selfCheckPoints:
-  - Kann ich box-shadow und drop-shadow fachlich trennen?
-  - Kann ich entscheiden, ob Box oder sichtbare Form betont werden soll?
-  - Kann ich eine passende Schattenart für Karten und freigestellte Elemente begründen?
-tags:
-  - css
-  - box-shadow
-  - drop-shadow
-  - tiefe
-level: mittel
+title: "Box-Shadow und Drop-Shadow verstehen"
+description: "Verstehe, warum box-shadow und filter drop-shadow beide Schatten erzeugen, aber unterschiedlich stark an Rechteck, Inhalt und sichtbarer Form eines Elements gebunden sind."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "box-shadow-und-drop-shadow-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Schatten sollen oft räumliche Tiefe andeuten. Dabei ist aber wichtig, **woran** sich der Schatten orientiert. Soll der Schatten einer rechteckigen Box folgen oder eher der sichtbaren Form eines Elements?

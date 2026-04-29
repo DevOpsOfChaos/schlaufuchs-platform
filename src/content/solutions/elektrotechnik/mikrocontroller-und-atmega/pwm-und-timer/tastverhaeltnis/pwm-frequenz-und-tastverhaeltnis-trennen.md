@@ -3,23 +3,12 @@ title: "Lösung – PWM-Frequenz und Tastverhältnis trennen"
 description: "Musterlösung zu PWM-Größen mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "pwm-und-timer"
-  - "tastverhaeltnis"
-  - "pwm-frequenz-und-tastverhaeltnis-trennen"
+topicPath: ["mikrocontroller-und-atmega", "pwm-und-timer", "tastverhaeltnis", "pwm-frequenz-und-tastverhaeltnis-trennen"]
 taskId: "v108-elektrotechnik-pwm-frequenz-und-tastverhaeltnis-trennen"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/pwm-und-timer/tastverhaeltnis/pwm-frequenz-und-tastverhaeltnis-trennen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "schaltungen"
-  - "mikrocontroller-und-atmega"
-  - "pwm-und-timer"
-  - "pwm-größen"
+tags: ["elektrotechnik", "Mikrocontroller", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **PWM-Größen**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

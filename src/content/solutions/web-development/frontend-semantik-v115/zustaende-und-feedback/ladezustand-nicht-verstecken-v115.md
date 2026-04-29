@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Ladezustand nicht verstecken"
 description: "Musterlösung zu Ladezustand nicht verstecken mit Trennkante und Gegenprobe."
-subject: web-development
+subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "frontend-semantik-v115"
-  - "zustaende-und-feedback"
-  - "ladezustand-nicht-verstecken-v115"
+topicPath: ["frontend-semantik-v115", "zustaende-und-feedback", "ladezustand-nicht-verstecken-v115"]
 taskId: "web-development-ladezustand-nicht-verstecken-v115"
 relatedExercise: "web-development/frontend-semantik-v115/zustaende-und-feedback/ladezustand-nicht-verstecken-v115"
-tags:
-  - "web development"
-  - "feinstruktur"
-  - "unterthema"
-  - "frontend-semantik"
-  - "zustände und feedback"
-  - "lösung"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Ladezustand nicht verstecken**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

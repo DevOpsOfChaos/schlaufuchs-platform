@@ -3,21 +3,12 @@ title: "Lösung – Prozentpunkte als Änderung lesen"
 description: "Musterlösung zu prozentpunkte als änderung lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "grundlagen"
-  - "prozent-und-wachstum"
-  - "prozentpunkte-als-aenderung-lesen"
+topicPath: ["grundlagen", "prozent-und-wachstum", "prozentpunkte-als-aenderung-lesen"]
 taskId: "v112-mathematik-prozentpunkte-als-aenderung-lesen"
 relatedExercise: "mathematik/grundlagen/prozent-und-wachstum/prozentpunkte-als-aenderung-lesen"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "grundlagen"
-  - "prozentpunkte-als-aenderung-lesen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Prozent und Wachstum**.

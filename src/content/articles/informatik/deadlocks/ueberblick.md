@@ -3,32 +3,17 @@ title: "Deadlocks"
 description: "Allgemeiner Überblick über Deadlocks und blockierte Nebenläufigkeit."
 subject: "informatik"
 section: "Nebenläufigkeit"
-topicPath:
-  - "deadlocks"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["deadlocks", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird nur der Ort betrachtet, an dem ein Programm stehen bleibt. Die Ursache liegt oft früher in der Reihenfolge erworbener Sperren."
-keyTakeaways:
-  - "Deadlocks sind Blockaden durch gegenseitiges Warten. Vermeidung beginnt bei klaren Ressourcenordnungen und bewusstem Sperrdesign."
-  - "Ein langsames Programm ist nicht automatisch in einem Deadlock. Es kann auch rechnen, auf I/O warten oder durch Last verzögert sein."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
-tags:
-  - "informatik"
-  - "deadlock"
-  - "nebenläufigkeit"
-  - "prozesse"
+tags: ["informatik", "Nebenläufigkeit"]
 draft: false
 ---
-
 # Deadlocks
 
 Ein Deadlock entsteht, wenn mehrere Prozesse oder Threads gegenseitig auf Ressourcen warten und dadurch keiner von ihnen fortfahren kann.

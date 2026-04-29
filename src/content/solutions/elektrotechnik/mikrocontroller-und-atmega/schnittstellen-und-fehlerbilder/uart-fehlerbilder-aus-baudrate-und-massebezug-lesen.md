@@ -3,23 +3,12 @@ title: "Lösung – UART-Fehlerbilder aus Baudrate und Massebezug lesen"
 description: "Musterlösung zur Aufgabe über UART-Debugging mit Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Kommunikation"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "schnittstellen-und-fehlerbilder"
-  - "uart-fehlerbilder-aus-baudrate-und-massebezug-lesen"
+topicPath: ["mikrocontroller-und-atmega", "schnittstellen-und-fehlerbilder", "uart-fehlerbilder-aus-baudrate-und-massebezug-lesen"]
 taskId: "v106-elektrotechnik-uart-fehlerbilder-aus-baudrate-und-massebezug-lesen"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/schnittstellen-und-fehlerbilder/uart-fehlerbilder-aus-baudrate-und-massebezug-lesen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "mikrocontroller"
-  - "signale"
-  - "uart-debugging"
-  - "mikrocontroller-und-atmega"
-  - "schnittstellen-und-fehlerbilder"
+tags: ["elektrotechnik", "Kommunikation", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Beobachtung

@@ -1,34 +1,17 @@
 ---
 title: "Grundlagen: Pull-up und Pull-down"
 description: "Allgemeiner Überblick über Pull-up- und Pull-down-Widerstände als definierte Ruhelage digitaler Eingänge."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Digitale Eingänge und Ausgänge"
-topicPath:
-  - digitale-eingaenge-und-ausgaenge
-  - pullup-und-pulldown
-  - grundlagen-pullup-und-pulldown
-learningGoals:
-  - "Du erklärst, warum ein digitaler Eingang eine definierte Ruhelage braucht."
-  - "Du unterscheidest Pull-up und Pull-down."
-  - "Du ordnest Tasterlogik nach Ruhezustand und Ereigniszustand ein."
+topicPath: ["digitale-eingaenge-und-ausgaenge", "pullup-und-pulldown", "ueberblick", "grundlagen-pullup-und-pulldown"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Einen offenen Eingang als stabilen Zustand zu betrachten."
-  - "Pull-up automatisch mit gedrückt gleichzusetzen."
-  - "Die Logik im Code zu lesen, ohne die Schaltung zu betrachten."
-keyTakeaways:
-  - "Pull-up zieht einen Eingang im Ruhezustand nach High."
-  - "Pull-down zieht einen Eingang im Ruhezustand nach Low."
-  - "Die Bedeutung eines Tastendrucks ergibt sich aus Schaltung und Auswertung."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - pullup
-  - pulldown
-  - taster
+level: "einfach"
+tags: ["elektrotechnik", "Digitale Eingänge und Ausgänge"]
 draft: false
 ---
 ## Begriff

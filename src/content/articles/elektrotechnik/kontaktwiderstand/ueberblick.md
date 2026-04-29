@@ -3,32 +3,17 @@ title: "Kontaktwiderstand"
 description: "Allgemeiner Überblick über kontaktwiderstand und die wichtigsten Zusammenhänge."
 subject: "elektrotechnik"
 section: "Verbindungen"
-topicPath:
-  - "kontaktwiderstand"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["kontaktwiderstand", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden mechanische Verbindungen elektrisch als perfekt betrachtet."
-keyTakeaways:
-  - "Kontaktwiderstand verbindet Mechanik, Alterung und elektrische Zuverlässigkeit."
-  - "Ein Kontakt ist kein idealer Leiter. Der Übergang selbst gehört zum elektrischen System."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "elektrotechnik"
-  - "kontakt"
-  - "widerstand"
-  - "verbindung"
+tags: ["elektrotechnik", "Verbindungen"]
 draft: false
 ---
-
 # Kontaktwiderstand
 
 Kontaktwiderstand ist der elektrische Widerstand an Steckern, Schaltern, Klemmen, Relaiskontakten oder Lötstellen.

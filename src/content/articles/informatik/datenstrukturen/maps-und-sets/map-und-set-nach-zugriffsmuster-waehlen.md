@@ -3,46 +3,17 @@ title: "Informatik – Map und Set nach Zugriffsmuster wählen"
 description: "Unterscheide Sammeln, Nachschlagen und Eindeutigkeit, damit du Listen, Sets und Maps nicht nach Bauchgefühl verwendest."
 subject: "informatik"
 section: "Datenstrukturen"
-topicPath:
-  - "datenstrukturen"
-  - "maps-und-sets"
-  - "map-und-set-nach-zugriffsmuster-waehlen"
-learningGoals:
-  - "Du erklärst die Kernidee von „Datenstrukturwahl“ in eigenen Worten."
-  - "Du ordnest das Thema einem klaren Unterthema zu statt es in einem Sammelbereich zu verlieren."
-  - "Du leitest eine kleine Gegenprobe für echte Aufgaben oder Projekte ab."
-practiceIdeas:
-  - "Markiere zuerst, welche Unterfrage wirklich gestellt ist."
-  - "Notiere eine typische Fehlannahme und eine passende Gegenprobe."
-  - "Übertrage die Denkbewegung auf ein zweites kleines Beispiel."
-commonMistakes:
-  - "alles als Array speichern"
-  - "Schlüssel im Text verstecken"
-  - "Dubletten erst spät bemerken"
-keyTakeaways:
-  - "Datenstrukturwahl wird klarer, wenn Zustand, Ursache und Prüfschritt getrennt werden."
-  - "Kleine Unterthemen sind leichter auffindbar und besser prüfbar als breite Sammelordner."
-  - "Eine gute Erklärung endet mit einer konkreten Gegenprobe."
-recognizeSignals:
-  - "Die Aufgabe enthält einen scheinbar kleinen Sonderfall oder Fehlerzustand."
-  - "Es muss zwischen Begriffen unterschieden werden, die im Alltag leicht vermischt werden."
-  - "Eine Entscheidung soll begründet und nicht nur auswendig angewendet werden."
-selfCheckPoints:
-  - "Kann ich das Unterthema mit einem Satz von Nachbarthemen abgrenzen?"
-  - "Kann ich einen typischen Fehler benennen?"
-  - "Kann ich eine konkrete Prüfung oder Rechnung anschließen?"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "daten"
-  - "algorithmen"
-  - "datenstrukturwahl"
-  - "datenstrukturen"
-  - "maps-und-sets"
+topicPath: ["datenstrukturen", "maps-und-sets", "map-und-set-nach-zugriffsmuster-waehlen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["informatik", "Datenstrukturen"]
 draft: false
 ---
-
 ## Grundidee
 
 Die richtige Datenstruktur hängt von der Frage ab: Willst du Reihenfolge erhalten, Eindeutigkeit sichern oder zu einem Schlüssel schnell einen Wert finden?

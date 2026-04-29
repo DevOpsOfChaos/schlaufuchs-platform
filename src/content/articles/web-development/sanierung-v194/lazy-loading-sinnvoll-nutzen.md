@@ -3,45 +3,17 @@ title: "Lazy Loading sinnvoll nutzen"
 description: "Verstehe später laden, was später gebraucht wird als ruhigen Web-Development-Baustein für zugängliche, responsive und gut prüfbare Seiten."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "performance-und-medien"
-  - "lazy-loading-sinnvoll-nutzen"
-
-learningGoals:
-  - "Später laden, was später gebraucht wird"
-  - "Struktur, Gestaltung und Nutzung klar trennen"
-  - "einen kleinen prüfbaren nächsten Schritt formulieren"
-practiceIdeas:
-  - "Entscheide, welche Medien einer Landingpage lazy geladen werden sollten."
-  - "Prüfe eine zweite Seite mit demselben Blickwinkel."
-commonMistakes:
-  - "Das Thema wird erst nach dem visuellen Design betrachtet."
-  - "Ein einzelner Test wird mit echter Nutzbarkeit verwechselt."
-  - "Zustände wie Fokus, Fehler oder kleine Bildschirme bleiben ungetestet."
-keyTakeaways:
-  - "Lazy Loading hilft bei Bildern unterhalb des sichtbaren Bereichs."
-  - "Kritische Inhalte sollten sofort verfügbar bleiben."
-  - "Zu viel Verzögerung kann Bedienung verschlechtern."
-
-recognizeSignals:
-  - "Das Thema taucht auf, wenn eine Seite zwar sichtbar funktioniert, aber Bedienung, Lesbarkeit oder Prüfung unsicher bleiben."
-selfCheckPoints:
-  - "Kann ich beschreiben, welches Problem für Nutzerinnen und Nutzer gelöst wird?"
-  - "Ist klar, ob HTML-Struktur, CSS-Layout, Interaktion oder Inhalt betroffen ist?"
-  - "Gibt es einen kleinen Test nach der Änderung?"
+topicPath: ["sanierung-v194", "lazy-loading-sinnvoll-nutzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "lazy"
-  - "loading"
-  - "sinnvoll"
-  - "nutzen"
-  - "web-development"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Lazy Loading sinnvoll nutzen](/schlaufuchs-platform/images/web-development/sanierung-v194/lazy-loading-sinnvoll-nutzen.svg)
 
 Lazy Loading sinnvoll nutzen gehört zur Web-Development-Sanierung v194. Die Seite behandelt das Thema als Qualitätsentscheidung: Eine Webseite soll nicht nur hübsch aussehen, sondern verständlich, bedienbar und überprüfbar bleiben.

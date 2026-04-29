@@ -1,23 +1,14 @@
 ---
-title: Musterloesung - Direkten Zugriff und Methodenzugriff unterscheiden
-description: Musterloesung zur Aufgabe INF-PROG-OOP-007.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - getter-und-setter-als-schnittstelle-verstehen
-  - direkten-zugriff-und-methodenzugriff-unterscheiden-loesung
-taskId: INF-PROG-OOP-007
-relatedExercise: src/content/exercises/informatik/programmierung/oop/getter-und-setter-als-schnittstelle-verstehen/direkten-zugriff-und-methodenzugriff-unterscheiden.md
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - loesung
+title: "Musterloesung - Direkten Zugriff und Methodenzugriff unterscheiden"
+description: "Musterloesung zur Aufgabe INF-PROG-OOP-007."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "getter-und-setter-als-schnittstelle-verstehen", "direkten-zugriff-und-methodenzugriff-unterscheiden"]
+taskId: "INF-PROG-OOP-007"
+relatedExercise: "src/content/exercises/informatik/programmierung/oop/getter-und-setter-als-schnittstelle-verstehen/direkten-zugriff-und-methodenzugriff-unterscheiden.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Getter erklaeren
 
 Ein Getter erlaubt das kontrollierte Auslesen eines internen Werts, ohne das Attribut selbst offen freizugeben.

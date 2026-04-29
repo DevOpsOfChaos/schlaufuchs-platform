@@ -1,31 +1,17 @@
 ---
 title: "Kirchhoffsche Regeln"
 description: "Allgemeiner Überblick über Knotenregel, Maschenregel und die Bilanzierung elektrischer Schaltungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Grundlagen"
-topicPath:
-  - "kirchhoffsche-regeln"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Kirchhoffsche Regeln grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["kirchhoffsche-regeln", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Kirchhoffsche Regeln nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Kirchhoffsche Regeln beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Kirchhoffsche Regeln, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Kirchhoffsche Regeln in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "schaltungen"
-  - "kirchhoff"
-  - "grundlagen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Grundlagen"]
 draft: false
 ---
 # Kirchhoffsche Regeln

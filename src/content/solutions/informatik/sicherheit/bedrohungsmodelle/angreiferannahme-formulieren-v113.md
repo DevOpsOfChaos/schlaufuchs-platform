@@ -3,20 +3,12 @@ title: "Lösung – Angreiferannahme formulieren"
 description: "Musterlösung zu Angreiferannahme formulieren mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "sicherheit"
-  - "bedrohungsmodelle"
-  - "angreiferannahme-formulieren-v113"
+topicPath: ["sicherheit", "bedrohungsmodelle", "angreiferannahme-formulieren-v113"]
 taskId: "v113-informatik-angreiferannahme-formulieren-v113"
 relatedExercise: "informatik/sicherheit/bedrohungsmodelle/angreiferannahme-formulieren-v113"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "angreiferannahme-formulieren-v113"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Angreiferannahme formulieren**.

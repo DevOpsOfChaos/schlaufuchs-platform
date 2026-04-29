@@ -1,28 +1,17 @@
 ---
 title: "Rauschen von Trend unterscheiden"
 description: "Entscheide, ob Werte nur schwanken oder wirklich steigen/fallen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Daten und Signale"
-topicPath:
-  - daten-und-signale
-  - rauschen-filterung-und-schwellwerte
-taskId: ET-V181-023
-tags:
-  - elektrotechnik
-  - rauschen-filterung-und-schwellwerte
-  - sanierung-v181
-hintPoints:
-  - "Lies zuerst den Normalzustand und dann den Fehlerfall."
-  - "Trenne elektrische Ebene, logische Bedeutung und praktische Prüfung."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["daten-und-signale", "rauschen-filterung-und-schwellwerte", "rauschen-von-trend-unterscheiden"]
+taskId: "ET-V181-023"
+tags: ["elektrotechnik", "Daten und Signale", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **Rauschen, Filterung und Schwellwerte** ruhig und schrittweise.

@@ -1,46 +1,19 @@
 ---
-title: Array-Schleifen mit foreach in PHP verstehen
-description: Verstehe, wie foreach numerische und assoziative Arrays durchlaeuft und warum die Schleife gut zu fertigen Datenlisten passt.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - array-schleifen-mit-foreach-in-php-verstehen
-learningGoals:
-  - Du erklaerst den Grundablauf einer foreach-Schleife in PHP.
-  - Du unterscheidest Wert- und Schluesselzugriff bei Arrays.
-  - Du erkennst, wann foreach ruhiger ist als eine selbst gebaute Zaehlschleife.
-practiceIdeas:
-  - Lies ein Arraybeispiel und sage, welcher Wert in einem Schleifendurchlauf gerade gemeint ist.
-  - Vergleiche eine numerische Liste mit einem assoziativen Array.
-  - Ordne Schluessel und Wert in einer foreach-Schleife sauber zu.
-commonMistakes:
-  - Schluessel und Wert zu vertauschen.
-  - Zu glauben, foreach brauche immer einen Zahlenindex.
-  - Die Schleife wie eine manuelle Zaehlschleife zu lesen, obwohl die Elemente schon vorliegen.
-keyTakeaways:
-  - foreach laeuft direkt ueber vorhandene Arrayelemente.
-  - Bei assoziativen Arrays koennen Schluessel und Wert gemeinsam gelesen werden.
-  - foreach ist besonders gut fuer vorhandene Datensammlungen geeignet.
-recognizeSignals:
-  - Es geht um Arrays, Listen, name => wert oder Wiederholung.
-  - Du sollst bestehende Daten ausgeben oder verarbeiten.
-  - Eine Schleife arbeitet nicht mit selbst berechnetem Index, sondern direkt mit Elementen.
-selfCheckPoints:
-  - Kann ich sagen, was bei jedem Durchlauf gerade in der Schleifenvariablen steckt?
-  - Kann ich Schluessel und Wert getrennt benennen?
-  - Kann ich erklaeren, warum foreach hier passend ist?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - array
-  - schleifen
+title: "Array-Schleifen mit foreach in PHP verstehen"
+description: "Verstehe, wie foreach numerische und assoziative Arrays durchlaeuft und warum die Schleife gut zu fertigen Datenlisten passt."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "array-schleifen-mit-foreach-in-php-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Mit <code>foreach</code> laeuft PHP schrittweise ueber die vorhandenen Elemente eines Arrays. Du musst dabei keinen Index selbst hochzaehlen. Die Schleife bekommt jedes Element nacheinander direkt geliefert.

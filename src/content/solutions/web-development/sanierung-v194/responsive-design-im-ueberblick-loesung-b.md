@@ -3,25 +3,12 @@ title: "Lösung: Responsive Design im Überblick: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-development-v194-011b im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "responsive-layout"
-  - "responsive-design-im-ueberblick"
-  - "loesung-b"
-
+topicPath: ["sanierung-v194", "responsive-design-im-ueberblick-loesung-b"]
 taskId: "web-development-v194-011b"
 relatedExercise: "web-development/sanierung-v194/responsive-design-im-ueberblick-aufgabe-b"
-tags:
-  - "responsive"
-  - "design"
-  - "ueberblick"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-011b`
 
 Ausgangsauftrag: Übertrage das Thema Responsive Design im Überblick auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Debugging und Fehlerhypothesen"
 description: "Ordne Debugging als systematische Prüfung von Annahmen statt als wildes Ausprobieren ein."
-subject: informatik
+subject: "informatik"
 section: "programmierpraxis-und-tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "debugging-und-fehlerhypothesen"
-learningGoals:
-  - "Du erklärst die Grundidee von Debugging und Fehlerhypothesen in eigenen Worten."
-  - "Du ordnest typische Begriffe und Teilaspekte fachlich richtig ein."
-  - "Du erkennst, welche Detailseiten, Aufgaben oder Fehlerbilder zum Thema passen."
-practiceIdeas:
-  - "Beschreibe ein eigenes Beispiel und markiere die wichtigsten Begriffe."
-  - "Vergleiche die Übersicht mit einer konkreten Aufgabe zum gleichen Thema."
-commonMistakes:
-  - "Ein einzelnes Beispiel für das gesamte Thema zu halten."
-  - "Begriffe zu vermischen, die unterschiedliche Rollen haben."
-  - "Direkt mit Spezialfällen zu beginnen, bevor die Grundidee klar ist."
-keyTakeaways:
-  - "Debugging beginnt mit einer genauen Beobachtung."
-  - "Eine Fehlerhypothese beschreibt, was vermutlich schief läuft."
-  - "Gute Fehlersuche prüft gezielt eine Annahme nach der anderen."
-recognizeSignals:
-  - "Du suchst zuerst eine allgemeine Einordnung statt eines Einzelfalls."
-  - "Mehrere Detailseiten wirken ähnlich und sollen fachlich sortiert werden."
-selfCheckPoints:
-  - "Kann ich das Thema in zwei bis drei Sätzen allgemein erklären?"
-  - "Kann ich die wichtigsten Teilaspekte voneinander unterscheiden?"
-level: einfach
-tags:
-  - "informatik"
-  - "debugging"
-  - "fehler"
+topicPath: ["programmierpraxis-und-tests", "debugging-und-fehlerhypothesen", "ueberblick", "grundlagen-debugging-und-fehlerhypothesen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "programmierpraxis-und-tests"]
 draft: false
 ---
-
 ![Debugging als Prüfprozess](/schlaufuchs-platform/images/overviews/v184/debugging-und-fehlerhypothesen-v184.svg)
 
 ## Begriff

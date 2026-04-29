@@ -1,33 +1,17 @@
 ---
 title: "EMV-gerechtes Denken"
 description: "Überblick über elektromagnetische Verträglichkeit als Denkweise für stabile Signale, Rückwege, Kopplung und Störungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "EMV"
-topicPath:
-  - "emv-gerechtes-denken"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst EMV-gerechtes Denken als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["emv-gerechtes-denken", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "EMV wird oft erst als Problem fertiger Geräte gesehen. Viele Ursachen entstehen aber schon in einfachen Lernschaltungen: lange Leitungen, fehlende Abblockung oder unklare Rückwege."
-keyTakeaways:
-  - "EMV-gerechtes Denken fragt, wo Störungen entstehen, wie sie sich einkoppeln und welche Schaltungsteile empfindlich reagieren."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um emv-gerechtes denken, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich emv-gerechtes denken in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "emv-gerechtes denken"
-  - "überblick"
-  - "störquelle"
-  - "kopplungsweg"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "EMV"]
 draft: false
 ---
 # EMV-gerechtes Denken

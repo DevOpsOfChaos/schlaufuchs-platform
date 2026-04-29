@@ -1,44 +1,17 @@
 ---
-title: Typumwandlung und Casts in PHP verstehen
-description: Verstehe, wie PHP Werte umwandelt, was ein Cast macht und warum schwache Typisierung ohne ruhige Prüfung schnell unklar wird.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - typumwandlung-und-casts-in-php-verstehen
-learningGoals:
-  - Du erklärst, was ein Cast in PHP macht.
-  - Du unterscheidest implizite und explizite Umwandlung grob.
-  - Du liest einfache Typkonvertierungen ruhiger.
-practiceIdeas:
-  - Prüfe, wie aus einer Fließkommazahl ein Integer wird.
-  - Vergleiche einen automatischen Kontextwechsel mit einem expliziten Cast.
-  - Erkläre, warum schwach typisierte Übergaben zusätzliche Prüfung brauchen.
-commonMistakes:
-  - Zu glauben, ein Cast ändere die ganze Variable immer dauerhaft.
-  - Jede automatische Umwandlung als zuverlässig und eindeutig zu behandeln.
-  - Datentypen gar nicht mitzudenken, nur weil PHP vieles automatisch annimmt.
-keyTakeaways:
-  - Ein Cast setzt einen Wert gezielt in einen anderen Typ um.
-  - PHP arbeitet oft implizit, aber explizite Umwandlung macht Absichten klarer.
-  - Gerade bei Formulardaten lohnt sich ruhiges Typdenken.
-recognizeSignals:
-  - Es geht um (int), (string), (bool) oder ähnliche Schreibweisen.
-  - Ein Beispiel arbeitet mit Formulardaten oder numerischen Werten.
-  - Du sollst erklären, warum ein Ergebnis anders aussieht als vorher.
-selfCheckPoints:
-  - Kann ich sagen, was ein Cast leistet?
-  - Kann ich implizite und explizite Umwandlung grob trennen?
-  - Kann ich begründen, warum Typdenken bei Eingaben wichtig bleibt?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - backend
-  - web
-  - grundlagen
+title: "Typumwandlung und Casts in PHP verstehen"
+description: "Verstehe, wie PHP Werte umwandelt, was ein Cast macht und warum schwache Typisierung ohne ruhige Prüfung schnell unklar wird."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "typumwandlung-und-casts-in-php-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
 ## Grundidee

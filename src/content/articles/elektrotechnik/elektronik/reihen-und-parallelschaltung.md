@@ -1,45 +1,19 @@
 ---
-title: Reihen- und Parallelschaltung
-description: Lerne, wie sich Bauteile in Reihe und parallel unterschiedlich verhalten.
-subject: elektrotechnik
-section: Elektronik
-topicPath:
-- elektronik
-- reihen-und-parallelschaltung
-learningGoals:
-- Du unterscheidest Reihen- und Parallelschaltung sicher.
-- Du beschreibst Strom- und Spannungsverhalten in beiden Grundformen.
-- Du erkennst, warum die Struktur einer Schaltung entscheidend ist.
-practiceIdeas:
-- Vergleiche zwei kleine Schaltungen danach, ob Strom oder Spannung an mehreren Bauteilen gleich oder verteilt ist.
-- Zeichne eine Reihen- und eine Parallelschaltung mit denselben Bauteilen.
-- Erkläre in Worten, warum ein Ausfall in beiden Schaltungsarten andere Folgen hat.
-commonMistakes:
-- Reihe und parallel nur optisch statt funktional zu unterscheiden.
-- Zu übersehen, dass sich Strom und Spannung je nach Struktur anders verteilen.
-- Aus einzelnen Leitungen sofort auf dieselbe Schaltungsart zu schließen.
-keyTakeaways:
-- In Reihenschaltungen liegt ein gemeinsamer Stromweg vor.
-- In Parallelschaltungen gibt es mehrere Zweige.
-- Die Schaltungsstruktur bestimmt Strom- und Spannungsverteilung.
-tags:
-- elektrotechnik
-- reihenschaltung
-- parallelschaltung
-- schaltung
-level: einfach
+title: "Reihen- und Parallelschaltung"
+description: "Lerne, wie sich Bauteile in Reihe und parallel unterschiedlich verhalten."
+subject: "elektrotechnik"
+section: "Elektronik"
+topicPath: ["elektronik", "reihen-und-parallelschaltung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektronik"]
 draft: false
-recognizeSignals:
-- Die Aufgabe oder Erklärung nennt Reihen- und Parallelschaltung direkt oder greift eng benachbarte Begriffe aus Elektronik auf.
-- Du sollst nicht nur einen Begriff nennen, sondern einen Zusammenhang, Ablauf oder eine Struktur sauber erklären.
-- In Beispielen musst du Werte, Schritte oder Bauteile geordnet lesen und richtig einordnen.
-selfCheckPoints:
-- Kann ich unterscheidest Reihen- und Parallelschaltung sicher?
-- Kann ich beschreibst Strom- und Spannungsverhalten in beiden Grundformen?
-- Kann ich erkennst, warum die Struktur einer Schaltung entscheidend ist?
 ---
-
-
 ## Reihenschaltung
 
 In einer Reihenschaltung liegen Bauteile nacheinander in einem gemeinsamen Stromweg. Dadurch gibt es keinen alternativen Zweig. Der Strom muss denselben Weg durch alle beteiligten Bauteile nehmen.

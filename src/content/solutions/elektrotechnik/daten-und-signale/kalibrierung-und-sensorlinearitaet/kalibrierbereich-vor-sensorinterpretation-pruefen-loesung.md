@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Kalibrierbereich vor Sensorinterpretation prüfen"
 description: "Musterlösung zur Aufgabe: Kalibrierbereich vor Sensorinterpretation prüfen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Daten und Signale"
-topicPath:
-  - daten-und-signale
-  - kalibrierung-und-sensorlinearitaet
-taskId: ET-V182-020
-relatedExercise: src/content/exercises/elektrotechnik/daten-und-signale/kalibrierung-und-sensorlinearitaet/kalibrierbereich-vor-sensorinterpretation-pruefen.md
-tags:
-  - elektrotechnik
-  - kalibrierung-und-sensorlinearitaet
-  - loesung
-  - sanierung-v182
+topicPath: ["daten-und-signale", "kalibrierung-und-sensorlinearitaet", "kalibrierbereich-vor-sensorinterpretation-pruefen"]
+taskId: "ET-V182-020"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/kalibrierung-und-sensorlinearitaet/kalibrierbereich-vor-sensorinterpretation-pruefen.md"
+tags: ["elektrotechnik", "Daten und Signale", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

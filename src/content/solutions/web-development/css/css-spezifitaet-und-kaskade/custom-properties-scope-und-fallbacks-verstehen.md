@@ -3,18 +3,10 @@ title: "Lösung – Custom Properties, Scope und Fallbacks verstehen"
 description: "Musterlösung mit kurzer Begründung zur passenden Web-Development-Entscheidung."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "css-spezifitaet-und-kaskade"
-  - "custom-properties-scope-und-fallbacks-verstehen"
+topicPath: ["css", "css-spezifitaet-und-kaskade", "custom-properties-scope-und-fallbacks-verstehen"]
 taskId: "custom-properties-scope-und-fallbacks-verstehen"
 relatedExercise: "web-development/css/css-spezifitaet-und-kaskade/custom-properties-scope-und-fallbacks-verstehen"
-tags:
-  - "web development"
-  - "css"
-  - "custom properties"
-  - "kaskade"
-  - "variablen"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
 ## Musterlösung

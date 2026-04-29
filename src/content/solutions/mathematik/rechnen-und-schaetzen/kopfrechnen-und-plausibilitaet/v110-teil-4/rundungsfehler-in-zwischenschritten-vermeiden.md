@@ -3,23 +3,12 @@ title: "Lösung – Rundungsfehler in Zwischenschritten vermeiden"
 description: "Musterlösung zu Rundungsfehler in Zwischenschritten vermeiden mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Grundlagen"
-topicPath:
-  - "rechnen-und-schaetzen"
-  - "kopfrechnen-und-plausibilitaet"
-  - "v110-teil-4"
-  - "rundungsfehler-in-zwischenschritten-vermeiden"
+topicPath: ["rechnen-und-schaetzen", "kopfrechnen-und-plausibilitaet", "v110-teil-4", "rundungsfehler-in-zwischenschritten-vermeiden"]
 taskId: "v110-mathematik-rundungsfehler-in-zwischenschritten-vermeiden"
 relatedExercise: "mathematik/rechnen-und-schaetzen/kopfrechnen-und-plausibilitaet/v110-teil-4/rundungsfehler-in-zwischenschritten-vermeiden"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfung"
-  - "rechnen-und-schaetzen"
-  - "kopfrechnen-und-plausibilitaet"
-  - "rundungsfehler-in-zwischenschritten-vermeiden"
+tags: ["mathematik", "Grundlagen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Rundungsfehler in Zwischenschritten vermeiden**.

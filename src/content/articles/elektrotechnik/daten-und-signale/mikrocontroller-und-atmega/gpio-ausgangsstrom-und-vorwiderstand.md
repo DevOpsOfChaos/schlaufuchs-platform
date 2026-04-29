@@ -3,43 +3,15 @@ title: "Mikrocontroller – GPIO-Ausgangsstrom und Vorwiderstand verstehen"
 description: "Verstehe, warum ein Mikrocontroller-Pin keine ideale Spannungsquelle ist und warum LED, Relais oder Lasten einen passenden Strompfad brauchen."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "gpio-ausgangsstrom-und-vorwiderstand"
-learningGoals:
-  - "Du erklärst, warum ein GPIO-Pin nur begrenzt Strom liefern oder aufnehmen darf."
-  - "Du unterscheidest Logikpegel, Laststrom und Bauteilschutz."
-  - "Du begründest, warum eine LED einen Vorwiderstand braucht und ein Relais nicht direkt am Pin hängen sollte."
-practiceIdeas:
-  - "Skizziere den Strompfad vom Pin über LED und Widerstand nach Masse."
-  - "Prüfe eine Schaltung zuerst nach Stromrichtung und Strombegrenzung."
-  - "Vergleiche LED, Summer und Relais als unterschiedlich schwere Lasten."
-commonMistakes:
-  - "Den Pin wie eine beliebig starke 5-V-Quelle zu behandeln."
-  - "Eine LED ohne Vorwiderstand direkt zwischen Pin und Masse zu setzen."
-  - "Nur die Spannung zu betrachten und den Strompfad zu vergessen."
-keyTakeaways:
-  - "Ein GPIO-Pin setzt Logikpegel, treibt aber nur begrenzt Strom."
-  - "Der Vorwiderstand begrenzt den LED-Strom und schützt Pin und Bauteil."
-  - "Größere Lasten brauchen Treiberstufen, Transistoren oder Module."
-recognizeSignals:
-  - "Es geht um LED, Pin-Strom, Vorwiderstand oder direkte Last am Mikrocontroller."
-  - "Eine Aufgabe fragt, ob ein Bauteil direkt an einen Pin darf."
-  - "Du sollst nicht nur High/Low, sondern auch Strombelastung prüfen."
-selfCheckPoints:
-  - "Kann ich den Strompfad in der Schaltung zeigen?"
-  - "Kann ich erklären, warum Spannung allein nicht reicht?"
-  - "Kann ich eine kleine Last von einer Treiber-Last unterscheiden?"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "gpio"
-  - "strom"
-  - "vorwiderstand"
-  - "led"
-  - "schutz"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "gpio-ausgangsstrom-und-vorwiderstand"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
 ## Grundidee

@@ -1,16 +1,19 @@
 ---
 title: "Pfade verstehen"
 description: "Absolute und relative Pfade unterscheiden und sicher im Terminal nutzen."
-subject: linux
+subject: "linux"
 section: "Shell / Navigation"
-level: einfach
-tags:
-  - Pfade
-  - Shell
-  - Navigation
+topicPath: ["shell", "navigation", "pfade"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell / Navigation"]
 draft: false
 ---
-
 ![Absolute und relative Pfade](./pwd-pfade-diagramm.svg)
 
 ## Was ist ein Pfad?

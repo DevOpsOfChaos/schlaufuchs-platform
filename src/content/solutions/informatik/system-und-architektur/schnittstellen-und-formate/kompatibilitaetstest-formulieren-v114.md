@@ -1,23 +1,14 @@
 ---
-title: Lösung – Kompatibilitätstest formulieren
-description: Musterlösung zur Aufgabe über Kompatibilitätstest formulieren.
-subject: informatik
-section: Feinstruktur Informatik
-topicPath:
-- system-und-architektur
-- schnittstellen-und-formate
-- kompatibilitaetstest-formulieren-v114
-taskId: v114-informatik-kompatibilitaetstest-formulieren-v114
-relatedExercise: informatik/system-und-architektur/schnittstellen-und-formate/kompatibilitaetstest-formulieren-v114
-tags:
-- informatik
-- v114
-- loesung
-- system-und-architektur
-- schnittstellen-und-formate
+title: "Lösung – Kompatibilitätstest formulieren"
+description: "Musterlösung zur Aufgabe über Kompatibilitätstest formulieren."
+subject: "informatik"
+section: "Feinstruktur Informatik"
+topicPath: ["system-und-architektur", "schnittstellen-und-formate", "kompatibilitaetstest-formulieren-v114"]
+taskId: "v114-informatik-kompatibilitaetstest-formulieren-v114"
+relatedExercise: "informatik/system-und-architektur/schnittstellen-und-formate/kompatibilitaetstest-formulieren-v114"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

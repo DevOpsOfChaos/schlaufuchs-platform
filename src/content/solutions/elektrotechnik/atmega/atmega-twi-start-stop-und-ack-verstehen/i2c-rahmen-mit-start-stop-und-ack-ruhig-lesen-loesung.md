@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – I²C-Rahmen mit Start, Stop und ACK ruhig lesen
-description: Musterlösung zur Aufgabe ET-ATMEGA-I2C-202.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-schnittstellen-und-busse
-  - atmega-twi-start-stop-und-ack-verstehen
-  - i2c-rahmen-mit-start-stop-und-ack-ruhig-lesen-loesung
-taskId: ET-ATMEGA-I2C-202
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-twi-start-stop-und-ack-verstehen/i2c-rahmen-mit-start-stop-und-ack-ruhig-lesen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - i2c
-  - loesung
+title: "Musterlösung – I²C-Rahmen mit Start, Stop und ACK ruhig lesen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-I2C-202."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-twi-start-stop-und-ack-verstehen", "i2c-rahmen-mit-start-stop-und-ack-ruhig-lesen"]
+taskId: "ET-ATMEGA-I2C-202"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-twi-start-stop-und-ack-verstehen/i2c-rahmen-mit-start-stop-und-ack-ruhig-lesen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Die Startbedingung markiert den Beginn des aktuellen Busrahmens. Danach folgt die Adresse, damit klar ist, welcher Buspartner gemeint ist. Das ACK zeigt, dass dieser Schritt bestätigt wurde. Anschließend wird ein Datenbyte übertragen und erneut bestätigt. Mit der Stopbedingung endet der Austausch sauber.

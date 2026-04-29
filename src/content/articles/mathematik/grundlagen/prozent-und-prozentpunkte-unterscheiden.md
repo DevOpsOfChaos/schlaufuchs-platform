@@ -1,44 +1,19 @@
 ---
-title: Prozent und Prozentpunkte unterscheiden
-description: Verstehe, warum Prozent und Prozentpunkte nicht dasselbe bedeuten und wie man Änderungen von Anteilen ruhiger und sauberer beschreibt.
-subject: mathematik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - prozent-und-prozentpunkte-unterscheiden
-learningGoals:
-  - Du unterscheidest Prozent und Prozentpunkte sauber.
-  - Du beschreibst Änderungen von Anteilen fachlich genauer.
-  - Du erkennst, wann eine relative Änderung und wann ein Abstand zwischen Prozentwerten gemeint ist.
-practiceIdeas:
-  - Vergleiche Aussagen wie „von 20 % auf 25 %“ und benenne die passende Sprache dazu.
-  - Prüfe Nachrichten- oder Alltagssätze auf die richtige Prozentlogik.
-  - Erkläre bei einem Beispiel, ob eine Differenz oder eine relative Veränderung beschrieben wird.
-commonMistakes:
-  - Prozentpunkte und Prozent als austauschbar zu behandeln.
-  - jede Änderung zwischen zwei Prozentangaben sofort als Prozent zu benennen.
-  - nicht zu unterscheiden, ob der Ausgangswert selbst wieder als Bezug dient.
-keyTakeaways:
-  - Prozentpunkte beschreiben den Abstand zwischen zwei Prozentwerten.
-  - Prozent beschreiben häufig eine relative Veränderung bezogen auf einen Ausgangswert.
-  - Gute Prozentlogik beginnt mit der Frage nach dem Bezugspunkt.
-recognizeSignals:
-  - Es geht um Anteile, Wahlwerte, Zinsen, Rabatte oder Quoten.
-  - Du sollst erklären, ob eine Änderung direkt zwischen Prozentwerten oder relativ zum alten Wert gemeint ist.
-  - In Beispielen ist der Bezug wichtiger als die bloße Zahl.
-selfCheckPoints:
-  - Kann ich Prozent und Prozentpunkte unterscheiden?
-  - Kann ich den Bezugspunkt einer Veränderung benennen?
-  - Kann ich erklären, warum 5 Prozentpunkte nicht automatisch 5 Prozent bedeuten?
-tags:
-  - mathematik
-  - prozent
-  - prozentpunkte
-  - grundlagen
-level: einfach
+title: "Prozent und Prozentpunkte unterscheiden"
+description: "Verstehe, warum Prozent und Prozentpunkte nicht dasselbe bedeuten und wie man Änderungen von Anteilen ruhiger und sauberer beschreibt."
+subject: "mathematik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "prozent-und-prozentpunkte-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Grundlagen"]
 draft: false
 ---
-
 ## Grundidee
 
 Wenn sich ein Prozentwert verändert, ist nicht automatisch klar, ob über **Prozentpunkte** oder über eine **prozentuale Veränderung** gesprochen wird. Genau diese Unterscheidung ist wichtig, damit Aussagen fachlich sauber bleiben.

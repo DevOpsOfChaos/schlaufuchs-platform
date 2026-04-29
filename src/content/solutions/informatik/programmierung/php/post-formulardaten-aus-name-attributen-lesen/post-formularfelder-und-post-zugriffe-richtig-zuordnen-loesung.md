@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – POST-Formularfelder und $_POST-Zugriffe richtig zuordnen
-description: Musterlösung zur Aufgabe INF-PHP-REQUEST-003.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - post-formulardaten-aus-name-attributen-lesen
-  - post-formularfelder-und-post-zugriffe-richtig-zuordnen-loesung
-taskId: INF-PHP-REQUEST-003
-relatedExercise: src/content/exercises/informatik/programmierung/php/post-formulardaten-aus-name-attributen-lesen/post-formularfelder-und-post-zugriffe-richtig-zuordnen.md
-tags:
-  - informatik
-  - loesung
-  - php
-  - task-id
+title: "Musterlösung – POST-Formularfelder und $_POST-Zugriffe richtig zuordnen"
+description: "Musterlösung zur Aufgabe INF-PHP-REQUEST-003."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "post-formulardaten-aus-name-attributen-lesen", "post-formularfelder-und-post-zugriffe-richtig-zuordnen"]
+taskId: "INF-PHP-REQUEST-003"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/post-formulardaten-aus-name-attributen-lesen/post-formularfelder-und-post-zugriffe-richtig-zuordnen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Erwartet werden <code>$_POST['email']</code> und <code>$_POST['stadt']</code>.

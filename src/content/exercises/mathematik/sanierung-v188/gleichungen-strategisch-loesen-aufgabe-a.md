@@ -3,33 +3,15 @@ title: "Gleichungen strategisch lösen: Grundordnung"
 description: "Ordne Gleichungen strategisch lösen in Zweck, Prüffragen und Fehlerquellen."
 subject: "mathematik"
 section: "algebra"
-topicPath:
-  - "algebra"
-  - "gleichungen-strategisch-loesen"
-  - "aufgabe-a"
+topicPath: ["sanierung-v188", "gleichungen-strategisch-loesen-aufgabe-a"]
 taskId: "mat-v188-041a"
-tags:
-  - "gleichungen"
-  - "algebra"
-  - "umformen"
-  - "mathematik"
-  - "aufgabe"
-  - "v188"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["mathematik", "algebra", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Du arbeitest am Thema **Gleichungen strategisch lösen**. Erstelle eine kurze, geordnete Erklärung für eine lernende Person.

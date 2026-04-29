@@ -1,24 +1,14 @@
 ---
 title: "Lösung – Watchdog als sinnvollen Fortschrittswächter planen"
 description: "Musterlösung zu watchdog als sinnvollen fortschrittswächter planen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - watchdog-sinnvoll-einsetzen
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "watchdog-sinnvoll-einsetzen"]
 taskId: "et-mc-v92-watchdog"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/watchdog-sinnvoll-einsetzen"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - watchdog
-  - robustheit
-  - reset
-  - fehlersuche
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Wenn der Watchdog auch in der blockierenden Wartefunktion zurückgesetzt wird, sieht er keinen Unterschied zwischen gesundem Ablauf und Hänger. Der defekte Zustand füttert dann selbst den Wächter. Dadurch verliert der Watchdog seine wichtigste Aufgabe.

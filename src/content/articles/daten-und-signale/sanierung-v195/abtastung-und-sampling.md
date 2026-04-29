@@ -3,43 +3,17 @@ title: "Abtastung und Sampling"
 description: "Verstehe zeitpunkte bewusst wählen als ruhigen Baustein für Daten, Signale, Messung und Übertragung."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "digitalisierung"
-  - "abtastung-und-sampling"
-
-learningGoals:
-  - "Zeitpunkte bewusst wählen"
-  - "Rohdaten, Darstellung und Interpretation sauber trennen"
-  - "einen kleinen prüfbaren nächsten Schritt formulieren"
-practiceIdeas:
-  - "Erkläre, warum ein schnell wechselndes Signal häufiger abgetastet werden muss."
-  - "Prüfe denselben Gedanken an einem zweiten Signalbeispiel."
-commonMistakes:
-  - "Rohwerte werden vorschnell als fertige Information gelesen."
-  - "Ein einzelnes Diagramm wird ohne Messkontext bewertet."
-  - "Einheiten, Zeitbezug oder Codierung bleiben unausgesprochen."
-keyTakeaways:
-  - "Sampling macht aus einem zeitlichen Verlauf einzelne Messwerte."
-  - "Die Abtastrate bestimmt, wie fein Änderungen erfasst werden."
-  - "Zu seltene Abtastung kann wichtige Muster verlieren."
-
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Messwerte, Übertragung oder Darstellung nicht mehr eindeutig lesbar sind."
-selfCheckPoints:
-  - "Kann ich beschreiben, welche Größe tatsächlich gemessen oder übertragen wird?"
-  - "Sind Einheit, Zeitbezug und Codierung benannt?"
-  - "Gibt es einen Kontrollpunkt gegen Fehlinterpretation?"
+topicPath: ["sanierung-v195", "abtastung-und-sampling"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
-tags:
-  - "abtastung"
-  - "sampling"
-  - "daten-und-signale"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Abtastung und Sampling](/schlaufuchs-platform/images/daten-und-signale/sanierung-v195/abtastung-und-sampling.svg)
 
 Abtastung und Sampling gehört zur Daten-und-Signale-Sanierung v195. Die Seite behandelt das Thema als ruhigen Arbeitsbaustein: Erst wird geklärt, welches Signal oder welche Daten vorliegen, dann wird entschieden, wie sie dargestellt, übertragen oder ausgewertet werden.

@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Dateisystem-Hierarchie – anwenden und prüfen"
 description: "Musterlösung zur Linux-Aufgabe Dateisystem-Hierarchie."
-subject: linux
+subject: "linux"
 section: "dateisystem-und-rechte"
-topicPath:
-  - "dateisystem-und-rechte"
-  - "dateisystem-hierarchie"
-taskId: LINUX-DATEISYSTEM-HIERARCHIE-V186-2
-relatedExercise: src/content/exercises/linux/dateisystem-und-rechte/dateisystem-hierarchie/dateisystem-hierarchie-anwenden-und-pruefen-v186.md
-tags:
-  - "linux"
-  - "dateisystem"
-  - "verzeichnisse"
-  - "loesung"
+topicPath: ["dateisystem-und-rechte", "dateisystem-hierarchie", "dateisystem-hierarchie-anwenden-und-pruefen-v186"]
+taskId: "LINUX-DATEISYSTEM-HIERARCHIE-V186-2"
+relatedExercise: "src/content/exercises/linux/dateisystem-und-rechte/dateisystem-hierarchie/dateisystem-hierarchie-anwenden-und-pruefen-v186.md"
+tags: ["linux", "dateisystem-und-rechte", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

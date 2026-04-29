@@ -3,38 +3,17 @@ title: "Datenqualität prüfen"
 description: "Datenqualität entscheidet, wie belastbar spätere Auswertungen sind."
 subject: "daten-und-signale"
 section: "datenpraxis"
-topicPath:
-  - "datenpraxis"
-  - "datenqualitaet-pruefen"
-learningGoals:
-  - "Datenqualität entscheidet, wie belastbar spätere Auswertungen sind fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Datenqualität entscheidet, wie belastbar spätere Auswertungen sind wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v189", "datenqualitaet-pruefen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "datenqualitaet"
-  - "pruefen"
-  - "analyse"
-  - "daten-und-signale"
-  - "v189"
+tags: ["daten-und-signale", "datenpraxis"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Datenqualität prüfen](/schlaufuchs-platform/images/daten-und-signale/sanierung-189/datenqualitaet-pruefen.svg)
 
 ## Überblick

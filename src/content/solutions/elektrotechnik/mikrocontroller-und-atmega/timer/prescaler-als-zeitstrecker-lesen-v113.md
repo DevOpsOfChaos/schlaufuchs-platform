@@ -3,20 +3,12 @@ title: "Lösung – Prescaler als Zeitstrecker lesen"
 description: "Musterlösung zu Prescaler als Zeitstrecker lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "timer"
-  - "prescaler-als-zeitstrecker-lesen-v113"
+topicPath: ["mikrocontroller-und-atmega", "timer", "prescaler-als-zeitstrecker-lesen-v113"]
 taskId: "v113-elektrotechnik-prescaler-als-zeitstrecker-lesen-v113"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/timer/prescaler-als-zeitstrecker-lesen-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "prescaler-als-zeitstrecker-lesen-v113"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Prescaler als Zeitstrecker lesen**.

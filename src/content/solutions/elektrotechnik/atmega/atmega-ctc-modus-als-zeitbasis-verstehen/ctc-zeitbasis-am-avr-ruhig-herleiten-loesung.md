@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – CTC-Zeitbasis am AVR ruhig herleiten
-description: Musterlösung zur Aufgabe ET-ATMEGA-TMR-208.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - zeitbasis-und-timer
-  - atmega-ctc-modus-als-zeitbasis-verstehen
-  - ctc-zeitbasis-am-avr-ruhig-herleiten-loesung
-taskId: ET-ATMEGA-TMR-208
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-ctc-modus-als-zeitbasis-verstehen/ctc-zeitbasis-am-avr-ruhig-herleiten.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – CTC-Zeitbasis am AVR ruhig herleiten"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-TMR-208."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-ctc-modus-als-zeitbasis-verstehen", "ctc-zeitbasis-am-avr-ruhig-herleiten"]
+taskId: "ET-ATMEGA-TMR-208"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-ctc-modus-als-zeitbasis-verstehen/ctc-zeitbasis-am-avr-ruhig-herleiten.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Im CTC-Modus endet der Zählabschnitt am Vergleichswert und nicht erst am Maximalwert. Der Timer erzeugt also genau dort eine periodische Marke, wo sie gebraucht wird. Dadurch wird aus dem Timer eine gezielte Zeitbasis.

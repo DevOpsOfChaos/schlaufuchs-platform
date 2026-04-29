@@ -1,35 +1,17 @@
 ---
 title: "tar und Kompression"
 description: "Überblick über tar-Archive, Kompression und den Unterschied zwischen Bündeln und Verkleinern."
-subject: linux
+subject: "linux"
 section: "Archive und Dateien"
-topicPath:
-  - "tar-und-kompression"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst tar und Kompression als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["tar-und-kompression", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Archiv und Kompression gleichgesetzt. Das führt zu Verwirrung bei Formaten und Optionen."
-keyTakeaways:
-  - "tar bündelt Dateien und Verzeichnisse zu einem Archiv; Kompressionsprogramme verkleinern dieses Archiv zusätzlich."
-  - "Die Trennung erklärt Dateiendungen wie .tar, .tar.gz oder .tar.xz und hilft beim sicheren Packen und Entpacken."
-  - "Ein Archiv ist kein Backup, solange Wiederherstellung, Integrität und Aufbewahrung nicht geprüft sind."
-recognizeSignals:
-  - "Es geht um tar und Kompression, wenn tar bewahrt Pfade, Rechte und Zeitstempel je nach Optionen."
-  - "Das Thema wird relevant, wenn Beispiele wie ein Projektordner kann als .tar.gz übertragen werden, wobei tar die Dateien bündelt und gzip komprimiert."
-selfCheckPoints:
-  - "Kann ich tar und Kompression in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "tar"
-  - "archive"
-  - "kompression"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Archive und Dateien"]
 draft: false
 ---
 # tar und Kompression

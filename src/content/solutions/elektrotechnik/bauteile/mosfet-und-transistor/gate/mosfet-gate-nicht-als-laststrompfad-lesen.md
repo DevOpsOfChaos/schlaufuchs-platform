@@ -3,23 +3,12 @@ title: "Lösung – MOSFET-Gate nicht als Laststrompfad lesen"
 description: "Musterlösung zu MOSFET-Gate mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "bauteile"
-  - "mosfet-und-transistor"
-  - "gate"
-  - "mosfet-gate-nicht-als-laststrompfad-lesen"
+topicPath: ["bauteile", "mosfet-und-transistor", "gate", "mosfet-gate-nicht-als-laststrompfad-lesen"]
 taskId: "v111-elektrotechnik-mosfet-gate-nicht-als-laststrompfad-lesen"
 relatedExercise: "elektrotechnik/bauteile/mosfet-und-transistor/gate/mosfet-gate-nicht-als-laststrompfad-lesen"
-tags:
-  - "elektrotechnik"
-  - "praxis"
-  - "unterthema"
-  - "bauteile"
-  - "mosfet-und-transistor"
-  - "mosfet-gate-nicht-als-laststrompfad-lesen"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **MOSFET-Gate**.

@@ -3,44 +3,17 @@ title: "JavaScript – fetch, async/await und Fehlerzustand"
 description: "Lerne, Daten aus einer Quelle zu laden, Wartezeiten sichtbar zu machen und Fehler als UI-Zustand zu behandeln."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "daten-laden"
-  - "fetch-async-await-und-fehlerzustand"
-learningGoals:
-  - "Du erklärst fetch als asynchronen Netzwerkzugriff."
-  - "Du nutzt async/await als lesbare Abfolge in einer Funktion."
-  - "Du planst Lade-, Erfolgs- und Fehlerzustand gemeinsam."
-practiceIdeas:
-  - "Baue ein sehr kleines Beispiel mit genau einem sichtbaren Zustand."
-  - "Erkläre den Code zuerst in Alltagssprache und danach mit Fachbegriffen."
-  - "Prüfe bewusst den Fall, dass ein Element, Wert oder Netzwerkzugriff nicht wie erwartet vorhanden ist."
-commonMistakes:
-  - "Nur den Erfolgsfall zu programmieren."
-  - "Netzwerkfehler und HTTP-Status nicht zu unterscheiden."
-  - "Während des Ladens keine Rückmeldung in der Oberfläche zu geben."
-keyTakeaways:
-  - "JavaScript im Browser verbindet Struktur, Ereignisse, Daten und Rückmeldung."
-  - "Robuste Lösungen behandeln nicht nur den Erfolgsfall."
-  - "Lesbarer Code trennt Auswahl, Entscheidung und Wirkung."
-recognizeSignals:
-  - "Es geht um Browserverhalten, Interaktion, Formularwerte, Datenladen oder gespeicherten Zustand."
-  - "Eine sichtbare Oberfläche soll durch JavaScript verständlicher oder interaktiver werden."
-  - "Der Code muss mit Fehlern, fehlenden Elementen oder leeren Werten umgehen."
-selfCheckPoints:
-  - "Kann ich sagen, welche Browseraufgabe der Code übernimmt?"
-  - "Ist die Rückmeldung für Nutzerinnen und Nutzer sichtbar?"
-  - "Bleibt die Lösung klein genug, um später erweitert zu werden?"
+topicPath: ["javascript", "daten-laden", "fetch-async-await-und-fehlerzustand"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "web development"
-  - "javascript"
-  - "fetch"
-  - "async"
-  - "await"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Lerne, Daten aus einer Quelle zu laden, Wartezeiten sichtbar zu machen und Fehler als UI-Zustand zu behandeln. Im Mittelpunkt steht nicht ein einzelner Trick, sondern eine ruhige Entscheidung: Was passiert im Browser, was sieht der Mensch und welche Stelle im Code ist dafür zuständig?

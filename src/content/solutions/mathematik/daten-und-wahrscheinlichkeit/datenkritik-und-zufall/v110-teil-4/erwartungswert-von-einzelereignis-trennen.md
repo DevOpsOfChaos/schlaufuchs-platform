@@ -3,23 +3,12 @@ title: "Lösung – Erwartungswert von Einzelereignis trennen"
 description: "Musterlösung zu Erwartungswert von Einzelereignis trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Daten und Zufall"
-topicPath:
-  - "daten-und-wahrscheinlichkeit"
-  - "datenkritik-und-zufall"
-  - "v110-teil-4"
-  - "erwartungswert-von-einzelereignis-trennen"
+topicPath: ["daten-und-wahrscheinlichkeit", "datenkritik-und-zufall", "v110-teil-4", "erwartungswert-von-einzelereignis-trennen"]
 taskId: "v110-mathematik-erwartungswert-von-einzelereignis-trennen"
 relatedExercise: "mathematik/daten-und-wahrscheinlichkeit/datenkritik-und-zufall/v110-teil-4/erwartungswert-von-einzelereignis-trennen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfung"
-  - "daten-und-wahrscheinlichkeit"
-  - "datenkritik-und-zufall"
-  - "erwartungswert-von-einzelereignis-trennen"
+tags: ["mathematik", "Daten und Zufall", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Erwartungswert von Einzelereignis trennen**.

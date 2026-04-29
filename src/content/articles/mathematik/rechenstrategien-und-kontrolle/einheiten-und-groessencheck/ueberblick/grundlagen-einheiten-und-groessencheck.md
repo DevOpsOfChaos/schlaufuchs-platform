@@ -1,33 +1,17 @@
 ---
 title: "Grundlagen: Einheiten und Größencheck"
 description: "Allgemeiner Überblick darüber, warum Einheiten beim Rechnen Bedeutung tragen und Ergebnisse prüfbar machen."
-subject: mathematik
+subject: "mathematik"
 section: "Rechenstrategien und Kontrolle"
-topicPath:
-  - rechenstrategien-und-kontrolle
-  - einheiten-und-groessencheck
-  - grundlagen-einheiten-und-groessencheck
-learningGoals:
-  - "Du erklärst Einheiten als Teil der Bedeutung einer Zahl."
-  - "Du nutzt Einheiten zur Plausibilitätsprüfung."
-  - "Du unterscheidest Länge, Fläche, Volumen und zusammengesetzte Größen."
+topicPath: ["rechenstrategien-und-kontrolle", "einheiten-und-groessencheck", "ueberblick", "grundlagen-einheiten-und-groessencheck"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur Zahlen zu rechnen und die Einheit erst am Ende anzuhängen."
-  - "Quadrat- und Kubikeinheiten gleich zu behandeln."
-  - "Eine rechnerisch richtige Zahl ohne Plausibilitätscheck zu akzeptieren."
-keyTakeaways:
-  - "Einheiten sind keine Dekoration, sondern beschreiben die Art der Größe."
-  - "Einheiten helfen, falsche Rechenwege früh zu erkennen."
-  - "Bei Flächen, Volumen und Geschwindigkeiten ändern sich Einheiten mit der Bedeutung."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - mathematik
-  - einheiten
-  - groessen
-  - plausibilitaet
+level: "einfach"
+tags: ["mathematik", "Rechenstrategien und Kontrolle"]
 draft: false
 ---
 ## Begriff

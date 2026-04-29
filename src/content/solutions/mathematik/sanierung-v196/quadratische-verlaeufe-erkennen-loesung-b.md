@@ -1,15 +1,14 @@
 ---
-title: Quadratische Verläufe erkennen – Lösung B
-description: Musterlösung zu Quadratische Verläufe erkennen mit Kontrolle.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Quadratische Verläufe erkennen – Lösung B"
+description: "Musterlösung zu Quadratische Verläufe erkennen mit Kontrolle."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "funktionen-im-vergleich", "quadratische-verlaeufe-erkennen"]
 taskId: "mat-v196-quadratische-verlaeufe-erkennen-b"
 relatedExercise: "mathematik/sanierung-v196/quadratische-verlaeufe-erkennen-aufgabe-b"
 tags: ["mathematik", "v196", "funktionen-im-vergleich", "quadratische-verlaeufe-erkennen"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine passende Lösung zu dieser Aufgabe muss nicht exakt dieselben Zahlen oder Beispiele verwenden. Entscheidend ist der saubere Aufbau.

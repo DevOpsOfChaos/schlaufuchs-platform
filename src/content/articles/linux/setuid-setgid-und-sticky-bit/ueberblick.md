@@ -1,37 +1,19 @@
 ---
 title: "Setuid, Setgid und Sticky Bit"
 description: "Überblick über spezielle Linux-Rechtebits und ihre Wirkung auf Programme, Verzeichnisse und gemeinsame Ablagen."
-subject: linux
+subject: "linux"
 section: "Rechte"
-topicPath:
-  - "setuid-setgid-und-sticky-bit"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Setuid, Setgid und Sticky Bit als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["setuid-setgid-und-sticky-bit", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Setuid wird manchmal auf eigene Skripte gesetzt, ohne die Sicherheitsfolgen zu verstehen."
-keyTakeaways:
-  - "Spezielle Rechtebits verändern Standardrechte."
-  - "Sticky Bit schützt gemeinsame Verzeichnisse."
-  - "Setuid und Setgid müssen vorsichtig verwendet werden."
-recognizeSignals:
-  - "Rechteanzeigen zeigen `s`, `S`, `t` oder `T`."
-  - "Ein Programm braucht besondere Rechte."
-selfCheckPoints:
-  - "Kann ich Setuid, Setgid und Sticky Bit in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "rechte"
-  - "setuid"
-  - "sticky bit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Rechte"]
 draft: false
 ---
-
 # Setuid, Setgid und Sticky Bit
 
 Setuid, Setgid und Sticky Bit sind spezielle Rechtebits, die über normale Lesen-, Schreiben- und Ausführen-Rechte hinausgehen.

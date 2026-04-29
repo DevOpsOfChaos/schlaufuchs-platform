@@ -1,45 +1,19 @@
 ---
-title: Text-Overflow und Ellipsis verstehen
-description: Verstehe, wie zu lange Texte in schmalen Flächen abgeschnitten werden können und warum Ellipsis eine sichtbare Lesehilfe statt bloßer Deko ist.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - text-overflow-und-ellipsis-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von text-overflow und ellipsis.
-  - Du beschreibst, warum schmale Oberflächen manchmal verkürzte Texte brauchen.
-  - Du liest Ellipsis eher als Lesehinweis als als zufällige Abkürzung.
-practiceIdeas:
-  - Vergleiche eine Kartenliste mit kurzen und zu langen Titeln.
-  - Prüfe, wo Zeilen bewusst begrenzt werden, damit Karten ruhig bleiben.
-  - Lies Auslassungspunkte eher als Signal für verborgenen Resttext.
-commonMistakes:
-  - zu denken, ellipsis verkürze den Textinhalt selbst.
-  - Ellipsis mit normalem Zeilenumbruch zu verwechseln.
-  - zu lange Titel einfach laufen zu lassen, obwohl die Oberfläche dadurch unruhig wird.
-keyTakeaways:
-  - Text-Overflow regelt, wie zu langer Text in einer begrenzten Fläche behandelt wird.
-  - Ellipsis zeigt an, dass sichtbarer Text bewusst abgeschnitten wurde.
-  - Gute Oberflächen balancieren Lesbarkeit, Ruhe und verfügbaren Platz.
-recognizeSignals:
-  - Es geht um Karten, Listen, Navigationen oder Dateinamen in schmalen Bereichen.
-  - Du sollst erklären, warum Titel abgeschnitten sind und dennoch lesbar bleiben.
-  - In Beispielen zählt die Oberflächenruhe stärker als die vollständige Anzeige in jeder Zeile.
-selfCheckPoints:
-  - Kann ich erklären, was Ellipsis signalisiert?
-  - Kann ich Zeilenumbruch und abgeschnittenen Text unterscheiden?
-  - Kann ich eine sinnvolle Einsatzsituation für verkürzte Einzeilentexte nennen?
-tags:
-  - css
-  - text-overflow
-  - ellipsis
-  - ui
-level: mittel
+title: "Text-Overflow und Ellipsis verstehen"
+description: "Verstehe, wie zu lange Texte in schmalen Flächen abgeschnitten werden können und warum Ellipsis eine sichtbare Lesehilfe statt bloßer Deko ist."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "text-overflow-und-ellipsis-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 In schmalen Oberflächen passt Text nicht immer vollständig in eine Zeile. Dann braucht man eine bewusste Entscheidung: Soll der Text umbrechen, aus dem Bereich ragen oder als verkürzte Zeile mit `…` enden? Genau hier hilft `text-overflow: ellipsis`.

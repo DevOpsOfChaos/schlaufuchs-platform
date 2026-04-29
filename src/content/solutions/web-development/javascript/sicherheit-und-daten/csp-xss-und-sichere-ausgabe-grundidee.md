@@ -3,22 +3,12 @@ title: "Lösung – JavaScript – CSP, XSS und sichere Ausgabe als Grundidee"
 description: "Musterlösung zur Aufgabe: Bewerte zwei Ausgabevarianten für einen Kommentartext: textContent und innerHTML. Erkläre, wo XSS-Risiko entsteht und wie CSP zusätzlich helfen kann."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "sicherheit-und-daten"
-  - "csp-xss-und-sichere-ausgabe-grundidee"
+topicPath: ["javascript", "sicherheit-und-daten", "csp-xss-und-sichere-ausgabe-grundidee"]
 taskId: "web-v100-csp-xss-und-sichere-ausgabe-grundidee"
 relatedExercise: "web-development/javascript/sicherheit-und-daten/csp-xss-und-sichere-ausgabe-grundidee"
-tags:
-  - "web development"
-  - "javascript"
-  - "sicherheit"
-  - "xss"
-  - "csp"
-  - "lösung"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine gute Lösung beginnt nicht mit möglichst viel Code, sondern mit einer klaren Einordnung: Lerne, warum fremde Eingaben nicht ungeprüft als HTML ausgegeben werden sollten und welche Rolle eine Content Security Policy spielt.

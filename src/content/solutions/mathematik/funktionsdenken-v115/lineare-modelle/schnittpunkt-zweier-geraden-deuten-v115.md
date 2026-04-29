@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Schnittpunkt zweier Geraden deuten"
 description: "Musterlösung zu Schnittpunkt zweier Geraden deuten mit Trennkante und Gegenprobe."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "funktionsdenken-v115"
-  - "lineare-modelle"
-  - "schnittpunkt-zweier-geraden-deuten-v115"
+topicPath: ["funktionsdenken-v115", "lineare-modelle", "schnittpunkt-zweier-geraden-deuten-v115"]
 taskId: "mathematik-schnittpunkt-zweier-geraden-deuten-v115"
 relatedExercise: "mathematik/funktionsdenken-v115/lineare-modelle/schnittpunkt-zweier-geraden-deuten-v115"
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "funktionsdenken"
-  - "lineare modelle"
-  - "lösung"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Schnittpunkt zweier Geraden deuten**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

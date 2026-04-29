@@ -3,23 +3,12 @@ title: "Lösung – em und rem nach Bezugssystem unterscheiden"
 description: "Musterlösung zu em und rem mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "responsive-design"
-  - "em-rem"
-  - "em-und-rem-nach-bezugssystem-unterscheiden"
+topicPath: ["css", "responsive-design", "em-rem", "em-und-rem-nach-bezugssystem-unterscheiden"]
 taskId: "v109-web-development-em-und-rem-nach-bezugssystem-unterscheiden"
 relatedExercise: "web-development/css/responsive-design/em-rem/em-und-rem-nach-bezugssystem-unterscheiden"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "css"
-  - "responsive-design"
-  - "em und rem"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **em und rem**.

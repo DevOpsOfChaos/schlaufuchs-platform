@@ -1,34 +1,19 @@
 ---
 title: "Strompfad und Rückweg"
 description: "Allgemeiner Überblick darüber, warum elektrischer Strom immer einen geschlossenen Pfad benötigt und warum der Rückweg genauso wichtig ist wie die Hinleitung."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik"
-topicPath:
-  - "strompfad-und-rueckweg"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["strompfad-und-rueckweg", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur die Hinleitung zu betrachten und den Rückweg als selbstverständlich anzunehmen."
-keyTakeaways:
-  - "Der Rückweg ist Teil der elektrischen Funktion und nicht nur ein nebensächlicher Draht."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn eine Schaltung nur teilweise verbunden wirkt, Messwerte springen oder unterschiedliche Massepunkte im Spiel sind."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "strom"
-  - "grundlagen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik"]
 draft: false
 ---
-
 # Strompfad und Rückweg
 
 Ein Strompfad beschreibt den Weg, auf dem Ladung durch eine Schaltung fließen kann. Dazu gehört nicht nur die Leitung zur Last, sondern auch der Rückweg zur Quelle. Ohne geschlossenen Pfad gibt es keine dauerhafte Strombewegung.

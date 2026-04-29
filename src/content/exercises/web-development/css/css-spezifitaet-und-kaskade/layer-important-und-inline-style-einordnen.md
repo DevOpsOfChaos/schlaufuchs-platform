@@ -1,32 +1,15 @@
 ---
 title: "CSS – Kaskadenkonflikt ohne Reflex-!important lösen"
 description: "Analysiere einen CSS-Konflikt und entscheide, ob Layer, Reihenfolge oder Struktur das Problem lösen."
-subject: web-development
+subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "css-spezifitaet-und-kaskade"
-  - "layer-important-und-inline-style-einordnen"
+topicPath: ["css", "css-spezifitaet-und-kaskade", "layer-important-und-inline-style-einordnen"]
 taskId: "wd-css-v95-layer-important-inline-style"
-tags:
-  - "web development"
-  - "css"
-  - "kaskade"
-  - "spezifität"
-  - "layer"
-hintPoints:
-  - "Trenne zuerst sichtbares Verhalten, semantische Bedeutung und technische Umsetzung."
-  - "Begründe deine Entscheidung aus Nutzerperspektive, nicht nur aus Code-Sicht."
-  - "Prüfe am Ende, ob die Lösung ohne Ratespiel verständlich bleibt."
-selfCheckPoints:
-  - "Ist der betroffene UI-Baustein eindeutig benannt?"
-  - "Ist die technische Entscheidung fachlich begründet?"
-  - "Gibt es eine klare Verbesserung gegenüber dem Ausgangszustand?"
-transferIdeas:
-  - "Übertrage die Entscheidung auf eine zweite Komponente derselben Seite."
-  - "Formuliere eine kurze Prüfregel, die ein Team beim Review verwenden könnte."
-reflectionPrompt: "Welche kleine Änderung hätte hier die größte Wirkung auf Verständlichkeit oder Zugänglichkeit?"
-level: fortgeschritten
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "fortgeschritten"
 draft: false
 ---
 ## Ausgangslage

@@ -1,44 +1,19 @@
 ---
-title: Bedingungen und Verzweigungen verstehen
-description: Verstehe, warum Abläufe oft nicht nur aus festen Schritten bestehen, sondern auf Bedingungen reagieren müssen.
-subject: informatik
-section: Algorithmen
-topicPath:
-  - algorithmen
-  - bedingungen-und-verzweigungen-verstehen
-learningGoals:
-  - Du erklärst, was eine Bedingung in einem Ablauf bedeutet.
-  - Du unterscheidest lineare Schritte und Verzweigungen sauber.
-  - Du beschreibst Entscheidungen in Abläufen als prüfbare Regel statt als Bauchgefühl.
-practiceIdeas:
-  - Suche in einem Alltagsablauf einen Punkt, an dem unterschiedliche Wege möglich sind.
-  - Formuliere eine Entscheidung bewusst als wenn-dann-Regel.
-  - Prüfe bei einem Beispiel, welche Information vor der Entscheidung bekannt sein muss.
-commonMistakes:
-  - Eine Verzweigung mit einem zufälligen Wechsel des Ablaufs zu verwechseln.
-  - Die Bedingung nicht klar zu benennen.
-  - Nur die beiden Wege zu sehen, aber nicht die Regel, die dazwischen entscheidet.
-keyTakeaways:
-  - Bedingungen machen Abläufe anpassungsfähig.
-  - Eine Verzweigung braucht eine klar prüfbare Regel.
-  - Algorithmisches Denken heißt auch, Entscheidungen nachvollziehbar zu machen.
-recognizeSignals:
-  - Es geht um wenn-dann-Entscheidungen, Regeln oder verschiedene Reaktionswege.
-  - In einer Aufgabe hängt der nächste Schritt von einer Prüfung ab.
-  - Du sollst erklären, warum ein Ablauf an einer Stelle anders weitergeht.
-selfCheckPoints:
-  - Kann ich die Bedingung eines Ablaufs klar benennen?
-  - Kann ich lineare Schritte und Verzweigungen unterscheiden?
-  - Kann ich einen Entscheidungsweg als Regel formulieren?
-tags:
-  - algorithmus
-  - bedingung
-  - verzweigung
-  - struktur
-level: einfach
+title: "Bedingungen und Verzweigungen verstehen"
+description: "Verstehe, warum Abläufe oft nicht nur aus festen Schritten bestehen, sondern auf Bedingungen reagieren müssen."
+subject: "informatik"
+section: "Algorithmen"
+topicPath: ["algorithmen", "bedingungen-und-verzweigungen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Algorithmen"]
 draft: false
 ---
-
 ## Grundidee
 
 Viele Abläufe laufen nicht einfach Schritt für Schritt geradeaus. Oft muss zwischendurch geprüft werden, **welche Situation gerade vorliegt**. Erst danach steht fest, wie es weitergeht.

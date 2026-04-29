@@ -1,46 +1,19 @@
 ---
-title: MySQLi-Grundablauf in PHP verstehen
-description: Verstehe den groben Ablauf von Verbindungsaufbau, Anfrage, Ergebnislesen und Schließen beim Datenbankzugriff mit PHP.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - mysqli-grundablauf-in-php-verstehen
-learningGoals:
-  - Du beschreibst den groben Ablauf eines Datenbankzugriffs mit MySQLi.
-  - Du unterscheidest Verbindung, Anfrage und Ergebnis fachlich voneinander.
-  - Du erkennst, warum DQL- und DML-Anfragen unterschiedlich wirken.
-practiceIdeas:
-  - Ordne in einem Ablaufbild Verbindungsaufbau, Query, Ergebniszugriff und Schließen.
-  - Erkläre, warum eine SELECT-Anfrage anders gelesen wird als eine UPDATE-Anfrage.
-  - Vergleiche prozedurale und objektorientierte Schreibweise nur auf Ablaufebene.
-commonMistakes:
-  - Verbindung und Abfrage als denselben Schritt zu lesen.
-  - Zu glauben, jede SQL-Anfrage liefere direkt dieselbe Art von Rückgabe.
-  - Nur auf Syntax zu schauen und nicht auf die Phasen des Ablaufs.
-keyTakeaways:
-  - Ein Datenbankzugriff hat meist die Phasen verbinden, anfragen, auswerten, schließen.
-  - SELECT liefert typischerweise Ergebnisse zum Lesen, UPDATE oder INSERT eher nur Erfolg oder Misserfolg.
-  - Prozedurale und OOP-Schreibweise folgen fachlich oft derselben Logik.
-recognizeSignals:
-  - Es geht um PHP, MySQLi, query, fetch oder connection.
-  - Ein Beispiel zeigt SELECT, UPDATE oder INSERT.
-  - Du sollst den Zugriff als Ablauf statt als bloße Funktionsliste erklären.
-selfCheckPoints:
-  - Kann ich die vier Grundphasen nennen?
-  - Kann ich DQL und DML grob auseinanderhalten?
-  - Kann ich beschreiben, warum nach einer Abfrage oft noch ein Ergebniszugriff nötig ist?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - php
-  - mysqli
-  - datenbank
+title: "MySQLi-Grundablauf in PHP verstehen"
+description: "Verstehe den groben Ablauf von Verbindungsaufbau, Anfrage, Ergebnislesen und Schließen beim Datenbankzugriff mit PHP."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "mysqli-grundablauf-in-php-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein PHP-Skript greift nicht „einfach so“ direkt auf Tabellen zu. Typisch ist ein ruhiger Ablauf: Verbindung aufbauen, eine Anfrage senden, das Ergebnis lesen und die Verbindung wieder sauber beenden.

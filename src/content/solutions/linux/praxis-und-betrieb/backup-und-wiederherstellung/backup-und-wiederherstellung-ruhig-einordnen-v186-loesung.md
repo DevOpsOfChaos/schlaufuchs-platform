@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Backup und Wiederherstellung – ruhig einordnen"
 description: "Musterlösung zur Linux-Aufgabe Backup und Wiederherstellung."
-subject: linux
+subject: "linux"
 section: "praxis-und-betrieb"
-topicPath:
-  - "praxis-und-betrieb"
-  - "backup-und-wiederherstellung"
-taskId: LINUX-BACKUP-UND-WIEDERHERSTELLUNG-V186-1
-relatedExercise: src/content/exercises/linux/praxis-und-betrieb/backup-und-wiederherstellung/backup-und-wiederherstellung-ruhig-einordnen-v186.md
-tags:
-  - "linux"
-  - "backup"
-  - "restore"
-  - "loesung"
+topicPath: ["praxis-und-betrieb", "backup-und-wiederherstellung", "backup-und-wiederherstellung-ruhig-einordnen-v186"]
+taskId: "LINUX-BACKUP-UND-WIEDERHERSTELLUNG-V186-1"
+relatedExercise: "src/content/exercises/linux/praxis-und-betrieb/backup-und-wiederherstellung/backup-und-wiederherstellung-ruhig-einordnen-v186.md"
+tags: ["linux", "praxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

@@ -3,22 +3,12 @@ title: "Lösung: Protokollschritt notieren"
 description: "Musterlösung zur Aufgabe „Protokollschritt notieren“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "systemnahes-denken"
-  - "schnittstellen-und-protokolle"
-  - "protokollschritt-notieren-v116"
+topicPath: ["systemnahes-denken", "schnittstellen-und-protokolle", "protokollschritt-notieren-v116"]
 taskId: "protokollschritt-notieren-v116"
 relatedExercise: "informatik/systemnahes-denken/schnittstellen-und-protokolle/protokollschritt-notieren-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "schnittstellen und protokolle"
-  - "protokollschritt notieren"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

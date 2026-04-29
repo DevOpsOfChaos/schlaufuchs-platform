@@ -1,36 +1,19 @@
 ---
 title: "Formularversand und Request-Flow"
 description: "Formularversand beschreibt den Weg von Nutzereingaben über Validierung, Request, Serververarbeitung und Rückmeldung."
-subject: web-development
+subject: "web-development"
 section: "Formulare"
-topicPath:
-  - "formularversand-und-request-flow"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Formularversand und Request-Flow als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["formularversand-und-request-flow", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird nur der glückliche Erfolgsfall gestaltet. Gute Formulare erklären auch Fehler, Wartezeiten und Wiederholungen."
-keyTakeaways:
-  - "Formularversand beschreibt den Weg von Nutzereingaben über Validierung, Request, Serververarbeitung und Rückmeldung."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Formularversand und Request-Flow, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Formularversand und Request-Flow in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "web"
-  - "formulare"
-  - "http"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Formulare"]
 draft: false
 ---
-
 # Formularversand und Request-Flow
 
 Formularversand beschreibt den Weg von Nutzereingaben über Validierung, Request,

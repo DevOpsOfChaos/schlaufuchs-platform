@@ -1,23 +1,14 @@
 ---
-title: Lösung – Pipeline-Fehler erkennen
-description: Musterlösung zur Aufgabe über Pipeline-Fehler erkennen.
-subject: linux
-section: Feinstruktur Linux
-topicPath:
-- shell-automation
-- textstroeme-und-pipes
-- pipeline-fehler-erkennen-v114
-taskId: v114-linux-pipeline-fehler-erkennen-v114
-relatedExercise: linux/shell-automation/textstroeme-und-pipes/pipeline-fehler-erkennen-v114
-tags:
-- linux
-- v114
-- loesung
-- shell-automation
-- textstroeme-und-pipes
+title: "Lösung – Pipeline-Fehler erkennen"
+description: "Musterlösung zur Aufgabe über Pipeline-Fehler erkennen."
+subject: "linux"
+section: "Feinstruktur Linux"
+topicPath: ["shell-automation", "textstroeme-und-pipes", "pipeline-fehler-erkennen-v114"]
+taskId: "v114-linux-pipeline-fehler-erkennen-v114"
+relatedExercise: "linux/shell-automation/textstroeme-und-pipes/pipeline-fehler-erkennen-v114"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

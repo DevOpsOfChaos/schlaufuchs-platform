@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – Operatoren nach fachlicher Rolle ordnen
-description: Musterlösung zur Aufgabe INF-PROG-CPP-OP-001.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - operatoren-und-ausdruecke
-  - wichtige-operatoren-in-cpp-nach-gruppen-ordnen
-  - operatoren-nach-fachlicher-rolle-ordnen-loesung
-taskId: INF-PROG-CPP-OP-001
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/wichtige-operatoren-in-cpp-nach-gruppen-ordnen/operatoren-nach-fachlicher-rolle-ordnen.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – Operatoren nach fachlicher Rolle ordnen"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-OP-001."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "wichtige-operatoren-in-cpp-nach-gruppen-ordnen", "operatoren-nach-fachlicher-rolle-ordnen"]
+taskId: "INF-PROG-CPP-OP-001"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/wichtige-operatoren-in-cpp-nach-gruppen-ordnen/operatoren-nach-fachlicher-rolle-ordnen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Gruppen bilden
 
 - <code>+</code>: arithmetischer Operator

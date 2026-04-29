@@ -1,45 +1,19 @@
 ---
-title: Min und Max in CSS verstehen
-description: Verstehe, wie Mindest- und Maximalgrenzen für Größen helfen, Layouts zwischen Enge und Überdehnung ruhig zu halten.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - min-und-max-in-css-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von Mindest- und Maximalgrenzen in CSS.
-  - Du beschreibst, warum Größen ohne Grenzen zu eng oder zu breit werden können.
-  - Du liest min und max als Stabilisierung von Layouts statt als bloße Zahlen.
-practiceIdeas:
-  - Vergleiche eine Karte ohne Breitenlimit mit einer Karte mit Maximalbreite.
-  - Prüfe, wann eine Mindestgröße Lesbarkeit schützt.
-  - Lies Größenangaben eher als Rahmen als als starre Vorschrift.
-commonMistakes:
-  - nur auf eine feste Breite zu setzen.
-  - Mindest- und Maximalgrenzen mit rein dekorativen Abständen zu verwechseln.
-  - zu glauben, responsive Layouts bräuchten keine sinnvollen Grenzen.
-keyTakeaways:
-  - Min und Max setzen sinnvolle Grenzen für Größen.
-  - Gute Layouts brauchen oft nicht nur Flexibilität, sondern auch Schutz vor Extremen.
-  - Größenrahmen helfen bei Lesbarkeit und Stabilität.
-recognizeSignals:
-  - Es geht um Karten, Bilder, Textbreiten oder responsive Oberflächen.
-  - Du sollst erklären, warum etwas zu schmal oder zu breit wirkt.
-  - In Beispielen ist die Grenze selbst oft wichtiger als der exakte Zahlenwert.
-selfCheckPoints:
-  - Kann ich erklären, warum Größenrahmen nützlich sind?
-  - Kann ich Mindest- und Maximalgrenzen voneinander unterscheiden?
-  - Kann ich ein Layoutproblem als fehlende Grenze lesen?
-tags:
-  - css
-  - responsive
-  - min-width
-  - max-width
-level: einfach
+title: "Min und Max in CSS verstehen"
+description: "Verstehe, wie Mindest- und Maximalgrenzen für Größen helfen, Layouts zwischen Enge und Überdehnung ruhig zu halten."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "min-und-max-in-css-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Nicht jedes Layoutproblem löst man mit genau einer festen Breite. Oft braucht eine Oberfläche eher sinnvolle Grenzen: nicht kleiner als ..., nicht größer als ... . Genau dafür helfen `min-*` und `max-*`-Eigenschaften.

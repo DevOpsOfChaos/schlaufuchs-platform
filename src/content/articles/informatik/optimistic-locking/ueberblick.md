@@ -1,32 +1,17 @@
 ---
 title: "Optimistic Locking"
 description: "Lexikonartiger Überblick über Versionsprüfung bei konkurrierenden Änderungen."
-subject: informatik
+subject: "informatik"
 section: "Datenbanken"
-topicPath:
-  - "optimistic-locking"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Optimistic Locking als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Versionsfeld, Konflikt, Retry."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["optimistic-locking", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Seltene Konflikte als unmöglich anzunehmen und Updates blind zu überschreiben."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Optimistic Locking beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Nebenläufige Datenänderungen."
-  - "Wichtige Hinweise liefern vor allem Versionsfeld, Konflikt, Retry."
-recognizeSignals:
-  - "Es geht um nebenläufige datenänderungen, versionsfeld oder konflikt."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Optimistic Locking erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "informatik"
-  - "datenbanken"
-  - "konsistenz"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Datenbanken"]
 draft: false
 ---
 # Optimistic Locking

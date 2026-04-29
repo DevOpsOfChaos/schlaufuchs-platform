@@ -3,22 +3,12 @@ title: "Lösung: Breakpoints nicht überfrachten"
 description: "Musterlösung zur Aufgabe „Breakpoints nicht überfrachten“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "css-layoutsysteme"
-  - "responsive-abstaende"
-  - "breakpoints-nicht-ueberfrachten-v116"
+topicPath: ["css-layoutsysteme", "responsive-abstaende", "breakpoints-nicht-ueberfrachten-v116"]
 taskId: "breakpoints-nicht-ueberfrachten-v116"
 relatedExercise: "web-development/css-layoutsysteme/responsive-abstaende/breakpoints-nicht-ueberfrachten-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "responsive abstaende"
-  - "breakpoints nicht ueberfrachten"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

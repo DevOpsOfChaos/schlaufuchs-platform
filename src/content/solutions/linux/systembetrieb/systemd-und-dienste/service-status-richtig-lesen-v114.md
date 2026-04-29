@@ -1,23 +1,14 @@
 ---
-title: Lösung – Service-Status richtig lesen
-description: Musterlösung zur Aufgabe über Service-Status richtig lesen.
-subject: linux
-section: Feinstruktur Linux
-topicPath:
-- systembetrieb
-- systemd-und-dienste
-- service-status-richtig-lesen-v114
-taskId: v114-linux-service-status-richtig-lesen-v114
-relatedExercise: linux/systembetrieb/systemd-und-dienste/service-status-richtig-lesen-v114
-tags:
-- linux
-- v114
-- loesung
-- systembetrieb
-- systemd-und-dienste
+title: "Lösung – Service-Status richtig lesen"
+description: "Musterlösung zur Aufgabe über Service-Status richtig lesen."
+subject: "linux"
+section: "Feinstruktur Linux"
+topicPath: ["systembetrieb", "systemd-und-dienste", "service-status-richtig-lesen-v114"]
+taskId: "v114-linux-service-status-richtig-lesen-v114"
+relatedExercise: "linux/systembetrieb/systemd-und-dienste/service-status-richtig-lesen-v114"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

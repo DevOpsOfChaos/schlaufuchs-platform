@@ -1,35 +1,17 @@
 ---
 title: "Interne und externe Pull-Widerstände"
 description: "Überblick über interne und externe Pull-up- und Pull-down-Widerstände und ihre Rolle bei stabilen digitalen Eingängen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Digitale Eingänge und Ausgänge"
-topicPath:
-  - "interne-und-externe-pull-widerstaende"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Interne und externe Pull-Widerstände als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["interne-und-externe-pull-widerstaende", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Viele Fehler entstehen, wenn ein Eingang ohne Pull-Widerstand als digital eindeutig betrachtet wird. Ein offener Eingang ist kein stabiler Zustand."
-keyTakeaways:
-  - "Pull-Widerstände legen einen definierten Ruhepegel fest, wenn ein digitaler Eingang sonst offen oder hochohmig wäre."
-  - "Sie verhindern zufällige Pegel durch Störungen, Leckströme oder kapazitive Kopplung und machen Taster- oder Sensorsignale eindeutig lesbar."
-  - "Ein Pull-Widerstand ist keine Entprellung und kein vollständiger Schutz gegen Überspannung oder Fehlverdrahtung."
-recognizeSignals:
-  - "Es geht um Interne und externe Pull-Widerstände, wenn interne Pull-Widerstände sind bequem, aber oft relativ hochohmig und ungenau."
-  - "Das Thema wird relevant, wenn Beispiele wie ein Taster gegen Masse wird häufig mit Pull-up betrieben, sodass der Eingang im Ruhezustand High und beim Drücken Low liest."
-selfCheckPoints:
-  - "Kann ich Interne und externe Pull-Widerstände in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "pull-up"
-  - "pull-down"
-  - "digitale eingänge"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Digitale Eingänge und Ausgänge"]
 draft: false
 ---
 # Interne und externe Pull-Widerstände

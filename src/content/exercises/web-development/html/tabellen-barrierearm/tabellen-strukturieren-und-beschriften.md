@@ -1,30 +1,17 @@
 ---
-title: Tabellen strukturieren und beschriften
-description: Plane Datentabellen so, dass Caption, Kopfzellen und Struktur klar erkennbar sind.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - tabellen-barrierearm
-  - tabellen-strukturieren-und-beschriften
-level: einfach
+title: "Tabellen strukturieren und beschriften"
+description: "Plane Datentabellen so, dass Caption, Kopfzellen und Struktur klar erkennbar sind."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "tabellen-barrierearm", "tabellen-strukturieren-und-beschriften"]
+taskId: "AUTO-TABELLEN-STRUKTURIEREN-UND-BESCHRIFTEN"
+tags: ["web-development", "HTML", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - html
-  - tabelle
-  - accessibility
-hintPoints:
-  - "Frage zuerst, ob wirklich tabellarische Daten vorliegen."
-  - "Achte darauf, Caption und Kopfzellen nicht zu vergessen."
-selfCheckPoints:
-  - "Kannst du erklären, warum eine Caption hilfreich ist?"
-  - "Sind Kopfzellen semantisch und nicht nur optisch markiert?"
-transferIdeas:
-  - "Übertrage die Idee auf einen Stundenplan, eine Preisliste oder eine Ergebnistabelle."
-  - "Erkläre die Lösung einmal für Design und einmal für Zugänglichkeit."
-reflectionPrompt: "Wann würdest du bewusst keine Tabelle verwenden, obwohl etwas in Spalten darstellbar wäre?"
 ---
-
 ## Aufgabe 1: Einsatz prüfen
 
 Entscheide für jedes Beispiel, ob eine echte Datentabelle sinnvoll ist:

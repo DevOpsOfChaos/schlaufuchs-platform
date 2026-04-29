@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – ASCII-Zeichen und Codewerte ruhig lesen
-description: Musterlösung zur Aufgabe INF-DATA-ASCII-001.
-subject: informatik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - daten-und-information
-  - ascii-und-zeichenkodierung-grundlegend-verstehen
-  - ascii-zeichen-und-codewerte-ruhig-lesen-loesung
-taskId: INF-DATA-ASCII-001
-relatedExercise: src/content/exercises/informatik/grundlagen/daten-und-information/ascii-und-zeichenkodierung-grundlegend-verstehen/ascii-zeichen-und-codewerte-ruhig-lesen.md
-tags:
-  - informatik
-  - ascii
-  - loesung
-  - task-id
+title: "Musterlösung – ASCII-Zeichen und Codewerte ruhig lesen"
+description: "Musterlösung zur Aufgabe INF-DATA-ASCII-001."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "daten-und-information", "ascii-und-zeichenkodierung-grundlegend-verstehen", "ascii-zeichen-und-codewerte-ruhig-lesen"]
+taskId: "INF-DATA-ASCII-001"
+relatedExercise: "src/content/exercises/informatik/grundlagen/daten-und-information/ascii-und-zeichenkodierung-grundlegend-verstehen/ascii-zeichen-und-codewerte-ruhig-lesen.md"
+tags: ["informatik", "Grundlagen", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Ebenen benennen
 
 - <code>A</code> → sichtbares Zeichen

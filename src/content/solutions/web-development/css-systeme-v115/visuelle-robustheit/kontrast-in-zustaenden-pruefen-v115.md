@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Kontrast in Zuständen prüfen"
 description: "Musterlösung zu Kontrast in Zuständen prüfen mit Trennkante und Gegenprobe."
-subject: web-development
+subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "css-systeme-v115"
-  - "visuelle-robustheit"
-  - "kontrast-in-zustaenden-pruefen-v115"
+topicPath: ["css-systeme-v115", "visuelle-robustheit", "kontrast-in-zustaenden-pruefen-v115"]
 taskId: "web-development-kontrast-in-zustaenden-pruefen-v115"
 relatedExercise: "web-development/css-systeme-v115/visuelle-robustheit/kontrast-in-zustaenden-pruefen-v115"
-tags:
-  - "web development"
-  - "feinstruktur"
-  - "unterthema"
-  - "css-systeme"
-  - "visuelle robustheit"
-  - "lösung"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Kontrast in Zuständen prüfen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

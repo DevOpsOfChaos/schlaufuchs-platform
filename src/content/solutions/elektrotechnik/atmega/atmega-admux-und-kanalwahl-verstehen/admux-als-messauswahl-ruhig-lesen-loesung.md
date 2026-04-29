@@ -1,24 +1,14 @@
 ---
-title: Musterlösung – ADMUX als Messauswahl ruhig lesen
-description: Musterlösung zur Aufgabe ET-ATMEGA-ADC-303.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - adc-und-analoge-eingaenge
-  - atmega-admux-und-kanalwahl-verstehen
-  - admux-als-messauswahl-ruhig-lesen-loesung
-taskId: ET-ATMEGA-ADC-303
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-admux-und-kanalwahl-verstehen/admux-als-messauswahl-ruhig-lesen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
-  - adc
+title: "Musterlösung – ADMUX als Messauswahl ruhig lesen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-ADC-303."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-admux-und-kanalwahl-verstehen", "admux-als-messauswahl-ruhig-lesen"]
+taskId: "ET-ATMEGA-ADC-303"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-admux-und-kanalwahl-verstehen/admux-als-messauswahl-ruhig-lesen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

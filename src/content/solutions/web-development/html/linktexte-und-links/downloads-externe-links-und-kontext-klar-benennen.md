@@ -1,20 +1,12 @@
 ---
 title: "Lösung – Linktexte klarer formulieren"
 description: "Musterlösung zu: Verbessere schwache Linktexte, damit Ziel und Aktion ohne Ratespiel verständlich werden."
-subject: web-development
+subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "linktexte-und-links"
-  - "downloads-externe-links-und-kontext-klar-benennen"
+topicPath: ["html", "linktexte-und-links", "downloads-externe-links-und-kontext-klar-benennen"]
 taskId: "wd-html-v95-downloads-externe-links"
 relatedExercise: "web-development/html/linktexte-und-links/downloads-externe-links-und-kontext-klar-benennen"
-tags:
-  - "web development"
-  - "html"
-  - "links"
-  - "linktexte"
-  - "ux"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

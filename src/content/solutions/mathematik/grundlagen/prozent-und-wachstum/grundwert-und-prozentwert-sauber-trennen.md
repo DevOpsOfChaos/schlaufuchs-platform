@@ -3,21 +3,12 @@ title: "Lösung – Grundwert und Prozentwert sauber trennen"
 description: "Musterlösung zu grundwert und prozentwert sauber trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "grundlagen"
-  - "prozent-und-wachstum"
-  - "grundwert-und-prozentwert-sauber-trennen"
+topicPath: ["grundlagen", "prozent-und-wachstum", "grundwert-und-prozentwert-sauber-trennen"]
 taskId: "v112-mathematik-grundwert-und-prozentwert-sauber-trennen"
 relatedExercise: "mathematik/grundlagen/prozent-und-wachstum/grundwert-und-prozentwert-sauber-trennen"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "grundlagen"
-  - "grundwert-und-prozentwert-sauber-trennen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Prozent und Wachstum**.

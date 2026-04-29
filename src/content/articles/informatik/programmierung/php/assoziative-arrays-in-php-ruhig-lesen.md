@@ -1,46 +1,19 @@
 ---
-title: Assoziative Arrays in PHP ruhig lesen
-description: Verstehe, wie PHP Daten mit Schluessel Wert Paaren speichert und warum assoziative Arrays mehr sind als nur Listen mit Namen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - assoziative-arrays-in-php-ruhig-lesen
-learningGoals:
-  - Du erklaerst die Grundidee assoziativer Arrays in PHP.
-  - Du unterscheidest numerische Listen und Schluessel Wert Sammlungen.
-  - Du liest Arraydaten ruhiger ueber ihre Bedeutung statt nur ueber ihre Syntax.
-practiceIdeas:
-  - Vergleiche eine numerische Liste mit einem assoziativen Array.
-  - Lies in einem Beispiel den Schluessel und den passenden Wert laut aus.
-  - Ordne Alltagsdaten wie name, stadt oder preis in Schluessel Wert Form.
-commonMistakes:
-  - Assoziative Arrays wie nummerierte Listen zu lesen.
-  - Schluessel nur als Deko statt als Bedeutungstraeger zu sehen.
-  - Zu glauben, dass Arrays immer ueber Zahlenpositionen gedacht werden muessen.
-keyTakeaways:
-  - Assoziative Arrays speichern Daten als Schluessel Wert Paare.
-  - Der Schluessel beschreibt, welche Bedeutung ein Wert hat.
-  - Sie passen gut zu Daten, die eher Eigenschaften als bloe Elemente darstellen.
-recognizeSignals:
-  - Es geht um Schreibweisen wie <code>"name" => "Mina"</code>.
-  - Daten sollen ueber Begriffe statt nur ueber Positionen angesprochen werden.
-  - Ein Beispiel wirkt wie ein kleiner Datensatz mit Eigenschaften.
-selfCheckPoints:
-  - Kann ich numerische und assoziative Arrays sauber unterscheiden?
-  - Kann ich erklaeren, warum der Schluessel fachlich wichtig ist?
-  - Kann ich ein kleines Beispiel in Alltagssprache lesen?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - array
-  - daten
+title: "Assoziative Arrays in PHP ruhig lesen"
+description: "Verstehe, wie PHP Daten mit Schluessel Wert Paaren speichert und warum assoziative Arrays mehr sind als nur Listen mit Namen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "assoziative-arrays-in-php-ruhig-lesen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Nicht alle Daten sind bloesse Listen. Manchmal willst du Werte speichern, die klar benannte Eigenschaften haben, zum Beispiel einen Namen, eine Stadt oder einen Preis. Genau dort sind assoziative Arrays in PHP hilfreich.

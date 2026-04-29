@@ -1,33 +1,19 @@
 ---
 title: "Volumen"
 description: "Überblick über Volumen als Maß für räumliche Ausdehnung."
-subject: mathematik
+subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - volumen
-  - ueberblick
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen und von verwandten Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte und typische Anwendungsfälle."
-  - "Du erkennst häufige Missverständnisse und prüfst Aussagen auf Plausibilität."
+topicPath: ["volumen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Quadrateinheiten und Kubikeinheiten verwechselt."
-keyTakeaways:
-  - "Volumen beschreibt, wie viel Raum ein Körper einnimmt."
-  - "Die genaue Bedeutung hängt vom Zusammenhang, den Einheiten und den Randbedingungen ab."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Begriffe, Beispiele oder Fehlerbilder aus diesem Bereich erklärt und eingeordnet werden sollen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten erklären, ohne sofort eine Spezialaufgabe zu rechnen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "geometrie"
-  - "volumen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Geometrie"]
 draft: false
 ---
-
 # Volumen
 
 ## Begriff und Zweck

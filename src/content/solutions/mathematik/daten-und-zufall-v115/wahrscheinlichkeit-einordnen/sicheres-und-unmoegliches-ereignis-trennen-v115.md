@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Sicheres und unmögliches Ereignis trennen"
 description: "Musterlösung zu Sicheres und unmögliches Ereignis trennen mit Trennkante und Gegenprobe."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "daten-und-zufall-v115"
-  - "wahrscheinlichkeit-einordnen"
-  - "sicheres-und-unmoegliches-ereignis-trennen-v115"
+topicPath: ["daten-und-zufall-v115", "wahrscheinlichkeit-einordnen", "sicheres-und-unmoegliches-ereignis-trennen-v115"]
 taskId: "mathematik-sicheres-und-unmoegliches-ereignis-trennen-v115"
 relatedExercise: "mathematik/daten-und-zufall-v115/wahrscheinlichkeit-einordnen/sicheres-und-unmoegliches-ereignis-trennen-v115"
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "daten und zufall"
-  - "wahrscheinlichkeit einordnen"
-  - "lösung"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Sicheres und unmögliches Ereignis trennen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

@@ -1,48 +1,19 @@
 ---
 title: "Mikrocontroller – Watchdog sinnvoll einsetzen"
 description: "Verstehe, wie ein Watchdog hängende Programme erkennen kann und warum falsch gesetztes Zurücksetzen den Schutz wieder entwertet."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - watchdog-sinnvoll-einsetzen
-learningGoals:
-  - "Du erklärst den Watchdog als Überwachungsmechanismus gegen hängen gebliebene Programme."
-  - "Du begründest, warum der Watchdog nicht beliebig oft an jeder Codestelle zurückgesetzt werden sollte."
-  - "Du unterscheidest Neustart, Fehlerursache und robuste Wiederaufnahme."
-practiceIdeas:
-  - "Überlege, an welcher Stelle eine Hauptschleife sinnvoll „Lebenszeichen“ gibt."
-  - "Vergleiche Watchdog-Reset mit sauberer Fehlerbehandlung."
-  - "Plane, wie ein Gerät nach einem Watchdog-Reset sicher wieder startet."
-commonMistakes:
-  - "Den Watchdog in jeder Funktion blind zurückzusetzen."
-  - "Watchdog als Ersatz für sauberen Code zu verwenden."
-  - "Nach einem Watchdog-Reset sofort wieder dieselbe gefährliche Aktion zu starten."
-keyTakeaways:
-  - "Ein Watchdog hilft gegen Hänger, löst aber nicht automatisch die Ursache."
-  - "Das Zurücksetzen des Watchdogs muss an einer sinnvollen Stelle im Ablauf passieren."
-  - "Nach einem Watchdog-Reset braucht das System einen sicheren Wiederanlauf."
-recognizeSignals:
-  - "Es geht um eingefrorene Programme, Reset nach Zeitüberschreitung oder robuste Geräte."
-  - "Eine Schleife kann hängen bleiben oder eine Kommunikation endlos warten."
-  - "Im Code tauchen Watchdog-Enable, Timeout oder regelmäßiges Zurücksetzen auf."
-selfCheckPoints:
-  - "Kann ich erklären, wann ein Watchdog helfen kann?"
-  - "Kann ich sagen, warum zu häufiges Zurücksetzen gefährlich ist?"
-  - "Kann ich einen sicheren Neustart nach Watchdog-Reset beschreiben?"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - watchdog
-  - robustheit
-  - reset
-  - fehlersuche
-level: mittel
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "watchdog-sinnvoll-einsetzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Watchdog ist ein Timer, der fragt: Meldet sich das Programm noch rechtzeitig? Wenn nicht, kann er einen Reset auslösen. Damit ist er ein Sicherheitsnetz gegen Hänger, aber kein Freibrief für unstrukturierte Programmlogik.

@@ -3,32 +3,17 @@ title: "Datenqualität"
 description: "Allgemeiner Überblick über datenqualität und die wichtigsten Zusammenhänge."
 subject: "informatik"
 section: "Daten"
-topicPath:
-  - "datenqualitaet"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["datenqualitaet", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird angenommen, gespeicherte Daten seien automatisch wahr."
-keyTakeaways:
-  - "Datenqualität entscheidet, ob Informationen zuverlässig genutzt werden können."
-  - "Datenqualität ist nicht nur ein technisches Formatproblem, sondern fachlich geprägt."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "informatik"
-  - "daten"
-  - "qualität"
-  - "validierung"
+tags: ["informatik", "Daten"]
 draft: false
 ---
-
 # Datenqualität
 
 Datenqualität beschreibt, wie gut Daten für einen bestimmten Zweck geeignet sind.

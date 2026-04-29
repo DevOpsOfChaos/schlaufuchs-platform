@@ -1,46 +1,19 @@
 ---
-title: Datei-Handle und Ressource beim PHP-Dateizugriff verstehen
-description: Verstehe, was fopen zurückgibt, warum ein Handle keine Datei selbst ist und wie Lesen, Schreiben und Schließen daran andocken.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - datei-handle-und-ressource-beim-php-dateizugriff-verstehen
-learningGoals:
-  - Du erklärst die Rolle eines Datei-Handles beim PHP-Dateizugriff.
-  - Du unterscheidest Dateiinhalt, Dateiname und Handle sauber.
-  - Du erkennst, warum nach fopen weitere Schritte mit demselben Handle arbeiten.
-practiceIdeas:
-  - Ordne fopen, fgets, fputs und fclose der richtigen Rolle zu.
-  - Erkläre, warum das Handle in mehreren Dateifunktionen wieder auftaucht.
-  - Vergleiche die Idee eines Handles mit einer Art Zugriffskanal statt mit dem eigentlichen Inhalt.
-commonMistakes:
-  - Das Handle mit dem Dateiinhalt zu verwechseln.
-  - Zu denken, fopen lese schon automatisch alle Zeilen.
-  - Nach dem Öffnen keinen Abschluss der Verarbeitung mehr zu sehen.
-keyTakeaways:
-  - fopen öffnet den Zugriff und liefert ein Handle zurück.
-  - Spätere Funktionen arbeiten über dieses Handle weiter.
-  - Dateizugriff ist ein Ablauf aus Öffnen, Bearbeiten und Schließen.
-recognizeSignals:
-  - Es geht um fopen, fgets, fputs oder fclose.
-  - Ein Beispiel benutzt dieselbe Variable in mehreren Schritten.
-  - Du sollst erklären, was zwischen Dateiname und Inhalt fachlich dazwischenliegt.
-selfCheckPoints:
-  - Kann ich sagen, was fopen zurückgibt?
-  - Kann ich erklären, warum weitere Dateifunktionen ein Handle brauchen?
-  - Kann ich den Ablauf Öffnen – Bearbeiten – Schließen sauber beschreiben?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - datei
-  - handle
+title: "Datei-Handle und Ressource beim PHP-Dateizugriff verstehen"
+description: "Verstehe, was fopen zurückgibt, warum ein Handle keine Datei selbst ist und wie Lesen, Schreiben und Schließen daran andocken."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "datei-handle-und-ressource-beim-php-dateizugriff-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Beim Dateizugriff arbeitet PHP nicht direkt „mit der Datei als Ganzes“, sondern über ein Handle. Dieses Handle ist gewissermaßen der geöffnete Zugriffskanal, über den danach gelesen oder geschrieben wird.

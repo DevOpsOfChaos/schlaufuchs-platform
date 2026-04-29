@@ -3,44 +3,17 @@ title: "HTML – Fehlermeldungen direkt am Feld verknüpfen"
 description: "Lerne, Fehlermeldungen nicht nur sichtbar zu platzieren, sondern fachlich mit dem betroffenen Eingabefeld zu verbinden."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "formulare-und-eingaben"
-  - "fehlermeldungen-direkt-am-feld-verknuepfen"
-tags:
-  - "web development"
-  - "html"
-  - "formulare"
-  - "fehlermeldungen"
-  - "aria-describedby"
-learningGoals:
-  - "Du erklärst, warum eine Fehlermeldung nah am Feld stehen sollte."
-  - "Du nutzt aria-describedby als Verbindung zwischen Feld und Erklärung."
-  - "Du formulierst Fehlermeldungen konkret statt allgemein."
-practiceIdeas:
-  - "Übertrage das Muster auf eine kleine eigene Oberfläche."
-  - "Prüfe den Fall mit Tastatur, kleinem Bildschirm oder Fehlermeldung."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "Nur rote Rahmen zu zeigen und keine verständliche Korrekturhilfe zu geben."
-  - "Alle Fehler gesammelt oben auszugeben, ohne Bezug zum Feld."
-  - "Eine Fehlermeldung zu schreiben, die nur „ungültig“ sagt."
-keyTakeaways:
-  - "Robuste Webentwicklung verbindet Struktur, Zustand und verständliche Rückmeldung."
-  - "Eine gute Lösung bleibt auch bei Tastaturbedienung, Fehlern oder kleinen Bildschirmen nachvollziehbar."
-  - "Saubere Projektpraxis bedeutet, Entscheidungen sichtbar und überprüfbar zu machen."
-recognizeSignals:
-  - "Eine Oberfläche funktioniert scheinbar, wird aber in Sonderfällen unklar."
-  - "Nutzerinnen und Nutzer brauchen Orientierung, Status oder eine konkrete Korrekturmöglichkeit."
-  - "HTML, CSS und JavaScript müssen gemeinsam statt isoliert betrachtet werden."
-selfCheckPoints:
-  - "Kann ich erklären, welcher Zustand gerade sichtbar gemacht wird?"
-  - "Ist die Lösung auch ohne Maus, perfekte Verbindung oder großen Bildschirm verständlich?"
-  - "Sind sichtbare Texte klar, deutsch und nah an der betroffenen Handlung formuliert?"
+topicPath: ["html", "formulare-und-eingaben", "fehlermeldungen-direkt-am-feld-verknuepfen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Lerne, Fehlermeldungen nicht nur sichtbar zu platzieren, sondern fachlich mit dem betroffenen Eingabefeld zu verbinden. Diese Seite behandelt das Thema als praktische Entscheidung im Webprojekt: Was sehen Nutzerinnen und Nutzer, was passiert technisch im Hintergrund und wie bleibt die Lösung später wartbar?

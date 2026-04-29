@@ -3,23 +3,12 @@ title: "Lösung – Ausführungsrecht bei Dateien und Ordnern unterscheiden"
 description: "Musterlösung zu Execute-Bit mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "rechte-und-zugriff"
-  - "besitz-rechte-sudo"
-  - "ausfuehrung"
-  - "ausfuehrungsrecht-bei-dateien-und-ordnern-unterscheiden"
+topicPath: ["rechte-und-zugriff", "besitz-rechte-sudo", "ausfuehrung", "ausfuehrungsrecht-bei-dateien-und-ordnern-unterscheiden"]
 taskId: "v111-linux-ausfuehrungsrecht-bei-dateien-und-ordnern-unterscheiden"
 relatedExercise: "linux/rechte-und-zugriff/besitz-rechte-sudo/ausfuehrung/ausfuehrungsrecht-bei-dateien-und-ordnern-unterscheiden"
-tags:
-  - "linux"
-  - "betrieb"
-  - "unterthema"
-  - "rechte-und-zugriff"
-  - "besitz-rechte-sudo"
-  - "ausfuehrungsrecht-bei-dateien-und-ordnern-unterscheiden"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Execute-Bit**.

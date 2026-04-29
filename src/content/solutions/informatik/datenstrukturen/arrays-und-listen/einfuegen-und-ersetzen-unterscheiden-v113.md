@@ -3,20 +3,12 @@ title: "Lösung – Einfügen und Ersetzen unterscheiden"
 description: "Musterlösung zu Einfügen und Ersetzen unterscheiden mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenstrukturen"
-  - "arrays-und-listen"
-  - "einfuegen-und-ersetzen-unterscheiden-v113"
+topicPath: ["datenstrukturen", "arrays-und-listen", "einfuegen-und-ersetzen-unterscheiden-v113"]
 taskId: "v113-informatik-einfuegen-und-ersetzen-unterscheiden-v113"
 relatedExercise: "informatik/datenstrukturen/arrays-und-listen/einfuegen-und-ersetzen-unterscheiden-v113"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "einfuegen-und-ersetzen-unterscheiden-v113"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Einfügen und Ersetzen unterscheiden**.

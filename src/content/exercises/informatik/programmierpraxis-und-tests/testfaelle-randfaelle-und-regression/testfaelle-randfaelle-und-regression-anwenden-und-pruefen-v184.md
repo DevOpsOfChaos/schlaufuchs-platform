@@ -1,29 +1,17 @@
 ---
 title: "Testfälle, Randfälle und Regression – Anwenden und prüfen"
 description: "Übe, Testfälle, Randfälle und Regression an kleinen Situationen zu prüfen."
-subject: informatik
+subject: "informatik"
 section: "programmierpraxis-und-tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "testfaelle-randfaelle-und-regression"
-taskId: INF-TESTFAELLE-RANDFAELLE-UND-REGRESSION-842
-tags:
-  - "informatik"
-  - "tests"
-  - "randfaelle"
-hintPoints:
-  - "Beginne mit der allgemeinen Rolle des Themas."
-  - "Trenne Begriff, Beispiel und Sonderfall sauber."
-selfCheckPoints:
-  - "Ich kann meine Zuordnung begründen."
-  - "Ich vermeide eine reine Einzelfallantwort."
-transferIdeas:
-  - "Übertrage die Idee auf ein anderes kleines Informatikbeispiel."
-reflectionPrompt: "Welche Annahme musste ich bewusst prüfen?"
-level: mittel
+topicPath: ["programmierpraxis-und-tests", "testfaelle-randfaelle-und-regression", "testfaelle-randfaelle-und-regression-anwenden-und-pruefen-v184"]
+taskId: "INF-TESTFAELLE-RANDFAELLE-UND-REGRESSION-842"
+tags: ["informatik", "programmierpraxis-und-tests", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Testfälle, Randfälle und Regression**. Sie soll nicht nur eine einzelne Situation lösen, sondern das Thema fachlich einordnen.
 
 ## Lernziel

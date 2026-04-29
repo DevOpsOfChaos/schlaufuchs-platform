@@ -3,23 +3,12 @@ title: "Lösung – Abblockkondensator nahe am IC begründen"
 description: "Musterlösung zu Abblockkondensator mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "bauteile"
-  - "kondensatoren-und-filter"
-  - "entkopplung"
-  - "abblockkondensator-nahe-am-ic-begruenden"
+topicPath: ["bauteile", "kondensatoren-und-filter", "entkopplung", "abblockkondensator-nahe-am-ic-begruenden"]
 taskId: "v111-elektrotechnik-abblockkondensator-nahe-am-ic-begruenden"
 relatedExercise: "elektrotechnik/bauteile/kondensatoren-und-filter/entkopplung/abblockkondensator-nahe-am-ic-begruenden"
-tags:
-  - "elektrotechnik"
-  - "praxis"
-  - "unterthema"
-  - "bauteile"
-  - "kondensatoren-und-filter"
-  - "abblockkondensator-nahe-am-ic-begruenden"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Abblockkondensator**.

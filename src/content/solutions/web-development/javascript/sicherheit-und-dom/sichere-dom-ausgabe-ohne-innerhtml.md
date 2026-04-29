@@ -3,22 +3,12 @@ title: "Lösung – Sichere DOM-Ausgabe ohne innerHTML"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Development-Aufgabe."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "sicherheit-und-dom"
-  - "sichere-dom-ausgabe-ohne-innerhtml"
-tags:
-  - "web development"
-  - "javascript"
-  - "sicherheit"
-  - "dom"
-  - "xss"
-  - "lösung"
+topicPath: ["javascript", "sicherheit-und-dom", "sichere-dom-ausgabe-ohne-innerhtml"]
 taskId: "web-v104-sichere-dom-ausgabe-ohne-innerhtml"
 relatedExercise: "web-development/javascript/sicherheit-und-dom/sichere-dom-ausgabe-ohne-innerhtml"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Eine gute Lösung beginnt mit der Nutzer-Situation. Das Problem ist nicht nur technisch, sondern zeigt sich daran, dass eine Person nicht sicher erkennt, was gerade passiert oder wie sie weitermachen kann.

@@ -3,22 +3,12 @@ title: "Lösung: Invertierung bewusst markieren"
 description: "Musterlösung zur Aufgabe „Invertierung bewusst markieren“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "digitaltechnik-und-pegel"
-  - "gatter-und-fehlerlogik"
-  - "invertierung-bewusst-markieren-v116"
+topicPath: ["digitaltechnik-und-pegel", "gatter-und-fehlerlogik", "invertierung-bewusst-markieren-v116"]
 taskId: "invertierung-bewusst-markieren-v116"
 relatedExercise: "elektrotechnik/digitaltechnik-und-pegel/gatter-und-fehlerlogik/invertierung-bewusst-markieren-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "gatter und fehlerlogik"
-  - "invertierung bewusst markieren"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

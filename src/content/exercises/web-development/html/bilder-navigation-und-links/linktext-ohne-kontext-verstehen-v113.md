@@ -3,32 +3,15 @@ title: "Aufgabe – Linktext ohne Kontext verstehen"
 description: "Übe Linktext ohne Kontext verstehen mit Szenario, Trennkante und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "html"
-  - "bilder-navigation-und-links"
-  - "linktext-ohne-kontext-verstehen-v113"
+topicPath: ["html", "bilder-navigation-und-links", "linktext-ohne-kontext-verstehen-v113"]
 taskId: "v113-web-development-linktext-ohne-kontext-verstehen-v113"
-tags:
-  - "web development"
-  - "strukturcheck"
-  - "unterthema"
-  - "linktext-ohne-kontext-verstehen-v113"
-hintPoints:
-  - "Benenne zuerst das genaue Unterthema."
-  - "Notiere die typische Verwechslung ausdrücklich."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Antwort enger als ein breites Kapitel?"
-  - "Wird ein Nachbarthema sauber ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere eine zweite Aufgabe im gleichen Unterthema mit anderer Oberfläche."
-reflectionPrompt: "Welche kleine Trennkante macht Linktext ohne Kontext verstehen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["web-development", "Feinstruktur Web Development", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Linktext ohne Kontext verstehen**.

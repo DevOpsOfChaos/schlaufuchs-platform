@@ -3,33 +3,15 @@ title: "Aufgabe – Binäre Suche an Sortierung koppeln"
 description: "Übe binäre suche an sortierung koppeln mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "algorithmen"
-  - "test-und-komplexitaet"
-  - "binaere-suche-an-sortierung-koppeln"
+topicPath: ["algorithmen", "test-und-komplexitaet", "binaere-suche-an-sortierung-koppeln"]
 taskId: "v112-informatik-binaere-suche-an-sortierung-koppeln"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "algorithmen"
-  - "binaere-suche-an-sortierung-koppeln"
-hintPoints:
-  - "Benenne zuerst das kleine Unterthema."
-  - "Prüfe bewusst den Unterschied zum Fehler: Die Halbierung wird auf unsortierte Daten angewendet."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Einordnung enger als nur der breite Fachbereich?"
-  - "Wird der typische Fehler ausdrücklich ausgeschlossen?"
-  - "Passt die Lösung zur Wissensseite?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Begriff und prüfe, ob die gleiche Strategie gilt."
-  - "Erkläre die Lösung einmal alltagssprachlich und danach fachlich sauber."
-reflectionPrompt: "Was war bei „Binäre Suche an Sortierung koppeln“ die wichtigste Trennkante?"
+tags: ["informatik", "Feinstruktur Informatik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation:

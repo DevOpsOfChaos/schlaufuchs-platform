@@ -1,36 +1,19 @@
 ---
 title: "Lineare Interpolation"
 description: "Lineare Interpolation schätzt Werte zwischen zwei bekannten Punkten, indem eine Gerade zwischen diesen Punkten angenommen wird."
-subject: mathematik
+subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "lineare-interpolation"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Lineare Interpolation als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["lineare-interpolation", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird zwischen bekannten Punkten automatisch Linearität angenommen, obwohl das fachlich nicht begründet ist."
-keyTakeaways:
-  - "Lineare Interpolation schätzt Werte zwischen zwei bekannten Punkten, indem eine Gerade zwischen diesen Punkten angenommen wird."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Lineare Interpolation, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Lineare Interpolation in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "funktionen"
-  - "naeherung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
-
 # Lineare Interpolation
 
 Lineare Interpolation schätzt Werte zwischen zwei bekannten Punkten, indem eine Gerade zwischen

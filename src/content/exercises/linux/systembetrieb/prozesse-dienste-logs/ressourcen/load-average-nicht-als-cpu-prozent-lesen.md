@@ -3,35 +3,15 @@ title: "Aufgabe – Load Average nicht als CPU-Prozent lesen"
 description: "Übe Load Average mit Szenario, Trennkante und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "systembetrieb"
-  - "prozesse-dienste-logs"
-  - "ressourcen"
-  - "load-average-nicht-als-cpu-prozent-lesen"
+topicPath: ["systembetrieb", "prozesse-dienste-logs", "ressourcen", "load-average-nicht-als-cpu-prozent-lesen"]
 taskId: "v111-linux-load-average-nicht-als-cpu-prozent-lesen"
-tags:
-  - "linux"
-  - "betrieb"
-  - "unterthema"
-  - "systembetrieb"
-  - "prozesse-dienste-logs"
-  - "load-average-nicht-als-cpu-prozent-lesen"
-hintPoints:
-  - "Benenne zuerst das genaue Unterthema."
-  - "Schreibe die typische Verwechslung ausdrücklich auf."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Lösung enger als ein breites Kapitel?"
-  - "Wird ein Nachbarthema sauber ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere eine zweite Aufgabe im gleichen Unterthema mit anderer Oberfläche."
-reflectionPrompt: "Welche kleine Trennkante macht Load Average übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["linux", "Feinstruktur Linux", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Load Average**.

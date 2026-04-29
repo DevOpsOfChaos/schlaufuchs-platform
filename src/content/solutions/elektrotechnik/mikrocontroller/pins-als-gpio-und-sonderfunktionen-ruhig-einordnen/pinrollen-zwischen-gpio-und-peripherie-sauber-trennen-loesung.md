@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Pinrollen zwischen GPIO und Peripherie sauber trennen
-description: Musterlösung zur Aufgabe ELE-MCU-GEN-104.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - pins-als-gpio-und-sonderfunktionen-ruhig-einordnen
-  - pinrollen-zwischen-gpio-und-peripherie-sauber-trennen-loesung
-taskId: ELE-MCU-GEN-104
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller/pins-als-gpio-und-sonderfunktionen-ruhig-einordnen/pinrollen-zwischen-gpio-und-peripherie-sauber-trennen.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - loesung
-  - task-id
+title: "Musterlösung – Pinrollen zwischen GPIO und Peripherie sauber trennen"
+description: "Musterlösung zur Aufgabe ELE-MCU-GEN-104."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "pins-als-gpio-und-sonderfunktionen-ruhig-einordnen", "pinrollen-zwischen-gpio-und-peripherie-sauber-trennen"]
+taskId: "ELE-MCU-GEN-104"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller/pins-als-gpio-und-sonderfunktionen-ruhig-einordnen/pinrollen-zwischen-gpio-und-peripherie-sauber-trennen.md"
+tags: ["elektrotechnik", "mikrocontroller", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Als GPIO dient ein Pin als allgemeiner digitaler Ein- oder Ausgang. Dann wird seine Rolle typischerweise über normale Portlogik beschrieben. Als Sonderfunktion wird derselbe physische Pin an eine interne Peripherie gebunden, etwa an UART, SPI oder PWM. Dann steht nicht mehr die allgemeine GPIO-Rolle im Vordergrund, sondern die spezialisierte Funktion.

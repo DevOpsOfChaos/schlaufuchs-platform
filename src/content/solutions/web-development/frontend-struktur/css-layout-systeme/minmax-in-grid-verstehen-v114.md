@@ -1,23 +1,14 @@
 ---
-title: Lösung – Minmax in Grid verstehen
-description: Musterlösung zur Aufgabe über Minmax in Grid verstehen.
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- frontend-struktur
-- css-layout-systeme
-- minmax-in-grid-verstehen-v114
-taskId: v114-web-development-minmax-in-grid-verstehen-v114
-relatedExercise: web-development/frontend-struktur/css-layout-systeme/minmax-in-grid-verstehen-v114
-tags:
-- web-development
-- v114
-- loesung
-- frontend-struktur
-- css-layout-systeme
+title: "Lösung – Minmax in Grid verstehen"
+description: "Musterlösung zur Aufgabe über Minmax in Grid verstehen."
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["frontend-struktur", "css-layout-systeme", "minmax-in-grid-verstehen-v114"]
+taskId: "v114-web-development-minmax-in-grid-verstehen-v114"
+relatedExercise: "web-development/frontend-struktur/css-layout-systeme/minmax-in-grid-verstehen-v114"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

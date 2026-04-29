@@ -3,23 +3,12 @@ title: "Lösung – Debugging-Hypothese vor dem Fix formulieren"
 description: "Musterlösung zu Debugging-Hypothese vor dem Fix formulieren mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Programmierung"
-topicPath:
-  - "programmierpraxis"
-  - "funktionen-tests-und-fehler"
-  - "v110-teil-4"
-  - "debugging-hypothese-vor-dem-fix-formulieren"
+topicPath: ["programmierpraxis", "funktionen-tests-und-fehler", "v110-teil-4", "debugging-hypothese-vor-dem-fix-formulieren"]
 taskId: "v110-informatik-debugging-hypothese-vor-dem-fix-formulieren"
 relatedExercise: "informatik/programmierpraxis/funktionen-tests-und-fehler/v110-teil-4/debugging-hypothese-vor-dem-fix-formulieren"
-tags:
-  - "informatik"
-  - "struktur"
-  - "praxis"
-  - "programmierpraxis"
-  - "funktionen-tests-und-fehler"
-  - "debugging-hypothese-vor-dem-fix-formulieren"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Debugging-Hypothese vor dem Fix formulieren**.

@@ -3,26 +3,12 @@ title: "Lösung: Rechte bei Skripten und Verzeichnissen: Aufgabe B"
 description: "Musterlösung zur Aufgabe linux-v192-028b im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "shell-und-umgebung"
-  - "rechte-bei-skripten-und-verzeichnissen"
-  - "loesung-b"
+topicPath: ["sanierung-v192", "rechte-bei-skripten-und-verzeichnissen-loesung-b"]
 taskId: "linux-v192-028b"
 relatedExercise: "linux/sanierung-v192/rechte-bei-skripten-und-verzeichnissen-aufgabe-b"
-tags:
-  - "shell-und-umgebung"
-  - "rechte"
-  - "skripten"
-  - "verzeichnissen"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-028b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Rechte bei Skripten und Verzeichnissen“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

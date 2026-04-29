@@ -3,22 +3,12 @@ title: "Lösung – Review-Checklisten für kleine Webprojekte"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Development-Aufgabe."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "qualitaet-und-wartung"
-  - "review-checklisten-fuer-kleine-webprojekte"
-tags:
-  - "web development"
-  - "projektpraxis"
-  - "review"
-  - "qualität"
-  - "wartung"
-  - "lösung"
+topicPath: ["projektpraxis", "qualitaet-und-wartung", "review-checklisten-fuer-kleine-webprojekte"]
 taskId: "web-v104-review-checklisten-fuer-kleine-webprojekte"
 relatedExercise: "web-development/projektpraxis/qualitaet-und-wartung/review-checklisten-fuer-kleine-webprojekte"
+tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Eine gute Lösung beginnt mit der Nutzer-Situation. Das Problem ist nicht nur technisch, sondern zeigt sich daran, dass eine Person nicht sicher erkennt, was gerade passiert oder wie sie weitermachen kann.

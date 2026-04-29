@@ -3,35 +3,15 @@ title: "Aufgabe – Konfigurationswert und Secret trennen"
 description: "Übe Secrets mit Szenario, Trennkante und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "sicherheit-und-betrieb"
-  - "zugriff-logs-und-geheimnisse"
-  - "secrets"
-  - "konfigurationswert-und-secret-trennen"
+topicPath: ["sicherheit-und-betrieb", "zugriff-logs-und-geheimnisse", "secrets", "konfigurationswert-und-secret-trennen"]
 taskId: "v111-informatik-konfigurationswert-und-secret-trennen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "unterthema"
-  - "sicherheit-und-betrieb"
-  - "zugriff-logs-und-geheimnisse"
-  - "konfigurationswert-und-secret-trennen"
-hintPoints:
-  - "Benenne zuerst das genaue Unterthema."
-  - "Schreibe die typische Verwechslung ausdrücklich auf."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Lösung enger als ein breites Kapitel?"
-  - "Wird ein Nachbarthema sauber ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere eine zweite Aufgabe im gleichen Unterthema mit anderer Oberfläche."
-reflectionPrompt: "Welche kleine Trennkante macht Secrets übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["informatik", "Feinstruktur Informatik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Secrets**.

@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Pegelwandler notwendig erkennen"
 description: "Musterlösung zu Pegelwandler notwendig erkennen mit Trennkante und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-praxis-v115"
-  - "eingang-ausgang-pegel"
-  - "pegelwandler-notwendig-erkennen-v115"
+topicPath: ["mikrocontroller-praxis-v115", "eingang-ausgang-pegel", "pegelwandler-notwendig-erkennen-v115"]
 taskId: "elektrotechnik-pegelwandler-notwendig-erkennen-v115"
 relatedExercise: "elektrotechnik/mikrocontroller-praxis-v115/eingang-ausgang-pegel/pegelwandler-notwendig-erkennen-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "mikrocontroller-praxis"
-  - "eingang, ausgang, pegel"
-  - "lösung"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Pegelwandler notwendig erkennen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

@@ -1,34 +1,19 @@
 ---
 title: "Zustand und Verhalten"
 description: "Überblick über den Unterschied zwischen gespeicherten Informationen und den Operationen, die mit ihnen arbeiten."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "zustand-und-verhalten"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["zustand-und-verhalten", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur Abläufe zu beschreiben und den dabei veränderten Zustand nicht explizit zu machen."
-keyTakeaways:
-  - "Robuste Systeme trennen, welcher Zustand existiert und welches Verhalten ihn nutzt oder verändert."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Abläufe von vorherigen Aktionen abhängen oder Fehler nur in bestimmten Reihenfolgen auftreten."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "modellierung"
-  - "zustand"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Zustand und Verhalten
 
 Zustand beschreibt, welche Informationen ein System zu einem Zeitpunkt enthält. Verhalten beschreibt, wie das System auf Eingaben, Ereignisse oder Zeitabläufe reagiert.

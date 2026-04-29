@@ -3,21 +3,12 @@ title: "Lösung – Wachstumsfaktor aus Text ableiten"
 description: "Musterlösung zu wachstumsfaktor aus text ableiten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "grundlagen"
-  - "prozent-und-wachstum"
-  - "wachstumsfaktor-aus-text-ableiten"
+topicPath: ["grundlagen", "prozent-und-wachstum", "wachstumsfaktor-aus-text-ableiten"]
 taskId: "v112-mathematik-wachstumsfaktor-aus-text-ableiten"
 relatedExercise: "mathematik/grundlagen/prozent-und-wachstum/wachstumsfaktor-aus-text-ableiten"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "grundlagen"
-  - "wachstumsfaktor-aus-text-ableiten"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Prozent und Wachstum**.

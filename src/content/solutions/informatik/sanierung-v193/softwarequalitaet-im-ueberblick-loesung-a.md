@@ -3,23 +3,12 @@ title: "Lösung: Softwarequalität im Überblick: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-001a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "qualitaet-und-wartbarkeit"
-  - "softwarequalitaet-im-ueberblick"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "softwarequalitaet-im-ueberblick-loesung-a"]
 taskId: "informatik-v193-001a"
 relatedExercise: "informatik/sanierung-v193/softwarequalitaet-im-ueberblick-aufgabe-a"
-tags:
-  - "softwarequalitaet"
-  - "ueberblick"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-001a`
 
 Ausgangsauftrag: Prüfe ein kleines Programm auf Wartbarkeit, Testbarkeit und Fehlerrisiko.

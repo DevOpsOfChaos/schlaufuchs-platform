@@ -1,33 +1,19 @@
 ---
 title: "ARIA Live Regions"
 description: "ARIA Live Regions informieren assistive Technologien über dynamische Änderungen. Sie sind wichtig, wenn Inhalte ohne Seitenwechsel aktualisiert werden."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "aria-live-regions"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von ARIA Live Regions."
-  - "Du kannst ARIA Live Regions in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["aria-live-regions", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Jede kleine Änderung laut ansagen zu lassen und Nutzer dadurch zu überfordern."
-keyTakeaways:
-  - "ARIA Live Regions informieren assistive Technologien über dynamische Änderungen."
-  - "Wichtig sind vor allem polite und assertive, statusmeldungen und validierung und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um ARIA Live Regions, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu ARIA Live Regions dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "web development"
-  - "grundlagen"
-  - "aria live regions"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # ARIA Live Regions
 
 ARIA Live Regions informieren assistive Technologien über dynamische Änderungen. Sie sind wichtig, wenn Inhalte ohne Seitenwechsel aktualisiert werden. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

@@ -3,25 +3,12 @@ title: "Lösung: Mobile First denken: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-development-v194-012b im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "responsive-layout"
-  - "mobile-first-denken"
-  - "loesung-b"
-
+topicPath: ["sanierung-v194", "mobile-first-denken-loesung-b"]
 taskId: "web-development-v194-012b"
 relatedExercise: "web-development/sanierung-v194/mobile-first-denken-aufgabe-b"
-tags:
-  - "mobile"
-  - "first"
-  - "denken"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-012b`
 
 Ausgangsauftrag: Übertrage das Thema Mobile First denken auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

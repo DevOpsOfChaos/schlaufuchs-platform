@@ -3,32 +3,15 @@ title: "Aufgabe – Lineare Suche von binärer Suche trennen"
 description: "Übe Lineare Suche von binärer Suche trennen mit Szenario, Trennkante und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "algorithmen"
-  - "suchen-und-sortieren"
-  - "lineare-suche-von-binaerer-suche-trennen-v113"
+topicPath: ["algorithmen", "suchen-und-sortieren", "lineare-suche-von-binaerer-suche-trennen-v113"]
 taskId: "v113-informatik-lineare-suche-von-binaerer-suche-trennen-v113"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "lineare-suche-von-binaerer-suche-trennen-v113"
-hintPoints:
-  - "Benenne zuerst das genaue Unterthema."
-  - "Notiere die typische Verwechslung ausdrücklich."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Antwort enger als ein breites Kapitel?"
-  - "Wird ein Nachbarthema sauber ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere eine zweite Aufgabe im gleichen Unterthema mit anderer Oberfläche."
-reflectionPrompt: "Welche kleine Trennkante macht Lineare Suche von binärer Suche trennen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["informatik", "Feinstruktur Informatik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Lineare Suche von binärer Suche trennen**.

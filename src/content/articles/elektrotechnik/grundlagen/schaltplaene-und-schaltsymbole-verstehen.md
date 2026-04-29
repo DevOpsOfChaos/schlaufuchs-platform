@@ -1,17 +1,19 @@
 ---
-title: Schaltpläne und Schaltsymbole verstehen
-description: Schaltpläne und Schaltsymbole machen elektrische Zusammenhänge lesbar und gehören zu den wichtigsten Grundlagen der Elektrotechnik.
-subject: elektrotechnik
-section: Grundlagen
-level: einfach
-tags:
-  - Schaltplan
-  - Schaltsymbole
-  - Elektrotechnik
-  - Grundlagen
+title: "Schaltpläne und Schaltsymbole verstehen"
+description: "Schaltpläne und Schaltsymbole machen elektrische Zusammenhänge lesbar und gehören zu den wichtigsten Grundlagen der Elektrotechnik."
+subject: "elektrotechnik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "schaltplaene-und-schaltsymbole-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 Elektrische Schaltungen werden in der Regel nicht als realistisches Bild aufgebauter Kabel gezeichnet, sondern als Schaltplan. Schaltpläne reduzieren eine Schaltung auf ihre funktionalen Zusammenhänge. Dadurch werden Aufbau, Verbindung und Bauteilrolle deutlich besser verständlich.

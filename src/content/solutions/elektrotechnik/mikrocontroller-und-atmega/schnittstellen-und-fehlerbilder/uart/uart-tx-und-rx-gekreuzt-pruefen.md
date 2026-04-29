@@ -3,23 +3,12 @@ title: "Lösung – UART TX und RX gekreuzt prüfen"
 description: "Musterlösung zu UART-Verdrahtung mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "schnittstellen-und-fehlerbilder"
-  - "uart"
-  - "uart-tx-und-rx-gekreuzt-pruefen"
+topicPath: ["mikrocontroller-und-atmega", "schnittstellen-und-fehlerbilder", "uart", "uart-tx-und-rx-gekreuzt-pruefen"]
 taskId: "v111-elektrotechnik-uart-tx-und-rx-gekreuzt-pruefen"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/schnittstellen-und-fehlerbilder/uart/uart-tx-und-rx-gekreuzt-pruefen"
-tags:
-  - "elektrotechnik"
-  - "praxis"
-  - "unterthema"
-  - "mikrocontroller-und-atmega"
-  - "schnittstellen-und-fehlerbilder"
-  - "uart-tx-und-rx-gekreuzt-pruefen"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **UART-Verdrahtung**.

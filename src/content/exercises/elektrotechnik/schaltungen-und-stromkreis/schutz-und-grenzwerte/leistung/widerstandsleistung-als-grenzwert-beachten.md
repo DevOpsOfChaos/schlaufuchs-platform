@@ -3,35 +3,15 @@ title: "Aufgabe – Widerstandsleistung als Grenzwert beachten"
 description: "Übe Leistungsgrenze mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "elektrotechnik"
 section: "Schaltungen"
-topicPath:
-  - "schaltungen-und-stromkreis"
-  - "schutz-und-grenzwerte"
-  - "leistung"
-  - "widerstandsleistung-als-grenzwert-beachten"
+topicPath: ["schaltungen-und-stromkreis", "schutz-und-grenzwerte", "leistung", "widerstandsleistung-als-grenzwert-beachten"]
 taskId: "v107-elektrotechnik-widerstandsleistung-als-grenzwert-beachten"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "schaltungen"
-  - "leistungsgrenze"
-  - "schaltungen-und-stromkreis"
-  - "schutz-und-grenzwerte"
-hintPoints:
-  - "Grenze das Unterthema zuerst ein."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Formuliere eine kleine Gegenprobe."
-selfCheckPoints:
-  - "Ist das Unterthema klar benannt?"
-  - "Ist die Lösung nicht zu breit formuliert?"
-  - "Ist die Gegenprobe konkret?"
-transferIdeas:
-  - "Ändere einen Randwert und prüfe die Begründung erneut."
-  - "Erkläre die Lösung einmal als Merksatz und einmal am Beispiel."
-reflectionPrompt: "Warum hilft dir das kleine Unterthema „Leistungsgrenze“ mehr als ein breiter Sammelbegriff?"
+tags: ["elektrotechnik", "Schaltungen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite ein kleines Szenario zu **Leistungsgrenze**.

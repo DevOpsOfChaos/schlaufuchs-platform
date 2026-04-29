@@ -1,33 +1,19 @@
 ---
 title: "Source Maps"
 description: "Source Maps verbinden gebündelten oder minifizierten Code mit den ursprünglichen Quelldateien. Sie erleichtern Debugging im Browser und in Fehlerberichten."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "source-maps"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Source Maps."
-  - "Du kannst Source Maps in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["source-maps", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Source Maps ungeprüft produktiv auszuliefern, wenn sie interne Quellen offenlegen."
-keyTakeaways:
-  - "Source Maps verbinden gebündelten oder minifizierten Code mit den ursprünglichen Quelldateien."
-  - "Wichtig sind vor allem mapping zwischen build-ausgabe und quellcode, debugging in devtools und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Source Maps, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Source Maps dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "web development"
-  - "grundlagen"
-  - "source maps"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # Source Maps
 
 Source Maps verbinden gebündelten oder minifizierten Code mit den ursprünglichen Quelldateien. Sie erleichtern Debugging im Browser und in Fehlerberichten. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

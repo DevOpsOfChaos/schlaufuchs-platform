@@ -3,23 +3,12 @@ title: "Lösung – Map und Set nach Zugriffsmuster wählen"
 description: "Musterlösung zur Aufgabe über Datenstrukturwahl mit Begründung und Gegenprobe."
 subject: "informatik"
 section: "Datenstrukturen"
-topicPath:
-  - "datenstrukturen"
-  - "maps-und-sets"
-  - "map-und-set-nach-zugriffsmuster-waehlen"
+topicPath: ["datenstrukturen", "maps-und-sets", "map-und-set-nach-zugriffsmuster-waehlen"]
 taskId: "v106-informatik-map-und-set-nach-zugriffsmuster-waehlen"
 relatedExercise: "informatik/datenstrukturen/maps-und-sets/map-und-set-nach-zugriffsmuster-waehlen"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "daten"
-  - "algorithmen"
-  - "datenstrukturwahl"
-  - "datenstrukturen"
-  - "maps-und-sets"
+tags: ["informatik", "Datenstrukturen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Beobachtung

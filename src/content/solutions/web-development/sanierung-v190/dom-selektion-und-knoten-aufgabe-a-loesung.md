@@ -3,24 +3,12 @@ title: "Lösung: DOM-Selektion und Knoten: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-v190-009a im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "dom-und-ui"
-  - "dom-selektion-und-knoten"
-  - "loesung-a"
+topicPath: ["sanierung-v190", "dom-selektion-und-knoten-aufgabe-a"]
 taskId: "web-v190-009a"
 relatedExercise: "web-development/sanierung-v190/dom-selektion-und-knoten-aufgabe-a"
-tags:
-  - "dom-und-ui"
-  - "dom"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-009a`
 
 Ausgangsauftrag: Plane die DOM-Auswahl für eine Tab-Navigation.

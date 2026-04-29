@@ -1,36 +1,17 @@
 ---
 title: "PWM-Tastverhältnis zeichnen und Wirkung erklären"
 description: "Übe, PWM als schnelles digitales Schalten mit mittlerer Wirkung zu erklären."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - pwm-tastverhaeltnis-und-mittelwert
-selfCheckPoints:
-  - "Habe ich Beobachtung, Ursache und Lösung sauber getrennt?"
-  - "Habe ich mindestens einen typischen Denkfehler vermieden?"
-  - "Kann ich meine Antwort ohne reine Schlagwörter begründen?"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "pwm-tastverhaeltnis-und-mittelwert"]
 taskId: "et-mc-pwm-duty-cycle"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - pwm
-  - timer
-  - led
-hintPoints:
-  - "Zeichne zuerst eine Periode und markiere den High-Anteil."
-  - "Trenne den momentanen Pegel am Pin von der mittleren Wirkung an der Last."
-  - "Frequenz und Tastverhältnis sind zwei verschiedene Größen."
-transferIdeas:
-  - "Übertrage die Idee auf ein zweites Bauteil oder einen anderen Sensor."
-  - "Formuliere eine kurze Checkliste, die du bei echter Fehlersuche nutzen würdest."
-reflectionPrompt: "Welche Stelle war eher ein Verständnisproblem als ein reines Codeproblem?"
-level: mittel
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
-
 ## Aufgabe 1: Zeitbild zeichnen
 
 Zeichne drei PWM-Perioden als Textbild oder Skizze: 25 %, 50 % und 75 % Tastverhältnis.

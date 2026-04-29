@@ -3,23 +3,12 @@ title: "Lösung – Custom Properties nach Scope und Fallback planen"
 description: "Musterlösung zu Custom Properties mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "design-systeme"
-  - "custom-properties-scope"
-  - "custom-properties-nach-scope-und-fallback-planen"
+topicPath: ["css", "design-systeme", "custom-properties-scope", "custom-properties-nach-scope-und-fallback-planen"]
 taskId: "v108-web-development-custom-properties-nach-scope-und-fallback-planen"
 relatedExercise: "web-development/css/design-systeme/custom-properties-scope/custom-properties-nach-scope-und-fallback-planen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "css"
-  - "design-systeme"
-  - "custom properties"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **Custom Properties**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

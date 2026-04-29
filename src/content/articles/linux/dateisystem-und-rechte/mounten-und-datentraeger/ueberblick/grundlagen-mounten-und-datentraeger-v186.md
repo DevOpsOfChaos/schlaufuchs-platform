@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Mounten und Datenträger"
 description: "Ordne Datenträger, Dateisysteme und Mountpunkte in Linux ein."
-subject: linux
+subject: "linux"
 section: "dateisystem-und-rechte"
-topicPath:
-  - "dateisystem-und-rechte"
-  - "mounten-und-datentraeger"
-learningGoals:
-  - "Du erklärst Mounten und Datenträger in eigenen Worten."
-  - "Du ordnest typische Befehle, Begriffe oder Prüfschritte richtig ein."
-  - "Du erkennst typische Grenzen und Fehlerquellen im Linux-Alltag."
-practiceIdeas:
-  - "Beschreibe eine kleine Alltagssituation zu diesem Thema."
-  - "Markiere, welche Information zuerst geprüft werden muss."
-commonMistakes:
-  - "Ein einzelnes Kommando für das ganze Thema zu halten."
-  - "Ausgabe, Zustand und Ursache zu vermischen."
-  - "Ohne Kontext direkt an Sonderfälle zu springen."
-keyTakeaways:
-  - "Datenträger werden über Mountpunkte in den Verzeichnisbaum eingebunden."
-  - "Ein Mountpunkt ist ein Ort im Dateisystem, kein eigener Datenträger."
-  - "Zugriff hängt von Gerät, Dateisystem und Rechten ab."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung statt nur eines Befehlsrezepts."
-  - "Mehrere ähnliche Befehle oder Dateien wirken unklar."
-selfCheckPoints:
-  - "Kann ich Zweck, Kontext und typischen Prüfschritt unterscheiden?"
-  - "Kann ich eine einfache Fehlannahme zum Thema benennen?"
-level: mittel
-tags:
-  - "linux"
-  - "mount"
-  - "datentraeger"
+topicPath: ["dateisystem-und-rechte", "mounten-und-datentraeger", "ueberblick", "grundlagen-mounten-und-datentraeger-v186"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["linux", "dateisystem-und-rechte"]
 draft: false
 ---
-
 ![Mounten und Datenträger](/schlaufuchs-platform/images/overviews/v186/mounten-und-datentraeger.svg)
 
 ## Begriff

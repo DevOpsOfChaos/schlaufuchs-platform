@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Induktive Lasten und Freilaufdioden"
 description: "Allgemeiner Überblick über Spulen, Motoren, Relais und den Schutz durch Freilaufdioden."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schaltungen"
-topicPath:
-  - schaltungen
-  - induktive-lasten-und-freilaufdioden
-  - ueberblick
-learningGoals:
-  - "Du erklärst die Grundidee von Induktive Lasten und Freilaufdioden in eigenen Worten."
-  - "Du ordnest typische Begriffe und Fehlerquellen ruhig ein."
-  - "Du erkennst, welche Detailfragen zu diesem Themenbereich gehören."
-practiceIdeas:
-  - "Skizziere den Zusammenhang als kleines Signal-, Strom- oder Ablaufbild."
-  - "Notiere typische Fehlerquellen und prüfe, ob sie elektrisch, logisch oder organisatorisch sind."
-commonMistakes:
-  - "Induktive Lasten wie reine Widerstände zu behandeln."
-  - "Die Freilaufdiode als normale Betriebsdiode zu lesen."
-  - "Den Abschaltmoment nicht als eigenen Fehlerfall zu betrachten."
-keyTakeaways:
-  - "Induktive Lasten speichern Energie im Magnetfeld."
-  - "Beim Abschalten kann eine Spannungsspitze entstehen."
-  - "Eine Freilaufdiode bietet einen Schutzpfad."
-recognizeSignals:
-  - "Du brauchst zuerst Orientierung, bevor du eine konkrete Schaltung oder Aufgabe bewertest."
-  - "Mehrere Einzelfälle wirken ähnlich, aber der gemeinsame fachliche Rahmen fehlt."
-selfCheckPoints:
-  - "Kann ich den Zweck des Themas ohne Formel auswendig zu lernen erklären?"
-  - "Kann ich typische Fehlerquellen in der richtigen Reihenfolge prüfen?"
-level: einfach
-tags:
-  - elektrotechnik
-  - induktive-lasten-und-freilaufdioden
-  - schaltungen
+topicPath: ["schaltungen", "induktive-lasten-und-freilaufdioden", "ueberblick", "grundlagen-induktive-lasten-und-freilaufdioden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Schaltungen"]
 draft: false
 ---
-
 ![Freilaufpfad bei Spulen](/schlaufuchs-platform/images/overviews/v181/induktive-lasten-und-freilaufdioden.svg)
 
 ## Überblick

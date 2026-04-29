@@ -3,44 +3,17 @@ title: "CSS – aspect-ratio und Bildkarten stabilisieren"
 description: "Verstehe, wie ein festes Seitenverhältnis Layoutsprünge reduziert und Kartenraster ruhiger wirken lässt."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "responsive-layouts"
-  - "aspect-ratio-und-bildkarten-stabilisieren"
-learningGoals:
-  - "Du erklärst, warum reservierter Platz Layoutsprünge reduziert."
-  - "Du nutzt aspect-ratio für Medienflächen und Karten."
-  - "Du prüfst, ob Inhalt im festen Rahmen sinnvoll bleibt."
-practiceIdeas:
-  - "Prüfe eine vorhandene Seite mit genau dieser Fragestellung."
-  - "Formuliere eine kleine Vorher-nachher-Verbesserung."
-  - "Teste die Entscheidung mit Tastatur, kleiner Breite und längeren Texten."
-commonMistakes:
-  - "Bildhöhen gar nicht zu planen und springende Karten zu erzeugen."
-  - "Jedes Bild hart zu verzerren."
-  - "aspect-ratio ohne Blick auf Bildinhalt und Zuschnitt zu setzen."
-keyTakeaways:
-  - "Bedeutung, Technik und Nutzungssituation müssen zusammenpassen."
-  - "Eine optisch passende Lösung ist noch nicht automatisch strukturell gut."
-  - "Kleine Prüfregeln helfen, Weboberflächen verlässlich zu verbessern."
-recognizeSignals:
-  - "Du siehst eine Stelle, die optisch funktioniert, aber fachlich unklar bleibt."
-  - "Im Review taucht die Frage auf, ob HTML-Struktur oder CSS-Verhalten wirklich passt."
-  - "Eine Komponente soll robuster, zugänglicher oder wartbarer werden."
-selfCheckPoints:
-  - "Kann ich die fachliche Bedeutung der Stelle benennen?"
-  - "Kann ich die technische Entscheidung begründen?"
-  - "Kann ich eine typische Fehlinterpretation vermeiden?"
-tags:
-  - "web development"
-  - "css"
-  - "aspect-ratio"
-  - "layout"
-  - "bilder"
+topicPath: ["css", "responsive-layouts", "aspect-ratio-und-bildkarten-stabilisieren"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Diese Seite hilft dir, **aspect-ratio und Bildkarten stabilisieren** nicht als isolierte Technik zu lernen. Entscheidend ist, welche Bedeutung auf der Seite entsteht und ob diese Bedeutung für Nutzerinnen und Nutzer zuverlässig erkennbar bleibt.

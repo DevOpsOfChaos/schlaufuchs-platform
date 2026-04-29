@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Pin-Change-Masken am AVR ruhig lesen
-description: Musterlösung zur Aufgabe ET-ATMEGA-PCINT-212.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - interrupts-und-reaktivitaet
-  - atmega-pin-change-masken-und-pcmsk-verstehen
-  - pin-change-masken-am-avr-ruhig-lesen-loesung
-taskId: ET-ATMEGA-PCINT-212
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-pin-change-masken-und-pcmsk-verstehen/pin-change-masken-am-avr-ruhig-lesen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - interrupt
-  - loesung
+title: "Musterlösung – Pin-Change-Masken am AVR ruhig lesen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-PCINT-212."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-pin-change-masken-und-pcmsk-verstehen", "pin-change-masken-am-avr-ruhig-lesen"]
+taskId: "ET-ATMEGA-PCINT-212"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-pin-change-masken-und-pcmsk-verstehen/pin-change-masken-am-avr-ruhig-lesen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 **PCICR** schaltet grundsätzlich eine Pin-Change-Gruppe frei. **PCMSK** legt danach fest, welche einzelnen Pins innerhalb dieser Gruppe tatsächlich beachtet werden. PCICR und PCMSK gehören also zu zwei verschiedenen Ebenen derselben Freigabelogik.

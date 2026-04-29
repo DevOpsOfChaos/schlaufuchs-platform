@@ -1,33 +1,19 @@
 ---
 title: "Rationale Funktionen"
 description: "Rationale Funktionen sind Quotienten von Polynomen. Sie können Definitionslücken, Polstellen und asymptotisches Verhalten zeigen."
-subject: mathematik
+subject: "mathematik"
 section: "Mathematik"
-topicPath:
-  - "rationale-funktionen"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Rationale Funktionen."
-  - "Du kannst Rationale Funktionen in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["rationale-funktionen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nullstellen des Nenners zu übersehen."
-keyTakeaways:
-  - "Rationale Funktionen sind Quotienten von Polynomen."
-  - "Wichtig sind vor allem zähler und nenner, definitionsmenge und nullstellen und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Rationale Funktionen, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Rationale Funktionen dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "grundlagen"
-  - "rationale funktionen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Mathematik"]
 draft: false
 ---
-
 # Rationale Funktionen
 
 Rationale Funktionen sind Quotienten von Polynomen. Sie können Definitionslücken, Polstellen und asymptotisches Verhalten zeigen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

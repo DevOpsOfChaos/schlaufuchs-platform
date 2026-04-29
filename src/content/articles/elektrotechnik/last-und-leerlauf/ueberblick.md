@@ -3,32 +3,17 @@ title: "Last und Leerlauf"
 description: "Allgemeiner Überblick über last und leerlauf und die wichtigsten Zusammenhänge."
 subject: "elektrotechnik"
 section: "Grundlagen"
-topicPath:
-  - "last-und-leerlauf"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["last-und-leerlauf", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft werden Leerlaufmessungen überbewertet, obwohl für den Betrieb das Verhalten unter realer Last zählt."
-keyTakeaways:
-  - "Die Unterscheidung von Last und Leerlauf macht Messwerte und Datenblattangaben verständlich."
-  - "Leerlauf bedeutet nicht ausgeschaltet. Eine Quelle kann aktiv sein, auch wenn gerade keine Last angeschlossen ist."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "elektrotechnik"
-  - "last"
-  - "leerlauf"
-  - "messung"
+tags: ["elektrotechnik", "Grundlagen"]
 draft: false
 ---
-
 # Last und Leerlauf
 
 Last und Leerlauf beschreiben zwei grundlegende Betriebszustände: eine Quelle liefert Energie an Verbraucher oder sie ist praktisch unbelastet.

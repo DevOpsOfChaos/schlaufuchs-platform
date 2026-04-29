@@ -1,46 +1,19 @@
 ---
-title: Objektanzahl mit statischen Membern zaehlen verstehen
-description: Verstehe, wie eine Klasse mit einem gemeinsamen Zaehler ihre existierenden Instanzen im Blick behalten kann.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - objektanzahl-mit-statischen-membern-zaehlen-verstehen
-learningGoals:
-  - Du erklaerst einen typischen Anwendungsfall fuer statische Daten.
-  - Du verbindest Konstruktor, Destruktor und static zu einem gemeinsamen Denkbild.
-  - Du liest Objektzaehler ruhiger als Klassenaufgabe statt als Objektaufgabe.
-practiceIdeas:
-  - Verfolge, wann ein Zaehler im Konstruktor erhoeht und im Destruktor erniedrigt wird.
-  - Pruefe, warum der Zaehler statisch sein muss.
-  - Uebertrage die Idee auf offene Dateien oder angemeldete Instanzen.
-commonMistakes:
-  - Den Zaehler als normales Attribut pro Objekt anzulegen.
-  - Im Konstruktor zu inkrementieren, aber im Destruktor nicht wieder zu dekrementieren.
-  - Zu uebersehen, dass sonst die Zahl langfristig unbrauchbar wird.
-keyTakeaways:
-  - Ein Objektzaehler ist ein klassischer Anwendungsfall fuer statische Daten.
-  - Der Zaehler wird meist im Konstruktor erhoeht und im Destruktor erniedrigt.
-  - So bleibt sichtbar, wie viele Instanzen gerade existieren.
-recognizeSignals:
-  - Im Code wird eine Instanzzahl mitgezählt.
-  - Konstruktor und Destruktor greifen auf denselben Wert zu.
-  - Die Aufgabe fragt nach aktuell existierenden Objekten.
-selfCheckPoints:
-  - Kann ich sagen, warum der Zaehler static sein muss?
-  - Kann ich Konstruktor und Destruktor in diesen Anwendungsfall einordnen?
-  - Kann ich den Fehler beschreiben, wenn das Dekrement fehlt?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - static
-  - konstruktor
+title: "Objektanzahl mit statischen Membern zaehlen verstehen"
+description: "Verstehe, wie eine Klasse mit einem gemeinsamen Zaehler ihre existierenden Instanzen im Blick behalten kann."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "objektanzahl-mit-statischen-membern-zaehlen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Einer der ruhigsten Anwendungsfaelle fuer `static` ist ein gemeinsamer Objektzaehler.

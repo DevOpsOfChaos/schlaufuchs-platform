@@ -3,22 +3,12 @@ title: "Lösung: Suchraum halbieren begründen"
 description: "Musterlösung zur Aufgabe „Suchraum halbieren begründen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "algorithmen-klein-begruenden"
-  - "suchen-und-teilen"
-  - "suchraum-halbieren-begruenden-v116"
+topicPath: ["algorithmen-klein-begruenden", "suchen-und-teilen", "suchraum-halbieren-begruenden-v116"]
 taskId: "suchraum-halbieren-begruenden-v116"
 relatedExercise: "informatik/algorithmen-klein-begruenden/suchen-und-teilen/suchraum-halbieren-begruenden-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "suchen und teilen"
-  - "suchraum halbieren begruenden"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

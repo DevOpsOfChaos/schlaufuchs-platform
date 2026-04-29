@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Umgebungsvariablen und PATH"
 description: "Verstehe Umgebungsvariablen als Kontext für Programme und PATH als Suchliste."
-subject: linux
+subject: "linux"
 section: "automatisierung-und-skripte"
-topicPath:
-  - "automatisierung-und-skripte"
-  - "umgebungsvariablen-und-path"
-learningGoals:
-  - "Du erklärst Umgebungsvariablen und PATH in eigenen Worten."
-  - "Du ordnest typische Befehle, Begriffe oder Prüfschritte richtig ein."
-  - "Du erkennst typische Grenzen und Fehlerquellen im Linux-Alltag."
-practiceIdeas:
-  - "Beschreibe eine kleine Alltagssituation zu diesem Thema."
-  - "Markiere, welche Information zuerst geprüft werden muss."
-commonMistakes:
-  - "Ein einzelnes Kommando für das ganze Thema zu halten."
-  - "Ausgabe, Zustand und Ursache zu vermischen."
-  - "Ohne Kontext direkt an Sonderfälle zu springen."
-keyTakeaways:
-  - "Umgebungsvariablen liefern Programmen Kontextinformationen."
-  - "PATH bestimmt, wo die Shell nach Programmen sucht."
-  - "Unterschiedliche Sitzungen können unterschiedliche Umgebungen haben."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung statt nur eines Befehlsrezepts."
-  - "Mehrere ähnliche Befehle oder Dateien wirken unklar."
-selfCheckPoints:
-  - "Kann ich Zweck, Kontext und typischen Prüfschritt unterscheiden?"
-  - "Kann ich eine einfache Fehlannahme zum Thema benennen?"
-level: mittel
-tags:
-  - "linux"
-  - "umgebung"
-  - "path"
+topicPath: ["automatisierung-und-skripte", "umgebungsvariablen-und-path", "ueberblick", "grundlagen-umgebungsvariablen-und-path-v186"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["linux", "automatisierung-und-skripte"]
 draft: false
 ---
-
 ![Umgebungsvariablen und PATH](/schlaufuchs-platform/images/overviews/v186/umgebungsvariablen-und-path.svg)
 
 ## Begriff

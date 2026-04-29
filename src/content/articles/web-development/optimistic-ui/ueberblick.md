@@ -1,36 +1,19 @@
 ---
 title: "Optimistic UI"
 description: "Optimistic UI aktualisiert die Oberfläche sofort so, als wäre eine Aktion erfolgreich, obwohl die Serverbestätigung noch aussteht."
-subject: web-development
+subject: "web-development"
 section: "UI"
-topicPath:
-  - "optimistic-ui"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Optimistic UI als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["optimistic-ui", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird der Fehlerfall vergessen. Dann zeigt die UI einen Zustand, den das System nie gespeichert hat."
-keyTakeaways:
-  - "Optimistic UI aktualisiert die Oberfläche sofort so, als wäre eine Aktion erfolgreich, obwohl die Serverbestätigung noch aussteht."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Optimistic UI, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Optimistic UI in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "web"
-  - "ui"
-  - "zustand"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "UI"]
 draft: false
 ---
-
 # Optimistic UI
 
 Optimistic UI aktualisiert die Oberfläche sofort so, als wäre eine Aktion erfolgreich, obwohl

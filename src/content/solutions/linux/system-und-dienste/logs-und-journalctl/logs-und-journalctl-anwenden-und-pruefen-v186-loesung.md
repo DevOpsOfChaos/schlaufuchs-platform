@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Logs und journalctl – anwenden und prüfen"
 description: "Musterlösung zur Linux-Aufgabe Logs und journalctl."
-subject: linux
+subject: "linux"
 section: "system-und-dienste"
-topicPath:
-  - "system-und-dienste"
-  - "logs-und-journalctl"
-taskId: LINUX-LOGS-UND-JOURNALCTL-V186-2
-relatedExercise: src/content/exercises/linux/system-und-dienste/logs-und-journalctl/logs-und-journalctl-anwenden-und-pruefen-v186.md
-tags:
-  - "linux"
-  - "logs"
-  - "journalctl"
-  - "loesung"
+topicPath: ["system-und-dienste", "logs-und-journalctl", "logs-und-journalctl-anwenden-und-pruefen-v186"]
+taskId: "LINUX-LOGS-UND-JOURNALCTL-V186-2"
+relatedExercise: "src/content/exercises/linux/system-und-dienste/logs-und-journalctl/logs-und-journalctl-anwenden-und-pruefen-v186.md"
+tags: ["linux", "system-und-dienste", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

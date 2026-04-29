@@ -1,23 +1,14 @@
 ---
-title: Lösung – Parameterfall getrennt behandeln
-description: Musterlösung zur Aufgabe über Parameterfall getrennt behandeln.
-subject: mathematik
-section: Feinstruktur Mathematik
-topicPath:
-- algebra-modelle
-- gleichungen-pruefen
-- parameterfall-getrennt-behandeln-v114
-taskId: v114-mathematik-parameterfall-getrennt-behandeln-v114
-relatedExercise: mathematik/algebra-modelle/gleichungen-pruefen/parameterfall-getrennt-behandeln-v114
-tags:
-- mathematik
-- v114
-- loesung
-- algebra-modelle
-- gleichungen-pruefen
+title: "Lösung – Parameterfall getrennt behandeln"
+description: "Musterlösung zur Aufgabe über Parameterfall getrennt behandeln."
+subject: "mathematik"
+section: "Feinstruktur Mathematik"
+topicPath: ["algebra-modelle", "gleichungen-pruefen", "parameterfall-getrennt-behandeln-v114"]
+taskId: "v114-mathematik-parameterfall-getrennt-behandeln-v114"
+relatedExercise: "mathematik/algebra-modelle/gleichungen-pruefen/parameterfall-getrennt-behandeln-v114"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

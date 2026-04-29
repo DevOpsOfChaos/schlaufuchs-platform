@@ -1,34 +1,19 @@
 ---
 title: "Induktivität und Spulen"
 description: "Allgemeiner Überblick über Induktivität, Spulen und ihre Wirkung bei Stromänderungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Bauteile"
-topicPath:
-  - "induktivitaet-und-spulen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Induktivität und Spulen als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["induktivitaet-und-spulen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird die Abschaltspannung induktiver Lasten unterschätzt. Gerade das Abschalten kann Schaltungen belasten."
-keyTakeaways:
-  - "Induktivität macht Stromänderungen träge und speichert Energie im Magnetfeld."
-  - "Induktivität und Spulen sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Induktivität und Spulen."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Induktivität und Spulen erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "induktivität"
-  - "spule"
-  - "magnetfeld"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Bauteile"]
 draft: false
 ---
-
 # Induktivität und Spulen
 
 Induktivität beschreibt die Fähigkeit eines Bauteils, Energie in einem Magnetfeld zu speichern und Änderungen des Stroms entgegenzuwirken.

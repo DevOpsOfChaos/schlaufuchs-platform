@@ -3,36 +3,15 @@ title: "Diode als Richtungsbauteil: Aufgabe B"
 description: "Erweitere die Grundidee zu „Diode als Richtungsbauteil“ um einen Messfehler, einen Sicherheitscheck und eine kurze Plausibilitätsprüfung."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "halbleiter"
-  - "diode-als-richtungsbauteil"
-  - "aufgabe-b"
+topicPath: ["sanierung-v191", "diode-als-richtungsbauteil-aufgabe-b"]
 taskId: "etech-v191-013b"
-tags:
-  - "halbleiter"
-  - "diode"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "aufgabe"
-  - "v191"
-hintPoints:
-  - "Trenne Schaltplan, realen Aufbau und Messpunkt."
-  - "Nenne mindestens eine Einheit oder einen Grenzwert."
-  - "Formuliere einen passenden Fehlerfall."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Diode als Richtungsbauteil."
-  - "Messrichtung, Anschluss oder Bauteilrolle sind nachvollziehbar."
-  - "Die Lösung bleibt ohne Spezialgerät verständlich."
-transferIdeas:
-  - "Übertrage die Idee auf eine zweite kleine Schaltung."
-  - "Erstelle eine Mini-Checkliste für die Messung."
-reflectionPrompt: "Welcher Prüfschritt verhindert hier den wahrscheinlichsten Fehler?"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Erweitere die Grundidee zu „Diode als Richtungsbauteil“ um einen Messfehler, einen Sicherheitscheck und eine kurze Plausibilitätsprüfung.

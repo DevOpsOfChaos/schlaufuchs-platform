@@ -3,23 +3,12 @@ title: "Lösung – Debugging-Protokoll mit einer Hypothese führen"
 description: "Musterlösung zu Debugging-Hypothese mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "informatik"
 section: "Programmierung"
-topicPath:
-  - "programmieren"
-  - "fehler-und-debugging"
-  - "hypothesen"
-  - "debugging-protokoll-mit-einer-hypothese-fuehren"
+topicPath: ["programmieren", "fehler-und-debugging", "hypothesen", "debugging-protokoll-mit-einer-hypothese-fuehren"]
 taskId: "v107-informatik-debugging-protokoll-mit-einer-hypothese-fuehren"
 relatedExercise: "informatik/programmieren/fehler-und-debugging/hypothesen/debugging-protokoll-mit-einer-hypothese-fuehren"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "algorithmen"
-  - "debugging-hypothese"
-  - "programmieren"
-  - "fehler-und-debugging"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Debugging-Hypothese**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

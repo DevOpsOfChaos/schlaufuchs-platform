@@ -1,36 +1,19 @@
 ---
 title: "DC-DC-Wandler"
 description: "Einordnung von DC-DC-Wandlern zur effizienten Umwandlung von Gleichspannungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Versorgung"
-topicPath:
-  - "dc-dc-wandler"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst DC-DC-Wandler als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["dc-dc-wandler", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird der Wandler nur nach Ausgangsspannung ausgewählt."
-keyTakeaways:
-  - "Schaltregler sind effizient, aber layout- und störungssensibel."
-  - "Wandler müssen zur Last und zum Spannungsbereich passen."
-  - "Ripple und EMV sind bei DC-DC-Wandlern normale Planungsthemen."
-recognizeSignals:
-  - "Es geht um DC-DC-Wandler als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich DC-DC-Wandler in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "versorgung"
-  - "dc-dc"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Versorgung"]
 draft: false
 ---
-
 # DC-DC-Wandler
 
 ![Schaubild zu DC-DC-Wandlern.](/schlaufuchs-platform/images/overviews/v150/dc-dc-wandler.svg)

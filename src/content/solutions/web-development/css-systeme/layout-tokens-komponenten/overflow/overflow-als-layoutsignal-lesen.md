@@ -3,23 +3,12 @@ title: "Lösung – Overflow als Layoutsignal lesen"
 description: "Musterlösung zu Overflow mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "css-systeme"
-  - "layout-tokens-komponenten"
-  - "overflow"
-  - "overflow-als-layoutsignal-lesen"
+topicPath: ["css-systeme", "layout-tokens-komponenten", "overflow", "overflow-als-layoutsignal-lesen"]
 taskId: "v111-web-development-overflow-als-layoutsignal-lesen"
 relatedExercise: "web-development/css-systeme/layout-tokens-komponenten/overflow/overflow-als-layoutsignal-lesen"
-tags:
-  - "web development"
-  - "frontend"
-  - "unterthema"
-  - "css-systeme"
-  - "layout-tokens-komponenten"
-  - "overflow-als-layoutsignal-lesen"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Overflow**.

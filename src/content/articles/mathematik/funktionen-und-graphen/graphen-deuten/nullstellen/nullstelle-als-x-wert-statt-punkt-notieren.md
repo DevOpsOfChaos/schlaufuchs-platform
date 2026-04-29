@@ -3,46 +3,17 @@ title: "Mathematik – Nullstelle als x-Wert statt Punkt notieren"
 description: "Lerne Nullstelle als x-Wert als kleines, klar auffindbares Unterthema mit Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "funktionen-und-graphen"
-  - "graphen-deuten"
-  - "nullstellen"
-  - "nullstelle-als-x-wert-statt-punkt-notieren"
-learningGoals:
-  - "Du erklärst Nullstelle als x-Wert als enges Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich sauber ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Formuliere eine Gegenprobe mit verändertem Kontext."
-  - "Ordne die Seite bewusst einem kleinen Unterthemenpfad zu."
-commonMistakes:
-  - "Die Nullstelle wird als ganzer Punkt oder als y-Wert notiert."
-  - "Das Thema in einem breiten Sammelkapitel verschwinden lassen."
-  - "Eine Lösung ohne konkreten Prüfschritt formulieren."
-keyTakeaways:
-  - "Nullstelle als x-Wert wird durch Kontext, Abgrenzung und Prüfung klar."
-  - "Feinere Unterthemen reduzieren Doppelungen und Suchaufwand."
-  - "Aufgabe und Lösung sollen dieselbe Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Eine breite Kapitelüberschrift reicht für die Entscheidung nicht aus."
-  - "Ein konkreter Prüfschritt kann die Einordnung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "mathematik"
-  - "prüfung"
-  - "unterthema"
-  - "funktionen-und-graphen"
-  - "graphen-deuten"
-  - "nullstelle-als-x-wert-statt-punkt-notieren"
+topicPath: ["funktionen-und-graphen", "graphen-deuten", "nullstellen", "nullstelle-als-x-wert-statt-punkt-notieren"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["mathematik", "Feinstruktur Mathematik"]
 draft: false
 ---
-
 ## Grundidee
 
 **Nullstelle als x-Wert** ist bewusst als kleines Unterthema angelegt. Lerne Nullstelle als x-Wert als kleines, klar auffindbares Unterthema mit Abgrenzung, Prüfschritt und Gegenprobe. So bleibt die Lernseite auffindbar, ohne noch mehr Inhalt in ein übergroßes Sammelthema zu schieben.

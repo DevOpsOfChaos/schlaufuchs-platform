@@ -3,22 +3,12 @@ title: "Lösung: Abtastung verstehen: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe dat-v189-006b."
 subject: "daten-und-signale"
 section: "grundlagen"
-topicPath:
-  - "grundlagen"
-  - "abtastung"
-  - "loesung-b"
+topicPath: ["sanierung-v189", "abtastung-verstehen-aufgabe-b"]
 taskId: "dat-v189-006b"
 relatedExercise: "daten-und-signale/sanierung-v189/abtastung-verstehen-aufgabe-b"
-tags:
-  - "abtastung"
-  - "sampling"
-  - "signal"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "grundlagen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-006b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

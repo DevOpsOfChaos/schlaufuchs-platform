@@ -1,36 +1,17 @@
 ---
 title: "Aufgabe: Ausgangsstrom begrenzen"
 description: "Trainiere Ausgangsstrom begrenzen an einem kleinen, klar abgegrenzten Fall."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-praxis-v115"
-  - "eingang-ausgang-pegel"
-  - "ausgangsstrom-begrenzen-v115"
+topicPath: ["mikrocontroller-praxis-v115", "eingang-ausgang-pegel", "ausgangsstrom-begrenzen-v115"]
 taskId: "elektrotechnik-ausgangsstrom-begrenzen-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "mikrocontroller-praxis"
-  - "eingang, ausgang, pegel"
-  - "aufgabe"
-hintPoints:
-  - "Grenze zuerst den kleinen Fall vom breiten Themenfeld ab."
-  - "Nutze die Prüffrage: Liegt der Strom unter der zulässigen Pinbelastung?"
-  - "Begründe mit zwei konkreten Hinweisen aus dem Fall."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-transferIdeas:
-  - "Übertrage dieselbe Trennkante auf ein eigenes Mini-Beispiel."
-  - "Formuliere einen Gegenfall, der ähnlich aussieht, aber anders entschieden wird."
-reflectionPrompt: "Was war bei „Ausgangsstrom begrenzen“ die wichtigste Trennkante?"
-level: mittel
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den folgenden Fall zu **Ausgangsstrom begrenzen**.

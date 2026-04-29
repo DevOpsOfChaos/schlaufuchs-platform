@@ -3,24 +3,12 @@ title: "Lösung: Sicherheitscheck vor dem Einschalten: Aufgabe B"
 description: "Musterlösung zur Aufgabe etech-v191-030b im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "fehlersuche"
-  - "sicherheitscheck-vor-dem-einschalten"
-  - "loesung-b"
+topicPath: ["sanierung-v191", "sicherheitscheck-vor-dem-einschalten-aufgabe-b"]
 taskId: "etech-v191-030b"
 relatedExercise: "elektrotechnik/sanierung-v191/sicherheitscheck-vor-dem-einschalten-aufgabe-b"
-tags:
-  - "fehlersuche"
-  - "sicherheitscheck"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-030b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Sicherheitscheck vor dem Einschalten“ um einen Messfehler, einen Sicherheitscheck und eine kurze Plausibilitätsprüfung.

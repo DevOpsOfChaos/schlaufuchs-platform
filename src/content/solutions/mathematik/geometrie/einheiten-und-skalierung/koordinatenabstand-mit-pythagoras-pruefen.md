@@ -3,21 +3,12 @@ title: "Lösung – Koordinatenabstand mit Pythagoras prüfen"
 description: "Musterlösung zu koordinatenabstand mit pythagoras prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "geometrie"
-  - "einheiten-und-skalierung"
-  - "koordinatenabstand-mit-pythagoras-pruefen"
+topicPath: ["geometrie", "einheiten-und-skalierung", "koordinatenabstand-mit-pythagoras-pruefen"]
 taskId: "v112-mathematik-koordinatenabstand-mit-pythagoras-pruefen"
 relatedExercise: "mathematik/geometrie/einheiten-und-skalierung/koordinatenabstand-mit-pythagoras-pruefen"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "geometrie"
-  - "koordinatenabstand-mit-pythagoras-pruefen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Geometrie und Skalierung**.

@@ -1,12 +1,17 @@
 ---
-title: CSS Grid, Raster und Spalten aufbauen
-description: Diese Aufgabe vertieft die Grundidee von CSS Grid und das ruhige Aufbauen von Kartenrastern.
-subject: web-development
-section: Grundlagen
-level: mittel
+title: "CSS Grid, Raster und Spalten aufbauen"
+description: "Diese Aufgabe vertieft die Grundidee von CSS Grid und das ruhige Aufbauen von Kartenrastern."
+subject: "web-development"
+section: "Grundlagen"
+topicPath: ["grundlagen", "css-grid-raster-und-spalten-aufbauen"]
+taskId: "AUTO-CSS-GRID-RASTER-UND-SPALTEN-AUFBAUEN"
+tags: ["web-development", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben mit Blick auf Struktur und Raster. Es geht nicht um Effekte, sondern um klare Anordnung in Zeilen und Spalten.

@@ -3,44 +3,17 @@ title: "CSS – Ladezustand, Leerzustand und Fehlerzustand in UI planen"
 description: "Lerne, Zustände einer Oberfläche sichtbar, ruhig und verständlich zu gestalten, statt nur den Idealzustand zu stylen."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "responsive-layouts"
-  - "ladezustand-leerzustand-und-fehlerzustand-in-ui-planen"
-learningGoals:
-  - "Du benennst wichtige UI-Zustände vor dem Styling."
-  - "Du unterscheidest Laden, leerer Inhalt und Fehlerfall."
-  - "Du gestaltest Zustände so, dass Nutzerinnen und Nutzer wissen, was gerade passiert."
-practiceIdeas:
-  - "Prüfe eine vorhandene Seite mit genau dieser Fragestellung."
-  - "Formuliere eine kleine Vorher-nachher-Verbesserung."
-  - "Teste die Entscheidung mit Tastatur, kleiner Breite und längeren Texten."
-commonMistakes:
-  - "Nur den fertigen Erfolgszustand zu gestalten."
-  - "Leere Listen wie kaputte Seiten aussehen zu lassen."
-  - "Fehlerzustände ohne nächste Handlung zu zeigen."
-keyTakeaways:
-  - "Bedeutung, Technik und Nutzungssituation müssen zusammenpassen."
-  - "Eine optisch passende Lösung ist noch nicht automatisch strukturell gut."
-  - "Kleine Prüfregeln helfen, Weboberflächen verlässlich zu verbessern."
-recognizeSignals:
-  - "Du siehst eine Stelle, die optisch funktioniert, aber fachlich unklar bleibt."
-  - "Im Review taucht die Frage auf, ob HTML-Struktur oder CSS-Verhalten wirklich passt."
-  - "Eine Komponente soll robuster, zugänglicher oder wartbarer werden."
-selfCheckPoints:
-  - "Kann ich die fachliche Bedeutung der Stelle benennen?"
-  - "Kann ich die technische Entscheidung begründen?"
-  - "Kann ich eine typische Fehlinterpretation vermeiden?"
-tags:
-  - "web development"
-  - "css"
-  - "ui"
-  - "zustand"
-  - "ux"
+topicPath: ["css", "responsive-layouts", "ladezustand-leerzustand-und-fehlerzustand-in-ui-planen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Diese Seite hilft dir, **Ladezustand, Leerzustand und Fehlerzustand in UI planen** nicht als isolierte Technik zu lernen. Entscheidend ist, welche Bedeutung auf der Seite entsteht und ob diese Bedeutung für Nutzerinnen und Nutzer zuverlässig erkennbar bleibt.

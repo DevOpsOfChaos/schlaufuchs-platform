@@ -3,24 +3,12 @@ title: "Lösung: Ohmsches Gesetz anwenden: Aufgabe B"
 description: "Musterlösung zur Aufgabe etech-v191-002b im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "grundgroessen"
-  - "ohmsches-gesetz-anwenden"
-  - "loesung-b"
+topicPath: ["sanierung-v191", "ohmsches-gesetz-anwenden-aufgabe-b"]
 taskId: "etech-v191-002b"
 relatedExercise: "elektrotechnik/sanierung-v191/ohmsches-gesetz-anwenden-aufgabe-b"
-tags:
-  - "grundgroessen"
-  - "ohmsches"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-002b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Ohmsches Gesetz anwenden“ um einen Messfehler, einen Sicherheitscheck und eine kurze Plausibilitätsprüfung.

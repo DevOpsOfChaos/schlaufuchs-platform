@@ -1,44 +1,17 @@
 ---
-title: Operatoren in PHP-Ausdrücken und Bedingungen lesen
-description: Verstehe, wie arithmetische, Vergleichs-, logische und bitweise Operatoren in PHP unterschiedliche Rollen spielen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - operatoren-in-ausdruecken-und-bedingungen-lesen
-learningGoals:
-  - Du ordnest Operatoren ihrer fachlichen Rolle zu.
-  - Du unterscheidest Rechnen, Vergleichen und logisches Verknüpfen sauber.
-  - Du liest einfache Bedingungen ruhiger statt nur Zeichenketten zu sehen.
-practiceIdeas:
-  - Sortiere Operatoren nach Rechnen, Vergleich, Logik oder Bit-Ebene.
-  - Übersetze eine if-Bedingung in Alltagssprache.
-  - Erkläre, warum bitweise Operatoren etwas anderes tun als logische Operatoren.
-commonMistakes:
-  - "&& und & gleichzusetzen."
-  - == mit = zu verwechseln.
-  - Bitoperatoren als allgemeine Bool-Operatoren zu lesen.
-keyTakeaways:
-  - Operatoren haben verschiedene Rollen.
-  - Vergleich und Zuweisung sind nicht dasselbe.
-  - Bitweise und logische Operatoren arbeiten auf verschiedenen Ebenen.
-recognizeSignals:
-  - Im Beispiel stehen viele Operatorzeichen nebeneinander.
-  - Es geht um Bedingungen, Berechnungen oder Bits.
-  - Du sollst Ausdruck und Bedeutung verbinden.
-selfCheckPoints:
-  - Kann ich = und == trennen?
-  - "Kann ich && und & unterscheiden?"
-  - Kann ich sagen, welche fachliche Rolle ein Operator hat?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - backend
-  - web
-  - grundlagen
+title: "Operatoren in PHP-Ausdrücken und Bedingungen lesen"
+description: "Verstehe, wie arithmetische, Vergleichs-, logische und bitweise Operatoren in PHP unterschiedliche Rollen spielen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "operatoren-in-ausdruecken-und-bedingungen-lesen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
 ## Grundidee

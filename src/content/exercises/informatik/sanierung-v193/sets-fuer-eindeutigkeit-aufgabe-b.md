@@ -3,35 +3,15 @@ title: "Sets für Eindeutigkeit: Aufgabe B"
 description: "Übertrage das Thema Sets für Eindeutigkeit auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "datenstrukturen-und-algorithmen"
-  - "sets-fuer-eindeutigkeit"
-  - "aufgabe-b"
+topicPath: ["sanierung-v193", "sets-fuer-eindeutigkeit-aufgabe-b"]
 taskId: "informatik-v193-017b"
-tags:
-  - "sets"
-  - "eindeutigkeit"
-  - "informatik"
-  - "softwarequalitaet"
-  - "aufgabe"
-  - "v193"
-hintPoints:
-  - "Beschreibe zuerst das erwartete Verhalten."
-  - "Nenne mindestens eine beteiligte Datenstruktur, Schnittstelle oder Zustandsänderung."
-  - "Formuliere einen kleinen Kontrollpunkt oder Test."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Sets für Eindeutigkeit."
-  - "Erwartung und tatsächliche Beobachtung werden getrennt."
-  - "Der Prüfweg ist klein genug, um ihn direkt nachzuvollziehen."
-transferIdeas:
-  - "Übertrage den Prüfweg auf ein anderes Modul oder eine zweite Eingabe."
-  - "Notiere, welche Annahme du durch einen Test absichern würdest."
-reflectionPrompt: "Welche Annahme wäre am gefährlichsten, wenn sie still falsch bleibt?"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Übertrage das Thema Sets für Eindeutigkeit auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

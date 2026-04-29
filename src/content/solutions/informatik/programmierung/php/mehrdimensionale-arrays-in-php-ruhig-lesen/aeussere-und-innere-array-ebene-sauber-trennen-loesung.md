@@ -1,21 +1,14 @@
 ---
-title: Loesung – Aeussere und innere Array Ebene sauber trennen
-description: Musterloesung zur Aufgabe ueber mehrdimensionale Arrays in PHP.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - mehrdimensionale-arrays-in-php-ruhig-lesen
-taskId: INF-PHP-ARRAYS-008
-relatedExercise: informatik/programmierung/php/mehrdimensionale-arrays-in-php-ruhig-lesen/aeussere-und-innere-array-ebene-sauber-trennen
-tags:
-  - informatik
-  - php
-  - loesung
+title: "Loesung – Aeussere und innere Array Ebene sauber trennen"
+description: "Musterloesung zur Aufgabe ueber mehrdimensionale Arrays in PHP."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "mehrdimensionale-arrays-in-php-ruhig-lesen", "aeussere-und-innere-array-ebene-sauber-trennen"]
+taskId: "INF-PHP-ARRAYS-008"
+relatedExercise: "informatik/programmierung/php/mehrdimensionale-arrays-in-php-ruhig-lesen/aeussere-und-innere-array-ebene-sauber-trennen"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterloesung
 
 ### Aufgabe 1

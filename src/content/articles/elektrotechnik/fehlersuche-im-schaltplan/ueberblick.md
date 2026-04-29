@@ -1,33 +1,19 @@
 ---
 title: "Fehlersuche im Schaltplan"
 description: "Fehlersuche im Schaltplan bedeutet, eine Schaltung systematisch nach Versorgung, Signalfluss, Grenzwerten und Annahmen zu prüfen. Sie ist eine eigene Lesefähigkeit."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik und Mikrocontroller"
-topicPath:
-  - "fehlersuche-im-schaltplan"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Fehlersuche im Schaltplan."
-  - "Du kannst Fehlersuche im Schaltplan in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["fehlersuche-im-schaltplan", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Sofort einzelne Bauteile zu verdächtigen, ohne Versorgung und Masse zu prüfen."
-keyTakeaways:
-  - "Fehlersuche im Schaltplan bedeutet, eine Schaltung systematisch nach Versorgung, Signalfluss, Grenzwerten und Annahmen zu prüfen."
-  - "Wichtig sind vor allem versorgung zuerst prüfen, signalpfade verfolgen und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Fehlersuche im Schaltplan, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Fehlersuche im Schaltplan dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "grundlagen"
-  - "fehlersuche im schaltplan"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik und Mikrocontroller"]
 draft: false
 ---
-
 # Fehlersuche im Schaltplan
 
 Fehlersuche im Schaltplan bedeutet, eine Schaltung systematisch nach Versorgung, Signalfluss, Grenzwerten und Annahmen zu prüfen. Sie ist eine eigene Lesefähigkeit. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

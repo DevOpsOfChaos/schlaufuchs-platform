@@ -3,22 +3,12 @@ title: "Lösung – Utility-Klassen und Komponenten-CSS abwägen"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Development-Aufgabe."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "css-spezifitaet-und-kaskade"
-  - "utility-klassen-und-komponenten-css-abwaegen"
-tags:
-  - "web development"
-  - "css"
-  - "architektur"
-  - "komponenten"
-  - "wartbarkeit"
-  - "lösung"
+topicPath: ["css", "css-spezifitaet-und-kaskade", "utility-klassen-und-komponenten-css-abwaegen"]
 taskId: "web-v103-utility-klassen-und-komponenten-css-abwaegen"
 relatedExercise: "web-development/css/css-spezifitaet-und-kaskade/utility-klassen-und-komponenten-css-abwaegen"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Ein allgemeiner Abstand kann Utility sein, ein wiederkehrendes Kartenlayout ist eine Komponente und ein einmaliger Ausreißer sollte kritisch geprüft werden.

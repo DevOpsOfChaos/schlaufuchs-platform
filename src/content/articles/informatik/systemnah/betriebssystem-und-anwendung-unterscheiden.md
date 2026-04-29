@@ -1,44 +1,19 @@
 ---
-title: Betriebssystem und Anwendung unterscheiden
-description: Verstehe, warum ein Gerät nicht nur einzelne Programme braucht, sondern zuerst ein System, das alles zusammen organisiert.
-subject: informatik
-section: Systemnah
-topicPath:
-  - systemnah
-  - betriebssystem-und-anwendung-unterscheiden
-learningGoals:
-  - Du erklärst die Rolle eines Betriebssystems.
-  - Du unterscheidest Betriebssystem und Anwendung sauber.
-  - Du beschreibst, warum Anwendungen ohne Systemgrundlage nicht sinnvoll laufen.
-practiceIdeas:
-  - Nenne an einem Alltagsgerät Beispiele für Betriebssystem und Anwendungen.
-  - Überlege, welche Aufgaben im Hintergrund vom System übernommen werden.
-  - Prüfe bei einem Beispiel, ob etwas eher Systemfunktion oder Anwendungsfunktion ist.
-commonMistakes:
-  - Das Betriebssystem mit einer einzelnen App zu verwechseln.
-  - Zu glauben, Programme könnten ohne Systemverwaltung direkt alles selbst steuern.
-  - Bedienoberfläche und Betriebssystem vollständig gleichzusetzen.
-keyTakeaways:
-  - Das Betriebssystem organisiert grundlegende Ressourcen und Abläufe.
-  - Anwendungen lösen konkrete Aufgaben für Nutzende.
-  - Beide Ebenen arbeiten zusammen, haben aber unterschiedliche Rollen.
-recognizeSignals:
-  - Es geht um Geräte, Programme, Systemfunktionen oder die Organisation von Hardware und Software.
-  - Du sollst erklären, was im Hintergrund geregelt wird und was zur eigentlichen Aufgabe einer App gehört.
-  - In Beispielen müssen System- und Anwendungsrolle getrennt werden.
-selfCheckPoints:
-  - Kann ich die Aufgabe eines Betriebssystems beschreiben?
-  - Kann ich ein Programm als Anwendung oder Systemfunktion einordnen?
-  - Kann ich erklären, warum Anwendungen eine Systemgrundlage brauchen?
-tags:
-  - betriebssystem
-  - anwendung
-  - system
-  - software
-level: einfach
+title: "Betriebssystem und Anwendung unterscheiden"
+description: "Verstehe, warum ein Gerät nicht nur einzelne Programme braucht, sondern zuerst ein System, das alles zusammen organisiert."
+subject: "informatik"
+section: "Systemnah"
+topicPath: ["systemnah", "betriebssystem-und-anwendung-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Systemnah"]
 draft: false
 ---
-
 ## Grundidee
 
 Wenn du auf einem Gerät eine App öffnest, wirkt es oft so, als würde nur dieses eine Programm arbeiten. Tatsächlich läuft darunter aber ein System, das Speicher, Dateien, Eingaben und Gerätezugriffe organisiert.

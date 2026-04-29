@@ -1,45 +1,19 @@
 ---
-title: Client-Server-Prinzip verstehen
-description: Verstehe, wie Anfragen und Antworten zwischen Client und Server zusammen ein digitales System bilden.
-subject: informatik
-section: Netzwerke
-topicPath:
-  - netzwerke
-  - client-server-prinzip-verstehen
-learningGoals:
-  - Du beschreibst die Rollen von Client und Server sauber.
-  - Du erklärst eine Anfrage als Weg von einer Aktion zur Antwort.
-  - Du erkennst, warum viele Internetdienste nach demselben Grundmuster arbeiten.
-practiceIdeas:
-  - Ordne bei einer Website, einer App oder einem Messenger, was Client und was Server ist.
-  - Beschreibe den Weg einer Suchanfrage in eigenen Worten vom Klick bis zur Antwort.
-  - Vergleiche zwei Beispiele und prüfe, ob beide demselben Client-Server-Muster folgen.
-commonMistakes:
-  - Den Client mit dem ganzen Internet gleichzusetzen.
-  - Den Server nur als Speicherort statt als aktiven Dienst zu sehen.
-  - Nur den Start auf dem eigenen Gerät zu sehen, aber den Antwortweg nicht mitzudenken.
-keyTakeaways:
-  - Ein Client stellt Anfragen, ein Server beantwortet sie.
-  - Viele digitale Dienste folgen demselben Grundmuster aus Anfrage und Antwort.
-  - Wer den Anfrageweg versteht, kann Systeme ruhiger erklären und Fehler besser einordnen.
-recognizeSignals:
-  - Es geht um Webseiten, Apps, Logins, Suchanfragen oder Netzwerke.
-  - Du sollst Rollen im System unterscheiden statt nur Geräte aufzuzählen.
-  - In einem Beispiel musst du erklären, wo die Antwort eigentlich herkommt.
-selfCheckPoints:
-  - Kann ich Client und Server funktional unterscheiden?
-  - Kann ich einen Anfrageweg Schritt für Schritt beschreiben?
-  - Kann ich das Prinzip auf verschiedene Dienste übertragen?
-tags:
-  - netzwerke
-  - client
-  - server
-  - anfrage
-  - antwort
-level: einfach
+title: "Client-Server-Prinzip verstehen"
+description: "Verstehe, wie Anfragen und Antworten zwischen Client und Server zusammen ein digitales System bilden."
+subject: "informatik"
+section: "Netzwerke"
+topicPath: ["netzwerke", "client-server-prinzip-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Netzwerke"]
 draft: false
 ---
-
 ## Grundidee
 
 Viele digitale Dienste wirken von außen einfach: Du klickst auf einen Link, tippst einen Suchbegriff ein oder meldest dich an. Im Hintergrund läuft aber fast immer dieselbe Grundstruktur: **Ein Client stellt eine Anfrage, ein Server antwortet darauf.**

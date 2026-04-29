@@ -3,22 +3,12 @@ title: "Lösung: Button und Link trennen"
 description: "Musterlösung zur Aufgabe „Button und Link trennen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "html-zugaenglichkeit-und-struktur"
-  - "semantik-und-bedienabsicht"
-  - "button-und-link-trennen-v116"
+topicPath: ["html-zugaenglichkeit-und-struktur", "semantik-und-bedienabsicht", "button-und-link-trennen-v116"]
 taskId: "button-und-link-trennen-v116"
 relatedExercise: "web-development/html-zugaenglichkeit-und-struktur/semantik-und-bedienabsicht/button-und-link-trennen-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "semantik und bedienabsicht"
-  - "button und link trennen"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

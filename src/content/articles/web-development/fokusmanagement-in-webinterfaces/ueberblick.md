@@ -1,35 +1,17 @@
 ---
 title: "Fokusmanagement in Webinterfaces"
 description: "Überblick über Fokusmanagement, Tastaturfluss und Orientierung in dynamischen Weboberflächen."
-subject: web-development
+subject: "web-development"
 section: "Barrierefreiheit"
-topicPath:
-  - "fokusmanagement-in-webinterfaces"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Fokusmanagement in Webinterfaces als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["fokusmanagement-in-webinterfaces", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, Fokusumrisse zu entfernen, ohne eine gleichwertige sichtbare Alternative bereitzustellen."
-keyTakeaways:
-  - "Fokusmanagement beschreibt, welches Element bei Tastaturbedienung aktiv ist und wie der Fokus bei dynamischen Änderungen geführt wird."
-  - "Es sorgt dafür, dass Nutzerinnen und Nutzer auch ohne Maus wissen, wo sie sind und welche Aktion als Nächstes möglich ist."
-  - "Fokusmanagement ist nicht nur ein Stylingthema. Es verbindet Semantik, Interaktion und Zustandswechsel."
-recognizeSignals:
-  - "Es geht um Fokusmanagement in Webinterfaces, wenn modale Dialoge müssen Fokus einschließen und sinnvoll zurückgeben."
-  - "Das Thema wird relevant, wenn Beispiele wie nach dem Schließen eines Dialogs sollte der Fokus wieder auf dem Button liegen, der den Dialog geöffnet hat."
-selfCheckPoints:
-  - "Kann ich Fokusmanagement in Webinterfaces in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "web development"
-  - "barrierefreiheit"
-  - "fokus"
-  - "ui"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Barrierefreiheit"]
 draft: false
 ---
 # Fokusmanagement in Webinterfaces

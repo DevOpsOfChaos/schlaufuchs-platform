@@ -3,22 +3,12 @@ title: "Lösung: zu breite Berechtigung erkennen"
 description: "Musterlösung zur Aufgabe „zu breite Berechtigung erkennen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "sicherheit-und-robustheit"
-  - "rechte-und-prinzip-minimum"
-  - "zu-breite-berechtigung-erkennen-v116"
+topicPath: ["sicherheit-und-robustheit", "rechte-und-prinzip-minimum", "zu-breite-berechtigung-erkennen-v116"]
 taskId: "zu-breite-berechtigung-erkennen-v116"
 relatedExercise: "informatik/sicherheit-und-robustheit/rechte-und-prinzip-minimum/zu-breite-berechtigung-erkennen-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "rechte und prinzip minimum"
-  - "zu breite berechtigung erkennen"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

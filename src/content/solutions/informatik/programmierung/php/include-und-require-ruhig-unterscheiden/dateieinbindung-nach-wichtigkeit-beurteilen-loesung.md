@@ -1,21 +1,14 @@
 ---
-title: Loesung – Dateieinbindung nach Wichtigkeit beurteilen
-description: Musterloesung zur Aufgabe ueber include und require in PHP.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - include-und-require-ruhig-unterscheiden
-taskId: INF-PHP-STRUCT-004
-relatedExercise: informatik/programmierung/php/include-und-require-ruhig-unterscheiden/dateieinbindung-nach-wichtigkeit-beurteilen
-tags:
-  - informatik
-  - php
-  - loesung
+title: "Loesung – Dateieinbindung nach Wichtigkeit beurteilen"
+description: "Musterloesung zur Aufgabe ueber include und require in PHP."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "include-und-require-ruhig-unterscheiden", "dateieinbindung-nach-wichtigkeit-beurteilen"]
+taskId: "INF-PHP-STRUCT-004"
+relatedExercise: "informatik/programmierung/php/include-und-require-ruhig-unterscheiden/dateieinbindung-nach-wichtigkeit-beurteilen"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterloesung
 
 ### Aufgabe 1

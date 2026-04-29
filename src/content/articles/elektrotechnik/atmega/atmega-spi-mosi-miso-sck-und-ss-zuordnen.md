@@ -1,46 +1,19 @@
 ---
-title: ATmega – MOSI, MISO, SCK und SS zuordnen
-description: Verstehe die Rollen der vier SPI-Grundsignale am AVR und warum ihre Richtung nicht aus dem Namen allein, sondern aus Master- und Slave-Rolle gelesen werden sollte.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-kommunikation
-  - atmega-spi-mosi-miso-sck-und-ss-zuordnen
-learningGoals:
-  - Du erklärst die Rollen von MOSI, MISO, SCK und SS beim SPI.
-  - Du unterscheidest Signalname und Gerätesicht sauber.
-  - Du liest SPI eher als Rollenverteilung zwischen Master und Slave statt nur als Pinliste.
-practiceIdeas:
-  - Beschreibe einen SPI-Aufbau erst aus Sicht des Masters und dann aus Sicht des Slaves.
-  - Ordne Datenrichtung und Taktsignal in einfachen Verdrahtungsbildern zu.
-  - Prüfe bei Verdrahtungsfehlern zuerst Signalrolle und Gerätesicht.
-commonMistakes:
-  - Zu glauben, MOSI sei „immer Ausgang“ unabhängig von der Rolle.
-  - SS nur als irgendeinen Zusatzpin statt als Slave-Auswahl zu lesen.
-  - SCK mit Datenleitung statt mit Zeitsteuerung zu verwechseln.
-keyTakeaways:
-  - MOSI und MISO beschreiben Datenrichtung relativ zum Master.
-  - SCK liefert den seriellen Takt.
-  - SS wählt typischerweise den aktiven Slave aus.
-recognizeSignals:
-  - Es geht um SPI-Verdrahtung, Master-Slave-Aufbau oder Pinzuordnung.
-  - Du sollst erklären, warum Leitungen zwischen zwei Geräten gekreuzt oder direkt geführt werden.
-  - In Aufgaben wird zwischen Signalname und Gerätesicht unterschieden.
-selfCheckPoints:
-  - Kann ich MOSI und MISO relativ zum Master erklären?
-  - Kann ich SCK und SS fachlich zuordnen?
-  - Kann ich Master- und Slave-Sicht ohne Verwirrung wechseln?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - spi
-  - pins
-level: mittel
+title: "ATmega – MOSI, MISO, SCK und SS zuordnen"
+description: "Verstehe die Rollen der vier SPI-Grundsignale am AVR und warum ihre Richtung nicht aus dem Namen allein, sondern aus Master- und Slave-Rolle gelesen werden sollte."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-spi-mosi-miso-sck-und-ss-zuordnen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei SPI wirken die Namen **MOSI**, **MISO**, **SCK** und **SS** zuerst wie eine reine Pinliste. Didaktisch wichtiger ist aber: Diese Signale beschreiben **Rollen im Bus**. Wer nur auf den Pin schaut, übersieht leicht, aus **wessen Sicht** der Name vergeben ist.

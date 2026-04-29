@@ -1,33 +1,19 @@
 ---
 title: "CORS Preflight"
 description: "Ein CORS Preflight ist eine vorbereitende OPTIONS-Anfrage des Browsers. Sie prüft, ob eine cross-origin Anfrage mit bestimmten Methoden oder Headern erlaubt ist."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "cors-preflight"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von CORS Preflight."
-  - "Du kannst CORS Preflight in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["cors-preflight", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Die eigentliche API zu debuggen, obwohl schon die Vorab-Anfrage scheitert."
-keyTakeaways:
-  - "Ein CORS Preflight ist eine vorbereitende OPTIONS-Anfrage des Browsers."
-  - "Wichtig sind vor allem options-anfrage, erlaubte methoden und header und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um CORS Preflight, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu CORS Preflight dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "web development"
-  - "grundlagen"
-  - "cors preflight"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # CORS Preflight
 
 Ein CORS Preflight ist eine vorbereitende OPTIONS-Anfrage des Browsers. Sie prüft, ob eine cross-origin Anfrage mit bestimmten Methoden oder Headern erlaubt ist. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

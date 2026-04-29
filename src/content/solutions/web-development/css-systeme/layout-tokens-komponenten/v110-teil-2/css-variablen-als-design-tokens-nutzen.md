@@ -3,23 +3,12 @@ title: "Lösung – CSS-Variablen als Design Tokens nutzen"
 description: "Musterlösung zu CSS-Variablen als Design Tokens nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css-systeme"
-  - "layout-tokens-komponenten"
-  - "v110-teil-2"
-  - "css-variablen-als-design-tokens-nutzen"
+topicPath: ["css-systeme", "layout-tokens-komponenten", "v110-teil-2", "css-variablen-als-design-tokens-nutzen"]
 taskId: "v110-web-development-css-variablen-als-design-tokens-nutzen"
 relatedExercise: "web-development/css-systeme/layout-tokens-komponenten/v110-teil-2/css-variablen-als-design-tokens-nutzen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "css-systeme"
-  - "layout-tokens-komponenten"
-  - "css-variablen-als-design-tokens-nutzen"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **CSS-Variablen als Design Tokens nutzen**.

@@ -1,34 +1,19 @@
 ---
 title: "Flexbox"
 description: "Allgemeiner Überblick über Flexbox als Layoutsystem für eindimensionale Anordnung."
-subject: web-development
+subject: "web-development"
 section: "CSS Layout"
-topicPath:
-  - flexbox
-  - ueberblick
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen und von verwandten Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte und typische Anwendungsfälle."
-  - "Du erkennst häufige Missverständnisse und prüfst Aussagen auf Plausibilität."
+topicPath: ["flexbox", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Flexbox mit vielen Zusatzregeln überladen, weil Hauptachse und Querachse nicht bewusst unterschieden werden."
-keyTakeaways:
-  - "Flexbox ist ein CSS-Layoutmodell für die Anordnung von Elementen entlang einer Hauptachse."
-  - "Die genaue Bedeutung hängt vom Zusammenhang, den Einheiten und den Randbedingungen ab."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Begriffe, Beispiele oder Fehlerbilder aus diesem Bereich erklärt und eingeordnet werden sollen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten erklären, ohne sofort eine Spezialaufgabe zu rechnen?"
-level: einfach
-tags:
-  - "web development"
-  - "css"
-  - "flexbox"
-  - "layout"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS Layout"]
 draft: false
 ---
-
 # Flexbox
 
 ## Begriff und Zweck

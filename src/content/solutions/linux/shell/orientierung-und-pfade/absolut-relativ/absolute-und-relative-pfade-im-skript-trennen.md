@@ -3,22 +3,12 @@ title: "Lösung – Absolute und relative Pfade im Skript trennen"
 description: "Musterlösung zu Absolute und relative Pfade mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell"
-  - "orientierung-und-pfade"
-  - "absolut-relativ"
-  - "absolute-und-relative-pfade-im-skript-trennen"
+topicPath: ["shell", "orientierung-und-pfade", "absolut-relativ", "absolute-und-relative-pfade-im-skript-trennen"]
 taskId: "v109-linux-absolute-und-relative-pfade-im-skript-trennen"
 relatedExercise: "linux/shell/orientierung-und-pfade/absolut-relativ/absolute-und-relative-pfade-im-skript-trennen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "orientierung-und-pfade"
-  - "absolute und relative pfade"
+tags: ["linux", "Shell", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Absolute und relative Pfade**.

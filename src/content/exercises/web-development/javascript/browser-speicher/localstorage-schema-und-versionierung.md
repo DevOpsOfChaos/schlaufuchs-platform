@@ -3,35 +3,15 @@ title: "Aufgabe – Browser: localStorage mit Schema und Versionierung nutzen"
 description: "Übe: Verstehe, warum dauerhaft gespeicherte Browserdaten eine kleine Struktur und einen Migrationsweg brauchen."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "browser-speicher"
-  - "localstorage-schema-und-versionierung"
+topicPath: ["javascript", "browser-speicher", "localstorage-schema-und-versionierung"]
 taskId: "web-v102-localstorage-schema-und-versionierung"
-tags:
-  - "web development"
-  - "javascript"
-  - "localstorage"
-  - "browser speicher"
-  - "versionierung"
-  - "aufgabe"
-hintPoints:
-  - "Lies zuerst den Zustand, nicht nur den Code."
-  - "Achte auf sichtbare Rückmeldung und Bedienbarkeit."
-  - "Begründe deine Entscheidung mit einem konkreten Nutzerfall."
-selfCheckPoints:
-  - "Ist die Verbesserung prüfbar?"
-  - "Ist die Rückmeldung konkret formuliert?"
-  - "Passt die Technik wirklich zur Situation?"
-transferIdeas:
-  - "Übertrage die Lösung auf eine zweite Komponente."
-  - "Beschreibe den gleichen Gedanken einmal ohne Fachsprache."
-  - "Prüfe, ob ein Fehlerfall eine andere Rückmeldung braucht."
-reflectionPrompt: "Was ist bei „Browser – localStorage mit Schema und Versionierung nutzen“ der wichtigste Unterschied zwischen einer optischen Lösung und einer wirklich robusten Lösung?"
+tags: ["web-development", "JavaScript", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Plane ein kleines localStorage-Format für Darstellungsoptionen mit Version.

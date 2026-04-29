@@ -3,25 +3,12 @@ title: "Lösung: Pfade und Befehlsauflösung: Aufgabe B"
 description: "Musterlösung zur Aufgabe linux-v192-027b im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "shell-und-umgebung"
-  - "pfade-und-befehlsaufloesung"
-  - "loesung-b"
+topicPath: ["sanierung-v192", "pfade-und-befehlsaufloesung-loesung-b"]
 taskId: "linux-v192-027b"
 relatedExercise: "linux/sanierung-v192/pfade-und-befehlsaufloesung-aufgabe-b"
-tags:
-  - "shell-und-umgebung"
-  - "pfade"
-  - "befehlsaufloesung"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-027b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Pfade und Befehlsauflösung“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

@@ -1,36 +1,19 @@
 ---
 title: "CSS-Variablen"
 description: "Überblick über CSS Custom Properties als wiederverwendbare Werte im Stylesheet."
-subject: web-development
+subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css-variablen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst CSS-Variablen als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["css-variablen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Variablen nach konkreten Farben statt nach Bedeutung benannt."
-keyTakeaways:
-  - "CSS-Variablen machen wiederkehrende Werte zentral nutzbar."
-  - "Sie folgen Kaskade und Vererbung."
-  - "Gute Namen beschreiben Bedeutung statt nur Aussehen."
-recognizeSignals:
-  - "Es geht um CSS-Variablen als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich CSS-Variablen in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "web development"
-  - "css"
-  - "variablen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 # CSS-Variablen
 
 CSS-Variablen, offiziell Custom Properties, speichern Werte direkt im CSS. Sie beginnen meist mit `--` und werden mit `var()` verwendet. Dadurch lassen sich Farben, Abstände, Schriftgrößen oder andere wiederkehrende Werte zentraler und flexibler definieren.

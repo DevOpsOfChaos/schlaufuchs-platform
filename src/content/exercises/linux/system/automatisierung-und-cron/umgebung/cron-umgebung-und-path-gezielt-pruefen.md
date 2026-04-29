@@ -3,35 +3,15 @@ title: "Aufgabe – Cron-Umgebung und PATH gezielt prüfen"
 description: "Übe Cron-Umgebung mit einem kleinen Szenario, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "System"
-topicPath:
-  - "system"
-  - "automatisierung-und-cron"
-  - "umgebung"
-  - "cron-umgebung-und-path-gezielt-pruefen"
+topicPath: ["system", "automatisierung-und-cron", "umgebung", "cron-umgebung-und-path-gezielt-pruefen"]
 taskId: "v109-linux-cron-umgebung-und-path-gezielt-pruefen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "system"
-  - "automatisierung-und-cron"
-  - "cron-umgebung"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Übertrage den Prüfschritt auf ein Nachbarthema und nenne den Unterschied."
-reflectionPrompt: "Welche kleine Trennkante macht Cron-Umgebung übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["linux", "System", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Cron-Umgebung**.

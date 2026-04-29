@@ -1,12 +1,17 @@
 ---
-title: Dezimalzahlen vergleichen und sicher rechnen
-description: Diese Aufgabe vertieft Stellenwerte, Vergleiche und einfache Rechnungen mit Dezimalzahlen.
-subject: mathematik
-section: Grundlagen
-level: einfach
+title: "Dezimalzahlen vergleichen und sicher rechnen"
+description: "Diese Aufgabe vertieft Stellenwerte, Vergleiche und einfache Rechnungen mit Dezimalzahlen."
+subject: "mathematik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "dezimalzahlen", "dezimalzahlen-vergleichen-und-sicher-rechnen"]
+taskId: "AUTO-DEZIMALZAHLEN-VERGLEICHEN-UND-SICHER-RECHNEN"
+tags: ["mathematik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben sorgfältig und achte besonders auf den Stellenwert jeder Nachkommastelle.

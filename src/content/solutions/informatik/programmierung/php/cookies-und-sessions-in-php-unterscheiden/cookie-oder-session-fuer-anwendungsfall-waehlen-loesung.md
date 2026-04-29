@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Cookie oder Session für einen Anwendungsfall wählen
-description: Musterlösung zur Aufgabe INF-PHP-STATE-001.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - cookies-und-sessions-in-php-unterscheiden
-  - cookie-oder-session-fuer-anwendungsfall-waehlen-loesung
-taskId: INF-PHP-STATE-001
-relatedExercise: src/content/exercises/informatik/programmierung/php/cookies-und-sessions-in-php-unterscheiden/cookie-oder-session-fuer-anwendungsfall-waehlen.md
-tags:
-  - informatik
-  - loesung
-  - php
-  - task-id
+title: "Musterlösung – Cookie oder Session für einen Anwendungsfall wählen"
+description: "Musterlösung zur Aufgabe INF-PHP-STATE-001."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "cookies-und-sessions-in-php-unterscheiden", "cookie-oder-session-fuer-anwendungsfall-waehlen"]
+taskId: "INF-PHP-STATE-001"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/cookies-und-sessions-in-php-unterscheiden/cookie-oder-session-fuer-anwendungsfall-waehlen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Spracheinstellung merken → eher Cookie. Warenkorb halten → eher Session. Benutzer nach Login wiedererkennen → typischerweise Session mit Kennung.

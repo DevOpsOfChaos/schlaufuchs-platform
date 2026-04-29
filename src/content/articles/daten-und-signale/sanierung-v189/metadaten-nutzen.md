@@ -3,38 +3,17 @@ title: "Metadaten nutzen"
 description: "Metadaten beschreiben Daten und machen sie einordbar."
 subject: "daten-und-signale"
 section: "datenpraxis"
-topicPath:
-  - "datenpraxis"
-  - "metadaten-nutzen"
-learningGoals:
-  - "Metadaten beschreiben Daten und machen sie einordbar fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Metadaten beschreiben Daten und machen sie einordbar wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v189", "metadaten-nutzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "metadaten"
-  - "daten"
-  - "kontext"
-  - "daten-und-signale"
-  - "v189"
+tags: ["daten-und-signale", "datenpraxis"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Metadaten nutzen](/schlaufuchs-platform/images/daten-und-signale/sanierung-189/metadaten-nutzen.svg)
 
 ## Überblick

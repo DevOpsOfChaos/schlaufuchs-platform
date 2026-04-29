@@ -1,12 +1,17 @@
 ---
-title: Funktionen, Parameter und Modularisierung planen
-description: Diese Aufgabe vertieft die Planung klarer Funktionen und die Zerlegung größerer Programme in sinnvolle Teilaufgaben.
-subject: informatik
-section: Grundlagen
-level: mittel
+title: "Funktionen, Parameter und Modularisierung planen"
+description: "Diese Aufgabe vertieft die Planung klarer Funktionen und die Zerlegung größerer Programme in sinnvolle Teilaufgaben."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "funktionen-parameter-und-modularisierung-planen"]
+taskId: "AUTO-FUNKTIONEN-PARAMETER-UND-MODULARISIERUNG-PLANEN"
+tags: ["informatik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben so, dass immer klar wird, welche Teilaufgabe eine Funktion übernehmen soll.

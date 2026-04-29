@@ -3,34 +3,15 @@ title: "Aufgabe – defensive DOM-Zugriffe und frühe Rückgaben"
 description: "Schreibe eine kleine Guard-Clause für ein Formular und einen Statusbereich. Warum ist diese Form lesbarer als tiefe Verschachtelung?"
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "robustheit-und-fehler"
-  - "defensive-dom-zugriffe-und-fruehe-rueckgaben"
+topicPath: ["javascript", "robustheit-und-fehler", "defensive-dom-zugriffe-und-fruehe-rueckgaben"]
 taskId: "web-js-v99-defensive-dom-zugriffe-und-fruehe-rueckgaben"
-tags:
-  - "web development"
-  - "javascript"
-  - "dom"
-  - "robustheit"
-  - "guard clause"
-  - "aufgabe"
-hintPoints:
-  - "Lies zuerst die vorhandene HTML- oder UI-Situation."
-  - "Trenne sichtbare Rückmeldung von interner Logik."
-  - "Begründe, warum dein Vorschlag für Nutzerinnen und Nutzer verständlich ist."
-selfCheckPoints:
-  - "Ist die Lösung auch bei fehlenden Daten oder Fehlern nachvollziehbar?"
-  - "Sind HTML, CSS und JavaScript sauber getrennt?"
-  - "Gibt es eine passende Rückmeldung?"
-transferIdeas:
-  - "Übertrage die Aufgabe auf eine Formular-, Such- oder Kartenoberfläche."
-  - "Vergleiche eine schnelle, aber fragile Lösung mit einer robusteren Lösung."
-reflectionPrompt: "Welche kleine Entscheidung verbessert hier nicht nur den Code, sondern auch die Nutzererfahrung?"
+tags: ["web-development", "JavaScript", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Schreibe eine kleine Guard-Clause für ein Formular und einen Statusbereich. Warum ist diese Form lesbarer als tiefe Verschachtelung?

@@ -1,46 +1,19 @@
 ---
-title: MySQLi prozedural und objektorientiert vergleichen
-description: Verstehe, warum MySQLi in PHP sowohl prozedural als auch objektorientiert geschrieben werden kann und wie beide Schreibweisen fachlich zusammenhängen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - mysqli-prozedural-und-objektorientiert-vergleichen
-learningGoals:
-  - Du unterscheidest prozedurale und objektorientierte MySQLi-Schreibweise grob.
-  - Du ordnest vergleichbare Aufrufe fachlich derselben Datenbankaktion zu.
-  - Du erkennst, warum gemischte Schreibweise unnötig unruhig werden kann.
-practiceIdeas:
-  - Vergleiche <code>mysqli_query(...)</code> mit <code>$con->query(...)</code>.
-  - Lies denselben Datenbankzugriff einmal funktional und einmal objektorientiert.
-  - Begründe, warum ein Stil im Projekt konsequent durchgezogen werden sollte.
-commonMistakes:
-  - Zu glauben, es seien zwei völlig verschiedene Datenbanktechniken.
-  - Die Schreibweise zu mischen, obwohl der Ablauf derselbe bleibt.
-  - Objekt und Ergebnisressource durcheinanderzubringen.
-keyTakeaways:
-  - MySQLi unterstützt zwei Schreibstile für ähnliche Aufgaben.
-  - "Fachlich bleibt der Ablauf gleich: verbinden, Anfrage senden, Ergebnis lesen, schließen."
-  - Ruhiger Code entsteht meist durch konsequenten Stil.
-recognizeSignals:
-  - Es geht um <code>mysqli_connect</code> oder <code>new mysqli(...)</code>.
-  - Du siehst <code>mysqli_query(...)</code> oder <code>$con->query(...)</code>.
-  - Du sollst Zusammenhänge statt bloß Syntaxunterschiede erklären.
-selfCheckPoints:
-  - Kann ich beide Schreibweisen fachlich auf denselben Ablauf beziehen?
-  - Kann ich sagen, was am Mischen unruhig wird?
-  - Kann ich Verbindung und Ergebnis voneinander trennen?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - mysqli
-  - mysql
+title: "MySQLi prozedural und objektorientiert vergleichen"
+description: "Verstehe, warum MySQLi in PHP sowohl prozedural als auch objektorientiert geschrieben werden kann und wie beide Schreibweisen fachlich zusammenhängen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "mysqli-prozedural-und-objektorientiert-vergleichen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Beim MySQLi-Zugriff in PHP gibt es oft zwei Schreibweisen: prozedural und objektorientiert. Fachlich lösen beide dieselben Grundaufgaben, nur die Syntax wirkt anders.

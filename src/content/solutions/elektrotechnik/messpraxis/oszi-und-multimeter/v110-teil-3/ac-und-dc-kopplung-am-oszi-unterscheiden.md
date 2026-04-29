@@ -3,23 +3,12 @@ title: "Lösung – AC- und DC-Kopplung am Oszi unterscheiden"
 description: "Musterlösung zu AC- und DC-Kopplung am Oszi unterscheiden mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Messpraxis"
-topicPath:
-  - "messpraxis"
-  - "oszi-und-multimeter"
-  - "v110-teil-3"
-  - "ac-und-dc-kopplung-am-oszi-unterscheiden"
+topicPath: ["messpraxis", "oszi-und-multimeter", "v110-teil-3", "ac-und-dc-kopplung-am-oszi-unterscheiden"]
 taskId: "v110-elektrotechnik-ac-und-dc-kopplung-am-oszi-unterscheiden"
 relatedExercise: "elektrotechnik/messpraxis/oszi-und-multimeter/v110-teil-3/ac-und-dc-kopplung-am-oszi-unterscheiden"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "messpraxis"
-  - "oszi-und-multimeter"
-  - "ac-und-dc-kopplung-am-oszi-unterscheiden"
+tags: ["elektrotechnik", "Messpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **AC- und DC-Kopplung am Oszi unterscheiden**.

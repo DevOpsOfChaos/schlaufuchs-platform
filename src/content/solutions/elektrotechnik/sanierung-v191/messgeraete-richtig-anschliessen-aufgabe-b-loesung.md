@@ -3,23 +3,12 @@ title: "Lösung: Messgeräte richtig anschließen: Aufgabe B"
 description: "Musterlösung zur Aufgabe etech-v191-008b im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "messpraxis"
-  - "messgeraete-richtig-anschliessen"
-  - "loesung-b"
+topicPath: ["sanierung-v191", "messgeraete-richtig-anschliessen-aufgabe-b"]
 taskId: "etech-v191-008b"
 relatedExercise: "elektrotechnik/sanierung-v191/messgeraete-richtig-anschliessen-aufgabe-b"
-tags:
-  - "messpraxis"
-  - "messgeraete"
-  - "schaltung"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-008b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Messgeräte richtig anschließen“ um einen Messfehler, einen Sicherheitscheck und eine kurze Plausibilitätsprüfung.

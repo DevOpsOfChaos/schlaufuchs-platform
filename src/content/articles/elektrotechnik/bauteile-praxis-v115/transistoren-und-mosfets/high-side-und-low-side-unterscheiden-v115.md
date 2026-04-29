@@ -1,46 +1,19 @@
 ---
 title: "Elektrotechnik – High-Side und Low-Side unterscheiden"
 description: "Trainiere High-Side und Low-Side unterscheiden als kleines Unterthema mit klarer Trennkante, Beispiel und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "bauteile-praxis-v115"
-  - "transistoren-und-mosfets"
-  - "high-side-und-low-side-unterscheiden-v115"
-learningGoals:
-  - "Du erklärst High-Side und Low-Side unterscheiden an einem kleinen, abgegrenzten Fall."
-  - "Du trennst das Unterthema von einem naheliegenden Nachbarthema."
-  - "Du formulierst eine passende Gegenprobe statt nur eine fertige Antwort."
-practiceIdeas:
-  - "Schreibe zuerst die Prüffrage in eigenen Worten auf."
-  - "Markiere im Fall zwei Hinweise, die wirklich zur Entscheidung gehören."
-  - "Formuliere einen Gegenfall, in dem die Entscheidung anders ausfallen würde."
-commonMistakes:
-  - "Jede Transistorschaltung wird als gleich gelesen."
-  - "Das Thema wird zu breit eingeordnet und verliert dadurch die prüfbare Trennkante."
-  - "Die Lösung nennt ein Ergebnis, begründet aber nicht die Abgrenzung."
-keyTakeaways:
-  - "Dieses Unterthema prüft vor allem: Liegt der Schalter oberhalb oder unterhalb der Last?"
-  - "Eine gute Lösung benennt die Trennkante ausdrücklich."
-  - "Die Gegenprobe zeigt, ob die Begründung wirklich trägt."
-recognizeSignals:
-  - "Die Aufgabe fragt nach High-Side und Low-Side unterscheiden."
-  - "Ähnliche Begriffe oder Fälle liegen nah beieinander."
-  - "Eine kleine Änderung im Fall würde zu einer anderen Entscheidung führen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-level: mittel
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "bauteile in der praxis"
-  - "transistoren und mosfets"
+topicPath: ["bauteile-praxis-v115", "transistoren-und-mosfets", "high-side-und-low-side-unterscheiden-v115"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik"]
 draft: false
 ---
-
 <img src="/schlaufuchs-platform/illustrations/elektrotechnik-high-side-und-low-side-unterscheiden-v115.svg" alt="Lernillustration zu High-Side und Low-Side unterscheiden" loading="lazy" />
 
 ## Grundidee

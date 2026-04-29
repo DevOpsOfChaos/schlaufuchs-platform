@@ -1,36 +1,19 @@
 ---
 title: "Hostname und hosts-Datei"
 description: "Hostname und hosts-Datei beeinflussen, wie ein System sich selbst benennt und bestimmte Namen lokal auf IP-Adressen abbildet."
-subject: linux
+subject: "linux"
 section: "Netzwerk"
-topicPath:
-  - "hostname-und-hosts-datei"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Hostname und hosts-Datei als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["hostname-und-hosts-datei", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird ein hosts-Eintrag geändert, aber Caches oder andere Namensquellen werden nicht berücksichtigt."
-keyTakeaways:
-  - "Hostname und hosts-Datei beeinflussen, wie ein System sich selbst benennt und bestimmte Namen lokal auf IP-Adressen abbildet."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Hostname und hosts-Datei, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Hostname und hosts-Datei in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "hostname"
-  - "dns"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Netzwerk"]
 draft: false
 ---
-
 # Hostname und hosts-Datei
 
 Hostname und hosts-Datei beeinflussen, wie ein System sich selbst benennt und bestimmte Namen

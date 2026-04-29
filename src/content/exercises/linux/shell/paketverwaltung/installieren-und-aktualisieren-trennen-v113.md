@@ -3,32 +3,15 @@ title: "Aufgabe – Installieren und Aktualisieren trennen"
 description: "Übe Installieren und Aktualisieren trennen mit Szenario, Trennkante und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "paketverwaltung"
-  - "installieren-und-aktualisieren-trennen-v113"
+topicPath: ["shell", "paketverwaltung", "installieren-und-aktualisieren-trennen-v113"]
 taskId: "v113-linux-installieren-und-aktualisieren-trennen-v113"
-tags:
-  - "linux"
-  - "strukturcheck"
-  - "unterthema"
-  - "installieren-und-aktualisieren-trennen-v113"
-hintPoints:
-  - "Benenne zuerst das genaue Unterthema."
-  - "Notiere die typische Verwechslung ausdrücklich."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Antwort enger als ein breites Kapitel?"
-  - "Wird ein Nachbarthema sauber ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere eine zweite Aufgabe im gleichen Unterthema mit anderer Oberfläche."
-reflectionPrompt: "Welche kleine Trennkante macht Installieren und Aktualisieren trennen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["linux", "Feinstruktur Linux", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Installieren und Aktualisieren trennen**.

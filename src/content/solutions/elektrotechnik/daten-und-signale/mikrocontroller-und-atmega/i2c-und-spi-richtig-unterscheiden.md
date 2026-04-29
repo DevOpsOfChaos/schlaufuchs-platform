@@ -1,24 +1,14 @@
 ---
 title: "Lösung – I²C und SPI nach Leitungen und Auswahlprinzip vergleichen"
 description: "Musterlösung zum Vergleich von I²C, SPI, Adressierung und Chip Select."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - i2c-und-spi-richtig-unterscheiden
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "i2c-und-spi-richtig-unterscheiden"]
 taskId: "et-mc-i2c-spi-vergleich"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/i2c-und-spi-richtig-unterscheiden"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - i2c
-  - spi
-  - schnittstellen
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
-
 ## Lösung zu Aufgabe 1
 
 I²C nutzt SDA als Datenleitung, SCL als Taktleitung und Adressen zur Auswahl der Geräte. SPI nutzt MOSI für Daten vom Master, MISO für Daten zum Master, SCK als Takt und CS zur Auswahl eines Bausteins.

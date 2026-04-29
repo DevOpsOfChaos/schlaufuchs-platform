@@ -3,23 +3,12 @@ title: "Lösung: Minimalbeispiel bauen: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-013a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "debugging-und-diagnose"
-  - "minimalbeispiel-bauen"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "minimalbeispiel-bauen-loesung-a"]
 taskId: "informatik-v193-013a"
 relatedExercise: "informatik/sanierung-v193/minimalbeispiel-bauen-aufgabe-a"
-tags:
-  - "minimalbeispiel"
-  - "bauen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-013a`
 
 Ausgangsauftrag: Reduziere eine fehlerhafte Verarbeitung auf ein Minimalbeispiel.

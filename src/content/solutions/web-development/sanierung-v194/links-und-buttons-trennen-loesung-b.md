@@ -3,25 +3,12 @@ title: "Lösung: Links und Buttons trennen: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-development-v194-007b im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "interaktion-und-fokus"
-  - "links-und-buttons-trennen"
-  - "loesung-b"
-
+topicPath: ["sanierung-v194", "links-und-buttons-trennen-loesung-b"]
 taskId: "web-development-v194-007b"
 relatedExercise: "web-development/sanierung-v194/links-und-buttons-trennen-aufgabe-b"
-tags:
-  - "links"
-  - "buttons"
-  - "trennen"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-007b`
 
 Ausgangsauftrag: Übertrage das Thema Links und Buttons trennen auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

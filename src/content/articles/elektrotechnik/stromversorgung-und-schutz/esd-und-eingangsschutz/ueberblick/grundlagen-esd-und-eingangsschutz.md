@@ -1,42 +1,19 @@
 ---
 title: "Grundlagen: ESD und Eingangsschutz"
 description: "Allgemeiner Überblick über elektrostatische Entladung, Schutzpfade und robuste Eingänge."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Stromversorgung und Schutz"
-topicPath:
-  - stromversorgung-und-schutz
-  - esd-und-eingangsschutz
-  - ueberblick
-learningGoals:
-  - "Du erklärst die Grundidee des Themas in eigenen Worten."
-  - "Du ordnest typische Begriffe, Grenzen und Fehlerquellen ruhig ein."
-  - "Du erkennst, welche Detailfragen zu diesem Themenbereich gehören."
-practiceIdeas:
-  - "Skizziere den Zusammenhang als Prüf-, Signal- oder Strompfad."
-  - "Notiere eine typische Fehlannahme und formuliere eine Gegenprobe."
-commonMistakes:
-  - "ESD als seltenes Laborproblem abzutun."
-  - "Schutzbauteile ohne Strompfad zu platzieren."
-  - "Eingangsschutz mit normaler Signalverarbeitung zu verwechseln."
-keyTakeaways:
-  - "ESD braucht einen definierten Ableitpfad."
-  - "Eingangsschutz begrenzt Spannung und Strom im Fehlerfall."
-  - "Robuste Eingänge werden nicht nur funktional, sondern auch schutztechnisch betrachtet."
-recognizeSignals:
-  - "Du brauchst zuerst Orientierung, bevor du eine konkrete Schaltung oder Aufgabe bewertest."
-  - "Ein Einzelfall wirkt plausibel, aber der allgemeine fachliche Rahmen fehlt."
-selfCheckPoints:
-  - "Kann ich das Thema ohne reines Auswendiglernen erklären?"
-  - "Kann ich typische Fehlerquellen in einer sinnvollen Prüfreihenfolge nennen?"
-level: einfach
-tags:
-  - elektrotechnik
-  - esd
-  - eingangsschutz
-  - schutz
+topicPath: ["stromversorgung-und-schutz", "esd-und-eingangsschutz", "ueberblick", "grundlagen-esd-und-eingangsschutz"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Stromversorgung und Schutz"]
 draft: false
 ---
-
 ![ESD und Eingangsschutz](/schlaufuchs-platform/images/overviews/v182/esd-und-eingangsschutz.svg)
 
 ## Überblick

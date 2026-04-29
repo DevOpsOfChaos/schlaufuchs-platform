@@ -3,24 +3,12 @@ title: "Lösung: Thermische Grenzen von Bauteilen: Aufgabe B"
 description: "Musterlösung zur Aufgabe etech-v191-028b im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "fehlersuche"
-  - "thermische-grenzen-von-bauteilen"
-  - "loesung-b"
+topicPath: ["sanierung-v191", "thermische-grenzen-von-bauteilen-aufgabe-b"]
 taskId: "etech-v191-028b"
 relatedExercise: "elektrotechnik/sanierung-v191/thermische-grenzen-von-bauteilen-aufgabe-b"
-tags:
-  - "fehlersuche"
-  - "thermische"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-028b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Thermische Grenzen von Bauteilen“ um einen Messfehler, einen Sicherheitscheck und eine kurze Plausibilitätsprüfung.

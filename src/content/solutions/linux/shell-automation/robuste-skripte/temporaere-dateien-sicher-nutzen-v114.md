@@ -1,23 +1,14 @@
 ---
-title: Lösung – Temporäre Dateien sicher nutzen
-description: Musterlösung zur Aufgabe über Temporäre Dateien sicher nutzen.
-subject: linux
-section: Feinstruktur Linux
-topicPath:
-- shell-automation
-- robuste-skripte
-- temporaere-dateien-sicher-nutzen-v114
-taskId: v114-linux-temporaere-dateien-sicher-nutzen-v114
-relatedExercise: linux/shell-automation/robuste-skripte/temporaere-dateien-sicher-nutzen-v114
-tags:
-- linux
-- v114
-- loesung
-- shell-automation
-- robuste-skripte
+title: "Lösung – Temporäre Dateien sicher nutzen"
+description: "Musterlösung zur Aufgabe über Temporäre Dateien sicher nutzen."
+subject: "linux"
+section: "Feinstruktur Linux"
+topicPath: ["shell-automation", "robuste-skripte", "temporaere-dateien-sicher-nutzen-v114"]
+taskId: "v114-linux-temporaere-dateien-sicher-nutzen-v114"
+relatedExercise: "linux/shell-automation/robuste-skripte/temporaere-dateien-sicher-nutzen-v114"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

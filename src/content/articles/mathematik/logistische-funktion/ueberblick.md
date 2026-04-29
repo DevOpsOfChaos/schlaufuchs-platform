@@ -1,33 +1,19 @@
 ---
 title: "Logistische Funktion"
 description: "Die logistische Funktion beschreibt begrenztes Wachstum mit Sättigung. Sie tritt bei Populationen, Diffusion, Klassifikation und Wahrscheinlichkeitsmodellen auf."
-subject: mathematik
+subject: "mathematik"
 section: "Mathematik"
-topicPath:
-  - "logistische-funktion"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Logistische Funktion."
-  - "Du kannst Logistische Funktion in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["logistische-funktion", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Frühe Wachstumsphasen linear oder exponentiell fortzuschreiben."
-keyTakeaways:
-  - "Die logistische Funktion beschreibt begrenztes Wachstum mit Sättigung."
-  - "Wichtig sind vor allem s-förmiger verlauf, sättigungsgrenze und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Logistische Funktion, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Logistische Funktion dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "grundlagen"
-  - "logistische funktion"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Mathematik"]
 draft: false
 ---
-
 # Logistische Funktion
 
 Die logistische Funktion beschreibt begrenztes Wachstum mit Sättigung. Sie tritt bei Populationen, Diffusion, Klassifikation und Wahrscheinlichkeitsmodellen auf. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

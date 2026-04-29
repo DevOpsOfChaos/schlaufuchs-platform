@@ -1,49 +1,19 @@
 ---
 title: "ATmega – UART-Baudrate und Zeichenrahmen verstehen"
 description: "Verstehe, warum UART nicht nur aus Datenbits besteht und warum Sender und Empfänger dieselbe Baudrate brauchen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - uart-baudrate-und-zeichenrahmen
-learningGoals:
-  - "Du erklärst die Baudrate als zeitliche Vereinbarung zwischen Sender und Empfänger."
-  - "Du beschreibst Startbit, Datenbits und Stoppbit als einfachen Zeichenrahmen."
-  - "Du erkennst typische UART-Fehlerbilder wie falsche Zeichen."
-practiceIdeas:
-  - "Lies zuerst den praktischen Fehlerfall und danach die technische Regel."
-  - "Skizziere den Ablauf als kleines Zeit-, Signal- oder Entscheidungsbild."
-  - "Erkläre den Unterschied einmal ohne Code und danach mit den passenden Fachbegriffen."
-commonMistakes:
-  - "Baudrate mit Dateninhalt zu verwechseln."
-  - "TX und RX zu betrachten, aber GND als Bezugsebene zu vergessen."
-  - "Falsche Zeichen sofort als Programmfehler zu deuten, ohne die Übertragungseinstellungen zu prüfen."
-keyTakeaways:
-  - "UART braucht gemeinsame Zeit, aber keinen gemeinsamen Taktpin."
-  - "Ein Zeichen wird durch Startbit und Stoppbit eingerahmt."
-  - "Bei Baudratenfehlern liest der Empfänger an den falschen Zeitpunkten."
-recognizeSignals:
-  - "Die Aufgabe enthält Mikrocontroller-Code, Register, Sensorwerte, Zeitverhalten oder Schnittstellen."
-  - "Es wird nach Ursache, Wirkung, Diagnose oder einer besseren Struktur gefragt."
-  - "Eine reine Codeantwort reicht nicht; die elektrische oder zeitliche Bedeutung muss mitgelesen werden."
-selfCheckPoints:
-  - "Kann ich den Hauptbegriff in einem Satz fachlich sauber erklären?"
-  - "Kann ich ein typisches Fehlerbild zuordnen?"
-  - "Kann ich begründen, warum die vorgeschlagene Lösung zur Anwendung passt?"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - uart
-  - serielle-schnittstelle
-  - baudrate
-  - debugging
-level: einfach
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "uart-baudrate-und-zeichenrahmen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-
-
 ## Grundidee
 
 UART ist eine serielle Verbindung: Bits werden nacheinander übertragen. Damit der Empfänger weiß, wann er welches Bit lesen soll, müssen Sender und Empfänger dieselbe zeitliche Vereinbarung verwenden. Diese Vereinbarung steckt vor allem in der Baudrate.

@@ -1,34 +1,19 @@
 ---
 title: "Textwerkzeuge"
 description: "Überblick über typische Linux-Textwerkzeuge zum Anzeigen, Filtern, Zählen und Umformen von Textströmen."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - "textwerkzeuge"
-  - "ueberblick"
-learningGoals:
-  - "Du verstehst Text als zentrales Austauschformat in der Shell."
-  - "Du kennst typische Werkzeuggruppen wie Anzeigen, Filtern und Umformen."
-  - "Du kannst einfache Werkzeugketten grob einordnen."
+topicPath: ["textwerkzeuge", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Textwerkzeuge nur als einzelne Befehle zu lernen statt als kombinierbare Bausteine."
-  - "Binärdateien und strukturierte Daten unkritisch wie normalen Text zu behandeln."
-keyTakeaways:
-  - "Viele Linux-Werkzeuge lesen Text und schreiben Text."
-  - "Die Stärke entsteht durch Kombination über Pipes und Umleitungen."
-recognizeSignals:
-  - "Es geht um cat, less, head, tail, wc, sort, uniq, cut, sed, awk oder Logdateien."
-selfCheckPoints:
-  - "Kann ich erklären, warum ein Werkzeug, das Text ausgibt, gut mit Pipes zusammenarbeitet?"
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "textwerkzeuge"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
-
 # Textwerkzeuge
 
 ![Schaubild zu Textwerkzeugen unter Linux.](/schlaufuchs-platform/images/overviews/v148/textwerkzeuge.svg)

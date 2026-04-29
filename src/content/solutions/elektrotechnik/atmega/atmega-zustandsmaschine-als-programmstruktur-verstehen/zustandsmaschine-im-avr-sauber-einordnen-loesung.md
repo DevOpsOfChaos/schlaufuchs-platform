@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Zustandsmaschine im AVR sauber einordnen
-description: Musterlösung zur Aufgabe ET-ATMEGA-STRUKTUR-309.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - programmstruktur-und-reaktivitaet
-  - atmega-zustandsmaschine-als-programmstruktur-verstehen
-  - zustandsmaschine-im-avr-sauber-einordnen-loesung
-taskId: ET-ATMEGA-STRUKTUR-309
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-zustandsmaschine-als-programmstruktur-verstehen/zustandsmaschine-im-avr-sauber-einordnen.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - loesung
+title: "Musterlösung – Zustandsmaschine im AVR sauber einordnen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-STRUKTUR-309."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-zustandsmaschine-als-programmstruktur-verstehen", "zustandsmaschine-im-avr-sauber-einordnen"]
+taskId: "ET-ATMEGA-STRUKTUR-309"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-zustandsmaschine-als-programmstruktur-verstehen/zustandsmaschine-im-avr-sauber-einordnen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Die drei Zustände können ruhig so beschrieben werden:

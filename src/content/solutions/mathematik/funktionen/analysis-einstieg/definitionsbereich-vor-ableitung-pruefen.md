@@ -3,21 +3,12 @@ title: "Lösung – Definitionsbereich vor Ableitung prüfen"
 description: "Musterlösung zu definitionsbereich vor ableitung prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "funktionen"
-  - "analysis-einstieg"
-  - "definitionsbereich-vor-ableitung-pruefen"
+topicPath: ["funktionen", "analysis-einstieg", "definitionsbereich-vor-ableitung-pruefen"]
 taskId: "v112-mathematik-definitionsbereich-vor-ableitung-pruefen"
 relatedExercise: "mathematik/funktionen/analysis-einstieg/definitionsbereich-vor-ableitung-pruefen"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "funktionen"
-  - "definitionsbereich-vor-ableitung-pruefen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Analysis-Einstieg**.

@@ -1,32 +1,17 @@
 ---
 title: "Lastregelung und Line Regulation"
 description: "Überblick über Stabilität von Ausgangsspannungen bei Last- und Eingangsschwankungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Stromversorgung"
-topicPath:
-  - "lastregelung-und-line-regulation"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Lastregelung und Line Regulation als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Laständerung, Eingangsspannung, Regelreserve."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["lastregelung-und-line-regulation", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Eine nominelle Ausgangsspannung als immer exakt und unabhängig von Last und Eingang zu verstehen."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Lastregelung und Line Regulation beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Regelverhalten von Stromversorgungen."
-  - "Wichtige Hinweise liefern vor allem Laständerung, Eingangsspannung, Regelreserve."
-recognizeSignals:
-  - "Es geht um regelverhalten von stromversorgungen, laständerung oder eingangsspannung."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Lastregelung und Line Regulation erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "netzteil"
-  - "regelung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Stromversorgung"]
 draft: false
 ---
 # Lastregelung und Line Regulation

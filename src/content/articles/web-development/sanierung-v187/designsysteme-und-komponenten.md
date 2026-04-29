@@ -3,39 +3,17 @@ title: "Designsysteme und Komponenten"
 description: "Erkenne wiederverwendbare Bausteine, ohne jede kleine Variation als neue Komponente zu bauen."
 subject: "web-development"
 section: "architektur"
-topicPath: 
-  - "werkzeuge-und-projektarbeit"
-  - "komponenten"
-learningGoals: 
-  - "Wiederholbare UI-Bausteine ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Identifiziere auf einer Lernplattform drei Bausteine, die als Komponenten geeignet sind."
-  - "Beschreibe für eine Kartenkomponente sinnvolle Varianten, Pflichtinhalte und Grenzen."
-commonMistakes: 
-  - "Jede Seite bekommt eigene Sonderstile."
-  - "Komponenten werden zu allgemein und schwer nutzbar."
-  - "Varianten entstehen ohne Namen oder Grenze."
-keyTakeaways: 
-  - "Eine Komponente ist sinnvoll, wenn sie Wiederholung reduziert und Entscheidungen klarer macht."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "Eine Komponente ist sinnvoll, wenn sie Wiederholung reduziert und Entscheidungen klarer macht."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "designsysteme-und-komponenten"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags: 
-  - "komponenten"
-  - "designsystem"
-  - "css"
-  - "frontend"
-  - "web-development"
+tags: ["web-development", "architektur"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Designsysteme und Komponenten](/schlaufuchs-platform/images/web-development/sanierung-v187/designsysteme-und-komponenten.svg)
 
     Designsysteme und Komponenten ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

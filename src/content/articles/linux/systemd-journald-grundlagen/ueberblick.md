@@ -1,37 +1,19 @@
 ---
 title: "systemd-journald"
 description: "Überblick über systemd-journald als zentrale Protokollierung vieler Linux-Systeme."
-subject: linux
+subject: "linux"
 section: "Systemdienste"
-topicPath:
-  - "systemd-journald-grundlagen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst systemd-journald als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["systemd-journald-grundlagen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur eine einzelne Fehlermeldung zu lesen und den zeitlichen Kontext davor und danach zu ignorieren."
-keyTakeaways:
-  - "journald sammelt strukturierte Systemlogs."
-  - "`journalctl` filtert nach Unit, Zeit und Priorität."
-  - "Persistenz und Aufbewahrung müssen konfiguriert sein."
-recognizeSignals:
-  - "Ein systemd-Dienst startet nicht oder stürzt ab."
-  - "Logs sollen nach Unit oder Bootvorgang gefiltert werden."
-selfCheckPoints:
-  - "Kann ich systemd-journald in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "systemd"
-  - "journald"
-  - "logs"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Systemdienste"]
 draft: false
 ---
-
 # systemd-journald
 
 systemd-journald sammelt Logmeldungen von Diensten, Kernel und Systemkomponenten in einem strukturierten Journal.

@@ -3,25 +3,12 @@ title: "Lösung: Repositorys und Quellen: Aufgabe A"
 description: "Musterlösung zur Aufgabe linux-v192-015a im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "pakete-und-updates"
-  - "repositorys-und-quellen"
-  - "loesung-a"
+topicPath: ["sanierung-v192", "repositorys-und-quellen-loesung-a"]
 taskId: "linux-v192-015a"
 relatedExercise: "linux/sanierung-v192/repositorys-und-quellen-aufgabe-a"
-tags:
-  - "pakete-und-updates"
-  - "repositorys"
-  - "quellen"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-015a`
 
 Ausgangsauftrag: Bewerte, ob eine zusätzliche Paketquelle sinnvoll ist.

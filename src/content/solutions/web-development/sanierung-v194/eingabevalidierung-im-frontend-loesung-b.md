@@ -3,24 +3,12 @@ title: "Lösung: Eingabevalidierung im Frontend: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-development-v194-010b im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "formulare-und-feedback"
-  - "eingabevalidierung-im-frontend"
-  - "loesung-b"
-
+topicPath: ["sanierung-v194", "eingabevalidierung-im-frontend-loesung-b"]
 taskId: "web-development-v194-010b"
 relatedExercise: "web-development/sanierung-v194/eingabevalidierung-im-frontend-aufgabe-b"
-tags:
-  - "eingabevalidierung"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-010b`
 
 Ausgangsauftrag: Übertrage das Thema Eingabevalidierung im Frontend auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

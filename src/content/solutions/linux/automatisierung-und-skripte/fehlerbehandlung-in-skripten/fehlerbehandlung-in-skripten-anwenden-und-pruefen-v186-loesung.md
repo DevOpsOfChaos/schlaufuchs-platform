@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Fehlerbehandlung in Skripten – anwenden und prüfen"
 description: "Musterlösung zur Linux-Aufgabe Fehlerbehandlung in Skripten."
-subject: linux
+subject: "linux"
 section: "automatisierung-und-skripte"
-topicPath:
-  - "automatisierung-und-skripte"
-  - "fehlerbehandlung-in-skripten"
-taskId: LINUX-FEHLERBEHANDLUNG-IN-SKRIPTEN-V186-2
-relatedExercise: src/content/exercises/linux/automatisierung-und-skripte/fehlerbehandlung-in-skripten/fehlerbehandlung-in-skripten-anwenden-und-pruefen-v186.md
-tags:
-  - "linux"
-  - "skripte"
-  - "fehlerbehandlung"
-  - "loesung"
+topicPath: ["automatisierung-und-skripte", "fehlerbehandlung-in-skripten", "fehlerbehandlung-in-skripten-anwenden-und-pruefen-v186"]
+taskId: "LINUX-FEHLERBEHANDLUNG-IN-SKRIPTEN-V186-2"
+relatedExercise: "src/content/exercises/linux/automatisierung-und-skripte/fehlerbehandlung-in-skripten/fehlerbehandlung-in-skripten-anwenden-und-pruefen-v186.md"
+tags: ["linux", "automatisierung-und-skripte", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

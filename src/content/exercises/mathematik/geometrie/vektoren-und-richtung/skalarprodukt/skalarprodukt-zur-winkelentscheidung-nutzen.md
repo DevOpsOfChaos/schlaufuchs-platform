@@ -3,35 +3,15 @@ title: "Aufgabe – Skalarprodukt zur Winkelentscheidung nutzen"
 description: "Übe Skalarprodukt und Winkel mit einem kleinen Szenario, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - "geometrie"
-  - "vektoren-und-richtung"
-  - "skalarprodukt"
-  - "skalarprodukt-zur-winkelentscheidung-nutzen"
+topicPath: ["geometrie", "vektoren-und-richtung", "skalarprodukt", "skalarprodukt-zur-winkelentscheidung-nutzen"]
 taskId: "v109-mathematik-skalarprodukt-zur-winkelentscheidung-nutzen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfen"
-  - "geometrie"
-  - "vektoren-und-richtung"
-  - "skalarprodukt und winkel"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Übertrage den Prüfschritt auf ein Nachbarthema und nenne den Unterschied."
-reflectionPrompt: "Welche kleine Trennkante macht Skalarprodukt und Winkel übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["mathematik", "Geometrie", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Skalarprodukt und Winkel**.

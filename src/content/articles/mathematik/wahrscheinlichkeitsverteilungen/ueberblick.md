@@ -1,37 +1,19 @@
 ---
 title: "Wahrscheinlichkeitsverteilungen"
 description: "Überblick über Verteilungen als Beschreibung möglicher Werte und ihrer Wahrscheinlichkeiten."
-subject: mathematik
+subject: "mathematik"
 section: "Wahrscheinlichkeit"
-topicPath:
-  - "wahrscheinlichkeitsverteilungen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Wahrscheinlichkeitsverteilungen als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["wahrscheinlichkeitsverteilungen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Eine Normalverteilung anzunehmen, nur weil sie rechnerisch bequem ist."
-keyTakeaways:
-  - "Verteilungen beschreiben mögliche Werte und Wahrscheinlichkeiten."
-  - "Diskrete und kontinuierliche Fälle werden unterschiedlich gelesen."
-  - "Die Wahl der Verteilung ist eine Modellannahme."
-recognizeSignals:
-  - "Zufallsgrößen, Erwartungswerte oder Streuungen werden betrachtet."
-  - "Daten sollen mit einem Wahrscheinlichkeitsmodell beschrieben werden."
-selfCheckPoints:
-  - "Kann ich Wahrscheinlichkeitsverteilungen in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "wahrscheinlichkeit"
-  - "verteilung"
-  - "statistik"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Wahrscheinlichkeit"]
 draft: false
 ---
-
 # Wahrscheinlichkeitsverteilungen
 
 Eine Wahrscheinlichkeitsverteilung beschreibt, welche Werte eine Zufallsgröße annehmen kann und wie wahrscheinlich diese Werte sind.

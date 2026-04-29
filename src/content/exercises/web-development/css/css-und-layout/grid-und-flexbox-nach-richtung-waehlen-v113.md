@@ -3,32 +3,15 @@ title: "Aufgabe – Grid und Flexbox nach Richtung wählen"
 description: "Übe Grid und Flexbox nach Richtung wählen mit Szenario, Trennkante und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "css"
-  - "css-und-layout"
-  - "grid-und-flexbox-nach-richtung-waehlen-v113"
+topicPath: ["css", "css-und-layout", "grid-und-flexbox-nach-richtung-waehlen-v113"]
 taskId: "v113-web-development-grid-und-flexbox-nach-richtung-waehlen-v113"
-tags:
-  - "web development"
-  - "strukturcheck"
-  - "unterthema"
-  - "grid-und-flexbox-nach-richtung-waehlen-v113"
-hintPoints:
-  - "Benenne zuerst das genaue Unterthema."
-  - "Notiere die typische Verwechslung ausdrücklich."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Antwort enger als ein breites Kapitel?"
-  - "Wird ein Nachbarthema sauber ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere eine zweite Aufgabe im gleichen Unterthema mit anderer Oberfläche."
-reflectionPrompt: "Welche kleine Trennkante macht Grid und Flexbox nach Richtung wählen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["web-development", "Feinstruktur Web Development", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Grid und Flexbox nach Richtung wählen**.

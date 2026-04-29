@@ -1,36 +1,17 @@
 ---
 title: "Aufgabe: Formularsubmit kontrolliert behandeln"
 description: "Trainiere Formularsubmit kontrolliert behandeln an einem kleinen, klar abgegrenzten Fall."
-subject: web-development
+subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "javascript-produkt-v115"
-  - "dom-und-events"
-  - "formularsubmit-kontrolliert-behandeln-v115"
+topicPath: ["javascript-produkt-v115", "dom-und-events", "formularsubmit-kontrolliert-behandeln-v115"]
 taskId: "web-development-formularsubmit-kontrolliert-behandeln-v115"
-tags:
-  - "web development"
-  - "feinstruktur"
-  - "unterthema"
-  - "javascript im produkt"
-  - "dom und events"
-  - "aufgabe"
-hintPoints:
-  - "Grenze zuerst den kleinen Fall vom breiten Themenfeld ab."
-  - "Nutze die Prüffrage: Ist das Submit-Ereignis der zentrale Einstieg?"
-  - "Begründe mit zwei konkreten Hinweisen aus dem Fall."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-transferIdeas:
-  - "Übertrage dieselbe Trennkante auf ein eigenes Mini-Beispiel."
-  - "Formuliere einen Gegenfall, der ähnlich aussieht, aber anders entschieden wird."
-reflectionPrompt: "Was war bei „Formularsubmit kontrolliert behandeln“ die wichtigste Trennkante?"
-level: mittel
+tags: ["web-development", "Feinstruktur Web Development", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den folgenden Fall zu **Formularsubmit kontrolliert behandeln**.

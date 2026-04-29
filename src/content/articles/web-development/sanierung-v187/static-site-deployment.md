@@ -3,39 +3,17 @@ title: "Static-Site-Deployment"
 description: "Ordne Build, Ausgabeordner, Hosting und Basis-Pfad bei statischen Webseiten ein."
 subject: "web-development"
 section: "deployment"
-topicPath: 
-  - "deployment-und-betrieb"
-  - "static-sites"
-learningGoals: 
-  - "Vom Projekt zur veröffentlichten Seite ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Zeichne den Weg einer statischen Seite vom Quellprojekt bis zur veröffentlichten URL."
-  - "Analysiere einen Deploymentfehler, bei dem CSS lokal lädt, online aber fehlt."
-commonMistakes: 
-  - "Quellpfade werden mit öffentlichen URLs verwechselt."
-  - "Lokale Pfade funktionieren, aber Deployment-Pfade nicht."
-  - "Build-Artefakte werden unkontrolliert geändert."
-keyTakeaways: 
-  - "Deployment ist nachvollziehbar, wenn du erklären kannst, welche Datei woher kommt und unter welcher URL landet."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "Deployment ist nachvollziehbar, wenn du erklären kannst, welche Datei woher kommt und unter welcher URL landet."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "static-site-deployment"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags: 
-  - "deployment"
-  - "static-site"
-  - "build"
-  - "hosting"
-  - "web-development"
+tags: ["web-development", "deployment"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Static-Site-Deployment](/schlaufuchs-platform/images/web-development/sanierung-v187/static-site-deployment.svg)
 
     Static-Site-Deployment ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

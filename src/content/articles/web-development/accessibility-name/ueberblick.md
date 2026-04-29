@@ -1,34 +1,19 @@
 ---
 title: "Accessible Name"
 description: "Überblick über den zugänglichen Namen eines Bedienelements und seine Bedeutung für Screenreader und automatisierte Zugänglichkeit."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "accessibility-name"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["accessibility-name", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein Symbol oder Platzhaltertext als ausreichende Beschriftung zu betrachten."
-keyTakeaways:
-  - "Der zugängliche Name macht Bedienelemente für assistive Technologien eindeutig bedienbar."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Buttons nur Icons zeigen, Formularfelder unbeschriftet sind oder Screenreader unklare Elemente melden."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "web development"
-  - "barrierefreiheit"
-  - "accessible name"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # Accessible Name
 
 Der Accessible Name ist der Name, unter dem ein Element in assistiven Technologien erscheint. Er kann aus sichtbarem Text, einem Label, einem Alternativtext oder bestimmten ARIA-Attributen entstehen.

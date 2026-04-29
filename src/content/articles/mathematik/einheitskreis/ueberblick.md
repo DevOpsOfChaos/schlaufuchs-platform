@@ -1,33 +1,19 @@
 ---
 title: "Einheitskreis"
 description: "Der Einheitskreis ist ein Kreis mit Radius 1 um den Ursprung. Er macht Sinus und Kosinus als Koordinaten eines Punktes verständlich."
-subject: mathematik
+subject: "mathematik"
 section: "Mathematik"
-topicPath:
-  - "einheitskreis"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Einheitskreis."
-  - "Du kannst Einheitskreis in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["einheitskreis", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Sinus und Kosinus nur als Tasten auf dem Taschenrechner zu betrachten."
-keyTakeaways:
-  - "Der Einheitskreis ist ein Kreis mit Radius 1 um den Ursprung."
-  - "Wichtig sind vor allem winkel und punkt auf dem kreis, sinus als y-koordinate und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Einheitskreis, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Einheitskreis dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "grundlagen"
-  - "einheitskreis"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Mathematik"]
 draft: false
 ---
-
 # Einheitskreis
 
 ![Schaubild zum Einheitskreis.](/schlaufuchs-platform/images/overviews/v149/einheitskreis.svg)

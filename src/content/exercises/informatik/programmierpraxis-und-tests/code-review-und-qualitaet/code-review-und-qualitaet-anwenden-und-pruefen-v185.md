@@ -1,29 +1,17 @@
 ---
 title: "Code-Review und Qualität – anwenden und prüfen"
 description: "Übe, code-review und qualität fachlich auf Beispiele anzuwenden und zu überprüfen."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "code-review-und-qualitaet"
-  - "uebung"
-taskId: INF-V185-019-2
-tags:
-  - "informatik"
-  - "programmierpraxis-und-tests"
-  - "code-review-und-qualitaet"
-hintPoints:
-  - "Beginne mit der Grundidee, nicht mit einem Spezialfall."
-  - "Trenne Begriff, Beispiel und Prüfung."
-selfCheckPoints:
-  - "Ich kann das Thema in eigenen Worten erklären."
-  - "Ich kann ein passendes Beispiel begründen."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel in einem anderen Fachbereich."
-level: einfach
+topicPath: ["programmierpraxis-und-tests", "code-review-und-qualitaet", "code-review-und-qualitaet-anwenden-und-pruefen-v185"]
+taskId: "INF-V185-019-2"
+tags: ["informatik", "Programmierpraxis und Tests", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe nutzt **Code-Review und Qualität**, um Beispiele, Grenzen und Prüfwege bewusster zu unterscheiden.
 
 ## Lernziel

@@ -3,22 +3,12 @@ title: "Lösung – systemctl status und journalctl zusammen lesen"
 description: "Musterlösung zu Dienstdiagnose mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "System"
-topicPath:
-  - "system"
-  - "dienste-und-systemd"
-  - "fehlersuche"
-  - "systemctl-status-und-journalctl-zusammen-lesen"
+topicPath: ["system", "dienste-und-systemd", "fehlersuche", "systemctl-status-und-journalctl-zusammen-lesen"]
 taskId: "v107-linux-systemctl-status-und-journalctl-zusammen-lesen"
 relatedExercise: "linux/system/dienste-und-systemd/fehlersuche/systemctl-status-und-journalctl-zusammen-lesen"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "dienstdiagnose"
-  - "dienste-und-systemd"
+tags: ["linux", "System", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Dienstdiagnose**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

@@ -1,37 +1,19 @@
 ---
 title: "Resiliente Architektur"
 description: "Überblick über Architekturprinzipien, die Systeme trotz Fehlern nutzbar halten."
-subject: informatik
+subject: "informatik"
 section: "Architektur"
-topicPath:
-  - "resiliente-architektur"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Resiliente Architektur als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["resiliente-architektur", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Bei jedem Fehler sofort aggressiv zu wiederholen und dadurch ein überlastetes System weiter zu belasten."
-keyTakeaways:
-  - "Resilienz begrenzt Fehlerauswirkungen."
-  - "Timeouts, Fallbacks und Isolation gehören zusammen."
-  - "Beobachtbarkeit zeigt, ob Schutzmechanismen wirken."
-recognizeSignals:
-  - "Ein System hängt von mehreren externen Diensten ab."
-  - "Teilfunktionen sollen auch bei Störungen weiterlaufen."
-selfCheckPoints:
-  - "Kann ich Resiliente Architektur in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "architektur"
-  - "resilienz"
-  - "betrieb"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Architektur"]
 draft: false
 ---
-
 # Resiliente Architektur
 
 Resiliente Architektur sorgt dafür, dass ein System bei Störungen begrenzt ausfällt, sich erholt oder kontrolliert degradiert.

@@ -3,22 +3,12 @@ title: "Lösung: Tabellen, Formeln und Graphen: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-014b."
 subject: "mathematik"
 section: "modellieren-und-validieren"
-topicPath:
-  - "modellieren-und-validieren"
-  - "tabellen-formeln-und-graphen"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "tabellen-formeln-und-graphen-aufgabe-b"]
 taskId: "mat-v188-014b"
 relatedExercise: "mathematik/sanierung-v188/tabellen-formeln-und-graphen-aufgabe-b"
-tags:
-  - "tabellen"
-  - "formeln"
-  - "graphen"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "modellieren-und-validieren", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-014b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

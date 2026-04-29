@@ -3,23 +3,12 @@ title: "Lösung – Error Summary vor Formularfeldern platzieren"
 description: "Musterlösung zu Error Summary vor Formularfeldern platzieren mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "HTML und Barrierefreiheit"
-topicPath:
-  - "html-a11y"
-  - "semantik-status-fokus"
-  - "v110-teil-4"
-  - "error-summary-vor-formularfeldern-platzieren"
+topicPath: ["html-a11y", "semantik-status-fokus", "v110-teil-4", "error-summary-vor-formularfeldern-platzieren"]
 taskId: "v110-web-development-error-summary-vor-formularfeldern-platzieren"
 relatedExercise: "web-development/html-a11y/semantik-status-fokus/v110-teil-4/error-summary-vor-formularfeldern-platzieren"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "html-a11y"
-  - "semantik-status-fokus"
-  - "error-summary-vor-formularfeldern-platzieren"
+tags: ["web-development", "HTML und Barrierefreiheit", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Error Summary vor Formularfeldern platzieren**.

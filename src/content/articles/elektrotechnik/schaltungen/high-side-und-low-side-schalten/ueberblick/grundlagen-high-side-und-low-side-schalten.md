@@ -1,42 +1,19 @@
 ---
 title: "Grundlagen: High-Side und Low-Side schalten"
 description: "Allgemeiner Überblick über Lastschalten auf Plus- oder Masseseite, Bezugspunkte und Treiberfragen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schaltungen"
-topicPath:
-  - schaltungen
-  - high-side-und-low-side-schalten
-  - ueberblick
-learningGoals:
-  - "Du erklärst die Grundidee des Themas in eigenen Worten."
-  - "Du ordnest typische Begriffe, Grenzen und Fehlerquellen ruhig ein."
-  - "Du erkennst, welche Detailfragen zu diesem Themenbereich gehören."
-practiceIdeas:
-  - "Skizziere den Zusammenhang als Prüf-, Signal- oder Strompfad."
-  - "Notiere eine typische Fehlannahme und formuliere eine Gegenprobe."
-commonMistakes:
-  - "Nur das Schaltsymbol zu betrachten und den Bezugspunkt zu ignorieren."
-  - "High-Side und Low-Side nach Lage im Bild statt nach Strompfad zu unterscheiden."
-  - "Gate- oder Basisansteuerung ohne Bezug zur Lastspannung zu bewerten."
-keyTakeaways:
-  - "Low-Side schaltet häufig den Rückweg nach Masse."
-  - "High-Side schaltet die Versorgung zur Last."
-  - "Die Ansteuerung hängt vom Bezugspunkt und vom Bauteiltyp ab."
-recognizeSignals:
-  - "Du brauchst zuerst Orientierung, bevor du eine konkrete Schaltung oder Aufgabe bewertest."
-  - "Ein Einzelfall wirkt plausibel, aber der allgemeine fachliche Rahmen fehlt."
-selfCheckPoints:
-  - "Kann ich das Thema ohne reines Auswendiglernen erklären?"
-  - "Kann ich typische Fehlerquellen in einer sinnvollen Prüfreihenfolge nennen?"
-level: einfach
-tags:
-  - elektrotechnik
-  - transistor
-  - mosfet
-  - lastschalter
+topicPath: ["schaltungen", "high-side-und-low-side-schalten", "ueberblick", "grundlagen-high-side-und-low-side-schalten"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Schaltungen"]
 draft: false
 ---
-
 ![High-Side und Low-Side schalten](/schlaufuchs-platform/images/overviews/v182/high-side-und-low-side-schalten.svg)
 
 ## Überblick

@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Zustand nicht im DOM verstecken"
 description: "Musterlösung zu Zustand nicht im DOM verstecken mit Trennkante und Gegenprobe."
-subject: web-development
+subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "javascript-produkt-v115"
-  - "dom-und-events"
-  - "zustand-nicht-im-dom-verstecken-v115"
+topicPath: ["javascript-produkt-v115", "dom-und-events", "zustand-nicht-im-dom-verstecken-v115"]
 taskId: "web-development-zustand-nicht-im-dom-verstecken-v115"
 relatedExercise: "web-development/javascript-produkt-v115/dom-und-events/zustand-nicht-im-dom-verstecken-v115"
-tags:
-  - "web development"
-  - "feinstruktur"
-  - "unterthema"
-  - "javascript im produkt"
-  - "dom und events"
-  - "lösung"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Zustand nicht im DOM verstecken**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

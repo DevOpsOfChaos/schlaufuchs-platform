@@ -1,46 +1,19 @@
 ---
-title: Dateiupload in PHP – Grundidee verstehen
-description: Verstehe, wie ein HTML-Formular eine Datei an den Server überträgt und welche Rolle $_FILES dabei spielt.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - dateiupload-in-php-grundidee-verstehen
-learningGoals:
-  - Du erklärst die Grundidee eines Dateiuploads vom Browser zum Server.
-  - Du ordnest dem Dateiupload die Rolle von <code>multipart/form-data</code> und <code>$_FILES</code> zu.
-  - Du liest einen einfachen Upload-Ablauf ruhiger als Formular + Serverprüfung + Ablage.
-practiceIdeas:
-  - Markiere in einem Upload-Formular die wichtigen Stellen für Dateiübertragung.
-  - Lies in <code>$_FILES</code> nach, welche Informationen über die hochgeladene Datei vorliegen.
-  - Begründe, warum Dateiupload immer geprüft werden sollte, bevor etwas gespeichert wird.
-commonMistakes:
-  - Zu glauben, ein normales Formular reiche ohne weitere Einstellungen für Uploads aus.
-  - Dateiname und temporären Serverpfad zu verwechseln.
-  - Eine hochgeladene Datei ohne Prüfung sofort dauerhaft abzulegen.
-keyTakeaways:
-  - Für Dateiupload braucht das Formular eine passende Kodierung.
-  - PHP stellt Uploaddaten in <code>$_FILES</code> bereit.
-  - Vor dem endgültigen Speichern sind Prüfung und bewusste Ablage wichtig.
-recognizeSignals:
-  - Im Formular tauchen <code>type="file"</code> und <code>enctype="multipart/form-data"</code> auf.
-  - Es geht um <code>$_FILES</code>, temporäre Dateien oder das serverseitige Speichern.
-  - Du sollst erklären, wie die Datei vom Browser zum Server gelangt.
-selfCheckPoints:
-  - Kann ich erklären, warum ein Upload-Formular anders aussieht als ein normales Formular?
-  - Kann ich sagen, welche Infos in <code>$_FILES</code> stehen?
-  - Kann ich begründen, warum die Datei vor dem Speichern geprüft werden sollte?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - upload
-  - files
+title: "Dateiupload in PHP – Grundidee verstehen"
+description: "Verstehe, wie ein HTML-Formular eine Datei an den Server überträgt und welche Rolle $_FILES dabei spielt."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "dateiupload-in-php-grundidee-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Beim Dateiupload schickt der Browser nicht nur normale Textwerte, sondern eine ausgewählte Datei an den Server. Damit das klappt, braucht das Formular eine passende Übertragungsart und PHP braucht eine Struktur, in der die Dateiinfos zugänglich werden.

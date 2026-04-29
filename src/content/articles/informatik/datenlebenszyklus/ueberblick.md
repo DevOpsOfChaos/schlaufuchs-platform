@@ -1,34 +1,19 @@
 ---
 title: "Datenlebenszyklus"
 description: "Überblick über Entstehung, Nutzung, Veränderung, Archivierung und Löschung von Daten."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "datenlebenszyklus"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["datenlebenszyklus", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Daten nur beim Speichern zu betrachten und Löschung, Herkunft oder Qualität zu ignorieren."
-keyTakeaways:
-  - "Daten haben einen Lebensweg, der geplant und überprüfbar sein sollte."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Daten aus mehreren Quellen kommen, lange gespeichert werden oder rechtliche Anforderungen gelten."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "daten"
-  - "lebenszyklus"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Datenlebenszyklus
 
 Der Datenlebenszyklus beschreibt, welche Stationen Daten in einem System durchlaufen. Daten werden erzeugt, validiert, gespeichert, verarbeitet, weitergegeben, archiviert und irgendwann gelöscht.

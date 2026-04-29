@@ -1,46 +1,19 @@
 ---
-title: ATmega – Initialisierung und Endlosschleife verstehen
-description: Verstehe, warum AVR-Programme meist aus einem einmaligen Startteil und einer dauerhaften Hauptschleife bestehen.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - programmstruktur-und-programmfluss
-  - atmega-initialisierung-und-endlosschleife-verstehen
-learningGoals:
-  - Du erklärst die Rollen von Initialisierung und Endlosschleife sauber.
-  - Du unterscheidest einmaliges Einrichten und dauerhaftes Reagieren fachlich korrekt.
-  - Du liest kleine AVR-Programme ruhiger als Ablauf aus Startphase und Hauptphase.
-practiceIdeas:
-  - Zerlege ein kleines AVR-Programm in Startteil und Hauptschleife.
-  - Prüfe bei Registerzugriffen, was nur einmal gesetzt werden muss und was ständig wiederholt wird.
-  - Vergleiche einen Pin-Setup-Schritt mit einer wiederkehrenden LED- oder Tasterabfrage.
-commonMistakes:
-  - Initialisierung ständig in der Hauptschleife zu wiederholen.
-  - Die Endlosschleife als „läuft halt irgendwie dauernd“ zu sehen statt als eigentliche Reaktionsphase.
-  - Zu denken, nach dem ersten Codeblock wäre das Programm schon fertig.
-keyTakeaways:
-  - Initialisierung richtet das System einmalig ein.
-  - Die Endlosschleife beschreibt das dauerhafte Verhalten des Controllers.
-  - Wer Setup und Laufbetrieb trennt, liest AVR-Code deutlich ruhiger.
-recognizeSignals:
-  - Es geht um main, while(1), Register-Setup oder wiederkehrende Reaktionen.
-  - Du sollst erklären, warum bestimmte Zeilen vor der Schleife stehen.
-  - In kleinen Programmen taucht erst Konfiguration und danach dauerhaftes Verhalten auf.
-selfCheckPoints:
-  - Kann ich einmalige Einrichtung und laufendes Verhalten trennen?
-  - Kann ich erklären, warum DDR- oder Timer-Setup meist nicht in jede Runde gehört?
-  - Kann ich eine while(1)-Schleife fachlich als Hauptphase lesen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - avr
-  - programmstruktur
-level: einfach
+title: "ATmega – Initialisierung und Endlosschleife verstehen"
+description: "Verstehe, warum AVR-Programme meist aus einem einmaligen Startteil und einer dauerhaften Hauptschleife bestehen."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-initialisierung-und-endlosschleife-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 AVR-Programme bestehen oft aus zwei gut unterscheidbaren Phasen: **einmalig einrichten** und **dauerhaft reagieren**. Die Initialisierung bereitet Ports, Timer oder Schnittstellen vor. Die Endlosschleife beschreibt danach, was der Controller ständig tun oder prüfen soll.
 
 <div class="example-card">

@@ -3,32 +3,17 @@ title: "Masseschleifen"
 description: "Allgemeiner Überblick über Masseschleifen, Brummstörungen und unerwünschte Ausgleichsströme."
 subject: "elektrotechnik"
 section: "EMV"
-topicPath:
-  - "masseschleifen"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["masseschleifen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird Masse gedanklich mit einem perfekten Nullvolt-Punkt gleichgesetzt. In Wirklichkeit ist Masse ein Netz mit messbaren Spannungsabfällen."
-keyTakeaways:
-  - "Masseschleifen machen sichtbar, dass Rückwege genauso wichtig sind wie Hinleitungen. Gute Masseführung vermeidet unerwünschte Vermischung von Leistungs- und Signalströmen."
-  - "Nicht jede mehrfache Masseverbindung ist automatisch falsch. Entscheidend sind Strompfade, Frequenzen, Signalpegel und Sicherheitsanforderungen."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "elektrotechnik"
-  - "masse"
-  - "masseschleife"
-  - "störungen"
+tags: ["elektrotechnik", "EMV"]
 draft: false
 ---
-
 # Masseschleifen
 
 Eine Masseschleife entsteht, wenn zwischen zwei Punkten mehrere leitende Rückwege bestehen und dadurch unerwünschte Ausgleichs- oder Störströme fließen können.

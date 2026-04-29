@@ -3,23 +3,12 @@ title: "Lösung – Fehlerfall und Sonderfall unterscheiden"
 description: "Musterlösung zu Fehlerfall vs Sonderfall mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "programmierpraxis"
-  - "funktionen-tests-und-fehler"
-  - "exceptions"
-  - "fehlerfall-und-sonderfall-unterscheiden"
+topicPath: ["programmierpraxis", "funktionen-tests-und-fehler", "exceptions", "fehlerfall-und-sonderfall-unterscheiden"]
 taskId: "v111-informatik-fehlerfall-und-sonderfall-unterscheiden"
 relatedExercise: "informatik/programmierpraxis/funktionen-tests-und-fehler/exceptions/fehlerfall-und-sonderfall-unterscheiden"
-tags:
-  - "informatik"
-  - "struktur"
-  - "unterthema"
-  - "programmierpraxis"
-  - "funktionen-tests-und-fehler"
-  - "fehlerfall-und-sonderfall-unterscheiden"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Fehlerfall vs Sonderfall**.

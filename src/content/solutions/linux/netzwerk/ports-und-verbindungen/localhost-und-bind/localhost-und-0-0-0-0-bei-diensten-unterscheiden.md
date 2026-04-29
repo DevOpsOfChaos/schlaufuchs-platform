@@ -3,23 +3,12 @@ title: "Lösung – localhost und 0.0.0.0 bei Diensten unterscheiden"
 description: "Musterlösung zu Bind-Adresse mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "Netzwerk"
-topicPath:
-  - "netzwerk"
-  - "ports-und-verbindungen"
-  - "localhost-und-bind"
-  - "localhost-und-0-0-0-0-bei-diensten-unterscheiden"
+topicPath: ["netzwerk", "ports-und-verbindungen", "localhost-und-bind", "localhost-und-0-0-0-0-bei-diensten-unterscheiden"]
 taskId: "v107-linux-localhost-und-0-0-0-0-bei-diensten-unterscheiden"
 relatedExercise: "linux/netzwerk/ports-und-verbindungen/localhost-und-bind/localhost-und-0-0-0-0-bei-diensten-unterscheiden"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "bind-adresse"
-  - "netzwerk"
-  - "ports-und-verbindungen"
+tags: ["linux", "Netzwerk", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Bind-Adresse**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

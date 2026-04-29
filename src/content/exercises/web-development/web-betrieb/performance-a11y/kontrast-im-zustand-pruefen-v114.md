@@ -1,35 +1,17 @@
 ---
-title: Aufgabe – Kontrast im Zustand prüfen
-description: Übe Kontrast im Zustand prüfen mit einem kleinen, prüfbaren Szenario.
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- web-betrieb
-- performance-a11y
-- kontrast-im-zustand-pruefen-v114
-taskId: v114-web-development-kontrast-im-zustand-pruefen-v114
-tags:
-- web-development
-- v114
-- aufgabe
-- web-betrieb
-- performance-a11y
-hintPoints:
-- Beginne mit der konkreten Situation, nicht mit einer allgemeinen Definition.
-- 'Nutze die Prüffrage: Bleibt Text in jedem Zustand lesbar?'
-- Formuliere am Ende eine Gegenprobe.
-selfCheckPoints:
-- Habe ich die Trennkante klar benannt?
-- Habe ich das Nachbarthema bewusst ausgeschlossen?
-- Ist meine Begründung an das Beispiel gekoppelt?
-transferIdeas:
-- Ändere eine Bedingung im Szenario und prüfe, ob die Entscheidung gleich bleibt.
-- Erkläre die Lösung einmal ohne Fachsprache und danach fachlich sauber.
-reflectionPrompt: Welche kleine Prüffrage hat dir am meisten geholfen?
-level: fortgeschritten
+title: "Aufgabe – Kontrast im Zustand prüfen"
+description: "Übe Kontrast im Zustand prüfen mit einem kleinen, prüfbaren Szenario."
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["web-betrieb", "performance-a11y", "kontrast-im-zustand-pruefen-v114"]
+taskId: "v114-web-development-kontrast-im-zustand-pruefen-v114"
+tags: ["web-development", "Feinstruktur Web Development", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Kontrast im Zustand prüfen**.

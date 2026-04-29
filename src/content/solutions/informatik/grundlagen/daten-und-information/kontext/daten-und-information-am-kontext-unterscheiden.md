@@ -3,23 +3,12 @@ title: "Lösung – Daten und Information am Kontext unterscheiden"
 description: "Musterlösung zu Daten und Information mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Grundlagen"
-topicPath:
-  - "grundlagen"
-  - "daten-und-information"
-  - "kontext"
-  - "daten-und-information-am-kontext-unterscheiden"
+topicPath: ["grundlagen", "daten-und-information", "kontext", "daten-und-information-am-kontext-unterscheiden"]
 taskId: "v109-informatik-daten-und-information-am-kontext-unterscheiden"
 relatedExercise: "informatik/grundlagen/daten-und-information/kontext/daten-und-information-am-kontext-unterscheiden"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "grundlagen"
-  - "daten-und-information"
-  - "daten und information"
+tags: ["informatik", "Grundlagen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Daten und Information**.

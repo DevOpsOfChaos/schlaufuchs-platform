@@ -3,20 +3,12 @@ title: "Lösung – Rollback als Release-Bedingung planen"
 description: "Musterlösung zu Rollback als Release-Bedingung planen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "projektpraxis"
-  - "release-und-betrieb"
-  - "rollback-als-release-bedingung-planen-v113"
+topicPath: ["projektpraxis", "release-und-betrieb", "rollback-als-release-bedingung-planen-v113"]
 taskId: "v113-web-development-rollback-als-release-bedingung-planen-v113"
 relatedExercise: "web-development/projektpraxis/release-und-betrieb/rollback-als-release-bedingung-planen-v113"
-tags:
-  - "web development"
-  - "strukturcheck"
-  - "unterthema"
-  - "rollback-als-release-bedingung-planen-v113"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Rollback als Release-Bedingung planen**.

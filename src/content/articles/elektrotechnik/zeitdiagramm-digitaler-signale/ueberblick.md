@@ -1,30 +1,17 @@
 ---
 title: "Zeitdiagramm digitaler Signale"
 description: "Allgemeiner Überblick: Zeitdiagramme zeigen Pegelwechsel, Abstände und zeitliche Beziehungen digitaler Signale."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "zeitdiagramm-digitaler-signale"
-learningGoals:
-  - "Du kannst zeitdiagramm digitaler signale als Grundidee einordnen."
-  - "Du erkennst wichtige Bestandteile und typische Grenzen."
-  - "Du kannst das Thema in einfachen Worten erklären."
+topicPath: ["zeitdiagramm-digitaler-signale", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur ein Detail zu betrachten und den Zusammenhang zu übersehen."
-  - "Das Schaubild als exakte technische Darstellung statt als Orientierung zu lesen."
-keyTakeaways:
-  - "Zeitdiagramme zeigen Pegelwechsel, Abstände und zeitliche Beziehungen digitaler Signale."
-  - "Ein Überblicksbild hilft, Begriffe und Beziehungen ruhig zu ordnen."
-recognizeSignals:
-  - "Es geht um zeitdiagramm digitaler signale, Grundbegriffe, Zusammenhänge oder typische Fehlerquellen."
-selfCheckPoints:
-  - "Kann ich erklären, welche Rolle zeitdiagramm digitaler signale im größeren Zusammenhang spielt?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "zeitdiagramm digitaler signale"
-  - "überblick"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
 # Zeitdiagramm digitaler Signale

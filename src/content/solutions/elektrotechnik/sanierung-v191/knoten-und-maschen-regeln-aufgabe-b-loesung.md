@@ -3,24 +3,12 @@ title: "Lösung: Knoten- und Maschenregeln: Aufgabe B"
 description: "Musterlösung zur Aufgabe etech-v191-006b im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "schaltungsanalyse"
-  - "knoten-und-maschen-regeln"
-  - "loesung-b"
+topicPath: ["sanierung-v191", "knoten-und-maschen-regeln-aufgabe-b"]
 taskId: "etech-v191-006b"
 relatedExercise: "elektrotechnik/sanierung-v191/knoten-und-maschen-regeln-aufgabe-b"
-tags:
-  - "schaltungsanalyse"
-  - "knoten"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-006b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Knoten- und Maschenregeln“ um einen Messfehler, einen Sicherheitscheck und eine kurze Plausibilitätsprüfung.

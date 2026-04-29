@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Taktquelle nach Genauigkeit wählen"
 description: "Musterlösung zu Taktquelle nach Genauigkeit wählen mit Trennkante und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-praxis-v115"
-  - "zeit-und-energie"
-  - "taktquelle-nach-genauigkeit-waehlen-v115"
+topicPath: ["mikrocontroller-praxis-v115", "zeit-und-energie", "taktquelle-nach-genauigkeit-waehlen-v115"]
 taskId: "elektrotechnik-taktquelle-nach-genauigkeit-waehlen-v115"
 relatedExercise: "elektrotechnik/mikrocontroller-praxis-v115/zeit-und-energie/taktquelle-nach-genauigkeit-waehlen-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "mikrocontroller-praxis"
-  - "zeit und energie"
-  - "lösung"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Taktquelle nach Genauigkeit wählen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

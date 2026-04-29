@@ -1,15 +1,14 @@
 ---
-title: Annahmen im Modell benennen – Lösung B
-description: Musterlösung zu Annahmen im Modell benennen mit Kontrolle.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Annahmen im Modell benennen – Lösung B"
+description: "Musterlösung zu Annahmen im Modell benennen mit Kontrolle."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "modellieren-und-validieren", "annahmen-im-modell-benennen"]
 taskId: "mat-v196-annahmen-im-modell-benennen-b"
 relatedExercise: "mathematik/sanierung-v196/annahmen-im-modell-benennen-aufgabe-b"
 tags: ["mathematik", "v196", "modellieren-und-validieren", "annahmen-im-modell-benennen"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine passende Lösung zu dieser Aufgabe muss nicht exakt dieselben Zahlen oder Beispiele verwenden. Entscheidend ist der saubere Aufbau.

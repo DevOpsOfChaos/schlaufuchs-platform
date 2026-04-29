@@ -1,31 +1,17 @@
 ---
 title: "journalctl und Systemlogs"
 description: "Allgemeiner Überblick über Systemlogs, journalctl und die Auswertung von Ereignissen unter Linux."
-subject: linux
+subject: "linux"
 section: "Systembetrieb"
-topicPath:
-  - "journalctl-und-systemlogs"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst journalctl und Systemlogs grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["journalctl-und-systemlogs", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "journalctl und Systemlogs nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "journalctl und Systemlogs beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um journalctl und Systemlogs, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich journalctl und Systemlogs in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "logs"
-  - "journalctl"
-  - "systemd"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Systembetrieb"]
 draft: false
 ---
 # journalctl und Systemlogs

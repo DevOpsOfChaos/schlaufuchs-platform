@@ -1,46 +1,19 @@
 ---
-title: ATmega – SS-Pin im SPI-Mastermodus verstehen
-description: Verstehe am AVR, warum der SS-Pin im Mastermodus nicht einfach ignoriert werden darf und wie er den Betriebszustand des SPI beeinflussen kann.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-schnittstellen-und-busse
-  - atmega-spi-ss-pin-im-mastermodus-verstehen
-learningGoals:
-  - Du erklärst die Rolle des SS-Pins im AVR-SPI-Mastermodus.
-  - Du beschreibst, warum dieser Pin auch dann wichtig bleibt, wenn mehrere Slaves separat ausgewählt werden.
-  - Du liest Master-Stabilität eher als Zustandsfrage des Controllers statt nur als Verdrahtungsdetail.
-practiceIdeas:
-  - Prüfe bei SPI-Masterproblemen, welche Rolle der SS-Pin am AVR selbst spielt.
-  - Vergleiche eigenen Slave-Select-Ausgang und internen SS-Bezug des Masters.
-  - Lies den SS-Pin nicht nur als Busleitung, sondern auch als Modusbedingung.
-commonMistakes:
-  - Zu denken, der SS-Pin sei im Mastermodus automatisch egal.
-  - Den internen SS-Bezug des Controllers mit frei gewählten Chip-Select-Leitungen zu verwechseln.
-  - Nur auf MOSI, MISO und SCK zu schauen und Moduswechsel zu übersehen.
-keyTakeaways:
-  - Der SS-Pin hat am AVR auch im Masterbetrieb eine wichtige Rolle.
-  - Eigene Chip-Select-Leitungen für Slaves ersetzen nicht automatisch die saubere Behandlung des SS-Pins am Controller.
-  - Wer den SS-Pin falsch behandelt, riskiert unruhige Masterzustände.
-recognizeSignals:
-  - Es geht um SPI-Masterprobleme, unerwarteten Moduswechsel oder um die Rolle des SS-Pins.
-  - Du sollst erklären, warum ein AVR trotz richtiger Datenleitungen unruhig reagiert.
-  - In Aufgaben ist der Betriebszustand des Masters wichtiger als nur die Busverdrahtung.
-selfCheckPoints:
-  - Kann ich SS-Pin und externe Chip-Select-Leitungen trennen?
-  - Kann ich erklären, warum der AVR-Master den SS-Pin nicht einfach vergessen darf?
-  - Kann ich einen Modusfehler fachlich als Zustandsproblem beschreiben?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - spi
-  - ss-pin
-level: fortgeschritten
+title: "ATmega – SS-Pin im SPI-Mastermodus verstehen"
+description: "Verstehe am AVR, warum der SS-Pin im Mastermodus nicht einfach ignoriert werden darf und wie er den Betriebszustand des SPI beeinflussen kann."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-spi-ss-pin-im-mastermodus-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei SPI mit mehreren Slaves denkt man schnell nur an die frei gewählten Chip-Select-Leitungen zu den Gegenstellen. Am AVR selbst gibt es aber zusätzlich den **SS-Pin**, der im Mastermodus nicht einfach belanglos wird. Genau dort liegt eine typische Stolperfalle.

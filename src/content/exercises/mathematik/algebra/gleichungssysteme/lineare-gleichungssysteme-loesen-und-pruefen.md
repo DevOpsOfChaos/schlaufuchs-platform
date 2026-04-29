@@ -1,12 +1,17 @@
 ---
-title: Lineare Gleichungssysteme lösen und prüfen
-description: Diese Aufgabe vertieft das Lösen einfacher linearer Gleichungssysteme und die sichere Probe am Ende.
-subject: mathematik
-section: Algebra
-level: mittel
+title: "Lineare Gleichungssysteme lösen und prüfen"
+description: "Diese Aufgabe vertieft das Lösen einfacher linearer Gleichungssysteme und die sichere Probe am Ende."
+subject: "mathematik"
+section: "Algebra"
+topicPath: ["algebra", "gleichungssysteme", "lineare-gleichungssysteme-loesen-und-pruefen"]
+taskId: "AUTO-LINEARE-GLEICHUNGSSYSTEME-LOESEN-UND-PRUEFEN"
+tags: ["mathematik", "Algebra", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben mit sauberer Struktur. Notiere immer, welches Verfahren du verwendest.

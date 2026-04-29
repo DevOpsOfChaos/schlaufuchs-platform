@@ -3,22 +3,12 @@ title: "Lösung: Gleichungen strategisch lösen: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-042b."
 subject: "mathematik"
 section: "algebra"
-topicPath:
-  - "algebra"
-  - "gleichungen-strategisch-loesen"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "gleichungen-strategisch-loesen-aufgabe-b"]
 taskId: "mat-v188-042b"
 relatedExercise: "mathematik/sanierung-v188/gleichungen-strategisch-loesen-aufgabe-b"
-tags:
-  - "gleichungen"
-  - "algebra"
-  - "umformen"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "algebra", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-042b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

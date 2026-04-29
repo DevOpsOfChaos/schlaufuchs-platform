@@ -1,33 +1,19 @@
 ---
 title: "JWT"
 description: "JWT steht für JSON Web Token und beschreibt ein kompaktes Tokenformat für signierte Informationen. Es wird häufig bei Authentifizierung und Autorisierung verwendet."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "jwt"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von JWT."
-  - "Du kannst JWT in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["jwt", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Sensible Geheimnisse in den Payload zu schreiben."
-keyTakeaways:
-  - "JWT steht für JSON Web Token und beschreibt ein kompaktes Tokenformat für signierte Informationen."
-  - "Wichtig sind vor allem header, payload und signatur, ablaufzeiten und claims und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um JWT, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu JWT dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "web development"
-  - "grundlagen"
-  - "jwt"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # JWT
 
 JWT steht für JSON Web Token und beschreibt ein kompaktes Tokenformat für signierte Informationen. Es wird häufig bei Authentifizierung und Autorisierung verwendet. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

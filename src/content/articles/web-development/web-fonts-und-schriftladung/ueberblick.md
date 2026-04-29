@@ -1,37 +1,19 @@
 ---
 title: "Web Fonts und Schriftladung"
 description: "Überblick über Web Fonts, Ladeverhalten, Lesbarkeit und Performance-Auswirkungen von Schriften im Web."
-subject: web-development
+subject: "web-development"
 section: "Performance"
-topicPath:
-  - "web-fonts-und-schriftladung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Web Fonts und Schriftladung als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["web-fonts-und-schriftladung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft werden mehrere Fonts eingebunden, obwohl nur zwei oder drei Schnitte sichtbar genutzt werden."
-keyTakeaways:
-  - "Web Fonts verbessern Gestaltung, kosten aber Ladezeit."
-  - "Fallbacks beeinflussen Layoutstabilität."
-  - "Wenige gezielte Schnitte sind oft besser."
-recognizeSignals:
-  - "Text erscheint spät oder springt beim Laden."
-  - "Viele Schriftdateien belasten Performance."
-selfCheckPoints:
-  - "Kann ich Web Fonts und Schriftladung in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "web-development"
-  - "fonts"
-  - "performance"
-  - "typografie"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Performance"]
 draft: false
 ---
-
 # Web Fonts und Schriftladung
 
 Web Fonts ermöglichen eigene Schriftarten auf Webseiten. Sie werden geladen und für Textdarstellung verwendet, kosten aber zusätzliche Zeit und Daten.

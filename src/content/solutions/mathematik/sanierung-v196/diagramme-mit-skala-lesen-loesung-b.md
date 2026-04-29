@@ -1,15 +1,14 @@
 ---
-title: Diagramme mit Skala lesen – Lösung B
-description: Musterlösung zu Diagramme mit Skala lesen mit Kontrolle.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Diagramme mit Skala lesen – Lösung B"
+description: "Musterlösung zu Diagramme mit Skala lesen mit Kontrolle."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "daten-deuten-und-pruefen", "diagramme-mit-skala-lesen"]
 taskId: "mat-v196-diagramme-mit-skala-lesen-b"
 relatedExercise: "mathematik/sanierung-v196/diagramme-mit-skala-lesen-aufgabe-b"
 tags: ["mathematik", "v196", "daten-deuten-und-pruefen", "diagramme-mit-skala-lesen"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine passende Lösung zu dieser Aufgabe muss nicht exakt dieselben Zahlen oder Beispiele verwenden. Entscheidend ist der saubere Aufbau.

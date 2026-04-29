@@ -3,23 +3,12 @@ title: "Lösung – Focus Trap in Dialogen begründen"
 description: "Musterlösung zu Focus Trap in Dialogen begründen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "HTML und Barrierefreiheit"
-topicPath:
-  - "html-a11y"
-  - "semantik-status-fokus"
-  - "v110-teil-3"
-  - "focus-trap-in-dialogen-begruenden"
+topicPath: ["html-a11y", "semantik-status-fokus", "v110-teil-3", "focus-trap-in-dialogen-begruenden"]
 taskId: "v110-web-development-focus-trap-in-dialogen-begruenden"
 relatedExercise: "web-development/html-a11y/semantik-status-fokus/v110-teil-3/focus-trap-in-dialogen-begruenden"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "html-a11y"
-  - "semantik-status-fokus"
-  - "focus-trap-in-dialogen-begruenden"
+tags: ["web-development", "HTML und Barrierefreiheit", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Focus Trap in Dialogen begründen**.

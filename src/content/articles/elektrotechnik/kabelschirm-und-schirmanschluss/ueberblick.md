@@ -1,36 +1,19 @@
 ---
 title: "Kabelschirm und Schirmanschluss"
 description: "Ein Kabelschirm soll elektrische oder elektromagnetische Störungen verringern. Entscheidend ist nicht nur der Schirm selbst, sondern auch, wie und wo er angeschlo..."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "EMV"
-topicPath:
-  - "kabelschirm-und-schirmanschluss"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Kabelschirm und Schirmanschluss als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["kabelschirm-und-schirmanschluss", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, den Schirm irgendwo anzulöten, ohne Strompfade und Bezugspotenziale zu betrachten."
-keyTakeaways:
-  - "Ein Kabelschirm soll elektrische oder elektromagnetische Störungen verringern."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Kabelschirm und Schirmanschluss, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Kabelschirm und Schirmanschluss in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "emv"
-  - "schirmung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "EMV"]
 draft: false
 ---
-
 # Kabelschirm und Schirmanschluss
 
 Ein Kabelschirm soll elektrische oder elektromagnetische Störungen verringern. Entscheidend ist

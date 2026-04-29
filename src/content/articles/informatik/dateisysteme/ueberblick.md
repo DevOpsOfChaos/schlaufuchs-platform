@@ -1,37 +1,19 @@
 ---
 title: "Dateisysteme"
 description: "Allgemeiner Überblick über Dateisysteme, Dateien, Verzeichnisse und Metadaten."
-subject: informatik
+subject: "informatik"
 section: "Systeme"
-topicPath:
-  - "dateisysteme"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Dateisysteme als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["dateisysteme", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Löschen wird oft für sofortige physische Datenvernichtung gehalten."
-keyTakeaways:
-  - "Dateisysteme organisieren Daten als Dateien und Verzeichnisse."
-  - "Metadaten sind Teil der Dateiverwaltung."
-  - "Speicher und sichtbare Pfade sind verschiedene Ebenen."
-recognizeSignals:
-  - "Es geht um Pfade, Speicher, Metadaten oder Datenverlust."
-  - "Programme lesen und schreiben über Dateioperationen."
-selfCheckPoints:
-  - "Kann ich Dateisysteme in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "dateisystem"
-  - "daten"
-  - "betriebssystem"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Systeme"]
 draft: false
 ---
-
 # Dateisysteme
 
 ![Schaubild zu Dateisystemen.](/schlaufuchs-platform/images/overviews/v149/dateisysteme.svg)

@@ -1,32 +1,17 @@
 ---
 title: "Matrixinverse"
 description: "Allgemeiner Überblick über invertierbare Matrizen und die Rolle der inversen Matrix."
-subject: mathematik
+subject: "mathematik"
 section: "Lineare Algebra"
-topicPath:
-  - "matrixinverse"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Matrixinverse als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Einheitsmatrix, Determinante, Rang."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["matrixinverse", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Jede quadratische Matrix automatisch für invertierbar zu halten."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Matrixinverse beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Umkehrbarkeit linearer Abbildungen."
-  - "Wichtige Hinweise liefern vor allem Einheitsmatrix, Determinante, Rang."
-recognizeSignals:
-  - "Es geht um umkehrbarkeit linearer abbildungen, einheitsmatrix oder determinante."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Matrixinverse erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "lineare algebra"
-  - "matrizen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Lineare Algebra"]
 draft: false
 ---
 # Matrixinverse

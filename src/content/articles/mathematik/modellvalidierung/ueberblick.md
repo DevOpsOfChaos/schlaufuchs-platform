@@ -1,33 +1,17 @@
 ---
 title: "Modellvalidierung"
 description: "Überblick darüber, wie mathematische Modelle an Daten, Annahmen, Grenzen und Plausibilität geprüft werden."
-subject: mathematik
+subject: "mathematik"
 section: "Modellieren"
-topicPath:
-  - "modellvalidierung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Modellvalidierung als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["modellvalidierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein Modell ist nicht automatisch richtig, nur weil eine Rechnung aufgeht. Entscheidend ist, ob seine Annahmen zur Situation passen."
-keyTakeaways:
-  - "Modellvalidierung prüft, ob ein mathematisches Modell zur Fragestellung und zur beobachteten Wirklichkeit passt."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um modellvalidierung, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich modellvalidierung in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "modellvalidierung"
-  - "überblick"
-  - "annahmen"
-  - "datenvergleich"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Modellieren"]
 draft: false
 ---
 # Modellvalidierung

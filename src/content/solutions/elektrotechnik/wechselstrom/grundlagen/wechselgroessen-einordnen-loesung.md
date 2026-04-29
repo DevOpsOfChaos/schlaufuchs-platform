@@ -1,22 +1,14 @@
 ---
 title: "Lösung: Wechselgrößen einordnen"
 description: "Musterlösung zu: Wechselgrößen einordnen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Wechselstrom"
-topicPath:
-  - "wechselstrom"
-  - "grundlagen"
+topicPath: ["wechselstrom", "grundlagen", "wechselgroessen-einordnen"]
 taskId: "ET-AC-GRUND-179-001"
 relatedExercise: "src/content/exercises/elektrotechnik/wechselstrom/grundlagen/wechselgroessen-einordnen.md"
-tags:
-  - "elektrotechnik"
-  - "wechselstrom"
-  - "frequenz"
-  - "amplitude"
-  - "loesung"
+tags: ["elektrotechnik", "Wechselstrom", "loesung"]
 draft: false
 ---
-
 ## Lösungsgedanke
 
 Diese Musterlösung trennt zuerst Begriff, Schaltungszusammenhang und Begründung. Dadurch wird nicht nur ein Ergebnis genannt, sondern der fachliche Weg sichtbar.

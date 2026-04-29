@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Watchdog als Sicherheitsnetz nutzen"
 description: "Musterlösung zu Watchdog als Sicherheitsnetz nutzen mit Trennkante und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-praxis-v115"
-  - "zeit-und-energie"
-  - "watchdog-als-sicherheitsnetz-nutzen-v115"
+topicPath: ["mikrocontroller-praxis-v115", "zeit-und-energie", "watchdog-als-sicherheitsnetz-nutzen-v115"]
 taskId: "elektrotechnik-watchdog-als-sicherheitsnetz-nutzen-v115"
 relatedExercise: "elektrotechnik/mikrocontroller-praxis-v115/zeit-und-energie/watchdog-als-sicherheitsnetz-nutzen-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "mikrocontroller-praxis"
-  - "zeit und energie"
-  - "lösung"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Watchdog als Sicherheitsnetz nutzen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

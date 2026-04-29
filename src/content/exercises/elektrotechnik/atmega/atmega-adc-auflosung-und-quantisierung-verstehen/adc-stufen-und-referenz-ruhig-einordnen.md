@@ -1,32 +1,17 @@
 ---
-title: ADC-Stufen und Referenz ruhig einordnen
-description: Ordne ADC-Auflösung, Referenzspannung und Quantisierung am AVR sauber zueinander und erkläre typische Stufenfehler.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - analog-digital-wandlung
-  - atmega-adc-auflosung-und-quantisierung-verstehen
-  - adc-stufen-und-referenz-ruhig-einordnen
-taskId: ET-ATMEGA-ADC-304
-level: mittel
+title: "ADC-Stufen und Referenz ruhig einordnen"
+description: "Ordne ADC-Auflösung, Referenzspannung und Quantisierung am AVR sauber zueinander und erkläre typische Stufenfehler."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-adc-auflosung-und-quantisierung-verstehen", "adc-stufen-und-referenz-ruhig-einordnen"]
+taskId: "ET-ATMEGA-ADC-304"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - adc
-hintPoints:
-  - Lies einen ADC-Wert zuerst als Stufe und nicht sofort als exakte Spannung.
-  - Denke Bitzahl und Referenz immer gemeinsam.
-selfCheckPoints:
-  - Kannst du erklären, warum gleiche Bitzahl bei anderer Referenz andere Schrittweiten ergibt?
-  - Kannst du Quantisierung in eigenen Worten beschreiben?
-transferIdeas:
-  - Übertrage die Logik auf Sensorwerte, Potentiometer und Batteriespannungsüberwachung.
-reflectionPrompt: "Warum ist „stufig messen“ oft die ruhigere Denkhilfe als „genau messen“?"
 ---
-
 ## Aufgabe 1: Quantisierung erklären
 
 Erkläre in 3 bis 5 Sätzen, warum zwei nahe Spannungen trotzdem denselben ADC-Wert liefern können.

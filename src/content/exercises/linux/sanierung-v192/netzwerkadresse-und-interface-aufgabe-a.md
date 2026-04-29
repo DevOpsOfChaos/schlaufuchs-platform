@@ -3,37 +3,15 @@ title: "Netzwerkadresse und Interface: Aufgabe A"
 description: "Erkläre eine ip-addr-Ausgabe für ein kleines System."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "netzwerk-und-zugriff"
-  - "netzwerkadresse-und-interface"
-  - "aufgabe-a"
+topicPath: ["sanierung-v192", "netzwerkadresse-und-interface-aufgabe-a"]
 taskId: "linux-v192-016a"
-tags:
-  - "netzwerk-und-zugriff"
-  - "netzwerkadresse"
-  - "interface"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "aufgabe"
-  - "v192"
-hintPoints:
-  - "Trenne Beobachtung, Eingriff und Kontrolle."
-  - "Nenne den betroffenen Benutzer, Dienst, Pfad, Port oder Zeitplan."
-  - "Beschreibe mindestens einen Rückweg oder Sicherheitscheck."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Netzwerkadresse und Interface."
-  - "Es gibt eine klare Kontrolle nach der Änderung."
-  - "Risiko und Nebenwirkung werden nicht verschwiegen."
-transferIdeas:
-  - "Übertrage den Prüfweg auf eine zweite Linux-VM oder einen anderen Dienst."
-  - "Formuliere aus deiner Lösung eine kurze Betriebsnotiz."
-reflectionPrompt: "Welcher Schritt verhindert hier den wahrscheinlichsten Adminfehler?"
+tags: ["linux", "adminpraxis-und-betrieb", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Erkläre eine ip-addr-Ausgabe für ein kleines System.

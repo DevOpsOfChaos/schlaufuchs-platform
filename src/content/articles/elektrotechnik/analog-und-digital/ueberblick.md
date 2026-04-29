@@ -1,37 +1,19 @@
 ---
 title: "Analog und digital"
 description: "Allgemeiner Überblick über analoge und digitale Signale, ihre Unterschiede und typische Übergänge in elektronischen Systemen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Signale"
-topicPath:
-  - "analog-und-digital"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Analog und digital als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["analog-und-digital", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird angenommen, ein digitales Signal springe ideal und ohne Übergangszeit von 0 auf 1."
-keyTakeaways:
-  - "Analog und digital sind zwei Sichtweisen auf Signale."
-  - "Digitale Pegel beruhen auf analogen Spannungen und Schwellwerten."
-  - "Wandlung und Pegeldefinition verbinden beide Welten."
-recognizeSignals:
-  - "Es geht um Messwerte, Zwischenwerte, High/Low oder Pegelbereiche."
-  - "Ein Signal muss entweder fein gemessen oder eindeutig entschieden werden."
-selfCheckPoints:
-  - "Kann ich Analog und digital in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "signale"
-  - "analog"
-  - "digital"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Signale"]
 draft: false
 ---
-
 # Analog und digital
 
 ![Schaubild zum Unterschied zwischen analog und digital.](/schlaufuchs-platform/images/overviews/v149/analog-und-digital.svg)

@@ -3,23 +3,12 @@ title: "Lösung – ssh-agent und Schlüssel-Passphrasen verstehen"
 description: "Musterlösung zur Aufgabe über SSH-Schlüssel mit Begründung und Gegenprobe."
 subject: "linux"
 section: "SSH"
-topicPath:
-  - "ssh"
-  - "schluessel-und-agent"
-  - "ssh-agent-und-schluessel-passphrasen-verstehen"
+topicPath: ["ssh", "schluessel-und-agent", "ssh-agent-und-schluessel-passphrasen-verstehen"]
 taskId: "v106-linux-ssh-agent-und-schluessel-passphrasen-verstehen"
 relatedExercise: "linux/ssh/schluessel-und-agent/ssh-agent-und-schluessel-passphrasen-verstehen"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "praxis"
-  - "ssh-schlüssel"
-  - "ssh"
-  - "schluessel-und-agent"
+tags: ["linux", "SSH", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Beobachtung

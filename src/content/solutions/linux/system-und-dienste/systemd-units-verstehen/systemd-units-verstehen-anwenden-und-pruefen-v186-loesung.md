@@ -1,21 +1,14 @@
 ---
 title: "Lösung – systemd-Units verstehen – anwenden und prüfen"
 description: "Musterlösung zur Linux-Aufgabe systemd-Units verstehen."
-subject: linux
+subject: "linux"
 section: "system-und-dienste"
-topicPath:
-  - "system-und-dienste"
-  - "systemd-units-verstehen"
-taskId: LINUX-SYSTEMD-UNITS-VERSTEHEN-V186-2
-relatedExercise: src/content/exercises/linux/system-und-dienste/systemd-units-verstehen/systemd-units-verstehen-anwenden-und-pruefen-v186.md
-tags:
-  - "linux"
-  - "systemd"
-  - "unit"
-  - "loesung"
+topicPath: ["system-und-dienste", "systemd-units-verstehen", "systemd-units-verstehen-anwenden-und-pruefen-v186"]
+taskId: "LINUX-SYSTEMD-UNITS-VERSTEHEN-V186-2"
+relatedExercise: "src/content/exercises/linux/system-und-dienste/systemd-units-verstehen/systemd-units-verstehen-anwenden-und-pruefen-v186.md"
+tags: ["linux", "system-und-dienste", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

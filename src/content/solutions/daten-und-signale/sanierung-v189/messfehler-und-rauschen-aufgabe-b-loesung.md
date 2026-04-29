@@ -3,22 +3,12 @@ title: "Lösung: Messfehler und Rauschen: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe dat-v189-030b."
 subject: "daten-und-signale"
 section: "messung"
-topicPath:
-  - "messung"
-  - "messfehler-und-rauschen"
-  - "loesung-b"
+topicPath: ["sanierung-v189", "messfehler-und-rauschen-aufgabe-b"]
 taskId: "dat-v189-030b"
 relatedExercise: "daten-und-signale/sanierung-v189/messfehler-und-rauschen-aufgabe-b"
-tags:
-  - "rauschen"
-  - "messfehler"
-  - "signal"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "messung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-030b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

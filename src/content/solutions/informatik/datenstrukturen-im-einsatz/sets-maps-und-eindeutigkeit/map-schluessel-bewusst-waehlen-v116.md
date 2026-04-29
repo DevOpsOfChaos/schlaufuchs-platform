@@ -3,22 +3,12 @@ title: "Lösung: Map-Schlüssel bewusst wählen"
 description: "Musterlösung zur Aufgabe „Map-Schlüssel bewusst wählen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "datenstrukturen-im-einsatz"
-  - "sets-maps-und-eindeutigkeit"
-  - "map-schluessel-bewusst-waehlen-v116"
+topicPath: ["datenstrukturen-im-einsatz", "sets-maps-und-eindeutigkeit", "map-schluessel-bewusst-waehlen-v116"]
 taskId: "map-schluessel-bewusst-waehlen-v116"
 relatedExercise: "informatik/datenstrukturen-im-einsatz/sets-maps-und-eindeutigkeit/map-schluessel-bewusst-waehlen-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "sets maps und eindeutigkeit"
-  - "map schluessel bewusst waehlen"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

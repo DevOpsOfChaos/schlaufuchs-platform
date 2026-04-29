@@ -3,46 +3,17 @@ title: "Web Development – Landmark-Rollen für Seitenorientierung nutzen"
 description: "Lerne Landmark-Rollen für Seitenorientierung nutzen als kleines, klar prüfbares Unterthema mit Abgrenzung, Beispiel und Gegenprobe."
 subject: "web-development"
 section: "HTML und Barrierefreiheit"
-topicPath:
-  - "html-a11y"
-  - "semantik-status-fokus"
-  - "v110-teil-1"
-  - "landmark-rollen-fuer-seitenorientierung-nutzen"
-learningGoals:
-  - "Du erklärst Landmark-Rollen für Seitenorientierung nutzen als eigenes Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Erstelle eine Gegenprobe mit verändertem Wert, Zustand oder Kontext."
-  - "Vergleiche die Seite mit einem Nachbarthema und nenne die Trennkante."
-commonMistakes:
-  - "Alles wird mit div-Containern gebaut."
-  - "Das Thema nur einem breiten Kapitel zuordnen."
-  - "Eine Lösung formulieren, die keine konkrete Prüfung enthält."
-keyTakeaways:
-  - "Landmark-Rollen für Seitenorientierung nutzen wird über Einordnung, Abgrenzung und Gegenprobe stabil."
-  - "Kleine Unterthemen erhöhen Auffindbarkeit und reduzieren Doppelungen."
-  - "Aufgabe und Lösung sollen dieselbe fachliche Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Ein breites Kapitel wäre als Antwort zu ungenau."
-  - "Ein konkreter Prüfschritt kann die Entscheidung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "html-a11y"
-  - "semantik-status-fokus"
-  - "landmark-rollen-fuer-seitenorientierung-nutzen"
+topicPath: ["html-a11y", "semantik-status-fokus", "v110-teil-1", "landmark-rollen-fuer-seitenorientierung-nutzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["web-development", "HTML und Barrierefreiheit"]
 draft: false
 ---
-
 ## Grundidee
 
 **Landmark-Rollen für Seitenorientierung nutzen** ist bewusst als enges Unterthema angelegt. Die Seite beantwortet nicht das ganze Kapitel, sondern die kleine fachliche Entscheidung, die in Aufgaben oft den Unterschied macht.

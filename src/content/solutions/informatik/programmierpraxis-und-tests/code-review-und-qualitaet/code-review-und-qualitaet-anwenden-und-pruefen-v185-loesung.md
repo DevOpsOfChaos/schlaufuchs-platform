@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Code-Review und Qualität – anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über code-review und qualität."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "code-review-und-qualitaet"
-  - "loesung"
-taskId: INF-V185-019-2
-relatedExercise: src/content/exercises/informatik/programmierpraxis-und-tests/code-review-und-qualitaet/code-review-und-qualitaet-anwenden-und-pruefen-v185.md
-tags:
-  - "informatik"
-  - "programmierpraxis-und-tests"
-  - "code-review-und-qualitaet"
-  - "loesung"
+topicPath: ["programmierpraxis-und-tests", "code-review-und-qualitaet", "code-review-und-qualitaet-anwenden-und-pruefen-v185"]
+taskId: "INF-V185-019-2"
+relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/code-review-und-qualitaet/code-review-und-qualitaet-anwenden-und-pruefen-v185.md"
+tags: ["informatik", "Programmierpraxis und Tests", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

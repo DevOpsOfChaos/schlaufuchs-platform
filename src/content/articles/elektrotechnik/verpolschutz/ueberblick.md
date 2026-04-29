@@ -1,33 +1,19 @@
 ---
 title: "Verpolschutz"
 description: "Verpolschutz soll verhindern, dass eine Schaltung bei falsch angeschlossener Versorgung zerstört wird. Er kann mit Dioden, MOSFETs, Sicherungen oder mechanischen Steckverbindern umgesetzt werden."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik und Mikrocontroller"
-topicPath:
-  - "verpolschutz"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Verpolschutz."
-  - "Du kannst Verpolschutz in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["verpolschutz", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Schutzbauteile ohne Blick auf Strom, Verlustleistung und Spannungsabfall auszuwählen."
-keyTakeaways:
-  - "Verpolschutz soll verhindern, dass eine Schaltung bei falsch angeschlossener Versorgung zerstört wird."
-  - "Wichtig sind vor allem seriendiode und spannungsabfall, mosfet-verpolschutz und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Verpolschutz, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Verpolschutz dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "grundlagen"
-  - "verpolschutz"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik und Mikrocontroller"]
 draft: false
 ---
-
 # Verpolschutz
 
 Verpolschutz soll verhindern, dass eine Schaltung bei falsch angeschlossener Versorgung zerstört wird. Er kann mit Dioden, MOSFETs, Sicherungen oder mechanischen Steckverbindern umgesetzt werden. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

@@ -1,36 +1,19 @@
 ---
 title: "Grundlagen: Sensoren und Aktoren"
 description: "Allgemeiner Überblick über Sensoren, Aktoren und den technischen Zusammenhang zwischen Erfassen, Verarbeiten und Reagieren."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Daten und Signale"
-topicPath:
-  - daten-und-signale
-  - sensoren-und-aktoren
-  - grundlagen-sensoren-und-aktoren
-learningGoals:
-  - "Du erklärst Sensoren als Bauteile zur Erfassung von Zuständen."
-  - "Du beschreibst Aktoren als Bauteile, die eine technische Wirkung auslösen."
-  - "Du ordnest Sensoren und Aktoren in einen Regel- oder Steuerzusammenhang ein."
+topicPath: ["daten-und-signale", "sensoren-und-aktoren", "ueberblick", "grundlagen-sensoren-und-aktoren"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Sensoren und Aktoren nur als Bauteilnamen zu lernen."
-  - "Messwert und physikalische Realität gleichzusetzen."
-  - "Ansteuerung und Versorgung eines Aktors zu unterschätzen."
-keyTakeaways:
-  - "Sensoren liefern Informationen über die Umgebung oder ein System."
-  - "Aktoren setzen elektrische Signale in Wirkung um."
-  - "Zwischen Sensor und Aktor liegt meist eine Auswertung oder Steuerlogik."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "sensoren"
-  - "aktoren"
-  - "mikrocontroller"
+level: "einfach"
+tags: ["elektrotechnik", "Daten und Signale"]
 draft: false
 ---
-
 ## Begriff
 
 **Sensoren** und **Aktoren** sind grundlegende Bausteine technischer Systeme. Ein Sensor erfasst eine Größe oder einen Zustand. Ein Aktor bewirkt eine Handlung, Bewegung, Anzeige, Erwärmung, Schaltung oder andere technische Reaktion.

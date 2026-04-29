@@ -3,22 +3,12 @@ title: "Lösung – JavaScript: Live Regions für Statusmeldungen"
 description: "Musterlösung zur Aufgabe: Verstehe, wie dynamische Änderungen angekündigt werden können, ohne Nutzerinnen und Nutzer zu überfordern."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "zugaenglichkeit-und-ux"
-  - "live-regions-fuer-statusmeldungen"
+topicPath: ["javascript", "zugaenglichkeit-und-ux", "live-regions-fuer-statusmeldungen"]
 taskId: "web-v102-live-regions-fuer-statusmeldungen"
 relatedExercise: "web-development/javascript/zugaenglichkeit-und-ux/live-regions-fuer-statusmeldungen"
-tags:
-  - "web development"
-  - "javascript"
-  - "accessibility"
-  - "aria-live"
-  - "status"
-  - "lösung"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Gute Meldungen sind knapp: „Daten werden geladen.“, „Profil wurde gespeichert.“ und „Speichern fehlgeschlagen. Bitte erneut versuchen.“ Sie erklären den Zustand, ohne unnötige Details zu erzählen.

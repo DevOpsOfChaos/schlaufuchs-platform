@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Timer und Prescaler in Zeit übersetzen
-description: Musterlösung zur Aufgabe ET-ATMEGA-TMR-203.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - zeitbasis-und-timer
-  - atmega-timer-und-prescaler-verstehen
-  - timer-und-prescaler-in-zeit-uebersetzen-loesung
-taskId: ET-ATMEGA-TMR-203
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-timer-und-prescaler-verstehen/timer-und-prescaler-in-zeit-uebersetzen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – Timer und Prescaler in Zeit übersetzen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-TMR-203."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-timer-und-prescaler-verstehen", "timer-und-prescaler-in-zeit-uebersetzen"]
+taskId: "ET-ATMEGA-TMR-203"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-timer-und-prescaler-verstehen/timer-und-prescaler-in-zeit-uebersetzen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

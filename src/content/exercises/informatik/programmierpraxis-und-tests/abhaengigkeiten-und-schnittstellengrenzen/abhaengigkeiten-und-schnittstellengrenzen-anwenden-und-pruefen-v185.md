@@ -1,29 +1,17 @@
 ---
 title: "Abhängigkeiten und Schnittstellengrenzen – anwenden und prüfen"
 description: "Übe, abhängigkeiten und schnittstellengrenzen fachlich auf Beispiele anzuwenden und zu überprüfen."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "abhaengigkeiten-und-schnittstellengrenzen"
-  - "uebung"
-taskId: INF-V185-017-2
-tags:
-  - "informatik"
-  - "programmierpraxis-und-tests"
-  - "abhaengigkeiten-und-schnittstellengrenzen"
-hintPoints:
-  - "Beginne mit der Grundidee, nicht mit einem Spezialfall."
-  - "Trenne Begriff, Beispiel und Prüfung."
-selfCheckPoints:
-  - "Ich kann das Thema in eigenen Worten erklären."
-  - "Ich kann ein passendes Beispiel begründen."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel in einem anderen Fachbereich."
-level: einfach
+topicPath: ["programmierpraxis-und-tests", "abhaengigkeiten-und-schnittstellengrenzen", "abhaengigkeiten-und-schnittstellengrenzen-anwenden-und-pruefen-v185"]
+taskId: "INF-V185-017-2"
+tags: ["informatik", "Programmierpraxis und Tests", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe nutzt **Abhängigkeiten und Schnittstellengrenzen**, um Beispiele, Grenzen und Prüfwege bewusster zu unterscheiden.
 
 ## Lernziel

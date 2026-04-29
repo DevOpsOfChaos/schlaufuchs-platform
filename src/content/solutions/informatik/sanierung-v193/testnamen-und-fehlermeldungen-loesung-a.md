@@ -3,23 +3,12 @@ title: "Lösung: Testnamen und Fehlermeldungen: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-010a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "tests-und-randfaelle"
-  - "testnamen-und-fehlermeldungen"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "testnamen-und-fehlermeldungen-loesung-a"]
 taskId: "informatik-v193-010a"
 relatedExercise: "informatik/sanierung-v193/testnamen-und-fehlermeldungen-aufgabe-a"
-tags:
-  - "testnamen"
-  - "fehlermeldungen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-010a`
 
 Ausgangsauftrag: Verbessere drei unklare Testnamen und ihre Fehlermeldungen.

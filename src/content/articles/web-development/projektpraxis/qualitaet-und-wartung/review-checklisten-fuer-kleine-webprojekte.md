@@ -3,44 +3,17 @@ title: "Web-Projektpraxis – Review-Checklisten für kleine Webprojekte"
 description: "Nutze kleine, wiederholbare Checklisten, um Barrierefreiheit, Performance, Inhalt und Wartbarkeit vor dem Veröffentlichen zu prüfen."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "qualitaet-und-wartung"
-  - "review-checklisten-fuer-kleine-webprojekte"
-learningGoals:
-  - "Du erklärst, welche Kernidee hinter „Review-Checklisten für kleine Webprojekte“ steht."
-  - "Du trennst sichtbare Oberfläche, technische Umsetzung und Nutzererwartung sauber."
-  - "Du leitest aus einem kleinen Beispiel konkrete Verbesserungen für echte Seiten ab."
-practiceIdeas:
-  - "Prüfe eine vorhandene Seite mit genau diesem Blick und notiere drei Verbesserungen."
-  - "Formuliere ein schwaches Beispiel in eine nutzerfreundlichere Variante um."
-  - "Verbinde die technische Regel mit einer sichtbaren Auswirkung für Nutzerinnen und Nutzer."
-commonMistakes:
-  - "nur optisch kurz drüberschauen"
-  - "alles auf später verschieben"
-  - "Checkliste so lang machen, dass sie niemand nutzt"
-keyTakeaways:
-  - "Ein Review ist kein Bauchgefühl"
-  - "Gute Web-Entwicklung verbindet technische Korrektheit mit verständlicher Nutzerführung."
-  - "Eine kleine, klare Regel ist wertvoller als eine große Sammlung ungetesteter Sonderfälle."
-recognizeSignals:
-  - "Eine Oberfläche wirkt technisch vorhanden, aber für Nutzende unklar."
-  - "Ein Verhalten funktioniert im Idealfall, bricht aber bei Fehlern, langsamen Netzen oder anderen Geräten."
-  - "Du sollst nicht nur Code schreiben, sondern eine robuste Entscheidung begründen."
-selfCheckPoints:
-  - "Kann ich das Problem in einem Satz ohne Fachjargon erklären?"
-  - "Kann ich zeigen, woran Nutzende die Verbesserung bemerken?"
-  - "Kann ich eine einfache Prüffrage für den nächsten Review ableiten?"
-tags:
-  - "web development"
-  - "projektpraxis"
-  - "review"
-  - "qualität"
-  - "wartung"
-level: einfach
+topicPath: ["projektpraxis", "qualitaet-und-wartung", "review-checklisten-fuer-kleine-webprojekte"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Projektpraxis"]
 draft: false
 ---
-
 ## Grundidee
 
 Auch kleine Webprojekte profitieren von festen Prüffragen. Eine gute Checkliste ist kurz genug, um wirklich benutzt zu werden, und konkret genug, um Fehler zu finden.

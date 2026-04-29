@@ -3,24 +3,12 @@ title: "Lösung: Suchseiten und Filter: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-development-v194-021a im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "content-und-navigation"
-  - "suchseiten-und-filter"
-  - "loesung-a"
-
+topicPath: ["sanierung-v194", "suchseiten-und-filter-loesung-a"]
 taskId: "web-development-v194-021a"
 relatedExercise: "web-development/sanierung-v194/suchseiten-und-filter-aufgabe-a"
-tags:
-  - "suchseiten"
-  - "filter"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-021a`
 
 Ausgangsauftrag: Plane Filter für eine Wissensübersicht.

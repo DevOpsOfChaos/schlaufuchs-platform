@@ -1,22 +1,14 @@
 ---
-title: Lösung – Input Capture als Zeitmarke am AVR erklären
-description: Musterlösung zur Aufgabe über Input Capture und Signalzeitmarken am AVR.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - timer-und-zeitbasis
-  - atmega-input-capture-grundidee-verstehen
-taskId: ET-ATMEGA-TIMER-402
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-input-capture-grundidee-verstehen/input-capture-als-zeitmarke-am-avr-erklaeren.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - loesung
+title: "Lösung – Input Capture als Zeitmarke am AVR erklären"
+description: "Musterlösung zur Aufgabe über Input Capture und Signalzeitmarken am AVR."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-input-capture-grundidee-verstehen", "input-capture-als-zeitmarke-am-avr-erklaeren"]
+taskId: "ET-ATMEGA-TIMER-402"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-input-capture-grundidee-verstehen/input-capture-als-zeitmarke-am-avr-erklaeren.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

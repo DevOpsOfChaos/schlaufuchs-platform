@@ -1,12 +1,17 @@
 ---
-title: Prozesse anzeigen und grundlegend verstehen
-description: Diese Aufgabe vertieft den Grundgedanken laufender Prozesse und ihre einfache Beobachtung unter Linux.
-subject: linux
-section: Grundlagen
-level: mittel
+title: "Prozesse anzeigen und grundlegend verstehen"
+description: "Diese Aufgabe vertieft den Grundgedanken laufender Prozesse und ihre einfache Beobachtung unter Linux."
+subject: "linux"
+section: "Grundlagen"
+topicPath: ["grundlagen", "prozesse-anzeigen-und-grundlegend-verstehen"]
+taskId: "AUTO-PROZESSE-ANZEIGEN-UND-GRUNDLEGEND-VERSTEHEN"
+tags: ["linux", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben so, dass immer klar bleibt, was ein Prozess ist und warum Prozessbeobachtung im System wichtig ist.

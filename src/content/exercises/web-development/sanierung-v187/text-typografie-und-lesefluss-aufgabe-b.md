@@ -3,35 +3,15 @@ title: "Text, Typografie und Lesefluss: Prüfung und Verbesserung"
 description: "Leite aus einem unruhigen Textbild drei CSS-Regeln ab, die den Lesefluss verbessern."
 subject: "web-development"
 section: "html-css"
-topicPath: 
-  - "html-und-semantik"
-  - "text-und-lesefluss"
-  - "aufgabe-b"
+topicPath: ["sanierung-v187", "text-typografie-und-lesefluss-aufgabe-b"]
 taskId: "web-v187-004b"
-tags: 
-  - "text"
-  - "typografie"
-  - "lesbarkeit"
-  - "css"
-  - "web-development"
-  - "aufgabe"
-  - "v187"
-hintPoints: 
-  - "Trenne Zweck, Struktur und sichtbare Wirkung."
-  - "Begründe mindestens eine Entscheidung mit dem Nutzerziel."
-  - "Prüfe einen typischen Fehlerfall aus der Erklärseite."
-selfCheckPoints: 
-  - "Die Lösung passt zur Aufgabenstellung."
-  - "Mindestens eine Entscheidung ist begründet."
-  - "Es gibt keine neue Aufgabe ohne passende Lösung."
-transferIdeas: 
-  - "Übertrage die Entscheidung auf eine zweite kleine Seite."
-  - "Formuliere eine kurze Checkliste für spätere Wiederholung."
-reflectionPrompt: "Welche Entscheidung war am wichtigsten, damit die Lösung ruhig und wartbar bleibt?"
+tags: ["web-development", "html-css", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Leite aus einem unruhigen Textbild drei CSS-Regeln ab, die den Lesefluss verbessern.

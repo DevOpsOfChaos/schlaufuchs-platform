@@ -1,46 +1,19 @@
 ---
-title: ATmega – Watchdog als Grundidee verstehen
-description: Verstehe, wie der Watchdog am AVR das System überwacht und warum er eher Sicherheitsnetz als normales Zeitwerkzeug ist.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - robustheit-und-fehlersicherheit
-  - atmega-watchdog-grundidee-verstehen
-learningGoals:
-  - Du erklärst die Grundidee des Watchdog-Timers am AVR.
-  - Du unterscheidest Überwachung und normales Zeitmessen sauber.
-  - Du liest Watchdog-Code ruhiger als Sicherheitslogik statt als Komfortfunktion.
-practiceIdeas:
-  - Vergleiche einen normalen Timerfall mit einem Watchdog-Fall.
-  - Prüfe, warum ein blockiertes Programm ohne Watchdog dauerhaft hängen bleiben kann.
-  - Lies einen Watchdog-Reset als Schutzreaktion und nicht als normales Programmerkennen.
-commonMistakes:
-  - Den Watchdog als gewöhnlichen Verzögerungstimer zu behandeln.
-  - Zu denken, ein Reset bedeute automatisch einen Hardwaredefekt.
-  - Nicht zu unterscheiden, ob ein Timer misst oder ob er das System überwacht.
-keyTakeaways:
-  - Der Watchdog überwacht, ob das Programm noch geordnet weiterläuft.
-  - Wird der Watchdog nicht rechtzeitig zurückgesetzt, löst er eine Schutzreaktion aus.
-  - Watchdog-Logik dient Robustheit und Fehlersicherheit, nicht normaler Zeitplanung.
-recognizeSignals:
-  - Es geht um Watchdog, Resetursache, Hänger oder Fehlersicherheit.
-  - Du sollst erklären, warum ein AVR sich bei einem Programmfehler selbst neu startet.
-  - In Beispielen ist die Überwachungsfunktion wichtiger als ein Zeitwert allein.
-selfCheckPoints:
-  - Kann ich Timer und Watchdog fachlich trennen?
-  - Kann ich erklären, warum ein Watchdog-Reset sinnvoll sein kann?
-  - Kann ich einen Hänger als Überwachungsfall lesen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - watchdog
-  - avr
-level: mittel
+title: "ATmega – Watchdog als Grundidee verstehen"
+description: "Verstehe, wie der Watchdog am AVR das System überwacht und warum er eher Sicherheitsnetz als normales Zeitwerkzeug ist."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-watchdog-grundidee-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 Der Watchdog ist am AVR keine Komfortfunktion, sondern ein **Sicherheitsnetz**. Ruhig gelesen lautet die Grundfrage:
 
 **Läuft das Programm noch geordnet weiter oder hängt es fest?**

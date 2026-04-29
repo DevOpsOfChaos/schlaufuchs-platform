@@ -3,22 +3,12 @@ title: "Lösung: Reviewfrage konkret stellen"
 description: "Musterlösung zur Aufgabe „Reviewfrage konkret stellen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "frontend-qualitaet"
-  - "review-und-checkliste"
-  - "reviewfrage-konkret-stellen-v116"
+topicPath: ["frontend-qualitaet", "review-und-checkliste", "reviewfrage-konkret-stellen-v116"]
 taskId: "reviewfrage-konkret-stellen-v116"
 relatedExercise: "web-development/frontend-qualitaet/review-und-checkliste/reviewfrage-konkret-stellen-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "review und checkliste"
-  - "reviewfrage konkret stellen"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

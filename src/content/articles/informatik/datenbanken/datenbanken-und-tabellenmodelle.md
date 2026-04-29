@@ -1,44 +1,19 @@
 ---
-title: Datenbanken und Tabellenmodelle
-description: Verstehe, wie Daten in Tabellen geordnet werden und warum Beziehungen, Eindeutigkeit und Redundanz dabei wichtig sind.
-subject: informatik
-section: Datenbanken
-topicPath:
-  - datenbanken
-  - datenbanken-und-tabellenmodelle
-tags:
-  - datenbank
-  - tabelle
-  - datensatz
-  - schluessel
-learningGoals:
-  - "Du erklärst, warum Daten in Tabellen strukturiert werden."
-  - "Du unterscheidest Datensatz, Attribut und Beziehung grob voneinander."
-  - "Du erkennst, warum doppelte oder widersprüchliche Daten problematisch sind."
-practiceIdeas:
-  - "Ordne eine kleine Alltagssituation als Tabelle mit Spalten und Zeilen."
-  - "Prüfe in einem Beispiel, welche Information eindeutig sein muss."
-  - "Vergleiche eine ungeordnete Liste mit einem einfachen Tabellenmodell."
-commonMistakes:
-  - "Eine Tabelle nur als optische Liste statt als Datenmodell zu sehen."
-  - "Spaltenüberschriften und einzelne Datensätze zu verwechseln."
-  - "Doppelte Informationen für harmlos zu halten, obwohl sie Widersprüche erzeugen können."
-keyTakeaways:
-  - "Tabellen ordnen Daten nach Merkmalen und Datensätzen."
-  - "Eindeutige Zuordnung und saubere Struktur machen Daten nutzbar."
-  - "Redundanz erhöht das Risiko für Fehler und Widersprüche."
-recognizeSignals:
-  - "Es geht um Tabellen, Datensätze, Spalten, Schlüssel oder Beziehungen."
-  - "Ein Beispiel fragt nach geordneter Speicherung statt nur nach Darstellung."
-  - "Du sollst erklären, warum Daten konsistent und eindeutig bleiben müssen."
-selfCheckPoints:
-  - "Kann ich Datensatz und Attribut in einem Beispiel unterscheiden?"
-  - "Kann ich erklären, warum doppelte Daten problematisch werden können?"
-  - "Kann ich ein kleines Tabellenmodell in eigenen Worten beschreiben?"
-level: einfach
+title: "Datenbanken und Tabellenmodelle"
+description: "Verstehe, wie Daten in Tabellen geordnet werden und warum Beziehungen, Eindeutigkeit und Redundanz dabei wichtig sind."
+subject: "informatik"
+section: "Datenbanken"
+topicPath: ["datenbanken", "datenbanken-und-tabellenmodelle"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Datenbanken"]
 draft: false
 ---
-
 ## Warum dieses Thema wichtig ist
 
 Sobald Daten nicht nur einmal, sondern immer wieder gebraucht, ergänzt oder verglichen werden, reicht eine lose Liste oft nicht mehr aus. Dann braucht man eine Struktur, in der klar ist,

@@ -3,20 +3,12 @@ title: "Lösung – localStorage nicht für Geheimnisse nutzen"
 description: "Musterlösung zu localStorage nicht für Geheimnisse nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "javascript"
-  - "browser-speicher"
-  - "localstorage-nicht-fuer-geheimnisse-nutzen-v113"
+topicPath: ["javascript", "browser-speicher", "localstorage-nicht-fuer-geheimnisse-nutzen-v113"]
 taskId: "v113-web-development-localstorage-nicht-fuer-geheimnisse-nutzen-v113"
 relatedExercise: "web-development/javascript/browser-speicher/localstorage-nicht-fuer-geheimnisse-nutzen-v113"
-tags:
-  - "web development"
-  - "strukturcheck"
-  - "unterthema"
-  - "localstorage-nicht-fuer-geheimnisse-nutzen-v113"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **localStorage nicht für Geheimnisse nutzen**.

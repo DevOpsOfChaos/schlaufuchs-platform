@@ -1,35 +1,17 @@
 ---
 title: "RC-Entprellung"
 description: "Überblick über RC-Entprellung als einfache analoge Stabilisierung mechanischer Schaltsignale."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Digitale Eingänge und Ausgänge"
-topicPath:
-  - "rc-entprellung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst RC-Entprellung als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["rc-entprellung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein Kondensator allein ist keine universelle Lösung. Ohne passenden Widerstand, Schaltschwelle und Entladeweg kann das Verhalten unklar werden."
-keyTakeaways:
-  - "RC-Entprellung nutzt einen Widerstand und einen Kondensator, um schnelle Kontaktwechsel eines mechanischen Schalters zeitlich zu glätten."
-  - "Sie reduziert kurze Prellimpulse, bevor das Signal von einem digitalen Eingang oder einer Logikschaltung ausgewertet wird."
-  - "RC-Entprellung ersetzt keine saubere Pegelbewertung und muss zur Eingangsschaltung passen. Bei sehr schnellen oder sicherheitskritischen Signalen reicht sie nicht allein."
-recognizeSignals:
-  - "Es geht um RC-Entprellung, wenn die Zeitkonstante bestimmt, wie schnell der Pegel auf Änderungen reagiert."
-  - "Das Thema wird relevant, wenn Beispiele wie ein Taster lädt oder entlädt einen Kondensator, sodass aus vielen schnellen Kontaktwechseln ein langsamerer Pegelverlauf entsteht."
-selfCheckPoints:
-  - "Kann ich RC-Entprellung in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "entprellung"
-  - "rc"
-  - "taster"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Digitale Eingänge und Ausgänge"]
 draft: false
 ---
 # RC-Entprellung

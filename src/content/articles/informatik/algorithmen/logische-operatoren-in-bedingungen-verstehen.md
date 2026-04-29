@@ -1,44 +1,19 @@
 ---
-title: Logische Operatoren in Bedingungen verstehen
-description: Verstehe, wie UND, ODER und NICHT Bedingungen präziser machen und warum gute Verzweigungen oft an klaren logischen Kombinationen hängen.
-subject: informatik
-section: Algorithmen
-topicPath:
-  - algorithmen
-  - logische-operatoren-in-bedingungen-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von UND, ODER und NICHT in Bedingungen.
-  - Du unterscheidest gemeinsame, alternative und verneinte Bedingungen sauber.
-  - Du beschreibst Verzweigungen eher über Entscheidungslogik als über einzelne Wörter.
-practiceIdeas:
-  - Prüfe bei einer Bedingung, ob wirklich alles zugleich gelten muss oder ob eine Alternative reicht.
-  - Zerlege verschachtelte Entscheidungen in kleine Aussagen.
-  - Formuliere Alltagsregeln einmal mit UND, einmal mit ODER und einmal mit NICHT.
-commonMistakes:
-  - UND und ODER zu verwechseln.
-  - NICHT nur sprachlich zu lesen und seine Umkehrwirkung zu übersehen.
-  - lange Bedingungen zu schreiben, ohne die Einzelaussagen zu ordnen.
-keyTakeaways:
-  - UND verlangt, dass mehrere Aussagen gemeinsam wahr sind.
-  - ODER reicht schon bei mindestens einer passenden Aussage.
-  - NICHT kehrt die Bedeutung einer Aussage um.
-recognizeSignals:
-  - Es geht um Entscheidungen mit mehreren Teilbedingungen.
-  - Du sollst erklären, wann ein Zweig nur unter mehreren Voraussetzungen betreten wird.
-  - In Beispielen zählt die logische Beziehung zwischen Aussagen.
-selfCheckPoints:
-  - Kann ich UND und ODER fachlich trennen?
-  - Kann ich erklären, was NICHT mit einer Aussage macht?
-  - Kann ich eine längere Bedingung in einzelne Teilregeln zerlegen?
-tags:
-  - informatik
-  - algorithmen
-  - logik
-  - bedingungen
-level: einfach
+title: "Logische Operatoren in Bedingungen verstehen"
+description: "Verstehe, wie UND, ODER und NICHT Bedingungen präziser machen und warum gute Verzweigungen oft an klaren logischen Kombinationen hängen."
+subject: "informatik"
+section: "Algorithmen"
+topicPath: ["algorithmen", "logische-operatoren-in-bedingungen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Algorithmen"]
 draft: false
 ---
-
 ## Grundidee
 
 Viele Entscheidungen in Programmen hängen nicht nur an einer einzelnen Frage, sondern an **mehreren Teilbedingungen**. Genau dann werden logische Operatoren wichtig.

@@ -1,33 +1,19 @@
 ---
 title: "Container Queries"
 description: "Container Queries erlauben CSS-Regeln abhängig von der Größe eines Containers statt vom gesamten Viewport. Sie unterstützen komponentenorientiertes Responsive Design."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "container-queries"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Container Queries."
-  - "Du kannst Container Queries in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["container-queries", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur die Bildschirmbreite zu betrachten und die tatsächliche Spalten- oder Kartenbreite zu ignorieren."
-keyTakeaways:
-  - "Container Queries erlauben CSS-Regeln abhängig von der Größe eines Containers statt vom gesamten Viewport."
-  - "Wichtig sind vor allem komponente reagiert auf verfügbaren raum, unterschied zu media queries und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Container Queries, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Container Queries dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "web development"
-  - "grundlagen"
-  - "container queries"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # Container Queries
 
 Container Queries erlauben CSS-Regeln abhängig von der Größe eines Containers statt vom gesamten Viewport. Sie unterstützen komponentenorientiertes Responsive Design. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

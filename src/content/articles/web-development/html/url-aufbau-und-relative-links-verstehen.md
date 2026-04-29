@@ -1,44 +1,19 @@
 ---
-title: URL-Aufbau und relative Links verstehen
-description: Verstehe, wie URLs aufgebaut sind und warum relative Verlinkung in Projekten oft sinnvoller ist als harte absolute Pfade.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - url-aufbau-und-relative-links-verstehen
-learningGoals:
-  - Du beschreibst grob den Aufbau einer URL.
-  - Du unterscheidest absolute und relative Verlinkung.
-  - Du erklärst Anker und einfache GET-Parameter fachlich sauber.
-practiceIdeas:
-  - Zerlege Beispiel-URLs in ihre Bestandteile.
-  - Vergleiche einen Link innerhalb desselben Projekts mit einem Link auf eine externe Seite.
-  - Lies einen relativen Pfad und benenne, wohin er vom aktuellen Dokument aus zeigt.
-commonMistakes:
-  - Relative und absolute Links zu verwechseln.
-  - Den Ankerteil mit dem Dateipfad gleichzusetzen.
-  - Zu glauben, jede Verlinkung müsse mit vollständiger URL geschrieben werden.
-keyTakeaways:
-  - URLs bestehen aus mehreren logischen Teilen.
-  - Relative Links sind innerhalb eines Projekts oft wartungsfreundlicher.
-  - Ein Anker springt zu einer gekennzeichneten Stelle.
-recognizeSignals:
-  - Es geht um href, Pfade, Anker, URLs oder GET-Parameter.
-  - Du sollst Linkziele erklären oder Pfadangaben vergleichen.
-  - Ein Beispiel enthält #anker oder ?wert=...
-selfCheckPoints:
-  - Kann ich absolute und relative Links trennen?
-  - Kann ich erklären, was der Ankerteil macht?
-  - Kann ich sagen, wann ein Projekt eher relative Adressen nutzen sollte?
-tags:
-  - html
-  - links
-  - url
-  - web-development
-level: einfach
+title: "URL-Aufbau und relative Links verstehen"
+description: "Verstehe, wie URLs aufgebaut sind und warum relative Verlinkung in Projekten oft sinnvoller ist als harte absolute Pfade."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "url-aufbau-und-relative-links-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Link verweist nicht nur „irgendwohin“, sondern auf eine **adressierte Ressource**. Damit du Links ruhig lesen kannst, hilft eine Zerlegung in ihre Teile.

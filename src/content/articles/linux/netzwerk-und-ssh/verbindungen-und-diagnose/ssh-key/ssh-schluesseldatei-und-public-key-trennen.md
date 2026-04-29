@@ -3,46 +3,17 @@ title: "Linux – SSH-Schlüsseldatei und Public Key trennen"
 description: "Lerne SSH-Key-Dateien als kleines, klar auffindbares Unterthema mit Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "netzwerk-und-ssh"
-  - "verbindungen-und-diagnose"
-  - "ssh-key"
-  - "ssh-schluesseldatei-und-public-key-trennen"
-learningGoals:
-  - "Du erklärst SSH-Key-Dateien als enges Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich sauber ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Formuliere eine Gegenprobe mit verändertem Kontext."
-  - "Ordne die Seite bewusst einem kleinen Unterthemenpfad zu."
-commonMistakes:
-  - "Privater und öffentlicher Schlüssel werden verwechselt."
-  - "Das Thema in einem breiten Sammelkapitel verschwinden lassen."
-  - "Eine Lösung ohne konkreten Prüfschritt formulieren."
-keyTakeaways:
-  - "SSH-Key-Dateien wird durch Kontext, Abgrenzung und Prüfung klar."
-  - "Feinere Unterthemen reduzieren Doppelungen und Suchaufwand."
-  - "Aufgabe und Lösung sollen dieselbe Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Eine breite Kapitelüberschrift reicht für die Entscheidung nicht aus."
-  - "Ein konkreter Prüfschritt kann die Einordnung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "linux"
-  - "betrieb"
-  - "unterthema"
-  - "netzwerk-und-ssh"
-  - "verbindungen-und-diagnose"
-  - "ssh-schluesseldatei-und-public-key-trennen"
+topicPath: ["netzwerk-und-ssh", "verbindungen-und-diagnose", "ssh-key", "ssh-schluesseldatei-und-public-key-trennen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["linux", "Feinstruktur Linux"]
 draft: false
 ---
-
 ## Grundidee
 
 **SSH-Key-Dateien** ist bewusst als kleines Unterthema angelegt. Lerne SSH-Key-Dateien als kleines, klar auffindbares Unterthema mit Abgrenzung, Prüfschritt und Gegenprobe. So bleibt die Lernseite auffindbar, ohne noch mehr Inhalt in ein übergroßes Sammelthema zu schieben.

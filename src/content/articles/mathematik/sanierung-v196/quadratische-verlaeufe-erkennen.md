@@ -1,20 +1,19 @@
 ---
-title: Quadratische Verläufe erkennen
-description: Parabelartige Muster von linearen Mustern trennen.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Quadratische Verläufe erkennen"
+description: "Parabelartige Muster von linearen Mustern trennen."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "funktionen-im-vergleich", "quadratische-verlaeufe-erkennen"]
-learningGoals: ["Parabelartige Muster von linearen Mustern trennen", "Zwischenschritte begründen", "Ergebnis im Kontext kontrollieren"]
-practiceIdeas: ["Formuliere ein eigenes Beispiel zu Quadratische Verläufe erkennen.", "Markiere Frage, Daten und Kontrolle getrennt.", "Vergleiche zwei mögliche Lösungswege."]
-commonMistakes: ["Zu früh rechnen", "Einheiten oder Bedingungen weglassen", "Das Ergebnis nicht rückprüfen"]
-keyTakeaways: ["Quadratische Verläufe erkennen beginnt mit einer klaren Frage und nicht sofort mit Rechnen.", "Der Themenblock funktionen im vergleich braucht sichtbare Zwischenschritte.", "Ein Ergebnis ist erst belastbar, wenn es im Kontext geprüft wurde."]
-recognizeSignals: ["Die Aufgabe enthält mehrere Angaben.", "Eine Darstellung muss gedeutet werden.", "Das Ergebnis braucht eine Plausibilitätsprüfung."]
-selfCheckPoints: ["Ist die Frage klar?", "Sind Einheiten und Bedingungen sichtbar?", "Passt das Ergebnis zur Situation?"]
-level: fortgeschritten
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
 tags: ["mathematik", "v196", "funktionen-im-vergleich", "quadratische-verlaeufe-erkennen"]
 draft: false
 ---
-
 ![Quadratische Verläufe erkennen](/schlaufuchs-platform/images/mathematik/sanierung-v196/quadratische-verlaeufe-erkennen.svg)
 
 ## Worum es geht

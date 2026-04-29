@@ -1,12 +1,17 @@
 ---
-title: SSH – Grundaufgaben
-description: Übe die fachliche Einordnung von sicherem Fernzugriff mit SSH.
-subject: linux
-section: ssh
-level: einfach
+title: "SSH – Grundaufgaben"
+description: "Übe die fachliche Einordnung von sicherem Fernzugriff mit SSH."
+subject: "linux"
+section: "ssh"
+topicPath: ["ssh-grundaufgaben"]
+taskId: "AUTO-SSH-GRUNDAUFGABEN"
+tags: ["linux", "ssh", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe hält die SSH-Grundidee bewusst einfach: Du sollst zuerst sicher verstehen, **was** per SSH passiert und **wann** SSH sinnvoll ist.
 
 ## Lernziel

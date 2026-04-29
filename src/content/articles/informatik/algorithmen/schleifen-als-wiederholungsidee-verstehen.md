@@ -1,44 +1,19 @@
 ---
-title: Schleifen als Wiederholungsidee verstehen
-description: Verstehe, warum viele Abläufe nicht nur einmal stattfinden, sondern denselben Schritt geordnet wiederholen.
-subject: informatik
-section: Algorithmen
-topicPath:
-  - algorithmen
-  - schleifen-als-wiederholungsidee-verstehen
-learningGoals:
-  - Du erklärst die Grundidee einer Schleife.
-  - Du unterscheidest einmalige Schritte und Wiederholungen sauber.
-  - Du beschreibst, wann eine Wiederholung endet oder weiterläuft.
-practiceIdeas:
-  - Suche in einem Alltagsablauf einen Schritt, der mehrfach wiederholt wird.
-  - Formuliere eine Wiederholung mit Start, Wiederholungsregel und Ende.
-  - Prüfe bei einem Beispiel, wodurch eine Schleife gestoppt wird.
-commonMistakes:
-  - Wiederholung und bloßes Kopieren vieler gleicher Schritte zu verwechseln.
-  - Nicht zu benennen, wann die Wiederholung endet.
-  - Eine Schleife als „läuft einfach immer weiter“ misszuverstehen.
-keyTakeaways:
-  - Schleifen ordnen Wiederholungen in einem Ablauf.
-  - Eine Schleife braucht eine Wiederholungsregel und ein Ende.
-  - Wiederholungen machen Abläufe kompakter und besser planbar.
-recognizeSignals:
-  - Ein Schritt soll mehrfach ausgeführt werden.
-  - Es geht um solange, bis, jedes Mal oder wiederholt.
-  - Du sollst erklären, warum ein Ablauf nicht aus vielen einzeln notierten gleichen Schritten besteht.
-selfCheckPoints:
-  - Kann ich eine Wiederholungsidee in einem Ablauf erkennen?
-  - Kann ich benennen, wann eine Schleife endet?
-  - Kann ich einen wiederholten Schritt als Regel statt als Liste gleicher Punkte beschreiben?
-tags:
-  - algorithmus
-  - schleife
-  - wiederholung
-  - ablauf
-level: einfach
+title: "Schleifen als Wiederholungsidee verstehen"
+description: "Verstehe, warum viele Abläufe nicht nur einmal stattfinden, sondern denselben Schritt geordnet wiederholen."
+subject: "informatik"
+section: "Algorithmen"
+topicPath: ["algorithmen", "schleifen-als-wiederholungsidee-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Algorithmen"]
 draft: false
 ---
-
 ## Grundidee
 
 Viele Abläufe enthalten Schritte, die **mehrfach** stattfinden. Statt denselben Schritt immer wieder neu aufzuschreiben, beschreibt man die Wiederholung als gemeinsame Regel.

@@ -1,37 +1,19 @@
 ---
 title: "Korrelation und Kausalität"
 description: "Überblick über Zusammenhang, Ursache und typische Fehldeutungen statistischer Beziehungen."
-subject: mathematik
+subject: "mathematik"
 section: "Statistik"
-topicPath:
-  - "korrelation-und-kausalitaet"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Korrelation und Kausalität als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["korrelation-und-kausalitaet", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Aus einem Diagramm mit gemeinsamem Anstieg wird oft direkt eine Ursache abgeleitet."
-keyTakeaways:
-  - "Korrelation beweist keine Kausalität."
-  - "Drittvariablen und Richtung müssen geprüft werden."
-  - "Ursachenaussagen brauchen mehr als ein Muster."
-recognizeSignals:
-  - "Zwei Größen steigen oder fallen gemeinsam."
-  - "Aus Daten wird eine Ursache behauptet."
-selfCheckPoints:
-  - "Kann ich Korrelation und Kausalität in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "statistik"
-  - "korrelation"
-  - "kausalitaet"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Statistik"]
 draft: false
 ---
-
 # Korrelation und Kausalität
 
 Korrelation beschreibt, dass zwei Größen gemeinsam variieren. Kausalität bedeutet, dass eine Größe eine andere verursacht oder beeinflusst.

@@ -3,35 +3,15 @@ title: "Aufgabe – aria-label und sichtbaren Text abgleichen"
 description: "Übe aria-label und sichtbaren Text abgleichen mit Einordnung, Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "web-development"
 section: "HTML und Barrierefreiheit"
-topicPath:
-  - "html-a11y"
-  - "semantik-status-fokus"
-  - "v110-teil-2"
-  - "aria-label-und-sichtbaren-text-abgleichen"
+topicPath: ["html-a11y", "semantik-status-fokus", "v110-teil-2", "aria-label-und-sichtbaren-text-abgleichen"]
 taskId: "v110-web-development-aria-label-und-sichtbaren-text-abgleichen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "html-a11y"
-  - "semantik-status-fokus"
-  - "aria-label-und-sichtbaren-text-abgleichen"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Vergleiche das Thema mit einem Nachbarthema und nenne die Trennkante."
-reflectionPrompt: "Welche kleine Trennkante macht aria-label und sichtbaren Text abgleichen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["web-development", "HTML und Barrierefreiheit", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **aria-label und sichtbaren Text abgleichen**.

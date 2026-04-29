@@ -1,32 +1,17 @@
 ---
-title: LED-Ausgang am AVR sauber erklären
-description: Erkläre an einem kleinen AVR-Beispiel, warum Richtung und Ausgangswert für eine LED getrennt gelesen werden müssen.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - digitale-eingaenge-und-ausgaenge
-  - atmega-led-mit-registerzugriff-schalten
-  - led-ausgang-am-avr-sauber-erklaeren
-taskId: ET-ATMEGA-IO-202
-level: einfach
+title: "LED-Ausgang am AVR sauber erklären"
+description: "Erkläre an einem kleinen AVR-Beispiel, warum Richtung und Ausgangswert für eine LED getrennt gelesen werden müssen."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-led-mit-registerzugriff-schalten", "led-ausgang-am-avr-sauber-erklaeren"]
+taskId: "ET-ATMEGA-IO-202"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - led
-hintPoints:
-  - Frage zuerst, ob der Pin überhaupt als Ausgang vorbereitet wurde.
-  - Trenne Konfiguration und sichtbare Wirkung bewusst.
-selfCheckPoints:
-  - Kannst du DDR und PORT sauber auseinanderhalten?
-  - Kannst du die sichtbare LED-Wirkung aus dem Code erklären?
-transferIdeas:
-  - Übertrage die Logik auf Relais, Summer oder andere digitale Ausgänge.
-reflectionPrompt: "Welche ruhige Lesefrage verhindert am besten, dass Konfiguration und Schalten zu einer einzigen Aktion verschwimmen?"
 ---
-
 Gegeben ist dieser Code:
 
 ```c

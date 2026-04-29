@@ -3,20 +3,12 @@ title: "Lösung – Nullstellen im Sachkontext begrenzen"
 description: "Musterlösung zu Nullstellen im Sachkontext begrenzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "funktionen"
-  - "quadratische-funktionen"
-  - "nullstellen-im-sachkontext-begrenzen-v113"
+topicPath: ["funktionen", "quadratische-funktionen", "nullstellen-im-sachkontext-begrenzen-v113"]
 taskId: "v113-mathematik-nullstellen-im-sachkontext-begrenzen-v113"
 relatedExercise: "mathematik/funktionen/quadratische-funktionen/nullstellen-im-sachkontext-begrenzen-v113"
-tags:
-  - "mathematik"
-  - "strukturcheck"
-  - "unterthema"
-  - "nullstellen-im-sachkontext-begrenzen-v113"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Nullstellen im Sachkontext begrenzen**.

@@ -3,35 +3,15 @@ title: "Aufgabe – Indexe als Suchhilfe statt Magie verstehen"
 description: "Übe das Unterthema „Datenbankindex“ mit einem kleinen, prüfbaren Szenario."
 subject: "informatik"
 section: "Datenbanken"
-topicPath:
-  - "datenbanken"
-  - "abfragen-und-indizes"
-  - "indexe-als-suchhilfe-statt-magie-verstehen"
+topicPath: ["datenbanken", "abfragen-und-indizes", "indexe-als-suchhilfe-statt-magie-verstehen"]
 taskId: "v106-informatik-indexe-als-suchhilfe-statt-magie-verstehen"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "daten"
-  - "algorithmen"
-  - "datenbankindex"
-  - "datenbanken"
-  - "abfragen-und-indizes"
-hintPoints:
-  - "Beginne mit der konkreten Situation, nicht mit einer allgemeinen Regel."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Habe ich das passende Unterthema erkannt?"
-  - "Ist meine Begründung fachlich und sprachlich klar?"
-  - "Würde meine Gegenprobe einen typischen Fehler finden?"
-transferIdeas:
-  - "Ändere einen Randwert und prüfe, ob deine Begründung noch gilt."
-  - "Erkläre die Lösung einmal für Einsteigerinnen und danach fachlich genauer."
-reflectionPrompt: "Welche Abgrenzung macht „Datenbankindex“ für dich klarer als ein breites Sammelthema?"
+tags: ["informatik", "Datenbanken", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Du bekommst ein kleines Szenario zum Unterthema **Datenbankindex**.

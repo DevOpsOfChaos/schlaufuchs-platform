@@ -1,12 +1,17 @@
 ---
-title: HTML-Struktur, Links und Pfade
-description: Diese neu formulierte Bestandsaufgabe verbindet eine klassische HTML-Grundstruktur mit Links, Dateipfaden und sauberem Aufbau.
-subject: web-development
-section: HTML und Struktur
-level: einfach
+title: "HTML-Struktur, Links und Pfade"
+description: "Diese neu formulierte Bestandsaufgabe verbindet eine klassische HTML-Grundstruktur mit Links, Dateipfaden und sauberem Aufbau."
+subject: "web-development"
+section: "HTML und Struktur"
+topicPath: ["html-struktur-links-und-pfade"]
+taskId: "AUTO-HTML-STRUKTUR-LINKS-UND-PFADE"
+tags: ["web-development", "HTML und Struktur", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgabe mit Fokus auf Struktur und Lesbarkeit. Es geht nicht um Gestaltung, sondern um eine saubere HTML-Basis, wie sie in vielen älteren Einstiegsaufgaben vorkommt.

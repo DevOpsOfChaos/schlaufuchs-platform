@@ -1,47 +1,19 @@
 ---
-title: htmlspecialchars, strip_tags und addslashes vergleichen
-description: Verstehe, dass diese Funktionen unterschiedliche Probleme lösen und nicht austauschbar sind.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - htmlspecialchars-strip-tags-und-addslashes-vergleichen
-learningGoals:
-  - Du unterscheidest Ausgabeschutz, Tag-Entfernung und Zeichenmaskierung.
-  - Du erklärst, warum dieselbe Eingabe je nach Ziel anders behandelt wird.
-  - Du vermeidest die Verwechslung von Bereinigen, Escapen und Validieren.
-practiceIdeas:
-  - Vergleiche, was bei HTML-Ausgabe, Datenbankspeicherung oder Tag-Entfernung jeweils nötig ist.
-  - Lies einen Beispielstring mit <script> und begründe die passende Reaktion.
-  - Erkläre, warum eine Funktion nicht automatisch jede Sicherheitsfrage löst.
-commonMistakes:
-  - Zu glauben, eine einzige Funktion sei immer die ganze Lösung.
-  - htmlspecialchars und strip_tags gleichzusetzen.
-  - addslashes als fachliche Validierung zu missverstehen.
-keyTakeaways:
-  - htmlspecialchars schützt vor allem die HTML-Ausgabe.
-  - strip_tags entfernt HTML-Tags, aber nicht automatisch jedes Risiko.
-  - addslashes maskiert bestimmte Zeichen, ist aber kein allgemeines Sicherheitskonzept.
-recognizeSignals:
-  - Es geht um Anwenderdaten, HTML-Ausgabe, XSS oder problematische Zeichen.
-  - Ein Beispiel enthält Tags, Anführungszeichen oder Sonderzeichen.
-  - Du sollst die passende Funktion begründen, nicht nur einen Namen nennen.
-selfCheckPoints:
-  - Kann ich die drei Funktionen nach Zweck trennen?
-  - Kann ich sagen, wann htmlspecialchars sinnvoll ist?
-  - Kann ich erklären, warum strip_tags keine allgemeine Validierung ersetzt?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - php
-  - sicherheit
-  - xss
-  - strings
+title: "htmlspecialchars, strip_tags und addslashes vergleichen"
+description: "Verstehe, dass diese Funktionen unterschiedliche Probleme lösen und nicht austauschbar sind."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "htmlspecialchars-strip-tags-und-addslashes-vergleichen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Mehrere PHP-Funktionen bearbeiten problematische Eingaben, aber sie tun **nicht dasselbe**. Wer sie verwechselt, baut schnell unruhige oder falsche Schutzlogik.

@@ -1,23 +1,14 @@
 ---
-title: Lösung – JSON-Schema als Vertrag lesen
-description: Musterlösung zur Aufgabe über JSON-Schema als Vertrag lesen.
-subject: informatik
-section: Feinstruktur Informatik
-topicPath:
-- system-und-architektur
-- schnittstellen-und-formate
-- json-schema-als-vertrag-lesen-v114
-taskId: v114-informatik-json-schema-als-vertrag-lesen-v114
-relatedExercise: informatik/system-und-architektur/schnittstellen-und-formate/json-schema-als-vertrag-lesen-v114
-tags:
-- informatik
-- v114
-- loesung
-- system-und-architektur
-- schnittstellen-und-formate
+title: "Lösung – JSON-Schema als Vertrag lesen"
+description: "Musterlösung zur Aufgabe über JSON-Schema als Vertrag lesen."
+subject: "informatik"
+section: "Feinstruktur Informatik"
+topicPath: ["system-und-architektur", "schnittstellen-und-formate", "json-schema-als-vertrag-lesen-v114"]
+taskId: "v114-informatik-json-schema-als-vertrag-lesen-v114"
+relatedExercise: "informatik/system-und-architektur/schnittstellen-und-formate/json-schema-als-vertrag-lesen-v114"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

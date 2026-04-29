@@ -3,44 +3,17 @@ title: "CSS – Custom Properties als Design-Tokens nutzen"
 description: "Nutze CSS-Variablen nicht nur als Abkürzung, sondern als bewusstes System für Farben, Abstände und Zustände."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "css-spezifitaet-und-kaskade"
-  - "custom-properties-als-design-tokens-nutzen"
-tags:
-  - "web development"
-  - "css"
-  - "custom properties"
-  - "design tokens"
-  - "kaskade"
-learningGoals:
-  - "Du erklärst, warum Design-Tokens Entscheidungen bündeln."
-  - "Du unterscheidest globale Tokens und komponentennahe Variablen."
-  - "Du nutzt die Kaskade kontrolliert statt zufällig."
-practiceIdeas:
-  - "Übertrage die Idee auf eine kleine eigene Seite."
-  - "Prüfe die Bedienung einmal mit Tastatur und einmal mit Maus."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "Jeden Wert einzeln zu wiederholen."
-  - "Variablennamen nach Farbe statt nach Bedeutung zu wählen."
-  - "Komponentenvariablen ohne Fallback oder klare Zuständigkeit einzusetzen."
-keyTakeaways:
-  - "Struktur, Zustand und Rückmeldung müssen zusammenpassen."
-  - "Sichtbare Nutzerführung ist Teil der technischen Lösung."
-  - "Saubere Webentwicklung prüft auch Fehlerfälle und Sonderwege."
-recognizeSignals:
-  - "Eine Oberfläche soll verständlicher, robuster oder zugänglicher werden."
-  - "HTML, CSS und JavaScript müssen gemeinsam gelesen werden."
-  - "Es gibt einen Zustand, der sichtbar gemacht oder kontrolliert werden muss."
-selfCheckPoints:
-  - "Kann ich die Entscheidung in einem Satz erklären?"
-  - "Bleibt die Lösung bei Fehlern oder Tastaturbedienung verständlich?"
-  - "Sind sichtbare Texte klar und deutsch formuliert?"
+topicPath: ["css", "css-spezifitaet-und-kaskade", "custom-properties-als-design-tokens-nutzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Nutze CSS-Variablen nicht nur als Abkürzung, sondern als bewusstes System für Farben, Abstände und Zustände. Die Seite betrachtet das Thema nicht als isolierten Syntaxtrick, sondern als kleine Entscheidung für Bedienbarkeit, Wartbarkeit und verständliche Rückmeldung.

@@ -1,15 +1,14 @@
 ---
-title: Exponentielles Wachstum verstehen – Lösung B
-description: Musterlösung zu Exponentielles Wachstum verstehen mit Kontrolle.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Exponentielles Wachstum verstehen – Lösung B"
+description: "Musterlösung zu Exponentielles Wachstum verstehen mit Kontrolle."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "funktionen-im-vergleich", "exponentielles-wachstum-verstehen"]
 taskId: "mat-v196-exponentielles-wachstum-verstehen-b"
 relatedExercise: "mathematik/sanierung-v196/exponentielles-wachstum-verstehen-aufgabe-b"
 tags: ["mathematik", "v196", "funktionen-im-vergleich", "exponentielles-wachstum-verstehen"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine passende Lösung zu dieser Aufgabe muss nicht exakt dieselben Zahlen oder Beispiele verwenden. Entscheidend ist der saubere Aufbau.

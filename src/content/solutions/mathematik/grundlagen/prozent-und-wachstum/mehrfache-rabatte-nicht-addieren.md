@@ -3,21 +3,12 @@ title: "Lösung – Mehrfache Rabatte nicht addieren"
 description: "Musterlösung zu mehrfache rabatte nicht addieren mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "grundlagen"
-  - "prozent-und-wachstum"
-  - "mehrfache-rabatte-nicht-addieren"
+topicPath: ["grundlagen", "prozent-und-wachstum", "mehrfache-rabatte-nicht-addieren"]
 taskId: "v112-mathematik-mehrfache-rabatte-nicht-addieren"
 relatedExercise: "mathematik/grundlagen/prozent-und-wachstum/mehrfache-rabatte-nicht-addieren"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "grundlagen"
-  - "mehrfache-rabatte-nicht-addieren"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Prozent und Wachstum**.

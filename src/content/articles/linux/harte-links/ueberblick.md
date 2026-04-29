@@ -1,37 +1,19 @@
 ---
 title: "Harte Links"
 description: "Allgemeiner Überblick über harte Links, Dateinamen und gemeinsame Inodes in Linux-Dateisystemen."
-subject: linux
+subject: "linux"
 section: "Dateisystem"
-topicPath:
-  - "harte-links"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Harte Links als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["harte-links", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Bei harten Links wird oft ein Original-Kopie-Verhältnis angenommen."
-keyTakeaways:
-  - "Harte Links sind mehrere Namen für denselben Inode."
-  - "Der Inhalt bleibt bis zum letzten Link erhalten."
-  - "Sie unterscheiden sich von symbolischen Links."
-recognizeSignals:
-  - "`ls -l` zeigt eine Link-Zahl größer als 1."
-  - "Zwei Namen scheinen denselben Inhalt gleichzeitig zu ändern."
-selfCheckPoints:
-  - "Kann ich Harte Links in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "dateisystem"
-  - "links"
-  - "inode"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dateisystem"]
 draft: false
 ---
-
 # Harte Links
 
 Ein harter Link ist ein zusätzlicher Name für dasselbe Dateiobjekt. Mehrere Verzeichniseinträge können auf denselben Inode zeigen.

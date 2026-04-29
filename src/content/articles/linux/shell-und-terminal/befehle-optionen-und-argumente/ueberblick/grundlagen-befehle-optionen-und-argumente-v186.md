@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Befehle, Optionen und Argumente"
 description: "Ordne Linux-Befehle nach Programmname, Optionen und Argumenten."
-subject: linux
+subject: "linux"
 section: "shell-und-terminal"
-topicPath:
-  - "shell-und-terminal"
-  - "befehle-optionen-und-argumente"
-learningGoals:
-  - "Du erklärst Befehle, Optionen und Argumente in eigenen Worten."
-  - "Du ordnest typische Befehle, Begriffe oder Prüfschritte richtig ein."
-  - "Du erkennst typische Grenzen und Fehlerquellen im Linux-Alltag."
-practiceIdeas:
-  - "Beschreibe eine kleine Alltagssituation zu diesem Thema."
-  - "Markiere, welche Information zuerst geprüft werden muss."
-commonMistakes:
-  - "Ein einzelnes Kommando für das ganze Thema zu halten."
-  - "Ausgabe, Zustand und Ursache zu vermischen."
-  - "Ohne Kontext direkt an Sonderfälle zu springen."
-keyTakeaways:
-  - "Ein Befehl besteht aus Programmname, optionalen Schaltern und Zielangaben."
-  - "Optionen verändern das Verhalten, Argumente benennen meist Ziele oder Werte."
-  - "Saubere Befehlsanalyse verhindert viele Einsteigerfehler."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung statt nur eines Befehlsrezepts."
-  - "Mehrere ähnliche Befehle oder Dateien wirken unklar."
-selfCheckPoints:
-  - "Kann ich Zweck, Kontext und typischen Prüfschritt unterscheiden?"
-  - "Kann ich eine einfache Fehlannahme zum Thema benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "befehle"
-  - "optionen"
+topicPath: ["shell-und-terminal", "befehle-optionen-und-argumente", "ueberblick", "grundlagen-befehle-optionen-und-argumente-v186"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "shell-und-terminal"]
 draft: false
 ---
-
 ![Befehle, Optionen und Argumente](/schlaufuchs-platform/images/overviews/v186/befehle-optionen-und-argumente.svg)
 
 ## Begriff

@@ -3,35 +3,15 @@ title: "Aufgabe – Größenordnung vor Detailrechnung prüfen"
 description: "Übe Größenordnung vor Detailrechnung prüfen mit Einordnung, Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Grundlagen"
-topicPath:
-  - "rechnen-und-schaetzen"
-  - "kopfrechnen-und-plausibilitaet"
-  - "v110-teil-2"
-  - "groessenordnung-vor-detailrechnung-pruefen"
+topicPath: ["rechnen-und-schaetzen", "kopfrechnen-und-plausibilitaet", "v110-teil-2", "groessenordnung-vor-detailrechnung-pruefen"]
 taskId: "v110-mathematik-groessenordnung-vor-detailrechnung-pruefen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfung"
-  - "rechnen-und-schaetzen"
-  - "kopfrechnen-und-plausibilitaet"
-  - "groessenordnung-vor-detailrechnung-pruefen"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Vergleiche das Thema mit einem Nachbarthema und nenne die Trennkante."
-reflectionPrompt: "Welche kleine Trennkante macht Größenordnung vor Detailrechnung prüfen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["mathematik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Größenordnung vor Detailrechnung prüfen**.

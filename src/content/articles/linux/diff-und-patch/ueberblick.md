@@ -1,33 +1,19 @@
 ---
 title: "diff und patch"
 description: "diff beschreibt Unterschiede zwischen Dateien, patch kann solche Änderungen anwenden. Zusammen bilden sie ein klassisches Werkzeugpaar für textbasierte Änderungen."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "diff-und-patch"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von diff und patch."
-  - "Du kannst diff und patch in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["diff-und-patch", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Patches ungeprüft auf einen abweichenden Dateistand anzuwenden."
-keyTakeaways:
-  - "diff beschreibt Unterschiede zwischen Dateien, patch kann solche Änderungen anwenden."
-  - "Wichtig sind vor allem zeilenbasierte unterschiede, unified diff und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um diff und patch, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu diff und patch dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "linux"
-  - "grundlagen"
-  - "diff patch"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # diff und patch
 
 diff beschreibt Unterschiede zwischen Dateien, patch kann solche Änderungen anwenden. Zusammen bilden sie ein klassisches Werkzeugpaar für textbasierte Änderungen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

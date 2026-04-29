@@ -3,46 +3,17 @@ title: "Mathematik – Probe und Äquivalenzumformung unterscheiden"
 description: "Lerne Gleichungsprobe als klar abgegrenztes Unterthema mit Beispiel, Prüfraster und Gegenprobe."
 subject: "mathematik"
 section: "Algebra"
-topicPath:
-  - "algebra"
-  - "gleichungen-strategisch-loesen"
-  - "probe-und-aequivalenz"
-  - "probe-und-aequivalenzumformung-unterscheiden"
-learningGoals:
-  - "Du erklärst Gleichungsprobe als eigenes Unterthema."
-  - "Du grenzt das Thema von einem breiteren Sammelbereich ab."
-  - "Du formulierst eine konkrete Gegenprobe."
-practiceIdeas:
-  - "Erstelle ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Prüfe, welche Nachbarseite nicht gemeint ist."
-  - "Übertrage das Prüfraster auf einen zweiten Fall."
-commonMistakes:
-  - "Das Thema zu breit einordnen und die Trennkante verlieren."
-  - "Nur einen Begriff nennen, ohne Beispiel oder Gegenprobe."
-  - "Aufgabe und Wissensseite sprachlich auseinanderlaufen lassen."
-keyTakeaways:
-  - "Gleichungsprobe wird durch Einordnung, Trennung und Gegenprobe stabil."
-  - "Feinere Unterthemen verbessern Orientierung und vermeiden Doppelungen."
-  - "Eine gute Lösung nennt auch, was nicht gemeint ist."
-recognizeSignals:
-  - "Die Aufgabe enthält eine kleine, aber entscheidende Unterscheidung."
-  - "Eine allgemeine Antwort wäre zu ungenau."
-  - "Ein Prüfschritt kann die Einordnung bestätigen oder widerlegen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich das Nachbarthema abgrenzen?"
-  - "Ist meine Gegenprobe konkret?"
-tags:
-  - "mathematik"
-  - "rechnen"
-  - "modellieren"
-  - "gleichungsprobe"
-  - "algebra"
-  - "gleichungen-strategisch-loesen"
+topicPath: ["algebra", "gleichungen-strategisch-loesen", "probe-und-aequivalenz", "probe-und-aequivalenzumformung-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["mathematik", "Algebra"]
 draft: false
 ---
-
 ## Grundidee
 
 **Gleichungsprobe** ist ein kleines, bewusst abgegrenztes Unterthema. Lerne Gleichungsprobe als klar abgegrenztes Unterthema mit Beispiel, Prüfraster und Gegenprobe. Die Seite verhindert, dass mehrere Nachbarfragen in einem breiten Sammelbegriff verschwimmen.

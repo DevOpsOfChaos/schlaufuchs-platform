@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Maßstab in Flächen beachten"
 description: "Musterlösung zu Maßstab in Flächen beachten mit Trennkante und Gegenprobe."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "geometrie-begruenden-v115"
-  - "flaechen-und-koerper"
-  - "massstab-in-flaechen-beachten-v115"
+topicPath: ["geometrie-begruenden-v115", "flaechen-und-koerper", "massstab-in-flaechen-beachten-v115"]
 taskId: "mathematik-massstab-in-flaechen-beachten-v115"
 relatedExercise: "mathematik/geometrie-begruenden-v115/flaechen-und-koerper/massstab-in-flaechen-beachten-v115"
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "geometrisch begründen"
-  - "flächen und körper"
-  - "lösung"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Maßstab in Flächen beachten**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

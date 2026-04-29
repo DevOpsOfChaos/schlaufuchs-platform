@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Sortieren und Invarianten anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über Sortieren und Invarianten."
-subject: informatik
+subject: "informatik"
 section: "Algorithmen klein begründen"
-topicPath:
-  - "algorithmen-klein-begruenden"
-  - "sortieren-und-invariante"
-taskId: INF-V183-02-B
-relatedExercise: src/content/exercises/informatik/algorithmen-klein-begruenden/sortieren-und-invariante/sortieren-und-invariante-anwenden-und-pruefen-v183.md
-tags:
-  - "informatik"
-  - "sortieren-und-invariante"
-  - "loesung"
+topicPath: ["algorithmen-klein-begruenden", "sortieren-und-invariante", "sortieren-und-invariante-anwenden-und-pruefen-v183"]
+taskId: "INF-V183-02-B"
+relatedExercise: "src/content/exercises/informatik/algorithmen-klein-begruenden/sortieren-und-invariante/sortieren-und-invariante-anwenden-und-pruefen-v183.md"
+tags: ["informatik", "Algorithmen klein begründen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

@@ -3,32 +3,17 @@ title: "Clientseitiges Routing"
 description: "Allgemeiner Überblick über clientseitiges Routing und Navigation ohne vollständigen Seitenwechsel."
 subject: "web-development"
 section: "Frontend-Routing"
-topicPath:
-  - "clientseitiges-routing"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["clientseitiges-routing", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird nur der sichtbare Inhalt ausgetauscht. Dann bleiben Fokus, Scrollposition oder Seitentitel falsch und die Seite fühlt sich instabil an."
-keyTakeaways:
-  - "Clientseitiges Routing kann Interaktion verbessern, muss aber die Erwartungen an echte Webseiten weiterhin erfüllen."
-  - "Clientseitiges Routing ist nicht automatisch besser als serverseitige Navigation. Für viele Inhaltsseiten ist klassische Navigation einfacher, robuster und suchmaschinenfreundlich."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "web development"
-  - "routing"
-  - "frontend"
-  - "spa"
+tags: ["web-development", "Frontend-Routing"]
 draft: false
 ---
-
 # Clientseitiges Routing
 
 ![Schaubild zum clientseitigen Routing.](/schlaufuchs-platform/images/overviews/v149/clientseitiges-routing.svg)

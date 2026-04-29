@@ -3,23 +3,12 @@ title: "Lösung – 1:n und n:m-Beziehung unterscheiden"
 description: "Musterlösung zu Datenbeziehungen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenmodellierung"
-  - "struktur-und-identitaet"
-  - "beziehungen"
-  - "1-n-und-n-m-beziehung-unterscheiden"
+topicPath: ["datenmodellierung", "struktur-und-identitaet", "beziehungen", "1-n-und-n-m-beziehung-unterscheiden"]
 taskId: "v111-informatik-1-n-und-n-m-beziehung-unterscheiden"
 relatedExercise: "informatik/datenmodellierung/struktur-und-identitaet/beziehungen/1-n-und-n-m-beziehung-unterscheiden"
-tags:
-  - "informatik"
-  - "struktur"
-  - "unterthema"
-  - "datenmodellierung"
-  - "struktur-und-identitaet"
-  - "1-n-und-n-m-beziehung-unterscheiden"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Datenbeziehungen**.

@@ -1,36 +1,19 @@
 ---
 title: "Retry-Strategien"
 description: "Retry-Strategien legen fest, wann und wie fehlgeschlagene Operationen erneut versucht werden."
-subject: informatik
+subject: "informatik"
 section: "Verteilte Systeme"
-topicPath:
-  - "retry-strategien"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Retry-Strategien als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["retry-strategien", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft werden alle Fehler blind wiederholt, auch Validierungsfehler oder nicht idempotente Schreibaktionen."
-keyTakeaways:
-  - "Retry-Strategien legen fest, wann und wie fehlgeschlagene Operationen erneut versucht werden."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Retry-Strategien, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Retry-Strategien in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "retries"
-  - "robustheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Verteilte Systeme"]
 draft: false
 ---
-
 # Retry-Strategien
 
 Retry-Strategien legen fest, wann und wie fehlgeschlagene Operationen erneut versucht werden. Diese Überblicksseite ordnet das Thema ruhig und allgemein ein. Sie ist nicht als Aufgabe oder Einzelfall gedacht, sondern als Einstieg, bevor konkrete Situationen, Werkzeuge, Formeln oder Fehlersuchen betrachtet werden.

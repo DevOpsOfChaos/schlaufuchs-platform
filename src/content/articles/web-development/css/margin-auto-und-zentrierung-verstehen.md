@@ -1,45 +1,19 @@
 ---
-title: Margin Auto und Zentrierung verstehen
-description: Verstehe, wann margin auto ein Element sichtbar zentriert und warum das nicht bei jedem Element gleich wirkt.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - margin-auto-und-zentrierung-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von margin auto bei horizontaler Zentrierung.
-  - Du beschreibst, warum die Regel nicht bei jedem Element sichtbar gleich wirkt.
-  - Du begründest Zentrierung über verfügbaren Außenraum statt über bloßes Ausprobieren.
-practiceIdeas:
-  - Vergleiche ein breitenbegrenztes Blockelement mit einem Element ohne freien Außenraum.
-  - Prüfe bei einer Karte zuerst, ob sie überhaupt freie Außenfläche zum Verteilen hat.
-  - Lies Zentrierung eher als Randverteilung als als optischen Trick.
-commonMistakes:
-  - margin auto wie eine magische Zentrierungsformel zu behandeln.
-  - zu vergessen, dass das Element eine sinnvolle Breite braucht.
-  - margin auto auf Inline-Elemente zu übertragen, ohne deren Grundverhalten mitzudenken.
-keyTakeaways:
-  - margin auto verteilt freien Außenraum.
-  - Sichtbare Zentrierung entsteht nur, wenn seitlich überhaupt Raum übrig ist.
-  - Bei Layoutfragen sollte zuerst Breite und Display-Verhalten geprüft werden.
-recognizeSignals:
-  - Es geht um mittig stehende Karten, Container oder Lesespalten.
-  - Du sollst erklären, warum etwas trotz margin auto nicht zentriert wirkt.
-  - In Beispielen ist der freie Raum wichtiger als die Zahl in der Regel.
-selfCheckPoints:
-  - Kann ich erklären, wann margin auto sichtbar wirkt?
-  - Kann ich begründen, warum ein Element dazu eine steuerbare Breite braucht?
-  - Kann ich Zentrierung als Verteilung von Außenraum beschreiben?
-tags:
-  - css
-  - margin
-  - auto
-  - zentrierung
-level: einfach
+title: "Margin Auto und Zentrierung verstehen"
+description: "Verstehe, wann margin auto ein Element sichtbar zentriert und warum das nicht bei jedem Element gleich wirkt."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "margin-auto-und-zentrierung-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Wenn viele Leute „zentrieren“ sagen, meinen sie oft nur das sichtbare Ergebnis. `margin: 0 auto;` wird verständlicher, wenn man es als **Verteilung von freiem Außenraum** liest.

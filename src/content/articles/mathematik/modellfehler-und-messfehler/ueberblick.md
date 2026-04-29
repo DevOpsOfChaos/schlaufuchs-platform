@@ -1,37 +1,19 @@
 ---
 title: "Modellfehler und Messfehler"
 description: "Überblick über Abweichungen durch vereinfachte Modelle und ungenaue Messungen."
-subject: mathematik
+subject: "mathematik"
 section: "Modellieren"
-topicPath:
-  - "modellfehler-und-messfehler"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Modellfehler und Messfehler als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["modellfehler-und-messfehler", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur Nachkommastellen zu optimieren, obwohl die Messdaten oder Annahmen grob unsicher sind."
-keyTakeaways:
-  - "Messfehler und Modellfehler haben unterschiedliche Ursachen."
-  - "Modelle sind Vereinfachungen mit Gültigkeitsbereichen."
-  - "Plausibilität ist Teil des mathematischen Arbeitens."
-recognizeSignals:
-  - "Reale Daten werden mit einer Formel beschrieben."
-  - "Ergebnisse passen formal, aber nicht zur Situation."
-selfCheckPoints:
-  - "Kann ich Modellfehler und Messfehler in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "messfehler"
-  - "plausibilität"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Modellieren"]
 draft: false
 ---
-
 # Modellfehler und Messfehler
 
 Messfehler entstehen bei der Erfassung von Daten. Modellfehler entstehen, wenn ein mathematisches Modell die Wirklichkeit vereinfacht oder falsch beschreibt.

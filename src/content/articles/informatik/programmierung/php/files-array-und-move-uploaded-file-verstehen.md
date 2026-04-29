@@ -1,47 +1,19 @@
 ---
-title: $_FILES und move_uploaded_file verstehen
-description: Verstehe, welche Informationen PHP zu einem Upload bereitstellt und warum erst geprüft und dann verschoben wird.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - files-array-und-move-uploaded-file-verstehen
-learningGoals:
-  - Du erklärst die Rolle von $_FILES bei Uploads.
-  - Du unterscheidest Dateiname, tmp_name, Fehlercode und Größe.
-  - Du beschreibst, warum move_uploaded_file erst nach Prüfungen sinnvoll ist.
-practiceIdeas:
-  - Lies ein Upload-Beispiel und benenne die Bedeutung mehrerer $_FILES-Einträge.
-  - Vergleiche ursprünglichen Namen und temporären Serverpfad.
-  - Erkläre, warum ein Upload nicht sofort blind gespeichert werden sollte.
-commonMistakes:
-  - tmp_name mit dem ursprünglichen Dateinamen zu verwechseln.
-  - Zu glauben, der Upload sei nach dem Formular schon automatisch „fertig“ gespeichert.
-  - Größe, Typ und Fehlercode bei der Prüfung zu ignorieren.
-keyTakeaways:
-  - $_FILES sammelt technische Upload-Informationen.
-  - Ein temporärer Dateiname ist nicht dasselbe wie der ursprüngliche Clientname.
-  - Erst prüfen, dann mit move_uploaded_file gezielt ablegen.
-recognizeSignals:
-  - Es geht um Upload-Formulare, multipart/form-data, $_FILES oder move_uploaded_file.
-  - Ein Beispiel zeigt name, size, error oder tmp_name.
-  - Du sollst den Ablauf vor dem Speichern begründen.
-selfCheckPoints:
-  - Kann ich die wichtigsten Felder in $_FILES erklären?
-  - Kann ich tmp_name und name trennen?
-  - Kann ich beschreiben, warum zuerst geprüft wird?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - php
-  - upload
-  - files
-  - formular
+title: "$_FILES und move_uploaded_file verstehen"
+description: "Verstehe, welche Informationen PHP zu einem Upload bereitstellt und warum erst geprüft und dann verschoben wird."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "files-array-und-move-uploaded-file-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei einem Dateiupload speichert PHP nicht sofort einfach „die fertige Datei am Zielort“. Stattdessen stellt PHP zunächst technische Informationen in <code>$_FILES</code> bereit. Daraus wird sichtbar, **was angekommen ist** und **was noch geprüft werden muss**.

@@ -3,23 +3,12 @@ title: "Lösung – Lokale Speicherung nach Datenschutzrisiko bewerten"
 description: "Musterlösung zu Speicherrisiko mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "web-development"
 section: "Browser"
-topicPath:
-  - "javascript"
-  - "browser-speicher-und-session"
-  - "datenschutz"
-  - "lokale-speicherung-nach-datenschutzrisiko-bewerten"
+topicPath: ["javascript", "browser-speicher-und-session", "datenschutz", "lokale-speicherung-nach-datenschutzrisiko-bewerten"]
 taskId: "v107-web-development-lokale-speicherung-nach-datenschutzrisiko-bewerten"
 relatedExercise: "web-development/javascript/browser-speicher-und-session/datenschutz/lokale-speicherung-nach-datenschutzrisiko-bewerten"
-tags:
-  - "web development"
-  - "html"
-  - "css"
-  - "javascript"
-  - "speicherrisiko"
-  - "browser-speicher-und-session"
+tags: ["web-development", "Browser", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Speicherrisiko**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

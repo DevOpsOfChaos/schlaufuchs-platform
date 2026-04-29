@@ -3,32 +3,17 @@ title: "Formularlabels und Fehlermeldungen"
 description: "Allgemeiner Überblick über formularlabels und fehlermeldungen und die wichtigsten Zusammenhänge."
 subject: "web-development"
 section: "Formulare"
-topicPath:
-  - "formularlabels-und-fehlermeldungen"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["formularlabels-und-fehlermeldungen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Fehler nur farblich markiert und bleiben dadurch unklar."
-keyTakeaways:
-  - "Gute Formularbeschriftung verhindert Rätselraten und unterstützt Korrekturen."
-  - "Ein Placeholder ist kein vollständiges Label, weil er bei Eingabe verschwindet."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "web development"
-  - "formulare"
-  - "barrierefreiheit"
-  - "fehler"
+tags: ["web-development", "Formulare"]
 draft: false
 ---
-
 # Formularlabels und Fehlermeldungen
 
 Labels und Fehlermeldungen erklären, welche Eingabe erwartet wird und was bei ungültigen Daten korrigiert werden muss.

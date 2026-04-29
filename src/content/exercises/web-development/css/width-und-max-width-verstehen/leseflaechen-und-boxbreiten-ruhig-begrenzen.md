@@ -1,32 +1,17 @@
 ---
-title: Leseflächen und Boxbreiten ruhig begrenzen
-description: Begründe, wann width sinnvoll ist und wann max-width bei Boxen und Lesespalten ruhiger wirkt.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - width-und-max-width-verstehen
-  - leseflaechen-und-boxbreiten-ruhig-begrenzen
-taskId: WEB-CSS-LAYOUT-202
-level: einfach
+title: "Leseflächen und Boxbreiten ruhig begrenzen"
+description: "Begründe, wann width sinnvoll ist und wann max-width bei Boxen und Lesespalten ruhiger wirkt."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "width-und-max-width-verstehen", "leseflaechen-und-boxbreiten-ruhig-begrenzen"]
+taskId: "WEB-CSS-LAYOUT-202"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - css
-  - width
-  - max-width
-  - responsive
-hintPoints:
-  - Frage zuerst, ob die Breite exakt feststehen oder nur begrenzt werden soll.
-  - Denke auch an Lesbarkeit auf sehr breiten und sehr schmalen Flächen.
-selfCheckPoints:
-  - Kannst du width und max-width fachlich trennen?
-  - Kannst du begründen, warum feste Breiten auf kleinen Geräten kippen können?
-transferIdeas:
-  - Übertrage die Aufgabe auf Bilder, Formulare oder Kartenlisten.
-reflectionPrompt: Warum ist Begrenzen oft ruhiger als Erzwingen?
 ---
-
 ## Aufgabe 1: Zwei Breitenideen vergleichen
 
 Vergleiche diese beiden Ideen:

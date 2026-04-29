@@ -1,36 +1,19 @@
 ---
 title: "Modale Dialoge"
 description: "Modale Dialoge unterbrechen den normalen Seitenfluss und verlangen eine Entscheidung oder Bearbeitung, bevor der Hintergrund weiter genutzt wird."
-subject: web-development
+subject: "web-development"
 section: "UI"
-topicPath:
-  - "modale-dialoge"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Modale Dialoge als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["modale-dialoge", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft werden Modale für normale Hinweise verwendet, wodurch Navigation und Tastaturbedienung unnötig schwer werden."
-keyTakeaways:
-  - "Modale Dialoge unterbrechen den normalen Seitenfluss und verlangen eine Entscheidung oder Bearbeitung, bevor der Hintergrund weiter genutzt wird."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Modale Dialoge, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Modale Dialoge in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "web"
-  - "dialog"
-  - "accessibility"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "UI"]
 draft: false
 ---
-
 # Modale Dialoge
 
 Modale Dialoge unterbrechen den normalen Seitenfluss und verlangen eine Entscheidung oder

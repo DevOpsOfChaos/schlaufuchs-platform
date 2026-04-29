@@ -3,22 +3,12 @@ title: "Lösung: ISR kurz halten"
 description: "Musterlösung zur Aufgabe „ISR kurz halten“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "mikrocontroller-strukturpraxis"
-  - "interrupts-und-hauptprogramm"
-  - "isr-kurz-halten-v116"
+topicPath: ["mikrocontroller-strukturpraxis", "interrupts-und-hauptprogramm", "isr-kurz-halten-v116"]
 taskId: "isr-kurz-halten-v116"
 relatedExercise: "elektrotechnik/mikrocontroller-strukturpraxis/interrupts-und-hauptprogramm/isr-kurz-halten-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "interrupts und hauptprogramm"
-  - "isr kurz halten"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

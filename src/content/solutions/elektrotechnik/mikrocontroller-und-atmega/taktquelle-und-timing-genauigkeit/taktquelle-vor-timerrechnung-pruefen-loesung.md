@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Taktquelle vor Timerrechnung prüfen"
 description: "Musterlösung zur Aufgabe: Taktquelle vor Timerrechnung prüfen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - mikrocontroller-und-atmega
-  - taktquelle-und-timing-genauigkeit
-taskId: ET-V182-011
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/taktquelle-und-timing-genauigkeit/taktquelle-vor-timerrechnung-pruefen.md
-tags:
-  - elektrotechnik
-  - taktquelle-und-timing-genauigkeit
-  - loesung
-  - sanierung-v182
+topicPath: ["mikrocontroller-und-atmega", "taktquelle-und-timing-genauigkeit", "taktquelle-vor-timerrechnung-pruefen"]
+taskId: "ET-V182-011"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/taktquelle-und-timing-genauigkeit/taktquelle-vor-timerrechnung-pruefen.md"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

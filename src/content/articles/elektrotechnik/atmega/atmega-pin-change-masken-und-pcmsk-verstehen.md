@@ -1,46 +1,19 @@
 ---
-title: ATmega – Pin-Change-Masken und PCMSK verstehen
-description: Verstehe, warum Pin-Change-Interrupts am AVR nicht nur über die Gruppe, sondern zusätzlich über Masken auf einzelne Pins eingeschränkt werden.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - interrupts-und-reaktivitaet
-  - atmega-pin-change-masken-und-pcmsk-verstehen
-learningGoals:
-  - Du erklärst die Rolle von Pin-Change-Gruppen und PCMSK-Masken am AVR.
-  - Du unterscheidest Gruppenfreigabe und Pinfreigabe sauber.
-  - Du liest Pin-Change-Interrupts eher als zweistufige Auswahl statt als bloßes „irgendein Pin löst aus“.
-practiceIdeas:
-  - Vergleiche einen aktivierten Pin-Change-Bereich mit einer zusätzlich gesetzten Einzelmaske.
-  - Lies PCICR und PCMSK als zwei Ebenen derselben Freigabelogik.
-  - Prüfe bei unerwarteten Interrupts zuerst Gruppe und dann Pinmaske.
-commonMistakes:
-  - Zu denken, die Gruppenfreigabe allein reiche schon für jeden Pin aus.
-  - PCMSK als bloße Detailtabelle statt als eigentliche Pin-Auswahl zu lesen.
-  - Externe Interrupts und Pin-Change-Interrupts fachlich zu vermischen.
-keyTakeaways:
-  - Pin-Change-Interrupts werden am AVR zweistufig freigegeben.
-  - Die Gruppe wird separat von der eigentlichen Pinmaske aktiviert.
-  - PCMSK entscheidet, welche Pins innerhalb einer Gruppe wirklich relevant sind.
-recognizeSignals:
-  - Es geht um PCICR, PCMSK oder mehrere Pins in derselben Pin-Change-Gruppe.
-  - Du sollst erklären, warum nicht jeder Pin einer freigegebenen Gruppe automatisch auslösen soll.
-  - In Aufgaben wird zwischen Bereich und Einzelpin unterschieden.
-selfCheckPoints:
-  - Kann ich Gruppenfreigabe und Pinmaske sauber trennen?
-  - Kann ich erklären, warum PCMSK didaktisch wichtig ist?
-  - Kann ich Pin-Change als zweistufige Auswahl beschreiben?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - interrupt
-  - pin-change
-level: mittel
+title: "ATmega – Pin-Change-Masken und PCMSK verstehen"
+description: "Verstehe, warum Pin-Change-Interrupts am AVR nicht nur über die Gruppe, sondern zusätzlich über Masken auf einzelne Pins eingeschränkt werden."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-pin-change-masken-und-pcmsk-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Pin-Change-Interrupts wirken am AVR zunächst bequem: Ein Pegelwechsel an einem Pin kann eine Reaktion auslösen. In Wahrheit ist die Logik etwas feiner. Es reicht nicht, nur die **Gruppe** zu aktivieren. Zusätzlich muss über **PCMSK** festgelegt werden, **welche Pins innerhalb dieser Gruppe** überhaupt beachtet werden sollen.

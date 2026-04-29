@@ -3,32 +3,17 @@ title: "Raumkoordinaten"
 description: "Allgemeiner Überblick über Koordinaten im dreidimensionalen Raum."
 subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - "raumkoordinaten"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["raumkoordinaten", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden sichtbare Längen in einer 3D-Skizze direkt gemessen. Für exakte Aussagen müssen Koordinaten und Formeln genutzt werden."
-keyTakeaways:
-  - "Raumkoordinaten machen dreidimensionale Geometrie berechenbar. Sie trennen Position, Richtung und Darstellung."
-  - "Eine Zeichnung des Raums ist immer eine Projektion auf die Ebene. Sie kann räumliche Beziehungen verzerren."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "mathematik"
-  - "geometrie"
-  - "koordinaten"
-  - "raum"
+tags: ["mathematik", "Geometrie"]
 draft: false
 ---
-
 # Raumkoordinaten
 
 Raumkoordinaten beschreiben Punkte im dreidimensionalen Raum durch drei Zahlen, meist entlang von x-, y- und z-Achse.

@@ -1,45 +1,19 @@
 ---
-title: Mathematik – Boxplots und Quartile im Überblick
-description: Erklärt Boxplots, Quartile, Median und Streuung als allgemeines Thema, bevor einzelne Diagrammaufgaben betrachtet werden.
-subject: mathematik
-section: Daten und Zufall
-topicPath:
-  - "daten-und-zufall"
-  - "boxplots-und-quartile"
-  - "ueberblick"
-learningGoals:
-  - "Den Themenbereich Boxplots und Quartile im Überblick allgemein einordnen."
-  - "Grundbegriffe, Nutzen und typische Grenzen unterscheiden."
-  - "Einzelne Lernseiten als Vertiefung statt als Einstieg lesen."
-practiceIdeas:
-  - "Erstelle eine kurze Begriffskarte mit Zweck, typischem Beispiel und häufiger Verwechslung."
-  - "Ordne vorhandene Lernseiten danach, welchen Teil des Überblicks sie vertiefen."
-  - "Formuliere zu jedem Abschnitt eine eigene Kontrollfrage."
-commonMistakes:
-  - "Quartile aus der Zeichnung statt aus den geordneten Daten abzulesen."
-  - "Ausreißer zu löschen, ohne ihre Bedeutung zu prüfen."
-keyTakeaways:
-  - "Boxplots zeigen Lage und Streuung kompakt."
-  - "Median und Quartile entstehen aus einer geordneten Datenliste."
-  - "Die Darstellung ist gut für Vergleiche, aber nicht für jede Detailhäufigkeit."
-recognizeSignals:
-  - "Ein Unterthema enthält viele einzelne Situationsseiten, aber es fehlt eine gemeinsame Einordnung."
-  - "Begriffe werden in Aufgaben verwendet, bevor Zweck und Zusammenhang klar sind."
-  - "Man muss entscheiden, welche Vertiefungsseite als nächstes sinnvoll ist."
-selfCheckPoints:
-  - "Kann ich das Thema in zwei bis drei Sätzen allgemein erklären?"
-  - "Kann ich Zweck, Vorgehen und typische Fehler getrennt benennen?"
-  - "Kann ich erklären, welche Vertiefungsseite zu welcher Frage passt?"
-level: einfach
-tags:
-  - "mathematik"
-  - "daten"
-  - "boxplot"
-  - "quartile"
-  - "überblick"
+title: "Mathematik – Boxplots und Quartile im Überblick"
+description: "Erklärt Boxplots, Quartile, Median und Streuung als allgemeines Thema, bevor einzelne Diagrammaufgaben betrachtet werden."
+subject: "mathematik"
+section: "Daten und Zufall"
+topicPath: ["daten-und-zufall", "boxplots-und-quartile", "ueberblick", "grundlagen-boxplots-und-quartile"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Daten und Zufall"]
 draft: false
 ---
-
 ## Überblick
 
 Boxplots fassen Daten so zusammen, dass Lage und Streuung auf einen Blick sichtbar werden. Statt alle Einzelwerte zu zeigen, markieren sie typische Kennwerte wie Median, Quartile, Spannweite und mögliche Ausreißer.

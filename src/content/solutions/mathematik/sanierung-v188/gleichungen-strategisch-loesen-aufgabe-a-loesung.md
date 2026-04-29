@@ -3,22 +3,12 @@ title: "Lösung: Gleichungen strategisch lösen: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-041a."
 subject: "mathematik"
 section: "algebra"
-topicPath:
-  - "algebra"
-  - "gleichungen-strategisch-loesen"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "gleichungen-strategisch-loesen-aufgabe-a"]
 taskId: "mat-v188-041a"
 relatedExercise: "mathematik/sanierung-v188/gleichungen-strategisch-loesen-aufgabe-a"
-tags:
-  - "gleichungen"
-  - "algebra"
-  - "umformen"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "algebra", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-041a`
 
 Eine mögliche Lösung:

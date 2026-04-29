@@ -1,46 +1,19 @@
 ---
-title: Prepared Statements mit bind_param und execute lesen
-description: Verstehe den Ablauf von Platzhaltern, Parameterbindung und Ausführung bei Prepared Statements in PHP/MySQLi.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - prepared-statements-mit-bind-param-und-execute-lesen
-learningGoals:
-  - Du erklärst den Grundablauf eines Prepared Statements.
-  - Du unterscheidest SQL-Vorlage, Parameterbindung und Ausführung.
-  - Du erkennst, warum die Trennung von SQL und Eingaben fachlich wichtig ist.
-practiceIdeas:
-  - Ordne die Schritte prepare, bind_param, execute und get_result in sinnvolle Reihenfolge.
-  - Erkläre, welche Rolle Platzhalter in der SQL-Vorlage haben.
-  - Vergleiche einen rohen SQL-String grob mit einem Prepared Statement.
-commonMistakes:
-  - Zu denken, bind_param führe die Anfrage schon aus.
-  - Platzhalter mit echten Werten zu verwechseln.
-  - Prepared Statements nur als „andere Syntax“ statt als Sicherheits- und Strukturidee zu sehen.
-keyTakeaways:
-  - Prepared Statements trennen SQL-Vorlage und Werte.
-  - bind_param ordnet Werte passend an die Platzhalter.
-  - execute startet erst die eigentliche Ausführung.
-recognizeSignals:
-  - Es geht um ?, bind_param, execute oder get_result.
-  - Ein Beispiel zeigt mehrere Phasen eines DB-Zugriffs.
-  - Du sollst erklären, warum dieser Ablauf vor SQL-Injection schützt.
-selfCheckPoints:
-  - Kann ich SQL-Vorlage und Eingabewerte trennen?
-  - Kann ich die Reihenfolge der Schritte nennen?
-  - Kann ich erklären, warum execute erst später kommt?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - prepared
-  - statements
+title: "Prepared Statements mit bind_param und execute lesen"
+description: "Verstehe den Ablauf von Platzhaltern, Parameterbindung und Ausführung bei Prepared Statements in PHP/MySQLi."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "prepared-statements-mit-bind-param-und-execute-lesen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei Prepared Statements wird das SQL nicht sofort mit allen konkreten Eingaben als fertiger Text abgeschickt. Stattdessen wird zuerst eine Vorlage mit Platzhaltern vorbereitet. Erst danach werden Werte gebunden und schließlich ausgeführt.

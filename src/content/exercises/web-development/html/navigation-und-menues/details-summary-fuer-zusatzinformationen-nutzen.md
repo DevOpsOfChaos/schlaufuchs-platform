@@ -3,33 +3,15 @@ title: "HTML – Aufgabe: details und summary für Zusatzinformationen nutzen"
 description: "Formuliere drei summary-Texte für Zusatzinformationen in einem Formular. Einer soll bewusst verworfen werden, weil er zu unklar ist."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "navigation-und-menues"
-  - "details-summary-fuer-zusatzinformationen-nutzen"
+topicPath: ["html", "navigation-und-menues", "details-summary-fuer-zusatzinformationen-nutzen"]
 taskId: "wd-v97-details-summary-fuer-zusatzinformationen-nutzen"
-tags:
-  - "web development"
-  - "html"
-  - "details"
-  - "summary"
-  - "ux"
-hintPoints:
-  - "Trenne zuerst sichtbare Wirkung, semantische Bedeutung und technische Umsetzung."
-  - "Begründe deine Entscheidung aus Nutzerperspektive, nicht nur aus Code-Sicht."
-  - "Prüfe am Ende, ob die Lösung ohne Ratespiel verständlich bleibt."
-selfCheckPoints:
-  - "Ist der betroffene UI-Baustein eindeutig benannt?"
-  - "Ist die technische Entscheidung fachlich begründet?"
-  - "Gibt es eine klare Verbesserung gegenüber dem Ausgangszustand?"
-transferIdeas:
-  - "Übertrage die Entscheidung auf eine zweite Komponente derselben Seite."
-  - "Formuliere eine kurze Prüfregel, die ein Team beim Review verwenden könnte."
-reflectionPrompt: "Welche kleine Änderung hätte hier die größte Wirkung auf Verständlichkeit oder Zugänglichkeit?"
+tags: ["web-development", "HTML", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Ausgangslage
 
 Formuliere drei summary-Texte für Zusatzinformationen in einem Formular. Einer soll bewusst verworfen werden, weil er zu unklar ist.

@@ -3,46 +3,17 @@ title: "UX – Seitennavigation mit Zustand und Rückweg denken"
 description: "Plane Navigation so, dass Nutzende wissen, wo sie sind, was gerade aktiv ist und wie sie kontrolliert zurückfinden."
 subject: "web-development"
 section: "UX"
-topicPath:
-  - "ux"
-  - "navigation-und-orientierung"
-  - "seitennavigation-mit-zustand-und-rueckweg-denken"
-learningGoals:
-  - "Du erklärst die Kernidee von „Orientierung“ in eigenen Worten."
-  - "Du ordnest das Thema einem klaren Unterthema zu statt es in einem Sammelbereich zu verlieren."
-  - "Du leitest eine kleine Gegenprobe für echte Aufgaben oder Projekte ab."
-practiceIdeas:
-  - "Markiere zuerst, welche Unterfrage wirklich gestellt ist."
-  - "Notiere eine typische Fehlannahme und eine passende Gegenprobe."
-  - "Übertrage die Denkbewegung auf ein zweites kleines Beispiel."
-commonMistakes:
-  - "mehrere aktive Punkte"
-  - "Zurück-Link ohne Kontext"
-  - "gleich klingende Navigationslabels"
-keyTakeaways:
-  - "Orientierung wird klarer, wenn Zustand, Ursache und Prüfschritt getrennt werden."
-  - "Kleine Unterthemen sind leichter auffindbar und besser prüfbar als breite Sammelordner."
-  - "Eine gute Erklärung endet mit einer konkreten Gegenprobe."
-recognizeSignals:
-  - "Die Aufgabe enthält einen scheinbar kleinen Sonderfall oder Fehlerzustand."
-  - "Es muss zwischen Begriffen unterschieden werden, die im Alltag leicht vermischt werden."
-  - "Eine Entscheidung soll begründet und nicht nur auswendig angewendet werden."
-selfCheckPoints:
-  - "Kann ich das Unterthema mit einem Satz von Nachbarthemen abgrenzen?"
-  - "Kann ich einen typischen Fehler benennen?"
-  - "Kann ich eine konkrete Prüfung oder Rechnung anschließen?"
-tags:
-  - "web development"
-  - "html"
-  - "css"
-  - "javascript"
-  - "ux"
-  - "orientierung"
-  - "navigation-und-orientierung"
+topicPath: ["ux", "navigation-und-orientierung", "seitennavigation-mit-zustand-und-rueckweg-denken"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["web-development", "UX"]
 draft: false
 ---
-
 ## Grundidee
 
 Navigation ist nicht nur eine Liste von Links. Sie erklärt Standort, Bereich, aktiven Zustand und Rückweg. Besonders auf Lernseiten entscheidet das über Ruhe oder Verwirrung.

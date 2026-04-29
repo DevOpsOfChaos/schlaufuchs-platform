@@ -1,32 +1,17 @@
 ---
 title: "Autocomplete und Autofill"
 description: "Allgemeiner Überblick über automatische Formularvervollständigung und ihre Bedeutung für gute UX."
-subject: web-development
+subject: "web-development"
 section: "Formulare"
-topicPath:
-  - "autocomplete-und-autofill"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Autocomplete und Autofill als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie autocomplete-Attribute, Datenschutz, Adressfelder."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["autocomplete-und-autofill", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Autocomplete grundsätzlich zu deaktivieren, weil einzelne Tests dadurch ungewohnt wirken."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Autocomplete und Autofill beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Unterstützung wiederkehrender Eingaben."
-  - "Wichtige Hinweise liefern vor allem autocomplete-Attribute, Datenschutz, Adressfelder."
-recognizeSignals:
-  - "Es geht um unterstützung wiederkehrender eingaben, autocomplete-attribute oder datenschutz."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Autocomplete und Autofill erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "web-development"
-  - "formulare"
-  - "ux"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Formulare"]
 draft: false
 ---
 # Autocomplete und Autofill

@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Ereignisgesteuerte Programme – anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über ereignisgesteuerte programme."
-subject: informatik
+subject: "informatik"
 section: "Programmablauf und Steuerung"
-topicPath:
-  - "programmablauf-und-steuerung"
-  - "ereignisgesteuerte-programme"
-  - "loesung"
-taskId: INF-V185-004-2
-relatedExercise: src/content/exercises/informatik/programmablauf-und-steuerung/ereignisgesteuerte-programme/ereignisgesteuerte-programme-anwenden-und-pruefen-v185.md
-tags:
-  - "informatik"
-  - "programmablauf-und-steuerung"
-  - "ereignisgesteuerte-programme"
-  - "loesung"
+topicPath: ["programmablauf-und-steuerung", "ereignisgesteuerte-programme", "ereignisgesteuerte-programme-anwenden-und-pruefen-v185"]
+taskId: "INF-V185-004-2"
+relatedExercise: "src/content/exercises/informatik/programmablauf-und-steuerung/ereignisgesteuerte-programme/ereignisgesteuerte-programme-anwenden-und-pruefen-v185.md"
+tags: ["informatik", "Programmablauf und Steuerung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

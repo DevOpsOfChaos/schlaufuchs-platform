@@ -3,23 +3,12 @@ title: "Lösung – Restore-Test als Teil des Backups planen"
 description: "Musterlösung zu Backup-Restore mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "praxis"
-  - "backup-und-wiederherstellung"
-  - "restore"
-  - "restore-test-als-teil-des-backups-planen"
+topicPath: ["praxis", "backup-und-wiederherstellung", "restore", "restore-test-als-teil-des-backups-planen"]
 taskId: "v111-linux-restore-test-als-teil-des-backups-planen"
 relatedExercise: "linux/praxis/backup-und-wiederherstellung/restore/restore-test-als-teil-des-backups-planen"
-tags:
-  - "linux"
-  - "betrieb"
-  - "unterthema"
-  - "praxis"
-  - "backup-und-wiederherstellung"
-  - "restore-test-als-teil-des-backups-planen"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Backup-Restore**.

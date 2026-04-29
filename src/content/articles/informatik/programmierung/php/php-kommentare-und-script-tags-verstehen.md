@@ -1,46 +1,19 @@
 ---
-title: PHP-Kommentare und Script-Tags verstehen
-description: Verstehe, wie PHP in Dateien markiert wird, warum der Server nur die markierten Bereiche verarbeitet und wofür Kommentare im Alltag nützlich sind.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - php-kommentare-und-script-tags-verstehen
-learningGoals:
-  - Du unterscheidest HTML-Inhalt, PHP-Tags und Kommentare sauber voneinander.
-  - Du erklärst, warum nur der markierte PHP-Bereich ausgeführt wird.
-  - Du erkennst, wofür Kommentare beim Testen und Erklären von Code nützlich sind.
-practiceIdeas:
-  - Ordne in einem gemischten Beispiel HTML-Text, PHP-Code und Kommentare richtig zu.
-  - Erkläre, welche Teile im Browser sichtbar werden und welche nur auf dem Server existieren.
-  - Nutze Kommentare, um einen Abschnitt gedanklich auszublenden und den Ablauf ruhiger zu lesen.
-commonMistakes:
-  - Zu denken, jede Zeile in einer .php-Datei werde automatisch als PHP ausgeführt.
-  - Kommentare mit sichtbarer Ausgabe zu verwechseln.
-  - PHP-Tags und HTML-Tags fachlich gleich zu behandeln.
-keyTakeaways:
-  - PHP läuft nur innerhalb markierter PHP-Bereiche.
-  - Kommentare erklären oder blenden Code aus, erzeugen aber keine Ausgabe.
-  - HTML und PHP können in einer Datei gemischt sein, haben aber unterschiedliche Rollen.
-recognizeSignals:
-  - Es geht um <?php ... ?>, Ausgabestellen oder Kommentare.
-  - Du sollst erklären, warum eine Zeile verarbeitet wird oder nicht.
-  - In einem Beispiel stehen HTML und PHP direkt nebeneinander.
-selfCheckPoints:
-  - Kann ich sagen, was vom Server verarbeitet wird und was nicht?
-  - Kann ich ein Kommentarstück als Erklärung statt als Programmaktion lesen?
-  - Kann ich PHP-Tags und HTML-Tags sicher unterscheiden?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - php
-  - kommentare
+title: "PHP-Kommentare und Script-Tags verstehen"
+description: "Verstehe, wie PHP in Dateien markiert wird, warum der Server nur die markierten Bereiche verarbeitet und wofür Kommentare im Alltag nützlich sind."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "php-kommentare-und-script-tags-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 In einer PHP-Datei ist nicht automatisch alles PHP-Code. Der Server verarbeitet nur die Teile, die als PHP markiert sind. Der Rest bleibt normales HTML oder normaler Text.

@@ -1,13 +1,19 @@
 ---
-title: Lineare und quadratische Funktionen
-description: Geraden und Parabeln verstehen, vergleichen und sicher einordnen.
-subject: mathematik
-section: funktionen
-level: einfach
-tags: [lineare-funktionen, quadratische-funktionen, graphen]
+title: "Lineare und quadratische Funktionen"
+description: "Geraden und Parabeln verstehen, vergleichen und sicher einordnen."
+subject: "mathematik"
+section: "funktionen"
+topicPath: ["lineare-und-quadratische-funktionen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["lineare-funktionen", "quadratische-funktionen", "graphen"]
 draft: false
 ---
-
 Lineare Funktionen beschreiben Geraden, quadratische Funktionen beschreiben Parabeln. Beide gehören zu den wichtigsten Funktionsarten im Einstieg in die Mathematik.
 
 ## Lineare Funktionen

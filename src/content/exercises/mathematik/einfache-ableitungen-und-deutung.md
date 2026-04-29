@@ -1,12 +1,17 @@
 ---
-title: Einfache Ableitungen und Deutung
-description: Diese neu formulierte Bestandsaufgabe verbindet klassische Ableitungsregeln mit einer ruhigen ersten Deutung von Änderungsverhalten.
-subject: mathematik
-section: Analysis
-level: einfach
+title: "Einfache Ableitungen und Deutung"
+description: "Diese neu formulierte Bestandsaufgabe verbindet klassische Ableitungsregeln mit einer ruhigen ersten Deutung von Änderungsverhalten."
+subject: "mathematik"
+section: "Analysis"
+topicPath: ["einfache-ableitungen-und-deutung"]
+taskId: "AUTO-EINFACHE-ABLEITUNGEN-UND-DEUTUNG"
+tags: ["mathematik", "Analysis", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgabe schrittweise. Es geht nicht nur um Rechenregeln, sondern auch darum, die Bedeutung der Ableitung sprachlich sauber zu erfassen.

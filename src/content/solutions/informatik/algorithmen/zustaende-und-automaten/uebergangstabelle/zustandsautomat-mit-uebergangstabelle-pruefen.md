@@ -3,23 +3,12 @@ title: "Lösung – Zustandsautomat mit Übergangstabelle prüfen"
 description: "Musterlösung zu Übergangstabelle mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "informatik"
 section: "Algorithmen"
-topicPath:
-  - "algorithmen"
-  - "zustaende-und-automaten"
-  - "uebergangstabelle"
-  - "zustandsautomat-mit-uebergangstabelle-pruefen"
+topicPath: ["algorithmen", "zustaende-und-automaten", "uebergangstabelle", "zustandsautomat-mit-uebergangstabelle-pruefen"]
 taskId: "v108-informatik-zustandsautomat-mit-uebergangstabelle-pruefen"
 relatedExercise: "informatik/algorithmen/zustaende-und-automaten/uebergangstabelle/zustandsautomat-mit-uebergangstabelle-pruefen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "algorithmen"
-  - "zustaende-und-automaten"
-  - "übergangstabelle"
+tags: ["informatik", "Algorithmen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **Übergangstabelle**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

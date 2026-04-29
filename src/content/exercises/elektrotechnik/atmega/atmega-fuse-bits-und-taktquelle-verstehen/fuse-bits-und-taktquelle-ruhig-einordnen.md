@@ -1,32 +1,17 @@
 ---
-title: Fuse-Bits und Taktquelle ruhig einordnen
-description: Erkläre, warum Fuse-Bits und Taktquelle als Startvorgaben gelesen werden müssen und nicht als normaler Laufzeitcode.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - systemstart-und-robustheit
-  - atmega-fuse-bits-und-taktquelle-verstehen
-  - fuse-bits-und-taktquelle-ruhig-einordnen
-taskId: ET-ATMEGA-SYS-301
-level: mittel
+title: "Fuse-Bits und Taktquelle ruhig einordnen"
+description: "Erkläre, warum Fuse-Bits und Taktquelle als Startvorgaben gelesen werden müssen und nicht als normaler Laufzeitcode."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-fuse-bits-und-taktquelle-verstehen", "fuse-bits-und-taktquelle-ruhig-einordnen"]
+taskId: "ET-ATMEGA-SYS-301"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - atmega
-  - fuse-bits
-  - takt
-hintPoints:
-  - Trenne zuerst dauerhaft gesetzte Startvorgaben und normalen C-Code.
-  - Frage dann, ob die gewählte Taktquelle zur realen Hardware passt.
-selfCheckPoints:
-  - Kannst du Fuse-Bits als Startkonfiguration erklären?
-  - Kannst du begründen, warum eine falsche Taktquelle mehr als nur eine kleine Ungenauigkeit erzeugt?
-transferIdeas:
-  - Übertrage die Logik auf UART, Timer oder Blinkzeiten, die auf einen bestimmten Takt angewiesen sind.
-reflectionPrompt: "Welche ruhige Leitfrage hilft dir am meisten, einen scheinbar stillen Controller nicht sofort als Codefehler zu lesen?"
 ---
-
 ## Aufgabe 1
 
 Erkläre in 2 bis 4 Sätzen, warum Fuse-Bits nicht wie normale Variablen oder Registerzugriffe im Hauptprogramm gelesen werden sollten.

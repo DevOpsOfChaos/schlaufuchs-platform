@@ -3,22 +3,12 @@ title: "Lösung: Offset nicht mit Steigung verwechseln"
 description: "Musterlösung zur Aufgabe „Offset nicht mit Steigung verwechseln“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "sensorik-und-signalaufbereitung"
-  - "kalibrierung-und-offset"
-  - "offset-nicht-mit-steigung-verwechseln-v116"
+topicPath: ["sensorik-und-signalaufbereitung", "kalibrierung-und-offset", "offset-nicht-mit-steigung-verwechseln-v116"]
 taskId: "offset-nicht-mit-steigung-verwechseln-v116"
 relatedExercise: "elektrotechnik/sensorik-und-signalaufbereitung/kalibrierung-und-offset/offset-nicht-mit-steigung-verwechseln-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "kalibrierung und offset"
-  - "offset nicht mit steigung verwechseln"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

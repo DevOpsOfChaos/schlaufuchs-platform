@@ -3,46 +3,17 @@ title: "Elektrotechnik – UART-Fehlerbilder aus Baudrate und Massebezug lesen"
 description: "Ordne typische UART-Probleme über Baudrate, Pegel, Massebezug und vertauschte Leitungen ein."
 subject: "elektrotechnik"
 section: "Kommunikation"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "schnittstellen-und-fehlerbilder"
-  - "uart-fehlerbilder-aus-baudrate-und-massebezug-lesen"
-learningGoals:
-  - "Du erklärst die Kernidee von „UART-Debugging“ in eigenen Worten."
-  - "Du ordnest das Thema einem klaren Unterthema zu statt es in einem Sammelbereich zu verlieren."
-  - "Du leitest eine kleine Gegenprobe für echte Aufgaben oder Projekte ab."
-practiceIdeas:
-  - "Markiere zuerst, welche Unterfrage wirklich gestellt ist."
-  - "Notiere eine typische Fehlannahme und eine passende Gegenprobe."
-  - "Übertrage die Denkbewegung auf ein zweites kleines Beispiel."
-commonMistakes:
-  - "nur Codefehler suchen"
-  - "GND vergessen"
-  - "TTL-UART und RS-232 verwechseln"
-keyTakeaways:
-  - "UART-Debugging wird klarer, wenn Zustand, Ursache und Prüfschritt getrennt werden."
-  - "Kleine Unterthemen sind leichter auffindbar und besser prüfbar als breite Sammelordner."
-  - "Eine gute Erklärung endet mit einer konkreten Gegenprobe."
-recognizeSignals:
-  - "Die Aufgabe enthält einen scheinbar kleinen Sonderfall oder Fehlerzustand."
-  - "Es muss zwischen Begriffen unterschieden werden, die im Alltag leicht vermischt werden."
-  - "Eine Entscheidung soll begründet und nicht nur auswendig angewendet werden."
-selfCheckPoints:
-  - "Kann ich das Unterthema mit einem Satz von Nachbarthemen abgrenzen?"
-  - "Kann ich einen typischen Fehler benennen?"
-  - "Kann ich eine konkrete Prüfung oder Rechnung anschließen?"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "mikrocontroller"
-  - "signale"
-  - "uart-debugging"
-  - "mikrocontroller-und-atmega"
-  - "schnittstellen-und-fehlerbilder"
+topicPath: ["mikrocontroller-und-atmega", "schnittstellen-und-fehlerbilder", "uart-fehlerbilder-aus-baudrate-und-massebezug-lesen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["elektrotechnik", "Kommunikation"]
 draft: false
 ---
-
 ## Grundidee
 
 UART wirkt einfach, scheitert aber oft an Grundlagen: falsche Baudrate, fehlender gemeinsamer Massebezug, falscher Pegel oder vertauschte TX/RX-Leitungen.

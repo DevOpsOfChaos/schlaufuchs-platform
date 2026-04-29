@@ -3,22 +3,12 @@ title: "Lösung – CSS – Font Loading und Layout Shift vermeiden"
 description: "Musterlösung zur Aufgabe: Bewerte eine Seite mit Webfont und Fallback-Schrift. Beschreibe, wo Layout Shift entstehen kann und welche CSS-Entscheidung ihn reduziert."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "performance-und-laden"
-  - "font-loading-und-layout-shift-vermeiden"
+topicPath: ["css", "performance-und-laden", "font-loading-und-layout-shift-vermeiden"]
 taskId: "web-v100-font-loading-und-layout-shift-vermeiden"
 relatedExercise: "web-development/css/performance-und-laden/font-loading-und-layout-shift-vermeiden"
-tags:
-  - "web development"
-  - "css"
-  - "fonts"
-  - "layout shift"
-  - "performance"
-  - "lösung"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine gute Lösung beginnt nicht mit möglichst viel Code, sondern mit einer klaren Einordnung: Lerne, warum Schriftarten Layoutverschiebungen auslösen können und wie du Fallback, font-display und Größen stabil planst.

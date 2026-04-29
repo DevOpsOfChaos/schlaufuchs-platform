@@ -1,33 +1,19 @@
 ---
 title: "Boxplot und Quartile"
 description: "Überblick über Boxplots als Darstellung von Lage, Streuung und Ausreißern."
-subject: mathematik
+subject: "mathematik"
 section: "Daten und Zufall"
-topicPath:
-  - boxplot-und-quartile
-  - ueberblick
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen und von verwandten Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte und typische Anwendungsfälle."
-  - "Du erkennst häufige Missverständnisse und prüfst Aussagen auf Plausibilität."
+topicPath: ["boxplot-und-quartile", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird die Box als Bereich aller Werte missverstanden."
-keyTakeaways:
-  - "Ein Boxplot fasst eine Datenverteilung über Median, Quartile und äußere Werte zusammen."
-  - "Die genaue Bedeutung hängt vom Zusammenhang, den Einheiten und den Randbedingungen ab."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Begriffe, Beispiele oder Fehlerbilder aus diesem Bereich erklärt und eingeordnet werden sollen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten erklären, ohne sofort eine Spezialaufgabe zu rechnen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "boxplot"
-  - "quartile"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Daten und Zufall"]
 draft: false
 ---
-
 # Boxplot und Quartile
 
 ![Schaubild zu Boxplot und Quartilen.](/schlaufuchs-platform/images/overviews/v150/boxplot-und-quartile.svg)

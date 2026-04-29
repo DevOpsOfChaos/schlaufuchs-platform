@@ -3,22 +3,12 @@ title: "Lösung: Graphen deuten: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-045a."
 subject: "mathematik"
 section: "funktionen-und-graphen"
-topicPath:
-  - "funktionen-und-graphen"
-  - "graphen-deuten"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "graphen-deuten-aufgabe-a"]
 taskId: "mat-v188-045a"
 relatedExercise: "mathematik/sanierung-v188/graphen-deuten-aufgabe-a"
-tags:
-  - "graphen"
-  - "funktionen"
-  - "deuten"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "funktionen-und-graphen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-045a`
 
 Eine mögliche Lösung:

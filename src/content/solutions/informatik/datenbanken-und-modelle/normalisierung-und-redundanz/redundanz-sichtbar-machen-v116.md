@@ -3,22 +3,12 @@ title: "Lösung: Redundanz sichtbar machen"
 description: "Musterlösung zur Aufgabe „Redundanz sichtbar machen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "datenbanken-und-modelle"
-  - "normalisierung-und-redundanz"
-  - "redundanz-sichtbar-machen-v116"
+topicPath: ["datenbanken-und-modelle", "normalisierung-und-redundanz", "redundanz-sichtbar-machen-v116"]
 taskId: "redundanz-sichtbar-machen-v116"
 relatedExercise: "informatik/datenbanken-und-modelle/normalisierung-und-redundanz/redundanz-sichtbar-machen-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "normalisierung und redundanz"
-  - "redundanz sichtbar machen"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

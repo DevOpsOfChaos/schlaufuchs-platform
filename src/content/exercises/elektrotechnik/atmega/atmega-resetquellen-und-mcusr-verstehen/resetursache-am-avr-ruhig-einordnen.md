@@ -1,32 +1,17 @@
 ---
-title: Resetursache am AVR ruhig einordnen
-description: Ordne verschiedene Resetquellen am ATmega funktional ein und erkläre die Rolle von MCUSR als Diagnosehilfe.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - systemstart-und-robustheit
-  - atmega-resetquellen-und-mcusr-verstehen
-  - resetursache-am-avr-ruhig-einordnen
-taskId: ET-ATMEGA-SYS-302
-level: mittel
+title: "Resetursache am AVR ruhig einordnen"
+description: "Ordne verschiedene Resetquellen am ATmega funktional ein und erkläre die Rolle von MCUSR als Diagnosehilfe."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-resetquellen-und-mcusr-verstehen", "resetursache-am-avr-ruhig-einordnen"]
+taskId: "ET-ATMEGA-SYS-302"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - atmega
-  - reset
-  - mcusr
-hintPoints:
-  - Trenne sichtbaren Neustart und eigentliche Ursache.
-  - Lies MCUSR als Diagnosehilfe, nicht als automatische Komplettlösung.
-selfCheckPoints:
-  - Kannst du mehrere Resetquellen funktional unterscheiden?
-  - Kannst du erklären, warum derselbe Neustart verschiedene Ursachen haben kann?
-transferIdeas:
-  - Übertrage die Logik auf instabile Versorgungen, Watchdog-Probleme oder Reset-Taster.
-reflectionPrompt: "Welche Leitfrage hilft dir, einen Reset eher als Diagnosechance als als bloßes Ärgernis zu lesen?"
 ---
-
 ## Aufgabe 1
 
 Nenne vier typische Resetquellen am ATmega und beschreibe zu jeder kurz, wodurch sie ausgelöst werden kann.

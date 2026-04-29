@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Proportionale Modelle</title>
+  <desc id="desc">Ruhige didaktische Skizze mit Eingang, Prüfschritt und Ergebnis für Proportionale Modelle.</desc>
+  <rect width="960" height="540" rx="32" fill="#f8fafc"/>
+  <rect x="48" y="52" width="864" height="436" rx="28" fill="#ffffff" stroke="#e2e8f0" stroke-width="4"/>
+  <path d="M140 330 C240 170, 350 170, 460 300 S680 430, 820 210" fill="none" stroke="#334155" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="180" cy="292" r="34" fill="#e0f2fe" stroke="#0369a1" stroke-width="5"/>
+  <circle cx="470" cy="302" r="34" fill="#fef3c7" stroke="#b45309" stroke-width="5"/>
+  <circle cx="760" cy="254" r="34" fill="#dcfce7" stroke="#15803d" stroke-width="5"/>
+  <path d="M216 292 H430" stroke="#94a3b8" stroke-width="5" stroke-dasharray="14 12"/>
+  <path d="M504 302 H726" stroke="#94a3b8" stroke-width="5" stroke-dasharray="14 12"/>
+  <text x="96" y="112" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#0f172a">Proportionale Modelle</text>
+  <text x="122" y="388" font-family="Arial, sans-serif" font-size="24" fill="#0f172a">Gegebenes lesen</text>
+  <text x="392" y="388" font-family="Arial, sans-serif" font-size="24" fill="#0f172a">Regel prüfen</text>
+  <text x="688" y="388" font-family="Arial, sans-serif" font-size="24" fill="#0f172a">Ergebnis deuten</text>
+  <rect x="96" y="144" width="768" height="54" rx="18" fill="#f1f5f9"/>
+  <text x="122" y="180" font-family="Arial, sans-serif" font-size="24" fill="#334155">Frage, Modell und Kontrolle bleiben getrennt sichtbar.</text>
+</svg>

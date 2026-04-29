@@ -3,20 +3,12 @@ title: "Lösung – if-Kette und else-if-Kette unterscheiden"
 description: "Musterlösung zu if-Kette und else-if-Kette unterscheiden mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "programmieren"
-  - "kontrollstrukturen"
-  - "if-kette-und-else-if-kette-unterscheiden-v113"
+topicPath: ["programmieren", "kontrollstrukturen", "if-kette-und-else-if-kette-unterscheiden-v113"]
 taskId: "v113-informatik-if-kette-und-else-if-kette-unterscheiden-v113"
 relatedExercise: "informatik/programmieren/kontrollstrukturen/if-kette-und-else-if-kette-unterscheiden-v113"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "if-kette-und-else-if-kette-unterscheiden-v113"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **if-Kette und else-if-Kette unterscheiden**.

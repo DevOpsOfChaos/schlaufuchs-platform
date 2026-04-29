@@ -3,33 +3,15 @@ title: "Grenzwertidee alltagsnah: Prüfen und Begründen"
 description: "Bewerte eine Aussage zu Grenzwertidee alltagsnah und formuliere eine bessere Arbeitsregel."
 subject: "mathematik"
 section: "analysis-vorbereitung"
-topicPath:
-  - "analysis-vorbereitung"
-  - "grenzwertidee-alltagsnah"
-  - "aufgabe-b"
+topicPath: ["sanierung-v188", "grenzwertidee-alltagsnah-aufgabe-b"]
 taskId: "mat-v188-038b"
-tags:
-  - "grenzwert"
-  - "analysis"
-  - "naeherung"
-  - "mathematik"
-  - "aufgabe"
-  - "v188"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["mathematik", "analysis-vorbereitung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Prüfe die folgende Aussage zum Thema **Grenzwertidee alltagsnah**:

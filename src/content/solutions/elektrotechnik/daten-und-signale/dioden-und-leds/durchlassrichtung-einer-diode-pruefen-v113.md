@@ -3,20 +3,12 @@ title: "Lösung – Durchlassrichtung einer Diode prüfen"
 description: "Musterlösung zu Durchlassrichtung einer Diode prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "dioden-und-leds"
-  - "durchlassrichtung-einer-diode-pruefen-v113"
+topicPath: ["daten-und-signale", "dioden-und-leds", "durchlassrichtung-einer-diode-pruefen-v113"]
 taskId: "v113-elektrotechnik-durchlassrichtung-einer-diode-pruefen-v113"
 relatedExercise: "elektrotechnik/daten-und-signale/dioden-und-leds/durchlassrichtung-einer-diode-pruefen-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "durchlassrichtung-einer-diode-pruefen-v113"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Durchlassrichtung einer Diode prüfen**.

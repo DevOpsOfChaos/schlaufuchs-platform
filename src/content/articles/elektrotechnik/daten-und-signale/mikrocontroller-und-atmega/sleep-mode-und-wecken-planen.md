@@ -1,48 +1,19 @@
 ---
 title: "Mikrocontroller – Sleep-Mode und Wecken planen"
 description: "Lerne, warum Energiesparen nicht nur „Sleep einschalten“ bedeutet, sondern ein bewusstes Konzept aus Schlafmodus, Weckquelle und Peripherie braucht."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - sleep-mode-und-wecken-planen
-learningGoals:
-  - "Du erklärst Sleep-Mode als geplanten Betriebszustand und nicht als Pause ohne Konzept."
-  - "Du beschreibst, warum Weckquellen vor dem Schlafen sauber eingerichtet sein müssen."
-  - "Du unterscheidest CPU-Schlaf, abgeschaltete Peripherie und tatsächlichen Stromverbrauch."
-practiceIdeas:
-  - "Plane für einen Sensor, wann er messen, senden und schlafen soll."
-  - "Vergleiche Idle und Power-down auf konzeptioneller Ebene."
-  - "Notiere, welche Peripherie im Schlaf noch laufen muss."
-commonMistakes:
-  - "Sleep-Mode einzuschalten, ohne eine sichere Weckquelle zu haben."
-  - "Nur die CPU schlafen zu legen und stromhungrige Peripherie aktiv zu lassen."
-  - "Nach dem Aufwachen nicht zu prüfen, warum der Controller geweckt wurde."
-keyTakeaways:
-  - "Sleep ist ein eigener Zustand im Ablaufplan."
-  - "Weckquelle und Peripherie entscheiden, ob Energiesparen wirklich funktioniert."
-  - "Ein gutes Energiesparkonzept denkt Messen, Rechnen, Senden und Schlafen zusammen."
-recognizeSignals:
-  - "Es geht um Batterie, Stromverbrauch, Power-down, Wake-up oder externe Interrupts."
-  - "Ein Gerät soll nur gelegentlich messen oder senden."
-  - "Eine Aufgabe fragt nach Weckquelle und aktiv bleibender Peripherie."
-selfCheckPoints:
-  - "Kann ich nennen, wodurch der Controller wieder aufwacht?"
-  - "Kann ich erklären, welche Teile im Schlaf noch Strom verbrauchen?"
-  - "Kann ich Sleep als Zustandsmaschine statt als delay-Ersatz lesen?"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - sleep-mode
-  - energie
-  - interrupt
-  - batterie
-level: mittel
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "sleep-mode-und-wecken-planen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Sleep-Mode spart nur dann sinnvoll Energie, wenn klar ist, wann der Mikrocontroller schlafen darf und wodurch er wieder aufwacht. Der Schlafmodus ist also Teil der Ablaufplanung, nicht nur ein einzelner Befehl.

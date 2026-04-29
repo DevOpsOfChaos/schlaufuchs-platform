@@ -3,25 +3,12 @@ title: "Lösung: Container und max-width: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-development-v194-015b im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "responsive-layout"
-  - "container-und-max-width"
-  - "loesung-b"
-
+topicPath: ["sanierung-v194", "container-und-max-width-loesung-b"]
 taskId: "web-development-v194-015b"
 relatedExercise: "web-development/sanierung-v194/container-und-max-width-aufgabe-b"
-tags:
-  - "container"
-  - "max"
-  - "width"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-015b`
 
 Ausgangsauftrag: Übertrage das Thema Container und max-width auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

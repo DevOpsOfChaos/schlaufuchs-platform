@@ -3,22 +3,12 @@ title: "Lösung: clamp lesbar begründen"
 description: "Musterlösung zur Aufgabe „clamp lesbar begründen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "css-layoutsysteme"
-  - "responsive-abstaende"
-  - "clamp-lesbar-begruenden-v116"
+topicPath: ["css-layoutsysteme", "responsive-abstaende", "clamp-lesbar-begruenden-v116"]
 taskId: "clamp-lesbar-begruenden-v116"
 relatedExercise: "web-development/css-layoutsysteme/responsive-abstaende/clamp-lesbar-begruenden-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "responsive abstaende"
-  - "clamp lesbar begruenden"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

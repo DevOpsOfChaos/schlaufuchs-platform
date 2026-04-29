@@ -3,23 +3,12 @@ title: "Lösung: Box-Modell, Abstände und Größen: Prüfung und Verbesserung"
 description: "Musterlösung zur Aufgabe web-v187-011b im Web-Development-Block v187."
 subject: "web-development"
 section: "css"
-topicPath: 
-  - "css-und-layout"
-  - "box-modell"
-  - "loesung-b"
+topicPath: ["sanierung-v187", "box-modell-abstaende-und-groessen-aufgabe-b"]
 taskId: "web-v187-011b"
 relatedExercise: "web-development/sanierung-v187/box-modell-abstaende-und-groessen-aufgabe-b"
-tags: 
-  - "css"
-  - "box-modell"
-  - "abstand"
-  - "layout"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "css", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-011b`
 
     Ausgangsauftrag: Entwirf eine einfache Kartenkomponente mit nachvollziehbaren Abständen.

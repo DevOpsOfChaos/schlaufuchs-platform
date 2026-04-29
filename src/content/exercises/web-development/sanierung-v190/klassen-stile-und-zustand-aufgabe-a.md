@@ -3,36 +3,15 @@ title: "Klassen, Stile und Zustand: Aufgabe A"
 description: "Beschreibe, welche Klasse eine Warnbox bei offenem Zustand bekommt."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "dom-und-ui"
-  - "klassen-stile-und-zustand"
-  - "aufgabe-a"
+topicPath: ["sanierung-v190", "klassen-stile-und-zustand-aufgabe-a"]
 taskId: "web-v190-010a"
-tags:
-  - "dom-und-ui"
-  - "klassen"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "aufgabe"
-  - "v190"
-hintPoints:
-  - "Trenne Zweck, Daten, Zustand und sichtbare Wirkung."
-  - "Nenne mindestens einen Fehlerfall."
-  - "Begründe, warum die Lösung wartbar bleibt."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Klassen, Stile und Zustand."
-  - "Mindestens ein Prüfpunkt ist konkret formuliert."
-  - "Die Lösung ist ohne vollständige Website nachvollziehbar."
-transferIdeas:
-  - "Übertrage die Idee auf eine zweite kleine Komponente."
-  - "Formuliere eine kurze Checkliste für spätere Wiederholung."
-reflectionPrompt: "Welche Entscheidung macht die Lösung am meisten wartbar?"
+tags: ["web-development", "javascript-vertiefung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Beschreibe, welche Klasse eine Warnbox bei offenem Zustand bekommt.

@@ -1,47 +1,19 @@
 ---
-title: if, else if und switch vergleichen
-description: Verstehe, wann eine einfache Bedingung, eine Kette von Bedingungen oder eine Mehrfachauswahl in C++ ruhiger passt.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - kontrollstrukturen
-  - if-switch-und-auswahl-vergleichen
-learningGoals:
-  - Du vergleichst <code>if</code>, <code>else if</code> und <code>switch</code> nach ihrer Auswahlidee.
-  - Du erkennst, wann eine Mehrfachauswahl sinnvoller ist als viele einzelne Bedingungen.
-  - Du begründest Auswahlstrukturen über den Falltyp statt nur über Gewohnheit.
-practiceIdeas:
-  - Ordne kleine Alltagssituationen einer passenden Auswahlstruktur zu.
-  - Vergleiche eine Ja-Nein-Prüfung mit einer Auswahl aus vielen festen Zuständen.
-  - Lies Code nicht nur auf Syntax, sondern auf die Zahl und Art der Fälle.
-commonMistakes:
-  - switch für jede Art von Bedingung verwenden zu wollen.
-  - Mehrfachauswahl mit einer einzelnen Ja-Nein-Frage zu verwechseln.
-  - Viele else-if-Zweige zu schreiben, obwohl feste Zustände klar benennbar sind.
-keyTakeaways:
-  - if passt gut zu einzelnen Bedingungen.
-  - else-if eignet sich für mehrere nacheinander geprüfte Bedingungen.
-  - switch ist besonders ruhig, wenn klar benannte feste Fälle verglichen werden.
-recognizeSignals:
-  - Es geht um Bedingungsketten, Fallunterscheidung oder passende Auswahlformen.
-  - Du sollst begründen, welche Auswahlstruktur zu einer Aufgabe passt.
-  - In Beispielen musst du Anzahl und Art der Fälle beachten.
-selfCheckPoints:
-  - Kann ich einfache Bedingung, Bedingungskette und Mehrfachauswahl unterscheiden?
-  - Kann ich erklären, wann switch sinnvoll wirkt?
-  - Kann ich die Auswahlstruktur mit der Fachlogik begründen?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - if
-  - switch
+title: "if, else if und switch vergleichen"
+description: "Verstehe, wann eine einfache Bedingung, eine Kette von Bedingungen oder eine Mehrfachauswahl in C++ ruhiger passt."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "if-switch-und-auswahl-vergleichen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Nicht jede Auswahl sieht gleich aus. Manchmal reicht eine einfache Ja-Nein-Prüfung, manchmal müssen mehrere Bedingungen nacheinander geprüft werden, und manchmal gibt es feste benannte Fälle. Dann ist die Frage nicht nur „geht das?“, sondern „welche Form liest sich ruhiger?“

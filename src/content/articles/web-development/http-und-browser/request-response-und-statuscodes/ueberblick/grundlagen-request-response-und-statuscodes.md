@@ -1,34 +1,17 @@
 ---
 title: "Grundlagen: Request, Response und Statuscodes"
 description: "Allgemeiner Überblick über HTTP-Anfragen, Antworten und Statuscodes im Web."
-subject: web-development
+subject: "web-development"
 section: "HTTP und Browser"
-topicPath:
-  - http-und-browser
-  - request-response-und-statuscodes
-  - grundlagen-request-response-und-statuscodes
-learningGoals:
-  - "Du erklärst HTTP als Anfrage-Antwort-Modell."
-  - "Du beschreibst Statuscodes als kurze Ergebnisangaben einer Antwort."
-  - "Du unterscheidest URL, Methode, Header und Body grob."
+topicPath: ["http-und-browser", "request-response-und-statuscodes", "ueberblick", "grundlagen-request-response-und-statuscodes"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "404 als Serverausfall zu deuten."
-  - "GET und POST nur nach Formularen zu unterscheiden."
-  - "Statuscodes zu ignorieren und nur den sichtbaren Seiteninhalt zu betrachten."
-keyTakeaways:
-  - "HTTP besteht aus Request und Response."
-  - "Statuscodes geben an, wie eine Anfrage beantwortet wurde."
-  - "Fehlerdiagnose im Web beginnt oft bei Netzwerk- und Antwortdaten."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - web
-  - http
-  - request
-  - response
-  - statuscode
+level: "einfach"
+tags: ["web-development", "HTTP und Browser"]
 draft: false
 ---
 ## Begriff

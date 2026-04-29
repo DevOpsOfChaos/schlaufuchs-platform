@@ -3,22 +3,12 @@ title: "Lösung: Analog und digital unterscheiden: Grundordnung"
 description: "Musterlösung zur Aufgabe dat-v189-003a."
 subject: "daten-und-signale"
 section: "grundlagen"
-topicPath:
-  - "grundlagen"
-  - "analog-und-digital"
-  - "loesung-a"
+topicPath: ["sanierung-v189", "analog-und-digital-unterscheiden-aufgabe-a"]
 taskId: "dat-v189-003a"
 relatedExercise: "daten-und-signale/sanierung-v189/analog-und-digital-unterscheiden-aufgabe-a"
-tags:
-  - "analog"
-  - "digital"
-  - "darstellung"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "grundlagen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-003a`
 
 Eine mögliche Lösung:

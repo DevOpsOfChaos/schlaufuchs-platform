@@ -1,45 +1,19 @@
 ---
-title: Datalist und Vorschlagslisten verstehen
-description: Verstehe, wie datalist Eingabefelder mit Vorschlägen ergänzt, ohne daraus automatisch eine feste Auswahlliste zu machen.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - formulare-und-eingaben
-  - datalist-und-vorschlagslisten-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von datalist.
-  - Du unterscheidest Vorschlag und feste Auswahl sauber.
-  - Du liest datalist als Unterstützung beim Eingeben, nicht als Ersatz für jede Form von Auswahlfeld.
-practiceIdeas:
-  - Vergleiche ein Eingabefeld mit Vorschlägen und ein klassisches select-Feld.
-  - Prüfe, ob Nutzer frei tippen dürfen oder nur aus vorgegebenen Werten wählen sollen.
-  - Lies Hilfsvorschläge eher als Unterstützung denn als harte Begrenzung.
-commonMistakes:
-  - datalist mit select gleichzusetzen.
-  - zu glauben, dass Vorschläge automatisch nur gültige Werte erzwingen.
-  - ein Feld mit freien Eingaben unnötig hart zu sperren.
-keyTakeaways:
-  - datalist ergänzt ein Eingabefeld um Vorschläge.
-  - Nutzer können oft trotzdem frei schreiben.
-  - Für feste Auswahl bleibt select meist die klarere Lösung.
-recognizeSignals:
-  - Es geht um Formulare, Suchfelder, Orte, Begriffe oder häufige Eingaben.
-  - Du sollst erklären, ob Vorschläge helfen oder ob eine feste Liste nötig ist.
-  - In Beispielen zählt die Eingabelogik stärker als das Styling.
-selfCheckPoints:
-  - Kann ich datalist und select sauber unterscheiden?
-  - Kann ich erklären, warum Vorschläge nicht automatisch harte Auswahl bedeuten?
-  - Kann ich eine sinnvolle Einsatzsituation für datalist nennen?
-tags:
-  - html
-  - formulare
-  - datalist
-  - eingaben
-level: mittel
+title: "Datalist und Vorschlagslisten verstehen"
+description: "Verstehe, wie datalist Eingabefelder mit Vorschlägen ergänzt, ohne daraus automatisch eine feste Auswahlliste zu machen."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "datalist-und-vorschlagslisten-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Manchmal soll ein Eingabefeld helfen, ohne den Nutzer vollständig auf eine starre Liste festzulegen. Genau dafür ist `datalist` nützlich: Es zeigt Vorschläge an, bleibt aber näher an einem normalen Eingabefeld als ein `select`.

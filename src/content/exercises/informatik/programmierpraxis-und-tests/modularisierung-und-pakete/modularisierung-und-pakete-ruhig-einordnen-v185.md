@@ -1,29 +1,17 @@
 ---
 title: "Modularisierung und Pakete – ruhig einordnen"
 description: "Übe, modularisierung und pakete fachlich zu erklären und abzugrenzen."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "modularisierung-und-pakete"
-  - "uebung"
-taskId: INF-V185-016-1
-tags:
-  - "informatik"
-  - "programmierpraxis-und-tests"
-  - "modularisierung-und-pakete"
-hintPoints:
-  - "Beginne mit der Grundidee, nicht mit einem Spezialfall."
-  - "Trenne Begriff, Beispiel und Prüfung."
-selfCheckPoints:
-  - "Ich kann das Thema in eigenen Worten erklären."
-  - "Ich kann ein passendes Beispiel begründen."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel in einem anderen Fachbereich."
-level: einfach
+topicPath: ["programmierpraxis-und-tests", "modularisierung-und-pakete", "modularisierung-und-pakete-ruhig-einordnen-v185"]
+taskId: "INF-V185-016-1"
+tags: ["informatik", "Programmierpraxis und Tests", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe prüft, ob du **Modularisierung und Pakete** zuerst als allgemeines Thema und nicht nur als Einzelfall lesen kannst.
 
 ## Lernziel

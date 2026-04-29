@@ -3,22 +3,12 @@ title: "Lösung: notwendiges Recht begründen"
 description: "Musterlösung zur Aufgabe „notwendiges Recht begründen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "sicherheit-und-robustheit"
-  - "rechte-und-prinzip-minimum"
-  - "notwendiges-recht-begruenden-v116"
+topicPath: ["sicherheit-und-robustheit", "rechte-und-prinzip-minimum", "notwendiges-recht-begruenden-v116"]
 taskId: "notwendiges-recht-begruenden-v116"
 relatedExercise: "informatik/sicherheit-und-robustheit/rechte-und-prinzip-minimum/notwendiges-recht-begruenden-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "rechte und prinzip minimum"
-  - "notwendiges recht begruenden"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

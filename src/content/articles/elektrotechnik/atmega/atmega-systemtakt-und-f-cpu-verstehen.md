@@ -1,46 +1,19 @@
 ---
-title: ATmega – Systemtakt und F_CPU verstehen
-description: Verstehe, warum am AVR fast alles an einer Taktbasis hängt und warum F_CPU keine Dekoration, sondern die Grundannahme vieler Zeitrechnungen ist.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - takt-und-zeitbasis
-  - atmega-systemtakt-und-f-cpu-verstehen
-learningGoals:
-  - Du erklärst die Grundidee des Systemtakts beim ATmega.
-  - Du beschreibst, warum F_CPU für Zeitrechnungen und Bibliotheksfunktionen wichtig ist.
-  - Du liest Taktfragen ruhiger als gemeinsame Basis für Timer, Delays und serielle Schnittstellen.
-practiceIdeas:
-  - Vergleiche denselben AVR-Code mit zwei verschiedenen Taktannahmen.
-  - Übersetze F_CPU zuerst in Hertz und erst danach in Zeitvorstellungen.
-  - Prüfe bei einer Wartezeit oder Baudrate immer, welche Taktbasis angenommen wird.
-commonMistakes:
-  - F_CPU als unwichtige Zusatzkonstante zu behandeln.
-  - Zu denken, der Mikrocontroller arbeite unabhängig vom tatsächlichen Takt immer gleich schnell.
-  - Delay, Timer und UART zu betrachten, ohne die gemeinsame Taktbasis mitzudenken.
-keyTakeaways:
-  - Der Systemtakt ist die gemeinsame Zeitbasis vieler AVR-Abläufe.
-  - F_CPU beschreibt die angenommene Taktfrequenz des Systems.
-  - Erst mit einer sauberen Taktannahme werden Zeitrechnungen, Delays und Baudraten plausibel.
-recognizeSignals:
-  - Es geht um F_CPU, Quarz, internen Takt oder Zeitberechnungen am AVR.
-  - Du sollst erklären, warum derselbe Code auf zwei Takten unterschiedlich schnell wirkt.
-  - In Aufgaben tauchen Wartezeiten, Timerwerte oder Baudraten zusammen mit einer Taktfrequenz auf.
-selfCheckPoints:
-  - Kann ich erklären, warum F_CPU für Zeitrechnungen wichtig ist?
-  - Kann ich Taktfrequenz und konkrete Zeitwirkung zusammen denken?
-  - Kann ich erkennen, wann ein Problem eigentlich ein Taktproblem ist?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - takt
-  - f_cpu
-level: einfach
+title: "ATmega – Systemtakt und F_CPU verstehen"
+description: "Verstehe, warum am AVR fast alles an einer Taktbasis hängt und warum F_CPU keine Dekoration, sondern die Grundannahme vieler Zeitrechnungen ist."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-systemtakt-und-f-cpu-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 Beim ATmega hängen viele scheinbar getrennte Themen an derselben Grundlage: **dem Systemtakt**. Timer, Delays, PWM und serielle Kommunikation wirken oft wie eigene Kapitel. Fachlich ruhiger wird das Ganze aber erst, wenn du sie als Anwendungen derselben Zeitbasis liest.
 
 <div class="example-card">

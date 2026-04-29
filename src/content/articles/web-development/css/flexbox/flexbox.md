@@ -1,16 +1,19 @@
 ---
 title: "Flexbox"
 description: "Ein flexibles Layout-System für Reihen, Spalten und Abstände."
-subject: web-development
+subject: "web-development"
 section: "CSS / Flexbox"
-level: einfach
-tags:
-  - CSS
-  - Flexbox
-  - Layout
+topicPath: ["css", "flexbox", "flexbox"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS / Flexbox"]
 draft: false
 ---
-
 ## Warum Flexbox?
 
 Flexbox hilft dabei, Elemente **einfach anzuordnen**.

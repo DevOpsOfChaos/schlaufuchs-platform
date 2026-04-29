@@ -1,44 +1,19 @@
 ---
-title: Kompression und Dateigröße verstehen
-description: Verstehe, warum dieselbe Information unterschiedlich viel Speicherplatz brauchen kann und wie Kompression zwischen Platzbedarf und Qualität vermittelt.
-subject: informatik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - kompression-und-dateigroesse-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von Kompression.
-  - Du beschreibst den Zusammenhang zwischen Dateigröße, Speicherplatz und Übertragung.
-  - Du unterscheidest verlustfreie und verlustbehaftete Kompression grundlegend.
-practiceIdeas:
-  - Vergleiche eine große Bilddatei mit einer komprimierten Variante.
-  - Begründe, warum für Archivierung und für schnelle Übertragung unterschiedliche Prioritäten gelten können.
-  - Lies Dateigröße eher als technische Eigenschaft als als sichtbare Qualität allein.
-commonMistakes:
-  - kleine Dateien automatisch mit schlechter Qualität gleichzusetzen.
-  - jede Kompression als Qualitätsverlust zu verstehen.
-  - Speicherplatz und Übertragungszeit nicht zusammenzudenken.
-keyTakeaways:
-  - Kompression reduziert Speicherbedarf oder Datenmenge.
-  - Manche Verfahren erhalten alle Informationen, andere vereinfachen bewusst.
-  - Dateigröße ist besonders wichtig für Speicher, Downloads und Ladezeiten.
-recognizeSignals:
-  - Es geht um Bilder, Audio, Downloads, Speicherplatz oder langsame Übertragung.
-  - Du sollst erklären, warum Dateien unterschiedlich groß sind.
-  - In Beispielen zählt der Zweck der Datei stärker als ihr Dateiname.
-selfCheckPoints:
-  - Kann ich Kompression in eigenen Worten erklären?
-  - Kann ich verlustfrei und verlustbehaftet grob unterscheiden?
-  - Kann ich erklären, warum Dateigröße praktisch wichtig ist?
-tags:
-  - informatik
-  - dateien
-  - kompression
-  - dateigroesse
-level: einfach
+title: "Kompression und Dateigröße verstehen"
+description: "Verstehe, warum dieselbe Information unterschiedlich viel Speicherplatz brauchen kann und wie Kompression zwischen Platzbedarf und Qualität vermittelt."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "kompression-und-dateigroesse-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Grundlagen"]
 draft: false
 ---
-
 ## Grundidee
 
 Dateien enthalten Information – aber nicht jede Datei braucht dafür gleich viel Platz. Kompression versucht, Daten so zu speichern oder zu übertragen, dass weniger Platz benötigt wird oder weniger Daten bewegt werden müssen.

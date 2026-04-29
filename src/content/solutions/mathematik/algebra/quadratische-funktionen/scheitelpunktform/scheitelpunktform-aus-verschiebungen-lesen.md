@@ -3,23 +3,12 @@ title: "Lösung – Scheitelpunktform aus Verschiebungen lesen"
 description: "Musterlösung zu Scheitelpunktform mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Algebra"
-topicPath:
-  - "algebra"
-  - "quadratische-funktionen"
-  - "scheitelpunktform"
-  - "scheitelpunktform-aus-verschiebungen-lesen"
+topicPath: ["algebra", "quadratische-funktionen", "scheitelpunktform", "scheitelpunktform-aus-verschiebungen-lesen"]
 taskId: "v108-mathematik-scheitelpunktform-aus-verschiebungen-lesen"
 relatedExercise: "mathematik/algebra/quadratische-funktionen/scheitelpunktform/scheitelpunktform-aus-verschiebungen-lesen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfen"
-  - "algebra"
-  - "quadratische-funktionen"
-  - "scheitelpunktform"
+tags: ["mathematik", "Algebra", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **Scheitelpunktform**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

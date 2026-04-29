@@ -1,0 +1,857 @@
+{
+  "package": "schlaufuchs_v210_informatik_algorithmen_systemdesign_kumulativ.zip",
+  "base": "schlaufuchs_v209_mathematik_prueftraining_kumulativ.zip",
+  "created": "2026-04-29",
+  "block": "v210",
+  "subject": "informatik",
+  "counts": {
+    "articles": 84,
+    "exercises": 168,
+    "solutions": 168,
+    "svgs": 84,
+    "docs": 2,
+    "manifest": 1
+  },
+  "records": [
+    {
+      "title": "Problem in Schritte zerlegen",
+      "section": "algorithmen",
+      "topicPath": [
+        "algorithmen",
+        "problem-in-schritte-zerlegen"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/problem-in-schritte-zerlegen.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/problem-in-schritte-zerlegen.svg"
+    },
+    {
+      "title": "Invarianten erkennen",
+      "section": "algorithmen",
+      "topicPath": [
+        "algorithmen",
+        "invarianten-erkennen"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/invarianten-erkennen.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/invarianten-erkennen.svg"
+    },
+    {
+      "title": "Rekursion und Abbruch",
+      "section": "algorithmen",
+      "topicPath": [
+        "algorithmen",
+        "rekursion-und-abbruch"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/rekursion-und-abbruch.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/rekursion-und-abbruch.svg"
+    },
+    {
+      "title": "Sortieren vergleichen und begründen",
+      "section": "algorithmen",
+      "topicPath": [
+        "algorithmen",
+        "sortieren-vergleichen-und-begruenden"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/sortieren-vergleichen-und-begruenden.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/sortieren-vergleichen-und-begruenden.svg"
+    },
+    {
+      "title": "Suchen mit Strategie",
+      "section": "algorithmen",
+      "topicPath": [
+        "algorithmen",
+        "suchen-mit-strategie"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/suchen-mit-strategie.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/suchen-mit-strategie.svg"
+    },
+    {
+      "title": "Greedy-Entscheidungen prüfen",
+      "section": "algorithmen",
+      "topicPath": [
+        "algorithmen",
+        "greedy-entscheidungen-pruefen"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/greedy-entscheidungen-pruefen.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/greedy-entscheidungen-pruefen.svg"
+    },
+    {
+      "title": "Komplexität alltagsnah einordnen",
+      "section": "algorithmen",
+      "topicPath": [
+        "algorithmen",
+        "komplexitaet-alltagsnah-einordnen"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/komplexitaet-alltagsnah-einordnen.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/komplexitaet-alltagsnah-einordnen.svg"
+    },
+    {
+      "title": "Liste, Array und Index",
+      "section": "datenstrukturen",
+      "topicPath": [
+        "datenstrukturen",
+        "liste-array-und-index"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/liste-array-und-index.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/liste-array-und-index.svg"
+    },
+    {
+      "title": "Stack und Queue im Ablauf",
+      "section": "datenstrukturen",
+      "topicPath": [
+        "datenstrukturen",
+        "stack-und-queue-im-ablauf"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/stack-und-queue-im-ablauf.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/stack-und-queue-im-ablauf.svg"
+    },
+    {
+      "title": "Map und Set für Eindeutigkeit",
+      "section": "datenstrukturen",
+      "topicPath": [
+        "datenstrukturen",
+        "map-und-set-fuer-eindeutigkeit"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/map-und-set-fuer-eindeutigkeit.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/map-und-set-fuer-eindeutigkeit.svg"
+    },
+    {
+      "title": "Baumstruktur und Pfade",
+      "section": "datenstrukturen",
+      "topicPath": [
+        "datenstrukturen",
+        "baumstruktur-und-pfade"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/baumstruktur-und-pfade.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/baumstruktur-und-pfade.svg"
+    },
+    {
+      "title": "Graphen, Knoten und Kanten",
+      "section": "datenstrukturen",
+      "topicPath": [
+        "datenstrukturen",
+        "graphen-knoten-und-kanten"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/graphen-knoten-und-kanten.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/graphen-knoten-und-kanten.svg"
+    },
+    {
+      "title": "Datenstruktur nach Zugriff wählen",
+      "section": "datenstrukturen",
+      "topicPath": [
+        "datenstrukturen",
+        "datenstruktur-nach-zugriff-waehlen"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/datenstruktur-nach-zugriff-waehlen.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/datenstruktur-nach-zugriff-waehlen.svg"
+    },
+    {
+      "title": "Speicherbild und Referenzen",
+      "section": "datenstrukturen",
+      "topicPath": [
+        "datenstrukturen",
+        "speicherbild-und-referenzen"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/speicherbild-und-referenzen.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/speicherbild-und-referenzen.svg"
+    },
+    {
+      "title": "Funktion und Verantwortung",
+      "section": "softwareentwurf",
+      "topicPath": [
+        "softwareentwurf",
+        "funktion-und-verantwortung"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/funktion-und-verantwortung.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/funktion-und-verantwortung.svg"
+    },
+    {
+      "title": "Schnittstellen und Verträge",
+      "section": "softwareentwurf",
+      "topicPath": [
+        "softwareentwurf",
+        "schnittstellen-und-vertraege"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/schnittstellen-und-vertraege.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/schnittstellen-und-vertraege.svg"
+    },
+    {
+      "title": "Module und Kopplung",
+      "section": "softwareentwurf",
+      "topicPath": [
+        "softwareentwurf",
+        "module-und-kopplung"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/module-und-kopplung.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/module-und-kopplung.svg"
+    },
+    {
+      "title": "Zustand und Seiteneffekte",
+      "section": "softwareentwurf",
+      "topicPath": [
+        "softwareentwurf",
+        "zustand-und-seiteneffekte"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/zustand-und-seiteneffekte.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/zustand-und-seiteneffekte.svg"
+    },
+    {
+      "title": "Fehlerbehandlung und Rückgabewerte",
+      "section": "softwareentwurf",
+      "topicPath": [
+        "softwareentwurf",
+        "fehlerbehandlung-und-rueckgabewerte"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/fehlerbehandlung-und-rueckgabewerte.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/fehlerbehandlung-und-rueckgabewerte.svg"
+    },
+    {
+      "title": "Konfiguration und Defaults",
+      "section": "softwareentwurf",
+      "topicPath": [
+        "softwareentwurf",
+        "konfiguration-und-defaults"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/konfiguration-und-defaults.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/konfiguration-und-defaults.svg"
+    },
+    {
+      "title": "Lesbarkeit und Namensgebung",
+      "section": "softwareentwurf",
+      "topicPath": [
+        "softwareentwurf",
+        "lesbarkeit-und-namensgebung"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/lesbarkeit-und-namensgebung.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/lesbarkeit-und-namensgebung.svg"
+    },
+    {
+      "title": "Testfall aus Anforderung ableiten",
+      "section": "tests-debugging",
+      "topicPath": [
+        "tests-debugging",
+        "testfall-aus-anforderung-ableiten"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/testfall-aus-anforderung-ableiten.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/testfall-aus-anforderung-ableiten.svg"
+    },
+    {
+      "title": "Randfall und Negativfall",
+      "section": "tests-debugging",
+      "topicPath": [
+        "tests-debugging",
+        "randfall-und-negativfall"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/randfall-und-negativfall.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/randfall-und-negativfall.svg"
+    },
+    {
+      "title": "Debugging-Hypothesen bilden",
+      "section": "tests-debugging",
+      "topicPath": [
+        "tests-debugging",
+        "debugging-hypothesen-bilden"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/debugging-hypothesen-bilden.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/debugging-hypothesen-bilden.svg"
+    },
+    {
+      "title": "Logging und Beobachtbarkeit",
+      "section": "tests-debugging",
+      "topicPath": [
+        "tests-debugging",
+        "logging-und-beobachtbarkeit"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/logging-und-beobachtbarkeit.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/logging-und-beobachtbarkeit.svg"
+    },
+    {
+      "title": "Regressionen verhindern",
+      "section": "tests-debugging",
+      "topicPath": [
+        "tests-debugging",
+        "regressionen-verhindern"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/regressionen-verhindern.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/regressionen-verhindern.svg"
+    },
+    {
+      "title": "Testdaten sinnvoll wählen",
+      "section": "tests-debugging",
+      "topicPath": [
+        "tests-debugging",
+        "testdaten-sinnvoll-waehlen"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/testdaten-sinnvoll-waehlen.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/testdaten-sinnvoll-waehlen.svg"
+    },
+    {
+      "title": "Code Review als Qualitätsfilter",
+      "section": "tests-debugging",
+      "topicPath": [
+        "tests-debugging",
+        "code-review-als-qualitaetsfilter"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/code-review-als-qualitaetsfilter.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/code-review-als-qualitaetsfilter.svg"
+    },
+    {
+      "title": "Entitäten und Beziehungen",
+      "section": "datenbanken",
+      "topicPath": [
+        "datenbanken",
+        "entitaeten-und-beziehungen"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/entitaeten-und-beziehungen.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/entitaeten-und-beziehungen.svg"
+    },
+    {
+      "title": "Schlüssel und Eindeutigkeit",
+      "section": "datenbanken",
+      "topicPath": [
+        "datenbanken",
+        "schluessel-und-eindeutigkeit"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/schluessel-und-eindeutigkeit.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/schluessel-und-eindeutigkeit.svg"
+    },
+    {
+      "title": "Normalisierung praktisch",
+      "section": "datenbanken",
+      "topicPath": [
+        "datenbanken",
+        "normalisierung-praktisch"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/normalisierung-praktisch.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/normalisierung-praktisch.svg"
+    },
+    {
+      "title": "SQL-Abfragen strukturieren",
+      "section": "datenbanken",
+      "topicPath": [
+        "datenbanken",
+        "sql-abfragen-strukturieren"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/sql-abfragen-strukturieren.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/sql-abfragen-strukturieren.svg"
+    },
+    {
+      "title": "Transaktionen und Konsistenz",
+      "section": "datenbanken",
+      "topicPath": [
+        "datenbanken",
+        "transaktionen-und-konsistenz"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/transaktionen-und-konsistenz.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/transaktionen-und-konsistenz.svg"
+    },
+    {
+      "title": "Index und Abfragekosten",
+      "section": "datenbanken",
+      "topicPath": [
+        "datenbanken",
+        "index-und-abfragekosten"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/index-und-abfragekosten.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/index-und-abfragekosten.svg"
+    },
+    {
+      "title": "Datenmigration und Versionierung",
+      "section": "datenbanken",
+      "topicPath": [
+        "datenbanken",
+        "datenmigration-und-versionierung"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/datenmigration-und-versionierung.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/datenmigration-und-versionierung.svg"
+    },
+    {
+      "title": "Client-Server-Ablauf",
+      "section": "netzwerke",
+      "topicPath": [
+        "netzwerke",
+        "client-server-ablauf"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/client-server-ablauf.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/client-server-ablauf.svg"
+    },
+    {
+      "title": "DNS, HTTP und TLS einordnen",
+      "section": "netzwerke",
+      "topicPath": [
+        "netzwerke",
+        "dns-http-und-tls-einordnen"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/dns-http-und-tls-einordnen.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/dns-http-und-tls-einordnen.svg"
+    },
+    {
+      "title": "Latenz und Durchsatz trennen",
+      "section": "netzwerke",
+      "topicPath": [
+        "netzwerke",
+        "latenz-und-durchsatz-trennen"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/latenz-und-durchsatz-trennen.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/latenz-und-durchsatz-trennen.svg"
+    },
+    {
+      "title": "Statuscodes und Fehlerbilder",
+      "section": "netzwerke",
+      "topicPath": [
+        "netzwerke",
+        "statuscodes-und-fehlerbilder"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/statuscodes-und-fehlerbilder.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/statuscodes-und-fehlerbilder.svg"
+    },
+    {
+      "title": "Protokollschichten lesen",
+      "section": "netzwerke",
+      "topicPath": [
+        "netzwerke",
+        "protokollschichten-lesen"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/protokollschichten-lesen.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/protokollschichten-lesen.svg"
+    },
+    {
+      "title": "API-Contract und Versionierung",
+      "section": "netzwerke",
+      "topicPath": [
+        "netzwerke",
+        "api-contract-und-versionierung"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/api-contract-und-versionierung.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/api-contract-und-versionierung.svg"
+    },
+    {
+      "title": "Netzwerkdiagnose mit System",
+      "section": "netzwerke",
+      "topicPath": [
+        "netzwerke",
+        "netzwerkdiagnose-mit-system"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/netzwerkdiagnose-mit-system.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/netzwerkdiagnose-mit-system.svg"
+    },
+    {
+      "title": "Prozess, Thread und Scheduler",
+      "section": "systeme",
+      "topicPath": [
+        "systeme",
+        "prozess-thread-und-scheduler"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/prozess-thread-und-scheduler.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/prozess-thread-und-scheduler.svg"
+    },
+    {
+      "title": "Dateisystem und Rechte",
+      "section": "systeme",
+      "topicPath": [
+        "systeme",
+        "dateisystem-und-rechte"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/dateisystem-und-rechte.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/dateisystem-und-rechte.svg"
+    },
+    {
+      "title": "Speicher, CPU und I/O",
+      "section": "systeme",
+      "topicPath": [
+        "systeme",
+        "speicher-cpu-und-io"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/speicher-cpu-und-io.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/speicher-cpu-und-io.svg"
+    },
+    {
+      "title": "Parallelität und Race Condition",
+      "section": "systeme",
+      "topicPath": [
+        "systeme",
+        "parallelitaet-und-race-condition"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/parallelitaet-und-race-condition.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/parallelitaet-und-race-condition.svg"
+    },
+    {
+      "title": "Caching und Ungültigkeit",
+      "section": "systeme",
+      "topicPath": [
+        "systeme",
+        "caching-und-ungueltigkeit"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/caching-und-ungueltigkeit.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/caching-und-ungueltigkeit.svg"
+    },
+    {
+      "title": "Ressourcenlimit und Backpressure",
+      "section": "systeme",
+      "topicPath": [
+        "systeme",
+        "ressourcenlimit-und-backpressure"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/ressourcenlimit-und-backpressure.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/ressourcenlimit-und-backpressure.svg"
+    },
+    {
+      "title": "Deployment-Umgebung und Runtime",
+      "section": "systeme",
+      "topicPath": [
+        "systeme",
+        "deployment-umgebung-und-runtime"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/deployment-umgebung-und-runtime.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/deployment-umgebung-und-runtime.svg"
+    },
+    {
+      "title": "Bedrohungsmodell klein aufbauen",
+      "section": "sicherheit",
+      "topicPath": [
+        "sicherheit",
+        "bedrohungsmodell-klein-aufbauen"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/bedrohungsmodell-klein-aufbauen.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/bedrohungsmodell-klein-aufbauen.svg"
+    },
+    {
+      "title": "Authentifizierung und Autorisierung",
+      "section": "sicherheit",
+      "topicPath": [
+        "sicherheit",
+        "authentifizierung-und-autorisierung"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/authentifizierung-und-autorisierung.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/authentifizierung-und-autorisierung.svg"
+    },
+    {
+      "title": "Input-Validierung und Injection",
+      "section": "sicherheit",
+      "topicPath": [
+        "sicherheit",
+        "input-validierung-und-injection"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/input-validierung-und-injection.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/input-validierung-und-injection.svg"
+    },
+    {
+      "title": "Secrets und Konfiguration",
+      "section": "sicherheit",
+      "topicPath": [
+        "sicherheit",
+        "secrets-und-konfiguration"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/secrets-und-konfiguration.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/secrets-und-konfiguration.svg"
+    },
+    {
+      "title": "Least-Privilege-Prinzip",
+      "section": "sicherheit",
+      "topicPath": [
+        "sicherheit",
+        "least-privilege-prinzip"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/least-privilege-prinzip.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/least-privilege-prinzip.svg"
+    },
+    {
+      "title": "Audit-Log und Nachvollziehbarkeit",
+      "section": "sicherheit",
+      "topicPath": [
+        "sicherheit",
+        "audit-log-und-nachvollziehbarkeit"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/audit-log-und-nachvollziehbarkeit.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/audit-log-und-nachvollziehbarkeit.svg"
+    },
+    {
+      "title": "Sicherheitsfehler kommunizieren",
+      "section": "sicherheit",
+      "topicPath": [
+        "sicherheit",
+        "sicherheitsfehler-kommunizieren"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/sicherheitsfehler-kommunizieren.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/sicherheitsfehler-kommunizieren.svg"
+    },
+    {
+      "title": "Datensatz und Labelqualität",
+      "section": "ki-datenpraxis",
+      "topicPath": [
+        "ki-datenpraxis",
+        "datensatz-und-labelqualitaet"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/datensatz-und-labelqualitaet.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/datensatz-und-labelqualitaet.svg"
+    },
+    {
+      "title": "Train-Test-Split verstehen",
+      "section": "ki-datenpraxis",
+      "topicPath": [
+        "ki-datenpraxis",
+        "train-test-split-verstehen"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/train-test-split-verstehen.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/train-test-split-verstehen.svg"
+    },
+    {
+      "title": "Bias und Repräsentation",
+      "section": "ki-datenpraxis",
+      "topicPath": [
+        "ki-datenpraxis",
+        "bias-und-repraesentation"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/bias-und-repraesentation.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/bias-und-repraesentation.svg"
+    },
+    {
+      "title": "Metriken richtig deuten",
+      "section": "ki-datenpraxis",
+      "topicPath": [
+        "ki-datenpraxis",
+        "metriken-richtig-deuten"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/metriken-richtig-deuten.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/metriken-richtig-deuten.svg"
+    },
+    {
+      "title": "Modellgrenzen dokumentieren",
+      "section": "ki-datenpraxis",
+      "topicPath": [
+        "ki-datenpraxis",
+        "modellgrenzen-dokumentieren"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/modellgrenzen-dokumentieren.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/modellgrenzen-dokumentieren.svg"
+    },
+    {
+      "title": "Prompt und Kontext prüfen",
+      "section": "ki-datenpraxis",
+      "topicPath": [
+        "ki-datenpraxis",
+        "prompt-und-kontext-pruefen"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/prompt-und-kontext-pruefen.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/prompt-und-kontext-pruefen.svg"
+    },
+    {
+      "title": "KI-Ergebnisse validieren",
+      "section": "ki-datenpraxis",
+      "topicPath": [
+        "ki-datenpraxis",
+        "ki-ergebnisse-validieren"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/ki-ergebnisse-validieren.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/ki-ergebnisse-validieren.svg"
+    },
+    {
+      "title": "Anforderung in Akzeptanzkriterium",
+      "section": "projektpraxis",
+      "topicPath": [
+        "projektpraxis",
+        "anforderung-in-akzeptanzkriterium"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/anforderung-in-akzeptanzkriterium.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/anforderung-in-akzeptanzkriterium.svg"
+    },
+    {
+      "title": "Ticket-Schnitt und Scope",
+      "section": "projektpraxis",
+      "topicPath": [
+        "projektpraxis",
+        "ticket-schnitt-und-scope"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/ticket-schnitt-und-scope.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/ticket-schnitt-und-scope.svg"
+    },
+    {
+      "title": "Risiko und Annahmenliste",
+      "section": "projektpraxis",
+      "topicPath": [
+        "projektpraxis",
+        "risiko-und-annahmenliste"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/risiko-und-annahmenliste.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/risiko-und-annahmenliste.svg"
+    },
+    {
+      "title": "Dokumentation für Betrieb",
+      "section": "projektpraxis",
+      "topicPath": [
+        "projektpraxis",
+        "dokumentation-fuer-betrieb"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/dokumentation-fuer-betrieb.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/dokumentation-fuer-betrieb.svg"
+    },
+    {
+      "title": "Entscheidungsprotokoll ADR",
+      "section": "projektpraxis",
+      "topicPath": [
+        "projektpraxis",
+        "entscheidungsprotokoll-adr"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/entscheidungsprotokoll-adr.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/entscheidungsprotokoll-adr.svg"
+    },
+    {
+      "title": "Release-Checkliste und Rollback",
+      "section": "projektpraxis",
+      "topicPath": [
+        "projektpraxis",
+        "release-checkliste-und-rollback"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/release-checkliste-und-rollback.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/release-checkliste-und-rollback.svg"
+    },
+    {
+      "title": "Wartbarkeit im Team",
+      "section": "projektpraxis",
+      "topicPath": [
+        "projektpraxis",
+        "wartbarkeit-im-team"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/wartbarkeit-im-team.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/wartbarkeit-im-team.svg"
+    },
+    {
+      "title": "Frontend-Backend-Grenze",
+      "section": "web-systeme",
+      "topicPath": [
+        "web-systeme",
+        "frontend-backend-grenze"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/frontend-backend-grenze.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/frontend-backend-grenze.svg"
+    },
+    {
+      "title": "Request, Response und Zustand",
+      "section": "web-systeme",
+      "topicPath": [
+        "web-systeme",
+        "request-response-und-zustand"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/request-response-und-zustand.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/request-response-und-zustand.svg"
+    },
+    {
+      "title": "API-Fehler und Retry",
+      "section": "web-systeme",
+      "topicPath": [
+        "web-systeme",
+        "api-fehler-und-retry"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/api-fehler-und-retry.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/api-fehler-und-retry.svg"
+    },
+    {
+      "title": "Session, Cookie und Token",
+      "section": "web-systeme",
+      "topicPath": [
+        "web-systeme",
+        "session-cookie-und-token"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/session-cookie-und-token.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/session-cookie-und-token.svg"
+    },
+    {
+      "title": "Rate Limit und Fair Use",
+      "section": "web-systeme",
+      "topicPath": [
+        "web-systeme",
+        "rate-limit-und-fair-use"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/rate-limit-und-fair-use.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/rate-limit-und-fair-use.svg"
+    },
+    {
+      "title": "Observability im Websystem",
+      "section": "web-systeme",
+      "topicPath": [
+        "web-systeme",
+        "observability-im-websystem"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/observability-im-websystem.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/observability-im-websystem.svg"
+    },
+    {
+      "title": "Schema und Kompatibilität",
+      "section": "web-systeme",
+      "topicPath": [
+        "web-systeme",
+        "schema-und-kompatibilitaet"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/schema-und-kompatibilitaet.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/schema-und-kompatibilitaet.svg"
+    },
+    {
+      "title": "Aufgabe lesen vor Code",
+      "section": "prueftraining",
+      "topicPath": [
+        "prueftraining",
+        "aufgabe-lesen-vor-code"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/aufgabe-lesen-vor-code.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/aufgabe-lesen-vor-code.svg"
+    },
+    {
+      "title": "Lösungsweg in Pseudocode",
+      "section": "prueftraining",
+      "topicPath": [
+        "prueftraining",
+        "loesungsweg-in-pseudocode"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/loesungsweg-in-pseudocode.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/loesungsweg-in-pseudocode.svg"
+    },
+    {
+      "title": "Fehleranalyse statt Raten",
+      "section": "prueftraining",
+      "topicPath": [
+        "prueftraining",
+        "fehleranalyse-statt-raten"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/fehleranalyse-statt-raten.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/fehleranalyse-statt-raten.svg"
+    },
+    {
+      "title": "Begründung für Datenstruktur",
+      "section": "prueftraining",
+      "topicPath": [
+        "prueftraining",
+        "begruendung-fuer-datenstruktur"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/begruendung-fuer-datenstruktur.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/begruendung-fuer-datenstruktur.svg"
+    },
+    {
+      "title": "Testplan kurz formulieren",
+      "section": "prueftraining",
+      "topicPath": [
+        "prueftraining",
+        "testplan-kurz-formulieren"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/testplan-kurz-formulieren.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/testplan-kurz-formulieren.svg"
+    },
+    {
+      "title": "Systemgrenze erkennen",
+      "section": "prueftraining",
+      "topicPath": [
+        "prueftraining",
+        "systemgrenze-erkennen"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/systemgrenze-erkennen.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/systemgrenze-erkennen.svg"
+    },
+    {
+      "title": "Antwort strukturiert abgeben",
+      "section": "prueftraining",
+      "topicPath": [
+        "prueftraining",
+        "antwort-strukturiert-abgeben"
+      ],
+      "article": "src/content/articles/informatik/sanierung-v210-algorithmen-systemdesign/antwort-strukturiert-abgeben.md",
+      "svg": "public/images/informatik/sanierung-v210-algorithmen-systemdesign/antwort-strukturiert-abgeben.svg"
+    }
+  ]
+}

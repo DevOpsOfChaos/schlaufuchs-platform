@@ -3,24 +3,12 @@ title: "Lösung: Queues und Stacks im Ablauf: Aufgabe B"
 description: "Musterlösung zur Aufgabe informatik-v193-019b im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "datenstrukturen-und-algorithmen"
-  - "queues-und-stacks-im-ablauf"
-  - "loesung-b"
+topicPath: ["sanierung-v193", "queues-und-stacks-im-ablauf-loesung-b"]
 taskId: "informatik-v193-019b"
 relatedExercise: "informatik/sanierung-v193/queues-und-stacks-im-ablauf-aufgabe-b"
-tags:
-  - "queues"
-  - "stacks"
-  - "ablauf"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-019b`
 
 Ausgangsauftrag: Übertrage das Thema Queues und Stacks im Ablauf auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

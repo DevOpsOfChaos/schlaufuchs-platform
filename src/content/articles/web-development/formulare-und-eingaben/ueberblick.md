@@ -1,34 +1,19 @@
 ---
 title: "Formulare und Eingaben"
 description: "Überblick über Webformulare als strukturierte Schnittstelle zwischen Nutzenden, Browser und Anwendung."
-subject: web-development
+subject: "web-development"
 section: "HTML und Interaktion"
-topicPath:
-  - "formulare-und-eingaben"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst Formulare als Eingabeschnittstelle im Web."
-  - "Du verstehst Label, Eingabetypen und Validierung als Grundbausteine."
-  - "Du kannst Benutzerfreundlichkeit und Robustheit bei Eingaben einordnen."
+topicPath: ["formulare-und-eingaben", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Platzhaltertexte als Ersatz für Labels zu verwenden."
-  - "Nur im Browser zu validieren und serverseitige Prüfung zu vergessen."
-keyTakeaways:
-  - "Formulare sammeln strukturierte Eingaben und müssen verständlich beschriftet sein."
-  - "Validierung verbessert Hinweise, ersetzt aber keine sichere Verarbeitung."
-recognizeSignals:
-  - "Es geht um input, label, select, textarea, Validierung, Fehlermeldungen oder Absenden."
-selfCheckPoints:
-  - "Kann ich erklären, warum ein sichtbares Label besser ist als nur ein Placeholder?"
-level: einfach
-tags:
-  - "web development"
-  - "html"
-  - "formulare"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML und Interaktion"]
 draft: false
 ---
-
 # Formulare und Eingaben
 
 ![Schaubild zu Formularen und Eingaben.](/schlaufuchs-platform/images/overviews/v148/formulare-und-eingaben.svg)

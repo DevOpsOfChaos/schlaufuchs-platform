@@ -1,17 +1,19 @@
 ---
-title: CSS Grid verstehen
-description: CSS Grid hilft dabei, zweidimensionale Layouts mit Zeilen und Spalten ruhig, klar und flexibel aufzubauen.
-subject: web-development
-section: Grundlagen
-level: mittel
-tags:
-  - CSS Grid
-  - Layout
-  - Spalten
-  - Web Development
+title: "CSS Grid verstehen"
+description: "CSS Grid hilft dabei, zweidimensionale Layouts mit Zeilen und Spalten ruhig, klar und flexibel aufzubauen."
+subject: "web-development"
+section: "Grundlagen"
+topicPath: ["grundlagen", "css-grid-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 Sobald Inhalte nicht nur in einer einzelnen Reihe, sondern in einem ganzen Raster angeordnet werden sollen, stößt einfaches Blockdenken schnell an Grenzen. Genau hier ist CSS Grid besonders stark. Es erlaubt die Arbeit mit Zeilen und Spalten gleichzeitig und eignet sich daher hervorragend für strukturierte Layouts.

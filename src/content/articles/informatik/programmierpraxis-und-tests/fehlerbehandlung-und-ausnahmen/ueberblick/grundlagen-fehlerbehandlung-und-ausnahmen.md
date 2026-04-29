@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Fehlerbehandlung und Ausnahmen"
 description: "Allgemeiner Überblick über fehlerbehandlung und ausnahmen in der Informatik."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "fehlerbehandlung-und-ausnahmen"
-  - "ueberblick"
-learningGoals:
-  - "Du erklärst, wie Programme kontrolliert mit unerwarteten Situationen umgehen."
-  - "Du ordnest typische Beispiele und Grenzen des Themas ein."
-  - "Du unterscheidest Grundidee, Anwendung und häufige Fehler."
-practiceIdeas:
-  - "Formuliere die Grundidee in drei Sätzen ohne Spezialfall."
-  - "Ordne ein eigenes Beispiel dem passenden Teilaspekt zu."
-commonMistakes:
-  - "Fehler unterdrücken"
-  - "Nutzer- und Entwicklerinfo vermischen"
-  - "Normalfall und Fehlerfall nicht trennen"
-keyTakeaways:
-  - "Fehlerbehandlung und Ausnahmen braucht zuerst eine klare begriffliche Einordnung."
-  - "Beispiele helfen nur, wenn ihr Kontext bekannt ist."
-  - "Gute Informatikarbeit trennt Modell, Umsetzung und Prüfung."
-recognizeSignals:
-  - "Ein Thema wirkt wie ein Einzelfall, braucht aber zuerst einen allgemeinen Rahmen."
-  - "Mehrere Beispiele zeigen dieselbe Grundidee aus verschiedenen Blickwinkeln."
-selfCheckPoints:
-  - "Kann ich Grundidee und Beispiel unterscheiden?"
-  - "Kann ich typische Fehler nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "programmierpraxis-und-tests"
-  - "fehlerbehandlung-und-ausnahmen"
+topicPath: ["programmierpraxis-und-tests", "fehlerbehandlung-und-ausnahmen", "ueberblick", "grundlagen-fehlerbehandlung-und-ausnahmen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierpraxis und Tests"]
 draft: false
 ---
-
 ![Schaubild: Fehlerbehandlung und Ausnahmen](/schlaufuchs-platform/images/overviews/v185/fehlerbehandlung-und-ausnahmen.svg)
 
 ## Begriff

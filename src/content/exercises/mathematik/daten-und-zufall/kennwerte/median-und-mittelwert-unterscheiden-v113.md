@@ -3,32 +3,15 @@ title: "Aufgabe – Median und Mittelwert unterscheiden"
 description: "Übe Median und Mittelwert unterscheiden mit Szenario, Trennkante und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "daten-und-zufall"
-  - "kennwerte"
-  - "median-und-mittelwert-unterscheiden-v113"
+topicPath: ["daten-und-zufall", "kennwerte", "median-und-mittelwert-unterscheiden-v113"]
 taskId: "v113-mathematik-median-und-mittelwert-unterscheiden-v113"
-tags:
-  - "mathematik"
-  - "strukturcheck"
-  - "unterthema"
-  - "median-und-mittelwert-unterscheiden-v113"
-hintPoints:
-  - "Benenne zuerst das genaue Unterthema."
-  - "Notiere die typische Verwechslung ausdrücklich."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Antwort enger als ein breites Kapitel?"
-  - "Wird ein Nachbarthema sauber ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere eine zweite Aufgabe im gleichen Unterthema mit anderer Oberfläche."
-reflectionPrompt: "Welche kleine Trennkante macht Median und Mittelwert unterscheiden übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["mathematik", "Feinstruktur Mathematik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Median und Mittelwert unterscheiden**.

@@ -3,44 +3,17 @@ title: "CSS – grid-template-areas und Layoutzonen planen"
 description: "Lerne, große Seitenbereiche über benannte Grid-Areas verständlich und wartbar anzuordnen."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "responsive-layouts"
-  - "grid-template-areas-und-layoutzonen-planen"
-learningGoals:
-  - "Du erklärst benannte Grid-Areas als Layoutplan."
-  - "Du hältst HTML-Reihenfolge und visuelle Anordnung bewusst getrennt."
-  - "Du nutzt Areas besonders für große Seitenzonen statt für jede Kleinigkeit."
-practiceIdeas:
-  - "Prüfe eine vorhandene Seite mit genau dieser Fragestellung."
-  - "Formuliere eine kleine Vorher-nachher-Verbesserung."
-  - "Teste die Entscheidung mit Tastatur, kleiner Breite und längeren Texten."
-commonMistakes:
-  - "Grid-Areas für winzige Detailabstände zu missbrauchen."
-  - "Die HTML-Reihenfolge zu vernachlässigen, weil CSS visuell sortiert."
-  - "Area-Namen unverständlich oder uneinheitlich zu wählen."
-keyTakeaways:
-  - "Bedeutung, Technik und Nutzungssituation müssen zusammenpassen."
-  - "Eine optisch passende Lösung ist noch nicht automatisch strukturell gut."
-  - "Kleine Prüfregeln helfen, Weboberflächen verlässlich zu verbessern."
-recognizeSignals:
-  - "Du siehst eine Stelle, die optisch funktioniert, aber fachlich unklar bleibt."
-  - "Im Review taucht die Frage auf, ob HTML-Struktur oder CSS-Verhalten wirklich passt."
-  - "Eine Komponente soll robuster, zugänglicher oder wartbarer werden."
-selfCheckPoints:
-  - "Kann ich die fachliche Bedeutung der Stelle benennen?"
-  - "Kann ich die technische Entscheidung begründen?"
-  - "Kann ich eine typische Fehlinterpretation vermeiden?"
-tags:
-  - "web development"
-  - "css"
-  - "grid"
-  - "layout"
-  - "responsive"
+topicPath: ["css", "responsive-layouts", "grid-template-areas-und-layoutzonen-planen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Diese Seite hilft dir, **grid-template-areas und Layoutzonen planen** nicht als isolierte Technik zu lernen. Entscheidend ist, welche Bedeutung auf der Seite entsteht und ob diese Bedeutung für Nutzerinnen und Nutzer zuverlässig erkennbar bleibt.

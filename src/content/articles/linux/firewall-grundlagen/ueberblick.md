@@ -1,31 +1,17 @@
 ---
 title: "Firewall-Grundlagen"
 description: "Allgemeiner Überblick über Firewalls, Paketfilter und grundlegende Netzwerksicherheit unter Linux."
-subject: linux
+subject: "linux"
 section: "Netzwerk"
-topicPath:
-  - "firewall-grundlagen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Firewall-Grundlagen grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["firewall-grundlagen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Firewall-Grundlagen nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Firewall-Grundlagen beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Firewall-Grundlagen, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Firewall-Grundlagen in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "firewall"
-  - "netzwerk"
-  - "sicherheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Netzwerk"]
 draft: false
 ---
 # Firewall-Grundlagen

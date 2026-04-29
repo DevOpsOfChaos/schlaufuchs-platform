@@ -1,23 +1,14 @@
 ---
-title: Lösung – Richtungsvektor und Ortsvektor trennen
-description: Musterlösung zur Aufgabe über Richtungsvektor und Ortsvektor trennen.
-subject: mathematik
-section: Feinstruktur Mathematik
-topicPath:
-- daten-und-geometrie
-- vektoren-und-geometrie
-- richtungsvektor-und-ortsvektor-trennen-v114
-taskId: v114-mathematik-richtungsvektor-und-ortsvektor-trennen-v114
-relatedExercise: mathematik/daten-und-geometrie/vektoren-und-geometrie/richtungsvektor-und-ortsvektor-trennen-v114
-tags:
-- mathematik
-- v114
-- loesung
-- daten-und-geometrie
-- vektoren-und-geometrie
+title: "Lösung – Richtungsvektor und Ortsvektor trennen"
+description: "Musterlösung zur Aufgabe über Richtungsvektor und Ortsvektor trennen."
+subject: "mathematik"
+section: "Feinstruktur Mathematik"
+topicPath: ["daten-und-geometrie", "vektoren-und-geometrie", "richtungsvektor-und-ortsvektor-trennen-v114"]
+taskId: "v114-mathematik-richtungsvektor-und-ortsvektor-trennen-v114"
+relatedExercise: "mathematik/daten-und-geometrie/vektoren-und-geometrie/richtungsvektor-und-ortsvektor-trennen-v114"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

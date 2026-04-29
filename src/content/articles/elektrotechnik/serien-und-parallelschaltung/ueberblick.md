@@ -1,31 +1,17 @@
 ---
 title: "Serien- und Parallelschaltung"
 description: "Allgemeiner Überblick über Reihen- und Parallelschaltungen, Strompfade und Spannungsverteilung."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Grundlagen"
-topicPath:
-  - "serien-und-parallelschaltung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Serien- und Parallelschaltung grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["serien-und-parallelschaltung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Serien- und Parallelschaltung nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Serien- und Parallelschaltung beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Serien- und Parallelschaltung, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Serien- und Parallelschaltung in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "schaltungen"
-  - "grundlagen"
-  - "widerstand"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Grundlagen"]
 draft: false
 ---
 # Serien- und Parallelschaltung

@@ -1,34 +1,19 @@
 ---
 title: "PWM-Filter und Analogausgabe"
 description: "Allgemeiner Überblick über gefilterte PWM-Signale und einfache Analogausgaben."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "pwm-filter-und-analogausgabe"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst PWM-Filter und Analogausgabe als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["pwm-filter-und-analogausgabe", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird nur das Tastverhältnis betrachtet. Ohne passende Frequenz und Filterung bleibt das Signal stark gepulst."
-keyTakeaways:
-  - "PWM-Filter erlauben einfache Analogausgaben aus digitalen Signalen."
-  - "PWM-Filter und Analogausgabe sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um PWM-Filter und Analogausgabe."
-selfCheckPoints:
-  - "Kann ich erklären, woran man PWM-Filter und Analogausgabe erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "pwm"
-  - "filter"
-  - "analogausgabe"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
-
 # PWM-Filter und Analogausgabe
 
 Ein PWM-Signal kann durch Tiefpassfilterung in einen geglätteten Mittelwert überführt werden.

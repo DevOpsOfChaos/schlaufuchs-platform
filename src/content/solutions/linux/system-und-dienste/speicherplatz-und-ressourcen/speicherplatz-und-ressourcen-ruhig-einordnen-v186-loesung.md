@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Speicherplatz und Ressourcen – ruhig einordnen"
 description: "Musterlösung zur Linux-Aufgabe Speicherplatz und Ressourcen."
-subject: linux
+subject: "linux"
 section: "system-und-dienste"
-topicPath:
-  - "system-und-dienste"
-  - "speicherplatz-und-ressourcen"
-taskId: LINUX-SPEICHERPLATZ-UND-RESSOURCEN-V186-1
-relatedExercise: src/content/exercises/linux/system-und-dienste/speicherplatz-und-ressourcen/speicherplatz-und-ressourcen-ruhig-einordnen-v186.md
-tags:
-  - "linux"
-  - "ressourcen"
-  - "speicher"
-  - "loesung"
+topicPath: ["system-und-dienste", "speicherplatz-und-ressourcen", "speicherplatz-und-ressourcen-ruhig-einordnen-v186"]
+taskId: "LINUX-SPEICHERPLATZ-UND-RESSOURCEN-V186-1"
+relatedExercise: "src/content/exercises/linux/system-und-dienste/speicherplatz-und-ressourcen/speicherplatz-und-ressourcen-ruhig-einordnen-v186.md"
+tags: ["linux", "system-und-dienste", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

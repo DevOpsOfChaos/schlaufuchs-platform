@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Taster-Entprellung am AVR als Zeitfenster begründen
-description: Musterlösung zur Aufgabe ET-ATMEGA-REAKT-301.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - programmstruktur-und-reaktivitaet
-  - atmega-entprellen-mit-timer-statt-delay-verstehen
-  - taster-entprellung-am-avr-als-zeitfenster-begruenden-loesung
-taskId: ET-ATMEGA-REAKT-301
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-entprellen-mit-timer-statt-delay-verstehen/taster-entprellung-am-avr-als-zeitfenster-begruenden.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – Taster-Entprellung am AVR als Zeitfenster begründen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-REAKT-301."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-entprellen-mit-timer-statt-delay-verstehen", "taster-entprellung-am-avr-als-zeitfenster-begruenden"]
+taskId: "ET-ATMEGA-REAKT-301"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-entprellen-mit-timer-statt-delay-verstehen/taster-entprellung-am-avr-als-zeitfenster-begruenden.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

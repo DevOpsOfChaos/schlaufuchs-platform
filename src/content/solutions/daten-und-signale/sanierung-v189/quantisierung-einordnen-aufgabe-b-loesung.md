@@ -3,22 +3,12 @@ title: "Lösung: Quantisierung einordnen: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe dat-v189-008b."
 subject: "daten-und-signale"
 section: "grundlagen"
-topicPath:
-  - "grundlagen"
-  - "quantisierung"
-  - "loesung-b"
+topicPath: ["sanierung-v189", "quantisierung-einordnen-aufgabe-b"]
 taskId: "dat-v189-008b"
 relatedExercise: "daten-und-signale/sanierung-v189/quantisierung-einordnen-aufgabe-b"
-tags:
-  - "quantisierung"
-  - "stufen"
-  - "messung"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "grundlagen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-008b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

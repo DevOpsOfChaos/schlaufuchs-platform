@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Open-Drain-High-Zustand erklären"
 description: "Musterlösung zur Aufgabe: Open-Drain-High-Zustand erklären."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Digitale Eingänge und Ausgänge"
-topicPath:
-  - digitale-eingaenge-und-ausgaenge
-  - open-drain-und-open-collector
-taskId: ET-V182-007
-relatedExercise: src/content/exercises/elektrotechnik/digitale-eingaenge-und-ausgaenge/open-drain-und-open-collector/open-drain-high-zustand-erklaeren.md
-tags:
-  - elektrotechnik
-  - open-drain-und-open-collector
-  - loesung
-  - sanierung-v182
+topicPath: ["digitale-eingaenge-und-ausgaenge", "open-drain-und-open-collector", "open-drain-high-zustand-erklaeren"]
+taskId: "ET-V182-007"
+relatedExercise: "src/content/exercises/elektrotechnik/digitale-eingaenge-und-ausgaenge/open-drain-und-open-collector/open-drain-high-zustand-erklaeren.md"
+tags: ["elektrotechnik", "Digitale Eingänge und Ausgänge", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

@@ -1,34 +1,19 @@
 ---
 title: "Shell-Startdateien"
 description: "Allgemeiner Überblick über Shell-Startdateien und ihre Wirkung auf interaktive Sitzungen."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell-startdateien"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Shell-Startdateien als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["shell-startdateien", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird eine Einstellung in die falsche Datei geschrieben und wirkt dann nur in manchen Terminals."
-keyTakeaways:
-  - "Shell-Startdateien erklären viele Unterschiede zwischen Sitzungen."
-  - "Shell-Startdateien sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Shell-Startdateien."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Shell-Startdateien erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "bash"
-  - "konfiguration"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
-
 # Shell-Startdateien
 
 Shell-Startdateien werden beim Start bestimmter Shell-Sitzungen gelesen und können Variablen, Aliase oder Prompt-Einstellungen setzen.

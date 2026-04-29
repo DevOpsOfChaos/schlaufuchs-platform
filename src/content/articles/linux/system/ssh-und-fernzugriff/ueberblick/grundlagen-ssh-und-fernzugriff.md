@@ -1,36 +1,19 @@
 ---
 title: "Grundlagen: SSH und Fernzugriff"
 description: "Allgemeiner Überblick über SSH, sichere Anmeldung, Schlüsselpaare und typische Einsatzbereiche beim Fernzugriff."
-subject: linux
+subject: "linux"
 section: "System"
-topicPath:
-  - system
-  - ssh-und-fernzugriff
-  - grundlagen-ssh-und-fernzugriff
-learningGoals:
-  - "Du erklärst SSH als verschlüsselten Fernzugriff auf ein System."
-  - "Du beschreibst den Unterschied zwischen Passwort- und Schlüsselanmeldung."
-  - "Du ordnest öffentliche und private Schlüssel sicherheitsbezogen ein."
+topicPath: ["system", "ssh-und-fernzugriff", "ueberblick", "grundlagen-ssh-und-fernzugriff"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Den privaten Schlüssel weiterzugeben."
-  - "SSH nur als Terminalfenster zu sehen."
-  - "Hostprüfung und Benutzeranmeldung zu verwechseln."
-keyTakeaways:
-  - "SSH ermöglicht verschlüsselten Zugriff auf entfernte Systeme."
-  - "Schlüsselpaare trennen öffentlichen und privaten Schlüssel."
-  - "Sicherer Fernzugriff braucht Identitätsprüfung, Berechtigungen und vorsichtigen Umgang mit Schlüsseln."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - "linux"
-  - "ssh"
-  - "fernzugriff"
-  - "schlüssel"
+level: "einfach"
+tags: ["linux", "System"]
 draft: false
 ---
-
 ## Begriff
 
 **SSH** steht für Secure Shell. Es ist ein Protokoll und Werkzeug für verschlüsselten Fernzugriff auf andere Systeme. Über SSH kann man sich auf einem entfernten Rechner anmelden, Befehle ausführen, Dateien übertragen oder Dienste sicher tunneln.

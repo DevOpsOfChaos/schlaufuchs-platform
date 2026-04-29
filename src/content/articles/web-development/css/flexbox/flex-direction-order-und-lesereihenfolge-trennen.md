@@ -3,44 +3,17 @@ title: "CSS – flex-direction, order und Lesereihenfolge trennen"
 description: "Verstehe, warum visuelle Umordnung nicht automatisch die sinnvolle Reihenfolge für Tastatur und Screenreader verändert."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "flexbox"
-  - "flex-direction-order-und-lesereihenfolge-trennen"
-learningGoals:
-  - "Du unterscheidest DOM-Reihenfolge und visuelle Reihenfolge."
-  - "Du nutzt order sparsam und begründet."
-  - "Du prüfst Layouts mit Tastatur, nicht nur mit den Augen."
-practiceIdeas:
-  - "Prüfe eine vorhandene Seite mit genau dieser Fragestellung."
-  - "Formuliere eine kleine Vorher-nachher-Verbesserung."
-  - "Teste die Entscheidung mit Tastatur, kleiner Breite und längeren Texten."
-commonMistakes:
-  - "order zu verwenden, um schlechte HTML-Struktur zu reparieren."
-  - "Mobile und Desktop-Reihenfolge nur visuell zu testen."
-  - "Wichtige Aktionen im DOM nach hinten zu schieben."
-keyTakeaways:
-  - "Bedeutung, Technik und Nutzungssituation müssen zusammenpassen."
-  - "Eine optisch passende Lösung ist noch nicht automatisch strukturell gut."
-  - "Kleine Prüfregeln helfen, Weboberflächen verlässlich zu verbessern."
-recognizeSignals:
-  - "Du siehst eine Stelle, die optisch funktioniert, aber fachlich unklar bleibt."
-  - "Im Review taucht die Frage auf, ob HTML-Struktur oder CSS-Verhalten wirklich passt."
-  - "Eine Komponente soll robuster, zugänglicher oder wartbarer werden."
-selfCheckPoints:
-  - "Kann ich die fachliche Bedeutung der Stelle benennen?"
-  - "Kann ich die technische Entscheidung begründen?"
-  - "Kann ich eine typische Fehlinterpretation vermeiden?"
-tags:
-  - "web development"
-  - "css"
-  - "flexbox"
-  - "order"
-  - "accessibility"
+topicPath: ["css", "flexbox", "flex-direction-order-und-lesereihenfolge-trennen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Diese Seite hilft dir, **flex-direction, order und Lesereihenfolge trennen** nicht als isolierte Technik zu lernen. Entscheidend ist, welche Bedeutung auf der Seite entsteht und ob diese Bedeutung für Nutzerinnen und Nutzer zuverlässig erkennbar bleibt.

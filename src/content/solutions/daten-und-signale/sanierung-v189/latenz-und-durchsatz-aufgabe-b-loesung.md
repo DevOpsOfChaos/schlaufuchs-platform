@@ -3,22 +3,12 @@ title: "Lösung: Latenz und Durchsatz: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe dat-v189-020b."
 subject: "daten-und-signale"
 section: "uebertragung"
-topicPath:
-  - "uebertragung"
-  - "latenz-und-durchsatz"
-  - "loesung-b"
+topicPath: ["sanierung-v189", "latenz-und-durchsatz-aufgabe-b"]
 taskId: "dat-v189-020b"
 relatedExercise: "daten-und-signale/sanierung-v189/latenz-und-durchsatz-aufgabe-b"
-tags:
-  - "latenz"
-  - "durchsatz"
-  - "netz"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-020b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

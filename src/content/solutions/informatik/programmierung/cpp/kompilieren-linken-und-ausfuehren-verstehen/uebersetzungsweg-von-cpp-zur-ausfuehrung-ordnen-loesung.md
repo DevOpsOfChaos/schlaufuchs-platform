@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – Übersetzungsweg von C++ zur Ausführung ordnen
-description: Musterlösung zur Aufgabe INF-PROG-CPP-START-002.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - einstieg-und-werkzeugkette
-  - kompilieren-linken-und-ausfuehren-verstehen
-  - uebersetzungsweg-von-cpp-zur-ausfuehrung-ordnen-loesung
-taskId: INF-PROG-CPP-START-002
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/kompilieren-linken-und-ausfuehren-verstehen/uebersetzungsweg-von-cpp-zur-ausfuehrung-ordnen.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – Übersetzungsweg von C++ zur Ausführung ordnen"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-START-002."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "kompilieren-linken-und-ausfuehren-verstehen", "uebersetzungsweg-von-cpp-zur-ausfuehrung-ordnen"]
+taskId: "INF-PROG-CPP-START-002"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/kompilieren-linken-und-ausfuehren-verstehen/uebersetzungsweg-von-cpp-zur-ausfuehrung-ordnen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Reihenfolge ordnen
 
 Sinnvolle Reihenfolge:

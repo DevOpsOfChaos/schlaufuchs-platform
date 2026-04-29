@@ -3,44 +3,17 @@ title: "Browser – Accessibility Tree in DevTools prüfen"
 description: "Nutze DevTools nicht nur für Layout und Netzwerk, sondern auch zum Prüfen von Name, Rolle und Zustand interaktiver Elemente."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "debugging-und-diagnose"
-  - "accessibility-tree-in-devtools-pruefen"
-tags:
-  - "web development"
-  - "browser"
-  - "devtools"
-  - "accessibility"
-  - "debugging"
-learningGoals:
-  - "Du erklärst, was Name, Rolle und Zustand für interaktive Elemente bedeuten."
-  - "Du nutzt DevTools als Prüfhilfe, nicht als Ersatz für echtes Testen."
-  - "Du findest typische Fehler wie namenlose Buttons oder falsche Rollen."
-practiceIdeas:
-  - "Übertrage die Idee auf eine kleine eigene Seite."
-  - "Prüfe die Bedienung einmal mit Tastatur und einmal mit Maus."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "Nur visuell zu prüfen, ob ein Button gut aussieht."
-  - "aria-label und sichtbaren Text widersprüchlich zu formulieren."
-  - "Automatische Tools als vollständige Barrierefreiheitsprüfung zu behandeln."
-keyTakeaways:
-  - "Struktur, Zustand und Rückmeldung müssen zusammenpassen."
-  - "Sichtbare Nutzerführung ist Teil der technischen Lösung."
-  - "Saubere Webentwicklung prüft auch Fehlerfälle und Sonderwege."
-recognizeSignals:
-  - "Eine Oberfläche soll verständlicher, robuster oder zugänglicher werden."
-  - "HTML, CSS und JavaScript müssen gemeinsam gelesen werden."
-  - "Es gibt einen Zustand, der sichtbar gemacht oder kontrolliert werden muss."
-selfCheckPoints:
-  - "Kann ich die Entscheidung in einem Satz erklären?"
-  - "Bleibt die Lösung bei Fehlern oder Tastaturbedienung verständlich?"
-  - "Sind sichtbare Texte klar und deutsch formuliert?"
+topicPath: ["javascript", "debugging-und-diagnose", "accessibility-tree-in-devtools-pruefen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Nutze DevTools nicht nur für Layout und Netzwerk, sondern auch zum Prüfen von Name, Rolle und Zustand interaktiver Elemente. Die Seite betrachtet das Thema nicht als isolierten Syntaxtrick, sondern als kleine Entscheidung für Bedienbarkeit, Wartbarkeit und verständliche Rückmeldung.

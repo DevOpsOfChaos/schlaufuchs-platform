@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Timer-Overflow am AVR als Zustand und Reaktion trennen
-description: Musterlösung zur Aufgabe ET-ATMEGA-TMR-209.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - zeitbasis-und-timer
-  - atmega-overflow-flag-und-overflow-interrupt-unterscheiden
-  - timer-overflow-am-avr-als-zustand-und-reaktion-trennen-loesung
-taskId: ET-ATMEGA-TMR-209
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-overflow-flag-und-overflow-interrupt-unterscheiden/timer-overflow-am-avr-als-zustand-und-reaktion-trennen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – Timer-Overflow am AVR als Zustand und Reaktion trennen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-TMR-209."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-overflow-flag-und-overflow-interrupt-unterscheiden", "timer-overflow-am-avr-als-zustand-und-reaktion-trennen"]
+taskId: "ET-ATMEGA-TMR-209"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-overflow-flag-und-overflow-interrupt-unterscheiden/timer-overflow-am-avr-als-zustand-und-reaktion-trennen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Ein gesetztes Overflow-Flag bedeutet zuerst nur, dass der Timer übergelaufen ist. Das Flag markiert also ein stattgefundenes Ereignis im Timer-Modul.

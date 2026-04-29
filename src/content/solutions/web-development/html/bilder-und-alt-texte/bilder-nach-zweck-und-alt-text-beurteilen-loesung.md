@@ -1,20 +1,14 @@
 ---
-title: Lösung – Bilder nach Zweck und Alt-Text beurteilen
-description: Musterlösung zur Aufgabe über Bildzweck und passende Alt-Texte.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - bilder-und-alt-texte
-taskId: WEB-HTML-A11Y-302
-relatedExercise: web-development/html/bilder-und-alt-texte/bilder-nach-zweck-und-alt-text-beurteilen
-tags:
-  - html
-  - alt
-  - loesung
+title: "Lösung – Bilder nach Zweck und Alt-Text beurteilen"
+description: "Musterlösung zur Aufgabe über Bildzweck und passende Alt-Texte."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "bilder-und-alt-texte", "bilder-nach-zweck-und-alt-text-beurteilen"]
+taskId: "WEB-HTML-A11Y-302"
+relatedExercise: "web-development/html/bilder-und-alt-texte/bilder-nach-zweck-und-alt-text-beurteilen"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

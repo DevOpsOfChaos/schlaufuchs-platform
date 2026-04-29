@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Datentypen und Werte – Ruhig einordnen"
 description: "Musterlösung zur Aufgabe über Datentypen und Werte."
-subject: informatik
+subject: "informatik"
 section: "daten-und-information"
-topicPath:
-  - "daten-und-information"
-  - "datentypen-und-werte"
-taskId: INF-DATENTYPEN-UND-WERTE-841
-relatedExercise: src/content/exercises/informatik/daten-und-information/datentypen-und-werte/datentypen-und-werte-ruhig-einordnen-v184.md
-tags:
-  - "informatik"
-  - "datentypen"
-  - "werte"
-  - "loesung"
+topicPath: ["daten-und-information", "datentypen-und-werte", "datentypen-und-werte-ruhig-einordnen-v184"]
+taskId: "INF-DATENTYPEN-UND-WERTE-841"
+relatedExercise: "src/content/exercises/informatik/daten-und-information/datentypen-und-werte/datentypen-und-werte-ruhig-einordnen-v184.md"
+tags: ["informatik", "daten-und-information", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

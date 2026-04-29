@@ -3,21 +3,12 @@ title: "Lösung – Logzeitraum eingrenzen"
 description: "Musterlösung zu logzeitraum eingrenzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "prozess-und-dienste"
-  - "logzeitraum-eingrenzen"
+topicPath: ["shell", "prozess-und-dienste", "logzeitraum-eingrenzen"]
 taskId: "v112-linux-logzeitraum-eingrenzen"
 relatedExercise: "linux/shell/prozess-und-dienste/logzeitraum-eingrenzen"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "logzeitraum-eingrenzen"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Prozesse und Dienste**.

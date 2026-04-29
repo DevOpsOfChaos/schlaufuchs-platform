@@ -3,44 +3,17 @@ title: "CSS – flüssige Typografie mit clamp planen"
 description: "Plane Schriftgrößen so, dass sie zwischen kleinen und großen Viewports weich wachsen, ohne unlesbar klein oder übertrieben groß zu werden."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "responsive-layouts"
-  - "fluid-typography-mit-clamp-planen"
-tags:
-  - "web development"
-  - "css"
-  - "responsive"
-  - "typografie"
-  - "clamp"
-learningGoals:
-  - "Du erklärst, worum es bei „flüssige Typografie mit clamp planen“ fachlich geht."
-  - "Du trennst technische Umsetzung, sichtbare Rückmeldung und Nutzererwartung."
-  - "Du erkennst typische Fehlerbilder und formulierst eine robuste Alternative."
-practiceIdeas:
-  - "Übertrage die Idee auf eine kleine eigene Beispielseite."
-  - "Prüfe die Lösung einmal aus Sicht von Tastatur, Mobilgerät oder langsamem Laden."
-  - "Formuliere die technische Entscheidung in gutem Deutsch für eine andere Person."
-commonMistakes:
-  - "Nur den sichtbaren Normalfall zu betrachten."
-  - "Technische Begriffe zu verwenden, ohne den Nutzen für die Bedienung zu klären."
-  - "Fehlerfälle, leere Zustände oder Wartbarkeit zu spät mitzudenken."
-keyTakeaways:
-  - "Robuste Webentwicklung verbindet Struktur, Verhalten und Rückmeldung."
-  - "Gute Lösungen bleiben auch bei kleinen Störungen verständlich."
-  - "Saubere sichtbare Texte sind Teil der technischen Qualität."
-recognizeSignals:
-  - "Eine Oberfläche soll verständlicher, stabiler oder zugänglicher werden."
-  - "Ein technischer Baustein beeinflusst direkt die Nutzerführung."
-  - "Du musst zwischen schneller Lösung und dauerhaft wartbarer Lösung abwägen."
-selfCheckPoints:
-  - "Kann ich die Entscheidung ohne Fachnebel erklären?"
-  - "Bleibt die Seite bei Fehlern oder Sonderfällen verständlich?"
-  - "Sind Code, sichtbarer Text und Verhalten konsistent?"
+topicPath: ["css", "responsive-layouts", "fluid-typography-mit-clamp-planen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Responsive Typografie besteht nicht nur aus Sprüngen an Breakpoints. Mit `clamp()` kann eine Schriftgröße zwischen einem Mindestwert, einem bevorzugten Verlauf und einem Höchstwert wachsen.

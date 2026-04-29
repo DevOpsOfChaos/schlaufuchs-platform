@@ -3,22 +3,12 @@ title: "Lösung: Arbeitsverzeichnis prüfen"
 description: "Musterlösung zur Aufgabe „Arbeitsverzeichnis prüfen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "shell-arbeitsfluss"
-  - "pfade-und-kontext"
-  - "arbeitsverzeichnis-pruefen-v116"
+topicPath: ["shell-arbeitsfluss", "pfade-und-kontext", "arbeitsverzeichnis-pruefen-v116"]
 taskId: "arbeitsverzeichnis-pruefen-v116"
 relatedExercise: "linux/shell-arbeitsfluss/pfade-und-kontext/arbeitsverzeichnis-pruefen-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "pfade und kontext"
-  - "arbeitsverzeichnis pruefen"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

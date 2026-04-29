@@ -1,46 +1,19 @@
 ---
-title: OOP-Grundidee verstehen
-description: Verstehe, warum objektorientierte Programmierung Daten und Verhalten zu gut wartbaren Einheiten zusammenfasst.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - oop-grundidee-verstehen
-learningGoals:
-  - Du erklärst die Grundidee der objektorientierten Programmierung.
-  - Du beschreibst, warum Daten und Methoden gemeinsam gedacht werden.
-  - Du erkennst, wann ein Objektmodell ruhiger wirkt als viele lose Variablen und Funktionen.
-practiceIdeas:
-  - Prüfe bei einem Ampel- oder Fahrzeugbeispiel, welche Daten und welche Aktionen zusammengehören.
-  - Vergleiche einen losen Funktionssammler mit einem Modell aus klaren Objekten.
-  - Formuliere, was an einer Klasse der Bauplan und was am Objekt die konkrete Ausprägung ist.
-commonMistakes:
-  - OOP nur als andere Schreibweise für Funktionen zu sehen.
-  - Daten und Methoden künstlich zu trennen, obwohl sie fachlich zusammengehören.
-  - Klasse und Objekt gleichzusetzen.
-keyTakeaways:
-  - OOP bündelt Daten und Verhalten.
-  - Klassen beschreiben den Bauplan, Objekte sind konkrete Instanzen.
-  - Das kann komplexe Systeme wartbarer und ruhiger machen.
-recognizeSignals:
-  - Ein Beispiel enthält gleichartige Dinge mit gemeinsamen Eigenschaften und Aktionen.
-  - Es geht um Wartbarkeit, Modellierung oder Baupläne für Objekte.
-  - Du sollst Klasse und konkretes Objekt auseinanderhalten.
-selfCheckPoints:
-  - Kann ich den Nutzen von OOP in eigenen Worten beschreiben?
-  - Kann ich sagen, warum Daten und Methoden zusammengehören können?
-  - Kann ich Klasse und Objekt sauber trennen?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - klasse
-  - objekt
+title: "OOP-Grundidee verstehen"
+description: "Verstehe, warum objektorientierte Programmierung Daten und Verhalten zu gut wartbaren Einheiten zusammenfasst."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "oop-grundidee-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Objektorientierte Programmierung fasst Daten und die dazu passenden Operationen zu handlichen Einheiten zusammen. Dadurch lassen sich größere Systeme oft ruhiger denken als mit vielen lose verteilten Variablen und Funktionen.

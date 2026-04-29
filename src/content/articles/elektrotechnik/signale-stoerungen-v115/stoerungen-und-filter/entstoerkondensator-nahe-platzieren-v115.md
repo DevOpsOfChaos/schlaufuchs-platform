@@ -1,46 +1,19 @@
 ---
 title: "Elektrotechnik – Entstörkondensator nahe platzieren"
 description: "Trainiere Entstörkondensator nahe platzieren als kleines Unterthema mit klarer Trennkante, Beispiel und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "signale-stoerungen-v115"
-  - "stoerungen-und-filter"
-  - "entstoerkondensator-nahe-platzieren-v115"
-learningGoals:
-  - "Du erklärst Entstörkondensator nahe platzieren an einem kleinen, abgegrenzten Fall."
-  - "Du trennst das Unterthema von einem naheliegenden Nachbarthema."
-  - "Du formulierst eine passende Gegenprobe statt nur eine fertige Antwort."
-practiceIdeas:
-  - "Schreibe zuerst die Prüffrage in eigenen Worten auf."
-  - "Markiere im Fall zwei Hinweise, die wirklich zur Entscheidung gehören."
-  - "Formuliere einen Gegenfall, in dem die Entscheidung anders ausfallen würde."
-commonMistakes:
-  - "Der Kondensator wird irgendwo auf der Platine eingeplant."
-  - "Das Thema wird zu breit eingeordnet und verliert dadurch die prüfbare Trennkante."
-  - "Die Lösung nennt ein Ergebnis, begründet aber nicht die Abgrenzung."
-keyTakeaways:
-  - "Dieses Unterthema prüft vor allem: Liegt der Kondensator nahe an den Versorgungspins?"
-  - "Eine gute Lösung benennt die Trennkante ausdrücklich."
-  - "Die Gegenprobe zeigt, ob die Begründung wirklich trägt."
-recognizeSignals:
-  - "Die Aufgabe fragt nach Entstörkondensator nahe platzieren."
-  - "Ähnliche Begriffe oder Fälle liegen nah beieinander."
-  - "Eine kleine Änderung im Fall würde zu einer anderen Entscheidung führen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-level: mittel
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "signale und störungen"
-  - "störungen und filter"
+topicPath: ["signale-stoerungen-v115", "stoerungen-und-filter", "entstoerkondensator-nahe-platzieren-v115"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik"]
 draft: false
 ---
-
 <img src="/schlaufuchs-platform/illustrations/elektrotechnik-entstoerkondensator-nahe-platzieren-v115.svg" alt="Lernillustration zu Entstörkondensator nahe platzieren" loading="lazy" />
 
 ## Grundidee

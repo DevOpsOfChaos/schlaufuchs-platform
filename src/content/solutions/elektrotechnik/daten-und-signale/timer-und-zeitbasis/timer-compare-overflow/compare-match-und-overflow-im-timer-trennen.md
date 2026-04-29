@@ -3,23 +3,12 @@ title: "Lösung – Compare Match und Overflow im Timer trennen"
 description: "Musterlösung zu Compare Match und Overflow mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "daten-und-signale"
-  - "timer-und-zeitbasis"
-  - "timer-compare-overflow"
-  - "compare-match-und-overflow-im-timer-trennen"
+topicPath: ["daten-und-signale", "timer-und-zeitbasis", "timer-compare-overflow", "compare-match-und-overflow-im-timer-trennen"]
 taskId: "v109-elektrotechnik-compare-match-und-overflow-im-timer-trennen"
 relatedExercise: "elektrotechnik/daten-und-signale/timer-und-zeitbasis/timer-compare-overflow/compare-match-und-overflow-im-timer-trennen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "daten-und-signale"
-  - "timer-und-zeitbasis"
-  - "compare match und overflow"
+tags: ["elektrotechnik", "Mikrocontroller", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Compare Match und Overflow**.

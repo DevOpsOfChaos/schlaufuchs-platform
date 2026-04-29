@@ -3,22 +3,12 @@ title: "Lösung – Exitcodes in Pipelines sichtbar machen"
 description: "Musterlösung zu Pipeline-Exitcodes mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell"
-  - "pipelines-und-exitcodes"
-  - "pipefail"
-  - "exitcodes-in-pipelines-sichtbar-machen"
+topicPath: ["shell", "pipelines-und-exitcodes", "pipefail", "exitcodes-in-pipelines-sichtbar-machen"]
 taskId: "v108-linux-exitcodes-in-pipelines-sichtbar-machen"
 relatedExercise: "linux/shell/pipelines-und-exitcodes/pipefail/exitcodes-in-pipelines-sichtbar-machen"
-tags:
-  - "linux"
-  - "shell"
-  - "praxis"
-  - "pipelines-und-exitcodes"
-  - "pipeline-exitcodes"
+tags: ["linux", "Shell", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **Pipeline-Exitcodes**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

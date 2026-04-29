@@ -3,34 +3,15 @@ title: "Übung: Änderung statt Endzustand lesen"
 description: "Übe, „Änderung statt Endzustand lesen“ als kleines Unterthema zu erkennen, zu begründen und mit einer Gegenprobe abzusichern."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "rechte-benutzer-und-sicherheit"
-  - "chmod-symbolisch-und-oktal"
-  - "aenderung-statt-endzustand-lesen-v116"
+topicPath: ["rechte-benutzer-und-sicherheit", "chmod-symbolisch-und-oktal", "aenderung-statt-endzustand-lesen-v116"]
 taskId: "aenderung-statt-endzustand-lesen-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "chmod symbolisch und oktal"
-  - "aenderung statt endzustand lesen"
-  - "v116"
-hintPoints:
-  - "Lies zuerst nur die konkrete Unterfrage."
-  - "Markiere eine typische Fehlannahme."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Lösung fachlich begründet?"
-  - "Ist die Abgrenzung zum Nachbarthema sichtbar?"
-  - "Passt die Gegenprobe zur Aufgabe?"
-transferIdeas:
-  - "Ändere eine Bedingung und prüfe, ob deine Begründung noch trägt."
-  - "Erkläre die Lösung einmal ohne Fachwörter und danach fachlich sauber."
-reflectionPrompt: "Welche kleine Entscheidung war bei „Änderung statt Endzustand lesen“ am wichtigsten?"
+tags: ["linux", "Linux vertiefen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe 1: Unterfrage erkennen
 
 Lies die Situation:

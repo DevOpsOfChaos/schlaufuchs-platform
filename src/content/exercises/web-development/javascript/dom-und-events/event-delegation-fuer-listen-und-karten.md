@@ -3,34 +3,15 @@ title: "Aufgabe – Event Delegation für Listen und Karten"
 description: "Baue für eine dynamische Aufgabenliste eine Event-Delegation zum Löschen einzelner Einträge."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "dom-und-events"
-  - "event-delegation-fuer-listen-und-karten"
-tags:
-  - "web development"
-  - "javascript"
-  - "events"
-  - "dom"
-  - "event delegation"
-  - "aufgabe"
+topicPath: ["javascript", "dom-und-events", "event-delegation-fuer-listen-und-karten"]
 taskId: "web-v101-event-delegation-fuer-listen-und-karten"
-hintPoints:
-  - "Lies zuerst die vorhandene HTML-, CSS- oder JavaScript-Situation."
-  - "Trenne sichtbare Rückmeldung von interner Logik."
-  - "Begründe, warum dein Vorschlag für Nutzerinnen und Nutzer verständlich ist."
-selfCheckPoints:
-  - "Ist die Lösung auch bei fehlenden Daten oder Fehlern nachvollziehbar?"
-  - "Sind Struktur, Gestaltung und Verhalten sauber getrennt?"
-  - "Gibt es eine passende Rückmeldung?"
-transferIdeas:
-  - "Übertrage die Aufgabe auf eine Formular-, Karten- oder Navigationsoberfläche."
-  - "Vergleiche eine schnelle, aber fragile Lösung mit einer robusteren Lösung."
-reflectionPrompt: "Welche kleine Entscheidung verbessert hier nicht nur den Code, sondern auch die Nutzererfahrung?"
+tags: ["web-development", "JavaScript", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Baue für eine dynamische Aufgabenliste eine Event-Delegation zum Löschen einzelner Einträge.

@@ -3,35 +3,15 @@ title: "Aufgabe – Spannungsteiler belastet und unbelastet unterscheiden"
 description: "Übe Belasteter Spannungsteiler mit einem konkreten Fall, einer Abgrenzung und einer Gegenprobe."
 subject: "elektrotechnik"
 section: "Grundlagen"
-topicPath:
-  - "grundlagen"
-  - "spannung-strom-widerstand"
-  - "belastung"
-  - "spannungsteiler-belastet-und-unbelastet-unterscheiden"
+topicPath: ["grundlagen", "spannung-strom-widerstand", "belastung", "spannungsteiler-belastet-und-unbelastet-unterscheiden"]
 taskId: "v108-elektrotechnik-spannungsteiler-belastet-und-unbelastet-unterscheiden"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "schaltungen"
-  - "grundlagen"
-  - "spannung-strom-widerstand"
-  - "belasteter spannungsteiler"
-hintPoints:
-  - "Bestimme zuerst das kleine Unterthema."
-  - "Notiere, welches Nachbarthema ausdrücklich nicht gemeint ist."
-  - "Nutze eine Gegenprobe statt nur eine Behauptung."
-selfCheckPoints:
-  - "Ist der Fall eng genug eingeordnet?"
-  - "Wird die typische Verwechslung sichtbar?"
-  - "Passt die Gegenprobe zur Wissensseite?"
-transferIdeas:
-  - "Verändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere aus deiner Lösung einen kurzen Merksatz für eine zweite Person."
-reflectionPrompt: "Warum wäre eine breite Sammelantwort hier unübersichtlicher als das Unterthema „Belasteter Spannungsteiler“?"
+tags: ["elektrotechnik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den Fall zu **Belasteter Spannungsteiler**.

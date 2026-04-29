@@ -1,46 +1,19 @@
 ---
-title: Lineare Funktion aus Steigung und Startwert aufstellen
-description: Verstehe, wie aus Startwert und konstanter Änderung direkt eine lineare Funktionsgleichung aufgebaut wird.
-subject: mathematik
-section: Funktionen
-topicPath:
-  - funktionen
-  - lineare-funktionen-im-alltag-erkennen
-  - lineare-funktion-aus-steigung-und-startwert-aufstellen
-learningGoals:
-  - Du erklärst die Rollen von Steigung und Startwert in einer linearen Funktionsgleichung.
-  - Du stellst eine lineare Funktion aus Beschreibung oder Tabelle auf.
-  - Du liest die Form y = mx + b als Verbindung von Anfangswert und Veränderung.
-practiceIdeas:
-  - Übersetze Alltagssätze in Startwert und Änderung pro Schritt.
-  - Prüfe Tabellen darauf, ob ein Startwert und eine konstante Änderung erkennbar sind.
-  - Lies die Funktionsgleichung nicht als Formelrätsel, sondern als Struktur.
-commonMistakes:
-  - Steigung und Startwert zu vertauschen.
-  - nur den Anfangswert zu sehen, aber die Änderung pro Schritt zu vergessen.
-  - aus einer linearen Situation keine Gleichung zu formen, obwohl die Rollen klar sind.
-keyTakeaways:
-  - In y = mx + b steht m für die konstante Änderung und b für den Startwert.
-  - Wer Startwert und Änderung getrennt erkennt, kann lineare Funktionen viel ruhiger aufstellen.
-  - Die Funktionsgleichung beschreibt nicht nur Zahlen, sondern eine wiederkehrende Struktur.
-recognizeSignals:
-  - Es geht um Startpreis, Grundgebühr, Anfangsstand oder gleichmäßige Veränderung.
-  - Du sollst aus Text oder Tabelle eine Gleichung bilden.
-  - In Beispielen taucht oft ein Anfangswert plus „pro Schritt“ oder „pro Einheit“ auf.
-selfCheckPoints:
-  - Kann ich Startwert und Steigung trennen?
-  - Kann ich daraus eine lineare Gleichung aufstellen?
-  - Kann ich erklären, warum die Situation linear ist?
-tags:
-  - mathematik
-  - funktionen
-  - linear
-  - steigung
-  - startwert
-level: mittel
+title: "Lineare Funktion aus Steigung und Startwert aufstellen"
+description: "Verstehe, wie aus Startwert und konstanter Änderung direkt eine lineare Funktionsgleichung aufgebaut wird."
+subject: "mathematik"
+section: "Funktionen"
+topicPath: ["funktionen", "lineare-funktion-aus-steigung-und-startwert-aufstellen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
-
 ## Grundidee
 
 Viele lineare Situationen lassen sich direkt aus zwei Rollen lesen: **Wie startet etwas?** und **wie stark verändert es sich pro Schritt?** Genau daraus entsteht die Form `y = mx + b`.

@@ -3,22 +3,12 @@ title: "Lösung – Absolute und relative Pfade im Skript prüfen"
 description: "Musterlösung zu Skriptpfade mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell"
-  - "dateisystem-und-pfade"
-  - "skriptkontext"
-  - "absolute-und-relative-pfade-im-skript-pruefen"
+topicPath: ["shell", "dateisystem-und-pfade", "skriptkontext", "absolute-und-relative-pfade-im-skript-pruefen"]
 taskId: "v108-linux-absolute-und-relative-pfade-im-skript-pruefen"
 relatedExercise: "linux/shell/dateisystem-und-pfade/skriptkontext/absolute-und-relative-pfade-im-skript-pruefen"
-tags:
-  - "linux"
-  - "shell"
-  - "praxis"
-  - "dateisystem-und-pfade"
-  - "skriptpfade"
+tags: ["linux", "Shell", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **Skriptpfade**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

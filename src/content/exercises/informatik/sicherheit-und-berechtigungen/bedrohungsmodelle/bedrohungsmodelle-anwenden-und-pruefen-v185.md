@@ -1,29 +1,17 @@
 ---
 title: "Bedrohungsmodelle – anwenden und prüfen"
 description: "Übe, bedrohungsmodelle fachlich auf Beispiele anzuwenden und zu überprüfen."
-subject: informatik
+subject: "informatik"
 section: "Sicherheit und Berechtigungen"
-topicPath:
-  - "sicherheit-und-berechtigungen"
-  - "bedrohungsmodelle"
-  - "uebung"
-taskId: INF-V185-020-2
-tags:
-  - "informatik"
-  - "sicherheit-und-berechtigungen"
-  - "bedrohungsmodelle"
-hintPoints:
-  - "Beginne mit der Grundidee, nicht mit einem Spezialfall."
-  - "Trenne Begriff, Beispiel und Prüfung."
-selfCheckPoints:
-  - "Ich kann das Thema in eigenen Worten erklären."
-  - "Ich kann ein passendes Beispiel begründen."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel in einem anderen Fachbereich."
-level: einfach
+topicPath: ["sicherheit-und-berechtigungen", "bedrohungsmodelle", "bedrohungsmodelle-anwenden-und-pruefen-v185"]
+taskId: "INF-V185-020-2"
+tags: ["informatik", "Sicherheit und Berechtigungen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe nutzt **Bedrohungsmodelle**, um Beispiele, Grenzen und Prüfwege bewusster zu unterscheiden.
 
 ## Lernziel

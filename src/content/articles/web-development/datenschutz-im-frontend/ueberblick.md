@@ -1,33 +1,17 @@
 ---
 title: "Datenschutz im Frontend"
 description: "Überblick über Datenschutzfragen, die bereits im Browser und nicht erst im Backend entstehen."
-subject: web-development
+subject: "web-development"
 section: "Sicherheit"
-topicPath:
-  - "datenschutz-im-frontend"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Datenschutz im Frontend als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["datenschutz-im-frontend", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Datenschutz wird oft nur als Serverproblem gesehen. Schon ein eingebundenes Skript, ein Tracking-Pixel oder unnötiger Local-Storage kann relevant sein."
-keyTakeaways:
-  - "Datenschutz im Frontend betrifft sichtbare Eingaben, lokale Speicherung, Tracking, externe Ressourcen und unbeabsichtigte Datenweitergabe."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um datenschutz im frontend, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich datenschutz im frontend in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "web-development"
-  - "datenschutz im frontend"
-  - "überblick"
-  - "datensparsamkeit"
-  - "lokale speicherung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Sicherheit"]
 draft: false
 ---
 # Datenschutz im Frontend

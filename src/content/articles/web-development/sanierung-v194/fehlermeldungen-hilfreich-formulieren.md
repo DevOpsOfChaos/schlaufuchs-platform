@@ -3,44 +3,17 @@ title: "Fehlermeldungen hilfreich formulieren"
 description: "Verstehe fehler als handlungsanweisung schreiben als ruhigen Web-Development-Baustein für zugängliche, responsive und gut prüfbare Seiten."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "formulare-und-feedback"
-  - "fehlermeldungen-hilfreich-formulieren"
-
-learningGoals:
-  - "Fehler als Handlungsanweisung schreiben"
-  - "Struktur, Gestaltung und Nutzung klar trennen"
-  - "einen kleinen prüfbaren nächsten Schritt formulieren"
-practiceIdeas:
-  - "Schreibe drei unklare Fehlermeldungen in hilfreiche Meldungen um."
-  - "Prüfe eine zweite Seite mit demselben Blickwinkel."
-commonMistakes:
-  - "Das Thema wird erst nach dem visuellen Design betrachtet."
-  - "Ein einzelner Test wird mit echter Nutzbarkeit verwechselt."
-  - "Zustände wie Fokus, Fehler oder kleine Bildschirme bleiben ungetestet."
-keyTakeaways:
-  - "Eine Fehlermeldung benennt Problem und nächsten Schritt."
-  - "Technische Codes helfen Lernenden selten allein."
-  - "Mehrere Fehler brauchen eine ruhige Reihenfolge."
-
-recognizeSignals:
-  - "Das Thema taucht auf, wenn eine Seite zwar sichtbar funktioniert, aber Bedienung, Lesbarkeit oder Prüfung unsicher bleiben."
-selfCheckPoints:
-  - "Kann ich beschreiben, welches Problem für Nutzerinnen und Nutzer gelöst wird?"
-  - "Ist klar, ob HTML-Struktur, CSS-Layout, Interaktion oder Inhalt betroffen ist?"
-  - "Gibt es einen kleinen Test nach der Änderung?"
+topicPath: ["sanierung-v194", "fehlermeldungen-hilfreich-formulieren"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
-tags:
-  - "fehlermeldungen"
-  - "hilfreich"
-  - "formulieren"
-  - "web-development"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Fehlermeldungen hilfreich formulieren](/schlaufuchs-platform/images/web-development/sanierung-v194/fehlermeldungen-hilfreich-formulieren.svg)
 
 Fehlermeldungen hilfreich formulieren gehört zur Web-Development-Sanierung v194. Die Seite behandelt das Thema als Qualitätsentscheidung: Eine Webseite soll nicht nur hübsch aussehen, sondern verständlich, bedienbar und überprüfbar bleiben.

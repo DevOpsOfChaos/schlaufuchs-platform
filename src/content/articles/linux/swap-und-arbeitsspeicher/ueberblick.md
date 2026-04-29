@@ -3,32 +3,17 @@ title: "Swap und Arbeitsspeicher"
 description: "Allgemeiner Überblick über swap und arbeitsspeicher und die wichtigsten Zusammenhänge."
 subject: "linux"
 section: "System"
-topicPath:
-  - "swap-und-arbeitsspeicher"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["swap-und-arbeitsspeicher", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Swap entweder als unnötig oder als Lösung für jedes Speicherproblem betrachtet."
-keyTakeaways:
-  - "Swap ist ein Sicherheitsnetz, aber kein Ersatz für ausreichenden Arbeitsspeicher."
-  - "Swap ist keine vollwertige RAM-Erweiterung."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "linux"
-  - "speicher"
-  - "swap"
-  - "system"
+tags: ["linux", "System"]
 draft: false
 ---
-
 # Swap und Arbeitsspeicher
 
 Swap ist Speicherplatz auf Datenträgern, den Linux nutzen kann, wenn physischer Arbeitsspeicher knapp wird.

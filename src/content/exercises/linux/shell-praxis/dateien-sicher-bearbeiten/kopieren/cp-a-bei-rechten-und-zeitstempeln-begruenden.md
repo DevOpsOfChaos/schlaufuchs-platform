@@ -3,35 +3,15 @@ title: "Aufgabe – cp -a bei Rechten und Zeitstempeln begründen"
 description: "Übe cp -a mit Szenario, Trennkante und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell-praxis"
-  - "dateien-sicher-bearbeiten"
-  - "kopieren"
-  - "cp-a-bei-rechten-und-zeitstempeln-begruenden"
+topicPath: ["shell-praxis", "dateien-sicher-bearbeiten", "kopieren", "cp-a-bei-rechten-und-zeitstempeln-begruenden"]
 taskId: "v111-linux-cp-a-bei-rechten-und-zeitstempeln-begruenden"
-tags:
-  - "linux"
-  - "betrieb"
-  - "unterthema"
-  - "shell-praxis"
-  - "dateien-sicher-bearbeiten"
-  - "cp-a-bei-rechten-und-zeitstempeln-begruenden"
-hintPoints:
-  - "Benenne zuerst das genaue Unterthema."
-  - "Schreibe die typische Verwechslung ausdrücklich auf."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Lösung enger als ein breites Kapitel?"
-  - "Wird ein Nachbarthema sauber ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere eine zweite Aufgabe im gleichen Unterthema mit anderer Oberfläche."
-reflectionPrompt: "Welche kleine Trennkante macht cp -a übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["linux", "Feinstruktur Linux", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **cp -a**.

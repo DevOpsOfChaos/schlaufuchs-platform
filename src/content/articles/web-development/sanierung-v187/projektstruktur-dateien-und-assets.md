@@ -3,39 +3,17 @@ title: "Projektstruktur, Dateien und Assets"
 description: "Ordne Dateien so, dass Seiten, Styles, Skripte und Medien dauerhaft auffindbar bleiben."
 subject: "web-development"
 section: "werkzeuge"
-topicPath: 
-  - "werkzeuge-und-projektarbeit"
-  - "projektstruktur"
-learningGoals: 
-  - "Nachvollziehbare Dateiordnung ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Entwirf eine Ordnerstruktur für eine kleine Lernwebsite mit Bildern, CSS und drei Seiten."
-  - "Räume eine chaotische Dateiliste in sinnvolle Ordner und erkläre die neuen Pfade."
-commonMistakes: 
-  - "Alle Dateien liegen ungeordnet im Hauptordner."
-  - "Dateinamen beschreiben nicht den Inhalt."
-  - "Pfade werden beim Verschieben nicht mitgedacht."
-keyTakeaways: 
-  - "Eine gute Struktur macht den nächsten Änderungsschritt leichter, nicht nur die erste Demo lauffähig."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "Eine gute Struktur macht den nächsten Änderungsschritt leichter, nicht nur die erste Demo lauffähig."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "projektstruktur-dateien-und-assets"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags: 
-  - "projektstruktur"
-  - "dateien"
-  - "assets"
-  - "pfade"
-  - "web-development"
+tags: ["web-development", "werkzeuge"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Projektstruktur, Dateien und Assets](/schlaufuchs-platform/images/web-development/sanierung-v187/projektstruktur-dateien-und-assets.svg)
 
     Projektstruktur, Dateien und Assets ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

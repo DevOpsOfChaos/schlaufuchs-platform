@@ -3,20 +3,12 @@ title: "Lösung – Lineare Suche von binärer Suche trennen"
 description: "Musterlösung zu Lineare Suche von binärer Suche trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "algorithmen"
-  - "suchen-und-sortieren"
-  - "lineare-suche-von-binaerer-suche-trennen-v113"
+topicPath: ["algorithmen", "suchen-und-sortieren", "lineare-suche-von-binaerer-suche-trennen-v113"]
 taskId: "v113-informatik-lineare-suche-von-binaerer-suche-trennen-v113"
 relatedExercise: "informatik/algorithmen/suchen-und-sortieren/lineare-suche-von-binaerer-suche-trennen-v113"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "lineare-suche-von-binaerer-suche-trennen-v113"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Lineare Suche von binärer Suche trennen**.

@@ -3,25 +3,12 @@ title: "Lösung: Formulare zugänglich bauen: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-development-v194-008b im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "formulare-und-feedback"
-  - "formulare-zugaenglich-bauen"
-  - "loesung-b"
-
+topicPath: ["sanierung-v194", "formulare-zugaenglich-bauen-loesung-b"]
 taskId: "web-development-v194-008b"
 relatedExercise: "web-development/sanierung-v194/formulare-zugaenglich-bauen-aufgabe-b"
-tags:
-  - "formulare"
-  - "zugaenglich"
-  - "bauen"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-008b`
 
 Ausgangsauftrag: Übertrage das Thema Formulare zugänglich bauen auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

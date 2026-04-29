@@ -1,42 +1,19 @@
 ---
 title: "Grundlagen: Bauteiltoleranzen und Derating"
 description: "Allgemeiner Überblick über Toleranz, Grenzwerte, Sicherheitsabstand und Bauteilauswahl."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Bauteile"
-topicPath:
-  - bauteile
-  - bauteiltoleranzen-und-derating
-  - ueberblick
-learningGoals:
-  - "Du erklärst die Grundidee des Themas in eigenen Worten."
-  - "Du ordnest typische Begriffe, Grenzen und Fehlerquellen ruhig ein."
-  - "Du erkennst, welche Detailfragen zu diesem Themenbereich gehören."
-practiceIdeas:
-  - "Skizziere den Zusammenhang als Prüf-, Signal- oder Strompfad."
-  - "Notiere eine typische Fehlannahme und formuliere eine Gegenprobe."
-commonMistakes:
-  - "Datenblattgrenzen als normalen Betriebswert zu nutzen."
-  - "Toleranzen erst nach dem Fehler zu betrachten."
-  - "Bauteile nur nach Nennwert auszuwählen."
-keyTakeaways:
-  - "Bauteile haben Streuung und Belastungsgrenzen."
-  - "Derating schafft Abstand zum Grenzbetrieb."
-  - "Gute Auswahl berücksichtigt Temperatur, Leistung und Toleranz."
-recognizeSignals:
-  - "Du brauchst zuerst Orientierung, bevor du eine konkrete Schaltung oder Aufgabe bewertest."
-  - "Ein Einzelfall wirkt plausibel, aber der allgemeine fachliche Rahmen fehlt."
-selfCheckPoints:
-  - "Kann ich das Thema ohne reines Auswendiglernen erklären?"
-  - "Kann ich typische Fehlerquellen in einer sinnvollen Prüfreihenfolge nennen?"
-level: einfach
-tags:
-  - elektrotechnik
-  - bauteile
-  - toleranz
-  - derating
+topicPath: ["bauteile", "bauteiltoleranzen-und-derating", "ueberblick", "grundlagen-bauteiltoleranzen-und-derating"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Bauteile"]
 draft: false
 ---
-
 ![Bauteiltoleranzen und Derating](/schlaufuchs-platform/images/overviews/v182/bauteiltoleranzen-und-derating.svg)
 
 ## Überblick

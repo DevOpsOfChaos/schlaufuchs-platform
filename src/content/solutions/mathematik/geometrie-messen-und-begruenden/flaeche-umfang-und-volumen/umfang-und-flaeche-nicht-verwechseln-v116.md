@@ -3,22 +3,12 @@ title: "Lösung: Umfang und Fläche nicht verwechseln"
 description: "Musterlösung zur Aufgabe „Umfang und Fläche nicht verwechseln“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "geometrie-messen-und-begruenden"
-  - "flaeche-umfang-und-volumen"
-  - "umfang-und-flaeche-nicht-verwechseln-v116"
+topicPath: ["geometrie-messen-und-begruenden", "flaeche-umfang-und-volumen", "umfang-und-flaeche-nicht-verwechseln-v116"]
 taskId: "umfang-und-flaeche-nicht-verwechseln-v116"
 relatedExercise: "mathematik/geometrie-messen-und-begruenden/flaeche-umfang-und-volumen/umfang-und-flaeche-nicht-verwechseln-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "flaeche umfang und volumen"
-  - "umfang und flaeche nicht verwechseln"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

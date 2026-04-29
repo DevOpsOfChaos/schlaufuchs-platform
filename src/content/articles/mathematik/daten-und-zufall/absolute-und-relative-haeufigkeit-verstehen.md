@@ -1,44 +1,19 @@
 ---
-title: Absolute und relative Häufigkeit verstehen
-description: Verstehe, wie oft etwas vorkommt und wie dieser Anteil im Verhältnis zur Gesamtzahl gedeutet wird.
-subject: mathematik
-section: Daten und Zufall
-topicPath:
-  - daten-und-zufall
-  - absolute-und-relative-haeufigkeit-verstehen
-learningGoals:
-  - Du erklärst absolute und relative Häufigkeit.
-  - Du unterscheidest Anzahl und Anteil sauber.
-  - Du deutest Ergebnisse ruhiger in Bezug auf die Gesamtmenge.
-practiceIdeas:
-  - Zähle in einer kleinen Datenliste das Auftreten einer Kategorie.
-  - Berechne aus einer Anzahl den passenden Anteil an der Gesamtmenge.
-  - Vergleiche zwei Gruppen nicht nur nach Anzahl, sondern auch nach Anteil.
-commonMistakes:
-  - Absolute und relative Häufigkeit zu vermischen.
-  - Den Anteil zu nennen, ohne die Gesamtzahl mitzudenken.
-  - Zwei Gruppen mit unterschiedlicher Größe nur über nackte Zahlen zu vergleichen.
-keyTakeaways:
-  - Absolute Häufigkeit ist die reine Anzahl.
-  - Relative Häufigkeit ist der Anteil an der Gesamtmenge.
-  - Für Vergleiche ist der Anteil oft aussagekräftiger als die bloße Zahl.
-recognizeSignals:
-  - Es geht um Datenlisten, Umfragen, Treffer oder Anteile.
-  - Du sollst nicht nur zählen, sondern Ergebnisse in Relation setzen.
-  - In Aufgaben tauchen Begriffe wie Anteil, Quote oder Prozentsatz auf.
-selfCheckPoints:
-  - Kann ich Anzahl und Anteil sauber trennen?
-  - Kann ich erklären, warum die Gesamtmenge wichtig ist?
-  - Kann ich eine relative Häufigkeit in Worten deuten?
-tags:
-  - haeufigkeit
-  - statistik
-  - daten
-  - anteil
-level: einfach
+title: "Absolute und relative Häufigkeit verstehen"
+description: "Verstehe, wie oft etwas vorkommt und wie dieser Anteil im Verhältnis zur Gesamtzahl gedeutet wird."
+subject: "mathematik"
+section: "Daten und Zufall"
+topicPath: ["daten-und-zufall", "absolute-und-relative-haeufigkeit-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Daten und Zufall"]
 draft: false
 ---
-
 ## Grundidee
 
 Wenn Daten ausgewertet werden, reicht es oft nicht zu sagen, **wie oft** etwas vorkommt. Häufig ist auch wichtig, **welchen Anteil** dieses Vorkommen an der gesamten Datenmenge hat.

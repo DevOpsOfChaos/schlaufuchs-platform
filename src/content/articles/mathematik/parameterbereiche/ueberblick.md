@@ -1,33 +1,19 @@
 ---
 title: "Parameterbereiche"
 description: "Parameterbereiche beschreiben, für welche Werte eines Parameters bestimmte Eigenschaften gelten. Sie helfen, Familien von Funktionen oder Gleichungen systematisch zu untersuchen."
-subject: mathematik
+subject: "mathematik"
 section: "Mathematik"
-topicPath:
-  - "parameterbereiche"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Parameterbereiche."
-  - "Du kannst Parameterbereiche in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["parameterbereiche", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur einen Beispielwert einzusetzen und daraus alle Fälle abzuleiten."
-keyTakeaways:
-  - "Parameterbereiche beschreiben, für welche Werte eines Parameters bestimmte Eigenschaften gelten."
-  - "Wichtig sind vor allem fallunterscheidungen, grenzwerte und sonderfälle und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Parameterbereiche, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Parameterbereiche dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "grundlagen"
-  - "parameterbereiche"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Mathematik"]
 draft: false
 ---
-
 # Parameterbereiche
 
 Parameterbereiche beschreiben, für welche Werte eines Parameters bestimmte Eigenschaften gelten. Sie helfen, Familien von Funktionen oder Gleichungen systematisch zu untersuchen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

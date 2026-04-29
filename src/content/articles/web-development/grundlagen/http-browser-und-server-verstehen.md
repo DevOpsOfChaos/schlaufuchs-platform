@@ -1,17 +1,19 @@
 ---
-title: HTTP, Browser und Server verstehen
-description: Web Development beginnt nicht nur bei HTML und CSS, sondern auch beim Verständnis dafür, wie Browser und Server über HTTP zusammenarbeiten.
-subject: web-development
-section: Grundlagen
-level: mittel
-tags:
-  - HTTP
-  - Browser
-  - Server
-  - Web Development
+title: "HTTP, Browser und Server verstehen"
+description: "Web Development beginnt nicht nur bei HTML und CSS, sondern auch beim Verständnis dafür, wie Browser und Server über HTTP zusammenarbeiten."
+subject: "web-development"
+section: "Grundlagen"
+topicPath: ["grundlagen", "http-browser-und-server-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 Wer Webseiten entwickelt, arbeitet nicht nur mit Struktur und Gestaltung, sondern auch mit Kommunikation. Jedes Laden einer Seite, jedes Bild, jede Datei und jede API-Anfrage läuft über einen technischen Austausch zwischen Browser und Server. HTTP ist dabei eines der wichtigsten Grundprotokolle des Webs.

@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Befehle, Optionen und Argumente – ruhig einordnen"
 description: "Musterlösung zur Linux-Aufgabe Befehle, Optionen und Argumente."
-subject: linux
+subject: "linux"
 section: "shell-und-terminal"
-topicPath:
-  - "shell-und-terminal"
-  - "befehle-optionen-und-argumente"
-taskId: LINUX-BEFEHLE-OPTIONEN-UND-ARGUMENTE-V186-1
-relatedExercise: src/content/exercises/linux/shell-und-terminal/befehle-optionen-und-argumente/befehle-optionen-und-argumente-ruhig-einordnen-v186.md
-tags:
-  - "linux"
-  - "befehle"
-  - "optionen"
-  - "loesung"
+topicPath: ["shell-und-terminal", "befehle-optionen-und-argumente", "befehle-optionen-und-argumente-ruhig-einordnen-v186"]
+taskId: "LINUX-BEFEHLE-OPTIONEN-UND-ARGUMENTE-V186-1"
+relatedExercise: "src/content/exercises/linux/shell-und-terminal/befehle-optionen-und-argumente/befehle-optionen-und-argumente-ruhig-einordnen-v186.md"
+tags: ["linux", "shell-und-terminal", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

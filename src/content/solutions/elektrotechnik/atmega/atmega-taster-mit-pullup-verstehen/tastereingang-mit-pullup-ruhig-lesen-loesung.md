@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Tastereingang mit Pull-up ruhig lesen
-description: Musterlösung zur Aufgabe ET-ATMEGA-IO-202.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - digitale-eingaenge-und-ausgaenge
-  - atmega-taster-mit-pullup-verstehen
-  - tastereingang-mit-pullup-ruhig-lesen-loesung
-taskId: ET-ATMEGA-IO-202
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-taster-mit-pullup-verstehen/tastereingang-mit-pullup-ruhig-lesen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – Tastereingang mit Pull-up ruhig lesen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-IO-202."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-taster-mit-pullup-verstehen", "tastereingang-mit-pullup-ruhig-lesen"]
+taskId: "ET-ATMEGA-IO-202"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-taster-mit-pullup-verstehen/tastereingang-mit-pullup-ruhig-lesen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

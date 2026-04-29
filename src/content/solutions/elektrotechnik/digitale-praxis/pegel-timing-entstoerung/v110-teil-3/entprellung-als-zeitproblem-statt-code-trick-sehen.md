@@ -3,23 +3,12 @@ title: "Lösung – Entprellung als Zeitproblem statt Code-Trick sehen"
 description: "Musterlösung zu Entprellung als Zeitproblem statt Code-Trick sehen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Digitale Praxis"
-topicPath:
-  - "digitale-praxis"
-  - "pegel-timing-entstoerung"
-  - "v110-teil-3"
-  - "entprellung-als-zeitproblem-statt-code-trick-sehen"
+topicPath: ["digitale-praxis", "pegel-timing-entstoerung", "v110-teil-3", "entprellung-als-zeitproblem-statt-code-trick-sehen"]
 taskId: "v110-elektrotechnik-entprellung-als-zeitproblem-statt-code-trick-sehen"
 relatedExercise: "elektrotechnik/digitale-praxis/pegel-timing-entstoerung/v110-teil-3/entprellung-als-zeitproblem-statt-code-trick-sehen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "digitale-praxis"
-  - "pegel-timing-entstoerung"
-  - "entprellung-als-zeitproblem-statt-code-trick-sehen"
+tags: ["elektrotechnik", "Digitale Praxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Entprellung als Zeitproblem statt Code-Trick sehen**.

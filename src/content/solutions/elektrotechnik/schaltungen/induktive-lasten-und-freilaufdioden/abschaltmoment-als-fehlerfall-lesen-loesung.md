@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Abschaltmoment als Fehlerfall lesen"
 description: "Musterlösung zur Aufgabe Abschaltmoment als Fehlerfall lesen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schaltungen"
-topicPath:
-  - schaltungen
-  - induktive-lasten-und-freilaufdioden
-taskId: ET-V181-008
-relatedExercise: src/content/exercises/elektrotechnik/schaltungen/induktive-lasten-und-freilaufdioden/abschaltmoment-als-fehlerfall-lesen.md
-tags:
-  - elektrotechnik
-  - induktive-lasten-und-freilaufdioden
-  - loesung
+topicPath: ["schaltungen", "induktive-lasten-und-freilaufdioden", "abschaltmoment-als-fehlerfall-lesen"]
+taskId: "ET-V181-008"
+relatedExercise: "src/content/exercises/elektrotechnik/schaltungen/induktive-lasten-und-freilaufdioden/abschaltmoment-als-fehlerfall-lesen.md"
+tags: ["elektrotechnik", "Schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

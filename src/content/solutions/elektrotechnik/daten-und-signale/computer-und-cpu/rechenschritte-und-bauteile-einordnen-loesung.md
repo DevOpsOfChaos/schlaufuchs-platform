@@ -1,23 +1,14 @@
 ---
 title: "Lösung: Rechenschritte und Bauteile einordnen"
 description: "Lösung zur Aufgabe über CPU-Bauteile, Rechenschritte und Datenfluss."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Daten und Signale"
-topicPath:
-  - "daten-und-signale"
-  - "computer-und-cpu"
-  - "rechenschritte-und-bauteile-einordnen"
+topicPath: ["daten-und-signale", "computer-und-cpu", "rechenschritte-und-bauteile-einordnen"]
 taskId: "ET-DS-CPU-001"
 relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/computer-und-cpu/rechenschritte-und-bauteile-einordnen.md"
-tags:
-  - "elektrotechnik"
-  - "steuerwerk"
-  - "rechenwerk"
-  - "speicher"
-  - "bus"
+tags: ["elektrotechnik", "Daten und Signale", "loesung"]
 draft: false
 ---
-
 ## Lösungsgedanke
 
 Diese Lösung ist bewusst als Musterlösung aufgebaut. Sie zeigt nicht nur ein Ergebnis, sondern die fachliche Begründung, damit die Aufgabe später nachvollziehbar kontrolliert werden kann.

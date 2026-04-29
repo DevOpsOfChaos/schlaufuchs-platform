@@ -3,34 +3,15 @@ title: "HTML-Struktur im Überblick: Grundordnung"
 description: "Skizziere das HTML-Grundgerüst für eine Profilseite und markiere Kopfbereich, Hauptbereich und Nebeninformationen."
 subject: "web-development"
 section: "html"
-topicPath: 
-  - "html-und-semantik"
-  - "struktur"
-  - "aufgabe-a"
+topicPath: ["sanierung-v187", "html-struktur-ueberblick-aufgabe-a"]
 taskId: "web-v187-002a"
-tags: 
-  - "html"
-  - "struktur"
-  - "semantik"
-  - "web-development"
-  - "aufgabe"
-  - "v187"
-hintPoints: 
-  - "Trenne Zweck, Struktur und sichtbare Wirkung."
-  - "Begründe mindestens eine Entscheidung mit dem Nutzerziel."
-  - "Prüfe einen typischen Fehlerfall aus der Erklärseite."
-selfCheckPoints: 
-  - "Die Lösung passt zur Aufgabenstellung."
-  - "Mindestens eine Entscheidung ist begründet."
-  - "Es gibt keine neue Aufgabe ohne passende Lösung."
-transferIdeas: 
-  - "Übertrage die Entscheidung auf eine zweite kleine Seite."
-  - "Formuliere eine kurze Checkliste für spätere Wiederholung."
-reflectionPrompt: "Welche Entscheidung war am wichtigsten, damit die Lösung ruhig und wartbar bleibt?"
+tags: ["web-development", "html", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Skizziere das HTML-Grundgerüst für eine Profilseite und markiere Kopfbereich, Hauptbereich und Nebeninformationen.

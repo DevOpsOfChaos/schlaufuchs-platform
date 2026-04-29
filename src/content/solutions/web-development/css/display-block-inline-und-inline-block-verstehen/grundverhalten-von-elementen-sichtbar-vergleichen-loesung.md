@@ -1,21 +1,14 @@
 ---
-title: Lösung – Grundverhalten von Elementen sichtbar vergleichen
-description: Musterlösung zur Aufgabe über block, inline und inline-block.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - display-block-inline-und-inline-block-verstehen
-taskId: WEB-CSS-LAYOUT-201
-relatedExercise: web-development/css/display-block-inline-und-inline-block-verstehen/grundverhalten-von-elementen-sichtbar-vergleichen
-tags:
-  - css
-  - display
-  - loesung
+title: "Lösung – Grundverhalten von Elementen sichtbar vergleichen"
+description: "Musterlösung zur Aufgabe über block, inline und inline-block."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "display-block-inline-und-inline-block-verstehen", "grundverhalten-von-elementen-sichtbar-vergleichen"]
+taskId: "WEB-CSS-LAYOUT-201"
+relatedExercise: "web-development/css/display-block-inline-und-inline-block-verstehen/grundverhalten-von-elementen-sichtbar-vergleichen"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

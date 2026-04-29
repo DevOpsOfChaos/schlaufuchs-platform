@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Busfehler nach Ebenen sortieren"
 description: "Musterlösung zur Aufgabe Busfehler nach Ebenen sortieren."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - mikrocontroller-und-atmega
-  - schnittstellen-und-busse
-  - i2c-spi-uart-fehlersuche
-taskId: ET-V181-019
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/schnittstellen-und-busse/i2c-spi-uart-fehlersuche/busfehler-nach-ebenen-sortieren.md
-tags:
-  - elektrotechnik
-  - i2c-spi-uart-fehlersuche
-  - loesung
+topicPath: ["mikrocontroller-und-atmega", "schnittstellen-und-busse", "i2c-spi-uart-fehlersuche", "busfehler-nach-ebenen-sortieren"]
+taskId: "ET-V181-019"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/schnittstellen-und-busse/i2c-spi-uart-fehlersuche/busfehler-nach-ebenen-sortieren.md"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

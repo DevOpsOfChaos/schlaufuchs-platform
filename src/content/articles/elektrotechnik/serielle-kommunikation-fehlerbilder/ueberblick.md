@@ -1,37 +1,19 @@
 ---
 title: "Fehlerbilder serieller Kommunikation"
 description: "Überblick über typische Fehlerquellen bei serieller Kommunikation und ihre erkennbare Wirkung."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Kommunikation"
-topicPath:
-  - "serielle-kommunikation-fehlerbilder"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Fehlerbilder serieller Kommunikation als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["serielle-kommunikation-fehlerbilder", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur die Bibliothek zu wechseln, ohne Leitungen, Pegel und Protokollparameter zu messen."
-keyTakeaways:
-  - "Serielle Fehler haben oft erkennbare Muster."
-  - "Pegel, Timing und Protokoll gehören zusammen."
-  - "Messgeräte beschleunigen die Fehlersuche deutlich."
-recognizeSignals:
-  - "Daten kommen unvollständig, zufällig oder nur manchmal an."
-  - "Mehrere Geräte teilen sich Busleitungen."
-selfCheckPoints:
-  - "Kann ich Fehlerbilder serieller Kommunikation in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "uart"
-  - "i2c"
-  - "spi"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Kommunikation"]
 draft: false
 ---
-
 # Fehlerbilder serieller Kommunikation
 
 Serielle Kommunikation überträgt Daten schrittweise über eine oder wenige Leitungen. Fehlerbilder entstehen durch falsche Pegel, Timing, Verdrahtung, Protokollannahmen oder Störungen.

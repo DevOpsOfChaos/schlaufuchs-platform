@@ -1,32 +1,17 @@
 ---
-title: Grid-Spalten über Mindestbreite und Platzlogik begründen
-description: Begründe, warum minmax und auto-fit für ein Kartenraster ruhiger wirken als starre Spaltenzahlen.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - minmax-und-auto-fit-verstehen
-  - grid-spalten-ueber-mindestbreite-und-platzlogik-begruenden
-level: mittel
+title: "Grid-Spalten über Mindestbreite und Platzlogik begründen"
+description: "Begründe, warum minmax und auto-fit für ein Kartenraster ruhiger wirken als starre Spaltenzahlen."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "minmax-und-auto-fit-verstehen", "grid-spalten-ueber-mindestbreite-und-platzlogik-begruenden"]
+taskId: "AUTO-GRID-SPALTEN-UEBER-MINDESTBREITE-UND-PLATZLOGIK-BEGRUENDEN"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - css
-  - grid
-  - minmax
-  - auto-fit
-hintPoints:
-  - Frage zuerst nicht nach der Spaltenzahl, sondern nach der kleinsten sinnvollen Kartenbreite.
-  - Überlege, was bei wenig Platz mit den Karten passieren soll.
-  - Beschreibe nicht nur Umbruch, sondern auch Lesbarkeit.
-selfCheckPoints:
-  - Kannst du starres und flexibles Grid-Verhalten unterscheiden?
-  - Kannst du die Rolle von minmax ruhig erklären?
-transferIdeas:
-  - Übertrage die Aufgabe auf Produktkarten, Themenübersichten oder Galerie-Kacheln.
-reflectionPrompt: Warum ist bei Kartenrastern oft eine Mindestbreite hilfreicher als eine feste Anzahl von Spalten?
 ---
-
 ## Aufgabe 1: Raster vergleichen
 
 Ein Kartenbereich soll auf großen Flächen mehrere Karten nebeneinander zeigen, auf kleineren Breiten aber lesbar bleiben.

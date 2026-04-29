@@ -1,33 +1,19 @@
 ---
 title: "Secret Management"
 description: "Secret Management umfasst sicheren Umgang mit Passwörtern, Tokens, Schlüsseln und Zertifikaten. Es schützt Zugangsdaten über ihren gesamten Lebenszyklus."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "secret-management"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Secret Management."
-  - "Du kannst Secret Management in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["secret-management", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Secrets in Repositories, Logs oder Screenshots auftauchen zu lassen."
-keyTakeaways:
-  - "Secret Management umfasst sicheren Umgang mit Passwörtern, Tokens, Schlüsseln und Zertifikaten."
-  - "Wichtig sind vor allem speicherung und zugriff, rotation und ablauf und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Secret Management, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Secret Management dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "informatik"
-  - "grundlagen"
-  - "secret management"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Secret Management
 
 Secret Management umfasst sicheren Umgang mit Passwörtern, Tokens, Schlüsseln und Zertifikaten. Es schützt Zugangsdaten über ihren gesamten Lebenszyklus. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

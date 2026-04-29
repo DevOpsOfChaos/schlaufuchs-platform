@@ -1,33 +1,19 @@
 ---
 title: "Temperaturkoeffizient"
 description: "Der Temperaturkoeffizient beschreibt, wie stark sich eine elektrische Größe mit der Temperatur ändert. Er ist wichtig bei Widerständen, Sensoren, Referenzen und Schwellwerten."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik und Mikrocontroller"
-topicPath:
-  - "temperaturkoeffizient"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Temperaturkoeffizient."
-  - "Du kannst Temperaturkoeffizient in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["temperaturkoeffizient", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Bauteilwerte nur bei Raumtemperatur zu betrachten."
-keyTakeaways:
-  - "Der Temperaturkoeffizient beschreibt, wie stark sich eine elektrische Größe mit der Temperatur ändert."
-  - "Wichtig sind vor allem änderung von widerstand und spannung, drift über temperaturbereiche und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Temperaturkoeffizient, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Temperaturkoeffizient dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "grundlagen"
-  - "temperaturkoeffizient"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik und Mikrocontroller"]
 draft: false
 ---
-
 # Temperaturkoeffizient
 
 Der Temperaturkoeffizient beschreibt, wie stark sich eine elektrische Größe mit der Temperatur ändert. Er ist wichtig bei Widerständen, Sensoren, Referenzen und Schwellwerten. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

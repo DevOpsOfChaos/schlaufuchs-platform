@@ -1,11 +1,17 @@
 ---
-title: printf()-Ausgabe lesen
-description: Übe, kleine C-Programme zu lesen und ihre Ausgabe vorherzusagen.
-subject: informatik
-level: mittel
+title: "printf()-Ausgabe lesen"
+description: "Übe, kleine C-Programme zu lesen und ihre Ausgabe vorherzusagen."
+subject: "informatik"
+section: "printf-ausgabe-lesen"
+topicPath: ["printf-ausgabe-lesen"]
+taskId: "AUTO-PRINTF-AUSGABE-LESEN"
+tags: ["informatik", "printf-ausgabe-lesen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 Diese Übung trainiert das Lesen einfacher C-Ausgaben und hilft dir, kleine Programmbeispiele besser zu verstehen.
 
 ## Aufgabenideen

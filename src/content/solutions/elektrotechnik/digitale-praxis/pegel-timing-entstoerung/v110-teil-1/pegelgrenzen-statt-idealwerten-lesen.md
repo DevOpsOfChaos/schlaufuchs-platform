@@ -3,23 +3,12 @@ title: "Lösung – Pegelgrenzen statt Idealwerten lesen"
 description: "Musterlösung zu Pegelgrenzen statt Idealwerten lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Digitale Praxis"
-topicPath:
-  - "digitale-praxis"
-  - "pegel-timing-entstoerung"
-  - "v110-teil-1"
-  - "pegelgrenzen-statt-idealwerten-lesen"
+topicPath: ["digitale-praxis", "pegel-timing-entstoerung", "v110-teil-1", "pegelgrenzen-statt-idealwerten-lesen"]
 taskId: "v110-elektrotechnik-pegelgrenzen-statt-idealwerten-lesen"
 relatedExercise: "elektrotechnik/digitale-praxis/pegel-timing-entstoerung/v110-teil-1/pegelgrenzen-statt-idealwerten-lesen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "digitale-praxis"
-  - "pegel-timing-entstoerung"
-  - "pegelgrenzen-statt-idealwerten-lesen"
+tags: ["elektrotechnik", "Digitale Praxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Pegelgrenzen statt Idealwerten lesen**.

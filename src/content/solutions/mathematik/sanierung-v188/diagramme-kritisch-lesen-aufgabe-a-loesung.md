@@ -3,22 +3,12 @@ title: "Lösung: Diagramme kritisch lesen: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-031a."
 subject: "mathematik"
 section: "daten-deuten-und-pruefen"
-topicPath:
-  - "daten-deuten-und-pruefen"
-  - "diagramme-kritisch-lesen"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "diagramme-kritisch-lesen-aufgabe-a"]
 taskId: "mat-v188-031a"
 relatedExercise: "mathematik/sanierung-v188/diagramme-kritisch-lesen-aufgabe-a"
-tags:
-  - "diagramme"
-  - "daten"
-  - "kritisch"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "daten-deuten-und-pruefen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-031a`
 
 Eine mögliche Lösung:

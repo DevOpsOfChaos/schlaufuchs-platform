@@ -1,36 +1,19 @@
 ---
 title: "find mit -exec"
 description: "find mit -exec verbindet Dateisuche und Aktion: Für gefundene Pfade kann direkt ein Befehl ausgeführt werden."
-subject: linux
+subject: "linux"
 section: "Shell-Werkzeuge"
-topicPath:
-  - "find-mit-exec"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst find mit -exec als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["find-mit-exec", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, Löschbefehle ohne vorherige Anzeige oder Testlauf auszuführen."
-keyTakeaways:
-  - "find mit -exec verbindet Dateisuche und Aktion: Für gefundene Pfade kann direkt ein Befehl ausgeführt werden."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um find mit -exec, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich find mit -exec in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "find"
-  - "dateien"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell-Werkzeuge"]
 draft: false
 ---
-
 # find mit -exec
 
 find mit -exec verbindet Dateisuche und Aktion: Für gefundene Pfade kann direkt ein Befehl

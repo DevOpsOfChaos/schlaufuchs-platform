@@ -1,34 +1,19 @@
 ---
 title: "Farbkontrast und Lesbarkeit"
 description: "Allgemeiner Überblick über Kontrast, Lesbarkeit und visuelle Zugänglichkeit im Web."
-subject: web-development
+subject: "web-development"
 section: "Barrierefreiheit"
-topicPath:
-  - "farbkontrast-und-lesbarkeit"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Farbkontrast und Lesbarkeit als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["farbkontrast-und-lesbarkeit", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Kontrast nur auf dem eigenen Monitor beurteilt. Andere Geräte und Lichtbedingungen verändern das Ergebnis."
-keyTakeaways:
-  - "Farbkontrast ist Teil der Grundfunktion einer Oberfläche."
-  - "Farbkontrast und Lesbarkeit sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Farbkontrast und Lesbarkeit."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Farbkontrast und Lesbarkeit erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "web development"
-  - "kontrast"
-  - "lesbarkeit"
-  - "barrierefreiheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Barrierefreiheit"]
 draft: false
 ---
-
 # Farbkontrast und Lesbarkeit
 
 Farbkontrast beschreibt, wie deutlich sich Text, Symbole oder Bedienelemente vom Hintergrund abheben.

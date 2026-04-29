@@ -3,20 +3,12 @@ title: "Lösung – ISR ohne blockierende Wartezeit schreiben"
 description: "Musterlösung zu ISR ohne blockierende Wartezeit schreiben mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "interrupts"
-  - "isr-ohne-blockierende-wartezeit-schreiben-v113"
+topicPath: ["mikrocontroller-und-atmega", "interrupts", "isr-ohne-blockierende-wartezeit-schreiben-v113"]
 taskId: "v113-elektrotechnik-isr-ohne-blockierende-wartezeit-schreiben-v113"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/interrupts/isr-ohne-blockierende-wartezeit-schreiben-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "isr-ohne-blockierende-wartezeit-schreiben-v113"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **ISR ohne blockierende Wartezeit schreiben**.

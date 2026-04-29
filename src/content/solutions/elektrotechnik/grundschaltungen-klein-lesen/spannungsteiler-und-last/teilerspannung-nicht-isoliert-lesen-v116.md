@@ -3,22 +3,12 @@ title: "Lösung: Teilerspannung nicht isoliert lesen"
 description: "Musterlösung zur Aufgabe „Teilerspannung nicht isoliert lesen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "grundschaltungen-klein-lesen"
-  - "spannungsteiler-und-last"
-  - "teilerspannung-nicht-isoliert-lesen-v116"
+topicPath: ["grundschaltungen-klein-lesen", "spannungsteiler-und-last", "teilerspannung-nicht-isoliert-lesen-v116"]
 taskId: "teilerspannung-nicht-isoliert-lesen-v116"
 relatedExercise: "elektrotechnik/grundschaltungen-klein-lesen/spannungsteiler-und-last/teilerspannung-nicht-isoliert-lesen-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "spannungsteiler und last"
-  - "teilerspannung nicht isoliert lesen"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

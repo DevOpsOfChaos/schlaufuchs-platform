@@ -1,23 +1,14 @@
 ---
-title: Musterloesung - Sichtbarkeit von Attributen und Methoden begruenden
-description: Musterloesung zur Aufgabe INF-PROG-OOP-006.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - zugriffsmodifizierer-public-protected-private-unterscheiden
-  - sichtbarkeit-von-attributen-und-methoden-begruenden-loesung
-taskId: INF-PROG-OOP-006
-relatedExercise: src/content/exercises/informatik/programmierung/oop/zugriffsmodifizierer-public-protected-private-unterscheiden/sichtbarkeit-von-attributen-und-methoden-begruenden.md
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - loesung
+title: "Musterloesung - Sichtbarkeit von Attributen und Methoden begruenden"
+description: "Musterloesung zur Aufgabe INF-PROG-OOP-006."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "zugriffsmodifizierer-public-protected-private-unterscheiden", "sichtbarkeit-von-attributen-und-methoden-begruenden"]
+taskId: "INF-PROG-OOP-006"
+relatedExercise: "src/content/exercises/informatik/programmierung/oop/zugriffsmodifizierer-public-protected-private-unterscheiden/sichtbarkeit-von-attributen-und-methoden-begruenden.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Zuordnung
 
 <code>public</code> passt eher fuer Methoden der aeusseren Benutzung. <code>private</code> passt eher fuer interne Daten. <code>protected</code> ist sinnvoll, wenn Unterklassen etwas nutzen duerfen, die Aussenwelt aber nicht direkt.

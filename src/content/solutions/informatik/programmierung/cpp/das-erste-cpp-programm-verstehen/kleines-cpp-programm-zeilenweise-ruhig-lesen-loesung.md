@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – Kleines C++-Programm zeilenweise ruhig lesen
-description: Musterlösung zur Aufgabe INF-PROG-CPP-START-001.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - einstieg-und-werkzeugkette
-  - das-erste-cpp-programm-verstehen
-  - kleines-cpp-programm-zeilenweise-ruhig-lesen-loesung
-taskId: INF-PROG-CPP-START-001
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/das-erste-cpp-programm-verstehen/kleines-cpp-programm-zeilenweise-ruhig-lesen.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – Kleines C++-Programm zeilenweise ruhig lesen"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-START-001."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "das-erste-cpp-programm-verstehen", "kleines-cpp-programm-zeilenweise-ruhig-lesen"]
+taskId: "INF-PROG-CPP-START-001"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/das-erste-cpp-programm-verstehen/kleines-cpp-programm-zeilenweise-ruhig-lesen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Rollen zuordnen
 
 - <code>#include &lt;iostream&gt;</code> → bindet die Bibliothek für Ein- und Ausgabe ein.

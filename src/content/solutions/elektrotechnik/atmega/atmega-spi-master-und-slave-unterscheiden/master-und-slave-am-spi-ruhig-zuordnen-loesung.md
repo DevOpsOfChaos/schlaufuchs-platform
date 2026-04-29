@@ -1,24 +1,14 @@
 ---
-title: Musterlösung – Master und Slave am SPI ruhig zuordnen
-description: Musterlösung zur Aufgabe ET-ATMEGA-SPI-302.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-schnittstellen-und-busse
-  - atmega-spi-master-und-slave-unterscheiden
-  - master-und-slave-am-spi-ruhig-zuordnen-loesung
-taskId: ET-ATMEGA-SPI-302
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-spi-master-und-slave-unterscheiden/master-und-slave-am-spi-ruhig-zuordnen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - spi
-  - loesung
-  - task-id
+title: "Musterlösung – Master und Slave am SPI ruhig zuordnen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-SPI-302."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-spi-master-und-slave-unterscheiden", "master-und-slave-am-spi-ruhig-zuordnen"]
+taskId: "ET-ATMEGA-SPI-302"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-spi-master-und-slave-unterscheiden/master-und-slave-am-spi-ruhig-zuordnen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

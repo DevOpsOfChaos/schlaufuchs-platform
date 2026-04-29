@@ -1,36 +1,19 @@
 ---
 title: "Datentypen"
 description: "Allgemeiner Überblick über Datentypen als Beschreibung möglicher Werte und Operationen."
-subject: informatik
+subject: "informatik"
 section: "Programmierung"
-topicPath:
-  - "datentypen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Datentypen als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["datentypen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Typumwandlungen stillschweigend hingenommen."
-keyTakeaways:
-  - "Datentypen beschreiben Werte und erlaubte Operationen."
-  - "Klare Typen machen Erwartungen sichtbar."
-  - "Typprüfung und Validierung sind unterschiedliche, aber verbundene Aufgaben."
-recognizeSignals:
-  - "Es geht um Datentypen als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Datentypen in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "datentypen"
-  - "programmierung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 # Datentypen
 
 Ein Datentyp legt fest, welche Werte ein Ausdruck annehmen kann und welche Operationen sinnvoll sind. Zahlen, Zeichenketten, Wahrheitswerte, Listen oder Objekte haben unterschiedliche Eigenschaften. Datentypen helfen Programmen, Daten korrekt zu verarbeiten und Fehler früh zu erkennen.

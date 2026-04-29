@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Laststrom und Steuersignal trennen"
 description: "Musterlösung zur Aufgabe Laststrom und Steuersignal trennen."
-subject: elektrotechnik
-section: bauteile
-topicPath:
-  - bauteile
-  - transistoren-und-mosfets
-taskId: ET-V180-MOS-001
-relatedExercise: src/content/exercises/elektrotechnik/bauteile/transistoren-und-mosfets/laststrom-und-steuersignal-trennen.md
-tags:
-  - elektrotechnik
-  - loesung
-  - mosfet
-  - transistor
-  - last
+subject: "elektrotechnik"
+section: "bauteile"
+topicPath: ["bauteile", "transistoren-und-mosfets", "laststrom-und-steuersignal-trennen"]
+taskId: "ET-V180-MOS-001"
+relatedExercise: "src/content/exercises/elektrotechnik/bauteile/transistoren-und-mosfets/laststrom-und-steuersignal-trennen.md"
+tags: ["elektrotechnik", "bauteile", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1

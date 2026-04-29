@@ -3,23 +3,12 @@ title: "Lösung – Grid-Bereich und Grid-Linie unterscheiden"
 description: "Musterlösung zu CSS Grid mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "css-systeme"
-  - "layout-tokens-komponenten"
-  - "grid"
-  - "grid-bereich-und-grid-linie-unterscheiden"
+topicPath: ["css-systeme", "layout-tokens-komponenten", "grid", "grid-bereich-und-grid-linie-unterscheiden"]
 taskId: "v111-web-development-grid-bereich-und-grid-linie-unterscheiden"
 relatedExercise: "web-development/css-systeme/layout-tokens-komponenten/grid/grid-bereich-und-grid-linie-unterscheiden"
-tags:
-  - "web development"
-  - "frontend"
-  - "unterthema"
-  - "css-systeme"
-  - "layout-tokens-komponenten"
-  - "grid-bereich-und-grid-linie-unterscheiden"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **CSS Grid**.

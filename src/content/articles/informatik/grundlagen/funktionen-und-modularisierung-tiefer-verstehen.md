@@ -1,17 +1,19 @@
 ---
-title: Funktionen und Modularisierung tiefer verstehen
-description: Funktionen strukturieren Programme, trennen Teilaufgaben und machen Code klarer, wiederverwendbarer und leichter prüfbar.
-subject: informatik
-section: Grundlagen
-level: mittel
-tags:
-  - Funktionen
-  - Modularisierung
-  - Parameter
-  - Programmstruktur
+title: "Funktionen und Modularisierung tiefer verstehen"
+description: "Funktionen strukturieren Programme, trennen Teilaufgaben und machen Code klarer, wiederverwendbarer und leichter prüfbar."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "funktionen-und-modularisierung-tiefer-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 Sobald Programme größer werden, reicht eine einzige lange Befehlsfolge nicht mehr aus. Der Code wird unübersichtlich, schwer prüfbar und schwer erweiterbar. Genau hier helfen Funktionen und Modularisierung. Sie teilen ein Problem in kleinere, verständliche Teilaufgaben.

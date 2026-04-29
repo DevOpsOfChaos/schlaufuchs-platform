@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Modularisierung und Pakete"
 description: "Allgemeiner Überblick über modularisierung und pakete in der Informatik."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "modularisierung-und-pakete"
-  - "ueberblick"
-learningGoals:
-  - "Du erklärst, wie Programme in verständliche Einheiten zerlegt werden."
-  - "Du ordnest typische Beispiele und Grenzen des Themas ein."
-  - "Du unterscheidest Grundidee, Anwendung und häufige Fehler."
-practiceIdeas:
-  - "Formuliere die Grundidee in drei Sätzen ohne Spezialfall."
-  - "Ordne ein eigenes Beispiel dem passenden Teilaspekt zu."
-commonMistakes:
-  - "Dateien nach Zufall schneiden"
-  - "interne Details exportieren"
-  - "Abhängigkeiten verschleiern"
-keyTakeaways:
-  - "Modularisierung und Pakete braucht zuerst eine klare begriffliche Einordnung."
-  - "Beispiele helfen nur, wenn ihr Kontext bekannt ist."
-  - "Gute Informatikarbeit trennt Modell, Umsetzung und Prüfung."
-recognizeSignals:
-  - "Ein Thema wirkt wie ein Einzelfall, braucht aber zuerst einen allgemeinen Rahmen."
-  - "Mehrere Beispiele zeigen dieselbe Grundidee aus verschiedenen Blickwinkeln."
-selfCheckPoints:
-  - "Kann ich Grundidee und Beispiel unterscheiden?"
-  - "Kann ich typische Fehler nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "programmierpraxis-und-tests"
-  - "modularisierung-und-pakete"
+topicPath: ["programmierpraxis-und-tests", "modularisierung-und-pakete", "ueberblick", "grundlagen-modularisierung-und-pakete"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierpraxis und Tests"]
 draft: false
 ---
-
 ![Schaubild: Modularisierung und Pakete](/schlaufuchs-platform/images/overviews/v185/modularisierung-und-pakete.svg)
 
 ## Begriff

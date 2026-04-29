@@ -3,43 +3,17 @@ title: "Primärschlüssel als Identität lesen"
 description: "Lerne Primärschlüssel als Identität lesen als kleines, klar abgegrenztes Unterthema mit Prüffrage und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenbanken"
-  - "tabellenmodelle"
-  - "primaerschluessel-als-identitaet-lesen-v113"
-learningGoals:
-  - "Du erklärst Primärschlüssel als Identität lesen als enges Unterthema."
-  - "Du grenzt es von einem naheliegenden Nachbarthema ab."
-  - "Du nutzt eine konkrete Prüffrage statt einer allgemeinen Merkhilfe."
-practiceIdeas:
-  - "Wende die Prüffrage auf ein zweites Beispiel an."
-  - "Formuliere eine Gegenprobe mit geändertem Kontext."
-  - "Markiere, welches Nachbarthema hier gerade nicht gemeint ist."
-commonMistakes:
-  - "Name wird als eindeutiger Schlüssel benutzt."
-  - "Zu breit einordnen und dadurch die eigentliche Trennkante verlieren."
-  - "Eine Lösung ohne Gegenprobe akzeptieren."
-keyTakeaways:
-  - "Primärschlüssel als Identität lesen wird über eine kleine Trennkante verständlich."
-  - "Die Prüffrage entscheidet stärker als ein grober Kapitelname."
-  - "Aufgabe und Lösung bleiben übersichtlich, wenn das Unterthema eng geführt wird."
-recognizeSignals:
-  - "Eine Aufgabe enthält eine typische Verwechslung."
-  - "Ein Begriff wirkt bekannt, aber der konkrete Prüfschritt fehlt."
-  - "Eine Lösung muss begründen, warum ein Nachbarthema nicht passt."
-selfCheckPoints:
-  - "Kann ich die Trennkante in einem Satz nennen?"
-  - "Kann ich die Prüffrage auf den Fall anwenden?"
-  - "Kann ich eine sinnvolle Gegenprobe formulieren?"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "primaerschluessel-als-identitaet-lesen-v113"
+topicPath: ["datenbanken", "tabellenmodelle", "primaerschluessel-als-identitaet-lesen-v113"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["informatik", "Feinstruktur Informatik"]
 draft: false
 ---
-
 ## Grundidee
 
 **Primärschlüssel als Identität lesen** ist bewusst als kleines Unterthema angelegt. Lerne Primärschlüssel als Identität lesen als kleines, klar abgegrenztes Unterthema mit Prüffrage und Gegenprobe. Dadurch bleibt die Seite auffindbar und vermischt sich nicht mit einem übergroßen Sammelkapitel.

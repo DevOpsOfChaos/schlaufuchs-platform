@@ -1,22 +1,14 @@
 ---
 title: "Lösung: Messwert plausibilisieren"
 description: "Musterlösung zu: Messwert plausibilisieren."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - "praxis"
-  - "messfehler-eingrenzen"
+topicPath: ["praxis", "messfehler-eingrenzen", "messwert-plausibilisieren"]
 taskId: "ET-PR-MESS-179-001"
 relatedExercise: "src/content/exercises/elektrotechnik/praxis/messfehler-eingrenzen/messwert-plausibilisieren.md"
-tags:
-  - "elektrotechnik"
-  - "messung"
-  - "messfehler"
-  - "plausibilitaet"
-  - "loesung"
+tags: ["elektrotechnik", "Praxis", "loesung"]
 draft: false
 ---
-
 ## Lösungsgedanke
 
 Diese Musterlösung trennt zuerst Begriff, Schaltungszusammenhang und Begründung. Dadurch wird nicht nur ein Ergebnis genannt, sondern der fachliche Weg sichtbar.

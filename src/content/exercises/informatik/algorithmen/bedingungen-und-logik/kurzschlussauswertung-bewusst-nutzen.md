@@ -3,33 +3,15 @@ title: "Aufgabe – Kurzschlussauswertung bewusst nutzen"
 description: "Übe kurzschlussauswertung bewusst nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "algorithmen"
-  - "bedingungen-und-logik"
-  - "kurzschlussauswertung-bewusst-nutzen"
+topicPath: ["algorithmen", "bedingungen-und-logik", "kurzschlussauswertung-bewusst-nutzen"]
 taskId: "v112-informatik-kurzschlussauswertung-bewusst-nutzen"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "algorithmen"
-  - "kurzschlussauswertung-bewusst-nutzen"
-hintPoints:
-  - "Benenne zuerst das kleine Unterthema."
-  - "Prüfe bewusst den Unterschied zum Fehler: Alle Teilbedingungen werden als immer ausgeführt angenommen."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Einordnung enger als nur der breite Fachbereich?"
-  - "Wird der typische Fehler ausdrücklich ausgeschlossen?"
-  - "Passt die Lösung zur Wissensseite?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Begriff und prüfe, ob die gleiche Strategie gilt."
-  - "Erkläre die Lösung einmal alltagssprachlich und danach fachlich sauber."
-reflectionPrompt: "Was war bei „Kurzschlussauswertung bewusst nutzen“ die wichtigste Trennkante?"
+tags: ["informatik", "Feinstruktur Informatik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation:

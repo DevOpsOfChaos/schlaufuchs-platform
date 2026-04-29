@@ -3,23 +3,12 @@ title: "Lösung – Funktionswert und Änderungsrate unterscheiden"
 description: "Musterlösung zu Funktionswert und Änderungsrate mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "funktionen-und-graphen"
-  - "graphen-deuten"
-  - "werte-und-aenderung"
-  - "funktionswert-und-aenderungsrate-unterscheiden"
+topicPath: ["funktionen-und-graphen", "graphen-deuten", "werte-und-aenderung", "funktionswert-und-aenderungsrate-unterscheiden"]
 taskId: "v111-mathematik-funktionswert-und-aenderungsrate-unterscheiden"
 relatedExercise: "mathematik/funktionen-und-graphen/graphen-deuten/werte-und-aenderung/funktionswert-und-aenderungsrate-unterscheiden"
-tags:
-  - "mathematik"
-  - "prüfung"
-  - "unterthema"
-  - "funktionen-und-graphen"
-  - "graphen-deuten"
-  - "funktionswert-und-aenderungsrate-unterscheiden"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Funktionswert und Änderungsrate**.

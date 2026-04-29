@@ -1,46 +1,19 @@
 ---
 title: "Elektrotechnik – Pegelwandler notwendig erkennen"
 description: "Trainiere Pegelwandler notwendig erkennen als kleines Unterthema mit klarer Trennkante, Beispiel und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-praxis-v115"
-  - "eingang-ausgang-pegel"
-  - "pegelwandler-notwendig-erkennen-v115"
-learningGoals:
-  - "Du erklärst Pegelwandler notwendig erkennen an einem kleinen, abgegrenzten Fall."
-  - "Du trennst das Unterthema von einem naheliegenden Nachbarthema."
-  - "Du formulierst eine passende Gegenprobe statt nur eine fertige Antwort."
-practiceIdeas:
-  - "Schreibe zuerst die Prüffrage in eigenen Worten auf."
-  - "Markiere im Fall zwei Hinweise, die wirklich zur Entscheidung gehören."
-  - "Formuliere einen Gegenfall, in dem die Entscheidung anders ausfallen würde."
-commonMistakes:
-  - "Nur die Logikwerte 0 und 1 werden betrachtet."
-  - "Das Thema wird zu breit eingeordnet und verliert dadurch die prüfbare Trennkante."
-  - "Die Lösung nennt ein Ergebnis, begründet aber nicht die Abgrenzung."
-keyTakeaways:
-  - "Dieses Unterthema prüft vor allem: Sind die elektrischen Spannungspegel verträglich?"
-  - "Eine gute Lösung benennt die Trennkante ausdrücklich."
-  - "Die Gegenprobe zeigt, ob die Begründung wirklich trägt."
-recognizeSignals:
-  - "Die Aufgabe fragt nach Pegelwandler notwendig erkennen."
-  - "Ähnliche Begriffe oder Fälle liegen nah beieinander."
-  - "Eine kleine Änderung im Fall würde zu einer anderen Entscheidung führen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-level: mittel
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "mikrocontroller-praxis"
-  - "eingang, ausgang, pegel"
+topicPath: ["mikrocontroller-praxis-v115", "eingang-ausgang-pegel", "pegelwandler-notwendig-erkennen-v115"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik"]
 draft: false
 ---
-
 <img src="/schlaufuchs-platform/illustrations/elektrotechnik-pegelwandler-notwendig-erkennen-v115.svg" alt="Lernillustration zu Pegelwandler notwendig erkennen" loading="lazy" />
 
 ## Grundidee

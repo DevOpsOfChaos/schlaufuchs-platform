@@ -1,23 +1,14 @@
 ---
-title: Lösung – Ebene aus drei Punkten prüfen
-description: Musterlösung zur Aufgabe über Ebene aus drei Punkten prüfen.
-subject: mathematik
-section: Feinstruktur Mathematik
-topicPath:
-- daten-und-geometrie
-- vektoren-und-geometrie
-- ebene-aus-drei-punkten-pruefen-v114
-taskId: v114-mathematik-ebene-aus-drei-punkten-pruefen-v114
-relatedExercise: mathematik/daten-und-geometrie/vektoren-und-geometrie/ebene-aus-drei-punkten-pruefen-v114
-tags:
-- mathematik
-- v114
-- loesung
-- daten-und-geometrie
-- vektoren-und-geometrie
+title: "Lösung – Ebene aus drei Punkten prüfen"
+description: "Musterlösung zur Aufgabe über Ebene aus drei Punkten prüfen."
+subject: "mathematik"
+section: "Feinstruktur Mathematik"
+topicPath: ["daten-und-geometrie", "vektoren-und-geometrie", "ebene-aus-drei-punkten-pruefen-v114"]
+taskId: "v114-mathematik-ebene-aus-drei-punkten-pruefen-v114"
+relatedExercise: "mathematik/daten-und-geometrie/vektoren-und-geometrie/ebene-aus-drei-punkten-pruefen-v114"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

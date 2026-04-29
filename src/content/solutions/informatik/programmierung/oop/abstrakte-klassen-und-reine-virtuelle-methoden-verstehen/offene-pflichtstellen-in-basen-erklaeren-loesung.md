@@ -1,21 +1,14 @@
 ---
-title: Loesung – Offene Pflichtstellen in Basen erklaeren
-description: Musterloesung zur Aufgabe ueber abstrakte Klassen und reine virtuelle Methoden.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - abstrakte-klassen-und-reine-virtuelle-methoden-verstehen
-taskId: INF-PROG-OOP-025
-relatedExercise: informatik/programmierung/oop/abstrakte-klassen-und-reine-virtuelle-methoden-verstehen/offene-pflichtstellen-in-basen-erklaeren
-tags:
-  - informatik
-  - oop
-  - loesung
+title: "Loesung – Offene Pflichtstellen in Basen erklaeren"
+description: "Musterloesung zur Aufgabe ueber abstrakte Klassen und reine virtuelle Methoden."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "abstrakte-klassen-und-reine-virtuelle-methoden-verstehen", "offene-pflichtstellen-in-basen-erklaeren"]
+taskId: "INF-PROG-OOP-025"
+relatedExercise: "informatik/programmierung/oop/abstrakte-klassen-und-reine-virtuelle-methoden-verstehen/offene-pflichtstellen-in-basen-erklaeren"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterloesung
 
 ### Aufgabe 1

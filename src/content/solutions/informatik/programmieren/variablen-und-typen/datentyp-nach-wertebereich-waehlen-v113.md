@@ -3,20 +3,12 @@ title: "Lösung – Datentyp nach Wertebereich wählen"
 description: "Musterlösung zu Datentyp nach Wertebereich wählen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "programmieren"
-  - "variablen-und-typen"
-  - "datentyp-nach-wertebereich-waehlen-v113"
+topicPath: ["programmieren", "variablen-und-typen", "datentyp-nach-wertebereich-waehlen-v113"]
 taskId: "v113-informatik-datentyp-nach-wertebereich-waehlen-v113"
 relatedExercise: "informatik/programmieren/variablen-und-typen/datentyp-nach-wertebereich-waehlen-v113"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "datentyp-nach-wertebereich-waehlen-v113"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Datentyp nach Wertebereich wählen**.

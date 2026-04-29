@@ -1,46 +1,19 @@
 ---
-title: JSON-Datenstruktur verstehen
-description: Verstehe, wie JSON Werte, Arrays und Objekte hierarchisch organisiert und warum es im Web so häufig genutzt wird.
-subject: informatik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - datenformate
-  - json-datenstruktur-verstehen
-learningGoals:
-  - Du erklärst die Grundbausteine von JSON.
-  - Du unterscheidest Objekt, Eigenschaft und Array sicher.
-  - Du liest eine verschachtelte JSON-Struktur ruhiger von außen nach innen.
-practiceIdeas:
-  - Markiere in einem JSON-Beispiel, wo Objekt, Array, Schlüssel und Werte stehen.
-  - Prüfe bei einer API-Antwort, welche Informationen in Listen und welche in Objekten liegen.
-  - Zerlege ein verschachteltes JSON in kleinere Teilblöcke.
-commonMistakes:
-  - Objekt und Array zu verwechseln.
-  - Zu denken, Schlüssel seien beliebige unmarkierte Wörter.
-  - Bool- oder null-Werte wie Zeichenketten zu behandeln.
-keyTakeaways:
-  - JSON nutzt Objekte mit Schlüsseln und Werten sowie Arrays für Listen.
-  - JSON ist gut lesbar und für Datenaustausch im Web sehr verbreitet.
-  - Eine ruhige Lesestrategie geht von außen nach innen und trennt Struktur von Inhalt.
-recognizeSignals:
-  - Du siehst geschweifte oder eckige Klammern.
-  - Ein Beispiel enthält Schlüssel-Wert-Paare.
-  - Es geht um Datenaustausch, APIs oder Konfigurationsdaten.
-selfCheckPoints:
-  - Kann ich Objekt und Array sicher unterscheiden?
-  - Kann ich erklären, was ein Schlüssel und was ein Wert ist?
-  - Kann ich eine verschachtelte Struktur schrittweise lesen?
-level: einfach
-tags:
-  - informatik
-  - json
-  - datenformate
-  - struktur
-  - api
+title: "JSON-Datenstruktur verstehen"
+description: "Verstehe, wie JSON Werte, Arrays und Objekte hierarchisch organisiert und warum es im Web so häufig genutzt wird."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "datenformate", "json-datenstruktur-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Grundlagen"]
 draft: false
 ---
-
 ## Grundidee
 
 JSON ist ein textbasiertes Format für strukturierte Daten. Es wird besonders oft im Web genutzt, weil Menschen es noch gut lesen können und Programme es leicht weiterverarbeiten können.

@@ -1,44 +1,19 @@
 ---
-title: Analogsensor, Spannungsteiler und ADC zusammen denken
-description: Verstehe, wie Sensor, Spannungsteiler, Referenz und ADC zusammenwirken und warum Messwerte nicht nur vom Code abhängen.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - analogsensor-spannungsteiler-und-adc-zusammen-denken
-learningGoals:
-  - Du erklärst den Weg vom analogen Sensorsignal bis zum digitalen Messwert.
-  - Du trennst Sensorverhalten, Spannungsteiler, Referenz und ADC-Rohwert sauber.
-  - Du liest Messabweichungen eher als Zusammenspiel der Kette statt nur als Rechenfehler im Code.
-practiceIdeas:
-  - Ordne Sensor, Spannungsteiler, ADC-Eingang und Referenz in einem Messpfad.
-  - Begründe, warum dieselbe Sensorspannung bei anderer Referenz zu anderen ADC-Werten führt.
-  - Lies Messfehler als Kette aus Quelle, Beschaltung und Wandlung.
-commonMistakes:
-  - Sensorwert und ADC-Wert gleichzusetzen.
-  - Die Referenzspannung nur als Nebenangabe zu behandeln.
-  - Zu denken, der ADC sehe immer direkt „die physikalische Größe“.
-keyTakeaways:
-  - Der ADC misst eine Spannung bezogen auf eine Referenz, nicht direkt Temperatur oder Licht.
-  - Zwischen Sensor und Messwert liegen meist Beschaltung und Skalierung.
-  - Ruhige Fehlersuche trennt Quelle, Aufbereitung und Wandlung.
-recognizeSignals:
-  - Es geht um Potentiometer, NTC, LDR oder analoge Sensorspannungen.
-  - Ein ADC-Wert soll physikalisch gedeutet werden.
-  - Messwerte wirken plausibel, aber nicht stabil oder nicht richtig skaliert.
-selfCheckPoints:
-  - Kann ich die technische Hauptfrage dieser Schaltung ruhig benennen?
-  - Kann ich Ursache, Wirkung und Schutz- oder Hilfsmaßnahme sauber trennen?
-  - Kann ich das Thema auf einen ähnlichen Mikrocontroller-Fall übertragen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - embedded
-level: mittel
+title: "Analogsensor, Spannungsteiler und ADC zusammen denken"
+description: "Verstehe, wie Sensor, Spannungsteiler, Referenz und ADC zusammenwirken und warum Messwerte nicht nur vom Code abhängen."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "analogsensor-spannungsteiler-und-adc-zusammen-denken"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein ADC liefert keinen „Temperaturwert“ und auch keinen „Lichtwert“. Er liefert zuerst einen digitalen Wert zu einer gemessenen Spannung – bezogen auf eine Referenz. Genau deshalb müssen Sensor, Beschaltung und ADC zusammen gedacht werden.

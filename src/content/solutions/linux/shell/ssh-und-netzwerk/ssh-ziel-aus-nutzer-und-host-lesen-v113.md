@@ -3,20 +3,12 @@ title: "Lösung – SSH-Ziel aus Nutzer und Host lesen"
 description: "Musterlösung zu SSH-Ziel aus Nutzer und Host lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "ssh-und-netzwerk"
-  - "ssh-ziel-aus-nutzer-und-host-lesen-v113"
+topicPath: ["shell", "ssh-und-netzwerk", "ssh-ziel-aus-nutzer-und-host-lesen-v113"]
 taskId: "v113-linux-ssh-ziel-aus-nutzer-und-host-lesen-v113"
 relatedExercise: "linux/shell/ssh-und-netzwerk/ssh-ziel-aus-nutzer-und-host-lesen-v113"
-tags:
-  - "linux"
-  - "strukturcheck"
-  - "unterthema"
-  - "ssh-ziel-aus-nutzer-und-host-lesen-v113"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **SSH-Ziel aus Nutzer und Host lesen**.

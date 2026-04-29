@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Incident-Timeline</title>
+  <desc id="desc">Didaktische Übersichtsskizze zu Incident-Timeline im Linux-Betrieb.</desc>
+  <rect width="720" height="360" rx="28" fill="#f8fafc"/>
+  <rect x="42" y="42" width="636" height="276" rx="24" fill="#ffffff" stroke="#0f172a" stroke-width="3"/>
+  <text x="70" y="88" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#0f172a">Incident-Timeline</text>
+  <text x="70" y="120" font-family="Arial, sans-serif" font-size="15" fill="#475569">beobachtbarkeit</text>
+  <g fill="none" stroke="#334155" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="78" y="160" width="142" height="86" rx="16"/>
+    <rect x="286" y="145" width="148" height="116" rx="18"/>
+    <rect x="502" y="160" width="142" height="86" rx="16"/>
+    <path d="M220 203h66"/>
+    <path d="M434 203h68"/>
+    <path d="m270 190 16 13-16 13"/>
+    <path d="m486 190 16 13-16 13"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="15" fill="#0f172a" text-anchor="middle">
+    <text x="149" y="198">Eingang</text>
+    <text x="360" y="198">Dienst</text>
+    <text x="573" y="198">Wirkung</text>
+    <text x="149" y="222">Kontext</text>
+    <text x="360" y="222">Regel</text>
+    <text x="573" y="222">Kontrolle</text>
+  </g>
+  <circle cx="96" cy="286" r="8" fill="#0f172a"/>
+  <circle cx="122" cy="286" r="8" fill="#0f172a"/>
+  <circle cx="148" cy="286" r="8" fill="#0f172a"/>
+  <path d="M96 286h552" stroke="#cbd5e1" stroke-width="3"/>
+</svg>

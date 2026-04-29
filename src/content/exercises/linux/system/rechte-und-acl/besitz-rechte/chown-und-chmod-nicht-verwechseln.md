@@ -3,35 +3,15 @@ title: "Aufgabe – chown und chmod nicht verwechseln"
 description: "Übe chown und chmod mit einem kleinen Szenario, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "Rechte"
-topicPath:
-  - "system"
-  - "rechte-und-acl"
-  - "besitz-rechte"
-  - "chown-und-chmod-nicht-verwechseln"
+topicPath: ["system", "rechte-und-acl", "besitz-rechte", "chown-und-chmod-nicht-verwechseln"]
 taskId: "v109-linux-chown-und-chmod-nicht-verwechseln"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "system"
-  - "rechte-und-acl"
-  - "chown und chmod"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Übertrage den Prüfschritt auf ein Nachbarthema und nenne den Unterschied."
-reflectionPrompt: "Welche kleine Trennkante macht chown und chmod übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["linux", "Rechte", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **chown und chmod**.

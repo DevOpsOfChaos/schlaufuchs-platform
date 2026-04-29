@@ -1,44 +1,19 @@
 ---
-title: Überschriftenhierarchie sinnvoll aufbauen
-description: Verstehe, warum Überschriften nicht nur groß aussehen sollen, sondern die inhaltliche Struktur einer Seite klar gliedern.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - ueberschriftenhierarchie-sinnvoll-aufbauen
-learningGoals:
-  - Du erklärst die Grundidee einer Überschriftenhierarchie.
-  - Du ordnest Überschriften nach Inhaltsebene statt nach Wunschgröße.
-  - Du erkennst unruhige oder widersprüchliche Überschriftenstrukturen.
-practiceIdeas:
-  - Gliedere einen kurzen Seitentext in Hauptüberschrift, Abschnittsüberschriften und Unterpunkte.
-  - Prüfe bei einem Beispiel, ob Ebenen übersprungen werden.
-  - Erkläre, warum die Überschriftenreihenfolge etwas über den Inhalt und nicht über das Design sagt.
-commonMistakes:
-  - Überschriften nach Optik statt nach Struktur auszuwählen.
-  - Ebenen ohne Grund zu überspringen.
-  - Mehrere Hauptüberschriften für denselben Inhaltsbereich zu setzen.
-keyTakeaways:
-  - Überschriften bilden eine Inhaltsstruktur.
-  - h1 bis h6 beschreiben Ebenen, nicht Größenwünsche.
-  - Eine ruhige Hierarchie macht Seiten verständlicher.
-recognizeSignals:
-  - Es geht um Seitengliederung, Abschnitte oder die Reihenfolge von Überschriftsebenen.
-  - Du sollst bewerten, ob eine Struktur logisch aufgebaut ist.
-  - In Aufgaben ist die Frage wichtig, welche Überschrift Hauptpunkt und welche Unterpunkt ist.
-selfCheckPoints:
-  - Kann ich eine Haupt- von einer Unterüberschrift unterscheiden?
-  - Kann ich eine unruhige Hierarchie erkennen?
-  - Kann ich erklären, warum die Ebene wichtiger ist als die Optik?
-tags:
-  - html
-  - ueberschriften
-  - struktur
-  - semantik
-level: einfach
+title: "Überschriftenhierarchie sinnvoll aufbauen"
+description: "Verstehe, warum Überschriften nicht nur groß aussehen sollen, sondern die inhaltliche Struktur einer Seite klar gliedern."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "ueberschriftenhierarchie-sinnvoll-aufbauen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Überschriften machen eine Seite nicht nur optisch lesbarer. Sie zeigen vor allem, **wie Inhalte zusammengehören**. Deshalb brauchen Webseiten eine sinnvolle Überschriftenhierarchie.

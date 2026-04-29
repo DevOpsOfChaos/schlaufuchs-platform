@@ -3,23 +3,12 @@ title: "Lösung – Tastkopf 10x und Bandbreite beachten"
 description: "Musterlösung zu Tastkopf 10x und Bandbreite beachten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Messpraxis"
-topicPath:
-  - "messpraxis"
-  - "oszi-und-multimeter"
-  - "v110-teil-1"
-  - "tastkopf-10x-und-bandbreite-beachten"
+topicPath: ["messpraxis", "oszi-und-multimeter", "v110-teil-1", "tastkopf-10x-und-bandbreite-beachten"]
 taskId: "v110-elektrotechnik-tastkopf-10x-und-bandbreite-beachten"
 relatedExercise: "elektrotechnik/messpraxis/oszi-und-multimeter/v110-teil-1/tastkopf-10x-und-bandbreite-beachten"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "messpraxis"
-  - "oszi-und-multimeter"
-  - "tastkopf-10x-und-bandbreite-beachten"
+tags: ["elektrotechnik", "Messpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Tastkopf 10x und Bandbreite beachten**.

@@ -1,28 +1,17 @@
 ---
 title: "Wahrheitstabellen lesen"
 description: "Übe das systematische Lesen von Eingängen, Regel und Ausgang."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Digitale Technik"
-topicPath:
-  - "digitale-technik"
-  - "logikgatter-und-wahrheitstabellen"
+topicPath: ["digitale-technik", "logikgatter-und-wahrheitstabellen", "wahrheitstabelle-lesen"]
 taskId: "ET-DIGI-LOGIK-179-001"
-tags:
-  - "elektrotechnik"
-  - "logikgatter"
-  - "wahrheitstabelle"
-hintPoints:
-  - "Lies zuerst die Begriffe, dann die konkrete Situation."
-  - "Begründe jede Zuordnung mit einem fachlichen Merkmal."
-selfCheckPoints:
-  - "Kann ich meine Entscheidung mit einem Begriff aus der Überblicksseite erklären?"
-  - "Habe ich Einheit, Richtung, Bezugspunkt oder Zeitbezug geprüft, falls relevant?"
-transferIdeas:
-  - "Formuliere ein eigenes Beispiel aus einer einfachen Schaltung oder Messsituation."
-level: einfach
+tags: ["elektrotechnik", "Digitale Technik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe gehört zu einem Überblicksthema. Sie soll nicht nur Rechnen trainieren, sondern die fachliche Einordnung sichern.
 
 ## Aufgabe 1 – Begriffe zuordnen

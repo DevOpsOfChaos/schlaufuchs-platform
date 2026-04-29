@@ -1,39 +1,19 @@
 ---
 title: "Grundlagen: Vektoren und Richtung"
 description: "Ein allgemeiner Überblick darüber, wie Vektoren Länge, Richtung und Verschiebung beschreiben."
-subject: mathematik
+subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - geometrie
-  - vektoren-und-richtung
-  - ueberblick
-learningGoals:
-  - "Du erklärst, was ein Vektor allgemein beschreibt."
-  - "Du unterscheidest Punkt, Strecke und Verschiebung."
-  - "Du liest Richtung und Länge als getrennte Eigenschaften."
-practiceIdeas:
-  - "Vergleiche einen Pfeil in einer Skizze mit einer Koordinatendarstellung."
-  - "Beschreibe einen Weg zuerst sprachlich und danach als Vektor."
-commonMistakes:
-  - "Einen Vektor mit einem einzelnen Punkt zu verwechseln."
-  - "Nur auf Zahlen zu schauen und die Richtung zu übersehen."
-keyTakeaways:
-  - "Ein Vektor beschreibt eine gerichtete Größe."
-  - "Richtung und Länge gehören zusammen, erfüllen aber verschiedene Rollen."
-recognizeSignals:
-  - "Es geht um Pfeile, Koordinatenänderungen, Richtung oder Verschiebung."
-  - "Eine Aufgabe fragt nicht nur nach einer Position, sondern nach einem Weg oder einer Änderung."
-selfCheckPoints:
-  - "Kann ich erklären, warum ein Vektor mehr als nur eine Zahl ist?"
-  - "Kann ich Punkt und Verschiebung sauber unterscheiden?"
-tags:
-  - mathematik
-  - geometrie
-  - vektoren
-level: mittel
+topicPath: ["geometrie", "vektoren-und-richtung", "ueberblick", "grundlagen-vektoren-und-richtung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["mathematik", "Geometrie"]
 draft: false
 ---
-
 ## Begriff
 
 Ein **Vektor** ist in der Mathematik eine gerichtete Größe. Er beschreibt nicht nur, wie groß etwas ist, sondern auch, in welche Richtung es zeigt. In Zeichnungen wird ein Vektor deshalb oft als Pfeil dargestellt.

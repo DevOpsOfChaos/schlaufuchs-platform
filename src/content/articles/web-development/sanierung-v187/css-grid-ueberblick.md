@@ -3,39 +3,17 @@ title: "CSS Grid im Überblick"
 description: "Setze Grid ein, wenn Zeilen und Spalten gemeinsam geplant werden müssen."
 subject: "web-development"
 section: "css"
-topicPath: 
-  - "css-und-layout"
-  - "grid"
-learningGoals: 
-  - "Zweidimensionale Layouts ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Entwirf ein zweispaltiges Themenraster mit Hauptbereich und Seitenbereich."
-  - "Vergleiche, ob eine Kartenübersicht besser mit Flexbox oder Grid gelöst wird."
-commonMistakes: 
-  - "Grid wird nur als Ersatz für Tabellen missverstanden."
-  - "Spalten werden ohne Mindestbreite geplant."
-  - "Grid und Inhaltshierarchie werden verwechselt."
-keyTakeaways: 
-  - "Grid passt, wenn das Layout als Fläche mit Zeilen und Spalten gedacht wird."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "Grid passt, wenn das Layout als Fläche mit Zeilen und Spalten gedacht wird."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "css-grid-ueberblick"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags: 
-  - "css"
-  - "grid"
-  - "layout"
-  - "raster"
-  - "web-development"
+tags: ["web-development", "css"]
 draft: false
 ---
-
 ![Didaktische Skizze zu CSS Grid im Überblick](/schlaufuchs-platform/images/web-development/sanierung-v187/css-grid-ueberblick.svg)
 
     CSS Grid im Überblick ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

@@ -3,23 +3,12 @@ title: "Lösung: Static-Site-Deployment: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-028a im Web-Development-Block v187."
 subject: "web-development"
 section: "deployment"
-topicPath: 
-  - "deployment-und-betrieb"
-  - "static-sites"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "static-site-deployment-aufgabe-a"]
 taskId: "web-v187-028a"
 relatedExercise: "web-development/sanierung-v187/static-site-deployment-aufgabe-a"
-tags: 
-  - "deployment"
-  - "static-site"
-  - "build"
-  - "hosting"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "deployment", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-028a`
 
     Ausgangsauftrag: Zeichne den Weg einer statischen Seite vom Quellprojekt bis zur veröffentlichten URL.

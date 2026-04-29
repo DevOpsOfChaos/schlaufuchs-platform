@@ -1,46 +1,19 @@
 ---
-title: ATmega – EEPROM als Grundidee und Einsatz verstehen
-description: Verstehe, warum EEPROM am ATmega für dauerhaft benötigte Daten gedacht ist und nicht einfach nur ein weiterer beliebiger Speicherbereich ist.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - speicher-und-persistenz
-  - atmega-eeprom-grundidee-und-einsatz-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von EEPROM am ATmega.
-  - Du unterscheidest Flash, SRAM und EEPROM über ihre typische Rolle.
-  - Du ordnest EEPROM als Speicher für persistente Konfigurationsdaten ein.
-practiceIdeas:
-  - Vergleiche, welche Daten nach dem Ausschalten erhalten bleiben müssen und welche nicht.
-  - Prüfe bei einem Beispiel, ob eine Information eher in SRAM oder EEPROM gehört.
-  - Lies EEPROM zuerst als Konfigurations- und Zustandsgedächtnis, nicht als Allzweck-RAM.
-commonMistakes:
-  - EEPROM wie ganz normales RAM zu behandeln.
-  - jede häufig benutzte Variable automatisch als EEPROM-Kandidaten zu sehen.
-  - dauerhafte Datenhaltung und schnellen Laufzeitspeicher nicht zu trennen.
-keyTakeaways:
-  - EEPROM ist für Daten gedacht, die auch nach dem Ausschalten erhalten bleiben sollen.
-  - SRAM dient dem schnellen Laufzeitbetrieb und ist nicht persistent.
-  - EEPROM ist besonders für Konfiguration, Kalibrierwerte oder letzte Zustände interessant.
-recognizeSignals:
-  - Es geht um Daten, die nach einem Neustart oder Stromausfall noch vorhanden sein sollen.
-  - In Aufgaben soll entschieden werden, welcher Speicherbereich für welche Daten sinnvoll ist.
-  - Beispiele nennen Kalibrierwerte, Einstellungen oder Betriebszähler.
-selfCheckPoints:
-  - Kann ich EEPROM und SRAM sauber trennen?
-  - Kann ich begründen, welche Daten persistent sein sollten?
-  - Kann ich EEPROM als eigene Speicherrolle einordnen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - eeprom
-  - speicher
-level: einfach
+title: "ATmega – EEPROM als Grundidee und Einsatz verstehen"
+description: "Verstehe, warum EEPROM am ATmega für dauerhaft benötigte Daten gedacht ist und nicht einfach nur ein weiterer beliebiger Speicherbereich ist."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-eeprom-grundidee-und-einsatz-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 EEPROM am ATmega ist für Daten gedacht, die **auch nach dem Ausschalten** erhalten bleiben sollen. Genau deshalb ist EEPROM nicht einfach „noch etwas Speicher“, sondern eine eigene Speicherrolle mit klarem Einsatzgebiet.
 
 <div class="example-card">

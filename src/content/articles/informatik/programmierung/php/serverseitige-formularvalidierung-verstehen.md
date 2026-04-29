@@ -1,46 +1,19 @@
 ---
-title: Serverseitige Formularvalidierung verstehen
-description: Verstehe, warum Formulareingaben immer auch auf dem Server geprüft werden müssen und welche ruhige Prüfreihenfolge dabei hilft.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - serverseitige-formularvalidierung-verstehen
-learningGoals:
-  - Du erklärst, warum clientseitige Einschränkungen allein nicht ausreichen.
-  - Du beschreibst eine ruhige Reihenfolge für serverseitige Prüfung.
-  - Du unterscheidest grob zwischen Typprüfung, Längenprüfung und Inhaltsprüfung.
-practiceIdeas:
-  - Prüfe ein Formularfeld nacheinander auf Existenz, Typ, Länge und zulässigen Inhalt.
-  - Begründe, warum <code>required</code> oder <code>readonly</code> kein vollständiger Schutz sind.
-  - Lies ein Beispiel mit manipulierten Eingaben aus Sicht des Servers.
-commonMistakes:
-  - Clientseitige Validierung mit echter Sicherheit zu verwechseln.
-  - Werte ungeprüft direkt aus dem Request weiterzuverwenden.
-  - Zu früh auf den Inhalt zu schauen, ohne überhaupt zu prüfen, ob der Wert vorhanden und fachlich passend ist.
-keyTakeaways:
-  - Formulare können manipuliert werden.
-  - Serverseitige Prüfung ist zwingend nötig.
-  - Eine ruhige Prüfstrategie geht von Existenz und Typ über Länge zu Inhalt und Bereinigung.
-recognizeSignals:
-  - Es geht um Formulare, Eingabefelder, Anwenderdaten oder Sicherheitsfragen.
-  - Ein Beispiel fragt nach Schutz vor falschen oder manipulierten Eingaben.
-  - Du sollst erklären, warum der Server selbst prüfen muss.
-selfCheckPoints:
-  - Kann ich erklären, warum HTML-Attribute allein nicht reichen?
-  - Kann ich die Prüfschritte in sinnvoller Reihenfolge nennen?
-  - Kann ich sagen, was vor dem Speichern oder Ausgeben geprüft werden sollte?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - validierung
-  - formular
+title: "Serverseitige Formularvalidierung verstehen"
+description: "Verstehe, warum Formulareingaben immer auch auf dem Server geprüft werden müssen und welche ruhige Prüfreihenfolge dabei hilft."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "serverseitige-formularvalidierung-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Formulare können vom Benutzer oder durch Werkzeuge verändert werden. Darum reicht es nicht, sich nur auf HTML-Attribute oder clientseitiges JavaScript zu verlassen. Der Server muss die Daten selbst prüfen.

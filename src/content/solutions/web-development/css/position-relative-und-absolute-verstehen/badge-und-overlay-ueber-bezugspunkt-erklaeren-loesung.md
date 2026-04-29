@@ -1,21 +1,14 @@
 ---
-title: Lösung – Badge und Overlay über Bezugspunkt erklären
-description: Musterlösung zur Aufgabe über relative und absolute Positionierung.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - position-relative-und-absolute-verstehen
-taskId: WEB-CSS-POS-201
-relatedExercise: web-development/css/position-relative-und-absolute-verstehen/badge-und-overlay-ueber-bezugspunkt-erklaeren
-tags:
-  - css
-  - position
-  - lösung
+title: "Lösung – Badge und Overlay über Bezugspunkt erklären"
+description: "Musterlösung zur Aufgabe über relative und absolute Positionierung."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "position-relative-und-absolute-verstehen", "badge-und-overlay-ueber-bezugspunkt-erklaeren"]
+taskId: "WEB-CSS-POS-201"
+relatedExercise: "web-development/css/position-relative-und-absolute-verstehen/badge-und-overlay-ueber-bezugspunkt-erklaeren"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

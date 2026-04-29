@@ -3,23 +3,12 @@ title: "Lösung – Bedrohungsmodell für kleine Anwendungen erstellen"
 description: "Musterlösung zur Aufgabe über Bedrohungsmodell mit Begründung und Gegenprobe."
 subject: "informatik"
 section: "Sicherheit"
-topicPath:
-  - "sicherheit"
-  - "bedrohungsmodelle"
-  - "bedrohungsmodell-fuer-kleine-anwendungen-erstellen"
+topicPath: ["sicherheit", "bedrohungsmodelle", "bedrohungsmodell-fuer-kleine-anwendungen-erstellen"]
 taskId: "v106-informatik-bedrohungsmodell-fuer-kleine-anwendungen-erstellen"
 relatedExercise: "informatik/sicherheit/bedrohungsmodelle/bedrohungsmodell-fuer-kleine-anwendungen-erstellen"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "daten"
-  - "algorithmen"
-  - "bedrohungsmodell"
-  - "sicherheit"
-  - "bedrohungsmodelle"
+tags: ["informatik", "Sicherheit", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Beobachtung

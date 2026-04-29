@@ -3,21 +3,12 @@ title: "Lösung – Randfälle in Bedingungen sammeln"
 description: "Musterlösung zu randfälle in bedingungen sammeln mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "algorithmen"
-  - "bedingungen-und-logik"
-  - "randfaelle-in-bedingungen-sammeln"
+topicPath: ["algorithmen", "bedingungen-und-logik", "randfaelle-in-bedingungen-sammeln"]
 taskId: "v112-informatik-randfaelle-in-bedingungen-sammeln"
 relatedExercise: "informatik/algorithmen/bedingungen-und-logik/randfaelle-in-bedingungen-sammeln"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "algorithmen"
-  - "randfaelle-in-bedingungen-sammeln"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Bedingungen und Logik**.

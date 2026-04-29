@@ -1,46 +1,19 @@
 ---
-title: ATmega – Interrupt und ISR verstehen
-description: Verstehe, warum ein Interrupt den normalen Ablauf kurz unterbricht und wie eine ISR auf ein Ereignis reagiert, ohne dass ständig aktiv abgefragt werden muss.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - ereignisse-und-interrupts
-  - atmega-interrupt-und-isr-verstehen
-learningGoals:
-  - Du erklärst die Grundidee eines Interrupts als Ereignis-Unterbrechung.
-  - Du beschreibst die Rolle einer ISR sauber.
-  - Du unterscheidest Polling und Interrupt-Reaktion fachlich klar.
-practiceIdeas:
-  - Vergleiche einen aktiv abgefragten Taster mit einer Interrupt-Reaktion.
-  - Lies kleine ISR-Beispiele zuerst als Ereigniskette und dann als Code.
-  - Prüfe, welcher Teil vor dem Interrupt, während der ISR und danach passiert.
-commonMistakes:
-  - Interrupts als „parallel laufenden zweiten Hauptcode“ zu sehen.
-  - Zu denken, die ISR ersetze jede Initialisierung automatisch.
-  - Globales Freigeben, Quellenfreigabe und Ereignisquelle durcheinanderzubringen.
-keyTakeaways:
-  - Ein Interrupt unterbricht kurz den normalen Ablauf und springt zu einer passenden ISR.
-  - Eine ISR behandelt genau dieses Ereignis und danach läuft das Hauptprogramm weiter.
-  - Interrupts brauchen sowohl globale Freigabe als auch die Freigabe der konkreten Quelle.
-recognizeSignals:
-  - Es geht um sei(), ISR(...), Interruptvektoren oder Ereignisreaktionen.
-  - Du sollst erklären, warum ein Mikrocontroller nicht ständig pollen muss.
-  - In Aufgaben müssen Hauptprogramm und ISR sauber getrennt werden.
-selfCheckPoints:
-  - Kann ich Polling und Interrupt fachlich unterscheiden?
-  - Kann ich erklären, warum eine ISR nicht „dauerhaft parallel“ läuft?
-  - Kann ich globale und lokale Interrupt-Freigabe benennen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - interrupt
-  - isr
-level: mittel
+title: "ATmega – Interrupt und ISR verstehen"
+description: "Verstehe, warum ein Interrupt den normalen Ablauf kurz unterbricht und wie eine ISR auf ein Ereignis reagiert, ohne dass ständig aktiv abgefragt werden muss."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-interrupt-und-isr-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 Bei AVR-Mikrocontrollern stoppt ein Interrupt den normalen Programmablauf kurz und führt eine spezielle Interrupt Service Routine aus; danach kehrt das Programm an die unterbrochene Stelle zurück. Dafür müssen sowohl die globale Freigabe als auch die jeweilige Quellfreigabe gesetzt sein, und die ISR wird über einen passenden Vektor angebunden.
 
 <div class="example-card">

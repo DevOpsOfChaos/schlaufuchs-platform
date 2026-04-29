@@ -1,36 +1,19 @@
 ---
 title: "Grundlagen: Quadratische Funktionen"
 description: "Allgemeiner Überblick über Parabeln, Scheitelpunkt, Nullstellen und typische Darstellungsformen quadratischer Funktionen."
-subject: mathematik
+subject: "mathematik"
 section: "Algebra"
-topicPath:
-  - algebra
-  - quadratische-funktionen
-  - grundlagen-quadratische-funktionen
-learningGoals:
-  - "Du beschreibst quadratische Funktionen als Funktionen mit einer quadrierten Variablen."
-  - "Du ordnest Parabel, Scheitelpunkt und Nullstellen als zentrale Informationen ein."
-  - "Du unterscheidest Normalform, Scheitelpunktform und faktorisierte Form nach ihrem Nutzen."
+topicPath: ["algebra", "quadratische-funktionen", "ueberblick", "grundlagen-quadratische-funktionen"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Jede gebogene Kurve automatisch für eine Parabel zu halten."
-  - "Scheitelpunkt und Nullstelle zu verwechseln."
-  - "Die Form einer Gleichung zu betrachten, ohne zu fragen, welche Information darin sichtbar wird."
-keyTakeaways:
-  - "Quadratische Funktionen erzeugen Parabeln."
-  - "Der Scheitelpunkt beschreibt den tiefsten oder höchsten Punkt der Parabel."
-  - "Verschiedene Darstellungsformen machen verschiedene Eigenschaften leichter sichtbar."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - "mathematik"
-  - "quadratische funktionen"
-  - "parabel"
-  - "scheitelpunkt"
+level: "einfach"
+tags: ["mathematik", "Algebra"]
 draft: false
 ---
-
 ## Begriff
 
 Eine **quadratische Funktion** ist eine Funktion, bei der die Variable in der höchsten Potenz mit dem Exponenten zwei vorkommt. Ihr Graph ist eine Parabel. Quadratische Funktionen gehören zu den wichtigsten Funktionstypen, weil sie einfache gekrümmte Zusammenhänge beschreiben.

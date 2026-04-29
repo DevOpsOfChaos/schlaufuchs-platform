@@ -3,21 +3,12 @@ title: "Lösung – Shellcheck-Hinweis fachlich lesen"
 description: "Musterlösung zu shellcheck-hinweis fachlich lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "shellskripte"
-  - "shellcheck-hinweis-fachlich-lesen"
+topicPath: ["shell", "shellskripte", "shellcheck-hinweis-fachlich-lesen"]
 taskId: "v112-linux-shellcheck-hinweis-fachlich-lesen"
 relatedExercise: "linux/shell/shellskripte/shellcheck-hinweis-fachlich-lesen"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "shellcheck-hinweis-fachlich-lesen"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Shellskripte**.

@@ -1,17 +1,19 @@
 ---
-title: Responsive Design und Media Queries
-description: Responsive Design sorgt dafür, dass Webseiten auf unterschiedlichen Bildschirmgrößen lesbar, nutzbar und ruhig aufgebaut bleiben.
-subject: web-development
-section: CSS und Layout
-level: mittel
-tags:
-  - Responsive Design
-  - Media Queries
-  - CSS
-  - Layout
+title: "Responsive Design und Media Queries"
+description: "Responsive Design sorgt dafür, dass Webseiten auf unterschiedlichen Bildschirmgrößen lesbar, nutzbar und ruhig aufgebaut bleiben."
+subject: "web-development"
+section: "CSS und Layout"
+topicPath: ["responsive-design-und-media-queries"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "CSS und Layout"]
 draft: false
 ---
-
 ## Überblick
 
 Webseiten werden nicht nur auf großen Monitoren betrachtet, sondern auch auf Tablets, kleinen Laptops und Smartphones. Responsive Design bedeutet, dass sich Struktur und Darstellung an die verfügbare Breite anpassen, ohne dass Inhalt oder Bedienung leiden.

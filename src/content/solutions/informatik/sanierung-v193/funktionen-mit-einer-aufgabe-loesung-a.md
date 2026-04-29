@@ -3,24 +3,12 @@ title: "Lösung: Funktionen mit einer Aufgabe: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-003a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "qualitaet-und-wartbarkeit"
-  - "funktionen-mit-einer-aufgabe"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "funktionen-mit-einer-aufgabe-loesung-a"]
 taskId: "informatik-v193-003a"
 relatedExercise: "informatik/sanierung-v193/funktionen-mit-einer-aufgabe-aufgabe-a"
-tags:
-  - "funktionen"
-  - "einer"
-  - "aufgabe"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-003a`
 
 Ausgangsauftrag: Zerlege eine zu große Funktion in drei kleinere Verantwortungen.

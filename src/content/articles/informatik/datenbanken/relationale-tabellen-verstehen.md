@@ -1,44 +1,19 @@
 ---
-title: Relationale Tabellen verstehen
-description: Verstehe, warum strukturierte Daten in Tabellen geordnet werden und wie dadurch Zusammenhänge lesbarer werden.
-subject: informatik
-section: Datenbanken
-topicPath:
-  - datenbanken
-  - relationale-tabellen-verstehen
-learningGoals:
-  - Du erklärst, warum Daten in Tabellen strukturiert werden.
-  - Du unterscheidest Datensatz, Attribut und Tabelle sauber.
-  - Du erkennst, wie Beziehungen zwischen Tabellen Ordnung in größere Datenmengen bringen.
-practiceIdeas:
-  - Zerlege ein Alltagsbeispiel wie Bestellungen oder Bücher in sinnvolle Tabellen.
-  - Prüfe, welche Informationen zu einem Datensatz gehören und welche besser ausgelagert werden.
-  - Vergleiche eine ungeordnete Liste mit einer sauber strukturierten Tabellenidee.
-commonMistakes:
-  - Alles in eine einzige große Tabelle zu schreiben.
-  - Datensatz, Attribut und Tabelle durcheinanderzubringen.
-  - Beziehungen nur als Zusatz zu sehen statt als Ordnungsprinzip.
-keyTakeaways:
-  - Tabellen schaffen Ordnung in wiederkehrende Daten.
-  - Ein Datensatz beschreibt einen einzelnen Fall, Attribute beschreiben seine Eigenschaften.
-  - Beziehungen helfen, Informationen nicht unnötig zu vermischen.
-recognizeSignals:
-  - Es geht um Datenorganisation, Tabellen, Datensätze oder Beziehungen.
-  - Du sollst Struktur erklären, nicht nur Software nennen.
-  - In Beispielen musst du entscheiden, wie Informationen sinnvoll getrennt werden.
-selfCheckPoints:
-  - Kann ich Tabelle, Datensatz und Attribut unterscheiden?
-  - Kann ich erklären, warum mehrere Tabellen oft sinnvoller sind als eine einzige?
-  - Kann ich eine einfache Beziehung zwischen zwei Tabellen beschreiben?
-tags:
-  - datenbanken
-  - tabellen
-  - datensaetze
-  - relationen
-level: einfach
+title: "Relationale Tabellen verstehen"
+description: "Verstehe, warum strukturierte Daten in Tabellen geordnet werden und wie dadurch Zusammenhänge lesbarer werden."
+subject: "informatik"
+section: "Datenbanken"
+topicPath: ["datenbanken", "relationale-tabellen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Datenbanken"]
 draft: false
 ---
-
 ## Grundidee
 
 Wenn viele ähnliche Informationen gespeichert werden, reicht eine lose Liste schnell nicht mehr aus. Datenbanken arbeiten deshalb oft mit Tabellen. Das hilft, Informationen geordnet, vergleichbar und später leichter auswertbar zu machen.

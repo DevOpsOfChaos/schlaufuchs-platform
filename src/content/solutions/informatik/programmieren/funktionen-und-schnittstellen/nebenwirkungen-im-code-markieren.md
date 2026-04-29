@@ -3,21 +3,12 @@ title: "Lösung – Nebenwirkungen im Code markieren"
 description: "Musterlösung zu nebenwirkungen im code markieren mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "programmieren"
-  - "funktionen-und-schnittstellen"
-  - "nebenwirkungen-im-code-markieren"
+topicPath: ["programmieren", "funktionen-und-schnittstellen", "nebenwirkungen-im-code-markieren"]
 taskId: "v112-informatik-nebenwirkungen-im-code-markieren"
 relatedExercise: "informatik/programmieren/funktionen-und-schnittstellen/nebenwirkungen-im-code-markieren"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "programmieren"
-  - "nebenwirkungen-im-code-markieren"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Funktionen und Schnittstellen**.

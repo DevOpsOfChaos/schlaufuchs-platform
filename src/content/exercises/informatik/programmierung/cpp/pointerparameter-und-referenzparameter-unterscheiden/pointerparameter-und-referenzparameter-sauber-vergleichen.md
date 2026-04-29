@@ -1,31 +1,16 @@
 ---
-title: Pointerparameter und Referenzparameter sauber vergleichen
-description: Vergleiche Funktionsköpfe und Aufrufe mit Pointer- und Referenzparametern.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - funktionen-und-parameter
-  - pointerparameter-und-referenzparameter-unterscheiden
-  - pointerparameter-und-referenzparameter-sauber-vergleichen
-taskId: INF-PROG-CPP-PARAM-001
-level: mittel
+title: "Pointerparameter und Referenzparameter sauber vergleichen"
+description: "Vergleiche Funktionsköpfe und Aufrufe mit Pointer- und Referenzparametern."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "pointerparameter-und-referenzparameter-unterscheiden", "pointerparameter-und-referenzparameter-sauber-vergleichen"]
+taskId: "INF-PROG-CPP-PARAM-001"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - aufgabe
-hintPoints:
-  - "Vergleiche nicht nur die Wirkung, sondern auch den Vertrag der Schnittstelle."
-  - "Achte darauf, ob eine Adresse explizit übergeben wird oder ein vorhandenes Objekt direkt gebunden wird."
-selfCheckPoints:
-  - "Habe ich den Unterschied im Funktionskopf benannt?"
-  - "Habe ich erklärt, warum der Aufruf verschieden aussieht?"
-transferIdeas:
-  - "Übertrage die Unterscheidung auf Funktionen, die optional kein Ziel erhalten oder immer mit einem vorhandenen Objekt arbeiten."
-reflectionPrompt: "Welche Kante war für dich deutlicher: der Aufruf mit & oder die Idee des optional fehlenden Ziels?"
 ---
 ## Aufgabe 1: Vertrag der Schnittstelle lesen
 

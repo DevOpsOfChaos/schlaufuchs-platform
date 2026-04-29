@@ -3,20 +3,12 @@ title: "Lösung – Parameter als Vertrag lesen"
 description: "Musterlösung zu Parameter als Vertrag lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "programmieren"
-  - "funktionen-und-schnittstellen"
-  - "parameter-als-vertrag-lesen-v113"
+topicPath: ["programmieren", "funktionen-und-schnittstellen", "parameter-als-vertrag-lesen-v113"]
 taskId: "v113-informatik-parameter-als-vertrag-lesen-v113"
 relatedExercise: "informatik/programmieren/funktionen-und-schnittstellen/parameter-als-vertrag-lesen-v113"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "parameter-als-vertrag-lesen-v113"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Parameter als Vertrag lesen**.

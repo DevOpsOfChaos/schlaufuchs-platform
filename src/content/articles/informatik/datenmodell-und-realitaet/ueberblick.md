@@ -1,30 +1,17 @@
 ---
 title: "Datenmodell und Realität"
 description: "Allgemeiner Überblick: Ein Datenmodell bildet ausgewählte Aspekte der Realität als strukturierte Daten ab."
-subject: informatik
+subject: "informatik"
 section: "Daten"
-topicPath:
-  - "datenmodell-und-realitaet"
-learningGoals:
-  - "Du kannst datenmodell und realität als Grundidee einordnen."
-  - "Du erkennst wichtige Bestandteile und typische Grenzen."
-  - "Du kannst das Thema in einfachen Worten erklären."
+topicPath: ["datenmodell-und-realitaet", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur ein Detail zu betrachten und den Zusammenhang zu übersehen."
-  - "Das Schaubild als exakte technische Darstellung statt als Orientierung zu lesen."
-keyTakeaways:
-  - "Ein Datenmodell bildet ausgewählte Aspekte der Realität als strukturierte Daten ab."
-  - "Ein Überblicksbild hilft, Begriffe und Beziehungen ruhig zu ordnen."
-recognizeSignals:
-  - "Es geht um datenmodell und realität, Grundbegriffe, Zusammenhänge oder typische Fehlerquellen."
-selfCheckPoints:
-  - "Kann ich erklären, welche Rolle datenmodell und realität im größeren Zusammenhang spielt?"
-level: einfach
-tags:
-  - "informatik"
-  - "datenmodell und realitaet"
-  - "überblick"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Daten"]
 draft: false
 ---
 # Datenmodell und Realität

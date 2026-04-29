@@ -3,25 +3,12 @@ title: "Lösung: Content-Hierarchie aufbauen: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-development-v194-019a im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "content-und-navigation"
-  - "content-hierarchie-aufbauen"
-  - "loesung-a"
-
+topicPath: ["sanierung-v194", "content-hierarchie-aufbauen-loesung-a"]
 taskId: "web-development-v194-019a"
 relatedExercise: "web-development/sanierung-v194/content-hierarchie-aufbauen-aufgabe-a"
-tags:
-  - "content"
-  - "hierarchie"
-  - "aufbauen"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-019a`
 
 Ausgangsauftrag: Ordne eine lange Lernseite in sinnvolle Abschnitte.

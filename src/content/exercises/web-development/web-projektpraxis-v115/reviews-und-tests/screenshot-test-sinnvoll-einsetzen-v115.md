@@ -1,36 +1,17 @@
 ---
 title: "Aufgabe: Screenshot-Test sinnvoll einsetzen"
 description: "Trainiere Screenshot-Test sinnvoll einsetzen an einem kleinen, klar abgegrenzten Fall."
-subject: web-development
+subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "web-projektpraxis-v115"
-  - "reviews-und-tests"
-  - "screenshot-test-sinnvoll-einsetzen-v115"
+topicPath: ["web-projektpraxis-v115", "reviews-und-tests", "screenshot-test-sinnvoll-einsetzen-v115"]
 taskId: "web-development-screenshot-test-sinnvoll-einsetzen-v115"
-tags:
-  - "web development"
-  - "feinstruktur"
-  - "unterthema"
-  - "web-projektpraxis"
-  - "reviews und tests"
-  - "aufgabe"
-hintPoints:
-  - "Grenze zuerst den kleinen Fall vom breiten Themenfeld ab."
-  - "Nutze die Prüffrage: Welche Ansicht muss wirklich visuell abgesichert werden?"
-  - "Begründe mit zwei konkreten Hinweisen aus dem Fall."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-transferIdeas:
-  - "Übertrage dieselbe Trennkante auf ein eigenes Mini-Beispiel."
-  - "Formuliere einen Gegenfall, der ähnlich aussieht, aber anders entschieden wird."
-reflectionPrompt: "Was war bei „Screenshot-Test sinnvoll einsetzen“ die wichtigste Trennkante?"
-level: mittel
+tags: ["web-development", "Feinstruktur Web Development", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den folgenden Fall zu **Screenshot-Test sinnvoll einsetzen**.

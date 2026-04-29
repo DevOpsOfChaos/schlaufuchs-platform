@@ -3,38 +3,15 @@ title: "SSH-Zugang absichern: Aufgabe A"
 description: "Erstelle eine kleine SSH-Härtungscheckliste."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "netzwerk-und-zugriff"
-  - "ssh-zugang-absichern"
-  - "aufgabe-a"
+topicPath: ["sanierung-v192", "ssh-zugang-absichern-aufgabe-a"]
 taskId: "linux-v192-018a"
-tags:
-  - "netzwerk-und-zugriff"
-  - "ssh"
-  - "zugang"
-  - "absichern"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "aufgabe"
-  - "v192"
-hintPoints:
-  - "Trenne Beobachtung, Eingriff und Kontrolle."
-  - "Nenne den betroffenen Benutzer, Dienst, Pfad, Port oder Zeitplan."
-  - "Beschreibe mindestens einen Rückweg oder Sicherheitscheck."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema SSH-Zugang absichern."
-  - "Es gibt eine klare Kontrolle nach der Änderung."
-  - "Risiko und Nebenwirkung werden nicht verschwiegen."
-transferIdeas:
-  - "Übertrage den Prüfweg auf eine zweite Linux-VM oder einen anderen Dienst."
-  - "Formuliere aus deiner Lösung eine kurze Betriebsnotiz."
-reflectionPrompt: "Welcher Schritt verhindert hier den wahrscheinlichsten Adminfehler?"
+tags: ["linux", "adminpraxis-und-betrieb", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Erstelle eine kleine SSH-Härtungscheckliste.

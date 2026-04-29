@@ -1,29 +1,17 @@
 ---
 title: "Shell und Terminal – ruhig einordnen"
 description: "Übe, Shell und Terminal fachlich einzuordnen."
-subject: linux
+subject: "linux"
 section: "shell-und-terminal"
-topicPath:
-  - "shell-und-terminal"
-  - "shell-und-terminal"
-taskId: LINUX-SHELL-UND-TERMINAL-V186-1
-tags:
-  - "linux"
-  - "shell"
-  - "terminal"
-  - "aufgabe"
-hintPoints:
-  - "Beginne mit Begriff und Kontext."
-  - "Trenne Beobachtung, Prüfung und mögliche Änderung."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe erklären."
-  - "Ich kann einen typischen Fehler vermeiden."
-transferIdeas:
-  - "Formuliere eine ähnliche Prüfsituation aus deinem eigenen Linux-Alltag."
-level: einfach
+topicPath: ["shell-und-terminal", "shell-und-terminal", "shell-und-terminal-ruhig-einordnen-v186"]
+taskId: "LINUX-SHELL-UND-TERMINAL-V186-1"
+tags: ["linux", "shell-und-terminal", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Lernziel
 
 Du sollst **Shell und Terminal** nicht nur als Befehl oder Schlagwort sehen, sondern als geordnetes Linux-Thema mit Zweck, Kontext und typischen Prüfschritten.

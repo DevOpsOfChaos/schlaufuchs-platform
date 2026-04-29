@@ -1,35 +1,19 @@
 ---
 title: "Grundlagen: Client, Server und Protokolle"
 description: "Protokolle beschreiben, wie Rollen miteinander sprechen und welche Antwort erwartet wird."
-subject: informatik
+subject: "informatik"
 section: "Netzwerke und Dienste"
-topicPath:
-  - "netzwerke-und-dienste"
-  - "client-server-und-protokolle"
-  - "ueberblick"
-learningGoals:
-  - "Du ordnest Client, Server und Protokolle fachlich ein."
-  - "Du unterscheidest zentrale Begriffe und typische Rollen."
-  - "Du erkennst häufige Fehler beim Anwenden."
-practiceIdeas:
-  - "Formuliere die Grundidee in zwei Sätzen."
-  - "Ordne ein Beispiel den wichtigsten Begriffen zu."
-commonMistakes:
-  - "Client und Server als feste Geräte statt als Rollen einer Kommunikation zu verstehen."
-keyTakeaways:
-  - "Protokolle beschreiben, wie Rollen miteinander sprechen und welche Antwort erwartet wird."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung vor einer Einzelfalllösung."
-selfCheckPoints:
-  - "Kann ich die Grundbegriffe voneinander unterscheiden?"
-level: einfach
-tags:
-  - "informatik"
-  - "netzwerke-und-dienste"
-  - "client-server-und-protokolle"
+topicPath: ["netzwerke-und-dienste", "client-server-und-protokolle", "ueberblick", "grundlagen-client-server-und-protokolle"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Netzwerke und Dienste"]
 draft: false
 ---
-
 ![Schaubild zu Client, Server und Protokolle](/schlaufuchs-platform/images/overviews/v183/informatik-client-server-und-protokolle.svg)
 
 ## Begriff

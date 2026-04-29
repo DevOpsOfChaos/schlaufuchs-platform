@@ -3,21 +3,12 @@ title: "Lösung – Volumenfaktor von Längenfaktor trennen"
 description: "Musterlösung zu volumenfaktor von längenfaktor trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "geometrie"
-  - "einheiten-und-skalierung"
-  - "volumenfaktor-von-laengenfaktor-trennen"
+topicPath: ["geometrie", "einheiten-und-skalierung", "volumenfaktor-von-laengenfaktor-trennen"]
 taskId: "v112-mathematik-volumenfaktor-von-laengenfaktor-trennen"
 relatedExercise: "mathematik/geometrie/einheiten-und-skalierung/volumenfaktor-von-laengenfaktor-trennen"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "geometrie"
-  - "volumenfaktor-von-laengenfaktor-trennen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Geometrie und Skalierung**.

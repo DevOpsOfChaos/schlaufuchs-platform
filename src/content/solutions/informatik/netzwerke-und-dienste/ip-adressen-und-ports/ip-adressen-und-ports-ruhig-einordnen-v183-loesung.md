@@ -1,20 +1,14 @@
 ---
 title: "Lösung – IP-Adressen und Ports ruhig einordnen"
 description: "Musterlösung zur Aufgabe über IP-Adressen und Ports."
-subject: informatik
+subject: "informatik"
 section: "Netzwerke und Dienste"
-topicPath:
-  - "netzwerke-und-dienste"
-  - "ip-adressen-und-ports"
-taskId: INF-V183-11-A
-relatedExercise: src/content/exercises/informatik/netzwerke-und-dienste/ip-adressen-und-ports/ip-adressen-und-ports-ruhig-einordnen-v183.md
-tags:
-  - "informatik"
-  - "ip-adressen-und-ports"
-  - "loesung"
+topicPath: ["netzwerke-und-dienste", "ip-adressen-und-ports", "ip-adressen-und-ports-ruhig-einordnen-v183"]
+taskId: "INF-V183-11-A"
+relatedExercise: "src/content/exercises/informatik/netzwerke-und-dienste/ip-adressen-und-ports/ip-adressen-und-ports-ruhig-einordnen-v183.md"
+tags: ["informatik", "Netzwerke und Dienste", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

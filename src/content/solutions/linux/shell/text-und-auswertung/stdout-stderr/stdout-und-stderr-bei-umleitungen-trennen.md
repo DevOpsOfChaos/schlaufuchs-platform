@@ -3,22 +3,12 @@ title: "Lösung – stdout und stderr bei Umleitungen trennen"
 description: "Musterlösung zu stdout und stderr mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell"
-  - "text-und-auswertung"
-  - "stdout-stderr"
-  - "stdout-und-stderr-bei-umleitungen-trennen"
+topicPath: ["shell", "text-und-auswertung", "stdout-stderr", "stdout-und-stderr-bei-umleitungen-trennen"]
 taskId: "v109-linux-stdout-und-stderr-bei-umleitungen-trennen"
 relatedExercise: "linux/shell/text-und-auswertung/stdout-stderr/stdout-und-stderr-bei-umleitungen-trennen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "text-und-auswertung"
-  - "stdout und stderr"
+tags: ["linux", "Shell", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **stdout und stderr**.

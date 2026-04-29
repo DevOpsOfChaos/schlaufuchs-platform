@@ -1,16 +1,19 @@
 ---
 title: "mkdir verstehen"
 description: "Mit mkdir neue Ordner anlegen und sauberere Strukturen im Dateisystem aufbauen."
-subject: linux
+subject: "linux"
 section: "Shell / Dateien"
-level: einfach
-tags:
-  - mkdir
-  - Shell
-  - Dateien
+topicPath: ["shell", "dateien", "mkdir"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell / Dateien"]
 draft: false
 ---
-
 ## Worum geht es?
 
 Der Befehl `mkdir` wird genutzt, um **neue Ordner** anzulegen.

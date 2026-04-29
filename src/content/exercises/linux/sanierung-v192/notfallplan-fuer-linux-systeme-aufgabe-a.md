@@ -3,37 +3,15 @@ title: "Notfallplan für Linux-Systeme: Aufgabe A"
 description: "Erstelle einen Mini-Notfallplan für einen nicht erreichbaren Dienst."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "betrieb-nahe-grundlagen"
-  - "notfallplan-fuer-linux-systeme"
-  - "aufgabe-a"
+topicPath: ["sanierung-v192", "notfallplan-fuer-linux-systeme-aufgabe-a"]
 taskId: "linux-v192-031a"
-tags:
-  - "betrieb-nahe-grundlagen"
-  - "notfallplan"
-  - "linux"
-  - "systeme"
-  - "adminpraxis"
-  - "betrieb"
-  - "aufgabe"
-  - "v192"
-hintPoints:
-  - "Trenne Beobachtung, Eingriff und Kontrolle."
-  - "Nenne den betroffenen Benutzer, Dienst, Pfad, Port oder Zeitplan."
-  - "Beschreibe mindestens einen Rückweg oder Sicherheitscheck."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Notfallplan für Linux-Systeme."
-  - "Es gibt eine klare Kontrolle nach der Änderung."
-  - "Risiko und Nebenwirkung werden nicht verschwiegen."
-transferIdeas:
-  - "Übertrage den Prüfweg auf eine zweite Linux-VM oder einen anderen Dienst."
-  - "Formuliere aus deiner Lösung eine kurze Betriebsnotiz."
-reflectionPrompt: "Welcher Schritt verhindert hier den wahrscheinlichsten Adminfehler?"
+tags: ["linux", "adminpraxis-und-betrieb", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Erstelle einen Mini-Notfallplan für einen nicht erreichbaren Dienst.

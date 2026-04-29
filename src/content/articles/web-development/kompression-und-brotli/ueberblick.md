@@ -1,32 +1,17 @@
 ---
 title: "Kompression und Brotli"
 description: "Überblick über HTTP-Kompression, Brotli und gzip bei HTML, CSS, JavaScript und Textdaten."
-subject: web-development
+subject: "web-development"
 section: "Performance"
-topicPath:
-  - "kompression-und-brotli"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Kompression und Brotli als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Brotli, gzip, Textressourcen."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["kompression-und-brotli", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Kompression mit Bildoptimierung oder Minifizierung gleichzusetzen."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Kompression und Brotli beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Übertragungsgröße von Ressourcen."
-  - "Wichtige Hinweise liefern vor allem Brotli, gzip, Textressourcen."
-recognizeSignals:
-  - "Es geht um übertragungsgröße von ressourcen, brotli oder gzip."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Kompression und Brotli erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "web-development"
-  - "performance"
-  - "http"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Performance"]
 draft: false
 ---
 # Kompression und Brotli

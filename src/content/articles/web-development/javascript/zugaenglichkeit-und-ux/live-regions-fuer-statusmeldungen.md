@@ -3,44 +3,17 @@ title: "JavaScript – Live Regions für Statusmeldungen"
 description: "Verstehe, wie dynamische Änderungen angekündigt werden können, ohne Nutzerinnen und Nutzer zu überfordern."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "zugaenglichkeit-und-ux"
-  - "live-regions-fuer-statusmeldungen"
-tags:
-  - "web development"
-  - "javascript"
-  - "accessibility"
-  - "aria-live"
-  - "status"
-learningGoals:
-  - "Du erklärst, warum dynamische Änderungen nicht immer wahrgenommen werden."
-  - "Du unterscheidest höfliche und dringende Statusmeldungen."
-  - "Du formulierst kurze, konkrete Meldungen für Lade- und Speicherzustände."
-practiceIdeas:
-  - "Übertrage das Muster auf eine kleine eigene Oberfläche."
-  - "Prüfe den Fall mit Tastatur, kleinem Bildschirm oder Fehlermeldung."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "Status nur visuell zu ändern, ohne technische Ansage."
-  - "aria-live für jede Kleinigkeit zu verwenden."
-  - "Lange oder ständig wechselnde Meldungen auszugeben."
-keyTakeaways:
-  - "Robuste Webentwicklung verbindet Struktur, Zustand und verständliche Rückmeldung."
-  - "Eine gute Lösung bleibt auch bei Tastaturbedienung, Fehlern oder kleinen Bildschirmen nachvollziehbar."
-  - "Saubere Projektpraxis bedeutet, Entscheidungen sichtbar und überprüfbar zu machen."
-recognizeSignals:
-  - "Eine Oberfläche funktioniert scheinbar, wird aber in Sonderfällen unklar."
-  - "Nutzerinnen und Nutzer brauchen Orientierung, Status oder eine konkrete Korrekturmöglichkeit."
-  - "HTML, CSS und JavaScript müssen gemeinsam statt isoliert betrachtet werden."
-selfCheckPoints:
-  - "Kann ich erklären, welcher Zustand gerade sichtbar gemacht wird?"
-  - "Ist die Lösung auch ohne Maus, perfekte Verbindung oder großen Bildschirm verständlich?"
-  - "Sind sichtbare Texte klar, deutsch und nah an der betroffenen Handlung formuliert?"
+topicPath: ["javascript", "zugaenglichkeit-und-ux", "live-regions-fuer-statusmeldungen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Verstehe, wie dynamische Änderungen angekündigt werden können, ohne Nutzerinnen und Nutzer zu überfordern. Diese Seite behandelt das Thema als praktische Entscheidung im Webprojekt: Was sehen Nutzerinnen und Nutzer, was passiert technisch im Hintergrund und wie bleibt die Lösung später wartbar?

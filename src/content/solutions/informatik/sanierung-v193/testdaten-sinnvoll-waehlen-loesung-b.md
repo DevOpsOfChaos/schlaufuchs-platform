@@ -3,24 +3,12 @@ title: "Lösung: Testdaten sinnvoll wählen: Aufgabe B"
 description: "Musterlösung zur Aufgabe informatik-v193-008b im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "tests-und-randfaelle"
-  - "testdaten-sinnvoll-waehlen"
-  - "loesung-b"
+topicPath: ["sanierung-v193", "testdaten-sinnvoll-waehlen-loesung-b"]
 taskId: "informatik-v193-008b"
 relatedExercise: "informatik/sanierung-v193/testdaten-sinnvoll-waehlen-aufgabe-b"
-tags:
-  - "testdaten"
-  - "sinnvoll"
-  - "waehlen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-008b`
 
 Ausgangsauftrag: Übertrage das Thema Testdaten sinnvoll wählen auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

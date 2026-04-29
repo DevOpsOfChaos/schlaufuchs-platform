@@ -3,41 +3,15 @@ title: "CSS – Grid mit auto-fit und minmax als Kartenraster planen"
 description: "Verstehe, wie auto-fit, minmax und gap robuste Kartenraster erzeugen, ohne feste Spaltenzahlen für jede Bildschirmbreite zu pflegen."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "responsive-layouts"
-  - "grid-auto-fit-minmax-und-kartenraster-planen"
-learningGoals:
-  - "Du erklärst, warum feste Spaltenzahlen oft brüchig sind."
-  - "Du nutzt minmax als Mindestbreite und flexible Obergrenze."
-  - "Du prüfst Raster nach Inhalt statt nur nach Bildschirmgröße."
-practiceIdeas:
-  - "Prüfe ein kleines Beispiel zuerst fachlich und erst danach im Code."
-  - "Vergleiche eine schwache und eine bessere Umsetzung."
-  - "Teste die Entscheidung mit Tastatur, kleiner Breite und verständlichem sichtbarem Text."
-commonMistakes:
-  - "Für jede Breite eigene Media Queries zu stapeln."
-  - "Karten kleiner zu machen, als ihr Inhalt lesbar bleibt."
-  - "gap, Mindestbreite und Containerbreite getrennt zu betrachten."
-keyTakeaways:
-  - "Die sichtbare Bedeutung und die technische Struktur müssen zusammenpassen."
-  - "Robuste Weboberflächen entstehen durch kleine, bewusst geprüfte Entscheidungen."
-  - "Ein gutes Review fragt nach Nutzbarkeit, Semantik, Layout und Wartbarkeit."
-recognizeSignals:
-  - "Es geht um HTML- oder CSS-Entscheidungen, die nicht nur optisch wirken."
-  - "Eine Aufgabe fragt nach Bedienbarkeit, Lesbarkeit oder semantischer Zuordnung."
-  - "Der Code funktioniert scheinbar, aber die Nutzererfahrung ist noch unsicher."
-selfCheckPoints:
-  - "Kann ich die Entscheidung ohne Fachjargon erklären?"
-  - "Passt der sichtbare Text zur technischen Struktur?"
-  - "Bleibt die Lösung bei kleinen Breiten und Tastaturbedienung nutzbar?"
-tags:
-  - "web development"
-  - "css"
-  - "grid"
-  - "responsive"
-  - "layout"
+topicPath: ["css", "responsive-layouts", "grid-auto-fit-minmax-und-kartenraster-planen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
 ## Grundidee

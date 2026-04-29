@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Initialwert bewusst setzen"
 description: "Musterlösung zu Initialwert bewusst setzen mit Trennkante und Gegenprobe."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "programmierpraxis-v115"
-  - "variablen-und-zustaende"
-  - "initialwert-bewusst-setzen-v115"
+topicPath: ["programmierpraxis-v115", "variablen-und-zustaende", "initialwert-bewusst-setzen-v115"]
 taskId: "informatik-initialwert-bewusst-setzen-v115"
 relatedExercise: "informatik/programmierpraxis-v115/variablen-und-zustaende/initialwert-bewusst-setzen-v115"
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "programmierpraxis"
-  - "variablen und zustände"
-  - "lösung"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Initialwert bewusst setzen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

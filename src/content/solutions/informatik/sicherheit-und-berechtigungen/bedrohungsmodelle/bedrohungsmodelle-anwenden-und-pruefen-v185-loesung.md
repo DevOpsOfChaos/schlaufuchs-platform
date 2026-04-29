@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Bedrohungsmodelle – anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über bedrohungsmodelle."
-subject: informatik
+subject: "informatik"
 section: "Sicherheit und Berechtigungen"
-topicPath:
-  - "sicherheit-und-berechtigungen"
-  - "bedrohungsmodelle"
-  - "loesung"
-taskId: INF-V185-020-2
-relatedExercise: src/content/exercises/informatik/sicherheit-und-berechtigungen/bedrohungsmodelle/bedrohungsmodelle-anwenden-und-pruefen-v185.md
-tags:
-  - "informatik"
-  - "sicherheit-und-berechtigungen"
-  - "bedrohungsmodelle"
-  - "loesung"
+topicPath: ["sicherheit-und-berechtigungen", "bedrohungsmodelle", "bedrohungsmodelle-anwenden-und-pruefen-v185"]
+taskId: "INF-V185-020-2"
+relatedExercise: "src/content/exercises/informatik/sicherheit-und-berechtigungen/bedrohungsmodelle/bedrohungsmodelle-anwenden-und-pruefen-v185.md"
+tags: ["informatik", "Sicherheit und Berechtigungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

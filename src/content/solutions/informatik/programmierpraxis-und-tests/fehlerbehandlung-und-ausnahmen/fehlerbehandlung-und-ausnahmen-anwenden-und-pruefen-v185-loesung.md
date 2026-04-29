@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Fehlerbehandlung und Ausnahmen – anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über fehlerbehandlung und ausnahmen."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "fehlerbehandlung-und-ausnahmen"
-  - "loesung"
-taskId: INF-V185-006-2
-relatedExercise: src/content/exercises/informatik/programmierpraxis-und-tests/fehlerbehandlung-und-ausnahmen/fehlerbehandlung-und-ausnahmen-anwenden-und-pruefen-v185.md
-tags:
-  - "informatik"
-  - "programmierpraxis-und-tests"
-  - "fehlerbehandlung-und-ausnahmen"
-  - "loesung"
+topicPath: ["programmierpraxis-und-tests", "fehlerbehandlung-und-ausnahmen", "fehlerbehandlung-und-ausnahmen-anwenden-und-pruefen-v185"]
+taskId: "INF-V185-006-2"
+relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/fehlerbehandlung-und-ausnahmen/fehlerbehandlung-und-ausnahmen-anwenden-und-pruefen-v185.md"
+tags: ["informatik", "Programmierpraxis und Tests", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

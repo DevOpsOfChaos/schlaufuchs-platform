@@ -1,46 +1,19 @@
 ---
-title: trim, explode und implode in PHP vergleichen
-description: Verstehe, wie typische Stringfunktionen Leerraum entfernen, Texte zerlegen oder Listen wieder zusammensetzen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - trim-explode-und-implode-in-php-vergleichen
-learningGoals:
-  - Du unterscheidest trim, explode und implode nach ihrer Funktion.
-  - Du erkennst, wann ein String bleibt und wann ein Array entsteht.
-  - Du liest kleine Verarbeitungsketten mit diesen Funktionen ruhiger.
-practiceIdeas:
-  - Ordne einem Anwendungsfall die passende Funktion zu.
-  - Erkläre, wann aus einem String ein Array wird und wann aus einem Array wieder ein String.
-  - Lies eine Verarbeitungskette aus trim und explode Schritt für Schritt.
-commonMistakes:
-  - Zu glauben, alle drei Funktionen arbeiteten nur mit Strings und gäben auch immer Strings zurück.
-  - explode und implode zu vertauschen.
-  - trim als allgemeine „Bereinigung von allem“ zu lesen statt als Arbeit an Leerraum.
-keyTakeaways:
-  - trim entfernt Leerraum am Rand.
-  - explode zerlegt einen String in Teile.
-  - implode setzt Arrayelemente zu einem String zusammen.
-recognizeSignals:
-  - Es geht um Trennzeichen, Listen oder unerwünschte Leerzeichen.
-  - Ein Beispiel startet mit einem String und endet mit mehreren Werten.
-  - Du sollst begründen, welche Funktion in welchem Schritt passt.
-selfCheckPoints:
-  - Kann ich die Richtung von explode und implode benennen?
-  - Kann ich sagen, wann ein Array entsteht?
-  - Kann ich erklären, was trim genau entfernt?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - trim
-  - explode
+title: "trim, explode und implode in PHP vergleichen"
+description: "Verstehe, wie typische Stringfunktionen Leerraum entfernen, Texte zerlegen oder Listen wieder zusammensetzen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "trim-explode-und-implode-in-php-vergleichen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Viele PHP-Programme müssen Texte nicht nur anzeigen, sondern auch in eine brauchbare Form bringen. Drei einfache, aber sehr typische Werkzeuge dafür sind <code>trim</code>, <code>explode</code> und <code>implode</code>.

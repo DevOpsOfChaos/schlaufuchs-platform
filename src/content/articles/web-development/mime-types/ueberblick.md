@@ -1,36 +1,19 @@
 ---
 title: "MIME-Types"
 description: "MIME-Types geben an, welche Art von Inhalt übertragen wird, etwa HTML, JSON, CSS, JavaScript oder Bilder."
-subject: web-development
+subject: "web-development"
 section: "HTTP"
-topicPath:
-  - "mime-types"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst MIME-Types als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["mime-types", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird nur auf den Dateinamen geachtet. Entscheidend ist, was der Server tatsächlich als Content-Type sendet."
-keyTakeaways:
-  - "MIME-Types geben an, welche Art von Inhalt übertragen wird, etwa HTML, JSON, CSS, JavaScript oder Bilder."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um MIME-Types, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich MIME-Types in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "web"
-  - "http"
-  - "dateiformate"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTTP"]
 draft: false
 ---
-
 # MIME-Types
 
 MIME-Types geben an, welche Art von Inhalt übertragen wird, etwa HTML, JSON, CSS, JavaScript

@@ -3,23 +3,12 @@ title: "Lösung – Audit-Logs nach Nachvollziehbarkeit planen"
 description: "Musterlösung zu Audit-Logs nach Nachvollziehbarkeit planen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Sicherheit und Betrieb"
-topicPath:
-  - "sicherheit-und-betrieb"
-  - "zugriff-logs-und-geheimnisse"
-  - "v110-teil-4"
-  - "audit-logs-nach-nachvollziehbarkeit-planen"
+topicPath: ["sicherheit-und-betrieb", "zugriff-logs-und-geheimnisse", "v110-teil-4", "audit-logs-nach-nachvollziehbarkeit-planen"]
 taskId: "v110-informatik-audit-logs-nach-nachvollziehbarkeit-planen"
 relatedExercise: "informatik/sicherheit-und-betrieb/zugriff-logs-und-geheimnisse/v110-teil-4/audit-logs-nach-nachvollziehbarkeit-planen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "praxis"
-  - "sicherheit-und-betrieb"
-  - "zugriff-logs-und-geheimnisse"
-  - "audit-logs-nach-nachvollziehbarkeit-planen"
+tags: ["informatik", "Sicherheit und Betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Audit-Logs nach Nachvollziehbarkeit planen**.

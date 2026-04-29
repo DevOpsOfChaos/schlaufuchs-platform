@@ -3,39 +3,17 @@ title: "Git und Versionierung im Webprojekt"
 description: "Nutze Versionierung, um Änderungen an HTML, CSS, Skripten und Assets nachvollziehbar zu halten."
 subject: "web-development"
 section: "werkzeuge"
-topicPath: 
-  - "werkzeuge-und-projektarbeit"
-  - "git-versionierung"
-learningGoals: 
-  - "Änderungen kontrollieren ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Teile eine Webprojekt-Änderung in sinnvolle Commit-Schritte auf."
-  - "Formuliere bessere Commitnachrichten für fünf unklare Webänderungen."
-commonMistakes: 
-  - "Unzusammenhängende Änderungen landen in einem Commit."
-  - "Generierte Dateien und Quellen werden vermischt."
-  - "Commitnachrichten sagen nur „update“."
-keyTakeaways: 
-  - "Gute Versionierung macht die Absicht einer Änderung auch später noch lesbar."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "Gute Versionierung macht die Absicht einer Änderung auch später noch lesbar."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "git-und-versionierung-im-webprojekt"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags: 
-  - "git"
-  - "versionierung"
-  - "projektarbeit"
-  - "web"
-  - "web-development"
+tags: ["web-development", "werkzeuge"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Git und Versionierung im Webprojekt](/schlaufuchs-platform/images/web-development/sanierung-v187/git-und-versionierung-im-webprojekt.svg)
 
     Git und Versionierung im Webprojekt ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

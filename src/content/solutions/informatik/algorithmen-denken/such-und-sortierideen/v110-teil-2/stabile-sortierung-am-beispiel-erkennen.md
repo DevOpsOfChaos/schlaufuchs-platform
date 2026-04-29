@@ -3,23 +3,12 @@ title: "Lösung – Stabile Sortierung am Beispiel erkennen"
 description: "Musterlösung zu Stabile Sortierung am Beispiel erkennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Algorithmen"
-topicPath:
-  - "algorithmen-denken"
-  - "such-und-sortierideen"
-  - "v110-teil-2"
-  - "stabile-sortierung-am-beispiel-erkennen"
+topicPath: ["algorithmen-denken", "such-und-sortierideen", "v110-teil-2", "stabile-sortierung-am-beispiel-erkennen"]
 taskId: "v110-informatik-stabile-sortierung-am-beispiel-erkennen"
 relatedExercise: "informatik/algorithmen-denken/such-und-sortierideen/v110-teil-2/stabile-sortierung-am-beispiel-erkennen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "praxis"
-  - "algorithmen-denken"
-  - "such-und-sortierideen"
-  - "stabile-sortierung-am-beispiel-erkennen"
+tags: ["informatik", "Algorithmen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Stabile Sortierung am Beispiel erkennen**.

@@ -3,46 +3,17 @@ title: "Linux – Restore-Test als Teil des Backups planen"
 description: "Lerne Restore-Test als klar abgegrenztes Unterthema mit Beispiel, Prüfraster und Gegenprobe."
 subject: "linux"
 section: "Praxis"
-topicPath:
-  - "praxis"
-  - "backup-und-wiederherstellung"
-  - "restore-test"
-  - "restore-test-als-teil-des-backups-planen"
-learningGoals:
-  - "Du erklärst Restore-Test als eigenes Unterthema."
-  - "Du grenzt das Thema von einem breiteren Sammelbereich ab."
-  - "Du formulierst eine konkrete Gegenprobe."
-practiceIdeas:
-  - "Erstelle ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Prüfe, welche Nachbarseite nicht gemeint ist."
-  - "Übertrage das Prüfraster auf einen zweiten Fall."
-commonMistakes:
-  - "Das Thema zu breit einordnen und die Trennkante verlieren."
-  - "Nur einen Begriff nennen, ohne Beispiel oder Gegenprobe."
-  - "Aufgabe und Wissensseite sprachlich auseinanderlaufen lassen."
-keyTakeaways:
-  - "Restore-Test wird durch Einordnung, Trennung und Gegenprobe stabil."
-  - "Feinere Unterthemen verbessern Orientierung und vermeiden Doppelungen."
-  - "Eine gute Lösung nennt auch, was nicht gemeint ist."
-recognizeSignals:
-  - "Die Aufgabe enthält eine kleine, aber entscheidende Unterscheidung."
-  - "Eine allgemeine Antwort wäre zu ungenau."
-  - "Ein Prüfschritt kann die Einordnung bestätigen oder widerlegen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich das Nachbarthema abgrenzen?"
-  - "Ist meine Gegenprobe konkret?"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "restore-test"
-  - "praxis"
-  - "backup-und-wiederherstellung"
+topicPath: ["praxis", "backup-und-wiederherstellung", "restore-test", "restore-test-als-teil-des-backups-planen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["linux", "Praxis"]
 draft: false
 ---
-
 ## Grundidee
 
 **Restore-Test** ist ein kleines, bewusst abgegrenztes Unterthema. Lerne Restore-Test als klar abgegrenztes Unterthema mit Beispiel, Prüfraster und Gegenprobe. Die Seite verhindert, dass mehrere Nachbarfragen in einem breiten Sammelbegriff verschwimmen.

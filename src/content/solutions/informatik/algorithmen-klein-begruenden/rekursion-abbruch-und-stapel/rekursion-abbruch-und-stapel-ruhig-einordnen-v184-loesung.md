@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Rekursion, Abbruch und Stapel – Ruhig einordnen"
 description: "Musterlösung zur Aufgabe über Rekursion, Abbruch und Stapel."
-subject: informatik
+subject: "informatik"
 section: "algorithmen-klein-begruenden"
-topicPath:
-  - "algorithmen-klein-begruenden"
-  - "rekursion-abbruch-und-stapel"
-taskId: INF-REKURSION-ABBRUCH-UND-STAPEL-841
-relatedExercise: src/content/exercises/informatik/algorithmen-klein-begruenden/rekursion-abbruch-und-stapel/rekursion-abbruch-und-stapel-ruhig-einordnen-v184.md
-tags:
-  - "informatik"
-  - "rekursion"
-  - "abbruch"
-  - "loesung"
+topicPath: ["algorithmen-klein-begruenden", "rekursion-abbruch-und-stapel", "rekursion-abbruch-und-stapel-ruhig-einordnen-v184"]
+taskId: "INF-REKURSION-ABBRUCH-UND-STAPEL-841"
+relatedExercise: "src/content/exercises/informatik/algorithmen-klein-begruenden/rekursion-abbruch-und-stapel/rekursion-abbruch-und-stapel-ruhig-einordnen-v184.md"
+tags: ["informatik", "algorithmen-klein-begruenden", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

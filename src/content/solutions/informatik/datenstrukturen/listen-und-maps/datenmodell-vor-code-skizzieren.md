@@ -3,21 +3,12 @@ title: "Lösung – Datenmodell vor Code skizzieren"
 description: "Musterlösung zu datenmodell vor code skizzieren mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenstrukturen"
-  - "listen-und-maps"
-  - "datenmodell-vor-code-skizzieren"
+topicPath: ["datenstrukturen", "listen-und-maps", "datenmodell-vor-code-skizzieren"]
 taskId: "v112-informatik-datenmodell-vor-code-skizzieren"
 relatedExercise: "informatik/datenstrukturen/listen-und-maps/datenmodell-vor-code-skizzieren"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "datenstrukturen"
-  - "datenmodell-vor-code-skizzieren"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Listen und Maps**.

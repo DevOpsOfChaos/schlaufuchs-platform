@@ -3,32 +3,17 @@ title: "Näherungsverfahren"
 description: "Allgemeiner Überblick über Näherungsverfahren und iterative Annäherung an Lösungen."
 subject: "mathematik"
 section: "Näherung"
-topicPath:
-  - "naeherungsverfahren"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["naeherungsverfahren", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird das Verfahren beendet, sobald eine Zahl plausibel aussieht. Ohne Fehlerabschätzung bleibt unklar, wie zuverlässig sie ist."
-keyTakeaways:
-  - "Näherungsverfahren machen schwierige Probleme praktisch lösbar. Entscheidend sind Kontrolle, Abbruchregel und Verständnis der Genauigkeit."
-  - "Eine Näherung ist nicht automatisch ungenau. Sie kann sehr zuverlässig sein, wenn Fehler und Grenzen bekannt sind."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "mathematik"
-  - "näherung"
-  - "verfahren"
-  - "modellieren"
+tags: ["mathematik", "Näherung"]
 draft: false
 ---
-
 # Näherungsverfahren
 
 Ein Näherungsverfahren sucht eine Lösung nicht in einem einzigen exakten Schritt, sondern nähert sich ihr schrittweise an.

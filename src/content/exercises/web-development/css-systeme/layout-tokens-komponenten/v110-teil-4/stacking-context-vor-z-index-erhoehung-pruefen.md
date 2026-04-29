@@ -3,35 +3,15 @@ title: "Aufgabe – Stacking Context vor z-index-Erhöhung prüfen"
 description: "Übe Stacking Context vor z-index-Erhöhung prüfen mit Einordnung, Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css-systeme"
-  - "layout-tokens-komponenten"
-  - "v110-teil-4"
-  - "stacking-context-vor-z-index-erhoehung-pruefen"
+topicPath: ["css-systeme", "layout-tokens-komponenten", "v110-teil-4", "stacking-context-vor-z-index-erhoehung-pruefen"]
 taskId: "v110-web-development-stacking-context-vor-z-index-erhoehung-pruefen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "css-systeme"
-  - "layout-tokens-komponenten"
-  - "stacking-context-vor-z-index-erhoehung-pruefen"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Vergleiche das Thema mit einem Nachbarthema und nenne die Trennkante."
-reflectionPrompt: "Welche kleine Trennkante macht Stacking Context vor z-index-Erhöhung prüfen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Stacking Context vor z-index-Erhöhung prüfen**.

@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Oszilloskop und Tastkopf"
 description: "Allgemeiner Überblick über Oszilloskopmessungen, Tastkopf, Masseklemme und Signalinterpretation."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - praxis
-  - oszilloskop-und-tastkopf
-  - ueberblick
-learningGoals:
-  - "Du erklärst die Grundidee von Oszilloskop und Tastkopf in eigenen Worten."
-  - "Du ordnest typische Begriffe und Fehlerquellen ruhig ein."
-  - "Du erkennst, welche Detailfragen zu diesem Themenbereich gehören."
-practiceIdeas:
-  - "Skizziere den Zusammenhang als kleines Signal-, Strom- oder Ablaufbild."
-  - "Notiere typische Fehlerquellen und prüfe, ob sie elektrisch, logisch oder organisatorisch sind."
-commonMistakes:
-  - "Die Masseklemme beliebig anzusetzen."
-  - "AC- und DC-Kopplung nicht zu unterscheiden."
-  - "Ein instabiles Triggerbild als Bauteilfehler zu deuten."
-keyTakeaways:
-  - "Oszilloskopmessungen brauchen einen sicheren Bezug."
-  - "Tastkopfeinstellung und Bandbreite beeinflussen das Bild."
-  - "Trigger und Zeitbasis bestimmen, wie ruhig ein Signal lesbar wird."
-recognizeSignals:
-  - "Du brauchst zuerst Orientierung, bevor du eine konkrete Schaltung oder Aufgabe bewertest."
-  - "Mehrere Einzelfälle wirken ähnlich, aber der gemeinsame fachliche Rahmen fehlt."
-selfCheckPoints:
-  - "Kann ich den Zweck des Themas ohne Formel auswendig zu lernen erklären?"
-  - "Kann ich typische Fehlerquellen in der richtigen Reihenfolge prüfen?"
-level: einfach
-tags:
-  - elektrotechnik
-  - oszilloskop-und-tastkopf
-  - praxis
+topicPath: ["praxis", "oszilloskop-und-tastkopf", "ueberblick", "grundlagen-oszilloskop-und-tastkopf"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Praxis"]
 draft: false
 ---
-
 ![Signal mit Bezug und Tastkopf](/schlaufuchs-platform/images/overviews/v181/oszilloskop-und-tastkopf.svg)
 
 ## Überblick

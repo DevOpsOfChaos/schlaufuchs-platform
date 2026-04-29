@@ -3,20 +3,12 @@ title: "Lösung – RC-Zeitverhalten qualitativ deuten"
 description: "Musterlösung zu RC-Zeitverhalten qualitativ deuten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "kondensatoren"
-  - "rc-zeitverhalten-qualitativ-deuten-v113"
+topicPath: ["daten-und-signale", "kondensatoren", "rc-zeitverhalten-qualitativ-deuten-v113"]
 taskId: "v113-elektrotechnik-rc-zeitverhalten-qualitativ-deuten-v113"
 relatedExercise: "elektrotechnik/daten-und-signale/kondensatoren/rc-zeitverhalten-qualitativ-deuten-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "rc-zeitverhalten-qualitativ-deuten-v113"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **RC-Zeitverhalten qualitativ deuten**.

@@ -3,25 +3,12 @@ title: "Lösung: Fokuszustand sichtbar machen: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-development-v194-006b im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "interaktion-und-fokus"
-  - "fokuszustand-sichtbar-machen"
-  - "loesung-b"
-
+topicPath: ["sanierung-v194", "fokuszustand-sichtbar-machen-loesung-b"]
 taskId: "web-development-v194-006b"
 relatedExercise: "web-development/sanierung-v194/fokuszustand-sichtbar-machen-aufgabe-b"
-tags:
-  - "fokuszustand"
-  - "sichtbar"
-  - "machen"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-006b`
 
 Ausgangsauftrag: Übertrage das Thema Fokuszustand sichtbar machen auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

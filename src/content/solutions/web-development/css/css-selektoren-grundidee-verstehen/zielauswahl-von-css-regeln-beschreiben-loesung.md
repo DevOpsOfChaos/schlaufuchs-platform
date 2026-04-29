@@ -1,24 +1,14 @@
 ---
-title: Musterlösung – Zielauswahl von CSS-Regeln beschreiben
-description: Musterlösung zur Aufgabe WEB-CSS-SEL-001.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - selektoren
-  - css-selektoren-grundidee-verstehen
-  - zielauswahl-von-css-regeln-beschreiben-loesung
-taskId: WEB-CSS-SEL-001
-relatedExercise: src/content/exercises/web-development/css/css-selektoren-grundidee-verstehen/zielauswahl-von-css-regeln-beschreiben.md
-tags:
-  - web-development
-  - css
-  - selektoren
-  - loesung
-  - task-id
+title: "Musterlösung – Zielauswahl von CSS-Regeln beschreiben"
+description: "Musterlösung zur Aufgabe WEB-CSS-SEL-001."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "css-selektoren-grundidee-verstehen", "zielauswahl-von-css-regeln-beschreiben"]
+taskId: "WEB-CSS-SEL-001"
+relatedExercise: "src/content/exercises/web-development/css/css-selektoren-grundidee-verstehen/zielauswahl-von-css-regeln-beschreiben.md"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Regel deuten
 
 Die Regel trifft alle <code>p</code>-Elemente im Dokument, weil der Typselektor <code>p</code> allgemein auf jeden Absatz dieses Typs wirkt.

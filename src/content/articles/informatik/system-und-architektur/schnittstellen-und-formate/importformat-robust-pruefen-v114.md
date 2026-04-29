@@ -1,46 +1,19 @@
 ---
-title: Importformat robust prüfen
-description: Fremde Daten nicht blind übernehmen
-subject: informatik
-section: Feinstruktur Informatik
-topicPath:
-- system-und-architektur
-- schnittstellen-und-formate
-- importformat-robust-pruefen-v114
-learningGoals:
-- Du erklärst Importformat robust prüfen als klar abgegrenztes Unterthema.
-- Du erkennst die typische Verwechslung und formulierst eine passende Prüffrage.
-- Du nutzt eine Gegenprobe, statt dich nur auf den Kapitelbegriff zu verlassen.
-practiceIdeas:
-- Wende die Prüffrage auf ein zweites Beispiel an.
-- Notiere zuerst Kontext, Entscheidung und Gegenprobe.
-- Grenze das Thema bewusst von einem Nachbarthema ab.
-commonMistakes:
-- Parsingfehler werden als selten ignoriert.
-- Das Thema wird zu breit einsortiert und verliert dadurch seine konkrete Trennkante.
-- Eine Lösung wird akzeptiert, ohne eine Gegenprobe zu prüfen.
-keyTakeaways:
-- Importformat robust prüfen wird verständlich, wenn du die kleine Entscheidung im Beispiel sauber benennst.
-- Die Prüffrage hilft stärker als ein breiter Sammelbegriff.
-- Aufgaben bleiben übersichtlich, wenn das Unterthema eng geführt wird.
-recognizeSignals:
-- Eine Aufgabe enthält eine typische Verwechslung.
-- Ein Begriff wirkt bekannt, aber der konkrete Prüfschritt fehlt.
-- Die Lösung muss begründen, warum ein Nachbarthema nicht passt.
-selfCheckPoints:
-- Kann ich die Trennkante in einem Satz nennen?
-- Kann ich die Prüffrage auf das Beispiel anwenden?
-- Kann ich eine sinnvolle Gegenprobe formulieren?
-tags:
-- informatik
-- v114
-- feinstruktur
-- system-und-architektur
-- schnittstellen-und-formate
-level: fortgeschritten
+title: "Importformat robust prüfen"
+description: "Fremde Daten nicht blind übernehmen"
+subject: "informatik"
+section: "Feinstruktur Informatik"
+topicPath: ["system-und-architektur", "schnittstellen-und-formate", "importformat-robust-pruefen-v114"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
+tags: ["informatik", "Feinstruktur Informatik"]
 draft: false
 ---
-
 ## Grundidee
 
 **Importformat robust prüfen** ist bewusst als kleines Unterthema angelegt. Fremde Daten nicht blind übernehmen. Dadurch bleibt die Seite auffindbar und vermischt sich nicht mit einem übergroßen Sammelkapitel.

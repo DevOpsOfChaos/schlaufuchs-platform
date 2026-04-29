@@ -1,29 +1,17 @@
 ---
 title: "Nebenläufigkeit und geteilte Zustände – Ruhig einordnen"
 description: "Übe, Nebenläufigkeit und geteilte Zustände fachlich einzuordnen."
-subject: informatik
+subject: "informatik"
 section: "programmierpraxis-und-tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "nebenlaeufigkeit-und-geteilte-zustaende"
-taskId: INF-NEBENLAEUFIGKEIT-UND-GETEILTE-ZUSTAENDE-841
-tags:
-  - "informatik"
-  - "nebenlaeufigkeit"
-  - "zustand"
-hintPoints:
-  - "Beginne mit der allgemeinen Rolle des Themas."
-  - "Trenne Begriff, Beispiel und Sonderfall sauber."
-selfCheckPoints:
-  - "Ich kann meine Zuordnung begründen."
-  - "Ich vermeide eine reine Einzelfallantwort."
-transferIdeas:
-  - "Übertrage die Idee auf ein anderes kleines Informatikbeispiel."
-reflectionPrompt: "Welche Annahme musste ich bewusst prüfen?"
-level: fortgeschritten
+topicPath: ["programmierpraxis-und-tests", "nebenlaeufigkeit-und-geteilte-zustaende", "nebenlaeufigkeit-und-geteilte-zustaende-ruhig-einordnen-v184"]
+taskId: "INF-NEBENLAEUFIGKEIT-UND-GETEILTE-ZUSTAENDE-841"
+tags: ["informatik", "programmierpraxis-und-tests", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "fortgeschritten"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Nebenläufigkeit und geteilte Zustände**. Sie soll nicht nur eine einzelne Situation lösen, sondern das Thema fachlich einordnen.
 
 ## Lernziel

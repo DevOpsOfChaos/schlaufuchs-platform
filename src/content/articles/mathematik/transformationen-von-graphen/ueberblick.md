@@ -1,37 +1,19 @@
 ---
 title: "Transformationen von Graphen"
 description: "Allgemeiner Überblick über Verschiebung, Streckung, Spiegelung und ihre Wirkung auf Funktionsgraphen."
-subject: mathematik
+subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "transformationen-von-graphen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Transformationen von Graphen als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["transformationen-von-graphen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Bei horizontalen Verschiebungen wird das Vorzeichen oft falsch gelesen."
-keyTakeaways:
-  - "Graphen können aus Grundformen entstehen."
-  - "Parameter beeinflussen Lage, Breite und Spiegelung."
-  - "Horizontale Änderungen werden leicht falsch herum gedeutet."
-recognizeSignals:
-  - "Eine Funktion wirkt wie eine verschobene Grundfunktion."
-  - "Parameter sollen am Graphen erkannt werden."
-selfCheckPoints:
-  - "Kann ich Transformationen von Graphen in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "funktionen"
-  - "graphen"
-  - "transformation"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
-
 # Transformationen von Graphen
 
 Transformationen verändern den Graphen einer Funktion systematisch: verschieben, strecken, stauchen oder spiegeln.

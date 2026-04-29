@@ -1,15 +1,14 @@
 ---
-title: Winkelbeziehungen ordnen – Lösung A
-description: Musterlösung zu Winkelbeziehungen ordnen mit Kontrolle.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Winkelbeziehungen ordnen – Lösung A"
+description: "Musterlösung zu Winkelbeziehungen ordnen mit Kontrolle."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "geometrie-messen-und-begruenden", "winkelbeziehungen-ordnen"]
 taskId: "mat-v196-winkelbeziehungen-ordnen-a"
 relatedExercise: "mathematik/sanierung-v196/winkelbeziehungen-ordnen-aufgabe-a"
 tags: ["mathematik", "v196", "geometrie-messen-und-begruenden", "winkelbeziehungen-ordnen"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine passende Lösung zu dieser Aufgabe muss nicht exakt dieselben Zahlen oder Beispiele verwenden. Entscheidend ist der saubere Aufbau.

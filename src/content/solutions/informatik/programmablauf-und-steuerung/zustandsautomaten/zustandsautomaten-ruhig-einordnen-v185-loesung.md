@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Zustandsautomaten – ruhig einordnen"
 description: "Musterlösung zur Aufgabe über zustandsautomaten."
-subject: informatik
+subject: "informatik"
 section: "Programmablauf und Steuerung"
-topicPath:
-  - "programmablauf-und-steuerung"
-  - "zustandsautomaten"
-  - "loesung"
-taskId: INF-V185-003-1
-relatedExercise: src/content/exercises/informatik/programmablauf-und-steuerung/zustandsautomaten/zustandsautomaten-ruhig-einordnen-v185.md
-tags:
-  - "informatik"
-  - "programmablauf-und-steuerung"
-  - "zustandsautomaten"
-  - "loesung"
+topicPath: ["programmablauf-und-steuerung", "zustandsautomaten", "zustandsautomaten-ruhig-einordnen-v185"]
+taskId: "INF-V185-003-1"
+relatedExercise: "src/content/exercises/informatik/programmablauf-und-steuerung/zustandsautomaten/zustandsautomaten-ruhig-einordnen-v185.md"
+tags: ["informatik", "Programmablauf und Steuerung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

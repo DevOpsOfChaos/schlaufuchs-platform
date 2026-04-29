@@ -3,39 +3,17 @@ title: "Web-Sicherheit-Grundlagen"
 description: "Erkenne einfache Sicherheitsfragen im Frontend, ohne sie auf Panik oder Spezialwissen zu reduzieren."
 subject: "web-development"
 section: "qualitaet"
-topicPath: 
-  - "qualitaet-und-zugaenglichkeit"
-  - "sicherheit"
-learningGoals: 
-  - "Sorgfältiger Umgang mit Eingaben und Daten ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Prüfe eine Projektidee auf drei einfache Sicherheitsrisiken im Frontend."
-  - "Entscheide bei mehreren Datenarten, ob sie öffentlich, intern oder geheim behandelt werden müssen."
-commonMistakes: 
-  - "Tokens oder Passwörter werden im Frontend abgelegt."
-  - "Eingaben werden ungeprüft als HTML ausgegeben."
-  - "Sicherheitsfragen werden erst nach dem Deployment betrachtet."
-keyTakeaways: 
-  - "Sicherheit beginnt bei klaren Grenzen: Wer liefert Daten, wer prüft sie, wer darf sie sehen?"
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "Sicherheit beginnt bei klaren Grenzen: Wer liefert Daten, wer prüft sie, wer darf sie sehen?"
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "web-sicherheit-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags: 
-  - "security"
-  - "sicherheit"
-  - "web"
-  - "daten"
-  - "web-development"
+tags: ["web-development", "qualitaet"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Web-Sicherheit-Grundlagen](/schlaufuchs-platform/images/web-development/sanierung-v187/web-sicherheit-grundlagen.svg)
 
     Web-Sicherheit-Grundlagen ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

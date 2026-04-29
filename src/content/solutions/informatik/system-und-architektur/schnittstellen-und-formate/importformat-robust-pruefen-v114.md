@@ -1,23 +1,14 @@
 ---
-title: Lösung – Importformat robust prüfen
-description: Musterlösung zur Aufgabe über Importformat robust prüfen.
-subject: informatik
-section: Feinstruktur Informatik
-topicPath:
-- system-und-architektur
-- schnittstellen-und-formate
-- importformat-robust-pruefen-v114
-taskId: v114-informatik-importformat-robust-pruefen-v114
-relatedExercise: informatik/system-und-architektur/schnittstellen-und-formate/importformat-robust-pruefen-v114
-tags:
-- informatik
-- v114
-- loesung
-- system-und-architektur
-- schnittstellen-und-formate
+title: "Lösung – Importformat robust prüfen"
+description: "Musterlösung zur Aufgabe über Importformat robust prüfen."
+subject: "informatik"
+section: "Feinstruktur Informatik"
+topicPath: ["system-und-architektur", "schnittstellen-und-formate", "importformat-robust-pruefen-v114"]
+taskId: "v114-informatik-importformat-robust-pruefen-v114"
+relatedExercise: "informatik/system-und-architektur/schnittstellen-und-formate/importformat-robust-pruefen-v114"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

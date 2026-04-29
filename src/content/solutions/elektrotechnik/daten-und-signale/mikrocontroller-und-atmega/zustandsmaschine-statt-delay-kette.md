@@ -1,24 +1,14 @@
 ---
 title: "Lösung – Delay-Ablauf in eine Zustandsmaschine übersetzen"
 description: "Musterlösung zur Beschreibung eines LED-Ablaufs als Zustandsmaschine."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - zustandsmaschine-statt-delay-kette
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "zustandsmaschine-statt-delay-kette"]
 taskId: "et-mc-zustandsmaschine-delay"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/zustandsmaschine-statt-delay-kette"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - zustandsmaschine
-  - softtimer
-  - delay
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
-
 ## Lösung zu Aufgabe 1
 
 Mögliche Zustände sind <code>AUS_WARTET</code>, <code>LED_AN</code> und <code>LED_BLINKT</code>. Danach geht das System wieder nach <code>AUS_WARTET</code> zurück.

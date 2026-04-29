@@ -3,23 +3,12 @@ title: "Lösung – :focus-visible für Tastaturfokus nutzen"
 description: "Musterlösung zu :focus-visible für Tastaturfokus nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css-systeme"
-  - "layout-tokens-komponenten"
-  - "v110-teil-3"
-  - "focus-visible-fuer-tastaturfokus-nutzen"
+topicPath: ["css-systeme", "layout-tokens-komponenten", "v110-teil-3", "focus-visible-fuer-tastaturfokus-nutzen"]
 taskId: "v110-web-development-focus-visible-fuer-tastaturfokus-nutzen"
 relatedExercise: "web-development/css-systeme/layout-tokens-komponenten/v110-teil-3/focus-visible-fuer-tastaturfokus-nutzen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "css-systeme"
-  - "layout-tokens-komponenten"
-  - "focus-visible-fuer-tastaturfokus-nutzen"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **:focus-visible für Tastaturfokus nutzen**.

@@ -3,41 +3,15 @@ title: "HTML – input type, autocomplete und mobile Tastaturen sinnvoll wählen
 description: "Verstehe, wie Eingabetypen, autocomplete und Tastaturlayouts Formulare verständlicher und schneller bedienbar machen."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "formulare-und-eingaben"
-  - "input-type-autocomplete-und-mobile-tastaturen"
-learningGoals:
-  - "Du erklärst, warum input type mehr ist als reine Optik."
-  - "Du unterscheidest Validierung, Tastaturlayout und Autovervollständigung."
-  - "Du planst Formularfelder so, dass sie auf Mobilgeräten leichter ausfüllbar sind."
-practiceIdeas:
-  - "Prüfe ein kleines Beispiel zuerst fachlich und erst danach im Code."
-  - "Vergleiche eine schwache und eine bessere Umsetzung."
-  - "Teste die Entscheidung mit Tastatur, kleiner Breite und verständlichem sichtbarem Text."
-commonMistakes:
-  - "type=\"text\" für jedes Feld zu verwenden."
-  - "autocomplete wegzulassen, obwohl wiederkehrende Daten gefragt sind."
-  - "Eingabetyp und sichtbare Beschriftung nicht zusammen zu prüfen."
-keyTakeaways:
-  - "Die sichtbare Bedeutung und die technische Struktur müssen zusammenpassen."
-  - "Robuste Weboberflächen entstehen durch kleine, bewusst geprüfte Entscheidungen."
-  - "Ein gutes Review fragt nach Nutzbarkeit, Semantik, Layout und Wartbarkeit."
-recognizeSignals:
-  - "Es geht um HTML- oder CSS-Entscheidungen, die nicht nur optisch wirken."
-  - "Eine Aufgabe fragt nach Bedienbarkeit, Lesbarkeit oder semantischer Zuordnung."
-  - "Der Code funktioniert scheinbar, aber die Nutzererfahrung ist noch unsicher."
-selfCheckPoints:
-  - "Kann ich die Entscheidung ohne Fachjargon erklären?"
-  - "Passt der sichtbare Text zur technischen Struktur?"
-  - "Bleibt die Lösung bei kleinen Breiten und Tastaturbedienung nutzbar?"
-tags:
-  - "web development"
-  - "html"
-  - "formulare"
-  - "autocomplete"
-  - "mobile"
+topicPath: ["html", "formulare-und-eingaben", "input-type-autocomplete-und-mobile-tastaturen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "HTML"]
 draft: false
 ---
 ## Grundidee

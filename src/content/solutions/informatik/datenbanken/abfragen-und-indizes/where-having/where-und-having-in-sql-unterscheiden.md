@@ -3,23 +3,12 @@ title: "Lösung – WHERE und HAVING in SQL unterscheiden"
 description: "Musterlösung zu WHERE und HAVING mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "informatik"
 section: "Datenbanken"
-topicPath:
-  - "datenbanken"
-  - "abfragen-und-indizes"
-  - "where-having"
-  - "where-und-having-in-sql-unterscheiden"
+topicPath: ["datenbanken", "abfragen-und-indizes", "where-having", "where-und-having-in-sql-unterscheiden"]
 taskId: "v108-informatik-where-und-having-in-sql-unterscheiden"
 relatedExercise: "informatik/datenbanken/abfragen-und-indizes/where-having/where-und-having-in-sql-unterscheiden"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "datenbanken"
-  - "abfragen-und-indizes"
-  - "where und having"
+tags: ["informatik", "Datenbanken", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **WHERE und HAVING**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

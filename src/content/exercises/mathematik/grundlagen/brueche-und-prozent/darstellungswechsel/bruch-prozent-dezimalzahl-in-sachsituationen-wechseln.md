@@ -3,35 +3,15 @@ title: "Aufgabe – Bruch, Prozent und Dezimalzahl in Sachsituationen wechseln"
 description: "Übe Darstellungswechsel bei Anteilen mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Grundlagen"
-topicPath:
-  - "grundlagen"
-  - "brueche-und-prozent"
-  - "darstellungswechsel"
-  - "bruch-prozent-dezimalzahl-in-sachsituationen-wechseln"
+topicPath: ["grundlagen", "brueche-und-prozent", "darstellungswechsel", "bruch-prozent-dezimalzahl-in-sachsituationen-wechseln"]
 taskId: "v107-mathematik-bruch-prozent-dezimalzahl-in-sachsituationen-wechseln"
-tags:
-  - "mathematik"
-  - "rechnen"
-  - "modellieren"
-  - "darstellungswechsel bei anteilen"
-  - "grundlagen"
-  - "brueche-und-prozent"
-hintPoints:
-  - "Grenze das Unterthema zuerst ein."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Formuliere eine kleine Gegenprobe."
-selfCheckPoints:
-  - "Ist das Unterthema klar benannt?"
-  - "Ist die Lösung nicht zu breit formuliert?"
-  - "Ist die Gegenprobe konkret?"
-transferIdeas:
-  - "Ändere einen Randwert und prüfe die Begründung erneut."
-  - "Erkläre die Lösung einmal als Merksatz und einmal am Beispiel."
-reflectionPrompt: "Warum hilft dir das kleine Unterthema „Darstellungswechsel bei Anteilen“ mehr als ein breiter Sammelbegriff?"
+tags: ["mathematik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite ein kleines Szenario zu **Darstellungswechsel bei Anteilen**.

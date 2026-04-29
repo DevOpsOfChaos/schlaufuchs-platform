@@ -3,23 +3,12 @@ title: "Lösung – Größenordnung vor Detailrechnung prüfen"
 description: "Musterlösung zu Größenordnung vor Detailrechnung prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Grundlagen"
-topicPath:
-  - "rechnen-und-schaetzen"
-  - "kopfrechnen-und-plausibilitaet"
-  - "v110-teil-2"
-  - "groessenordnung-vor-detailrechnung-pruefen"
+topicPath: ["rechnen-und-schaetzen", "kopfrechnen-und-plausibilitaet", "v110-teil-2", "groessenordnung-vor-detailrechnung-pruefen"]
 taskId: "v110-mathematik-groessenordnung-vor-detailrechnung-pruefen"
 relatedExercise: "mathematik/rechnen-und-schaetzen/kopfrechnen-und-plausibilitaet/v110-teil-2/groessenordnung-vor-detailrechnung-pruefen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfung"
-  - "rechnen-und-schaetzen"
-  - "kopfrechnen-und-plausibilitaet"
-  - "groessenordnung-vor-detailrechnung-pruefen"
+tags: ["mathematik", "Grundlagen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Größenordnung vor Detailrechnung prüfen**.

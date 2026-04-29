@@ -3,34 +3,15 @@ title: "Aufgabe – Web-Projektpraxis – Linting, Formatierung und Code Review 
 description: "Formuliere eine kleine Review-Checkliste für eine Webänderung: Lesbarkeit, Barrierefreiheit, Fehlerzustände und Build-Prüfung."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "struktur-und-qualitaet"
-  - "linting-formatierung-und-code-review-nutzen"
+topicPath: ["projektpraxis", "struktur-und-qualitaet", "linting-formatierung-und-code-review-nutzen"]
 taskId: "web-v100-linting-formatierung-und-code-review-nutzen"
-tags:
-  - "web development"
-  - "projektpraxis"
-  - "linting"
-  - "formatierung"
-  - "review"
-  - "aufgabe"
-hintPoints:
-  - "Lies zuerst die sichtbare Seitensituation, nicht nur einzelne Codezeilen."
-  - "Trenne Ursache, Entscheidung und erwartete Wirkung."
-  - "Denke mindestens einen Fehler-, Lade- oder Randfall mit."
-selfCheckPoints:
-  - "Ist die Entscheidung fachlich begründet?"
-  - "Ist klar, welche Nutzererfahrung verbessert wird?"
-  - "Wird der passende Browser- oder Projektbereich geprüft?"
-transferIdeas:
-  - "Übertrage die Idee auf eine kleine Lernkarte, ein Formular oder eine Navigation."
-  - "Beschreibe eine schwache Variante, die technisch funktioniert, aber didaktisch oder praktisch riskant bleibt."
-reflectionPrompt: "Welche Prüfung hätte den häufigsten Fehler bei dieser Aufgabe am frühesten sichtbar gemacht?"
+tags: ["web-development", "Projektpraxis", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Formuliere eine kleine Review-Checkliste für eine Webänderung: Lesbarkeit, Barrierefreiheit, Fehlerzustände und Build-Prüfung.

@@ -1,37 +1,19 @@
 ---
 title: "REST-Grundlagen"
 description: "Überblick über REST als Stil für ressourcenorientierte HTTP-Schnittstellen."
-subject: informatik
+subject: "informatik"
 section: "Schnittstellen"
-topicPath:
-  - "rest-grundlagen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst REST-Grundlagen als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["rest-grundlagen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "HTTP-Methoden werden oft ignoriert und alle Aktionen als POST-Endpunkte modelliert."
-keyTakeaways:
-  - "REST denkt in Ressourcen."
-  - "HTTP-Methoden und Statuscodes tragen Bedeutung."
-  - "Klare API-Struktur erleichtert Nutzung."
-recognizeSignals:
-  - "Eine Schnittstelle nutzt URLs, HTTP-Methoden und JSON."
-  - "Endpunkte sollen konsistenter werden."
-selfCheckPoints:
-  - "Kann ich REST-Grundlagen in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "api"
-  - "rest"
-  - "http"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Schnittstellen"]
 draft: false
 ---
-
 # REST-Grundlagen
 
 REST ist ein Architekturstil für Schnittstellen, der Ressourcen in den Mittelpunkt stellt. Ressourcen werden über URLs adressiert und mit HTTP-Methoden bearbeitet.

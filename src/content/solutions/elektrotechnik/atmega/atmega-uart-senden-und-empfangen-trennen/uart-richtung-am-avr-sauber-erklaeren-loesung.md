@@ -1,24 +1,14 @@
 ---
-title: Musterlösung – UART-Richtung am AVR sauber erklären
-description: Musterlösung zur Aufgabe ET-ATMEGA-UART-305.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - uart-und-serielle-schnittstellen
-  - atmega-uart-senden-und-empfangen-trennen
-  - uart-richtung-am-avr-sauber-erklaeren-loesung
-taskId: ET-ATMEGA-UART-305
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-uart-senden-und-empfangen-trennen/uart-richtung-am-avr-sauber-erklaeren.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
-  - uart
+title: "Musterlösung – UART-Richtung am AVR sauber erklären"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-UART-305."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-uart-senden-und-empfangen-trennen", "uart-richtung-am-avr-sauber-erklaeren"]
+taskId: "ET-ATMEGA-UART-305"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-uart-senden-und-empfangen-trennen/uart-richtung-am-avr-sauber-erklaeren.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

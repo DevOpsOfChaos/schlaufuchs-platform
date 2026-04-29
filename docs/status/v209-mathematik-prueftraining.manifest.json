@@ -1,0 +1,1457 @@
+{
+  "package": "schlaufuchs_v209_mathematik_prueftraining_kumulativ.zip",
+  "base": "schlaufuchs_v208_daten_signale_telemetrie_echtzeit_kumulativ.zip",
+  "created": "2026-04-29",
+  "block": "v209",
+  "subject": "mathematik",
+  "counts": {
+    "articles": 80,
+    "exercises": 160,
+    "solutions": 160,
+    "svgs": 80,
+    "docs": 2,
+    "manifest": 1
+  },
+  "records": [
+    {
+      "title": "Überschlag und Größenordnung",
+      "section": "rechenstrategien",
+      "topicPath": [
+        "rechenstrategien",
+        "ueberschlag-und-groessenordnung"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/ueberschlag-und-groessenordnung.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/ueberschlag-und-groessenordnung.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/ueberschlag-und-groessenordnung-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/ueberschlag-und-groessenordnung-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/ueberschlag-und-groessenordnung-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/ueberschlag-und-groessenordnung-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Bruchrechnung strukturiert prüfen",
+      "section": "rechenstrategien",
+      "topicPath": [
+        "rechenstrategien",
+        "bruchrechnung-strukturiert-pruefen"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/bruchrechnung-strukturiert-pruefen.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/bruchrechnung-strukturiert-pruefen.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/bruchrechnung-strukturiert-pruefen-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/bruchrechnung-strukturiert-pruefen-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/bruchrechnung-strukturiert-pruefen-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/bruchrechnung-strukturiert-pruefen-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Prozentpunkte und Prozentwerte",
+      "section": "rechenstrategien",
+      "topicPath": [
+        "rechenstrategien",
+        "prozentpunkte-und-prozentwerte"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/prozentpunkte-und-prozentwerte.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/prozentpunkte-und-prozentwerte.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/prozentpunkte-und-prozentwerte-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/prozentpunkte-und-prozentwerte-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/prozentpunkte-und-prozentwerte-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/prozentpunkte-und-prozentwerte-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Einheitenketten und Umrechnung",
+      "section": "rechenstrategien",
+      "topicPath": [
+        "rechenstrategien",
+        "einheitenketten-und-umrechnung"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/einheitenketten-und-umrechnung.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/einheitenketten-und-umrechnung.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/einheitenketten-und-umrechnung-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/einheitenketten-und-umrechnung-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/einheitenketten-und-umrechnung-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/einheitenketten-und-umrechnung-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Termwerte mit Kontrolle",
+      "section": "rechenstrategien",
+      "topicPath": [
+        "rechenstrategien",
+        "termwerte-mit-kontrolle"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/termwerte-mit-kontrolle.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/termwerte-mit-kontrolle.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/termwerte-mit-kontrolle-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/termwerte-mit-kontrolle-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/termwerte-mit-kontrolle-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/termwerte-mit-kontrolle-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Fehlerquellen bei Vorzeichen",
+      "section": "rechenstrategien",
+      "topicPath": [
+        "rechenstrategien",
+        "fehlerquellen-bei-vorzeichen"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/fehlerquellen-bei-vorzeichen.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/fehlerquellen-bei-vorzeichen.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/fehlerquellen-bei-vorzeichen-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/fehlerquellen-bei-vorzeichen-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/fehlerquellen-bei-vorzeichen-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/fehlerquellen-bei-vorzeichen-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Runden und Signifikanz",
+      "section": "rechenstrategien",
+      "topicPath": [
+        "rechenstrategien",
+        "runden-und-signifikanz"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/runden-und-signifikanz.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/runden-und-signifikanz.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/runden-und-signifikanz-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/runden-und-signifikanz-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/runden-und-signifikanz-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/runden-und-signifikanz-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Kopfrechnen als Kontrolle",
+      "section": "rechenstrategien",
+      "topicPath": [
+        "rechenstrategien",
+        "kopfrechnen-als-kontrolle"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/kopfrechnen-als-kontrolle.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/kopfrechnen-als-kontrolle.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/kopfrechnen-als-kontrolle-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/kopfrechnen-als-kontrolle-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/kopfrechnen-als-kontrolle-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/kopfrechnen-als-kontrolle-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Vergleich von Lösungswegen",
+      "section": "rechenstrategien",
+      "topicPath": [
+        "rechenstrategien",
+        "vergleich-von-loesungswegen"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/vergleich-von-loesungswegen.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/vergleich-von-loesungswegen.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/vergleich-von-loesungswegen-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/vergleich-von-loesungswegen-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/vergleich-von-loesungswegen-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/vergleich-von-loesungswegen-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Plausibilität vor Ergebnis",
+      "section": "rechenstrategien",
+      "topicPath": [
+        "rechenstrategien",
+        "plausibilitaet-vor-ergebnis"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/plausibilitaet-vor-ergebnis.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/plausibilitaet-vor-ergebnis.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/plausibilitaet-vor-ergebnis-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/plausibilitaet-vor-ergebnis-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/plausibilitaet-vor-ergebnis-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/plausibilitaet-vor-ergebnis-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Gleichungen mit Nebenbedingungen",
+      "section": "algebra",
+      "topicPath": [
+        "algebra",
+        "gleichungen-mit-nebenbedingungen"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/gleichungen-mit-nebenbedingungen.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/gleichungen-mit-nebenbedingungen.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/gleichungen-mit-nebenbedingungen-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/gleichungen-mit-nebenbedingungen-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/gleichungen-mit-nebenbedingungen-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/gleichungen-mit-nebenbedingungen-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Lineare Gleichungssysteme prüfen",
+      "section": "algebra",
+      "topicPath": [
+        "algebra",
+        "lineare-gleichungssysteme-pruefen"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/lineare-gleichungssysteme-pruefen.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/lineare-gleichungssysteme-pruefen.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/lineare-gleichungssysteme-pruefen-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/lineare-gleichungssysteme-pruefen-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/lineare-gleichungssysteme-pruefen-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/lineare-gleichungssysteme-pruefen-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Parameter in Termen deuten",
+      "section": "algebra",
+      "topicPath": [
+        "algebra",
+        "parameter-in-termen-deuten"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/parameter-in-termen-deuten.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/parameter-in-termen-deuten.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/parameter-in-termen-deuten-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/parameter-in-termen-deuten-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/parameter-in-termen-deuten-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/parameter-in-termen-deuten-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Quadratische Gleichungen mit Fallunterscheidung",
+      "section": "algebra",
+      "topicPath": [
+        "algebra",
+        "quadratische-gleichungen-fallunterscheidung"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/quadratische-gleichungen-fallunterscheidung.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/quadratische-gleichungen-fallunterscheidung.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/quadratische-gleichungen-fallunterscheidung-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/quadratische-gleichungen-fallunterscheidung-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/quadratische-gleichungen-fallunterscheidung-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/quadratische-gleichungen-fallunterscheidung-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Faktorisieren und Ausklammern",
+      "section": "algebra",
+      "topicPath": [
+        "algebra",
+        "faktorisieren-und-ausklammern"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/faktorisieren-und-ausklammern.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/faktorisieren-und-ausklammern.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/faktorisieren-und-ausklammern-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/faktorisieren-und-ausklammern-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/faktorisieren-und-ausklammern-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/faktorisieren-und-ausklammern-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Binomische Formeln als Struktur",
+      "section": "algebra",
+      "topicPath": [
+        "algebra",
+        "binomische-formeln-als-struktur"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/binomische-formeln-als-struktur.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/binomische-formeln-als-struktur.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/binomische-formeln-als-struktur-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/binomische-formeln-als-struktur-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/binomische-formeln-als-struktur-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/binomische-formeln-als-struktur-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Ungleichungen und Zeichenwechsel",
+      "section": "algebra",
+      "topicPath": [
+        "algebra",
+        "ungleichungen-zeichenwechsel"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/ungleichungen-zeichenwechsel.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/ungleichungen-zeichenwechsel.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/ungleichungen-zeichenwechsel-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/ungleichungen-zeichenwechsel-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/ungleichungen-zeichenwechsel-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/ungleichungen-zeichenwechsel-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Formeln nach Größen umstellen",
+      "section": "algebra",
+      "topicPath": [
+        "algebra",
+        "formeln-nach-groessen-umstellen"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/formeln-nach-groessen-umstellen.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/formeln-nach-groessen-umstellen.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/formeln-nach-groessen-umstellen-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/formeln-nach-groessen-umstellen-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/formeln-nach-groessen-umstellen-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/formeln-nach-groessen-umstellen-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Probe und Lösungsmenge",
+      "section": "algebra",
+      "topicPath": [
+        "algebra",
+        "probe-und-loesungsmenge"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/probe-und-loesungsmenge.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/probe-und-loesungsmenge.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/probe-und-loesungsmenge-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/probe-und-loesungsmenge-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/probe-und-loesungsmenge-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/probe-und-loesungsmenge-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Algebraische Fehlerbilder",
+      "section": "algebra",
+      "topicPath": [
+        "algebra",
+        "algebraische-fehlerbilder"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/algebraische-fehlerbilder.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/algebraische-fehlerbilder.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/algebraische-fehlerbilder-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/algebraische-fehlerbilder-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/algebraische-fehlerbilder-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/algebraische-fehlerbilder-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Definitionsbereich und Wertemenge",
+      "section": "funktionen",
+      "topicPath": [
+        "funktionen",
+        "definitionsbereich-und-wertemenge"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/definitionsbereich-und-wertemenge.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/definitionsbereich-und-wertemenge.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/definitionsbereich-und-wertemenge-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/definitionsbereich-und-wertemenge-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/definitionsbereich-und-wertemenge-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/definitionsbereich-und-wertemenge-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Lineare Modelle lesen",
+      "section": "funktionen",
+      "topicPath": [
+        "funktionen",
+        "lineare-modelle-lesen"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/lineare-modelle-lesen.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/lineare-modelle-lesen.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/lineare-modelle-lesen-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/lineare-modelle-lesen-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/lineare-modelle-lesen-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/lineare-modelle-lesen-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Quadratische Graphen einordnen",
+      "section": "funktionen",
+      "topicPath": [
+        "funktionen",
+        "quadratische-graphen-einordnen"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/quadratische-graphen-einordnen.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/quadratische-graphen-einordnen.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/quadratische-graphen-einordnen-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/quadratische-graphen-einordnen-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/quadratische-graphen-einordnen-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/quadratische-graphen-einordnen-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Exponentielle Prozesse vergleichen",
+      "section": "funktionen",
+      "topicPath": [
+        "funktionen",
+        "exponentielle-prozesse-vergleichen"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/exponentielle-prozesse-vergleichen.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/exponentielle-prozesse-vergleichen.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/exponentielle-prozesse-vergleichen-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/exponentielle-prozesse-vergleichen-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/exponentielle-prozesse-vergleichen-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/exponentielle-prozesse-vergleichen-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Nullstellen und Schnittpunkte prüfen",
+      "section": "funktionen",
+      "topicPath": [
+        "funktionen",
+        "nullstellen-und-schnittpunkte-pruefen"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/nullstellen-und-schnittpunkte-pruefen.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/nullstellen-und-schnittpunkte-pruefen.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/nullstellen-und-schnittpunkte-pruefen-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/nullstellen-und-schnittpunkte-pruefen-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/nullstellen-und-schnittpunkte-pruefen-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/nullstellen-und-schnittpunkte-pruefen-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Parameterwirkung am Graphen",
+      "section": "funktionen",
+      "topicPath": [
+        "funktionen",
+        "parameterwirkung-am-graphen"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/parameterwirkung-am-graphen.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/parameterwirkung-am-graphen.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/parameterwirkung-am-graphen-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/parameterwirkung-am-graphen-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/parameterwirkung-am-graphen-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/parameterwirkung-am-graphen-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Darstellungswechsel Tabelle Formel Graph",
+      "section": "funktionen",
+      "topicPath": [
+        "funktionen",
+        "darstellungswechsel-tabelle-formel-graph"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/darstellungswechsel-tabelle-formel-graph.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/darstellungswechsel-tabelle-formel-graph.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/darstellungswechsel-tabelle-formel-graph-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/darstellungswechsel-tabelle-formel-graph-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/darstellungswechsel-tabelle-formel-graph-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/darstellungswechsel-tabelle-formel-graph-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Monotonie und Verlauf",
+      "section": "funktionen",
+      "topicPath": [
+        "funktionen",
+        "monotonie-und-verlauf"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/monotonie-und-verlauf.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/monotonie-und-verlauf.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/monotonie-und-verlauf-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/monotonie-und-verlauf-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/monotonie-und-verlauf-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/monotonie-und-verlauf-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Funktionswerte und Kontext",
+      "section": "funktionen",
+      "topicPath": [
+        "funktionen",
+        "funktionswerte-und-kontext"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/funktionswerte-und-kontext.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/funktionswerte-und-kontext.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/funktionswerte-und-kontext-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/funktionswerte-und-kontext-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/funktionswerte-und-kontext-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/funktionswerte-und-kontext-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Modellgrenzen bei Funktionen",
+      "section": "funktionen",
+      "topicPath": [
+        "funktionen",
+        "modellgrenzen-bei-funktionen"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/modellgrenzen-bei-funktionen.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/modellgrenzen-bei-funktionen.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/modellgrenzen-bei-funktionen-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/modellgrenzen-bei-funktionen-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/modellgrenzen-bei-funktionen-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/modellgrenzen-bei-funktionen-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Mittlere Änderungsrate",
+      "section": "analysis",
+      "topicPath": [
+        "analysis",
+        "mittlere-aenderungsrate"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/mittlere-aenderungsrate.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/mittlere-aenderungsrate.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/mittlere-aenderungsrate-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/mittlere-aenderungsrate-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/mittlere-aenderungsrate-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/mittlere-aenderungsrate-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Lokale Änderung anschaulich",
+      "section": "analysis",
+      "topicPath": [
+        "analysis",
+        "lokale-aenderung-anschaulich"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/lokale-aenderung-anschaulich.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/lokale-aenderung-anschaulich.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/lokale-aenderung-anschaulich-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/lokale-aenderung-anschaulich-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/lokale-aenderung-anschaulich-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/lokale-aenderung-anschaulich-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Ableitung als Steigung",
+      "section": "analysis",
+      "topicPath": [
+        "analysis",
+        "ableitung-als-steigung"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/ableitung-als-steigung.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/ableitung-als-steigung.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/ableitung-als-steigung-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/ableitung-als-steigung-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/ableitung-als-steigung-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/ableitung-als-steigung-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Extremstellen begründen",
+      "section": "analysis",
+      "topicPath": [
+        "analysis",
+        "extremstellen-begruenden"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/extremstellen-begruenden.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/extremstellen-begruenden.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/extremstellen-begruenden-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/extremstellen-begruenden-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/extremstellen-begruenden-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/extremstellen-begruenden-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Wendepunkte und Krümmung",
+      "section": "analysis",
+      "topicPath": [
+        "analysis",
+        "wendepunkte-und-kruemmung"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/wendepunkte-und-kruemmung.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/wendepunkte-und-kruemmung.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/wendepunkte-und-kruemmung-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/wendepunkte-und-kruemmung-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/wendepunkte-und-kruemmung-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/wendepunkte-und-kruemmung-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Integral als Fläche",
+      "section": "analysis",
+      "topicPath": [
+        "analysis",
+        "integral-als-flaeche"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/integral-als-flaeche.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/integral-als-flaeche.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/integral-als-flaeche-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/integral-als-flaeche-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/integral-als-flaeche-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/integral-als-flaeche-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Stammfunktion und Bilanz",
+      "section": "analysis",
+      "topicPath": [
+        "analysis",
+        "stammfunktion-und-bilanz"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/stammfunktion-und-bilanz.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/stammfunktion-und-bilanz.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/stammfunktion-und-bilanz-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/stammfunktion-und-bilanz-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/stammfunktion-und-bilanz-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/stammfunktion-und-bilanz-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Grenzwertidee im Kontext",
+      "section": "analysis",
+      "topicPath": [
+        "analysis",
+        "grenzwertidee-im-kontext"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/grenzwertidee-im-kontext.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/grenzwertidee-im-kontext.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/grenzwertidee-im-kontext-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/grenzwertidee-im-kontext-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/grenzwertidee-im-kontext-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/grenzwertidee-im-kontext-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Kurvendiskussion als Prüfpfad",
+      "section": "analysis",
+      "topicPath": [
+        "analysis",
+        "kurvendiskussion-pruefpfad"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/kurvendiskussion-pruefpfad.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/kurvendiskussion-pruefpfad.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/kurvendiskussion-pruefpfad-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/kurvendiskussion-pruefpfad-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/kurvendiskussion-pruefpfad-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/kurvendiskussion-pruefpfad-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Analysis-Ergebnisse interpretieren",
+      "section": "analysis",
+      "topicPath": [
+        "analysis",
+        "analysis-ergebnisse-interpretieren"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/analysis-ergebnisse-interpretieren.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/analysis-ergebnisse-interpretieren.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/analysis-ergebnisse-interpretieren-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/analysis-ergebnisse-interpretieren-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/analysis-ergebnisse-interpretieren-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/analysis-ergebnisse-interpretieren-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Winkelbeziehungen und Parallelen",
+      "section": "geometrie",
+      "topicPath": [
+        "geometrie",
+        "winkelbeziehungen-und-parallelen"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/winkelbeziehungen-und-parallelen.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/winkelbeziehungen-und-parallelen.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/winkelbeziehungen-und-parallelen-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/winkelbeziehungen-und-parallelen-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/winkelbeziehungen-und-parallelen-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/winkelbeziehungen-und-parallelen-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Dreiecke konstruieren und prüfen",
+      "section": "geometrie",
+      "topicPath": [
+        "geometrie",
+        "dreiecke-konstruieren-und-pruefen"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/dreiecke-konstruieren-und-pruefen.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/dreiecke-konstruieren-und-pruefen.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/dreiecke-konstruieren-und-pruefen-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/dreiecke-konstruieren-und-pruefen-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/dreiecke-konstruieren-und-pruefen-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/dreiecke-konstruieren-und-pruefen-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Fläche und Umfang trennen",
+      "section": "geometrie",
+      "topicPath": [
+        "geometrie",
+        "flaeche-und-umfang-trennen"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/flaeche-und-umfang-trennen.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/flaeche-und-umfang-trennen.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/flaeche-und-umfang-trennen-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/flaeche-und-umfang-trennen-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/flaeche-und-umfang-trennen-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/flaeche-und-umfang-trennen-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Volumen und Oberfläche",
+      "section": "geometrie",
+      "topicPath": [
+        "geometrie",
+        "volumen-und-oberflaeche"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/volumen-und-oberflaeche.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/volumen-und-oberflaeche.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/volumen-und-oberflaeche-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/volumen-und-oberflaeche-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/volumen-und-oberflaeche-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/volumen-und-oberflaeche-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Maßstab und Ähnlichkeit",
+      "section": "geometrie",
+      "topicPath": [
+        "geometrie",
+        "massstab-und-aehnlichkeit"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/massstab-und-aehnlichkeit.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/massstab-und-aehnlichkeit.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/massstab-und-aehnlichkeit-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/massstab-und-aehnlichkeit-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/massstab-und-aehnlichkeit-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/massstab-und-aehnlichkeit-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Vektoren Länge und Richtung",
+      "section": "geometrie",
+      "topicPath": [
+        "geometrie",
+        "vektoren-laenge-und-richtung"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/vektoren-laenge-und-richtung.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/vektoren-laenge-und-richtung.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/vektoren-laenge-und-richtung-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/vektoren-laenge-und-richtung-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/vektoren-laenge-und-richtung-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/vektoren-laenge-und-richtung-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Geraden und Ebenen lesen",
+      "section": "geometrie",
+      "topicPath": [
+        "geometrie",
+        "geraden-und-ebenen-lesen"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/geraden-und-ebenen-lesen.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/geraden-und-ebenen-lesen.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/geraden-und-ebenen-lesen-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/geraden-und-ebenen-lesen-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/geraden-und-ebenen-lesen-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/geraden-und-ebenen-lesen-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Skizzen als Beweiswerkzeug",
+      "section": "geometrie",
+      "topicPath": [
+        "geometrie",
+        "skizzen-als-beweiswerkzeug"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/skizzen-als-beweiswerkzeug.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/skizzen-als-beweiswerkzeug.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/skizzen-als-beweiswerkzeug-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/skizzen-als-beweiswerkzeug-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/skizzen-als-beweiswerkzeug-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/skizzen-als-beweiswerkzeug-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Koordinatengeometrie strukturiert",
+      "section": "geometrie",
+      "topicPath": [
+        "geometrie",
+        "koordinatengeometrie-strukturiert"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/koordinatengeometrie-strukturiert.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/koordinatengeometrie-strukturiert.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/koordinatengeometrie-strukturiert-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/koordinatengeometrie-strukturiert-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/koordinatengeometrie-strukturiert-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/koordinatengeometrie-strukturiert-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Geometrische Plausibilität",
+      "section": "geometrie",
+      "topicPath": [
+        "geometrie",
+        "geometrische-plausibilitaet"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/geometrische-plausibilitaet.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/geometrische-plausibilitaet.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/geometrische-plausibilitaet-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/geometrische-plausibilitaet-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/geometrische-plausibilitaet-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/geometrische-plausibilitaet-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Zufallsversuch und Ergebnisraum",
+      "section": "stochastik",
+      "topicPath": [
+        "stochastik",
+        "zufallsversuch-und-ergebnisraum"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/zufallsversuch-und-ergebnisraum.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/zufallsversuch-und-ergebnisraum.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/zufallsversuch-und-ergebnisraum-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/zufallsversuch-und-ergebnisraum-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/zufallsversuch-und-ergebnisraum-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/zufallsversuch-und-ergebnisraum-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Baumdiagramme richtig lesen",
+      "section": "stochastik",
+      "topicPath": [
+        "stochastik",
+        "baumdiagramme-richtig-lesen"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/baumdiagramme-richtig-lesen.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/baumdiagramme-richtig-lesen.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/baumdiagramme-richtig-lesen-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/baumdiagramme-richtig-lesen-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/baumdiagramme-richtig-lesen-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/baumdiagramme-richtig-lesen-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Gegenereignis und Ergänzungsregel",
+      "section": "stochastik",
+      "topicPath": [
+        "stochastik",
+        "gegenereignis-und-ergaenzungsregel"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/gegenereignis-und-ergaenzungsregel.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/gegenereignis-und-ergaenzungsregel.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/gegenereignis-und-ergaenzungsregel-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/gegenereignis-und-ergaenzungsregel-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/gegenereignis-und-ergaenzungsregel-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/gegenereignis-und-ergaenzungsregel-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Bedingte Wahrscheinlichkeit",
+      "section": "stochastik",
+      "topicPath": [
+        "stochastik",
+        "bedingte-wahrscheinlichkeit"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/bedingte-wahrscheinlichkeit.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/bedingte-wahrscheinlichkeit.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/bedingte-wahrscheinlichkeit-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/bedingte-wahrscheinlichkeit-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/bedingte-wahrscheinlichkeit-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/bedingte-wahrscheinlichkeit-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Unabhängigkeit prüfen",
+      "section": "stochastik",
+      "topicPath": [
+        "stochastik",
+        "unabhaengigkeit-pruefen"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/unabhaengigkeit-pruefen.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/unabhaengigkeit-pruefen.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/unabhaengigkeit-pruefen-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/unabhaengigkeit-pruefen-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/unabhaengigkeit-pruefen-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/unabhaengigkeit-pruefen-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Erwartungswert im Kontext",
+      "section": "stochastik",
+      "topicPath": [
+        "stochastik",
+        "erwartungswert-im-kontext"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/erwartungswert-im-kontext.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/erwartungswert-im-kontext.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/erwartungswert-im-kontext-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/erwartungswert-im-kontext-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/erwartungswert-im-kontext-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/erwartungswert-im-kontext-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Binomialmodell erkennen",
+      "section": "stochastik",
+      "topicPath": [
+        "stochastik",
+        "binomialmodell-erkennen"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/binomialmodell-erkennen.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/binomialmodell-erkennen.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/binomialmodell-erkennen-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/binomialmodell-erkennen-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/binomialmodell-erkennen-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/binomialmodell-erkennen-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Simulation und Häufigkeit",
+      "section": "stochastik",
+      "topicPath": [
+        "stochastik",
+        "simulation-und-haeufigkeit"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/simulation-und-haeufigkeit.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/simulation-und-haeufigkeit.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/simulation-und-haeufigkeit-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/simulation-und-haeufigkeit-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/simulation-und-haeufigkeit-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/simulation-und-haeufigkeit-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Risiko und Interpretation",
+      "section": "stochastik",
+      "topicPath": [
+        "stochastik",
+        "risiko-und-interpretation"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/risiko-und-interpretation.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/risiko-und-interpretation.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/risiko-und-interpretation-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/risiko-und-interpretation-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/risiko-und-interpretation-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/risiko-und-interpretation-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Stochastische Fehlschlüsse",
+      "section": "stochastik",
+      "topicPath": [
+        "stochastik",
+        "stochastische-fehlschluesse"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/stochastische-fehlschluesse.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/stochastische-fehlschluesse.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/stochastische-fehlschluesse-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/stochastische-fehlschluesse-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/stochastische-fehlschluesse-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/stochastische-fehlschluesse-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Mittelwert Median Spannweite",
+      "section": "daten",
+      "topicPath": [
+        "daten",
+        "mittelwert-median-spannweite"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/mittelwert-median-spannweite.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/mittelwert-median-spannweite.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/mittelwert-median-spannweite-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/mittelwert-median-spannweite-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/mittelwert-median-spannweite-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/mittelwert-median-spannweite-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Quartile und Boxplot",
+      "section": "daten",
+      "topicPath": [
+        "daten",
+        "quartile-und-boxplot"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/quartile-und-boxplot.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/quartile-und-boxplot.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/quartile-und-boxplot-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/quartile-und-boxplot-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/quartile-und-boxplot-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/quartile-und-boxplot-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Diagrammachsen kritisch lesen",
+      "section": "daten",
+      "topicPath": [
+        "daten",
+        "diagrammachsen-kritisch-lesen"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/diagrammachsen-kritisch-lesen.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/diagrammachsen-kritisch-lesen.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/diagrammachsen-kritisch-lesen-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/diagrammachsen-kritisch-lesen-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/diagrammachsen-kritisch-lesen-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/diagrammachsen-kritisch-lesen-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Ausreißer erkennen und bewerten",
+      "section": "daten",
+      "topicPath": [
+        "daten",
+        "ausreisser-erkennen-und-bewerten"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/ausreisser-erkennen-und-bewerten.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/ausreisser-erkennen-und-bewerten.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/ausreisser-erkennen-und-bewerten-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/ausreisser-erkennen-und-bewerten-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/ausreisser-erkennen-und-bewerten-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/ausreisser-erkennen-und-bewerten-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Streuung und Vergleich",
+      "section": "daten",
+      "topicPath": [
+        "daten",
+        "streuung-und-vergleich"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/streuung-und-vergleich.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/streuung-und-vergleich.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/streuung-und-vergleich-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/streuung-und-vergleich-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/streuung-und-vergleich-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/streuung-und-vergleich-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Datenquelle und Verzerrung",
+      "section": "daten",
+      "topicPath": [
+        "daten",
+        "datenquelle-und-verzerrung"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/datenquelle-und-verzerrung.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/datenquelle-und-verzerrung.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/datenquelle-und-verzerrung-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/datenquelle-und-verzerrung-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/datenquelle-und-verzerrung-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/datenquelle-und-verzerrung-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Relative und absolute Häufigkeit",
+      "section": "daten",
+      "topicPath": [
+        "daten",
+        "relative-und-absolute-haeufigkeit"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/relative-und-absolute-haeufigkeit.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/relative-und-absolute-haeufigkeit.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/relative-und-absolute-haeufigkeit-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/relative-und-absolute-haeufigkeit-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/relative-und-absolute-haeufigkeit-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/relative-und-absolute-haeufigkeit-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Trend und Schwankung",
+      "section": "daten",
+      "topicPath": [
+        "daten",
+        "trend-und-schwankung"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/trend-und-schwankung.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/trend-und-schwankung.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/trend-und-schwankung-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/trend-und-schwankung-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/trend-und-schwankung-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/trend-und-schwankung-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Kennwerte sinnvoll wählen",
+      "section": "daten",
+      "topicPath": [
+        "daten",
+        "kennwerte-sinnvoll-waehlen"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/kennwerte-sinnvoll-waehlen.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/kennwerte-sinnvoll-waehlen.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/kennwerte-sinnvoll-waehlen-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/kennwerte-sinnvoll-waehlen-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/kennwerte-sinnvoll-waehlen-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/kennwerte-sinnvoll-waehlen-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Datenargumente formulieren",
+      "section": "daten",
+      "topicPath": [
+        "daten",
+        "datenargumente-formulieren"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/datenargumente-formulieren.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/datenargumente-formulieren.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/datenargumente-formulieren-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/datenargumente-formulieren-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/datenargumente-formulieren-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/datenargumente-formulieren-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Textaufgabe in Modell übersetzen",
+      "section": "modellieren",
+      "topicPath": [
+        "modellieren",
+        "textaufgabe-in-modell-uebersetzen"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/textaufgabe-in-modell-uebersetzen.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/textaufgabe-in-modell-uebersetzen.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/textaufgabe-in-modell-uebersetzen-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/textaufgabe-in-modell-uebersetzen-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/textaufgabe-in-modell-uebersetzen-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/textaufgabe-in-modell-uebersetzen-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Variablen und Einheiten wählen",
+      "section": "modellieren",
+      "topicPath": [
+        "modellieren",
+        "variablen-und-einheiten-waehlen"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/variablen-und-einheiten-waehlen.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/variablen-und-einheiten-waehlen.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/variablen-und-einheiten-waehlen-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/variablen-und-einheiten-waehlen-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/variablen-und-einheiten-waehlen-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/variablen-und-einheiten-waehlen-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Annahmen offenlegen",
+      "section": "modellieren",
+      "topicPath": [
+        "modellieren",
+        "annahmen-offenlegen"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/annahmen-offenlegen.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/annahmen-offenlegen.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/annahmen-offenlegen-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/annahmen-offenlegen-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/annahmen-offenlegen-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/annahmen-offenlegen-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Modellrechnung und Probe",
+      "section": "modellieren",
+      "topicPath": [
+        "modellieren",
+        "modellrechnung-und-probe"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/modellrechnung-und-probe.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/modellrechnung-und-probe.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/modellrechnung-und-probe-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/modellrechnung-und-probe-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/modellrechnung-und-probe-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/modellrechnung-und-probe-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Ergebnis im Kontext prüfen",
+      "section": "modellieren",
+      "topicPath": [
+        "modellieren",
+        "ergebnis-im-kontext-pruefen"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/ergebnis-im-kontext-pruefen.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/ergebnis-im-kontext-pruefen.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/ergebnis-im-kontext-pruefen-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/ergebnis-im-kontext-pruefen-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/ergebnis-im-kontext-pruefen-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/ergebnis-im-kontext-pruefen-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Mehrschrittige Probleme planen",
+      "section": "modellieren",
+      "topicPath": [
+        "modellieren",
+        "mehrschrittige-probleme-planen"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/mehrschrittige-probleme-planen.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/mehrschrittige-probleme-planen.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/mehrschrittige-probleme-planen-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/mehrschrittige-probleme-planen-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/mehrschrittige-probleme-planen-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/mehrschrittige-probleme-planen-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Tabellen als Modellhilfe",
+      "section": "modellieren",
+      "topicPath": [
+        "modellieren",
+        "tabellen-als-modellhilfe"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/tabellen-als-modellhilfe.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/tabellen-als-modellhilfe.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/tabellen-als-modellhilfe-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/tabellen-als-modellhilfe-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/tabellen-als-modellhilfe-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/tabellen-als-modellhilfe-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Graphische Näherung nutzen",
+      "section": "modellieren",
+      "topicPath": [
+        "modellieren",
+        "graphische-naeherung-nutzen"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/graphische-naeherung-nutzen.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/graphische-naeherung-nutzen.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/graphische-naeherung-nutzen-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/graphische-naeherung-nutzen-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/graphische-naeherung-nutzen-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/graphische-naeherung-nutzen-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Modellgrenzen begründen",
+      "section": "modellieren",
+      "topicPath": [
+        "modellieren",
+        "modellgrenzen-begruenden"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/modellgrenzen-begruenden.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/modellgrenzen-begruenden.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/modellgrenzen-begruenden-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/modellgrenzen-begruenden-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/modellgrenzen-begruenden-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/modellgrenzen-begruenden-aufgabe-b-loesung.md"
+      ]
+    },
+    {
+      "title": "Mathematische Kommunikation",
+      "section": "modellieren",
+      "topicPath": [
+        "modellieren",
+        "mathematische-kommunikation"
+      ],
+      "article": "src/content/articles/mathematik/sanierung-v209-prueftraining/mathematische-kommunikation.md",
+      "svg": "public/images/mathematik/sanierung-v209-prueftraining/mathematische-kommunikation.svg",
+      "exercises": [
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/mathematische-kommunikation-aufgabe-a.md",
+        "src/content/exercises/mathematik/sanierung-v209-prueftraining/mathematische-kommunikation-aufgabe-b.md"
+      ],
+      "solutions": [
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/mathematische-kommunikation-aufgabe-a-loesung.md",
+        "src/content/solutions/mathematik/sanierung-v209-prueftraining/mathematische-kommunikation-aufgabe-b-loesung.md"
+      ]
+    }
+  ]
+}

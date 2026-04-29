@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Umfang und Fläche unterscheiden"
 description: "Musterlösung zu Umfang und Fläche unterscheiden mit Trennkante und Gegenprobe."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "geometrie-begruenden-v115"
-  - "flaechen-und-koerper"
-  - "umfang-und-flaeche-unterscheiden-v115"
+topicPath: ["geometrie-begruenden-v115", "flaechen-und-koerper", "umfang-und-flaeche-unterscheiden-v115"]
 taskId: "mathematik-umfang-und-flaeche-unterscheiden-v115"
 relatedExercise: "mathematik/geometrie-begruenden-v115/flaechen-und-koerper/umfang-und-flaeche-unterscheiden-v115"
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "geometrisch begründen"
-  - "flächen und körper"
-  - "lösung"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Umfang und Fläche unterscheiden**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

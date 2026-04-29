@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Eingabe, Verarbeitung und Ausgabe – Ruhig einordnen"
 description: "Musterlösung zur Aufgabe über Eingabe, Verarbeitung und Ausgabe."
-subject: informatik
+subject: "informatik"
 section: "programmablauf-und-steuerung"
-topicPath:
-  - "programmablauf-und-steuerung"
-  - "eingabe-verarbeitung-ausgabe"
-taskId: INF-EINGABE-VERARBEITUNG-AUSGABE-841
-relatedExercise: src/content/exercises/informatik/programmablauf-und-steuerung/eingabe-verarbeitung-ausgabe/eingabe-verarbeitung-ausgabe-ruhig-einordnen-v184.md
-tags:
-  - "informatik"
-  - "datenfluss"
-  - "programmablauf"
-  - "loesung"
+topicPath: ["programmablauf-und-steuerung", "eingabe-verarbeitung-ausgabe", "eingabe-verarbeitung-ausgabe-ruhig-einordnen-v184"]
+taskId: "INF-EINGABE-VERARBEITUNG-AUSGABE-841"
+relatedExercise: "src/content/exercises/informatik/programmablauf-und-steuerung/eingabe-verarbeitung-ausgabe/eingabe-verarbeitung-ausgabe-ruhig-einordnen-v184.md"
+tags: ["informatik", "programmablauf-und-steuerung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

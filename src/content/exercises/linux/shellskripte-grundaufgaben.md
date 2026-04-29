@@ -1,12 +1,17 @@
 ---
-title: Shellskripte – Grundaufgaben
-description: Übe das fachliche Verstehen einfacher Automatisierung mit Shellskripten.
-subject: linux
-section: shellskripte
-level: mittel
+title: "Shellskripte – Grundaufgaben"
+description: "Übe das fachliche Verstehen einfacher Automatisierung mit Shellskripten."
+subject: "linux"
+section: "shellskripte"
+topicPath: ["shellskripte-grundaufgaben"]
+taskId: "AUTO-SHELLSKRIPTE-GRUNDAUFGABEN"
+tags: ["linux", "shellskripte", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 Diese Aufgabe hält die Grundidee von Shellskripten bewusst klar: Du sollst verstehen, **warum wiederkehrende Befehlsfolgen sinnvoll gebündelt werden**.
 
 ## Lernziel

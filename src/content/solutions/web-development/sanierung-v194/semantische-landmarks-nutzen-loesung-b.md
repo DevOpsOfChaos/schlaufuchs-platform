@@ -3,25 +3,12 @@ title: "Lösung: Semantische Landmarks nutzen: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-development-v194-002b im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "zugang-und-semantik"
-  - "semantische-landmarks-nutzen"
-  - "loesung-b"
-
+topicPath: ["sanierung-v194", "semantische-landmarks-nutzen-loesung-b"]
 taskId: "web-development-v194-002b"
 relatedExercise: "web-development/sanierung-v194/semantische-landmarks-nutzen-aufgabe-b"
-tags:
-  - "semantische"
-  - "landmarks"
-  - "nutzen"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-002b`
 
 Ausgangsauftrag: Übertrage das Thema Semantische Landmarks nutzen auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

@@ -3,23 +3,12 @@ title: "Lösung – Endlosschleife über Fortschritt erkennen"
 description: "Musterlösung zu Schleifenfortschritt mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "algorithmen-denken"
-  - "such-und-sortierideen"
-  - "abbruch"
-  - "endlosschleife-ueber-fortschritt-erkennen"
+topicPath: ["algorithmen-denken", "such-und-sortierideen", "abbruch", "endlosschleife-ueber-fortschritt-erkennen"]
 taskId: "v111-informatik-endlosschleife-ueber-fortschritt-erkennen"
 relatedExercise: "informatik/algorithmen-denken/such-und-sortierideen/abbruch/endlosschleife-ueber-fortschritt-erkennen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "unterthema"
-  - "algorithmen-denken"
-  - "such-und-sortierideen"
-  - "endlosschleife-ueber-fortschritt-erkennen"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Schleifenfortschritt**.

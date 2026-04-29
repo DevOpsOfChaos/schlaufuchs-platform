@@ -1,36 +1,19 @@
 ---
 title: "Shell-Quoting"
 description: "Überblick über Anführungszeichen und Maskierung in der Shell."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell-quoting"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Shell-Quoting als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["shell-quoting", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Variablen ohne Anführungszeichen verwendet."
-keyTakeaways:
-  - "Die Shell interpretiert Eingaben vor dem Programmstart."
-  - "Quoting schützt Argumente vor ungewollter Zerlegung."
-  - "In Skripten sollten Variablen meist gequotet werden."
-recognizeSignals:
-  - "Es geht um Shell-Quoting als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Shell-Quoting in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "quoting"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
-
 # Shell-Quoting
 
 Shell-Quoting steuert, wie die Shell Zeichen interpretiert, bevor ein Programm gestartet wird. Leerzeichen, Sternchen, Dollarzeichen und andere Sonderzeichen haben in der Shell besondere Bedeutung. Quoting schützt Text davor, ungewollt zerlegt oder ersetzt zu werden.

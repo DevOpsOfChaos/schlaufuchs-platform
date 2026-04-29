@@ -1,12 +1,17 @@
 ---
-title: Knotenregel und Maschenregel
-description: Diese Aufgabe trainiert die sichere Zuordnung und Anwendung der Kirchhoffschen Regeln in einfachen Netzwerken.
-subject: elektrotechnik
-section: Schaltungstechnik
-level: mittel
+title: "Knotenregel und Maschenregel"
+description: "Diese Aufgabe trainiert die sichere Zuordnung und Anwendung der Kirchhoffschen Regeln in einfachen Netzwerken."
+subject: "elektrotechnik"
+section: "Schaltungstechnik"
+topicPath: ["knotenregel-und-maschenregel"]
+taskId: "AUTO-KNOTENREGEL-UND-MASCHENREGEL"
+tags: ["elektrotechnik", "Schaltungstechnik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben sorgfältig und notiere immer zuerst, ob die Knotenregel oder die Maschenregel passt.

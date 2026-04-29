@@ -1,33 +1,19 @@
 ---
 title: "Termumformung"
 description: "Einordnung von Termumformungen als bedeutungserhaltende Veränderungen algebraischer Ausdrücke."
-subject: mathematik
+subject: "mathematik"
 section: "Algebra"
-topicPath:
-  - termumformung
-  - ueberblick
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen und von verwandten Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte und typische Anwendungsfälle."
-  - "Du erkennst häufige Missverständnisse und prüfst Aussagen auf Plausibilität."
+topicPath: ["termumformung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufige Fehler entstehen bei Minuszeichen vor Klammern, beim falschen Zusammenfassen ungleichartiger Terme oder beim Verlust von Faktoren."
-keyTakeaways:
-  - "Termumformung bedeutet, einen mathematischen Ausdruck in eine andere, aber gleichwertige Form zu bringen."
-  - "Die genaue Bedeutung hängt vom Zusammenhang, den Einheiten und den Randbedingungen ab."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Begriffe, Beispiele oder Fehlerbilder aus diesem Bereich erklärt und eingeordnet werden sollen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten erklären, ohne sofort eine Spezialaufgabe zu rechnen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "terme"
-  - "algebra"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Algebra"]
 draft: false
 ---
-
 # Termumformung
 
 ## Begriff und Zweck

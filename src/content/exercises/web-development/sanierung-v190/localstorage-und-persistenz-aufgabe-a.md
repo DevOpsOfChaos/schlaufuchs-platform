@@ -3,36 +3,15 @@ title: "LocalStorage und Persistenz: Aufgabe A"
 description: "Entscheide, welche Einstellungen einer Lernseite gespeichert werden dürfen."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "browser-api"
-  - "localstorage-und-persistenz"
-  - "aufgabe-a"
+topicPath: ["sanierung-v190", "localstorage-und-persistenz-aufgabe-a"]
 taskId: "web-v190-019a"
-tags:
-  - "browser-api"
-  - "localstorage"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "aufgabe"
-  - "v190"
-hintPoints:
-  - "Trenne Zweck, Daten, Zustand und sichtbare Wirkung."
-  - "Nenne mindestens einen Fehlerfall."
-  - "Begründe, warum die Lösung wartbar bleibt."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema LocalStorage und Persistenz."
-  - "Mindestens ein Prüfpunkt ist konkret formuliert."
-  - "Die Lösung ist ohne vollständige Website nachvollziehbar."
-transferIdeas:
-  - "Übertrage die Idee auf eine zweite kleine Komponente."
-  - "Formuliere eine kurze Checkliste für spätere Wiederholung."
-reflectionPrompt: "Welche Entscheidung macht die Lösung am meisten wartbar?"
+tags: ["web-development", "javascript-vertiefung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Entscheide, welche Einstellungen einer Lernseite gespeichert werden dürfen.

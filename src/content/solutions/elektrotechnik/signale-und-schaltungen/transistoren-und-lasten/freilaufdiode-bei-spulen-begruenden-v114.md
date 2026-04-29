@@ -1,23 +1,14 @@
 ---
-title: Lösung – Freilaufdiode bei Spulen begründen
-description: Musterlösung zur Aufgabe über Freilaufdiode bei Spulen begründen.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- signale-und-schaltungen
-- transistoren-und-lasten
-- freilaufdiode-bei-spulen-begruenden-v114
-taskId: v114-elektrotechnik-freilaufdiode-bei-spulen-begruenden-v114
-relatedExercise: elektrotechnik/signale-und-schaltungen/transistoren-und-lasten/freilaufdiode-bei-spulen-begruenden-v114
-tags:
-- elektrotechnik
-- v114
-- loesung
-- signale-und-schaltungen
-- transistoren-und-lasten
+title: "Lösung – Freilaufdiode bei Spulen begründen"
+description: "Musterlösung zur Aufgabe über Freilaufdiode bei Spulen begründen."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["signale-und-schaltungen", "transistoren-und-lasten", "freilaufdiode-bei-spulen-begruenden-v114"]
+taskId: "v114-elektrotechnik-freilaufdiode-bei-spulen-begruenden-v114"
+relatedExercise: "elektrotechnik/signale-und-schaltungen/transistoren-und-lasten/freilaufdiode-bei-spulen-begruenden-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

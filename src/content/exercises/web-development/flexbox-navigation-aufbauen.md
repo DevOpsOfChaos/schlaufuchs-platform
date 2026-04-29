@@ -1,12 +1,17 @@
 ---
-title: Flexbox-Navigation aufbauen
-description: Diese Aufgabe verbindet eine kleine HTML-Struktur mit passenden Flexbox-Regeln für eine ruhige, saubere Navigationsleiste.
-subject: web-development
-section: CSS und Layout
-level: einfach
+title: "Flexbox-Navigation aufbauen"
+description: "Diese Aufgabe verbindet eine kleine HTML-Struktur mit passenden Flexbox-Regeln für eine ruhige, saubere Navigationsleiste."
+subject: "web-development"
+section: "CSS und Layout"
+topicPath: ["flexbox-navigation-aufbauen"]
+taskId: "AUTO-FLEXBOX-NAVIGATION-AUFBAUEN"
+tags: ["web-development", "CSS und Layout", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Baue aus der vorgegebenen HTML-Struktur eine einfache, ruhige Navigationsleiste. Der Schwerpunkt liegt nicht auf Dekoration, sondern auf sauberer Struktur und passenden Flexbox-Regeln.

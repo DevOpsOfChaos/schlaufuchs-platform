@@ -3,21 +3,12 @@ title: "Lösung – Innenwiderstand beim Messen mitdenken"
 description: "Musterlösung zu innenwiderstand beim messen mitdenken mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "messen-und-fehler"
-  - "innenwiderstand-beim-messen-mitdenken"
+topicPath: ["daten-und-signale", "messen-und-fehler", "innenwiderstand-beim-messen-mitdenken"]
 taskId: "v112-elektrotechnik-innenwiderstand-beim-messen-mitdenken"
 relatedExercise: "elektrotechnik/daten-und-signale/messen-und-fehler/innenwiderstand-beim-messen-mitdenken"
-tags:
-  - "elektrotechnik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-signale"
-  - "innenwiderstand-beim-messen-mitdenken"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Messen und Fehler**.

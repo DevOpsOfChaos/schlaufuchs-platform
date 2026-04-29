@@ -1,24 +1,14 @@
 ---
 title: "Lösung – Compare Match als Timerereignis erklären"
 description: "Musterlösung zur Abgrenzung von Compare Match, Überlauf und Warteschleife."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - timer-compare-match-statt-warteschleife
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "timer-compare-match-statt-warteschleife"]
 taskId: "et-mc-timer-compare-match"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/timer-compare-match-statt-warteschleife"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - timer
-  - compare-match
-  - zeitbasis
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
-
 ## Lösung zu Aufgabe 1
 
 Compare Match passiert, wenn der Timerstand den Vergleichswert erreicht. In diesem Beispiel entsteht das Ereignis, sobald der Timer bei 200 angekommen ist. Danach kann ein Flag gesetzt oder ein Interrupt ausgelöst werden.

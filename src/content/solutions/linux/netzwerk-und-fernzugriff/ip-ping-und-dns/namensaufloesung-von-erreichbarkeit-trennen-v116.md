@@ -3,22 +3,12 @@ title: "Lösung: Namensauflösung von Erreichbarkeit trennen"
 description: "Musterlösung zur Aufgabe „Namensauflösung von Erreichbarkeit trennen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "netzwerk-und-fernzugriff"
-  - "ip-ping-und-dns"
-  - "namensaufloesung-von-erreichbarkeit-trennen-v116"
+topicPath: ["netzwerk-und-fernzugriff", "ip-ping-und-dns", "namensaufloesung-von-erreichbarkeit-trennen-v116"]
 taskId: "namensaufloesung-von-erreichbarkeit-trennen-v116"
 relatedExercise: "linux/netzwerk-und-fernzugriff/ip-ping-und-dns/namensaufloesung-von-erreichbarkeit-trennen-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "ip ping und dns"
-  - "namensaufloesung von erreichbarkeit trennen"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

@@ -1,22 +1,14 @@
 ---
-title: Musterlösung – Daten, Information und Wissen trennen
-description: Musterlösung zur Aufgabe INF-DATA-INFO-001.
-subject: informatik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - daten-und-information
-  - daten-information-und-wissen-unterscheiden
-  - daten-information-und-wissen-am-beispiel-trennen-loesung
-taskId: INF-DATA-INFO-001
-relatedExercise: src/content/exercises/informatik/grundlagen/daten-und-information/daten-information-und-wissen-unterscheiden/daten-information-und-wissen-am-beispiel-trennen.md
-tags:
-  - informatik
-  - loesung
-  - task-id
+title: "Musterlösung – Daten, Information und Wissen trennen"
+description: "Musterlösung zur Aufgabe INF-DATA-INFO-001."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "daten-und-information", "daten-information-und-wissen-unterscheiden", "daten-information-und-wissen-am-beispiel-trennen"]
+taskId: "INF-DATA-INFO-001"
+relatedExercise: "src/content/exercises/informatik/grundlagen/daten-und-information/daten-information-und-wissen-unterscheiden/daten-information-und-wissen-am-beispiel-trennen.md"
+tags: ["informatik", "Grundlagen", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Stufen zuordnen
 
 - <code>23.4</code> ist zunächst nur ein Wert und damit ein Beispiel für Daten.

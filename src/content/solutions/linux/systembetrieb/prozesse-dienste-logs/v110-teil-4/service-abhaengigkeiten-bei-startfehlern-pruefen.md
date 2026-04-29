@@ -3,23 +3,12 @@ title: "Lösung – Service-Abhängigkeiten bei Startfehlern prüfen"
 description: "Musterlösung zu Service-Abhängigkeiten bei Startfehlern prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Systembetrieb"
-topicPath:
-  - "systembetrieb"
-  - "prozesse-dienste-logs"
-  - "v110-teil-4"
-  - "service-abhaengigkeiten-bei-startfehlern-pruefen"
+topicPath: ["systembetrieb", "prozesse-dienste-logs", "v110-teil-4", "service-abhaengigkeiten-bei-startfehlern-pruefen"]
 taskId: "v110-linux-service-abhaengigkeiten-bei-startfehlern-pruefen"
 relatedExercise: "linux/systembetrieb/prozesse-dienste-logs/v110-teil-4/service-abhaengigkeiten-bei-startfehlern-pruefen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "systembetrieb"
-  - "prozesse-dienste-logs"
-  - "service-abhaengigkeiten-bei-startfehlern-pruefen"
+tags: ["linux", "Systembetrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Service-Abhängigkeiten bei Startfehlern prüfen**.

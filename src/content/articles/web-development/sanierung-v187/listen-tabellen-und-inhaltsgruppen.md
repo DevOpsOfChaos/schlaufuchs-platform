@@ -3,39 +3,17 @@ title: "Listen, Tabellen und Inhaltsgruppen"
 description: "Entscheide, wann Inhalte als Liste, Tabelle oder allgemeine Gruppe sauberer dargestellt werden."
 subject: "web-development"
 section: "html"
-topicPath: 
-  - "html-und-semantik"
-  - "inhaltsgruppen"
-learningGoals: 
-  - "Passende Strukturform wählen ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Wähle für fünf Inhaltsbeispiele jeweils Liste, Tabelle oder Gruppe und begründe die Entscheidung."
-  - "Baue aus Rohinformationen eine kleine Vergleichstabelle mit sinnvoller Beschriftung."
-commonMistakes: 
-  - "Tabellen werden für Layout missbraucht."
-  - "Listen werden als dekorative Einrückung verwendet."
-  - "Gruppen bekommen keine erkennbare Überschrift."
-keyTakeaways: 
-  - "Die Struktur passt, wenn die Beziehung der Inhalte ohne CSS eindeutig bleibt."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "Die Struktur passt, wenn die Beziehung der Inhalte ohne CSS eindeutig bleibt."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "listen-tabellen-und-inhaltsgruppen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags: 
-  - "html"
-  - "listen"
-  - "tabellen"
-  - "struktur"
-  - "web-development"
+tags: ["web-development", "html"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Listen, Tabellen und Inhaltsgruppen](/schlaufuchs-platform/images/web-development/sanierung-v187/listen-tabellen-und-inhaltsgruppen.svg)
 
     Listen, Tabellen und Inhaltsgruppen ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

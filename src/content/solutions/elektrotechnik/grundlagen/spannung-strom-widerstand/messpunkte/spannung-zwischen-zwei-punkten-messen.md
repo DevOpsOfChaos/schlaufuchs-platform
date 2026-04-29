@@ -3,23 +3,12 @@ title: "Lösung – Spannung zwischen zwei Punkten messen"
 description: "Musterlösung zu Spannungsmessung mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "elektrotechnik"
 section: "Grundlagen"
-topicPath:
-  - "grundlagen"
-  - "spannung-strom-widerstand"
-  - "messpunkte"
-  - "spannung-zwischen-zwei-punkten-messen"
+topicPath: ["grundlagen", "spannung-strom-widerstand", "messpunkte", "spannung-zwischen-zwei-punkten-messen"]
 taskId: "v107-elektrotechnik-spannung-zwischen-zwei-punkten-messen"
 relatedExercise: "elektrotechnik/grundlagen/spannung-strom-widerstand/messpunkte/spannung-zwischen-zwei-punkten-messen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "schaltungen"
-  - "spannungsmessung"
-  - "grundlagen"
-  - "spannung-strom-widerstand"
+tags: ["elektrotechnik", "Grundlagen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Spannungsmessung**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

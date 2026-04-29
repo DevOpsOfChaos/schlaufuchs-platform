@@ -1,32 +1,17 @@
 ---
 title: "Data Lineage"
 description: "Allgemeiner Überblick über Herkunft, Transformation und Nutzung von Daten."
-subject: informatik
+subject: "informatik"
 section: "Daten"
-topicPath:
-  - "data-lineage"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Data Lineage als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Quelle, Transformation, Zielsystem."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["data-lineage", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Datenqualität nur am Endergebnis zu prüfen, ohne den Weg dorthin zu kennen."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Data Lineage beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Nachvollziehbarkeit von Datenflüssen."
-  - "Wichtige Hinweise liefern vor allem Quelle, Transformation, Zielsystem."
-recognizeSignals:
-  - "Es geht um nachvollziehbarkeit von datenflüssen, quelle oder transformation."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Data Lineage erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "informatik"
-  - "daten"
-  - "governance"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Daten"]
 draft: false
 ---
 # Data Lineage

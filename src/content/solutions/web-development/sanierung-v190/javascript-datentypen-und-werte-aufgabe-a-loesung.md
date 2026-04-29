@@ -3,23 +3,12 @@ title: "Lösung: JavaScript-Datentypen und Werte: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-v190-001a im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "werte-und-typen"
-  - "javascript-datentypen-und-werte"
-  - "loesung-a"
+topicPath: ["sanierung-v190", "javascript-datentypen-und-werte-aufgabe-a"]
 taskId: "web-v190-001a"
 relatedExercise: "web-development/sanierung-v190/javascript-datentypen-und-werte-aufgabe-a"
-tags:
-  - "werte-und-typen"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-001a`
 
 Ausgangsauftrag: Ordne Eingabewerte aus einem Formular nach Typ und Wirkung.

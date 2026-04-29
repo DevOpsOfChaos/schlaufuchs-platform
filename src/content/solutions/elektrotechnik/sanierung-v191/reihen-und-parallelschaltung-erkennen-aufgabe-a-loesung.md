@@ -3,24 +3,12 @@ title: "Lösung: Reihen- und Parallelschaltung erkennen: Aufgabe A"
 description: "Musterlösung zur Aufgabe etech-v191-004a im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "schaltungsanalyse"
-  - "reihen-und-parallelschaltung-erkennen"
-  - "loesung-a"
+topicPath: ["sanierung-v191", "reihen-und-parallelschaltung-erkennen-aufgabe-a"]
 taskId: "etech-v191-004a"
 relatedExercise: "elektrotechnik/sanierung-v191/reihen-und-parallelschaltung-erkennen-aufgabe-a"
-tags:
-  - "schaltungsanalyse"
-  - "reihen"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-004a`
 
 Ausgangsauftrag: Markiere in einer gemischten Schaltung Reihen- und Parallelanteile.

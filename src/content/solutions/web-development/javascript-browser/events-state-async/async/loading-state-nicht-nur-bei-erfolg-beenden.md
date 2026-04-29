@@ -3,23 +3,12 @@ title: "Lösung – Loading-State nicht nur bei Erfolg beenden"
 description: "Musterlösung zu Loading State mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "javascript-browser"
-  - "events-state-async"
-  - "async"
-  - "loading-state-nicht-nur-bei-erfolg-beenden"
+topicPath: ["javascript-browser", "events-state-async", "async", "loading-state-nicht-nur-bei-erfolg-beenden"]
 taskId: "v111-web-development-loading-state-nicht-nur-bei-erfolg-beenden"
 relatedExercise: "web-development/javascript-browser/events-state-async/async/loading-state-nicht-nur-bei-erfolg-beenden"
-tags:
-  - "web development"
-  - "frontend"
-  - "unterthema"
-  - "javascript-browser"
-  - "events-state-async"
-  - "loading-state-nicht-nur-bei-erfolg-beenden"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Loading State**.

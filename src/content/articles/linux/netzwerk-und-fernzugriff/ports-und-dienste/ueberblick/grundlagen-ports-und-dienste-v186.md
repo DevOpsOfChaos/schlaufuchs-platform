@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Ports und Dienste"
 description: "Ordne Netzwerkdienste über Ports, Adressen und Protokolle ein."
-subject: linux
+subject: "linux"
 section: "netzwerk-und-fernzugriff"
-topicPath:
-  - "netzwerk-und-fernzugriff"
-  - "ports-und-dienste"
-learningGoals:
-  - "Du erklärst Ports und Dienste in eigenen Worten."
-  - "Du ordnest typische Befehle, Begriffe oder Prüfschritte richtig ein."
-  - "Du erkennst typische Grenzen und Fehlerquellen im Linux-Alltag."
-practiceIdeas:
-  - "Beschreibe eine kleine Alltagssituation zu diesem Thema."
-  - "Markiere, welche Information zuerst geprüft werden muss."
-commonMistakes:
-  - "Ein einzelnes Kommando für das ganze Thema zu halten."
-  - "Ausgabe, Zustand und Ursache zu vermischen."
-  - "Ohne Kontext direkt an Sonderfälle zu springen."
-keyTakeaways:
-  - "Ports helfen, Dienste auf einem System gezielt anzusprechen."
-  - "Offene Ports sollten mit konkreten Diensten verbunden werden."
-  - "Diagnose braucht Adresse, Port, Protokoll und Dienststatus."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung statt nur eines Befehlsrezepts."
-  - "Mehrere ähnliche Befehle oder Dateien wirken unklar."
-selfCheckPoints:
-  - "Kann ich Zweck, Kontext und typischen Prüfschritt unterscheiden?"
-  - "Kann ich eine einfache Fehlannahme zum Thema benennen?"
-level: mittel
-tags:
-  - "linux"
-  - "ports"
-  - "dienste"
+topicPath: ["netzwerk-und-fernzugriff", "ports-und-dienste", "ueberblick", "grundlagen-ports-und-dienste-v186"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["linux", "netzwerk-und-fernzugriff"]
 draft: false
 ---
-
 ![Ports und Dienste](/schlaufuchs-platform/images/overviews/v186/ports-und-dienste.svg)
 
 ## Begriff

@@ -3,35 +3,15 @@ title: "Laborprotokoll für Schaltungen: Aufgabe A"
 description: "Plane ein kurzes Protokoll für eine Widerstandsmessung."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "messpraxis"
-  - "laborprotokoll-fuer-schaltungen"
-  - "aufgabe-a"
+topicPath: ["sanierung-v191", "laborprotokoll-fuer-schaltungen-aufgabe-a"]
 taskId: "etech-v191-011a"
-tags:
-  - "messpraxis"
-  - "laborprotokoll"
-  - "schaltung"
-  - "elektrotechnik"
-  - "aufgabe"
-  - "v191"
-hintPoints:
-  - "Trenne Schaltplan, realen Aufbau und Messpunkt."
-  - "Nenne mindestens eine Einheit oder einen Grenzwert."
-  - "Formuliere einen passenden Fehlerfall."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Laborprotokoll für Schaltungen."
-  - "Messrichtung, Anschluss oder Bauteilrolle sind nachvollziehbar."
-  - "Die Lösung bleibt ohne Spezialgerät verständlich."
-transferIdeas:
-  - "Übertrage die Idee auf eine zweite kleine Schaltung."
-  - "Erstelle eine Mini-Checkliste für die Messung."
-reflectionPrompt: "Welcher Prüfschritt verhindert hier den wahrscheinlichsten Fehler?"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Plane ein kurzes Protokoll für eine Widerstandsmessung.

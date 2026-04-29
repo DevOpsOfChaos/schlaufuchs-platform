@@ -3,22 +3,12 @@ title: "Lösung: Änderungsrate und Steigung: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-035a."
 subject: "mathematik"
 section: "analysis-vorbereitung"
-topicPath:
-  - "analysis-vorbereitung"
-  - "aenderungsrate-und-steigung"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "aenderungsrate-und-steigung-aufgabe-a"]
 taskId: "mat-v188-035a"
 relatedExercise: "mathematik/sanierung-v188/aenderungsrate-und-steigung-aufgabe-a"
-tags:
-  - "analysis"
-  - "steigung"
-  - "aenderungsrate"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "analysis-vorbereitung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-035a`
 
 Eine mögliche Lösung:

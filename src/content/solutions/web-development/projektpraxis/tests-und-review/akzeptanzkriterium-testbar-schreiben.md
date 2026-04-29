@@ -3,21 +3,12 @@ title: "Lösung – Akzeptanzkriterium testbar schreiben"
 description: "Musterlösung zu akzeptanzkriterium testbar schreiben mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "projektpraxis"
-  - "tests-und-review"
-  - "akzeptanzkriterium-testbar-schreiben"
+topicPath: ["projektpraxis", "tests-und-review", "akzeptanzkriterium-testbar-schreiben"]
 taskId: "v112-web-development-akzeptanzkriterium-testbar-schreiben"
 relatedExercise: "web-development/projektpraxis/tests-und-review/akzeptanzkriterium-testbar-schreiben"
-tags:
-  - "web-development"
-  - "v112"
-  - "feinstruktur"
-  - "projektpraxis"
-  - "akzeptanzkriterium-testbar-schreiben"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Projektpraxis Tests und Review**.

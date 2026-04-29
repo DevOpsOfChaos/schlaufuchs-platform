@@ -3,24 +3,12 @@ title: "Lösung: Alternativtexte für Bilder: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-development-v194-004a im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "zugang-und-semantik"
-  - "alternativtexte-fuer-bilder"
-  - "loesung-a"
-
+topicPath: ["sanierung-v194", "alternativtexte-fuer-bilder-loesung-a"]
 taskId: "web-development-v194-004a"
 relatedExercise: "web-development/sanierung-v194/alternativtexte-fuer-bilder-aufgabe-a"
-tags:
-  - "alternativtexte"
-  - "bilder"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-004a`
 
 Ausgangsauftrag: Formuliere passende Alternativtexte für drei Bildtypen.

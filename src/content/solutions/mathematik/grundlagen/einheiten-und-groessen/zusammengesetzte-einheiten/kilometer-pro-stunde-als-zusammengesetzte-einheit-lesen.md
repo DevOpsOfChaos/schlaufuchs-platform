@@ -3,23 +3,12 @@ title: "Lösung – Kilometer pro Stunde als zusammengesetzte Einheit lesen"
 description: "Musterlösung zu Zusammengesetzte Einheiten mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Grundlagen"
-topicPath:
-  - "grundlagen"
-  - "einheiten-und-groessen"
-  - "zusammengesetzte-einheiten"
-  - "kilometer-pro-stunde-als-zusammengesetzte-einheit-lesen"
+topicPath: ["grundlagen", "einheiten-und-groessen", "zusammengesetzte-einheiten", "kilometer-pro-stunde-als-zusammengesetzte-einheit-lesen"]
 taskId: "v108-mathematik-kilometer-pro-stunde-als-zusammengesetzte-einheit-lesen"
 relatedExercise: "mathematik/grundlagen/einheiten-und-groessen/zusammengesetzte-einheiten/kilometer-pro-stunde-als-zusammengesetzte-einheit-lesen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfen"
-  - "grundlagen"
-  - "einheiten-und-groessen"
-  - "zusammengesetzte einheiten"
+tags: ["mathematik", "Grundlagen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **Zusammengesetzte Einheiten**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

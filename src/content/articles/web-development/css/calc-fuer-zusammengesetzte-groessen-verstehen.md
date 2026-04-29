@@ -1,45 +1,19 @@
 ---
-title: Calc für zusammengesetzte Größen verstehen
-description: Verstehe, wie calc mehrere Größenideen in einem Ausdruck verbindet und warum dadurch Abstände, Breiten oder Höhen ruhiger beschrieben werden können.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - calc-fuer-zusammengesetzte-groessen-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von calc in CSS.
-  - Du beschreibst, warum feste und flexible Größen in einem Ausdruck zusammengeführt werden können.
-  - Du liest calc eher als Größenlogik statt als Rechentrick.
-practiceIdeas:
-  - Vergleiche eine Breite mit reinem Prozentwert und eine Breite mit Prozent minus festem Rand.
-  - Prüfe, warum eine Fläche den verfügbaren Raum nicht vollständig ausfüllt.
-  - Lies Größenangaben eher als Zusammenspiel mehrerer Bedingungen.
-commonMistakes:
-  - calc nur als Notlösung statt als klare Größenbeschreibung zu sehen.
-  - zu vergessen, dass feste und flexible Anteile gleichzeitig mitgedacht werden.
-  - calc einzusetzen, obwohl eigentlich eine andere Layoutidee klarer wäre.
-keyTakeaways:
-  - calc verbindet mehrere Größenideen in einem Ausdruck.
-  - Besonders nützlich ist calc, wenn flexibler Raum und feste Abstände zusammenkommen.
-  - Gute Größenlogik erklärt sichtbare Flächen oft besser als einzelne Werte allein.
-recognizeSignals:
-  - Es geht um Breiten, Höhen, Spalten, feste Ränder oder verfügbare Restflächen.
-  - Du sollst erklären, warum ein Element nicht einfach 100 Prozent breit ist.
-  - In Beispielen ist die Rechenidee wichtiger als das Auswendiglernen der Syntax.
-selfCheckPoints:
-  - Kann ich erklären, wann calc sinnvoll ist?
-  - Kann ich flexible und feste Größenanteile in einem Ausdruck lesen?
-  - Kann ich beurteilen, ob calc die Größenlogik klarer macht?
-tags:
-  - css
-  - calc
-  - groessen
-  - layout
-level: mittel
+title: "Calc für zusammengesetzte Größen verstehen"
+description: "Verstehe, wie calc mehrere Größenideen in einem Ausdruck verbindet und warum dadurch Abstände, Breiten oder Höhen ruhiger beschrieben werden können."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "calc-fuer-zusammengesetzte-groessen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Manche CSS-Größen lassen sich nicht mit nur einem Wert gut beschreiben. Ein Element soll vielleicht **fast die ganze Breite** einnehmen, aber trotzdem einen **festen Abstand** zum Rand behalten. Genau für solche Fälle ist `calc(...)` hilfreich.

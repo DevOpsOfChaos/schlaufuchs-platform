@@ -1,29 +1,17 @@
 ---
 title: "Exit-Codes und Kontrollfluss – anwenden und prüfen"
 description: "Übe, Exit-Codes und Kontrollfluss an kleinen Praxissituationen zu prüfen."
-subject: linux
+subject: "linux"
 section: "shell-und-terminal"
-topicPath:
-  - "shell-und-terminal"
-  - "exit-codes-und-kontrollfluss"
-taskId: LINUX-EXIT-CODES-UND-KONTROLLFLUSS-V186-2
-tags:
-  - "linux"
-  - "exit-code"
-  - "kontrollfluss"
-  - "aufgabe"
-hintPoints:
-  - "Beginne mit Begriff und Kontext."
-  - "Trenne Beobachtung, Prüfung und mögliche Änderung."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe erklären."
-  - "Ich kann einen typischen Fehler vermeiden."
-transferIdeas:
-  - "Formuliere eine ähnliche Prüfsituation aus deinem eigenen Linux-Alltag."
-level: mittel
+topicPath: ["shell-und-terminal", "exit-codes-und-kontrollfluss", "exit-codes-und-kontrollfluss-anwenden-und-pruefen-v186"]
+taskId: "LINUX-EXIT-CODES-UND-KONTROLLFLUSS-V186-2"
+tags: ["linux", "shell-und-terminal", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Lernziel
 
 Du sollst **Exit-Codes und Kontrollfluss** nicht nur als Befehl oder Schlagwort sehen, sondern als geordnetes Linux-Thema mit Zweck, Kontext und typischen Prüfschritten.

@@ -1,29 +1,17 @@
 ---
 title: "Befehle, Optionen und Argumente – ruhig einordnen"
 description: "Übe, Befehle, Optionen und Argumente fachlich einzuordnen."
-subject: linux
+subject: "linux"
 section: "shell-und-terminal"
-topicPath:
-  - "shell-und-terminal"
-  - "befehle-optionen-und-argumente"
-taskId: LINUX-BEFEHLE-OPTIONEN-UND-ARGUMENTE-V186-1
-tags:
-  - "linux"
-  - "befehle"
-  - "optionen"
-  - "aufgabe"
-hintPoints:
-  - "Beginne mit Begriff und Kontext."
-  - "Trenne Beobachtung, Prüfung und mögliche Änderung."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe erklären."
-  - "Ich kann einen typischen Fehler vermeiden."
-transferIdeas:
-  - "Formuliere eine ähnliche Prüfsituation aus deinem eigenen Linux-Alltag."
-level: einfach
+topicPath: ["shell-und-terminal", "befehle-optionen-und-argumente", "befehle-optionen-und-argumente-ruhig-einordnen-v186"]
+taskId: "LINUX-BEFEHLE-OPTIONEN-UND-ARGUMENTE-V186-1"
+tags: ["linux", "shell-und-terminal", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Lernziel
 
 Du sollst **Befehle, Optionen und Argumente** nicht nur als Befehl oder Schlagwort sehen, sondern als geordnetes Linux-Thema mit Zweck, Kontext und typischen Prüfschritten.

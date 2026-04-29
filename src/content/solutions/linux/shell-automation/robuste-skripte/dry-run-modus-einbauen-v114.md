@@ -1,23 +1,14 @@
 ---
-title: Lösung – Dry-Run-Modus einbauen
-description: Musterlösung zur Aufgabe über Dry-Run-Modus einbauen.
-subject: linux
-section: Feinstruktur Linux
-topicPath:
-- shell-automation
-- robuste-skripte
-- dry-run-modus-einbauen-v114
-taskId: v114-linux-dry-run-modus-einbauen-v114
-relatedExercise: linux/shell-automation/robuste-skripte/dry-run-modus-einbauen-v114
-tags:
-- linux
-- v114
-- loesung
-- shell-automation
-- robuste-skripte
+title: "Lösung – Dry-Run-Modus einbauen"
+description: "Musterlösung zur Aufgabe über Dry-Run-Modus einbauen."
+subject: "linux"
+section: "Feinstruktur Linux"
+topicPath: ["shell-automation", "robuste-skripte", "dry-run-modus-einbauen-v114"]
+taskId: "v114-linux-dry-run-modus-einbauen-v114"
+relatedExercise: "linux/shell-automation/robuste-skripte/dry-run-modus-einbauen-v114"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

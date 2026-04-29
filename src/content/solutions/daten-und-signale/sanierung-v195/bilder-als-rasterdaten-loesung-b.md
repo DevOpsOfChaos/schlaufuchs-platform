@@ -3,24 +3,12 @@ title: "Lösung: Bilder als Rasterdaten: Aufgabe B"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-008b im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "darstellung-und-code"
-  - "bilder-als-rasterdaten"
-  - "loesung-b"
-
+topicPath: ["sanierung-v195", "bilder-als-rasterdaten-loesung-b"]
 taskId: "daten-und-signale-v195-008b"
 relatedExercise: "daten-und-signale/sanierung-v195/bilder-als-rasterdaten-aufgabe-b"
-tags:
-  - "bilder"
-  - "rasterdaten"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-008b`
 
 Ausgangsauftrag: Übertrage das Thema Bilder als Rasterdaten auf ein zweites Beispiel und formuliere eine kurze Prüfung.

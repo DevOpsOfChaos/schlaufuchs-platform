@@ -1,12 +1,17 @@
 ---
-title: stdin, stdout und stderr zuordnen
-description: Diese Aufgabe vertieft die Grundidee der drei Standardströme und ihre Rolle bei Shell-Befehlen.
-subject: linux
-section: Grundlagen
-level: mittel
+title: "stdin, stdout und stderr zuordnen"
+description: "Diese Aufgabe vertieft die Grundidee der drei Standardströme und ihre Rolle bei Shell-Befehlen."
+subject: "linux"
+section: "Grundlagen"
+topicPath: ["grundlagen", "stdin-stdout-und-stderr-zuordnen"]
+taskId: "AUTO-STDIN-STDOUT-UND-STDERR-ZUORDNEN"
+tags: ["linux", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben so, dass klar wird, welche Art von Information über welchen Standardstrom läuft.

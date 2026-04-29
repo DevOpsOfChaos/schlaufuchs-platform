@@ -3,34 +3,15 @@ title: "Übung: Funktion mit einer Aufgabe schreiben"
 description: "Übe, „Funktion mit einer Aufgabe schreiben“ als kleines Unterthema zu erkennen, zu begründen und mit einer Gegenprobe abzusichern."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "funktionen-und-verantwortung"
-  - "funktion-mit-einer-aufgabe-schreiben-v116"
+topicPath: ["programmierpraxis-und-tests", "funktionen-und-verantwortung", "funktion-mit-einer-aufgabe-schreiben-v116"]
 taskId: "funktion-mit-einer-aufgabe-schreiben-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "funktionen und verantwortung"
-  - "funktion mit einer aufgabe schreiben"
-  - "v116"
-hintPoints:
-  - "Lies zuerst nur die konkrete Unterfrage."
-  - "Markiere eine typische Fehlannahme."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Lösung fachlich begründet?"
-  - "Ist die Abgrenzung zum Nachbarthema sichtbar?"
-  - "Passt die Gegenprobe zur Aufgabe?"
-transferIdeas:
-  - "Ändere eine Bedingung und prüfe, ob deine Begründung noch trägt."
-  - "Erkläre die Lösung einmal ohne Fachwörter und danach fachlich sauber."
-reflectionPrompt: "Welche kleine Entscheidung war bei „Funktion mit einer Aufgabe schreiben“ am wichtigsten?"
+tags: ["informatik", "Informatik vertiefen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe 1: Unterfrage erkennen
 
 Lies die Situation:

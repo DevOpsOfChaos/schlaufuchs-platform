@@ -1,12 +1,17 @@
 ---
-title: HTTP, Browser, Server und Statuscodes
-description: Diese Aufgabe vertieft die Grundidee von Requests, Responses und der Zusammenarbeit zwischen Browser und Server.
-subject: web-development
-section: Grundlagen
-level: mittel
+title: "HTTP, Browser, Server und Statuscodes"
+description: "Diese Aufgabe vertieft die Grundidee von Requests, Responses und der Zusammenarbeit zwischen Browser und Server."
+subject: "web-development"
+section: "Grundlagen"
+topicPath: ["grundlagen", "http-browser-server-und-statuscodes"]
+taskId: "AUTO-HTTP-BROWSER-SERVER-UND-STATUSCODES"
+tags: ["web-development", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben so, dass immer klar bleibt, welche Rolle der Browser und welche Rolle der Server hat.

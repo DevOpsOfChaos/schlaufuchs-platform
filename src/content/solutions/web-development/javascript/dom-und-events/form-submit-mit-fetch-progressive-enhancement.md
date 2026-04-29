@@ -3,22 +3,12 @@ title: "Lösung – Form Submit mit Fetch progressiv verbessern"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Development-Aufgabe."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "dom-und-events"
-  - "form-submit-mit-fetch-progressive-enhancement"
-tags:
-  - "web development"
-  - "javascript"
-  - "fetch"
-  - "formulare"
-  - "progressive enhancement"
-  - "lösung"
+topicPath: ["javascript", "dom-und-events", "form-submit-mit-fetch-progressive-enhancement"]
 taskId: "web-v103-form-submit-mit-fetch-progressive-enhancement"
 relatedExercise: "web-development/javascript/dom-und-events/form-submit-mit-fetch-progressive-enhancement"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Das Formular behält `action` und `method`; JavaScript verhindert den Standardweg nur, wenn es aktiv ist, und zeigt Lade-, Erfolgs- und Fehlerstatus sichtbar an.

@@ -1,49 +1,19 @@
 ---
-title: Standardkanäle cin, cout und cerr verstehen
-description: Verstehe, welche Rollen die Standardkanäle in einfachen C++-Programmen übernehmen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - ein-und-ausgabe
-  - standardkanaele-cin-cout-und-cerr-verstehen
-learningGoals:
-  - Du unterscheidest cin, cout und cerr nach ihrer Aufgabe.
-  - Du erklärst, warum für einfache Ein- und Ausgabe <code>&lt;iostream&gt;</code> eingebunden wird.
-  - Du liest kleine Konsolenprogramme eher als Datenfluss als als Symbolkette.
-practiceIdeas:
-  - Ordne in Mini-Beispielen Eingabe, normale Ausgabe und Fehlermeldung.
-  - "Lies ein kurzes Programm nur unter der Frage: Was kommt hinein und was wird sichtbar?"
-  - Vergleiche einen normalen Hinweis mit einer Fehlermeldung.
-commonMistakes:
-  - cin, cout und cerr als fast dasselbe zu behandeln.
-  - Zu übersehen, dass Ausgaben unterschiedliche Rollen haben können.
-  - Sich nur auf die Operatoren zu konzentrieren statt auf den Kanal dahinter.
-keyTakeaways:
-  - cin liest Standardeingaben ein.
-  - cout gibt normale Ausgaben aus.
-  - cerr ist für Fehlerausgaben gedacht.
-recognizeSignals:
-  - Es geht um Konsolenprogramme, Streams oder Standardkanäle.
-  - Du sollst den Weg von Eingabe und Ausgabe im Programm erklären.
-  - In Beispielen kommen cin, cout oder cerr gemeinsam vor.
-selfCheckPoints:
-  - Kann ich cin, cout und cerr sauber unterscheiden?
-  - Kann ich erklären, warum <code>&lt;iostream&gt;</code> gebraucht wird?
-  - Kann ich normale Ausgabe und Fehlerausgabe trennen?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - streams
-  - cin
-  - cout
-  - cerr
+title: "Standardkanäle cin, cout und cerr verstehen"
+description: "Verstehe, welche Rollen die Standardkanäle in einfachen C++-Programmen übernehmen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "standardkanaele-cin-cout-und-cerr-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein C++-Programm liest Eingaben und erzeugt Ausgaben nicht einfach „irgendwie“, sondern über vordefinierte Standardkanäle. Für den Einstieg sind besonders drei wichtig: <code>cin</code>, <code>cout</code> und <code>cerr</code>.

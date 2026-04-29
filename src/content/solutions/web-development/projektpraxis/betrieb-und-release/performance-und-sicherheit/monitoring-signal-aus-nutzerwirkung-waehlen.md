@@ -3,22 +3,12 @@ title: "Lösung – Monitoring-Signal aus Nutzerwirkung wählen"
 description: "Musterlösung zu monitoring-signal aus nutzerwirkung wählen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "performance-und-sicherheit"
-  - "monitoring-signal-aus-nutzerwirkung-waehlen"
+topicPath: ["projektpraxis", "betrieb-und-release", "performance-und-sicherheit", "monitoring-signal-aus-nutzerwirkung-waehlen"]
 taskId: "v112-web-development-monitoring-signal-aus-nutzerwirkung-waehlen"
 relatedExercise: "web-development/projektpraxis/betrieb-und-release/performance-und-sicherheit/monitoring-signal-aus-nutzerwirkung-waehlen"
-tags:
-  - "web-development"
-  - "v112"
-  - "feinstruktur"
-  - "projektpraxis"
-  - "monitoring-signal-aus-nutzerwirkung-waehlen"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Betrieb, Performance und Sicherheit**.

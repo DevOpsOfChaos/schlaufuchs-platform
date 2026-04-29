@@ -1,46 +1,19 @@
 ---
-title: Datentypen in Informationssystemen einordnen
-description: Verstehe, warum unterschiedliche Daten unterschiedliche Datentypen brauchen und was dabei ruhig unterschieden werden sollte.
-subject: informatik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - daten-und-information
-  - datentypen-in-informationssystemen-einordnen
-learningGoals:
-  - Du ordnest typische Informationen passenden Datentypen zu.
-  - Du unterscheidest Text-, Zahl-, Datums- und Bool-Werte sicher.
-  - Du erkennst, warum die Wahl eines Datentyps die spätere Verarbeitung beeinflusst.
-practiceIdeas:
-  - Ordne Bestelldatum, Preis, Produktname und Lieferstatus jeweils einem Datentyp zu.
-  - Prüfe bei einem Formular, welche Eingaben als Text und welche als Zahl gespeichert werden sollten.
-  - Erkläre, warum eine Postleitzahl trotz Ziffern oft kein Rechenwert ist.
-commonMistakes:
-  - Alles, was Ziffern enthält, als Zahl zu behandeln.
-  - Wahr/Falsch-Werte mit freien Texten zu speichern.
-  - Datentypen nur als technische Details statt als fachliche Entscheidung zu sehen.
-keyTakeaways:
-  - Datentypen helfen, Daten passend zu speichern und korrekt zu verarbeiten.
-  - Nicht jede Ziffernfolge ist eine Zahl im mathematischen Sinn.
-  - Ein guter Datentyp macht Regeln, Prüfungen und Auswertungen ruhiger.
-recognizeSignals:
-  - Du sollst Felder, Werte oder Spalten fachlich einordnen.
-  - Ein Beispiel fragt, welcher Typ zu einer Information passt.
-  - Es geht um Verarbeitung, Validierung oder Auswertbarkeit von Daten.
-selfCheckPoints:
-  - Kann ich Text, Zahl, Datum/Zeit und Bool sauber trennen?
-  - Kann ich erklären, warum ein Wert gerade kein Rechenwert ist?
-  - Kann ich den Nutzen eines passenden Datentyps benennen?
-level: einfach
-tags:
-  - informatik
-  - grundlagen
-  - datentypen
-  - daten
-  - information
+title: "Datentypen in Informationssystemen einordnen"
+description: "Verstehe, warum unterschiedliche Daten unterschiedliche Datentypen brauchen und was dabei ruhig unterschieden werden sollte."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "daten-und-information", "datentypen-in-informationssystemen-einordnen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Grundlagen"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Informationssystem verarbeitet nicht einfach „irgendwelche Werte“. Es muss wissen, ob etwas als Text, Zahl, Datum oder Wahrheitswert behandelt werden soll. Genau dafür gibt es Datentypen.

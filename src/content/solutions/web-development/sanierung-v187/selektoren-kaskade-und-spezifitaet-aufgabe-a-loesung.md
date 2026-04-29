@@ -3,23 +3,12 @@ title: "Lösung: Selektoren, Kaskade und Spezifität: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-010a im Web-Development-Block v187."
 subject: "web-development"
 section: "css"
-topicPath: 
-  - "css-und-layout"
-  - "kaskade"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "selektoren-kaskade-und-spezifitaet-aufgabe-a"]
 taskId: "web-v187-010a"
 relatedExercise: "web-development/sanierung-v187/selektoren-kaskade-und-spezifitaet-aufgabe-a"
-tags: 
-  - "css"
-  - "kaskade"
-  - "spezifitaet"
-  - "selektoren"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "css", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-010a`
 
     Ausgangsauftrag: Bestimme bei mehreren CSS-Regeln, welche Farbe ein Element am Ende erhält.

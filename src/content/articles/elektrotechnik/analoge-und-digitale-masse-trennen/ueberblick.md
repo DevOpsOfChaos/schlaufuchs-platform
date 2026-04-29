@@ -1,34 +1,19 @@
 ---
 title: "Analoge und digitale Masse trennen"
 description: "Überblick über getrennte Massebereiche und die Frage, wann Trennung, Sternpunkt oder gemeinsame Masse sinnvoll sind."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik"
-topicPath:
-  - "analoge-und-digitale-masse-trennen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["analoge-und-digitale-masse-trennen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Masseflächen willkürlich aufzuschneiden, ohne die Rückstrompfade zu verstehen."
-keyTakeaways:
-  - "Massetrennung ist eine Layout- und Rückstromfrage, nicht nur eine symbolische Trennung im Schaltplan."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn empfindliche Analogwerte durch digitale Schaltvorgänge, Motoren oder Kommunikation gestört werden."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "layout"
-  - "masse"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik"]
 draft: false
 ---
-
 # Analoge und digitale Masse trennen
 
 Analoge und digitale Massebereiche werden manchmal getrennt geführt, um empfindliche Messsignale vor digitalen Schaltstörungen zu schützen. Dabei geht es nicht um zwei völlig unabhängige Welten, sondern um kontrollierte Rückstrompfade.

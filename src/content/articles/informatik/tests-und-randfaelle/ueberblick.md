@@ -1,35 +1,19 @@
 ---
 title: "Tests und Randfälle"
 description: "Allgemeiner Überblick über Tests, Randfälle und ihre Bedeutung für robuste Programme."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis"
-topicPath:
-  - "tests-und-randfaelle"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst Tests als prüfbare Erwartungen an Programmverhalten."
-  - "Du kannst typische Randfälle einordnen."
-  - "Du verstehst, warum Tests Vertrauen, aber keine absolute Sicherheit geben."
+topicPath: ["tests-und-randfaelle", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur den einfachsten Erfolgsfall zu testen."
-  - "Tests als Ersatz für klares Denken über Anforderungen zu betrachten."
-keyTakeaways:
-  - "Tests beschreiben erwartetes Verhalten anhand konkreter Fälle."
-  - "Randfälle zeigen, ob ein Programm auch an Grenzen sinnvoll reagiert."
-recognizeSignals:
-  - "Es geht um Testfälle, leere Eingaben, Grenzwerte, Fehlerfälle oder Regressionen."
-selfCheckPoints:
-  - "Kann ich mindestens einen Normalfall, einen Grenzfall und einen Fehlerfall nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "tests"
-  - "randfälle"
-  - "qualität"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierpraxis"]
 draft: false
 ---
-
 # Tests und Randfälle
 
 ![Schaubild zu Tests und Randfällen.](/schlaufuchs-platform/images/overviews/v148/tests-und-randfaelle.svg)

@@ -1,36 +1,19 @@
 ---
 title: "Wachstumsmodelle"
 description: "Wachstumsmodelle beschreiben, wie Größen über Zeit oder Schritte zunehmen können."
-subject: mathematik
+subject: "mathematik"
 section: "Modellieren"
-topicPath:
-  - "wachstumsmodelle"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Wachstumsmodelle als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["wachstumsmodelle", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird eine anfänglich schnelle Zunahme vorschnell als exponentiell bezeichnet."
-keyTakeaways:
-  - "Wachstumsmodelle beschreiben, wie Größen über Zeit oder Schritte zunehmen können."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Wachstumsmodelle, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Wachstumsmodelle in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "wachstum"
-  - "funktionen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Modellieren"]
 draft: false
 ---
-
 # Wachstumsmodelle
 
 Wachstumsmodelle beschreiben, wie Größen über Zeit oder Schritte zunehmen können. Diese Überblicksseite ordnet das Thema ruhig und allgemein ein. Sie ist nicht als Aufgabe oder Einzelfall gedacht, sondern als Einstieg, bevor konkrete Situationen, Werkzeuge, Formeln oder Fehlersuchen betrachtet werden.

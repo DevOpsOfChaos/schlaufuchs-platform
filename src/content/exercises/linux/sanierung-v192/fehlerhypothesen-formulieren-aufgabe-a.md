@@ -3,37 +3,15 @@ title: "Fehlerhypothesen formulieren: Aufgabe A"
 description: "Formuliere drei prüfbare Hypothesen zu einem Dienstfehler."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "logging-und-diagnose"
-  - "fehlerhypothesen-formulieren"
-  - "aufgabe-a"
+topicPath: ["sanierung-v192", "fehlerhypothesen-formulieren-aufgabe-a"]
 taskId: "linux-v192-012a"
-tags:
-  - "logging-und-diagnose"
-  - "fehlerhypothesen"
-  - "formulieren"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "aufgabe"
-  - "v192"
-hintPoints:
-  - "Trenne Beobachtung, Eingriff und Kontrolle."
-  - "Nenne den betroffenen Benutzer, Dienst, Pfad, Port oder Zeitplan."
-  - "Beschreibe mindestens einen Rückweg oder Sicherheitscheck."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Fehlerhypothesen formulieren."
-  - "Es gibt eine klare Kontrolle nach der Änderung."
-  - "Risiko und Nebenwirkung werden nicht verschwiegen."
-transferIdeas:
-  - "Übertrage den Prüfweg auf eine zweite Linux-VM oder einen anderen Dienst."
-  - "Formuliere aus deiner Lösung eine kurze Betriebsnotiz."
-reflectionPrompt: "Welcher Schritt verhindert hier den wahrscheinlichsten Adminfehler?"
+tags: ["linux", "adminpraxis-und-betrieb", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Formuliere drei prüfbare Hypothesen zu einem Dienstfehler.

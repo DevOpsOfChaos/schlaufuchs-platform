@@ -1,43 +1,17 @@
 ---
 title: "HTML – Downloads, externe Links und Kontext klar benennen"
 description: "Lerne, Linktexte so zu schreiben, dass Ziel, Aktion und Kontext ohne Ratespiel verständlich werden."
-subject: web-development
+subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "linktexte-und-links"
-  - "downloads-externe-links-und-kontext-klar-benennen"
-learningGoals:
-  - "Du erklärst, warum „hier klicken“ als Linktext schwach ist."
-  - "Du formulierst Links nach Ziel oder Aktion."
-  - "Du machst Downloads und externe Ziele verständlich, ohne zu überfrachten."
-practiceIdeas:
-  - "Schreibe drei schwache Linktexte in klare Linktexte um."
-  - "Prüfe, ob ein Linktext außerhalb des Satzes noch verständlich bleibt."
-  - "Unterscheide Link zu einer Seite, Download und externe Ressource."
-commonMistakes:
-  - "Mehrere Links mit demselben Text „mehr“ zu verwenden."
-  - "Downloadgröße oder Dateityp komplett zu verschweigen, obwohl es wichtig ist."
-  - "Externe Links dramatisch zu markieren, statt den Kontext ruhig zu nennen."
-keyTakeaways:
-  - "Ein Linktext soll das Ziel oder die Aktion benennen."
-  - "Downloads profitieren oft von Dateityp und Größe."
-  - "Gute Linktexte helfen auch in Linklisten und Screenreader-Übersichten."
-recognizeSignals:
-  - "Es geht um Linktexte, Downloads, externe Seiten oder CTA-Texte."
-  - "Eine Aufgabe fragt nach „hier klicken“ oder mehreren gleichen Links."
-  - "Ein Link ist ohne Umgebung unverständlich."
-selfCheckPoints:
-  - "Kann der Linktext allein verstanden werden?"
-  - "Ist klar, ob eine Datei heruntergeladen wird?"
-  - "Sind gleiche Linktexte wirklich gleiche Ziele?"
-tags:
-  - "web development"
-  - "html"
-  - "links"
-  - "linktexte"
-  - "ux"
-level: einfach
+topicPath: ["html", "linktexte-und-links", "downloads-externe-links-und-kontext-klar-benennen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
 ## Grundidee

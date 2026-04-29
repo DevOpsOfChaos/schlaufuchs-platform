@@ -3,24 +3,12 @@ title: "Lösung: Spule und induktive Last: Aufgabe B"
 description: "Musterlösung zur Aufgabe etech-v191-022b im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "zeitverhalten"
-  - "spule-und-induktive-last"
-  - "loesung-b"
+topicPath: ["sanierung-v191", "spule-und-induktive-last-aufgabe-b"]
 taskId: "etech-v191-022b"
 relatedExercise: "elektrotechnik/sanierung-v191/spule-und-induktive-last-aufgabe-b"
-tags:
-  - "zeitverhalten"
-  - "spule"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-022b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Spule und induktive Last“ um einen Messfehler, einen Sicherheitscheck und eine kurze Plausibilitätsprüfung.

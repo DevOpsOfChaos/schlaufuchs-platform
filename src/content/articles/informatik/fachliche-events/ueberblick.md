@@ -1,37 +1,19 @@
 ---
 title: "Fachliche Events"
 description: "Überblick über fachliche Ereignisse als Ausdruck bedeutsamer Änderungen in einem System."
-subject: informatik
+subject: "informatik"
 section: "Domäne"
-topicPath:
-  - "fachliche-events"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Fachliche Events als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["fachliche-events", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Events als Befehle zu formulieren, etwa `SendEmail`, und dadurch fachliche Bedeutung zu verlieren."
-keyTakeaways:
-  - "Domänenereignisse benennen fachlich relevante Tatsachen."
-  - "Sie entkoppeln Reaktionen von der auslösenden Logik."
-  - "Gute Namen beschreiben, was passiert ist."
-recognizeSignals:
-  - "Eine fachliche Änderung soll mehrere Reaktionen auslösen."
-  - "Systemteile sollen lose gekoppelt werden."
-selfCheckPoints:
-  - "Kann ich Fachliche Events in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "domäne"
-  - "events"
-  - "architektur"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Domäne"]
 draft: false
 ---
-
 # Fachliche Events
 
 Ein Domänenereignis beschreibt, dass in der Fachdomäne etwas Relevantes passiert ist.

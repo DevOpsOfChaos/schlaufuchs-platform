@@ -1,33 +1,19 @@
 ---
 title: "Code Review"
 description: "Code Review ist die gemeinsame Prüfung von Änderungen vor oder nach der Integration. Es verbessert Qualität, Wissenstransfer und Fehlererkennung."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "code-review"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Code Review."
-  - "Du kannst Code Review in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["code-review", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Reviews nur als Freigabestempel zu verwenden."
-keyTakeaways:
-  - "Code Review ist die gemeinsame Prüfung von Änderungen vor oder nach der Integration."
-  - "Wichtig sind vor allem fachliche und technische prüfung, lesbarkeit und risiken und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Code Review, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Code Review dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "informatik"
-  - "grundlagen"
-  - "code review"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Code Review
 
 Code Review ist die gemeinsame Prüfung von Änderungen vor oder nach der Integration. Es verbessert Qualität, Wissenstransfer und Fehlererkennung. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

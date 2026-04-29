@@ -1,33 +1,17 @@
 ---
-title: PHP-Ausgabe aus Text und Variablen lesen
-description: Zerlege eine echo-Ausgabe in feste Textteile und eingesetzte Variablenwerte.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - php-variablen-strings-und-ausgabe-verstehen
-  - php-ausgabe-aus-text-und-variablen-lesen
-taskId: INF-PHP-BASICS-002
-level: einfach
+title: "PHP-Ausgabe aus Text und Variablen lesen"
+description: "Zerlege eine echo-Ausgabe in feste Textteile und eingesetzte Variablenwerte."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "php-variablen-strings-und-ausgabe-verstehen", "php-ausgabe-aus-text-und-variablen-lesen"]
+taskId: "INF-PHP-BASICS-002"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - informatik
-  - aufgabe
-  - php
-  - echo
-  - strings
-hintPoints:
-  - "Markiere zuerst die Variablen mit $."
-  - "Trenne feste Texte von eingesetzten Werten."
-selfCheckPoints:
-  - "Habe ich die Rolle von echo richtig beschrieben?"
-  - "Kann ich das fertige Ergebnis in Worten nennen?"
-transferIdeas:
-  - "Baue aus einem Namen oder einer URL eine eigene kleine Ausgabe."
-reflectionPrompt: "Welche Stelle war eher String-Syntax und welche eigentliche Fachlogik?"
 ---
-
 Gegeben ist:
 
 ```php

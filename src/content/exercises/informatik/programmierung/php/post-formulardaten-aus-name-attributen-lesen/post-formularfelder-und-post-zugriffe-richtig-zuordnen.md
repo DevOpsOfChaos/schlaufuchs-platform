@@ -1,32 +1,17 @@
 ---
-title: POST-Formularfelder und $_POST-Zugriffe richtig zuordnen
-description: Ordne name-Attribute in Formularen den passenden serverseitigen $_POST-Zugriffen zu.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - post-formulardaten-aus-name-attributen-lesen
-  - post-formularfelder-und-post-zugriffe-richtig-zuordnen
-taskId: INF-PHP-REQUEST-003
-level: einfach
+title: "POST-Formularfelder und $_POST-Zugriffe richtig zuordnen"
+description: "Ordne name-Attribute in Formularen den passenden serverseitigen $_POST-Zugriffen zu."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "post-formulardaten-aus-name-attributen-lesen", "post-formularfelder-und-post-zugriffe-richtig-zuordnen"]
+taskId: "INF-PHP-REQUEST-003"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - informatik
-  - aufgabe
-  - php
-hintPoints:
-  - "Achte genau auf Namen, Werte und Quelle der Daten."
-  - "Frage zuerst, welcher Schlüssel auf dem Server entsteht."
-selfCheckPoints:
-  - "Habe ich die zentrale Unterscheidung der Aufgabe sauber benannt?"
-  - "Habe ich meinen Ablauf oder Vergleich nachvollziehbar begründet?"
-transferIdeas:
-  - "Übertrage die Denkweise auf einen ähnlichen kleinen PHP-Ausschnitt."
-  - "Formuliere die Logik zusätzlich in einem eigenen Mini-Beispiel."
-reflectionPrompt: "Welche fachliche Trennung war hier am wichtigsten?"
 ---
-
 ## Aufgabe 1: Namen lesen
 
 Ein Formular enthält Felder mit:

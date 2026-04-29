@@ -1,35 +1,17 @@
 ---
-title: Aufgabe – Minmax in Grid verstehen
-description: Übe Minmax in Grid verstehen mit einem kleinen, prüfbaren Szenario.
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- frontend-struktur
-- css-layout-systeme
-- minmax-in-grid-verstehen-v114
-taskId: v114-web-development-minmax-in-grid-verstehen-v114
-tags:
-- web-development
-- v114
-- aufgabe
-- frontend-struktur
-- css-layout-systeme
-hintPoints:
-- Beginne mit der konkreten Situation, nicht mit einer allgemeinen Definition.
-- 'Nutze die Prüffrage: Welche Mindestbreite ist noch lesbar?'
-- Formuliere am Ende eine Gegenprobe.
-selfCheckPoints:
-- Habe ich die Trennkante klar benannt?
-- Habe ich das Nachbarthema bewusst ausgeschlossen?
-- Ist meine Begründung an das Beispiel gekoppelt?
-transferIdeas:
-- Ändere eine Bedingung im Szenario und prüfe, ob die Entscheidung gleich bleibt.
-- Erkläre die Lösung einmal ohne Fachsprache und danach fachlich sauber.
-reflectionPrompt: Welche kleine Prüffrage hat dir am meisten geholfen?
-level: fortgeschritten
+title: "Aufgabe – Minmax in Grid verstehen"
+description: "Übe Minmax in Grid verstehen mit einem kleinen, prüfbaren Szenario."
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["frontend-struktur", "css-layout-systeme", "minmax-in-grid-verstehen-v114"]
+taskId: "v114-web-development-minmax-in-grid-verstehen-v114"
+tags: ["web-development", "Feinstruktur Web Development", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Minmax in Grid verstehen**.

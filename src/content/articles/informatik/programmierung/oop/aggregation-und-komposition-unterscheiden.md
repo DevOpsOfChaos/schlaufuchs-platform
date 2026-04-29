@@ -1,46 +1,19 @@
 ---
-title: Aggregation und Komposition unterscheiden
-description: Verstehe, wie Objekte miteinander verbunden sein koennen und wann Teile eher lose oder eng an ein Ganzes gebunden sind.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - aggregation-und-komposition-unterscheiden
-learningGoals:
-  - Du erklaerst den Unterschied zwischen Aggregation und Komposition.
-  - Du beschreibst, wie stark Teilobjekte an ein Gesamtobjekt gebunden sind.
-  - Du deutest Objektbeziehungen ruhiger ueber Lebensdauer und Abhaengigkeit.
-practiceIdeas:
-  - Vergleiche Beispiele wie Kurs und Teilnehmer oder Haus und Zimmer.
-  - Frage bei einer Beziehung zuerst, ob Teile auch ohne das Ganze sinnvoll weiterbestehen.
-  - Beschreibe Objektbeziehungen in Alltagssprache vor dem Fachbegriff.
-commonMistakes:
-  - Jede Teil Ganzes Beziehung automatisch als Komposition zu lesen.
-  - Nur auf Besitzwoerter statt auf Lebensdauer und Abhaengigkeit zu schauen.
-  - Aggregation und Vererbung miteinander zu vermischen.
-keyTakeaways:
-  - Aggregation beschreibt eine eher lockere Teil Ganzes Beziehung.
-  - Komposition beschreibt eine engere Bindung von Teil und Ganzem.
-  - Die ruhigste Leitfrage lautet oft, ob der Teil auch ohne das Ganze noch sinnvoll existiert.
-recognizeSignals:
-  - Es geht um Objekte, die andere Objekte enthalten oder verwalten.
-  - Eine Aufgabe fragt nach Teil Ganzes Beziehungen in Klassendiagrammen oder Codeideen.
-  - Beispiele drehen sich um Lebensdauer, Verantwortung oder Besitz.
-selfCheckPoints:
-  - Kann ich Aggregation und Komposition in eigenen Worten unterscheiden?
-  - Kann ich Beispiele ueber Bindungsstaerke statt nur ueber Namen deuten?
-  - Kann ich erklaeren, warum nicht jede Sammlung gleich eine Komposition ist?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - beziehungen
-  - komposition
+title: "Aggregation und Komposition unterscheiden"
+description: "Verstehe, wie Objekte miteinander verbunden sein koennen und wann Teile eher lose oder eng an ein Ganzes gebunden sind."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "aggregation-und-komposition-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Objekte stehen in OOP nicht nur fuer sich allein. Sie koennen andere Objekte nutzen, enthalten oder verwalten. Die wichtigste Denkfrage lautet dabei:

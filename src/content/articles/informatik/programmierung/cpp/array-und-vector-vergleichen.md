@@ -1,47 +1,19 @@
 ---
-title: Array und vector vergleichen
-description: Verstehe, worin sich feste Felder und dynamische Vektoren unterscheiden und wann welche Sammlungsidee ruhiger passt.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - sammlungen-und-speicher
-  - array-und-vector-vergleichen
-learningGoals:
-  - Du vergleichst Array und <code>vector</code> nach Größe, Zugriff und Änderbarkeit.
-  - Du erklärst, wann eine feste und wann eine dynamische Sammlung sinnvoll ist.
-  - Du vermeidest die Gleichsetzung „beides ist einfach dasselbe“.
-practiceIdeas:
-  - Vergleiche eine Liste mit fester Länge mit einer Einkaufsliste, die wachsen kann.
-  - Begründe bei einem Beispiel, ob eine feste Größe schon bekannt ist.
-  - Beschreibe, warum <code>push_back</code> bei Arrays nicht passt.
-commonMistakes:
-  - Array und <code>vector</code> für völlig identisch zu halten.
-  - Zu übersehen, dass Arrays feste Größe haben.
-  - Dynamische Änderungen gedanklich auf Arrays zu übertragen.
-keyTakeaways:
-  - Arrays haben feste Größe.
-  - <code>vector</code> kann wachsen und schrumpfen.
-  - Beide erlauben geordneten Zugriff, aber nicht mit derselben Flexibilität.
-recognizeSignals:
-  - Es geht um Sammlungen, feste Länge, dynamische Größe oder Zugriff über Positionen.
-  - Du sollst begründen, welche Datenstruktur ruhiger passt.
-  - In Beispielen musst du Änderbarkeit und feste Planung vergleichen.
-selfCheckPoints:
-  - Kann ich feste und dynamische Größe unterscheiden?
-  - Kann ich erklären, wann ein Array genügt?
-  - Kann ich beschreiben, warum ein <code>vector</code> flexibler ist?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - array
-  - vector
+title: "Array und vector vergleichen"
+description: "Verstehe, worin sich feste Felder und dynamische Vektoren unterscheiden und wann welche Sammlungsidee ruhiger passt."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "array-und-vector-vergleichen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Sowohl Arrays als auch <code>vector</code> speichern mehrere Werte desselben Typs. Der entscheidende Unterschied liegt darin, ob die Anzahl der Elemente schon feststeht oder sich noch ändern kann.

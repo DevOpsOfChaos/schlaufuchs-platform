@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Schaltplan und Aufbau abgleichen"
 description: "Musterlösung zur Aufgabe: Schaltplan und Aufbau abgleichen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - praxis
-  - dokumentation-und-schaltplanpflege
-taskId: ET-V182-024
-relatedExercise: src/content/exercises/elektrotechnik/praxis/dokumentation-und-schaltplanpflege/schaltplan-und-aufbau-abgleichen.md
-tags:
-  - elektrotechnik
-  - dokumentation-und-schaltplanpflege
-  - loesung
-  - sanierung-v182
+topicPath: ["praxis", "dokumentation-und-schaltplanpflege", "schaltplan-und-aufbau-abgleichen"]
+taskId: "ET-V182-024"
+relatedExercise: "src/content/exercises/elektrotechnik/praxis/dokumentation-und-schaltplanpflege/schaltplan-und-aufbau-abgleichen.md"
+tags: ["elektrotechnik", "Praxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

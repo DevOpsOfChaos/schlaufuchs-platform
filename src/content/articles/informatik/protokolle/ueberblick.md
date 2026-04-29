@@ -1,36 +1,19 @@
 ---
 title: "Protokolle"
 description: "Allgemeiner Überblick über Protokolle als Regeln für Kommunikation zwischen Systemen."
-subject: informatik
+subject: "informatik"
 section: "Netzwerke"
-topicPath:
-  - "protokolle"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Protokolle als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["protokolle", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Datenformate und Protokolle vermischt."
-keyTakeaways:
-  - "Protokolle machen Kommunikation eindeutig."
-  - "Sie beschreiben Format, Ablauf und Bedeutung."
-  - "Datenformat und Kommunikationsprotokoll sind nicht dasselbe."
-recognizeSignals:
-  - "Es geht um Protokolle als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Protokolle in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "protokolle"
-  - "netzwerke"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Netzwerke"]
 draft: false
 ---
-
 # Protokolle
 
 Ein Protokoll legt fest, wie Kommunikation abläuft. Es beschreibt Nachrichtenformate, Reihenfolgen, Bedeutungen, Fehlerfälle und Erwartungen der Beteiligten. Ohne Protokolle könnten Systeme zwar Daten senden, aber nicht zuverlässig verstehen, was diese Daten bedeuten.

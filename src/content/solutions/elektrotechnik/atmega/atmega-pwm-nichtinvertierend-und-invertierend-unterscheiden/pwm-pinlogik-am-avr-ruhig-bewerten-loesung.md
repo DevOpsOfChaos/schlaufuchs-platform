@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – PWM-Pinlogik am AVR ruhig bewerten
-description: Musterlösung zur Aufgabe ET-ATMEGA-PWM-210.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - timer-und-pwm
-  - atmega-pwm-nichtinvertierend-und-invertierend-unterscheiden
-  - pwm-pinlogik-am-avr-ruhig-bewerten-loesung
-taskId: ET-ATMEGA-PWM-210
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-pwm-nichtinvertierend-und-invertierend-unterscheiden/pwm-pinlogik-am-avr-ruhig-bewerten.md
-tags:
-  - elektrotechnik
-  - atmega
-  - pwm
-  - loesung
+title: "Musterlösung – PWM-Pinlogik am AVR ruhig bewerten"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-PWM-210."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-pwm-nichtinvertierend-und-invertierend-unterscheiden", "pwm-pinlogik-am-avr-ruhig-bewerten"]
+taskId: "ET-ATMEGA-PWM-210"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-pwm-nichtinvertierend-und-invertierend-unterscheiden/pwm-pinlogik-am-avr-ruhig-bewerten.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Nichtinvertierende PWM und invertierende PWM unterscheiden sich darin, wie der Ausgangspin auf die Compare-Ereignisse reagiert. Der Timer selbst kann denselben Vergleichspunkt verwenden, aber der Pin wird anders gesetzt oder gelöscht. Dadurch sieht das Signal am Ausgang trotz gleicher Zeitbasis anders aus.

@@ -1,24 +1,14 @@
 ---
 title: "Lösung: sort vor uniq beachten"
 description: "Musterlösung zu sort vor uniq beachten mit Trennkante und Gegenprobe."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell-praxis-v115"
-  - "pipes-und-textfilter"
-  - "sort-vor-uniq-beachten-v115"
+topicPath: ["shell-praxis-v115", "pipes-und-textfilter", "sort-vor-uniq-beachten-v115"]
 taskId: "linux-sort-vor-uniq-beachten-v115"
 relatedExercise: "linux/shell-praxis-v115/pipes-und-textfilter/sort-vor-uniq-beachten-v115"
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "shell-praxis"
-  - "pipes und textfilter"
-  - "lösung"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **sort vor uniq beachten**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

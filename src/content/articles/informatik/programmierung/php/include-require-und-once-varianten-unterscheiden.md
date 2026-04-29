@@ -1,47 +1,19 @@
 ---
-title: include, require und once-Varianten unterscheiden
-description: Verstehe, wie PHP Code modular einbindet und warum include, require und die once-Varianten nicht dieselbe Absicht haben.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - include-require-und-once-varianten-unterscheiden
-learningGoals:
-  - Du erklärst den Nutzen externer PHP-Dateien zur Modularisierung.
-  - Du unterscheidest include und require grob nach ihrer fachlichen Bedeutung.
-  - Du erkennst, warum once-Varianten Mehrfacheinbindungen vermeiden.
-practiceIdeas:
-  - Ordne Kopfbereich, Navigation oder Konfigurationsdatei einer sinnvollen Einbindelogik zu.
-  - Prüfe, welche Datei optional ist und welche zwingend benötigt wird.
-  - Erkläre, warum eine gemeinsam genutzte Hilfsdatei nicht mehrfach geladen werden sollte.
-commonMistakes:
-  - Jede Einbindung als gleich wichtig zu behandeln.
-  - Zu übersehen, dass mehrfach eingebundene Hilfsdateien Probleme machen können.
-  - Modularisierung nur als Dateiorganisation statt als Wartbarkeitslogik zu sehen.
-keyTakeaways:
-  - include und require dienen dem Einbinden externer PHP-Dateien.
-  - once-Varianten vermeiden doppelte Einbindung.
-  - Die Wahl hängt davon ab, ob eine Datei optional oder zwingend notwendig ist.
-recognizeSignals:
-  - Es geht um Templates, ausgelagerten Code, Konfigurationen oder gemeinsam genutzte Funktionen.
-  - Ein Beispiel nutzt include, require, include_once oder require_once.
-  - Du sollst entscheiden, wie wichtig eine eingebundene Datei für den Seitenaufbau ist.
-selfCheckPoints:
-  - Kann ich den Nutzen von ausgelagertem Code erklären?
-  - Kann ich sagen, wann once sinnvoll ist?
-  - Kann ich grob unterscheiden, wann eher include und wann eher require passt?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - modularisierung
-  - include
-  - require
+title: "include, require und once-Varianten unterscheiden"
+description: "Verstehe, wie PHP Code modular einbindet und warum include, require und die once-Varianten nicht dieselbe Absicht haben."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "include-require-und-once-varianten-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Wenn wiederkehrender PHP-Code in eigene Dateien ausgelagert wird, bleiben Seiten übersichtlicher und besser wartbar. Diese Dateien können an passender Stelle eingebunden werden.

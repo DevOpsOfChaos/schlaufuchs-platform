@@ -3,22 +3,12 @@ title: "Lösung: Bruch, Prozent und Verhältnis: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-004b."
 subject: "mathematik"
 section: "rechenstrategien-und-kontrolle"
-topicPath:
-  - "rechenstrategien-und-kontrolle"
-  - "bruch-prozent-und-verhaeltnis"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "bruch-prozent-und-verhaeltnis-aufgabe-b"]
 taskId: "mat-v188-004b"
 relatedExercise: "mathematik/sanierung-v188/bruch-prozent-und-verhaeltnis-aufgabe-b"
-tags:
-  - "bruch"
-  - "prozent"
-  - "verhaeltnis"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "rechenstrategien-und-kontrolle", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-004b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

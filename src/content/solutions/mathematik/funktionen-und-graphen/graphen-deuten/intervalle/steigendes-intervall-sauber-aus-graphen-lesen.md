@@ -3,23 +3,12 @@ title: "Lösung – Steigendes Intervall sauber aus Graphen lesen"
 description: "Musterlösung zu Steigende Intervalle mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "funktionen-und-graphen"
-  - "graphen-deuten"
-  - "intervalle"
-  - "steigendes-intervall-sauber-aus-graphen-lesen"
+topicPath: ["funktionen-und-graphen", "graphen-deuten", "intervalle", "steigendes-intervall-sauber-aus-graphen-lesen"]
 taskId: "v111-mathematik-steigendes-intervall-sauber-aus-graphen-lesen"
 relatedExercise: "mathematik/funktionen-und-graphen/graphen-deuten/intervalle/steigendes-intervall-sauber-aus-graphen-lesen"
-tags:
-  - "mathematik"
-  - "prüfung"
-  - "unterthema"
-  - "funktionen-und-graphen"
-  - "graphen-deuten"
-  - "steigendes-intervall-sauber-aus-graphen-lesen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Steigende Intervalle**.

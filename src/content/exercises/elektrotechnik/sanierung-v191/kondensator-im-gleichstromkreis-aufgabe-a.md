@@ -3,36 +3,15 @@ title: "Kondensator im Gleichstromkreis: Aufgabe A"
 description: "Vergleiche den Moment nach dem Einschalten mit dem eingeschwungenen Zustand."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "zeitverhalten"
-  - "kondensator-im-gleichstromkreis"
-  - "aufgabe-a"
+topicPath: ["sanierung-v191", "kondensator-im-gleichstromkreis-aufgabe-a"]
 taskId: "etech-v191-021a"
-tags:
-  - "zeitverhalten"
-  - "kondensator"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "aufgabe"
-  - "v191"
-hintPoints:
-  - "Trenne Schaltplan, realen Aufbau und Messpunkt."
-  - "Nenne mindestens eine Einheit oder einen Grenzwert."
-  - "Formuliere einen passenden Fehlerfall."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Kondensator im Gleichstromkreis."
-  - "Messrichtung, Anschluss oder Bauteilrolle sind nachvollziehbar."
-  - "Die Lösung bleibt ohne Spezialgerät verständlich."
-transferIdeas:
-  - "Übertrage die Idee auf eine zweite kleine Schaltung."
-  - "Erstelle eine Mini-Checkliste für die Messung."
-reflectionPrompt: "Welcher Prüfschritt verhindert hier den wahrscheinlichsten Fehler?"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Vergleiche den Moment nach dem Einschalten mit dem eingeschwungenen Zustand.

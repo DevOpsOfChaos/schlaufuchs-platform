@@ -1,33 +1,17 @@
 ---
 title: "Grundlagen: Prozesse und Dienste"
 description: "Allgemeiner Überblick über laufende Programme, Hintergrunddienste und Prozesskontrolle unter Linux."
-subject: linux
+subject: "linux"
 section: "System"
-topicPath:
-  - system
-  - prozesse-und-dienste
-  - grundlagen-prozesse-und-dienste
-learningGoals:
-  - "Du erklärst Prozesse als laufende Programminstanzen."
-  - "Du unterscheidest Vordergrundprozesse, Hintergrundprozesse und Dienste."
-  - "Du beschreibst, warum Prozesskontrolle für Systemdiagnose wichtig ist."
+topicPath: ["system", "prozesse-und-dienste", "ueberblick", "grundlagen-prozesse-und-dienste"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Programmdatei und laufenden Prozess gleichzusetzen."
-  - "Dienste nur als unsichtbare Programme zu betrachten."
-  - "Prozesse zu beenden, ohne ihre Rolle zu prüfen."
-keyTakeaways:
-  - "Ein Prozess ist ein laufendes Programm mit eigenem Zustand."
-  - "Dienste laufen häufig im Hintergrund und stellen Funktionen bereit."
-  - "Prozessdiagnose hilft, Last, Fehler und blockierte Abläufe zu verstehen."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - linux
-  - prozesse
-  - dienste
-  - system
+level: "einfach"
+tags: ["linux", "System"]
 draft: false
 ---
 ## Begriff

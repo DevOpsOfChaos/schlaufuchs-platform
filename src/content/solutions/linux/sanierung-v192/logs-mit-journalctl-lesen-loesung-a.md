@@ -3,26 +3,12 @@ title: "Lösung: Logs mit journalctl lesen: Aufgabe A"
 description: "Musterlösung zur Aufgabe linux-v192-010a im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "logging-und-diagnose"
-  - "logs-mit-journalctl-lesen"
-  - "loesung-a"
+topicPath: ["sanierung-v192", "logs-mit-journalctl-lesen-loesung-a"]
 taskId: "linux-v192-010a"
 relatedExercise: "linux/sanierung-v192/logs-mit-journalctl-lesen-aufgabe-a"
-tags:
-  - "logging-und-diagnose"
-  - "logs"
-  - "journalctl"
-  - "lesen"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-010a`
 
 Ausgangsauftrag: Finde in einer Logbeschreibung die wahrscheinlich erste Ursache.

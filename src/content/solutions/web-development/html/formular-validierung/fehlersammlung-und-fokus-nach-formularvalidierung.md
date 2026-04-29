@@ -3,21 +3,12 @@ title: "Lösung – Fehlersammlung und Fokus nach Formularvalidierung planen"
 description: "Musterlösung zu: Skizziere eine Fehlersammlung für ein Formular mit fehlender E-Mail und zu kurzem Passwort. Ergänze je einen Feldfehler."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "formular-validierung"
-  - "fehlersammlung-und-fokus-nach-formularvalidierung"
+topicPath: ["html", "formular-validierung", "fehlersammlung-und-fokus-nach-formularvalidierung"]
 taskId: "wd-v97-fehlersammlung-und-fokus-nach-formularvalidierung"
 relatedExercise: "web-development/html/formular-validierung/fehlersammlung-und-fokus-nach-formularvalidierung"
-tags:
-  - "web development"
-  - "html"
-  - "formulare"
-  - "validierung"
-  - "fokus"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Das Problem entsteht nicht nur im Code, sondern in der Nutzung: Wenn Bedeutung, Struktur oder Rückmeldung unklar bleiben, müssen Nutzerinnen und Nutzer raten. Besonders kritisch wird das bei Tastaturbedienung, kleinen Bildschirmen, langen Inhalten oder assistiven Technologien.

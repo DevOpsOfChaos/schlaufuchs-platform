@@ -1,17 +1,19 @@
 ---
-title: Kirchhoffsche Regeln tiefer verstehen
-description: Die Kirchhoffschen Regeln beschreiben Strom- und Spannungserhaltung in Netzwerken und sind zentral für die Analyse elektrischer Schaltungen.
-subject: elektrotechnik
-section: Grundlagen
-level: mittel
-tags:
-  - Kirchhoff
-  - Knotenregel
-  - Maschenregel
-  - Schaltungsanalyse
+title: "Kirchhoffsche Regeln tiefer verstehen"
+description: "Die Kirchhoffschen Regeln beschreiben Strom- und Spannungserhaltung in Netzwerken und sind zentral für die Analyse elektrischer Schaltungen."
+subject: "elektrotechnik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "kirchhoffsche-regeln-tiefer-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 Sobald eine Schaltung mehrere Zweige, Quellen oder Widerstände enthält, reichen einfache Einzelbetrachtungen oft nicht mehr aus. Dann helfen die Kirchhoffschen Regeln. Sie beschreiben grundlegende Erhaltungssätze in elektrischen Netzwerken und bilden eine tragende Grundlage für viele spätere Berechnungen.

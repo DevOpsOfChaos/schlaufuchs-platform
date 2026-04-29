@@ -1,22 +1,14 @@
 ---
 title: "Lösung: Teilspannungen verstehen"
 description: "Lösung zur Aufgabe über Spannungsteiler und Teilspannungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - "praxis"
-  - "spannungsteiler"
-  - "teilspannungen-verstehen"
+topicPath: ["praxis", "spannungsteiler", "teilspannungen-verstehen"]
 taskId: "ET-PR-SPANNUNGSTEILER-001"
 relatedExercise: "src/content/exercises/elektrotechnik/praxis/spannungsteiler/teilspannungen-verstehen.md"
-tags:
-  - "elektrotechnik"
-  - "spannungsteiler"
-  - "widerstand"
-  - "teilspannung"
+tags: ["elektrotechnik", "Praxis", "loesung"]
 draft: false
 ---
-
 ## Lösungsgedanke
 
 Diese Lösung ist bewusst als Musterlösung aufgebaut. Sie zeigt nicht nur ein Ergebnis, sondern die fachliche Begründung, damit die Aufgabe später nachvollziehbar kontrolliert werden kann.

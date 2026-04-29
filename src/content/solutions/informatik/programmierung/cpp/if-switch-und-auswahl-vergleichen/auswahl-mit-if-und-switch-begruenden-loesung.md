@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – Auswahl mit if und switch begründen
-description: Musterlösung zur Aufgabe INF-PROG-CPP-KONTROLL-002.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - kontrollstrukturen
-  - if-switch-und-auswahl-vergleichen
-  - auswahl-mit-if-und-switch-begruenden-loesung
-taskId: INF-PROG-CPP-KONTROLL-002
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/if-switch-und-auswahl-vergleichen/auswahl-mit-if-und-switch-begruenden.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – Auswahl mit if und switch begründen"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-KONTROLL-002."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "if-switch-und-auswahl-vergleichen", "auswahl-mit-if-und-switch-begruenden"]
+taskId: "INF-PROG-CPP-KONTROLL-002"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/if-switch-und-auswahl-vergleichen/auswahl-mit-if-und-switch-begruenden.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Passende Form wählen
 
 - Zahl positiv? → eher <code>if</code>, weil nur eine einzelne Bedingung geprüft wird.

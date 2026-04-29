@@ -1,47 +1,19 @@
 ---
-title: Logische Operatoren und Bedingungen verknüpfen
-description: Verstehe, wie &&, || und ! mehrere Bedingungen in C++ zu einer gemeinsamen Entscheidung verbinden.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - kontrollstrukturen
-  - logische-operatoren-und-bedingungen-verknuepfen
-learningGoals:
-  - "Du erklärst die Grundidee von &&, || und !."
-  - Du unterscheidest "beides muss gelten", "eines reicht" und "nicht".
-  - Du liest zusammengesetzte Bedingungen ruhiger und weniger fehleranfällig.
-practiceIdeas:
-  - Übersetze kombinierte Bedingungen zuerst in normale Sprache.
-  - "Vergleiche Beispiele mit && und || auf denselben Werten."
-  - Prüfe bewusst, wie ! eine Aussage umkehrt.
-commonMistakes:
-  - "&& und || in ihrer Wirkung zu verwechseln."
-  - Zu schnell nur die Symbole zu sehen statt die Logik dahinter.
-  - "! zu überlesen oder an die falsche Stelle zu denken."
-keyTakeaways:
-  - "&& verknüpft Bedingungen mit und."
-  - "|| verknüpft Bedingungen mit oder."
-  - "! kehrt eine Bedingung um."
-recognizeSignals:
-  - Es geht um zusammengesetzte if-Bedingungen oder mehrere Prüfungen zugleich.
-  - Du sollst erklären, wann ein Zweig bei mehreren Teilbedingungen ausgeführt wird.
-  - In Beispielen musst du die Bedingung in ruhige Alltagssprache übersetzen.
-selfCheckPoints:
-  - "Kann ich &&, || und ! in Worten erklären?"
-  - Kann ich sagen, wann eine zusammengesetzte Bedingung wahr ist?
-  - Kann ich erkennen, welche Teilbedingung entscheidend ist?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - logik
-  - bedingungen
+title: "Logische Operatoren und Bedingungen verknüpfen"
+description: "Verstehe, wie &&, || und ! mehrere Bedingungen in C++ zu einer gemeinsamen Entscheidung verbinden."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "logische-operatoren-und-bedingungen-verknuepfen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Manchmal reicht eine einzelne Bedingung nicht aus. Dann werden mehrere Prüfungen logisch miteinander verknüpft.

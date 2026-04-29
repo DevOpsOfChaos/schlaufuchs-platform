@@ -3,24 +3,12 @@ title: "Lösung: Fehlerursache und Symptom trennen: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-014a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "debugging-und-diagnose"
-  - "fehlerursache-und-symptom-trennen"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "fehlerursache-und-symptom-trennen-loesung-a"]
 taskId: "informatik-v193-014a"
 relatedExercise: "informatik/sanierung-v193/fehlerursache-und-symptom-trennen-aufgabe-a"
-tags:
-  - "fehlerursache"
-  - "symptom"
-  - "trennen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-014a`
 
 Ausgangsauftrag: Unterscheide in drei Aussagen Ursache, Symptom und Folgefehler.

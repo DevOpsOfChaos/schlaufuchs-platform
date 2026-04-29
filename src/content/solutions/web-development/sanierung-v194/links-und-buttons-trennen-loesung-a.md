@@ -3,25 +3,12 @@ title: "Lösung: Links und Buttons trennen: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-development-v194-007a im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "interaktion-und-fokus"
-  - "links-und-buttons-trennen"
-  - "loesung-a"
-
+topicPath: ["sanierung-v194", "links-und-buttons-trennen-loesung-a"]
 taskId: "web-development-v194-007a"
 relatedExercise: "web-development/sanierung-v194/links-und-buttons-trennen-aufgabe-a"
-tags:
-  - "links"
-  - "buttons"
-  - "trennen"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-007a`
 
 Ausgangsauftrag: Entscheide bei fünf UI-Elementen zwischen Link und Button.

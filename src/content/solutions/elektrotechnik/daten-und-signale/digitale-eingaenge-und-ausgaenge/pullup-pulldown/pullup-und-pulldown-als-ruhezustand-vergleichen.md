@@ -3,23 +3,12 @@ title: "Lösung – Pull-up und Pull-down als Ruhezustand vergleichen"
 description: "Musterlösung zu Pull-up und Pull-down mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Digitaltechnik"
-topicPath:
-  - "daten-und-signale"
-  - "digitale-eingaenge-und-ausgaenge"
-  - "pullup-pulldown"
-  - "pullup-und-pulldown-als-ruhezustand-vergleichen"
+topicPath: ["daten-und-signale", "digitale-eingaenge-und-ausgaenge", "pullup-pulldown", "pullup-und-pulldown-als-ruhezustand-vergleichen"]
 taskId: "v109-elektrotechnik-pullup-und-pulldown-als-ruhezustand-vergleichen"
 relatedExercise: "elektrotechnik/daten-und-signale/digitale-eingaenge-und-ausgaenge/pullup-pulldown/pullup-und-pulldown-als-ruhezustand-vergleichen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "daten-und-signale"
-  - "digitale-eingaenge-und-ausgaenge"
-  - "pull-up und pull-down"
+tags: ["elektrotechnik", "Digitaltechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Pull-up und Pull-down**.

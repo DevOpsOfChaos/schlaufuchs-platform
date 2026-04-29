@@ -1,28 +1,17 @@
 ---
 title: "Baudrate und Taktfehler zusammen denken"
 description: "Erkläre, warum Kommunikationsfehler auch durch Timing entstehen können."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - mikrocontroller-und-atmega
-  - taktquelle-und-timing-genauigkeit
-taskId: ET-V182-012
-tags:
-  - elektrotechnik
-  - taktquelle-und-timing-genauigkeit
-  - sanierung-v182
-hintPoints:
-  - "Lies zuerst den Normalzustand und danach den Fehlerfall."
-  - "Trenne Beobachtung, Vermutung und Gegenprobe."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["mikrocontroller-und-atmega", "taktquelle-und-timing-genauigkeit", "baudrate-und-taktfehler-zusammen-denken"]
+taskId: "ET-V182-012"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **Taktquelle und Timing-Genauigkeit** ruhig und schrittweise.

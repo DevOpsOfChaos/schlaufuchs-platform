@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Abfragen und Filter ruhig einordnen"
 description: "Musterlösung zur Aufgabe über Abfragen und Filter."
-subject: informatik
+subject: "informatik"
 section: "Datenbanken"
-topicPath:
-  - "datenbanken"
-  - "abfragen-und-filter"
-taskId: INF-V183-09-A
-relatedExercise: src/content/exercises/informatik/datenbanken/abfragen-und-filter/abfragen-und-filter-ruhig-einordnen-v183.md
-tags:
-  - "informatik"
-  - "abfragen-und-filter"
-  - "loesung"
+topicPath: ["datenbanken", "abfragen-und-filter", "abfragen-und-filter-ruhig-einordnen-v183"]
+taskId: "INF-V183-09-A"
+relatedExercise: "src/content/exercises/informatik/datenbanken/abfragen-und-filter/abfragen-und-filter-ruhig-einordnen-v183.md"
+tags: ["informatik", "Datenbanken", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

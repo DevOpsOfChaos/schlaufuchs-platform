@@ -1,46 +1,19 @@
 ---
-title: Normalform und Produktform vergleichen
-description: Darstellungsformen nach ihrer Information auswählen
-subject: mathematik
-section: Feinstruktur Mathematik
-topicPath:
-- algebra-modelle
-- parameter-und-formen
-- normalform-und-produktform-vergleichen-v114
-learningGoals:
-- Du erklärst Normalform und Produktform vergleichen als klar abgegrenztes Unterthema.
-- Du erkennst die typische Verwechslung und formulierst eine passende Prüffrage.
-- Du nutzt eine Gegenprobe, statt dich nur auf den Kapitelbegriff zu verlassen.
-practiceIdeas:
-- Wende die Prüffrage auf ein zweites Beispiel an.
-- Notiere zuerst Kontext, Entscheidung und Gegenprobe.
-- Grenze das Thema bewusst von einem Nachbarthema ab.
-commonMistakes:
-- Jede Form wird gleich gut für jede Frage genutzt.
-- Das Thema wird zu breit einsortiert und verliert dadurch seine konkrete Trennkante.
-- Eine Lösung wird akzeptiert, ohne eine Gegenprobe zu prüfen.
-keyTakeaways:
-- Normalform und Produktform vergleichen wird verständlich, wenn du die kleine Entscheidung im Beispiel sauber benennst.
-- Die Prüffrage hilft stärker als ein breiter Sammelbegriff.
-- Aufgaben bleiben übersichtlich, wenn das Unterthema eng geführt wird.
-recognizeSignals:
-- Eine Aufgabe enthält eine typische Verwechslung.
-- Ein Begriff wirkt bekannt, aber der konkrete Prüfschritt fehlt.
-- Die Lösung muss begründen, warum ein Nachbarthema nicht passt.
-selfCheckPoints:
-- Kann ich die Trennkante in einem Satz nennen?
-- Kann ich die Prüffrage auf das Beispiel anwenden?
-- Kann ich eine sinnvolle Gegenprobe formulieren?
-tags:
-- mathematik
-- v114
-- feinstruktur
-- algebra-modelle
-- parameter-und-formen
-level: fortgeschritten
+title: "Normalform und Produktform vergleichen"
+description: "Darstellungsformen nach ihrer Information auswählen"
+subject: "mathematik"
+section: "Feinstruktur Mathematik"
+topicPath: ["algebra-modelle", "parameter-und-formen", "normalform-und-produktform-vergleichen-v114"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
+tags: ["mathematik", "Feinstruktur Mathematik"]
 draft: false
 ---
-
 ## Grundidee
 
 **Normalform und Produktform vergleichen** ist bewusst als kleines Unterthema angelegt. Darstellungsformen nach ihrer Information auswählen. Dadurch bleibt die Seite auffindbar und vermischt sich nicht mit einem übergroßen Sammelkapitel.

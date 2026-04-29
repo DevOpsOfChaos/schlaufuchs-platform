@@ -3,35 +3,15 @@ title: "Aufgabe – Gegenereignis gezielt nutzen"
 description: "Übe Gegenereignis mit Szenario, Trennkante und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "daten-und-wahrscheinlichkeit"
-  - "datenkritik-und-zufall"
-  - "wahrscheinlichkeit"
-  - "gegenereignis-gezielt-nutzen"
+topicPath: ["daten-und-wahrscheinlichkeit", "datenkritik-und-zufall", "wahrscheinlichkeit", "gegenereignis-gezielt-nutzen"]
 taskId: "v111-mathematik-gegenereignis-gezielt-nutzen"
-tags:
-  - "mathematik"
-  - "prüfung"
-  - "unterthema"
-  - "daten-und-wahrscheinlichkeit"
-  - "datenkritik-und-zufall"
-  - "gegenereignis-gezielt-nutzen"
-hintPoints:
-  - "Benenne zuerst das genaue Unterthema."
-  - "Schreibe die typische Verwechslung ausdrücklich auf."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Lösung enger als ein breites Kapitel?"
-  - "Wird ein Nachbarthema sauber ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere eine zweite Aufgabe im gleichen Unterthema mit anderer Oberfläche."
-reflectionPrompt: "Welche kleine Trennkante macht Gegenereignis übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["mathematik", "Feinstruktur Mathematik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Gegenereignis**.

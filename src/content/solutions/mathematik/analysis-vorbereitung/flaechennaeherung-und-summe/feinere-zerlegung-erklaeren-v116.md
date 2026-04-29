@@ -3,22 +3,12 @@ title: "Lösung: feinere Zerlegung erklären"
 description: "Musterlösung zur Aufgabe „feinere Zerlegung erklären“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "analysis-vorbereitung"
-  - "flaechennaeherung-und-summe"
-  - "feinere-zerlegung-erklaeren-v116"
+topicPath: ["analysis-vorbereitung", "flaechennaeherung-und-summe", "feinere-zerlegung-erklaeren-v116"]
 taskId: "feinere-zerlegung-erklaeren-v116"
 relatedExercise: "mathematik/analysis-vorbereitung/flaechennaeherung-und-summe/feinere-zerlegung-erklaeren-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "flaechennaeherung und summe"
-  - "feinere zerlegung erklaeren"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

@@ -1,46 +1,19 @@
 ---
-title: ATmega – Watchdog mit WDR rechtzeitig zurücksetzen verstehen
-description: Verstehe am AVR, warum der Watchdog nicht „irgendwann nebenbei“ zurückgesetzt werden sollte und weshalb der Zeitpunkt des WDR-Befehls Teil der Überwachungslogik ist.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - robustheit-und-fehlersicherheit
-  - atmega-watchdog-mit-wdr-rechtzeitig-zuruecksetzen-verstehen
-learningGoals:
-  - Du erklärst die Rolle des WDR-Befehls beim AVR-Watchdog.
-  - Du beschreibst, warum „rechtzeitig“ nicht dasselbe ist wie „beliebig oft“.
-  - Du liest Watchdog-Pflege eher als Gesundheitszeichen der Hauptlogik statt als lästige Formalität.
-practiceIdeas:
-  - Prüfe, an welcher Stelle im Programm der Watchdog sinnvoll zurückgesetzt wird.
-  - Vergleiche einen ruhigen WDR-Punkt mit einem gedankenlos häufigen Rücksetzen.
-  - Erkläre Watchdog-Pflege als Aussage über Systemgesundheit statt als bloßen Registerzugriff.
-commonMistakes:
-  - WDR ständig an vielen Stellen aufzurufen und damit die Überwachungswirkung zu verwässern.
-  - Zu denken, Hauptsache der Watchdog läuft nie aus.
-  - Den Rücksetzpunkt nicht an den erfolgreichen Ablauf einer Programmschleife zu koppeln.
-keyTakeaways:
-  - WDR bestätigt dem Watchdog, dass das System noch kontrolliert weiterläuft.
-  - Ein sinnvoller Rücksetzpunkt gehört zur Überwachungslogik des Programms.
-  - Zu häufiges oder gedankenloses Zurücksetzen macht den Watchdog fachlich schwächer.
-recognizeSignals:
-  - Es geht um Watchdog-Pflege, Systemhänger oder die Frage, wo WDR sinnvoll platziert wird.
-  - Du sollst erklären, warum ein Resetpunkt in der Hauptlogik bewusst gewählt werden muss.
-  - In Aufgaben ist der Zeitpunkt des Rücksetzens wichtiger als die bloße Existenz des Befehls.
-selfCheckPoints:
-  - Kann ich erklären, was WDR fachlich bestätigt?
-  - Kann ich einen guten und einen schlechten Rücksetzpunkt unterscheiden?
-  - Kann ich begründen, warum „möglichst oft zurücksetzen“ keine ruhige Strategie ist?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - watchdog
-  - wdr
-level: fortgeschritten
+title: "ATmega – Watchdog mit WDR rechtzeitig zurücksetzen verstehen"
+description: "Verstehe am AVR, warum der Watchdog nicht „irgendwann nebenbei“ zurückgesetzt werden sollte und weshalb der Zeitpunkt des WDR-Befehls Teil der Überwachungslogik ist."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-watchdog-mit-wdr-rechtzeitig-zuruecksetzen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Watchdog ist nur dann eine sinnvolle Überwachung, wenn das Programm ihm nicht blind und ständig signalisiert: „Alles okay.“ Genau deshalb ist der **WDR-Befehl** mehr als ein technischer Pflichtpunkt. Er ist eine Aussage darüber, **dass die Hauptlogik bis hierhin noch kontrolliert gearbeitet hat**.

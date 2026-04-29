@@ -3,24 +3,12 @@ title: "Lösung: Zustand in kleinen Interfaces: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-v190-017b im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "ui-zustand"
-  - "zustand-in-kleinen-interfaces"
-  - "loesung-b"
+topicPath: ["sanierung-v190", "zustand-in-kleinen-interfaces-aufgabe-b"]
 taskId: "web-v190-017b"
 relatedExercise: "web-development/sanierung-v190/zustand-in-kleinen-interfaces-aufgabe-b"
-tags:
-  - "ui-zustand"
-  - "zustand"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-017b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Zustand in kleinen Interfaces“ um einen Fehlerfall, eine Abnahmebedingung und eine kurze Begründung.

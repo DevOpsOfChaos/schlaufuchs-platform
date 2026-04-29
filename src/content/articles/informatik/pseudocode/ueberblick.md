@@ -1,34 +1,19 @@
 ---
 title: "Pseudocode"
 description: "Allgemeiner Überblick über Pseudocode als sprachnahe Beschreibung von Algorithmen."
-subject: informatik
+subject: "informatik"
 section: "Algorithmen"
-topicPath:
-  - "pseudocode"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Pseudocode als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["pseudocode", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Pseudocode entweder zu vage oder zu programmiersprachennah geschrieben."
-keyTakeaways:
-  - "Pseudocode macht algorithmisches Denken sichtbar, ohne sich zu früh an technische Details zu binden."
-  - "Pseudocode sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Pseudocode."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Pseudocode erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "informatik"
-  - "pseudocode"
-  - "algorithmen"
-  - "beschreibung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Algorithmen"]
 draft: false
 ---
-
 # Pseudocode
 
 Pseudocode beschreibt algorithmische Abläufe in einer Form zwischen Alltagssprache und Programmiersprache.

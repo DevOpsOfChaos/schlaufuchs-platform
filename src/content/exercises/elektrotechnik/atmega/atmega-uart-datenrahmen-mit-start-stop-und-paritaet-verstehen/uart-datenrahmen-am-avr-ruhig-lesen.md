@@ -1,32 +1,17 @@
 ---
-title: UART-Datenrahmen am AVR ruhig lesen
-description: Lies Startbit, Datenbits, optionale Parität und Stoppbit als Datenrahmen und ordne typische UART-Fehler ruhiger ein.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-kommunikation
-  - atmega-uart-datenrahmen-mit-start-stop-und-paritaet-verstehen
-  - uart-datenrahmen-am-avr-ruhig-lesen
-taskId: ET-ATMEGA-UART-302
-level: mittel
+title: "UART-Datenrahmen am AVR ruhig lesen"
+description: "Lies Startbit, Datenbits, optionale Parität und Stoppbit als Datenrahmen und ordne typische UART-Fehler ruhiger ein."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-uart-datenrahmen-mit-start-stop-und-paritaet-verstehen", "uart-datenrahmen-am-avr-ruhig-lesen"]
+taskId: "ET-ATMEGA-UART-302"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - uart
-hintPoints:
-  - Trenne Bitzeit und Zeichenrahmen sauber.
-  - Lies 8N1 zuerst als Rahmenform und nicht als Textinhalt.
-selfCheckPoints:
-  - Kannst du Start-, Daten-, Paritäts- und Stoppbit unterscheiden?
-  - Kannst du begründen, warum gleiche Baudrate allein nicht genügt?
-transferIdeas:
-  - Übertrage die Logik auf Terminaleinstellungen, USB-UART-Wandler und Debug-Ausgaben.
-reflectionPrompt: "Warum hilft die Frage nach dem Rahmen oft mehr als die Frage nach dem gesendeten Text?"
 ---
-
 ## Aufgabe 1: 8N1 erklären
 
 Erkläre in 2 bis 4 Sätzen, was `8N1` bedeutet.

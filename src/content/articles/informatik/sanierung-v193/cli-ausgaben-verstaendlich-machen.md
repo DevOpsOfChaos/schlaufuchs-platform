@@ -3,43 +3,17 @@ title: "CLI-Ausgaben verständlich machen"
 description: "Verstehe kommandozeilenfeedback knapp, eindeutig und nutzbar formulieren als ruhigen Informatik-Baustein für Qualität, Tests und nachvollziehbare Änderungen."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "projektstruktur-und-codepflege"
-  - "cli-ausgaben-verstaendlich-machen"
-learningGoals:
-  - "Kommandozeilenfeedback knapp, eindeutig und nutzbar formulieren"
-  - "Beobachtung, Entscheidung und Prüfung klar trennen"
-  - "einen kleinen überprüfbaren nächsten Schritt formulieren"
-practiceIdeas:
-  - "Verbessere eine unklare CLI-Ausgabe für einen fehlgeschlagenen Scan."
-  - "Formuliere einen zweiten Prüfpunkt, der ohne große Umstellung auskommt."
-commonMistakes:
-  - "Es wird direkt geändert, bevor Verhalten und Erwartung klar sind."
-  - "Tests prüfen zu viele Dinge auf einmal."
-  - "Datenstruktur, Schnittstelle oder Fehlerfall bleiben unausgesprochen."
-keyTakeaways:
-  - "CLI-Ausgaben sollen Zustand und nächste Handlung zeigen."
-  - "Zu viel Text verdeckt Wichtiges."
-  - "Fehler brauchen Kontext und Exit-Code-Idee."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Code wachsen, getestet, umgebaut oder erklärt werden muss."
-selfCheckPoints:
-  - "Kann ich das erwartete Verhalten in einem Satz beschreiben?"
-  - "Ist klar, welche Daten, Schnittstellen oder Zustände betroffen sind?"
-  - "Gibt es einen kleinen Test oder Kontrollpunkt nach der Änderung?"
+topicPath: ["sanierung-v193", "cli-ausgaben-verstaendlich-machen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "cli"
-  - "ausgaben"
-  - "verstaendlich"
-  - "machen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis"]
 draft: false
 ---
-
 ![Didaktische Skizze zu CLI-Ausgaben verständlich machen](/schlaufuchs-platform/images/informatik/sanierung-v193/cli-ausgaben-verstaendlich-machen.svg)
 
 CLI-Ausgaben verständlich machen gehört zur Informatik-Sanierung v193. Die Seite behandelt das Thema nicht als isolierten Programmiertrick, sondern als Qualitätsentscheidung: Was soll der Code leisten, woran erkennt man korrektes Verhalten und wie bleibt die Änderung später verständlich?

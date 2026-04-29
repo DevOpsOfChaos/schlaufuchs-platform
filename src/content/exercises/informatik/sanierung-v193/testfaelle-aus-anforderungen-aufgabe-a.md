@@ -3,36 +3,15 @@ title: "Testfälle aus Anforderungen: Aufgabe A"
 description: "Leite aus drei Anforderungen passende Testfälle ab."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "tests-und-randfaelle"
-  - "testfaelle-aus-anforderungen"
-  - "aufgabe-a"
+topicPath: ["sanierung-v193", "testfaelle-aus-anforderungen-aufgabe-a"]
 taskId: "informatik-v193-006a"
-tags:
-  - "testfaelle"
-  - "aus"
-  - "anforderungen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "aufgabe"
-  - "v193"
-hintPoints:
-  - "Beschreibe zuerst das erwartete Verhalten."
-  - "Nenne mindestens eine beteiligte Datenstruktur, Schnittstelle oder Zustandsänderung."
-  - "Formuliere einen kleinen Kontrollpunkt oder Test."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Testfälle aus Anforderungen."
-  - "Erwartung und tatsächliche Beobachtung werden getrennt."
-  - "Der Prüfweg ist klein genug, um ihn direkt nachzuvollziehen."
-transferIdeas:
-  - "Übertrage den Prüfweg auf ein anderes Modul oder eine zweite Eingabe."
-  - "Notiere, welche Annahme du durch einen Test absichern würdest."
-reflectionPrompt: "Welche Annahme wäre am gefährlichsten, wenn sie still falsch bleibt?"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Leite aus drei Anforderungen passende Testfälle ab.

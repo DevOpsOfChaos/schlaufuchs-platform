@@ -1,17 +1,19 @@
 ---
 title: "Dateibefehle"
 description: "Wie typische Befehle wie cp, mv und rm Dateien und Inhalte im Dateisystem verändern."
-subject: linux
+subject: "linux"
 section: "Shell / Befehle"
-level: einfach
-tags:
-  - Dateien
-  - cp
-  - mv
-  - rm
+topicPath: ["shell", "befehle", "dateibefehle"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell / Befehle"]
 draft: false
 ---
-
 ## Worum geht es?
 
 Dateibefehle verändern direkt Inhalte im Dateisystem.  

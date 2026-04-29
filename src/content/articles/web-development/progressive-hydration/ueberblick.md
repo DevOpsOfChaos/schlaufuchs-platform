@@ -1,37 +1,19 @@
 ---
 title: "Progressive Hydration"
 description: "Überblick über progressive Hydration als schrittweise Aktivierung interaktiver Teile einer Webseite."
-subject: web-development
+subject: "web-development"
 section: "Rendering"
-topicPath:
-  - "progressive-hydration"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Progressive Hydration als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["progressive-hydration", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Alle Komponenten sofort zu hydratisieren, obwohl viele erst spät oder gar nicht genutzt werden."
-keyTakeaways:
-  - "Progressive Hydration priorisiert Interaktivität."
-  - "Sie verbindet schnelle Darstellung mit späterem JavaScript."
-  - "Die Grundseite muss auch ohne sofortige Aktivierung nutzbar sein."
-recognizeSignals:
-  - "Eine Seite enthält viele Inseln oder Komponenten."
-  - "Startzeit und JavaScript-Menge sollen reduziert werden."
-selfCheckPoints:
-  - "Kann ich Progressive Hydration in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "web-development"
-  - "hydration"
-  - "performance"
-  - "javascript"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Rendering"]
 draft: false
 ---
-
 # Progressive Hydration
 
 Progressive Hydration bedeutet, dass nicht die gesamte Seite sofort interaktiv gemacht wird, sondern einzelne Bereiche nach Bedarf aktiviert werden.

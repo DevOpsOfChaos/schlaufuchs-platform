@@ -3,23 +3,12 @@ title: "Lösung – Maßstab und Flächenfaktor unterscheiden"
 description: "Musterlösung zur Aufgabe über Skalierung mit Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - "geometrie"
-  - "einheiten-und-skalierung"
-  - "massstab-und-flaechenfaktor-unterscheiden"
+topicPath: ["geometrie", "einheiten-und-skalierung", "massstab-und-flaechenfaktor-unterscheiden"]
 taskId: "v106-mathematik-massstab-und-flaechenfaktor-unterscheiden"
 relatedExercise: "mathematik/geometrie/einheiten-und-skalierung/massstab-und-flaechenfaktor-unterscheiden"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "daten"
-  - "funktionen"
-  - "skalierung"
-  - "geometrie"
-  - "einheiten-und-skalierung"
+tags: ["mathematik", "Geometrie", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Beobachtung

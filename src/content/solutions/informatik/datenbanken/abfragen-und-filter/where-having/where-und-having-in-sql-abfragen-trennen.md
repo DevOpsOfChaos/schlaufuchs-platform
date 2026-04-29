@@ -3,23 +3,12 @@ title: "Lösung – WHERE und HAVING in SQL-Abfragen trennen"
 description: "Musterlösung zu WHERE und HAVING mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Datenbanken"
-topicPath:
-  - "datenbanken"
-  - "abfragen-und-filter"
-  - "where-having"
-  - "where-und-having-in-sql-abfragen-trennen"
+topicPath: ["datenbanken", "abfragen-und-filter", "where-having", "where-und-having-in-sql-abfragen-trennen"]
 taskId: "v109-informatik-where-und-having-in-sql-abfragen-trennen"
 relatedExercise: "informatik/datenbanken/abfragen-und-filter/where-having/where-und-having-in-sql-abfragen-trennen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "datenbanken"
-  - "abfragen-und-filter"
-  - "where und having"
+tags: ["informatik", "Datenbanken", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **WHERE und HAVING**.

@@ -3,20 +3,12 @@ title: "Lösung – Variable sinnvoll definieren"
 description: "Musterlösung zu Variable sinnvoll definieren mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "modellieren"
-  - "sachaufgaben"
-  - "variable-sinnvoll-definieren-v113"
+topicPath: ["modellieren", "sachaufgaben", "variable-sinnvoll-definieren-v113"]
 taskId: "v113-mathematik-variable-sinnvoll-definieren-v113"
 relatedExercise: "mathematik/modellieren/sachaufgaben/variable-sinnvoll-definieren-v113"
-tags:
-  - "mathematik"
-  - "strukturcheck"
-  - "unterthema"
-  - "variable-sinnvoll-definieren-v113"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Variable sinnvoll definieren**.

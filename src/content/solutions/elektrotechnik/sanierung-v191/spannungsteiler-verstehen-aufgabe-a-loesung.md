@@ -3,24 +3,12 @@ title: "Lösung: Spannungsteiler verstehen: Aufgabe A"
 description: "Musterlösung zur Aufgabe etech-v191-005a im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "schaltungsanalyse"
-  - "spannungsteiler-verstehen"
-  - "loesung-a"
+topicPath: ["sanierung-v191", "spannungsteiler-verstehen-aufgabe-a"]
 taskId: "etech-v191-005a"
 relatedExercise: "elektrotechnik/sanierung-v191/spannungsteiler-verstehen-aufgabe-a"
-tags:
-  - "schaltungsanalyse"
-  - "spannungsteiler"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-005a`
 
 Ausgangsauftrag: Erkläre, warum eine Messlast das Ergebnis eines Spannungsteilers verändern kann.

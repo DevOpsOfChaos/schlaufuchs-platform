@@ -3,38 +3,17 @@ title: "Fläche, Umfang und Volumen"
 description: "Fläche, Umfang und Volumen messen verschiedene Eigenschaften einer Figur."
 subject: "mathematik"
 section: "geometrie-messen-und-begruenden"
-topicPath:
-  - "geometrie-messen-und-begruenden"
-  - "flaeche-umfang-und-volumen"
-learningGoals:
-  - "Fläche, Umfang und Volumen messen verschiedene Eigenschaften einer Figur fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Fläche, Umfang und Volumen messen verschiedene Eigenschaften einer Figur wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v188", "flaeche-umfang-und-volumen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "flaeche"
-  - "umfang"
-  - "volumen"
-  - "mathematik"
-  - "v188"
+tags: ["mathematik", "geometrie-messen-und-begruenden"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Fläche, Umfang und Volumen](/schlaufuchs-platform/images/mathematik/sanierung-188/flaeche-umfang-und-volumen.svg)
 
 ## Überblick

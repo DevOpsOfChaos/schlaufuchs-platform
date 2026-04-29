@@ -1,36 +1,17 @@
 ---
 title: "Aufgabe: I2C-Adresse sicher unterscheiden"
 description: "Trainiere I2C-Adresse sicher unterscheiden an einem kleinen, klar abgegrenzten Fall."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "signale-stoerungen-v115"
-  - "kommunikation-robust"
-  - "i2c-adresse-sicher-unterscheiden-v115"
+topicPath: ["signale-stoerungen-v115", "kommunikation-robust", "i2c-adresse-sicher-unterscheiden-v115"]
 taskId: "elektrotechnik-i2c-adresse-sicher-unterscheiden-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "signale und störungen"
-  - "kommunikation robust machen"
-  - "aufgabe"
-hintPoints:
-  - "Grenze zuerst den kleinen Fall vom breiten Themenfeld ab."
-  - "Nutze die Prüffrage: Welche Adressdarstellung nutzt die Bibliothek?"
-  - "Begründe mit zwei konkreten Hinweisen aus dem Fall."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-transferIdeas:
-  - "Übertrage dieselbe Trennkante auf ein eigenes Mini-Beispiel."
-  - "Formuliere einen Gegenfall, der ähnlich aussieht, aber anders entschieden wird."
-reflectionPrompt: "Was war bei „I2C-Adresse sicher unterscheiden“ die wichtigste Trennkante?"
-level: mittel
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den folgenden Fall zu **I2C-Adresse sicher unterscheiden**.

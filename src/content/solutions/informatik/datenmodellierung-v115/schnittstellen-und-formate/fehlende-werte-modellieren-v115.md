@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Fehlende Werte modellieren"
 description: "Musterlösung zu Fehlende Werte modellieren mit Trennkante und Gegenprobe."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenmodellierung-v115"
-  - "schnittstellen-und-formate"
-  - "fehlende-werte-modellieren-v115"
+topicPath: ["datenmodellierung-v115", "schnittstellen-und-formate", "fehlende-werte-modellieren-v115"]
 taskId: "informatik-fehlende-werte-modellieren-v115"
 relatedExercise: "informatik/datenmodellierung-v115/schnittstellen-und-formate/fehlende-werte-modellieren-v115"
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "datenmodellierung"
-  - "schnittstellen und formate"
-  - "lösung"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Fehlende Werte modellieren**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

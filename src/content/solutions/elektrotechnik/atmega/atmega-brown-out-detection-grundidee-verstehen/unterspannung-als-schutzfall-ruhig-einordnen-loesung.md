@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Unterspannung als Schutzfall ruhig einordnen
-description: Musterlösung zur Aufgabe ET-ATMEGA-SYS-303.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - systemstart-und-robustheit
-  - atmega-brown-out-detection-grundidee-verstehen
-  - unterspannung-als-schutzfall-ruhig-einordnen-loesung
-taskId: ET-ATMEGA-SYS-303
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-brown-out-detection-grundidee-verstehen/unterspannung-als-schutzfall-ruhig-einordnen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – Unterspannung als Schutzfall ruhig einordnen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-SYS-303."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-brown-out-detection-grundidee-verstehen", "unterspannung-als-schutzfall-ruhig-einordnen"]
+taskId: "ET-ATMEGA-SYS-303"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-brown-out-detection-grundidee-verstehen/unterspannung-als-schutzfall-ruhig-einordnen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

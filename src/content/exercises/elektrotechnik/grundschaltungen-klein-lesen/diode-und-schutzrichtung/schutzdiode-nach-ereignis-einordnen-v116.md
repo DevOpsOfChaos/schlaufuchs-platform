@@ -3,34 +3,15 @@ title: "Übung: Schutzdiode nach Ereignis einordnen"
 description: "Übe, „Schutzdiode nach Ereignis einordnen“ als kleines Unterthema zu erkennen, zu begründen und mit einer Gegenprobe abzusichern."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "grundschaltungen-klein-lesen"
-  - "diode-und-schutzrichtung"
-  - "schutzdiode-nach-ereignis-einordnen-v116"
+topicPath: ["grundschaltungen-klein-lesen", "diode-und-schutzrichtung", "schutzdiode-nach-ereignis-einordnen-v116"]
 taskId: "schutzdiode-nach-ereignis-einordnen-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "diode und schutzrichtung"
-  - "schutzdiode nach ereignis einordnen"
-  - "v116"
-hintPoints:
-  - "Lies zuerst nur die konkrete Unterfrage."
-  - "Markiere eine typische Fehlannahme."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Lösung fachlich begründet?"
-  - "Ist die Abgrenzung zum Nachbarthema sichtbar?"
-  - "Passt die Gegenprobe zur Aufgabe?"
-transferIdeas:
-  - "Ändere eine Bedingung und prüfe, ob deine Begründung noch trägt."
-  - "Erkläre die Lösung einmal ohne Fachwörter und danach fachlich sauber."
-reflectionPrompt: "Welche kleine Entscheidung war bei „Schutzdiode nach Ereignis einordnen“ am wichtigsten?"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe 1: Unterfrage erkennen
 
 Lies die Situation:

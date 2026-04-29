@@ -1,46 +1,19 @@
 ---
-title: ATmega – Fast PWM und Phase Correct PWM unterscheiden
-description: Verstehe, warum der AVR unterschiedliche PWM-Betriebsarten kennt und wie sich Zählverlauf, Symmetrie und Periodendauer unterscheiden.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - timer-und-pwm
-  - atmega-fast-pwm-und-phase-correct-unterscheiden
-learningGoals:
-  - Du erklärst den Unterschied zwischen Fast PWM und Phase Correct PWM am AVR.
-  - Du beschreibst PWM eher über den Zählverlauf des Timers als nur über einen Modusnamen.
-  - Du liest Symmetrie und Periodendauer als technische Folgen der gewählten Betriebsart.
-practiceIdeas:
-  - Vergleiche auf dem Papier, wie der Timer in beiden PWM-Modi zählt.
-  - Prüfe, welche Rolle Symmetrie für Motor- oder Leistungssignale spielen kann.
-  - Ordne denselben Tastgrad in unterschiedlichen PWM-Betriebsarten ruhig ein.
-commonMistakes:
-  - Fast PWM und Phase Correct PWM als nur zwei Namen für dasselbe Signal zu lesen.
-  - Zu glauben, der Tastgrad allein beschreibe schon alles Relevante.
-  - Den Timerverlauf nicht mit der Form des Ausgangssignals zusammenzudenken.
-keyTakeaways:
-  - Fast PWM zählt typischerweise schneller in eine Richtung und startet neu.
-  - Phase Correct PWM zählt auf und ab und erzeugt dadurch ein symmetrischeres Zeitbild.
-  - Die PWM-Betriebsart prägt mehr als nur den Namen des Modus.
-recognizeSignals:
-  - Es geht um Timer-Modi, PWM-Symmetrie oder unterschiedliche PWM-Frequenzen trotz ähnlicher Einstellungen.
-  - Du sollst erklären, warum derselbe Tastgrad in zwei Modi dennoch anders eingeordnet wird.
-  - In Aufgaben wird zwischen Zählverlauf und Ausgangssignal vermittelt.
-selfCheckPoints:
-  - Kann ich den Zählverlauf beider Modi erklären?
-  - Kann ich sagen, warum Phase Correct symmetrischer wirkt?
-  - Kann ich den Unterschied als Zeitbild statt nur als Registername beschreiben?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - pwm
-  - timer
-level: mittel
+title: "ATmega – Fast PWM und Phase Correct PWM unterscheiden"
+description: "Verstehe, warum der AVR unterschiedliche PWM-Betriebsarten kennt und wie sich Zählverlauf, Symmetrie und Periodendauer unterscheiden."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-fast-pwm-und-phase-correct-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 PWM ist nicht nur „ein Tastgrad auf einem Pin“. Am AVR bestimmt auch die **Betriebsart des Timers**, wie dieses Signal zeitlich entsteht. Besonders wichtig ist der Unterschied zwischen **Fast PWM** und **Phase Correct PWM**.

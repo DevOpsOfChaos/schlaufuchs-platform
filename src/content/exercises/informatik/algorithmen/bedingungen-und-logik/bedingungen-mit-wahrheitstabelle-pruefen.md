@@ -3,33 +3,15 @@ title: "Aufgabe – Bedingungen mit Wahrheitstabelle prüfen"
 description: "Übe bedingungen mit wahrheitstabelle prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "algorithmen"
-  - "bedingungen-und-logik"
-  - "bedingungen-mit-wahrheitstabelle-pruefen"
+topicPath: ["algorithmen", "bedingungen-und-logik", "bedingungen-mit-wahrheitstabelle-pruefen"]
 taskId: "v112-informatik-bedingungen-mit-wahrheitstabelle-pruefen"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "algorithmen"
-  - "bedingungen-mit-wahrheitstabelle-pruefen"
-hintPoints:
-  - "Benenne zuerst das kleine Unterthema."
-  - "Prüfe bewusst den Unterschied zum Fehler: Nur der gewünschte Fall wird getestet."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Einordnung enger als nur der breite Fachbereich?"
-  - "Wird der typische Fehler ausdrücklich ausgeschlossen?"
-  - "Passt die Lösung zur Wissensseite?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Begriff und prüfe, ob die gleiche Strategie gilt."
-  - "Erkläre die Lösung einmal alltagssprachlich und danach fachlich sauber."
-reflectionPrompt: "Was war bei „Bedingungen mit Wahrheitstabelle prüfen“ die wichtigste Trennkante?"
+tags: ["informatik", "Feinstruktur Informatik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation:

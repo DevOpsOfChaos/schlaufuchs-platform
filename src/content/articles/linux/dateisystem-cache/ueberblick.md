@@ -1,34 +1,19 @@
 ---
 title: "Dateisystem-Cache"
 description: "Überblick über zwischengespeicherte Dateizugriffe im Arbeitsspeicher und ihre Wirkung auf Performance und Messungen."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "dateisystem-cache"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["dateisystem-cache", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Dateisystem-Cache als Speicherleck zu interpretieren."
-keyTakeaways:
-  - "Linux nutzt freien RAM als Cache, um Dateizugriffe zu beschleunigen, und gibt ihn bei Bedarf frei."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Speicher scheinbar voll ist oder Dateizugriffe nach Wiederholung stark schneller werden."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "dateisystem"
-  - "speicher"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # Dateisystem-Cache
 
 Der Dateisystem-Cache hält häufig genutzte Daten im Arbeitsspeicher, damit wiederholte Zugriffe schneller erfolgen. Linux nutzt freien Speicher aktiv als Cache, ohne dass dieser dauerhaft verloren ist.

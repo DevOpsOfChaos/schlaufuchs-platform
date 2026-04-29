@@ -1,33 +1,17 @@
 ---
 title: "Domänensprache"
 description: "Überblick über fachliche Begriffe als Grundlage für verständliche Softwaremodelle und klare Kommunikation."
-subject: informatik
+subject: "informatik"
 section: "Modellierung"
-topicPath:
-  - "domaenensprache"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Domänensprache als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["domaenensprache", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Wenn Fachbegriffe im Code beliebig übersetzt oder verkürzt werden, entstehen Missverständnisse. Gute Namen sind Architekturarbeit."
-keyTakeaways:
-  - "Domänensprache verbindet die reale Fachwelt mit Datenmodellen, Schnittstellen und Programmcode."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um domänensprache, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich domänensprache in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "domänensprache"
-  - "überblick"
-  - "begriffe"
-  - "regeln"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Modellierung"]
 draft: false
 ---
 # Domänensprache

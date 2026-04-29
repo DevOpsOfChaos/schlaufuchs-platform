@@ -1,26 +1,14 @@
 ---
-title: Musterlösung – Iteratorpositionen und Änderungen erklären
-description: Musterlösung zur Aufgabe INF-PROG-CPP-ITERATOR-001.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - vector-und-container
-  - iteratoren-bei-vector-verstehen
-  - iteratorpositionen-und-aenderungen-erklaeren-loesung
-taskId: INF-PROG-CPP-ITERATOR-001
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/iteratoren-bei-vector-verstehen/iteratorpositionen-und-aenderungen-erklaeren.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - iterator
-  - loesung
-  - task-id
+title: "Musterlösung – Iteratorpositionen und Änderungen erklären"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-ITERATOR-001."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "iteratoren-bei-vector-verstehen", "iteratorpositionen-und-aenderungen-erklaeren"]
+taskId: "INF-PROG-CPP-ITERATOR-001"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/iteratoren-bei-vector-verstehen/iteratorpositionen-und-aenderungen-erklaeren.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: begin und end beschreiben
 
 `begin()` steht für die Startposition am ersten Element des vectors. `end()` steht für die Position direkt hinter dem letzten Element. Darum ist `end()` gerade nicht das letzte gespeicherte Element selbst.

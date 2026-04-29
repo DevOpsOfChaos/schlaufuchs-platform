@@ -3,23 +3,12 @@ title: "Lösung: Semantik und Landmarks: Prüfung und Verbesserung"
 description: "Musterlösung zur Aufgabe web-v187-003b im Web-Development-Block v187."
 subject: "web-development"
 section: "html"
-topicPath: 
-  - "html-und-semantik"
-  - "landmarks"
-  - "loesung-b"
+topicPath: ["sanierung-v187", "semantik-und-landmarks-aufgabe-b"]
 taskId: "web-v187-003b"
 relatedExercise: "web-development/sanierung-v187/semantik-und-landmarks-aufgabe-b"
-tags: 
-  - "html"
-  - "semantik"
-  - "landmarks"
-  - "barrierefreiheit"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "html", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-003b`
 
     Ausgangsauftrag: Überarbeite eine div-lastige Seitenstruktur zu einer lesbaren Landmark-Struktur.

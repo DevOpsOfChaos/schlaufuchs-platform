@@ -3,24 +3,12 @@ title: "Lösung: Ausreißer und Anomalien: Aufgabe A"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-029a im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "auswertung-und-kommunikation"
-  - "ausreisser-und-anomalien"
-  - "loesung-a"
-
+topicPath: ["sanierung-v195", "ausreisser-und-anomalien-loesung-a"]
 taskId: "daten-und-signale-v195-029a"
 relatedExercise: "daten-und-signale/sanierung-v195/ausreisser-und-anomalien-aufgabe-a"
-tags:
-  - "ausreisser"
-  - "anomalien"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-029a`
 
 Ausgangsauftrag: Entscheide für drei auffällige Messpunkte, wie du sie prüfen würdest.

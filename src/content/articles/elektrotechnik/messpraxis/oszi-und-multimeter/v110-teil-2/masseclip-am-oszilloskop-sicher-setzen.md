@@ -3,46 +3,17 @@ title: "Elektrotechnik – Masseclip am Oszilloskop sicher setzen"
 description: "Lerne Masseclip am Oszilloskop sicher setzen als kleines, klar prüfbares Unterthema mit Abgrenzung, Beispiel und Gegenprobe."
 subject: "elektrotechnik"
 section: "Messpraxis"
-topicPath:
-  - "messpraxis"
-  - "oszi-und-multimeter"
-  - "v110-teil-2"
-  - "masseclip-am-oszilloskop-sicher-setzen"
-learningGoals:
-  - "Du erklärst Masseclip am Oszilloskop sicher setzen als eigenes Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Erstelle eine Gegenprobe mit verändertem Wert, Zustand oder Kontext."
-  - "Vergleiche die Seite mit einem Nachbarthema und nenne die Trennkante."
-commonMistakes:
-  - "Die Oszilloskopmasse wird als frei schwebend angenommen."
-  - "Das Thema nur einem breiten Kapitel zuordnen."
-  - "Eine Lösung formulieren, die keine konkrete Prüfung enthält."
-keyTakeaways:
-  - "Masseclip am Oszilloskop sicher setzen wird über Einordnung, Abgrenzung und Gegenprobe stabil."
-  - "Kleine Unterthemen erhöhen Auffindbarkeit und reduzieren Doppelungen."
-  - "Aufgabe und Lösung sollen dieselbe fachliche Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Ein breites Kapitel wäre als Antwort zu ungenau."
-  - "Ein konkreter Prüfschritt kann die Entscheidung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "messpraxis"
-  - "oszi-und-multimeter"
-  - "masseclip-am-oszilloskop-sicher-setzen"
+topicPath: ["messpraxis", "oszi-und-multimeter", "v110-teil-2", "masseclip-am-oszilloskop-sicher-setzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["elektrotechnik", "Messpraxis"]
 draft: false
 ---
-
 ## Grundidee
 
 **Masseclip am Oszilloskop sicher setzen** ist bewusst als enges Unterthema angelegt. Die Seite beantwortet nicht das ganze Kapitel, sondern die kleine fachliche Entscheidung, die in Aufgaben oft den Unterschied macht.

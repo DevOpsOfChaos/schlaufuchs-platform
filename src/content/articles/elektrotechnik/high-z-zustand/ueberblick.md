@@ -1,33 +1,19 @@
 ---
 title: "High-Z-Zustand"
 description: "High-Z bezeichnet einen hochohmigen Zustand, in dem ein Ausgang elektrisch nahezu abgekoppelt ist. Er ist zentral, wenn mehrere Teilnehmer eine Leitung teilen oder ein Pin zeitweise nicht treiben soll."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik und Mikrocontroller"
-topicPath:
-  - "high-z-zustand"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von High-Z-Zustand."
-  - "Du kannst High-Z-Zustand in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["high-z-zustand", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "High-Z als logische Null zu interpretieren."
-keyTakeaways:
-  - "High-Z bezeichnet einen hochohmigen Zustand, in dem ein Ausgang elektrisch nahezu abgekoppelt ist."
-  - "Wichtig sind vor allem hochohmiger zustand, busleitungen und geteilte signale und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um High-Z-Zustand, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu High-Z-Zustand dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "grundlagen"
-  - "high z zustand"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik und Mikrocontroller"]
 draft: false
 ---
-
 # High-Z-Zustand
 
 High-Z bezeichnet einen hochohmigen Zustand, in dem ein Ausgang elektrisch nahezu abgekoppelt ist. Er ist zentral, wenn mehrere Teilnehmer eine Leitung teilen oder ein Pin zeitweise nicht treiben soll. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

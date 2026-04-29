@@ -1,37 +1,19 @@
 ---
 title: "Loading Priority"
 description: "Überblick über Ladeprioritäten für Bilder, Skripte und kritische Ressourcen im Browser."
-subject: web-development
+subject: "web-development"
 section: "Performance"
-topicPath:
-  - "loading-priority"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Loading Priority als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["loading-priority", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Alle Ressourcen gleichzeitig hoch zu priorisieren und damit die eigentliche Priorisierung zu verlieren."
-keyTakeaways:
-  - "Ladeprioritäten ordnen Ressourcen nach Nutzerwirkung."
-  - "Sichtbare Kerninhalte sind wichtiger als spätere Zusatzbereiche."
-  - "Priorisierung und Dateigröße müssen zusammen betrachtet werden."
-recognizeSignals:
-  - "Eine Seite zeigt spät den Hauptinhalt."
-  - "Viele Bilder, Fonts oder Skripte konkurrieren beim Laden."
-selfCheckPoints:
-  - "Kann ich Loading Priority in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "web-development"
-  - "performance"
-  - "loading"
-  - "browser"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Performance"]
 draft: false
 ---
-
 # Loading Priority
 
 Loading Priority beschreibt, welche Ressourcen ein Browser früh, spät oder nur bei Bedarf laden soll.

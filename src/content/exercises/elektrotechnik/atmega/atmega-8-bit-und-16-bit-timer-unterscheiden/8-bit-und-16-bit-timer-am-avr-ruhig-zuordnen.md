@@ -1,32 +1,17 @@
 ---
-title: 8-Bit- und 16-Bit-Timer am AVR ruhig zuordnen
-description: Ordne Timergröße, Zählbereich und praktischen Einsatzfall am AVR sauber zueinander.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - timer-und-zeitbasis
-  - atmega-8-bit-und-16-bit-timer-unterscheiden
-  - 8-bit-und-16-bit-timer-am-avr-ruhig-zuordnen
-taskId: ET-ATMEGA-TIMER-401
-level: mittel
+title: "8-Bit- und 16-Bit-Timer am AVR ruhig zuordnen"
+description: "Ordne Timergröße, Zählbereich und praktischen Einsatzfall am AVR sauber zueinander."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-8-bit-und-16-bit-timer-unterscheiden", "8-bit-und-16-bit-timer-am-avr-ruhig-zuordnen"]
+taskId: "ET-ATMEGA-TIMER-401"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - timer
-hintPoints:
-  - Trenne Bitbreite, Zählbereich und Einsatzfall bewusst.
-  - Frage zuerst nach dem benötigten Zeitfenster und nicht nur nach dem Namen des Timers.
-selfCheckPoints:
-  - Kannst du 8-Bit und 16-Bit sauber unterscheiden?
-  - Kannst du erklären, warum größer nicht automatisch besser heißt?
-transferIdeas:
-  - Übertrage die Logik auf LED-Taktung, Messzeitfenster und PWM-Aufgaben.
-reflectionPrompt: "Warum hilft die Frage nach dem Zählbereich oft mehr als die Frage nach der Timer-Nummer?"
 ---
-
 ## Aufgabe 1: Zählbereich benennen
 
 Erkläre kurz den typischen Zählbereich eines 8-Bit-Timers und eines 16-Bit-Timers am AVR.

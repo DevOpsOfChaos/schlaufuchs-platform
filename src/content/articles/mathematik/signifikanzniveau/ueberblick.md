@@ -1,36 +1,19 @@
 ---
 title: "Signifikanzniveau"
 description: "Das Signifikanzniveau legt fest, wie groß die akzeptierte Wahrscheinlichkeit für einen Fehler erster Art in einem Hypothesentest ist."
-subject: mathematik
+subject: "mathematik"
 section: "Statistik"
-topicPath:
-  - "signifikanzniveau"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Signifikanzniveau als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["signifikanzniveau", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird ein p-Wert unter dem Signifikanzniveau als Beweis für die Alternativhypothese verstanden."
-keyTakeaways:
-  - "Das Signifikanzniveau legt fest, wie groß die akzeptierte Wahrscheinlichkeit für einen Fehler erster Art in einem Hypothesentest ist."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Signifikanzniveau, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Signifikanzniveau in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "statistik"
-  - "hypothesentest"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Statistik"]
 draft: false
 ---
-
 # Signifikanzniveau
 
 Das Signifikanzniveau legt fest, wie groß die akzeptierte Wahrscheinlichkeit für einen Fehler

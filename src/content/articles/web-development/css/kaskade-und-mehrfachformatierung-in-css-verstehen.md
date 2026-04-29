@@ -1,44 +1,19 @@
 ---
-title: Kaskade und Mehrfachformatierung in CSS verstehen
-description: Verstehe, warum mehrere CSS-Regeln gleichzeitig auf ein Element wirken können und wie Konflikte entschieden werden.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - kaskade-und-mehrfachformatierung-in-css-verstehen
-learningGoals:
-  - Du erklärst die Grundidee der CSS-Kaskade.
-  - Du unterscheidest ergänzende und konkurrierende Regeln.
-  - Du beschreibst, warum die Nähe und Zielgenauigkeit einer Regel wichtig ist.
-practiceIdeas:
-  - Vergleiche zwei Regeln, die dasselbe Element treffen.
-  - Prüfe, welche Eigenschaft sich ergänzt und welche konkurriert.
-  - Begründe, warum eine Regel "gewinnt".
-commonMistakes:
-  - Zu glauben, dass immer nur genau eine Regel wirkt.
-  - Alle Konflikte nur mit "später steht weiter unten" zu erklären.
-  - Ergänzende Eigenschaften mit Konkurrenz zu verwechseln.
-keyTakeaways:
-  - Mehrere Regeln können gleichzeitig auf ein Element wirken.
-  - Nicht jede Mehrfachformatierung ist ein Konflikt.
-  - Bei Konkurrenz zählt die gezieltere oder nähere Regel stärker.
-recognizeSignals:
-  - Es gibt mehrere CSS-Regeln für dasselbe Element.
-  - Du sollst erklären, warum eine Formatierung am Ende sichtbar wird.
-  - In Beispielen tauchen Element-, Klassen- und ID-Regeln zusammen auf.
-selfCheckPoints:
-  - Kann ich ergänzende und konkurrierende Regeln unterscheiden?
-  - Kann ich erklären, warum eine gezieltere Regel stärker wirkt?
-  - Kann ich die Kaskade als Entscheidungslogik beschreiben?
-tags:
-  - css
-  - kaskade
-  - spezifitaet
-  - stylesheets
-level: einfach
+title: "Kaskade und Mehrfachformatierung in CSS verstehen"
+description: "Verstehe, warum mehrere CSS-Regeln gleichzeitig auf ein Element wirken können und wie Konflikte entschieden werden."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "kaskade-und-mehrfachformatierung-in-css-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 CSS heißt nicht ohne Grund **Cascading** Style Sheets. Regeln wirken nicht isoliert, sondern können sich überlagern. Manche ergänzen sich ruhig, andere konkurrieren direkt miteinander.

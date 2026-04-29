@@ -1,44 +1,19 @@
 ---
-title: Elektrotechnik – Stromversorgung und Schutz im Überblick
-description: Ordnet Versorgungsspannung, Masse, Schutzbeschaltung und typische Risiken ein.
-subject: elektrotechnik
-section: Stromversorgung und Schutz
-topicPath:
-  - "stromversorgung-und-schutz"
-  - "ueberblick"
-learningGoals:
-  - "Den Themenbereich Stromversorgung und Schutz im Überblick allgemein einordnen."
-  - "Grundbegriffe, Nutzen und typische Grenzen unterscheiden."
-  - "Einzelne Lernseiten als Vertiefung statt als Einstieg lesen."
-practiceIdeas:
-  - "Erstelle eine kurze Begriffskarte mit Zweck, typischem Beispiel und häufiger Verwechslung."
-  - "Ordne vorhandene Lernseiten danach, welchen Teil des Überblicks sie vertiefen."
-  - "Formuliere zu jedem Abschnitt eine eigene Kontrollfrage."
-commonMistakes:
-  - "Nur Spannung zu prüfen und den Strombedarf zu vergessen."
-  - "Massebezug und Schutzbeschaltung zu unterschätzen."
-keyTakeaways:
-  - "Stromversorgung umfasst Spannung, Strom, Stabilität und Schutz."
-  - "Masse ist ein Bezugspunkt, nicht einfach nur ein Kabel."
-  - "Schutzmaßnahmen verhindern Schäden bei Fehlerfällen."
-recognizeSignals:
-  - "Ein Unterthema enthält viele einzelne Situationsseiten, aber es fehlt eine gemeinsame Einordnung."
-  - "Begriffe werden in Aufgaben verwendet, bevor Zweck und Zusammenhang klar sind."
-  - "Man muss entscheiden, welche Vertiefungsseite als nächstes sinnvoll ist."
-selfCheckPoints:
-  - "Kann ich das Thema in zwei bis drei Sätzen allgemein erklären?"
-  - "Kann ich Zweck, Vorgehen und typische Fehler getrennt benennen?"
-  - "Kann ich erklären, welche Vertiefungsseite zu welcher Frage passt?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "stromversorgung"
-  - "schutz"
-  - "masse"
-  - "überblick"
+title: "Elektrotechnik – Stromversorgung und Schutz im Überblick"
+description: "Ordnet Versorgungsspannung, Masse, Schutzbeschaltung und typische Risiken ein."
+subject: "elektrotechnik"
+section: "Stromversorgung und Schutz"
+topicPath: ["stromversorgung-und-schutz", "ueberblick", "grundlagen-stromversorgung-und-schutz"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Stromversorgung und Schutz"]
 draft: false
 ---
-
 ## Überblick
 
 Elektronische Schaltungen benötigen eine passende und stabile Versorgung. Gleichzeitig müssen Bauteile vor falscher Spannung, zu hohem Strom, Verpolung und Störungen geschützt werden.

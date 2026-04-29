@@ -3,23 +3,12 @@ title: "Lösung – clamp für fluid typography lesbar einsetzen"
 description: "Musterlösung zu Fluid Typography mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "responsive-design"
-  - "fluid-typography"
-  - "clamp-fuer-fluid-typography-lesbar-einsetzen"
+topicPath: ["css", "responsive-design", "fluid-typography", "clamp-fuer-fluid-typography-lesbar-einsetzen"]
 taskId: "v108-web-development-clamp-fuer-fluid-typography-lesbar-einsetzen"
 relatedExercise: "web-development/css/responsive-design/fluid-typography/clamp-fuer-fluid-typography-lesbar-einsetzen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "css"
-  - "responsive-design"
-  - "fluid typography"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **Fluid Typography**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

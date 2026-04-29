@@ -3,33 +3,15 @@ title: "Bit, Byte und Codierung: Prüfen und Begründen"
 description: "Bewerte eine Aussage zu Bit, Byte und Codierung und formuliere eine bessere Arbeitsregel."
 subject: "daten-und-signale"
 section: "codierung"
-topicPath:
-  - "codierung"
-  - "bit-byte-und-codierung"
-  - "aufgabe-b"
+topicPath: ["sanierung-v189", "bit-byte-und-codierung-aufgabe-b"]
 taskId: "dat-v189-010b"
-tags:
-  - "bit"
-  - "byte"
-  - "codierung"
-  - "daten-und-signale"
-  - "aufgabe"
-  - "v189"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["daten-und-signale", "codierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Prüfe die folgende Aussage zum Thema **Bit, Byte und Codierung**:

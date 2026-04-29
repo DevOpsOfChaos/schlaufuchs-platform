@@ -1,12 +1,17 @@
 ---
-title: Netzwerkadressen und Subnetz-Grundidee
-description: Diese neu formulierte Bestandsaufgabe greift klassische Netzwerkgrundlagen auf und ordnet IP-Adresse, Netzanteil und Hostanteil verständlich ein.
-subject: elektrotechnik
-section: Netzwerke und Protokolle
-level: mittel
+title: "Netzwerkadressen und Subnetz-Grundidee"
+description: "Diese neu formulierte Bestandsaufgabe greift klassische Netzwerkgrundlagen auf und ordnet IP-Adresse, Netzanteil und Hostanteil verständlich ein."
+subject: "elektrotechnik"
+section: "Netzwerke und Protokolle"
+topicPath: ["netzwerkadressen-und-subnetz-grundidee"]
+taskId: "AUTO-NETZWERKADRESSEN-UND-SUBNETZ-GRUNDIDEE"
+tags: ["elektrotechnik", "Netzwerke und Protokolle", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgabe mit Blick auf Grundverständnis. Ziel ist keine tiefe Netzplanung, sondern die ruhige Einordnung zentraler Begriffe.

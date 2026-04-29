@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Dateirechte und Besitz – anwenden und prüfen"
 description: "Musterlösung zur Linux-Aufgabe Dateirechte und Besitz."
-subject: linux
+subject: "linux"
 section: "dateisystem-und-rechte"
-topicPath:
-  - "dateisystem-und-rechte"
-  - "dateirechte-und-besitz"
-taskId: LINUX-DATEIRECHTE-UND-BESITZ-V186-2
-relatedExercise: src/content/exercises/linux/dateisystem-und-rechte/dateirechte-und-besitz/dateirechte-und-besitz-anwenden-und-pruefen-v186.md
-tags:
-  - "linux"
-  - "rechte"
-  - "besitz"
-  - "loesung"
+topicPath: ["dateisystem-und-rechte", "dateirechte-und-besitz", "dateirechte-und-besitz-anwenden-und-pruefen-v186"]
+taskId: "LINUX-DATEIRECHTE-UND-BESITZ-V186-2"
+relatedExercise: "src/content/exercises/linux/dateisystem-und-rechte/dateirechte-und-besitz/dateirechte-und-besitz-anwenden-und-pruefen-v186.md"
+tags: ["linux", "dateisystem-und-rechte", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

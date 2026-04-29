@@ -1,13 +1,19 @@
 ---
-title: HTML-Semantik – Grundlagen
-description: Verstehe, warum semantische HTML-Elemente mehr sind als nur Struktur und wie sie Seiten klarer machen.
-subject: web-development
-section: html-semantik
-level: einfach
-tags: [html, semantik, struktur, web]
+title: "HTML-Semantik – Grundlagen"
+description: "Verstehe, warum semantische HTML-Elemente mehr sind als nur Struktur und wie sie Seiten klarer machen."
+subject: "web-development"
+section: "html-semantik"
+topicPath: ["html-semantik-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["html", "semantik", "struktur", "web"]
 draft: false
 ---
-
 HTML besteht nicht nur aus beliebigen Tags. Gute Webseiten nutzen **semantische Elemente**, damit Struktur, Bedeutung und Lesbarkeit zusammenpassen.
 
 ## Was bedeutet Semantik in HTML?

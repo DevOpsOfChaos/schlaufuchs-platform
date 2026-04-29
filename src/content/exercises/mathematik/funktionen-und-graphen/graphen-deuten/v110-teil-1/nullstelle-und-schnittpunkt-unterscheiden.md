@@ -3,35 +3,15 @@ title: "Aufgabe – Nullstelle und Schnittpunkt unterscheiden"
 description: "Übe Nullstelle und Schnittpunkt unterscheiden mit Einordnung, Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "funktionen-und-graphen"
-  - "graphen-deuten"
-  - "v110-teil-1"
-  - "nullstelle-und-schnittpunkt-unterscheiden"
+topicPath: ["funktionen-und-graphen", "graphen-deuten", "v110-teil-1", "nullstelle-und-schnittpunkt-unterscheiden"]
 taskId: "v110-mathematik-nullstelle-und-schnittpunkt-unterscheiden"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfung"
-  - "funktionen-und-graphen"
-  - "graphen-deuten"
-  - "nullstelle-und-schnittpunkt-unterscheiden"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Vergleiche das Thema mit einem Nachbarthema und nenne die Trennkante."
-reflectionPrompt: "Welche kleine Trennkante macht Nullstelle und Schnittpunkt unterscheiden übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["mathematik", "Funktionen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Nullstelle und Schnittpunkt unterscheiden**.

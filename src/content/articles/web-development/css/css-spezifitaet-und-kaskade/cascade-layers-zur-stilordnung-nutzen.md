@@ -3,44 +3,17 @@ title: "CSS – Cascade Layers zur Stilordnung nutzen"
 description: "Verstehe, wie @layer hilft, Basisregeln, Komponenten und Ausnahmen bewusst zu ordnen, statt Spezifität hochzuschrauben."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "css-spezifitaet-und-kaskade"
-  - "cascade-layers-zur-stilordnung-nutzen"
-tags:
-  - "web development"
-  - "css"
-  - "kaskade"
-  - "layer"
-  - "wartbarkeit"
-learningGoals:
-  - "Du erklärst, warum Reihenfolge und Schichten Teil der CSS-Architektur sind."
-  - "Du unterscheidest Layer-Ordnung und Selektorspezifität."
-  - "Du vermeidest unnötig starke Selektoren für normale Komponentenregeln."
-practiceIdeas:
-  - "Übertrage das Muster auf eine kleine eigene Oberfläche."
-  - "Prüfe den Fall mit Tastatur, kleinem Bildschirm oder Fehlermeldung."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "Jedes Stilproblem mit längeren Selektoren oder !important zu lösen."
-  - "Reset-, Basis- und Komponentenregeln unkontrolliert zu mischen."
-  - "Die Layer-Reihenfolge nicht bewusst festzulegen."
-keyTakeaways:
-  - "Robuste Webentwicklung verbindet Struktur, Zustand und verständliche Rückmeldung."
-  - "Eine gute Lösung bleibt auch bei Tastaturbedienung, Fehlern oder kleinen Bildschirmen nachvollziehbar."
-  - "Saubere Projektpraxis bedeutet, Entscheidungen sichtbar und überprüfbar zu machen."
-recognizeSignals:
-  - "Eine Oberfläche funktioniert scheinbar, wird aber in Sonderfällen unklar."
-  - "Nutzerinnen und Nutzer brauchen Orientierung, Status oder eine konkrete Korrekturmöglichkeit."
-  - "HTML, CSS und JavaScript müssen gemeinsam statt isoliert betrachtet werden."
-selfCheckPoints:
-  - "Kann ich erklären, welcher Zustand gerade sichtbar gemacht wird?"
-  - "Ist die Lösung auch ohne Maus, perfekte Verbindung oder großen Bildschirm verständlich?"
-  - "Sind sichtbare Texte klar, deutsch und nah an der betroffenen Handlung formuliert?"
+topicPath: ["css", "css-spezifitaet-und-kaskade", "cascade-layers-zur-stilordnung-nutzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Verstehe, wie @layer hilft, Basisregeln, Komponenten und Ausnahmen bewusst zu ordnen, statt Spezifität hochzuschrauben. Diese Seite behandelt das Thema als praktische Entscheidung im Webprojekt: Was sehen Nutzerinnen und Nutzer, was passiert technisch im Hintergrund und wie bleibt die Lösung später wartbar?

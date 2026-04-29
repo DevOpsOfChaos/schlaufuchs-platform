@@ -3,32 +3,12 @@ title: "Eingang mit Pull-Widerstand und Schutzgedanke bewerten"
 description: "Übe den sicheren Umgang mit „Pull-up, Pull-down und Eingangsschutz unterscheiden“."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "pullup-pulldown-und-eingangsschutz"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "pullup-pulldown-und-eingangsschutz"]
 taskId: "et-mc-v94-pullup-pulldown-schutz"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "atmega"
-  - "pullup"
-  - "pulldown"
-  - "eingang"
-  - "schutz"
-  - "taster"
-hintPoints:
-  - "Lies zuerst das beobachtbare Fehlerbild, nicht sofort die vermutete Ursache."
-  - "Trenne elektrische Ebene, Codeebene und didaktische Begründung."
-  - "Begründe deine Entscheidung mit einem konkreten Prüfschritt."
-selfCheckPoints:
-  - "Habe ich den Ausgangs- oder Ruhezustand sauber benannt?"
-  - "Habe ich mindestens eine Gegenprobe formuliert?"
-  - "Ist klar, welche Aussage meine Lösung wirklich beweist?"
-transferIdeas:
-  - "Übertrage die Prüflogik auf ein anderes Modul oder eine andere Schnittstelle."
-  - "Formuliere aus der Lösung eine kurze Checkliste für den nächsten Aufbau."
-reflectionPrompt: "Was war bei „Eingang mit Pull-Widerstand und Schutzgedanke bewerten“ der wichtigste Unterschied zwischen Vermutung und sauberer Begründung?"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---

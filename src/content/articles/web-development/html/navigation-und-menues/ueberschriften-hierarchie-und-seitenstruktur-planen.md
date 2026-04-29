@@ -3,44 +3,17 @@ title: "HTML – Überschriftenhierarchie und Seitenstruktur planen"
 description: "Verstehe Überschriften als Landkarte einer Seite und nicht nur als optische Textgrößen."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "navigation-und-menues"
-  - "ueberschriften-hierarchie-und-seitenstruktur-planen"
-learningGoals:
-  - "Du erklärst, warum Überschriften eine Seitenstruktur bilden."
-  - "Du unterscheidest optische Größe von semantischer Ebene."
-  - "Du prüfst, ob Abschnitte in einer sinnvollen Reihenfolge lesbar bleiben."
-practiceIdeas:
-  - "Prüfe eine vorhandene Seite mit genau dieser Fragestellung."
-  - "Formuliere eine kleine Vorher-nachher-Verbesserung."
-  - "Teste die Entscheidung mit Tastatur, kleiner Breite und längeren Texten."
-commonMistakes:
-  - "Überschriftenebenen nur wegen der Schriftgröße zu wählen."
-  - "Mehrere Hauptüberschriften ohne klare Seitenidee zu setzen."
-  - "Von h2 direkt zu h5 zu springen, obwohl kein fachlicher Grund vorliegt."
-keyTakeaways:
-  - "Bedeutung, Technik und Nutzungssituation müssen zusammenpassen."
-  - "Eine optisch passende Lösung ist noch nicht automatisch strukturell gut."
-  - "Kleine Prüfregeln helfen, Weboberflächen verlässlich zu verbessern."
-recognizeSignals:
-  - "Du siehst eine Stelle, die optisch funktioniert, aber fachlich unklar bleibt."
-  - "Im Review taucht die Frage auf, ob HTML-Struktur oder CSS-Verhalten wirklich passt."
-  - "Eine Komponente soll robuster, zugänglicher oder wartbarer werden."
-selfCheckPoints:
-  - "Kann ich die fachliche Bedeutung der Stelle benennen?"
-  - "Kann ich die technische Entscheidung begründen?"
-  - "Kann ich eine typische Fehlinterpretation vermeiden?"
-tags:
-  - "web development"
-  - "html"
-  - "ueberschriften"
-  - "struktur"
-  - "accessibility"
+topicPath: ["html", "navigation-und-menues", "ueberschriften-hierarchie-und-seitenstruktur-planen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Diese Seite hilft dir, **Überschriftenhierarchie und Seitenstruktur planen** nicht als isolierte Technik zu lernen. Entscheidend ist, welche Bedeutung auf der Seite entsteht und ob diese Bedeutung für Nutzerinnen und Nutzer zuverlässig erkennbar bleibt.

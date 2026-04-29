@@ -1,24 +1,14 @@
 ---
 title: "Lösung – Flankeninterrupt und Tasterprellen analysieren"
 description: "Musterlösung zu flankeninterrupt und tasterprellen analysieren."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - externe-interrupts-flanken-und-prellen
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "externe-interrupts-flanken-und-prellen"]
 taskId: "et-mc-v92-interrupt-flanken-prellen"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/externe-interrupts-flanken-und-prellen"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - interrupt
-  - taster
-  - prellen
-  - flanke
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Der mechanische Taster erzeugt beim Drücken keine perfekte einzelne Flanke. Durch Prellen entstehen mehrere schnelle Pegelwechsel. Wenn der Interrupt auf eine passende Flanke reagiert, wird die ISR mehrfach ausgelöst und der Zähler steigt mehrmals.

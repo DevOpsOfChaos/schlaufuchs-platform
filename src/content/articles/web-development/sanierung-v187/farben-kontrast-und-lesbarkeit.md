@@ -3,39 +3,17 @@ title: "Farben, Kontrast und Lesbarkeit"
 description: "Nutze Farbe als Unterstützung, nicht als einzige Information."
 subject: "web-development"
 section: "css"
-topicPath: 
-  - "css-und-layout"
-  - "farben-und-kontrast"
-learningGoals: 
-  - "Visuelle Klarheit ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Bewerte drei Farbpaare nach Lesbarkeit und Zweck."
-  - "Entwickle für eine Lernseite ein kleines Farbschema mit klaren Rollen."
-commonMistakes: 
-  - "Rot und Grün sind die einzige Unterscheidung."
-  - "Hintergrund und Text haben zu wenig Kontrast."
-  - "Zu viele Akzentfarben konkurrieren miteinander."
-keyTakeaways: 
-  - "Gute Farbwahl hilft beim Verstehen, ohne die Inhalte zu übertönen."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "Gute Farbwahl hilft beim Verstehen, ohne die Inhalte zu übertönen."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "farben-kontrast-und-lesbarkeit"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags: 
-  - "css"
-  - "farben"
-  - "kontrast"
-  - "lesbarkeit"
-  - "web-development"
+tags: ["web-development", "css"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Farben, Kontrast und Lesbarkeit](/schlaufuchs-platform/images/web-development/sanierung-v187/farben-kontrast-und-lesbarkeit.svg)
 
     Farben, Kontrast und Lesbarkeit ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

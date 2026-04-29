@@ -1,34 +1,19 @@
 ---
 title: "Funktionen und Prozeduren"
 description: "Überblick über Funktionen und Prozeduren als benannte, wiederverwendbare Programmbausteine."
-subject: informatik
+subject: "informatik"
 section: "Programmierung"
-topicPath:
-  - "funktionen-und-prozeduren"
-  - "ueberblick"
-learningGoals:
-  - "Du verstehst Funktionen als abgegrenzte Programmeinheiten."
-  - "Du kannst Parameter, Rückgabe und Seiteneffekte unterscheiden."
-  - "Du erkennst die Bedeutung klarer Verantwortlichkeiten."
+topicPath: ["funktionen-und-prozeduren", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Zu viele Aufgaben in eine Funktion zu packen."
-  - "Rückgabewerte und Seiteneffekte unklar zu vermischen."
-keyTakeaways:
-  - "Funktionen machen Code wiederverwendbar, testbar und lesbarer."
-  - "Gute Funktionen haben eine klare Aufgabe und verständliche Schnittstelle."
-recognizeSignals:
-  - "Es geht um Parameter, Rückgabewert, Aufruf, Prozedur, Verantwortung, Seiteneffekt oder Testbarkeit."
-selfCheckPoints:
-  - "Kann ich in einem Satz sagen, wofür eine Funktion verantwortlich ist?"
-level: einfach
-tags:
-  - "informatik"
-  - "programmierung"
-  - "funktionen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 # Funktionen und Prozeduren
 
 ![Schaubild zu Funktionen und Prozeduren.](/schlaufuchs-platform/images/overviews/v148/funktionen-und-prozeduren.svg)

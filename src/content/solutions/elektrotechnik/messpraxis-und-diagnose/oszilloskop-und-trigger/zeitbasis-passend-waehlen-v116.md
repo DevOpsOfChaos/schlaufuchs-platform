@@ -3,22 +3,12 @@ title: "Lösung: Zeitbasis passend wählen"
 description: "Musterlösung zur Aufgabe „Zeitbasis passend wählen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "messpraxis-und-diagnose"
-  - "oszilloskop-und-trigger"
-  - "zeitbasis-passend-waehlen-v116"
+topicPath: ["messpraxis-und-diagnose", "oszilloskop-und-trigger", "zeitbasis-passend-waehlen-v116"]
 taskId: "zeitbasis-passend-waehlen-v116"
 relatedExercise: "elektrotechnik/messpraxis-und-diagnose/oszilloskop-und-trigger/zeitbasis-passend-waehlen-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "oszilloskop und trigger"
-  - "zeitbasis passend waehlen"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

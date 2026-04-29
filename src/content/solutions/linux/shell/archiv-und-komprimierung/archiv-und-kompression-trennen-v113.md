@@ -3,20 +3,12 @@ title: "Lösung – Archiv und Kompression trennen"
 description: "Musterlösung zu Archiv und Kompression trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "archiv-und-komprimierung"
-  - "archiv-und-kompression-trennen-v113"
+topicPath: ["shell", "archiv-und-komprimierung", "archiv-und-kompression-trennen-v113"]
 taskId: "v113-linux-archiv-und-kompression-trennen-v113"
 relatedExercise: "linux/shell/archiv-und-komprimierung/archiv-und-kompression-trennen-v113"
-tags:
-  - "linux"
-  - "strukturcheck"
-  - "unterthema"
-  - "archiv-und-kompression-trennen-v113"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Archiv und Kompression trennen**.

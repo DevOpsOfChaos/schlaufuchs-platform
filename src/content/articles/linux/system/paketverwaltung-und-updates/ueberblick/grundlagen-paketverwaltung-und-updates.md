@@ -1,33 +1,17 @@
 ---
 title: "Grundlagen: Paketverwaltung und Updates"
 description: "Allgemeiner Überblick über Pakete, Repositories, Abhängigkeiten und sichere Aktualisierung unter Linux."
-subject: linux
+subject: "linux"
 section: "System"
-topicPath:
-  - system
-  - paketverwaltung-und-updates
-  - grundlagen-paketverwaltung-und-updates
-learningGoals:
-  - "Du erklärst Paketverwaltung als geordnetes Installieren und Aktualisieren von Software."
-  - "Du beschreibst Repositories als vertrauenswürdige Softwarequellen."
-  - "Du unterscheidest Installation, Update und Upgrade."
+topicPath: ["system", "paketverwaltung-und-updates", "ueberblick", "grundlagen-paketverwaltung-und-updates"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Software beliebig aus dem Internet herunterzuladen."
-  - "Update und Upgrade gleichzusetzen."
-  - "Abhängigkeiten als störende Zusatzpakete zu betrachten."
-keyTakeaways:
-  - "Paketverwaltung hält Software und Abhängigkeiten nachvollziehbar."
-  - "Repositories sind zentrale Quellen für geprüfte Pakete."
-  - "Regelmäßige Updates verbessern Sicherheit und Stabilität."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - linux
-  - pakete
-  - updates
-  - repository
+level: "einfach"
+tags: ["linux", "System"]
 draft: false
 ---
 ## Begriff

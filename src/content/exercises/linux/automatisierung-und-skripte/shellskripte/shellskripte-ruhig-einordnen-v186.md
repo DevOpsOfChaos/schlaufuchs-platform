@@ -1,29 +1,17 @@
 ---
 title: "Shellskripte – ruhig einordnen"
 description: "Übe, Shellskripte fachlich einzuordnen."
-subject: linux
+subject: "linux"
 section: "automatisierung-und-skripte"
-topicPath:
-  - "automatisierung-und-skripte"
-  - "shellskripte"
-taskId: LINUX-SHELLSKRIPTE-V186-1
-tags:
-  - "linux"
-  - "shellskript"
-  - "automatisierung"
-  - "aufgabe"
-hintPoints:
-  - "Beginne mit Begriff und Kontext."
-  - "Trenne Beobachtung, Prüfung und mögliche Änderung."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe erklären."
-  - "Ich kann einen typischen Fehler vermeiden."
-transferIdeas:
-  - "Formuliere eine ähnliche Prüfsituation aus deinem eigenen Linux-Alltag."
-level: mittel
+topicPath: ["automatisierung-und-skripte", "shellskripte", "shellskripte-ruhig-einordnen-v186"]
+taskId: "LINUX-SHELLSKRIPTE-V186-1"
+tags: ["linux", "automatisierung-und-skripte", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Lernziel
 
 Du sollst **Shellskripte** nicht nur als Befehl oder Schlagwort sehen, sondern als geordnetes Linux-Thema mit Zweck, Kontext und typischen Prüfschritten.

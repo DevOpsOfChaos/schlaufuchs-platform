@@ -3,32 +3,15 @@ title: "Aufgabe – Lebensdauer von Daten beachten"
 description: "Übe Lebensdauer von Daten beachten mit Szenario, Trennkante und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "systemnah"
-  - "speicher-und-referenzen"
-  - "lebensdauer-von-daten-beachten-v113"
+topicPath: ["systemnah", "speicher-und-referenzen", "lebensdauer-von-daten-beachten-v113"]
 taskId: "v113-informatik-lebensdauer-von-daten-beachten-v113"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "lebensdauer-von-daten-beachten-v113"
-hintPoints:
-  - "Benenne zuerst das genaue Unterthema."
-  - "Notiere die typische Verwechslung ausdrücklich."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Antwort enger als ein breites Kapitel?"
-  - "Wird ein Nachbarthema sauber ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere eine zweite Aufgabe im gleichen Unterthema mit anderer Oberfläche."
-reflectionPrompt: "Welche kleine Trennkante macht Lebensdauer von Daten beachten übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["informatik", "Feinstruktur Informatik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Lebensdauer von Daten beachten**.

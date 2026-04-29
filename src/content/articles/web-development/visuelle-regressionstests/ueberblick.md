@@ -1,34 +1,19 @@
 ---
 title: "Visuelle Regressionstests"
 description: "Überblick über Tests, die sichtbare Veränderungen an Webseiten erkennen und bewerten helfen."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "visuelle-regressionstests"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["visuelle-regressionstests", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Jede Pixelabweichung automatisch als Fehler oder automatisch als unwichtig zu betrachten."
-keyTakeaways:
-  - "Visuelle Regressionstests helfen, unbeabsichtigte Layoutänderungen früh zu erkennen."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn viele Komponenten, Themes oder responsive Ansichten gepflegt werden."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "web development"
-  - "testing"
-  - "ui"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # Visuelle Regressionstests
 
 Visuelle Regressionstests vergleichen Darstellungen einer Webseite über Versionen hinweg. Sie erkennen, ob Layout, Abstände, Farben, Textumbrüche oder Komponenten unerwartet anders aussehen.

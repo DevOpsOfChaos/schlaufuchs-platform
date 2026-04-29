@@ -1,31 +1,17 @@
 ---
-title: Fokusmarkierung und Boxrahmen sauber begründen
-description: Begründe, wann border und wann outline die passendere Umrandung für sichtbare Zustände und stabile Oberflächen ist.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - outline-und-border-unterscheiden
-  - fokusmarkierung-und-boxrahmen-sauber-begruenden
-level: mittel
+title: "Fokusmarkierung und Boxrahmen sauber begründen"
+description: "Begründe, wann border und wann outline die passendere Umrandung für sichtbare Zustände und stabile Oberflächen ist."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "outline-und-border-unterscheiden", "fokusmarkierung-und-boxrahmen-sauber-begruenden"]
+taskId: "AUTO-FOKUSMARKIERUNG-UND-BOXRAHMEN-SAUBER-BEGRUENDEN"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - css
-  - outline
-  - border
-  - focus
-hintPoints:
-  - "Frage zuerst, ob die Box selbst anders werden oder nur ein Zustand markiert werden soll."
-  - "Denke bei Fokus immer auch an Orientierung mit Tastatur."
-selfCheckPoints:
-  - "Kannst du border und outline über ihre Rolle trennen?"
-  - "Kannst du erklären, warum Fokusmarkierungen nicht bloß Deko sind?"
-transferIdeas:
-  - "Übertrage die Logik auf Buttons, Karten, Inputs oder Tabs."
-reflectionPrompt: "Woran merkst du, dass eine Markierung die Box selbst verändert und nicht nur einen Zustand zusätzlich sichtbar macht?"
 ---
-
 ## Aufgabe 1: Aktives Formularfeld
 
 Ein Eingabefeld soll bei Fokus klar hervorgehoben werden, ohne dass die Oberfläche unruhig springt.

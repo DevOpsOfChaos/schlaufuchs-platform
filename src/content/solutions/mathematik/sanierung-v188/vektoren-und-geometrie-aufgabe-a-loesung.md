@@ -3,22 +3,12 @@ title: "Lösung: Vektoren und Geometrie: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-067a."
 subject: "mathematik"
 section: "daten-und-geometrie"
-topicPath:
-  - "daten-und-geometrie"
-  - "vektoren-und-geometrie"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "vektoren-und-geometrie-aufgabe-a"]
 taskId: "mat-v188-067a"
 relatedExercise: "mathematik/sanierung-v188/vektoren-und-geometrie-aufgabe-a"
-tags:
-  - "vektoren"
-  - "geometrie"
-  - "lage"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "daten-und-geometrie", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-067a`
 
 Eine mögliche Lösung:

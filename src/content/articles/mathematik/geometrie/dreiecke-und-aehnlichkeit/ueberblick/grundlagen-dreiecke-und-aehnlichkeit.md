@@ -1,36 +1,19 @@
 ---
 title: "Grundlagen: Dreiecke und Ähnlichkeit"
 description: "Allgemeiner Überblick über Dreiecke, Winkel, Seitenverhältnisse und die Idee ähnlicher Figuren."
-subject: mathematik
+subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - geometrie
-  - dreiecke-und-aehnlichkeit
-  - grundlagen-dreiecke-und-aehnlichkeit
-learningGoals:
-  - "Du erklärst Dreiecke als Grundformen geometrischer Argumentation."
-  - "Du beschreibst Ähnlichkeit über gleiche Form und proportionale Seiten."
-  - "Du unterscheidest Messen, Zeichnen und Begründen."
+topicPath: ["geometrie", "dreiecke-und-aehnlichkeit", "ueberblick", "grundlagen-dreiecke-und-aehnlichkeit"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ähnliche Figuren mit gleich großen Figuren zu verwechseln."
-  - "Winkelinformationen und Seitenverhältnisse getrennt zu behandeln, obwohl sie zusammengehören."
-  - "Eine Skizze als Beweis statt als Orientierung zu verwenden."
-keyTakeaways:
-  - "Dreiecke sind zentrale Bausteine vieler geometrischer Begründungen."
-  - "Ähnlichkeit beschreibt gleiche Form bei möglicherweise unterschiedlicher Größe."
-  - "Winkel, Seitenverhältnisse und Maßstab müssen gemeinsam gelesen werden."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - "mathematik"
-  - "geometrie"
-  - "dreiecke"
-  - "ähnlichkeit"
+level: "einfach"
+tags: ["mathematik", "Geometrie"]
 draft: false
 ---
-
 ## Begriff
 
 Ein **Dreieck** ist eine geometrische Figur mit drei Seiten und drei Winkeln. Trotz dieser einfachen Form ist es ein Grundbaustein vieler geometrischer Überlegungen. Viele Flächen, Körper, Konstruktionsaufgaben und Beweise lassen sich auf Dreiecke zurückführen.

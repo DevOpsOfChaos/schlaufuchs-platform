@@ -1,37 +1,19 @@
 ---
 title: "Responsive Navigation"
 description: "Überblick über Navigation, die auf unterschiedliche Bildschirmgrößen und Eingabegeräte reagiert."
-subject: web-development
+subject: "web-development"
 section: "Navigation"
-topicPath:
-  - "responsive-navigation"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Responsive Navigation als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["responsive-navigation", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Navigation mobil zu verstecken, ohne Tastaturbedienung, Fokusreihenfolge und aktiven Zustand zu prüfen."
-keyTakeaways:
-  - "Navigation muss auf mehreren Geräten verständlich bleiben."
-  - "Semantik und Fokusführung sind Teil des Designs."
-  - "Nicht jeder Menüpunkt hat dieselbe Priorität."
-recognizeSignals:
-  - "Menüs ändern sich je nach Bildschirmbreite."
-  - "Nutzer sollen auch mobil oder per Tastatur navigieren."
-selfCheckPoints:
-  - "Kann ich Responsive Navigation in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "web-development"
-  - "navigation"
-  - "responsive"
-  - "barrierefreiheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Navigation"]
 draft: false
 ---
-
 # Responsive Navigation
 
 Responsive Navigation passt Struktur, Darstellung und Bedienung von Menüs an verfügbare Fläche und Nutzungskontext an.

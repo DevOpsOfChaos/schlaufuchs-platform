@@ -1,45 +1,19 @@
 ---
-title: Dateirechte lesen und deuten
-description: Verstehe, wie Linux Rechte für Besitzer, Gruppe und andere unterscheidet.
-subject: linux
-section: system
-topicPath:
-- system
-- dateirechte
-learningGoals:
-- Du liest einfache Rechteanzeigen wie rwx systematischer.
-- Du ordnest Rechte immer zusammen mit Besitzer und Gruppe ein.
-- Du erkennst typische Unterschiede zwischen privaten und gemeinsamen Dateien.
-practiceIdeas:
-- Vergleiche in der Lernshell mit ls -l mehrere Dateien mit unterschiedlichen Rechten.
-- Nutze stat, um dieselbe Datei noch genauer zu lesen.
-- Frage dich bei jeder Datei bewusst, wer lesen, schreiben oder ausführen darf.
-commonMistakes:
-- Nur auf rwx zu schauen und Besitzer oder Gruppe zu ignorieren.
-- Ausführbar mit wichtig oder gefährlich zu verwechseln.
-- Rechte zu verändern, ohne die Ausgangslage gelesen zu haben.
-keyTakeaways:
-- Rechte müssen immer im Kontext gelesen werden.
-- Besitzer, Gruppe und andere sind getrennte Ebenen.
-- Rechte lesen kommt vor Rechte ändern.
-tags:
-- linux
-- rechte
-- dateien
-- chmod
-level: einfach
+title: "Dateirechte lesen und deuten"
+description: "Verstehe, wie Linux Rechte für Besitzer, Gruppe und andere unterscheidet."
+subject: "linux"
+section: "system"
+topicPath: ["system", "dateirechte"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "system"]
 draft: false
-recognizeSignals:
-- Die Aufgabe oder Erklärung nennt Dateirechte lesen und deuten direkt oder greift eng benachbarte Begriffe aus system auf.
-- Du sollst nicht nur einen Begriff nennen, sondern einen Zusammenhang, Ablauf oder eine Struktur sauber erklären.
-- In Beispielen musst du Werte, Schritte oder Bauteile geordnet lesen und richtig einordnen.
-selfCheckPoints:
-- Kann ich liest einfache Rechteanzeigen wie rwx systematischer?
-- Kann ich ordnest Rechte immer zusammen mit Besitzer und Gruppe ein?
-- Kann ich erkennst typische Unterschiede zwischen privaten und gemeinsamen Dateien?
 ---
-
-
 ## Drei Ebenen der Rechte
 
 Linux unterscheidet Rechte meist für drei Ebenen:

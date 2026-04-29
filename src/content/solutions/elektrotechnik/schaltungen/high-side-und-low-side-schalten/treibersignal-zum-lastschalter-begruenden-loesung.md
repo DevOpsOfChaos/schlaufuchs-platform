@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Treibersignal zum Lastschalter begründen"
 description: "Musterlösung zur Aufgabe: Treibersignal zum Lastschalter begründen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schaltungen"
-topicPath:
-  - schaltungen
-  - high-side-und-low-side-schalten
-taskId: ET-V182-010
-relatedExercise: src/content/exercises/elektrotechnik/schaltungen/high-side-und-low-side-schalten/treibersignal-zum-lastschalter-begruenden.md
-tags:
-  - elektrotechnik
-  - high-side-und-low-side-schalten
-  - loesung
-  - sanierung-v182
+topicPath: ["schaltungen", "high-side-und-low-side-schalten", "treibersignal-zum-lastschalter-begruenden"]
+taskId: "ET-V182-010"
+relatedExercise: "src/content/exercises/elektrotechnik/schaltungen/high-side-und-low-side-schalten/treibersignal-zum-lastschalter-begruenden.md"
+tags: ["elektrotechnik", "Schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

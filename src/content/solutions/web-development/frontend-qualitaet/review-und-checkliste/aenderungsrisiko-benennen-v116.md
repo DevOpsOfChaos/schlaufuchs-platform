@@ -3,22 +3,12 @@ title: "Lösung: Änderungsrisiko benennen"
 description: "Musterlösung zur Aufgabe „Änderungsrisiko benennen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "frontend-qualitaet"
-  - "review-und-checkliste"
-  - "aenderungsrisiko-benennen-v116"
+topicPath: ["frontend-qualitaet", "review-und-checkliste", "aenderungsrisiko-benennen-v116"]
 taskId: "aenderungsrisiko-benennen-v116"
 relatedExercise: "web-development/frontend-qualitaet/review-und-checkliste/aenderungsrisiko-benennen-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "review und checkliste"
-  - "aenderungsrisiko benennen"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

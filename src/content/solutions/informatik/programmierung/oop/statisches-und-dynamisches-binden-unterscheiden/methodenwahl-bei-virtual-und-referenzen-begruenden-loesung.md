@@ -1,21 +1,14 @@
 ---
-title: Loesung – Methodenwahl bei virtual und Referenzen begruenden
-description: Musterloesung zur Aufgabe ueber statisches und dynamisches Binden.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - statisches-und-dynamisches-binden-unterscheiden
-taskId: INF-PROG-OOP-011
-relatedExercise: informatik/programmierung/oop/statisches-und-dynamisches-binden-unterscheiden/methodenwahl-bei-virtual-und-referenzen-begruenden
-tags:
-  - informatik
-  - oop
-  - loesung
+title: "Loesung – Methodenwahl bei virtual und Referenzen begruenden"
+description: "Musterloesung zur Aufgabe ueber statisches und dynamisches Binden."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "statisches-und-dynamisches-binden-unterscheiden", "methodenwahl-bei-virtual-und-referenzen-begruenden"]
+taskId: "INF-PROG-OOP-011"
+relatedExercise: "informatik/programmierung/oop/statisches-und-dynamisches-binden-unterscheiden/methodenwahl-bei-virtual-und-referenzen-begruenden"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterloesung
 
 ### Aufgabe 1

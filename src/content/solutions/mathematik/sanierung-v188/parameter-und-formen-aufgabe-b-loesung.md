@@ -3,22 +3,12 @@ title: "Lösung: Parameter und Formen: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-044b."
 subject: "mathematik"
 section: "algebra"
-topicPath:
-  - "algebra"
-  - "gleichungen-strategisch-loesen"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "parameter-und-formen-aufgabe-b"]
 taskId: "mat-v188-044b"
 relatedExercise: "mathematik/sanierung-v188/parameter-und-formen-aufgabe-b"
-tags:
-  - "parameter"
-  - "algebra"
-  - "formen"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "algebra", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-044b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

@@ -3,22 +3,12 @@ title: "Lösung: Tabelle in Funktionsidee übersetzen"
 description: "Musterlösung zur Aufgabe „Tabelle in Funktionsidee übersetzen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "modellieren-und-validieren"
-  - "tabellen-formeln-und-graphen"
-  - "tabelle-in-funktionsidee-uebersetzen-v116"
+topicPath: ["modellieren-und-validieren", "tabellen-formeln-und-graphen", "tabelle-in-funktionsidee-uebersetzen-v116"]
 taskId: "tabelle-in-funktionsidee-uebersetzen-v116"
 relatedExercise: "mathematik/modellieren-und-validieren/tabellen-formeln-und-graphen/tabelle-in-funktionsidee-uebersetzen-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "tabellen formeln und graphen"
-  - "tabelle in funktionsidee uebersetzen"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

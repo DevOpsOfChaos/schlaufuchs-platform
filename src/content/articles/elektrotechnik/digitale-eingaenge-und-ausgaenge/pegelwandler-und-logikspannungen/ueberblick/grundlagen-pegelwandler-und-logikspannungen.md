@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Pegelwandler und Logikspannungen"
 description: "Allgemeiner Überblick über unterschiedliche Logikspannungen, Eingangsgrenzen und Pegelwandler."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Digitale Eingänge und Ausgänge"
-topicPath:
-  - digitale-eingaenge-und-ausgaenge
-  - pegelwandler-und-logikspannungen
-  - ueberblick
-learningGoals:
-  - "Du erklärst die Grundidee von Pegelwandler und Logikspannungen in eigenen Worten."
-  - "Du ordnest typische Begriffe und Fehlerquellen ruhig ein."
-  - "Du erkennst, welche Detailfragen zu diesem Themenbereich gehören."
-practiceIdeas:
-  - "Skizziere den Zusammenhang als kleines Signal-, Strom- oder Ablaufbild."
-  - "Notiere typische Fehlerquellen und prüfe, ob sie elektrisch, logisch oder organisatorisch sind."
-commonMistakes:
-  - "High immer mit exakt 5 V gleichzusetzen."
-  - "Eingangsgrenzen im Datenblatt zu ignorieren."
-  - "Pegelwandler mit Spannungsteiler pauschal gleichzusetzen."
-keyTakeaways:
-  - "Logische Zustände hängen von elektrischen Grenzwerten ab."
-  - "Unterschiedliche Versorgungsspannungen brauchen Prüfung."
-  - "Pegelwandler schützen Kommunikation zwischen Systemen."
-recognizeSignals:
-  - "Du brauchst zuerst Orientierung, bevor du eine konkrete Schaltung oder Aufgabe bewertest."
-  - "Mehrere Einzelfälle wirken ähnlich, aber der gemeinsame fachliche Rahmen fehlt."
-selfCheckPoints:
-  - "Kann ich den Zweck des Themas ohne Formel auswendig zu lernen erklären?"
-  - "Kann ich typische Fehlerquellen in der richtigen Reihenfolge prüfen?"
-level: einfach
-tags:
-  - elektrotechnik
-  - pegelwandler-und-logikspannungen
-  - digitale-eingänge-und-ausgänge
+topicPath: ["digitale-eingaenge-und-ausgaenge", "pegelwandler-und-logikspannungen", "ueberblick", "grundlagen-pegelwandler-und-logikspannungen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Digitale Eingänge und Ausgänge"]
 draft: false
 ---
-
 ![3,3 V und 5 V sauber koppeln](/schlaufuchs-platform/images/overviews/v181/pegelwandler-und-logikspannungen.svg)
 
 ## Überblick

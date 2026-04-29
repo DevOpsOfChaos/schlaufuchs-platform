@@ -1,31 +1,17 @@
 ---
 title: "Standardstreams"
 description: "Allgemeiner Überblick über Standardeingabe, Standardausgabe, Fehlerausgabe und ihre Rolle in der Shell."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - "standardstreams"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Standardstreams grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["standardstreams", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Standardstreams nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Standardstreams beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Standardstreams, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Standardstreams in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "standardstreams"
-  - "terminal"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
 # Standardstreams

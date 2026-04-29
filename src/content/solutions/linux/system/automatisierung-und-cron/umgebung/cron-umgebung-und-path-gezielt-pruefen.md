@@ -3,23 +3,12 @@ title: "Lösung – Cron-Umgebung und PATH gezielt prüfen"
 description: "Musterlösung zu Cron-Umgebung mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "System"
-topicPath:
-  - "system"
-  - "automatisierung-und-cron"
-  - "umgebung"
-  - "cron-umgebung-und-path-gezielt-pruefen"
+topicPath: ["system", "automatisierung-und-cron", "umgebung", "cron-umgebung-und-path-gezielt-pruefen"]
 taskId: "v109-linux-cron-umgebung-und-path-gezielt-pruefen"
 relatedExercise: "linux/system/automatisierung-und-cron/umgebung/cron-umgebung-und-path-gezielt-pruefen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "system"
-  - "automatisierung-und-cron"
-  - "cron-umgebung"
+tags: ["linux", "System", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Cron-Umgebung**.

@@ -3,33 +3,15 @@ title: "Aufgabe – Set für Eindeutigkeit einsetzen"
 description: "Übe set für eindeutigkeit einsetzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenstrukturen"
-  - "listen-und-maps"
-  - "set-fuer-eindeutigkeit-einsetzen"
+topicPath: ["datenstrukturen", "listen-und-maps", "set-fuer-eindeutigkeit-einsetzen"]
 taskId: "v112-informatik-set-fuer-eindeutigkeit-einsetzen"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "datenstrukturen"
-  - "set-fuer-eindeutigkeit-einsetzen"
-hintPoints:
-  - "Benenne zuerst das kleine Unterthema."
-  - "Prüfe bewusst den Unterschied zum Fehler: Dubletten werden später mühsam herausgefiltert."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Einordnung enger als nur der breite Fachbereich?"
-  - "Wird der typische Fehler ausdrücklich ausgeschlossen?"
-  - "Passt die Lösung zur Wissensseite?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Begriff und prüfe, ob die gleiche Strategie gilt."
-  - "Erkläre die Lösung einmal alltagssprachlich und danach fachlich sauber."
-reflectionPrompt: "Was war bei „Set für Eindeutigkeit einsetzen“ die wichtigste Trennkante?"
+tags: ["informatik", "Feinstruktur Informatik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation:

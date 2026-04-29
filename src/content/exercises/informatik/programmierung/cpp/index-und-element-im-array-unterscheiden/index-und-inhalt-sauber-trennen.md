@@ -1,34 +1,17 @@
 ---
-title: Index und Inhalt sauber trennen
-description: Löse typische Denkfehler zu Arrayzugriffen auf, indem du Position und gespeicherten Wert bewusst auseinanderhältst.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - arrays
-  - index-und-element-im-array-unterscheiden
-  - index-und-inhalt-sauber-trennen
-taskId: INF-PROG-CPP-INDEX-001
-level: einfach
+title: "Index und Inhalt sauber trennen"
+description: "Löse typische Denkfehler zu Arrayzugriffen auf, indem du Position und gespeicherten Wert bewusst auseinanderhältst."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "index-und-element-im-array-unterscheiden", "index-und-inhalt-sauber-trennen"]
+taskId: "INF-PROG-CPP-INDEX-001"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - arrays
-  - index
-hintPoints:
-  - "Frage zuerst 'wo?' und dann 'was?'."
-  - "Verwechsele die Zahl im Index nicht mit dem gespeicherten Wert."
-selfCheckPoints:
-  - "Ist der Index als Position beschrieben?"
-  - "Ist das Element als Inhalt beschrieben?"
-transferIdeas:
-  - "Übertrage die Trennung auf verschiedene Arrays mit demselben Index."
-reflectionPrompt: "Warum ist A[2] erst dann verständlich, wenn du Platz und Inhalt getrennt denkst?"
 ---
-
 ## Aufgabe 1: Zugriff erklären
 
 Gegeben ist:

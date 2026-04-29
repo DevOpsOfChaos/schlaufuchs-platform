@@ -3,24 +3,12 @@ title: "Lösung: Code-Review als Lernwerkzeug: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-028a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "zusammenarbeit-und-audit"
-  - "code-review-als-lernwerkzeug"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "code-review-als-lernwerkzeug-loesung-a"]
 taskId: "informatik-v193-028a"
 relatedExercise: "informatik/sanierung-v193/code-review-als-lernwerkzeug-aufgabe-a"
-tags:
-  - "code"
-  - "review"
-  - "lernwerkzeug"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-028a`
 
 Ausgangsauftrag: Schreibe drei hilfreiche Review-Kommentare zu einem kleinen Patch.

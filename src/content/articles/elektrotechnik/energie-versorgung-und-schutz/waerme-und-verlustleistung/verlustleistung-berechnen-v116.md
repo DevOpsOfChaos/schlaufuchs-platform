@@ -3,45 +3,17 @@ title: "Energie, Versorgung und Schutz – Verlustleistung berechnen"
 description: "Verstehe „Verlustleistung berechnen“ als klar abgegrenztes Unterthema mit Beispiel, Gegenprobe und passender Übung."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "energie-versorgung-und-schutz"
-  - "waerme-und-verlustleistung"
-  - "verlustleistung-berechnen-v116"
-learningGoals:
-  - "Du erklärst Verlustleistung berechnen in eigenen Worten."
-  - "Du ordnest die Frage in ein kleines Unterthema ein statt in einen breiten Sammelbereich."
-  - "Du formulierst eine passende Gegenprobe für Aufgabe oder Projekt."
-practiceIdeas:
-  - "Markiere zuerst den konkreten Auslöser der Aufgabe."
-  - "Trenne Begriff, Beispiel und Prüfschritt."
-  - "Übertrage die Denkbewegung auf ein zweites kleines Beispiel."
-commonMistakes:
-  - "das Unterthema zu breit lesen"
-  - "die Gegenprobe weglassen"
-  - "Begriff und Beispiel miteinander verwechseln"
-keyTakeaways:
-  - "Verlustleistung berechnen wird verständlich, wenn Ursache, Wirkung und Kontrolle getrennt werden."
-  - "Feine Unterthemen helfen beim Wiederfinden und verhindern überladene Sammelseiten."
-  - "Eine gute Erklärung endet mit einer konkreten Prüfung."
-recognizeSignals:
-  - "Die Aufgabe enthält einen scheinbar kleinen Sonderfall."
-  - "Zwei ähnliche Begriffe werden leicht verwechselt."
-  - "Eine Entscheidung soll begründet statt nur geraten werden."
-selfCheckPoints:
-  - "Kann ich das Unterthema von einem Nachbarthema abgrenzen?"
-  - "Kann ich einen typischen Fehler benennen?"
-  - "Kann ich eine kleine Gegenprobe anschließen?"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "waerme und verlustleistung"
-  - "verlustleistung berechnen"
-  - "v116"
+topicPath: ["energie-versorgung-und-schutz", "waerme-und-verlustleistung", "verlustleistung-berechnen-v116"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei **Verlustleistung berechnen** geht es nicht darum, möglichst viel Stoff auf einmal zu erklären. Entscheidend ist, die konkrete Beobachtung, die passende Regel und eine einfache Kontrolle voneinander zu trennen.

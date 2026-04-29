@@ -1,35 +1,17 @@
 ---
 title: "grep-Kontextsuche"
 description: "Überblick über Kontextoptionen bei grep und ihre Bedeutung beim Lesen von Logs und Quelltext."
-subject: linux
+subject: "linux"
 section: "Textwerkzeuge"
-topicPath:
-  - "grep-kontextsuche"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst grep-Kontextsuche als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["grep-kontextsuche", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird nur die Trefferzeile kopiert, obwohl die Ursache in den Zeilen unmittelbar davor steht."
-keyTakeaways:
-  - "grep-Kontextsuche zeigt nicht nur Trefferzeilen, sondern auch Zeilen davor und danach."
-  - "Sie macht Treffer verständlicher, weil Logs, Konfigurationen und Code oft erst im Umfeld ihren Sinn ergeben."
-  - "Kontext ersetzt keine strukturierte Logauswertung. Er ist ein Lesewerkzeug für schnelle Orientierung."
-recognizeSignals:
-  - "Es geht um grep-Kontextsuche, wenn -A zeigt Zeilen nach dem Treffer, -B davor und -C beides."
-  - "Das Thema wird relevant, wenn Beispiele wie bei einer Fehlermeldung im Log zeigen die vorherigen Zeilen oft, welcher Dienst oder Request betroffen war."
-selfCheckPoints:
-  - "Kann ich grep-Kontextsuche in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "grep"
-  - "logs"
-  - "textwerkzeuge"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Textwerkzeuge"]
 draft: false
 ---
 # grep-Kontextsuche

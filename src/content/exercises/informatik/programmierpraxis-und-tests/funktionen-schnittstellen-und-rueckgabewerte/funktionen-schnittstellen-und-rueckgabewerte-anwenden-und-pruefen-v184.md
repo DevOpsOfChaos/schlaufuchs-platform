@@ -1,29 +1,17 @@
 ---
 title: "Funktionen, Schnittstellen und Rückgabewerte – Anwenden und prüfen"
 description: "Übe, Funktionen, Schnittstellen und Rückgabewerte an kleinen Situationen zu prüfen."
-subject: informatik
+subject: "informatik"
 section: "programmierpraxis-und-tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "funktionen-schnittstellen-und-rueckgabewerte"
-taskId: INF-FUNKTIONEN-SCHNITTSTELLEN-UND-RUECKGABEWERTE-842
-tags:
-  - "informatik"
-  - "funktionen"
-  - "schnittstellen"
-hintPoints:
-  - "Beginne mit der allgemeinen Rolle des Themas."
-  - "Trenne Begriff, Beispiel und Sonderfall sauber."
-selfCheckPoints:
-  - "Ich kann meine Zuordnung begründen."
-  - "Ich vermeide eine reine Einzelfallantwort."
-transferIdeas:
-  - "Übertrage die Idee auf ein anderes kleines Informatikbeispiel."
-reflectionPrompt: "Welche Annahme musste ich bewusst prüfen?"
-level: mittel
+topicPath: ["programmierpraxis-und-tests", "funktionen-schnittstellen-und-rueckgabewerte", "funktionen-schnittstellen-und-rueckgabewerte-anwenden-und-pruefen-v184"]
+taskId: "INF-FUNKTIONEN-SCHNITTSTELLEN-UND-RUECKGABEWERTE-842"
+tags: ["informatik", "programmierpraxis-und-tests", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Funktionen, Schnittstellen und Rückgabewerte**. Sie soll nicht nur eine einzelne Situation lösen, sondern das Thema fachlich einordnen.
 
 ## Lernziel

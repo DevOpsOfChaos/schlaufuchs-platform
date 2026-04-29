@@ -1,34 +1,19 @@
 ---
 title: "Speicher und Referenzen"
 description: "Überblick über Speicher, Werte und Referenzen als Grundlage für veränderliche Daten in Programmen."
-subject: informatik
+subject: "informatik"
 section: "Programmierung"
-topicPath:
-  - "speicher-und-referenzen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Wert und Referenz begrifflich unterscheiden."
-  - "Du verstehst, warum mehrere Namen auf dasselbe Objekt zeigen können."
-  - "Du erkennst typische Fehler durch unbeabsichtigte Änderungen."
+topicPath: ["speicher-und-referenzen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Kopieren und Referenzieren zu verwechseln."
-  - "Geteilten Zustand ohne klare Verantwortung zu verändern."
-keyTakeaways:
-  - "Referenzen verbinden Namen mit Objekten im Speicher."
-  - "Unbeabsichtigt geteilter Zustand kann schwer nachvollziehbare Fehler erzeugen."
-recognizeSignals:
-  - "Es geht um Objekt, Kopie, Referenz, Mutation, Speicher, Pointer oder Seiteneffekt."
-selfCheckPoints:
-  - "Kann ich erklären, ob eine Änderung an einer Liste auch an anderer Stelle sichtbar wird?"
-level: einfach
-tags:
-  - "informatik"
-  - "speicher"
-  - "referenzen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 # Speicher und Referenzen
 
 ![Schaubild zu Speicher und Referenzen.](/schlaufuchs-platform/images/overviews/v148/speicher-und-referenzen.svg)

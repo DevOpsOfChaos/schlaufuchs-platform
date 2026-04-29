@@ -1,27 +1,17 @@
 ---
 title: "Testfälle und Randfälle ruhig einordnen"
 description: "Übe Testfälle und Randfälle mit Begriffen, Beispielen und typischen Prüfungen."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "testfaelle-und-randfaelle"
-taskId: INF-V183-14-A
-tags:
-  - "informatik"
-  - "testfaelle-und-randfaelle"
-hintPoints:
-  - "Beginne mit der allgemeinen Idee."
-  - "Trenne Begriff, Beispiel und Fehlerquelle."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe sauber unterscheiden."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel aus einem anderen Informatikthema."
-reflectionPrompt: "Welche Unterscheidung war hier am wichtigsten?"
-level: mittel
+topicPath: ["programmierpraxis-und-tests", "testfaelle-und-randfaelle", "testfaelle-und-randfaelle-ruhig-einordnen-v183"]
+taskId: "INF-V183-14-A"
+tags: ["informatik", "Programmierpraxis und Tests", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Testfälle und Randfälle**.
 
 ## Aufgabe 1 – Begriffe klären

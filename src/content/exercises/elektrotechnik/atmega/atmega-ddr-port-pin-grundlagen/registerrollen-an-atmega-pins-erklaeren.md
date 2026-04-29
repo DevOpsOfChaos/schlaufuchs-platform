@@ -1,32 +1,17 @@
 ---
-title: Registerrollen an ATmega-Pins erklären
-description: Erkläre an kleinen AVR-Beispielen, welche Rolle DDR, PORT und PIN jeweils übernehmen.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - digitale-eingaenge-und-ausgaenge
-  - atmega-ddr-port-pin-grundlagen
-  - registerrollen-an-atmega-pins-erklaeren
-taskId: ET-ATMEGA-IO-201
-level: einfach
+title: "Registerrollen an ATmega-Pins erklären"
+description: "Erkläre an kleinen AVR-Beispielen, welche Rolle DDR, PORT und PIN jeweils übernehmen."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-ddr-port-pin-grundlagen", "registerrollen-an-atmega-pins-erklaeren"]
+taskId: "ET-ATMEGA-IO-201"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - elektrotechnik
-  - atmega
-  - avr
-  - io
-hintPoints:
-  - Trenne Richtung, gesetzten Wert und gelesenen Zustand sauber.
-  - "Frage bei PORT immer zusätzlich: Ist der Pin Eingang oder Ausgang?"
-selfCheckPoints:
-  - Kannst du erklären, warum PORT je nach Pinrichtung unterschiedlich wirkt?
-  - Kannst du PIN als Lesezugriff sauber einordnen?
-transferIdeas:
-  - Übertrage die Logik auf einen zweiten Port mit LED und Taster.
-reflectionPrompt: "Welche Leitfrage hilft dir am meisten, DDR, PORT und PIN nicht durcheinanderzubringen?"
 ---
-
 Gegeben ist dieser Code:
 
 ```c

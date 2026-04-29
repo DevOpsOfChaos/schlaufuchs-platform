@@ -3,21 +3,12 @@ title: "Lösung – Diagrammachse kritisch prüfen"
 description: "Musterlösung zu diagrammachse kritisch prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "daten-und-zufall"
-  - "diagramme-und-kennwerte"
-  - "diagrammachse-kritisch-pruefen"
+topicPath: ["daten-und-zufall", "diagramme-und-kennwerte", "diagrammachse-kritisch-pruefen"]
 taskId: "v112-mathematik-diagrammachse-kritisch-pruefen"
 relatedExercise: "mathematik/daten-und-zufall/diagramme-und-kennwerte/diagrammachse-kritisch-pruefen"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-zufall"
-  - "diagrammachse-kritisch-pruefen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Diagramme und Kennwerte**.

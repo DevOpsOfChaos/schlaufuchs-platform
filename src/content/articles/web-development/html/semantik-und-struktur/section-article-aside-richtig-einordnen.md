@@ -3,44 +3,17 @@ title: "HTML – section, article und aside richtig einordnen"
 description: "Ordne semantische Bereiche so ein, dass Seitenstruktur, Inhalt und Zusatzinformationen klar voneinander getrennt bleiben."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "semantik-und-struktur"
-  - "section-article-aside-richtig-einordnen"
-tags:
-  - "web development"
-  - "html"
-  - "semantik"
-  - "struktur"
-  - "barrierefreiheit"
-learningGoals:
-  - "Du erklärst, worum es bei „section, article und aside richtig einordnen“ fachlich geht."
-  - "Du trennst technische Umsetzung, sichtbare Rückmeldung und Nutzererwartung."
-  - "Du erkennst typische Fehlerbilder und formulierst eine robuste Alternative."
-practiceIdeas:
-  - "Übertrage die Idee auf eine kleine eigene Beispielseite."
-  - "Prüfe die Lösung einmal aus Sicht von Tastatur, Mobilgerät oder langsamem Laden."
-  - "Formuliere die technische Entscheidung in gutem Deutsch für eine andere Person."
-commonMistakes:
-  - "Nur den sichtbaren Normalfall zu betrachten."
-  - "Technische Begriffe zu verwenden, ohne den Nutzen für die Bedienung zu klären."
-  - "Fehlerfälle, leere Zustände oder Wartbarkeit zu spät mitzudenken."
-keyTakeaways:
-  - "Robuste Webentwicklung verbindet Struktur, Verhalten und Rückmeldung."
-  - "Gute Lösungen bleiben auch bei kleinen Störungen verständlich."
-  - "Saubere sichtbare Texte sind Teil der technischen Qualität."
-recognizeSignals:
-  - "Eine Oberfläche soll verständlicher, stabiler oder zugänglicher werden."
-  - "Ein technischer Baustein beeinflusst direkt die Nutzerführung."
-  - "Du musst zwischen schneller Lösung und dauerhaft wartbarer Lösung abwägen."
-selfCheckPoints:
-  - "Kann ich die Entscheidung ohne Fachnebel erklären?"
-  - "Bleibt die Seite bei Fehlern oder Sonderfällen verständlich?"
-  - "Sind Code, sichtbarer Text und Verhalten konsistent?"
+topicPath: ["html", "semantik-und-struktur", "section-article-aside-richtig-einordnen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Eine Seite wirkt oft nur deshalb unübersichtlich, weil alle Bereiche gleich behandelt werden. Semantische HTML-Elemente helfen, Hauptinhalt, eigenständige Beiträge und ergänzende Hinweise klarer zu unterscheiden.

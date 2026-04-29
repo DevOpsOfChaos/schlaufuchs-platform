@@ -1,34 +1,19 @@
 ---
 title: "Schema-Validierung"
 description: "Überblick über die Prüfung von Datenstrukturen gegen definierte Formen, Typen und Regeln."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "schema-validierung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["schema-validierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Daten als gültig zu behandeln, nur weil sie syntaktisch lesbar sind."
-keyTakeaways:
-  - "Schema-Validierung macht Erwartungen an Daten explizit und schützt Systemgrenzen."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Daten importiert, über APIs übertragen oder aus Formularen verarbeitet werden."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "daten"
-  - "validierung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Schema-Validierung
 
 Schema-Validierung prüft, ob Daten einer erwarteten Struktur entsprechen. Dazu gehören Pflichtfelder, Datentypen, erlaubte Werte, Verschachtelungen und manchmal fachliche Einschränkungen.

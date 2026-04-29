@@ -1,20 +1,19 @@
 ---
-title: Fläche unter Graphen
-description: Flächenideen als aufsummierte Veränderung lesen.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Fläche unter Graphen"
+description: "Flächenideen als aufsummierte Veränderung lesen."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "analysis-vorbereitung", "flaeche-unter-graphen"]
-learningGoals: ["Flächenideen als aufsummierte Veränderung lesen", "Zwischenschritte begründen", "Ergebnis im Kontext kontrollieren"]
-practiceIdeas: ["Formuliere ein eigenes Beispiel zu Fläche unter Graphen.", "Markiere Frage, Daten und Kontrolle getrennt.", "Vergleiche zwei mögliche Lösungswege."]
-commonMistakes: ["Zu früh rechnen", "Einheiten oder Bedingungen weglassen", "Das Ergebnis nicht rückprüfen"]
-keyTakeaways: ["Fläche unter Graphen beginnt mit einer klaren Frage und nicht sofort mit Rechnen.", "Der Themenblock analysis vorbereitung braucht sichtbare Zwischenschritte.", "Ein Ergebnis ist erst belastbar, wenn es im Kontext geprüft wurde."]
-recognizeSignals: ["Die Aufgabe enthält mehrere Angaben.", "Eine Darstellung muss gedeutet werden.", "Das Ergebnis braucht eine Plausibilitätsprüfung."]
-selfCheckPoints: ["Ist die Frage klar?", "Sind Einheiten und Bedingungen sichtbar?", "Passt das Ergebnis zur Situation?"]
-level: fortgeschritten
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
 tags: ["mathematik", "v196", "analysis-vorbereitung", "flaeche-unter-graphen"]
 draft: false
 ---
-
 ![Fläche unter Graphen](/schlaufuchs-platform/images/mathematik/sanierung-v196/flaeche-unter-graphen.svg)
 
 ## Worum es geht

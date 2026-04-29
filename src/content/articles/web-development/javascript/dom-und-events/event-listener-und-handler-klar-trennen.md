@@ -3,44 +3,17 @@ title: "JavaScript – Event Listener und Handler klar trennen"
 description: "Lerne, Bedienereignisse als Verbindung zwischen Element, Ereignisart und kleiner Reaktionsfunktion zu lesen."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "dom-und-events"
-  - "event-listener-und-handler-klar-trennen"
-learningGoals:
-  - "Du erklärst, was ein Event Listener verbindet."
-  - "Du hältst Handler-Funktionen klein und verständlich."
-  - "Du unterscheidest Ereignis registrieren und Ereignis ausführen."
-practiceIdeas:
-  - "Baue ein sehr kleines Beispiel mit genau einem sichtbaren Zustand."
-  - "Erkläre den Code zuerst in Alltagssprache und danach mit Fachbegriffen."
-  - "Prüfe bewusst den Fall, dass ein Element, Wert oder Netzwerkzugriff nicht wie erwartet vorhanden ist."
-commonMistakes:
-  - "Die Handler-Funktion beim Registrieren versehentlich sofort aufzurufen."
-  - "Zu viel Logik direkt anonym in den Listener zu schreiben."
-  - "Nicht zu benennen, auf welches Element und welches Ereignis reagiert wird."
-keyTakeaways:
-  - "JavaScript im Browser verbindet Struktur, Ereignisse, Daten und Rückmeldung."
-  - "Robuste Lösungen behandeln nicht nur den Erfolgsfall."
-  - "Lesbarer Code trennt Auswahl, Entscheidung und Wirkung."
-recognizeSignals:
-  - "Es geht um Browserverhalten, Interaktion, Formularwerte, Datenladen oder gespeicherten Zustand."
-  - "Eine sichtbare Oberfläche soll durch JavaScript verständlicher oder interaktiver werden."
-  - "Der Code muss mit Fehlern, fehlenden Elementen oder leeren Werten umgehen."
-selfCheckPoints:
-  - "Kann ich sagen, welche Browseraufgabe der Code übernimmt?"
-  - "Ist die Rückmeldung für Nutzerinnen und Nutzer sichtbar?"
-  - "Bleibt die Lösung klein genug, um später erweitert zu werden?"
+topicPath: ["javascript", "dom-und-events", "event-listener-und-handler-klar-trennen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "web development"
-  - "javascript"
-  - "events"
-  - "listener"
-  - "handler"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Lerne, Bedienereignisse als Verbindung zwischen Element, Ereignisart und kleiner Reaktionsfunktion zu lesen. Im Mittelpunkt steht nicht ein einzelner Trick, sondern eine ruhige Entscheidung: Was passiert im Browser, was sieht der Mensch und welche Stelle im Code ist dafür zuständig?

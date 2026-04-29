@@ -3,23 +3,12 @@ title: "Lösung – Koordinatenabstand und Weglänge unterscheiden"
 description: "Musterlösung zu Abstand im Koordinatensystem mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "geometrie"
-  - "einheiten-und-skalierung"
-  - "koordinaten"
-  - "koordinatenabstand-und-weglaenge-unterscheiden"
+topicPath: ["geometrie", "einheiten-und-skalierung", "koordinaten", "koordinatenabstand-und-weglaenge-unterscheiden"]
 taskId: "v111-mathematik-koordinatenabstand-und-weglaenge-unterscheiden"
 relatedExercise: "mathematik/geometrie/einheiten-und-skalierung/koordinaten/koordinatenabstand-und-weglaenge-unterscheiden"
-tags:
-  - "mathematik"
-  - "prüfung"
-  - "unterthema"
-  - "geometrie"
-  - "einheiten-und-skalierung"
-  - "koordinatenabstand-und-weglaenge-unterscheiden"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Abstand im Koordinatensystem**.

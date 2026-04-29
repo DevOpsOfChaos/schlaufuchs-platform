@@ -3,41 +3,17 @@ title: "Umgebungsvariablen und Profile"
 description: "Verstehe shell-umgebung als kontext verstehen als ruhigen Linux-Baustein für Betrieb, Diagnose und sichere Änderungen."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "shell-und-umgebung"
-  - "umgebungsvariablen-und-profile"
-learningGoals:
-  - "Shell-Umgebung als Kontext verstehen"
-  - "Beobachtung, Änderung und Kontrolle trennen"
-  - "einen einfachen Rückweg oder Prüfpunkt benennen"
-practiceIdeas:
-  - "Erkläre, warum ein Befehl in einer Shell funktioniert und in einer anderen nicht."
-  - "Formuliere eine zweite Kontrolle, die ohne gefährliche Änderung auskommt."
-commonMistakes:
-  - "Befehle werden ausgeführt, bevor Ziel und aktueller Zustand klar sind."
-  - "Logs, Rechte oder Dienststatus werden isoliert statt gemeinsam gelesen."
-  - "Eine Änderung wird nicht mit Rückweg und Kontrolle dokumentiert."
-keyTakeaways:
-  - "Umgebungsvariablen beeinflussen Programme."
-  - "Sichere Linux-Adminpraxis arbeitet beobachtbar, schrittweise und reversibel."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn ein Linux-System betrieben, geprüft oder vorsichtig geändert werden muss."
-selfCheckPoints:
-  - "Kann ich Ist-Zustand, geplante Änderung und Kontrollschritt trennen?"
-  - "Ist klar, welcher Benutzer, Dienst, Pfad oder Port betroffen ist?"
-  - "Gibt es einen plausiblen Rückweg, falls die Änderung nicht wirkt?"
+topicPath: ["sanierung-v192", "umgebungsvariablen-und-profile"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "shell-und-umgebung"
-  - "umgebungsvariablen"
-  - "profile"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
+tags: ["linux", "adminpraxis-und-betrieb"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Umgebungsvariablen und Profile](/schlaufuchs-platform/images/linux/sanierung-v192/umgebungsvariablen-und-profile.svg)
 
 Umgebungsvariablen und Profile gehört zur Linux-Sanierung v192. Die Seite behandelt das Thema nicht als Befehlsliste, sondern als Betriebsentscheidung: Was ist der aktuelle Zustand, welche Änderung ist wirklich nötig und wie wird danach geprüft, ob das System stabil bleibt?

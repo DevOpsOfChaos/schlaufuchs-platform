@@ -1,33 +1,19 @@
 ---
 title: "Tokenisierung"
 description: "Tokenisierung zerlegt Text in bedeutungstragende Einheiten. Sie ist ein früher Schritt in Compilern, Interpretern, Suchmaschinen und Sprachverarbeitung."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "tokenisierung"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Tokenisierung."
-  - "Du kannst Tokenisierung in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["tokenisierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Tokenisierung mit Parsing gleichzusetzen."
-keyTakeaways:
-  - "Tokenisierung zerlegt Text in bedeutungstragende Einheiten."
-  - "Wichtig sind vor allem zeichenstrom zu tokens, schlüsselwörter, namen und literale und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Tokenisierung, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Tokenisierung dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "informatik"
-  - "grundlagen"
-  - "tokenisierung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Tokenisierung
 
 Tokenisierung zerlegt Text in bedeutungstragende Einheiten. Sie ist ein früher Schritt in Compilern, Interpretern, Suchmaschinen und Sprachverarbeitung. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

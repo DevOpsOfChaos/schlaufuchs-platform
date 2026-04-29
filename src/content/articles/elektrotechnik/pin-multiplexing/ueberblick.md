@@ -1,33 +1,19 @@
 ---
 title: "Pin-Multiplexing"
 description: "Pin-Multiplexing bedeutet, dass ein physischer Mikrocontroller-Pin mehrere mögliche Funktionen haben kann. Welche Funktion aktiv ist, hängt von Konfiguration, Peripherie und Registereinstellungen ab."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik und Mikrocontroller"
-topicPath:
-  - "pin-multiplexing"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Pin-Multiplexing."
-  - "Du kannst Pin-Multiplexing in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["pin-multiplexing", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur den Pin-Namen zu lesen und die alternative Funktion oder Konfiguration zu übersehen."
-keyTakeaways:
-  - "Pin-Multiplexing bedeutet, dass ein physischer Mikrocontroller-Pin mehrere mögliche Funktionen haben kann."
-  - "Wichtig sind vor allem gpio, uart, spi, i2c und adc auf denselben pins, konflikte zwischen peripheriefunktionen und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Pin-Multiplexing, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Pin-Multiplexing dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "grundlagen"
-  - "pin multiplexing"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik und Mikrocontroller"]
 draft: false
 ---
-
 # Pin-Multiplexing
 
 Pin-Multiplexing bedeutet, dass ein physischer Mikrocontroller-Pin mehrere mögliche Funktionen haben kann. Welche Funktion aktiv ist, hängt von Konfiguration, Peripherie und Registereinstellungen ab. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

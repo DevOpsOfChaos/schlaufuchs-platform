@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Verpolschutz richtig einordnen"
 description: "Musterlösung zu Verpolschutz richtig einordnen mit Trennkante und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "bauteile-praxis-v115"
-  - "dioden-und-schutz"
-  - "verpolschutz-richtig-einordnen-v115"
+topicPath: ["bauteile-praxis-v115", "dioden-und-schutz", "verpolschutz-richtig-einordnen-v115"]
 taskId: "elektrotechnik-verpolschutz-richtig-einordnen-v115"
 relatedExercise: "elektrotechnik/bauteile-praxis-v115/dioden-und-schutz/verpolschutz-richtig-einordnen-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "bauteile in der praxis"
-  - "dioden und schutz"
-  - "lösung"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Verpolschutz richtig einordnen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

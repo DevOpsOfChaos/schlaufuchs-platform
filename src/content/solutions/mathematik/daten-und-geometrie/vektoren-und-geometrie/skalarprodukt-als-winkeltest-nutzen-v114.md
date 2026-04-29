@@ -1,23 +1,14 @@
 ---
-title: Lösung – Skalarprodukt als Winkeltest nutzen
-description: Musterlösung zur Aufgabe über Skalarprodukt als Winkeltest nutzen.
-subject: mathematik
-section: Feinstruktur Mathematik
-topicPath:
-- daten-und-geometrie
-- vektoren-und-geometrie
-- skalarprodukt-als-winkeltest-nutzen-v114
-taskId: v114-mathematik-skalarprodukt-als-winkeltest-nutzen-v114
-relatedExercise: mathematik/daten-und-geometrie/vektoren-und-geometrie/skalarprodukt-als-winkeltest-nutzen-v114
-tags:
-- mathematik
-- v114
-- loesung
-- daten-und-geometrie
-- vektoren-und-geometrie
+title: "Lösung – Skalarprodukt als Winkeltest nutzen"
+description: "Musterlösung zur Aufgabe über Skalarprodukt als Winkeltest nutzen."
+subject: "mathematik"
+section: "Feinstruktur Mathematik"
+topicPath: ["daten-und-geometrie", "vektoren-und-geometrie", "skalarprodukt-als-winkeltest-nutzen-v114"]
+taskId: "v114-mathematik-skalarprodukt-als-winkeltest-nutzen-v114"
+relatedExercise: "mathematik/daten-und-geometrie/vektoren-und-geometrie/skalarprodukt-als-winkeltest-nutzen-v114"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

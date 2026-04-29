@@ -3,42 +3,17 @@ title: "Imports und Module ordnen"
 description: "Verstehe abhängigkeiten sichtbar und stabil halten als ruhigen Informatik-Baustein für Qualität, Tests und nachvollziehbare Änderungen."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "projektstruktur-und-codepflege"
-  - "imports-und-module-ordnen"
-learningGoals:
-  - "Abhängigkeiten sichtbar und stabil halten"
-  - "Beobachtung, Entscheidung und Prüfung klar trennen"
-  - "einen kleinen überprüfbaren nächsten Schritt formulieren"
-practiceIdeas:
-  - "Ordne Funktionen in Module und erkenne eine mögliche Kreisabhängigkeit."
-  - "Formuliere einen zweiten Prüfpunkt, der ohne große Umstellung auskommt."
-commonMistakes:
-  - "Es wird direkt geändert, bevor Verhalten und Erwartung klar sind."
-  - "Tests prüfen zu viele Dinge auf einmal."
-  - "Datenstruktur, Schnittstelle oder Fehlerfall bleiben unausgesprochen."
-keyTakeaways:
-  - "Module bündeln zusammengehörigen Code."
-  - "Imports zeigen Abhängigkeiten."
-  - "Kreisabhängigkeiten erschweren Tests und Startverhalten."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Code wachsen, getestet, umgebaut oder erklärt werden muss."
-selfCheckPoints:
-  - "Kann ich das erwartete Verhalten in einem Satz beschreiben?"
-  - "Ist klar, welche Daten, Schnittstellen oder Zustände betroffen sind?"
-  - "Gibt es einen kleinen Test oder Kontrollpunkt nach der Änderung?"
+topicPath: ["sanierung-v193", "imports-und-module-ordnen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "imports"
-  - "module"
-  - "ordnen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Imports und Module ordnen](/schlaufuchs-platform/images/informatik/sanierung-v193/imports-und-module-ordnen.svg)
 
 Imports und Module ordnen gehört zur Informatik-Sanierung v193. Die Seite behandelt das Thema nicht als isolierten Programmiertrick, sondern als Qualitätsentscheidung: Was soll der Code leisten, woran erkennt man korrektes Verhalten und wie bleibt die Änderung später verständlich?

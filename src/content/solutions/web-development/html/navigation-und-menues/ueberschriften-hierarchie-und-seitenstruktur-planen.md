@@ -3,21 +3,12 @@ title: "Lösung – Überschriftenhierarchie und Seitenstruktur planen"
 description: "Musterlösung zu: Ordne eine Lernseite mit einem h1-Titel, drei h2-Abschnitten und je einem h3-Unterpunkt. Begründe, warum keine Ebene übersprungen wird."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "navigation-und-menues"
-  - "ueberschriften-hierarchie-und-seitenstruktur-planen"
+topicPath: ["html", "navigation-und-menues", "ueberschriften-hierarchie-und-seitenstruktur-planen"]
 taskId: "wd-v97-ueberschriften-hierarchie-und-seitenstruktur-planen"
 relatedExercise: "web-development/html/navigation-und-menues/ueberschriften-hierarchie-und-seitenstruktur-planen"
-tags:
-  - "web development"
-  - "html"
-  - "ueberschriften"
-  - "struktur"
-  - "accessibility"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Das Problem entsteht nicht nur im Code, sondern in der Nutzung: Wenn Bedeutung, Struktur oder Rückmeldung unklar bleiben, müssen Nutzerinnen und Nutzer raten. Besonders kritisch wird das bei Tastaturbedienung, kleinen Bildschirmen, langen Inhalten oder assistiven Technologien.

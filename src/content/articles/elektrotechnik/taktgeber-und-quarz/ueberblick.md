@@ -1,36 +1,19 @@
 ---
 title: "Taktgeber und Quarz"
 description: "Allgemeiner Überblick über Taktquellen, Quarze und ihre Bedeutung für digitale Schaltungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "taktgeber-und-quarz"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Taktgeber und Quarz als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["taktgeber-und-quarz", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, Timerwerte aus Beispielen zu übernehmen, ohne die eigene Taktfrequenz zu prüfen."
-keyTakeaways:
-  - "Taktquellen bestimmen Zeitbasis und Geschwindigkeit."
-  - "Genauigkeit ist besonders für Kommunikation und Messung wichtig."
-  - "Taktfrequenz muss zu Hardware, Software und Strombudget passen."
-recognizeSignals:
-  - "Es geht um Taktgeber und Quarz als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Taktgeber und Quarz in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "takt"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
-
 # Taktgeber und Quarz
 
 Digitale Schaltungen benötigen oft einen Takt, also ein regelmäßiges zeitliches Signal. Mikrocontroller verwenden den Takt, um Befehle, Timer, Schnittstellen und interne Abläufe zu synchronisieren. Taktgeber können intern erzeugt werden oder über externe Quarze, Resonatoren oder Oszillatoren kommen.

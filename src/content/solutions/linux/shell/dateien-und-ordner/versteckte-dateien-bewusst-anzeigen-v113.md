@@ -3,20 +3,12 @@ title: "Lösung – Versteckte Dateien bewusst anzeigen"
 description: "Musterlösung zu Versteckte Dateien bewusst anzeigen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "dateien-und-ordner"
-  - "versteckte-dateien-bewusst-anzeigen-v113"
+topicPath: ["shell", "dateien-und-ordner", "versteckte-dateien-bewusst-anzeigen-v113"]
 taskId: "v113-linux-versteckte-dateien-bewusst-anzeigen-v113"
 relatedExercise: "linux/shell/dateien-und-ordner/versteckte-dateien-bewusst-anzeigen-v113"
-tags:
-  - "linux"
-  - "strukturcheck"
-  - "unterthema"
-  - "versteckte-dateien-bewusst-anzeigen-v113"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Versteckte Dateien bewusst anzeigen**.

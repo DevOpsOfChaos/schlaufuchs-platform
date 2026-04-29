@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Verschlüsselung, Hashing und Signaturen – ruhig einordnen"
 description: "Musterlösung zur Aufgabe über verschlüsselung, hashing und signaturen."
-subject: informatik
+subject: "informatik"
 section: "Sicherheit und Berechtigungen"
-topicPath:
-  - "sicherheit-und-berechtigungen"
-  - "verschluesselung-hashing-und-signaturen"
-  - "loesung"
-taskId: INF-V185-022-1
-relatedExercise: src/content/exercises/informatik/sicherheit-und-berechtigungen/verschluesselung-hashing-und-signaturen/verschluesselung-hashing-und-signaturen-ruhig-einordnen-v185.md
-tags:
-  - "informatik"
-  - "sicherheit-und-berechtigungen"
-  - "verschluesselung-hashing-und-signaturen"
-  - "loesung"
+topicPath: ["sicherheit-und-berechtigungen", "verschluesselung-hashing-und-signaturen", "verschluesselung-hashing-und-signaturen-ruhig-einordnen-v185"]
+taskId: "INF-V185-022-1"
+relatedExercise: "src/content/exercises/informatik/sicherheit-und-berechtigungen/verschluesselung-hashing-und-signaturen/verschluesselung-hashing-und-signaturen-ruhig-einordnen-v185.md"
+tags: ["informatik", "Sicherheit und Berechtigungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

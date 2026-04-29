@@ -3,38 +3,17 @@ title: "Ableitungen deuten"
 description: "Ableitungen beschreiben lokale Änderung und Steigung."
 subject: "mathematik"
 section: "analysis-pruefschritte"
-topicPath:
-  - "analysis-pruefschritte"
-  - "ableitungen-deuten"
-learningGoals:
-  - "Ableitungen beschreiben lokale Änderung und Steigung fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Ableitungen beschreiben lokale Änderung und Steigung wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v188", "ableitungen-deuten"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
-tags:
-  - "ableitung"
-  - "analysis"
-  - "deuten"
-  - "mathematik"
-  - "v188"
+tags: ["mathematik", "analysis-pruefschritte"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Ableitungen deuten](/schlaufuchs-platform/images/mathematik/sanierung-188/ableitungen-deuten.svg)
 
 ## Überblick

@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – ADC-Ausrichtung und Auslese am AVR ruhig trennen
-description: Musterlösung zur Aufgabe ET-ATMEGA-ADC-213.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - adc-und-messung
-  - atmega-adlar-und-8-bit-10-bit-auslesen-verstehen
-  - adc-ausrichtung-und-auslese-am-avr-ruhig-trennen-loesung
-taskId: ET-ATMEGA-ADC-213
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-adlar-und-8-bit-10-bit-auslesen-verstehen/adc-ausrichtung-und-auslese-am-avr-ruhig-trennen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - adc
-  - loesung
+title: "Musterlösung – ADC-Ausrichtung und Auslese am AVR ruhig trennen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-ADC-213."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-adlar-und-8-bit-10-bit-auslesen-verstehen", "adc-ausrichtung-und-auslese-am-avr-ruhig-trennen"]
+taskId: "ET-ATMEGA-ADC-213"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-adlar-und-8-bit-10-bit-auslesen-verstehen/adc-ausrichtung-und-auslese-am-avr-ruhig-trennen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 ADLAR verändert die Anordnung des ADC-Ergebnisses in den Ausleseregistern. Es verändert nicht die eigentliche Wandlung des ADC. Die Messung selbst bleibt also dieselbe, aber sie liegt anders in ADCH und ADCL.

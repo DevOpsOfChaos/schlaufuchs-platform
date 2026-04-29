@@ -1,29 +1,17 @@
 ---
 title: "Schnittstellenverträge und Versionierung – ruhig einordnen"
 description: "Übe, schnittstellenverträge und versionierung fachlich zu erklären und abzugrenzen."
-subject: informatik
+subject: "informatik"
 section: "Netzwerke und Dienste"
-topicPath:
-  - "netzwerke-und-dienste"
-  - "schnittstellenvertraege-und-versionierung"
-  - "uebung"
-taskId: INF-V185-024-1
-tags:
-  - "informatik"
-  - "netzwerke-und-dienste"
-  - "schnittstellenvertraege-und-versionierung"
-hintPoints:
-  - "Beginne mit der Grundidee, nicht mit einem Spezialfall."
-  - "Trenne Begriff, Beispiel und Prüfung."
-selfCheckPoints:
-  - "Ich kann das Thema in eigenen Worten erklären."
-  - "Ich kann ein passendes Beispiel begründen."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel in einem anderen Fachbereich."
-level: einfach
+topicPath: ["netzwerke-und-dienste", "schnittstellenvertraege-und-versionierung", "schnittstellenvertraege-und-versionierung-ruhig-einordnen-v185"]
+taskId: "INF-V185-024-1"
+tags: ["informatik", "Netzwerke und Dienste", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe prüft, ob du **Schnittstellenverträge und Versionierung** zuerst als allgemeines Thema und nicht nur als Einzelfall lesen kannst.
 
 ## Lernziel

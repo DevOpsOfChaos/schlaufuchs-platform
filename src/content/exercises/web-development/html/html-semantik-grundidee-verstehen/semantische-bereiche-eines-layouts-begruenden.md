@@ -1,33 +1,17 @@
 ---
-title: Semantische Bereiche eines Layouts begründen
-description: Begründe bei einer kleinen Seitenstruktur, welche semantischen HTML-Elemente passend sind.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - html-semantik-grundidee-verstehen
-  - semantische-bereiche-eines-layouts-begruenden
-taskId: WEB-HTML-CORE-101
-level: einfach
+title: "Semantische Bereiche eines Layouts begründen"
+description: "Begründe bei einer kleinen Seitenstruktur, welche semantischen HTML-Elemente passend sind."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "html-semantik-grundidee-verstehen", "semantische-bereiche-eines-layouts-begruenden"]
+taskId: "WEB-HTML-CORE-101"
+tags: ["web-development", "HTML", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - html
-  - semantik
-  - aufgabe
-hintPoints:
-  - Frage zuerst nach der Rolle des Bereichs.
-  - Trenne Seitengerüst und innere Inhaltsstruktur.
-  - Begründe mit Bedeutung und nicht mit Optik.
-selfCheckPoints:
-  - Ist die Rollenbegründung klar?
-  - Trennst du Landmarken und Inhaltsstruktur?
-  - Ist main nicht einfach nur irgendein großer Block?
-transferIdeas:
-  - Übertrage die Aufgabe auf eine Blogseite oder Produktseite.
-  - Vergleiche dieselbe Struktur mit einer neutralen div-Lösung.
-reflectionPrompt: Welche Leitfrage hätte dir geholfen, das passende Element schneller zu finden?
 ---
-
 ## Aufgabe 1: Zwei Ebenen benennen
 
 Eine Seite enthält:

@@ -3,26 +3,12 @@ title: "Lösung: Speicherplatz mit df und du: Aufgabe A"
 description: "Musterlösung zur Aufgabe linux-v192-020a im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "dateisystem-und-speicher"
-  - "speicherplatz-mit-df-und-du"
-  - "loesung-a"
+topicPath: ["sanierung-v192", "speicherplatz-mit-df-und-du-loesung-a"]
 taskId: "linux-v192-020a"
 relatedExercise: "linux/sanierung-v192/speicherplatz-mit-df-und-du-aufgabe-a"
-tags:
-  - "dateisystem-und-speicher"
-  - "speicherplatz"
-  - "df"
-  - "du"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-020a`
 
 Ausgangsauftrag: Finde den Unterschied zwischen voller Partition und großem Ordner.

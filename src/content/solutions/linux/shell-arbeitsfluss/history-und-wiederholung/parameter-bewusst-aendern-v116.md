@@ -3,22 +3,12 @@ title: "Lösung: Parameter bewusst ändern"
 description: "Musterlösung zur Aufgabe „Parameter bewusst ändern“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "shell-arbeitsfluss"
-  - "history-und-wiederholung"
-  - "parameter-bewusst-aendern-v116"
+topicPath: ["shell-arbeitsfluss", "history-und-wiederholung", "parameter-bewusst-aendern-v116"]
 taskId: "parameter-bewusst-aendern-v116"
 relatedExercise: "linux/shell-arbeitsfluss/history-und-wiederholung/parameter-bewusst-aendern-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "history und wiederholung"
-  - "parameter bewusst aendern"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

@@ -3,34 +3,15 @@ title: "Aufgabe – Release-Notizen und Änderungen nachvollziehen"
 description: "Wende die passende Web-Projektpraxis auf ein konkretes Mini-Szenario an."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "release-notizen-und-aenderungen-nachvollziehen"
+topicPath: ["projektpraxis", "betrieb-und-release", "release-notizen-und-aenderungen-nachvollziehen"]
 taskId: "web-v105-release-notizen-und-aenderungen-nachvollziehen"
-tags:
-  - "web development"
-  - "release"
-  - "dokumentation"
-  - "review"
-  - "wartung"
-  - "aufgabe"
-hintPoints:
-  - "Beschreibe zuerst den sichtbaren Zustand, bevor du Technik bewertest."
-  - "Trenne Ursache, Risiko und Verbesserung sauber."
-  - "Formuliere eine kurze Gegenprobe, die später wiederholt werden kann."
-selfCheckPoints:
-  - "Ist meine Lösung klein genug, um wirklich geprüft zu werden?"
-  - "Habe ich einen Fehler- oder Randfall bewusst mitgedacht?"
-  - "Kann ich erklären, woran Nutzende oder Wartende die Verbesserung merken?"
-transferIdeas:
-  - "Übertrage dieselbe Prüflogik auf eine andere Web-Seite im Projekt."
-  - "Formuliere aus deiner Lösung eine kurze Review-Frage für spätere Releases."
-reflectionPrompt: "Welche kleine Regel würdest du aus dieser Aufgabe in die nächste Projektprüfung übernehmen?"
+tags: ["web-development", "Projektpraxis", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Du arbeitest an einem kleinen Webprojekt. Die Oberfläche wirkt im Idealfall in Ordnung, aber rund um **Release-Notizen und Änderungen nachvollziehen** gibt es ein Risiko.

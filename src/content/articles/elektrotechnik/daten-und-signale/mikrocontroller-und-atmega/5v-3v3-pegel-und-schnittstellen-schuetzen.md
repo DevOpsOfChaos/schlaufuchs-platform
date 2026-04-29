@@ -1,49 +1,19 @@
 ---
 title: "Mikrocontroller – 5 V, 3,3 V und Pegel sauber verbinden"
 description: "Verstehe, warum unterschiedliche Logikpegel bei Mikrocontroller-Schnittstellen bewusst geprüft und nicht einfach zusammengesteckt werden sollten."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - 5v-3v3-pegel-und-schnittstellen-schuetzen
-learningGoals:
-  - "Du erklärst, warum 5-V- und 3,3-V-Logik nicht automatisch kompatibel sind."
-  - "Du unterscheidest Eingangstoleranz, High-Schwelle und Versorgungsspannung."
-  - "Du beschreibst typische sichere Wege wie Spannungsteiler, Pegelwandler oder passende Pull-ups."
-practiceIdeas:
-  - "Prüfe für eine UART-Verbindung jede Richtung getrennt."
-  - "Vergleiche Push-Pull-Ausgänge mit Open-Drain-Bussen wie I²C."
-  - "Markiere in einer Skizze, welcher Pin senden und welcher empfangen muss."
-commonMistakes:
-  - "Nur zu prüfen, ob Stecker mechanisch passen."
-  - "Zu denken, 3,3 V sei immer sicher für jeden 5-V-Eingang oder umgekehrt."
-  - "Bei UART nur eine Richtung zu betrachten."
-keyTakeaways:
-  - "Pegelkompatibilität ist eine Datenblattfrage, keine Gefühlssache."
-  - "Ein 5-V-Ausgang kann einen 3,3-V-Eingang beschädigen, wenn dieser nicht tolerant ist."
-  - "Jede Signalleitung braucht eine getrennte Betrachtung von Sender, Empfänger und Pegel."
-recognizeSignals:
-  - "Es geht um Module mit 3,3 V und Controller mit 5 V."
-  - "UART, SPI oder einzelne GPIO-Leitungen werden zwischen Boards verbunden."
-  - "Eine Aufgabe fragt nach Level Shifter, Spannungsteiler oder 5-V-Toleranz."
-selfCheckPoints:
-  - "Kann ich Sende- und Empfangsrichtung getrennt prüfen?"
-  - "Kann ich erklären, warum Versorgungsspannung und Signalpegel zusammenhängen?"
-  - "Kann ich mindestens eine sichere Anpassungsmethode nennen?"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - pegel
-  - 3v3
-  - 5v
-  - schnittstellen
-  - schutz
-level: mittel
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "5v-3v3-pegel-und-schnittstellen-schuetzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Viele Mikrocontroller-Schaltungen verbinden Module mit unterschiedlichen Versorgungsspannungen. Mechanisch passen Jumperkabel schnell zusammen. Elektrisch ist aber entscheidend, ob der Ausgangspegel des einen Bausteins zum Eingang des anderen passt.

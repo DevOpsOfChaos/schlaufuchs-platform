@@ -1,46 +1,19 @@
 ---
-title: Cookie- und Session-Ablauf über mehrere Seiten verstehen
-description: Verstehe, wie Cookies und Sessions einen Benutzer über mehrere Requests hinweg wiedererkennbar machen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - cookie-und-session-ablauf-ueber-mehrere-seiten-verstehen
-learningGoals:
-  - Du beschreibst grob, wie Cookies und Sessions über mehrere Seitenaufrufe hinweg wirken.
-  - Du erklärst den Unterschied zwischen clientseitiger Cookie-Speicherung und serverseitiger Session-Speicherung.
-  - Du liest Personalisierung oder Warenkorb-Logik als Mehrseiten-Ablauf statt als Einzelseite.
-practiceIdeas:
-  - Erkläre einen kleinen Login- oder Personalisierungsablauf über zwei Seiten.
-  - Vergleiche, welche Information beim Cookie eher im Browser liegt und was bei der Session auf dem Server bleibt.
-  - Beschreibe, warum der Zustand bei HTTP nicht automatisch vorhanden ist.
-commonMistakes:
-  - Zu glauben, eine Webanwendung merke sich Benutzerzustände ohne eigene Technik.
-  - Cookie-Inhalt und Session-Daten direkt gleichzusetzen.
-  - Den Request-zu-Request-Charakter von HTTP zu ignorieren.
-keyTakeaways:
-  - HTTP ist zustandslos.
-  - Cookies speichern clientseitig kleine Zustandsinfos, Sessions speichern serverseitig Zustandsdaten.
-  - Beide helfen, mehrere Seitenaufrufe zusammenhängend zu behandeln.
-recognizeSignals:
-  - Es geht um Warenkorb, Personalisierung, Login oder mehrere Folgeseiten.
-  - Begriffe wie <code>$_COOKIE</code>, <code>$_SESSION</code> oder Session-ID tauchen auf.
-  - Du sollst erklären, wie Wiedererkennung über mehrere Requests funktioniert.
-selfCheckPoints:
-  - Kann ich clientseitige und serverseitige Speicherung unterscheiden?
-  - Kann ich erklären, warum HTTP allein keinen Zustand hält?
-  - Kann ich einen Mehrseiten-Ablauf in Worten beschreiben?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - cookie
-  - session
+title: "Cookie- und Session-Ablauf über mehrere Seiten verstehen"
+description: "Verstehe, wie Cookies und Sessions einen Benutzer über mehrere Requests hinweg wiedererkennbar machen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "cookie-und-session-ablauf-ueber-mehrere-seiten-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Webanwendungen laufen über viele einzelne Requests. Der Server behandelt diese Anfragen zunächst unabhängig voneinander. Damit trotzdem ein Benutzer über mehrere Seitenaufrufe hinweg wiedererkannt werden kann, braucht es zusätzliche Zustandslogik.

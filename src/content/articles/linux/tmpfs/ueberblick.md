@@ -1,33 +1,19 @@
 ---
 title: "tmpfs"
 description: "tmpfs ist ein temporäres Dateisystem im Arbeitsspeicher beziehungsweise Swap. Es ist schnell, aber nicht für dauerhafte Daten gedacht."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "tmpfs"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von tmpfs."
-  - "Du kannst tmpfs in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["tmpfs", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Wichtige Daten in tmpfs abzulegen und nach Neustart zu erwarten."
-keyTakeaways:
-  - "tmpfs ist ein temporäres Dateisystem im Arbeitsspeicher beziehungsweise Swap."
-  - "Wichtig sind vor allem flüchtige dateien, speichernutzung und limits und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um tmpfs, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu tmpfs dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "linux"
-  - "grundlagen"
-  - "tmpfs"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # tmpfs
 
 tmpfs ist ein temporäres Dateisystem im Arbeitsspeicher beziehungsweise Swap. Es ist schnell, aber nicht für dauerhafte Daten gedacht. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

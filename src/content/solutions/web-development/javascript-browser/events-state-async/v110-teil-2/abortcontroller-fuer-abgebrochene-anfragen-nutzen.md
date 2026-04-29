@@ -3,23 +3,12 @@ title: "Lösung – AbortController für abgebrochene Anfragen nutzen"
 description: "Musterlösung zu AbortController für abgebrochene Anfragen nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript-browser"
-  - "events-state-async"
-  - "v110-teil-2"
-  - "abortcontroller-fuer-abgebrochene-anfragen-nutzen"
+topicPath: ["javascript-browser", "events-state-async", "v110-teil-2", "abortcontroller-fuer-abgebrochene-anfragen-nutzen"]
 taskId: "v110-web-development-abortcontroller-fuer-abgebrochene-anfragen-nutzen"
 relatedExercise: "web-development/javascript-browser/events-state-async/v110-teil-2/abortcontroller-fuer-abgebrochene-anfragen-nutzen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "javascript-browser"
-  - "events-state-async"
-  - "abortcontroller-fuer-abgebrochene-anfragen-nutzen"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **AbortController für abgebrochene Anfragen nutzen**.

@@ -1,28 +1,14 @@
 ---
-title: Musterlösung – Wertearten sauber unterscheiden
-description: Musterlösung zur Aufgabe INF-PROG-CPP-TYPEN-001.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - primitive-datentypen
-  - ganzzahl-gleitkomma-und-bool-unterscheiden
-  - wertearten-sauber-unterscheiden-loesung
-taskId: INF-PROG-CPP-TYPEN-001
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/ganzzahl-gleitkomma-und-bool-unterscheiden/wertearten-sauber-unterscheiden.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - int
-  - double
-  - bool
-  - loesung
-  - task-id
+title: "Musterlösung – Wertearten sauber unterscheiden"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-TYPEN-001."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "ganzzahl-gleitkomma-und-bool-unterscheiden", "wertearten-sauber-unterscheiden"]
+taskId: "INF-PROG-CPP-TYPEN-001"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/ganzzahl-gleitkomma-und-bool-unterscheiden/wertearten-sauber-unterscheiden.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Typwahl begründen
 
 - **Anzahl Besucher** → `int`, weil es sich um eine exakte ganze Anzahl handelt.

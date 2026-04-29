@@ -1,47 +1,19 @@
 ---
-title: ATmega – LED mit Registerzugriff schalten
-description: Verstehe, wie ein AVR-Pin als Ausgang vorbereitet und anschließend per Registerzugriff auf High oder Low gesetzt wird.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - digitale-eingaenge-und-ausgaenge
-  - atmega-led-mit-registerzugriff-schalten
-learningGoals:
-  - Du erklärst, wie ein AVR-Pin als Ausgang eingerichtet wird.
-  - Du unterscheidest Richtungsfestlegung und Ausgangswert sauber.
-  - Du liest einen kleinen LED-Codeblock ruhiger als Ablauf statt als Registerliste.
-practiceIdeas:
-  - Übersetze einen kurzen LED-Code zuerst in drei Handlungsschritte.
-  - Vergleiche die Registerrolle von DDR und PORT an derselben LED.
-  - Prüfe, was passiert, wenn ein Ausgang nicht vorbereitet wurde.
-commonMistakes:
-  - Einen Pin sofort auf High zu setzen, ohne ihn vorher als Ausgang zu konfigurieren.
-  - DDR und PORT als dieselbe Aktion zu lesen.
-  - Zu denken, dass die LED nur durch Code „magisch“ leuchtet, ohne den Pinzustand mitzudenken.
-keyTakeaways:
-  - Zuerst wird die Richtung festgelegt, erst danach wird der Ausgangswert gesetzt.
-  - DDR und PORT haben bei einer LED unterschiedliche Rollen.
-  - Ein ruhiger LED-Ablauf besteht aus Konfiguration und anschließender Ausgangssteuerung.
-recognizeSignals:
-  - Es geht um DDRB, PORTB, LED-Ausgänge oder einfache AVR-Ausgabe.
-  - Du sollst erklären, warum eine LED leuchtet oder dunkel bleibt.
-  - "In Codebeispielen tauchen meist zwei Schritte auf: Ausgang vorbereiten und Pegel setzen."
-selfCheckPoints:
-  - Kann ich erklären, warum eine LED zuerst einen Ausgang braucht?
-  - Kann ich Richtungsregister und Ausgangsregister sauber unterscheiden?
-  - Kann ich einen kleinen LED-Codeblock fachlich in Reihenfolge lesen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - avr
-  - led
-  - register
-level: einfach
+title: "ATmega – LED mit Registerzugriff schalten"
+description: "Verstehe, wie ein AVR-Pin als Ausgang vorbereitet und anschließend per Registerzugriff auf High oder Low gesetzt wird."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-led-mit-registerzugriff-schalten"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 Eine LED am AVR zu schalten ist didaktisch sehr hilfreich, weil dabei zwei Grundfragen sichtbar werden:
 
 1. **Ist der Pin überhaupt als Ausgang vorbereitet?**

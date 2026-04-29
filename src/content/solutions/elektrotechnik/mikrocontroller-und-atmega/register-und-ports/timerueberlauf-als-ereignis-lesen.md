@@ -3,21 +3,12 @@ title: "Lösung – Timerüberlauf als Ereignis lesen"
 description: "Musterlösung zu timerüberlauf als ereignis lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "register-und-ports"
-  - "timerueberlauf-als-ereignis-lesen"
+topicPath: ["mikrocontroller-und-atmega", "register-und-ports", "timerueberlauf-als-ereignis-lesen"]
 taskId: "v112-elektrotechnik-timerueberlauf-als-ereignis-lesen"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/register-und-ports/timerueberlauf-als-ereignis-lesen"
-tags:
-  - "elektrotechnik"
-  - "v112"
-  - "feinstruktur"
-  - "mikrocontroller-und-atmega"
-  - "timerueberlauf-als-ereignis-lesen"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Mikrocontroller Register und Ports**.

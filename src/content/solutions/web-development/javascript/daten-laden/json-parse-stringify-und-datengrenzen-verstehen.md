@@ -3,22 +3,12 @@ title: "Lösung – JavaScript: JSON.parse, JSON.stringify und Datengrenzen vers
 description: "Musterlösung zur Aufgabe: Erkläre, warum localStorage nur Text speichert. Zeige, wann stringify und parse gebraucht werden."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "daten-laden"
-  - "json-parse-stringify-und-datengrenzen-verstehen"
+topicPath: ["javascript", "daten-laden", "json-parse-stringify-und-datengrenzen-verstehen"]
 taskId: "web-js-json-parse-stringify-und-datengrenzen-verstehen"
 relatedExercise: "web-development/javascript/daten-laden/json-parse-stringify-und-datengrenzen-verstehen"
-tags:
-  - "web development"
-  - "javascript"
-  - "json"
-  - "daten"
-  - "api"
-  - "lösung"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 localStorage speichert Werte als Strings. Soll ein Objekt gespeichert werden, wird es vorher mit JSON.stringify in Text verwandelt. Beim Lesen wird dieser Text mit JSON.parse wieder in ein Objekt übersetzt.

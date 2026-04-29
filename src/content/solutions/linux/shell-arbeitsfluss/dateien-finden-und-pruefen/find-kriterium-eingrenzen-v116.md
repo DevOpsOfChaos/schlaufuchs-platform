@@ -3,22 +3,12 @@ title: "Lösung: find-Kriterium eingrenzen"
 description: "Musterlösung zur Aufgabe „find-Kriterium eingrenzen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "shell-arbeitsfluss"
-  - "dateien-finden-und-pruefen"
-  - "find-kriterium-eingrenzen-v116"
+topicPath: ["shell-arbeitsfluss", "dateien-finden-und-pruefen", "find-kriterium-eingrenzen-v116"]
 taskId: "find-kriterium-eingrenzen-v116"
 relatedExercise: "linux/shell-arbeitsfluss/dateien-finden-und-pruefen/find-kriterium-eingrenzen-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "dateien finden und pruefen"
-  - "find kriterium eingrenzen"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

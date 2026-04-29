@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Prüfsumme als Übertragungscheck nutzen"
 description: "Musterlösung zu Prüfsumme als Übertragungscheck nutzen mit Trennkante und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "signale-stoerungen-v115"
-  - "kommunikation-robust"
-  - "pruefsumme-als-uebertragungscheck-nutzen-v115"
+topicPath: ["signale-stoerungen-v115", "kommunikation-robust", "pruefsumme-als-uebertragungscheck-nutzen-v115"]
 taskId: "elektrotechnik-pruefsumme-als-uebertragungscheck-nutzen-v115"
 relatedExercise: "elektrotechnik/signale-stoerungen-v115/kommunikation-robust/pruefsumme-als-uebertragungscheck-nutzen-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "signale und störungen"
-  - "kommunikation robust machen"
-  - "lösung"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Prüfsumme als Übertragungscheck nutzen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

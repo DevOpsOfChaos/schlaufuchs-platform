@@ -3,35 +3,15 @@ title: "Farben, Kontrast und Lesbarkeit: Grundordnung"
 description: "Bewerte drei Farbpaare nach Lesbarkeit und Zweck."
 subject: "web-development"
 section: "css"
-topicPath: 
-  - "css-und-layout"
-  - "farben-und-kontrast"
-  - "aufgabe-a"
+topicPath: ["sanierung-v187", "farben-kontrast-und-lesbarkeit-aufgabe-a"]
 taskId: "web-v187-012a"
-tags: 
-  - "css"
-  - "farben"
-  - "kontrast"
-  - "lesbarkeit"
-  - "web-development"
-  - "aufgabe"
-  - "v187"
-hintPoints: 
-  - "Trenne Zweck, Struktur und sichtbare Wirkung."
-  - "Begründe mindestens eine Entscheidung mit dem Nutzerziel."
-  - "Prüfe einen typischen Fehlerfall aus der Erklärseite."
-selfCheckPoints: 
-  - "Die Lösung passt zur Aufgabenstellung."
-  - "Mindestens eine Entscheidung ist begründet."
-  - "Es gibt keine neue Aufgabe ohne passende Lösung."
-transferIdeas: 
-  - "Übertrage die Entscheidung auf eine zweite kleine Seite."
-  - "Formuliere eine kurze Checkliste für spätere Wiederholung."
-reflectionPrompt: "Welche Entscheidung war am wichtigsten, damit die Lösung ruhig und wartbar bleibt?"
+tags: ["web-development", "css", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bewerte drei Farbpaare nach Lesbarkeit und Zweck.

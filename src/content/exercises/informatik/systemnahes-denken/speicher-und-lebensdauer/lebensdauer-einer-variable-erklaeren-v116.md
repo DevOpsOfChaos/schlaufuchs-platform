@@ -3,34 +3,15 @@ title: "Übung: Lebensdauer einer Variable erklären"
 description: "Übe, „Lebensdauer einer Variable erklären“ als kleines Unterthema zu erkennen, zu begründen und mit einer Gegenprobe abzusichern."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "systemnahes-denken"
-  - "speicher-und-lebensdauer"
-  - "lebensdauer-einer-variable-erklaeren-v116"
+topicPath: ["systemnahes-denken", "speicher-und-lebensdauer", "lebensdauer-einer-variable-erklaeren-v116"]
 taskId: "lebensdauer-einer-variable-erklaeren-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "speicher und lebensdauer"
-  - "lebensdauer einer variable erklaeren"
-  - "v116"
-hintPoints:
-  - "Lies zuerst nur die konkrete Unterfrage."
-  - "Markiere eine typische Fehlannahme."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Lösung fachlich begründet?"
-  - "Ist die Abgrenzung zum Nachbarthema sichtbar?"
-  - "Passt die Gegenprobe zur Aufgabe?"
-transferIdeas:
-  - "Ändere eine Bedingung und prüfe, ob deine Begründung noch trägt."
-  - "Erkläre die Lösung einmal ohne Fachwörter und danach fachlich sauber."
-reflectionPrompt: "Welche kleine Entscheidung war bei „Lebensdauer einer Variable erklären“ am wichtigsten?"
+tags: ["informatik", "Informatik vertiefen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe 1: Unterfrage erkennen
 
 Lies die Situation:

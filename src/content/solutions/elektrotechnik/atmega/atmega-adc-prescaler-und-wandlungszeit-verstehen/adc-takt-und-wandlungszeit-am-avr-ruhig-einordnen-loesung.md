@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – ADC-Takt und Wandlungszeit am AVR ruhig einordnen
-description: Musterlösung zur Aufgabe ET-ATMEGA-ADC-210.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - analoge-eingaenge
-  - atmega-adc-prescaler-und-wandlungszeit-verstehen
-  - adc-takt-und-wandlungszeit-am-avr-ruhig-einordnen-loesung
-taskId: ET-ATMEGA-ADC-210
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-adc-prescaler-und-wandlungszeit-verstehen/adc-takt-und-wandlungszeit-am-avr-ruhig-einordnen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – ADC-Takt und Wandlungszeit am AVR ruhig einordnen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-ADC-210."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-adc-prescaler-und-wandlungszeit-verstehen", "adc-takt-und-wandlungszeit-am-avr-ruhig-einordnen"]
+taskId: "ET-ATMEGA-ADC-210"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-adc-prescaler-und-wandlungszeit-verstehen/adc-takt-und-wandlungszeit-am-avr-ruhig-einordnen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Der ADC-Prescaler teilt die Taktbasis für den ADC herunter. Dadurch wird aus dem allgemeinen Systemtakt ein eigener ADC-Takt, mit dem die Wandlung intern arbeitet.

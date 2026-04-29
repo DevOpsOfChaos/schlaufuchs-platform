@@ -3,22 +3,12 @@ title: "Lösung: gemeinsamen Zustand erkennen"
 description: "Musterlösung zur Aufgabe „gemeinsamen Zustand erkennen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "systemnahes-denken"
-  - "prozesse-und-nebenlaeufigkeit"
-  - "gemeinsamen-zustand-erkennen-v116"
+topicPath: ["systemnahes-denken", "prozesse-und-nebenlaeufigkeit", "gemeinsamen-zustand-erkennen-v116"]
 taskId: "gemeinsamen-zustand-erkennen-v116"
 relatedExercise: "informatik/systemnahes-denken/prozesse-und-nebenlaeufigkeit/gemeinsamen-zustand-erkennen-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "prozesse und nebenlaeufigkeit"
-  - "gemeinsamen zustand erkennen"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

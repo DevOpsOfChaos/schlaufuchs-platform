@@ -3,44 +3,17 @@ title: "JavaScript – Feature Detection statt Browser raten"
 description: "Prüfe Fähigkeiten des Browsers direkt, statt Verhalten aus User-Agent-Strings oder Gerätenamen abzuleiten."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "browser-apis"
-  - "feature-detection-statt-browser-raten"
-learningGoals:
-  - "Du erklärst, welche Kernidee hinter „Feature Detection statt Browser raten“ steht."
-  - "Du trennst sichtbare Oberfläche, technische Umsetzung und Nutzererwartung sauber."
-  - "Du leitest aus einem kleinen Beispiel konkrete Verbesserungen für echte Seiten ab."
-practiceIdeas:
-  - "Prüfe eine vorhandene Seite mit genau diesem Blick und notiere drei Verbesserungen."
-  - "Formuliere ein schwaches Beispiel in eine nutzerfreundlichere Variante um."
-  - "Verbinde die technische Regel mit einer sichtbaren Auswirkung für Nutzerinnen und Nutzer."
-commonMistakes:
-  - "Browsernamen hart verdrahten"
-  - "Mobile automatisch mit schwach gleichsetzen"
-  - "Fallbacks nie testen"
-keyTakeaways:
-  - "Frage nach der Fähigkeit, nicht nach dem Browsernamen"
-  - "Gute Web-Entwicklung verbindet technische Korrektheit mit verständlicher Nutzerführung."
-  - "Eine kleine, klare Regel ist wertvoller als eine große Sammlung ungetesteter Sonderfälle."
-recognizeSignals:
-  - "Eine Oberfläche wirkt technisch vorhanden, aber für Nutzende unklar."
-  - "Ein Verhalten funktioniert im Idealfall, bricht aber bei Fehlern, langsamen Netzen oder anderen Geräten."
-  - "Du sollst nicht nur Code schreiben, sondern eine robuste Entscheidung begründen."
-selfCheckPoints:
-  - "Kann ich das Problem in einem Satz ohne Fachjargon erklären?"
-  - "Kann ich zeigen, woran Nutzende die Verbesserung bemerken?"
-  - "Kann ich eine einfache Prüffrage für den nächsten Review ableiten?"
-tags:
-  - "web development"
-  - "javascript"
-  - "browser api"
-  - "feature detection"
-  - "robustheit"
-level: mittel
+topicPath: ["javascript", "browser-apis", "feature-detection-statt-browser-raten"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Browser ändern sich, Geräte unterscheiden sich und User-Agent-Strings sind unzuverlässig. Robuster ist die Frage: Ist die benötigte API oder CSS-Fähigkeit tatsächlich vorhanden?

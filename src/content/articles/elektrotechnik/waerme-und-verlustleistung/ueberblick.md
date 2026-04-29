@@ -1,34 +1,19 @@
 ---
 title: "Wärme und Verlustleistung"
 description: "Allgemeiner Überblick über Wärmeentwicklung, Verlustleistung und thermische Belastung von Bauteilen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - "waerme-und-verlustleistung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Wärme und Verlustleistung als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["waerme-und-verlustleistung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Wärme erst beachtet, wenn etwas fühlbar heiß wird. Für Halbleiter kann die kritische Temperatur innen deutlich höher liegen."
-keyTakeaways:
-  - "Verlustleistung übersetzt elektrische Belastung in thermische Belastung."
-  - "Wärme und Verlustleistung sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Wärme und Verlustleistung."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Wärme und Verlustleistung erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "verlustleistung"
-  - "wärme"
-  - "bauteile"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Praxis"]
 draft: false
 ---
-
 # Wärme und Verlustleistung
 
 Verlustleistung ist elektrische Leistung, die in einem Bauteil vor allem als Wärme umgesetzt wird.

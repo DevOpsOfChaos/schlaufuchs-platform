@@ -1,23 +1,14 @@
 ---
-title: Lösung – cut und awk passend wählen
-description: Musterlösung zur Aufgabe über cut und awk passend wählen.
-subject: linux
-section: Feinstruktur Linux
-topicPath:
-- shell-automation
-- textstroeme-und-pipes
-- cut-und-awk-passend-waehlen-v114
-taskId: v114-linux-cut-und-awk-passend-waehlen-v114
-relatedExercise: linux/shell-automation/textstroeme-und-pipes/cut-und-awk-passend-waehlen-v114
-tags:
-- linux
-- v114
-- loesung
-- shell-automation
-- textstroeme-und-pipes
+title: "Lösung – cut und awk passend wählen"
+description: "Musterlösung zur Aufgabe über cut und awk passend wählen."
+subject: "linux"
+section: "Feinstruktur Linux"
+topicPath: ["shell-automation", "textstroeme-und-pipes", "cut-und-awk-passend-waehlen-v114"]
+taskId: "v114-linux-cut-und-awk-passend-waehlen-v114"
+relatedExercise: "linux/shell-automation/textstroeme-und-pipes/cut-und-awk-passend-waehlen-v114"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

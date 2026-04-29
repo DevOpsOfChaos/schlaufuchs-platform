@@ -1,33 +1,17 @@
 ---
-title: Kleines C++-Programm zeilenweise ruhig lesen
-description: Ordne die zentralen Zeilen eines kleinen C++-Programms ihren Rollen zu und erkläre den Gesamtablauf.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - einstieg-und-werkzeugkette
-  - das-erste-cpp-programm-verstehen
-  - kleines-cpp-programm-zeilenweise-ruhig-lesen
-taskId: INF-PROG-CPP-START-001
-level: einfach
+title: "Kleines C++-Programm zeilenweise ruhig lesen"
+description: "Ordne die zentralen Zeilen eines kleinen C++-Programms ihren Rollen zu und erkläre den Gesamtablauf."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "das-erste-cpp-programm-verstehen", "kleines-cpp-programm-zeilenweise-ruhig-lesen"]
+taskId: "INF-PROG-CPP-START-001"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - einstieg
-hintPoints:
-  - "Trenne Rahmenzeilen und eigentliche Programmaktion."
-  - "Beschreibe das Programm am Ende in einem Satz."
-selfCheckPoints:
-  - "Hast du include, main und return klar benannt?"
-  - "Unterscheidest du Ausgabe, Eingabe und Variablendeklaration sauber?"
-transferIdeas:
-  - "Übertrage die Leselogik auf ein Programm mit zwei Variablen oder ohne Eingabe."
-reflectionPrompt: "Warum hilft dir die Rollen-Sicht mehr als pures Zeilenauswendiglernen?"
 ---
-
 ## Aufgabe 1: Rollen zuordnen
 
 Ordne diese Zeilen ihrer wichtigsten Rolle zu:

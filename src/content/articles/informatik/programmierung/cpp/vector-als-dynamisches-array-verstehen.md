@@ -1,47 +1,19 @@
 ---
-title: std::vector als dynamisches Array verstehen
-description: Verstehe, warum ein vector in C++ wie ein flexibler Speicherblock für gleichartige Elemente gedacht wird.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - vector-und-container
-  - vector-als-dynamisches-array-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von <code>std::vector</code>.
-  - Du unterscheidest ein dynamisches Array von einer starren festen Größe.
-  - Du liest grundlegende Methoden wie <code>size()</code>, <code>push_back()</code> und <code>pop_back()</code> ruhiger.
-practiceIdeas:
-  - Begründe, warum ein Warenkorb oder eine Trefferliste gut zu einem vector passt.
-  - Vergleiche ein starres Feld mit einer Liste, die wächst und schrumpft.
-  - Lies kleine Codeausschnitte nicht über jede Zeile, sondern über die Veränderung der Sammlung.
-commonMistakes:
-  - vector nur als "anderes Array" ohne Mehrwert zu sehen.
-  - Methoden wie <code>push_back()</code> und <code>pop_back()</code> nur syntaktisch statt in ihrer Wirkung zu lesen.
-  - Den Container und seine einzelnen Elemente durcheinanderzubringen.
-keyTakeaways:
-  - Ein vector speichert viele Werte desselben Typs in einer veränderbaren Sammlung.
-  - Er eignet sich besonders für Listen, deren Größe sich zur Laufzeit ändert.
-  - Methoden lesen sich am ruhigsten über ihre Wirkung auf die Sammlung.
-recognizeSignals:
-  - Es geht um Listen, Sammlungen, dynamische Größe oder Zugriffe auf mehrere gleichartige Werte.
-  - Du sollst erklären, warum ein vector passend ist.
-  - In Beispielen musst du Wirkung auf den Container und Zugriff auf Elemente unterscheiden.
-selfCheckPoints:
-  - Kann ich erklären, warum ein vector dynamisch genannt wird?
-  - Kann ich die Wirkung von <code>size()</code>, <code>push_back()</code> und <code>pop_back()</code> beschreiben?
-  - Kann ich Container und Einzelelemente sauber unterscheiden?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - stl
-  - vector
+title: "std::vector als dynamisches Array verstehen"
+description: "Verstehe, warum ein vector in C++ wie ein flexibler Speicherblock für gleichartige Elemente gedacht wird."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "vector-als-dynamisches-array-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein <code>std::vector</code> ist in C++ eine Sammlung für viele Werte desselben Typs. Fachlich kannst du ihn dir wie ein Array vorstellen, dessen Größe nicht schon von Anfang an starr feststehen muss.

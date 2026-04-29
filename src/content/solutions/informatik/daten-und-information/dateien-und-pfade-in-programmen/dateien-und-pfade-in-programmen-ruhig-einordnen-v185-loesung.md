@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Dateien und Pfade in Programmen – ruhig einordnen"
 description: "Musterlösung zur Aufgabe über dateien und pfade in programmen."
-subject: informatik
+subject: "informatik"
 section: "Daten und Information"
-topicPath:
-  - "daten-und-information"
-  - "dateien-und-pfade-in-programmen"
-  - "loesung"
-taskId: INF-V185-009-1
-relatedExercise: src/content/exercises/informatik/daten-und-information/dateien-und-pfade-in-programmen/dateien-und-pfade-in-programmen-ruhig-einordnen-v185.md
-tags:
-  - "informatik"
-  - "daten-und-information"
-  - "dateien-und-pfade-in-programmen"
-  - "loesung"
+topicPath: ["daten-und-information", "dateien-und-pfade-in-programmen", "dateien-und-pfade-in-programmen-ruhig-einordnen-v185"]
+taskId: "INF-V185-009-1"
+relatedExercise: "src/content/exercises/informatik/daten-und-information/dateien-und-pfade-in-programmen/dateien-und-pfade-in-programmen-ruhig-einordnen-v185.md"
+tags: ["informatik", "Daten und Information", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

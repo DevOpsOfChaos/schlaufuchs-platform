@@ -3,23 +3,12 @@ title: "Lösung – Sticky Bit in gemeinsamem Verzeichnis verstehen"
 description: "Musterlösung zu Sticky Bit mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "rechte-und-zugriff"
-  - "besitz-rechte-sudo"
-  - "sticky-bit"
-  - "sticky-bit-in-gemeinsamem-verzeichnis-verstehen"
+topicPath: ["rechte-und-zugriff", "besitz-rechte-sudo", "sticky-bit", "sticky-bit-in-gemeinsamem-verzeichnis-verstehen"]
 taskId: "v111-linux-sticky-bit-in-gemeinsamem-verzeichnis-verstehen"
 relatedExercise: "linux/rechte-und-zugriff/besitz-rechte-sudo/sticky-bit/sticky-bit-in-gemeinsamem-verzeichnis-verstehen"
-tags:
-  - "linux"
-  - "betrieb"
-  - "unterthema"
-  - "rechte-und-zugriff"
-  - "besitz-rechte-sudo"
-  - "sticky-bit-in-gemeinsamem-verzeichnis-verstehen"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Sticky Bit**.

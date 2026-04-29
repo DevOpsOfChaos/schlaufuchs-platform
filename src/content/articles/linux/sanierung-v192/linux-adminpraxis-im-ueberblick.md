@@ -3,39 +3,17 @@ title: "Linux-Adminpraxis im Überblick"
 description: "Verstehe betrieb, kontrolle und änderung sicher trennen als ruhigen Linux-Baustein für Betrieb, Diagnose und sichere Änderungen."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "betrieb"
-  - "linux-adminpraxis-im-ueberblick"
-learningGoals:
-  - "Betrieb, Kontrolle und Änderung sicher trennen"
-  - "Beobachtung, Änderung und Kontrolle trennen"
-  - "einen einfachen Rückweg oder Prüfpunkt benennen"
-practiceIdeas:
-  - "Erstelle eine Admin-Checkliste für eine kleine Linux-VM."
-  - "Formuliere eine zweite Kontrolle, die ohne gefährliche Änderung auskommt."
-commonMistakes:
-  - "Befehle werden ausgeführt, bevor Ziel und aktueller Zustand klar sind."
-  - "Logs, Rechte oder Dienststatus werden isoliert statt gemeinsam gelesen."
-  - "Eine Änderung wird nicht mit Rückweg und Kontrolle dokumentiert."
-keyTakeaways:
-  - "Administration beginnt mit Beobachtung, nicht mit blindem Ändern."
-  - "Sichere Linux-Adminpraxis arbeitet beobachtbar, schrittweise und reversibel."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn ein Linux-System betrieben, geprüft oder vorsichtig geändert werden muss."
-selfCheckPoints:
-  - "Kann ich Ist-Zustand, geplante Änderung und Kontrollschritt trennen?"
-  - "Ist klar, welcher Benutzer, Dienst, Pfad oder Port betroffen ist?"
-  - "Gibt es einen plausiblen Rückweg, falls die Änderung nicht wirkt?"
+topicPath: ["sanierung-v192", "linux-adminpraxis-im-ueberblick"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "betrieb"
-  - "linux"
-  - "adminpraxis"
-  - "ueberblick"
+tags: ["linux", "adminpraxis-und-betrieb"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Linux-Adminpraxis im Überblick](/schlaufuchs-platform/images/linux/sanierung-v192/linux-adminpraxis-im-ueberblick.svg)
 
 Linux-Adminpraxis im Überblick gehört zur Linux-Sanierung v192. Die Seite behandelt das Thema nicht als Befehlsliste, sondern als Betriebsentscheidung: Was ist der aktuelle Zustand, welche Änderung ist wirklich nötig und wie wird danach geprüft, ob das System stabil bleibt?

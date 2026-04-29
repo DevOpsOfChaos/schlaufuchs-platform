@@ -1,24 +1,14 @@
 ---
-title: Musterlösung – UART-Zeilenende und Befehlsende einordnen
-description: Musterlösung zur Aufgabe ET-ATMEGA-UART-307.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - uart-und-serielle-schnittstellen
-  - atmega-uart-zeilenende-und-befehlsparser-verstehen
-  - uart-zeilenende-und-befehlsende-einordnen-loesung
-taskId: ET-ATMEGA-UART-307
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-uart-zeilenende-und-befehlsparser-verstehen/uart-zeilenende-und-befehlsende-einordnen.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - uart
-  - loesung
+title: "Musterlösung – UART-Zeilenende und Befehlsende einordnen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-UART-307."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-uart-zeilenende-und-befehlsparser-verstehen", "uart-zeilenende-und-befehlsende-einordnen"]
+taskId: "ET-ATMEGA-UART-307"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-uart-zeilenende-und-befehlsparser-verstehen/uart-zeilenende-und-befehlsende-einordnen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Ein einzelnes Zeichen ist noch kein vollständiger Befehl, sondern nur ein Teil des späteren Kommandos. Würde jedes Zeichen sofort Hauptlogik auslösen, müsste das System ständig unfertige Eingaben deuten. Ruhiger ist es, die Zeichen zunächst zu sammeln und erst nach dem Abschluss des Befehls auszuwerten.

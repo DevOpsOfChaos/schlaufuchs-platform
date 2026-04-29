@@ -3,38 +3,17 @@ title: "Einheiten und Skalierung"
 description: "Skalierung verändert Längen, Flächen und Volumen unterschiedlich."
 subject: "mathematik"
 section: "geometrie"
-topicPath:
-  - "geometrie"
-  - "einheiten-und-skalierung"
-learningGoals:
-  - "Skalierung verändert Längen, Flächen und Volumen unterschiedlich fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Skalierung verändert Längen, Flächen und Volumen unterschiedlich wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v188", "einheiten-und-skalierung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "skalierung"
-  - "einheiten"
-  - "geometrie"
-  - "mathematik"
-  - "v188"
+tags: ["mathematik", "geometrie"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Einheiten und Skalierung](/schlaufuchs-platform/images/mathematik/sanierung-188/einheiten-und-skalierung.svg)
 
 ## Überblick

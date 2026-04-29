@@ -1,36 +1,19 @@
 ---
 title: "Linearkombination"
 description: "Eine Linearkombination entsteht, wenn Vektoren mit Zahlen multipliziert und anschließend addiert werden."
-subject: mathematik
+subject: "mathematik"
 section: "Lineare Algebra"
-topicPath:
-  - "linearkombination"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Linearkombination als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["linearkombination", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft werden Koeffizienten nur als Rechenzahlen gesehen, statt als Gewichte von Richtungen."
-keyTakeaways:
-  - "Eine Linearkombination entsteht, wenn Vektoren mit Zahlen multipliziert und anschließend addiert werden."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Linearkombination, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Linearkombination in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "vektoren"
-  - "lineare algebra"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Lineare Algebra"]
 draft: false
 ---
-
 # Linearkombination
 
 Eine Linearkombination entsteht, wenn Vektoren mit Zahlen multipliziert und anschließend addiert

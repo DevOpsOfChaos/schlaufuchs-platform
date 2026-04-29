@@ -1,34 +1,19 @@
 ---
 title: "CSS Grid"
 description: "Überblick über CSS Grid als Layoutsystem für Zeilen, Spalten und Raster."
-subject: web-development
+subject: "web-development"
 section: "CSS Layout"
-topicPath:
-  - css-grid
-  - ueberblick
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen und von verwandten Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte und typische Anwendungsfälle."
-  - "Du erkennst häufige Missverständnisse und prüfst Aussagen auf Plausibilität."
+topicPath: ["css-grid", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, Grid nur als Ersatz für Tabellen zu sehen."
-keyTakeaways:
-  - "CSS Grid ist ein Layoutsystem für zweidimensionale Raster."
-  - "Die genaue Bedeutung hängt vom Zusammenhang, den Einheiten und den Randbedingungen ab."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Begriffe, Beispiele oder Fehlerbilder aus diesem Bereich erklärt und eingeordnet werden sollen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten erklären, ohne sofort eine Spezialaufgabe zu rechnen?"
-level: einfach
-tags:
-  - "web development"
-  - "css"
-  - "grid"
-  - "layout"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS Layout"]
 draft: false
 ---
-
 # CSS Grid
 
 ## Begriff und Zweck

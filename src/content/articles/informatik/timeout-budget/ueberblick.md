@@ -1,35 +1,17 @@
 ---
 title: "Timeout-Budget"
 description: "Überblick über Timeout-Budgets und die Verteilung maximaler Wartezeiten über mehrere Systemaufrufe."
-subject: informatik
+subject: "informatik"
 section: "Resilienz"
-topicPath:
-  - "timeout-budget"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Timeout-Budget als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["timeout-budget", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Timeouts isoliert pro Client gesetzt. Dadurch entstehen Ketten, die insgesamt viel zu lange warten."
-keyTakeaways:
-  - "Ein Timeout-Budget beschreibt, wie viel Wartezeit für eine Anfrage insgesamt zur Verfügung steht und wie sie auf Teilaufrufe verteilt wird."
-  - "Es verhindert, dass einzelne langsame Abhängigkeiten die gesamte Antwortzeit unkontrolliert verlängern."
-  - "Ein Timeout ist keine fachliche Fehlerbehandlung. Nach Ablauf muss klar sein, was dem Nutzer oder aufrufenden System gemeldet wird."
-recognizeSignals:
-  - "Es geht um Timeout-Budget, wenn gesamtbudget und Einzeltimeouts müssen zusammenpassen."
-  - "Das Thema wird relevant, wenn Beispiele wie wenn eine Webanfrage maximal zwei Sekunden dauern soll, dürfen drei interne Dienste nicht jeweils zwei Sekunden blockieren."
-selfCheckPoints:
-  - "Kann ich Timeout-Budget in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "timeout"
-  - "resilienz"
-  - "architektur"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Resilienz"]
 draft: false
 ---
 # Timeout-Budget

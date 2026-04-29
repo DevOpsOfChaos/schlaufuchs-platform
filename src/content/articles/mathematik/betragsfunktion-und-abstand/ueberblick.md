@@ -1,37 +1,19 @@
 ---
 title: "Betragsfunktion und Abstand"
 description: "Allgemeiner Überblick über Betrag, Abstand zur Null und typische Deutungen der Betragsfunktion."
-subject: mathematik
+subject: "mathematik"
 section: "Algebra"
-topicPath:
-  - "betragsfunktion-und-abstand"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Betragsfunktion und Abstand als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["betragsfunktion-und-abstand", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Bei `|x| = 3` wird oft nur `x = 3` genannt und `x = -3` vergessen."
-keyTakeaways:
-  - "Der Betrag beschreibt Abstand zur Null."
-  - "Beträge sind nie negativ."
-  - "Betragsgleichungen brauchen oft zwei Fälle."
-recognizeSignals:
-  - "Eine Aufgabe fragt nach Abstand oder absoluter Abweichung."
-  - "Betragsstriche stehen um einen Term."
-selfCheckPoints:
-  - "Kann ich Betragsfunktion und Abstand in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "betrag"
-  - "funktionen"
-  - "abstand"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Algebra"]
 draft: false
 ---
-
 # Betragsfunktion und Abstand
 
 ![Schaubild zu Betragsfunktion und Abstand.](/schlaufuchs-platform/images/overviews/v150/betragsfunktion-und-abstand.svg)

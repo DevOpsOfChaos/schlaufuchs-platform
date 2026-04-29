@@ -3,22 +3,12 @@ title: "Lösung – Font Loading und Layout Shift reduzieren"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Development-Aufgabe."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "performance-und-laden"
-  - "font-loading-und-layout-shift-reduzieren"
-tags:
-  - "web development"
-  - "css"
-  - "performance"
-  - "fonts"
-  - "layout shift"
-  - "lösung"
+topicPath: ["css", "performance-und-laden", "font-loading-und-layout-shift-reduzieren"]
 taskId: "web-v103-font-loading-und-layout-shift-reduzieren"
 relatedExercise: "web-development/css/performance-und-laden/font-loading-und-layout-shift-reduzieren"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Text soll sofort mit Fallback lesbar sein; `font-display: swap` oder eine ähnliche Strategie vermeidet unsichtbaren Text, während passende Fallbacks Layoutsprünge reduzieren.

@@ -1,31 +1,17 @@
 ---
 title: "Cron und geplante Aufgaben"
 description: "Allgemeiner Überblick über zeitgesteuerte Aufgaben unter Linux und typische Einsatzfälle."
-subject: linux
+subject: "linux"
 section: "Systembetrieb"
-topicPath:
-  - "cron-und-geplante-aufgaben"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Cron und geplante Aufgaben grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["cron-und-geplante-aufgaben", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Cron und geplante Aufgaben nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Cron und geplante Aufgaben beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Cron und geplante Aufgaben, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Cron und geplante Aufgaben in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "cron"
-  - "automatisierung"
-  - "dienste"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Systembetrieb"]
 draft: false
 ---
 # Cron und geplante Aufgaben

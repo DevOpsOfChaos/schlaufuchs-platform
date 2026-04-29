@@ -1,34 +1,19 @@
 ---
 title: "Proportionale Zuordnungen"
 description: "Allgemeiner Überblick über proportionale Zuordnungen und konstante Verhältnisse."
-subject: mathematik
+subject: "mathematik"
 section: "Zuordnungen"
-topicPath:
-  - "proportionale-zuordnungen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Proportionale Zuordnungen als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["proportionale-zuordnungen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Proportionalität angenommen, nur weil Werte größer werden."
-keyTakeaways:
-  - "Proportionale Zuordnungen beschreiben gleichmäßige Verhältnisse."
-  - "Proportionale Zuordnungen sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Proportionale Zuordnungen."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Proportionale Zuordnungen erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "mathematik"
-  - "proportionalität"
-  - "zuordnung"
-  - "grundlagen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Zuordnungen"]
 draft: false
 ---
-
 # Proportionale Zuordnungen
 
 Eine proportionale Zuordnung liegt vor, wenn zwei Größen immer im gleichen Verhältnis zueinander stehen.

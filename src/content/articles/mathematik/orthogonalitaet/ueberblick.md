@@ -1,35 +1,17 @@
 ---
 title: "Orthogonalität"
 description: "Überblick über Orthogonalität als Begriff für rechte Winkel, Unabhängigkeit von Richtungen und Skalarprodukte."
-subject: mathematik
+subject: "mathematik"
 section: "Vektoren"
-topicPath:
-  - "orthogonalitaet"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Orthogonalität als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["orthogonalitaet", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, orthogonal nur als Zeichnungseigenschaft zu sehen und den rechnerischen Zusammenhang über das Skalarprodukt zu übersehen."
-keyTakeaways:
-  - "Orthogonalität beschreibt, dass zwei Richtungen senkrecht zueinander stehen."
-  - "Der Begriff verbindet Geometrie, Vektorrechnung, Projektionen und lineare Algebra."
-  - "Orthogonalität ist nicht dasselbe wie Unabhängigkeit in jedem Sinn, aber in vielen Vektorräumen eng damit verbunden."
-recognizeSignals:
-  - "Es geht um Orthogonalität, wenn im ebenen Raum entspricht Orthogonalität einem rechten Winkel."
-  - "Das Thema wird relevant, wenn Beispiele wie die x- und y-Achse eines kartesischen Koordinatensystems sind orthogonal."
-selfCheckPoints:
-  - "Kann ich Orthogonalität in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "vektoren"
-  - "orthogonalität"
-  - "geometrie"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Vektoren"]
 draft: false
 ---
 # Orthogonalität

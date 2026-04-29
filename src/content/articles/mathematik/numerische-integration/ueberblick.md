@@ -1,32 +1,17 @@
 ---
 title: "Numerische Integration"
 description: "Überblick über näherungsweise Flächenberechnung, wenn eine exakte Stammfunktion nicht praktisch verfügbar ist."
-subject: mathematik
+subject: "mathematik"
 section: "Numerik"
-topicPath:
-  - "numerische-integration"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Numerische Integration als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Trapezregel, Simpsonregel, Schrittweite."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["numerische-integration", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Mehr Teilintervalle immer ohne Nebenwirkungen als besser zu betrachten."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Numerische Integration beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Näherung von Integralen."
-  - "Wichtige Hinweise liefern vor allem Trapezregel, Simpsonregel, Schrittweite."
-recognizeSignals:
-  - "Es geht um näherung von integralen, trapezregel oder simpsonregel."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Numerische Integration erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "numerik"
-  - "integral"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Numerik"]
 draft: false
 ---
 # Numerische Integration

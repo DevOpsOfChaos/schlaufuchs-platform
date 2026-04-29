@@ -1,33 +1,19 @@
 ---
 title: "Query-Strings"
 description: "Query-Strings sind Parameter am Ende einer URL. Sie transportieren Filter, Suchbegriffe, Seitennummern oder Zustände, die in einer Adresse sichtbar bleiben sollen."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "query-strings"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Query-Strings."
-  - "Du kannst Query-Strings in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["query-strings", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Passwörter oder Tokens in URL-Parameter zu schreiben."
-keyTakeaways:
-  - "Query-Strings sind Parameter am Ende einer URL."
-  - "Wichtig sind vor allem schlüssel-wert-paare, url-encoding und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Query-Strings, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Query-Strings dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "web development"
-  - "grundlagen"
-  - "query strings"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # Query-Strings
 
 Query-Strings sind Parameter am Ende einer URL. Sie transportieren Filter, Suchbegriffe, Seitennummern oder Zustände, die in einer Adresse sichtbar bleiben sollen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

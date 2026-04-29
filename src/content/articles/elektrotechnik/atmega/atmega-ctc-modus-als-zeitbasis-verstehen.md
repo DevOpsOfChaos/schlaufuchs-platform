@@ -1,46 +1,19 @@
 ---
-title: ATmega – CTC-Modus als Zeitbasis verstehen
-description: Verstehe, wie der CTC-Modus am ATmega aus Timer, Prescaler und Vergleichswert eine saubere periodische Zeitbasis macht.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - zeitbasis-und-timer
-  - atmega-ctc-modus-als-zeitbasis-verstehen
-learningGoals:
-  - Du erklärst die Grundidee des CTC-Modus am ATmega.
-  - Du beschreibst, wie Prescaler und Vergleichswert die Periodendauer bestimmen.
-  - Du liest CTC eher als wiederkehrende Zeitbasis statt nur als Registerrezept.
-practiceIdeas:
-  - Übersetze einen OCR-Wert in einen Zeitabstand.
-  - Vergleiche Overflow-Denken und CTC-Denken an derselben Zeitaufgabe.
-  - Prüfe bei periodischen Aufgaben zuerst, ob CTC als Zeitbasis ruhiger passt als Delay-Schleifen.
-commonMistakes:
-  - CTC nur als Sondername statt als gezielte Zeitbasis zu lesen.
-  - Prescaler und Vergleichswert unabhängig voneinander zu betrachten.
-  - Zu denken, der Timer müsse immer erst bis zum Maximalwert durchlaufen.
-keyTakeaways:
-  - Im CTC-Modus endet der Zählabschnitt am Vergleichswert statt erst am Maximalwert.
-  - Prescaler und OCR bestimmen gemeinsam den zeitlichen Abstand.
-  - CTC ist oft die ruhigste Wahl für periodische Ereignisse mit festem Intervall.
-recognizeSignals:
-  - Es geht um OCR, Compare Match, periodische Ereignisse oder feste Zeitabstände.
-  - Du sollst erklären, wie aus Takt, Prescaler und Vergleichswert ein Intervall wird.
-  - In Aufgaben ist eine saubere Zeitbasis wichtiger als eine Endlosschleife mit Delay.
-selfCheckPoints:
-  - Kann ich erklären, warum CTC nicht bis 255 oder 65535 laufen muss?
-  - Kann ich Prescaler und OCR gemeinsam als Zeitfaktoren lesen?
-  - Kann ich begründen, warum CTC für periodische Aufgaben oft ruhiger ist als Delay?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - timer
-  - ctc
-level: mittel
+title: "ATmega – CTC-Modus als Zeitbasis verstehen"
+description: "Verstehe, wie der CTC-Modus am ATmega aus Timer, Prescaler und Vergleichswert eine saubere periodische Zeitbasis macht."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-ctc-modus-als-zeitbasis-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Im **CTC-Modus** zählt der Timer nicht einfach stumpf bis zum Maximalwert. Stattdessen vergleicht der ATmega den aktuellen Zählerstand mit einem **Vergleichswert**. Wird dieser erreicht, entsteht ein Compare Match – und genau daraus lässt sich eine saubere **periodische Zeitbasis** bauen.

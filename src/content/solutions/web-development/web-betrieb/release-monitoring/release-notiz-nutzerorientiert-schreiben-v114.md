@@ -1,23 +1,14 @@
 ---
-title: Lösung – Release-Notiz nutzerorientiert schreiben
-description: Musterlösung zur Aufgabe über Release-Notiz nutzerorientiert schreiben.
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- web-betrieb
-- release-monitoring
-- release-notiz-nutzerorientiert-schreiben-v114
-taskId: v114-web-development-release-notiz-nutzerorientiert-schreiben-v114
-relatedExercise: web-development/web-betrieb/release-monitoring/release-notiz-nutzerorientiert-schreiben-v114
-tags:
-- web-development
-- v114
-- loesung
-- web-betrieb
-- release-monitoring
+title: "Lösung – Release-Notiz nutzerorientiert schreiben"
+description: "Musterlösung zur Aufgabe über Release-Notiz nutzerorientiert schreiben."
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["web-betrieb", "release-monitoring", "release-notiz-nutzerorientiert-schreiben-v114"]
+taskId: "v114-web-development-release-notiz-nutzerorientiert-schreiben-v114"
+relatedExercise: "web-development/web-betrieb/release-monitoring/release-notiz-nutzerorientiert-schreiben-v114"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

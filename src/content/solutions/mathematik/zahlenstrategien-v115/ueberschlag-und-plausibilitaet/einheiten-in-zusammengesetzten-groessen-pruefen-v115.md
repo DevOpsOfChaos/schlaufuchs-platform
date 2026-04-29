@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Einheiten in zusammengesetzten Größen prüfen"
 description: "Musterlösung zu Einheiten in zusammengesetzten Größen prüfen mit Trennkante und Gegenprobe."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "zahlenstrategien-v115"
-  - "ueberschlag-und-plausibilitaet"
-  - "einheiten-in-zusammengesetzten-groessen-pruefen-v115"
+topicPath: ["zahlenstrategien-v115", "ueberschlag-und-plausibilitaet", "einheiten-in-zusammengesetzten-groessen-pruefen-v115"]
 taskId: "mathematik-einheiten-in-zusammengesetzten-groessen-pruefen-v115"
 relatedExercise: "mathematik/zahlenstrategien-v115/ueberschlag-und-plausibilitaet/einheiten-in-zusammengesetzten-groessen-pruefen-v115"
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "zahlenstrategien"
-  - "überschlag und plausibilität"
-  - "lösung"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Einheiten in zusammengesetzten Größen prüfen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

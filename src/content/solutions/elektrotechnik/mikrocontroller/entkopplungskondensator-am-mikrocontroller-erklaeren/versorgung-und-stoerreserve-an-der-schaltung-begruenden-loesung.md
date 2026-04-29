@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Versorgung und Störreserve an der Schaltung begründen
-description: Musterlösung zur Aufgabe ELE-MCU-GEN-107.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - entkopplungskondensator-am-mikrocontroller-erklaeren
-  - versorgung-und-stoerreserve-an-der-schaltung-begruenden-loesung
-taskId: ELE-MCU-GEN-107
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller/entkopplungskondensator-am-mikrocontroller-erklaeren/versorgung-und-stoerreserve-an-der-schaltung-begruenden.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - loesung
-  - task-id
+title: "Musterlösung – Versorgung und Störreserve an der Schaltung begründen"
+description: "Musterlösung zur Aufgabe ELE-MCU-GEN-107."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "entkopplungskondensator-am-mikrocontroller-erklaeren", "versorgung-und-stoerreserve-an-der-schaltung-begruenden"]
+taskId: "ELE-MCU-GEN-107"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller/entkopplungskondensator-am-mikrocontroller-erklaeren/versorgung-und-stoerreserve-an-der-schaltung-begruenden.md"
+tags: ["elektrotechnik", "mikrocontroller", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Die Hauptfrage lautet hier, wie die Versorgung **direkt am Mikrocontroller** ruhig gehalten wird. Der Entkopplungskondensator stellt lokal eine schnelle kleine Ladungsreserve bereit und federt kurze Stromspitzen ab. Gerade dadurch hilft er gegen sporadische Resets oder Störungen, die auf den ersten Blick wie Softwarefehler wirken können.

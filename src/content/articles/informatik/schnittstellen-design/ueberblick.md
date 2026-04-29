@@ -1,34 +1,19 @@
 ---
 title: "Schnittstellen-Design"
 description: "Allgemeiner Überblick über gutes Schnittstellen-Design in Software."
-subject: informatik
+subject: "informatik"
 section: "Softwareentwicklung"
-topicPath:
-  - "schnittstellen-design"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Schnittstellen-Design als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["schnittstellen-design", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden interne Datenstrukturen direkt als öffentliche Schnittstelle verwendet."
-keyTakeaways:
-  - "Gutes Schnittstellen-Design macht Zusammenarbeit zwischen Softwareteilen zuverlässig."
-  - "Schnittstellen-Design sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Schnittstellen-Design."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Schnittstellen-Design erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "informatik"
-  - "api"
-  - "schnittstelle"
-  - "softwaredesign"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Softwareentwicklung"]
 draft: false
 ---
-
 # Schnittstellen-Design
 
 Schnittstellen-Design legt fest, wie Softwareteile miteinander kommunizieren und welche Erwartungen dabei gelten.

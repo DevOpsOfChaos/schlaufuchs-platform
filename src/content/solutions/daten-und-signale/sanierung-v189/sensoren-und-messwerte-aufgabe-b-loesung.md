@@ -3,22 +3,12 @@ title: "Lösung: Sensoren und Messwerte: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe dat-v189-028b."
 subject: "daten-und-signale"
 section: "messung"
-topicPath:
-  - "messung"
-  - "sensoren-und-messwerte"
-  - "loesung-b"
+topicPath: ["sanierung-v189", "sensoren-und-messwerte-aufgabe-b"]
 taskId: "dat-v189-028b"
 relatedExercise: "daten-und-signale/sanierung-v189/sensoren-und-messwerte-aufgabe-b"
-tags:
-  - "sensoren"
-  - "messwerte"
-  - "einheiten"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "messung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-028b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

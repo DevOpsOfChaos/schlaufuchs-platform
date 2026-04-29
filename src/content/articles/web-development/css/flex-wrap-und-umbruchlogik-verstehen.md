@@ -1,45 +1,19 @@
 ---
-title: Flex-Wrap und Umbruchlogik verstehen
-description: Verstehe, warum Flex-Elemente ohne wrap oft in einer Zeile bleiben und wie flex-wrap den sichtbaren Umbruch in Karten- und Buttonreihen steuert.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - flex-wrap-und-umbruchlogik-verstehen
-learningGoals:
-  - Du erklärst die Rolle von flex-wrap in Flex-Containern.
-  - Du beschreibst sichtbar den Unterschied zwischen einer einzigen Reihe und mehreren umbrochenen Reihen.
-  - Du prüfst bei engen Layouts zuerst die Umbruchlogik und nicht sofort Einzelbreiten.
-practiceIdeas:
-  - Vergleiche eine Kartenreihe mit und ohne Umbruch.
-  - Beobachte bei Buttons oder Badges, wann eine Zeile zu eng wird.
-  - Prüfe bei einem kaputten Layout zuerst, ob der Container überhaupt umbrechen darf.
-commonMistakes:
-  - nur die Breite der Kinder zu ändern, obwohl der Container nicht umbrechen darf.
-  - Flexbox automatisch mit Zeilenumbruch gleichzusetzen.
-  - ein überfülltes Layout als Größenproblem zu lesen, obwohl die Umbruchregel fehlt.
-keyTakeaways:
-  - Flex-Elemente bleiben ohne wrap oft in einer Reihe.
-  - flex-wrap erlaubt, dass Elemente bei Platzmangel in die nächste Zeile wechseln.
-  - Gute Flex-Layouts brauchen nicht nur Ausrichtung, sondern auch eine ruhige Umbruchlogik.
-recognizeSignals:
-  - Es geht um Kartenreihen, Buttongruppen oder Filterchips, die in einer Zeile zu eng werden.
-  - Du sollst erklären, warum Elemente zusammengedrückt wirken oder aus dem Container laufen.
-  - In Beispielen ist der Container wichtiger als das einzelne Kind-Element.
-selfCheckPoints:
-  - Kann ich erklären, was flex-wrap sichtbar ändert?
-  - Kann ich erkennen, ob ein Container nur eine Zeile oder mehrere Reihen bilden darf?
-  - Kann ich begründen, wann wrap ruhiger ist als starres Zusammendrücken?
-tags:
-  - css
-  - flexbox
-  - wrap
-  - layout
-level: einfach
+title: "Flex-Wrap und Umbruchlogik verstehen"
+description: "Verstehe, warum Flex-Elemente ohne wrap oft in einer Zeile bleiben und wie flex-wrap den sichtbaren Umbruch in Karten- und Buttonreihen steuert."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "flex-wrap-und-umbruchlogik-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Flex-Container richtet seine Kinder zunächst entlang einer Achse aus. Ohne weitere Regel bleiben diese Elemente oft **in einer einzigen Reihe**. Genau an dieser Stelle wird <code>flex-wrap</code> wichtig: Es entscheidet, ob Elemente bei Platzmangel in derselben Zeile bleiben oder **sichtbar in die nächste Zeile umbrechen dürfen**.

@@ -1,30 +1,17 @@
 ---
-title: Hover-Wechsel als Zustandsübergang erklären
-description: Beschreibe, warum eine Transition einen Hover-Effekt ruhiger macht und welche zwei Zustände dabei verbunden werden.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - selektoren
-  - transition-und-zustandswechsel-verstehen
-  - hover-wechsel-als-zustandsuebergang-erklaeren
-level: einfach
+title: "Hover-Wechsel als Zustandsübergang erklären"
+description: "Beschreibe, warum eine Transition einen Hover-Effekt ruhiger macht und welche zwei Zustände dabei verbunden werden."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "transition-und-zustandswechsel-verstehen", "hover-wechsel-als-zustandsuebergang-erklaeren"]
+taskId: "AUTO-HOVER-WECHSEL-ALS-ZUSTANDSUEBERGANG-ERKLAEREN"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - css
-  - transition
-  - hover
-hintPoints:
-  - "Benenne zuerst Ausgangszustand und Zielzustand."
-  - "Erkläre die Transition als Weg zwischen beiden, nicht als dritten Zustand."
-selfCheckPoints:
-  - "Kannst du die zwei verbundenen Zustände klar nennen?"
-  - "Kannst du erklären, warum eine kleine Transition lesbarer wirkt?"
-transferIdeas:
-  - "Übertrage die Logik auf Focus- oder Active-Zustände."
-reflectionPrompt: "Wann verbessert eine Transition die Lesbarkeit und wann wird sie eher zum unnötigen Effekt?"
 ---
-
 ## Aufgabe 1: Zustände trennen
 
 Eine Karte ist im Normalzustand flach. Bei Hover hebt sie sich leicht an und bekommt einen Schatten.

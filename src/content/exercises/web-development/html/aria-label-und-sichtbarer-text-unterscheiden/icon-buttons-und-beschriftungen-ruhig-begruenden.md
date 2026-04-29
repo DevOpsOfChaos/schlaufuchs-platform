@@ -1,32 +1,17 @@
 ---
-title: Icon-Buttons und Beschriftungen ruhig begründen
-description: Begründe an kleinen UI-Beispielen, wann sichtbarer Text hilfreicher ist als ein reines Symbol und wie aria-label dabei ergänzend wirken kann.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - linktexte-und-links
-  - aria-label-und-sichtbarer-text-unterscheiden
-  - icon-buttons-und-beschriftungen-ruhig-begruenden
-taskId: WEB-HTML-A11Y-305
-level: mittel
+title: "Icon-Buttons und Beschriftungen ruhig begründen"
+description: "Begründe an kleinen UI-Beispielen, wann sichtbarer Text hilfreicher ist als ein reines Symbol und wie aria-label dabei ergänzend wirken kann."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "aria-label-und-sichtbarer-text-unterscheiden", "icon-buttons-und-beschriftungen-ruhig-begruenden"]
+taskId: "WEB-HTML-A11Y-305"
+tags: ["web-development", "HTML", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - html
-  - aria-label
-  - buttons
-hintPoints:
-  - Frage zuerst, ob die Handlung schon sichtbar verständlich ist.
-  - Trenne Oberfläche und technische Benennung bewusst.
-  - Begründe aus Sicht der Orientierung und nicht nur aus Platzgründen.
-selfCheckPoints:
-  - Ist klar, warum sichtbarer Text oft die ruhigere Lösung ist?
-  - Trennst du sichtbaren Text und aria-label sauber?
-transferIdeas:
-  - Übertrage die Aufgabe auf Such-, Menü- oder Teilen-Buttons.
-reflectionPrompt: "Warum ist ein technisch benanntes Element noch nicht automatisch eine gut verständliche Oberfläche?"
 ---
-
 Gegeben sind diese vier Varianten:
 
 ```html

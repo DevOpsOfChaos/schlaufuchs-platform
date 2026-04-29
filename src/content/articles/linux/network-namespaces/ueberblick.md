@@ -1,33 +1,19 @@
 ---
 title: "Network Namespaces"
 description: "Network Namespaces trennen Netzwerksichten innerhalb eines Linux-Systems. Prozesse können eigene Interfaces, Routen und Firewallregeln sehen."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "network-namespaces"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Network Namespaces."
-  - "Du kannst Network Namespaces in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["network-namespaces", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Netzwerkprobleme im Host zu suchen, obwohl der Prozess in einem eigenen Namespace läuft."
-keyTakeaways:
-  - "Network Namespaces trennen Netzwerksichten innerhalb eines Linux-Systems."
-  - "Wichtig sind vor allem isolation von netzwerkstacks, container und virtuelle umgebungen und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Network Namespaces, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Network Namespaces dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "linux"
-  - "grundlagen"
-  - "network namespaces"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # Network Namespaces
 
 Network Namespaces trennen Netzwerksichten innerhalb eines Linux-Systems. Prozesse können eigene Interfaces, Routen und Firewallregeln sehen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

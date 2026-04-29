@@ -3,24 +3,12 @@ title: "Lösung: Kalibrierung und Referenz: Aufgabe A"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-025a im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "messung-und-diagnose"
-  - "kalibrierung-und-referenz"
-  - "loesung-a"
-
+topicPath: ["sanierung-v195", "kalibrierung-und-referenz-loesung-a"]
 taskId: "daten-und-signale-v195-025a"
 relatedExercise: "daten-und-signale/sanierung-v195/kalibrierung-und-referenz-aufgabe-a"
-tags:
-  - "kalibrierung"
-  - "referenz"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-025a`
 
 Ausgangsauftrag: Plane eine einfache Kalibrierung mit zwei Referenzpunkten.

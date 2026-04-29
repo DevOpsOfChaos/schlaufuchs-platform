@@ -3,23 +3,12 @@ title: "Lösung – sudoers-Regel nicht als Vollzugriff schreiben"
 description: "Musterlösung zu sudoers-Regel nicht als Vollzugriff schreiben mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Rechte"
-topicPath:
-  - "rechte-und-zugriff"
-  - "besitz-rechte-sudo"
-  - "v110-teil-4"
-  - "sudoers-regel-nicht-als-vollzugriff-schreiben"
+topicPath: ["rechte-und-zugriff", "besitz-rechte-sudo", "v110-teil-4", "sudoers-regel-nicht-als-vollzugriff-schreiben"]
 taskId: "v110-linux-sudoers-regel-nicht-als-vollzugriff-schreiben"
 relatedExercise: "linux/rechte-und-zugriff/besitz-rechte-sudo/v110-teil-4/sudoers-regel-nicht-als-vollzugriff-schreiben"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "rechte-und-zugriff"
-  - "besitz-rechte-sudo"
-  - "sudoers-regel-nicht-als-vollzugriff-schreiben"
+tags: ["linux", "Rechte", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **sudoers-Regel nicht als Vollzugriff schreiben**.

@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Datenschutz bei Logs beachten"
 description: "Musterlösung zu Datenschutz bei Logs beachten mit Trennkante und Gegenprobe."
-subject: web-development
+subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "web-projektpraxis-v115"
-  - "release-und-betrieb"
-  - "datenschutz-bei-logs-beachten-v115"
+topicPath: ["web-projektpraxis-v115", "release-und-betrieb", "datenschutz-bei-logs-beachten-v115"]
 taskId: "web-development-datenschutz-bei-logs-beachten-v115"
 relatedExercise: "web-development/web-projektpraxis-v115/release-und-betrieb/datenschutz-bei-logs-beachten-v115"
-tags:
-  - "web development"
-  - "feinstruktur"
-  - "unterthema"
-  - "web-projektpraxis"
-  - "release und betrieb"
-  - "lösung"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Datenschutz bei Logs beachten**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

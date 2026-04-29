@@ -1,31 +1,17 @@
 ---
 title: "Rechte in Oktalnotation"
 description: "Allgemeiner Überblick über Linux-Dateirechte, Oktalzahlen und die Bedeutung von chmod-Werten."
-subject: linux
+subject: "linux"
 section: "Dateisystem"
-topicPath:
-  - "rechte-in-oktalnotation"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Rechte in Oktalnotation grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["rechte-in-oktalnotation", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Rechte in Oktalnotation nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Rechte in Oktalnotation beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Rechte in Oktalnotation, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Rechte in Oktalnotation in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "rechte"
-  - "chmod"
-  - "oktal"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dateisystem"]
 draft: false
 ---
 # Rechte in Oktalnotation

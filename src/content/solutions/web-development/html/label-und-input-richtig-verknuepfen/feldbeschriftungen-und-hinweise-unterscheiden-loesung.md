@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – Feldbeschriftungen und Hinweise unterscheiden
-description: Erste festgehaltene Musterlösung zur Aufgabe WEB-HTML-LABEL-001.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - formulare-und-eingaben
-  - label-und-input-richtig-verknuepfen
-  - feldbeschriftungen-und-hinweise-unterscheiden-loesung
-taskId: WEB-HTML-LABEL-001
-relatedExercise: src/content/exercises/web-development/html/label-und-input-richtig-verknuepfen/feldbeschriftungen-und-hinweise-unterscheiden.md
-tags:
-  - web-development
-  - html
-  - label
-  - forms
-  - loesung
-  - task-id
+title: "Musterlösung – Feldbeschriftungen und Hinweise unterscheiden"
+description: "Erste festgehaltene Musterlösung zur Aufgabe WEB-HTML-LABEL-001."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "label-und-input-richtig-verknuepfen", "feldbeschriftungen-und-hinweise-unterscheiden"]
+taskId: "WEB-HTML-LABEL-001"
+relatedExercise: "src/content/exercises/web-development/html/label-und-input-richtig-verknuepfen/feldbeschriftungen-und-hinweise-unterscheiden.md"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Lösungsidee
 
 Die Aufgabe prüft, ob zwischen **dauerhafter Feldbeschriftung** und **zusätzlichem Hinweistext** unterschieden wird.

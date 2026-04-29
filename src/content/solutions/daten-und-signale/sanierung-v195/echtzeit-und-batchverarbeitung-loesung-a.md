@@ -3,24 +3,12 @@ title: "Lösung: Echtzeit und Batchverarbeitung: Aufgabe A"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-031a im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "auswertung-und-kommunikation"
-  - "echtzeit-und-batchverarbeitung"
-  - "loesung-a"
-
+topicPath: ["sanierung-v195", "echtzeit-und-batchverarbeitung-loesung-a"]
 taskId: "daten-und-signale-v195-031a"
 relatedExercise: "daten-und-signale/sanierung-v195/echtzeit-und-batchverarbeitung-aufgabe-a"
-tags:
-  - "echtzeit"
-  - "batchverarbeitung"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-031a`
 
 Ausgangsauftrag: Entscheide, welche Teile einer Alarmanlage echtzeitnah sein müssen.

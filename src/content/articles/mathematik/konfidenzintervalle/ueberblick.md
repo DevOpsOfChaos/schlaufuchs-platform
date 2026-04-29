@@ -1,33 +1,19 @@
 ---
 title: "Konfidenzintervalle"
 description: "Konfidenzintervalle geben einen Bereich an, der auf Basis einer Stichprobe plausible Werte für einen unbekannten Parameter enthält. Sie machen Unsicherheit sichtbar."
-subject: mathematik
+subject: "mathematik"
 section: "Mathematik"
-topicPath:
-  - "konfidenzintervalle"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Konfidenzintervalle."
-  - "Du kannst Konfidenzintervalle in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["konfidenzintervalle", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Konfidenzintervalle als absolute Sicherheitsgrenzen zu lesen."
-keyTakeaways:
-  - "Konfidenzintervalle geben einen Bereich an, der auf Basis einer Stichprobe plausible Werte für einen unbekannten Parameter enthält."
-  - "Wichtig sind vor allem schätzwert und streuung, konfidenzniveau und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Konfidenzintervalle, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Konfidenzintervalle dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "grundlagen"
-  - "konfidenzintervalle"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Mathematik"]
 draft: false
 ---
-
 # Konfidenzintervalle
 
 Konfidenzintervalle geben einen Bereich an, der auf Basis einer Stichprobe plausible Werte für einen unbekannten Parameter enthält. Sie machen Unsicherheit sichtbar. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

@@ -1,34 +1,19 @@
 ---
 title: "Terminal-Emulator"
 description: "Überblick über Terminal-Emulatoren als grafische oder entfernte Umgebung für textbasierte Programme."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "terminal-emulator"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["terminal-emulator", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Anzeigeprobleme immer der Shell oder dem Programm zuzuschreiben."
-keyTakeaways:
-  - "Der Terminal-Emulator ist die Darstellungs- und Eingabeschicht für Shells und Textprogramme."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Farben, Sonderzeichen, Tastenkombinationen oder Layout im Terminal merkwürdig wirken."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "terminal"
-  - "shell"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # Terminal-Emulator
 
 Ein Terminal-Emulator stellt eine textbasierte Ein- und Ausgabeumgebung bereit, in der Shells und Konsolenprogramme laufen. Er ist nicht die Shell selbst, sondern die Umgebung, die Tastatur, Anzeige und Steuersequenzen vermittelt.

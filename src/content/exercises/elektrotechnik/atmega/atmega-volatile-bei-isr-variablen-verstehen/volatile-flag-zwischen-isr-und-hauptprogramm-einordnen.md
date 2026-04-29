@@ -1,32 +1,17 @@
 ---
-title: volatile-Flag zwischen ISR und Hauptprogramm einordnen
-description: Erkläre an einem kleinen AVR-Beispiel, warum eine gemeinsam genutzte ISR-Variable oft als volatile markiert werden muss.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - ereignisse-und-interrupts
-  - atmega-volatile-bei-isr-variablen-verstehen
-  - volatile-flag-zwischen-isr-und-hauptprogramm-einordnen
-taskId: ET-ATMEGA-INT-302
-level: mittel
+title: "volatile-Flag zwischen ISR und Hauptprogramm einordnen"
+description: "Erkläre an einem kleinen AVR-Beispiel, warum eine gemeinsam genutzte ISR-Variable oft als volatile markiert werden muss."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-volatile-bei-isr-variablen-verstehen", "volatile-flag-zwischen-isr-und-hauptprogramm-einordnen"]
+taskId: "ET-ATMEGA-INT-302"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - atmega
-  - interrupt
-  - volatile
-hintPoints:
-  - Frage zuerst, wer die Variable ändern darf.
-  - Trenne Sichtbarkeit und Atomarität bewusst.
-selfCheckPoints:
-  - Kannst du erklären, warum die ISR die Variable außerhalb des sichtbaren Hauptablaufs ändert?
-  - Kannst du sagen, was volatile nicht automatisch löst?
-transferIdeas:
-  - Übertrage die Logik auf Zähler, Flags oder UART-Ereignisse.
-reflectionPrompt: "Welche Frage hilft dir mehr als das bloße Merken eines Schlüsselworts?"
 ---
-
 Gegeben ist dieser Code:
 
 ```c

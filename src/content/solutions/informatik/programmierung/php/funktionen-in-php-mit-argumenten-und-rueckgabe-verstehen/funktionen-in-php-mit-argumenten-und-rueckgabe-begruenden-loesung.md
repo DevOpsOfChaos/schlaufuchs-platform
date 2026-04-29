@@ -1,20 +1,12 @@
 ---
-title: Musterlösung – Funktionsaufruf, Argumente und Rückgabe in PHP lesen
-description: Musterlösung zur Aufgabe INF-PHP-ADV-007.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - funktionen-in-php-mit-argumenten-und-rueckgabe-verstehen
-  - funktionen-in-php-mit-argumenten-und-rueckgabe-begruenden-loesung
-taskId: INF-PHP-ADV-007
-relatedExercise: src/content/exercises/informatik/programmierung/php/funktionen-in-php-mit-argumenten-und-rueckgabe-verstehen/funktionen-in-php-mit-argumenten-und-rueckgabe-begruenden.md
-tags:
-  - informatik
-  - loesung
-  - php
-  - task-id
+title: "Musterlösung – Funktionsaufruf, Argumente und Rückgabe in PHP lesen"
+description: "Musterlösung zur Aufgabe INF-PHP-ADV-007."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "funktionen-in-php-mit-argumenten-und-rueckgabe-verstehen", "funktionen-in-php-mit-argumenten-und-rueckgabe-begruenden"]
+taskId: "INF-PHP-ADV-007"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/funktionen-in-php-mit-argumenten-und-rueckgabe-verstehen/funktionen-in-php-mit-argumenten-und-rueckgabe-begruenden.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
 ## Aufgabe 1

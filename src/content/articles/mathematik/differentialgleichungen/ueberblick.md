@@ -1,36 +1,19 @@
 ---
 title: "Differentialgleichungen"
 description: "Differentialgleichungen beschreiben Zusammenhänge, bei denen eine gesuchte Funktion mit ihren Änderungsraten verknüpft ist."
-subject: mathematik
+subject: "mathematik"
 section: "Analysis"
-topicPath:
-  - "differentialgleichungen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Differentialgleichungen als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["differentialgleichungen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird nur das Rechenverfahren betrachtet, ohne zu verstehen, welche Änderungsannahme modelliert wird."
-keyTakeaways:
-  - "Differentialgleichungen beschreiben Zusammenhänge, bei denen eine gesuchte Funktion mit ihren Änderungsraten verknüpft ist."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Differentialgleichungen, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Differentialgleichungen in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "analysis"
-  - "modellieren"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Analysis"]
 draft: false
 ---
-
 # Differentialgleichungen
 
 Differentialgleichungen beschreiben Zusammenhänge, bei denen eine gesuchte Funktion mit ihren

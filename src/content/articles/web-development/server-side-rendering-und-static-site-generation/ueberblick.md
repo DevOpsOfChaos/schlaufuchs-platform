@@ -1,37 +1,19 @@
 ---
 title: "Server-Side Rendering und Static Site Generation"
 description: "Überblick über serverseitiges Rendern, statische Generierung und ihre Rolle bei modernen Webprojekten."
-subject: web-development
+subject: "web-development"
 section: "Grundlagen"
-topicPath:
-  - "server-side-rendering-und-static-site-generation"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Server-Side Rendering und Static Site Generation als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["server-side-rendering-und-static-site-generation", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Dynamisches Rendering wird oft gewählt, obwohl Inhalte selten wechseln und statische Generierung einfacher wäre."
-keyTakeaways:
-  - "Rendering entscheidet, wann HTML entsteht."
-  - "Statische Generierung ist schnell und gut hostbar."
-  - "Personalisierte Inhalte brauchen zusätzliche Dynamik."
-recognizeSignals:
-  - "Es geht um Build, Hosting, Ladezeit oder personalisierte Inhalte."
-  - "Eine Seite soll als Datei ausgeliefert oder pro Anfrage erzeugt werden."
-selfCheckPoints:
-  - "Kann ich Server-Side Rendering und Static Site Generation in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "web-development"
-  - "rendering"
-  - "ssr"
-  - "static site generation"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Grundlagen"]
 draft: false
 ---
-
 # Server-Side Rendering und Static Site Generation
 
 Server-Side Rendering und Static Site Generation beschreiben, wann und wo HTML für eine Webseite erzeugt wird. Beim serverseitigen Rendern entsteht HTML zur Anfragezeit, bei statischer Generierung bereits im Build.

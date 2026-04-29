@@ -1,37 +1,19 @@
 ---
 title: "Internationalisierung und Lokalisierung"
 description: "Allgemeiner Überblick über mehrsprachige Webinhalte, Übersetzung, Locale-Formate und kulturelle Anpassung."
-subject: web-development
+subject: "web-development"
 section: "Internationalisierung"
-topicPath:
-  - "internationalisierung-und-lokalisierung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Internationalisierung und Lokalisierung als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["internationalisierung-und-lokalisierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Mehrsprachigkeit wird oft spät berücksichtigt, sodass Texte hart im Code verteilt sind."
-keyTakeaways:
-  - "Mehrsprachigkeit betrifft Text, Format und Struktur."
-  - "Internationalisierung und Lokalisierung sind unterschiedliche Schritte."
-  - "Gute Trennung erleichtert Übersetzungen."
-recognizeSignals:
-  - "Ein Projekt soll mehrere Sprachen unterstützen."
-  - "Texte, Datumsformate oder URLs müssen zielgruppengerecht werden."
-selfCheckPoints:
-  - "Kann ich Internationalisierung und Lokalisierung in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "web-development"
-  - "i18n"
-  - "lokalisierung"
-  - "mehrsprachigkeit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Internationalisierung"]
 draft: false
 ---
-
 # Internationalisierung und Lokalisierung
 
 Internationalisierung bereitet ein Projekt auf mehrere Sprachen und Regionen vor. Lokalisierung ist die konkrete Anpassung für eine Zielgruppe.

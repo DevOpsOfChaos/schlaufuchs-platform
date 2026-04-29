@@ -3,26 +3,12 @@ title: "Lösung: Rechte bei Skripten und Verzeichnissen: Aufgabe A"
 description: "Musterlösung zur Aufgabe linux-v192-028a im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "shell-und-umgebung"
-  - "rechte-bei-skripten-und-verzeichnissen"
-  - "loesung-a"
+topicPath: ["sanierung-v192", "rechte-bei-skripten-und-verzeichnissen-loesung-a"]
 taskId: "linux-v192-028a"
 relatedExercise: "linux/sanierung-v192/rechte-bei-skripten-und-verzeichnissen-aufgabe-a"
-tags:
-  - "shell-und-umgebung"
-  - "rechte"
-  - "skripten"
-  - "verzeichnissen"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-028a`
 
 Ausgangsauftrag: Erkläre, warum ein Skript trotz Datei-x nicht startet.

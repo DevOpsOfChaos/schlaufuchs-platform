@@ -1,12 +1,17 @@
 ---
-title: Brüche vergleichen, kürzen und erweitern
-description: Diese Aufgabe vertieft Grundideen zu Brüchen durch Vergleiche, Umformungen und sichere sprachliche Begründungen.
-subject: mathematik
-section: Grundlagen
-level: einfach
+title: "Brüche vergleichen, kürzen und erweitern"
+description: "Diese Aufgabe vertieft Grundideen zu Brüchen durch Vergleiche, Umformungen und sichere sprachliche Begründungen."
+subject: "mathematik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "brueche", "brueche-vergleichen-kuerzen-und-erweitern"]
+taskId: "AUTO-BRUECHE-VERGLEICHEN-KUERZEN-UND-ERWEITERN"
+tags: ["mathematik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben sauber und begründe wichtige Schritte. Es geht nicht nur um Rechenergebnisse, sondern um echtes Verständnis für Brüche.

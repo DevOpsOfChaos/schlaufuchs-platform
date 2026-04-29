@@ -1,36 +1,17 @@
 ---
 title: "Aufgabe: Portweiterleitung bewusst begrenzen"
 description: "Trainiere Portweiterleitung bewusst begrenzen an einem kleinen, klar abgegrenzten Fall."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "rechte-und-sicherheit-v115"
-  - "ssh-und-schluessel"
-  - "portweiterleitung-bewusst-begrenzen-v115"
+topicPath: ["rechte-und-sicherheit-v115", "ssh-und-schluessel", "portweiterleitung-bewusst-begrenzen-v115"]
 taskId: "linux-portweiterleitung-bewusst-begrenzen-v115"
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "rechte und sicherheit"
-  - "ssh und schlüssel"
-  - "aufgabe"
-hintPoints:
-  - "Grenze zuerst den kleinen Fall vom breiten Themenfeld ab."
-  - "Nutze die Prüffrage: Soll die Weiterleitung lokal oder öffentlich lauschen?"
-  - "Begründe mit zwei konkreten Hinweisen aus dem Fall."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-transferIdeas:
-  - "Übertrage dieselbe Trennkante auf ein eigenes Mini-Beispiel."
-  - "Formuliere einen Gegenfall, der ähnlich aussieht, aber anders entschieden wird."
-reflectionPrompt: "Was war bei „Portweiterleitung bewusst begrenzen“ die wichtigste Trennkante?"
-level: mittel
+tags: ["linux", "Feinstruktur Linux", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den folgenden Fall zu **Portweiterleitung bewusst begrenzen**.

@@ -1,36 +1,19 @@
 ---
 title: "Serialisierung"
 description: "Überblick über Serialisierung als Umwandlung von Datenstrukturen in übertragbare oder speicherbare Formate."
-subject: informatik
+subject: "informatik"
 section: "Daten"
-topicPath:
-  - "serialisierung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Serialisierung als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["serialisierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird angenommen, JSON enthalte dieselben Typen wie die Programmiersprache."
-keyTakeaways:
-  - "Serialisierung macht Daten speicher- und übertragbar."
-  - "Formatwahl beeinflusst Lesbarkeit, Strenge und Effizienz."
-  - "Beim Einlesen sind Validierung und Sicherheit wichtig."
-recognizeSignals:
-  - "Es geht um Serialisierung als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Serialisierung in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "serialisierung"
-  - "daten"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Daten"]
 draft: false
 ---
-
 # Serialisierung
 
 Serialisierung wandelt Datenstrukturen in eine Form um, die gespeichert oder übertragen werden kann. Deserialisierung rekonstruiert daraus wieder verwendbare Daten im Programm. Ohne Serialisierung könnten Objekte, Listen oder Einstellungen nicht einfach in Dateien, APIs oder Nachrichten abgelegt werden.

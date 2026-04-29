@@ -1,34 +1,19 @@
 ---
 title: "Algorithmus"
 description: "Allgemeiner Überblick über Algorithmen als endliche, eindeutige Verfahren zur Lösung von Problemen."
-subject: informatik
+subject: "informatik"
 section: "Grundlagen"
-topicPath:
-  - "algorithmus"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst einen Algorithmus als eindeutige Schrittfolge."
-  - "Du kannst Eingabe, Verarbeitung und Ausgabe unterscheiden."
-  - "Du verstehst, warum Korrektheit und Abbruch wichtig sind."
+topicPath: ["algorithmus", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Jede Idee schon als Algorithmus zu behandeln."
-  - "Den Abbruchfall nicht festzulegen."
-keyTakeaways:
-  - "Ein Algorithmus beschreibt ein lösbares Verfahren in klaren Schritten."
-  - "Wichtige Eigenschaften sind Eindeutigkeit, Endlichkeit, Korrektheit und passende Eingaben."
-recognizeSignals:
-  - "Es geht um Schrittfolgen, Sortieren, Suchen, Bedingungen, Wiederholungen oder Effizienz."
-selfCheckPoints:
-  - "Kann ich für ein Verfahren Eingabe, Ausgabe und Abbruchbedingung nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "algorithmus"
-  - "grundlagen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Grundlagen"]
 draft: false
 ---
-
 # Algorithmus
 
 ![Schaubild zu einem Algorithmus als Schrittfolge.](/schlaufuchs-platform/images/overviews/v148/algorithmus.svg)

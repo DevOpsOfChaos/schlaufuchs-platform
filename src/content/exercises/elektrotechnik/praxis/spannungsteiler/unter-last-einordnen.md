@@ -1,29 +1,17 @@
 ---
 title: "Spannungsteiler unter Last einordnen"
 description: "Übe, warum eine Last die Teilspannung verändern kann."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - "praxis"
-  - "spannungsteiler"
+topicPath: ["praxis", "spannungsteiler", "unter-last-einordnen"]
 taskId: "ET-PR-SPT-179-001"
-tags:
-  - "elektrotechnik"
-  - "spannungsteiler"
-  - "last"
-  - "widerstand"
-hintPoints:
-  - "Lies zuerst die Begriffe, dann die konkrete Situation."
-  - "Begründe jede Zuordnung mit einem fachlichen Merkmal."
-selfCheckPoints:
-  - "Kann ich meine Entscheidung mit einem Begriff aus der Überblicksseite erklären?"
-  - "Habe ich Einheit, Richtung, Bezugspunkt oder Zeitbezug geprüft, falls relevant?"
-transferIdeas:
-  - "Formuliere ein eigenes Beispiel aus einer einfachen Schaltung oder Messsituation."
-level: einfach
+tags: ["elektrotechnik", "Praxis", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe gehört zu einem Überblicksthema. Sie soll nicht nur Rechnen trainieren, sondern die fachliche Einordnung sichern.
 
 ## Aufgabe 1 – Begriffe zuordnen

@@ -3,24 +3,12 @@ title: "Lösung: Logikpegel und Schwellen: Aufgabe B"
 description: "Musterlösung zur Aufgabe etech-v191-019b im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "digitale-schaltungen"
-  - "logikpegel-und-schwellen"
-  - "loesung-b"
+topicPath: ["sanierung-v191", "logikpegel-und-schwellen-aufgabe-b"]
 taskId: "etech-v191-019b"
 relatedExercise: "elektrotechnik/sanierung-v191/logikpegel-und-schwellen-aufgabe-b"
-tags:
-  - "digitale-schaltungen"
-  - "logikpegel"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-019b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Logikpegel und Schwellen“ um einen Messfehler, einen Sicherheitscheck und eine kurze Plausibilitätsprüfung.

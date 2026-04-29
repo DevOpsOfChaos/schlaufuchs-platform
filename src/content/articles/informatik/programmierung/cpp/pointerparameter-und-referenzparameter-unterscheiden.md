@@ -1,44 +1,17 @@
 ---
-title: Pointerparameter und Referenzparameter unterscheiden
-description: Verstehe, warum Pointer- und Referenzparameter beide auf Originaldaten wirken können, aber unterschiedlich gelesen und verwendet werden.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - funktionen-und-parameter
-  - pointerparameter-und-referenzparameter-unterscheiden
-learningGoals:
-  - Du beschreibst den Unterschied zwischen Pointerparametern und Referenzparametern.
-  - Du erkennst, warum beide auf Originaldaten wirken können, aber verschieden aufgerufen werden.
-  - Du leitest ruhig ab, wann ein Pointer und wann eine Referenz didaktisch besser passt.
-practiceIdeas:
-  - Vergleiche denselben Funktionszweck einmal mit Pointer und einmal mit Referenz.
-  - Markiere bei Funktionsaufrufen, ob eine Adresse übergeben werden muss.
-  - Formuliere in Worten, ob ein Parameter optional oder als sicher vorhanden gedacht ist.
-commonMistakes:
-  - Zu glauben, Pointerparameter und Referenzparameter seien nur zwei Schreibweisen ohne Unterschied.
-  - Bei Pointerparametern den Adressoperator am Aufruf zu vergessen.
-  - Nicht zu beachten, dass ein Pointer auch bewusst auf kein Objekt zeigen kann, eine Referenz aber auf ein vorhandenes Objekt bezogen gelesen wird.
-keyTakeaways:
-  - Beide Parameterarten können auf Originaldaten wirken.
-  - Pointerparameter arbeiten mit einer Adresse und werden mit <code>&amp;</code> oder <code>nullptr</code> gedacht.
-  - Referenzparameter lesen sich direkter, weil mit dem Originalobjekt gearbeitet wird.
-recognizeSignals:
-  - Eine Funktion soll Daten direkt verändern.
-  - Im Vergleich tauchen <code>int*</code> und <code>int&amp;</code> nebeneinander auf.
-  - Du sollst erklären, wann eine Adresse explizit übergeben wird und wann nicht.
-selfCheckPoints:
-  - Kann ich Pointer- und Referenzparameter am Funktionskopf unterscheiden?
-  - Kann ich den Unterschied beim Funktionsaufruf erklären?
-  - Kann ich begründen, wann Pointer und wann Referenz klarer wirkt?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - pointer
-  - referenz
+title: "Pointerparameter und Referenzparameter unterscheiden"
+description: "Verstehe, warum Pointer- und Referenzparameter beide auf Originaldaten wirken können, aber unterschiedlich gelesen und verwendet werden."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "pointerparameter-und-referenzparameter-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
 ## Grundidee

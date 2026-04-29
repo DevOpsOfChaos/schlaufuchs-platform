@@ -3,35 +3,15 @@ title: "Aufgabe – Binären Übertrag schrittweise protokollieren"
 description: "Übe Binärer Übertrag mit einem kleinen Szenario, Prüfschritt und Gegenprobe."
 subject: "informatik"
 section: "Grundlagen"
-topicPath:
-  - "grundlagen"
-  - "binaer-und-codierung"
-  - "uebertrag"
-  - "binaeren-uebertrag-schrittweise-protokollieren"
+topicPath: ["grundlagen", "binaer-und-codierung", "uebertrag", "binaeren-uebertrag-schrittweise-protokollieren"]
 taskId: "v109-informatik-binaeren-uebertrag-schrittweise-protokollieren"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "grundlagen"
-  - "binaer-und-codierung"
-  - "binärer übertrag"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Übertrage den Prüfschritt auf ein Nachbarthema und nenne den Unterschied."
-reflectionPrompt: "Welche kleine Trennkante macht Binärer Übertrag übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["informatik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Binärer Übertrag**.

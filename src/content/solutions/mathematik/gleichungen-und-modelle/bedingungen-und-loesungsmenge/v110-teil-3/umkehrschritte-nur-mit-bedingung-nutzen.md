@@ -3,23 +3,12 @@ title: "Lösung – Umkehrschritte nur mit Bedingung nutzen"
 description: "Musterlösung zu Umkehrschritte nur mit Bedingung nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Algebra"
-topicPath:
-  - "gleichungen-und-modelle"
-  - "bedingungen-und-loesungsmenge"
-  - "v110-teil-3"
-  - "umkehrschritte-nur-mit-bedingung-nutzen"
+topicPath: ["gleichungen-und-modelle", "bedingungen-und-loesungsmenge", "v110-teil-3", "umkehrschritte-nur-mit-bedingung-nutzen"]
 taskId: "v110-mathematik-umkehrschritte-nur-mit-bedingung-nutzen"
 relatedExercise: "mathematik/gleichungen-und-modelle/bedingungen-und-loesungsmenge/v110-teil-3/umkehrschritte-nur-mit-bedingung-nutzen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfung"
-  - "gleichungen-und-modelle"
-  - "bedingungen-und-loesungsmenge"
-  - "umkehrschritte-nur-mit-bedingung-nutzen"
+tags: ["mathematik", "Algebra", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Umkehrschritte nur mit Bedingung nutzen**.

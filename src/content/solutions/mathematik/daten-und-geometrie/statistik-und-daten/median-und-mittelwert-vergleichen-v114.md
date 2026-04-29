@@ -1,23 +1,14 @@
 ---
-title: Lösung – Median und Mittelwert vergleichen
-description: Musterlösung zur Aufgabe über Median und Mittelwert vergleichen.
-subject: mathematik
-section: Feinstruktur Mathematik
-topicPath:
-- daten-und-geometrie
-- statistik-und-daten
-- median-und-mittelwert-vergleichen-v114
-taskId: v114-mathematik-median-und-mittelwert-vergleichen-v114
-relatedExercise: mathematik/daten-und-geometrie/statistik-und-daten/median-und-mittelwert-vergleichen-v114
-tags:
-- mathematik
-- v114
-- loesung
-- daten-und-geometrie
-- statistik-und-daten
+title: "Lösung – Median und Mittelwert vergleichen"
+description: "Musterlösung zur Aufgabe über Median und Mittelwert vergleichen."
+subject: "mathematik"
+section: "Feinstruktur Mathematik"
+topicPath: ["daten-und-geometrie", "statistik-und-daten", "median-und-mittelwert-vergleichen-v114"]
+taskId: "v114-mathematik-median-und-mittelwert-vergleichen-v114"
+relatedExercise: "mathematik/daten-und-geometrie/statistik-und-daten/median-und-mittelwert-vergleichen-v114"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

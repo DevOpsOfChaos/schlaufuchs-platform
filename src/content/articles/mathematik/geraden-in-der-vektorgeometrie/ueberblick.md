@@ -1,33 +1,19 @@
 ---
 title: "Geraden in der Vektorgeometrie"
 description: "Geraden in der Vektorgeometrie werden häufig durch Stützvektor und Richtungsvektor beschrieben. Sie machen Lagebeziehungen im Raum berechenbar."
-subject: mathematik
+subject: "mathematik"
 section: "Mathematik"
-topicPath:
-  - "geraden-in-der-vektorgeometrie"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Geraden in der Vektorgeometrie."
-  - "Du kannst Geraden in der Vektorgeometrie in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["geraden-in-der-vektorgeometrie", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Parameter unterschiedlicher Geraden unkritisch gleichzusetzen."
-keyTakeaways:
-  - "Geraden in der Vektorgeometrie werden häufig durch Stützvektor und Richtungsvektor beschrieben."
-  - "Wichtig sind vor allem parameterform, richtungsvektor und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Geraden in der Vektorgeometrie, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Geraden in der Vektorgeometrie dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "grundlagen"
-  - "geraden in der vektorgeometrie"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Mathematik"]
 draft: false
 ---
-
 # Geraden in der Vektorgeometrie
 
 Geraden in der Vektorgeometrie werden häufig durch Stützvektor und Richtungsvektor beschrieben. Sie machen Lagebeziehungen im Raum berechenbar. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

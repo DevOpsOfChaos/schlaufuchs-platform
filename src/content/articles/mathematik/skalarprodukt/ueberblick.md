@@ -1,33 +1,19 @@
 ---
 title: "Skalarprodukt"
 description: "Das Skalarprodukt verbindet zwei Vektoren zu einer Zahl. Es misst Projektion, Winkelbeziehung und orthogonale Lage."
-subject: mathematik
+subject: "mathematik"
 section: "Mathematik"
-topicPath:
-  - "skalarprodukt"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Skalarprodukt."
-  - "Du kannst Skalarprodukt in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["skalarprodukt", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur die Formel zu verwenden und die geometrische Bedeutung zu übersehen."
-keyTakeaways:
-  - "Das Skalarprodukt verbindet zwei Vektoren zu einer Zahl."
-  - "Wichtig sind vor allem berechnung aus koordinaten, winkel und projektion und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Skalarprodukt, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Skalarprodukt dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "grundlagen"
-  - "skalarprodukt"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Mathematik"]
 draft: false
 ---
-
 # Skalarprodukt
 
 Das Skalarprodukt verbindet zwei Vektoren zu einer Zahl. Es misst Projektion, Winkelbeziehung und orthogonale Lage. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

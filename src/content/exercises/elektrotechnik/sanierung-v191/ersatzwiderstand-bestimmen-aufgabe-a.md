@@ -3,36 +3,15 @@ title: "Ersatzwiderstand bestimmen: Aufgabe A"
 description: "Vereinfache eine Widerstandsschaltung in zwei Schritten."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "schaltungsanalyse"
-  - "ersatzwiderstand-bestimmen"
-  - "aufgabe-a"
+topicPath: ["sanierung-v191", "ersatzwiderstand-bestimmen-aufgabe-a"]
 taskId: "etech-v191-007a"
-tags:
-  - "schaltungsanalyse"
-  - "ersatzwiderstand"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "aufgabe"
-  - "v191"
-hintPoints:
-  - "Trenne Schaltplan, realen Aufbau und Messpunkt."
-  - "Nenne mindestens eine Einheit oder einen Grenzwert."
-  - "Formuliere einen passenden Fehlerfall."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Ersatzwiderstand bestimmen."
-  - "Messrichtung, Anschluss oder Bauteilrolle sind nachvollziehbar."
-  - "Die Lösung bleibt ohne Spezialgerät verständlich."
-transferIdeas:
-  - "Übertrage die Idee auf eine zweite kleine Schaltung."
-  - "Erstelle eine Mini-Checkliste für die Messung."
-reflectionPrompt: "Welcher Prüfschritt verhindert hier den wahrscheinlichsten Fehler?"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Vereinfache eine Widerstandsschaltung in zwei Schritten.

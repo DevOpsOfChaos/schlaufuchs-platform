@@ -3,22 +3,12 @@ title: "Lösung: Trigger als Stabilisierung lesen"
 description: "Musterlösung zur Aufgabe „Trigger als Stabilisierung lesen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "messpraxis-und-diagnose"
-  - "oszilloskop-und-trigger"
-  - "trigger-als-stabilisierung-lesen-v116"
+topicPath: ["messpraxis-und-diagnose", "oszilloskop-und-trigger", "trigger-als-stabilisierung-lesen-v116"]
 taskId: "trigger-als-stabilisierung-lesen-v116"
 relatedExercise: "elektrotechnik/messpraxis-und-diagnose/oszilloskop-und-trigger/trigger-als-stabilisierung-lesen-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "oszilloskop und trigger"
-  - "trigger als stabilisierung lesen"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

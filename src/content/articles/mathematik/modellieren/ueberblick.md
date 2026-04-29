@@ -1,34 +1,19 @@
 ---
 title: "Modellieren"
 description: "Überblick über mathematisches Modellieren als Übersetzung zwischen realer Situation und mathematischer Darstellung."
-subject: mathematik
+subject: "mathematik"
 section: "Modellieren"
-topicPath:
-  - "modellieren"
-  - "ueberblick"
-learningGoals:
-  - "Du verstehst Modellieren als Übersetzung einer Situation in Mathematik."
-  - "Du kennst Annahmen, Variablen und Prüfung als wichtige Schritte."
-  - "Du kannst Modellgrenzen von Rechenfehlern unterscheiden."
+topicPath: ["modellieren", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein Modell mit der Wirklichkeit gleichzusetzen."
-  - "Annahmen nicht auszusprechen und Ergebnisse ungeprüft zu übernehmen."
-keyTakeaways:
-  - "Ein Modell vereinfacht Wirklichkeit, um eine Frage rechnerisch bearbeitbar zu machen."
-  - "Jedes Modell braucht Annahmen, Rechenweg und Rückprüfung im Sachkontext."
-recognizeSignals:
-  - "Es geht um Textaufgaben, Annahmen, Variablen, reale Situation, Formelwahl oder Plausibilität."
-selfCheckPoints:
-  - "Kann ich bei einem Ergebnis sagen, ob es im Sachkontext sinnvoll ist?"
-level: einfach
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "anwendungen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Modellieren"]
 draft: false
 ---
-
 # Modellieren
 
 ## Grundidee

@@ -3,22 +3,12 @@ title: "Lösung: Spaltenraster benennen"
 description: "Musterlösung zur Aufgabe „Spaltenraster benennen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "css-layoutsysteme"
-  - "grid-und-layoutachsen"
-  - "spaltenraster-benennen-v116"
+topicPath: ["css-layoutsysteme", "grid-und-layoutachsen", "spaltenraster-benennen-v116"]
 taskId: "spaltenraster-benennen-v116"
 relatedExercise: "web-development/css-layoutsysteme/grid-und-layoutachsen/spaltenraster-benennen-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "grid und layoutachsen"
-  - "spaltenraster benennen"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

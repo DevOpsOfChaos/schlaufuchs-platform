@@ -3,36 +3,15 @@ title: "Zustand in kleinen Interfaces: Aufgabe B"
 description: "Erweitere die Grundidee zu „Zustand in kleinen Interfaces“ um einen Fehlerfall, eine Abnahmebedingung und eine kurze Begründung."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "ui-zustand"
-  - "zustand-in-kleinen-interfaces"
-  - "aufgabe-b"
+topicPath: ["sanierung-v190", "zustand-in-kleinen-interfaces-aufgabe-b"]
 taskId: "web-v190-017b"
-tags:
-  - "ui-zustand"
-  - "zustand"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "aufgabe"
-  - "v190"
-hintPoints:
-  - "Trenne Zweck, Daten, Zustand und sichtbare Wirkung."
-  - "Nenne mindestens einen Fehlerfall."
-  - "Begründe, warum die Lösung wartbar bleibt."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Zustand in kleinen Interfaces."
-  - "Mindestens ein Prüfpunkt ist konkret formuliert."
-  - "Die Lösung ist ohne vollständige Website nachvollziehbar."
-transferIdeas:
-  - "Übertrage die Idee auf eine zweite kleine Komponente."
-  - "Formuliere eine kurze Checkliste für spätere Wiederholung."
-reflectionPrompt: "Welche Entscheidung macht die Lösung am meisten wartbar?"
+tags: ["web-development", "javascript-vertiefung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Erweitere die Grundidee zu „Zustand in kleinen Interfaces“ um einen Fehlerfall, eine Abnahmebedingung und eine kurze Begründung.

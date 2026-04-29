@@ -3,21 +3,12 @@ title: "Lösung – Dialoge, Modalzustand und Fokusführung prüfen"
 description: "Musterlösung zu: Beschreibe einen Prüfablauf für einen Hilfe-Dialog: öffnen, mit Tab bewegen, schließen und Rücksprung prüfen."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "navigation-und-menues"
-  - "dialoge-modal-und-fokusfalle-verstaendlich-pruefen"
+topicPath: ["html", "navigation-und-menues", "dialoge-modal-und-fokusfalle-verstaendlich-pruefen"]
 taskId: "wd-v97-dialoge-modal-und-fokusfalle-verstaendlich-pruefen"
 relatedExercise: "web-development/html/navigation-und-menues/dialoge-modal-und-fokusfalle-verstaendlich-pruefen"
-tags:
-  - "web development"
-  - "html"
-  - "dialog"
-  - "modal"
-  - "fokus"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Das Problem entsteht nicht nur im Code, sondern in der Nutzung: Wenn Bedeutung, Struktur oder Rückmeldung unklar bleiben, müssen Nutzerinnen und Nutzer raten. Besonders kritisch wird das bei Tastaturbedienung, kleinen Bildschirmen, langen Inhalten oder assistiven Technologien.

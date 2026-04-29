@@ -3,25 +3,12 @@ title: "Lösung: Fixes klein und prüfbar halten: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-015a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "debugging-und-diagnose"
-  - "fixes-klein-und-pruefbar-halten"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "fixes-klein-und-pruefbar-halten-loesung-a"]
 taskId: "informatik-v193-015a"
 relatedExercise: "informatik/sanierung-v193/fixes-klein-und-pruefbar-halten-aufgabe-a"
-tags:
-  - "fixes"
-  - "klein"
-  - "pruefbar"
-  - "halten"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-015a`
 
 Ausgangsauftrag: Plane einen kleinen Fix mit genauem Prüfweg.

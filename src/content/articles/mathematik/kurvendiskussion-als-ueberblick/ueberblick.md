@@ -1,36 +1,19 @@
 ---
 title: "Kurvendiskussion als Überblick"
 description: "Kurvendiskussion als Überblick bezeichnet ein Grundthema im Bereich Begriffe, Modelle, Rechenwege und Deutung mathematischer Zusammenhänge. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-subject: mathematik
+subject: "mathematik"
 section: "Analysis"
-topicPath:
-  - "kurvendiskussion-als-ueberblick"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Kurvendiskussion als Überblick als allgemeinen Grundbegriff einordnen."
-  - "Du kennst Zweck, Zusammenhang, typische Teilaspekte und Grenzen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle behandelt werden."
+topicPath: ["kurvendiskussion-als-ueberblick", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Kurvendiskussion als Überblick nur als einzelner Arbeitsschritt verstanden, obwohl der Begriff einen größeren Zusammenhang beschreibt."
-keyTakeaways:
-  - "Kurvendiskussion als Überblick bezeichnet ein Grundthema im Bereich Begriffe, Modelle, Rechenwege und Deutung mathematischer Zusammenhänge. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-  - "Ein Überblick trennt Begriff, Zweck, Beispiel und Grenze."
-  - "Spezialseiten werden verständlicher, wenn die allgemeine Einordnung vorher klar ist."
-recognizeSignals:
-  - "Es geht um Kurvendiskussion als Überblick, wenn mehrere Einzelbeobachtungen ohne Grundbegriff schwer einzuordnen sind."
-  - "Der Begriff hilft, Werkzeuge, Werte, Regeln oder Darstellungen fachlich zu sortieren."
-selfCheckPoints:
-  - "Kann ich Kurvendiskussion als Überblick in zwei bis drei Sätzen erklären?"
-  - "Kann ich ein Beispiel und eine typische Grenze nennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "analysis"
-  - "funktionen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Analysis"]
 draft: false
 ---
-
 # Kurvendiskussion als Überblick
 
 Kurvendiskussion als Überblick bezeichnet ein Grundthema im Bereich Begriffe, Modelle,

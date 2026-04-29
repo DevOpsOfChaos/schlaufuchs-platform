@@ -3,35 +3,15 @@ title: "Aufgabe – Ableitung als lokale Änderung deuten"
 description: "Übe Lokale Änderungsrate mit einem kleinen Szenario, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "funktionen"
-  - "analysis-einstieg"
-  - "lokale-aenderung"
-  - "ableitung-als-lokale-aenderung-deuten"
+topicPath: ["funktionen", "analysis-einstieg", "lokale-aenderung", "ableitung-als-lokale-aenderung-deuten"]
 taskId: "v109-mathematik-ableitung-als-lokale-aenderung-deuten"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfen"
-  - "funktionen"
-  - "analysis-einstieg"
-  - "lokale änderungsrate"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Übertrage den Prüfschritt auf ein Nachbarthema und nenne den Unterschied."
-reflectionPrompt: "Welche kleine Trennkante macht Lokale Änderungsrate übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["mathematik", "Funktionen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Lokale Änderungsrate**.

@@ -3,44 +3,17 @@ title: "Browser – Performance-Profiling mit DevTools lesen"
 description: "Lerne, Performance-Probleme nicht nach Gefühl zu bewerten, sondern Messspuren, lange Tasks und Renderarbeit zu lesen."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "debugging-und-diagnose"
-  - "performance-profiling-mit-devtools-lesen"
-tags:
-  - "web development"
-  - "browser"
-  - "devtools"
-  - "performance"
-  - "profiling"
-learningGoals:
-  - "Du erklärst, warum Performance erst gemessen und dann verbessert werden sollte."
-  - "Du erkennst lange Tasks als Hinweis auf blockierende Arbeit."
-  - "Du unterscheidest Laden, Skriptarbeit, Layout und Rendering grob."
-practiceIdeas:
-  - "Übertrage das Muster auf eine kleine eigene Oberfläche."
-  - "Prüfe den Fall mit Tastatur, kleinem Bildschirm oder Fehlermeldung."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "Optimierungen nach Bauchgefühl vorzunehmen."
-  - "Nur Dateigrößen zu betrachten und Laufzeitverhalten zu ignorieren."
-  - "Messungen ohne reproduzierbaren Ablauf zu vergleichen."
-keyTakeaways:
-  - "Robuste Webentwicklung verbindet Struktur, Zustand und verständliche Rückmeldung."
-  - "Eine gute Lösung bleibt auch bei Tastaturbedienung, Fehlern oder kleinen Bildschirmen nachvollziehbar."
-  - "Saubere Projektpraxis bedeutet, Entscheidungen sichtbar und überprüfbar zu machen."
-recognizeSignals:
-  - "Eine Oberfläche funktioniert scheinbar, wird aber in Sonderfällen unklar."
-  - "Nutzerinnen und Nutzer brauchen Orientierung, Status oder eine konkrete Korrekturmöglichkeit."
-  - "HTML, CSS und JavaScript müssen gemeinsam statt isoliert betrachtet werden."
-selfCheckPoints:
-  - "Kann ich erklären, welcher Zustand gerade sichtbar gemacht wird?"
-  - "Ist die Lösung auch ohne Maus, perfekte Verbindung oder großen Bildschirm verständlich?"
-  - "Sind sichtbare Texte klar, deutsch und nah an der betroffenen Handlung formuliert?"
+topicPath: ["javascript", "debugging-und-diagnose", "performance-profiling-mit-devtools-lesen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Lerne, Performance-Probleme nicht nach Gefühl zu bewerten, sondern Messspuren, lange Tasks und Renderarbeit zu lesen. Diese Seite behandelt das Thema als praktische Entscheidung im Webprojekt: Was sehen Nutzerinnen und Nutzer, was passiert technisch im Hintergrund und wie bleibt die Lösung später wartbar?

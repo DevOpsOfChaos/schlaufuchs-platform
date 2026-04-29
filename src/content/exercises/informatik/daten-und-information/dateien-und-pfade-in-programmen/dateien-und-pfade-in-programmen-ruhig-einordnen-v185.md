@@ -1,29 +1,17 @@
 ---
 title: "Dateien und Pfade in Programmen – ruhig einordnen"
 description: "Übe, dateien und pfade in programmen fachlich zu erklären und abzugrenzen."
-subject: informatik
+subject: "informatik"
 section: "Daten und Information"
-topicPath:
-  - "daten-und-information"
-  - "dateien-und-pfade-in-programmen"
-  - "uebung"
-taskId: INF-V185-009-1
-tags:
-  - "informatik"
-  - "daten-und-information"
-  - "dateien-und-pfade-in-programmen"
-hintPoints:
-  - "Beginne mit der Grundidee, nicht mit einem Spezialfall."
-  - "Trenne Begriff, Beispiel und Prüfung."
-selfCheckPoints:
-  - "Ich kann das Thema in eigenen Worten erklären."
-  - "Ich kann ein passendes Beispiel begründen."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel in einem anderen Fachbereich."
-level: einfach
+topicPath: ["daten-und-information", "dateien-und-pfade-in-programmen", "dateien-und-pfade-in-programmen-ruhig-einordnen-v185"]
+taskId: "INF-V185-009-1"
+tags: ["informatik", "Daten und Information", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe prüft, ob du **Dateien und Pfade in Programmen** zuerst als allgemeines Thema und nicht nur als Einzelfall lesen kannst.
 
 ## Lernziel

@@ -1,36 +1,19 @@
 ---
 title: "Hexagonale Architektur"
 description: "Hexagonale Architektur trennt fachliche Kernlogik von technischen Außenanschlüssen wie Datenbanken, APIs oder Benutzeroberflächen."
-subject: informatik
+subject: "informatik"
 section: "Softwarearchitektur"
-topicPath:
-  - "hexagonale-architektur"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Hexagonale Architektur als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["hexagonale-architektur", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Adapter und Kern nur anders benannt, ohne technische Abhängigkeiten wirklich zu trennen."
-keyTakeaways:
-  - "Hexagonale Architektur trennt fachliche Kernlogik von technischen Außenanschlüssen wie Datenbanken, APIs oder Benutzeroberflächen."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Hexagonale Architektur, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Hexagonale Architektur in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "architektur"
-  - "ports"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Softwarearchitektur"]
 draft: false
 ---
-
 # Hexagonale Architektur
 
 Hexagonale Architektur trennt fachliche Kernlogik von technischen Außenanschlüssen wie

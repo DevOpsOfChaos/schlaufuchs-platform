@@ -3,43 +3,17 @@ title: "Index und Länge trennen"
 description: "Lerne Index und Länge trennen als kleines, klar abgegrenztes Unterthema mit Prüffrage und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenstrukturen"
-  - "arrays-und-listen"
-  - "index-und-laenge-trennen-v113"
-learningGoals:
-  - "Du erklärst Index und Länge trennen als enges Unterthema."
-  - "Du grenzt es von einem naheliegenden Nachbarthema ab."
-  - "Du nutzt eine konkrete Prüffrage statt einer allgemeinen Merkhilfe."
-practiceIdeas:
-  - "Wende die Prüffrage auf ein zweites Beispiel an."
-  - "Formuliere eine Gegenprobe mit geändertem Kontext."
-  - "Markiere, welches Nachbarthema hier gerade nicht gemeint ist."
-commonMistakes:
-  - "Länge und letzter Index werden gleichgesetzt."
-  - "Zu breit einordnen und dadurch die eigentliche Trennkante verlieren."
-  - "Eine Lösung ohne Gegenprobe akzeptieren."
-keyTakeaways:
-  - "Index und Länge trennen wird über eine kleine Trennkante verständlich."
-  - "Die Prüffrage entscheidet stärker als ein grober Kapitelname."
-  - "Aufgabe und Lösung bleiben übersichtlich, wenn das Unterthema eng geführt wird."
-recognizeSignals:
-  - "Eine Aufgabe enthält eine typische Verwechslung."
-  - "Ein Begriff wirkt bekannt, aber der konkrete Prüfschritt fehlt."
-  - "Eine Lösung muss begründen, warum ein Nachbarthema nicht passt."
-selfCheckPoints:
-  - "Kann ich die Trennkante in einem Satz nennen?"
-  - "Kann ich die Prüffrage auf den Fall anwenden?"
-  - "Kann ich eine sinnvolle Gegenprobe formulieren?"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "index-und-laenge-trennen-v113"
+topicPath: ["datenstrukturen", "arrays-und-listen", "index-und-laenge-trennen-v113"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["informatik", "Feinstruktur Informatik"]
 draft: false
 ---
-
 ## Grundidee
 
 **Index und Länge trennen** ist bewusst als kleines Unterthema angelegt. Lerne Index und Länge trennen als kleines, klar abgegrenztes Unterthema mit Prüffrage und Gegenprobe. Dadurch bleibt die Seite auffindbar und vermischt sich nicht mit einem übergroßen Sammelkapitel.

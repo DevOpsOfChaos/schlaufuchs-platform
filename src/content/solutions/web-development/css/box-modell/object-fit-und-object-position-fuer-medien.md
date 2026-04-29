@@ -3,21 +3,12 @@ title: "Lösung – object-fit und object-position für Medien einsetzen"
 description: "Musterlösung zu: Vergleiche cover und contain für ein Produktbild, ein Avatarbild und ein Diagramm. Entscheide jeweils, was passender ist."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "box-modell"
-  - "object-fit-und-object-position-fuer-medien"
+topicPath: ["css", "box-modell", "object-fit-und-object-position-fuer-medien"]
 taskId: "wd-v97-object-fit-und-object-position-fuer-medien"
 relatedExercise: "web-development/css/box-modell/object-fit-und-object-position-fuer-medien"
-tags:
-  - "web development"
-  - "css"
-  - "object-fit"
-  - "bilder"
-  - "layout"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Das Problem entsteht nicht nur im Code, sondern in der Nutzung: Wenn Bedeutung, Struktur oder Rückmeldung unklar bleiben, müssen Nutzerinnen und Nutzer raten. Besonders kritisch wird das bei Tastaturbedienung, kleinen Bildschirmen, langen Inhalten oder assistiven Technologien.

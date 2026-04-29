@@ -1,11 +1,17 @@
 ---
-title: Wechselstrom – Grundaufgaben
-description: Übe typische Einstiegsaufgaben zu Größen und Zusammenhängen im Wechselstrom.
-subject: elektrotechnik
-level: mittel
+title: "Wechselstrom – Grundaufgaben"
+description: "Übe typische Einstiegsaufgaben zu Größen und Zusammenhängen im Wechselstrom."
+subject: "elektrotechnik"
+section: "wechselstrom-grundaufgaben"
+topicPath: ["wechselstrom-grundaufgaben"]
+taskId: "AUTO-WECHSELSTROM-GRUNDAUFGABEN"
+tags: ["elektrotechnik", "wechselstrom-grundaufgaben", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 Diese Übung trainiert dein Grundverständnis für Wechselstrom, wichtige Größen und typische Aufgabenarten in diesem Themenblock.
 
 ## Aufgabenideen

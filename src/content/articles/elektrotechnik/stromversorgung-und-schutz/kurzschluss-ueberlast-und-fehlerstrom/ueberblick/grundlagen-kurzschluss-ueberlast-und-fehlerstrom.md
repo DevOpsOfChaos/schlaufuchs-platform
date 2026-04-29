@@ -1,42 +1,19 @@
 ---
 title: "Grundlagen: Kurzschluss, Überlast und Fehlerstrom"
 description: "Allgemeiner Überblick über Kurzschluss, Überlast, Strompfade und Schutzreaktionen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Stromversorgung und Schutz"
-topicPath:
-  - stromversorgung-und-schutz
-  - kurzschluss-ueberlast-und-fehlerstrom
-  - ueberblick
-learningGoals:
-  - "Du erklärst die Grundidee des Themas in eigenen Worten."
-  - "Du ordnest typische Begriffe, Grenzen und Fehlerquellen ruhig ein."
-  - "Du erkennst, welche Detailfragen zu diesem Themenbereich gehören."
-practiceIdeas:
-  - "Skizziere den Zusammenhang als Prüf-, Signal- oder Strompfad."
-  - "Notiere eine typische Fehlannahme und formuliere eine Gegenprobe."
-commonMistakes:
-  - "Jeden hohen Strom als Kurzschluss zu bezeichnen."
-  - "Sicherung und Strombegrenzung nicht nach Fehlerfall zu unterscheiden."
-  - "Den Rückweg des Fehlerstroms zu ignorieren."
-keyTakeaways:
-  - "Kurzschluss und Überlast sind unterschiedliche Fehlerbilder."
-  - "Schutz wird nach dem erwarteten Fehlerpfad ausgelegt."
-  - "Strombegrenzung muss vor Bauteilschäden wirken."
-recognizeSignals:
-  - "Du brauchst zuerst Orientierung, bevor du eine konkrete Schaltung oder Aufgabe bewertest."
-  - "Ein Einzelfall wirkt plausibel, aber der allgemeine fachliche Rahmen fehlt."
-selfCheckPoints:
-  - "Kann ich das Thema ohne reines Auswendiglernen erklären?"
-  - "Kann ich typische Fehlerquellen in einer sinnvollen Prüfreihenfolge nennen?"
-level: einfach
-tags:
-  - elektrotechnik
-  - kurzschluss
-  - ueberlast
-  - schutz
+topicPath: ["stromversorgung-und-schutz", "kurzschluss-ueberlast-und-fehlerstrom", "ueberblick", "grundlagen-kurzschluss-ueberlast-und-fehlerstrom"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Stromversorgung und Schutz"]
 draft: false
 ---
-
 ![Kurzschluss, Überlast und Fehlerstrom](/schlaufuchs-platform/images/overviews/v182/kurzschluss-ueberlast-und-fehlerstrom.svg)
 
 ## Überblick

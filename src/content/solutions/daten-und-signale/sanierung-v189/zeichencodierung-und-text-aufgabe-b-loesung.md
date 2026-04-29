@@ -3,22 +3,12 @@ title: "Lösung: Zeichencodierung und Text: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe dat-v189-012b."
 subject: "daten-und-signale"
 section: "codierung"
-topicPath:
-  - "codierung"
-  - "zeichencodierung-und-text"
-  - "loesung-b"
+topicPath: ["sanierung-v189", "zeichencodierung-und-text-aufgabe-b"]
 taskId: "dat-v189-012b"
 relatedExercise: "daten-und-signale/sanierung-v189/zeichencodierung-und-text-aufgabe-b"
-tags:
-  - "text"
-  - "zeichencodierung"
-  - "unicode"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "codierung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-012b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

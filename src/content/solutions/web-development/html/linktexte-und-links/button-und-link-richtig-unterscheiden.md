@@ -3,18 +3,10 @@ title: "Lösung – Button und Link richtig unterscheiden"
 description: "Musterlösung mit kurzer Begründung zur passenden Web-Development-Entscheidung."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "linktexte-und-links"
-  - "button-und-link-richtig-unterscheiden"
+topicPath: ["html", "linktexte-und-links", "button-und-link-richtig-unterscheiden"]
 taskId: "button-und-link-richtig-unterscheiden"
 relatedExercise: "web-development/html/linktexte-und-links/button-und-link-richtig-unterscheiden"
-tags:
-  - "web development"
-  - "html"
-  - "links"
-  - "button"
-  - "semantik"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
 ## Musterlösung

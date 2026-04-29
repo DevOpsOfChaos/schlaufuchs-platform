@@ -3,22 +3,12 @@ title: "Lösung: Termwerte und Fehlerfallen: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-007a."
 subject: "mathematik"
 section: "rechenstrategien-und-kontrolle"
-topicPath:
-  - "rechenstrategien-und-kontrolle"
-  - "termwerte-und-fehlerfallen"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "termwerte-und-fehlerfallen-aufgabe-a"]
 taskId: "mat-v188-007a"
 relatedExercise: "mathematik/sanierung-v188/termwerte-und-fehlerfallen-aufgabe-a"
-tags:
-  - "terme"
-  - "fehler"
-  - "kontrolle"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "rechenstrategien-und-kontrolle", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-007a`
 
 Eine mögliche Lösung:

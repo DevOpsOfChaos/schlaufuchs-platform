@@ -1,20 +1,12 @@
 ---
 title: "Lösung – eine Chip-Liste responsive machen"
 description: "Musterlösung zu: Verbessere eine horizontale Liste, damit sie auf kleinen Breiten kontrolliert umbricht."
-subject: web-development
+subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "flexbox"
-  - "flex-wrap-gap-und-zeilenumbruch-verstehen"
+topicPath: ["css", "flexbox", "flex-wrap-gap-und-zeilenumbruch-verstehen"]
 taskId: "wd-css-v95-flex-wrap-gap"
 relatedExercise: "web-development/css/flexbox/flex-wrap-gap-und-zeilenumbruch-verstehen"
-tags:
-  - "web development"
-  - "css"
-  - "flexbox"
-  - "gap"
-  - "responsive"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

@@ -1,36 +1,19 @@
 ---
 title: "Layoutsysteme im Web"
 description: "Allgemeiner Überblick über Weblayouts, Boxmodell, Flexbox und Grid als Werkzeuge zur Anordnung von Inhalten."
-subject: web-development
+subject: "web-development"
 section: "CSS"
-topicPath:
-  - "layoutsysteme-im-web"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst Layout als Anordnung von Inhaltsbereichen."
-  - "Du kannst Boxmodell, Flexbox und Grid grob unterscheiden."
-  - "Du verstehst, warum Layout und Inhalt getrennt betrachtet werden sollten."
+topicPath: ["layoutsysteme-im-web", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Layoutprobleme nur durch zufällige Abstände zu lösen."
-  - "Flexbox und Grid ohne klares Ziel gegeneinander auszutauschen."
-keyTakeaways:
-  - "Weblayout ordnet Inhalte auf unterschiedlich großen Ansichten."
-  - "Flexbox eignet sich besonders für eindimensionale, Grid für zweidimensionale Anordnung."
-recognizeSignals:
-  - "Es geht um Abstände, Spalten, Zeilen, Karten, Navigation oder responsive Seitenbereiche."
-selfCheckPoints:
-  - "Kann ich begründen, ob ein Layout eher Flexbox oder Grid braucht?"
-level: einfach
-tags:
-  - "web development"
-  - "css"
-  - "layout"
-  - "flexbox"
-  - "grid"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 # Layoutsysteme im Web
 Layoutsysteme im Web bestimmen, wie Inhalte auf einer Seite angeordnet werden. Sie legen fest, wie groß Bereiche sind, wie sie nebeneinander oder untereinander stehen, wie Abstände entstehen und wie sich die Darstellung bei unterschiedlichen Bildschirmgrößen verändert.
 

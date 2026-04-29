@@ -1,31 +1,17 @@
 ---
 title: "Medienqueries"
 description: "Allgemeiner Überblick über Medienqueries, Breakpoints und anpassungsfähige Weboberflächen."
-subject: web-development
+subject: "web-development"
 section: "CSS"
-topicPath:
-  - "medienqueries"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Medienqueries grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["medienqueries", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Medienqueries nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Medienqueries beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Medienqueries, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Medienqueries in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "web-development"
-  - "css"
-  - "medienqueries"
-  - "responsive"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
 # Medienqueries

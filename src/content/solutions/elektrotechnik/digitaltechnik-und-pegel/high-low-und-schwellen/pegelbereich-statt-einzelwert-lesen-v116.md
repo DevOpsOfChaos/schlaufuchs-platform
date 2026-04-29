@@ -3,22 +3,12 @@ title: "Lösung: Pegelbereich statt Einzelwert lesen"
 description: "Musterlösung zur Aufgabe „Pegelbereich statt Einzelwert lesen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "digitaltechnik-und-pegel"
-  - "high-low-und-schwellen"
-  - "pegelbereich-statt-einzelwert-lesen-v116"
+topicPath: ["digitaltechnik-und-pegel", "high-low-und-schwellen", "pegelbereich-statt-einzelwert-lesen-v116"]
 taskId: "pegelbereich-statt-einzelwert-lesen-v116"
 relatedExercise: "elektrotechnik/digitaltechnik-und-pegel/high-low-und-schwellen/pegelbereich-statt-einzelwert-lesen-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "high low und schwellen"
-  - "pegelbereich statt einzelwert lesen"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

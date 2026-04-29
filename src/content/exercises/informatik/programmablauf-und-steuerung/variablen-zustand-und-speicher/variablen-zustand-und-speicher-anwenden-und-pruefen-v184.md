@@ -1,29 +1,17 @@
 ---
 title: "Variablen, Zustand und Speicher – Anwenden und prüfen"
 description: "Übe, Variablen, Zustand und Speicher an kleinen Situationen zu prüfen."
-subject: informatik
+subject: "informatik"
 section: "programmablauf-und-steuerung"
-topicPath:
-  - "programmablauf-und-steuerung"
-  - "variablen-zustand-und-speicher"
-taskId: INF-VARIABLEN-ZUSTAND-UND-SPEICHER-842
-tags:
-  - "informatik"
-  - "variablen"
-  - "zustand"
-hintPoints:
-  - "Beginne mit der allgemeinen Rolle des Themas."
-  - "Trenne Begriff, Beispiel und Sonderfall sauber."
-selfCheckPoints:
-  - "Ich kann meine Zuordnung begründen."
-  - "Ich vermeide eine reine Einzelfallantwort."
-transferIdeas:
-  - "Übertrage die Idee auf ein anderes kleines Informatikbeispiel."
-reflectionPrompt: "Welche Annahme musste ich bewusst prüfen?"
-level: einfach
+topicPath: ["programmablauf-und-steuerung", "variablen-zustand-und-speicher", "variablen-zustand-und-speicher-anwenden-und-pruefen-v184"]
+taskId: "INF-VARIABLEN-ZUSTAND-UND-SPEICHER-842"
+tags: ["informatik", "programmablauf-und-steuerung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Variablen, Zustand und Speicher**. Sie soll nicht nur eine einzelne Situation lösen, sondern das Thema fachlich einordnen.
 
 ## Lernziel

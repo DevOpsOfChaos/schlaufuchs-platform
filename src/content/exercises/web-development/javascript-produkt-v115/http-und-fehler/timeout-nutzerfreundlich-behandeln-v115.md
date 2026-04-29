@@ -1,36 +1,17 @@
 ---
 title: "Aufgabe: Timeout nutzerfreundlich behandeln"
 description: "Trainiere Timeout nutzerfreundlich behandeln an einem kleinen, klar abgegrenzten Fall."
-subject: web-development
+subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "javascript-produkt-v115"
-  - "http-und-fehler"
-  - "timeout-nutzerfreundlich-behandeln-v115"
+topicPath: ["javascript-produkt-v115", "http-und-fehler", "timeout-nutzerfreundlich-behandeln-v115"]
 taskId: "web-development-timeout-nutzerfreundlich-behandeln-v115"
-tags:
-  - "web development"
-  - "feinstruktur"
-  - "unterthema"
-  - "javascript im produkt"
-  - "http und fehler"
-  - "aufgabe"
-hintPoints:
-  - "Grenze zuerst den kleinen Fall vom breiten Themenfeld ab."
-  - "Nutze die Prüffrage: Gibt es eine Meldung und eine sichere Wiederholmöglichkeit?"
-  - "Begründe mit zwei konkreten Hinweisen aus dem Fall."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-transferIdeas:
-  - "Übertrage dieselbe Trennkante auf ein eigenes Mini-Beispiel."
-  - "Formuliere einen Gegenfall, der ähnlich aussieht, aber anders entschieden wird."
-reflectionPrompt: "Was war bei „Timeout nutzerfreundlich behandeln“ die wichtigste Trennkante?"
-level: mittel
+tags: ["web-development", "Feinstruktur Web Development", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den folgenden Fall zu **Timeout nutzerfreundlich behandeln**.

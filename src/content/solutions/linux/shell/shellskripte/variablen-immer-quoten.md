@@ -3,21 +3,12 @@ title: "Lösung – Variablen immer quoten"
 description: "Musterlösung zu variablen immer quoten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "shellskripte"
-  - "variablen-immer-quoten"
+topicPath: ["shell", "shellskripte", "variablen-immer-quoten"]
 taskId: "v112-linux-variablen-immer-quoten"
 relatedExercise: "linux/shell/shellskripte/variablen-immer-quoten"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "variablen-immer-quoten"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Shellskripte**.

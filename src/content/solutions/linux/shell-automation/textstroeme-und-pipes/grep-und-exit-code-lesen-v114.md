@@ -1,23 +1,14 @@
 ---
-title: Lösung – grep und Exit-Code lesen
-description: Musterlösung zur Aufgabe über grep und Exit-Code lesen.
-subject: linux
-section: Feinstruktur Linux
-topicPath:
-- shell-automation
-- textstroeme-und-pipes
-- grep-und-exit-code-lesen-v114
-taskId: v114-linux-grep-und-exit-code-lesen-v114
-relatedExercise: linux/shell-automation/textstroeme-und-pipes/grep-und-exit-code-lesen-v114
-tags:
-- linux
-- v114
-- loesung
-- shell-automation
-- textstroeme-und-pipes
+title: "Lösung – grep und Exit-Code lesen"
+description: "Musterlösung zur Aufgabe über grep und Exit-Code lesen."
+subject: "linux"
+section: "Feinstruktur Linux"
+topicPath: ["shell-automation", "textstroeme-und-pipes", "grep-und-exit-code-lesen-v114"]
+taskId: "v114-linux-grep-und-exit-code-lesen-v114"
+relatedExercise: "linux/shell-automation/textstroeme-und-pipes/grep-und-exit-code-lesen-v114"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

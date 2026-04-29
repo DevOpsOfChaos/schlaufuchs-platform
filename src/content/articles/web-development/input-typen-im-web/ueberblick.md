@@ -1,36 +1,19 @@
 ---
 title: "Input-Typen im Web"
 description: "Input-Typen beschreiben, welche Art von Eingabe ein HTML-Formularfeld erwartet und wie Browser diese Eingabe unterstützen können."
-subject: web-development
+subject: "web-development"
 section: "Formulare"
-topicPath:
-  - "input-typen-im-web"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Input-Typen im Web als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["input-typen-im-web", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird type=number für Werte verwendet, die eigentlich Kennungen sind, etwa Postleitzahlen mit führenden Nullen."
-keyTakeaways:
-  - "Input-Typen beschreiben, welche Art von Eingabe ein HTML-Formularfeld erwartet und wie Browser diese Eingabe unterstützen können."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Input-Typen im Web, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Input-Typen im Web in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "web"
-  - "formulare"
-  - "html"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Formulare"]
 draft: false
 ---
-
 # Input-Typen im Web
 
 Input-Typen beschreiben, welche Art von Eingabe ein HTML-Formularfeld erwartet und wie Browser

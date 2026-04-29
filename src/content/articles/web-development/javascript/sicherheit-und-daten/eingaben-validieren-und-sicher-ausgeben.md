@@ -3,44 +3,17 @@ title: "JavaScript – Eingaben validieren und sicher ausgeben"
 description: "Verstehe, warum Nutzereingaben nie blind als HTML ausgegeben werden sollten und wie sichere Textausgabe hilft."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "sicherheit-und-daten"
-  - "eingaben-validieren-und-sicher-ausgeben"
-learningGoals:
-  - "Du behandelst Nutzereingaben als ungeprüfte Daten."
-  - "Du unterscheidest textContent und innerHTML sicherheitsbewusst."
-  - "Du prüfst Eingabeformat und Ausgabeweg getrennt."
-practiceIdeas:
-  - "Übertrage die Idee auf eine kleine eigene Seite."
-  - "Prüfe die Bedienung einmal mit Tastatur und einmal mit Maus."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "Nutzertext direkt in innerHTML einzusetzen."
-  - "Validierung nur als hübsche Fehlermeldung zu verstehen."
-  - "Clientseitige Prüfung mit echter Sicherheit auf dem Server zu verwechseln."
-keyTakeaways:
-  - "Robuste Webinteraktion trennt Struktur, Zustand und Rückmeldung."
-  - "Nutzerführung ist Teil der technischen Lösung."
-  - "Fehler und Sonderfälle werden sichtbar geplant."
-recognizeSignals:
-  - "Es geht um JavaScript im Browser, UI-Zustand oder dynamische Rückmeldung."
-  - "Eine Interaktion soll verständlicher, sicherer oder robuster werden."
-  - "HTML, CSS und JavaScript müssen gemeinsam gelesen werden."
-selfCheckPoints:
-  - "Kann ich die Aufgabe des Codes in einem Satz erklären?"
-  - "Bleibt die Interaktion ohne Maus oder bei Fehlern nachvollziehbar?"
-  - "Sind sichtbare Texte verständlich und deutsch formuliert?"
+topicPath: ["javascript", "sicherheit-und-daten", "eingaben-validieren-und-sicher-ausgeben"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "web development"
-  - "javascript"
-  - "sicherheit"
-  - "validierung"
-  - "xss"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Diese Seite zeigt dir, wie du Eingaben validieren und sicher ausgeben nicht als isolierten JavaScript-Trick, sondern als kleine UX- und Robustheitsentscheidung liest.

@@ -1,36 +1,17 @@
 ---
 title: "Aufgabe: Gemischte Zahl in unechten Bruch übersetzen"
 description: "Trainiere Gemischte Zahl in unechten Bruch übersetzen an einem kleinen, klar abgegrenzten Fall."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "zahlenstrategien-v115"
-  - "brueche-und-anteile"
-  - "gemischte-zahl-in-unechten-bruch-uebersetzen-v115"
+topicPath: ["zahlenstrategien-v115", "brueche-und-anteile", "gemischte-zahl-in-unechten-bruch-uebersetzen-v115"]
 taskId: "mathematik-gemischte-zahl-in-unechten-bruch-uebersetzen-v115"
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "zahlenstrategien"
-  - "brüche und anteile"
-  - "aufgabe"
-hintPoints:
-  - "Grenze zuerst den kleinen Fall vom breiten Themenfeld ab."
-  - "Nutze die Prüffrage: Wurde der ganze Anteil in passende Nennerteile übersetzt?"
-  - "Begründe mit zwei konkreten Hinweisen aus dem Fall."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-transferIdeas:
-  - "Übertrage dieselbe Trennkante auf ein eigenes Mini-Beispiel."
-  - "Formuliere einen Gegenfall, der ähnlich aussieht, aber anders entschieden wird."
-reflectionPrompt: "Was war bei „Gemischte Zahl in unechten Bruch übersetzen“ die wichtigste Trennkante?"
-level: mittel
+tags: ["mathematik", "Feinstruktur Mathematik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den folgenden Fall zu **Gemischte Zahl in unechten Bruch übersetzen**.

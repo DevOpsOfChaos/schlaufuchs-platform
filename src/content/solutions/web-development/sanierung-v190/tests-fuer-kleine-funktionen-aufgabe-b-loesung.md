@@ -3,24 +3,12 @@ title: "Lösung: Tests für kleine Funktionen: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-v190-023b im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "qualitaet"
-  - "tests-fuer-kleine-funktionen"
-  - "loesung-b"
+topicPath: ["sanierung-v190", "tests-fuer-kleine-funktionen-aufgabe-b"]
 taskId: "web-v190-023b"
 relatedExercise: "web-development/sanierung-v190/tests-fuer-kleine-funktionen-aufgabe-b"
-tags:
-  - "qualitaet"
-  - "tests"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-023b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Tests für kleine Funktionen“ um einen Fehlerfall, eine Abnahmebedingung und eine kurze Begründung.

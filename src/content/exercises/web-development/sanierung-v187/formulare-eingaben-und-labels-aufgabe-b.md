@@ -3,35 +3,15 @@ title: "Formulare, Eingaben und Labels: Prüfung und Verbesserung"
 description: "Verbessere ein Formular, in dem Platzhalter, Labels und Pflichtfeldhinweise durcheinander geraten sind."
 subject: "web-development"
 section: "html"
-topicPath: 
-  - "html-und-semantik"
-  - "formulare"
-  - "aufgabe-b"
+topicPath: ["sanierung-v187", "formulare-eingaben-und-labels-aufgabe-b"]
 taskId: "web-v187-008b"
-tags: 
-  - "formulare"
-  - "inputs"
-  - "labels"
-  - "html"
-  - "web-development"
-  - "aufgabe"
-  - "v187"
-hintPoints: 
-  - "Trenne Zweck, Struktur und sichtbare Wirkung."
-  - "Begründe mindestens eine Entscheidung mit dem Nutzerziel."
-  - "Prüfe einen typischen Fehlerfall aus der Erklärseite."
-selfCheckPoints: 
-  - "Die Lösung passt zur Aufgabenstellung."
-  - "Mindestens eine Entscheidung ist begründet."
-  - "Es gibt keine neue Aufgabe ohne passende Lösung."
-transferIdeas: 
-  - "Übertrage die Entscheidung auf eine zweite kleine Seite."
-  - "Formuliere eine kurze Checkliste für spätere Wiederholung."
-reflectionPrompt: "Welche Entscheidung war am wichtigsten, damit die Lösung ruhig und wartbar bleibt?"
+tags: ["web-development", "html", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Verbessere ein Formular, in dem Platzhalter, Labels und Pflichtfeldhinweise durcheinander geraten sind.

@@ -3,23 +3,12 @@ title: "Lösung – Boxplot-Quartile ohne Einzelwerte lesen"
 description: "Musterlösung zu Boxplot-Quartile mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Daten und Zufall"
-topicPath:
-  - "daten-und-zufall"
-  - "diagramme-und-ausreisser"
-  - "boxplot"
-  - "boxplot-quartile-ohne-einzelwerte-lesen"
+topicPath: ["daten-und-zufall", "diagramme-und-ausreisser", "boxplot", "boxplot-quartile-ohne-einzelwerte-lesen"]
 taskId: "v109-mathematik-boxplot-quartile-ohne-einzelwerte-lesen"
 relatedExercise: "mathematik/daten-und-zufall/diagramme-und-ausreisser/boxplot/boxplot-quartile-ohne-einzelwerte-lesen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfen"
-  - "daten-und-zufall"
-  - "diagramme-und-ausreisser"
-  - "boxplot-quartile"
+tags: ["mathematik", "Daten und Zufall", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Boxplot-Quartile**.

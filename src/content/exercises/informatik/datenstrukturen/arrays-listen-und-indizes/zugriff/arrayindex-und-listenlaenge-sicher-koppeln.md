@@ -3,35 +3,15 @@ title: "Aufgabe – Arrayindex und Listenlänge sicher koppeln"
 description: "Übe Index und Listenlänge mit einem kleinen Szenario, Prüfschritt und Gegenprobe."
 subject: "informatik"
 section: "Datenstrukturen"
-topicPath:
-  - "datenstrukturen"
-  - "arrays-listen-und-indizes"
-  - "zugriff"
-  - "arrayindex-und-listenlaenge-sicher-koppeln"
+topicPath: ["datenstrukturen", "arrays-listen-und-indizes", "zugriff", "arrayindex-und-listenlaenge-sicher-koppeln"]
 taskId: "v109-informatik-arrayindex-und-listenlaenge-sicher-koppeln"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "datenstrukturen"
-  - "arrays-listen-und-indizes"
-  - "index und listenlänge"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Übertrage den Prüfschritt auf ein Nachbarthema und nenne den Unterschied."
-reflectionPrompt: "Welche kleine Trennkante macht Index und Listenlänge übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["informatik", "Datenstrukturen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Index und Listenlänge**.

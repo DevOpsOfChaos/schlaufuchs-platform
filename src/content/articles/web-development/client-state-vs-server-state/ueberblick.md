@@ -1,37 +1,19 @@
 ---
 title: "Client State und Server State"
 description: "Überblick über lokale UI-Zustände und serverseitige Datenzustände in Webanwendungen."
-subject: web-development
+subject: "web-development"
 section: "State"
-topicPath:
-  - "client-state-vs-server-state"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Client State und Server State als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["client-state-vs-server-state", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Serverdaten wie einfache lokale Variablen zu behandeln und Aktualisierung, Fehler oder konkurrierende Änderungen zu ignorieren."
-keyTakeaways:
-  - "Client State und Server State haben unterschiedliche Quellen."
-  - "Server State braucht Synchronisation und Fehlerbehandlung."
-  - "Lokaler Zustand sollte nicht unnötig global werden."
-recognizeSignals:
-  - "UI-Zustand und API-Daten werden gemeinsam verwaltet."
-  - "Daten können durch andere Nutzer oder Prozesse geändert werden."
-selfCheckPoints:
-  - "Kann ich Client State und Server State in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "web-development"
-  - "state"
-  - "api"
-  - "frontend"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "State"]
 draft: false
 ---
-
 # Client State und Server State
 
 Client State beschreibt Zustände, die nur die aktuelle Oberfläche betreffen. Server State beschreibt Daten, deren Quelle außerhalb des Browsers liegt.

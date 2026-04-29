@@ -1,32 +1,17 @@
 ---
 title: "systemd Targets"
 description: "Allgemeiner Überblick über Targets als Gruppierung von Systemzuständen und Diensten."
-subject: linux
+subject: "linux"
 section: "Systemd"
-topicPath:
-  - "systemd-targets"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst systemd Targets als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie multi-user.target, graphical.target, Abhängigkeiten."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["systemd-targets", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Targets mit einzelnen Diensten gleichzusetzen."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "systemd Targets beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Startzustände unter systemd."
-  - "Wichtige Hinweise liefern vor allem multi-user.target, graphical.target, Abhängigkeiten."
-recognizeSignals:
-  - "Es geht um startzustände unter systemd, multi-user.target oder graphical.target."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck systemd Targets erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "linux"
-  - "systemd"
-  - "dienste"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Systemd"]
 draft: false
 ---
 # systemd Targets

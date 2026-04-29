@@ -3,22 +3,12 @@ title: "Lösung: Hauptachse bestimmen"
 description: "Musterlösung zur Aufgabe „Hauptachse bestimmen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "css-layoutsysteme"
-  - "flexbox-und-verteilung"
-  - "hauptachse-bestimmen-v116"
+topicPath: ["css-layoutsysteme", "flexbox-und-verteilung", "hauptachse-bestimmen-v116"]
 taskId: "hauptachse-bestimmen-v116"
 relatedExercise: "web-development/css-layoutsysteme/flexbox-und-verteilung/hauptachse-bestimmen-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "flexbox und verteilung"
-  - "hauptachse bestimmen"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

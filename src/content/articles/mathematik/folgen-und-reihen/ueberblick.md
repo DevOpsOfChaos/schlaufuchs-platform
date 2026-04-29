@@ -1,31 +1,17 @@
 ---
 title: "Folgen und Reihen"
 description: "Allgemeiner Überblick über Folgen, Reihen und geordnete Zahlenmuster."
-subject: mathematik
+subject: "mathematik"
 section: "Algebra"
-topicPath:
-  - "folgen-und-reihen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Folgen und Reihen grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["folgen-und-reihen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Folgen und Reihen nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Folgen und Reihen beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Folgen und Reihen, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Folgen und Reihen in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "folgen"
-  - "reihen"
-  - "muster"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Algebra"]
 draft: false
 ---
 # Folgen und Reihen

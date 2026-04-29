@@ -3,38 +3,17 @@ title: "Formeln umstellen"
 description: "Formeln umstellen bedeutet, eine Beziehung nach einer gesuchten Größe zu ordnen."
 subject: "mathematik"
 section: "algebra-modelle"
-topicPath:
-  - "algebra-modelle"
-  - "gleichungen-pruefen"
-learningGoals:
-  - "Formeln umstellen bedeutet, eine Beziehung nach einer gesuchten Größe zu ordnen fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Formeln umstellen bedeutet, eine Beziehung nach einer gesuchten Größe zu ordnen wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v188", "formeln-umstellen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "formeln"
-  - "umstellen"
-  - "algebra"
-  - "mathematik"
-  - "v188"
+tags: ["mathematik", "algebra-modelle"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Formeln umstellen](/schlaufuchs-platform/images/mathematik/sanierung-188/formeln-umstellen.svg)
 
 ## Überblick

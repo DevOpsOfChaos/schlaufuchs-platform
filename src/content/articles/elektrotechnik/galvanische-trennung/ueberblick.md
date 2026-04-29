@@ -3,32 +3,17 @@ title: "Galvanische Trennung"
 description: "Allgemeiner Überblick über galvanische Trennung, Sicherheit und getrennte Stromkreise."
 subject: "elektrotechnik"
 section: "Schutz und Trennung"
-topicPath:
-  - "galvanische-trennung"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["galvanische-trennung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Trennung nur als Signalfrage betrachtet. In sicherheitsrelevanten Anwendungen müssen Normen, Spannungen, Abstände und Fehlerfälle berücksichtigt werden."
-keyTakeaways:
-  - "Galvanische Trennung trennt leitende Strompfade und erlaubt dennoch Übertragung. Sie ist ein wichtiges Konzept für Sicherheit, Störfestigkeit und Potentialunterschiede."
-  - "Galvanische Trennung heißt nicht automatisch vollständige Unabhängigkeit. Kapazitive Kopplung, Schirmung und parasitäre Wege können weiterhin Störungen übertragen."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "elektrotechnik"
-  - "galvanische trennung"
-  - "schutz"
-  - "signale"
+tags: ["elektrotechnik", "Schutz und Trennung"]
 draft: false
 ---
-
 # Galvanische Trennung
 
 Galvanische Trennung bedeutet, dass zwei Stromkreise keine direkte leitende Verbindung besitzen, obwohl Energie oder Informationen übertragen werden können.

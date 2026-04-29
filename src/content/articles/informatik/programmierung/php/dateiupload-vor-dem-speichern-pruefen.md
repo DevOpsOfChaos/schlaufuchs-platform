@@ -1,44 +1,17 @@
 ---
-title: Dateiupload in PHP vor dem Speichern prüfen
-description: Verstehe, warum ein Upload erst geprüft und erst danach mit move_uploaded_file abgelegt werden sollte.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - dateiupload-vor-dem-speichern-pruefen
-learningGoals:
-  - Du erklärst die Grunddaten in $_FILES.
-  - Du begründest, warum Uploads vor dem Speichern geprüft werden müssen.
-  - Du liest den Ablauf von Formular, temporärer Datei und Zielpfad ruhiger.
-practiceIdeas:
-  - Ordne name, type, size, error und tmp_name fachlich zu.
-  - Erkläre, warum move_uploaded_file nicht der erste Schritt sein sollte.
-  - Vergleiche Client-Dateiname und temporären Servernamen.
-commonMistakes:
-  - Den ursprünglichen Dateinamen sofort zu vertrauen.
-  - Dateien ohne Prüfung direkt zu verschieben.
-  - tmp_name als endgültigen Namen zu missverstehen.
-keyTakeaways:
-  - Ein Upload landet zuerst temporär auf dem Server.
-  - $_FILES liefert Metadaten über die übertragene Datei.
-  - Prüfen kommt vor dem dauerhaften Speichern.
-recognizeSignals:
-  - Es geht um Datei-Uploads, Formularattribute oder $_FILES.
-  - Ein Beispiel zeigt move_uploaded_file.
-  - Du sollst erklären, welche Informationen aus dem Upload stammen.
-selfCheckPoints:
-  - Kann ich tmp_name und name unterscheiden?
-  - Kann ich begründen, warum Prüfung vor Speicherung nötig ist?
-  - Kann ich sagen, was move_uploaded_file macht?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - backend
-  - web
-  - grundlagen
+title: "Dateiupload in PHP vor dem Speichern prüfen"
+description: "Verstehe, warum ein Upload erst geprüft und erst danach mit move_uploaded_file abgelegt werden sollte."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "dateiupload-vor-dem-speichern-pruefen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
 ## Grundidee

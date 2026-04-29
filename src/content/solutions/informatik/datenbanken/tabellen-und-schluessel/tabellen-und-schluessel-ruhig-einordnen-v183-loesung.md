@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Tabellen und Schlüssel ruhig einordnen"
 description: "Musterlösung zur Aufgabe über Tabellen und Schlüssel."
-subject: informatik
+subject: "informatik"
 section: "Datenbanken"
-topicPath:
-  - "datenbanken"
-  - "tabellen-und-schluessel"
-taskId: INF-V183-08-A
-relatedExercise: src/content/exercises/informatik/datenbanken/tabellen-und-schluessel/tabellen-und-schluessel-ruhig-einordnen-v183.md
-tags:
-  - "informatik"
-  - "tabellen-und-schluessel"
-  - "loesung"
+topicPath: ["datenbanken", "tabellen-und-schluessel", "tabellen-und-schluessel-ruhig-einordnen-v183"]
+taskId: "INF-V183-08-A"
+relatedExercise: "src/content/exercises/informatik/datenbanken/tabellen-und-schluessel/tabellen-und-schluessel-ruhig-einordnen-v183.md"
+tags: ["informatik", "Datenbanken", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

@@ -3,22 +3,12 @@ title: "Lösung: Randfall vor Normalfall notieren"
 description: "Musterlösung zur Aufgabe „Randfall vor Normalfall notieren“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "testfaelle-und-randfaelle"
-  - "randfall-vor-normalfall-notieren-v116"
+topicPath: ["programmierpraxis-und-tests", "testfaelle-und-randfaelle", "randfall-vor-normalfall-notieren-v116"]
 taskId: "randfall-vor-normalfall-notieren-v116"
 relatedExercise: "informatik/programmierpraxis-und-tests/testfaelle-und-randfaelle/randfall-vor-normalfall-notieren-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "testfaelle und randfaelle"
-  - "randfall vor normalfall notieren"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

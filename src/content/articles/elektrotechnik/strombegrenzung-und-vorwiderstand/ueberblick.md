@@ -3,32 +3,17 @@ title: "Strombegrenzung und Vorwiderstand"
 description: "Allgemeiner Überblick über strombegrenzung und vorwiderstand und die wichtigsten Zusammenhänge."
 subject: "elektrotechnik"
 section: "Grundlagen"
-topicPath:
-  - "strombegrenzung-und-vorwiderstand"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["strombegrenzung-und-vorwiderstand", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird nur die Versorgungsspannung betrachtet, obwohl der tatsächliche Strom über Ausfall oder sicheren Betrieb entscheidet."
-keyTakeaways:
-  - "Strombegrenzung schützt Bauteile und macht einfache Schaltungen berechenbarer."
-  - "Strombegrenzung ist nicht dasselbe wie Spannungsregelung. Eine stabile Spannung kann trotzdem zu viel Strom ermöglichen, wenn die Last zu niederohmig ist."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "elektrotechnik"
-  - "strom"
-  - "widerstand"
-  - "schutz"
+tags: ["elektrotechnik", "Grundlagen"]
 draft: false
 ---
-
 # Strombegrenzung und Vorwiderstand
 
 Strombegrenzung sorgt dafür, dass ein Bauteil, eine Leitung oder ein Eingang nicht stärker belastet wird, als es zuverlässig verträgt. Ein Vorwiderstand ist eine einfache Form dieser Begrenzung.

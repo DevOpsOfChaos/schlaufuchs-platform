@@ -3,20 +3,12 @@ title: "Lösung – LED-Helligkeit nicht über Spannung raten"
 description: "Musterlösung zu LED-Helligkeit nicht über Spannung raten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "dioden-und-leds"
-  - "led-helligkeit-nicht-ueber-spannung-raten-v113"
+topicPath: ["daten-und-signale", "dioden-und-leds", "led-helligkeit-nicht-ueber-spannung-raten-v113"]
 taskId: "v113-elektrotechnik-led-helligkeit-nicht-ueber-spannung-raten-v113"
 relatedExercise: "elektrotechnik/daten-und-signale/dioden-und-leds/led-helligkeit-nicht-ueber-spannung-raten-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "led-helligkeit-nicht-ueber-spannung-raten-v113"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **LED-Helligkeit nicht über Spannung raten**.

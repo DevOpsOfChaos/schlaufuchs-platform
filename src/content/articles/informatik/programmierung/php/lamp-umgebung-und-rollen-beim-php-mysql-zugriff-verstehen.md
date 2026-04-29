@@ -1,47 +1,19 @@
 ---
-title: LAMP-Umgebung und Rollen beim PHP-MySQL-Zugriff verstehen
-description: Verstehe, welche Rolle Browser, Webserver, PHP und Datenbank bei einer Webanfrage spielen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - lamp-umgebung-und-rollen-beim-php-mysql-zugriff-verstehen
-learningGoals:
-  - Du unterscheidest Browser, Webserver, PHP und Datenbank fachlich.
-  - Du erklärst, warum ein Datenbankzugriff typischerweise über ein PHP-Skript läuft.
-  - Du liest den Gesamtablauf einer Anfrage ruhiger als System.
-practiceIdeas:
-  - Beschreibe den Weg einer Anfrage von der URL bis zur HTML-Antwort.
-  - Ordne, an welcher Stelle SQL überhaupt ins Spiel kommt.
-  - Erkläre, warum der Browser nicht direkt mit den PHP-Variablen der Serverseite arbeitet.
-commonMistakes:
-  - Browser und Serverlogik zusammenzuwerfen.
-  - Zu denken, die Datenbank antworte direkt an den Browser.
-  - PHP und MySQL als „eine Sache“ zu lesen.
-keyTakeaways:
-  - Browser, Webserver, PHP und Datenbank haben unterschiedliche Rollen.
-  - PHP verbindet häufig die Browseranfrage mit Datenbanklogik und HTML-Ausgabe.
-  - Erst der Gesamtablauf macht Backend-Themen verständlich.
-recognizeSignals:
-  - Es geht um Webserver, PHP-Processor, MySQL-Server oder Request/Response.
-  - Ein Beispiel zeigt mehrere Hosts oder Schichten.
-  - Du sollst ein Systembild statt nur Einzelfunktionen erklären.
-selfCheckPoints:
-  - Kann ich die Rollen der vier Teile sauber trennen?
-  - Kann ich sagen, warum die Datenbank nicht direkt den Browser bedient?
-  - Kann ich den Gesamtweg einer Anfrage beschreiben?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - php
-  - mysql
-  - backend
-  - lamp
+title: "LAMP-Umgebung und Rollen beim PHP-MySQL-Zugriff verstehen"
+description: "Verstehe, welche Rolle Browser, Webserver, PHP und Datenbank bei einer Webanfrage spielen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "lamp-umgebung-und-rollen-beim-php-mysql-zugriff-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei einer typischen Webanwendung arbeiten mehrere Rollen zusammen: Browser, Webserver, PHP und Datenbank. Erst wenn diese Rollen getrennt verstanden werden, wirkt Backend-Logik nicht mehr wie ein chaotischer Block.

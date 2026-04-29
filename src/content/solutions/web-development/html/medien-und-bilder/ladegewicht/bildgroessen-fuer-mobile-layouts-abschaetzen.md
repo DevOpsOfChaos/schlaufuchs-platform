@@ -3,23 +3,12 @@ title: "Lösung – Bildgrößen für mobile Layouts abschätzen"
 description: "Musterlösung zu Responsive Bilder mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "medien-und-bilder"
-  - "ladegewicht"
-  - "bildgroessen-fuer-mobile-layouts-abschaetzen"
+topicPath: ["html", "medien-und-bilder", "ladegewicht", "bildgroessen-fuer-mobile-layouts-abschaetzen"]
 taskId: "v107-web-development-bildgroessen-fuer-mobile-layouts-abschaetzen"
 relatedExercise: "web-development/html/medien-und-bilder/ladegewicht/bildgroessen-fuer-mobile-layouts-abschaetzen"
-tags:
-  - "web development"
-  - "html"
-  - "css"
-  - "javascript"
-  - "responsive bilder"
-  - "medien-und-bilder"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Responsive Bilder**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

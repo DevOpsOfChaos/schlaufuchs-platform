@@ -1,36 +1,19 @@
 ---
 title: "Schmitt-Trigger"
 description: "Überblick über Schmitt-Trigger als Bausteine für robuste digitale Signalübergänge."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Signale"
-topicPath:
-  - "schmitt-trigger"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Schmitt-Trigger als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["schmitt-trigger", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Hysterese mit Verzögerung verwechselt."
-keyTakeaways:
-  - "Hysterese macht digitale Entscheidungen stabiler."
-  - "Schmitt-Trigger helfen besonders bei langsamen oder verrauschten Signalen."
-  - "Pegelgrenzen und Signalführung bleiben trotzdem wichtig."
-recognizeSignals:
-  - "Es geht um Schmitt-Trigger als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Schmitt-Trigger in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "signal"
-  - "schmitt-trigger"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Signale"]
 draft: false
 ---
-
 # Schmitt-Trigger
 
 Ein Schmitt-Trigger wandelt ein langsam oder verrauscht wechselndes Eingangssignal in ein klares digitales Ausgangssignal um. Er verwendet zwei unterschiedliche Schaltschwellen: eine für den Übergang nach High und eine für den Übergang nach Low. Diese Hysterese verhindert ständiges Hin- und Herschalten in der Nähe einer Schwelle.

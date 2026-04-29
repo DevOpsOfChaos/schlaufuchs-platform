@@ -3,22 +3,12 @@ title: "Lösung – Umgebungsvariablen und geheime Daten trennen"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Projektpraxis-Aufgabe."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "umgebungsvariablen-und-geheime-daten-trennen"
-tags:
-  - "web development"
-  - "secrets"
-  - "umgebungsvariablen"
-  - "sicherheit"
-  - "konfiguration"
-  - "lösung"
+topicPath: ["projektpraxis", "betrieb-und-release", "umgebungsvariablen-und-geheime-daten-trennen"]
 taskId: "web-v105-umgebungsvariablen-und-geheime-daten-trennen"
 relatedExercise: "web-development/projektpraxis/betrieb-und-release/umgebungsvariablen-und-geheime-daten-trennen"
+tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Eine gute Lösung beginnt mit der Nutzer- oder Wartungssituation. Das Problem wird nicht nur als technische Kleinigkeit behandelt, sondern als Risiko für Verständlichkeit, Betrieb oder spätere Änderung.

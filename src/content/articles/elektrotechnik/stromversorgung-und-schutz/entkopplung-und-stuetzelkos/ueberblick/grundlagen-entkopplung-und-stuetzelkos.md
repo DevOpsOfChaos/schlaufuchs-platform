@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Entkopplung und Stützkondensatoren"
 description: "Allgemeiner Überblick über Entkopplung, Stützkondensatoren und stabile Versorgung in elektronischen Schaltungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Stromversorgung und Schutz"
-topicPath:
-  - stromversorgung-und-schutz
-  - entkopplung-und-stuetzelkos
-  - ueberblick
-learningGoals:
-  - "Du erklärst die Grundidee von Entkopplung und Stützkondensatoren in eigenen Worten."
-  - "Du ordnest typische Begriffe und Fehlerquellen ruhig ein."
-  - "Du erkennst, welche Detailfragen zu diesem Themenbereich gehören."
-practiceIdeas:
-  - "Skizziere den Zusammenhang als kleines Signal-, Strom- oder Ablaufbild."
-  - "Notiere typische Fehlerquellen und prüfe, ob sie elektrisch, logisch oder organisatorisch sind."
-commonMistakes:
-  - "Kondensatoren nur als beliebige Zusatzbauteile zu sehen."
-  - "Die Entfernung zwischen Kondensator und Verbraucher zu unterschätzen."
-  - "Störungen nur im Code zu suchen, obwohl die Versorgung schwankt."
-keyTakeaways:
-  - "Entkopplung stabilisiert lokale Versorgungssituationen."
-  - "Stützkondensatoren gehören nahe an die Verbraucher."
-  - "Versorgungsprobleme zeigen sich oft als scheinbar zufällige Fehler."
-recognizeSignals:
-  - "Du brauchst zuerst Orientierung, bevor du eine konkrete Schaltung oder Aufgabe bewertest."
-  - "Mehrere Einzelfälle wirken ähnlich, aber der gemeinsame fachliche Rahmen fehlt."
-selfCheckPoints:
-  - "Kann ich den Zweck des Themas ohne Formel auswendig zu lernen erklären?"
-  - "Kann ich typische Fehlerquellen in der richtigen Reihenfolge prüfen?"
-level: einfach
-tags:
-  - elektrotechnik
-  - entkopplung-und-stuetzelkos
-  - stromversorgung-und-schutz
+topicPath: ["stromversorgung-und-schutz", "entkopplung-und-stuetzelkos", "ueberblick", "grundlagen-entkopplung-und-stuetzelkos"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Stromversorgung und Schutz"]
 draft: false
 ---
-
 ![Entkopplung nahe am Verbraucher](/schlaufuchs-platform/images/overviews/v181/entkopplung-und-stuetzelkos.svg)
 
 ## Überblick

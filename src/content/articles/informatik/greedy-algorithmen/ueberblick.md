@@ -1,34 +1,19 @@
 ---
 title: "Greedy-Algorithmen"
 description: "Allgemeiner Überblick über Greedy-Algorithmen und lokale Entscheidungen."
-subject: informatik
+subject: "informatik"
 section: "Algorithmen"
-topicPath:
-  - "greedy-algorithmen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Greedy-Algorithmen als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["greedy-algorithmen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird angenommen, die naheliegende Wahl sei immer optimal. Gegenbeispiele sind entscheidend."
-keyTakeaways:
-  - "Greedy-Algorithmen sind elegant, wenn das Problem dazu passt."
-  - "Greedy-Algorithmen sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Greedy-Algorithmen."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Greedy-Algorithmen erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "informatik"
-  - "greedy"
-  - "algorithmen"
-  - "optimierung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Algorithmen"]
 draft: false
 ---
-
 # Greedy-Algorithmen
 
 Ein Greedy-Algorithmus trifft in jedem Schritt eine lokal naheliegende Entscheidung.

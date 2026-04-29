@@ -3,44 +3,17 @@ title: "JavaScript – defensive DOM-Zugriffe und frühe Rückgaben"
 description: "Lerne, DOM-Code so zu schreiben, dass fehlende Elemente nicht sofort die gesamte Interaktion zerstören."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "robustheit-und-fehler"
-  - "defensive-dom-zugriffe-und-fruehe-rueckgaben"
-learningGoals:
-  - "Du prüfst DOM-Auswahlen, bevor du sie verwendest."
-  - "Du nutzt frühe Rückgaben für lesbaren Schutz."
-  - "Du unterscheidest Pflicht-Elemente und optionale Komfortelemente."
-practiceIdeas:
-  - "Übertrage die Idee auf eine kleine eigene Seite."
-  - "Prüfe die Bedienung einmal mit Tastatur und einmal mit Maus."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "Jede Auswahl mit Ausrufezeichen oder Annahme als sicher zu behandeln."
-  - "Mehrere verschachtelte if-Blöcke aufzubauen, obwohl eine frühe Rückgabe klarer wäre."
-  - "Optionale Bereiche wie Pflichtbestandteile zu behandeln."
-keyTakeaways:
-  - "Robuste Webinteraktion trennt Struktur, Zustand und Rückmeldung."
-  - "Nutzerführung ist Teil der technischen Lösung."
-  - "Fehler und Sonderfälle werden sichtbar geplant."
-recognizeSignals:
-  - "Es geht um JavaScript im Browser, UI-Zustand oder dynamische Rückmeldung."
-  - "Eine Interaktion soll verständlicher, sicherer oder robuster werden."
-  - "HTML, CSS und JavaScript müssen gemeinsam gelesen werden."
-selfCheckPoints:
-  - "Kann ich die Aufgabe des Codes in einem Satz erklären?"
-  - "Bleibt die Interaktion ohne Maus oder bei Fehlern nachvollziehbar?"
-  - "Sind sichtbare Texte verständlich und deutsch formuliert?"
+topicPath: ["javascript", "robustheit-und-fehler", "defensive-dom-zugriffe-und-fruehe-rueckgaben"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "web development"
-  - "javascript"
-  - "dom"
-  - "robustheit"
-  - "guard clause"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Diese Seite zeigt dir, wie du defensive DOM-Zugriffe und frühe Rückgaben nicht als isolierten JavaScript-Trick, sondern als kleine UX- und Robustheitsentscheidung liest.

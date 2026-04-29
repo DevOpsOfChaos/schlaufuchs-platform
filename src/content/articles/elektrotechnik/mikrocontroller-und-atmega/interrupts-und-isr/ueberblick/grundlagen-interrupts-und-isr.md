@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Interrupts und ISR"
 description: "Allgemeiner Überblick über Ereignisse, Interrupt-Service-Routinen und kurze Reaktionswege in Mikrocontrollerprogrammen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - mikrocontroller-und-atmega
-  - interrupts-und-isr
-  - ueberblick
-learningGoals:
-  - "Du erklärst die Grundidee von Interrupts und ISR in eigenen Worten."
-  - "Du ordnest typische Begriffe und Fehlerquellen ruhig ein."
-  - "Du erkennst, welche Detailfragen zu diesem Themenbereich gehören."
-practiceIdeas:
-  - "Skizziere den Zusammenhang als kleines Signal-, Strom- oder Ablaufbild."
-  - "Notiere typische Fehlerquellen und prüfe, ob sie elektrisch, logisch oder organisatorisch sind."
-commonMistakes:
-  - "In einer ISR lange Wartezeiten einzubauen."
-  - "Flags und eigentliche Verarbeitung zu vermischen."
-  - "Gemeinsame Variablen ohne Schutz zu verändern."
-keyTakeaways:
-  - "Interrupts reagieren auf Ereignisse."
-  - "Eine ISR sollte kurz bleiben."
-  - "Hauptprogramm und ISR brauchen klare Zuständigkeiten."
-recognizeSignals:
-  - "Du brauchst zuerst Orientierung, bevor du eine konkrete Schaltung oder Aufgabe bewertest."
-  - "Mehrere Einzelfälle wirken ähnlich, aber der gemeinsame fachliche Rahmen fehlt."
-selfCheckPoints:
-  - "Kann ich den Zweck des Themas ohne Formel auswendig zu lernen erklären?"
-  - "Kann ich typische Fehlerquellen in der richtigen Reihenfolge prüfen?"
-level: einfach
-tags:
-  - elektrotechnik
-  - interrupts-und-isr
-  - mikrocontroller-und-atmega
+topicPath: ["mikrocontroller-und-atmega", "interrupts-und-isr", "ueberblick", "grundlagen-interrupts-und-isr"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-
 ![Interrupt als Ereignispfad](/schlaufuchs-platform/images/overviews/v181/interrupts-und-isr.svg)
 
 ## Überblick

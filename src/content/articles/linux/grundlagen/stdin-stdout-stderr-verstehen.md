@@ -1,17 +1,19 @@
 ---
-title: stdin, stdout und stderr verstehen
-description: Standardströme helfen dabei, Eingaben, normale Ausgaben und Fehlermeldungen in Linux klar zu trennen und gezielt weiterzuleiten.
-subject: linux
-section: Grundlagen
-level: mittel
-tags:
-  - stdin
-  - stdout
-  - stderr
-  - Shell
+title: "stdin, stdout und stderr verstehen"
+description: "Standardströme helfen dabei, Eingaben, normale Ausgaben und Fehlermeldungen in Linux klar zu trennen und gezielt weiterzuleiten."
+subject: "linux"
+section: "Grundlagen"
+topicPath: ["grundlagen", "stdin-stdout-stderr-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["linux", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 Viele Linux-Befehle wirken auf den ersten Blick so, als würden sie einfach „irgendetwas im Terminal anzeigen“. Tatsächlich arbeiten Prozesse mit klar getrennten Standardströmen. Diese Trennung ist eine Grundlage für Pipes, Umleitungen und systematische Shell-Arbeit.

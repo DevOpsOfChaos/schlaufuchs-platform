@@ -1,34 +1,19 @@
 ---
 title: "Man-Pages und Hilfe"
 description: "Allgemeiner Überblick über Man-Pages, Hilfetexte und lokale Dokumentation unter Linux."
-subject: linux
+subject: "linux"
 section: "Hilfe und Dokumentation"
-topicPath:
-  - "man-pages-und-hilfe"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Man-Pages und Hilfe als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["man-pages-und-hilfe", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird nur im Internet gesucht, obwohl die lokale Dokumentation schneller und versionsnäher wäre."
-keyTakeaways:
-  - "Man-Pages sind ein zentrales Werkzeug für selbstständiges Arbeiten in Linux."
-  - "Man-Pages und Hilfe sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Man-Pages und Hilfe."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Man-Pages und Hilfe erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "linux"
-  - "man pages"
-  - "hilfe"
-  - "dokumentation"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Hilfe und Dokumentation"]
 draft: false
 ---
-
 # Man-Pages und Hilfe
 
 Man-Pages sind lokale Handbuchseiten für Befehle, Funktionen, Konfigurationsdateien und Systemkonzepte.

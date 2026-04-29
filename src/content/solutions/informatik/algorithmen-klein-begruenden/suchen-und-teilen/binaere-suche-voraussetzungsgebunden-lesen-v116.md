@@ -3,22 +3,12 @@ title: "Lösung: binäre Suche voraussetzungsgebunden lesen"
 description: "Musterlösung zur Aufgabe „binäre Suche voraussetzungsgebunden lesen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "algorithmen-klein-begruenden"
-  - "suchen-und-teilen"
-  - "binaere-suche-voraussetzungsgebunden-lesen-v116"
+topicPath: ["algorithmen-klein-begruenden", "suchen-und-teilen", "binaere-suche-voraussetzungsgebunden-lesen-v116"]
 taskId: "binaere-suche-voraussetzungsgebunden-lesen-v116"
 relatedExercise: "informatik/algorithmen-klein-begruenden/suchen-und-teilen/binaere-suche-voraussetzungsgebunden-lesen-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "suchen und teilen"
-  - "binaere suche voraussetzungsgebunden lesen"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

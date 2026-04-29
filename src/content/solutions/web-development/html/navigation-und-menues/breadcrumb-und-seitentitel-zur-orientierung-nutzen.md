@@ -3,22 +3,12 @@ title: "Lösung – Breadcrumb und Seitentitel zur Orientierung nutzen"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Development-Aufgabe."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "navigation-und-menues"
-  - "breadcrumb-und-seitentitel-zur-orientierung-nutzen"
-tags:
-  - "web development"
-  - "html"
-  - "navigation"
-  - "breadcrumb"
-  - "orientierung"
-  - "lösung"
+topicPath: ["html", "navigation-und-menues", "breadcrumb-und-seitentitel-zur-orientierung-nutzen"]
 taskId: "web-v104-breadcrumb-und-seitentitel-zur-orientierung-nutzen"
 relatedExercise: "web-development/html/navigation-und-menues/breadcrumb-und-seitentitel-zur-orientierung-nutzen"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Eine gute Lösung beginnt mit der Nutzer-Situation. Das Problem ist nicht nur technisch, sondern zeigt sich daran, dass eine Person nicht sicher erkennt, was gerade passiert oder wie sie weitermachen kann.

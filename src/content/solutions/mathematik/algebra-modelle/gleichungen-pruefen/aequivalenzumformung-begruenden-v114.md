@@ -1,23 +1,14 @@
 ---
-title: Lösung – Äquivalenzumformung begründen
-description: Musterlösung zur Aufgabe über Äquivalenzumformung begründen.
-subject: mathematik
-section: Feinstruktur Mathematik
-topicPath:
-- algebra-modelle
-- gleichungen-pruefen
-- aequivalenzumformung-begruenden-v114
-taskId: v114-mathematik-aequivalenzumformung-begruenden-v114
-relatedExercise: mathematik/algebra-modelle/gleichungen-pruefen/aequivalenzumformung-begruenden-v114
-tags:
-- mathematik
-- v114
-- loesung
-- algebra-modelle
-- gleichungen-pruefen
+title: "Lösung – Äquivalenzumformung begründen"
+description: "Musterlösung zur Aufgabe über Äquivalenzumformung begründen."
+subject: "mathematik"
+section: "Feinstruktur Mathematik"
+topicPath: ["algebra-modelle", "gleichungen-pruefen", "aequivalenzumformung-begruenden-v114"]
+taskId: "v114-mathematik-aequivalenzumformung-begruenden-v114"
+relatedExercise: "mathematik/algebra-modelle/gleichungen-pruefen/aequivalenzumformung-begruenden-v114"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

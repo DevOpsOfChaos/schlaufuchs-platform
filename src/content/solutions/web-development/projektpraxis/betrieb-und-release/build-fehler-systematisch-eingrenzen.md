@@ -3,22 +3,12 @@ title: "Lösung – Build-Fehler systematisch eingrenzen"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Projektpraxis-Aufgabe."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "build-fehler-systematisch-eingrenzen"
-tags:
-  - "web development"
-  - "projektpraxis"
-  - "build"
-  - "debugging"
-  - "qualität"
-  - "lösung"
+topicPath: ["projektpraxis", "betrieb-und-release", "build-fehler-systematisch-eingrenzen"]
 taskId: "web-v105-build-fehler-systematisch-eingrenzen"
 relatedExercise: "web-development/projektpraxis/betrieb-und-release/build-fehler-systematisch-eingrenzen"
+tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Eine gute Lösung beginnt mit der Nutzer- oder Wartungssituation. Das Problem wird nicht nur als technische Kleinigkeit behandelt, sondern als Risiko für Verständlichkeit, Betrieb oder spätere Änderung.

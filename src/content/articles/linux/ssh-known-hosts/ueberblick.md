@@ -1,33 +1,19 @@
 ---
 title: "SSH known_hosts"
 description: "Die Datei known_hosts speichert bekannte SSH-Hostschlüssel. Sie schützt davor, unbemerkt mit einem falschen Server verbunden zu werden."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "ssh-known-hosts"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von SSH known_hosts."
-  - "Du kannst SSH known_hosts in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["ssh-known-hosts", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Warnungen über geänderte Hostschlüssel blind zu löschen."
-keyTakeaways:
-  - "Die Datei known_hosts speichert bekannte SSH-Hostschlüssel."
-  - "Wichtig sind vor allem hostschlüssel, warnung bei schlüsseländerung und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um SSH known_hosts, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu SSH known_hosts dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "linux"
-  - "grundlagen"
-  - "ssh known_hosts"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # SSH known_hosts
 
 Die Datei known_hosts speichert bekannte SSH-Hostschlüssel. Sie schützt davor, unbemerkt mit einem falschen Server verbunden zu werden. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

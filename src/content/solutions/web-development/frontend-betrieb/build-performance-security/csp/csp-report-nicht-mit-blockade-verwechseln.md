@@ -3,23 +3,12 @@ title: "Lösung – CSP-Report nicht mit Blockade verwechseln"
 description: "Musterlösung zu CSP Report Only mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "frontend-betrieb"
-  - "build-performance-security"
-  - "csp"
-  - "csp-report-nicht-mit-blockade-verwechseln"
+topicPath: ["frontend-betrieb", "build-performance-security", "csp", "csp-report-nicht-mit-blockade-verwechseln"]
 taskId: "v111-web-development-csp-report-nicht-mit-blockade-verwechseln"
 relatedExercise: "web-development/frontend-betrieb/build-performance-security/csp/csp-report-nicht-mit-blockade-verwechseln"
-tags:
-  - "web development"
-  - "frontend"
-  - "unterthema"
-  - "frontend-betrieb"
-  - "build-performance-security"
-  - "csp-report-nicht-mit-blockade-verwechseln"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **CSP Report Only**.

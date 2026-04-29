@@ -3,34 +3,15 @@ title: "Übung: Signal bewusst wählen"
 description: "Übe, „Signal bewusst wählen“ als kleines Unterthema zu erkennen, zu begründen und mit einer Gegenprobe abzusichern."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "prozesse-logs-und-dienste"
-  - "ps-top-und-kill"
-  - "signal-bewusst-waehlen-v116"
+topicPath: ["prozesse-logs-und-dienste", "ps-top-und-kill", "signal-bewusst-waehlen-v116"]
 taskId: "signal-bewusst-waehlen-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "ps top und kill"
-  - "signal bewusst waehlen"
-  - "v116"
-hintPoints:
-  - "Lies zuerst nur die konkrete Unterfrage."
-  - "Markiere eine typische Fehlannahme."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Lösung fachlich begründet?"
-  - "Ist die Abgrenzung zum Nachbarthema sichtbar?"
-  - "Passt die Gegenprobe zur Aufgabe?"
-transferIdeas:
-  - "Ändere eine Bedingung und prüfe, ob deine Begründung noch trägt."
-  - "Erkläre die Lösung einmal ohne Fachwörter und danach fachlich sauber."
-reflectionPrompt: "Welche kleine Entscheidung war bei „Signal bewusst wählen“ am wichtigsten?"
+tags: ["linux", "Linux vertiefen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe 1: Unterfrage erkennen
 
 Lies die Situation:

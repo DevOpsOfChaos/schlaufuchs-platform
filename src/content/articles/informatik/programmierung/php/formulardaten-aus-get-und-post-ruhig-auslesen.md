@@ -1,46 +1,19 @@
 ---
-title: Formulardaten aus GET und POST ruhig auslesen
-description: Verstehe, wie PHP abgesendete Formulardaten ueber Superglobals bereitstellt und warum das Auslesen eine eigene Denkebene ist.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - formulardaten-aus-get-und-post-ruhig-auslesen
-learningGoals:
-  - Du erklaerst, wie PHP Formulardaten in GET und POST bereitstellt.
-  - Du unterscheidest Request Art und Datenzugriff im Code.
-  - Du liest einfache Formularverarbeitung ruhiger ueber Quelle und Feldname.
-practiceIdeas:
-  - Ordne Formularfelder den passenden Zugriffen in <code>$_GET</code> oder <code>$_POST</code> zu.
-  - Pruefe, welcher Feldname im Array benutzt werden muss.
-  - Vergleiche dieselbe Formularidee einmal mit GET und einmal mit POST.
-commonMistakes:
-  - GET und POST als reine Form Syntax ohne Bezug zum PHP Zugriff zu lesen.
-  - Feldnamen im Formular und Arrayzugriff zu vertauschen.
-  - Zu glauben, dass die Daten ohne Schluessel direkt als Variable auftauchen.
-keyTakeaways:
-  - PHP stellt abgesendete Formulardaten meist ueber <code>$_GET</code> oder <code>$_POST</code> bereit.
-  - Der Feldname im Formular wird zum Schluessel im entsprechenden Superglobal.
-  - Die Request Art und der Zugriff im Code sind verwandt, aber nicht dieselbe Ebene.
-recognizeSignals:
-  - Es geht um Formulare, <code>method="get"</code>, <code>method="post"</code> oder Superglobals.
-  - Eine Aufgabe zeigt HTML Felder und spaeteren Zugriff in PHP.
-  - Du sollst erklaeren, warum ein Wert in PHP unter einem bestimmten Schluessel auftaucht.
-selfCheckPoints:
-  - Kann ich die Datenquelle im PHP Code richtig benennen?
-  - Kann ich Feldname und Array Schluessel verbinden?
-  - Kann ich erklaeren, warum Formularmethode und Superglobal zusammenpassen?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - formular
-  - superglobal
+title: "Formulardaten aus GET und POST ruhig auslesen"
+description: "Verstehe, wie PHP abgesendete Formulardaten ueber Superglobals bereitstellt und warum das Auslesen eine eigene Denkebene ist."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "formulardaten-aus-get-und-post-ruhig-auslesen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Wenn ein Formular abgeschickt wird, muessen die Eingaben in PHP an einer Stelle wieder auftauchen. Genau dafuer gibt es zum Beispiel <code>$_GET</code> und <code>$_POST</code>.

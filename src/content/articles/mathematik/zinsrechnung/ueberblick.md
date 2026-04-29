@@ -1,35 +1,17 @@
 ---
 title: "Zinsrechnung"
 description: "Überblick über einfache Zinsen, Zinseszins und die Verbindung zur Prozentrechnung."
-subject: mathematik
+subject: "mathematik"
 section: "Grundlagen"
-topicPath:
-  - "zinsrechnung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Zinsrechnung als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["zinsrechnung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, Zinseszins wie einfache lineare Zinsen zu behandeln."
-keyTakeaways:
-  - "Zinsrechnung beschreibt, wie Kapital durch einen Zinssatz über eine bestimmte Zeit wächst oder Kosten erzeugt."
-  - "Sie verbindet Prozentrechnung mit Zeit und macht Finanzsituationen wie Sparen, Kredite oder Verzinsung vergleichbar."
-  - "Zinsrechnung ist ein Modell. Gebühren, Steuern, Inflation und wechselnde Zinssätze können reale Situationen verändern."
-recognizeSignals:
-  - "Es geht um Zinsrechnung, wenn einfache Zinsen beziehen sich auf das Anfangskapital."
-  - "Das Thema wird relevant, wenn Beispiele wie bei jährlicher Verzinsung wird ein Kapital jedes Jahr mit dem passenden Wachstumsfaktor multipliziert."
-selfCheckPoints:
-  - "Kann ich Zinsrechnung in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "zinsrechnung"
-  - "prozentrechnung"
-  - "wachstum"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Grundlagen"]
 draft: false
 ---
 # Zinsrechnung

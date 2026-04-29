@@ -1,23 +1,14 @@
 ---
-title: Lösung – Feature Flag als Sicherheitsnetz nutzen
-description: Musterlösung zur Aufgabe über Feature Flag als Sicherheitsnetz nutzen.
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- web-betrieb
-- release-monitoring
-- feature-flag-als-sicherheitsnetz-nutzen-v114
-taskId: v114-web-development-feature-flag-als-sicherheitsnetz-nutzen-v114
-relatedExercise: web-development/web-betrieb/release-monitoring/feature-flag-als-sicherheitsnetz-nutzen-v114
-tags:
-- web-development
-- v114
-- loesung
-- web-betrieb
-- release-monitoring
+title: "Lösung – Feature Flag als Sicherheitsnetz nutzen"
+description: "Musterlösung zur Aufgabe über Feature Flag als Sicherheitsnetz nutzen."
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["web-betrieb", "release-monitoring", "feature-flag-als-sicherheitsnetz-nutzen-v114"]
+taskId: "v114-web-development-feature-flag-als-sicherheitsnetz-nutzen-v114"
+relatedExercise: "web-development/web-betrieb/release-monitoring/feature-flag-als-sicherheitsnetz-nutzen-v114"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

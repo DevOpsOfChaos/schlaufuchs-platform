@@ -3,33 +3,15 @@ title: "Aufgabe – Exitcode nach Befehl lesen"
 description: "Übe exitcode nach befehl lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "pipelines-und-exitcodes"
-  - "exitcode-nach-befehl-lesen"
+topicPath: ["shell", "pipelines-und-exitcodes", "exitcode-nach-befehl-lesen"]
 taskId: "v112-linux-exitcode-nach-befehl-lesen"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "exitcode-nach-befehl-lesen"
-hintPoints:
-  - "Benenne zuerst das kleine Unterthema."
-  - "Prüfe bewusst den Unterschied zum Fehler: Keine Ausgabe wird als Erfolg gedeutet."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Einordnung enger als nur der breite Fachbereich?"
-  - "Wird der typische Fehler ausdrücklich ausgeschlossen?"
-  - "Passt die Lösung zur Wissensseite?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Begriff und prüfe, ob die gleiche Strategie gilt."
-  - "Erkläre die Lösung einmal alltagssprachlich und danach fachlich sauber."
-reflectionPrompt: "Was war bei „Exitcode nach Befehl lesen“ die wichtigste Trennkante?"
+tags: ["linux", "Feinstruktur Linux", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation:

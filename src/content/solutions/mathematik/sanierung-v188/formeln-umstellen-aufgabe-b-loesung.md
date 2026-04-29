@@ -3,22 +3,12 @@ title: "Lösung: Formeln umstellen: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-070b."
 subject: "mathematik"
 section: "algebra-modelle"
-topicPath:
-  - "algebra-modelle"
-  - "gleichungen-pruefen"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "formeln-umstellen-aufgabe-b"]
 taskId: "mat-v188-070b"
 relatedExercise: "mathematik/sanierung-v188/formeln-umstellen-aufgabe-b"
-tags:
-  - "formeln"
-  - "umstellen"
-  - "algebra"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "algebra-modelle", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-070b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

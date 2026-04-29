@@ -3,22 +3,12 @@ title: "Lösung: Maximalstrom abschätzen"
 description: "Musterlösung zur Aufgabe „Maximalstrom abschätzen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "energie-versorgung-und-schutz"
-  - "strombedarf-und-reserve"
-  - "maximalstrom-abschaetzen-v116"
+topicPath: ["energie-versorgung-und-schutz", "strombedarf-und-reserve", "maximalstrom-abschaetzen-v116"]
 taskId: "maximalstrom-abschaetzen-v116"
 relatedExercise: "elektrotechnik/energie-versorgung-und-schutz/strombedarf-und-reserve/maximalstrom-abschaetzen-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "strombedarf und reserve"
-  - "maximalstrom abschaetzen"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

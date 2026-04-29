@@ -1,22 +1,14 @@
 ---
-title: Musterlösung – Selektoren nach Zielbeziehung unterscheiden
-description: Musterlösung zur Aufgabe WEB-CSS-CORE-108.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - css-selektoren-grundidee-verstehen
-  - selektoren-nach-zielbeziehung-unterscheiden-loesung
-taskId: WEB-CSS-CORE-108
-relatedExercise: src/content/exercises/web-development/css/css-selektoren-grundidee-verstehen/selektoren-nach-zielbeziehung-unterscheiden.md
-tags:
-  - web-development
-  - css
-  - loesung
-  - task-id
+title: "Musterlösung – Selektoren nach Zielbeziehung unterscheiden"
+description: "Musterlösung zur Aufgabe WEB-CSS-CORE-108."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "css-selektoren-grundidee-verstehen", "selektoren-nach-zielbeziehung-unterscheiden"]
+taskId: "WEB-CSS-CORE-108"
+relatedExercise: "src/content/exercises/web-development/css/css-selektoren-grundidee-verstehen/selektoren-nach-zielbeziehung-unterscheiden.md"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Zielauswahl nennen
 
 - <code>a</code>: alle Links

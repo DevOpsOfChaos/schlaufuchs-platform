@@ -3,21 +3,12 @@ title: "Lösung – Pipeline schrittweise debuggen"
 description: "Musterlösung zu pipeline schrittweise debuggen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "text-und-auswertung"
-  - "pipeline-schrittweise-debuggen"
+topicPath: ["shell", "text-und-auswertung", "pipeline-schrittweise-debuggen"]
 taskId: "v112-linux-pipeline-schrittweise-debuggen"
 relatedExercise: "linux/shell/text-und-auswertung/pipeline-schrittweise-debuggen"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "pipeline-schrittweise-debuggen"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Text und Auswertung**.

@@ -1,28 +1,17 @@
 ---
 title: "Schwellwert mit Hysterese stabilisieren"
 description: "Erkläre, warum zwei Grenzwerte eine Entscheidung ruhiger machen können."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Daten und Signale"
-topicPath:
-  - daten-und-signale
-  - rauschen-filterung-und-schwellwerte
-taskId: ET-V181-024
-tags:
-  - elektrotechnik
-  - rauschen-filterung-und-schwellwerte
-  - sanierung-v181
-hintPoints:
-  - "Lies zuerst den Normalzustand und dann den Fehlerfall."
-  - "Trenne elektrische Ebene, logische Bedeutung und praktische Prüfung."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["daten-und-signale", "rauschen-filterung-und-schwellwerte", "schwellwert-mit-hysterese-stabilisieren"]
+taskId: "ET-V181-024"
+tags: ["elektrotechnik", "Daten und Signale", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **Rauschen, Filterung und Schwellwerte** ruhig und schrittweise.

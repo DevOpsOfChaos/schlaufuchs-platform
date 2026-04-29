@@ -3,23 +3,12 @@ title: "Lösung – RC-Zeitkonstante qualitativ deuten"
 description: "Musterlösung zu RC-Zeitkonstante mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "bauteile"
-  - "kondensatoren-und-filter"
-  - "rc-zeit"
-  - "rc-zeitkonstante-qualitativ-deuten"
+topicPath: ["bauteile", "kondensatoren-und-filter", "rc-zeit", "rc-zeitkonstante-qualitativ-deuten"]
 taskId: "v111-elektrotechnik-rc-zeitkonstante-qualitativ-deuten"
 relatedExercise: "elektrotechnik/bauteile/kondensatoren-und-filter/rc-zeit/rc-zeitkonstante-qualitativ-deuten"
-tags:
-  - "elektrotechnik"
-  - "praxis"
-  - "unterthema"
-  - "bauteile"
-  - "kondensatoren-und-filter"
-  - "rc-zeitkonstante-qualitativ-deuten"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **RC-Zeitkonstante**.

@@ -3,23 +3,12 @@ title: "Lösung: Barrierefreiheit im Web: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-017a im Web-Development-Block v187."
 subject: "web-development"
 section: "qualitaet"
-topicPath: 
-  - "qualitaet-und-zugaenglichkeit"
-  - "barrierefreiheit"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "barrierefreiheit-im-web-aufgabe-a"]
 taskId: "web-v187-017a"
 relatedExercise: "web-development/sanierung-v187/barrierefreiheit-im-web-aufgabe-a"
-tags: 
-  - "barrierefreiheit"
-  - "accessibility"
-  - "html"
-  - "css"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "qualitaet", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-017a`
 
     Ausgangsauftrag: Prüfe eine Formularseite auf Labels, Fokusreihenfolge und Fehlermeldungen.

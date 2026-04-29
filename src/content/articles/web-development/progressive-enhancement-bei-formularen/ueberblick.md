@@ -1,35 +1,17 @@
 ---
 title: "Progressive Enhancement bei Formularen"
 description: "Überblick darüber, wie Formulare ohne JavaScript funktionieren und durch JavaScript gezielt verbessert werden."
-subject: web-development
+subject: "web-development"
 section: "Progressive Enhancement"
-topicPath:
-  - "progressive-enhancement-bei-formularen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Progressive Enhancement bei Formularen als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["progressive-enhancement-bei-formularen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, das Formular vollständig an JavaScript zu binden und dadurch einfache Fallbacks zu verlieren."
-keyTakeaways:
-  - "Progressive Enhancement bei Formularen bedeutet, eine robuste HTML-Grundfunktion bereitzustellen und zusätzliche Komfortfunktionen darauf aufzubauen."
-  - "So bleiben zentrale Eingaben auch bei Skriptfehlern, langsamen Verbindungen oder ungewöhnlichen Geräten nutzbar."
-  - "Progressive Enhancement bedeutet nicht, auf moderne Interaktion zu verzichten. Es bedeutet, Abhängigkeiten bewusst zu staffeln."
-recognizeSignals:
-  - "Es geht um Progressive Enhancement bei Formularen, wenn die Basisebene sendet Daten über HTML und Serverlogik."
-  - "Das Thema wird relevant, wenn Beispiele wie ein Suchformular funktioniert per normalem Submit; JavaScript ergänzt Vorschläge und verzögerte Sucheingaben."
-selfCheckPoints:
-  - "Kann ich Progressive Enhancement bei Formularen in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "web development"
-  - "formulare"
-  - "progressive enhancement"
-  - "javascript"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Progressive Enhancement"]
 draft: false
 ---
 # Progressive Enhancement bei Formularen

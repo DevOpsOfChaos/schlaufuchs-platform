@@ -3,23 +3,12 @@ title: "Lösung – mv-Risiken bei Zielpfaden prüfen"
 description: "Musterlösung zu mv-Risiken bei Zielpfaden prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell-praxis"
-  - "dateien-sicher-bearbeiten"
-  - "v110-teil-2"
-  - "mv-risiken-bei-zielpfaden-pruefen"
+topicPath: ["shell-praxis", "dateien-sicher-bearbeiten", "v110-teil-2", "mv-risiken-bei-zielpfaden-pruefen"]
 taskId: "v110-linux-mv-risiken-bei-zielpfaden-pruefen"
 relatedExercise: "linux/shell-praxis/dateien-sicher-bearbeiten/v110-teil-2/mv-risiken-bei-zielpfaden-pruefen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "shell-praxis"
-  - "dateien-sicher-bearbeiten"
-  - "mv-risiken-bei-zielpfaden-pruefen"
+tags: ["linux", "Shell", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **mv-Risiken bei Zielpfaden prüfen**.

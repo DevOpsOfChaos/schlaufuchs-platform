@@ -1,12 +1,17 @@
 ---
-title: C-Eingabe, Vergleich und Ausgabe
-description: Diese neu formulierte Bestandsaufgabe verbindet Eingabe, Vergleich und Ausgabe in C in einer klaren, ruhigen Grundstruktur.
-subject: informatik
-section: Programmierung
-level: einfach
+title: "C-Eingabe, Vergleich und Ausgabe"
+description: "Diese neu formulierte Bestandsaufgabe verbindet Eingabe, Vergleich und Ausgabe in C in einer klaren, ruhigen Grundstruktur."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["c-eingabe-vergleich-ausgabe"]
+taskId: "AUTO-C-EINGABE-VERGLEICH-AUSGABE"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgabe so, als würdest du ein kleines Konsolenprogramm planen. Der Schwerpunkt liegt auf klarer Grundlogik, nicht auf komplizierter Syntax.

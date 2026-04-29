@@ -1,34 +1,19 @@
 ---
 title: "Formularzustand"
 description: "Überblick über Werte, Fehler, Berührungsstatus und Versandzustände in Webformularen."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "formularzustand"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["formularzustand", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur erfolgreiche Eingaben zu gestalten und Fehler-, Lade- oder Wiederholungsfälle zu vergessen."
-keyTakeaways:
-  - "Formularzustand verbindet Eingabe, Validierung und Rückmeldung zu einem verständlichen Ablauf."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Formulare mehrere Felder, asynchrone Prüfung oder serverseitige Fehler haben."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "web development"
-  - "formulare"
-  - "zustand"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # Formularzustand
 
 Formularzustand umfasst mehr als die aktuellen Eingabewerte. Dazu gehören Validierungsfehler, geänderte Felder, Ladezustand, Serverantworten und die Frage, ob ein Formular gerade abgeschickt werden darf.

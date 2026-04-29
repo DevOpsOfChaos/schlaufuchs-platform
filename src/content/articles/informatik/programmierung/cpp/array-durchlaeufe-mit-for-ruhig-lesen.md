@@ -1,47 +1,19 @@
 ---
-title: Array-Durchläufe mit for ruhig lesen
-description: Verstehe, wie eine for-Schleife nacheinander auf Array-Positionen zugreift und warum der Index dabei die Steuerrolle hat.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - arrays
-  - array-durchlaeufe-mit-for-ruhig-lesen
-learningGoals:
-  - Du erklärst, wie ein Array mit einer for-Schleife Position für Position durchlaufen wird.
-  - Du unterscheidest Schleifenzähler und Array-Inhalt.
-  - Du liest einen Array-Durchlauf als wiederholten Positionszugriff.
-practiceIdeas:
-  - Lies kleine Schleifen zuerst nur über Start, Grenze und Schritt.
-  - Beschreibe bei einem Beispiel, welche Position in jedem Durchlauf angesprochen wird.
-  - Vergleiche einen festen Einzelzugriff mit einem kompletten Durchlauf.
-commonMistakes:
-  - Den Schleifenzähler mit dem gespeicherten Wert zu verwechseln.
-  - Die Schleifenbedingung nicht mit der Arraygröße abzugleichen.
-  - Nur auf das Schleifengerüst zu schauen und den Arrayzugriff darin zu übersehen.
-keyTakeaways:
-  - Eine for-Schleife kann ein Array geordnet durchlaufen.
-  - Der Zähler steuert die Position, nicht den Inhalt.
-  - Die obere Grenze muss zur Anzahl der Array-Elemente passen.
-recognizeSignals:
-  - Es geht um Schleifen mit i, Indexzugriffe oder nacheinander gelesene Arraywerte.
-  - Du sollst sagen, welche Position in welchem Durchlauf gelesen wird.
-  - In Beispielen musst du Schleifenzähler und Feldelement trennen.
-selfCheckPoints:
-  - Kann ich erklären, wofür i in einem Array-Durchlauf steht?
-  - Kann ich die Schleifengrenze mit der Arraygröße verbinden?
-  - Kann ich sagen, welcher Zugriff in einem bestimmten Durchlauf stattfindet?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - arrays
-  - for
+title: "Array-Durchläufe mit for ruhig lesen"
+description: "Verstehe, wie eine for-Schleife nacheinander auf Array-Positionen zugreift und warum der Index dabei die Steuerrolle hat."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "array-durchlaeufe-mit-for-ruhig-lesen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Arrays und Schleifen passen fachlich eng zusammen. Wenn alle Elemente eines Arrays nacheinander betrachtet werden sollen, übernimmt die Schleife die Wiederholung und der Index zeigt jeweils auf den aktuellen Platz.

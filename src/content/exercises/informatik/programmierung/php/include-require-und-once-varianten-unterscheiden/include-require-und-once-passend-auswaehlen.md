@@ -1,32 +1,17 @@
 ---
-title: include, require und once passend auswählen
-description: Wähle für typische PHP-Bausteine eine sinnvolle Einbindelogik und begründe optional, zwingend oder nur einmal.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - include-require-und-once-varianten-unterscheiden
-  - include-require-und-once-passend-auswaehlen
-taskId: INF-PHP-MODULAR-001
-level: einfach
+title: "include, require und once passend auswählen"
+description: "Wähle für typische PHP-Bausteine eine sinnvolle Einbindelogik und begründe optional, zwingend oder nur einmal."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "include-require-und-once-varianten-unterscheiden", "include-require-und-once-passend-auswaehlen"]
+taskId: "INF-PHP-MODULAR-001"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - informatik
-  - aufgabe
-  - php
-  - modularisierung
-hintPoints:
-  - "Frage zuerst: optional oder zwingend?"
-  - "Danach prüfen: einmalig oder mehrfach möglich?"
-selfCheckPoints:
-  - "Habe ich meine Wahl fachlich begründet?"
-  - "Habe ich den Sinn der once-Varianten verstanden?"
-transferIdeas:
-  - "Übertrage die Logik auf Konfigurationsdateien, Navigation oder Hilfsfunktionen."
-reflectionPrompt: "Welcher Fall war schwieriger: optional vs. zwingend oder einmal vs. mehrfach?"
 ---
-
 ## Aufgabe 1
 
 Begründe grob, was eher passt:

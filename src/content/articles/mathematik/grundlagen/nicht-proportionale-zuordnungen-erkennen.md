@@ -1,44 +1,19 @@
 ---
-title: Nicht proportionale Zuordnungen erkennen
-description: Verstehe, woran du erkennst, dass zwei Größen nicht proportional zusammenhängen und warum derselbe Faktor nicht in jeder Tabelle steckt.
-subject: mathematik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - nicht-proportionale-zuordnungen-erkennen
-learningGoals:
-  - Du erkennst, wann eine Zuordnung nicht proportional ist.
-  - Du beschreibst, warum ein fester Faktor für Proportionalität wichtig ist.
-  - Du vergleichst proportionale und nicht proportionale Tabellen ruhiger.
-practiceIdeas:
-  - Prüfe in Tabellen, ob der Quotient gleich bleibt.
-  - Vergleiche Situationen mit Startwert und ohne Startwert.
-  - Begründe, warum eine Zuordnung trotz wachsender Werte nicht proportional sein muss.
-commonMistakes:
-  - jede gleichmäßig wirkende Tabelle sofort als proportional zu deuten.
-  - nur auf steigende Werte zu schauen und den festen Faktor nicht zu prüfen.
-  - nicht proportionale Beziehungen mit linearen Beziehungen allgemein zu verwechseln.
-keyTakeaways:
-  - Proportionalität braucht einen festen Faktor zwischen den Größen.
-  - Nicht jede wachsende Zuordnung ist proportional.
-  - Ein Startwert oder wechselnder Quotient ist ein starkes Warnsignal gegen Proportionalität.
-recognizeSignals:
-  - Es geht um Tabellen, Preis-Mengen-Beziehungen, Weg-Zeit-Ideen oder Grundgebühren.
-  - Du sollst nicht nur rechnen, sondern den Beziehungstyp einordnen.
-  - In Beispielen ist wichtig, ob Wertepaare wirklich immer im gleichen Verhältnis stehen.
-selfCheckPoints:
-  - Kann ich einen festen Faktor als Kriterium für Proportionalität erklären?
-  - Kann ich Warnsignale für eine nicht proportionale Zuordnung benennen?
-  - Kann ich eine Tabelle ruhig prüfen statt nur auf den ersten Eindruck zu reagieren?
-tags:
-  - mathematik
-  - proportion
-  - zuordnung
-  - faktor
-level: einfach
+title: "Nicht proportionale Zuordnungen erkennen"
+description: "Verstehe, woran du erkennst, dass zwei Größen nicht proportional zusammenhängen und warum derselbe Faktor nicht in jeder Tabelle steckt."
+subject: "mathematik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "nicht-proportionale-zuordnungen-erkennen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Grundlagen"]
 draft: false
 ---
-
 ## Grundidee
 
 Eine proportionale Zuordnung hat einen festen Zusammenhang: Wenn sich die eine Größe verändert, bleibt das Verhältnis zur anderen Größe gleich. Genau daran lässt sich auch erkennen, **wann etwas nicht proportional ist**.

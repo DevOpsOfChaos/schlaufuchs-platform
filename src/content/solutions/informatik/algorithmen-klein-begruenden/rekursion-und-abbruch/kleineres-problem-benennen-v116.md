@@ -3,22 +3,12 @@ title: "Lösung: kleineres Problem benennen"
 description: "Musterlösung zur Aufgabe „kleineres Problem benennen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "algorithmen-klein-begruenden"
-  - "rekursion-und-abbruch"
-  - "kleineres-problem-benennen-v116"
+topicPath: ["algorithmen-klein-begruenden", "rekursion-und-abbruch", "kleineres-problem-benennen-v116"]
 taskId: "kleineres-problem-benennen-v116"
 relatedExercise: "informatik/algorithmen-klein-begruenden/rekursion-und-abbruch/kleineres-problem-benennen-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "rekursion und abbruch"
-  - "kleineres problem benennen"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

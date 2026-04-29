@@ -1,36 +1,19 @@
 ---
 title: "ADC-Eingangsschutz"
 description: "ADC-Eingangsschutz schützt analoge Eingänge vor Spannungen, Strömen oder Störungen, die außerhalb des erlaubten Messbereichs liegen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "adc-eingangsschutz"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst ADC-Eingangsschutz als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["adc-eingangsschutz", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, analoge Pins als beliebig robust zu betrachten, nur weil sie intern Schutzdioden besitzen."
-keyTakeaways:
-  - "ADC-Eingangsschutz schützt analoge Eingänge vor Spannungen, Strömen oder Störungen, die außerhalb des erlaubten Messbereichs liegen."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um ADC-Eingangsschutz, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich ADC-Eingangsschutz in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "adc"
-  - "schutz"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
-
 # ADC-Eingangsschutz
 
 ![Schaubild zum ADC-Eingangsschutz.](/schlaufuchs-platform/images/overviews/v150/adc-eingangsschutz.svg)

@@ -3,32 +3,17 @@ title: "Ereignisgetriebene Systeme"
 description: "Allgemeiner Überblick über ereignisgetriebene systeme und die wichtigsten Zusammenhänge."
 subject: "informatik"
 section: "Architektur"
-topicPath:
-  - "ereignisgetriebene-systeme"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["ereignisgetriebene-systeme", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Entkopplung mit Einfachheit verwechselt."
-keyTakeaways:
-  - "Ereignisgetriebene Systeme ermöglichen flexible Reaktion, brauchen aber klare Beobachtbarkeit."
-  - "Ein Ereignis ist nicht dasselbe wie ein Befehl; es meldet eine geschehene Tatsache."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "informatik"
-  - "architektur"
-  - "ereignisse"
-  - "systeme"
+tags: ["informatik", "Architektur"]
 draft: false
 ---
-
 # Ereignisgetriebene Systeme
 
 Ereignisgetriebene Systeme reagieren auf Ereignisse statt nur lineare Befehlsfolgen abzuarbeiten.

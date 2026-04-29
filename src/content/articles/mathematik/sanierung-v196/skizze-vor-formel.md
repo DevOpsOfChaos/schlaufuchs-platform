@@ -1,20 +1,19 @@
 ---
-title: Skizze vor Formel
-description: Geometrische Situationen erst sichtbar machen.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Skizze vor Formel"
+description: "Geometrische Situationen erst sichtbar machen."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "geometrie-messen-und-begruenden", "skizze-vor-formel"]
-learningGoals: ["Geometrische Situationen erst sichtbar machen", "Zwischenschritte begründen", "Ergebnis im Kontext kontrollieren"]
-practiceIdeas: ["Formuliere ein eigenes Beispiel zu Skizze vor Formel.", "Markiere Frage, Daten und Kontrolle getrennt.", "Vergleiche zwei mögliche Lösungswege."]
-commonMistakes: ["Zu früh rechnen", "Einheiten oder Bedingungen weglassen", "Das Ergebnis nicht rückprüfen"]
-keyTakeaways: ["Skizze vor Formel beginnt mit einer klaren Frage und nicht sofort mit Rechnen.", "Der Themenblock geometrie messen und begruenden braucht sichtbare Zwischenschritte.", "Ein Ergebnis ist erst belastbar, wenn es im Kontext geprüft wurde."]
-recognizeSignals: ["Die Aufgabe enthält mehrere Angaben.", "Eine Darstellung muss gedeutet werden.", "Das Ergebnis braucht eine Plausibilitätsprüfung."]
-selfCheckPoints: ["Ist die Frage klar?", "Sind Einheiten und Bedingungen sichtbar?", "Passt das Ergebnis zur Situation?"]
-level: mittel
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
 tags: ["mathematik", "v196", "geometrie-messen-und-begruenden", "skizze-vor-formel"]
 draft: false
 ---
-
 ![Skizze vor Formel](/schlaufuchs-platform/images/mathematik/sanierung-v196/skizze-vor-formel.svg)
 
 ## Worum es geht

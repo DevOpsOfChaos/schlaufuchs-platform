@@ -3,23 +3,12 @@ title: "Lösung: Debugging als Hypothese: Aufgabe B"
 description: "Musterlösung zur Aufgabe informatik-v193-011b im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "debugging-und-diagnose"
-  - "debugging-als-hypothese"
-  - "loesung-b"
+topicPath: ["sanierung-v193", "debugging-als-hypothese-loesung-b"]
 taskId: "informatik-v193-011b"
 relatedExercise: "informatik/sanierung-v193/debugging-als-hypothese-aufgabe-b"
-tags:
-  - "debugging"
-  - "hypothese"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-011b`
 
 Ausgangsauftrag: Übertrage das Thema Debugging als Hypothese auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

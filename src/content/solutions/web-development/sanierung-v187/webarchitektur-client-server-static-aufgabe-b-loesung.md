@@ -3,23 +3,12 @@ title: "Lösung: Webarchitektur: Client, Server und Static: Prüfung und Verbess
 description: "Musterlösung zur Aufgabe web-v187-032b im Web-Development-Block v187."
 subject: "web-development"
 section: "architektur"
-topicPath: 
-  - "deployment-und-betrieb"
-  - "webarchitektur"
-  - "loesung-b"
+topicPath: ["sanierung-v187", "webarchitektur-client-server-static-aufgabe-b"]
 taskId: "web-v187-032b"
 relatedExercise: "web-development/sanierung-v187/webarchitektur-client-server-static-aufgabe-b"
-tags: 
-  - "architektur"
-  - "client"
-  - "server"
-  - "static-site"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "architektur", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-032b`
 
     Ausgangsauftrag: Entscheide für eine kleine Dokumentationsseite, ob eine statische Architektur ausreicht.

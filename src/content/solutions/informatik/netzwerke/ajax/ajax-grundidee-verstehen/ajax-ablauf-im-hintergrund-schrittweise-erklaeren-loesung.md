@@ -1,22 +1,14 @@
 ---
-title: Musterlösung – AJAX-Ablauf im Hintergrund erklären
-description: Musterlösung zur Aufgabe INF-NET-AJAX-001.
-subject: informatik
-section: Netzwerke
-topicPath:
-  - netzwerke
-  - ajax
-  - ajax-grundidee-verstehen
-  - ajax-ablauf-im-hintergrund-schrittweise-erklaeren-loesung
-taskId: INF-NET-AJAX-001
-relatedExercise: src/content/exercises/informatik/netzwerke/ajax/ajax-grundidee-verstehen/ajax-ablauf-im-hintergrund-schrittweise-erklaeren.md
-tags:
-  - informatik
-  - loesung
-  - task-id
+title: "Musterlösung – AJAX-Ablauf im Hintergrund erklären"
+description: "Musterlösung zur Aufgabe INF-NET-AJAX-001."
+subject: "informatik"
+section: "Netzwerke"
+topicPath: ["netzwerke", "ajax", "ajax-grundidee-verstehen", "ajax-ablauf-im-hintergrund-schrittweise-erklaeren"]
+taskId: "INF-NET-AJAX-001"
+relatedExercise: "src/content/exercises/informatik/netzwerke/ajax/ajax-grundidee-verstehen/ajax-ablauf-im-hintergrund-schrittweise-erklaeren.md"
+tags: ["informatik", "Netzwerke", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Ablauf beschreiben
 
 Der Browser registriert die Eingabe, schickt im Hintergrund eine Anfrage an den Server, erhält eine Antwort und aktualisiert dann nur den passenden Teil der Seite.

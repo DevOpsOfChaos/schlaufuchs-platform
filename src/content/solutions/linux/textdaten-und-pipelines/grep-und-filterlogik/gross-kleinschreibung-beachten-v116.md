@@ -3,22 +3,12 @@ title: "Lösung: Groß-/Kleinschreibung beachten"
 description: "Musterlösung zur Aufgabe „Groß-/Kleinschreibung beachten“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "textdaten-und-pipelines"
-  - "grep-und-filterlogik"
-  - "gross-kleinschreibung-beachten-v116"
+topicPath: ["textdaten-und-pipelines", "grep-und-filterlogik", "gross-kleinschreibung-beachten-v116"]
 taskId: "gross-kleinschreibung-beachten-v116"
 relatedExercise: "linux/textdaten-und-pipelines/grep-und-filterlogik/gross-kleinschreibung-beachten-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "grep und filterlogik"
-  - "gross kleinschreibung beachten"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

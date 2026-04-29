@@ -3,23 +3,12 @@ title: "Lösung: Static-Site-Deployment: Prüfung und Verbesserung"
 description: "Musterlösung zur Aufgabe web-v187-028b im Web-Development-Block v187."
 subject: "web-development"
 section: "deployment"
-topicPath: 
-  - "deployment-und-betrieb"
-  - "static-sites"
-  - "loesung-b"
+topicPath: ["sanierung-v187", "static-site-deployment-aufgabe-b"]
 taskId: "web-v187-028b"
 relatedExercise: "web-development/sanierung-v187/static-site-deployment-aufgabe-b"
-tags: 
-  - "deployment"
-  - "static-site"
-  - "build"
-  - "hosting"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "deployment", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-028b`
 
     Ausgangsauftrag: Analysiere einen Deploymentfehler, bei dem CSS lokal lädt, online aber fehlt.

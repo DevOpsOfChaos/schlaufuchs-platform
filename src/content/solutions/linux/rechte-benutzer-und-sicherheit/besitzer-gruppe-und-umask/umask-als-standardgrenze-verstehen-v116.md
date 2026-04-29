@@ -3,22 +3,12 @@ title: "Lösung: umask als Standardgrenze verstehen"
 description: "Musterlösung zur Aufgabe „umask als Standardgrenze verstehen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "rechte-benutzer-und-sicherheit"
-  - "besitzer-gruppe-und-umask"
-  - "umask-als-standardgrenze-verstehen-v116"
+topicPath: ["rechte-benutzer-und-sicherheit", "besitzer-gruppe-und-umask", "umask-als-standardgrenze-verstehen-v116"]
 taskId: "umask-als-standardgrenze-verstehen-v116"
 relatedExercise: "linux/rechte-benutzer-und-sicherheit/besitzer-gruppe-und-umask/umask-als-standardgrenze-verstehen-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "besitzer gruppe und umask"
-  - "umask als standardgrenze verstehen"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

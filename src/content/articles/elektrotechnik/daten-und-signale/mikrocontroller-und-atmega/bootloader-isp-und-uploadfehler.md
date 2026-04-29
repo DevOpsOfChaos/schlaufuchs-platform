@@ -3,43 +3,15 @@ title: "ATmega – Bootloader, ISP und Uploadfehler unterscheiden"
 description: "Verstehe, warum Programmieren über Bootloader und ISP unterschiedliche Wege sind und deshalb auch unterschiedliche Fehlerbilder erzeugen."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "bootloader-isp-und-uploadfehler"
-learningGoals:
-  - "Du unterscheidest Bootloader-Upload und ISP-Programmierung."
-  - "Du ordnest typische Uploadfehler nach Reset, Schnittstelle, Takt und Verdrahtung."
-  - "Du vermeidest, jeden Uploadfehler sofort als defekten Mikrocontroller zu deuten."
-practiceIdeas:
-  - "Vergleiche USB-Seriell-Bootloader mit ISP-Pins."
-  - "Prüfe Reset, GND und Takt als eigene Fehlerquellen."
-  - "Formuliere eine ruhige Fehlersuche für nicht erreichbare Controller."
-commonMistakes:
-  - "Bootloader und ISP als denselben Uploadweg zu behandeln."
-  - "Bei jedem Uploadfehler sofort den Chip als kaputt anzunehmen."
-  - "Reset- und Taktprobleme nicht in die Diagnose aufzunehmen."
-keyTakeaways:
-  - "Der Bootloader nutzt einen bereits vorhandenen kleinen Programmteil."
-  - "ISP programmiert den Controller über eigene Programmiersignale."
-  - "Uploaddiagnose braucht Weg, Verdrahtung, Reset und Takt als getrennte Fragen."
-recognizeSignals:
-  - "Upload funktioniert per Arduino-IDE nicht, aber ISP könnte noch gehen."
-  - "Der Controller antwortet nicht oder nur manchmal."
-  - "Eine Aufgabe fragt nach Bootloader, Programmer oder Resetleitung."
-selfCheckPoints:
-  - "Kann ich den gewählten Programmierweg benennen?"
-  - "Kann ich Reset und Takt als Diagnosepunkte aufnehmen?"
-  - "Kann ich zwischen Bootloader fehlt und Verdrahtung falsch unterscheiden?"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "atmega"
-  - "bootloader"
-  - "isp"
-  - "upload"
-  - "debugging"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "bootloader-isp-und-uploadfehler"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
 ## Grundidee

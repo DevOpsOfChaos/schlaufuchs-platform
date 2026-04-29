@@ -1,45 +1,19 @@
 ---
-title: Media Queries verstehen
-description: Verstehe, warum ein Layout nicht auf jedem Bildschirm gleich bleiben muss und wie CSS darauf gezielt reagiert.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - media-queries-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von Media Queries.
-  - Du beschreibst, warum Layoutregeln auf verschiedene Bildschirmbreiten reagieren.
-  - Du deutest Media Queries als Anpassungsregel statt als Sonderfall-Chaos.
-practiceIdeas:
-  - Überlege, welche Layoutänderung auf schmalen Bildschirmen sinnvoll wäre.
-  - Vergleiche dieselbe Komponente auf großem und kleinem Bildschirm.
-  - Formuliere eine CSS-Regel, die ab einer bestimmten Breite anders reagieren soll.
-commonMistakes:
-  - Responsive Design nur als „alles kleiner machen“ zu verstehen.
-  - Media Queries als vollständige Neuschreibung statt als gezielte Anpassung zu sehen.
-  - Nicht zu überlegen, welche Regel sich auf kleinen Bildschirmen wirklich ändern muss.
-keyTakeaways:
-  - Media Queries passen CSS-Regeln an Gerätebedingungen an.
-  - Ziel ist nicht ein anderes Projekt, sondern ein sinnvoll angepasstes Layout.
-  - Gute Responsive-Regeln ändern gezielt, nicht beliebig.
-recognizeSignals:
-  - Es geht um verschiedene Bildschirmgrößen, responsive Layouts oder angepasste Regeln.
-  - Du sollst erklären, warum Elemente auf Mobilgeräten anders angeordnet werden.
-  - In Aufgaben wird nach Bedingungen für CSS-Anpassungen gefragt.
-selfCheckPoints:
-  - Kann ich die Grundidee von Media Queries erklären?
-  - Kann ich beschreiben, welche Regel sich bei kleinerem Bildschirm ändern sollte?
-  - Kann ich responsive Anpassung von reinem Verkleinern unterscheiden?
-tags:
-  - css
-  - media-queries
-  - responsive
-  - layout
-level: einfach
+title: "Media Queries verstehen"
+description: "Verstehe, warum ein Layout nicht auf jedem Bildschirm gleich bleiben muss und wie CSS darauf gezielt reagiert."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "media-queries-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Media Queries sorgen dafür, dass CSS nicht immer unter allen Bedingungen gleich wirken muss. Ein Layout darf auf einem großen Bildschirm anders organisiert sein als auf einem kleinen – solange die Anpassung bewusst und nachvollziehbar bleibt.

@@ -3,24 +3,12 @@ title: "Lösung: Module und Dateiaufteilung: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-v190-016b im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "projektstruktur"
-  - "module-und-dateiaufteilung"
-  - "loesung-b"
+topicPath: ["sanierung-v190", "module-und-dateiaufteilung-aufgabe-b"]
 taskId: "web-v190-016b"
 relatedExercise: "web-development/sanierung-v190/module-und-dateiaufteilung-aufgabe-b"
-tags:
-  - "projektstruktur"
-  - "module"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-016b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Module und Dateiaufteilung“ um einen Fehlerfall, eine Abnahmebedingung und eine kurze Begründung.

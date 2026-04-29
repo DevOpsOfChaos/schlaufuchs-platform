@@ -1,46 +1,19 @@
 ---
-title: CSV, JSON und XML vergleichen
-description: Verstehe, wann einfache Tabellenformate ausreichen und wann hierarchische Datenformate sinnvoller sind.
-subject: informatik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - datenformate
-  - csv-json-und-xml-vergleichen
-learningGoals:
-  - Du vergleichst CSV, JSON und XML nach Struktur und Einsatzbereich.
-  - Du erkennst, wann flache Tabellen ausreichen und wann Hierarchie gebraucht wird.
-  - Du begründest eine Formatwahl fachlich statt nur nach Gewohnheit.
-practiceIdeas:
-  - Ordne typische Anwendungsfälle wie Exporttabelle, API-Antwort oder Konfigurationsdatei einem Format zu.
-  - Vergleiche denselben Datensatz als CSV, JSON und XML.
-  - Begründe, warum Listen mit Unterobjekten in CSV schnell unruhig werden.
-commonMistakes:
-  - JSON oder XML für jede einfache Tabelle zu wählen.
-  - CSV für stark verschachtelte Daten zu erzwingen.
-  - Lesbarkeit nur nach Länge der Datei zu beurteilen.
-keyTakeaways:
-  - CSV ist gut für flache tabellarische Daten.
-  - JSON und XML können Hierarchien ausdrücken.
-  - Die Formatwahl hängt von Struktur, Datentypen und Verarbeitung ab.
-recognizeSignals:
-  - Ein System exportiert Tabellen oder tauscht strukturierte Daten aus.
-  - Du sollst Vor- und Nachteile von Formaten vergleichen.
-  - Es geht um Lesbarkeit, Hierarchie oder Datenaustausch.
-selfCheckPoints:
-  - Kann ich erklären, warum CSV flach ist?
-  - Kann ich JSON und XML als hierarchische Formate einordnen?
-  - Kann ich für einen Anwendungsfall ein passendes Format begründen?
-level: einfach
-tags:
-  - informatik
-  - csv
-  - json
-  - xml
-  - datenformate
+title: "CSV, JSON und XML vergleichen"
+description: "Verstehe, wann einfache Tabellenformate ausreichen und wann hierarchische Datenformate sinnvoller sind."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "datenformate", "csv-json-und-xml-vergleichen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Grundlagen"]
 draft: false
 ---
-
 ## Grundidee
 
 CSV, JSON und XML sind alle textbasierte Datenformate – aber sie lösen nicht exakt dieselbe Aufgabe. CSV ist stark auf tabellarische Daten ausgerichtet, JSON und XML können dagegen Hierarchien sauber ausdrücken.

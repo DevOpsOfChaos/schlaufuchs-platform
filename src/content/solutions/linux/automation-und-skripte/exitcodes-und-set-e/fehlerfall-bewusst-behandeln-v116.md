@@ -3,22 +3,12 @@ title: "Lösung: Fehlerfall bewusst behandeln"
 description: "Musterlösung zur Aufgabe „Fehlerfall bewusst behandeln“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "automation-und-skripte"
-  - "exitcodes-und-set-e"
-  - "fehlerfall-bewusst-behandeln-v116"
+topicPath: ["automation-und-skripte", "exitcodes-und-set-e", "fehlerfall-bewusst-behandeln-v116"]
 taskId: "fehlerfall-bewusst-behandeln-v116"
 relatedExercise: "linux/automation-und-skripte/exitcodes-und-set-e/fehlerfall-bewusst-behandeln-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "exitcodes und set e"
-  - "fehlerfall bewusst behandeln"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

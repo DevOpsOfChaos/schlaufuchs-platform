@@ -1,33 +1,19 @@
 ---
 title: "Netzwerkdiagnose"
 description: "Einordnung grundlegender Netzwerkdiagnose unter Linux."
-subject: linux
+subject: "linux"
 section: "Netzwerk"
-topicPath:
-  - netzwerkdiagnose
-  - ueberblick
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen und von verwandten Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte und typische Anwendungsfälle."
-  - "Du erkennst häufige Missverständnisse und prüfst Aussagen auf Plausibilität."
+topicPath: ["netzwerkdiagnose", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden DNS, Routing und Dienstfehler vermischt."
-keyTakeaways:
-  - "Netzwerkdiagnose bedeutet, Verbindungsprobleme systematisch einzugrenzen."
-  - "Die genaue Bedeutung hängt vom Zusammenhang, den Einheiten und den Randbedingungen ab."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Begriffe, Beispiele oder Fehlerbilder aus diesem Bereich erklärt und eingeordnet werden sollen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten erklären, ohne sofort eine Spezialaufgabe zu rechnen?"
-level: einfach
-tags:
-  - "linux"
-  - "netzwerk"
-  - "diagnose"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Netzwerk"]
 draft: false
 ---
-
 # Netzwerkdiagnose
 
 ## Begriff und Zweck

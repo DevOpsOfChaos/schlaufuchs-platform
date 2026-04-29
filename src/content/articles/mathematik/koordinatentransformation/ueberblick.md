@@ -1,35 +1,17 @@
 ---
 title: "Koordinatentransformation"
 description: "Überblick über Koordinatentransformationen als Wechsel der Beschreibung eines geometrischen Objekts."
-subject: mathematik
+subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - "koordinatentransformation"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Koordinatentransformation als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["koordinatentransformation", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, Koordinatenwerte mit dem Objekt selbst zu verwechseln. Der Punkt bleibt gleich, die Beschreibung kann wechseln."
-keyTakeaways:
-  - "Eine Koordinatentransformation beschreibt denselben Punkt oder dasselbe Objekt in einem anderen Koordinatensystem."
-  - "Sie macht geometrische Situationen einfacher, wenn ein passender Ursprung, eine passende Richtung oder eine andere Skala gewählt wird."
-  - "Eine Transformation der Koordinaten ist nicht immer dasselbe wie eine Bewegung des Objekts. Manchmal ändert sich nur die Beschreibung."
-recognizeSignals:
-  - "Es geht um Koordinatentransformation, wenn verschiebung ändert den Ursprung."
-  - "Das Thema wird relevant, wenn Beispiele wie ein Punkt kann relativ zu einem Raumkoordinatensystem oder relativ zu einem bewegten Roboter beschrieben werden."
-selfCheckPoints:
-  - "Kann ich Koordinatentransformation in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "geometrie"
-  - "koordinaten"
-  - "transformation"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Geometrie"]
 draft: false
 ---
 # Koordinatentransformation

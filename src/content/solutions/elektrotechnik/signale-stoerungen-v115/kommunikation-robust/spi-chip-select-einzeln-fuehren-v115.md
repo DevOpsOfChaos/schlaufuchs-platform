@@ -1,24 +1,14 @@
 ---
 title: "Lösung: SPI-Chip-Select einzeln führen"
 description: "Musterlösung zu SPI-Chip-Select einzeln führen mit Trennkante und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "signale-stoerungen-v115"
-  - "kommunikation-robust"
-  - "spi-chip-select-einzeln-fuehren-v115"
+topicPath: ["signale-stoerungen-v115", "kommunikation-robust", "spi-chip-select-einzeln-fuehren-v115"]
 taskId: "elektrotechnik-spi-chip-select-einzeln-fuehren-v115"
 relatedExercise: "elektrotechnik/signale-stoerungen-v115/kommunikation-robust/spi-chip-select-einzeln-fuehren-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "signale und störungen"
-  - "kommunikation robust machen"
-  - "lösung"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **SPI-Chip-Select einzeln führen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

@@ -1,37 +1,19 @@
 ---
 title: "Grundlagen: Einheiten und Skalierung"
 description: "Allgemeiner Überblick über Maßstab, Längeneinheiten, Flächenfaktoren und Volumenfaktoren in geometrischen Aufgaben."
-subject: mathematik
+subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - geometrie
-  - einheiten-und-skalierung
-  - grundlagen-einheiten-und-skalierung
-learningGoals:
-  - "Du erklärst Skalierung als Vergrößern oder Verkleinern geometrischer Größen."
-  - "Du unterscheidest Längen-, Flächen- und Volumenfaktoren."
-  - "Du ordnest Maßstäbe als Verhältnis zwischen Modell und Wirklichkeit ein."
+topicPath: ["geometrie", "einheiten-und-skalierung", "ueberblick", "grundlagen-einheiten-und-skalierung"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Längenfaktoren unverändert auf Flächen oder Volumen zu übertragen."
-  - "Einheiten erst am Ende ungeprüft anzuhängen."
-  - "Maßstab und reale Länge zu verwechseln."
-keyTakeaways:
-  - "Ein Maßstab beschreibt ein Verhältnis zwischen Darstellung und Wirklichkeit."
-  - "Flächen ändern sich quadratisch mit dem Längenfaktor."
-  - "Volumen ändern sich kubisch mit dem Längenfaktor."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - "mathematik"
-  - "geometrie"
-  - "einheiten"
-  - "maßstab"
-  - "skalierung"
+level: "einfach"
+tags: ["mathematik", "Geometrie"]
 draft: false
 ---
-
 ## Begriff
 
 **Einheiten und Skalierung** beschreiben, wie geometrische Größen gemessen, umgerechnet und vergrößert oder verkleinert werden. Eine Skalierung verändert Längen, Flächen oder Volumen nach bestimmten Regeln. Ein Maßstab gibt an, wie eine Darstellung zur Wirklichkeit passt.

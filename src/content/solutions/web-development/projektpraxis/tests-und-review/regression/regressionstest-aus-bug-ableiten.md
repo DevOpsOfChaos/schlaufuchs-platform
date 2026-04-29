@@ -3,23 +3,12 @@ title: "Lösung – Regressionstest aus Bug ableiten"
 description: "Musterlösung zu Regressionstest mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "projektpraxis"
-  - "tests-und-review"
-  - "regression"
-  - "regressionstest-aus-bug-ableiten"
+topicPath: ["projektpraxis", "tests-und-review", "regression", "regressionstest-aus-bug-ableiten"]
 taskId: "v111-web-development-regressionstest-aus-bug-ableiten"
 relatedExercise: "web-development/projektpraxis/tests-und-review/regression/regressionstest-aus-bug-ableiten"
-tags:
-  - "web development"
-  - "frontend"
-  - "unterthema"
-  - "projektpraxis"
-  - "tests-und-review"
-  - "regressionstest-aus-bug-ableiten"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Regressionstest**.

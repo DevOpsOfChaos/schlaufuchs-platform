@@ -3,44 +3,17 @@ title: "JavaScript – Fehlergrenzen in UI-Komponenten planen"
 description: "Plane, welche Teile einer Oberfläche bei Fehlern ausfallen dürfen und welche Rückmeldung trotzdem sichtbar bleiben muss."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "module-und-struktur"
-  - "fehlergrenzen-in-ui-komponenten-planen"
-tags:
-  - "web development"
-  - "javascript"
-  - "ui"
-  - "fehler"
-  - "wartbarkeit"
-learningGoals:
-  - "Du erklärst, worum es bei „Fehlergrenzen in UI-Komponenten planen“ fachlich geht."
-  - "Du trennst technische Umsetzung, sichtbare Rückmeldung und Nutzererwartung."
-  - "Du erkennst typische Fehlerbilder und formulierst eine robuste Alternative."
-practiceIdeas:
-  - "Übertrage die Idee auf eine kleine eigene Beispielseite."
-  - "Prüfe die Lösung einmal aus Sicht von Tastatur, Mobilgerät oder langsamem Laden."
-  - "Formuliere die technische Entscheidung in gutem Deutsch für eine andere Person."
-commonMistakes:
-  - "Nur den sichtbaren Normalfall zu betrachten."
-  - "Technische Begriffe zu verwenden, ohne den Nutzen für die Bedienung zu klären."
-  - "Fehlerfälle, leere Zustände oder Wartbarkeit zu spät mitzudenken."
-keyTakeaways:
-  - "Robuste Webentwicklung verbindet Struktur, Verhalten und Rückmeldung."
-  - "Gute Lösungen bleiben auch bei kleinen Störungen verständlich."
-  - "Saubere sichtbare Texte sind Teil der technischen Qualität."
-recognizeSignals:
-  - "Eine Oberfläche soll verständlicher, stabiler oder zugänglicher werden."
-  - "Ein technischer Baustein beeinflusst direkt die Nutzerführung."
-  - "Du musst zwischen schneller Lösung und dauerhaft wartbarer Lösung abwägen."
-selfCheckPoints:
-  - "Kann ich die Entscheidung ohne Fachnebel erklären?"
-  - "Bleibt die Seite bei Fehlern oder Sonderfällen verständlich?"
-  - "Sind Code, sichtbarer Text und Verhalten konsistent?"
+topicPath: ["javascript", "module-und-struktur", "fehlergrenzen-in-ui-komponenten-planen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Nicht jeder Fehler darf die ganze Oberfläche unbrauchbar machen. Fehlergrenzen helfen, betroffene Bereiche klar zu isolieren und den Rest der Seite verständlich nutzbar zu halten.

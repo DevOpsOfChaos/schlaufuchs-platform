@@ -1,33 +1,19 @@
 ---
 title: "Shell-Variablen und Umgebung"
 description: "Überblick über Shell-Variablen, Umgebungsvariablen und ihre Rolle für Programme."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - shell-variablen-und-umgebung
-  - ueberblick
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen und von verwandten Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte und typische Anwendungsfälle."
-  - "Du erkennst häufige Missverständnisse und prüfst Aussagen auf Plausibilität."
+topicPath: ["shell-variablen-und-umgebung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, eine Variable zu setzen, aber nicht zu exportieren, obwohl ein Kindprozess sie benötigt."
-keyTakeaways:
-  - "Shells können Werte in Variablen speichern."
-  - "Die genaue Bedeutung hängt vom Zusammenhang, den Einheiten und den Randbedingungen ab."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Begriffe, Beispiele oder Fehlerbilder aus diesem Bereich erklärt und eingeordnet werden sollen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten erklären, ohne sofort eine Spezialaufgabe zu rechnen?"
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "umgebungsvariablen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
-
 # Shell-Variablen und Umgebung
 
 ## Begriff und Zweck

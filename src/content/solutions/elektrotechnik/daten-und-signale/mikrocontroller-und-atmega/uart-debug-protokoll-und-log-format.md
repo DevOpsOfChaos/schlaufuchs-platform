@@ -1,24 +1,14 @@
 ---
 title: "Lösung – UART-Logausgaben für Fehlersuche strukturieren"
 description: "Musterlösung zu uart-logausgaben für fehlersuche strukturieren."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - uart-debug-protokoll-und-log-format
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "uart-debug-protokoll-und-log-format"]
 taskId: "et-mc-v92-uart-log-format"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/uart-debug-protokoll-und-log-format"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - uart
-  - debugging
-  - log
-  - fehlersuche
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Eine bessere Zeile wäre zum Beispiel: <code>state=MEASURE event=adc value=517</code>. Sie ist kürzer, enthält Zustand, Ereignis und Wert und ist später leichter zu vergleichen.

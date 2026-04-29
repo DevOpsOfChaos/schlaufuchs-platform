@@ -1,44 +1,19 @@
 ---
-title: Passwörter und Authentifizierung
-description: Verstehe, wie Systeme Identitäten prüfen und warum starke Passwörter nur ein Teil sicherer Anmeldung sind.
-subject: informatik
-section: Sicherheit
-topicPath:
-  - sicherheit
-  - passwoerter-und-authentifizierung
-tags:
-  - passwort
-  - authentifizierung
-  - konto
-  - sicherheit
-learningGoals:
-  - "Du unterscheidest Passwort, Identität und Authentifizierung."
-  - "Du erklärst, warum starke Passwörter Regeln und Grenzen haben."
-  - "Du ordnest weitere Schutzideen wie Mehrfaktor-Anmeldung grob ein."
-practiceIdeas:
-  - "Vergleiche gute und schlechte Passwortstrategien."
-  - "Erkläre an einem Alltagsbeispiel, wie ein System eine Identität prüft."
-  - "Ordne Passwort, zweiter Faktor und Benutzerkonto fachlich auseinander."
-commonMistakes:
-  - "Zu denken, dass ein einzelnes langes Passwort alle Sicherheitsprobleme löst."
-  - "Passwort und Benutzerkonto gleichzusetzen."
-  - "Authentifizierung mit Autorisierung zu verwechseln."
-keyTakeaways:
-  - "Authentifizierung prüft, ob jemand die behauptete Person ist."
-  - "Passwörter sind nur ein möglicher Faktor dieser Prüfung."
-  - "Sichere Anmeldung besteht aus Regeln, Technik und bewusstem Verhalten."
-recognizeSignals:
-  - "Es geht um Anmelden, Konten, Faktoren, Sicherheit oder Passwortregeln."
-  - "Du sollst erklären, wie ein System Benutzer identifiziert oder überprüft."
-  - "Ein Beispiel fragt, warum ein Passwort allein nicht immer ausreicht."
-selfCheckPoints:
-  - "Kann ich Passwort und Authentifizierung unterscheiden?"
-  - "Kann ich ein Risiko schwacher oder wiederverwendeter Passwörter benennen?"
-  - "Kann ich erklären, warum ein zweiter Faktor zusätzlichen Schutz bringt?"
-level: einfach
+title: "Passwörter und Authentifizierung"
+description: "Verstehe, wie Systeme Identitäten prüfen und warum starke Passwörter nur ein Teil sicherer Anmeldung sind."
+subject: "informatik"
+section: "Sicherheit"
+topicPath: ["sicherheit", "passwoerter-und-authentifizierung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Sicherheit"]
 draft: false
 ---
-
 ## Warum dieses Thema wichtig ist
 
 Fast jedes digitale System muss unterscheiden können, **wer** gerade zugreift. Ohne diese Prüfung wären persönliche Daten, Konten und Einstellungen kaum schützbar. Genau darum geht es bei Passwörtern und Authentifizierung.

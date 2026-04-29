@@ -1,33 +1,19 @@
 ---
 title: "Paketmanager"
 description: "Paketmanager verwalten Abhängigkeiten, Versionen und Installationen von Softwarepaketen. Sie machen Projekte reproduzierbarer, bringen aber auch Abhängigkeitsrisiken mit."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "paketmanager"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Paketmanager."
-  - "Du kannst Paketmanager in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["paketmanager", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Abhängigkeiten unkritisch zu aktualisieren oder nie zu aktualisieren."
-keyTakeaways:
-  - "Paketmanager verwalten Abhängigkeiten, Versionen und Installationen von Softwarepaketen."
-  - "Wichtig sind vor allem paketquellen und versionen, lockfiles und reproduzierbarkeit und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Paketmanager, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Paketmanager dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "informatik"
-  - "grundlagen"
-  - "paketmanager"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Paketmanager
 
 Paketmanager verwalten Abhängigkeiten, Versionen und Installationen von Softwarepaketen. Sie machen Projekte reproduzierbarer, bringen aber auch Abhängigkeitsrisiken mit. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

@@ -3,38 +3,17 @@ title: "Datenkritik und Zufall"
 description: "Daten müssen nach Herkunft, Auswahl und Streuung geprüft werden."
 subject: "mathematik"
 section: "daten-und-wahrscheinlichkeit"
-topicPath:
-  - "daten-und-wahrscheinlichkeit"
-  - "datenkritik-und-zufall"
-learningGoals:
-  - "Daten müssen nach Herkunft, Auswahl und Streuung geprüft werden fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Daten müssen nach Herkunft, Auswahl und Streuung geprüft werden wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v188", "datenkritik-und-zufall"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "datenkritik"
-  - "zufall"
-  - "stichprobe"
-  - "mathematik"
-  - "v188"
+tags: ["mathematik", "daten-und-wahrscheinlichkeit"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Datenkritik und Zufall](/schlaufuchs-platform/images/mathematik/sanierung-188/datenkritik-und-zufall.svg)
 
 ## Überblick

@@ -3,24 +3,12 @@ title: "Lösung: Ohmsches Gesetz anwenden: Aufgabe A"
 description: "Musterlösung zur Aufgabe etech-v191-002a im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "grundgroessen"
-  - "ohmsches-gesetz-anwenden"
-  - "loesung-a"
+topicPath: ["sanierung-v191", "ohmsches-gesetz-anwenden-aufgabe-a"]
 taskId: "etech-v191-002a"
 relatedExercise: "elektrotechnik/sanierung-v191/ohmsches-gesetz-anwenden-aufgabe-a"
-tags:
-  - "grundgroessen"
-  - "ohmsches"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-002a`
 
 Ausgangsauftrag: Berechne eine fehlende Größe und begründe, ob das Ergebnis plausibel ist.

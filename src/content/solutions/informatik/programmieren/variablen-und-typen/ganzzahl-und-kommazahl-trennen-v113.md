@@ -3,20 +3,12 @@ title: "Lösung – Ganzzahl und Kommazahl trennen"
 description: "Musterlösung zu Ganzzahl und Kommazahl trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "programmieren"
-  - "variablen-und-typen"
-  - "ganzzahl-und-kommazahl-trennen-v113"
+topicPath: ["programmieren", "variablen-und-typen", "ganzzahl-und-kommazahl-trennen-v113"]
 taskId: "v113-informatik-ganzzahl-und-kommazahl-trennen-v113"
 relatedExercise: "informatik/programmieren/variablen-und-typen/ganzzahl-und-kommazahl-trennen-v113"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "ganzzahl-und-kommazahl-trennen-v113"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Ganzzahl und Kommazahl trennen**.

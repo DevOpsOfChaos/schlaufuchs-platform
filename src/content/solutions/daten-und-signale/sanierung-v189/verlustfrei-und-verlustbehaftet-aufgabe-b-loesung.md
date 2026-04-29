@@ -3,22 +3,12 @@ title: "Lösung: Verlustfrei und verlustbehaftet: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe dat-v189-050b."
 subject: "daten-und-signale"
 section: "speicherung"
-topicPath:
-  - "speicherung"
-  - "verlustfrei-und-verlustbehaftet"
-  - "loesung-b"
+topicPath: ["sanierung-v189", "verlustfrei-und-verlustbehaftet-aufgabe-b"]
 taskId: "dat-v189-050b"
 relatedExercise: "daten-und-signale/sanierung-v189/verlustfrei-und-verlustbehaftet-aufgabe-b"
-tags:
-  - "verlustfrei"
-  - "verlustbehaftet"
-  - "kompression"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "speicherung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-050b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

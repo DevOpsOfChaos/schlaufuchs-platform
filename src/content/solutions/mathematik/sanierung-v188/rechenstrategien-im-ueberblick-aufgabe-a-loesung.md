@@ -3,22 +3,12 @@ title: "Lösung: Rechenstrategien im Überblick: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-001a."
 subject: "mathematik"
 section: "rechenstrategien-und-kontrolle"
-topicPath:
-  - "rechenstrategien-und-kontrolle"
-  - "ueberblick"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "rechenstrategien-im-ueberblick-aufgabe-a"]
 taskId: "mat-v188-001a"
 relatedExercise: "mathematik/sanierung-v188/rechenstrategien-im-ueberblick-aufgabe-a"
-tags:
-  - "rechnen"
-  - "strategie"
-  - "kontrolle"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "rechenstrategien-und-kontrolle", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-001a`
 
 Eine mögliche Lösung:

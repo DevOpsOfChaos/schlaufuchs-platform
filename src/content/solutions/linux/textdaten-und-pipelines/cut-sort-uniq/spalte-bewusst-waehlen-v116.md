@@ -3,22 +3,12 @@ title: "Lösung: Spalte bewusst wählen"
 description: "Musterlösung zur Aufgabe „Spalte bewusst wählen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "textdaten-und-pipelines"
-  - "cut-sort-uniq"
-  - "spalte-bewusst-waehlen-v116"
+topicPath: ["textdaten-und-pipelines", "cut-sort-uniq", "spalte-bewusst-waehlen-v116"]
 taskId: "spalte-bewusst-waehlen-v116"
 relatedExercise: "linux/textdaten-und-pipelines/cut-sort-uniq/spalte-bewusst-waehlen-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "cut sort uniq"
-  - "spalte bewusst waehlen"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

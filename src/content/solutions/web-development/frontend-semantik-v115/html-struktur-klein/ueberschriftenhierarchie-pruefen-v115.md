@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Überschriftenhierarchie prüfen"
 description: "Musterlösung zu Überschriftenhierarchie prüfen mit Trennkante und Gegenprobe."
-subject: web-development
+subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "frontend-semantik-v115"
-  - "html-struktur-klein"
-  - "ueberschriftenhierarchie-pruefen-v115"
+topicPath: ["frontend-semantik-v115", "html-struktur-klein", "ueberschriftenhierarchie-pruefen-v115"]
 taskId: "web-development-ueberschriftenhierarchie-pruefen-v115"
 relatedExercise: "web-development/frontend-semantik-v115/html-struktur-klein/ueberschriftenhierarchie-pruefen-v115"
-tags:
-  - "web development"
-  - "feinstruktur"
-  - "unterthema"
-  - "frontend-semantik"
-  - "html-struktur klein schneiden"
-  - "lösung"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Überschriftenhierarchie prüfen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

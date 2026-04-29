@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Eingabe, Verarbeitung und Ausgabe – Anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über Eingabe, Verarbeitung und Ausgabe."
-subject: informatik
+subject: "informatik"
 section: "programmablauf-und-steuerung"
-topicPath:
-  - "programmablauf-und-steuerung"
-  - "eingabe-verarbeitung-ausgabe"
-taskId: INF-EINGABE-VERARBEITUNG-AUSGABE-842
-relatedExercise: src/content/exercises/informatik/programmablauf-und-steuerung/eingabe-verarbeitung-ausgabe/eingabe-verarbeitung-ausgabe-anwenden-und-pruefen-v184.md
-tags:
-  - "informatik"
-  - "datenfluss"
-  - "programmablauf"
-  - "loesung"
+topicPath: ["programmablauf-und-steuerung", "eingabe-verarbeitung-ausgabe", "eingabe-verarbeitung-ausgabe-anwenden-und-pruefen-v184"]
+taskId: "INF-EINGABE-VERARBEITUNG-AUSGABE-842"
+relatedExercise: "src/content/exercises/informatik/programmablauf-und-steuerung/eingabe-verarbeitung-ausgabe/eingabe-verarbeitung-ausgabe-anwenden-und-pruefen-v184.md"
+tags: ["informatik", "programmablauf-und-steuerung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

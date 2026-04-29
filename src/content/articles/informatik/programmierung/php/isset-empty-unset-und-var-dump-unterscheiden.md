@@ -1,44 +1,17 @@
 ---
-title: isset, empty, unset und var_dump unterscheiden
-description: Verstehe, wofür isset, empty, unset und var_dump gedacht sind und warum sie nicht dieselbe Frage beantworten.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - isset-empty-unset-und-var-dump-unterscheiden
-learningGoals:
-  - Du unterscheidest Existenz, Leere, Löschen und Diagnose sauber.
-  - Du erklärst, warum isset() und empty() verschiedene Fragen stellen.
-  - Du liest einfache Prüfbedingungen in PHP ruhiger.
-practiceIdeas:
-  - Ordne typische Prüfaufgaben der passenden Funktion zu.
-  - Erkläre, warum var_dump() kein Prüfersatz ist.
-  - Prüfe in einem Formularbeispiel, ob eine Variable fehlt oder nur leer ist.
-commonMistakes:
-  - isset() und empty() als gleichbedeutend zu behandeln.
-  - unset() als reine Leer-Zuweisung zu verstehen.
-  - var_dump() als fertige Benutzer-Ausgabe zu verwenden.
-keyTakeaways:
-  - isset() prüft Existenz, empty() prüft leere Inhalte.
-  - unset() entfernt eine Variable.
-  - var_dump() zeigt Diagnoseinformationen.
-recognizeSignals:
-  - Es geht um Fehlersuche, Formularwerte oder Variablenprüfung.
-  - Im Code stehen isset, empty, unset oder var_dump.
-  - Du sollst die passende Prüffrage finden.
-selfCheckPoints:
-  - Kann ich Existenz und Leere unterscheiden?
-  - Kann ich sagen, wofür unset() gedacht ist?
-  - Kann ich erklären, warum var_dump() eher Diagnose als Programmlogik ist?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - backend
-  - web
-  - grundlagen
+title: "isset, empty, unset und var_dump unterscheiden"
+description: "Verstehe, wofür isset, empty, unset und var_dump gedacht sind und warum sie nicht dieselbe Frage beantworten."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "isset-empty-unset-und-var-dump-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
 ## Grundidee

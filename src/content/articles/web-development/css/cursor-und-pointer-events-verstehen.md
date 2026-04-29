@@ -1,45 +1,19 @@
 ---
-title: Cursor und Pointer-Events verstehen
-description: Verstehe, wie der Mauszeiger Hinweise auf Interaktion gibt und warum pointer-events die Klickbarkeit eines Elements anders beeinflusst als nur sein Aussehen.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - cursor-und-pointer-events-verstehen
-learningGoals:
-  - Du erklärst den Unterschied zwischen cursor und pointer-events.
-  - Du beschreibst, warum ein interaktiv wirkendes Element trotzdem nicht klickbar sein kann.
-  - Du liest UI-Probleme eher über Interaktionslogik als nur über Optik.
-practiceIdeas:
-  - Vergleiche einen Button mit Hand-Cursor und einen Bereich, der bewusst nicht anklickbar ist.
-  - Prüfe in einer kleinen Oberfläche, ob Zeigerhinweis und echte Klickbarkeit zusammenpassen.
-  - Lies überlagerte Flächen eher als Interaktionsproblem statt nur als Designfehler.
-commonMistakes:
-  - cursor pointer mit echter Klickfunktion gleichzusetzen.
-  - pointer-events nur als Spezialfall für SVG zu sehen.
-  - ein Element optisch deaktiviert zu zeigen, ohne seine Interaktion wirklich zu ändern.
-keyTakeaways:
-  - cursor verändert vor allem die Rückmeldung des Mauszeigers.
-  - pointer-events beeinflusst, ob Zeigerereignisse ein Element überhaupt erreichen.
-  - Gute Oberflächen stimmen sichtbare Hinweise und echte Interaktion aufeinander ab.
-recognizeSignals:
-  - Es geht um Buttons, Overlays, Badges, Karten oder klickbare Bereiche.
-  - Du sollst erklären, warum etwas wie ein Link wirkt, aber nicht reagiert.
-  - In Beispielen ist die Interaktionslogik wichtiger als die reine Farbe oder Größe.
-selfCheckPoints:
-  - Kann ich cursor und pointer-events fachlich trennen?
-  - Kann ich erklären, warum ein Hand-Cursor noch keine echte Klickbarkeit beweist?
-  - Kann ich bei einer UI-Situation begründen, welches Problem optisch und welches funktional ist?
-tags:
-  - css
-  - cursor
-  - pointer-events
-  - interaktion
-level: mittel
+title: "Cursor und Pointer-Events verstehen"
+description: "Verstehe, wie der Mauszeiger Hinweise auf Interaktion gibt und warum pointer-events die Klickbarkeit eines Elements anders beeinflusst als nur sein Aussehen."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "cursor-und-pointer-events-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 In Weboberflächen gibt es zwei verschiedene Fragen, die leicht vermischt werden:

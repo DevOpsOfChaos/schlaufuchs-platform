@@ -3,20 +3,12 @@ title: "Lösung – Höhe im Dreieck richtig zuordnen"
 description: "Musterlösung zu Höhe im Dreieck richtig zuordnen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "geometrie"
-  - "dreiecke"
-  - "hoehe-im-dreieck-richtig-zuordnen-v113"
+topicPath: ["geometrie", "dreiecke", "hoehe-im-dreieck-richtig-zuordnen-v113"]
 taskId: "v113-mathematik-hoehe-im-dreieck-richtig-zuordnen-v113"
 relatedExercise: "mathematik/geometrie/dreiecke/hoehe-im-dreieck-richtig-zuordnen-v113"
-tags:
-  - "mathematik"
-  - "strukturcheck"
-  - "unterthema"
-  - "hoehe-im-dreieck-richtig-zuordnen-v113"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Höhe im Dreieck richtig zuordnen**.

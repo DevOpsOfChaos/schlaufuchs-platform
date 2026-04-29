@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Ablauf mit Testwerten nachvollziehbar prüfen
-description: Musterlösung zur Aufgabe INF-ALG-TESTEN-001.
-subject: informatik
-section: Algorithmen
-topicPath:
-  - algorithmen
-  - algorithmen-schrittweise-testen-verstehen
-  - ablauf-mit-testwerten-nachvollziehbar-pruefen-loesung
-taskId: INF-ALG-TESTEN-001
-relatedExercise: src/content/exercises/informatik/algorithmen/algorithmen-schrittweise-testen-verstehen/ablauf-mit-testwerten-nachvollziehbar-pruefen.md
-tags:
-  - informatik
-  - algorithmus
-  - testlauf
-  - loesung
-  - task-id
+title: "Musterlösung – Ablauf mit Testwerten nachvollziehbar prüfen"
+description: "Musterlösung zur Aufgabe INF-ALG-TESTEN-001."
+subject: "informatik"
+section: "Algorithmen"
+topicPath: ["algorithmen", "algorithmen-schrittweise-testen-verstehen", "ablauf-mit-testwerten-nachvollziehbar-pruefen"]
+taskId: "INF-ALG-TESTEN-001"
+relatedExercise: "src/content/exercises/informatik/algorithmen/algorithmen-schrittweise-testen-verstehen/ablauf-mit-testwerten-nachvollziehbar-pruefen.md"
+tags: ["informatik", "Algorithmen", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Testlauf durchführen
 
 - Eingabe 8 → 8 ist nicht größer als 10 → Ausgabe: „klein oder gleich 10“

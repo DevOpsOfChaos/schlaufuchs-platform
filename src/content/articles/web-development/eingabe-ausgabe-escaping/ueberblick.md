@@ -1,30 +1,17 @@
 ---
 title: "Eingabe, Ausgabe und Escaping"
 description: "Allgemeiner Überblick: Sichere Webausgabe trennt Eingaben, Speicherung, Kontext und Escaping."
-subject: web-development
+subject: "web-development"
 section: "Sicherheit"
-topicPath:
-  - "eingabe-ausgabe-escaping"
-learningGoals:
-  - "Du kannst eingabe, ausgabe und escaping als Grundidee einordnen."
-  - "Du erkennst wichtige Bestandteile und typische Grenzen."
-  - "Du kannst das Thema in einfachen Worten erklären."
+topicPath: ["eingabe-ausgabe-escaping", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur ein Detail zu betrachten und den Zusammenhang zu übersehen."
-  - "Das Schaubild als exakte technische Darstellung statt als Orientierung zu lesen."
-keyTakeaways:
-  - "Sichere Webausgabe trennt Eingaben, Speicherung, Kontext und Escaping."
-  - "Ein Überblicksbild hilft, Begriffe und Beziehungen ruhig zu ordnen."
-recognizeSignals:
-  - "Es geht um eingabe, ausgabe und escaping, Grundbegriffe, Zusammenhänge oder typische Fehlerquellen."
-selfCheckPoints:
-  - "Kann ich erklären, welche Rolle eingabe, ausgabe und escaping im größeren Zusammenhang spielt?"
-level: einfach
-tags:
-  - "web-development"
-  - "eingabe ausgabe escaping"
-  - "überblick"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Sicherheit"]
 draft: false
 ---
 # Eingabe, Ausgabe und Escaping

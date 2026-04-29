@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Sicherung nach Fehlerfall wählen"
 description: "Musterlösung zur Aufgabe Sicherung nach Fehlerfall wählen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Stromversorgung und Schutz"
-topicPath:
-  - stromversorgung-und-schutz
-  - sicherungen-und-strombegrenzung
-taskId: ET-V181-003
-relatedExercise: src/content/exercises/elektrotechnik/stromversorgung-und-schutz/sicherungen-und-strombegrenzung/sicherung-nach-fehlerfall-waehlen.md
-tags:
-  - elektrotechnik
-  - sicherungen-und-strombegrenzung
-  - loesung
+topicPath: ["stromversorgung-und-schutz", "sicherungen-und-strombegrenzung", "sicherung-nach-fehlerfall-waehlen"]
+taskId: "ET-V181-003"
+relatedExercise: "src/content/exercises/elektrotechnik/stromversorgung-und-schutz/sicherungen-und-strombegrenzung/sicherung-nach-fehlerfall-waehlen.md"
+tags: ["elektrotechnik", "Stromversorgung und Schutz", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

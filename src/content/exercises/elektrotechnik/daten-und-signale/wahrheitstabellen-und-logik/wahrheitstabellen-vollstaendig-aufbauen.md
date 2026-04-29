@@ -1,30 +1,17 @@
 ---
-title: Wahrheitstabellen vollständig aufbauen
-description: Erfasse alle Eingangskombinationen geordnet und beschreibe den Ausgang einer einfachen logischen Regel.
-subject: elektrotechnik
-section: Daten und Signale
-topicPath:
-  - daten-und-signale
-  - wahrheitstabellen-und-logik
-  - wahrheitstabellen-vollstaendig-aufbauen
-level: einfach
+title: "Wahrheitstabellen vollständig aufbauen"
+description: "Erfasse alle Eingangskombinationen geordnet und beschreibe den Ausgang einer einfachen logischen Regel."
+subject: "elektrotechnik"
+section: "Daten und Signale"
+topicPath: ["daten-und-signale", "wahrheitstabellen-und-logik", "wahrheitstabellen-vollstaendig-aufbauen"]
+taskId: "AUTO-WAHRHEITSTABELLEN-VOLLSTAENDIG-AUFBAUEN"
+tags: ["elektrotechnik", "Daten und Signale", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - logik
-  - wahrheitstabelle
-  - gatter
-hintPoints:
-  - "Schreibe zuerst alle Kombinationen geordnet auf."
-  - "Achte darauf, keinen Fall zu vergessen."
-selfCheckPoints:
-  - "Sind wirklich alle Eingangskombinationen enthalten?"
-  - "Kannst du Eingang und Ausgang klar unterscheiden?"
-transferIdeas:
-  - "Übertrage die Idee auf eine andere logische Regel oder ein anderes Gatter."
-  - "Erkläre die Lösung einmal tabellarisch und einmal in Worten."
-reflectionPrompt: "Was hilft dir mehr: die Tabelle als Ordnung oder die Regel in Worten?"
 ---
-
 ## Aufgabe 1: Kombinationen notieren
 
 Schreibe für zwei Eingänge A und B alle möglichen Kombinationen auf.

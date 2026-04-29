@@ -1,33 +1,19 @@
 ---
 title: "PWM-Treiber"
 description: "PWM-Treiber setzen pulsweitenmodulierte Signale in belastbare Ansteuerung für Lasten um. Sie verbinden digitale Steuerung mit Motoren, LEDs oder Leistungsstufen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik und Mikrocontroller"
-topicPath:
-  - "pwm-treiber"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von PWM-Treiber."
-  - "Du kannst PWM-Treiber in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["pwm-treiber", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "PWM direkt an große Lasten zu legen, ohne Treiber und Schutzpfade zu planen."
-keyTakeaways:
-  - "PWM-Treiber setzen pulsweitenmodulierte Signale in belastbare Ansteuerung für Lasten um."
-  - "Wichtig sind vor allem gate-treiber und laststrom, frequenz, tastverhältnis und verlustleistung und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um PWM-Treiber, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu PWM-Treiber dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "grundlagen"
-  - "pwm treiber"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik und Mikrocontroller"]
 draft: false
 ---
-
 # PWM-Treiber
 
 PWM-Treiber setzen pulsweitenmodulierte Signale in belastbare Ansteuerung für Lasten um. Sie verbinden digitale Steuerung mit Motoren, LEDs oder Leistungsstufen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

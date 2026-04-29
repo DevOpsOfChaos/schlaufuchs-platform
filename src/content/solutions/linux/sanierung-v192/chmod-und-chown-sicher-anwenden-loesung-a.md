@@ -3,26 +3,12 @@ title: "Lösung: chmod und chown sicher anwenden: Aufgabe A"
 description: "Musterlösung zur Aufgabe linux-v192-004a im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "identitaet-und-rechte"
-  - "chmod-und-chown-sicher-anwenden"
-  - "loesung-a"
+topicPath: ["sanierung-v192", "chmod-und-chown-sicher-anwenden-loesung-a"]
 taskId: "linux-v192-004a"
 relatedExercise: "linux/sanierung-v192/chmod-und-chown-sicher-anwenden-aufgabe-a"
-tags:
-  - "identitaet-und-rechte"
-  - "chmod"
-  - "chown"
-  - "sicher"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-004a`
 
 Ausgangsauftrag: Plane eine sichere Rechtekorrektur für ein Projektverzeichnis.

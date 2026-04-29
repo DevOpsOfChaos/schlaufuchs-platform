@@ -1,13 +1,19 @@
 ---
-title: Lineare Gleichungssysteme – Grundlagen
-description: Verstehe, was lineare Gleichungssysteme beschreiben und warum mehrere Bedingungen gemeinsam betrachtet werden.
-subject: mathematik
-section: lineare-gleichungssysteme
-level: mittel
-tags: [lineare gleichungssysteme, algebra, mathematik]
+title: "Lineare Gleichungssysteme – Grundlagen"
+description: "Verstehe, was lineare Gleichungssysteme beschreiben und warum mehrere Bedingungen gemeinsam betrachtet werden."
+subject: "mathematik"
+section: "lineare-gleichungssysteme"
+topicPath: ["lineare-gleichungssysteme-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["lineare gleichungssysteme", "algebra", "mathematik"]
 draft: false
 ---
-
 Lineare Gleichungssysteme gehören zu den wichtigsten Themen der Algebra. Sie beschreiben Situationen, in denen **mehrere Bedingungen gleichzeitig** erfüllt sein müssen.
 
 ## Was ist ein lineares Gleichungssystem?

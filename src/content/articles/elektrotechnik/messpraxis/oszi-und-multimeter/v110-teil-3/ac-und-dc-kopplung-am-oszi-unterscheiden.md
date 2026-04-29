@@ -3,46 +3,17 @@ title: "Elektrotechnik – AC- und DC-Kopplung am Oszi unterscheiden"
 description: "Lerne AC- und DC-Kopplung am Oszi unterscheiden als kleines, klar prüfbares Unterthema mit Abgrenzung, Beispiel und Gegenprobe."
 subject: "elektrotechnik"
 section: "Messpraxis"
-topicPath:
-  - "messpraxis"
-  - "oszi-und-multimeter"
-  - "v110-teil-3"
-  - "ac-und-dc-kopplung-am-oszi-unterscheiden"
-learningGoals:
-  - "Du erklärst AC- und DC-Kopplung am Oszi unterscheiden als eigenes Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Erstelle eine Gegenprobe mit verändertem Wert, Zustand oder Kontext."
-  - "Vergleiche die Seite mit einem Nachbarthema und nenne die Trennkante."
-commonMistakes:
-  - "AC-Kopplung wird als bessere Ansicht ohne Informationsverlust gesehen."
-  - "Das Thema nur einem breiten Kapitel zuordnen."
-  - "Eine Lösung formulieren, die keine konkrete Prüfung enthält."
-keyTakeaways:
-  - "AC- und DC-Kopplung am Oszi unterscheiden wird über Einordnung, Abgrenzung und Gegenprobe stabil."
-  - "Kleine Unterthemen erhöhen Auffindbarkeit und reduzieren Doppelungen."
-  - "Aufgabe und Lösung sollen dieselbe fachliche Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Ein breites Kapitel wäre als Antwort zu ungenau."
-  - "Ein konkreter Prüfschritt kann die Entscheidung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "messpraxis"
-  - "oszi-und-multimeter"
-  - "ac-und-dc-kopplung-am-oszi-unterscheiden"
+topicPath: ["messpraxis", "oszi-und-multimeter", "v110-teil-3", "ac-und-dc-kopplung-am-oszi-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["elektrotechnik", "Messpraxis"]
 draft: false
 ---
-
 ## Grundidee
 
 **AC- und DC-Kopplung am Oszi unterscheiden** ist bewusst als enges Unterthema angelegt. Die Seite beantwortet nicht das ganze Kapitel, sondern die kleine fachliche Entscheidung, die in Aufgaben oft den Unterschied macht.

@@ -1,46 +1,19 @@
 ---
-title: Klassen und Objekte unterscheiden
-description: Verstehe, warum Klassen Bauplaene sind und Objekte deren konkrete Auspraegungen im Programm.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - klassen-und-objekte-unterscheiden
-learningGoals:
-  - Du unterscheidest Klasse und Objekt sauber.
-  - Du erklaerst, warum mehrere Objekte derselben Klasse unterschiedliche Zustaende haben koennen.
-  - Du liest einfache OOP-Beispiele ruhiger, wenn du Bauplan und Instanz trennst.
-practiceIdeas:
-  - Uebertrage die Idee auf Auto, Ampel oder Konto.
-  - Formuliere bei einem Beispiel, was alle Objekte gemeinsam haben und worin sie sich unterscheiden.
-  - Pruefe bei einem Diagramm, was Klassenname und was Objektname ist.
-commonMistakes:
-  - Die Klasse fuer ein einzelnes konkretes Ding zu halten.
-  - Zu uebersehen, dass Objekte derselben Klasse verschiedene Attributwerte haben koennen.
-  - Objektname und Klassenname zu verwechseln.
-keyTakeaways:
-  - Eine Klasse ist ein Bauplan.
-  - Ein Objekt ist eine konkrete Instanz.
-  - Viele Objekte koennen nach derselben Klasse aufgebaut sein.
-recognizeSignals:
-  - Ein Beispiel zeigt mehrere gleichartige Dinge mit aehnlicher Struktur.
-  - Du sollst Bauplan und konkrete Auspraegung unterscheiden.
-  - Es geht um Attribute, Instanzen oder Objektzustaende.
-selfCheckPoints:
-  - Kann ich Klasse und Objekt in einem Satz unterscheiden?
-  - Kann ich mehrere Objekte derselben Klasse nennen?
-  - Kann ich erklaeren, worin ihre Zustaende verschieden sein koennen?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - klasse
-  - objekt
+title: "Klassen und Objekte unterscheiden"
+description: "Verstehe, warum Klassen Bauplaene sind und Objekte deren konkrete Auspraegungen im Programm."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "klassen-und-objekte-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Eine Klasse ist ein abstrakter Bauplan. Ein Objekt ist eine konkrete Auspraegung dieses Bauplans mit realen Attributwerten.

@@ -3,22 +3,12 @@ title: "Lösung: Signalwege dokumentieren: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe dat-v189-054b."
 subject: "daten-und-signale"
 section: "systeme"
-topicPath:
-  - "systeme"
-  - "signalwege-dokumentieren"
-  - "loesung-b"
+topicPath: ["sanierung-v189", "signalwege-dokumentieren-aufgabe-b"]
 taskId: "dat-v189-054b"
 relatedExercise: "daten-und-signale/sanierung-v189/signalwege-dokumentieren-aufgabe-b"
-tags:
-  - "signalweg"
-  - "dokumentation"
-  - "system"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "systeme", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-054b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

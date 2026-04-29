@@ -3,35 +3,15 @@ title: "Bilder, Medien und Alternativtexte: Grundordnung"
 description: "Formuliere für drei unterschiedliche Bilder passende Alternativtexte und erkläre den jeweiligen Zweck."
 subject: "web-development"
 section: "html"
-topicPath: 
-  - "html-und-semantik"
-  - "medien"
-  - "aufgabe-a"
+topicPath: ["sanierung-v187", "bilder-medien-und-alternativtexte-aufgabe-a"]
 taskId: "web-v187-007a"
-tags: 
-  - "bilder"
-  - "medien"
-  - "alt-text"
-  - "barrierefreiheit"
-  - "web-development"
-  - "aufgabe"
-  - "v187"
-hintPoints: 
-  - "Trenne Zweck, Struktur und sichtbare Wirkung."
-  - "Begründe mindestens eine Entscheidung mit dem Nutzerziel."
-  - "Prüfe einen typischen Fehlerfall aus der Erklärseite."
-selfCheckPoints: 
-  - "Die Lösung passt zur Aufgabenstellung."
-  - "Mindestens eine Entscheidung ist begründet."
-  - "Es gibt keine neue Aufgabe ohne passende Lösung."
-transferIdeas: 
-  - "Übertrage die Entscheidung auf eine zweite kleine Seite."
-  - "Formuliere eine kurze Checkliste für spätere Wiederholung."
-reflectionPrompt: "Welche Entscheidung war am wichtigsten, damit die Lösung ruhig und wartbar bleibt?"
+tags: ["web-development", "html", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Formuliere für drei unterschiedliche Bilder passende Alternativtexte und erkläre den jeweiligen Zweck.

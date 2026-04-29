@@ -1,35 +1,19 @@
 ---
 title: "Suche mit find und grep"
 description: "Überblick über find und grep als grundlegende Suchwerkzeuge für Dateien, Pfade und Inhalte."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - "suche-mit-find-und-grep"
-  - "ueberblick"
-learningGoals:
-  - "Du unterscheidest Suche nach Dateien von Suche in Dateiinhalten."
-  - "Du verstehst find und grep als kombinierbare Werkzeuge."
-  - "Du erkennst typische Suchkriterien wie Name, Typ, Zeit und Inhalt."
+topicPath: ["suche-mit-find-und-grep", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "find und grep zu verwechseln."
-  - "Zu breite Suchläufe ohne Verzeichnisgrenze oder Muster zu starten."
-keyTakeaways:
-  - "find sucht Dateisystemeinträge nach Eigenschaften."
-  - "grep sucht Textmuster in Inhalten oder Eingaben."
-recognizeSignals:
-  - "Es geht um Dateisuche, Inhaltssuche, Muster, Logs, rekursive Suche oder Filterung."
-selfCheckPoints:
-  - "Kann ich sagen, ob ich einen Dateinamen oder einen Text innerhalb von Dateien suche?"
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "find"
-  - "grep"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
-
 # Suche mit find und grep
 
 ![Schaubild zu find und grep.](/schlaufuchs-platform/images/overviews/v148/suche-mit-find-und-grep.svg)

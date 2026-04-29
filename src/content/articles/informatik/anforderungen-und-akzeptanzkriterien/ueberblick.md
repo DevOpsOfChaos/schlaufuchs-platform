@@ -3,32 +3,17 @@ title: "Anforderungen und Akzeptanzkriterien"
 description: "Allgemeiner Überblick über anforderungen und akzeptanzkriterien und die wichtigsten Zusammenhänge."
 subject: "informatik"
 section: "Softwareentwicklung"
-topicPath:
-  - "anforderungen-und-akzeptanzkriterien"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["anforderungen-und-akzeptanzkriterien", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Wünsche direkt als Implementierungsdetails formuliert."
-keyTakeaways:
-  - "Anforderungen und Akzeptanzkriterien verbinden Fachverständnis mit prüfbarer Umsetzung."
-  - "Eine Anforderung ist nicht dasselbe wie eine technische Lösung."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "informatik"
-  - "anforderungen"
-  - "softwareentwicklung"
-  - "tests"
+tags: ["informatik", "Softwareentwicklung"]
 draft: false
 ---
-
 # Anforderungen und Akzeptanzkriterien
 
 ![Schaubild zu Anforderungen und Akzeptanzkriterien.](/schlaufuchs-platform/images/overviews/v150/anforderungen-und-akzeptanzkriterien.svg)

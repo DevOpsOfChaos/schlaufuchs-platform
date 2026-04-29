@@ -3,34 +3,15 @@ title: "Übung: Event-Ziel prüfen"
 description: "Übe, „Event-Ziel prüfen“ als kleines Unterthema zu erkennen, zu begründen und mit einer Gegenprobe abzusichern."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "javascript-interaktion"
-  - "events-und-delegation"
-  - "event-ziel-pruefen-v116"
+topicPath: ["javascript-interaktion", "events-und-delegation", "event-ziel-pruefen-v116"]
 taskId: "event-ziel-pruefen-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "events und delegation"
-  - "event ziel pruefen"
-  - "v116"
-hintPoints:
-  - "Lies zuerst nur die konkrete Unterfrage."
-  - "Markiere eine typische Fehlannahme."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Lösung fachlich begründet?"
-  - "Ist die Abgrenzung zum Nachbarthema sichtbar?"
-  - "Passt die Gegenprobe zur Aufgabe?"
-transferIdeas:
-  - "Ändere eine Bedingung und prüfe, ob deine Begründung noch trägt."
-  - "Erkläre die Lösung einmal ohne Fachwörter und danach fachlich sauber."
-reflectionPrompt: "Welche kleine Entscheidung war bei „Event-Ziel prüfen“ am wichtigsten?"
+tags: ["web-development", "Web Development vertiefen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe 1: Unterfrage erkennen
 
 Lies die Situation:

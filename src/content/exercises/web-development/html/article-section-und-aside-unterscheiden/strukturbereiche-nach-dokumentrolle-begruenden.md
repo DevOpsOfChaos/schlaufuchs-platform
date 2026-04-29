@@ -1,34 +1,17 @@
 ---
-title: Strukturbereiche nach Dokumentrolle begründen
-description: Begründe, wann ein Inhalt als article, section oder aside gedacht werden sollte.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - navigation-und-menues
-  - article-section-und-aside-unterscheiden
-  - strukturbereiche-nach-dokumentrolle-begruenden
-taskId: WEB-HTML-CORE-103
-level: mittel
+title: "Strukturbereiche nach Dokumentrolle begründen"
+description: "Begründe, wann ein Inhalt als article, section oder aside gedacht werden sollte."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "article-section-und-aside-unterscheiden", "strukturbereiche-nach-dokumentrolle-begruenden"]
+taskId: "WEB-HTML-CORE-103"
+tags: ["web-development", "HTML", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - html
-  - semantik
-  - article
-  - section
-  - aside
-hintPoints:
-  - Frage zuerst, was Hauptinhalt und was Ergänzung ist.
-  - Prüfe, ob ein Bereich eigenständig oder nur Teil eines größeren Beitrags ist.
-  - Begründe nie nur über die sichtbare Boxform.
-selfCheckPoints:
-  - Kannst du einen ergänzenden Inhalt vom Hauptinhalt trennen?
-  - Kannst du section als Unterbereich statt als beliebigen Container erklären?
-transferIdeas:
-  - Übertrage die Aufgabe auf Blogbeiträge, Lernseiten oder Magazinartikel.
-reflectionPrompt: Warum führt ähnliche Optik auf Seiten oft dazu, dass semantische Rollen verwechselt werden?
 ---
-
 ## Aufgabe 1: Rollen zuordnen
 
 Ordne zu und begründe:

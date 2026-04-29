@@ -1,46 +1,19 @@
 ---
-title: ATmega – sei, cli und globale Interruptfreigabe verstehen
-description: Verstehe, warum Interruptlogik am ATmega nicht nur von einzelnen Quellen abhängt, sondern auch von einer globalen Freigabe des Gesamtsystems.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - interrupts-und-nebenlaeufigkeit
-  - atmega-sei-cli-und-globale-interruptfreigabe-verstehen
-learningGoals:
-  - Du erklärst die Grundidee globaler Interruptfreigabe am ATmega.
-  - Du unterscheidest lokale Interruptquelle und globale Freigabe sauber.
-  - Du beschreibst die Rollen von sei und cli fachlich ruhiger als bloße Befehlswörter.
-practiceIdeas:
-  - Vergleiche eine aktivierte Interruptquelle mit einem global noch gesperrten System.
-  - Lies sei und cli zuerst als Systemzustand und nicht als isolierte Einzelbefehle.
-  - Prüfe bei scheinbar nicht auslösenden Interrupts zuerst lokale und globale Freigabe getrennt.
-commonMistakes:
-  - zu denken, dass das Aktivieren einer Quelle schon automatisch reicht.
-  - globale und lokale Freigabe nicht zu trennen.
-  - cli nur als „irgendwas mit Interrupt aus“ ohne Systemblick zu lesen.
-keyTakeaways:
-  - Eine Interruptquelle kann lokal aktiv sein und trotzdem global noch gesperrt bleiben.
-  - sei und cli steuern die globale Interruptfreigabe.
-  - Gute Diagnose trennt Quelle, Flag, Freigabe und ISR sauber.
-recognizeSignals:
-  - Es geht um Interruptquellen, die scheinbar nicht reagieren.
-  - In Aufgaben soll erklärt werden, warum eine ISR trotz passender Quelle nicht läuft.
-  - Codebeispiele enthalten sei, cli oder lokale Interrupt-Enable-Bits.
-selfCheckPoints:
-  - Kann ich lokale und globale Freigabe sauber unterscheiden?
-  - Kann ich erklären, warum ein Interrupt trotz gesetzter Quelle nicht ausgeführt wird?
-  - Kann ich die Rollen von sei und cli als Systemzustand beschreiben?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - interrupt
-  - sei
-level: mittel
+title: "ATmega – sei, cli und globale Interruptfreigabe verstehen"
+description: "Verstehe, warum Interruptlogik am ATmega nicht nur von einzelnen Quellen abhängt, sondern auch von einer globalen Freigabe des Gesamtsystems."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-sei-cli-und-globale-interruptfreigabe-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 Am ATmega reicht es für Interrupts nicht, nur eine Quelle „einzuschalten“. Didaktisch wichtig ist die doppelte Lesart: **eine Quelle kann lokal freigegeben sein, aber das Gesamtsystem global noch gesperrt bleiben.** Genau hier kommen `sei` und `cli` ins Spiel.
 
 <div class="example-card">

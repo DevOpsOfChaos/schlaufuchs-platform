@@ -1,47 +1,19 @@
 ---
-title: Funktionen und Unterprogramme verstehen
-description: Verstehe, warum Programme in kleinere Funktionen zerlegt werden und wie ein Funktionsaufruf einen klaren Teilauftrag übernimmt.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - funktionen-und-ablauf
-  - funktionen-und-unterprogramme-verstehen
-learningGoals:
-  - Du erklärst, warum größere Programme in Funktionen zerlegt werden.
-  - Du unterscheidest Hauptablauf und Teilaufgabe ruhiger voneinander.
-  - Du liest einen Funktionsaufruf als gezielten Auftrag innerhalb eines Programms.
-practiceIdeas:
-  - Zerlege einen längeren Ablauf bewusst in Hauptteil und Teilaufgaben.
-  - Vergleiche einen kompakten Codeblock mit einer Version, die Funktionen nutzt.
-  - Beschreibe bei einem Beispiel, welche Funktion nur eine Teilrolle übernimmt.
-commonMistakes:
-  - Jede Funktion wie ein eigenes Programm zu behandeln.
-  - Funktionen nur als Schreibweise statt als Strukturhilfe zu sehen.
-  - Hauptablauf und Teilaufgaben im Kopf nicht sauber zu trennen.
-keyTakeaways:
-  - Funktionen machen Programme lesbarer und wartbarer.
-  - Ein Funktionsaufruf delegiert eine klar begrenzte Aufgabe.
-  - Gute Programmstruktur entsteht oft durch sinnvolle Zerlegung.
-recognizeSignals:
-  - Es geht um Funktionen, Unterprogramme, Aufrufe oder strukturierte Abläufe.
-  - Du sollst erklären, warum ein Programm nicht nur aus main bestehen muss.
-  - In Beispielen musst du die Rolle einzelner Funktionsaufrufe benennen.
-selfCheckPoints:
-  - Kann ich erklären, warum Funktionen Programme entlasten?
-  - Kann ich Hauptablauf und Teilaufgabe unterscheiden?
-  - Kann ich einen Funktionsaufruf als Auftrag beschreiben?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - funktionen
-  - struktur
+title: "Funktionen und Unterprogramme verstehen"
+description: "Verstehe, warum Programme in kleinere Funktionen zerlegt werden und wie ein Funktionsaufruf einen klaren Teilauftrag übernimmt."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "funktionen-und-unterprogramme-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Sobald ein Programm mehr als einen sehr kleinen Schritt erledigt, wird eine einzige lange `main`-Funktion schnell unübersichtlich. Funktionen helfen, den Ablauf in kleinere, verständliche Teilaufgaben zu zerlegen.

@@ -1,17 +1,19 @@
 ---
-title: Lineare Gleichungssysteme verstehen
-description: Lineare Gleichungssysteme verbinden mehrere Gleichungen und helfen dabei, mehrere unbekannte Größen gleichzeitig zu bestimmen.
-subject: mathematik
-section: Algebra
-level: mittel
-tags:
-  - Gleichungssysteme
-  - Algebra
-  - Lineare Gleichungen
-  - Variablen
+title: "Lineare Gleichungssysteme verstehen"
+description: "Lineare Gleichungssysteme verbinden mehrere Gleichungen und helfen dabei, mehrere unbekannte Größen gleichzeitig zu bestimmen."
+subject: "mathematik"
+section: "Algebra"
+topicPath: ["algebra", "gleichungssysteme", "lineare-gleichungssysteme-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["mathematik", "Algebra"]
 draft: false
 ---
-
 ## Überblick
 
 Einzelne lineare Gleichungen beschreiben Zusammenhänge mit einer Unbekannten. Viele reale Probleme enthalten aber mehrere unbekannte Größen gleichzeitig. Genau dann kommen lineare Gleichungssysteme ins Spiel. Sie helfen, mehrere Bedingungen zusammen zu betrachten und daraus passende Werte zu bestimmen.

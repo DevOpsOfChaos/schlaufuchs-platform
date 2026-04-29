@@ -3,22 +3,10 @@ title: "Lösung – UART-, I²C- und SPI-Fehler systematisch untersuchen"
 description: "Musterlösung zu „UART-, I²C- und SPI-Fehler systematisch untersuchen“."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "kommunikationsfehler-systematisch-eingrenzen"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "kommunikationsfehler-systematisch-eingrenzen"]
 taskId: "et-mc-v94-kommunikationsfehler"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/kommunikationsfehler-systematisch-eingrenzen"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "atmega"
-  - "uart"
-  - "i2c"
-  - "spi"
-  - "debugging"
-  - "kommunikation"
-  - "fehleranalyse"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

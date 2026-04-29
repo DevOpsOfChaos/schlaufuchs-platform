@@ -1,32 +1,17 @@
 ---
 title: "tcpdump-Grundlagen"
 description: "Überblick über Paketmitschnitte auf der Kommandozeile und ihre Rolle in der Netzwerkdiagnose."
-subject: linux
+subject: "linux"
 section: "Netzwerk"
-topicPath:
-  - "tcpdump-grundlagen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst tcpdump-Grundlagen als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Interface, Filter, Ports."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["tcpdump-grundlagen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Netzwerkfehler nur auf Anwendungsebene zu suchen, ohne den tatsächlichen Verkehr zu prüfen."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "tcpdump-Grundlagen beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Netzwerkverkehr beobachten."
-  - "Wichtige Hinweise liefern vor allem Interface, Filter, Ports."
-recognizeSignals:
-  - "Es geht um netzwerkverkehr beobachten, interface oder filter."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck tcpdump-Grundlagen erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "linux"
-  - "netzwerk"
-  - "diagnose"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Netzwerk"]
 draft: false
 ---
 # tcpdump-Grundlagen

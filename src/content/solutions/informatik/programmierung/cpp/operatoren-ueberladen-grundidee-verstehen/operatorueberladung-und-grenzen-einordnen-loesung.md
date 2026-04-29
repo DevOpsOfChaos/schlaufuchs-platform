@@ -1,26 +1,14 @@
 ---
-title: Musterlösung – Operatorüberladung und Grenzen einordnen
-description: Musterlösung zur Aufgabe INF-PROG-CPP-OPERATOR-001.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - operatoren-und-klassen
-  - operatoren-ueberladen-grundidee-verstehen
-  - operatorueberladung-und-grenzen-einordnen-loesung
-taskId: INF-PROG-CPP-OPERATOR-001
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/operatoren-ueberladen-grundidee-verstehen/operatorueberladung-und-grenzen-einordnen.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - operatoren
-  - loesung
-  - task-id
+title: "Musterlösung – Operatorüberladung und Grenzen einordnen"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-OPERATOR-001."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "operatoren-ueberladen-grundidee-verstehen", "operatorueberladung-und-grenzen-einordnen"]
+taskId: "INF-PROG-CPP-OPERATOR-001"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/operatoren-ueberladen-grundidee-verstehen/operatorueberladung-und-grenzen-einordnen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Einsatz begründen
 
 Bei einem eigenen Vektor- oder Bruchtyp kann ein überladener `+`-Operator sinnvoll sein, weil die Schreibweise `a + b` fachlich gut zur Addition dieser Objekte passt. Dadurch wird der Code oft lesbarer als mit langen Hilfsfunktionsnamen.

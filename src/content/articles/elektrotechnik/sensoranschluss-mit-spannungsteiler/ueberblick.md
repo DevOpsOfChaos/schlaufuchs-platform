@@ -1,35 +1,17 @@
 ---
 title: "Sensoranschluss mit Spannungsteiler"
 description: "Überblick über Spannungsteiler als einfache Sensorschnittstelle und ihre Grenzen bei analogen Messwerten."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Sensorik"
-topicPath:
-  - "sensoranschluss-mit-spannungsteiler"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Sensoranschluss mit Spannungsteiler als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["sensoranschluss-mit-spannungsteiler", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird ein Sensorwert direkt als physikalische Größe interpretiert. Tatsächlich ist der ADC-Wert zuerst nur eine Spannung im gewählten Messaufbau."
-keyTakeaways:
-  - "Ein Spannungsteiler kann Widerstandsänderungen eines Sensors in eine messbare Spannung umsetzen."
-  - "Er ist eine einfache Brücke zwischen passiven Sensoren und einem ADC-Eingang, macht aber Messbereich, Stromverbrauch und Genauigkeit voneinander abhängig."
-  - "Ein Spannungsteiler ist nicht automatisch eine präzise Messschaltung. Für genaue Sensorik können Kalibrierung, Filterung oder Verstärkung nötig sein."
-recognizeSignals:
-  - "Es geht um Sensoranschluss mit Spannungsteiler, wenn der feste Widerstand bestimmt, in welchem Bereich die Spannung besonders empfindlich reagiert."
-  - "Das Thema wird relevant, wenn Beispiele wie ein LDR oder NTC kann mit einem Widerstand einen Spannungsteiler bilden, dessen Ausgang der Mikrocontroller misst."
-selfCheckPoints:
-  - "Kann ich Sensoranschluss mit Spannungsteiler in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "sensor"
-  - "spannungsteiler"
-  - "adc"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Sensorik"]
 draft: false
 ---
 # Sensoranschluss mit Spannungsteiler

@@ -1,20 +1,12 @@
 ---
 title: "Lösung – Animationen mit reduced motion entschärfen"
 description: "Musterlösung zu: Bewerte eine starke Animation und plane eine reduzierte Alternative."
-subject: web-development
+subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "responsive-layouts"
-  - "reduced-motion-und-animationen-zugaenglich-planen"
+topicPath: ["css", "responsive-layouts", "reduced-motion-und-animationen-zugaenglich-planen"]
 taskId: "wd-css-v95-reduced-motion"
 relatedExercise: "web-development/css/responsive-layouts/reduced-motion-und-animationen-zugaenglich-planen"
-tags:
-  - "web development"
-  - "css"
-  - "animation"
-  - "reduced motion"
-  - "accessibility"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

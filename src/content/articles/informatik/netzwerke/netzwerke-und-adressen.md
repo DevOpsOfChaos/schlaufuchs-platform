@@ -1,44 +1,19 @@
 ---
-title: Netzwerke und Adressen
-description: Verstehe, warum Geräte in Netzwerken Adressen brauchen und wie Daten ihren Weg zum richtigen Ziel finden.
-subject: informatik
-section: Netzwerke
-topicPath:
-  - netzwerke
-  - netzwerke-und-adressen
-tags:
-  - netzwerk
-  - adresse
-  - paket
-  - router
-learningGoals:
-  - "Du erklärst, warum Geräte in Netzwerken Adressen brauchen."
-  - "Du unterscheidest grob zwischen Gerät, Verbindung und Zieladresse."
-  - "Du ordnest einfache Netzwerkwege fachlich als Übertragung von Datenpaketen ein."
-practiceIdeas:
-  - "Beschreibe den Weg einer Nachricht vom eigenen Gerät zu einem anderen Gerät im selben Netzwerk."
-  - "Vergleiche Postadresse und Netzwerkadresse als Denkmodell."
-  - "Ordne Router, Endgerät und Adresse in einem kleinen Netzplan ihren Rollen zu."
-commonMistakes:
-  - "Zu denken, dass Daten ohne Adressierung automatisch beim richtigen Gerät ankommen."
-  - "WLAN mit dem gesamten Netzwerk gleichzusetzen."
-  - "Router, Internet und Zielgerät begrifflich zu vermischen."
-keyTakeaways:
-  - "Netzwerke verbinden Geräte zur Datenübertragung."
-  - "Adressen helfen dabei, Daten zum richtigen Ziel zu leiten."
-  - "Daten werden nicht als unstrukturierter Strom, sondern geordnet übertragen."
-recognizeSignals:
-  - "Es geht um Netzwerke, Geräte, Router, Adressen oder Wege von Daten."
-  - "Du sollst erklären, wie Informationen vom Sender zum Empfänger kommen."
-  - "Ein Beispiel zeigt mehrere Geräte und fragt nach Verbindungen oder Zuständigkeiten."
-selfCheckPoints:
-  - "Kann ich erklären, warum ein Netzwerk Adressen braucht?"
-  - "Kann ich Sender, Ziel und vermittelnde Stationen in einem Beispiel unterscheiden?"
-  - "Kann ich den Weg eines Datenpakets grob in eigenen Worten beschreiben?"
-level: einfach
+title: "Netzwerke und Adressen"
+description: "Verstehe, warum Geräte in Netzwerken Adressen brauchen und wie Daten ihren Weg zum richtigen Ziel finden."
+subject: "informatik"
+section: "Netzwerke"
+topicPath: ["netzwerke", "netzwerke-und-adressen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Netzwerke"]
 draft: false
 ---
-
 ## Warum dieses Thema wichtig ist
 
 Sobald mehrere Geräte miteinander kommunizieren sollen, reicht es nicht, einfach nur „verbunden“ zu sein. Es muss auch klar sein, **wohin** Daten gehen sollen. Genau hier kommen Netzwerke und Adressen ins Spiel.

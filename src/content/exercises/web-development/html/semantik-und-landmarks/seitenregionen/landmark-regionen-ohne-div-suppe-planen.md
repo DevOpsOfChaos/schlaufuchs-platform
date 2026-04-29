@@ -3,35 +3,15 @@ title: "Aufgabe – Landmark-Regionen ohne div-Suppe planen"
 description: "Übe HTML-Landmarks mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "semantik-und-landmarks"
-  - "seitenregionen"
-  - "landmark-regionen-ohne-div-suppe-planen"
+topicPath: ["html", "semantik-und-landmarks", "seitenregionen", "landmark-regionen-ohne-div-suppe-planen"]
 taskId: "v107-web-development-landmark-regionen-ohne-div-suppe-planen"
-tags:
-  - "web development"
-  - "html"
-  - "css"
-  - "javascript"
-  - "html-landmarks"
-  - "semantik-und-landmarks"
-hintPoints:
-  - "Grenze das Unterthema zuerst ein."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Formuliere eine kleine Gegenprobe."
-selfCheckPoints:
-  - "Ist das Unterthema klar benannt?"
-  - "Ist die Lösung nicht zu breit formuliert?"
-  - "Ist die Gegenprobe konkret?"
-transferIdeas:
-  - "Ändere einen Randwert und prüfe die Begründung erneut."
-  - "Erkläre die Lösung einmal als Merksatz und einmal am Beispiel."
-reflectionPrompt: "Warum hilft dir das kleine Unterthema „HTML-Landmarks“ mehr als ein breiter Sammelbegriff?"
+tags: ["web-development", "HTML", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite ein kleines Szenario zu **HTML-Landmarks**.

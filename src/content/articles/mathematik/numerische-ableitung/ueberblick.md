@@ -1,35 +1,17 @@
 ---
 title: "Numerische Ableitung"
 description: "Überblick über numerische Ableitung als näherungsweise Bestimmung lokaler Änderungsraten."
-subject: mathematik
+subject: "mathematik"
 section: "Analysis"
-topicPath:
-  - "numerische-ableitung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Numerische Ableitung als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["numerische-ableitung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, die Schrittweite beliebig klein zu wählen. Rundungsfehler und Messrauschen setzen Grenzen."
-keyTakeaways:
-  - "Numerische Ableitung schätzt eine Ableitung aus Funktionswerten, statt eine exakte Formel symbolisch abzuleiten."
-  - "Sie ist nützlich, wenn nur Messdaten, Simulationsergebnisse oder schwer ableitbare Funktionen vorliegen."
-  - "Eine numerische Ableitung ist eine Näherung und muss auf Stabilität geprüft werden."
-recognizeSignals:
-  - "Es geht um Numerische Ableitung, wenn differenzenquotienten nähern lokale Änderungsraten an."
-  - "Das Thema wird relevant, wenn Beispiele wie aus Messwerten einer Position über die Zeit kann eine Geschwindigkeit näherungsweise berechnet werden."
-selfCheckPoints:
-  - "Kann ich Numerische Ableitung in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "analysis"
-  - "ableitung"
-  - "numerik"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Analysis"]
 draft: false
 ---
 # Numerische Ableitung

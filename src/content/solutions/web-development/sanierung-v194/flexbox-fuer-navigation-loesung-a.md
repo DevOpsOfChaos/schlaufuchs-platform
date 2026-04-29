@@ -3,24 +3,12 @@ title: "Lösung: Flexbox für Navigation: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-development-v194-014a im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "responsive-layout"
-  - "flexbox-fuer-navigation"
-  - "loesung-a"
-
+topicPath: ["sanierung-v194", "flexbox-fuer-navigation-loesung-a"]
 taskId: "web-development-v194-014a"
 relatedExercise: "web-development/sanierung-v194/flexbox-fuer-navigation-aufgabe-a"
-tags:
-  - "flexbox"
-  - "navigation"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-014a`
 
 Ausgangsauftrag: Überarbeite eine Navigation mit Flexbox-Regeln.

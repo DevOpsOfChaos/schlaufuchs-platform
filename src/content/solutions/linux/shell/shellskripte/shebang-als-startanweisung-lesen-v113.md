@@ -3,20 +3,12 @@ title: "Lösung – Shebang als Startanweisung lesen"
 description: "Musterlösung zu Shebang als Startanweisung lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "shellskripte"
-  - "shebang-als-startanweisung-lesen-v113"
+topicPath: ["shell", "shellskripte", "shebang-als-startanweisung-lesen-v113"]
 taskId: "v113-linux-shebang-als-startanweisung-lesen-v113"
 relatedExercise: "linux/shell/shellskripte/shebang-als-startanweisung-lesen-v113"
-tags:
-  - "linux"
-  - "strukturcheck"
-  - "unterthema"
-  - "shebang-als-startanweisung-lesen-v113"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Shebang als Startanweisung lesen**.

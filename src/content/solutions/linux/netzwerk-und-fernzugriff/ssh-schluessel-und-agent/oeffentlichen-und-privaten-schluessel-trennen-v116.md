@@ -3,22 +3,12 @@ title: "Lösung: öffentlichen und privaten Schlüssel trennen"
 description: "Musterlösung zur Aufgabe „öffentlichen und privaten Schlüssel trennen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "netzwerk-und-fernzugriff"
-  - "ssh-schluessel-und-agent"
-  - "oeffentlichen-und-privaten-schluessel-trennen-v116"
+topicPath: ["netzwerk-und-fernzugriff", "ssh-schluessel-und-agent", "oeffentlichen-und-privaten-schluessel-trennen-v116"]
 taskId: "oeffentlichen-und-privaten-schluessel-trennen-v116"
 relatedExercise: "linux/netzwerk-und-fernzugriff/ssh-schluessel-und-agent/oeffentlichen-und-privaten-schluessel-trennen-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "ssh schluessel und agent"
-  - "oeffentlichen und privaten schluessel trennen"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

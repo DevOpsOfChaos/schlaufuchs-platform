@@ -1,28 +1,17 @@
 ---
 title: "Offset und Steigung in Sensordaten trennen"
 description: "Unterscheide zwei typische Abweichungen in einer Sensorzuordnung."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Daten und Signale"
-topicPath:
-  - daten-und-signale
-  - kalibrierung-und-sensorlinearitaet
-taskId: ET-V182-019
-tags:
-  - elektrotechnik
-  - kalibrierung-und-sensorlinearitaet
-  - sanierung-v182
-hintPoints:
-  - "Lies zuerst den Normalzustand und danach den Fehlerfall."
-  - "Trenne Beobachtung, Vermutung und Gegenprobe."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["daten-und-signale", "kalibrierung-und-sensorlinearitaet", "offset-und-steigung-in-sensordaten-trennen"]
+taskId: "ET-V182-019"
+tags: ["elektrotechnik", "Daten und Signale", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **Kalibrierung und Sensorlinearität** ruhig und schrittweise.

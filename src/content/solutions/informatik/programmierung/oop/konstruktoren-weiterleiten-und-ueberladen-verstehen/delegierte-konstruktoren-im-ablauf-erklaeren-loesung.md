@@ -1,21 +1,14 @@
 ---
-title: Loesung – Delegierte Konstruktoren im Ablauf erklaeren
-description: Musterloesung zur Aufgabe ueber ueberladene und delegierte Konstruktoren.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - konstruktoren-weiterleiten-und-ueberladen-verstehen
-taskId: INF-PROG-OOP-008
-relatedExercise: informatik/programmierung/oop/konstruktoren-weiterleiten-und-ueberladen-verstehen/delegierte-konstruktoren-im-ablauf-erklaeren
-tags:
-  - informatik
-  - oop
-  - loesung
+title: "Loesung – Delegierte Konstruktoren im Ablauf erklaeren"
+description: "Musterloesung zur Aufgabe ueber ueberladene und delegierte Konstruktoren."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "konstruktoren-weiterleiten-und-ueberladen-verstehen", "delegierte-konstruktoren-im-ablauf-erklaeren"]
+taskId: "INF-PROG-OOP-008"
+relatedExercise: "informatik/programmierung/oop/konstruktoren-weiterleiten-und-ueberladen-verstehen/delegierte-konstruktoren-im-ablauf-erklaeren"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterloesung
 
 ### Aufgabe 1

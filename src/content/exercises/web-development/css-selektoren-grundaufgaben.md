@@ -1,12 +1,17 @@
 ---
-title: CSS-Selektoren – Grundaufgaben
-description: Übe das fachliche Verstehen von Auswahlregeln zwischen HTML und CSS.
-subject: web-development
-section: css-selektoren
-level: einfach
+title: "CSS-Selektoren – Grundaufgaben"
+description: "Übe das fachliche Verstehen von Auswahlregeln zwischen HTML und CSS."
+subject: "web-development"
+section: "css-selektoren"
+topicPath: ["css-selektoren-grundaufgaben"]
+taskId: "AUTO-CSS-SELEKTOREN-GRUNDAUFGABEN"
+tags: ["web-development", "css-selektoren", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe hält die Grundidee von CSS-Selektoren bewusst einfach: Du sollst verstehen, **wie Gestaltung gezielt an HTML-Strukturen gebunden wird**.
 
 ## Lernziel

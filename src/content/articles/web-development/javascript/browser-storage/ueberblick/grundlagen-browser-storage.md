@@ -1,39 +1,19 @@
 ---
 title: "Grundlagen: Browser Storage"
 description: "Ein allgemeiner Überblick darüber, wie Webseiten Daten im Browser speichern und welche Grenzen dabei gelten."
-subject: web-development
+subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - javascript
-  - browser-storage
-  - ueberblick
-learningGoals:
-  - "Du erklärst, warum Webseiten Daten im Browser speichern."
-  - "Du unterscheidest kurzlebige Zustände von dauerhaftem Browser-Speicher."
-  - "Du erkennst Datenschutz und Lebensdauer als zentrale Fragen."
-practiceIdeas:
-  - "Ordne Beispiele wie Theme-Auswahl, Warenkorb und Login-Zustand ein."
-  - "Prüfe, ob Daten wirklich dauerhaft gespeichert werden müssen."
-commonMistakes:
-  - "Browser Storage als sichere Datenbank zu behandeln."
-  - "Sensible Daten unkritisch lokal zu speichern."
-keyTakeaways:
-  - "Browser Storage kann Nutzung komfortabler machen."
-  - "Lokale Speicherung hat klare Sicherheits- und Datenschutzgrenzen."
-recognizeSignals:
-  - "Eine Webseite merkt sich Einstellungen oder Formzustände."
-  - "Es geht um localStorage, sessionStorage, Cookies oder Cache."
-selfCheckPoints:
-  - "Kann ich erklären, warum Browser Storage nützlich ist?"
-  - "Kann ich sensible Daten von unkritischen Einstellungen unterscheiden?"
-tags:
-  - web-development
-  - javascript
-  - browser
-level: mittel
+topicPath: ["javascript", "browser-storage", "ueberblick", "grundlagen-browser-storage"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Begriff
 
 **Browser Storage** ist ein Sammelbegriff für Möglichkeiten, Daten im Browser der Nutzerin oder des Nutzers zu speichern. Dazu gehören unter anderem `localStorage`, `sessionStorage`, Cookies und weitere browsernahe Speicherformen.

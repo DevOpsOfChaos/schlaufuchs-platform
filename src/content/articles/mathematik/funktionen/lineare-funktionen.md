@@ -1,45 +1,19 @@
 ---
-title: Lineare Funktionen
-description: Lerne lineare Funktionen als Zusammenhang zwischen Änderung, Steigung und Startwert zu lesen.
-subject: mathematik
-section: Funktionen
-topicPath:
-- funktionen
-- lineare-funktionen
-learningGoals:
-- Du erkennst lineare Funktionen an ihrer Form.
-- Du liest Steigung und y-Achsenabschnitt sicher ab.
-- Du verbindest Formel, Tabelle, Text und Graph.
-practiceIdeas:
-- Vergleiche mehrere lineare Funktionen über Steigung und Startwert.
-- Lies aus einer Wertetabelle eine passende Funktionsgleichung ab.
-- Beschreibe in Worten, was eine positive oder negative Steigung bedeutet.
-commonMistakes:
-- Steigung und Startwert zu verwechseln.
-- Nur auf die Formel zu schauen und Tabelle oder Graph zu ignorieren.
-- Änderungen nicht pro Schritt, sondern absolut zu lesen.
-keyTakeaways:
-- Lineare Funktionen haben die Form y = mx + b.
-- m beschreibt die Steigung, b den Startwert.
-- Tabelle, Text, Graph und Formel meinen denselben Zusammenhang.
-level: einfach
-tags:
-- lineare funktionen
-- steigung
-- graph
-- mathematik
+title: "Lineare Funktionen"
+description: "Lerne lineare Funktionen als Zusammenhang zwischen Änderung, Steigung und Startwert zu lesen."
+subject: "mathematik"
+section: "Funktionen"
+topicPath: ["funktionen", "lineare-funktionen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Funktionen"]
 draft: false
-recognizeSignals:
-- Die Aufgabe oder Erklärung nennt Lineare Funktionen direkt oder greift eng benachbarte Begriffe aus Funktionen auf.
-- Du sollst nicht nur einen Begriff nennen, sondern einen Zusammenhang, Ablauf oder eine Struktur sauber erklären.
-- In Beispielen musst du Werte, Schritte oder Bauteile geordnet lesen und richtig einordnen.
-selfCheckPoints:
-- Kann ich erkennst lineare Funktionen an ihrer Form?
-- Kann ich liest Steigung und y-Achsenabschnitt sicher ab?
-- Kann ich verbindest Formel, Tabelle, Text und Graph?
 ---
-
-
 ## Die Grundform
 
 Eine lineare Funktion wird oft so geschrieben:

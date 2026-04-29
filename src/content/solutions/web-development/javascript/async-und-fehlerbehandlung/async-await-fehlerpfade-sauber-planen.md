@@ -3,23 +3,12 @@ title: "Lösung – async/await-Fehlerpfade sauber planen"
 description: "Musterlösung zur Aufgabe über Asynchronität mit Begründung und Gegenprobe."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "async-und-fehlerbehandlung"
-  - "async-await-fehlerpfade-sauber-planen"
+topicPath: ["javascript", "async-und-fehlerbehandlung", "async-await-fehlerpfade-sauber-planen"]
 taskId: "v106-web-development-async-await-fehlerpfade-sauber-planen"
 relatedExercise: "web-development/javascript/async-und-fehlerbehandlung/async-await-fehlerpfade-sauber-planen"
-tags:
-  - "web development"
-  - "html"
-  - "css"
-  - "javascript"
-  - "ux"
-  - "asynchronität"
-  - "async-und-fehlerbehandlung"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Beobachtung

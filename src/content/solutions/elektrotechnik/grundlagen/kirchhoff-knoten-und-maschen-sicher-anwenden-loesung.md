@@ -1,21 +1,14 @@
 ---
 title: "Lösung: Kirchhoff: Knoten und Maschen sicher anwenden"
 description: "Lösung zur Aufgabe über das Anwenden der Kirchhoffschen Regeln."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Grundlagen"
-topicPath:
-  - "grundlagen"
-  - "kirchhoff-knoten-und-maschen-sicher-anwenden"
+topicPath: ["grundlagen", "kirchhoff-knoten-und-maschen-sicher-anwenden"]
 taskId: "ET-GR-KIRCHHOFF-001"
 relatedExercise: "src/content/exercises/elektrotechnik/grundlagen/kirchhoff-knoten-und-maschen-sicher-anwenden.md"
-tags:
-  - "elektrotechnik"
-  - "kirchhoff"
-  - "knotenregel"
-  - "maschenregel"
+tags: ["elektrotechnik", "Grundlagen", "loesung"]
 draft: false
 ---
-
 ## Lösungsgedanke
 
 Diese Lösung ist bewusst als Musterlösung aufgebaut. Sie zeigt nicht nur ein Ergebnis, sondern die fachliche Begründung, damit die Aufgabe später nachvollziehbar kontrolliert werden kann.

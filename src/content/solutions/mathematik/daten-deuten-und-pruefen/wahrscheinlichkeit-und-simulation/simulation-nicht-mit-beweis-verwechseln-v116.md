@@ -3,22 +3,12 @@ title: "Lösung: Simulation nicht mit Beweis verwechseln"
 description: "Musterlösung zur Aufgabe „Simulation nicht mit Beweis verwechseln“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "daten-deuten-und-pruefen"
-  - "wahrscheinlichkeit-und-simulation"
-  - "simulation-nicht-mit-beweis-verwechseln-v116"
+topicPath: ["daten-deuten-und-pruefen", "wahrscheinlichkeit-und-simulation", "simulation-nicht-mit-beweis-verwechseln-v116"]
 taskId: "simulation-nicht-mit-beweis-verwechseln-v116"
 relatedExercise: "mathematik/daten-deuten-und-pruefen/wahrscheinlichkeit-und-simulation/simulation-nicht-mit-beweis-verwechseln-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "wahrscheinlichkeit und simulation"
-  - "simulation nicht mit beweis verwechseln"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

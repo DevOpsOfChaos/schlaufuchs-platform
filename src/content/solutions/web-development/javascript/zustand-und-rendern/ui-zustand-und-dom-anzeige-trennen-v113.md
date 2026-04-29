@@ -3,20 +3,12 @@ title: "Lösung – UI-Zustand und DOM-Anzeige trennen"
 description: "Musterlösung zu UI-Zustand und DOM-Anzeige trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "javascript"
-  - "zustand-und-rendern"
-  - "ui-zustand-und-dom-anzeige-trennen-v113"
+topicPath: ["javascript", "zustand-und-rendern", "ui-zustand-und-dom-anzeige-trennen-v113"]
 taskId: "v113-web-development-ui-zustand-und-dom-anzeige-trennen-v113"
 relatedExercise: "web-development/javascript/zustand-und-rendern/ui-zustand-und-dom-anzeige-trennen-v113"
-tags:
-  - "web development"
-  - "strukturcheck"
-  - "unterthema"
-  - "ui-zustand-und-dom-anzeige-trennen-v113"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **UI-Zustand und DOM-Anzeige trennen**.

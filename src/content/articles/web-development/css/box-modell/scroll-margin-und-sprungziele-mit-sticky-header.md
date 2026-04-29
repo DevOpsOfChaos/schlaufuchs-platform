@@ -3,44 +3,17 @@ title: "CSS – scroll-margin und Sprungziele mit Sticky Header planen"
 description: "Verstehe, warum Ankerziele bei festen Kopfbereichen zusätzlichen Scrollabstand brauchen."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "box-modell"
-  - "scroll-margin-und-sprungziele-mit-sticky-header"
-learningGoals:
-  - "Du erkennst verdeckte Sprungziele als Layout- und UX-Problem."
-  - "Du nutzt scroll-margin-top für Abschnittsziele."
-  - "Du prüfst interne Links mit Tastatur und direkter URL."
-practiceIdeas:
-  - "Prüfe eine vorhandene Seite mit genau dieser Fragestellung."
-  - "Formuliere eine kleine Vorher-nachher-Verbesserung."
-  - "Teste die Entscheidung mit Tastatur, kleiner Breite und längeren Texten."
-commonMistakes:
-  - "Nur den Link zu testen, aber nicht die Zielposition."
-  - "Sticky Header über Inhalte zu legen, ohne Sprungziele anzupassen."
-  - "scroll-margin mit normalem margin zu verwechseln."
-keyTakeaways:
-  - "Bedeutung, Technik und Nutzungssituation müssen zusammenpassen."
-  - "Eine optisch passende Lösung ist noch nicht automatisch strukturell gut."
-  - "Kleine Prüfregeln helfen, Weboberflächen verlässlich zu verbessern."
-recognizeSignals:
-  - "Du siehst eine Stelle, die optisch funktioniert, aber fachlich unklar bleibt."
-  - "Im Review taucht die Frage auf, ob HTML-Struktur oder CSS-Verhalten wirklich passt."
-  - "Eine Komponente soll robuster, zugänglicher oder wartbarer werden."
-selfCheckPoints:
-  - "Kann ich die fachliche Bedeutung der Stelle benennen?"
-  - "Kann ich die technische Entscheidung begründen?"
-  - "Kann ich eine typische Fehlinterpretation vermeiden?"
-tags:
-  - "web development"
-  - "css"
-  - "scroll-margin"
-  - "sticky"
-  - "anker"
+topicPath: ["css", "box-modell", "scroll-margin-und-sprungziele-mit-sticky-header"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Diese Seite hilft dir, **scroll-margin und Sprungziele mit Sticky Header planen** nicht als isolierte Technik zu lernen. Entscheidend ist, welche Bedeutung auf der Seite entsteht und ob diese Bedeutung für Nutzerinnen und Nutzer zuverlässig erkennbar bleibt.

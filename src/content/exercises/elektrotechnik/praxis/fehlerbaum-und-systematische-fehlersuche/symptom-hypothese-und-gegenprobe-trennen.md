@@ -1,28 +1,17 @@
 ---
 title: "Symptom, Hypothese und Gegenprobe trennen"
 description: "Ordne eine Fehlerbeschreibung in Beobachtung, Vermutung und überprüfbaren Test."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - praxis
-  - fehlerbaum-und-systematische-fehlersuche
-taskId: ET-V182-001
-tags:
-  - elektrotechnik
-  - fehlerbaum-und-systematische-fehlersuche
-  - sanierung-v182
-hintPoints:
-  - "Lies zuerst den Normalzustand und danach den Fehlerfall."
-  - "Trenne Beobachtung, Vermutung und Gegenprobe."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["praxis", "fehlerbaum-und-systematische-fehlersuche", "symptom-hypothese-und-gegenprobe-trennen"]
+taskId: "ET-V182-001"
+tags: ["elektrotechnik", "Praxis", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **Fehlerbaum und systematische Fehlersuche** ruhig und schrittweise.

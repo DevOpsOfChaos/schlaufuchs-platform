@@ -1,44 +1,19 @@
 ---
-title: Entkopplungskondensator am Mikrocontroller erklären
-description: Verstehe, warum ein Mikrocontroller nahe an der Versorgung kleine Stützkondensatoren braucht und warum sie kein bloßes Zubehör sind.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - entkopplungskondensator-am-mikrocontroller-erklaeren
-learningGoals:
-  - Du erklärst die Aufgabe eines Entkopplungskondensators nahe am Mikrocontroller.
-  - Du trennst Versorgungsglättung im Groben von lokaler Störreserve direkt am IC.
-  - Du liest Reset- oder Fehlverhalten eher als Versorgungsproblem statt nur als Softwarefehler.
-practiceIdeas:
-  - Vergleiche eine Mikrocontroller-Schaltung mit und ohne lokalen 100-nF-Kondensator am IC.
-  - Ordne Versorgungspfad, Lastsprünge und lokale Ladungsreserve in einem einfachen Denkbild.
-  - Begründe, warum kurze Leitungen zwischen IC und Kondensator wichtig sind.
-commonMistakes:
-  - Den Kondensator als optionale Deko der Schaltung zu behandeln.
-  - Nur auf die Nennspannung zu schauen, aber nicht auf die räumliche Nähe zum IC.
-  - Unruhiges Verhalten sofort der Software zuzuschreiben.
-keyTakeaways:
-  - Ein Entkopplungskondensator liefert lokal sehr schnell kleine Stromspitzen nach.
-  - Seine Wirkung hängt stark von der Nähe zum Mikrocontroller ab.
-  - Viele scheinbar zufällige Mikrocontroller-Fehler haben eine Versorgungsursache.
-recognizeSignals:
-  - Es geht um Reset-Probleme, Störungen, Versorgung oder „läuft nur manchmal“.
-  - Ein Mikrocontroller schaltet Lasten oder ändert schnell interne Zustände.
-  - In einer Schaltung fehlt direkt am IC ein kleiner Keramikkondensator.
-selfCheckPoints:
-  - Kann ich die technische Hauptfrage dieser Schaltung ruhig benennen?
-  - Kann ich Ursache, Wirkung und Schutz- oder Hilfsmaßnahme sauber trennen?
-  - Kann ich das Thema auf einen ähnlichen Mikrocontroller-Fall übertragen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - embedded
-level: mittel
+title: "Entkopplungskondensator am Mikrocontroller erklären"
+description: "Verstehe, warum ein Mikrocontroller nahe an der Versorgung kleine Stützkondensatoren braucht und warum sie kein bloßes Zubehör sind."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "entkopplungskondensator-am-mikrocontroller-erklaeren"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Mikrocontroller braucht nicht nur „irgendwie 5 Volt oder 3,3 Volt“, sondern eine **ruhige Versorgung direkt am IC**. Genau dafür sitzt oft ein kleiner Keramikkondensator sehr nah zwischen Versorgung und Masse. Er ist keine Deko, sondern eine lokale Stütz- und Entkopplungsreserve.

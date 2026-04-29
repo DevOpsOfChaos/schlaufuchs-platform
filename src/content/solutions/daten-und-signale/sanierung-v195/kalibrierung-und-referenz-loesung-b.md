@@ -3,24 +3,12 @@ title: "Lösung: Kalibrierung und Referenz: Aufgabe B"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-025b im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "messung-und-diagnose"
-  - "kalibrierung-und-referenz"
-  - "loesung-b"
-
+topicPath: ["sanierung-v195", "kalibrierung-und-referenz-loesung-b"]
 taskId: "daten-und-signale-v195-025b"
 relatedExercise: "daten-und-signale/sanierung-v195/kalibrierung-und-referenz-aufgabe-b"
-tags:
-  - "kalibrierung"
-  - "referenz"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-025b`
 
 Ausgangsauftrag: Übertrage das Thema Kalibrierung und Referenz auf ein zweites Beispiel und formuliere eine kurze Prüfung.

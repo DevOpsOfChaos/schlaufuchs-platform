@@ -1,17 +1,19 @@
 ---
-title: Messgeräte und Messgrößen verstehen
-description: Messgeräte helfen dabei, elektrische Größen gezielt zu erfassen, und sind zentral für das praktische Arbeiten in der Elektrotechnik.
-subject: elektrotechnik
-section: Grundlagen
-level: mittel
-tags:
-  - Messgeräte
-  - Messgrößen
-  - Spannung
-  - Strom
+title: "Messgeräte und Messgrößen verstehen"
+description: "Messgeräte helfen dabei, elektrische Größen gezielt zu erfassen, und sind zentral für das praktische Arbeiten in der Elektrotechnik."
+subject: "elektrotechnik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "messgeraete-und-messgroessen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 In der Elektrotechnik reicht es nicht, Größen nur theoretisch zu berechnen. Viele Situationen verlangen, dass Spannung, Strom, Widerstand oder andere Werte praktisch gemessen werden. Dafür braucht man geeignete Messgeräte und ein klares Verständnis dafür, welche Messgröße überhaupt erfasst werden soll.

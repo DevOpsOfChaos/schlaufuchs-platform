@@ -1,31 +1,17 @@
 ---
-title: Eine Sonderkachel im Layout sauber ausrichten
-description: Begründe, wann align-self und justify-self sinnvoller sind als globale Container-Regeln oder improvisierte Margin-Lösungen.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - align-self-und-justify-self-verstehen
-  - eine-sonderkachel-im-layout-sauber-ausrichten
-taskId: WEB-CSS-LAYOUT-205
-level: mittel
+title: "Eine Sonderkachel im Layout sauber ausrichten"
+description: "Begründe, wann align-self und justify-self sinnvoller sind als globale Container-Regeln oder improvisierte Margin-Lösungen."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "align-self-und-justify-self-verstehen", "eine-sonderkachel-im-layout-sauber-ausrichten"]
+taskId: "WEB-CSS-LAYOUT-205"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - css
-  - alignment
-  - grid
-hintPoints:
-  - Frage zuerst, ob alle Elemente oder nur eine Ausnahme gemeint ist.
-  - Achte darauf, innerhalb welches Felds das Element ausgerichtet werden soll.
-selfCheckPoints:
-  - Kannst du Einzel-Ausrichtung und Container-Ausrichtung unterscheiden?
-  - Kannst du begründen, warum ein Margin-Hack hier unnötig wäre?
-transferIdeas:
-  - Übertrage die Logik auf Buttons, Teaser-Karten oder Dashboard-Elemente.
-reflectionPrompt: "Woran erkennst du, dass ein Problem eigentlich keine Verschiebung, sondern eine Ausrichtungsfrage ist?"
 ---
-
 Gegeben sind diese drei CSS-Ausschnitte:
 
 ```css

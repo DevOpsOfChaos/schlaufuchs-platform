@@ -3,23 +3,12 @@ title: "Lösung – Definitionsmenge vor dem Lösen festlegen"
 description: "Musterlösung zu Definitionsmenge vor dem Lösen festlegen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Algebra"
-topicPath:
-  - "gleichungen-und-modelle"
-  - "bedingungen-und-loesungsmenge"
-  - "v110-teil-1"
-  - "definitionsmenge-vor-dem-loesen-festlegen"
+topicPath: ["gleichungen-und-modelle", "bedingungen-und-loesungsmenge", "v110-teil-1", "definitionsmenge-vor-dem-loesen-festlegen"]
 taskId: "v110-mathematik-definitionsmenge-vor-dem-loesen-festlegen"
 relatedExercise: "mathematik/gleichungen-und-modelle/bedingungen-und-loesungsmenge/v110-teil-1/definitionsmenge-vor-dem-loesen-festlegen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfung"
-  - "gleichungen-und-modelle"
-  - "bedingungen-und-loesungsmenge"
-  - "definitionsmenge-vor-dem-loesen-festlegen"
+tags: ["mathematik", "Algebra", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Definitionsmenge vor dem Lösen festlegen**.

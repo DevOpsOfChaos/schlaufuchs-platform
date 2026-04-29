@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Fehlerbehandlung in Skripten"
 description: "Ordne Prüfungen, Abbruchbedingungen und Fehlermeldungen in Shellskripten ein."
-subject: linux
+subject: "linux"
 section: "automatisierung-und-skripte"
-topicPath:
-  - "automatisierung-und-skripte"
-  - "fehlerbehandlung-in-skripten"
-learningGoals:
-  - "Du erklärst Fehlerbehandlung in Skripten in eigenen Worten."
-  - "Du ordnest typische Befehle, Begriffe oder Prüfschritte richtig ein."
-  - "Du erkennst typische Grenzen und Fehlerquellen im Linux-Alltag."
-practiceIdeas:
-  - "Beschreibe eine kleine Alltagssituation zu diesem Thema."
-  - "Markiere, welche Information zuerst geprüft werden muss."
-commonMistakes:
-  - "Ein einzelnes Kommando für das ganze Thema zu halten."
-  - "Ausgabe, Zustand und Ursache zu vermischen."
-  - "Ohne Kontext direkt an Sonderfälle zu springen."
-keyTakeaways:
-  - "Skripte sollten erwartete Fehlerfälle bewusst prüfen."
-  - "Klare Meldungen helfen bei Diagnose und Betrieb."
-  - "Fehlerbehandlung entscheidet, ob ein Skript weitermacht oder sauber abbricht."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung statt nur eines Befehlsrezepts."
-  - "Mehrere ähnliche Befehle oder Dateien wirken unklar."
-selfCheckPoints:
-  - "Kann ich Zweck, Kontext und typischen Prüfschritt unterscheiden?"
-  - "Kann ich eine einfache Fehlannahme zum Thema benennen?"
-level: fortgeschritten
-tags:
-  - "linux"
-  - "skripte"
-  - "fehlerbehandlung"
+topicPath: ["automatisierung-und-skripte", "fehlerbehandlung-in-skripten", "ueberblick", "grundlagen-fehlerbehandlung-in-skripten-v186"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
+tags: ["linux", "automatisierung-und-skripte"]
 draft: false
 ---
-
 ![Fehlerbehandlung in Skripten](/schlaufuchs-platform/images/overviews/v186/fehlerbehandlung-in-skripten.svg)
 
 ## Begriff

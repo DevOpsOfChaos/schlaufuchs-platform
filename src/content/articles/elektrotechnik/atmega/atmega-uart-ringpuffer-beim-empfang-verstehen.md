@@ -1,46 +1,19 @@
 ---
-title: ATmega – UART-Ringpuffer beim Empfang verstehen
-description: Verstehe, warum empfangene UART-Zeichen am AVR oft nicht sofort vollständig verarbeitet, sondern zunächst in einem Ringpuffer gesammelt werden.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - uart-und-serielle-schnittstellen
-  - atmega-uart-ringpuffer-beim-empfang-verstehen
-learningGoals:
-  - Du erklärst die Grundidee eines Ringpuffers beim UART-Empfang.
-  - Du unterscheidest Zeichenankunft, Zwischenspeicherung und spätere Auswertung sauber.
-  - Du liest Ringpuffer eher als Struktur für Reaktivität als als bloße Index-Tricks.
-practiceIdeas:
-  - Verfolge mehrere nacheinander eintreffende Zeichen gedanklich in einen Puffer.
-  - Prüfe, warum sofortiges Verarbeiten in der ISR oft unruhiger ist als Zwischenspeichern.
-  - Erkläre Kopf- und Ende-Index zuerst als Rollen und erst danach als Variablen.
-commonMistakes:
-  - Zu denken, jedes empfangene Zeichen müsse vollständig in der ISR verarbeitet werden.
-  - Ringpuffer nur als komplizierte Speicherübung statt als Reaktivitätswerkzeug zu sehen.
-  - Kopf und Ende zu vertauschen oder den Puffer nur als lineare Liste zu lesen.
-keyTakeaways:
-  - Ein Ringpuffer sammelt eingehende UART-Zeichen zwischen.
-  - Die ISR kann dadurch kurz bleiben und nur den Empfang sichern.
-  - Die eigentliche Auswertung kann später ruhiger in der Hauptschleife erfolgen.
-recognizeSignals:
-  - Es geht um mehrere schnelle UART-Zeichen, Empfangs-ISR oder Zeichen, die sonst verloren gehen könnten.
-  - Du sollst erklären, warum Zwischenspeicherung die Hauptlogik entlastet.
-  - In Aufgaben sind Rollen wie Puffer, Schreibposition und Leseposition wichtiger als die konkrete Zahl.
-selfCheckPoints:
-  - Kann ich erklären, warum ein Ringpuffer am UART nützlich ist?
-  - Kann ich Kopf und Ende als unterschiedliche Rollen benennen?
-  - Kann ich beschreiben, warum die ISR dadurch kürzer bleiben kann?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - uart
-  - puffer
-level: fortgeschritten
+title: "ATmega – UART-Ringpuffer beim Empfang verstehen"
+description: "Verstehe, warum empfangene UART-Zeichen am AVR oft nicht sofort vollständig verarbeitet, sondern zunächst in einem Ringpuffer gesammelt werden."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-uart-ringpuffer-beim-empfang-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein UART-Zeichen kommt oft zu einem Zeitpunkt an, an dem die Hauptschleife gerade etwas anderes tut. Würde man jedes Zeichen sofort vollständig verarbeiten, würde die Struktur leicht unruhig. Genau deshalb ist ein **Ringpuffer** ein typisches AVR-Denkmodell:

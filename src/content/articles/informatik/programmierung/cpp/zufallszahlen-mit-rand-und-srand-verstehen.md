@@ -1,48 +1,19 @@
 ---
-title: Zufallszahlen mit rand und srand verstehen
-description: Verstehe, wie einfache Zufallszahlen in C++ erzeugt werden und warum srand für den Startwert wichtig ist.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - cmath
-  - zufallszahlen-mit-rand-und-srand-verstehen
-learningGoals:
-  - Du erklärst die Rollen von rand, srand und einem Startwert.
-  - Du beschreibst, wie aus einem großen Bereich ein kleiner Bereich wie 1 bis 6 entsteht.
-  - Du liest Zufallsbeispiele ruhiger als Ablauf aus Startwert und Erzeugung.
-practiceIdeas:
-  - Erkläre an einem Würfelbeispiel den Bereich 1 bis 6.
-  - Vergleiche einen Lauf mit und ohne Startwert.
-  - Beschreibe, warum eine Zufallszahl nicht direkt „magisch“ entsteht.
-commonMistakes:
-  - rand und srand zu verwechseln.
-  - Den Startwert als eigentliche Zufallszahl zu lesen.
-  - Den Bereich einer erzeugten Zahl nicht sauber zu prüfen.
-keyTakeaways:
-  - rand liefert eine Zahl aus einem großen Bereich.
-  - srand setzt den Startwert für die Zahlenfolge.
-  - Mit Modulo und Verschiebung kann ein kleiner Zielbereich erzeugt werden.
-recognizeSignals:
-  - Es geht um Würfeln, Zufallszahlen oder rand().
-  - Du sollst erklären, warum ein Startwert gesetzt wird.
-  - In Beispielen wird eine Zahl auf ein kleines Intervall begrenzt.
-selfCheckPoints:
-  - Kann ich rand und srand unterscheiden?
-  - Kann ich erklären, wie aus rand() ein Bereich 1 bis 6 wird?
-  - Kann ich den Startwert als Vorbereitung und nicht als Ergebnis lesen?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - rand
-  - srand
-  - zufall
+title: "Zufallszahlen mit rand und srand verstehen"
+description: "Verstehe, wie einfache Zufallszahlen in C++ erzeugt werden und warum srand für den Startwert wichtig ist."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "zufallszahlen-mit-rand-und-srand-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Zufallszahlen werden in Einstiegsbeispielen oft mit <code>rand()</code> erzeugt. Für eine verständliche Lesart solltest du aber zwei Dinge trennen: **die Vorbereitung der Zahlenfolge** und **die spätere eigentliche Zahlenerzeugung**.

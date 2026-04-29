@@ -1,23 +1,14 @@
 ---
-title: Lösung – Reduzierte Bewegung respektieren
-description: Musterlösung zur Aufgabe über Reduzierte Bewegung respektieren.
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- web-betrieb
-- performance-a11y
-- reduzierte-bewegung-respektieren-v114
-taskId: v114-web-development-reduzierte-bewegung-respektieren-v114
-relatedExercise: web-development/web-betrieb/performance-a11y/reduzierte-bewegung-respektieren-v114
-tags:
-- web-development
-- v114
-- loesung
-- web-betrieb
-- performance-a11y
+title: "Lösung – Reduzierte Bewegung respektieren"
+description: "Musterlösung zur Aufgabe über Reduzierte Bewegung respektieren."
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["web-betrieb", "performance-a11y", "reduzierte-bewegung-respektieren-v114"]
+taskId: "v114-web-development-reduzierte-bewegung-respektieren-v114"
+relatedExercise: "web-development/web-betrieb/performance-a11y/reduzierte-bewegung-respektieren-v114"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

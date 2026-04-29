@@ -3,25 +3,12 @@ title: "Lösung: Mounts und Dateisysteme: Aufgabe A"
 description: "Musterlösung zur Aufgabe linux-v192-021a im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "dateisystem-und-speicher"
-  - "mounts-und-dateisysteme"
-  - "loesung-a"
+topicPath: ["sanierung-v192", "mounts-und-dateisysteme-loesung-a"]
 taskId: "linux-v192-021a"
 relatedExercise: "linux/sanierung-v192/mounts-und-dateisysteme-aufgabe-a"
-tags:
-  - "dateisystem-und-speicher"
-  - "mounts"
-  - "dateisysteme"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-021a`
 
 Ausgangsauftrag: Erkläre eine Mount-Tabelle für zwei Dateisysteme.

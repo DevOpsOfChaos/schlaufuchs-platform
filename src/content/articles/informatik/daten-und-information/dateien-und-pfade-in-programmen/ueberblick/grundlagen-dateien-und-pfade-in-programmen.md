@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Dateien und Pfade in Programmen"
 description: "Allgemeiner Überblick über dateien und pfade in programmen in der Informatik."
-subject: informatik
+subject: "informatik"
 section: "Daten und Information"
-topicPath:
-  - "daten-und-information"
-  - "dateien-und-pfade-in-programmen"
-  - "ueberblick"
-learningGoals:
-  - "Du erklärst, wie Programme Dateien finden, öffnen und sicher einordnen."
-  - "Du ordnest typische Beispiele und Grenzen des Themas ein."
-  - "Du unterscheidest Grundidee, Anwendung und häufige Fehler."
-practiceIdeas:
-  - "Formuliere die Grundidee in drei Sätzen ohne Spezialfall."
-  - "Ordne ein eigenes Beispiel dem passenden Teilaspekt zu."
-commonMistakes:
-  - "Arbeitsverzeichnis mit Projektordner verwechseln"
-  - "Pfade hart verdrahten"
-  - "Dateityp nur am Namen erkennen"
-keyTakeaways:
-  - "Dateien und Pfade in Programmen braucht zuerst eine klare begriffliche Einordnung."
-  - "Beispiele helfen nur, wenn ihr Kontext bekannt ist."
-  - "Gute Informatikarbeit trennt Modell, Umsetzung und Prüfung."
-recognizeSignals:
-  - "Ein Thema wirkt wie ein Einzelfall, braucht aber zuerst einen allgemeinen Rahmen."
-  - "Mehrere Beispiele zeigen dieselbe Grundidee aus verschiedenen Blickwinkeln."
-selfCheckPoints:
-  - "Kann ich Grundidee und Beispiel unterscheiden?"
-  - "Kann ich typische Fehler nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "daten-und-information"
-  - "dateien-und-pfade-in-programmen"
+topicPath: ["daten-und-information", "dateien-und-pfade-in-programmen", "ueberblick", "grundlagen-dateien-und-pfade-in-programmen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Daten und Information"]
 draft: false
 ---
-
 ![Schaubild: Dateien und Pfade in Programmen](/schlaufuchs-platform/images/overviews/v185/dateien-und-pfade-in-programmen.svg)
 
 ## Begriff

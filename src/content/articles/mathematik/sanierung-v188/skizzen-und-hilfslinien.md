@@ -3,38 +3,17 @@ title: "Skizzen und Hilfslinien"
 description: "Skizzen machen Beziehungen sichtbar, bevor gerechnet wird."
 subject: "mathematik"
 section: "geometrie-messen-und-begruenden"
-topicPath:
-  - "geometrie-messen-und-begruenden"
-  - "skizzen-und-hilfslinien"
-learningGoals:
-  - "Skizzen machen Beziehungen sichtbar, bevor gerechnet wird fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Skizzen machen Beziehungen sichtbar, bevor gerechnet wird wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v188", "skizzen-und-hilfslinien"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "skizze"
-  - "hilfslinie"
-  - "begruendung"
-  - "mathematik"
-  - "v188"
+tags: ["mathematik", "geometrie-messen-und-begruenden"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Skizzen und Hilfslinien](/schlaufuchs-platform/images/mathematik/sanierung-188/skizzen-und-hilfslinien.svg)
 
 ## Überblick

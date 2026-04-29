@@ -1,44 +1,19 @@
 ---
-title: Textformatierung und Strukturierung in HTML verstehen
-description: Verstehe, welche HTML-Elemente Inhalt strukturieren und warum Bedeutung wichtiger ist als reine Optik.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - textformatierung-und-strukturierung-in-html-verstehen
-learningGoals:
-  - Du unterscheidest typische Text- und Struktur-Elemente in HTML.
-  - Du erklärst, warum p, h1-h6, div und span unterschiedliche Rollen haben.
-  - Du trennst inhaltliche Struktur von späterer CSS-Gestaltung.
-practiceIdeas:
-  - Lies einen kleinen HTML-Ausschnitt und benenne, welche Elemente Abschnitte, Überschriften oder Inline-Hervorhebungen bilden.
-  - Vergleiche span und div in einem Beispiel.
-  - Begründe, wann pre, code oder kbd näherliegen als normale Absätze.
-commonMistakes:
-  - Jede Hervorhebung als reines Designproblem zu sehen.
-  - div und span nur nach Größe statt nach Block- und Inline-Verhalten zu unterscheiden.
-  - h-Tags nur wegen großer Schrift zu wählen.
-keyTakeaways:
-  - HTML-Struktur beschreibt Inhalt, nicht Design.
-  - div ist Block, span ist Inline.
-  - Überschriften bilden eine inhaltliche Hierarchie.
-recognizeSignals:
-  - Es geht um p, div, span, h1-h6, code, pre, br oder hr.
-  - Du sollst Textstellen sinnvoll auszeichnen.
-  - In Aufgaben wird zwischen Block und Inline oder Struktur und Gestaltung unterschieden.
-selfCheckPoints:
-  - Kann ich div und span sauber unterscheiden?
-  - Kann ich Überschriften nach Struktur statt Optik wählen?
-  - Kann ich erklären, wann ein Element eher Inhalt als Stil beschreibt?
-tags:
-  - html
-  - struktur
-  - text
-  - web-development
-level: einfach
+title: "Textformatierung und Strukturierung in HTML verstehen"
+description: "Verstehe, welche HTML-Elemente Inhalt strukturieren und warum Bedeutung wichtiger ist als reine Optik."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "textformatierung-und-strukturierung-in-html-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 HTML-Elemente für Text und Struktur sagen nicht nur, **wie** etwas aussieht, sondern vor allem, **welche Rolle** ein Inhaltsteil hat.

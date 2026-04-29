@@ -3,22 +3,12 @@ title: "Lösung – Staging und Produktion trennen"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Projektpraxis-Aufgabe."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "staging-und-produktivumgebung-trennen"
-tags:
-  - "web development"
-  - "deployment"
-  - "staging"
-  - "produktion"
-  - "release"
-  - "lösung"
+topicPath: ["projektpraxis", "betrieb-und-release", "staging-und-produktivumgebung-trennen"]
 taskId: "web-v105-staging-und-produktivumgebung-trennen"
 relatedExercise: "web-development/projektpraxis/betrieb-und-release/staging-und-produktivumgebung-trennen"
+tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Eine gute Lösung beginnt mit der Nutzer- oder Wartungssituation. Das Problem wird nicht nur als technische Kleinigkeit behandelt, sondern als Risiko für Verständlichkeit, Betrieb oder spätere Änderung.

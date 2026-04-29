@@ -3,26 +3,12 @@ title: "Lösung: Prozesse beenden ohne Schaden: Aufgabe A"
 description: "Musterlösung zur Aufgabe linux-v192-007a im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "prozesse-und-dienste"
-  - "prozesse-beenden-ohne-schaden"
-  - "loesung-a"
+topicPath: ["sanierung-v192", "prozesse-beenden-ohne-schaden-loesung-a"]
 taskId: "linux-v192-007a"
 relatedExercise: "linux/sanierung-v192/prozesse-beenden-ohne-schaden-aufgabe-a"
-tags:
-  - "prozesse-und-dienste"
-  - "prozesse"
-  - "beenden"
-  - "ohne"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-007a`
 
 Ausgangsauftrag: Wähle für drei Situationen ein passendes Signal.

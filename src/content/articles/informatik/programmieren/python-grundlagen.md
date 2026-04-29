@@ -1,47 +1,19 @@
 ---
-title: Python-Grundlagen
-description: Lerne Variablen, Eingaben, Ausgaben und Bedingungen in kurzen Python-Programmen sauber zu lesen.
-subject: informatik
-section: Programmierung
-topicPath:
-- programmieren
-- python-grundlagen
-learningGoals:
-- Du verstehst Variablen, Eingaben und Ausgaben in Python.
-- Du liest kurze Programme Schritt für Schritt.
-- Du erkennst typische Anfängerfehler bei Einrückung und Datentypen.
-practiceIdeas:
-- Lies kleine Programme Zeile für Zeile und notiere Zwischenwerte.
-- Prüfe bei input-Aufgaben bewusst, ob der Wert noch Text ist.
-- Formuliere eine if-Bedingung erst in Worten.
-commonMistakes:
-- input() wie eine Zahl zu behandeln.
-- Einrückung als reine Optik zu sehen.
-- Variablennamen zu verwechseln.
-keyTakeaways:
-- Variablen speichern Werte unter Namen.
-- input() liest Eingaben ein, print() gibt Ergebnisse aus.
-- if und else steuern Entscheidungen.
-- Einrückung ist in Python Teil der Sprache.
-level: einfach
-tags:
-- python
-- variablen
-- if
-- eingabe
-- programmierung
+title: "Python-Grundlagen"
+description: "Lerne Variablen, Eingaben, Ausgaben und Bedingungen in kurzen Python-Programmen sauber zu lesen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmieren", "python-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
-recognizeSignals:
-- Die Aufgabe oder Erklärung nennt Python-Grundlagen direkt oder greift eng benachbarte Begriffe aus Programmierung auf.
-- Du sollst nicht nur einen Begriff nennen, sondern einen Zusammenhang, Ablauf oder eine Struktur sauber erklären.
-- In Beispielen musst du Werte, Schritte oder Bauteile geordnet lesen und richtig einordnen.
-selfCheckPoints:
-- Kann ich verstehst Variablen, Eingaben und Ausgaben in Python?
-- Kann ich liest kurze Programme Schritt für Schritt?
-- Kann ich erkennst typische Anfängerfehler bei Einrückung und Datentypen?
 ---
-
-
 ## Variablen als benannte Werte
 
 Eine Variable ist ein Name für einen Wert.

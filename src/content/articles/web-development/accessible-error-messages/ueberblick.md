@@ -1,37 +1,19 @@
 ---
 title: "Barrierefreie Fehlermeldungen"
 description: "Überblick über Fehlermeldungen, die visuell, semantisch und mit assistiven Technologien verständlich sind."
-subject: web-development
+subject: "web-development"
 section: "Barrierefreiheit"
-topicPath:
-  - "accessible-error-messages"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Barrierefreie Fehlermeldungen als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["accessible-error-messages", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Fehler nur farblich zu markieren oder Meldungen einzublenden, die für Screenreader nicht mit dem Feld verbunden sind."
-keyTakeaways:
-  - "Fehler müssen semantisch und visuell erreichbar sein."
-  - "Feldbezug ist entscheidend."
-  - "Gute Fehlermeldungen reduzieren kognitive Last."
-recognizeSignals:
-  - "Ein Formular soll mit Screenreader oder Tastatur nutzbar sein."
-  - "Fehlerzustände müssen eindeutig angesagt werden."
-selfCheckPoints:
-  - "Kann ich Barrierefreie Fehlermeldungen in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "web-development"
-  - "barrierefreiheit"
-  - "aria"
-  - "formulare"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Barrierefreiheit"]
 draft: false
 ---
-
 # Barrierefreie Fehlermeldungen
 
 Barrierefreie Fehlermeldungen sind mit den betroffenen Eingaben verbunden, verständlich formuliert und auch ohne reine Farbhinweise wahrnehmbar.

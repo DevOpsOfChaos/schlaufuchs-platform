@@ -1,36 +1,19 @@
 ---
 title: "SameSite-Cookies"
 description: "SameSite ist eine Cookie-Eigenschaft, die steuert, ob Cookies bei seitenübergreifenden Anfragen mitgesendet werden."
-subject: web-development
+subject: "web-development"
 section: "Sicherheit"
-topicPath:
-  - "same-site-cookies"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst SameSite-Cookies als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["same-site-cookies", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird SameSite als reine Kompatibilitätseinstellung behandelt, obwohl sie Teil des Sicherheitsmodells ist."
-keyTakeaways:
-  - "SameSite ist eine Cookie-Eigenschaft, die steuert, ob Cookies bei seitenübergreifenden Anfragen mitgesendet werden."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um SameSite-Cookies, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich SameSite-Cookies in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "web"
-  - "cookies"
-  - "sicherheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Sicherheit"]
 draft: false
 ---
-
 # SameSite-Cookies
 
 SameSite ist eine Cookie-Eigenschaft, die steuert, ob Cookies bei seitenübergreifenden Anfragen

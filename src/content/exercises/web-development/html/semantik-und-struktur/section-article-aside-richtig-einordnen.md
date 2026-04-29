@@ -3,34 +3,15 @@ title: "Aufgabe – section, article und aside richtig einordnen"
 description: "Ordne eine kleine Lernseite mit Hauptartikel, zwei Abschnitten und einem Hinweisbereich semantisch passend."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "semantik-und-struktur"
-  - "section-article-aside-richtig-einordnen"
-tags:
-  - "web development"
-  - "html"
-  - "semantik"
-  - "struktur"
-  - "barrierefreiheit"
-  - "aufgabe"
+topicPath: ["html", "semantik-und-struktur", "section-article-aside-richtig-einordnen"]
 taskId: "web-v103-section-article-aside-richtig-einordnen"
-hintPoints:
-  - "Lies zuerst die vorhandene Struktur und den sichtbaren Zustand."
-  - "Trenne technische Entscheidung und Nutzer-Rückmeldung."
-  - "Achte darauf, dass die Formulierung auf Deutsch konkret bleibt."
-selfCheckPoints:
-  - "Ist die Lösung auch bei Fehlern oder fehlenden Daten verständlich?"
-  - "Sind Struktur, Gestaltung und Verhalten sauber getrennt?"
-  - "Gibt es eine sichtbare und passende Rückmeldung?"
-transferIdeas:
-  - "Übertrage die Aufgabe auf eine Formular-, Karten- oder Navigationsoberfläche."
-  - "Vergleiche eine schnelle, aber fragile Lösung mit einer robusteren Lösung."
-reflectionPrompt: "Welche kleine Entscheidung verbessert hier nicht nur den Code, sondern auch die Nutzererfahrung?"
+tags: ["web-development", "HTML", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Ordne eine kleine Lernseite mit Hauptartikel, zwei Abschnitten und einem Hinweisbereich semantisch passend.

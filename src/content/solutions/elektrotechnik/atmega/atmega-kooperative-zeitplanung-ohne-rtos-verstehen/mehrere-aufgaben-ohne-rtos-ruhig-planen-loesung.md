@@ -1,24 +1,14 @@
 ---
-title: Musterlösung – Mehrere Aufgaben ohne RTOS ruhig planen
-description: Musterlösung zur Aufgabe ET-ATM-STR-301.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - programmstruktur-und-ablauf
-  - atmega-kooperative-zeitplanung-ohne-rtos-verstehen
-  - mehrere-aufgaben-ohne-rtos-ruhig-planen-loesung
-taskId: ET-ATM-STR-301
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-kooperative-zeitplanung-ohne-rtos-verstehen/mehrere-aufgaben-ohne-rtos-ruhig-planen.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – Mehrere Aufgaben ohne RTOS ruhig planen"
+description: "Musterlösung zur Aufgabe ET-ATM-STR-301."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-kooperative-zeitplanung-ohne-rtos-verstehen", "mehrere-aufgaben-ohne-rtos-ruhig-planen"]
+taskId: "ET-ATM-STR-301"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-kooperative-zeitplanung-ohne-rtos-verstehen/mehrere-aufgaben-ohne-rtos-ruhig-planen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Lange Delay-Ketten sind unruhig, weil während einer Wartephase andere Aufgaben oft nicht geprüft werden. Dadurch leiden Reaktionszeit und Erweiterbarkeit. Wenn mehrere periodische Aufgaben zusammenkommen, wird dieses Problem schnell deutlich. Eine geordnete Zeitplanung ist deshalb meist robuster als bloßes Warten.

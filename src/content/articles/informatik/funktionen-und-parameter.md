@@ -1,17 +1,19 @@
 ---
-title: Funktionen und Parameter
-description: Funktionen helfen dabei, Programme klarer zu strukturieren, Wiederholungen zu vermeiden und Teilaufgaben sauber zu kapseln.
-subject: informatik
-section: Programmstruktur
-level: einfach
-tags:
-  - Funktionen
-  - Parameter
-  - C
-  - Struktur
+title: "Funktionen und Parameter"
+description: "Funktionen helfen dabei, Programme klarer zu strukturieren, Wiederholungen zu vermeiden und Teilaufgaben sauber zu kapseln."
+subject: "informatik"
+section: "Programmstruktur"
+topicPath: ["funktionen-und-parameter"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmstruktur"]
 draft: false
 ---
-
 ## Überblick
 
 Sobald ein Programm mehr als nur wenige Zeilen umfasst, wird Struktur entscheidend. Funktionen helfen dabei, Teilaufgaben abzugrenzen. Statt denselben Code mehrfach zu schreiben, wird eine Aufgabe einmal formuliert und anschließend gezielt aufgerufen.

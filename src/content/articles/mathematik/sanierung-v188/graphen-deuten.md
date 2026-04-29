@@ -3,38 +3,17 @@ title: "Graphen deuten"
 description: "Graphen erzählen, wie Größen zusammenhängen und sich verändern."
 subject: "mathematik"
 section: "funktionen-und-graphen"
-topicPath:
-  - "funktionen-und-graphen"
-  - "graphen-deuten"
-learningGoals:
-  - "Graphen erzählen, wie Größen zusammenhängen und sich verändern fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Graphen erzählen, wie Größen zusammenhängen und sich verändern wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v188", "graphen-deuten"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "graphen"
-  - "funktionen"
-  - "deuten"
-  - "mathematik"
-  - "v188"
+tags: ["mathematik", "funktionen-und-graphen"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Graphen deuten](/schlaufuchs-platform/images/mathematik/sanierung-188/graphen-deuten.svg)
 
 ## Überblick

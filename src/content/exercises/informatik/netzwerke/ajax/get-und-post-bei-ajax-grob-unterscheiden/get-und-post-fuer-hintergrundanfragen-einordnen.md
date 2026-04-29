@@ -1,32 +1,17 @@
 ---
-title: GET und POST grob einordnen
-description: Ordne Hintergrundanfragen fachlich als eher abrufend oder eher sendend ein.
-subject: informatik
-section: Netzwerke
-topicPath:
-  - netzwerke
-  - ajax
-  - get-und-post-bei-ajax-grob-unterscheiden
-  - get-und-post-fuer-hintergrundanfragen-einordnen
-taskId: INF-NET-AJAX-002
-level: einfach
+title: "GET und POST grob einordnen"
+description: "Ordne Hintergrundanfragen fachlich als eher abrufend oder eher sendend ein."
+subject: "informatik"
+section: "Netzwerke"
+topicPath: ["netzwerke", "ajax", "get-und-post-bei-ajax-grob-unterscheiden", "get-und-post-fuer-hintergrundanfragen-einordnen"]
+taskId: "INF-NET-AJAX-002"
+tags: ["informatik", "Netzwerke", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - informatik
-  - aufgabe
-  - netzwerke
-  - ajax
-hintPoints:
-  - "Lies das Beispiel zuerst ruhig in Worten."
-  - "Trenne Struktur, Rolle und Wirkung sauber."
-selfCheckPoints:
-  - "Habe ich begründet statt nur benannt?"
-  - "Habe ich Fachbegriffe sauber verwendet?"
-transferIdeas:
-  - "Übertrage die Logik auf ein ähnliches Beispiel."
-reflectionPrompt: "Welche Stelle war leicht zu verwechseln und warum?"
 ---
-
 ## Aufgabe 1: Einordnen
 
 Ordne die Situationen GET oder POST zu und begründe knapp:

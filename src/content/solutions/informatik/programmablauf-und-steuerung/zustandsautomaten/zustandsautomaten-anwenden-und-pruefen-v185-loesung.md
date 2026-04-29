@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Zustandsautomaten – anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über zustandsautomaten."
-subject: informatik
+subject: "informatik"
 section: "Programmablauf und Steuerung"
-topicPath:
-  - "programmablauf-und-steuerung"
-  - "zustandsautomaten"
-  - "loesung"
-taskId: INF-V185-003-2
-relatedExercise: src/content/exercises/informatik/programmablauf-und-steuerung/zustandsautomaten/zustandsautomaten-anwenden-und-pruefen-v185.md
-tags:
-  - "informatik"
-  - "programmablauf-und-steuerung"
-  - "zustandsautomaten"
-  - "loesung"
+topicPath: ["programmablauf-und-steuerung", "zustandsautomaten", "zustandsautomaten-anwenden-und-pruefen-v185"]
+taskId: "INF-V185-003-2"
+relatedExercise: "src/content/exercises/informatik/programmablauf-und-steuerung/zustandsautomaten/zustandsautomaten-anwenden-und-pruefen-v185.md"
+tags: ["informatik", "Programmablauf und Steuerung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

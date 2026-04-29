@@ -1,23 +1,14 @@
 ---
-title: Lösung – Modellparameter aus Daten schätzen
-description: Musterlösung zur Aufgabe über Modellparameter aus Daten schätzen.
-subject: mathematik
-section: Feinstruktur Mathematik
-topicPath:
-- algebra-modelle
-- parameter-und-formen
-- modellparameter-aus-daten-schaetzen-v114
-taskId: v114-mathematik-modellparameter-aus-daten-schaetzen-v114
-relatedExercise: mathematik/algebra-modelle/parameter-und-formen/modellparameter-aus-daten-schaetzen-v114
-tags:
-- mathematik
-- v114
-- loesung
-- algebra-modelle
-- parameter-und-formen
+title: "Lösung – Modellparameter aus Daten schätzen"
+description: "Musterlösung zur Aufgabe über Modellparameter aus Daten schätzen."
+subject: "mathematik"
+section: "Feinstruktur Mathematik"
+topicPath: ["algebra-modelle", "parameter-und-formen", "modellparameter-aus-daten-schaetzen-v114"]
+taskId: "v114-mathematik-modellparameter-aus-daten-schaetzen-v114"
+relatedExercise: "mathematik/algebra-modelle/parameter-und-formen/modellparameter-aus-daten-schaetzen-v114"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

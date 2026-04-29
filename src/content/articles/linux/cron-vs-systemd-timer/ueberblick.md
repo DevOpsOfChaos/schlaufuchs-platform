@@ -1,37 +1,19 @@
 ---
 title: "Cron und systemd Timer"
 description: "Überblick über klassische Cronjobs und systemd Timer als zeitgesteuerte Ausführung."
-subject: linux
+subject: "linux"
 section: "Zeitsteuerung"
-topicPath:
-  - "cron-vs-systemd-timer"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Cron und systemd Timer als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["cron-vs-systemd-timer", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein Skript interaktiv zu testen und dann als Cronjob zu erwarten, dass dieselben Umgebungsvariablen und Pfade gelten."
-keyTakeaways:
-  - "Cron ist einfach, systemd Timer sind stärker integriert."
-  - "Umgebung und Arbeitsverzeichnis unterscheiden sich von interaktiven Shells."
-  - "Zeitsteuerung braucht sichtbares Logging."
-recognizeSignals:
-  - "Eine Aufgabe soll regelmäßig laufen."
-  - "Ein geplanter Job läuft manuell, aber nicht automatisch."
-selfCheckPoints:
-  - "Kann ich Cron und systemd Timer in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "cron"
-  - "systemd"
-  - "timer"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Zeitsteuerung"]
 draft: false
 ---
-
 # Cron und systemd Timer
 
 Cron und systemd Timer starten Befehle oder Dienste zu bestimmten Zeiten oder Intervallen.

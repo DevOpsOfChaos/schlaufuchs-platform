@@ -1,20 +1,12 @@
 ---
 title: "Lösung – Alt-Texte passend entscheiden"
 description: "Musterlösung zu: Ordne Bilder als dekorativ oder informativ ein und formuliere passende Alt-Texte."
-subject: web-development
+subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "bilder-und-alt-texte"
-  - "dekorative-und-informative-bilder-unterscheiden"
+topicPath: ["html", "bilder-und-alt-texte", "dekorative-und-informative-bilder-unterscheiden"]
 taskId: "wd-html-v95-dekorative-informative-bilder"
 relatedExercise: "web-development/html/bilder-und-alt-texte/dekorative-und-informative-bilder-unterscheiden"
-tags:
-  - "web development"
-  - "html"
-  - "bilder"
-  - "alt text"
-  - "accessibility"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

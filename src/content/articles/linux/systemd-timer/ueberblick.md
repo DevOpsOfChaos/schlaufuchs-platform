@@ -1,37 +1,19 @@
 ---
 title: "systemd Timer"
 description: "Allgemeiner Überblick über systemd Timer als Alternative oder Ergänzung zu cron für geplante Aufgaben."
-subject: linux
+subject: "linux"
 section: "Dienste"
-topicPath:
-  - "systemd-timer"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst systemd Timer als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["systemd-timer", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird nur der Timer betrachtet, obwohl der Service die eigentliche Arbeit enthält."
-keyTakeaways:
-  - "systemd Timer planen den Start von Services."
-  - "Timer und Service gehören zusammen."
-  - "Journal und Unit-Status erleichtern Diagnose."
-recognizeSignals:
-  - "Eine geplante Aufgabe soll mit systemd verwaltet werden."
-  - "`systemctl list-timers` zeigt aktive Zeitpläne."
-selfCheckPoints:
-  - "Kann ich systemd Timer in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "systemd"
-  - "timer"
-  - "automatisierung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dienste"]
 draft: false
 ---
-
 # systemd Timer
 
 systemd Timer starten Dienste zu bestimmten Zeiten oder nach Intervallen. Sie sind eine systemd-nahe Möglichkeit für geplante Aufgaben.

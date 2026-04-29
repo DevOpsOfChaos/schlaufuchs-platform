@@ -3,32 +3,17 @@ title: "Browser Rendering Pipeline"
 description: "Allgemeiner Überblick über browser rendering pipeline und die wichtigsten Zusammenhänge."
 subject: "web-development"
 section: "Browser"
-topicPath:
-  - "browser-rendering-pipeline"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["browser-rendering-pipeline", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Performance nur als Dateigröße verstanden."
-keyTakeaways:
-  - "Die Rendering Pipeline macht sichtbare Performanceprobleme systematisch erklärbar."
-  - "Rendering ist nicht nur das Herunterladen von Dateien; der Browser muss Strukturen berechnen."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "web development"
-  - "browser"
-  - "rendering"
-  - "performance"
+tags: ["web-development", "Browser"]
 draft: false
 ---
-
 # Browser Rendering Pipeline
 
 ![Schaubild zur Browser-Rendering-Pipeline.](/schlaufuchs-platform/images/overviews/v149/browser-rendering-pipeline.svg)

@@ -3,21 +3,12 @@ title: "Lösung – Spannungsteiler unter Last betrachten"
 description: "Musterlösung zu spannungsteiler unter last betrachten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "schaltungen-und-stromkreis"
-  - "spannungsteiler-unter-last-betrachten"
+topicPath: ["daten-und-signale", "schaltungen-und-stromkreis", "spannungsteiler-unter-last-betrachten"]
 taskId: "v112-elektrotechnik-spannungsteiler-unter-last-betrachten"
 relatedExercise: "elektrotechnik/daten-und-signale/schaltungen-und-stromkreis/spannungsteiler-unter-last-betrachten"
-tags:
-  - "elektrotechnik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-signale"
-  - "spannungsteiler-unter-last-betrachten"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Schaltungen und Stromkreis**.

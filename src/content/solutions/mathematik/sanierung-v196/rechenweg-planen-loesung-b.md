@@ -1,15 +1,14 @@
 ---
-title: Rechenweg planen – Lösung B
-description: Musterlösung zu Rechenweg planen mit Kontrolle.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Rechenweg planen – Lösung B"
+description: "Musterlösung zu Rechenweg planen mit Kontrolle."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "rechenstrategien-und-kontrolle", "rechenweg-planen"]
 taskId: "mat-v196-rechenweg-planen-b"
 relatedExercise: "mathematik/sanierung-v196/rechenweg-planen-aufgabe-b"
 tags: ["mathematik", "v196", "rechenstrategien-und-kontrolle", "rechenweg-planen"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine passende Lösung zu dieser Aufgabe muss nicht exakt dieselben Zahlen oder Beispiele verwenden. Entscheidend ist der saubere Aufbau.

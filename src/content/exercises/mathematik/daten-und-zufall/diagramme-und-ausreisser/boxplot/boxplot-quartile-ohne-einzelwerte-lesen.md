@@ -3,35 +3,15 @@ title: "Aufgabe – Boxplot-Quartile ohne Einzelwerte lesen"
 description: "Übe Boxplot-Quartile mit einem kleinen Szenario, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Daten und Zufall"
-topicPath:
-  - "daten-und-zufall"
-  - "diagramme-und-ausreisser"
-  - "boxplot"
-  - "boxplot-quartile-ohne-einzelwerte-lesen"
+topicPath: ["daten-und-zufall", "diagramme-und-ausreisser", "boxplot", "boxplot-quartile-ohne-einzelwerte-lesen"]
 taskId: "v109-mathematik-boxplot-quartile-ohne-einzelwerte-lesen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfen"
-  - "daten-und-zufall"
-  - "diagramme-und-ausreisser"
-  - "boxplot-quartile"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Übertrage den Prüfschritt auf ein Nachbarthema und nenne den Unterschied."
-reflectionPrompt: "Welche kleine Trennkante macht Boxplot-Quartile übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["mathematik", "Daten und Zufall", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Boxplot-Quartile**.

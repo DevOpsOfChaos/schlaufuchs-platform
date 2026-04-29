@@ -1,12 +1,17 @@
 ---
-title: Dioden – Grundaufgaben
-description: Übe das fachliche Verstehen von Richtung, Einbau und Grundfunktion einer Diode.
-subject: elektrotechnik
-section: dioden
-level: einfach
+title: "Dioden – Grundaufgaben"
+description: "Übe das fachliche Verstehen von Richtung, Einbau und Grundfunktion einer Diode."
+subject: "elektrotechnik"
+section: "dioden"
+topicPath: ["dioden-grundaufgaben"]
+taskId: "AUTO-DIODEN-GRUNDAUFGABEN"
+tags: ["elektrotechnik", "dioden", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe hält die Grundidee der Diode bewusst einfach: Du sollst verstehen, **warum Richtung und Einbau in der Elektrotechnik eine so große Rolle spielen**.
 
 ## Lernziel

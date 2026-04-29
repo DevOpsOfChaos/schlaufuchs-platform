@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Code-Review und Qualität"
 description: "Allgemeiner Überblick über code-review und qualität in der Informatik."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "code-review-und-qualitaet"
-  - "ueberblick"
-learningGoals:
-  - "Du erklärst, wie Änderungen vor der Übernahme fachlich und technisch geprüft werden."
-  - "Du ordnest typische Beispiele und Grenzen des Themas ein."
-  - "Du unterscheidest Grundidee, Anwendung und häufige Fehler."
-practiceIdeas:
-  - "Formuliere die Grundidee in drei Sätzen ohne Spezialfall."
-  - "Ordne ein eigenes Beispiel dem passenden Teilaspekt zu."
-commonMistakes:
-  - "Review als persönliche Kritik lesen"
-  - "nur Syntax prüfen"
-  - "fehlende Anforderungen übersehen"
-keyTakeaways:
-  - "Code-Review und Qualität braucht zuerst eine klare begriffliche Einordnung."
-  - "Beispiele helfen nur, wenn ihr Kontext bekannt ist."
-  - "Gute Informatikarbeit trennt Modell, Umsetzung und Prüfung."
-recognizeSignals:
-  - "Ein Thema wirkt wie ein Einzelfall, braucht aber zuerst einen allgemeinen Rahmen."
-  - "Mehrere Beispiele zeigen dieselbe Grundidee aus verschiedenen Blickwinkeln."
-selfCheckPoints:
-  - "Kann ich Grundidee und Beispiel unterscheiden?"
-  - "Kann ich typische Fehler nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "programmierpraxis-und-tests"
-  - "code-review-und-qualitaet"
+topicPath: ["programmierpraxis-und-tests", "code-review-und-qualitaet", "ueberblick", "grundlagen-code-review-und-qualitaet"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierpraxis und Tests"]
 draft: false
 ---
-
 ![Schaubild: Code-Review und Qualität](/schlaufuchs-platform/images/overviews/v185/code-review-und-qualitaet.svg)
 
 ## Begriff

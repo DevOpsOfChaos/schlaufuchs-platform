@@ -3,21 +3,12 @@ title: "Lösung – Formulargruppe mit fieldset gliedern"
 description: "Musterlösung zu formulargruppe mit fieldset gliedern mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "html"
-  - "semantik-und-struktur"
-  - "formulargruppe-mit-fieldset-gliedern"
+topicPath: ["html", "semantik-und-struktur", "formulargruppe-mit-fieldset-gliedern"]
 taskId: "v112-web-development-formulargruppe-mit-fieldset-gliedern"
 relatedExercise: "web-development/html/semantik-und-struktur/formulargruppe-mit-fieldset-gliedern"
-tags:
-  - "web-development"
-  - "v112"
-  - "feinstruktur"
-  - "html"
-  - "formulargruppe-mit-fieldset-gliedern"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **HTML Semantik und Struktur**.

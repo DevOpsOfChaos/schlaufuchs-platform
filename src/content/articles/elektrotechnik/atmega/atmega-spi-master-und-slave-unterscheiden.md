@@ -1,46 +1,19 @@
 ---
-title: ATmega – SPI Master und Slave unterscheiden
-description: Verstehe, warum bei SPI nicht einfach zwei gleiche Partner reden, sondern ein Gerät den Takt und den Ablauf vorgibt.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-schnittstellen-und-busse
-  - atmega-spi-master-und-slave-unterscheiden
-learningGoals:
-  - Du erklärst den Unterschied zwischen SPI-Master und SPI-Slave.
-  - Du beschreibst, warum der Master den Ablauf der Übertragung bestimmt.
-  - Du liest SPI-Konfiguration eher als Rollenverteilung als als bloße Registerwahl.
-practiceIdeas:
-  - Ordne in einem SPI-Beispiel zuerst Master und Slave zu und lies erst danach den Registercode.
-  - Vergleiche die Verantwortung für Takt, Geräteauswahl und Antwortverhalten.
-  - Prüfe bei einem Datenfluss, welches Gerät den Start der Übertragung aktiv auslöst.
-commonMistakes:
-  - Master und Slave als zwei gleich aktive Sender zu behandeln.
-  - Zu denken, der Slave könne den Takt der SPI-Verbindung frei vorgeben.
-  - SS, Takt und Rollenverteilung nicht gemeinsam zu lesen.
-keyTakeaways:
-  - Der Master gibt bei SPI den Takt und meist auch die Geräteauswahl vor.
-  - Der Slave reagiert auf diesen Ablauf und antwortet innerhalb des vorgegebenen Takts.
-  - Wer Rollenverteilung und Leitungen zusammen liest, versteht SPI deutlich klarer.
-recognizeSignals:
-  - Es geht um SPI-Konfiguration, Rollenwahl oder den Ablauf einer seriellen Übertragung.
-  - Du sollst erklären, wer bei SPI die Übertragung startet und wer darauf reagiert.
-  - In Beispielen ist die Rollenverteilung wichtiger als einzelne Registerbits.
-selfCheckPoints:
-  - Kann ich Master und Slave fachlich sauber unterscheiden?
-  - Kann ich erklären, warum der Master den Takt vorgibt?
-  - Kann ich beschreiben, was der Slave aktiv tut und was nicht?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - spi
-  - avr
-level: mittel
+title: "ATmega – SPI Master und Slave unterscheiden"
+description: "Verstehe, warum bei SPI nicht einfach zwei gleiche Partner reden, sondern ein Gerät den Takt und den Ablauf vorgibt."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-spi-master-und-slave-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 Bei SPI reden nicht einfach zwei gleichberechtigte Teilnehmer parallel los. Ruhiger ist die klare Rollenfrage: **Wer gibt den Takt und den Ablauf vor?** Genau dadurch entsteht die Trennung zwischen **Master** und **Slave**.
 
 <div class="example-card">

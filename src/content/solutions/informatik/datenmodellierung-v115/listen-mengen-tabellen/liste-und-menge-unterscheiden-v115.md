@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Liste und Menge unterscheiden"
 description: "Musterlösung zu Liste und Menge unterscheiden mit Trennkante und Gegenprobe."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenmodellierung-v115"
-  - "listen-mengen-tabellen"
-  - "liste-und-menge-unterscheiden-v115"
+topicPath: ["datenmodellierung-v115", "listen-mengen-tabellen", "liste-und-menge-unterscheiden-v115"]
 taskId: "informatik-liste-und-menge-unterscheiden-v115"
 relatedExercise: "informatik/datenmodellierung-v115/listen-mengen-tabellen/liste-und-menge-unterscheiden-v115"
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "datenmodellierung"
-  - "listen, mengen und tabellen"
-  - "lösung"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Liste und Menge unterscheiden**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

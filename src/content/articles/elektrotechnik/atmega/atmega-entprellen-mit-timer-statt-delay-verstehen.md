@@ -1,46 +1,19 @@
 ---
-title: ATmega – Entprellen mit Timer statt Delay verstehen
-description: Verstehe, warum Tasterentprellung am AVR mit Zeitprüfung oder Timerstruktur oft ruhiger ist als bloßes blockierendes Warten.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - programmstruktur-und-reaktivitaet
-  - atmega-entprellen-mit-timer-statt-delay-verstehen
-learningGoals:
-  - Du erklärst, warum Tasterprellen nicht nur ein Hardwarephänomen, sondern auch ein Strukturproblem im Programm ist.
-  - Du unterscheidest blockierendes Delay-Entprellen und timergestütztes Entprellen sauber.
-  - Du liest Entprellung eher als Zeitfenster als als willkürliches Warten.
-practiceIdeas:
-  - Vergleiche eine Delay-Entprellung mit einer Abfrage über verstrichene Zeit.
-  - Prüfe, was während eines blockierenden Wartens im restlichen Programm liegen bleibt.
-  - Lies Tasterentprellung zuerst als Zustands- und Zeitfrage und erst danach als Codefolge.
-commonMistakes:
-  - Zu denken, ein kurzes Delay löse jedes Tasterproblem ohne Nebenwirkungen.
-  - Entprellen nur als Hardwarefrage und nicht als Programmstruktur zu sehen.
-  - Ein Zeitfenster mit blindem Warten zu verwechseln.
-keyTakeaways:
-  - Delay kann einen Taster entprellen, blockiert aber oft unnötig andere Programmlogik.
-  - Timer- oder Zeitdenken trennt Reaktion und Wartezeit ruhiger.
-  - Gute Entprellung fragt nicht nur ob ein Pegel da ist, sondern ob er stabil geblieben ist.
-recognizeSignals:
-  - Es geht um Prellen, mehrfaches Auslösen, kurze Störwechsel oder Tasterabfragen am AVR.
-  - Du sollst begründen, warum ein Delay zwar hilft, aber nicht immer die ruhigste Struktur ist.
-  - In Aufgaben ist das stabile Zeitfenster wichtiger als die konkrete Millisekunden-Zahl.
-selfCheckPoints:
-  - Kann ich erklären, warum Delay die Reaktivität verschlechtern kann?
-  - Kann ich Entprellen als stabiles Zeitfenster beschreiben?
-  - Kann ich sagen, warum Timerdenken bei mehreren Aufgaben ruhiger ist?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - entprellen
-  - timer
-level: mittel
+title: "ATmega – Entprellen mit Timer statt Delay verstehen"
+description: "Verstehe, warum Tasterentprellung am AVR mit Zeitprüfung oder Timerstruktur oft ruhiger ist als bloßes blockierendes Warten."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-entprellen-mit-timer-statt-delay-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Taster liefert beim Umschalten oft nicht sofort einen einzigen sauberen Übergang, sondern mehrere kurze Pegelwechsel. Das ist die Hardware-Seite. Die Programm-Seite ist dann:

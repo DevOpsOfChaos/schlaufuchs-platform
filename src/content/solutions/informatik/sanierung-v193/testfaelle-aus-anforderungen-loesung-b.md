@@ -3,24 +3,12 @@ title: "Lösung: Testfälle aus Anforderungen: Aufgabe B"
 description: "Musterlösung zur Aufgabe informatik-v193-006b im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "tests-und-randfaelle"
-  - "testfaelle-aus-anforderungen"
-  - "loesung-b"
+topicPath: ["sanierung-v193", "testfaelle-aus-anforderungen-loesung-b"]
 taskId: "informatik-v193-006b"
 relatedExercise: "informatik/sanierung-v193/testfaelle-aus-anforderungen-aufgabe-b"
-tags:
-  - "testfaelle"
-  - "aus"
-  - "anforderungen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-006b`
 
 Ausgangsauftrag: Übertrage das Thema Testfälle aus Anforderungen auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

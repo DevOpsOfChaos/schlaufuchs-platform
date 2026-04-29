@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Parsing und Tokenisierung"
 description: "Allgemeiner Überblick über parsing und tokenisierung in der Informatik."
-subject: informatik
+subject: "informatik"
 section: "Daten und Information"
-topicPath:
-  - "daten-und-information"
-  - "parsing-und-tokenisierung"
-  - "ueberblick"
-learningGoals:
-  - "Du erklärst, wie aus Text strukturierte Information wird."
-  - "Du ordnest typische Beispiele und Grenzen des Themas ein."
-  - "Du unterscheidest Grundidee, Anwendung und häufige Fehler."
-practiceIdeas:
-  - "Formuliere die Grundidee in drei Sätzen ohne Spezialfall."
-  - "Ordne ein eigenes Beispiel dem passenden Teilaspekt zu."
-commonMistakes:
-  - "Text direkt als Struktur behandeln"
-  - "Sonderzeichen vergessen"
-  - "Syntaxfehler als Inhaltsfehler deuten"
-keyTakeaways:
-  - "Parsing und Tokenisierung braucht zuerst eine klare begriffliche Einordnung."
-  - "Beispiele helfen nur, wenn ihr Kontext bekannt ist."
-  - "Gute Informatikarbeit trennt Modell, Umsetzung und Prüfung."
-recognizeSignals:
-  - "Ein Thema wirkt wie ein Einzelfall, braucht aber zuerst einen allgemeinen Rahmen."
-  - "Mehrere Beispiele zeigen dieselbe Grundidee aus verschiedenen Blickwinkeln."
-selfCheckPoints:
-  - "Kann ich Grundidee und Beispiel unterscheiden?"
-  - "Kann ich typische Fehler nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "daten-und-information"
-  - "parsing-und-tokenisierung"
+topicPath: ["daten-und-information", "parsing-und-tokenisierung", "ueberblick", "grundlagen-parsing-und-tokenisierung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Daten und Information"]
 draft: false
 ---
-
 ![Schaubild: Parsing und Tokenisierung](/schlaufuchs-platform/images/overviews/v185/parsing-und-tokenisierung.svg)
 
 ## Begriff

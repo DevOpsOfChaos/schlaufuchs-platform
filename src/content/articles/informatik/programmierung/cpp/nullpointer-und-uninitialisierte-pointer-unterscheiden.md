@@ -1,47 +1,19 @@
 ---
-title: Nullpointer und uninitialisierte Pointer unterscheiden
-description: Verstehe den Unterschied zwischen einem bewusst leeren Pointer mit nullptr und einem Pointer, der noch gar keinen verlässlichen Startzustand hat.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - pointer-und-adressen
-  - nullpointer-und-uninitialisierte-pointer-unterscheiden
-learningGoals:
-  - Du erklärst den Unterschied zwischen <code>nullptr</code> und einem uninitialisierten Pointer.
-  - Du erkennst, warum „bewusst leer“ fachlich etwas anderes ist als „noch gar nicht vorbereitet“.
-  - Du leitest eine ruhige Grundregel für die Initialisierung neuer Pointer ab.
-practiceIdeas:
-  - Vergleiche Deklarationen mit und ohne Initialisierung in klaren Sätzen.
-  - Markiere in Beispielen, welcher Pointer einen definierten Startzustand hat.
-  - Formuliere für neue Pointer bewusst eine sichere Initialisierungsregel.
-commonMistakes:
-  - Einen uninitialisierten Pointer so zu behandeln, als wäre er einfach nur „leer“.
-  - Zu glauben, man könne einen uninitialisierten Pointer erst einmal gefahrlos stehen lassen.
-  - Die Startzustandsfrage mit der späteren Zugriffsfrage zu vermischen.
-keyTakeaways:
-  - "<code>nullptr</code> bedeutet bewusst: Dieser Pointer zeigt aktuell auf kein Objekt."
-  - Ein uninitialisierter Pointer hat keinen verlässlichen Startzustand.
-  - Diese Seite klärt den Anfangszustand, noch nicht die spätere Dereferenzierung.
-recognizeSignals:
-  - Es geht um Pointer-Deklarationen und ihren Anfangszustand.
-  - Du sollst entscheiden, ob ein Pointer sauber vorbereitet oder noch fachlich unklar ist.
-  - In Aufgaben tauchen <code>nullptr</code>, Initialisierung oder Startfehler auf.
-selfCheckPoints:
-  - Kann ich den Unterschied zwischen „bewusst leer“ und „gar nicht festgelegt“ erklären?
-  - Kann ich sagen, warum <code>nullptr</code> ein sinnvoller Startwert ist?
-  - Kann ich begründen, warum diese Frage noch vor jeder Dereferenzierung liegt?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - pointer
-  - nullptr
+title: "Nullpointer und uninitialisierte Pointer unterscheiden"
+description: "Verstehe den Unterschied zwischen einem bewusst leeren Pointer mit nullptr und einem Pointer, der noch gar keinen verlässlichen Startzustand hat."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "nullpointer-und-uninitialisierte-pointer-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Nicht jeder Pointer ohne gültiges Ziel ist gleich. Es gibt einen wichtigen Unterschied zwischen

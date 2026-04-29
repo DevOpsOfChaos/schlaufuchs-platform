@@ -1,31 +1,17 @@
 ---
 title: "Fehlerbehandlung"
 description: "Allgemeiner Überblick über Fehlerarten, Ausnahmen, Rückgabewerte und robuste Programme."
-subject: informatik
+subject: "informatik"
 section: "Softwareentwicklung"
-topicPath:
-  - "fehlerbehandlung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Fehlerbehandlung grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["fehlerbehandlung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Fehlerbehandlung nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Fehlerbehandlung beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Fehlerbehandlung, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Fehlerbehandlung in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "fehlerbehandlung"
-  - "debugging"
-  - "software"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Softwareentwicklung"]
 draft: false
 ---
 # Fehlerbehandlung

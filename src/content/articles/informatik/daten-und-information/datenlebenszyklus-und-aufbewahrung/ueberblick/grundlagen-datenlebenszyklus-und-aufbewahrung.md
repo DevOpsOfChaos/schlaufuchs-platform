@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Datenlebenszyklus und Aufbewahrung"
 description: "Allgemeiner Überblick über datenlebenszyklus und aufbewahrung in der Informatik."
-subject: informatik
+subject: "informatik"
 section: "Daten und Information"
-topicPath:
-  - "daten-und-information"
-  - "datenlebenszyklus-und-aufbewahrung"
-  - "ueberblick"
-learningGoals:
-  - "Du erklärst, wie Daten entstehen, genutzt, archiviert und gelöscht werden."
-  - "Du ordnest typische Beispiele und Grenzen des Themas ein."
-  - "Du unterscheidest Grundidee, Anwendung und häufige Fehler."
-practiceIdeas:
-  - "Formuliere die Grundidee in drei Sätzen ohne Spezialfall."
-  - "Ordne ein eigenes Beispiel dem passenden Teilaspekt zu."
-commonMistakes:
-  - "Daten unbegrenzt behalten"
-  - "Backup mit Archiv verwechseln"
-  - "Löschkonzept erst am Ende bedenken"
-keyTakeaways:
-  - "Datenlebenszyklus und Aufbewahrung braucht zuerst eine klare begriffliche Einordnung."
-  - "Beispiele helfen nur, wenn ihr Kontext bekannt ist."
-  - "Gute Informatikarbeit trennt Modell, Umsetzung und Prüfung."
-recognizeSignals:
-  - "Ein Thema wirkt wie ein Einzelfall, braucht aber zuerst einen allgemeinen Rahmen."
-  - "Mehrere Beispiele zeigen dieselbe Grundidee aus verschiedenen Blickwinkeln."
-selfCheckPoints:
-  - "Kann ich Grundidee und Beispiel unterscheiden?"
-  - "Kann ich typische Fehler nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "daten-und-information"
-  - "datenlebenszyklus-und-aufbewahrung"
+topicPath: ["daten-und-information", "datenlebenszyklus-und-aufbewahrung", "ueberblick", "grundlagen-datenlebenszyklus-und-aufbewahrung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Daten und Information"]
 draft: false
 ---
-
 ![Schaubild: Datenlebenszyklus und Aufbewahrung](/schlaufuchs-platform/images/overviews/v185/datenlebenszyklus-und-aufbewahrung.svg)
 
 ## Begriff

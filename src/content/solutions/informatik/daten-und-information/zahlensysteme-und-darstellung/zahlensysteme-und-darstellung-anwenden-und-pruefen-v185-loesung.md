@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Zahlensysteme und Darstellung – anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über zahlensysteme und darstellung."
-subject: informatik
+subject: "informatik"
 section: "Daten und Information"
-topicPath:
-  - "daten-und-information"
-  - "zahlensysteme-und-darstellung"
-  - "loesung"
-taskId: INF-V185-001-2
-relatedExercise: src/content/exercises/informatik/daten-und-information/zahlensysteme-und-darstellung/zahlensysteme-und-darstellung-anwenden-und-pruefen-v185.md
-tags:
-  - "informatik"
-  - "daten-und-information"
-  - "zahlensysteme-und-darstellung"
-  - "loesung"
+topicPath: ["daten-und-information", "zahlensysteme-und-darstellung", "zahlensysteme-und-darstellung-anwenden-und-pruefen-v185"]
+taskId: "INF-V185-001-2"
+relatedExercise: "src/content/exercises/informatik/daten-und-information/zahlensysteme-und-darstellung/zahlensysteme-und-darstellung-anwenden-und-pruefen-v185.md"
+tags: ["informatik", "Daten und Information", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

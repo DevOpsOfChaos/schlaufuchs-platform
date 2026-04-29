@@ -1,47 +1,19 @@
 ---
-title: Operatorpriorität und Klammern verstehen
-description: Verstehe, warum manche Operatoren zuerst ausgewertet werden und wie Klammern Ausdrücke lesbarer machen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - operatoren-und-ausdruecke
-  - operatorprioritaet-und-klammern-verstehen
-learningGoals:
-  - Du erklärst, was Priorität bei Operatoren bedeutet.
-  - Du erkennst, warum Klammern Mehrdeutigkeiten für Menschen reduzieren.
-  - Du liest zusammengesetzte Ausdrücke ruhiger und in sinnvoller Reihenfolge.
-practiceIdeas:
-  - Sprich einen verschachtelten Ausdruck Schritt für Schritt in Worte um.
-  - Ergänze Klammern an Stellen, die fachlich klarer werden sollen.
-  - Vergleiche einen Ausdruck mit und ohne Klammern auf Lesbarkeit.
-commonMistakes:
-  - Zu denken, Ausdrücke würden immer streng von links nach rechts abgearbeitet.
-  - Auf Prioritäten zu vertrauen, obwohl Klammern die Lesbarkeit verbessern würden.
-  - Boolesche und arithmetische Teile im selben Ausdruck nicht sauber zu trennen.
-keyTakeaways:
-  - Operatoren mit höherer Priorität werden zuerst ausgewertet.
-  - Klammern können Lesbarkeit und Sicherheit verbessern.
-  - Ein Ausdruck ist fachlich ruhiger, wenn seine Teilschritte sichtbar sind.
-recognizeSignals:
-  - In einer Zeile stehen mehrere verschiedene Operatoren.
-  - Du sollst erklären, welcher Teil zuerst ausgewertet wird.
-  - Ein Ausdruck wirkt korrekt, aber schwer lesbar.
-selfCheckPoints:
-  - Kann ich die Auswertungsreihenfolge grob beschreiben?
-  - Kann ich sinnvolle Klammern ergänzen, ohne die Bedeutung zu ändern?
-  - Kann ich einen komplexen Ausdruck in Teilstücke zerlegen?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - operatoren
-  - prioritaet
+title: "Operatorpriorität und Klammern verstehen"
+description: "Verstehe, warum manche Operatoren zuerst ausgewertet werden und wie Klammern Ausdrücke lesbarer machen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "operatorprioritaet-und-klammern-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Nicht jeder Operator in einem Ausdruck wird gleich früh ausgewertet. Einige binden stärker als andere. Genau das nennt man Priorität.

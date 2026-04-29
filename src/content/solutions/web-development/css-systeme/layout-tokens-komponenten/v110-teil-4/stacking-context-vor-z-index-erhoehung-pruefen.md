@@ -3,23 +3,12 @@ title: "Lösung – Stacking Context vor z-index-Erhöhung prüfen"
 description: "Musterlösung zu Stacking Context vor z-index-Erhöhung prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css-systeme"
-  - "layout-tokens-komponenten"
-  - "v110-teil-4"
-  - "stacking-context-vor-z-index-erhoehung-pruefen"
+topicPath: ["css-systeme", "layout-tokens-komponenten", "v110-teil-4", "stacking-context-vor-z-index-erhoehung-pruefen"]
 taskId: "v110-web-development-stacking-context-vor-z-index-erhoehung-pruefen"
 relatedExercise: "web-development/css-systeme/layout-tokens-komponenten/v110-teil-4/stacking-context-vor-z-index-erhoehung-pruefen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "css-systeme"
-  - "layout-tokens-komponenten"
-  - "stacking-context-vor-z-index-erhoehung-pruefen"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Stacking Context vor z-index-Erhöhung prüfen**.

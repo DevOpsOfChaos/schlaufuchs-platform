@@ -1,11 +1,17 @@
 ---
-title: Netzwerkanalyse – Grundaufgaben
-description: Übe einfache elektrische Netzwerke systematisch zu lesen und zu analysieren.
-subject: elektrotechnik
-level: mittel
+title: "Netzwerkanalyse – Grundaufgaben"
+description: "Übe einfache elektrische Netzwerke systematisch zu lesen und zu analysieren."
+subject: "elektrotechnik"
+section: "netzwerkanalyse-grundaufgaben"
+topicPath: ["netzwerkanalyse-grundaufgaben"]
+taskId: "AUTO-NETZWERKANALYSE-GRUNDAUFGABEN"
+tags: ["elektrotechnik", "netzwerkanalyse-grundaufgaben", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 Diese Übung hilft dir, einfache Netzwerke in Knoten, Zweige und Grundgrößen zu zerlegen und typische Rechenschritte besser einzuordnen.
 
 ## Aufgabenideen

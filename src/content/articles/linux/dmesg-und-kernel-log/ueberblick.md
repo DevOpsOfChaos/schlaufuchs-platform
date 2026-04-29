@@ -1,32 +1,17 @@
 ---
 title: "dmesg und Kernel-Log"
 description: "Überblick über Kernelmeldungen, Hardwareereignisse und frühe Diagnosehinweise."
-subject: linux
+subject: "linux"
 section: "Systemdiagnose"
-topicPath:
-  - "dmesg-und-kernel-log"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst dmesg und Kernel-Log als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Bootmeldungen, Treiber, Hardwarefehler."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["dmesg-und-kernel-log", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur Anwendungslogs zu prüfen und Kernelmeldungen bei Hardwareproblemen zu übersehen."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "dmesg und Kernel-Log beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Kernelnahe Systemmeldungen."
-  - "Wichtige Hinweise liefern vor allem Bootmeldungen, Treiber, Hardwarefehler."
-recognizeSignals:
-  - "Es geht um kernelnahe systemmeldungen, bootmeldungen oder treiber."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck dmesg und Kernel-Log erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "linux"
-  - "kernel"
-  - "logs"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Systemdiagnose"]
 draft: false
 ---
 # dmesg und Kernel-Log

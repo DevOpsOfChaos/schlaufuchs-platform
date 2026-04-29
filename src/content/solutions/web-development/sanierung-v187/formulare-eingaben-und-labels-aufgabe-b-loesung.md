@@ -3,23 +3,12 @@ title: "Lösung: Formulare, Eingaben und Labels: Prüfung und Verbesserung"
 description: "Musterlösung zur Aufgabe web-v187-008b im Web-Development-Block v187."
 subject: "web-development"
 section: "html"
-topicPath: 
-  - "html-und-semantik"
-  - "formulare"
-  - "loesung-b"
+topicPath: ["sanierung-v187", "formulare-eingaben-und-labels-aufgabe-b"]
 taskId: "web-v187-008b"
 relatedExercise: "web-development/sanierung-v187/formulare-eingaben-und-labels-aufgabe-b"
-tags: 
-  - "formulare"
-  - "inputs"
-  - "labels"
-  - "html"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "html", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-008b`
 
     Ausgangsauftrag: Verbessere ein Formular, in dem Platzhalter, Labels und Pflichtfeldhinweise durcheinander geraten sind.

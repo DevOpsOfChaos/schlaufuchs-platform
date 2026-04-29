@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Brown-out-Reset einordnen"
 description: "Musterlösung zu Brown-out-Reset einordnen mit Trennkante und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-praxis-v115"
-  - "zeit-und-energie"
-  - "brown-out-reset-einordnen-v115"
+topicPath: ["mikrocontroller-praxis-v115", "zeit-und-energie", "brown-out-reset-einordnen-v115"]
 taskId: "elektrotechnik-brown-out-reset-einordnen-v115"
 relatedExercise: "elektrotechnik/mikrocontroller-praxis-v115/zeit-und-energie/brown-out-reset-einordnen-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "mikrocontroller-praxis"
-  - "zeit und energie"
-  - "lösung"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Brown-out-Reset einordnen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

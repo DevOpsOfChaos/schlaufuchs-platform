@@ -3,19 +3,10 @@ title: "Lösung – Servo-Steuersignal von normaler PWM unterscheiden"
 description: "Musterlösung zu „Servo-Steuersignal von normaler PWM unterscheiden“."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "servo-impulse-und-pwm-nicht-verwechseln"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "servo-impulse-und-pwm-nicht-verwechseln"]
 taskId: "et-mc-v93-servo-pwm"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/servo-impulse-und-pwm-nicht-verwechseln"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "servo"
-  - "pwm"
-  - "impulsbreite"
-  - "signal"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

@@ -3,24 +3,12 @@ title: "Lösung: Sicherheit bei Frontend-Daten: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-v190-028a im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "robuste-webseiten"
-  - "sicherheit-bei-frontend-daten"
-  - "loesung-a"
+topicPath: ["sanierung-v190", "sicherheit-bei-frontend-daten-aufgabe-a"]
 taskId: "web-v190-028a"
 relatedExercise: "web-development/sanierung-v190/sicherheit-bei-frontend-daten-aufgabe-a"
-tags:
-  - "robuste-webseiten"
-  - "sicherheit"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-028a`
 
 Ausgangsauftrag: Markiere riskante Stellen in einer Kommentarvorschau.

@@ -1,35 +1,17 @@
 ---
 title: "Subshells und Variablenbereiche"
 description: "Überblick über Subshells, Prozessgrenzen und die Sichtbarkeit von Variablen in Shell-Skripten."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - "subshells-und-variablenbereiche"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Subshells und Variablenbereiche als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["subshells-und-variablenbereiche", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, jede Variable als global für das gesamte Skript zu betrachten, obwohl Prozessgrenzen gelten."
-keyTakeaways:
-  - "Eine Subshell ist eine separate Shell-Ausführung, die eine eigene Umgebung besitzt und Änderungen nicht immer an die Elternshell zurückgibt."
-  - "Das Verständnis erklärt, warum Variablen nach Pipelines oder geklammerten Befehlen manchmal scheinbar verschwinden."
-  - "Nicht jedes Gruppieren ist eine Subshell. Geschweifte Klammern und runde Klammern haben unterschiedliche Bedeutung."
-recognizeSignals:
-  - "Es geht um Subshells und Variablenbereiche, wenn klammern können Befehle in einer Subshell gruppieren."
-  - "Das Thema wird relevant, wenn Beispiele wie eine Variable, die innerhalb eines Pipeline-while-Loops gesetzt wird, ist danach je nach Shell nicht mehr verändert sichtbar."
-selfCheckPoints:
-  - "Kann ich Subshells und Variablenbereiche in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "subshell"
-  - "variablen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
 # Subshells und Variablenbereiche

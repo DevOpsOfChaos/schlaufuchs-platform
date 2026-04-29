@@ -3,35 +3,15 @@ title: "Barrierefreiheit im Web: Prüfung und Verbesserung"
 description: "Erstelle eine kurze Accessibility-Checkliste für eine neue Inhaltsseite."
 subject: "web-development"
 section: "qualitaet"
-topicPath: 
-  - "qualitaet-und-zugaenglichkeit"
-  - "barrierefreiheit"
-  - "aufgabe-b"
+topicPath: ["sanierung-v187", "barrierefreiheit-im-web-aufgabe-b"]
 taskId: "web-v187-017b"
-tags: 
-  - "barrierefreiheit"
-  - "accessibility"
-  - "html"
-  - "css"
-  - "web-development"
-  - "aufgabe"
-  - "v187"
-hintPoints: 
-  - "Trenne Zweck, Struktur und sichtbare Wirkung."
-  - "Begründe mindestens eine Entscheidung mit dem Nutzerziel."
-  - "Prüfe einen typischen Fehlerfall aus der Erklärseite."
-selfCheckPoints: 
-  - "Die Lösung passt zur Aufgabenstellung."
-  - "Mindestens eine Entscheidung ist begründet."
-  - "Es gibt keine neue Aufgabe ohne passende Lösung."
-transferIdeas: 
-  - "Übertrage die Entscheidung auf eine zweite kleine Seite."
-  - "Formuliere eine kurze Checkliste für spätere Wiederholung."
-reflectionPrompt: "Welche Entscheidung war am wichtigsten, damit die Lösung ruhig und wartbar bleibt?"
+tags: ["web-development", "qualitaet", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Erstelle eine kurze Accessibility-Checkliste für eine neue Inhaltsseite.

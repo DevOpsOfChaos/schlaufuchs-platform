@@ -1,34 +1,19 @@
 ---
 title: "Baumstrukturen"
 description: "Allgemeiner Überblick über Bäume als hierarchische Datenstrukturen."
-subject: informatik
+subject: "informatik"
 section: "Datenstrukturen"
-topicPath:
-  - "baumstrukturen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Baumstrukturen als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["baumstrukturen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird nur die visuelle Hierarchie betrachtet. Für Algorithmen sind Traversierung und Tiefe entscheidend."
-keyTakeaways:
-  - "Bäume strukturieren hierarchische Daten und sind vielseitig in Suche und Darstellung."
-  - "Baumstrukturen sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Baumstrukturen."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Baumstrukturen erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "informatik"
-  - "baum"
-  - "datenstruktur"
-  - "hierarchie"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Datenstrukturen"]
 draft: false
 ---
-
 # Baumstrukturen
 
 ![Schaubild zu Baumstrukturen.](/schlaufuchs-platform/images/overviews/v150/baumstrukturen.svg)

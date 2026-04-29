@@ -1,32 +1,15 @@
 ---
 title: "HTML – Validierungsregel und Fehlerzustand trennen"
 description: "Ordne required, pattern, aria-invalid und Fehlermeldung fachlich richtig ein."
-subject: web-development
+subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "formular-validierung"
-  - "native-validierung-und-aria-invalid-richtig-kombinieren"
+topicPath: ["html", "formular-validierung", "native-validierung-und-aria-invalid-richtig-kombinieren"]
 taskId: "wd-html-v95-native-validierung-aria-invalid"
-tags:
-  - "web development"
-  - "html"
-  - "validierung"
-  - "aria-invalid"
-  - "formulare"
-hintPoints:
-  - "Trenne zuerst sichtbares Verhalten, semantische Bedeutung und technische Umsetzung."
-  - "Begründe deine Entscheidung aus Nutzerperspektive, nicht nur aus Code-Sicht."
-  - "Prüfe am Ende, ob die Lösung ohne Ratespiel verständlich bleibt."
-selfCheckPoints:
-  - "Ist der betroffene UI-Baustein eindeutig benannt?"
-  - "Ist die technische Entscheidung fachlich begründet?"
-  - "Gibt es eine klare Verbesserung gegenüber dem Ausgangszustand?"
-transferIdeas:
-  - "Übertrage die Entscheidung auf eine zweite Komponente derselben Seite."
-  - "Formuliere eine kurze Prüfregel, die ein Team beim Review verwenden könnte."
-reflectionPrompt: "Welche kleine Änderung hätte hier die größte Wirkung auf Verständlichkeit oder Zugänglichkeit?"
-level: mittel
+tags: ["web-development", "HTML", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
 ## Ausgangslage

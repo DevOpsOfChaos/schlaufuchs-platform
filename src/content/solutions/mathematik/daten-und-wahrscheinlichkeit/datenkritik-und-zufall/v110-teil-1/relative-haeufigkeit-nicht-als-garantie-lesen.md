@@ -3,23 +3,12 @@ title: "Lösung – Relative Häufigkeit nicht als Garantie lesen"
 description: "Musterlösung zu Relative Häufigkeit nicht als Garantie lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Daten und Zufall"
-topicPath:
-  - "daten-und-wahrscheinlichkeit"
-  - "datenkritik-und-zufall"
-  - "v110-teil-1"
-  - "relative-haeufigkeit-nicht-als-garantie-lesen"
+topicPath: ["daten-und-wahrscheinlichkeit", "datenkritik-und-zufall", "v110-teil-1", "relative-haeufigkeit-nicht-als-garantie-lesen"]
 taskId: "v110-mathematik-relative-haeufigkeit-nicht-als-garantie-lesen"
 relatedExercise: "mathematik/daten-und-wahrscheinlichkeit/datenkritik-und-zufall/v110-teil-1/relative-haeufigkeit-nicht-als-garantie-lesen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfung"
-  - "daten-und-wahrscheinlichkeit"
-  - "datenkritik-und-zufall"
-  - "relative-haeufigkeit-nicht-als-garantie-lesen"
+tags: ["mathematik", "Daten und Zufall", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Relative Häufigkeit nicht als Garantie lesen**.

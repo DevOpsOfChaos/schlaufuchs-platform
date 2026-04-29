@@ -3,22 +3,12 @@ title: "Lösung: Volumeneinheit bewusst wählen"
 description: "Musterlösung zur Aufgabe „Volumeneinheit bewusst wählen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "geometrie-messen-und-begruenden"
-  - "flaeche-umfang-und-volumen"
-  - "volumeneinheit-bewusst-waehlen-v116"
+topicPath: ["geometrie-messen-und-begruenden", "flaeche-umfang-und-volumen", "volumeneinheit-bewusst-waehlen-v116"]
 taskId: "volumeneinheit-bewusst-waehlen-v116"
 relatedExercise: "mathematik/geometrie-messen-und-begruenden/flaeche-umfang-und-volumen/volumeneinheit-bewusst-waehlen-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "flaeche umfang und volumen"
-  - "volumeneinheit bewusst waehlen"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

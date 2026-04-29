@@ -1,11 +1,17 @@
 ---
-title: Kontrollstrukturen in C erkennen
-description: Übe Bedingungen, Schleifen und typische Programmabläufe in C.
-subject: informatik
-level: mittel
+title: "Kontrollstrukturen in C erkennen"
+description: "Übe Bedingungen, Schleifen und typische Programmabläufe in C."
+subject: "informatik"
+section: "kontrollstrukturen-in-c-erkennen"
+topicPath: ["kontrollstrukturen-in-c-erkennen"]
+taskId: "AUTO-KONTROLLSTRUKTUREN-IN-C-ERKENNEN"
+tags: ["informatik", "kontrollstrukturen-in-c-erkennen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 Diese Übung hilft dir, `if`, `else`, `while` und `for` sicher zu lesen und ihre Rolle im Programmablauf zu verstehen.
 
 ## Aufgabenideen

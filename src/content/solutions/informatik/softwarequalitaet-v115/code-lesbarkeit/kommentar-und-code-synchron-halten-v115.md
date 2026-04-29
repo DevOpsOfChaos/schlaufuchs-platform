@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Kommentar und Code synchron halten"
 description: "Musterlösung zu Kommentar und Code synchron halten mit Trennkante und Gegenprobe."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "softwarequalitaet-v115"
-  - "code-lesbarkeit"
-  - "kommentar-und-code-synchron-halten-v115"
+topicPath: ["softwarequalitaet-v115", "code-lesbarkeit", "kommentar-und-code-synchron-halten-v115"]
 taskId: "informatik-kommentar-und-code-synchron-halten-v115"
 relatedExercise: "informatik/softwarequalitaet-v115/code-lesbarkeit/kommentar-und-code-synchron-halten-v115"
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "softwarequalität"
-  - "code-lesbarkeit"
-  - "lösung"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Kommentar und Code synchron halten**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

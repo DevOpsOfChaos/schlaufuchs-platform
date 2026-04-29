@@ -1,17 +1,19 @@
 ---
-title: Spannung und Strom richtig messen
-description: Spannung und Strom werden unterschiedlich gemessen und müssen in Schaltungen bewusst und korrekt erfasst werden.
-subject: elektrotechnik
-section: Grundlagen
-level: mittel
-tags:
-  - Spannung messen
-  - Strom messen
-  - Multimeter
-  - Elektrotechnik
+title: "Spannung und Strom richtig messen"
+description: "Spannung und Strom werden unterschiedlich gemessen und müssen in Schaltungen bewusst und korrekt erfasst werden."
+subject: "elektrotechnik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "spannung-und-strom-richtig-messen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 Spannung und Strom gehören zu den wichtigsten elektrischen Größen. Gerade weil beide so grundlegend sind, werden sie oft verwechselt – nicht nur sprachlich, sondern auch praktisch beim Messen. Wer Spannung und Strom richtig messen will, muss verstehen, dass beide Messungen unterschiedlich gedacht und unterschiedlich in die Schaltung eingebunden werden.

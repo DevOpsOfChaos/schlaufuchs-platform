@@ -3,26 +3,12 @@ title: "Lösung: Shell-Skripte sicher ausführen: Aufgabe B"
 description: "Musterlösung zur Aufgabe linux-v192-024b im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "automatisierung"
-  - "shell-skripte-sicher-ausfuehren"
-  - "loesung-b"
+topicPath: ["sanierung-v192", "shell-skripte-sicher-ausfuehren-loesung-b"]
 taskId: "linux-v192-024b"
 relatedExercise: "linux/sanierung-v192/shell-skripte-sicher-ausfuehren-aufgabe-b"
-tags:
-  - "automatisierung"
-  - "shell"
-  - "skripte"
-  - "sicher"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-024b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Shell-Skripte sicher ausführen“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

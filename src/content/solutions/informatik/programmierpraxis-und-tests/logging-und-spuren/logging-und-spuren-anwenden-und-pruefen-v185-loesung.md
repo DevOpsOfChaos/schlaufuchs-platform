@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Logging und Programmspruren – anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über logging und programmspruren."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "logging-und-spuren"
-  - "loesung"
-taskId: INF-V185-007-2
-relatedExercise: src/content/exercises/informatik/programmierpraxis-und-tests/logging-und-spuren/logging-und-spuren-anwenden-und-pruefen-v185.md
-tags:
-  - "informatik"
-  - "programmierpraxis-und-tests"
-  - "logging-und-spuren"
-  - "loesung"
+topicPath: ["programmierpraxis-und-tests", "logging-und-spuren", "logging-und-spuren-anwenden-und-pruefen-v185"]
+taskId: "INF-V185-007-2"
+relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/logging-und-spuren/logging-und-spuren-anwenden-und-pruefen-v185.md"
+tags: ["informatik", "Programmierpraxis und Tests", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

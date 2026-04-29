@@ -1,33 +1,19 @@
 ---
 title: "Ausgangstreiber"
 description: "Ein Ausgangstreiber ist der Teil einer Schaltung, der ein Signal nicht nur logisch erzeugt, sondern auch elektrischen Strom liefern oder aufnehmen kann. Er verbindet Logikpegel mit realen Lasten."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik und Mikrocontroller"
-topicPath:
-  - "ausgangstreiber"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Ausgangstreiber."
-  - "Du kannst Ausgangstreiber in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["ausgangstreiber", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur den Pegel zu betrachten und den zulässigen Ausgangsstrom zu ignorieren."
-keyTakeaways:
-  - "Ein Ausgangstreiber ist der Teil einer Schaltung, der ein Signal nicht nur logisch erzeugt, sondern auch elektrischen Strom liefern oder aufnehmen kann."
-  - "Wichtig sind vor allem strom liefern und strom aufnehmen, push-pull, open-drain und tri-state und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Ausgangstreiber, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Ausgangstreiber dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "grundlagen"
-  - "ausgangstreiber"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik und Mikrocontroller"]
 draft: false
 ---
-
 # Ausgangstreiber
 
 ![Schaubild zu Ausgangstreibern.](/schlaufuchs-platform/images/overviews/v150/ausgangstreiber.svg)

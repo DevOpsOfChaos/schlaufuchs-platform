@@ -3,23 +3,12 @@ title: "Lösung: Laborprotokoll für Schaltungen: Aufgabe B"
 description: "Musterlösung zur Aufgabe etech-v191-011b im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "messpraxis"
-  - "laborprotokoll-fuer-schaltungen"
-  - "loesung-b"
+topicPath: ["sanierung-v191", "laborprotokoll-fuer-schaltungen-aufgabe-b"]
 taskId: "etech-v191-011b"
 relatedExercise: "elektrotechnik/sanierung-v191/laborprotokoll-fuer-schaltungen-aufgabe-b"
-tags:
-  - "messpraxis"
-  - "laborprotokoll"
-  - "schaltung"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-011b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Laborprotokoll für Schaltungen“ um einen Messfehler, einen Sicherheitscheck und eine kurze Plausibilitätsprüfung.

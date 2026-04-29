@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Kontrollstrukturen und Ablauf"
 description: "Verstehe, wie Bedingungen, Schleifen und Reihenfolgen den Programmablauf steuern."
-subject: informatik
+subject: "informatik"
 section: "programmablauf-und-steuerung"
-topicPath:
-  - "programmablauf-und-steuerung"
-  - "kontrollstrukturen-und-ablauf"
-learningGoals:
-  - "Du erklärst die Grundidee von Kontrollstrukturen und Ablauf in eigenen Worten."
-  - "Du ordnest typische Begriffe und Teilaspekte fachlich richtig ein."
-  - "Du erkennst, welche Detailseiten, Aufgaben oder Fehlerbilder zum Thema passen."
-practiceIdeas:
-  - "Beschreibe ein eigenes Beispiel und markiere die wichtigsten Begriffe."
-  - "Vergleiche die Übersicht mit einer konkreten Aufgabe zum gleichen Thema."
-commonMistakes:
-  - "Ein einzelnes Beispiel für das gesamte Thema zu halten."
-  - "Begriffe zu vermischen, die unterschiedliche Rollen haben."
-  - "Direkt mit Spezialfällen zu beginnen, bevor die Grundidee klar ist."
-keyTakeaways:
-  - "Kontrollstrukturen verändern, wann und wie oft Programmteile ausgeführt werden."
-  - "Bedingungen wählen zwischen Fällen, Schleifen wiederholen Abläufe."
-  - "Der Ablauf sollte nicht nur syntaktisch, sondern logisch gelesen werden."
-recognizeSignals:
-  - "Du suchst zuerst eine allgemeine Einordnung statt eines Einzelfalls."
-  - "Mehrere Detailseiten wirken ähnlich und sollen fachlich sortiert werden."
-selfCheckPoints:
-  - "Kann ich das Thema in zwei bis drei Sätzen allgemein erklären?"
-  - "Kann ich die wichtigsten Teilaspekte voneinander unterscheiden?"
-level: einfach
-tags:
-  - "informatik"
-  - "kontrollstrukturen"
-  - "schleifen"
+topicPath: ["programmablauf-und-steuerung", "kontrollstrukturen-und-ablauf", "ueberblick", "grundlagen-kontrollstrukturen-und-ablauf"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "programmablauf-und-steuerung"]
 draft: false
 ---
-
 ![Ablauf mit Entscheidung und Wiederholung](/schlaufuchs-platform/images/overviews/v184/kontrollstrukturen-und-ablauf.svg)
 
 ## Begriff

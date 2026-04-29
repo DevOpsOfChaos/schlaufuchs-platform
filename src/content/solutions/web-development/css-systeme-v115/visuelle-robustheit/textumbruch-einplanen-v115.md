@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Textumbruch einplanen"
 description: "Musterlösung zu Textumbruch einplanen mit Trennkante und Gegenprobe."
-subject: web-development
+subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "css-systeme-v115"
-  - "visuelle-robustheit"
-  - "textumbruch-einplanen-v115"
+topicPath: ["css-systeme-v115", "visuelle-robustheit", "textumbruch-einplanen-v115"]
 taskId: "web-development-textumbruch-einplanen-v115"
 relatedExercise: "web-development/css-systeme-v115/visuelle-robustheit/textumbruch-einplanen-v115"
-tags:
-  - "web development"
-  - "feinstruktur"
-  - "unterthema"
-  - "css-systeme"
-  - "visuelle robustheit"
-  - "lösung"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Textumbruch einplanen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

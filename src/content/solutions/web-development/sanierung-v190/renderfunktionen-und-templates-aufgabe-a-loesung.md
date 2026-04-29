@@ -3,24 +3,12 @@ title: "Lösung: Renderfunktionen und Templates: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-v190-018a im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "ui-zustand"
-  - "renderfunktionen-und-templates"
-  - "loesung-a"
+topicPath: ["sanierung-v190", "renderfunktionen-und-templates-aufgabe-a"]
 taskId: "web-v190-018a"
 relatedExercise: "web-development/sanierung-v190/renderfunktionen-und-templates-aufgabe-a"
-tags:
-  - "ui-zustand"
-  - "renderfunktionen"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-018a`
 
 Ausgangsauftrag: Entwirf eine Renderfunktion für drei Lernkarten.

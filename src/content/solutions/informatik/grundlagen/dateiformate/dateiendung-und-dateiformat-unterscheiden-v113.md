@@ -3,20 +3,12 @@ title: "Lösung – Dateiendung und Dateiformat unterscheiden"
 description: "Musterlösung zu Dateiendung und Dateiformat unterscheiden mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "grundlagen"
-  - "dateiformate"
-  - "dateiendung-und-dateiformat-unterscheiden-v113"
+topicPath: ["grundlagen", "dateiformate", "dateiendung-und-dateiformat-unterscheiden-v113"]
 taskId: "v113-informatik-dateiendung-und-dateiformat-unterscheiden-v113"
 relatedExercise: "informatik/grundlagen/dateiformate/dateiendung-und-dateiformat-unterscheiden-v113"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "dateiendung-und-dateiformat-unterscheiden-v113"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Dateiendung und Dateiformat unterscheiden**.

@@ -3,21 +3,12 @@ title: "Lösung – FormData statt manuellem Auslesen nutzen"
 description: "Musterlösung zu formdata statt manuellem auslesen nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "javascript"
-  - "dom-und-events"
-  - "formdata-statt-manuellem-auslesen-nutzen"
+topicPath: ["javascript", "dom-und-events", "formdata-statt-manuellem-auslesen-nutzen"]
 taskId: "v112-web-development-formdata-statt-manuellem-auslesen-nutzen"
 relatedExercise: "web-development/javascript/dom-und-events/formdata-statt-manuellem-auslesen-nutzen"
-tags:
-  - "web-development"
-  - "v112"
-  - "feinstruktur"
-  - "javascript"
-  - "formdata-statt-manuellem-auslesen-nutzen"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **JavaScript DOM und Events**.

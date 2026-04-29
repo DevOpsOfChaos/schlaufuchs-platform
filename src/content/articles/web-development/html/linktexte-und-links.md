@@ -1,44 +1,19 @@
 ---
-title: Linktexte und Links sinnvoll schreiben
-description: Verstehe, warum gute Linktexte Orientierung geben und wie einzelne Links inhaltlich statt nur optisch wirken.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - linktexte-und-links
-tags:
-  - links
-  - a-element
-  - barrierefreiheit
-  - navigation
-learningGoals:
-  - Du erklärst, warum Linktexte den Zweck eines Links deutlich machen sollen.
-  - Du unterscheidest aussagekräftige und unklare Linktexte.
-  - Du erkennst einzelne Links als inhaltliche Wegweiser und nicht nur als klickbare Farbe.
-practiceIdeas:
-  - Vergleiche gute und schlechte Linktexte in kleinen Beispielen.
-  - Verbessere unklare Formulierungen wie hier klicken.
-  - Prüfe bei einem Link, ob sein Ziel aus dem Text verständlich wird.
-commonMistakes:
-  - Links nur visuell statt inhaltlich zu betrachten.
-  - Linktexte zu allgemein zu formulieren.
-  - Den Zweck des Ziels nicht im Linktext sichtbar zu machen.
-keyTakeaways:
-  - Ein guter Linktext macht den Zweck des Ziels erkennbar.
-  - Einzelne Links sind Teil der Orientierung auf einer Seite.
-  - Unklare Standardformulierungen helfen oft weniger als präzise Benennungen.
-recognizeSignals:
-  - Es geht um Linkzweck, Formulierungen oder Verständlichkeit einzelner Verlinkungen.
-  - Du sollst Links verbessern oder ihre Aussagekraft beurteilen.
-  - Ein Beispiel vergleicht mehrere Linktexte für dasselbe Ziel.
-selfCheckPoints:
-  - Kann ich erklären, warum hier oft kein guter Linktext ist?
-  - Kann ich einen Linkzweck in wenigen Worten präzise beschreiben?
-  - Kann ich beurteilen, ob ein Linktext auch ohne Farbe sinnvoll bleibt?
-level: einfach
+title: "Linktexte und Links sinnvoll schreiben"
+description: "Verstehe, warum gute Linktexte Orientierung geben und wie einzelne Links inhaltlich statt nur optisch wirken."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "linktexte-und-links"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Link ist nicht nur eine klickbare Stelle. Er ist ein **kleiner Wegweiser**. Darum ist bei einzelnen Links vor allem wichtig, ob ihr Text schon vor dem Klick erklärt, **wohin** er führt oder **was** dort zu finden ist.

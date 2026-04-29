@@ -3,21 +3,12 @@ title: "Lösung – Grid-Bereiche benennen"
 description: "Musterlösung zu grid-bereiche benennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "css"
-  - "css-und-layout"
-  - "grid-bereiche-benennen"
+topicPath: ["css", "css-und-layout", "grid-bereiche-benennen"]
 taskId: "v112-web-development-grid-bereiche-benennen"
 relatedExercise: "web-development/css/css-und-layout/grid-bereiche-benennen"
-tags:
-  - "web-development"
-  - "v112"
-  - "feinstruktur"
-  - "css"
-  - "grid-bereiche-benennen"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **CSS Layout und Gestaltung**.

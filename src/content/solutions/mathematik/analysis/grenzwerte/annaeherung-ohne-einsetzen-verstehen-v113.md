@@ -3,20 +3,12 @@ title: "Lösung – Annäherung ohne Einsetzen verstehen"
 description: "Musterlösung zu Annäherung ohne Einsetzen verstehen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "analysis"
-  - "grenzwerte"
-  - "annaeherung-ohne-einsetzen-verstehen-v113"
+topicPath: ["analysis", "grenzwerte", "annaeherung-ohne-einsetzen-verstehen-v113"]
 taskId: "v113-mathematik-annaeherung-ohne-einsetzen-verstehen-v113"
 relatedExercise: "mathematik/analysis/grenzwerte/annaeherung-ohne-einsetzen-verstehen-v113"
-tags:
-  - "mathematik"
-  - "strukturcheck"
-  - "unterthema"
-  - "annaeherung-ohne-einsetzen-verstehen-v113"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Annäherung ohne Einsetzen verstehen**.

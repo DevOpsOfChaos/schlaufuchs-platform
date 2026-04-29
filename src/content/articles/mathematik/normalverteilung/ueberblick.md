@@ -1,31 +1,17 @@
 ---
 title: "Normalverteilung"
 description: "Allgemeiner Überblick über Normalverteilung, Glockenkurve und Streuung um einen Mittelwert."
-subject: mathematik
+subject: "mathematik"
 section: "Daten und Zufall"
-topicPath:
-  - "normalverteilung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Normalverteilung grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["normalverteilung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Normalverteilung nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Normalverteilung beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Normalverteilung, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Normalverteilung in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "statistik"
-  - "normalverteilung"
-  - "daten"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Daten und Zufall"]
 draft: false
 ---
 # Normalverteilung

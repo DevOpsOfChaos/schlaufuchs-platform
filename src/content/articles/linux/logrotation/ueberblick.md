@@ -1,36 +1,19 @@
 ---
 title: "Logrotation"
 description: "Einordnung von Logrotation als Pflege von wachsenden Protokolldateien."
-subject: linux
+subject: "linux"
 section: "Logs"
-topicPath:
-  - "logrotation"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Logrotation als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["logrotation", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Rotation erst eingerichtet, wenn eine Platte vollgelaufen ist."
-keyTakeaways:
-  - "Logrotation verhindert unkontrolliert wachsende Logs."
-  - "Aufbewahrung muss Diagnose und Datenschutz ausbalancieren."
-  - "Dienste müssen nach Rotation korrekt mit neuen Logdateien arbeiten."
-recognizeSignals:
-  - "Es geht um Logrotation als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Logrotation in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "logs"
-  - "logrotate"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Logs"]
 draft: false
 ---
-
 # Logrotation
 
 Logdateien wachsen, solange Programme Ereignisse protokollieren. Logrotation begrenzt dieses Wachstum, indem alte Logs umbenannt, komprimiert, gelöscht oder archiviert werden. Ohne Rotation können Logs ein Dateisystem füllen und Dienste stören.

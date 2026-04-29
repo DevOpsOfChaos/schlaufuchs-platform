@@ -3,42 +3,17 @@ title: "Komplexität alltagsnah abschätzen"
 description: "Verstehe aufwand über datenmenge und schleifen grob einschätzen als ruhigen Informatik-Baustein für Qualität, Tests und nachvollziehbare Änderungen."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "datenstrukturen-und-algorithmen"
-  - "komplexitaet-alltagsnah-abschaetzen"
-learningGoals:
-  - "Aufwand über Datenmenge und Schleifen grob einschätzen"
-  - "Beobachtung, Entscheidung und Prüfung klar trennen"
-  - "einen kleinen überprüfbaren nächsten Schritt formulieren"
-practiceIdeas:
-  - "Vergleiche zwei Suchstrategien für kleine und große Datenmengen."
-  - "Formuliere einen zweiten Prüfpunkt, der ohne große Umstellung auskommt."
-commonMistakes:
-  - "Es wird direkt geändert, bevor Verhalten und Erwartung klar sind."
-  - "Tests prüfen zu viele Dinge auf einmal."
-  - "Datenstruktur, Schnittstelle oder Fehlerfall bleiben unausgesprochen."
-keyTakeaways:
-  - "Komplexität beschreibt Wachstum des Aufwands."
-  - "Verschachtelte Schleifen sind ein Warnsignal."
-  - "Manchmal ist Verständlichkeit wichtiger als Mikrooptimierung."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Code wachsen, getestet, umgebaut oder erklärt werden muss."
-selfCheckPoints:
-  - "Kann ich das erwartete Verhalten in einem Satz beschreiben?"
-  - "Ist klar, welche Daten, Schnittstellen oder Zustände betroffen sind?"
-  - "Gibt es einen kleinen Test oder Kontrollpunkt nach der Änderung?"
+topicPath: ["sanierung-v193", "komplexitaet-alltagsnah-abschaetzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "komplexitaet"
-  - "alltagsnah"
-  - "abschaetzen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Komplexität alltagsnah abschätzen](/schlaufuchs-platform/images/informatik/sanierung-v193/komplexitaet-alltagsnah-abschaetzen.svg)
 
 Komplexität alltagsnah abschätzen gehört zur Informatik-Sanierung v193. Die Seite behandelt das Thema nicht als isolierten Programmiertrick, sondern als Qualitätsentscheidung: Was soll der Code leisten, woran erkennt man korrektes Verhalten und wie bleibt die Änderung später verständlich?

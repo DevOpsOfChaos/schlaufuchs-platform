@@ -3,23 +3,12 @@ title: "Lösung – Lineare Suche und binäre Suche abgrenzen"
 description: "Musterlösung zu Suchstrategie mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "algorithmen-denken"
-  - "such-und-sortierideen"
-  - "suche"
-  - "lineare-suche-und-binaere-suche-abgrenzen"
+topicPath: ["algorithmen-denken", "such-und-sortierideen", "suche", "lineare-suche-und-binaere-suche-abgrenzen"]
 taskId: "v111-informatik-lineare-suche-und-binaere-suche-abgrenzen"
 relatedExercise: "informatik/algorithmen-denken/such-und-sortierideen/suche/lineare-suche-und-binaere-suche-abgrenzen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "unterthema"
-  - "algorithmen-denken"
-  - "such-und-sortierideen"
-  - "lineare-suche-und-binaere-suche-abgrenzen"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Suchstrategie**.

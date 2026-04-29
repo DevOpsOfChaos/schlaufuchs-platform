@@ -3,35 +3,15 @@ title: "Aufgabe – Prozentwert und Grundwert in Textaufgaben trennen"
 description: "Übe Prozentwert und Grundwert mit einem kleinen Szenario, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Grundlagen"
-topicPath:
-  - "grundlagen"
-  - "prozent-und-wachstum"
-  - "prozentwert-und-grundwert"
-  - "prozentwert-und-grundwert-in-textaufgaben-trennen"
+topicPath: ["grundlagen", "prozent-und-wachstum", "prozentwert-und-grundwert", "prozentwert-und-grundwert-in-textaufgaben-trennen"]
 taskId: "v109-mathematik-prozentwert-und-grundwert-in-textaufgaben-trennen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfen"
-  - "grundlagen"
-  - "prozent-und-wachstum"
-  - "prozentwert und grundwert"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Übertrage den Prüfschritt auf ein Nachbarthema und nenne den Unterschied."
-reflectionPrompt: "Welche kleine Trennkante macht Prozentwert und Grundwert übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["mathematik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Prozentwert und Grundwert**.

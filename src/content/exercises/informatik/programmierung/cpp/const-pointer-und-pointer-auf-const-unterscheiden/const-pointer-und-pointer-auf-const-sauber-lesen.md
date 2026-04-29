@@ -1,33 +1,17 @@
 ---
-title: Const-Pointer und Pointer auf const sauber lesen
-description: Unterscheide bei Pointer-Deklarationen, ob der Zielwert geschützt ist oder die Adresse fest bleibt.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - pointer-und-adressen
-  - const-pointer-und-pointer-auf-const-unterscheiden
-  - const-pointer-und-pointer-auf-const-sauber-lesen
-taskId: INF-PROG-CPP-PTR-005
-level: mittel
+title: "Const-Pointer und Pointer auf const sauber lesen"
+description: "Unterscheide bei Pointer-Deklarationen, ob der Zielwert geschützt ist oder die Adresse fest bleibt."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "const-pointer-und-pointer-auf-const-unterscheiden", "const-pointer-und-pointer-auf-const-sauber-lesen"]
+taskId: "INF-PROG-CPP-PTR-005"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - aufgabe
-hintPoints:
-  - "Frage zuerst: Was bleibt hier fest?"
-  - "Trenne Zielwert und gespeicherte Adresse konsequent voneinander."
-selfCheckPoints:
-  - "Habe ich benannt, worauf sich const bezieht?"
-  - "Habe ich erlaubt und verboten sauber getrennt?"
-transferIdeas:
-  - "Übertrage die Lesart auf ähnliche Deklarationen mit mehreren Sternen oder Parametern."
-reflectionPrompt: "Welche der zwei Fragen hilft dir mehr: darf ich umhängen oder darf ich schreiben?"
 ---
-
 ## Aufgabe 1: Zwei Deklarationen in Worte übersetzen
 
 Erkläre den Unterschied zwischen:

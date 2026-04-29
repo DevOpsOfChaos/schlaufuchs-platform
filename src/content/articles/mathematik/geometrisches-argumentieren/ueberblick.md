@@ -1,33 +1,17 @@
 ---
 title: "Geometrisches Argumentieren"
 description: "Überblick über Begründen mit Figuren, Eigenschaften, Beziehungen und Hilfslinien."
-subject: mathematik
+subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - "geometrisches-argumentieren"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Geometrisches Argumentieren als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["geometrisches-argumentieren", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Eine sauber gezeichnete Figur ersetzt keinen Beweis. Sie hilft beim Finden von Beziehungen, muss aber durch Argumente gestützt werden."
-keyTakeaways:
-  - "Geometrisches Argumentieren nutzt sichtbare Strukturen, bekannte Sätze und klare Begründungsschritte."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um geometrisches argumentieren, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich geometrisches argumentieren in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "geometrisches argumentieren"
-  - "überblick"
-  - "skizze"
-  - "hilfslinie"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Geometrie"]
 draft: false
 ---
 # Geometrisches Argumentieren

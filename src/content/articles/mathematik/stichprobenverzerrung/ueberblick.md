@@ -1,34 +1,19 @@
 ---
 title: "Stichprobenverzerrung"
 description: "Allgemeiner Überblick über Stichprobenverzerrung und ihre Wirkung auf Datenaussagen."
-subject: mathematik
+subject: "mathematik"
 section: "Statistik"
-topicPath:
-  - "stichprobenverzerrung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Stichprobenverzerrung als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["stichprobenverzerrung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird eine große Stichprobe automatisch als repräsentativ betrachtet."
-keyTakeaways:
-  - "Stichprobenverzerrung ist ein Kernproblem der Dateninterpretation."
-  - "Stichprobenverzerrung sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Stichprobenverzerrung."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Stichprobenverzerrung erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "mathematik"
-  - "statistik"
-  - "stichprobe"
-  - "datenkritik"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Statistik"]
 draft: false
 ---
-
 # Stichprobenverzerrung
 
 Stichprobenverzerrung entsteht, wenn eine Stichprobe die Grundgesamtheit systematisch nicht passend abbildet.

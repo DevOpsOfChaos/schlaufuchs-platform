@@ -1,33 +1,17 @@
 ---
 title: "Grundlagen: Kaskade und Spezifität"
 description: "Allgemeiner Überblick darüber, wie CSS-Regeln ausgewählt, überschrieben und gewichtet werden."
-subject: web-development
+subject: "web-development"
 section: "CSS"
-topicPath:
-  - css
-  - kaskade-und-spezifitaet
-  - grundlagen-kaskade-und-spezifitaet
-learningGoals:
-  - "Du erklärst die Kaskade als Auswahlmechanismus für CSS-Regeln."
-  - "Du beschreibst Spezifität als Gewicht eines Selektors."
-  - "Du unterscheidest Reihenfolge, Herkunft und Genauigkeit einer Regel."
+topicPath: ["css", "kaskade-und-spezifitaet", "ueberblick", "grundlagen-kaskade-und-spezifitaet"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "CSS-Fehler nur durch mehr Selektoren zu lösen."
-  - "Spezifität mit Dateireihenfolge gleichzusetzen."
-  - "Inline-Stile, Klassen und Elemente gleich stark zu behandeln."
-keyTakeaways:
-  - "Die Kaskade entscheidet, welche CSS-Regel gewinnt."
-  - "Spezifität beschreibt, wie gezielt ein Selektor ist."
-  - "Gutes CSS vermeidet unnötige Spezifitätskämpfe."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: mittel
-tags:
-  - web
-  - css
-  - kaskade
-  - spezifitaet
+level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
 ## Begriff

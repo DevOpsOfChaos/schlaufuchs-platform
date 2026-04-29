@@ -3,25 +3,12 @@ title: "Lösung: Netzwerkadresse und Interface: Aufgabe A"
 description: "Musterlösung zur Aufgabe linux-v192-016a im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "netzwerk-und-zugriff"
-  - "netzwerkadresse-und-interface"
-  - "loesung-a"
+topicPath: ["sanierung-v192", "netzwerkadresse-und-interface-loesung-a"]
 taskId: "linux-v192-016a"
 relatedExercise: "linux/sanierung-v192/netzwerkadresse-und-interface-aufgabe-a"
-tags:
-  - "netzwerk-und-zugriff"
-  - "netzwerkadresse"
-  - "interface"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-016a`
 
 Ausgangsauftrag: Erkläre eine ip-addr-Ausgabe für ein kleines System.

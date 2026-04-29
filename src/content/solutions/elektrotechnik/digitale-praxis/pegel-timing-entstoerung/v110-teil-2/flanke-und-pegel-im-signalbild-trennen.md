@@ -3,23 +3,12 @@ title: "Lösung – Flanke und Pegel im Signalbild trennen"
 description: "Musterlösung zu Flanke und Pegel im Signalbild trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Digitale Praxis"
-topicPath:
-  - "digitale-praxis"
-  - "pegel-timing-entstoerung"
-  - "v110-teil-2"
-  - "flanke-und-pegel-im-signalbild-trennen"
+topicPath: ["digitale-praxis", "pegel-timing-entstoerung", "v110-teil-2", "flanke-und-pegel-im-signalbild-trennen"]
 taskId: "v110-elektrotechnik-flanke-und-pegel-im-signalbild-trennen"
 relatedExercise: "elektrotechnik/digitale-praxis/pegel-timing-entstoerung/v110-teil-2/flanke-und-pegel-im-signalbild-trennen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "digitale-praxis"
-  - "pegel-timing-entstoerung"
-  - "flanke-und-pegel-im-signalbild-trennen"
+tags: ["elektrotechnik", "Digitale Praxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Flanke und Pegel im Signalbild trennen**.

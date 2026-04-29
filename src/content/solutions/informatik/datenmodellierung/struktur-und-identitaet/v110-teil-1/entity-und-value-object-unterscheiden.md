@@ -3,23 +3,12 @@ title: "Lösung – Entity und Value Object unterscheiden"
 description: "Musterlösung zu Entity und Value Object unterscheiden mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Datenmodellierung"
-topicPath:
-  - "datenmodellierung"
-  - "struktur-und-identitaet"
-  - "v110-teil-1"
-  - "entity-und-value-object-unterscheiden"
+topicPath: ["datenmodellierung", "struktur-und-identitaet", "v110-teil-1", "entity-und-value-object-unterscheiden"]
 taskId: "v110-informatik-entity-und-value-object-unterscheiden"
 relatedExercise: "informatik/datenmodellierung/struktur-und-identitaet/v110-teil-1/entity-und-value-object-unterscheiden"
-tags:
-  - "informatik"
-  - "struktur"
-  - "praxis"
-  - "datenmodellierung"
-  - "struktur-und-identitaet"
-  - "entity-und-value-object-unterscheiden"
+tags: ["informatik", "Datenmodellierung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Entity und Value Object unterscheiden**.

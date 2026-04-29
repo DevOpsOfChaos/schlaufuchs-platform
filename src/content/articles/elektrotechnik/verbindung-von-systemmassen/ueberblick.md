@@ -1,35 +1,17 @@
 ---
 title: "Verbindung von Systemmassen"
 description: "Überblick über die Verbindung von Massepotenzialen zwischen Modulen, Sensoren und Messgeräten."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schutz und Zuverlässigkeit"
-topicPath:
-  - "verbindung-von-systemmassen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Verbindung von Systemmassen als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["verbindung-von-systemmassen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird Masse als beliebig verbindbarer Punkt betrachtet. In realen Systemen kann die falsche Masseführung Störungen oder Schäden verursachen."
-keyTakeaways:
-  - "Systemmassen bilden den gemeinsamen Bezugspunkt, gegen den viele Signale gemessen und interpretiert werden."
-  - "Eine passende Masseverbindung sorgt dafür, dass digitale und analoge Pegel überhaupt eindeutig verstanden werden können."
-  - "Masse ist kein idealer Nullpunkt. Leitungswiderstände, Strompfade und Störungen erzeugen Spannungsunterschiede."
-recognizeSignals:
-  - "Es geht um Verbindung von Systemmassen, wenn ein gemeinsamer Massebezug ist für viele Signale notwendig."
-  - "Das Thema wird relevant, wenn Beispiele wie ein UART-Signal zwischen zwei Modulen benötigt neben TX und RX meist auch einen gemeinsamen Bezug über GND."
-selfCheckPoints:
-  - "Kann ich Verbindung von Systemmassen in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "masse"
-  - "module"
-  - "störungen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Schutz und Zuverlässigkeit"]
 draft: false
 ---
 # Verbindung von Systemmassen

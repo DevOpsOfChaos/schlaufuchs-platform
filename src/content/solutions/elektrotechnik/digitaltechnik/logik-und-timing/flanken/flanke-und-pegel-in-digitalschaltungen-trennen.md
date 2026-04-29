@@ -3,23 +3,12 @@ title: "Lösung – Flanke und Pegel in Digitalschaltungen trennen"
 description: "Musterlösung zu Flanke und Pegel mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "digitaltechnik"
-  - "logik-und-timing"
-  - "flanken"
-  - "flanke-und-pegel-in-digitalschaltungen-trennen"
+topicPath: ["digitaltechnik", "logik-und-timing", "flanken", "flanke-und-pegel-in-digitalschaltungen-trennen"]
 taskId: "v111-elektrotechnik-flanke-und-pegel-in-digitalschaltungen-trennen"
 relatedExercise: "elektrotechnik/digitaltechnik/logik-und-timing/flanken/flanke-und-pegel-in-digitalschaltungen-trennen"
-tags:
-  - "elektrotechnik"
-  - "praxis"
-  - "unterthema"
-  - "digitaltechnik"
-  - "logik-und-timing"
-  - "flanke-und-pegel-in-digitalschaltungen-trennen"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Flanke und Pegel**.

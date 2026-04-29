@@ -1,46 +1,19 @@
 ---
-title: ATmega – Entprellen als Grundidee verstehen
-description: Verstehe, warum ein mechanischer Taster beim Umschalten kurz unruhige Zustände erzeugen kann und warum man diese technisch sauber beruhigen muss.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - polling-und-entprellen
-  - atmega-entprellen-grundidee-verstehen
-learningGoals:
-  - Du erklärst die Grundidee des Prellens bei mechanischen Tastern.
-  - Du beschreibst, warum ein Mikrocontroller daraus mehrere scheinbare Ereignisse lesen kann.
-  - Du unterscheidest Tasterdruck und stabilen Tasterzustand fachlich sauber.
-practiceIdeas:
-  - Vergleiche einen gedachten idealen Taster mit einem realen mechanischen Taster.
-  - Lies eine Entprellung zuerst als Beruhigung eines Signals und erst dann als C-Code.
-  - Prüfe, warum eine LED mehrfach umschalten kann, obwohl nur einmal gedrückt wurde.
-commonMistakes:
-  - Zu denken, ein Taster wechsle immer sofort sauber von 1 auf 0 oder umgekehrt.
-  - Prellen mit einem Programmfehler zu verwechseln.
-  - Entprellen nur als „Warten“ zu sehen, ohne die Signalfrage mitzudenken.
-keyTakeaways:
-  - Mechanische Taster können beim Umschalten kurz prellen.
-  - Der Mikrocontroller kann dadurch mehrere schnelle Zustandswechsel lesen.
-  - Entprellen bedeutet, aus einem unruhigen Signal eine stabile Entscheidungsgrundlage zu machen.
-recognizeSignals:
-  - Es geht um Taster, Mehrfachauslösung oder unruhige Eingangszustände.
-  - Du sollst erklären, warum ein scheinbar einzelner Tastendruck mehrfach erkannt wird.
-  - In Aufgaben tauchen Delay, Wartezeiten oder stabile Zustandsprüfungen auf.
-selfCheckPoints:
-  - Kann ich erklären, warum ein realer Taster unruhige Übergänge haben kann?
-  - Kann ich sagen, warum daraus mehrere Auslösungen entstehen können?
-  - Kann ich die Grundidee von Entprellen als Signalberuhigung beschreiben?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - taster
-  - entprellen
-level: einfach
+title: "ATmega – Entprellen als Grundidee verstehen"
+description: "Verstehe, warum ein mechanischer Taster beim Umschalten kurz unruhige Zustände erzeugen kann und warum man diese technisch sauber beruhigen muss."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-entprellen-grundidee-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 Ein mechanischer Taster ist kein idealer mathematischer Schalter. Beim Umschalten kann der Kontakt für kurze Zeit **prellen**, also schnell zwischen Zuständen hin- und herspringen. Für den Mikrocontroller kann das so wirken, als wären mehrere Tastendrücke passiert.
 
 <div class="example-card">

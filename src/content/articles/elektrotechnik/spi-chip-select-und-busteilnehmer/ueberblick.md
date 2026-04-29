@@ -1,36 +1,19 @@
 ---
 title: "SPI-Chip-Select und Busteilnehmer"
 description: "Bei SPI wählt Chip Select aus, welcher Busteilnehmer auf die gemeinsamen Daten- und Taktleitungen reagieren soll."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schnittstellen"
-topicPath:
-  - "spi-chip-select-und-busteilnehmer"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst SPI-Chip-Select und Busteilnehmer als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["spi-chip-select-und-busteilnehmer", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, MISO-Konflikte zu übersehen, wenn mehrere Geräte gleichzeitig aktiv oder nicht hochohmig sind."
-keyTakeaways:
-  - "Bei SPI wählt Chip Select aus, welcher Busteilnehmer auf die gemeinsamen Daten- und Taktleitungen reagieren soll."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um SPI-Chip-Select und Busteilnehmer, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich SPI-Chip-Select und Busteilnehmer in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "spi"
-  - "bus"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Schnittstellen"]
 draft: false
 ---
-
 # SPI-Chip-Select und Busteilnehmer
 
 Bei SPI wählt Chip Select aus, welcher Busteilnehmer auf die gemeinsamen Daten- und

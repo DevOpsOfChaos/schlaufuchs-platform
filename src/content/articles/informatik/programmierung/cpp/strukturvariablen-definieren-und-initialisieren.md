@@ -1,47 +1,19 @@
 ---
-title: Strukturvariablen definieren und initialisieren
-description: Verstehe, wie nach einer struct-Deklaration konkrete Variablen angelegt und mit Werten gefüllt werden.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - strukturen
-  - strukturvariablen-definieren-und-initialisieren
-learningGoals:
-  - Du erklärst den Unterschied zwischen Strukturtyp und Strukturvariable.
-  - Du liest einfache Initialisierungen mit Werten ruhig und geordnet.
-  - Du ordnest Punkt-Zuweisung und Initialisierung bei der Definition sinnvoll ein.
-practiceIdeas:
-  - Vergleiche eine leere Strukturvariable mit einer direkt initialisierten.
-  - Lies Beispiele mit Punkt-Zuweisung und Initialisierung in Worten.
-  - Erkläre, welche Werte zu welcher Komponente gehören.
-commonMistakes:
-  - Typ und Variable miteinander zu verwechseln.
-  - Werte bei der Initialisierung nicht der richtigen Komponente zuzuordnen.
-  - Zu glauben, eine Struktur sei schon mit der Typdeklaration eine konkrete Variable.
-keyTakeaways:
-  - Erst der Strukturtyp, dann die konkrete Strukturvariable.
-  - Werte können später per Punktoperator oder direkt bei der Definition gesetzt werden.
-  - Eine klare Reihenfolge hilft beim Lesen der Komponenten.
-recognizeSignals:
-  - Es geht um struct-Deklaration, konkrete Variablen oder Initialisierungen.
-  - Du sollst erklären, was nur Typbeschreibung und was schon echte Variable ist.
-  - In Beispielen werden mehrere Werte in einer Struktur zusammengefasst.
-selfCheckPoints:
-  - Kann ich Strukturtyp und Strukturvariable unterscheiden?
-  - Kann ich eine einfache Initialisierung in Worten erklären?
-  - Kann ich sagen, welche Komponente welchen Wert bekommt?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - struct
-  - initialisierung
+title: "Strukturvariablen definieren und initialisieren"
+description: "Verstehe, wie nach einer struct-Deklaration konkrete Variablen angelegt und mit Werten gefüllt werden."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "strukturvariablen-definieren-und-initialisieren"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Eine <code>struct</code>-Deklaration beschreibt zunächst nur den Typ. Erst danach legst du konkrete Variablen dieses Typs an und gibst ihnen Werte.

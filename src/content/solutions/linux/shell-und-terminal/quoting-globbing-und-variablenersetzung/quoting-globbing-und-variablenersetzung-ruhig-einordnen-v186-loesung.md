@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Quoting, Globbing und Variablenersetzung – ruhig einordnen"
 description: "Musterlösung zur Linux-Aufgabe Quoting, Globbing und Variablenersetzung."
-subject: linux
+subject: "linux"
 section: "shell-und-terminal"
-topicPath:
-  - "shell-und-terminal"
-  - "quoting-globbing-und-variablenersetzung"
-taskId: LINUX-QUOTING-GLOBBING-UND-VARIABLENERSETZUNG-V186-1
-relatedExercise: src/content/exercises/linux/shell-und-terminal/quoting-globbing-und-variablenersetzung/quoting-globbing-und-variablenersetzung-ruhig-einordnen-v186.md
-tags:
-  - "linux"
-  - "quoting"
-  - "globbing"
-  - "loesung"
+topicPath: ["shell-und-terminal", "quoting-globbing-und-variablenersetzung", "quoting-globbing-und-variablenersetzung-ruhig-einordnen-v186"]
+taskId: "LINUX-QUOTING-GLOBBING-UND-VARIABLENERSETZUNG-V186-1"
+relatedExercise: "src/content/exercises/linux/shell-und-terminal/quoting-globbing-und-variablenersetzung/quoting-globbing-und-variablenersetzung-ruhig-einordnen-v186.md"
+tags: ["linux", "shell-und-terminal", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

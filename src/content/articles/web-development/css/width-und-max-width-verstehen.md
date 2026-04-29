@@ -1,45 +1,19 @@
 ---
-title: Width und Max-Width verstehen
-description: Verstehe, warum feste Breiten oft unruhig werden und wie max-width Inhalte begrenzt, ohne kleine Bildschirme zu überfordern.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - width-und-max-width-verstehen
-learningGoals:
-  - Du erklärst den Unterschied zwischen width und max-width.
-  - Du beschreibst, warum feste Breiten auf kleinen Bildschirmen problematisch sein können.
-  - Du liest responsive Breiten eher über Begrenzung als über Zwang.
-practiceIdeas:
-  - Vergleiche eine Box mit fester Breite und eine Box mit sinnvoller Obergrenze.
-  - Prüfe bei Bildern oder Formularen, ob etwas zu breit wird oder nur bis zu einer Grenze wachsen soll.
-  - Erkläre bei einem Layout, warum max-width oft ruhiger wirkt als eine harte width-Angabe.
-commonMistakes:
-  - width und max-width gleichzusetzen.
-  - Inhalte auf kleinen Bildschirmen mit festen Breiten unnötig zu sprengen.
-  - zu glauben, responsive Breite bedeute einfach nur 100 Prozent überall.
-keyTakeaways:
-  - width erzwingt eine konkrete Breite, max-width setzt eine Obergrenze.
-  - max-width ist oft ruhiger für responsive Layouts.
-  - Gute Breitenregeln lassen kleine Geräte atmen und verhindern gleichzeitig zu breite Zeilen.
-recognizeSignals:
-  - Es geht um überbreite Boxen, Textspalten, Bilder oder Formulare.
-  - Du sollst erklären, warum etwas auf einem schmalen Gerät aus dem Layout kippt.
-  - In Beispielen geht es um Begrenzen statt bloßes Verkleinern.
-selfCheckPoints:
-  - Kann ich width und max-width sauber unterscheiden?
-  - Kann ich erklären, warum max-width bei responsiven Komponenten hilfreich ist?
-  - Kann ich beschreiben, wann eine feste width zu starr ist?
-tags:
-  - css
-  - width
-  - max-width
-  - responsive
-level: einfach
+title: "Width und Max-Width verstehen"
+description: "Verstehe, warum feste Breiten oft unruhig werden und wie max-width Inhalte begrenzt, ohne kleine Bildschirme zu überfordern."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "width-und-max-width-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Mit Breitenregeln steuerst du nicht nur, **wie groß etwas sein soll**, sondern auch, **wie starr oder flexibel ein Element auf unterschiedliche Bildschirmgrößen reagiert**.

@@ -3,22 +3,12 @@ title: "Lösung: Zeitbereich und Frequenzbereich: Grundordnung"
 description: "Musterlösung zur Aufgabe dat-v189-033a."
 subject: "daten-und-signale"
 section: "analyse"
-topicPath:
-  - "analyse"
-  - "zeitbereich-und-frequenzbereich"
-  - "loesung-a"
+topicPath: ["sanierung-v189", "zeitbereich-und-frequenzbereich-aufgabe-a"]
 taskId: "dat-v189-033a"
 relatedExercise: "daten-und-signale/sanierung-v189/zeitbereich-und-frequenzbereich-aufgabe-a"
-tags:
-  - "zeitbereich"
-  - "frequenzbereich"
-  - "analyse"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "analyse", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-033a`
 
 Eine mögliche Lösung:

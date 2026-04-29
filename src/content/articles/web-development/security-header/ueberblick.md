@@ -1,34 +1,19 @@
 ---
 title: "Security Header"
 description: "Überblick über HTTP-Sicherheitsheader als zusätzliche Schutzschicht für Browser und Webanwendungen."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "security-header"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["security-header", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Security Header als vollständige Sicherheit zu verstehen und Anwendungscode nicht mehr zu prüfen."
-keyTakeaways:
-  - "Security Header geben dem Browser Sicherheitsregeln und ergänzen sichere Anwendungslogik."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn eine Webanwendung öffentlich erreichbar ist oder sensible Aktionen im Browser ausführt."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "web development"
-  - "sicherheit"
-  - "http"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # Security Header
 
 Security Header sind HTTP-Header, mit denen ein Server dem Browser Sicherheitsregeln mitteilt. Sie können etwa Einbettung, Skriptausführung, Transportverschlüsselung oder Inhaltstypen beeinflussen.

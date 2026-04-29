@@ -3,23 +3,12 @@ title: "Lösung: Tests, Checklisten und Abnahme: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-030a im Web-Development-Block v187."
 subject: "web-development"
 section: "qualitaet"
-topicPath: 
-  - "qualitaet-und-zugaenglichkeit"
-  - "tests-und-abnahme"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "tests-checklisten-und-abnahme-aufgabe-a"]
 taskId: "web-v187-030a"
 relatedExercise: "web-development/sanierung-v187/tests-checklisten-und-abnahme-aufgabe-a"
-tags: 
-  - "tests"
-  - "checklisten"
-  - "qualitaet"
-  - "abnahme"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "qualitaet", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-030a`
 
     Ausgangsauftrag: Erstelle eine Abnahmecheckliste für eine neue Inhaltsseite mit Formular und Bild.

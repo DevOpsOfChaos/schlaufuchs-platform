@@ -3,23 +3,12 @@ title: "Lösung – Erwartungswert nicht als sichere Vorhersage lesen"
 description: "Musterlösung zu Erwartungswert mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "daten-und-wahrscheinlichkeit"
-  - "datenkritik-und-zufall"
-  - "erwartungswert"
-  - "erwartungswert-nicht-als-sichere-vorhersage-lesen"
+topicPath: ["daten-und-wahrscheinlichkeit", "datenkritik-und-zufall", "erwartungswert", "erwartungswert-nicht-als-sichere-vorhersage-lesen"]
 taskId: "v111-mathematik-erwartungswert-nicht-als-sichere-vorhersage-lesen"
 relatedExercise: "mathematik/daten-und-wahrscheinlichkeit/datenkritik-und-zufall/erwartungswert/erwartungswert-nicht-als-sichere-vorhersage-lesen"
-tags:
-  - "mathematik"
-  - "prüfung"
-  - "unterthema"
-  - "daten-und-wahrscheinlichkeit"
-  - "datenkritik-und-zufall"
-  - "erwartungswert-nicht-als-sichere-vorhersage-lesen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Erwartungswert**.

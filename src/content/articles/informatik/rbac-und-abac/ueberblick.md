@@ -1,32 +1,17 @@
 ---
 title: "RBAC und ABAC"
 description: "Überblick über rollen- und attributbasierte Zugriffskontrolle."
-subject: informatik
+subject: "informatik"
 section: "Sicherheit"
-topicPath:
-  - "rbac-und-abac"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst RBAC und ABAC als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Rollen, Attribute, Policies."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["rbac-und-abac", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Authentifizierung mit Autorisierung gleichzusetzen."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "RBAC und ABAC beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Modelle der Zugriffskontrolle."
-  - "Wichtige Hinweise liefern vor allem Rollen, Attribute, Policies."
-recognizeSignals:
-  - "Es geht um modelle der zugriffskontrolle, rollen oder attribute."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck RBAC und ABAC erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "informatik"
-  - "sicherheit"
-  - "autorisierung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Sicherheit"]
 draft: false
 ---
 # RBAC und ABAC

@@ -3,23 +3,12 @@ title: "Lösung: Formularvalidierung und Feedback: Prüfung und Verbesserung"
 description: "Musterlösung zur Aufgabe web-v187-024b im Web-Development-Block v187."
 subject: "web-development"
 section: "javascript"
-topicPath: 
-  - "javascript-und-interaktion"
-  - "formularfeedback"
-  - "loesung-b"
+topicPath: ["sanierung-v187", "formularvalidierung-und-feedback-aufgabe-b"]
 taskId: "web-v187-024b"
 relatedExercise: "web-development/sanierung-v187/formularvalidierung-und-feedback-aufgabe-b"
-tags: 
-  - "formulare"
-  - "validierung"
-  - "feedback"
-  - "javascript"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "javascript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-024b`
 
     Ausgangsauftrag: Plane einen Validierungsablauf mit Feldzuständen, Fehlermeldung und abschließender Kontrolle.

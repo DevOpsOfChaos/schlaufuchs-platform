@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Linux-Fehlerdiagnose"
 description: "Verstehe systematische Fehlersuche über Beobachtung, Hypothese und Prüfung."
-subject: linux
+subject: "linux"
 section: "praxis-und-betrieb"
-topicPath:
-  - "praxis-und-betrieb"
-  - "linux-fehlerdiagnose"
-learningGoals:
-  - "Du erklärst Linux-Fehlerdiagnose in eigenen Worten."
-  - "Du ordnest typische Befehle, Begriffe oder Prüfschritte richtig ein."
-  - "Du erkennst typische Grenzen und Fehlerquellen im Linux-Alltag."
-practiceIdeas:
-  - "Beschreibe eine kleine Alltagssituation zu diesem Thema."
-  - "Markiere, welche Information zuerst geprüft werden muss."
-commonMistakes:
-  - "Ein einzelnes Kommando für das ganze Thema zu halten."
-  - "Ausgabe, Zustand und Ursache zu vermischen."
-  - "Ohne Kontext direkt an Sonderfälle zu springen."
-keyTakeaways:
-  - "Fehlerdiagnose beginnt mit einer genauen Beobachtung."
-  - "Hypothesen sollten einzeln geprüft werden."
-  - "Logs, Status und Reproduzierbarkeit gehören zusammen."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung statt nur eines Befehlsrezepts."
-  - "Mehrere ähnliche Befehle oder Dateien wirken unklar."
-selfCheckPoints:
-  - "Kann ich Zweck, Kontext und typischen Prüfschritt unterscheiden?"
-  - "Kann ich eine einfache Fehlannahme zum Thema benennen?"
-level: mittel
-tags:
-  - "linux"
-  - "diagnose"
-  - "fehlersuche"
+topicPath: ["praxis-und-betrieb", "linux-fehlerdiagnose", "ueberblick", "grundlagen-linux-fehlerdiagnose-v186"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["linux", "praxis-und-betrieb"]
 draft: false
 ---
-
 ![Linux-Fehlerdiagnose](/schlaufuchs-platform/images/overviews/v186/linux-fehlerdiagnose.svg)
 
 ## Begriff

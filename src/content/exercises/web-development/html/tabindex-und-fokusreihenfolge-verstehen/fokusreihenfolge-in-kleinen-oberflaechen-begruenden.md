@@ -1,31 +1,17 @@
 ---
-title: Fokusreihenfolge in kleinen Oberflächen begründen
-description: Begründe an Formular- und Navigationsbeispielen, warum eine Fokusreihenfolge ruhig und nachvollziehbar sein sollte.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - navigation-und-menues
-  - tabindex-und-fokusreihenfolge-verstehen
-  - fokusreihenfolge-in-kleinen-oberflaechen-begruenden
-level: mittel
+title: "Fokusreihenfolge in kleinen Oberflächen begründen"
+description: "Begründe an Formular- und Navigationsbeispielen, warum eine Fokusreihenfolge ruhig und nachvollziehbar sein sollte."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "tabindex-und-fokusreihenfolge-verstehen", "fokusreihenfolge-in-kleinen-oberflaechen-begruenden"]
+taskId: "AUTO-FOKUSREIHENFOLGE-IN-KLEINEN-OBERFLAECHEN-BEGRUENDEN"
+tags: ["web-development", "HTML", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - html
-  - tabindex
-  - focus
-hintPoints:
-  - "Frage zuerst, in welcher Reihenfolge man die Oberfläche sichtbar lesen würde."
-  - "Achte darauf, ob die Tastaturreihenfolge dazu passt."
-  - "Begründe tabindex eher als Eingriff als als Standard."
-selfCheckPoints:
-  - "Ist klar, warum eine Reihenfolge ruhig oder unruhig wirkt?"
-  - "Trennst du Strukturproblem und tabindex-Eingriff?"
-transferIdeas:
-  - "Übertrage die Aufgabe auf Dialoge oder mehrspaltige Formulare."
-reflectionPrompt: "Warum kann eine Oberfläche optisch ordentlich wirken und trotzdem eine schlechte Tastaturreihenfolge haben?"
 ---
-
 ## Aufgabe 1: Reihenfolge deuten
 
 Ein Formular zeigt sichtbar diese Reihenfolge:

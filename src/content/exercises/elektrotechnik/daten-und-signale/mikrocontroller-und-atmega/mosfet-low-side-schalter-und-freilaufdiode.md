@@ -3,32 +3,12 @@ title: "MOSFET-Schalter und Freilaufdiode beurteilen"
 description: "Übe den sicheren Umgang mit „MOSFET-Low-Side-Schalter und Freilaufdiode verstehen“."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "mosfet-low-side-schalter-und-freilaufdiode"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "mosfet-low-side-schalter-und-freilaufdiode"]
 taskId: "et-mc-v94-mosfet-low-side"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "atmega"
-  - "mosfet"
-  - "transistor"
-  - "freilaufdiode"
-  - "relais"
-  - "motor"
-hintPoints:
-  - "Lies zuerst das beobachtbare Fehlerbild, nicht sofort die vermutete Ursache."
-  - "Trenne elektrische Ebene, Codeebene und didaktische Begründung."
-  - "Begründe deine Entscheidung mit einem konkreten Prüfschritt."
-selfCheckPoints:
-  - "Habe ich den Ausgangs- oder Ruhezustand sauber benannt?"
-  - "Habe ich mindestens eine Gegenprobe formuliert?"
-  - "Ist klar, welche Aussage meine Lösung wirklich beweist?"
-transferIdeas:
-  - "Übertrage die Prüflogik auf ein anderes Modul oder eine andere Schnittstelle."
-  - "Formuliere aus der Lösung eine kurze Checkliste für den nächsten Aufbau."
-reflectionPrompt: "Was war bei „MOSFET-Schalter und Freilaufdiode beurteilen“ der wichtigste Unterschied zwischen Vermutung und sauberer Begründung?"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---

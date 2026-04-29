@@ -3,23 +3,12 @@ title: "Lösung – Vorzeichenfehler in Termen früh erkennen"
 description: "Musterlösung zu Vorzeichenfehler in Termen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "rechnen-und-schaetzen"
-  - "kopfrechnen-und-plausibilitaet"
-  - "fehlersuche"
-  - "vorzeichenfehler-in-termen-frueh-erkennen"
+topicPath: ["rechnen-und-schaetzen", "kopfrechnen-und-plausibilitaet", "fehlersuche", "vorzeichenfehler-in-termen-frueh-erkennen"]
 taskId: "v111-mathematik-vorzeichenfehler-in-termen-frueh-erkennen"
 relatedExercise: "mathematik/rechnen-und-schaetzen/kopfrechnen-und-plausibilitaet/fehlersuche/vorzeichenfehler-in-termen-frueh-erkennen"
-tags:
-  - "mathematik"
-  - "prüfung"
-  - "unterthema"
-  - "rechnen-und-schaetzen"
-  - "kopfrechnen-und-plausibilitaet"
-  - "vorzeichenfehler-in-termen-frueh-erkennen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Vorzeichenfehler in Termen**.

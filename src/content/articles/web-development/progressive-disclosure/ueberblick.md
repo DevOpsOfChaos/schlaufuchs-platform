@@ -1,36 +1,19 @@
 ---
 title: "Progressive Disclosure"
 description: "Progressive Disclosure bezeichnet ein Grundthema im Bereich Webseiten, Browser, Schnittstellen und Bedienoberflächen. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-subject: web-development
+subject: "web-development"
 section: "UI"
-topicPath:
-  - "progressive-disclosure"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Progressive Disclosure als allgemeinen Grundbegriff einordnen."
-  - "Du kennst Zweck, Zusammenhang, typische Teilaspekte und Grenzen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle behandelt werden."
+topicPath: ["progressive-disclosure", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Progressive Disclosure nur als einzelner Arbeitsschritt verstanden, obwohl der Begriff einen größeren Zusammenhang beschreibt."
-keyTakeaways:
-  - "Progressive Disclosure bezeichnet ein Grundthema im Bereich Webseiten, Browser, Schnittstellen und Bedienoberflächen. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-  - "Ein Überblick trennt Begriff, Zweck, Beispiel und Grenze."
-  - "Spezialseiten werden verständlicher, wenn die allgemeine Einordnung vorher klar ist."
-recognizeSignals:
-  - "Es geht um Progressive Disclosure, wenn mehrere Einzelbeobachtungen ohne Grundbegriff schwer einzuordnen sind."
-  - "Der Begriff hilft, Werkzeuge, Werte, Regeln oder Darstellungen fachlich zu sortieren."
-selfCheckPoints:
-  - "Kann ich Progressive Disclosure in zwei bis drei Sätzen erklären?"
-  - "Kann ich ein Beispiel und eine typische Grenze nennen?"
-level: einfach
-tags:
-  - "web"
-  - "ui"
-  - "ux"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "UI"]
 draft: false
 ---
-
 # Progressive Disclosure
 
 Progressive Disclosure bezeichnet ein Grundthema im Bereich Webseiten, Browser, Schnittstellen

@@ -3,25 +3,12 @@ title: "Lösung: Cronjobs und Timer: Aufgabe B"
 description: "Musterlösung zur Aufgabe linux-v192-023b im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "automatisierung"
-  - "cronjobs-und-timer"
-  - "loesung-b"
+topicPath: ["sanierung-v192", "cronjobs-und-timer-loesung-b"]
 taskId: "linux-v192-023b"
 relatedExercise: "linux/sanierung-v192/cronjobs-und-timer-aufgabe-b"
-tags:
-  - "automatisierung"
-  - "cronjobs"
-  - "timer"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-023b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Cronjobs und Timer“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

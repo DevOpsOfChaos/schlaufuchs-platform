@@ -3,22 +3,12 @@ title: "Lösung: Diagramme kritisch lesen: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-032b."
 subject: "mathematik"
 section: "daten-deuten-und-pruefen"
-topicPath:
-  - "daten-deuten-und-pruefen"
-  - "diagramme-kritisch-lesen"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "diagramme-kritisch-lesen-aufgabe-b"]
 taskId: "mat-v188-032b"
 relatedExercise: "mathematik/sanierung-v188/diagramme-kritisch-lesen-aufgabe-b"
-tags:
-  - "diagramme"
-  - "daten"
-  - "kritisch"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "daten-deuten-und-pruefen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-032b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

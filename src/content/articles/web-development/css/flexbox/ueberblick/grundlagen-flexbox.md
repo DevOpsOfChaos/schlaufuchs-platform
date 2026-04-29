@@ -1,36 +1,19 @@
 ---
 title: "Grundlagen: Flexbox"
 description: "Allgemeiner Überblick über Flexbox, Hauptachse, Querachse, Verteilung und typische Layout-Aufgaben."
-subject: web-development
+subject: "web-development"
 section: "CSS"
-topicPath:
-  - css
-  - flexbox
-  - grundlagen-flexbox
-learningGoals:
-  - "Du erklärst Flexbox als Layoutmodell für eine Achse."
-  - "Du unterscheidest Hauptachse und Querachse."
-  - "Du ordnest Ausrichtung, Verteilung und Umbruch als typische Flexbox-Aufgaben ein."
+topicPath: ["css", "flexbox", "ueberblick", "grundlagen-flexbox"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Flexbox als Ersatz für jedes Layoutproblem zu sehen."
-  - "Hauptachse und Querachse zu verwechseln."
-  - "Eigenschaften für Container und Kinder durcheinanderzubringen."
-keyTakeaways:
-  - "Flexbox organisiert Elemente entlang einer Hauptachse."
-  - "Der Container steuert viele Verteilungs- und Ausrichtungsregeln."
-  - "Einzelne Flex-Items können zusätzlich eigenes Wachstum oder Ausrichtung erhalten."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - "webentwicklung"
-  - "css"
-  - "flexbox"
-  - "layout"
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Begriff
 
 **Flexbox** ist ein CSS-Layoutmodell zur Anordnung von Elementen entlang einer Hauptachse. Es eignet sich besonders für Reihen, Spalten, Navigationen, Kartenleisten, Button-Gruppen und flexible Verteilungen innerhalb eines begrenzten Bereichs.

@@ -1,29 +1,17 @@
 ---
 title: "Datenlebenszyklus und Aufbewahrung – ruhig einordnen"
 description: "Übe, datenlebenszyklus und aufbewahrung fachlich zu erklären und abzugrenzen."
-subject: informatik
+subject: "informatik"
 section: "Daten und Information"
-topicPath:
-  - "daten-und-information"
-  - "datenlebenszyklus-und-aufbewahrung"
-  - "uebung"
-taskId: INF-V185-023-1
-tags:
-  - "informatik"
-  - "daten-und-information"
-  - "datenlebenszyklus-und-aufbewahrung"
-hintPoints:
-  - "Beginne mit der Grundidee, nicht mit einem Spezialfall."
-  - "Trenne Begriff, Beispiel und Prüfung."
-selfCheckPoints:
-  - "Ich kann das Thema in eigenen Worten erklären."
-  - "Ich kann ein passendes Beispiel begründen."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel in einem anderen Fachbereich."
-level: einfach
+topicPath: ["daten-und-information", "datenlebenszyklus-und-aufbewahrung", "datenlebenszyklus-und-aufbewahrung-ruhig-einordnen-v185"]
+taskId: "INF-V185-023-1"
+tags: ["informatik", "Daten und Information", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe prüft, ob du **Datenlebenszyklus und Aufbewahrung** zuerst als allgemeines Thema und nicht nur als Einzelfall lesen kannst.
 
 ## Lernziel

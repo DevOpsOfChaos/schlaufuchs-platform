@@ -3,23 +3,12 @@ title: "Lösung – focus-visible von hover und active trennen"
 description: "Musterlösung zu Fokusdesign mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "zustand-und-interaktion"
-  - "fokusdesign"
-  - "focus-visible-von-hover-und-active-trennen"
+topicPath: ["css", "zustand-und-interaktion", "fokusdesign", "focus-visible-von-hover-und-active-trennen"]
 taskId: "v107-web-development-focus-visible-von-hover-und-active-trennen"
 relatedExercise: "web-development/css/zustand-und-interaktion/fokusdesign/focus-visible-von-hover-und-active-trennen"
-tags:
-  - "web development"
-  - "html"
-  - "css"
-  - "javascript"
-  - "fokusdesign"
-  - "zustand-und-interaktion"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Fokusdesign**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

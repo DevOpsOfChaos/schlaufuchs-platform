@@ -1,36 +1,19 @@
 ---
 title: "MOSFET-Gate-Ansteuerung"
 description: "MOSFET-Gate-Ansteuerung beschreibt, wie das Gate eines MOSFETs geladen, entladen und auf definierte Pegel gebracht wird."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Leistungselektronik"
-topicPath:
-  - "mosfet-gate-ansteuerung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst MOSFET-Gate-Ansteuerung als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["mosfet-gate-ansteuerung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird das Gate wie ein normaler Logikeingang behandelt, obwohl seine Ladung das Schaltverhalten bestimmt."
-keyTakeaways:
-  - "MOSFET-Gate-Ansteuerung beschreibt, wie das Gate eines MOSFETs geladen, entladen und auf definierte Pegel gebracht wird."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um MOSFET-Gate-Ansteuerung, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich MOSFET-Gate-Ansteuerung in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "mosfet"
-  - "gate"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Leistungselektronik"]
 draft: false
 ---
-
 # MOSFET-Gate-Ansteuerung
 
 MOSFET-Gate-Ansteuerung beschreibt, wie das Gate eines MOSFETs geladen, entladen und auf

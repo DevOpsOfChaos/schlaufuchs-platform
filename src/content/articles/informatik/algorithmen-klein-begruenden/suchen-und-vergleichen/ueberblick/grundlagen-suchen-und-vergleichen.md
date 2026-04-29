@@ -1,45 +1,19 @@
 ---
-title: Informatik – Suchen und Vergleichen im Überblick
-description: Erklärt Suchverfahren als systematisches Vergleichen von Daten statt als bloßes Durchprobieren.
-subject: informatik
-section: Algorithmen
-topicPath:
-  - "algorithmen-klein-begruenden"
-  - "suchen-und-vergleichen"
-  - "ueberblick"
-learningGoals:
-  - "Den Themenbereich Suchen und Vergleichen im Überblick allgemein einordnen."
-  - "Grundbegriffe, Nutzen und typische Grenzen unterscheiden."
-  - "Einzelne Lernseiten als Vertiefung statt als Einstieg lesen."
-practiceIdeas:
-  - "Erstelle eine kurze Begriffskarte mit Zweck, typischem Beispiel und häufiger Verwechslung."
-  - "Ordne vorhandene Lernseiten danach, welchen Teil des Überblicks sie vertiefen."
-  - "Formuliere zu jedem Abschnitt eine eigene Kontrollfrage."
-commonMistakes:
-  - "Ein Verfahren ohne Abbruchbedingung zu beschreiben."
-  - "Binäre Suche bei unsortierten Daten zu verwenden."
-keyTakeaways:
-  - "Suchen ist systematisches Vergleichen."
-  - "Die Datenordnung bestimmt die passende Strategie."
-  - "Ein Algorithmus braucht eine klare Abbruchbedingung."
-recognizeSignals:
-  - "Ein Unterthema enthält viele einzelne Situationsseiten, aber es fehlt eine gemeinsame Einordnung."
-  - "Begriffe werden in Aufgaben verwendet, bevor Zweck und Zusammenhang klar sind."
-  - "Man muss entscheiden, welche Vertiefungsseite als nächstes sinnvoll ist."
-selfCheckPoints:
-  - "Kann ich das Thema in zwei bis drei Sätzen allgemein erklären?"
-  - "Kann ich Zweck, Vorgehen und typische Fehler getrennt benennen?"
-  - "Kann ich erklären, welche Vertiefungsseite zu welcher Frage passt?"
-level: einfach
-tags:
-  - "informatik"
-  - "algorithmen"
-  - "suche"
-  - "vergleich"
-  - "überblick"
+title: "Informatik – Suchen und Vergleichen im Überblick"
+description: "Erklärt Suchverfahren als systematisches Vergleichen von Daten statt als bloßes Durchprobieren."
+subject: "informatik"
+section: "Algorithmen"
+topicPath: ["algorithmen-klein-begruenden", "suchen-und-vergleichen", "ueberblick", "grundlagen-suchen-und-vergleichen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Algorithmen"]
 draft: false
 ---
-
 ## Überblick
 
 Suchen bedeutet in der Informatik, aus einer Menge von Daten ein gesuchtes Element oder eine gesuchte Eigenschaft zu finden. Dabei ist entscheidend, wie Daten angeordnet sind und welche Vergleiche erlaubt sind.

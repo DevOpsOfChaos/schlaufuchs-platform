@@ -3,25 +3,12 @@ title: "Lösung: sudo und Adminrolle: Aufgabe B"
 description: "Musterlösung zur Aufgabe linux-v192-005b im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "identitaet-und-rechte"
-  - "sudo-und-adminrolle"
-  - "loesung-b"
+topicPath: ["sanierung-v192", "sudo-und-adminrolle-loesung-b"]
 taskId: "linux-v192-005b"
 relatedExercise: "linux/sanierung-v192/sudo-und-adminrolle-aufgabe-b"
-tags:
-  - "identitaet-und-rechte"
-  - "sudo"
-  - "adminrolle"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-005b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „sudo und Adminrolle“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

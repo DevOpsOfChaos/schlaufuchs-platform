@@ -3,22 +3,12 @@ title: "Lösung: Datenqualität prüfen: Grundordnung"
 description: "Musterlösung zur Aufgabe dat-v189-041a."
 subject: "daten-und-signale"
 section: "datenpraxis"
-topicPath:
-  - "datenpraxis"
-  - "datenqualitaet-pruefen"
-  - "loesung-a"
+topicPath: ["sanierung-v189", "datenqualitaet-pruefen-aufgabe-a"]
 taskId: "dat-v189-041a"
 relatedExercise: "daten-und-signale/sanierung-v189/datenqualitaet-pruefen-aufgabe-a"
-tags:
-  - "datenqualitaet"
-  - "pruefen"
-  - "analyse"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-041a`
 
 Eine mögliche Lösung:

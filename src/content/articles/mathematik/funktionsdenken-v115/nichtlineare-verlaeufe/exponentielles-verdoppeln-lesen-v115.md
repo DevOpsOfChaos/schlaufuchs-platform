@@ -1,46 +1,19 @@
 ---
 title: "Mathematik – Exponentielles Verdoppeln lesen"
 description: "Trainiere Exponentielles Verdoppeln lesen als kleines Unterthema mit klarer Trennkante, Beispiel und Gegenprobe."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "funktionsdenken-v115"
-  - "nichtlineare-verlaeufe"
-  - "exponentielles-verdoppeln-lesen-v115"
-learningGoals:
-  - "Du erklärst Exponentielles Verdoppeln lesen an einem kleinen, abgegrenzten Fall."
-  - "Du trennst das Unterthema von einem naheliegenden Nachbarthema."
-  - "Du formulierst eine passende Gegenprobe statt nur eine fertige Antwort."
-practiceIdeas:
-  - "Schreibe zuerst die Prüffrage in eigenen Worten auf."
-  - "Markiere im Fall zwei Hinweise, die wirklich zur Entscheidung gehören."
-  - "Formuliere einen Gegenfall, in dem die Entscheidung anders ausfallen würde."
-commonMistakes:
-  - "Gleiche absolute Zunahmen und gleiche Faktoren werden vermischt."
-  - "Das Thema wird zu breit eingeordnet und verliert dadurch die prüfbare Trennkante."
-  - "Die Lösung nennt ein Ergebnis, begründet aber nicht die Abgrenzung."
-keyTakeaways:
-  - "Dieses Unterthema prüft vor allem: Ist der Zuwachs absolut gleich oder ist der Faktor gleich?"
-  - "Eine gute Lösung benennt die Trennkante ausdrücklich."
-  - "Die Gegenprobe zeigt, ob die Begründung wirklich trägt."
-recognizeSignals:
-  - "Die Aufgabe fragt nach Exponentielles Verdoppeln lesen."
-  - "Ähnliche Begriffe oder Fälle liegen nah beieinander."
-  - "Eine kleine Änderung im Fall würde zu einer anderen Entscheidung führen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-level: mittel
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "funktionsdenken"
-  - "nichtlineare verläufe"
+topicPath: ["funktionsdenken-v115", "nichtlineare-verlaeufe", "exponentielles-verdoppeln-lesen-v115"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["mathematik", "Feinstruktur Mathematik"]
 draft: false
 ---
-
 <img src="/schlaufuchs-platform/illustrations/mathematik-exponentielles-verdoppeln-lesen-v115.svg" alt="Lernillustration zu Exponentielles Verdoppeln lesen" loading="lazy" />
 
 ## Grundidee

@@ -3,20 +3,12 @@ title: "Lösung – Entpackziel vorher prüfen"
 description: "Musterlösung zu Entpackziel vorher prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "archiv-und-komprimierung"
-  - "entpackziel-vorher-pruefen-v113"
+topicPath: ["shell", "archiv-und-komprimierung", "entpackziel-vorher-pruefen-v113"]
 taskId: "v113-linux-entpackziel-vorher-pruefen-v113"
 relatedExercise: "linux/shell/archiv-und-komprimierung/entpackziel-vorher-pruefen-v113"
-tags:
-  - "linux"
-  - "strukturcheck"
-  - "unterthema"
-  - "entpackziel-vorher-pruefen-v113"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Entpackziel vorher prüfen**.

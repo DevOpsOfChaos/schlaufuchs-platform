@@ -3,33 +3,15 @@ title: "Aufgabe – Prozentrechnung mit Gegenprobe prüfen"
 description: "Übe prozentrechnung mit gegenprobe prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "grundlagen"
-  - "prozent-und-wachstum"
-  - "prozentrechnung-mit-gegenprobe-pruefen"
+topicPath: ["grundlagen", "prozent-und-wachstum", "prozentrechnung-mit-gegenprobe-pruefen"]
 taskId: "v112-mathematik-prozentrechnung-mit-gegenprobe-pruefen"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "grundlagen"
-  - "prozentrechnung-mit-gegenprobe-pruefen"
-hintPoints:
-  - "Benenne zuerst das kleine Unterthema."
-  - "Prüfe bewusst den Unterschied zum Fehler: Rückwärtsrechnen wird wie Vorwärtsrechnen behandelt."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Einordnung enger als nur der breite Fachbereich?"
-  - "Wird der typische Fehler ausdrücklich ausgeschlossen?"
-  - "Passt die Lösung zur Wissensseite?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Begriff und prüfe, ob die gleiche Strategie gilt."
-  - "Erkläre die Lösung einmal alltagssprachlich und danach fachlich sauber."
-reflectionPrompt: "Was war bei „Prozentrechnung mit Gegenprobe prüfen“ die wichtigste Trennkante?"
+tags: ["mathematik", "Feinstruktur Mathematik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation:

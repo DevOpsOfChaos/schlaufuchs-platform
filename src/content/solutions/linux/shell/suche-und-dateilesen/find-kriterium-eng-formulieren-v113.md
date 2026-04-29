@@ -3,20 +3,12 @@ title: "Lösung – find-Kriterium eng formulieren"
 description: "Musterlösung zu find-Kriterium eng formulieren mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "suche-und-dateilesen"
-  - "find-kriterium-eng-formulieren-v113"
+topicPath: ["shell", "suche-und-dateilesen", "find-kriterium-eng-formulieren-v113"]
 taskId: "v113-linux-find-kriterium-eng-formulieren-v113"
 relatedExercise: "linux/shell/suche-und-dateilesen/find-kriterium-eng-formulieren-v113"
-tags:
-  - "linux"
-  - "strukturcheck"
-  - "unterthema"
-  - "find-kriterium-eng-formulieren-v113"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **find-Kriterium eng formulieren**.

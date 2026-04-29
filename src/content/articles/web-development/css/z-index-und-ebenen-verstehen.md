@@ -1,45 +1,19 @@
 ---
-title: Z-Index und Ebenen verstehen
-description: Verstehe, warum sich überlagernde Elemente nicht nur nach Reihenfolge im HTML, sondern auch nach Ebenenlogik verhalten und wie z-index diese Sichtbarkeit steuern kann.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - z-index-und-ebenen-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von Ebenen im Layout.
-  - Du beschreibst, wann z-index sichtbar wird.
-  - Du unterscheidest Positionslogik und Ebenenlogik ruhiger voneinander.
-practiceIdeas:
-  - Vergleiche ein Badge hinter und vor einer Karte.
-  - Prüfe bei Overlays, Menüs oder Hinweisen zuerst die Ebenenfrage.
-  - Erkläre, warum ein Element zwar positioniert, aber trotzdem verdeckt sein kann.
-commonMistakes:
-  - z-index überall einzusetzen, ohne dass überhaupt eine Überlagerung vorliegt.
-  - Position und Ebenenreihenfolge zu vermischen.
-  - hohe Zahlen als Dauerlösung statt als durchdachte Ebenenlogik zu verwenden.
-keyTakeaways:
-  - z-index ist für überlagernde Elemente relevant, nicht für jedes normale Layout.
-  - Sichtbarkeit in der Tiefe ist etwas anderes als Position auf x- und y-Achse.
-  - Gute Ebenenlogik bleibt bewusst, sparsam und begründet.
-recognizeSignals:
-  - Es geht um Menüs, Badges, Overlays, Tooltips oder verdeckte Boxen.
-  - Du sollst erklären, warum etwas hinter oder vor etwas anderem liegt.
-  - In Beispielen ist die Frage wichtig, welche Ebene sichtbar oben liegen soll.
-selfCheckPoints:
-  - Kann ich erklären, wann z-index überhaupt wichtig wird?
-  - Kann ich Position und Ebene unterscheiden?
-  - Kann ich begründen, warum ein Element sichtbar über einem anderen liegen soll?
-tags:
-  - css
-  - z-index
-  - position
-  - ebene
-level: einfach
+title: "Z-Index und Ebenen verstehen"
+description: "Verstehe, warum sich überlagernde Elemente nicht nur nach Reihenfolge im HTML, sondern auch nach Ebenenlogik verhalten und wie z-index diese Sichtbarkeit steuern kann."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "z-index-und-ebenen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Im Layout gibt es nicht nur links, rechts, oben und unten. Sobald sich Elemente überlagern, entsteht auch eine **Ebenenfrage**: Was liegt sichtbar davor und was dahinter?

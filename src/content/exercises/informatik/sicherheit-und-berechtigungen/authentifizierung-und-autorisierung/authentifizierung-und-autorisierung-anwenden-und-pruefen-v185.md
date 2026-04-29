@@ -1,29 +1,17 @@
 ---
 title: "Authentifizierung und Autorisierung – anwenden und prüfen"
 description: "Übe, authentifizierung und autorisierung fachlich auf Beispiele anzuwenden und zu überprüfen."
-subject: informatik
+subject: "informatik"
 section: "Sicherheit und Berechtigungen"
-topicPath:
-  - "sicherheit-und-berechtigungen"
-  - "authentifizierung-und-autorisierung"
-  - "uebung"
-taskId: INF-V185-021-2
-tags:
-  - "informatik"
-  - "sicherheit-und-berechtigungen"
-  - "authentifizierung-und-autorisierung"
-hintPoints:
-  - "Beginne mit der Grundidee, nicht mit einem Spezialfall."
-  - "Trenne Begriff, Beispiel und Prüfung."
-selfCheckPoints:
-  - "Ich kann das Thema in eigenen Worten erklären."
-  - "Ich kann ein passendes Beispiel begründen."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel in einem anderen Fachbereich."
-level: einfach
+topicPath: ["sicherheit-und-berechtigungen", "authentifizierung-und-autorisierung", "authentifizierung-und-autorisierung-anwenden-und-pruefen-v185"]
+taskId: "INF-V185-021-2"
+tags: ["informatik", "Sicherheit und Berechtigungen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe nutzt **Authentifizierung und Autorisierung**, um Beispiele, Grenzen und Prüfwege bewusster zu unterscheiden.
 
 ## Lernziel

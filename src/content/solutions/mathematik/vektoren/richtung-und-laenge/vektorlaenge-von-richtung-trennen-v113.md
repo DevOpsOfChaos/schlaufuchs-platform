@@ -3,20 +3,12 @@ title: "Lösung – Vektorlänge von Richtung trennen"
 description: "Musterlösung zu Vektorlänge von Richtung trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "vektoren"
-  - "richtung-und-laenge"
-  - "vektorlaenge-von-richtung-trennen-v113"
+topicPath: ["vektoren", "richtung-und-laenge", "vektorlaenge-von-richtung-trennen-v113"]
 taskId: "v113-mathematik-vektorlaenge-von-richtung-trennen-v113"
 relatedExercise: "mathematik/vektoren/richtung-und-laenge/vektorlaenge-von-richtung-trennen-v113"
-tags:
-  - "mathematik"
-  - "strukturcheck"
-  - "unterthema"
-  - "vektorlaenge-von-richtung-trennen-v113"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Vektorlänge von Richtung trennen**.

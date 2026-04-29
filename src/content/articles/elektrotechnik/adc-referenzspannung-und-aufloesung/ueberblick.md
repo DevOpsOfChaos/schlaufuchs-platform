@@ -1,34 +1,19 @@
 ---
 title: "ADC-Referenzspannung und Auflösung"
 description: "Allgemeiner Überblick über ADC-Referenzen, Auflösung und Messbereich."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "adc-referenzspannung-und-aufloesung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst ADC-Referenzspannung und Auflösung als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["adc-referenzspannung-und-aufloesung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird der letzte Digit als sicherer Messwert interpretiert, obwohl Rauschen mehrere Codes schwanken lassen kann."
-keyTakeaways:
-  - "ADC-Referenz und Auflösung bestimmen den Zahlenraum einer Messung."
-  - "ADC-Referenzspannung und Auflösung sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um ADC-Referenzspannung und Auflösung."
-selfCheckPoints:
-  - "Kann ich erklären, woran man ADC-Referenzspannung und Auflösung erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "adc"
-  - "referenzspannung"
-  - "auflösung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
-
 # ADC-Referenzspannung und Auflösung
 
 ![Schaubild zu ADC-Referenzspannung und Auflösung.](/schlaufuchs-platform/images/overviews/v150/adc-referenzspannung-und-aufloesung.svg)

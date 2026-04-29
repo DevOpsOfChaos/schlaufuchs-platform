@@ -1,35 +1,19 @@
 ---
 title: "Interrupts und ISR"
 description: "Allgemeiner Überblick über Interrupts und Interrupt-Service-Routinen in Mikrocontroller-Systemen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "interrupts-und-isr"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst Interrupts als Reaktion auf Ereignisse."
-  - "Du kannst eine ISR als kurze Behandlungsroutine einordnen."
-  - "Du verstehst typische Risiken durch Nebenläufigkeit."
+topicPath: ["interrupts-und-isr", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Eine ISR wie eine normale lange Funktion zu verwenden."
-  - "Gemeinsame Variablen ohne Schutz oder klare Regeln zu verändern."
-keyTakeaways:
-  - "Interrupts ermöglichen schnelle Reaktionen auf wichtige Ereignisse."
-  - "ISRs sollten kurz, vorhersehbar und gut abgegrenzt bleiben."
-recognizeSignals:
-  - "Es geht um externe Flanken, Timerereignisse, Empfangsdaten oder schnelle Reaktionen."
-selfCheckPoints:
-  - "Kann ich erklären, warum eine ISR möglichst wenig Arbeit erledigen sollte?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "interrupt"
-  - "isr"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
-
 # Interrupts und ISR
 
 ![Schaubild zu Interrupt, ISR und Hauptprogramm.](/schlaufuchs-platform/images/overviews/v148/interrupts-und-isr.svg)

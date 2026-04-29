@@ -1,36 +1,19 @@
 ---
 title: "Unit of Work"
 description: "Unit of Work bündelt mehrere Änderungen zu einer zusammenhängenden Arbeitseinheit, die gemeinsam bestätigt oder verworfen wird."
-subject: informatik
+subject: "informatik"
 section: "Daten und Architektur"
-topicPath:
-  - "unit-of-work"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Unit of Work als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["unit-of-work", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden zusammengehörige Änderungen verteilt gespeichert, wodurch halbfertige Zustände entstehen."
-keyTakeaways:
-  - "Unit of Work bündelt mehrere Änderungen zu einer zusammenhängenden Arbeitseinheit, die gemeinsam bestätigt oder verworfen wird."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Unit of Work, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Unit of Work in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "transaktionen"
-  - "persistenz"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Daten und Architektur"]
 draft: false
 ---
-
 # Unit of Work
 
 Unit of Work bündelt mehrere Änderungen zu einer zusammenhängenden Arbeitseinheit, die gemeinsam

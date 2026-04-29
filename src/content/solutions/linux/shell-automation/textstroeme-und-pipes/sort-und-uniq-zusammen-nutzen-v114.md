@@ -1,23 +1,14 @@
 ---
-title: Lösung – sort und uniq zusammen nutzen
-description: Musterlösung zur Aufgabe über sort und uniq zusammen nutzen.
-subject: linux
-section: Feinstruktur Linux
-topicPath:
-- shell-automation
-- textstroeme-und-pipes
-- sort-und-uniq-zusammen-nutzen-v114
-taskId: v114-linux-sort-und-uniq-zusammen-nutzen-v114
-relatedExercise: linux/shell-automation/textstroeme-und-pipes/sort-und-uniq-zusammen-nutzen-v114
-tags:
-- linux
-- v114
-- loesung
-- shell-automation
-- textstroeme-und-pipes
+title: "Lösung – sort und uniq zusammen nutzen"
+description: "Musterlösung zur Aufgabe über sort und uniq zusammen nutzen."
+subject: "linux"
+section: "Feinstruktur Linux"
+topicPath: ["shell-automation", "textstroeme-und-pipes", "sort-und-uniq-zusammen-nutzen-v114"]
+taskId: "v114-linux-sort-und-uniq-zusammen-nutzen-v114"
+relatedExercise: "linux/shell-automation/textstroeme-und-pipes/sort-und-uniq-zusammen-nutzen-v114"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

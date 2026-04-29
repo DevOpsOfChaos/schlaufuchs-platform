@@ -3,22 +3,12 @@ title: "Lösung: Einheitenketten sauber kürzen"
 description: "Musterlösung zur Aufgabe „Einheitenketten sauber kürzen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "rechenstrategien-und-kontrolle"
-  - "einheiten-und-groessencheck"
-  - "einheitenketten-sauber-kuerzen-v116"
+topicPath: ["rechenstrategien-und-kontrolle", "einheiten-und-groessencheck", "einheitenketten-sauber-kuerzen-v116"]
 taskId: "einheitenketten-sauber-kuerzen-v116"
 relatedExercise: "mathematik/rechenstrategien-und-kontrolle/einheiten-und-groessencheck/einheitenketten-sauber-kuerzen-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "einheiten und groessencheck"
-  - "einheitenketten sauber kuerzen"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

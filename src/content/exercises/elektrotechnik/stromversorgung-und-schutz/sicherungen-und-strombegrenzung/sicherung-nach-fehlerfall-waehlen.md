@@ -1,28 +1,17 @@
 ---
 title: "Sicherung nach Fehlerfall wählen"
 description: "Begründe, welche Sicherung zu einem einfachen Verbraucherpfad passt."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Stromversorgung und Schutz"
-topicPath:
-  - stromversorgung-und-schutz
-  - sicherungen-und-strombegrenzung
-taskId: ET-V181-003
-tags:
-  - elektrotechnik
-  - sicherungen-und-strombegrenzung
-  - sanierung-v181
-hintPoints:
-  - "Lies zuerst den Normalzustand und dann den Fehlerfall."
-  - "Trenne elektrische Ebene, logische Bedeutung und praktische Prüfung."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["stromversorgung-und-schutz", "sicherungen-und-strombegrenzung", "sicherung-nach-fehlerfall-waehlen"]
+taskId: "ET-V181-003"
+tags: ["elektrotechnik", "Stromversorgung und Schutz", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **Sicherungen und Strombegrenzung** ruhig und schrittweise.

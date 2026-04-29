@@ -1,32 +1,17 @@
 ---
 title: "Schema-first API"
 description: "Überblick über API-Entwicklung, bei der Schnittstellenverträge vor der Implementierung definiert werden."
-subject: informatik
+subject: "informatik"
 section: "Schnittstellen"
-topicPath:
-  - "schema-first-api"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Schema-first API als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie OpenAPI, Schema, Mocking."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["schema-first-api", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Schnittstellendokumentation erst nach fertiger Implementierung zu schreiben."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Schema-first API beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Vertragsorientierte API-Entwicklung."
-  - "Wichtige Hinweise liefern vor allem OpenAPI, Schema, Mocking."
-recognizeSignals:
-  - "Es geht um vertragsorientierte api-entwicklung, openapi oder schema."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Schema-first API erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "informatik"
-  - "api"
-  - "schnittstellen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Schnittstellen"]
 draft: false
 ---
 # Schema-first API

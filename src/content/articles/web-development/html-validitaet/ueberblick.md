@@ -1,34 +1,19 @@
 ---
 title: "HTML-Validität"
 description: "Überblick über gültiges HTML und seine Bedeutung für Browser, Barrierefreiheit und langfristige Wartbarkeit."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "html-validitaet"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["html-validitaet", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "HTML als beliebige Textstruktur zu behandeln, solange es im eigenen Browser gut aussieht."
-keyTakeaways:
-  - "Gültiges HTML schafft eine verlässliche Grundlage für Darstellung, Skripte und Barrierefreiheit."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn DOM-Struktur, Fokusverhalten oder Screenreader-Ausgabe nicht zur geschriebenen Vorlage passen."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "web development"
-  - "html"
-  - "semantik"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # HTML-Validität
 
 HTML-Validität bedeutet, dass Elemente, Attribute und Verschachtelungen den Regeln der HTML-Spezifikation entsprechen. Browser korrigieren vieles automatisch, aber diese Korrekturen sind nicht immer offensichtlich.

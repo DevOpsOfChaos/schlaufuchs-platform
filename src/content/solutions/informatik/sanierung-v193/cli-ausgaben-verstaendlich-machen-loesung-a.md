@@ -3,25 +3,12 @@ title: "Lösung: CLI-Ausgaben verständlich machen: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-026a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "projektstruktur-und-codepflege"
-  - "cli-ausgaben-verstaendlich-machen"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "cli-ausgaben-verstaendlich-machen-loesung-a"]
 taskId: "informatik-v193-026a"
 relatedExercise: "informatik/sanierung-v193/cli-ausgaben-verstaendlich-machen-aufgabe-a"
-tags:
-  - "cli"
-  - "ausgaben"
-  - "verstaendlich"
-  - "machen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-026a`
 
 Ausgangsauftrag: Verbessere eine unklare CLI-Ausgabe für einen fehlgeschlagenen Scan.

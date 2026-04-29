@@ -3,43 +3,17 @@ title: "Diagrammachsen vor Aussagen lesen"
 description: "Lerne Diagrammachsen vor Aussagen lesen als kleines, klar abgegrenztes Unterthema mit Prüffrage und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "daten-und-zufall"
-  - "diagramme"
-  - "diagrammachsen-vor-aussagen-lesen-v113"
-learningGoals:
-  - "Du erklärst Diagrammachsen vor Aussagen lesen als enges Unterthema."
-  - "Du grenzt es von einem naheliegenden Nachbarthema ab."
-  - "Du nutzt eine konkrete Prüffrage statt einer allgemeinen Merkhilfe."
-practiceIdeas:
-  - "Wende die Prüffrage auf ein zweites Beispiel an."
-  - "Formuliere eine Gegenprobe mit geändertem Kontext."
-  - "Markiere, welches Nachbarthema hier gerade nicht gemeint ist."
-commonMistakes:
-  - "Die optische Höhe wird ohne Achsenskalierung bewertet."
-  - "Zu breit einordnen und dadurch die eigentliche Trennkante verlieren."
-  - "Eine Lösung ohne Gegenprobe akzeptieren."
-keyTakeaways:
-  - "Diagrammachsen vor Aussagen lesen wird über eine kleine Trennkante verständlich."
-  - "Die Prüffrage entscheidet stärker als ein grober Kapitelname."
-  - "Aufgabe und Lösung bleiben übersichtlich, wenn das Unterthema eng geführt wird."
-recognizeSignals:
-  - "Eine Aufgabe enthält eine typische Verwechslung."
-  - "Ein Begriff wirkt bekannt, aber der konkrete Prüfschritt fehlt."
-  - "Eine Lösung muss begründen, warum ein Nachbarthema nicht passt."
-selfCheckPoints:
-  - "Kann ich die Trennkante in einem Satz nennen?"
-  - "Kann ich die Prüffrage auf den Fall anwenden?"
-  - "Kann ich eine sinnvolle Gegenprobe formulieren?"
-tags:
-  - "mathematik"
-  - "strukturcheck"
-  - "unterthema"
-  - "diagrammachsen-vor-aussagen-lesen-v113"
+topicPath: ["daten-und-zufall", "diagramme", "diagrammachsen-vor-aussagen-lesen-v113"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["mathematik", "Feinstruktur Mathematik"]
 draft: false
 ---
-
 ## Grundidee
 
 **Diagrammachsen vor Aussagen lesen** ist bewusst als kleines Unterthema angelegt. Lerne Diagrammachsen vor Aussagen lesen als kleines, klar abgegrenztes Unterthema mit Prüffrage und Gegenprobe. Dadurch bleibt die Seite auffindbar und vermischt sich nicht mit einem übergroßen Sammelkapitel.

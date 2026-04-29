@@ -1,23 +1,14 @@
 ---
-title: Lösung – Diagrammachsen kritisch prüfen
-description: Musterlösung zur Aufgabe über Diagrammachsen kritisch prüfen.
-subject: mathematik
-section: Feinstruktur Mathematik
-topicPath:
-- daten-und-geometrie
-- statistik-und-daten
-- diagrammachsen-kritisch-pruefen-v114
-taskId: v114-mathematik-diagrammachsen-kritisch-pruefen-v114
-relatedExercise: mathematik/daten-und-geometrie/statistik-und-daten/diagrammachsen-kritisch-pruefen-v114
-tags:
-- mathematik
-- v114
-- loesung
-- daten-und-geometrie
-- statistik-und-daten
+title: "Lösung – Diagrammachsen kritisch prüfen"
+description: "Musterlösung zur Aufgabe über Diagrammachsen kritisch prüfen."
+subject: "mathematik"
+section: "Feinstruktur Mathematik"
+topicPath: ["daten-und-geometrie", "statistik-und-daten", "diagrammachsen-kritisch-pruefen-v114"]
+taskId: "v114-mathematik-diagrammachsen-kritisch-pruefen-v114"
+relatedExercise: "mathematik/daten-und-geometrie/statistik-und-daten/diagrammachsen-kritisch-pruefen-v114"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

@@ -3,24 +3,12 @@ title: "Lösung: Diode als Richtungsbauteil: Aufgabe A"
 description: "Musterlösung zur Aufgabe etech-v191-013a im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "halbleiter"
-  - "diode-als-richtungsbauteil"
-  - "loesung-a"
+topicPath: ["sanierung-v191", "diode-als-richtungsbauteil-aufgabe-a"]
 taskId: "etech-v191-013a"
 relatedExercise: "elektrotechnik/sanierung-v191/diode-als-richtungsbauteil-aufgabe-a"
-tags:
-  - "halbleiter"
-  - "diode"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-013a`
 
 Ausgangsauftrag: Erkläre eine LED-Schaltung mit Vorwiderstand und Polung.

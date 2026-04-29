@@ -1,23 +1,14 @@
 ---
-title: Lösung – Wackelkontakt systematisch eingrenzen
-description: Musterlösung zur Aufgabe über Wackelkontakt systematisch eingrenzen.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- messen-und-sicherheit
-- fehlerbilder-und-diagnose
-- wackelkontakt-systematisch-eingrenzen-v114
-taskId: v114-elektrotechnik-wackelkontakt-systematisch-eingrenzen-v114
-relatedExercise: elektrotechnik/messen-und-sicherheit/fehlerbilder-und-diagnose/wackelkontakt-systematisch-eingrenzen-v114
-tags:
-- elektrotechnik
-- v114
-- loesung
-- messen-und-sicherheit
-- fehlerbilder-und-diagnose
+title: "Lösung – Wackelkontakt systematisch eingrenzen"
+description: "Musterlösung zur Aufgabe über Wackelkontakt systematisch eingrenzen."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["messen-und-sicherheit", "fehlerbilder-und-diagnose", "wackelkontakt-systematisch-eingrenzen-v114"]
+taskId: "v114-elektrotechnik-wackelkontakt-systematisch-eingrenzen-v114"
+relatedExercise: "elektrotechnik/messen-und-sicherheit/fehlerbilder-und-diagnose/wackelkontakt-systematisch-eingrenzen-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

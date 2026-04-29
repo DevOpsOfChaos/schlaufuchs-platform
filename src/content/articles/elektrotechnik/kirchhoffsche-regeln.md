@@ -1,17 +1,19 @@
 ---
-title: Kirchhoffsche Regeln
-description: Die Kirchhoffschen Regeln helfen dabei, Ströme und Spannungen in elektrischen Netzwerken systematisch zu analysieren.
-subject: elektrotechnik
-section: Schaltungstechnik
-level: mittel
-tags:
-  - Kirchhoff
-  - Knotenregel
-  - Maschenregel
-  - Netzwerke
+title: "Kirchhoffsche Regeln"
+description: "Die Kirchhoffschen Regeln helfen dabei, Ströme und Spannungen in elektrischen Netzwerken systematisch zu analysieren."
+subject: "elektrotechnik"
+section: "Schaltungstechnik"
+topicPath: ["kirchhoffsche-regeln"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "Schaltungstechnik"]
 draft: false
 ---
-
 ## Überblick
 
 Sobald Schaltungen mehr als nur einen einfachen Widerstand enthalten, reichen einzelne Formeln oft nicht mehr aus. Dann helfen die Kirchhoffschen Regeln. Sie beschreiben grundlegende Erhaltungssätze in elektrischen Netzwerken und sind eine zentrale Basis für die Schaltungsanalyse.

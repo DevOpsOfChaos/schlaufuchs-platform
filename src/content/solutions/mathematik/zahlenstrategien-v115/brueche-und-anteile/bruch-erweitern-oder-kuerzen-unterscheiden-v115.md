@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Bruch erweitern oder kürzen unterscheiden"
 description: "Musterlösung zu Bruch erweitern oder kürzen unterscheiden mit Trennkante und Gegenprobe."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "zahlenstrategien-v115"
-  - "brueche-und-anteile"
-  - "bruch-erweitern-oder-kuerzen-unterscheiden-v115"
+topicPath: ["zahlenstrategien-v115", "brueche-und-anteile", "bruch-erweitern-oder-kuerzen-unterscheiden-v115"]
 taskId: "mathematik-bruch-erweitern-oder-kuerzen-unterscheiden-v115"
 relatedExercise: "mathematik/zahlenstrategien-v115/brueche-und-anteile/bruch-erweitern-oder-kuerzen-unterscheiden-v115"
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "zahlenstrategien"
-  - "brüche und anteile"
-  - "lösung"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Bruch erweitern oder kürzen unterscheiden**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

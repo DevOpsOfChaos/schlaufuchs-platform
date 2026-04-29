@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – Index und Inhalt sauber trennen
-description: Musterlösung zur Aufgabe INF-PROG-CPP-INDEX-001.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - arrays
-  - index-und-element-im-array-unterscheiden
-  - index-und-inhalt-sauber-trennen-loesung
-taskId: INF-PROG-CPP-INDEX-001
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/index-und-element-im-array-unterscheiden/index-und-inhalt-sauber-trennen.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – Index und Inhalt sauber trennen"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-INDEX-001."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "index-und-element-im-array-unterscheiden", "index-und-inhalt-sauber-trennen"]
+taskId: "INF-PROG-CPP-INDEX-001"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/index-und-element-im-array-unterscheiden/index-und-inhalt-sauber-trennen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Zugriff erklären
 
 `A[2]` bedeutet: Greife auf die Position mit Index 2 zu. Das ist der dritte Platz im Array. Der dort gespeicherte Wert ist 6.

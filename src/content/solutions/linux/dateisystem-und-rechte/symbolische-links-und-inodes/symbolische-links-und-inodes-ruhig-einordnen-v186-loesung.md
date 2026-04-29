@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Symbolische Links und Inodes – ruhig einordnen"
 description: "Musterlösung zur Linux-Aufgabe Symbolische Links und Inodes."
-subject: linux
+subject: "linux"
 section: "dateisystem-und-rechte"
-topicPath:
-  - "dateisystem-und-rechte"
-  - "symbolische-links-und-inodes"
-taskId: LINUX-SYMBOLISCHE-LINKS-UND-INODES-V186-1
-relatedExercise: src/content/exercises/linux/dateisystem-und-rechte/symbolische-links-und-inodes/symbolische-links-und-inodes-ruhig-einordnen-v186.md
-tags:
-  - "linux"
-  - "links"
-  - "inode"
-  - "loesung"
+topicPath: ["dateisystem-und-rechte", "symbolische-links-und-inodes", "symbolische-links-und-inodes-ruhig-einordnen-v186"]
+taskId: "LINUX-SYMBOLISCHE-LINKS-UND-INODES-V186-1"
+relatedExercise: "src/content/exercises/linux/dateisystem-und-rechte/symbolische-links-und-inodes/symbolische-links-und-inodes-ruhig-einordnen-v186.md"
+tags: ["linux", "dateisystem-und-rechte", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

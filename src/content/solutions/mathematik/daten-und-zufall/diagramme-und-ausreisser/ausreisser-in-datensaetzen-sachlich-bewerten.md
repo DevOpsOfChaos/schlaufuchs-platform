@@ -3,23 +3,12 @@ title: "Lösung – Ausreißer in Datensätzen sachlich bewerten"
 description: "Musterlösung zur Aufgabe über Datenbewertung mit Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Daten und Zufall"
-topicPath:
-  - "daten-und-zufall"
-  - "diagramme-und-ausreisser"
-  - "ausreisser-in-datensaetzen-sachlich-bewerten"
+topicPath: ["daten-und-zufall", "diagramme-und-ausreisser", "ausreisser-in-datensaetzen-sachlich-bewerten"]
 taskId: "v106-mathematik-ausreisser-in-datensaetzen-sachlich-bewerten"
 relatedExercise: "mathematik/daten-und-zufall/diagramme-und-ausreisser/ausreisser-in-datensaetzen-sachlich-bewerten"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "daten"
-  - "funktionen"
-  - "datenbewertung"
-  - "daten-und-zufall"
-  - "diagramme-und-ausreisser"
+tags: ["mathematik", "Daten und Zufall", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Beobachtung

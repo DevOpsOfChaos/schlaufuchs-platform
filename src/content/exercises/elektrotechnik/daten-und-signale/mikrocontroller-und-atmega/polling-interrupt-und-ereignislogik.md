@@ -3,32 +3,12 @@ title: "Polling und Interrupt passend auswählen"
 description: "Übe den sicheren Umgang mit „Polling, Interrupt und Ereignislogik unterscheiden“."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "polling-interrupt-und-ereignislogik"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "polling-interrupt-und-ereignislogik"]
 taskId: "et-mc-v94-polling-interrupt"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "atmega"
-  - "polling"
-  - "interrupt"
-  - "isr"
-  - "ereignis"
-  - "softwarelogik"
-hintPoints:
-  - "Lies zuerst das beobachtbare Fehlerbild, nicht sofort die vermutete Ursache."
-  - "Trenne elektrische Ebene, Codeebene und didaktische Begründung."
-  - "Begründe deine Entscheidung mit einem konkreten Prüfschritt."
-selfCheckPoints:
-  - "Habe ich den Ausgangs- oder Ruhezustand sauber benannt?"
-  - "Habe ich mindestens eine Gegenprobe formuliert?"
-  - "Ist klar, welche Aussage meine Lösung wirklich beweist?"
-transferIdeas:
-  - "Übertrage die Prüflogik auf ein anderes Modul oder eine andere Schnittstelle."
-  - "Formuliere aus der Lösung eine kurze Checkliste für den nächsten Aufbau."
-reflectionPrompt: "Was war bei „Polling und Interrupt passend auswählen“ der wichtigste Unterschied zwischen Vermutung und sauberer Begründung?"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---

@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Obere und untere Schwelle fachlich begründen"
 description: "Musterlösung zur Aufgabe: Obere und untere Schwelle fachlich begründen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Daten und Signale"
-topicPath:
-  - daten-und-signale
-  - hysterese-und-schaltpunkte
-taskId: ET-V182-022
-relatedExercise: src/content/exercises/elektrotechnik/daten-und-signale/hysterese-und-schaltpunkte/obere-und-untere-schwelle-fachlich-begruenden.md
-tags:
-  - elektrotechnik
-  - hysterese-und-schaltpunkte
-  - loesung
-  - sanierung-v182
+topicPath: ["daten-und-signale", "hysterese-und-schaltpunkte", "obere-und-untere-schwelle-fachlich-begruenden"]
+taskId: "ET-V182-022"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/hysterese-und-schaltpunkte/obere-und-untere-schwelle-fachlich-begruenden.md"
+tags: ["elektrotechnik", "Daten und Signale", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

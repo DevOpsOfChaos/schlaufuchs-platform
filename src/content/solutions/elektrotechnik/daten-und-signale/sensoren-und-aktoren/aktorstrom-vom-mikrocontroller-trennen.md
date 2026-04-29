@@ -3,21 +3,12 @@ title: "Lösung – Aktorstrom vom Mikrocontroller trennen"
 description: "Musterlösung zu aktorstrom vom mikrocontroller trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "sensoren-und-aktoren"
-  - "aktorstrom-vom-mikrocontroller-trennen"
+topicPath: ["daten-und-signale", "sensoren-und-aktoren", "aktorstrom-vom-mikrocontroller-trennen"]
 taskId: "v112-elektrotechnik-aktorstrom-vom-mikrocontroller-trennen"
 relatedExercise: "elektrotechnik/daten-und-signale/sensoren-und-aktoren/aktorstrom-vom-mikrocontroller-trennen"
-tags:
-  - "elektrotechnik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-signale"
-  - "aktorstrom-vom-mikrocontroller-trennen"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Sensoren und Aktoren**.

@@ -3,32 +3,17 @@ title: "Determinismus"
 description: "Allgemeiner Überblick über deterministisches Verhalten in Programmen und Algorithmen."
 subject: "informatik"
 section: "Algorithmen"
-topicPath:
-  - "determinismus"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["determinismus", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Fehler als zufällig bezeichnet, obwohl nur ein versteckter Zustand oder eine unkontrollierte Eingabe fehlt."
-keyTakeaways:
-  - "Determinismus macht Verhalten wiederholbar. Wer nichtdeterministische Quellen erkennt, kann Tests und Fehlersuche gezielter gestalten."
-  - "Nichtdeterminismus ist nicht immer ein Fehler. Simulationen, verteilte Systeme oder Benutzerinteraktion können bewusst variable Abläufe enthalten."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "informatik"
-  - "algorithmen"
-  - "determinismus"
-  - "verhalten"
+tags: ["informatik", "Algorithmen"]
 draft: false
 ---
-
 # Determinismus
 
 Ein deterministischer Ablauf liefert bei gleichen Eingaben und gleichem Anfangszustand immer dasselbe Ergebnis.

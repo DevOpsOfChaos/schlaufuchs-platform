@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Prozesse und Signale"
 description: "Verstehe laufende Programme, Prozesszustände und Signale zur Steuerung."
-subject: linux
+subject: "linux"
 section: "system-und-dienste"
-topicPath:
-  - "system-und-dienste"
-  - "prozesse-und-signale"
-learningGoals:
-  - "Du erklärst Prozesse und Signale in eigenen Worten."
-  - "Du ordnest typische Befehle, Begriffe oder Prüfschritte richtig ein."
-  - "Du erkennst typische Grenzen und Fehlerquellen im Linux-Alltag."
-practiceIdeas:
-  - "Beschreibe eine kleine Alltagssituation zu diesem Thema."
-  - "Markiere, welche Information zuerst geprüft werden muss."
-commonMistakes:
-  - "Ein einzelnes Kommando für das ganze Thema zu halten."
-  - "Ausgabe, Zustand und Ursache zu vermischen."
-  - "Ohne Kontext direkt an Sonderfälle zu springen."
-keyTakeaways:
-  - "Ein Prozess ist ein laufendes Programm mit Zustand und Ressourcen."
-  - "Signale können Prozesse informieren, beenden oder neu laden lassen."
-  - "Prozessdiagnose verbindet Name, PID, Zustand und Ursache."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung statt nur eines Befehlsrezepts."
-  - "Mehrere ähnliche Befehle oder Dateien wirken unklar."
-selfCheckPoints:
-  - "Kann ich Zweck, Kontext und typischen Prüfschritt unterscheiden?"
-  - "Kann ich eine einfache Fehlannahme zum Thema benennen?"
-level: mittel
-tags:
-  - "linux"
-  - "prozesse"
-  - "signale"
+topicPath: ["system-und-dienste", "prozesse-und-signale", "ueberblick", "grundlagen-prozesse-und-signale-v186"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["linux", "system-und-dienste"]
 draft: false
 ---
-
 ![Prozesse und Signale](/schlaufuchs-platform/images/overviews/v186/prozesse-und-signale.svg)
 
 ## Begriff

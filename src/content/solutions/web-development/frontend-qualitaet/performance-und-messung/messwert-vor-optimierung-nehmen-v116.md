@@ -3,22 +3,12 @@ title: "Lösung: Messwert vor Optimierung nehmen"
 description: "Musterlösung zur Aufgabe „Messwert vor Optimierung nehmen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "frontend-qualitaet"
-  - "performance-und-messung"
-  - "messwert-vor-optimierung-nehmen-v116"
+topicPath: ["frontend-qualitaet", "performance-und-messung", "messwert-vor-optimierung-nehmen-v116"]
 taskId: "messwert-vor-optimierung-nehmen-v116"
 relatedExercise: "web-development/frontend-qualitaet/performance-und-messung/messwert-vor-optimierung-nehmen-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "performance und messung"
-  - "messwert vor optimierung nehmen"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

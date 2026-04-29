@@ -3,44 +3,17 @@ title: "HTML – Sprungziele und Ankerlinks stabil planen"
 description: "Verstehe, wie interne Links, Abschnitts-IDs und sichtbare Zieltexte zusammenarbeiten."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "linktexte-und-links"
-  - "sprungziele-und-ankerlinks-stabil-planen"
-learningGoals:
-  - "Du erklärst, warum ein Ankerlink ein klares Ziel braucht."
-  - "Du formulierst Linktexte mit Zielkontext."
-  - "Du prüfst, ob das Ziel nach dem Sprung sichtbar und verständlich ist."
-practiceIdeas:
-  - "Prüfe eine vorhandene Seite mit genau dieser Fragestellung."
-  - "Formuliere eine kleine Vorher-nachher-Verbesserung."
-  - "Teste die Entscheidung mit Tastatur, kleiner Breite und längeren Texten."
-commonMistakes:
-  - "Mehrere gleiche IDs auf einer Seite zu verwenden."
-  - "Nur „hier“ als Linktext zu schreiben."
-  - "Bei Sticky Headern nicht zu prüfen, ob das Ziel verdeckt wird."
-keyTakeaways:
-  - "Bedeutung, Technik und Nutzungssituation müssen zusammenpassen."
-  - "Eine optisch passende Lösung ist noch nicht automatisch strukturell gut."
-  - "Kleine Prüfregeln helfen, Weboberflächen verlässlich zu verbessern."
-recognizeSignals:
-  - "Du siehst eine Stelle, die optisch funktioniert, aber fachlich unklar bleibt."
-  - "Im Review taucht die Frage auf, ob HTML-Struktur oder CSS-Verhalten wirklich passt."
-  - "Eine Komponente soll robuster, zugänglicher oder wartbarer werden."
-selfCheckPoints:
-  - "Kann ich die fachliche Bedeutung der Stelle benennen?"
-  - "Kann ich die technische Entscheidung begründen?"
-  - "Kann ich eine typische Fehlinterpretation vermeiden?"
-tags:
-  - "web development"
-  - "html"
-  - "links"
-  - "anker"
-  - "navigation"
+topicPath: ["html", "linktexte-und-links", "sprungziele-und-ankerlinks-stabil-planen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Diese Seite hilft dir, **Sprungziele und Ankerlinks stabil planen** nicht als isolierte Technik zu lernen. Entscheidend ist, welche Bedeutung auf der Seite entsteht und ob diese Bedeutung für Nutzerinnen und Nutzer zuverlässig erkennbar bleibt.

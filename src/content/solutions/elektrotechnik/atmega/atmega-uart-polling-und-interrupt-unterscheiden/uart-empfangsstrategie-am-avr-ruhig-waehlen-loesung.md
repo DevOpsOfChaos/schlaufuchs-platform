@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – UART-Empfangsstrategie am AVR ruhig wählen
-description: Musterlösung zur Aufgabe ET-ATMEGA-UART-301.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - uart-und-serielle-schnittstellen
-  - atmega-uart-polling-und-interrupt-unterscheiden
-  - uart-empfangsstrategie-am-avr-ruhig-waehlen-loesung
-taskId: ET-ATMEGA-UART-301
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-uart-polling-und-interrupt-unterscheiden/uart-empfangsstrategie-am-avr-ruhig-waehlen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – UART-Empfangsstrategie am AVR ruhig wählen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-UART-301."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-uart-polling-und-interrupt-unterscheiden", "uart-empfangsstrategie-am-avr-ruhig-waehlen"]
+taskId: "ET-ATMEGA-UART-301"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-uart-polling-und-interrupt-unterscheiden/uart-empfangsstrategie-am-avr-ruhig-waehlen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

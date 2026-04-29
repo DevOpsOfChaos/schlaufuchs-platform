@@ -3,21 +3,12 @@ title: "Lösung – Fehlerzustand im UI setzen"
 description: "Musterlösung zu fehlerzustand im ui setzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "javascript"
-  - "dom-und-events"
-  - "fehlerzustand-im-ui-setzen"
+topicPath: ["javascript", "dom-und-events", "fehlerzustand-im-ui-setzen"]
 taskId: "v112-web-development-fehlerzustand-im-ui-setzen"
 relatedExercise: "web-development/javascript/dom-und-events/fehlerzustand-im-ui-setzen"
-tags:
-  - "web-development"
-  - "v112"
-  - "feinstruktur"
-  - "javascript"
-  - "fehlerzustand-im-ui-setzen"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **JavaScript DOM und Events**.

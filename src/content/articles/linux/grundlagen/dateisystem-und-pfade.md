@@ -1,17 +1,19 @@
 ---
-title: Dateisystem und Pfade in Linux
-description: Das Linux-Dateisystem ist hierarchisch aufgebaut und wird über klare Pfade strukturiert, nicht über Laufwerksbuchstaben wie in anderen Systemen.
-subject: linux
-section: Grundlagen
-level: einfach
-tags:
-  - Dateisystem
-  - Pfade
-  - Linux
-  - Grundlagen
+title: "Dateisystem und Pfade in Linux"
+description: "Das Linux-Dateisystem ist hierarchisch aufgebaut und wird über klare Pfade strukturiert, nicht über Laufwerksbuchstaben wie in anderen Systemen."
+subject: "linux"
+section: "Grundlagen"
+topicPath: ["grundlagen", "dateisystem-und-pfade"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 Wer Linux sicher nutzen will, muss das Dateisystem verstehen. Viele Aufgaben im Terminal, in der Administration oder in der Entwicklung hängen direkt davon ab, wo Dateien liegen und wie Pfade gelesen werden. Das Linux-Dateisystem folgt einer klaren Baumstruktur.

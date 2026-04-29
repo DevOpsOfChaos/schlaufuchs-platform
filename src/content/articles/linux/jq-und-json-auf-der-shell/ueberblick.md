@@ -1,36 +1,19 @@
 ---
 title: "jq und JSON auf der Shell"
 description: "jq ist ein Werkzeug zum Lesen, Filtern und Umformen von JSON-Daten auf der Kommandozeile."
-subject: linux
+subject: "linux"
 section: "Textwerkzeuge"
-topicPath:
-  - "jq-und-json-auf-der-shell"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst jq und JSON auf der Shell als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["jq-und-json-auf-der-shell", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird JSON mit grep und cut bearbeitet, wodurch verschachtelte oder maskierte Werte falsch behandelt werden."
-keyTakeaways:
-  - "jq ist ein Werkzeug zum Lesen, Filtern und Umformen von JSON-Daten auf der Kommandozeile."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um jq und JSON auf der Shell, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich jq und JSON auf der Shell in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "json"
-  - "jq"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Textwerkzeuge"]
 draft: false
 ---
-
 # jq und JSON auf der Shell
 
 jq ist ein Werkzeug zum Lesen, Filtern und Umformen von JSON-Daten auf der Kommandozeile. Diese Überblicksseite ordnet das Thema ruhig und allgemein ein. Sie ist nicht als Aufgabe oder Einzelfall gedacht, sondern als Einstieg, bevor konkrete Situationen, Werkzeuge, Formeln oder Fehlersuchen betrachtet werden.

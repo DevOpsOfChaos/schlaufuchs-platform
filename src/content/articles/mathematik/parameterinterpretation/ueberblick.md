@@ -1,36 +1,19 @@
 ---
 title: "Parameterinterpretation"
 description: "Parameterinterpretation fragt, welche Bedeutung einzelne veränderbare Größen in einer Formel oder einem Modell haben."
-subject: mathematik
+subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "parameterinterpretation"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Parameterinterpretation als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["parameterinterpretation", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft werden Parameter nur algebraisch verändert, ohne ihre sachliche Bedeutung zu prüfen."
-keyTakeaways:
-  - "Parameterinterpretation fragt, welche Bedeutung einzelne veränderbare Größen in einer Formel oder einem Modell haben."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Parameterinterpretation, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Parameterinterpretation in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "parameter"
-  - "modellieren"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
-
 # Parameterinterpretation
 
 Parameterinterpretation fragt, welche Bedeutung einzelne veränderbare Größen in einer Formel

@@ -1,45 +1,19 @@
 ---
-title: Steuerzeichen und druckbare Zeichen unterscheiden
-description: Verstehe, warum eine Zeichentabelle nicht nur sichtbare Buchstaben und Ziffern enthält, sondern auch Steuerzeichen für technische Abläufe.
-subject: informatik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - daten-und-information
-  - steuerzeichen-und-druckbare-zeichen-unterscheiden
-learningGoals:
-  - Du unterscheidest druckbare Zeichen und Steuerzeichen.
-  - Du ordnest typische Beispiele wie TAB, LF oder CR grob ihrer Funktion zu.
-  - Du erklärst, warum eine Zeichentabelle nicht nur sichtbaren Text enthält.
-practiceIdeas:
-  - Markiere in einer kleinen Tabelle, welche Einträge sichtbar und welche steuernd sind.
-  - Erkläre, warum ein Zeilenumbruch ein Zeichenwert sein kann, ohne als Buchstabe sichtbar zu werden.
-  - Vergleiche Leerzeichen, Tabulator und Zeilenumbruch.
-commonMistakes:
-  - Alle Tabellenwerte als sichtbare Zeichen zu erwarten.
-  - Leerzeichen und "nichts" gleichzusetzen.
-  - CR und LF nur als Programmierspracheffekt statt als Steuerzeichen zu sehen.
-keyTakeaways:
-  - Nicht jedes Zeichen einer Kodierung ist sichtbar druckbar.
-  - Steuerzeichen dienen der technischen Steuerung von Ausgaben oder Eingaben.
-  - Auch unsichtbare Zeichen können für Textverarbeitung zentral sein.
-recognizeSignals:
-  - Es geht um TAB, LF, CR, ESC, DEL oder Leerzeichen.
-  - Eine ASCII-Tabelle enthält Einträge ohne sichtbaren Buchstaben.
-  - Du sollst erklären, warum ein Zeichen technisch wichtig, aber nicht druckbar ist.
-selfCheckPoints:
-  - Kann ich sichtbare und steuernde Zeichen trennen?
-  - Kann ich typische Beispiele nennen?
-  - Kann ich erklären, warum "unsichtbar" nicht "bedeutungslos" heißt?
-tags:
-  - informatik
-  - ascii
-  - steuerzeichen
-  - daten
-level: einfach
+title: "Steuerzeichen und druckbare Zeichen unterscheiden"
+description: "Verstehe, warum eine Zeichentabelle nicht nur sichtbare Buchstaben und Ziffern enthält, sondern auch Steuerzeichen für technische Abläufe."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "daten-und-information", "steuerzeichen-und-druckbare-zeichen-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Grundlagen"]
 draft: false
 ---
-
 ## Grundidee
 
 In Zeichentabellen stehen nicht nur Buchstaben, Ziffern und Satzzeichen. Es gibt auch **Steuerzeichen**, die keinen normalen sichtbaren Text darstellen, sondern technische Abläufe beeinflussen.

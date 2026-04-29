@@ -1,47 +1,19 @@
 ---
-title: Kompilieren, Linken und Ausführen verstehen
-description: Verstehe den Weg von der C++-Quelldatei bis zum ausführbaren Programm.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - einstieg-und-werkzeugkette
-  - kompilieren-linken-und-ausfuehren-verstehen
-learningGoals:
-  - Du erklärst die Stationen Quelltext, Compiler, Objektdatei, Linker und ausführbares Programm.
-  - Du unterscheidest Kompilieren und Linken sauber.
-  - Du beschreibst die Werkzeugkette ruhiger als Ablauf statt als bloße Befehlsliste.
-practiceIdeas:
-  - Ordne Dateiendungen wie <code>.cpp</code>, <code>.o</code> und <code>.exe</code> einer Rolle zu.
-  - Erkläre, warum aus Textdatei und Objektdatei noch kein direkt startbares Programm geworden ist.
-  - Vergleiche einen Ein-Schritt-Befehl mit dem gedanklich getrennten Ablauf aus mehreren Stufen.
-commonMistakes:
-  - Kompilieren und Linken als dasselbe zu behandeln.
-  - Zu glauben, die <code>.cpp</code>-Datei sei schon direkt ausführbar.
-  - Den Compiler als „alles zusammen“ zu bezeichnen, ohne die Zwischenstufen zu sehen.
-keyTakeaways:
-  - C++-Quelltext wird nicht direkt ausgeführt.
-  - Kompilieren erzeugt Zwischenergebnisse, Linken bindet sie zu einem Programm zusammen.
-  - Die Werkzeugkette liest sich am ruhigsten als Ablauf von Datei zu Datei.
-recognizeSignals:
-  - Es geht um Compiler, Linker, Objektdateien, Konsolenbefehle oder den Übersetzungsweg.
-  - Du sollst einen Werkzeugablauf ordnen oder erklären.
-  - In Beispielen musst du Dateien und Arbeitsschritte unterscheiden.
-selfCheckPoints:
-  - Kann ich <code>.cpp</code>, Objektdatei und ausführbares Programm unterscheiden?
-  - Kann ich Kompilieren und Linken in eigenen Worten trennen?
-  - Kann ich den Ablauf vom Quelltext bis zur Ausführung beschreiben?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - compiler
-  - linker
+title: "Kompilieren, Linken und Ausführen verstehen"
+description: "Verstehe den Weg von der C++-Quelldatei bis zum ausführbaren Programm."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "kompilieren-linken-und-ausfuehren-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Eine C++-Datei ist zuerst nur Quelltext. Damit daraus ein laufendes Programm wird, sind mehrere Schritte nötig. Genau diese Kette ist wichtig, weil sie zeigt, dass ein Programm nicht „magisch“ aus dem Editor startet.

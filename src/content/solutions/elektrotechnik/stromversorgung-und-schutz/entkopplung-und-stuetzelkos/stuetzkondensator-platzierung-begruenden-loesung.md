@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Stützkondensator-Platzierung begründen"
 description: "Musterlösung zur Aufgabe Stützkondensator-Platzierung begründen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Stromversorgung und Schutz"
-topicPath:
-  - stromversorgung-und-schutz
-  - entkopplung-und-stuetzelkos
-taskId: ET-V181-001
-relatedExercise: src/content/exercises/elektrotechnik/stromversorgung-und-schutz/entkopplung-und-stuetzelkos/stuetzkondensator-platzierung-begruenden.md
-tags:
-  - elektrotechnik
-  - entkopplung-und-stuetzelkos
-  - loesung
+topicPath: ["stromversorgung-und-schutz", "entkopplung-und-stuetzelkos", "stuetzkondensator-platzierung-begruenden"]
+taskId: "ET-V181-001"
+relatedExercise: "src/content/exercises/elektrotechnik/stromversorgung-und-schutz/entkopplung-und-stuetzelkos/stuetzkondensator-platzierung-begruenden.md"
+tags: ["elektrotechnik", "Stromversorgung und Schutz", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

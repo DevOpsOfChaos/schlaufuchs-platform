@@ -1,34 +1,19 @@
 ---
 title: "Gleichrichtung und Glättung"
 description: "Allgemeiner Überblick über Gleichrichtung, Restwelligkeit und geglättete Versorgungsspannungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Versorgung"
-topicPath:
-  - "gleichrichtung-und-glaettung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Gleichrichtung und Glättung als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["gleichrichtung-und-glaettung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird angenommen, ein großer Kondensator löse alle Versorgungsprobleme. Einschaltstrom und Alterung bleiben relevant."
-keyTakeaways:
-  - "Gleichrichtung und Glättung sind typische Schritte von Wechselspannung zu nutzbarer Gleichspannung."
-  - "Gleichrichtung und Glättung sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Gleichrichtung und Glättung."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Gleichrichtung und Glättung erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "gleichrichtung"
-  - "glättung"
-  - "netzteil"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Versorgung"]
 draft: false
 ---
-
 # Gleichrichtung und Glättung
 
 Gleichrichtung wandelt eine wechselnde Spannung in eine Spannung mit überwiegend gleicher Polarität. Glättung reduziert verbleibende Schwankungen.

@@ -3,20 +3,12 @@ title: "Lösung – Interrupt-Flag und ISR trennen"
 description: "Musterlösung zu Interrupt-Flag und ISR trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "interrupts"
-  - "interrupt-flag-und-isr-trennen-v113"
+topicPath: ["mikrocontroller-und-atmega", "interrupts", "interrupt-flag-und-isr-trennen-v113"]
 taskId: "v113-elektrotechnik-interrupt-flag-und-isr-trennen-v113"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/interrupts/interrupt-flag-und-isr-trennen-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "interrupt-flag-und-isr-trennen-v113"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Interrupt-Flag und ISR trennen**.

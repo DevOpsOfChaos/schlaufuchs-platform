@@ -1,44 +1,19 @@
 ---
-title: CSS-Box-Modell
-description: Verstehe, wie Inhalt, Innenabstand, Rand und Außenabstand zusammen eine Box bilden.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - box-modell
-learningGoals:
-  - Du beschreibst die vier Schichten des Box-Modells sauber.
-  - Du unterscheidest sicher zwischen padding, border und margin.
-  - Du liest Layout-Abstände systematischer statt nur „zu viel Abstand“ zu sehen.
-practiceIdeas:
-  - Zerlege ein einzelnes Element bewusst in Inhalt, padding, border und margin.
-  - Vergleiche zwei Karten und benenne, ob der sichtbare Abstand innen oder außen entsteht.
-  - Suche in einem kleinen Layout gezielt die Schicht, die den Abstand wirklich verursacht.
-commonMistakes:
-  - padding und margin gleichzusetzen.
-  - border nur als sichtbare Linie statt als Teil der Box zu sehen.
-  - Abstand zu bemerken, aber seine Ursache nicht sauber zu benennen.
-keyTakeaways:
-  - Fast jedes HTML-Element lässt sich als Box lesen.
-  - padding liegt innen, margin außen.
-  - Wer das Box-Modell versteht, findet Layoutprobleme ruhiger und gezielter.
-tags:
-  - css
-  - box-modell
-  - layout
-  - abstand
-level: einfach
+title: "CSS-Box-Modell"
+description: "Verstehe, wie Inhalt, Innenabstand, Rand und Außenabstand zusammen eine Box bilden."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css-box-modell"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
-recognizeSignals:
-  - Die Aufgabe nennt Box-Modell, padding, margin oder border direkt.
-  - Du sollst erklären, warum ein Element größer wirkt oder warum zwei Elemente Abstand haben.
-  - In einem Layoutproblem musst du herausfinden, welche Schicht den sichtbaren Abstand erzeugt.
-selfCheckPoints:
-  - Kann ich Inhalt, padding, border und margin sauber voneinander trennen?
-  - Kann ich erklären, ob ein Abstand innen oder außen entsteht?
-  - Kann ich bei einem Layoutproblem gezielt nach der richtigen Schicht suchen?
 ---
-
 ## Grundidee
 
 Im CSS wird fast jedes Element als Box behandelt. Diese Box besteht nicht nur aus dem sichtbaren Inhalt, sondern aus mehreren Schichten, die gemeinsam Größe, Rahmen und Abstand beeinflussen.

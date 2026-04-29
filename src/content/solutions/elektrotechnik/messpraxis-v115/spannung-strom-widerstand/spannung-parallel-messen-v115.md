@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Spannung parallel messen"
 description: "Musterlösung zu Spannung parallel messen mit Trennkante und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "messpraxis-v115"
-  - "spannung-strom-widerstand"
-  - "spannung-parallel-messen-v115"
+topicPath: ["messpraxis-v115", "spannung-strom-widerstand", "spannung-parallel-messen-v115"]
 taskId: "elektrotechnik-spannung-parallel-messen-v115"
 relatedExercise: "elektrotechnik/messpraxis-v115/spannung-strom-widerstand/spannung-parallel-messen-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "messpraxis"
-  - "spannung, strom und widerstand"
-  - "lösung"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Spannung parallel messen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

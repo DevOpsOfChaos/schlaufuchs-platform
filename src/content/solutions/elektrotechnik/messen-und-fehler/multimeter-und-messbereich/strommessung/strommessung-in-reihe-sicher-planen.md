@@ -3,23 +3,12 @@ title: "Lösung – Strommessung in Reihe sicher planen"
 description: "Musterlösung zu Strommessung mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "elektrotechnik"
 section: "Messen"
-topicPath:
-  - "messen-und-fehler"
-  - "multimeter-und-messbereich"
-  - "strommessung"
-  - "strommessung-in-reihe-sicher-planen"
+topicPath: ["messen-und-fehler", "multimeter-und-messbereich", "strommessung", "strommessung-in-reihe-sicher-planen"]
 taskId: "v107-elektrotechnik-strommessung-in-reihe-sicher-planen"
 relatedExercise: "elektrotechnik/messen-und-fehler/multimeter-und-messbereich/strommessung/strommessung-in-reihe-sicher-planen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "schaltungen"
-  - "strommessung"
-  - "messen-und-fehler"
-  - "multimeter-und-messbereich"
+tags: ["elektrotechnik", "Messen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Strommessung**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

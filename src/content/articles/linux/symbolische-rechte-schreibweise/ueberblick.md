@@ -3,32 +3,17 @@ title: "Symbolische Rechte-Schreibweise"
 description: "Allgemeiner Überblick über symbolische rechte-schreibweise und die wichtigsten Zusammenhänge."
 subject: "linux"
 section: "Rechte"
-topicPath:
-  - "symbolische-rechte-schreibweise"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["symbolische-rechte-schreibweise", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird eine Oktalzahl benutzt, ohne zu prüfen, welche Rechte wirklich gemeint sind."
-keyTakeaways:
-  - "Symbolische Rechte machen Rechteänderungen nachvollziehbar."
-  - "Symbolische Rechte sind nicht weniger exakt als Oktalrechte; sie beschreiben Änderungen oft lesbarer."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "linux"
-  - "rechte"
-  - "chmod"
-  - "shell"
+tags: ["linux", "Rechte"]
 draft: false
 ---
-
 # Symbolische Rechte-Schreibweise
 
 Die symbolische Rechte-Schreibweise beschreibt Linux-Dateirechte mit Buchstaben wie `u`, `g`, `o`, `r`, `w` und `x`.

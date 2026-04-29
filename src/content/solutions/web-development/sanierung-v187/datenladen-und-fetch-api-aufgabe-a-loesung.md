@@ -3,23 +3,12 @@ title: "Lösung: Datenladen und Fetch API: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-023a im Web-Development-Block v187."
 subject: "web-development"
 section: "javascript"
-topicPath: 
-  - "javascript-und-interaktion"
-  - "datenladen"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "datenladen-und-fetch-api-aufgabe-a"]
 taskId: "web-v187-023a"
 relatedExercise: "web-development/sanierung-v187/datenladen-und-fetch-api-aufgabe-a"
-tags: 
-  - "fetch"
-  - "api"
-  - "javascript"
-  - "daten"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "javascript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-023a`
 
     Ausgangsauftrag: Skizziere den Ablauf einer Datenliste vom Klick bis zur gerenderten Ausgabe.

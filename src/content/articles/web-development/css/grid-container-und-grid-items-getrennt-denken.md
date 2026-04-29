@@ -1,44 +1,19 @@
 ---
-title: Grid-Container und Grid-Items getrennt denken
-description: Verstehe, welche Eigenschaften am Grid-Container liegen und welche erst auf die einzelnen Grid-Items wirken.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - grid-container-und-grid-items-getrennt-denken
-learningGoals:
-  - Du trennst Container-Eigenschaften und Item-Eigenschaften in CSS Grid.
-  - Du erklärst, warum das Raster am Container entsteht.
-  - Du beschreibst, welche Positionierung erst am einzelnen Item festgelegt wird.
-practiceIdeas:
-  - Ordne Grid-Eigenschaften der richtigen Ebene zu.
-  - Vergleiche eine Rasterdefinition mit einer Item-Positionierung.
-  - Prüfe bei einem Layout, ob das Problem am Container oder am Item liegt.
-commonMistakes:
-  - grid-template-Eigenschaften am Item zu suchen.
-  - Zu denken, dass ein Item sein eigenes Raster unabhängig festlegt.
-  - Containerstruktur und Item-Positionierung zu vermischen.
-keyTakeaways:
-  - Der Container baut das Raster.
-  - Die Items werden in dieses Raster gesetzt.
-  - Viele Grid-Fehler entstehen, weil die Ebenen verwechselt werden.
-recognizeSignals:
-  - Du siehst grid-template, gap, justify-items oder align-items.
-  - Du sollst grid-column oder grid-row erklären.
-  - In einem Beispiel gibt es einen Bereich mit mehreren platzierten Elementen.
-selfCheckPoints:
-  - Kann ich sagen, welche Grid-Regeln zum Container gehören?
-  - Kann ich erklären, welche Regeln das einzelne Item betreffen?
-  - Kann ich ein Layoutproblem der richtigen Ebene zuordnen?
-tags:
-  - css
-  - grid
-  - container
-  - layout
-level: einfach
+title: "Grid-Container und Grid-Items getrennt denken"
+description: "Verstehe, welche Eigenschaften am Grid-Container liegen und welche erst auf die einzelnen Grid-Items wirken."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "grid-container-und-grid-items-getrennt-denken"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 CSS Grid arbeitet auf zwei Ebenen gleichzeitig. Das macht das Thema stark, aber auch fehleranfällig. Erst der **Container** definiert das Raster. Danach bekommen einzelne **Items** ihre Position oder ihr eigenes Verhalten im Raster.

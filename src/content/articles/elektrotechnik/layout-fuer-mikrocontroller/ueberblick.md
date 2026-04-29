@@ -1,37 +1,19 @@
 ---
 title: "Layout für Mikrocontroller"
 description: "Überblick über grundlegende Layoutentscheidungen rund um Mikrocontroller, Versorgung und Signale."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Layout"
-topicPath:
-  - "layout-fuer-mikrocontroller"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Layout für Mikrocontroller als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["layout-fuer-mikrocontroller", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Bauteile nur nach Platzbedarf zu positionieren und Rückstrompfade, Entkopplung und empfindliche Leitungen zu spät zu betrachten."
-keyTakeaways:
-  - "Layout beeinflusst Stabilität und Messqualität."
-  - "Versorgung, Reset und Takt sind besonders kritisch."
-  - "Kurze, klare Strompfade sind oft wichtiger als optische Ordnung."
-recognizeSignals:
-  - "Eine Schaltung funktioniert nur manchmal."
-  - "Takt, Reset, ADC oder Versorgung sind layoutabhängig auffällig."
-selfCheckPoints:
-  - "Kann ich Layout für Mikrocontroller in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "layout"
-  - "mikrocontroller"
-  - "leiterplatte"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Layout"]
 draft: false
 ---
-
 # Layout für Mikrocontroller
 
 Layout für Mikrocontroller bedeutet, Bauteile, Leiterbahnen, Masse und Versorgung so anzuordnen, dass die Schaltung elektrisch zuverlässig arbeitet.

@@ -1,12 +1,17 @@
 ---
-title: Eingabe und Ausgabe – Grundaufgaben
-description: Übe das grundlegende Verständnis von Datenfluss in einfachen Programmen.
-subject: informatik
-section: eingaben-und-ausgaben
-level: einfach
+title: "Eingabe und Ausgabe – Grundaufgaben"
+description: "Übe das grundlegende Verständnis von Datenfluss in einfachen Programmen."
+subject: "informatik"
+section: "eingaben-und-ausgaben"
+topicPath: ["eingabe-und-ausgabe-grundaufgaben"]
+taskId: "AUTO-EINGABE-UND-AUSGABE-GRUNDAUFGABEN"
+tags: ["informatik", "eingaben-und-ausgaben", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe hält die Grundidee von Eingabe und Ausgabe bewusst einfach: Du sollst erkennen, **wo Informationen in ein Programm hineingehen und wo Ergebnisse wieder herauskommen**.
 
 ## Lernziel

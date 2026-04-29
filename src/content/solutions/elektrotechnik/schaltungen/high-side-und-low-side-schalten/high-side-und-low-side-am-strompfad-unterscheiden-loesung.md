@@ -1,21 +1,14 @@
 ---
 title: "Lösung – High-Side und Low-Side am Strompfad unterscheiden"
 description: "Musterlösung zur Aufgabe: High-Side und Low-Side am Strompfad unterscheiden."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schaltungen"
-topicPath:
-  - schaltungen
-  - high-side-und-low-side-schalten
-taskId: ET-V182-009
-relatedExercise: src/content/exercises/elektrotechnik/schaltungen/high-side-und-low-side-schalten/high-side-und-low-side-am-strompfad-unterscheiden.md
-tags:
-  - elektrotechnik
-  - high-side-und-low-side-schalten
-  - loesung
-  - sanierung-v182
+topicPath: ["schaltungen", "high-side-und-low-side-schalten", "high-side-und-low-side-am-strompfad-unterscheiden"]
+taskId: "ET-V182-009"
+relatedExercise: "src/content/exercises/elektrotechnik/schaltungen/high-side-und-low-side-schalten/high-side-und-low-side-am-strompfad-unterscheiden.md"
+tags: ["elektrotechnik", "Schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

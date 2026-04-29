@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Baumstrukturen – ruhig einordnen"
 description: "Musterlösung zur Aufgabe über baumstrukturen."
-subject: informatik
+subject: "informatik"
 section: "Datenstrukturen im Einsatz"
-topicPath:
-  - "datenstrukturen-im-einsatz"
-  - "baumstrukturen"
-  - "loesung"
-taskId: INF-V185-013-1
-relatedExercise: src/content/exercises/informatik/datenstrukturen-im-einsatz/baumstrukturen/baumstrukturen-ruhig-einordnen-v185.md
-tags:
-  - "informatik"
-  - "datenstrukturen-im-einsatz"
-  - "baumstrukturen"
-  - "loesung"
+topicPath: ["datenstrukturen-im-einsatz", "baumstrukturen", "baumstrukturen-ruhig-einordnen-v185"]
+taskId: "INF-V185-013-1"
+relatedExercise: "src/content/exercises/informatik/datenstrukturen-im-einsatz/baumstrukturen/baumstrukturen-ruhig-einordnen-v185.md"
+tags: ["informatik", "Datenstrukturen im Einsatz", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

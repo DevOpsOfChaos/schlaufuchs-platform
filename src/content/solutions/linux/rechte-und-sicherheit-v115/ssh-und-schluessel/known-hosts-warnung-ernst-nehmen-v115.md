@@ -1,24 +1,14 @@
 ---
 title: "Lösung: known_hosts Warnung ernst nehmen"
 description: "Musterlösung zu known_hosts Warnung ernst nehmen mit Trennkante und Gegenprobe."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "rechte-und-sicherheit-v115"
-  - "ssh-und-schluessel"
-  - "known-hosts-warnung-ernst-nehmen-v115"
+topicPath: ["rechte-und-sicherheit-v115", "ssh-und-schluessel", "known-hosts-warnung-ernst-nehmen-v115"]
 taskId: "linux-known-hosts-warnung-ernst-nehmen-v115"
 relatedExercise: "linux/rechte-und-sicherheit-v115/ssh-und-schluessel/known-hosts-warnung-ernst-nehmen-v115"
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "rechte und sicherheit"
-  - "ssh und schlüssel"
-  - "lösung"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **known_hosts Warnung ernst nehmen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

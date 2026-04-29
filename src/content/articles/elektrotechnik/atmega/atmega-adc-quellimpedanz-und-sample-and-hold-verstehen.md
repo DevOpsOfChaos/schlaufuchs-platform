@@ -1,46 +1,19 @@
 ---
-title: ATmega – ADC-Quellimpedanz und Sample-and-Hold verstehen
-description: Verstehe am AVR, warum ein ADC-Eingang nicht nur eine Spannung „anschaut“, sondern warum Quellimpedanz und Ladezeit das Messergebnis beeinflussen können.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - adc-und-messung
-  - atmega-adc-quellimpedanz-und-sample-and-hold-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von Sample-and-Hold am ADC.
-  - Du beschreibst, warum eine hochohmige Signalquelle das Einlesen erschweren kann.
-  - Du liest ADC-Probleme eher als Lade- und Zeitfrage statt nur als „falsche Zahl“.
-practiceIdeas:
-  - Vergleiche eine niederohmige mit einer hochohmigen Signalquelle am ADC-Eingang.
-  - Prüfe nach Kanalwechsel, warum ein Messwert erst noch „einschwingen“ muss.
-  - Erkläre den Eingang eher als Ladeproblem eines kleinen Kondensators als als bloßen Messpunkt.
-commonMistakes:
-  - Zu denken, der ADC messe eine Spannung immer sofort ideal.
-  - Hochohmige Quellen als belanglos für die Messqualität zu sehen.
-  - Nach Kanalwechsel den ersten Wert ungeprüft als stabil anzunehmen.
-keyTakeaways:
-  - Der ADC braucht Zeit, um seinen internen Abtastknoten sinnvoll aufzuladen.
-  - Hochohmige Quellen können das Einlesen verlangsamen oder verfälschen.
-  - Auch ADC-Messprobleme sind oft Zeit- und Quellefragen.
-recognizeSignals:
-  - Es geht um unruhige ADC-Werte, Kanalwechsel oder Quellen mit großem Innenwiderstand.
-  - Du sollst erklären, warum ein Wert erst nach kurzer Wartezeit stabil wird.
-  - In Aufgaben ist die Signalquelle wichtiger als nur das Register.
-selfCheckPoints:
-  - Kann ich Sample-and-Hold als Ladeidee erklären?
-  - Kann ich niederohmige und hochohmige Quellen am ADC unterscheiden?
-  - Kann ich den ersten Messwert nach Kanalwechsel kritisch einordnen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - adc
-  - sample-and-hold
-level: fortgeschritten
+title: "ATmega – ADC-Quellimpedanz und Sample-and-Hold verstehen"
+description: "Verstehe am AVR, warum ein ADC-Eingang nicht nur eine Spannung „anschaut“, sondern warum Quellimpedanz und Ladezeit das Messergebnis beeinflussen können."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-adc-quellimpedanz-und-sample-and-hold-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein ADC-Eingang am AVR ist kein magischer Beobachter, der jede Spannung sofort perfekt kennt. Im Inneren steckt vereinfacht gedacht eine **Abtast- und Haltestruktur**, die sich zuerst auf das Eingangssignal aufladen muss. Genau deshalb spielen **Quellimpedanz** und **Zeit** eine größere Rolle, als man anfangs vermutet.

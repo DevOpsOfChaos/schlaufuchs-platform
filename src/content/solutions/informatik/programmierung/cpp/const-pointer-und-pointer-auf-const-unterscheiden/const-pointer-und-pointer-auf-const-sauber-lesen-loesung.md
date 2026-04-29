@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – Const-Pointer und Pointer auf const sauber lesen
-description: Musterlösung zur Aufgabe INF-PROG-CPP-PTR-005.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - pointer-und-adressen
-  - const-pointer-und-pointer-auf-const-unterscheiden
-  - const-pointer-und-pointer-auf-const-sauber-lesen-loesung
-taskId: INF-PROG-CPP-PTR-005
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/const-pointer-und-pointer-auf-const-unterscheiden/const-pointer-und-pointer-auf-const-sauber-lesen.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – Const-Pointer und Pointer auf const sauber lesen"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-PTR-005."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "const-pointer-und-pointer-auf-const-unterscheiden", "const-pointer-und-pointer-auf-const-sauber-lesen"]
+taskId: "INF-PROG-CPP-PTR-005"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/const-pointer-und-pointer-auf-const-unterscheiden/const-pointer-und-pointer-auf-const-sauber-lesen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Zwei Deklarationen in Worte übersetzen
 
 <code>const int *p</code> bedeutet: Über <code>p</code> soll der Zielwert nicht verändert werden. <code>int * const q = nullptr;</code> bedeutet: <code>q</code> ist selbst ein fester Pointer, seine gespeicherte Adresse bleibt also fest.

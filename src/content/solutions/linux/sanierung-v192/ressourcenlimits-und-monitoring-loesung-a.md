@@ -3,25 +3,12 @@ title: "Lösung: Ressourcenlimits und Monitoring: Aufgabe A"
 description: "Musterlösung zur Aufgabe linux-v192-030a im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "betrieb-nahe-grundlagen"
-  - "ressourcenlimits-und-monitoring"
-  - "loesung-a"
+topicPath: ["sanierung-v192", "ressourcenlimits-und-monitoring-loesung-a"]
 taskId: "linux-v192-030a"
 relatedExercise: "linux/sanierung-v192/ressourcenlimits-und-monitoring-aufgabe-a"
-tags:
-  - "betrieb-nahe-grundlagen"
-  - "ressourcenlimits"
-  - "monitoring"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-030a`
 
 Ausgangsauftrag: Bewerte CPU-, RAM- und Plattenwerte für eine kleine VM.

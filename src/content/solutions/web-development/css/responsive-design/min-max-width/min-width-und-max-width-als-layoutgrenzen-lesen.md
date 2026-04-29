@@ -3,23 +3,12 @@ title: "Lösung – min-width und max-width als Layoutgrenzen lesen"
 description: "Musterlösung zu min-width und max-width mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "responsive-design"
-  - "min-max-width"
-  - "min-width-und-max-width-als-layoutgrenzen-lesen"
+topicPath: ["css", "responsive-design", "min-max-width", "min-width-und-max-width-als-layoutgrenzen-lesen"]
 taskId: "v109-web-development-min-width-und-max-width-als-layoutgrenzen-lesen"
 relatedExercise: "web-development/css/responsive-design/min-max-width/min-width-und-max-width-als-layoutgrenzen-lesen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "css"
-  - "responsive-design"
-  - "min-width und max-width"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **min-width und max-width**.

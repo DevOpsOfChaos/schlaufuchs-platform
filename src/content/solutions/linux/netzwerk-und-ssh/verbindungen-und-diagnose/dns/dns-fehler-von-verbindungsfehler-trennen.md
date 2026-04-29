@@ -3,23 +3,12 @@ title: "Lösung – DNS-Fehler von Verbindungsfehler trennen"
 description: "Musterlösung zu DNS und Verbindung mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "netzwerk-und-ssh"
-  - "verbindungen-und-diagnose"
-  - "dns"
-  - "dns-fehler-von-verbindungsfehler-trennen"
+topicPath: ["netzwerk-und-ssh", "verbindungen-und-diagnose", "dns", "dns-fehler-von-verbindungsfehler-trennen"]
 taskId: "v111-linux-dns-fehler-von-verbindungsfehler-trennen"
 relatedExercise: "linux/netzwerk-und-ssh/verbindungen-und-diagnose/dns/dns-fehler-von-verbindungsfehler-trennen"
-tags:
-  - "linux"
-  - "betrieb"
-  - "unterthema"
-  - "netzwerk-und-ssh"
-  - "verbindungen-und-diagnose"
-  - "dns-fehler-von-verbindungsfehler-trennen"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **DNS und Verbindung**.

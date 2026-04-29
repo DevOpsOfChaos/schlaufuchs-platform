@@ -3,18 +3,10 @@ title: "Lösung – aria-describedby für Hilfe- und Fehlertexte nutzen"
 description: "Musterlösung mit kurzer Begründung zur passenden Web-Development-Entscheidung."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "formular-validierung"
-  - "aria-describedby-fuer-hilfe-und-fehlertexte-nutzen"
+topicPath: ["html", "formular-validierung", "aria-describedby-fuer-hilfe-und-fehlertexte-nutzen"]
 taskId: "aria-describedby-fuer-hilfe-und-fehlertexte-nutzen"
 relatedExercise: "web-development/html/formular-validierung/aria-describedby-fuer-hilfe-und-fehlertexte-nutzen"
-tags:
-  - "web development"
-  - "html"
-  - "aria-describedby"
-  - "formulare"
-  - "accessibility"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
 ## Musterlösung

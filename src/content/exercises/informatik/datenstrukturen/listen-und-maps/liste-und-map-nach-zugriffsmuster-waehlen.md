@@ -3,33 +3,15 @@ title: "Aufgabe – Liste und Map nach Zugriffsmuster wählen"
 description: "Übe liste und map nach zugriffsmuster wählen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenstrukturen"
-  - "listen-und-maps"
-  - "liste-und-map-nach-zugriffsmuster-waehlen"
+topicPath: ["datenstrukturen", "listen-und-maps", "liste-und-map-nach-zugriffsmuster-waehlen"]
 taskId: "v112-informatik-liste-und-map-nach-zugriffsmuster-waehlen"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "datenstrukturen"
-  - "liste-und-map-nach-zugriffsmuster-waehlen"
-hintPoints:
-  - "Benenne zuerst das kleine Unterthema."
-  - "Prüfe bewusst den Unterschied zum Fehler: Eine Liste wird für jede Form von Daten genommen."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Einordnung enger als nur der breite Fachbereich?"
-  - "Wird der typische Fehler ausdrücklich ausgeschlossen?"
-  - "Passt die Lösung zur Wissensseite?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Begriff und prüfe, ob die gleiche Strategie gilt."
-  - "Erkläre die Lösung einmal alltagssprachlich und danach fachlich sauber."
-reflectionPrompt: "Was war bei „Liste und Map nach Zugriffsmuster wählen“ die wichtigste Trennkante?"
+tags: ["informatik", "Feinstruktur Informatik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation:

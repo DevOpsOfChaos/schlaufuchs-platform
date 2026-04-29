@@ -1,24 +1,14 @@
 ---
 title: "Lösung: LED-Vorwiderstand begründen"
 description: "Musterlösung zu LED-Vorwiderstand begründen mit Trennkante und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "bauteile-praxis-v115"
-  - "dioden-und-schutz"
-  - "led-vorwiderstand-begruenden-v115"
+topicPath: ["bauteile-praxis-v115", "dioden-und-schutz", "led-vorwiderstand-begruenden-v115"]
 taskId: "elektrotechnik-led-vorwiderstand-begruenden-v115"
 relatedExercise: "elektrotechnik/bauteile-praxis-v115/dioden-und-schutz/led-vorwiderstand-begruenden-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "bauteile in der praxis"
-  - "dioden und schutz"
-  - "lösung"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **LED-Vorwiderstand begründen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

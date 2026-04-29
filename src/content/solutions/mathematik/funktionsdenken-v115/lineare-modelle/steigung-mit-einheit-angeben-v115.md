@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Steigung mit Einheit angeben"
 description: "Musterlösung zu Steigung mit Einheit angeben mit Trennkante und Gegenprobe."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "funktionsdenken-v115"
-  - "lineare-modelle"
-  - "steigung-mit-einheit-angeben-v115"
+topicPath: ["funktionsdenken-v115", "lineare-modelle", "steigung-mit-einheit-angeben-v115"]
 taskId: "mathematik-steigung-mit-einheit-angeben-v115"
 relatedExercise: "mathematik/funktionsdenken-v115/lineare-modelle/steigung-mit-einheit-angeben-v115"
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "funktionsdenken"
-  - "lineare modelle"
-  - "lösung"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Steigung mit Einheit angeben**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

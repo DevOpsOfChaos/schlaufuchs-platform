@@ -1,42 +1,19 @@
 ---
 title: "Grundlagen: Open-Drain und Open-Collector"
 description: "Allgemeiner Überblick über offene Ausgänge, Pull-up-Widerstände und gemeinsames Busverhalten."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Digitale Eingänge und Ausgänge"
-topicPath:
-  - digitale-eingaenge-und-ausgaenge
-  - open-drain-und-open-collector
-  - ueberblick
-learningGoals:
-  - "Du erklärst die Grundidee des Themas in eigenen Worten."
-  - "Du ordnest typische Begriffe, Grenzen und Fehlerquellen ruhig ein."
-  - "Du erkennst, welche Detailfragen zu diesem Themenbereich gehören."
-practiceIdeas:
-  - "Skizziere den Zusammenhang als Prüf-, Signal- oder Strompfad."
-  - "Notiere eine typische Fehlannahme und formuliere eine Gegenprobe."
-commonMistakes:
-  - "Open-Drain wie einen normalen High-Treiber zu lesen."
-  - "Den Pull-up als optionales Detail zu behandeln."
-  - "Mehrere Ausgänge gegeneinander treiben zu lassen."
-keyTakeaways:
-  - "Open-Drain-Ausgänge ziehen typischerweise nur aktiv nach Low."
-  - "Der High-Zustand entsteht über Pull-up und Leitung."
-  - "Dieses Prinzip erlaubt gemeinsames Bus- oder Alarmverhalten."
-recognizeSignals:
-  - "Du brauchst zuerst Orientierung, bevor du eine konkrete Schaltung oder Aufgabe bewertest."
-  - "Ein Einzelfall wirkt plausibel, aber der allgemeine fachliche Rahmen fehlt."
-selfCheckPoints:
-  - "Kann ich das Thema ohne reines Auswendiglernen erklären?"
-  - "Kann ich typische Fehlerquellen in einer sinnvollen Prüfreihenfolge nennen?"
-level: einfach
-tags:
-  - elektrotechnik
-  - open-drain
-  - open-collector
-  - pullup
+topicPath: ["digitale-eingaenge-und-ausgaenge", "open-drain-und-open-collector", "ueberblick", "grundlagen-open-drain-und-open-collector"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Digitale Eingänge und Ausgänge"]
 draft: false
 ---
-
 ![Open-Drain und Open-Collector](/schlaufuchs-platform/images/overviews/v182/open-drain-und-open-collector.svg)
 
 ## Überblick

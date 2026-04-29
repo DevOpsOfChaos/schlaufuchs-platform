@@ -3,32 +3,15 @@ title: "Aufgabe – I2C-Adresse und Datenbyte trennen"
 description: "Übe I2C-Adresse und Datenbyte trennen mit Szenario, Trennkante und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "schnittstellen"
-  - "i2c-adresse-und-datenbyte-trennen-v113"
+topicPath: ["mikrocontroller-und-atmega", "schnittstellen", "i2c-adresse-und-datenbyte-trennen-v113"]
 taskId: "v113-elektrotechnik-i2c-adresse-und-datenbyte-trennen-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "i2c-adresse-und-datenbyte-trennen-v113"
-hintPoints:
-  - "Benenne zuerst das genaue Unterthema."
-  - "Notiere die typische Verwechslung ausdrücklich."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Antwort enger als ein breites Kapitel?"
-  - "Wird ein Nachbarthema sauber ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere eine zweite Aufgabe im gleichen Unterthema mit anderer Oberfläche."
-reflectionPrompt: "Welche kleine Trennkante macht I2C-Adresse und Datenbyte trennen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **I2C-Adresse und Datenbyte trennen**.

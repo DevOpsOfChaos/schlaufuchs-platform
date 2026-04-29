@@ -3,23 +3,12 @@ title: "Lösung: Formulare, Eingaben und Labels: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-008a im Web-Development-Block v187."
 subject: "web-development"
 section: "html"
-topicPath: 
-  - "html-und-semantik"
-  - "formulare"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "formulare-eingaben-und-labels-aufgabe-a"]
 taskId: "web-v187-008a"
 relatedExercise: "web-development/sanierung-v187/formulare-eingaben-und-labels-aufgabe-a"
-tags: 
-  - "formulare"
-  - "inputs"
-  - "labels"
-  - "html"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "html", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-008a`
 
     Ausgangsauftrag: Entwirf ein Kontaktformular mit passenden Labels, Input-Typen und kurzer Hilfsinformation.

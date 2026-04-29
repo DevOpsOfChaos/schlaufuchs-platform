@@ -1,32 +1,17 @@
 ---
-title: Startbedingungen eines Controllers ruhig prüfen
-description: Prüfe Versorgung, Takt und Reset als Systemvoraussetzungen und begründe, warum Startprobleme nicht sofort Softwarefehler sein müssen.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - takt-spannung-und-reset-als-startbedingungen-verstehen
-  - startbedingungen-eines-controllers-ruhig-pruefen
-taskId: ELE-MCU-GEN-105
-level: einfach
+title: "Startbedingungen eines Controllers ruhig prüfen"
+description: "Prüfe Versorgung, Takt und Reset als Systemvoraussetzungen und begründe, warum Startprobleme nicht sofort Softwarefehler sein müssen."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "takt-spannung-und-reset-als-startbedingungen-verstehen", "startbedingungen-eines-controllers-ruhig-pruefen"]
+taskId: "ELE-MCU-GEN-105"
+tags: ["elektrotechnik", "mikrocontroller", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - takt
-  - reset
-hintPoints:
-  - Denke zuerst an Systembedingungen, nicht sofort an den Algorithmus.
-  - Trenne Versorgung, Takt und Reset als drei verschiedene Rollen.
-selfCheckPoints:
-  - Kannst du Startprobleme systemisch einordnen?
-  - Kannst du erklären, warum gleiche Software bei anderer Rahmenbedingung anders wirkt?
-transferIdeas:
-  - Übertrage die Logik auf UART, Timer oder Blinkversuche auf eigener Hardware.
-reflectionPrompt: "Welche Startbedingung würdest du vor dem Code am schnellsten prüfen und warum?"
 ---
-
 ## Aufgabe 1: Drei Rollen benennen
 
 Erkläre kurz die Rolle von

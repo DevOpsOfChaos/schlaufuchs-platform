@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Anmeldung und Schutzmaßnahmen einordnen
-description: Erste festgehaltene Musterlösung zur Aufgabe INF-SICHERHEIT-AUTH-001.
-subject: informatik
-section: Sicherheit
-topicPath:
-  - sicherheit
-  - starke-passwoerter-und-authentifizierung
-  - anmeldung-und-schutzmassnahmen-einordnen-loesung
-taskId: INF-SICHERHEIT-AUTH-001
-relatedExercise: src/content/exercises/informatik/sicherheit/starke-passwoerter-und-authentifizierung/anmeldung-und-schutzmassnahmen-einordnen.md
-tags:
-  - informatik
-  - sicherheit
-  - authentifizierung
-  - loesung
-  - task-id
+title: "Musterlösung – Anmeldung und Schutzmaßnahmen einordnen"
+description: "Erste festgehaltene Musterlösung zur Aufgabe INF-SICHERHEIT-AUTH-001."
+subject: "informatik"
+section: "Sicherheit"
+topicPath: ["sicherheit", "starke-passwoerter-und-authentifizierung", "anmeldung-und-schutzmassnahmen-einordnen"]
+taskId: "INF-SICHERHEIT-AUTH-001"
+relatedExercise: "src/content/exercises/informatik/sicherheit/starke-passwoerter-und-authentifizierung/anmeldung-und-schutzmassnahmen-einordnen.md"
+tags: ["informatik", "Sicherheit", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Beispiele vergleichen
 
 **Konto B** ist besser geschützt.  

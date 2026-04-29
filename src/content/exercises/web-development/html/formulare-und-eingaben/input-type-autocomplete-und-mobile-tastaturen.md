@@ -3,29 +3,12 @@ title: "Aufgabe – input type, autocomplete und mobile Tastaturen sinnvoll wäh
 description: "Trainiere die Entscheidung aus der Wissensseite an einem konkreten Mini-Fall."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "formulare-und-eingaben"
-  - "input-type-autocomplete-und-mobile-tastaturen"
+topicPath: ["html", "formulare-und-eingaben", "input-type-autocomplete-und-mobile-tastaturen"]
 taskId: "input-type-autocomplete-und-mobile-tastaturen"
-tags:
-  - "web development"
-  - "html"
-  - "formulare"
-  - "autocomplete"
-  - "mobile"
-hintPoints:
-  - "Beginne mit der sichtbaren Bedeutung, nicht mit dem ersten Code-Snippet."
-  - "Prüfe danach, welches HTML- oder CSS-Mittel diese Bedeutung trägt."
-  - "Achte darauf, ob die Lösung auch bei Tastaturbedienung oder kleiner Breite verständlich bleibt."
-selfCheckPoints:
-  - "Ist die Entscheidung fachlich begründet?"
-  - "Sind sichtbarer Text und technische Struktur konsistent?"
-  - "Würde eine andere Person im Team die Lösung nachvollziehen können?"
-transferIdeas:
-  - "Übertrage die Entscheidung auf eine zweite Komponente mit ähnlicher Struktur."
-  - "Formuliere eine schwache und eine bessere Variante in eigenen Worten."
-reflectionPrompt: "Welche kleine Prüfregel würdest du dir für das nächste Web-Review merken?"
+tags: ["web-development", "HTML", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---

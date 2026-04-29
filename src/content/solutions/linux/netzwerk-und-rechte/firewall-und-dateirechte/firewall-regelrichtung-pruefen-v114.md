@@ -1,23 +1,14 @@
 ---
-title: Lösung – Firewall-Regelrichtung prüfen
-description: Musterlösung zur Aufgabe über Firewall-Regelrichtung prüfen.
-subject: linux
-section: Feinstruktur Linux
-topicPath:
-- netzwerk-und-rechte
-- firewall-und-dateirechte
-- firewall-regelrichtung-pruefen-v114
-taskId: v114-linux-firewall-regelrichtung-pruefen-v114
-relatedExercise: linux/netzwerk-und-rechte/firewall-und-dateirechte/firewall-regelrichtung-pruefen-v114
-tags:
-- linux
-- v114
-- loesung
-- netzwerk-und-rechte
-- firewall-und-dateirechte
+title: "Lösung – Firewall-Regelrichtung prüfen"
+description: "Musterlösung zur Aufgabe über Firewall-Regelrichtung prüfen."
+subject: "linux"
+section: "Feinstruktur Linux"
+topicPath: ["netzwerk-und-rechte", "firewall-und-dateirechte", "firewall-regelrichtung-pruefen-v114"]
+taskId: "v114-linux-firewall-regelrichtung-pruefen-v114"
+relatedExercise: "linux/netzwerk-und-rechte/firewall-und-dateirechte/firewall-regelrichtung-pruefen-v114"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

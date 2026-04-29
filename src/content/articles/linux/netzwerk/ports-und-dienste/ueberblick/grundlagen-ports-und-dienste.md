@@ -1,36 +1,19 @@
 ---
 title: "Grundlagen: Ports und Dienste"
 description: "Allgemeiner Überblick über Netzwerkdienste, Ports, lokale Prozesse und typische Prüfwege unter Linux."
-subject: linux
+subject: "linux"
 section: "Netzwerk"
-topicPath:
-  - netzwerk
-  - ports-und-dienste
-  - grundlagen-ports-und-dienste
-learningGoals:
-  - "Du erklärst Ports als adressierbare Endpunkte für Netzwerkdienste."
-  - "Du unterscheidest Dienst, Prozess und Verbindung."
-  - "Du beschreibst einfache Prüfwege für erreichbare und nicht erreichbare Dienste."
+topicPath: ["netzwerk", "ports-und-dienste", "ueberblick", "grundlagen-ports-und-dienste"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Einen offenen Port automatisch mit einem funktionierenden Dienst gleichzusetzen."
-  - "Firewall, Dienststatus und falsche Adresse nicht getrennt zu prüfen."
-  - "Portnummern als zufällige Zahlen statt als Teil einer Verbindung zu behandeln."
-keyTakeaways:
-  - "Ports helfen, mehrere Dienste auf einem System unterscheidbar zu machen."
-  - "Ein Dienst muss laufen, lauschen und erreichbar sein."
-  - "Fehlersuche trennt Prozessstatus, Portbindung, Firewall und Netzwerkweg."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - "linux"
-  - "netzwerk"
-  - "ports"
-  - "dienste"
+level: "einfach"
+tags: ["linux", "Netzwerk"]
 draft: false
 ---
-
 ## Begriff
 
 Ein **Port** ist ein nummerierter Endpunkt für Netzwerkkommunikation. Während eine IP-Adresse ein Gerät oder eine Netzwerkschnittstelle adressiert, unterscheidet der Port verschiedene Dienste auf diesem System.

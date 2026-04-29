@@ -1,44 +1,19 @@
 ---
-title: Flex-Achsen und Ausrichtung verstehen
-description: Verstehe, wie justify-content und align-items auf Haupt- und Kreuzachse wirken und warum Flexbox zuerst als Achsenproblem gelesen werden sollte.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - flex-achsen-und-ausrichtung-verstehen
-learningGoals:
-  - Du unterscheidest Hauptachse und Kreuzachse.
-  - Du erklärst die Rollen von justify-content und align-items.
-  - Du liest sichtbare Flex-Ausrichtung ruhiger als Achsenproblem.
-practiceIdeas:
-  - Ordne sichtbare Layouts den richtigen Achsenbegriffen zu.
-  - Vergleiche center, flex-start und space-between an einer kleinen Leiste.
-  - Prüfe, welche Eigenschaft auf welcher Achse wirkt.
-commonMistakes:
-  - justify-content und align-items zu vertauschen.
-  - von links und rechts statt von Haupt- und Kreuzachse aus zu denken.
-  - zu vergessen, dass flex-direction die Achsrichtung verändern kann.
-keyTakeaways:
-  - justify-content steuert die Verteilung auf der Hauptachse.
-  - align-items steuert die Ausrichtung auf der Kreuzachse.
-  - flex-direction verändert, wie Haupt- und Kreuzachse gelesen werden.
-recognizeSignals:
-  - Es geht um center, stretch, flex-start, flex-end oder space-between.
-  - Eine Flex-Leiste ist sichtbar ausgerichtet und du sollst die Ursache benennen.
-  - In Beispielen wird flex-direction erwähnt.
-selfCheckPoints:
-  - Kann ich Achsen statt Himmelsrichtungen denken?
-  - Kann ich justify-content und align-items sicher trennen?
-  - Kann ich erklären, was sich bei flex-direction column ändert?
-tags:
-  - css
-  - flexbox
-  - ausrichtung
-  - web-development
-level: einfach
+title: "Flex-Achsen und Ausrichtung verstehen"
+description: "Verstehe, wie justify-content und align-items auf Haupt- und Kreuzachse wirken und warum Flexbox zuerst als Achsenproblem gelesen werden sollte."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "flex-achsen-und-ausrichtung-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei Flexbox hilft eine ruhige Denkweise: **nicht sofort links, rechts, oben oder unten**, sondern zuerst **Hauptachse** und **Kreuzachse**.

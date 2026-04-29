@@ -1,31 +1,17 @@
 ---
 title: "Nebenläufigkeit und Parallelität"
 description: "Allgemeiner Überblick über gleichzeitige Abläufe, Parallelität und typische Denkfehler."
-subject: informatik
+subject: "informatik"
 section: "Systeme"
-topicPath:
-  - "nebenlaeufigkeit-und-parallelitaet"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Nebenläufigkeit und Parallelität grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["nebenlaeufigkeit-und-parallelitaet", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nebenläufigkeit und Parallelität nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Nebenläufigkeit und Parallelität beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Nebenläufigkeit und Parallelität, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Nebenläufigkeit und Parallelität in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "nebenlaeufigkeit"
-  - "parallelitaet"
-  - "systeme"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Systeme"]
 draft: false
 ---
 # Nebenläufigkeit und Parallelität

@@ -1,23 +1,14 @@
 ---
-title: Lösung – High-Side und Low-Side trennen
-description: Musterlösung zur Aufgabe über High-Side und Low-Side trennen.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- signale-und-schaltungen
-- transistoren-und-lasten
-- high-side-und-low-side-trennen-v114
-taskId: v114-elektrotechnik-high-side-und-low-side-trennen-v114
-relatedExercise: elektrotechnik/signale-und-schaltungen/transistoren-und-lasten/high-side-und-low-side-trennen-v114
-tags:
-- elektrotechnik
-- v114
-- loesung
-- signale-und-schaltungen
-- transistoren-und-lasten
+title: "Lösung – High-Side und Low-Side trennen"
+description: "Musterlösung zur Aufgabe über High-Side und Low-Side trennen."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["signale-und-schaltungen", "transistoren-und-lasten", "high-side-und-low-side-trennen-v114"]
+taskId: "v114-elektrotechnik-high-side-und-low-side-trennen-v114"
+relatedExercise: "elektrotechnik/signale-und-schaltungen/transistoren-und-lasten/high-side-und-low-side-trennen-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

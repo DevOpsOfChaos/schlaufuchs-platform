@@ -1,46 +1,19 @@
 ---
 title: "Linux – Ausführungsrecht bei Ordnern deuten"
 description: "Trainiere Ausführungsrecht bei Ordnern deuten als kleines Unterthema mit klarer Trennkante, Beispiel und Gegenprobe."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "rechte-und-sicherheit-v115"
-  - "dateirechte-und-besitz"
-  - "ausfuehrungsrecht-bei-ordnern-deuten-v115"
-learningGoals:
-  - "Du erklärst Ausführungsrecht bei Ordnern deuten an einem kleinen, abgegrenzten Fall."
-  - "Du trennst das Unterthema von einem naheliegenden Nachbarthema."
-  - "Du formulierst eine passende Gegenprobe statt nur eine fertige Antwort."
-practiceIdeas:
-  - "Schreibe zuerst die Prüffrage in eigenen Worten auf."
-  - "Markiere im Fall zwei Hinweise, die wirklich zur Entscheidung gehören."
-  - "Formuliere einen Gegenfall, in dem die Entscheidung anders ausfallen würde."
-commonMistakes:
-  - "x wird nur als Startrecht für Programme verstanden."
-  - "Das Thema wird zu breit eingeordnet und verliert dadurch die prüfbare Trennkante."
-  - "Die Lösung nennt ein Ergebnis, begründet aber nicht die Abgrenzung."
-keyTakeaways:
-  - "Dieses Unterthema prüft vor allem: Darf der Nutzer den Ordner durchqueren?"
-  - "Eine gute Lösung benennt die Trennkante ausdrücklich."
-  - "Die Gegenprobe zeigt, ob die Begründung wirklich trägt."
-recognizeSignals:
-  - "Die Aufgabe fragt nach Ausführungsrecht bei Ordnern deuten."
-  - "Ähnliche Begriffe oder Fälle liegen nah beieinander."
-  - "Eine kleine Änderung im Fall würde zu einer anderen Entscheidung führen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-level: mittel
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "rechte und sicherheit"
-  - "dateirechte und besitz"
+topicPath: ["rechte-und-sicherheit-v115", "dateirechte-und-besitz", "ausfuehrungsrecht-bei-ordnern-deuten-v115"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["linux", "Feinstruktur Linux"]
 draft: false
 ---
-
 <img src="/schlaufuchs-platform/illustrations/linux-ausfuehrungsrecht-bei-ordnern-deuten-v115.svg" alt="Lernillustration zu Ausführungsrecht bei Ordnern deuten" loading="lazy" />
 
 ## Grundidee

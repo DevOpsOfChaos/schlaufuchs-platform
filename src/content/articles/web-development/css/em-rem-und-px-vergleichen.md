@@ -1,46 +1,19 @@
 ---
-title: em, rem und px vergleichen
-description: Verstehe, wie sich px, em und rem als CSS-Einheiten unterscheiden und warum ihr Bezugspunkt für Größen und Abstände entscheidend ist.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - em-rem-und-px-vergleichen
-learningGoals:
-  - Du erklärst den Unterschied zwischen px, em und rem.
-  - Du beschreibst, worauf sich em und rem jeweils beziehen.
-  - Du wählst Einheiten eher nach Bezugspunkt als nach Gewohnheit.
-practiceIdeas:
-  - Vergleiche dieselbe Box mit px-, em- und rem-Werten.
-  - Prüfe bei verschachtelten Komponenten, wo ein relativer Bezug hilfreich ist.
-  - Lies eine Einheit zuerst über ihren Bezugspunkt und erst danach über ihre Zahl.
-commonMistakes:
-  - em und rem als fast identisch zu behandeln.
-  - nur Zahlen zu sehen und nicht den Bezugspunkt.
-  - relative Einheiten zu verwenden, ohne die Hierarchie mitzudenken.
-keyTakeaways:
-  - px wirkt direkt und fest.
-  - rem bezieht sich auf die Wurzel-Schriftgröße.
-  - em bezieht sich auf den lokalen Kontext und kann sich verschachtelt aufbauen.
-recognizeSignals:
-  - Es geht um Schriftgrößen, Abstände oder Komponenten, die sich mit ihrem Kontext mitbewegen sollen.
-  - Du sollst nicht nur Werte nennen, sondern ihren Bezugspunkt erklären.
-  - In Beispielen ist wichtig, warum dieselbe Zahl sichtbar anders wirken kann.
-selfCheckPoints:
-  - Kann ich px, em und rem sauber unterscheiden?
-  - Kann ich erklären, worauf em und rem sich beziehen?
-  - Kann ich begründen, wann ein globaler und wann ein lokaler Bezug sinnvoll ist?
-tags:
-  - css
-  - einheiten
-  - em
-  - rem
-  - px
-level: einfach
+title: "em, rem und px vergleichen"
+description: "Verstehe, wie sich px, em und rem als CSS-Einheiten unterscheiden und warum ihr Bezugspunkt für Größen und Abstände entscheidend ist."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "em-rem-und-px-vergleichen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 CSS-Einheiten sind nicht nur Zahlen mit Anhängsel. Sie sagen auch etwas darüber aus, **woran sich eine Größe orientiert**. Genau deshalb ist der Unterschied zwischen `px`, `em` und `rem` didaktisch wichtig.

@@ -3,45 +3,17 @@ title: "Web Development – Fehlerbudget für Releaseentscheidung nutzen"
 description: "Lerne fehlerbudget für releaseentscheidung nutzen als kleines Unterthema mit Beispiel, Abgrenzung und Prüfstrategie."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "performance-und-sicherheit"
-  - "fehlerbudget-fuer-releaseentscheidung-nutzen"
-learningGoals:
-  - "Du erklärst fehlerbudget für releaseentscheidung nutzen in einem klaren Kontext."
-  - "Du grenzt das Unterthema von einem typischen Nachbarthema ab."
-  - "Du nutzt eine konkrete Gegenprobe statt nur eine Merkliste."
-practiceIdeas:
-  - "Formuliere ein eigenes Mini-Beispiel mit einer typischen Verwechslung."
-  - "Schreibe einen Prüfschritt auf, der das Ergebnis kontrolliert."
-  - "Ordne das Thema bewusst in den kleinen Unterpfad ein."
-commonMistakes:
-  - "Jeder Fehler wird entweder ignoriert oder als kompletter Stopp behandelt."
-  - "Das Thema wird in einem breiten Sammelkapitel versteckt."
-  - "Die Lösung nennt ein Ergebnis, aber keinen prüfbaren Weg."
-keyTakeaways:
-  - "Ein Fehlerbudget macht Risiko und Nutzerwirkung vergleichbar."
-  - "Kleine Unterthemen machen Wiederholung und Suche einfacher."
-  - "Aufgabe und Lösung sollen dieselbe Trennkante verwenden."
-recognizeSignals:
-  - "Eine Aufgabe enthält einen Begriff, der leicht mit einem Nachbarthema verwechselt wird."
-  - "Ein Beispiel braucht vor der Rechnung oder Umsetzung eine Einordnung."
-  - "Eine Gegenprobe kann den gewählten Weg bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich den typischen Fehler fachlich ausschließen?"
-  - "Passt meine Lösung genau zum Unterpfad?"
-tags:
-  - "web-development"
-  - "v112"
-  - "feinstruktur"
-  - "projektpraxis"
-  - "fehlerbudget-fuer-releaseentscheidung-nutzen"
+topicPath: ["projektpraxis", "betrieb-und-release", "performance-und-sicherheit", "fehlerbudget-fuer-releaseentscheidung-nutzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "Feinstruktur Web Development"]
 draft: false
 ---
-
 ## Grundidee
 
 **Fehlerbudget für Releaseentscheidung nutzen** ist bewusst als kleines Unterthema angelegt. Lerne fehlerbudget für releaseentscheidung nutzen als kleines Unterthema mit Beispiel, Abgrenzung und Prüfstrategie. Dadurch bleibt die Seite auffindbar und landet nicht in einem übergroßen Sammelbereich.

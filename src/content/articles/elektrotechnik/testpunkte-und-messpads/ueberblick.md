@@ -1,32 +1,17 @@
 ---
 title: "Testpunkte und Messpads"
 description: "Allgemeiner Überblick über Testpunkte, Messpads und ihre Rolle bei Inbetriebnahme und Fehlersuche."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Layout und Prüfung"
-topicPath:
-  - "testpunkte-und-messpads"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Testpunkte und Messpads als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Versorgungspunkte, Massebezug, kritische Signale."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["testpunkte-und-messpads", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Testpunkte erst nach dem Layout zu planen oder nur für Serienfertigung relevant zu halten."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Testpunkte und Messpads beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Prüfbarkeit von Schaltungen."
-  - "Wichtige Hinweise liefern vor allem Versorgungspunkte, Massebezug, kritische Signale."
-recognizeSignals:
-  - "Es geht um prüfbarkeit von schaltungen, versorgungspunkte oder massebezug."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Testpunkte und Messpads erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "leiterplatte"
-  - "messung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Layout und Prüfung"]
 draft: false
 ---
 # Testpunkte und Messpads

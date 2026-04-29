@@ -1,45 +1,19 @@
 ---
-title: Algorithmen
-description: Verstehe Algorithmen als klare, endliche und nachvollziehbare Handlungsvorschriften.
-subject: informatik
-section: Grundlagen
-topicPath:
-- grundlagen
-- algorithmen
-learningGoals:
-- Du erklärst, was einen Algorithmus ausmacht.
-- Du erkennst Eingabe, Verarbeitung und Ausgabe in einfachen Abläufen.
-- Du formulierst kleine Algorithmen in klaren Schritten.
-practiceIdeas:
-- Formuliere einen Alltagsablauf so, dass eine andere Person ihn exakt ausführen könnte.
-- Vergleiche eine gute und eine unklare Anleitung.
-- Schreibe einen kleinen Ablauf zuerst in Alltagssprache und dann als Pseudocode.
-commonMistakes:
-- Einen Algorithmus mit einer Programmiersprache gleichzusetzen.
-- Schritte zu grob zu formulieren.
-- Das Ende oder eine wichtige Bedingung nicht sauber zu benennen.
-keyTakeaways:
-- Ein Algorithmus ist eine eindeutige endliche Handlungsvorschrift.
-- Erst die Logik, dann die konkrete Syntax.
-- Gute Algorithmen sind klar, vollständig und wiederholbar.
-level: einfach
-tags:
-- algorithmen
-- pseudocode
-- informatik
-- problemlösen
+title: "Algorithmen"
+description: "Verstehe Algorithmen als klare, endliche und nachvollziehbare Handlungsvorschriften."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "algorithmen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Grundlagen"]
 draft: false
-recognizeSignals:
-- Die Aufgabe oder Erklärung nennt Algorithmen direkt oder greift eng benachbarte Begriffe aus Grundlagen auf.
-- Du sollst nicht nur einen Begriff nennen, sondern einen Zusammenhang, Ablauf oder eine Struktur sauber erklären.
-- In Beispielen musst du Werte, Schritte oder Bauteile geordnet lesen und richtig einordnen.
-selfCheckPoints:
-- Kann ich erklärst, was einen Algorithmus ausmacht?
-- Kann ich erkennst Eingabe, Verarbeitung und Ausgabe in einfachen Abläufen?
-- Kann ich formulierst kleine Algorithmen in klaren Schritten?
 ---
-
-
 <div class="learning-card">
   <p class="card-kicker">Einstieg</p>
   <h3>Was du hier lernst</h3>

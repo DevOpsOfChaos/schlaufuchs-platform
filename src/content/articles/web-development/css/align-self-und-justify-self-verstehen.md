@@ -1,45 +1,19 @@
 ---
-title: Align-Self und Justify-Self verstehen
-description: Verstehe, wie einzelne Elemente innerhalb eines Layouts anders ausgerichtet werden können, ohne gleich den ganzen Container umzubauen.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - align-self-und-justify-self-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von align-self und justify-self.
-  - Du unterscheidest Container-Ausrichtung und Einzel-Ausrichtung sauber.
-  - Du liest Ausrichtung eher über Achsen und Bezugspunkt als über bloßes Verschieben.
-practiceIdeas:
-  - Vergleiche einen Container mit gemeinsamer Ausrichtung und ein einzelnes Element mit Sonderrolle.
-  - Prüfe in einem Grid, ob nur ein Element anders sitzen soll.
-  - Lies auffällige Kacheln oder Call-to-Action-Elemente eher als Einzelausrichtung als als Margin-Hack.
-commonMistakes:
-  - align-self und justify-content gleichzusetzen.
-  - zu denken, jede Einzelabweichung müsse mit margin gelöst werden.
-  - horizontale und vertikale Ausrichtung durcheinanderzubringen.
-keyTakeaways:
-  - align-self und justify-self wirken auf einzelne Elemente.
-  - Container-Regeln und Einzel-Regeln lösen unterschiedliche Probleme.
-  - Wer die Achsen mitdenkt, liest Ausrichtungsfragen deutlich ruhiger.
-recognizeSignals:
-  - Es geht um ein einzelnes Element, das sich in einem Grid oder Layout anders verhalten soll.
-  - Du sollst erklären, warum nicht alle Kacheln dieselbe Position im Feld haben.
-  - In Beispielen ist der Bezug zum Container wichtiger als die Farbe des Elements.
-selfCheckPoints:
-  - Kann ich Container-Ausrichtung und Einzel-Ausrichtung trennen?
-  - Kann ich erklären, wann align-self sinnvoller ist als eine globale Regel?
-  - Kann ich Achse und Bezugspunkt bei einer Ausrichtung benennen?
-tags:
-  - css
-  - alignment
-  - grid
-  - flex
-level: mittel
+title: "Align-Self und Justify-Self verstehen"
+description: "Verstehe, wie einzelne Elemente innerhalb eines Layouts anders ausgerichtet werden können, ohne gleich den ganzen Container umzubauen."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "align-self-und-justify-self-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Manchmal soll sich ein ganzes Layout ändern. Manchmal soll aber nur **ein einziges Element** eine Sonderrolle bekommen, etwa eine CTA-Karte oder ein Badge. Genau dann helfen `align-self` und `justify-self`, weil sie **nicht die Gruppenregel**, sondern **die Ausnahme** beschreiben.

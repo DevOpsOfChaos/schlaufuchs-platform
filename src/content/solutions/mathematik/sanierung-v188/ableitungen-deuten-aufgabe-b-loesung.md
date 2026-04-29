@@ -3,22 +3,12 @@ title: "Lösung: Ableitungen deuten: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-062b."
 subject: "mathematik"
 section: "analysis-pruefschritte"
-topicPath:
-  - "analysis-pruefschritte"
-  - "ableitungen-deuten"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "ableitungen-deuten-aufgabe-b"]
 taskId: "mat-v188-062b"
 relatedExercise: "mathematik/sanierung-v188/ableitungen-deuten-aufgabe-b"
-tags:
-  - "ableitung"
-  - "analysis"
-  - "deuten"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "analysis-pruefschritte", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-062b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

@@ -3,23 +3,12 @@ title: "Lösung – Primary Key als stabile Identität lesen"
 description: "Musterlösung zu Primary Key als stabile Identität lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Datenmodellierung"
-topicPath:
-  - "datenmodellierung"
-  - "struktur-und-identitaet"
-  - "v110-teil-2"
-  - "primary-key-als-stabile-identitaet-lesen"
+topicPath: ["datenmodellierung", "struktur-und-identitaet", "v110-teil-2", "primary-key-als-stabile-identitaet-lesen"]
 taskId: "v110-informatik-primary-key-als-stabile-identitaet-lesen"
 relatedExercise: "informatik/datenmodellierung/struktur-und-identitaet/v110-teil-2/primary-key-als-stabile-identitaet-lesen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "praxis"
-  - "datenmodellierung"
-  - "struktur-und-identitaet"
-  - "primary-key-als-stabile-identitaet-lesen"
+tags: ["informatik", "Datenmodellierung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Primary Key als stabile Identität lesen**.

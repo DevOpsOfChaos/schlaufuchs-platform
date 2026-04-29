@@ -3,22 +3,12 @@ title: "Lösung: Zeilen und Wörter trennen"
 description: "Musterlösung zur Aufgabe „Zeilen und Wörter trennen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "textdaten-und-pipelines"
-  - "wc-und-statistik"
-  - "zeilen-und-woerter-trennen-v116"
+topicPath: ["textdaten-und-pipelines", "wc-und-statistik", "zeilen-und-woerter-trennen-v116"]
 taskId: "zeilen-und-woerter-trennen-v116"
 relatedExercise: "linux/textdaten-und-pipelines/wc-und-statistik/zeilen-und-woerter-trennen-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "wc und statistik"
-  - "zeilen und woerter trennen"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

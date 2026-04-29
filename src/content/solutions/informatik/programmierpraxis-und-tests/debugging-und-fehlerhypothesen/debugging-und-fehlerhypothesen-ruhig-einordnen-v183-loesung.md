@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Debugging und Fehlerhypothesen ruhig einordnen"
 description: "Musterlösung zur Aufgabe über Debugging und Fehlerhypothesen."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "debugging-und-fehlerhypothesen"
-taskId: INF-V183-12-A
-relatedExercise: src/content/exercises/informatik/programmierpraxis-und-tests/debugging-und-fehlerhypothesen/debugging-und-fehlerhypothesen-ruhig-einordnen-v183.md
-tags:
-  - "informatik"
-  - "debugging-und-fehlerhypothesen"
-  - "loesung"
+topicPath: ["programmierpraxis-und-tests", "debugging-und-fehlerhypothesen", "debugging-und-fehlerhypothesen-ruhig-einordnen-v183"]
+taskId: "INF-V183-12-A"
+relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/debugging-und-fehlerhypothesen/debugging-und-fehlerhypothesen-ruhig-einordnen-v183.md"
+tags: ["informatik", "Programmierpraxis und Tests", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

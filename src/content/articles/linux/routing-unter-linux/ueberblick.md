@@ -1,36 +1,19 @@
 ---
 title: "Routing unter Linux"
 description: "Routing unter Linux bezeichnet ein Grundthema im Bereich Shell, Dateisystem, Dienste und Betrieb von Linux-Systemen. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-subject: linux
+subject: "linux"
 section: "Netzwerk"
-topicPath:
-  - "routing-unter-linux"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Routing unter Linux als allgemeinen Grundbegriff einordnen."
-  - "Du kennst Zweck, Zusammenhang, typische Teilaspekte und Grenzen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle behandelt werden."
+topicPath: ["routing-unter-linux", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Routing unter Linux nur als einzelner Arbeitsschritt verstanden, obwohl der Begriff einen größeren Zusammenhang beschreibt."
-keyTakeaways:
-  - "Routing unter Linux bezeichnet ein Grundthema im Bereich Shell, Dateisystem, Dienste und Betrieb von Linux-Systemen. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-  - "Ein Überblick trennt Begriff, Zweck, Beispiel und Grenze."
-  - "Spezialseiten werden verständlicher, wenn die allgemeine Einordnung vorher klar ist."
-recognizeSignals:
-  - "Es geht um Routing unter Linux, wenn mehrere Einzelbeobachtungen ohne Grundbegriff schwer einzuordnen sind."
-  - "Der Begriff hilft, Werkzeuge, Werte, Regeln oder Darstellungen fachlich zu sortieren."
-selfCheckPoints:
-  - "Kann ich Routing unter Linux in zwei bis drei Sätzen erklären?"
-  - "Kann ich ein Beispiel und eine typische Grenze nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "routing"
-  - "netzwerk"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Netzwerk"]
 draft: false
 ---
-
 # Routing unter Linux
 
 Routing unter Linux bezeichnet ein Grundthema im Bereich Shell, Dateisystem, Dienste und Betrieb

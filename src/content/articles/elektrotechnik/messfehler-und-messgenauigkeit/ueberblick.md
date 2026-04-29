@@ -1,37 +1,19 @@
 ---
 title: "Messfehler und Messgenauigkeit"
 description: "Überblick über Messfehler, Genauigkeit, Auflösung und die Grenzen praktischer elektrischer Messungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Messpraxis"
-topicPath:
-  - "messfehler-und-messgenauigkeit"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Messfehler und Messgenauigkeit als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["messfehler-und-messgenauigkeit", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft werden alle angezeigten Ziffern als sicher betrachtet."
-keyTakeaways:
-  - "Messwerte haben Auflösung, Genauigkeit und Grenzen."
-  - "Der Messaufbau kann das Ergebnis beeinflussen."
-  - "Nachkommastellen bedeuten nicht automatisch Genauigkeit."
-recognizeSignals:
-  - "Ein Messwert wirkt überraschend exakt oder widersprüchlich."
-  - "Fehlersuche hängt an kleinen Spannungs- oder Stromunterschieden."
-selfCheckPoints:
-  - "Kann ich Messfehler und Messgenauigkeit in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "messung"
-  - "genauigkeit"
-  - "messfehler"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Messpraxis"]
 draft: false
 ---
-
 # Messfehler und Messgenauigkeit
 
 Messwerte sind nie vollständig perfekt. Messfehler und Messgenauigkeit beschreiben, wie nahe ein angezeigter Wert am tatsächlichen Wert liegt.

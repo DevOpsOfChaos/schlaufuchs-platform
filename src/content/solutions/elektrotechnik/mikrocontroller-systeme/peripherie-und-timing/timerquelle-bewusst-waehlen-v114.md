@@ -1,23 +1,14 @@
 ---
-title: Lösung – Timerquelle bewusst wählen
-description: Musterlösung zur Aufgabe über Timerquelle bewusst wählen.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- mikrocontroller-systeme
-- peripherie-und-timing
-- timerquelle-bewusst-waehlen-v114
-taskId: v114-elektrotechnik-timerquelle-bewusst-waehlen-v114
-relatedExercise: elektrotechnik/mikrocontroller-systeme/peripherie-und-timing/timerquelle-bewusst-waehlen-v114
-tags:
-- elektrotechnik
-- v114
-- loesung
-- mikrocontroller-systeme
-- peripherie-und-timing
+title: "Lösung – Timerquelle bewusst wählen"
+description: "Musterlösung zur Aufgabe über Timerquelle bewusst wählen."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["mikrocontroller-systeme", "peripherie-und-timing", "timerquelle-bewusst-waehlen-v114"]
+taskId: "v114-elektrotechnik-timerquelle-bewusst-waehlen-v114"
+relatedExercise: "elektrotechnik/mikrocontroller-systeme/peripherie-und-timing/timerquelle-bewusst-waehlen-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

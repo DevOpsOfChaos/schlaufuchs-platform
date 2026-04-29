@@ -3,20 +3,12 @@ title: "Lösung – main und section bewusst einsetzen"
 description: "Musterlösung zu main und section bewusst einsetzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "html"
-  - "semantik-und-struktur"
-  - "main-und-section-bewusst-einsetzen-v113"
+topicPath: ["html", "semantik-und-struktur", "main-und-section-bewusst-einsetzen-v113"]
 taskId: "v113-web-development-main-und-section-bewusst-einsetzen-v113"
 relatedExercise: "web-development/html/semantik-und-struktur/main-und-section-bewusst-einsetzen-v113"
-tags:
-  - "web development"
-  - "strukturcheck"
-  - "unterthema"
-  - "main-und-section-bewusst-einsetzen-v113"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **main und section bewusst einsetzen**.

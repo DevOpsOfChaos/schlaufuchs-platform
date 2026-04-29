@@ -3,20 +3,12 @@ title: "Lösung – Session und dauerhaft trennen"
 description: "Musterlösung zu Session und dauerhaft trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "javascript"
-  - "browser-speicher"
-  - "session-und-dauerhaft-trennen-v113"
+topicPath: ["javascript", "browser-speicher", "session-und-dauerhaft-trennen-v113"]
 taskId: "v113-web-development-session-und-dauerhaft-trennen-v113"
 relatedExercise: "web-development/javascript/browser-speicher/session-und-dauerhaft-trennen-v113"
-tags:
-  - "web development"
-  - "strukturcheck"
-  - "unterthema"
-  - "session-und-dauerhaft-trennen-v113"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Session und dauerhaft trennen**.

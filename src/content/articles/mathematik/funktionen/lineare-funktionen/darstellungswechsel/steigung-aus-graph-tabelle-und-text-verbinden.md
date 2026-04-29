@@ -3,46 +3,17 @@ title: "Mathematik – Steigung aus Graph, Tabelle und Text verbinden"
 description: "Lerne Steigung in Darstellungen als klar abgegrenztes Unterthema mit Beispiel, Prüfraster und Gegenprobe."
 subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "funktionen"
-  - "lineare-funktionen"
-  - "darstellungswechsel"
-  - "steigung-aus-graph-tabelle-und-text-verbinden"
-learningGoals:
-  - "Du erklärst Steigung in Darstellungen als eigenes Unterthema."
-  - "Du grenzt das Thema von einem breiteren Sammelbereich ab."
-  - "Du formulierst eine konkrete Gegenprobe."
-practiceIdeas:
-  - "Erstelle ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Prüfe, welche Nachbarseite nicht gemeint ist."
-  - "Übertrage das Prüfraster auf einen zweiten Fall."
-commonMistakes:
-  - "Das Thema zu breit einordnen und die Trennkante verlieren."
-  - "Nur einen Begriff nennen, ohne Beispiel oder Gegenprobe."
-  - "Aufgabe und Wissensseite sprachlich auseinanderlaufen lassen."
-keyTakeaways:
-  - "Steigung in Darstellungen wird durch Einordnung, Trennung und Gegenprobe stabil."
-  - "Feinere Unterthemen verbessern Orientierung und vermeiden Doppelungen."
-  - "Eine gute Lösung nennt auch, was nicht gemeint ist."
-recognizeSignals:
-  - "Die Aufgabe enthält eine kleine, aber entscheidende Unterscheidung."
-  - "Eine allgemeine Antwort wäre zu ungenau."
-  - "Ein Prüfschritt kann die Einordnung bestätigen oder widerlegen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich das Nachbarthema abgrenzen?"
-  - "Ist meine Gegenprobe konkret?"
-tags:
-  - "mathematik"
-  - "rechnen"
-  - "modellieren"
-  - "steigung in darstellungen"
-  - "funktionen"
-  - "lineare-funktionen"
+topicPath: ["funktionen", "lineare-funktionen", "darstellungswechsel", "steigung-aus-graph-tabelle-und-text-verbinden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
-
 ## Grundidee
 
 **Steigung in Darstellungen** ist ein kleines, bewusst abgegrenztes Unterthema. Lerne Steigung in Darstellungen als klar abgegrenztes Unterthema mit Beispiel, Prüfraster und Gegenprobe. Die Seite verhindert, dass mehrere Nachbarfragen in einem breiten Sammelbegriff verschwimmen.

@@ -3,32 +3,17 @@ title: "Sensorlinearisierung"
 description: "Allgemeiner Überblick über sensorlinearisierung und die wichtigsten Zusammenhänge."
 subject: "elektrotechnik"
 section: "Sensorik"
-topicPath:
-  - "sensorlinearisierung"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["sensorlinearisierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird ein Rohwert direkt als physikalische Größe interpretiert."
-keyTakeaways:
-  - "Sensorlinearisierung macht Messdaten vergleichbarer und verständlicher."
-  - "Linearisierung beseitigt nicht alle Messfehler; sie behandelt vor allem die Kennlinienform."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "elektrotechnik"
-  - "sensorik"
-  - "kennlinie"
-  - "linearisierung"
+tags: ["elektrotechnik", "Sensorik"]
 draft: false
 ---
-
 # Sensorlinearisierung
 
 Sensorlinearisierung übersetzt nichtlineare Rohwerte in eine besser nutzbare physikalische Größe.

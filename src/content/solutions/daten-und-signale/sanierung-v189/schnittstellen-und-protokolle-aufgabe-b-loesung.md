@@ -3,22 +3,12 @@ title: "Lösung: Schnittstellen und Protokolle: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe dat-v189-056b."
 subject: "daten-und-signale"
 section: "systeme"
-topicPath:
-  - "systeme"
-  - "schnittstellen-und-protokolle"
-  - "loesung-b"
+topicPath: ["sanierung-v189", "schnittstellen-und-protokolle-aufgabe-b"]
 taskId: "dat-v189-056b"
 relatedExercise: "daten-und-signale/sanierung-v189/schnittstellen-und-protokolle-aufgabe-b"
-tags:
-  - "schnittstellen"
-  - "protokolle"
-  - "daten"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "systeme", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-056b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

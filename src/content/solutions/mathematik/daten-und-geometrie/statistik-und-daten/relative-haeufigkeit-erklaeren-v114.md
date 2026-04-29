@@ -1,23 +1,14 @@
 ---
-title: Lösung – Relative Häufigkeit erklären
-description: Musterlösung zur Aufgabe über Relative Häufigkeit erklären.
-subject: mathematik
-section: Feinstruktur Mathematik
-topicPath:
-- daten-und-geometrie
-- statistik-und-daten
-- relative-haeufigkeit-erklaeren-v114
-taskId: v114-mathematik-relative-haeufigkeit-erklaeren-v114
-relatedExercise: mathematik/daten-und-geometrie/statistik-und-daten/relative-haeufigkeit-erklaeren-v114
-tags:
-- mathematik
-- v114
-- loesung
-- daten-und-geometrie
-- statistik-und-daten
+title: "Lösung – Relative Häufigkeit erklären"
+description: "Musterlösung zur Aufgabe über Relative Häufigkeit erklären."
+subject: "mathematik"
+section: "Feinstruktur Mathematik"
+topicPath: ["daten-und-geometrie", "statistik-und-daten", "relative-haeufigkeit-erklaeren-v114"]
+taskId: "v114-mathematik-relative-haeufigkeit-erklaeren-v114"
+relatedExercise: "mathematik/daten-und-geometrie/statistik-und-daten/relative-haeufigkeit-erklaeren-v114"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

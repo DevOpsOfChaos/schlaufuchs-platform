@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Serialisierung und Datenaustausch"
 description: "Allgemeiner Überblick über serialisierung und datenaustausch in der Informatik."
-subject: informatik
+subject: "informatik"
 section: "Daten und Information"
-topicPath:
-  - "daten-und-information"
-  - "serialisierung-und-datenaustausch"
-  - "ueberblick"
-learningGoals:
-  - "Du erklärst, wie Daten für Speicherung und Übertragung in Formate gebracht werden."
-  - "Du ordnest typische Beispiele und Grenzen des Themas ein."
-  - "Du unterscheidest Grundidee, Anwendung und häufige Fehler."
-practiceIdeas:
-  - "Formuliere die Grundidee in drei Sätzen ohne Spezialfall."
-  - "Ordne ein eigenes Beispiel dem passenden Teilaspekt zu."
-commonMistakes:
-  - "Format mit Datenmodell verwechseln"
-  - "Versionierung ignorieren"
-  - "optionale Felder nicht planen"
-keyTakeaways:
-  - "Serialisierung und Datenaustausch braucht zuerst eine klare begriffliche Einordnung."
-  - "Beispiele helfen nur, wenn ihr Kontext bekannt ist."
-  - "Gute Informatikarbeit trennt Modell, Umsetzung und Prüfung."
-recognizeSignals:
-  - "Ein Thema wirkt wie ein Einzelfall, braucht aber zuerst einen allgemeinen Rahmen."
-  - "Mehrere Beispiele zeigen dieselbe Grundidee aus verschiedenen Blickwinkeln."
-selfCheckPoints:
-  - "Kann ich Grundidee und Beispiel unterscheiden?"
-  - "Kann ich typische Fehler nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "daten-und-information"
-  - "serialisierung-und-datenaustausch"
+topicPath: ["daten-und-information", "serialisierung-und-datenaustausch", "ueberblick", "grundlagen-serialisierung-und-datenaustausch"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Daten und Information"]
 draft: false
 ---
-
 ![Schaubild: Serialisierung und Datenaustausch](/schlaufuchs-platform/images/overviews/v185/serialisierung-und-datenaustausch.svg)
 
 ## Begriff

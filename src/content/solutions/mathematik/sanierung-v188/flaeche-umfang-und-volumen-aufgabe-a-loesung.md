@@ -3,22 +3,12 @@ title: "Lösung: Fläche, Umfang und Volumen: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-025a."
 subject: "mathematik"
 section: "geometrie-messen-und-begruenden"
-topicPath:
-  - "geometrie-messen-und-begruenden"
-  - "flaeche-umfang-und-volumen"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "flaeche-umfang-und-volumen-aufgabe-a"]
 taskId: "mat-v188-025a"
 relatedExercise: "mathematik/sanierung-v188/flaeche-umfang-und-volumen-aufgabe-a"
-tags:
-  - "flaeche"
-  - "umfang"
-  - "volumen"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "geometrie-messen-und-begruenden", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-025a`
 
 Eine mögliche Lösung:

@@ -3,21 +3,10 @@ title: "Lösung – Timer-Overflow und Prescaler zeitlich einordnen"
 description: "Musterlösung zu „Timer-Overflow und Prescaler zeitlich einordnen“."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "timer-overflow-prescaler-und-zeitrechnung"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "timer-overflow-prescaler-und-zeitrechnung"]
 taskId: "et-mc-v94-timer-overflow-prescaler"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/timer-overflow-prescaler-und-zeitrechnung"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "atmega"
-  - "timer"
-  - "overflow"
-  - "prescaler"
-  - "takt"
-  - "zeitrechnung"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

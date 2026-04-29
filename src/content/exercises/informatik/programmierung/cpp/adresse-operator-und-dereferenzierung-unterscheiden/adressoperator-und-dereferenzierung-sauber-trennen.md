@@ -1,34 +1,17 @@
 ---
-title: Adressoperator und Dereferenzierung sauber trennen
-description: Unterscheide in kleinen Pointer-Beispielen zwischen dem Ermitteln einer Adresse, dem gespeicherten Pointerwert und dem Zugriff auf den Zielwert.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - pointer-und-adressen
-  - adresse-operator-und-dereferenzierung-unterscheiden
-  - adressoperator-und-dereferenzierung-sauber-trennen
-taskId: INF-PROG-CPP-PTR-002
-level: mittel
+title: "Adressoperator und Dereferenzierung sauber trennen"
+description: "Unterscheide in kleinen Pointer-Beispielen zwischen dem Ermitteln einer Adresse, dem gespeicherten Pointerwert und dem Zugriff auf den Zielwert."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "adresse-operator-und-dereferenzierung-unterscheiden", "adressoperator-und-dereferenzierung-sauber-trennen"]
+taskId: "INF-PROG-CPP-PTR-002"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - aufgabe
-hintPoints:
-  - "Lies jeden Ausdruck zuerst einzeln: &zahl, p oder *p."
-  - "Trenne sauber zwischen Adresse, Pointerwert und Zielwert."
-  - "Achte darauf, ob gelesen oder geschrieben wird."
-selfCheckPoints:
-  - "Habe ich jeden Ausdruck fachlich sauber benannt?"
-  - "Habe ich erklärt, warum sich bei *p = ... der Zielwert ändert?"
-transferIdeas:
-  - "Übertrage dieselbe Logik auf andere Variablennamen und Pointer."
-reflectionPrompt: "Welche Stelle war für dich schwieriger: &zahl, p oder *p – und warum?"
 ---
-
 ## Aufgabe 1: Vier Ausdrücke unterscheiden
 
 Gegeben ist:

@@ -1,43 +1,17 @@
 ---
 title: "CSS – layer, !important und Inline-Styles einordnen"
 description: "Lerne, warum moderne Kaskade nicht nur aus Spezifität besteht und wann !important ein Warnsignal ist."
-subject: web-development
+subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "css-spezifitaet-und-kaskade"
-  - "layer-important-und-inline-style-einordnen"
-learningGoals:
-  - "Du ordnest Herkunft, Layer, Spezifität und Reihenfolge als Kaskadenfaktoren ein."
-  - "Du erklärst, warum !important selten die erste Lösung sein sollte."
-  - "Du erkennst Inline-Styles als besonders starke Quelle."
-practiceIdeas:
-  - "Vergleiche eine Utility-Klasse mit einer Komponentenregel in verschiedenen Layern."
-  - "Erkläre, warum eine weniger spezifische Regel durch Layer trotzdem gewinnen kann."
-  - "Prüfe, ob !important ein Symptom für unklare CSS-Struktur ist."
-commonMistakes:
-  - "Kaskade nur als Spezifitätsrechnung zu behandeln."
-  - "!important als Standardwerkzeug für Konflikte zu nutzen."
-  - "Inline-Styles zu setzen und später mit immer stärkeren Regeln zu bekämpfen."
-keyTakeaways:
-  - "Cascade Layers können Reihenfolge und Priorität strukturieren."
-  - "!important kehrt Prioritäten teilweise um und erschwert Wartung."
-  - "Gute CSS-Architektur reduziert Spezifitätskämpfe."
-recognizeSignals:
-  - "Es geht um überschriebenes CSS, layer, !important, inline style oder Spezifitätskonflikte."
-  - "Eine Aufgabe fragt, warum eine „schwächere“ Regel gewinnt."
-  - "Regeln werden immer länger, um andere Regeln zu überstimmen."
-selfCheckPoints:
-  - "Aus welchem Layer kommt die Regel?"
-  - "Ist !important wirklich nötig oder nur ein Notausgang?"
-  - "Gibt es Inline-Styles, die die Wartung blockieren?"
-tags:
-  - "web development"
-  - "css"
-  - "kaskade"
-  - "spezifität"
-  - "layer"
-level: fortgeschritten
+topicPath: ["css", "css-spezifitaet-und-kaskade", "layer-important-und-inline-style-einordnen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
+tags: ["web-development", "CSS"]
 draft: false
 ---
 ## Grundidee

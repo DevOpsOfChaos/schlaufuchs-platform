@@ -3,36 +3,15 @@ title: "Abnahmechecklisten für UI: Aufgabe B"
 description: "Erweitere die Grundidee zu „Abnahmechecklisten für UI“ um einen Fehlerfall, eine Abnahmebedingung und eine kurze Begründung."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "qualitaet"
-  - "abnahmechecklisten-fuer-ui"
-  - "aufgabe-b"
+topicPath: ["sanierung-v190", "abnahmechecklisten-fuer-ui-aufgabe-b"]
 taskId: "web-v190-024b"
-tags:
-  - "qualitaet"
-  - "abnahmechecklisten"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "aufgabe"
-  - "v190"
-hintPoints:
-  - "Trenne Zweck, Daten, Zustand und sichtbare Wirkung."
-  - "Nenne mindestens einen Fehlerfall."
-  - "Begründe, warum die Lösung wartbar bleibt."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Abnahmechecklisten für UI."
-  - "Mindestens ein Prüfpunkt ist konkret formuliert."
-  - "Die Lösung ist ohne vollständige Website nachvollziehbar."
-transferIdeas:
-  - "Übertrage die Idee auf eine zweite kleine Komponente."
-  - "Formuliere eine kurze Checkliste für spätere Wiederholung."
-reflectionPrompt: "Welche Entscheidung macht die Lösung am meisten wartbar?"
+tags: ["web-development", "javascript-vertiefung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Erweitere die Grundidee zu „Abnahmechecklisten für UI“ um einen Fehlerfall, eine Abnahmebedingung und eine kurze Begründung.

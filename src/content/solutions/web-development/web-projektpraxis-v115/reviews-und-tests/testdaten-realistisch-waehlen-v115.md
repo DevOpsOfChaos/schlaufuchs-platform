@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Testdaten realistisch wählen"
 description: "Musterlösung zu Testdaten realistisch wählen mit Trennkante und Gegenprobe."
-subject: web-development
+subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "web-projektpraxis-v115"
-  - "reviews-und-tests"
-  - "testdaten-realistisch-waehlen-v115"
+topicPath: ["web-projektpraxis-v115", "reviews-und-tests", "testdaten-realistisch-waehlen-v115"]
 taskId: "web-development-testdaten-realistisch-waehlen-v115"
 relatedExercise: "web-development/web-projektpraxis-v115/reviews-und-tests/testdaten-realistisch-waehlen-v115"
-tags:
-  - "web development"
-  - "feinstruktur"
-  - "unterthema"
-  - "web-projektpraxis"
-  - "reviews und tests"
-  - "lösung"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Testdaten realistisch wählen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

@@ -3,23 +3,12 @@ title: "Lösung: Multimeter-Messbereiche wählen: Aufgabe A"
 description: "Musterlösung zur Aufgabe etech-v191-009a im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "messpraxis"
-  - "multimeter-messbereiche-waehlen"
-  - "loesung-a"
+topicPath: ["sanierung-v191", "multimeter-messbereiche-waehlen-aufgabe-a"]
 taskId: "etech-v191-009a"
 relatedExercise: "elektrotechnik/sanierung-v191/multimeter-messbereiche-waehlen-aufgabe-a"
-tags:
-  - "messpraxis"
-  - "multimeter"
-  - "schaltung"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-009a`
 
 Ausgangsauftrag: Wähle einen sinnvollen Messbereich für drei erwartete Messwerte.

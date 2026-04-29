@@ -3,38 +3,17 @@ title: "Dateiformate einordnen"
 description: "Dateiformate legen fest, wie Daten gespeichert und interpretiert werden."
 subject: "daten-und-signale"
 section: "speicherung"
-topicPath:
-  - "speicherung"
-  - "dateiformate-einordnen"
-learningGoals:
-  - "Dateiformate legen fest, wie Daten gespeichert und interpretiert werden fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Dateiformate legen fest, wie Daten gespeichert und interpretiert werden wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v189", "dateiformate-einordnen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "dateiformate"
-  - "speicherung"
-  - "struktur"
-  - "daten-und-signale"
-  - "v189"
+tags: ["daten-und-signale", "speicherung"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Dateiformate einordnen](/schlaufuchs-platform/images/daten-und-signale/sanierung-189/dateiformate-einordnen.svg)
 
 ## Überblick

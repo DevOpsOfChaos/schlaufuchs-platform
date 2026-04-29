@@ -1,34 +1,19 @@
 ---
 title: "Dienste und Logs"
 description: "Überblick über Linux-Dienste, ihren Zustand und Logs als Grundlage für Betrieb und Fehlersuche."
-subject: linux
+subject: "linux"
 section: "Systempflege"
-topicPath:
-  - "dienste-und-logs"
-  - "ueberblick"
-learningGoals:
-  - "Du verstehst Dienste als dauerhaft oder bei Bedarf laufende Hintergrundprogramme."
-  - "Du kennst Logs als Protokoll von Ereignissen und Fehlern."
-  - "Du kannst Statusprüfung und Loganalyse als zusammengehörig einordnen."
+topicPath: ["dienste-und-logs", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur zu prüfen, ob ein Prozess läuft, und Logs zu ignorieren."
-  - "Logs als reine Fehlersammlung statt als Ereignisprotokoll zu verstehen."
-keyTakeaways:
-  - "Dienste stellen Funktionen im Hintergrund bereit."
-  - "Logs erklären oft, warum ein Dienst startet, stoppt oder fehlschlägt."
-recognizeSignals:
-  - "Es geht um systemctl, journalctl, service, daemon, Fehleranalyse, Startprobleme oder Logdateien."
-selfCheckPoints:
-  - "Kann ich erklären, warum ein Dienst trotz vorhandenem Prozess nicht korrekt funktionieren muss?"
-level: einfach
-tags:
-  - "linux"
-  - "dienste"
-  - "logs"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Systempflege"]
 draft: false
 ---
-
 # Dienste und Logs
 
 ![Schaubild zu Diensten und Logs.](/schlaufuchs-platform/images/overviews/v148/dienste-und-logs.svg)

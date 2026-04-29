@@ -3,23 +3,12 @@ title: "Lösung: Debugging mit Console und Breakpoints: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-v190-021a im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "debugging"
-  - "debugging-mit-console-und-breakpoints"
-  - "loesung-a"
+topicPath: ["sanierung-v190", "debugging-mit-console-und-breakpoints-aufgabe-a"]
 taskId: "web-v190-021a"
 relatedExercise: "web-development/sanierung-v190/debugging-mit-console-und-breakpoints-aufgabe-a"
-tags:
-  - "debugging"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-021a`
 
 Ausgangsauftrag: Beschreibe eine Debugging-Reihenfolge für eine nicht reagierende Schaltfläche.

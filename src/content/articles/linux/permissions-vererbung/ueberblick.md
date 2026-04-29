@@ -1,34 +1,19 @@
 ---
 title: "Rechtevergabe und Vererbung"
 description: "Überblick darüber, warum neue Dateien und Verzeichnisse Rechte nicht zufällig, sondern aus Prozess, umask und Kontext erhalten."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "permissions-vererbung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["permissions-vererbung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Zu erwarten, dass neue Dateien automatisch dieselben Rechte wie das Elternverzeichnis bekommen."
-keyTakeaways:
-  - "Neue Rechte entstehen aus Standardmodus, umask und Kontext; echte Vererbung muss bewusst eingerichtet werden."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn neue Dateien regelmäßig falsche Gruppen- oder Zugriffsrechte erhalten."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "rechte"
-  - "dateisystem"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # Rechtevergabe und Vererbung
 
 Linux-Dateirechte entstehen aus mehreren Faktoren. Neue Dateien bekommen Standardrechte, die durch die umask eingeschränkt werden; zusätzliche Mechanismen wie Gruppenverzeichnisse oder ACLs können das Verhalten beeinflussen.

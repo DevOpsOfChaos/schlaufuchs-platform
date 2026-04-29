@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Streuung neben Lage betrachten"
 description: "Musterlösung zu Streuung neben Lage betrachten mit Trennkante und Gegenprobe."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "daten-und-zufall-v115"
-  - "diagramme-kritisch-lesen"
-  - "streuung-neben-lage-betrachten-v115"
+topicPath: ["daten-und-zufall-v115", "diagramme-kritisch-lesen", "streuung-neben-lage-betrachten-v115"]
 taskId: "mathematik-streuung-neben-lage-betrachten-v115"
 relatedExercise: "mathematik/daten-und-zufall-v115/diagramme-kritisch-lesen/streuung-neben-lage-betrachten-v115"
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "daten und zufall"
-  - "diagramme kritisch lesen"
-  - "lösung"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Streuung neben Lage betrachten**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

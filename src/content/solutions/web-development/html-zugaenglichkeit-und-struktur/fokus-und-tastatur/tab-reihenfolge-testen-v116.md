@@ -3,22 +3,12 @@ title: "Lösung: Tab-Reihenfolge testen"
 description: "Musterlösung zur Aufgabe „Tab-Reihenfolge testen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "html-zugaenglichkeit-und-struktur"
-  - "fokus-und-tastatur"
-  - "tab-reihenfolge-testen-v116"
+topicPath: ["html-zugaenglichkeit-und-struktur", "fokus-und-tastatur", "tab-reihenfolge-testen-v116"]
 taskId: "tab-reihenfolge-testen-v116"
 relatedExercise: "web-development/html-zugaenglichkeit-und-struktur/fokus-und-tastatur/tab-reihenfolge-testen-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "fokus und tastatur"
-  - "tab reihenfolge testen"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

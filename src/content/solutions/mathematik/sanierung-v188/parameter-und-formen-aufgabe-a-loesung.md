@@ -3,22 +3,12 @@ title: "Lösung: Parameter und Formen: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-043a."
 subject: "mathematik"
 section: "algebra"
-topicPath:
-  - "algebra"
-  - "gleichungen-strategisch-loesen"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "parameter-und-formen-aufgabe-a"]
 taskId: "mat-v188-043a"
 relatedExercise: "mathematik/sanierung-v188/parameter-und-formen-aufgabe-a"
-tags:
-  - "parameter"
-  - "algebra"
-  - "formen"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "algebra", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-043a`
 
 Eine mögliche Lösung:

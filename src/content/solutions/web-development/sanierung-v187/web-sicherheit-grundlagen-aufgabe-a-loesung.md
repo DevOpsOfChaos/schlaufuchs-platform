@@ -3,23 +3,12 @@ title: "Lösung: Web-Sicherheit-Grundlagen: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-026a im Web-Development-Block v187."
 subject: "web-development"
 section: "qualitaet"
-topicPath: 
-  - "qualitaet-und-zugaenglichkeit"
-  - "sicherheit"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "web-sicherheit-grundlagen-aufgabe-a"]
 taskId: "web-v187-026a"
 relatedExercise: "web-development/sanierung-v187/web-sicherheit-grundlagen-aufgabe-a"
-tags: 
-  - "security"
-  - "sicherheit"
-  - "web"
-  - "daten"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "qualitaet", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-026a`
 
     Ausgangsauftrag: Prüfe eine Projektidee auf drei einfache Sicherheitsrisiken im Frontend.

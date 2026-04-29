@@ -3,20 +3,12 @@ title: "Lösung – UART-Baudrate als gemeinsame Abmachung lesen"
 description: "Musterlösung zu UART-Baudrate als gemeinsame Abmachung lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "schnittstellen"
-  - "uart-baudrate-als-gemeinsame-abmachung-lesen-v113"
+topicPath: ["mikrocontroller-und-atmega", "schnittstellen", "uart-baudrate-als-gemeinsame-abmachung-lesen-v113"]
 taskId: "v113-elektrotechnik-uart-baudrate-als-gemeinsame-abmachung-lesen-v113"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/schnittstellen/uart-baudrate-als-gemeinsame-abmachung-lesen-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "uart-baudrate-als-gemeinsame-abmachung-lesen-v113"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **UART-Baudrate als gemeinsame Abmachung lesen**.

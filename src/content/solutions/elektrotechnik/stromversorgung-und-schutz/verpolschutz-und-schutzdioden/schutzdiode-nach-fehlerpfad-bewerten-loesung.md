@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Schutzdiode nach Fehlerpfad bewerten"
 description: "Musterlösung zur Aufgabe Schutzdiode nach Fehlerpfad bewerten."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Stromversorgung und Schutz"
-topicPath:
-  - stromversorgung-und-schutz
-  - verpolschutz-und-schutzdioden
-taskId: ET-V181-006
-relatedExercise: src/content/exercises/elektrotechnik/stromversorgung-und-schutz/verpolschutz-und-schutzdioden/schutzdiode-nach-fehlerpfad-bewerten.md
-tags:
-  - elektrotechnik
-  - verpolschutz-und-schutzdioden
-  - loesung
+topicPath: ["stromversorgung-und-schutz", "verpolschutz-und-schutzdioden", "schutzdiode-nach-fehlerpfad-bewerten"]
+taskId: "ET-V181-006"
+relatedExercise: "src/content/exercises/elektrotechnik/stromversorgung-und-schutz/verpolschutz-und-schutzdioden/schutzdiode-nach-fehlerpfad-bewerten.md"
+tags: ["elektrotechnik", "Stromversorgung und Schutz", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

@@ -1,42 +1,19 @@
 ---
 title: "Grundlagen: Dokumentation und Schaltplanpflege"
 description: "Allgemeiner Überblick über nachvollziehbare Schaltpläne, Messnotizen und Änderungen an technischen Aufbauten."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - praxis
-  - dokumentation-und-schaltplanpflege
-  - ueberblick
-learningGoals:
-  - "Du erklärst die Grundidee des Themas in eigenen Worten."
-  - "Du ordnest typische Begriffe, Grenzen und Fehlerquellen ruhig ein."
-  - "Du erkennst, welche Detailfragen zu diesem Themenbereich gehören."
-practiceIdeas:
-  - "Skizziere den Zusammenhang als Prüf-, Signal- oder Strompfad."
-  - "Notiere eine typische Fehlannahme und formuliere eine Gegenprobe."
-commonMistakes:
-  - "Aufbauten zu ändern, ohne den Schaltplan mitzuziehen."
-  - "Messwerte ohne Datum, Messpunkt oder Zustand zu notieren."
-  - "Bauteile im Text anders zu nennen als im Plan."
-keyTakeaways:
-  - "Dokumentation macht Fehler später nachvollziehbar."
-  - "Schaltplan, Aufbau und Messnotiz müssen denselben Stand beschreiben."
-  - "Gute Bezeichnungen sind Teil der Fehlersuche."
-recognizeSignals:
-  - "Du brauchst zuerst Orientierung, bevor du eine konkrete Schaltung oder Aufgabe bewertest."
-  - "Ein Einzelfall wirkt plausibel, aber der allgemeine fachliche Rahmen fehlt."
-selfCheckPoints:
-  - "Kann ich das Thema ohne reines Auswendiglernen erklären?"
-  - "Kann ich typische Fehlerquellen in einer sinnvollen Prüfreihenfolge nennen?"
-level: einfach
-tags:
-  - elektrotechnik
-  - dokumentation
-  - schaltplan
-  - praxis
+topicPath: ["praxis", "dokumentation-und-schaltplanpflege", "ueberblick", "grundlagen-dokumentation-und-schaltplanpflege"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Praxis"]
 draft: false
 ---
-
 ![Dokumentation und Schaltplanpflege](/schlaufuchs-platform/images/overviews/v182/dokumentation-und-schaltplanpflege.svg)
 
 ## Überblick

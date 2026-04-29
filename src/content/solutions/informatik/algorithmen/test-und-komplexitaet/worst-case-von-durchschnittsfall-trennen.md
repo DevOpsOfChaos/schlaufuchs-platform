@@ -3,21 +3,12 @@ title: "Lösung – Worst Case von Durchschnittsfall trennen"
 description: "Musterlösung zu worst case von durchschnittsfall trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "algorithmen"
-  - "test-und-komplexitaet"
-  - "worst-case-von-durchschnittsfall-trennen"
+topicPath: ["algorithmen", "test-und-komplexitaet", "worst-case-von-durchschnittsfall-trennen"]
 taskId: "v112-informatik-worst-case-von-durchschnittsfall-trennen"
 relatedExercise: "informatik/algorithmen/test-und-komplexitaet/worst-case-von-durchschnittsfall-trennen"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "algorithmen"
-  - "worst-case-von-durchschnittsfall-trennen"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Tests und Komplexität**.

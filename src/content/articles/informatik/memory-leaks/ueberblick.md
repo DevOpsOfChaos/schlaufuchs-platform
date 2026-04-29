@@ -1,36 +1,19 @@
 ---
 title: "Memory Leaks"
 description: "Memory Leaks entstehen, wenn ein Programm Speicher oder Ressourcen dauerhaft hält, obwohl sie nicht mehr benötigt werden."
-subject: informatik
+subject: "informatik"
 section: "Programmierung"
-topicPath:
-  - "memory-leaks"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Memory Leaks als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["memory-leaks", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Garbage Collection mit automatischer Ressourcenfreiheit verwechselt."
-keyTakeaways:
-  - "Memory Leaks entstehen, wenn ein Programm Speicher oder Ressourcen dauerhaft hält, obwohl sie nicht mehr benötigt werden."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Memory Leaks, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Memory Leaks in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "speicher"
-  - "fehler"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 # Memory Leaks
 
 Memory Leaks entstehen, wenn ein Programm Speicher oder Ressourcen dauerhaft hält, obwohl sie

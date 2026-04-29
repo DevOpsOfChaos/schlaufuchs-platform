@@ -1,15 +1,14 @@
 ---
-title: Mittelwert und Median vergleichen – Lösung A
-description: Musterlösung zu Mittelwert und Median vergleichen mit Kontrolle.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Mittelwert und Median vergleichen – Lösung A"
+description: "Musterlösung zu Mittelwert und Median vergleichen mit Kontrolle."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "daten-deuten-und-pruefen", "mittelwert-und-median-vergleichen"]
 taskId: "mat-v196-mittelwert-und-median-vergleichen-a"
 relatedExercise: "mathematik/sanierung-v196/mittelwert-und-median-vergleichen-aufgabe-a"
 tags: ["mathematik", "v196", "daten-deuten-und-pruefen", "mittelwert-und-median-vergleichen"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine passende Lösung zu dieser Aufgabe muss nicht exakt dieselben Zahlen oder Beispiele verwenden. Entscheidend ist der saubere Aufbau.

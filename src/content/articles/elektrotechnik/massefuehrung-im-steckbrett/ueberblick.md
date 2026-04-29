@@ -1,36 +1,19 @@
 ---
 title: "Masseführung im Steckbrett"
 description: "Masseführung im Steckbrett beschreibt, wie Bezugspotenziale in einem provisorischen Aufbau verbunden werden. Auch bei einfachen Schaltungen entscheidet sie über S..."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Aufbau und Messung"
-topicPath:
-  - "massefuehrung-im-steckbrett"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Masseführung im Steckbrett als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["massefuehrung-im-steckbrett", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird angenommen, alle Massepunkte seien automatisch gleich. Im Steckbrett können kleine Unterschiede große Wirkung haben."
-keyTakeaways:
-  - "Masseführung im Steckbrett beschreibt, wie Bezugspotenziale in einem provisorischen Aufbau verbunden werden."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Masseführung im Steckbrett, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Masseführung im Steckbrett in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "masse"
-  - "steckbrett"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Aufbau und Messung"]
 draft: false
 ---
-
 # Masseführung im Steckbrett
 
 Masseführung im Steckbrett beschreibt, wie Bezugspotenziale in einem provisorischen Aufbau

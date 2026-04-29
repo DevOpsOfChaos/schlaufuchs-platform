@@ -3,45 +3,17 @@ title: "Browser-Daten und HTTP – HTTP-Fehler nicht mit Netzwerkfehler verwechs
 description: "Verstehe „HTTP-Fehler nicht mit Netzwerkfehler verwechseln“ als klar abgegrenztes Unterthema mit Beispiel, Gegenprobe und passender Übung."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "browser-daten-und-http"
-  - "fetch-und-statuscodes"
-  - "http-fehler-nicht-mit-netzwerkfehler-verwechseln-v116"
-learningGoals:
-  - "Du erklärst HTTP-Fehler nicht mit Netzwerkfehler verwechseln in eigenen Worten."
-  - "Du ordnest die Frage in ein kleines Unterthema ein statt in einen breiten Sammelbereich."
-  - "Du formulierst eine passende Gegenprobe für Aufgabe oder Projekt."
-practiceIdeas:
-  - "Markiere zuerst den konkreten Auslöser der Aufgabe."
-  - "Trenne Begriff, Beispiel und Prüfschritt."
-  - "Übertrage die Denkbewegung auf ein zweites kleines Beispiel."
-commonMistakes:
-  - "das Unterthema zu breit lesen"
-  - "die Gegenprobe weglassen"
-  - "Begriff und Beispiel miteinander verwechseln"
-keyTakeaways:
-  - "HTTP-Fehler nicht mit Netzwerkfehler verwechseln wird verständlich, wenn Ursache, Wirkung und Kontrolle getrennt werden."
-  - "Feine Unterthemen helfen beim Wiederfinden und verhindern überladene Sammelseiten."
-  - "Eine gute Erklärung endet mit einer konkreten Prüfung."
-recognizeSignals:
-  - "Die Aufgabe enthält einen scheinbar kleinen Sonderfall."
-  - "Zwei ähnliche Begriffe werden leicht verwechselt."
-  - "Eine Entscheidung soll begründet statt nur geraten werden."
-selfCheckPoints:
-  - "Kann ich das Unterthema von einem Nachbarthema abgrenzen?"
-  - "Kann ich einen typischen Fehler benennen?"
-  - "Kann ich eine kleine Gegenprobe anschließen?"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "fetch und statuscodes"
-  - "http fehler nicht mit netzwerkfehler verwechseln"
-  - "v116"
+topicPath: ["browser-daten-und-http", "fetch-und-statuscodes", "http-fehler-nicht-mit-netzwerkfehler-verwechseln-v116"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["web-development", "Web Development vertiefen"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei **HTTP-Fehler nicht mit Netzwerkfehler verwechseln** geht es nicht darum, möglichst viel Stoff auf einmal zu erklären. Entscheidend ist, die konkrete Beobachtung, die passende Regel und eine einfache Kontrolle voneinander zu trennen.

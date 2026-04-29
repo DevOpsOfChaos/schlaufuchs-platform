@@ -1,46 +1,19 @@
 ---
-title: Zugriffsmodifizierer public, protected und private unterscheiden
-description: Verstehe, welche Teile einer Klasse von aussen, nur in Unterklassen oder nur intern sichtbar sind.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - zugriffsmodifizierer-public-protected-private-unterscheiden
-learningGoals:
-  - Du unterscheidest public, protected und private fachlich sauber.
-  - Du erklaerst, warum Sichtbarkeit ein Teil von Datenkapselung ist.
-  - Du liest Klassendefinitionen ruhiger, wenn Abschnitte mit Zugriffsstufen markiert sind.
-practiceIdeas:
-  - Markiere in einer Klasse, was von aussen aufrufbar ist und was nicht.
-  - Pruefe bei einem Beispiel, ob ein Zugriff im Hauptprogramm erlaubt ist.
-  - Vergleiche die Rolle von protected mit der von private.
-commonMistakes:
-  - protected wie public zu behandeln.
-  - Zu denken, dass private nur eine Schreibkonvention sei.
-  - Getter und Setter fuer unnoetig zu halten, obwohl Daten nicht direkt sichtbar sein sollen.
-keyTakeaways:
-  - public bildet die aeussere Schnittstelle.
-  - private schuetzt interne Daten und Hilfslogik.
-  - protected liegt zwischen beidem und ist vor allem fuer Vererbung wichtig.
-recognizeSignals:
-  - Eine Klasse ist in Abschnitte unterteilt.
-  - Es geht um Sichtbarkeit, Zugriff oder Zugriffsmeldungen.
-  - In UML oder Klassencode stehen Zeichen wie +, # und -.
-selfCheckPoints:
-  - Kann ich sagen, wer auf public, protected und private zugreifen darf?
-  - Kann ich begruenden, warum Datenkapselung so aufgebaut ist?
-  - Kann ich protected und private voneinander trennen?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - sichtbarkeit
-  - kapselung
+title: "Zugriffsmodifizierer public, protected und private unterscheiden"
+description: "Verstehe, welche Teile einer Klasse von aussen, nur in Unterklassen oder nur intern sichtbar sind."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "zugriffsmodifizierer-public-protected-private-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Nicht alles an einer Klasse soll von ueberall erreichbar sein. Manche Teile bilden die offizielle Schnittstelle, andere sollen intern bleiben. Zugriffsmodifizierer helfen dabei, diese Grenze klar zu ziehen.

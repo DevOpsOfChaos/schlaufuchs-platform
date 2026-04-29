@@ -1,32 +1,17 @@
 ---
 title: "Steckverbinder und Kontaktierung"
 description: "Überblick über elektrische und mechanische Anforderungen an Steckverbinder."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mechanik und Verbindung"
-topicPath:
-  - "steckverbinder-und-kontaktierung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Steckverbinder und Kontaktierung als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Kontaktwiderstand, Strombelastbarkeit, Verriegelung."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["steckverbinder-und-kontaktierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Steckverbinder nur nach Pinzahl und Rastermaß auszuwählen."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Steckverbinder und Kontaktierung beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Verbindungen zwischen Baugruppen."
-  - "Wichtige Hinweise liefern vor allem Kontaktwiderstand, Strombelastbarkeit, Verriegelung."
-recognizeSignals:
-  - "Es geht um verbindungen zwischen baugruppen, kontaktwiderstand oder strombelastbarkeit."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Steckverbinder und Kontaktierung erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "steckverbinder"
-  - "kontakt"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mechanik und Verbindung"]
 draft: false
 ---
 # Steckverbinder und Kontaktierung

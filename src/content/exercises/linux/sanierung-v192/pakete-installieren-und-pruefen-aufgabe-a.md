@@ -3,38 +3,15 @@ title: "Pakete installieren und prüfen: Aufgabe A"
 description: "Dokumentiere eine Paketinstallation mit Kontrollschritt."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "pakete-und-updates"
-  - "pakete-installieren-und-pruefen"
-  - "aufgabe-a"
+topicPath: ["sanierung-v192", "pakete-installieren-und-pruefen-aufgabe-a"]
 taskId: "linux-v192-013a"
-tags:
-  - "pakete-und-updates"
-  - "pakete"
-  - "installieren"
-  - "pruefen"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "aufgabe"
-  - "v192"
-hintPoints:
-  - "Trenne Beobachtung, Eingriff und Kontrolle."
-  - "Nenne den betroffenen Benutzer, Dienst, Pfad, Port oder Zeitplan."
-  - "Beschreibe mindestens einen Rückweg oder Sicherheitscheck."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Pakete installieren und prüfen."
-  - "Es gibt eine klare Kontrolle nach der Änderung."
-  - "Risiko und Nebenwirkung werden nicht verschwiegen."
-transferIdeas:
-  - "Übertrage den Prüfweg auf eine zweite Linux-VM oder einen anderen Dienst."
-  - "Formuliere aus deiner Lösung eine kurze Betriebsnotiz."
-reflectionPrompt: "Welcher Schritt verhindert hier den wahrscheinlichsten Adminfehler?"
+tags: ["linux", "adminpraxis-und-betrieb", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Dokumentiere eine Paketinstallation mit Kontrollschritt.

@@ -1,45 +1,19 @@
 ---
-title: Formulare und Eingaben in HTML
-description: Verstehe Formulare als strukturierte Eingabeschnittstellen und nutze Labels, Eingabefelder und Gruppen sinnvoll.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - formulare-und-eingaben
-tags:
-  - html
-  - form
-  - input
-  - label
-  - accessibility
-learningGoals:
-  - Du verstehst den Aufbau einfacher HTML-Formulare.
-  - Du ordnest label, input, textarea und select fachlich richtig ein.
-  - Du erkennst, warum Beschriftung und Struktur für Nutzbarkeit und Zugänglichkeit wichtig sind.
-practiceIdeas:
-  - Baue ein kleines Formular mit Name, Auswahl und Freitextfeld.
-  - Prüfe bei jedem Eingabefeld, ob ein Label sinnvoll zugeordnet ist.
-  - Vergleiche ein Formular mit und ohne Gruppierung über fieldset und legend.
-commonMistakes:
-  - Formularfelder ohne klare Beschriftung anzulegen.
-  - Nur auf das Aussehen statt auf die Funktion der Eingabeelemente zu achten.
-  - Placeholder mit echter Beschriftung zu verwechseln.
-keyTakeaways:
-  - Formulare strukturieren Eingaben und nicht nur das Layout.
-  - Labels sind zentral für Verständlichkeit und Zugänglichkeit.
-  - Unterschiedliche Eingabetypen haben unterschiedliche Aufgaben.
-recognizeSignals:
-  - Es geht um Formulare, Eingabefelder, Auswahlfelder, Beschriftung oder Gruppierung.
-  - Du sollst eine Eingabesituation nicht nur bauen, sondern in ihrer Struktur erklären.
-  - Ein Beispiel fragt nach der Rolle von label, input, textarea, select oder fieldset.
-selfCheckPoints:
-  - Kann ich ein Formular fachlich in sinnvolle Bausteine zerlegen?
-  - Kann ich erklären, warum ein Label mehr ist als nur sichtbarer Text?
-  - Kann ich ein einfaches Formular mit passenden Elementen planen?
-level: einfach
+title: "Formulare und Eingaben in HTML"
+description: "Verstehe Formulare als strukturierte Eingabeschnittstellen und nutze Labels, Eingabefelder und Gruppen sinnvoll."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "formulare-und-eingaben"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Formulare sind der Standardweg, um Nutzereingaben auf Webseiten strukturiert aufzunehmen. Sie verbinden technische Funktion, inhaltliche Klarheit und Zugänglichkeit.

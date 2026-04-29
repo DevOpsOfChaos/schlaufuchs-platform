@@ -1,34 +1,19 @@
 ---
 title: "Progressives Rendering"
 description: "Überblick über den schrittweisen Aufbau sichtbarer Inhalte, damit Webseiten früher verständlich und nutzbar wirken."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "progressives-rendering"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["progressives-rendering", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur die technische Gesamtladezeit zu optimieren und die wahrgenommene Nutzbarkeit zu ignorieren."
-keyTakeaways:
-  - "Progressives Rendering macht Seiten früher verständlich, indem wichtige Inhalte priorisiert sichtbar werden."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Seiten trotz schneller Serverantwort lange leer wirken oder Interaktion erst spät möglich ist."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "web development"
-  - "performance"
-  - "rendering"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # Progressives Rendering
 
 Progressives Rendering bedeutet, Inhalte so auszuliefern und darzustellen, dass Nutzer früh etwas Sinnvolles sehen. Statt auf alle Daten und Skripte zu warten, wird die Seite schrittweise aufgebaut.

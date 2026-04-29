@@ -3,23 +3,12 @@ title: "Lösung – Rückgabewert und Nebenwirkung trennen"
 description: "Musterlösung zu Funktionswirkung mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "informatik"
 section: "Programmierung"
-topicPath:
-  - "programmieren"
-  - "funktionen-und-schnittstellen"
-  - "rueckgabewerte"
-  - "rueckgabewert-und-nebenwirkung-trennen"
+topicPath: ["programmieren", "funktionen-und-schnittstellen", "rueckgabewerte", "rueckgabewert-und-nebenwirkung-trennen"]
 taskId: "v107-informatik-rueckgabewert-und-nebenwirkung-trennen"
 relatedExercise: "informatik/programmieren/funktionen-und-schnittstellen/rueckgabewerte/rueckgabewert-und-nebenwirkung-trennen"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "algorithmen"
-  - "funktionswirkung"
-  - "programmieren"
-  - "funktionen-und-schnittstellen"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Funktionswirkung**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

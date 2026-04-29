@@ -3,19 +3,10 @@ title: "Lösung – Stromaufnahme und Schlafmodus sinnvoll beurteilen"
 description: "Musterlösung zu „Stromaufnahme und Schlafmodus sinnvoll beurteilen“."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "stromaufnahme-messen-und-schlafmodus-bewerten"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "stromaufnahme-messen-und-schlafmodus-bewerten"]
 taskId: "et-mc-v93-stromaufnahme"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/stromaufnahme-messen-und-schlafmodus-bewerten"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "stromaufnahme"
-  - "sleep-mode"
-  - "energie"
-  - "messung"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

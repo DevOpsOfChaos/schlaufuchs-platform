@@ -3,44 +3,17 @@ title: "JavaScript – Zustand und Rendern in kleinen UI-Bausteinen"
 description: "Verstehe, warum eine Oberfläche stabiler wird, wenn Zustand und Darstellung getrennt gedacht werden."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "zustand-und-ui"
-  - "zustand-und-rendern-in-kleinen-ui-bausteinen"
-learningGoals:
-  - "Du unterscheidest Datenzustand und sichtbare Darstellung."
-  - "Du erklärst Rendern als kontrollierte Ableitung aus Zustand."
-  - "Du vermeidest verstreute Einzeländerungen in der Oberfläche."
-practiceIdeas:
-  - "Übertrage die Idee auf eine kleine eigene Seite."
-  - "Prüfe die Bedienung einmal mit Tastatur und einmal mit Maus."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "Jede DOM-Stelle einzeln nach Gefühl zu ändern."
-  - "Den aktuellen Zustand nur aus sichtbarem Text zurückzulesen."
-  - "Aktionen und Darstellung untrennbar in einem Block zu vermischen."
-keyTakeaways:
-  - "Robuste Webinteraktion trennt Struktur, Zustand und Rückmeldung."
-  - "Nutzerführung ist Teil der technischen Lösung."
-  - "Fehler und Sonderfälle werden sichtbar geplant."
-recognizeSignals:
-  - "Es geht um JavaScript im Browser, UI-Zustand oder dynamische Rückmeldung."
-  - "Eine Interaktion soll verständlicher, sicherer oder robuster werden."
-  - "HTML, CSS und JavaScript müssen gemeinsam gelesen werden."
-selfCheckPoints:
-  - "Kann ich die Aufgabe des Codes in einem Satz erklären?"
-  - "Bleibt die Interaktion ohne Maus oder bei Fehlern nachvollziehbar?"
-  - "Sind sichtbare Texte verständlich und deutsch formuliert?"
+topicPath: ["javascript", "zustand-und-ui", "zustand-und-rendern-in-kleinen-ui-bausteinen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "web development"
-  - "javascript"
-  - "zustand"
-  - "rendern"
-  - "ui"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Diese Seite zeigt dir, wie du Zustand und Rendern in kleinen UI-Bausteinen nicht als isolierten JavaScript-Trick, sondern als kleine UX- und Robustheitsentscheidung liest.

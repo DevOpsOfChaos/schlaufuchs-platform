@@ -1,46 +1,19 @@
 ---
-title: ATmega TWI/I²C Open-Drain und Pull-up verstehen
-description: Verstehe, warum I²C-Leitungen nicht aktiv auf HIGH getrieben werden und weshalb Pull-up-Widerstände für SDA und SCL mitgedacht werden müssen.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-schnittstellen-und-busse
-  - atmega-twi-i2c-open-drain-und-pullup-verstehen
-learningGoals:
-  - Du erklärst, warum I²C-Leitungen als Open-Drain/Open-Collector-Logik gedacht werden.
-  - Du beschreibst die Rolle von Pull-up-Widerständen auf SDA und SCL.
-  - Du liest HIGH und LOW auf dem Bus eher als gemeinsames Leitungsverhalten als als einzelne Treiberaktion.
-practiceIdeas:
-  - Vergleiche eine aktiv getriebene Push-Pull-Leitung mit einer I²C-Leitung.
-  - Begründe, warum mehrere Teilnehmer auf einer I²C-Leitung LOW ziehen dürfen, ohne sich direkt zu widersprechen.
-  - Lies Pull-ups nicht als Nebendetail, sondern als Teil der Buslogik.
-commonMistakes:
-  - Zu denken, ein I²C-Teilnehmer würde die Leitung aktiv auf HIGH treiben.
-  - SDA und SCL wie normale Push-Pull-Ausgänge zu lesen.
-  - Pull-up-Widerstände als optionale Dekoration statt als Teil der Funktionslogik zu behandeln.
-keyTakeaways:
-  - I²C-Leitungen werden typischerweise nur aktiv nach LOW gezogen.
-  - HIGH entsteht über Pull-up-Widerstände und nicht über aktives Hochdrücken eines Teilnehmers.
-  - Gerade dadurch können mehrere Teilnehmer dieselbe Busleitung ruhig gemeinsam nutzen.
-recognizeSignals:
-  - Es geht um SDA, SCL, Pull-up-Widerstände oder gemeinsame Busleitungen.
-  - Du sollst erklären, warum auf einer Leitung mehrere Teilnehmer zusammenarbeiten können.
-  - In Beispielen ist das Leitungsverhalten wichtiger als der einzelne Controllerpin.
-selfCheckPoints:
-  - Kann ich LOW-Ziehen und HIGH-Entstehen sauber unterscheiden?
-  - Kann ich erklären, warum Pull-ups auf dem I²C-Bus fachlich nötig sind?
-  - Kann ich begründen, warum Open-Drain-Konflikte ruhiger beherrschbar sind als Push-Pull-Konflikte?
-tags:
-  - elektrotechnik
-  - atmega
-  - i2c
-  - twi
-  - pullup
-level: mittel
+title: "ATmega TWI/I²C Open-Drain und Pull-up verstehen"
+description: "Verstehe, warum I²C-Leitungen nicht aktiv auf HIGH getrieben werden und weshalb Pull-up-Widerstände für SDA und SCL mitgedacht werden müssen."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-twi-i2c-open-drain-und-pullup-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Beim I²C-Bus ist die wichtigste Frage nicht nur **„Welche Bits werden übertragen?“**, sondern zuerst: **„Wie verhält sich die Leitung elektrisch?“** Genau dort unterscheidet sich I²C deutlich von einer normalen Push-Pull-Leitung.

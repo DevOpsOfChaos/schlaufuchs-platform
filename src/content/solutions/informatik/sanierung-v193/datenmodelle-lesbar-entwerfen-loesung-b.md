@@ -3,24 +3,12 @@ title: "Lösung: Datenmodelle lesbar entwerfen: Aufgabe B"
 description: "Musterlösung zur Aufgabe informatik-v193-004b im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "qualitaet-und-wartbarkeit"
-  - "datenmodelle-lesbar-entwerfen"
-  - "loesung-b"
+topicPath: ["sanierung-v193", "datenmodelle-lesbar-entwerfen-loesung-b"]
 taskId: "informatik-v193-004b"
 relatedExercise: "informatik/sanierung-v193/datenmodelle-lesbar-entwerfen-aufgabe-b"
-tags:
-  - "datenmodelle"
-  - "lesbar"
-  - "entwerfen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-004b`
 
 Ausgangsauftrag: Übertrage das Thema Datenmodelle lesbar entwerfen auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

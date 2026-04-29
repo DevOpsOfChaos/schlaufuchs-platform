@@ -1,31 +1,17 @@
 ---
-title: Schatten nach Box oder Form sauber begründen
-description: Begründe, ob eine Schattenwirkung eher die Box eines Elements oder seine sichtbare Form betonen soll.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - box-shadow-und-drop-shadow-verstehen
-  - schatten-nach-box-oder-form-sauber-begruenden
-level: mittel
+title: "Schatten nach Box oder Form sauber begründen"
+description: "Begründe, ob eine Schattenwirkung eher die Box eines Elements oder seine sichtbare Form betonen soll."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "box-shadow-und-drop-shadow-verstehen", "schatten-nach-box-oder-form-sauber-begruenden"]
+taskId: "AUTO-SCHATTEN-NACH-BOX-ODER-FORM-SAUBER-BEGRUENDEN"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - css
-  - box-shadow
-  - drop-shadow
-  - shadow
-hintPoints:
-  - "Frage zuerst, ob das Element als rechteckige Fläche oder als freie Form gelesen werden soll."
-  - "Begründe die Schattenart über Formlogik, nicht nur über Intensität."
-selfCheckPoints:
-  - "Kannst du box-shadow und drop-shadow über ihren Bezugspunkt unterscheiden?"
-  - "Kannst du Karten von freigestellten Formen ruhig trennen?"
-transferIdeas:
-  - "Übertrage die Logik auf Karten, Logos, Sticker, Badges oder Produktbilder."
-reflectionPrompt: "Woran merkst du, dass ein Schatten nicht zur Form eines Elements passt, obwohl er technisch funktioniert?"
 ---
-
 ## Aufgabe 1: Karte mit Inhalt
 
 Eine Infokarte mit Überschrift und Text soll leicht über dem Hintergrund schweben.

@@ -1,32 +1,17 @@
 ---
-title: XML-Struktur auf Wohlgeformtheit prüfen
-description: Prüfe ein kleines XML-Beispiel auf saubere Verschachtelung und richtig eingesetzte Attribute.
-subject: informatik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - datenformate
-  - xml-datenstruktur-verstehen
-  - xml-wurzel-elemente-und-attribute-pruefen
-taskId: INF-DATA-FORMAT-XML-001
-level: einfach
+title: "XML-Struktur auf Wohlgeformtheit prüfen"
+description: "Prüfe ein kleines XML-Beispiel auf saubere Verschachtelung und richtig eingesetzte Attribute."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "datenformate", "xml-datenstruktur-verstehen", "xml-wurzel-elemente-und-attribute-pruefen"]
+taskId: "INF-DATA-FORMAT-XML-001"
+tags: ["informatik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - informatik
-  - aufgabe
-  - grundlagen
-  - datenformate
-hintPoints:
-  - "Lies das Beispiel zuerst ruhig in Worten."
-  - "Trenne Struktur, Rolle und Wirkung sauber."
-selfCheckPoints:
-  - "Habe ich begründet statt nur benannt?"
-  - "Habe ich Fachbegriffe sauber verwendet?"
-transferIdeas:
-  - "Übertrage die Logik auf ein ähnliches Beispiel."
-reflectionPrompt: "Welche Stelle war leicht zu verwechseln und warum?"
 ---
-
 ## Aufgabe 1: Elemente lesen
 
 Gegeben ist:

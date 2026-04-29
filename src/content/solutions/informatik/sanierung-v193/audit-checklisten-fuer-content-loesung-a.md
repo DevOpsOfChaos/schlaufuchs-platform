@@ -3,24 +3,12 @@ title: "Lösung: Audit-Checklisten für Content: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-030a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "zusammenarbeit-und-audit"
-  - "audit-checklisten-fuer-content"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "audit-checklisten-fuer-content-loesung-a"]
 taskId: "informatik-v193-030a"
 relatedExercise: "informatik/sanierung-v193/audit-checklisten-fuer-content-aufgabe-a"
-tags:
-  - "audit"
-  - "checklisten"
-  - "content"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-030a`
 
 Ausgangsauftrag: Erstelle eine Prüfliste für Lerncontent mit Aufgabe-Lösung-Paaren.

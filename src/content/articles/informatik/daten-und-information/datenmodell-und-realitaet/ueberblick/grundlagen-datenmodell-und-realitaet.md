@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Datenmodell und Realität"
 description: "Verstehe, wie Datenmodelle reale Sachverhalte vereinfachen und welche Grenzen dabei entstehen."
-subject: informatik
+subject: "informatik"
 section: "daten-und-information"
-topicPath:
-  - "daten-und-information"
-  - "datenmodell-und-realitaet"
-learningGoals:
-  - "Du erklärst die Grundidee von Datenmodell und Realität in eigenen Worten."
-  - "Du ordnest typische Begriffe und Teilaspekte fachlich richtig ein."
-  - "Du erkennst, welche Detailseiten, Aufgaben oder Fehlerbilder zum Thema passen."
-practiceIdeas:
-  - "Beschreibe ein eigenes Beispiel und markiere die wichtigsten Begriffe."
-  - "Vergleiche die Übersicht mit einer konkreten Aufgabe zum gleichen Thema."
-commonMistakes:
-  - "Ein einzelnes Beispiel für das gesamte Thema zu halten."
-  - "Begriffe zu vermischen, die unterschiedliche Rollen haben."
-  - "Direkt mit Spezialfällen zu beginnen, bevor die Grundidee klar ist."
-keyTakeaways:
-  - "Ein Datenmodell legt fest, welche Informationen gespeichert werden."
-  - "Es entscheidet auch, welche Details bewusst fehlen."
-  - "Gute Modelle passen zum Zweck und bleiben nachvollziehbar."
-recognizeSignals:
-  - "Du suchst zuerst eine allgemeine Einordnung statt eines Einzelfalls."
-  - "Mehrere Detailseiten wirken ähnlich und sollen fachlich sortiert werden."
-selfCheckPoints:
-  - "Kann ich das Thema in zwei bis drei Sätzen allgemein erklären?"
-  - "Kann ich die wichtigsten Teilaspekte voneinander unterscheiden?"
-level: mittel
-tags:
-  - "informatik"
-  - "datenmodell"
-  - "modellierung"
+topicPath: ["daten-und-information", "datenmodell-und-realitaet", "ueberblick", "grundlagen-datenmodell-und-realitaet"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "daten-und-information"]
 draft: false
 ---
-
 ![Datenmodell und Wirklichkeit](/schlaufuchs-platform/images/overviews/v184/datenmodell-und-realitaet-v184.svg)
 
 ## Begriff

@@ -3,24 +3,12 @@ title: "Lösung: Logs und Zustände lesen: Aufgabe B"
 description: "Musterlösung zur Aufgabe informatik-v193-012b im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "debugging-und-diagnose"
-  - "logs-und-zustaende-lesen"
-  - "loesung-b"
+topicPath: ["sanierung-v193", "logs-und-zustaende-lesen-loesung-b"]
 taskId: "informatik-v193-012b"
 relatedExercise: "informatik/sanierung-v193/logs-und-zustaende-lesen-aufgabe-b"
-tags:
-  - "logs"
-  - "zustaende"
-  - "lesen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-012b`
 
 Ausgangsauftrag: Übertrage das Thema Logs und Zustände lesen auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

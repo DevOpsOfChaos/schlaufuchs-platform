@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Rekursion, Abbruch und Stapel"
 description: "Verstehe rekursive Abläufe über kleinere Teilprobleme, Abbruchfälle und Rückkehr aus Aufrufen."
-subject: informatik
+subject: "informatik"
 section: "algorithmen-klein-begruenden"
-topicPath:
-  - "algorithmen-klein-begruenden"
-  - "rekursion-abbruch-und-stapel"
-learningGoals:
-  - "Du erklärst die Grundidee von Rekursion, Abbruch und Stapel in eigenen Worten."
-  - "Du ordnest typische Begriffe und Teilaspekte fachlich richtig ein."
-  - "Du erkennst, welche Detailseiten, Aufgaben oder Fehlerbilder zum Thema passen."
-practiceIdeas:
-  - "Beschreibe ein eigenes Beispiel und markiere die wichtigsten Begriffe."
-  - "Vergleiche die Übersicht mit einer konkreten Aufgabe zum gleichen Thema."
-commonMistakes:
-  - "Ein einzelnes Beispiel für das gesamte Thema zu halten."
-  - "Begriffe zu vermischen, die unterschiedliche Rollen haben."
-  - "Direkt mit Spezialfällen zu beginnen, bevor die Grundidee klar ist."
-keyTakeaways:
-  - "Rekursion löst ein Problem über kleinere ähnliche Probleme."
-  - "Der Abbruchfall verhindert unendliche Aufrufketten."
-  - "Der Aufrufstapel erklärt, warum Rückkehr und Reihenfolge wichtig sind."
-recognizeSignals:
-  - "Du suchst zuerst eine allgemeine Einordnung statt eines Einzelfalls."
-  - "Mehrere Detailseiten wirken ähnlich und sollen fachlich sortiert werden."
-selfCheckPoints:
-  - "Kann ich das Thema in zwei bis drei Sätzen allgemein erklären?"
-  - "Kann ich die wichtigsten Teilaspekte voneinander unterscheiden?"
-level: mittel
-tags:
-  - "informatik"
-  - "rekursion"
-  - "abbruch"
+topicPath: ["algorithmen-klein-begruenden", "rekursion-abbruch-und-stapel", "ueberblick", "grundlagen-rekursion-abbruch-und-stapel"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "algorithmen-klein-begruenden"]
 draft: false
 ---
-
 ![Rekursion mit Abbruch](/schlaufuchs-platform/images/overviews/v184/rekursion-abbruch-stapel.svg)
 
 ## Begriff

@@ -1,42 +1,19 @@
 ---
 title: "Grundlagen: Reihen- und Parallelschaltung"
 description: "Überblick über Strompfade, Zweige und typische Unterschiede zwischen Reihen- und Parallelschaltung."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektronik"
-topicPath:
-  - "elektronik"
-  - "reihen-und-parallelschaltung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen, bevor du Detailaufgaben bearbeitest."
-  - "Du unterscheidest zentrale Begriffe und typische Fehlerquellen."
-  - "Du erkennst, welche Nachbarseiten und Übungen zu diesem Thema passen."
-practiceIdeas:
-  - "Lies zuerst die Übersicht und markiere die Begriffe, die in Aufgaben wieder auftauchen."
-  - "Formuliere zu jedem Abschnitt eine eigene kurze Prüffrage."
-commonMistakes:
-  - "Direkt mit einem Einzelfall zu beginnen, ohne den allgemeinen Zusammenhang zu klären."
-  - "Mess-, Rechen- und Schaltungsbegriffe zu vermischen."
-  - "Ein einzelnes Beispiel für die komplette Themenlogik zu halten."
-keyTakeaways:
-  - "In Reihenschaltungen liegen Bauteile im gleichen Strompfad."
-  - "In Parallelschaltungen gibt es mehrere Zweige mit gemeinsamer Spannung."
-  - "Die Zeichnung allein reicht nicht; entscheidend ist das Verhalten von Strom und Spannung."
-recognizeSignals:
-  - "Du suchst eine ruhige Einordnung statt einer einzelnen Problemsituation."
-  - "Mehrere Detailseiten wirken ähnlich und sollen fachlich sortiert werden."
-selfCheckPoints:
-  - "Kann ich die Grundidee in eigenen Worten erklären?"
-  - "Kann ich typische Fehler benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "reihe"
-  - "parallel"
-  - "schaltung"
+topicPath: ["elektronik", "reihen-und-parallelschaltung", "ueberblick", "grundlagen-reihen-und-parallelschaltung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektronik"]
 draft: false
 ---
-
 ![Grundlagen: Reihen- und Parallelschaltung](/schlaufuchs-platform/images/overviews/v178/reihen-und-parallelschaltung.svg)
 
 ## Begriff und Zweck

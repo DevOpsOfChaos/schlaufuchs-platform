@@ -3,24 +3,12 @@ title: "Lösung: Fehlererkennung mit Prüfsummen: Aufgabe A"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-015a im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "fehler-und-robustheit"
-  - "fehlererkennung-mit-pruefsummen"
-  - "loesung-a"
-
+topicPath: ["sanierung-v195", "fehlererkennung-mit-pruefsummen-loesung-a"]
 taskId: "daten-und-signale-v195-015a"
 relatedExercise: "daten-und-signale/sanierung-v195/fehlererkennung-mit-pruefsummen-aufgabe-a"
-tags:
-  - "fehlererkennung"
-  - "pruefsummen"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-015a`
 
 Ausgangsauftrag: Erkläre, wie eine Prüfsumme einen Übertragungsfehler sichtbar machen kann.

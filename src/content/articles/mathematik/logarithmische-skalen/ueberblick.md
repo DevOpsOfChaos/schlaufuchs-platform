@@ -1,36 +1,19 @@
 ---
 title: "Logarithmische Skalen"
 description: "Logarithmische Skalen stellen Werte so dar, dass gleiche Abstände gleichen Verhältnissen statt gleichen Differenzen entsprechen."
-subject: mathematik
+subject: "mathematik"
 section: "Daten und Funktionen"
-topicPath:
-  - "logarithmische-skalen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Logarithmische Skalen als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["logarithmische-skalen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Abstände auf Logskalen wie lineare Differenzen gelesen."
-keyTakeaways:
-  - "Logarithmische Skalen stellen Werte so dar, dass gleiche Abstände gleichen Verhältnissen statt gleichen Differenzen entsprechen."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Logarithmische Skalen, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Logarithmische Skalen in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "logarithmus"
-  - "diagramme"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Daten und Funktionen"]
 draft: false
 ---
-
 # Logarithmische Skalen
 
 Logarithmische Skalen stellen Werte so dar, dass gleiche Abstände gleichen Verhältnissen statt

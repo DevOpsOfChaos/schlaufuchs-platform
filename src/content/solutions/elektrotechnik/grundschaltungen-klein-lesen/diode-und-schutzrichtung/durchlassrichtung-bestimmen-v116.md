@@ -3,22 +3,12 @@ title: "Lösung: Durchlassrichtung bestimmen"
 description: "Musterlösung zur Aufgabe „Durchlassrichtung bestimmen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "grundschaltungen-klein-lesen"
-  - "diode-und-schutzrichtung"
-  - "durchlassrichtung-bestimmen-v116"
+topicPath: ["grundschaltungen-klein-lesen", "diode-und-schutzrichtung", "durchlassrichtung-bestimmen-v116"]
 taskId: "durchlassrichtung-bestimmen-v116"
 relatedExercise: "elektrotechnik/grundschaltungen-klein-lesen/diode-und-schutzrichtung/durchlassrichtung-bestimmen-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "diode und schutzrichtung"
-  - "durchlassrichtung bestimmen"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

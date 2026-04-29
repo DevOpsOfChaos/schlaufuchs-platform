@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Prepared-Statement-Ablauf mit Platzhaltern und Bindung ordnen
-description: Musterlösung zur Aufgabe INF-PHP-MYSQL-007.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - prepared-statements-mit-bind-param-und-execute-lesen
-  - prepared-statement-ablauf-mit-platzhaltern-und-bindung-ordnen-loesung
-taskId: INF-PHP-MYSQL-007
-relatedExercise: src/content/exercises/informatik/programmierung/php/prepared-statements-mit-bind-param-und-execute-lesen/prepared-statement-ablauf-mit-platzhaltern-und-bindung-ordnen.md
-tags:
-  - informatik
-  - loesung
-  - php
-  - task-id
+title: "Musterlösung – Prepared-Statement-Ablauf mit Platzhaltern und Bindung ordnen"
+description: "Musterlösung zur Aufgabe INF-PHP-MYSQL-007."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "prepared-statements-mit-bind-param-und-execute-lesen", "prepared-statement-ablauf-mit-platzhaltern-und-bindung-ordnen"]
+taskId: "INF-PHP-MYSQL-007"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/prepared-statements-mit-bind-param-und-execute-lesen/prepared-statement-ablauf-mit-platzhaltern-und-bindung-ordnen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Sinnvolle Reihenfolge: SQL-Vorlage vorbereiten → Platzhalterwerte binden → Anfrage wirklich ausführen → Ergebnis später lesen.

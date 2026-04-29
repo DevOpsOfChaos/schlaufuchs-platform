@@ -1,37 +1,19 @@
 ---
 title: "Grundlagen: Absolute und relative Pfade"
 description: "Allgemeiner Überblick über Pfade im Linux-Dateisystem und den Unterschied zwischen absoluter und relativer Adressierung."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - shell
-  - dateisystem-und-pfade
-  - absolute-und-relative-pfade
-  - grundlagen-absolute-und-relative-pfade
-learningGoals:
-  - "Du erklärst Pfade als Adressen im Dateisystem."
-  - "Du unterscheidest absolute und relative Pfade."
-  - "Du ordnest das aktuelle Arbeitsverzeichnis als Bezugspunkt relativer Pfade ein."
+topicPath: ["shell", "dateisystem-und-pfade", "absolute-und-relative-pfade", "ueberblick", "grundlagen-absolute-und-relative-pfade"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Relative Pfade ohne aktuelles Verzeichnis zu deuten."
-  - "Einen führenden Schrägstrich zu übersehen."
-  - "Dateiname und Pfad zu verwechseln."
-keyTakeaways:
-  - "Absolute Pfade beginnen an der Wurzel des Dateisystems."
-  - "Relative Pfade beginnen beim aktuellen Arbeitsverzeichnis."
-  - "Punkt und Doppelpunkt-Punkt beschreiben aktuelles und übergeordnetes Verzeichnis."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "pfade"
-  - "dateisystem"
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
-
 ## Begriff
 
 Ein **Pfad** beschreibt, wo eine Datei oder ein Ordner im Dateisystem liegt. Unter Linux ist das Dateisystem hierarchisch aufgebaut. An der Spitze steht die Wurzel, die mit einem Schrägstrich dargestellt wird.

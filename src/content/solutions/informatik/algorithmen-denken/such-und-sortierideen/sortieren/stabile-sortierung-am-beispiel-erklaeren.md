@@ -3,23 +3,12 @@ title: "Lösung – Stabile Sortierung am Beispiel erklären"
 description: "Musterlösung zu Stabile Sortierung mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "algorithmen-denken"
-  - "such-und-sortierideen"
-  - "sortieren"
-  - "stabile-sortierung-am-beispiel-erklaeren"
+topicPath: ["algorithmen-denken", "such-und-sortierideen", "sortieren", "stabile-sortierung-am-beispiel-erklaeren"]
 taskId: "v111-informatik-stabile-sortierung-am-beispiel-erklaeren"
 relatedExercise: "informatik/algorithmen-denken/such-und-sortierideen/sortieren/stabile-sortierung-am-beispiel-erklaeren"
-tags:
-  - "informatik"
-  - "struktur"
-  - "unterthema"
-  - "algorithmen-denken"
-  - "such-und-sortierideen"
-  - "stabile-sortierung-am-beispiel-erklaeren"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Stabile Sortierung**.

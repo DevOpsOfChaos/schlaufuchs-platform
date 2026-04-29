@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Messnotiz mit Zustand und Messpunkt schreiben"
 description: "Musterlösung zur Aufgabe: Messnotiz mit Zustand und Messpunkt schreiben."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - praxis
-  - dokumentation-und-schaltplanpflege
-taskId: ET-V182-023
-relatedExercise: src/content/exercises/elektrotechnik/praxis/dokumentation-und-schaltplanpflege/messnotiz-mit-zustand-und-messpunkt-schreiben.md
-tags:
-  - elektrotechnik
-  - dokumentation-und-schaltplanpflege
-  - loesung
-  - sanierung-v182
+topicPath: ["praxis", "dokumentation-und-schaltplanpflege", "messnotiz-mit-zustand-und-messpunkt-schreiben"]
+taskId: "ET-V182-023"
+relatedExercise: "src/content/exercises/elektrotechnik/praxis/dokumentation-und-schaltplanpflege/messnotiz-mit-zustand-und-messpunkt-schreiben.md"
+tags: ["elektrotechnik", "Praxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

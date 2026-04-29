@@ -1,49 +1,19 @@
 ---
-title: new und delete sauber paaren
-description: Verstehe, warum dynamisch reservierter Speicher in C++ bewusst wieder freigegeben werden muss und warum new und delete als zusammengehöriger Ablauf gelesen werden.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - dynamischer-speicher
-  - new-und-delete-sauber-paaren
-learningGoals:
-  - Du erklärst, warum <code>new</code> und <code>delete</code> als zusammengehöriger Ablauf gelesen werden.
-  - Du erkennst, dass dynamischer Speicher nicht automatisch wie lokale Variablen verschwindet.
-  - Du leitest aus kleinen Beispielen eine ruhige Denkregel für Reservieren und Freigeben ab.
-practiceIdeas:
-  - Lies kleine Beispiele immer in der Reihenfolge Reservieren → Nutzen → Freigeben.
-  - Markiere in Pointer-Code bewusst die Stelle, an der Speicher entsteht, und die Stelle, an der er wieder endet.
-  - Vergleiche eine lokale Variable mit einem Objekt, das über <code>new</code> erzeugt wurde.
-commonMistakes:
-  - Zu glauben, dass <code>delete</code> bei dynamischem Speicher optional ist.
-  - Lokale Lebensdauer und dynamisch reservierten Speicher gedanklich gleichzusetzen.
-  - Nur auf den Pointer zu schauen und zu übersehen, dass es um den reservierten Speicher dahinter geht.
-keyTakeaways:
-  - <code>new</code> reserviert Speicher dynamisch und liefert eine Adresse zurück.
-  - <code>delete</code> gibt genau diesen Speicher wieder frei.
-  - Wer Speicher reserviert, muss die Freigabe didaktisch immer mitdenken.
-recognizeSignals:
-  - In einem Beispiel tauchen <code>new</code>, Pointer und später <code>delete</code> zusammen auf.
-  - Du sollst erklären, warum ein Objekt nicht einfach „von selbst“ verschwindet.
-  - Es geht um Speicherlebensdauer und nicht nur um den Zahlenwert eines Pointers.
-selfCheckPoints:
-  - Kann ich erklären, was <code>new</code> zurückliefert?
-  - Kann ich begründen, warum zu <code>new</code> eine passende Freigabe gehört?
-  - Kann ich Reservieren und Freigeben im Ablauf sauber benennen?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - pointer
-  - speicher
-  - new
-  - delete
+title: "new und delete sauber paaren"
+description: "Verstehe, warum dynamisch reservierter Speicher in C++ bewusst wieder freigegeben werden muss und warum new und delete als zusammengehöriger Ablauf gelesen werden."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "new-und-delete-sauber-paaren"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Diese Seite hält bewusst nur das **Grundmuster** zusammen:

@@ -3,22 +3,12 @@ title: "Lösung: Datenschutz bei Messdaten: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe dat-v189-060b."
 subject: "daten-und-signale"
 section: "systeme"
-topicPath:
-  - "systeme"
-  - "datenschutz-bei-messdaten"
-  - "loesung-b"
+topicPath: ["sanierung-v189", "datenschutz-bei-messdaten-aufgabe-b"]
 taskId: "dat-v189-060b"
 relatedExercise: "daten-und-signale/sanierung-v189/datenschutz-bei-messdaten-aufgabe-b"
-tags:
-  - "datenschutz"
-  - "messdaten"
-  - "system"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "systeme", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-060b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

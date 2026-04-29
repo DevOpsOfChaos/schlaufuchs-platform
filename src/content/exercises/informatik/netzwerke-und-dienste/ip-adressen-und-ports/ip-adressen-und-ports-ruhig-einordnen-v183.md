@@ -1,27 +1,17 @@
 ---
 title: "IP-Adressen und Ports ruhig einordnen"
 description: "Übe IP-Adressen und Ports mit Begriffen, Beispielen und typischen Prüfungen."
-subject: informatik
+subject: "informatik"
 section: "Netzwerke und Dienste"
-topicPath:
-  - "netzwerke-und-dienste"
-  - "ip-adressen-und-ports"
-taskId: INF-V183-11-A
-tags:
-  - "informatik"
-  - "ip-adressen-und-ports"
-hintPoints:
-  - "Beginne mit der allgemeinen Idee."
-  - "Trenne Begriff, Beispiel und Fehlerquelle."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe sauber unterscheiden."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel aus einem anderen Informatikthema."
-reflectionPrompt: "Welche Unterscheidung war hier am wichtigsten?"
-level: einfach
+topicPath: ["netzwerke-und-dienste", "ip-adressen-und-ports", "ip-adressen-und-ports-ruhig-einordnen-v183"]
+taskId: "INF-V183-11-A"
+tags: ["informatik", "Netzwerke und Dienste", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **IP-Adressen und Ports**.
 
 ## Aufgabe 1 – Begriffe klären

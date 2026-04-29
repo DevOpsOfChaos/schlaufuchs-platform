@@ -1,28 +1,17 @@
 ---
 title: "Bauteilgrenze nach Betriebsfall prüfen"
 description: "Prüfe, ob ein Bauteil im Dauerbetrieb sicher bleibt."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - praxis
-  - thermische-grenzen-und-verlustleistung
-taskId: ET-V181-022
-tags:
-  - elektrotechnik
-  - thermische-grenzen-und-verlustleistung
-  - sanierung-v181
-hintPoints:
-  - "Lies zuerst den Normalzustand und dann den Fehlerfall."
-  - "Trenne elektrische Ebene, logische Bedeutung und praktische Prüfung."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["praxis", "thermische-grenzen-und-verlustleistung", "bauteilgrenze-nach-betriebsfall-pruefen"]
+taskId: "ET-V181-022"
+tags: ["elektrotechnik", "Praxis", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **Thermische Grenzen und Verlustleistung** ruhig und schrittweise.

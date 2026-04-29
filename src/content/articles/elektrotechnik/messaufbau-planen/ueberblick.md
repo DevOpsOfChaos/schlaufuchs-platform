@@ -1,33 +1,17 @@
 ---
 title: "Messaufbau planen"
 description: "Allgemeiner Überblick darüber, wie ein sinnvoller Messaufbau in Elektronik und Mikrocontrollertechnik vorbereitet wird."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Messtechnik"
-topicPath:
-  - "messaufbau-planen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Messaufbau planen als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["messaufbau-planen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird zuerst das Messgerät angeschlossen und danach überlegt, was der Wert bedeutet. Besser ist die umgekehrte Reihenfolge: Erwartung formulieren, dann messen."
-keyTakeaways:
-  - "Ein Messaufbau beginnt mit einer klaren Frage. Erst danach werden Messpunkte, Bezugspunkt, Gerät, Bereich und erwartete Werte festgelegt."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um messaufbau planen, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich messaufbau planen in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "messaufbau planen"
-  - "überblick"
-  - "messfrage"
-  - "bezugspunkt"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Messtechnik"]
 draft: false
 ---
 # Messaufbau planen

@@ -3,23 +3,12 @@ title: "Lösung – Kopie und Referenz bei Listen unterscheiden"
 description: "Musterlösung zu Mutation mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenstrukturen"
-  - "listen-arrays-und-zugriff"
-  - "mutation"
-  - "kopie-und-referenz-bei-listen-unterscheiden"
+topicPath: ["datenstrukturen", "listen-arrays-und-zugriff", "mutation", "kopie-und-referenz-bei-listen-unterscheiden"]
 taskId: "v111-informatik-kopie-und-referenz-bei-listen-unterscheiden"
 relatedExercise: "informatik/datenstrukturen/listen-arrays-und-zugriff/mutation/kopie-und-referenz-bei-listen-unterscheiden"
-tags:
-  - "informatik"
-  - "struktur"
-  - "unterthema"
-  - "datenstrukturen"
-  - "listen-arrays-und-zugriff"
-  - "kopie-und-referenz-bei-listen-unterscheiden"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Mutation**.

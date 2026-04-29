@@ -3,23 +3,12 @@ title: "Lösung – chown und chmod nicht verwechseln"
 description: "Musterlösung zu chown und chmod nicht verwechseln mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Rechte"
-topicPath:
-  - "rechte-und-zugriff"
-  - "besitz-rechte-sudo"
-  - "v110-teil-2"
-  - "chown-und-chmod-nicht-verwechseln"
+topicPath: ["rechte-und-zugriff", "besitz-rechte-sudo", "v110-teil-2", "chown-und-chmod-nicht-verwechseln"]
 taskId: "v110-linux-chown-und-chmod-nicht-verwechseln"
 relatedExercise: "linux/rechte-und-zugriff/besitz-rechte-sudo/v110-teil-2/chown-und-chmod-nicht-verwechseln"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "rechte-und-zugriff"
-  - "besitz-rechte-sudo"
-  - "chown-und-chmod-nicht-verwechseln"
+tags: ["linux", "Rechte", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **chown und chmod nicht verwechseln**.

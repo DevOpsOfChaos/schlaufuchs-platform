@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – Nullsetzen nach delete begrenzt einordnen
-description: Musterlösung zur Aufgabe INF-PROG-CPP-MEM-006.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - dynamischer-speicher
-  - pointer-nach-delete-auf-null-setzen-einordnen
-  - nullsetzen-nach-delete-begrenzt-einordnen-loesung
-taskId: INF-PROG-CPP-MEM-006
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/pointer-nach-delete-auf-null-setzen-einordnen/nullsetzen-nach-delete-begrenzt-einordnen.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – Nullsetzen nach delete begrenzt einordnen"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-MEM-006."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "pointer-nach-delete-auf-null-setzen-einordnen", "nullsetzen-nach-delete-begrenzt-einordnen"]
+taskId: "INF-PROG-CPP-MEM-006"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/pointer-nach-delete-auf-null-setzen-einordnen/nullsetzen-nach-delete-begrenzt-einordnen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Lokalen Nutzen beschreiben
 
 Weil dadurch genau diese Variable sichtbar leer gesetzt wird. Spätere Lesart oder Prüfungen über <code>p</code> werden damit klarer als ohne das Nullsetzen.

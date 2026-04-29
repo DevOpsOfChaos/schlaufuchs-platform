@@ -3,23 +3,12 @@ title: "Lösung – Syntaxfehler, Laufzeitfehler und Logikfehler trennen"
 description: "Musterlösung zu Fehlerarten mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "informatik"
 section: "Programmierung"
-topicPath:
-  - "programmieren"
-  - "fehlerarten-und-debugging"
-  - "logikfehler"
-  - "syntaxfehler-laufzeitfehler-und-logikfehler-trennen"
+topicPath: ["programmieren", "fehlerarten-und-debugging", "logikfehler", "syntaxfehler-laufzeitfehler-und-logikfehler-trennen"]
 taskId: "v108-informatik-syntaxfehler-laufzeitfehler-und-logikfehler-trennen"
 relatedExercise: "informatik/programmieren/fehlerarten-und-debugging/logikfehler/syntaxfehler-laufzeitfehler-und-logikfehler-trennen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "programmieren"
-  - "fehlerarten-und-debugging"
-  - "fehlerarten"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **Fehlerarten**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

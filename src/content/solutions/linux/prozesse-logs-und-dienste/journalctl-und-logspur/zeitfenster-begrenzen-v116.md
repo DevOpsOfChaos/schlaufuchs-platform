@@ -3,22 +3,12 @@ title: "Lösung: Zeitfenster begrenzen"
 description: "Musterlösung zur Aufgabe „Zeitfenster begrenzen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "prozesse-logs-und-dienste"
-  - "journalctl-und-logspur"
-  - "zeitfenster-begrenzen-v116"
+topicPath: ["prozesse-logs-und-dienste", "journalctl-und-logspur", "zeitfenster-begrenzen-v116"]
 taskId: "zeitfenster-begrenzen-v116"
 relatedExercise: "linux/prozesse-logs-und-dienste/journalctl-und-logspur/zeitfenster-begrenzen-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "journalctl und logspur"
-  - "zeitfenster begrenzen"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

@@ -3,22 +3,12 @@ title: "Lösung: Fehlererkennung: Grundordnung"
 description: "Musterlösung zur Aufgabe dat-v189-023a."
 subject: "daten-und-signale"
 section: "uebertragung"
-topicPath:
-  - "uebertragung"
-  - "fehlererkennung"
-  - "loesung-a"
+topicPath: ["sanierung-v189", "fehlererkennung-aufgabe-a"]
 taskId: "dat-v189-023a"
 relatedExercise: "daten-und-signale/sanierung-v189/fehlererkennung-aufgabe-a"
-tags:
-  - "fehlererkennung"
-  - "pruefsumme"
-  - "daten"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-023a`
 
 Eine mögliche Lösung:

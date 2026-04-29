@@ -3,38 +3,15 @@ title: "Benutzer und Gruppen verstehen: Aufgabe A"
 description: "Ordne drei Dateien passenden Benutzern und Gruppen zu."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "identitaet-und-rechte"
-  - "benutzer-und-gruppen-verstehen"
-  - "aufgabe-a"
+topicPath: ["sanierung-v192", "benutzer-und-gruppen-verstehen-aufgabe-a"]
 taskId: "linux-v192-002a"
-tags:
-  - "identitaet-und-rechte"
-  - "benutzer"
-  - "gruppen"
-  - "verstehen"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "aufgabe"
-  - "v192"
-hintPoints:
-  - "Trenne Beobachtung, Eingriff und Kontrolle."
-  - "Nenne den betroffenen Benutzer, Dienst, Pfad, Port oder Zeitplan."
-  - "Beschreibe mindestens einen Rückweg oder Sicherheitscheck."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Benutzer und Gruppen verstehen."
-  - "Es gibt eine klare Kontrolle nach der Änderung."
-  - "Risiko und Nebenwirkung werden nicht verschwiegen."
-transferIdeas:
-  - "Übertrage den Prüfweg auf eine zweite Linux-VM oder einen anderen Dienst."
-  - "Formuliere aus deiner Lösung eine kurze Betriebsnotiz."
-reflectionPrompt: "Welcher Schritt verhindert hier den wahrscheinlichsten Adminfehler?"
+tags: ["linux", "adminpraxis-und-betrieb", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Ordne drei Dateien passenden Benutzern und Gruppen zu.

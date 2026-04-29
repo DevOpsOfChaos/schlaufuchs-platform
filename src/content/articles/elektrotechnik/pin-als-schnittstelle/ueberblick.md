@@ -1,31 +1,17 @@
 ---
 title: "Pin als Schnittstelle"
 description: "Überblick über Mikrocontroller-Pins als elektrische, logische und funktionale Schnittstellen zwischen Controller und Umgebung."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "pin-als-schnittstelle"
-learningGoals:
-  - "Du verstehst einen Pin als Verbindung zwischen Mikrocontroller und Außenwelt."
-  - "Du unterscheidest elektrische Grenzen, Logikzustände und Sonderfunktionen."
-  - "Du erkennst, warum ein Pin nicht beliebig belastbar ist."
+topicPath: ["pin-als-schnittstelle", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Einen Pin als idealen Schalter ohne Stromgrenze zu betrachten."
-  - "Pin-Funktion, Registereinstellung und tatsächliche Beschaltung getrennt voneinander zu prüfen."
-keyTakeaways:
-  - "Ein Pin ist zugleich elektrische Verbindung, Logikpunkt und konfigurierbare Funktion."
-  - "Pin-Grenzen ergeben sich aus Datenblatt, Versorgung und Beschaltung."
-recognizeSignals:
-  - "Es geht um GPIO, Eingang, Ausgang, Pull-Widerstand, Alternativfunktion oder Pin-Strom."
-selfCheckPoints:
-  - "Kann ich erklären, welche Fragen vor dem Anschluss einer Last an einen Pin geklärt werden müssen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "gpio"
-  - "pin"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
 # Pin als Schnittstelle

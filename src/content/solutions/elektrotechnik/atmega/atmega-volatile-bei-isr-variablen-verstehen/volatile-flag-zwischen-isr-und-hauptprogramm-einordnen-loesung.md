@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – volatile-Flag zwischen ISR und Hauptprogramm einordnen
-description: Musterlösung zur Aufgabe ET-ATMEGA-INT-302.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - ereignisse-und-interrupts
-  - atmega-volatile-bei-isr-variablen-verstehen
-  - volatile-flag-zwischen-isr-und-hauptprogramm-einordnen-loesung
-taskId: ET-ATMEGA-INT-302
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-volatile-bei-isr-variablen-verstehen/volatile-flag-zwischen-isr-und-hauptprogramm-einordnen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – volatile-Flag zwischen ISR und Hauptprogramm einordnen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-INT-302."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-volatile-bei-isr-variablen-verstehen", "volatile-flag-zwischen-isr-und-hauptprogramm-einordnen"]
+taskId: "ET-ATMEGA-INT-302"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-volatile-bei-isr-variablen-verstehen/volatile-flag-zwischen-isr-und-hauptprogramm-einordnen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

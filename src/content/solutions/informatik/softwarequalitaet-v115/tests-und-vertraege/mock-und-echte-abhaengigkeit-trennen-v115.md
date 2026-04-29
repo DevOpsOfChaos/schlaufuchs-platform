@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Mock und echte Abhängigkeit trennen"
 description: "Musterlösung zu Mock und echte Abhängigkeit trennen mit Trennkante und Gegenprobe."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "softwarequalitaet-v115"
-  - "tests-und-vertraege"
-  - "mock-und-echte-abhaengigkeit-trennen-v115"
+topicPath: ["softwarequalitaet-v115", "tests-und-vertraege", "mock-und-echte-abhaengigkeit-trennen-v115"]
 taskId: "informatik-mock-und-echte-abhaengigkeit-trennen-v115"
 relatedExercise: "informatik/softwarequalitaet-v115/tests-und-vertraege/mock-und-echte-abhaengigkeit-trennen-v115"
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "softwarequalität"
-  - "tests und verträge"
-  - "lösung"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Mock und echte Abhängigkeit trennen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

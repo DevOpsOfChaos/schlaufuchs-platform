@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Binärlogik und Bedingungen"
 description: "Allgemeiner Überblick über binärlogik und bedingungen in der Informatik."
-subject: informatik
+subject: "informatik"
 section: "Programmablauf und Steuerung"
-topicPath:
-  - "programmablauf-und-steuerung"
-  - "binaerlogik-und-bedingungen"
-  - "ueberblick"
-learningGoals:
-  - "Du erklärst, wie Wahrheitswerte Entscheidungen in Programmen steuern."
-  - "Du ordnest typische Beispiele und Grenzen des Themas ein."
-  - "Du unterscheidest Grundidee, Anwendung und häufige Fehler."
-practiceIdeas:
-  - "Formuliere die Grundidee in drei Sätzen ohne Spezialfall."
-  - "Ordne ein eigenes Beispiel dem passenden Teilaspekt zu."
-commonMistakes:
-  - "umgangssprachliches oder mit logischem ODER verwechseln"
-  - "Bedingungen ohne Testfälle betrachten"
-  - "Negationen übersehen"
-keyTakeaways:
-  - "Binärlogik und Bedingungen braucht zuerst eine klare begriffliche Einordnung."
-  - "Beispiele helfen nur, wenn ihr Kontext bekannt ist."
-  - "Gute Informatikarbeit trennt Modell, Umsetzung und Prüfung."
-recognizeSignals:
-  - "Ein Thema wirkt wie ein Einzelfall, braucht aber zuerst einen allgemeinen Rahmen."
-  - "Mehrere Beispiele zeigen dieselbe Grundidee aus verschiedenen Blickwinkeln."
-selfCheckPoints:
-  - "Kann ich Grundidee und Beispiel unterscheiden?"
-  - "Kann ich typische Fehler nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "programmablauf-und-steuerung"
-  - "binaerlogik-und-bedingungen"
+topicPath: ["programmablauf-und-steuerung", "binaerlogik-und-bedingungen", "ueberblick", "grundlagen-binaerlogik-und-bedingungen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmablauf und Steuerung"]
 draft: false
 ---
-
 ![Schaubild: Binärlogik und Bedingungen](/schlaufuchs-platform/images/overviews/v185/binaerlogik-und-bedingungen.svg)
 
 ## Begriff

@@ -1,29 +1,17 @@
 ---
 title: "Verschlüsselung, Hashing und Signaturen – ruhig einordnen"
 description: "Übe, verschlüsselung, hashing und signaturen fachlich zu erklären und abzugrenzen."
-subject: informatik
+subject: "informatik"
 section: "Sicherheit und Berechtigungen"
-topicPath:
-  - "sicherheit-und-berechtigungen"
-  - "verschluesselung-hashing-und-signaturen"
-  - "uebung"
-taskId: INF-V185-022-1
-tags:
-  - "informatik"
-  - "sicherheit-und-berechtigungen"
-  - "verschluesselung-hashing-und-signaturen"
-hintPoints:
-  - "Beginne mit der Grundidee, nicht mit einem Spezialfall."
-  - "Trenne Begriff, Beispiel und Prüfung."
-selfCheckPoints:
-  - "Ich kann das Thema in eigenen Worten erklären."
-  - "Ich kann ein passendes Beispiel begründen."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel in einem anderen Fachbereich."
-level: einfach
+topicPath: ["sicherheit-und-berechtigungen", "verschluesselung-hashing-und-signaturen", "verschluesselung-hashing-und-signaturen-ruhig-einordnen-v185"]
+taskId: "INF-V185-022-1"
+tags: ["informatik", "Sicherheit und Berechtigungen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe prüft, ob du **Verschlüsselung, Hashing und Signaturen** zuerst als allgemeines Thema und nicht nur als Einzelfall lesen kannst.
 
 ## Lernziel

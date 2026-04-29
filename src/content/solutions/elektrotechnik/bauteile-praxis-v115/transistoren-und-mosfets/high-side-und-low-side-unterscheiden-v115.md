@@ -1,24 +1,14 @@
 ---
 title: "Lösung: High-Side und Low-Side unterscheiden"
 description: "Musterlösung zu High-Side und Low-Side unterscheiden mit Trennkante und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "bauteile-praxis-v115"
-  - "transistoren-und-mosfets"
-  - "high-side-und-low-side-unterscheiden-v115"
+topicPath: ["bauteile-praxis-v115", "transistoren-und-mosfets", "high-side-und-low-side-unterscheiden-v115"]
 taskId: "elektrotechnik-high-side-und-low-side-unterscheiden-v115"
 relatedExercise: "elektrotechnik/bauteile-praxis-v115/transistoren-und-mosfets/high-side-und-low-side-unterscheiden-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "bauteile in der praxis"
-  - "transistoren und mosfets"
-  - "lösung"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **High-Side und Low-Side unterscheiden**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

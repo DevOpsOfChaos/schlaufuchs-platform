@@ -3,39 +3,17 @@ title: "Web-Performance-Grundlagen"
 description: "Betrachte Performance als Zusammenspiel aus Dateigröße, Ladeweg und sichtbarer Nutzbarkeit."
 subject: "web-development"
 section: "qualitaet"
-topicPath: 
-  - "qualitaet-und-zugaenglichkeit"
-  - "performance"
-learningGoals: 
-  - "Schnell und stabil laden ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Erstelle eine Prioritätenliste für die Performance einer bildreichen Startseite."
-  - "Bewerte drei Optimierungsideen danach, ob sie Ladezeit, Stabilität oder Wartbarkeit verbessern."
-commonMistakes: 
-  - "Nur der finale Ladezeitwert wird betrachtet."
-  - "Bilder werden ohne Größenprüfung eingebunden."
-  - "Unbenutzte Dateien bleiben dauerhaft im Projekt."
-keyTakeaways: 
-  - "Performancearbeit beginnt mit der Frage, welche Ressource den Nutzer wirklich aufhält."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "Performancearbeit beginnt mit der Frage, welche Ressource den Nutzer wirklich aufhält."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "web-performance-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags: 
-  - "performance"
-  - "ladezeit"
-  - "bilder"
-  - "css"
-  - "web-development"
+tags: ["web-development", "qualitaet"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Web-Performance-Grundlagen](/schlaufuchs-platform/images/web-development/sanierung-v187/web-performance-grundlagen.svg)
 
     Web-Performance-Grundlagen ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

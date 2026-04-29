@@ -1,20 +1,19 @@
 ---
-title: Rechenweg planen
-description: Vor dem Rechnen Ziel, Größe und Werkzeug klären.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Rechenweg planen"
+description: "Vor dem Rechnen Ziel, Größe und Werkzeug klären."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "rechenstrategien-und-kontrolle", "rechenweg-planen"]
-learningGoals: ["Vor dem Rechnen Ziel, Größe und Werkzeug klären", "Zwischenschritte begründen", "Ergebnis im Kontext kontrollieren"]
-practiceIdeas: ["Formuliere ein eigenes Beispiel zu Rechenweg planen.", "Markiere Frage, Daten und Kontrolle getrennt.", "Vergleiche zwei mögliche Lösungswege."]
-commonMistakes: ["Zu früh rechnen", "Einheiten oder Bedingungen weglassen", "Das Ergebnis nicht rückprüfen"]
-keyTakeaways: ["Rechenweg planen beginnt mit einer klaren Frage und nicht sofort mit Rechnen.", "Der Themenblock rechenstrategien und kontrolle braucht sichtbare Zwischenschritte.", "Ein Ergebnis ist erst belastbar, wenn es im Kontext geprüft wurde."]
-recognizeSignals: ["Die Aufgabe enthält mehrere Angaben.", "Eine Darstellung muss gedeutet werden.", "Das Ergebnis braucht eine Plausibilitätsprüfung."]
-selfCheckPoints: ["Ist die Frage klar?", "Sind Einheiten und Bedingungen sichtbar?", "Passt das Ergebnis zur Situation?"]
-level: fortgeschritten
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
 tags: ["mathematik", "v196", "rechenstrategien-und-kontrolle", "rechenweg-planen"]
 draft: false
 ---
-
 ![Rechenweg planen](/schlaufuchs-platform/images/mathematik/sanierung-v196/rechenweg-planen.svg)
 
 ## Worum es geht

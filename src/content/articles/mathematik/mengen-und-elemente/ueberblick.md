@@ -1,36 +1,19 @@
 ---
 title: "Mengen und Elemente"
 description: "Überblick über Mengen als Sammlung unterscheidbarer Elemente."
-subject: mathematik
+subject: "mathematik"
 section: "Grundlagen"
-topicPath:
-  - "mengen-und-elemente"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Mengen und Elemente als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["mengen-und-elemente", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden geschweifte Klammern nur als Schreibweise betrachtet, ohne die Bedeutung der Zugehörigkeit zu klären."
-keyTakeaways:
-  - "Mengen beschreiben Zugehörigkeit von Elementen."
-  - "Reihenfolge und doppelte Nennung sind bei Mengen nicht zentral."
-  - "Lösungsmengen und Ereignisse sind typische Anwendungen."
-recognizeSignals:
-  - "Es geht um Mengen und Elemente als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Mengen und Elemente in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "mengen"
-  - "grundlagen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Grundlagen"]
 draft: false
 ---
-
 # Mengen und Elemente
 
 Eine Menge ist eine Zusammenfassung von Objekten, die als Elemente bezeichnet werden. Entscheidend ist, ob ein Objekt zur Menge gehört oder nicht. Reihenfolge und doppelte Nennung spielen bei Mengen im klassischen Sinn keine Rolle.

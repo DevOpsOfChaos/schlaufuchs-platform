@@ -3,22 +3,12 @@ title: "Lösung: Metadaten nutzen: Grundordnung"
 description: "Musterlösung zur Aufgabe dat-v189-043a."
 subject: "daten-und-signale"
 section: "datenpraxis"
-topicPath:
-  - "datenpraxis"
-  - "metadaten-nutzen"
-  - "loesung-a"
+topicPath: ["sanierung-v189", "metadaten-nutzen-aufgabe-a"]
 taskId: "dat-v189-043a"
 relatedExercise: "daten-und-signale/sanierung-v189/metadaten-nutzen-aufgabe-a"
-tags:
-  - "metadaten"
-  - "daten"
-  - "kontext"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-043a`
 
 Eine mögliche Lösung:

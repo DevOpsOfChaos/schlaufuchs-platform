@@ -1,46 +1,19 @@
 ---
-title: Statisches und dynamisches Binden unterscheiden
-description: Verstehe, wann die passende Methode schon beim Kompilieren feststeht und wann sie erst zur Laufzeit gewaehlt wird.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - statisches-und-dynamisches-binden-unterscheiden
-learningGoals:
-  - Du erklaerst statisches und dynamisches Binden in einfacher Fachsprache.
-  - Du verknuepfst dynamisches Binden mit virtuellen Methoden und Polymorphie.
-  - Du liest Referenzen auf Oberklassen ruhiger.
-practiceIdeas:
-  - Vergleiche einen direkten Objektaufruf mit einem Aufruf ueber eine Basisklassenreferenz.
-  - Markiere, welche Methode ohne virtual frueh feststeht und welche spaeter gewaehlt wird.
-  - Formuliere die Entscheidung einmal in Alltagssprache.
-commonMistakes:
-  - Zu glauben, dass Polymorphie automatisch immer dynamisch ist.
-  - Direkten Objektaufruf und Basisklassenreferenz gleich zu lesen.
-  - virtual nur als Zusatzwort statt als Bindehinweis zu sehen.
-keyTakeaways:
-  - Statisches Binden entscheidet frueh und meist beim Kompilieren.
-  - Dynamisches Binden entscheidet spaeter und zur Laufzeit.
-  - Virtual macht polymorphes Verhalten ueber Oberklassenreferenzen moeglich.
-recognizeSignals:
-  - Es geht um virtual, Referenzen oder Laufzeitwahl.
-  - Eine Basisklassenreferenz zeigt auf ein Objekt der Unterklasse.
-  - Die Aufgabe fragt, welche Methode wirklich ausgefuehrt wird.
-selfCheckPoints:
-  - Kann ich statisches und dynamisches Binden in einem Satz unterscheiden?
-  - Kann ich sagen, warum virtual wichtig ist?
-  - Kann ich Referenztyp und Objekttyp getrennt denken?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - polymorphie
-  - virtual
+title: "Statisches und dynamisches Binden unterscheiden"
+description: "Verstehe, wann die passende Methode schon beim Kompilieren feststeht und wann sie erst zur Laufzeit gewaehlt wird."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "statisches-und-dynamisches-binden-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Nicht immer ist sofort klar, welche konkrete Methode am Ende ausgefuehrt wird. Manchmal steht das schon frueh fest, manchmal erst spaeter.

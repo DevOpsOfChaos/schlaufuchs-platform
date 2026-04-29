@@ -1,23 +1,14 @@
 ---
-title: Lösung – Restart-Policy begründen
-description: Musterlösung zur Aufgabe über Restart-Policy begründen.
-subject: linux
-section: Feinstruktur Linux
-topicPath:
-- systembetrieb
-- systemd-und-dienste
-- restart-policy-begruenden-v114
-taskId: v114-linux-restart-policy-begruenden-v114
-relatedExercise: linux/systembetrieb/systemd-und-dienste/restart-policy-begruenden-v114
-tags:
-- linux
-- v114
-- loesung
-- systembetrieb
-- systemd-und-dienste
+title: "Lösung – Restart-Policy begründen"
+description: "Musterlösung zur Aufgabe über Restart-Policy begründen."
+subject: "linux"
+section: "Feinstruktur Linux"
+topicPath: ["systembetrieb", "systemd-und-dienste", "restart-policy-begruenden-v114"]
+taskId: "v114-linux-restart-policy-begruenden-v114"
+relatedExercise: "linux/systembetrieb/systemd-und-dienste/restart-policy-begruenden-v114"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

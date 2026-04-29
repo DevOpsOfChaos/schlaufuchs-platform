@@ -3,22 +3,12 @@ title: "Lösung: Trefferliste vor Aktion prüfen"
 description: "Musterlösung zur Aufgabe „Trefferliste vor Aktion prüfen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "shell-arbeitsfluss"
-  - "dateien-finden-und-pruefen"
-  - "trefferliste-vor-aktion-pruefen-v116"
+topicPath: ["shell-arbeitsfluss", "dateien-finden-und-pruefen", "trefferliste-vor-aktion-pruefen-v116"]
 taskId: "trefferliste-vor-aktion-pruefen-v116"
 relatedExercise: "linux/shell-arbeitsfluss/dateien-finden-und-pruefen/trefferliste-vor-aktion-pruefen-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "dateien finden und pruefen"
-  - "trefferliste vor aktion pruefen"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

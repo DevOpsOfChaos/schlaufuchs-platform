@@ -1,33 +1,19 @@
 ---
 title: "CSP Reporting"
 description: "CSP Reporting meldet Verstöße gegen Content-Security-Policy-Regeln. Es hilft, Richtlinien schrittweise einzuführen und Angriffs- oder Fehlkonfigurationen zu erkennen."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "csp-reporting"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von CSP Reporting."
-  - "Du kannst CSP Reporting in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["csp-reporting", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Berichte zu sammeln, aber nie auszuwerten."
-keyTakeaways:
-  - "CSP Reporting meldet Verstöße gegen Content-Security-Policy-Regeln."
-  - "Wichtig sind vor allem report-only modus, verstoßberichte und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um CSP Reporting, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu CSP Reporting dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "web development"
-  - "grundlagen"
-  - "csp reporting"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # CSP Reporting
 
 CSP Reporting meldet Verstöße gegen Content-Security-Policy-Regeln. Es hilft, Richtlinien schrittweise einzuführen und Angriffs- oder Fehlkonfigurationen zu erkennen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

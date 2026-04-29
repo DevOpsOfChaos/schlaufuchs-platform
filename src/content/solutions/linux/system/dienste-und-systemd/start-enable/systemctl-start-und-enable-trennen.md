@@ -3,23 +3,12 @@ title: "Lösung – systemctl start und enable trennen"
 description: "Musterlösung zu systemctl start und enable mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "System"
-topicPath:
-  - "system"
-  - "dienste-und-systemd"
-  - "start-enable"
-  - "systemctl-start-und-enable-trennen"
+topicPath: ["system", "dienste-und-systemd", "start-enable", "systemctl-start-und-enable-trennen"]
 taskId: "v109-linux-systemctl-start-und-enable-trennen"
 relatedExercise: "linux/system/dienste-und-systemd/start-enable/systemctl-start-und-enable-trennen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "system"
-  - "dienste-und-systemd"
-  - "systemctl start und enable"
+tags: ["linux", "System", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **systemctl start und enable**.

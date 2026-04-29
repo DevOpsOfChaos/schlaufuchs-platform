@@ -3,20 +3,12 @@ title: "Lösung – Orthogonalität mit Skalarprodukt prüfen"
 description: "Musterlösung zu Orthogonalität mit Skalarprodukt prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "vektoren"
-  - "skalarprodukt"
-  - "orthogonalitaet-mit-skalarprodukt-pruefen-v113"
+topicPath: ["vektoren", "skalarprodukt", "orthogonalitaet-mit-skalarprodukt-pruefen-v113"]
 taskId: "v113-mathematik-orthogonalitaet-mit-skalarprodukt-pruefen-v113"
 relatedExercise: "mathematik/vektoren/skalarprodukt/orthogonalitaet-mit-skalarprodukt-pruefen-v113"
-tags:
-  - "mathematik"
-  - "strukturcheck"
-  - "unterthema"
-  - "orthogonalitaet-mit-skalarprodukt-pruefen-v113"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Orthogonalität mit Skalarprodukt prüfen**.

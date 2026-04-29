@@ -3,21 +3,12 @@ title: "Lösung – cut und awk nach Struktur wählen"
 description: "Musterlösung zu cut und awk nach struktur wählen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "text-und-auswertung"
-  - "cut-und-awk-nach-struktur-waehlen"
+topicPath: ["shell", "text-und-auswertung", "cut-und-awk-nach-struktur-waehlen"]
 taskId: "v112-linux-cut-und-awk-nach-struktur-waehlen"
 relatedExercise: "linux/shell/text-und-auswertung/cut-und-awk-nach-struktur-waehlen"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "cut-und-awk-nach-struktur-waehlen"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Text und Auswertung**.

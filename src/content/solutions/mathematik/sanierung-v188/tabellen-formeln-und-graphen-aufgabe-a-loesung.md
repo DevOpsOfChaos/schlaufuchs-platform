@@ -3,22 +3,12 @@ title: "Lösung: Tabellen, Formeln und Graphen: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-013a."
 subject: "mathematik"
 section: "modellieren-und-validieren"
-topicPath:
-  - "modellieren-und-validieren"
-  - "tabellen-formeln-und-graphen"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "tabellen-formeln-und-graphen-aufgabe-a"]
 taskId: "mat-v188-013a"
 relatedExercise: "mathematik/sanierung-v188/tabellen-formeln-und-graphen-aufgabe-a"
-tags:
-  - "tabellen"
-  - "formeln"
-  - "graphen"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "modellieren-und-validieren", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-013a`
 
 Eine mögliche Lösung:

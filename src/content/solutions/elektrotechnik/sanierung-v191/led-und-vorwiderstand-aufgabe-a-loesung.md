@@ -3,24 +3,12 @@ title: "Lösung: LED und Vorwiderstand: Aufgabe A"
 description: "Musterlösung zur Aufgabe etech-v191-014a im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "halbleiter"
-  - "led-und-vorwiderstand"
-  - "loesung-a"
+topicPath: ["sanierung-v191", "led-und-vorwiderstand-aufgabe-a"]
 taskId: "etech-v191-014a"
 relatedExercise: "elektrotechnik/sanierung-v191/led-und-vorwiderstand-aufgabe-a"
-tags:
-  - "halbleiter"
-  - "led"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-014a`
 
 Ausgangsauftrag: Berechne einen Vorwiderstand für eine LED bei gegebener Versorgung.

@@ -3,23 +3,12 @@ title: "Lösung – Exception und Rückgabewert bewusst wählen"
 description: "Musterlösung zu Exception und Rückgabewert bewusst wählen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Programmierung"
-topicPath:
-  - "programmierpraxis"
-  - "funktionen-tests-und-fehler"
-  - "v110-teil-3"
-  - "exception-und-rueckgabewert-bewusst-waehlen"
+topicPath: ["programmierpraxis", "funktionen-tests-und-fehler", "v110-teil-3", "exception-und-rueckgabewert-bewusst-waehlen"]
 taskId: "v110-informatik-exception-und-rueckgabewert-bewusst-waehlen"
 relatedExercise: "informatik/programmierpraxis/funktionen-tests-und-fehler/v110-teil-3/exception-und-rueckgabewert-bewusst-waehlen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "praxis"
-  - "programmierpraxis"
-  - "funktionen-tests-und-fehler"
-  - "exception-und-rueckgabewert-bewusst-waehlen"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Exception und Rückgabewert bewusst wählen**.

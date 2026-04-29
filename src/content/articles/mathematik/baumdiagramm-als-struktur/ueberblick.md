@@ -1,30 +1,17 @@
 ---
 title: "Baumdiagramm als Struktur"
 description: "Allgemeiner Überblick: Baumdiagramme ordnen mehrstufige Zufallsvorgänge in Pfade und Wahrscheinlichkeiten."
-subject: mathematik
+subject: "mathematik"
 section: "Wahrscheinlichkeit"
-topicPath:
-  - "baumdiagramm-als-struktur"
-learningGoals:
-  - "Du kannst baumdiagramm als struktur als Grundidee einordnen."
-  - "Du erkennst wichtige Bestandteile und typische Grenzen."
-  - "Du kannst das Thema in einfachen Worten erklären."
+topicPath: ["baumdiagramm-als-struktur", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur ein Detail zu betrachten und den Zusammenhang zu übersehen."
-  - "Das Schaubild als exakte technische Darstellung statt als Orientierung zu lesen."
-keyTakeaways:
-  - "Baumdiagramme ordnen mehrstufige Zufallsvorgänge in Pfade und Wahrscheinlichkeiten."
-  - "Ein Überblicksbild hilft, Begriffe und Beziehungen ruhig zu ordnen."
-recognizeSignals:
-  - "Es geht um baumdiagramm als struktur, Grundbegriffe, Zusammenhänge oder typische Fehlerquellen."
-selfCheckPoints:
-  - "Kann ich erklären, welche Rolle baumdiagramm als struktur im größeren Zusammenhang spielt?"
-level: einfach
-tags:
-  - "mathematik"
-  - "baumdiagramm als struktur"
-  - "überblick"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Wahrscheinlichkeit"]
 draft: false
 ---
 # Baumdiagramm als Struktur

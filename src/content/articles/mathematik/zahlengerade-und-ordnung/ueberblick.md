@@ -1,36 +1,19 @@
 ---
 title: "Zahlengerade und Ordnung"
 description: "Allgemeiner Überblick über Zahlengerade, Reihenfolge, Abstand und Vergleich von Zahlen."
-subject: mathematik
+subject: "mathematik"
 section: "Grundlagen"
-topicPath:
-  - "zahlengerade-und-ordnung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Zahlengerade und Ordnung als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["zahlengerade-und-ordnung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Negative Zahlen werden häufig nach Betrag sortiert und dadurch falsch verglichen."
-keyTakeaways:
-  - "Die Zahlengerade zeigt Ordnung und Abstand."
-  - "Negative Zahlen liegen links der Null."
-  - "Skalierung beeinflusst Darstellungen."
-recognizeSignals:
-  - "Zahlen sollen verglichen oder als Intervall dargestellt werden."
-  - "Vorzeichen und Abstand werden verwechselt."
-selfCheckPoints:
-  - "Kann ich Zahlengerade und Ordnung in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "zahlengerade"
-  - "ordnung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Grundlagen"]
 draft: false
 ---
-
 # Zahlengerade und Ordnung
 
 Die Zahlengerade stellt Zahlen als Punkte auf einer Linie dar. Je weiter rechts ein Punkt liegt, desto größer ist die Zahl.

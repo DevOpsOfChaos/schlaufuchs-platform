@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Zahlensysteme und Darstellung"
 description: "Allgemeiner Überblick über zahlensysteme und darstellung in der Informatik."
-subject: informatik
+subject: "informatik"
 section: "Daten und Information"
-topicPath:
-  - "daten-und-information"
-  - "zahlensysteme-und-darstellung"
-  - "ueberblick"
-learningGoals:
-  - "Du erklärst, wie Zahlen in unterschiedlichen Systemen dargestellt und gedeutet werden."
-  - "Du ordnest typische Beispiele und Grenzen des Themas ein."
-  - "Du unterscheidest Grundidee, Anwendung und häufige Fehler."
-practiceIdeas:
-  - "Formuliere die Grundidee in drei Sätzen ohne Spezialfall."
-  - "Ordne ein eigenes Beispiel dem passenden Teilaspekt zu."
-commonMistakes:
-  - "Dualzahl direkt wie eine Dezimalzahl lesen"
-  - "Darstellung und Wert verwechseln"
-  - "führende Nullen falsch deuten"
-keyTakeaways:
-  - "Zahlensysteme und Darstellung braucht zuerst eine klare begriffliche Einordnung."
-  - "Beispiele helfen nur, wenn ihr Kontext bekannt ist."
-  - "Gute Informatikarbeit trennt Modell, Umsetzung und Prüfung."
-recognizeSignals:
-  - "Ein Thema wirkt wie ein Einzelfall, braucht aber zuerst einen allgemeinen Rahmen."
-  - "Mehrere Beispiele zeigen dieselbe Grundidee aus verschiedenen Blickwinkeln."
-selfCheckPoints:
-  - "Kann ich Grundidee und Beispiel unterscheiden?"
-  - "Kann ich typische Fehler nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "daten-und-information"
-  - "zahlensysteme-und-darstellung"
+topicPath: ["daten-und-information", "zahlensysteme-und-darstellung", "ueberblick", "grundlagen-zahlensysteme-und-darstellung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Daten und Information"]
 draft: false
 ---
-
 ![Schaubild: Zahlensysteme und Darstellung](/schlaufuchs-platform/images/overviews/v185/zahlensysteme-und-darstellung.svg)
 
 ## Begriff

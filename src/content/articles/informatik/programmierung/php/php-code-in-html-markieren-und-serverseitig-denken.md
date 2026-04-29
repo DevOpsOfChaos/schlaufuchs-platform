@@ -1,47 +1,19 @@
 ---
-title: PHP-Code in HTML markieren und serverseitig denken
-description: Verstehe, wie PHP in eine Seite eingebettet wird und warum der Browser am Ende nur das Ergebnis sieht.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - php-code-in-html-markieren-und-serverseitig-denken
-learningGoals:
-  - Du erklärst, warum PHP serverseitig verarbeitet wird.
-  - Du unterscheidest PHP-Quelltext von der HTML-Antwort an den Browser.
-  - Du erkennst, warum Dateiendung, Serveraufruf und Ausgabeposition zusammengehören.
-practiceIdeas:
-  - Beschreibe, welche Teile auf dem Server passieren und welche erst im Browser sichtbar werden.
-  - Vergleiche eine reine HTML-Datei mit einer PHP-Datei, die HTML erzeugt.
-  - Prüfe bei einem Beispiel, ob eine Ausgabe im Body oder außerhalb davon sinnvoll liegt.
-commonMistakes:
-  - Zu denken, der Browser sehe den PHP-Code direkt.
-  - Eine Datei lokal zu öffnen und denselben Ablauf wie über den Webserver zu erwarten.
-  - Zu glauben, PHP sei nur eine andere Schreibweise für HTML.
-keyTakeaways:
-  - PHP wird auf dem Server verarbeitet.
-  - Der Browser erhält typischerweise nur die erzeugte HTML-Antwort.
-  - PHP braucht die richtige Einbettung und einen Aufruf über den Webserver.
-recognizeSignals:
-  - Es geht um <?php ... ?>, echo, Webserver oder Document Root.
-  - Ein Beispiel zeigt einen Request und eine Antwort.
-  - Du sollst erklären, warum PHP-Code unsichtbar bleibt.
-selfCheckPoints:
-  - Kann ich Serververarbeitung und Browseransicht trennen?
-  - Kann ich sagen, warum eine .php-Datei nicht einfach lokal wie HTML funktioniert?
-  - Kann ich erklären, was echo am Ende für den Browser erzeugt?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - server
-  - html
-  - request-response
+title: "PHP-Code in HTML markieren und serverseitig denken"
+description: "Verstehe, wie PHP in eine Seite eingebettet wird und warum der Browser am Ende nur das Ergebnis sieht."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "php-code-in-html-markieren-und-serverseitig-denken"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 PHP ist eine **serverseitige** Sprache. Das bedeutet: Der Quelltext wird zuerst auf dem Server verarbeitet. Erst das Ergebnis dieser Verarbeitung wird an den Browser geschickt.

@@ -1,36 +1,19 @@
 ---
 title: "Bildoptimierung"
 description: "Bildoptimierung bezeichnet ein Grundthema im Bereich Webseiten, Browser, Schnittstellen und Bedienoberflächen. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-subject: web-development
+subject: "web-development"
 section: "Web-Performance"
-topicPath:
-  - "bildoptimierung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Bildoptimierung als allgemeinen Grundbegriff einordnen."
-  - "Du kennst Zweck, Zusammenhang, typische Teilaspekte und Grenzen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle behandelt werden."
+topicPath: ["bildoptimierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Bildoptimierung nur als einzelner Arbeitsschritt verstanden, obwohl der Begriff einen größeren Zusammenhang beschreibt."
-keyTakeaways:
-  - "Bildoptimierung bezeichnet ein Grundthema im Bereich Webseiten, Browser, Schnittstellen und Bedienoberflächen. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-  - "Ein Überblick trennt Begriff, Zweck, Beispiel und Grenze."
-  - "Spezialseiten werden verständlicher, wenn die allgemeine Einordnung vorher klar ist."
-recognizeSignals:
-  - "Es geht um Bildoptimierung, wenn mehrere Einzelbeobachtungen ohne Grundbegriff schwer einzuordnen sind."
-  - "Der Begriff hilft, Werkzeuge, Werte, Regeln oder Darstellungen fachlich zu sortieren."
-selfCheckPoints:
-  - "Kann ich Bildoptimierung in zwei bis drei Sätzen erklären?"
-  - "Kann ich ein Beispiel und eine typische Grenze nennen?"
-level: einfach
-tags:
-  - "web"
-  - "bilder"
-  - "performance"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web-Performance"]
 draft: false
 ---
-
 # Bildoptimierung
 
 ![Schaubild zur Bildoptimierung im Web.](/schlaufuchs-platform/images/overviews/v149/bildoptimierung.svg)

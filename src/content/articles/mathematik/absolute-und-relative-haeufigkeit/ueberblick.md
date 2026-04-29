@@ -1,36 +1,19 @@
 ---
 title: "Absolute und relative Häufigkeit"
 description: "Absolute Häufigkeit zählt, wie oft ein Ereignis auftritt. Relative Häufigkeit setzt diese Anzahl ins Verhältnis zur Gesamtzahl der Beobachtungen."
-subject: mathematik
+subject: "mathematik"
 section: "Stochastik"
-topicPath:
-  - "absolute-und-relative-haeufigkeit"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Absolute und relative Häufigkeit als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["absolute-und-relative-haeufigkeit", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Gruppen unterschiedlicher Größe nur über absolute Zahlen verglichen."
-keyTakeaways:
-  - "Absolute Häufigkeit zählt, wie oft ein Ereignis auftritt."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Absolute und relative Häufigkeit, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Absolute und relative Häufigkeit in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "wahrscheinlichkeit"
-  - "daten"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Stochastik"]
 draft: false
 ---
-
 # Absolute und relative Häufigkeit
 
 ![Schaubild zu absoluter und relativer Häufigkeit.](/schlaufuchs-platform/images/overviews/v149/absolute-und-relative-haeufigkeit.svg)

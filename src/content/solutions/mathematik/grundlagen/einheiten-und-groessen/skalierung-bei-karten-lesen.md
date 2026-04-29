@@ -3,21 +3,12 @@ title: "Lösung – Skalierung bei Karten lesen"
 description: "Musterlösung zu skalierung bei karten lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "grundlagen"
-  - "einheiten-und-groessen"
-  - "skalierung-bei-karten-lesen"
+topicPath: ["grundlagen", "einheiten-und-groessen", "skalierung-bei-karten-lesen"]
 taskId: "v112-mathematik-skalierung-bei-karten-lesen"
 relatedExercise: "mathematik/grundlagen/einheiten-und-groessen/skalierung-bei-karten-lesen"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "grundlagen"
-  - "skalierung-bei-karten-lesen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Einheiten und Größen**.

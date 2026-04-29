@@ -3,32 +3,17 @@ title: "ACID-Eigenschaften"
 description: "Allgemeiner Überblick über acid-eigenschaften und die wichtigsten Zusammenhänge."
 subject: "informatik"
 section: "Datenbanken"
-topicPath:
-  - "acid-eigenschaften"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["acid-eigenschaften", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird „Transaktion“ gesagt, ohne die tatsächliche Isolation zu prüfen."
-keyTakeaways:
-  - "ACID macht Verlässlichkeit von Datenänderungen präziser beschreibbar."
-  - "ACID ist kein einzelner Schalter für perfekte Sicherheit; Isolationsstufen unterscheiden sich."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "informatik"
-  - "datenbanken"
-  - "acid"
-  - "transaktionen"
+tags: ["informatik", "Datenbanken"]
 draft: false
 ---
-
 # ACID-Eigenschaften
 
 ![Schaubild zu ACID-Eigenschaften.](/schlaufuchs-platform/images/overviews/v150/acid-eigenschaften.svg)

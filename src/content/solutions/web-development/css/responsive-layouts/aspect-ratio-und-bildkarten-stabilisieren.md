@@ -3,21 +3,12 @@ title: "Lösung – aspect-ratio und Bildkarten stabilisieren"
 description: "Musterlösung zu: Plane eine Lernkartenübersicht mit Bildern im Verhältnis 16:9. Beschreibe, welche CSS-Eigenschaften Bildfläche und Zuschnitt steuern."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "responsive-layouts"
-  - "aspect-ratio-und-bildkarten-stabilisieren"
+topicPath: ["css", "responsive-layouts", "aspect-ratio-und-bildkarten-stabilisieren"]
 taskId: "wd-v97-aspect-ratio-und-bildkarten-stabilisieren"
 relatedExercise: "web-development/css/responsive-layouts/aspect-ratio-und-bildkarten-stabilisieren"
-tags:
-  - "web development"
-  - "css"
-  - "aspect-ratio"
-  - "layout"
-  - "bilder"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Das Problem entsteht nicht nur im Code, sondern in der Nutzung: Wenn Bedeutung, Struktur oder Rückmeldung unklar bleiben, müssen Nutzerinnen und Nutzer raten. Besonders kritisch wird das bei Tastaturbedienung, kleinen Bildschirmen, langen Inhalten oder assistiven Technologien.

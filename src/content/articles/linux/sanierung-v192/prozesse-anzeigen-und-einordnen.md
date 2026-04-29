@@ -3,42 +3,17 @@ title: "Prozesse anzeigen und einordnen"
 description: "Verstehe laufende programme nach zustand und besitzer bewerten als ruhigen Linux-Baustein für Betrieb, Diagnose und sichere Änderungen."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "prozesse-und-dienste"
-  - "prozesse-anzeigen-und-einordnen"
-learningGoals:
-  - "Laufende Programme nach Zustand und Besitzer bewerten"
-  - "Beobachtung, Änderung und Kontrolle trennen"
-  - "einen einfachen Rückweg oder Prüfpunkt benennen"
-practiceIdeas:
-  - "Analysiere eine kleine Prozessliste nach auffälligen Einträgen."
-  - "Formuliere eine zweite Kontrolle, die ohne gefährliche Änderung auskommt."
-commonMistakes:
-  - "Befehle werden ausgeführt, bevor Ziel und aktueller Zustand klar sind."
-  - "Logs, Rechte oder Dienststatus werden isoliert statt gemeinsam gelesen."
-  - "Eine Änderung wird nicht mit Rückweg und Kontrolle dokumentiert."
-keyTakeaways:
-  - "Prozesse haben PID, Besitzer und Zustand."
-  - "Sichere Linux-Adminpraxis arbeitet beobachtbar, schrittweise und reversibel."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn ein Linux-System betrieben, geprüft oder vorsichtig geändert werden muss."
-selfCheckPoints:
-  - "Kann ich Ist-Zustand, geplante Änderung und Kontrollschritt trennen?"
-  - "Ist klar, welcher Benutzer, Dienst, Pfad oder Port betroffen ist?"
-  - "Gibt es einen plausiblen Rückweg, falls die Änderung nicht wirkt?"
+topicPath: ["sanierung-v192", "prozesse-anzeigen-und-einordnen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "prozesse-und-dienste"
-  - "prozesse"
-  - "anzeigen"
-  - "einordnen"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
+tags: ["linux", "adminpraxis-und-betrieb"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Prozesse anzeigen und einordnen](/schlaufuchs-platform/images/linux/sanierung-v192/prozesse-anzeigen-und-einordnen.svg)
 
 Prozesse anzeigen und einordnen gehört zur Linux-Sanierung v192. Die Seite behandelt das Thema nicht als Befehlsliste, sondern als Betriebsentscheidung: Was ist der aktuelle Zustand, welche Änderung ist wirklich nötig und wie wird danach geprüft, ob das System stabil bleibt?

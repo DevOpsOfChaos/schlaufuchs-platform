@@ -1,47 +1,19 @@
 ---
-title: Dateizugriff mit fopen, fgets und fclose verstehen
-description: Verstehe den typischen Grundablauf beim serverseitigen Lesen und Schreiben von Dateien in PHP.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - dateizugriff-mit-fopen-fgets-und-fclose-verstehen
-learningGoals:
-  - Du beschreibst den Grundablauf Öffnen, Bearbeiten und Schließen beim PHP-Dateizugriff.
-  - Du ordnest fopen, fgets, fputs, feof und fclose ihrer fachlichen Rolle zu.
-  - Du liest kleine Dateizugriffe ruhiger als Zustandsablauf statt als lose Funktionsnamen.
-practiceIdeas:
-  - Markiere in einem kleinen Beispiel, wo die Datei geöffnet, gelesen und wieder geschlossen wird.
-  - Vergleiche einen Lesedurchlauf mit einer Schreibaktion.
-  - Erkläre, warum der Dateizeiger und das Schließen der Datei fachlich wichtig sind.
-commonMistakes:
-  - Dateizugriff nur als einzelne Funktion statt als Ablauf zu sehen.
-  - Zu denken, dass eine geöffnete Datei sich ohne Schließen "von selbst" sauber erledigt.
-  - feof als Leseaktion statt als Prüfpunkt zu lesen.
-keyTakeaways:
-  - Beim Dateizugriff geht es meist um Öffnen, Bearbeiten und Schließen.
-  - fopen erzeugt den Zugriff, fgets oder fputs bearbeiten den Inhalt, fclose beendet den Zugriff.
-  - In Mehrbenutzerumgebungen ist sauberes Arbeiten mit Dateien besonders wichtig.
-recognizeSignals:
-  - Im Code tauchen fopen, fgets, fputs, feof oder fclose auf.
-  - Es geht um Serverdateien, Logdateien oder einfache Textspeicherung.
-  - Du sollst erklären, was beim Dateizugriff in welcher Reihenfolge geschieht.
-selfCheckPoints:
-  - Kann ich Öffnen, Bearbeiten und Schließen sauber unterscheiden?
-  - Kann ich erklären, wofür feof in einer Leseschleife steht?
-  - Kann ich sagen, warum Dateizugriff auf dem Server sorgfältig behandelt werden muss?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - datei
-  - fopen
-  - fclose
+title: "Dateizugriff mit fopen, fgets und fclose verstehen"
+description: "Verstehe den typischen Grundablauf beim serverseitigen Lesen und Schreiben von Dateien in PHP."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "dateizugriff-mit-fopen-fgets-und-fclose-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Wenn ein PHP-Skript auf eine Datei auf dem Server zugreift, passiert das nicht in einem einzigen magischen Schritt. Meist gibt es einen klaren Ablauf: Datei öffnen, Inhalt lesen oder schreiben, Datei wieder schließen.

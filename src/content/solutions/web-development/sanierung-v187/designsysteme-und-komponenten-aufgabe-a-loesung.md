@@ -3,23 +3,12 @@ title: "Lösung: Designsysteme und Komponenten: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-031a im Web-Development-Block v187."
 subject: "web-development"
 section: "architektur"
-topicPath: 
-  - "werkzeuge-und-projektarbeit"
-  - "komponenten"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "designsysteme-und-komponenten-aufgabe-a"]
 taskId: "web-v187-031a"
 relatedExercise: "web-development/sanierung-v187/designsysteme-und-komponenten-aufgabe-a"
-tags: 
-  - "komponenten"
-  - "designsystem"
-  - "css"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "architektur", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-031a`
 
     Ausgangsauftrag: Identifiziere auf einer Lernplattform drei Bausteine, die als Komponenten geeignet sind.

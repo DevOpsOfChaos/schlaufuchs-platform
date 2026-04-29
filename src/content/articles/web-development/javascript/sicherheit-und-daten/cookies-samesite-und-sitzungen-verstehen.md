@@ -3,44 +3,17 @@ title: "JavaScript – Cookies, SameSite und Sitzungen verstehen"
 description: "Ordne Cookies als Sitzungswerkzeug ein und verstehe, warum SameSite, Secure und HttpOnly wichtige Schutzentscheidungen sind."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "sicherheit-und-daten"
-  - "cookies-samesite-und-sitzungen-verstehen"
-learningGoals:
-  - "Du erklärst die Grundidee von Cookies, SameSite und Sitzungen verstehen."
-  - "Du trennst sichtbares Nutzerverhalten, technische Ursache und passende Entscheidung."
-  - "Du begründest eine robuste Lösung statt nur einen einzelnen Trick zu merken."
-practiceIdeas:
-  - "Beschreibe zuerst die sichtbare Situation auf der Seite."
-  - "Markiere danach die technische Stelle, an der die Entscheidung getroffen wird."
-  - "Formuliere am Ende eine Prüffrage, mit der du die Lösung kontrollierst."
-commonMistakes:
-  - "Nur den Erfolgsfall oder Schönfall zu betrachten."
-  - "Performance, Sicherheit oder Wartbarkeit erst nachträglich zu prüfen."
-  - "Werkzeuge zu benutzen, ohne die eigentliche Browserentscheidung zu benennen."
-keyTakeaways:
-  - "Robuste Webentwicklung verbindet Inhalt, Gestaltung, Verhalten und Prüfung."
-  - "Gute Entscheidungen sind sichtbar begründet und nicht nur technisch möglich."
-  - "Cookies sind bei Sitzungen Teil der Sicherheitsarchitektur. Ihre Attribute beschreiben, wann und wie der Browser sie mitsenden darf."
-recognizeSignals:
-  - "Es geht um Ladeverhalten, Diagnose, Sicherheit oder Projektqualität."
-  - "Eine Seite funktioniert grundsätzlich, soll aber stabiler, schneller oder verständlicher werden."
-  - "Du sollst nicht nur Code schreiben, sondern eine Entscheidung begründen."
-selfCheckPoints:
-  - "Kann ich die sichtbare Auswirkung für Nutzerinnen und Nutzer benennen?"
-  - "Kann ich die technische Ursache von der Lösung trennen?"
-  - "Habe ich einen Fehler-, Lade- oder Sicherheitsfall mitgedacht?"
+topicPath: ["javascript", "sicherheit-und-daten", "cookies-samesite-und-sitzungen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "web development"
-  - "javascript"
-  - "cookies"
-  - "sicherheit"
-  - "sessions"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Cookies sind nicht nur kleine Speicherwerte. Bei Logins entscheiden sie oft darüber, ob eine Anfrage als angemeldete Person gilt. Deshalb sind Cookie-Attribute ein Sicherheitsthema und nicht nur Browserkomfort.

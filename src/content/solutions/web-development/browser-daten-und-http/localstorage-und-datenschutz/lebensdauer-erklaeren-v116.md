@@ -3,22 +3,12 @@ title: "Lösung: Lebensdauer erklären"
 description: "Musterlösung zur Aufgabe „Lebensdauer erklären“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "browser-daten-und-http"
-  - "localstorage-und-datenschutz"
-  - "lebensdauer-erklaeren-v116"
+topicPath: ["browser-daten-und-http", "localstorage-und-datenschutz", "lebensdauer-erklaeren-v116"]
 taskId: "lebensdauer-erklaeren-v116"
 relatedExercise: "web-development/browser-daten-und-http/localstorage-und-datenschutz/lebensdauer-erklaeren-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "localstorage und datenschutz"
-  - "lebensdauer erklaeren"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

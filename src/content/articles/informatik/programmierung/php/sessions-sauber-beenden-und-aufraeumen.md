@@ -1,46 +1,19 @@
 ---
-title: Sessions sauber beenden und aufraeumen
-description: Verstehe, warum Session Ende mehr ist als nur ein einzelner Befehl und wie Variablen, Session Daten und Session Cookie zusammenhaengen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - sessions-sauber-beenden-und-aufraeumen
-learningGoals:
-  - Du erklaerst, was beim Beenden einer Session aufgeraeumt werden sollte.
-  - Du unterscheidest Session Daten, Session ID und Session Cookie.
-  - Du erkennst, warum ein Session Ende aus mehreren Schritten besteht.
-practiceIdeas:
-  - Ordne die Schritte zum Session Ende in sinnvolle Reihenfolge.
-  - Erklaere, warum nur session_destroy() oft nicht als ganze Geschichte reicht.
-  - Beschreibe, welche Rolle das Session Cookie beim Fortsetzen einer Sitzung spielt.
-commonMistakes:
-  - Zu denken, das Loeschen einer Variablen beende automatisch die gesamte Session.
-  - Session Daten und Session ID gleichzusetzen.
-  - Zu uebersehen, dass die Identifikation oft ueber ein Cookie weiterlaeuft.
-keyTakeaways:
-  - Eine Session besteht aus Daten auf dem Server und einer Identifikation durch die Session ID.
-  - Sauberes Beenden betrifft Daten, Sitzungsmechanismus und meist auch das Cookie.
-  - Session Ende ist ein Ablauf, kein einzelner Knopf.
-recognizeSignals:
-  - Es geht um session_start, session_destroy oder PHPSESSID.
-  - Ein Beispiel zeigt mehrere Seitenaufrufe mit Zustand.
-  - Du sollst erklaeren, warum eine Sitzung unerwartet weiterlebt oder endet.
-selfCheckPoints:
-  - Kann ich Session Daten und Session ID trennen?
-  - Kann ich die Aufraeumschritte in sinnvoller Reihenfolge nennen?
-  - Kann ich erklaeren, warum das Cookie eine Rolle spielt?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - sessions
-  - sauber
+title: "Sessions sauber beenden und aufraeumen"
+description: "Verstehe, warum Session Ende mehr ist als nur ein einzelner Befehl und wie Variablen, Session Daten und Session Cookie zusammenhaengen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "sessions-sauber-beenden-und-aufraeumen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Eine Session speichert Zustand serverseitig. Damit derselbe Benutzer spaeter wieder zu dieser Sitzung findet, wird eine Session ID verwendet. Oft steckt diese ID in einem Cookie. Darum ist ein sauberes Session Ende mehr als nur ein einzelner Funktionsaufruf.

@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Seiteneffekt sichtbar machen"
 description: "Musterlösung zu Seiteneffekt sichtbar machen mit Trennkante und Gegenprobe."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "softwarequalitaet-v115"
-  - "code-lesbarkeit"
-  - "seiteneffekt-sichtbar-machen-v115"
+topicPath: ["softwarequalitaet-v115", "code-lesbarkeit", "seiteneffekt-sichtbar-machen-v115"]
 taskId: "informatik-seiteneffekt-sichtbar-machen-v115"
 relatedExercise: "informatik/softwarequalitaet-v115/code-lesbarkeit/seiteneffekt-sichtbar-machen-v115"
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "softwarequalität"
-  - "code-lesbarkeit"
-  - "lösung"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Seiteneffekt sichtbar machen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

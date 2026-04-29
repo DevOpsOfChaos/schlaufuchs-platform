@@ -1,21 +1,14 @@
 ---
-title: Lösung – Strukturbereiche nach Dokumentrolle begründen
-description: Musterlösung zur Aufgabe über article, section und aside.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - navigation-und-menues
-  - article-section-und-aside-unterscheiden
-taskId: WEB-HTML-CORE-103
-relatedExercise: web-development/html/article-section-und-aside-unterscheiden/strukturbereiche-nach-dokumentrolle-begruenden
-tags:
-  - html
-  - semantik
-  - loesung
+title: "Lösung – Strukturbereiche nach Dokumentrolle begründen"
+description: "Musterlösung zur Aufgabe über article, section und aside."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "article-section-und-aside-unterscheiden", "strukturbereiche-nach-dokumentrolle-begruenden"]
+taskId: "WEB-HTML-CORE-103"
+relatedExercise: "web-development/html/article-section-und-aside-unterscheiden/strukturbereiche-nach-dokumentrolle-begruenden"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

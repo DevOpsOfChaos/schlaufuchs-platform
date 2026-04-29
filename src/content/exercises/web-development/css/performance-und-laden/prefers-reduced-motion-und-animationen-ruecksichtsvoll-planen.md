@@ -3,34 +3,15 @@ title: "Aufgabe – prefers-reduced-motion und Animationen rücksichtsvoll plane
 description: "Bewerte eine animierte Oberfläche: Welche Bewegung hilft wirklich, welche sollte bei reduced motion wegfallen?"
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "performance-und-laden"
-  - "prefers-reduced-motion-und-animationen-ruecksichtsvoll-planen"
-tags:
-  - "web development"
-  - "css"
-  - "animation"
-  - "reduced motion"
-  - "accessibility"
-  - "aufgabe"
+topicPath: ["css", "performance-und-laden", "prefers-reduced-motion-und-animationen-ruecksichtsvoll-planen"]
 taskId: "web-v101-prefers-reduced-motion-und-animationen-ruecksichtsvoll-planen"
-hintPoints:
-  - "Lies zuerst die vorhandene HTML-, CSS- oder JavaScript-Situation."
-  - "Trenne sichtbare Rückmeldung von interner Logik."
-  - "Begründe, warum dein Vorschlag für Nutzerinnen und Nutzer verständlich ist."
-selfCheckPoints:
-  - "Ist die Lösung auch bei fehlenden Daten oder Fehlern nachvollziehbar?"
-  - "Sind Struktur, Gestaltung und Verhalten sauber getrennt?"
-  - "Gibt es eine passende Rückmeldung?"
-transferIdeas:
-  - "Übertrage die Aufgabe auf eine Formular-, Karten- oder Navigationsoberfläche."
-  - "Vergleiche eine schnelle, aber fragile Lösung mit einer robusteren Lösung."
-reflectionPrompt: "Welche kleine Entscheidung verbessert hier nicht nur den Code, sondern auch die Nutzererfahrung?"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bewerte eine animierte Oberfläche: Welche Bewegung hilft wirklich, welche sollte bei reduced motion wegfallen?

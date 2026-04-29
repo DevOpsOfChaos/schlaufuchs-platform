@@ -1,36 +1,19 @@
 ---
 title: "Blockgeräte und Partitionen"
 description: "Blockgeräte stellen Speicher in adressierbaren Blöcken bereit. Partitionen teilen ein solches Gerät in Bereiche, die Dateisysteme oder andere Strukturen enthalten..."
-subject: linux
+subject: "linux"
 section: "Dateisysteme"
-topicPath:
-  - "blockgeraete-und-partitionen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Blockgeräte und Partitionen als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["blockgeraete-und-partitionen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Gerätepfade wie /dev/sdb blind verwendet, ohne sie vor gefährlichen Schreibaktionen zu prüfen."
-keyTakeaways:
-  - "Blockgeräte stellen Speicher in adressierbaren Blöcken bereit."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Blockgeräte und Partitionen, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Blockgeräte und Partitionen in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "speicher"
-  - "dateisystem"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dateisysteme"]
 draft: false
 ---
-
 # Blockgeräte und Partitionen
 
 ![Schaubild zu Blockgeräten und Partitionen.](/schlaufuchs-platform/images/overviews/v150/blockgeraete-und-partitionen.svg)

@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – I²C-Bus und Adressierung ruhig erklären
-description: Musterlösung zur Aufgabe ET-ATMEGA-TWI-301.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-schnittstellen-und-busse
-  - atmega-twi-i2c-grundidee-verstehen
-  - i2c-bus-und-adressierung-ruhig-erklaeren-loesung
-taskId: ET-ATMEGA-TWI-301
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-twi-i2c-grundidee-verstehen/i2c-bus-und-adressierung-ruhig-erklaeren.md
-tags:
-  - elektrotechnik
-  - atmega
-  - twi
-  - i2c
-  - loesung
-  - task-id
+title: "Musterlösung – I²C-Bus und Adressierung ruhig erklären"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-TWI-301."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-twi-i2c-grundidee-verstehen", "i2c-bus-und-adressierung-ruhig-erklaeren"]
+taskId: "ET-ATMEGA-TWI-301"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-twi-i2c-grundidee-verstehen/i2c-bus-und-adressierung-ruhig-erklaeren.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

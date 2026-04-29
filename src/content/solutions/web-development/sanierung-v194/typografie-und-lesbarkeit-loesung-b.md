@@ -3,24 +3,12 @@ title: "Lösung: Typografie und Lesbarkeit: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-development-v194-016b im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "visuelle-qualitaet"
-  - "typografie-und-lesbarkeit"
-  - "loesung-b"
-
+topicPath: ["sanierung-v194", "typografie-und-lesbarkeit-loesung-b"]
 taskId: "web-development-v194-016b"
 relatedExercise: "web-development/sanierung-v194/typografie-und-lesbarkeit-aufgabe-b"
-tags:
-  - "typografie"
-  - "lesbarkeit"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-016b`
 
 Ausgangsauftrag: Übertrage das Thema Typografie und Lesbarkeit auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

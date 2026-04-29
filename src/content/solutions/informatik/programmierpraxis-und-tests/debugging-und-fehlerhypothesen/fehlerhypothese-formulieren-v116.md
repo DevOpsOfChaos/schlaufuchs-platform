@@ -3,22 +3,12 @@ title: "Lösung: Fehlerhypothese formulieren"
 description: "Musterlösung zur Aufgabe „Fehlerhypothese formulieren“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "debugging-und-fehlerhypothesen"
-  - "fehlerhypothese-formulieren-v116"
+topicPath: ["programmierpraxis-und-tests", "debugging-und-fehlerhypothesen", "fehlerhypothese-formulieren-v116"]
 taskId: "fehlerhypothese-formulieren-v116"
 relatedExercise: "informatik/programmierpraxis-und-tests/debugging-und-fehlerhypothesen/fehlerhypothese-formulieren-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "debugging und fehlerhypothesen"
-  - "fehlerhypothese formulieren"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

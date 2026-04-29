@@ -1,28 +1,17 @@
 ---
 title: "Massebezug vor Messung festlegen"
 description: "Lege fest, gegen welchen Punkt eine Spannung sinnvoll gemessen wird."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schaltungen"
-topicPath:
-  - schaltungen
-  - massefuehrung-und-stoerungen
-taskId: ET-V181-013
-tags:
-  - elektrotechnik
-  - massefuehrung-und-stoerungen
-  - sanierung-v181
-hintPoints:
-  - "Lies zuerst den Normalzustand und dann den Fehlerfall."
-  - "Trenne elektrische Ebene, logische Bedeutung und praktische Prüfung."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["schaltungen", "massefuehrung-und-stoerungen", "massebezug-vor-messung-festlegen"]
+taskId: "ET-V181-013"
+tags: ["elektrotechnik", "Schaltungen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **Masseführung und Störungen** ruhig und schrittweise.

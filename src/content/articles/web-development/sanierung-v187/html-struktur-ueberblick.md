@@ -3,38 +3,17 @@ title: "HTML-Struktur im Überblick"
 description: "Lerne, wie eine HTML-Seite ruhig vom Dokumentkopf bis zum sichtbaren Inhalt aufgebaut wird."
 subject: "web-development"
 section: "html"
-topicPath: 
-  - "html-und-semantik"
-  - "struktur"
-learningGoals: 
-  - "Grundgerüst einer HTML-Seite ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Skizziere das HTML-Grundgerüst für eine Profilseite und markiere Kopfbereich, Hauptbereich und Nebeninformationen."
-  - "Bringe eine unsortierte HTML-Skizze in eine sinnvolle Reihenfolge und begründe die wichtigsten Umstellungen."
-commonMistakes: 
-  - "Metadaten werden in den sichtbaren Bereich geschrieben."
-  - "Überschriften werden nur nach Aussehen gewählt."
-  - "Verschachtelungen werden nicht sauber geschlossen."
-keyTakeaways: 
-  - "Eine gute HTML-Struktur lässt sich auch ohne CSS als sinnvolle Dokumentgliederung lesen."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "Eine gute HTML-Struktur lässt sich auch ohne CSS als sinnvolle Dokumentgliederung lesen."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "html-struktur-ueberblick"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags: 
-  - "html"
-  - "struktur"
-  - "semantik"
-  - "web-development"
+tags: ["web-development", "html"]
 draft: false
 ---
-
 ![Didaktische Skizze zu HTML-Struktur im Überblick](/schlaufuchs-platform/images/web-development/sanierung-v187/html-struktur-ueberblick.svg)
 
     HTML-Struktur im Überblick ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

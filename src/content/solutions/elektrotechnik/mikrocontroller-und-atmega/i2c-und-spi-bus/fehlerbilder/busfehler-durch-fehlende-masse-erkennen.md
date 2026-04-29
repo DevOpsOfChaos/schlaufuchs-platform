@@ -3,23 +3,12 @@ title: "Lösung – Busfehler durch fehlende Masse erkennen"
 description: "Musterlösung zu Massebezug mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "elektrotechnik"
 section: "Kommunikation"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "i2c-und-spi-bus"
-  - "fehlerbilder"
-  - "busfehler-durch-fehlende-masse-erkennen"
+topicPath: ["mikrocontroller-und-atmega", "i2c-und-spi-bus", "fehlerbilder", "busfehler-durch-fehlende-masse-erkennen"]
 taskId: "v107-elektrotechnik-busfehler-durch-fehlende-masse-erkennen"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/i2c-und-spi-bus/fehlerbilder/busfehler-durch-fehlende-masse-erkennen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "schaltungen"
-  - "massebezug"
-  - "mikrocontroller-und-atmega"
-  - "i2c-und-spi-bus"
+tags: ["elektrotechnik", "Kommunikation", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Massebezug**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

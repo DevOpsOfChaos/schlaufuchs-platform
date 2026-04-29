@@ -1,32 +1,17 @@
 ---
-title: Ereignisflags am AVR als ruhige Aufgabentrennung erklären
-description: Erkläre, warum am ATmega oft ein Flag zwischen ISR und Hauptschleife genutzt wird, statt alle Arbeit sofort in der ISR zu erledigen.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - programmstruktur-und-reaktivitaet
-  - atmega-flags-zwischen-isr-und-hauptschleife-koordinieren
-  - ereignisflags-am-avr-als-ruhige-aufgabentrennung-erklaeren
-taskId: ET-ATMEGA-REAKT-302
-level: mittel
+title: "Ereignisflags am AVR als ruhige Aufgabentrennung erklären"
+description: "Erkläre, warum am ATmega oft ein Flag zwischen ISR und Hauptschleife genutzt wird, statt alle Arbeit sofort in der ISR zu erledigen."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-flags-zwischen-isr-und-hauptschleife-koordinieren", "ereignisflags-am-avr-als-ruhige-aufgabentrennung-erklaeren"]
+taskId: "ET-ATMEGA-REAKT-302"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - atmega
-  - interrupt
-  - flag
-hintPoints:
-  - Frage zuerst, was wirklich sofort im Ereignis nötig ist.
-  - Trenne Ereignis markieren und Ereignis auswerten bewusst.
-selfCheckPoints:
-  - Kannst du erklären, warum die ISR kurz bleiben sollte?
-  - Kannst du ein Flag als Kommunikationsidee zwischen zwei Bereichen beschreiben?
-transferIdeas:
-  - Übertrage die Logik auf UART-Empfang, Timer-Ereignisse oder Taster-Interrupts.
-reflectionPrompt: "Welche ruhigere Leitfrage hilft dir hier: Was kann die ISR alles tun oder was muss sie wirklich sofort tun?"
 ---
-
 Gegeben ist dieses Muster:
 
 ```c

@@ -3,34 +3,15 @@ title: "Übung: Rauschen von Trend unterscheiden"
 description: "Übe, „Rauschen von Trend unterscheiden“ als kleines Unterthema zu erkennen, zu begründen und mit einer Gegenprobe abzusichern."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "sensorik-und-signalaufbereitung"
-  - "rauschen-und-mittelwert"
-  - "rauschen-von-trend-unterscheiden-v116"
+topicPath: ["sensorik-und-signalaufbereitung", "rauschen-und-mittelwert", "rauschen-von-trend-unterscheiden-v116"]
 taskId: "rauschen-von-trend-unterscheiden-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "rauschen und mittelwert"
-  - "rauschen von trend unterscheiden"
-  - "v116"
-hintPoints:
-  - "Lies zuerst nur die konkrete Unterfrage."
-  - "Markiere eine typische Fehlannahme."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Lösung fachlich begründet?"
-  - "Ist die Abgrenzung zum Nachbarthema sichtbar?"
-  - "Passt die Gegenprobe zur Aufgabe?"
-transferIdeas:
-  - "Ändere eine Bedingung und prüfe, ob deine Begründung noch trägt."
-  - "Erkläre die Lösung einmal ohne Fachwörter und danach fachlich sauber."
-reflectionPrompt: "Welche kleine Entscheidung war bei „Rauschen von Trend unterscheiden“ am wichtigsten?"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe 1: Unterfrage erkennen
 
 Lies die Situation:

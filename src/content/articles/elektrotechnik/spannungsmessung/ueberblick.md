@@ -1,33 +1,19 @@
 ---
 title: "Spannungsmessung"
 description: "Spannungsmessung bestimmt die Potentialdifferenz zwischen zwei Punkten. Sie ist die häufigste Messung bei Versorgung, Pegeln und Sensorsignalen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik und Mikrocontroller"
-topicPath:
-  - "spannungsmessung"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Spannungsmessung."
-  - "Du kannst Spannungsmessung in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["spannungsmessung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Den Bezugspunkt nicht zu nennen und dadurch Messwerte falsch zu interpretieren."
-keyTakeaways:
-  - "Spannungsmessung bestimmt die Potentialdifferenz zwischen zwei Punkten."
-  - "Wichtig sind vor allem messung parallel zum signal, bezugspunkt und massewahl und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Spannungsmessung, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Spannungsmessung dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "grundlagen"
-  - "spannungsmessung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik und Mikrocontroller"]
 draft: false
 ---
-
 # Spannungsmessung
 
 Spannungsmessung bestimmt die Potentialdifferenz zwischen zwei Punkten. Sie ist die häufigste Messung bei Versorgung, Pegeln und Sensorsignalen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

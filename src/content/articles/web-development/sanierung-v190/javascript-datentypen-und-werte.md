@@ -3,39 +3,17 @@ title: "JavaScript-Datentypen und Werte"
 description: "Verstehe werte bewusst unterscheiden als ruhigen Baustein für wartbare Frontend-Projekte."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "werte-und-typen"
-  - "javascript-datentypen-und-werte"
-learningGoals:
-  - "Werte bewusst unterscheiden"
-  - "typische Fehlerquellen erkennen"
-  - "eine kleine Frontend-Entscheidung begründen"
-practiceIdeas:
-  - "Ordne Eingabewerte aus einem Formular nach Typ und Wirkung."
-  - "Formuliere eine Mini-Checkliste für eine zweite ähnliche Oberfläche."
-commonMistakes:
-  - "Technik wird benutzt, ohne den Zweck zu klären."
-  - "Fehlerfälle werden erst nachträglich betrachtet."
-  - "HTML, CSS und JavaScript werden unnötig vermischt."
-keyTakeaways:
-  - "String, Number, Boolean, null und undefined haben unterschiedliche Rollen."
-  - "Kleine, klare Prüfschritte machen Frontend-Code wartbarer."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Verhalten, Daten oder Zustand einer Webseite bewusst gesteuert werden müssen."
-selfCheckPoints:
-  - "Kann ich Zweck, Daten und sichtbare Wirkung trennen?"
-  - "Ist mindestens ein Fehlerfall genannt?"
-  - "Bleibt die Lösung auch ohne Spezialwissen nachvollziehbar?"
+topicPath: ["sanierung-v190", "javascript-datentypen-und-werte"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "werte-und-typen"
-  - "javascript"
-  - "frontend"
-  - "web-development"
+tags: ["web-development", "javascript-vertiefung"]
 draft: false
 ---
-
 ![Didaktische Skizze zu JavaScript-Datentypen und Werte](/schlaufuchs-platform/images/web-development/sanierung-v190/javascript-datentypen-und-werte.svg)
 
 JavaScript-Datentypen und Werte gehört zur JavaScript-Vertiefung im Web Development. Die Seite betrachtet das Thema nicht als isolierten Code-Trick, sondern als Entscheidungspunkt: Welche Aufgabe hat der Baustein, welche Daten oder Elemente sind beteiligt und wie bleibt die Lösung auch später verständlich?

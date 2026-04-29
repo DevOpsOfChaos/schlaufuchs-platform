@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Codierung und Zeichensätze ruhig einordnen"
 description: "Musterlösung zur Aufgabe über Codierung und Zeichensätze."
-subject: informatik
+subject: "informatik"
 section: "Daten und Information"
-topicPath:
-  - "daten-und-information"
-  - "codierung-und-zeichensaetze"
-taskId: INF-V183-07-A
-relatedExercise: src/content/exercises/informatik/daten-und-information/codierung-und-zeichensaetze/codierung-und-zeichensaetze-ruhig-einordnen-v183.md
-tags:
-  - "informatik"
-  - "codierung-und-zeichensaetze"
-  - "loesung"
+topicPath: ["daten-und-information", "codierung-und-zeichensaetze", "codierung-und-zeichensaetze-ruhig-einordnen-v183"]
+taskId: "INF-V183-07-A"
+relatedExercise: "src/content/exercises/informatik/daten-und-information/codierung-und-zeichensaetze/codierung-und-zeichensaetze-ruhig-einordnen-v183.md"
+tags: ["informatik", "Daten und Information", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

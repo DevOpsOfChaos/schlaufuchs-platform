@@ -3,23 +3,12 @@ title: "Lösung – Winkelangaben in Skizzen nicht blind übernehmen"
 description: "Musterlösung zu Skizzenwinkel mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "geometrie"
-  - "einheiten-und-skalierung"
-  - "winkel"
-  - "winkelangaben-in-skizzen-nicht-blind-uebernehmen"
+topicPath: ["geometrie", "einheiten-und-skalierung", "winkel", "winkelangaben-in-skizzen-nicht-blind-uebernehmen"]
 taskId: "v111-mathematik-winkelangaben-in-skizzen-nicht-blind-uebernehmen"
 relatedExercise: "mathematik/geometrie/einheiten-und-skalierung/winkel/winkelangaben-in-skizzen-nicht-blind-uebernehmen"
-tags:
-  - "mathematik"
-  - "prüfung"
-  - "unterthema"
-  - "geometrie"
-  - "einheiten-und-skalierung"
-  - "winkelangaben-in-skizzen-nicht-blind-uebernehmen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Skizzenwinkel**.

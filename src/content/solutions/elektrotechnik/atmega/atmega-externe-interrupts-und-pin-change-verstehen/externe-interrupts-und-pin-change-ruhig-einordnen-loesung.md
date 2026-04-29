@@ -1,24 +1,14 @@
 ---
-title: Musterlösung – Externe Interrupts und Pin-Change ruhig einordnen
-description: Musterlösung zur Aufgabe ET-ATMEGA-INT-304.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - ereignisse-und-interrupts
-  - atmega-externe-interrupts-und-pin-change-verstehen
-  - externe-interrupts-und-pin-change-ruhig-einordnen-loesung
-taskId: ET-ATMEGA-INT-304
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-externe-interrupts-und-pin-change-verstehen/externe-interrupts-und-pin-change-ruhig-einordnen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
-  - interrupt
+title: "Musterlösung – Externe Interrupts und Pin-Change ruhig einordnen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-INT-304."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-externe-interrupts-und-pin-change-verstehen", "externe-interrupts-und-pin-change-ruhig-einordnen"]
+taskId: "ET-ATMEGA-INT-304"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-externe-interrupts-und-pin-change-verstehen/externe-interrupts-und-pin-change-ruhig-einordnen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

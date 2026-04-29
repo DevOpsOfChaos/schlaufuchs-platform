@@ -1,23 +1,14 @@
 ---
-title: Lösung – Fehlerbaum für Schaltungen bauen
-description: Musterlösung zur Aufgabe über Fehlerbaum für Schaltungen bauen.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- messen-und-sicherheit
-- fehlerbilder-und-diagnose
-- fehlerbaum-fuer-schaltungen-bauen-v114
-taskId: v114-elektrotechnik-fehlerbaum-fuer-schaltungen-bauen-v114
-relatedExercise: elektrotechnik/messen-und-sicherheit/fehlerbilder-und-diagnose/fehlerbaum-fuer-schaltungen-bauen-v114
-tags:
-- elektrotechnik
-- v114
-- loesung
-- messen-und-sicherheit
-- fehlerbilder-und-diagnose
+title: "Lösung – Fehlerbaum für Schaltungen bauen"
+description: "Musterlösung zur Aufgabe über Fehlerbaum für Schaltungen bauen."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["messen-und-sicherheit", "fehlerbilder-und-diagnose", "fehlerbaum-fuer-schaltungen-bauen-v114"]
+taskId: "v114-elektrotechnik-fehlerbaum-fuer-schaltungen-bauen-v114"
+relatedExercise: "elektrotechnik/messen-und-sicherheit/fehlerbilder-und-diagnose/fehlerbaum-fuer-schaltungen-bauen-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Randfall bewusst formulieren"
 description: "Musterlösung zu Randfall bewusst formulieren mit Trennkante und Gegenprobe."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "softwarequalitaet-v115"
-  - "tests-und-vertraege"
-  - "randfall-bewusst-formulieren-v115"
+topicPath: ["softwarequalitaet-v115", "tests-und-vertraege", "randfall-bewusst-formulieren-v115"]
 taskId: "informatik-randfall-bewusst-formulieren-v115"
 relatedExercise: "informatik/softwarequalitaet-v115/tests-und-vertraege/randfall-bewusst-formulieren-v115"
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "softwarequalität"
-  - "tests und verträge"
-  - "lösung"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Randfall bewusst formulieren**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

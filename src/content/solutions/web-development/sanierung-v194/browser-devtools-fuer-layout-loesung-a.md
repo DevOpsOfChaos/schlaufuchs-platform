@@ -3,25 +3,12 @@ title: "Lösung: Browser-DevTools für Layout: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-development-v194-027a im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "diagnose-und-qa"
-  - "browser-devtools-fuer-layout"
-  - "loesung-a"
-
+topicPath: ["sanierung-v194", "browser-devtools-fuer-layout-loesung-a"]
 taskId: "web-development-v194-027a"
 relatedExercise: "web-development/sanierung-v194/browser-devtools-fuer-layout-aufgabe-a"
-tags:
-  - "browser"
-  - "devtools"
-  - "layout"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-027a`
 
 Ausgangsauftrag: Untersuche ein überlaufendes Layout mit DevTools-Schritten.

@@ -3,20 +3,12 @@ title: "Lösung – Label und Placeholder trennen"
 description: "Musterlösung zu Label und Placeholder trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "html"
-  - "formulare-und-eingaben"
-  - "label-und-placeholder-trennen-v113"
+topicPath: ["html", "formulare-und-eingaben", "label-und-placeholder-trennen-v113"]
 taskId: "v113-web-development-label-und-placeholder-trennen-v113"
 relatedExercise: "web-development/html/formulare-und-eingaben/label-und-placeholder-trennen-v113"
-tags:
-  - "web development"
-  - "strukturcheck"
-  - "unterthema"
-  - "label-und-placeholder-trennen-v113"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Label und Placeholder trennen**.

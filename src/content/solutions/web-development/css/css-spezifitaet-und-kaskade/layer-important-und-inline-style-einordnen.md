@@ -1,20 +1,12 @@
 ---
 title: "Lösung – Kaskadenkonflikt ohne Reflex-!important lösen"
 description: "Musterlösung zu: Analysiere einen CSS-Konflikt und entscheide, ob Layer, Reihenfolge oder Struktur das Problem lösen."
-subject: web-development
+subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "css-spezifitaet-und-kaskade"
-  - "layer-important-und-inline-style-einordnen"
+topicPath: ["css", "css-spezifitaet-und-kaskade", "layer-important-und-inline-style-einordnen"]
 taskId: "wd-css-v95-layer-important-inline-style"
 relatedExercise: "web-development/css/css-spezifitaet-und-kaskade/layer-important-und-inline-style-einordnen"
-tags:
-  - "web development"
-  - "css"
-  - "kaskade"
-  - "spezifität"
-  - "layer"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

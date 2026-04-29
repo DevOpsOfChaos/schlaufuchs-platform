@@ -1,23 +1,14 @@
 ---
-title: Lösung – Exponentielles Wachstum abgrenzen
-description: Musterlösung zur Aufgabe über Exponentielles Wachstum abgrenzen.
-subject: mathematik
-section: Feinstruktur Mathematik
-topicPath:
-- algebra-modelle
-- parameter-und-formen
-- exponentielles-wachstum-abgrenzen-v114
-taskId: v114-mathematik-exponentielles-wachstum-abgrenzen-v114
-relatedExercise: mathematik/algebra-modelle/parameter-und-formen/exponentielles-wachstum-abgrenzen-v114
-tags:
-- mathematik
-- v114
-- loesung
-- algebra-modelle
-- parameter-und-formen
+title: "Lösung – Exponentielles Wachstum abgrenzen"
+description: "Musterlösung zur Aufgabe über Exponentielles Wachstum abgrenzen."
+subject: "mathematik"
+section: "Feinstruktur Mathematik"
+topicPath: ["algebra-modelle", "parameter-und-formen", "exponentielles-wachstum-abgrenzen-v114"]
+taskId: "v114-mathematik-exponentielles-wachstum-abgrenzen-v114"
+relatedExercise: "mathematik/algebra-modelle/parameter-und-formen/exponentielles-wachstum-abgrenzen-v114"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

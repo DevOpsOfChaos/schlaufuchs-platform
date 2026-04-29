@@ -1,34 +1,19 @@
 ---
 title: "Dependency Audits"
 description: "Überblick über die Prüfung externer Abhängigkeiten auf bekannte Sicherheits- und Wartungsrisiken."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "dependency-audits"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["dependency-audits", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Audit-Meldungen entweder blind zu ignorieren oder ohne Prüfung jedes Update sofort zu übernehmen."
-keyTakeaways:
-  - "Dependency Audits helfen, Abhängigkeiten bewusst zu pflegen und Risiken einzuordnen."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Paketmanager Warnungen melden, Dependabot PRs öffnet oder ein Projekt viele externe Pakete nutzt."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "web development"
-  - "dependencies"
-  - "sicherheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # Dependency Audits
 
 Dependency Audits untersuchen verwendete Pakete auf bekannte Schwachstellen, veraltete Versionen oder riskante Abhängigkeitsketten. Sie sind ein Teil der Wartung moderner Webprojekte.

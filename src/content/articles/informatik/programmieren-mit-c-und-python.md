@@ -1,13 +1,19 @@
 ---
-title: Programmieren mit C und Python
-description: Lerne die Gemeinsamkeiten und Unterschiede zweier wichtiger Programmiersprachen kennen.
-subject: informatik
-section: programmierung
-level: einfach
-tags: [c, python, programmierung]
+title: "Programmieren mit C und Python"
+description: "Lerne die Gemeinsamkeiten und Unterschiede zweier wichtiger Programmiersprachen kennen."
+subject: "informatik"
+section: "programmierung"
+topicPath: ["programmieren-mit-c-und-python"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["c", "python", "programmierung"]
 draft: false
 ---
-
 C und Python sind zwei sehr unterschiedliche Programmiersprachen. Trotzdem lassen sich mit beiden dieselben Grundideen des Programmierens ausdrücken: Daten verarbeiten, Abläufe strukturieren und Probleme Schritt für Schritt lösen.
 
 ## Was beide gemeinsam haben

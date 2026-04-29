@@ -3,37 +3,17 @@ title: "Web-Entwicklung im Überblick"
 description: "Ordne ein, wie HTML, CSS, JavaScript, Browser und Dateien in einem Webprojekt zusammenarbeiten."
 subject: "web-development"
 section: "grundlagen"
-topicPath: 
-  - "grundlagen"
-  - "web-entwicklung-ueberblick"
-learningGoals: 
-  - "Zusammenspiel der Web-Bausteine ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Erstelle für eine kleine Infoseite eine Bestandteilliste und ordne jede Datei HTML, CSS, JavaScript oder Asset zu."
-  - "Analysiere eine unklare Projektbeschreibung und trenne Struktur, Gestaltung, Verhalten und Medien in vier Spalten."
-commonMistakes: 
-  - "Design, Struktur und Verhalten werden vermischt."
-  - "Dateien werden ohne nachvollziehbare Ordnung abgelegt."
-  - "Browseranzeige wird mit Quellstruktur gleichgesetzt."
-keyTakeaways: 
-  - "Du erkennst ein sauberes Webprojekt daran, dass Zweck, Dateirollen und Seitenteile benennbar bleiben."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "Du erkennst ein sauberes Webprojekt daran, dass Zweck, Dateirollen und Seitenteile benennbar bleiben."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "web-entwicklung-ueberblick"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags: 
-  - "web-development"
-  - "grundlagen"
-  - "ueberblick"
+tags: ["web-development", "grundlagen"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Web-Entwicklung im Überblick](/schlaufuchs-platform/images/web-development/sanierung-v187/web-entwicklung-ueberblick.svg)
 
     Web-Entwicklung im Überblick ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

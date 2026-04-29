@@ -3,21 +3,12 @@ title: "Lösung – Sensorwert vor Schwellwert glätten"
 description: "Musterlösung zu sensorwert vor schwellwert glätten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "sensoren-und-aktoren"
-  - "sensorwert-vor-schwellwert-glaetten"
+topicPath: ["daten-und-signale", "sensoren-und-aktoren", "sensorwert-vor-schwellwert-glaetten"]
 taskId: "v112-elektrotechnik-sensorwert-vor-schwellwert-glaetten"
 relatedExercise: "elektrotechnik/daten-und-signale/sensoren-und-aktoren/sensorwert-vor-schwellwert-glaetten"
-tags:
-  - "elektrotechnik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-signale"
-  - "sensorwert-vor-schwellwert-glaetten"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Sensoren und Aktoren**.

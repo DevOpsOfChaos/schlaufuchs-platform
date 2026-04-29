@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Fuse-Bits und Taktquelle ruhig einordnen
-description: Musterlösung zur Aufgabe ET-ATMEGA-SYS-301.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - systemstart-und-robustheit
-  - atmega-fuse-bits-und-taktquelle-verstehen
-  - fuse-bits-und-taktquelle-ruhig-einordnen-loesung
-taskId: ET-ATMEGA-SYS-301
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-fuse-bits-und-taktquelle-verstehen/fuse-bits-und-taktquelle-ruhig-einordnen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – Fuse-Bits und Taktquelle ruhig einordnen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-SYS-301."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-fuse-bits-und-taktquelle-verstehen", "fuse-bits-und-taktquelle-ruhig-einordnen"]
+taskId: "ET-ATMEGA-SYS-301"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-fuse-bits-und-taktquelle-verstehen/fuse-bits-und-taktquelle-ruhig-einordnen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

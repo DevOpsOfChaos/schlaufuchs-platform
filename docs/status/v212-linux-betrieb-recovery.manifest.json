@@ -1,0 +1,897 @@
+{
+  "package": "schlaufuchs_v212_linux_betrieb_recovery_kumulativ.zip",
+  "base": "schlaufuchs_v211_web_fullstack_ui_betrieb_kumulativ.zip",
+  "created": "2026-04-29",
+  "block": "v212",
+  "subject": "linux",
+  "counts": {
+    "articles": 88,
+    "exercises": 176,
+    "solutions": 176,
+    "svgs": 88,
+    "docs": 2,
+    "manifest": 1
+  },
+  "records": [
+    {
+      "title": "Bootprozess",
+      "section": "systembetrieb-und-servicekontrolle",
+      "topicPath": [
+        "systembetrieb-und-servicekontrolle",
+        "bootprozess"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/bootprozess.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/bootprozess.svg"
+    },
+    {
+      "title": "systemd-Units",
+      "section": "systembetrieb-und-servicekontrolle",
+      "topicPath": [
+        "systembetrieb-und-servicekontrolle",
+        "systemd-units"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/systemd-units.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/systemd-units.svg"
+    },
+    {
+      "title": "Service-Status",
+      "section": "systembetrieb-und-servicekontrolle",
+      "topicPath": [
+        "systembetrieb-und-servicekontrolle",
+        "service-status"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/service-status.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/service-status.svg"
+    },
+    {
+      "title": "Restart oder Reload",
+      "section": "systembetrieb-und-servicekontrolle",
+      "topicPath": [
+        "systembetrieb-und-servicekontrolle",
+        "restart-oder-reload"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/restart-oder-reload.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/restart-oder-reload.svg"
+    },
+    {
+      "title": "Dienst-Abhängigkeiten",
+      "section": "systembetrieb-und-servicekontrolle",
+      "topicPath": [
+        "systembetrieb-und-servicekontrolle",
+        "dienst-abhaengigkeiten"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/dienst-abhaengigkeiten.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/dienst-abhaengigkeiten.svg"
+    },
+    {
+      "title": "Startfehler",
+      "section": "systembetrieb-und-servicekontrolle",
+      "topicPath": [
+        "systembetrieb-und-servicekontrolle",
+        "startfehler"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/startfehler.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/startfehler.svg"
+    },
+    {
+      "title": "Prozessressourcen",
+      "section": "systembetrieb-und-servicekontrolle",
+      "topicPath": [
+        "systembetrieb-und-servicekontrolle",
+        "prozessressourcen"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/prozessressourcen.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/prozessressourcen.svg"
+    },
+    {
+      "title": "Wartungsfenster",
+      "section": "systembetrieb-und-servicekontrolle",
+      "topicPath": [
+        "systembetrieb-und-servicekontrolle",
+        "wartungsfenster"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/wartungsfenster.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/wartungsfenster.svg"
+    },
+    {
+      "title": "journalctl",
+      "section": "logs-monitoring-und-alarmierung",
+      "topicPath": [
+        "logs-monitoring-und-alarmierung",
+        "journalctl"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/journalctl.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/journalctl.svg"
+    },
+    {
+      "title": "Loglevel",
+      "section": "logs-monitoring-und-alarmierung",
+      "topicPath": [
+        "logs-monitoring-und-alarmierung",
+        "loglevel"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/loglevel.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/loglevel.svg"
+    },
+    {
+      "title": "CPU-RAM-IO-Metriken",
+      "section": "logs-monitoring-und-alarmierung",
+      "topicPath": [
+        "logs-monitoring-und-alarmierung",
+        "cpu-ram-io-metriken"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/cpu-ram-io-metriken.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/cpu-ram-io-metriken.svg"
+    },
+    {
+      "title": "Alarmregeln",
+      "section": "logs-monitoring-und-alarmierung",
+      "topicPath": [
+        "logs-monitoring-und-alarmierung",
+        "alarmregeln"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/alarmregeln.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/alarmregeln.svg"
+    },
+    {
+      "title": "Trendbewertung",
+      "section": "logs-monitoring-und-alarmierung",
+      "topicPath": [
+        "logs-monitoring-und-alarmierung",
+        "trendbewertung"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/trendbewertung.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/trendbewertung.svg"
+    },
+    {
+      "title": "Dashboards",
+      "section": "logs-monitoring-und-alarmierung",
+      "topicPath": [
+        "logs-monitoring-und-alarmierung",
+        "dashboards"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/dashboards.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/dashboards.svg"
+    },
+    {
+      "title": "Log-Metrik-Korrelation",
+      "section": "logs-monitoring-und-alarmierung",
+      "topicPath": [
+        "logs-monitoring-und-alarmierung",
+        "log-metrik-korrelation"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/log-metrik-korrelation.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/log-metrik-korrelation.svg"
+    },
+    {
+      "title": "Postmortem-Daten",
+      "section": "logs-monitoring-und-alarmierung",
+      "topicPath": [
+        "logs-monitoring-und-alarmierung",
+        "postmortem-daten"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/postmortem-daten.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/postmortem-daten.svg"
+    },
+    {
+      "title": "Backup-Scope",
+      "section": "backup-restore-und-recovery",
+      "topicPath": [
+        "backup-restore-und-recovery",
+        "backup-scope"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/backup-scope.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/backup-scope.svg"
+    },
+    {
+      "title": "Vollbackup und inkrementell",
+      "section": "backup-restore-und-recovery",
+      "topicPath": [
+        "backup-restore-und-recovery",
+        "vollbackup-und-inkrementell"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/vollbackup-und-inkrementell.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/vollbackup-und-inkrementell.svg"
+    },
+    {
+      "title": "Restore-Test",
+      "section": "backup-restore-und-recovery",
+      "topicPath": [
+        "backup-restore-und-recovery",
+        "restore-test"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/restore-test.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/restore-test.svg"
+    },
+    {
+      "title": "RPO und RTO",
+      "section": "backup-restore-und-recovery",
+      "topicPath": [
+        "backup-restore-und-recovery",
+        "rpo-und-rto"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/rpo-und-rto.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/rpo-und-rto.svg"
+    },
+    {
+      "title": "Konfigurationssicherung",
+      "section": "backup-restore-und-recovery",
+      "topicPath": [
+        "backup-restore-und-recovery",
+        "konfigurationssicherung"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/konfigurationssicherung.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/konfigurationssicherung.svg"
+    },
+    {
+      "title": "Datenbank-Dumps",
+      "section": "backup-restore-und-recovery",
+      "topicPath": [
+        "backup-restore-und-recovery",
+        "datenbank-dumps"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/datenbank-dumps.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/datenbank-dumps.svg"
+    },
+    {
+      "title": "Verschlüsselung",
+      "section": "backup-restore-und-recovery",
+      "topicPath": [
+        "backup-restore-und-recovery",
+        "verschluesselung"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/verschluesselung.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/verschluesselung.svg"
+    },
+    {
+      "title": "Recovery-Runbook",
+      "section": "backup-restore-und-recovery",
+      "topicPath": [
+        "backup-restore-und-recovery",
+        "recovery-runbook"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/recovery-runbook.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/recovery-runbook.svg"
+    },
+    {
+      "title": "df du und Inodes",
+      "section": "speicher-dateisysteme-und-kapazitaet",
+      "topicPath": [
+        "speicher-dateisysteme-und-kapazitaet",
+        "df-du-und-inodes"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/df-du-und-inodes.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/df-du-und-inodes.svg"
+    },
+    {
+      "title": "Mounts und fstab",
+      "section": "speicher-dateisysteme-und-kapazitaet",
+      "topicPath": [
+        "speicher-dateisysteme-und-kapazitaet",
+        "mounts-und-fstab"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/mounts-und-fstab.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/mounts-und-fstab.svg"
+    },
+    {
+      "title": "Logrotation",
+      "section": "speicher-dateisysteme-und-kapazitaet",
+      "topicPath": [
+        "speicher-dateisysteme-und-kapazitaet",
+        "logrotation"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/logrotation.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/logrotation.svg"
+    },
+    {
+      "title": "tmp-Cleanup",
+      "section": "speicher-dateisysteme-und-kapazitaet",
+      "topicPath": [
+        "speicher-dateisysteme-und-kapazitaet",
+        "tmp-cleanup"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/tmp-cleanup.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/tmp-cleanup.svg"
+    },
+    {
+      "title": "Dateirechte",
+      "section": "speicher-dateisysteme-und-kapazitaet",
+      "topicPath": [
+        "speicher-dateisysteme-und-kapazitaet",
+        "dateirechte"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/dateirechte.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/dateirechte.svg"
+    },
+    {
+      "title": "Kapazitätsplanung",
+      "section": "speicher-dateisysteme-und-kapazitaet",
+      "topicPath": [
+        "speicher-dateisysteme-und-kapazitaet",
+        "kapazitaetsplanung"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/kapazitaetsplanung.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/kapazitaetsplanung.svg"
+    },
+    {
+      "title": "Snapshots",
+      "section": "speicher-dateisysteme-und-kapazitaet",
+      "topicPath": [
+        "speicher-dateisysteme-und-kapazitaet",
+        "snapshots"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/snapshots.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/snapshots.svg"
+    },
+    {
+      "title": "I/O-Engpässe",
+      "section": "speicher-dateisysteme-und-kapazitaet",
+      "topicPath": [
+        "speicher-dateisysteme-und-kapazitaet",
+        "i-o-engpaesse"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/i-o-engpaesse.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/i-o-engpaesse.svg"
+    },
+    {
+      "title": "IP Route DNS",
+      "section": "netzwerkbetrieb-und-diagnose",
+      "topicPath": [
+        "netzwerkbetrieb-und-diagnose",
+        "ip-route-dns"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/ip-route-dns.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/ip-route-dns.svg"
+    },
+    {
+      "title": "Listening Ports",
+      "section": "netzwerkbetrieb-und-diagnose",
+      "topicPath": [
+        "netzwerkbetrieb-und-diagnose",
+        "listening-ports"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/listening-ports.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/listening-ports.svg"
+    },
+    {
+      "title": "Firewall-Regeln",
+      "section": "netzwerkbetrieb-und-diagnose",
+      "topicPath": [
+        "netzwerkbetrieb-und-diagnose",
+        "firewall-regeln"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/firewall-regeln.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/firewall-regeln.svg"
+    },
+    {
+      "title": "Latenz und Paketverlust",
+      "section": "netzwerkbetrieb-und-diagnose",
+      "topicPath": [
+        "netzwerkbetrieb-und-diagnose",
+        "latenz-und-paketverlust"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/latenz-und-paketverlust.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/latenz-und-paketverlust.svg"
+    },
+    {
+      "title": "TLS-Zertifikate",
+      "section": "netzwerkbetrieb-und-diagnose",
+      "topicPath": [
+        "netzwerkbetrieb-und-diagnose",
+        "tls-zertifikate"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/tls-zertifikate.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/tls-zertifikate.svg"
+    },
+    {
+      "title": "Proxy und Egress",
+      "section": "netzwerkbetrieb-und-diagnose",
+      "topicPath": [
+        "netzwerkbetrieb-und-diagnose",
+        "proxy-und-egress"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/proxy-und-egress.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/proxy-und-egress.svg"
+    },
+    {
+      "title": "Netzwerk-Prüfweg",
+      "section": "netzwerkbetrieb-und-diagnose",
+      "topicPath": [
+        "netzwerkbetrieb-und-diagnose",
+        "netzwerk-pruefweg"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/netzwerk-pruefweg.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/netzwerk-pruefweg.svg"
+    },
+    {
+      "title": "Remote-Wartung",
+      "section": "netzwerkbetrieb-und-diagnose",
+      "topicPath": [
+        "netzwerkbetrieb-und-diagnose",
+        "remote-wartung"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/remote-wartung.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/remote-wartung.svg"
+    },
+    {
+      "title": "User und Gruppen",
+      "section": "rechte-identitaeten-und-zugriff",
+      "topicPath": [
+        "rechte-identitaeten-und-zugriff",
+        "user-und-gruppen"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/user-und-gruppen.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/user-und-gruppen.svg"
+    },
+    {
+      "title": "sudo-Regeln",
+      "section": "rechte-identitaeten-und-zugriff",
+      "topicPath": [
+        "rechte-identitaeten-und-zugriff",
+        "sudo-regeln"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/sudo-regeln.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/sudo-regeln.svg"
+    },
+    {
+      "title": "SSH-Keys",
+      "section": "rechte-identitaeten-und-zugriff",
+      "topicPath": [
+        "rechte-identitaeten-und-zugriff",
+        "ssh-keys"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/ssh-keys.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/ssh-keys.svg"
+    },
+    {
+      "title": "Dateirechte-Prüfung",
+      "section": "rechte-identitaeten-und-zugriff",
+      "topicPath": [
+        "rechte-identitaeten-und-zugriff",
+        "dateirechte-pruefung"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/dateirechte-pruefung.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/dateirechte-pruefung.svg"
+    },
+    {
+      "title": "Least Privilege",
+      "section": "rechte-identitaeten-und-zugriff",
+      "topicPath": [
+        "rechte-identitaeten-und-zugriff",
+        "least-privilege"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/least-privilege.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/least-privilege.svg"
+    },
+    {
+      "title": "Secrets in Logs",
+      "section": "rechte-identitaeten-und-zugriff",
+      "topicPath": [
+        "rechte-identitaeten-und-zugriff",
+        "secrets-in-logs"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/secrets-in-logs.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/secrets-in-logs.svg"
+    },
+    {
+      "title": "Zugriffsnachweise",
+      "section": "rechte-identitaeten-und-zugriff",
+      "topicPath": [
+        "rechte-identitaeten-und-zugriff",
+        "zugriffsnachweise"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/zugriffsnachweise.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/zugriffsnachweise.svg"
+    },
+    {
+      "title": "Offboarding",
+      "section": "rechte-identitaeten-und-zugriff",
+      "topicPath": [
+        "rechte-identitaeten-und-zugriff",
+        "offboarding"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/offboarding.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/offboarding.svg"
+    },
+    {
+      "title": "Cron und Timer",
+      "section": "automatisierung-und-scheduled-jobs",
+      "topicPath": [
+        "automatisierung-und-scheduled-jobs",
+        "cron-und-timer"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/cron-und-timer.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/cron-und-timer.svg"
+    },
+    {
+      "title": "Idempotente Skripte",
+      "section": "automatisierung-und-scheduled-jobs",
+      "topicPath": [
+        "automatisierung-und-scheduled-jobs",
+        "idempotente-skripte"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/idempotente-skripte.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/idempotente-skripte.svg"
+    },
+    {
+      "title": "Exitcodes",
+      "section": "automatisierung-und-scheduled-jobs",
+      "topicPath": [
+        "automatisierung-und-scheduled-jobs",
+        "exitcodes"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/exitcodes.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/exitcodes.svg"
+    },
+    {
+      "title": "Lockfiles",
+      "section": "automatisierung-und-scheduled-jobs",
+      "topicPath": [
+        "automatisierung-und-scheduled-jobs",
+        "lockfiles"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/lockfiles.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/lockfiles.svg"
+    },
+    {
+      "title": "Healthchecks",
+      "section": "automatisierung-und-scheduled-jobs",
+      "topicPath": [
+        "automatisierung-und-scheduled-jobs",
+        "healthchecks"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/healthchecks.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/healthchecks.svg"
+    },
+    {
+      "title": "Konfiguration als Datei",
+      "section": "automatisierung-und-scheduled-jobs",
+      "topicPath": [
+        "automatisierung-und-scheduled-jobs",
+        "konfiguration-als-datei"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/konfiguration-als-datei.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/konfiguration-als-datei.svg"
+    },
+    {
+      "title": "Rollback-Skripte",
+      "section": "automatisierung-und-scheduled-jobs",
+      "topicPath": [
+        "automatisierung-und-scheduled-jobs",
+        "rollback-skripte"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/rollback-skripte.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/rollback-skripte.svg"
+    },
+    {
+      "title": "Automationsdoku",
+      "section": "automatisierung-und-scheduled-jobs",
+      "topicPath": [
+        "automatisierung-und-scheduled-jobs",
+        "automationsdoku"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/automationsdoku.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/automationsdoku.svg"
+    },
+    {
+      "title": "Paketquellen",
+      "section": "pakete-updates-und-releasepflege",
+      "topicPath": [
+        "pakete-updates-und-releasepflege",
+        "paketquellen"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/paketquellen.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/paketquellen.svg"
+    },
+    {
+      "title": "Security-Updates",
+      "section": "pakete-updates-und-releasepflege",
+      "topicPath": [
+        "pakete-updates-und-releasepflege",
+        "security-updates"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/security-updates.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/security-updates.svg"
+    },
+    {
+      "title": "Versionspinning",
+      "section": "pakete-updates-und-releasepflege",
+      "topicPath": [
+        "pakete-updates-und-releasepflege",
+        "versionspinning"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/versionspinning.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/versionspinning.svg"
+    },
+    {
+      "title": "Update mit Rollback",
+      "section": "pakete-updates-und-releasepflege",
+      "topicPath": [
+        "pakete-updates-und-releasepflege",
+        "update-mit-rollback"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/update-mit-rollback.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/update-mit-rollback.svg"
+    },
+    {
+      "title": "Wartungsfenster",
+      "section": "pakete-updates-und-releasepflege",
+      "topicPath": [
+        "pakete-updates-und-releasepflege",
+        "wartungsfenster"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/wartungsfenster.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/wartungsfenster.svg"
+    },
+    {
+      "title": "Kernel-Reboot",
+      "section": "pakete-updates-und-releasepflege",
+      "topicPath": [
+        "pakete-updates-und-releasepflege",
+        "kernel-reboot"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/kernel-reboot.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/kernel-reboot.svg"
+    },
+    {
+      "title": "Kompatibilitätscheck",
+      "section": "pakete-updates-und-releasepflege",
+      "topicPath": [
+        "pakete-updates-und-releasepflege",
+        "kompatibilitaetscheck"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/kompatibilitaetscheck.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/kompatibilitaetscheck.svg"
+    },
+    {
+      "title": "Release-Notizen",
+      "section": "pakete-updates-und-releasepflege",
+      "topicPath": [
+        "pakete-updates-und-releasepflege",
+        "release-notizen"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/release-notizen.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/release-notizen.svg"
+    },
+    {
+      "title": "Host-Container-Grenze",
+      "section": "container-host-und-runtime-betrieb",
+      "topicPath": [
+        "container-host-und-runtime-betrieb",
+        "host-container-grenze"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/host-container-grenze.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/host-container-grenze.svg"
+    },
+    {
+      "title": "Container-Logs",
+      "section": "container-host-und-runtime-betrieb",
+      "topicPath": [
+        "container-host-und-runtime-betrieb",
+        "container-logs"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/container-logs.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/container-logs.svg"
+    },
+    {
+      "title": "Volumes",
+      "section": "container-host-und-runtime-betrieb",
+      "topicPath": [
+        "container-host-und-runtime-betrieb",
+        "volumes"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/volumes.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/volumes.svg"
+    },
+    {
+      "title": "Image-Tags",
+      "section": "container-host-und-runtime-betrieb",
+      "topicPath": [
+        "container-host-und-runtime-betrieb",
+        "image-tags"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/image-tags.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/image-tags.svg"
+    },
+    {
+      "title": "Resource Limits",
+      "section": "container-host-und-runtime-betrieb",
+      "topicPath": [
+        "container-host-und-runtime-betrieb",
+        "resource-limits"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/resource-limits.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/resource-limits.svg"
+    },
+    {
+      "title": "Container-Healthchecks",
+      "section": "container-host-und-runtime-betrieb",
+      "topicPath": [
+        "container-host-und-runtime-betrieb",
+        "container-healthchecks"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/container-healthchecks.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/container-healthchecks.svg"
+    },
+    {
+      "title": "Container-Netzwerk",
+      "section": "container-host-und-runtime-betrieb",
+      "topicPath": [
+        "container-host-und-runtime-betrieb",
+        "container-netzwerk"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/container-netzwerk.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/container-netzwerk.svg"
+    },
+    {
+      "title": "Image-Cleanup",
+      "section": "container-host-und-runtime-betrieb",
+      "topicPath": [
+        "container-host-und-runtime-betrieb",
+        "image-cleanup"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/image-cleanup.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/image-cleanup.svg"
+    },
+    {
+      "title": "Incident-Einstufung",
+      "section": "incident-response-und-runbooks",
+      "topicPath": [
+        "incident-response-und-runbooks",
+        "incident-einstufung"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/incident-einstufung.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/incident-einstufung.svg"
+    },
+    {
+      "title": "Erste Stabilisierung",
+      "section": "incident-response-und-runbooks",
+      "topicPath": [
+        "incident-response-und-runbooks",
+        "erste-stabilisierung"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/erste-stabilisierung.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/erste-stabilisierung.svg"
+    },
+    {
+      "title": "Diagnosedaten",
+      "section": "incident-response-und-runbooks",
+      "topicPath": [
+        "incident-response-und-runbooks",
+        "diagnosedaten"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/diagnosedaten.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/diagnosedaten.svg"
+    },
+    {
+      "title": "Störfall-Kommunikation",
+      "section": "incident-response-und-runbooks",
+      "topicPath": [
+        "incident-response-und-runbooks",
+        "stoerfall-kommunikation"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/stoerfall-kommunikation.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/stoerfall-kommunikation.svg"
+    },
+    {
+      "title": "Workaround und Ursache",
+      "section": "incident-response-und-runbooks",
+      "topicPath": [
+        "incident-response-und-runbooks",
+        "workaround-und-ursache"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/workaround-und-ursache.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/workaround-und-ursache.svg"
+    },
+    {
+      "title": "Rollback-Entscheidung",
+      "section": "incident-response-und-runbooks",
+      "topicPath": [
+        "incident-response-und-runbooks",
+        "rollback-entscheidung"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/rollback-entscheidung.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/rollback-entscheidung.svg"
+    },
+    {
+      "title": "Postmortem",
+      "section": "incident-response-und-runbooks",
+      "topicPath": [
+        "incident-response-und-runbooks",
+        "postmortem"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/postmortem.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/postmortem.svg"
+    },
+    {
+      "title": "Runbook-Verbesserung",
+      "section": "incident-response-und-runbooks",
+      "topicPath": [
+        "incident-response-und-runbooks",
+        "runbook-verbesserung"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/runbook-verbesserung.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/runbook-verbesserung.svg"
+    },
+    {
+      "title": "Betriebsnotiz",
+      "section": "dokumentation-und-uebergabe",
+      "topicPath": [
+        "dokumentation-und-uebergabe",
+        "betriebsnotiz"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/betriebsnotiz.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/betriebsnotiz.svg"
+    },
+    {
+      "title": "Entscheidungsprotokoll",
+      "section": "dokumentation-und-uebergabe",
+      "topicPath": [
+        "dokumentation-und-uebergabe",
+        "entscheidungsprotokoll"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/entscheidungsprotokoll.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/entscheidungsprotokoll.svg"
+    },
+    {
+      "title": "Handover-Checkliste",
+      "section": "dokumentation-und-uebergabe",
+      "topicPath": [
+        "dokumentation-und-uebergabe",
+        "handover-checkliste"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/handover-checkliste.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/handover-checkliste.svg"
+    },
+    {
+      "title": "Systeminventar",
+      "section": "dokumentation-und-uebergabe",
+      "topicPath": [
+        "dokumentation-und-uebergabe",
+        "systeminventar"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/systeminventar.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/systeminventar.svg"
+    },
+    {
+      "title": "Known Issues",
+      "section": "dokumentation-und-uebergabe",
+      "topicPath": [
+        "dokumentation-und-uebergabe",
+        "known-issues"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/known-issues.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/known-issues.svg"
+    },
+    {
+      "title": "Runbook-Test",
+      "section": "dokumentation-und-uebergabe",
+      "topicPath": [
+        "dokumentation-und-uebergabe",
+        "runbook-test"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/runbook-test.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/runbook-test.svg"
+    },
+    {
+      "title": "Auditspur",
+      "section": "dokumentation-und-uebergabe",
+      "topicPath": [
+        "dokumentation-und-uebergabe",
+        "auditspur"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/auditspur.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/auditspur.svg"
+    },
+    {
+      "title": "Lernnotizen",
+      "section": "dokumentation-und-uebergabe",
+      "topicPath": [
+        "dokumentation-und-uebergabe",
+        "lernnotizen"
+      ],
+      "article": "src/content/articles/linux/sanierung-v212-betrieb-recovery/lernnotizen.md",
+      "svg": "public/images/linux/sanierung-v212-betrieb-recovery/lernnotizen.svg"
+    }
+  ]
+}

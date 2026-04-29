@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Variablen, Zustand und Speicher – Anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über Variablen, Zustand und Speicher."
-subject: informatik
+subject: "informatik"
 section: "programmablauf-und-steuerung"
-topicPath:
-  - "programmablauf-und-steuerung"
-  - "variablen-zustand-und-speicher"
-taskId: INF-VARIABLEN-ZUSTAND-UND-SPEICHER-842
-relatedExercise: src/content/exercises/informatik/programmablauf-und-steuerung/variablen-zustand-und-speicher/variablen-zustand-und-speicher-anwenden-und-pruefen-v184.md
-tags:
-  - "informatik"
-  - "variablen"
-  - "zustand"
-  - "loesung"
+topicPath: ["programmablauf-und-steuerung", "variablen-zustand-und-speicher", "variablen-zustand-und-speicher-anwenden-und-pruefen-v184"]
+taskId: "INF-VARIABLEN-ZUSTAND-UND-SPEICHER-842"
+relatedExercise: "src/content/exercises/informatik/programmablauf-und-steuerung/variablen-zustand-und-speicher/variablen-zustand-und-speicher-anwenden-und-pruefen-v184.md"
+tags: ["informatik", "programmablauf-und-steuerung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

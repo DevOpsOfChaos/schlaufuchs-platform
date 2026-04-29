@@ -1,29 +1,17 @@
 ---
-title: Zuordnungen erkennen und begründen
-description: Entscheide, ob ein Zusammenhang proportional, antiproportional oder keiner von beidem ist.
-subject: mathematik
-section: Funktionen
-topicPath:
-  - funktionen
-  - proportionale-und-antiproportionale-zuordnungen
-  - zuordnungen-erkennen-und-begruenden
-level: einfach
+title: "Zuordnungen erkennen und begründen"
+description: "Entscheide, ob ein Zusammenhang proportional, antiproportional oder keiner von beidem ist."
+subject: "mathematik"
+section: "Funktionen"
+topicPath: ["funktionen", "proportionale-und-antiproportionale-zuordnungen", "zuordnungen-erkennen-und-begruenden"]
+taskId: "AUTO-ZUORDNUNGEN-ERKENNEN-UND-BEGRUENDEN"
+tags: ["mathematik", "Funktionen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - proportional
-  - antiproportional
-hintPoints:
-  - "Prüfe zuerst die Bedeutung des Beispiels und nicht nur die Zahlen."
-  - "Kontrolliere dann, ob Quotient oder Produkt konstant bleibt."
-selfCheckPoints:
-  - "Hast du deine Entscheidung begründet und nicht nur benannt?"
-  - "Hast du proportional und antiproportional sicher auseinandergehalten?"
-transferIdeas:
-  - "Suche ein eigenes Alltagsbeispiel für beide Arten von Zuordnungen."
-  - "Erkläre einem anderen Menschen den Unterschied ohne Formeln."
-reflectionPrompt: "Welche Prüffrage hilft dir am meisten, proportionale und antiproportionale Zuordnungen auseinanderzuhalten?"
 ---
-
 ## Aufgabe 1: Tabelle einordnen
 
 Ordne den Zusammenhang ein und begründe kurz:

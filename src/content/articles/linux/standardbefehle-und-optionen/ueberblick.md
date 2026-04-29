@@ -1,34 +1,19 @@
 ---
 title: "Standardbefehle und Optionen"
 description: "Überblick über den Aufbau typischer Linux-Befehle mit Namen, Argumenten, Optionen und sinnvollen Hilfetexten."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "standardbefehle-und-optionen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["standardbefehle-und-optionen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Optionen und Argumente zu verwechseln oder Beispiele blind zu kopieren, ohne die Wirkung zu kennen."
-keyTakeaways:
-  - "Das Grundmuster aus Befehl, Optionen und Argumenten erleichtert den Einstieg in viele Linux-Werkzeuge."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Befehle mit Bindestrichen, Dateinamen, Mustern oder mehreren Parametern unklar wirken."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "grundlagen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # Standardbefehle und Optionen
 
 Viele Linux-Befehle folgen einem gemeinsamen Muster: Ein Befehlsname wird mit Optionen und Argumenten kombiniert. Dieses Muster hilft, neue Werkzeuge schneller zu verstehen, auch wenn ihre Details unterschiedlich sind.

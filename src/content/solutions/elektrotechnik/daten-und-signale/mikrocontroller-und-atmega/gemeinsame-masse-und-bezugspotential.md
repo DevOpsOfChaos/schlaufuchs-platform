@@ -3,20 +3,10 @@ title: "Lösung – Gemeinsame Masse bei Modulen und Sensoren prüfen"
 description: "Musterlösung zu „Gemeinsame Masse bei Modulen und Sensoren prüfen“."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "gemeinsame-masse-und-bezugspotential"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "gemeinsame-masse-und-bezugspotential"]
 taskId: "et-mc-v94-gemeinsame-masse"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/gemeinsame-masse-und-bezugspotential"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "atmega"
-  - "masse"
-  - "gnd"
-  - "bezugspotential"
-  - "sensoren"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

@@ -3,23 +3,12 @@ title: "Lösung: Formularvalidierung und Feedback: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-024a im Web-Development-Block v187."
 subject: "web-development"
 section: "javascript"
-topicPath: 
-  - "javascript-und-interaktion"
-  - "formularfeedback"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "formularvalidierung-und-feedback-aufgabe-a"]
 taskId: "web-v187-024a"
 relatedExercise: "web-development/sanierung-v187/formularvalidierung-und-feedback-aufgabe-a"
-tags: 
-  - "formulare"
-  - "validierung"
-  - "feedback"
-  - "javascript"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "javascript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-024a`
 
     Ausgangsauftrag: Formuliere klare Fehlermeldungen für Name, E-Mail und Nachricht in einem Kontaktformular.

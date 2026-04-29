@@ -1,44 +1,19 @@
 ---
-title: Datensicherung und Backup – Grundidee
-description: Verstehe, warum Datensicherung nicht dasselbe ist wie Dateispeicherung und wie Backups helfen, Verluste, Fehler oder Löschungen abzufangen.
-subject: informatik
-section: Sicherheit
-topicPath:
-  - sicherheit
-  - datensicherung-und-backup-grundidee
-learningGoals:
-  - Du erklärst die Grundidee von Datensicherung und Backup.
-  - Du unterscheidest Arbeitsdatei und Sicherungskopie.
-  - Du beschreibst typische Verlustsituationen ruhiger als Risiko statt als Einzelfall.
-practiceIdeas:
-  - Prüfe bei eigenen Dateien, welche wirklich wichtig und ersetzbar sind.
-  - Überlege, welche Folgen ein versehentliches Löschen oder ein defektes Gerät hätte.
-  - Vergleiche den Arbeitsstand einer Datei mit einer getrennten Sicherung.
-commonMistakes:
-  - das Original selbst schon für das Backup zu halten.
-  - erst nach einem Verlust über Sicherung nachzudenken.
-  - Backup nur als technische Speziallösung statt als Grundprinzip zu sehen.
-keyTakeaways:
-  - Ein Backup ist eine getrennte Sicherung, nicht nur die laufende Datei.
-  - Datensicherung schützt vor Verlust durch Löschen, Defekt oder Fehlbedienung.
-  - Gute Sicherung denkt an Wiederherstellung, nicht nur an Speicherung.
-recognizeSignals:
-  - Es geht um Datenverlust, Dateisicherheit, Wiederherstellung oder wichtige persönliche Dateien.
-  - Du sollst erklären, warum Speichern und Sichern nicht dasselbe sind.
-  - In Beispielen wird Risiko wichtiger als reine Technik.
-selfCheckPoints:
-  - Kann ich Original und Sicherung sauber unterscheiden?
-  - Kann ich erklären, warum Backups getrennt gedacht werden?
-  - Kann ich typische Verlustsituationen benennen?
-tags:
-  - informatik
-  - sicherheit
-  - backup
-  - datensicherung
-level: einfach
+title: "Datensicherung und Backup – Grundidee"
+description: "Verstehe, warum Datensicherung nicht dasselbe ist wie Dateispeicherung und wie Backups helfen, Verluste, Fehler oder Löschungen abzufangen."
+subject: "informatik"
+section: "Sicherheit"
+topicPath: ["sicherheit", "datensicherung-und-backup-grundidee"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Sicherheit"]
 draft: false
 ---
-
 ## Grundidee
 
 Eine Datei zu speichern bedeutet noch nicht automatisch, dass sie sicher ist. Wenn das Gerät ausfällt, die Datei überschrieben wird oder jemand versehentlich löscht, kann der gespeicherte Stand trotzdem verloren sein. Genau deshalb ist ein **Backup** etwas anderes als die normale Arbeitsdatei.

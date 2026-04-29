@@ -1,29 +1,17 @@
 ---
 title: "Arduino und AVR: Grundbegriffe zuordnen"
 description: "Übe die Unterscheidung zwischen Board, Mikrocontroller, Programm und äußerer Schaltung."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "arduino-und-avr"
+topicPath: ["mikrocontroller-und-atmega", "arduino-und-avr", "grundbegriffe-zuordnen"]
 taskId: "ET-MCU-ARDUINO-179-001"
-tags:
-  - "elektrotechnik"
-  - "arduino"
-  - "avr"
-  - "mikrocontroller"
-hintPoints:
-  - "Lies zuerst die Begriffe, dann die konkrete Situation."
-  - "Begründe jede Zuordnung mit einem fachlichen Merkmal."
-selfCheckPoints:
-  - "Kann ich meine Entscheidung mit einem Begriff aus der Überblicksseite erklären?"
-  - "Habe ich Einheit, Richtung, Bezugspunkt oder Zeitbezug geprüft, falls relevant?"
-transferIdeas:
-  - "Formuliere ein eigenes Beispiel aus einer einfachen Schaltung oder Messsituation."
-level: einfach
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe gehört zu einem Überblicksthema. Sie soll nicht nur Rechnen trainieren, sondern die fachliche Einordnung sichern.
 
 ## Aufgabe 1 – Begriffe zuordnen

@@ -1,17 +1,19 @@
 ---
-title: Exponentialfunktionen und Logarithmen
-description: Exponentialfunktionen beschreiben Wachstum und Zerfall, Logarithmen helfen dabei, Exponenten aus Gleichungen herauszulesen.
-subject: mathematik
-section: Funktionen
-level: mittel
-tags:
-  - Exponentialfunktion
-  - Logarithmus
-  - Wachstum
-  - Zerfall
+title: "Exponentialfunktionen und Logarithmen"
+description: "Exponentialfunktionen beschreiben Wachstum und Zerfall, Logarithmen helfen dabei, Exponenten aus Gleichungen herauszulesen."
+subject: "mathematik"
+section: "Funktionen"
+topicPath: ["exponentialfunktionen-und-logarithmen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
-
 ## Überblick
 
 Exponentialfunktionen tauchen überall dort auf, wo sich eine Größe nicht um einen festen Betrag, sondern um einen festen Faktor verändert. Typische Beispiele sind Zinseszins, Bevölkerungswachstum, Lade- und Entladevorgänge oder radioaktiver Zerfall.

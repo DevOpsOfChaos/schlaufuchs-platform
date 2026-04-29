@@ -3,22 +3,12 @@ title: "Lösung: Achsenbeginn prüfen"
 description: "Musterlösung zur Aufgabe „Achsenbeginn prüfen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "daten-deuten-und-pruefen"
-  - "diagramme-kritisch-lesen"
-  - "achsenbeginn-pruefen-v116"
+topicPath: ["daten-deuten-und-pruefen", "diagramme-kritisch-lesen", "achsenbeginn-pruefen-v116"]
 taskId: "achsenbeginn-pruefen-v116"
 relatedExercise: "mathematik/daten-deuten-und-pruefen/diagramme-kritisch-lesen/achsenbeginn-pruefen-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "diagramme kritisch lesen"
-  - "achsenbeginn pruefen"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

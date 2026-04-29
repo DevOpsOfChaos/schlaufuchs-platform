@@ -3,22 +3,12 @@ title: "Lösung: Zeichencodierung und Text: Grundordnung"
 description: "Musterlösung zur Aufgabe dat-v189-011a."
 subject: "daten-und-signale"
 section: "codierung"
-topicPath:
-  - "codierung"
-  - "zeichencodierung-und-text"
-  - "loesung-a"
+topicPath: ["sanierung-v189", "zeichencodierung-und-text-aufgabe-a"]
 taskId: "dat-v189-011a"
 relatedExercise: "daten-und-signale/sanierung-v189/zeichencodierung-und-text-aufgabe-a"
-tags:
-  - "text"
-  - "zeichencodierung"
-  - "unicode"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "codierung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-011a`
 
 Eine mögliche Lösung:

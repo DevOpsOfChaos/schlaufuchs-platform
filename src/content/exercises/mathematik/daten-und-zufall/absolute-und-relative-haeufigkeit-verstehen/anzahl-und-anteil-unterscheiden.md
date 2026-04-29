@@ -1,31 +1,17 @@
 ---
-title: Anzahl und Anteil unterscheiden
-description: Ordne Zählwerte und Anteile in kleinen Datenbeispielen sauber ein.
-subject: mathematik
-section: Daten und Zufall
-topicPath:
-  - daten-und-zufall
-  - absolute-und-relative-haeufigkeit-verstehen
-  - anzahl-und-anteil-unterscheiden
-level: einfach
+title: "Anzahl und Anteil unterscheiden"
+description: "Ordne Zählwerte und Anteile in kleinen Datenbeispielen sauber ein."
+subject: "mathematik"
+section: "Daten und Zufall"
+topicPath: ["daten-und-zufall", "absolute-und-relative-haeufigkeit-verstehen", "anzahl-und-anteil-unterscheiden"]
+taskId: "AUTO-ANZAHL-UND-ANTEIL-UNTERSCHEIDEN"
+tags: ["mathematik", "Daten und Zufall", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - haeufigkeit
-  - anteil
-  - daten
-hintPoints:
-  - "Frage zuerst: Wie oft kommt etwas vor?"
-  - "Frage danach: Wie groß ist die Gesamtmenge?"
-  - "Formuliere den Anteil notfalls auch in Prozent."
-selfCheckPoints:
-  - "Hast du absolute und relative Häufigkeit sauber getrennt?"
-  - "Beziehst du den Anteil auf die richtige Gesamtmenge?"
-transferIdeas:
-  - "Übertrage die Aufgabe auf Umfragen, Farben oder Fehlermeldungen."
-  - "Vergleiche zwei Gruppen mit unterschiedlicher Größe."
-reflectionPrompt: "Warum sind Anteile oft aussagekräftiger als bloße Zählwerte?"
 ---
-
 ## Aufgabe 1: Häufigkeiten bestimmen
 
 In einer Gruppe von 25 Personen mögen 10 Personen Vanilleeis.

@@ -1,36 +1,19 @@
 ---
 title: "Standardabweichung"
 description: "Überblick über die Standardabweichung als Maß für Streuung von Daten."
-subject: mathematik
+subject: "mathematik"
 section: "Daten und Statistik"
-topicPath:
-  - "standardabweichung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Standardabweichung als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["standardabweichung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Streuung ignoriert und nur der Durchschnitt verglichen."
-keyTakeaways:
-  - "Die Standardabweichung misst typische Streuung um den Mittelwert."
-  - "Gleiche Mittelwerte können sehr unterschiedliche Streuung haben."
-  - "Ausreißer und Verteilungsform beeinflussen die Interpretation."
-recognizeSignals:
-  - "Es geht um Standardabweichung als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Standardabweichung in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "statistik"
-  - "standardabweichung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Daten und Statistik"]
 draft: false
 ---
-
 # Standardabweichung
 
 Die Standardabweichung beschreibt, wie stark Werte typischerweise um den Mittelwert streuen. Eine kleine Standardabweichung bedeutet, dass viele Werte nahe am Mittelwert liegen. Eine große Standardabweichung zeigt stärkere Unterschiede in den Daten.

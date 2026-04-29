@@ -1,32 +1,17 @@
 ---
-title: Externe Interrupts und Pin-Change ruhig einordnen
-description: Erkläre an kleinen AVR-Fällen, wann ein externer Interrupt und wann eher ein Pin-Change-Interrupt fachlich ruhiger passt.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - ereignisse-und-interrupts
-  - atmega-externe-interrupts-und-pin-change-verstehen
-  - externe-interrupts-und-pin-change-ruhig-einordnen
-taskId: ET-ATMEGA-INT-304
-level: mittel
+title: "Externe Interrupts und Pin-Change ruhig einordnen"
+description: "Erkläre an kleinen AVR-Fällen, wann ein externer Interrupt und wann eher ein Pin-Change-Interrupt fachlich ruhiger passt."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-externe-interrupts-und-pin-change-verstehen", "externe-interrupts-und-pin-change-ruhig-einordnen"]
+taskId: "ET-ATMEGA-INT-304"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - atmega
-  - interrupt
-  - pin-change
-hintPoints:
-  - Frage zuerst, welche Art Ereignis überhaupt erkannt werden soll.
-  - Trenne präzise Flanke und allgemeine Änderung bewusst.
-selfCheckPoints:
-  - Kannst du den Unterschied über die Ereignisfrage statt nur über Namen erklären?
-  - Kannst du einen Tasterfall fachlich passend einordnen?
-transferIdeas:
-  - Übertrage die Logik auf Sensorflanken oder allgemeine Eingangswächter.
-reflectionPrompt: "Welche Leitfrage hilft dir am meisten, die passende Interruptart ruhig zu wählen?"
 ---
-
 ## Aufgabe 1
 
 Erkläre in eigenen Worten den Unterschied zwischen diesen beiden Aussagen:

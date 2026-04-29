@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – Deklaration und Definition ruhig zuordnen
-description: Musterlösung zur Aufgabe INF-PROG-CPP-FUNC-004.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - funktionen-und-ablauf
-  - funktionsdeklaration-und-definition-vergleichen
-  - deklaration-und-definition-ruhig-zuordnen-loesung
-taskId: INF-PROG-CPP-FUNC-004
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/funktionsdeklaration-und-definition-vergleichen/deklaration-und-definition-ruhig-zuordnen.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – Deklaration und Definition ruhig zuordnen"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-FUNC-004."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "funktionsdeklaration-und-definition-vergleichen", "deklaration-und-definition-ruhig-zuordnen"]
+taskId: "INF-PROG-CPP-FUNC-004"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/funktionsdeklaration-und-definition-vergleichen/deklaration-und-definition-ruhig-zuordnen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Rolle zuordnen
 
 Die Form ohne Funktionskörper ist die Deklaration. Die Form mit geschweiften Klammern und <code>return a + b;</code> ist die Definition.

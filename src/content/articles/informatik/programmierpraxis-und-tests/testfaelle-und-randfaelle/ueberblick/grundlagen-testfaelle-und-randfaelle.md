@@ -1,35 +1,19 @@
 ---
 title: "Grundlagen: Testfälle und Randfälle"
 description: "Gute Tests prüfen erwartetes Verhalten und typische Grenzen ausdrücklich."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "testfaelle-und-randfaelle"
-  - "ueberblick"
-learningGoals:
-  - "Du ordnest Testfälle und Randfälle fachlich ein."
-  - "Du unterscheidest zentrale Begriffe und typische Rollen."
-  - "Du erkennst häufige Fehler beim Anwenden."
-practiceIdeas:
-  - "Formuliere die Grundidee in zwei Sätzen."
-  - "Ordne ein Beispiel den wichtigsten Begriffen zu."
-commonMistakes:
-  - "Nur den Lieblingsfall zu testen und daraus Sicherheit für alle Eingaben abzuleiten."
-keyTakeaways:
-  - "Gute Tests prüfen erwartetes Verhalten und typische Grenzen ausdrücklich."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung vor einer Einzelfalllösung."
-selfCheckPoints:
-  - "Kann ich die Grundbegriffe voneinander unterscheiden?"
-level: mittel
-tags:
-  - "informatik"
-  - "programmierpraxis-und-tests"
-  - "testfaelle-und-randfaelle"
+topicPath: ["programmierpraxis-und-tests", "testfaelle-und-randfaelle", "ueberblick", "grundlagen-testfaelle-und-randfaelle"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierpraxis und Tests"]
 draft: false
 ---
-
 ![Schaubild zu Testfälle und Randfälle](/schlaufuchs-platform/images/overviews/v183/informatik-testfaelle-und-randfaelle.svg)
 
 ## Begriff

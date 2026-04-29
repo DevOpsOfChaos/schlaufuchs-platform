@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Eingang nicht offen lassen"
 description: "Musterlösung zu Eingang nicht offen lassen mit Trennkante und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-praxis-v115"
-  - "eingang-ausgang-pegel"
-  - "eingang-nicht-offen-lassen-v115"
+topicPath: ["mikrocontroller-praxis-v115", "eingang-ausgang-pegel", "eingang-nicht-offen-lassen-v115"]
 taskId: "elektrotechnik-eingang-nicht-offen-lassen-v115"
 relatedExercise: "elektrotechnik/mikrocontroller-praxis-v115/eingang-ausgang-pegel/eingang-nicht-offen-lassen-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "mikrocontroller-praxis"
-  - "eingang, ausgang, pegel"
-  - "lösung"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Eingang nicht offen lassen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

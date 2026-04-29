@@ -1,31 +1,17 @@
 ---
 title: "Compiler und Interpreter"
 description: "Allgemeiner Überblick über Übersetzung, Ausführung und Laufzeitmodelle von Programmiersprachen."
-subject: informatik
+subject: "informatik"
 section: "Programmierung"
-topicPath:
-  - "compiler-und-interpreter"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Compiler und Interpreter grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["compiler-und-interpreter", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Compiler und Interpreter nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Compiler und Interpreter beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Compiler und Interpreter, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Compiler und Interpreter in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "compiler"
-  - "interpreter"
-  - "programmierung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
 # Compiler und Interpreter

@@ -1,45 +1,19 @@
 ---
-title: Pins als GPIO und Sonderfunktionen ruhig einordnen
-description: Verstehe, warum ein Mikrocontroller-Pin nicht nur "ein Kabelanschluss" ist, sondern je nach Konfiguration als Ein-/Ausgang oder als Peripheriefunktion arbeitet.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - pins-als-gpio-und-sonderfunktionen-ruhig-einordnen
-learningGoals:
-  - Du beschreibst einen Pin als umschaltbare Funktionsstelle statt nur als physische Klemme.
-  - Du unterscheidest GPIO-Rolle und Peripherie-Sonderfunktion fachlich sauber.
-  - Du liest Pinprobleme eher als Konfigurations- oder Belegungsfrage als als Zufall.
-practiceIdeas:
-  - Vergleiche einen Pin einmal als normalen Ausgang und einmal als UART-, SPI- oder Timerfunktion.
-  - Frage bei einem Pinproblem zuerst, welche Funktion der Pin überhaupt gerade trägt.
-  - Lies Pinbelegung nicht nur physisch, sondern als Mehrfachrolle.
-commonMistakes:
-  - Zu denken, ein Pin habe immer nur genau eine feste Aufgabe.
-  - GPIO und Sonderfunktion gleichzeitig als unabhängig anzusehen.
-  - Ein Signalproblem nur elektrisch zu suchen, obwohl die Pinfunktion falsch konfiguriert ist.
-keyTakeaways:
-  - Ein Pin kann je nach Konfiguration unterschiedliche Rollen tragen.
-  - GPIO ist eine Grundrolle, Sonderfunktionen binden den Pin oft an interne Peripherie.
-  - "Die ruhige Leitfrage lautet: Welche Funktion ist diesem Pin gerade zugewiesen?"
-recognizeSignals:
-  - Es geht um Pinbelegung, GPIO, UART-Pins, PWM-Ausgänge oder alternative Funktionen.
-  - Du sollst erklären, warum ein Pin nicht wie erwartet reagiert.
-  - In Aufgaben ist die belegte Funktion wichtiger als die bloße Leiterbahn.
-selfCheckPoints:
-  - Kann ich erklären, was GPIO bedeutet?
-  - Kann ich GPIO-Rolle und Sonderfunktion sauber trennen?
-  - Kann ich einen Pinfehler als Funktionszuweisungsproblem lesen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - gpio
-  - pins
-level: einfach
+title: "Pins als GPIO und Sonderfunktionen ruhig einordnen"
+description: "Verstehe, warum ein Mikrocontroller-Pin nicht nur \\\"ein Kabelanschluss\\\" ist, sondern je nach Konfiguration als Ein-/Ausgang oder als Peripheriefunktion arbeitet."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "pins-als-gpio-und-sonderfunktionen-ruhig-einordnen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "mikrocontroller"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Mikrocontroller-Pin ist nicht einfach nur ein Stück Metall am Gehäuse. Er ist eine **Funktionsstelle**, die je nach Konfiguration unterschiedliche Rollen tragen kann: als normaler digitaler Ein- oder Ausgang oder als Anschluss einer internen Peripherie wie UART, SPI, ADC oder Timer.

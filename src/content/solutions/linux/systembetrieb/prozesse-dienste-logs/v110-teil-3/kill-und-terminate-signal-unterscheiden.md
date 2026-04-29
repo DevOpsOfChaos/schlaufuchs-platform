@@ -3,23 +3,12 @@ title: "Lösung – kill und Terminate-Signal unterscheiden"
 description: "Musterlösung zu kill und Terminate-Signal unterscheiden mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Systembetrieb"
-topicPath:
-  - "systembetrieb"
-  - "prozesse-dienste-logs"
-  - "v110-teil-3"
-  - "kill-und-terminate-signal-unterscheiden"
+topicPath: ["systembetrieb", "prozesse-dienste-logs", "v110-teil-3", "kill-und-terminate-signal-unterscheiden"]
 taskId: "v110-linux-kill-und-terminate-signal-unterscheiden"
 relatedExercise: "linux/systembetrieb/prozesse-dienste-logs/v110-teil-3/kill-und-terminate-signal-unterscheiden"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "systembetrieb"
-  - "prozesse-dienste-logs"
-  - "kill-und-terminate-signal-unterscheiden"
+tags: ["linux", "Systembetrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **kill und Terminate-Signal unterscheiden**.

@@ -1,32 +1,17 @@
 ---
 title: "Input-Typen"
 description: "Überblick über semantische Eingabetypen in HTML-Formularen und ihre Wirkung auf Bedienung und Validierung."
-subject: web-development
+subject: "web-development"
 section: "Formulare"
-topicPath:
-  - "input-typen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Input-Typen als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Text, E-Mail, Zahl."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["input-typen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Alle Eingaben als einfachen Text zu modellieren."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Input-Typen beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Semantik von Formularfeldern."
-  - "Wichtige Hinweise liefern vor allem Text, E-Mail, Zahl."
-recognizeSignals:
-  - "Es geht um semantik von formularfeldern, text oder e-mail."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Input-Typen erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "web-development"
-  - "html"
-  - "formulare"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Formulare"]
 draft: false
 ---
 # Input-Typen

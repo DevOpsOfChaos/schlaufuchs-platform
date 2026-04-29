@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Versorgungseinbruch von Codefehler trennen"
 description: "Musterlösung zur Aufgabe Versorgungseinbruch von Codefehler trennen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Stromversorgung und Schutz"
-topicPath:
-  - stromversorgung-und-schutz
-  - entkopplung-und-stuetzelkos
-taskId: ET-V181-002
-relatedExercise: src/content/exercises/elektrotechnik/stromversorgung-und-schutz/entkopplung-und-stuetzelkos/versorgungseinbruch-von-codefehler-trennen.md
-tags:
-  - elektrotechnik
-  - entkopplung-und-stuetzelkos
-  - loesung
+topicPath: ["stromversorgung-und-schutz", "entkopplung-und-stuetzelkos", "versorgungseinbruch-von-codefehler-trennen"]
+taskId: "ET-V181-002"
+relatedExercise: "src/content/exercises/elektrotechnik/stromversorgung-und-schutz/entkopplung-und-stuetzelkos/versorgungseinbruch-von-codefehler-trennen.md"
+tags: ["elektrotechnik", "Stromversorgung und Schutz", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

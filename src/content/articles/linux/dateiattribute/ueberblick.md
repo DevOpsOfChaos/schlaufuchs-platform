@@ -1,33 +1,19 @@
 ---
 title: "Dateiattribute"
 description: "Dateiattribute ergänzen klassische Rechte. Werkzeuge wie chattr können Dateien etwa unveränderlich setzen oder besondere Eigenschaften aktivieren."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "dateiattribute"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Dateiattribute."
-  - "Du kannst Dateiattribute in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["dateiattribute", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Bei Schreibfehlern nur chmod zu prüfen und Attribute zu übersehen."
-keyTakeaways:
-  - "Dateiattribute ergänzen klassische Rechte."
-  - "Wichtig sind vor allem immutable attribut, lsattr und chattr und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Dateiattribute, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Dateiattribute dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "linux"
-  - "grundlagen"
-  - "dateiattribute"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # Dateiattribute
 
 Dateiattribute ergänzen klassische Rechte. Werkzeuge wie chattr können Dateien etwa unveränderlich setzen oder besondere Eigenschaften aktivieren. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

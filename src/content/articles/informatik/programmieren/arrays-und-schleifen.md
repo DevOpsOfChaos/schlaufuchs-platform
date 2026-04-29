@@ -1,45 +1,19 @@
 ---
-title: Arrays und Schleifen
-description: Verstehe, wie mehrere Werte mit Arrays gespeichert und mit Schleifen systematisch verarbeitet werden.
-subject: informatik
-section: Programmierung
-topicPath:
-- programmieren
-- arrays-und-schleifen
-learningGoals:
-- Du verstehst, wie Arrays und Schleifen zusammenarbeiten.
-- Du liest Index, Länge und Schleifenbedingung sauber.
-- Du erkennst typische Grenz- und Zählfehler.
-practiceIdeas:
-- Verfolge ein Array Schritt für Schritt durch eine Schleife.
-- Verändere Schleifenbedingungen bewusst und beobachte die Folgen.
-- Berechne eine Summe über mehrere Werte.
-commonMistakes:
-- Bei 1 statt bei 0 zu beginnen.
-- Die Schleifenbedingung zu weit zu setzen.
-- Index und Wert zu verwechseln.
-keyTakeaways:
-- Arrays speichern mehrere Werte gleicher Art.
-- Schleifen verarbeiten diese Werte systematisch.
-- Saubere Grenzen verhindern Off-by-one-Fehler.
-level: einfach
-tags:
-- arrays
-- schleifen
-- index
-- programmierung
+title: "Arrays und Schleifen"
+description: "Verstehe, wie mehrere Werte mit Arrays gespeichert und mit Schleifen systematisch verarbeitet werden."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmieren", "arrays-und-schleifen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
-recognizeSignals:
-- Die Aufgabe oder Erklärung nennt Arrays und Schleifen direkt oder greift eng benachbarte Begriffe aus Programmierung auf.
-- Du sollst nicht nur einen Begriff nennen, sondern einen Zusammenhang, Ablauf oder eine Struktur sauber erklären.
-- In Beispielen musst du Werte, Schritte oder Bauteile geordnet lesen und richtig einordnen.
-selfCheckPoints:
-- Kann ich verstehst, wie Arrays und Schleifen zusammenarbeiten?
-- Kann ich liest Index, Länge und Schleifenbedingung sauber?
-- Kann ich erkennst typische Grenz- und Zählfehler?
 ---
-
-
 ## Warum die beiden fast immer zusammen auftauchen
 
 Ein Array speichert mehrere Werte in fester Reihenfolge. Eine Schleife sorgt dafür, dass diese Werte nacheinander gelesen, geprüft oder verändert werden können.

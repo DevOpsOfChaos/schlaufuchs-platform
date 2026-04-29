@@ -1,24 +1,14 @@
 ---
-title: Musterlösung – Speicherrollen am AVR sauber zuordnen
-description: Musterlösung zur Aufgabe ET-ATMEGA-MEM-306.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - speicher-und-daten
-  - atmega-flash-sram-und-eeprom-unterscheiden
-  - speicherrollen-am-avr-sauber-zuordnen-loesung
-taskId: ET-ATMEGA-MEM-306
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-flash-sram-und-eeprom-unterscheiden/speicherrollen-am-avr-sauber-zuordnen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
-  - speicher
+title: "Musterlösung – Speicherrollen am AVR sauber zuordnen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-MEM-306."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-flash-sram-und-eeprom-unterscheiden", "speicherrollen-am-avr-sauber-zuordnen"]
+taskId: "ET-ATMEGA-MEM-306"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-flash-sram-und-eeprom-unterscheiden/speicherrollen-am-avr-sauber-zuordnen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

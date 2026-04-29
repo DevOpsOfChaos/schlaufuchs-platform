@@ -1,21 +1,14 @@
 ---
-title: Loesung – Direkten und indirekten Methodenzugriff vergleichen
-description: Musterloesung zur Aufgabe ueber Punktoperator und Pfeiloperator.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - punktoperator-und-pfeiloperator-in-oop-zugriffen-unterscheiden
-taskId: INF-PROG-OOP-023
-relatedExercise: informatik/programmierung/oop/punktoperator-und-pfeiloperator-in-oop-zugriffen-unterscheiden/direkten-und-indirekten-methodenzugriff-vergleichen
-tags:
-  - informatik
-  - oop
-  - loesung
+title: "Loesung – Direkten und indirekten Methodenzugriff vergleichen"
+description: "Musterloesung zur Aufgabe ueber Punktoperator und Pfeiloperator."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "punktoperator-und-pfeiloperator-in-oop-zugriffen-unterscheiden", "direkten-und-indirekten-methodenzugriff-vergleichen"]
+taskId: "INF-PROG-OOP-023"
+relatedExercise: "informatik/programmierung/oop/punktoperator-und-pfeiloperator-in-oop-zugriffen-unterscheiden/direkten-und-indirekten-methodenzugriff-vergleichen"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterloesung
 
 ### Aufgabe 1

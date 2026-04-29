@@ -3,20 +3,12 @@ title: "Lösung – Protokoll und Inhalt trennen"
 description: "Musterlösung zu Protokoll und Inhalt trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "netzwerke"
-  - "protokolle"
-  - "protokoll-und-inhalt-trennen-v113"
+topicPath: ["netzwerke", "protokolle", "protokoll-und-inhalt-trennen-v113"]
 taskId: "v113-informatik-protokoll-und-inhalt-trennen-v113"
 relatedExercise: "informatik/netzwerke/protokolle/protokoll-und-inhalt-trennen-v113"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "protokoll-und-inhalt-trennen-v113"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Protokoll und Inhalt trennen**.

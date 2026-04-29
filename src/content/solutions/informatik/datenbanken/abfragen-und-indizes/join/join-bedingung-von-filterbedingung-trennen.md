@@ -3,23 +3,12 @@ title: "Lösung – Join-Bedingung von Filterbedingung trennen"
 description: "Musterlösung zu SQL Join mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenbanken"
-  - "abfragen-und-indizes"
-  - "join"
-  - "join-bedingung-von-filterbedingung-trennen"
+topicPath: ["datenbanken", "abfragen-und-indizes", "join", "join-bedingung-von-filterbedingung-trennen"]
 taskId: "v111-informatik-join-bedingung-von-filterbedingung-trennen"
 relatedExercise: "informatik/datenbanken/abfragen-und-indizes/join/join-bedingung-von-filterbedingung-trennen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "unterthema"
-  - "datenbanken"
-  - "abfragen-und-indizes"
-  - "join-bedingung-von-filterbedingung-trennen"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **SQL Join**.

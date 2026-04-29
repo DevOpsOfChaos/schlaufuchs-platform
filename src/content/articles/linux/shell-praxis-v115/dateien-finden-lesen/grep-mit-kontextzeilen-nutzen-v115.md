@@ -1,46 +1,19 @@
 ---
 title: "Linux – grep mit Kontextzeilen nutzen"
 description: "Trainiere grep mit Kontextzeilen nutzen als kleines Unterthema mit klarer Trennkante, Beispiel und Gegenprobe."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell-praxis-v115"
-  - "dateien-finden-lesen"
-  - "grep-mit-kontextzeilen-nutzen-v115"
-learningGoals:
-  - "Du erklärst grep mit Kontextzeilen nutzen an einem kleinen, abgegrenzten Fall."
-  - "Du trennst das Unterthema von einem naheliegenden Nachbarthema."
-  - "Du formulierst eine passende Gegenprobe statt nur eine fertige Antwort."
-practiceIdeas:
-  - "Schreibe zuerst die Prüffrage in eigenen Worten auf."
-  - "Markiere im Fall zwei Hinweise, die wirklich zur Entscheidung gehören."
-  - "Formuliere einen Gegenfall, in dem die Entscheidung anders ausfallen würde."
-commonMistakes:
-  - "Nur die Trefferzeile wird betrachtet."
-  - "Das Thema wird zu breit eingeordnet und verliert dadurch die prüfbare Trennkante."
-  - "Die Lösung nennt ein Ergebnis, begründet aber nicht die Abgrenzung."
-keyTakeaways:
-  - "Dieses Unterthema prüft vor allem: Braucht die Diagnose Zeilen davor oder danach?"
-  - "Eine gute Lösung benennt die Trennkante ausdrücklich."
-  - "Die Gegenprobe zeigt, ob die Begründung wirklich trägt."
-recognizeSignals:
-  - "Die Aufgabe fragt nach grep mit Kontextzeilen nutzen."
-  - "Ähnliche Begriffe oder Fälle liegen nah beieinander."
-  - "Eine kleine Änderung im Fall würde zu einer anderen Entscheidung führen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-level: mittel
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "shell-praxis"
-  - "dateien finden und lesen"
+topicPath: ["shell-praxis-v115", "dateien-finden-lesen", "grep-mit-kontextzeilen-nutzen-v115"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["linux", "Feinstruktur Linux"]
 draft: false
 ---
-
 <img src="/schlaufuchs-platform/illustrations/linux-grep-mit-kontextzeilen-nutzen-v115.svg" alt="Lernillustration zu grep mit Kontextzeilen nutzen" loading="lazy" />
 
 ## Grundidee

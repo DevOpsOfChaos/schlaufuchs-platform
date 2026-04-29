@@ -3,23 +3,12 @@ title: "Lösung: SEO, Metadaten und Snippets: Prüfung und Verbesserung"
 description: "Musterlösung zur Aufgabe web-v187-027b im Web-Development-Block v187."
 subject: "web-development"
 section: "qualitaet"
-topicPath: 
-  - "qualitaet-und-zugaenglichkeit"
-  - "metadaten"
-  - "loesung-b"
+topicPath: ["sanierung-v187", "seo-metadaten-und-snippets-aufgabe-b"]
 taskId: "web-v187-027b"
 relatedExercise: "web-development/sanierung-v187/seo-metadaten-und-snippets-aufgabe-b"
-tags: 
-  - "seo"
-  - "metadaten"
-  - "html"
-  - "suchmaschinen"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "qualitaet", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-027b`
 
     Ausgangsauftrag: Verbessere eine Seite mit unklarem Titel, fehlender Beschreibung und sprunghafter Überschriftenstruktur.

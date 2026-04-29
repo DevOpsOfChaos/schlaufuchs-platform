@@ -3,26 +3,12 @@ title: "Lösung: Logdateien unter /var/log: Aufgabe B"
 description: "Musterlösung zur Aufgabe linux-v192-011b im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "logging-und-diagnose"
-  - "logdateien-unter-var-log"
-  - "loesung-b"
+topicPath: ["sanierung-v192", "logdateien-unter-var-log-loesung-b"]
 taskId: "linux-v192-011b"
 relatedExercise: "linux/sanierung-v192/logdateien-unter-var-log-aufgabe-b"
-tags:
-  - "logging-und-diagnose"
-  - "logdateien"
-  - "var"
-  - "log"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-011b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Logdateien unter /var/log“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

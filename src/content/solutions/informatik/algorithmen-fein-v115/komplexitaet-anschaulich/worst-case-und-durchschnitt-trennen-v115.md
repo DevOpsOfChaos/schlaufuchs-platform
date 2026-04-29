@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Worst Case und Durchschnitt trennen"
 description: "Musterlösung zu Worst Case und Durchschnitt trennen mit Trennkante und Gegenprobe."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "algorithmen-fein-v115"
-  - "komplexitaet-anschaulich"
-  - "worst-case-und-durchschnitt-trennen-v115"
+topicPath: ["algorithmen-fein-v115", "komplexitaet-anschaulich", "worst-case-und-durchschnitt-trennen-v115"]
 taskId: "informatik-worst-case-und-durchschnitt-trennen-v115"
 relatedExercise: "informatik/algorithmen-fein-v115/komplexitaet-anschaulich/worst-case-und-durchschnitt-trennen-v115"
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "algorithmische feinstruktur"
-  - "komplexität anschaulich"
-  - "lösung"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Worst Case und Durchschnitt trennen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

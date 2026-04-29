@@ -3,22 +3,12 @@ title: "Lösung – Pure Functions für UI-Logik nutzen"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Development-Aufgabe."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "module-und-struktur"
-  - "pure-functions-fuer-ui-logik-nutzen"
-tags:
-  - "web development"
-  - "javascript"
-  - "tests"
-  - "wartbarkeit"
-  - "ui-logik"
-  - "lösung"
+topicPath: ["javascript", "module-und-struktur", "pure-functions-fuer-ui-logik-nutzen"]
 taskId: "web-v104-pure-functions-fuer-ui-logik-nutzen"
 relatedExercise: "web-development/javascript/module-und-struktur/pure-functions-fuer-ui-logik-nutzen"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Eine gute Lösung beginnt mit der Nutzer-Situation. Das Problem ist nicht nur technisch, sondern zeigt sich daran, dass eine Person nicht sicher erkennt, was gerade passiert oder wie sie weitermachen kann.

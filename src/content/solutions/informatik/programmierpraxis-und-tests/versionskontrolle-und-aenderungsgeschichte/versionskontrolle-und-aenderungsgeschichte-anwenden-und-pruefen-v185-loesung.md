@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Versionskontrolle und Änderungsgeschichte – anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über versionskontrolle und änderungsgeschichte."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "versionskontrolle-und-aenderungsgeschichte"
-  - "loesung"
-taskId: INF-V185-018-2
-relatedExercise: src/content/exercises/informatik/programmierpraxis-und-tests/versionskontrolle-und-aenderungsgeschichte/versionskontrolle-und-aenderungsgeschichte-anwenden-und-pruefen-v185.md
-tags:
-  - "informatik"
-  - "programmierpraxis-und-tests"
-  - "versionskontrolle-und-aenderungsgeschichte"
-  - "loesung"
+topicPath: ["programmierpraxis-und-tests", "versionskontrolle-und-aenderungsgeschichte", "versionskontrolle-und-aenderungsgeschichte-anwenden-und-pruefen-v185"]
+taskId: "INF-V185-018-2"
+relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/versionskontrolle-und-aenderungsgeschichte/versionskontrolle-und-aenderungsgeschichte-anwenden-und-pruefen-v185.md"
+tags: ["informatik", "Programmierpraxis und Tests", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

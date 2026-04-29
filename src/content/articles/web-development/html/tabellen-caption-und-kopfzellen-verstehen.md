@@ -1,45 +1,19 @@
 ---
-title: Tabellen mit Caption und Kopfzellen verstehen
-description: Verstehe, warum Tabellen mehr brauchen als nur viele Zellen und wie Caption sowie Kopfzellen Daten leichter lesbar machen.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - tabellen-barrierearm
-  - tabellen-caption-und-kopfzellen-verstehen
-learningGoals:
-  - Du erklärst die Rolle von <code>caption</code> und Kopfzellen in Tabellen.
-  - Du unterscheidest Datenzellen und beschreibende Zellen.
-  - Du beschreibst Tabellen als Struktur für Daten und nicht nur als Raster für Boxen.
-practiceIdeas:
-  - Prüfe bei einer Datentabelle, welche Zeile oder Spalte Überschriften enthält.
-  - Ergänze einer Tabelle eine kurze inhaltliche Bezeichnung.
-  - Vergleiche eine Tabelle mit und ohne klare Kopfstruktur.
-commonMistakes:
-  - Tabellen nur als optisches Gitter zu sehen.
-  - Spaltenüberschriften als normale Datenzellen zu schreiben.
-  - Eine Tabelle ohne klare inhaltliche Einordnung zu lassen.
-keyTakeaways:
-  - Eine Caption sagt, worum es in der Tabelle geht.
-  - Kopfzellen strukturieren Zeilen und Spalten inhaltlich.
-  - Gute Tabellen helfen beim Lesen, Vergleichen und Einordnen von Daten.
-recognizeSignals:
-  - Es geht um Datentabellen, Spaltenüberschriften oder die Frage, was eine Tabelle lesbar macht.
-  - Du sollst Tabellenstruktur und Dateninhalt unterscheiden.
-  - In Beispielen wird nach verständlicher Orientierung in einer Tabelle gefragt.
-selfCheckPoints:
-  - Kann ich die Aufgabe einer Caption erklären?
-  - Kann ich Kopfzellen von normalen Datenzellen unterscheiden?
-  - Kann ich beschreiben, warum Tabellen Orientierung brauchen?
-tags:
-  - html
-  - tabellen
-  - caption
-  - th
-level: einfach
+title: "Tabellen mit Caption und Kopfzellen verstehen"
+description: "Verstehe, warum Tabellen mehr brauchen als nur viele Zellen und wie Caption sowie Kopfzellen Daten leichter lesbar machen."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "tabellen-caption-und-kopfzellen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Eine gute Tabelle besteht nicht nur aus vielen Kästchen. Sie braucht auch Hinweise darauf, **worum es in der Tabelle geht** und **wie sich die Daten lesen lassen**. Genau dafür helfen eine Caption und Kopfzellen.

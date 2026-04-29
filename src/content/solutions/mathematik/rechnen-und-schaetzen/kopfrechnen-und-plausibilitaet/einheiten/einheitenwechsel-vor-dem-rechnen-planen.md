@@ -3,23 +3,12 @@ title: "Lösung – Einheitenwechsel vor dem Rechnen planen"
 description: "Musterlösung zu Einheitenwechsel mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "rechnen-und-schaetzen"
-  - "kopfrechnen-und-plausibilitaet"
-  - "einheiten"
-  - "einheitenwechsel-vor-dem-rechnen-planen"
+topicPath: ["rechnen-und-schaetzen", "kopfrechnen-und-plausibilitaet", "einheiten", "einheitenwechsel-vor-dem-rechnen-planen"]
 taskId: "v111-mathematik-einheitenwechsel-vor-dem-rechnen-planen"
 relatedExercise: "mathematik/rechnen-und-schaetzen/kopfrechnen-und-plausibilitaet/einheiten/einheitenwechsel-vor-dem-rechnen-planen"
-tags:
-  - "mathematik"
-  - "prüfung"
-  - "unterthema"
-  - "rechnen-und-schaetzen"
-  - "kopfrechnen-und-plausibilitaet"
-  - "einheitenwechsel-vor-dem-rechnen-planen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Einheitenwechsel**.

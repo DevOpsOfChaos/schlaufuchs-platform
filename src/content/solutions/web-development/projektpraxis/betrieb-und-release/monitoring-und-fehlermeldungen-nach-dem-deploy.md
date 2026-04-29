@@ -3,22 +3,12 @@ title: "Lösung – Monitoring und Fehlermeldungen nach dem Deploy"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Projektpraxis-Aufgabe."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "monitoring-und-fehlermeldungen-nach-dem-deploy"
-tags:
-  - "web development"
-  - "monitoring"
-  - "deployment"
-  - "fehlerdiagnose"
-  - "ux"
-  - "lösung"
+topicPath: ["projektpraxis", "betrieb-und-release", "monitoring-und-fehlermeldungen-nach-dem-deploy"]
 taskId: "web-v105-monitoring-und-fehlermeldungen-nach-dem-deploy"
 relatedExercise: "web-development/projektpraxis/betrieb-und-release/monitoring-und-fehlermeldungen-nach-dem-deploy"
+tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Eine gute Lösung beginnt mit der Nutzer- oder Wartungssituation. Das Problem wird nicht nur als technische Kleinigkeit behandelt, sondern als Risiko für Verständlichkeit, Betrieb oder spätere Änderung.

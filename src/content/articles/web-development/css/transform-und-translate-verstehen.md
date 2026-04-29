@@ -1,45 +1,19 @@
 ---
-title: Transform und Translate verstehen
-description: Verstehe, wie transform sichtbare Lage und Wirkung verändert, ohne den normalen Dokumentenfluss neu zu berechnen.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - transform-und-translate-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von transform.
-  - Du beschreibst translate eher als sichtbare Verschiebung als als normales Verschieben im Layoutfluss.
-  - Du unterscheidest Layout-Abstand von transformierter Darstellung.
-practiceIdeas:
-  - Vergleiche ein Element mit margin-Verschiebung und ein Element mit translate.
-  - Suche in kleinen UI-Beispielen nach Fällen, in denen etwas optisch wandert, ohne Nachbarelemente mitzuschieben.
-  - Lies Hover-Effekte eher als Darstellungseffekt als als neue Layoutberechnung.
-commonMistakes:
-  - translate mit margin oder position gleichzusetzen.
-  - zu denken, transform ändere automatisch den Platz im normalen Fluss.
-  - jeden Bewegungseffekt sofort als echtes Verschieben im Layout zu lesen.
-keyTakeaways:
-  - transform verändert vor allem die sichtbare Darstellung eines Elements.
-  - translate verschiebt optisch, ohne den Dokumentenfluss normal neu anzuordnen.
-  - Für kleine Interaktions- und Hervorhebungseffekte ist transform oft ruhiger als Layout-Werte zu ändern.
-recognizeSignals:
-  - Es geht um Karten, Buttons oder Bilder, die beim Hover leicht wandern oder kippen.
-  - Du sollst erklären, warum ein Effekt sichtbar ist, obwohl Nachbarelemente stehen bleiben.
-  - In Beispielen zählt die sichtbare Wirkung stärker als die HTML-Struktur.
-selfCheckPoints:
-  - Kann ich translate und margin fachlich unterscheiden?
-  - Kann ich erklären, warum Nachbarelemente bei transform oft nicht mitrücken?
-  - Kann ich transform eher als Darstellungseffekt lesen?
-tags:
-  - css
-  - transform
-  - translate
-  - layout
-level: mittel
+title: "Transform und Translate verstehen"
+description: "Verstehe, wie transform sichtbare Lage und Wirkung verändert, ohne den normalen Dokumentenfluss neu zu berechnen."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "transform-und-translate-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Mit `transform` kann ein Element **sichtbar anders wirken**, ohne dass der normale Dokumentenfluss so behandelt wird, als läge das Element wirklich neu im Layout. Genau deshalb sieht ein kleiner Hover-Effekt oft leicht und ruhig aus.

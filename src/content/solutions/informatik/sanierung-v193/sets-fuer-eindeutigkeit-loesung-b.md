@@ -3,23 +3,12 @@ title: "Lösung: Sets für Eindeutigkeit: Aufgabe B"
 description: "Musterlösung zur Aufgabe informatik-v193-017b im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "datenstrukturen-und-algorithmen"
-  - "sets-fuer-eindeutigkeit"
-  - "loesung-b"
+topicPath: ["sanierung-v193", "sets-fuer-eindeutigkeit-loesung-b"]
 taskId: "informatik-v193-017b"
 relatedExercise: "informatik/sanierung-v193/sets-fuer-eindeutigkeit-aufgabe-b"
-tags:
-  - "sets"
-  - "eindeutigkeit"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-017b`
 
 Ausgangsauftrag: Übertrage das Thema Sets für Eindeutigkeit auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

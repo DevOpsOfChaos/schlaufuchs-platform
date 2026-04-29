@@ -3,22 +3,12 @@ title: "Lösung – Layout-Breakpoints inhaltsbasiert wählen"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Development-Aufgabe."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "responsive-layouts"
-  - "layout-breakpoints-inhaltsbasiert-waehlen"
-tags:
-  - "web development"
-  - "css"
-  - "responsive"
-  - "breakpoints"
-  - "layout"
-  - "lösung"
+topicPath: ["css", "responsive-layouts", "layout-breakpoints-inhaltsbasiert-waehlen"]
 taskId: "web-v104-layout-breakpoints-inhaltsbasiert-waehlen"
 relatedExercise: "web-development/css/responsive-layouts/layout-breakpoints-inhaltsbasiert-waehlen"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Eine gute Lösung beginnt mit der Nutzer-Situation. Das Problem ist nicht nur technisch, sondern zeigt sich daran, dass eine Person nicht sicher erkennt, was gerade passiert oder wie sie weitermachen kann.

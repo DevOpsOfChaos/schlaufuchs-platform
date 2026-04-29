@@ -1,36 +1,19 @@
 ---
 title: "Grundlagen: Logik und Wahrheitstabellen"
 description: "Allgemeiner Überblick über digitale Logik, logische Verknüpfungen und Wahrheitstabellen als Darstellungsform."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Daten und Signale"
-topicPath:
-  - daten-und-signale
-  - logik-und-wahrheitstabellen
-  - grundlagen-logik-und-wahrheitstabellen
-learningGoals:
-  - "Du erklärst digitale Logik als Verknüpfung von Wahrheitswerten."
-  - "Du beschreibst Wahrheitstabellen als vollständige Übersicht möglicher Eingangszustände."
-  - "Du unterscheidest UND, ODER und NICHT als Grundverknüpfungen."
+topicPath: ["daten-und-signale", "logik-und-wahrheitstabellen", "ueberblick", "grundlagen-logik-und-wahrheitstabellen"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Logische Verknüpfungen mit Umgangssprache gleichzusetzen."
-  - "Nicht alle Eingangskombinationen einer Wahrheitstabelle zu betrachten."
-  - "Elektrische Pegel und logische Bedeutung ungeprüft zu vermischen."
-keyTakeaways:
-  - "Digitale Logik arbeitet mit klar unterscheidbaren Zuständen."
-  - "Wahrheitstabellen zeigen für jede Eingangskombination den Ausgang."
-  - "Komplexe Schaltungen lassen sich aus einfachen logischen Grundverknüpfungen aufbauen."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "digitaltechnik"
-  - "logik"
-  - "wahrheitstabelle"
+level: "einfach"
+tags: ["elektrotechnik", "Daten und Signale"]
 draft: false
 ---
-
 ## Begriff
 
 **Logik und Wahrheitstabellen** gehören zu den Grundlagen der Digitaltechnik. Digitale Logik beschreibt, wie aus Eingangszuständen Ausgangszustände entstehen. Eine Wahrheitstabelle zeigt diese Beziehung vollständig und systematisch.

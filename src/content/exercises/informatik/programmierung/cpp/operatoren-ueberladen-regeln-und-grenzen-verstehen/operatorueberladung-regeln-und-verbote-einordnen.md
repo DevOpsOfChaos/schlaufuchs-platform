@@ -1,33 +1,17 @@
 ---
-title: Operatorueberladung - Regeln und Verbote einordnen
-description: Ordne erlaubte, eingeschraenkte und verbotene Faelle der Operatorueberladung in C++ ein.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - operatoren-ueberladen-regeln-und-grenzen-verstehen
-  - operatorueberladung-regeln-und-verbote-einordnen
-taskId: INF-PROG-CPP-OPLOAD-001
-level: mittel
+title: "Operatorueberladung - Regeln und Verbote einordnen"
+description: "Ordne erlaubte, eingeschraenkte und verbotene Faelle der Operatorueberladung in C++ ein."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "operatoren-ueberladen-regeln-und-grenzen-verstehen", "operatorueberladung-regeln-und-verbote-einordnen"]
+taskId: "INF-PROG-CPP-OPLOAD-001"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - informatik
-  - aufgabe
-  - programmierung
-  - cpp
-  - operatoren
-hintPoints:
-  - Pruefe zuerst, ob ein benutzerdefinierter Typ beteiligt ist.
-  - Trenne frei erlaubte, nur-als-Member-erlaubte und verbotene Operatoren.
-selfCheckPoints:
-  - Habe ich die Grundregel zu Operanden beachtet?
-  - Habe ich Sprachlogik und neue Bedeutung nicht vermischt?
-transferIdeas:
-  - Uebertrage die Regeln auf einen eigenen Klassentyp wie Bruch oder Vektor.
-reflectionPrompt: Welche Regel hat dir am klarsten gezeigt, dass Operatorueberladung nicht alles darf?
 ---
-
 ## Aufgabe 1: Mindestbedingung pruefen
 
 Erklaere, warum reines <code>int + int</code> nicht durch Operatorueberladung neu definiert werden kann.

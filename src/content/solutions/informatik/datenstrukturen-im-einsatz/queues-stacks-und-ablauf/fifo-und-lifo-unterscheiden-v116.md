@@ -3,22 +3,12 @@ title: "Lösung: FIFO und LIFO unterscheiden"
 description: "Musterlösung zur Aufgabe „FIFO und LIFO unterscheiden“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "datenstrukturen-im-einsatz"
-  - "queues-stacks-und-ablauf"
-  - "fifo-und-lifo-unterscheiden-v116"
+topicPath: ["datenstrukturen-im-einsatz", "queues-stacks-und-ablauf", "fifo-und-lifo-unterscheiden-v116"]
 taskId: "fifo-und-lifo-unterscheiden-v116"
 relatedExercise: "informatik/datenstrukturen-im-einsatz/queues-stacks-und-ablauf/fifo-und-lifo-unterscheiden-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "queues stacks und ablauf"
-  - "fifo und lifo unterscheiden"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

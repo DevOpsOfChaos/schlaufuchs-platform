@@ -1,22 +1,14 @@
 ---
-title: Lösung – Atomare 16-Bit-Zugriffe am AVR sauber begründen
-description: Musterlösung zur Aufgabe über atomare Mehrbyte-Zugriffe zwischen Hauptprogramm und ISR.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - interrupts-und-nebenlaeufigkeit
-  - atmega-atomare-zugriffe-auf-16-bit-werte-verstehen
-taskId: ET-ATMEGA-ISR-403
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-atomare-zugriffe-auf-16-bit-werte-verstehen/atomare-16-bit-zugriffe-am-avr-sauber-begruenden.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - loesung
+title: "Lösung – Atomare 16-Bit-Zugriffe am AVR sauber begründen"
+description: "Musterlösung zur Aufgabe über atomare Mehrbyte-Zugriffe zwischen Hauptprogramm und ISR."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-atomare-zugriffe-auf-16-bit-werte-verstehen", "atomare-16-bit-zugriffe-am-avr-sauber-begruenden"]
+taskId: "ET-ATMEGA-ISR-403"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-atomare-zugriffe-auf-16-bit-werte-verstehen/atomare-16-bit-zugriffe-am-avr-sauber-begruenden.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

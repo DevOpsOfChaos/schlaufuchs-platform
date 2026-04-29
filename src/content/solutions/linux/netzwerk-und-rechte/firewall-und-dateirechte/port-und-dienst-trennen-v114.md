@@ -1,23 +1,14 @@
 ---
-title: Lösung – Port und Dienst trennen
-description: Musterlösung zur Aufgabe über Port und Dienst trennen.
-subject: linux
-section: Feinstruktur Linux
-topicPath:
-- netzwerk-und-rechte
-- firewall-und-dateirechte
-- port-und-dienst-trennen-v114
-taskId: v114-linux-port-und-dienst-trennen-v114
-relatedExercise: linux/netzwerk-und-rechte/firewall-und-dateirechte/port-und-dienst-trennen-v114
-tags:
-- linux
-- v114
-- loesung
-- netzwerk-und-rechte
-- firewall-und-dateirechte
+title: "Lösung – Port und Dienst trennen"
+description: "Musterlösung zur Aufgabe über Port und Dienst trennen."
+subject: "linux"
+section: "Feinstruktur Linux"
+topicPath: ["netzwerk-und-rechte", "firewall-und-dateirechte", "port-und-dienst-trennen-v114"]
+taskId: "v114-linux-port-und-dienst-trennen-v114"
+relatedExercise: "linux/netzwerk-und-rechte/firewall-und-dateirechte/port-und-dienst-trennen-v114"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

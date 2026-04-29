@@ -1,20 +1,14 @@
 ---
 title: "Lösung: Dioden – Grundaufgaben"
 description: "Lösung zur Grundaufgabe über Richtung, Einbau und Grundfunktion von Dioden."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Grundlagen Elektrotechnik"
-topicPath:
-  - "dioden"
+topicPath: ["dioden-grundaufgaben"]
 taskId: "ET-GR-DIODE-001"
 relatedExercise: "src/content/exercises/elektrotechnik/dioden-grundaufgaben.md"
-tags:
-  - "elektrotechnik"
-  - "diode"
-  - "richtung"
-  - "halbleiter"
+tags: ["elektrotechnik", "Grundlagen Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Lösungsgedanke
 
 Diese Lösung ist bewusst als Musterlösung aufgebaut. Sie zeigt nicht nur ein Ergebnis, sondern die fachliche Begründung, damit die Aufgabe später nachvollziehbar kontrolliert werden kann.

@@ -1,12 +1,17 @@
 ---
-title: Programmstruktur – Grundaufgaben
-description: Übe das fachliche Erkennen und Beschreiben geordneter Programmabläufe.
-subject: informatik
-section: programmstruktur
-level: einfach
+title: "Programmstruktur – Grundaufgaben"
+description: "Übe das fachliche Erkennen und Beschreiben geordneter Programmabläufe."
+subject: "informatik"
+section: "programmstruktur"
+topicPath: ["programmstruktur-grundaufgaben"]
+taskId: "AUTO-PROGRAMMSTRUKTUR-GRUNDAUFGABEN"
+tags: ["informatik", "programmstruktur", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe hält die Grundidee von Programmstruktur bewusst einfach: Du sollst verstehen, **warum geordneter Code leichter lesbar und bearbeitbar ist**.
 
 ## Lernziel

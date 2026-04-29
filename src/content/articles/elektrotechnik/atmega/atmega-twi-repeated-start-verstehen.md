@@ -1,46 +1,19 @@
 ---
-title: ATmega – TWI-Repeated-Start verstehen
-description: Verstehe am AVR-TWI, warum auf dem I2C-Bus zwischen zwei Phasen einer Kommunikation nicht immer ein Stop nötig ist und wozu ein Repeated Start dient.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-schnittstellen-und-busse
-  - atmega-twi-repeated-start-verstehen
-learningGoals:
-  - Du erklärst die Grundidee eines Repeated Start auf dem TWI-Bus.
-  - Du unterscheidest Stop plus Neustart von einer fortgesetzten Busübernahme sauber.
-  - Du liest komplexere TWI-Transfers eher als zusammenhängende Rahmenfolge statt als lose Einzelschritte.
-practiceIdeas:
-  - Verfolge eine Registeradresse mit anschließendem Lesen als zusammenhängenden Busablauf.
-  - Prüfe, warum zwischen Schreiben und Lesen nicht immer ein Stop gesetzt wird.
-  - Lies den Repeated Start eher als Buskontinuität als als „noch ein Startbit“.
-commonMistakes:
-  - Zu denken, jede TWI-Phase müsse mit Stop vollständig beendet werden.
-  - Repeated Start als völlig neuen unabhängigen Busvorgang zu lesen.
-  - Schreibphase und folgende Lesephase nicht als zusammenhängende Transaktion zu sehen.
-keyTakeaways:
-  - Ein Repeated Start hält die Kontrolle über den Bus in einer zusammenhängenden Transaktion.
-  - Stop und Repeated Start sind nicht dieselbe strukturelle Aussage.
-  - Viele Registerzugriffe mit anschließendem Lesen werden erst durch den Repeated Start ruhig verständlich.
-recognizeSignals:
-  - Es geht um TWI Registerzugriffe, Umschalten von Schreiben auf Lesen oder zusammenhängende Busphasen.
-  - Du sollst erklären, warum kein Stop zwischen Adress- und Lesephase auftaucht.
-  - In Aufgaben ist die Rahmenfolge wichtiger als nur das Datenbyte.
-selfCheckPoints:
-  - Kann ich Stop und Repeated Start sauber unterscheiden?
-  - Kann ich eine Schreib-Lese-Folge als eine Transaktion beschreiben?
-  - Kann ich erklären, warum der Bus dabei zusammenhängend gehalten wird?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - twi
-  - repeated-start
-level: fortgeschritten
+title: "ATmega – TWI-Repeated-Start verstehen"
+description: "Verstehe am AVR-TWI, warum auf dem I2C-Bus zwischen zwei Phasen einer Kommunikation nicht immer ein Stop nötig ist und wozu ein Repeated Start dient."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-twi-repeated-start-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Beim TWI- oder I2C-Bus ist eine Kommunikation oft mehrstufig. Ein Master schreibt zum Beispiel zuerst eine Registeradresse und liest danach Daten zurück. Genau dabei ist wichtig zu verstehen, dass zwischen diesen Phasen **nicht immer ein Stop** gesetzt wird. Stattdessen kann ein **Repeated Start** die Transaktion zusammenhängend halten.

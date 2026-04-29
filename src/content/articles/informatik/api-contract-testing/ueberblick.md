@@ -1,36 +1,19 @@
 ---
 title: "API Contract Testing"
 description: "API Contract Testing prüft, ob Anbieter und Konsumenten einer Schnittstelle dieselben Erwartungen an Struktur, Verhalten und Versionen teilen."
-subject: informatik
+subject: "informatik"
 section: "Tests"
-topicPath:
-  - "api-contract-testing"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst API Contract Testing als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["api-contract-testing", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft werden APIs nur isoliert getestet, ohne die Erwartungen realer Konsumenten zu prüfen."
-keyTakeaways:
-  - "API Contract Testing prüft, ob Anbieter und Konsumenten einer Schnittstelle dieselben Erwartungen an Struktur, Verhalten und Versionen teilen."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um API Contract Testing, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich API Contract Testing in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "api"
-  - "tests"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Tests"]
 draft: false
 ---
-
 # API Contract Testing
 
 API Contract Testing prüft, ob Anbieter und Konsumenten einer Schnittstelle dieselben

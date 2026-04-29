@@ -1,19 +1,17 @@
 ---
-title: Lineare Zusammenhänge erkennen – Aufgabe A
-description: Kurze Übung zu Lineare Zusammenhänge erkennen mit sichtbarem Lösungsweg.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Lineare Zusammenhänge erkennen – Aufgabe A"
+description: "Kurze Übung zu Lineare Zusammenhänge erkennen mit sichtbarem Lösungsweg."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "funktionen-im-vergleich", "lineare-zusammenhaenge-erkennen"]
 taskId: "mat-v196-lineare-zusammenhaenge-erkennen-a"
 tags: ["mathematik", "v196", "funktionen-im-vergleich", "lineare-zusammenhaenge-erkennen"]
-hintPoints: ["Schreibe zuerst die Frage auf.", "Trenne Angaben, Rechnung und Kontrolle.", "Nutze eine Einheit oder einen Größencheck."]
-selfCheckPoints: ["Ist dein Weg nachvollziehbar?", "Ist die Antwort im Kontext formuliert?", "Hast du mindestens eine Kontrolle genannt?"]
-transferIdeas: ["Wähle ein zweites Zahlenbeispiel.", "Erkläre den Weg einer anderen Person.", "Vergleiche mit einer Skizze oder Tabelle."]
-reflectionPrompt: "Welche Stelle war entscheidend: Deutung, Rechnung oder Kontrolle?"
-level: mittel
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite eine kleine Situation zu Lineare Zusammenhänge erkennen: Formuliere die Frage, ordne die Angaben, wähle einen passenden Lösungsweg und nenne eine Kontrolle.

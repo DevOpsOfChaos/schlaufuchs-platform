@@ -1,20 +1,14 @@
 ---
 title: "Lösung – ISR kurz und verständlich halten"
 description: "Musterlösung zur Aufgabe ISR kurz und verständlich halten."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - mikrocontroller-und-atmega
-  - interrupts-und-isr
-taskId: ET-V181-017
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/interrupts-und-isr/isr-kurz-und-verstaendlich-halten.md
-tags:
-  - elektrotechnik
-  - interrupts-und-isr
-  - loesung
+topicPath: ["mikrocontroller-und-atmega", "interrupts-und-isr", "isr-kurz-und-verstaendlich-halten"]
+taskId: "ET-V181-017"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/interrupts-und-isr/isr-kurz-und-verstaendlich-halten.md"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

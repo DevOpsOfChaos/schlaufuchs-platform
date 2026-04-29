@@ -3,22 +3,12 @@ title: "Lösung: Pflichtfeld sichtbar erklären"
 description: "Musterlösung zur Aufgabe „Pflichtfeld sichtbar erklären“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "html-zugaenglichkeit-und-struktur"
-  - "formulare-und-fehlertexte"
-  - "pflichtfeld-sichtbar-erklaeren-v116"
+topicPath: ["html-zugaenglichkeit-und-struktur", "formulare-und-fehlertexte", "pflichtfeld-sichtbar-erklaeren-v116"]
 taskId: "pflichtfeld-sichtbar-erklaeren-v116"
 relatedExercise: "web-development/html-zugaenglichkeit-und-struktur/formulare-und-fehlertexte/pflichtfeld-sichtbar-erklaeren-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "formulare und fehlertexte"
-  - "pflichtfeld sichtbar erklaeren"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

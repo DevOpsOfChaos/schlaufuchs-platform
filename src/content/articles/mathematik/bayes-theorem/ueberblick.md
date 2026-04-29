@@ -1,33 +1,19 @@
 ---
 title: "Bayes-Theorem"
 description: "Das Bayes-Theorem beschreibt, wie Wahrscheinlichkeiten durch neue Informationen aktualisiert werden. Es verbindet bedingte Wahrscheinlichkeiten in zwei Richtungen."
-subject: mathematik
+subject: "mathematik"
 section: "Mathematik"
-topicPath:
-  - "bayes-theorem"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Bayes-Theorem."
-  - "Du kannst Bayes-Theorem in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["bayes-theorem", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Die Grundrate zu ignorieren."
-keyTakeaways:
-  - "Das Bayes-Theorem beschreibt, wie Wahrscheinlichkeiten durch neue Informationen aktualisiert werden."
-  - "Wichtig sind vor allem vorwissen und neue evidenz, bedingte wahrscheinlichkeit und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Bayes-Theorem, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Bayes-Theorem dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "grundlagen"
-  - "bayes theorem"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Mathematik"]
 draft: false
 ---
-
 # Bayes-Theorem
 
 ![Schaubild zum Satz von Bayes.](/schlaufuchs-platform/images/overviews/v149/bayes-theorem.svg)

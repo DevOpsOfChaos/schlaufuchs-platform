@@ -3,22 +3,12 @@ title: "Lösung: Variable aus dem Text begründen"
 description: "Musterlösung zur Aufgabe „Variable aus dem Text begründen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "modellieren-und-validieren"
-  - "textmodell-und-variablenwahl"
-  - "variable-aus-dem-text-begruenden-v116"
+topicPath: ["modellieren-und-validieren", "textmodell-und-variablenwahl", "variable-aus-dem-text-begruenden-v116"]
 taskId: "variable-aus-dem-text-begruenden-v116"
 relatedExercise: "mathematik/modellieren-und-validieren/textmodell-und-variablenwahl/variable-aus-dem-text-begruenden-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "textmodell und variablenwahl"
-  - "variable aus dem text begruenden"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

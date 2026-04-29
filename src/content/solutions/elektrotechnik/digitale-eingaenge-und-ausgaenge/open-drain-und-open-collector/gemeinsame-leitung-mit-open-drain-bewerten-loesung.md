@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Gemeinsame Leitung mit Open-Drain bewerten"
 description: "Musterlösung zur Aufgabe: Gemeinsame Leitung mit Open-Drain bewerten."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Digitale Eingänge und Ausgänge"
-topicPath:
-  - digitale-eingaenge-und-ausgaenge
-  - open-drain-und-open-collector
-taskId: ET-V182-008
-relatedExercise: src/content/exercises/elektrotechnik/digitale-eingaenge-und-ausgaenge/open-drain-und-open-collector/gemeinsame-leitung-mit-open-drain-bewerten.md
-tags:
-  - elektrotechnik
-  - open-drain-und-open-collector
-  - loesung
-  - sanierung-v182
+topicPath: ["digitale-eingaenge-und-ausgaenge", "open-drain-und-open-collector", "gemeinsame-leitung-mit-open-drain-bewerten"]
+taskId: "ET-V182-008"
+relatedExercise: "src/content/exercises/elektrotechnik/digitale-eingaenge-und-ausgaenge/open-drain-und-open-collector/gemeinsame-leitung-mit-open-drain-bewerten.md"
+tags: ["elektrotechnik", "Digitale Eingänge und Ausgänge", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

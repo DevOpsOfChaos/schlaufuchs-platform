@@ -1,33 +1,17 @@
 ---
-title: Kontrollstrukturen nach Zweck ordnen
-description: Ordne typische C++-Kontrollstrukturen den Grundideen Sequenz, Auswahl und Wiederholung zu.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - kontrollstrukturen
-  - kontrollstrukturen-in-cpp-grundidee-verstehen
-  - kontrollstrukturen-nach-zweck-ordnen
-taskId: INF-PROG-CPP-KONTROLL-001
-level: einfach
+title: "Kontrollstrukturen nach Zweck ordnen"
+description: "Ordne typische C++-Kontrollstrukturen den Grundideen Sequenz, Auswahl und Wiederholung zu."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "kontrollstrukturen-in-cpp-grundidee-verstehen", "kontrollstrukturen-nach-zweck-ordnen"]
+taskId: "INF-PROG-CPP-KONTROLL-001"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - kontrollstrukturen
-hintPoints:
-  - "Suche zuerst die Ablaufidee und erst danach das Sprachkonstrukt."
-  - "Nicht jede Form verzweigt oder wiederholt."
-selfCheckPoints:
-  - "Hast du Sequenz, Auswahl und Wiederholung sauber getrennt?"
-  - "Passt deine Begründung zur Ablaufidee?"
-transferIdeas:
-  - "Übertrage die Sortierung auf Alltagsabläufe wie Login, Menü oder Listenprüfung."
-reflectionPrompt: "Warum hilft dir die Ablaufidee mehr als bloße Syntaxnamen?"
 ---
-
 ## Aufgabe 1: Grundidee zuordnen
 
 Ordne diese Konstrukte zu:

@@ -1,34 +1,19 @@
 ---
 title: "Konsistenzmodell"
 description: "Überblick über Regeln, wann verschiedene Beteiligte denselben Datenstand sehen können oder müssen."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "konsistenzmodell"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["konsistenzmodell", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Zu erwarten, dass jedes verteilte System überall sofort denselben Zustand zeigt."
-keyTakeaways:
-  - "Konsistenzmodelle legen fest, welche Datenstände ein System verspricht und welche Verzögerungen erlaubt sind."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Replikation, Caches, verteilte Datenbanken oder Offline-Synchronisation vorkommen."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "datenbanken"
-  - "verteilte systeme"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Konsistenzmodell
 
 Ein Konsistenzmodell beschreibt, welche Garantien ein System über die Sichtbarkeit von Datenänderungen gibt. Es beantwortet, wann eine Änderung für andere Leser sichtbar wird und welche Zwischenzustände erlaubt sind.

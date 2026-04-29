@@ -3,44 +3,17 @@ title: "JavaScript – optimistische UI und Bestätigung sauber trennen"
 description: "Verstehe, warum eine Oberfläche manchmal sofort reagiert, aber den Serverzustand trotzdem noch bestätigen muss."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "zugaenglichkeit-und-ux"
-  - "optimistische-ui-und-bestaetigung-sauber-trennen"
-tags:
-  - "web development"
-  - "javascript"
-  - "ux"
-  - "zustand"
-  - "feedback"
-learningGoals:
-  - "Du unterscheidest sichtbaren Sofortzustand und bestätigten Serverzustand."
-  - "Du planst Rücknahmewege für fehlgeschlagene Aktionen."
-  - "Du formulierst Statusmeldungen verständlich."
-practiceIdeas:
-  - "Übertrage die Idee auf eine kleine eigene Seite."
-  - "Prüfe die Bedienung einmal mit Tastatur und einmal mit Maus."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "Optimistische Änderung als garantiert erfolgreich darzustellen."
-  - "Fehlerfälle ohne sichtbare Rücknahme zu lassen."
-  - "Nutzerinnen und Nutzer über den echten Speicherzustand im Unklaren zu lassen."
-keyTakeaways:
-  - "Struktur, Zustand und Rückmeldung müssen zusammenpassen."
-  - "Sichtbare Nutzerführung ist Teil der technischen Lösung."
-  - "Saubere Webentwicklung prüft auch Fehlerfälle und Sonderwege."
-recognizeSignals:
-  - "Eine Oberfläche soll verständlicher, robuster oder zugänglicher werden."
-  - "HTML, CSS und JavaScript müssen gemeinsam gelesen werden."
-  - "Es gibt einen Zustand, der sichtbar gemacht oder kontrolliert werden muss."
-selfCheckPoints:
-  - "Kann ich die Entscheidung in einem Satz erklären?"
-  - "Bleibt die Lösung bei Fehlern oder Tastaturbedienung verständlich?"
-  - "Sind sichtbare Texte klar und deutsch formuliert?"
+topicPath: ["javascript", "zugaenglichkeit-und-ux", "optimistische-ui-und-bestaetigung-sauber-trennen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Verstehe, warum eine Oberfläche manchmal sofort reagiert, aber den Serverzustand trotzdem noch bestätigen muss. Die Seite betrachtet das Thema nicht als isolierten Syntaxtrick, sondern als kleine Entscheidung für Bedienbarkeit, Wartbarkeit und verständliche Rückmeldung.

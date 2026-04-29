@@ -3,23 +3,12 @@ title: "Lösung – RC-Hochpass und Tiefpass qualitativ unterscheiden"
 description: "Musterlösung zu RC-Filter mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "elektrotechnik"
 section: "Bauteile"
-topicPath:
-  - "bauteile"
-  - "kondensatoren-und-filter"
-  - "hochpass-tiefpass"
-  - "rc-hochpass-und-tiefpass-qualitativ-unterscheiden"
+topicPath: ["bauteile", "kondensatoren-und-filter", "hochpass-tiefpass", "rc-hochpass-und-tiefpass-qualitativ-unterscheiden"]
 taskId: "v108-elektrotechnik-rc-hochpass-und-tiefpass-qualitativ-unterscheiden"
 relatedExercise: "elektrotechnik/bauteile/kondensatoren-und-filter/hochpass-tiefpass/rc-hochpass-und-tiefpass-qualitativ-unterscheiden"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "schaltungen"
-  - "bauteile"
-  - "kondensatoren-und-filter"
-  - "rc-filter"
+tags: ["elektrotechnik", "Bauteile", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **RC-Filter**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

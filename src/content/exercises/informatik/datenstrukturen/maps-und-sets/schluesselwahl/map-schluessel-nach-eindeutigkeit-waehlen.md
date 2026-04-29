@@ -3,35 +3,15 @@ title: "Aufgabe – Map-Schlüssel nach Eindeutigkeit wählen"
 description: "Übe Schlüsselwahl mit einem konkreten Fall, einer Abgrenzung und einer Gegenprobe."
 subject: "informatik"
 section: "Datenstrukturen"
-topicPath:
-  - "datenstrukturen"
-  - "maps-und-sets"
-  - "schluesselwahl"
-  - "map-schluessel-nach-eindeutigkeit-waehlen"
+topicPath: ["datenstrukturen", "maps-und-sets", "schluesselwahl", "map-schluessel-nach-eindeutigkeit-waehlen"]
 taskId: "v108-informatik-map-schluessel-nach-eindeutigkeit-waehlen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "datenstrukturen"
-  - "maps-und-sets"
-  - "schlüsselwahl"
-hintPoints:
-  - "Bestimme zuerst das kleine Unterthema."
-  - "Notiere, welches Nachbarthema ausdrücklich nicht gemeint ist."
-  - "Nutze eine Gegenprobe statt nur eine Behauptung."
-selfCheckPoints:
-  - "Ist der Fall eng genug eingeordnet?"
-  - "Wird die typische Verwechslung sichtbar?"
-  - "Passt die Gegenprobe zur Wissensseite?"
-transferIdeas:
-  - "Verändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere aus deiner Lösung einen kurzen Merksatz für eine zweite Person."
-reflectionPrompt: "Warum wäre eine breite Sammelantwort hier unübersichtlicher als das Unterthema „Schlüsselwahl“?"
+tags: ["informatik", "Datenstrukturen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den Fall zu **Schlüsselwahl**.

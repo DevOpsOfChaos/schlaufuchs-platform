@@ -1,12 +1,17 @@
 ---
-title: HTML-Grundlagen – Grundaufgaben
-description: Übe das fachliche Einordnen von HTML als Struktur- und Inhaltsbeschreibung.
-subject: web-development
-section: html-grundlagen
-level: einfach
+title: "HTML-Grundlagen – Grundaufgaben"
+description: "Übe das fachliche Einordnen von HTML als Struktur- und Inhaltsbeschreibung."
+subject: "web-development"
+section: "html-grundlagen"
+topicPath: ["html-grundlagen-grundaufgaben"]
+taskId: "AUTO-HTML-GRUNDLAGEN-GRUNDAUFGABEN"
+tags: ["web-development", "html-grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe hält die Grundidee von HTML bewusst einfach: Du sollst verstehen, **warum HTML Inhalte strukturiert und nicht direkt gestaltet**.
 
 ## Lernziel

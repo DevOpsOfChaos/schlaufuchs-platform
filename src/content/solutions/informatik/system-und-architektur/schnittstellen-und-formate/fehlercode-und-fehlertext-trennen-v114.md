@@ -1,23 +1,14 @@
 ---
-title: Lösung – Fehlercode und Fehlertext trennen
-description: Musterlösung zur Aufgabe über Fehlercode und Fehlertext trennen.
-subject: informatik
-section: Feinstruktur Informatik
-topicPath:
-- system-und-architektur
-- schnittstellen-und-formate
-- fehlercode-und-fehlertext-trennen-v114
-taskId: v114-informatik-fehlercode-und-fehlertext-trennen-v114
-relatedExercise: informatik/system-und-architektur/schnittstellen-und-formate/fehlercode-und-fehlertext-trennen-v114
-tags:
-- informatik
-- v114
-- loesung
-- system-und-architektur
-- schnittstellen-und-formate
+title: "Lösung – Fehlercode und Fehlertext trennen"
+description: "Musterlösung zur Aufgabe über Fehlercode und Fehlertext trennen."
+subject: "informatik"
+section: "Feinstruktur Informatik"
+topicPath: ["system-und-architektur", "schnittstellen-und-formate", "fehlercode-und-fehlertext-trennen-v114"]
+taskId: "v114-informatik-fehlercode-und-fehlertext-trennen-v114"
+relatedExercise: "informatik/system-und-architektur/schnittstellen-und-formate/fehlercode-und-fehlertext-trennen-v114"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

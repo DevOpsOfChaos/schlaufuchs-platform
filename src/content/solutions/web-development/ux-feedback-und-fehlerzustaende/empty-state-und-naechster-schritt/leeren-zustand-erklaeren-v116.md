@@ -3,22 +3,12 @@ title: "Lösung: leeren Zustand erklären"
 description: "Musterlösung zur Aufgabe „leeren Zustand erklären“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "ux-feedback-und-fehlerzustaende"
-  - "empty-state-und-naechster-schritt"
-  - "leeren-zustand-erklaeren-v116"
+topicPath: ["ux-feedback-und-fehlerzustaende", "empty-state-und-naechster-schritt", "leeren-zustand-erklaeren-v116"]
 taskId: "leeren-zustand-erklaeren-v116"
 relatedExercise: "web-development/ux-feedback-und-fehlerzustaende/empty-state-und-naechster-schritt/leeren-zustand-erklaeren-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "empty state und naechster schritt"
-  - "leeren zustand erklaeren"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

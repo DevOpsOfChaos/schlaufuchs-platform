@@ -3,23 +3,12 @@ title: "Lösung – Adminrolle und Fachrolle trennen"
 description: "Musterlösung zu Rollenmodell mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "sicherheit-und-betrieb"
-  - "zugriff-logs-und-geheimnisse"
-  - "rechte"
-  - "adminrolle-und-fachrolle-trennen"
+topicPath: ["sicherheit-und-betrieb", "zugriff-logs-und-geheimnisse", "rechte", "adminrolle-und-fachrolle-trennen"]
 taskId: "v111-informatik-adminrolle-und-fachrolle-trennen"
 relatedExercise: "informatik/sicherheit-und-betrieb/zugriff-logs-und-geheimnisse/rechte/adminrolle-und-fachrolle-trennen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "unterthema"
-  - "sicherheit-und-betrieb"
-  - "zugriff-logs-und-geheimnisse"
-  - "adminrolle-und-fachrolle-trennen"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Rollenmodell**.

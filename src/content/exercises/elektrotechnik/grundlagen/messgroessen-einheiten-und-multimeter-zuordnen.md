@@ -1,12 +1,17 @@
 ---
-title: Messgrößen, Einheiten und Multimeter zuordnen
-description: Diese Aufgabe vertieft den sicheren Umgang mit elektrischen Messgrößen, Einheiten und der passenden Messfunktion.
-subject: elektrotechnik
-section: Grundlagen
-level: mittel
+title: "Messgrößen, Einheiten und Multimeter zuordnen"
+description: "Diese Aufgabe vertieft den sicheren Umgang mit elektrischen Messgrößen, Einheiten und der passenden Messfunktion."
+subject: "elektrotechnik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "messgroessen-einheiten-und-multimeter-zuordnen"]
+taskId: "AUTO-MESSGROESSEN-EINHEITEN-UND-MULTIMETER-ZUORDNEN"
+tags: ["elektrotechnik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben so, dass immer klar bleibt, welche Größe gemessen wird und welche Einheit dazu gehört.

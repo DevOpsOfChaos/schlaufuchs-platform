@@ -1,12 +1,17 @@
 ---
-title: Quadratische Funktionen – Grundaufgaben
-description: Übe das Lesen von Parabeln, Scheitelpunkt und Öffnung quadratischer Funktionen.
-subject: mathematik
-section: quadratische-funktionen
-level: einfach
+title: "Quadratische Funktionen – Grundaufgaben"
+description: "Übe das Lesen von Parabeln, Scheitelpunkt und Öffnung quadratischer Funktionen."
+subject: "mathematik"
+section: "quadratische-funktionen"
+topicPath: ["quadratische-funktionen-grundaufgaben"]
+taskId: "AUTO-QUADRATISCHE-FUNKTIONEN-GRUNDAUFGABEN"
+tags: ["mathematik", "quadratische-funktionen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe hält die klassische Grundidee quadratischer Funktionen fest: Du sollst Parabeln nicht nur erkennen, sondern ihre **Richtung, Form und Grundmerkmale** sicher deuten.
 
 ## Lernziel

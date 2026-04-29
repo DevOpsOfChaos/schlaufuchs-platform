@@ -3,23 +3,12 @@ title: "Lösung – Backup-Ausschlüsse dokumentieren"
 description: "Musterlösung zu Backup-Excludes mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "praxis"
-  - "backup-und-wiederherstellung"
-  - "ausschluesse"
-  - "backup-ausschluesse-dokumentieren"
+topicPath: ["praxis", "backup-und-wiederherstellung", "ausschluesse", "backup-ausschluesse-dokumentieren"]
 taskId: "v111-linux-backup-ausschluesse-dokumentieren"
 relatedExercise: "linux/praxis/backup-und-wiederherstellung/ausschluesse/backup-ausschluesse-dokumentieren"
-tags:
-  - "linux"
-  - "betrieb"
-  - "unterthema"
-  - "praxis"
-  - "backup-und-wiederherstellung"
-  - "backup-ausschluesse-dokumentieren"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Backup-Excludes**.

@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Dienste und systemd"
 description: "Ordne Dienste als verwaltete Hintergrundprozesse und systemd als Steuerungsebene ein."
-subject: linux
+subject: "linux"
 section: "system-und-dienste"
-topicPath:
-  - "system-und-dienste"
-  - "dienste-und-systemd"
-learningGoals:
-  - "Du erklärst Dienste und systemd in eigenen Worten."
-  - "Du ordnest typische Befehle, Begriffe oder Prüfschritte richtig ein."
-  - "Du erkennst typische Grenzen und Fehlerquellen im Linux-Alltag."
-practiceIdeas:
-  - "Beschreibe eine kleine Alltagssituation zu diesem Thema."
-  - "Markiere, welche Information zuerst geprüft werden muss."
-commonMistakes:
-  - "Ein einzelnes Kommando für das ganze Thema zu halten."
-  - "Ausgabe, Zustand und Ursache zu vermischen."
-  - "Ohne Kontext direkt an Sonderfälle zu springen."
-keyTakeaways:
-  - "Dienste laufen meist im Hintergrund und werden vom System verwaltet."
-  - "systemd organisiert Start, Abhängigkeiten und Status."
-  - "Status und Logs gehören bei der Analyse zusammen."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung statt nur eines Befehlsrezepts."
-  - "Mehrere ähnliche Befehle oder Dateien wirken unklar."
-selfCheckPoints:
-  - "Kann ich Zweck, Kontext und typischen Prüfschritt unterscheiden?"
-  - "Kann ich eine einfache Fehlannahme zum Thema benennen?"
-level: mittel
-tags:
-  - "linux"
-  - "systemd"
-  - "dienste"
+topicPath: ["system-und-dienste", "dienste-und-systemd", "ueberblick", "grundlagen-dienste-und-systemd-v186"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["linux", "system-und-dienste"]
 draft: false
 ---
-
 ![Dienste und systemd](/schlaufuchs-platform/images/overviews/v186/dienste-und-systemd.svg)
 
 ## Begriff

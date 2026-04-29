@@ -1,21 +1,14 @@
 ---
-title: Lösung – Freien Außenraum bei Zentrierung begründen
-description: Musterlösung zur Aufgabe über margin auto und sichtbare Zentrierung.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - margin-auto-und-zentrierung-verstehen
-taskId: WEB-CSS-LAYOUT-203
-relatedExercise: web-development/css/margin-auto-und-zentrierung-verstehen/freien-aussenraum-bei-zentrierung-begruenden
-tags:
-  - css
-  - margin
-  - loesung
+title: "Lösung – Freien Außenraum bei Zentrierung begründen"
+description: "Musterlösung zur Aufgabe über margin auto und sichtbare Zentrierung."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "margin-auto-und-zentrierung-verstehen", "freien-aussenraum-bei-zentrierung-begruenden"]
+taskId: "WEB-CSS-LAYOUT-203"
+relatedExercise: "web-development/css/margin-auto-und-zentrierung-verstehen/freien-aussenraum-bei-zentrierung-begruenden"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

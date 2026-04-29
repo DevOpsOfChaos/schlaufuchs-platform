@@ -1,28 +1,17 @@
 ---
 title: "Logikspannungen-Kompatibilität prüfen"
 description: "Bewerte, ob zwei digitale Systeme direkt verbunden werden dürfen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Digitale Eingänge und Ausgänge"
-topicPath:
-  - digitale-eingaenge-und-ausgaenge
-  - pegelwandler-und-logikspannungen
-taskId: ET-V181-009
-tags:
-  - elektrotechnik
-  - pegelwandler-und-logikspannungen
-  - sanierung-v181
-hintPoints:
-  - "Lies zuerst den Normalzustand und dann den Fehlerfall."
-  - "Trenne elektrische Ebene, logische Bedeutung und praktische Prüfung."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["digitale-eingaenge-und-ausgaenge", "pegelwandler-und-logikspannungen", "logikspannungen-kompatibilitaet-pruefen"]
+taskId: "ET-V181-009"
+tags: ["elektrotechnik", "Digitale Eingänge und Ausgänge", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **Pegelwandler und Logikspannungen** ruhig und schrittweise.

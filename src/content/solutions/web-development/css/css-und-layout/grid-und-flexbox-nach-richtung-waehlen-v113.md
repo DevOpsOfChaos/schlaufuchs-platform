@@ -3,20 +3,12 @@ title: "Lösung – Grid und Flexbox nach Richtung wählen"
 description: "Musterlösung zu Grid und Flexbox nach Richtung wählen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "css"
-  - "css-und-layout"
-  - "grid-und-flexbox-nach-richtung-waehlen-v113"
+topicPath: ["css", "css-und-layout", "grid-und-flexbox-nach-richtung-waehlen-v113"]
 taskId: "v113-web-development-grid-und-flexbox-nach-richtung-waehlen-v113"
 relatedExercise: "web-development/css/css-und-layout/grid-und-flexbox-nach-richtung-waehlen-v113"
-tags:
-  - "web development"
-  - "strukturcheck"
-  - "unterthema"
-  - "grid-und-flexbox-nach-richtung-waehlen-v113"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Grid und Flexbox nach Richtung wählen**.

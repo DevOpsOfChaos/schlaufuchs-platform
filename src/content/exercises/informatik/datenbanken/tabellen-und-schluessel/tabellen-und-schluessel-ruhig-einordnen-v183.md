@@ -1,27 +1,17 @@
 ---
 title: "Tabellen und Schlüssel ruhig einordnen"
 description: "Übe Tabellen und Schlüssel mit Begriffen, Beispielen und typischen Prüfungen."
-subject: informatik
+subject: "informatik"
 section: "Datenbanken"
-topicPath:
-  - "datenbanken"
-  - "tabellen-und-schluessel"
-taskId: INF-V183-08-A
-tags:
-  - "informatik"
-  - "tabellen-und-schluessel"
-hintPoints:
-  - "Beginne mit der allgemeinen Idee."
-  - "Trenne Begriff, Beispiel und Fehlerquelle."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe sauber unterscheiden."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel aus einem anderen Informatikthema."
-reflectionPrompt: "Welche Unterscheidung war hier am wichtigsten?"
-level: einfach
+topicPath: ["datenbanken", "tabellen-und-schluessel", "tabellen-und-schluessel-ruhig-einordnen-v183"]
+taskId: "INF-V183-08-A"
+tags: ["informatik", "Datenbanken", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Tabellen und Schlüssel**.
 
 ## Aufgabe 1 – Begriffe klären

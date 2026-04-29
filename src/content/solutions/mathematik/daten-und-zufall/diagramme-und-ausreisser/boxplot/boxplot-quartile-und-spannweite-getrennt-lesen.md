@@ -3,23 +3,12 @@ title: "Lösung – Boxplot, Quartile und Spannweite getrennt lesen"
 description: "Musterlösung zu Boxplot lesen mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Daten und Zufall"
-topicPath:
-  - "daten-und-zufall"
-  - "diagramme-und-ausreisser"
-  - "boxplot"
-  - "boxplot-quartile-und-spannweite-getrennt-lesen"
+topicPath: ["daten-und-zufall", "diagramme-und-ausreisser", "boxplot", "boxplot-quartile-und-spannweite-getrennt-lesen"]
 taskId: "v108-mathematik-boxplot-quartile-und-spannweite-getrennt-lesen"
 relatedExercise: "mathematik/daten-und-zufall/diagramme-und-ausreisser/boxplot/boxplot-quartile-und-spannweite-getrennt-lesen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfen"
-  - "daten-und-zufall"
-  - "diagramme-und-ausreisser"
-  - "boxplot lesen"
+tags: ["mathematik", "Daten und Zufall", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **Boxplot lesen**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

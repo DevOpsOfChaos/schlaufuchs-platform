@@ -1,45 +1,19 @@
 ---
-title: Details und Summary verstehen
-description: Verstehe, wie aufklappbare Zusatzinformationen in HTML strukturiert werden und wann das ruhiger wirkt als sofort sichtbare Textblöcke.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - navigation-und-menues
-  - details-und-summary-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von details und summary.
-  - Du beschreibst, wann aufklappbare Zusatzinfos sinnvoll sind.
-  - Du unterscheidest Hauptinhalt und optionalen Zusatz ruhiger voneinander.
-practiceIdeas:
-  - Prüfe bei FAQ- oder Hilfeblöcken, welche Infos sofort und welche erst bei Bedarf sichtbar sein sollten.
-  - Vergleiche einen überladenen Textblock mit einer ruhig strukturierten Aufklapp-Lösung.
-  - Begründe, warum summary mehr ist als nur ein hübscher Titel.
-commonMistakes:
-  - alles standardmäßig auszuklappen.
-  - Hauptinhalt in aufklappbare Bereiche zu verstecken.
-  - details nur als Designtrick statt als Struktur für Zusatzinformationen zu sehen.
-keyTakeaways:
-  - details fasst optionale oder ergänzende Inhalte zusammen.
-  - summary ist der sichtbare Einstiegspunkt in diesen Zusatzbereich.
-  - Die Kombination hilft, lange Hilfetexte ruhiger zu gliedern.
-recognizeSignals:
-  - Es geht um FAQ, Hinweise, Zusatzinfos oder Hilfebereiche.
-  - Du sollst entscheiden, welche Informationen immer und welche nur bei Bedarf sichtbar sein sollten.
-  - In Beispielen ist Struktur wichtiger als Dekoration.
-selfCheckPoints:
-  - Kann ich erklären, welche Rolle summary im geöffneten Bereich spielt?
-  - Kann ich Zusatzinformation von Kerninhalt trennen?
-  - Kann ich begründen, wann details sinnvoller ist als sofort sichtbarer Fließtext?
-tags:
-  - html
-  - details
-  - summary
-  - struktur
-level: einfach
+title: "Details und Summary verstehen"
+description: "Verstehe, wie aufklappbare Zusatzinformationen in HTML strukturiert werden und wann das ruhiger wirkt als sofort sichtbare Textblöcke."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "details-und-summary-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Manche Informationen sind wichtig, aber nicht in jedem Moment sofort nötig. Genau dafür sind <code>details</code> und <code>summary</code> hilfreich.

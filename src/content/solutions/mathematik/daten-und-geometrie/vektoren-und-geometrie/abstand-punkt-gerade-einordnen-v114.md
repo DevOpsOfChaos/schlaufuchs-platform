@@ -1,23 +1,14 @@
 ---
-title: Lösung – Abstand Punkt-Gerade einordnen
-description: Musterlösung zur Aufgabe über Abstand Punkt-Gerade einordnen.
-subject: mathematik
-section: Feinstruktur Mathematik
-topicPath:
-- daten-und-geometrie
-- vektoren-und-geometrie
-- abstand-punkt-gerade-einordnen-v114
-taskId: v114-mathematik-abstand-punkt-gerade-einordnen-v114
-relatedExercise: mathematik/daten-und-geometrie/vektoren-und-geometrie/abstand-punkt-gerade-einordnen-v114
-tags:
-- mathematik
-- v114
-- loesung
-- daten-und-geometrie
-- vektoren-und-geometrie
+title: "Lösung – Abstand Punkt-Gerade einordnen"
+description: "Musterlösung zur Aufgabe über Abstand Punkt-Gerade einordnen."
+subject: "mathematik"
+section: "Feinstruktur Mathematik"
+topicPath: ["daten-und-geometrie", "vektoren-und-geometrie", "abstand-punkt-gerade-einordnen-v114"]
+taskId: "v114-mathematik-abstand-punkt-gerade-einordnen-v114"
+relatedExercise: "mathematik/daten-und-geometrie/vektoren-und-geometrie/abstand-punkt-gerade-einordnen-v114"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Linux-Fehlerdiagnose – anwenden und prüfen"
 description: "Musterlösung zur Linux-Aufgabe Linux-Fehlerdiagnose."
-subject: linux
+subject: "linux"
 section: "praxis-und-betrieb"
-topicPath:
-  - "praxis-und-betrieb"
-  - "linux-fehlerdiagnose"
-taskId: LINUX-LINUX-FEHLERDIAGNOSE-V186-2
-relatedExercise: src/content/exercises/linux/praxis-und-betrieb/linux-fehlerdiagnose/linux-fehlerdiagnose-anwenden-und-pruefen-v186.md
-tags:
-  - "linux"
-  - "diagnose"
-  - "fehlersuche"
-  - "loesung"
+topicPath: ["praxis-und-betrieb", "linux-fehlerdiagnose", "linux-fehlerdiagnose-anwenden-und-pruefen-v186"]
+taskId: "LINUX-LINUX-FEHLERDIAGNOSE-V186-2"
+relatedExercise: "src/content/exercises/linux/praxis-und-betrieb/linux-fehlerdiagnose/linux-fehlerdiagnose-anwenden-und-pruefen-v186.md"
+tags: ["linux", "praxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

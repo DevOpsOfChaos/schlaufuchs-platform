@@ -3,21 +3,10 @@ title: "Lösung – Startzustand von Ausgängen sicher planen"
 description: "Musterlösung zu „Startzustand von Ausgängen sicher planen“."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "sicherer-startzustand-bei-mikrocontroller-ausgaengen"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "sicherer-startzustand-bei-mikrocontroller-ausgaengen"]
 taskId: "et-mc-v94-startzustand-ausgaenge"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/sicherer-startzustand-bei-mikrocontroller-ausgaengen"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "atmega"
-  - "reset"
-  - "startzustand"
-  - "gpio"
-  - "pulldown"
-  - "sicherheit"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

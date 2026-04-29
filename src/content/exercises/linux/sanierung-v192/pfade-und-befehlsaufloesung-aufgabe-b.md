@@ -3,37 +3,15 @@ title: "Pfade und Befehlsauflösung: Aufgabe B"
 description: "Erweitere die Grundidee zu „Pfade und Befehlsauflösung“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "shell-und-umgebung"
-  - "pfade-und-befehlsaufloesung"
-  - "aufgabe-b"
+topicPath: ["sanierung-v192", "pfade-und-befehlsaufloesung-aufgabe-b"]
 taskId: "linux-v192-027b"
-tags:
-  - "shell-und-umgebung"
-  - "pfade"
-  - "befehlsaufloesung"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "aufgabe"
-  - "v192"
-hintPoints:
-  - "Trenne Beobachtung, Eingriff und Kontrolle."
-  - "Nenne den betroffenen Benutzer, Dienst, Pfad, Port oder Zeitplan."
-  - "Beschreibe mindestens einen Rückweg oder Sicherheitscheck."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Pfade und Befehlsauflösung."
-  - "Es gibt eine klare Kontrolle nach der Änderung."
-  - "Risiko und Nebenwirkung werden nicht verschwiegen."
-transferIdeas:
-  - "Übertrage den Prüfweg auf eine zweite Linux-VM oder einen anderen Dienst."
-  - "Formuliere aus deiner Lösung eine kurze Betriebsnotiz."
-reflectionPrompt: "Welcher Schritt verhindert hier den wahrscheinlichsten Adminfehler?"
+tags: ["linux", "adminpraxis-und-betrieb", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Erweitere die Grundidee zu „Pfade und Befehlsauflösung“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

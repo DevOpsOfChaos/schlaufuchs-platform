@@ -1,22 +1,14 @@
 ---
-title: Lösung – Bootloader und Programmstart am AVR ruhig einordnen
-description: Musterlösung zur Aufgabe über Bootloader und Startpfad am AVR.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - programmstart-und-reset
-  - atmega-bootloader-und-programmstart-verstehen
-taskId: ET-ATMEGA-BOOT-405
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-bootloader-und-programmstart-verstehen/bootloader-und-programmstart-am-avr-ruhig-einordnen.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - loesung
+title: "Lösung – Bootloader und Programmstart am AVR ruhig einordnen"
+description: "Musterlösung zur Aufgabe über Bootloader und Startpfad am AVR."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-bootloader-und-programmstart-verstehen", "bootloader-und-programmstart-am-avr-ruhig-einordnen"]
+taskId: "ET-ATMEGA-BOOT-405"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-bootloader-und-programmstart-verstehen/bootloader-und-programmstart-am-avr-ruhig-einordnen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

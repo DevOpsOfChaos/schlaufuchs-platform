@@ -1,24 +1,14 @@
 ---
-title: Musterlösung – ADC-Referenzspannung sauber einordnen
-description: Musterlösung zur Aufgabe ET-ATMEGA-ADC-306.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - adc-und-analogwerte
-  - atmega-adc-referenzspannung-avcc-aref-und-intern-unterscheiden
-  - adc-referenzspannung-sauber-einordnen-loesung
-taskId: ET-ATMEGA-ADC-306
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-adc-referenzspannung-avcc-aref-und-intern-unterscheiden/adc-referenzspannung-sauber-einordnen.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - adc
-  - loesung
+title: "Musterlösung – ADC-Referenzspannung sauber einordnen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-ADC-306."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-adc-referenzspannung-avcc-aref-und-intern-unterscheiden", "adc-referenzspannung-sauber-einordnen"]
+taskId: "ET-ATMEGA-ADC-306"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-adc-referenzspannung-avcc-aref-und-intern-unterscheiden/adc-referenzspannung-sauber-einordnen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Der Rohwert `512` ist zunächst nur eine Zahl innerhalb des ADC-Bereichs. Erst mit der Referenzspannung wird klar, welchen Spannungsbereich diese Zahl überhaupt beschreibt. Ohne diese Bezugsspannung bleibt die Deutung unvollständig.

@@ -1,20 +1,12 @@
 ---
 title: "Lösung – Fehlermeldungen in einem Formular verbessern"
 description: "Musterlösung zu: Analysiere ein Formularfeld mit unklarer Fehlermeldung und baue daraus eine zugänglichere Lösung."
-subject: web-development
+subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "formulare-und-eingaben"
-  - "formular-fehlermeldungen-zugaenglich-gestalten"
+topicPath: ["html", "formulare-und-eingaben", "formular-fehlermeldungen-zugaenglich-gestalten"]
 taskId: "wd-html-v95-formular-fehlermeldungen"
 relatedExercise: "web-development/html/formulare-und-eingaben/formular-fehlermeldungen-zugaenglich-gestalten"
-tags:
-  - "web development"
-  - "html"
-  - "formulare"
-  - "accessibility"
-  - "fehlermeldungen"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

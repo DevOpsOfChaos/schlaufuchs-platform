@@ -1,15 +1,14 @@
 ---
-title: Textaufgabe in Variablen übersetzen – Lösung B
-description: Musterlösung zu Textaufgabe in Variablen übersetzen mit Kontrolle.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Textaufgabe in Variablen übersetzen – Lösung B"
+description: "Musterlösung zu Textaufgabe in Variablen übersetzen mit Kontrolle."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "modellieren-und-validieren", "textaufgabe-in-variablen-uebersetzen"]
 taskId: "mat-v196-textaufgabe-in-variablen-uebersetzen-b"
 relatedExercise: "mathematik/sanierung-v196/textaufgabe-in-variablen-uebersetzen-aufgabe-b"
 tags: ["mathematik", "v196", "modellieren-und-validieren", "textaufgabe-in-variablen-uebersetzen"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine passende Lösung zu dieser Aufgabe muss nicht exakt dieselben Zahlen oder Beispiele verwenden. Entscheidend ist der saubere Aufbau.

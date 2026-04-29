@@ -1,31 +1,17 @@
 ---
 title: "Event Loop und Asynchronität"
 description: "Allgemeiner Überblick über Event Loop, asynchrone Abläufe und Reaktionen im Browser."
-subject: web-development
+subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "event-loop-und-asynchronitaet"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Event Loop und Asynchronität grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["event-loop-und-asynchronitaet", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Event Loop und Asynchronität nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Event Loop und Asynchronität beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Event Loop und Asynchronität, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Event Loop und Asynchronität in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "web-development"
-  - "javascript"
-  - "event-loop"
-  - "asynchronitaet"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
 # Event Loop und Asynchronität

@@ -3,46 +3,17 @@ title: "Informatik – Doppelte Informationen in Tabellen erkennen"
 description: "Lerne Tabellenentwurf als klar abgegrenztes Unterthema mit Beispiel, Prüfraster und Gegenprobe."
 subject: "informatik"
 section: "Datenbanken"
-topicPath:
-  - "datenbanken"
-  - "tabellen-und-beziehungen"
-  - "normalisierung"
-  - "doppelte-informationen-in-tabellen-erkennen"
-learningGoals:
-  - "Du erklärst Tabellenentwurf als eigenes Unterthema."
-  - "Du grenzt das Thema von einem breiteren Sammelbereich ab."
-  - "Du formulierst eine konkrete Gegenprobe."
-practiceIdeas:
-  - "Erstelle ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Prüfe, welche Nachbarseite nicht gemeint ist."
-  - "Übertrage das Prüfraster auf einen zweiten Fall."
-commonMistakes:
-  - "Das Thema zu breit einordnen und die Trennkante verlieren."
-  - "Nur einen Begriff nennen, ohne Beispiel oder Gegenprobe."
-  - "Aufgabe und Wissensseite sprachlich auseinanderlaufen lassen."
-keyTakeaways:
-  - "Tabellenentwurf wird durch Einordnung, Trennung und Gegenprobe stabil."
-  - "Feinere Unterthemen verbessern Orientierung und vermeiden Doppelungen."
-  - "Eine gute Lösung nennt auch, was nicht gemeint ist."
-recognizeSignals:
-  - "Die Aufgabe enthält eine kleine, aber entscheidende Unterscheidung."
-  - "Eine allgemeine Antwort wäre zu ungenau."
-  - "Ein Prüfschritt kann die Einordnung bestätigen oder widerlegen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich das Nachbarthema abgrenzen?"
-  - "Ist meine Gegenprobe konkret?"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "algorithmen"
-  - "tabellenentwurf"
-  - "datenbanken"
-  - "tabellen-und-beziehungen"
+topicPath: ["datenbanken", "tabellen-und-beziehungen", "normalisierung", "doppelte-informationen-in-tabellen-erkennen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["informatik", "Datenbanken"]
 draft: false
 ---
-
 ## Grundidee
 
 **Tabellenentwurf** ist ein kleines, bewusst abgegrenztes Unterthema. Lerne Tabellenentwurf als klar abgegrenztes Unterthema mit Beispiel, Prüfraster und Gegenprobe. Die Seite verhindert, dass mehrere Nachbarfragen in einem breiten Sammelbegriff verschwimmen.

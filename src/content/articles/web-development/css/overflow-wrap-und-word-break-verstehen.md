@@ -1,45 +1,19 @@
 ---
-title: Overflow-Wrap und Word-Break verstehen
-description: Verstehe, wie lange Wörter oder Zeichenketten umgebrochen werden und warum lesbarer Text nicht nur von Breite, sondern auch vom Umbruchverhalten abhängt.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - overflow-wrap-und-word-break-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von overflow-wrap und word-break.
-  - Du beschreibst, warum lange Zeichenketten Layouts sprengen können.
-  - Du liest Textumbruch als Lesbarkeits- und Layoutthema zugleich.
-practiceIdeas:
-  - Vergleiche einen normalen Absatz mit einer langen URL oder einem langen Produktcode.
-  - Prüfe, wann ein Zeilenumbruch das Layout schützt und wann er die Lesbarkeit schwächt.
-  - Lies Textblöcke eher über Umbruchverhalten als nur über Breite.
-commonMistakes:
-  - lange Zeichenketten wie normalen Fließtext zu behandeln.
-  - jeden harten Umbruch automatisch als gute Lösung zu sehen.
-  - Lesbarkeit und Layoutschutz gegeneinander auszuspielen, statt beides zusammen zu denken.
-keyTakeaways:
-  - Lange Wörter oder URLs können kleine Layouts sprengen.
-  - overflow-wrap hilft, Inhalte notfalls umzubrechen.
-  - word-break greift stärker ein und sollte bewusster gelesen werden.
-recognizeSignals:
-  - Es geht um Karten, Chat-Nachrichten, URLs, Codes oder schmale Spalten.
-  - Du sollst erklären, warum Text plötzlich aus einer Box herausläuft oder hart bricht.
-  - In Beispielen ist die Lesbarkeit genauso wichtig wie das Halten der Boxbreite.
-selfCheckPoints:
-  - Kann ich overflow-wrap und word-break grob unterscheiden?
-  - Kann ich erklären, warum ein langer String das Layout gefährden kann?
-  - Kann ich eine ruhige Lösung zwischen Layoutschutz und Lesbarkeit beschreiben?
-tags:
-  - css
-  - text
-  - umbruch
-  - responsive
-level: mittel
+title: "Overflow-Wrap und Word-Break verstehen"
+description: "Verstehe, wie lange Wörter oder Zeichenketten umgebrochen werden und warum lesbarer Text nicht nur von Breite, sondern auch vom Umbruchverhalten abhängt."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "overflow-wrap-und-word-break-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Normaler Fließtext bricht meist an sinnvollen Stellen um. Lange URLs, IDs oder zusammengesetzte Wörter können dagegen so lang sein, dass eine Box zu schmal wird. Dann helfen Regeln wie `overflow-wrap` oder `word-break`.

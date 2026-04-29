@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Restore regelmäßig testen"
 description: "Musterlösung zu Restore regelmäßig testen mit Trennkante und Gegenprobe."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "paket-und-backup-v115"
-  - "backup-und-wiederherstellung"
-  - "restore-regelmaessig-testen-v115"
+topicPath: ["paket-und-backup-v115", "backup-und-wiederherstellung", "restore-regelmaessig-testen-v115"]
 taskId: "linux-restore-regelmaessig-testen-v115"
 relatedExercise: "linux/paket-und-backup-v115/backup-und-wiederherstellung/restore-regelmaessig-testen-v115"
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "pakete und backups"
-  - "backup und wiederherstellung"
-  - "lösung"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Restore regelmäßig testen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

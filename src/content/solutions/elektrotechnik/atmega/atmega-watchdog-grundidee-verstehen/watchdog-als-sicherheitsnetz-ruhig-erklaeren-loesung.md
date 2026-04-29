@@ -1,24 +1,14 @@
 ---
-title: Musterlösung – Watchdog als Sicherheitsnetz ruhig erklären
-description: Musterlösung zur Aufgabe ET-ATMEGA-WDT-301.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - robustheit-und-fehlersicherheit
-  - atmega-watchdog-grundidee-verstehen
-  - watchdog-als-sicherheitsnetz-ruhig-erklaeren-loesung
-taskId: ET-ATMEGA-WDT-301
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-watchdog-grundidee-verstehen/watchdog-als-sicherheitsnetz-ruhig-erklaeren.md
-tags:
-  - elektrotechnik
-  - atmega
-  - watchdog
-  - loesung
-  - task-id
+title: "Musterlösung – Watchdog als Sicherheitsnetz ruhig erklären"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-WDT-301."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-watchdog-grundidee-verstehen", "watchdog-als-sicherheitsnetz-ruhig-erklaeren"]
+taskId: "ET-ATMEGA-WDT-301"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-watchdog-grundidee-verstehen/watchdog-als-sicherheitsnetz-ruhig-erklaeren.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

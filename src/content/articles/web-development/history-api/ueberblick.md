@@ -1,33 +1,19 @@
 ---
 title: "History API"
 description: "Die History API erlaubt Webseiten, die Browser-Historie zu verändern, ohne vollständige Seiten neu zu laden. Sie ist wichtig für Single-Page-Anwendungen und clientseitiges Routing."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "history-api"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von History API."
-  - "Du kannst History API in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["history-api", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Die URL zu ändern, ohne den passenden Seitenzustand wiederherstellen zu können."
-keyTakeaways:
-  - "Die History API erlaubt Webseiten, die Browser-Historie zu verändern, ohne vollständige Seiten neu zu laden."
-  - "Wichtig sind vor allem pushstate und replacestate, zurück- und vorwärtsnavigation und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um History API, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu History API dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "web development"
-  - "grundlagen"
-  - "history api"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # History API
 
 Die History API erlaubt Webseiten, die Browser-Historie zu verändern, ohne vollständige Seiten neu zu laden. Sie ist wichtig für Single-Page-Anwendungen und clientseitiges Routing. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

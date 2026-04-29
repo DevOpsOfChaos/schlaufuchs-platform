@@ -3,36 +3,15 @@ title: "Suchseiten und Filter: Aufgabe B"
 description: "Übertrage das Thema Suchseiten und Filter auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "content-und-navigation"
-  - "suchseiten-und-filter"
-  - "aufgabe-b"
-
+topicPath: ["sanierung-v194", "suchseiten-und-filter-aufgabe-b"]
 taskId: "web-development-v194-021b"
-tags:
-  - "suchseiten"
-  - "filter"
-  - "web-development"
-  - "aufgabe"
-  - "v194"
-
-hintPoints:
-  - "Beschreibe zuerst die konkrete Seitensituation."
-  - "Trenne Beobachtung, gewünschtes Verhalten und Änderung."
-  - "Lege einen kleinen Kontrollpunkt fest."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Suchseiten und Filter."
-  - "Die Prüfung ist klein genug, um sie direkt nachzuvollziehen."
-  - "Nutzerperspektive und technische Umsetzung werden nicht vermischt."
-transferIdeas:
-  - "Übertrage den Prüfweg auf eine andere Bildschirmbreite."
-  - "Notiere, welcher Zustand zusätzlich getestet werden sollte."
-reflectionPrompt: "Welche Annahme über Nutzerinnen und Nutzer wäre gefährlich, wenn sie still falsch bleibt?"
+tags: ["web-development", "barrierefreiheit-responsive-ux", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Übertrage das Thema Suchseiten und Filter auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

@@ -3,33 +3,15 @@ title: "Datenkritik und Zufall: Grundordnung"
 description: "Ordne Datenkritik und Zufall in Zweck, Prüffragen und Fehlerquellen."
 subject: "mathematik"
 section: "daten-und-wahrscheinlichkeit"
-topicPath:
-  - "daten-und-wahrscheinlichkeit"
-  - "datenkritik-und-zufall"
-  - "aufgabe-a"
+topicPath: ["sanierung-v188", "datenkritik-und-zufall-aufgabe-a"]
 taskId: "mat-v188-049a"
-tags:
-  - "datenkritik"
-  - "zufall"
-  - "stichprobe"
-  - "mathematik"
-  - "aufgabe"
-  - "v188"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["mathematik", "daten-und-wahrscheinlichkeit", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Du arbeitest am Thema **Datenkritik und Zufall**. Erstelle eine kurze, geordnete Erklärung für eine lernende Person.

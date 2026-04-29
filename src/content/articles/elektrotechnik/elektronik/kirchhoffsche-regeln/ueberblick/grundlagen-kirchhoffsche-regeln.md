@@ -1,42 +1,19 @@
 ---
 title: "Grundlagen: Kirchhoffsche Regeln"
 description: "Ruhiger Überblick über Knoten, Maschen und elektrische Bilanzen in Schaltungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektronik"
-topicPath:
-  - "elektronik"
-  - "kirchhoffsche-regeln"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen, bevor du Detailaufgaben bearbeitest."
-  - "Du unterscheidest zentrale Begriffe und typische Fehlerquellen."
-  - "Du erkennst, welche Nachbarseiten und Übungen zu diesem Thema passen."
-practiceIdeas:
-  - "Lies zuerst die Übersicht und markiere die Begriffe, die in Aufgaben wieder auftauchen."
-  - "Formuliere zu jedem Abschnitt eine eigene kurze Prüffrage."
-commonMistakes:
-  - "Direkt mit einem Einzelfall zu beginnen, ohne den allgemeinen Zusammenhang zu klären."
-  - "Mess-, Rechen- und Schaltungsbegriffe zu vermischen."
-  - "Ein einzelnes Beispiel für die komplette Themenlogik zu halten."
-keyTakeaways:
-  - "Knoten beschreiben, wo Ströme zusammenkommen oder sich aufteilen."
-  - "Maschen beschreiben geschlossene Wege für Spannungsbetrachtungen."
-  - "Die Regeln sind Bilanzideen und keine reinen Rechentricks."
-recognizeSignals:
-  - "Du suchst eine ruhige Einordnung statt einer einzelnen Problemsituation."
-  - "Mehrere Detailseiten wirken ähnlich und sollen fachlich sortiert werden."
-selfCheckPoints:
-  - "Kann ich die Grundidee in eigenen Worten erklären?"
-  - "Kann ich typische Fehler benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "kirchhoff"
-  - "knoten"
-  - "maschen"
+topicPath: ["elektronik", "kirchhoffsche-regeln", "ueberblick", "grundlagen-kirchhoffsche-regeln"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektronik"]
 draft: false
 ---
-
 ![Grundlagen: Kirchhoffsche Regeln](/schlaufuchs-platform/images/overviews/v178/kirchhoffsche-regeln.svg)
 
 ## Begriff und Zweck

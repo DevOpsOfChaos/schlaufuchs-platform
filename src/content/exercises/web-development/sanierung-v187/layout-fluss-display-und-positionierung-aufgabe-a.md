@@ -3,35 +3,15 @@ title: "Layoutfluss, Display und Positionierung: Grundordnung"
 description: "Ordne Elemente einer Beispielseite nach normalem Dokumentfluss und Display-Verhalten."
 subject: "web-development"
 section: "css"
-topicPath: 
-  - "css-und-layout"
-  - "layoutfluss"
-  - "aufgabe-a"
+topicPath: ["sanierung-v187", "layout-fluss-display-und-positionierung-aufgabe-a"]
 taskId: "web-v187-013a"
-tags: 
-  - "css"
-  - "layout"
-  - "display"
-  - "position"
-  - "web-development"
-  - "aufgabe"
-  - "v187"
-hintPoints: 
-  - "Trenne Zweck, Struktur und sichtbare Wirkung."
-  - "Begründe mindestens eine Entscheidung mit dem Nutzerziel."
-  - "Prüfe einen typischen Fehlerfall aus der Erklärseite."
-selfCheckPoints: 
-  - "Die Lösung passt zur Aufgabenstellung."
-  - "Mindestens eine Entscheidung ist begründet."
-  - "Es gibt keine neue Aufgabe ohne passende Lösung."
-transferIdeas: 
-  - "Übertrage die Entscheidung auf eine zweite kleine Seite."
-  - "Formuliere eine kurze Checkliste für spätere Wiederholung."
-reflectionPrompt: "Welche Entscheidung war am wichtigsten, damit die Lösung ruhig und wartbar bleibt?"
+tags: ["web-development", "css", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Ordne Elemente einer Beispielseite nach normalem Dokumentfluss und Display-Verhalten.

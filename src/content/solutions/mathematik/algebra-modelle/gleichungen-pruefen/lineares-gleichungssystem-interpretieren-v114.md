@@ -1,23 +1,14 @@
 ---
-title: Lösung – Lineares Gleichungssystem interpretieren
-description: Musterlösung zur Aufgabe über Lineares Gleichungssystem interpretieren.
-subject: mathematik
-section: Feinstruktur Mathematik
-topicPath:
-- algebra-modelle
-- gleichungen-pruefen
-- lineares-gleichungssystem-interpretieren-v114
-taskId: v114-mathematik-lineares-gleichungssystem-interpretieren-v114
-relatedExercise: mathematik/algebra-modelle/gleichungen-pruefen/lineares-gleichungssystem-interpretieren-v114
-tags:
-- mathematik
-- v114
-- loesung
-- algebra-modelle
-- gleichungen-pruefen
+title: "Lösung – Lineares Gleichungssystem interpretieren"
+description: "Musterlösung zur Aufgabe über Lineares Gleichungssystem interpretieren."
+subject: "mathematik"
+section: "Feinstruktur Mathematik"
+topicPath: ["algebra-modelle", "gleichungen-pruefen", "lineares-gleichungssystem-interpretieren-v114"]
+taskId: "v114-mathematik-lineares-gleichungssystem-interpretieren-v114"
+relatedExercise: "mathematik/algebra-modelle/gleichungen-pruefen/lineares-gleichungssystem-interpretieren-v114"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

@@ -3,18 +3,10 @@ title: "Lösung – :has(), :is() und :where() mit Spezifität einordnen"
 description: "Musterlösung mit kurzer Begründung zur passenden Web-Development-Entscheidung."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "selektoren"
-  - "has-is-where-und-spezifitaet-einordnen"
+topicPath: ["css", "selektoren", "has-is-where-und-spezifitaet-einordnen"]
 taskId: "has-is-where-und-spezifitaet-einordnen"
 relatedExercise: "web-development/css/selektoren/has-is-where-und-spezifitaet-einordnen"
-tags:
-  - "web development"
-  - "css"
-  - "selektoren"
-  - "spezifitaet"
-  - "has"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
 ## Musterlösung

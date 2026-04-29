@@ -3,20 +3,12 @@ title: "Lösung – Klammern beim Ausmultiplizieren sichern"
 description: "Musterlösung zu Klammern beim Ausmultiplizieren sichern mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "algebra"
-  - "terme-und-klammern"
-  - "klammern-beim-ausmultiplizieren-sichern-v113"
+topicPath: ["algebra", "terme-und-klammern", "klammern-beim-ausmultiplizieren-sichern-v113"]
 taskId: "v113-mathematik-klammern-beim-ausmultiplizieren-sichern-v113"
 relatedExercise: "mathematik/algebra/terme-und-klammern/klammern-beim-ausmultiplizieren-sichern-v113"
-tags:
-  - "mathematik"
-  - "strukturcheck"
-  - "unterthema"
-  - "klammern-beim-ausmultiplizieren-sichern-v113"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Klammern beim Ausmultiplizieren sichern**.

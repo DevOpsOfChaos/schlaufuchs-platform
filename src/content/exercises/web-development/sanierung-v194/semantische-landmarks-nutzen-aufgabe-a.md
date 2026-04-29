@@ -3,37 +3,15 @@ title: "Semantische Landmarks nutzen: Aufgabe A"
 description: "Ordne die Bereiche einer Lernseite passenden semantischen Elementen zu."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "zugang-und-semantik"
-  - "semantische-landmarks-nutzen"
-  - "aufgabe-a"
-
+topicPath: ["sanierung-v194", "semantische-landmarks-nutzen-aufgabe-a"]
 taskId: "web-development-v194-002a"
-tags:
-  - "semantische"
-  - "landmarks"
-  - "nutzen"
-  - "web-development"
-  - "aufgabe"
-  - "v194"
-
-hintPoints:
-  - "Beschreibe zuerst die konkrete Seitensituation."
-  - "Trenne Beobachtung, gewünschtes Verhalten und Änderung."
-  - "Lege einen kleinen Kontrollpunkt fest."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Semantische Landmarks nutzen."
-  - "Die Prüfung ist klein genug, um sie direkt nachzuvollziehen."
-  - "Nutzerperspektive und technische Umsetzung werden nicht vermischt."
-transferIdeas:
-  - "Übertrage den Prüfweg auf eine andere Bildschirmbreite."
-  - "Notiere, welcher Zustand zusätzlich getestet werden sollte."
-reflectionPrompt: "Welche Annahme über Nutzerinnen und Nutzer wäre gefährlich, wenn sie still falsch bleibt?"
+tags: ["web-development", "barrierefreiheit-responsive-ux", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Ordne die Bereiche einer Lernseite passenden semantischen Elementen zu.

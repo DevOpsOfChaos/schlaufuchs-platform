@@ -3,25 +3,12 @@ title: "Lösung: CSS Grid für Kartenlayouts: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-development-v194-013b im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "responsive-layout"
-  - "css-grid-fuer-kartenlayouts"
-  - "loesung-b"
-
+topicPath: ["sanierung-v194", "css-grid-fuer-kartenlayouts-loesung-b"]
 taskId: "web-development-v194-013b"
 relatedExercise: "web-development/sanierung-v194/css-grid-fuer-kartenlayouts-aufgabe-b"
-tags:
-  - "css"
-  - "grid"
-  - "kartenlayouts"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-013b`
 
 Ausgangsauftrag: Übertrage das Thema CSS Grid für Kartenlayouts auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

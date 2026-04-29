@@ -3,22 +3,12 @@ title: "Lösung: Audiodaten als Messreihe: Grundordnung"
 description: "Musterlösung zur Aufgabe dat-v189-015a."
 subject: "daten-und-signale"
 section: "codierung"
-topicPath:
-  - "codierung"
-  - "audiodaten-als-messreihe"
-  - "loesung-a"
+topicPath: ["sanierung-v189", "audiodaten-als-messreihe-aufgabe-a"]
 taskId: "dat-v189-015a"
 relatedExercise: "daten-und-signale/sanierung-v189/audiodaten-als-messreihe-aufgabe-a"
-tags:
-  - "audio"
-  - "abtastung"
-  - "messreihe"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "codierung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-015a`
 
 Eine mögliche Lösung:

@@ -1,12 +1,17 @@
 ---
-title: Prozentwert, Prozentsatz und Grundwert
-description: Diese Aufgabe vertieft die drei Grundgrößen der Prozentrechnung und typische Anwendungen aus Alltag und Schule.
-subject: mathematik
-section: Grundlagen
-level: einfach
+title: "Prozentwert, Prozentsatz und Grundwert"
+description: "Diese Aufgabe vertieft die drei Grundgrößen der Prozentrechnung und typische Anwendungen aus Alltag und Schule."
+subject: "mathematik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "prozentrechnung", "prozentwert-prozentsatz-und-grundwert"]
+taskId: "AUTO-PROZENTWERT-PROZENTSATZ-UND-GRUNDWERT"
+tags: ["mathematik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben sorgfältig und notiere jeweils, welche Größe gesucht ist: Grundwert, Prozentwert oder Prozentsatz.

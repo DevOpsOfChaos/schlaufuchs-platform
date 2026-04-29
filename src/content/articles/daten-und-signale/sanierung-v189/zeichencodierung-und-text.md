@@ -3,38 +3,17 @@ title: "Zeichencodierung und Text"
 description: "Textdaten brauchen eine vereinbarte Zuordnung zwischen Zeichen und Zahlen."
 subject: "daten-und-signale"
 section: "codierung"
-topicPath:
-  - "codierung"
-  - "zeichencodierung-und-text"
-learningGoals:
-  - "Textdaten brauchen eine vereinbarte Zuordnung zwischen Zeichen und Zahlen fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Textdaten brauchen eine vereinbarte Zuordnung zwischen Zeichen und Zahlen wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v189", "zeichencodierung-und-text"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "text"
-  - "zeichencodierung"
-  - "unicode"
-  - "daten-und-signale"
-  - "v189"
+tags: ["daten-und-signale", "codierung"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Zeichencodierung und Text](/schlaufuchs-platform/images/daten-und-signale/sanierung-189/zeichencodierung-und-text.svg)
 
 ## Überblick

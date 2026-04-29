@@ -1,34 +1,19 @@
 ---
 title: "Wartungsfenster und Rollback"
 description: "Überblick über geplante Änderungen an Systemen und die Vorbereitung eines sicheren Rückwegs."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "wartungsfenster-und-rollback"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["wartungsfenster-und-rollback", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Änderungen ohne getesteten Rückweg direkt auf produktiven Systemen auszuführen."
-keyTakeaways:
-  - "Gute Wartung plant nicht nur die Änderung, sondern auch Prüfung und Rückweg."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Updates, Dienste, Firewallregeln oder Systemkonfigurationen produktive Nutzung beeinflussen."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "betrieb"
-  - "wartung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # Wartungsfenster und Rollback
 
 Ein Wartungsfenster ist ein geplanter Zeitraum für Änderungen an einem System. Ein Rollback ist der vorbereitete Weg zurück zu einem bekannten funktionierenden Zustand, falls die Änderung scheitert.

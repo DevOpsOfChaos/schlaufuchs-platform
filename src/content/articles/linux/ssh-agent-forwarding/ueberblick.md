@@ -1,32 +1,17 @@
 ---
 title: "SSH-Agent-Forwarding"
 description: "Überblick über weitergereichte SSH-Agent-Verbindungen und ihre Sicherheitsfolgen."
-subject: linux
+subject: "linux"
 section: "SSH"
-topicPath:
-  - "ssh-agent-forwarding"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst SSH-Agent-Forwarding als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Agent-Socket, Jump Host, Risiko."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["ssh-agent-forwarding", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Agent-Forwarding als genauso sicher wie lokale Schlüsselverwendung einzuschätzen."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "SSH-Agent-Forwarding beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Schlüsselverwendung über Zwischenhosts."
-  - "Wichtige Hinweise liefern vor allem Agent-Socket, Jump Host, Risiko."
-recognizeSignals:
-  - "Es geht um schlüsselverwendung über zwischenhosts, agent-socket oder jump host."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck SSH-Agent-Forwarding erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "linux"
-  - "ssh"
-  - "sicherheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "SSH"]
 draft: false
 ---
 # SSH-Agent-Forwarding

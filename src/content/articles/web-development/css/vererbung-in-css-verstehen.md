@@ -1,44 +1,19 @@
 ---
-title: Vererbung in CSS verstehen
-description: Verstehe, warum manche CSS-Eigenschaften an Kindelemente weitergegeben werden und andere nicht.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - vererbung-in-css-verstehen
-learningGoals:
-  - Du erklärst die Grundidee der CSS-Vererbung.
-  - Du unterscheidest typische vererbbare und nicht vererbbare Eigenschaften.
-  - Du beschreibst, warum Vererbung an manchen Stellen unterbrochen wird.
-practiceIdeas:
-  - Prüfe, ob eine Textfarbe vom Elternelement übernommen wird.
-  - Vergleiche Farbe mit Rahmen oder Abstand.
-  - Erkläre, warum eine eigene Regel am Kindelement die Vererbung praktisch unterbricht.
-commonMistakes:
-  - Zu denken, dass alle CSS-Eigenschaften automatisch weitergegeben werden.
-  - Abstand und Rahmen wie Textfarbe zu behandeln.
-  - Vererbung und Selektorwirkung zu vermischen.
-keyTakeaways:
-  - Manche Eigenschaften werden vererbt, andere nicht.
-  - Textnahe Eigenschaften wie Farbe vererben sich häufig leichter.
-  - Eigene Regeln am Kindelement können die geerbte Wirkung überschreiben.
-recognizeSignals:
-  - Es geht um Eltern- und Kindelemente im DOM.
-  - Du sollst erklären, warum ein Kind dieselbe Farbe oder Schrift übernimmt.
-  - In Beispielen wird ein Container formatiert und die Wirkung auf innere Elemente beobachtet.
-selfCheckPoints:
-  - Kann ich Vererbung in CSS mit Eltern- und Kindelementen erklären?
-  - Kann ich Farbe und Border sauber unterscheiden?
-  - Kann ich sagen, wann die geerbte Wirkung praktisch endet?
-tags:
-  - css
-  - vererbung
-  - dom
-  - farbe
-level: einfach
+title: "Vererbung in CSS verstehen"
+description: "Verstehe, warum manche CSS-Eigenschaften an Kindelemente weitergegeben werden und andere nicht."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "vererbung-in-css-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Im DOM stehen Elemente in Beziehungen zueinander. Ein Container kann Kinder enthalten, diese wiederum weitere Kinder. Genau hier spielt CSS-Vererbung eine Rolle: Manche Eigenschaften werden vom Elternelement an innere Elemente weitergegeben.

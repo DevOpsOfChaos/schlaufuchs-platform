@@ -3,22 +3,12 @@ title: "Lösung: Glättung gegen Reaktionszeit abwägen"
 description: "Musterlösung zur Aufgabe „Glättung gegen Reaktionszeit abwägen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "sensorik-und-signalaufbereitung"
-  - "filter-und-traegheit"
-  - "glaettung-gegen-reaktionszeit-abwaegen-v116"
+topicPath: ["sensorik-und-signalaufbereitung", "filter-und-traegheit", "glaettung-gegen-reaktionszeit-abwaegen-v116"]
 taskId: "glaettung-gegen-reaktionszeit-abwaegen-v116"
 relatedExercise: "elektrotechnik/sensorik-und-signalaufbereitung/filter-und-traegheit/glaettung-gegen-reaktionszeit-abwaegen-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "filter und traegheit"
-  - "glaettung gegen reaktionszeit abwaegen"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

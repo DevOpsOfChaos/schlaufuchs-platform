@@ -3,34 +3,15 @@ title: "Übung: Skalierung als Deutungseinfluss erkennen"
 description: "Übe, „Skalierung als Deutungseinfluss erkennen“ als kleines Unterthema zu erkennen, zu begründen und mit einer Gegenprobe abzusichern."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "daten-deuten-und-pruefen"
-  - "diagramme-kritisch-lesen"
-  - "skalierung-als-deutungseinfluss-erkennen-v116"
+topicPath: ["daten-deuten-und-pruefen", "diagramme-kritisch-lesen", "skalierung-als-deutungseinfluss-erkennen-v116"]
 taskId: "skalierung-als-deutungseinfluss-erkennen-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "diagramme kritisch lesen"
-  - "skalierung als deutungseinfluss erkennen"
-  - "v116"
-hintPoints:
-  - "Lies zuerst nur die konkrete Unterfrage."
-  - "Markiere eine typische Fehlannahme."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Lösung fachlich begründet?"
-  - "Ist die Abgrenzung zum Nachbarthema sichtbar?"
-  - "Passt die Gegenprobe zur Aufgabe?"
-transferIdeas:
-  - "Ändere eine Bedingung und prüfe, ob deine Begründung noch trägt."
-  - "Erkläre die Lösung einmal ohne Fachwörter und danach fachlich sauber."
-reflectionPrompt: "Welche kleine Entscheidung war bei „Skalierung als Deutungseinfluss erkennen“ am wichtigsten?"
+tags: ["mathematik", "Mathematik vertiefen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe 1: Unterfrage erkennen
 
 Lies die Situation:

@@ -1,35 +1,17 @@
 ---
 title: "URL-Design"
 description: "Überblick über lesbare, stabile und fachlich sinnvolle URLs in Webprojekten."
-subject: web-development
+subject: "web-development"
 section: "HTTP und URLs"
-topicPath:
-  - "url-design"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst URL-Design als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["url-design", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft werden URLs nur als technische Routingdetails gesehen. In Wirklichkeit sind sie Teil der Nutzerführung und Informationsarchitektur."
-keyTakeaways:
-  - "URL-Design beschreibt, wie Ressourcen, Bereiche und Zustände einer Website in Adressen abgebildet werden."
-  - "Gute URLs sind lesbar, teilbar, dauerhaft und helfen Menschen sowie Maschinen, Inhalte einzuordnen."
-  - "Eine URL ist keine vollständige Sicherheitsgrenze und ersetzt keine Zugriffskontrolle."
-recognizeSignals:
-  - "Es geht um URL-Design, wenn pfadsegmente sollten fachliche Struktur statt technische Zufälle zeigen."
-  - "Das Thema wird relevant, wenn Beispiele wie eine Lernseite unter /fachbereiche/linux/dateirechte/ ist verständlicher als eine rein numerische interne ID im Pfad."
-selfCheckPoints:
-  - "Kann ich URL-Design in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "web development"
-  - "url"
-  - "routing"
-  - "architektur"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTTP und URLs"]
 draft: false
 ---
 # URL-Design

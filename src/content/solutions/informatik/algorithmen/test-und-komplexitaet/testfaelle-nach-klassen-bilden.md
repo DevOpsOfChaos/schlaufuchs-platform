@@ -3,21 +3,12 @@ title: "Lösung – Testfälle nach Klassen bilden"
 description: "Musterlösung zu testfälle nach klassen bilden mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "algorithmen"
-  - "test-und-komplexitaet"
-  - "testfaelle-nach-klassen-bilden"
+topicPath: ["algorithmen", "test-und-komplexitaet", "testfaelle-nach-klassen-bilden"]
 taskId: "v112-informatik-testfaelle-nach-klassen-bilden"
 relatedExercise: "informatik/algorithmen/test-und-komplexitaet/testfaelle-nach-klassen-bilden"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "algorithmen"
-  - "testfaelle-nach-klassen-bilden"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Tests und Komplexität**.

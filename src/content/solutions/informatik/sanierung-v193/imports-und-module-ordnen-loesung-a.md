@@ -3,24 +3,12 @@ title: "Lösung: Imports und Module ordnen: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-023a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "projektstruktur-und-codepflege"
-  - "imports-und-module-ordnen"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "imports-und-module-ordnen-loesung-a"]
 taskId: "informatik-v193-023a"
 relatedExercise: "informatik/sanierung-v193/imports-und-module-ordnen-aufgabe-a"
-tags:
-  - "imports"
-  - "module"
-  - "ordnen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-023a`
 
 Ausgangsauftrag: Ordne Funktionen in Module und erkenne eine mögliche Kreisabhängigkeit.

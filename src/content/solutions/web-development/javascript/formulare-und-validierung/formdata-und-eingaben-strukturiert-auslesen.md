@@ -3,22 +3,12 @@ title: "Lösung – JavaScript: FormData und Eingaben strukturiert auslesen"
 description: "Musterlösung zur Aufgabe: Ein Formular enthält email, message und mehrere topic-Checkboxen. Beschreibe, welche Werte mit get und welche mit getAll gelesen werden."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "formulare-und-validierung"
-  - "formdata-und-eingaben-strukturiert-auslesen"
+topicPath: ["javascript", "formulare-und-validierung", "formdata-und-eingaben-strukturiert-auslesen"]
 taskId: "web-js-formdata-und-eingaben-strukturiert-auslesen"
 relatedExercise: "web-development/javascript/formulare-und-validierung/formdata-und-eingaben-strukturiert-auslesen"
-tags:
-  - "web development"
-  - "javascript"
-  - "formdata"
-  - "formular"
-  - "daten"
-  - "lösung"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 email und message sind einzelne Werte und können mit get gelesen werden. Mehrere topic-Checkboxen können mehrere Werte liefern; dafür ist getAll passend. Voraussetzung ist, dass die Felder sinnvolle name-Attribute besitzen.

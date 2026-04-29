@@ -3,41 +3,15 @@ title: "HTML – aria-describedby für Hilfe- und Fehlertexte nutzen"
 description: "Verstehe, wie Hilfetexte und Fehlermeldungen über aria-describedby zuverlässig mit einem Eingabefeld verbunden werden."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "formular-validierung"
-  - "aria-describedby-fuer-hilfe-und-fehlertexte-nutzen"
-learningGoals:
-  - "Du unterscheidest Label, Hilfetext und Fehlermeldung."
-  - "Du verknüpfst zusätzliche Erklärung über IDs statt nur über Nähe."
-  - "Du erklärst, warum aria-describedby sichtbaren Text nicht ersetzt."
-practiceIdeas:
-  - "Prüfe ein kleines Beispiel zuerst fachlich und erst danach im Code."
-  - "Vergleiche eine schwache und eine bessere Umsetzung."
-  - "Teste die Entscheidung mit Tastatur, kleiner Breite und verständlichem sichtbarem Text."
-commonMistakes:
-  - "aria-label als Ersatz für sichtbare Hilfe zu verwenden."
-  - "Fehlertexte ohne ID neben das Feld zu schreiben."
-  - "Hilfetext und Fehlertext mit widersprüchlichen Aussagen zu kombinieren."
-keyTakeaways:
-  - "Die sichtbare Bedeutung und die technische Struktur müssen zusammenpassen."
-  - "Robuste Weboberflächen entstehen durch kleine, bewusst geprüfte Entscheidungen."
-  - "Ein gutes Review fragt nach Nutzbarkeit, Semantik, Layout und Wartbarkeit."
-recognizeSignals:
-  - "Es geht um HTML- oder CSS-Entscheidungen, die nicht nur optisch wirken."
-  - "Eine Aufgabe fragt nach Bedienbarkeit, Lesbarkeit oder semantischer Zuordnung."
-  - "Der Code funktioniert scheinbar, aber die Nutzererfahrung ist noch unsicher."
-selfCheckPoints:
-  - "Kann ich die Entscheidung ohne Fachjargon erklären?"
-  - "Passt der sichtbare Text zur technischen Struktur?"
-  - "Bleibt die Lösung bei kleinen Breiten und Tastaturbedienung nutzbar?"
-tags:
-  - "web development"
-  - "html"
-  - "aria-describedby"
-  - "formulare"
-  - "accessibility"
+topicPath: ["html", "formular-validierung", "aria-describedby-fuer-hilfe-und-fehlertexte-nutzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "HTML"]
 draft: false
 ---
 ## Grundidee

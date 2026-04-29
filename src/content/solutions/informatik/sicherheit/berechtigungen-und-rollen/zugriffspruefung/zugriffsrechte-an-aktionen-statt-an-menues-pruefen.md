@@ -3,23 +3,12 @@ title: "Lösung – Zugriffsrechte an Aktionen statt an Menüs prüfen"
 description: "Musterlösung zu Zugriffsprüfung mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "informatik"
 section: "Sicherheit"
-topicPath:
-  - "sicherheit"
-  - "berechtigungen-und-rollen"
-  - "zugriffspruefung"
-  - "zugriffsrechte-an-aktionen-statt-an-menues-pruefen"
+topicPath: ["sicherheit", "berechtigungen-und-rollen", "zugriffspruefung", "zugriffsrechte-an-aktionen-statt-an-menues-pruefen"]
 taskId: "v107-informatik-zugriffsrechte-an-aktionen-statt-an-menues-pruefen"
 relatedExercise: "informatik/sicherheit/berechtigungen-und-rollen/zugriffspruefung/zugriffsrechte-an-aktionen-statt-an-menues-pruefen"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "algorithmen"
-  - "zugriffsprüfung"
-  - "sicherheit"
-  - "berechtigungen-und-rollen"
+tags: ["informatik", "Sicherheit", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Zugriffsprüfung**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

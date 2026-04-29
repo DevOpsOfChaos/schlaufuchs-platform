@@ -1,17 +1,19 @@
 ---
-title: Kontrollstrukturen verstehen
-description: Kontrollstrukturen bestimmen den Ablauf eines Programms und gehören zu den wichtigsten Grundlagen des informatischen Denkens.
-subject: informatik
-section: Grundlagen
-level: mittel
-tags:
-  - Kontrollstrukturen
-  - Bedingungen
-  - Schleifen
-  - Programmablauf
+title: "Kontrollstrukturen verstehen"
+description: "Kontrollstrukturen bestimmen den Ablauf eines Programms und gehören zu den wichtigsten Grundlagen des informatischen Denkens."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "kontrollstrukturen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 Programme bestehen nicht nur aus einzelnen Befehlen, die einfach streng von oben nach unten ablaufen. Sobald Entscheidungen, Wiederholungen oder unterschiedliche Fälle vorkommen, braucht man Kontrollstrukturen. Sie bestimmen, welcher Teil eines Programms wann ausgeführt wird.

@@ -3,39 +3,17 @@ title: "Responsive Design im Überblick"
 description: "Plane Webseiten so, dass Inhalt und Layout auf kleinen und großen Ansichten stabil bleiben."
 subject: "web-development"
 section: "css"
-topicPath: 
-  - "css-und-layout"
-  - "responsive-design"
-learningGoals: 
-  - "Anpassung an Bildschirmgrößen ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Leite aus einer Inhaltsseite sinnvolle mobile und breite Layoutzustände ab."
-  - "Finde in einem CSS-Auszug starre Werte, die ein responsives Layout stören."
-commonMistakes: 
-  - "Desktop-Layout wird nur geschrumpft."
-  - "Pixelbreiten erzeugen horizontales Scrollen."
-  - "Breakpoints werden ohne Inhaltsproblem gesetzt."
-keyTakeaways: 
-  - "Eine responsive Seite bleibt benutzbar, bevor sie perfekt aussieht."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "Eine responsive Seite bleibt benutzbar, bevor sie perfekt aussieht."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "responsive-design-ueberblick"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags: 
-  - "responsive"
-  - "css"
-  - "layout"
-  - "mobile"
-  - "web-development"
+tags: ["web-development", "css"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Responsive Design im Überblick](/schlaufuchs-platform/images/web-development/sanierung-v187/responsive-design-ueberblick.svg)
 
     Responsive Design im Überblick ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

@@ -3,20 +3,12 @@ title: "Lösung – Primärschlüssel als Identität lesen"
 description: "Musterlösung zu Primärschlüssel als Identität lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenbanken"
-  - "tabellenmodelle"
-  - "primaerschluessel-als-identitaet-lesen-v113"
+topicPath: ["datenbanken", "tabellenmodelle", "primaerschluessel-als-identitaet-lesen-v113"]
 taskId: "v113-informatik-primaerschluessel-als-identitaet-lesen-v113"
 relatedExercise: "informatik/datenbanken/tabellenmodelle/primaerschluessel-als-identitaet-lesen-v113"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "primaerschluessel-als-identitaet-lesen-v113"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Primärschlüssel als Identität lesen**.

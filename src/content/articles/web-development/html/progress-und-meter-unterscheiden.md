@@ -1,45 +1,19 @@
 ---
-title: Progress und Meter unterscheiden
-description: Verstehe, warum Fortschritt und Messstand nicht dasselbe bedeuten und wie progress sowie meter unterschiedliche Arten von Zuständen ausdrücken.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - formulare-und-eingaben
-  - progress-und-meter-unterscheiden
-learningGoals:
-  - Du erklärst den Unterschied zwischen Fortschritt und Messstand.
-  - Du beschreibst passende Einsatzsituationen für progress und meter.
-  - Du liest Balkenanzeigen eher über ihre Aussage als nur über ihre Form.
-practiceIdeas:
-  - Vergleiche einen Upload-Fortschritt mit einer Speicher- oder Auslastungsanzeige.
-  - Prüfe, ob sich ein Balken zu einem Ziel hin bewegt oder nur einen aktuellen Stand zeigt.
-  - Lies die Balkenlogik eher als Bedeutung als als Designmuster.
-commonMistakes:
-  - progress und meter als austauschbare Balkenanzeigen zu behandeln.
-  - einen aktuellen Messwert als Fortschritt zu beschreiben.
-  - nur auf Farbe und Länge zu schauen, aber nicht auf die Aussage des Werts.
-keyTakeaways:
-  - progress beschreibt Fortschritt in Richtung eines Ziels.
-  - meter beschreibt einen aktuellen Wert innerhalb eines Bereichs.
-  - Gleiche Optik kann fachlich verschiedene Aussagen transportieren.
-recognizeSignals:
-  - Es geht um Uploads, Ladezustände, Speicherstände, Bewertungen oder Auslastungen.
-  - Du sollst erklären, ob ein Zustand sich zu einem Abschluss hin bewegt oder nur gemessen wird.
-  - In Beispielen ist die Bedeutung des Werts wichtiger als seine Balkenform.
-selfCheckPoints:
-  - Kann ich progress und meter fachlich trennen?
-  - Kann ich erklären, was ein Zielzustand von einem Messbereich unterscheidet?
-  - Kann ich passende Einsatzsituationen für beide nennen?
-tags:
-  - html
-  - progress
-  - meter
-  - status
-level: mittel
+title: "Progress und Meter unterscheiden"
+description: "Verstehe, warum Fortschritt und Messstand nicht dasselbe bedeuten und wie progress sowie meter unterschiedliche Arten von Zuständen ausdrücken."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "progress-und-meter-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Zwei Balken können fast gleich aussehen und trotzdem etwas ganz anderes bedeuten. Ein Balken kann zeigen, **wie weit ein Vorgang schon fortgeschritten ist**. Oder er kann zeigen, **wo ein aktueller Wert innerhalb eines Bereichs liegt**. Genau dafür stehen `progress` und `meter`.

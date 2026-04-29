@@ -3,35 +3,15 @@ title: "Designsysteme und Komponenten: Prüfung und Verbesserung"
 description: "Beschreibe für eine Kartenkomponente sinnvolle Varianten, Pflichtinhalte und Grenzen."
 subject: "web-development"
 section: "architektur"
-topicPath: 
-  - "werkzeuge-und-projektarbeit"
-  - "komponenten"
-  - "aufgabe-b"
+topicPath: ["sanierung-v187", "designsysteme-und-komponenten-aufgabe-b"]
 taskId: "web-v187-031b"
-tags: 
-  - "komponenten"
-  - "designsystem"
-  - "css"
-  - "frontend"
-  - "web-development"
-  - "aufgabe"
-  - "v187"
-hintPoints: 
-  - "Trenne Zweck, Struktur und sichtbare Wirkung."
-  - "Begründe mindestens eine Entscheidung mit dem Nutzerziel."
-  - "Prüfe einen typischen Fehlerfall aus der Erklärseite."
-selfCheckPoints: 
-  - "Die Lösung passt zur Aufgabenstellung."
-  - "Mindestens eine Entscheidung ist begründet."
-  - "Es gibt keine neue Aufgabe ohne passende Lösung."
-transferIdeas: 
-  - "Übertrage die Entscheidung auf eine zweite kleine Seite."
-  - "Formuliere eine kurze Checkliste für spätere Wiederholung."
-reflectionPrompt: "Welche Entscheidung war am wichtigsten, damit die Lösung ruhig und wartbar bleibt?"
+tags: ["web-development", "architektur", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Beschreibe für eine Kartenkomponente sinnvolle Varianten, Pflichtinhalte und Grenzen.

@@ -1,13 +1,19 @@
 ---
-title: HTML-Grundlagen
-description: Verstehe, warum HTML die Struktur einer Webseite beschreibt und nicht ihre Gestaltung.
-subject: web-development
-section: html-grundlagen
-level: einfach
-tags: [html, struktur, web-development]
+title: "HTML-Grundlagen"
+description: "Verstehe, warum HTML die Struktur einer Webseite beschreibt und nicht ihre Gestaltung."
+subject: "web-development"
+section: "html-grundlagen"
+topicPath: ["html-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["html", "struktur", "web-development"]
 draft: false
 ---
-
 HTML gehört zu den Grundlagen des Web Development. Es beschreibt die **Struktur** einer Webseite und legt fest, welche Inhalte auf einer Seite vorkommen.
 
 ## Was macht HTML?

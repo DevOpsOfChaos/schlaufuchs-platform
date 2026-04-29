@@ -1,33 +1,17 @@
 ---
 title: "Analog-digitale Grenze"
 description: "Überblick über den Übergang zwischen analogen Größen und digitalen Zuständen in elektronischen Systemen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Analog und Digital"
-topicPath:
-  - "analog-digitale-grenze"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Analog-digitale Grenze als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["analog-digitale-grenze", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Der Übergang zu digital wird manchmal als Verlust aller analogen Probleme verstanden. Tatsächlich bleiben Rauschen, Toleranzen und Timing an den Grenzen sichtbar."
-keyTakeaways:
-  - "Die analog-digitale Grenze beschreibt den Punkt, an dem kontinuierliche Spannungen, Zeiten oder Messwerte in diskrete Zustände oder Zahlen überführt werden."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um analog-digitale grenze, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich analog-digitale grenze in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "analog-digitale grenze"
-  - "überblick"
-  - "schaltschwellen"
-  - "abtastung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Analog und Digital"]
 draft: false
 ---
 # Analog-digitale Grenze

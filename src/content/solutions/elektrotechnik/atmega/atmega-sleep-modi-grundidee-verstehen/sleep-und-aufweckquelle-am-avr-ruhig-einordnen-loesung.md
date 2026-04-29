@@ -1,24 +1,14 @@
 ---
-title: Musterlösung – Sleep und Aufweckquelle am AVR ruhig einordnen
-description: Musterlösung zur Aufgabe ET-ATMEGA-SLEEP-301.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - robustheit-und-fehlersicherheit
-  - atmega-sleep-modi-grundidee-verstehen
-  - sleep-und-aufweckquelle-am-avr-ruhig-einordnen-loesung
-taskId: ET-ATMEGA-SLEEP-301
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-sleep-modi-grundidee-verstehen/sleep-und-aufweckquelle-am-avr-ruhig-einordnen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - sleep
-  - loesung
-  - task-id
+title: "Musterlösung – Sleep und Aufweckquelle am AVR ruhig einordnen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-SLEEP-301."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-sleep-modi-grundidee-verstehen", "sleep-und-aufweckquelle-am-avr-ruhig-einordnen"]
+taskId: "ET-ATMEGA-SLEEP-301"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-sleep-modi-grundidee-verstehen/sleep-und-aufweckquelle-am-avr-ruhig-einordnen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

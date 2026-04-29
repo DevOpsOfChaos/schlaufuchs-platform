@@ -3,21 +3,12 @@ title: "Lösung – Kalibrierung als Zuordnung verstehen"
 description: "Musterlösung zu kalibrierung als zuordnung verstehen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "sensoren-und-aktoren"
-  - "kalibrierung-als-zuordnung-verstehen"
+topicPath: ["daten-und-signale", "sensoren-und-aktoren", "kalibrierung-als-zuordnung-verstehen"]
 taskId: "v112-elektrotechnik-kalibrierung-als-zuordnung-verstehen"
 relatedExercise: "elektrotechnik/daten-und-signale/sensoren-und-aktoren/kalibrierung-als-zuordnung-verstehen"
-tags:
-  - "elektrotechnik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-signale"
-  - "kalibrierung-als-zuordnung-verstehen"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Sensoren und Aktoren**.

@@ -1,34 +1,19 @@
 ---
 title: "Koordinatengeometrie"
 description: "Allgemeiner Überblick über Koordinatengeometrie als Verbindung von Algebra und Geometrie."
-subject: mathematik
+subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - "koordinatengeometrie"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Koordinatengeometrie als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["koordinatengeometrie", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird die Zeichnung als Beweis betrachtet. Koordinatengeometrie verlangt zusätzlich Begründung."
-keyTakeaways:
-  - "Koordinatengeometrie übersetzt geometrische Fragen in algebraische Formen."
-  - "Koordinatengeometrie sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Koordinatengeometrie."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Koordinatengeometrie erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "mathematik"
-  - "geometrie"
-  - "koordinaten"
-  - "punkte"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Geometrie"]
 draft: false
 ---
-
 # Koordinatengeometrie
 
 Koordinatengeometrie beschreibt geometrische Objekte mithilfe von Zahlenpaaren, Gleichungen und rechnerischen Beziehungen.

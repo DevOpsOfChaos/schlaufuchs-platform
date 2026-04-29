@@ -3,40 +3,17 @@ title: "RC-Glied als Zeitverhalten"
 description: "Verstehe laden und entladen qualitativ deuten als ruhigen Baustein für sichere und nachvollziehbare Elektrotechnik."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "zeitverhalten"
-  - "rc-glied-als-zeitverhalten"
-learningGoals:
-  - "Laden und Entladen qualitativ deuten"
-  - "Mess- und Schaltungsentscheidungen begründen"
-  - "typische Fehlerbilder früh erkennen"
-practiceIdeas:
-  - "Beschreibe den Ladeverlauf eines Kondensators nach dem Einschalten."
-  - "Formuliere eine kurze Prüfcheckliste für einen zweiten ähnlichen Aufbau."
-commonMistakes:
-  - "Schaltplan, Aufbau und Messgerät werden nicht getrennt betrachtet."
-  - "Einheiten oder Messbereiche werden erst nach dem Rechnen geprüft."
-  - "Sicherheits- und Grenzwerte werden als Nachtrag behandelt."
-keyTakeaways:
-  - "Ein Kondensator ändert seine Spannung nicht sprunghaft ideal."
-  - "Ruhige Elektrotechnik trennt Größe, Bauteil, Messpunkt und Fehlerfall."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn ein Messwert, ein Bauteil oder ein Schaltungszustand sicher eingeordnet werden muss."
-selfCheckPoints:
-  - "Kann ich Messpunkt, Strompfad und Bauteilrolle unterscheiden?"
-  - "Ist mindestens ein Grenz- oder Fehlerfall benannt?"
-  - "Bleibt die Begründung mit Einheiten und Richtung verständlich?"
+topicPath: ["sanierung-v191", "rc-glied-als-zeitverhalten"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "zeitverhalten"
-  - "rc"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen"]
 draft: false
 ---
-
 ![Didaktische Skizze zu RC-Glied als Zeitverhalten](/schlaufuchs-platform/images/elektrotechnik/sanierung-v191/rc-glied-als-zeitverhalten.svg)
 
 RC-Glied als Zeitverhalten gehört zur Elektrotechnik-Sanierung v191. Die Seite behandelt das Thema als praktische Entscheidung: Was zeigt der Schaltplan, was passiert im realen Aufbau, wo wird gemessen und welcher Fehlerfall muss vor dem Einschalten bedacht werden?

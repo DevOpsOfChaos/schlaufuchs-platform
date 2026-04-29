@@ -1,24 +1,14 @@
 ---
-title: Musterlösung – Elemente mit Flexbox ausrichten
-description: Erste festgehaltene Musterlösung zur Aufgabe WEB-CSS-FLEXBOX-001.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - flexbox
-  - flexbox-grundidee-verstehen
-  - elemente-mit-flexbox-ausrichten-loesung
-taskId: WEB-CSS-FLEXBOX-001
-relatedExercise: src/content/exercises/web-development/css/flexbox-grundidee-verstehen/elemente-mit-flexbox-ausrichten.md
-tags:
-  - web-development
-  - css
-  - flexbox
-  - loesung
-  - task-id
+title: "Musterlösung – Elemente mit Flexbox ausrichten"
+description: "Erste festgehaltene Musterlösung zur Aufgabe WEB-CSS-FLEXBOX-001."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "flexbox-grundidee-verstehen", "elemente-mit-flexbox-ausrichten"]
+taskId: "WEB-CSS-FLEXBOX-001"
+relatedExercise: "src/content/exercises/web-development/css/flexbox-grundidee-verstehen/elemente-mit-flexbox-ausrichten.md"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Lösungsidee
 
 Die Aufgabe prüft vor allem drei Dinge: Richtung der Achse, sichtbare Verteilung auf der Hauptachse und die Frage, ob der Container oder die Einzelelemente verändert wurden.

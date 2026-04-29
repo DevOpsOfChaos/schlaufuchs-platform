@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Pfade und Navigation – anwenden und prüfen"
 description: "Musterlösung zur Linux-Aufgabe Pfade und Navigation."
-subject: linux
+subject: "linux"
 section: "shell-und-terminal"
-topicPath:
-  - "shell-und-terminal"
-  - "pfade-und-navigation"
-taskId: LINUX-PFADE-UND-NAVIGATION-V186-2
-relatedExercise: src/content/exercises/linux/shell-und-terminal/pfade-und-navigation/pfade-und-navigation-anwenden-und-pruefen-v186.md
-tags:
-  - "linux"
-  - "pfade"
-  - "dateisystem"
-  - "loesung"
+topicPath: ["shell-und-terminal", "pfade-und-navigation", "pfade-und-navigation-anwenden-und-pruefen-v186"]
+taskId: "LINUX-PFADE-UND-NAVIGATION-V186-2"
+relatedExercise: "src/content/exercises/linux/shell-und-terminal/pfade-und-navigation/pfade-und-navigation-anwenden-und-pruefen-v186.md"
+tags: ["linux", "shell-und-terminal", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

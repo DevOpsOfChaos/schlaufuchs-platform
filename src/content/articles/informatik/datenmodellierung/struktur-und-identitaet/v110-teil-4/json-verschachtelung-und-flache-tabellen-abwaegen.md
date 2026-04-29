@@ -3,46 +3,17 @@ title: "Informatik – JSON-Verschachtelung und flache Tabellen abwägen"
 description: "Lerne JSON-Verschachtelung und flache Tabellen abwägen als kleines, klar prüfbares Unterthema mit Abgrenzung, Beispiel und Gegenprobe."
 subject: "informatik"
 section: "Datenmodellierung"
-topicPath:
-  - "datenmodellierung"
-  - "struktur-und-identitaet"
-  - "v110-teil-4"
-  - "json-verschachtelung-und-flache-tabellen-abwaegen"
-learningGoals:
-  - "Du erklärst JSON-Verschachtelung und flache Tabellen abwägen als eigenes Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Erstelle eine Gegenprobe mit verändertem Wert, Zustand oder Kontext."
-  - "Vergleiche die Seite mit einem Nachbarthema und nenne die Trennkante."
-commonMistakes:
-  - "JSON-Struktur wird direkt mit guter Datenbankstruktur verwechselt."
-  - "Das Thema nur einem breiten Kapitel zuordnen."
-  - "Eine Lösung formulieren, die keine konkrete Prüfung enthält."
-keyTakeaways:
-  - "JSON-Verschachtelung und flache Tabellen abwägen wird über Einordnung, Abgrenzung und Gegenprobe stabil."
-  - "Kleine Unterthemen erhöhen Auffindbarkeit und reduzieren Doppelungen."
-  - "Aufgabe und Lösung sollen dieselbe fachliche Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Ein breites Kapitel wäre als Antwort zu ungenau."
-  - "Ein konkreter Prüfschritt kann die Entscheidung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "informatik"
-  - "struktur"
-  - "praxis"
-  - "datenmodellierung"
-  - "struktur-und-identitaet"
-  - "json-verschachtelung-und-flache-tabellen-abwaegen"
+topicPath: ["datenmodellierung", "struktur-und-identitaet", "v110-teil-4", "json-verschachtelung-und-flache-tabellen-abwaegen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["informatik", "Datenmodellierung"]
 draft: false
 ---
-
 ## Grundidee
 
 **JSON-Verschachtelung und flache Tabellen abwägen** ist bewusst als enges Unterthema angelegt. Die Seite beantwortet nicht das ganze Kapitel, sondern die kleine fachliche Entscheidung, die in Aufgaben oft den Unterschied macht.

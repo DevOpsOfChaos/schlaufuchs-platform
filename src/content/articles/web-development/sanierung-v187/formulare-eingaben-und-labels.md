@@ -3,39 +3,17 @@ title: "Formulare, Eingaben und Labels"
 description: "Baue Formulare so, dass Eingaben, Beschriftungen und erwartete Daten klar zusammengehören."
 subject: "web-development"
 section: "html"
-topicPath: 
-  - "html-und-semantik"
-  - "formulare"
-learningGoals: 
-  - "Verständliche Formulare ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Entwirf ein Kontaktformular mit passenden Labels, Input-Typen und kurzer Hilfsinformation."
-  - "Verbessere ein Formular, in dem Platzhalter, Labels und Pflichtfeldhinweise durcheinander geraten sind."
-commonMistakes: 
-  - "Platzhalter ersetzen dauerhafte Labels."
-  - "Pflichtfelder sind nur farblich markiert."
-  - "Fehlermeldungen sagen nicht, was zu korrigieren ist."
-keyTakeaways: 
-  - "Ein gutes Formular lässt sich Schritt für Schritt ausfüllen, ohne dass Bedeutung oder Erwartung unklar werden."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "Ein gutes Formular lässt sich Schritt für Schritt ausfüllen, ohne dass Bedeutung oder Erwartung unklar werden."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "formulare-eingaben-und-labels"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags: 
-  - "formulare"
-  - "inputs"
-  - "labels"
-  - "html"
-  - "web-development"
+tags: ["web-development", "html"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Formulare, Eingaben und Labels](/schlaufuchs-platform/images/web-development/sanierung-v187/formulare-eingaben-und-labels.svg)
 
     Formulare, Eingaben und Labels ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

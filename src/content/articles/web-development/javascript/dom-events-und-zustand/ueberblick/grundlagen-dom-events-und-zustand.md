@@ -3,44 +3,17 @@ title: "DOM, Events und Zustand – Überblick"
 description: "Eine allgemeine Einführung in DOM-Struktur, Benutzerereignisse und Zustandsänderungen im Browser."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "dom-events-und-zustand"
-  - "ueberblick"
-learningGoals:
-  - "Du verstehst, wie DOM, Events und Zustand in interaktiven Webseiten zusammenhängen."
-  - "Du unterscheidest Struktur, Ereignis und gespeicherten Zustand."
-  - "Du erkennst, warum interaktive Oberflächen ohne klare Zustandslogik unübersichtlich werden."
-practiceIdeas:
-  - "Beschreibe bei einem Button-Klick, welches Element reagiert und welcher Zustand sich ändert."
-  - "Trenne in einem kleinen Beispiel HTML-Struktur, Event-Handler und sichtbare Ausgabe."
-  - "Überlege, welcher Zustand gespeichert werden muss und was nur aus diesem Zustand berechnet wird."
-commonMistakes:
-  - "Jede sichtbare Änderung direkt im DOM zu verstreuen, ohne einen klaren Zustand zu führen."
-  - "Event-Handler als Ort für die gesamte Programmlogik zu missbrauchen."
-  - "DOM-Elemente, Benutzereingaben und Datenzustand nicht zu trennen."
-keyTakeaways:
-  - "Der DOM beschreibt die Dokumentstruktur, die JavaScript lesen und verändern kann."
-  - "Events melden, dass etwas passiert ist, zum Beispiel ein Klick oder eine Eingabe."
-  - "Zustand beschreibt, welche Informationen eine Oberfläche gerade halten muss."
-recognizeSignals:
-  - "Eine Webseite soll auf Klicks, Eingaben oder Auswahländerungen reagieren."
-  - "Es geht um Begriffe wie DOM, Event Listener, State, Rendering oder UI-Update."
-  - "Die sichtbare Oberfläche hängt von gespeicherten Daten oder Benutzeraktionen ab."
-selfCheckPoints:
-  - "Ist klar, welches Ereignis die Änderung auslöst?"
-  - "Ist klar, welcher Zustand sich ändert?"
-  - "Wird die Oberfläche aus dem Zustand aktualisiert statt zufällig an vielen Stellen verändert?"
+topicPath: ["javascript", "dom-events-und-zustand", "ueberblick", "grundlagen-dom-events-und-zustand"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "web-development"
-  - "javascript"
-  - "dom"
-  - "events"
-  - "zustand"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Begriff und Grundidee
 
 Interaktive Webseiten bestehen nicht nur aus HTML und CSS. Sobald eine Seite auf Klicks, Eingaben oder andere Benutzeraktionen reagieren soll, kommen JavaScript, DOM, Events und Zustand zusammen.

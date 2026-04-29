@@ -3,46 +3,17 @@ title: "Elektrotechnik – Timerzeit aus Takt, Prescaler und Zählwert abschätz
 description: "Lerne Timerabschätzung als klar abgegrenztes Unterthema mit Beispiel, Prüfraster und Gegenprobe."
 subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "timer-und-zeitbasis"
-  - "zeitfenster"
-  - "timerzeit-aus-takt-prescaler-und-zaehlwert-abschaetzen"
-learningGoals:
-  - "Du erklärst Timerabschätzung als eigenes Unterthema."
-  - "Du grenzt das Thema von einem breiteren Sammelbereich ab."
-  - "Du formulierst eine konkrete Gegenprobe."
-practiceIdeas:
-  - "Erstelle ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Prüfe, welche Nachbarseite nicht gemeint ist."
-  - "Übertrage das Prüfraster auf einen zweiten Fall."
-commonMistakes:
-  - "Das Thema zu breit einordnen und die Trennkante verlieren."
-  - "Nur einen Begriff nennen, ohne Beispiel oder Gegenprobe."
-  - "Aufgabe und Wissensseite sprachlich auseinanderlaufen lassen."
-keyTakeaways:
-  - "Timerabschätzung wird durch Einordnung, Trennung und Gegenprobe stabil."
-  - "Feinere Unterthemen verbessern Orientierung und vermeiden Doppelungen."
-  - "Eine gute Lösung nennt auch, was nicht gemeint ist."
-recognizeSignals:
-  - "Die Aufgabe enthält eine kleine, aber entscheidende Unterscheidung."
-  - "Eine allgemeine Antwort wäre zu ungenau."
-  - "Ein Prüfschritt kann die Einordnung bestätigen oder widerlegen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich das Nachbarthema abgrenzen?"
-  - "Ist meine Gegenprobe konkret?"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "schaltungen"
-  - "timerabschätzung"
-  - "mikrocontroller-und-atmega"
-  - "timer-und-zeitbasis"
+topicPath: ["mikrocontroller-und-atmega", "timer-und-zeitbasis", "zeitfenster", "timerzeit-aus-takt-prescaler-und-zaehlwert-abschaetzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
-
 ## Grundidee
 
 **Timerabschätzung** ist ein kleines, bewusst abgegrenztes Unterthema. Lerne Timerabschätzung als klar abgegrenztes Unterthema mit Beispiel, Prüfraster und Gegenprobe. Die Seite verhindert, dass mehrere Nachbarfragen in einem breiten Sammelbegriff verschwimmen.

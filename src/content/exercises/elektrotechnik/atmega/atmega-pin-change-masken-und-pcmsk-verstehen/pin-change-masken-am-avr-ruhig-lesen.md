@@ -1,32 +1,17 @@
 ---
-title: Pin-Change-Masken am AVR ruhig lesen
-description: Begründe die zweistufige Freigabe von Pin-Change-Interrupts über PCICR und PCMSK am ATmega.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - interrupts-und-reaktivitaet
-  - atmega-pin-change-masken-und-pcmsk-verstehen
-  - pin-change-masken-am-avr-ruhig-lesen
-taskId: ET-ATMEGA-PCINT-212
-level: mittel
+title: "Pin-Change-Masken am AVR ruhig lesen"
+description: "Begründe die zweistufige Freigabe von Pin-Change-Interrupts über PCICR und PCMSK am ATmega."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-pin-change-masken-und-pcmsk-verstehen", "pin-change-masken-am-avr-ruhig-lesen"]
+taskId: "ET-ATMEGA-PCINT-212"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - atmega
-  - interrupt
-  - pin-change
-hintPoints:
-  - Denke zuerst in Gruppen und erst danach in Einzelpins.
-  - Lies PCICR und PCMSK nicht als Konkurrenz, sondern als zwei Ebenen derselben Freigabe.
-selfCheckPoints:
-  - Kannst du Gruppenfreigabe und Pinmaske sicher unterscheiden?
-  - Kannst du erklären, warum die Maske didaktisch nicht bloß Nebensache ist?
-transferIdeas:
-  - Übertrage die Logik auf Tasterbänke, Portgruppen oder mehrere Sensorsignale.
-reflectionPrompt: "Was wäre ohne die zweite Freigabeebene im praktischen Aufbau schnell unübersichtlich?"
 ---
-
 ## Aufgabe 1
 
 Erkläre in eigenen Worten den Unterschied zwischen **PCICR** und **PCMSK** bei Pin-Change-Interrupts am AVR.

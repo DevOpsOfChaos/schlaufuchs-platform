@@ -1,21 +1,14 @@
 ---
 title: "Lösung: Ohmsches Gesetz – Grundaufgaben"
 description: "Lösung zur Grundaufgabe zum Ohmschen Gesetz."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Grundlagen Elektrotechnik"
-topicPath:
-  - "ohmsches-gesetz"
+topicPath: ["ohmsches-gesetz-grundaufgaben"]
 taskId: "ET-GR-OHM-001"
 relatedExercise: "src/content/exercises/elektrotechnik/ohmsches-gesetz-grundaufgaben.md"
-tags:
-  - "elektrotechnik"
-  - "ohmsches gesetz"
-  - "spannung"
-  - "strom"
-  - "widerstand"
+tags: ["elektrotechnik", "Grundlagen Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Lösungsgedanke
 
 Diese Lösung ist bewusst als Musterlösung aufgebaut. Sie zeigt nicht nur ein Ergebnis, sondern die fachliche Begründung, damit die Aufgabe später nachvollziehbar kontrolliert werden kann.

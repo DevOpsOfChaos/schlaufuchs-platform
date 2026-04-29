@@ -1,27 +1,17 @@
 ---
 title: "Codierung und Zeichensätze ruhig einordnen"
 description: "Übe Codierung und Zeichensätze mit Begriffen, Beispielen und typischen Prüfungen."
-subject: informatik
+subject: "informatik"
 section: "Daten und Information"
-topicPath:
-  - "daten-und-information"
-  - "codierung-und-zeichensaetze"
-taskId: INF-V183-07-A
-tags:
-  - "informatik"
-  - "codierung-und-zeichensaetze"
-hintPoints:
-  - "Beginne mit der allgemeinen Idee."
-  - "Trenne Begriff, Beispiel und Fehlerquelle."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe sauber unterscheiden."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel aus einem anderen Informatikthema."
-reflectionPrompt: "Welche Unterscheidung war hier am wichtigsten?"
-level: einfach
+topicPath: ["daten-und-information", "codierung-und-zeichensaetze", "codierung-und-zeichensaetze-ruhig-einordnen-v183"]
+taskId: "INF-V183-07-A"
+tags: ["informatik", "Daten und Information", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Codierung und Zeichensätze**.
 
 ## Aufgabe 1 – Begriffe klären

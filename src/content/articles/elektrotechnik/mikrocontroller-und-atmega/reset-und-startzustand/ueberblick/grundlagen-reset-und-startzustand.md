@@ -1,39 +1,19 @@
 ---
 title: "Grundlagen: Reset und Startzustand"
 description: "Ein Überblick darüber, warum Mikrocontroller definierte Startzustände brauchen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - mikrocontroller-und-atmega
-  - reset-und-startzustand
-  - ueberblick
-learningGoals:
-  - "Du kennst die Grundbegriffe dieses Themenbereichs."
-  - "Du kannst typische Situationen grob einordnen, bevor du Detailseiten liest."
-  - "Du erkennst, welche Nachbarseiten für Vertiefung oder Übungen passen."
-practiceIdeas:
-  - "Lies zuerst diese Überblicksseite und danach eine konkrete Lernsituation aus dem gleichen Unterthema."
-  - "Notiere die wichtigsten Begriffe und prüfe, welche davon in den Detailseiten wieder auftauchen."
-commonMistakes:
-  - "Direkt mit Sonderfällen zu beginnen, ohne die Grundbegriffe zu klären."
-  - "Ein einzelnes Beispiel für die ganze Themenlogik zu halten."
-keyTakeaways:
-  - "Reset ist kein Ausnahmezustand, sondern Teil der Systemlogik. Er schafft einen definierten Startpunkt."
-recognizeSignals:
-  - "Du suchst eine allgemeine Einordnung, bevor du Aufgaben oder Spezialfälle bearbeitest."
-  - "Mehrere Detailseiten wirken ähnlich, aber dir fehlt der gemeinsame Rahmen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten beschreiben?"
-  - "Kann ich Grundidee, typische Begriffe und Grenzen auseinanderhalten?"
-level: mittel
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "reset"
-  - "startzustand"
+topicPath: ["mikrocontroller-und-atmega", "reset-und-startzustand", "ueberblick", "grundlagen-reset-und-startzustand"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-
 ## Überblick
 
 Ein Reset versetzt einen Mikrocontroller in einen definierten Anfangszustand. Danach beginnt das Programm an einer festgelegten Stelle. Ohne zuverlässigen Startzustand wären Eingänge, Ausgänge und interne Register schwer vorhersehbar.

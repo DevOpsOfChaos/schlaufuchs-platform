@@ -3,32 +3,17 @@ title: "Symbolische und absolute Pfade"
 description: "Allgemeiner Überblick über symbolische und absolute pfade und die wichtigsten Zusammenhänge."
 subject: "linux"
 section: "Dateisystem"
-topicPath:
-  - "symbolische-und-absolute-pfade"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["symbolische-und-absolute-pfade", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Befehle aus einem anderen Arbeitsverzeichnis gestartet als gedacht."
-keyTakeaways:
-  - "Sicherer Umgang mit Pfaden verhindert viele Datei- und Skriptfehler."
-  - "Ein Pfad ist nicht der Dateiinhalt, sondern eine Adresse im Dateisystem."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "linux"
-  - "pfade"
-  - "dateisystem"
-  - "shell"
+tags: ["linux", "Dateisystem"]
 draft: false
 ---
-
 # Symbolische und absolute Pfade
 
 Pfade beschreiben, wo Dateien und Verzeichnisse im Dateisystem erreichbar sind. Absolute Pfade beginnen an der Wurzel, relative am aktuellen Arbeitsort.

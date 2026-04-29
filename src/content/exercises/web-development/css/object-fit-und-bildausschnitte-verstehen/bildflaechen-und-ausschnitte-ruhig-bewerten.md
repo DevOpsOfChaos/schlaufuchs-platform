@@ -1,30 +1,17 @@
 ---
-title: Bildflächen und Ausschnitte ruhig bewerten
-description: Erkläre, wann cover oder contain sinnvoller wirken und warum Verzerrung meist kein gutes Bildverhalten ist.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - object-fit-und-bildausschnitte-verstehen
-  - bildflaechen-und-ausschnitte-ruhig-bewerten
-level: einfach
+title: "Bildflächen und Ausschnitte ruhig bewerten"
+description: "Erkläre, wann cover oder contain sinnvoller wirken und warum Verzerrung meist kein gutes Bildverhalten ist."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "object-fit-und-bildausschnitte-verstehen", "bildflaechen-und-ausschnitte-ruhig-bewerten"]
+taskId: "AUTO-BILDFLAECHEN-UND-AUSSCHNITTE-RUHIG-BEWERTEN"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - css
-  - bilder
-  - object-fit
-hintPoints:
-  - Unterscheide Flächenfüllung und vollständigen Inhalt.
-  - Beschreibe sichtbar, was mit dem Bildausschnitt passiert.
-selfCheckPoints:
-  - Kannst du cover und contain sauber begründen?
-  - Kannst du Verzerrung als eigenes Problem benennen?
-transferIdeas:
-  - Übertrage die Entscheidung auf Avatare, Produktbilder oder Teaserkarten.
-reflectionPrompt: Wann ist ein kleiner Bildausschnitt-Verlust sinnvoller als eine leere Fläche?
 ---
-
 ## Aufgabe 1: cover oder contain?
 
 Begründe für diese Situationen eine passende Einpassung:

@@ -1,32 +1,17 @@
 ---
 title: "Subresource Integrity"
 description: "Überblick über Integritätsprüfungen externer Skripte und Stylesheets im Browser."
-subject: web-development
+subject: "web-development"
 section: "Sicherheit"
-topicPath:
-  - "subresource-integrity"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Subresource Integrity als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie integrity-Attribut, CORS, CDN."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["subresource-integrity", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "SRI als Ersatz für vertrauenswürdige Quellen oder Updatekontrolle zu verwenden."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Subresource Integrity beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Absicherung externer Ressourcen."
-  - "Wichtige Hinweise liefern vor allem integrity-Attribut, CORS, CDN."
-recognizeSignals:
-  - "Es geht um absicherung externer ressourcen, integrity-attribut oder cors."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Subresource Integrity erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "web-development"
-  - "sicherheit"
-  - "browser"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Sicherheit"]
 draft: false
 ---
 # Subresource Integrity

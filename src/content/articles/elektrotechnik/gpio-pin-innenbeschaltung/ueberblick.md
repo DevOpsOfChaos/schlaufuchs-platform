@@ -1,35 +1,17 @@
 ---
 title: "GPIO-Pin-Innenbeschaltung"
 description: "Überblick über die innere Beschaltung von GPIO-Pins, ihre Betriebsarten und die Grenzen digitaler Anschlüsse."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "gpio-pin-innenbeschaltung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst GPIO-Pin-Innenbeschaltung als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["gpio-pin-innenbeschaltung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird angenommen, ein gesetztes Ausgangsbit bedeute automatisch eine sichere externe Spannung. Tatsächlich hängt das Ergebnis von Richtung, Last und Pin-Funktion ab."
-keyTakeaways:
-  - "Ein GPIO-Pin wirkt nach außen wie ein einfacher Anschluss, besitzt intern aber mehrere Schalter, Treiber, Schutzstrukturen und Registerfunktionen."
-  - "Die innere Beschaltung erklärt, warum derselbe Pin Eingang, Ausgang, Pull-up-Eingang oder Sonderfunktion sein kann und warum falsche Einstellungen reale Folgen haben."
-  - "Ein GPIO-Pin ist kein idealer Draht und kein beliebig belastbarer Schalter; Strom, Spannung und Geschwindigkeit bleiben durch das Datenblatt begrenzt."
-recognizeSignals:
-  - "Es geht um GPIO-Pin-Innenbeschaltung, wenn eingangspuffer, Ausgangstreiber und Pull-Widerstände sind getrennte Teilfunktionen."
-  - "Das Thema wird relevant, wenn Beispiele wie ein Tastereingang kann intern einen Pull-up nutzen, während ein LED-Ausgang einen Ausgangstreiber und einen Vorwiderstand benötigt."
-selfCheckPoints:
-  - "Kann ich GPIO-Pin-Innenbeschaltung in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "gpio"
-  - "pin"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
 # GPIO-Pin-Innenbeschaltung

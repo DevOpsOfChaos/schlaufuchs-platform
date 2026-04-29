@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Hash-Tabellen und Lookup – anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über hash-tabellen und lookup."
-subject: informatik
+subject: "informatik"
 section: "Datenstrukturen im Einsatz"
-topicPath:
-  - "datenstrukturen-im-einsatz"
-  - "hash-tabellen-und-lookup"
-  - "loesung"
-taskId: INF-V185-012-2
-relatedExercise: src/content/exercises/informatik/datenstrukturen-im-einsatz/hash-tabellen-und-lookup/hash-tabellen-und-lookup-anwenden-und-pruefen-v185.md
-tags:
-  - "informatik"
-  - "datenstrukturen-im-einsatz"
-  - "hash-tabellen-und-lookup"
-  - "loesung"
+topicPath: ["datenstrukturen-im-einsatz", "hash-tabellen-und-lookup", "hash-tabellen-und-lookup-anwenden-und-pruefen-v185"]
+taskId: "INF-V185-012-2"
+relatedExercise: "src/content/exercises/informatik/datenstrukturen-im-einsatz/hash-tabellen-und-lookup/hash-tabellen-und-lookup-anwenden-und-pruefen-v185.md"
+tags: ["informatik", "Datenstrukturen im Einsatz", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

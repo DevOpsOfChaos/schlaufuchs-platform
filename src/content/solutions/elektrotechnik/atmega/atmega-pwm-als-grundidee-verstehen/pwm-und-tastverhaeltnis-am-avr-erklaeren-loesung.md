@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – PWM und Tastverhältnis am AVR erklären
-description: Musterlösung zur Aufgabe ET-ATMEGA-PWM-209.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - pwm-und-signalerzeugung
-  - atmega-pwm-als-grundidee-verstehen
-  - pwm-und-tastverhaeltnis-am-avr-erklaeren-loesung
-taskId: ET-ATMEGA-PWM-209
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-pwm-als-grundidee-verstehen/pwm-und-tastverhaeltnis-am-avr-erklaeren.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – PWM und Tastverhältnis am AVR erklären"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-PWM-209."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-pwm-als-grundidee-verstehen", "pwm-und-tastverhaeltnis-am-avr-erklaeren"]
+taskId: "ET-ATMEGA-PWM-209"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-pwm-als-grundidee-verstehen/pwm-und-tastverhaeltnis-am-avr-erklaeren.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

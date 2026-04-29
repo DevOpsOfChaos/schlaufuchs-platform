@@ -3,34 +3,15 @@ title: "Übung: Spaltenraster benennen"
 description: "Übe, „Spaltenraster benennen“ als kleines Unterthema zu erkennen, zu begründen und mit einer Gegenprobe abzusichern."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "css-layoutsysteme"
-  - "grid-und-layoutachsen"
-  - "spaltenraster-benennen-v116"
+topicPath: ["css-layoutsysteme", "grid-und-layoutachsen", "spaltenraster-benennen-v116"]
 taskId: "spaltenraster-benennen-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "grid und layoutachsen"
-  - "spaltenraster benennen"
-  - "v116"
-hintPoints:
-  - "Lies zuerst nur die konkrete Unterfrage."
-  - "Markiere eine typische Fehlannahme."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Lösung fachlich begründet?"
-  - "Ist die Abgrenzung zum Nachbarthema sichtbar?"
-  - "Passt die Gegenprobe zur Aufgabe?"
-transferIdeas:
-  - "Ändere eine Bedingung und prüfe, ob deine Begründung noch trägt."
-  - "Erkläre die Lösung einmal ohne Fachwörter und danach fachlich sauber."
-reflectionPrompt: "Welche kleine Entscheidung war bei „Spaltenraster benennen“ am wichtigsten?"
+tags: ["web-development", "Web Development vertiefen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe 1: Unterfrage erkennen
 
 Lies die Situation:

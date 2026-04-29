@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Achsenabschnitt im Diagramm prüfen"
 description: "Musterlösung zu Achsenabschnitt im Diagramm prüfen mit Trennkante und Gegenprobe."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "daten-und-zufall-v115"
-  - "diagramme-kritisch-lesen"
-  - "achsenabschnitt-im-diagramm-pruefen-v115"
+topicPath: ["daten-und-zufall-v115", "diagramme-kritisch-lesen", "achsenabschnitt-im-diagramm-pruefen-v115"]
 taskId: "mathematik-achsenabschnitt-im-diagramm-pruefen-v115"
 relatedExercise: "mathematik/daten-und-zufall-v115/diagramme-kritisch-lesen/achsenabschnitt-im-diagramm-pruefen-v115"
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "daten und zufall"
-  - "diagramme kritisch lesen"
-  - "lösung"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Achsenabschnitt im Diagramm prüfen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

@@ -3,35 +3,15 @@ title: "Aufgabe – Parameterfälle in Gleichungen geordnet prüfen"
 description: "Übe Parameterfälle in Gleichungen mit einem kleinen Szenario, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Algebra"
-topicPath:
-  - "algebra"
-  - "parameter-und-faelle"
-  - "sonderfaelle"
-  - "parameterfaelle-in-gleichungen-geordnet-pruefen"
+topicPath: ["algebra", "parameter-und-faelle", "sonderfaelle", "parameterfaelle-in-gleichungen-geordnet-pruefen"]
 taskId: "v109-mathematik-parameterfaelle-in-gleichungen-geordnet-pruefen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfen"
-  - "algebra"
-  - "parameter-und-faelle"
-  - "parameterfälle in gleichungen"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Übertrage den Prüfschritt auf ein Nachbarthema und nenne den Unterschied."
-reflectionPrompt: "Welche kleine Trennkante macht Parameterfälle in Gleichungen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["mathematik", "Algebra", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Parameterfälle in Gleichungen**.

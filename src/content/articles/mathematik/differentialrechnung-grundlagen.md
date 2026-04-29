@@ -1,13 +1,19 @@
 ---
-title: Differentialrechnung – Grundlagen
-description: Verstehe, was eine Ableitung über das Verhalten einer Funktion aussagt.
-subject: mathematik
-section: analysis
-level: mittel
-tags: [differentialrechnung, ableitung, analysis]
+title: "Differentialrechnung – Grundlagen"
+description: "Verstehe, was eine Ableitung über das Verhalten einer Funktion aussagt."
+subject: "mathematik"
+section: "analysis"
+topicPath: ["differentialrechnung-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["differentialrechnung", "ableitung", "analysis"]
 draft: false
 ---
-
 Die Differentialrechnung beschreibt, wie sich eine Funktion an einer Stelle verändert. Im Mittelpunkt steht die Frage, wie stark ein Graph an einer bestimmten Stelle steigt oder fällt.
 
 ## Worum geht es bei der Ableitung?

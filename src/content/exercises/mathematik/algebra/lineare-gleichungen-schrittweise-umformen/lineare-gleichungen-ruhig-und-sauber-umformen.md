@@ -1,30 +1,17 @@
 ---
-title: Lineare Gleichungen ruhig und sauber umformen
-description: Forme lineare Gleichungen Schritt für Schritt um und begründe dabei die Rechenlogik beider Seiten.
-subject: mathematik
-section: Algebra
-topicPath:
-  - algebra
-  - lineare-gleichungen-schrittweise-umformen
-  - lineare-gleichungen-ruhig-und-sauber-umformen
-taskId: MATH-ALGEBRA-GLEICHUNG-001
-level: einfach
+title: "Lineare Gleichungen ruhig und sauber umformen"
+description: "Forme lineare Gleichungen Schritt für Schritt um und begründe dabei die Rechenlogik beider Seiten."
+subject: "mathematik"
+section: "Algebra"
+topicPath: ["algebra", "lineare-gleichungen-schrittweise-umformen", "lineare-gleichungen-ruhig-und-sauber-umformen"]
+taskId: "MATH-ALGEBRA-GLEICHUNG-001"
+tags: ["mathematik", "Algebra", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - mathematik
-  - algebra
-  - gleichungen
-hintPoints:
-  - "Frage zuerst, was die Variable noch bindet."
-  - "Achte darauf, dass beide Seiten der Gleichung gleichwertig behandelt werden."
-selfCheckPoints:
-  - "Kannst du jede Umformung als nachvollziehbare Operation benennen?"
-  - "Kannst du erklären, warum die Probe zur Kontrolle gehört?"
-transferIdeas:
-  - "Übertrage die Rechenlogik auf Aufgaben mit Minuszeichen oder mit Brüchen."
-reflectionPrompt: "Woran merkst du beim Rechnen, dass du gerade nicht mehr die Gleichung, sondern nur noch einzelne Zahlen bewegst?"
 ---
-
 ## Aufgabe 1: Schrittweise lösen
 
 Forme die Gleichung

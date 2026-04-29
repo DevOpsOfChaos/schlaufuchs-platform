@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Rauschende ADC-Werte ruhig mitteln
-description: Musterlösung zur Aufgabe ET-ATMEGA-ADC-209.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - adc-und-messung
-  - atmega-adc-mittelwertbildung-bei-rauschenden-signalen-verstehen
-  - rauschende-adc-werte-ruhig-mitteln-loesung
-taskId: ET-ATMEGA-ADC-209
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-adc-mittelwertbildung-bei-rauschenden-signalen-verstehen/rauschende-adc-werte-ruhig-mitteln.md
-tags:
-  - elektrotechnik
-  - atmega
-  - adc
-  - loesung
+title: "Musterlösung – Rauschende ADC-Werte ruhig mitteln"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-ADC-209."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-adc-mittelwertbildung-bei-rauschenden-signalen-verstehen", "rauschende-adc-werte-ruhig-mitteln"]
+taskId: "ET-ATMEGA-ADC-209"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-adc-mittelwertbildung-bei-rauschenden-signalen-verstehen/rauschende-adc-werte-ruhig-mitteln.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 ADC-Werte können leicht schwanken, obwohl der Eingang ungefähr gleich bleibt, weil Messung und Umgebung nicht vollkommen ideal sind. Kleine Störungen, Quantisierung und zeitliche Unruhe wirken dabei zusammen. Genau deshalb ist ein einzelner ADC-Wert oft kein vollkommen ruhiger Wahrheitswert.

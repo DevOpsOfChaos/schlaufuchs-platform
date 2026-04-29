@@ -3,23 +3,12 @@ title: "Lösung – Compare Match und Overflow unterscheiden"
 description: "Musterlösung zu Timer-Ereignisse mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "timer-und-zeitbasis"
-  - "compare"
-  - "compare-match-und-overflow-unterscheiden"
+topicPath: ["mikrocontroller-und-atmega", "timer-und-zeitbasis", "compare", "compare-match-und-overflow-unterscheiden"]
 taskId: "v111-elektrotechnik-compare-match-und-overflow-unterscheiden"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/timer-und-zeitbasis/compare/compare-match-und-overflow-unterscheiden"
-tags:
-  - "elektrotechnik"
-  - "praxis"
-  - "unterthema"
-  - "mikrocontroller-und-atmega"
-  - "timer-und-zeitbasis"
-  - "compare-match-und-overflow-unterscheiden"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Timer-Ereignisse**.

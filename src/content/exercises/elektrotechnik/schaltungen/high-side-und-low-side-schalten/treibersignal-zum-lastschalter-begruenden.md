@@ -1,28 +1,17 @@
 ---
 title: "Treibersignal zum Lastschalter begründen"
 description: "Begründe, warum ein Lastschalter nicht nur nach Ausgangspegel beurteilt werden darf."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schaltungen"
-topicPath:
-  - schaltungen
-  - high-side-und-low-side-schalten
-taskId: ET-V182-010
-tags:
-  - elektrotechnik
-  - high-side-und-low-side-schalten
-  - sanierung-v182
-hintPoints:
-  - "Lies zuerst den Normalzustand und danach den Fehlerfall."
-  - "Trenne Beobachtung, Vermutung und Gegenprobe."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["schaltungen", "high-side-und-low-side-schalten", "treibersignal-zum-lastschalter-begruenden"]
+taskId: "ET-V182-010"
+tags: ["elektrotechnik", "Schaltungen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **High-Side und Low-Side schalten** ruhig und schrittweise.

@@ -1,35 +1,17 @@
 ---
 title: "Serialisierungsformate"
 description: "Überblick über Serialisierungsformate zur Übertragung und Speicherung strukturierter Daten."
-subject: informatik
+subject: "informatik"
 section: "Datenformate"
-topicPath:
-  - "serialisierungsformate"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Serialisierungsformate als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["serialisierungsformate", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, das aktuelle Datenmodell eins zu eins als dauerhaftes Austauschformat festzuschreiben."
-keyTakeaways:
-  - "Serialisierungsformate wandeln Datenstrukturen in eine Form um, die gespeichert oder übertragen werden kann."
-  - "Sie schaffen eine gemeinsame Sprache zwischen Programmen, Prozessen, Dateien und Netzwerkschnittstellen."
-  - "Serialisierung ist nicht dasselbe wie fachliche Modellierung. Ein Format transportiert Daten, entscheidet aber nicht über ihre Bedeutung."
-recognizeSignals:
-  - "Es geht um Serialisierungsformate, wenn jSON ist lesbar und im Web verbreitet."
-  - "Das Thema wird relevant, wenn Beispiele wie eine API sendet Lernfortschritt als JSON, während ein internes System kompakte binäre Nachrichten nutzt."
-selfCheckPoints:
-  - "Kann ich Serialisierungsformate in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "datenformate"
-  - "serialisierung"
-  - "api"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Datenformate"]
 draft: false
 ---
 # Serialisierungsformate

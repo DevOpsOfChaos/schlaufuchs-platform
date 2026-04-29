@@ -3,39 +3,17 @@ title: "Selektoren, Kaskade und Spezifität"
 description: "Verstehe, warum nicht immer die letzte sichtbare CSS-Regel gewinnt."
 subject: "web-development"
 section: "css"
-topicPath: 
-  - "css-und-layout"
-  - "kaskade"
-learningGoals: 
-  - "Entscheidung, welche Regel wirkt ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Bestimme bei mehreren CSS-Regeln, welche Farbe ein Element am Ende erhält."
-  - "Vereinfache überladene Selektoren und erhalte trotzdem dieselbe Gestaltung."
-commonMistakes: 
-  - "!important wird als Standardlösung benutzt."
-  - "Selektoren werden unnötig lang."
-  - "Konflikte werden nur durch Ausprobieren gelöst."
-keyTakeaways: 
-  - "Ein CSS-Konflikt ist lösbar, wenn du die wirksame Regel begründen kannst."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "Ein CSS-Konflikt ist lösbar, wenn du die wirksame Regel begründen kannst."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "selektoren-kaskade-und-spezifitaet"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags: 
-  - "css"
-  - "kaskade"
-  - "spezifitaet"
-  - "selektoren"
-  - "web-development"
+tags: ["web-development", "css"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Selektoren, Kaskade und Spezifität](/schlaufuchs-platform/images/web-development/sanierung-v187/selektoren-kaskade-und-spezifitaet.svg)
 
     Selektoren, Kaskade und Spezifität ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

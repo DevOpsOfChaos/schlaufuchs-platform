@@ -1,31 +1,17 @@
 ---
 title: "Schutzbeschaltungen"
 description: "Allgemeiner Überblick über elektrische Schutzmaßnahmen gegen Überspannung, Verpolung und induktive Lasten."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis und Fehlersuche"
-topicPath:
-  - "schutzbeschaltungen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Schutzbeschaltungen grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["schutzbeschaltungen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Schutzbeschaltungen nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Schutzbeschaltungen beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Schutzbeschaltungen, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Schutzbeschaltungen in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "schutz"
-  - "ueberspannung"
-  - "hardware"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Praxis und Fehlersuche"]
 draft: false
 ---
 # Schutzbeschaltungen

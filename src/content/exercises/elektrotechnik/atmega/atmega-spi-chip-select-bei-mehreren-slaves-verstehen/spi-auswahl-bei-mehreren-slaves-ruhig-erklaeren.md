@@ -1,32 +1,17 @@
 ---
-title: SPI-Auswahl bei mehreren Slaves ruhig erklären
-description: Erkläre am AVR-SPI, warum mehrere Slaves gemeinsame Datenleitungen, aber getrennte Chip-Select-Leitungen brauchen.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-schnittstellen-und-busse
-  - atmega-spi-chip-select-bei-mehreren-slaves-verstehen
-  - spi-auswahl-bei-mehreren-slaves-ruhig-erklaeren
-taskId: ET-ATMEGA-SPI-305
-level: mittel
+title: "SPI-Auswahl bei mehreren Slaves ruhig erklären"
+description: "Erkläre am AVR-SPI, warum mehrere Slaves gemeinsame Datenleitungen, aber getrennte Chip-Select-Leitungen brauchen."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-spi-chip-select-bei-mehreren-slaves-verstehen", "spi-auswahl-bei-mehreren-slaves-ruhig-erklaeren"]
+taskId: "ET-ATMEGA-SPI-305"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - spi
-hintPoints:
-  - Trenne gemeinsam genutzte Leitungen und Auswahlleitungen.
-  - Frage immer, wer gerade aktiv ist.
-selfCheckPoints:
-  - Kannst du erklären, warum MOSI und SCK geteilt werden dürfen?
-  - Kannst du begründen, warum Chip Select pro Slave getrennt sein muss?
-transferIdeas:
-  - Übertrage die Logik auf Sensoren, Displays und Speicherbausteine am selben SPI-Bus.
-reflectionPrompt: "Warum ist bei mehreren SPI-Slaves die Auswahlfrage oft wichtiger als die Datenrichtung?"
 ---
-
 ## Aufgabe 1
 
 Welche SPI-Leitungen können bei mehreren Slaves gemeinsam geführt werden und welche nicht?

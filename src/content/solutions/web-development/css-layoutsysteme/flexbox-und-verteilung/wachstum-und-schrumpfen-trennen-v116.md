@@ -3,22 +3,12 @@ title: "Lösung: Wachstum und Schrumpfen trennen"
 description: "Musterlösung zur Aufgabe „Wachstum und Schrumpfen trennen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "css-layoutsysteme"
-  - "flexbox-und-verteilung"
-  - "wachstum-und-schrumpfen-trennen-v116"
+topicPath: ["css-layoutsysteme", "flexbox-und-verteilung", "wachstum-und-schrumpfen-trennen-v116"]
 taskId: "wachstum-und-schrumpfen-trennen-v116"
 relatedExercise: "web-development/css-layoutsysteme/flexbox-und-verteilung/wachstum-und-schrumpfen-trennen-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "flexbox und verteilung"
-  - "wachstum und schrumpfen trennen"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

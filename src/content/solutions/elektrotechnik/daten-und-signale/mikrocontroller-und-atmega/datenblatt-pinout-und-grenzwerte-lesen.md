@@ -3,21 +3,10 @@ title: "Lösung – Datenblattangaben für Pins und Grenzwerte auswerten"
 description: "Musterlösung zu „Datenblattangaben für Pins und Grenzwerte auswerten“."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "datenblatt-pinout-und-grenzwerte-lesen"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "datenblatt-pinout-und-grenzwerte-lesen"]
 taskId: "et-mc-v94-datenblatt-pinout"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/datenblatt-pinout-und-grenzwerte-lesen"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "atmega"
-  - "datenblatt"
-  - "pinout"
-  - "grenzwerte"
-  - "gpio"
-  - "sicherheit"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

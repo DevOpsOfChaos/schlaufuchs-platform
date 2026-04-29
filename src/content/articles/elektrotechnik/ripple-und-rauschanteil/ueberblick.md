@@ -1,32 +1,17 @@
 ---
 title: "Ripple und Rauschanteil"
 description: "Lexikonartiger Überblick über Restwelligkeit, Rauschen und deren Bedeutung in Versorgungen und Signalen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Messtechnik"
-topicPath:
-  - "ripple-und-rauschanteil"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Ripple und Rauschanteil als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Restwelligkeit, Schaltfrequenz, Breitbandrauschen."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["ripple-und-rauschanteil", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ripple und Rauschen nur mit dem Multimeter bewerten zu wollen."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Ripple und Rauschanteil beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Störungen auf Gleichspannungen."
-  - "Wichtige Hinweise liefern vor allem Restwelligkeit, Schaltfrequenz, Breitbandrauschen."
-recognizeSignals:
-  - "Es geht um störungen auf gleichspannungen, restwelligkeit oder schaltfrequenz."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Ripple und Rauschanteil erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "rauschen"
-  - "stromversorgung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Messtechnik"]
 draft: false
 ---
 # Ripple und Rauschanteil

@@ -1,35 +1,17 @@
 ---
 title: "Firmware-Update-Schnittstellen"
 description: "Überblick über Schnittstellen, über die Mikrocontroller-Firmware programmiert, aktualisiert oder wiederhergestellt wird."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "firmware-update-schnittstellen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Firmware-Update-Schnittstellen als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["firmware-update-schnittstellen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird erst am fertigen Layout bemerkt, dass Testpads, Resetleitung oder Boot-Pins für Updates fehlen."
-keyTakeaways:
-  - "Firmware-Update-Schnittstellen verbinden einen Mikrocontroller mit Werkzeugen zum Programmieren, Aktualisieren oder Wiederherstellen seiner Software."
-  - "Sie entscheiden, ob ein Gerät nur in der Entwicklung oder auch später im Feld wartbar bleibt."
-  - "Eine Update-Schnittstelle ist nicht nur ein Stecker. Sie umfasst Protokoll, Bootmodus, Sicherheit, Fehlertoleranz und Dokumentation."
-recognizeSignals:
-  - "Es geht um Firmware-Update-Schnittstellen, wenn programmieradapter greifen oft direkt auf Debug- oder Programmierschnittstellen zu."
-  - "Das Thema wird relevant, wenn Beispiele wie ein Gerät kann über SWD programmiert werden, im Betrieb aber Updates über einen Bootloader empfangen."
-selfCheckPoints:
-  - "Kann ich Firmware-Update-Schnittstellen in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "firmware"
-  - "mikrocontroller"
-  - "bootloader"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
 # Firmware-Update-Schnittstellen

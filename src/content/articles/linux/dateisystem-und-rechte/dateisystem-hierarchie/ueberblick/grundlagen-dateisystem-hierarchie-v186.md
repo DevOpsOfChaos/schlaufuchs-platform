@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Dateisystem-Hierarchie"
 description: "Verstehe die wichtigsten Orte im Linux-Dateisystem und ihre Rollen."
-subject: linux
+subject: "linux"
 section: "dateisystem-und-rechte"
-topicPath:
-  - "dateisystem-und-rechte"
-  - "dateisystem-hierarchie"
-learningGoals:
-  - "Du erklärst Dateisystem-Hierarchie in eigenen Worten."
-  - "Du ordnest typische Befehle, Begriffe oder Prüfschritte richtig ein."
-  - "Du erkennst typische Grenzen und Fehlerquellen im Linux-Alltag."
-practiceIdeas:
-  - "Beschreibe eine kleine Alltagssituation zu diesem Thema."
-  - "Markiere, welche Information zuerst geprüft werden muss."
-commonMistakes:
-  - "Ein einzelnes Kommando für das ganze Thema zu halten."
-  - "Ausgabe, Zustand und Ursache zu vermischen."
-  - "Ohne Kontext direkt an Sonderfälle zu springen."
-keyTakeaways:
-  - "Linux beginnt im Wurzelverzeichnis und ordnet Dateien nach Zweck."
-  - "Systemdateien, Nutzerdaten und temporäre Daten liegen an unterschiedlichen Orten."
-  - "Die Hierarchie hilft, Pfade und Zuständigkeiten einzuordnen."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung statt nur eines Befehlsrezepts."
-  - "Mehrere ähnliche Befehle oder Dateien wirken unklar."
-selfCheckPoints:
-  - "Kann ich Zweck, Kontext und typischen Prüfschritt unterscheiden?"
-  - "Kann ich eine einfache Fehlannahme zum Thema benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "dateisystem"
-  - "verzeichnisse"
+topicPath: ["dateisystem-und-rechte", "dateisystem-hierarchie", "ueberblick", "grundlagen-dateisystem-hierarchie-v186"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "dateisystem-und-rechte"]
 draft: false
 ---
-
 ![Dateisystem-Hierarchie](/schlaufuchs-platform/images/overviews/v186/dateisystem-hierarchie.svg)
 
 ## Begriff

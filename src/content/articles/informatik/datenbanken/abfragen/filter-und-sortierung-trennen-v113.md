@@ -3,43 +3,17 @@ title: "Filter und Sortierung trennen"
 description: "Lerne Filter und Sortierung trennen als kleines, klar abgegrenztes Unterthema mit Prüffrage und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenbanken"
-  - "abfragen"
-  - "filter-und-sortierung-trennen-v113"
-learningGoals:
-  - "Du erklärst Filter und Sortierung trennen als enges Unterthema."
-  - "Du grenzt es von einem naheliegenden Nachbarthema ab."
-  - "Du nutzt eine konkrete Prüffrage statt einer allgemeinen Merkhilfe."
-practiceIdeas:
-  - "Wende die Prüffrage auf ein zweites Beispiel an."
-  - "Formuliere eine Gegenprobe mit geändertem Kontext."
-  - "Markiere, welches Nachbarthema hier gerade nicht gemeint ist."
-commonMistakes:
-  - "Sortieren wird mit Auswählen verwechselt."
-  - "Zu breit einordnen und dadurch die eigentliche Trennkante verlieren."
-  - "Eine Lösung ohne Gegenprobe akzeptieren."
-keyTakeaways:
-  - "Filter und Sortierung trennen wird über eine kleine Trennkante verständlich."
-  - "Die Prüffrage entscheidet stärker als ein grober Kapitelname."
-  - "Aufgabe und Lösung bleiben übersichtlich, wenn das Unterthema eng geführt wird."
-recognizeSignals:
-  - "Eine Aufgabe enthält eine typische Verwechslung."
-  - "Ein Begriff wirkt bekannt, aber der konkrete Prüfschritt fehlt."
-  - "Eine Lösung muss begründen, warum ein Nachbarthema nicht passt."
-selfCheckPoints:
-  - "Kann ich die Trennkante in einem Satz nennen?"
-  - "Kann ich die Prüffrage auf den Fall anwenden?"
-  - "Kann ich eine sinnvolle Gegenprobe formulieren?"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "filter-und-sortierung-trennen-v113"
+topicPath: ["datenbanken", "abfragen", "filter-und-sortierung-trennen-v113"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["informatik", "Feinstruktur Informatik"]
 draft: false
 ---
-
 ## Grundidee
 
 **Filter und Sortierung trennen** ist bewusst als kleines Unterthema angelegt. Lerne Filter und Sortierung trennen als kleines, klar abgegrenztes Unterthema mit Prüffrage und Gegenprobe. Dadurch bleibt die Seite auffindbar und vermischt sich nicht mit einem übergroßen Sammelkapitel.

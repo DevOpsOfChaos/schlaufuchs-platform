@@ -3,20 +3,12 @@ title: "Lösung – Breakpoint aus Inhalt ableiten"
 description: "Musterlösung zu Breakpoint aus Inhalt ableiten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "css"
-  - "responsive-layouts"
-  - "breakpoint-aus-inhalt-ableiten-v113"
+topicPath: ["css", "responsive-layouts", "breakpoint-aus-inhalt-ableiten-v113"]
 taskId: "v113-web-development-breakpoint-aus-inhalt-ableiten-v113"
 relatedExercise: "web-development/css/responsive-layouts/breakpoint-aus-inhalt-ableiten-v113"
-tags:
-  - "web development"
-  - "strukturcheck"
-  - "unterthema"
-  - "breakpoint-aus-inhalt-ableiten-v113"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Breakpoint aus Inhalt ableiten**.

@@ -1,12 +1,17 @@
 ---
-title: chmod – Grundaufgaben
-description: Übe das gezielte Ändern von Dateirechten mit chmod.
-subject: linux
-section: rechte-und-benutzer
-level: mittel
+title: "chmod – Grundaufgaben"
+description: "Übe das gezielte Ändern von Dateirechten mit chmod."
+subject: "linux"
+section: "rechte-und-benutzer"
+topicPath: ["chmod-grundaufgaben"]
+taskId: "AUTO-CHMOD-GRUNDAUFGABEN"
+tags: ["linux", "rechte-und-benutzer", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 Diese Aufgabe übernimmt die bisherige `chmod`-Grundidee und baut sie klarer aus: Statt Rechte nur technisch zu sehen, sollst du ihre **Wirkung auf Zugriff und Nutzung** bewusst lesen.
 
 ## Lernziel

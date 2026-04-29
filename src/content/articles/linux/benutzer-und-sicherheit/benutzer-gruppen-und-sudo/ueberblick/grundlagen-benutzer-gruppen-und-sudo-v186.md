@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Benutzer, Gruppen und sudo"
 description: "Ordne Identitäten, Gruppenrechte und erhöhte Rechte im Linux-System ein."
-subject: linux
+subject: "linux"
 section: "benutzer-und-sicherheit"
-topicPath:
-  - "benutzer-und-sicherheit"
-  - "benutzer-gruppen-und-sudo"
-learningGoals:
-  - "Du erklärst Benutzer, Gruppen und sudo in eigenen Worten."
-  - "Du ordnest typische Befehle, Begriffe oder Prüfschritte richtig ein."
-  - "Du erkennst typische Grenzen und Fehlerquellen im Linux-Alltag."
-practiceIdeas:
-  - "Beschreibe eine kleine Alltagssituation zu diesem Thema."
-  - "Markiere, welche Information zuerst geprüft werden muss."
-commonMistakes:
-  - "Ein einzelnes Kommando für das ganze Thema zu halten."
-  - "Ausgabe, Zustand und Ursache zu vermischen."
-  - "Ohne Kontext direkt an Sonderfälle zu springen."
-keyTakeaways:
-  - "Linux trennt Identitäten und Rechte bewusst."
-  - "Gruppen bündeln gemeinsame Zugriffe."
-  - "sudo erlaubt gezielte erhöhte Aktionen statt dauerhafter Vollrechte."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung statt nur eines Befehlsrezepts."
-  - "Mehrere ähnliche Befehle oder Dateien wirken unklar."
-selfCheckPoints:
-  - "Kann ich Zweck, Kontext und typischen Prüfschritt unterscheiden?"
-  - "Kann ich eine einfache Fehlannahme zum Thema benennen?"
-level: mittel
-tags:
-  - "linux"
-  - "benutzer"
-  - "sudo"
+topicPath: ["benutzer-und-sicherheit", "benutzer-gruppen-und-sudo", "ueberblick", "grundlagen-benutzer-gruppen-und-sudo-v186"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["linux", "benutzer-und-sicherheit"]
 draft: false
 ---
-
 ![Benutzer, Gruppen und sudo](/schlaufuchs-platform/images/overviews/v186/benutzer-gruppen-und-sudo.svg)
 
 ## Begriff

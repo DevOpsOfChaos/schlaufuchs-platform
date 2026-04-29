@@ -3,44 +3,17 @@ title: "JavaScript – Tastaturbedienung bei Interaktionen prüfen"
 description: "Verstehe, warum JavaScript-Komfort nur dann gut ist, wenn Maus, Tastatur und Fokusführung zusammen funktionieren."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "zugaenglichkeit-und-ux"
-  - "tastaturbedienung-bei-javascript-interaktionen-pruefen"
-learningGoals:
-  - "Du prüfst, ob eine Interaktion ohne Maus bedienbar bleibt."
-  - "Du nutzt echte Buttons und Links statt klickbarer div-Elemente."
-  - "Du erkennst Fokus als sichtbaren Bedienzustand."
-practiceIdeas:
-  - "Übertrage die Idee auf eine kleine eigene Seite."
-  - "Prüfe die Bedienung einmal mit Tastatur und einmal mit Maus."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "Ein div mit click-Listener als Button zu verwenden."
-  - "Fokusrahmen aus Designgründen zu entfernen."
-  - "Interaktionen nur mit der Maus zu testen."
-keyTakeaways:
-  - "Robuste Webinteraktion trennt Struktur, Zustand und Rückmeldung."
-  - "Nutzerführung ist Teil der technischen Lösung."
-  - "Fehler und Sonderfälle werden sichtbar geplant."
-recognizeSignals:
-  - "Es geht um JavaScript im Browser, UI-Zustand oder dynamische Rückmeldung."
-  - "Eine Interaktion soll verständlicher, sicherer oder robuster werden."
-  - "HTML, CSS und JavaScript müssen gemeinsam gelesen werden."
-selfCheckPoints:
-  - "Kann ich die Aufgabe des Codes in einem Satz erklären?"
-  - "Bleibt die Interaktion ohne Maus oder bei Fehlern nachvollziehbar?"
-  - "Sind sichtbare Texte verständlich und deutsch formuliert?"
+topicPath: ["javascript", "zug+ñnglichkeit-und-ux", "tastaturbedienung-bei-javascript-interaktionen-pruefen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "web development"
-  - "javascript"
-  - "accessibility"
-  - "tastatur"
-  - "fokus"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Diese Seite zeigt dir, wie du Tastaturbedienung bei Interaktionen prüfen nicht als isolierten JavaScript-Trick, sondern als kleine UX- und Robustheitsentscheidung liest.

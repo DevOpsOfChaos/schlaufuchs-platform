@@ -1,46 +1,19 @@
 ---
-title: ATmega – EEPROM-Schreibzyklen und Verschleiß verstehen
-description: Verstehe, warum EEPROM zwar dauerhaft speichert, aber nicht für gedankenloses permanentes Schreiben gedacht ist.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - speicher-und-persistenz
-  - atmega-eeprom-schreibzyklen-und-verschleiss-verstehen
-learningGoals:
-  - Du erklärst die Grundidee begrenzter EEPROM-Schreibzyklen.
-  - Du beschreibst, warum seltene Konfigurationsdaten besser passen als dauernd wechselnde Laufzeitwerte.
-  - Du liest EEPROM-Nutzung ruhiger als Abwägung zwischen Persistenz und Schreibhäufigkeit.
-practiceIdeas:
-  - Vergleiche seltenes Speichern einer Einstellung mit dauerhaftem Mitschreiben jeder kleinen Änderung.
-  - Prüfe bei einem Beispiel zuerst, wie oft geschrieben würde.
-  - Lies EEPROM-Zugriffe eher als gezielte Sicherung als als Dauerprotokoll.
-commonMistakes:
-  - zu denken, EEPROM könne unbegrenzt wie RAM beschrieben werden.
-  - jede Loop-Änderung sofort dauerhaft speichern zu wollen.
-  - Persistenz und Schreibhäufigkeit nicht zusammen zu denken.
-keyTakeaways:
-  - EEPROM ist persistent, aber Schreibzugriffe sind nicht beliebig oft gedacht.
-  - Geeignet sind eher selten veränderte Werte.
-  - Gute EEPROM-Nutzung speichert gezielt statt permanent.
-recognizeSignals:
-  - Es geht um häufiges Speichern, Betriebszähler, Einstellungen oder letzte Zustände.
-  - In Aufgaben soll begründet werden, ob ein Wert bei jeder Änderung geschrieben werden sollte.
-  - Beispiele vergleichen dauerndes Mitschreiben mit bewusstem gelegentlichem Sichern.
-selfCheckPoints:
-  - Kann ich Persistenz und Verschleiß gemeinsam denken?
-  - Kann ich eine zu häufige EEPROM-Nutzung kritisch erkennen?
-  - Kann ich begründen, wann Speichern sinnvoller oder unnötig häufiger ist?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - eeprom
-  - verschleiss
-level: mittel
+title: "ATmega – EEPROM-Schreibzyklen und Verschleiß verstehen"
+description: "Verstehe, warum EEPROM zwar dauerhaft speichert, aber nicht für gedankenloses permanentes Schreiben gedacht ist."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-eeprom-schreibzyklen-und-verschleiss-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 EEPROM ist nützlich, weil Daten nach dem Ausschalten erhalten bleiben. Genau diese Stärke führt aber leicht zu einer unruhigen Denkweise: „Dann speichere ich doch einfach alles ständig im EEPROM.“ Didaktisch wichtig ist deshalb die Gegenfrage: **Wie oft wird überhaupt geschrieben?**
 
 <div class="example-card">

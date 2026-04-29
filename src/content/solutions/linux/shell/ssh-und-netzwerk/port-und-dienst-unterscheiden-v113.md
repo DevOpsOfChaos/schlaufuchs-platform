@@ -3,20 +3,12 @@ title: "Lösung – Port und Dienst unterscheiden"
 description: "Musterlösung zu Port und Dienst unterscheiden mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "ssh-und-netzwerk"
-  - "port-und-dienst-unterscheiden-v113"
+topicPath: ["shell", "ssh-und-netzwerk", "port-und-dienst-unterscheiden-v113"]
 taskId: "v113-linux-port-und-dienst-unterscheiden-v113"
 relatedExercise: "linux/shell/ssh-und-netzwerk/port-und-dienst-unterscheiden-v113"
-tags:
-  - "linux"
-  - "strukturcheck"
-  - "unterthema"
-  - "port-und-dienst-unterscheiden-v113"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Port und Dienst unterscheiden**.

@@ -1,29 +1,17 @@
 ---
 title: "Bedrohungsmodelle – ruhig einordnen"
 description: "Übe, bedrohungsmodelle fachlich zu erklären und abzugrenzen."
-subject: informatik
+subject: "informatik"
 section: "Sicherheit und Berechtigungen"
-topicPath:
-  - "sicherheit-und-berechtigungen"
-  - "bedrohungsmodelle"
-  - "uebung"
-taskId: INF-V185-020-1
-tags:
-  - "informatik"
-  - "sicherheit-und-berechtigungen"
-  - "bedrohungsmodelle"
-hintPoints:
-  - "Beginne mit der Grundidee, nicht mit einem Spezialfall."
-  - "Trenne Begriff, Beispiel und Prüfung."
-selfCheckPoints:
-  - "Ich kann das Thema in eigenen Worten erklären."
-  - "Ich kann ein passendes Beispiel begründen."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel in einem anderen Fachbereich."
-level: einfach
+topicPath: ["sicherheit-und-berechtigungen", "bedrohungsmodelle", "bedrohungsmodelle-ruhig-einordnen-v185"]
+taskId: "INF-V185-020-1"
+tags: ["informatik", "Sicherheit und Berechtigungen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe prüft, ob du **Bedrohungsmodelle** zuerst als allgemeines Thema und nicht nur als Einzelfall lesen kannst.
 
 ## Lernziel

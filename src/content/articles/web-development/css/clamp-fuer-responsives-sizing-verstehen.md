@@ -1,45 +1,19 @@
 ---
-title: Clamp für responsives Sizing verstehen
-description: Verstehe, wie clamp Mindestwert, flexible Mitte und Höchstwert verbindet und dadurch Größen ruhiger auf verschiedene Breiten reagieren.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - clamp-fuer-responsives-sizing-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von clamp.
-  - Du unterscheidest Mindestwert, flexible Mitte und Höchstwert.
-  - Du liest clamp eher als kontrollierten Spielraum statt als rätselhafte Formel.
-practiceIdeas:
-  - Vergleiche eine starre Überschrift mit einer Überschrift, die clamp nutzt.
-  - Lies die drei Teile von clamp immer getrennt.
-  - Prüfe bei responsiven Größen zuerst die Unter- und Obergrenze.
-commonMistakes:
-  - clamp nur als „komplizierte Rechensyntax“ zu lesen.
-  - die flexible Mitte mit einem festen Wert zu verwechseln.
-  - keine Grenzen zu setzen und dadurch Größen zu groß oder zu klein werden zu lassen.
-keyTakeaways:
-  - clamp verbindet Untergrenze, flexible Mitte und Obergrenze.
-  - Dadurch können Größen mitwachsen, ohne unruhig aus dem Rahmen zu laufen.
-  - Clamp ist besonders nützlich für Schrift, Abstände und responsive Komponenten.
-recognizeSignals:
-  - Es geht um Größen, die auf verschiedenen Breiten mitwachsen sollen.
-  - Du sollst erklären, warum Text nicht winzig oder riesig werden darf.
-  - In Beispielen zählt der erlaubte Spielraum stärker als ein einzelner Pixelwert.
-selfCheckPoints:
-  - Kann ich die drei Teile von clamp sauber benennen?
-  - Kann ich erklären, warum clamp ruhiger ist als ein Einzelwert?
-  - Kann ich begründen, wann eine Ober- oder Untergrenze wichtig ist?
-tags:
-  - css
-  - clamp
-  - responsive
-  - typography
-level: mittel
+title: "Clamp für responsives Sizing verstehen"
+description: "Verstehe, wie clamp Mindestwert, flexible Mitte und Höchstwert verbindet und dadurch Größen ruhiger auf verschiedene Breiten reagieren."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "clamp-fuer-responsives-sizing-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei responsiven Größen ist das Problem oft nicht „zu wenig Flexibilität“, sondern **zu viel unkontrollierte Flexibilität**. Genau hier hilft `clamp()`.

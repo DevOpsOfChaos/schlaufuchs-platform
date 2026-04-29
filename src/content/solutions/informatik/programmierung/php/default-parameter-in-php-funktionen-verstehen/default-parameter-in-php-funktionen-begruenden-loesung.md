@@ -1,20 +1,12 @@
 ---
-title: Musterlösung – Default-Parameter in PHP-Aufrufen begründen
-description: Musterlösung zur Aufgabe INF-PHP-ADV-008.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - default-parameter-in-php-funktionen-verstehen
-  - default-parameter-in-php-funktionen-begruenden-loesung
-taskId: INF-PHP-ADV-008
-relatedExercise: src/content/exercises/informatik/programmierung/php/default-parameter-in-php-funktionen-verstehen/default-parameter-in-php-funktionen-begruenden.md
-tags:
-  - informatik
-  - loesung
-  - php
-  - task-id
+title: "Musterlösung – Default-Parameter in PHP-Aufrufen begründen"
+description: "Musterlösung zur Aufgabe INF-PHP-ADV-008."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "default-parameter-in-php-funktionen-verstehen", "default-parameter-in-php-funktionen-begruenden"]
+taskId: "INF-PHP-ADV-008"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/default-parameter-in-php-funktionen-verstehen/default-parameter-in-php-funktionen-begruenden.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
 ## Aufgabe 1

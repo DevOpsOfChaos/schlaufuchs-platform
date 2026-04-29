@@ -1,33 +1,19 @@
 ---
 title: "HTML-Parsing"
 description: "HTML-Parsing ist der Prozess, bei dem der Browser aus Text eine Dokumentstruktur aufbaut. Dabei entsteht das DOM, das später durch CSS, JavaScript und Rendering genutzt wird."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "html-parsing"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von HTML-Parsing."
-  - "Du kannst HTML-Parsing in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["html-parsing", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Zu erwarten, dass fehlerhaftes HTML immer exakt so interpretiert wird, wie es geschrieben wurde."
-keyTakeaways:
-  - "HTML-Parsing ist der Prozess, bei dem der Browser aus Text eine Dokumentstruktur aufbaut."
-  - "Wichtig sind vor allem tokenisierung des html-texts, aufbau des dom-baums und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um HTML-Parsing, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu HTML-Parsing dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "web development"
-  - "grundlagen"
-  - "html parsing"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # HTML-Parsing
 
 HTML-Parsing ist der Prozess, bei dem der Browser aus Text eine Dokumentstruktur aufbaut. Dabei entsteht das DOM, das später durch CSS, JavaScript und Rendering genutzt wird. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

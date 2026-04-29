@@ -1,23 +1,14 @@
 ---
-title: Lösung – Entkopplungskondensator platzieren
-description: Musterlösung zur Aufgabe über Entkopplungskondensator platzieren.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- signale-und-schaltungen
-- analog-digital-grenzen
-- entkopplungskondensator-platzieren-v114
-taskId: v114-elektrotechnik-entkopplungskondensator-platzieren-v114
-relatedExercise: elektrotechnik/signale-und-schaltungen/analog-digital-grenzen/entkopplungskondensator-platzieren-v114
-tags:
-- elektrotechnik
-- v114
-- loesung
-- signale-und-schaltungen
-- analog-digital-grenzen
+title: "Lösung – Entkopplungskondensator platzieren"
+description: "Musterlösung zur Aufgabe über Entkopplungskondensator platzieren."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["signale-und-schaltungen", "analog-digital-grenzen", "entkopplungskondensator-platzieren-v114"]
+taskId: "v114-elektrotechnik-entkopplungskondensator-platzieren-v114"
+relatedExercise: "elektrotechnik/signale-und-schaltungen/analog-digital-grenzen/entkopplungskondensator-platzieren-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

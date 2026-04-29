@@ -3,21 +3,12 @@ title: "Lösung – Set für Eindeutigkeit einsetzen"
 description: "Musterlösung zu set für eindeutigkeit einsetzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenstrukturen"
-  - "listen-und-maps"
-  - "set-fuer-eindeutigkeit-einsetzen"
+topicPath: ["datenstrukturen", "listen-und-maps", "set-fuer-eindeutigkeit-einsetzen"]
 taskId: "v112-informatik-set-fuer-eindeutigkeit-einsetzen"
 relatedExercise: "informatik/datenstrukturen/listen-und-maps/set-fuer-eindeutigkeit-einsetzen"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "datenstrukturen"
-  - "set-fuer-eindeutigkeit-einsetzen"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Listen und Maps**.

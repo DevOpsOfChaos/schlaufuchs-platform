@@ -1,35 +1,17 @@
 ---
 title: "Scrollverhalten und Anker"
 description: "Überblick über Scrollpositionen, Sprungmarken und Orientierung auf langen Webseiten."
-subject: web-development
+subject: "web-development"
 section: "Browser und Navigation"
-topicPath:
-  - "scrollverhalten-und-anker"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Scrollverhalten und Anker als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["scrollverhalten-und-anker", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird smooth scrolling als Verbesserung betrachtet, obwohl es bei manchen Nutzenden Orientierung oder Zugänglichkeit verschlechtern kann."
-keyTakeaways:
-  - "Scrollverhalten und Anker bestimmen, wie Nutzerinnen und Nutzer innerhalb einer Seite springen, zurückkehren und Orientierung behalten."
-  - "Gute Scrolllogik macht lange Inhalte, Dokumentationen und dynamische Seiten leichter bedienbar."
-  - "Scrollverhalten ist keine reine Animation. Es betrifft URL-Struktur, Fokus, Ladezeit und Layoutstabilität."
-recognizeSignals:
-  - "Es geht um Scrollverhalten und Anker, wenn ankerlinks verbinden Überschriften und Inhaltsverzeichnisse."
-  - "Das Thema wird relevant, wenn Beispiele wie ein Inhaltsverzeichnis mit Ankerlinks funktioniert besser, wenn Überschriften stabile IDs besitzen."
-selfCheckPoints:
-  - "Kann ich Scrollverhalten und Anker in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "web development"
-  - "navigation"
-  - "scrollen"
-  - "ux"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Browser und Navigation"]
 draft: false
 ---
 # Scrollverhalten und Anker

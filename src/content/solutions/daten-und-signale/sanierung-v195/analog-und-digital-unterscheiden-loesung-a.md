@@ -3,25 +3,12 @@ title: "Lösung: Analog und digital unterscheiden: Aufgabe A"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-002a im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "grundlagen-und-begriffe"
-  - "analog-und-digital-unterscheiden"
-  - "loesung-a"
-
+topicPath: ["sanierung-v195", "analog-und-digital-unterscheiden-loesung-a"]
 taskId: "daten-und-signale-v195-002a"
 relatedExercise: "daten-und-signale/sanierung-v195/analog-und-digital-unterscheiden-aufgabe-a"
-tags:
-  - "analog"
-  - "digital"
-  - "unterscheiden"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-002a`
 
 Ausgangsauftrag: Vergleiche Temperaturmessung, Lichtschalter und Audiodatei nach analog/digital.

@@ -1,35 +1,19 @@
 ---
 title: "Reset, Watchdog und Fehlstart"
 description: "Einordnung von Reset, Watchdog und typischen Fehlstarts in Mikrocontroller-Systemen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "reset-watchdog-und-fehlstart"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst Reset als definierten Neustart eines Mikrocontrollers."
-  - "Du verstehst den Watchdog als Schutz gegen hängende Programme."
-  - "Du kannst Fehlstarts mit Versorgung, Takt und Initialisierung verbinden."
+topicPath: ["reset-watchdog-und-fehlstart", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Den Watchdog als Ersatz für sauberes Fehlerhandling zu benutzen."
-  - "Reset-Probleme nur im Programmcode zu suchen."
-keyTakeaways:
-  - "Reset bringt ein System in einen definierten Anfangszustand."
-  - "Ein Watchdog hilft gegen Hänger, behebt aber keine Ursache."
-recognizeSignals:
-  - "Es geht um Startprobleme, sporadische Neustarts, Brown-out, Endlosschleifen oder hängende Firmware."
-selfCheckPoints:
-  - "Kann ich unterscheiden, ob ein Problem eher Reset-Ursache, Watchdog-Auslösung oder Initialisierungsfehler ist?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "reset"
-  - "watchdog"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
-
 # Reset, Watchdog und Fehlstart
 
 ![Schaubild zu Reset, Fehlstart und Watchdog.](/schlaufuchs-platform/images/overviews/v148/reset-watchdog-und-fehlstart.svg)

@@ -3,42 +3,15 @@ title: "Mikrocontroller – EEPROM schonend und bewusst speichern"
 description: "Verstehe, warum EEPROM für dauerhafte Einstellungen nützlich ist, aber nicht wie normaler Arbeitsspeicher ständig beschrieben werden sollte."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "eeprom-schonend-speichern"
-learningGoals:
-  - "Du unterscheidest flüchtigen RAM und dauerhaftes EEPROM."
-  - "Du erklärst, warum EEPROM-Schreibzyklen begrenzt sind."
-  - "Du planst Speicherung eher ereignisbezogen als in jeder Schleifenrunde."
-practiceIdeas:
-  - "Entscheide, welche Werte nach einem Neustart wirklich erhalten bleiben müssen."
-  - "Vergleiche laufende Messwerte mit dauerhaften Einstellungen."
-  - "Formuliere eine Regel, wann gespeichert werden darf."
-commonMistakes:
-  - "Jeden Sensorwert dauerhaft ins EEPROM zu schreiben."
-  - "EEPROM als Ersatz für RAM zu behandeln."
-  - "Speichern ohne Änderungserkennung oder Zeitbegrenzung auszuführen."
-keyTakeaways:
-  - "EEPROM ist für selten geänderte dauerhafte Daten geeignet."
-  - "Schreibvorgänge sollten begründet und begrenzt werden."
-  - "Laufende Messdaten gehören normalerweise nicht ungebremst ins EEPROM."
-recognizeSignals:
-  - "Einstellungen sollen nach dem Ausschalten erhalten bleiben."
-  - "Ein Zähler oder Sensorwert wird sehr häufig gespeichert."
-  - "Eine Aufgabe fragt nach Lebensdauer oder Schreibzyklen."
-selfCheckPoints:
-  - "Kann ich sagen, welche Daten dauerhaft sein müssen?"
-  - "Kann ich erklären, warum häufiges Schreiben problematisch ist?"
-  - "Kann ich eine Schonstrategie formulieren?"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "eeprom"
-  - "speicher"
-  - "verschleiss"
-  - "konfiguration"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "eeprom-schonend-speichern"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
 ## Grundidee

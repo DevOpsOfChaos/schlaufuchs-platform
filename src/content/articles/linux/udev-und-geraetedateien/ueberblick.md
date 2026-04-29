@@ -1,36 +1,19 @@
 ---
 title: "udev und Gerätedateien"
 description: "udev verwaltet viele Gerätedateien unter Linux dynamisch und reagiert auf erkannte Hardwareereignisse."
-subject: linux
+subject: "linux"
 section: "Systemgrundlagen"
-topicPath:
-  - "udev-und-geraetedateien"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst udev und Gerätedateien als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["udev-und-geraetedateien", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird nur der wechselnde Gerätename betrachtet, statt Regeln für stabile Zuordnung zu nutzen."
-keyTakeaways:
-  - "udev verwaltet viele Gerätedateien unter Linux dynamisch und reagiert auf erkannte Hardwareereignisse."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um udev und Gerätedateien, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich udev und Gerätedateien in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "udev"
-  - "geraete"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Systemgrundlagen"]
 draft: false
 ---
-
 # udev und Gerätedateien
 
 udev verwaltet viele Gerätedateien unter Linux dynamisch und reagiert auf erkannte

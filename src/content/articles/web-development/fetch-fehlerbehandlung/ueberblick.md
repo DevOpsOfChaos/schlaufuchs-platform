@@ -1,34 +1,19 @@
 ---
 title: "Fetch-Fehlerbehandlung"
 description: "Allgemeiner Überblick über robuste Fehlerbehandlung bei HTTP-Anfragen im Browser."
-subject: web-development
+subject: "web-development"
 section: "HTTP und APIs"
-topicPath:
-  - "fetch-fehlerbehandlung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Fetch-Fehlerbehandlung als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["fetch-fehlerbehandlung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird nur catch verwendet und der Statuscode ignoriert. Dadurch erscheinen unterschiedliche Fehler gleich."
-keyTakeaways:
-  - "Robuste Fetch-Fehlerbehandlung trennt Netzwerk, HTTP-Status und Datenvalidierung."
-  - "Fetch-Fehlerbehandlung sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Fetch-Fehlerbehandlung."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Fetch-Fehlerbehandlung erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "web development"
-  - "fetch"
-  - "http"
-  - "fehlerbehandlung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTTP und APIs"]
 draft: false
 ---
-
 # Fetch-Fehlerbehandlung
 
 Fetch-Fehlerbehandlung umfasst Netzwerkprobleme, HTTP-Statuscodes, Zeitverhalten und unerwartete Antwortdaten.

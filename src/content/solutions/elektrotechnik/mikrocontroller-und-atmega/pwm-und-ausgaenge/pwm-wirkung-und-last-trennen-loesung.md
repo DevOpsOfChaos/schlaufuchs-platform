@@ -1,22 +1,14 @@
 ---
 title: "Lösung – PWM-Wirkung und Last trennen"
 description: "Musterlösung zur Aufgabe PWM-Wirkung und Last trennen."
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - pwm-und-ausgaenge
-taskId: ET-V180-PWM-002
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/pwm-und-ausgaenge/pwm-wirkung-und-last-trennen.md
-tags:
-  - elektrotechnik
-  - loesung
-  - pwm
-  - last
-  - treiber
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["mikrocontroller-und-atmega", "pwm-und-ausgaenge", "pwm-wirkung-und-last-trennen"]
+taskId: "ET-V180-PWM-002"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/pwm-und-ausgaenge/pwm-wirkung-und-last-trennen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1

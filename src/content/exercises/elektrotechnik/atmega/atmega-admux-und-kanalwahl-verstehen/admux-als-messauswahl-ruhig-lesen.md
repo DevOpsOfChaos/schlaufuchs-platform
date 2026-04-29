@@ -1,32 +1,17 @@
 ---
-title: ADMUX als Messauswahl ruhig lesen
-description: Erkläre an kleinen AVR-ADC-Beispielen, wie Referenzwahl und Kanalwahl in ADMUX zusammenwirken.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - adc-und-analoge-eingaenge
-  - atmega-admux-und-kanalwahl-verstehen
-  - admux-als-messauswahl-ruhig-lesen
-taskId: ET-ATMEGA-ADC-303
-level: mittel
+title: "ADMUX als Messauswahl ruhig lesen"
+description: "Erkläre an kleinen AVR-ADC-Beispielen, wie Referenzwahl und Kanalwahl in ADMUX zusammenwirken."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-admux-und-kanalwahl-verstehen", "admux-als-messauswahl-ruhig-lesen"]
+taskId: "ET-ATMEGA-ADC-303"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - atmega
-  - adc
-  - admux
-hintPoints:
-  - Trenne zuerst Referenz und Eingangskanal.
-  - Frage nicht nur nach Bits, sondern nach der eigentlichen Messfrage.
-selfCheckPoints:
-  - Kannst du erklären, was an der ADC-Messung gleich bleibt und was sich ändert?
-  - Kannst du sagen, warum ADMUX die Messung noch nicht selbst startet?
-transferIdeas:
-  - Übertrage die Logik auf Potentiometer, Sensoren oder Spannungsüberwachung.
-reflectionPrompt: "Welche Frage hilft dir mehr als das bloße Merken einzelner Bitnamen?"
 ---
-
 Gegeben sind diese beiden Zeilen:
 
 ```c

@@ -3,23 +3,12 @@ title: "Lösung: Testnamen und Fehlermeldungen: Aufgabe B"
 description: "Musterlösung zur Aufgabe informatik-v193-010b im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "tests-und-randfaelle"
-  - "testnamen-und-fehlermeldungen"
-  - "loesung-b"
+topicPath: ["sanierung-v193", "testnamen-und-fehlermeldungen-loesung-b"]
 taskId: "informatik-v193-010b"
 relatedExercise: "informatik/sanierung-v193/testnamen-und-fehlermeldungen-aufgabe-b"
-tags:
-  - "testnamen"
-  - "fehlermeldungen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-010b`
 
 Ausgangsauftrag: Übertrage das Thema Testnamen und Fehlermeldungen auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

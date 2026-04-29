@@ -3,23 +3,12 @@ title: "Lösung – Indexkosten beim Schreiben mitdenken"
 description: "Musterlösung zu Index und Schreibkosten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenbanken"
-  - "abfragen-und-indizes"
-  - "indexkosten"
-  - "indexkosten-beim-schreiben-mitdenken"
+topicPath: ["datenbanken", "abfragen-und-indizes", "indexkosten", "indexkosten-beim-schreiben-mitdenken"]
 taskId: "v111-informatik-indexkosten-beim-schreiben-mitdenken"
 relatedExercise: "informatik/datenbanken/abfragen-und-indizes/indexkosten/indexkosten-beim-schreiben-mitdenken"
-tags:
-  - "informatik"
-  - "struktur"
-  - "unterthema"
-  - "datenbanken"
-  - "abfragen-und-indizes"
-  - "indexkosten-beim-schreiben-mitdenken"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Index und Schreibkosten**.

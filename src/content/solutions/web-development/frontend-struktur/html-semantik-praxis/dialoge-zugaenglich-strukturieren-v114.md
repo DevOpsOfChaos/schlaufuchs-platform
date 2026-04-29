@@ -1,23 +1,14 @@
 ---
-title: Lösung – Dialoge zugänglich strukturieren
-description: Musterlösung zur Aufgabe über Dialoge zugänglich strukturieren.
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- frontend-struktur
-- html-semantik-praxis
-- dialoge-zugaenglich-strukturieren-v114
-taskId: v114-web-development-dialoge-zugaenglich-strukturieren-v114
-relatedExercise: web-development/frontend-struktur/html-semantik-praxis/dialoge-zugaenglich-strukturieren-v114
-tags:
-- web-development
-- v114
-- loesung
-- frontend-struktur
-- html-semantik-praxis
+title: "Lösung – Dialoge zugänglich strukturieren"
+description: "Musterlösung zur Aufgabe über Dialoge zugänglich strukturieren."
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["frontend-struktur", "html-semantik-praxis", "dialoge-zugaenglich-strukturieren-v114"]
+taskId: "v114-web-development-dialoge-zugaenglich-strukturieren-v114"
+relatedExercise: "web-development/frontend-struktur/html-semantik-praxis/dialoge-zugaenglich-strukturieren-v114"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

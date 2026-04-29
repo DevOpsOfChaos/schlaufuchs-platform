@@ -1,44 +1,19 @@
 ---
-title: Wertetabellen zu linearen Funktionen lesen
-description: Verstehe, wie Wertetabellen lineare Zusammenhänge sichtbar machen und wie du aus regelmäßigen Änderungen auf Steigung und Startwert schließen kannst.
-subject: mathematik
-section: Funktionen
-topicPath:
-  - funktionen
-  - wertetabellen-zu-linearen-funktionen-lesen
-learningGoals:
-  - Du liest Wertetabellen als Darstellung eines Zusammenhangs.
-  - Du erkennst in Tabellen regelmäßige Änderungen als Hinweis auf lineare Funktionen.
-  - Du beschreibst Startwert und Änderungsrate aus einfachen Tabellenwerten.
-practiceIdeas:
-  - Vergleiche zwei Tabellen darauf, ob die y-Werte regelmäßig steigen oder fallen.
-  - Suche in einer Tabelle zuerst nach der Änderung pro Schritt.
-  - Lies den Wert bei x = 0 bewusst als möglichen Startwert.
-commonMistakes:
-  - nur einzelne Zahlen zu sehen und nicht die Veränderung zwischen ihnen.
-  - lineare Funktion und beliebige Tabelle gleichzusetzen.
-  - Startwert und Steigung zu verwechseln.
-keyTakeaways:
-  - Wertetabellen zeigen Funktionen als geordnete Wertepaare.
-  - Bei linearen Funktionen ist die Änderung pro gleichen Schritt konstant.
-  - Aus Tabellen lassen sich Startwert und Steigung oft direkt ablesen.
-recognizeSignals:
-  - Es geht um Tabellen mit x- und y-Werten, regelmäßige Zunahmen oder lineare Muster.
-  - Du sollst erkennen, ob ein Zusammenhang gleichmäßig wächst oder fällt.
-  - In Beispielen zählt die Veränderung zwischen den Zeilen stärker als die einzelnen Zahlen isoliert.
-selfCheckPoints:
-  - Kann ich eine Wertetabelle als Zusammenhang lesen?
-  - Kann ich konstante Änderung erkennen?
-  - Kann ich Startwert und Steigung aus einfachen Tabellen beschreiben?
-tags:
-  - mathematik
-  - funktionen
-  - lineare funktionen
-  - wertetabelle
-level: einfach
+title: "Wertetabellen zu linearen Funktionen lesen"
+description: "Verstehe, wie Wertetabellen lineare Zusammenhänge sichtbar machen und wie du aus regelmäßigen Änderungen auf Steigung und Startwert schließen kannst."
+subject: "mathematik"
+section: "Funktionen"
+topicPath: ["funktionen", "wertetabellen-zu-linearen-funktionen-lesen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
-
 ## Grundidee
 
 Eine Wertetabelle zeigt, welche y-Werte zu bestimmten x-Werten gehören. Bei linearen Funktionen ist besonders wichtig, ob sich die Werte **pro gleichem x-Schritt immer gleich ändern**.

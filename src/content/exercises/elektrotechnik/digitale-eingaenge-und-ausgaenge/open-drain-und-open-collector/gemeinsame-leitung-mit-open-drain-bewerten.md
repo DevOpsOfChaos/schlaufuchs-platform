@@ -1,28 +1,17 @@
 ---
 title: "Gemeinsame Leitung mit Open-Drain bewerten"
 description: "Bewerte, warum mehrere Ausgänge eine Leitung gemeinsam nutzen können."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Digitale Eingänge und Ausgänge"
-topicPath:
-  - digitale-eingaenge-und-ausgaenge
-  - open-drain-und-open-collector
-taskId: ET-V182-008
-tags:
-  - elektrotechnik
-  - open-drain-und-open-collector
-  - sanierung-v182
-hintPoints:
-  - "Lies zuerst den Normalzustand und danach den Fehlerfall."
-  - "Trenne Beobachtung, Vermutung und Gegenprobe."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["digitale-eingaenge-und-ausgaenge", "open-drain-und-open-collector", "gemeinsame-leitung-mit-open-drain-bewerten"]
+taskId: "ET-V182-008"
+tags: ["elektrotechnik", "Digitale Eingänge und Ausgänge", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **Open-Drain und Open-Collector** ruhig und schrittweise.

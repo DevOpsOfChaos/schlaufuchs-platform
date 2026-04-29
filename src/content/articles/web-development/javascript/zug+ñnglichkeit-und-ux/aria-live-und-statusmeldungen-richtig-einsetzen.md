@@ -3,44 +3,17 @@ title: "JavaScript – aria-live und Statusmeldungen richtig einsetzen"
 description: "Lerne, dynamische Rückmeldungen so zu planen, dass sie nicht nur sichtbar, sondern auch assistiv wahrnehmbar sind."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "zugaenglichkeit-und-ux"
-  - "aria-live-und-statusmeldungen-richtig-einsetzen"
-learningGoals:
-  - "Du erklärst, warum dynamische Meldungen leicht übersehen werden können."
-  - "Du nutzt aria-live für passende Statusinformationen."
-  - "Du unterscheidest ruhige Hinweise und dringende Fehlermeldungen."
-practiceIdeas:
-  - "Übertrage die Idee auf eine kleine eigene Seite."
-  - "Prüfe die Bedienung einmal mit Tastatur und einmal mit Maus."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "Jede kleine Änderung laut ansagen zu lassen."
-  - "Statusmeldungen nur farblich darzustellen."
-  - "aria-live nachträglich auf beliebige Bereiche zu werfen, ohne Zweck zu klären."
-keyTakeaways:
-  - "Robuste Webinteraktion trennt Struktur, Zustand und Rückmeldung."
-  - "Nutzerführung ist Teil der technischen Lösung."
-  - "Fehler und Sonderfälle werden sichtbar geplant."
-recognizeSignals:
-  - "Es geht um JavaScript im Browser, UI-Zustand oder dynamische Rückmeldung."
-  - "Eine Interaktion soll verständlicher, sicherer oder robuster werden."
-  - "HTML, CSS und JavaScript müssen gemeinsam gelesen werden."
-selfCheckPoints:
-  - "Kann ich die Aufgabe des Codes in einem Satz erklären?"
-  - "Bleibt die Interaktion ohne Maus oder bei Fehlern nachvollziehbar?"
-  - "Sind sichtbare Texte verständlich und deutsch formuliert?"
+topicPath: ["javascript", "zug+ñnglichkeit-und-ux", "aria-live-und-statusmeldungen-richtig-einsetzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
-tags:
-  - "web development"
-  - "javascript"
-  - "aria-live"
-  - "accessibility"
-  - "status"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Diese Seite zeigt dir, wie du aria-live und Statusmeldungen richtig einsetzen nicht als isolierten JavaScript-Trick, sondern als kleine UX- und Robustheitsentscheidung liest.

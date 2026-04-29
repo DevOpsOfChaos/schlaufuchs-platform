@@ -1,35 +1,19 @@
 ---
 title: "CSS-Kaskade und Spezifität"
 description: "Allgemeiner Überblick über Kaskade, Spezifität und Reihenfolge als Grundprinzipien von CSS."
-subject: web-development
+subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css-kaskade-und-spezifitaet"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Kaskade als Entscheidungsmodell von CSS."
-  - "Du kannst Spezifität als Gewicht von Selektoren einordnen."
-  - "Du verstehst, warum Reihenfolge und Herkunft von Regeln wichtig sind."
+topicPath: ["css-kaskade-und-spezifitaet", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "CSS-Probleme sofort mit `!important` zu lösen."
-  - "Spezifität nur als Reihenfolge im Stylesheet zu verstehen."
-keyTakeaways:
-  - "CSS entscheidet Konflikte über Herkunft, Wichtigkeit, Spezifität und Reihenfolge."
-  - "Geringe, kontrollierte Spezifität macht Styles wartbarer."
-recognizeSignals:
-  - "Es geht um überschreibende Regeln, unerwartete Farben, Selektoren oder `!important`."
-selfCheckPoints:
-  - "Kann ich erklären, warum eine Regel eine andere überschreibt?"
-level: einfach
-tags:
-  - "web development"
-  - "css"
-  - "kaskade"
-  - "spezifität"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 # CSS-Kaskade und Spezifität
 
 ![Schaubild zu CSS-Kaskade und Spezifität.](/schlaufuchs-platform/images/overviews/v148/css-kaskade-und-spezifitaet.svg)

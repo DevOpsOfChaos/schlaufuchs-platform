@@ -1,17 +1,19 @@
 ---
-title: Brüche verstehen
-description: Brüche beschreiben Teile eines Ganzen, Verhältnisse und Divisionen und gehören zu den wichtigsten Grundlagen der Mathematik.
-subject: mathematik
-section: Grundlagen
-level: einfach
-tags:
-  - Brüche
-  - Zähler
-  - Nenner
-  - Grundlagen
+title: "Brüche verstehen"
+description: "Brüche beschreiben Teile eines Ganzen, Verhältnisse und Divisionen und gehören zu den wichtigsten Grundlagen der Mathematik."
+subject: "mathematik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "brueche", "brueche-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 Brüche gehören zu den grundlegenden Darstellungen von Zahlen. Sie tauchen immer dann auf, wenn ein Ganzes in Teile zerlegt wird oder wenn eine Division nicht als ganze Zahl aufgeht. Wer Brüche nur als Rechenschema behandelt, macht später in Algebra, Analysis und Technik häufig unnötige Fehler. Darum ist es wichtig, zuerst die Grundidee sauber zu verstehen.

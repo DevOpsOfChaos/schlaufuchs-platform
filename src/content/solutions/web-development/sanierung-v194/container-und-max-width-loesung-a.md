@@ -3,25 +3,12 @@ title: "Lösung: Container und max-width: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-development-v194-015a im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "responsive-layout"
-  - "container-und-max-width"
-  - "loesung-a"
-
+topicPath: ["sanierung-v194", "container-und-max-width-loesung-a"]
 taskId: "web-development-v194-015a"
 relatedExercise: "web-development/sanierung-v194/container-und-max-width-aufgabe-a"
-tags:
-  - "container"
-  - "max"
-  - "width"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-015a`
 
 Ausgangsauftrag: Bestimme sinnvolle Breiten für Text, Cards und Hero-Bereich.

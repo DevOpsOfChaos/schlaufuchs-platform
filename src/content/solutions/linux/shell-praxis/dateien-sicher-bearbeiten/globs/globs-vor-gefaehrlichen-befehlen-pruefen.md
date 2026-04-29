@@ -3,23 +3,12 @@ title: "Lösung – Globs vor gefährlichen Befehlen prüfen"
 description: "Musterlösung zu Globbing mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell-praxis"
-  - "dateien-sicher-bearbeiten"
-  - "globs"
-  - "globs-vor-gefaehrlichen-befehlen-pruefen"
+topicPath: ["shell-praxis", "dateien-sicher-bearbeiten", "globs", "globs-vor-gefaehrlichen-befehlen-pruefen"]
 taskId: "v111-linux-globs-vor-gefaehrlichen-befehlen-pruefen"
 relatedExercise: "linux/shell-praxis/dateien-sicher-bearbeiten/globs/globs-vor-gefaehrlichen-befehlen-pruefen"
-tags:
-  - "linux"
-  - "betrieb"
-  - "unterthema"
-  - "shell-praxis"
-  - "dateien-sicher-bearbeiten"
-  - "globs-vor-gefaehrlichen-befehlen-pruefen"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Globbing**.

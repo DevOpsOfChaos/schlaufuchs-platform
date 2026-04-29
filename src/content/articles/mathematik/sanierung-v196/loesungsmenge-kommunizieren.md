@@ -1,20 +1,19 @@
 ---
-title: Lösungsmenge kommunizieren
-description: Antworten vollständig und verständlich angeben.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Lösungsmenge kommunizieren"
+description: "Antworten vollständig und verständlich angeben."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "gleichungen-und-modelle", "loesungsmenge-kommunizieren"]
-learningGoals: ["Antworten vollständig und verständlich angeben", "Zwischenschritte begründen", "Ergebnis im Kontext kontrollieren"]
-practiceIdeas: ["Formuliere ein eigenes Beispiel zu Lösungsmenge kommunizieren.", "Markiere Frage, Daten und Kontrolle getrennt.", "Vergleiche zwei mögliche Lösungswege."]
-commonMistakes: ["Zu früh rechnen", "Einheiten oder Bedingungen weglassen", "Das Ergebnis nicht rückprüfen"]
-keyTakeaways: ["Lösungsmenge kommunizieren beginnt mit einer klaren Frage und nicht sofort mit Rechnen.", "Der Themenblock gleichungen und modelle braucht sichtbare Zwischenschritte.", "Ein Ergebnis ist erst belastbar, wenn es im Kontext geprüft wurde."]
-recognizeSignals: ["Die Aufgabe enthält mehrere Angaben.", "Eine Darstellung muss gedeutet werden.", "Das Ergebnis braucht eine Plausibilitätsprüfung."]
-selfCheckPoints: ["Ist die Frage klar?", "Sind Einheiten und Bedingungen sichtbar?", "Passt das Ergebnis zur Situation?"]
-level: einfach
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
 tags: ["mathematik", "v196", "gleichungen-und-modelle", "loesungsmenge-kommunizieren"]
 draft: false
 ---
-
 ![Lösungsmenge kommunizieren](/schlaufuchs-platform/images/mathematik/sanierung-v196/loesungsmenge-kommunizieren.svg)
 
 ## Worum es geht

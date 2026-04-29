@@ -1,35 +1,19 @@
 ---
 title: "Debugging mit LED, UART und Messgerät"
 description: "Überblick über einfache Debugging-Methoden in Mikrocontroller-Schaltungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "debugging-mit-led-uart-und-messgeraet"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst LED, UART und Messgerät als unterschiedliche Beobachtungsebenen."
-  - "Du kannst Software- und Hardware-Hinweise getrennt auswerten."
-  - "Du verstehst, warum systematisches Messen wichtiger ist als Raten."
+topicPath: ["debugging-mit-led-uart-und-messgeraet", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "LED-Ausgaben als vollständigen Beweis für korrektes Verhalten zu nehmen."
-  - "Messpunkte ohne Bezug zur erwarteten Schaltung zu wählen."
-keyTakeaways:
-  - "Debugging verbindet Beobachten, Hypothesen und gezielte Prüfung."
-  - "LED, UART und Messgerät zeigen unterschiedliche Arten von Informationen."
-recognizeSignals:
-  - "Es geht um Fehlersuche, unklare Zustände, Startprobleme, Signale, Ausgaben oder Messwerte."
-selfCheckPoints:
-  - "Kann ich sagen, welche Information eine LED liefert und welche nicht?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "debugging"
-  - "messung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
-
 # Debugging mit LED, UART und Messgerät
 
 ## Grundgedanke

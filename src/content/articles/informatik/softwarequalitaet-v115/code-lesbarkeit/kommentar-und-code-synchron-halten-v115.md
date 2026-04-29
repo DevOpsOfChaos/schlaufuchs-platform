@@ -1,46 +1,19 @@
 ---
 title: "Informatik – Kommentar und Code synchron halten"
 description: "Trainiere Kommentar und Code synchron halten als kleines Unterthema mit klarer Trennkante, Beispiel und Gegenprobe."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "softwarequalitaet-v115"
-  - "code-lesbarkeit"
-  - "kommentar-und-code-synchron-halten-v115"
-learningGoals:
-  - "Du erklärst Kommentar und Code synchron halten an einem kleinen, abgegrenzten Fall."
-  - "Du trennst das Unterthema von einem naheliegenden Nachbarthema."
-  - "Du formulierst eine passende Gegenprobe statt nur eine fertige Antwort."
-practiceIdeas:
-  - "Schreibe zuerst die Prüffrage in eigenen Worten auf."
-  - "Markiere im Fall zwei Hinweise, die wirklich zur Entscheidung gehören."
-  - "Formuliere einen Gegenfall, in dem die Entscheidung anders ausfallen würde."
-commonMistakes:
-  - "Der Kommentar wird geglaubt, obwohl der Code anderes tut."
-  - "Das Thema wird zu breit eingeordnet und verliert dadurch die prüfbare Trennkante."
-  - "Die Lösung nennt ein Ergebnis, begründet aber nicht die Abgrenzung."
-keyTakeaways:
-  - "Dieses Unterthema prüft vor allem: Beschreibt der Kommentar warum oder nur veraltet was?"
-  - "Eine gute Lösung benennt die Trennkante ausdrücklich."
-  - "Die Gegenprobe zeigt, ob die Begründung wirklich trägt."
-recognizeSignals:
-  - "Die Aufgabe fragt nach Kommentar und Code synchron halten."
-  - "Ähnliche Begriffe oder Fälle liegen nah beieinander."
-  - "Eine kleine Änderung im Fall würde zu einer anderen Entscheidung führen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-level: mittel
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "softwarequalität"
-  - "code-lesbarkeit"
+topicPath: ["softwarequalitaet-v115", "code-lesbarkeit", "kommentar-und-code-synchron-halten-v115"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Feinstruktur Informatik"]
 draft: false
 ---
-
 <img src="/schlaufuchs-platform/illustrations/informatik-kommentar-und-code-synchron-halten-v115.svg" alt="Lernillustration zu Kommentar und Code synchron halten" loading="lazy" />
 
 ## Grundidee

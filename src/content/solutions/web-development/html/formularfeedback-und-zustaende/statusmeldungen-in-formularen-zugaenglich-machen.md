@@ -3,23 +3,12 @@ title: "Lösung – Statusmeldungen in Formularen zugänglich machen"
 description: "Musterlösung zur Aufgabe über Formularfeedback mit Begründung und Gegenprobe."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "formularfeedback-und-zustaende"
-  - "statusmeldungen-in-formularen-zugaenglich-machen"
+topicPath: ["html", "formularfeedback-und-zustaende", "statusmeldungen-in-formularen-zugaenglich-machen"]
 taskId: "v106-web-development-statusmeldungen-in-formularen-zugaenglich-machen"
 relatedExercise: "web-development/html/formularfeedback-und-zustaende/statusmeldungen-in-formularen-zugaenglich-machen"
-tags:
-  - "web development"
-  - "html"
-  - "css"
-  - "javascript"
-  - "ux"
-  - "formularfeedback"
-  - "formularfeedback-und-zustaende"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Beobachtung

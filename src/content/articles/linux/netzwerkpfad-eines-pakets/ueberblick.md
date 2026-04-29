@@ -1,30 +1,17 @@
 ---
 title: "Netzwerkpfad eines Pakets"
 description: "Allgemeiner Überblick: Ein Netzwerkpaket passiert mehrere Schichten und Stationen, bevor es sein Ziel erreicht."
-subject: linux
+subject: "linux"
 section: "Netzwerk"
-topicPath:
-  - "netzwerkpfad-eines-pakets"
-learningGoals:
-  - "Du kannst netzwerkpfad eines pakets als Grundidee einordnen."
-  - "Du erkennst wichtige Bestandteile und typische Grenzen."
-  - "Du kannst das Thema in einfachen Worten erklären."
+topicPath: ["netzwerkpfad-eines-pakets", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur ein Detail zu betrachten und den Zusammenhang zu übersehen."
-  - "Das Schaubild als exakte technische Darstellung statt als Orientierung zu lesen."
-keyTakeaways:
-  - "Ein Netzwerkpaket passiert mehrere Schichten und Stationen, bevor es sein Ziel erreicht."
-  - "Ein Überblicksbild hilft, Begriffe und Beziehungen ruhig zu ordnen."
-recognizeSignals:
-  - "Es geht um netzwerkpfad eines pakets, Grundbegriffe, Zusammenhänge oder typische Fehlerquellen."
-selfCheckPoints:
-  - "Kann ich erklären, welche Rolle netzwerkpfad eines pakets im größeren Zusammenhang spielt?"
-level: einfach
-tags:
-  - "linux"
-  - "netzwerkpfad eines pakets"
-  - "überblick"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Netzwerk"]
 draft: false
 ---
 # Netzwerkpfad eines Pakets

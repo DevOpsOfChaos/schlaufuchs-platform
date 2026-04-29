@@ -3,20 +3,12 @@ title: "Lösung – Spezifität nicht hochschaukeln"
 description: "Musterlösung zu Spezifität nicht hochschaukeln mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "css"
-  - "kaskade-und-spezifitaet"
-  - "spezifitaet-nicht-hochschaukeln-v113"
+topicPath: ["css", "kaskade-und-spezifitaet", "spezifitaet-nicht-hochschaukeln-v113"]
 taskId: "v113-web-development-spezifitaet-nicht-hochschaukeln-v113"
 relatedExercise: "web-development/css/kaskade-und-spezifitaet/spezifitaet-nicht-hochschaukeln-v113"
-tags:
-  - "web development"
-  - "strukturcheck"
-  - "unterthema"
-  - "spezifitaet-nicht-hochschaukeln-v113"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Spezifität nicht hochschaukeln**.

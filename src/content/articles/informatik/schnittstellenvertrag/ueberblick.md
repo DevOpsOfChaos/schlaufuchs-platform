@@ -1,34 +1,19 @@
 ---
 title: "Schnittstellenvertrag"
 description: "Überblick über Erwartungen, Zusagen und Grenzen zwischen zwei Softwareteilen oder Systemen."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "schnittstellenvertrag"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["schnittstellenvertrag", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur den erfolgreichen Standardfall zu beschreiben und Fehlerfälle offen zu lassen."
-keyTakeaways:
-  - "Ein guter Schnittstellenvertrag reduziert Missverständnisse zwischen Systemteilen und macht Änderungen kontrollierbar."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn mehrere Module, Teams oder Systeme über definierte Grenzen zusammenarbeiten."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "schnittstellen"
-  - "architektur"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Schnittstellenvertrag
 
 Ein Schnittstellenvertrag beschreibt, was eine Schnittstelle erwartet und was sie liefert. Dazu gehören Datenformate, Fehlerfälle, Seiteneffekte, Sicherheitsannahmen und Stabilitätszusagen.

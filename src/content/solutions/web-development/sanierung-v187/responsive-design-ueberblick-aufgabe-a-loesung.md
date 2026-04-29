@@ -3,23 +3,12 @@ title: "Lösung: Responsive Design im Überblick: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-016a im Web-Development-Block v187."
 subject: "web-development"
 section: "css"
-topicPath: 
-  - "css-und-layout"
-  - "responsive-design"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "responsive-design-ueberblick-aufgabe-a"]
 taskId: "web-v187-016a"
 relatedExercise: "web-development/sanierung-v187/responsive-design-ueberblick-aufgabe-a"
-tags: 
-  - "responsive"
-  - "css"
-  - "layout"
-  - "mobile"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "css", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-016a`
 
     Ausgangsauftrag: Leite aus einer Inhaltsseite sinnvolle mobile und breite Layoutzustände ab.

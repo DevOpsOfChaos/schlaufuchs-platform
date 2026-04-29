@@ -1,33 +1,19 @@
 ---
 title: "z-Score"
 description: "Der z-Score beschreibt, wie viele Standardabweichungen ein Wert vom Mittelwert entfernt liegt. Er macht Werte aus unterschiedlichen Verteilungen vergleichbarer."
-subject: mathematik
+subject: "mathematik"
 section: "Mathematik"
-topicPath:
-  - "z-score"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von z-Score."
-  - "Du kannst z-Score in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["z-score", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Jeden hohen z-Score automatisch als Fehler zu deuten."
-keyTakeaways:
-  - "Der z-Score beschreibt, wie viele Standardabweichungen ein Wert vom Mittelwert entfernt liegt."
-  - "Wichtig sind vor allem standardisierung, mittelwert und standardabweichung und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um z-Score, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu z-Score dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "grundlagen"
-  - "z score"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Mathematik"]
 draft: false
 ---
-
 # z-Score
 
 Der z-Score beschreibt, wie viele Standardabweichungen ein Wert vom Mittelwert entfernt liegt. Er macht Werte aus unterschiedlichen Verteilungen vergleichbarer. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

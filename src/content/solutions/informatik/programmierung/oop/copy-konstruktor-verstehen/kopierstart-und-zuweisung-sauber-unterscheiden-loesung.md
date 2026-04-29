@@ -1,23 +1,14 @@
 ---
-title: Musterloesung - Kopierstart und Zuweisung sauber unterscheiden
-description: Musterloesung zur Aufgabe INF-PROG-OOP-016.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - copy-konstruktor-verstehen
-  - kopierstart-und-zuweisung-sauber-unterscheiden-loesung
-taskId: INF-PROG-OOP-016
-relatedExercise: src/content/exercises/informatik/programmierung/oop/copy-konstruktor-verstehen/kopierstart-und-zuweisung-sauber-unterscheiden.md
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - loesung
+title: "Musterloesung - Kopierstart und Zuweisung sauber unterscheiden"
+description: "Musterloesung zur Aufgabe INF-PROG-OOP-016."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "copy-konstruktor-verstehen", "kopierstart-und-zuweisung-sauber-unterscheiden"]
+taskId: "INF-PROG-OOP-016"
+relatedExercise: "src/content/exercises/informatik/programmierung/oop/copy-konstruktor-verstehen/kopierstart-und-zuweisung-sauber-unterscheiden.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Beim Kopierstart entsteht ein neues Objekt auf Basis eines vorhandenen Objekts. Eine Zuweisung aendert dagegen ein Objekt, das schon existiert.

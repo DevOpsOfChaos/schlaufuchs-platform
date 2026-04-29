@@ -1,31 +1,17 @@
 ---
 title: "Linux-Systemmodell"
 description: "Überblick über Kernel, Prozesse, Dateisystem, Benutzerraum und Dienste als Grundmodell eines Linux-Systems."
-subject: linux
+subject: "linux"
 section: "Grundlagen"
-topicPath:
-  - "linux-systemmodell"
-learningGoals:
-  - "Du kannst Kernel, Userspace und Prozesse grob unterscheiden."
-  - "Du verstehst das Dateisystem als gemeinsame Schnittstelle vieler Systembereiche."
-  - "Du ordnest Dienste, Shell und Programme im Systemmodell ein."
+topicPath: ["linux-systemmodell", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Linux nur als Sammlung einzelner Befehle zu sehen."
-  - "Kernel, Shell und Terminal gleichzusetzen."
-keyTakeaways:
-  - "Linux besteht aus Kernel, Userspace, Prozessen, Dateien und Diensten."
-  - "Viele Werkzeuge wirken über Dateien, Prozesse und Rechte zusammen."
-recognizeSignals:
-  - "Es geht um Kernel, Prozesse, Dienste, Shell, Dateisystem oder Rechte."
-selfCheckPoints:
-  - "Kann ich erklären, warum die Shell nicht der Kernel ist?"
-level: einfach
-tags:
-  - "linux"
-  - "systemmodell"
-  - "kernel"
-  - "userspace"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Grundlagen"]
 draft: false
 ---
 # Linux-Systemmodell

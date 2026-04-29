@@ -1,23 +1,14 @@
 ---
-title: Lösung – Clientfehler sinnvoll sammeln
-description: Musterlösung zur Aufgabe über Clientfehler sinnvoll sammeln.
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- web-betrieb
-- release-monitoring
-- clientfehler-sinnvoll-sammeln-v114
-taskId: v114-web-development-clientfehler-sinnvoll-sammeln-v114
-relatedExercise: web-development/web-betrieb/release-monitoring/clientfehler-sinnvoll-sammeln-v114
-tags:
-- web-development
-- v114
-- loesung
-- web-betrieb
-- release-monitoring
+title: "Lösung – Clientfehler sinnvoll sammeln"
+description: "Musterlösung zur Aufgabe über Clientfehler sinnvoll sammeln."
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["web-betrieb", "release-monitoring", "clientfehler-sinnvoll-sammeln-v114"]
+taskId: "v114-web-development-clientfehler-sinnvoll-sammeln-v114"
+relatedExercise: "web-development/web-betrieb/release-monitoring/clientfehler-sinnvoll-sammeln-v114"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

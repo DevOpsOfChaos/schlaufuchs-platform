@@ -1,24 +1,14 @@
 ---
 title: "Lösung – I²C-Busfehler systematisch eingrenzen"
 description: "Musterlösung zu i²c-busfehler systematisch eingrenzen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - i2c-adressen-pullups-und-busfehler
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "i2c-adressen-pullups-und-busfehler"]
 taskId: "et-mc-v92-i2c-busfehler"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/i2c-adressen-pullups-und-busfehler"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - i2c
-  - pullup
-  - bus
-  - adresse
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Mögliche Ursachen sind falsche Versorgung, fehlender gemeinsamer GND, SDA/SCL vertauscht, fehlende oder unpassende Pull-ups, falsche Adresse, ein Sensor im Reset, eine dauerhaft Low gehaltene Leitung oder ein Pegelproblem zwischen 5 V und 3,3 V.

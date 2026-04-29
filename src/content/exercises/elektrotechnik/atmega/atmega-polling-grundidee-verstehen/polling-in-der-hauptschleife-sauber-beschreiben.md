@@ -1,32 +1,17 @@
 ---
-title: Polling in der Hauptschleife sauber beschreiben
-description: Erkläre, warum ein AVR-Eingang beim Polling immer wieder aktiv gelesen wird und wie sich das von einer Interrupt-Lösung unterscheidet.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - polling-und-entprellen
-  - atmega-polling-grundidee-verstehen
-  - polling-in-der-hauptschleife-sauber-beschreiben
-taskId: ET-ATMEGA-POLL-203
-level: einfach
+title: "Polling in der Hauptschleife sauber beschreiben"
+description: "Erkläre, warum ein AVR-Eingang beim Polling immer wieder aktiv gelesen wird und wie sich das von einer Interrupt-Lösung unterscheidet."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-polling-grundidee-verstehen", "polling-in-der-hauptschleife-sauber-beschreiben"]
+taskId: "ET-ATMEGA-POLL-203"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - polling
-hintPoints:
-  - Lies die Hauptschleife als wiederholte Prüfstruktur.
-  - Trenne aktives Prüfen und ereignisgetriebene Unterbrechung bewusst.
-selfCheckPoints:
-  - Kannst du erklären, warum der Zustand mehrfach gelesen wird?
-  - Kannst du Polling und Interrupt sauber unterscheiden?
-transferIdeas:
-  - Übertrage die Logik auf Sensorabfragen oder Menütaster.
-reflectionPrompt: "Warum ist Polling didaktisch oft leichter zu lesen als ein Interrupt-Einstieg?"
 ---
-
 Gegeben ist:
 
 ```c

@@ -3,23 +3,12 @@ title: "Lösung – systemctl start und enable unterscheiden"
 description: "Musterlösung zu start und enable mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "System"
-topicPath:
-  - "system"
-  - "dienste-und-systemd"
-  - "start-enable"
-  - "systemctl-start-und-enable-unterscheiden"
+topicPath: ["system", "dienste-und-systemd", "start-enable", "systemctl-start-und-enable-unterscheiden"]
 taskId: "v108-linux-systemctl-start-und-enable-unterscheiden"
 relatedExercise: "linux/system/dienste-und-systemd/start-enable/systemctl-start-und-enable-unterscheiden"
-tags:
-  - "linux"
-  - "shell"
-  - "praxis"
-  - "system"
-  - "dienste-und-systemd"
-  - "start und enable"
+tags: ["linux", "System", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **start und enable**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

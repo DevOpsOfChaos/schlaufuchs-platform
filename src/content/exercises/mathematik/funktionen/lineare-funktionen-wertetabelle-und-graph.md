@@ -1,12 +1,17 @@
 ---
-title: Lineare Funktionen, Wertetabelle und Graph
-description: Diese Aufgabe vertieft lineare Funktionen über Form, Wertetabellen, Steigung und einfache Graphdeutung.
-subject: mathematik
-section: Funktionen
-level: mittel
+title: "Lineare Funktionen, Wertetabelle und Graph"
+description: "Diese Aufgabe vertieft lineare Funktionen über Form, Wertetabellen, Steigung und einfache Graphdeutung."
+subject: "mathematik"
+section: "Funktionen"
+topicPath: ["funktionen", "lineare-funktionen-wertetabelle-und-graph"]
+taskId: "AUTO-LINEARE-FUNKTIONEN-WERTETABELLE-UND-GRAPH"
+tags: ["mathematik", "Funktionen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben sorgfältig und nutze überall die Form f(x) = m·x + b bewusst.

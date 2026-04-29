@@ -3,35 +3,15 @@ title: "Aufgabe – Rückgabewert und Nebenwirkung trennen"
 description: "Übe Funktionswirkung mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "informatik"
 section: "Programmierung"
-topicPath:
-  - "programmieren"
-  - "funktionen-und-schnittstellen"
-  - "rueckgabewerte"
-  - "rueckgabewert-und-nebenwirkung-trennen"
+topicPath: ["programmieren", "funktionen-und-schnittstellen", "rueckgabewerte", "rueckgabewert-und-nebenwirkung-trennen"]
 taskId: "v107-informatik-rueckgabewert-und-nebenwirkung-trennen"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "algorithmen"
-  - "funktionswirkung"
-  - "programmieren"
-  - "funktionen-und-schnittstellen"
-hintPoints:
-  - "Grenze das Unterthema zuerst ein."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Formuliere eine kleine Gegenprobe."
-selfCheckPoints:
-  - "Ist das Unterthema klar benannt?"
-  - "Ist die Lösung nicht zu breit formuliert?"
-  - "Ist die Gegenprobe konkret?"
-transferIdeas:
-  - "Ändere einen Randwert und prüfe die Begründung erneut."
-  - "Erkläre die Lösung einmal als Merksatz und einmal am Beispiel."
-reflectionPrompt: "Warum hilft dir das kleine Unterthema „Funktionswirkung“ mehr als ein breiter Sammelbegriff?"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite ein kleines Szenario zu **Funktionswirkung**.

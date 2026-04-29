@@ -1,35 +1,19 @@
 ---
 title: "Grundlagen: Queues, Stacks und Ablauf"
 description: "Queues und Stacks bestimmen nicht nur Speicherung, sondern die Reihenfolge der Verarbeitung."
-subject: informatik
+subject: "informatik"
 section: "Datenstrukturen im Einsatz"
-topicPath:
-  - "datenstrukturen-im-einsatz"
-  - "queues-stacks-und-ablauf"
-  - "ueberblick"
-learningGoals:
-  - "Du ordnest Queues, Stacks und Ablauf fachlich ein."
-  - "Du unterscheidest zentrale Begriffe und typische Rollen."
-  - "Du erkennst häufige Fehler beim Anwenden."
-practiceIdeas:
-  - "Formuliere die Grundidee in zwei Sätzen."
-  - "Ordne ein Beispiel den wichtigsten Begriffen zu."
-commonMistakes:
-  - "Queue und Stack nur als Namen zu lernen, ohne ihre Auswirkungsregel zu verstehen."
-keyTakeaways:
-  - "Queues und Stacks bestimmen nicht nur Speicherung, sondern die Reihenfolge der Verarbeitung."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung vor einer Einzelfalllösung."
-selfCheckPoints:
-  - "Kann ich die Grundbegriffe voneinander unterscheiden?"
-level: mittel
-tags:
-  - "informatik"
-  - "datenstrukturen-im-einsatz"
-  - "queues-stacks-und-ablauf"
+topicPath: ["datenstrukturen-im-einsatz", "queues-stacks-und-ablauf", "ueberblick", "grundlagen-queues-stacks-und-ablauf"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Datenstrukturen im Einsatz"]
 draft: false
 ---
-
 ![Schaubild zu Queues, Stacks und Ablauf](/schlaufuchs-platform/images/overviews/v183/informatik-queues-stacks-und-ablauf.svg)
 
 ## Begriff

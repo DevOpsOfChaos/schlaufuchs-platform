@@ -1,36 +1,19 @@
 ---
 title: "Logrotate-Grundlagen"
 description: "Logrotate-Grundlagen bezeichnet ein Grundthema im Bereich Shell, Dateisystem, Dienste und Betrieb von Linux-Systemen. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-subject: linux
+subject: "linux"
 section: "Logs"
-topicPath:
-  - "logrotate-grundlagen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Logrotate-Grundlagen als allgemeinen Grundbegriff einordnen."
-  - "Du kennst Zweck, Zusammenhang, typische Teilaspekte und Grenzen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle behandelt werden."
+topicPath: ["logrotate-grundlagen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Logrotate-Grundlagen nur als einzelner Arbeitsschritt verstanden, obwohl der Begriff einen größeren Zusammenhang beschreibt."
-keyTakeaways:
-  - "Logrotate-Grundlagen bezeichnet ein Grundthema im Bereich Shell, Dateisystem, Dienste und Betrieb von Linux-Systemen. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-  - "Ein Überblick trennt Begriff, Zweck, Beispiel und Grenze."
-  - "Spezialseiten werden verständlicher, wenn die allgemeine Einordnung vorher klar ist."
-recognizeSignals:
-  - "Es geht um Logrotate-Grundlagen, wenn mehrere Einzelbeobachtungen ohne Grundbegriff schwer einzuordnen sind."
-  - "Der Begriff hilft, Werkzeuge, Werte, Regeln oder Darstellungen fachlich zu sortieren."
-selfCheckPoints:
-  - "Kann ich Logrotate-Grundlagen in zwei bis drei Sätzen erklären?"
-  - "Kann ich ein Beispiel und eine typische Grenze nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "logs"
-  - "betrieb"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Logs"]
 draft: false
 ---
-
 # Logrotate-Grundlagen
 
 Logrotate-Grundlagen bezeichnet ein Grundthema im Bereich Shell, Dateisystem, Dienste und

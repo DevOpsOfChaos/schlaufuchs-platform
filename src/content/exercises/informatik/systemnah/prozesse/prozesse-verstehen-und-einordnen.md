@@ -1,33 +1,17 @@
 ---
-title: Prozesse verstehen und einordnen
-description: Ordne Programme, laufende Prozesse und Hintergrunddienste fachlich sauber ein.
-subject: informatik
-section: Systemnah
-topicPath:
-- systemnah
-- prozesse
-- prozesse-verstehen-und-einordnen
-tags:
-- prozesse
-- betriebssystem
-- system
-hintPoints:
-- Trenne gespeicherte Anwendung und laufenden Ablauf bewusst.
-- Denke auch an unsichtbare Hintergrundprozesse.
-- Frage dich, warum Speicher und Rechenzeit verwaltet werden müssen.
-selfCheckPoints:
-- Kann ich Programm und Prozess sauber unterscheiden?
-- Kann ich einen Hintergrundprozess als echten Prozess erklären?
-- Kann ich begründen, warum ein Betriebssystem Prozesse verwalten muss?
-level: einfach
+title: "Prozesse verstehen und einordnen"
+description: "Ordne Programme, laufende Prozesse und Hintergrunddienste fachlich sauber ein."
+subject: "informatik"
+section: "Systemnah"
+topicPath: ["systemnah", "prozesse", "prozesse-verstehen-und-einordnen"]
+taskId: "AUTO-PROZESSE-VERSTEHEN-UND-EINORDNEN"
+tags: ["informatik", "Systemnah", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-reflectionPrompt: Warum hilft Prozessverständnis auch dann, wenn du noch keine Betriebssystem-Interna programmierst?
-transferIdeas:
-- Übertrage die Idee aus „Prozesse verstehen und einordnen“ auf ein ähnliches Beispiel mit anderen Zahlen, Begriffen oder Bauteilen.
-- Erkläre die Lösung einmal ohne Fachsprache und danach noch einmal fachlich sauber.
 ---
-
-
 ## Aufgabe 1: Begriffspaare klären
 
 Erkläre in eigenen Worten den Unterschied zwischen

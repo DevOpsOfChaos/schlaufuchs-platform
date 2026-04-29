@@ -1,32 +1,17 @@
 ---
 title: "Saga Pattern"
 description: "Allgemeiner Überblick über verteilte Abläufe ohne eine einzelne globale Transaktion."
-subject: informatik
+subject: "informatik"
 section: "Architektur"
-topicPath:
-  - "saga-pattern"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Saga Pattern als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie lokale Transaktion, Kompensation, Orchestrierung."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["saga-pattern", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Verteilte Systeme wie eine einzige relationale Transaktion behandeln zu wollen."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Saga Pattern beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Langlaufende Geschäftsprozesse."
-  - "Wichtige Hinweise liefern vor allem lokale Transaktion, Kompensation, Orchestrierung."
-recognizeSignals:
-  - "Es geht um langlaufende geschäftsprozesse, lokale transaktion oder kompensation."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Saga Pattern erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "informatik"
-  - "architektur"
-  - "transaktionen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Architektur"]
 draft: false
 ---
 # Saga Pattern

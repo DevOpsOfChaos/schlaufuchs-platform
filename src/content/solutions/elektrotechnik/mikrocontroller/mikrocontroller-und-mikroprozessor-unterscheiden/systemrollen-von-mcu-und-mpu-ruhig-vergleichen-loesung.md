@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Systemrollen von Mikrocontroller und Mikroprozessor ruhig vergleichen
-description: Musterlösung zur Aufgabe ELE-MCU-GEN-101.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - mikrocontroller-und-mikroprozessor-unterscheiden
-  - systemrollen-von-mcu-und-mpu-ruhig-vergleichen-loesung
-taskId: ELE-MCU-GEN-101
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller/mikrocontroller-und-mikroprozessor-unterscheiden/systemrollen-von-mcu-und-mpu-ruhig-vergleichen.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - loesung
-  - task-id
+title: "Musterlösung – Systemrollen von Mikrocontroller und Mikroprozessor ruhig vergleichen"
+description: "Musterlösung zur Aufgabe ELE-MCU-GEN-101."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "mikrocontroller-und-mikroprozessor-unterscheiden", "systemrollen-von-mcu-und-mpu-ruhig-vergleichen"]
+taskId: "ELE-MCU-GEN-101"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller/mikrocontroller-und-mikroprozessor-unterscheiden/systemrollen-von-mcu-und-mpu-ruhig-vergleichen.md"
+tags: ["elektrotechnik", "mikrocontroller", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Ein Mikrocontroller vereint meist CPU, Flash, RAM und typische Peripherie wie Timer oder GPIO direkt in einem Chip. Ein Mikroprozessor ist stärker als Recheneinheit zu lesen und arbeitet häufiger mit externem Speicher und weiteren Systembausteinen zusammen. Die ruhigere Unterscheidung lautet deshalb nicht "klein gegen groß", sondern "wie viel System ist schon integriert".

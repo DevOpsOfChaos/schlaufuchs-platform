@@ -1,23 +1,14 @@
 ---
-title: Lösung – Versorgungspuffer dimensionieren
-description: Musterlösung zur Aufgabe über Versorgungspuffer dimensionieren.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- mikrocontroller-systeme
-- energie-und-reset
-- versorgungspuffer-dimensionieren-v114
-taskId: v114-elektrotechnik-versorgungspuffer-dimensionieren-v114
-relatedExercise: elektrotechnik/mikrocontroller-systeme/energie-und-reset/versorgungspuffer-dimensionieren-v114
-tags:
-- elektrotechnik
-- v114
-- loesung
-- mikrocontroller-systeme
-- energie-und-reset
+title: "Lösung – Versorgungspuffer dimensionieren"
+description: "Musterlösung zur Aufgabe über Versorgungspuffer dimensionieren."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["mikrocontroller-systeme", "energie-und-reset", "versorgungspuffer-dimensionieren-v114"]
+taskId: "v114-elektrotechnik-versorgungspuffer-dimensionieren-v114"
+relatedExercise: "elektrotechnik/mikrocontroller-systeme/energie-und-reset/versorgungspuffer-dimensionieren-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

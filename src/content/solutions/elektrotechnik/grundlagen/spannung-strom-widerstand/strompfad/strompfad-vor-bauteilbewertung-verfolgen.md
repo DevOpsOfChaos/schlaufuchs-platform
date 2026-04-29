@@ -3,23 +3,12 @@ title: "Lösung – Strompfad vor Bauteilbewertung verfolgen"
 description: "Musterlösung zu Strompfad mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "grundlagen"
-  - "spannung-strom-widerstand"
-  - "strompfad"
-  - "strompfad-vor-bauteilbewertung-verfolgen"
+topicPath: ["grundlagen", "spannung-strom-widerstand", "strompfad", "strompfad-vor-bauteilbewertung-verfolgen"]
 taskId: "v111-elektrotechnik-strompfad-vor-bauteilbewertung-verfolgen"
 relatedExercise: "elektrotechnik/grundlagen/spannung-strom-widerstand/strompfad/strompfad-vor-bauteilbewertung-verfolgen"
-tags:
-  - "elektrotechnik"
-  - "praxis"
-  - "unterthema"
-  - "grundlagen"
-  - "spannung-strom-widerstand"
-  - "strompfad-vor-bauteilbewertung-verfolgen"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Strompfad**.

@@ -3,36 +3,15 @@ title: "Audio als Signalfolge: Aufgabe A"
 description: "Beschreibe den Weg von Schall zu einer digitalen Audiodatei."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "darstellung-und-code"
-  - "audio-als-signalfolge"
-  - "aufgabe-a"
-
+topicPath: ["sanierung-v195", "audio-als-signalfolge-aufgabe-a"]
 taskId: "daten-und-signale-v195-009a"
-tags:
-  - "audio"
-  - "signalfolge"
-  - "daten-und-signale"
-  - "aufgabe"
-  - "v195"
-
-hintPoints:
-  - "Beschreibe zuerst Quelle, Einheit und Ziel der Auswertung."
-  - "Trenne Beobachtung, mögliche Ursache und sichere Aussage."
-  - "Lege einen kleinen Kontrollpunkt fest."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Audio als Signalfolge."
-  - "Die Aussage bleibt auf die vorhandenen Daten begrenzt."
-  - "Mindestens ein Risiko oder eine Unsicherheit wird benannt."
-transferIdeas:
-  - "Übertrage den Prüfweg auf ein anderes Messsignal."
-  - "Notiere, welche Metadaten für eine spätere Auswertung fehlen könnten."
-reflectionPrompt: "Welche Annahme wäre in deiner Lösung am leichtesten zu übersehen?"
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Beschreibe den Weg von Schall zu einer digitalen Audiodatei.

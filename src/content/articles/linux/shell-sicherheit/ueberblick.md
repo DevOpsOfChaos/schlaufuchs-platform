@@ -1,37 +1,19 @@
 ---
 title: "Shell-Sicherheit"
 description: "Überblick über sichere Shell-Nutzung, Quoting und Risiken beim Ausführen zusammengesetzter Befehle."
-subject: linux
+subject: "linux"
 section: "Sicherheit"
-topicPath:
-  - "shell-sicherheit"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Shell-Sicherheit als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["shell-sicherheit", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Befehle mit unquotierten Variablen zu bauen und anzunehmen, dass Dateinamen immer einfach aussehen."
-keyTakeaways:
-  - "Shell-Expansionen müssen bewusst kontrolliert werden."
-  - "Quoting schützt vor vielen unerwarteten Zerlegungen."
-  - "Erhöhte Rechte vergrößern das Risiko kleiner Fehler."
-recognizeSignals:
-  - "Skripte verarbeiten Dateinamen oder Benutzereingaben."
-  - "Ein Befehl wird mit `sudo` oder automatisiert ausgeführt."
-selfCheckPoints:
-  - "Kann ich Shell-Sicherheit in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "sicherheit"
-  - "quoting"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Sicherheit"]
 draft: false
 ---
-
 # Shell-Sicherheit
 
 Shell-Sicherheit bedeutet, Eingaben, Variablen, Pfade und Rechte so zu behandeln, dass Befehle nicht unerwartet oder gefährlich ausgeführt werden.

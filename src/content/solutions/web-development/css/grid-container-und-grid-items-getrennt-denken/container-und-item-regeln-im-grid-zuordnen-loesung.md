@@ -1,22 +1,14 @@
 ---
-title: Musterlösung – Container- und Item-Regeln im Grid zuordnen
-description: Musterlösung zur Aufgabe WEB-CSS-CORE-105.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - grid-container-und-grid-items-getrennt-denken
-  - container-und-item-regeln-im-grid-zuordnen-loesung
-taskId: WEB-CSS-CORE-105
-relatedExercise: src/content/exercises/web-development/css/grid-container-und-grid-items-getrennt-denken/container-und-item-regeln-im-grid-zuordnen.md
-tags:
-  - web-development
-  - css
-  - loesung
-  - task-id
+title: "Musterlösung – Container- und Item-Regeln im Grid zuordnen"
+description: "Musterlösung zur Aufgabe WEB-CSS-CORE-105."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "grid-container-und-grid-items-getrennt-denken", "container-und-item-regeln-im-grid-zuordnen"]
+taskId: "WEB-CSS-CORE-105"
+relatedExercise: "src/content/exercises/web-development/css/grid-container-und-grid-items-getrennt-denken/container-und-item-regeln-im-grid-zuordnen.md"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Regeln zuordnen
 
 Container:

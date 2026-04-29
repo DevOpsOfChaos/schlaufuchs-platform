@@ -3,21 +3,12 @@ title: "Lösung – DOM-Update bündeln"
 description: "Musterlösung zu dom-update bündeln mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "javascript"
-  - "dom-und-events"
-  - "dom-update-buendeln"
+topicPath: ["javascript", "dom-und-events", "dom-update-buendeln"]
 taskId: "v112-web-development-dom-update-buendeln"
 relatedExercise: "web-development/javascript/dom-und-events/dom-update-buendeln"
-tags:
-  - "web-development"
-  - "v112"
-  - "feinstruktur"
-  - "javascript"
-  - "dom-update-buendeln"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **JavaScript DOM und Events**.

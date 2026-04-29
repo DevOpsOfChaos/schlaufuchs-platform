@@ -3,39 +3,17 @@ title: "Bilder, Medien und Alternativtexte"
 description: "Setze Bilder nicht nur dekorativ ein, sondern mit Zweck, Beschreibung und passender Dateigröße."
 subject: "web-development"
 section: "html"
-topicPath: 
-  - "html-und-semantik"
-  - "medien"
-learningGoals: 
-  - "Sinnvolle Medien im Inhalt ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Formuliere für drei unterschiedliche Bilder passende Alternativtexte und erkläre den jeweiligen Zweck."
-  - "Erstelle eine Medien-Checkliste für eine Artikelseite mit Bild, Icon und Screenshot."
-commonMistakes: 
-  - "Alt-Text wiederholt nur den Dateinamen."
-  - "Dekorative Bilder werden wie wichtige Inhalte beschrieben."
-  - "Große Originalbilder werden ungeprüft eingebunden."
-keyTakeaways: 
-  - "Ein gutes Bild ergänzt den Inhalt und bleibt auch bei fehlender Grafik verständlich ersetzbar."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "Ein gutes Bild ergänzt den Inhalt und bleibt auch bei fehlender Grafik verständlich ersetzbar."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "bilder-medien-und-alternativtexte"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags: 
-  - "bilder"
-  - "medien"
-  - "alt-text"
-  - "barrierefreiheit"
-  - "web-development"
+tags: ["web-development", "html"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Bilder, Medien und Alternativtexte](/schlaufuchs-platform/images/web-development/sanierung-v187/bilder-medien-und-alternativtexte.svg)
 
     Bilder, Medien und Alternativtexte ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

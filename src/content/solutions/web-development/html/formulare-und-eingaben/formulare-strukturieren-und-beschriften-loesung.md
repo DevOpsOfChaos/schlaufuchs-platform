@@ -1,20 +1,14 @@
 ---
-title: Lösung – Formulare strukturieren und beschriften
-description: Musterlösung zur Aufgabe über Formularstruktur, Labels und Gruppierung.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - formulare-und-eingaben
-taskId: WEB-HTML-A11Y-303
-relatedExercise: web-development/html/formulare-und-eingaben/formulare-strukturieren-und-beschriften
-tags:
-  - html
-  - form
-  - loesung
+title: "Lösung – Formulare strukturieren und beschriften"
+description: "Musterlösung zur Aufgabe über Formularstruktur, Labels und Gruppierung."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "formulare-und-eingaben", "formulare-strukturieren-und-beschriften"]
+taskId: "WEB-HTML-A11Y-303"
+relatedExercise: "web-development/html/formulare-und-eingaben/formulare-strukturieren-und-beschriften"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

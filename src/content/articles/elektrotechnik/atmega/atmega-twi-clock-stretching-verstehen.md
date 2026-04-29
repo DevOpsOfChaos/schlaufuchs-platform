@@ -1,46 +1,19 @@
 ---
-title: ATmega – TWI Clock Stretching verstehen
-description: Verstehe, warum ein I²C beziehungsweise TWI-Teilnehmer die Taktleitung kurz festhalten kann und warum das kein zufälliger Fehler sein muss.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-schnittstellen-und-busse
-  - atmega-twi-clock-stretching-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von Clock Stretching am TWI beziehungsweise I²C-Bus.
-  - Du unterscheidest ein bewusstes Warten am Bus von einem echten Hänger.
-  - Du liest SCL nicht nur als Takt aus dem Master, sondern als gemeinsame Busleitung mit Rückwirkung.
-practiceIdeas:
-  - Vergleiche einen sauberen TWI-Ablauf mit einem Fall, in dem ein Slave kurz Zeit braucht.
-  - Prüfe bei einem langsamen Bus, ob wirklich ein Fehler vorliegt oder ob eine Gegenstelle den Takt bewusst hält.
-  - Lies SDA und SCL als gemeinsame Leitungen statt nur als Einbahnstraße vom Master.
-commonMistakes:
-  - Zu denken, nur der Master bestimme die Taktleitung vollständig allein.
-  - Clock Stretching sofort als Defekt oder Timingfehler abzutun.
-  - Einen langen Low-Pegel auf SCL nicht mit dem Buszustand in Verbindung zu bringen.
-keyTakeaways:
-  - Beim TWI kann eine Gegenstelle SCL kurz auf Low halten, um Zeit zu gewinnen.
-  - Clock Stretching ist ein Busmechanismus und nicht automatisch ein Fehlerbild.
-  - Erst Dauer und Kontext zeigen, ob ein geordnetes Warten oder ein Busproblem vorliegt.
-recognizeSignals:
-  - Es geht um I²C oder TWI, SCL, langsame Gegenstellen oder unerwartetes Warten auf dem Bus.
-  - Du sollst erklären, warum ein Zugriff nicht sofort weiterläuft, obwohl die Verdrahtung stimmt.
-  - In Aufgaben zählt die Buslogik stärker als die reine Registerliste.
-selfCheckPoints:
-  - Kann ich erklären, warum SCL nicht immer sofort weiter taktet?
-  - Kann ich Clock Stretching und echten Busstillstand unterscheiden?
-  - Kann ich den Nutzen für langsame Slaves in Worte fassen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - twi
-  - i2c
-level: mittel
+title: "ATmega – TWI Clock Stretching verstehen"
+description: "Verstehe, warum ein I²C beziehungsweise TWI-Teilnehmer die Taktleitung kurz festhalten kann und warum das kein zufälliger Fehler sein muss."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-twi-clock-stretching-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei TWI beziehungsweise I²C wirkt es auf den ersten Blick so, als würde der Master den Takt einfach ausgeben und alle anderen folgen. In der Praxis ist die Taktleitung aber eine **gemeinsame Busleitung**. Genau deshalb kann eine Gegenstelle den Takt kurz festhalten, wenn sie noch nicht bereit ist. Dieses Verhalten nennt man **Clock Stretching**.

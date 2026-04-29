@@ -1,17 +1,19 @@
 ---
-title: Prozentrechnung verstehen
-description: Prozentrechnung beschreibt Anteile am Ganzen und ist eine wichtige Grundlage für Vergleiche, Rabatte, Zinsen und viele Alltagsrechnungen.
-subject: mathematik
-section: Grundlagen
-level: einfach
-tags:
-  - Prozentrechnung
-  - Grundwert
-  - Prozentwert
-  - Prozentsatz
+title: "Prozentrechnung verstehen"
+description: "Prozentrechnung beschreibt Anteile am Ganzen und ist eine wichtige Grundlage für Vergleiche, Rabatte, Zinsen und viele Alltagsrechnungen."
+subject: "mathematik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "prozentrechnung", "prozentrechnung-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 Prozentrechnung begegnet uns im Alltag ständig: bei Rabatten, Zinsen, Statistiken, Wahlergebnissen, Notenübersichten oder technischen Vergleichen. Trotzdem bleibt oft unklar, was genau 15 % oder 80 % eigentlich bedeuten. Wer Prozentrechnung sauber verstehen will, muss zuerst die Beziehung zwischen Teil und Ganzem erfassen.

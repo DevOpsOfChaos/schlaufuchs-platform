@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – new und delete im Ablauf verbinden
-description: Musterlösung zur Aufgabe INF-PROG-CPP-MEM-001.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - dynamischer-speicher
-  - new-und-delete-sauber-paaren
-  - new-und-delete-im-ablauf-verbinden-loesung
-taskId: INF-PROG-CPP-MEM-001
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/new-und-delete-sauber-paaren/new-und-delete-im-ablauf-verbinden.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – new und delete im Ablauf verbinden"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-MEM-001."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "new-und-delete-sauber-paaren", "new-und-delete-im-ablauf-verbinden"]
+taskId: "INF-PROG-CPP-MEM-001"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/new-und-delete-sauber-paaren/new-und-delete-im-ablauf-verbinden.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Grundmuster markieren
 
 - <code>int *p = new int;</code> → Reservieren

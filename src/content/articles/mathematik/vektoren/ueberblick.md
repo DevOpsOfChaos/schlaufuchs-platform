@@ -1,34 +1,19 @@
 ---
 title: "Vektoren"
 description: "Überblick über Vektoren als Größen mit Richtung und Betrag in Geometrie und Anwendungen."
-subject: mathematik
+subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - "vektoren"
-  - "ueberblick"
-learningGoals:
-  - "Du verstehst Vektoren als gerichtete Größen."
-  - "Du kannst Ortsvektor, Verschiebung und Richtung grob unterscheiden."
-  - "Du erkennst typische Anwendungen in Geometrie und Physik."
+topicPath: ["vektoren", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Vektoren nur als Zahlenpaare zu sehen und die geometrische Bedeutung zu vergessen."
-  - "Punkt und Vektor unklar zu vermischen."
-keyTakeaways:
-  - "Ein Vektor beschreibt Richtung und Länge einer Verschiebung."
-  - "Koordinaten sind eine Darstellungsform, nicht die ganze Bedeutung."
-recognizeSignals:
-  - "Es geht um Richtung, Betrag, Koordinaten, Verschiebung, Gerade, Ebene oder Kräfte."
-selfCheckPoints:
-  - "Kann ich erklären, warum derselbe Verschiebungsvektor an verschiedenen Orten liegen kann?"
-level: einfach
-tags:
-  - "mathematik"
-  - "vektoren"
-  - "geometrie"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Geometrie"]
 draft: false
 ---
-
 # Vektoren
 
 ![Schaubild zu Vektoren.](/schlaufuchs-platform/images/overviews/v148/vektoren.svg)

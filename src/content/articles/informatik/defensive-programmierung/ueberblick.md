@@ -1,36 +1,19 @@
 ---
 title: "Defensive Programmierung"
 description: "Defensive Programmierung gestaltet Code so, dass unerwartete Eingaben, Zustände oder Fehler kontrolliert behandelt werden."
-subject: informatik
+subject: "informatik"
 section: "Programmierung"
-topicPath:
-  - "defensive-programmierung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Defensive Programmierung als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["defensive-programmierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Fehler still verschluckt. Das wirkt robust, macht Ursachen aber unsichtbar."
-keyTakeaways:
-  - "Defensive Programmierung gestaltet Code so, dass unerwartete Eingaben, Zustände oder Fehler kontrolliert behandelt werden."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Defensive Programmierung, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Defensive Programmierung in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "fehlerbehandlung"
-  - "robustheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 # Defensive Programmierung
 
 Defensive Programmierung gestaltet Code so, dass unerwartete Eingaben, Zustände oder Fehler

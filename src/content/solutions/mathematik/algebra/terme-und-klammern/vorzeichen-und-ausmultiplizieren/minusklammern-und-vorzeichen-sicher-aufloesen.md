@@ -3,23 +3,12 @@ title: "Lösung – Minusklammern und Vorzeichen sicher auflösen"
 description: "Musterlösung zu Minusklammern mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Algebra"
-topicPath:
-  - "algebra"
-  - "terme-und-klammern"
-  - "vorzeichen-und-ausmultiplizieren"
-  - "minusklammern-und-vorzeichen-sicher-aufloesen"
+topicPath: ["algebra", "terme-und-klammern", "vorzeichen-und-ausmultiplizieren", "minusklammern-und-vorzeichen-sicher-aufloesen"]
 taskId: "v107-mathematik-minusklammern-und-vorzeichen-sicher-aufloesen"
 relatedExercise: "mathematik/algebra/terme-und-klammern/vorzeichen-und-ausmultiplizieren/minusklammern-und-vorzeichen-sicher-aufloesen"
-tags:
-  - "mathematik"
-  - "rechnen"
-  - "modellieren"
-  - "minusklammern"
-  - "algebra"
-  - "terme-und-klammern"
+tags: ["mathematik", "Algebra", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Minusklammern**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

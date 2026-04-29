@@ -3,20 +3,12 @@ title: "Lösung – Spannung und Stromrichtung trennen"
 description: "Musterlösung zu Spannung und Stromrichtung trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "grundgroessen"
-  - "spannung-und-stromrichtung-trennen-v113"
+topicPath: ["daten-und-signale", "grundgroessen", "spannung-und-stromrichtung-trennen-v113"]
 taskId: "v113-elektrotechnik-spannung-und-stromrichtung-trennen-v113"
 relatedExercise: "elektrotechnik/daten-und-signale/grundgroessen/spannung-und-stromrichtung-trennen-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "spannung-und-stromrichtung-trennen-v113"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Spannung und Stromrichtung trennen**.

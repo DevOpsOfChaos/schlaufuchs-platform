@@ -1,34 +1,19 @@
 ---
 title: "Komponenten im Frontend"
 description: "Allgemeiner Überblick über Komponenten als Bausteine moderner Benutzeroberflächen."
-subject: web-development
+subject: "web-development"
 section: "Frontend"
-topicPath:
-  - "komponenten-im-frontend"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Komponenten im Frontend als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["komponenten-im-frontend", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Komponenten nur nach Aussehen geschnitten. Sinnvoller ist die Frage nach Verantwortung."
-keyTakeaways:
-  - "Komponenten strukturieren Benutzeroberflächen und machen Änderungen kontrollierbarer."
-  - "Komponenten im Frontend sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Komponenten im Frontend."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Komponenten im Frontend erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "web development"
-  - "komponenten"
-  - "frontend"
-  - "ui"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Frontend"]
 draft: false
 ---
-
 # Komponenten im Frontend
 
 Eine Frontend-Komponente bündelt Struktur, Verhalten und Darstellung eines wiederverwendbaren UI-Bausteins.

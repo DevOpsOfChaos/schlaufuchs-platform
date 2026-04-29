@@ -3,22 +3,12 @@ title: "Lösung: sudo-Befehl begründen"
 description: "Musterlösung zur Aufgabe „sudo-Befehl begründen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "rechte-benutzer-und-sicherheit"
-  - "sudo-und-minimalrechte"
-  - "sudo-befehl-begruenden-v116"
+topicPath: ["rechte-benutzer-und-sicherheit", "sudo-und-minimalrechte", "sudo-befehl-begruenden-v116"]
 taskId: "sudo-befehl-begruenden-v116"
 relatedExercise: "linux/rechte-benutzer-und-sicherheit/sudo-und-minimalrechte/sudo-befehl-begruenden-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "sudo und minimalrechte"
-  - "sudo befehl begruenden"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

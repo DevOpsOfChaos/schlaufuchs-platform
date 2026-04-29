@@ -3,34 +3,15 @@ title: "Aufgabe – Cookie, Session Storage und Local Storage sicher abgrenzen"
 description: "Ordne Theme-Auswahl, Formular-Zwischenstand und Login-Sitzung einem passenden Speicheransatz zu."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "browser-speicher"
-  - "cookie-session-localstorage-sicher-abgrenzen"
-tags:
-  - "web development"
-  - "javascript"
-  - "browser-speicher"
-  - "cookies"
-  - "sicherheit"
-  - "aufgabe"
+topicPath: ["javascript", "browser-speicher", "cookie-session-localstorage-sicher-abgrenzen"]
 taskId: "web-v103-cookie-session-localstorage-sicher-abgrenzen"
-hintPoints:
-  - "Lies zuerst die vorhandene Struktur und den sichtbaren Zustand."
-  - "Trenne technische Entscheidung und Nutzer-Rückmeldung."
-  - "Achte darauf, dass die Formulierung auf Deutsch konkret bleibt."
-selfCheckPoints:
-  - "Ist die Lösung auch bei Fehlern oder fehlenden Daten verständlich?"
-  - "Sind Struktur, Gestaltung und Verhalten sauber getrennt?"
-  - "Gibt es eine sichtbare und passende Rückmeldung?"
-transferIdeas:
-  - "Übertrage die Aufgabe auf eine Formular-, Karten- oder Navigationsoberfläche."
-  - "Vergleiche eine schnelle, aber fragile Lösung mit einer robusteren Lösung."
-reflectionPrompt: "Welche kleine Entscheidung verbessert hier nicht nur den Code, sondern auch die Nutzererfahrung?"
+tags: ["web-development", "JavaScript", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Ordne Theme-Auswahl, Formular-Zwischenstand und Login-Sitzung einem passenden Speicheransatz zu.

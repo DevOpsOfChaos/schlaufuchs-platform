@@ -3,24 +3,12 @@ title: "Lösung: Validierung und Fehlermeldungen: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-v190-013a im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "formulare"
-  - "validierung-und-fehlermeldungen"
-  - "loesung-a"
+topicPath: ["sanierung-v190", "validierung-und-fehlermeldungen-aufgabe-a"]
 taskId: "web-v190-013a"
 relatedExercise: "web-development/sanierung-v190/validierung-und-fehlermeldungen-aufgabe-a"
-tags:
-  - "formulare"
-  - "validierung"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-013a`
 
 Ausgangsauftrag: Entwirf Fehlermeldungen für ein Kontaktformular.

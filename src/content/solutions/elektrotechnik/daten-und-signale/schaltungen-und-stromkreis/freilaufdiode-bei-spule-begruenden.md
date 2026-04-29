@@ -3,21 +3,12 @@ title: "Lösung – Freilaufdiode bei Spule begründen"
 description: "Musterlösung zu freilaufdiode bei spule begründen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "schaltungen-und-stromkreis"
-  - "freilaufdiode-bei-spule-begruenden"
+topicPath: ["daten-und-signale", "schaltungen-und-stromkreis", "freilaufdiode-bei-spule-begruenden"]
 taskId: "v112-elektrotechnik-freilaufdiode-bei-spule-begruenden"
 relatedExercise: "elektrotechnik/daten-und-signale/schaltungen-und-stromkreis/freilaufdiode-bei-spule-begruenden"
-tags:
-  - "elektrotechnik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-signale"
-  - "freilaufdiode-bei-spule-begruenden"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Schaltungen und Stromkreis**.

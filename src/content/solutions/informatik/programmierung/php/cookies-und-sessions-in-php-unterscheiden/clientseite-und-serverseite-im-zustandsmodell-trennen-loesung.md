@@ -1,21 +1,14 @@
 ---
-title: Loesung – Clientseite und Serverseite im Zustandsmodell trennen
-description: Musterloesung zur Aufgabe ueber Cookies und Sessions in PHP.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - cookies-und-sessions-in-php-unterscheiden
-taskId: INF-PHP-STATE-011
-relatedExercise: informatik/programmierung/php/cookies-und-sessions-in-php-unterscheiden/clientseite-und-serverseite-im-zustandsmodell-trennen
-tags:
-  - informatik
-  - php
-  - loesung
+title: "Loesung – Clientseite und Serverseite im Zustandsmodell trennen"
+description: "Musterloesung zur Aufgabe ueber Cookies und Sessions in PHP."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "cookies-und-sessions-in-php-unterscheiden", "clientseite-und-serverseite-im-zustandsmodell-trennen"]
+taskId: "INF-PHP-STATE-011"
+relatedExercise: "informatik/programmierung/php/cookies-und-sessions-in-php-unterscheiden/clientseite-und-serverseite-im-zustandsmodell-trennen"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterloesung
 
 ### Aufgabe 1

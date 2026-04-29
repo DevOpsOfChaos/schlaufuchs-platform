@@ -1,21 +1,14 @@
 ---
-title: Lösung – Überlagerung und Ebenenlogik begründen
-description: Musterlösung zur Aufgabe über z-index und sichtbare Ebenen.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - z-index-und-ebenen-verstehen
-taskId: WEB-CSS-POS-203
-relatedExercise: web-development/css/z-index-und-ebenen-verstehen/ueberlagerung-und-ebenenlogik-begruenden
-tags:
-  - css
-  - z-index
-  - loesung
+title: "Lösung – Überlagerung und Ebenenlogik begründen"
+description: "Musterlösung zur Aufgabe über z-index und sichtbare Ebenen."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "z-index-und-ebenen-verstehen", "ueberlagerung-und-ebenenlogik-begruenden"]
+taskId: "WEB-CSS-POS-203"
+relatedExercise: "web-development/css/z-index-und-ebenen-verstehen/ueberlagerung-und-ebenenlogik-begruenden"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

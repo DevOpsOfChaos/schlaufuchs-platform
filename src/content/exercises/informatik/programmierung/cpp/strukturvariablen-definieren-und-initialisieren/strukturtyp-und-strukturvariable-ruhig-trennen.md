@@ -1,31 +1,17 @@
 ---
-title: Strukturtyp und Strukturvariable ruhig trennen
-description: Unterscheide in C++-Beispielen Typbeschreibung, konkrete Variable und Initialisierung bei Strukturen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - strukturvariablen-definieren-und-initialisieren
-  - strukturtyp-und-strukturvariable-ruhig-trennen
-taskId: INF-PROG-CPP-STRUCTINIT-001
-level: einfach
+title: "Strukturtyp und Strukturvariable ruhig trennen"
+description: "Unterscheide in C++-Beispielen Typbeschreibung, konkrete Variable und Initialisierung bei Strukturen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "strukturvariablen-definieren-und-initialisieren", "strukturtyp-und-strukturvariable-ruhig-trennen"]
+taskId: "INF-PROG-CPP-STRUCTINIT-001"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - informatik
-  - programmierung
-  - cpp
-hintPoints:
-  - "Trenne erst die Rolle der einzelnen Teile, dann den Gesamtablauf."
-  - "Begründe nicht nur das Ergebnis, sondern auch die Zuordnung."
-selfCheckPoints:
-  - "Habe ich die entscheidenden Begriffe oder Code-Stellen sauber zugeordnet?"
-  - "Ist meine Begründung fachlich ruhig und eindeutig?"
-transferIdeas:
-  - "Übertrage die Logik auf ein ähnliches kleines C++-Beispiel."
-reflectionPrompt: "Welche Unterscheidung war in dieser Aufgabe die wichtigste?"
 ---
-
 ## Aufgabe 1: Typ oder Variable?
 
 Lies dieses Beispiel:

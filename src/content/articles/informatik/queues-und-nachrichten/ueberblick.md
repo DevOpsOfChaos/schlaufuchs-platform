@@ -1,36 +1,19 @@
 ---
 title: "Queues und Nachrichten"
 description: "Einordnung von Warteschlangen und Nachrichten als Mittel zur Entkopplung von Systemteilen."
-subject: informatik
+subject: "informatik"
 section: "Systeme"
-topicPath:
-  - "queues-und-nachrichten"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Queues und Nachrichten als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["queues-und-nachrichten", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Queues als einfache Liste verstanden."
-keyTakeaways:
-  - "Queues entkoppeln sendende und verarbeitende Systeme."
-  - "Nachrichten brauchen klare Struktur und Fehlerregeln."
-  - "Mehrfachzustellung und Wiederholung müssen eingeplant werden."
-recognizeSignals:
-  - "Es geht um Queues und Nachrichten als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Queues und Nachrichten in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "queues"
-  - "nachrichten"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Systeme"]
 draft: false
 ---
-
 # Queues und Nachrichten
 
 Eine Queue speichert Aufgaben oder Nachrichten in einer Reihenfolge, bis sie verarbeitet werden. Dadurch muss ein sendendes System nicht warten, bis die Arbeit sofort erledigt ist. Empfänger können Nachrichten später, verteilt oder wiederholt bearbeiten.

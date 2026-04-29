@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – Arraygröße aus Werteliste herleiten
-description: Musterlösung zur Aufgabe INF-PROG-CPP-INITARRAY-001.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - arrays
-  - arrays-initialisieren-und-kurzschreibweise-verstehen
-  - arraygroesse-aus-werteliste-herleiten-loesung
-taskId: INF-PROG-CPP-INITARRAY-001
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/arrays-initialisieren-und-kurzschreibweise-verstehen/arraygroesse-aus-werteliste-herleiten.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – Arraygröße aus Werteliste herleiten"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-INITARRAY-001."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "arrays-initialisieren-und-kurzschreibweise-verstehen", "arraygroesse-aus-werteliste-herleiten"]
+taskId: "INF-PROG-CPP-INITARRAY-001"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/arrays-initialisieren-und-kurzschreibweise-verstehen/arraygroesse-aus-werteliste-herleiten.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Größe herleiten
 
 In der Werteliste stehen vier Werte. Deshalb hat das Array vier Elemente.

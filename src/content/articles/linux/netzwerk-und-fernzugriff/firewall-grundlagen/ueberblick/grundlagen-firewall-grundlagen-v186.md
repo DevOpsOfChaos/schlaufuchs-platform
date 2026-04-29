@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Firewall-Grundlagen"
 description: "Verstehe Firewalls als Regelwerk für erlaubte und blockierte Verbindungen."
-subject: linux
+subject: "linux"
 section: "netzwerk-und-fernzugriff"
-topicPath:
-  - "netzwerk-und-fernzugriff"
-  - "firewall-grundlagen"
-learningGoals:
-  - "Du erklärst Firewall-Grundlagen in eigenen Worten."
-  - "Du ordnest typische Befehle, Begriffe oder Prüfschritte richtig ein."
-  - "Du erkennst typische Grenzen und Fehlerquellen im Linux-Alltag."
-practiceIdeas:
-  - "Beschreibe eine kleine Alltagssituation zu diesem Thema."
-  - "Markiere, welche Information zuerst geprüft werden muss."
-commonMistakes:
-  - "Ein einzelnes Kommando für das ganze Thema zu halten."
-  - "Ausgabe, Zustand und Ursache zu vermischen."
-  - "Ohne Kontext direkt an Sonderfälle zu springen."
-keyTakeaways:
-  - "Firewalls entscheiden anhand von Regeln über Netzwerkverkehr."
-  - "Richtung, Schnittstelle, Port und Zustand können relevant sein."
-  - "Firewall-Analyse braucht klare Erwartung: was soll erlaubt sein?"
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung statt nur eines Befehlsrezepts."
-  - "Mehrere ähnliche Befehle oder Dateien wirken unklar."
-selfCheckPoints:
-  - "Kann ich Zweck, Kontext und typischen Prüfschritt unterscheiden?"
-  - "Kann ich eine einfache Fehlannahme zum Thema benennen?"
-level: mittel
-tags:
-  - "linux"
-  - "firewall"
-  - "sicherheit"
+topicPath: ["netzwerk-und-fernzugriff", "firewall-grundlagen", "ueberblick", "grundlagen-firewall-grundlagen-v186"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["linux", "netzwerk-und-fernzugriff"]
 draft: false
 ---
-
 ![Firewall-Grundlagen](/schlaufuchs-platform/images/overviews/v186/firewall-grundlagen.svg)
 
 ## Begriff

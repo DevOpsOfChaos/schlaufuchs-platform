@@ -1,33 +1,19 @@
 ---
 title: "Client- und Server-Rendering"
 description: "Client- und Server-Rendering beschreiben, wo HTML erzeugt wird. Die Entscheidung beeinflusst Ladezeit, Interaktivität, SEO und Komplexität."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "client-und-server-rendering"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Client- und Server-Rendering."
-  - "Du kannst Client- und Server-Rendering in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["client-und-server-rendering", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Server Rendering automatisch als schneller oder Client Rendering automatisch als moderner zu bewerten."
-keyTakeaways:
-  - "Client- und Server-Rendering beschreiben, wo HTML erzeugt wird."
-  - "Wichtig sind vor allem html vom server, hydration im browser und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Client- und Server-Rendering, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Client- und Server-Rendering dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "web development"
-  - "grundlagen"
-  - "client  server rendering"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # Client- und Server-Rendering
 
 ![Schaubild zu Client- und Server-Rendering.](/schlaufuchs-platform/images/overviews/v149/client-und-server-rendering.svg)

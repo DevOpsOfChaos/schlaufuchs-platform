@@ -1,29 +1,17 @@
 ---
 title: "Prozesse und Signale – anwenden und prüfen"
 description: "Übe, Prozesse und Signale an kleinen Praxissituationen zu prüfen."
-subject: linux
+subject: "linux"
 section: "system-und-dienste"
-topicPath:
-  - "system-und-dienste"
-  - "prozesse-und-signale"
-taskId: LINUX-PROZESSE-UND-SIGNALE-V186-2
-tags:
-  - "linux"
-  - "prozesse"
-  - "signale"
-  - "aufgabe"
-hintPoints:
-  - "Beginne mit Begriff und Kontext."
-  - "Trenne Beobachtung, Prüfung und mögliche Änderung."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe erklären."
-  - "Ich kann einen typischen Fehler vermeiden."
-transferIdeas:
-  - "Formuliere eine ähnliche Prüfsituation aus deinem eigenen Linux-Alltag."
-level: mittel
+topicPath: ["system-und-dienste", "prozesse-und-signale", "prozesse-und-signale-anwenden-und-pruefen-v186"]
+taskId: "LINUX-PROZESSE-UND-SIGNALE-V186-2"
+tags: ["linux", "system-und-dienste", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Lernziel
 
 Du sollst **Prozesse und Signale** nicht nur als Befehl oder Schlagwort sehen, sondern als geordnetes Linux-Thema mit Zweck, Kontext und typischen Prüfschritten.

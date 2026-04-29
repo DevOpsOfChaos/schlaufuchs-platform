@@ -1,32 +1,17 @@
 ---
-title: Badge und Overlay über Bezugspunkt erklären
-description: Erkläre, warum absolute Positionierung einen passenden Bezugspunkt braucht und wie relative dabei hilft.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - position-relative-und-absolute-verstehen
-  - badge-und-overlay-ueber-bezugspunkt-erklaeren
-taskId: WEB-CSS-POS-201
-level: mittel
+title: "Badge und Overlay über Bezugspunkt erklären"
+description: "Erkläre, warum absolute Positionierung einen passenden Bezugspunkt braucht und wie relative dabei hilft."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "position-relative-und-absolute-verstehen", "badge-und-overlay-ueber-bezugspunkt-erklaeren"]
+taskId: "WEB-CSS-POS-201"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - css
-  - position
-  - overlay
-hintPoints:
-  - Frage zuerst, an welchem Element das Badge sichtbar haften soll.
-  - Unterscheide Bezugspunkt und schwebendes Element.
-  - Benenne nicht nur top und right, sondern auch den Anker.
-selfCheckPoints:
-  - Kannst du den Anker einer absoluten Positionierung benennen?
-  - Kannst du relative als Bezugspunkt erklären?
-transferIdeas:
-  - Übertrage die Idee auf Status-Badges, Bild-Overlays oder kleine Eckelemente.
-reflectionPrompt: "Warum hilft die Frage nach dem Bezugspunkt oft mehr als bloßes Verschieben mit top und right?"
 ---
-
 Gegeben sind diese beiden Varianten:
 
 ```css

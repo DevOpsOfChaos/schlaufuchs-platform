@@ -1,34 +1,19 @@
 ---
 title: "Parameter in Funktionen"
 description: "Allgemeiner Überblick über Parameter und ihre Wirkung auf Funktionen."
-subject: mathematik
+subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "parameter-in-funktionen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Parameter in Funktionen als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["parameter-in-funktionen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Parameter wie zusätzliche Unbekannte behandelt, obwohl ihre Rolle vom Kontext abhängt."
-keyTakeaways:
-  - "Parameter machen Funktionsfamilien sichtbar."
-  - "Parameter in Funktionen sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Parameter in Funktionen."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Parameter in Funktionen erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "mathematik"
-  - "funktionen"
-  - "parameter"
-  - "graphen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
-
 # Parameter in Funktionen
 
 Parameter sind veränderbare feste Werte in einer Funktionsfamilie.

@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Konfiguration und Umgebung"
 description: "Allgemeiner Überblick über konfiguration und umgebung in der Informatik."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "konfiguration-und-umgebung"
-  - "ueberblick"
-learningGoals:
-  - "Du erklärst, wie Programme zwischen Code, Einstellungen und Umgebung unterscheiden."
-  - "Du ordnest typische Beispiele und Grenzen des Themas ein."
-  - "Du unterscheidest Grundidee, Anwendung und häufige Fehler."
-practiceIdeas:
-  - "Formuliere die Grundidee in drei Sätzen ohne Spezialfall."
-  - "Ordne ein eigenes Beispiel dem passenden Teilaspekt zu."
-commonMistakes:
-  - "Konfiguration fest in Code schreiben"
-  - "fehlende Defaults übersehen"
-  - "lokale Annahmen auf Produktion übertragen"
-keyTakeaways:
-  - "Konfiguration und Umgebung braucht zuerst eine klare begriffliche Einordnung."
-  - "Beispiele helfen nur, wenn ihr Kontext bekannt ist."
-  - "Gute Informatikarbeit trennt Modell, Umsetzung und Prüfung."
-recognizeSignals:
-  - "Ein Thema wirkt wie ein Einzelfall, braucht aber zuerst einen allgemeinen Rahmen."
-  - "Mehrere Beispiele zeigen dieselbe Grundidee aus verschiedenen Blickwinkeln."
-selfCheckPoints:
-  - "Kann ich Grundidee und Beispiel unterscheiden?"
-  - "Kann ich typische Fehler nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "programmierpraxis-und-tests"
-  - "konfiguration-und-umgebung"
+topicPath: ["programmierpraxis-und-tests", "konfiguration-und-umgebung", "ueberblick", "grundlagen-konfiguration-und-umgebung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierpraxis und Tests"]
 draft: false
 ---
-
 ![Schaubild: Konfiguration und Umgebung](/schlaufuchs-platform/images/overviews/v185/konfiguration-und-umgebung.svg)
 
 ## Begriff

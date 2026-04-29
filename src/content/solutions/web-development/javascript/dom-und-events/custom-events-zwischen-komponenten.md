@@ -3,22 +3,12 @@ title: "Lösung – JavaScript: Custom Events zwischen Komponenten"
 description: "Musterlösung zur Aufgabe: Verstehe, wie eigene Events helfen, Komponenten lose zu koppeln, statt direkte Funktionsaufrufe durch die Oberfläche zu ziehen."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "dom-und-events"
-  - "custom-events-zwischen-komponenten"
+topicPath: ["javascript", "dom-und-events", "custom-events-zwischen-komponenten"]
 taskId: "web-v102-custom-events-zwischen-komponenten"
 relatedExercise: "web-development/javascript/dom-und-events/custom-events-zwischen-komponenten"
-tags:
-  - "web development"
-  - "javascript"
-  - "events"
-  - "custom events"
-  - "komponenten"
-  - "lösung"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Ein guter Eventname ist konkret, etwa favorite:add. In detail reichen meist id und Quelle. Die Komponente meldet das Ereignis, während Speicher oder Statusanzeige getrennt darauf reagieren.

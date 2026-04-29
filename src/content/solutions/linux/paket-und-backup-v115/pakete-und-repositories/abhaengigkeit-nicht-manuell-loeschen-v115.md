@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Abhängigkeit nicht manuell löschen"
 description: "Musterlösung zu Abhängigkeit nicht manuell löschen mit Trennkante und Gegenprobe."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "paket-und-backup-v115"
-  - "pakete-und-repositories"
-  - "abhaengigkeit-nicht-manuell-loeschen-v115"
+topicPath: ["paket-und-backup-v115", "pakete-und-repositories", "abhaengigkeit-nicht-manuell-loeschen-v115"]
 taskId: "linux-abhaengigkeit-nicht-manuell-loeschen-v115"
 relatedExercise: "linux/paket-und-backup-v115/pakete-und-repositories/abhaengigkeit-nicht-manuell-loeschen-v115"
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "pakete und backups"
-  - "pakete und repositories"
-  - "lösung"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Abhängigkeit nicht manuell löschen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

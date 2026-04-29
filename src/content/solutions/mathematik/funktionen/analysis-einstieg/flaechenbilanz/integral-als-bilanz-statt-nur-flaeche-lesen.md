@@ -3,23 +3,12 @@ title: "Lösung – Integral als Bilanz statt nur Fläche lesen"
 description: "Musterlösung zu Integral als Bilanz mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "funktionen"
-  - "analysis-einstieg"
-  - "flaechenbilanz"
-  - "integral-als-bilanz-statt-nur-flaeche-lesen"
+topicPath: ["funktionen", "analysis-einstieg", "flaechenbilanz", "integral-als-bilanz-statt-nur-flaeche-lesen"]
 taskId: "v109-mathematik-integral-als-bilanz-statt-nur-flaeche-lesen"
 relatedExercise: "mathematik/funktionen/analysis-einstieg/flaechenbilanz/integral-als-bilanz-statt-nur-flaeche-lesen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfen"
-  - "funktionen"
-  - "analysis-einstieg"
-  - "integral als bilanz"
+tags: ["mathematik", "Funktionen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Integral als Bilanz**.

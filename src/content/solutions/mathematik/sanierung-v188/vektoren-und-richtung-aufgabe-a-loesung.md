@@ -3,22 +3,12 @@ title: "Lösung: Vektoren und Richtung: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-053a."
 subject: "mathematik"
 section: "geometrie"
-topicPath:
-  - "geometrie"
-  - "vektoren-und-richtung"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "vektoren-und-richtung-aufgabe-a"]
 taskId: "mat-v188-053a"
 relatedExercise: "mathematik/sanierung-v188/vektoren-und-richtung-aufgabe-a"
-tags:
-  - "vektoren"
-  - "richtung"
-  - "geometrie"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "geometrie", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-053a`
 
 Eine mögliche Lösung:

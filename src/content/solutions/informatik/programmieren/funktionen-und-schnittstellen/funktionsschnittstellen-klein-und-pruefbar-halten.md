@@ -3,23 +3,12 @@ title: "Lösung – Funktionsschnittstellen klein und prüfbar halten"
 description: "Musterlösung zur Aufgabe über Funktionsdesign mit Begründung und Gegenprobe."
 subject: "informatik"
 section: "Programmierung"
-topicPath:
-  - "programmieren"
-  - "funktionen-und-schnittstellen"
-  - "funktionsschnittstellen-klein-und-pruefbar-halten"
+topicPath: ["programmieren", "funktionen-und-schnittstellen", "funktionsschnittstellen-klein-und-pruefbar-halten"]
 taskId: "v106-informatik-funktionsschnittstellen-klein-und-pruefbar-halten"
 relatedExercise: "informatik/programmieren/funktionen-und-schnittstellen/funktionsschnittstellen-klein-und-pruefbar-halten"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "daten"
-  - "algorithmen"
-  - "funktionsdesign"
-  - "programmieren"
-  - "funktionen-und-schnittstellen"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Beobachtung

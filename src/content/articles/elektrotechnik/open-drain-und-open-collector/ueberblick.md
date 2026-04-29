@@ -1,37 +1,19 @@
 ---
 title: "Open-Drain und Open-Collector"
 description: "Überblick über Open-Drain- und Open-Collector-Ausgänge, Pull-ups und gemeinsame Signalleitungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "open-drain-und-open-collector"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Open-Drain und Open-Collector als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["open-drain-und-open-collector", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ohne Pull-up wird häufig ein definierter High-Zustand erwartet, obwohl keiner entsteht."
-keyTakeaways:
-  - "Open-Drain-Ausgänge ziehen meist aktiv nach Low."
-  - "High entsteht über Pull-ups."
-  - "Das Prinzip erlaubt gemeinsame Signalleitungen."
-recognizeSignals:
-  - "Mehrere Bausteine teilen sich eine Leitung."
-  - "Ein Signal braucht Pull-ups oder steigt langsam an."
-selfCheckPoints:
-  - "Kann ich Open-Drain und Open-Collector in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "open drain"
-  - "open collector"
-  - "pull-up"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
-
 # Open-Drain und Open-Collector
 
 Open-Drain und Open-Collector bezeichnen Ausgangsstufen, die eine Leitung meist nur aktiv nach Masse ziehen. Der High-Zustand entsteht über einen Pull-up-Widerstand.

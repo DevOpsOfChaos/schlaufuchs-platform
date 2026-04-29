@@ -1,44 +1,19 @@
 ---
-title: Tabellen barrierearm aufbauen
-description: Verstehe, warum Tabellen für strukturierte Daten gedacht sind und wie klare Überschriften und saubere Zuordnungen das Lesen erleichtern.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - tabellen-barrierearm-aufbauen
-learningGoals:
-  - Du erkennst, wann eine HTML-Tabelle sinnvoll ist.
-  - Du erklärst, warum Zeilen- und Spaltenüberschriften wichtig sind.
-  - Du unterscheidest tabellarische Daten von reinem Seitenlayout.
-practiceIdeas:
-  - Prüfe bei einer Übersicht, ob Daten in Zeilen und Spalten zusammengehören.
-  - Vergleiche eine Tabelle mit klaren Überschriften und eine unruhige Rasterdarstellung ohne Zuordnung.
-  - Erkläre, was beim Lesen einer Datenzelle mitgedacht werden muss.
-commonMistakes:
-  - Tabellen für allgemeines Seitenlayout zu verwenden.
-  - Überschriftenzellen zu vergessen.
-  - nur das Aussehen zu betrachten statt die Datenbeziehung mitzudenken.
-keyTakeaways:
-  - Tabellen sind für zusammengehörige Daten in Zeilen und Spalten gedacht.
-  - Gute Überschriften machen Zuordnung und Orientierung leichter.
-  - Barrierearme Struktur ist nicht Zusatzdeko, sondern Teil guter Verständlichkeit.
-recognizeSignals:
-  - Es geht um Datensammlungen, Spalten, Zeilen oder strukturierte Übersicht.
-  - Du sollst entscheiden, ob Tabellen sinnvoll sind und wie sie aufgebaut werden sollten.
-  - In Beispielen musst du Nutzbarkeit und Struktur erklären, nicht nur HTML-Tags aufzählen.
-selfCheckPoints:
-  - Kann ich erklären, wann eine Tabelle passend ist?
-  - Kann ich beschreiben, warum Überschriften für Orientierung wichtig sind?
-  - Kann ich Layout und Datenstruktur unterscheiden?
-tags:
-  - html
-  - tabellen
-  - barrierefreiheit
-  - struktur
-level: einfach
+title: "Tabellen barrierearm aufbauen"
+description: "Verstehe, warum Tabellen für strukturierte Daten gedacht sind und wie klare Überschriften und saubere Zuordnungen das Lesen erleichtern."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "tabellen-barrierearm-aufbauen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 HTML-Tabellen sind sinnvoll, wenn Daten in **Zeilen und Spalten** zusammengehören. Sie sind nicht dafür gedacht, Seitenlayout zusammenzubiegen. Gute Tabellen helfen beim Verstehen, weil klar bleibt, **welcher Wert zu welcher Überschrift gehört**.

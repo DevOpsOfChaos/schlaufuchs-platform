@@ -1,47 +1,19 @@
 ---
-title: Punktoperator bei Strukturen verstehen
-description: Verstehe, wie mit dem Punktoperator auf einzelne Komponenten einer Struktur zugegriffen wird.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - strukturen
-  - punktoperator-bei-strukturen-verstehen
-learningGoals:
-  - Du erklärst, warum der Punktoperator eine konkrete Komponente auswählt.
-  - Du liest Zugriffe wie <code>P1.x</code> nicht als zwei lose Teile, sondern als Einheit aus Objekt und Komponente.
-  - Du unterscheidest Strukturvariable und Komponente sauber.
-practiceIdeas:
-  - Lies Beispiele mit <code>P1.x</code>, <code>P1.y</code> und <code>P1.name</code> in Worten.
-  - Vergleiche verschiedene Komponenten derselben Strukturvariable.
-  - Erkläre, worauf der Punktoperator jeweils zugreift.
-commonMistakes:
-  - Den Punktoperator nur als Trennzeichen statt als gezielten Zugriff zu lesen.
-  - Strukturvariable und Komponente zu verwechseln.
-  - Zu übersehen, dass unterschiedliche Komponenten unterschiedliche Datentypen haben können.
-keyTakeaways:
-  - Der Punktoperator greift auf eine bestimmte Komponente zu.
-  - Vor dem Punkt steht die Strukturvariable.
-  - Hinter dem Punkt steht der Name der gewünschten Komponente.
-recognizeSignals:
-  - Es geht um Schreibweisen wie <code>P1.x</code> oder <code>punkt.name</code>.
-  - Du sollst erklären, welcher Teil Objekt und welcher Teil Komponente ist.
-  - In Beispielen werden Werte mit dem Punktoperator zugewiesen oder gelesen.
-selfCheckPoints:
-  - Kann ich den Punktoperator in Worten erklären?
-  - Kann ich Strukturvariable und Komponente unterscheiden?
-  - Kann ich sagen, was bei einem Zugriff genau ausgewählt wird?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - struct
-  - punktoperator
+title: "Punktoperator bei Strukturen verstehen"
+description: "Verstehe, wie mit dem Punktoperator auf einzelne Komponenten einer Struktur zugegriffen wird."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "punktoperator-bei-strukturen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Eine Struktur bündelt mehrere Werte. Der Punktoperator sorgt dann dafür, dass du innerhalb dieser Einheit **genau die Komponente auswählst, die du gerade brauchst**.

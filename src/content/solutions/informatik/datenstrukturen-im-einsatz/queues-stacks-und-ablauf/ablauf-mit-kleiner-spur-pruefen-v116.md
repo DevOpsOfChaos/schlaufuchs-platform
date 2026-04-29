@@ -3,22 +3,12 @@ title: "Lösung: Ablauf mit kleiner Spur prüfen"
 description: "Musterlösung zur Aufgabe „Ablauf mit kleiner Spur prüfen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "datenstrukturen-im-einsatz"
-  - "queues-stacks-und-ablauf"
-  - "ablauf-mit-kleiner-spur-pruefen-v116"
+topicPath: ["datenstrukturen-im-einsatz", "queues-stacks-und-ablauf", "ablauf-mit-kleiner-spur-pruefen-v116"]
 taskId: "ablauf-mit-kleiner-spur-pruefen-v116"
 relatedExercise: "informatik/datenstrukturen-im-einsatz/queues-stacks-und-ablauf/ablauf-mit-kleiner-spur-pruefen-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "queues stacks und ablauf"
-  - "ablauf mit kleiner spur pruefen"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

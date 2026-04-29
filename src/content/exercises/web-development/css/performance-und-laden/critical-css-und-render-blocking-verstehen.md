@@ -3,34 +3,15 @@ title: "Aufgabe – CSS – Critical CSS und render-blockierendes Laden verstehe
 description: "Analysiere eine kleine Landingpage und markiere, welche Styles für den sofort sichtbaren Bereich kritisch sind und welche später geladen werden können."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "performance-und-laden"
-  - "critical-css-und-render-blocking-verstehen"
+topicPath: ["css", "performance-und-laden", "critical-css-und-render-blocking-verstehen"]
 taskId: "web-v100-critical-css-und-render-blocking-verstehen"
-tags:
-  - "web development"
-  - "css"
-  - "performance"
-  - "critical css"
-  - "rendering"
-  - "aufgabe"
-hintPoints:
-  - "Lies zuerst die sichtbare Seitensituation, nicht nur einzelne Codezeilen."
-  - "Trenne Ursache, Entscheidung und erwartete Wirkung."
-  - "Denke mindestens einen Fehler-, Lade- oder Randfall mit."
-selfCheckPoints:
-  - "Ist die Entscheidung fachlich begründet?"
-  - "Ist klar, welche Nutzererfahrung verbessert wird?"
-  - "Wird der passende Browser- oder Projektbereich geprüft?"
-transferIdeas:
-  - "Übertrage die Idee auf eine kleine Lernkarte, ein Formular oder eine Navigation."
-  - "Beschreibe eine schwache Variante, die technisch funktioniert, aber didaktisch oder praktisch riskant bleibt."
-reflectionPrompt: "Welche Prüfung hätte den häufigsten Fehler bei dieser Aufgabe am frühesten sichtbar gemacht?"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Analysiere eine kleine Landingpage und markiere, welche Styles für den sofort sichtbaren Bereich kritisch sind und welche später geladen werden können.

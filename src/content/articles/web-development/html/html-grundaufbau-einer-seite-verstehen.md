@@ -1,44 +1,19 @@
 ---
-title: HTML-Grundaufbau einer Seite verstehen
-description: Verstehe, welche Grundteile ein HTML-Dokument hat und warum head und body unterschiedliche Aufgaben erfüllen.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - html-grundaufbau-einer-seite-verstehen
-learningGoals:
-  - Du beschreibst den Grundaufbau eines HTML-Dokuments.
-  - Du unterscheidest head und body sauber.
-  - Du ordnest Doctype, html, meta und title grob ihrer Rolle zu.
-practiceIdeas:
-  - Lies eine kleine HTML-Datei von oben nach unten und erkläre die Aufgabe jeder Zeile.
-  - Vergleiche sichtbaren Seiteninhalt mit Metadaten im head.
-  - Prüfe, welche Angaben im Browserfenster sichtbar werden und welche nur für Verarbeitung wichtig sind.
-commonMistakes:
-  - Zu denken, der head sei ein sichtbarer Seitenbereich.
-  - Den title mit einer sichtbaren Überschrift zu verwechseln.
-  - Den Grundaufbau als bloße Pflichtsyntax statt als Strukturhilfe zu sehen.
-keyTakeaways:
-  - Ein HTML-Dokument hat einen klaren Grundrahmen.
-  - Der head enthält Metainformationen, der body den sichtbaren Inhalt.
-  - title und h1 sind nicht dasselbe.
-recognizeSignals:
-  - Es geht um <!DOCTYPE html>, html, head, meta, title oder body.
-  - Du sollst eine HTML-Datei in ihrer Reihenfolge verstehen.
-  - In Aufgaben geht es um sichtbare und nicht sichtbare Teile eines Dokuments.
-selfCheckPoints:
-  - Kann ich head und body klar trennen?
-  - Kann ich title und sichtbare Überschrift unterscheiden?
-  - Kann ich erklären, warum ein Grundaufbau mehr ist als nur Formalität?
-tags:
-  - html
-  - grundaufbau
-  - dokument
-  - web-development
-level: einfach
+title: "HTML-Grundaufbau einer Seite verstehen"
+description: "Verstehe, welche Grundteile ein HTML-Dokument hat und warum head und body unterschiedliche Aufgaben erfüllen."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "html-grundaufbau-einer-seite-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Eine HTML-Seite ist nicht einfach nur „irgendwo Text mit Tags“. Sie hat einen **Grundrahmen**, der dem Browser sagt, wie das Dokument aufgebaut ist und welche Teile sichtbar sind.

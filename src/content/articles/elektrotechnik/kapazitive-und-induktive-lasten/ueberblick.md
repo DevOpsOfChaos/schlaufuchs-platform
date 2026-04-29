@@ -1,36 +1,19 @@
 ---
 title: "Kapazitive und induktive Lasten"
 description: "Kapazitive und induktive Lasten belasten eine Schaltung nicht nur durch ihren stationären Strom, sondern vor allem durch ihr Verhalten beim Ein- und Ausschalten."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schaltungen"
-topicPath:
-  - "kapazitive-und-induktive-lasten"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Kapazitive und induktive Lasten als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["kapazitive-und-induktive-lasten", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird nur der Nennstrom betrachtet. Entscheidend ist oft, was im Schaltmoment passiert."
-keyTakeaways:
-  - "Kapazitive und induktive Lasten belasten eine Schaltung nicht nur durch ihren stationären Strom, sondern vor allem durch ihr Verhalten beim Ein- und Ausschalten."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Kapazitive und induktive Lasten, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Kapazitive und induktive Lasten in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "last"
-  - "schalten"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Schaltungen"]
 draft: false
 ---
-
 # Kapazitive und induktive Lasten
 
 Kapazitive und induktive Lasten belasten eine Schaltung nicht nur durch ihren stationären Strom,

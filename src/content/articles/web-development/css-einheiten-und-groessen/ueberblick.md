@@ -1,31 +1,17 @@
 ---
 title: "CSS-Einheiten und Größen"
 description: "Allgemeiner Überblick über absolute und relative CSS-Einheiten, Skalierung und responsive Gestaltung."
-subject: web-development
+subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css-einheiten-und-groessen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst CSS-Einheiten und Größen grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["css-einheiten-und-groessen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "CSS-Einheiten und Größen nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "CSS-Einheiten und Größen beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um CSS-Einheiten und Größen, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich CSS-Einheiten und Größen in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "web-development"
-  - "css"
-  - "einheiten"
-  - "responsive"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
 # CSS-Einheiten und Größen

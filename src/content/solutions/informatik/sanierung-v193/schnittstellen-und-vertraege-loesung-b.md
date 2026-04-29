@@ -3,23 +3,12 @@ title: "Lösung: Schnittstellen und Verträge: Aufgabe B"
 description: "Musterlösung zur Aufgabe informatik-v193-005b im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "qualitaet-und-wartbarkeit"
-  - "schnittstellen-und-vertraege"
-  - "loesung-b"
+topicPath: ["sanierung-v193", "schnittstellen-und-vertraege-loesung-b"]
 taskId: "informatik-v193-005b"
 relatedExercise: "informatik/sanierung-v193/schnittstellen-und-vertraege-aufgabe-b"
-tags:
-  - "schnittstellen"
-  - "vertraege"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-005b`
 
 Ausgangsauftrag: Übertrage das Thema Schnittstellen und Verträge auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

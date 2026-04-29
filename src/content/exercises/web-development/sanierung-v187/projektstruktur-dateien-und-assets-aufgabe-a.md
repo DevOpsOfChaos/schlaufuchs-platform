@@ -3,35 +3,15 @@ title: "Projektstruktur, Dateien und Assets: Grundordnung"
 description: "Entwirf eine Ordnerstruktur für eine kleine Lernwebsite mit Bildern, CSS und drei Seiten."
 subject: "web-development"
 section: "werkzeuge"
-topicPath: 
-  - "werkzeuge-und-projektarbeit"
-  - "projektstruktur"
-  - "aufgabe-a"
+topicPath: ["sanierung-v187", "projektstruktur-dateien-und-assets-aufgabe-a"]
 taskId: "web-v187-019a"
-tags: 
-  - "projektstruktur"
-  - "dateien"
-  - "assets"
-  - "pfade"
-  - "web-development"
-  - "aufgabe"
-  - "v187"
-hintPoints: 
-  - "Trenne Zweck, Struktur und sichtbare Wirkung."
-  - "Begründe mindestens eine Entscheidung mit dem Nutzerziel."
-  - "Prüfe einen typischen Fehlerfall aus der Erklärseite."
-selfCheckPoints: 
-  - "Die Lösung passt zur Aufgabenstellung."
-  - "Mindestens eine Entscheidung ist begründet."
-  - "Es gibt keine neue Aufgabe ohne passende Lösung."
-transferIdeas: 
-  - "Übertrage die Entscheidung auf eine zweite kleine Seite."
-  - "Formuliere eine kurze Checkliste für spätere Wiederholung."
-reflectionPrompt: "Welche Entscheidung war am wichtigsten, damit die Lösung ruhig und wartbar bleibt?"
+tags: ["web-development", "werkzeuge", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Entwirf eine Ordnerstruktur für eine kleine Lernwebsite mit Bildern, CSS und drei Seiten.

@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Erfolgszustand sinnvoll melden"
 description: "Musterlösung zu Erfolgszustand sinnvoll melden mit Trennkante und Gegenprobe."
-subject: web-development
+subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "frontend-semantik-v115"
-  - "zustaende-und-feedback"
-  - "erfolgszustand-sinnvoll-melden-v115"
+topicPath: ["frontend-semantik-v115", "zustaende-und-feedback", "erfolgszustand-sinnvoll-melden-v115"]
 taskId: "web-development-erfolgszustand-sinnvoll-melden-v115"
 relatedExercise: "web-development/frontend-semantik-v115/zustaende-und-feedback/erfolgszustand-sinnvoll-melden-v115"
-tags:
-  - "web development"
-  - "feinstruktur"
-  - "unterthema"
-  - "frontend-semantik"
-  - "zustände und feedback"
-  - "lösung"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Erfolgszustand sinnvoll melden**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

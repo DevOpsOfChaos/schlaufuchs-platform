@@ -1,24 +1,14 @@
 ---
-title: Musterlösung – ADC-Quelle und Abtastknoten ruhig einordnen
-description: Musterlösung zur Aufgabe ET-ATMEGA-ADC-307.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - adc-und-messung
-  - atmega-adc-quellimpedanz-und-sample-and-hold-verstehen
-  - adc-quelle-und-abtastknoten-ruhig-einordnen-loesung
-taskId: ET-ATMEGA-ADC-307
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-adc-quellimpedanz-und-sample-and-hold-verstehen/adc-quelle-und-abtastknoten-ruhig-einordnen.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - adc
-  - loesung
+title: "Musterlösung – ADC-Quelle und Abtastknoten ruhig einordnen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-ADC-307."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-adc-quellimpedanz-und-sample-and-hold-verstehen", "adc-quelle-und-abtastknoten-ruhig-einordnen"]
+taskId: "ET-ATMEGA-ADC-307"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-adc-quellimpedanz-und-sample-and-hold-verstehen/adc-quelle-und-abtastknoten-ruhig-einordnen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Sample-and-Hold bedeutet vereinfacht, dass der ADC einen Eingangszustand zunächst übernimmt und dann während der Wandlung festhält. Der Eingangswert muss dafür den internen Abtastknoten sinnvoll aufladen können. Genau deshalb ist der ADC nicht nur eine abstrakte Zahlenmaschine, sondern auch zeitlich an den Eingang gekoppelt.

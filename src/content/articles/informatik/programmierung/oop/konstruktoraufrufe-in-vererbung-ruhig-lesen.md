@@ -1,46 +1,19 @@
 ---
-title: Konstruktoraufrufe in Vererbung ruhig lesen
-description: Verstehe, wie Basisklasse und abgeleitete Klasse beim Erzeugen eines Objekts nacheinander beteiligt sind.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - konstruktoraufrufe-in-vererbung-ruhig-lesen
-learningGoals:
-  - Du beschreibst die Aufrufreihenfolge von Konstruktoren in einer Vererbungshierarchie.
-  - Du erklaerst, dass Konstruktoren nicht geerbt, sondern aufgerufen werden.
-  - Du liest Basis- und Unterklassenkonstruktoren geordneter.
-practiceIdeas:
-  - Ordne Basisklassen- und Unterklassenkonstruktoren in die richtige Reihenfolge.
-  - Markiere, wo explizit weitergeleitet wird und wo die Standardsyntax greift.
-  - Beschreibe, wann von jeder Klasse ein Teilobjekt entsteht.
-commonMistakes:
-  - Zu denken, dass Konstruktoren einfach mitvererbt werden.
-  - Den Aufruf der Basisklasse erst nach der Unterklasse zu erwarten.
-  - Basisklasseninitialisierung mit Delegation innerhalb derselben Klasse zu verwechseln.
-keyTakeaways:
-  - Konstruktoren werden nicht vererbt.
-  - Beim Erzeugen eines Objekts wird die Basisklasse vor der abgeleiteten Klasse vorbereitet.
-  - Explizite Weiterleitung macht diese Reihenfolge nur sichtbar und fuehrt sie nicht neu ein.
-recognizeSignals:
-  - Es geht um Oberklasse, Unterklasse und Konstruktoraufrufe.
-  - Eine abgeleitete Klasse nennt im Konstruktor eine Basisklasse.
-  - Die Aufgabe fragt nach Reihenfolge oder Startzustand in der Vererbung.
-selfCheckPoints:
-  - Kann ich sagen, wer zuerst konstruiert wird?
-  - Kann ich erklaeren, warum Konstruktoren nicht vererbt werden?
-  - Kann ich Delegation und Basisklassenaufruf unterscheiden?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - vererbung
-  - konstruktor
+title: "Konstruktoraufrufe in Vererbung ruhig lesen"
+description: "Verstehe, wie Basisklasse und abgeleitete Klasse beim Erzeugen eines Objekts nacheinander beteiligt sind."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "konstruktoraufrufe-in-vererbung-ruhig-lesen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei Vererbung entsteht ein Objekt der Unterklasse nicht auf leerem Raum. Es enthaelt auch den Teil der Basisklasse. Darum muss dieser Basisklassenteil zuerst vorbereitet werden.

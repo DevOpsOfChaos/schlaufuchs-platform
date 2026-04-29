@@ -1,37 +1,19 @@
 ---
 title: "Userspace und Kernelspace"
 description: "Überblick über die Trennung zwischen Anwendungen und Kernel im Linux-System."
-subject: linux
+subject: "linux"
 section: "Systemgrundlagen"
-topicPath:
-  - "userspace-und-kernelspace"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Userspace und Kernelspace als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["userspace-und-kernelspace", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Treiber, Dienste und normale Programme als gleich privilegiert zu betrachten."
-keyTakeaways:
-  - "Userspace und Kernelspace trennen Anwendungen und Betriebssystemkern."
-  - "Systemcalls verbinden beide Welten kontrolliert."
-  - "Kernelcode hat besondere Macht und besondere Risiken."
-recognizeSignals:
-  - "Es geht um Systemcalls, Treiber, Rechte oder Kernelmodule."
-  - "Ein Prozess braucht Zugriff auf Geräte oder Ressourcen."
-selfCheckPoints:
-  - "Kann ich Userspace und Kernelspace in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "kernel"
-  - "userspace"
-  - "systemgrundlagen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Systemgrundlagen"]
 draft: false
 ---
-
 # Userspace und Kernelspace
 
 Userspace ist der Bereich, in dem normale Programme laufen. Kernelspace ist der privilegierte Bereich des Betriebssystemkerns.

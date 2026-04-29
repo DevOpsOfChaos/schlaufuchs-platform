@@ -3,44 +3,17 @@ title: "Web-Projektpraxis – Regressionen nach UI-Änderungen prüfen"
 description: "Prüfe nach Oberflächenänderungen nicht nur die neue Stelle, sondern auch bestehende Wege, die unbeabsichtigt kaputtgehen können."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "regressionen-nach-ui-aenderungen-pruefen"
-learningGoals:
-  - "Du erklärst die Kernidee von „Regressionen nach UI-Änderungen prüfen“."
-  - "Du trennst sichtbare Nutzerwirkung, technische Ursache und organisatorische Prüffrage."
-  - "Du leitest aus einem kleinen Web-Szenario eine robuste Projektregel ab."
-practiceIdeas:
-  - "Prüfe eine vorhandene Web-Seite mit genau diesem Blick und notiere drei konkrete Beobachtungen."
-  - "Formuliere aus einer technischen Regel eine kurze Review-Frage."
-  - "Verbinde eine technische Maßnahme mit einer sichtbaren Auswirkung für Nutzende."
-commonMistakes:
-  - "nur den neuen Screenshot betrachten"
-  - "globale CSS-Wirkung unterschätzen"
-  - "Fehlerzustände überspringen"
-keyTakeaways:
-  - "Alte Wege erneut gehen"
-  - "Projektpraxis wird besser, wenn Entscheidungen klein, prüfbar und dokumentiert bleiben."
-  - "Robuste Web-Arbeit denkt Idealfall, Fehlerfall und späteres Ändern gemeinsam."
-recognizeSignals:
-  - "Eine Seite funktioniert im Idealfall, aber der Veröffentlichungs- oder Fehlerfall ist unklar."
-  - "Du sollst nicht nur Code schreiben, sondern Betrieb, Wartung oder Review mitdenken."
-  - "Eine technische Entscheidung braucht eine einfache Gegenprobe."
-selfCheckPoints:
-  - "Kann ich das Risiko ohne Fachjargon erklären?"
-  - "Kann ich eine konkrete Prüffrage formulieren?"
-  - "Kann ich zeigen, was sich für Nutzende oder Wartende verbessert?"
-tags:
-  - "web development"
-  - "regression"
-  - "ui"
-  - "test"
-  - "review"
+topicPath: ["projektpraxis", "betrieb-und-release", "regressionen-nach-ui-aenderungen-pruefen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "Projektpraxis"]
 draft: false
 ---
-
 ## Grundidee
 
 Eine UI-Änderung kann an einer Stelle helfen und an anderer Stelle etwas brechen. Regressionen entstehen besonders bei gemeinsamen Komponenten, globalem CSS, Formularlogik oder Zuständen, die selten getestet werden.

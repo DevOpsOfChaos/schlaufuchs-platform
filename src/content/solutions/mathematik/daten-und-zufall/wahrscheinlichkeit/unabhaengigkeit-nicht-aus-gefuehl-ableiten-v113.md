@@ -3,20 +3,12 @@ title: "Lösung – Unabhängigkeit nicht aus Gefühl ableiten"
 description: "Musterlösung zu Unabhängigkeit nicht aus Gefühl ableiten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "daten-und-zufall"
-  - "wahrscheinlichkeit"
-  - "unabhaengigkeit-nicht-aus-gefuehl-ableiten-v113"
+topicPath: ["daten-und-zufall", "wahrscheinlichkeit", "unabhaengigkeit-nicht-aus-gefuehl-ableiten-v113"]
 taskId: "v113-mathematik-unabhaengigkeit-nicht-aus-gefuehl-ableiten-v113"
 relatedExercise: "mathematik/daten-und-zufall/wahrscheinlichkeit/unabhaengigkeit-nicht-aus-gefuehl-ableiten-v113"
-tags:
-  - "mathematik"
-  - "strukturcheck"
-  - "unterthema"
-  - "unabhaengigkeit-nicht-aus-gefuehl-ableiten-v113"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Unabhängigkeit nicht aus Gefühl ableiten**.

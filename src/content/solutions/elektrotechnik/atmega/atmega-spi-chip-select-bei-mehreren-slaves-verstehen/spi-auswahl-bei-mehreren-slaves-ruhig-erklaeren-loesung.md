@@ -1,24 +1,14 @@
 ---
-title: Musterlösung – SPI-Auswahl bei mehreren Slaves ruhig erklären
-description: Musterlösung zur Aufgabe ET-ATMEGA-SPI-305.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-schnittstellen-und-busse
-  - atmega-spi-chip-select-bei-mehreren-slaves-verstehen
-  - spi-auswahl-bei-mehreren-slaves-ruhig-erklaeren-loesung
-taskId: ET-ATMEGA-SPI-305
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-spi-chip-select-bei-mehreren-slaves-verstehen/spi-auswahl-bei-mehreren-slaves-ruhig-erklaeren.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - spi
-  - loesung
+title: "Musterlösung – SPI-Auswahl bei mehreren Slaves ruhig erklären"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-SPI-305."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-spi-chip-select-bei-mehreren-slaves-verstehen", "spi-auswahl-bei-mehreren-slaves-ruhig-erklaeren"]
+taskId: "ET-ATMEGA-SPI-305"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-spi-chip-select-bei-mehreren-slaves-verstehen/spi-auswahl-bei-mehreren-slaves-ruhig-erklaeren.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 MOSI, MISO und SCK können bei mehreren Slaves gemeinsam geführt werden. Die Auswahlleitungen für die einzelnen Slaves sollten dagegen getrennt sein, damit der Master gezielt genau eine Gegenstelle aktivieren kann.

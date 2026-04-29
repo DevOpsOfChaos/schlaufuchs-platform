@@ -3,23 +3,12 @@ title: "Lösung: Text, Typografie und Lesefluss: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-004a im Web-Development-Block v187."
 subject: "web-development"
 section: "html-css"
-topicPath: 
-  - "html-und-semantik"
-  - "text-und-lesefluss"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "text-typografie-und-lesefluss-aufgabe-a"]
 taskId: "web-v187-004a"
 relatedExercise: "web-development/sanierung-v187/text-typografie-und-lesefluss-aufgabe-a"
-tags: 
-  - "text"
-  - "typografie"
-  - "lesbarkeit"
-  - "css"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "html-css", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-004a`
 
     Ausgangsauftrag: Gliedere einen langen Fließtext in Überschriften, Absätze und Listen für eine Lernseite.

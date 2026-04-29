@@ -3,34 +3,15 @@ title: "Übung: Fehlerhypothese formulieren"
 description: "Übe, „Fehlerhypothese formulieren“ als kleines Unterthema zu erkennen, zu begründen und mit einer Gegenprobe abzusichern."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "debugging-und-fehlerhypothesen"
-  - "fehlerhypothese-formulieren-v116"
+topicPath: ["programmierpraxis-und-tests", "debugging-und-fehlerhypothesen", "fehlerhypothese-formulieren-v116"]
 taskId: "fehlerhypothese-formulieren-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "debugging und fehlerhypothesen"
-  - "fehlerhypothese formulieren"
-  - "v116"
-hintPoints:
-  - "Lies zuerst nur die konkrete Unterfrage."
-  - "Markiere eine typische Fehlannahme."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Lösung fachlich begründet?"
-  - "Ist die Abgrenzung zum Nachbarthema sichtbar?"
-  - "Passt die Gegenprobe zur Aufgabe?"
-transferIdeas:
-  - "Ändere eine Bedingung und prüfe, ob deine Begründung noch trägt."
-  - "Erkläre die Lösung einmal ohne Fachwörter und danach fachlich sauber."
-reflectionPrompt: "Welche kleine Entscheidung war bei „Fehlerhypothese formulieren“ am wichtigsten?"
+tags: ["informatik", "Informatik vertiefen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe 1: Unterfrage erkennen
 
 Lies die Situation:

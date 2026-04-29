@@ -3,24 +3,12 @@ title: "Lösung: Spannungsteiler verstehen: Aufgabe B"
 description: "Musterlösung zur Aufgabe etech-v191-005b im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "schaltungsanalyse"
-  - "spannungsteiler-verstehen"
-  - "loesung-b"
+topicPath: ["sanierung-v191", "spannungsteiler-verstehen-aufgabe-b"]
 taskId: "etech-v191-005b"
 relatedExercise: "elektrotechnik/sanierung-v191/spannungsteiler-verstehen-aufgabe-b"
-tags:
-  - "schaltungsanalyse"
-  - "spannungsteiler"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-005b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Spannungsteiler verstehen“ um einen Messfehler, einen Sicherheitscheck und eine kurze Plausibilitätsprüfung.

@@ -3,22 +3,12 @@ title: "Lösung – Regressionen nach UI-Änderungen prüfen"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Projektpraxis-Aufgabe."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "regressionen-nach-ui-aenderungen-pruefen"
-tags:
-  - "web development"
-  - "regression"
-  - "ui"
-  - "test"
-  - "review"
-  - "lösung"
+topicPath: ["projektpraxis", "betrieb-und-release", "regressionen-nach-ui-aenderungen-pruefen"]
 taskId: "web-v105-regressionen-nach-ui-aenderungen-pruefen"
 relatedExercise: "web-development/projektpraxis/betrieb-und-release/regressionen-nach-ui-aenderungen-pruefen"
+tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Eine gute Lösung beginnt mit der Nutzer- oder Wartungssituation. Das Problem wird nicht nur als technische Kleinigkeit behandelt, sondern als Risiko für Verständlichkeit, Betrieb oder spätere Änderung.

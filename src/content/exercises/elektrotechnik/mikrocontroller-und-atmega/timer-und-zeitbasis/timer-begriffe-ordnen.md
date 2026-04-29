@@ -1,29 +1,17 @@
 ---
 title: "Timerbegriffe ruhig ordnen"
 description: "Übe Zählbereich, Prescaler, Overflow und Compare Match fachlich einzuordnen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "timer-und-zeitbasis"
+topicPath: ["mikrocontroller-und-atmega", "timer-und-zeitbasis", "timer-begriffe-ordnen"]
 taskId: "ET-MCU-TIMER-179-001"
-tags:
-  - "elektrotechnik"
-  - "timer"
-  - "prescaler"
-  - "overflow"
-hintPoints:
-  - "Lies zuerst die Begriffe, dann die konkrete Situation."
-  - "Begründe jede Zuordnung mit einem fachlichen Merkmal."
-selfCheckPoints:
-  - "Kann ich meine Entscheidung mit einem Begriff aus der Überblicksseite erklären?"
-  - "Habe ich Einheit, Richtung, Bezugspunkt oder Zeitbezug geprüft, falls relevant?"
-transferIdeas:
-  - "Formuliere ein eigenes Beispiel aus einer einfachen Schaltung oder Messsituation."
-level: einfach
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe gehört zu einem Überblicksthema. Sie soll nicht nur Rechnen trainieren, sondern die fachliche Einordnung sichern.
 
 ## Aufgabe 1 – Begriffe zuordnen

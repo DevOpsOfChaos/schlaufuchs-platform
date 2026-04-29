@@ -3,23 +3,12 @@ title: "Lösung – Source Maps nach Debug und Risiko bewerten"
 description: "Musterlösung zu Source Maps nach Debug und Risiko bewerten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Betrieb und Sicherheit"
-topicPath:
-  - "frontend-betrieb"
-  - "build-performance-security"
-  - "v110-teil-4"
-  - "source-maps-nach-debug-und-risiko-bewerten"
+topicPath: ["frontend-betrieb", "build-performance-security", "v110-teil-4", "source-maps-nach-debug-und-risiko-bewerten"]
 taskId: "v110-web-development-source-maps-nach-debug-und-risiko-bewerten"
 relatedExercise: "web-development/frontend-betrieb/build-performance-security/v110-teil-4/source-maps-nach-debug-und-risiko-bewerten"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "frontend-betrieb"
-  - "build-performance-security"
-  - "source-maps-nach-debug-und-risiko-bewerten"
+tags: ["web-development", "Betrieb und Sicherheit", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Source Maps nach Debug und Risiko bewerten**.

@@ -1,47 +1,19 @@
 ---
-title: Index und Element im Array unterscheiden
-description: Verstehe, warum der Index nur die Position angibt und nicht mit dem gespeicherten Wert verwechselt werden darf.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - arrays
-  - index-und-element-im-array-unterscheiden
-learningGoals:
-  - Du unterscheidest Array, Index und Element noch sicherer.
-  - Du erklärst, warum derselbe Index je nach Array einen ganz anderen Wert liefern kann.
-  - Du vermeidest die typische Verwechslung von Platznummer und Inhalt.
-practiceIdeas:
-  - Lies kleine Arrays bewusst erst über Platznummern und danach über Inhalte.
-  - Vergleiche zwei Arrays mit demselben Index, aber unterschiedlichen Werten.
-  - Erkläre bei Beispielen, warum <code>A[2]</code> nicht "der Wert 2" bedeutet.
-commonMistakes:
-  - Den Index als gespeicherten Inhalt zu lesen.
-  - Zu glauben, dass <code>[3]</code> immer den Wert 3 meint.
-  - Position und Wert gleichzeitig zu vermischen.
-keyTakeaways:
-  - Der Index ist die Positionsnummer.
-  - Das Element ist der konkrete gespeicherte Wert.
-  - Derselbe Index kann in verschiedenen Arrays auf völlig verschiedene Inhalte zeigen.
-recognizeSignals:
-  - Es geht um Arrayzugriffe wie <code>A[2]</code> oder um die Struktur von Feldern.
-  - Du sollst Platznummer und Inhalt sauber unterscheiden.
-  - In Beispielen musst du eine typische Verwechslung fachlich auflösen.
-selfCheckPoints:
-  - Kann ich Index und Element trennen?
-  - Kann ich erklären, warum <code>A[2]</code> nicht automatisch 2 bedeutet?
-  - Kann ich denselben Index in zwei Arrays unterschiedlich deuten?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - arrays
-  - index
+title: "Index und Element im Array unterscheiden"
+description: "Verstehe, warum der Index nur die Position angibt und nicht mit dem gespeicherten Wert verwechselt werden darf."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "index-und-element-im-array-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei Arrays taucht sehr oft derselbe Denkfehler auf: Die Zahl in den Klammern wird für den gespeicherten Wert gehalten. Tatsächlich beschreibt sie aber nur die Position.

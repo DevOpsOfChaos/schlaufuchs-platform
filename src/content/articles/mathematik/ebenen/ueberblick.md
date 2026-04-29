@@ -1,33 +1,19 @@
 ---
 title: "Ebenen"
 description: "Ebenen beschreiben flache zweidimensionale Mengen im Raum. Sie können durch Punkte, Richtungsvektoren, Normalenvektor oder Koordinatengleichung dargestellt werden."
-subject: mathematik
+subject: "mathematik"
 section: "Mathematik"
-topicPath:
-  - "ebenen"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Ebenen."
-  - "Du kannst Ebenen in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["ebenen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Darstellungsformen zu wechseln, ohne die geometrische Bedeutung zu behalten."
-keyTakeaways:
-  - "Ebenen beschreiben flache zweidimensionale Mengen im Raum."
-  - "Wichtig sind vor allem parameterform, normalenform und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Ebenen, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Ebenen dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "grundlagen"
-  - "ebenen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Mathematik"]
 draft: false
 ---
-
 # Ebenen
 
 Ebenen beschreiben flache zweidimensionale Mengen im Raum. Sie können durch Punkte, Richtungsvektoren, Normalenvektor oder Koordinatengleichung dargestellt werden. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

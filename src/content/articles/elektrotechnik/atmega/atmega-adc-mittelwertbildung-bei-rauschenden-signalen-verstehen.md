@@ -1,46 +1,19 @@
 ---
-title: ATmega ADC-Mittelwertbildung bei rauschenden Signalen verstehen
-description: Verstehe, wann Mittelwertbildung am ADC hilfreich ist und warum sie ein unruhiges Signal nicht magisch „korrekt“, sondern oft nur ruhiger macht.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - adc-und-messung
-  - atmega-adc-mittelwertbildung-bei-rauschenden-signalen-verstehen
-learningGoals:
-  - Du erklärst, warum ADC-Messwerte trotz gleichem Eingang leicht schwanken können.
-  - Du beschreibst Mittelwertbildung als Werkzeug zur Beruhigung statt als Wunderheilung.
-  - Du unterscheidest zufälliges Rauschen von echten Signaländerungen.
-practiceIdeas:
-  - Vergleiche einzelne ADC-Werte mit einem geglätteten Mittelwert.
-  - Prüfe, wann Mittelwertbildung bei schnellen Signaländerungen eher schadet.
-  - Begründe, warum Mittelwertbildung eine Strukturfrage der Messauswertung ist.
-commonMistakes:
-  - Zu denken, Mittelwertbildung mache jeden Messwert automatisch „richtig“.
-  - Rauschen und echte Dynamik nicht zu trennen.
-  - Nur mehr Werte zu sammeln, ohne auf Reaktionsgeschwindigkeit zu achten.
-keyTakeaways:
-  - ADC-Werte schwanken oft leicht, auch wenn der Eingang ungefähr gleich bleibt.
-  - Mittelwertbildung kann Rauschen glätten, aber verlangsamt die Reaktion auf Änderungen.
-  - Gute Messauswertung trennt Messruhe und Reaktionsbedarf bewusst.
-recognizeSignals:
-  - Es geht um unruhige ADC-Werte, Glättung, Mittelwert oder verrauschte Sensorsignale.
-  - Du sollst erklären, warum ein Messwert „zittert“ und wie man damit sinnvoll umgeht.
-  - In Beispielen ist die Messstrategie wichtiger als die einzelne Zahl.
-selfCheckPoints:
-  - Kann ich Rauschen und echte Signaländerung trennen?
-  - Kann ich erklären, wann Mittelwertbildung hilft und wann sie bremst?
-  - Kann ich Messruhe und Reaktionsgeschwindigkeit gegeneinander abwägen?
-tags:
-  - elektrotechnik
-  - atmega
-  - adc
-  - messung
-  - mittelwert
-level: mittel
+title: "ATmega ADC-Mittelwertbildung bei rauschenden Signalen verstehen"
+description: "Verstehe, wann Mittelwertbildung am ADC hilfreich ist und warum sie ein unruhiges Signal nicht magisch „korrekt“, sondern oft nur ruhiger macht."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-adc-mittelwertbildung-bei-rauschenden-signalen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 ADC-Werte wirken in der Praxis oft nicht vollkommen ruhig. Selbst bei einem ungefähr konstanten Eingang können die Werte leicht schwanken. Dann hilft oft Mittelwertbildung – aber nur, wenn du vorher klärst, **ob du eher Ruhe oder eher schnelle Reaktion brauchst**.

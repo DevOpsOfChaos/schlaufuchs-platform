@@ -1,37 +1,19 @@
 ---
 title: "Analoge Masse und digitale Masse"
 description: "Überblick über Massebereiche, Rückströme und die Trennung empfindlicher analoger Signale von digitalem Schaltbetrieb."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Layout und Masse"
-topicPath:
-  - "analoge-masse-und-digitale-masse"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Analoge Masse und digitale Masse als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["analoge-masse-und-digitale-masse", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Masse als überall identisch anzunehmen oder Masseflächen ohne Strompfadverständnis aufzuteilen."
-keyTakeaways:
-  - "Masseführung beeinflusst Messgenauigkeit."
-  - "Rückströme sind für Störungen zentral."
-  - "Trennung braucht einen klaren Verbindungs- und Strompfadplan."
-recognizeSignals:
-  - "Analoge Werte verändern sich bei digitalen Schaltvorgängen."
-  - "Ein Layout enthält getrennte Massebereiche oder Sternpunkte."
-selfCheckPoints:
-  - "Kann ich Analoge Masse und digitale Masse in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "masse"
-  - "analog"
-  - "layout"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Layout und Masse"]
 draft: false
 ---
-
 # Analoge Masse und digitale Masse
 
 Analoge und digitale Masse sind keine unterschiedlichen elektrischen Prinzipien, sondern Bereiche mit unterschiedlichen Störanforderungen. Entscheidend ist, wie Rückströme geführt werden.

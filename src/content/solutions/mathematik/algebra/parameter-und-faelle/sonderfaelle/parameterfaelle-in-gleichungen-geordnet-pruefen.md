@@ -3,23 +3,12 @@ title: "Lösung – Parameterfälle in Gleichungen geordnet prüfen"
 description: "Musterlösung zu Parameterfälle in Gleichungen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Algebra"
-topicPath:
-  - "algebra"
-  - "parameter-und-faelle"
-  - "sonderfaelle"
-  - "parameterfaelle-in-gleichungen-geordnet-pruefen"
+topicPath: ["algebra", "parameter-und-faelle", "sonderfaelle", "parameterfaelle-in-gleichungen-geordnet-pruefen"]
 taskId: "v109-mathematik-parameterfaelle-in-gleichungen-geordnet-pruefen"
 relatedExercise: "mathematik/algebra/parameter-und-faelle/sonderfaelle/parameterfaelle-in-gleichungen-geordnet-pruefen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfen"
-  - "algebra"
-  - "parameter-und-faelle"
-  - "parameterfälle in gleichungen"
+tags: ["mathematik", "Algebra", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Parameterfälle in Gleichungen**.

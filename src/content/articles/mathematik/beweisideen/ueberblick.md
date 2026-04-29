@@ -1,36 +1,19 @@
 ---
 title: "Beweisideen"
 description: "Allgemeiner Überblick über mathematische Beweise als nachvollziehbare Begründungen."
-subject: mathematik
+subject: "mathematik"
 section: "Begründen"
-topicPath:
-  - "beweisideen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Beweisideen als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["beweisideen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird eine Aussage durch mehrere Beispiele als bewiesen betrachtet."
-keyTakeaways:
-  - "Beweise begründen allgemeine Gültigkeit."
-  - "Beispiele können motivieren, aber nicht jede Allaussage beweisen."
-  - "Gegenbeispiele widerlegen allgemeine Behauptungen."
-recognizeSignals:
-  - "Es geht um Beweisideen als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Beweisideen in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "beweis"
-  - "begründen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Begründen"]
 draft: false
 ---
-
 # Beweisideen
 
 Ein mathematischer Beweis zeigt, warum eine Aussage unter bestimmten Voraussetzungen immer gilt. Er geht über Beispiele hinaus. Beispiele können eine Vermutung stützen, aber ein Beweis erklärt die allgemeine Gültigkeit.

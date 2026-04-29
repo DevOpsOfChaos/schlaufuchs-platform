@@ -3,22 +3,12 @@ title: "Lösung: Komponente isoliert prüfen"
 description: "Musterlösung zur Aufgabe „Komponente isoliert prüfen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "frontend-qualitaet"
-  - "komponententest-und-story"
-  - "komponente-isoliert-pruefen-v116"
+topicPath: ["frontend-qualitaet", "komponententest-und-story", "komponente-isoliert-pruefen-v116"]
 taskId: "komponente-isoliert-pruefen-v116"
 relatedExercise: "web-development/frontend-qualitaet/komponententest-und-story/komponente-isoliert-pruefen-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "komponententest und story"
-  - "komponente isoliert pruefen"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

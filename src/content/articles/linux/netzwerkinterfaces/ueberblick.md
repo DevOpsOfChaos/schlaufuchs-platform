@@ -1,34 +1,19 @@
 ---
 title: "Netzwerkinterfaces"
 description: "Überblick über Netzwerkinterfaces als logische oder physische Anschlüsse für Netzwerkkommunikation unter Linux."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "netzwerkinterfaces"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["netzwerkinterfaces", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Netzwerkprobleme nur über IP-Adressen zu betrachten und den Interface-Status zu ignorieren."
-keyTakeaways:
-  - "Netzwerkinterfaces sind die konkreten Ein- und Ausgänge des Systems für Netzwerkverkehr."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Routing, IP-Adressen, VPNs, Container oder Dienstbindungen untersucht werden."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "netzwerk"
-  - "interfaces"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # Netzwerkinterfaces
 
 ![Schaubild zu Netzwerkgrundlagen unter Linux.](/schlaufuchs-platform/images/overviews/v149/netzwerkgrundlagen-unter-linux.svg)

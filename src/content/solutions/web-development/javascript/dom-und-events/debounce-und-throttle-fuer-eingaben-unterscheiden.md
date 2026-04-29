@@ -3,22 +3,12 @@ title: "Lösung – Debounce und Throttle für Eingaben unterscheiden"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Development-Aufgabe."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "dom-und-events"
-  - "debounce-und-throttle-fuer-eingaben-unterscheiden"
-tags:
-  - "web development"
-  - "javascript"
-  - "events"
-  - "debounce"
-  - "throttle"
-  - "lösung"
+topicPath: ["javascript", "dom-und-events", "debounce-und-throttle-fuer-eingaben-unterscheiden"]
 taskId: "web-v104-debounce-und-throttle-fuer-eingaben-unterscheiden"
 relatedExercise: "web-development/javascript/dom-und-events/debounce-und-throttle-fuer-eingaben-unterscheiden"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Eine gute Lösung beginnt mit der Nutzer-Situation. Das Problem ist nicht nur technisch, sondern zeigt sich daran, dass eine Person nicht sicher erkennt, was gerade passiert oder wie sie weitermachen kann.

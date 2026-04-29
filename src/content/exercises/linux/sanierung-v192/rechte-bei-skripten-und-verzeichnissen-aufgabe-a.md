@@ -3,38 +3,15 @@ title: "Rechte bei Skripten und Verzeichnissen: Aufgabe A"
 description: "Erkläre, warum ein Skript trotz Datei-x nicht startet."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "shell-und-umgebung"
-  - "rechte-bei-skripten-und-verzeichnissen"
-  - "aufgabe-a"
+topicPath: ["sanierung-v192", "rechte-bei-skripten-und-verzeichnissen-aufgabe-a"]
 taskId: "linux-v192-028a"
-tags:
-  - "shell-und-umgebung"
-  - "rechte"
-  - "skripten"
-  - "verzeichnissen"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "aufgabe"
-  - "v192"
-hintPoints:
-  - "Trenne Beobachtung, Eingriff und Kontrolle."
-  - "Nenne den betroffenen Benutzer, Dienst, Pfad, Port oder Zeitplan."
-  - "Beschreibe mindestens einen Rückweg oder Sicherheitscheck."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Rechte bei Skripten und Verzeichnissen."
-  - "Es gibt eine klare Kontrolle nach der Änderung."
-  - "Risiko und Nebenwirkung werden nicht verschwiegen."
-transferIdeas:
-  - "Übertrage den Prüfweg auf eine zweite Linux-VM oder einen anderen Dienst."
-  - "Formuliere aus deiner Lösung eine kurze Betriebsnotiz."
-reflectionPrompt: "Welcher Schritt verhindert hier den wahrscheinlichsten Adminfehler?"
+tags: ["linux", "adminpraxis-und-betrieb", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Erkläre, warum ein Skript trotz Datei-x nicht startet.

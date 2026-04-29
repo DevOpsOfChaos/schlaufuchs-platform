@@ -1,15 +1,14 @@
 ---
-title: Grenzidee ruhig erklären – Lösung A
-description: Musterlösung zu Grenzidee ruhig erklären mit Kontrolle.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Grenzidee ruhig erklären – Lösung A"
+description: "Musterlösung zu Grenzidee ruhig erklären mit Kontrolle."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "analysis-vorbereitung", "grenzidee-ruhig-erklaeren"]
 taskId: "mat-v196-grenzidee-ruhig-erklaeren-a"
 relatedExercise: "mathematik/sanierung-v196/grenzidee-ruhig-erklaeren-aufgabe-a"
 tags: ["mathematik", "v196", "analysis-vorbereitung", "grenzidee-ruhig-erklaeren"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine passende Lösung zu dieser Aufgabe muss nicht exakt dieselben Zahlen oder Beispiele verwenden. Entscheidend ist der saubere Aufbau.

@@ -3,37 +3,15 @@ title: "Fehlermeldungen hilfreich formulieren: Aufgabe A"
 description: "Schreibe drei unklare Fehlermeldungen in hilfreiche Meldungen um."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "formulare-und-feedback"
-  - "fehlermeldungen-hilfreich-formulieren"
-  - "aufgabe-a"
-
+topicPath: ["sanierung-v194", "fehlermeldungen-hilfreich-formulieren-aufgabe-a"]
 taskId: "web-development-v194-009a"
-tags:
-  - "fehlermeldungen"
-  - "hilfreich"
-  - "formulieren"
-  - "web-development"
-  - "aufgabe"
-  - "v194"
-
-hintPoints:
-  - "Beschreibe zuerst die konkrete Seitensituation."
-  - "Trenne Beobachtung, gewünschtes Verhalten und Änderung."
-  - "Lege einen kleinen Kontrollpunkt fest."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Fehlermeldungen hilfreich formulieren."
-  - "Die Prüfung ist klein genug, um sie direkt nachzuvollziehen."
-  - "Nutzerperspektive und technische Umsetzung werden nicht vermischt."
-transferIdeas:
-  - "Übertrage den Prüfweg auf eine andere Bildschirmbreite."
-  - "Notiere, welcher Zustand zusätzlich getestet werden sollte."
-reflectionPrompt: "Welche Annahme über Nutzerinnen und Nutzer wäre gefährlich, wenn sie still falsch bleibt?"
+tags: ["web-development", "barrierefreiheit-responsive-ux", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Schreibe drei unklare Fehlermeldungen in hilfreiche Meldungen um.

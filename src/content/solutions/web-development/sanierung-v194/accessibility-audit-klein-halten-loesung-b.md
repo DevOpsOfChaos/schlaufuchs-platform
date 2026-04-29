@@ -3,26 +3,12 @@ title: "Lösung: Accessibility-Audit klein halten: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-development-v194-029b im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "diagnose-und-qa"
-  - "accessibility-audit-klein-halten"
-  - "loesung-b"
-
+topicPath: ["sanierung-v194", "accessibility-audit-klein-halten-loesung-b"]
 taskId: "web-development-v194-029b"
 relatedExercise: "web-development/sanierung-v194/accessibility-audit-klein-halten-aufgabe-b"
-tags:
-  - "accessibility"
-  - "audit"
-  - "klein"
-  - "halten"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-029b`
 
 Ausgangsauftrag: Übertrage das Thema Accessibility-Audit klein halten auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

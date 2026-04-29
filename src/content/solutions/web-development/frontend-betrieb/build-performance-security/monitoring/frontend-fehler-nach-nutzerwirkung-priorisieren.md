@@ -3,23 +3,12 @@ title: "Lösung – Frontend-Fehler nach Nutzerwirkung priorisieren"
 description: "Musterlösung zu Frontend-Monitoring mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "frontend-betrieb"
-  - "build-performance-security"
-  - "monitoring"
-  - "frontend-fehler-nach-nutzerwirkung-priorisieren"
+topicPath: ["frontend-betrieb", "build-performance-security", "monitoring", "frontend-fehler-nach-nutzerwirkung-priorisieren"]
 taskId: "v111-web-development-frontend-fehler-nach-nutzerwirkung-priorisieren"
 relatedExercise: "web-development/frontend-betrieb/build-performance-security/monitoring/frontend-fehler-nach-nutzerwirkung-priorisieren"
-tags:
-  - "web development"
-  - "frontend"
-  - "unterthema"
-  - "frontend-betrieb"
-  - "build-performance-security"
-  - "frontend-fehler-nach-nutzerwirkung-priorisieren"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Frontend-Monitoring**.

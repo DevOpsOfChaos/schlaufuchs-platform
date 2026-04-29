@@ -1,46 +1,19 @@
 ---
-title: ATmega – Flash, SRAM und EEPROM unterscheiden
-description: Verstehe die drei wichtigsten Speicherarten am AVR und warum Programmcode, Laufdaten und dauerhafte Einstellungen nicht im selben Speicher zuhause sind.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - speicher-und-daten
-  - atmega-flash-sram-und-eeprom-unterscheiden
-learningGoals:
-  - Du erklärst die Grundrollen von Flash, SRAM und EEPROM sauber.
-  - Du unterscheidest Programmspeicher, Laufzeitspeicher und dauerhafte Einstellwerte fachlich korrekt.
-  - Du liest AVR-Speicherfragen ruhiger als Rollenverteilung statt nur als Datengröße.
-practiceIdeas:
-  - Ordne bei kleinen Beispielen Programmcode, Zählvariable und Kalibrierwert den passenden Speicherarten zu.
-  - Vergleiche, welche Daten nach dem Ausschalten erhalten bleiben und welche nicht.
-  - Erkläre zuerst die Aufgabe der Information und erst dann den Speichername.
-commonMistakes:
-  - Alle Datenarten als austauschbar im gleichen Speicher zu sehen.
-  - Zu denken, SRAM sei für dauerhafte Werte nach dem Ausschalten geeignet.
-  - EEPROM wie gewöhnlichen Laufzeitspeicher in jeder Schleifenrunde behandeln zu wollen.
-keyTakeaways:
-  - Flash speichert typischerweise den Programmcode.
-  - SRAM hält die veränderlichen Laufdaten während des Betriebs.
-  - EEPROM eignet sich für Werte, die nach dem Ausschalten erhalten bleiben sollen.
-recognizeSignals:
-  - Es geht um Programmspeicher, Variablen, Konfiguration oder dauerhafte Werte.
-  - Du sollst erklären, warum ein Wert nach Reset erhalten bleibt oder verloren geht.
-  - In Aufgaben müssen Datenarten dem passenden Speicher zugeordnet werden.
-selfCheckPoints:
-  - Kann ich Programmspeicher, Laufdaten und dauerhafte Einstellwerte trennen?
-  - Kann ich erklären, welcher Speicher flüchtig ist und welcher nicht?
-  - Kann ich einen Anwendungsfall dem passenden Speicher zuordnen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - avr
-  - speicher
-level: einfach
+title: "ATmega – Flash, SRAM und EEPROM unterscheiden"
+description: "Verstehe die drei wichtigsten Speicherarten am AVR und warum Programmcode, Laufdaten und dauerhafte Einstellungen nicht im selben Speicher zuhause sind."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-flash-sram-und-eeprom-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 Am AVR ist Speicher nicht einfach „irgendwo liegt irgendetwas“. Schon im Einstieg ist es wichtig, drei Rollen sauber zu trennen: **Flash** für Programmcode, **SRAM** für veränderliche Laufdaten und **EEPROM** für Werte, die auch nach dem Ausschalten erhalten bleiben sollen.
 
 <div class="example-card">

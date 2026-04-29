@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Datenblattfragen ruhig zu Suchorten zuordnen
-description: Musterlösung zur Aufgabe ELE-MCU-GEN-103.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - datenblatt-als-arbeitsgrundlage-fuer-register-und-pins-verstehen
-  - datenblattfragen-ruhig-zu-suchorten-zuordnen-loesung
-taskId: ELE-MCU-GEN-103
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller/datenblatt-als-arbeitsgrundlage-fuer-register-und-pins-verstehen/datenblattfragen-ruhig-zu-suchorten-zuordnen.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - loesung
-  - task-id
+title: "Musterlösung – Datenblattfragen ruhig zu Suchorten zuordnen"
+description: "Musterlösung zur Aufgabe ELE-MCU-GEN-103."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "datenblatt-als-arbeitsgrundlage-fuer-register-und-pins-verstehen", "datenblattfragen-ruhig-zu-suchorten-zuordnen"]
+taskId: "ELE-MCU-GEN-103"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller/datenblatt-als-arbeitsgrundlage-fuer-register-und-pins-verstehen/datenblattfragen-ruhig-zu-suchorten-zuordnen.md"
+tags: ["elektrotechnik", "mikrocontroller", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 - **Welche Pinbelegung hat die Funktion?** → eher Pinbelegung oder Blockdiagramm.

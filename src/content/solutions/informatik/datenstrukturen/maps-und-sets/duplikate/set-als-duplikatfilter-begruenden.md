@@ -3,23 +3,12 @@ title: "Lösung – Set als Duplikatfilter begründen"
 description: "Musterlösung zu Set und Eindeutigkeit mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenstrukturen"
-  - "maps-und-sets"
-  - "duplikate"
-  - "set-als-duplikatfilter-begruenden"
+topicPath: ["datenstrukturen", "maps-und-sets", "duplikate", "set-als-duplikatfilter-begruenden"]
 taskId: "v111-informatik-set-als-duplikatfilter-begruenden"
 relatedExercise: "informatik/datenstrukturen/maps-und-sets/duplikate/set-als-duplikatfilter-begruenden"
-tags:
-  - "informatik"
-  - "struktur"
-  - "unterthema"
-  - "datenstrukturen"
-  - "maps-und-sets"
-  - "set-als-duplikatfilter-begruenden"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Set und Eindeutigkeit**.

@@ -3,35 +3,15 @@ title: "Aufgabe – Secrets nicht im Quellcode speichern"
 description: "Übe Secrets nicht im Quellcode speichern mit Einordnung, Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "informatik"
 section: "Sicherheit und Betrieb"
-topicPath:
-  - "sicherheit-und-betrieb"
-  - "zugriff-logs-und-geheimnisse"
-  - "v110-teil-1"
-  - "secrets-nicht-im-quellcode-speichern"
+topicPath: ["sicherheit-und-betrieb", "zugriff-logs-und-geheimnisse", "v110-teil-1", "secrets-nicht-im-quellcode-speichern"]
 taskId: "v110-informatik-secrets-nicht-im-quellcode-speichern"
-tags:
-  - "informatik"
-  - "struktur"
-  - "praxis"
-  - "sicherheit-und-betrieb"
-  - "zugriff-logs-und-geheimnisse"
-  - "secrets-nicht-im-quellcode-speichern"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Vergleiche das Thema mit einem Nachbarthema und nenne die Trennkante."
-reflectionPrompt: "Welche kleine Trennkante macht Secrets nicht im Quellcode speichern übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["informatik", "Sicherheit und Betrieb", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Secrets nicht im Quellcode speichern**.

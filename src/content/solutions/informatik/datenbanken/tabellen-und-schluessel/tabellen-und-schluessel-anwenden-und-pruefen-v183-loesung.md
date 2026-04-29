@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Tabellen und Schlüssel anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über Tabellen und Schlüssel."
-subject: informatik
+subject: "informatik"
 section: "Datenbanken"
-topicPath:
-  - "datenbanken"
-  - "tabellen-und-schluessel"
-taskId: INF-V183-08-B
-relatedExercise: src/content/exercises/informatik/datenbanken/tabellen-und-schluessel/tabellen-und-schluessel-anwenden-und-pruefen-v183.md
-tags:
-  - "informatik"
-  - "tabellen-und-schluessel"
-  - "loesung"
+topicPath: ["datenbanken", "tabellen-und-schluessel", "tabellen-und-schluessel-anwenden-und-pruefen-v183"]
+taskId: "INF-V183-08-B"
+relatedExercise: "src/content/exercises/informatik/datenbanken/tabellen-und-schluessel/tabellen-und-schluessel-anwenden-und-pruefen-v183.md"
+tags: ["informatik", "Datenbanken", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

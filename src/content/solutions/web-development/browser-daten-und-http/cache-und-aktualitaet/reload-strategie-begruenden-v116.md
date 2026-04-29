@@ -3,22 +3,12 @@ title: "Lösung: Reload-Strategie begründen"
 description: "Musterlösung zur Aufgabe „Reload-Strategie begründen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "browser-daten-und-http"
-  - "cache-und-aktualitaet"
-  - "reload-strategie-begruenden-v116"
+topicPath: ["browser-daten-und-http", "cache-und-aktualitaet", "reload-strategie-begruenden-v116"]
 taskId: "reload-strategie-begruenden-v116"
 relatedExercise: "web-development/browser-daten-und-http/cache-und-aktualitaet/reload-strategie-begruenden-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "cache und aktualitaet"
-  - "reload strategie begruenden"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

@@ -3,38 +3,17 @@ title: "Abtastung verstehen"
 description: "Abtastung macht aus einem zeitlichen Verlauf einzelne Messpunkte."
 subject: "daten-und-signale"
 section: "grundlagen"
-topicPath:
-  - "grundlagen"
-  - "abtastung"
-learningGoals:
-  - "Abtastung macht aus einem zeitlichen Verlauf einzelne Messpunkte fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Abtastung macht aus einem zeitlichen Verlauf einzelne Messpunkte wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v189", "abtastung-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "abtastung"
-  - "sampling"
-  - "signal"
-  - "daten-und-signale"
-  - "v189"
+tags: ["daten-und-signale", "grundlagen"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Abtastung verstehen](/schlaufuchs-platform/images/daten-und-signale/sanierung-189/abtastung-verstehen.svg)
 
 ## Überblick

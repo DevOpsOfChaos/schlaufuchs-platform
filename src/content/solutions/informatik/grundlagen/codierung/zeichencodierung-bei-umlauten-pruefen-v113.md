@@ -3,20 +3,12 @@ title: "Lösung – Zeichencodierung bei Umlauten prüfen"
 description: "Musterlösung zu Zeichencodierung bei Umlauten prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "grundlagen"
-  - "codierung"
-  - "zeichencodierung-bei-umlauten-pruefen-v113"
+topicPath: ["grundlagen", "codierung", "zeichencodierung-bei-umlauten-pruefen-v113"]
 taskId: "v113-informatik-zeichencodierung-bei-umlauten-pruefen-v113"
 relatedExercise: "informatik/grundlagen/codierung/zeichencodierung-bei-umlauten-pruefen-v113"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "zeichencodierung-bei-umlauten-pruefen-v113"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Zeichencodierung bei Umlauten prüfen**.

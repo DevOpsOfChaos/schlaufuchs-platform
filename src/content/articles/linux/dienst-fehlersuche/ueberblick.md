@@ -1,36 +1,19 @@
 ---
 title: "Dienst-Fehlersuche"
 description: "Allgemeiner Überblick über systematische Fehlersuche bei Linux-Diensten."
-subject: linux
+subject: "linux"
 section: "Dienste"
-topicPath:
-  - "dienst-fehlersuche"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Dienst-Fehlersuche als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["dienst-fehlersuche", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird nur auf den letzten Fehler geschaut."
-keyTakeaways:
-  - "Dienstfehler brauchen strukturierte Prüfung mehrerer Ebenen."
-  - "Logs, Status, Ports und Rechte gehören zusammen."
-  - "Neustarten ersetzt keine Ursachenanalyse."
-recognizeSignals:
-  - "Es geht um Dienst-Fehlersuche als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Dienst-Fehlersuche in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "dienste"
-  - "fehlersuche"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dienste"]
 draft: false
 ---
-
 # Dienst-Fehlersuche
 
 Dienst-Fehlersuche verbindet Statusprüfung, Logs, Konfiguration, Prozesse, Ports, Rechte und Abhängigkeiten. Ein Dienst kann nicht starten, sofort abstürzen, laufen aber nicht erreichbar sein oder fachlich falsche Antworten liefern. Jede dieser Situationen verlangt andere Prüfschritte.

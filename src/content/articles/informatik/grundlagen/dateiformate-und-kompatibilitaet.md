@@ -1,44 +1,19 @@
 ---
-title: Dateiformate und Kompatibilität
-description: Verstehe, warum Dateiformate Regeln festlegen und weshalb dieselben Inhalte nicht in jedem Programm gleich gut funktionieren.
-subject: informatik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - dateiformate-und-kompatibilitaet
-tags:
-  - dateiformat
-  - kompatibilitaet
-  - datei
-  - programm
-learningGoals:
-  - "Du erklärst, warum Dateiformate feste Strukturen brauchen."
-  - "Du unterscheidest Inhalt, Dateiformat und Anwendungsprogramm grob voneinander."
-  - "Du erkennst, warum Kompatibilität im digitalen Alltag wichtig ist."
-practiceIdeas:
-  - "Vergleiche zwei Dateitypen danach, wofür sie gedacht sind."
-  - "Ordne Beispiele nach offenem Austauschformat oder programmspezifischem Format."
-  - "Erkläre bei einem Austauschproblem, ob eher das Format oder das Programm das Problem ist."
-commonMistakes:
-  - "Dateiendung und Inhalt vollständig gleichzusetzen."
-  - "Zu denken, jede Datei lasse sich in jedem Programm gleich öffnen."
-  - "Formatprobleme mit Speicherproblemen zu verwechseln."
-keyTakeaways:
-  - "Ein Dateiformat legt fest, wie Informationen strukturiert gespeichert werden."
-  - "Kompatibilität beschreibt, wie gut Programme mit einem Format umgehen können."
-  - "Gleicher Inhalt kann in unterschiedlichen Formaten sehr verschieden nutzbar sein."
-recognizeSignals:
-  - "Es geht um Dateiendungen, Austausch zwischen Programmen oder Probleme beim Öffnen."
-  - "Ein Beispiel fragt nach passendem Format für Text, Bild oder Datenaustausch."
-  - "Du sollst erklären, warum etwas in einem Programm funktioniert und in einem anderen nicht."
-selfCheckPoints:
-  - "Kann ich Dateiformat und Programm sauber unterscheiden?"
-  - "Kann ich erklären, warum Kompatibilität im Austausch wichtig ist?"
-  - "Kann ich an einem Beispiel ein sinnvolles Format begründen?"
-level: einfach
+title: "Dateiformate und Kompatibilität"
+description: "Verstehe, warum Dateiformate Regeln festlegen und weshalb dieselben Inhalte nicht in jedem Programm gleich gut funktionieren."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "dateiformate-und-kompatibilitaet"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Grundlagen"]
 draft: false
 ---
-
 ## Warum dieses Thema wichtig ist
 
 Dateiformate legen fest, **wie Informationen gespeichert und gelesen werden können**. Deshalb reicht es nicht, nur auf Dateinamen zu schauen.

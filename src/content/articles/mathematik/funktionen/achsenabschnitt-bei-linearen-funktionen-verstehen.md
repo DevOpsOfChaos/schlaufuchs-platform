@@ -1,44 +1,19 @@
 ---
-title: Achsenabschnitt bei linearen Funktionen verstehen
-description: Verstehe, was der Achsenabschnitt einer linearen Funktion über den Startwert eines Zusammenhangs aussagt.
-subject: mathematik
-section: Funktionen
-topicPath:
-  - funktionen
-  - achsenabschnitt-bei-linearen-funktionen-verstehen
-learningGoals:
-  - Du erklärst die Bedeutung des Achsenabschnitts.
-  - Du liest den Startwert einer linearen Funktion in Gleichung, Tabelle oder Alltagssituation.
-  - Du unterscheidest Steigung und Achsenabschnitt sauber.
-practiceIdeas:
-  - Suche in einer linearen Beschreibung den Wert bei x = 0.
-  - Vergleiche zwei lineare Funktionen mit gleicher Steigung, aber unterschiedlichem Startwert.
-  - Deute bei einer Alltagssituation den Achsenabschnitt als Anfangswert.
-commonMistakes:
-  - Steigung und Achsenabschnitt zu verwechseln.
-  - Nur auf das Wachstum zu schauen und den Startwert zu vergessen.
-  - Den Achsenabschnitt nicht mit x = 0 zu verbinden.
-keyTakeaways:
-  - Der Achsenabschnitt zeigt den Startwert einer linearen Funktion.
-  - Er beschreibt den y-Wert an der Stelle x = 0.
-  - Steigung und Achsenabschnitt erfüllen unterschiedliche Rollen.
-recognizeSignals:
-  - Es geht um lineare Funktionen, Startwerte, Grundgebühren oder den Wert zu Beginn.
-  - Du sollst erklären, wo ein Graph die y-Achse schneidet.
-  - In Aufgaben müssen Wachstum und Anfangswert getrennt werden.
-selfCheckPoints:
-  - Kann ich Steigung und Achsenabschnitt unterscheiden?
-  - Kann ich den Startwert in einer Gleichung oder Situation benennen?
-  - Kann ich erklären, was bei x = 0 passiert?
-tags:
-  - funktionen
-  - achsenabschnitt
-  - linear
-  - startwert
-level: einfach
+title: "Achsenabschnitt bei linearen Funktionen verstehen"
+description: "Verstehe, was der Achsenabschnitt einer linearen Funktion über den Startwert eines Zusammenhangs aussagt."
+subject: "mathematik"
+section: "Funktionen"
+topicPath: ["funktionen", "achsenabschnitt-bei-linearen-funktionen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei linearen Funktionen beschreibt die Steigung, wie stark sich etwas verändert. Der Achsenabschnitt beschreibt dagegen, **wo der Zusammenhang startet**.

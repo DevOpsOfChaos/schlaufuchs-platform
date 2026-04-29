@@ -3,22 +3,12 @@ title: "Lösung: Periodische Signale: Grundordnung"
 description: "Musterlösung zur Aufgabe dat-v189-035a."
 subject: "daten-und-signale"
 section: "analyse"
-topicPath:
-  - "analyse"
-  - "periodische-signale"
-  - "loesung-a"
+topicPath: ["sanierung-v189", "periodische-signale-aufgabe-a"]
 taskId: "dat-v189-035a"
 relatedExercise: "daten-und-signale/sanierung-v189/periodische-signale-aufgabe-a"
-tags:
-  - "periode"
-  - "frequenz"
-  - "signal"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "analyse", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-035a`
 
 Eine mögliche Lösung:

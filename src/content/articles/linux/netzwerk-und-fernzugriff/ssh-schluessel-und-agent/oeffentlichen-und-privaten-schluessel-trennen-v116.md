@@ -3,45 +3,17 @@ title: "Netzwerk und Fernzugriff – öffentlichen und privaten Schlüssel trenn
 description: "Verstehe „öffentlichen und privaten Schlüssel trennen“ als klar abgegrenztes Unterthema mit Beispiel, Gegenprobe und passender Übung."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "netzwerk-und-fernzugriff"
-  - "ssh-schluessel-und-agent"
-  - "oeffentlichen-und-privaten-schluessel-trennen-v116"
-learningGoals:
-  - "Du erklärst öffentlichen und privaten Schlüssel trennen in eigenen Worten."
-  - "Du ordnest die Frage in ein kleines Unterthema ein statt in einen breiten Sammelbereich."
-  - "Du formulierst eine passende Gegenprobe für Aufgabe oder Projekt."
-practiceIdeas:
-  - "Markiere zuerst den konkreten Auslöser der Aufgabe."
-  - "Trenne Begriff, Beispiel und Prüfschritt."
-  - "Übertrage die Denkbewegung auf ein zweites kleines Beispiel."
-commonMistakes:
-  - "das Unterthema zu breit lesen"
-  - "die Gegenprobe weglassen"
-  - "Begriff und Beispiel miteinander verwechseln"
-keyTakeaways:
-  - "öffentlichen und privaten Schlüssel trennen wird verständlich, wenn Ursache, Wirkung und Kontrolle getrennt werden."
-  - "Feine Unterthemen helfen beim Wiederfinden und verhindern überladene Sammelseiten."
-  - "Eine gute Erklärung endet mit einer konkreten Prüfung."
-recognizeSignals:
-  - "Die Aufgabe enthält einen scheinbar kleinen Sonderfall."
-  - "Zwei ähnliche Begriffe werden leicht verwechselt."
-  - "Eine Entscheidung soll begründet statt nur geraten werden."
-selfCheckPoints:
-  - "Kann ich das Unterthema von einem Nachbarthema abgrenzen?"
-  - "Kann ich einen typischen Fehler benennen?"
-  - "Kann ich eine kleine Gegenprobe anschließen?"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "ssh schluessel und agent"
-  - "oeffentlichen und privaten schluessel trennen"
-  - "v116"
+topicPath: ["netzwerk-und-fernzugriff", "ssh-schluessel-und-agent", "oeffentlichen-und-privaten-schluessel-trennen-v116"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["linux", "Linux vertiefen"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei **öffentlichen und privaten Schlüssel trennen** geht es nicht darum, möglichst viel Stoff auf einmal zu erklären. Entscheidend ist, die konkrete Beobachtung, die passende Regel und eine einfache Kontrolle voneinander zu trennen.

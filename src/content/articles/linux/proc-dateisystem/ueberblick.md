@@ -1,33 +1,19 @@
 ---
 title: "proc-Dateisystem"
 description: "Das proc-Dateisystem stellt Kernel- und Prozessinformationen als Dateien bereit. Es ist eine Schnittstelle zu laufenden Systemzuständen, keine normale Datensammlung auf der Festplatte."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "proc-dateisystem"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von proc-Dateisystem."
-  - "Du kannst proc-Dateisystem in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["proc-dateisystem", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Dateien in /proc wie gewöhnliche persistente Dateien zu behandeln."
-keyTakeaways:
-  - "Das proc-Dateisystem stellt Kernel- und Prozessinformationen als Dateien bereit."
-  - "Wichtig sind vor allem prozessverzeichnisse unter /proc, kernelparameter und statusdateien und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um proc-Dateisystem, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu proc-Dateisystem dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "linux"
-  - "grundlagen"
-  - "proc dateisystem"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # proc-Dateisystem
 
 Das proc-Dateisystem stellt Kernel- und Prozessinformationen als Dateien bereit. Es ist eine Schnittstelle zu laufenden Systemzuständen, keine normale Datensammlung auf der Festplatte. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

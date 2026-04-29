@@ -1,31 +1,17 @@
 ---
 title: "Shell-Pipeline als Datenfluss"
 description: "Überblick über Pipelines als linearen Datenfluss zwischen Linux-Kommandos."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell-pipeline-als-datenfluss"
-learningGoals:
-  - "Du verstehst Pipelines als Verbindung von Standardausgabe und Standardeingabe."
-  - "Du kannst Filter, Quellen und Senken unterscheiden."
-  - "Du erkennst Grenzen von Textpipelines."
+topicPath: ["shell-pipeline-als-datenfluss", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Eine Pipeline als bloße Befehlsverkettung ohne Datenmodell zu sehen."
-  - "Fehlerausgabe und Standardausgabe zu vermischen."
-keyTakeaways:
-  - "Eine Pipeline leitet Datenstrom von einem Kommando zum nächsten."
-  - "Viele Linux-Werkzeuge sind als kleine Filter für Textströme entworfen."
-recognizeSignals:
-  - "Es geht um |, stdin, stdout, grep, sort, awk, sed oder Verarbeitungsschritte."
-selfCheckPoints:
-  - "Kann ich in einer Pipeline Quelle, Filter und Ausgabeziel benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "pipeline"
-  - "datenfluss"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
 # Shell-Pipeline als Datenfluss

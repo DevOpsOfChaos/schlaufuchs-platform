@@ -1,46 +1,19 @@
 ---
-title: Änderungsrate aus einem Text erkennen
-description: Textangaben sauber in lokale Änderung übersetzen
-subject: mathematik
-section: Feinstruktur Mathematik
-topicPath:
-- analysis-pruefschritte
-- ableitungen-deuten
-- aenderungsrate-aus-einem-text-erkennen-v114
-learningGoals:
-- Du erklärst Änderungsrate aus einem Text erkennen als klar abgegrenztes Unterthema.
-- Du erkennst die typische Verwechslung und formulierst eine passende Prüffrage.
-- Du nutzt eine Gegenprobe, statt dich nur auf den Kapitelbegriff zu verlassen.
-practiceIdeas:
-- Wende die Prüffrage auf ein zweites Beispiel an.
-- Notiere zuerst Kontext, Entscheidung und Gegenprobe.
-- Grenze das Thema bewusst von einem Nachbarthema ab.
-commonMistakes:
-- Durchschnittliche und momentane Änderung werden vermischt.
-- Das Thema wird zu breit einsortiert und verliert dadurch seine konkrete Trennkante.
-- Eine Lösung wird akzeptiert, ohne eine Gegenprobe zu prüfen.
-keyTakeaways:
-- Änderungsrate aus einem Text erkennen wird verständlich, wenn du die kleine Entscheidung im Beispiel sauber benennst.
-- Die Prüffrage hilft stärker als ein breiter Sammelbegriff.
-- Aufgaben bleiben übersichtlich, wenn das Unterthema eng geführt wird.
-recognizeSignals:
-- Eine Aufgabe enthält eine typische Verwechslung.
-- Ein Begriff wirkt bekannt, aber der konkrete Prüfschritt fehlt.
-- Die Lösung muss begründen, warum ein Nachbarthema nicht passt.
-selfCheckPoints:
-- Kann ich die Trennkante in einem Satz nennen?
-- Kann ich die Prüffrage auf das Beispiel anwenden?
-- Kann ich eine sinnvolle Gegenprobe formulieren?
-tags:
-- mathematik
-- v114
-- feinstruktur
-- analysis-pruefschritte
-- ableitungen-deuten
-level: mittel
+title: "Änderungsrate aus einem Text erkennen"
+description: "Textangaben sauber in lokale Änderung übersetzen"
+subject: "mathematik"
+section: "Feinstruktur Mathematik"
+topicPath: ["analysis-pruefschritte", "ableitungen-deuten", "aenderungsrate-aus-einem-text-erkennen-v114"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["mathematik", "Feinstruktur Mathematik"]
 draft: false
 ---
-
 ## Grundidee
 
 **Änderungsrate aus einem Text erkennen** ist bewusst als kleines Unterthema angelegt. Textangaben sauber in lokale Änderung übersetzen. Dadurch bleibt die Seite auffindbar und vermischt sich nicht mit einem übergroßen Sammelkapitel.

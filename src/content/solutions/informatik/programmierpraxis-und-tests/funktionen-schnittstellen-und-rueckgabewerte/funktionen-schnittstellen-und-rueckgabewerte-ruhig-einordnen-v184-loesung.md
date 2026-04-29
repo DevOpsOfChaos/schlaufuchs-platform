@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Funktionen, Schnittstellen und Rückgabewerte – Ruhig einordnen"
 description: "Musterlösung zur Aufgabe über Funktionen, Schnittstellen und Rückgabewerte."
-subject: informatik
+subject: "informatik"
 section: "programmierpraxis-und-tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "funktionen-schnittstellen-und-rueckgabewerte"
-taskId: INF-FUNKTIONEN-SCHNITTSTELLEN-UND-RUECKGABEWERTE-841
-relatedExercise: src/content/exercises/informatik/programmierpraxis-und-tests/funktionen-schnittstellen-und-rueckgabewerte/funktionen-schnittstellen-und-rueckgabewerte-ruhig-einordnen-v184.md
-tags:
-  - "informatik"
-  - "funktionen"
-  - "schnittstellen"
-  - "loesung"
+topicPath: ["programmierpraxis-und-tests", "funktionen-schnittstellen-und-rueckgabewerte", "funktionen-schnittstellen-und-rueckgabewerte-ruhig-einordnen-v184"]
+taskId: "INF-FUNKTIONEN-SCHNITTSTELLEN-UND-RUECKGABEWERTE-841"
+relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/funktionen-schnittstellen-und-rueckgabewerte/funktionen-schnittstellen-und-rueckgabewerte-ruhig-einordnen-v184.md"
+tags: ["informatik", "programmierpraxis-und-tests", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

@@ -3,23 +3,12 @@ title: "Lösung – Cron-Umgebung und Pfade absichern"
 description: "Musterlösung zu Cron-Umgebung mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "System"
-topicPath:
-  - "system"
-  - "automatisierung-und-cron"
-  - "umgebung"
-  - "cron-umgebung-und-pfade-absichern"
+topicPath: ["system", "automatisierung-und-cron", "umgebung", "cron-umgebung-und-pfade-absichern"]
 taskId: "v108-linux-cron-umgebung-und-pfade-absichern"
 relatedExercise: "linux/system/automatisierung-und-cron/umgebung/cron-umgebung-und-pfade-absichern"
-tags:
-  - "linux"
-  - "shell"
-  - "praxis"
-  - "system"
-  - "automatisierung-und-cron"
-  - "cron-umgebung"
+tags: ["linux", "System", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **Cron-Umgebung**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

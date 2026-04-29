@@ -1,33 +1,19 @@
 ---
 title: "Monolith und Microservices"
 description: "Monolithen und Microservices sind Architekturstile für Softwaresysteme. Sie unterscheiden sich in Kopplung, Deployment, Betriebsaufwand und Teamorganisation."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "monolith-und-microservices"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Monolith und Microservices."
-  - "Du kannst Monolith und Microservices in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["monolith-und-microservices", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein System nur zu zerteilen, ohne klare Verantwortlichkeiten zu schaffen."
-keyTakeaways:
-  - "Monolithen und Microservices sind Architekturstile für Softwaresysteme."
-  - "Wichtig sind vor allem gemeinsame codebasis oder verteilte dienste, schnittstellen und datenhaltung und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Monolith und Microservices, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Monolith und Microservices dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "informatik"
-  - "grundlagen"
-  - "monolith microservices"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Monolith und Microservices
 
 Monolithen und Microservices sind Architekturstile für Softwaresysteme. Sie unterscheiden sich in Kopplung, Deployment, Betriebsaufwand und Teamorganisation. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

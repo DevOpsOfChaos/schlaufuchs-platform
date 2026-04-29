@@ -1,44 +1,19 @@
 ---
-title: Flexbox – Grundidee verstehen
-description: Verstehe, warum Flexbox besonders gut für lineare Layouts geeignet ist und wie Container und Achsen die Verteilung bestimmen.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - flexbox-grundidee-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von Flexbox.
-  - Du unterscheidest Flex-Container und Flex-Items.
-  - Du ordnest Flexbox eher linearen als flächigen Layoutproblemen zu.
-practiceIdeas:
-  - Vergleiche eine Button-Leiste mit einem Seitenraster.
-  - Lies kleine Flex-Beispiele und nenne Haupt- und Kreuzachse.
-  - Prüfe, warum Flexbox nur eine Ebene tief wirkt.
-commonMistakes:
-  - Flexbox wie Grid als Flächenlayout zu behandeln.
-  - Zu vergessen, dass Flexbox am Container aktiviert wird.
-  - Zu denken, verschachtelte Kinder würden automatisch mitgemeint sein.
-keyTakeaways:
-  - Flexbox ist stark für lineare Strukturen.
-  - Der Container steuert die Grundverteilung.
-  - Flexbox arbeitet vor allem entlang einer Hauptachse und einer Kreuzachse.
-recognizeSignals:
-  - Es geht um display:flex, justify-content oder align-items.
-  - Eine Leiste, Kartenreihe oder lineare Verteilung soll erklärt werden.
-  - Ein Problem betrifft eher Richtung als Rasterfläche.
-selfCheckPoints:
-  - Kann ich lineares Layout und Flächenlayout unterscheiden?
-  - Kann ich Container und Items sauber trennen?
-  - Kann ich erklären, warum Flexbox nur eine Ebene direkt beeinflusst?
-tags:
-  - css
-  - flexbox
-  - layout
-  - web-development
-level: einfach
+title: "Flexbox – Grundidee verstehen"
+description: "Verstehe, warum Flexbox besonders gut für lineare Layouts geeignet ist und wie Container und Achsen die Verteilung bestimmen."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "flexbox-grundidee-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Flexbox ist für Layoutprobleme gemacht, bei denen Inhalte **entlang einer Richtung** verteilt werden sollen. Genau deshalb ist Flexbox oft stark bei Leisten, Reihen, Toolbars oder gleichmäßig verteilten Karten.

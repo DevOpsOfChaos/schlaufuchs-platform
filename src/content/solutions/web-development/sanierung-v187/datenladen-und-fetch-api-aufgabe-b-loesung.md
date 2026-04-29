@@ -3,23 +3,12 @@ title: "Lösung: Datenladen und Fetch API: Prüfung und Verbesserung"
 description: "Musterlösung zur Aufgabe web-v187-023b im Web-Development-Block v187."
 subject: "web-development"
 section: "javascript"
-topicPath: 
-  - "javascript-und-interaktion"
-  - "datenladen"
-  - "loesung-b"
+topicPath: ["sanierung-v187", "datenladen-und-fetch-api-aufgabe-b"]
 taskId: "web-v187-023b"
 relatedExercise: "web-development/sanierung-v187/datenladen-und-fetch-api-aufgabe-b"
-tags: 
-  - "fetch"
-  - "api"
-  - "javascript"
-  - "daten"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "javascript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-023b`
 
     Ausgangsauftrag: Ergänze zu einem Fetch-Ablauf sinnvolle Zustände für Laden, Erfolg und Fehler.

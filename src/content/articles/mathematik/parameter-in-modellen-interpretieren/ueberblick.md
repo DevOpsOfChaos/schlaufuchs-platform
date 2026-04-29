@@ -1,33 +1,17 @@
 ---
 title: "Parameter in Modellen interpretieren"
 description: "Überblick darüber, wie Parameter in Formeln Bedeutung, Form und Verhalten eines mathematischen Modells beeinflussen."
-subject: mathematik
+subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "parameter-in-modellen-interpretieren"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Parameter in Modellen interpretieren als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["parameter-in-modellen-interpretieren", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Parameter werden oft wie normale Variablen behandelt. In vielen Aufgaben stehen sie aber für Eigenschaften eines Modells, nicht für einzelne Eingabewerte."
-keyTakeaways:
-  - "Parameter sind veränderliche Größen in einer Formel, die das Verhalten einer ganzen Funktionsfamilie steuern."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um parameter in modellen interpretieren, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich parameter in modellen interpretieren in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "parameter in modellen interpretieren"
-  - "überblick"
-  - "startwert"
-  - "steigung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
 # Parameter in Modellen interpretieren

@@ -3,23 +3,12 @@ title: "Lösung – Testdaten aus Äquivalenzklassen ableiten"
 description: "Musterlösung zu Äquivalenzklassen mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "informatik"
 section: "Algorithmen"
-topicPath:
-  - "algorithmen"
-  - "test-und-komplexitaet"
-  - "aequivalenzklassen"
-  - "testdaten-aus-aequivalenzklassen-ableiten"
+topicPath: ["algorithmen", "test-und-komplexitaet", "aequivalenzklassen", "testdaten-aus-aequivalenzklassen-ableiten"]
 taskId: "v108-informatik-testdaten-aus-aequivalenzklassen-ableiten"
 relatedExercise: "informatik/algorithmen/test-und-komplexitaet/aequivalenzklassen/testdaten-aus-aequivalenzklassen-ableiten"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "algorithmen"
-  - "test-und-komplexitaet"
-  - "äquivalenzklassen"
+tags: ["informatik", "Algorithmen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **Äquivalenzklassen**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

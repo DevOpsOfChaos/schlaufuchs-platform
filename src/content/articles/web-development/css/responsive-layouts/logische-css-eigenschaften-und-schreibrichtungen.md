@@ -3,41 +3,15 @@ title: "CSS – Logische Eigenschaften und Schreibrichtungen verstehen"
 description: "Lerne, warum margin-inline, padding-block und ähnliche Eigenschaften robuster sein können als links/rechts/oben/unten."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "responsive-layouts"
-  - "logische-css-eigenschaften-und-schreibrichtungen"
-learningGoals:
-  - "Du unterscheidest physische und logische Richtungen."
-  - "Du erklärst inline und block abhängig von der Schreibrichtung."
-  - "Du planst Komponenten internationaler und wartbarer."
-practiceIdeas:
-  - "Prüfe ein kleines Beispiel zuerst fachlich und erst danach im Code."
-  - "Vergleiche eine schwache und eine bessere Umsetzung."
-  - "Teste die Entscheidung mit Tastatur, kleiner Breite und verständlichem sichtbarem Text."
-commonMistakes:
-  - "Links und rechts immer als fachliche Richtung zu behandeln."
-  - "Schreibrichtung und Layoutachse zu verwechseln."
-  - "Logische Eigenschaften nur als neue Schreibweise ohne Nutzen zu sehen."
-keyTakeaways:
-  - "Die sichtbare Bedeutung und die technische Struktur müssen zusammenpassen."
-  - "Robuste Weboberflächen entstehen durch kleine, bewusst geprüfte Entscheidungen."
-  - "Ein gutes Review fragt nach Nutzbarkeit, Semantik, Layout und Wartbarkeit."
-recognizeSignals:
-  - "Es geht um HTML- oder CSS-Entscheidungen, die nicht nur optisch wirken."
-  - "Eine Aufgabe fragt nach Bedienbarkeit, Lesbarkeit oder semantischer Zuordnung."
-  - "Der Code funktioniert scheinbar, aber die Nutzererfahrung ist noch unsicher."
-selfCheckPoints:
-  - "Kann ich die Entscheidung ohne Fachjargon erklären?"
-  - "Passt der sichtbare Text zur technischen Struktur?"
-  - "Bleibt die Lösung bei kleinen Breiten und Tastaturbedienung nutzbar?"
-tags:
-  - "web development"
-  - "css"
-  - "logical properties"
-  - "responsive"
-  - "layout"
+topicPath: ["css", "responsive-layouts", "logische-css-eigenschaften-und-schreibrichtungen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
+tags: ["web-development", "CSS"]
 draft: false
 ---
 ## Grundidee

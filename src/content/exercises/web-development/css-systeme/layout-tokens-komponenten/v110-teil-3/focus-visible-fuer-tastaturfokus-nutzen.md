@@ -3,35 +3,15 @@ title: "Aufgabe – :focus-visible für Tastaturfokus nutzen"
 description: "Übe :focus-visible für Tastaturfokus nutzen mit Einordnung, Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css-systeme"
-  - "layout-tokens-komponenten"
-  - "v110-teil-3"
-  - "focus-visible-fuer-tastaturfokus-nutzen"
+topicPath: ["css-systeme", "layout-tokens-komponenten", "v110-teil-3", "focus-visible-fuer-tastaturfokus-nutzen"]
 taskId: "v110-web-development-focus-visible-fuer-tastaturfokus-nutzen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "css-systeme"
-  - "layout-tokens-komponenten"
-  - "focus-visible-fuer-tastaturfokus-nutzen"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Vergleiche das Thema mit einem Nachbarthema und nenne die Trennkante."
-reflectionPrompt: "Welche kleine Trennkante macht :focus-visible für Tastaturfokus nutzen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **:focus-visible für Tastaturfokus nutzen**.

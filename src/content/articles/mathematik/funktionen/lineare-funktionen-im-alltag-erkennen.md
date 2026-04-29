@@ -1,44 +1,19 @@
 ---
-title: Lineare Funktionen im Alltag erkennen
-description: Verstehe, woran lineare Zusammenhänge erkennbar sind und wie sie als Funktion beschrieben werden.
-subject: mathematik
-section: Funktionen
-topicPath:
-  - funktionen
-  - lineare-funktionen-im-alltag-erkennen
-learningGoals:
-  - Du erkennst typische lineare Zusammenhänge in Tabellen, Sätzen und Situationen.
-  - Du beschreibst lineare Funktionen als gleichmäßige Veränderung.
-  - Du deutest Startwert und Änderungsrate in einfachen Alltagsbeispielen.
-practiceIdeas:
-  - Prüfe bei Tabellen, ob sich der Wert immer um den gleichen Betrag ändert.
-  - Übersetze Alltagssätze in die Struktur aus Startwert und Zuwachs.
-  - Vergleiche lineare und nicht lineare Zusammenhänge bewusst miteinander.
-commonMistakes:
-  - Jeden steigenden Zusammenhang automatisch als linear zu sehen.
-  - Startwert und Änderungsrate zu verwechseln.
-  - Nur auf einzelne Zahlen zu schauen statt auf die Veränderung zwischen ihnen.
-keyTakeaways:
-  - Lineare Zusammenhänge ändern sich bei gleichen Schritten immer um denselben Betrag.
-  - Startwert und Änderungsrate beschreiben lineare Funktionen gut.
-  - Ein Zusammenhang ist nicht automatisch linear, nur weil er wächst.
-recognizeSignals:
-  - Es geht um Zuordnungen, Tabellen, Graphen oder Alltagssituationen mit regelmäßigem Zuwachs.
-  - Du sollst entscheiden, ob ein Zusammenhang linear ist.
-  - In Beispielen musst du erklären, was Startwert und Steigung bedeuten.
-selfCheckPoints:
-  - Kann ich lineare Veränderung in einer Tabelle erkennen?
-  - Kann ich Startwert und Änderungsrate erklären?
-  - Kann ich lineare und nicht lineare Beispiele unterscheiden?
-tags:
-  - funktionen
-  - linear
-  - zuordnung
-  - steigung
-level: einfach
+title: "Lineare Funktionen im Alltag erkennen"
+description: "Verstehe, woran lineare Zusammenhänge erkennbar sind und wie sie als Funktion beschrieben werden."
+subject: "mathematik"
+section: "Funktionen"
+topicPath: ["funktionen", "lineare-funktionen-im-alltag-erkennen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
-
 ## Grundidee
 
 Lineare Funktionen beschreiben Zusammenhänge, bei denen sich eine Größe **regelmäßig um denselben Betrag** verändert. Genau diese Gleichmäßigkeit ist der entscheidende Punkt.

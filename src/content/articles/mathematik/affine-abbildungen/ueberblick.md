@@ -1,35 +1,17 @@
 ---
 title: "Affine Abbildungen"
 description: "Überblick über affine Abbildungen als Kombination aus linearer Transformation und Verschiebung."
-subject: mathematik
+subject: "mathematik"
 section: "Lineare Algebra"
-topicPath:
-  - "affine-abbildungen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Affine Abbildungen als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["affine-abbildungen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden affine und lineare Abbildungen gleichgesetzt. Eine lineare Abbildung muss den Ursprung festhalten, eine affine nicht."
-keyTakeaways:
-  - "Eine affine Abbildung verbindet eine lineare Veränderung wie Streckung, Drehung oder Scherung mit einer Verschiebung."
-  - "Sie beschreibt viele geometrische Transformationen, die Geraden und Parallelität erhalten."
-  - "Affine Abbildungen müssen Winkel oder Längen nicht erhalten. Dafür wären speziellere Transformationen nötig."
-recognizeSignals:
-  - "Es geht um Affine Abbildungen, wenn lineare Anteile verändern Richtungen und Längen nach festen Regeln."
-  - "Das Thema wird relevant, wenn Beispiele wie eine Figur kann skaliert und anschließend verschoben werden; das ist eine affine Abbildung."
-selfCheckPoints:
-  - "Kann ich Affine Abbildungen in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "lineare algebra"
-  - "abbildungen"
-  - "geometrie"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Lineare Algebra"]
 draft: false
 ---
 # Affine Abbildungen

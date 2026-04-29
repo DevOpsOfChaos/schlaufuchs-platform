@@ -3,21 +3,12 @@ title: "Lösung – Vorwiderstand als Strombegrenzung erklären"
 description: "Musterlösung zu vorwiderstand als strombegrenzung erklären mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "schaltungen-und-stromkreis"
-  - "vorwiderstand-als-strombegrenzung-erklaeren"
+topicPath: ["daten-und-signale", "schaltungen-und-stromkreis", "vorwiderstand-als-strombegrenzung-erklaeren"]
 taskId: "v112-elektrotechnik-vorwiderstand-als-strombegrenzung-erklaeren"
 relatedExercise: "elektrotechnik/daten-und-signale/schaltungen-und-stromkreis/vorwiderstand-als-strombegrenzung-erklaeren"
-tags:
-  - "elektrotechnik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-signale"
-  - "vorwiderstand-als-strombegrenzung-erklaeren"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Schaltungen und Stromkreis**.

@@ -1,34 +1,19 @@
 ---
 title: "Responsive Design"
 description: "Überblick über Responsive Design als Anpassung von Webseiten an unterschiedliche Geräte, Viewports und Eingabemethoden."
-subject: web-development
+subject: "web-development"
 section: "Layout und Gestaltung"
-topicPath:
-  - "responsive-design"
-  - "ueberblick"
-learningGoals:
-  - "Du verstehst Responsive Design als strukturelle Anpassung, nicht nur als kleinere Schrift."
-  - "Du kennst Viewport, flexible Layouts und Breakpoints als Grundbegriffe."
-  - "Du kannst typische Probleme bei kleinen Bildschirmen einordnen."
+topicPath: ["responsive-design", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Responsive Design nur als Handyversion zu verstehen."
-  - "Feste Pixelbreiten ohne Inhaltsprüfung zu verwenden."
-keyTakeaways:
-  - "Responsive Design richtet Inhalt und Bedienung an verfügbarem Platz aus."
-  - "Gute responsive Seiten bleiben lesbar, bedienbar und inhaltlich vollständig."
-recognizeSignals:
-  - "Es geht um Viewport, Breakpoints, flexible Breiten, mobile Nutzung, Touch, Lesbarkeit oder Umbruch."
-selfCheckPoints:
-  - "Kann ich erklären, warum ein Layout auf einem schmalen Bildschirm anders aufgebaut sein sollte?"
-level: einfach
-tags:
-  - "web development"
-  - "responsive design"
-  - "layout"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Layout und Gestaltung"]
 draft: false
 ---
-
 # Responsive Design
 
 ![Schaubild zu Responsive Design.](/schlaufuchs-platform/images/overviews/v148/responsive-design.svg)

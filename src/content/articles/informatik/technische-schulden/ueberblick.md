@@ -1,33 +1,19 @@
 ---
 title: "Technische Schulden"
 description: "Technische Schulden beschreiben bewusst oder unbewusst eingegangene Vereinfachungen, die spätere Arbeit erschweren. Sie können sinnvoll sein, müssen aber sichtbar bleiben."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "technische-schulden"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Technische Schulden."
-  - "Du kannst Technische Schulden in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["technische-schulden", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Schulden nie zu benennen und dadurch dauerhaft zu normalisieren."
-keyTakeaways:
-  - "Technische Schulden beschreiben bewusst oder unbewusst eingegangene Vereinfachungen, die spätere Arbeit erschweren."
-  - "Wichtig sind vor allem kurzfristiger nutzen, spätere zinskosten und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Technische Schulden, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Technische Schulden dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "informatik"
-  - "grundlagen"
-  - "technische schulden"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Technische Schulden
 
 Technische Schulden beschreiben bewusst oder unbewusst eingegangene Vereinfachungen, die spätere Arbeit erschweren. Sie können sinnvoll sein, müssen aber sichtbar bleiben. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

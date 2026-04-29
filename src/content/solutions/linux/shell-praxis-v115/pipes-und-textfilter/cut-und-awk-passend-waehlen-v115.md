@@ -1,24 +1,14 @@
 ---
 title: "Lösung: cut und awk passend wählen"
 description: "Musterlösung zu cut und awk passend wählen mit Trennkante und Gegenprobe."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell-praxis-v115"
-  - "pipes-und-textfilter"
-  - "cut-und-awk-passend-waehlen-v115"
+topicPath: ["shell-praxis-v115", "pipes-und-textfilter", "cut-und-awk-passend-waehlen-v115"]
 taskId: "linux-cut-und-awk-passend-waehlen-v115"
 relatedExercise: "linux/shell-praxis-v115/pipes-und-textfilter/cut-und-awk-passend-waehlen-v115"
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "shell-praxis"
-  - "pipes und textfilter"
-  - "lösung"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **cut und awk passend wählen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

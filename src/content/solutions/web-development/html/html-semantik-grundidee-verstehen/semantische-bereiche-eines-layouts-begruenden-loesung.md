@@ -1,20 +1,14 @@
 ---
-title: Lösung – Semantische Bereiche eines Layouts begründen
-description: Musterlösung zur Aufgabe über semantische Bereiche, Landmarken und Inhaltsstruktur.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - html-semantik-grundidee-verstehen
-taskId: WEB-HTML-CORE-101
-relatedExercise: web-development/html/html-semantik-grundidee-verstehen/semantische-bereiche-eines-layouts-begruenden
-tags:
-  - html
-  - semantik
-  - loesung
+title: "Lösung – Semantische Bereiche eines Layouts begründen"
+description: "Musterlösung zur Aufgabe über semantische Bereiche, Landmarken und Inhaltsstruktur."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "html-semantik-grundidee-verstehen", "semantische-bereiche-eines-layouts-begruenden"]
+taskId: "WEB-HTML-CORE-101"
+relatedExercise: "web-development/html/html-semantik-grundidee-verstehen/semantische-bereiche-eines-layouts-begruenden"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

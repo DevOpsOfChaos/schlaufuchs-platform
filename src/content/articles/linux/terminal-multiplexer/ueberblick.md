@@ -3,32 +3,17 @@ title: "Terminal-Multiplexer"
 description: "Allgemeiner Überblick über Terminal-Multiplexer wie tmux oder screen."
 subject: "linux"
 section: "Terminal"
-topicPath:
-  - "terminal-multiplexer"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["terminal-multiplexer", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden produktive Dienste dauerhaft in Terminal-Sitzungen gestartet. Für Betrieb, Neustart und Monitoring sind systemd oder andere Dienstmanager besser geeignet."
-keyTakeaways:
-  - "Terminal-Multiplexer verbessern interaktive Arbeit auf Linux-Systemen. Sie stabilisieren Sitzungen, sind aber kein Ersatz für echte Dienste."
-  - "Ein Multiplexer ersetzt kein Prozessmanagement. Kritische Dienste sollten weiterhin als Dienste laufen, nicht nur in einer tmux-Sitzung."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "linux"
-  - "terminal"
-  - "tmux"
-  - "screen"
+tags: ["linux", "Terminal"]
 draft: false
 ---
-
 # Terminal-Multiplexer
 
 Ein Terminal-Multiplexer verwaltet mehrere Shell-Sitzungen innerhalb eines Terminals und kann Sitzungen vom aktuellen Fenster entkoppeln.

@@ -1,20 +1,19 @@
 ---
-title: Exponentielles Wachstum verstehen
-description: Faktoränderung statt gleichbleibender Differenz erkennen.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Exponentielles Wachstum verstehen"
+description: "Faktoränderung statt gleichbleibender Differenz erkennen."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "funktionen-im-vergleich", "exponentielles-wachstum-verstehen"]
-learningGoals: ["Faktoränderung statt gleichbleibender Differenz erkennen", "Zwischenschritte begründen", "Ergebnis im Kontext kontrollieren"]
-practiceIdeas: ["Formuliere ein eigenes Beispiel zu Exponentielles Wachstum verstehen.", "Markiere Frage, Daten und Kontrolle getrennt.", "Vergleiche zwei mögliche Lösungswege."]
-commonMistakes: ["Zu früh rechnen", "Einheiten oder Bedingungen weglassen", "Das Ergebnis nicht rückprüfen"]
-keyTakeaways: ["Exponentielles Wachstum verstehen beginnt mit einer klaren Frage und nicht sofort mit Rechnen.", "Der Themenblock funktionen im vergleich braucht sichtbare Zwischenschritte.", "Ein Ergebnis ist erst belastbar, wenn es im Kontext geprüft wurde."]
-recognizeSignals: ["Die Aufgabe enthält mehrere Angaben.", "Eine Darstellung muss gedeutet werden.", "Das Ergebnis braucht eine Plausibilitätsprüfung."]
-selfCheckPoints: ["Ist die Frage klar?", "Sind Einheiten und Bedingungen sichtbar?", "Passt das Ergebnis zur Situation?"]
-level: mittel
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
 tags: ["mathematik", "v196", "funktionen-im-vergleich", "exponentielles-wachstum-verstehen"]
 draft: false
 ---
-
 ![Exponentielles Wachstum verstehen](/schlaufuchs-platform/images/mathematik/sanierung-v196/exponentielles-wachstum-verstehen.svg)
 
 ## Worum es geht

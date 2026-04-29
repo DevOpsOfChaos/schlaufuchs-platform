@@ -3,24 +3,12 @@ title: "Lösung: Responsive Testsystematik: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-development-v194-028a im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "diagnose-und-qa"
-  - "responsive-testsystematik"
-  - "loesung-a"
-
+topicPath: ["sanierung-v194", "responsive-testsystematik-loesung-a"]
 taskId: "web-development-v194-028a"
 relatedExercise: "web-development/sanierung-v194/responsive-testsystematik-aufgabe-a"
-tags:
-  - "responsive"
-  - "testsystematik"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-028a`
 
 Ausgangsauftrag: Erstelle einen kleinen Testplan für responsive Ansichten.

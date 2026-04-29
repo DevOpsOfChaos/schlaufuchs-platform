@@ -1,31 +1,17 @@
 ---
-title: Dokumentbereiche nach Rolle ordnen
-description: Ordne header, nav, main und footer nach ihrer Seitenrolle und begründe die Unterschiede.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - navigation-und-menues
-  - header-main-footer-und-nav-strukturieren
-  - dokumentbereiche-nach-rolle-ordnen
-taskId: WEB-HTML-CORE-102
-level: einfach
+title: "Dokumentbereiche nach Rolle ordnen"
+description: "Ordne header, nav, main und footer nach ihrer Seitenrolle und begründe die Unterschiede."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "header-main-footer-und-nav-strukturieren", "dokumentbereiche-nach-rolle-ordnen"]
+taskId: "WEB-HTML-CORE-102"
+tags: ["web-development", "HTML", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - html
-  - semantik
-  - nav
-hintPoints:
-  - Beschreibe die Bereiche über ihre Aufgabe und nicht über ihre Position.
-  - Frage bei main, worum es auf dieser Seite hauptsächlich geht.
-selfCheckPoints:
-  - Kannst du Navigation und Hauptinhalt fachlich trennen?
-  - Kannst du header und footer funktional erklären?
-transferIdeas:
-  - Übertrage die Logik auf eine Kursseite, eine Shopseite oder eine Projektübersicht.
-reflectionPrompt: Woran merkst du, dass ein Bereich zur Orientierung dient und nicht selbst der eigentliche Hauptinhalt ist?
 ---
-
 ## Aufgabe 1: Seitengerüst beschreiben
 
 Eine Seite hat:

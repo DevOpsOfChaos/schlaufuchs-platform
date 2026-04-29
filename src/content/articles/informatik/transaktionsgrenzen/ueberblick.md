@@ -1,37 +1,19 @@
 ---
 title: "Transaktionsgrenzen"
 description: "Überblick über die Frage, welche Änderungen gemeinsam atomar ausgeführt werden sollten."
-subject: informatik
+subject: "informatik"
 section: "Transaktionen"
-topicPath:
-  - "transaktionsgrenzen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Transaktionsgrenzen als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["transaktionsgrenzen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Netzwerkaufrufe, E-Mails oder lange Berechnungen in eine Datenbanktransaktion einzuschließen."
-keyTakeaways:
-  - "Transaktionsgrenzen schützen zusammengehörige Änderungen."
-  - "Zu große Grenzen schaden Skalierbarkeit und Robustheit."
-  - "Verteilte Abläufe brauchen andere Muster als lokale Datenbanktransaktionen."
-recognizeSignals:
-  - "Mehrere Datenänderungen müssen konsistent bleiben."
-  - "Ein Prozess ruft während einer Änderung externe Systeme auf."
-selfCheckPoints:
-  - "Kann ich Transaktionsgrenzen in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "transaktionen"
-  - "datenbank"
-  - "architektur"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Transaktionen"]
 draft: false
 ---
-
 # Transaktionsgrenzen
 
 Eine Transaktionsgrenze legt fest, welche Operationen gemeinsam erfolgreich sein oder gemeinsam zurückgerollt werden.

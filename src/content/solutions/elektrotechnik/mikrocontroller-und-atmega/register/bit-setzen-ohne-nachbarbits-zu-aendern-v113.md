@@ -3,20 +3,12 @@ title: "Lösung – Bit setzen ohne Nachbarbits zu ändern"
 description: "Musterlösung zu Bit setzen ohne Nachbarbits zu ändern mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "register"
-  - "bit-setzen-ohne-nachbarbits-zu-aendern-v113"
+topicPath: ["mikrocontroller-und-atmega", "register", "bit-setzen-ohne-nachbarbits-zu-aendern-v113"]
 taskId: "v113-elektrotechnik-bit-setzen-ohne-nachbarbits-zu-aendern-v113"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/register/bit-setzen-ohne-nachbarbits-zu-aendern-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "bit-setzen-ohne-nachbarbits-zu-aendern-v113"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Bit setzen ohne Nachbarbits zu ändern**.

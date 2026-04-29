@@ -3,43 +3,17 @@ title: "XSS-Gefahr bei HTML-Ausgabe prüfen"
 description: "Lerne XSS-Gefahr bei HTML-Ausgabe prüfen als kleines, klar abgegrenztes Unterthema mit Prüffrage und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "projektpraxis"
-  - "performance-und-sicherheit"
-  - "xss-gefahr-bei-html-ausgabe-pruefen-v113"
-learningGoals:
-  - "Du erklärst XSS-Gefahr bei HTML-Ausgabe prüfen als enges Unterthema."
-  - "Du grenzt es von einem naheliegenden Nachbarthema ab."
-  - "Du nutzt eine konkrete Prüffrage statt einer allgemeinen Merkhilfe."
-practiceIdeas:
-  - "Wende die Prüffrage auf ein zweites Beispiel an."
-  - "Formuliere eine Gegenprobe mit geändertem Kontext."
-  - "Markiere, welches Nachbarthema hier gerade nicht gemeint ist."
-commonMistakes:
-  - "Textausgabe und HTML-Ausführung werden verwechselt."
-  - "Zu breit einordnen und dadurch die eigentliche Trennkante verlieren."
-  - "Eine Lösung ohne Gegenprobe akzeptieren."
-keyTakeaways:
-  - "XSS-Gefahr bei HTML-Ausgabe prüfen wird über eine kleine Trennkante verständlich."
-  - "Die Prüffrage entscheidet stärker als ein grober Kapitelname."
-  - "Aufgabe und Lösung bleiben übersichtlich, wenn das Unterthema eng geführt wird."
-recognizeSignals:
-  - "Eine Aufgabe enthält eine typische Verwechslung."
-  - "Ein Begriff wirkt bekannt, aber der konkrete Prüfschritt fehlt."
-  - "Eine Lösung muss begründen, warum ein Nachbarthema nicht passt."
-selfCheckPoints:
-  - "Kann ich die Trennkante in einem Satz nennen?"
-  - "Kann ich die Prüffrage auf den Fall anwenden?"
-  - "Kann ich eine sinnvolle Gegenprobe formulieren?"
-tags:
-  - "web development"
-  - "strukturcheck"
-  - "unterthema"
-  - "xss-gefahr-bei-html-ausgabe-pruefen-v113"
+topicPath: ["projektpraxis", "performance-und-sicherheit", "xss-gefahr-bei-html-ausgabe-pruefen-v113"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "Feinstruktur Web Development"]
 draft: false
 ---
-
 ## Grundidee
 
 **XSS-Gefahr bei HTML-Ausgabe prüfen** ist bewusst als kleines Unterthema angelegt. Lerne XSS-Gefahr bei HTML-Ausgabe prüfen als kleines, klar abgegrenztes Unterthema mit Prüffrage und Gegenprobe. Dadurch bleibt die Seite auffindbar und vermischt sich nicht mit einem übergroßen Sammelkapitel.

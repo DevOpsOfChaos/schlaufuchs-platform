@@ -3,20 +3,12 @@ title: "Lösung – Set und Liste unterscheiden"
 description: "Musterlösung zu Set und Liste unterscheiden mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenstrukturen"
-  - "maps-und-sets"
-  - "set-und-liste-unterscheiden-v113"
+topicPath: ["datenstrukturen", "maps-und-sets", "set-und-liste-unterscheiden-v113"]
 taskId: "v113-informatik-set-und-liste-unterscheiden-v113"
 relatedExercise: "informatik/datenstrukturen/maps-und-sets/set-und-liste-unterscheiden-v113"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "set-und-liste-unterscheiden-v113"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Set und Liste unterscheiden**.

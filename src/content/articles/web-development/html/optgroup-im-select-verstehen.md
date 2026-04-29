@@ -1,45 +1,19 @@
 ---
-title: Optgroup im Select verstehen
-description: Verstehe, wie optgroup lange Auswahllisten in erkennbare Gruppen gliedert und dadurch die Orientierung verbessert.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - formulare-und-eingaben
-  - optgroup-im-select-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von optgroup.
-  - Du beschreibst Gruppierung als Orientierungshilfe in langen Auswahllisten.
-  - Du unterscheidest einzelne Optionen von Gruppenüberschriften sauber.
-practiceIdeas:
-  - Vergleiche ein langes Select ohne Gruppen und dieselben Optionen mit Gruppen.
-  - Prüfe, ob eine Liste viele ähnliche Werte enthält, die sich sinnvoll bündeln lassen.
-  - Lies Gruppierung eher als Ordnung als als zusätzliche Auswahl.
-commonMistakes:
-  - optgroup als auswählbare Option zu lesen.
-  - eine sehr lange Liste ungegliedert zu lassen.
-  - Gruppentitel mit eigentlichen Werten zu verwechseln.
-keyTakeaways:
-  - optgroup strukturiert lange Listen.
-  - Gruppentitel helfen beim Finden passender Optionen.
-  - Gruppierung verbessert Orientierung, ersetzt aber keine gute Benennung der Optionen.
-recognizeSignals:
-  - Es geht um Länder, Kategorien, Rollen oder andere längere Auswahllisten.
-  - Du sollst begründen, warum eine Liste unübersichtlich oder gut sortierbar ist.
-  - In Beispielen zählt die Ordnungslogik stärker als die Farbe des Dropdowns.
-selfCheckPoints:
-  - Kann ich Gruppentitel und auswählbare Optionen trennen?
-  - Kann ich erklären, wann optgroup die Orientierung verbessert?
-  - Kann ich lange Listen als Strukturproblem lesen?
-tags:
-  - html
-  - formulare
-  - select
-  - optgroup
-level: einfach
+title: "Optgroup im Select verstehen"
+description: "Verstehe, wie optgroup lange Auswahllisten in erkennbare Gruppen gliedert und dadurch die Orientierung verbessert."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "optgroup-im-select-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein langes `select`-Feld kann schnell unübersichtlich wirken. `optgroup` hilft, Optionen in erkennbare Gruppen zu ordnen, damit Nutzer nicht nur lesen, sondern sich auch schneller orientieren können.

@@ -1,32 +1,17 @@
 ---
 title: "Roving Tabindex"
 description: "Allgemeiner Überblick über Fokusführung in zusammengesetzten Widgets mit nur einem Tab-Stopp."
-subject: web-development
+subject: "web-development"
 section: "Barrierefreiheit"
-topicPath:
-  - "roving-tabindex"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Roving Tabindex als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie tabindex, Pfeiltasten, Komponentenrolle."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["roving-tabindex", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Jedes interaktive Element in komplexen Widgets einzeln in die globale Tab-Reihenfolge aufzunehmen."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Roving Tabindex beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Fokusmuster für komplexe Komponenten."
-  - "Wichtige Hinweise liefern vor allem tabindex, Pfeiltasten, Komponentenrolle."
-recognizeSignals:
-  - "Es geht um fokusmuster für komplexe komponenten, tabindex oder pfeiltasten."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Roving Tabindex erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "web-development"
-  - "barrierefreiheit"
-  - "fokus"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Barrierefreiheit"]
 draft: false
 ---
 # Roving Tabindex

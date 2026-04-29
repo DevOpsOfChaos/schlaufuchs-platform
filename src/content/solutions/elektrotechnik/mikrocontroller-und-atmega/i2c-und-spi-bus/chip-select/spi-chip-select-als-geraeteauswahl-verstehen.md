@@ -3,23 +3,12 @@ title: "Lösung – SPI Chip Select als Geräteauswahl verstehen"
 description: "Musterlösung zu SPI Chip Select mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "elektrotechnik"
 section: "Kommunikation"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "i2c-und-spi-bus"
-  - "chip-select"
-  - "spi-chip-select-als-geraeteauswahl-verstehen"
+topicPath: ["mikrocontroller-und-atmega", "i2c-und-spi-bus", "chip-select", "spi-chip-select-als-geraeteauswahl-verstehen"]
 taskId: "v108-elektrotechnik-spi-chip-select-als-geraeteauswahl-verstehen"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/i2c-und-spi-bus/chip-select/spi-chip-select-als-geraeteauswahl-verstehen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "schaltungen"
-  - "mikrocontroller-und-atmega"
-  - "i2c-und-spi-bus"
-  - "spi chip select"
+tags: ["elektrotechnik", "Kommunikation", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **SPI Chip Select**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

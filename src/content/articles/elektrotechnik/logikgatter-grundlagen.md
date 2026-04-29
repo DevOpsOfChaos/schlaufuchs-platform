@@ -1,13 +1,19 @@
 ---
-title: Logikgatter – Grundlagen
-description: Verstehe, wie einfache digitale Entscheidungen mit Logikgattern beschrieben werden.
-subject: elektrotechnik
-section: logikgatter
-level: einfach
-tags: [logikgatter, digitale technik, elektrotechnik]
+title: "Logikgatter – Grundlagen"
+description: "Verstehe, wie einfache digitale Entscheidungen mit Logikgattern beschrieben werden."
+subject: "elektrotechnik"
+section: "logikgatter"
+topicPath: ["logikgatter-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["logikgatter", "digitale technik", "elektrotechnik"]
 draft: false
 ---
-
 Logikgatter gehören zu den wichtigsten Grundideen der digitalen Technik. Sie beschreiben, wie aus Eingangssignalen **klare logische Ausgaben** entstehen.
 
 ## Was sind Logikgatter?

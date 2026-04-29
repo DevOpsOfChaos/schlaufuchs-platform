@@ -1,34 +1,19 @@
 ---
 title: "Pegelreserve und Störabstand"
 description: "Überblick über den Abstand zwischen gültigen Signalpegeln und Störungen in digitalen und analogen Schaltungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik"
-topicPath:
-  - "pegelreserve-und-stoerabstand"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["pegelreserve-und-stoerabstand", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein Signal als sicher zu betrachten, nur weil es im Mittel den richtigen Wert hat."
-keyTakeaways:
-  - "Robuste Schaltungen brauchen Abstand zu unsicheren Bereichen, nicht nur einen idealen Zielwert."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Signale sporadisch kippen, Grenzwerte knapp sind oder lange Leitungen und Störungen auftreten."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "signale"
-  - "pegel"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik"]
 draft: false
 ---
-
 # Pegelreserve und Störabstand
 
 Pegelreserve bezeichnet den Spielraum zwischen einem erwarteten Signal und der Grenze, ab der es falsch interpretiert wird. Störabstand beschreibt, wie weit ein Nutzsignal von Rauschen, Einstreuungen oder unsicheren Bereichen entfernt ist.

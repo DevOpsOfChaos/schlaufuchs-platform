@@ -3,22 +3,12 @@ title: "Lösung: Filter und Glättung: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe dat-v189-032b."
 subject: "daten-und-signale"
 section: "messung"
-topicPath:
-  - "messung"
-  - "filter-und-glaettung"
-  - "loesung-b"
+topicPath: ["sanierung-v189", "filter-und-glaettung-aufgabe-b"]
 taskId: "dat-v189-032b"
 relatedExercise: "daten-und-signale/sanierung-v189/filter-und-glaettung-aufgabe-b"
-tags:
-  - "filter"
-  - "glaettung"
-  - "signal"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "messung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-032b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

@@ -1,33 +1,19 @@
 ---
 title: "Focus Management"
 description: "Focus Management sorgt dafür, dass Tastatur- und Screenreader-Nutzung nach Interaktionen nachvollziehbar bleibt. Besonders wichtig ist es bei Dialogen, Menüs und clientseitigem Routing."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "focus-management"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Focus Management."
-  - "Du kannst Focus Management in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["focus-management", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Fokusrahmen zu entfernen, ohne eine gleichwertige Alternative zu bieten."
-keyTakeaways:
-  - "Focus Management sorgt dafür, dass Tastatur- und Screenreader-Nutzung nach Interaktionen nachvollziehbar bleibt."
-  - "Wichtig sind vor allem sichtbarer fokus, fokusfalle in dialogen und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Focus Management, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Focus Management dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "web development"
-  - "grundlagen"
-  - "focus management"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # Focus Management
 
 Focus Management sorgt dafür, dass Tastatur- und Screenreader-Nutzung nach Interaktionen nachvollziehbar bleibt. Besonders wichtig ist es bei Dialogen, Menüs und clientseitigem Routing. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

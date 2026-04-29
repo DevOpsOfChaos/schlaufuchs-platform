@@ -3,35 +3,15 @@ title: "Aufgabe – CSS: Logical Properties für Schreibrichtung und Layout"
 description: "Übe: Nutze Eigenschaften wie margin-inline und padding-block, damit Layouts weniger an links/rechts und oben/unten kleben."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "box-modell"
-  - "logical-properties-fuer-schreibrichtung-und-layout"
+topicPath: ["css", "box-modell", "logical-properties-fuer-schreibrichtung-und-layout"]
 taskId: "web-v102-logical-properties-fuer-schreibrichtung-und-layout"
-tags:
-  - "web development"
-  - "css"
-  - "logical properties"
-  - "layout"
-  - "internationalisierung"
-  - "aufgabe"
-hintPoints:
-  - "Lies zuerst den Zustand, nicht nur den Code."
-  - "Achte auf sichtbare Rückmeldung und Bedienbarkeit."
-  - "Begründe deine Entscheidung mit einem konkreten Nutzerfall."
-selfCheckPoints:
-  - "Ist die Verbesserung prüfbar?"
-  - "Ist die Rückmeldung konkret formuliert?"
-  - "Passt die Technik wirklich zur Situation?"
-transferIdeas:
-  - "Übertrage die Lösung auf eine zweite Komponente."
-  - "Beschreibe den gleichen Gedanken einmal ohne Fachsprache."
-  - "Prüfe, ob ein Fehlerfall eine andere Rückmeldung braucht."
-reflectionPrompt: "Was ist bei „CSS – Logical Properties für Schreibrichtung und Layout“ der wichtigste Unterschied zwischen einer optischen Lösung und einer wirklich robusten Lösung?"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Ersetze in einer Kartenkomponente physische Abstände durch passende logische Eigenschaften.

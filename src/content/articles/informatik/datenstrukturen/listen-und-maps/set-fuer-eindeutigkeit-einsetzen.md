@@ -3,44 +3,17 @@ title: "Informatik – Set für Eindeutigkeit einsetzen"
 description: "Lerne set für eindeutigkeit einsetzen als kleines Unterthema mit Beispiel, Abgrenzung und Prüfstrategie."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenstrukturen"
-  - "listen-und-maps"
-  - "set-fuer-eindeutigkeit-einsetzen"
-learningGoals:
-  - "Du erklärst set für eindeutigkeit einsetzen in einem klaren Kontext."
-  - "Du grenzt das Unterthema von einem typischen Nachbarthema ab."
-  - "Du nutzt eine konkrete Gegenprobe statt nur eine Merkliste."
-practiceIdeas:
-  - "Formuliere ein eigenes Mini-Beispiel mit einer typischen Verwechslung."
-  - "Schreibe einen Prüfschritt auf, der das Ergebnis kontrolliert."
-  - "Ordne das Thema bewusst in den kleinen Unterpfad ein."
-commonMistakes:
-  - "Dubletten werden später mühsam herausgefiltert."
-  - "Das Thema wird in einem breiten Sammelkapitel versteckt."
-  - "Die Lösung nennt ein Ergebnis, aber keinen prüfbaren Weg."
-keyTakeaways:
-  - "Ein Set beschreibt Eindeutigkeit als Eigenschaft der Datenstruktur."
-  - "Kleine Unterthemen machen Wiederholung und Suche einfacher."
-  - "Aufgabe und Lösung sollen dieselbe Trennkante verwenden."
-recognizeSignals:
-  - "Eine Aufgabe enthält einen Begriff, der leicht mit einem Nachbarthema verwechselt wird."
-  - "Ein Beispiel braucht vor der Rechnung oder Umsetzung eine Einordnung."
-  - "Eine Gegenprobe kann den gewählten Weg bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich den typischen Fehler fachlich ausschließen?"
-  - "Passt meine Lösung genau zum Unterpfad?"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "datenstrukturen"
-  - "set-fuer-eindeutigkeit-einsetzen"
+topicPath: ["datenstrukturen", "listen-und-maps", "set-fuer-eindeutigkeit-einsetzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["informatik", "Feinstruktur Informatik"]
 draft: false
 ---
-
 ## Grundidee
 
 **Set für Eindeutigkeit einsetzen** ist bewusst als kleines Unterthema angelegt. Lerne set für eindeutigkeit einsetzen als kleines Unterthema mit Beispiel, Abgrenzung und Prüfstrategie. Dadurch bleibt die Seite auffindbar und landet nicht in einem übergroßen Sammelbereich.

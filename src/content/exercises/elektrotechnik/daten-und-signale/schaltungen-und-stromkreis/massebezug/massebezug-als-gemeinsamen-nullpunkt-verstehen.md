@@ -3,35 +3,15 @@ title: "Aufgabe – Massebezug als gemeinsamen Nullpunkt verstehen"
 description: "Übe Massebezug mit einem kleinen Szenario, Prüfschritt und Gegenprobe."
 subject: "elektrotechnik"
 section: "Grundlagen"
-topicPath:
-  - "daten-und-signale"
-  - "schaltungen-und-stromkreis"
-  - "massebezug"
-  - "massebezug-als-gemeinsamen-nullpunkt-verstehen"
+topicPath: ["daten-und-signale", "schaltungen-und-stromkreis", "massebezug", "massebezug-als-gemeinsamen-nullpunkt-verstehen"]
 taskId: "v109-elektrotechnik-massebezug-als-gemeinsamen-nullpunkt-verstehen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "daten-und-signale"
-  - "schaltungen-und-stromkreis"
-  - "massebezug"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Übertrage den Prüfschritt auf ein Nachbarthema und nenne den Unterschied."
-reflectionPrompt: "Welche kleine Trennkante macht Massebezug übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["elektrotechnik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Massebezug**.

@@ -3,22 +3,12 @@ title: "Lösung: DOM und Interaktion: Prüfung und Verbesserung"
 description: "Musterlösung zur Aufgabe web-v187-021b im Web-Development-Block v187."
 subject: "web-development"
 section: "javascript"
-topicPath: 
-  - "javascript-und-interaktion"
-  - "dom"
-  - "loesung-b"
+topicPath: ["sanierung-v187", "dom-und-interaktion-aufgabe-b"]
 taskId: "web-v187-021b"
 relatedExercise: "web-development/sanierung-v187/dom-und-interaktion-aufgabe-b"
-tags: 
-  - "dom"
-  - "javascript"
-  - "interaktion"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "javascript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-021b`
 
     Ausgangsauftrag: Plane eine kleine Klassenumschaltung für eine Hinweisbox mit offenem und geschlossenem Zustand.

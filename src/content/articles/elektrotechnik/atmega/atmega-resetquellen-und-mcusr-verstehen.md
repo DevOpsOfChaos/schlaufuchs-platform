@@ -1,46 +1,19 @@
 ---
-title: ATmega – Resetquellen und MCUSR verstehen
-description: Verstehe, dass ein Reset am ATmega nicht nur „Neustart“ bedeutet, sondern je nach Ursache eine andere Systemgeschichte erzählt.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - systemstart-und-robustheit
-  - atmega-resetquellen-und-mcusr-verstehen
-learningGoals:
-  - Du unterscheidest typische Resetquellen am ATmega sauber.
-  - Du beschreibst die Rolle des MCUSR-Registers als Hinweisspur auf die Resetursache.
-  - Du liest Resets eher als Diagnosefrage als als bloßen Neustart.
-practiceIdeas:
-  - Ordne Resetursachen wie Power-on, externen Reset oder Watchdog funktional ein.
-  - Lies MCUSR zuerst als Diagnosehilfe und nicht als irgendein weiteres Statusregister.
-  - Prüfe bei instabilem Verhalten, welche Resetquelle wahrscheinlicher ist.
-commonMistakes:
-  - jeden Reset einfach nur als „Controller startet halt neu“ abzutun.
-  - Resetursache und Resetwirkung nicht zu trennen.
-  - MCUSR zu spät oder gar nicht als Diagnosehilfe mitzudenken.
-keyTakeaways:
-  - Verschiedene Resetquellen erzählen unterschiedliche Systemgeschichten.
-  - MCUSR kann Hinweise auf die letzte Resetursache liefern.
-  - Wer Resets diagnostisch liest, findet Fehler ruhiger als mit bloßem Neustartdenken.
-recognizeSignals:
-  - Es geht um Power-on-Reset, externen Reset, Brown-out oder Watchdog-Reset.
-  - Ein System startet unerwartet neu oder wirkt instabil.
-  - In Aufgaben soll zwischen Ursache des Resets und Verhalten danach unterschieden werden.
-selfCheckPoints:
-  - Kann ich mehrere Resetquellen funktional unterscheiden?
-  - Kann ich erklären, warum MCUSR für die Diagnose wertvoll ist?
-  - Kann ich einen Reset eher als Hinweis als als Endpunkt lesen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - reset
-  - mcusr
-level: mittel
+title: "ATmega – Resetquellen und MCUSR verstehen"
+description: "Verstehe, dass ein Reset am ATmega nicht nur „Neustart“ bedeutet, sondern je nach Ursache eine andere Systemgeschichte erzählt."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-resetquellen-und-mcusr-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 Ein Reset beim ATmega ist nicht nur ein „neu anfangen“. Je nach Ursache steckt dahinter eine andere Geschichte: Versorgung wurde eingeschaltet, jemand hat den Reset-Pin betätigt, der Watchdog hat eingegriffen oder die Spannung war zu niedrig. Genau deshalb lohnt sich ein diagnostischer Blick auf Resetquellen.
 
 <div class="example-card">

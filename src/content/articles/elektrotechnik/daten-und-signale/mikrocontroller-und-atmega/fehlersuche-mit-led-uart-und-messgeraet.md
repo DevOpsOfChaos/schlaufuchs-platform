@@ -1,46 +1,19 @@
 ---
-title: Mikrocontroller – Fehlersuche mit LED, UART und Messgerät
-description: Lerne, Mikrocontrollerfehler systematisch einzugrenzen, statt Code, Schaltung und Messwert gleichzeitig zu raten.
-subject: elektrotechnik
-section: Mikrocontroller und ATmega
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - fehlersuche-mit-led-uart-und-messgeraet
-learningGoals:
-  - "Du unterscheidest elektrische, programmatische und beobachtbare Fehlerquellen."
-  - "Du setzt LED, UART und Messgerät als unterschiedliche Diagnosewerkzeuge ein."
-  - "Du formulierst eine schrittweise Fehlersuche, bevor du mehrere Dinge gleichzeitig änderst."
-practiceIdeas:
-  - "Prüfe einen Fehler zuerst mit einer einzigen Kontrollfrage: Kommt mein Programm überhaupt bis hierher?"
-  - "Vergleiche LED-Debugging, UART-Ausgabe und Messgerät nach Aussagekraft und Grenzen."
-  - "Notiere nach jeder Änderung, welche Beobachtung sich wirklich verändert hat."
-commonMistakes:
-  - "Code und Verdrahtung gleichzeitig zu ändern und danach nicht mehr zu wissen, was geholfen hat."
-  - "Eine LED als Beweis für die ganze Schaltung zu lesen, obwohl sie nur einen Programmpunkt zeigt."
-  - "UART-Ausgaben zu vertrauen, ohne zu prüfen, ob Takt, Baudrate und Verbindung passen."
-keyTakeaways:
-  - "Gute Fehlersuche isoliert jeweils nur eine Frage."
-  - "LED, UART und Messgerät liefern verschiedene Arten von Hinweisen."
-  - "Ein reproduzierbarer Minimaltest ist oft wertvoller als ein großes Programm mit vielen Vermutungen."
-recognizeSignals:
-  - "Ein Mikrocontrollerprogramm läuft nicht wie erwartet, aber die Ursache ist unklar."
-  - "Es gibt Hinweise auf falsche Verdrahtung, falsche Register oder falsche Programmlogik."
-  - "Eine Aufgabe fragt nach einer sinnvollen Reihenfolge beim Debuggen."
-selfCheckPoints:
-  - "Kann ich sagen, welche konkrete Frage mein nächster Test beantwortet?"
-  - "Ändere ich gerade nur eine Sache?"
-  - "Kann ich zwischen elektrischer Messung und Programmlogik unterscheiden?"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - debugging
-  - uart
-  - messgeraet
-level: einfach
+title: "Mikrocontroller – Fehlersuche mit LED, UART und Messgerät"
+description: "Lerne, Mikrocontrollerfehler systematisch einzugrenzen, statt Code, Schaltung und Messwert gleichzeitig zu raten."
+subject: "elektrotechnik"
+section: "Mikrocontroller und ATmega"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "fehlersuche-mit-led-uart-und-messgeraet"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei Mikrocontrollerprojekten können Fehler aus mehreren Richtungen kommen: Verdrahtung, Versorgung, Registerkonfiguration, Programmlogik, Timing oder Messmethode. Gute Fehlersuche versucht deshalb nicht, alles gleichzeitig zu raten. Sie stellt nacheinander kleine, beantwortbare Fragen.

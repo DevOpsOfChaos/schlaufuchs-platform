@@ -3,20 +3,12 @@ title: "Lösung – Abort bei veralteter Anfrage nutzen"
 description: "Musterlösung zu Abort bei veralteter Anfrage nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "javascript"
-  - "async-und-fetch"
-  - "abort-bei-veralteter-anfrage-nutzen-v113"
+topicPath: ["javascript", "async-und-fetch", "abort-bei-veralteter-anfrage-nutzen-v113"]
 taskId: "v113-web-development-abort-bei-veralteter-anfrage-nutzen-v113"
 relatedExercise: "web-development/javascript/async-und-fetch/abort-bei-veralteter-anfrage-nutzen-v113"
-tags:
-  - "web development"
-  - "strukturcheck"
-  - "unterthema"
-  - "abort-bei-veralteter-anfrage-nutzen-v113"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Abort bei veralteter Anfrage nutzen**.

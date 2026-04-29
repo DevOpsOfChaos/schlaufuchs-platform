@@ -1,35 +1,19 @@
 ---
 title: "Pipes und Umleitungen"
 description: "Allgemeiner Überblick über Pipes, Ein- und Ausgabeumleitung als Grundprinzipien der Linux-Shell."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - "pipes-und-umleitungen"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst Standardeingabe, Standardausgabe und Fehlerausgabe."
-  - "Du kannst Pipes als Verbindung zwischen Programmen einordnen."
-  - "Du verstehst den Unterschied zwischen Weiterleiten und Speichern von Ausgaben."
+topicPath: ["pipes-und-umleitungen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Fehlerausgabe und normale Ausgabe gleich zu behandeln."
-  - "Umleitungen zu verwenden, ohne Überschreiben und Anhängen zu unterscheiden."
-keyTakeaways:
-  - "Pipes verbinden die Ausgabe eines Programms mit der Eingabe eines anderen."
-  - "Umleitungen steuern, wohin Eingabe, Ausgabe und Fehlerausgabe gehen."
-recognizeSignals:
-  - "Es geht um `|`, `>`, `>>`, `<`, Logs, Filterketten oder Textwerkzeuge."
-selfCheckPoints:
-  - "Kann ich sagen, welcher Datenstrom in einer Befehlszeile wohin fließt?"
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "pipes"
-  - "umleitungen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
-
 # Pipes und Umleitungen
 
 ![Schaubild zu Pipes und Umleitungen.](/schlaufuchs-platform/images/overviews/v148/pipes-und-umleitungen.svg)

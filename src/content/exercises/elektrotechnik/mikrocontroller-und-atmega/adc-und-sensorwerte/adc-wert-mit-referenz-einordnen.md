@@ -1,30 +1,17 @@
 ---
 title: "ADC-Wert mit Referenz einordnen"
 description: "Übe, ADC-Werte nicht isoliert, sondern mit Referenzspannung und Auflösung zu deuten."
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - adc-und-sensorwerte
-taskId: ET-V180-ADC-001
-tags:
-  - elektrotechnik
-  - adc
-  - sensorwerte
-  - messung
-hintPoints:
-  - "Trenne zuerst Begriffe, bevor du rechnest oder Code liest."
-  - "Begründe deine Zuordnung fachlich in ganzen Sätzen."
-selfCheckPoints:
-  - "Kann ich die Grundidee ohne Spezialfall erklären?"
-  - "Kann ich typische Fehler benennen?"
-transferIdeas:
-  - "Übertrage die gleiche Prüflogik auf eine ähnliche Schaltung oder Mikrocontroller-Situation."
-reflectionPrompt: "Welche Annahme müsste ich prüfen, bevor ich die Aufgabe praktisch umsetze?"
-level: einfach
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["mikrocontroller-und-atmega", "adc-und-sensorwerte", "adc-wert-mit-referenz-einordnen"]
+taskId: "ET-V180-ADC-001"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe trainiert die ruhige fachliche Einordnung. Ziel ist nicht, sofort eine Formel oder Codezeile zu suchen, sondern den Zusammenhang sauber zu lesen.
 
 ## Aufgabe

@@ -3,22 +3,12 @@ title: "Lösung: Maske vor Operation erklären"
 description: "Musterlösung zur Aufgabe „Maske vor Operation erklären“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "mikrocontroller-strukturpraxis"
-  - "register-und-bitmasken"
-  - "maske-vor-operation-erklaeren-v116"
+topicPath: ["mikrocontroller-strukturpraxis", "register-und-bitmasken", "maske-vor-operation-erklaeren-v116"]
 taskId: "maske-vor-operation-erklaeren-v116"
 relatedExercise: "elektrotechnik/mikrocontroller-strukturpraxis/register-und-bitmasken/maske-vor-operation-erklaeren-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "register und bitmasken"
-  - "maske vor operation erklaeren"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

@@ -1,15 +1,14 @@
 ---
-title: Änderungsrate im Alltag – Lösung B
-description: Musterlösung zu Änderungsrate im Alltag mit Kontrolle.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Änderungsrate im Alltag – Lösung B"
+description: "Musterlösung zu Änderungsrate im Alltag mit Kontrolle."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "analysis-vorbereitung", "aenderungsrate-im-alltag"]
 taskId: "mat-v196-aenderungsrate-im-alltag-b"
 relatedExercise: "mathematik/sanierung-v196/aenderungsrate-im-alltag-aufgabe-b"
 tags: ["mathematik", "v196", "analysis-vorbereitung", "aenderungsrate-im-alltag"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine passende Lösung zu dieser Aufgabe muss nicht exakt dieselben Zahlen oder Beispiele verwenden. Entscheidend ist der saubere Aufbau.

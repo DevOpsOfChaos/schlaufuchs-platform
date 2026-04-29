@@ -1,27 +1,17 @@
 ---
 title: "Debugging und Fehlerhypothesen anwenden und prüfen"
 description: "Übe Debugging und Fehlerhypothesen mit Begriffen, Beispielen und typischen Prüfungen."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "debugging-und-fehlerhypothesen"
-taskId: INF-V183-12-B
-tags:
-  - "informatik"
-  - "debugging-und-fehlerhypothesen"
-hintPoints:
-  - "Beginne mit der allgemeinen Idee."
-  - "Trenne Begriff, Beispiel und Fehlerquelle."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe sauber unterscheiden."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel aus einem anderen Informatikthema."
-reflectionPrompt: "Welche Unterscheidung war hier am wichtigsten?"
-level: mittel
+topicPath: ["programmierpraxis-und-tests", "debugging-und-fehlerhypothesen", "debugging-und-fehlerhypothesen-anwenden-und-pruefen-v183"]
+taskId: "INF-V183-12-B"
+tags: ["informatik", "Programmierpraxis und Tests", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Debugging und Fehlerhypothesen**.
 
 ## Aufgabe 1 – Begriffe klären

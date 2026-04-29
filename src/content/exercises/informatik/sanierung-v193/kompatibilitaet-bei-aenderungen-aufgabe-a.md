@@ -3,36 +3,15 @@ title: "Kompatibilität bei Änderungen: Aufgabe A"
 description: "Plane eine Änderung an einer Funktion ohne bestehende Aufrufer zu brechen."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "projektstruktur-und-codepflege"
-  - "kompatibilitaet-bei-aenderungen"
-  - "aufgabe-a"
+topicPath: ["sanierung-v193", "kompatibilitaet-bei-aenderungen-aufgabe-a"]
 taskId: "informatik-v193-027a"
-tags:
-  - "kompatibilitaet"
-  - "bei"
-  - "aenderungen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "aufgabe"
-  - "v193"
-hintPoints:
-  - "Beschreibe zuerst das erwartete Verhalten."
-  - "Nenne mindestens eine beteiligte Datenstruktur, Schnittstelle oder Zustandsänderung."
-  - "Formuliere einen kleinen Kontrollpunkt oder Test."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Kompatibilität bei Änderungen."
-  - "Erwartung und tatsächliche Beobachtung werden getrennt."
-  - "Der Prüfweg ist klein genug, um ihn direkt nachzuvollziehen."
-transferIdeas:
-  - "Übertrage den Prüfweg auf ein anderes Modul oder eine zweite Eingabe."
-  - "Notiere, welche Annahme du durch einen Test absichern würdest."
-reflectionPrompt: "Welche Annahme wäre am gefährlichsten, wenn sie still falsch bleibt?"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Plane eine Änderung an einer Funktion ohne bestehende Aufrufer zu brechen.

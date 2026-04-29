@@ -1,35 +1,17 @@
 ---
 title: "Zeitsynchronisation mit chrony"
 description: "Überblick über chrony, NTP und die Bedeutung korrekter Systemzeit."
-subject: linux
+subject: "linux"
 section: "Systemzeit"
-topicPath:
-  - "zeitsynchronisation-mit-chrony"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Zeitsynchronisation mit chrony als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["zeitsynchronisation-mit-chrony", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Viele unterschätzen Zeit als Infrastrukturthema, bis Logs aus mehreren Systemen nicht mehr sinnvoll korreliert werden können."
-keyTakeaways:
-  - "chrony synchronisiert die Systemzeit mit Zeitquellen und hält sie auch bei unregelmäßiger Netzverbindung stabil."
-  - "Korrekte Zeit ist wichtig für Logs, Zertifikate, Authentifizierung, verteilte Systeme und Fehlersuche."
-  - "Zeitsynchronisation löst keine Zeitzonen- oder Formatierungsfragen. Sie stellt vor allem die korrekte Uhrzeitbasis bereit."
-recognizeSignals:
-  - "Es geht um Zeitsynchronisation mit chrony, wenn zeitabweichungen können TLS, Kerberos oder Tokenprüfung stören."
-  - "Das Thema wird relevant, wenn Beispiele wie ein Zertifikat kann scheinbar ungültig sein, wenn die Systemuhr deutlich falsch geht."
-selfCheckPoints:
-  - "Kann ich Zeitsynchronisation mit chrony in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "zeit"
-  - "ntp"
-  - "chrony"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Systemzeit"]
 draft: false
 ---
 # Zeitsynchronisation mit chrony

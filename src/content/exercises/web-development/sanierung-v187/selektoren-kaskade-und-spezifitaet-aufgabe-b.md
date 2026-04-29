@@ -3,35 +3,15 @@ title: "Selektoren, Kaskade und Spezifität: Prüfung und Verbesserung"
 description: "Vereinfache überladene Selektoren und erhalte trotzdem dieselbe Gestaltung."
 subject: "web-development"
 section: "css"
-topicPath: 
-  - "css-und-layout"
-  - "kaskade"
-  - "aufgabe-b"
+topicPath: ["sanierung-v187", "selektoren-kaskade-und-spezifitaet-aufgabe-b"]
 taskId: "web-v187-010b"
-tags: 
-  - "css"
-  - "kaskade"
-  - "spezifitaet"
-  - "selektoren"
-  - "web-development"
-  - "aufgabe"
-  - "v187"
-hintPoints: 
-  - "Trenne Zweck, Struktur und sichtbare Wirkung."
-  - "Begründe mindestens eine Entscheidung mit dem Nutzerziel."
-  - "Prüfe einen typischen Fehlerfall aus der Erklärseite."
-selfCheckPoints: 
-  - "Die Lösung passt zur Aufgabenstellung."
-  - "Mindestens eine Entscheidung ist begründet."
-  - "Es gibt keine neue Aufgabe ohne passende Lösung."
-transferIdeas: 
-  - "Übertrage die Entscheidung auf eine zweite kleine Seite."
-  - "Formuliere eine kurze Checkliste für spätere Wiederholung."
-reflectionPrompt: "Welche Entscheidung war am wichtigsten, damit die Lösung ruhig und wartbar bleibt?"
+tags: ["web-development", "css", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Vereinfache überladene Selektoren und erhalte trotzdem dieselbe Gestaltung.

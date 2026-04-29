@@ -1,34 +1,19 @@
 ---
 title: "CSS-Architektur und Namenskonventionen"
 description: "Allgemeiner Überblick über CSS-Architektur, Benennung und wartbare Stylesheets."
-subject: web-development
+subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css-architektur-und-namenskonventionen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst CSS-Architektur und Namenskonventionen als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["css-architektur-und-namenskonventionen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird jedes Problem mit höherer Spezifität gelöst. Dadurch entstehen riskante Überschreibungsketten."
-keyTakeaways:
-  - "Gute CSS-Architektur macht sichtbar, welche Regel wofür verantwortlich ist."
-  - "CSS-Architektur und Namenskonventionen sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um CSS-Architektur und Namenskonventionen."
-selfCheckPoints:
-  - "Kann ich erklären, woran man CSS-Architektur und Namenskonventionen erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "web development"
-  - "css"
-  - "architektur"
-  - "wartbarkeit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 # CSS-Architektur und Namenskonventionen
 
 CSS-Architektur beschreibt, wie Stylesheets so aufgebaut werden, dass Regeln verständlich, wiederverwendbar und langfristig änderbar bleiben.

@@ -3,22 +3,12 @@ title: "Lösung: mittlere Änderung berechnen"
 description: "Musterlösung zur Aufgabe „mittlere Änderung berechnen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "analysis-vorbereitung"
-  - "aenderungsrate-und-steigung"
-  - "mittlere-aenderung-berechnen-v116"
+topicPath: ["analysis-vorbereitung", "aenderungsrate-und-steigung", "mittlere-aenderung-berechnen-v116"]
 taskId: "mittlere-aenderung-berechnen-v116"
 relatedExercise: "mathematik/analysis-vorbereitung/aenderungsrate-und-steigung/mittlere-aenderung-berechnen-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "aenderungsrate und steigung"
-  - "mittlere aenderung berechnen"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

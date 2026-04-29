@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Nebenläufigkeit und geteilte Zustände"
 description: "Ordne nebenläufige Abläufe und geteilte Daten als Quelle schwer sichtbarer Fehler ein."
-subject: informatik
+subject: "informatik"
 section: "programmierpraxis-und-tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "nebenlaeufigkeit-und-geteilte-zustaende"
-learningGoals:
-  - "Du erklärst die Grundidee von Nebenläufigkeit und geteilte Zustände in eigenen Worten."
-  - "Du ordnest typische Begriffe und Teilaspekte fachlich richtig ein."
-  - "Du erkennst, welche Detailseiten, Aufgaben oder Fehlerbilder zum Thema passen."
-practiceIdeas:
-  - "Beschreibe ein eigenes Beispiel und markiere die wichtigsten Begriffe."
-  - "Vergleiche die Übersicht mit einer konkreten Aufgabe zum gleichen Thema."
-commonMistakes:
-  - "Ein einzelnes Beispiel für das gesamte Thema zu halten."
-  - "Begriffe zu vermischen, die unterschiedliche Rollen haben."
-  - "Direkt mit Spezialfällen zu beginnen, bevor die Grundidee klar ist."
-keyTakeaways:
-  - "Nebenläufigkeit bedeutet, dass mehrere Abläufe zeitlich überlappen können."
-  - "Geteilte Zustände müssen kontrolliert gelesen und verändert werden."
-  - "Viele Fehler hängen von Reihenfolge und Timing ab."
-recognizeSignals:
-  - "Du suchst zuerst eine allgemeine Einordnung statt eines Einzelfalls."
-  - "Mehrere Detailseiten wirken ähnlich und sollen fachlich sortiert werden."
-selfCheckPoints:
-  - "Kann ich das Thema in zwei bis drei Sätzen allgemein erklären?"
-  - "Kann ich die wichtigsten Teilaspekte voneinander unterscheiden?"
-level: fortgeschritten
-tags:
-  - "informatik"
-  - "nebenlaeufigkeit"
-  - "zustand"
+topicPath: ["programmierpraxis-und-tests", "nebenlaeufigkeit-und-geteilte-zustaende", "ueberblick", "grundlagen-nebenlaeufigkeit-und-geteilte-zustaende"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
+tags: ["informatik", "programmierpraxis-und-tests"]
 draft: false
 ---
-
 ![Geteilte Zustände koordinieren](/schlaufuchs-platform/images/overviews/v184/nebenlaeufigkeit-und-geteilte-zustaende.svg)
 
 ## Begriff

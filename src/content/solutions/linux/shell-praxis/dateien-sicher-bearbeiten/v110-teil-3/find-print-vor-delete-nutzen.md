@@ -3,23 +3,12 @@ title: "Lösung – find -print vor -delete nutzen"
 description: "Musterlösung zu find -print vor -delete nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell-praxis"
-  - "dateien-sicher-bearbeiten"
-  - "v110-teil-3"
-  - "find-print-vor-delete-nutzen"
+topicPath: ["shell-praxis", "dateien-sicher-bearbeiten", "v110-teil-3", "find-print-vor-delete-nutzen"]
 taskId: "v110-linux-find-print-vor-delete-nutzen"
 relatedExercise: "linux/shell-praxis/dateien-sicher-bearbeiten/v110-teil-3/find-print-vor-delete-nutzen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "shell-praxis"
-  - "dateien-sicher-bearbeiten"
-  - "find-print-vor-delete-nutzen"
+tags: ["linux", "Shell", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **find -print vor -delete nutzen**.

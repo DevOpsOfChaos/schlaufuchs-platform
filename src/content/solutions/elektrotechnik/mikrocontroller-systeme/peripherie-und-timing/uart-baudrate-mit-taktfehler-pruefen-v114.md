@@ -1,23 +1,14 @@
 ---
-title: Lösung – UART-Baudrate mit Taktfehler prüfen
-description: Musterlösung zur Aufgabe über UART-Baudrate mit Taktfehler prüfen.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- mikrocontroller-systeme
-- peripherie-und-timing
-- uart-baudrate-mit-taktfehler-pruefen-v114
-taskId: v114-elektrotechnik-uart-baudrate-mit-taktfehler-pruefen-v114
-relatedExercise: elektrotechnik/mikrocontroller-systeme/peripherie-und-timing/uart-baudrate-mit-taktfehler-pruefen-v114
-tags:
-- elektrotechnik
-- v114
-- loesung
-- mikrocontroller-systeme
-- peripherie-und-timing
+title: "Lösung – UART-Baudrate mit Taktfehler prüfen"
+description: "Musterlösung zur Aufgabe über UART-Baudrate mit Taktfehler prüfen."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["mikrocontroller-systeme", "peripherie-und-timing", "uart-baudrate-mit-taktfehler-pruefen-v114"]
+taskId: "v114-elektrotechnik-uart-baudrate-mit-taktfehler-pruefen-v114"
+relatedExercise: "elektrotechnik/mikrocontroller-systeme/peripherie-und-timing/uart-baudrate-mit-taktfehler-pruefen-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

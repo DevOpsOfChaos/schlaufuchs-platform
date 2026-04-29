@@ -3,21 +3,12 @@ title: "Lösung – Exitcode nach Befehl lesen"
 description: "Musterlösung zu exitcode nach befehl lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "pipelines-und-exitcodes"
-  - "exitcode-nach-befehl-lesen"
+topicPath: ["shell", "pipelines-und-exitcodes", "exitcode-nach-befehl-lesen"]
 taskId: "v112-linux-exitcode-nach-befehl-lesen"
 relatedExercise: "linux/shell/pipelines-und-exitcodes/exitcode-nach-befehl-lesen"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "exitcode-nach-befehl-lesen"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Pipelines und Exitcodes**.

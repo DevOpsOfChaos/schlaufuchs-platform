@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Startwert und Änderungsrate trennen"
 description: "Musterlösung zu Startwert und Änderungsrate trennen mit Trennkante und Gegenprobe."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "funktionsdenken-v115"
-  - "lineare-modelle"
-  - "startwert-und-aenderungsrate-trennen-v115"
+topicPath: ["funktionsdenken-v115", "lineare-modelle", "startwert-und-aenderungsrate-trennen-v115"]
 taskId: "mathematik-startwert-und-aenderungsrate-trennen-v115"
 relatedExercise: "mathematik/funktionsdenken-v115/lineare-modelle/startwert-und-aenderungsrate-trennen-v115"
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "funktionsdenken"
-  - "lineare modelle"
-  - "lösung"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Startwert und Änderungsrate trennen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

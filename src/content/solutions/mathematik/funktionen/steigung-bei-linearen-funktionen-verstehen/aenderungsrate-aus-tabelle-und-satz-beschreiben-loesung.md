@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Änderungsrate aus Tabelle und Satz beschreiben
-description: Erste festgehaltene Musterlösung zur Aufgabe MATH-FUNKTIONEN-STEIGUNG-001.
-subject: mathematik
-section: Funktionen
-topicPath:
-  - funktionen
-  - steigung-bei-linearen-funktionen-verstehen
-  - aenderungsrate-aus-tabelle-und-satz-beschreiben-loesung
-taskId: MATH-FUNKTIONEN-STEIGUNG-001
-relatedExercise: src/content/exercises/mathematik/funktionen/steigung-bei-linearen-funktionen-verstehen/aenderungsrate-aus-tabelle-und-satz-beschreiben.md
-tags:
-  - mathematik
-  - funktionen
-  - steigung
-  - loesung
-  - task-id
+title: "Musterlösung – Änderungsrate aus Tabelle und Satz beschreiben"
+description: "Erste festgehaltene Musterlösung zur Aufgabe MATH-FUNKTIONEN-STEIGUNG-001."
+subject: "mathematik"
+section: "Funktionen"
+topicPath: ["funktionen", "steigung-bei-linearen-funktionen-verstehen", "aenderungsrate-aus-tabelle-und-satz-beschreiben"]
+taskId: "MATH-FUNKTIONEN-STEIGUNG-001"
+relatedExercise: "src/content/exercises/mathematik/funktionen/steigung-bei-linearen-funktionen-verstehen/aenderungsrate-aus-tabelle-und-satz-beschreiben.md"
+tags: ["mathematik", "Funktionen", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Tabelle lesen
 
 Gegeben ist:

@@ -3,33 +3,15 @@ title: "Bit, Byte und Codierung: Grundordnung"
 description: "Ordne Bit, Byte und Codierung in Zweck, Prüffragen und Fehlerquellen."
 subject: "daten-und-signale"
 section: "codierung"
-topicPath:
-  - "codierung"
-  - "bit-byte-und-codierung"
-  - "aufgabe-a"
+topicPath: ["sanierung-v189", "bit-byte-und-codierung-aufgabe-a"]
 taskId: "dat-v189-009a"
-tags:
-  - "bit"
-  - "byte"
-  - "codierung"
-  - "daten-und-signale"
-  - "aufgabe"
-  - "v189"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["daten-und-signale", "codierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Du arbeitest am Thema **Bit, Byte und Codierung**. Erstelle eine kurze, geordnete Erklärung für eine lernende Person.

@@ -1,34 +1,19 @@
 ---
 title: "Dreiecke und Winkelbeziehungen"
 description: "Allgemeiner Überblick über Dreiecke, Winkel und grundlegende Beziehungen."
-subject: mathematik
+subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - "dreiecke-und-winkelbeziehungen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Dreiecke und Winkelbeziehungen als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["dreiecke-und-winkelbeziehungen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Eigenschaften spezieller Dreiecke auf alle Dreiecke übertragen."
-keyTakeaways:
-  - "Dreiecke bündeln viele zentrale Winkel- und Seitenbeziehungen."
-  - "Dreiecke und Winkelbeziehungen sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Dreiecke und Winkelbeziehungen."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Dreiecke und Winkelbeziehungen erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "mathematik"
-  - "dreiecke"
-  - "winkel"
-  - "geometrie"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Geometrie"]
 draft: false
 ---
-
 # Dreiecke und Winkelbeziehungen
 
 ![Schaubild zu Dreiecken und Winkelbeziehungen.](/schlaufuchs-platform/images/overviews/v149/dreiecke-und-winkelbeziehungen.svg)

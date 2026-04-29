@@ -1,45 +1,19 @@
 ---
-title: Autocomplete und Inputmode sinnvoll nutzen
-description: Verstehe, wie diese Attribute Eingaben angenehmer machen und warum sie Hilfen für das Ausfüllen sind, nicht bloß technische Nebensätze.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - formulare-und-eingaben
-  - autocomplete-und-inputmode-sinnvoll-nutzen
-learningGoals:
-  - Du erklärst die Rolle von autocomplete und inputmode.
-  - Du unterscheidest Ausfüllhilfe und Tastaturhinweis sauber voneinander.
-  - Du begründest Formulareigenschaften eher über Nutzungsfluss als über Attributlisten.
-practiceIdeas:
-  - Vergleiche ein E-Mail-Feld mit passendem autocomplete und inputmode mit einem allgemeinen Textfeld.
-  - Prüfe bei Mobilgeräten, welche Tastatur ein Feld sinnvoll unterstützt.
-  - Begründe Formularattribute über Eingabesituation und Fehlerrisiko.
-commonMistakes:
-  - autocomplete und inputmode gleichzusetzen.
-  - jedes Feld einfach als text zu belassen.
-  - nur den HTML-Code zu lesen und nicht die Hilfe für Nutzende.
-keyTakeaways:
-  - autocomplete hilft beim schnellen Wiederverwenden bekannter Daten.
-  - inputmode beeinflusst vor allem die passende Eingabetastatur.
-  - Beide zusammen verbessern Formulareingaben spürbar.
-recognizeSignals:
-  - Es geht um Formulare auf Mobilgeräten oder um bequemere Dateneingabe.
-  - Du sollst erklären, warum bestimmte Felder leichter auszufüllen sind.
-  - In Beispielen zählt die Eingabesituation stärker als das reine Attributwissen.
-selfCheckPoints:
-  - Kann ich autocomplete und inputmode fachlich trennen?
-  - Kann ich erklären, welches Feld von welcher Hilfe profitiert?
-  - Kann ich Formulareigenschaften über Nutzungslogik begründen?
-tags:
-  - html
-  - formular
-  - autocomplete
-  - inputmode
-level: mittel
+title: "Autocomplete und Inputmode sinnvoll nutzen"
+description: "Verstehe, wie diese Attribute Eingaben angenehmer machen und warum sie Hilfen für das Ausfüllen sind, nicht bloß technische Nebensätze."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "autocomplete-und-inputmode-sinnvoll-nutzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Gute Formulare sind nicht nur korrekt, sondern auch **leichter auszufüllen**. Genau hier helfen `autocomplete` und `inputmode`.

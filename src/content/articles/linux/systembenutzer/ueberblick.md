@@ -1,33 +1,19 @@
 ---
 title: "Systembenutzer"
 description: "Systembenutzer sind Konten für Dienste und Prozesse, nicht für normale interaktive Arbeit. Sie begrenzen Rechte und trennen Verantwortlichkeiten."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "systembenutzer"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Systembenutzer."
-  - "Du kannst Systembenutzer in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["systembenutzer", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Dienste unnötig als root laufen zu lassen."
-keyTakeaways:
-  - "Systembenutzer sind Konten für Dienste und Prozesse, nicht für normale interaktive Arbeit."
-  - "Wichtig sind vor allem dienstkonten, minimale rechte und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Systembenutzer, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Systembenutzer dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "linux"
-  - "grundlagen"
-  - "systembenutzer"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # Systembenutzer
 
 Systembenutzer sind Konten für Dienste und Prozesse, nicht für normale interaktive Arbeit. Sie begrenzen Rechte und trennen Verantwortlichkeiten. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

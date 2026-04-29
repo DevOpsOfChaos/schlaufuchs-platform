@@ -3,21 +3,12 @@ title: "Lösung – flex-direction, order und Lesereihenfolge trennen"
 description: "Musterlösung zu: Prüfe eine Produktkarte mit Bild, Titel, Preis und Kaufen-Button. Lege eine sinnvolle DOM-Reihenfolge fest und entscheide, ob order nötig ist."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "flexbox"
-  - "flex-direction-order-und-lesereihenfolge-trennen"
+topicPath: ["css", "flexbox", "flex-direction-order-und-lesereihenfolge-trennen"]
 taskId: "wd-v97-flex-direction-order-und-lesereihenfolge-trennen"
 relatedExercise: "web-development/css/flexbox/flex-direction-order-und-lesereihenfolge-trennen"
-tags:
-  - "web development"
-  - "css"
-  - "flexbox"
-  - "order"
-  - "accessibility"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Das Problem entsteht nicht nur im Code, sondern in der Nutzung: Wenn Bedeutung, Struktur oder Rückmeldung unklar bleiben, müssen Nutzerinnen und Nutzer raten. Besonders kritisch wird das bei Tastaturbedienung, kleinen Bildschirmen, langen Inhalten oder assistiven Technologien.

@@ -3,24 +3,12 @@ title: "Lösung: Komplexität alltagsnah abschätzen: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-022a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "datenstrukturen-und-algorithmen"
-  - "komplexitaet-alltagsnah-abschaetzen"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "komplexitaet-alltagsnah-abschaetzen-loesung-a"]
 taskId: "informatik-v193-022a"
 relatedExercise: "informatik/sanierung-v193/komplexitaet-alltagsnah-abschaetzen-aufgabe-a"
-tags:
-  - "komplexitaet"
-  - "alltagsnah"
-  - "abschaetzen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-022a`
 
 Ausgangsauftrag: Vergleiche zwei Suchstrategien für kleine und große Datenmengen.

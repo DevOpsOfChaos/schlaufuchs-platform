@@ -1,36 +1,19 @@
 ---
 title: "Kreis und Kreisgrößen"
 description: "Überblick über Radius, Durchmesser, Umfang, Fläche und zentrale Zusammenhänge am Kreis."
-subject: mathematik
+subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - "kreis-und-kreisgroessen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Kreis und Kreisgrößen als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["kreis-und-kreisgroessen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Radius und Durchmesser werden häufig verwechselt."
-keyTakeaways:
-  - "Der Radius definiert den Kreis."
-  - "Durchmesser ist doppelt so groß wie Radius."
-  - "Umfang und Fläche hängen über π mit dem Radius zusammen."
-recognizeSignals:
-  - "Es geht um runde Formen, Radien oder Durchmesser."
-  - "Eine Aufgabe unterscheidet Randlänge und Flächeninhalt."
-selfCheckPoints:
-  - "Kann ich Kreis und Kreisgrößen in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "geometrie"
-  - "kreis"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Geometrie"]
 draft: false
 ---
-
 # Kreis und Kreisgrößen
 
 Ein Kreis ist die Menge aller Punkte einer Ebene, die denselben Abstand von einem Mittelpunkt haben. Dieser Abstand heißt Radius.

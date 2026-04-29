@@ -1,44 +1,19 @@
 ---
-title: Starke Passwörter und Authentifizierung
-description: Verstehe, warum sichere Passwörter allein nicht alles sind und wie Authentifizierung den Zugang schützt.
-subject: informatik
-section: Sicherheit
-topicPath:
-  - sicherheit
-  - starke-passwoerter-und-authentifizierung
-learningGoals:
-  - Du erklärst, warum starke Passwörter wichtig sind.
-  - Du unterscheidest Passwort und Authentifizierung als verwandte, aber nicht gleiche Ideen.
-  - Du erkennst, warum zusätzlicher Schutz über ein einzelnes Passwort hinaus sinnvoll ist.
-practiceIdeas:
-  - Vergleiche schwache und starke Passwortstrategien begründet statt nur gefühlt.
-  - Ordne Beispiele nach Wissen, Besitz oder zusätzlichem Sicherheitsfaktor.
-  - Prüfe bei einem Login-System, welche Schutzidee wirklich eingesetzt wird.
-commonMistakes:
-  - Ein kurzes, leicht merkbares Passwort als ausreichend sicher anzusehen.
-  - Passwort und Benutzername zu verwechseln.
-  - Authentifizierung nur auf ein einziges Passwort zu reduzieren.
-keyTakeaways:
-  - Ein starkes Passwort erschwert unbefugten Zugang.
-  - Authentifizierung bedeutet, dass ein System die Identität prüft.
-  - Zusätzliche Faktoren erhöhen den Schutz deutlich.
-recognizeSignals:
-  - Es geht um Logins, Konten, Zugang oder Schutzmaßnahmen.
-  - Du sollst Sicherheit erklären, nicht nur Regeln auswendig aufzählen.
-  - In Beispielen musst du unterscheiden, welche Schutzidee gerade eingesetzt wird.
-selfCheckPoints:
-  - Kann ich erklären, was ein starkes Passwort ausmacht?
-  - Kann ich Passwort und Authentifizierung unterscheiden?
-  - Kann ich erklären, warum zusätzliche Faktoren sinnvoll sind?
-tags:
-  - sicherheit
-  - passwort
-  - authentifizierung
-  - login
-level: einfach
+title: "Starke Passwörter und Authentifizierung"
+description: "Verstehe, warum sichere Passwörter allein nicht alles sind und wie Authentifizierung den Zugang schützt."
+subject: "informatik"
+section: "Sicherheit"
+topicPath: ["sicherheit", "starke-passwoerter-und-authentifizierung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Sicherheit"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Passwort schützt einen Zugang nur dann sinnvoll, wenn es nicht leicht zu erraten, zu wiederverwenden oder bequem zu missbrauchen ist. Gleichzeitig reicht ein Passwort allein oft nicht aus. Genau hier kommt **Authentifizierung** ins Spiel: Das System prüft, ob jemand wirklich die berechtigte Person ist.

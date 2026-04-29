@@ -3,46 +3,17 @@ title: "Elektrotechnik – Tasterflanken und Zustand unterscheiden"
 description: "Trenne gedrückten Zustand, Loslassen und Flankenereignis, damit Tasterlogik nicht mehrfach oder zu spät reagiert."
 subject: "elektrotechnik"
 section: "Digitale Eingänge"
-topicPath:
-  - "digitale-eingaenge-und-ausgaenge"
-  - "pegel-und-entprellung"
-  - "tasterflanken-und-zustand-unterscheiden"
-learningGoals:
-  - "Du erklärst die Kernidee von „Tasterlogik“ in eigenen Worten."
-  - "Du ordnest das Thema einem klaren Unterthema zu statt es in einem Sammelbereich zu verlieren."
-  - "Du leitest eine kleine Gegenprobe für echte Aufgaben oder Projekte ab."
-practiceIdeas:
-  - "Markiere zuerst, welche Unterfrage wirklich gestellt ist."
-  - "Notiere eine typische Fehlannahme und eine passende Gegenprobe."
-  - "Übertrage die Denkbewegung auf ein zweites kleines Beispiel."
-commonMistakes:
-  - "bei jedem Loop erneut auslösen"
-  - "Loslassen ignorieren"
-  - "Prellen als Codefehler missverstehen"
-keyTakeaways:
-  - "Tasterlogik wird klarer, wenn Zustand, Ursache und Prüfschritt getrennt werden."
-  - "Kleine Unterthemen sind leichter auffindbar und besser prüfbar als breite Sammelordner."
-  - "Eine gute Erklärung endet mit einer konkreten Gegenprobe."
-recognizeSignals:
-  - "Die Aufgabe enthält einen scheinbar kleinen Sonderfall oder Fehlerzustand."
-  - "Es muss zwischen Begriffen unterschieden werden, die im Alltag leicht vermischt werden."
-  - "Eine Entscheidung soll begründet und nicht nur auswendig angewendet werden."
-selfCheckPoints:
-  - "Kann ich das Unterthema mit einem Satz von Nachbarthemen abgrenzen?"
-  - "Kann ich einen typischen Fehler benennen?"
-  - "Kann ich eine konkrete Prüfung oder Rechnung anschließen?"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "mikrocontroller"
-  - "signale"
-  - "tasterlogik"
-  - "digitale-eingaenge-und-ausgaenge"
-  - "pegel-und-entprellung"
+topicPath: ["digitale-eingaenge-und-ausgaenge", "pegel-und-entprellung", "tasterflanken-und-zustand-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["elektrotechnik", "Digitale Eingänge"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Taster hat einen Zustand, aber viele Programme brauchen ein Ereignis: gerade gedrückt, gerade losgelassen oder dauerhaft gehalten. Diese Unterscheidung verhindert Mehrfachaktionen.

@@ -1,33 +1,19 @@
 ---
 title: "Ground Bounce"
 description: "Ground Bounce bezeichnet kurzzeitige Verschiebungen des Massepotentials, meist durch schnelle Stromänderungen. Das kann digitale Pegel verfälschen und analoge Messungen stören."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik und Mikrocontroller"
-topicPath:
-  - "ground-bounce"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Ground Bounce."
-  - "Du kannst Ground Bounce in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["ground-bounce", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Masse überall als exakt gleiches Potential anzunehmen."
-keyTakeaways:
-  - "Ground Bounce bezeichnet kurzzeitige Verschiebungen des Massepotentials, meist durch schnelle Stromänderungen."
-  - "Wichtig sind vor allem gemeinsame induktivitäten und rückstrompfade, schnelle schaltflanken und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Ground Bounce, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Ground Bounce dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "grundlagen"
-  - "ground bounce"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik und Mikrocontroller"]
 draft: false
 ---
-
 # Ground Bounce
 
 Ground Bounce bezeichnet kurzzeitige Verschiebungen des Massepotentials, meist durch schnelle Stromänderungen. Das kann digitale Pegel verfälschen und analoge Messungen stören. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

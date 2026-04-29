@@ -3,34 +3,15 @@ title: "Aufgabe – JavaScript – Cookies, SameSite und Sitzungen verstehen"
 description: "Erkläre an einem Login-Beispiel, warum ein Sitzungscookie anders behandelt werden sollte als eine harmlose Anzeigeeinstellung."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "sicherheit-und-daten"
-  - "cookies-samesite-und-sitzungen-verstehen"
+topicPath: ["javascript", "sicherheit-und-daten", "cookies-samesite-und-sitzungen-verstehen"]
 taskId: "web-v100-cookies-samesite-und-sitzungen-verstehen"
-tags:
-  - "web development"
-  - "javascript"
-  - "cookies"
-  - "sicherheit"
-  - "sessions"
-  - "aufgabe"
-hintPoints:
-  - "Lies zuerst die sichtbare Seitensituation, nicht nur einzelne Codezeilen."
-  - "Trenne Ursache, Entscheidung und erwartete Wirkung."
-  - "Denke mindestens einen Fehler-, Lade- oder Randfall mit."
-selfCheckPoints:
-  - "Ist die Entscheidung fachlich begründet?"
-  - "Ist klar, welche Nutzererfahrung verbessert wird?"
-  - "Wird der passende Browser- oder Projektbereich geprüft?"
-transferIdeas:
-  - "Übertrage die Idee auf eine kleine Lernkarte, ein Formular oder eine Navigation."
-  - "Beschreibe eine schwache Variante, die technisch funktioniert, aber didaktisch oder praktisch riskant bleibt."
-reflectionPrompt: "Welche Prüfung hätte den häufigsten Fehler bei dieser Aufgabe am frühesten sichtbar gemacht?"
+tags: ["web-development", "JavaScript", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Erkläre an einem Login-Beispiel, warum ein Sitzungscookie anders behandelt werden sollte als eine harmlose Anzeigeeinstellung.

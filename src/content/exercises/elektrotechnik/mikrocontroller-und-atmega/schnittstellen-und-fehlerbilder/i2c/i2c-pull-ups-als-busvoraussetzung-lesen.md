@@ -3,35 +3,15 @@ title: "Aufgabe – I2C-Pull-ups als Busvoraussetzung lesen"
 description: "Übe I2C Pull-ups mit Szenario, Trennkante und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "schnittstellen-und-fehlerbilder"
-  - "i2c"
-  - "i2c-pull-ups-als-busvoraussetzung-lesen"
+topicPath: ["mikrocontroller-und-atmega", "schnittstellen-und-fehlerbilder", "i2c", "i2c-pull-ups-als-busvoraussetzung-lesen"]
 taskId: "v111-elektrotechnik-i2c-pull-ups-als-busvoraussetzung-lesen"
-tags:
-  - "elektrotechnik"
-  - "praxis"
-  - "unterthema"
-  - "mikrocontroller-und-atmega"
-  - "schnittstellen-und-fehlerbilder"
-  - "i2c-pull-ups-als-busvoraussetzung-lesen"
-hintPoints:
-  - "Benenne zuerst das genaue Unterthema."
-  - "Schreibe die typische Verwechslung ausdrücklich auf."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Lösung enger als ein breites Kapitel?"
-  - "Wird ein Nachbarthema sauber ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere eine zweite Aufgabe im gleichen Unterthema mit anderer Oberfläche."
-reflectionPrompt: "Welche kleine Trennkante macht I2C Pull-ups übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **I2C Pull-ups**.

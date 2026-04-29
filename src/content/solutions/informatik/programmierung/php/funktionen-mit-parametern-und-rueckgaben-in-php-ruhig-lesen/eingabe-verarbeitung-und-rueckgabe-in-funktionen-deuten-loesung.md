@@ -1,21 +1,14 @@
 ---
-title: Loesung – Eingabe, Verarbeitung und Rueckgabe in Funktionen deuten
-description: Musterloesung zur Aufgabe ueber Parameter und Rueckgaben in PHP Funktionen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - funktionen-mit-parametern-und-rueckgaben-in-php-ruhig-lesen
-taskId: INF-PHP-FUNC-009
-relatedExercise: informatik/programmierung/php/funktionen-mit-parametern-und-rueckgaben-in-php-ruhig-lesen/eingabe-verarbeitung-und-rueckgabe-in-funktionen-deuten
-tags:
-  - informatik
-  - php
-  - loesung
+title: "Loesung – Eingabe, Verarbeitung und Rueckgabe in Funktionen deuten"
+description: "Musterloesung zur Aufgabe ueber Parameter und Rueckgaben in PHP Funktionen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "funktionen-mit-parametern-und-rueckgaben-in-php-ruhig-lesen", "eingabe-verarbeitung-und-rueckgabe-in-funktionen-deuten"]
+taskId: "INF-PHP-FUNC-009"
+relatedExercise: "informatik/programmierung/php/funktionen-mit-parametern-und-rueckgaben-in-php-ruhig-lesen/eingabe-verarbeitung-und-rueckgabe-in-funktionen-deuten"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterloesung
 
 ### Aufgabe 1

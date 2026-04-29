@@ -1,34 +1,19 @@
 ---
 title: "Funktionen und Graphen"
 description: "Allgemeiner Überblick über Funktionen, Graphen und die Darstellung von Zusammenhängen in der Mathematik."
-subject: mathematik
+subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "funktionen-und-graphen"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst Funktionen als Zuordnung zwischen Größen."
-  - "Du kannst Graphen als Darstellung dieser Zuordnung einordnen."
-  - "Du verstehst typische Informationen wie Nullstellen, Steigung und Verlauf."
+topicPath: ["funktionen-und-graphen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Einen Graphen nur als Bild statt als Darstellung einer Zuordnung zu betrachten."
-  - "Achsenbeschriftung und Maßstab zu übersehen."
-keyTakeaways:
-  - "Eine Funktion ordnet jedem erlaubten Eingabewert genau einen Ausgabewert zu."
-  - "Der Graph macht Verlauf, Änderung und besondere Stellen sichtbar."
-recognizeSignals:
-  - "Es geht um Terme, Tabellen, Koordinaten, Nullstellen, Steigung oder Funktionswerte."
-selfCheckPoints:
-  - "Kann ich an einem Graphen Eingabe und Ausgabe unterscheiden?"
-level: einfach
-tags:
-  - "mathematik"
-  - "funktionen"
-  - "graphen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
-
 # Funktionen und Graphen
 
 ![Schaubild zu Funktionen und Graphen.](/schlaufuchs-platform/images/overviews/v148/funktionen-und-graphen.svg)

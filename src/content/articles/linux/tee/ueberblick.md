@@ -1,33 +1,19 @@
 ---
 title: "tee"
 description: "tee schreibt Eingaben gleichzeitig auf die Standardausgabe und in Dateien. Es ist praktisch, wenn Daten angezeigt und gespeichert werden sollen."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "tee"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von tee."
-  - "Du kannst tee in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["tee", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "sudo vor eine normale Umleitung zu setzen und zu erwarten, dass die Datei mit erhöhten Rechten geschrieben wird."
-keyTakeaways:
-  - "tee schreibt Eingaben gleichzeitig auf die Standardausgabe und in Dateien."
-  - "Wichtig sind vor allem weiterreichen in pipelines, protokolldateien schreiben und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um tee, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu tee dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "linux"
-  - "grundlagen"
-  - "tee"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # tee
 
 tee schreibt Eingaben gleichzeitig auf die Standardausgabe und in Dateien. Es ist praktisch, wenn Daten angezeigt und gespeichert werden sollen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

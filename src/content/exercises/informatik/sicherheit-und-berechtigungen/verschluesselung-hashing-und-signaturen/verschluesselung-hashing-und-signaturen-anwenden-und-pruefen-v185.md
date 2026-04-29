@@ -1,29 +1,17 @@
 ---
 title: "Verschlüsselung, Hashing und Signaturen – anwenden und prüfen"
 description: "Übe, verschlüsselung, hashing und signaturen fachlich auf Beispiele anzuwenden und zu überprüfen."
-subject: informatik
+subject: "informatik"
 section: "Sicherheit und Berechtigungen"
-topicPath:
-  - "sicherheit-und-berechtigungen"
-  - "verschluesselung-hashing-und-signaturen"
-  - "uebung"
-taskId: INF-V185-022-2
-tags:
-  - "informatik"
-  - "sicherheit-und-berechtigungen"
-  - "verschluesselung-hashing-und-signaturen"
-hintPoints:
-  - "Beginne mit der Grundidee, nicht mit einem Spezialfall."
-  - "Trenne Begriff, Beispiel und Prüfung."
-selfCheckPoints:
-  - "Ich kann das Thema in eigenen Worten erklären."
-  - "Ich kann ein passendes Beispiel begründen."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel in einem anderen Fachbereich."
-level: einfach
+topicPath: ["sicherheit-und-berechtigungen", "verschluesselung-hashing-und-signaturen", "verschluesselung-hashing-und-signaturen-anwenden-und-pruefen-v185"]
+taskId: "INF-V185-022-2"
+tags: ["informatik", "Sicherheit und Berechtigungen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe nutzt **Verschlüsselung, Hashing und Signaturen**, um Beispiele, Grenzen und Prüfwege bewusster zu unterscheiden.
 
 ## Lernziel

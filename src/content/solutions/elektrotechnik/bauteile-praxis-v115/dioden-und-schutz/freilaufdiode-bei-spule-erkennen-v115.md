@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Freilaufdiode bei Spule erkennen"
 description: "Musterlösung zu Freilaufdiode bei Spule erkennen mit Trennkante und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "bauteile-praxis-v115"
-  - "dioden-und-schutz"
-  - "freilaufdiode-bei-spule-erkennen-v115"
+topicPath: ["bauteile-praxis-v115", "dioden-und-schutz", "freilaufdiode-bei-spule-erkennen-v115"]
 taskId: "elektrotechnik-freilaufdiode-bei-spule-erkennen-v115"
 relatedExercise: "elektrotechnik/bauteile-praxis-v115/dioden-und-schutz/freilaufdiode-bei-spule-erkennen-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "bauteile in der praxis"
-  - "dioden und schutz"
-  - "lösung"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Freilaufdiode bei Spule erkennen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

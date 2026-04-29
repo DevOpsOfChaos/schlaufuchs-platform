@@ -1,31 +1,17 @@
 ---
 title: "Binärsystem und Zahlendarstellung"
 description: "Allgemeiner Überblick über binäre Zahlen, Stellenwertsysteme und digitale Darstellung."
-subject: informatik
+subject: "informatik"
 section: "Grundlagen"
-topicPath:
-  - "binaersystem-und-zahlendarstellung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Binärsystem und Zahlendarstellung grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["binaersystem-und-zahlendarstellung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Binärsystem und Zahlendarstellung nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Binärsystem und Zahlendarstellung beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Binärsystem und Zahlendarstellung, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Binärsystem und Zahlendarstellung in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "binaersystem"
-  - "zahlen"
-  - "grundlagen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Grundlagen"]
 draft: false
 ---
 # Binärsystem und Zahlendarstellung

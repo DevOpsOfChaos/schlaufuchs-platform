@@ -3,21 +3,12 @@ title: "Lösung – figure, figcaption und Bildkontext sauber verbinden"
 description: "Musterlösung zu: Entscheide für ein Produktfoto, ein erklärendes Diagramm und ein dekoratives Symbol, ob figure und figcaption sinnvoll sind."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "bilder-und-alt-texte"
-  - "figure-figcaption-und-bildkontext-sauber-verbinden"
+topicPath: ["html", "bilder-und-alt-texte", "figure-figcaption-und-bildkontext-sauber-verbinden"]
 taskId: "wd-v97-figure-figcaption-und-bildkontext-sauber-verbinden"
 relatedExercise: "web-development/html/bilder-und-alt-texte/figure-figcaption-und-bildkontext-sauber-verbinden"
-tags:
-  - "web development"
-  - "html"
-  - "bilder"
-  - "figure"
-  - "figcaption"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Das Problem entsteht nicht nur im Code, sondern in der Nutzung: Wenn Bedeutung, Struktur oder Rückmeldung unklar bleiben, müssen Nutzerinnen und Nutzer raten. Besonders kritisch wird das bei Tastaturbedienung, kleinen Bildschirmen, langen Inhalten oder assistiven Technologien.

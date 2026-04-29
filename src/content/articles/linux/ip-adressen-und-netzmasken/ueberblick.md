@@ -1,37 +1,19 @@
 ---
 title: "IP-Adressen und Netzmasken"
 description: "Überblick über IP-Adressen, Netzmasken und die Einordnung von Geräten in Netzwerken."
-subject: linux
+subject: "linux"
 section: "Netzwerk"
-topicPath:
-  - "ip-adressen-und-netzmasken"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst IP-Adressen und Netzmasken als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["ip-adressen-und-netzmasken", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird nur die IP-Adresse betrachtet, obwohl die Netzmaske entscheidet, welche Ziele direkt erreichbar sind."
-keyTakeaways:
-  - "IP-Adresse und Netzmaske gehören zusammen."
-  - "Das Gateway verbindet unterschiedliche Netze."
-  - "Linux-Netzwerkdiagnose beginnt oft mit Adresse und Route."
-recognizeSignals:
-  - "Ein Gerät erreicht lokale Ziele, aber nicht das Internet."
-  - "Ausgaben zeigen `/24` oder `255.255.255.0`."
-selfCheckPoints:
-  - "Kann ich IP-Adressen und Netzmasken in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "netzwerk"
-  - "ip"
-  - "netzmaske"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Netzwerk"]
 draft: false
 ---
-
 # IP-Adressen und Netzmasken
 
 IP-Adressen identifizieren Geräte oder Schnittstellen in einem Netzwerk. Netzmasken beschreiben, welcher Teil einer Adresse zum Netzwerk und welcher Teil zum Gerät gehört.

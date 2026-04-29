@@ -3,44 +3,17 @@ title: "Web-Projektpraxis – Sicherheits-Header als Grundidee einordnen"
 description: "Verstehe Sicherheits-Header als Browserregeln, die Risiken begrenzen, ohne schlechten Code oder fehlende Validierung zu ersetzen."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "sicherheits-header-grundidee-einordnen"
-learningGoals:
-  - "Du erklärst die Kernidee von „Sicherheits-Header als Grundidee einordnen“."
-  - "Du trennst sichtbare Nutzerwirkung, technische Ursache und organisatorische Prüffrage."
-  - "Du leitest aus einem kleinen Web-Szenario eine robuste Projektregel ab."
-practiceIdeas:
-  - "Prüfe eine vorhandene Web-Seite mit genau diesem Blick und notiere drei konkrete Beobachtungen."
-  - "Formuliere aus einer technischen Regel eine kurze Review-Frage."
-  - "Verbinde eine technische Maßnahme mit einer sichtbaren Auswirkung für Nutzende."
-commonMistakes:
-  - "Header blind kopieren"
-  - "kaputte Ressourcen ignorieren"
-  - "Sicherheit nur als Checklistenpunkt behandeln"
-keyTakeaways:
-  - "Header begrenzen Risiken"
-  - "Projektpraxis wird besser, wenn Entscheidungen klein, prüfbar und dokumentiert bleiben."
-  - "Robuste Web-Arbeit denkt Idealfall, Fehlerfall und späteres Ändern gemeinsam."
-recognizeSignals:
-  - "Eine Seite funktioniert im Idealfall, aber der Veröffentlichungs- oder Fehlerfall ist unklar."
-  - "Du sollst nicht nur Code schreiben, sondern Betrieb, Wartung oder Review mitdenken."
-  - "Eine technische Entscheidung braucht eine einfache Gegenprobe."
-selfCheckPoints:
-  - "Kann ich das Risiko ohne Fachjargon erklären?"
-  - "Kann ich eine konkrete Prüffrage formulieren?"
-  - "Kann ich zeigen, was sich für Nutzende oder Wartende verbessert?"
-tags:
-  - "web development"
-  - "sicherheit"
-  - "header"
-  - "browser"
-  - "betrieb"
+topicPath: ["projektpraxis", "betrieb-und-release", "sicherheits-header-grundidee-einordnen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "Projektpraxis"]
 draft: false
 ---
-
 ## Grundidee
 
 Sicherheits-Header geben dem Browser zusätzliche Regeln. Sie können zum Beispiel einschränken, woher Ressourcen geladen werden dürfen oder wie Inhalte eingebettet werden. Sie sind wichtig, aber kein Ersatz für saubere Ausgabe, Validierung und Rechtekonzepte.

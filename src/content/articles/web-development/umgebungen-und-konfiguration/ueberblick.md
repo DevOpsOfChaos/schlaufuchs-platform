@@ -1,34 +1,19 @@
 ---
 title: "Umgebungen und Konfiguration"
 description: "Allgemeiner Überblick über Entwicklungs-, Test- und Produktionsumgebungen im Web."
-subject: web-development
+subject: "web-development"
 section: "Konfiguration"
-topicPath:
-  - "umgebungen-und-konfiguration"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Umgebungen und Konfiguration als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["umgebungen-und-konfiguration", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden lokale Einstellungen versehentlich in Produktion übernommen."
-keyTakeaways:
-  - "Umgebungen und Konfiguration machen Anwendungen flexibel, verlangen aber klare Trennung."
-  - "Umgebungen und Konfiguration sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Umgebungen und Konfiguration."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Umgebungen und Konfiguration erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "web development"
-  - "konfiguration"
-  - "umgebungen"
-  - "deployment"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Konfiguration"]
 draft: false
 ---
-
 # Umgebungen und Konfiguration
 
 Eine Umgebung beschreibt den Kontext, in dem eine Webanwendung läuft, etwa lokal, im Testsystem oder in Produktion.

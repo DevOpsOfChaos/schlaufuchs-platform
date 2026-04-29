@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Shell und Terminal – anwenden und prüfen"
 description: "Musterlösung zur Linux-Aufgabe Shell und Terminal."
-subject: linux
+subject: "linux"
 section: "shell-und-terminal"
-topicPath:
-  - "shell-und-terminal"
-  - "shell-und-terminal"
-taskId: LINUX-SHELL-UND-TERMINAL-V186-2
-relatedExercise: src/content/exercises/linux/shell-und-terminal/shell-und-terminal/shell-und-terminal-anwenden-und-pruefen-v186.md
-tags:
-  - "linux"
-  - "shell"
-  - "terminal"
-  - "loesung"
+topicPath: ["shell-und-terminal", "shell-und-terminal", "shell-und-terminal-anwenden-und-pruefen-v186"]
+taskId: "LINUX-SHELL-UND-TERMINAL-V186-2"
+relatedExercise: "src/content/exercises/linux/shell-und-terminal/shell-und-terminal/shell-und-terminal-anwenden-und-pruefen-v186.md"
+tags: ["linux", "shell-und-terminal", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

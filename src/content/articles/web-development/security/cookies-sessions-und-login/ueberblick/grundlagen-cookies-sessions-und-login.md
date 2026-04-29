@@ -1,37 +1,19 @@
 ---
 title: "Grundlagen: Cookies, Sessions und Login"
 description: "Allgemeiner Überblick über Cookies, serverseitige Sessions, Anmeldung und sichere Zustandsverwaltung im Web."
-subject: web-development
+subject: "web-development"
 section: "Web-Sicherheit"
-topicPath:
-  - security
-  - cookies-sessions-und-login
-  - grundlagen-cookies-sessions-und-login
-learningGoals:
-  - "Du erklärst Cookies als kleine Datenstücke, die der Browser bei passenden Anfragen mitsendet."
-  - "Du unterscheidest Cookie, Session und Login-Zustand."
-  - "Du beschreibst grundlegende Sicherheitsfragen bei angemeldeten Nutzern."
+topicPath: ["security", "cookies-sessions-und-login", "ueberblick", "grundlagen-cookies-sessions-und-login"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Cookies pauschal mit Login gleichzusetzen."
-  - "Sensible Daten unüberlegt im Browser zu speichern."
-  - "Session-Schutz, Ablaufzeit und sichere Übertragung nicht mitzudenken."
-keyTakeaways:
-  - "Cookies können helfen, einen Zustand zwischen Anfragen wiederzuerkennen."
-  - "Eine Session beschreibt meist einen serverseitig verwalteten Zustand."
-  - "Login-Systeme müssen Identität, Ablaufzeit und Schutz vor Missbrauch berücksichtigen."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - "webentwicklung"
-  - "security"
-  - "cookies"
-  - "sessions"
-  - "login"
+level: "einfach"
+tags: ["web-development", "Web-Sicherheit"]
 draft: false
 ---
-
 ## Begriff
 
 Ein **Cookie** ist ein kleines Datenstück, das eine Webseite im Browser speichern kann. Bei passenden späteren Anfragen sendet der Browser dieses Cookie wieder an den Server. Dadurch kann ein Webangebot einen Nutzer oder eine Sitzung wiedererkennen.

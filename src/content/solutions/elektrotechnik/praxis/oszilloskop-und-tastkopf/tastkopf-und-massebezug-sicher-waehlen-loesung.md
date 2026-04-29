@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Tastkopf und Massebezug sicher wählen"
 description: "Musterlösung zur Aufgabe Tastkopf und Massebezug sicher wählen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - praxis
-  - oszilloskop-und-tastkopf
-taskId: ET-V181-015
-relatedExercise: src/content/exercises/elektrotechnik/praxis/oszilloskop-und-tastkopf/tastkopf-und-massebezug-sicher-waehlen.md
-tags:
-  - elektrotechnik
-  - oszilloskop-und-tastkopf
-  - loesung
+topicPath: ["praxis", "oszilloskop-und-tastkopf", "tastkopf-und-massebezug-sicher-waehlen"]
+taskId: "ET-V181-015"
+relatedExercise: "src/content/exercises/elektrotechnik/praxis/oszilloskop-und-tastkopf/tastkopf-und-massebezug-sicher-waehlen.md"
+tags: ["elektrotechnik", "Praxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

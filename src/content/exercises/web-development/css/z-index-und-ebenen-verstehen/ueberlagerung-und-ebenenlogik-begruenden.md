@@ -1,34 +1,17 @@
 ---
-title: Überlagerung und Ebenenlogik begründen
-description: Begründe, warum bei überlagernden Elementen nicht nur die Position, sondern auch die sichtbare Reihenfolge entschieden werden muss.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - z-index-und-ebenen-verstehen
-  - ueberlagerung-und-ebenenlogik-begruenden
-taskId: WEB-CSS-POS-203
-level: einfach
+title: "Überlagerung und Ebenenlogik begründen"
+description: "Begründe, warum bei überlagernden Elementen nicht nur die Position, sondern auch die sichtbare Reihenfolge entschieden werden muss."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "z-index-und-ebenen-verstehen", "ueberlagerung-und-ebenenlogik-begruenden"]
+taskId: "WEB-CSS-POS-203"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - css
-  - z-index
-  - ebene
-hintPoints:
-  - Frage zuerst, ob sich die Elemente überhaupt überlagern.
-  - Trenne Ort und Ebene sauber voneinander.
-  - Begründe, welches Element im Vordergrund sichtbar bleiben soll.
-selfCheckPoints:
-  - Hast du Position und Ebenenreihenfolge getrennt erklärt?
-  - Ist klar, warum z-index hier sichtbar relevant wird?
-  - Beschreibst du die Wirkung statt nur eine Zahl zu nennen?
-transferIdeas:
-  - Übertrage die Logik auf Tooltips, Menüs, Badges oder Bildbeschriftungen.
-  - Vergleiche eine Überlagerung mit einem normalen Flusslayout ohne Ebenenkonflikt.
-reflectionPrompt: Woran merkst du bei einem Layoutproblem, dass nicht die Position fehlt, sondern die sichtbare Ebenenreihenfolge?
 ---
-
 ## Aufgabe 1: Was liegt sichtbar oben?
 
 Ein kleines Badge überlappt eine Karte. Das Badge soll immer sichtbar bleiben.

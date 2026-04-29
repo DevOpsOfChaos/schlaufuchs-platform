@@ -3,23 +3,12 @@ title: "Lösung – Scheitelpunktform als Verschiebung lesen"
 description: "Musterlösung zu Scheitelpunktform mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "funktionen"
-  - "quadratische-funktionen"
-  - "scheitelpunktform"
-  - "scheitelpunktform-als-verschiebung-lesen"
+topicPath: ["funktionen", "quadratische-funktionen", "scheitelpunktform", "scheitelpunktform-als-verschiebung-lesen"]
 taskId: "v109-mathematik-scheitelpunktform-als-verschiebung-lesen"
 relatedExercise: "mathematik/funktionen/quadratische-funktionen/scheitelpunktform/scheitelpunktform-als-verschiebung-lesen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfen"
-  - "funktionen"
-  - "quadratische-funktionen"
-  - "scheitelpunktform"
+tags: ["mathematik", "Funktionen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Scheitelpunktform**.

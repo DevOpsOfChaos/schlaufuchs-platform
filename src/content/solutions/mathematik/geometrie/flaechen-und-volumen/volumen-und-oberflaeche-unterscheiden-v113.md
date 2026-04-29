@@ -3,20 +3,12 @@ title: "Lösung – Volumen und Oberfläche unterscheiden"
 description: "Musterlösung zu Volumen und Oberfläche unterscheiden mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "geometrie"
-  - "flaechen-und-volumen"
-  - "volumen-und-oberflaeche-unterscheiden-v113"
+topicPath: ["geometrie", "flaechen-und-volumen", "volumen-und-oberflaeche-unterscheiden-v113"]
 taskId: "v113-mathematik-volumen-und-oberflaeche-unterscheiden-v113"
 relatedExercise: "mathematik/geometrie/flaechen-und-volumen/volumen-und-oberflaeche-unterscheiden-v113"
-tags:
-  - "mathematik"
-  - "strukturcheck"
-  - "unterthema"
-  - "volumen-und-oberflaeche-unterscheiden-v113"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Volumen und Oberfläche unterscheiden**.

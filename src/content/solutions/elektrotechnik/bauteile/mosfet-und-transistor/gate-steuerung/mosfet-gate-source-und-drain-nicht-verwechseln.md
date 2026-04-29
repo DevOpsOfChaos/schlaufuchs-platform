@@ -3,23 +3,12 @@ title: "Lösung – MOSFET Gate, Source und Drain nicht verwechseln"
 description: "Musterlösung zu MOSFET-Anschlüsse mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "elektrotechnik"
 section: "Bauteile"
-topicPath:
-  - "bauteile"
-  - "mosfet-und-transistor"
-  - "gate-steuerung"
-  - "mosfet-gate-source-und-drain-nicht-verwechseln"
+topicPath: ["bauteile", "mosfet-und-transistor", "gate-steuerung", "mosfet-gate-source-und-drain-nicht-verwechseln"]
 taskId: "v108-elektrotechnik-mosfet-gate-source-und-drain-nicht-verwechseln"
 relatedExercise: "elektrotechnik/bauteile/mosfet-und-transistor/gate-steuerung/mosfet-gate-source-und-drain-nicht-verwechseln"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "schaltungen"
-  - "bauteile"
-  - "mosfet-und-transistor"
-  - "mosfet-anschlüsse"
+tags: ["elektrotechnik", "Bauteile", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **MOSFET-Anschlüsse**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

@@ -3,39 +3,17 @@ title: "Webarchitektur: Client, Server und Static"
 description: "Unterscheide, welche Aufgaben im Browser, beim Server oder schon beim Build erledigt werden."
 subject: "web-development"
 section: "architektur"
-topicPath: 
-  - "deployment-und-betrieb"
-  - "webarchitektur"
-learningGoals: 
-  - "Ort der Verarbeitung ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Ordne zehn typische Webaufgaben Client, Server oder Buildzeit zu."
-  - "Entscheide für eine kleine Dokumentationsseite, ob eine statische Architektur ausreicht."
-commonMistakes: 
-  - "Geheime Logik wird in Client-Code gelegt."
-  - "Buildzeit und Laufzeit werden verwechselt."
-  - "Statische Seiten werden unterschätzt, obwohl sie viele Inhalte gut tragen."
-keyTakeaways: 
-  - "Architektur wird klarer, wenn jede Aufgabe einen passenden Ausführungsort bekommt."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "Architektur wird klarer, wenn jede Aufgabe einen passenden Ausführungsort bekommt."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "webarchitektur-client-server-static"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags: 
-  - "architektur"
-  - "client"
-  - "server"
-  - "static-site"
-  - "web-development"
+tags: ["web-development", "architektur"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Webarchitektur: Client, Server und Static](/schlaufuchs-platform/images/web-development/sanierung-v187/webarchitektur-client-server-static.svg)
 
     Webarchitektur: Client, Server und Static ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

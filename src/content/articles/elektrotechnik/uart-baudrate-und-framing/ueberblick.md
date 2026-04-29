@@ -1,36 +1,19 @@
 ---
 title: "UART-Baudrate und Framing"
 description: "UART-Kommunikation verwendet eine vereinbarte Baudrate und ein Framing aus Startbit, Datenbits, optionaler Parität und Stopbit."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schnittstellen"
-topicPath:
-  - "uart-baudrate-und-framing"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst UART-Baudrate und Framing als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["uart-baudrate-und-framing", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird eine serielle Verbindung als reine Kabelverbindung betrachtet. Ohne passende Framing-Parameter ist sie nicht interpretierbar."
-keyTakeaways:
-  - "UART-Kommunikation verwendet eine vereinbarte Baudrate und ein Framing aus Startbit, Datenbits, optionaler Parität und Stopbit."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um UART-Baudrate und Framing, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich UART-Baudrate und Framing in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "uart"
-  - "serielle kommunikation"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Schnittstellen"]
 draft: false
 ---
-
 # UART-Baudrate und Framing
 
 UART-Kommunikation verwendet eine vereinbarte Baudrate und ein Framing aus Startbit, Datenbits,

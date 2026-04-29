@@ -1,20 +1,14 @@
 ---
-title: Lösung – Navigation, Struktur und Menüwege beurteilen
-description: Musterlösung zur Aufgabe über Menüstruktur, Hauptpunkte und erreichbare Wege.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - navigation-und-menues
-taskId: WEB-HTML-A11Y-304
-relatedExercise: web-development/html/navigation-und-menues/navigation-struktur-und-menuewege-beurteilen
-tags:
-  - html
-  - navigation
-  - loesung
+title: "Lösung – Navigation, Struktur und Menüwege beurteilen"
+description: "Musterlösung zur Aufgabe über Menüstruktur, Hauptpunkte und erreichbare Wege."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "navigation-und-menues", "navigation-struktur-und-menuewege-beurteilen"]
+taskId: "WEB-HTML-A11Y-304"
+relatedExercise: "web-development/html/navigation-und-menues/navigation-struktur-und-menuewege-beurteilen"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

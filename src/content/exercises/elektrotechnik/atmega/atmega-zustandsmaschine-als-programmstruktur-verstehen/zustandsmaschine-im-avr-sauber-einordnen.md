@@ -1,32 +1,17 @@
 ---
-title: Zustandsmaschine im AVR sauber einordnen
-description: Ordne ein reaktives Mikrocontroller-Programm als Zustände und Übergänge und erkläre, warum diese Struktur ruhiger ist als viele Sonderfallketten.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - programmstruktur-und-reaktivitaet
-  - atmega-zustandsmaschine-als-programmstruktur-verstehen
-  - zustandsmaschine-im-avr-sauber-einordnen
-taskId: ET-ATMEGA-STRUKTUR-309
-level: mittel
+title: "Zustandsmaschine im AVR sauber einordnen"
+description: "Ordne ein reaktives Mikrocontroller-Programm als Zustände und Übergänge und erkläre, warum diese Struktur ruhiger ist als viele Sonderfallketten."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-zustandsmaschine-als-programmstruktur-verstehen", "zustandsmaschine-im-avr-sauber-einordnen"]
+taskId: "ET-ATMEGA-STRUKTUR-309"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - zustandsmaschine
-hintPoints:
-  - Frage zuerst nach Betriebsarten und erst dann nach einzelnen Codezeilen.
-  - Trenne Zustand, Übergang und Aktion bewusst.
-selfCheckPoints:
-  - Kannst du ein kleines Verhalten als Zustandsmodell beschreiben?
-  - Kannst du erklären, warum diese Struktur lesbarer wird?
-transferIdeas:
-  - Übertrage die Logik auf Menüs, Blinkmuster, Tastermodi oder kleine Ablaufsteuerungen.
-reflectionPrompt: "Warum hilft die Frage „In welchem Zustand bin ich gerade?“ oft mehr als noch ein zusätzlicher Sonderfall?"
 ---
-
 ## Aufgabe 1: Drei Zustände benennen
 
 Ein Taster soll zwischen diesen drei Betriebsarten umschalten:

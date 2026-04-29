@@ -1,39 +1,19 @@
 ---
 title: "Grundlagen: Speicherplatz und Dateigrößen"
 description: "Ein allgemeiner Überblick darüber, wie Linux Speicherplatz, Dateien und belegte Größen sichtbar macht."
-subject: linux
+subject: "linux"
 section: "System"
-topicPath:
-  - system
-  - speicherplatz-und-dateigroessen
-  - ueberblick
-learningGoals:
-  - "Du unterscheidest Dateigröße und belegten Speicherplatz."
-  - "Du erklärst, warum Dateisysteme Speicher in Blöcken verwalten."
-  - "Du ordnest typische Werkzeuge zur Speicherprüfung ein."
-practiceIdeas:
-  - "Vergleiche die angezeigte Größe einer Datei mit belegtem Speicherplatz."
-  - "Prüfe einen Ordner erst grob und danach gezielt."
-commonMistakes:
-  - "Dateigröße und Speicherverbrauch immer gleichzusetzen."
-  - "Nur einzelne Dateien zu betrachten und Ordnergrößen zu übersehen."
-keyTakeaways:
-  - "Dateien haben eine logische Größe und können dennoch mehr Platz belegen."
-  - "Werkzeuge wie df und du beantworten unterschiedliche Fragen."
-recognizeSignals:
-  - "Eine Partition ist voll oder ein Build bricht wegen Speicherplatz ab."
-  - "Es geht um Dateien, Blöcke, Partitionen oder Aufräumen."
-selfCheckPoints:
-  - "Kann ich df und du grundsätzlich unterscheiden?"
-  - "Kann ich Speicherprobleme vorsichtig eingrenzen?"
-tags:
-  - linux
-  - dateien
-  - speicherplatz
-level: einfach
+topicPath: ["system", "speicherplatz-und-dateigroessen", "ueberblick", "grundlagen-speicherplatz-und-dateigroessen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "System"]
 draft: false
 ---
-
 ## Begriff
 
 **Speicherplatz** bezeichnet den Platz, den Dateien und Verzeichnisse auf einem Datenträger belegen. Unter Linux ist dabei wichtig, zwischen der logischen Dateigröße und dem tatsächlich belegten Platz im Dateisystem zu unterscheiden.

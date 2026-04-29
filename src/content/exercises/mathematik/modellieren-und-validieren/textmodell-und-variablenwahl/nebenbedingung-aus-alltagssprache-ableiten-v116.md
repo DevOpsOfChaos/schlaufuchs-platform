@@ -3,34 +3,15 @@ title: "Übung: Nebenbedingung aus Alltagssprache ableiten"
 description: "Übe, „Nebenbedingung aus Alltagssprache ableiten“ als kleines Unterthema zu erkennen, zu begründen und mit einer Gegenprobe abzusichern."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "modellieren-und-validieren"
-  - "textmodell-und-variablenwahl"
-  - "nebenbedingung-aus-alltagssprache-ableiten-v116"
+topicPath: ["modellieren-und-validieren", "textmodell-und-variablenwahl", "nebenbedingung-aus-alltagssprache-ableiten-v116"]
 taskId: "nebenbedingung-aus-alltagssprache-ableiten-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "textmodell und variablenwahl"
-  - "nebenbedingung aus alltagssprache ableiten"
-  - "v116"
-hintPoints:
-  - "Lies zuerst nur die konkrete Unterfrage."
-  - "Markiere eine typische Fehlannahme."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Lösung fachlich begründet?"
-  - "Ist die Abgrenzung zum Nachbarthema sichtbar?"
-  - "Passt die Gegenprobe zur Aufgabe?"
-transferIdeas:
-  - "Ändere eine Bedingung und prüfe, ob deine Begründung noch trägt."
-  - "Erkläre die Lösung einmal ohne Fachwörter und danach fachlich sauber."
-reflectionPrompt: "Welche kleine Entscheidung war bei „Nebenbedingung aus Alltagssprache ableiten“ am wichtigsten?"
+tags: ["mathematik", "Mathematik vertiefen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe 1: Unterfrage erkennen
 
 Lies die Situation:

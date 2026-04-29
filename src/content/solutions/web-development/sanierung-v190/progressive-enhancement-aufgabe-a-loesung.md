@@ -3,24 +3,12 @@ title: "Lösung: Progressive Enhancement: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-v190-025a im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "robuste-webseiten"
-  - "progressive-enhancement"
-  - "loesung-a"
+topicPath: ["sanierung-v190", "progressive-enhancement-aufgabe-a"]
 taskId: "web-v190-025a"
 relatedExercise: "web-development/sanierung-v190/progressive-enhancement-aufgabe-a"
-tags:
-  - "robuste-webseiten"
-  - "progressive"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-025a`
 
 Ausgangsauftrag: Beurteile eine Newsletter-Anmeldung nach Grundfunktion und Verbesserung.

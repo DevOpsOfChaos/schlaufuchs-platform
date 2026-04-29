@@ -1,29 +1,17 @@
 ---
 title: "Prozesse und Signale – ruhig einordnen"
 description: "Übe, Prozesse und Signale fachlich einzuordnen."
-subject: linux
+subject: "linux"
 section: "system-und-dienste"
-topicPath:
-  - "system-und-dienste"
-  - "prozesse-und-signale"
-taskId: LINUX-PROZESSE-UND-SIGNALE-V186-1
-tags:
-  - "linux"
-  - "prozesse"
-  - "signale"
-  - "aufgabe"
-hintPoints:
-  - "Beginne mit Begriff und Kontext."
-  - "Trenne Beobachtung, Prüfung und mögliche Änderung."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe erklären."
-  - "Ich kann einen typischen Fehler vermeiden."
-transferIdeas:
-  - "Formuliere eine ähnliche Prüfsituation aus deinem eigenen Linux-Alltag."
-level: mittel
+topicPath: ["system-und-dienste", "prozesse-und-signale", "prozesse-und-signale-ruhig-einordnen-v186"]
+taskId: "LINUX-PROZESSE-UND-SIGNALE-V186-1"
+tags: ["linux", "system-und-dienste", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Lernziel
 
 Du sollst **Prozesse und Signale** nicht nur als Befehl oder Schlagwort sehen, sondern als geordnetes Linux-Thema mit Zweck, Kontext und typischen Prüfschritten.

@@ -3,24 +3,12 @@ title: "Lösung: Fetch API und JSON: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-v190-014a im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "datenladen"
-  - "fetch-api-und-json"
-  - "loesung-a"
+topicPath: ["sanierung-v190", "fetch-api-und-json-aufgabe-a"]
 taskId: "web-v190-014a"
 relatedExercise: "web-development/sanierung-v190/fetch-api-und-json-aufgabe-a"
-tags:
-  - "datenladen"
-  - "fetch"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-014a`
 
 Ausgangsauftrag: Skizziere die Schritte vom Request bis zur gerenderten Liste.

@@ -3,22 +3,12 @@ title: "Lösung: Loading und Error trennen"
 description: "Musterlösung zur Aufgabe „Loading und Error trennen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "javascript-interaktion"
-  - "async-und-fehlerfluss"
-  - "loading-und-error-trennen-v116"
+topicPath: ["javascript-interaktion", "async-und-fehlerfluss", "loading-und-error-trennen-v116"]
 taskId: "loading-und-error-trennen-v116"
 relatedExercise: "web-development/javascript-interaktion/async-und-fehlerfluss/loading-und-error-trennen-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "async und fehlerfluss"
-  - "loading und error trennen"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

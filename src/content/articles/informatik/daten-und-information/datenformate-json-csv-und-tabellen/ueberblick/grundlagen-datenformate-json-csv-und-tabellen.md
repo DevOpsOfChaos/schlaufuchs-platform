@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Datenformate: JSON, CSV und Tabellen"
 description: "Ordne häufige Datenformate nach Struktur, Zweck und typischen Fehlerquellen ein."
-subject: informatik
+subject: "informatik"
 section: "daten-und-information"
-topicPath:
-  - "daten-und-information"
-  - "datenformate-json-csv-und-tabellen"
-learningGoals:
-  - "Du erklärst die Grundidee von Datenformate: JSON, CSV und Tabellen in eigenen Worten."
-  - "Du ordnest typische Begriffe und Teilaspekte fachlich richtig ein."
-  - "Du erkennst, welche Detailseiten, Aufgaben oder Fehlerbilder zum Thema passen."
-practiceIdeas:
-  - "Beschreibe ein eigenes Beispiel und markiere die wichtigsten Begriffe."
-  - "Vergleiche die Übersicht mit einer konkreten Aufgabe zum gleichen Thema."
-commonMistakes:
-  - "Ein einzelnes Beispiel für das gesamte Thema zu halten."
-  - "Begriffe zu vermischen, die unterschiedliche Rollen haben."
-  - "Direkt mit Spezialfällen zu beginnen, bevor die Grundidee klar ist."
-keyTakeaways:
-  - "Datenformate regeln, wie Informationen gespeichert oder übertragen werden."
-  - "JSON eignet sich gut für verschachtelte Strukturen, CSV für einfache Tabellen."
-  - "Formatfehler entstehen oft durch falsche Trennzeichen, Kodierung oder fehlende Struktur."
-recognizeSignals:
-  - "Du suchst zuerst eine allgemeine Einordnung statt eines Einzelfalls."
-  - "Mehrere Detailseiten wirken ähnlich und sollen fachlich sortiert werden."
-selfCheckPoints:
-  - "Kann ich das Thema in zwei bis drei Sätzen allgemein erklären?"
-  - "Kann ich die wichtigsten Teilaspekte voneinander unterscheiden?"
-level: mittel
-tags:
-  - "informatik"
-  - "datenformate"
-  - "json"
-  - "csv"
+topicPath: ["daten-und-information", "datenformate-json-csv-und-tabellen", "ueberblick", "grundlagen-datenformate-json-csv-und-tabellen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "daten-und-information"]
 draft: false
 ---
-
 ![Datenformate vergleichen](/schlaufuchs-platform/images/overviews/v184/datenformate-json-csv-tabellen.svg)
 
 ## Begriff

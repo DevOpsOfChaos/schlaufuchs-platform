@@ -1,16 +1,19 @@
 ---
 title: "Hilfe im Terminal"
 description: "Mit help, --help und man schnell Informationen zu Befehlen direkt im Terminal finden."
-subject: linux
+subject: "linux"
 section: "Shell / Befehle"
-level: einfach
-tags:
-  - help
-  - man
-  - Shell
+topicPath: ["shell", "befehle", "hilfe-im-terminal"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell / Befehle"]
 draft: false
 ---
-
 ## Worum geht es?
 
 Du musst dir nicht jeden Linux-Befehl auswendig merken.  

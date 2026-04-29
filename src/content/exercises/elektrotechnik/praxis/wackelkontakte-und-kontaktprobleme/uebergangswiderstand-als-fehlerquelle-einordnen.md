@@ -1,28 +1,17 @@
 ---
 title: "Übergangswiderstand als Fehlerquelle einordnen"
 description: "Erkläre, warum eine Verbindung elektrisch vorhanden sein kann und trotzdem Probleme verursacht."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - praxis
-  - wackelkontakte-und-kontaktprobleme
-taskId: ET-V182-004
-tags:
-  - elektrotechnik
-  - wackelkontakte-und-kontaktprobleme
-  - sanierung-v182
-hintPoints:
-  - "Lies zuerst den Normalzustand und danach den Fehlerfall."
-  - "Trenne Beobachtung, Vermutung und Gegenprobe."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["praxis", "wackelkontakte-und-kontaktprobleme", "uebergangswiderstand-als-fehlerquelle-einordnen"]
+taskId: "ET-V182-004"
+tags: ["elektrotechnik", "Praxis", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **Wackelkontakte und Kontaktprobleme** ruhig und schrittweise.

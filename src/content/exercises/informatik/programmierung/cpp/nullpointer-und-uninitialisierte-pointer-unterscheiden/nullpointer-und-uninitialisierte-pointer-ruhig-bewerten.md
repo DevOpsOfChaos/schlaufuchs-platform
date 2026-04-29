@@ -1,35 +1,17 @@
 ---
-title: Nullpointer und uninitialisierte Pointer ruhig bewerten
-description: Vergleiche Pointer-Deklarationen mit und ohne sicheren Startzustand.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - pointer-und-adressen
-  - nullpointer-und-uninitialisierte-pointer-unterscheiden
-  - nullpointer-und-uninitialisierte-pointer-ruhig-bewerten
-taskId: INF-PROG-CPP-PTR-003
-level: mittel
+title: "Nullpointer und uninitialisierte Pointer ruhig bewerten"
+description: "Vergleiche Pointer-Deklarationen mit und ohne sicheren Startzustand."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "nullpointer-und-uninitialisierte-pointer-unterscheiden", "nullpointer-und-uninitialisierte-pointer-ruhig-bewerten"]
+taskId: "INF-PROG-CPP-PTR-003"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - aufgabe
-hintPoints:
-  - "Achte nicht nur auf den Typ, sondern auf den Startzustand."
-  - "Trenne bewusst zwischen 'bewusst leer' und 'noch nicht sauber vorbereitet'."
-  - "Bewerte hier die Deklaration, noch nicht die spätere Dereferenzierung."
-selfCheckPoints:
-  - "Habe ich erklärt, warum nullptr ein klarer Zustand ist?"
-  - "Habe ich uninitialisiert nicht mit 'einfach leer' verwechselt?"
-  - "Habe ich Startzustand und Zugriffsfrage nicht vermischt?"
-transferIdeas:
-  - "Übertrage die Grundregel auf Pointer, die erst später ein echtes Ziel bekommen."
-reflectionPrompt: "Warum hilft dir ein klarer Startzustand schon vor jeder späteren if-Prüfung?"
 ---
-
 ## Aufgabe 1: Mini-Beispiel lesen
 
 Gegeben ist:

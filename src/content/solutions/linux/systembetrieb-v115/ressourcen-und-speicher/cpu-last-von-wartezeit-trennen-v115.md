@@ -1,24 +1,14 @@
 ---
 title: "Lösung: CPU-Last von Wartezeit trennen"
 description: "Musterlösung zu CPU-Last von Wartezeit trennen mit Trennkante und Gegenprobe."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "systembetrieb-v115"
-  - "ressourcen-und-speicher"
-  - "cpu-last-von-wartezeit-trennen-v115"
+topicPath: ["systembetrieb-v115", "ressourcen-und-speicher", "cpu-last-von-wartezeit-trennen-v115"]
 taskId: "linux-cpu-last-von-wartezeit-trennen-v115"
 relatedExercise: "linux/systembetrieb-v115/ressourcen-und-speicher/cpu-last-von-wartezeit-trennen-v115"
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "systembetrieb"
-  - "ressourcen und speicher"
-  - "lösung"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **CPU-Last von Wartezeit trennen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

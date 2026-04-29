@@ -1,43 +1,17 @@
 ---
 title: "HTML – native Validierung und aria-invalid richtig kombinieren"
 description: "Verstehe, wann HTML-Validierung allein reicht und wann aria-invalid als zusätzlicher Zustand sinnvoll wird."
-subject: web-development
+subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "formular-validierung"
-  - "native-validierung-und-aria-invalid-richtig-kombinieren"
-learningGoals:
-  - "Du unterscheidest native HTML-Validierung von ARIA-Zuständen."
-  - "Du erklärst, warum aria-invalid kein Ersatz für eine echte Regel ist."
-  - "Du setzt required, type und aria-invalid nicht durcheinander."
-practiceIdeas:
-  - "Vergleiche type=\"email\" mit einer eigenen Fehlermeldung."
-  - "Prüfe, ob ein Feld vor oder nach einer Prüfung als ungültig markiert werden sollte."
-  - "Ordne jede Eigenschaft einer Aufgabe zu: Regel, Zustand oder Erklärung."
-commonMistakes:
-  - "aria-invalid dauerhaft auf true zu setzen, bevor jemand das Feld benutzt hat."
-  - "ARIA als Ersatz für required oder type zu behandeln."
-  - "Fehlerzustände ohne sichtbare Erklärung zu setzen."
-keyTakeaways:
-  - "Native Validierung beschreibt Regeln direkt im HTML."
-  - "aria-invalid beschreibt den aktuellen Fehlerzustand."
-  - "Eine gute Lösung kombiniert Regel, Zustand und verständlichen Text."
-recognizeSignals:
-  - "Es geht um required, type, pattern, aria-invalid oder eigene Validierung."
-  - "Eine Aufgabe fragt nach dem Unterschied zwischen Regel und Fehlerzustand."
-  - "Ein Feld soll nach einer Prüfung als ungültig markiert werden."
-selfCheckPoints:
-  - "Kann ich sagen, welche Eigenschaft die Regel beschreibt?"
-  - "Kann ich sagen, wann aria-invalid gesetzt wird?"
-  - "Gibt es zur Markierung auch eine Erklärung?"
-tags:
-  - "web development"
-  - "html"
-  - "validierung"
-  - "aria-invalid"
-  - "formulare"
-level: mittel
+topicPath: ["html", "formular-validierung", "native-validierung-und-aria-invalid-richtig-kombinieren"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "HTML"]
 draft: false
 ---
 ## Grundidee

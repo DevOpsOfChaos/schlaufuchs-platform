@@ -1,23 +1,14 @@
 ---
-title: Lösung – Pull-down und Pull-up vergleichen
-description: Musterlösung zur Aufgabe über Pull-down und Pull-up vergleichen.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- signale-und-schaltungen
-- analog-digital-grenzen
-- pull-down-und-pull-up-vergleichen-v114
-taskId: v114-elektrotechnik-pull-down-und-pull-up-vergleichen-v114
-relatedExercise: elektrotechnik/signale-und-schaltungen/analog-digital-grenzen/pull-down-und-pull-up-vergleichen-v114
-tags:
-- elektrotechnik
-- v114
-- loesung
-- signale-und-schaltungen
-- analog-digital-grenzen
+title: "Lösung – Pull-down und Pull-up vergleichen"
+description: "Musterlösung zur Aufgabe über Pull-down und Pull-up vergleichen."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["signale-und-schaltungen", "analog-digital-grenzen", "pull-down-und-pull-up-vergleichen-v114"]
+taskId: "v114-elektrotechnik-pull-down-und-pull-up-vergleichen-v114"
+relatedExercise: "elektrotechnik/signale-und-schaltungen/analog-digital-grenzen/pull-down-und-pull-up-vergleichen-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

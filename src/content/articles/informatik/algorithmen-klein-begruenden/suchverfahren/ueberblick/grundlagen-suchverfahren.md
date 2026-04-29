@@ -1,35 +1,19 @@
 ---
 title: "Grundlagen: Suchverfahren vergleichen"
 description: "Suchverfahren unterscheiden sich nach Voraussetzung, Ablauf und Aufwand."
-subject: informatik
+subject: "informatik"
 section: "Algorithmen klein begründen"
-topicPath:
-  - "algorithmen-klein-begruenden"
-  - "suchverfahren"
-  - "ueberblick"
-learningGoals:
-  - "Du ordnest Suchverfahren vergleichen fachlich ein."
-  - "Du unterscheidest zentrale Begriffe und typische Rollen."
-  - "Du erkennst häufige Fehler beim Anwenden."
-practiceIdeas:
-  - "Formuliere die Grundidee in zwei Sätzen."
-  - "Ordne ein Beispiel den wichtigsten Begriffen zu."
-commonMistakes:
-  - "Ein schnelles Verfahren zu wählen, ohne seine Voraussetzung zu prüfen."
-keyTakeaways:
-  - "Suchverfahren unterscheiden sich nach Voraussetzung, Ablauf und Aufwand."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung vor einer Einzelfalllösung."
-selfCheckPoints:
-  - "Kann ich die Grundbegriffe voneinander unterscheiden?"
-level: mittel
-tags:
-  - "informatik"
-  - "algorithmen-klein-begruenden"
-  - "suchverfahren"
+topicPath: ["algorithmen-klein-begruenden", "suchverfahren", "ueberblick", "grundlagen-suchverfahren"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Algorithmen klein begründen"]
 draft: false
 ---
-
 ![Schaubild zu Suchverfahren vergleichen](/schlaufuchs-platform/images/overviews/v183/informatik-suchverfahren.svg)
 
 ## Begriff

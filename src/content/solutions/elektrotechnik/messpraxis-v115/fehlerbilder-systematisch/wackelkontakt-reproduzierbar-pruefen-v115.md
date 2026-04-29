@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Wackelkontakt reproduzierbar prüfen"
 description: "Musterlösung zu Wackelkontakt reproduzierbar prüfen mit Trennkante und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "messpraxis-v115"
-  - "fehlerbilder-systematisch"
-  - "wackelkontakt-reproduzierbar-pruefen-v115"
+topicPath: ["messpraxis-v115", "fehlerbilder-systematisch", "wackelkontakt-reproduzierbar-pruefen-v115"]
 taskId: "elektrotechnik-wackelkontakt-reproduzierbar-pruefen-v115"
 relatedExercise: "elektrotechnik/messpraxis-v115/fehlerbilder-systematisch/wackelkontakt-reproduzierbar-pruefen-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "messpraxis"
-  - "fehlerbilder systematisch"
-  - "lösung"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Wackelkontakt reproduzierbar prüfen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

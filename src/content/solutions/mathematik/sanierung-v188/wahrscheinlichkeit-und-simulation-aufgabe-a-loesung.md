@@ -3,22 +3,12 @@ title: "Lösung: Wahrscheinlichkeit und Simulation: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-033a."
 subject: "mathematik"
 section: "daten-deuten-und-pruefen"
-topicPath:
-  - "daten-deuten-und-pruefen"
-  - "wahrscheinlichkeit-und-simulation"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "wahrscheinlichkeit-und-simulation-aufgabe-a"]
 taskId: "mat-v188-033a"
 relatedExercise: "mathematik/sanierung-v188/wahrscheinlichkeit-und-simulation-aufgabe-a"
-tags:
-  - "wahrscheinlichkeit"
-  - "simulation"
-  - "zufall"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "daten-deuten-und-pruefen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-033a`
 
 Eine mögliche Lösung:

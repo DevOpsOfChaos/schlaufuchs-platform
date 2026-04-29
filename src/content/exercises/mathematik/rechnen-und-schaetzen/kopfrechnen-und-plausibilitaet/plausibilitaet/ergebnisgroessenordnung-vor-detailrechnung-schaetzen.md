@@ -3,35 +3,15 @@ title: "Aufgabe – Ergebnisgrößenordnung vor Detailrechnung schätzen"
 description: "Übe Größenordnungsschätzung mit Szenario, Trennkante und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "rechnen-und-schaetzen"
-  - "kopfrechnen-und-plausibilitaet"
-  - "plausibilitaet"
-  - "ergebnisgroessenordnung-vor-detailrechnung-schaetzen"
+topicPath: ["rechnen-und-schaetzen", "kopfrechnen-und-plausibilitaet", "plausibilitaet", "ergebnisgroessenordnung-vor-detailrechnung-schaetzen"]
 taskId: "v111-mathematik-ergebnisgroessenordnung-vor-detailrechnung-schaetzen"
-tags:
-  - "mathematik"
-  - "prüfung"
-  - "unterthema"
-  - "rechnen-und-schaetzen"
-  - "kopfrechnen-und-plausibilitaet"
-  - "ergebnisgroessenordnung-vor-detailrechnung-schaetzen"
-hintPoints:
-  - "Benenne zuerst das genaue Unterthema."
-  - "Schreibe die typische Verwechslung ausdrücklich auf."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Lösung enger als ein breites Kapitel?"
-  - "Wird ein Nachbarthema sauber ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere eine zweite Aufgabe im gleichen Unterthema mit anderer Oberfläche."
-reflectionPrompt: "Welche kleine Trennkante macht Größenordnungsschätzung übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["mathematik", "Feinstruktur Mathematik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Größenordnungsschätzung**.

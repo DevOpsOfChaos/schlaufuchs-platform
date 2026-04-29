@@ -3,22 +3,12 @@ title: "Lösung: Fehlerantwort einplanen"
 description: "Musterlösung zur Aufgabe „Fehlerantwort einplanen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "systemnahes-denken"
-  - "schnittstellen-und-protokolle"
-  - "fehlerantwort-einplanen-v116"
+topicPath: ["systemnahes-denken", "schnittstellen-und-protokolle", "fehlerantwort-einplanen-v116"]
 taskId: "fehlerantwort-einplanen-v116"
 relatedExercise: "informatik/systemnahes-denken/schnittstellen-und-protokolle/fehlerantwort-einplanen-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "schnittstellen und protokolle"
-  - "fehlerantwort einplanen"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

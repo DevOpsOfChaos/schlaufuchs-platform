@@ -1,46 +1,19 @@
 ---
-title: Instanzdaten und Klassendaten unterscheiden
-description: Verstehe, welche Daten jedes Objekt selbst besitzt und welche Daten von allen Objekten gemeinsam genutzt werden.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - instanzdaten-und-klassendaten-unterscheiden
-learningGoals:
-  - Du trennst Instanzdaten und Klassendaten sauber.
-  - Du erklaerst, warum verschiedene Objekte unterschiedliche Instanzwerte, aber denselben Klassenwert haben koennen.
-  - Du liest Objektbeispiele geordneter.
-practiceIdeas:
-  - Vergleiche zwei Objekte derselben Klasse mit verschiedenen Attributwerten.
-  - Suche einen Wert, der fuer beide Objekte gleich sein muss.
-  - Ordne Daten danach, ob sie individuell oder gemeinsam sind.
-commonMistakes:
-  - Gemeinsame Klassendaten fuer Objektkopien zu halten.
-  - Zu denken, dass jedes Objekt seine eigene static-Kopie hat.
-  - Individuelle Objektwerte und Klassenwerte sprachlich zu vermischen.
-keyTakeaways:
-  - Instanzdaten gehoeren zu einzelnen Objekten.
-  - Klassendaten gehoeren zur Klasse insgesamt.
-  - Beide Ebenen koennen in derselben Klasse gemeinsam vorkommen.
-recognizeSignals:
-  - Zwei Objekte derselben Klasse werden miteinander verglichen.
-  - Eine Aufgabe fragt nach gemeinsamem oder individuellem Zustand.
-  - Im Code tauchen normale und statische Daten nebeneinander auf.
-selfCheckPoints:
-  - Kann ich fuer einen Wert begruenden, ob er pro Objekt oder pro Klasse gedacht ist?
-  - Kann ich an zwei Objekten unterschiedliche Instanzwerte erklaeren?
-  - Kann ich gemeinsame Klassendaten fachlich benennen?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - instanz
-  - klasse
+title: "Instanzdaten und Klassendaten unterscheiden"
+description: "Verstehe, welche Daten jedes Objekt selbst besitzt und welche Daten von allen Objekten gemeinsam genutzt werden."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "instanzdaten-und-klassendaten-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei Objektorientierung hilft eine einfache Leitfrage:

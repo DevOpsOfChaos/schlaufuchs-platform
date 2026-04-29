@@ -1,20 +1,14 @@
 ---
 title: "Lösung: Logikgatter – Grundaufgaben"
 description: "Lösung zu grundlegenden Aufgaben über Logikgatter und Wahrheitstabellen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Digitale Technik"
-topicPath:
-  - "logikgatter"
+topicPath: ["logikgatter-grundaufgaben"]
 taskId: "ET-GR-LOGIK-001"
 relatedExercise: "src/content/exercises/elektrotechnik/logikgatter-grundaufgaben.md"
-tags:
-  - "elektrotechnik"
-  - "logikgatter"
-  - "wahrheitstabelle"
-  - "loesung"
+tags: ["elektrotechnik", "Digitale Technik", "loesung"]
 draft: false
 ---
-
 ## Lösungsgedanke
 
 Diese Musterlösung trennt zuerst Begriff, Schaltungszusammenhang und Begründung. Dadurch wird nicht nur ein Ergebnis genannt, sondern der fachliche Weg sichtbar.

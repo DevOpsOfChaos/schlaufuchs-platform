@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Rekursion, Abbruch und Stapel – Anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über Rekursion, Abbruch und Stapel."
-subject: informatik
+subject: "informatik"
 section: "algorithmen-klein-begruenden"
-topicPath:
-  - "algorithmen-klein-begruenden"
-  - "rekursion-abbruch-und-stapel"
-taskId: INF-REKURSION-ABBRUCH-UND-STAPEL-842
-relatedExercise: src/content/exercises/informatik/algorithmen-klein-begruenden/rekursion-abbruch-und-stapel/rekursion-abbruch-und-stapel-anwenden-und-pruefen-v184.md
-tags:
-  - "informatik"
-  - "rekursion"
-  - "abbruch"
-  - "loesung"
+topicPath: ["algorithmen-klein-begruenden", "rekursion-abbruch-und-stapel", "rekursion-abbruch-und-stapel-anwenden-und-pruefen-v184"]
+taskId: "INF-REKURSION-ABBRUCH-UND-STAPEL-842"
+relatedExercise: "src/content/exercises/informatik/algorithmen-klein-begruenden/rekursion-abbruch-und-stapel/rekursion-abbruch-und-stapel-anwenden-und-pruefen-v184.md"
+tags: ["informatik", "algorithmen-klein-begruenden", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

@@ -1,33 +1,19 @@
 ---
 title: "Schaltregler-Layout"
 description: "Das Layout eines Schaltreglers beeinflusst Stabilität, Effizienz und Störaussendung. Kurze Stromschleifen und passende Platzierung sind oft entscheidender als das Schaltplanbild."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik und Mikrocontroller"
-topicPath:
-  - "schaltregler-layout"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Schaltregler-Layout."
-  - "Du kannst Schaltregler-Layout in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["schaltregler-layout", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Das Datenblatt-Schaltungsschema zu übernehmen, aber die Layoutempfehlungen zu ignorieren."
-keyTakeaways:
-  - "Das Layout eines Schaltreglers beeinflusst Stabilität, Effizienz und Störaussendung."
-  - "Wichtig sind vor allem heiße stromschleifen, eingangs- und ausgangskondensatoren und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Schaltregler-Layout, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Schaltregler-Layout dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "grundlagen"
-  - "schaltregler layout"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik und Mikrocontroller"]
 draft: false
 ---
-
 # Schaltregler-Layout
 
 Das Layout eines Schaltreglers beeinflusst Stabilität, Effizienz und Störaussendung. Kurze Stromschleifen und passende Platzierung sind oft entscheidender als das Schaltplanbild. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

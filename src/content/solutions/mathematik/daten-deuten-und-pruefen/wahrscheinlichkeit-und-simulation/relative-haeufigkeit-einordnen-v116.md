@@ -3,22 +3,12 @@ title: "Lösung: relative Häufigkeit einordnen"
 description: "Musterlösung zur Aufgabe „relative Häufigkeit einordnen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "daten-deuten-und-pruefen"
-  - "wahrscheinlichkeit-und-simulation"
-  - "relative-haeufigkeit-einordnen-v116"
+topicPath: ["daten-deuten-und-pruefen", "wahrscheinlichkeit-und-simulation", "relative-haeufigkeit-einordnen-v116"]
 taskId: "relative-haeufigkeit-einordnen-v116"
 relatedExercise: "mathematik/daten-deuten-und-pruefen/wahrscheinlichkeit-und-simulation/relative-haeufigkeit-einordnen-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "wahrscheinlichkeit und simulation"
-  - "relative haeufigkeit einordnen"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

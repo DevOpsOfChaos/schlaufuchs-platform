@@ -1,22 +1,14 @@
 ---
-title: Musterlösung – Ergänzende und konkurrierende Regeln unterscheiden
-description: Musterlösung zur Aufgabe WEB-CSS-CORE-102.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - kaskade-und-mehrfachformatierung-in-css-verstehen
-  - ergaenzende-und-konkurrierende-regeln-unterscheiden-loesung
-taskId: WEB-CSS-CORE-102
-relatedExercise: src/content/exercises/web-development/css/kaskade-und-mehrfachformatierung-in-css-verstehen/ergaenzende-und-konkurrierende-regeln-unterscheiden.md
-tags:
-  - web-development
-  - css
-  - loesung
-  - task-id
+title: "Musterlösung – Ergänzende und konkurrierende Regeln unterscheiden"
+description: "Musterlösung zur Aufgabe WEB-CSS-CORE-102."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "kaskade-und-mehrfachformatierung-in-css-verstehen", "ergaenzende-und-konkurrierende-regeln-unterscheiden"]
+taskId: "WEB-CSS-CORE-102"
+relatedExercise: "src/content/exercises/web-development/css/kaskade-und-mehrfachformatierung-in-css-verstehen/ergaenzende-und-konkurrierende-regeln-unterscheiden.md"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Ergänzung oder Konflikt?
 
 1. <code>padding</code> und <code>color</code> ergänzen sich, weil sie unterschiedliche Eigenschaften betreffen.

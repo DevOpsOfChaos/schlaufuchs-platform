@@ -3,44 +3,17 @@ title: "JavaScript – Network Tab und HTTP-Fehler diagnostizieren"
 description: "Verstehe, wie du Ladefehler, Statuscodes und falsche Antworten im Browser-Netzwerkbereich voneinander trennst."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "debugging-und-diagnose"
-  - "network-tab-und-http-fehler-diagnostizieren"
-learningGoals:
-  - "Du erklärst die Grundidee von Network Tab und HTTP-Fehler diagnostizieren."
-  - "Du trennst sichtbares Nutzerverhalten, technische Ursache und passende Entscheidung."
-  - "Du begründest eine robuste Lösung statt nur einen einzelnen Trick zu merken."
-practiceIdeas:
-  - "Beschreibe zuerst die sichtbare Situation auf der Seite."
-  - "Markiere danach die technische Stelle, an der die Entscheidung getroffen wird."
-  - "Formuliere am Ende eine Prüffrage, mit der du die Lösung kontrollierst."
-commonMistakes:
-  - "Nur den Erfolgsfall oder Schönfall zu betrachten."
-  - "Performance, Sicherheit oder Wartbarkeit erst nachträglich zu prüfen."
-  - "Werkzeuge zu benutzen, ohne die eigentliche Browserentscheidung zu benennen."
-keyTakeaways:
-  - "Robuste Webentwicklung verbindet Inhalt, Gestaltung, Verhalten und Prüfung."
-  - "Gute Entscheidungen sind sichtbar begründet und nicht nur technisch möglich."
-  - "Der Network Tab trennt Vermutung von Befund. Er zeigt, ob ein Problem im Transport, im Serverstatus oder in der Verarbeitung liegt."
-recognizeSignals:
-  - "Es geht um Ladeverhalten, Diagnose, Sicherheit oder Projektqualität."
-  - "Eine Seite funktioniert grundsätzlich, soll aber stabiler, schneller oder verständlicher werden."
-  - "Du sollst nicht nur Code schreiben, sondern eine Entscheidung begründen."
-selfCheckPoints:
-  - "Kann ich die sichtbare Auswirkung für Nutzerinnen und Nutzer benennen?"
-  - "Kann ich die technische Ursache von der Lösung trennen?"
-  - "Habe ich einen Fehler-, Lade- oder Sicherheitsfall mitgedacht?"
+topicPath: ["javascript", "debugging-und-diagnose", "network-tab-und-http-fehler-diagnostizieren"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "web development"
-  - "javascript"
-  - "network"
-  - "http"
-  - "fetch"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Wenn fetch nicht das erwartete Ergebnis liefert, ist nicht automatisch JavaScript schuld. Der Fehler kann in der URL, im Serverstatus, im Antwortformat, in Berechtigungen oder erst beim Rendern liegen.

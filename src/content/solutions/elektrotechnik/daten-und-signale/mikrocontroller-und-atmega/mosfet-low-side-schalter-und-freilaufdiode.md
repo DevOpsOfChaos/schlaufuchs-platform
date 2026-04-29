@@ -3,21 +3,10 @@ title: "Lösung – MOSFET-Schalter und Freilaufdiode beurteilen"
 description: "Musterlösung zu „MOSFET-Schalter und Freilaufdiode beurteilen“."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "mosfet-low-side-schalter-und-freilaufdiode"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "mosfet-low-side-schalter-und-freilaufdiode"]
 taskId: "et-mc-v94-mosfet-low-side"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/mosfet-low-side-schalter-und-freilaufdiode"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "atmega"
-  - "mosfet"
-  - "transistor"
-  - "freilaufdiode"
-  - "relais"
-  - "motor"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

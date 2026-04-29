@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Blockierende Delays am AVR ruhig bewerten
-description: Musterlösung zur Aufgabe ET-ATMEGA-STRUKTUR-308.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - programmstruktur-und-reaktivitaet
-  - atmega-delay-schleifen-und-reaktivitaet-verstehen
-  - blockierende-delays-am-avr-ruhig-bewerten-loesung
-taskId: ET-ATMEGA-STRUKTUR-308
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-delay-schleifen-und-reaktivitaet-verstehen/blockierende-delays-am-avr-ruhig-bewerten.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - loesung
+title: "Musterlösung – Blockierende Delays am AVR ruhig bewerten"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-STRUKTUR-308."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-delay-schleifen-und-reaktivitaet-verstehen", "blockierende-delays-am-avr-ruhig-bewerten"]
+taskId: "ET-ATMEGA-STRUKTUR-308"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-delay-schleifen-und-reaktivitaet-verstehen/blockierende-delays-am-avr-ruhig-bewerten.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Ein langes Delay blockiert die normale Weiterarbeit der Hauptschleife. Während dieser Zeit werden andere Prüfungen oder Reaktionen oft gar nicht oder nur verspätet ausgeführt. Genau deshalb sinkt die Reaktivität des Programms.

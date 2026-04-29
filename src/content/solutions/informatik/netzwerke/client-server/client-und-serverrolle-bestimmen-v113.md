@@ -3,20 +3,12 @@ title: "Lösung – Client und Serverrolle bestimmen"
 description: "Musterlösung zu Client und Serverrolle bestimmen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "netzwerke"
-  - "client-server"
-  - "client-und-serverrolle-bestimmen-v113"
+topicPath: ["netzwerke", "client-server", "client-und-serverrolle-bestimmen-v113"]
 taskId: "v113-informatik-client-und-serverrolle-bestimmen-v113"
 relatedExercise: "informatik/netzwerke/client-server/client-und-serverrolle-bestimmen-v113"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "client-und-serverrolle-bestimmen-v113"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Client und Serverrolle bestimmen**.

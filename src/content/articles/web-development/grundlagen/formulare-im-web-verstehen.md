@@ -1,17 +1,19 @@
 ---
-title: Formulare im Web verstehen
-description: Formulare sind eine zentrale Schnittstelle zwischen Nutzer und Webseite und verbinden Eingaben mit Verarbeitung und Übertragung.
-subject: web-development
-section: Grundlagen
-level: mittel
-tags:
-  - Formulare
-  - HTML
-  - Eingabe
-  - Web Development
+title: "Formulare im Web verstehen"
+description: "Formulare sind eine zentrale Schnittstelle zwischen Nutzer und Webseite und verbinden Eingaben mit Verarbeitung und Übertragung."
+subject: "web-development"
+section: "Grundlagen"
+topicPath: ["grundlagen", "formulare-im-web-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 Viele Webseiten sind nicht nur zum Lesen da. Sie sollen Eingaben aufnehmen: Suchbegriffe, Login-Daten, Nachrichten, Bestellungen oder Filter. Genau dafür werden Formulare verwendet. Sie gehören zu den wichtigsten Grundbausteinen des Webs.

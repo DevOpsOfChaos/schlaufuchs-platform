@@ -3,33 +3,15 @@ title: "Quadratische Funktionen abgrenzen: Grundordnung"
 description: "Ordne Quadratische Funktionen abgrenzen in Zweck, Prüffragen und Fehlerquellen."
 subject: "mathematik"
 section: "funktionen-im-vergleich"
-topicPath:
-  - "funktionen-im-vergleich"
-  - "linear-und-quadratisch-trennen"
-  - "aufgabe-a"
+topicPath: ["sanierung-v188", "quadratische-funktionen-abgrenzen-aufgabe-a"]
 taskId: "mat-v188-017a"
-tags:
-  - "funktionen"
-  - "quadratisch"
-  - "parabel"
-  - "mathematik"
-  - "aufgabe"
-  - "v188"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["mathematik", "funktionen-im-vergleich", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Du arbeitest am Thema **Quadratische Funktionen abgrenzen**. Erstelle eine kurze, geordnete Erklärung für eine lernende Person.

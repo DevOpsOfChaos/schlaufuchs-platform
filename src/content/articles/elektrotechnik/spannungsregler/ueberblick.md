@@ -1,36 +1,19 @@
 ---
 title: "Spannungsregler"
 description: "Überblick über Spannungsregler als Bausteine für stabile Versorgungsspannungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Versorgung"
-topicPath:
-  - "spannungsregler"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Spannungsregler als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["spannungsregler", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, nur die Ausgangsspannung zu betrachten und die Verlustleistung zu ignorieren."
-keyTakeaways:
-  - "Stabile Versorgung ist eine Voraussetzung für verlässliche Schaltungen."
-  - "Regler müssen zu Eingangsspannung, Laststrom und Wärme passen."
-  - "Datenblattangaben zu Kondensatoren und Grenzen sind Teil der Funktion."
-recognizeSignals:
-  - "Es geht um Spannungsregler als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Spannungsregler in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "versorgung"
-  - "spannungsregler"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Versorgung"]
 draft: false
 ---
-
 # Spannungsregler
 
 Ein Spannungsregler erzeugt aus einer Eingangsspannung eine möglichst stabile Ausgangsspannung. Er ist wichtig, weil viele elektronische Bauteile nur in bestimmten Spannungsbereichen zuverlässig arbeiten. Schwankende Versorgung, Lastwechsel oder entladende Batterien dürfen die Schaltung nicht unkontrolliert beeinflussen.

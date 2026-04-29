@@ -1,35 +1,17 @@
 ---
 title: "Dependency Injection"
 description: "Überblick über Dependency Injection als Technik, Abhängigkeiten von außen bereitzustellen."
-subject: informatik
+subject: "informatik"
 section: "Softwaredesign"
-topicPath:
-  - "dependency-injection"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Dependency Injection als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["dependency-injection", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Dependency Injection mit einem bestimmten Framework verwechselt. Das Grundprinzip ist unabhängig davon."
-keyTakeaways:
-  - "Dependency Injection bedeutet, dass eine Komponente ihre Abhängigkeiten nicht selbst erzeugt, sondern von außen erhält."
-  - "Dadurch werden Module austauschbarer, testbarer und weniger stark an konkrete Implementierungen gekoppelt."
-  - "Dependency Injection löst keine schlechte Modulstruktur. Zu viele injizierte Abhängigkeiten können ein Designproblem sichtbar machen."
-recognizeSignals:
-  - "Es geht um Dependency Injection, wenn abhängigkeiten können über Konstruktoren, Funktionen oder Container übergeben werden."
-  - "Das Thema wird relevant, wenn Beispiele wie ein Service erhält ein Mail-Gateway als Abhängigkeit, statt im Code direkt einen SMTP-Client zu erzeugen."
-selfCheckPoints:
-  - "Kann ich Dependency Injection in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "softwaredesign"
-  - "dependency injection"
-  - "tests"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Softwaredesign"]
 draft: false
 ---
 # Dependency Injection

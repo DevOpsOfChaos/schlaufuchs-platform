@@ -3,32 +3,17 @@ title: "API-Versionierung"
 description: "Allgemeiner Überblick über API-Versionierung und den Umgang mit veränderlichen Schnittstellen."
 subject: "informatik"
 section: "Schnittstellen"
-topicPath:
-  - "api-versionierung"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["api-versionierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden kleine Änderungen als harmlos betrachtet. Für externe Nutzer kann auch eine veränderte Fehlermeldung oder Sortierung relevant sein."
-keyTakeaways:
-  - "API-Versionierung schützt Nutzer vor überraschenden Brüchen. Sie verlangt klare Kompatibilitätsregeln und gute Kommunikation."
-  - "Versionierung löst keine schlechte Schnittstellengestaltung. Zu viele Versionen können Wartung und Support erschweren."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "informatik"
-  - "api"
-  - "versionierung"
-  - "schnittstellen"
+tags: ["informatik", "Schnittstellen"]
 draft: false
 ---
-
 # API-Versionierung
 
 ![Schaubild zu API-Versionierung.](/schlaufuchs-platform/images/overviews/v149/api-versionierung.svg)

@@ -1,11 +1,10 @@
 ---
-title: Suche und Inhaltszugänge verbessert
-description: Wissensseiten, Aufgaben und News werden schrittweise direkter zugänglich und besser auffindbar.
-publishedAt: 2026-04-06
-tags: [Plattform, Suche, Navigation]
+title: "Suche und Inhaltszugänge verbessert"
+description: "Wissensseiten, Aufgaben und News werden schrittweise direkter zugänglich und besser auffindbar."
+publishedAt: "2026-04-01"
+tags: ["Plattform", "Suche", "Navigation"]
 draft: false
 ---
-
 Die Plattform entwickelt sich nicht nur über neue Inhalte weiter, sondern auch über bessere Wege zu diesen Inhalten.
 
 ## Worum es in diesem Schritt geht

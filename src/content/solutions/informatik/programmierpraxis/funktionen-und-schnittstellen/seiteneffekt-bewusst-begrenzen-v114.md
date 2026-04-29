@@ -1,23 +1,14 @@
 ---
-title: Lösung – Seiteneffekt bewusst begrenzen
-description: Musterlösung zur Aufgabe über Seiteneffekt bewusst begrenzen.
-subject: informatik
-section: Feinstruktur Informatik
-topicPath:
-- programmierpraxis
-- funktionen-und-schnittstellen
-- seiteneffekt-bewusst-begrenzen-v114
-taskId: v114-informatik-seiteneffekt-bewusst-begrenzen-v114
-relatedExercise: informatik/programmierpraxis/funktionen-und-schnittstellen/seiteneffekt-bewusst-begrenzen-v114
-tags:
-- informatik
-- v114
-- loesung
-- programmierpraxis
-- funktionen-und-schnittstellen
+title: "Lösung – Seiteneffekt bewusst begrenzen"
+description: "Musterlösung zur Aufgabe über Seiteneffekt bewusst begrenzen."
+subject: "informatik"
+section: "Feinstruktur Informatik"
+topicPath: ["programmierpraxis", "funktionen-und-schnittstellen", "seiteneffekt-bewusst-begrenzen-v114"]
+taskId: "v114-informatik-seiteneffekt-bewusst-begrenzen-v114"
+relatedExercise: "informatik/programmierpraxis/funktionen-und-schnittstellen/seiteneffekt-bewusst-begrenzen-v114"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

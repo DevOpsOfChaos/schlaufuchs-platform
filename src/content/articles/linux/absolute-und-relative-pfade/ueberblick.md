@@ -1,33 +1,19 @@
 ---
 title: "Absolute und relative Pfade"
 description: "Einordnung von absoluten und relativen Pfaden in Shell und Dateisystem."
-subject: linux
+subject: "linux"
 section: "Dateien und Verzeichnisse"
-topicPath:
-  - absolute-und-relative-pfade
-  - ueberblick
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen und von verwandten Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte und typische Anwendungsfälle."
-  - "Du erkennst häufige Missverständnisse und prüfst Aussagen auf Plausibilität."
+topicPath: ["absolute-und-relative-pfade", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig entstehen Fehler, weil ein Befehl in einem anderen Verzeichnis ausgeführt wird als gedacht."
-keyTakeaways:
-  - "Ein Pfad beschreibt, wo eine Datei oder ein Verzeichnis im Dateisystem liegt."
-  - "Die genaue Bedeutung hängt vom Zusammenhang, den Einheiten und den Randbedingungen ab."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Begriffe, Beispiele oder Fehlerbilder aus diesem Bereich erklärt und eingeordnet werden sollen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten erklären, ohne sofort eine Spezialaufgabe zu rechnen?"
-level: einfach
-tags:
-  - "linux"
-  - "pfade"
-  - "shell"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dateien und Verzeichnisse"]
 draft: false
 ---
-
 # Absolute und relative Pfade
 
 ![Schaubild zu absoluten und relativen Pfaden.](/schlaufuchs-platform/images/overviews/v149/absolute-und-relative-pfade.svg)

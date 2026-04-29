@@ -1,21 +1,14 @@
 ---
-title: Lösung – Icon-Buttons und Beschriftungen ruhig begründen
-description: Musterlösung zur Aufgabe über sichtbare Beschriftung und aria-label.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - linktexte-und-links
-  - aria-label-und-sichtbarer-text-unterscheiden
-taskId: WEB-HTML-A11Y-305
-relatedExercise: src/content/exercises/web-development/html/aria-label-und-sichtbarer-text-unterscheiden/icon-buttons-und-beschriftungen-ruhig-begruenden.md
-tags:
-  - html
-  - aria-label
-  - lösung
+title: "Lösung – Icon-Buttons und Beschriftungen ruhig begründen"
+description: "Musterlösung zur Aufgabe über sichtbare Beschriftung und aria-label."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "aria-label-und-sichtbarer-text-unterscheiden", "icon-buttons-und-beschriftungen-ruhig-begruenden"]
+taskId: "WEB-HTML-A11Y-305"
+relatedExercise: "src/content/exercises/web-development/html/aria-label-und-sichtbarer-text-unterscheiden/icon-buttons-und-beschriftungen-ruhig-begruenden.md"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

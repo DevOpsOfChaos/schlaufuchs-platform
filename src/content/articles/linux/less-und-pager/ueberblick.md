@@ -1,34 +1,19 @@
 ---
 title: "less und Pager"
 description: "Allgemeiner Überblick über Pager wie less zum Lesen langer Ausgaben."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - "less-und-pager"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst less und Pager als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["less-und-pager", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird lange Ausgabe direkt ins Terminal geschrieben. Dadurch gehen Anfang und Kontext schnell verloren."
-keyTakeaways:
-  - "Pager wie less machen lange Texte kontrollierbar."
-  - "less und Pager sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um less und Pager."
-selfCheckPoints:
-  - "Kann ich erklären, woran man less und Pager erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "linux"
-  - "less"
-  - "pager"
-  - "shell"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
-
 # less und Pager
 
 Ein Pager zeigt lange Texte seitenweise an, ohne sie vollständig durch das Terminal laufen zu lassen.

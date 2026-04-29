@@ -1,30 +1,17 @@
 ---
-title: Lesbare Textblöcke über Zeilenabstand begründen
-description: Begründe, warum line-height für Lesbarkeit wichtig ist und woran du zu enge oder zu luftige Textabstände erkennst.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - line-height-und-lesbare-textabstaende-verstehen
-  - lesbare-textbloecke-ueber-zeilenabstand-begruenden
-level: einfach
+title: "Lesbare Textblöcke über Zeilenabstand begründen"
+description: "Begründe, warum line-height für Lesbarkeit wichtig ist und woran du zu enge oder zu luftige Textabstände erkennst."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "line-height-und-lesbare-textabstaende-verstehen", "lesbare-textbloecke-ueber-zeilenabstand-begruenden"]
+taskId: "AUTO-LESBARE-TEXTBLOECKE-UEBER-ZEILENABSTAND-BEGRUENDEN"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - css
-  - typografie
-  - line-height
-hintPoints:
-  - "Vergleiche Lesbarkeit, nicht nur sichtbare Höhe."
-  - "Achte darauf, ob der Text als ruhiger Absatz zusammenbleibt."
-selfCheckPoints:
-  - "Kannst du zu enge und zu luftige Zeilenabstände benennen?"
-  - "Kannst du line-height fachlich mit Lesbarkeit verbinden?"
-transferIdeas:
-  - "Übertrage die Logik auf Karten, Hilfetexte oder längere Formularhinweise."
-reflectionPrompt: "Woran merkst du, dass ein Absatz nicht nur sichtbar, sondern auch angenehm lesbar sein soll?"
 ---
-
 ## Aufgabe 1: Wirkung beschreiben
 
 Ein Textblock mit derselben Schriftgröße wird einmal mit `line-height: 1.1`, einmal mit `line-height: 1.6` und einmal mit `line-height: 2.2` angezeigt.

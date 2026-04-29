@@ -3,37 +3,15 @@ title: "Bits, Bytes und Codierung: Aufgabe B"
 description: "Übertrage das Thema Bits, Bytes und Codierung auf ein zweites Beispiel und formuliere eine kurze Prüfung."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "darstellung-und-code"
-  - "bits-bytes-und-codierung"
-  - "aufgabe-b"
-
+topicPath: ["sanierung-v195", "bits-bytes-und-codierung-aufgabe-b"]
 taskId: "daten-und-signale-v195-005b"
-tags:
-  - "bits"
-  - "bytes"
-  - "codierung"
-  - "daten-und-signale"
-  - "aufgabe"
-  - "v195"
-
-hintPoints:
-  - "Beschreibe zuerst Quelle, Einheit und Ziel der Auswertung."
-  - "Trenne Beobachtung, mögliche Ursache und sichere Aussage."
-  - "Lege einen kleinen Kontrollpunkt fest."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Bits, Bytes und Codierung."
-  - "Die Aussage bleibt auf die vorhandenen Daten begrenzt."
-  - "Mindestens ein Risiko oder eine Unsicherheit wird benannt."
-transferIdeas:
-  - "Übertrage den Prüfweg auf ein anderes Messsignal."
-  - "Notiere, welche Metadaten für eine spätere Auswertung fehlen könnten."
-reflectionPrompt: "Welche Annahme wäre in deiner Lösung am leichtesten zu übersehen?"
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Übertrage das Thema Bits, Bytes und Codierung auf ein zweites Beispiel und formuliere eine kurze Prüfung.

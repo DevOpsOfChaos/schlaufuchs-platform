@@ -1,46 +1,19 @@
 ---
-title: Vererbung und Polymorphie grob einordnen
-description: Verstehe Vererbung als Spezialisierung und Polymorphie als gemeinsames Verhalten bei unterschiedlicher Auspraegung.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - vererbung-und-polymorphie-grob-einordnen
-learningGoals:
-  - Du beschreibst Vererbung als Spezialisierung.
-  - Du erklaerst Polymorphie als gemeinsames Auftreten mit unterschiedlicher Umsetzung.
-  - Du ordnest UML- und OOP-Beispiele ruhiger in Worte ein.
-practiceIdeas:
-  - Formuliere ist-ein-Aussagen zu Klassen.
-  - Vergleiche gemeinsame Schnittstelle und verschiedene Auspraegungen.
-  - Lies ein Beispiel zuerst in Alltagssprache und dann als OOP-Modell.
-commonMistakes:
-  - Vererbung mit Besitzbeziehungen zu verwechseln.
-  - Polymorphie nur als schweres Fremdwort zu sehen.
-  - Oberklasse und Unterklasse nicht sauber zu trennen.
-keyTakeaways:
-  - Vererbung beschreibt eine Klassenhierarchie.
-  - Polymorphie beschreibt gleichartige Aufrufe mit unterschiedlicher konkreter Wirkung.
-  - Beide Konzepte haengen oft zusammen, sind aber nicht dasselbe.
-recognizeSignals:
-  - Es geht um Oberklasse, Unterklasse oder gemeinsame Schnittstellen.
-  - Ein UML-Diagramm zeigt Generalisierung oder Spezialisierung.
-  - Mehrere Objekte reagieren unterschiedlich auf denselben Methodenaufruf.
-selfCheckPoints:
-  - Kann ich Vererbung in einem Satz beschreiben?
-  - Kann ich Polymorphie in Alltagssprache erklaeren?
-  - Kann ich beide Begriffe trennen?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - vererbung
-  - polymorphie
+title: "Vererbung und Polymorphie grob einordnen"
+description: "Verstehe Vererbung als Spezialisierung und Polymorphie als gemeinsames Verhalten bei unterschiedlicher Auspraegung."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "vererbung-und-polymorphie-grob-einordnen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Vererbung und Polymorphie sind zwei wichtige OOP-Ideen, die oft zusammen auftreten, aber nicht dasselbe meinen.

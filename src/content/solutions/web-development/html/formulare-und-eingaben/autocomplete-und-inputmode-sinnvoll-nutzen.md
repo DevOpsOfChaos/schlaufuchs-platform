@@ -3,23 +3,12 @@ title: "Lösung – autocomplete und inputmode sinnvoll nutzen"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Development-Aufgabe."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "formulare-und-eingaben"
-  - "autocomplete-und-inputmode-sinnvoll-nutzen"
-tags:
-  - "web development"
-  - "html"
-  - "formulare"
-  - "autocomplete"
-  - "inputmode"
-  - "ux"
-  - "lösung"
+topicPath: ["html", "formulare-und-eingaben", "autocomplete-und-inputmode-sinnvoll-nutzen"]
 taskId: "web-v103-autocomplete-und-inputmode-sinnvoll-nutzen"
 relatedExercise: "web-development/html/formulare-und-eingaben/autocomplete-und-inputmode-sinnvoll-nutzen"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Name, E-Mail und Telefonnummer erhalten passende `autocomplete`-Werte; die Telefonnummer nutzt `inputmode="tel"`, ohne unnötig streng zu validieren.

@@ -1,44 +1,19 @@
 ---
-title: find und Dateisuche
-description: Verstehe, wie du Dateien über Namen, Typen und Startpfade gezielt suchst statt nur Ordner manuell zu durchsuchen.
-subject: linux
-section: Shell
-topicPath:
-  - shell
-  - find-und-dateisuche
-tags:
-  - linux
-  - find
-  - dateisuche
-  - shell
-learningGoals:
-  - "Du erklärst, was Startpfad und Suchausdruck bei find bedeuten."
-  - "Du suchst Dateien gezielt nach Namen oder Typ."
-  - "Du ordnest find als systematische Suche in Verzeichnisbäumen ein."
-practiceIdeas:
-  - "Probiere denselben Suchbefehl mit verschiedenen Startpfaden aus."
-  - "Vergleiche eine Suche nach Dateinamen mit einer Suche nach Dateityp."
-  - "Schütze Muster mit Anführungszeichen, damit die Shell sie nicht vorab verändert."
-commonMistakes:
-  - "Suchmuster ohne Anführungszeichen zu schreiben."
-  - "Startpfad und Suchbedingung nicht auseinanderzuhalten."
-  - "Zu vergessen, dass find rekursiv durch Verzeichnisse geht."
-keyTakeaways:
-  - "find durchsucht Verzeichnisbäume systematisch."
-  - "Startpfad und Ausdruck haben unterschiedliche Rollen."
-  - "Mit Namen, Typ und Pfad lassen sich Suchen stark eingrenzen."
-recognizeSignals:
-  - "Es geht um Suchen in Ordnern, Muster, Dateitypen oder Pfadangaben."
-  - "Du sollst erklären, warum ein Befehl in einem Verzeichnisbaum Treffer findet."
-  - "Ein Beispiel fragt nach dem Unterschied zwischen Startpunkt und Suchregel."
-selfCheckPoints:
-  - "Kann ich Startpfad und Suchausdruck erklären?"
-  - "Kann ich einen einfachen find-Befehl nach Namen formulieren?"
-  - "Kann ich begründen, warum Anführungszeichen bei Mustern hilfreich sind?"
-level: einfach
+title: "find und Dateisuche"
+description: "Verstehe, wie du Dateien über Namen, Typen und Startpfade gezielt suchst statt nur Ordner manuell zu durchsuchen."
+subject: "linux"
+section: "Shell"
+topicPath: ["shell", "find-und-dateisuche"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
-
 ## Warum dieses Thema wichtig ist
 
 Sobald Ordnerstrukturen größer werden, reicht reines Durchklicken oder mehrfaches `ls` oft nicht mehr aus. Mit `find` kannst du systematisch nach Dateien und Verzeichnissen suchen.

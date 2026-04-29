@@ -1,33 +1,17 @@
 ---
-title: Pointer als Adressvariablen in Worte übersetzen
-description: Beschreibe bei einfachen Beispielen, was im Pointer selbst steckt und worauf er zeigt.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - pointer-und-adressen
-  - pointer-in-cpp-verstehen
-  - pointer-als-adressvariablen-in-worte-uebersetzen
-taskId: INF-PROG-CPP-PTR-001
-level: mittel
+title: "Pointer als Adressvariablen in Worte übersetzen"
+description: "Beschreibe bei einfachen Beispielen, was im Pointer selbst steckt und worauf er zeigt."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "pointer-in-cpp-verstehen", "pointer-als-adressvariablen-in-worte-uebersetzen"]
+taskId: "INF-PROG-CPP-PTR-001"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - aufgabe
-hintPoints:
-  - "Lies zuerst die Signatur oder den Ausdruck ruhig in Worten."
-  - "Trenne Rolle, Wirkung und Ergebnis sauber voneinander."
-selfCheckPoints:
-  - "Habe ich die Fachbegriffe sauber benutzt?"
-  - "Habe ich begründet statt nur benannt?"
-transferIdeas:
-  - "Übertrage die Logik auf ähnliche Funktionen oder Ausdrücke."
-reflectionPrompt: "Welche Stelle im Beispiel war leicht zu verwechseln und warum?"
 ---
-
 ## Aufgabe 1: Rollen benennen
 
 Gegeben ist:

@@ -1,35 +1,17 @@
 ---
 title: "Trigger am Logikanalysator"
 description: "Überblick über Triggerbedingungen am Logikanalysator und ihre Bedeutung für die Analyse digitaler Fehlerbilder."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Messpraxis"
-topicPath:
-  - "logic-analyzer-trigger"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Trigger am Logikanalysator als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["logic-analyzer-trigger", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Viele Messungen bleiben unbrauchbar, wenn ohne Trigger nur sehr lange Aufzeichnungen erzeugt werden, in denen das eigentliche Ereignis schwer zu finden ist."
-keyTakeaways:
-  - "Ein Trigger legt fest, bei welchem Signalereignis ein Logikanalysator die Aufzeichnung ausrichtet oder startet."
-  - "Er macht seltene Fehler auffindbar, weil die Messung nicht nur zufällig lange Datenströme sammelt, sondern relevante Ereignisse fokussiert."
-  - "Ein Trigger beweist nicht automatisch die Ursache. Er hilft, den richtigen Ausschnitt für die Interpretation zu finden."
-recognizeSignals:
-  - "Es geht um Trigger am Logikanalysator, wenn trigger können auf Flanken, Pegel, Muster oder Protokollereignisse reagieren."
-  - "Das Thema wird relevant, wenn Beispiele wie bei einem sporadischen SPI-Fehler kann auf einen bestimmten Chip-Select-Wechsel oder ein ungültiges Datenmuster getriggert werden."
-selfCheckPoints:
-  - "Kann ich Trigger am Logikanalysator in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "logikanalysator"
-  - "trigger"
-  - "messung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Messpraxis"]
 draft: false
 ---
 # Trigger am Logikanalysator

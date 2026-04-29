@@ -3,34 +3,15 @@ title: "Aufgabe – JavaScript: Event Listener und Handler klar trennen"
 description: "Beschreibe den Unterschied zwischen showMessage und showMessage() in einem addEventListener. Schreibe ein korrektes Klickbeispiel."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "dom-und-events"
-  - "event-listener-und-handler-klar-trennen"
+topicPath: ["javascript", "dom-und-events", "event-listener-und-handler-klar-trennen"]
 taskId: "web-js-event-listener-und-handler-klar-trennen"
-tags:
-  - "web development"
-  - "javascript"
-  - "events"
-  - "listener"
-  - "handler"
-  - "aufgabe"
-hintPoints:
-  - "Lies zuerst die sichtbare Browser-Situation, nicht nur den Code."
-  - "Trenne HTML-Basis, JavaScript-Logik und sichtbare Rückmeldung."
-  - "Denke mindestens einen Fehler- oder Leerzustand mit."
-selfCheckPoints:
-  - "Ist die Lösung fachlich begründet?"
-  - "Bleibt der Code klein und nachvollziehbar?"
-  - "Passt die Rückmeldung zur Handlung der Nutzerinnen und Nutzer?"
-transferIdeas:
-  - "Übertrage die Idee auf ein Formular, eine Karte oder eine kleine Suchoberfläche."
-  - "Formuliere eine Variante, bei der der Erfolgsfall funktioniert, aber der Fehlerfall fehlt."
-reflectionPrompt: "Welche Grenze zwischen HTML, CSS und JavaScript ist bei dieser Aufgabe am wichtigsten?"
+tags: ["web-development", "JavaScript", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Beschreibe den Unterschied zwischen showMessage und showMessage() in einem addEventListener. Schreibe ein korrektes Klickbeispiel.

@@ -3,32 +3,17 @@ title: "Datenbankmigrationen"
 description: "Allgemeiner Überblick über datenbankmigrationen und die wichtigsten Zusammenhänge."
 subject: "informatik"
 section: "Datenbanken"
-topicPath:
-  - "datenbankmigrationen"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["datenbankmigrationen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Datenbankänderungen manuell ausgeführt und nicht dokumentiert."
-keyTakeaways:
-  - "Migrationen halten Datenbankstruktur und Anwendung über Zeit synchron."
-  - "Eine Migration ist nicht nur ein SQL-Schnipsel, sondern Teil der Versionsgeschichte."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "informatik"
-  - "datenbanken"
-  - "migration"
-  - "schema"
+tags: ["informatik", "Datenbanken"]
 draft: false
 ---
-
 # Datenbankmigrationen
 
 Datenbankmigrationen beschreiben versionierte Änderungen am Datenbankschema oder an Datenbeständen.

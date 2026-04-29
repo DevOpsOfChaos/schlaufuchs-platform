@@ -1,46 +1,19 @@
 ---
-title: ATmega – UDRE, RXC und TXC unterscheiden
-description: Verstehe, welche UART-Statusflags beim AVR Senden und Empfangen wirklich beschreiben und warum sie nicht dieselbe Frage beantworten.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-kommunikation
-  - atmega-uart-udre-rxc-und-txc-unterscheiden
-learningGoals:
-  - Du erklärst die Rollen von UDRE, RXC und TXC am AVR.
-  - Du unterscheidest Datenregister leer, Zeichen empfangen und Übertragung vollständig beendet sauber.
-  - Du liest UART-Statusflags eher als Ablaufmarken statt nur als Bitnamen.
-practiceIdeas:
-  - Vergleiche den Moment vor dem Schreiben, nach dem Empfang und nach dem vollständigen Senden.
-  - Ordne typische Polling-Schleifen dem passenden UART-Flag zu.
-  - Prüfe bei seriellen Routinen, welche Frage das jeweilige Flag wirklich beantwortet.
-commonMistakes:
-  - UDRE und TXC gleichzusetzen.
-  - RXC als allgemeines „UART läuft“-Signal zu lesen.
-  - Zu früh von vollständiger Übertragung zu sprechen, obwohl nur das Datenregister leer ist.
-keyTakeaways:
-  - UDRE zeigt, dass das UDR-Register neu beschrieben werden darf.
-  - RXC zeigt, dass ein empfangenes Zeichen im Datenregister bereitliegt.
-  - TXC beschreibt erst das Ende der tatsächlichen Übertragung auf der Leitung.
-recognizeSignals:
-  - Es geht um UCSRnA, Statusflags oder Polling bei der UART.
-  - Du sollst erklären, warum man für Senden und Empfangen unterschiedliche Bits beobachtet.
-  - In Aufgaben wird zwischen „schreiben dürfen“ und „wirklich fertig gesendet“ unterschieden.
-selfCheckPoints:
-  - Kann ich UDRE und TXC sauber trennen?
-  - Kann ich sagen, wann RXC gesetzt wird?
-  - Kann ich die drei Flags als unterschiedliche Ablaufpunkte beschreiben?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - uart
-  - statusflags
-level: mittel
+title: "ATmega – UDRE, RXC und TXC unterscheiden"
+description: "Verstehe, welche UART-Statusflags beim AVR Senden und Empfangen wirklich beschreiben und warum sie nicht dieselbe Frage beantworten."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-uart-udre-rxc-und-txc-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei der UART reichen Begriffe wie „fertig“ oder „bereit“ oft nicht aus. Der AVR unterscheidet sauber, **welcher Teil des Ablaufs** gerade gemeint ist. Genau dafür sind die drei Statusflags **UDRE**, **RXC** und **TXC** wichtig.

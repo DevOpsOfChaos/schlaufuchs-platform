@@ -3,21 +3,12 @@ title: "Lösung – Einheiten der Änderungsrate benennen"
 description: "Musterlösung zu einheiten der änderungsrate benennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "funktionen"
-  - "analysis-einstieg"
-  - "einheiten-der-aenderungsrate-benennen"
+topicPath: ["funktionen", "analysis-einstieg", "einheiten-der-aenderungsrate-benennen"]
 taskId: "v112-mathematik-einheiten-der-aenderungsrate-benennen"
 relatedExercise: "mathematik/funktionen/analysis-einstieg/einheiten-der-aenderungsrate-benennen"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "funktionen"
-  - "einheiten-der-aenderungsrate-benennen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Analysis-Einstieg**.

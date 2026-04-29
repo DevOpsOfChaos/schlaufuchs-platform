@@ -1,33 +1,17 @@
 ---
-title: Strukturelemente für Inhalte auswählen
-description: Begründe bei kleinen Seitenausschnitten, welche HTML-Elemente wegen ihrer Bedeutung passend sind.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - html-semantik-grundidee-verstehen
-  - strukturelemente-fuer-inhalte-auswaehlen
-taskId: WEB-HTML-SEM-001
-level: einfach
+title: "Strukturelemente für Inhalte auswählen"
+description: "Begründe bei kleinen Seitenausschnitten, welche HTML-Elemente wegen ihrer Bedeutung passend sind."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "html-semantik-grundidee-verstehen", "strukturelemente-fuer-inhalte-auswaehlen"]
+taskId: "WEB-HTML-SEM-001"
+tags: ["web-development", "HTML", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - html
-  - semantik
-  - struktur
-hintPoints:
-  - "Frage zuerst nach der Rolle des Inhalts, nicht nach seinem Aussehen."
-  - "Trenne Navigation, Hauptinhalt und ergänzende Informationen."
-  - "Ein neutrales Element ist nicht falsch, aber oft weniger aussagekräftig."
-selfCheckPoints:
-  - "Ist klar, warum du ein Element auswählst?"
-  - "Begründest du mit Bedeutung statt mit Optik?"
-  - "Kannst du neutrale und semantische Lösung vergleichen?"
-transferIdeas:
-  - "Übertrage die Aufgabe auf Blogseiten, Produktseiten oder Dokumentationen."
-  - "Vergleiche eine Struktur aus vielen divs mit einer semantischeren Version."
-reflectionPrompt: "Warum macht semantisches HTML eine Seite verständlicher, auch wenn das Design gleich bleibt?"
 ---
-
 ## Aufgabe 1: Bereich zuordnen
 
 Eine Seite enthält:

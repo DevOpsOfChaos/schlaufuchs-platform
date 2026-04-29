@@ -1,29 +1,17 @@
 ---
 title: "Eingabe, Verarbeitung und Ausgabe – Anwenden und prüfen"
 description: "Übe, Eingabe, Verarbeitung und Ausgabe an kleinen Situationen zu prüfen."
-subject: informatik
+subject: "informatik"
 section: "programmablauf-und-steuerung"
-topicPath:
-  - "programmablauf-und-steuerung"
-  - "eingabe-verarbeitung-ausgabe"
-taskId: INF-EINGABE-VERARBEITUNG-AUSGABE-842
-tags:
-  - "informatik"
-  - "datenfluss"
-  - "programmablauf"
-hintPoints:
-  - "Beginne mit der allgemeinen Rolle des Themas."
-  - "Trenne Begriff, Beispiel und Sonderfall sauber."
-selfCheckPoints:
-  - "Ich kann meine Zuordnung begründen."
-  - "Ich vermeide eine reine Einzelfallantwort."
-transferIdeas:
-  - "Übertrage die Idee auf ein anderes kleines Informatikbeispiel."
-reflectionPrompt: "Welche Annahme musste ich bewusst prüfen?"
-level: einfach
+topicPath: ["programmablauf-und-steuerung", "eingabe-verarbeitung-ausgabe", "eingabe-verarbeitung-ausgabe-anwenden-und-pruefen-v184"]
+taskId: "INF-EINGABE-VERARBEITUNG-AUSGABE-842"
+tags: ["informatik", "programmablauf-und-steuerung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Eingabe, Verarbeitung und Ausgabe**. Sie soll nicht nur eine einzelne Situation lösen, sondern das Thema fachlich einordnen.
 
 ## Lernziel

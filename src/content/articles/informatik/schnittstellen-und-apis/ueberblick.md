@@ -1,31 +1,17 @@
 ---
 title: "Schnittstellen und APIs"
 description: "Allgemeiner Überblick über Schnittstellen, APIs und klare Verträge zwischen Softwareteilen."
-subject: informatik
+subject: "informatik"
 section: "Softwareentwicklung"
-topicPath:
-  - "schnittstellen-und-apis"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Schnittstellen und APIs grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["schnittstellen-und-apis", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Schnittstellen und APIs nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Schnittstellen und APIs beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Schnittstellen und APIs, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Schnittstellen und APIs in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "api"
-  - "schnittstellen"
-  - "software"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Softwareentwicklung"]
 draft: false
 ---
 # Schnittstellen und APIs

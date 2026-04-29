@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Komplexität und Aufwand – Ruhig einordnen"
 description: "Musterlösung zur Aufgabe über Komplexität und Aufwand."
-subject: informatik
+subject: "informatik"
 section: "algorithmen-klein-begruenden"
-topicPath:
-  - "algorithmen-klein-begruenden"
-  - "komplexitaet-und-aufwand"
-taskId: INF-KOMPLEXITAET-UND-AUFWAND-841
-relatedExercise: src/content/exercises/informatik/algorithmen-klein-begruenden/komplexitaet-und-aufwand/komplexitaet-und-aufwand-ruhig-einordnen-v184.md
-tags:
-  - "informatik"
-  - "algorithmen"
-  - "komplexitaet"
-  - "loesung"
+topicPath: ["algorithmen-klein-begruenden", "komplexitaet-und-aufwand", "komplexitaet-und-aufwand-ruhig-einordnen-v184"]
+taskId: "INF-KOMPLEXITAET-UND-AUFWAND-841"
+relatedExercise: "src/content/exercises/informatik/algorithmen-klein-begruenden/komplexitaet-und-aufwand/komplexitaet-und-aufwand-ruhig-einordnen-v184.md"
+tags: ["informatik", "algorithmen-klein-begruenden", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

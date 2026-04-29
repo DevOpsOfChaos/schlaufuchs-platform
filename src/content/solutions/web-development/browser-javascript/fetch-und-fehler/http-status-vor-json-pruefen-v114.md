@@ -1,23 +1,14 @@
 ---
-title: Lösung – HTTP-Status vor JSON prüfen
-description: Musterlösung zur Aufgabe über HTTP-Status vor JSON prüfen.
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- browser-javascript
-- fetch-und-fehler
-- http-status-vor-json-pruefen-v114
-taskId: v114-web-development-http-status-vor-json-pruefen-v114
-relatedExercise: web-development/browser-javascript/fetch-und-fehler/http-status-vor-json-pruefen-v114
-tags:
-- web-development
-- v114
-- loesung
-- browser-javascript
-- fetch-und-fehler
+title: "Lösung – HTTP-Status vor JSON prüfen"
+description: "Musterlösung zur Aufgabe über HTTP-Status vor JSON prüfen."
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["browser-javascript", "fetch-und-fehler", "http-status-vor-json-pruefen-v114"]
+taskId: "v114-web-development-http-status-vor-json-pruefen-v114"
+relatedExercise: "web-development/browser-javascript/fetch-und-fehler/http-status-vor-json-pruefen-v114"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

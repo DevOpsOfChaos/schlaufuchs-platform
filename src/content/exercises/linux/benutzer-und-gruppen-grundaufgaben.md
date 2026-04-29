@@ -1,12 +1,17 @@
 ---
-title: Benutzer und Gruppen – Grundaufgaben
-description: Übe die fachliche Einordnung von Identitäten, Gruppen und Zugriffsorganisation in Linux.
-subject: linux
-section: benutzer-und-gruppen
-level: einfach
+title: "Benutzer und Gruppen – Grundaufgaben"
+description: "Übe die fachliche Einordnung von Identitäten, Gruppen und Zugriffsorganisation in Linux."
+subject: "linux"
+section: "benutzer-und-gruppen"
+topicPath: ["benutzer-und-gruppen-grundaufgaben"]
+taskId: "AUTO-BENUTZER-UND-GRUPPEN-GRUNDAUFGABEN"
+tags: ["linux", "benutzer-und-gruppen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe hält die Grundidee von Benutzern und Gruppen bewusst einfach: Du sollst verstehen, **wie Linux Zugriffe organisiert und warum Identitäten dabei wichtig sind**.
 
 ## Lernziel

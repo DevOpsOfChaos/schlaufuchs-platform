@@ -1,29 +1,17 @@
 ---
 title: "Pipes und Umleitungen – ruhig einordnen"
 description: "Übe, Pipes und Umleitungen fachlich einzuordnen."
-subject: linux
+subject: "linux"
 section: "shell-und-terminal"
-topicPath:
-  - "shell-und-terminal"
-  - "pipes-und-umleitungen"
-taskId: LINUX-PIPES-UND-UMLEITUNGEN-V186-1
-tags:
-  - "linux"
-  - "pipes"
-  - "umleitung"
-  - "aufgabe"
-hintPoints:
-  - "Beginne mit Begriff und Kontext."
-  - "Trenne Beobachtung, Prüfung und mögliche Änderung."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe erklären."
-  - "Ich kann einen typischen Fehler vermeiden."
-transferIdeas:
-  - "Formuliere eine ähnliche Prüfsituation aus deinem eigenen Linux-Alltag."
-level: mittel
+topicPath: ["shell-und-terminal", "pipes-und-umleitungen", "pipes-und-umleitungen-ruhig-einordnen-v186"]
+taskId: "LINUX-PIPES-UND-UMLEITUNGEN-V186-1"
+tags: ["linux", "shell-und-terminal", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Lernziel
 
 Du sollst **Pipes und Umleitungen** nicht nur als Befehl oder Schlagwort sehen, sondern als geordnetes Linux-Thema mit Zweck, Kontext und typischen Prüfschritten.

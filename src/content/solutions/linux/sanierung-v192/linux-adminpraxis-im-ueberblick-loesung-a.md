@@ -3,23 +3,12 @@ title: "Lösung: Linux-Adminpraxis im Überblick: Aufgabe A"
 description: "Musterlösung zur Aufgabe linux-v192-001a im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "betrieb"
-  - "linux-adminpraxis-im-ueberblick"
-  - "loesung-a"
+topicPath: ["sanierung-v192", "linux-adminpraxis-im-ueberblick-loesung-a"]
 taskId: "linux-v192-001a"
 relatedExercise: "linux/sanierung-v192/linux-adminpraxis-im-ueberblick-aufgabe-a"
-tags:
-  - "betrieb"
-  - "linux"
-  - "adminpraxis"
-  - "ueberblick"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-001a`
 
 Ausgangsauftrag: Erstelle eine Admin-Checkliste für eine kleine Linux-VM.

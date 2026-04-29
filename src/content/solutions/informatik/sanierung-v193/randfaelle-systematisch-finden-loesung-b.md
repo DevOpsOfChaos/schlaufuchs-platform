@@ -3,24 +3,12 @@ title: "Lösung: Randfälle systematisch finden: Aufgabe B"
 description: "Musterlösung zur Aufgabe informatik-v193-007b im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "tests-und-randfaelle"
-  - "randfaelle-systematisch-finden"
-  - "loesung-b"
+topicPath: ["sanierung-v193", "randfaelle-systematisch-finden-loesung-b"]
 taskId: "informatik-v193-007b"
 relatedExercise: "informatik/sanierung-v193/randfaelle-systematisch-finden-aufgabe-b"
-tags:
-  - "randfaelle"
-  - "systematisch"
-  - "finden"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-007b`
 
 Ausgangsauftrag: Übertrage das Thema Randfälle systematisch finden auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

@@ -1,44 +1,19 @@
 ---
-title: HTML-Semantik – Grundidee verstehen
-description: Verstehe, warum HTML nicht nur Inhalt umschließt, sondern ihm eine klare Rolle im Dokument gibt.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - html-semantik-grundidee-verstehen
-learningGoals:
-  - Du erklärst die Grundidee semantischer HTML-Elemente.
-  - Du trennst neutrale Container und bedeutungstragende Strukturelemente sauber.
-  - Du ordnest Semantik zuerst über Dokumentrolle und erst danach über Layout ein.
-practiceIdeas:
-  - Lies eine Seitenstruktur zuerst ohne CSS und beschreibe die Rollen der Bereiche.
-  - Vergleiche eine neutrale div-Lösung mit einer semantischen HTML-Lösung.
-  - Prüfe bei einer Strukturfrage zuerst, ob es um Seitengerüst oder um Inhaltsstruktur geht.
-commonMistakes:
-  - HTML-Tags nur nach Optik statt nach Bedeutung auszuwählen.
-  - main und article gleichzusetzen.
-  - Zu glauben, Semantik würde das Layout automatisch erzeugen.
-keyTakeaways:
-  - Semantische Elemente beschreiben die Rolle eines Bereichs im Dokument.
-  - Semantik und Layout sind zwei verschiedene Entscheidungen.
-  - Gute Semantik beginnt mit der Frage nach Aufgabe und Kontext eines Bereichs.
-recognizeSignals:
-  - Es geht um Seitenstruktur, Dokumentrollen oder verständlicheres HTML.
-  - Du sollst entscheiden, ob etwas zum Seitengerüst oder zur Inhaltsstruktur gehört.
-  - In Beispielen tauchen header, nav, main, article, section oder aside auf.
-selfCheckPoints:
-  - Kann ich Rolle und Aussehen klar trennen?
-  - Kann ich neutrale und semantische Container vergleichen?
-  - Kann ich erklären, warum eine Struktur auch ohne CSS sinnvoll lesbar sein sollte?
-tags:
-  - html
-  - semantik
-  - struktur
-  - web-development
-level: einfach
+title: "HTML-Semantik – Grundidee verstehen"
+description: "Verstehe, warum HTML nicht nur Inhalt umschließt, sondern ihm eine klare Rolle im Dokument gibt."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "html-semantik-grundidee-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 HTML beschreibt nicht nur, **dass** es irgendwo Inhalt gibt, sondern auch, **welche Rolle** dieser Inhalt im Dokument hat. Genau darum geht es bei Semantik.

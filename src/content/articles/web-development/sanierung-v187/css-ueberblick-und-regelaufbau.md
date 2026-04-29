@@ -3,39 +3,17 @@ title: "CSS-Überblick und Regelaufbau"
 description: "Ordne CSS als Sprache für Darstellung ein und erkenne Selektor, Eigenschaft und Wert."
 subject: "web-development"
 section: "css"
-topicPath: 
-  - "css-und-layout"
-  - "grundlagen"
-learningGoals: 
-  - "Aufbau von CSS-Regeln ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Zerlege fünf CSS-Regeln in Selektor, Eigenschaft und Wert."
-  - "Schreibe einfache CSS-Regeln für Überschrift, Absatz und Hinweisbox einer Lernseite."
-commonMistakes: 
-  - "HTML-Elemente werden für Designzwecke gewählt."
-  - "Eigenschaften und Werte werden nicht getrennt gelesen."
-  - "Eine Regel wird erwartet, obwohl der Selektor nicht passt."
-keyTakeaways: 
-  - "CSS ist nachvollziehbar, wenn du erklären kannst, welche Regel auf welches Element wirkt."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "CSS ist nachvollziehbar, wenn du erklären kannst, welche Regel auf welches Element wirkt."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "css-ueberblick-und-regelaufbau"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags: 
-  - "css"
-  - "selektoren"
-  - "regeln"
-  - "gestaltung"
-  - "web-development"
+tags: ["web-development", "css"]
 draft: false
 ---
-
 ![Didaktische Skizze zu CSS-Überblick und Regelaufbau](/schlaufuchs-platform/images/web-development/sanierung-v187/css-ueberblick-und-regelaufbau.svg)
 
     CSS-Überblick und Regelaufbau ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

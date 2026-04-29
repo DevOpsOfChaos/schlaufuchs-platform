@@ -1,35 +1,19 @@
 ---
 title: "Digitale Eingänge und Ausgänge"
 description: "Allgemeiner Überblick über digitale Ein- und Ausgänge als Schnittstelle zwischen Mikrocontroller und Außenwelt."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "digitale-eingaenge-und-ausgaenge"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee digitaler Ein- und Ausgänge."
-  - "Du kannst Eingänge und Ausgänge als Schnittstellen einordnen."
-  - "Du erkennst typische Grenzen digitaler Signale."
+topicPath: ["digitale-eingaenge-und-ausgaenge", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Digitale Signale als beliebig genaue Spannungen zu behandeln."
-  - "Eingänge, Ausgänge und Versorgungsspannung gedanklich zu vermischen."
-keyTakeaways:
-  - "Digitale Ein- und Ausgänge verbinden Logiksignale mit realer Hardware."
-  - "Ein digitaler Pin kennt Pegelbereiche, Belastungsgrenzen und zeitliches Verhalten."
-recognizeSignals:
-  - "Es geht um High/Low, Pin-Zustände, Taster, LEDs, Sensoren oder Relais."
-selfCheckPoints:
-  - "Kann ich erklären, warum ein digitaler Eingang nicht automatisch ein stabiles Signal liefert?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "digitale eingänge"
-  - "digitale ausgänge"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
-
 # Digitale Eingänge und Ausgänge
 Digitale Eingänge und Ausgänge bilden die einfache, aber zentrale Verbindung zwischen einem Mikrocontroller und seiner Umgebung. Ein Eingang nimmt einen elektrischen Zustand auf, ein Ausgang gibt einen elektrischen Zustand aus. In beiden Fällen wird die reale elektrische Welt auf eine logische Unterscheidung reduziert: meistens `High` oder `Low`.
 

@@ -3,24 +3,12 @@ title: "Lösung: Code-Review als Lernwerkzeug: Aufgabe B"
 description: "Musterlösung zur Aufgabe informatik-v193-028b im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "zusammenarbeit-und-audit"
-  - "code-review-als-lernwerkzeug"
-  - "loesung-b"
+topicPath: ["sanierung-v193", "code-review-als-lernwerkzeug-loesung-b"]
 taskId: "informatik-v193-028b"
 relatedExercise: "informatik/sanierung-v193/code-review-als-lernwerkzeug-aufgabe-b"
-tags:
-  - "code"
-  - "review"
-  - "lernwerkzeug"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-028b`
 
 Ausgangsauftrag: Übertrage das Thema Code-Review als Lernwerkzeug auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

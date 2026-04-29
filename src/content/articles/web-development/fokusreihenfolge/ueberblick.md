@@ -1,30 +1,17 @@
 ---
 title: "Fokusreihenfolge"
 description: "Allgemeiner Überblick: Die Fokusreihenfolge bestimmt, wie Tastaturnutzung durch eine Oberfläche führt."
-subject: web-development
+subject: "web-development"
 section: "Barrierefreiheit"
-topicPath:
-  - "fokusreihenfolge"
-learningGoals:
-  - "Du kannst fokusreihenfolge als Grundidee einordnen."
-  - "Du erkennst wichtige Bestandteile und typische Grenzen."
-  - "Du kannst das Thema in einfachen Worten erklären."
+topicPath: ["fokusreihenfolge", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur ein Detail zu betrachten und den Zusammenhang zu übersehen."
-  - "Das Schaubild als exakte technische Darstellung statt als Orientierung zu lesen."
-keyTakeaways:
-  - "Die Fokusreihenfolge bestimmt, wie Tastaturnutzung durch eine Oberfläche führt."
-  - "Ein Überblicksbild hilft, Begriffe und Beziehungen ruhig zu ordnen."
-recognizeSignals:
-  - "Es geht um fokusreihenfolge, Grundbegriffe, Zusammenhänge oder typische Fehlerquellen."
-selfCheckPoints:
-  - "Kann ich erklären, welche Rolle fokusreihenfolge im größeren Zusammenhang spielt?"
-level: einfach
-tags:
-  - "web-development"
-  - "fokusreihenfolge"
-  - "überblick"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Barrierefreiheit"]
 draft: false
 ---
 # Fokusreihenfolge

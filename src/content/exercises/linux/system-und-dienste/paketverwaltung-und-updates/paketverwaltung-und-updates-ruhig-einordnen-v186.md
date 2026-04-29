@@ -1,29 +1,17 @@
 ---
 title: "Paketverwaltung und Updates – ruhig einordnen"
 description: "Übe, Paketverwaltung und Updates fachlich einzuordnen."
-subject: linux
+subject: "linux"
 section: "system-und-dienste"
-topicPath:
-  - "system-und-dienste"
-  - "paketverwaltung-und-updates"
-taskId: LINUX-PAKETVERWALTUNG-UND-UPDATES-V186-1
-tags:
-  - "linux"
-  - "pakete"
-  - "updates"
-  - "aufgabe"
-hintPoints:
-  - "Beginne mit Begriff und Kontext."
-  - "Trenne Beobachtung, Prüfung und mögliche Änderung."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe erklären."
-  - "Ich kann einen typischen Fehler vermeiden."
-transferIdeas:
-  - "Formuliere eine ähnliche Prüfsituation aus deinem eigenen Linux-Alltag."
-level: einfach
+topicPath: ["system-und-dienste", "paketverwaltung-und-updates", "paketverwaltung-und-updates-ruhig-einordnen-v186"]
+taskId: "LINUX-PAKETVERWALTUNG-UND-UPDATES-V186-1"
+tags: ["linux", "system-und-dienste", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Lernziel
 
 Du sollst **Paketverwaltung und Updates** nicht nur als Befehl oder Schlagwort sehen, sondern als geordnetes Linux-Thema mit Zweck, Kontext und typischen Prüfschritten.

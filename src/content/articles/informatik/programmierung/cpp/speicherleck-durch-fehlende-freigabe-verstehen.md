@@ -1,48 +1,19 @@
 ---
-title: Speicherleck durch fehlende Freigabe verstehen
-description: Verstehe, warum dynamisch reservierter Speicher verloren gehen kann, wenn seine Freigabe fehlt oder der Zugriffspfad verschwindet.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - dynamischer-speicher
-  - speicherleck-durch-fehlende-freigabe-verstehen
-learningGoals:
-  - Du erklärst, was bei einem Speicherleck fachlich verloren geht.
-  - Du erkennst, dass nicht der Pointerwert, sondern der unerreichbar gewordene oder unbeendet gebliebene Speicher das eigentliche Problem ist.
-  - Du liest kleine Beispiele gezielt auf Reservierung, Erreichbarkeit und Freigabe.
-practiceIdeas:
-  - Markiere in Beispielen die Stelle, an der Speicher mit <code>new</code> entsteht.
-  - Prüfe danach, ob der reservierte Speicher noch erreichbar und später wieder freigegeben ist.
-  - Vergleiche Beispiele mit sauberer Freigabe und mit verlorener Referenz.
-commonMistakes:
-  - Zu glauben, ein Speicherleck sei nur ein „falscher Pointerwert“.
-  - Nur auf <code>delete</code> zu schauen und die Erreichbarkeit des Speichers zu vergessen.
-  - Zu meinen, der Speicher verschwinde automatisch, nur weil die Variable überschrieben wurde.
-keyTakeaways:
-  - Ein Speicherleck entsteht, wenn reservierter Speicher ohne sauberen Abschluss zurückbleibt.
-  - Kritisch ist nicht nur fehlendes <code>delete</code>, sondern auch verlorene Erreichbarkeit.
-  - "Gute Prüfung fragt immer: Wo entsteht Speicher, wie bleibt er erreichbar, wo endet er?"
-recognizeSignals:
-  - Ein Pointer bekommt mit <code>new</code> eine Adresse und wird später überschrieben.
-  - Eine Reservierung ist sichtbar, aber eine Freigabe fehlt.
-  - Es geht um länger laufende Programme oder wiederholte Reservierungen.
-selfCheckPoints:
-  - Kann ich erklären, was bei einem Speicherleck konkret verloren geht?
-  - Kann ich in einem Beispiel die fehlende Freigabe oder verlorene Erreichbarkeit benennen?
-  - Kann ich Speicherleck und Dangling Pointer auseinanderhalten?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - pointer
-  - speicher
-  - memory-leak
+title: "Speicherleck durch fehlende Freigabe verstehen"
+description: "Verstehe, warum dynamisch reservierter Speicher verloren gehen kann, wenn seine Freigabe fehlt oder der Zugriffspfad verschwindet."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "speicherleck-durch-fehlende-freigabe-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Speicherleck ist kein einzelner „gefährlicher Zugriff“, sondern ein **offen gebliebener Speicherlebenszyklus**. Die erste Kernfrage lautet hier deshalb:

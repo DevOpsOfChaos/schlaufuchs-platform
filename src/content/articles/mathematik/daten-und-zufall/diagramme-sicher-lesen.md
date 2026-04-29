@@ -1,44 +1,19 @@
 ---
-title: Diagramme sicher lesen
-description: Verstehe, wie Diagramme Werte sichtbar machen und warum Achsen, Einheiten und Darstellung bewusst geprüft werden müssen.
-subject: mathematik
-section: Daten und Zufall
-topicPath:
-  - daten-und-zufall
-  - diagramme-sicher-lesen
-learningGoals:
-  - Du liest grundlegende Informationen aus einem Diagramm sicher ab.
-  - Du prüfst Achsen, Einheiten und Darstellungsweise bewusst.
-  - Du erkennst, dass ein Diagramm Daten sichtbar macht, aber auch Deutungen beeinflussen kann.
-practiceIdeas:
-  - Beschreibe bei einem Diagramm zuerst die Achsen, bevor du Aussagen triffst.
-  - Vergleiche zwei Darstellungen derselben Daten auf ihre Wirkung.
-  - Suche in einem Diagramm nach der größten, kleinsten und auffälligen Ausprägung.
-commonMistakes:
-  - Balkenhöhen oder Linien zu deuten, ohne auf Achsen und Einheiten zu achten.
-  - Eine Darstellung sofort zu glauben, ohne die Skala zu prüfen.
-  - Einzelwerte und Gesamttrend durcheinanderzubringen.
-keyTakeaways:
-  - Ein Diagramm muss immer über Achsen und Einheiten gelesen werden.
-  - Darstellung beeinflusst, wie stark Unterschiede wirken.
-  - Gute Diagrammdeutung beginnt mit genauer Orientierung, nicht mit schneller Meinung.
-recognizeSignals:
-  - Es geht um Balken-, Linien- oder andere Diagramme.
-  - Du sollst Daten aus einer Darstellung lesen und nicht nur das Bild beschreiben.
-  - In Beispielen musst du prüfen, ob die Darstellung Unterschiede sachlich oder verzerrt wirken lässt.
-selfCheckPoints:
-  - Kann ich Achsen und Einheiten zuerst benennen?
-  - Kann ich Einzelwert und Trend unterscheiden?
-  - Kann ich erklären, warum eine Darstellung stärker oder schwächer wirkt?
-tags:
-  - diagramme
-  - daten
-  - statistik
-  - achsen
-level: einfach
+title: "Diagramme sicher lesen"
+description: "Verstehe, wie Diagramme Werte sichtbar machen und warum Achsen, Einheiten und Darstellung bewusst geprüft werden müssen."
+subject: "mathematik"
+section: "Daten und Zufall"
+topicPath: ["daten-und-zufall", "diagramme-sicher-lesen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Daten und Zufall"]
 draft: false
 ---
-
 ## Grundidee
 
 Diagramme machen Daten sichtbar. Gerade deshalb wirken sie oft sehr überzeugend. Damit du sie sicher lesen kannst, musst du aber zuerst **Achsen, Einheiten und Skalen prüfen**, bevor du Aussagen über die Daten selbst triffst.

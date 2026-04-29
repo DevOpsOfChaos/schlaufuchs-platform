@@ -3,20 +3,12 @@ title: "Lösung – MOSFET-Gate als Steuereingang lesen"
 description: "Musterlösung zu MOSFET-Gate als Steuereingang lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "transistoren"
-  - "mosfet-gate-als-steuereingang-lesen-v113"
+topicPath: ["daten-und-signale", "transistoren", "mosfet-gate-als-steuereingang-lesen-v113"]
 taskId: "v113-elektrotechnik-mosfet-gate-als-steuereingang-lesen-v113"
 relatedExercise: "elektrotechnik/daten-und-signale/transistoren/mosfet-gate-als-steuereingang-lesen-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "mosfet-gate-als-steuereingang-lesen-v113"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **MOSFET-Gate als Steuereingang lesen**.

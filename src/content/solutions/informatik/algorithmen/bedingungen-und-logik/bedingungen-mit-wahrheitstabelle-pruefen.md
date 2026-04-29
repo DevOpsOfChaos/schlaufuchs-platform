@@ -3,21 +3,12 @@ title: "Lösung – Bedingungen mit Wahrheitstabelle prüfen"
 description: "Musterlösung zu bedingungen mit wahrheitstabelle prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "algorithmen"
-  - "bedingungen-und-logik"
-  - "bedingungen-mit-wahrheitstabelle-pruefen"
+topicPath: ["algorithmen", "bedingungen-und-logik", "bedingungen-mit-wahrheitstabelle-pruefen"]
 taskId: "v112-informatik-bedingungen-mit-wahrheitstabelle-pruefen"
 relatedExercise: "informatik/algorithmen/bedingungen-und-logik/bedingungen-mit-wahrheitstabelle-pruefen"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "algorithmen"
-  - "bedingungen-mit-wahrheitstabelle-pruefen"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Bedingungen und Logik**.

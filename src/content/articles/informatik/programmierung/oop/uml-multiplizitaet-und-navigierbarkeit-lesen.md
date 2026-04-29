@@ -1,46 +1,19 @@
 ---
-title: UML-Multiplizitaet und Navigierbarkeit lesen
-description: Verstehe, wie viele Objekte miteinander verbunden sein koennen und in welche Richtung eine Beziehung gedacht wird.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - uml-multiplizitaet-und-navigierbarkeit-lesen
-learningGoals:
-  - Du liest Multiplizitaeten wie 1, 0..3 oder * fachlich korrekt.
-  - Du erklaerst Navigierbarkeit als Richtung der gedanklichen Erreichbarkeit.
-  - Du deutest UML-Beziehungen ruhiger und genauer.
-practiceIdeas:
-  - Formuliere Multiplizitaeten in vollstaendigen Saetzen.
-  - Pruefe bei einer Beziehung, wer wen kennen oder erreichen kann.
-  - Trenne Anzahl und Richtung als zwei verschiedene Aussagen.
-commonMistakes:
-  - Multiplizitaet nur als Deko zu sehen.
-  - Navigierbarkeit mit Vererbung zu verwechseln.
-  - 0..3 oder * nicht in Worte zu uebersetzen.
-keyTakeaways:
-  - Multiplizitaet beschreibt die Anzahl moeglicher Beziehungspartner.
-  - Navigierbarkeit beschreibt die gedachte Richtung des Zugriffs.
-  - Beide Angaben ergaenzen eine Beziehung, ersetzen sie aber nicht.
-recognizeSignals:
-  - An UML-Linien stehen Zahlen oder Sternchen.
-  - Pfeile oder Navigationshinweise tauchen auf.
-  - Eine Aufgabe fragt nach Anzahl oder Erreichbarkeit zwischen Objekten.
-selfCheckPoints:
-  - Kann ich 1, 0..3 und * in Worte uebersetzen?
-  - Kann ich Richtung und Anzahl getrennt beschreiben?
-  - Kann ich ein Beispiel mit Kunde und Konto oder Arbeiter und Projekt erklaeren?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - uml
-  - multiplizitaet
-  - navigierbarkeit
+title: "UML-Multiplizitaet und Navigierbarkeit lesen"
+description: "Verstehe, wie viele Objekte miteinander verbunden sein koennen und in welche Richtung eine Beziehung gedacht wird."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "uml-multiplizitaet-und-navigierbarkeit-lesen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Eine Beziehung in UML sagt nicht nur, **dass** Klassen verbunden sind. Haeufig wird auch beschrieben, **wie viele** Objekte beteiligt sein koennen und **in welche Richtung** man die Beziehung denken darf.

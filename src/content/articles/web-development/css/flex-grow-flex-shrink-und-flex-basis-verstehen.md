@@ -1,44 +1,19 @@
 ---
-title: flex-grow, flex-shrink und flex-basis verstehen
-description: Verstehe, wie Flex-Items wachsen, schrumpfen und von welcher Basisgröße sie ausgehen.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - flex-grow-flex-shrink-und-flex-basis-verstehen
-learningGoals:
-  - Du beschreibst die Rollen von flex-grow, flex-shrink und flex-basis.
-  - Du liest die Kurzschreibweise flex fachlich ruhiger und klarer.
-  - Du erklärst, warum Items trotz gleicher Ausgangsgröße unterschiedlich viel Platz bekommen können.
-practiceIdeas:
-  - Vergleiche zwei Items mit unterschiedlichem flex-grow.
-  - "Lies eine Kurzschreibweise wie <code>flex: 1 1 auto</code> und ordne die drei Teile sauber zu."
-  - Prüfe, welches Item bei Platzmangel zuerst oder stärker schrumpfen darf.
-commonMistakes:
-  - Zu denken, flex-grow sei eine absolute Breite.
-  - flex-basis mit der endgültigen Breite gleichzusetzen.
-  - Kurzschreibweise flex nur auswendig, aber nicht inhaltlich zu lesen.
-keyTakeaways:
-  - flex-basis beschreibt die Ausgangsgröße.
-  - flex-grow beschreibt zusätzliches Wachsen bei freiem Platz.
-  - flex-shrink beschreibt das Verhalten bei Platzmangel.
-recognizeSignals:
-  - Es geht um flex, flex-grow, flex-shrink oder flex-basis.
-  - Items in einem Flex-Layout werden unterschiedlich groß.
-  - "Eine Kurzschreibweise wie <code>flex: 0 1 auto</code> soll erklärt werden."
-selfCheckPoints:
-  - Kann ich Ausgangsgröße und Wachstumsverhalten trennen?
-  - Kann ich die drei Teile der Kurzschreibweise grob einordnen?
-  - Kann ich erklären, warum zwei Items trotz gleicher Grundgröße unterschiedlich enden?
-tags:
-  - css
-  - flexbox
-  - größe
-  - web-development
-level: einfach
+title: "flex-grow, flex-shrink und flex-basis verstehen"
+description: "Verstehe, wie Flex-Items wachsen, schrumpfen und von welcher Basisgröße sie ausgehen."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "flex-grow-flex-shrink-und-flex-basis-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei Flexbox entscheidet nicht nur die Position, sondern auch das **Größenverhalten** der Items. Dafür sind drei Begriffe besonders wichtig: <code>flex-grow</code>, <code>flex-shrink</code> und <code>flex-basis</code>.

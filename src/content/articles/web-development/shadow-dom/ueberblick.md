@@ -1,37 +1,19 @@
 ---
 title: "Shadow DOM"
 description: "Überblick über Shadow DOM als gekapselten DOM-Bereich für Web Components."
-subject: web-development
+subject: "web-development"
 section: "Komponenten"
-topicPath:
-  - "shadow-dom"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Shadow DOM als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["shadow-dom", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Kapselung als vollständige Isolation zu verstehen und Integration, Theming oder Accessibility zu vernachlässigen."
-keyTakeaways:
-  - "Shadow DOM kapselt interne Komponentenstruktur."
-  - "Slots verbinden innere und äußere Inhalte."
-  - "Kapselung braucht klare öffentliche Schnittstellen."
-recognizeSignals:
-  - "Ein Custom Element enthält eigene interne Struktur."
-  - "Globale CSS-Regeln sollen eine Komponente nicht ungewollt verändern."
-selfCheckPoints:
-  - "Kann ich Shadow DOM in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "web-development"
-  - "shadow dom"
-  - "web components"
-  - "komponenten"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Komponenten"]
 draft: false
 ---
-
 # Shadow DOM
 
 Shadow DOM ist ein gekapselter DOM-Baum innerhalb eines Elements. Er trennt interne Struktur und Styles teilweise vom restlichen Dokument.

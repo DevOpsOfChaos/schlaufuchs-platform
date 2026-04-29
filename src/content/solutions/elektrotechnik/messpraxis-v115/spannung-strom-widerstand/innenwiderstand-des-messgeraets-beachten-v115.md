@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Innenwiderstand des Messgeräts beachten"
 description: "Musterlösung zu Innenwiderstand des Messgeräts beachten mit Trennkante und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "messpraxis-v115"
-  - "spannung-strom-widerstand"
-  - "innenwiderstand-des-messgeraets-beachten-v115"
+topicPath: ["messpraxis-v115", "spannung-strom-widerstand", "innenwiderstand-des-messgeraets-beachten-v115"]
 taskId: "elektrotechnik-innenwiderstand-des-messgeraets-beachten-v115"
 relatedExercise: "elektrotechnik/messpraxis-v115/spannung-strom-widerstand/innenwiderstand-des-messgeraets-beachten-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "messpraxis"
-  - "spannung, strom und widerstand"
-  - "lösung"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Innenwiderstand des Messgeräts beachten**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

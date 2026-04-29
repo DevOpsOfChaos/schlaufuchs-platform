@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – Zeigerarithmetik grob einordnen
-description: Musterlösung zur Aufgabe INF-PROG-CPP-PTR-003.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - pointer-und-adressen
-  - pointer-in-cpp-verstehen
-  - zeigerarithmetik-grob-einordnen-loesung
-taskId: INF-PROG-CPP-PTR-003
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/pointer-in-cpp-verstehen/zeigerarithmetik-grob-einordnen.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – Zeigerarithmetik grob einordnen"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-PTR-003."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "pointer-in-cpp-verstehen", "zeigerarithmetik-grob-einordnen"]
+taskId: "INF-PROG-CPP-PTR-003"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/pointer-in-cpp-verstehen/zeigerarithmetik-grob-einordnen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Typbezug erklären
 
 Ein Pointer zeigt auf Objekte eines bestimmten Typs. Wenn er erhöht wird, springt er gedanklich zum nächsten Objekt dieses Typs und nicht nur zu einer beliebigen Byteposition.

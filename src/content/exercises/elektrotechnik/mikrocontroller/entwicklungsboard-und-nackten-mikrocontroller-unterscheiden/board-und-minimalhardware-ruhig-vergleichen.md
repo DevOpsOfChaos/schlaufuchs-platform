@@ -1,31 +1,17 @@
 ---
-title: Board und Minimalhardware ruhig vergleichen
-description: Vergleiche Entwicklungsboard und nackten Mikrocontroller als Systemumgebungen und begründe typische Inbetriebnahmeunterschiede.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - entwicklungsboard-und-nackten-mikrocontroller-unterscheiden
-  - board-und-minimalhardware-ruhig-vergleichen
-taskId: ELE-MCU-GEN-102
-level: einfach
+title: "Board und Minimalhardware ruhig vergleichen"
+description: "Vergleiche Entwicklungsboard und nackten Mikrocontroller als Systemumgebungen und begründe typische Inbetriebnahmeunterschiede."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "entwicklungsboard-und-nackten-mikrocontroller-unterscheiden", "board-und-minimalhardware-ruhig-vergleichen"]
+taskId: "ELE-MCU-GEN-102"
+tags: ["elektrotechnik", "mikrocontroller", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - board
-hintPoints:
-  - Trenne Chip, Board und zusätzliche Hilfsschaltung bewusst.
-  - Frage zuerst nach Versorgung, Reset, Takt und Programmierzugang.
-selfCheckPoints:
-  - Kannst du erklären, warum ein Test auf dem Board oft schneller gelingt?
-  - Kannst du benennen, was auf einer Minimalhardware zusätzlich bedacht werden muss?
-transferIdeas:
-  - Übertrage die Logik auf STM32-Nucleo, ESP-Devboards oder eigene AVR-Platinen.
-reflectionPrompt: "Welche Board-Hilfe vergisst man beim ersten Umstieg auf eigene Hardware besonders leicht?"
 ---
-
 ## Aufgabe 1: Chip und Board trennen
 
 Erkläre in 3 bis 5 Sätzen den Unterschied zwischen einem Entwicklungsboard und einem nackten Mikrocontrollerchip.

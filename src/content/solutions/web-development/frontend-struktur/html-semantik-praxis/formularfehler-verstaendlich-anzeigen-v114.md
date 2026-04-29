@@ -1,23 +1,14 @@
 ---
-title: Lösung – Formularfehler verständlich anzeigen
-description: Musterlösung zur Aufgabe über Formularfehler verständlich anzeigen.
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- frontend-struktur
-- html-semantik-praxis
-- formularfehler-verstaendlich-anzeigen-v114
-taskId: v114-web-development-formularfehler-verstaendlich-anzeigen-v114
-relatedExercise: web-development/frontend-struktur/html-semantik-praxis/formularfehler-verstaendlich-anzeigen-v114
-tags:
-- web-development
-- v114
-- loesung
-- frontend-struktur
-- html-semantik-praxis
+title: "Lösung – Formularfehler verständlich anzeigen"
+description: "Musterlösung zur Aufgabe über Formularfehler verständlich anzeigen."
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["frontend-struktur", "html-semantik-praxis", "formularfehler-verstaendlich-anzeigen-v114"]
+taskId: "v114-web-development-formularfehler-verstaendlich-anzeigen-v114"
+relatedExercise: "web-development/frontend-struktur/html-semantik-praxis/formularfehler-verstaendlich-anzeigen-v114"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

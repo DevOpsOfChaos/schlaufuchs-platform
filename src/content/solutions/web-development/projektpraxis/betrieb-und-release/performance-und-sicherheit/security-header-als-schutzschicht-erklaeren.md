@@ -3,22 +3,12 @@ title: "Lösung – Security Header als Schutzschicht erklären"
 description: "Musterlösung zu security header als schutzschicht erklären mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "performance-und-sicherheit"
-  - "security-header-als-schutzschicht-erklaeren"
+topicPath: ["projektpraxis", "betrieb-und-release", "performance-und-sicherheit", "security-header-als-schutzschicht-erklaeren"]
 taskId: "v112-web-development-security-header-als-schutzschicht-erklaeren"
 relatedExercise: "web-development/projektpraxis/betrieb-und-release/performance-und-sicherheit/security-header-als-schutzschicht-erklaeren"
-tags:
-  - "web-development"
-  - "v112"
-  - "feinstruktur"
-  - "projektpraxis"
-  - "security-header-als-schutzschicht-erklaeren"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Betrieb, Performance und Sicherheit**.

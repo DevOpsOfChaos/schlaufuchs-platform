@@ -3,22 +3,12 @@ title: "Lösung – pipefail als Fehlerweitergabe in Pipelines prüfen"
 description: "Musterlösung zu pipefail in Pipelines mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell"
-  - "pipelines-und-exitcodes"
-  - "pipefail"
-  - "pipefail-als-fehlerweitergabe-in-pipelines-pruefen"
+topicPath: ["shell", "pipelines-und-exitcodes", "pipefail", "pipefail-als-fehlerweitergabe-in-pipelines-pruefen"]
 taskId: "v109-linux-pipefail-als-fehlerweitergabe-in-pipelines-pruefen"
 relatedExercise: "linux/shell/pipelines-und-exitcodes/pipefail/pipefail-als-fehlerweitergabe-in-pipelines-pruefen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "pipelines-und-exitcodes"
-  - "pipefail in pipelines"
+tags: ["linux", "Shell", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **pipefail in Pipelines**.

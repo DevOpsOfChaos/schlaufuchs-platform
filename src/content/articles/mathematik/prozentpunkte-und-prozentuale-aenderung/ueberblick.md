@@ -1,36 +1,19 @@
 ---
 title: "Prozentpunkte und prozentuale Änderung"
 description: "Überblick über den Unterschied zwischen Prozentpunkten und prozentualen Veränderungen."
-subject: mathematik
+subject: "mathematik"
 section: "Prozentrechnung"
-topicPath:
-  - "prozentpunkte-und-prozentuale-aenderung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Prozentpunkte und prozentuale Änderung als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["prozentpunkte-und-prozentuale-aenderung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird gesagt, etwas sei „um 5 Prozent gestiegen“, obwohl ein Anstieg um 5 Prozentpunkte gemeint ist."
-keyTakeaways:
-  - "Prozentpunkte vergleichen Prozentwerte direkt."
-  - "Prozentuale Änderung bezieht sich auf einen Ausgangswert."
-  - "Klare Sprache verhindert Missverständnisse."
-recognizeSignals:
-  - "Es geht um Prozentpunkte und prozentuale Änderung als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Prozentpunkte und prozentuale Änderung in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "prozent"
-  - "prozentpunkte"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Prozentrechnung"]
 draft: false
 ---
-
 # Prozentpunkte und prozentuale Änderung
 
 Prozentpunkte beschreiben die absolute Differenz zwischen Prozentwerten. Eine prozentuale Änderung beschreibt dagegen eine relative Veränderung bezogen auf einen Ausgangswert. Beide Aussagen sehen ähnlich aus, bedeuten aber Unterschiedliches.

@@ -1,31 +1,17 @@
 ---
 title: "Frontend-Sicherheit"
 description: "Allgemeiner Überblick über typische Sicherheitsfragen im Frontend, Benutzereingaben und Vertrauensgrenzen."
-subject: web-development
+subject: "web-development"
 section: "Web-Plattform"
-topicPath:
-  - "frontend-sicherheit"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Frontend-Sicherheit grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["frontend-sicherheit", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Frontend-Sicherheit nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Frontend-Sicherheit beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Frontend-Sicherheit, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Frontend-Sicherheit in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "web-development"
-  - "sicherheit"
-  - "frontend"
-  - "browser"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web-Plattform"]
 draft: false
 ---
 # Frontend-Sicherheit

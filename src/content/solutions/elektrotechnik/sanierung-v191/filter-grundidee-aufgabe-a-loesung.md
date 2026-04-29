@@ -3,24 +3,12 @@ title: "Lösung: Filter Grundidee: Aufgabe A"
 description: "Musterlösung zur Aufgabe etech-v191-025a im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "wechselstrom"
-  - "filter-grundidee"
-  - "loesung-a"
+topicPath: ["sanierung-v191", "filter-grundidee-aufgabe-a"]
 taskId: "etech-v191-025a"
 relatedExercise: "elektrotechnik/sanierung-v191/filter-grundidee-aufgabe-a"
-tags:
-  - "wechselstrom"
-  - "filter"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-025a`
 
 Ausgangsauftrag: Ordne drei Alltagssignale einem Tiefpass- oder Hochpassgedanken zu.

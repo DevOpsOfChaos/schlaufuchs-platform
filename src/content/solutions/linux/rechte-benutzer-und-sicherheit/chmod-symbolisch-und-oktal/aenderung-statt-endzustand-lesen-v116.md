@@ -3,22 +3,12 @@ title: "Lösung: Änderung statt Endzustand lesen"
 description: "Musterlösung zur Aufgabe „Änderung statt Endzustand lesen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "rechte-benutzer-und-sicherheit"
-  - "chmod-symbolisch-und-oktal"
-  - "aenderung-statt-endzustand-lesen-v116"
+topicPath: ["rechte-benutzer-und-sicherheit", "chmod-symbolisch-und-oktal", "aenderung-statt-endzustand-lesen-v116"]
 taskId: "aenderung-statt-endzustand-lesen-v116"
 relatedExercise: "linux/rechte-benutzer-und-sicherheit/chmod-symbolisch-und-oktal/aenderung-statt-endzustand-lesen-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "chmod symbolisch und oktal"
-  - "aenderung statt endzustand lesen"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

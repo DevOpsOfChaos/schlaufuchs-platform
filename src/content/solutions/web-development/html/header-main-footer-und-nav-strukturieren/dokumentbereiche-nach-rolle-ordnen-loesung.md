@@ -1,21 +1,14 @@
 ---
-title: Lösung – Dokumentbereiche nach Rolle ordnen
-description: Musterlösung zur Aufgabe über header, nav, main und footer.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - navigation-und-menues
-  - header-main-footer-und-nav-strukturieren
-taskId: WEB-HTML-CORE-102
-relatedExercise: web-development/html/header-main-footer-und-nav-strukturieren/dokumentbereiche-nach-rolle-ordnen
-tags:
-  - html
-  - semantik
-  - loesung
+title: "Lösung – Dokumentbereiche nach Rolle ordnen"
+description: "Musterlösung zur Aufgabe über header, nav, main und footer."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "header-main-footer-und-nav-strukturieren", "dokumentbereiche-nach-rolle-ordnen"]
+taskId: "WEB-HTML-CORE-102"
+relatedExercise: "web-development/html/header-main-footer-und-nav-strukturieren/dokumentbereiche-nach-rolle-ordnen"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

@@ -1,34 +1,19 @@
 ---
 title: "Debounce und Throttle"
 description: "Überblick über zwei Strategien, um häufige Ereignisse im Browser kontrolliert zu verarbeiten."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "debounce-und-throttle"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["debounce-und-throttle", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Debounce und Throttle austauschbar zu verwenden, obwohl sie unterschiedliche Nutzererwartungen erfüllen."
-keyTakeaways:
-  - "Debounce wartet auf Ruhe, Throttle begrenzt die Frequenz; beide machen Ereignisverarbeitung kontrollierbarer."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Funktionen sehr oft durch Tastatur, Scrollen, Mausbewegung oder Resize ausgelöst werden."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "web development"
-  - "javascript"
-  - "performance"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # Debounce und Throttle
 
 Debounce und Throttle begrenzen, wie oft eine Funktion auf wiederholte Ereignisse reagiert. Sie werden häufig bei Eingaben, Scrollen, Größenänderungen und Netzwerkanfragen eingesetzt.

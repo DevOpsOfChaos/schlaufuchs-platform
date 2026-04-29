@@ -3,21 +3,12 @@ title: "Lösung – pipefail für Skripte begründen"
 description: "Musterlösung zu pipefail für skripte begründen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "pipelines-und-exitcodes"
-  - "pipefail-fuer-skripte-begruenden"
+topicPath: ["shell", "pipelines-und-exitcodes", "pipefail-fuer-skripte-begruenden"]
 taskId: "v112-linux-pipefail-fuer-skripte-begruenden"
 relatedExercise: "linux/shell/pipelines-und-exitcodes/pipefail-fuer-skripte-begruenden"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "pipefail-fuer-skripte-begruenden"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Pipelines und Exitcodes**.

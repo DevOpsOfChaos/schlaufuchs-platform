@@ -3,24 +3,12 @@ title: "Lösung: LocalStorage und Persistenz: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-v190-019a im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "browser-api"
-  - "localstorage-und-persistenz"
-  - "loesung-a"
+topicPath: ["sanierung-v190", "localstorage-und-persistenz-aufgabe-a"]
 taskId: "web-v190-019a"
 relatedExercise: "web-development/sanierung-v190/localstorage-und-persistenz-aufgabe-a"
-tags:
-  - "browser-api"
-  - "localstorage"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-019a`
 
 Ausgangsauftrag: Entscheide, welche Einstellungen einer Lernseite gespeichert werden dürfen.

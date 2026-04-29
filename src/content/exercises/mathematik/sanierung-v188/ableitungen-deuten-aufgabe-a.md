@@ -3,33 +3,15 @@ title: "Ableitungen deuten: Grundordnung"
 description: "Ordne Ableitungen deuten in Zweck, Prüffragen und Fehlerquellen."
 subject: "mathematik"
 section: "analysis-pruefschritte"
-topicPath:
-  - "analysis-pruefschritte"
-  - "ableitungen-deuten"
-  - "aufgabe-a"
+topicPath: ["sanierung-v188", "ableitungen-deuten-aufgabe-a"]
 taskId: "mat-v188-061a"
-tags:
-  - "ableitung"
-  - "analysis"
-  - "deuten"
-  - "mathematik"
-  - "aufgabe"
-  - "v188"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["mathematik", "analysis-pruefschritte", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Du arbeitest am Thema **Ableitungen deuten**. Erstelle eine kurze, geordnete Erklärung für eine lernende Person.

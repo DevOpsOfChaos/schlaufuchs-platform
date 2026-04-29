@@ -1,45 +1,19 @@
 ---
-title: Label und Input richtig verknüpfen
-description: Verstehe, warum Beschriftung und Eingabefeld zusammengehören und wie diese Verknüpfung Formulare klarer und bedienbarer macht.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - formular-validierung
-  - label-und-input-richtig-verknuepfen
-learningGoals:
-  - Du erklärst die Rolle von <code>label</code> in Formularen.
-  - Du beschreibst, warum Beschriftung und Eingabefeld zusammengehören.
-  - Du erkennst, warum die Verknüpfung nicht nur optisch, sondern funktional wichtig ist.
-practiceIdeas:
-  - Prüfe bei kleinen Formularen, ob zu jedem Eingabefeld eine klare Beschriftung gehört.
-  - Vergleiche ein Feld mit sichtbarer Beschriftung und eines ohne sauberen Bezug.
-  - Begründe, warum Klickfläche und Orientierung durch ein Label besser werden.
-commonMistakes:
-  - Placeholder als vollständigen Ersatz für eine Beschriftung zu sehen.
-  - Ein Label nur als optischen Text statt als funktionalen Bezug zu betrachten.
-  - Felder ohne klare Benennung zu bauen.
-keyTakeaways:
-  - Ein <code>label</code> beschreibt, was in ein Feld gehört.
-  - Eine saubere Verknüpfung verbessert Orientierung und Bedienung.
-  - Gute Formulare sind nicht nur korrekt, sondern auch leichter nutzbar.
-recognizeSignals:
-  - Es geht um Formulare, Eingabefelder, Beschriftungen oder Nutzbarkeit.
-  - Du sollst erklären, warum ein Feld ohne klare Bezeichnung problematisch ist.
-  - In Beispielen ist die Verbindung zwischen Beschreibung und Eingabe zentral.
-selfCheckPoints:
-  - Kann ich erklären, was ein Label leistet?
-  - Kann ich Placeholder und Label unterscheiden?
-  - Kann ich begründen, warum die Verknüpfung sinnvoll ist?
-tags:
-  - html
-  - formulare
-  - label
-  - usability
-level: einfach
+title: "Label und Input richtig verknüpfen"
+description: "Verstehe, warum Beschriftung und Eingabefeld zusammengehören und wie diese Verknüpfung Formulare klarer und bedienbarer macht."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "label-und-input-richtig-verknuepfen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Zu einem Eingabefeld gehört nicht nur die technische Box für Text, Zahl oder Auswahl. Es braucht auch eine klare Beschriftung. Genau diese Rolle übernimmt das <code>label</code>.

@@ -1,46 +1,19 @@
 ---
 title: "Informatik – Seiteneffekt sichtbar machen"
 description: "Trainiere Seiteneffekt sichtbar machen als kleines Unterthema mit klarer Trennkante, Beispiel und Gegenprobe."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "softwarequalitaet-v115"
-  - "code-lesbarkeit"
-  - "seiteneffekt-sichtbar-machen-v115"
-learningGoals:
-  - "Du erklärst Seiteneffekt sichtbar machen an einem kleinen, abgegrenzten Fall."
-  - "Du trennst das Unterthema von einem naheliegenden Nachbarthema."
-  - "Du formulierst eine passende Gegenprobe statt nur eine fertige Antwort."
-practiceIdeas:
-  - "Schreibe zuerst die Prüffrage in eigenen Worten auf."
-  - "Markiere im Fall zwei Hinweise, die wirklich zur Entscheidung gehören."
-  - "Formuliere einen Gegenfall, in dem die Entscheidung anders ausfallen würde."
-commonMistakes:
-  - "Sie wird wie eine reine Berechnung verwendet."
-  - "Das Thema wird zu breit eingeordnet und verliert dadurch die prüfbare Trennkante."
-  - "Die Lösung nennt ein Ergebnis, begründet aber nicht die Abgrenzung."
-keyTakeaways:
-  - "Dieses Unterthema prüft vor allem: Ändert die Funktion außer ihrem Rückgabewert noch etwas?"
-  - "Eine gute Lösung benennt die Trennkante ausdrücklich."
-  - "Die Gegenprobe zeigt, ob die Begründung wirklich trägt."
-recognizeSignals:
-  - "Die Aufgabe fragt nach Seiteneffekt sichtbar machen."
-  - "Ähnliche Begriffe oder Fälle liegen nah beieinander."
-  - "Eine kleine Änderung im Fall würde zu einer anderen Entscheidung führen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-level: mittel
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "softwarequalität"
-  - "code-lesbarkeit"
+topicPath: ["softwarequalitaet-v115", "code-lesbarkeit", "seiteneffekt-sichtbar-machen-v115"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Feinstruktur Informatik"]
 draft: false
 ---
-
 <img src="/schlaufuchs-platform/illustrations/informatik-seiteneffekt-sichtbar-machen-v115.svg" alt="Lernillustration zu Seiteneffekt sichtbar machen" loading="lazy" />
 
 ## Grundidee

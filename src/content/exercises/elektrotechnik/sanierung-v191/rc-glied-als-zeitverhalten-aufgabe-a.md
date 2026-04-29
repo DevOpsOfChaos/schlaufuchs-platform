@@ -3,36 +3,15 @@ title: "RC-Glied als Zeitverhalten: Aufgabe A"
 description: "Beschreibe den Ladeverlauf eines Kondensators nach dem Einschalten."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "zeitverhalten"
-  - "rc-glied-als-zeitverhalten"
-  - "aufgabe-a"
+topicPath: ["sanierung-v191", "rc-glied-als-zeitverhalten-aufgabe-a"]
 taskId: "etech-v191-020a"
-tags:
-  - "zeitverhalten"
-  - "rc"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "aufgabe"
-  - "v191"
-hintPoints:
-  - "Trenne Schaltplan, realen Aufbau und Messpunkt."
-  - "Nenne mindestens eine Einheit oder einen Grenzwert."
-  - "Formuliere einen passenden Fehlerfall."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema RC-Glied als Zeitverhalten."
-  - "Messrichtung, Anschluss oder Bauteilrolle sind nachvollziehbar."
-  - "Die Lösung bleibt ohne Spezialgerät verständlich."
-transferIdeas:
-  - "Übertrage die Idee auf eine zweite kleine Schaltung."
-  - "Erstelle eine Mini-Checkliste für die Messung."
-reflectionPrompt: "Welcher Prüfschritt verhindert hier den wahrscheinlichsten Fehler?"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Beschreibe den Ladeverlauf eines Kondensators nach dem Einschalten.

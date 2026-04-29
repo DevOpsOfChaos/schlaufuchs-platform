@@ -3,25 +3,12 @@ title: "Lösung: Font- und Asset-Strategie: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-development-v194-026b im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "performance-und-medien"
-  - "font-und-asset-strategie"
-  - "loesung-b"
-
+topicPath: ["sanierung-v194", "font-und-asset-strategie-loesung-b"]
 taskId: "web-development-v194-026b"
 relatedExercise: "web-development/sanierung-v194/font-und-asset-strategie-aufgabe-b"
-tags:
-  - "font"
-  - "asset"
-  - "strategie"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-026b`
 
 Ausgangsauftrag: Übertrage das Thema Font- und Asset-Strategie auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

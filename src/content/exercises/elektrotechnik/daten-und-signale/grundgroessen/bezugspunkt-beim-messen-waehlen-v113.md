@@ -3,32 +3,15 @@ title: "Aufgabe – Bezugspunkt beim Messen wählen"
 description: "Übe Bezugspunkt beim Messen wählen mit Szenario, Trennkante und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "grundgroessen"
-  - "bezugspunkt-beim-messen-waehlen-v113"
+topicPath: ["daten-und-signale", "grundgroessen", "bezugspunkt-beim-messen-waehlen-v113"]
 taskId: "v113-elektrotechnik-bezugspunkt-beim-messen-waehlen-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "bezugspunkt-beim-messen-waehlen-v113"
-hintPoints:
-  - "Benenne zuerst das genaue Unterthema."
-  - "Notiere die typische Verwechslung ausdrücklich."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Antwort enger als ein breites Kapitel?"
-  - "Wird ein Nachbarthema sauber ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere eine zweite Aufgabe im gleichen Unterthema mit anderer Oberfläche."
-reflectionPrompt: "Welche kleine Trennkante macht Bezugspunkt beim Messen wählen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Bezugspunkt beim Messen wählen**.

@@ -3,23 +3,12 @@ title: "Lösung: Links, Navigation und Pfade: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-006a im Web-Development-Block v187."
 subject: "web-development"
 section: "html"
-topicPath: 
-  - "html-und-semantik"
-  - "links-und-navigation"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "links-navigation-und-pfade-aufgabe-a"]
 taskId: "web-v187-006a"
 relatedExercise: "web-development/sanierung-v187/links-navigation-und-pfade-aufgabe-a"
-tags: 
-  - "links"
-  - "navigation"
-  - "pfade"
-  - "html"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "html", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-006a`
 
     Ausgangsauftrag: Plane die Navigation für eine kleine Website mit Startseite, Themenübersicht und Kontaktseite.

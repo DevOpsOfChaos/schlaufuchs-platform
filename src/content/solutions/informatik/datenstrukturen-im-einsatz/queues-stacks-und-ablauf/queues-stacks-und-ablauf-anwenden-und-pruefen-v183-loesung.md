@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Queues, Stacks und Ablauf anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über Queues, Stacks und Ablauf."
-subject: informatik
+subject: "informatik"
 section: "Datenstrukturen im Einsatz"
-topicPath:
-  - "datenstrukturen-im-einsatz"
-  - "queues-stacks-und-ablauf"
-taskId: INF-V183-05-B
-relatedExercise: src/content/exercises/informatik/datenstrukturen-im-einsatz/queues-stacks-und-ablauf/queues-stacks-und-ablauf-anwenden-und-pruefen-v183.md
-tags:
-  - "informatik"
-  - "queues-stacks-und-ablauf"
-  - "loesung"
+topicPath: ["datenstrukturen-im-einsatz", "queues-stacks-und-ablauf", "queues-stacks-und-ablauf-anwenden-und-pruefen-v183"]
+taskId: "INF-V183-05-B"
+relatedExercise: "src/content/exercises/informatik/datenstrukturen-im-einsatz/queues-stacks-und-ablauf/queues-stacks-und-ablauf-anwenden-und-pruefen-v183.md"
+tags: ["informatik", "Datenstrukturen im Einsatz", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

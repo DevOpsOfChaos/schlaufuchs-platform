@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Normalisierung als Dopplungskontrolle nutzen"
 description: "Musterlösung zu Normalisierung als Dopplungskontrolle nutzen mit Trennkante und Gegenprobe."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenmodellierung-v115"
-  - "listen-mengen-tabellen"
-  - "normalisierung-als-dopplungskontrolle-nutzen-v115"
+topicPath: ["datenmodellierung-v115", "listen-mengen-tabellen", "normalisierung-als-dopplungskontrolle-nutzen-v115"]
 taskId: "informatik-normalisierung-als-dopplungskontrolle-nutzen-v115"
 relatedExercise: "informatik/datenmodellierung-v115/listen-mengen-tabellen/normalisierung-als-dopplungskontrolle-nutzen-v115"
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "datenmodellierung"
-  - "listen, mengen und tabellen"
-  - "lösung"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Normalisierung als Dopplungskontrolle nutzen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

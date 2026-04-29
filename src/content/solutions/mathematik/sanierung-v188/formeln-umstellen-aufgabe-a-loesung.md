@@ -3,22 +3,12 @@ title: "Lösung: Formeln umstellen: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-069a."
 subject: "mathematik"
 section: "algebra-modelle"
-topicPath:
-  - "algebra-modelle"
-  - "gleichungen-pruefen"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "formeln-umstellen-aufgabe-a"]
 taskId: "mat-v188-069a"
 relatedExercise: "mathematik/sanierung-v188/formeln-umstellen-aufgabe-a"
-tags:
-  - "formeln"
-  - "umstellen"
-  - "algebra"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "algebra-modelle", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-069a`
 
 Eine mögliche Lösung:

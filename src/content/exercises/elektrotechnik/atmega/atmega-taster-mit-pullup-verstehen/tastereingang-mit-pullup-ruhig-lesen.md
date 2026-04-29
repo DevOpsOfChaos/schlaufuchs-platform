@@ -1,32 +1,17 @@
 ---
-title: Tastereingang mit Pull-up ruhig lesen
-description: Begründe an einem ATmega-Tasterbeispiel, warum der interne Pull-up den Eingang stabilisiert und warum gedrückt oft logisch 0 ist.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - digitale-eingaenge-und-ausgaenge
-  - atmega-taster-mit-pullup-verstehen
-  - tastereingang-mit-pullup-ruhig-lesen
-taskId: ET-ATMEGA-IO-202
-level: einfach
+title: "Tastereingang mit Pull-up ruhig lesen"
+description: "Begründe an einem ATmega-Tasterbeispiel, warum der interne Pull-up den Eingang stabilisiert und warum gedrückt oft logisch 0 ist."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-taster-mit-pullup-verstehen", "tastereingang-mit-pullup-ruhig-lesen"]
+taskId: "ET-ATMEGA-IO-202"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - elektrotechnik
-  - atmega
-  - taster
-  - pullup
-hintPoints:
-  - Unterscheide Ruhezustand und gedrückten Zustand.
-  - Denke daran, dass der Taster oft nach Masse schaltet.
-selfCheckPoints:
-  - Kannst du erklären, warum ein offener Eingang unruhig ist?
-  - Kannst du den Begriff active low fachlich sauber beschreiben?
-transferIdeas:
-  - Übertrage die Logik auf einen zweiten Taster oder einen Jumper-Eingang.
-reflectionPrompt: "Warum hilft dir die Frage nach dem Ruhezustand oft mehr als direkt auf die if-Bedingung zu schauen?"
 ---
-
 Gegeben ist dieser Code:
 
 ```c

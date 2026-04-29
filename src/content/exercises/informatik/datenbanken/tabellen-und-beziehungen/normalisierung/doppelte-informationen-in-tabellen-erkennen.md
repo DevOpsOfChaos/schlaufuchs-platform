@@ -3,35 +3,15 @@ title: "Aufgabe – Doppelte Informationen in Tabellen erkennen"
 description: "Übe Tabellenentwurf mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "informatik"
 section: "Datenbanken"
-topicPath:
-  - "datenbanken"
-  - "tabellen-und-beziehungen"
-  - "normalisierung"
-  - "doppelte-informationen-in-tabellen-erkennen"
+topicPath: ["datenbanken", "tabellen-und-beziehungen", "normalisierung", "doppelte-informationen-in-tabellen-erkennen"]
 taskId: "v107-informatik-doppelte-informationen-in-tabellen-erkennen"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "algorithmen"
-  - "tabellenentwurf"
-  - "datenbanken"
-  - "tabellen-und-beziehungen"
-hintPoints:
-  - "Grenze das Unterthema zuerst ein."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Formuliere eine kleine Gegenprobe."
-selfCheckPoints:
-  - "Ist das Unterthema klar benannt?"
-  - "Ist die Lösung nicht zu breit formuliert?"
-  - "Ist die Gegenprobe konkret?"
-transferIdeas:
-  - "Ändere einen Randwert und prüfe die Begründung erneut."
-  - "Erkläre die Lösung einmal als Merksatz und einmal am Beispiel."
-reflectionPrompt: "Warum hilft dir das kleine Unterthema „Tabellenentwurf“ mehr als ein breiter Sammelbegriff?"
+tags: ["informatik", "Datenbanken", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite ein kleines Szenario zu **Tabellenentwurf**.

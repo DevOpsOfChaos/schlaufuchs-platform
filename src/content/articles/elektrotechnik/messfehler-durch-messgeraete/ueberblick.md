@@ -1,35 +1,17 @@
 ---
 title: "Messfehler durch Messgeräte"
 description: "Überblick darüber, wie Messgeräte eine Schaltung beeinflussen und Messergebnisse verfälschen können."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Messpraxis"
-topicPath:
-  - "messfehler-durch-messgeraete"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Messfehler durch Messgeräte als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["messfehler-durch-messgeraete", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird angenommen, ein digitales Display liefere automatisch einen exakten Wert. Ohne Messbereich, Genauigkeit und Belastung zu prüfen, ist das riskant."
-keyTakeaways:
-  - "Messgeräte beobachten eine Schaltung nicht vollständig neutral, sondern besitzen eigene Widerstände, Kapazitäten, Bandbreiten und Massebezüge."
-  - "Wer den Einfluss des Messgeräts kennt, kann Messergebnisse besser bewerten und vermeidet falsche Schlussfolgerungen aus scheinbar eindeutigen Anzeigen."
-  - "Ein Messwert ist keine absolute Wahrheit. Er ist das Ergebnis aus Schaltung, Messaufbau, Gerät und gewählter Einstellung."
-recognizeSignals:
-  - "Es geht um Messfehler durch Messgeräte, wenn ein Multimeter belastet hochohmige Knoten anders als ein Oszilloskop-Tastkopf."
-  - "Das Thema wird relevant, wenn Beispiele wie ein hochohmiger Spannungsteiler zeigt am Multimeter einen anderen Wert, wenn der Eingangswiderstand des Messgeräts vergleichbar groß ist."
-selfCheckPoints:
-  - "Kann ich Messfehler durch Messgeräte in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "messung"
-  - "multimeter"
-  - "oszilloskop"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Messpraxis"]
 draft: false
 ---
 # Messfehler durch Messgeräte

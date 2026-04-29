@@ -3,22 +3,12 @@ title: "Lösung: Mittelwert, Median und Spannweite: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-030b."
 subject: "mathematik"
 section: "daten-deuten-und-pruefen"
-topicPath:
-  - "daten-deuten-und-pruefen"
-  - "mittelwert-median-und-spannweite"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "mittelwert-median-und-spannweite-aufgabe-b"]
 taskId: "mat-v188-030b"
 relatedExercise: "mathematik/sanierung-v188/mittelwert-median-und-spannweite-aufgabe-b"
-tags:
-  - "daten"
-  - "mittelwert"
-  - "median"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "daten-deuten-und-pruefen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-030b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

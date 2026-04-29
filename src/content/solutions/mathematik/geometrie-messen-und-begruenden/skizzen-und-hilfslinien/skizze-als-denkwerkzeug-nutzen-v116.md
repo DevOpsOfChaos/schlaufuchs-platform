@@ -3,22 +3,12 @@ title: "Lösung: Skizze als Denkwerkzeug nutzen"
 description: "Musterlösung zur Aufgabe „Skizze als Denkwerkzeug nutzen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "geometrie-messen-und-begruenden"
-  - "skizzen-und-hilfslinien"
-  - "skizze-als-denkwerkzeug-nutzen-v116"
+topicPath: ["geometrie-messen-und-begruenden", "skizzen-und-hilfslinien", "skizze-als-denkwerkzeug-nutzen-v116"]
 taskId: "skizze-als-denkwerkzeug-nutzen-v116"
 relatedExercise: "mathematik/geometrie-messen-und-begruenden/skizzen-und-hilfslinien/skizze-als-denkwerkzeug-nutzen-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "skizzen und hilfslinien"
-  - "skizze als denkwerkzeug nutzen"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

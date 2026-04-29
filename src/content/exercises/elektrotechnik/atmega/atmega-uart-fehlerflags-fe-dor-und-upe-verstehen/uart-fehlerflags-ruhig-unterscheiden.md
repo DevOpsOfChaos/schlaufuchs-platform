@@ -1,32 +1,17 @@
 ---
-title: UART-Fehlerflags ruhig unterscheiden
-description: Unterscheide am AVR-UART Framing Error, Data OverRun und Parity Error fachlich sauber und ordne typische Ursachen zu.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-kommunikation
-  - atmega-uart-fehlerflags-fe-dor-und-upe-verstehen
-  - uart-fehlerflags-ruhig-unterscheiden
-taskId: ET-ATMEGA-UART-306
-level: fortgeschritten
+title: "UART-Fehlerflags ruhig unterscheiden"
+description: "Unterscheide am AVR-UART Framing Error, Data OverRun und Parity Error fachlich sauber und ordne typische Ursachen zu."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-uart-fehlerflags-fe-dor-und-upe-verstehen", "uart-fehlerflags-ruhig-unterscheiden"]
+taskId: "ET-ATMEGA-UART-306"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "fortgeschritten"
 draft: false
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - uart
-hintPoints:
-  - Ordne jedes Flag zuerst seiner Grundursache zu.
-  - Trenne Zeicheninhalt und Empfangsstatus bewusst.
-selfCheckPoints:
-  - Kannst du FE, DOR und UPE in eigenen Worten erklären?
-  - Kannst du Timing-Problem und Überlaufproblem unterscheiden?
-transferIdeas:
-  - Übertrage die Logik auf Terminalprobleme, Ringpuffer und serielles Debugging.
-reflectionPrompt: "Warum hilft bei UART-Fehlern oft der Statusblick mehr als nur das Ansehen des falschen Zeichens?"
 ---
-
 ## Aufgabe 1
 
 Erkläre in je 1 bis 2 Sätzen die Bedeutung von:

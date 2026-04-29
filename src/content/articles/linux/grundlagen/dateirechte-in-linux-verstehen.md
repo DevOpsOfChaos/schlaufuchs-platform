@@ -1,17 +1,19 @@
 ---
-title: Dateirechte in Linux verstehen
-description: Dateirechte steuern in Linux, wer Dateien lesen, verändern oder ausführen darf und gehören zu den wichtigsten Grundlagen im System.
-subject: linux
-section: Grundlagen
-level: mittel
-tags:
-  - Dateirechte
-  - Linux
-  - Benutzer
-  - Gruppe
+title: "Dateirechte in Linux verstehen"
+description: "Dateirechte steuern in Linux, wer Dateien lesen, verändern oder ausführen darf und gehören zu den wichtigsten Grundlagen im System."
+subject: "linux"
+section: "Grundlagen"
+topicPath: ["grundlagen", "dateirechte-in-linux-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["linux", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 Linux ist als Mehrbenutzersystem aufgebaut. Deshalb ist es wichtig, dass nicht jede Datei automatisch für alle Benutzer gleich zugänglich ist. Genau hier kommen Dateirechte ins Spiel. Sie regeln, wer etwas lesen, schreiben oder ausführen darf.

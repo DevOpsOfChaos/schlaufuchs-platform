@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: API-Verträge und Datenfluss"
 description: "Verstehe APIs als Vereinbarungen über Eingaben, Ausgaben, Fehler und Zuständigkeiten."
-subject: informatik
+subject: "informatik"
 section: "netzwerke-und-dienste"
-topicPath:
-  - "netzwerke-und-dienste"
-  - "api-vertraege-und-datenfluss"
-learningGoals:
-  - "Du erklärst die Grundidee von API-Verträge und Datenfluss in eigenen Worten."
-  - "Du ordnest typische Begriffe und Teilaspekte fachlich richtig ein."
-  - "Du erkennst, welche Detailseiten, Aufgaben oder Fehlerbilder zum Thema passen."
-practiceIdeas:
-  - "Beschreibe ein eigenes Beispiel und markiere die wichtigsten Begriffe."
-  - "Vergleiche die Übersicht mit einer konkreten Aufgabe zum gleichen Thema."
-commonMistakes:
-  - "Ein einzelnes Beispiel für das gesamte Thema zu halten."
-  - "Begriffe zu vermischen, die unterschiedliche Rollen haben."
-  - "Direkt mit Spezialfällen zu beginnen, bevor die Grundidee klar ist."
-keyTakeaways:
-  - "Eine API beschreibt, wie Systeme miteinander sprechen."
-  - "Der Vertrag umfasst Datenformat, Pflichtfelder, Antwort und Fehlerfälle."
-  - "Gute Schnittstellen machen Zuständigkeiten und Grenzen sichtbar."
-recognizeSignals:
-  - "Du suchst zuerst eine allgemeine Einordnung statt eines Einzelfalls."
-  - "Mehrere Detailseiten wirken ähnlich und sollen fachlich sortiert werden."
-selfCheckPoints:
-  - "Kann ich das Thema in zwei bis drei Sätzen allgemein erklären?"
-  - "Kann ich die wichtigsten Teilaspekte voneinander unterscheiden?"
-level: mittel
-tags:
-  - "informatik"
-  - "api"
-  - "datenfluss"
+topicPath: ["netzwerke-und-dienste", "api-vertraege-und-datenfluss", "ueberblick", "grundlagen-api-vertraege-und-datenfluss"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "netzwerke-und-dienste"]
 draft: false
 ---
-
 ![API als Vertrag](/schlaufuchs-platform/images/overviews/v184/api-vertraege-und-datenfluss.svg)
 
 ## Begriff

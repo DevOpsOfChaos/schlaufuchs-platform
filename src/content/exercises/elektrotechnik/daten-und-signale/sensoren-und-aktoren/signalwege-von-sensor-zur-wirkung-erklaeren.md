@@ -1,30 +1,17 @@
 ---
-title: Signalwege von Sensor zur Wirkung erklären
-description: Unterscheide in einfachen technischen Beispielen zwischen Sensor, Verarbeitung und Aktor.
-subject: elektrotechnik
-section: Daten und Signale
-topicPath:
-  - daten-und-signale
-  - sensoren-und-aktoren
-  - signalwege-von-sensor-zur-wirkung-erklaeren
-level: einfach
+title: "Signalwege von Sensor zur Wirkung erklären"
+description: "Unterscheide in einfachen technischen Beispielen zwischen Sensor, Verarbeitung und Aktor."
+subject: "elektrotechnik"
+section: "Daten und Signale"
+topicPath: ["daten-und-signale", "sensoren-und-aktoren", "signalwege-von-sensor-zur-wirkung-erklaeren"]
+taskId: "AUTO-SIGNALWEGE-VON-SENSOR-ZUR-WIRKUNG-ERKLAEREN"
+tags: ["elektrotechnik", "Daten und Signale", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - sensor
-  - aktor
-  - signal
-hintPoints:
-  - "Frage zuerst: Was wird gemessen und was wirkt am Ende?"
-  - "Achte darauf, Sensor und sichtbare Reaktion nicht zu verwechseln."
-selfCheckPoints:
-  - "Kannst du Sensor, Verarbeitung und Aktor sauber zuordnen?"
-  - "Bleibt klar, welcher Teil des Systems das Eingangssignal liefert?"
-transferIdeas:
-  - "Übertrage die Idee auf automatische Beleuchtung, Alarmanlagen oder Temperaturregelung."
-  - "Erkläre denselben Ablauf einmal alltagssprachlich und danach technisch genauer."
-reflectionPrompt: "Woran erkennst du in einem technischen Beispiel am schnellsten, ob ein Bauteil Sensor oder Aktor ist?"
 ---
-
 ## Aufgabe 1: Rollen zuordnen
 
 Ordne in einem Beispiel mit Helligkeitssensor, Steuerung und LED zu:

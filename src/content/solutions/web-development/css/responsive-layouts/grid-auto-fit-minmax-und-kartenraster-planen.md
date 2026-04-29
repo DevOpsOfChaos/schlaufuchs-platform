@@ -3,18 +3,10 @@ title: "Lösung – Grid mit auto-fit und minmax als Kartenraster planen"
 description: "Musterlösung mit kurzer Begründung zur passenden Web-Development-Entscheidung."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "responsive-layouts"
-  - "grid-auto-fit-minmax-und-kartenraster-planen"
+topicPath: ["css", "responsive-layouts", "grid-auto-fit-minmax-und-kartenraster-planen"]
 taskId: "grid-auto-fit-minmax-und-kartenraster-planen"
 relatedExercise: "web-development/css/responsive-layouts/grid-auto-fit-minmax-und-kartenraster-planen"
-tags:
-  - "web development"
-  - "css"
-  - "grid"
-  - "responsive"
-  - "layout"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
 ## Musterlösung

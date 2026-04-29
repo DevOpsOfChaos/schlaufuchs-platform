@@ -3,21 +3,12 @@ title: "Lösung – Registername und Pinname trennen"
 description: "Musterlösung zu registername und pinname trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "register-und-ports"
-  - "registername-und-pinname-trennen"
+topicPath: ["mikrocontroller-und-atmega", "register-und-ports", "registername-und-pinname-trennen"]
 taskId: "v112-elektrotechnik-registername-und-pinname-trennen"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/register-und-ports/registername-und-pinname-trennen"
-tags:
-  - "elektrotechnik"
-  - "v112"
-  - "feinstruktur"
-  - "mikrocontroller-und-atmega"
-  - "registername-und-pinname-trennen"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Mikrocontroller Register und Ports**.

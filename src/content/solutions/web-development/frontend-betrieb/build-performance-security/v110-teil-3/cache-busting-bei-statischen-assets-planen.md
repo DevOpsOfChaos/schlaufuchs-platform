@@ -3,23 +3,12 @@ title: "Lösung – Cache Busting bei statischen Assets planen"
 description: "Musterlösung zu Cache Busting bei statischen Assets planen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Betrieb und Sicherheit"
-topicPath:
-  - "frontend-betrieb"
-  - "build-performance-security"
-  - "v110-teil-3"
-  - "cache-busting-bei-statischen-assets-planen"
+topicPath: ["frontend-betrieb", "build-performance-security", "v110-teil-3", "cache-busting-bei-statischen-assets-planen"]
 taskId: "v110-web-development-cache-busting-bei-statischen-assets-planen"
 relatedExercise: "web-development/frontend-betrieb/build-performance-security/v110-teil-3/cache-busting-bei-statischen-assets-planen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "frontend-betrieb"
-  - "build-performance-security"
-  - "cache-busting-bei-statischen-assets-planen"
+tags: ["web-development", "Betrieb und Sicherheit", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Cache Busting bei statischen Assets planen**.

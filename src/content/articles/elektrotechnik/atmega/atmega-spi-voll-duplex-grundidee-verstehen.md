@@ -1,46 +1,19 @@
 ---
-title: ATmega – SPI Voll-Duplex als Grundidee verstehen
-description: Verstehe, warum SPI bei jedem Takt gleichzeitig sendet und empfängt und warum das mehr ist als nur „eine Leitung hin und eine zurück“.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-schnittstellen-und-busse
-  - atmega-spi-voll-duplex-grundidee-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von SPI als Voll-Duplex-Schnittstelle.
-  - Du beschreibst, warum beim Takt eines Masters gleichzeitig Daten hin und zurück laufen können.
-  - Du liest SPI-Rahmen ruhiger als gekoppelten Austausch statt als zwei getrennte Einbahnstraßen.
-practiceIdeas:
-  - Verfolge bei einem SPI-Transfer gleichzeitig MOSI und MISO.
-  - Prüfe, welches Byte der Master sendet, während er ein anderes Byte vom Slave einliest.
-  - Lies Senden und Empfangen bei SPI bewusst als einen gemeinsamen Taktvorgang.
-commonMistakes:
-  - SPI wie UART als nur nacheinander getrennte Sende- und Empfangsrichtung zu behandeln.
-  - Zu denken, der Master könne ein Byte empfangen, ohne gleichzeitig selbst etwas zu takten.
-  - MISO und MOSI zu lesen, ohne den gemeinsamen Takt mitzudenken.
-keyTakeaways:
-  - SPI ist grundsätzlich Voll-Duplex.
-  - Jeder Takt verschiebt Bits gleichzeitig in beide Richtungen.
-  - Wer Takt und Datenweg zusammen denkt, versteht SPI deutlich ruhiger.
-recognizeSignals:
-  - Es geht um SPI-Rahmen, gleichzeitiges Senden und Empfangen oder einen Master, der Daten abfragt.
-  - Du sollst erklären, warum beim Lesen oft gleichzeitig etwas gesendet werden muss.
-  - In Aufgaben sind MOSI, MISO und der gemeinsame Takt wichtiger als bloße Pin-Namen.
-selfCheckPoints:
-  - Kann ich SPI als Voll-Duplex statt als zwei getrennte Einzelfälle erklären?
-  - Kann ich begründen, warum der Master zum Empfangen trotzdem takten und senden muss?
-  - Kann ich einen SPI-Rahmen als gleichzeitigen Austausch lesen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - spi
-  - avr
-level: mittel
+title: "ATmega – SPI Voll-Duplex als Grundidee verstehen"
+description: "Verstehe, warum SPI bei jedem Takt gleichzeitig sendet und empfängt und warum das mehr ist als nur „eine Leitung hin und eine zurück“."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-spi-voll-duplex-grundidee-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei SPI wird nicht erst vollständig gesendet und danach getrennt vollständig empfangen. Ruhiger ist die Leitfrage:

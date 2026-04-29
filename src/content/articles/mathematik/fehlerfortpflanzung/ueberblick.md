@@ -3,32 +3,17 @@ title: "Fehlerfortpflanzung"
 description: "Allgemeiner Überblick über Fehlerfortpflanzung bei Rechnungen mit unsicheren Größen."
 subject: "mathematik"
 section: "Messen und Fehler"
-topicPath:
-  - "fehlerfortpflanzung"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["fehlerfortpflanzung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird ein berechnetes Ergebnis mit vielen Nachkommastellen angegeben, obwohl die Eingangswerte diese Genauigkeit nicht tragen."
-keyTakeaways:
-  - "Fehlerfortpflanzung zeigt, wie zuverlässig ein berechnetes Ergebnis ist. Sie verhindert Scheingenauigkeit."
-  - "Fehlerfortpflanzung ist keine Garantie für exakte Wahrheit. Sie hängt von Annahmen über Fehlerart, Unabhängigkeit und Größe der Abweichungen ab."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
-tags:
-  - "mathematik"
-  - "fehler"
-  - "messung"
-  - "näherung"
+tags: ["mathematik", "Messen und Fehler"]
 draft: false
 ---
-
 # Fehlerfortpflanzung
 
 Fehlerfortpflanzung beschreibt, wie Unsicherheiten in Eingangsgrößen die Unsicherheit eines berechneten Ergebnisses beeinflussen.

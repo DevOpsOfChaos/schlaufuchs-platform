@@ -1,36 +1,19 @@
 ---
 title: "Grenzwertidee"
 description: "Allgemeiner Überblick über Grenzwerte als Annäherung an Werte, Verhalten und Übergänge."
-subject: mathematik
+subject: "mathematik"
 section: "Analysis"
-topicPath:
-  - "grenzwertidee"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Grenzwertidee als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["grenzwertidee", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Annäherung wird oft mit direktem Einsetzen verwechselt."
-keyTakeaways:
-  - "Grenzwerte beschreiben Annäherungsverhalten."
-  - "Erreichen und Annähern sind unterschiedliche Ideen."
-  - "Viele Begriffe der Analysis beruhen auf Grenzwerten."
-recognizeSignals:
-  - "Eine Größe nähert sich einem Wert."
-  - "Direktes Einsetzen führt zu einem Problem."
-selfCheckPoints:
-  - "Kann ich Grenzwertidee in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "analysis"
-  - "grenzwert"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Analysis"]
 draft: false
 ---
-
 # Grenzwertidee
 
 Ein Grenzwert beschreibt, welchem Wert sich eine Größe annähert, wenn eine andere Größe gegen einen bestimmten Wert oder gegen unendlich läuft.

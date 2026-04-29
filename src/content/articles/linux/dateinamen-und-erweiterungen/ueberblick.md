@@ -3,32 +3,17 @@ title: "Dateinamen und Erweiterungen"
 description: "Allgemeiner Überblick über dateinamen und erweiterungen und die wichtigsten Zusammenhänge."
 subject: "linux"
 section: "Dateisystem"
-topicPath:
-  - "dateinamen-und-erweiterungen"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["dateinamen-und-erweiterungen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Dateinamen wie unter Windows behandelt und Großschreibung übersehen."
-keyTakeaways:
-  - "Klare Dateinamen erleichtern Arbeit und Automatisierung."
-  - "Eine Erweiterung beweist nicht den tatsächlichen Inhalt einer Datei."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "linux"
-  - "dateien"
-  - "dateinamen"
-  - "erweiterungen"
+tags: ["linux", "Dateisystem"]
 draft: false
 ---
-
 # Dateinamen und Erweiterungen
 
 Dateinamen identifizieren Einträge im Dateisystem. Erweiterungen sind Namensbestandteile, die Hinweise auf Format oder Zweck geben können.

@@ -1,47 +1,19 @@
 ---
-title: nullptr vor Dereferenzierung prüfen
-description: Verstehe, warum ein Pointer vor dem Zugriff auf den Zielwert zuerst auf einen sinnvollen Zustand geprüft werden sollte.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - pointer-und-adressen
-  - nullptr-vor-dereferenzierung-pruefen
-learningGoals:
-  - Du erklärst, warum ein Nullpointer vor <code>*p</code> geprüft werden sollte.
-  - "Du erkennst die logische Reihenfolge: erst Zustand prüfen, dann Zielwert benutzen."
-  - Du trennst die Zugriffsfrage sauber von der früheren Initialisierungsfrage.
-practiceIdeas:
-  - Lies kleine Pointer-Beispiele in der Reihenfolge Zustand → Prüfung → Zugriff.
-  - Markiere in Beispielen, welche Zeile noch sicher prüft und welche schon zugreift.
-  - Formuliere für unsichere Beispiele eine kleine Schutzbedingung mit <code>if</code>.
-commonMistakes:
-  - Einen Pointer direkt zu dereferenzieren, ohne seinen Zustand vorher zu prüfen.
-  - Zu glauben, dass <code>*p</code> schon zeigen wird, ob etwas schiefgeht.
-  - Startzustand und aktuelle Zugriffsentscheidung logisch zu vermischen.
-keyTakeaways:
-  - Ein Nullpointer ist ein klarer Zustand, aber kein nutzbares Ziel für <code>*p</code>.
-  - Vor der Dereferenzierung hilft eine einfache Prüfung auf <code>nullptr</code>.
-  - Diese Seite beginnt dort, wo die Startzustandsfrage schon geklärt ist.
-recognizeSignals:
-  - In Beispielen kommt <code>nullptr</code> zusammen mit <code>*p</code> oder <code>if (p)</code> vor.
-  - Du sollst entscheiden, ob ein Zugriff vorbereitet oder zu früh ist.
-  - Es geht um sichere Reihenfolge beim Arbeiten mit Pointern.
-selfCheckPoints:
-  - Kann ich erklären, warum <code>nullptr</code> kein dereferenzierbares Ziel ist?
-  - Kann ich eine sichere Reihenfolge für Pointerzugriffe formulieren?
-  - Kann ich Startzustand und Zugriff logisch auseinanderhalten?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - pointer
-  - nullptr
+title: "nullptr vor Dereferenzierung prüfen"
+description: "Verstehe, warum ein Pointer vor dem Zugriff auf den Zielwert zuerst auf einen sinnvollen Zustand geprüft werden sollte."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "nullptr-vor-dereferenzierung-pruefen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Pointer kann bewusst mit <code>nullptr</code> gesetzt sein. Das ist ein klarer Zustand — aber noch kein Signal dafür, dass man direkt mit <code>*p</code> auf einen Zielwert zugreifen darf.

@@ -3,23 +3,12 @@ title: "Lösung – Temporäre Dateien mit mktemp sicher anlegen"
 description: "Musterlösung zu Temporäre Dateien mit mktemp sicher anlegen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell-praxis"
-  - "dateien-sicher-bearbeiten"
-  - "v110-teil-4"
-  - "temporaere-dateien-mit-mktemp-sicher-anlegen"
+topicPath: ["shell-praxis", "dateien-sicher-bearbeiten", "v110-teil-4", "temporaere-dateien-mit-mktemp-sicher-anlegen"]
 taskId: "v110-linux-temporaere-dateien-mit-mktemp-sicher-anlegen"
 relatedExercise: "linux/shell-praxis/dateien-sicher-bearbeiten/v110-teil-4/temporaere-dateien-mit-mktemp-sicher-anlegen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "shell-praxis"
-  - "dateien-sicher-bearbeiten"
-  - "temporaere-dateien-mit-mktemp-sicher-anlegen"
+tags: ["linux", "Shell", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Temporäre Dateien mit mktemp sicher anlegen**.

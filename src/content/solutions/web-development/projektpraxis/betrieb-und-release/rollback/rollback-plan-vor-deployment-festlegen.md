@@ -3,23 +3,12 @@ title: "Lösung – Rollback-Plan vor Deployment festlegen"
 description: "Musterlösung zu Rollback mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "rollback"
-  - "rollback-plan-vor-deployment-festlegen"
+topicPath: ["projektpraxis", "betrieb-und-release", "rollback", "rollback-plan-vor-deployment-festlegen"]
 taskId: "v111-web-development-rollback-plan-vor-deployment-festlegen"
 relatedExercise: "web-development/projektpraxis/betrieb-und-release/rollback/rollback-plan-vor-deployment-festlegen"
-tags:
-  - "web development"
-  - "frontend"
-  - "unterthema"
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "rollback-plan-vor-deployment-festlegen"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Rollback**.

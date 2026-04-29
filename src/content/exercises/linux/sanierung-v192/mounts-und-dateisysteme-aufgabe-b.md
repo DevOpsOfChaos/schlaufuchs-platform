@@ -3,37 +3,15 @@ title: "Mounts und Dateisysteme: Aufgabe B"
 description: "Erweitere die Grundidee zu „Mounts und Dateisysteme“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "dateisystem-und-speicher"
-  - "mounts-und-dateisysteme"
-  - "aufgabe-b"
+topicPath: ["sanierung-v192", "mounts-und-dateisysteme-aufgabe-b"]
 taskId: "linux-v192-021b"
-tags:
-  - "dateisystem-und-speicher"
-  - "mounts"
-  - "dateisysteme"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "aufgabe"
-  - "v192"
-hintPoints:
-  - "Trenne Beobachtung, Eingriff und Kontrolle."
-  - "Nenne den betroffenen Benutzer, Dienst, Pfad, Port oder Zeitplan."
-  - "Beschreibe mindestens einen Rückweg oder Sicherheitscheck."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Mounts und Dateisysteme."
-  - "Es gibt eine klare Kontrolle nach der Änderung."
-  - "Risiko und Nebenwirkung werden nicht verschwiegen."
-transferIdeas:
-  - "Übertrage den Prüfweg auf eine zweite Linux-VM oder einen anderen Dienst."
-  - "Formuliere aus deiner Lösung eine kurze Betriebsnotiz."
-reflectionPrompt: "Welcher Schritt verhindert hier den wahrscheinlichsten Adminfehler?"
+tags: ["linux", "adminpraxis-und-betrieb", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Erweitere die Grundidee zu „Mounts und Dateisysteme“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

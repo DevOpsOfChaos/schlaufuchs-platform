@@ -3,23 +3,12 @@ title: "Lösung – Content Security Policy als Ausführungsgrenze lesen"
 description: "Musterlösung zu Content Security Policy als Ausführungsgrenze lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Betrieb und Sicherheit"
-topicPath:
-  - "frontend-betrieb"
-  - "build-performance-security"
-  - "v110-teil-1"
-  - "content-security-policy-als-ausfuehrungsgrenze-lesen"
+topicPath: ["frontend-betrieb", "build-performance-security", "v110-teil-1", "content-security-policy-als-ausfuehrungsgrenze-lesen"]
 taskId: "v110-web-development-content-security-policy-als-ausfuehrungsgrenze-lesen"
 relatedExercise: "web-development/frontend-betrieb/build-performance-security/v110-teil-1/content-security-policy-als-ausfuehrungsgrenze-lesen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "frontend-betrieb"
-  - "build-performance-security"
-  - "content-security-policy-als-ausfuehrungsgrenze-lesen"
+tags: ["web-development", "Betrieb und Sicherheit", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Content Security Policy als Ausführungsgrenze lesen**.

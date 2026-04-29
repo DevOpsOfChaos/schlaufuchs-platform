@@ -3,38 +3,17 @@ title: "Amplitude, Frequenz und Phase"
 description: "Amplitude, Frequenz und Phase beschreiben zentrale Eigenschaften von Schwingungen."
 subject: "daten-und-signale"
 section: "analyse"
-topicPath:
-  - "analyse"
-  - "amplitude-frequenz-und-phase"
-learningGoals:
-  - "Amplitude, Frequenz und Phase beschreiben zentrale Eigenschaften von Schwingungen fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Amplitude, Frequenz und Phase beschreiben zentrale Eigenschaften von Schwingungen wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v189", "amplitude-frequenz-und-phase"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "amplitude"
-  - "frequenz"
-  - "phase"
-  - "daten-und-signale"
-  - "v189"
+tags: ["daten-und-signale", "analyse"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Amplitude, Frequenz und Phase](/schlaufuchs-platform/images/daten-und-signale/sanierung-189/amplitude-frequenz-und-phase.svg)
 
 ## Überblick

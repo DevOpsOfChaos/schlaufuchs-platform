@@ -1,32 +1,17 @@
 ---
-title: Speicherrollen am AVR sauber zuordnen
-description: Ordne Programmlogik, Laufdaten und dauerhafte Werte den passenden AVR-Speicherarten zu.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - speicher-und-daten
-  - atmega-flash-sram-und-eeprom-unterscheiden
-  - speicherrollen-am-avr-sauber-zuordnen
-taskId: ET-ATMEGA-MEM-306
-level: einfach
+title: "Speicherrollen am AVR sauber zuordnen"
+description: "Ordne Programmlogik, Laufdaten und dauerhafte Werte den passenden AVR-Speicherarten zu."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-flash-sram-und-eeprom-unterscheiden", "speicherrollen-am-avr-sauber-zuordnen"]
+taskId: "ET-ATMEGA-MEM-306"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - elektrotechnik
-  - atmega
-  - speicher
-  - avr
-hintPoints:
-  - Frage zuerst, welche Rolle die Information im System hat.
-  - Trenne flüchtige Laufdaten und dauerhafte Werte bewusst.
-selfCheckPoints:
-  - Kannst du erklären, warum ein Zähler nicht in denselben Speicher gehört wie ein Programmtext?
-  - Kannst du sagen, welcher Wert einen Neustart überstehen soll?
-transferIdeas:
-  - Übertrage die Logik auf Menüs, Kalibrierwerte oder Messdaten.
-reflectionPrompt: "Welche Leitfrage hilft dir mehr als das bloße Merken der Speichernamen?"
 ---
-
 ## Aufgabe 1
 
 Ordne die folgenden Dinge dem passenden Speicher zu:

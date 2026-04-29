@@ -3,24 +3,12 @@ title: "Lösung: Testdaten sinnvoll wählen: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-008a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "tests-und-randfaelle"
-  - "testdaten-sinnvoll-waehlen"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "testdaten-sinnvoll-waehlen-loesung-a"]
 taskId: "informatik-v193-008a"
 relatedExercise: "informatik/sanierung-v193/testdaten-sinnvoll-waehlen-aufgabe-a"
-tags:
-  - "testdaten"
-  - "sinnvoll"
-  - "waehlen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-008a`
 
 Ausgangsauftrag: Baue einen kleinen Testdatensatz für eine Suchfunktion.

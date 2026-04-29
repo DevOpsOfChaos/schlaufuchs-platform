@@ -1,23 +1,14 @@
 ---
-title: Lösung – Landmarken nicht übertreiben
-description: Musterlösung zur Aufgabe über Landmarken nicht übertreiben.
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- frontend-struktur
-- html-semantik-praxis
-- landmarken-nicht-uebertreiben-v114
-taskId: v114-web-development-landmarken-nicht-uebertreiben-v114
-relatedExercise: web-development/frontend-struktur/html-semantik-praxis/landmarken-nicht-uebertreiben-v114
-tags:
-- web-development
-- v114
-- loesung
-- frontend-struktur
-- html-semantik-praxis
+title: "Lösung – Landmarken nicht übertreiben"
+description: "Musterlösung zur Aufgabe über Landmarken nicht übertreiben."
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["frontend-struktur", "html-semantik-praxis", "landmarken-nicht-uebertreiben-v114"]
+taskId: "v114-web-development-landmarken-nicht-uebertreiben-v114"
+relatedExercise: "web-development/frontend-struktur/html-semantik-praxis/landmarken-nicht-uebertreiben-v114"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

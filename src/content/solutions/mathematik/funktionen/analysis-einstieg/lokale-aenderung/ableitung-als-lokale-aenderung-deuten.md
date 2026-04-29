@@ -3,23 +3,12 @@ title: "Lösung – Ableitung als lokale Änderung deuten"
 description: "Musterlösung zu Lokale Änderungsrate mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "funktionen"
-  - "analysis-einstieg"
-  - "lokale-aenderung"
-  - "ableitung-als-lokale-aenderung-deuten"
+topicPath: ["funktionen", "analysis-einstieg", "lokale-aenderung", "ableitung-als-lokale-aenderung-deuten"]
 taskId: "v109-mathematik-ableitung-als-lokale-aenderung-deuten"
 relatedExercise: "mathematik/funktionen/analysis-einstieg/lokale-aenderung/ableitung-als-lokale-aenderung-deuten"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfen"
-  - "funktionen"
-  - "analysis-einstieg"
-  - "lokale änderungsrate"
+tags: ["mathematik", "Funktionen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Lokale Änderungsrate**.

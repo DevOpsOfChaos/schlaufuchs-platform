@@ -1,23 +1,14 @@
 ---
-title: Lösung – Skriptargumente prüfen
-description: Musterlösung zur Aufgabe über Skriptargumente prüfen.
-subject: linux
-section: Feinstruktur Linux
-topicPath:
-- shell-automation
-- robuste-skripte
-- skriptargumente-pruefen-v114
-taskId: v114-linux-skriptargumente-pruefen-v114
-relatedExercise: linux/shell-automation/robuste-skripte/skriptargumente-pruefen-v114
-tags:
-- linux
-- v114
-- loesung
-- shell-automation
-- robuste-skripte
+title: "Lösung – Skriptargumente prüfen"
+description: "Musterlösung zur Aufgabe über Skriptargumente prüfen."
+subject: "linux"
+section: "Feinstruktur Linux"
+topicPath: ["shell-automation", "robuste-skripte", "skriptargumente-pruefen-v114"]
+taskId: "v114-linux-skriptargumente-pruefen-v114"
+relatedExercise: "linux/shell-automation/robuste-skripte/skriptargumente-pruefen-v114"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

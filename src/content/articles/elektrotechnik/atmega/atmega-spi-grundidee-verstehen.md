@@ -1,46 +1,19 @@
 ---
-title: ATmega – SPI als Grundidee verstehen
-description: Verstehe, wie SPI am AVR mehrere Leitungen nutzt, damit Daten schnell und klar gerichtet zwischen Master und Gegenstelle laufen.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-schnittstellen-und-busse
-  - atmega-spi-grundidee-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von SPI am AVR.
-  - Du unterscheidest Takt, Datenrichtung und Geräteauswahl sauber.
-  - Du liest SPI eher als geordneten Leitungsverbund statt nur als Abkürzung.
-practiceIdeas:
-  - Verfolge ein Byte vom AVR zu einem Peripheriebaustein über die einzelnen SPI-Leitungen.
-  - Vergleiche SPI zuerst über Leitungen und Rollen und erst dann über Registerkürzel.
-  - Prüfe bei einem Beispiel, welche Leitung den Takt liefert und welche das ausgewählte Gerät markiert.
-commonMistakes:
-  - SPI als bloße Zweidrahtverbindung zu behandeln.
-  - MOSI und MISO zu verwechseln.
-  - Zu denken, jedes angeschlossene Gerät reagiere gleichzeitig auf jedes Datenwort.
-keyTakeaways:
-  - SPI trennt Takt, Sendedaten, Empfangsdaten und Geräteauswahl auf mehrere Leitungen.
-  - Die Auswahlleitung entscheidet, welches Gerät gerade angesprochen wird.
-  - Wer Leitungen und Rollen sauber trennt, liest SPI deutlich ruhiger.
-recognizeSignals:
-  - Es geht um SPI, MOSI, MISO, SCK oder SS.
-  - Du sollst erklären, wie ein AVR Daten zu einem Baustein schickt und gleichzeitig zurücklesen kann.
-  - In Beispielen ist die Leitungsrolle wichtiger als der bloße Registername.
-selfCheckPoints:
-  - Kann ich die vier typischen SPI-Leitungen benennen und fachlich einordnen?
-  - Kann ich erklären, warum ein ausgewähltes Gerät nötig ist?
-  - Kann ich Sende- und Empfangsrichtung sauber trennen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - spi
-  - avr
-level: einfach
+title: "ATmega – SPI als Grundidee verstehen"
+description: "Verstehe, wie SPI am AVR mehrere Leitungen nutzt, damit Daten schnell und klar gerichtet zwischen Master und Gegenstelle laufen."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-spi-grundidee-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 SPI ist am AVR eine serielle Schnittstelle, die bewusst **mehrere Leitungen mit klaren Rollen** nutzt. Gerade dadurch lässt sich das Thema oft ruhiger lesen als andere Schnittstellen: Nicht „irgendwie Daten übertragen“, sondern **Takt**, **Richtung** und **Geräteauswahl** werden sauber voneinander getrennt.
 
 <div class="example-card">

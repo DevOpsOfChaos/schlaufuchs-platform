@@ -3,22 +3,12 @@ title: "Lösung – section, article und aside richtig einordnen"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Development-Aufgabe."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "semantik-und-struktur"
-  - "section-article-aside-richtig-einordnen"
-tags:
-  - "web development"
-  - "html"
-  - "semantik"
-  - "struktur"
-  - "barrierefreiheit"
-  - "lösung"
+topicPath: ["html", "semantik-und-struktur", "section-article-aside-richtig-einordnen"]
 taskId: "web-v103-section-article-aside-richtig-einordnen"
 relatedExercise: "web-development/html/semantik-und-struktur/section-article-aside-richtig-einordnen"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Der Hauptinhalt liegt in `main`, der eigenständige Text in `article`, die Untergliederung in `section` und die Zusatzinformationen in `aside`.

@@ -1,44 +1,19 @@
 ---
-title: DOM-Grundidee und Knotenbeziehungen verstehen
-description: Verstehe, warum ein HTML-Dokument im Browser als Baum aus Knoten betrachtet wird und wie das für spätere DOM-Zugriffe hilft.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - dom-grundidee-und-knotenbeziehungen-verstehen
-learningGoals:
-  - Du erklärst die DOM-Grundidee als Baumstruktur.
-  - Du unterscheidest Element-, Attribut- und Textknoten grob.
-  - Du beschreibst Eltern-, Kind- und Geschwisterbeziehungen im DOM.
-practiceIdeas:
-  - Lies eine kleine HTML-Struktur als Baum statt als bloßen Quelltext.
-  - Markiere, welche Elemente Kinder desselben Elternknotens sind.
-  - Vergleiche sichtbaren Text mit seinem Platz in der Knotenstruktur.
-commonMistakes:
-  - HTML nur als lineare Textfolge statt als Hierarchie zu lesen.
-  - Attribute und Elemente gleichzusetzen.
-  - Zu glauben, DOM-Zugriffe sähen nur optisch etwas auf der Seite.
-keyTakeaways:
-  - Das DOM beschreibt ein HTML-Dokument als Knotenbaum.
-  - Beziehungen wie Eltern, Kinder und Geschwister sind zentral.
-  - DOM-Verständnis hilft bei CSS-Selektoren und JavaScript-Zugriffen.
-recognizeSignals:
-  - Es geht um DOM, Knoten, Hierarchie oder document.getElementById.
-  - Du sollst Elemente in einer Baumstruktur einordnen.
-  - Es tauchen Begriffe wie Eltern-, Kind- oder Geschwisterelement auf.
-selfCheckPoints:
-  - Kann ich ein HTML-Beispiel als Baum lesen?
-  - Kann ich Element-, Attribut- und Textknoten grob unterscheiden?
-  - Kann ich erklären, warum DOM-Verständnis für spätere Dynamik wichtig ist?
-tags:
-  - html
-  - dom
-  - struktur
-  - web-development
-level: einfach
+title: "DOM-Grundidee und Knotenbeziehungen verstehen"
+description: "Verstehe, warum ein HTML-Dokument im Browser als Baum aus Knoten betrachtet wird und wie das für spätere DOM-Zugriffe hilft."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "dom-grundidee-und-knotenbeziehungen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Im Browser ist HTML nicht nur eine Textdatei, sondern eine **Baumstruktur aus Knoten**. Genau diese Sicht nennt man DOM – Document Object Model.

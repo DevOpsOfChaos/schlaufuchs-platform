@@ -3,20 +3,12 @@ title: "Lösung – Reset-Ursache systematisch prüfen"
 description: "Musterlösung zu Reset-Ursache systematisch prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-system"
-  - "versorgung-reset-takt"
-  - "reset-ursache-systematisch-pruefen-v113"
+topicPath: ["mikrocontroller-system", "versorgung-reset-takt", "reset-ursache-systematisch-pruefen-v113"]
 taskId: "v113-elektrotechnik-reset-ursache-systematisch-pruefen-v113"
 relatedExercise: "elektrotechnik/mikrocontroller-system/versorgung-reset-takt/reset-ursache-systematisch-pruefen-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "reset-ursache-systematisch-pruefen-v113"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Reset-Ursache systematisch prüfen**.

@@ -1,46 +1,19 @@
 ---
 title: "Mathematik – Einheiten in zusammengesetzten Größen prüfen"
 description: "Trainiere Einheiten in zusammengesetzten Größen prüfen als kleines Unterthema mit klarer Trennkante, Beispiel und Gegenprobe."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "zahlenstrategien-v115"
-  - "ueberschlag-und-plausibilitaet"
-  - "einheiten-in-zusammengesetzten-groessen-pruefen-v115"
-learningGoals:
-  - "Du erklärst Einheiten in zusammengesetzten Größen prüfen an einem kleinen, abgegrenzten Fall."
-  - "Du trennst das Unterthema von einem naheliegenden Nachbarthema."
-  - "Du formulierst eine passende Gegenprobe statt nur eine fertige Antwort."
-practiceIdeas:
-  - "Schreibe zuerst die Prüffrage in eigenen Worten auf."
-  - "Markiere im Fall zwei Hinweise, die wirklich zur Entscheidung gehören."
-  - "Formuliere einen Gegenfall, in dem die Entscheidung anders ausfallen würde."
-commonMistakes:
-  - "Kilometer und Minuten werden verrechnet, als wären sie schon km/h."
-  - "Das Thema wird zu breit eingeordnet und verliert dadurch die prüfbare Trennkante."
-  - "Die Lösung nennt ein Ergebnis, begründet aber nicht die Abgrenzung."
-keyTakeaways:
-  - "Dieses Unterthema prüft vor allem: Welche Einheit entsteht nach dem Teilen wirklich?"
-  - "Eine gute Lösung benennt die Trennkante ausdrücklich."
-  - "Die Gegenprobe zeigt, ob die Begründung wirklich trägt."
-recognizeSignals:
-  - "Die Aufgabe fragt nach Einheiten in zusammengesetzten Größen prüfen."
-  - "Ähnliche Begriffe oder Fälle liegen nah beieinander."
-  - "Eine kleine Änderung im Fall würde zu einer anderen Entscheidung führen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-level: mittel
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "zahlenstrategien"
-  - "überschlag und plausibilität"
+topicPath: ["zahlenstrategien-v115", "ueberschlag-und-plausibilitaet", "einheiten-in-zusammengesetzten-groessen-pruefen-v115"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["mathematik", "Feinstruktur Mathematik"]
 draft: false
 ---
-
 <img src="/schlaufuchs-platform/illustrations/mathematik-einheiten-in-zusammengesetzten-groessen-pruefen-v115.svg" alt="Lernillustration zu Einheiten in zusammengesetzten Größen prüfen" loading="lazy" />
 
 ## Grundidee

@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Rauschen, Filterung und Schwellwerte"
 description: "Allgemeiner Überblick über schwankende Signale, einfache Filterung und robuste Schwellwertentscheidungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Daten und Signale"
-topicPath:
-  - daten-und-signale
-  - rauschen-filterung-und-schwellwerte
-  - ueberblick
-learningGoals:
-  - "Du erklärst die Grundidee von Rauschen, Filterung und Schwellwerte in eigenen Worten."
-  - "Du ordnest typische Begriffe und Fehlerquellen ruhig ein."
-  - "Du erkennst, welche Detailfragen zu diesem Themenbereich gehören."
-practiceIdeas:
-  - "Skizziere den Zusammenhang als kleines Signal-, Strom- oder Ablaufbild."
-  - "Notiere typische Fehlerquellen und prüfe, ob sie elektrisch, logisch oder organisatorisch sind."
-commonMistakes:
-  - "Jede Schwankung als echtes Ereignis zu behandeln."
-  - "Filterung ohne Reaktionszeit zu bewerten."
-  - "Schwellwert und Hysterese zu verwechseln."
-keyTakeaways:
-  - "Rauschen ist bei Messwerten normal."
-  - "Filter glätten, verzögern aber oft."
-  - "Hysterese stabilisiert Entscheidungen an Grenzen."
-recognizeSignals:
-  - "Du brauchst zuerst Orientierung, bevor du eine konkrete Schaltung oder Aufgabe bewertest."
-  - "Mehrere Einzelfälle wirken ähnlich, aber der gemeinsame fachliche Rahmen fehlt."
-selfCheckPoints:
-  - "Kann ich den Zweck des Themas ohne Formel auswendig zu lernen erklären?"
-  - "Kann ich typische Fehlerquellen in der richtigen Reihenfolge prüfen?"
-level: einfach
-tags:
-  - elektrotechnik
-  - rauschen-filterung-und-schwellwerte
-  - daten-und-signale
+topicPath: ["daten-und-signale", "rauschen-filterung-und-schwellwerte", "ueberblick", "grundlagen-rauschen-filterung-und-schwellwerte"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Daten und Signale"]
 draft: false
 ---
-
 ![Signal, Rauschen und Entscheidung](/schlaufuchs-platform/images/overviews/v181/rauschen-filterung-und-schwellwerte.svg)
 
 ## Überblick

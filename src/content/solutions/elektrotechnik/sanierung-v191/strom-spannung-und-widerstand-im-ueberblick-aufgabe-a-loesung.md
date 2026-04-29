@@ -3,24 +3,12 @@ title: "Lösung: Strom, Spannung und Widerstand im Überblick: Aufgabe A"
 description: "Musterlösung zur Aufgabe etech-v191-001a im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "grundgroessen"
-  - "strom-spannung-und-widerstand-im-ueberblick"
-  - "loesung-a"
+topicPath: ["sanierung-v191", "strom-spannung-und-widerstand-im-ueberblick-aufgabe-a"]
 taskId: "etech-v191-001a"
 relatedExercise: "elektrotechnik/sanierung-v191/strom-spannung-und-widerstand-im-ueberblick-aufgabe-a"
-tags:
-  - "grundgroessen"
-  - "strom"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-001a`
 
 Ausgangsauftrag: Ordne in einer einfachen Lampenschaltung Strom, Spannung und Widerstand den Beobachtungen zu.

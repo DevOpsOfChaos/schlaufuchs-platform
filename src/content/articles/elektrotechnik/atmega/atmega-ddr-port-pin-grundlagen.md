@@ -1,46 +1,19 @@
 ---
-title: ATmega – DDR, PORT und PIN verstehen
-description: Verstehe die drei Grundregister für digitale Ein- und Ausgänge am ATmega, damit du Pins nicht nur benutzt, sondern sauber liest.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - digitale-eingaenge-und-ausgaenge
-  - atmega-ddr-port-pin-grundlagen
-learningGoals:
-  - Du erklärst die Rollen von DDRx, PORTx und PINx sauber.
-  - Du unterscheidest Richtung, Ausgabewert und Eingabewert fachlich korrekt.
-  - Du liest einfache Registerzugriffe ruhiger als System statt nur als Befehlscode.
-practiceIdeas:
-  - Übersetze kleine Registerzeilen zuerst in Alltagssprache und dann in Fachsprache.
-  - Prüfe bei einem Beispiel getrennt, ob ein Pin Eingang oder Ausgang ist.
-  - Vergleiche bewusst, wann PORT den Ausgang setzt und wann PORT einen Pull-up einschaltet.
-commonMistakes:
-  - DDR, PORT und PIN als austauschbare Register zu behandeln.
-  - Zu denken, PORT sei nur für Ausgänge da.
-  - Den gelesenen Pinwert mit dem gesetzten Ausgangswert zu verwechseln.
-keyTakeaways:
-  - DDR legt die Richtung fest.
-  - PORT setzt bei Ausgängen den Pegel und kann bei Eingängen den Pull-up aktivieren.
-  - PIN wird gelesen, wenn du den aktuellen Eingangszustand wissen willst.
-recognizeSignals:
-  - Es geht um DDRB, PORTB, PINB oder ähnliche AVR-Register.
-  - Du sollst erklären, warum ein Pin Ausgang, Eingang oder Pull-up-Eingang ist.
-  - In Codebeispielen tauchen Bitoperationen zur Pin-Konfiguration auf.
-selfCheckPoints:
-  - Kann ich Richtung, gesetzten Wert und gelesenen Wert trennen?
-  - Kann ich erklären, was an einem Pin passiert, wenn DDR und PORT gemeinsam gesetzt werden?
-  - Kann ich einen einfachen AVR-Codeblock fachlich lesen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - avr
-  - io
-level: einfach
+title: "ATmega – DDR, PORT und PIN verstehen"
+description: "Verstehe die drei Grundregister für digitale Ein- und Ausgänge am ATmega, damit du Pins nicht nur benutzt, sondern sauber liest."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-ddr-port-pin-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 Digitale I/O-Pins bei AVR-Mikrocontrollern werden im Grundfall über drei Register pro Port gesteuert: **DDRx**, **PORTx** und **PINx**. AVR-Ports bestehen typischerweise aus genau diesen drei Registern, wobei `DDRx` die Richtung, `PORTx` den Ausgangswert beziehungsweise Pull-up und `PINx` den gelesenen Pinzustand beschreibt.
 
 <div class="example-card">

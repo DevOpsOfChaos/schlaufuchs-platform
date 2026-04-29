@@ -1,45 +1,19 @@
 ---
-title: Outline und Border unterscheiden
-description: Verstehe, warum outline und border beide sichtbare Umrandungen sein können, aber unterschiedlich stark in Größe, Layout und Fokuslogik eingreifen.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - outline-und-border-unterscheiden
-learningGoals:
-  - Du erklärst den Unterschied zwischen outline und border.
-  - Du beschreibst, warum border die Box beeinflusst und outline eher wie eine zusätzliche Markierung wirkt.
-  - Du liest Fokusmarkierungen eher als Orientierungshilfe als als reine Dekoration.
-practiceIdeas:
-  - Vergleiche zwei Buttons, bei denen einmal border und einmal outline für eine Hervorhebung genutzt wird.
-  - Prüfe, welche Umrandung Platz in der Box mitverändert.
-  - Lies Fokuszustände eher über Orientierung als über Stylingmode.
-commonMistakes:
-  - outline und border als vollständig austauschbar zu behandeln.
-  - Fokusmarkierungen nur aus optischen Gründen zu entfernen.
-  - zu übersehen, dass border Breite und Layout sichtbarer beeinflussen kann.
-keyTakeaways:
-  - border gehört zur Box des Elements.
-  - outline liegt eher zusätzlich um das Element herum.
-  - Für Fokuszustände ist outline oft besonders sinnvoll, weil die Orientierung klarer bleibt.
-recognizeSignals:
-  - Es geht um Buttons, Inputs, Fokuszustände oder hervorgehobene Komponenten.
-  - Du sollst erklären, warum sich die Größe einer Box verändert oder eben nicht.
-  - In Beispielen ist die Rolle der Markierung wichtiger als ihre Farbe.
-selfCheckPoints:
-  - Kann ich outline und border fachlich trennen?
-  - Kann ich erklären, wann border die Box verändert?
-  - Kann ich Fokusmarkierungen eher als Nutzbarkeitsthema lesen?
-tags:
-  - css
-  - outline
-  - border
-  - focus
-level: mittel
+title: "Outline und Border unterscheiden"
+description: "Verstehe, warum outline und border beide sichtbare Umrandungen sein können, aber unterschiedlich stark in Größe, Layout und Fokuslogik eingreifen."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "outline-und-border-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Sowohl `border` als auch `outline` können ein Element sichtbar umranden. Trotzdem tun sie nicht dasselbe. `border` gehört zur Box, `outline` wirkt eher wie eine zusätzliche Markierung um das Element herum.

@@ -3,26 +3,12 @@ title: "Lösung: Benutzer und Gruppen verstehen: Aufgabe A"
 description: "Musterlösung zur Aufgabe linux-v192-002a im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "identitaet-und-rechte"
-  - "benutzer-und-gruppen-verstehen"
-  - "loesung-a"
+topicPath: ["sanierung-v192", "benutzer-und-gruppen-verstehen-loesung-a"]
 taskId: "linux-v192-002a"
 relatedExercise: "linux/sanierung-v192/benutzer-und-gruppen-verstehen-aufgabe-a"
-tags:
-  - "identitaet-und-rechte"
-  - "benutzer"
-  - "gruppen"
-  - "verstehen"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-002a`
 
 Ausgangsauftrag: Ordne drei Dateien passenden Benutzern und Gruppen zu.

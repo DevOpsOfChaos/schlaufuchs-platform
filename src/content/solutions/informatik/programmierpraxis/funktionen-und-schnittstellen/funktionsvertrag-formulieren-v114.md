@@ -1,23 +1,14 @@
 ---
-title: Lösung – Funktionsvertrag formulieren
-description: Musterlösung zur Aufgabe über Funktionsvertrag formulieren.
-subject: informatik
-section: Feinstruktur Informatik
-topicPath:
-- programmierpraxis
-- funktionen-und-schnittstellen
-- funktionsvertrag-formulieren-v114
-taskId: v114-informatik-funktionsvertrag-formulieren-v114
-relatedExercise: informatik/programmierpraxis/funktionen-und-schnittstellen/funktionsvertrag-formulieren-v114
-tags:
-- informatik
-- v114
-- loesung
-- programmierpraxis
-- funktionen-und-schnittstellen
+title: "Lösung – Funktionsvertrag formulieren"
+description: "Musterlösung zur Aufgabe über Funktionsvertrag formulieren."
+subject: "informatik"
+section: "Feinstruktur Informatik"
+topicPath: ["programmierpraxis", "funktionen-und-schnittstellen", "funktionsvertrag-formulieren-v114"]
+taskId: "v114-informatik-funktionsvertrag-formulieren-v114"
+relatedExercise: "informatik/programmierpraxis/funktionen-und-schnittstellen/funktionsvertrag-formulieren-v114"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

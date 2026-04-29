@@ -3,44 +3,17 @@ title: "CSS – focus-visible und Tastaturfokus gestalten"
 description: "Gestalte Fokuszustände so, dass Tastaturnutzung sichtbar bleibt, ohne Mausinteraktion unnötig zu stören."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "selektoren"
-  - "focus-visible-und-tastaturfokus-gestalten"
-tags:
-  - "web development"
-  - "css"
-  - "focus-visible"
-  - "accessibility"
-  - "tastatur"
-learningGoals:
-  - "Du unterscheidest :focus und :focus-visible."
-  - "Du erklärst, warum outline nicht einfach entfernt werden darf."
-  - "Du gestaltest Fokuszustände als Teil der Bedienbarkeit."
-practiceIdeas:
-  - "Übertrage die Idee auf eine kleine eigene Seite."
-  - "Prüfe die Bedienung einmal mit Tastatur und einmal mit Maus."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "outline: none ohne Ersatz zu verwenden."
-  - "Fokuszustände nur für Links, aber nicht für Buttons oder Formulare zu planen."
-  - "Tastaturbedienung erst am Ende zufällig zu testen."
-keyTakeaways:
-  - "Struktur, Zustand und Rückmeldung müssen zusammenpassen."
-  - "Sichtbare Nutzerführung ist Teil der technischen Lösung."
-  - "Saubere Webentwicklung prüft auch Fehlerfälle und Sonderwege."
-recognizeSignals:
-  - "Eine Oberfläche soll verständlicher, robuster oder zugänglicher werden."
-  - "HTML, CSS und JavaScript müssen gemeinsam gelesen werden."
-  - "Es gibt einen Zustand, der sichtbar gemacht oder kontrolliert werden muss."
-selfCheckPoints:
-  - "Kann ich die Entscheidung in einem Satz erklären?"
-  - "Bleibt die Lösung bei Fehlern oder Tastaturbedienung verständlich?"
-  - "Sind sichtbare Texte klar und deutsch formuliert?"
+topicPath: ["css", "selektoren", "focus-visible-und-tastaturfokus-gestalten"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Gestalte Fokuszustände so, dass Tastaturnutzung sichtbar bleibt, ohne Mausinteraktion unnötig zu stören. Die Seite betrachtet das Thema nicht als isolierten Syntaxtrick, sondern als kleine Entscheidung für Bedienbarkeit, Wartbarkeit und verständliche Rückmeldung.

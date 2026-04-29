@@ -1,23 +1,14 @@
 ---
 title: "Lösung – Schnittstelle passend einordnen"
 description: "Musterlösung zur Aufgabe Schnittstelle passend einordnen."
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - schnittstellen-und-busse
-  - uart-i2c-spi-vergleichen
-taskId: ET-V180-BUS-001
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/schnittstellen-und-busse/uart-i2c-spi-vergleichen/schnittstelle-passend-einordnen.md
-tags:
-  - elektrotechnik
-  - loesung
-  - uart
-  - i2c
-  - spi
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["mikrocontroller-und-atmega", "schnittstellen-und-busse", "uart-i2c-spi-vergleichen", "schnittstelle-passend-einordnen"]
+taskId: "ET-V180-BUS-001"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/schnittstellen-und-busse/uart-i2c-spi-vergleichen/schnittstelle-passend-einordnen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1

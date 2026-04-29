@@ -3,32 +3,17 @@ title: "Terminal-Encoding und Zeichensätze"
 description: "Allgemeiner Überblick über terminal-encoding und zeichensätze und die wichtigsten Zusammenhänge."
 subject: "linux"
 section: "Terminal"
-topicPath:
-  - "terminal-encoding-und-zeichensaetze"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["terminal-encoding-und-zeichensaetze", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird ein Darstellungsfehler als Dateiinhaltfehler gedeutet."
-keyTakeaways:
-  - "Terminal-Encoding erklärt viele Zeichenprobleme in Shell, Logs und Textdateien."
-  - "Encoding ist nicht dasselbe wie Schriftart."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "linux"
-  - "terminal"
-  - "encoding"
-  - "utf-8"
+tags: ["linux", "Terminal"]
 draft: false
 ---
-
 # Terminal-Encoding und Zeichensätze
 
 Terminal-Encoding bestimmt, wie Bytes als sichtbare Zeichen dargestellt werden.

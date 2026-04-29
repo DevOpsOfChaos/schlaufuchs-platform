@@ -1,37 +1,19 @@
 ---
 title: "DOM-Reflow und Repaint"
 description: "Überblick über Layout-Neuberechnung, Neuzeichnen und ihre Bedeutung für flüssige Oberflächen."
-subject: web-development
+subject: "web-development"
 section: "Rendering"
-topicPath:
-  - "dom-reflow-und-repaint"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst DOM-Reflow und Repaint als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["dom-reflow-und-repaint", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "In einer Schleife immer wieder Layoutwerte zu lesen und direkt Stiländerungen zu schreiben."
-keyTakeaways:
-  - "Reflow betrifft Geometrie, Repaint die Darstellung."
-  - "Viele Layoutänderungen können Performance kosten."
-  - "Gute UI-Performance bündelt und begrenzt Änderungen."
-recognizeSignals:
-  - "Scrollen oder Animationen ruckeln."
-  - "JavaScript verändert viele Stile oder Klassen."
-selfCheckPoints:
-  - "Kann ich DOM-Reflow und Repaint in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "web-development"
-  - "dom"
-  - "performance"
-  - "rendering"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Rendering"]
 draft: false
 ---
-
 # DOM-Reflow und Repaint
 
 Reflow bezeichnet die Neuberechnung von Layoutgrößen und Positionen. Repaint bezeichnet das erneute Zeichnen sichtbarer Bereiche.

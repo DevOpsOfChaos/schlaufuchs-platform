@@ -1,46 +1,19 @@
 ---
-title: ATmega – ADLAR und 8-Bit-/10-Bit-Auslesen verstehen
-description: Verstehe, warum der AVR ADC-Ergebnisse unterschiedlich ausrichtet und wie sich das ruhige Lesen eines 8-Bit- oder 10-Bit-Messwerts daraus ergibt.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - adc-und-messung
-  - atmega-adlar-und-8-bit-10-bit-auslesen-verstehen
-learningGoals:
-  - Du erklärst die Rolle von ADLAR bei ADC-Ergebnissen am AVR.
-  - Du unterscheidest das ruhige 8-Bit-Auslesen vom vollständigen 10-Bit-Auslesen.
-  - Du liest ADC-Daten eher als Registeranordnung statt nur als Zahlenwert.
-practiceIdeas:
-  - Vergleiche linksbündige und rechtsbündige ADC-Ergebnisse auf dem Papier.
-  - Prüfe, wann ein grober 8-Bit-Wert genügt und wann der volle 10-Bit-Wert sinnvoll ist.
-  - Lies ADCH und ADCL nicht isoliert, sondern als gemeinsam angeordnete Messdaten.
-commonMistakes:
-  - Zu glauben, ADLAR ändere die Messung selbst statt nur die Registeranordnung.
-  - ADCH bei linksbündiger Ausgabe mit dem vollständigen 10-Bit-Wert zu verwechseln.
-  - 8-Bit- und 10-Bit-Auslesen ohne Bezug zur Auflösung zu mischen.
-keyTakeaways:
-  - ADLAR verändert die Ausrichtung des ADC-Ergebnisses in den Ausleseregistern.
-  - Für grobe 8-Bit-Fälle kann linksbündiges Lesen praktisch sein.
-  - Der vollständige 10-Bit-Wert verlangt eine bewusstere Ausleselogik.
-recognizeSignals:
-  - Es geht um ADLAR, ADCH, ADCL oder ADC-Auslesevarianten am AVR.
-  - Du sollst erklären, warum derselbe Messwert unterschiedlich in Registern liegt.
-  - In Aufgaben wird zwischen voller Auflösung und vereinfachter Auslese unterschieden.
-selfCheckPoints:
-  - Kann ich ADLAR als Ausrichtungsfrage erklären?
-  - Kann ich 8-Bit- und 10-Bit-Auslesen sauber trennen?
-  - Kann ich beschreiben, warum linksbündiges Lesen praktisch sein kann?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - adc
-  - register
-level: mittel
+title: "ATmega – ADLAR und 8-Bit-/10-Bit-Auslesen verstehen"
+description: "Verstehe, warum der AVR ADC-Ergebnisse unterschiedlich ausrichtet und wie sich das ruhige Lesen eines 8-Bit- oder 10-Bit-Messwerts daraus ergibt."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-adlar-und-8-bit-10-bit-auslesen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Beim ADC am AVR ist nicht nur wichtig, **wie genau gemessen** wird, sondern auch **wie der Messwert in den Registern liegt**. Genau dafür gibt es die Ausrichtung über **ADLAR**. Sie verändert nicht die Messung selbst, sondern die Art, wie das Ergebnis in **ADCH** und **ADCL** angeordnet wird.

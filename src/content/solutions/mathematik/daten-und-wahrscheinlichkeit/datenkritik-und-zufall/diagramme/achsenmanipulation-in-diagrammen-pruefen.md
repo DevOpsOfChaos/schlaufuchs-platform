@@ -3,23 +3,12 @@ title: "Lösung – Achsenmanipulation in Diagrammen prüfen"
 description: "Musterlösung zu Diagrammachse mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "daten-und-wahrscheinlichkeit"
-  - "datenkritik-und-zufall"
-  - "diagramme"
-  - "achsenmanipulation-in-diagrammen-pruefen"
+topicPath: ["daten-und-wahrscheinlichkeit", "datenkritik-und-zufall", "diagramme", "achsenmanipulation-in-diagrammen-pruefen"]
 taskId: "v111-mathematik-achsenmanipulation-in-diagrammen-pruefen"
 relatedExercise: "mathematik/daten-und-wahrscheinlichkeit/datenkritik-und-zufall/diagramme/achsenmanipulation-in-diagrammen-pruefen"
-tags:
-  - "mathematik"
-  - "prüfung"
-  - "unterthema"
-  - "daten-und-wahrscheinlichkeit"
-  - "datenkritik-und-zufall"
-  - "achsenmanipulation-in-diagrammen-pruefen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Diagrammachse**.

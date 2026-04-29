@@ -1,38 +1,19 @@
 ---
 title: "Grundlagen: Formulare und Eingaben"
 description: "Allgemeiner Überblick über Formularfelder, Beschriftungen, Eingabehilfen, Validierung und barrierearme Formularstruktur."
-subject: web-development
+subject: "web-development"
 section: "HTML"
-topicPath:
-  - html
-  - formulare-und-eingaben
-  - ueberblick
-  - grundlagen-formulare-und-eingaben
-learningGoals:
-  - "Du erklärst, wozu Formulare im Web dienen."
-  - "Du unterscheidest Eingabefeld, Beschriftung, Hinweis und Fehlermeldung."
-  - "Du erkennst, warum gute Formulare nicht nur aus sichtbaren Feldern bestehen."
+topicPath: ["html", "formulare-und-eingaben", "ueberblick", "grundlagen-formulare-und-eingaben"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Placeholder als Ersatz für ein Label zu benutzen."
-  - "Fehler erst technisch, aber nicht verständlich zu melden."
-  - "Formularstruktur nur optisch statt semantisch zu planen."
-keyTakeaways:
-  - "Formulare sammeln strukturierte Eingaben."
-  - "Labels, Hinweise und Fehlermeldungen gehören fachlich zusammen."
-  - "Barrierearme Formulare sind für alle Nutzer klarer."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - html
-  - formulare
-  - labels
-  - validierung
-  - barrierefreiheit
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Begriff
 
 Ein **Formular** ist ein strukturierter Bereich einer Webseite, in dem Nutzer Informationen eingeben, auswählen oder absenden können. Formulare erscheinen bei Kontaktseiten, Suche, Anmeldung, Bestellung, Kommentaren und vielen anderen Interaktionen.

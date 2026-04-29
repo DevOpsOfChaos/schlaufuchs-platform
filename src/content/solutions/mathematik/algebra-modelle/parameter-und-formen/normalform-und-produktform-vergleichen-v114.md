@@ -1,23 +1,14 @@
 ---
-title: Lösung – Normalform und Produktform vergleichen
-description: Musterlösung zur Aufgabe über Normalform und Produktform vergleichen.
-subject: mathematik
-section: Feinstruktur Mathematik
-topicPath:
-- algebra-modelle
-- parameter-und-formen
-- normalform-und-produktform-vergleichen-v114
-taskId: v114-mathematik-normalform-und-produktform-vergleichen-v114
-relatedExercise: mathematik/algebra-modelle/parameter-und-formen/normalform-und-produktform-vergleichen-v114
-tags:
-- mathematik
-- v114
-- loesung
-- algebra-modelle
-- parameter-und-formen
+title: "Lösung – Normalform und Produktform vergleichen"
+description: "Musterlösung zur Aufgabe über Normalform und Produktform vergleichen."
+subject: "mathematik"
+section: "Feinstruktur Mathematik"
+topicPath: ["algebra-modelle", "parameter-und-formen", "normalform-und-produktform-vergleichen-v114"]
+taskId: "v114-mathematik-normalform-und-produktform-vergleichen-v114"
+relatedExercise: "mathematik/algebra-modelle/parameter-und-formen/normalform-und-produktform-vergleichen-v114"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

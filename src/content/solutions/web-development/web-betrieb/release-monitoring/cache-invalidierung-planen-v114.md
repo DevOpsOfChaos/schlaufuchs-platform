@@ -1,23 +1,14 @@
 ---
-title: Lösung – Cache-Invalidierung planen
-description: Musterlösung zur Aufgabe über Cache-Invalidierung planen.
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- web-betrieb
-- release-monitoring
-- cache-invalidierung-planen-v114
-taskId: v114-web-development-cache-invalidierung-planen-v114
-relatedExercise: web-development/web-betrieb/release-monitoring/cache-invalidierung-planen-v114
-tags:
-- web-development
-- v114
-- loesung
-- web-betrieb
-- release-monitoring
+title: "Lösung – Cache-Invalidierung planen"
+description: "Musterlösung zur Aufgabe über Cache-Invalidierung planen."
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["web-betrieb", "release-monitoring", "cache-invalidierung-planen-v114"]
+taskId: "v114-web-development-cache-invalidierung-planen-v114"
+relatedExercise: "web-development/web-betrieb/release-monitoring/cache-invalidierung-planen-v114"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

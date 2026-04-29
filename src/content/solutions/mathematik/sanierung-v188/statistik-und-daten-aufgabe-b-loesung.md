@@ -3,22 +3,12 @@ title: "Lösung: Statistik und Daten: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-066b."
 subject: "mathematik"
 section: "daten-und-geometrie"
-topicPath:
-  - "daten-und-geometrie"
-  - "statistik-und-daten"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "statistik-und-daten-aufgabe-b"]
 taskId: "mat-v188-066b"
 relatedExercise: "mathematik/sanierung-v188/statistik-und-daten-aufgabe-b"
-tags:
-  - "statistik"
-  - "daten"
-  - "interpretation"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "daten-und-geometrie", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-066b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

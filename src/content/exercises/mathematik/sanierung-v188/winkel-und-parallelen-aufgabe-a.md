@@ -3,33 +3,15 @@ title: "Winkel und Parallelen: Grundordnung"
 description: "Ordne Winkel und Parallelen in Zweck, Prüffragen und Fehlerquellen."
 subject: "mathematik"
 section: "geometrie-messen-und-begruenden"
-topicPath:
-  - "geometrie-messen-und-begruenden"
-  - "winkel-und-parallelen"
-  - "aufgabe-a"
+topicPath: ["sanierung-v188", "winkel-und-parallelen-aufgabe-a"]
 taskId: "mat-v188-023a"
-tags:
-  - "winkel"
-  - "parallelen"
-  - "geometrie"
-  - "mathematik"
-  - "aufgabe"
-  - "v188"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["mathematik", "geometrie-messen-und-begruenden", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Du arbeitest am Thema **Winkel und Parallelen**. Erstelle eine kurze, geordnete Erklärung für eine lernende Person.

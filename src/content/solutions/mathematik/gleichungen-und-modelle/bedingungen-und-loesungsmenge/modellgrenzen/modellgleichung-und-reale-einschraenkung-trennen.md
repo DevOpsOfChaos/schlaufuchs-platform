@@ -3,23 +3,12 @@ title: "Lösung – Modellgleichung und reale Einschränkung trennen"
 description: "Musterlösung zu Modellgrenzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "gleichungen-und-modelle"
-  - "bedingungen-und-loesungsmenge"
-  - "modellgrenzen"
-  - "modellgleichung-und-reale-einschraenkung-trennen"
+topicPath: ["gleichungen-und-modelle", "bedingungen-und-loesungsmenge", "modellgrenzen", "modellgleichung-und-reale-einschraenkung-trennen"]
 taskId: "v111-mathematik-modellgleichung-und-reale-einschraenkung-trennen"
 relatedExercise: "mathematik/gleichungen-und-modelle/bedingungen-und-loesungsmenge/modellgrenzen/modellgleichung-und-reale-einschraenkung-trennen"
-tags:
-  - "mathematik"
-  - "prüfung"
-  - "unterthema"
-  - "gleichungen-und-modelle"
-  - "bedingungen-und-loesungsmenge"
-  - "modellgleichung-und-reale-einschraenkung-trennen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Modellgrenzen**.

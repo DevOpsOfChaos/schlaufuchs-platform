@@ -1,34 +1,19 @@
 ---
 title: "Paketverwaltung"
 description: "Überblick über Paketverwaltung als geregelte Installation, Aktualisierung und Entfernung von Software auf Linux-Systemen."
-subject: linux
+subject: "linux"
 section: "Systempflege"
-topicPath:
-  - "paketverwaltung"
-  - "ueberblick"
-learningGoals:
-  - "Du verstehst Pakete als verwaltete Softwareeinheiten."
-  - "Du kennst Repositories, Abhängigkeiten und Updates als Grundbegriffe."
-  - "Du kannst Paketverwaltung von manueller Installation abgrenzen."
+topicPath: ["paketverwaltung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Software beliebig manuell am Paketmanager vorbei zu installieren."
-  - "Updates ohne Blick auf Abhängigkeiten oder Dienste einzuspielen."
-keyTakeaways:
-  - "Paketverwaltung hält Software und Abhängigkeiten nachvollziehbar."
-  - "Repositories bestimmen, welche Versionen vertrauenswürdig bezogen werden."
-recognizeSignals:
-  - "Es geht um apt, dnf, pacman, install, update, upgrade, Repositories oder Abhängigkeiten."
-selfCheckPoints:
-  - "Kann ich erklären, warum ein Paketmanager Abhängigkeiten kennt?"
-level: einfach
-tags:
-  - "linux"
-  - "paketverwaltung"
-  - "systempflege"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Systempflege"]
 draft: false
 ---
-
 # Paketverwaltung
 
 ![Schaubild zur Paketverwaltung.](/schlaufuchs-platform/images/overviews/v148/paketverwaltung.svg)

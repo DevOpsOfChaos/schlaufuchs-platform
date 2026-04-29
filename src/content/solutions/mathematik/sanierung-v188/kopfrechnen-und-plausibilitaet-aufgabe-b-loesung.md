@@ -3,22 +3,12 @@ title: "Lösung: Kopfrechnen und Plausibilität: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-058b."
 subject: "mathematik"
 section: "rechnen-und-schaetzen"
-topicPath:
-  - "rechnen-und-schaetzen"
-  - "kopfrechnen-und-plausibilitaet"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "kopfrechnen-und-plausibilitaet-aufgabe-b"]
 taskId: "mat-v188-058b"
 relatedExercise: "mathematik/sanierung-v188/kopfrechnen-und-plausibilitaet-aufgabe-b"
-tags:
-  - "kopfrechnen"
-  - "schaetzen"
-  - "plausibilitaet"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "rechnen-und-schaetzen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-058b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

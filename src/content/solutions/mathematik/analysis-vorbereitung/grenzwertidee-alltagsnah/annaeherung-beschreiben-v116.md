@@ -3,22 +3,12 @@ title: "Lösung: Annäherung beschreiben"
 description: "Musterlösung zur Aufgabe „Annäherung beschreiben“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "analysis-vorbereitung"
-  - "grenzwertidee-alltagsnah"
-  - "annaeherung-beschreiben-v116"
+topicPath: ["analysis-vorbereitung", "grenzwertidee-alltagsnah", "annaeherung-beschreiben-v116"]
 taskId: "annaeherung-beschreiben-v116"
 relatedExercise: "mathematik/analysis-vorbereitung/grenzwertidee-alltagsnah/annaeherung-beschreiben-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "grenzwertidee alltagsnah"
-  - "annaeherung beschreiben"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

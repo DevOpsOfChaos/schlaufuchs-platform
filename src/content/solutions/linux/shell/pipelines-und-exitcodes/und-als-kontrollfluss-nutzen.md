@@ -3,21 +3,12 @@ title: "Lösung – && und || als Kontrollfluss nutzen"
 description: "Musterlösung zu && und || als kontrollfluss nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "pipelines-und-exitcodes"
-  - "und-als-kontrollfluss-nutzen"
+topicPath: ["shell", "pipelines-und-exitcodes", "und-als-kontrollfluss-nutzen"]
 taskId: "v112-linux-und-als-kontrollfluss-nutzen"
 relatedExercise: "linux/shell/pipelines-und-exitcodes/und-als-kontrollfluss-nutzen"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "und-als-kontrollfluss-nutzen"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Pipelines und Exitcodes**.

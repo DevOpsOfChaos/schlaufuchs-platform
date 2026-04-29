@@ -3,35 +3,15 @@ title: "Aufgabe – DNS-Fehler von Verbindungsfehler trennen"
 description: "Übe DNS und Verbindung mit Szenario, Trennkante und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "netzwerk-und-ssh"
-  - "verbindungen-und-diagnose"
-  - "dns"
-  - "dns-fehler-von-verbindungsfehler-trennen"
+topicPath: ["netzwerk-und-ssh", "verbindungen-und-diagnose", "dns", "dns-fehler-von-verbindungsfehler-trennen"]
 taskId: "v111-linux-dns-fehler-von-verbindungsfehler-trennen"
-tags:
-  - "linux"
-  - "betrieb"
-  - "unterthema"
-  - "netzwerk-und-ssh"
-  - "verbindungen-und-diagnose"
-  - "dns-fehler-von-verbindungsfehler-trennen"
-hintPoints:
-  - "Benenne zuerst das genaue Unterthema."
-  - "Schreibe die typische Verwechslung ausdrücklich auf."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Lösung enger als ein breites Kapitel?"
-  - "Wird ein Nachbarthema sauber ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere eine zweite Aufgabe im gleichen Unterthema mit anderer Oberfläche."
-reflectionPrompt: "Welche kleine Trennkante macht DNS und Verbindung übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["linux", "Feinstruktur Linux", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **DNS und Verbindung**.

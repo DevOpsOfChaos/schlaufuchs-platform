@@ -1,12 +1,17 @@
 ---
-title: Exponentialwachstum und Zerfall
-description: Diese Aufgabe verbindet Wachstumsfaktoren, Zerfallsprozesse und die saubere Deutung von Exponentialfunktionen.
-subject: mathematik
-section: Funktionen
-level: mittel
+title: "Exponentialwachstum und Zerfall"
+description: "Diese Aufgabe verbindet Wachstumsfaktoren, Zerfallsprozesse und die saubere Deutung von Exponentialfunktionen."
+subject: "mathematik"
+section: "Funktionen"
+topicPath: ["exponentialwachstum-und-zerfall"]
+taskId: "AUTO-EXPONENTIALWACHSTUM-UND-ZERFALL"
+tags: ["mathematik", "Funktionen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben schrittweise. Achte besonders darauf, Anfangswert, Faktor und Veränderungsart sauber zu unterscheiden.

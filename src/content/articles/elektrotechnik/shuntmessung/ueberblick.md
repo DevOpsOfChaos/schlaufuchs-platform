@@ -1,33 +1,19 @@
 ---
 title: "Shuntmessung"
 description: "Bei der Shuntmessung wird Strom über den Spannungsabfall an einem kleinen Messwiderstand bestimmt. Das Verfahren ist einfach, aber empfindlich gegenüber Verlustleistung, Offset und Leitungsführung."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik und Mikrocontroller"
-topicPath:
-  - "shuntmessung"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Shuntmessung."
-  - "Du kannst Shuntmessung in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["shuntmessung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Einen Shunt nur nach Widerstandswert zu wählen und Leistung sowie Messbereich zu vergessen."
-keyTakeaways:
-  - "Bei der Shuntmessung wird Strom über den Spannungsabfall an einem kleinen Messwiderstand bestimmt."
-  - "Wichtig sind vor allem ohmsches gesetz als messprinzip, high-side- und low-side-messung und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Shuntmessung, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Shuntmessung dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "grundlagen"
-  - "shuntmessung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik und Mikrocontroller"]
 draft: false
 ---
-
 # Shuntmessung
 
 Bei der Shuntmessung wird Strom über den Spannungsabfall an einem kleinen Messwiderstand bestimmt. Das Verfahren ist einfach, aber empfindlich gegenüber Verlustleistung, Offset und Leitungsführung. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

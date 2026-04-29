@@ -1,37 +1,19 @@
 ---
 title: "Verteilte Systeme"
 description: "Überblick über verteilte Systeme, Kommunikation, Ausfälle und Konsistenz über mehrere Rechner hinweg."
-subject: informatik
+subject: "informatik"
 section: "Systeme"
-topicPath:
-  - "verteilte-systeme"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Verteilte Systeme als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["verteilte-systeme", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Netzwerkaufrufe werden oft behandelt, als seien sie so zuverlässig wie lokale Funktionsaufrufe."
-keyTakeaways:
-  - "Verteilte Systeme bestehen aus kooperierenden Knoten."
-  - "Netzwerk und Teilausfälle sind zentrale Herausforderungen."
-  - "Konsistenz und Wiederholbarkeit müssen bewusst entworfen werden."
-recognizeSignals:
-  - "Mehrere Dienste arbeiten zusammen."
-  - "Fehler entstehen durch Timeouts, Wiederholungen oder uneinheitliche Daten."
-selfCheckPoints:
-  - "Kann ich Verteilte Systeme in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "verteilte systeme"
-  - "netzwerk"
-  - "architektur"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Systeme"]
 draft: false
 ---
-
 # Verteilte Systeme
 
 Ein verteiltes System besteht aus mehreren Rechnern oder Diensten, die gemeinsam eine Aufgabe erfüllen und über Netzwerk kommunizieren.

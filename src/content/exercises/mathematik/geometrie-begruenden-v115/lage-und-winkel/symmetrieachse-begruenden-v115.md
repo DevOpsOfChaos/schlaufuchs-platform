@@ -1,36 +1,17 @@
 ---
 title: "Aufgabe: Symmetrieachse begründen"
 description: "Trainiere Symmetrieachse begründen an einem kleinen, klar abgegrenzten Fall."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "geometrie-begruenden-v115"
-  - "lage-und-winkel"
-  - "symmetrieachse-begruenden-v115"
+topicPath: ["geometrie-begruenden-v115", "lage-und-winkel", "symmetrieachse-begruenden-v115"]
 taskId: "mathematik-symmetrieachse-begruenden-v115"
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "geometrisch begründen"
-  - "lage und winkel"
-  - "aufgabe"
-hintPoints:
-  - "Grenze zuerst den kleinen Fall vom breiten Themenfeld ab."
-  - "Nutze die Prüffrage: Fallen passende Punkte nach dem Spiegeln wirklich zusammen?"
-  - "Begründe mit zwei konkreten Hinweisen aus dem Fall."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-transferIdeas:
-  - "Übertrage dieselbe Trennkante auf ein eigenes Mini-Beispiel."
-  - "Formuliere einen Gegenfall, der ähnlich aussieht, aber anders entschieden wird."
-reflectionPrompt: "Was war bei „Symmetrieachse begründen“ die wichtigste Trennkante?"
-level: mittel
+tags: ["mathematik", "Feinstruktur Mathematik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den folgenden Fall zu **Symmetrieachse begründen**.

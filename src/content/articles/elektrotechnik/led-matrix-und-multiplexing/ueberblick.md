@@ -1,35 +1,17 @@
 ---
 title: "LED-Matrix und Multiplexing"
 description: "Überblick über LED-Matrizen, Multiplexing und die Trennung von Spitzenstrom, Durchschnittshelligkeit und Ansteuerlogik."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Digitale Eingänge und Ausgänge"
-topicPath:
-  - "led-matrix-und-multiplexing"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst LED-Matrix und Multiplexing als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["led-matrix-und-multiplexing", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird die Helligkeit nur über den Vorwiderstand betrachtet. Beim Multiplexing zählt zusätzlich das Tastverhältnis."
-keyTakeaways:
-  - "Eine LED-Matrix fasst viele LEDs in Zeilen und Spalten zusammen und schaltet sie zeitlich nacheinander."
-  - "Multiplexing spart Pins und Treiberkanäle, nutzt aber die Trägheit der menschlichen Wahrnehmung, um eine scheinbar gleichzeitige Anzeige zu erzeugen."
-  - "Eine LED-Matrix ist keine einfache Parallelschaltung vieler LEDs. Ohne Strombegrenzung und geeignete Treiber werden Pins oder LEDs überlastet."
-recognizeSignals:
-  - "Es geht um LED-Matrix und Multiplexing, wenn nur ein Teil der LEDs ist zu einem Zeitpunkt aktiv."
-  - "Das Thema wird relevant, wenn Beispiele wie bei einer 8x8-Matrix wird zeilenweise gescannt; jede Zeile leuchtet nur einen Bruchteil der Zeit."
-selfCheckPoints:
-  - "Kann ich LED-Matrix und Multiplexing in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "led"
-  - "matrix"
-  - "multiplexing"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Digitale Eingänge und Ausgänge"]
 draft: false
 ---
 # LED-Matrix und Multiplexing

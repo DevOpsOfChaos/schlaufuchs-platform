@@ -3,23 +3,12 @@ title: "Lösung – fetch mit AbortController abbrechbar machen"
 description: "Musterlösung zu AbortController mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "async-und-fehlerbehandlung"
-  - "abortcontroller"
-  - "fetch-mit-abortcontroller-abbrechbar-machen"
+topicPath: ["javascript", "async-und-fehlerbehandlung", "abortcontroller", "fetch-mit-abortcontroller-abbrechbar-machen"]
 taskId: "v108-web-development-fetch-mit-abortcontroller-abbrechbar-machen"
 relatedExercise: "web-development/javascript/async-und-fehlerbehandlung/abortcontroller/fetch-mit-abortcontroller-abbrechbar-machen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "javascript"
-  - "async-und-fehlerbehandlung"
-  - "abortcontroller"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **AbortController**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

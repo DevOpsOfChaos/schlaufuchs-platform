@@ -3,33 +3,15 @@ title: "HTML – Aufgabe: Sprungziele und Ankerlinks stabil planen"
 description: "Plane drei Ankerlinks für eine lange Übungsseite: Aufgabe, Hinweise und Lösung. Formuliere gute Linktexte und Ziel-IDs."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "linktexte-und-links"
-  - "sprungziele-und-ankerlinks-stabil-planen"
+topicPath: ["html", "linktexte-und-links", "sprungziele-und-ankerlinks-stabil-planen"]
 taskId: "wd-v97-sprungziele-und-ankerlinks-stabil-planen"
-tags:
-  - "web development"
-  - "html"
-  - "links"
-  - "anker"
-  - "navigation"
-hintPoints:
-  - "Trenne zuerst sichtbare Wirkung, semantische Bedeutung und technische Umsetzung."
-  - "Begründe deine Entscheidung aus Nutzerperspektive, nicht nur aus Code-Sicht."
-  - "Prüfe am Ende, ob die Lösung ohne Ratespiel verständlich bleibt."
-selfCheckPoints:
-  - "Ist der betroffene UI-Baustein eindeutig benannt?"
-  - "Ist die technische Entscheidung fachlich begründet?"
-  - "Gibt es eine klare Verbesserung gegenüber dem Ausgangszustand?"
-transferIdeas:
-  - "Übertrage die Entscheidung auf eine zweite Komponente derselben Seite."
-  - "Formuliere eine kurze Prüfregel, die ein Team beim Review verwenden könnte."
-reflectionPrompt: "Welche kleine Änderung hätte hier die größte Wirkung auf Verständlichkeit oder Zugänglichkeit?"
+tags: ["web-development", "HTML", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Ausgangslage
 
 Plane drei Ankerlinks für eine lange Übungsseite: Aufgabe, Hinweise und Lösung. Formuliere gute Linktexte und Ziel-IDs.

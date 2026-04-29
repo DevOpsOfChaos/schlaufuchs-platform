@@ -1,23 +1,14 @@
 ---
-title: Lösung – Rückgabewert und Ausgabe trennen
-description: Musterlösung zur Aufgabe über Rückgabewert und Ausgabe trennen.
-subject: informatik
-section: Feinstruktur Informatik
-topicPath:
-- programmierpraxis
-- funktionen-und-schnittstellen
-- rueckgabewert-und-ausgabe-trennen-v114
-taskId: v114-informatik-rueckgabewert-und-ausgabe-trennen-v114
-relatedExercise: informatik/programmierpraxis/funktionen-und-schnittstellen/rueckgabewert-und-ausgabe-trennen-v114
-tags:
-- informatik
-- v114
-- loesung
-- programmierpraxis
-- funktionen-und-schnittstellen
+title: "Lösung – Rückgabewert und Ausgabe trennen"
+description: "Musterlösung zur Aufgabe über Rückgabewert und Ausgabe trennen."
+subject: "informatik"
+section: "Feinstruktur Informatik"
+topicPath: ["programmierpraxis", "funktionen-und-schnittstellen", "rueckgabewert-und-ausgabe-trennen-v114"]
+taskId: "v114-informatik-rueckgabewert-und-ausgabe-trennen-v114"
+relatedExercise: "informatik/programmierpraxis/funktionen-und-schnittstellen/rueckgabewert-und-ausgabe-trennen-v114"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

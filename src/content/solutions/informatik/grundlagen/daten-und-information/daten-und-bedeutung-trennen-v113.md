@@ -3,20 +3,12 @@ title: "Lösung – Daten und Bedeutung trennen"
 description: "Musterlösung zu Daten und Bedeutung trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "grundlagen"
-  - "daten-und-information"
-  - "daten-und-bedeutung-trennen-v113"
+topicPath: ["grundlagen", "daten-und-information", "daten-und-bedeutung-trennen-v113"]
 taskId: "v113-informatik-daten-und-bedeutung-trennen-v113"
 relatedExercise: "informatik/grundlagen/daten-und-information/daten-und-bedeutung-trennen-v113"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "daten-und-bedeutung-trennen-v113"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Daten und Bedeutung trennen**.

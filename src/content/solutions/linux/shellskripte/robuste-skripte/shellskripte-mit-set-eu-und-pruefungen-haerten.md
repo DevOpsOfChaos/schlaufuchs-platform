@@ -3,23 +3,12 @@ title: "Lösung – Shellskripte mit set -eu und Prüfungen härten"
 description: "Musterlösung zur Aufgabe über Skriptrobustheit mit Begründung und Gegenprobe."
 subject: "linux"
 section: "Shellskripte"
-topicPath:
-  - "shellskripte"
-  - "robuste-skripte"
-  - "shellskripte-mit-set-eu-und-pruefungen-haerten"
+topicPath: ["shellskripte", "robuste-skripte", "shellskripte-mit-set-eu-und-pruefungen-haerten"]
 taskId: "v106-linux-shellskripte-mit-set-eu-und-pruefungen-haerten"
 relatedExercise: "linux/shellskripte/robuste-skripte/shellskripte-mit-set-eu-und-pruefungen-haerten"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "praxis"
-  - "skriptrobustheit"
-  - "shellskripte"
-  - "robuste-skripte"
+tags: ["linux", "Shellskripte", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Beobachtung

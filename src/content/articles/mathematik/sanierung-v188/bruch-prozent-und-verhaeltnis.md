@@ -3,38 +3,17 @@ title: "Bruch, Prozent und Verhältnis"
 description: "Brüche, Prozente und Verhältnisse beschreiben Anteile aus unterschiedlichen Blickwinkeln."
 subject: "mathematik"
 section: "rechenstrategien-und-kontrolle"
-topicPath:
-  - "rechenstrategien-und-kontrolle"
-  - "bruch-prozent-und-verhaeltnis"
-learningGoals:
-  - "Brüche, Prozente und Verhältnisse beschreiben Anteile aus unterschiedlichen Blickwinkeln fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Brüche, Prozente und Verhältnisse beschreiben Anteile aus unterschiedlichen Blickwinkeln wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v188", "bruch-prozent-und-verhaeltnis"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "bruch"
-  - "prozent"
-  - "verhaeltnis"
-  - "mathematik"
-  - "v188"
+tags: ["mathematik", "rechenstrategien-und-kontrolle"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Bruch, Prozent und Verhältnis](/schlaufuchs-platform/images/mathematik/sanierung-188/bruch-prozent-und-verhaeltnis.svg)
 
 ## Überblick

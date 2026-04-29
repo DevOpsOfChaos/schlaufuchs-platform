@@ -1,45 +1,19 @@
 ---
-title: Background-Size Cover und Contain verstehen
-description: Verstehe, warum Hintergrundbilder mit cover und contain unterschiedlich in ihre Fläche eingepasst werden und welche sichtbaren Folgen das hat.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - background-size-cover-und-contain-verstehen
-learningGoals:
-  - Du erklärst den Unterschied zwischen cover und contain.
-  - Du beschreibst, ob eher Zuschnitt oder freier Rand entsteht.
-  - Du liest Bildanpassung eher über Fläche und Verhältnis als über bloße Größe.
-practiceIdeas:
-  - Vergleiche eine Hero-Fläche mit einem Logoslot oder Vorschaurahmen.
-  - Prüfe, ob das Bild die Fläche komplett füllen oder vollständig sichtbar bleiben soll.
-  - Achte bei kleinen Demos darauf, ob Ränder oder Zuschnitte entstehen.
-commonMistakes:
-  - cover mit contain zu verwechseln.
-  - zu erwarten, dass jedes Bild ohne Kompromiss komplett sichtbar und vollflächig sein kann.
-  - die Rolle des Seitenverhältnisses zu ignorieren.
-keyTakeaways:
-  - cover füllt die Fläche vollständig und nimmt dafür oft Zuschnitt in Kauf.
-  - contain zeigt das ganze Bild und nimmt dafür oft freie Ränder in Kauf.
-  - Die richtige Wahl hängt vom Ziel der Fläche ab, nicht nur vom Bild selbst.
-recognizeSignals:
-  - Es geht um Headerbilder, Kacheln, Teaserflächen oder visuelle Hintergründe.
-  - Du sollst erklären, warum ein Bild beschnitten wirkt oder warum leere Fläche übrig bleibt.
-  - In Beispielen ist die Beziehung zwischen Bildverhältnis und Boxgröße zentral.
-selfCheckPoints:
-  - Kann ich cover und contain fachlich unterscheiden?
-  - Kann ich erklären, warum Zuschnitt oder freie Fläche entsteht?
-  - Kann ich eine sinnvolle Entscheidung zwischen cover und contain begründen?
-tags:
-  - css
-  - background-size
-  - images
-  - cover
-level: mittel
+title: "Background-Size Cover und Contain verstehen"
+description: "Verstehe, warum Hintergrundbilder mit cover und contain unterschiedlich in ihre Fläche eingepasst werden und welche sichtbaren Folgen das hat."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "background-size-cover-und-contain-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Hintergrundbild und seine Box haben oft **nicht dasselbe Seitenverhältnis**. Dann muss CSS entscheiden, wie das Bild in die Fläche passt. Genau dafür ist `background-size` mit Werten wie `cover` und `contain` wichtig.

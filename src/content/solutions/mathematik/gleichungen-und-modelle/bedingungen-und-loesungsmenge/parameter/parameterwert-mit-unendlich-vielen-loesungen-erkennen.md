@@ -3,23 +3,12 @@ title: "Lösung – Parameterwert mit unendlich vielen Lösungen erkennen"
 description: "Musterlösung zu Parameter und Lösungsanzahl mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "gleichungen-und-modelle"
-  - "bedingungen-und-loesungsmenge"
-  - "parameter"
-  - "parameterwert-mit-unendlich-vielen-loesungen-erkennen"
+topicPath: ["gleichungen-und-modelle", "bedingungen-und-loesungsmenge", "parameter", "parameterwert-mit-unendlich-vielen-loesungen-erkennen"]
 taskId: "v111-mathematik-parameterwert-mit-unendlich-vielen-loesungen-erkennen"
 relatedExercise: "mathematik/gleichungen-und-modelle/bedingungen-und-loesungsmenge/parameter/parameterwert-mit-unendlich-vielen-loesungen-erkennen"
-tags:
-  - "mathematik"
-  - "prüfung"
-  - "unterthema"
-  - "gleichungen-und-modelle"
-  - "bedingungen-und-loesungsmenge"
-  - "parameterwert-mit-unendlich-vielen-loesungen-erkennen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Parameter und Lösungsanzahl**.

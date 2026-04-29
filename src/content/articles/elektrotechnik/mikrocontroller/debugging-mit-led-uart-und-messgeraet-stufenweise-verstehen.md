@@ -1,46 +1,19 @@
 ---
-title: Debugging mit LED, UART und Messgerät stufenweise verstehen
-description: Verstehe, warum Fehlersuche bei Mikrocontrollern am ruhigsten wird, wenn Sichtbarkeit in Stufen aufgebaut wird – von der LED über UART bis zur Messung an echten Signalen.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - debugging-mit-led-uart-und-messgeraet-stufenweise-verstehen
-learningGoals:
-  - Du beschreibst Fehlersuche bei Mikrocontrollern als Sichtbarkeitsproblem statt als bloßes Rätselraten.
-  - Du ordnest LED, UART und Messgerät als unterschiedliche Diagnoseebenen ein.
-  - Du planst Debugging eher stufenweise als alles gleichzeitig.
-practiceIdeas:
-  - Überlege bei einem Fehlerfall zuerst, welche Beobachtung überhaupt fehlt.
-  - Vergleiche eine reine LED-Diagnose mit einer UART-Ausgabe und einer Messung am Signal.
-  - Formuliere einen Debug-Schritt immer so, dass danach eine neue sichtbare Information entsteht.
-commonMistakes:
-  - Alles gleichzeitig zu ändern und dadurch Ursache und Wirkung zu vermischen.
-  - Direkt sehr komplex zu messen, obwohl eine einfache LED-Frage noch ungeklärt ist.
-  - Fehlersuche nur im Code zu suchen, ohne Beobachtbarkeit der Hardware zu verbessern.
-keyTakeaways:
-  - Gutes Debugging baut Sichtbarkeit in Stufen auf.
-  - LED, UART und Messgerät beantworten unterschiedliche Arten von Fragen.
-  - "Die ruhigste Fehlersuche fragt immer: Welche zusätzliche Beobachtung brauche ich als Nächstes?"
-recognizeSignals:
-  - Es geht um Inbetriebnahme, Fehlersuche, unerwartete Zustände oder schwer sichtbare Abläufe.
-  - Du sollst erklären, wie man Unsichtbares Schritt für Schritt beobachtbar macht.
-  - In Aufgaben ist die Reihenfolge der Diagnose wichtiger als ein einzelnes Werkzeug.
-selfCheckPoints:
-  - Kann ich LED, UART und Messgerät als verschiedene Diagnoseebenen erklären?
-  - Kann ich begründen, welches Werkzeug für welche Frage ruhiger ist?
-  - Kann ich einen Debug-Ablauf in sinnvolle Stufen gliedern?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - debugging
-  - uart
-  - oszilloskop
-level: mittel
+title: "Debugging mit LED, UART und Messgerät stufenweise verstehen"
+description: "Verstehe, warum Fehlersuche bei Mikrocontrollern am ruhigsten wird, wenn Sichtbarkeit in Stufen aufgebaut wird – von der LED über UART bis zur Messung an echten Signalen."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "debugging-mit-led-uart-und-messgeraet-stufenweise-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller"]
 draft: false
 ---
-
 ## Grundidee
 
 Mikrocontroller-Fehlersuche ist oft kein reines "Codeproblem", sondern ein **Sichtbarkeitsproblem**. Das System tut etwas – aber du siehst noch nicht ruhig genug, **was**, **wann** und **wo** es passiert. Darum wird Debugging am besten in Stufen aufgebaut.

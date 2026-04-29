@@ -1,31 +1,17 @@
 ---
 title: "Funktion als Zuordnung"
 description: "Grundlegender Überblick über Funktionen als eindeutige Zuordnungen zwischen Eingaben und Ausgaben."
-subject: mathematik
+subject: "mathematik"
 section: "Analysis"
-topicPath:
-  - "funktion-als-zuordnung"
-learningGoals:
-  - "Du verstehst Funktionen als eindeutige Zuordnungen."
-  - "Du kannst Eingabe, Ausgabe, Definitionsmenge und Wertemenge unterscheiden."
-  - "Du erkennst verschiedene Darstellungen derselben Funktion."
+topicPath: ["funktion-als-zuordnung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Jeden Graphen automatisch als Funktion zu betrachten."
-  - "Funktionsgleichung und Funktion gleichzusetzen."
-keyTakeaways:
-  - "Eine Funktion ordnet jedem erlaubten Eingabewert genau einen Ausgabewert zu."
-  - "Tabellen, Graphen, Worte und Formeln können dieselbe Funktion beschreiben."
-recognizeSignals:
-  - "Es geht um x-Werte, y-Werte, Graphen, Tabellen oder Zuordnungen."
-selfCheckPoints:
-  - "Kann ich erklären, warum ein x-Wert nicht zwei verschiedene y-Werte haben darf?"
-level: einfach
-tags:
-  - "mathematik"
-  - "funktionen"
-  - "zuordnung"
-  - "graphen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Analysis"]
 draft: false
 ---
 # Funktion als Zuordnung

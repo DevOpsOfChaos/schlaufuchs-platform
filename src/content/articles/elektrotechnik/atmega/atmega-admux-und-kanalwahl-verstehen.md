@@ -1,46 +1,19 @@
 ---
-title: ATmega – ADMUX und Kanalwahl verstehen
-description: Verstehe, wie am AVR über ADMUX Referenz und Eingangskanal für eine ADC-Messung ausgewählt werden.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - adc-und-analoge-eingaenge
-  - atmega-admux-und-kanalwahl-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von ADMUX für Referenz und Kanalwahl.
-  - Du unterscheidest Messquelle und Spannungsreferenz fachlich sauber.
-  - Du liest einfache ADC-Konfigurationen ruhiger als Auswahlproblem statt als Bitdschungel.
-practiceIdeas:
-  - Prüfe bei ADC-Code getrennt, welcher Kanal gemessen wird und welche Referenz gilt.
-  - Vergleiche zwei ADMUX-Einstellungen mit gleicher Referenz, aber anderem Kanal.
-  - Übersetze kleine Registerwerte zuerst in Messfrage und dann in Bitfelder.
-commonMistakes:
-  - Eingangskanal und Referenzspannung miteinander zu verwechseln.
-  - Zu denken, ADMUX starte schon selbst die Messung.
-  - Nur Bitnamen zu lernen, aber die eigentliche Messfrage nicht mitzudenken.
-keyTakeaways:
-  - ADMUX wählt, gegen welche Referenz gemessen wird und welcher Analogeingang gerade aktiv ist.
-  - Kanalwahl und Referenzwahl sind zwei verschiedene Entscheidungen.
-  - Wer zuerst die Messfrage formuliert, liest ADMUX deutlich ruhiger.
-recognizeSignals:
-  - Es geht um ADMUX, REFS-Bits, MUX-Bits oder ADC-Kanalwechsel.
-  - Du sollst erklären, warum nicht immer dieselbe Spannungsquelle gemessen wird.
-  - In Codebeispielen wird zwischen Referenz und Eingangsauswahl unterschieden.
-selfCheckPoints:
-  - Kann ich Referenz und Messkanal sauber trennen?
-  - Kann ich erklären, warum ADMUX noch nicht automatisch die Messung startet?
-  - Kann ich eine ADC-Konfiguration als Messfrage lesen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - avr
-  - adc
-level: mittel
+title: "ATmega – ADMUX und Kanalwahl verstehen"
+description: "Verstehe, wie am AVR über ADMUX Referenz und Eingangskanal für eine ADC-Messung ausgewählt werden."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-admux-und-kanalwahl-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 Bei einer ADC-Messung am AVR müssen mindestens zwei Fragen sauber beantwortet werden: **Gegen welche Referenz wird gemessen?** und **welcher Analogeingang wird gerade ausgewählt?** Genau diese Auswahl liegt typischerweise in `ADMUX`.
 
 <div class="example-card">

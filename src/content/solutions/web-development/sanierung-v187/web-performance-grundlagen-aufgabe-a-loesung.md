@@ -3,23 +3,12 @@ title: "Lösung: Web-Performance-Grundlagen: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-025a im Web-Development-Block v187."
 subject: "web-development"
 section: "qualitaet"
-topicPath: 
-  - "qualitaet-und-zugaenglichkeit"
-  - "performance"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "web-performance-grundlagen-aufgabe-a"]
 taskId: "web-v187-025a"
 relatedExercise: "web-development/sanierung-v187/web-performance-grundlagen-aufgabe-a"
-tags: 
-  - "performance"
-  - "ladezeit"
-  - "bilder"
-  - "css"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "qualitaet", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-025a`
 
     Ausgangsauftrag: Erstelle eine Prioritätenliste für die Performance einer bildreichen Startseite.

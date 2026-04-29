@@ -1,28 +1,17 @@
 ---
 title: "High-Side und Low-Side am Strompfad unterscheiden"
 description: "Unterscheide zwei Lastschaltungen anhand des tatsächlichen Strompfads."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schaltungen"
-topicPath:
-  - schaltungen
-  - high-side-und-low-side-schalten
-taskId: ET-V182-009
-tags:
-  - elektrotechnik
-  - high-side-und-low-side-schalten
-  - sanierung-v182
-hintPoints:
-  - "Lies zuerst den Normalzustand und danach den Fehlerfall."
-  - "Trenne Beobachtung, Vermutung und Gegenprobe."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["schaltungen", "high-side-und-low-side-schalten", "high-side-und-low-side-am-strompfad-unterscheiden"]
+taskId: "ET-V182-009"
+tags: ["elektrotechnik", "Schaltungen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **High-Side und Low-Side schalten** ruhig und schrittweise.

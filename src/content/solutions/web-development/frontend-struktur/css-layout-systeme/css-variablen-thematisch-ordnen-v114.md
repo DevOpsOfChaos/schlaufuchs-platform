@@ -1,23 +1,14 @@
 ---
-title: Lösung – CSS-Variablen thematisch ordnen
-description: Musterlösung zur Aufgabe über CSS-Variablen thematisch ordnen.
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- frontend-struktur
-- css-layout-systeme
-- css-variablen-thematisch-ordnen-v114
-taskId: v114-web-development-css-variablen-thematisch-ordnen-v114
-relatedExercise: web-development/frontend-struktur/css-layout-systeme/css-variablen-thematisch-ordnen-v114
-tags:
-- web-development
-- v114
-- loesung
-- frontend-struktur
-- css-layout-systeme
+title: "Lösung – CSS-Variablen thematisch ordnen"
+description: "Musterlösung zur Aufgabe über CSS-Variablen thematisch ordnen."
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["frontend-struktur", "css-layout-systeme", "css-variablen-thematisch-ordnen-v114"]
+taskId: "v114-web-development-css-variablen-thematisch-ordnen-v114"
+relatedExercise: "web-development/frontend-struktur/css-layout-systeme/css-variablen-thematisch-ordnen-v114"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

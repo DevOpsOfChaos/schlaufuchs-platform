@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Validierungsreihenfolge für Formulardaten begründen
-description: Musterlösung zur Aufgabe INF-PHP-VALID-003.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - serverseitige-validierungsreihenfolge-verstehen
-  - validierungsreihenfolge-fuer-formulardaten-begruenden-loesung
-taskId: INF-PHP-VALID-003
-relatedExercise: src/content/exercises/informatik/programmierung/php/serverseitige-validierungsreihenfolge-verstehen/validierungsreihenfolge-fuer-formulardaten-begruenden.md
-tags:
-  - informatik
-  - loesung
-  - php
-  - task-id
+title: "Musterlösung – Validierungsreihenfolge für Formulardaten begründen"
+description: "Musterlösung zur Aufgabe INF-PHP-VALID-003."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "serverseitige-validierungsreihenfolge-verstehen", "validierungsreihenfolge-fuer-formulardaten-begruenden"]
+taskId: "INF-PHP-VALID-003"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/serverseitige-validierungsreihenfolge-verstehen/validierungsreihenfolge-fuer-formulardaten-begruenden.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Sinnvolle Reihenfolge: Existenzprüfung → Typprüfung → Längen- oder Mengenprüfung → Inhaltsprüfung.

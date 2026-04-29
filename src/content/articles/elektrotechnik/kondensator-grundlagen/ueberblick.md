@@ -1,33 +1,19 @@
 ---
 title: "Kondensator-Grundlagen"
 description: "Allgemeiner Überblick über Kondensatoren als Energiespeicher, Filter- und Entkopplungsbauteile."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Bauteile"
-topicPath:
-  - kondensator-grundlagen
-  - ueberblick
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen und von verwandten Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte und typische Anwendungsfälle."
-  - "Du erkennst häufige Missverständnisse und prüfst Aussagen auf Plausibilität."
+topicPath: ["kondensator-grundlagen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird angenommen, ein Kondensator müsse nur „irgendwo“ in der Schaltung sitzen."
-keyTakeaways:
-  - "Ein Kondensator speichert elektrische Ladung und damit Energie im elektrischen Feld."
-  - "Die genaue Bedeutung hängt vom Zusammenhang, den Einheiten und den Randbedingungen ab."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Begriffe, Beispiele oder Fehlerbilder aus diesem Bereich erklärt und eingeordnet werden sollen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten erklären, ohne sofort eine Spezialaufgabe zu rechnen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "kondensator"
-  - "bauteile"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Bauteile"]
 draft: false
 ---
-
 # Kondensator-Grundlagen
 
 ## Begriff und Zweck

@@ -1,24 +1,14 @@
 ---
 title: "Lösung: tail für laufende Logs verwenden"
 description: "Musterlösung zu tail für laufende Logs verwenden mit Trennkante und Gegenprobe."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell-praxis-v115"
-  - "dateien-finden-lesen"
-  - "tail-fuer-laufende-logs-verwenden-v115"
+topicPath: ["shell-praxis-v115", "dateien-finden-lesen", "tail-fuer-laufende-logs-verwenden-v115"]
 taskId: "linux-tail-fuer-laufende-logs-verwenden-v115"
 relatedExercise: "linux/shell-praxis-v115/dateien-finden-lesen/tail-fuer-laufende-logs-verwenden-v115"
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "shell-praxis"
-  - "dateien finden und lesen"
-  - "lösung"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **tail für laufende Logs verwenden**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

@@ -1,13 +1,19 @@
 ---
-title: Quadratische Funktionen – Grundlagen
-description: Verstehe, wie quadratische Funktionen aufgebaut sind und warum ihr Graph eine Parabel ist.
-subject: mathematik
-section: quadratische-funktionen
-level: einfach
-tags: [quadratische funktionen, parabel, mathematik]
+title: "Quadratische Funktionen – Grundlagen"
+description: "Verstehe, wie quadratische Funktionen aufgebaut sind und warum ihr Graph eine Parabel ist."
+subject: "mathematik"
+section: "quadratische-funktionen"
+topicPath: ["quadratische-funktionen-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["quadratische funktionen", "parabel", "mathematik"]
 draft: false
 ---
-
 Quadratische Funktionen gehören zu den wichtigsten Funktionstypen der Schulmathematik. Sie erweitern die linearen Funktionen um gekrümmte Verläufe und führen direkt in zentrale Ideen wie **Scheitelpunkt**, **Öffnung** und **Nullstellen**.
 
 ## Was ist eine quadratische Funktion?

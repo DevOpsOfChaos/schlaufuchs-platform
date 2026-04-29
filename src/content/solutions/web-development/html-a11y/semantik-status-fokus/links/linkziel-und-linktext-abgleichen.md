@@ -3,23 +3,12 @@ title: "Lösung – Linkziel und Linktext abgleichen"
 description: "Musterlösung zu Linktext mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "html-a11y"
-  - "semantik-status-fokus"
-  - "links"
-  - "linkziel-und-linktext-abgleichen"
+topicPath: ["html-a11y", "semantik-status-fokus", "links", "linkziel-und-linktext-abgleichen"]
 taskId: "v111-web-development-linkziel-und-linktext-abgleichen"
 relatedExercise: "web-development/html-a11y/semantik-status-fokus/links/linkziel-und-linktext-abgleichen"
-tags:
-  - "web development"
-  - "frontend"
-  - "unterthema"
-  - "html-a11y"
-  - "semantik-status-fokus"
-  - "linkziel-und-linktext-abgleichen"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Linktext**.

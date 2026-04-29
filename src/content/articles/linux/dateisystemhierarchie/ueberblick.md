@@ -1,33 +1,19 @@
 ---
 title: "Dateisystemhierarchie"
 description: "Überblick über die hierarchische Struktur typischer Linux-Dateisysteme."
-subject: linux
+subject: "linux"
 section: "Dateien und Verzeichnisse"
-topicPath:
-  - dateisystemhierarchie
-  - ueberblick
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen und von verwandten Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte und typische Anwendungsfälle."
-  - "Du erkennst häufige Missverständnisse und prüfst Aussagen auf Plausibilität."
+topicPath: ["dateisystemhierarchie", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, Systemverzeichnisse wie normale Ablageorte zu behandeln."
-keyTakeaways:
-  - "Linux organisiert Dateien in einer hierarchischen Baumstruktur, die bei `/` beginnt."
-  - "Die genaue Bedeutung hängt vom Zusammenhang, den Einheiten und den Randbedingungen ab."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Begriffe, Beispiele oder Fehlerbilder aus diesem Bereich erklärt und eingeordnet werden sollen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten erklären, ohne sofort eine Spezialaufgabe zu rechnen?"
-level: einfach
-tags:
-  - "linux"
-  - "dateisystem"
-  - "verzeichnisse"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dateien und Verzeichnisse"]
 draft: false
 ---
-
 # Dateisystemhierarchie
 
 ![Schaubild zur Linux-Dateisystemhierarchie.](/schlaufuchs-platform/images/overviews/v149/dateisystemhierarchie.svg)

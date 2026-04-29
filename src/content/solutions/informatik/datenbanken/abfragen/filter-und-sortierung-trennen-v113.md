@@ -3,20 +3,12 @@ title: "Lösung – Filter und Sortierung trennen"
 description: "Musterlösung zu Filter und Sortierung trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenbanken"
-  - "abfragen"
-  - "filter-und-sortierung-trennen-v113"
+topicPath: ["datenbanken", "abfragen", "filter-und-sortierung-trennen-v113"]
 taskId: "v113-informatik-filter-und-sortierung-trennen-v113"
 relatedExercise: "informatik/datenbanken/abfragen/filter-und-sortierung-trennen-v113"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "filter-und-sortierung-trennen-v113"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Filter und Sortierung trennen**.

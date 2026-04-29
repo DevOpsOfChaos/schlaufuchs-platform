@@ -3,26 +3,12 @@ title: "Lösung: Service start, stop und enable: Aufgabe B"
 description: "Musterlösung zur Aufgabe linux-v192-009b im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "prozesse-und-dienste"
-  - "service-start-stop-enable"
-  - "loesung-b"
+topicPath: ["sanierung-v192", "service-start-stop-enable-loesung-b"]
 taskId: "linux-v192-009b"
 relatedExercise: "linux/sanierung-v192/service-start-stop-enable-aufgabe-b"
-tags:
-  - "prozesse-und-dienste"
-  - "service"
-  - "start"
-  - "stop"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-009b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Service start, stop und enable“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

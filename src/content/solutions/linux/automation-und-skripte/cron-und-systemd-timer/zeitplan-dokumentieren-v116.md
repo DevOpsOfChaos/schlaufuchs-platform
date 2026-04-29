@@ -3,22 +3,12 @@ title: "Lösung: Zeitplan dokumentieren"
 description: "Musterlösung zur Aufgabe „Zeitplan dokumentieren“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "automation-und-skripte"
-  - "cron-und-systemd-timer"
-  - "zeitplan-dokumentieren-v116"
+topicPath: ["automation-und-skripte", "cron-und-systemd-timer", "zeitplan-dokumentieren-v116"]
 taskId: "zeitplan-dokumentieren-v116"
 relatedExercise: "linux/automation-und-skripte/cron-und-systemd-timer/zeitplan-dokumentieren-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "cron und systemd timer"
-  - "zeitplan dokumentieren"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Überschlag vor exakter Rechnung nutzen"
 description: "Musterlösung zu Überschlag vor exakter Rechnung nutzen mit Trennkante und Gegenprobe."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "zahlenstrategien-v115"
-  - "ueberschlag-und-plausibilitaet"
-  - "ueberschlag-vor-exakter-rechnung-nutzen-v115"
+topicPath: ["zahlenstrategien-v115", "ueberschlag-und-plausibilitaet", "ueberschlag-vor-exakter-rechnung-nutzen-v115"]
 taskId: "mathematik-ueberschlag-vor-exakter-rechnung-nutzen-v115"
 relatedExercise: "mathematik/zahlenstrategien-v115/ueberschlag-und-plausibilitaet/ueberschlag-vor-exakter-rechnung-nutzen-v115"
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "zahlenstrategien"
-  - "überschlag und plausibilität"
-  - "lösung"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Überschlag vor exakter Rechnung nutzen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

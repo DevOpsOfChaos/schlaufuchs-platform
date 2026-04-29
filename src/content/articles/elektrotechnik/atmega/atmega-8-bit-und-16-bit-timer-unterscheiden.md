@@ -1,46 +1,19 @@
 ---
-title: ATmega – 8-Bit- und 16-Bit-Timer unterscheiden
-description: Verstehe, warum AVR-Timer nicht nur nach Takt, sondern auch nach Zählbereich und Einsatzfall unterschieden werden.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - timer-und-zeitbasis
-  - atmega-8-bit-und-16-bit-timer-unterscheiden
-learningGoals:
-  - Du erklärst den Unterschied zwischen 8-Bit- und 16-Bit-Timern am AVR.
-  - Du beschreibst, warum der Zählbereich den praktischen Einsatz beeinflusst.
-  - Du ordnest Timerwahl eher über Zeitfenster und Auflösung als über bloße Typnamen ein.
-practiceIdeas:
-  - Vergleiche einen kurzen LED-Takt mit einer längeren Zeitmessung.
-  - Prüfe, warum ein größerer Zählbereich nicht automatisch jede Aufgabe besser löst.
-  - Lies Timerwahl als Abwägung zwischen Auflösung, Zählbereich und Aufwand.
-commonMistakes:
-  - Zu denken, alle Timer am AVR seien praktisch gleich.
-  - 16-Bit pauschal als immer besser zu behandeln.
-  - Den Zählbereich nicht mit Zeitbasis und Prescaler zusammen zu lesen.
-keyTakeaways:
-  - 8-Bit- und 16-Bit-Timer unterscheiden sich vor allem im Zählbereich.
-  - Der größere Zählbereich eines 16-Bit-Timers hilft besonders bei längeren Zeiten oder feineren Vergleichen.
-  - Die sinnvolle Timerwahl hängt vom Mess- oder Schaltproblem ab, nicht nur vom größeren Zahlenraum.
-recognizeSignals:
-  - Es geht um Timerwahl, Zählbereich, Überlauf oder Zeitmessung am AVR.
-  - Du sollst erklären, warum ein Timer für eine Aufgabe eher passt als ein anderer.
-  - In Aufgaben müssen Bitbreite, Prescaler und Zeitfenster gemeinsam gedacht werden.
-selfCheckPoints:
-  - Kann ich 8-Bit und 16-Bit fachlich sauber unterscheiden?
-  - Kann ich erklären, warum der Zählbereich praktisch wichtig wird?
-  - Kann ich einen Timer eher nach Einsatzfall als nach Namen auswählen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - timer
-  - zeitbasis
-level: mittel
+title: "ATmega – 8-Bit- und 16-Bit-Timer unterscheiden"
+description: "Verstehe, warum AVR-Timer nicht nur nach Takt, sondern auch nach Zählbereich und Einsatzfall unterschieden werden."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-8-bit-und-16-bit-timer-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 Ein AVR besitzt meist mehrere Timer, aber diese Timer sind **nicht bloß mehrfach dieselbe Idee**. Besonders wichtig ist die Unterscheidung zwischen **8-Bit-Timern** und **16-Bit-Timern**. Sie arbeiten zwar beide mit Zählschritten, unterscheiden sich aber deutlich im Zahlenraum und damit im praktischen Einsatz.
 
 <div class="example-card">

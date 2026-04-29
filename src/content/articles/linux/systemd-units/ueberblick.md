@@ -1,36 +1,19 @@
 ---
 title: "systemd Units"
 description: "Allgemeiner Überblick über systemd Units als Verwaltungseinheiten moderner Linux-Systeme."
-subject: linux
+subject: "linux"
 section: "Dienste"
-topicPath:
-  - "systemd-units"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst systemd Units als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["systemd-units", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird nur der Prozess betrachtet und die Unit-Konfiguration ignoriert."
-keyTakeaways:
-  - "systemd Units beschreiben verwaltete Systemeinheiten."
-  - "Dienste bestehen aus Prozess und Unit-Konfiguration."
-  - "Status, Logs und Abhängigkeiten gehören zusammen."
-recognizeSignals:
-  - "Es geht um systemd Units als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich systemd Units in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "systemd"
-  - "dienste"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dienste"]
 draft: false
 ---
-
 # systemd Units
 
 ![Schaubild zu systemd und Units.](/schlaufuchs-platform/images/overviews/v149/systemd-und-units.svg)

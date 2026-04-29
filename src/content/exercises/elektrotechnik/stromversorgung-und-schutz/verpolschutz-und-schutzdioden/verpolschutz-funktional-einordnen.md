@@ -1,28 +1,17 @@
 ---
 title: "Verpolschutz funktional einordnen"
 description: "Erkläre, was bei falsch angeschlossener Versorgung passieren soll."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Stromversorgung und Schutz"
-topicPath:
-  - stromversorgung-und-schutz
-  - verpolschutz-und-schutzdioden
-taskId: ET-V181-005
-tags:
-  - elektrotechnik
-  - verpolschutz-und-schutzdioden
-  - sanierung-v181
-hintPoints:
-  - "Lies zuerst den Normalzustand und dann den Fehlerfall."
-  - "Trenne elektrische Ebene, logische Bedeutung und praktische Prüfung."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["stromversorgung-und-schutz", "verpolschutz-und-schutzdioden", "verpolschutz-funktional-einordnen"]
+taskId: "ET-V181-005"
+tags: ["elektrotechnik", "Stromversorgung und Schutz", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **Verpolschutz und Schutzdioden** ruhig und schrittweise.

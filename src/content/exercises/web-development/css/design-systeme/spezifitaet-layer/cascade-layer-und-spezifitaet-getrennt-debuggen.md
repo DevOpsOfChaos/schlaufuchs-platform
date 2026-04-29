@@ -3,35 +3,15 @@ title: "Aufgabe – Cascade Layer und Spezifität getrennt debuggen"
 description: "Übe Cascade Layer und Spezifität mit einem kleinen Szenario, Prüfschritt und Gegenprobe."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "design-systeme"
-  - "spezifitaet-layer"
-  - "cascade-layer-und-spezifitaet-getrennt-debuggen"
+topicPath: ["css", "design-systeme", "spezifitaet-layer", "cascade-layer-und-spezifitaet-getrennt-debuggen"]
 taskId: "v109-web-development-cascade-layer-und-spezifitaet-getrennt-debuggen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "css"
-  - "design-systeme"
-  - "cascade layer und spezifität"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Übertrage den Prüfschritt auf ein Nachbarthema und nenne den Unterschied."
-reflectionPrompt: "Welche kleine Trennkante macht Cascade Layer und Spezifität übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Cascade Layer und Spezifität**.

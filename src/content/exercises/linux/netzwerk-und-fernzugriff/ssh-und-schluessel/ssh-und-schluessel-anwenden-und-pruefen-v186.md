@@ -1,29 +1,17 @@
 ---
 title: "SSH und Schlüssel – anwenden und prüfen"
 description: "Übe, SSH und Schlüssel an kleinen Praxissituationen zu prüfen."
-subject: linux
+subject: "linux"
 section: "netzwerk-und-fernzugriff"
-topicPath:
-  - "netzwerk-und-fernzugriff"
-  - "ssh-und-schluessel"
-taskId: LINUX-SSH-UND-SCHLUESSEL-V186-2
-tags:
-  - "linux"
-  - "ssh"
-  - "schluessel"
-  - "aufgabe"
-hintPoints:
-  - "Beginne mit Begriff und Kontext."
-  - "Trenne Beobachtung, Prüfung und mögliche Änderung."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe erklären."
-  - "Ich kann einen typischen Fehler vermeiden."
-transferIdeas:
-  - "Formuliere eine ähnliche Prüfsituation aus deinem eigenen Linux-Alltag."
-level: mittel
+topicPath: ["netzwerk-und-fernzugriff", "ssh-und-schluessel", "ssh-und-schluessel-anwenden-und-pruefen-v186"]
+taskId: "LINUX-SSH-UND-SCHLUESSEL-V186-2"
+tags: ["linux", "netzwerk-und-fernzugriff", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Lernziel
 
 Du sollst **SSH und Schlüssel** nicht nur als Befehl oder Schlagwort sehen, sondern als geordnetes Linux-Thema mit Zweck, Kontext und typischen Prüfschritten.

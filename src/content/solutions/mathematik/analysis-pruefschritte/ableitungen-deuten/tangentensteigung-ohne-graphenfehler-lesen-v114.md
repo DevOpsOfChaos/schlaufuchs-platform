@@ -1,23 +1,14 @@
 ---
-title: Lösung – Tangentensteigung ohne Graphenfehler lesen
-description: Musterlösung zur Aufgabe über Tangentensteigung ohne Graphenfehler lesen.
-subject: mathematik
-section: Feinstruktur Mathematik
-topicPath:
-- analysis-pruefschritte
-- ableitungen-deuten
-- tangentensteigung-ohne-graphenfehler-lesen-v114
-taskId: v114-mathematik-tangentensteigung-ohne-graphenfehler-lesen-v114
-relatedExercise: mathematik/analysis-pruefschritte/ableitungen-deuten/tangentensteigung-ohne-graphenfehler-lesen-v114
-tags:
-- mathematik
-- v114
-- loesung
-- analysis-pruefschritte
-- ableitungen-deuten
+title: "Lösung – Tangentensteigung ohne Graphenfehler lesen"
+description: "Musterlösung zur Aufgabe über Tangentensteigung ohne Graphenfehler lesen."
+subject: "mathematik"
+section: "Feinstruktur Mathematik"
+topicPath: ["analysis-pruefschritte", "ableitungen-deuten", "tangentensteigung-ohne-graphenfehler-lesen-v114"]
+taskId: "v114-mathematik-tangentensteigung-ohne-graphenfehler-lesen-v114"
+relatedExercise: "mathematik/analysis-pruefschritte/ableitungen-deuten/tangentensteigung-ohne-graphenfehler-lesen-v114"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

@@ -1,13 +1,19 @@
 ---
-title: C – Grundlagen
-description: Verstehe Aufbau, Variablen und erste Ausgaben in C.
-subject: informatik
-section: c-grundlagen
-level: mittel
-tags: [c, grundlagen, programmierung]
+title: "C – Grundlagen"
+description: "Verstehe Aufbau, Variablen und erste Ausgaben in C."
+subject: "informatik"
+section: "c-grundlagen"
+topicPath: ["c-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["c", "grundlagen", "programmierung"]
 draft: false
 ---
-
 C ist eine strukturierte Programmiersprache mit klarem Aufbau. Gerade im Einstieg hilft sie dabei, Programme bewusst zu lesen und ihre Bestandteile genau zu unterscheiden.
 
 ## Woraus besteht ein einfaches C-Programm?

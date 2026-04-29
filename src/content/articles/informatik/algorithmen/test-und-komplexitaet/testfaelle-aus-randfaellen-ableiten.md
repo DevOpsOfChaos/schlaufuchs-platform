@@ -3,45 +3,17 @@ title: "Informatik – Testfälle aus Randfällen ableiten"
 description: "Leite Tests aus leeren Eingaben, Minimalfällen, Maximalfällen und typischen Übergängen ab, statt nur Beispielwerte zu prüfen."
 subject: "informatik"
 section: "Algorithmen"
-topicPath:
-  - "algorithmen"
-  - "test-und-komplexitaet"
-  - "testfaelle-aus-randfaellen-ableiten"
-learningGoals:
-  - "Du erklärst die Kernidee von „Testfälle“ in eigenen Worten."
-  - "Du ordnest das Thema einem klaren Unterthema zu statt es in einem Sammelbereich zu verlieren."
-  - "Du leitest eine kleine Gegenprobe für echte Aufgaben oder Projekte ab."
-practiceIdeas:
-  - "Markiere zuerst, welche Unterfrage wirklich gestellt ist."
-  - "Notiere eine typische Fehlannahme und eine passende Gegenprobe."
-  - "Übertrage die Denkbewegung auf ein zweites kleines Beispiel."
-commonMistakes:
-  - "nur schöne Beispieldaten nutzen"
-  - "Fehler erst nach dem Test überlegen"
-  - "mehrere Fälle in einem Test vermischen"
-keyTakeaways:
-  - "Testfälle wird klarer, wenn Zustand, Ursache und Prüfschritt getrennt werden."
-  - "Kleine Unterthemen sind leichter auffindbar und besser prüfbar als breite Sammelordner."
-  - "Eine gute Erklärung endet mit einer konkreten Gegenprobe."
-recognizeSignals:
-  - "Die Aufgabe enthält einen scheinbar kleinen Sonderfall oder Fehlerzustand."
-  - "Es muss zwischen Begriffen unterschieden werden, die im Alltag leicht vermischt werden."
-  - "Eine Entscheidung soll begründet und nicht nur auswendig angewendet werden."
-selfCheckPoints:
-  - "Kann ich das Unterthema mit einem Satz von Nachbarthemen abgrenzen?"
-  - "Kann ich einen typischen Fehler benennen?"
-  - "Kann ich eine konkrete Prüfung oder Rechnung anschließen?"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "daten"
-  - "algorithmen"
-  - "testfälle"
-  - "test-und-komplexitaet"
+topicPath: ["algorithmen", "test-und-komplexitaet", "testfaelle-aus-randfaellen-ableiten"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["informatik", "Algorithmen"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein guter Testfall entsteht nicht zufällig. Er fragt, wo ein Algorithmus kippen kann: bei leeren Daten, bei genau einem Element, bei Grenzen und bei unerwarteter Reihenfolge.

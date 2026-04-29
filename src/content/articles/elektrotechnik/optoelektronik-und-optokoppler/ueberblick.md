@@ -1,36 +1,19 @@
 ---
 title: "Optoelektronik und Optokoppler"
 description: "Überblick über Licht als Signalträger in elektronischen Bauteilen und zur galvanischen Trennung."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Bauteile"
-topicPath:
-  - "optoelektronik-und-optokoppler"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Optoelektronik und Optokoppler als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["optoelektronik-und-optokoppler", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird galvanische Trennung durch eine spätere gemeinsame Masse versehentlich wieder aufgehoben."
-keyTakeaways:
-  - "Optoelektronik nutzt Licht für Anzeige, Messung und Übertragung."
-  - "Optokoppler trennen Stromkreise galvanisch."
-  - "Isolation braucht passende Bauteile und passendes Layout."
-recognizeSignals:
-  - "Es geht um Optoelektronik und Optokoppler als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Optoelektronik und Optokoppler in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "optoelektronik"
-  - "optokoppler"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Bauteile"]
 draft: false
 ---
-
 # Optoelektronik und Optokoppler
 
 Optoelektronik nutzt Licht zur Anzeige, Messung oder Signalübertragung. Dazu gehören LEDs, Fotodioden, Fototransistoren und Optokoppler. Ein Optokoppler überträgt ein Signal über Licht zwischen zwei elektrisch getrennten Seiten.

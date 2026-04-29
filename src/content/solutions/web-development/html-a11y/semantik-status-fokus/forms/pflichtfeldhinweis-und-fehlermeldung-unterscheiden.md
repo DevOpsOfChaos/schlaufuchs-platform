@@ -3,23 +3,12 @@ title: "Lösung – Pflichtfeldhinweis und Fehlermeldung unterscheiden"
 description: "Musterlösung zu Formularhinweise mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "html-a11y"
-  - "semantik-status-fokus"
-  - "forms"
-  - "pflichtfeldhinweis-und-fehlermeldung-unterscheiden"
+topicPath: ["html-a11y", "semantik-status-fokus", "forms", "pflichtfeldhinweis-und-fehlermeldung-unterscheiden"]
 taskId: "v111-web-development-pflichtfeldhinweis-und-fehlermeldung-unterscheiden"
 relatedExercise: "web-development/html-a11y/semantik-status-fokus/forms/pflichtfeldhinweis-und-fehlermeldung-unterscheiden"
-tags:
-  - "web development"
-  - "frontend"
-  - "unterthema"
-  - "html-a11y"
-  - "semantik-status-fokus"
-  - "pflichtfeldhinweis-und-fehlermeldung-unterscheiden"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Formularhinweise**.

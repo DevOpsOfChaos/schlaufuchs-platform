@@ -1,23 +1,14 @@
 ---
-title: Lösung – Timeout als UX-Fall behandeln
-description: Musterlösung zur Aufgabe über Timeout als UX-Fall behandeln.
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- browser-javascript
-- fetch-und-fehler
-- timeout-als-ux-fall-behandeln-v114
-taskId: v114-web-development-timeout-als-ux-fall-behandeln-v114
-relatedExercise: web-development/browser-javascript/fetch-und-fehler/timeout-als-ux-fall-behandeln-v114
-tags:
-- web-development
-- v114
-- loesung
-- browser-javascript
-- fetch-und-fehler
+title: "Lösung – Timeout als UX-Fall behandeln"
+description: "Musterlösung zur Aufgabe über Timeout als UX-Fall behandeln."
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["browser-javascript", "fetch-und-fehler", "timeout-als-ux-fall-behandeln-v114"]
+taskId: "v114-web-development-timeout-als-ux-fall-behandeln-v114"
+relatedExercise: "web-development/browser-javascript/fetch-und-fehler/timeout-als-ux-fall-behandeln-v114"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

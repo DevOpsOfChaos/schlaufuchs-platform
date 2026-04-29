@@ -3,22 +3,12 @@ title: "Lösung: Nullstelle als y gleich 0 lesen"
 description: "Musterlösung zur Aufgabe „Nullstelle als y gleich 0 lesen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "funktionen-im-vergleich"
-  - "nullstellen-und-schnittpunkte"
-  - "nullstelle-als-y-gleich-0-lesen-v116"
+topicPath: ["funktionen-im-vergleich", "nullstellen-und-schnittpunkte", "nullstelle-als-y-gleich-0-lesen-v116"]
 taskId: "nullstelle-als-y-gleich-0-lesen-v116"
 relatedExercise: "mathematik/funktionen-im-vergleich/nullstellen-und-schnittpunkte/nullstelle-als-y-gleich-0-lesen-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "nullstellen und schnittpunkte"
-  - "nullstelle als y gleich 0 lesen"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

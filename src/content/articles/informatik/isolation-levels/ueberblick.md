@@ -1,33 +1,19 @@
 ---
 title: "Isolation Levels"
 description: "Isolation Levels beschreiben, wie stark Datenbanktransaktionen voneinander abgeschirmt sind. Sie beeinflussen Konsistenz, Nebenläufigkeit und mögliche Anomalien."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "isolation-levels"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Isolation Levels."
-  - "Du kannst Isolation Levels in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["isolation-levels", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Jede Datenbankoperation als vollständig isoliert anzunehmen."
-keyTakeaways:
-  - "Isolation Levels beschreiben, wie stark Datenbanktransaktionen voneinander abgeschirmt sind."
-  - "Wichtig sind vor allem read committed, repeatable read und serializable, dirty reads, non-repeatable reads und phantoms und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Isolation Levels, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Isolation Levels dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "informatik"
-  - "grundlagen"
-  - "isolation levels"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Isolation Levels
 
 Isolation Levels beschreiben, wie stark Datenbanktransaktionen voneinander abgeschirmt sind. Sie beeinflussen Konsistenz, Nebenläufigkeit und mögliche Anomalien. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

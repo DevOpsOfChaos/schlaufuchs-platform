@@ -1,33 +1,19 @@
 ---
 title: "Edge Rendering"
 description: "Edge Rendering verlagert Teile der Seitenerzeugung näher an die Nutzer. Es kann Latenz senken, bringt aber Grenzen bei Laufzeit, Zustand und Datenzugriff."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "edge-rendering"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Edge Rendering."
-  - "Du kannst Edge Rendering in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["edge-rendering", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Jede Serverlogik ungeprüft an den Edge-Rand zu verschieben."
-keyTakeaways:
-  - "Edge Rendering verlagert Teile der Seitenerzeugung näher an die Nutzer."
-  - "Wichtig sind vor allem geografisch nahe ausführung, caching und personalisierung und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Edge Rendering, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Edge Rendering dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "web development"
-  - "grundlagen"
-  - "edge rendering"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # Edge Rendering
 
 Edge Rendering verlagert Teile der Seitenerzeugung näher an die Nutzer. Es kann Latenz senken, bringt aber Grenzen bei Laufzeit, Zustand und Datenzugriff. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

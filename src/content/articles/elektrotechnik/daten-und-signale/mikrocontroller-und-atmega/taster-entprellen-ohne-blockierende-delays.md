@@ -1,46 +1,19 @@
 ---
-title: Mikrocontroller – Taster entprellen ohne blockierende Delays
-description: Verstehe, warum Tasterprellen entsteht und wie eine Entprellung mit Zustandslogik statt Warteblock sauberer wird.
-subject: elektrotechnik
-section: Mikrocontroller und ATmega
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - taster-entprellen-ohne-blockierende-delays
-learningGoals:
-  - "Du erklärst, warum ein mechanischer Taster beim Schalten mehrere schnelle Pegelwechsel erzeugen kann."
-  - "Du unterscheidest einfache Warte-Entprellung von nicht blockierender Entprelllogik."
-  - "Du erkennst, warum Entprellung und Programmlaufzeit zusammen gedacht werden müssen."
-practiceIdeas:
-  - "Skizziere den Unterschied zwischen echtem Tastendruck und mehreren Prellimpulsen."
-  - "Beschreibe eine Entprellung zuerst als Zustandsfolge, bevor du Code formulierst."
-  - "Vergleiche eine Delay-Lösung mit einer Lösung über Zeitmarken."
-commonMistakes:
-  - "Jeden Pegelwechsel sofort als neuen Tastendruck zu zählen."
-  - "Ein langes Delay einzubauen und damit den restlichen Programmablauf zu blockieren."
-  - "Nur den aktuellen Pegel zu lesen, aber keinen stabilen Zustand zu prüfen."
-keyTakeaways:
-  - "Tasterprellen ist ein mechanischer Effekt, der im digitalen Eingang als mehrere schnelle Wechsel sichtbar wird."
-  - "Entprellung fragt nicht nur nach dem Pegel, sondern nach Stabilität über eine kurze Zeit."
-  - "Nicht blockierende Entprellung hält das Programm reaktionsfähig."
-recognizeSignals:
-  - "Es geht um Taster, Mehrfachauslösung, Prellen, Delay oder Softtimer."
-  - "Ein Code zählt einen Tastendruck mehrfach, obwohl nur einmal gedrückt wurde."
-  - "Eine Aufgabe fragt, warum ein Mikrocontroller während eines Delays schlecht reagiert."
-selfCheckPoints:
-  - "Kann ich erklären, warum ein Taster mehr als einen Pegelwechsel erzeugen kann?"
-  - "Kann ich eine stabile Taste von einem kurzen Prellimpuls unterscheiden?"
-  - "Kann ich begründen, warum ein blockierendes Delay didaktisch einfach, aber praktisch begrenzt ist?"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - taster
-  - entprellen
-  - softtimer
-level: mittel
+title: "Mikrocontroller – Taster entprellen ohne blockierende Delays"
+description: "Verstehe, warum Tasterprellen entsteht und wie eine Entprellung mit Zustandslogik statt Warteblock sauberer wird."
+subject: "elektrotechnik"
+section: "Mikrocontroller und ATmega"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "taster-entprellen-ohne-blockierende-delays"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein mechanischer Taster schaltet nicht immer ideal von 0 auf 1 oder von 1 auf 0. Beim Drücken oder Loslassen können die Kontakte kurz prellen. Der Mikrocontroller sieht dann mehrere schnelle Pegelwechsel, obwohl der Mensch nur einen einzigen Tastendruck meint.

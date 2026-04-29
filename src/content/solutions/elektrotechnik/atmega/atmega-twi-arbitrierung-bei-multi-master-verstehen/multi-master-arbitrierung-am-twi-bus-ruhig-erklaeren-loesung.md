@@ -1,24 +1,14 @@
 ---
-title: Musterlösung – Multi-Master-Arbitrierung am TWI-Bus ruhig erklären
-description: Musterlösung zur Aufgabe ET-ATM-TWI-302.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-schnittstellen-und-busse
-  - atmega-twi-arbitrierung-bei-multi-master-verstehen
-  - multi-master-arbitrierung-am-twi-bus-ruhig-erklaeren-loesung
-taskId: ET-ATM-TWI-302
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-twi-arbitrierung-bei-multi-master-verstehen/multi-master-arbitrierung-am-twi-bus-ruhig-erklaeren.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – Multi-Master-Arbitrierung am TWI-Bus ruhig erklären"
+description: "Musterlösung zur Aufgabe ET-ATM-TWI-302."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-twi-arbitrierung-bei-multi-master-verstehen", "multi-master-arbitrierung-am-twi-bus-ruhig-erklaeren"]
+taskId: "ET-ATM-TWI-302"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-twi-arbitrierung-bei-multi-master-verstehen/multi-master-arbitrierung-am-twi-bus-ruhig-erklaeren.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Bei mehreren möglichen Mastern kann es vorkommen, dass zwei Teilnehmer fast gleichzeitig senden möchten. Dann muss der Bus geregelt entscheiden, wer weitersenden darf. Genau dafür gibt es die Arbitrierung. Sie verhindert, dass aus einem gleichzeitigen Zugriff sofort ein chaotischer Kommunikationsfehler wird.

@@ -1,47 +1,19 @@
 ---
-title: Strom, Spannung und Widerstand
-description: Verstehe die drei Grundgrößen elektrischer Schaltungen und wie sie fachlich zusammenhängen.
-subject: elektrotechnik
-section: Elektronik
-topicPath:
-- elektronik
-- strom-spannung-widerstand
-learningGoals:
-- Du unterscheidest Strom, Spannung und Widerstand sauber.
-- Du beschreibst die drei Größen nicht nur einzeln, sondern im Zusammenhang.
-- Du erkennst, warum saubere Begriffe für spätere Rechnungen entscheidend sind.
-practiceIdeas:
-- Beschreibe eine einfache Schaltung einmal nur mit den drei Grundgrößen.
-- Ordne in Beispielen zu, welche Größe eine Ursache, eine Reaktion oder eine Begrenzung beschreibt.
-- Vergleiche zwei Schaltungen danach, wie sich Strom und Widerstand aufeinander auswirken.
-commonMistakes:
-- Strom und Spannung als dasselbe zu behandeln.
-- Widerstand nur als Rechenwert statt als physikalische Eigenschaft zu sehen.
-- Die Größen isoliert zu lernen und ihren Zusammenhang zu übersehen.
-keyTakeaways:
-- Spannung treibt elektrische Vorgänge an.
-- Strom beschreibt den Fluss elektrischer Ladung.
-- Widerstand begrenzt den Stromfluss.
-- Erst zusammen beschreiben die drei Größen eine Schaltung sinnvoll.
-tags:
-- elektrotechnik
-- strom
-- spannung
-- widerstand
-- grundlagen
-level: einfach
+title: "Strom, Spannung und Widerstand"
+description: "Verstehe die drei Grundgrößen elektrischer Schaltungen und wie sie fachlich zusammenhängen."
+subject: "elektrotechnik"
+section: "Elektronik"
+topicPath: ["elektronik", "strom-spannung-widerstand"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektronik"]
 draft: false
-recognizeSignals:
-- Die Aufgabe oder Erklärung nennt Strom, Spannung und Widerstand direkt oder greift eng benachbarte Begriffe aus Elektronik auf.
-- Du sollst nicht nur einen Begriff nennen, sondern einen Zusammenhang, Ablauf oder eine Struktur sauber erklären.
-- In Beispielen musst du Werte, Schritte oder Bauteile geordnet lesen und richtig einordnen.
-selfCheckPoints:
-- Kann ich unterscheidest Strom, Spannung und Widerstand sauber?
-- Kann ich beschreibst die drei Größen nicht nur einzeln, sondern im Zusammenhang?
-- Kann ich erkennst, warum saubere Begriffe für spätere Rechnungen entscheidend sind?
 ---
-
-
 <div class="learning-card">
   <p class="card-kicker">Einstieg</p>
   <h3>Was du hier lernst</h3>

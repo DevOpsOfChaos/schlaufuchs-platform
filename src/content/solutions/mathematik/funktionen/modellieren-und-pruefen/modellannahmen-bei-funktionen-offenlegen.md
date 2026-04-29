@@ -3,21 +3,12 @@ title: "Lösung – Modellannahmen bei Funktionen offenlegen"
 description: "Musterlösung zur Aufgabe über Modellieren mit Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "funktionen"
-  - "modellieren-und-pruefen"
-  - "modellannahmen-bei-funktionen-offenlegen"
+topicPath: ["funktionen", "modellieren-und-pruefen", "modellannahmen-bei-funktionen-offenlegen"]
 taskId: "v106-mathematik-modellannahmen-bei-funktionen-offenlegen"
 relatedExercise: "mathematik/funktionen/modellieren-und-pruefen/modellannahmen-bei-funktionen-offenlegen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "daten"
-  - "funktionen"
-  - "modellieren-und-pruefen"
+tags: ["mathematik", "Funktionen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Beobachtung

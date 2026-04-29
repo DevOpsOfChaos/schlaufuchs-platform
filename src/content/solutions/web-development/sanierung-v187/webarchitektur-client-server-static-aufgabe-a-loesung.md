@@ -3,23 +3,12 @@ title: "Lösung: Webarchitektur: Client, Server und Static: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-032a im Web-Development-Block v187."
 subject: "web-development"
 section: "architektur"
-topicPath: 
-  - "deployment-und-betrieb"
-  - "webarchitektur"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "webarchitektur-client-server-static-aufgabe-a"]
 taskId: "web-v187-032a"
 relatedExercise: "web-development/sanierung-v187/webarchitektur-client-server-static-aufgabe-a"
-tags: 
-  - "architektur"
-  - "client"
-  - "server"
-  - "static-site"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "architektur", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-032a`
 
     Ausgangsauftrag: Ordne zehn typische Webaufgaben Client, Server oder Buildzeit zu.

@@ -1,33 +1,19 @@
 ---
 title: "Speicherarten im Mikrocontroller"
 description: "Mikrocontroller besitzen verschiedene Speicherarten mit unterschiedlichen Aufgaben. Flash, SRAM und EEPROM unterscheiden sich darin, ob sie Programmcode, flüchtige Daten oder dauerhaft gespeicherte Einstellungen aufnehmen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik und Mikrocontroller"
-topicPath:
-  - "speicherarten-im-mikrocontroller"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Speicherarten im Mikrocontroller."
-  - "Du kannst Speicherarten im Mikrocontroller in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["speicherarten-im-mikrocontroller", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Zu erwarten, dass Variablen im RAM nach einem Neustart erhalten bleiben."
-keyTakeaways:
-  - "Mikrocontroller besitzen verschiedene Speicherarten mit unterschiedlichen Aufgaben."
-  - "Wichtig sind vor allem flash für programmcode, sram für laufzeitdaten und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Speicherarten im Mikrocontroller, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Speicherarten im Mikrocontroller dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "grundlagen"
-  - "speicherarten im mikrocontroller"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik und Mikrocontroller"]
 draft: false
 ---
-
 # Speicherarten im Mikrocontroller
 
 Mikrocontroller besitzen verschiedene Speicherarten mit unterschiedlichen Aufgaben. Flash, SRAM und EEPROM unterscheiden sich darin, ob sie Programmcode, flüchtige Daten oder dauerhaft gespeicherte Einstellungen aufnehmen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

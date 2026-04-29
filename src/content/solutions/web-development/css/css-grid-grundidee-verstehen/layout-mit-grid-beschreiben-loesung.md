@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Layout mit Grid beschreiben
-description: Musterlösung zur Aufgabe WEB-CSS-GRID-001.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - css-grid-grundidee-verstehen
-  - layout-mit-grid-beschreiben-loesung
-taskId: WEB-CSS-GRID-001
-relatedExercise: src/content/exercises/web-development/css/css-grid-grundidee-verstehen/layout-mit-grid-beschreiben.md
-tags:
-  - web-development
-  - css
-  - grid
-  - loesung
-  - task-id
+title: "Musterlösung – Layout mit Grid beschreiben"
+description: "Musterlösung zur Aufgabe WEB-CSS-GRID-001."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "css-grid-grundidee-verstehen", "layout-mit-grid-beschreiben"]
+taskId: "WEB-CSS-GRID-001"
+relatedExercise: "src/content/exercises/web-development/css/css-grid-grundidee-verstehen/layout-mit-grid-beschreiben.md"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Mini-Seite deuten
 
 Die zweite Variante ist eher als Raster gedacht, weil mehrere Bereiche gemeinsam als Fläche mit Zeilen und Spalten organisiert werden. Navigation und Inhalt werden nicht nur nacheinander gesetzt, sondern in ein gemeinsames Spaltenschema eingebunden.

@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Schwellwert mit Hysterese stabilisieren"
 description: "Musterlösung zur Aufgabe Schwellwert mit Hysterese stabilisieren."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Daten und Signale"
-topicPath:
-  - daten-und-signale
-  - rauschen-filterung-und-schwellwerte
-taskId: ET-V181-024
-relatedExercise: src/content/exercises/elektrotechnik/daten-und-signale/rauschen-filterung-und-schwellwerte/schwellwert-mit-hysterese-stabilisieren.md
-tags:
-  - elektrotechnik
-  - rauschen-filterung-und-schwellwerte
-  - loesung
+topicPath: ["daten-und-signale", "rauschen-filterung-und-schwellwerte", "schwellwert-mit-hysterese-stabilisieren"]
+taskId: "ET-V181-024"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/rauschen-filterung-und-schwellwerte/schwellwert-mit-hysterese-stabilisieren.md"
+tags: ["elektrotechnik", "Daten und Signale", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

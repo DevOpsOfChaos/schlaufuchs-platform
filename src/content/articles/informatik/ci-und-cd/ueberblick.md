@@ -3,32 +3,17 @@ title: "CI und CD"
 description: "Allgemeiner Überblick über Continuous Integration, Continuous Delivery und automatisierte Qualitätssicherung."
 subject: "informatik"
 section: "Softwareentwicklung"
-topicPath:
-  - "ci-und-cd"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["ci-und-cd", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird eine grüne Pipeline mit vollständiger Qualität gleichgesetzt. Sie zeigt nur, dass die definierten Checks bestanden wurden."
-keyTakeaways:
-  - "CI/CD automatisiert Prüfung und Auslieferung. Gute Pipelines sind schnell, verständlich und aussagekräftig."
-  - "CI/CD ersetzt keine guten Tests und keine fachliche Prüfung. Eine Pipeline ist nur so hilfreich wie die Prüfungen, die sie wirklich ausführt."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "informatik"
-  - "ci"
-  - "cd"
-  - "softwareentwicklung"
+tags: ["informatik", "Softwareentwicklung"]
 draft: false
 ---
-
 # CI und CD
 
 ![Schaubild zu CI und CD.](/schlaufuchs-platform/images/overviews/v149/ci-und-cd.svg)

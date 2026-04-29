@@ -3,23 +3,12 @@ title: "Lösung – Gegenereignis statt alle Fälle aufzählen nutzen"
 description: "Musterlösung zu Gegenereignis mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Daten und Zufall"
-topicPath:
-  - "daten-und-zufall"
-  - "wahrscheinlichkeit"
-  - "gegenereignis"
-  - "gegenereignis-statt-alle-faelle-aufzaehlen-nutzen"
+topicPath: ["daten-und-zufall", "wahrscheinlichkeit", "gegenereignis", "gegenereignis-statt-alle-faelle-aufzaehlen-nutzen"]
 taskId: "v108-mathematik-gegenereignis-statt-alle-faelle-aufzaehlen-nutzen"
 relatedExercise: "mathematik/daten-und-zufall/wahrscheinlichkeit/gegenereignis/gegenereignis-statt-alle-faelle-aufzaehlen-nutzen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfen"
-  - "daten-und-zufall"
-  - "wahrscheinlichkeit"
-  - "gegenereignis"
+tags: ["mathematik", "Daten und Zufall", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **Gegenereignis**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

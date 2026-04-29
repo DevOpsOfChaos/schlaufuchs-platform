@@ -3,22 +3,12 @@ title: "Lösung: Sortierung vor uniq prüfen"
 description: "Musterlösung zur Aufgabe „Sortierung vor uniq prüfen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "textdaten-und-pipelines"
-  - "cut-sort-uniq"
-  - "sortierung-vor-uniq-pruefen-v116"
+topicPath: ["textdaten-und-pipelines", "cut-sort-uniq", "sortierung-vor-uniq-pruefen-v116"]
 taskId: "sortierung-vor-uniq-pruefen-v116"
 relatedExercise: "linux/textdaten-und-pipelines/cut-sort-uniq/sortierung-vor-uniq-pruefen-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "cut sort uniq"
-  - "sortierung vor uniq pruefen"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

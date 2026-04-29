@@ -1,24 +1,14 @@
 ---
-title: Musterlösung – SPI-Timing und Lesemoment ruhig einordnen
-description: Musterlösung zur Aufgabe ET-ATMEGA-SPI-304.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-schnittstellen-und-busse
-  - atmega-spi-taktflanke-und-sampling-verstehen
-  - spi-timing-und-lesemoment-ruhig-einordnen-loesung
-taskId: ET-ATMEGA-SPI-304
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-spi-taktflanke-und-sampling-verstehen/spi-timing-und-lesemoment-ruhig-einordnen.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - spi
-  - loesung
+title: "Musterlösung – SPI-Timing und Lesemoment ruhig einordnen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-SPI-304."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-spi-taktflanke-und-sampling-verstehen", "spi-timing-und-lesemoment-ruhig-einordnen"]
+taskId: "ET-ATMEGA-SPI-304"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-spi-taktflanke-und-sampling-verstehen/spi-timing-und-lesemoment-ruhig-einordnen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Der Sender ändert ein Bit zu einem bestimmten Zeitpunkt auf der Leitung. Der Empfänger übernimmt dieses Bit zu einem eigenen Lesemoment. Beides darf nicht gedanklich zusammenfallen, weil ein Bit idealerweise erst dann gelesen wird, wenn es stabil anliegt. Genau dadurch wird aus einem Taktverfahren ein ruhiger und verlässlicher Übertragungsablauf.

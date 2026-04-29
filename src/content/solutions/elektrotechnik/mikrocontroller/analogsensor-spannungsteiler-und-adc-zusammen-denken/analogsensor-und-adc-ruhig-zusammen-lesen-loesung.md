@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Analogsensor und ADC ruhig zusammen lesen
-description: Musterlösung zur Aufgabe ELE-MCU-GEN-111.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - analogsensor-spannungsteiler-und-adc-zusammen-denken
-  - analogsensor-und-adc-ruhig-zusammen-lesen-loesung
-taskId: ELE-MCU-GEN-111
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller/analogsensor-spannungsteiler-und-adc-zusammen-denken/analogsensor-und-adc-ruhig-zusammen-lesen.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - loesung
-  - task-id
+title: "Musterlösung – Analogsensor und ADC ruhig zusammen lesen"
+description: "Musterlösung zur Aufgabe ELE-MCU-GEN-111."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "analogsensor-spannungsteiler-und-adc-zusammen-denken", "analogsensor-und-adc-ruhig-zusammen-lesen"]
+taskId: "ELE-MCU-GEN-111"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller/analogsensor-spannungsteiler-und-adc-zusammen-denken/analogsensor-und-adc-ruhig-zusammen-lesen.md"
+tags: ["elektrotechnik", "mikrocontroller", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Die Hauptfrage ist, wie aus einer physikalischen Größe über Sensor, Beschaltung und Referenz ein digitaler ADC-Wert wird. Entscheidend ist, die Messkette als Ganzes zu lesen und nicht Sensorwert und ADC-Rohwert zu verwechseln.

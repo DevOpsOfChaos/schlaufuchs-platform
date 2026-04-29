@@ -1,47 +1,19 @@
 ---
-title: Iteratoren bei vector verstehen
-description: Verstehe, warum Iteratoren in C++ eher Positionen in einer Struktur als einzelne Werte darstellen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - vector-und-container
-  - iteratoren-bei-vector-verstehen
-learningGoals:
-  - Du erklärst die Grundidee eines Iterators.
-  - Du unterscheidest eine Position im Container von einem konkreten Elementwert.
-  - Du liest <code>begin()</code>, <code>end()</code>, <code>erase()</code> und <code>insert()</code> ruhiger im Ablauf.
-practiceIdeas:
-  - Beschreibe eine Schleife einmal über Index und einmal über Iteratorpositionen.
-  - Erkläre, warum <code>end()</code> nicht "das letzte Element" bedeutet.
-  - Prüfe bei Löschbeispielen, wie sich die Struktur und die Positionen ändern.
-commonMistakes:
-  - Iteratoren mit Elementen selbst zu verwechseln.
-  - <code>end()</code> als letzte gültige Position statt als Position hinter dem letzten Element zu lesen.
-  - Beim Löschen nicht mitzudenken, dass sich Positionen verschieben können.
-keyTakeaways:
-  - Iteratoren beschreiben Positionen in einer Datenstruktur.
-  - <code>begin()</code> startet am ersten Element, <code>end()</code> liegt dahinter.
-  - Besonders bei <code>erase()</code> und <code>insert()</code> hilft das Positionsdenken.
-recognizeSignals:
-  - Es geht um Durchlaufen, Einfügen, Löschen oder Positionen in Containern.
-  - In Beispielen musst du nicht nur Werte, sondern auch Strukturänderungen lesen.
-  - Du sollst erklären, warum Iteratoren anders gedacht werden als bloße Zähler.
-selfCheckPoints:
-  - Kann ich einen Iterator als Position erklären?
-  - Kann ich <code>begin()</code> und <code>end()</code> sauber unterscheiden?
-  - Kann ich erklären, warum Löschen in einer Iteration besondere Aufmerksamkeit braucht?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - vector
-  - iterator
+title: "Iteratoren bei vector verstehen"
+description: "Verstehe, warum Iteratoren in C++ eher Positionen in einer Struktur als einzelne Werte darstellen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "iteratoren-bei-vector-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Iterator ist in C++ eine Art verallgemeinerter Positionszeiger innerhalb einer Datenstruktur. Für <code>std::vector</code> hilft das besonders, weil du nicht nur mit Nummern wie 0, 1 oder 2 denken musst, sondern mit der Idee: <em>Wo in der Struktur befinde ich mich gerade?</em>

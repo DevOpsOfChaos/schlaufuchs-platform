@@ -3,23 +3,12 @@ title: "Lösung – PWM-Tastverhältnis als Mittelwert deuten"
 description: "Musterlösung zu PWM-Tastverhältnis mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "daten-und-signale"
-  - "pwm-und-aktoren"
-  - "pwm-und-mittelwert"
-  - "pwm-tastverhaeltnis-als-mittelwert-deuten"
+topicPath: ["daten-und-signale", "pwm-und-aktoren", "pwm-und-mittelwert", "pwm-tastverhaeltnis-als-mittelwert-deuten"]
 taskId: "v109-elektrotechnik-pwm-tastverhaeltnis-als-mittelwert-deuten"
 relatedExercise: "elektrotechnik/daten-und-signale/pwm-und-aktoren/pwm-und-mittelwert/pwm-tastverhaeltnis-als-mittelwert-deuten"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "daten-und-signale"
-  - "pwm-und-aktoren"
-  - "pwm-tastverhältnis"
+tags: ["elektrotechnik", "Mikrocontroller", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **PWM-Tastverhältnis**.

@@ -3,21 +3,12 @@ title: "Lösung – Symlink und echte Datei unterscheiden"
 description: "Musterlösung zu symlink und echte datei unterscheiden mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "orientierung-und-pfade"
-  - "symlink-und-echte-datei-unterscheiden"
+topicPath: ["shell", "orientierung-und-pfade", "symlink-und-echte-datei-unterscheiden"]
 taskId: "v112-linux-symlink-und-echte-datei-unterscheiden"
 relatedExercise: "linux/shell/orientierung-und-pfade/symlink-und-echte-datei-unterscheiden"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "symlink-und-echte-datei-unterscheiden"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Orientierung und Pfade**.

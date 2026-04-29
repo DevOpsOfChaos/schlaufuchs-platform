@@ -3,24 +3,12 @@ title: "Lösung: Thermische Grenzen von Bauteilen: Aufgabe A"
 description: "Musterlösung zur Aufgabe etech-v191-028a im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "fehlersuche"
-  - "thermische-grenzen-von-bauteilen"
-  - "loesung-a"
+topicPath: ["sanierung-v191", "thermische-grenzen-von-bauteilen-aufgabe-a"]
 taskId: "etech-v191-028a"
 relatedExercise: "elektrotechnik/sanierung-v191/thermische-grenzen-von-bauteilen-aufgabe-a"
-tags:
-  - "fehlersuche"
-  - "thermische"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-028a`
 
 Ausgangsauftrag: Beurteile, ob ein Widerstand thermisch ausreichend dimensioniert ist.

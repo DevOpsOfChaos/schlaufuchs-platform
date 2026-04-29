@@ -3,33 +3,15 @@ title: "Messfehler und Rauschen: Grundordnung"
 description: "Ordne Messfehler und Rauschen in Zweck, Prüffragen und Fehlerquellen."
 subject: "daten-und-signale"
 section: "messung"
-topicPath:
-  - "messung"
-  - "messfehler-und-rauschen"
-  - "aufgabe-a"
+topicPath: ["sanierung-v189", "messfehler-und-rauschen-aufgabe-a"]
 taskId: "dat-v189-029a"
-tags:
-  - "rauschen"
-  - "messfehler"
-  - "signal"
-  - "daten-und-signale"
-  - "aufgabe"
-  - "v189"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["daten-und-signale", "messung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Du arbeitest am Thema **Messfehler und Rauschen**. Erstelle eine kurze, geordnete Erklärung für eine lernende Person.

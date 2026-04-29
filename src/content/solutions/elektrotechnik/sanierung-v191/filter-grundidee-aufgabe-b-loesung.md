@@ -3,24 +3,12 @@ title: "Lösung: Filter Grundidee: Aufgabe B"
 description: "Musterlösung zur Aufgabe etech-v191-025b im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "wechselstrom"
-  - "filter-grundidee"
-  - "loesung-b"
+topicPath: ["sanierung-v191", "filter-grundidee-aufgabe-b"]
 taskId: "etech-v191-025b"
 relatedExercise: "elektrotechnik/sanierung-v191/filter-grundidee-aufgabe-b"
-tags:
-  - "wechselstrom"
-  - "filter"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-025b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Filter Grundidee“ um einen Messfehler, einen Sicherheitscheck und eine kurze Plausibilitätsprüfung.

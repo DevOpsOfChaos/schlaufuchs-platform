@@ -1,29 +1,17 @@
 ---
 title: "API-Verträge und Datenfluss – Ruhig einordnen"
 description: "Übe, API-Verträge und Datenfluss fachlich einzuordnen."
-subject: informatik
+subject: "informatik"
 section: "netzwerke-und-dienste"
-topicPath:
-  - "netzwerke-und-dienste"
-  - "api-vertraege-und-datenfluss"
-taskId: INF-API-VERTRAEGE-UND-DATENFLUSS-841
-tags:
-  - "informatik"
-  - "api"
-  - "datenfluss"
-hintPoints:
-  - "Beginne mit der allgemeinen Rolle des Themas."
-  - "Trenne Begriff, Beispiel und Sonderfall sauber."
-selfCheckPoints:
-  - "Ich kann meine Zuordnung begründen."
-  - "Ich vermeide eine reine Einzelfallantwort."
-transferIdeas:
-  - "Übertrage die Idee auf ein anderes kleines Informatikbeispiel."
-reflectionPrompt: "Welche Annahme musste ich bewusst prüfen?"
-level: mittel
+topicPath: ["netzwerke-und-dienste", "api-vertraege-und-datenfluss", "api-vertraege-und-datenfluss-ruhig-einordnen-v184"]
+taskId: "INF-API-VERTRAEGE-UND-DATENFLUSS-841"
+tags: ["informatik", "netzwerke-und-dienste", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **API-Verträge und Datenfluss**. Sie soll nicht nur eine einzelne Situation lösen, sondern das Thema fachlich einordnen.
 
 ## Lernziel

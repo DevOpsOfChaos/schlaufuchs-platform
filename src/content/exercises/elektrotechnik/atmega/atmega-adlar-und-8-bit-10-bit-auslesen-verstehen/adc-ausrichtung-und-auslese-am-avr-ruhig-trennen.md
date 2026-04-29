@@ -1,32 +1,17 @@
 ---
-title: ADC-Ausrichtung und Auslese am AVR ruhig trennen
-description: Begründe am ATmega die Rolle von ADLAR sowie den Unterschied zwischen 8-Bit- und 10-Bit-Auslesen.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - adc-und-messung
-  - atmega-adlar-und-8-bit-10-bit-auslesen-verstehen
-  - adc-ausrichtung-und-auslese-am-avr-ruhig-trennen
-taskId: ET-ATMEGA-ADC-213
-level: mittel
+title: "ADC-Ausrichtung und Auslese am AVR ruhig trennen"
+description: "Begründe am ATmega die Rolle von ADLAR sowie den Unterschied zwischen 8-Bit- und 10-Bit-Auslesen."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-adlar-und-8-bit-10-bit-auslesen-verstehen", "adc-ausrichtung-und-auslese-am-avr-ruhig-trennen"]
+taskId: "ET-ATMEGA-ADC-213"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - atmega
-  - adc
-  - register
-hintPoints:
-  - Trenne Messung und Registeranordnung bewusst.
-  - Frage zuerst, ob der volle Wert gebraucht wird oder ein grober 8-Bit-Wert genügt.
-selfCheckPoints:
-  - Kannst du ADLAR als Ausrichtungsfrage erklären?
-  - Kannst du 8-Bit- und 10-Bit-Lesart sauber unterscheiden?
-transferIdeas:
-  - Übertrage die Logik auf Helligkeitsmessung, Potentiometer oder Schwellenbildung.
-reflectionPrompt: "Was war für dich anfangs irreführender – der Begriff ADLAR oder die Trennung von Messung und Auslesen?"
 ---
-
 ## Aufgabe 1
 
 Erkläre in eigenen Worten, was **ADLAR** am AVR verändert und was **nicht**.

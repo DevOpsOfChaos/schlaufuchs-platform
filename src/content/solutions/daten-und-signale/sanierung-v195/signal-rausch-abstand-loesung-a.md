@@ -3,25 +3,12 @@ title: "Lösung: Signal-Rausch-Abstand: Aufgabe A"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-018a im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "fehler-und-robustheit"
-  - "signal-rausch-abstand"
-  - "loesung-a"
-
+topicPath: ["sanierung-v195", "signal-rausch-abstand-loesung-a"]
 taskId: "daten-und-signale-v195-018a"
 relatedExercise: "daten-und-signale/sanierung-v195/signal-rausch-abstand-aufgabe-a"
-tags:
-  - "signal"
-  - "rausch"
-  - "abstand"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-018a`
 
 Ausgangsauftrag: Bewerte zwei Messsituationen nach ihrem Signal-Rausch-Abstand.

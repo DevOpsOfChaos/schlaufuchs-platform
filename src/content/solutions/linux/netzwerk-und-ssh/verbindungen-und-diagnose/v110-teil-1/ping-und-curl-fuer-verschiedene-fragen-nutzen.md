@@ -3,23 +3,12 @@ title: "Lösung – ping und curl für verschiedene Fragen nutzen"
 description: "Musterlösung zu ping und curl für verschiedene Fragen nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Netzwerk"
-topicPath:
-  - "netzwerk-und-ssh"
-  - "verbindungen-und-diagnose"
-  - "v110-teil-1"
-  - "ping-und-curl-fuer-verschiedene-fragen-nutzen"
+topicPath: ["netzwerk-und-ssh", "verbindungen-und-diagnose", "v110-teil-1", "ping-und-curl-fuer-verschiedene-fragen-nutzen"]
 taskId: "v110-linux-ping-und-curl-fuer-verschiedene-fragen-nutzen"
 relatedExercise: "linux/netzwerk-und-ssh/verbindungen-und-diagnose/v110-teil-1/ping-und-curl-fuer-verschiedene-fragen-nutzen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "netzwerk-und-ssh"
-  - "verbindungen-und-diagnose"
-  - "ping-und-curl-fuer-verschiedene-fragen-nutzen"
+tags: ["linux", "Netzwerk", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **ping und curl für verschiedene Fragen nutzen**.

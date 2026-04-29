@@ -1,46 +1,19 @@
 ---
-title: Header, Main, Footer und Nav strukturieren
-description: Verstehe, wie diese HTML-Bereiche unterschiedliche Rollen im Seitengerüst übernehmen und warum gute Gliederung mehr ist als optische Kästen.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - navigation-und-menues
-  - header-main-footer-und-nav-strukturieren
-learningGoals:
-  - Du unterscheidest header, main, footer und nav nach ihrer Dokumentrolle.
-  - Du erklärst, warum main nicht einfach der größte sichtbare Block ist.
-  - Du begründest, warum Navigation eine andere Aufgabe hat als Hauptinhalt.
-practiceIdeas:
-  - Zerlege eine kleine Seite in Einstieg, Orientierung, Hauptinhalt und Abschluss.
-  - Prüfe bei einem Entwurf, wo der eigentliche Hauptinhalt liegt.
-  - Begründe Navigation über ihre Aufgabe und nicht über ihre Form.
-commonMistakes:
-  - main mit dem ganzen sichtbaren Bereich gleichzusetzen.
-  - nav nur als optische Menüleiste zu lesen.
-  - header und footer nur über Position statt über Funktion zu unterscheiden.
-keyTakeaways:
-  - Header, nav, main und footer markieren verschiedene Rollen im Seitengerüst.
-  - Main bezeichnet den eigentlichen Hauptinhalt einer Seite.
-  - Gute Landmarken helfen beim Verstehen, Navigieren und Wiederfinden von Inhalten.
-recognizeSignals:
-  - Es geht um Seitengerüst, Orientierung oder große HTML-Bereiche.
-  - Du sollst erklären, wo der Hauptinhalt beginnt und wo Navigation liegt.
-  - In Beispielen zählt die Dokumentrolle stärker als die optische Lage.
-selfCheckPoints:
-  - Kann ich den Hauptinhalt einer Seite klar benennen?
-  - Kann ich erklären, warum ein Navigationsblock als nav sinnvoll ist?
-  - Kann ich header und footer funktional unterscheiden?
-tags:
-  - html
-  - semantik
-  - nav
-  - main
-  - struktur
-level: einfach
+title: "Header, Main, Footer und Nav strukturieren"
+description: "Verstehe, wie diese HTML-Bereiche unterschiedliche Rollen im Seitengerüst übernehmen und warum gute Gliederung mehr ist als optische Kästen."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "header-main-footer-und-nav-strukturieren"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Diese Seite betrachtet nur das **große Seitengerüst**. Die zentrale Frage lautet hier nicht: Wie sehen die Boxen aus? Sondern: **Welche Aufgabe hat jeder große Bereich der Seite?**

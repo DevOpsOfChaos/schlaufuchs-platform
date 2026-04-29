@@ -1,34 +1,17 @@
 ---
-title: Auswahlmodelle im Formular begründen
-description: Begründe, wann Radio-Buttons, Checkboxes oder ein Select-Feld besser zur Auswahlidee passen.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - formulare-und-eingaben
-  - radio-checkbox-und-select-unterscheiden
-  - auswahlmodelle-im-formular-begruenden
-level: einfach
+title: "Auswahlmodelle im Formular begründen"
+description: "Begründe, wann Radio-Buttons, Checkboxes oder ein Select-Feld besser zur Auswahlidee passen."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "radio-checkbox-und-select-unterscheiden", "auswahlmodelle-im-formular-begruenden"]
+taskId: "AUTO-AUSWAHLMODELLE-IM-FORMULAR-BEGRUENDEN"
+tags: ["web-development", "HTML", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - html
-  - formular
-  - radio
-  - checkbox
-  - select
-hintPoints:
-  - Überlege zuerst, wie viele Optionen gleichzeitig gelten dürfen.
-  - Unterscheide sichtbare Auswahl und gebündelte Liste.
-  - Frage bei langen Listen zusätzlich, ob alle Optionen sofort sichtbar sein müssen.
-selfCheckPoints:
-  - Kannst du exklusive und mehrfache Auswahl trennen?
-  - Kannst du ein Select sachlich begründen?
-transferIdeas:
-  - Übertrage die Aufgabe auf Versandarten, Interessen, Länder oder Filteroptionen.
-  - Erkläre die Auswahlidee einmal über sichtbare Form und einmal über Entscheidungslogik.
-reflectionPrompt: Wann ist ein sichtbarer Vergleich mit Radios oder Checkboxes hilfreicher als ein kompaktes Select?
 ---
-
 ## Aufgabe 1: Passendes Element wählen
 
 Ordne zu und begründe:

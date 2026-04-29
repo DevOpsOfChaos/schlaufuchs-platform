@@ -1,46 +1,19 @@
 ---
-title: ATmega – Overflow-Flag und Overflow-Interrupt unterscheiden
-description: Verstehe, warum ein Overflow-Flag nur einen Zustand markiert, während ein Overflow-Interrupt daraus eine Ereignisreaktion macht.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - zeitbasis-und-timer
-  - atmega-overflow-flag-und-overflow-interrupt-unterscheiden
-learningGoals:
-  - Du erklärst den Unterschied zwischen Overflow-Flag und Overflow-Interrupt am ATmega.
-  - Du beschreibst, wann ein Flag gepollt und wann ein Interrupt genutzt wird.
-  - Du liest Timer-Ereignisse ruhiger als Zustandsinformation oder Reaktionsmechanik.
-practiceIdeas:
-  - Vergleiche denselben Overflow einmal im Polling und einmal mit Interrupt.
-  - Prüfe bei einem Beispiel, ob die Software das Flag nur bemerkt oder direkt darauf reagiert.
-  - Lies Timer-Flags als Zustandsmarken und ISRs als Ereignisreaktionen.
-commonMistakes:
-  - Flag und Interrupt als dasselbe zu behandeln.
-  - Zu denken, ein gesetztes Flag bedeute automatisch, dass schon eine ISR gelaufen ist.
-  - Polling und Interrupt-Reaktion nur als schnell oder langsam statt als Strukturfrage zu lesen.
-keyTakeaways:
-  - Ein Overflow-Flag markiert zuerst nur, dass der Überlauf stattgefunden hat.
-  - Ein Overflow-Interrupt nutzt dieses Ereignis für eine automatische Reaktion.
-  - Flag und Interrupt gehören zusammen, sind aber fachlich nicht dieselbe Ebene.
-recognizeSignals:
-  - Es geht um TOV, TIMSK, ISR oder die Frage, wie ein Timer-Ereignis verarbeitet wird.
-  - Du sollst erklären, ob ein Ereignis nur erkannt oder aktiv behandelt wird.
-  - In Aufgaben müssen Zustand und Reaktion sauber getrennt werden.
-selfCheckPoints:
-  - Kann ich Overflow-Flag und Overflow-Interrupt klar unterscheiden?
-  - Kann ich erklären, wann Polling strukturell genügt und wann ein Interrupt ruhiger ist?
-  - Kann ich ein Timer-Ereignis als Zustand oder als Reaktion lesen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - timer
-  - interrupt
-level: mittel
+title: "ATmega – Overflow-Flag und Overflow-Interrupt unterscheiden"
+description: "Verstehe, warum ein Overflow-Flag nur einen Zustand markiert, während ein Overflow-Interrupt daraus eine Ereignisreaktion macht."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-overflow-flag-und-overflow-interrupt-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Wenn ein Timer überläuft, passiert zuerst einmal nur ein **Ereignis im Hardware-Modul**. Dieses Ereignis kann als **Flag** sichtbar werden. Erst wenn zusätzlich ein passender Interrupt freigegeben ist, wird daraus eine automatische **Ereignisreaktion** per ISR.

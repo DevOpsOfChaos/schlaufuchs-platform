@@ -3,35 +3,15 @@ title: "Aufgabe – Retry nicht ohne Grenze planen"
 description: "Übe Retry-Logik mit Szenario, Trennkante und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "javascript-browser"
-  - "events-state-async"
-  - "retry"
-  - "retry-nicht-ohne-grenze-planen"
+topicPath: ["javascript-browser", "events-state-async", "retry", "retry-nicht-ohne-grenze-planen"]
 taskId: "v111-web-development-retry-nicht-ohne-grenze-planen"
-tags:
-  - "web development"
-  - "frontend"
-  - "unterthema"
-  - "javascript-browser"
-  - "events-state-async"
-  - "retry-nicht-ohne-grenze-planen"
-hintPoints:
-  - "Benenne zuerst das genaue Unterthema."
-  - "Schreibe die typische Verwechslung ausdrücklich auf."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Lösung enger als ein breites Kapitel?"
-  - "Wird ein Nachbarthema sauber ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere eine zweite Aufgabe im gleichen Unterthema mit anderer Oberfläche."
-reflectionPrompt: "Welche kleine Trennkante macht Retry-Logik übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["web-development", "Feinstruktur Web Development", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Retry-Logik**.

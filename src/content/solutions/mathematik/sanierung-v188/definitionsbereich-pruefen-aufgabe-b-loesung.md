@@ -3,22 +3,12 @@ title: "Lösung: Definitionsbereich prüfen: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-048b."
 subject: "mathematik"
 section: "funktionen-und-graphen"
-topicPath:
-  - "funktionen-und-graphen"
-  - "graphen-deuten"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "definitionsbereich-pruefen-aufgabe-b"]
 taskId: "mat-v188-048b"
 relatedExercise: "mathematik/sanierung-v188/definitionsbereich-pruefen-aufgabe-b"
-tags:
-  - "definitionsbereich"
-  - "funktionen"
-  - "pruefen"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "funktionen-und-graphen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-048b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

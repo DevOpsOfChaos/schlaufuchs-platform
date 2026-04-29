@@ -1,12 +1,17 @@
 ---
-title: Kontrollstrukturen – Ablaufanalyse
-description: Übe, wie Bedingungen und Schleifen den Ablauf einfacher Programme verändern.
-subject: informatik
-section: kontrollstrukturen
-level: einfach
+title: "Kontrollstrukturen – Ablaufanalyse"
+description: "Übe, wie Bedingungen und Schleifen den Ablauf einfacher Programme verändern."
+subject: "informatik"
+section: "kontrollstrukturen"
+topicPath: ["kontrollstrukturen-ablaufanalyse"]
+taskId: "AUTO-KONTROLLSTRUKTUREN-ABLAUFANALYSE"
+tags: ["informatik", "kontrollstrukturen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Übung hilft dir, Bedingungen und Wiederholungen nicht nur zu erkennen, sondern in ihrem Ablauf zu verstehen.
 
 ## Aufgabenideen

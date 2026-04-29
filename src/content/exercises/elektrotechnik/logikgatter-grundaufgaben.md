@@ -1,12 +1,17 @@
 ---
-title: Logikgatter – Grundaufgaben
-description: Übe das fachliche Lesen von Eingängen, Regeln und Ausgaben in der Digitaltechnik.
-subject: elektrotechnik
-section: logikgatter
-level: einfach
+title: "Logikgatter – Grundaufgaben"
+description: "Übe das fachliche Lesen von Eingängen, Regeln und Ausgaben in der Digitaltechnik."
+subject: "elektrotechnik"
+section: "logikgatter"
+topicPath: ["logikgatter-grundaufgaben"]
+taskId: "AUTO-LOGIKGATTER-GRUNDAUFGABEN"
+tags: ["elektrotechnik", "logikgatter", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe hält die Grundidee von Logikgattern bewusst einfach: Du sollst verstehen, **wie Eingänge nach festen Regeln zu einer Ausgabe führen**.
 
 ## Lernziel

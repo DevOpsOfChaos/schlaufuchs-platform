@@ -1,23 +1,14 @@
 ---
-title: Lösung – Messwert plausibilisieren
-description: Musterlösung zur Aufgabe über Messwert plausibilisieren.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- messen-und-sicherheit
-- fehlerbilder-und-diagnose
-- messwert-plausibilisieren-v114
-taskId: v114-elektrotechnik-messwert-plausibilisieren-v114
-relatedExercise: elektrotechnik/messen-und-sicherheit/fehlerbilder-und-diagnose/messwert-plausibilisieren-v114
-tags:
-- elektrotechnik
-- v114
-- loesung
-- messen-und-sicherheit
-- fehlerbilder-und-diagnose
+title: "Lösung – Messwert plausibilisieren"
+description: "Musterlösung zur Aufgabe über Messwert plausibilisieren."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["messen-und-sicherheit", "fehlerbilder-und-diagnose", "messwert-plausibilisieren-v114"]
+taskId: "v114-elektrotechnik-messwert-plausibilisieren-v114"
+relatedExercise: "elektrotechnik/messen-und-sicherheit/fehlerbilder-und-diagnose/messwert-plausibilisieren-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

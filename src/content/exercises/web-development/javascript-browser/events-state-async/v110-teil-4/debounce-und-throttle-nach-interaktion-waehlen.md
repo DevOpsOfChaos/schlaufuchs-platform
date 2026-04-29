@@ -3,35 +3,15 @@ title: "Aufgabe – Debounce und Throttle nach Interaktion wählen"
 description: "Übe Debounce und Throttle nach Interaktion wählen mit Einordnung, Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript-browser"
-  - "events-state-async"
-  - "v110-teil-4"
-  - "debounce-und-throttle-nach-interaktion-waehlen"
+topicPath: ["javascript-browser", "events-state-async", "v110-teil-4", "debounce-und-throttle-nach-interaktion-waehlen"]
 taskId: "v110-web-development-debounce-und-throttle-nach-interaktion-waehlen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "javascript-browser"
-  - "events-state-async"
-  - "debounce-und-throttle-nach-interaktion-waehlen"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Vergleiche das Thema mit einem Nachbarthema und nenne die Trennkante."
-reflectionPrompt: "Welche kleine Trennkante macht Debounce und Throttle nach Interaktion wählen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["web-development", "JavaScript", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Debounce und Throttle nach Interaktion wählen**.

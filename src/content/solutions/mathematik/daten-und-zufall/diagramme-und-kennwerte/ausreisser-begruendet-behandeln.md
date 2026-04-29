@@ -3,21 +3,12 @@ title: "Lösung – Ausreißer begründet behandeln"
 description: "Musterlösung zu ausreißer begründet behandeln mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "daten-und-zufall"
-  - "diagramme-und-kennwerte"
-  - "ausreisser-begruendet-behandeln"
+topicPath: ["daten-und-zufall", "diagramme-und-kennwerte", "ausreisser-begruendet-behandeln"]
 taskId: "v112-mathematik-ausreisser-begruendet-behandeln"
 relatedExercise: "mathematik/daten-und-zufall/diagramme-und-kennwerte/ausreisser-begruendet-behandeln"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-zufall"
-  - "ausreisser-begruendet-behandeln"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Diagramme und Kennwerte**.

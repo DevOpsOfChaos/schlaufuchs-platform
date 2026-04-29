@@ -1,23 +1,14 @@
 ---
-title: Lösung – Berechtigungen für Schlüssel prüfen
-description: Musterlösung zur Aufgabe über Berechtigungen für Schlüssel prüfen.
-subject: linux
-section: Feinstruktur Linux
-topicPath:
-- netzwerk-und-rechte
-- ssh-und-schluessel
-- berechtigungen-fuer-schluessel-pruefen-v114
-taskId: v114-linux-berechtigungen-fuer-schluessel-pruefen-v114
-relatedExercise: linux/netzwerk-und-rechte/ssh-und-schluessel/berechtigungen-fuer-schluessel-pruefen-v114
-tags:
-- linux
-- v114
-- loesung
-- netzwerk-und-rechte
-- ssh-und-schluessel
+title: "Lösung – Berechtigungen für Schlüssel prüfen"
+description: "Musterlösung zur Aufgabe über Berechtigungen für Schlüssel prüfen."
+subject: "linux"
+section: "Feinstruktur Linux"
+topicPath: ["netzwerk-und-rechte", "ssh-und-schluessel", "berechtigungen-fuer-schluessel-pruefen-v114"]
+taskId: "v114-linux-berechtigungen-fuer-schluessel-pruefen-v114"
+relatedExercise: "linux/netzwerk-und-rechte/ssh-und-schluessel/berechtigungen-fuer-schluessel-pruefen-v114"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

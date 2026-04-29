@@ -1,33 +1,19 @@
 ---
 title: "Cache Busting"
 description: "Cache Busting sorgt dafür, dass Browser nach Änderungen wirklich neue Dateien laden. Häufig geschieht das über Hashes in Dateinamen oder Versionsparameter."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "cache-busting"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Cache Busting."
-  - "Du kannst Cache Busting in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["cache-busting", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Alle Dateien gar nicht zu cachen, nur um Aktualisierungsprobleme zu vermeiden."
-keyTakeaways:
-  - "Cache Busting sorgt dafür, dass Browser nach Änderungen wirklich neue Dateien laden."
-  - "Wichtig sind vor allem statische assets mit hash, lange cache-zeiten sicher nutzen und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Cache Busting, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Cache Busting dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "web development"
-  - "grundlagen"
-  - "cache busting"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # Cache Busting
 
 Cache Busting sorgt dafür, dass Browser nach Änderungen wirklich neue Dateien laden. Häufig geschieht das über Hashes in Dateinamen oder Versionsparameter. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

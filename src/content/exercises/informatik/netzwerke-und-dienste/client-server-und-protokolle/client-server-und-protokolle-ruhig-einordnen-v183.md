@@ -1,27 +1,17 @@
 ---
 title: "Client, Server und Protokolle ruhig einordnen"
 description: "Übe Client, Server und Protokolle mit Begriffen, Beispielen und typischen Prüfungen."
-subject: informatik
+subject: "informatik"
 section: "Netzwerke und Dienste"
-topicPath:
-  - "netzwerke-und-dienste"
-  - "client-server-und-protokolle"
-taskId: INF-V183-10-A
-tags:
-  - "informatik"
-  - "client-server-und-protokolle"
-hintPoints:
-  - "Beginne mit der allgemeinen Idee."
-  - "Trenne Begriff, Beispiel und Fehlerquelle."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe sauber unterscheiden."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel aus einem anderen Informatikthema."
-reflectionPrompt: "Welche Unterscheidung war hier am wichtigsten?"
-level: einfach
+topicPath: ["netzwerke-und-dienste", "client-server-und-protokolle", "client-server-und-protokolle-ruhig-einordnen-v183"]
+taskId: "INF-V183-10-A"
+tags: ["informatik", "Netzwerke und Dienste", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Client, Server und Protokolle**.
 
 ## Aufgabe 1 – Begriffe klären

@@ -3,20 +3,12 @@ title: "Lösung – SPI-Chip-Select bewusst setzen"
 description: "Musterlösung zu SPI-Chip-Select bewusst setzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "schnittstellen"
-  - "spi-chip-select-bewusst-setzen-v113"
+topicPath: ["mikrocontroller-und-atmega", "schnittstellen", "spi-chip-select-bewusst-setzen-v113"]
 taskId: "v113-elektrotechnik-spi-chip-select-bewusst-setzen-v113"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/schnittstellen/spi-chip-select-bewusst-setzen-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "spi-chip-select-bewusst-setzen-v113"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **SPI-Chip-Select bewusst setzen**.

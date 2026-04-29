@@ -1,35 +1,17 @@
 ---
 title: "Observability-Metriken"
 description: "Überblick über Metriken als Bestandteil von Observability in Softwaresystemen."
-subject: informatik
+subject: "informatik"
 section: "Observability"
-topicPath:
-  - "observability-metriken"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Observability-Metriken als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["observability-metriken", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, sehr viele Metriken zu sammeln, ohne zu wissen, welche Entscheidung sie unterstützen."
-keyTakeaways:
-  - "Metriken sind numerische Messwerte über Systemverhalten, die über Zeit gesammelt und ausgewertet werden."
-  - "Sie machen Trends, Grenzwerte, Last und Fehlerquoten sichtbar, bevor einzelne Logzeilen betrachtet werden müssen."
-  - "Metriken erklären nicht jeden Einzelfall. Dafür sind Logs und Traces ergänzend nötig."
-recognizeSignals:
-  - "Es geht um Observability-Metriken, wenn typische Metriken sind Latenz, Durchsatz, Fehlerrate und Ressourcennutzung."
-  - "Das Thema wird relevant, wenn Beispiele wie eine steigende p95-Latenz kann zeigen, dass ein Dienst für einen Teil der Anfragen langsam wird."
-selfCheckPoints:
-  - "Kann ich Observability-Metriken in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "observability"
-  - "metriken"
-  - "betrieb"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Observability"]
 draft: false
 ---
 # Observability-Metriken

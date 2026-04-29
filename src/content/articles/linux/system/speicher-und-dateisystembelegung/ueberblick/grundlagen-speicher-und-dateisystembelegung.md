@@ -3,43 +3,17 @@ title: "Speicher und Dateisystembelegung unter Linux – Überblick"
 description: "Eine allgemeine Einführung in Arbeitsspeicher, Datenträgerbelegung und die Unterscheidung zwischen RAM und Dateisystemplatz."
 subject: "linux"
 section: "System"
-topicPath:
-  - "system"
-  - "speicher-und-dateisystembelegung"
-  - "ueberblick"
-learningGoals:
-  - "Du unterscheidest Arbeitsspeicher und Speicherplatz im Dateisystem."
-  - "Du verstehst, warum Linux verschiedene Werkzeuge für RAM, Datenträger und Verzeichnisse nutzt."
-  - "Du erkennst typische Fehlerbilder bei vollem Speicher oder vollem Dateisystem."
-practiceIdeas:
-  - "Erkläre den Unterschied zwischen einem vollen Arbeitsspeicher und einer vollen Festplatte."
-  - "Ordne typische Werkzeuge wie free, df und du ihrer Fragestellung zu."
-  - "Beschreibe, warum ein System trotz freiem RAM keine Datei mehr speichern kann."
-commonMistakes:
-  - "RAM und Festplattenspeicher als dieselbe Art von Speicher zu behandeln."
-  - "df und du gleichzusetzen, obwohl sie unterschiedliche Fragen beantworten."
-  - "Eine volle Partition nur als Platzproblem zu sehen und Einhängepunkte zu ignorieren."
-keyTakeaways:
-  - "RAM ist flüchtiger Arbeitsspeicher für laufende Programme."
-  - "Dateisystembelegung beschreibt, wie viel Platz auf Partitionen oder Datenträgern genutzt wird."
-  - "Linux trennt die Fragen: Was belegt Arbeitsspeicher, was belegt Speicherplatz und wo ist etwas eingehängt?"
-recognizeSignals:
-  - "Ein System meldet zu wenig Speicher, zu wenig Platz oder eine volle Partition."
-  - "Werkzeuge wie free, df, du, mount oder lsblk werden erwähnt."
-  - "Es muss unterschieden werden, ob ein Prozess, ein Verzeichnis oder ein Dateisystem das Problem verursacht."
-selfCheckPoints:
-  - "Weiß ich, ob nach RAM oder Datenträgerplatz gefragt ist?"
-  - "Kann ich das passende Werkzeug zur Fragestellung nennen?"
-  - "Ist klar, auf welcher Partition oder in welchem Verzeichnis das Problem liegt?"
+topicPath: ["system", "speicher-und-dateisystembelegung", "ueberblick", "grundlagen-speicher-und-dateisystembelegung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "linux"
-  - "speicher"
-  - "dateisystem"
-  - "system"
+tags: ["linux", "System"]
 draft: false
 ---
-
 ## Begriff und Grundidee
 
 Unter Linux wird das Wort Speicher in verschiedenen Bedeutungen verwendet. Arbeitsspeicher, also RAM, wird von laufenden Programmen genutzt. Speicherplatz im Dateisystem liegt dagegen auf Datenträgern, Partitionen oder eingebundenen Verzeichnissen. Beide Arten von Speicher können knapp werden, aber sie verursachen unterschiedliche Probleme.

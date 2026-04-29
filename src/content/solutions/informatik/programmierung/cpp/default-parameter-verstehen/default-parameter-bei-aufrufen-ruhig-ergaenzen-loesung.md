@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – Default-Parameter bei Aufrufen ruhig ergänzen
-description: Musterlösung zur Aufgabe INF-PROG-CPP-FUNC-005.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - funktionen-und-parameter
-  - default-parameter-verstehen
-  - default-parameter-bei-aufrufen-ruhig-ergaenzen-loesung
-taskId: INF-PROG-CPP-FUNC-005
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/default-parameter-verstehen/default-parameter-bei-aufrufen-ruhig-ergaenzen.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – Default-Parameter bei Aufrufen ruhig ergänzen"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-FUNC-005."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "default-parameter-verstehen", "default-parameter-bei-aufrufen-ruhig-ergaenzen"]
+taskId: "INF-PROG-CPP-FUNC-005"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/default-parameter-verstehen/default-parameter-bei-aufrufen-ruhig-ergaenzen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Aufruf ergänzen
 
 Beim Aufruf wird der Preis <code>19.95</code> explizit übergeben. Für <code>stellen</code> fehlt ein Argument, deshalb wird der Vorgabewert <code>2</code> eingesetzt.

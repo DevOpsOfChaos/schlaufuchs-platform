@@ -3,21 +3,12 @@ title: "Lösung – Komponentenvertrag dokumentieren"
 description: "Musterlösung zu komponentenvertrag dokumentieren mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "projektpraxis"
-  - "tests-und-review"
-  - "komponentenvertrag-dokumentieren"
+topicPath: ["projektpraxis", "tests-und-review", "komponentenvertrag-dokumentieren"]
 taskId: "v112-web-development-komponentenvertrag-dokumentieren"
 relatedExercise: "web-development/projektpraxis/tests-und-review/komponentenvertrag-dokumentieren"
-tags:
-  - "web-development"
-  - "v112"
-  - "feinstruktur"
-  - "projektpraxis"
-  - "komponentenvertrag-dokumentieren"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Projektpraxis Tests und Review**.

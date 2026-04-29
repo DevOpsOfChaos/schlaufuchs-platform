@@ -1,36 +1,19 @@
 ---
 title: "Repository Pattern"
 description: "Das Repository Pattern kapselt Datenzugriff hinter einer fachlich orientierten Schnittstelle."
-subject: informatik
+subject: "informatik"
 section: "Softwarearchitektur"
-topicPath:
-  - "repository-pattern"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Repository Pattern als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["repository-pattern", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft werden Repositories als dünne CRUD-Hülle gebaut, die weder Fachsprache noch Abgrenzung verbessert."
-keyTakeaways:
-  - "Das Repository Pattern kapselt Datenzugriff hinter einer fachlich orientierten Schnittstelle."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Repository Pattern, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Repository Pattern in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "datenzugriff"
-  - "pattern"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Softwarearchitektur"]
 draft: false
 ---
-
 # Repository Pattern
 
 Das Repository Pattern kapselt Datenzugriff hinter einer fachlich orientierten Schnittstelle. Diese Überblicksseite ordnet das Thema ruhig und allgemein ein. Sie ist nicht als Aufgabe oder Einzelfall gedacht, sondern als Einstieg, bevor konkrete Situationen, Werkzeuge, Formeln oder Fehlersuchen betrachtet werden.

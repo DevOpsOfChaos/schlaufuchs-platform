@@ -1,34 +1,19 @@
 ---
 title: "SSH-Konfiguration"
 description: "Allgemeiner Überblick über SSH-Konfiguration und wiederverwendbare Verbindungsprofile."
-subject: linux
+subject: "linux"
 section: "SSH"
-topicPath:
-  - "ssh-konfiguration"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst SSH-Konfiguration als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["ssh-konfiguration", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Optionen direkt in Befehlen verstreut. Dadurch entstehen schwer reproduzierbare Unterschiede."
-keyTakeaways:
-  - "SSH-Konfiguration macht Remote-Zugriffe übersichtlicher und reproduzierbarer."
-  - "SSH-Konfiguration sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um SSH-Konfiguration."
-selfCheckPoints:
-  - "Kann ich erklären, woran man SSH-Konfiguration erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "linux"
-  - "ssh"
-  - "konfiguration"
-  - "remote"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "SSH"]
 draft: false
 ---
-
 # SSH-Konfiguration
 
 Die SSH-Konfiguration beschreibt, wie Verbindungen zu entfernten Systemen aufgebaut werden.

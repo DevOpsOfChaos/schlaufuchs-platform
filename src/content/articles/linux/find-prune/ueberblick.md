@@ -1,35 +1,17 @@
 ---
 title: "find und prune"
 description: "Überblick über `find -prune` zum gezielten Ausschließen von Verzeichnissen bei Dateisuchen."
-subject: linux
+subject: "linux"
 section: "Dateisuche"
-topicPath:
-  - "find-prune"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst find und prune als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["find-prune", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Viele Fehler entstehen, wenn -prune wie ein gewöhnlicher Ausschlussfilter verstanden und falsch mit -name kombiniert wird."
-keyTakeaways:
-  - "find -prune beendet die Suche in ausgewählten Verzeichniszweigen, bevor sie weiter durchlaufen werden."
-  - "Damit lassen sich große, irrelevante oder gefährliche Bereiche wie node_modules, .git oder gemountete Backups überspringen."
-  - "prune ist kein nachträglicher Filter. Es verändert den Suchweg selbst."
-recognizeSignals:
-  - "Es geht um find und prune, wenn die Reihenfolge der Ausdrücke in find ist entscheidend."
-  - "Das Thema wird relevant, wenn Beispiele wie eine Suche kann .git-Verzeichnisse überspringen, damit Treffer in internen Git-Dateien nicht stören."
-selfCheckPoints:
-  - "Kann ich find und prune in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "find"
-  - "suche"
-  - "shell"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dateisuche"]
 draft: false
 ---
 # find und prune

@@ -3,23 +3,12 @@ title: "Lösung – aria-label und sichtbaren Text abgleichen"
 description: "Musterlösung zu aria-label und sichtbaren Text abgleichen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "HTML und Barrierefreiheit"
-topicPath:
-  - "html-a11y"
-  - "semantik-status-fokus"
-  - "v110-teil-2"
-  - "aria-label-und-sichtbaren-text-abgleichen"
+topicPath: ["html-a11y", "semantik-status-fokus", "v110-teil-2", "aria-label-und-sichtbaren-text-abgleichen"]
 taskId: "v110-web-development-aria-label-und-sichtbaren-text-abgleichen"
 relatedExercise: "web-development/html-a11y/semantik-status-fokus/v110-teil-2/aria-label-und-sichtbaren-text-abgleichen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "html-a11y"
-  - "semantik-status-fokus"
-  - "aria-label-und-sichtbaren-text-abgleichen"
+tags: ["web-development", "HTML und Barrierefreiheit", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **aria-label und sichtbaren Text abgleichen**.

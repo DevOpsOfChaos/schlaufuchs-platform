@@ -1,34 +1,19 @@
 ---
 title: "Wahrscheinlichkeit"
 description: "Allgemeiner Überblick über Wahrscheinlichkeit als Maß für Unsicherheit und erwartbare Häufigkeit."
-subject: mathematik
+subject: "mathematik"
 section: "Daten und Zufall"
-topicPath:
-  - "wahrscheinlichkeit"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst Wahrscheinlichkeit als Maß zwischen unmöglich und sicher."
-  - "Du kannst Ergebnis, Ereignis und Gegenereignis grob unterscheiden."
-  - "Du verstehst den Unterschied zwischen Wahrscheinlichkeit und tatsächlichem Einzelverlauf."
+topicPath: ["wahrscheinlichkeit", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Wahrscheinlichkeit mit Garantie zu verwechseln."
-  - "Kurzfristige Zufallsschwankungen als Widerspruch zur Wahrscheinlichkeit zu deuten."
-keyTakeaways:
-  - "Wahrscheinlichkeit beschreibt Unsicherheit, nicht sichere Vorhersage im Einzelfall."
-  - "Ereignisse können über Ergebnisse, Häufigkeiten und Modelle beschrieben werden."
-recognizeSignals:
-  - "Es geht um Zufall, Würfel, Karten, relative Häufigkeit, Risiko oder Gegenereignis."
-selfCheckPoints:
-  - "Kann ich sagen, welches Ereignis betrachtet wird und welche Ergebnisse dazu gehören?"
-level: einfach
-tags:
-  - "mathematik"
-  - "wahrscheinlichkeit"
-  - "zufall"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Daten und Zufall"]
 draft: false
 ---
-
 # Wahrscheinlichkeit
 
 ![Schaubild zur Wahrscheinlichkeit.](/schlaufuchs-platform/images/overviews/v148/wahrscheinlichkeit.svg)

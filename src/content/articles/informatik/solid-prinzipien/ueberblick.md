@@ -1,36 +1,19 @@
 ---
 title: "SOLID-Prinzipien"
 description: "SOLID-Prinzipien sind Entwurfsregeln für objektorientierte Software, die Verständlichkeit, Erweiterbarkeit und Austauschbarkeit fördern sollen."
-subject: informatik
+subject: "informatik"
 section: "Softwareentwurf"
-topicPath:
-  - "solid-prinzipien"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst SOLID-Prinzipien als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["solid-prinzipien", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Prinzipien dogmatisch angewendet, wodurch unnötige Abstraktionen entstehen."
-keyTakeaways:
-  - "SOLID-Prinzipien sind Entwurfsregeln für objektorientierte Software, die Verständlichkeit, Erweiterbarkeit und Austauschbarkeit fördern sollen."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um SOLID-Prinzipien, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich SOLID-Prinzipien in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "softwaredesign"
-  - "wartbarkeit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Softwareentwurf"]
 draft: false
 ---
-
 # SOLID-Prinzipien
 
 SOLID-Prinzipien sind Entwurfsregeln für objektorientierte Software, die Verständlichkeit,

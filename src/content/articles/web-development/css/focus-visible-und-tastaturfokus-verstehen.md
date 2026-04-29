@@ -1,45 +1,19 @@
 ---
-title: Focus-Visible und Tastaturfokus verstehen
-description: Verstehe, warum focus-visible den Tastaturfokus gezielter sichtbar macht und warum Fokusmarkierungen nicht einfach störende Ränder sind.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - selektoren
-  - focus-visible-und-tastaturfokus-verstehen
-learningGoals:
-  - Du erklärst den Unterschied zwischen focus und focus-visible.
-  - Du beschreibst, warum Tastaturfokus sichtbar bleiben muss.
-  - Du liest Fokuszustände eher als Bedienhilfe als als bloße Dekoration.
-practiceIdeas:
-  - Vergleiche einen Buttonzustand bei Mausinteraktion und bei Tastaturnavigation.
-  - Prüfe, welche Markierung nur dann auftauchen soll, wenn Orientierung wirklich gebraucht wird.
-  - Lies Fokusmarkierungen als Teil der Nutzbarkeit, nicht nur des Styles.
-commonMistakes:
-  - focus und focus-visible als dasselbe zu behandeln.
-  - Fokusmarkierungen aus optischen Gründen komplett zu entfernen.
-  - Tastaturbedienung nur mitzudenken, wenn Formulare sichtbar sind.
-keyTakeaways:
-  - focus-visible ist besonders für sichtbare Tastaturorientierung hilfreich.
-  - Nicht jede Mausinteraktion braucht dieselbe Markierung wie die Tastaturnavigation.
-  - Gute Fokuszustände sind ein Nutzbarkeitsthema.
-recognizeSignals:
-  - Es geht um Buttons, Links, Formulare oder Tastaturnavigation.
-  - Du sollst erklären, wann eine Fokusmarkierung sichtbar werden sollte.
-  - In Beispielen ist Orientierung wichtiger als Farbe oder Designgeschmack.
-selfCheckPoints:
-  - Kann ich focus und focus-visible sauber trennen?
-  - Kann ich erklären, warum Tastaturfokus sichtbar bleiben sollte?
-  - Kann ich einen Fokuszustand aus Sicht der Bedienbarkeit lesen?
-tags:
-  - css
-  - focus-visible
-  - focus
-  - accessibility
-level: mittel
+title: "Focus-Visible und Tastaturfokus verstehen"
+description: "Verstehe, warum focus-visible den Tastaturfokus gezielter sichtbar macht und warum Fokusmarkierungen nicht einfach störende Ränder sind."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "focus-visible-und-tastaturfokus-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Element kann den Fokus haben, ohne dass jede Interaktion gleich aussehen muss. `:focus-visible` hilft dabei, Fokus besonders dann klar zu markieren, wenn Nutzende über die Tastatur Orientierung brauchen.

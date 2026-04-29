@@ -1,33 +1,19 @@
 ---
 title: "Logweiterleitung"
 description: "Logweiterleitung transportiert Protokolle von einem System zu einem anderen Ziel. Sie ist wichtig für zentrale Auswertung, Fehleranalyse und Nachvollziehbarkeit."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "logweiterleitung"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Logweiterleitung."
-  - "Du kannst Logweiterleitung in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["logweiterleitung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Logs nur lokal zu speichern, obwohl der Fehlerfall das System selbst unzugänglich machen kann."
-keyTakeaways:
-  - "Logweiterleitung transportiert Protokolle von einem System zu einem anderen Ziel."
-  - "Wichtig sind vor allem lokale und zentrale logs, transport und pufferung und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Logweiterleitung, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Logweiterleitung dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "linux"
-  - "grundlagen"
-  - "logweiterleitung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # Logweiterleitung
 
 Logweiterleitung transportiert Protokolle von einem System zu einem anderen Ziel. Sie ist wichtig für zentrale Auswertung, Fehleranalyse und Nachvollziehbarkeit. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

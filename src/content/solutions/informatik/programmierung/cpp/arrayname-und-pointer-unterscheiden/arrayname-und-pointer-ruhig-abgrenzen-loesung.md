@@ -1,22 +1,12 @@
 ---
-title: Musterlösung – Arrayname und Pointer ruhig abgrenzen
-description: Musterlösung zur Aufgabe INF-PROG-CPP-PTR-006.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - pointer-und-adressen
-  - arrayname-und-pointer-unterscheiden
-  - arrayname-und-pointer-ruhig-abgrenzen-loesung
-taskId: INF-PROG-CPP-PTR-006
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/arrayname-und-pointer-unterscheiden/arrayname-und-pointer-ruhig-abgrenzen.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – Arrayname und Pointer ruhig abgrenzen"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-PTR-006."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "arrayname-und-pointer-unterscheiden", "arrayname-und-pointer-ruhig-abgrenzen"]
+taskId: "INF-PROG-CPP-PTR-006"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/arrayname-und-pointer-unterscheiden/arrayname-und-pointer-ruhig-abgrenzen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
 ## Aufgabe 1: Strukturaussagen zuordnen

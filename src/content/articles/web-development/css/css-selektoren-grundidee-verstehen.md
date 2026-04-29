@@ -1,44 +1,19 @@
 ---
-title: CSS-Selektoren – Grundidee verstehen
-description: Verstehe, wie CSS mit Selektoren Elemente anspricht und warum gezielte Auswahl wichtiger ist als bloß viele Regeln zu schreiben.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - css-selektoren-grundidee-verstehen
-learningGoals:
-  - Du erklärst, was ein CSS-Selektor macht.
-  - Du unterscheidest wichtige Selektorarten und Beziehungen.
-  - Du liest CSS-Regeln ruhiger über die Frage, welches Element überhaupt gemeint ist.
-practiceIdeas:
-  - Prüfe bei einer CSS-Regel zuerst die Zielauswahl.
-  - Vergleiche Klassen-, ID- und Beziehungsauswahl.
-  - Erkläre, warum eine Regel zu breit oder passend formuliert ist.
-commonMistakes:
-  - Nur auf die Eigenschaft zu schauen und den Selektor zu übergehen.
-  - Klassen, IDs und Beziehungen zu vermischen.
-  - Zu breite Auswahl zu verwenden, obwohl nur ein Teilbereich gemeint ist.
-keyTakeaways:
-  - Ein Selektor bestimmt, welche Elemente eine Regel trifft.
-  - Gute CSS-Regeln beginnen mit klarer Zielauswahl.
-  - Beziehungen wie direktes Kind oder Nachbarelement ändern die Wirkung stark.
-recognizeSignals:
-  - Es geht um CSS-Regeln, Gestaltung oder die Frage, warum etwas gestylt wird.
-  - Du sollst erklären, welche Elemente eine Regel trifft.
-  - In Beispielen tauchen Punkt, Raute, Leerzeichen, >, +, ~ oder [] auf.
-selfCheckPoints:
-  - Kann ich sagen, welches Element eine Regel anspricht?
-  - Kann ich Klasse, ID und Beziehungsselektor unterscheiden?
-  - Kann ich zu breite und passend gezielte Auswahl unterscheiden?
-tags:
-  - css
-  - selektoren
-  - html
-  - struktur
-level: einfach
+title: "CSS-Selektoren – Grundidee verstehen"
+description: "Verstehe, wie CSS mit Selektoren Elemente anspricht und warum gezielte Auswahl wichtiger ist als bloß viele Regeln zu schreiben."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "css-selektoren-grundidee-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 CSS besteht nicht nur aus Farben, Größen und Abständen. Vor jeder Gestaltung steht zuerst eine andere Frage: **Welches Element soll überhaupt getroffen werden?** Genau das klären Selektoren.

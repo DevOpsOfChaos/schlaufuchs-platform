@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Datenmodell und Realität – Anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über Datenmodell und Realität."
-subject: informatik
+subject: "informatik"
 section: "daten-und-information"
-topicPath:
-  - "daten-und-information"
-  - "datenmodell-und-realitaet"
-taskId: INF-DATENMODELL-UND-REALITAET-842
-relatedExercise: src/content/exercises/informatik/daten-und-information/datenmodell-und-realitaet/datenmodell-und-realitaet-anwenden-und-pruefen-v184.md
-tags:
-  - "informatik"
-  - "datenmodell"
-  - "modellierung"
-  - "loesung"
+topicPath: ["daten-und-information", "datenmodell-und-realitaet", "datenmodell-und-realitaet-anwenden-und-pruefen-v184"]
+taskId: "INF-DATENMODELL-UND-REALITAET-842"
+relatedExercise: "src/content/exercises/informatik/daten-und-information/datenmodell-und-realitaet/datenmodell-und-realitaet-anwenden-und-pruefen-v184.md"
+tags: ["informatik", "daten-und-information", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

@@ -3,23 +3,12 @@ title: "Lösung – Pull-up-Widerstand nicht beliebig wählen"
 description: "Musterlösung zu Pull-up-Widerstand nicht beliebig wählen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Grundschaltungen"
-topicPath:
-  - "grundschaltungen"
-  - "spannung-strom-widerstand"
-  - "v110-teil-2"
-  - "pullup-widerstand-nicht-beliebig-waehlen"
+topicPath: ["grundschaltungen", "spannung-strom-widerstand", "v110-teil-2", "pullup-widerstand-nicht-beliebig-waehlen"]
 taskId: "v110-elektrotechnik-pullup-widerstand-nicht-beliebig-waehlen"
 relatedExercise: "elektrotechnik/grundschaltungen/spannung-strom-widerstand/v110-teil-2/pullup-widerstand-nicht-beliebig-waehlen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "grundschaltungen"
-  - "spannung-strom-widerstand"
-  - "pull-up-widerstand-nicht-beliebig-waehlen"
+tags: ["elektrotechnik", "Grundschaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Pull-up-Widerstand nicht beliebig wählen**.

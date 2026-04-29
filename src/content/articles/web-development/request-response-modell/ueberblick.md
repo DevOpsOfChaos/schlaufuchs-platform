@@ -1,30 +1,17 @@
 ---
 title: "Request-Response-Modell"
 description: "Allgemeiner Überblick: Webkommunikation folgt häufig dem Muster Anfrage, Verarbeitung und Antwort."
-subject: web-development
+subject: "web-development"
 section: "Grundlagen"
-topicPath:
-  - "request-response-modell"
-learningGoals:
-  - "Du kannst request-response-modell als Grundidee einordnen."
-  - "Du erkennst wichtige Bestandteile und typische Grenzen."
-  - "Du kannst das Thema in einfachen Worten erklären."
+topicPath: ["request-response-modell", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur ein Detail zu betrachten und den Zusammenhang zu übersehen."
-  - "Das Schaubild als exakte technische Darstellung statt als Orientierung zu lesen."
-keyTakeaways:
-  - "Webkommunikation folgt häufig dem Muster Anfrage, Verarbeitung und Antwort."
-  - "Ein Überblicksbild hilft, Begriffe und Beziehungen ruhig zu ordnen."
-recognizeSignals:
-  - "Es geht um request-response-modell, Grundbegriffe, Zusammenhänge oder typische Fehlerquellen."
-selfCheckPoints:
-  - "Kann ich erklären, welche Rolle request-response-modell im größeren Zusammenhang spielt?"
-level: einfach
-tags:
-  - "web-development"
-  - "request response modell"
-  - "überblick"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Grundlagen"]
 draft: false
 ---
 # Request-Response-Modell

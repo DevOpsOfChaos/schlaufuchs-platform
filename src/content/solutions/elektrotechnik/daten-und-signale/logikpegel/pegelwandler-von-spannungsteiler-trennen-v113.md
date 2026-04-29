@@ -3,20 +3,12 @@ title: "Lösung – Pegelwandler von Spannungsteiler trennen"
 description: "Musterlösung zu Pegelwandler von Spannungsteiler trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "logikpegel"
-  - "pegelwandler-von-spannungsteiler-trennen-v113"
+topicPath: ["daten-und-signale", "logikpegel", "pegelwandler-von-spannungsteiler-trennen-v113"]
 taskId: "v113-elektrotechnik-pegelwandler-von-spannungsteiler-trennen-v113"
 relatedExercise: "elektrotechnik/daten-und-signale/logikpegel/pegelwandler-von-spannungsteiler-trennen-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "pegelwandler-von-spannungsteiler-trennen-v113"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Pegelwandler von Spannungsteiler trennen**.

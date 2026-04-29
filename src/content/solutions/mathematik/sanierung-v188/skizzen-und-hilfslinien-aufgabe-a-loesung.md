@@ -3,22 +3,12 @@ title: "Lösung: Skizzen und Hilfslinien: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-027a."
 subject: "mathematik"
 section: "geometrie-messen-und-begruenden"
-topicPath:
-  - "geometrie-messen-und-begruenden"
-  - "skizzen-und-hilfslinien"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "skizzen-und-hilfslinien-aufgabe-a"]
 taskId: "mat-v188-027a"
 relatedExercise: "mathematik/sanierung-v188/skizzen-und-hilfslinien-aufgabe-a"
-tags:
-  - "skizze"
-  - "hilfslinie"
-  - "begruendung"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "geometrie-messen-und-begruenden", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-027a`
 
 Eine mögliche Lösung:

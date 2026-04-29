@@ -1,34 +1,19 @@
 ---
 title: "Versorgungsschienen"
 description: "Überblick über Versorgungsschienen als gemeinsame Spannungsnetze für Baugruppen und ihre Bedeutung für Stabilität und Fehlersuche."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik"
-topicPath:
-  - "versorgungsschienen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["versorgungsschienen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Alle Punkte einer Versorgungsschiene als exakt gleich und störungsfrei anzunehmen."
-keyTakeaways:
-  - "Versorgungsschienen sind gemeinsame Energie- und Bezugssysteme, deren Stabilität die gesamte Schaltung beeinflusst."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn mehrere Baugruppen gleichzeitig ausfallen, Reset-Probleme auftreten oder Spannungseinbrüche vermutet werden."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "versorgung"
-  - "spannungen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik"]
 draft: false
 ---
-
 # Versorgungsschienen
 
 Eine Versorgungsschiene ist ein Netz gleicher Versorgungsspannung, etwa 5 V, 3,3 V oder Masse. Sie verteilt Energie an mehrere Bauteile und bildet oft die Grundlage für digitale und analoge Funktion.

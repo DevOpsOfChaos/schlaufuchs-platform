@@ -1,22 +1,12 @@
 ---
-title: Musterlösung – Pointerparameter und Referenzparameter sauber vergleichen
-description: Musterlösung zur Aufgabe INF-PROG-CPP-PARAM-001.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - funktionen-und-parameter
-  - pointerparameter-und-referenzparameter-unterscheiden
-  - pointerparameter-und-referenzparameter-sauber-vergleichen-loesung
-taskId: INF-PROG-CPP-PARAM-001
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/pointerparameter-und-referenzparameter-unterscheiden/pointerparameter-und-referenzparameter-sauber-vergleichen.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – Pointerparameter und Referenzparameter sauber vergleichen"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-PARAM-001."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "pointerparameter-und-referenzparameter-unterscheiden", "pointerparameter-und-referenzparameter-sauber-vergleichen"]
+taskId: "INF-PROG-CPP-PARAM-001"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/pointerparameter-und-referenzparameter-unterscheiden/pointerparameter-und-referenzparameter-sauber-vergleichen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
 ## Aufgabe 1: Vertrag der Schnittstelle lesen

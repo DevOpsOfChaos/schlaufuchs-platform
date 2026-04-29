@@ -1,36 +1,19 @@
 ---
 title: "Temperaturmessung mit NTC"
 description: "Ein NTC ist ein temperaturabhängiger Widerstand, dessen Widerstandswert bei steigender Temperatur typischerweise sinkt."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Sensorik"
-topicPath:
-  - "temperaturmessung-mit-ntc"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Temperaturmessung mit NTC als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["temperaturmessung-mit-ntc", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird eine lineare Umrechnung angenommen. In vielen Temperaturbereichen ist das nur eine grobe Näherung."
-keyTakeaways:
-  - "Ein NTC ist ein temperaturabhängiger Widerstand, dessen Widerstandswert bei steigender Temperatur typischerweise sinkt."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Temperaturmessung mit NTC, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Temperaturmessung mit NTC in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "sensor"
-  - "temperatur"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Sensorik"]
 draft: false
 ---
-
 # Temperaturmessung mit NTC
 
 Ein NTC ist ein temperaturabhängiger Widerstand, dessen Widerstandswert bei steigender

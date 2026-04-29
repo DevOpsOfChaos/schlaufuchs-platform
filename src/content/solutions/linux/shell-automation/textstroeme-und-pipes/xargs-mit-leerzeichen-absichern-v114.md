@@ -1,23 +1,14 @@
 ---
-title: Lösung – xargs mit Leerzeichen absichern
-description: Musterlösung zur Aufgabe über xargs mit Leerzeichen absichern.
-subject: linux
-section: Feinstruktur Linux
-topicPath:
-- shell-automation
-- textstroeme-und-pipes
-- xargs-mit-leerzeichen-absichern-v114
-taskId: v114-linux-xargs-mit-leerzeichen-absichern-v114
-relatedExercise: linux/shell-automation/textstroeme-und-pipes/xargs-mit-leerzeichen-absichern-v114
-tags:
-- linux
-- v114
-- loesung
-- shell-automation
-- textstroeme-und-pipes
+title: "Lösung – xargs mit Leerzeichen absichern"
+description: "Musterlösung zur Aufgabe über xargs mit Leerzeichen absichern."
+subject: "linux"
+section: "Feinstruktur Linux"
+topicPath: ["shell-automation", "textstroeme-und-pipes", "xargs-mit-leerzeichen-absichern-v114"]
+taskId: "v114-linux-xargs-mit-leerzeichen-absichern-v114"
+relatedExercise: "linux/shell-automation/textstroeme-und-pipes/xargs-mit-leerzeichen-absichern-v114"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

@@ -3,35 +3,15 @@ title: "Aufgabe – Innenwiderstand als Messfehlerquelle einordnen"
 description: "Übe Innenwiderstand mit Szenario, Trennkante und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "grundlagen"
-  - "spannung-strom-widerstand"
-  - "innenwiderstand"
-  - "innenwiderstand-als-messfehlerquelle-einordnen"
+topicPath: ["grundlagen", "spannung-strom-widerstand", "innenwiderstand", "innenwiderstand-als-messfehlerquelle-einordnen"]
 taskId: "v111-elektrotechnik-innenwiderstand-als-messfehlerquelle-einordnen"
-tags:
-  - "elektrotechnik"
-  - "praxis"
-  - "unterthema"
-  - "grundlagen"
-  - "spannung-strom-widerstand"
-  - "innenwiderstand-als-messfehlerquelle-einordnen"
-hintPoints:
-  - "Benenne zuerst das genaue Unterthema."
-  - "Schreibe die typische Verwechslung ausdrücklich auf."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Lösung enger als ein breites Kapitel?"
-  - "Wird ein Nachbarthema sauber ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere eine zweite Aufgabe im gleichen Unterthema mit anderer Oberfläche."
-reflectionPrompt: "Welche kleine Trennkante macht Innenwiderstand übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Innenwiderstand**.

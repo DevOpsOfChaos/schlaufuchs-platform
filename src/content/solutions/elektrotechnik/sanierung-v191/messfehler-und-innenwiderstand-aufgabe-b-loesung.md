@@ -3,23 +3,12 @@ title: "Lösung: Messfehler und Innenwiderstand: Aufgabe B"
 description: "Musterlösung zur Aufgabe etech-v191-010b im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "messpraxis"
-  - "messfehler-und-innenwiderstand"
-  - "loesung-b"
+topicPath: ["sanierung-v191", "messfehler-und-innenwiderstand-aufgabe-b"]
 taskId: "etech-v191-010b"
 relatedExercise: "elektrotechnik/sanierung-v191/messfehler-und-innenwiderstand-aufgabe-b"
-tags:
-  - "messpraxis"
-  - "messfehler"
-  - "schaltung"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-010b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Messfehler und Innenwiderstand“ um einen Messfehler, einen Sicherheitscheck und eine kurze Plausibilitätsprüfung.

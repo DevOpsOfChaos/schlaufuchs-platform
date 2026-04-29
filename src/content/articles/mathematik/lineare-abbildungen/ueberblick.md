@@ -1,33 +1,19 @@
 ---
 title: "Lineare Abbildungen"
 description: "Lineare Abbildungen erhalten Addition und Skalierung. Sie beschreiben Streckungen, Drehungen, Spiegelungen, Projektionen und Koordinatentransformationen."
-subject: mathematik
+subject: "mathematik"
 section: "Mathematik"
-topicPath:
-  - "lineare-abbildungen"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Lineare Abbildungen."
-  - "Du kannst Lineare Abbildungen in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["lineare-abbildungen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Verschiebungen als lineare Abbildungen zu behandeln."
-keyTakeaways:
-  - "Lineare Abbildungen erhalten Addition und Skalierung."
-  - "Wichtig sind vor allem abbildung von vektoren, matrixdarstellung und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Lineare Abbildungen, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Lineare Abbildungen dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "grundlagen"
-  - "lineare abbildungen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Mathematik"]
 draft: false
 ---
-
 # Lineare Abbildungen
 
 Lineare Abbildungen erhalten Addition und Skalierung. Sie beschreiben Streckungen, Drehungen, Spiegelungen, Projektionen und Koordinatentransformationen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

@@ -1,33 +1,19 @@
 ---
 title: "Strommessung"
 description: "Strommessung macht sichtbar, wie viel Ladung pro Zeit durch einen Pfad fließt. Sie ist wichtig für Energiebedarf, Fehleranalyse und Schutzfunktionen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik und Mikrocontroller"
-topicPath:
-  - "strommessung"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Strommessung."
-  - "Du kannst Strommessung in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["strommessung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein Multimeter im Strombereich parallel an eine Spannungsquelle anzuschließen."
-keyTakeaways:
-  - "Strommessung macht sichtbar, wie viel Ladung pro Zeit durch einen Pfad fließt."
-  - "Wichtig sind vor allem messung in serie, shunt, hall-sensor und stromzange und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Strommessung, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Strommessung dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "grundlagen"
-  - "strommessung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik und Mikrocontroller"]
 draft: false
 ---
-
 # Strommessung
 
 Strommessung macht sichtbar, wie viel Ladung pro Zeit durch einen Pfad fließt. Sie ist wichtig für Energiebedarf, Fehleranalyse und Schutzfunktionen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

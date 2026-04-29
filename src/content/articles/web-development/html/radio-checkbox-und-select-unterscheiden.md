@@ -1,46 +1,19 @@
 ---
-title: Radio, Checkbox und Select unterscheiden
-description: Verstehe, wie diese Formularelemente unterschiedliche Auswahlmodelle abbilden und warum die sichtbare Eingabeform zur Entscheidungslogik passen sollte.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - formulare-und-eingaben
-  - radio-checkbox-und-select-unterscheiden
-learningGoals:
-  - Du unterscheidest Radio-Buttons, Checkboxes und Select-Felder nach ihrer Auswahlidee.
-  - Du erklärst, warum sichtbare Auswahl und Entscheidungslogik zusammenpassen müssen.
-  - Du wählst Eingabeelemente eher nach erlaubter Auswahl als nach Gewohnheit.
-practiceIdeas:
-  - Vergleiche eine exklusive Auswahl mit einer Mehrfachauswahl.
-  - Prüfe bei langen Listen, wann ein Select ruhiger wirkt als viele direkt sichtbare Optionen.
-  - Lies Formulare nicht nur optisch, sondern als Modell für Entscheidungen.
-commonMistakes:
-  - Checkboxes für genau eine Auswahl zu benutzen.
-  - Radios für mehrere gleichzeitig gültige Optionen zu wählen.
-  - Select-Felder einzusetzen, obwohl ein direkter sichtbarer Vergleich sinnvoller wäre.
-keyTakeaways:
-  - Radios stehen für genau eine Auswahl aus mehreren Möglichkeiten.
-  - Checkboxes erlauben mehrere gleichzeitig gültige Optionen.
-  - Ein Select bündelt Optionen kompakt, ist aber nicht immer die anschaulichste Wahl.
-recognizeSignals:
-  - Es geht um Versandarten, Interessen, Länderlisten oder Filteroptionen.
-  - Du sollst begründen, wie viele Optionen gleichzeitig gelten dürfen.
-  - In Beispielen zählt die Entscheidungslogik stärker als das Styling des Formulars.
-selfCheckPoints:
-  - Kann ich exklusive und mehrfache Auswahl klar unterscheiden?
-  - Kann ich begründen, wann ein Select sinnvoller ist?
-  - Kann ich erklären, warum sichtbare Form und Entscheidungsmodell zusammenpassen sollten?
-tags:
-  - html
-  - formular
-  - radio
-  - checkbox
-  - select
-level: einfach
+title: "Radio, Checkbox und Select unterscheiden"
+description: "Verstehe, wie diese Formularelemente unterschiedliche Auswahlmodelle abbilden und warum die sichtbare Eingabeform zur Entscheidungslogik passen sollte."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "radio-checkbox-und-select-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Nicht jede Auswahl in einem Formular folgt derselben Logik. Manchmal darf genau eine Option gelten, manchmal mehrere und manchmal gibt es so viele Einträge, dass eine kompakte Liste sinnvoller wirkt.

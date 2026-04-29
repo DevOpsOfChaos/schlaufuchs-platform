@@ -1,46 +1,19 @@
 ---
-title: ATmega – Compare Match verstehen
-description: Verstehe, wie ein AVR-Timer nicht nur überlaufen kann, sondern auch bei einem gezielt gewählten Vergleichswert ein Ereignis auslöst.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - zeitbasis-und-timer
-  - atmega-compare-match-verstehen
-learningGoals:
-  - Du erklärst die Grundidee eines Compare Match beim AVR-Timer.
-  - Du unterscheidest Überlauf und Vergleichstreffer fachlich sauber.
-  - Du liest Timerkonfiguration ruhiger über Zählerstand und Vergleichswert statt nur über Registerkürzel.
-practiceIdeas:
-  - Vergleiche einen freien Überlauf mit einem vorzeitig gesetzten Vergleichswert.
-  - Übersetze einen Compare-Match-Fall erst in Zahlen und dann in Fachsprache.
-  - Prüfe, warum ein Timerereignis nicht erst am Maximalwert passieren muss.
-commonMistakes:
-  - Überlauf und Compare Match als dasselbe Ereignis zu behandeln.
-  - Zu denken, der Timer könne nur bis 255 zählen und erst dann reagieren.
-  - Vergleichswert und Prescaler nicht gemeinsam zu betrachten.
-keyTakeaways:
-  - Ein Compare Match tritt auf, wenn Timerstand und Vergleichswert übereinstimmen.
-  - Ein Timer kann also vor dem Überlauf gezielt ein Ereignis auslösen.
-  - Für reale Zeitvorstellungen müssen Takt, Prescaler und Vergleichswert zusammen gelesen werden.
-recognizeSignals:
-  - Es geht um OCR, Compare Match oder periodische Timerereignisse.
-  - Du sollst erklären, warum ein Timerereignis früher als der Überlauf eintritt.
-  - In Aufgaben müssen Zahlenwerte in Zeitvorstellungen übersetzt werden.
-selfCheckPoints:
-  - Kann ich Überlauf und Compare Match unterscheiden?
-  - Kann ich erklären, warum ein Vergleichswert ein früheres Ereignis erzeugt?
-  - Kann ich Compare Match als gezielte Timergrenze lesen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - timer
-  - compare-match
-level: mittel
+title: "ATmega – Compare Match verstehen"
+description: "Verstehe, wie ein AVR-Timer nicht nur überlaufen kann, sondern auch bei einem gezielt gewählten Vergleichswert ein Ereignis auslöst."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-compare-match-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 Beim AVR-Timer ist der Überlauf nur eine mögliche Grenze. Oft will man nicht warten, bis ein 8-Bit-Timer ganz von 0 bis 255 durchgezählt hat. Dann ist ein **Compare Match** hilfreich: Der Timer löst schon dann ein Ereignis aus, wenn er einen vorher festgelegten Vergleichswert erreicht.
 
 <div class="example-card">

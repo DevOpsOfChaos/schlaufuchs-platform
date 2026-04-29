@@ -3,23 +3,12 @@ title: "Lösung – Rekursion über Basisfall und Verkleinerung prüfen"
 description: "Musterlösung zu Rekursionsbasis und Verkleinerung mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Algorithmen"
-topicPath:
-  - "algorithmen"
-  - "rekursion-und-zustand"
-  - "basisfall"
-  - "rekursion-ueber-basisfall-und-verkleinerung-pruefen"
+topicPath: ["algorithmen", "rekursion-und-zustand", "basisfall", "rekursion-ueber-basisfall-und-verkleinerung-pruefen"]
 taskId: "v109-informatik-rekursion-ueber-basisfall-und-verkleinerung-pruefen"
 relatedExercise: "informatik/algorithmen/rekursion-und-zustand/basisfall/rekursion-ueber-basisfall-und-verkleinerung-pruefen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "algorithmen"
-  - "rekursion-und-zustand"
-  - "rekursionsbasis und verkleinerung"
+tags: ["informatik", "Algorithmen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Rekursionsbasis und Verkleinerung**.

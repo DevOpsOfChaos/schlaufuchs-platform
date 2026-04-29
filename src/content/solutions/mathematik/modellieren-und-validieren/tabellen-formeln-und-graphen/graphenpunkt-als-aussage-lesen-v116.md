@@ -3,22 +3,12 @@ title: "Lösung: Graphenpunkt als Aussage lesen"
 description: "Musterlösung zur Aufgabe „Graphenpunkt als Aussage lesen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "modellieren-und-validieren"
-  - "tabellen-formeln-und-graphen"
-  - "graphenpunkt-als-aussage-lesen-v116"
+topicPath: ["modellieren-und-validieren", "tabellen-formeln-und-graphen", "graphenpunkt-als-aussage-lesen-v116"]
 taskId: "graphenpunkt-als-aussage-lesen-v116"
 relatedExercise: "mathematik/modellieren-und-validieren/tabellen-formeln-und-graphen/graphenpunkt-als-aussage-lesen-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "tabellen formeln und graphen"
-  - "graphenpunkt als aussage lesen"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

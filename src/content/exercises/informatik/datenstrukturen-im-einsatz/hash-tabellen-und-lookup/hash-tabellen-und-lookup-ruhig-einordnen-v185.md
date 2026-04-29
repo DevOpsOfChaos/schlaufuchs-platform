@@ -1,29 +1,17 @@
 ---
 title: "Hash-Tabellen und Lookup – ruhig einordnen"
 description: "Übe, hash-tabellen und lookup fachlich zu erklären und abzugrenzen."
-subject: informatik
+subject: "informatik"
 section: "Datenstrukturen im Einsatz"
-topicPath:
-  - "datenstrukturen-im-einsatz"
-  - "hash-tabellen-und-lookup"
-  - "uebung"
-taskId: INF-V185-012-1
-tags:
-  - "informatik"
-  - "datenstrukturen-im-einsatz"
-  - "hash-tabellen-und-lookup"
-hintPoints:
-  - "Beginne mit der Grundidee, nicht mit einem Spezialfall."
-  - "Trenne Begriff, Beispiel und Prüfung."
-selfCheckPoints:
-  - "Ich kann das Thema in eigenen Worten erklären."
-  - "Ich kann ein passendes Beispiel begründen."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel in einem anderen Fachbereich."
-level: einfach
+topicPath: ["datenstrukturen-im-einsatz", "hash-tabellen-und-lookup", "hash-tabellen-und-lookup-ruhig-einordnen-v185"]
+taskId: "INF-V185-012-1"
+tags: ["informatik", "Datenstrukturen im Einsatz", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe prüft, ob du **Hash-Tabellen und Lookup** zuerst als allgemeines Thema und nicht nur als Einzelfall lesen kannst.
 
 ## Lernziel

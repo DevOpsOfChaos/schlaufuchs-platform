@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Pfade und Navigation"
 description: "Verstehe absolute und relative Pfade sowie Navigation im Dateisystem."
-subject: linux
+subject: "linux"
 section: "shell-und-terminal"
-topicPath:
-  - "shell-und-terminal"
-  - "pfade-und-navigation"
-learningGoals:
-  - "Du erklärst Pfade und Navigation in eigenen Worten."
-  - "Du ordnest typische Befehle, Begriffe oder Prüfschritte richtig ein."
-  - "Du erkennst typische Grenzen und Fehlerquellen im Linux-Alltag."
-practiceIdeas:
-  - "Beschreibe eine kleine Alltagssituation zu diesem Thema."
-  - "Markiere, welche Information zuerst geprüft werden muss."
-commonMistakes:
-  - "Ein einzelnes Kommando für das ganze Thema zu halten."
-  - "Ausgabe, Zustand und Ursache zu vermischen."
-  - "Ohne Kontext direkt an Sonderfälle zu springen."
-keyTakeaways:
-  - "Pfade beschreiben Orte im Dateisystem."
-  - "Relative Pfade hängen vom aktuellen Arbeitsverzeichnis ab."
-  - "Navigation wird sicherer, wenn man aktuellen Ort und Zielpfad bewusst prüft."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung statt nur eines Befehlsrezepts."
-  - "Mehrere ähnliche Befehle oder Dateien wirken unklar."
-selfCheckPoints:
-  - "Kann ich Zweck, Kontext und typischen Prüfschritt unterscheiden?"
-  - "Kann ich eine einfache Fehlannahme zum Thema benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "pfade"
-  - "dateisystem"
+topicPath: ["shell-und-terminal", "pfade-und-navigation", "ueberblick", "grundlagen-pfade-und-navigation-v186"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "shell-und-terminal"]
 draft: false
 ---
-
 ![Pfade und Navigation](/schlaufuchs-platform/images/overviews/v186/pfade-und-navigation.svg)
 
 ## Begriff

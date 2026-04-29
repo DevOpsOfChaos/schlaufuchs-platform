@@ -1,28 +1,17 @@
 ---
 title: "Abstraktion und Modelle – Ruhig einordnen"
 description: "Übe, Abstraktion und Modelle fachlich einzuordnen."
-subject: informatik
+subject: "informatik"
 section: "abstraktion-und-modelle"
-topicPath:
-  - "abstraktion-und-modelle"
-taskId: INF-ABSTRAKTION-UND-MODELLE-841
-tags:
-  - "informatik"
-  - "abstraktion"
-  - "modelle"
-hintPoints:
-  - "Beginne mit der allgemeinen Rolle des Themas."
-  - "Trenne Begriff, Beispiel und Sonderfall sauber."
-selfCheckPoints:
-  - "Ich kann meine Zuordnung begründen."
-  - "Ich vermeide eine reine Einzelfallantwort."
-transferIdeas:
-  - "Übertrage die Idee auf ein anderes kleines Informatikbeispiel."
-reflectionPrompt: "Welche Annahme musste ich bewusst prüfen?"
-level: einfach
+topicPath: ["abstraktion-und-modelle", "abstraktion-und-modelle-ruhig-einordnen-v184"]
+taskId: "INF-ABSTRAKTION-UND-MODELLE-841"
+tags: ["informatik", "abstraktion-und-modelle", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Abstraktion und Modelle**. Sie soll nicht nur eine einzelne Situation lösen, sondern das Thema fachlich einordnen.
 
 ## Lernziel

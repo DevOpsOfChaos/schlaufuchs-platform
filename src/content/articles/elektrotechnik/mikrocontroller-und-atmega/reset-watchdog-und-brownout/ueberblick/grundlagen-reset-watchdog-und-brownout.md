@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Reset, Watchdog und Brown-out"
 description: "Allgemeiner Überblick über definierte Startzustände, Watchdog-Überwachung und Brown-out-Erkennung."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - mikrocontroller-und-atmega
-  - reset-watchdog-und-brownout
-  - ueberblick
-learningGoals:
-  - "Du erklärst die Grundidee von Reset, Watchdog und Brown-out in eigenen Worten."
-  - "Du ordnest typische Begriffe und Fehlerquellen ruhig ein."
-  - "Du erkennst, welche Detailfragen zu diesem Themenbereich gehören."
-practiceIdeas:
-  - "Skizziere den Zusammenhang als kleines Signal-, Strom- oder Ablaufbild."
-  - "Notiere typische Fehlerquellen und prüfe, ob sie elektrisch, logisch oder organisatorisch sind."
-commonMistakes:
-  - "Reset nur als Knopf zu verstehen."
-  - "Brown-out mit einem normalen Programmabbruch zu verwechseln."
-  - "Den Watchdog ohne klare Rücksetzstrategie zu aktivieren."
-keyTakeaways:
-  - "Reset schafft einen definierten Start."
-  - "Brown-out erkennt kritische Versorgungseinbrüche."
-  - "Ein Watchdog ist ein Sicherheitsnetz, kein Ersatz für sauberen Code."
-recognizeSignals:
-  - "Du brauchst zuerst Orientierung, bevor du eine konkrete Schaltung oder Aufgabe bewertest."
-  - "Mehrere Einzelfälle wirken ähnlich, aber der gemeinsame fachliche Rahmen fehlt."
-selfCheckPoints:
-  - "Kann ich den Zweck des Themas ohne Formel auswendig zu lernen erklären?"
-  - "Kann ich typische Fehlerquellen in der richtigen Reihenfolge prüfen?"
-level: einfach
-tags:
-  - elektrotechnik
-  - reset-watchdog-und-brownout
-  - mikrocontroller-und-atmega
+topicPath: ["mikrocontroller-und-atmega", "reset-watchdog-und-brownout", "ueberblick", "grundlagen-reset-watchdog-und-brownout"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-
 ![Startzustand und Überwachung](/schlaufuchs-platform/images/overviews/v181/reset-watchdog-und-brownout.svg)
 
 ## Überblick

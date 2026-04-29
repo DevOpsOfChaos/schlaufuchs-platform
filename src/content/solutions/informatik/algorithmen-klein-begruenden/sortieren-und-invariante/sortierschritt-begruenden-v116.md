@@ -3,22 +3,12 @@ title: "Lösung: Sortierschritt begründen"
 description: "Musterlösung zur Aufgabe „Sortierschritt begründen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "algorithmen-klein-begruenden"
-  - "sortieren-und-invariante"
-  - "sortierschritt-begruenden-v116"
+topicPath: ["algorithmen-klein-begruenden", "sortieren-und-invariante", "sortierschritt-begruenden-v116"]
 taskId: "sortierschritt-begruenden-v116"
 relatedExercise: "informatik/algorithmen-klein-begruenden/sortieren-und-invariante/sortierschritt-begruenden-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "sortieren und invariante"
-  - "sortierschritt begruenden"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

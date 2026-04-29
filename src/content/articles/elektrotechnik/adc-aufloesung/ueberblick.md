@@ -1,33 +1,19 @@
 ---
 title: "ADC-Auflösung"
 description: "Die ADC-Auflösung beschreibt, in wie viele Stufen ein analoger Spannungsbereich digital aufgeteilt wird. Sie beeinflusst die kleinste unterscheidbare Spannungsänderung."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik und Mikrocontroller"
-topicPath:
-  - "adc-aufloesung"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von ADC-Auflösung."
-  - "Du kannst ADC-Auflösung in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["adc-aufloesung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "ADC-Bits mit realer Genauigkeit gleichzusetzen."
-keyTakeaways:
-  - "Die ADC-Auflösung beschreibt, in wie viele Stufen ein analoger Spannungsbereich digital aufgeteilt wird."
-  - "Wichtig sind vor allem bitzahl und quantisierung, referenzspannung und schrittweite und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um ADC-Auflösung, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu ADC-Auflösung dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "grundlagen"
-  - "adc auflösung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik und Mikrocontroller"]
 draft: false
 ---
-
 # ADC-Auflösung
 
 ![Schaubild zur ADC-Auflösung.](/schlaufuchs-platform/images/overviews/v150/adc-aufloesung.svg)

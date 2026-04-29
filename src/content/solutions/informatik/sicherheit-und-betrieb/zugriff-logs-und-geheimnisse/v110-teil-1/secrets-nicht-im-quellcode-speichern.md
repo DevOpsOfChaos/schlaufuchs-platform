@@ -3,23 +3,12 @@ title: "Lösung – Secrets nicht im Quellcode speichern"
 description: "Musterlösung zu Secrets nicht im Quellcode speichern mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Sicherheit und Betrieb"
-topicPath:
-  - "sicherheit-und-betrieb"
-  - "zugriff-logs-und-geheimnisse"
-  - "v110-teil-1"
-  - "secrets-nicht-im-quellcode-speichern"
+topicPath: ["sicherheit-und-betrieb", "zugriff-logs-und-geheimnisse", "v110-teil-1", "secrets-nicht-im-quellcode-speichern"]
 taskId: "v110-informatik-secrets-nicht-im-quellcode-speichern"
 relatedExercise: "informatik/sicherheit-und-betrieb/zugriff-logs-und-geheimnisse/v110-teil-1/secrets-nicht-im-quellcode-speichern"
-tags:
-  - "informatik"
-  - "struktur"
-  - "praxis"
-  - "sicherheit-und-betrieb"
-  - "zugriff-logs-und-geheimnisse"
-  - "secrets-nicht-im-quellcode-speichern"
+tags: ["informatik", "Sicherheit und Betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Secrets nicht im Quellcode speichern**.

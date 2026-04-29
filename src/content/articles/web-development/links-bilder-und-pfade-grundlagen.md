@@ -1,13 +1,19 @@
 ---
-title: Links, Bilder und Pfade – Grundlagen
-description: Verstehe, wie Webseiten Inhalte miteinander verbinden und warum Pfade dabei wichtig sind.
-subject: web-development
-section: links-bilder-und-pfade
-level: einfach
-tags: [links, bilder, pfade, html, web]
+title: "Links, Bilder und Pfade – Grundlagen"
+description: "Verstehe, wie Webseiten Inhalte miteinander verbinden und warum Pfade dabei wichtig sind."
+subject: "web-development"
+section: "links-bilder-und-pfade"
+topicPath: ["links-bilder-und-pfade-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["links", "bilder", "pfade", "html", "web"]
 draft: false
 ---
-
 Webseiten bestehen nicht nur aus einzelnen Textblöcken. Sie leben davon, dass Inhalte verbunden werden – etwa über **Links**, **Bilder** und **Pfade**. Genau diese Verbindung gehört zu den wichtigsten HTML-Grundlagen.
 
 ## Warum sind Links so wichtig?

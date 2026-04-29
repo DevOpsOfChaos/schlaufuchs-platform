@@ -3,33 +3,15 @@ title: "Integral und Fläche: Grundordnung"
 description: "Ordne Integral und Fläche in Zweck, Prüffragen und Fehlerquellen."
 subject: "mathematik"
 section: "analysis-pruefschritte"
-topicPath:
-  - "analysis-pruefschritte"
-  - "integral-und-flaeche"
-  - "aufgabe-a"
+topicPath: ["sanierung-v188", "integral-und-flaeche-aufgabe-a"]
 taskId: "mat-v188-063a"
-tags:
-  - "integral"
-  - "flaeche"
-  - "analysis"
-  - "mathematik"
-  - "aufgabe"
-  - "v188"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["mathematik", "analysis-pruefschritte", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Du arbeitest am Thema **Integral und Fläche**. Erstelle eine kurze, geordnete Erklärung für eine lernende Person.

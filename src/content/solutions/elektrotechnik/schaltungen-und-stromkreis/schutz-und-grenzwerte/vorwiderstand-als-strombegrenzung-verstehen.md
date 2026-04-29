@@ -3,23 +3,12 @@ title: "Lösung – Vorwiderstand als Strombegrenzung verstehen"
 description: "Musterlösung zur Aufgabe über Strombegrenzung mit Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Schaltungen"
-topicPath:
-  - "schaltungen-und-stromkreis"
-  - "schutz-und-grenzwerte"
-  - "vorwiderstand-als-strombegrenzung-verstehen"
+topicPath: ["schaltungen-und-stromkreis", "schutz-und-grenzwerte", "vorwiderstand-als-strombegrenzung-verstehen"]
 taskId: "v106-elektrotechnik-vorwiderstand-als-strombegrenzung-verstehen"
 relatedExercise: "elektrotechnik/schaltungen-und-stromkreis/schutz-und-grenzwerte/vorwiderstand-als-strombegrenzung-verstehen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "mikrocontroller"
-  - "signale"
-  - "strombegrenzung"
-  - "schaltungen-und-stromkreis"
-  - "schutz-und-grenzwerte"
+tags: ["elektrotechnik", "Schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Beobachtung

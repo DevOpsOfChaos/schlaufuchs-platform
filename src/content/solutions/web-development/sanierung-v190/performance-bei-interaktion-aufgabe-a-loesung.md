@@ -3,24 +3,12 @@ title: "Lösung: Performance bei Interaktion: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-v190-027a im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "robuste-webseiten"
-  - "performance-bei-interaktion"
-  - "loesung-a"
+topicPath: ["sanierung-v190", "performance-bei-interaktion-aufgabe-a"]
 taskId: "web-v190-027a"
 relatedExercise: "web-development/sanierung-v190/performance-bei-interaktion-aufgabe-a"
-tags:
-  - "robuste-webseiten"
-  - "performance"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-027a`
 
 Ausgangsauftrag: Identifiziere mögliche Bremsen in einer langen Ergebnisliste.

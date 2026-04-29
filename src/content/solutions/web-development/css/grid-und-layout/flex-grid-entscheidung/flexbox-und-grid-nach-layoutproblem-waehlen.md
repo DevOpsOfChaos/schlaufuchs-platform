@@ -3,23 +3,12 @@ title: "Lösung – Flexbox und Grid nach Layoutproblem wählen"
 description: "Musterlösung zu Flexbox und Grid mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "grid-und-layout"
-  - "flex-grid-entscheidung"
-  - "flexbox-und-grid-nach-layoutproblem-waehlen"
+topicPath: ["css", "grid-und-layout", "flex-grid-entscheidung", "flexbox-und-grid-nach-layoutproblem-waehlen"]
 taskId: "v109-web-development-flexbox-und-grid-nach-layoutproblem-waehlen"
 relatedExercise: "web-development/css/grid-und-layout/flex-grid-entscheidung/flexbox-und-grid-nach-layoutproblem-waehlen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "css"
-  - "grid-und-layout"
-  - "flexbox und grid"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Flexbox und Grid**.

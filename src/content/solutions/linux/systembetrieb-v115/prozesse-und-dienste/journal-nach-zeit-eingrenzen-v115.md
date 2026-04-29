@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Journal nach Zeit eingrenzen"
 description: "Musterlösung zu Journal nach Zeit eingrenzen mit Trennkante und Gegenprobe."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "systembetrieb-v115"
-  - "prozesse-und-dienste"
-  - "journal-nach-zeit-eingrenzen-v115"
+topicPath: ["systembetrieb-v115", "prozesse-und-dienste", "journal-nach-zeit-eingrenzen-v115"]
 taskId: "linux-journal-nach-zeit-eingrenzen-v115"
 relatedExercise: "linux/systembetrieb-v115/prozesse-und-dienste/journal-nach-zeit-eingrenzen-v115"
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "systembetrieb"
-  - "prozesse und dienste"
-  - "lösung"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Journal nach Zeit eingrenzen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

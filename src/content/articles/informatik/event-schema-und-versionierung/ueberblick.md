@@ -1,37 +1,19 @@
 ---
 title: "Event-Schema und Versionierung"
 description: "Überblick über stabile Ereignisformate, Schemaänderungen und Kompatibilität in eventbasierten Systemen."
-subject: informatik
+subject: "informatik"
 section: "Events"
-topicPath:
-  - "event-schema-und-versionierung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Event-Schema und Versionierung als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["event-schema-und-versionierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein Feld umzudeuten, ohne den Eventnamen oder die Version anzupassen."
-keyTakeaways:
-  - "Events sind Verträge zwischen Systemen."
-  - "Kompatibilität betrifft Struktur und Bedeutung."
-  - "Versionierung schützt unabhängige Weiterentwicklung."
-recognizeSignals:
-  - "Mehrere Dienste konsumieren dieselben Ereignisse."
-  - "Ein Eventformat soll geändert werden."
-selfCheckPoints:
-  - "Kann ich Event-Schema und Versionierung in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "events"
-  - "schema"
-  - "versionierung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Events"]
 draft: false
 ---
-
 # Event-Schema und Versionierung
 
 Ein Event-Schema beschreibt Aufbau und Bedeutung eines Ereignisses. Versionierung regelt, wie sich dieses Format ändern darf.

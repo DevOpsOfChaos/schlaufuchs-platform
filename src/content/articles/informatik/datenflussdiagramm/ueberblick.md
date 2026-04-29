@@ -1,31 +1,17 @@
 ---
 title: "Datenflussdiagramm"
 description: "Überblick über Datenflussdiagramme als Darstellung von Eingaben, Verarbeitung, Speicher und Ausgaben."
-subject: informatik
+subject: "informatik"
 section: "Daten"
-topicPath:
-  - "datenflussdiagramm"
-learningGoals:
-  - "Du verstehst Datenflussdiagramme als Sicht auf Informationsbewegung."
-  - "Du kannst Quelle, Prozess, Speicher und Senke unterscheiden."
-  - "Du erkennst ihren Nutzen für Analyse und Kommunikation."
+topicPath: ["datenflussdiagramm", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Datenflussdiagramme mit Ablaufdiagrammen gleichzusetzen."
-  - "Speicherorte und Verarbeitungsschritte nicht zu trennen."
-keyTakeaways:
-  - "Datenflussdiagramme zeigen, welche Daten wohin fließen und wo sie verarbeitet werden."
-  - "Sie helfen, Schnittstellen, Verantwortlichkeiten und Risiken sichtbar zu machen."
-recognizeSignals:
-  - "Es geht um Eingaben, Verarbeitung, Speicher, Ausgabe oder Schnittstellen."
-selfCheckPoints:
-  - "Kann ich Datenfluss und Kontrollfluss voneinander unterscheiden?"
-level: einfach
-tags:
-  - "informatik"
-  - "datenfluss"
-  - "modellierung"
-  - "systemanalyse"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Daten"]
 draft: false
 ---
 # Datenflussdiagramm

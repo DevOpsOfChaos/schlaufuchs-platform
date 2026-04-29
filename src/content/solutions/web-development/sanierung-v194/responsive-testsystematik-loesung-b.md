@@ -3,24 +3,12 @@ title: "Lösung: Responsive Testsystematik: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-development-v194-028b im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "diagnose-und-qa"
-  - "responsive-testsystematik"
-  - "loesung-b"
-
+topicPath: ["sanierung-v194", "responsive-testsystematik-loesung-b"]
 taskId: "web-development-v194-028b"
 relatedExercise: "web-development/sanierung-v194/responsive-testsystematik-aufgabe-b"
-tags:
-  - "responsive"
-  - "testsystematik"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-028b`
 
 Ausgangsauftrag: Übertrage das Thema Responsive Testsystematik auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

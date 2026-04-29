@@ -1,34 +1,19 @@
 ---
 title: "Dienste und Prozesse abgrenzen"
 description: "Überblick über den Unterschied zwischen laufenden Prozessen und dauerhaft verwalteten Diensten unter Linux."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "dienste-und-prozesse-abgrenzen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["dienste-und-prozesse-abgrenzen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Einen laufenden Prozess manuell zu töten und zu erwarten, dass damit die Service-Konfiguration gelöst ist."
-keyTakeaways:
-  - "Dienste sind verwaltete Aufgaben; Prozesse sind konkrete laufende Ausführungen."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn ein Programm automatisch startet, nach Absturz zurückkommt oder über `systemctl` verwaltet wird."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "prozesse"
-  - "systemd"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # Dienste und Prozesse abgrenzen
 
 Ein Prozess ist ein laufendes Programm. Ein Dienst ist meist ein Prozess oder eine Prozessgruppe, die von einem Init- oder Service-System verwaltet wird und eine dauerhafte Aufgabe erfüllt.

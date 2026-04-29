@@ -1,23 +1,14 @@
 ---
-title: Lösung – Retry nicht blind wiederholen
-description: Musterlösung zur Aufgabe über Retry nicht blind wiederholen.
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- browser-javascript
-- fetch-und-fehler
-- retry-nicht-blind-wiederholen-v114
-taskId: v114-web-development-retry-nicht-blind-wiederholen-v114
-relatedExercise: web-development/browser-javascript/fetch-und-fehler/retry-nicht-blind-wiederholen-v114
-tags:
-- web-development
-- v114
-- loesung
-- browser-javascript
-- fetch-und-fehler
+title: "Lösung – Retry nicht blind wiederholen"
+description: "Musterlösung zur Aufgabe über Retry nicht blind wiederholen."
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["browser-javascript", "fetch-und-fehler", "retry-nicht-blind-wiederholen-v114"]
+taskId: "v114-web-development-retry-nicht-blind-wiederholen-v114"
+relatedExercise: "web-development/browser-javascript/fetch-und-fehler/retry-nicht-blind-wiederholen-v114"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

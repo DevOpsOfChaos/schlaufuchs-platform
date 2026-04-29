@@ -3,21 +3,12 @@ title: "Lösung – Masseführung bei Messfehlern prüfen"
 description: "Musterlösung zu masseführung bei messfehlern prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "schaltungen-und-stromkreis"
-  - "massefuehrung-bei-messfehlern-pruefen"
+topicPath: ["daten-und-signale", "schaltungen-und-stromkreis", "massefuehrung-bei-messfehlern-pruefen"]
 taskId: "v112-elektrotechnik-massefuehrung-bei-messfehlern-pruefen"
 relatedExercise: "elektrotechnik/daten-und-signale/schaltungen-und-stromkreis/massefuehrung-bei-messfehlern-pruefen"
-tags:
-  - "elektrotechnik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-signale"
-  - "massefuehrung-bei-messfehlern-pruefen"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Schaltungen und Stromkreis**.

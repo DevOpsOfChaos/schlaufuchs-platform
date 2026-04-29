@@ -1,21 +1,14 @@
 ---
-title: Lösung – Leseflächen und Boxbreiten ruhig begrenzen
-description: Musterlösung zur Aufgabe über width, max-width und begrenzte Lesespalten.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - width-und-max-width-verstehen
-taskId: WEB-CSS-LAYOUT-202
-relatedExercise: web-development/css/width-und-max-width-verstehen/leseflaechen-und-boxbreiten-ruhig-begrenzen
-tags:
-  - css
-  - width
-  - loesung
+title: "Lösung – Leseflächen und Boxbreiten ruhig begrenzen"
+description: "Musterlösung zur Aufgabe über width, max-width und begrenzte Lesespalten."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "width-und-max-width-verstehen", "leseflaechen-und-boxbreiten-ruhig-begrenzen"]
+taskId: "WEB-CSS-LAYOUT-202"
+relatedExercise: "web-development/css/width-und-max-width-verstehen/leseflaechen-und-boxbreiten-ruhig-begrenzen"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

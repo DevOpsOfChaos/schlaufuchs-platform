@@ -1,23 +1,14 @@
 ---
-title: Lösung – Strommessung in Reihe begründen
-description: Musterlösung zur Aufgabe über Strommessung in Reihe begründen.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- messen-und-sicherheit
-- messaufbau-und-schutz
-- strommessung-in-reihe-begruenden-v114
-taskId: v114-elektrotechnik-strommessung-in-reihe-begruenden-v114
-relatedExercise: elektrotechnik/messen-und-sicherheit/messaufbau-und-schutz/strommessung-in-reihe-begruenden-v114
-tags:
-- elektrotechnik
-- v114
-- loesung
-- messen-und-sicherheit
-- messaufbau-und-schutz
+title: "Lösung – Strommessung in Reihe begründen"
+description: "Musterlösung zur Aufgabe über Strommessung in Reihe begründen."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["messen-und-sicherheit", "messaufbau-und-schutz", "strommessung-in-reihe-begruenden-v114"]
+taskId: "v114-elektrotechnik-strommessung-in-reihe-begruenden-v114"
+relatedExercise: "elektrotechnik/messen-und-sicherheit/messaufbau-und-schutz/strommessung-in-reihe-begruenden-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

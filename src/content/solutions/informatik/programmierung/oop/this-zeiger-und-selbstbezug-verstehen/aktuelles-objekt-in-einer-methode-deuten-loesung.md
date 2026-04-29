@@ -1,21 +1,14 @@
 ---
-title: Loesung – Aktuelles Objekt in einer Methode deuten
-description: Musterloesung zur Aufgabe ueber this und Selbstbezug in Instanzmethoden.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - this-zeiger-und-selbstbezug-verstehen
-taskId: INF-PROG-OOP-027
-relatedExercise: informatik/programmierung/oop/this-zeiger-und-selbstbezug-verstehen/aktuelles-objekt-in-einer-methode-deuten
-tags:
-  - informatik
-  - oop
-  - loesung
+title: "Loesung – Aktuelles Objekt in einer Methode deuten"
+description: "Musterloesung zur Aufgabe ueber this und Selbstbezug in Instanzmethoden."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "this-zeiger-und-selbstbezug-verstehen", "aktuelles-objekt-in-einer-methode-deuten"]
+taskId: "INF-PROG-OOP-027"
+relatedExercise: "informatik/programmierung/oop/this-zeiger-und-selbstbezug-verstehen/aktuelles-objekt-in-einer-methode-deuten"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterloesung
 
 ### Aufgabe 1

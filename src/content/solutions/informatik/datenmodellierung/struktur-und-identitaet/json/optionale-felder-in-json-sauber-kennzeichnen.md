@@ -3,23 +3,12 @@ title: "Lösung – Optionale Felder in JSON sauber kennzeichnen"
 description: "Musterlösung zu Optionale Datenfelder mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenmodellierung"
-  - "struktur-und-identitaet"
-  - "json"
-  - "optionale-felder-in-json-sauber-kennzeichnen"
+topicPath: ["datenmodellierung", "struktur-und-identitaet", "json", "optionale-felder-in-json-sauber-kennzeichnen"]
 taskId: "v111-informatik-optionale-felder-in-json-sauber-kennzeichnen"
 relatedExercise: "informatik/datenmodellierung/struktur-und-identitaet/json/optionale-felder-in-json-sauber-kennzeichnen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "unterthema"
-  - "datenmodellierung"
-  - "struktur-und-identitaet"
-  - "optionale-felder-in-json-sauber-kennzeichnen"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Optionale Datenfelder**.

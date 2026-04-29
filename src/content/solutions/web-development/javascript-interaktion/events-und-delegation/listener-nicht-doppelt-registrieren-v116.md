@@ -3,22 +3,12 @@ title: "Lösung: Listener nicht doppelt registrieren"
 description: "Musterlösung zur Aufgabe „Listener nicht doppelt registrieren“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "javascript-interaktion"
-  - "events-und-delegation"
-  - "listener-nicht-doppelt-registrieren-v116"
+topicPath: ["javascript-interaktion", "events-und-delegation", "listener-nicht-doppelt-registrieren-v116"]
 taskId: "listener-nicht-doppelt-registrieren-v116"
 relatedExercise: "web-development/javascript-interaktion/events-und-delegation/listener-nicht-doppelt-registrieren-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "events und delegation"
-  - "listener nicht doppelt registrieren"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

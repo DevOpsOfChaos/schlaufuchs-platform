@@ -1,36 +1,19 @@
 ---
 title: "Caching"
 description: "Überblick über Caching als Zwischenspeicherung zur Beschleunigung von Zugriffen."
-subject: informatik
+subject: "informatik"
 section: "Systeme"
-topicPath:
-  - "caching"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Caching als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["caching", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Cache-Invalidierung unterschätzt."
-keyTakeaways:
-  - "Caching beschleunigt Wiederverwendung von Daten."
-  - "Aktualität und Invalidierung sind zentrale Herausforderungen."
-  - "Private und öffentliche Cache-Daten müssen getrennt werden."
-recognizeSignals:
-  - "Es geht um Caching als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Caching in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "caching"
-  - "performance"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Systeme"]
 draft: false
 ---
-
 # Caching
 
 ![Schaubild zu Caching.](/schlaufuchs-platform/images/overviews/v149/caching.svg)

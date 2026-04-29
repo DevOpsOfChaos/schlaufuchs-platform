@@ -1,29 +1,17 @@
 ---
-title: Schnelle Anzeige und veralteten Stand unterscheiden
-description: Erkläre, warum Cache Inhalte beschleunigen kann und weshalb derselbe Mechanismus manchmal veraltete Stände sichtbar macht.
-subject: informatik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - cache-und-zwischenspeicherung-verstehen
-  - schnelle-anzeige-und-veralteten-stand-unterscheiden
-level: einfach
+title: "Schnelle Anzeige und veralteten Stand unterscheiden"
+description: "Erkläre, warum Cache Inhalte beschleunigen kann und weshalb derselbe Mechanismus manchmal veraltete Stände sichtbar macht."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "cache-und-zwischenspeicherung-verstehen", "schnelle-anzeige-und-veralteten-stand-unterscheiden"]
+taskId: "AUTO-SCHNELLE-ANZEIGE-UND-VERALTETEN-STAND-UNTERSCHEIDEN"
+tags: ["informatik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - informatik
-  - cache
-  - daten
-hintPoints:
-  - "Frage zuerst, wo die Originalquelle liegt und wo ein Zwischenstand liegen könnte."
-  - "Achte darauf, dass Geschwindigkeit und Aktualität nicht automatisch dasselbe sind."
-selfCheckPoints:
-  - "Kannst du Cache und Backup sauber unterscheiden?"
-  - "Kannst du erklären, warum ein schneller Zugriff nicht immer den neuesten Stand zeigt?"
-transferIdeas:
-  - "Übertrage die Logik auf Webseiten, Bilder, Apps oder Suchergebnisse."
-reflectionPrompt: "Woran merkst du in einer Alltagssituation, dass du wahrscheinlich eine zwischengespeicherte statt einer frisch geladenen Ansicht siehst?"
 ---
-
 ## Aufgabe 1: Schnell, aber alt?
 
 Eine Webseite zeigt nach einer Änderung zunächst noch das alte Logo. Beim erneuten Laden erscheint später die neue Version.

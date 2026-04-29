@@ -1,45 +1,19 @@
 ---
-title: Overflow und Scrollbereiche verstehen
-description: Verstehe, was passiert, wenn Inhalt größer ist als seine Box, und wie overflow sichtbar steuert, ob Inhalt herausragt, abgeschnitten wird oder in einem Scrollbereich bleibt.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - overflow-und-scrollbereiche-verstehen
-learningGoals:
-  - Du erklärst, was overflow in CSS beschreibt.
-  - Du unterscheidest sichtbar zwischen herausragendem, abgeschnittenem und scrollbarem Inhalt.
-  - Du beschreibst, warum eine Box manchmal nicht „zu groß“, sondern nur inhaltlich überfüllt ist.
-practiceIdeas:
-  - Vergleiche eine Box mit sichtbarem Überstand und eine mit Scrollbereich.
-  - Prüfe bei Code, Tabellen oder Karten zuerst, ob die Box den Inhalt begrenzen soll.
-  - Erkläre, warum abgeschnittener Inhalt und scrollbar gehaltener Inhalt unterschiedlich wirken.
-commonMistakes:
-  - zu glauben, overflow ändere die Größe des Inhalts selbst.
-  - abgeschnittenen Inhalt mit verschwundenem Inhalt gleichzusetzen.
-  - Scrollbereiche zu bauen, ohne zu überlegen, ob Begrenzung an dieser Stelle sinnvoll ist.
-keyTakeaways:
-  - Overflow beschreibt, was mit Inhalt passiert, der größer ist als seine Box.
-  - Mit CSS lässt sich sichtbar steuern, ob dieser Inhalt übersteht, verborgen wird oder scrollbar bleibt.
-  - Gute Layoutentscheidungen trennen Boxgröße und Inhaltsmenge sauber.
-recognizeSignals:
-  - Es geht um abgeschnittene Texte, große Bilder, Tabellen, Codeblöcke oder scrollende Teilbereiche.
-  - Du sollst erklären, warum etwas aus einer Box herausragt oder warum in einem Bereich gescrollt wird.
-  - In Beispielen ist die Frage wichtig, ob die Box begrenzen oder mitwachsen soll.
-selfCheckPoints:
-  - Kann ich erklären, was overflow sichtbar steuert?
-  - Kann ich hidden, auto und sichtbaren Überstand unterscheiden?
-  - Kann ich beschreiben, wann ein eigener Scrollbereich sinnvoll sein kann?
-tags:
-  - css
-  - overflow
-  - scroll
-  - box
-level: einfach
+title: "Overflow und Scrollbereiche verstehen"
+description: "Verstehe, was passiert, wenn Inhalt größer ist als seine Box, und wie overflow sichtbar steuert, ob Inhalt herausragt, abgeschnitten wird oder in einem Scrollbereich bleibt."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "overflow-und-scrollbereiche-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Nicht jeder Inhalt passt automatisch in seine sichtbare Box. Genau dann wird <code>overflow</code> wichtig: Die Eigenschaft beschreibt, **was mit Inhalt passiert, der größer ist als der verfügbare Raum**.

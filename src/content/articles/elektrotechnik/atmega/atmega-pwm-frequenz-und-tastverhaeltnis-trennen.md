@@ -1,46 +1,19 @@
 ---
-title: ATmega – PWM-Frequenz und Tastverhältnis trennen
-description: Verstehe, warum PWM nicht nur „heller oder dunkler“ bedeutet und wie Frequenz und Tastverhältnis beim AVR zwei verschiedene Stellschrauben sind.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - timer-und-zeitverhalten
-  - atmega-pwm-frequenz-und-tastverhaeltnis-trennen
-learningGoals:
-  - Du erklärst den Unterschied zwischen PWM-Frequenz und Tastverhältnis.
-  - Du beschreibst PWM eher als Zeitverhalten statt nur als Helligkeitstrick.
-  - Du liest Timer-Einstellungen ruhiger, wenn Grundperiode und Einschaltanteil getrennt bleiben.
-practiceIdeas:
-  - Vergleiche zwei PWM-Signale mit gleicher Frequenz, aber anderem Tastverhältnis.
-  - Vergleiche zwei PWM-Signale mit gleichem Tastverhältnis, aber anderer Frequenz.
-  - Lies Helligkeit, Motorverhalten oder Tonhöhe nicht sofort als dieselbe Stellgröße.
-commonMistakes:
-  - Tastverhältnis und Frequenz als dasselbe zu behandeln.
-  - Zu denken, PWM ändere einfach direkt eine analoge Spannung.
-  - Einen Compare-Wert zu deuten, ohne den zugrunde liegenden Timerzyklus mitzudenken.
-keyTakeaways:
-  - PWM beschreibt ein periodisches Ein-Aus-Signal, keine echte Analogspannung.
-  - Das Tastverhältnis bestimmt den Anteil der Ein-Zeit innerhalb einer Periode.
-  - Die Frequenz beschreibt, wie schnell sich diese Periode wiederholt.
-recognizeSignals:
-  - Es geht um Helligkeit, Motoransteuerung, PWM, Duty Cycle oder Frequenz.
-  - Du sollst erklären, warum zwei PWM-Signale gleich hell wirken können, aber sich zeitlich anders verhalten.
-  - In Aufgaben müssen Einschaltanteil und Grundperiode bewusst getrennt gelesen werden.
-selfCheckPoints:
-  - Kann ich Tastverhältnis und Frequenz fachlich trennen?
-  - Kann ich erklären, warum gleiche Helligkeit nicht automatisch dieselbe Frequenz bedeutet?
-  - Kann ich ein PWM-Signal als Zeitverhalten beschreiben?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - pwm
-  - timer
-level: mittel
+title: "ATmega – PWM-Frequenz und Tastverhältnis trennen"
+description: "Verstehe, warum PWM nicht nur „heller oder dunkler“ bedeutet und wie Frequenz und Tastverhältnis beim AVR zwei verschiedene Stellschrauben sind."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-pwm-frequenz-und-tastverhaeltnis-trennen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 PWM wird oft zuerst als „LED heller machen“ gelernt. Das ist nützlich, aber didaktisch zu eng. Fachlich beschreibt PWM zunächst ein **periodisches Ein-Aus-Signal**. Erst danach fragt man, wie eine Last darauf reagiert.

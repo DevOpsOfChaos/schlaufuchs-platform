@@ -3,32 +3,17 @@ title: "Modulo und Restklassen"
 description: "Allgemeiner Überblick über Rechnen mit Resten, Modulo-Operationen und Restklassen."
 subject: "mathematik"
 section: "Zahlen"
-topicPath:
-  - "modulo-und-restklassen"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["modulo-und-restklassen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird der Rest mit dem Ergebnis normaler Division verwechselt. Modulo fragt nicht nach dem Quotienten, sondern nach dem übrig bleibenden Rest."
-keyTakeaways:
-  - "Modulo-Rechnung beschreibt wiederkehrende Strukturen. Sie macht zyklische Muster und Teilbarkeit präzise handhabbar."
-  - "Modulo ist nicht einfach Wegwerfen von Information. Es ist eine andere Sicht auf Zahlen, bei der nur bestimmte Unterschiede relevant bleiben."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "mathematik"
-  - "modulo"
-  - "rest"
-  - "zahlentheorie"
+tags: ["mathematik", "Zahlen"]
 draft: false
 ---
-
 # Modulo und Restklassen
 
 Modulo-Rechnung betrachtet den Rest bei Division durch eine feste Zahl. Zahlen mit demselben Rest gehören zur gleichen Restklasse.

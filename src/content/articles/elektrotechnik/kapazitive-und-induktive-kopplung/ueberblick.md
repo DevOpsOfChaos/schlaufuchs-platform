@@ -3,32 +3,17 @@ title: "Kapazitive und induktive Kopplung"
 description: "Allgemeiner Überblick über kapazitive und induktive Kopplung als Wege für unerwünschte Störungen."
 subject: "elektrotechnik"
 section: "EMV"
-topicPath:
-  - "kapazitive-und-induktive-kopplung"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["kapazitive-und-induktive-kopplung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird nur der Hinleiter betrachtet. Der Rückstrompfad ist aber genauso Teil der Schleife und entscheidet wesentlich über Kopplung und Störanfälligkeit."
-keyTakeaways:
-  - "Kapazitive und induktive Kopplung erklären viele scheinbar rätselhafte Störungen. Gute Verdrahtung reduziert unbeabsichtigte elektrische und magnetische Nähe."
-  - "Nicht jede Störung kommt über die Versorgung. Manche Störungen werden direkt in Signalleitungen eingekoppelt oder über gemeinsame Rückwege sichtbar."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "elektrotechnik"
-  - "emv"
-  - "kopplung"
-  - "störungen"
+tags: ["elektrotechnik", "EMV"]
 draft: false
 ---
-
 # Kapazitive und induktive Kopplung
 
 Kopplung beschreibt, dass ein Signal oder eine Störung von einem Stromkreis auf einen anderen übergeht, obwohl keine direkte gewünschte Verbindung besteht.

@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Linearen Aufwand erkennen"
 description: "Musterlösung zu Linearen Aufwand erkennen mit Trennkante und Gegenprobe."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "algorithmen-fein-v115"
-  - "komplexitaet-anschaulich"
-  - "linearen-aufwand-erkennen-v115"
+topicPath: ["algorithmen-fein-v115", "komplexitaet-anschaulich", "linearen-aufwand-erkennen-v115"]
 taskId: "informatik-linearen-aufwand-erkennen-v115"
 relatedExercise: "informatik/algorithmen-fein-v115/komplexitaet-anschaulich/linearen-aufwand-erkennen-v115"
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "algorithmische feinstruktur"
-  - "komplexität anschaulich"
-  - "lösung"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Linearen Aufwand erkennen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

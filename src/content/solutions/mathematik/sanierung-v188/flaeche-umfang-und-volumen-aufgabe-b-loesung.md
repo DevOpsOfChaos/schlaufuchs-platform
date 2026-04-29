@@ -3,22 +3,12 @@ title: "Lösung: Fläche, Umfang und Volumen: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-026b."
 subject: "mathematik"
 section: "geometrie-messen-und-begruenden"
-topicPath:
-  - "geometrie-messen-und-begruenden"
-  - "flaeche-umfang-und-volumen"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "flaeche-umfang-und-volumen-aufgabe-b"]
 taskId: "mat-v188-026b"
 relatedExercise: "mathematik/sanierung-v188/flaeche-umfang-und-volumen-aufgabe-b"
-tags:
-  - "flaeche"
-  - "umfang"
-  - "volumen"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "geometrie-messen-und-begruenden", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-026b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

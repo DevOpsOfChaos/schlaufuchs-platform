@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Pfade und Navigation – ruhig einordnen"
 description: "Musterlösung zur Linux-Aufgabe Pfade und Navigation."
-subject: linux
+subject: "linux"
 section: "shell-und-terminal"
-topicPath:
-  - "shell-und-terminal"
-  - "pfade-und-navigation"
-taskId: LINUX-PFADE-UND-NAVIGATION-V186-1
-relatedExercise: src/content/exercises/linux/shell-und-terminal/pfade-und-navigation/pfade-und-navigation-ruhig-einordnen-v186.md
-tags:
-  - "linux"
-  - "pfade"
-  - "dateisystem"
-  - "loesung"
+topicPath: ["shell-und-terminal", "pfade-und-navigation", "pfade-und-navigation-ruhig-einordnen-v186"]
+taskId: "LINUX-PFADE-UND-NAVIGATION-V186-1"
+relatedExercise: "src/content/exercises/linux/shell-und-terminal/pfade-und-navigation/pfade-und-navigation-ruhig-einordnen-v186.md"
+tags: ["linux", "shell-und-terminal", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

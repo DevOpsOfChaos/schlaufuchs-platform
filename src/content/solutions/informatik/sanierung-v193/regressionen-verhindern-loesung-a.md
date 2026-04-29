@@ -3,23 +3,12 @@ title: "Lösung: Regressionen verhindern: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-009a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "tests-und-randfaelle"
-  - "regressionen-verhindern"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "regressionen-verhindern-loesung-a"]
 taskId: "informatik-v193-009a"
 relatedExercise: "informatik/sanierung-v193/regressionen-verhindern-aufgabe-a"
-tags:
-  - "regressionen"
-  - "verhindern"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-009a`
 
 Ausgangsauftrag: Formuliere einen Regressionstest für einen bereits behobenen Fehler.

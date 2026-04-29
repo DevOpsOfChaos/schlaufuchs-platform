@@ -1,36 +1,19 @@
 ---
 title: "HTTP-Statuscodes"
 description: "Einordnung von HTTP-Statuscodes als Rückmeldungen eines Servers."
-subject: web-development
+subject: "web-development"
 section: "HTTP"
-topicPath:
-  - "http-statuscodes"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst HTTP-Statuscodes als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["http-statuscodes", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, jede Fehlersituation mit `200 OK` und einer Fehlermeldung im Inhalt zu beantworten."
-keyTakeaways:
-  - "Statuscodes sind Teil der technischen Bedeutung einer Antwort."
-  - "Passende Codes machen Anwendungen robuster und besser beobachtbar."
-  - "Inhalt und Status müssen zusammenpassen."
-recognizeSignals:
-  - "Es geht um HTTP-Statuscodes als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich HTTP-Statuscodes in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "web development"
-  - "http"
-  - "statuscode"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTTP"]
 draft: false
 ---
-
 # HTTP-Statuscodes
 
 HTTP-Statuscodes sind dreistellige Rückmeldungen, mit denen ein Server das Ergebnis einer Anfrage beschreibt. Sie zeigen, ob eine Anfrage erfolgreich war, weitergeleitet wurde, fehlerhaft war oder serverseitig nicht verarbeitet werden konnte.

@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Caching und Memoisierung – ruhig einordnen"
 description: "Musterlösung zur Aufgabe über caching und memoisierung."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "caching-und-memoisierung"
-  - "loesung"
-taskId: INF-V185-015-1
-relatedExercise: src/content/exercises/informatik/programmierpraxis-und-tests/caching-und-memoisierung/caching-und-memoisierung-ruhig-einordnen-v185.md
-tags:
-  - "informatik"
-  - "programmierpraxis-und-tests"
-  - "caching-und-memoisierung"
-  - "loesung"
+topicPath: ["programmierpraxis-und-tests", "caching-und-memoisierung", "caching-und-memoisierung-ruhig-einordnen-v185"]
+taskId: "INF-V185-015-1"
+relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/caching-und-memoisierung/caching-und-memoisierung-ruhig-einordnen-v185.md"
+tags: ["informatik", "Programmierpraxis und Tests", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

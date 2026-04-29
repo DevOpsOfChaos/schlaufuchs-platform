@@ -1,34 +1,19 @@
 ---
 title: "Potentialausgleich"
 description: "Überblick über Potentialausgleich als Maßnahme, um gefährliche oder störende Spannungsunterschiede zwischen leitfähigen Teilen zu begrenzen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik"
-topicPath:
-  - "potentialausgleich"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["potentialausgleich", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Erde, Masse und Schutzleiter als immer identische Begriffe zu verwenden."
-keyTakeaways:
-  - "Potentialausgleich begrenzt Spannungsunterschiede, muss aber im jeweiligen Sicherheits- und Signalzusammenhang verstanden werden."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn mehrere Geräte, Gehäuse, Schutzleiter oder unterschiedliche Bezugspunkte miteinander verbunden werden."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "masse"
-  - "sicherheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik"]
 draft: false
 ---
-
 # Potentialausgleich
 
 Potentialausgleich bedeutet, leitfähige Teile so zu verbinden, dass zwischen ihnen keine unzulässigen Spannungsunterschiede entstehen. Im Schutzkontext dient er der Sicherheit, in Schaltungen auch der Störvermeidung.

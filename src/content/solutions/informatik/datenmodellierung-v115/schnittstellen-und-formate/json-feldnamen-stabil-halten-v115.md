@@ -1,24 +1,14 @@
 ---
 title: "Lösung: JSON-Feldnamen stabil halten"
 description: "Musterlösung zu JSON-Feldnamen stabil halten mit Trennkante und Gegenprobe."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenmodellierung-v115"
-  - "schnittstellen-und-formate"
-  - "json-feldnamen-stabil-halten-v115"
+topicPath: ["datenmodellierung-v115", "schnittstellen-und-formate", "json-feldnamen-stabil-halten-v115"]
 taskId: "informatik-json-feldnamen-stabil-halten-v115"
 relatedExercise: "informatik/datenmodellierung-v115/schnittstellen-und-formate/json-feldnamen-stabil-halten-v115"
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "datenmodellierung"
-  - "schnittstellen und formate"
-  - "lösung"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **JSON-Feldnamen stabil halten**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

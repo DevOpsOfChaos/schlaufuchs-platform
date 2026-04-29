@@ -3,38 +3,17 @@ title: "Modellgrenzen und Plausibilität"
 description: "Mathematische Modelle vereinfachen Wirklichkeit und müssen deshalb geprüft werden."
 subject: "mathematik"
 section: "modellieren-und-validieren"
-topicPath:
-  - "modellieren-und-validieren"
-  - "modellgrenzen-und-plausibilitaet"
-learningGoals:
-  - "Mathematische Modelle vereinfachen Wirklichkeit und müssen deshalb geprüft werden fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Mathematische Modelle vereinfachen Wirklichkeit und müssen deshalb geprüft werden wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v188", "modellgrenzen-und-plausibilitaet"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "modellgrenzen"
-  - "plausibilitaet"
-  - "pruefen"
-  - "mathematik"
-  - "v188"
+tags: ["mathematik", "modellieren-und-validieren"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Modellgrenzen und Plausibilität](/schlaufuchs-platform/images/mathematik/sanierung-188/modellgrenzen-und-plausibilitaet.svg)
 
 ## Überblick

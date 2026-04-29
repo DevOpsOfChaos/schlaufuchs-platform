@@ -3,20 +3,12 @@ title: "Lösung – Alt-Text nach Funktion wählen"
 description: "Musterlösung zu Alt-Text nach Funktion wählen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "html"
-  - "bilder-navigation-und-links"
-  - "alt-text-nach-funktion-waehlen-v113"
+topicPath: ["html", "bilder-navigation-und-links", "alt-text-nach-funktion-waehlen-v113"]
 taskId: "v113-web-development-alt-text-nach-funktion-waehlen-v113"
 relatedExercise: "web-development/html/bilder-navigation-und-links/alt-text-nach-funktion-waehlen-v113"
-tags:
-  - "web development"
-  - "strukturcheck"
-  - "unterthema"
-  - "alt-text-nach-funktion-waehlen-v113"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Alt-Text nach Funktion wählen**.

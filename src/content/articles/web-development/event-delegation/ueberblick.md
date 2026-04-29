@@ -1,36 +1,19 @@
 ---
 title: "Event Delegation"
 description: "Event Delegation nutzt Ereignisweitergabe, um Events an einem gemeinsamen Vorfahren statt an vielen einzelnen Elementen zu behandeln."
-subject: web-development
+subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "event-delegation"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Event Delegation als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["event-delegation", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird event.target ungeprüft genutzt, obwohl auch Kind-Elemente oder verschachtelte Struktur geklickt werden können."
-keyTakeaways:
-  - "Event Delegation nutzt Ereignisweitergabe, um Events an einem gemeinsamen Vorfahren statt an vielen einzelnen Elementen zu behandeln."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Event Delegation, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Event Delegation in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "web"
-  - "javascript"
-  - "events"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 # Event Delegation
 
 Event Delegation nutzt Ereignisweitergabe, um Events an einem gemeinsamen Vorfahren statt an

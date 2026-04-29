@@ -1,46 +1,19 @@
 ---
-title: Minmax und Auto-Fit in CSS Grid verstehen
-description: Verstehe, wie minmax und auto-fit Grid-Spalten flexibel machen und warum Kartenraster dadurch ruhiger auf verschiedene Breiten reagieren.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - minmax-und-auto-fit-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von minmax und auto-fit.
-  - Du beschreibst, warum ein Grid damit nicht starr, sondern flexibel auf Platz reagiert.
-  - Du begründest Spaltenlogik eher über Mindest- und Höchstverhalten als über starre Zahlenlisten.
-practiceIdeas:
-  - Vergleiche ein starres Raster mit einem Grid, das minmax und auto-fit nutzt.
-  - Lies bei Kartenlayouts zuerst die gewünschte Mindestbreite und erst dann die Spaltenanzahl.
-  - Prüfe bei responsive Grids, ob Umbruch und Kartenbreite zusammen sinnvoll wirken.
-commonMistakes:
-  - nur auf die Spaltenanzahl zu schauen.
-  - minmax wie zwei feste Breiten zu lesen.
-  - auto-fit und auto-fill nur als Spezialwörter statt als Layoutlogik zu behandeln.
-keyTakeaways:
-  - minmax beschreibt einen Breitenrahmen statt einer starren Spalte.
-  - auto-fit lässt Spalten auf den vorhandenen Platz reagieren.
-  - Beide zusammen machen Kartenlayouts robuster und ruhiger.
-recognizeSignals:
-  - Es geht um Kartenraster, responsive Grids oder Spalten, die sich an freie Breite anpassen sollen.
-  - Du sollst erklären, warum Elemente mal in drei, mal in zwei oder einer Spalte stehen.
-  - In Beispielen zählt nicht die Farbe der Karten, sondern die Spaltenlogik.
-selfCheckPoints:
-  - Kann ich beschreiben, was minmax an einer Spalte festlegt?
-  - Kann ich erklären, warum auto-fit Spalten umbrechen lässt?
-  - Kann ich ein starres und ein flexibles Grid sichtbar unterscheiden?
-tags:
-  - css
-  - grid
-  - responsive
-  - minmax
-  - auto-fit
-level: mittel
+title: "Minmax und Auto-Fit in CSS Grid verstehen"
+description: "Verstehe, wie minmax und auto-fit Grid-Spalten flexibel machen und warum Kartenraster dadurch ruhiger auf verschiedene Breiten reagieren."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "minmax-und-auto-fit-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Viele Raster scheitern nicht daran, dass Grid „nicht funktioniert“, sondern daran, dass die Spalten **zu starr** gedacht sind. Genau hier helfen <code>minmax()</code> und <code>auto-fit</code>.

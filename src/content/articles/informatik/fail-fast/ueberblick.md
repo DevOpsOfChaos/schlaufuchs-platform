@@ -1,36 +1,19 @@
 ---
 title: "Fail Fast"
 description: "Fail Fast bedeutet, Fehler möglichst früh und klar sichtbar zu machen, statt mit ungültigen Zuständen weiterzulaufen."
-subject: informatik
+subject: "informatik"
 section: "Qualität"
-topicPath:
-  - "fail-fast"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Fail Fast als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["fail-fast", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird Fail Fast mit schlechter Fehlerbehandlung verwechselt. Der Abbruch soll bewusst und informativ sein."
-keyTakeaways:
-  - "Fail Fast bedeutet, Fehler möglichst früh und klar sichtbar zu machen, statt mit ungültigen Zuständen weiterzulaufen."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Fail Fast, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Fail Fast in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "fehler"
-  - "design"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Qualität"]
 draft: false
 ---
-
 # Fail Fast
 
 Fail Fast bedeutet, Fehler möglichst früh und klar sichtbar zu machen, statt mit ungültigen

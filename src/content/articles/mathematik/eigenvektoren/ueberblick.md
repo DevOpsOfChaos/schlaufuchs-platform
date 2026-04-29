@@ -1,32 +1,17 @@
 ---
 title: "Eigenvektoren"
 description: "Überblick über Richtungen, die durch eine lineare Abbildung nur skaliert werden."
-subject: mathematik
+subject: "mathematik"
 section: "Lineare Algebra"
-topicPath:
-  - "eigenvektoren"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Eigenvektoren als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Eigenwert, Richtung, Skalierung."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["eigenvektoren", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Eigenvektoren als beliebige Vektoren mit großer Länge zu verstehen."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Eigenvektoren beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Besondere Richtungen linearer Abbildungen."
-  - "Wichtige Hinweise liefern vor allem Eigenwert, Richtung, Skalierung."
-recognizeSignals:
-  - "Es geht um besondere richtungen linearer abbildungen, eigenwert oder richtung."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Eigenvektoren erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "lineare algebra"
-  - "vektoren"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Lineare Algebra"]
 draft: false
 ---
 # Eigenvektoren

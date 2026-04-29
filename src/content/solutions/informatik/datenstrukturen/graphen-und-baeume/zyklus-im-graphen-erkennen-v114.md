@@ -1,23 +1,14 @@
 ---
-title: Lösung – Zyklus im Graphen erkennen
-description: Musterlösung zur Aufgabe über Zyklus im Graphen erkennen.
-subject: informatik
-section: Feinstruktur Informatik
-topicPath:
-- datenstrukturen
-- graphen-und-baeume
-- zyklus-im-graphen-erkennen-v114
-taskId: v114-informatik-zyklus-im-graphen-erkennen-v114
-relatedExercise: informatik/datenstrukturen/graphen-und-baeume/zyklus-im-graphen-erkennen-v114
-tags:
-- informatik
-- v114
-- loesung
-- datenstrukturen
-- graphen-und-baeume
+title: "Lösung – Zyklus im Graphen erkennen"
+description: "Musterlösung zur Aufgabe über Zyklus im Graphen erkennen."
+subject: "informatik"
+section: "Feinstruktur Informatik"
+topicPath: ["datenstrukturen", "graphen-und-baeume", "zyklus-im-graphen-erkennen-v114"]
+taskId: "v114-informatik-zyklus-im-graphen-erkennen-v114"
+relatedExercise: "informatik/datenstrukturen/graphen-und-baeume/zyklus-im-graphen-erkennen-v114"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

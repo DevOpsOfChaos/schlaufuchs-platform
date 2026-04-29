@@ -1,36 +1,19 @@
 ---
 title: "Accessible Name"
 description: "Der Accessible Name ist der Name, mit dem ein interaktives Element für assistive Technologien erkennbar wird."
-subject: web-development
+subject: "web-development"
 section: "Barrierefreiheit"
-topicPath:
-  - "accessible-name"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Accessible Name als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["accessible-name", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Icon-Buttons visuell verstanden, aber für Screenreader namenlos oder mehrdeutig ausgeliefert."
-keyTakeaways:
-  - "Der Accessible Name ist der Name, mit dem ein interaktives Element für assistive Technologien erkennbar wird."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Accessible Name, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Accessible Name in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "web"
-  - "accessibility"
-  - "html"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Barrierefreiheit"]
 draft: false
 ---
-
 # Accessible Name
 
 Der Accessible Name ist der Name, mit dem ein interaktives Element für assistive Technologien

@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Debugging und Fehlerhypothesen – Anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über Debugging und Fehlerhypothesen."
-subject: informatik
+subject: "informatik"
 section: "programmierpraxis-und-tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "debugging-und-fehlerhypothesen"
-taskId: INF-DEBUGGING-UND-FEHLERHYPOTHESEN-842
-relatedExercise: src/content/exercises/informatik/programmierpraxis-und-tests/debugging-und-fehlerhypothesen/debugging-und-fehlerhypothesen-anwenden-und-pruefen-v184.md
-tags:
-  - "informatik"
-  - "debugging"
-  - "fehler"
-  - "loesung"
+topicPath: ["programmierpraxis-und-tests", "debugging-und-fehlerhypothesen", "debugging-und-fehlerhypothesen-anwenden-und-pruefen-v184"]
+taskId: "INF-DEBUGGING-UND-FEHLERHYPOTHESEN-842"
+relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/debugging-und-fehlerhypothesen/debugging-und-fehlerhypothesen-anwenden-und-pruefen-v184.md"
+tags: ["informatik", "programmierpraxis-und-tests", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

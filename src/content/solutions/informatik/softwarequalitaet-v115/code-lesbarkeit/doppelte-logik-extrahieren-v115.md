@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Doppelte Logik extrahieren"
 description: "Musterlösung zu Doppelte Logik extrahieren mit Trennkante und Gegenprobe."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "softwarequalitaet-v115"
-  - "code-lesbarkeit"
-  - "doppelte-logik-extrahieren-v115"
+topicPath: ["softwarequalitaet-v115", "code-lesbarkeit", "doppelte-logik-extrahieren-v115"]
 taskId: "informatik-doppelte-logik-extrahieren-v115"
 relatedExercise: "informatik/softwarequalitaet-v115/code-lesbarkeit/doppelte-logik-extrahieren-v115"
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "softwarequalität"
-  - "code-lesbarkeit"
-  - "lösung"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Doppelte Logik extrahieren**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

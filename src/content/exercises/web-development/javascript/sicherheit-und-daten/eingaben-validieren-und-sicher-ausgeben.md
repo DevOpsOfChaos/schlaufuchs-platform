@@ -3,34 +3,15 @@ title: "Aufgabe – Eingaben validieren und sicher ausgeben"
 description: "Erkläre, warum textContent bei Nutzernamen sicherer ist als innerHTML. Nenne außerdem, warum serverseitige Prüfung trotzdem nötig bleibt."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "sicherheit-und-daten"
-  - "eingaben-validieren-und-sicher-ausgeben"
+topicPath: ["javascript", "sicherheit-und-daten", "eingaben-validieren-und-sicher-ausgeben"]
 taskId: "web-js-v99-eingaben-validieren-und-sicher-ausgeben"
-tags:
-  - "web development"
-  - "javascript"
-  - "sicherheit"
-  - "validierung"
-  - "xss"
-  - "aufgabe"
-hintPoints:
-  - "Lies zuerst die vorhandene HTML- oder UI-Situation."
-  - "Trenne sichtbare Rückmeldung von interner Logik."
-  - "Begründe, warum dein Vorschlag für Nutzerinnen und Nutzer verständlich ist."
-selfCheckPoints:
-  - "Ist die Lösung auch bei fehlenden Daten oder Fehlern nachvollziehbar?"
-  - "Sind HTML, CSS und JavaScript sauber getrennt?"
-  - "Gibt es eine passende Rückmeldung?"
-transferIdeas:
-  - "Übertrage die Aufgabe auf eine Formular-, Such- oder Kartenoberfläche."
-  - "Vergleiche eine schnelle, aber fragile Lösung mit einer robusteren Lösung."
-reflectionPrompt: "Welche kleine Entscheidung verbessert hier nicht nur den Code, sondern auch die Nutzererfahrung?"
+tags: ["web-development", "JavaScript", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Erkläre, warum textContent bei Nutzernamen sicherer ist als innerHTML. Nenne außerdem, warum serverseitige Prüfung trotzdem nötig bleibt.

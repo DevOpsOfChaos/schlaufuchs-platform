@@ -1,20 +1,19 @@
 ---
-title: Modellgrenzen prüfen
-description: Erkennen, wann eine Rechnung nicht mehr zur Situation passt.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Modellgrenzen prüfen"
+description: "Erkennen, wann eine Rechnung nicht mehr zur Situation passt."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "modellieren-und-validieren", "modellgrenzen-pruefen"]
-learningGoals: ["Erkennen, wann eine Rechnung nicht mehr zur Situation passt", "Zwischenschritte begründen", "Ergebnis im Kontext kontrollieren"]
-practiceIdeas: ["Formuliere ein eigenes Beispiel zu Modellgrenzen prüfen.", "Markiere Frage, Daten und Kontrolle getrennt.", "Vergleiche zwei mögliche Lösungswege."]
-commonMistakes: ["Zu früh rechnen", "Einheiten oder Bedingungen weglassen", "Das Ergebnis nicht rückprüfen"]
-keyTakeaways: ["Modellgrenzen prüfen beginnt mit einer klaren Frage und nicht sofort mit Rechnen.", "Der Themenblock modellieren und validieren braucht sichtbare Zwischenschritte.", "Ein Ergebnis ist erst belastbar, wenn es im Kontext geprüft wurde."]
-recognizeSignals: ["Die Aufgabe enthält mehrere Angaben.", "Eine Darstellung muss gedeutet werden.", "Das Ergebnis braucht eine Plausibilitätsprüfung."]
-selfCheckPoints: ["Ist die Frage klar?", "Sind Einheiten und Bedingungen sichtbar?", "Passt das Ergebnis zur Situation?"]
-level: mittel
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
 tags: ["mathematik", "v196", "modellieren-und-validieren", "modellgrenzen-pruefen"]
 draft: false
 ---
-
 ![Modellgrenzen prüfen](/schlaufuchs-platform/images/mathematik/sanierung-v196/modellgrenzen-pruefen.svg)
 
 ## Worum es geht

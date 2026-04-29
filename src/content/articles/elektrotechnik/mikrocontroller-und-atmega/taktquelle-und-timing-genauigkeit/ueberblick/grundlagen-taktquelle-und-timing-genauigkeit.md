@@ -1,42 +1,19 @@
 ---
 title: "Grundlagen: Taktquelle und Timing-Genauigkeit"
 description: "Allgemeiner Überblick über internen Takt, Quarz, Frequenzfehler und zeitkritische Schnittstellen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - mikrocontroller-und-atmega
-  - taktquelle-und-timing-genauigkeit
-  - ueberblick
-learningGoals:
-  - "Du erklärst die Grundidee des Themas in eigenen Worten."
-  - "Du ordnest typische Begriffe, Grenzen und Fehlerquellen ruhig ein."
-  - "Du erkennst, welche Detailfragen zu diesem Themenbereich gehören."
-practiceIdeas:
-  - "Skizziere den Zusammenhang als Prüf-, Signal- oder Strompfad."
-  - "Notiere eine typische Fehlannahme und formuliere eine Gegenprobe."
-commonMistakes:
-  - "Jeden Mikrocontroller-Takt als exakt zu behandeln."
-  - "UART-Fehler nur im Code zu suchen."
-  - "Timerberechnungen ohne tatsächliche Taktquelle zu prüfen."
-keyTakeaways:
-  - "Die Taktquelle bestimmt die Zeitbasis des Systems."
-  - "Frequenzfehler wirken auf Timer, Baudrate und Messzeit."
-  - "Genauigkeit muss zur Anwendung passen."
-recognizeSignals:
-  - "Du brauchst zuerst Orientierung, bevor du eine konkrete Schaltung oder Aufgabe bewertest."
-  - "Ein Einzelfall wirkt plausibel, aber der allgemeine fachliche Rahmen fehlt."
-selfCheckPoints:
-  - "Kann ich das Thema ohne reines Auswendiglernen erklären?"
-  - "Kann ich typische Fehlerquellen in einer sinnvollen Prüfreihenfolge nennen?"
-level: einfach
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - takt
-  - timing
+topicPath: ["mikrocontroller-und-atmega", "taktquelle-und-timing-genauigkeit", "ueberblick", "grundlagen-taktquelle-und-timing-genauigkeit"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-
 ![Taktquelle und Timing-Genauigkeit](/schlaufuchs-platform/images/overviews/v182/taktquelle-und-timing-genauigkeit.svg)
 
 ## Überblick

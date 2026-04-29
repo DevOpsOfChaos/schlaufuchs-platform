@@ -1,13 +1,19 @@
 ---
-title: chmod verstehen
-description: Ändere Dateirechte gezielt und sicher mit chmod.
-subject: linux
-section: rechte-und-benutzer
-level: mittel
-tags: [chmod, dateirechte, linux]
+title: "chmod verstehen"
+description: "Ändere Dateirechte gezielt und sicher mit chmod."
+subject: "linux"
+section: "rechte-und-benutzer"
+topicPath: ["chmod"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["chmod", "dateirechte", "linux"]
 draft: false
 ---
-
 Mit `chmod` lassen sich Dateirechte gezielt ändern. Das Kommando ist ein zentrales Werkzeug, wenn du steuern willst, wer etwas lesen, schreiben oder ausführen darf.
 
 ## Was macht chmod?

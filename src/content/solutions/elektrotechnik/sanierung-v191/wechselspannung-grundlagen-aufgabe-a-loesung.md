@@ -3,24 +3,12 @@ title: "Lösung: Wechselspannung Grundlagen: Aufgabe A"
 description: "Musterlösung zur Aufgabe etech-v191-023a im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "wechselstrom"
-  - "wechselspannung-grundlagen"
-  - "loesung-a"
+topicPath: ["sanierung-v191", "wechselspannung-grundlagen-aufgabe-a"]
 taskId: "etech-v191-023a"
 relatedExercise: "elektrotechnik/sanierung-v191/wechselspannung-grundlagen-aufgabe-a"
-tags:
-  - "wechselstrom"
-  - "wechselspannung"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-023a`
 
 Ausgangsauftrag: Ordne Amplitude, Periodendauer und Effektivwert in einer Sinusspannung ein.

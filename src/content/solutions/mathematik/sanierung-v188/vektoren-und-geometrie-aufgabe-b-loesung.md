@@ -3,22 +3,12 @@ title: "Lösung: Vektoren und Geometrie: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-068b."
 subject: "mathematik"
 section: "daten-und-geometrie"
-topicPath:
-  - "daten-und-geometrie"
-  - "vektoren-und-geometrie"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "vektoren-und-geometrie-aufgabe-b"]
 taskId: "mat-v188-068b"
 relatedExercise: "mathematik/sanierung-v188/vektoren-und-geometrie-aufgabe-b"
-tags:
-  - "vektoren"
-  - "geometrie"
-  - "lage"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "daten-und-geometrie", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-068b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

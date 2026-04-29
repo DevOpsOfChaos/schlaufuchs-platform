@@ -1,23 +1,14 @@
 ---
-title: Lösung – Fokus nach DOM-Änderung setzen
-description: Musterlösung zur Aufgabe über Fokus nach DOM-Änderung setzen.
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- browser-javascript
-- dom-zustand-events
-- fokus-nach-dom-aenderung-setzen-v114
-taskId: v114-web-development-fokus-nach-dom-aenderung-setzen-v114
-relatedExercise: web-development/browser-javascript/dom-zustand-events/fokus-nach-dom-aenderung-setzen-v114
-tags:
-- web-development
-- v114
-- loesung
-- browser-javascript
-- dom-zustand-events
+title: "Lösung – Fokus nach DOM-Änderung setzen"
+description: "Musterlösung zur Aufgabe über Fokus nach DOM-Änderung setzen."
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["browser-javascript", "dom-zustand-events", "fokus-nach-dom-aenderung-setzen-v114"]
+taskId: "v114-web-development-fokus-nach-dom-aenderung-setzen-v114"
+relatedExercise: "web-development/browser-javascript/dom-zustand-events/fokus-nach-dom-aenderung-setzen-v114"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

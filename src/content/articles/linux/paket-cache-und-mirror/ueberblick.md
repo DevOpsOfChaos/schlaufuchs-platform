@@ -1,36 +1,19 @@
 ---
 title: "Paket-Cache und Mirror"
 description: "Paket-Cache und Mirror beeinflussen, welche Paketinformationen lokal bekannt sind und von welchen Servern Pakete geladen werden."
-subject: linux
+subject: "linux"
 section: "Paketverwaltung"
-topicPath:
-  - "paket-cache-und-mirror"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Paket-Cache und Mirror als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["paket-cache-und-mirror", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird ein Installationsfehler direkt dem Paket zugeschrieben, obwohl nur lokale Metadaten veraltet sind."
-keyTakeaways:
-  - "Paket-Cache und Mirror beeinflussen, welche Paketinformationen lokal bekannt sind und von welchen Servern Pakete geladen werden."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Paket-Cache und Mirror, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Paket-Cache und Mirror in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "pakete"
-  - "repository"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Paketverwaltung"]
 draft: false
 ---
-
 # Paket-Cache und Mirror
 
 Paket-Cache und Mirror beeinflussen, welche Paketinformationen lokal bekannt sind und von

@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Massebezug vor Messung festlegen"
 description: "Musterlösung zur Aufgabe Massebezug vor Messung festlegen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schaltungen"
-topicPath:
-  - schaltungen
-  - massefuehrung-und-stoerungen
-taskId: ET-V181-013
-relatedExercise: src/content/exercises/elektrotechnik/schaltungen/massefuehrung-und-stoerungen/massebezug-vor-messung-festlegen.md
-tags:
-  - elektrotechnik
-  - massefuehrung-und-stoerungen
-  - loesung
+topicPath: ["schaltungen", "massefuehrung-und-stoerungen", "massebezug-vor-messung-festlegen"]
+taskId: "ET-V181-013"
+relatedExercise: "src/content/exercises/elektrotechnik/schaltungen/massefuehrung-und-stoerungen/massebezug-vor-messung-festlegen.md"
+tags: ["elektrotechnik", "Schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

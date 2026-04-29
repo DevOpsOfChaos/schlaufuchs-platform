@@ -1,44 +1,19 @@
 ---
-title: Freilaufdiode bei Relais und induktiven Lasten verstehen
-description: Verstehe, warum Spulen beim Abschalten Spannungsspitzen erzeugen und wie die Freilaufdiode den Schalttransistor schützt.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - freilaufdiode-bei-relais-und-induktiven-lasten-verstehen
-learningGoals:
-  - Du erklärst, warum eine Spule beim Abschalten eine Spannungsspitze erzeugt.
-  - Du beschreibst die Aufgabe der Freilaufdiode als Strompfad nach dem Abschalten.
-  - Du liest Schutzbeschaltung eher als Pflichtteil der Lastansteuerung als als Zusatzoption.
-practiceIdeas:
-  - Vergleiche eine Relais-Ansteuerung mit und ohne Freilaufdiode.
-  - Skizziere den Stromweg direkt nach dem Abschalten einer Spule.
-  - Begründe, warum Mikrocontroller-Pins induktive Lasten nicht direkt treiben sollen.
-commonMistakes:
-  - Zu denken, die Diode sei nur zum Schutz der Spule da.
-  - Die Diode in Durchlassrichtung zur Versorgung falsch herum zu zeichnen.
-  - Relais und LED als gleichartige Lasten zu behandeln.
-keyTakeaways:
-  - Induktive Lasten brauchen beim Abschalten einen kontrollierten Strompfad.
-  - Die Freilaufdiode begrenzt gefährliche Spannungsspitzen.
-  - Schutzbeschaltung gehört zum fachlich vollständigen Schaltbild.
-recognizeSignals:
-  - Es geht um Relais, Motoren, Spulen oder Magnetventile.
-  - Ein Transistor schaltet eine induktive Last.
-  - Beim Abschalten drohen Spannungsspitzen oder Störungen.
-selfCheckPoints:
-  - Kann ich die technische Hauptfrage dieser Schaltung ruhig benennen?
-  - Kann ich Ursache, Wirkung und Schutz- oder Hilfsmaßnahme sauber trennen?
-  - Kann ich das Thema auf einen ähnlichen Mikrocontroller-Fall übertragen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - embedded
-level: mittel
+title: "Freilaufdiode bei Relais und induktiven Lasten verstehen"
+description: "Verstehe, warum Spulen beim Abschalten Spannungsspitzen erzeugen und wie die Freilaufdiode den Schalttransistor schützt."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "freilaufdiode-bei-relais-und-induktiven-lasten-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller"]
 draft: false
 ---
-
 ## Grundidee
 
 Spulen in Relais, Ventilen oder kleinen Motoren speichern Energie im Magnetfeld. Beim Abschalten will der Strom nicht schlagartig auf null gehen. Genau daraus entstehen Spannungsspitzen, die einen Transistor oder Mikrocontroller-Ausgang gefährden können.

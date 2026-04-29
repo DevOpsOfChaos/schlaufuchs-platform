@@ -1,29 +1,17 @@
 ---
 title: "Shellskripte – anwenden und prüfen"
 description: "Übe, Shellskripte an kleinen Praxissituationen zu prüfen."
-subject: linux
+subject: "linux"
 section: "automatisierung-und-skripte"
-topicPath:
-  - "automatisierung-und-skripte"
-  - "shellskripte"
-taskId: LINUX-SHELLSKRIPTE-V186-2
-tags:
-  - "linux"
-  - "shellskript"
-  - "automatisierung"
-  - "aufgabe"
-hintPoints:
-  - "Beginne mit Begriff und Kontext."
-  - "Trenne Beobachtung, Prüfung und mögliche Änderung."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe erklären."
-  - "Ich kann einen typischen Fehler vermeiden."
-transferIdeas:
-  - "Formuliere eine ähnliche Prüfsituation aus deinem eigenen Linux-Alltag."
-level: mittel
+topicPath: ["automatisierung-und-skripte", "shellskripte", "shellskripte-anwenden-und-pruefen-v186"]
+taskId: "LINUX-SHELLSKRIPTE-V186-2"
+tags: ["linux", "automatisierung-und-skripte", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Lernziel
 
 Du sollst **Shellskripte** nicht nur als Befehl oder Schlagwort sehen, sondern als geordnetes Linux-Thema mit Zweck, Kontext und typischen Prüfschritten.

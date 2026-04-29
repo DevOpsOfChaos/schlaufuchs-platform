@@ -1,44 +1,19 @@
 ---
-title: Hysterese bei Schwellwerten gegen Flattern einsetzen
-description: Verstehe, warum ein einzelner Grenzwert bei verrauschten Messsignalen oft unruhig ist und wie Hysterese stabile Zustandswechsel erzeugt.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - hysterese-bei-schwellwerten-gegen-flattern-einsetzen
-learningGoals:
-  - Du erklärst, warum ein einzelner Schwellwert bei verrauschten Signalen zu Flattern führen kann.
-  - Du beschreibst Hysterese als zwei getrennte Umschaltschwellen für verschiedene Richtungen.
-  - Du liest stabile Zustandswechsel eher als Logikproblem statt nur als Messproblem.
-practiceIdeas:
-  - Vergleiche eine Lüfter- oder LED-Steuerung mit einem Schwellwert und mit Hysterese.
-  - Ordne Einschalt- und Ausschaltschwelle sauber verschiedenen Richtungen zu.
-  - Begründe, warum Rauschen nahe am Grenzwert Zustandswechsel auslösen kann.
-commonMistakes:
-  - Zu denken, ein genauerer einzelner Grenzwert löse Flattern automatisch.
-  - Ein- und Ausschaltschwelle gleich zu setzen.
-  - Rauschen nur als Sensorfehler zu sehen, nicht als Logikproblem am Grenzwert.
-keyTakeaways:
-  - Hysterese stabilisiert Zustände in der Nähe eines Grenzwerts.
-  - Ein- und Ausschaltschwelle dürfen bewusst verschieden sein.
-  - Viele „zitternde“ Schaltungen werden logischer, nicht nur analoger, korrigiert.
-recognizeSignals:
-  - Es geht um Schwellenwerte, ADC-Werte, Lüfter, Relais oder LEDs mit unruhigem Umschalten.
-  - Ein Signal pendelt um einen Grenzwert herum.
-  - Eine Steuerung schaltet schnell hin und her, obwohl der Mittelwert fast konstant ist.
-selfCheckPoints:
-  - Kann ich die technische Hauptfrage dieser Schaltung ruhig benennen?
-  - Kann ich Ursache, Wirkung und Schutz- oder Hilfsmaßnahme sauber trennen?
-  - Kann ich das Thema auf einen ähnlichen Mikrocontroller-Fall übertragen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - embedded
-level: mittel
+title: "Hysterese bei Schwellwerten gegen Flattern einsetzen"
+description: "Verstehe, warum ein einzelner Grenzwert bei verrauschten Messsignalen oft unruhig ist und wie Hysterese stabile Zustandswechsel erzeugt."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "hysterese-bei-schwellwerten-gegen-flattern-einsetzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein einzelner Grenzwert klingt zunächst einfach: Oberhalb davon ist an, darunter aus. In echten Messsystemen liegt das Signal aber oft nicht still, sondern schwankt in der Nähe des Grenzwerts. Genau dann wird Hysterese wichtig.

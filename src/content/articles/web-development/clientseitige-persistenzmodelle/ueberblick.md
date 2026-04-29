@@ -1,33 +1,17 @@
 ---
 title: "Clientseitige Persistenzmodelle"
 description: "Überblick über Möglichkeiten, Daten im Browser zu speichern, und über ihre Grenzen."
-subject: web-development
+subject: "web-development"
 section: "Daten im Browser"
-topicPath:
-  - "clientseitige-persistenzmodelle"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Clientseitige Persistenzmodelle als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["clientseitige-persistenzmodelle", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Browser-Speicher wird leicht als kleiner Ersatz für eine Datenbank verstanden. Für sensible, konsistente oder geteilte Daten ist er meist nur ein Hilfsmittel."
-keyTakeaways:
-  - "Clientseitige Persistenz beschreibt, welche Daten im Browser bleiben und wofür sie dort genutzt werden."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um clientseitige persistenzmodelle, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich clientseitige persistenzmodelle in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "web-development"
-  - "clientseitige persistenzmodelle"
-  - "überblick"
-  - "url-zustand"
-  - "localstorage"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Daten im Browser"]
 draft: false
 ---
 # Clientseitige Persistenzmodelle

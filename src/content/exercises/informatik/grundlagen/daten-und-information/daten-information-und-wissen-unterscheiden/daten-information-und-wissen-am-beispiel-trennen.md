@@ -1,32 +1,17 @@
 ---
-title: Daten, Information und Wissen trennen
-description: Erkläre an Beispielen, was nur Daten, was Information und was Wissen ist.
-subject: informatik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - daten-und-information
-  - daten-information-und-wissen-unterscheiden
-  - daten-information-und-wissen-am-beispiel-trennen
-taskId: INF-DATA-INFO-001
-level: einfach
+title: "Daten, Information und Wissen trennen"
+description: "Erkläre an Beispielen, was nur Daten, was Information und was Wissen ist."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "daten-und-information", "daten-information-und-wissen-unterscheiden", "daten-information-und-wissen-am-beispiel-trennen"]
+taskId: "INF-DATA-INFO-001"
+tags: ["informatik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - informatik
-  - aufgabe
-  - grundlagen
-  - daten-und-information
-hintPoints:
-  - "Lies das Beispiel zuerst ruhig in Worten."
-  - "Trenne Struktur, Rolle und Wirkung sauber."
-selfCheckPoints:
-  - "Habe ich begründet statt nur benannt?"
-  - "Habe ich Fachbegriffe sauber verwendet?"
-transferIdeas:
-  - "Übertrage die Logik auf ein ähnliches Beispiel."
-reflectionPrompt: "Welche Stelle war leicht zu verwechseln und warum?"
 ---
-
 ## Aufgabe 1: Stufen zuordnen
 
 Ordne die folgenden Aussagen jeweils als Daten, Information oder Wissen ein:

@@ -3,20 +3,12 @@ title: "Lösung – Achsenabschnitt aus Kontext deuten"
 description: "Musterlösung zu Achsenabschnitt aus Kontext deuten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "funktionen"
-  - "lineare-funktionen"
-  - "achsenabschnitt-aus-kontext-deuten-v113"
+topicPath: ["funktionen", "lineare-funktionen", "achsenabschnitt-aus-kontext-deuten-v113"]
 taskId: "v113-mathematik-achsenabschnitt-aus-kontext-deuten-v113"
 relatedExercise: "mathematik/funktionen/lineare-funktionen/achsenabschnitt-aus-kontext-deuten-v113"
-tags:
-  - "mathematik"
-  - "strukturcheck"
-  - "unterthema"
-  - "achsenabschnitt-aus-kontext-deuten-v113"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Achsenabschnitt aus Kontext deuten**.

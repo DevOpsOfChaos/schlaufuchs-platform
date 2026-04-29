@@ -1,33 +1,17 @@
 ---
-title: Feldgruppen im Formular sinnvoll bilden
-description: Bilde sinnvolle Formulargruppen und begründe, warum fieldset und legend mehr leisten als bloßer Abstand.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - formulare-und-eingaben
-  - fieldset-und-legend-im-formular-verstehen
-  - feldgruppen-im-formular-sinnvoll-bilden
-level: einfach
+title: "Feldgruppen im Formular sinnvoll bilden"
+description: "Bilde sinnvolle Formulargruppen und begründe, warum fieldset und legend mehr leisten als bloßer Abstand."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "fieldset-und-legend-im-formular-verstehen", "feldgruppen-im-formular-sinnvoll-bilden"]
+taskId: "AUTO-FELDGRUPPEN-IM-FORMULAR-SINNVOLL-BILDEN"
+tags: ["web-development", "HTML", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - html
-  - formular
-  - fieldset
-hintPoints:
-  - "Frage zuerst, welche Felder inhaltlich zusammengehören."
-  - "Suche nach einer sinnvollen Gruppenüberschrift."
-  - "Achte darauf, dass Struktur mehr ist als nur Abstand zwischen Zeilen."
-selfCheckPoints:
-  - "Hast du echte Feldgruppen und nicht nur eine Reihenfolge beschrieben?"
-  - "Ist die Gruppenüberschrift passend gewählt?"
-  - "Erklärst du, warum bloßer Abstand hier zu wenig wäre?"
-transferIdeas:
-  - "Übertrage die Aufgabe auf Registrierungs-, Kontakt- oder Bestellformulare."
-  - "Vergleiche kurze Einzelformulare mit längeren Formularen in mehreren Abschnitten."
-reflectionPrompt: "Wann reicht eine einfache Zwischenüberschrift aus und wann hilft eine echte Feldgruppe deutlich mehr?"
 ---
-
 ## Aufgabe 1: Gruppen bilden
 
 Ein Formular enthält diese Felder:

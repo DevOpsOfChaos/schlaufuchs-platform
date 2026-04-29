@@ -1,32 +1,17 @@
 ---
-title: Atomare 16-Bit-Zugriffe am AVR sauber begründen
-description: Begründe, warum gemeinsame 16-Bit-Werte zwischen Hauptprogramm und ISR am AVR eine eigene Schutzfrage haben.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - interrupts-und-nebenlaeufigkeit
-  - atmega-atomare-zugriffe-auf-16-bit-werte-verstehen
-  - atomare-16-bit-zugriffe-am-avr-sauber-begruenden
-taskId: ET-ATMEGA-ISR-403
-level: fortgeschritten
+title: "Atomare 16-Bit-Zugriffe am AVR sauber begründen"
+description: "Begründe, warum gemeinsame 16-Bit-Werte zwischen Hauptprogramm und ISR am AVR eine eigene Schutzfrage haben."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-atomare-zugriffe-auf-16-bit-werte-verstehen", "atomare-16-bit-zugriffe-am-avr-sauber-begruenden"]
+taskId: "ET-ATMEGA-ISR-403"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "fortgeschritten"
 draft: false
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - interrupt
-hintPoints:
-  - Trenne Sichtbarkeit der Variablen und Schutz des Zugriffsfensters.
-  - Lies 16-Bit-Zugriffe als mögliche Folge mehrerer Teilschritte.
-selfCheckPoints:
-  - Kannst du volatile und atomar sauber unterscheiden?
-  - Kannst du erklären, wo der Mischwert herkommt?
-transferIdeas:
-  - Übertrage die Logik auf Zählerstände, Timerwerte oder Messgrößen aus Interrupts.
-reflectionPrompt: "Warum hilft die Frage nach dem Zugriffsfenster oft mehr als die Frage nach der Variablen selbst?"
 ---
-
 ## Aufgabe 1: Problemart benennen
 
 Erkläre in 3 bis 5 Sätzen, warum ein gemeinsamer 16-Bit-Wert zwischen Hauptprogramm und ISR problematischer sein kann als ein gemeinsamer 8-Bit-Wert.

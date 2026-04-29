@@ -1,46 +1,19 @@
 ---
-title: POST-Formulardaten aus name-Attributen lesen
-description: Verstehe, wie HTML-Formulare ihre Werte über name-Attribute an PHP senden und wie $_POST diese Daten bereitstellt.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - post-formulardaten-aus-name-attributen-lesen
-learningGoals:
-  - Du erklärst die Rolle von action, method und name im Formular.
-  - Du liest serverseitig passende Schlüssel in $_POST.
-  - Du erkennst, dass nicht das sichtbare Label, sondern meist das name-Attribut den Serverzugriff bestimmt.
-practiceIdeas:
-  - Ordne einem Formularfeld den passenden $_POST-Zugriff zu.
-  - Erkläre, warum zwei sichtbare Beschriftungen nicht automatisch zwei unterschiedliche Servernamen bedeuten.
-  - Lies ein kleines Formular und sage, welche Daten überhaupt übertragen werden.
-commonMistakes:
-  - Das sichtbare Label mit dem name-Attribut zu verwechseln.
-  - Zu glauben, der Inhalt eines Eingabefeldes sei ohne name automatisch in $_POST vorhanden.
-  - method="POST" und action durcheinanderzubringen.
-keyTakeaways:
-  - POST-Formulare senden ihre Werte über benannte Felder.
-  - Der PHP-Zugriff läuft über $_POST["feldname"].
-  - name-Attribute sind für die serverseitige Zuordnung entscheidend.
-recognizeSignals:
-  - Es geht um Formulare, method="POST" oder $_POST.
-  - Ein Beispiel zeigt input-Felder mit name-Angaben.
-  - Du sollst erklären, welcher Schlüssel serverseitig gelesen wird.
-selfCheckPoints:
-  - Kann ich das name-Attribut als serverseitigen Schlüssel benennen?
-  - Kann ich action und method fachlich unterscheiden?
-  - Kann ich sagen, welche Felder bei Submit übertragen werden?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - post
-  - formulardaten
+title: "POST-Formulardaten aus name-Attributen lesen"
+description: "Verstehe, wie HTML-Formulare ihre Werte über name-Attribute an PHP senden und wie $_POST diese Daten bereitstellt."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "post-formulardaten-aus-name-attributen-lesen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei POST-Formularen werden Werte aus HTML-Feldern an ein Serverskript geschickt. Entscheidend für den späteren Zugriff in PHP ist dabei vor allem das <code>name</code>-Attribut eines Feldes.

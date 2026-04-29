@@ -3,22 +3,12 @@ title: "Lösung: Paketübertragung: Grundordnung"
 description: "Musterlösung zur Aufgabe dat-v189-021a."
 subject: "daten-und-signale"
 section: "uebertragung"
-topicPath:
-  - "uebertragung"
-  - "paketuebertragung"
-  - "loesung-a"
+topicPath: ["sanierung-v189", "paketuebertragung-aufgabe-a"]
 taskId: "dat-v189-021a"
 relatedExercise: "daten-und-signale/sanierung-v189/paketuebertragung-aufgabe-a"
-tags:
-  - "pakete"
-  - "netzwerk"
-  - "uebertragung"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-021a`
 
 Eine mögliche Lösung:

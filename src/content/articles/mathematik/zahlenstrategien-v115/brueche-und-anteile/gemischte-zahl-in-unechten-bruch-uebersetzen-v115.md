@@ -1,46 +1,19 @@
 ---
 title: "Mathematik – Gemischte Zahl in unechten Bruch übersetzen"
 description: "Trainiere Gemischte Zahl in unechten Bruch übersetzen als kleines Unterthema mit klarer Trennkante, Beispiel und Gegenprobe."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "zahlenstrategien-v115"
-  - "brueche-und-anteile"
-  - "gemischte-zahl-in-unechten-bruch-uebersetzen-v115"
-learningGoals:
-  - "Du erklärst Gemischte Zahl in unechten Bruch übersetzen an einem kleinen, abgegrenzten Fall."
-  - "Du trennst das Unterthema von einem naheliegenden Nachbarthema."
-  - "Du formulierst eine passende Gegenprobe statt nur eine fertige Antwort."
-practiceIdeas:
-  - "Schreibe zuerst die Prüffrage in eigenen Worten auf."
-  - "Markiere im Fall zwei Hinweise, die wirklich zur Entscheidung gehören."
-  - "Formuliere einen Gegenfall, in dem die Entscheidung anders ausfallen würde."
-commonMistakes:
-  - "Der ganze Anteil wird neben den Zähler geschrieben, ohne den Nenner mitzudenken."
-  - "Das Thema wird zu breit eingeordnet und verliert dadurch die prüfbare Trennkante."
-  - "Die Lösung nennt ein Ergebnis, begründet aber nicht die Abgrenzung."
-keyTakeaways:
-  - "Dieses Unterthema prüft vor allem: Wurde der ganze Anteil in passende Nennerteile übersetzt?"
-  - "Eine gute Lösung benennt die Trennkante ausdrücklich."
-  - "Die Gegenprobe zeigt, ob die Begründung wirklich trägt."
-recognizeSignals:
-  - "Die Aufgabe fragt nach Gemischte Zahl in unechten Bruch übersetzen."
-  - "Ähnliche Begriffe oder Fälle liegen nah beieinander."
-  - "Eine kleine Änderung im Fall würde zu einer anderen Entscheidung führen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-level: mittel
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "zahlenstrategien"
-  - "brüche und anteile"
+topicPath: ["zahlenstrategien-v115", "brueche-und-anteile", "gemischte-zahl-in-unechten-bruch-uebersetzen-v115"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["mathematik", "Feinstruktur Mathematik"]
 draft: false
 ---
-
 <img src="/schlaufuchs-platform/illustrations/mathematik-gemischte-zahl-in-unechten-bruch-uebersetzen-v115.svg" alt="Lernillustration zu Gemischte Zahl in unechten Bruch übersetzen" loading="lazy" />
 
 ## Grundidee

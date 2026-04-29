@@ -3,20 +3,12 @@ title: "Lösung – Gleichartige Terme bewusst sammeln"
 description: "Musterlösung zu Gleichartige Terme bewusst sammeln mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "algebra"
-  - "terme-und-klammern"
-  - "gleichartige-terme-bewusst-sammeln-v113"
+topicPath: ["algebra", "terme-und-klammern", "gleichartige-terme-bewusst-sammeln-v113"]
 taskId: "v113-mathematik-gleichartige-terme-bewusst-sammeln-v113"
 relatedExercise: "mathematik/algebra/terme-und-klammern/gleichartige-terme-bewusst-sammeln-v113"
-tags:
-  - "mathematik"
-  - "strukturcheck"
-  - "unterthema"
-  - "gleichartige-terme-bewusst-sammeln-v113"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Gleichartige Terme bewusst sammeln**.

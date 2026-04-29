@@ -3,22 +3,12 @@ title: "Lösung: Muster klein testen"
 description: "Musterlösung zur Aufgabe „Muster klein testen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "textdaten-und-pipelines"
-  - "grep-und-filterlogik"
-  - "muster-klein-testen-v116"
+topicPath: ["textdaten-und-pipelines", "grep-und-filterlogik", "muster-klein-testen-v116"]
 taskId: "muster-klein-testen-v116"
 relatedExercise: "linux/textdaten-und-pipelines/grep-und-filterlogik/muster-klein-testen-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "grep und filterlogik"
-  - "muster klein testen"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

@@ -1,32 +1,17 @@
 ---
 title: "SPI-Chip-Select"
 description: "Überblick über Chip-Select-Leitungen, Teilnehmerauswahl und typische SPI-Fehlerbilder."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schnittstellen"
-topicPath:
-  - "spi-chip-select"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst SPI-Chip-Select als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie aktive Pegel, mehrere Slaves, Timing."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["spi-chip-select", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "MOSI, MISO und SCK zu prüfen, aber die Chip-Select-Logik zu übersehen."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "SPI-Chip-Select beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Auswahl von SPI-Teilnehmern."
-  - "Wichtige Hinweise liefern vor allem aktive Pegel, mehrere Slaves, Timing."
-recognizeSignals:
-  - "Es geht um auswahl von spi-teilnehmern, aktive pegel oder mehrere slaves."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck SPI-Chip-Select erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "spi"
-  - "schnittstelle"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Schnittstellen"]
 draft: false
 ---
 # SPI-Chip-Select

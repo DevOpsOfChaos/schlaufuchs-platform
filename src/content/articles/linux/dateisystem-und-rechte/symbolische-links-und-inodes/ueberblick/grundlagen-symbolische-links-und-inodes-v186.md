@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Symbolische Links und Inodes"
 description: "Verstehe Verweise im Dateisystem und den Unterschied zwischen Name und Dateiobjekt."
-subject: linux
+subject: "linux"
 section: "dateisystem-und-rechte"
-topicPath:
-  - "dateisystem-und-rechte"
-  - "symbolische-links-und-inodes"
-learningGoals:
-  - "Du erklärst Symbolische Links und Inodes in eigenen Worten."
-  - "Du ordnest typische Befehle, Begriffe oder Prüfschritte richtig ein."
-  - "Du erkennst typische Grenzen und Fehlerquellen im Linux-Alltag."
-practiceIdeas:
-  - "Beschreibe eine kleine Alltagssituation zu diesem Thema."
-  - "Markiere, welche Information zuerst geprüft werden muss."
-commonMistakes:
-  - "Ein einzelnes Kommando für das ganze Thema zu halten."
-  - "Ausgabe, Zustand und Ursache zu vermischen."
-  - "Ohne Kontext direkt an Sonderfälle zu springen."
-keyTakeaways:
-  - "Ein Dateiname verweist auf ein Dateisystemobjekt."
-  - "Symbolische Links verweisen über einen Pfad auf ein Ziel."
-  - "Diese Trennung erklärt viele Effekte beim Verschieben oder Löschen."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung statt nur eines Befehlsrezepts."
-  - "Mehrere ähnliche Befehle oder Dateien wirken unklar."
-selfCheckPoints:
-  - "Kann ich Zweck, Kontext und typischen Prüfschritt unterscheiden?"
-  - "Kann ich eine einfache Fehlannahme zum Thema benennen?"
-level: mittel
-tags:
-  - "linux"
-  - "links"
-  - "inode"
+topicPath: ["dateisystem-und-rechte", "symbolische-links-und-inodes", "ueberblick", "grundlagen-symbolische-links-und-inodes-v186"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["linux", "dateisystem-und-rechte"]
 draft: false
 ---
-
 ![Symbolische Links und Inodes](/schlaufuchs-platform/images/overviews/v186/symbolische-links-und-inodes.svg)
 
 ## Begriff

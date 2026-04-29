@@ -3,21 +3,12 @@ title: "Lösung – Skizze als Plausibilitätsprüfung nutzen"
 description: "Musterlösung zu skizze als plausibilitätsprüfung nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "geometrie"
-  - "einheiten-und-skalierung"
-  - "skizze-als-plausibilitaetspruefung-nutzen"
+topicPath: ["geometrie", "einheiten-und-skalierung", "skizze-als-plausibilitaetspruefung-nutzen"]
 taskId: "v112-mathematik-skizze-als-plausibilitaetspruefung-nutzen"
 relatedExercise: "mathematik/geometrie/einheiten-und-skalierung/skizze-als-plausibilitaetspruefung-nutzen"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "geometrie"
-  - "skizze-als-plausibilitaetspruefung-nutzen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Geometrie und Skalierung**.

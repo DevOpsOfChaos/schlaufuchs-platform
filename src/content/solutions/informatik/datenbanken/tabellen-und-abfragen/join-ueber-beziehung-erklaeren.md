@@ -3,21 +3,12 @@ title: "Lösung – JOIN über Beziehung erklären"
 description: "Musterlösung zu join über beziehung erklären mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenbanken"
-  - "tabellen-und-abfragen"
-  - "join-ueber-beziehung-erklaeren"
+topicPath: ["datenbanken", "tabellen-und-abfragen", "join-ueber-beziehung-erklaeren"]
 taskId: "v112-informatik-join-ueber-beziehung-erklaeren"
 relatedExercise: "informatik/datenbanken/tabellen-und-abfragen/join-ueber-beziehung-erklaeren"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "datenbanken"
-  - "join-ueber-beziehung-erklaeren"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Tabellen und Abfragen**.

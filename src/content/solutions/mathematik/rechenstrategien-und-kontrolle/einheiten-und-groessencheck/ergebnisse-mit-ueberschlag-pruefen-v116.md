@@ -3,22 +3,12 @@ title: "Lösung: Ergebnisse mit Überschlag prüfen"
 description: "Musterlösung zur Aufgabe „Ergebnisse mit Überschlag prüfen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "rechenstrategien-und-kontrolle"
-  - "einheiten-und-groessencheck"
-  - "ergebnisse-mit-ueberschlag-pruefen-v116"
+topicPath: ["rechenstrategien-und-kontrolle", "einheiten-und-groessencheck", "ergebnisse-mit-ueberschlag-pruefen-v116"]
 taskId: "ergebnisse-mit-ueberschlag-pruefen-v116"
 relatedExercise: "mathematik/rechenstrategien-und-kontrolle/einheiten-und-groessencheck/ergebnisse-mit-ueberschlag-pruefen-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "einheiten und groessencheck"
-  - "ergebnisse mit ueberschlag pruefen"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

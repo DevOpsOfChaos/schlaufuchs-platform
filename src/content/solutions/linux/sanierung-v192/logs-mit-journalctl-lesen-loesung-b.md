@@ -3,26 +3,12 @@ title: "Lösung: Logs mit journalctl lesen: Aufgabe B"
 description: "Musterlösung zur Aufgabe linux-v192-010b im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "logging-und-diagnose"
-  - "logs-mit-journalctl-lesen"
-  - "loesung-b"
+topicPath: ["sanierung-v192", "logs-mit-journalctl-lesen-loesung-b"]
 taskId: "linux-v192-010b"
 relatedExercise: "linux/sanierung-v192/logs-mit-journalctl-lesen-aufgabe-b"
-tags:
-  - "logging-und-diagnose"
-  - "logs"
-  - "journalctl"
-  - "lesen"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-010b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Logs mit journalctl lesen“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

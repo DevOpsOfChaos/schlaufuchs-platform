@@ -1,33 +1,17 @@
 ---
 title: "Schnittstellenwahl"
 description: "Überblick darüber, wie elektrische, zeitliche und organisatorische Anforderungen die Wahl einer Schnittstelle beeinflussen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schnittstellen"
-topicPath:
-  - "schnittstellenwahl"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Schnittstellenwahl als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["schnittstellenwahl", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Eine Schnittstelle wird leicht gewählt, weil sie bekannt oder bequem ist. In der Praxis kann eine langsamere, robustere oder besser messbare Schnittstelle geeigneter sein."
-keyTakeaways:
-  - "Die Wahl einer Schnittstelle hängt nicht nur davon ab, ob Daten übertragen werden können. Entfernung, Störumgebung, Geschwindigkeit, Teilnehmerzahl und Debugbarkeit sind ebenso wichtig."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um schnittstellenwahl, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich schnittstellenwahl in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "schnittstellenwahl"
-  - "überblick"
-  - "datenmenge"
-  - "leitungslänge"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Schnittstellen"]
 draft: false
 ---
 # Schnittstellenwahl

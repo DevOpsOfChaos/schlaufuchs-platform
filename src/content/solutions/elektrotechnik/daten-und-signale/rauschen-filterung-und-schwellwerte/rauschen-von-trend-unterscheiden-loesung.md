@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Rauschen von Trend unterscheiden"
 description: "Musterlösung zur Aufgabe Rauschen von Trend unterscheiden."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Daten und Signale"
-topicPath:
-  - daten-und-signale
-  - rauschen-filterung-und-schwellwerte
-taskId: ET-V181-023
-relatedExercise: src/content/exercises/elektrotechnik/daten-und-signale/rauschen-filterung-und-schwellwerte/rauschen-von-trend-unterscheiden.md
-tags:
-  - elektrotechnik
-  - rauschen-filterung-und-schwellwerte
-  - loesung
+topicPath: ["daten-und-signale", "rauschen-filterung-und-schwellwerte", "rauschen-von-trend-unterscheiden"]
+taskId: "ET-V181-023"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/rauschen-filterung-und-schwellwerte/rauschen-von-trend-unterscheiden.md"
+tags: ["elektrotechnik", "Daten und Signale", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

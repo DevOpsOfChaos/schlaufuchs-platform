@@ -1,21 +1,14 @@
 ---
-title: Loesung – virtual und konkretes Objekt bei Methodenwahl erklaeren
-description: Musterloesung zur Aufgabe ueber virtual, override und das konkrete Objekt.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - virtual-methoden-und-override-verstehen
-taskId: INF-PROG-OOP-019
-relatedExercise: informatik/programmierung/oop/virtual-methoden-und-override-verstehen/virtual-und-konkretes-objekt-bei-methodenwahl-erklaeren
-tags:
-  - informatik
-  - oop
-  - loesung
+title: "Loesung – virtual und konkretes Objekt bei Methodenwahl erklaeren"
+description: "Musterloesung zur Aufgabe ueber virtual, override und das konkrete Objekt."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "virtual-methoden-und-override-verstehen", "virtual-und-konkretes-objekt-bei-methodenwahl-erklaeren"]
+taskId: "INF-PROG-OOP-019"
+relatedExercise: "informatik/programmierung/oop/virtual-methoden-und-override-verstehen/virtual-und-konkretes-objekt-bei-methodenwahl-erklaeren"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterloesung
 
 ### Aufgabe 1

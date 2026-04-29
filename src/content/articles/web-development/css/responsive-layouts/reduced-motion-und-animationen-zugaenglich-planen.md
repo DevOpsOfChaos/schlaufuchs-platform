@@ -1,43 +1,17 @@
 ---
 title: "CSS – reduced motion und Animationen zugänglich planen"
 description: "Lerne, Animationen so einzusetzen, dass sie Orientierung geben, aber Menschen mit Bewegungsempfindlichkeit nicht belasten."
-subject: web-development
+subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "responsive-layouts"
-  - "reduced-motion-und-animationen-zugaenglich-planen"
-learningGoals:
-  - "Du erklärst den Zweck von prefers-reduced-motion."
-  - "Du unterscheidest hilfreiche Rückmeldung von überflüssiger Bewegung."
-  - "Du planst Animationen so, dass Inhalte ohne Bewegung verständlich bleiben."
-practiceIdeas:
-  - "Prüfe, ob eine Animation Information trägt oder nur schmückt."
-  - "Baue eine reduzierte Alternative für eine starke Bewegung."
-  - "Vergleiche Fade, Slide und gar keine Animation in Bezug auf Orientierung."
-commonMistakes:
-  - "Wichtige Information nur über Bewegung zu vermitteln."
-  - "Starke Parallax- oder Zoom-Effekte ohne Reduktionspfad einzusetzen."
-  - "prefers-reduced-motion als „alles entfernen“ ohne Rücksicht auf Orientierung zu verstehen."
-keyTakeaways:
-  - "Animationen dürfen helfen, müssen aber abschaltbar oder reduzierbar sein."
-  - "prefers-reduced-motion respektiert eine Nutzereinstellung."
-  - "Der Inhalt muss auch ohne Bewegung verständlich bleiben."
-recognizeSignals:
-  - "Es geht um Animation, Motion, Parallax, Transition oder Nutzerpräferenz."
-  - "Eine Aufgabe fragt, warum manche Menschen Bewegung reduzieren möchten."
-  - "Ein UI-Zustand wird nur durch Bewegung erklärt."
-selfCheckPoints:
-  - "Ist die Bewegung nötig oder nur Schmuck?"
-  - "Gibt es eine reduzierte Variante?"
-  - "Bleibt die Information ohne Animation erhalten?"
-tags:
-  - "web development"
-  - "css"
-  - "animation"
-  - "reduced motion"
-  - "accessibility"
-level: mittel
+topicPath: ["css", "responsive-layouts", "reduced-motion-und-animationen-zugaenglich-planen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
 ## Grundidee

@@ -1,23 +1,14 @@
 ---
-title: Lösung – Fehlerzustände unterscheidbar machen
-description: Musterlösung zur Aufgabe über Fehlerzustände unterscheidbar machen.
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- browser-javascript
-- fetch-und-fehler
-- fehlerzustaende-unterscheidbar-machen-v114
-taskId: v114-web-development-fehlerzustaende-unterscheidbar-machen-v114
-relatedExercise: web-development/browser-javascript/fetch-und-fehler/fehlerzustaende-unterscheidbar-machen-v114
-tags:
-- web-development
-- v114
-- loesung
-- browser-javascript
-- fetch-und-fehler
+title: "Lösung – Fehlerzustände unterscheidbar machen"
+description: "Musterlösung zur Aufgabe über Fehlerzustände unterscheidbar machen."
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["browser-javascript", "fetch-und-fehler", "fehlerzustaende-unterscheidbar-machen-v114"]
+taskId: "v114-web-development-fehlerzustaende-unterscheidbar-machen-v114"
+relatedExercise: "web-development/browser-javascript/fetch-und-fehler/fehlerzustaende-unterscheidbar-machen-v114"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

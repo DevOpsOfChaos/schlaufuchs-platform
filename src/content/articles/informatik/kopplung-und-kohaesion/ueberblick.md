@@ -1,36 +1,19 @@
 ---
 title: "Kopplung und Kohäsion"
 description: "Kopplung beschreibt, wie stark Module voneinander abhängen. Kohäsion beschreibt, wie gut die Elemente eines Moduls fachlich zusammengehören."
-subject: informatik
+subject: "informatik"
 section: "Softwareentwurf"
-topicPath:
-  - "kopplung-und-kohaesion"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Kopplung und Kohäsion als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["kopplung-und-kohaesion", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird jede Abhängigkeit als schlecht betrachtet. Manche Abhängigkeiten sind sinnvoll, wenn sie bewusst und stabil sind."
-keyTakeaways:
-  - "Kopplung beschreibt, wie stark Module voneinander abhängen."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Kopplung und Kohäsion, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Kopplung und Kohäsion in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "architektur"
-  - "module"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Softwareentwurf"]
 draft: false
 ---
-
 # Kopplung und Kohäsion
 
 Kopplung beschreibt, wie stark Module voneinander abhängen. Kohäsion beschreibt, wie gut die

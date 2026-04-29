@@ -1,34 +1,19 @@
 ---
 title: "Arbeitsverzeichnis"
 description: "Überblick über das aktuelle Arbeitsverzeichnis und seine Bedeutung für relative Pfade in der Shell."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "arbeitsverzeichnis"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["arbeitsverzeichnis", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Anzunehmen, dass relative Pfade immer vom Projektordner ausgehen."
-keyTakeaways:
-  - "Das Arbeitsverzeichnis bestimmt, wie relative Pfade verstanden werden, und sollte vor riskanten Befehlen bewusst geprüft werden."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Dateien nicht gefunden werden oder Befehle versehentlich im falschen Ordner arbeiten."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "pfade"
-  - "shell"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # Arbeitsverzeichnis
 
 Das Arbeitsverzeichnis ist der Ort im Dateisystem, von dem aus relative Pfade interpretiert werden. Viele Befehle beziehen sich stillschweigend darauf, wenn kein absoluter Pfad angegeben wird.

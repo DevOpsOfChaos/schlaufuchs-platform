@@ -3,23 +3,12 @@ title: "Lösung – Landmark-Rollen für Seitenorientierung nutzen"
 description: "Musterlösung zu Landmark-Rollen für Seitenorientierung nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "HTML und Barrierefreiheit"
-topicPath:
-  - "html-a11y"
-  - "semantik-status-fokus"
-  - "v110-teil-1"
-  - "landmark-rollen-fuer-seitenorientierung-nutzen"
+topicPath: ["html-a11y", "semantik-status-fokus", "v110-teil-1", "landmark-rollen-fuer-seitenorientierung-nutzen"]
 taskId: "v110-web-development-landmark-rollen-fuer-seitenorientierung-nutzen"
 relatedExercise: "web-development/html-a11y/semantik-status-fokus/v110-teil-1/landmark-rollen-fuer-seitenorientierung-nutzen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "html-a11y"
-  - "semantik-status-fokus"
-  - "landmark-rollen-fuer-seitenorientierung-nutzen"
+tags: ["web-development", "HTML und Barrierefreiheit", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Landmark-Rollen für Seitenorientierung nutzen**.

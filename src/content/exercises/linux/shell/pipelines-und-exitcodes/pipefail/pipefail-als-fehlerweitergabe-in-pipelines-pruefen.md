@@ -3,34 +3,15 @@ title: "Aufgabe – pipefail als Fehlerweitergabe in Pipelines prüfen"
 description: "Übe pipefail in Pipelines mit einem kleinen Szenario, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell"
-  - "pipelines-und-exitcodes"
-  - "pipefail"
-  - "pipefail-als-fehlerweitergabe-in-pipelines-pruefen"
+topicPath: ["shell", "pipelines-und-exitcodes", "pipefail", "pipefail-als-fehlerweitergabe-in-pipelines-pruefen"]
 taskId: "v109-linux-pipefail-als-fehlerweitergabe-in-pipelines-pruefen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "pipelines-und-exitcodes"
-  - "pipefail in pipelines"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Übertrage den Prüfschritt auf ein Nachbarthema und nenne den Unterschied."
-reflectionPrompt: "Welche kleine Trennkante macht pipefail in Pipelines übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["linux", "Shell", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **pipefail in Pipelines**.

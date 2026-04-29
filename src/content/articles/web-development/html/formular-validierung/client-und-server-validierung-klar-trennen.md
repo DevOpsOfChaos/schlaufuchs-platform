@@ -3,44 +3,17 @@ title: "HTML – Client- und Servervalidierung klar trennen"
 description: "Verstehe, warum Browserprüfung die Bedienung verbessert, aber keine Serverprüfung ersetzt."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "formular-validierung"
-  - "client-und-server-validierung-klar-trennen"
-tags:
-  - "web development"
-  - "html"
-  - "formulare"
-  - "validierung"
-  - "sicherheit"
-learningGoals:
-  - "Du erklärst den Unterschied zwischen Komfortprüfung im Browser und verbindlicher Prüfung auf dem Server."
-  - "Du planst Fehlermeldungen so, dass sie sichtbar und verständlich bleiben."
-  - "Du vermeidest die falsche Annahme, required und pattern seien schon Sicherheit."
-practiceIdeas:
-  - "Übertrage die Idee auf eine kleine eigene Seite."
-  - "Prüfe die Bedienung einmal mit Tastatur und einmal mit Maus."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "Clientvalidierung als vollständigen Schutz zu behandeln."
-  - "Fehlermeldungen nur farblich zu zeigen."
-  - "Serverfehler ohne Bezug zum betroffenen Feld auszugeben."
-keyTakeaways:
-  - "Struktur, Zustand und Rückmeldung müssen zusammenpassen."
-  - "Sichtbare Nutzerführung ist Teil der technischen Lösung."
-  - "Saubere Webentwicklung prüft auch Fehlerfälle und Sonderwege."
-recognizeSignals:
-  - "Eine Oberfläche soll verständlicher, robuster oder zugänglicher werden."
-  - "HTML, CSS und JavaScript müssen gemeinsam gelesen werden."
-  - "Es gibt einen Zustand, der sichtbar gemacht oder kontrolliert werden muss."
-selfCheckPoints:
-  - "Kann ich die Entscheidung in einem Satz erklären?"
-  - "Bleibt die Lösung bei Fehlern oder Tastaturbedienung verständlich?"
-  - "Sind sichtbare Texte klar und deutsch formuliert?"
+topicPath: ["html", "formular-validierung", "client-und-server-validierung-klar-trennen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Verstehe, warum Browserprüfung die Bedienung verbessert, aber keine Serverprüfung ersetzt. Die Seite betrachtet das Thema nicht als isolierten Syntaxtrick, sondern als kleine Entscheidung für Bedienbarkeit, Wartbarkeit und verständliche Rückmeldung.

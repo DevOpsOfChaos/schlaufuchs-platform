@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Datenschutz und Datenminimierung – Anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über Datenschutz und Datenminimierung."
-subject: informatik
+subject: "informatik"
 section: "daten-und-information"
-topicPath:
-  - "daten-und-information"
-  - "datenschutz-und-datenminimierung"
-taskId: INF-DATENSCHUTZ-UND-DATENMINIMIERUNG-842
-relatedExercise: src/content/exercises/informatik/daten-und-information/datenschutz-und-datenminimierung/datenschutz-und-datenminimierung-anwenden-und-pruefen-v184.md
-tags:
-  - "informatik"
-  - "datenschutz"
-  - "datenminimierung"
-  - "loesung"
+topicPath: ["daten-und-information", "datenschutz-und-datenminimierung", "datenschutz-und-datenminimierung-anwenden-und-pruefen-v184"]
+taskId: "INF-DATENSCHUTZ-UND-DATENMINIMIERUNG-842"
+relatedExercise: "src/content/exercises/informatik/daten-und-information/datenschutz-und-datenminimierung/datenschutz-und-datenminimierung-anwenden-und-pruefen-v184.md"
+tags: ["informatik", "daten-und-information", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

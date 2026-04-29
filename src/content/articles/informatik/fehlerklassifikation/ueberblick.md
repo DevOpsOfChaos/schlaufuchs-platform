@@ -1,33 +1,17 @@
 ---
 title: "Fehlerklassifikation"
 description: "Überblick über unterschiedliche Fehlerarten wie Syntaxfehler, Laufzeitfehler, Logikfehler, Datenfehler und Bedienfehler."
-subject: informatik
+subject: "informatik"
 section: "Fehler"
-topicPath:
-  - "fehlerklassifikation"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Fehlerklassifikation als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["fehlerklassifikation", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nicht jeder Fehler ist ein Bug im Code. Daten, Konfiguration, Erwartungen und Bedienung können ebenso Teil der Ursache sein."
-keyTakeaways:
-  - "Fehlerklassifikation ordnet Symptome danach, auf welcher Ebene sie entstehen und wie sie untersucht werden können."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um fehlerklassifikation, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich fehlerklassifikation in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "fehlerklassifikation"
-  - "überblick"
-  - "entstehungsort"
-  - "erkennbarkeit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Fehler"]
 draft: false
 ---
 # Fehlerklassifikation

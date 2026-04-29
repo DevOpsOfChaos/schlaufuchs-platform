@@ -1,35 +1,19 @@
 ---
 title: "Grundlagen: IP-Adressen und Ports"
 description: "Die Adresse findet das System, der Port den Dienst auf diesem System."
-subject: informatik
+subject: "informatik"
 section: "Netzwerke und Dienste"
-topicPath:
-  - "netzwerke-und-dienste"
-  - "ip-adressen-und-ports"
-  - "ueberblick"
-learningGoals:
-  - "Du ordnest IP-Adressen und Ports fachlich ein."
-  - "Du unterscheidest zentrale Begriffe und typische Rollen."
-  - "Du erkennst häufige Fehler beim Anwenden."
-practiceIdeas:
-  - "Formuliere die Grundidee in zwei Sätzen."
-  - "Ordne ein Beispiel den wichtigsten Begriffen zu."
-commonMistakes:
-  - "Portnummern wie Geräteadressen zu behandeln."
-keyTakeaways:
-  - "Die Adresse findet das System, der Port den Dienst auf diesem System."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung vor einer Einzelfalllösung."
-selfCheckPoints:
-  - "Kann ich die Grundbegriffe voneinander unterscheiden?"
-level: einfach
-tags:
-  - "informatik"
-  - "netzwerke-und-dienste"
-  - "ip-adressen-und-ports"
+topicPath: ["netzwerke-und-dienste", "ip-adressen-und-ports", "ueberblick", "grundlagen-ip-adressen-und-ports"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Netzwerke und Dienste"]
 draft: false
 ---
-
 ![Schaubild zu IP-Adressen und Ports](/schlaufuchs-platform/images/overviews/v183/informatik-ip-adressen-und-ports.svg)
 
 ## Begriff

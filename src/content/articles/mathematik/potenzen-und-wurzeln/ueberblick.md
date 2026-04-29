@@ -1,31 +1,17 @@
 ---
 title: "Potenzen und Wurzeln"
 description: "Allgemeiner Überblick über Potenzen, Wurzeln, Umkehroperationen und typische Rechenregeln."
-subject: mathematik
+subject: "mathematik"
 section: "Algebra"
-topicPath:
-  - "potenzen-und-wurzeln"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Potenzen und Wurzeln grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["potenzen-und-wurzeln", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Potenzen und Wurzeln nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Potenzen und Wurzeln beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Potenzen und Wurzeln, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Potenzen und Wurzeln in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "potenzen"
-  - "wurzeln"
-  - "algebra"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Algebra"]
 draft: false
 ---
 # Potenzen und Wurzeln

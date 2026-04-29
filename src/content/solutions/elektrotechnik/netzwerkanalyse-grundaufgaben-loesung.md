@@ -1,21 +1,14 @@
 ---
 title: "Lösung: Netzwerkanalyse – Grundaufgaben"
 description: "Lösung zu grundlegender Netzwerkanalyse mit Knoten, Zweigen und Maschen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Grundlagen Elektrotechnik"
-topicPath:
-  - "netzwerkanalyse"
+topicPath: ["netzwerkanalyse-grundaufgaben"]
 taskId: "ET-GR-NETZ-001"
 relatedExercise: "src/content/exercises/elektrotechnik/netzwerkanalyse-grundaufgaben.md"
-tags:
-  - "elektrotechnik"
-  - "netzwerkanalyse"
-  - "knoten"
-  - "masche"
-  - "loesung"
+tags: ["elektrotechnik", "Grundlagen Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Lösungsgedanke
 
 Diese Musterlösung trennt zuerst Begriff, Schaltungszusammenhang und Begründung. Dadurch wird nicht nur ein Ergebnis genannt, sondern der fachliche Weg sichtbar.

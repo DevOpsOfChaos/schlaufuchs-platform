@@ -1,45 +1,19 @@
 ---
-title: Terminal sinnvoll nutzen
-description: Lerne, wie du ruhig, kontrolliert und nachvollziehbar im Terminal arbeitest.
-subject: linux
-section: praxis
-topicPath:
-- praxis
-- terminal-nutzen
-learningGoals:
-- Du verstehst das Terminal als Arbeitsoberfläche und nicht als Rätselspiel.
-- Du arbeitest mit kleinen, kontrollierten Schritten statt hektisch viele Befehle zu testen.
-- Du erkennst, warum Lesen der Ausgabe genauso wichtig ist wie der eingegebene Befehl.
-practiceIdeas:
-- Arbeite in der Lernshell bewusst mit pwd, ls, mkdir, touch und tree in kleinen Schritten.
-- Beschreibe nach jedem Befehl kurz, was sich verändert hat.
-- Vergleiche, wie ruhig kontrolliertes Arbeiten Fehler vermeidet.
-commonMistakes:
-- Viele Befehle nacheinander einzugeben, ohne die Ausgabe zu lesen.
-- Verzeichniswechsel nicht bewusst zu prüfen.
-- Änderungen auszuführen, ohne zu verstehen, wo man gerade arbeitet.
-keyTakeaways:
-- Gute Terminalarbeit ist ruhig und nachvollziehbar.
-- Orientierung vor Aktion spart Fehler.
-- Ausgabe lesen ist Teil des Arbeitens, nicht nur Kontrolle danach.
-tags:
-- linux
-- terminal
-- arbeitsweise
-- shell
-level: einfach
+title: "Terminal sinnvoll nutzen"
+description: "Lerne, wie du ruhig, kontrolliert und nachvollziehbar im Terminal arbeitest."
+subject: "linux"
+section: "praxis"
+topicPath: ["praxis", "terminal-nutzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "praxis"]
 draft: false
-recognizeSignals:
-- Die Aufgabe oder Erklärung nennt Terminal sinnvoll nutzen direkt oder greift eng benachbarte Begriffe aus praxis auf.
-- Du sollst nicht nur einen Begriff nennen, sondern einen Zusammenhang, Ablauf oder eine Struktur sauber erklären.
-- In Beispielen musst du Werte, Schritte oder Bauteile geordnet lesen und richtig einordnen.
-selfCheckPoints:
-- Kann ich verstehst das Terminal als Arbeitsoberfläche und nicht als Rätselspiel?
-- Kann ich arbeitest mit kleinen, kontrollierten Schritten statt hektisch viele Befehle zu testen?
-- Kann ich erkennst, warum Lesen der Ausgabe genauso wichtig ist wie der eingegebene Befehl?
 ---
-
-
 <div class="learning-card">
   <p class="card-kicker">Einstieg</p>
   <h3>Was du hier lernst</h3>

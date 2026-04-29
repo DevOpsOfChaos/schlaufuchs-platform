@@ -3,22 +3,12 @@ title: "Lösung: Kopfrechnen und Plausibilität: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-057a."
 subject: "mathematik"
 section: "rechnen-und-schaetzen"
-topicPath:
-  - "rechnen-und-schaetzen"
-  - "kopfrechnen-und-plausibilitaet"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "kopfrechnen-und-plausibilitaet-aufgabe-a"]
 taskId: "mat-v188-057a"
 relatedExercise: "mathematik/sanierung-v188/kopfrechnen-und-plausibilitaet-aufgabe-a"
-tags:
-  - "kopfrechnen"
-  - "schaetzen"
-  - "plausibilitaet"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "rechnen-und-schaetzen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-057a`
 
 Eine mögliche Lösung:

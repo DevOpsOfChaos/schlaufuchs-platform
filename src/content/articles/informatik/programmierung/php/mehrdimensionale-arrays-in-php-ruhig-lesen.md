@@ -1,46 +1,19 @@
 ---
-title: Mehrdimensionale Arrays in PHP ruhig lesen
-description: Verstehe, wie in PHP Arrays weitere Arrays enthalten koennen und wie dadurch kleine Datenstrukturen entstehen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - mehrdimensionale-arrays-in-php-ruhig-lesen
-learningGoals:
-  - Du erklaerst die Grundidee mehrdimensionaler Arrays.
-  - Du unterscheidest aeussere und innere Ebene beim Lesen.
-  - Du deutest kleine Datensammlungen ruhiger als Struktur aus Listen und Teildaten.
-practiceIdeas:
-  - Lies eine aeussere Liste mit mehreren inneren Datensaetzen.
-  - Benenne in einem Beispiel erst die aeussere Ebene und dann die innere.
-  - Verbinde die Idee mit foreach ueber mehrere Datensaetze.
-commonMistakes:
-  - Alle Klammern auf einmal lesen zu wollen.
-  - Aeussere und innere Ebene zu vermischen.
-  - Mehrdimensionale Arrays nur als verwirrende Syntax statt als Datenstruktur zu sehen.
-keyTakeaways:
-  - Ein mehrdimensionales Array enthaelt weitere Arrays.
-  - Die aeussere Ebene ordnet Datensaetze, die innere Ebene enthaelt ihre Werte.
-  - Ruhiges Lesen gelingt ueber Ebenen und nicht ueber alle Klammern gleichzeitig.
-recognizeSignals:
-  - Ein Array enthaelt weitere Array Klammern.
-  - Es geht um mehrere Personen, Produkte oder Datensaetze.
-  - Eine Schleife laeuft ueber Datensaetze und darin nochmals ueber Teilwerte.
-selfCheckPoints:
-  - Kann ich aeussere und innere Ebene sauber benennen?
-  - Kann ich erklaeren, warum hier mehrere Arrays ineinander liegen?
-  - Kann ich einen kleinen Datensatz in Alltagssprache lesen?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - php
-  - array
-  - struktur
+title: "Mehrdimensionale Arrays in PHP ruhig lesen"
+description: "Verstehe, wie in PHP Arrays weitere Arrays enthalten koennen und wie dadurch kleine Datenstrukturen entstehen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "mehrdimensionale-arrays-in-php-ruhig-lesen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Array in PHP muss nicht nur einzelne Werte enthalten. Es kann auch **weitere Arrays** enthalten. Dadurch entstehen kleine Datenstrukturen mit mehreren Ebenen.

@@ -1,24 +1,14 @@
 ---
-title: Musterlösung – WDR-Rücksetzpunkt ruhig begründen
-description: Musterlösung zur Aufgabe ET-ATMEGA-WDT-302.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - robustheit-und-fehlersicherheit
-  - atmega-watchdog-mit-wdr-rechtzeitig-zuruecksetzen-verstehen
-  - wdr-ruecksetzpunkt-ruhig-begruenden-loesung
-taskId: ET-ATMEGA-WDT-302
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-watchdog-mit-wdr-rechtzeitig-zuruecksetzen-verstehen/wdr-ruecksetzpunkt-ruhig-begruenden.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - watchdog
-  - loesung
+title: "Musterlösung – WDR-Rücksetzpunkt ruhig begründen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-WDT-302."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-watchdog-mit-wdr-rechtzeitig-zuruecksetzen-verstehen", "wdr-ruecksetzpunkt-ruhig-begruenden"]
+taskId: "ET-ATMEGA-WDT-302"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-watchdog-mit-wdr-rechtzeitig-zuruecksetzen-verstehen/wdr-ruecksetzpunkt-ruhig-begruenden.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 WDR bestätigt dem Watchdog nicht nur, dass ein Reset im Moment vermieden werden soll, sondern dass das Programm bis zu einem bestimmten Punkt noch kontrolliert gelaufen ist. Der Rücksetzpunkt ist damit Teil der Überwachungslogik. Genau deshalb ist seine Platzierung fachlich wichtig.

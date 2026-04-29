@@ -3,20 +3,12 @@ title: "Lösung – Einheiten vor dem Rechnen vereinheitlichen"
 description: "Musterlösung zu Einheiten vor dem Rechnen vereinheitlichen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "grundlagen"
-  - "einheiten-und-groessen"
-  - "einheiten-vor-dem-rechnen-vereinheitlichen-v113"
+topicPath: ["grundlagen", "einheiten-und-groessen", "einheiten-vor-dem-rechnen-vereinheitlichen-v113"]
 taskId: "v113-mathematik-einheiten-vor-dem-rechnen-vereinheitlichen-v113"
 relatedExercise: "mathematik/grundlagen/einheiten-und-groessen/einheiten-vor-dem-rechnen-vereinheitlichen-v113"
-tags:
-  - "mathematik"
-  - "strukturcheck"
-  - "unterthema"
-  - "einheiten-vor-dem-rechnen-vereinheitlichen-v113"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Einheiten vor dem Rechnen vereinheitlichen**.

@@ -3,22 +3,12 @@ title: "Lösung: Einheiten und Größencheck: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-005a."
 subject: "mathematik"
 section: "rechenstrategien-und-kontrolle"
-topicPath:
-  - "rechenstrategien-und-kontrolle"
-  - "einheiten-und-groessencheck"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "einheiten-und-groessencheck-aufgabe-a"]
 taskId: "mat-v188-005a"
 relatedExercise: "mathematik/sanierung-v188/einheiten-und-groessencheck-aufgabe-a"
-tags:
-  - "einheiten"
-  - "groessen"
-  - "plausibilitaet"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "rechenstrategien-und-kontrolle", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-005a`
 
 Eine mögliche Lösung:

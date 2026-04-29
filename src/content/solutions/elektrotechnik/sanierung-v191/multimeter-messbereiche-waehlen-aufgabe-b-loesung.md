@@ -3,23 +3,12 @@ title: "Lösung: Multimeter-Messbereiche wählen: Aufgabe B"
 description: "Musterlösung zur Aufgabe etech-v191-009b im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "messpraxis"
-  - "multimeter-messbereiche-waehlen"
-  - "loesung-b"
+topicPath: ["sanierung-v191", "multimeter-messbereiche-waehlen-aufgabe-b"]
 taskId: "etech-v191-009b"
 relatedExercise: "elektrotechnik/sanierung-v191/multimeter-messbereiche-waehlen-aufgabe-b"
-tags:
-  - "messpraxis"
-  - "multimeter"
-  - "schaltung"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-009b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Multimeter-Messbereiche wählen“ um einen Messfehler, einen Sicherheitscheck und eine kurze Plausibilitätsprüfung.

@@ -3,24 +3,12 @@ title: "Lösung: Audio als Signalfolge: Aufgabe B"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-009b im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "darstellung-und-code"
-  - "audio-als-signalfolge"
-  - "loesung-b"
-
+topicPath: ["sanierung-v195", "audio-als-signalfolge-loesung-b"]
 taskId: "daten-und-signale-v195-009b"
 relatedExercise: "daten-und-signale/sanierung-v195/audio-als-signalfolge-aufgabe-b"
-tags:
-  - "audio"
-  - "signalfolge"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-009b`
 
 Ausgangsauftrag: Übertrage das Thema Audio als Signalfolge auf ein zweites Beispiel und formuliere eine kurze Prüfung.

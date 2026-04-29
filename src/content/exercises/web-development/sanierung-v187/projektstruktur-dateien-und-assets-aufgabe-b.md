@@ -3,35 +3,15 @@ title: "Projektstruktur, Dateien und Assets: Prüfung und Verbesserung"
 description: "Räume eine chaotische Dateiliste in sinnvolle Ordner und erkläre die neuen Pfade."
 subject: "web-development"
 section: "werkzeuge"
-topicPath: 
-  - "werkzeuge-und-projektarbeit"
-  - "projektstruktur"
-  - "aufgabe-b"
+topicPath: ["sanierung-v187", "projektstruktur-dateien-und-assets-aufgabe-b"]
 taskId: "web-v187-019b"
-tags: 
-  - "projektstruktur"
-  - "dateien"
-  - "assets"
-  - "pfade"
-  - "web-development"
-  - "aufgabe"
-  - "v187"
-hintPoints: 
-  - "Trenne Zweck, Struktur und sichtbare Wirkung."
-  - "Begründe mindestens eine Entscheidung mit dem Nutzerziel."
-  - "Prüfe einen typischen Fehlerfall aus der Erklärseite."
-selfCheckPoints: 
-  - "Die Lösung passt zur Aufgabenstellung."
-  - "Mindestens eine Entscheidung ist begründet."
-  - "Es gibt keine neue Aufgabe ohne passende Lösung."
-transferIdeas: 
-  - "Übertrage die Entscheidung auf eine zweite kleine Seite."
-  - "Formuliere eine kurze Checkliste für spätere Wiederholung."
-reflectionPrompt: "Welche Entscheidung war am wichtigsten, damit die Lösung ruhig und wartbar bleibt?"
+tags: ["web-development", "werkzeuge", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Räume eine chaotische Dateiliste in sinnvolle Ordner und erkläre die neuen Pfade.

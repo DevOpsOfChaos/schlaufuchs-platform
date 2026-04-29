@@ -1,33 +1,19 @@
 ---
 title: "ss und netstat"
 description: "ss und netstat zeigen Netzwerkverbindungen, Sockets und lauschende Dienste. ss ist auf modernen Systemen meist schneller und aktueller."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "ss-und-netstat"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von ss und netstat."
-  - "Du kannst ss und netstat in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["ss-und-netstat", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Firewall, Bind-Adresse und Routing bei der Interpretation zu ignorieren."
-keyTakeaways:
-  - "ss und netstat zeigen Netzwerkverbindungen, Sockets und lauschende Dienste."
-  - "Wichtig sind vor allem listening ports, tcp- und udp-sockets und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um ss und netstat, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu ss und netstat dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "linux"
-  - "grundlagen"
-  - "ss netstat"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # ss und netstat
 
 ss und netstat zeigen Netzwerkverbindungen, Sockets und lauschende Dienste. ss ist auf modernen Systemen meist schneller und aktueller. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

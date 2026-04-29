@@ -3,24 +3,12 @@ title: "Lösung: Strom, Spannung und Widerstand im Überblick: Aufgabe B"
 description: "Musterlösung zur Aufgabe etech-v191-001b im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "grundgroessen"
-  - "strom-spannung-und-widerstand-im-ueberblick"
-  - "loesung-b"
+topicPath: ["sanierung-v191", "strom-spannung-und-widerstand-im-ueberblick-aufgabe-b"]
 taskId: "etech-v191-001b"
 relatedExercise: "elektrotechnik/sanierung-v191/strom-spannung-und-widerstand-im-ueberblick-aufgabe-b"
-tags:
-  - "grundgroessen"
-  - "strom"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-001b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Strom, Spannung und Widerstand im Überblick“ um einen Messfehler, einen Sicherheitscheck und eine kurze Plausibilitätsprüfung.

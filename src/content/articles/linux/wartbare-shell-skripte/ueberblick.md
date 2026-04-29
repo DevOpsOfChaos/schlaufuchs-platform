@@ -1,33 +1,17 @@
 ---
 title: "Wartbare Shell-Skripte"
 description: "Überblick über Lesbarkeit, Fehlerbehandlung, Eingaben, Pfade und sichere Annahmen in Shell-Skripten."
-subject: linux
+subject: "linux"
 section: "Shell-Skripte"
-topicPath:
-  - "wartbare-shell-skripte"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Wartbare Shell-Skripte als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["wartbare-shell-skripte", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein Skript, das einmal funktioniert, ist noch nicht wartbar. Es muss mit Leerzeichen, fehlenden Dateien und unerwarteten Exit-Codes umgehen."
-keyTakeaways:
-  - "Wartbare Shell-Skripte sind nicht nur kurze Befehlsfolgen, sondern klar strukturierte kleine Programme."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um wartbare shell-skripte, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich wartbare shell-skripte in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "wartbare shell-skripte"
-  - "überblick"
-  - "quoting"
-  - "fehlerbehandlung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell-Skripte"]
 draft: false
 ---
 # Wartbare Shell-Skripte

@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Quadratisches Wachstum erkennen"
 description: "Musterlösung zu Quadratisches Wachstum erkennen mit Trennkante und Gegenprobe."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "funktionsdenken-v115"
-  - "nichtlineare-verlaeufe"
-  - "quadratisches-wachstum-erkennen-v115"
+topicPath: ["funktionsdenken-v115", "nichtlineare-verlaeufe", "quadratisches-wachstum-erkennen-v115"]
 taskId: "mathematik-quadratisches-wachstum-erkennen-v115"
 relatedExercise: "mathematik/funktionsdenken-v115/nichtlineare-verlaeufe/quadratisches-wachstum-erkennen-v115"
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "funktionsdenken"
-  - "nichtlineare verläufe"
-  - "lösung"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Quadratisches Wachstum erkennen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

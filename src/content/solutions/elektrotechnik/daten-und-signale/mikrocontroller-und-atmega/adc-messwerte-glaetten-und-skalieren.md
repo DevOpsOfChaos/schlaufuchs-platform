@@ -1,24 +1,14 @@
 ---
 title: "Lösung – ADC-Messwerte beruhigen und sinnvoll deuten"
 description: "Musterlösung zur Bewertung, Mittelwertbildung und Einordnung geglätteter ADC-Werte."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - adc-messwerte-glaetten-und-skalieren
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "adc-messwerte-glaetten-und-skalieren"]
 taskId: "et-mc-adc-glaetten-skalieren"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/adc-messwerte-glaetten-und-skalieren"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - adc
-  - sensoren
-  - mittelwert
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
-
 ## Lösung zu Aufgabe 1
 
 Die Werte liegen nur wenige Stufen auseinander. Es gibt keinen großen Sprung, sondern eine kleine Streuung um ungefähr <code>512</code>. Das passt zu normalem Messrauschen, Quantisierung oder kleinen elektrischen Schwankungen.

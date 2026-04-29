@@ -3,23 +3,12 @@ title: "Lösung: Sortieren mit Schlüssel: Aufgabe B"
 description: "Musterlösung zur Aufgabe informatik-v193-020b im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "datenstrukturen-und-algorithmen"
-  - "sortieren-mit-schluessel"
-  - "loesung-b"
+topicPath: ["sanierung-v193", "sortieren-mit-schluessel-loesung-b"]
 taskId: "informatik-v193-020b"
 relatedExercise: "informatik/sanierung-v193/sortieren-mit-schluessel-aufgabe-b"
-tags:
-  - "sortieren"
-  - "schluessel"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-020b`
 
 Ausgangsauftrag: Übertrage das Thema Sortieren mit Schlüssel auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

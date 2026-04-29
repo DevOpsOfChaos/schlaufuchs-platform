@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Strombegrenzung vor Bauteilwahl prüfen"
 description: "Musterlösung zur Aufgabe Strombegrenzung vor Bauteilwahl prüfen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Stromversorgung und Schutz"
-topicPath:
-  - stromversorgung-und-schutz
-  - sicherungen-und-strombegrenzung
-taskId: ET-V181-004
-relatedExercise: src/content/exercises/elektrotechnik/stromversorgung-und-schutz/sicherungen-und-strombegrenzung/strombegrenzung-vor-bauteilwahl-pruefen.md
-tags:
-  - elektrotechnik
-  - sicherungen-und-strombegrenzung
-  - loesung
+topicPath: ["stromversorgung-und-schutz", "sicherungen-und-strombegrenzung", "strombegrenzung-vor-bauteilwahl-pruefen"]
+taskId: "ET-V181-004"
+relatedExercise: "src/content/exercises/elektrotechnik/stromversorgung-und-schutz/sicherungen-und-strombegrenzung/strombegrenzung-vor-bauteilwahl-pruefen.md"
+tags: ["elektrotechnik", "Stromversorgung und Schutz", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

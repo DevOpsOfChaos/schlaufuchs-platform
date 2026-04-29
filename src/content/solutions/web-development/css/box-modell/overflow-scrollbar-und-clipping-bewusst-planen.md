@@ -3,18 +3,10 @@ title: "Lösung – Overflow, Scrollbar und Clipping bewusst planen"
 description: "Musterlösung mit kurzer Begründung zur passenden Web-Development-Entscheidung."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "box-modell"
-  - "overflow-scrollbar-und-clipping-bewusst-planen"
+topicPath: ["css", "box-modell", "overflow-scrollbar-und-clipping-bewusst-planen"]
 taskId: "overflow-scrollbar-und-clipping-bewusst-planen"
 relatedExercise: "web-development/css/box-modell/overflow-scrollbar-und-clipping-bewusst-planen"
-tags:
-  - "web development"
-  - "css"
-  - "overflow"
-  - "scrollbar"
-  - "layout"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
 ## Musterlösung

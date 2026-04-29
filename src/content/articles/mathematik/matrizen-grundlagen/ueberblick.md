@@ -1,36 +1,19 @@
 ---
 title: "Matrizen-Grundlagen"
 description: "Einordnung von Matrizen als rechteckige Zahlenschemata für lineare Zusammenhänge."
-subject: mathematik
+subject: "mathematik"
 section: "Lineare Algebra"
-topicPath:
-  - "matrizen-grundlagen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Matrizen-Grundlagen als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["matrizen-grundlagen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Matrixmultiplikation wie elementweises Multiplizieren verstanden."
-keyTakeaways:
-  - "Matrizen ordnen Zahlen in Zeilen und Spalten."
-  - "Sie stellen lineare Zusammenhänge kompakt dar."
-  - "Matrixrechenregeln unterscheiden sich von normaler Tabellenrechnung."
-recognizeSignals:
-  - "Es geht um Matrizen-Grundlagen als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Matrizen-Grundlagen in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "matrizen"
-  - "lineare algebra"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Lineare Algebra"]
 draft: false
 ---
-
 # Matrizen-Grundlagen
 
 Eine Matrix ist ein rechteckiges Schema aus Zahlen oder Ausdrücken. Sie kann Daten, lineare Gleichungssysteme, Transformationen oder Beziehungen übersichtlich darstellen. Zeilen und Spalten haben dabei eine feste Bedeutung.

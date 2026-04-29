@@ -1,34 +1,19 @@
 ---
 title: "Landmarks und semantische Regionen"
 description: "Allgemeiner Überblick über Landmark-Elemente und semantische Regionen in Webseiten."
-subject: web-development
+subject: "web-development"
 section: "HTML und Barrierefreiheit"
-topicPath:
-  - "landmarks-und-semantische-regionen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Landmarks und semantische Regionen als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["landmarks-und-semantische-regionen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden semantische Elemente nur als Ersatz für div verwendet, ohne die tatsächliche Dokumentstruktur zu prüfen."
-keyTakeaways:
-  - "Landmarks geben Webseiten eine erkennbare Struktur und machen Inhalte robuster."
-  - "Landmarks und semantische Regionen sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Landmarks und semantische Regionen."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Landmarks und semantische Regionen erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "web development"
-  - "html"
-  - "semantik"
-  - "barrierefreiheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML und Barrierefreiheit"]
 draft: false
 ---
-
 # Landmarks und semantische Regionen
 
 Landmarks sind semantische Bereiche einer Webseite, die wichtige Seitenzonen wie Navigation, Hauptinhalt oder Fußbereich erkennbar machen.

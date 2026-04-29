@@ -1,29 +1,17 @@
 ---
 title: "Dateirechte und Besitz – ruhig einordnen"
 description: "Übe, Dateirechte und Besitz fachlich einzuordnen."
-subject: linux
+subject: "linux"
 section: "dateisystem-und-rechte"
-topicPath:
-  - "dateisystem-und-rechte"
-  - "dateirechte-und-besitz"
-taskId: LINUX-DATEIRECHTE-UND-BESITZ-V186-1
-tags:
-  - "linux"
-  - "rechte"
-  - "besitz"
-  - "aufgabe"
-hintPoints:
-  - "Beginne mit Begriff und Kontext."
-  - "Trenne Beobachtung, Prüfung und mögliche Änderung."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe erklären."
-  - "Ich kann einen typischen Fehler vermeiden."
-transferIdeas:
-  - "Formuliere eine ähnliche Prüfsituation aus deinem eigenen Linux-Alltag."
-level: mittel
+topicPath: ["dateisystem-und-rechte", "dateirechte-und-besitz", "dateirechte-und-besitz-ruhig-einordnen-v186"]
+taskId: "LINUX-DATEIRECHTE-UND-BESITZ-V186-1"
+tags: ["linux", "dateisystem-und-rechte", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Lernziel
 
 Du sollst **Dateirechte und Besitz** nicht nur als Befehl oder Schlagwort sehen, sondern als geordnetes Linux-Thema mit Zweck, Kontext und typischen Prüfschritten.

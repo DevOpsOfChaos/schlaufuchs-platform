@@ -3,21 +3,12 @@ title: "Lösung – Kleine Funktionen nach Verantwortung schneiden"
 description: "Musterlösung zu kleine funktionen nach verantwortung schneiden mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "programmieren"
-  - "funktionen-und-schnittstellen"
-  - "kleine-funktionen-nach-verantwortung-schneiden"
+topicPath: ["programmieren", "funktionen-und-schnittstellen", "kleine-funktionen-nach-verantwortung-schneiden"]
 taskId: "v112-informatik-kleine-funktionen-nach-verantwortung-schneiden"
 relatedExercise: "informatik/programmieren/funktionen-und-schnittstellen/kleine-funktionen-nach-verantwortung-schneiden"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "programmieren"
-  - "kleine-funktionen-nach-verantwortung-schneiden"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Funktionen und Schnittstellen**.

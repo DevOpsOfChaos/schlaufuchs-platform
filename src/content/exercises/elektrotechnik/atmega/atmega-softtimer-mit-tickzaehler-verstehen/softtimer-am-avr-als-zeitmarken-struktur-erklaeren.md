@@ -1,32 +1,17 @@
 ---
-title: Softtimer am AVR als Zeitmarken-Struktur erklären
-description: Erkläre, wie ein periodischer Tick am ATmega als Softtimer für mehrere Zeitaufgaben genutzt werden kann.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - programmstruktur-und-reaktivitaet
-  - atmega-softtimer-mit-tickzaehler-verstehen
-  - softtimer-am-avr-als-zeitmarken-struktur-erklaeren
-taskId: ET-ATMEGA-PRG-212
-level: mittel
+title: "Softtimer am AVR als Zeitmarken-Struktur erklären"
+description: "Erkläre, wie ein periodischer Tick am ATmega als Softtimer für mehrere Zeitaufgaben genutzt werden kann."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-softtimer-mit-tickzaehler-verstehen", "softtimer-am-avr-als-zeitmarken-struktur-erklaeren"]
+taskId: "ET-ATMEGA-PRG-212"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - atmega
-  - softtimer
-  - reaktivitaet
-hintPoints:
-  - Trenne Tickquelle, Zähler und Zeitmarken-Aufgaben.
-  - Lies den Softtimer als Software-Struktur und nicht als neues Hardwaremodul.
-selfCheckPoints:
-  - Kannst du erklären, warum ein Tickzähler mehrere Aufgaben tragen kann?
-  - Kannst du Delay und Zeitmarken logisch unterscheiden?
-transferIdeas:
-  - Übertrage die Logik auf Blinker, zyklische Messung oder Entprellen ohne Blockieren.
-reflectionPrompt: "Warum hilft ein gemeinsamer Tick oft mehr als viele kleine Delay-Schleifen?"
 ---
-
 ## Aufgabe 1: Tickquelle benennen
 
 Erkläre kurz, welche Rolle der Hardware-Timer und welche Rolle der Tickzähler im Softtimer-Modell spielen.

@@ -3,21 +3,12 @@ title: "Lösung – Messbereich vor Messung wählen"
 description: "Musterlösung zu messbereich vor messung wählen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "messen-und-fehler"
-  - "messbereich-vor-messung-waehlen"
+topicPath: ["daten-und-signale", "messen-und-fehler", "messbereich-vor-messung-waehlen"]
 taskId: "v112-elektrotechnik-messbereich-vor-messung-waehlen"
 relatedExercise: "elektrotechnik/daten-und-signale/messen-und-fehler/messbereich-vor-messung-waehlen"
-tags:
-  - "elektrotechnik"
-  - "v112"
-  - "feinstruktur"
-  - "daten-und-signale"
-  - "messbereich-vor-messung-waehlen"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Messen und Fehler**.

@@ -1,23 +1,14 @@
 ---
-title: Lösung – Änderungsrate aus einem Text erkennen
-description: Musterlösung zur Aufgabe über Änderungsrate aus einem Text erkennen.
-subject: mathematik
-section: Feinstruktur Mathematik
-topicPath:
-- analysis-pruefschritte
-- ableitungen-deuten
-- aenderungsrate-aus-einem-text-erkennen-v114
-taskId: v114-mathematik-aenderungsrate-aus-einem-text-erkennen-v114
-relatedExercise: mathematik/analysis-pruefschritte/ableitungen-deuten/aenderungsrate-aus-einem-text-erkennen-v114
-tags:
-- mathematik
-- v114
-- loesung
-- analysis-pruefschritte
-- ableitungen-deuten
+title: "Lösung – Änderungsrate aus einem Text erkennen"
+description: "Musterlösung zur Aufgabe über Änderungsrate aus einem Text erkennen."
+subject: "mathematik"
+section: "Feinstruktur Mathematik"
+topicPath: ["analysis-pruefschritte", "ableitungen-deuten", "aenderungsrate-aus-einem-text-erkennen-v114"]
+taskId: "v114-mathematik-aenderungsrate-aus-einem-text-erkennen-v114"
+relatedExercise: "mathematik/analysis-pruefschritte/ableitungen-deuten/aenderungsrate-aus-einem-text-erkennen-v114"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

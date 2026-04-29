@@ -3,39 +3,17 @@ title: "Links, Navigation und Pfade"
 description: "Verstehe Links als Wegweiser und unterscheide interne, externe, absolute und relative Pfade."
 subject: "web-development"
 section: "html"
-topicPath: 
-  - "html-und-semantik"
-  - "links-und-navigation"
-learningGoals: 
-  - "Orientierung durch Verweise ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Plane die Navigation für eine kleine Website mit Startseite, Themenübersicht und Kontaktseite."
-  - "Korrigiere fünf fehlerhafte relative Pfade in einer vorgegebenen Ordnerstruktur."
-commonMistakes: 
-  - "Linktext lautet nur „hier“ oder „mehr“."
-  - "Interne und externe Ziele werden nicht unterschieden."
-  - "Pfade funktionieren nur zufällig im aktuellen Ordner."
-keyTakeaways: 
-  - "Eine Navigation ist stark, wenn Ziel, Linktext und Pfad ohne Raten zusammenpassen."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "Eine Navigation ist stark, wenn Ziel, Linktext und Pfad ohne Raten zusammenpassen."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "links-navigation-und-pfade"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags: 
-  - "links"
-  - "navigation"
-  - "pfade"
-  - "html"
-  - "web-development"
+tags: ["web-development", "html"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Links, Navigation und Pfade](/schlaufuchs-platform/images/web-development/sanierung-v187/links-navigation-und-pfade.svg)
 
     Links, Navigation und Pfade ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

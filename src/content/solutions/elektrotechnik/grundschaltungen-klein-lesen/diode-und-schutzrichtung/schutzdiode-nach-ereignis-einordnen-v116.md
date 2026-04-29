@@ -3,22 +3,12 @@ title: "Lösung: Schutzdiode nach Ereignis einordnen"
 description: "Musterlösung zur Aufgabe „Schutzdiode nach Ereignis einordnen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "grundschaltungen-klein-lesen"
-  - "diode-und-schutzrichtung"
-  - "schutzdiode-nach-ereignis-einordnen-v116"
+topicPath: ["grundschaltungen-klein-lesen", "diode-und-schutzrichtung", "schutzdiode-nach-ereignis-einordnen-v116"]
 taskId: "schutzdiode-nach-ereignis-einordnen-v116"
 relatedExercise: "elektrotechnik/grundschaltungen-klein-lesen/diode-und-schutzrichtung/schutzdiode-nach-ereignis-einordnen-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "diode und schutzrichtung"
-  - "schutzdiode nach ereignis einordnen"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

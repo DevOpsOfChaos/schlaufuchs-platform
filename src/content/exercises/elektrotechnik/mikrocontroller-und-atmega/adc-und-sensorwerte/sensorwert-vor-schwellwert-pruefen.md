@@ -1,30 +1,17 @@
 ---
 title: "Sensorwert vor Schwellwert prüfen"
 description: "Übe, Sensorwerte vor einer Entscheidung zu plausibilisieren."
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - adc-und-sensorwerte
-taskId: ET-V180-ADC-002
-tags:
-  - elektrotechnik
-  - adc
-  - sensorwerte
-  - schwellwert
-hintPoints:
-  - "Trenne zuerst Begriffe, bevor du rechnest oder Code liest."
-  - "Begründe deine Zuordnung fachlich in ganzen Sätzen."
-selfCheckPoints:
-  - "Kann ich die Grundidee ohne Spezialfall erklären?"
-  - "Kann ich typische Fehler benennen?"
-transferIdeas:
-  - "Übertrage die gleiche Prüflogik auf eine ähnliche Schaltung oder Mikrocontroller-Situation."
-reflectionPrompt: "Welche Annahme müsste ich prüfen, bevor ich die Aufgabe praktisch umsetze?"
-level: einfach
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["mikrocontroller-und-atmega", "adc-und-sensorwerte", "sensorwert-vor-schwellwert-pruefen"]
+taskId: "ET-V180-ADC-002"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe trainiert die ruhige fachliche Einordnung. Ziel ist nicht, sofort eine Formel oder Codezeile zu suchen, sondern den Zusammenhang sauber zu lesen.
 
 ## Aufgabe

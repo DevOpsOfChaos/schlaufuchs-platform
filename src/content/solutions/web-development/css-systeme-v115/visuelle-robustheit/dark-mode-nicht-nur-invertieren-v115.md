@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Dark Mode nicht nur invertieren"
 description: "Musterlösung zu Dark Mode nicht nur invertieren mit Trennkante und Gegenprobe."
-subject: web-development
+subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "css-systeme-v115"
-  - "visuelle-robustheit"
-  - "dark-mode-nicht-nur-invertieren-v115"
+topicPath: ["css-systeme-v115", "visuelle-robustheit", "dark-mode-nicht-nur-invertieren-v115"]
 taskId: "web-development-dark-mode-nicht-nur-invertieren-v115"
 relatedExercise: "web-development/css-systeme-v115/visuelle-robustheit/dark-mode-nicht-nur-invertieren-v115"
-tags:
-  - "web development"
-  - "feinstruktur"
-  - "unterthema"
-  - "css-systeme"
-  - "visuelle robustheit"
-  - "lösung"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Dark Mode nicht nur invertieren**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

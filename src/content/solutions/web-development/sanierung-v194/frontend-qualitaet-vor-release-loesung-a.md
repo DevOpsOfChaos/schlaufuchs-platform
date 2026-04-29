@@ -3,25 +3,12 @@ title: "Lösung: Frontend-Qualität vor Release: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-development-v194-030a im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "diagnose-und-qa"
-  - "frontend-qualitaet-vor-release"
-  - "loesung-a"
-
+topicPath: ["sanierung-v194", "frontend-qualitaet-vor-release-loesung-a"]
 taskId: "web-development-v194-030a"
 relatedExercise: "web-development/sanierung-v194/frontend-qualitaet-vor-release-aufgabe-a"
-tags:
-  - "frontend"
-  - "qualitaet"
-  - "release"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-030a`
 
 Ausgangsauftrag: Erstelle eine Release-Checkliste für eine kleine Webänderung.

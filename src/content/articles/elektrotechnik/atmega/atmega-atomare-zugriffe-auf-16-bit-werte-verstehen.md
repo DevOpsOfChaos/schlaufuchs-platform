@@ -1,46 +1,19 @@
 ---
-title: ATmega – Atomare Zugriffe auf 16-Bit-Werte verstehen
-description: Verstehe, warum gemeinsame 16-Bit-Werte zwischen Hauptprogramm und ISR am AVR heikel sein können und warum atomare Zugriffe eine eigene Rolle haben.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - interrupts-und-nebenlaeufigkeit
-  - atmega-atomare-zugriffe-auf-16-bit-werte-verstehen
-learningGoals:
-  - Du erklärst, warum 16-Bit-Zugriffe am AVR nicht automatisch atomar sind.
-  - Du beschreibst das Problem gemeinsamer Daten zwischen Hauptprogramm und ISR ruhiger als Lese-/Schreibfenster.
-  - Du trennst volatile und atomare Sicherung fachlich sauber voneinander.
-practiceIdeas:
-  - Vergleiche einen einzelnen 8-Bit-Zugriff mit einem 16-Bit-Wert in zwei Teilschritten.
-  - Beschreibe, wann eine ISR genau in eine Datenoperation hineinlaufen kann.
-  - Lies atomare Sicherung als Schutz des gesamten Zugriffsfensters.
-commonMistakes:
-  - Zu denken, volatile allein löse schon Konsistenzprobleme bei Mehrbyte-Werten.
-  - 16-Bit-Werte am AVR wie einen einzigen unteilbaren Zugriff zu behandeln.
-  - Nebenläufigkeit nur als Softwareidee und nicht als reales Timing-Problem zu lesen.
-keyTakeaways:
-  - Ein 16-Bit-Zugriff kann am AVR aus mehreren Teilschritten bestehen.
-  - Genau zwischen diesen Teilschritten kann eine ISR den gemeinsamen Wert verändern.
-  - Atomare Sicherung schützt das gesamte Zugriffsfenster, nicht nur die Sichtbarkeit der Variablen.
-recognizeSignals:
-  - Es geht um ISR, gemeinsame Variablen, Zählerstände oder 16-Bit-Werte am AVR.
-  - Du sollst erklären, warum ein gelesener Wert manchmal unstimmig wirkt.
-  - In Aufgaben müssen volatile und atomare Sicherung getrennt gedacht werden.
-selfCheckPoints:
-  - Kann ich erklären, warum 16-Bit-Werte problematischer sein können als 8-Bit-Werte?
-  - Kann ich volatile und atomar sauber unterscheiden?
-  - Kann ich das Risiko eines unterbrochenen Zugriffsfensters beschreiben?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - interrupt
-  - atomar
-level: fortgeschritten
+title: "ATmega – Atomare Zugriffe auf 16-Bit-Werte verstehen"
+description: "Verstehe, warum gemeinsame 16-Bit-Werte zwischen Hauptprogramm und ISR am AVR heikel sein können und warum atomare Zugriffe eine eigene Rolle haben."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-atomare-zugriffe-auf-16-bit-werte-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 Am AVR ist ein 16-Bit-Wert nicht automatisch ein einziger unteilbarer Zugriff. Genau das wird wichtig, wenn **Hauptprogramm und ISR** denselben Wert benutzen. Dann geht es nicht nur darum, ob eine Variable sichtbar ist, sondern ob der Zugriff **als Ganzes konsistent** bleibt.
 
 <div class="example-card">

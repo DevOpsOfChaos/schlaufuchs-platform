@@ -1,23 +1,14 @@
 ---
-title: Lösung – Sicherung und Strombegrenzung mitdenken
-description: Musterlösung zur Aufgabe über Sicherung und Strombegrenzung mitdenken.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- messen-und-sicherheit
-- messaufbau-und-schutz
-- sicherung-und-strombegrenzung-mitdenken-v114
-taskId: v114-elektrotechnik-sicherung-und-strombegrenzung-mitdenken-v114
-relatedExercise: elektrotechnik/messen-und-sicherheit/messaufbau-und-schutz/sicherung-und-strombegrenzung-mitdenken-v114
-tags:
-- elektrotechnik
-- v114
-- loesung
-- messen-und-sicherheit
-- messaufbau-und-schutz
+title: "Lösung – Sicherung und Strombegrenzung mitdenken"
+description: "Musterlösung zur Aufgabe über Sicherung und Strombegrenzung mitdenken."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["messen-und-sicherheit", "messaufbau-und-schutz", "sicherung-und-strombegrenzung-mitdenken-v114"]
+taskId: "v114-elektrotechnik-sicherung-und-strombegrenzung-mitdenken-v114"
+relatedExercise: "elektrotechnik/messen-und-sicherheit/messaufbau-und-schutz/sicherung-und-strombegrenzung-mitdenken-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

@@ -3,33 +3,15 @@ title: "Aufgabe – Arbeitsverzeichnis im Skript stabilisieren"
 description: "Übe arbeitsverzeichnis im skript stabilisieren mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "orientierung-und-pfade"
-  - "arbeitsverzeichnis-im-skript-stabilisieren"
+topicPath: ["shell", "orientierung-und-pfade", "arbeitsverzeichnis-im-skript-stabilisieren"]
 taskId: "v112-linux-arbeitsverzeichnis-im-skript-stabilisieren"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "arbeitsverzeichnis-im-skript-stabilisieren"
-hintPoints:
-  - "Benenne zuerst das kleine Unterthema."
-  - "Prüfe bewusst den Unterschied zum Fehler: Das aktuelle Verzeichnis wird still vorausgesetzt."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Einordnung enger als nur der breite Fachbereich?"
-  - "Wird der typische Fehler ausdrücklich ausgeschlossen?"
-  - "Passt die Lösung zur Wissensseite?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Begriff und prüfe, ob die gleiche Strategie gilt."
-  - "Erkläre die Lösung einmal alltagssprachlich und danach fachlich sauber."
-reflectionPrompt: "Was war bei „Arbeitsverzeichnis im Skript stabilisieren“ die wichtigste Trennkante?"
+tags: ["linux", "Feinstruktur Linux", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation:

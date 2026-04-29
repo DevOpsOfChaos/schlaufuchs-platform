@@ -3,35 +3,15 @@ title: "Aufgabe – Public Key und Private Key streng trennen"
 description: "Übe Public und Private Key mit einem kleinen Szenario, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "SSH"
-topicPath:
-  - "ssh"
-  - "schluessel-und-agent"
-  - "public-private-key"
-  - "public-key-und-private-key-streng-trennen"
+topicPath: ["ssh", "schluessel-und-agent", "public-private-key", "public-key-und-private-key-streng-trennen"]
 taskId: "v109-linux-public-key-und-private-key-streng-trennen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "ssh"
-  - "schluessel-und-agent"
-  - "public und private key"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Übertrage den Prüfschritt auf ein Nachbarthema und nenne den Unterschied."
-reflectionPrompt: "Welche kleine Trennkante macht Public und Private Key übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["linux", "SSH", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Public und Private Key**.

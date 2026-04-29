@@ -3,22 +3,12 @@ title: "Lösung: JavaScript im Frontend: Prüfung und Verbesserung"
 description: "Musterlösung zur Aufgabe web-v187-020b im Web-Development-Block v187."
 subject: "web-development"
 section: "javascript"
-topicPath: 
-  - "javascript-und-interaktion"
-  - "rolle-im-frontend"
-  - "loesung-b"
+topicPath: ["sanierung-v187", "javascript-rolle-im-frontend-aufgabe-b"]
 taskId: "web-v187-020b"
 relatedExercise: "web-development/sanierung-v187/javascript-rolle-im-frontend-aufgabe-b"
-tags: 
-  - "javascript"
-  - "frontend"
-  - "interaktion"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "javascript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-020b`
 
     Ausgangsauftrag: Skizziere ein kleines Interaktionsverhalten für einen Ein-/Ausblenden-Button.

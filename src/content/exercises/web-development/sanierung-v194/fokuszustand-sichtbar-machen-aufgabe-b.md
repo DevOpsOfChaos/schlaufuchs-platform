@@ -3,37 +3,15 @@ title: "Fokuszustand sichtbar machen: Aufgabe B"
 description: "Übertrage das Thema Fokuszustand sichtbar machen auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "interaktion-und-fokus"
-  - "fokuszustand-sichtbar-machen"
-  - "aufgabe-b"
-
+topicPath: ["sanierung-v194", "fokuszustand-sichtbar-machen-aufgabe-b"]
 taskId: "web-development-v194-006b"
-tags:
-  - "fokuszustand"
-  - "sichtbar"
-  - "machen"
-  - "web-development"
-  - "aufgabe"
-  - "v194"
-
-hintPoints:
-  - "Beschreibe zuerst die konkrete Seitensituation."
-  - "Trenne Beobachtung, gewünschtes Verhalten und Änderung."
-  - "Lege einen kleinen Kontrollpunkt fest."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Fokuszustand sichtbar machen."
-  - "Die Prüfung ist klein genug, um sie direkt nachzuvollziehen."
-  - "Nutzerperspektive und technische Umsetzung werden nicht vermischt."
-transferIdeas:
-  - "Übertrage den Prüfweg auf eine andere Bildschirmbreite."
-  - "Notiere, welcher Zustand zusätzlich getestet werden sollte."
-reflectionPrompt: "Welche Annahme über Nutzerinnen und Nutzer wäre gefährlich, wenn sie still falsch bleibt?"
+tags: ["web-development", "barrierefreiheit-responsive-ux", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Übertrage das Thema Fokuszustand sichtbar machen auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

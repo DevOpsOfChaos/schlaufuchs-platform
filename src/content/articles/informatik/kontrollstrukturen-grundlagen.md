@@ -1,13 +1,19 @@
 ---
-title: Kontrollstrukturen – Grundlagen
-description: Verstehe, wie Bedingungen und Wiederholungen den Ablauf eines Programms steuern.
-subject: informatik
-section: kontrollstrukturen
-level: einfach
-tags: [kontrollstrukturen, programmablauf, informatik]
+title: "Kontrollstrukturen – Grundlagen"
+description: "Verstehe, wie Bedingungen und Wiederholungen den Ablauf eines Programms steuern."
+subject: "informatik"
+section: "kontrollstrukturen"
+topicPath: ["kontrollstrukturen-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["kontrollstrukturen", "programmablauf", "informatik"]
 draft: false
 ---
-
 Programme bestehen nicht nur aus einzelnen Befehlen, die streng nacheinander ablaufen. Oft muss ein Programm entscheiden oder etwas wiederholen. Genau dafür braucht man **Kontrollstrukturen**.
 
 ## Was sind Kontrollstrukturen?

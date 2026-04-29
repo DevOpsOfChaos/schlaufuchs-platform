@@ -1,34 +1,19 @@
 ---
 title: "ARIA und assistive Technologien"
 description: "Allgemeiner Überblick über ARIA, Rollen und assistive Technologien."
-subject: web-development
+subject: "web-development"
 section: "Barrierefreiheit"
-topicPath:
-  - "aria-und-assistive-technologien"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst ARIA und assistive Technologien als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["aria-und-assistive-technologien", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Falsche ARIA-Angaben können schlechter sein als gar keine, weil sie Nutzenden falsche Informationen liefern."
-keyTakeaways:
-  - "ARIA ergänzt HTML dort, wo komplexe Interaktion zusätzliche Semantik braucht."
-  - "ARIA und assistive Technologien sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um ARIA und assistive Technologien."
-selfCheckPoints:
-  - "Kann ich erklären, woran man ARIA und assistive Technologien erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "web development"
-  - "aria"
-  - "barrierefreiheit"
-  - "screenreader"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Barrierefreiheit"]
 draft: false
 ---
-
 # ARIA und assistive Technologien
 
 ![Schaubild zu ARIA und assistiven Technologien.](/schlaufuchs-platform/images/overviews/v150/aria-und-assistive-technologien.svg)

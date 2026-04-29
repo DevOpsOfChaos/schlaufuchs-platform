@@ -1,12 +1,17 @@
 ---
-title: Differentialrechnung – Standardableitungen
-description: Übe grundlegende Ableitungen und typische Standardregeln.
-subject: mathematik
-section: analysis
-level: mittel
+title: "Differentialrechnung – Standardableitungen"
+description: "Übe grundlegende Ableitungen und typische Standardregeln."
+subject: "mathematik"
+section: "analysis"
+topicPath: ["differentialrechnung-standardableitungen"]
+taskId: "AUTO-DIFFERENTIALRECHNUNG-STANDARDABLEITUNGEN"
+tags: ["mathematik", "analysis", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 Diese Aufgabe behält die frühere Standardableitungs-Idee bei, macht sie aber klarer und lernbarer: Du sollst Grundmuster nicht nur auswendig wiederholen, sondern **sicher erkennen, vergleichen und anwenden**.
 
 ## Lernziel

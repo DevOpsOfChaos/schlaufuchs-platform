@@ -3,22 +3,12 @@ title: "Lösung: Seiteneffekt sichtbar machen"
 description: "Musterlösung zur Aufgabe „Seiteneffekt sichtbar machen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "funktionen-und-verantwortung"
-  - "seiteneffekt-sichtbar-machen-v116"
+topicPath: ["programmierpraxis-und-tests", "funktionen-und-verantwortung", "seiteneffekt-sichtbar-machen-v116"]
 taskId: "seiteneffekt-sichtbar-machen-v116"
 relatedExercise: "informatik/programmierpraxis-und-tests/funktionen-und-verantwortung/seiteneffekt-sichtbar-machen-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "funktionen und verantwortung"
-  - "seiteneffekt sichtbar machen"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

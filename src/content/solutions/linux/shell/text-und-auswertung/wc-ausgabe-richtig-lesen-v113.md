@@ -3,20 +3,12 @@ title: "Lösung – wc-Ausgabe richtig lesen"
 description: "Musterlösung zu wc-Ausgabe richtig lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "text-und-auswertung"
-  - "wc-ausgabe-richtig-lesen-v113"
+topicPath: ["shell", "text-und-auswertung", "wc-ausgabe-richtig-lesen-v113"]
 taskId: "v113-linux-wc-ausgabe-richtig-lesen-v113"
 relatedExercise: "linux/shell/text-und-auswertung/wc-ausgabe-richtig-lesen-v113"
-tags:
-  - "linux"
-  - "strukturcheck"
-  - "unterthema"
-  - "wc-ausgabe-richtig-lesen-v113"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **wc-Ausgabe richtig lesen**.

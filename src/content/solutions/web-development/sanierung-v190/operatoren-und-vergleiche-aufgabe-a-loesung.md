@@ -3,24 +3,12 @@ title: "Lösung: Operatoren und Vergleiche: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-v190-003a im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "werte-und-typen"
-  - "operatoren-und-vergleiche"
-  - "loesung-a"
+topicPath: ["sanierung-v190", "operatoren-und-vergleiche-aufgabe-a"]
 taskId: "web-v190-003a"
 relatedExercise: "web-development/sanierung-v190/operatoren-und-vergleiche-aufgabe-a"
-tags:
-  - "werte-und-typen"
-  - "operatoren"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-003a`
 
 Ausgangsauftrag: Prüfe eine kleine Login-Bedingung auf klare Vergleiche.

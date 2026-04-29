@@ -1,31 +1,17 @@
 ---
 title: "CSS-Positionierung"
 description: "Allgemeiner Überblick über Positionierung in CSS, normale Dokumentflüsse und gezielte Platzierung."
-subject: web-development
+subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css-positionierung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst CSS-Positionierung grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["css-positionierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "CSS-Positionierung nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "CSS-Positionierung beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um CSS-Positionierung, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich CSS-Positionierung in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "web-development"
-  - "css"
-  - "positionierung"
-  - "layout"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
 # CSS-Positionierung

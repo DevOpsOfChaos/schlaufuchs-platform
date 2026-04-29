@@ -1,39 +1,19 @@
 ---
 title: "Grundlagen: Module und Importe in JavaScript"
 description: "Ein Überblick darüber, warum JavaScript-Code in Module aufgeteilt wird und wie Importe helfen."
-subject: web-development
+subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - javascript
-  - module-und-importe
-  - ueberblick
-learningGoals:
-  - "Du kennst die Grundbegriffe dieses Themenbereichs."
-  - "Du kannst typische Situationen grob einordnen, bevor du Detailseiten liest."
-  - "Du erkennst, welche Nachbarseiten für Vertiefung oder Übungen passen."
-practiceIdeas:
-  - "Lies zuerst diese Überblicksseite und danach eine konkrete Lernsituation aus dem gleichen Unterthema."
-  - "Notiere die wichtigsten Begriffe und prüfe, welche davon in den Detailseiten wieder auftauchen."
-commonMistakes:
-  - "Direkt mit Sonderfällen zu beginnen, ohne die Grundbegriffe zu klären."
-  - "Ein einzelnes Beispiel für die ganze Themenlogik zu halten."
-keyTakeaways:
-  - "Module sind ein Ordnungswerkzeug. Sie machen Abhängigkeiten sichtbar und verhindern unübersichtliche JavaScript-Sammeldateien."
-recognizeSignals:
-  - "Du suchst eine allgemeine Einordnung, bevor du Aufgaben oder Spezialfälle bearbeitest."
-  - "Mehrere Detailseiten wirken ähnlich, aber dir fehlt der gemeinsame Rahmen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten beschreiben?"
-  - "Kann ich Grundidee, typische Begriffe und Grenzen auseinanderhalten?"
-level: mittel
-tags:
-  - "web-development"
-  - "javascript"
-  - "module"
-  - "importe"
+topicPath: ["javascript", "module-und-importe", "ueberblick", "grundlagen-module-und-importe"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Überblick
 
 Module teilen JavaScript-Code in kleinere Dateien mit klaren Zuständigkeiten. Dadurch wird ein Projekt übersichtlicher, wiederverwendbarer und leichter testbar. Import und Export verbinden diese Dateien kontrolliert miteinander.

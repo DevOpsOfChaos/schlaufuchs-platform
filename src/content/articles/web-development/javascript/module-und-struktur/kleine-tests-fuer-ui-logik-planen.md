@@ -3,44 +3,17 @@ title: "JavaScript – kleine Tests für UI-Logik planen"
 description: "Plane Tests so, dass Zustände, Eingaben und Fehlerrückmeldungen prüfbar werden, ohne die gesamte Oberfläche zu überladen."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "module-und-struktur"
-  - "kleine-tests-fuer-ui-logik-planen"
-tags:
-  - "web development"
-  - "javascript"
-  - "tests"
-  - "ui"
-  - "qualität"
-learningGoals:
-  - "Du trennst reine Entscheidungslogik von DOM-Anpassung."
-  - "Du formulierst kleine Testfälle für typische Zustände."
-  - "Du prüfst nicht nur Erfolg, sondern auch leere und fehlerhafte Fälle."
-practiceIdeas:
-  - "Übertrage die Idee auf eine kleine eigene Seite."
-  - "Prüfe die Bedienung einmal mit Tastatur und einmal mit Maus."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "Nur den glücklichen Pfad zu testen."
-  - "Logik und DOM so zu vermischen, dass nichts einzeln prüfbar ist."
-  - "Tests ohne fachliche Erwartung zu schreiben."
-keyTakeaways:
-  - "Struktur, Zustand und Rückmeldung müssen zusammenpassen."
-  - "Sichtbare Nutzerführung ist Teil der technischen Lösung."
-  - "Saubere Webentwicklung prüft auch Fehlerfälle und Sonderwege."
-recognizeSignals:
-  - "Eine Oberfläche soll verständlicher, robuster oder zugänglicher werden."
-  - "HTML, CSS und JavaScript müssen gemeinsam gelesen werden."
-  - "Es gibt einen Zustand, der sichtbar gemacht oder kontrolliert werden muss."
-selfCheckPoints:
-  - "Kann ich die Entscheidung in einem Satz erklären?"
-  - "Bleibt die Lösung bei Fehlern oder Tastaturbedienung verständlich?"
-  - "Sind sichtbare Texte klar und deutsch formuliert?"
+topicPath: ["javascript", "module-und-struktur", "kleine-tests-fuer-ui-logik-planen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Plane Tests so, dass Zustände, Eingaben und Fehlerrückmeldungen prüfbar werden, ohne die gesamte Oberfläche zu überladen. Die Seite betrachtet das Thema nicht als isolierten Syntaxtrick, sondern als kleine Entscheidung für Bedienbarkeit, Wartbarkeit und verständliche Rückmeldung.

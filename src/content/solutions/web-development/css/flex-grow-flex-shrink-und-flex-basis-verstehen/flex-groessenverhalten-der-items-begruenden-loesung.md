@@ -1,20 +1,14 @@
 ---
-title: Lösung – Flex-Größenverhalten der Items begründen
-description: Musterlösung zur Aufgabe über flex-grow, flex-shrink und flex-basis.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - flex-grow-flex-shrink-und-flex-basis-verstehen
-taskId: WEB-CSS-FLEX-206
-relatedExercise: web-development/css/flex-grow-flex-shrink-und-flex-basis-verstehen/flex-groessenverhalten-der-items-begruenden
-tags:
-  - css
-  - flexbox
-  - lösung
+title: "Lösung – Flex-Größenverhalten der Items begründen"
+description: "Musterlösung zur Aufgabe über flex-grow, flex-shrink und flex-basis."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "flex-grow-flex-shrink-und-flex-basis-verstehen", "flex-groessenverhalten-der-items-begruenden"]
+taskId: "WEB-CSS-FLEX-206"
+relatedExercise: "web-development/css/flex-grow-flex-shrink-und-flex-basis-verstehen/flex-groessenverhalten-der-items-begruenden"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

@@ -1,36 +1,19 @@
 ---
 title: "CSRF und Formularschutz"
 description: "Überblick über Cross-Site Request Forgery und Schutzmaßnahmen für zustandsändernde Anfragen."
-subject: web-development
+subject: "web-development"
 section: "Sicherheit"
-topicPath:
-  - "csrf-und-formularschutz"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst CSRF und Formularschutz als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["csrf-und-formularschutz", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird angenommen, POST allein schütze vor CSRF."
-keyTakeaways:
-  - "CSRF betrifft zustandsändernde Aktionen mit automatischen Cookies."
-  - "Token und SameSite helfen als Schutzmechanismen."
-  - "Lesende und schreibende Anfragen sollten klar getrennt sein."
-recognizeSignals:
-  - "Es geht um CSRF und Formularschutz als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich CSRF und Formularschutz in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "web development"
-  - "csrf"
-  - "sicherheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Sicherheit"]
 draft: false
 ---
-
 # CSRF und Formularschutz
 
 CSRF beschreibt Angriffe, bei denen eine fremde Seite den Browser eines angemeldeten Benutzers dazu bringt, eine unerwünschte Anfrage an eine andere Anwendung zu senden. Das ist möglich, weil Cookies bei passenden Anfragen automatisch mitgesendet werden können.

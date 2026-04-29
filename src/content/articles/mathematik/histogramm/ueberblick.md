@@ -1,33 +1,19 @@
 ---
 title: "Histogramm"
 description: "Ein Histogramm zeigt die Verteilung metrischer Daten über Klassenintervalle. Es macht Häufungen, Schiefe und Streuung sichtbar."
-subject: mathematik
+subject: "mathematik"
 section: "Mathematik"
-topicPath:
-  - "histogramm"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Histogramm."
-  - "Du kannst Histogramm in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["histogramm", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ungleiche Klassenbreiten ohne passende Skalierung zu vergleichen."
-keyTakeaways:
-  - "Ein Histogramm zeigt die Verteilung metrischer Daten über Klassenintervalle."
-  - "Wichtig sind vor allem klassenbreite, häufigkeit oder dichte und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Histogramm, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Histogramm dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "grundlagen"
-  - "histogramm"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Mathematik"]
 draft: false
 ---
-
 # Histogramm
 
 Ein Histogramm zeigt die Verteilung metrischer Daten über Klassenintervalle. Es macht Häufungen, Schiefe und Streuung sichtbar. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

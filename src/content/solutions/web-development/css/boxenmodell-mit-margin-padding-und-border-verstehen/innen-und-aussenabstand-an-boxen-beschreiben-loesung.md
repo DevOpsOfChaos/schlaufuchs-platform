@@ -1,22 +1,14 @@
 ---
-title: Musterlösung – Innen- und Außenabstand an Boxen beschreiben
-description: Musterlösung zur Aufgabe WEB-CSS-CORE-104.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - boxenmodell-mit-margin-padding-und-border-verstehen
-  - innen-und-aussenabstand-an-boxen-beschreiben-loesung
-taskId: WEB-CSS-CORE-104
-relatedExercise: src/content/exercises/web-development/css/boxenmodell-mit-margin-padding-und-border-verstehen/innen-und-aussenabstand-an-boxen-beschreiben.md
-tags:
-  - web-development
-  - css
-  - loesung
-  - task-id
+title: "Musterlösung – Innen- und Außenabstand an Boxen beschreiben"
+description: "Musterlösung zur Aufgabe WEB-CSS-CORE-104."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "boxenmodell-mit-margin-padding-und-border-verstehen", "innen-und-aussenabstand-an-boxen-beschreiben"]
+taskId: "WEB-CSS-CORE-104"
+relatedExercise: "src/content/exercises/web-development/css/boxenmodell-mit-margin-padding-und-border-verstehen/innen-und-aussenabstand-an-boxen-beschreiben.md"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Schichten benennen
 
 Sinnvolle Reihenfolge:

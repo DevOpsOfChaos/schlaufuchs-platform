@@ -1,33 +1,17 @@
 ---
-title: Inhaltsüberstand und Scrolllogik begründen
-description: Begründe, was bei zu großem Inhalt in einer Box passieren soll und warum overflow nicht nur ein Reparaturtrick, sondern eine sichtbare Layoutentscheidung ist.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - overflow-und-scrollbereiche-verstehen
-  - inhaltsueberstand-und-scrolllogik-begruenden
-level: einfach
+title: "Inhaltsüberstand und Scrolllogik begründen"
+description: "Begründe, was bei zu großem Inhalt in einer Box passieren soll und warum overflow nicht nur ein Reparaturtrick, sondern eine sichtbare Layoutentscheidung ist."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "overflow-und-scrollbereiche-verstehen", "inhaltsueberstand-und-scrolllogik-begruenden"]
+taskId: "AUTO-INHALTSUEBERSTAND-UND-SCROLLLOGIK-BEGRUENDEN"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - css
-  - overflow
-  - scroll
-hintPoints:
-  - "Frage zuerst, ob die Box bewusst begrenzt sein soll."
-  - "Unterscheide zwischen sichtbarem Überstand, abgeschnittenem Inhalt und Scrollbereich."
-  - "Begründe die Layoutabsicht, nicht nur das CSS-Schlüsselwort."
-selfCheckPoints:
-  - "Ist klar, warum der Inhalt nicht in die Box passt?"
-  - "Beschreibst du das sichtbare Ergebnis der Regel?"
-  - "Trennst du Boxgröße und Inhaltsmenge sauber?"
-transferIdeas:
-  - "Übertrage die Aufgabe auf Codeblöcke, Bildbereiche oder kleine Dashboard-Karten."
-  - "Vergleiche einen scrollbaren Teilbereich mit einer Box, die einfach weiter wächst."
-reflectionPrompt: "Woran erkennst du, dass ein Scrollbereich absichtlich gesetzt ist und nicht nur ein Notbehelf gegen zu großen Inhalt?"
 ---
-
 ## Aufgabe 1: Was soll mit dem Überstand passieren?
 
 Eine kleine Karte mit fester Höhe enthält einen deutlich längeren Text als geplant.

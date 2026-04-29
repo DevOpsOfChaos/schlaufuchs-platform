@@ -1,37 +1,19 @@
 ---
 title: "Funktionale Gleichungen"
 description: "Überblick über Gleichungen, in denen ganze Funktionen statt einzelner Zahlen gesucht werden."
-subject: mathematik
+subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "funktionale-gleichungen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Funktionale Gleichungen als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["funktionale-gleichungen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur einzelne Beispiele zu finden und daraus vorschnell auf alle Werte zu schließen."
-keyTakeaways:
-  - "Funktionale Gleichungen suchen Funktionen."
-  - "Spezielle Werte helfen beim Erkennen der Struktur."
-  - "Zusatzbedingungen entscheiden oft über die Lösungsmenge."
-recognizeSignals:
-  - "Eine unbekannte Funktion erfüllt eine Beziehung für viele Werte."
-  - "Es geht um Eigenschaften wie Additivität oder Symmetrie."
-selfCheckPoints:
-  - "Kann ich Funktionale Gleichungen in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "funktionen"
-  - "gleichungen"
-  - "algebra"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
-
 # Funktionale Gleichungen
 
 Funktionale Gleichungen enthalten unbekannte Funktionen und Bedingungen, die für viele oder alle Eingabewerte gelten sollen.

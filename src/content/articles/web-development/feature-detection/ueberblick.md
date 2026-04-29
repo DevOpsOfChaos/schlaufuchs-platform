@@ -1,32 +1,17 @@
 ---
 title: "Feature Detection"
 description: "Überblick über Erkennung von Browserfähigkeiten statt Annahmen über bestimmte Browsernamen."
-subject: web-development
+subject: "web-development"
 section: "Robuste Oberflächen"
-topicPath:
-  - "feature-detection"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Feature Detection als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie APIs prüfen, CSS-Unterstützung, Fallbacks."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["feature-detection", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Browser-Erkennung als zuverlässiger als Fähigkeitsprüfung zu betrachten."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Feature Detection beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Umgang mit unterschiedlichen Browserfähigkeiten."
-  - "Wichtige Hinweise liefern vor allem APIs prüfen, CSS-Unterstützung, Fallbacks."
-recognizeSignals:
-  - "Es geht um umgang mit unterschiedlichen browserfähigkeiten, apis prüfen oder css-unterstützung."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Feature Detection erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "web-development"
-  - "browser"
-  - "robustheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Robuste Oberflächen"]
 draft: false
 ---
 # Feature Detection

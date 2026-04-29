@@ -3,33 +3,15 @@ title: "Bruch, Prozent und Verhältnis: Prüfen und Begründen"
 description: "Bewerte eine Aussage zu Bruch, Prozent und Verhältnis und formuliere eine bessere Arbeitsregel."
 subject: "mathematik"
 section: "rechenstrategien-und-kontrolle"
-topicPath:
-  - "rechenstrategien-und-kontrolle"
-  - "bruch-prozent-und-verhaeltnis"
-  - "aufgabe-b"
+topicPath: ["sanierung-v188", "bruch-prozent-und-verhaeltnis-aufgabe-b"]
 taskId: "mat-v188-004b"
-tags:
-  - "bruch"
-  - "prozent"
-  - "verhaeltnis"
-  - "mathematik"
-  - "aufgabe"
-  - "v188"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["mathematik", "rechenstrategien-und-kontrolle", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Prüfe die folgende Aussage zum Thema **Bruch, Prozent und Verhältnis**:

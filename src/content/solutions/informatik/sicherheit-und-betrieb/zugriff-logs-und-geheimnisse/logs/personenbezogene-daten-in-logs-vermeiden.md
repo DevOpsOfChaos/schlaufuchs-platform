@@ -3,23 +3,12 @@ title: "Lösung – Personenbezogene Daten in Logs vermeiden"
 description: "Musterlösung zu Datenschutz in Logs mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "sicherheit-und-betrieb"
-  - "zugriff-logs-und-geheimnisse"
-  - "logs"
-  - "personenbezogene-daten-in-logs-vermeiden"
+topicPath: ["sicherheit-und-betrieb", "zugriff-logs-und-geheimnisse", "logs", "personenbezogene-daten-in-logs-vermeiden"]
 taskId: "v111-informatik-personenbezogene-daten-in-logs-vermeiden"
 relatedExercise: "informatik/sicherheit-und-betrieb/zugriff-logs-und-geheimnisse/logs/personenbezogene-daten-in-logs-vermeiden"
-tags:
-  - "informatik"
-  - "struktur"
-  - "unterthema"
-  - "sicherheit-und-betrieb"
-  - "zugriff-logs-und-geheimnisse"
-  - "personenbezogene-daten-in-logs-vermeiden"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Datenschutz in Logs**.

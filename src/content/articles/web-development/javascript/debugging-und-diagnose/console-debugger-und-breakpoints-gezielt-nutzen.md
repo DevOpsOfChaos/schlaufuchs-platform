@@ -3,44 +3,17 @@ title: "JavaScript – Console, Debugger und Breakpoints gezielt nutzen"
 description: "Lerne, Fehler nicht durch Raten zu suchen, sondern Werte, Ablauf und Zustand im Browser systematisch zu prüfen."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "debugging-und-diagnose"
-  - "console-debugger-und-breakpoints-gezielt-nutzen"
-learningGoals:
-  - "Du erklärst die Grundidee von Console, Debugger und Breakpoints gezielt nutzen."
-  - "Du trennst sichtbares Nutzerverhalten, technische Ursache und passende Entscheidung."
-  - "Du begründest eine robuste Lösung statt nur einen einzelnen Trick zu merken."
-practiceIdeas:
-  - "Beschreibe zuerst die sichtbare Situation auf der Seite."
-  - "Markiere danach die technische Stelle, an der die Entscheidung getroffen wird."
-  - "Formuliere am Ende eine Prüffrage, mit der du die Lösung kontrollierst."
-commonMistakes:
-  - "Nur den Erfolgsfall oder Schönfall zu betrachten."
-  - "Performance, Sicherheit oder Wartbarkeit erst nachträglich zu prüfen."
-  - "Werkzeuge zu benutzen, ohne die eigentliche Browserentscheidung zu benennen."
-keyTakeaways:
-  - "Robuste Webentwicklung verbindet Inhalt, Gestaltung, Verhalten und Prüfung."
-  - "Gute Entscheidungen sind sichtbar begründet und nicht nur technisch möglich."
-  - "Gutes Debugging macht unsichtbare Annahmen sichtbar. Dadurch wird Fehlersuche kürzer und fachlich ruhiger."
-recognizeSignals:
-  - "Es geht um Ladeverhalten, Diagnose, Sicherheit oder Projektqualität."
-  - "Eine Seite funktioniert grundsätzlich, soll aber stabiler, schneller oder verständlicher werden."
-  - "Du sollst nicht nur Code schreiben, sondern eine Entscheidung begründen."
-selfCheckPoints:
-  - "Kann ich die sichtbare Auswirkung für Nutzerinnen und Nutzer benennen?"
-  - "Kann ich die technische Ursache von der Lösung trennen?"
-  - "Habe ich einen Fehler-, Lade- oder Sicherheitsfall mitgedacht?"
+topicPath: ["javascript", "debugging-und-diagnose", "console-debugger-und-breakpoints-gezielt-nutzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "web development"
-  - "javascript"
-  - "debugging"
-  - "console"
-  - "breakpoints"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Debugging ist kein zufälliges Einfügen von console.log an zehn Stellen. Gute Fehlersuche stellt eine klare Frage: Ist das Element vorhanden, wird das Ereignis ausgelöst und hat der Zustand den erwarteten Wert?

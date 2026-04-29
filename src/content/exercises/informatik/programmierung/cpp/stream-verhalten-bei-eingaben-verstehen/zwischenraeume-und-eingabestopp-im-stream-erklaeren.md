@@ -1,32 +1,17 @@
 ---
-title: Zwischenräume und Eingabestopp im Stream erklären
-description: Erkläre an kleinen Beispielen, wann cin Leerzeichen überspringt und wann ein Eingabeteil endet.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - ein-und-ausgabe
-  - stream-verhalten-bei-eingaben-verstehen
-  - zwischenraeume-und-eingabestopp-im-stream-erklaeren
-taskId: INF-PROG-CPP-STREAMREAD-001
-level: einfach
+title: "Zwischenräume und Eingabestopp im Stream erklären"
+description: "Erkläre an kleinen Beispielen, wann cin Leerzeichen überspringt und wann ein Eingabeteil endet."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "stream-verhalten-bei-eingaben-verstehen", "zwischenraeume-und-eingabestopp-im-stream-erklaeren"]
+taskId: "INF-PROG-CPP-STREAMREAD-001"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - informatik
-  - programmierung
-  - cpp
-hintPoints:
-  - "Trenne erst die Rolle der einzelnen Teile, dann den Gesamtablauf."
-  - "Begründe nicht nur das Ergebnis, sondern auch die Zuordnung."
-selfCheckPoints:
-  - "Habe ich die entscheidenden Begriffe oder Code-Stellen sauber zugeordnet?"
-  - "Ist meine Begründung fachlich ruhig und eindeutig?"
-transferIdeas:
-  - "Übertrage die Logik auf ein ähnliches kleines C++-Beispiel."
-reflectionPrompt: "Welche Unterscheidung war in dieser Aufgabe die wichtigste?"
 ---
-
 ## Aufgabe 1: Führende Zeichen
 
 Ein <code>float</code> soll mit <code>cin</code> gelesen werden. Die Eingabe beginnt mit einem Tabulator und lautet danach <code>34.5a</code>.

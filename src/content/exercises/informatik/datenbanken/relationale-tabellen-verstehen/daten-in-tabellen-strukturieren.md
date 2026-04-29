@@ -1,31 +1,17 @@
 ---
-title: Daten in Tabellen strukturieren
-description: Ordne ungeordnete Informationen in sinnvolle Tabellen und beschreibe einfache Beziehungen.
-subject: informatik
-section: Datenbanken
-topicPath:
-  - datenbanken
-  - relationale-tabellen-verstehen
-  - daten-in-tabellen-strukturieren
-taskId: INF-DATENBANKEN-TABELLEN-001
-level: einfach
+title: "Daten in Tabellen strukturieren"
+description: "Ordne ungeordnete Informationen in sinnvolle Tabellen und beschreibe einfache Beziehungen."
+subject: "informatik"
+section: "Datenbanken"
+topicPath: ["datenbanken", "relationale-tabellen-verstehen", "daten-in-tabellen-strukturieren"]
+taskId: "INF-DATENBANKEN-TABELLEN-001"
+tags: ["informatik", "Datenbanken", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - datenbanken
-  - tabellen
-  - struktur
-hintPoints:
-  - "Frage zuerst, welche Art von Dingen eigentlich gespeichert wird."
-  - "Prüfe dann, welche Informationen sich häufig wiederholen."
-selfCheckPoints:
-  - "Sind Tabelle, Datensatz und Attribut in deiner Lösung klar getrennt?"
-  - "Hast du Beziehungen sinnvoll beschrieben?"
-transferIdeas:
-  - "Übertrage die Aufgabe auf Bücher, Ausleihe oder Schulverwaltung."
-  - "Vergleiche eine Lösung mit einer Riesentabelle und einer Lösung mit zwei verbundenen Tabellen."
-reflectionPrompt: "Woran merkst du, dass Informationen besser auf mehrere Tabellen verteilt werden sollten?"
 ---
-
 ## Aufgabe 1: Tabellenidee entwickeln
 
 Eine kleine Bibliothek möchte Informationen zu Büchern und Ausleihen speichern.

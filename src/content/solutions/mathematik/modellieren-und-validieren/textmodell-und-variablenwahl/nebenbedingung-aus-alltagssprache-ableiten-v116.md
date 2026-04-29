@@ -3,22 +3,12 @@ title: "Lösung: Nebenbedingung aus Alltagssprache ableiten"
 description: "Musterlösung zur Aufgabe „Nebenbedingung aus Alltagssprache ableiten“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "modellieren-und-validieren"
-  - "textmodell-und-variablenwahl"
-  - "nebenbedingung-aus-alltagssprache-ableiten-v116"
+topicPath: ["modellieren-und-validieren", "textmodell-und-variablenwahl", "nebenbedingung-aus-alltagssprache-ableiten-v116"]
 taskId: "nebenbedingung-aus-alltagssprache-ableiten-v116"
 relatedExercise: "mathematik/modellieren-und-validieren/textmodell-und-variablenwahl/nebenbedingung-aus-alltagssprache-ableiten-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "textmodell und variablenwahl"
-  - "nebenbedingung aus alltagssprache ableiten"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

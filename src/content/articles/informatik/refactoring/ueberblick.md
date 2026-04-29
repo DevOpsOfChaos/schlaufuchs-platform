@@ -1,33 +1,19 @@
 ---
 title: "Refactoring"
 description: "Refactoring verändert die innere Struktur von Code, ohne sein beobachtbares Verhalten zu ändern. Es macht spätere Änderungen einfacher und sicherer."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "refactoring"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Refactoring."
-  - "Du kannst Refactoring in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["refactoring", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Große Umbauten ohne Tests als Refactoring zu bezeichnen."
-keyTakeaways:
-  - "Refactoring verändert die innere Struktur von Code, ohne sein beobachtbares Verhalten zu ändern."
-  - "Wichtig sind vor allem verhalten bleibt gleich, kleine sichere schritte und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Refactoring, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Refactoring dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "informatik"
-  - "grundlagen"
-  - "refactoring"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Refactoring
 
 Refactoring verändert die innere Struktur von Code, ohne sein beobachtbares Verhalten zu ändern. Es macht spätere Änderungen einfacher und sicherer. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

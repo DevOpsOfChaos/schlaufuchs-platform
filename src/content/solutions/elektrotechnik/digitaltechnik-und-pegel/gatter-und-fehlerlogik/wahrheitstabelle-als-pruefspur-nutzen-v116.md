@@ -3,22 +3,12 @@ title: "Lösung: Wahrheitstabelle als Prüfspur nutzen"
 description: "Musterlösung zur Aufgabe „Wahrheitstabelle als Prüfspur nutzen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "digitaltechnik-und-pegel"
-  - "gatter-und-fehlerlogik"
-  - "wahrheitstabelle-als-pruefspur-nutzen-v116"
+topicPath: ["digitaltechnik-und-pegel", "gatter-und-fehlerlogik", "wahrheitstabelle-als-pruefspur-nutzen-v116"]
 taskId: "wahrheitstabelle-als-pruefspur-nutzen-v116"
 relatedExercise: "elektrotechnik/digitaltechnik-und-pegel/gatter-und-fehlerlogik/wahrheitstabelle-als-pruefspur-nutzen-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "gatter und fehlerlogik"
-  - "wahrheitstabelle als pruefspur nutzen"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

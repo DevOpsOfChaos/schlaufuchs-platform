@@ -3,39 +3,17 @@ title: "Datenladen und Fetch API"
 description: "Plane Datenladen als Ablauf aus Anfrage, Warten, Auswerten und Fehlerbehandlung."
 subject: "web-development"
 section: "javascript"
-topicPath: 
-  - "javascript-und-interaktion"
-  - "datenladen"
-learningGoals: 
-  - "Daten aus externen Quellen ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Skizziere den Ablauf einer Datenliste vom Klick bis zur gerenderten Ausgabe."
-  - "Ergänze zu einem Fetch-Ablauf sinnvolle Zustände für Laden, Erfolg und Fehler."
-commonMistakes: 
-  - "Es wird angenommen, dass jede Anfrage erfolgreich ist."
-  - "JSON wird verwendet, bevor die Antwort geprüft wurde."
-  - "Fehler werden nur in der Console sichtbar."
-keyTakeaways: 
-  - "Datenladen ist robust, wenn Nutzer Lade-, Erfolgs- und Fehlerzustand erkennen können."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "Datenladen ist robust, wenn Nutzer Lade-, Erfolgs- und Fehlerzustand erkennen können."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "datenladen-und-fetch-api"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
-tags: 
-  - "fetch"
-  - "api"
-  - "javascript"
-  - "daten"
-  - "web-development"
+tags: ["web-development", "javascript"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Datenladen und Fetch API](/schlaufuchs-platform/images/web-development/sanierung-v187/datenladen-und-fetch-api.svg)
 
     Datenladen und Fetch API ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

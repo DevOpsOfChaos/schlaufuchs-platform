@@ -3,24 +3,12 @@ title: "Lösung: Renderfunktionen und Templates: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-v190-018b im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "ui-zustand"
-  - "renderfunktionen-und-templates"
-  - "loesung-b"
+topicPath: ["sanierung-v190", "renderfunktionen-und-templates-aufgabe-b"]
 taskId: "web-v190-018b"
 relatedExercise: "web-development/sanierung-v190/renderfunktionen-und-templates-aufgabe-b"
-tags:
-  - "ui-zustand"
-  - "renderfunktionen"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-018b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Renderfunktionen und Templates“ um einen Fehlerfall, eine Abnahmebedingung und eine kurze Begründung.

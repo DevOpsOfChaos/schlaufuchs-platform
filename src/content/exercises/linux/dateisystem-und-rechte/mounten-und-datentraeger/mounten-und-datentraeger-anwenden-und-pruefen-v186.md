@@ -1,29 +1,17 @@
 ---
 title: "Mounten und Datenträger – anwenden und prüfen"
 description: "Übe, Mounten und Datenträger an kleinen Praxissituationen zu prüfen."
-subject: linux
+subject: "linux"
 section: "dateisystem-und-rechte"
-topicPath:
-  - "dateisystem-und-rechte"
-  - "mounten-und-datentraeger"
-taskId: LINUX-MOUNTEN-UND-DATENTRAEGER-V186-2
-tags:
-  - "linux"
-  - "mount"
-  - "datentraeger"
-  - "aufgabe"
-hintPoints:
-  - "Beginne mit Begriff und Kontext."
-  - "Trenne Beobachtung, Prüfung und mögliche Änderung."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe erklären."
-  - "Ich kann einen typischen Fehler vermeiden."
-transferIdeas:
-  - "Formuliere eine ähnliche Prüfsituation aus deinem eigenen Linux-Alltag."
-level: mittel
+topicPath: ["dateisystem-und-rechte", "mounten-und-datentraeger", "mounten-und-datentraeger-anwenden-und-pruefen-v186"]
+taskId: "LINUX-MOUNTEN-UND-DATENTRAEGER-V186-2"
+tags: ["linux", "dateisystem-und-rechte", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Lernziel
 
 Du sollst **Mounten und Datenträger** nicht nur als Befehl oder Schlagwort sehen, sondern als geordnetes Linux-Thema mit Zweck, Kontext und typischen Prüfschritten.

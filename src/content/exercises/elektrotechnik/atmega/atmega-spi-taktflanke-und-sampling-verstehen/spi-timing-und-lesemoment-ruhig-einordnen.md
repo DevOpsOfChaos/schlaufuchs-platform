@@ -1,32 +1,17 @@
 ---
-title: SPI-Timing und Lesemoment ruhig einordnen
-description: Erkläre beim AVR-SPI, warum Taktflanke und Sampling-Moment über stabile oder fehlerhafte Datenübernahme entscheiden.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-schnittstellen-und-busse
-  - atmega-spi-taktflanke-und-sampling-verstehen
-  - spi-timing-und-lesemoment-ruhig-einordnen
-taskId: ET-ATMEGA-SPI-304
-level: mittel
+title: "SPI-Timing und Lesemoment ruhig einordnen"
+description: "Erkläre beim AVR-SPI, warum Taktflanke und Sampling-Moment über stabile oder fehlerhafte Datenübernahme entscheiden."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-spi-taktflanke-und-sampling-verstehen", "spi-timing-und-lesemoment-ruhig-einordnen"]
+taskId: "ET-ATMEGA-SPI-304"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - spi
-hintPoints:
-  - Trenne den Zeitpunkt des Änderns vom Zeitpunkt des Übernehmens.
-  - Lies die Modusfrage zuerst als Timing-Frage und nicht nur als Nummer.
-selfCheckPoints:
-  - Kannst du erklären, warum ein stabiler Lesemoment wichtig ist?
-  - Kannst du Verdrahtungsproblem und Timing-Problem unterscheiden?
-transferIdeas:
-  - Übertrage die Logik auf andere serielle Taktverfahren und auf unterschiedliche SPI-Modi.
-reflectionPrompt: "Warum ist bei SPI oft der Zeitblick hilfreicher als das Auswendiglernen von Modusnummern?"
 ---
-
 ## Aufgabe 1: Zwei Zeitrollen erklären
 
 Beschreibe in 3 bis 5 Sätzen den Unterschied zwischen

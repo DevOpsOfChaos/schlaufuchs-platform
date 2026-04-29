@@ -3,35 +3,15 @@ title: "Aufgabe – WHERE und HAVING in SQL unterscheiden"
 description: "Übe WHERE und HAVING mit einem konkreten Fall, einer Abgrenzung und einer Gegenprobe."
 subject: "informatik"
 section: "Datenbanken"
-topicPath:
-  - "datenbanken"
-  - "abfragen-und-indizes"
-  - "where-having"
-  - "where-und-having-in-sql-unterscheiden"
+topicPath: ["datenbanken", "abfragen-und-indizes", "where-having", "where-und-having-in-sql-unterscheiden"]
 taskId: "v108-informatik-where-und-having-in-sql-unterscheiden"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "datenbanken"
-  - "abfragen-und-indizes"
-  - "where und having"
-hintPoints:
-  - "Bestimme zuerst das kleine Unterthema."
-  - "Notiere, welches Nachbarthema ausdrücklich nicht gemeint ist."
-  - "Nutze eine Gegenprobe statt nur eine Behauptung."
-selfCheckPoints:
-  - "Ist der Fall eng genug eingeordnet?"
-  - "Wird die typische Verwechslung sichtbar?"
-  - "Passt die Gegenprobe zur Wissensseite?"
-transferIdeas:
-  - "Verändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere aus deiner Lösung einen kurzen Merksatz für eine zweite Person."
-reflectionPrompt: "Warum wäre eine breite Sammelantwort hier unübersichtlicher als das Unterthema „WHERE und HAVING“?"
+tags: ["informatik", "Datenbanken", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den Fall zu **WHERE und HAVING**.

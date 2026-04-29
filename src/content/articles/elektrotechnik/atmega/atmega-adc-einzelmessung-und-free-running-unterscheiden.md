@@ -1,46 +1,19 @@
 ---
-title: ATmega – ADC-Einzelmessung und Free-Running unterscheiden
-description: Verstehe, warum der AVR Analogwerte entweder einzeln auf Anforderung oder fortlaufend im Hintergrund messen kann.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - adc-und-analogwerte
-  - atmega-adc-einzelmessung-und-free-running-unterscheiden
-learningGoals:
-  - Du erklärst den Unterschied zwischen Einzelmessung und Free-Running beim ADC.
-  - Du beschreibst, wann eine einzelne gezielte Messung sinnvoller ist als eine laufende Messkette.
-  - Du liest ADC-Abläufe eher als Messstrategie statt nur als Registerumschaltung.
-practiceIdeas:
-  - Vergleiche einen Tasterfall mit einer fortlaufenden Sensorspur.
-  - Ordne Messstrategien nach der Frage, ob Werte nur gelegentlich oder ständig gebraucht werden.
-  - Prüfe bei ADC-Code zuerst, ob eine Einzelmessung oder ein dauerhafter Messstrom gemeint ist.
-commonMistakes:
-  - Free-Running als grundsätzlich immer bessere Lösung zu behandeln.
-  - Eine Einzelmessung mit langsamem oder fehlerhaftem ADC zu verwechseln.
-  - Nicht zu unterscheiden, ob ein Wert auf Anforderung oder fortlaufend entstehen soll.
-keyTakeaways:
-  - Eine Einzelmessung liefert gezielt einen einzelnen ADC-Wert auf Anforderung.
-  - Free-Running erzeugt fortlaufend neue Messwerte ohne jedes Mal neu gestartet zu werden.
-  - Welche Variante sinnvoller ist, hängt vom Messproblem ab und nicht nur vom Komfort.
-recognizeSignals:
-  - Es geht um ADC-Start, laufende Messwerte oder die Wahl zwischen gezielter und fortlaufender Messung.
-  - Du sollst erklären, warum ein Messwert nur einmal oder ständig neu entsteht.
-  - In Aufgaben steht die Messstrategie stärker im Mittelpunkt als ein einzelnes Registerbit.
-selfCheckPoints:
-  - Kann ich Einzelmessung und Free-Running fachlich trennen?
-  - Kann ich erklären, wann ein fortlaufender Messstrom sinnvoll ist?
-  - Kann ich begründen, warum eine einzelne Messung manchmal die ruhigere Lösung ist?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - adc
-  - analog
-level: mittel
+title: "ATmega – ADC-Einzelmessung und Free-Running unterscheiden"
+description: "Verstehe, warum der AVR Analogwerte entweder einzeln auf Anforderung oder fortlaufend im Hintergrund messen kann."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-adc-einzelmessung-und-free-running-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Beim ADC des AVR geht es nicht nur darum, **ob** gemessen wird, sondern auch **wie**. Manche Anwendungen brauchen nur ab und zu einen einzelnen Messwert. Andere wollen fortlaufend neue Werte. Genau diese Unterscheidung steckt hinter **Einzelmessung** und **Free-Running**.

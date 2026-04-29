@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – Nullpointer vor Zugriff ruhig prüfen
-description: Musterlösung zur Aufgabe INF-PROG-CPP-PTR-007.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - pointer-und-adressen
-  - nullptr-vor-dereferenzierung-pruefen
-  - nullpointer-vor-zugriff-ruhig-pruefen-loesung
-taskId: INF-PROG-CPP-PTR-007
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/nullptr-vor-dereferenzierung-pruefen/nullpointer-vor-zugriff-ruhig-pruefen.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – Nullpointer vor Zugriff ruhig prüfen"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-PTR-007."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "nullptr-vor-dereferenzierung-pruefen", "nullpointer-vor-zugriff-ruhig-pruefen"]
+taskId: "INF-PROG-CPP-PTR-007"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/nullptr-vor-dereferenzierung-pruefen/nullpointer-vor-zugriff-ruhig-pruefen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Kernregel formulieren
 
 Ich pruefe zuerst den Pointerzustand und dereferenziere erst danach.

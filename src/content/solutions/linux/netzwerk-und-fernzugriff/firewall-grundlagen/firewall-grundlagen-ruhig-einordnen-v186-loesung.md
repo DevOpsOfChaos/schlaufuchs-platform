@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Firewall-Grundlagen – ruhig einordnen"
 description: "Musterlösung zur Linux-Aufgabe Firewall-Grundlagen."
-subject: linux
+subject: "linux"
 section: "netzwerk-und-fernzugriff"
-topicPath:
-  - "netzwerk-und-fernzugriff"
-  - "firewall-grundlagen"
-taskId: LINUX-FIREWALL-GRUNDLAGEN-V186-1
-relatedExercise: src/content/exercises/linux/netzwerk-und-fernzugriff/firewall-grundlagen/firewall-grundlagen-ruhig-einordnen-v186.md
-tags:
-  - "linux"
-  - "firewall"
-  - "sicherheit"
-  - "loesung"
+topicPath: ["netzwerk-und-fernzugriff", "firewall-grundlagen", "firewall-grundlagen-ruhig-einordnen-v186"]
+taskId: "LINUX-FIREWALL-GRUNDLAGEN-V186-1"
+relatedExercise: "src/content/exercises/linux/netzwerk-und-fernzugriff/firewall-grundlagen/firewall-grundlagen-ruhig-einordnen-v186.md"
+tags: ["linux", "netzwerk-und-fernzugriff", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

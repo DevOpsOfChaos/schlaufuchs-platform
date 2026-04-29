@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Testfall aus Anforderung ableiten"
 description: "Musterlösung zu Testfall aus Anforderung ableiten mit Trennkante und Gegenprobe."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "softwarequalitaet-v115"
-  - "tests-und-vertraege"
-  - "testfall-aus-anforderung-ableiten-v115"
+topicPath: ["softwarequalitaet-v115", "tests-und-vertraege", "testfall-aus-anforderung-ableiten-v115"]
 taskId: "informatik-testfall-aus-anforderung-ableiten-v115"
 relatedExercise: "informatik/softwarequalitaet-v115/tests-und-vertraege/testfall-aus-anforderung-ableiten-v115"
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "softwarequalität"
-  - "tests und verträge"
-  - "lösung"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Testfall aus Anforderung ableiten**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

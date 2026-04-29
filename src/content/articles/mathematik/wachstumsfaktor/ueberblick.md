@@ -1,35 +1,17 @@
 ---
 title: "Wachstumsfaktor"
 description: "Überblick über den Wachstumsfaktor als Verbindung zwischen Prozentrechnung und exponentiellem Wachstum."
-subject: mathematik
+subject: "mathematik"
 section: "Grundlagen"
-topicPath:
-  - "wachstumsfaktor"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Wachstumsfaktor als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["wachstumsfaktor", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Prozentänderungen nacheinander addiert. Das ist bei wiederholtem Wachstum meist falsch."
-keyTakeaways:
-  - "Der Wachstumsfaktor beschreibt, mit welchem Faktor ein Wert bei einer prozentualen Änderung multipliziert wird."
-  - "Er macht Prozentänderungen rechnerisch übersichtlich und bildet die Grundlage für wiederholtes Wachstum oder wiederholte Abnahme."
-  - "Der Wachstumsfaktor beschreibt relative Änderung, nicht absolute Differenz."
-recognizeSignals:
-  - "Es geht um Wachstumsfaktor, wenn eine Zunahme um 20 Prozent entspricht dem Faktor 1,2."
-  - "Das Thema wird relevant, wenn Beispiele wie ein Preis von 50 Euro wächst bei 10 Prozent Erhöhung auf 55 Euro, weil 50 mit 1,1 multipliziert wird."
-selfCheckPoints:
-  - "Kann ich Wachstumsfaktor in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "prozentrechnung"
-  - "wachstum"
-  - "funktionen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Grundlagen"]
 draft: false
 ---
 # Wachstumsfaktor

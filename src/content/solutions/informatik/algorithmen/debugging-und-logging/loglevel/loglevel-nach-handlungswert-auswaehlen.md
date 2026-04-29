@@ -3,23 +3,12 @@ title: "Lösung – Loglevel nach Handlungswert auswählen"
 description: "Musterlösung zu Loglevel und Handlungswert mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Qualität"
-topicPath:
-  - "algorithmen"
-  - "debugging-und-logging"
-  - "loglevel"
-  - "loglevel-nach-handlungswert-auswaehlen"
+topicPath: ["algorithmen", "debugging-und-logging", "loglevel", "loglevel-nach-handlungswert-auswaehlen"]
 taskId: "v109-informatik-loglevel-nach-handlungswert-auswaehlen"
 relatedExercise: "informatik/algorithmen/debugging-und-logging/loglevel/loglevel-nach-handlungswert-auswaehlen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "algorithmen"
-  - "debugging-und-logging"
-  - "loglevel und handlungswert"
+tags: ["informatik", "Qualität", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Loglevel und Handlungswert**.

@@ -3,24 +3,12 @@ title: "Lösung: Listen und Tupel abgrenzen: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-016a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "datenstrukturen-und-algorithmen"
-  - "listen-und-tuples-abgrenzen"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "listen-und-tuples-abgrenzen-loesung-a"]
 taskId: "informatik-v193-016a"
 relatedExercise: "informatik/sanierung-v193/listen-und-tuples-abgrenzen-aufgabe-a"
-tags:
-  - "listen"
-  - "tuples"
-  - "abgrenzen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-016a`
 
 Ausgangsauftrag: Entscheide für fünf Datenbeispiele zwischen Liste und Tupel.

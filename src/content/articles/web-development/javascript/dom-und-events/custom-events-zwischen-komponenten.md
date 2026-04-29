@@ -3,44 +3,17 @@ title: "JavaScript – Custom Events zwischen Komponenten"
 description: "Verstehe, wie eigene Events helfen, Komponenten lose zu koppeln, statt direkte Funktionsaufrufe durch die Oberfläche zu ziehen."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "dom-und-events"
-  - "custom-events-zwischen-komponenten"
-tags:
-  - "web development"
-  - "javascript"
-  - "events"
-  - "custom events"
-  - "komponenten"
-learningGoals:
-  - "Du erklärst, warum lose Kopplung UI-Code wartbarer machen kann."
-  - "Du nutzt detail-Daten in einem CustomEvent gezielt."
-  - "Du unterscheidest Ereignis melden und Entscheidung treffen."
-practiceIdeas:
-  - "Übertrage das Muster auf eine kleine eigene Oberfläche."
-  - "Prüfe den Fall mit Tastatur, kleinem Bildschirm oder Fehlermeldung."
-  - "Formuliere die technische Entscheidung in Alltagssprache."
-commonMistakes:
-  - "Eine Komponente direkt alle Nachbarkomponenten verändern zu lassen."
-  - "Eventnamen zu allgemein oder uneindeutig zu wählen."
-  - "Zu viele Daten in detail zu packen, statt eine klare Nachricht zu senden."
-keyTakeaways:
-  - "Robuste Webentwicklung verbindet Struktur, Zustand und verständliche Rückmeldung."
-  - "Eine gute Lösung bleibt auch bei Tastaturbedienung, Fehlern oder kleinen Bildschirmen nachvollziehbar."
-  - "Saubere Projektpraxis bedeutet, Entscheidungen sichtbar und überprüfbar zu machen."
-recognizeSignals:
-  - "Eine Oberfläche funktioniert scheinbar, wird aber in Sonderfällen unklar."
-  - "Nutzerinnen und Nutzer brauchen Orientierung, Status oder eine konkrete Korrekturmöglichkeit."
-  - "HTML, CSS und JavaScript müssen gemeinsam statt isoliert betrachtet werden."
-selfCheckPoints:
-  - "Kann ich erklären, welcher Zustand gerade sichtbar gemacht wird?"
-  - "Ist die Lösung auch ohne Maus, perfekte Verbindung oder großen Bildschirm verständlich?"
-  - "Sind sichtbare Texte klar, deutsch und nah an der betroffenen Handlung formuliert?"
+topicPath: ["javascript", "dom-und-events", "custom-events-zwischen-komponenten"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Verstehe, wie eigene Events helfen, Komponenten lose zu koppeln, statt direkte Funktionsaufrufe durch die Oberfläche zu ziehen. Diese Seite behandelt das Thema als praktische Entscheidung im Webprojekt: Was sehen Nutzerinnen und Nutzer, was passiert technisch im Hintergrund und wie bleibt die Lösung später wartbar?

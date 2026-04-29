@@ -1,28 +1,17 @@
 ---
 title: "Eingangsschutz von Signalauswertung trennen"
 description: "Trenne Schutzfunktion und normale Signalinterpretation fachlich sauber."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Stromversorgung und Schutz"
-topicPath:
-  - stromversorgung-und-schutz
-  - esd-und-eingangsschutz
-taskId: ET-V182-016
-tags:
-  - elektrotechnik
-  - esd-und-eingangsschutz
-  - sanierung-v182
-hintPoints:
-  - "Lies zuerst den Normalzustand und danach den Fehlerfall."
-  - "Trenne Beobachtung, Vermutung und Gegenprobe."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["stromversorgung-und-schutz", "esd-und-eingangsschutz", "eingangsschutz-von-signalauswertung-trennen"]
+taskId: "ET-V182-016"
+tags: ["elektrotechnik", "Stromversorgung und Schutz", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **ESD und Eingangsschutz** ruhig und schrittweise.

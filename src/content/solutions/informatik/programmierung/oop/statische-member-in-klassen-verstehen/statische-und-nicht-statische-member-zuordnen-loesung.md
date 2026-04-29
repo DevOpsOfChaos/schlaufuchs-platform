@@ -1,23 +1,14 @@
 ---
-title: Musterloesung - Statische und nicht statische Member zuordnen
-description: Musterloesung zur Aufgabe INF-PROG-OOP-012.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - statische-member-in-klassen-verstehen
-  - statische-und-nicht-statische-member-zuordnen-loesung
-taskId: INF-PROG-OOP-012
-relatedExercise: src/content/exercises/informatik/programmierung/oop/statische-member-in-klassen-verstehen/statische-und-nicht-statische-member-zuordnen.md
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - loesung
+title: "Musterloesung - Statische und nicht statische Member zuordnen"
+description: "Musterloesung zur Aufgabe INF-PROG-OOP-012."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "statische-member-in-klassen-verstehen", "statische-und-nicht-statische-member-zuordnen"]
+taskId: "INF-PROG-OOP-012"
+relatedExercise: "src/content/exercises/informatik/programmierung/oop/statische-member-in-klassen-verstehen/statische-und-nicht-statische-member-zuordnen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Grundidee erklaeren
 
 Ein statischer Member gehoert zur Klasse als Ganzes und existiert nur einmal, auch wenn viele Objekte erzeugt werden.

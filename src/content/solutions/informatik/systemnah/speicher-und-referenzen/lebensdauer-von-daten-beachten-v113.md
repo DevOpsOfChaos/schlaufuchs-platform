@@ -3,20 +3,12 @@ title: "Lösung – Lebensdauer von Daten beachten"
 description: "Musterlösung zu Lebensdauer von Daten beachten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "systemnah"
-  - "speicher-und-referenzen"
-  - "lebensdauer-von-daten-beachten-v113"
+topicPath: ["systemnah", "speicher-und-referenzen", "lebensdauer-von-daten-beachten-v113"]
 taskId: "v113-informatik-lebensdauer-von-daten-beachten-v113"
 relatedExercise: "informatik/systemnah/speicher-und-referenzen/lebensdauer-von-daten-beachten-v113"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "lebensdauer-von-daten-beachten-v113"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Lebensdauer von Daten beachten**.

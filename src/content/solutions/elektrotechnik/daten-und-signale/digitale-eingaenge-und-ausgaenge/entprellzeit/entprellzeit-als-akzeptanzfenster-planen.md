@@ -3,23 +3,12 @@ title: "Lösung – Entprellzeit als Akzeptanzfenster planen"
 description: "Musterlösung zu Entprellzeit mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Digitaltechnik"
-topicPath:
-  - "daten-und-signale"
-  - "digitale-eingaenge-und-ausgaenge"
-  - "entprellzeit"
-  - "entprellzeit-als-akzeptanzfenster-planen"
+topicPath: ["daten-und-signale", "digitale-eingaenge-und-ausgaenge", "entprellzeit", "entprellzeit-als-akzeptanzfenster-planen"]
 taskId: "v109-elektrotechnik-entprellzeit-als-akzeptanzfenster-planen"
 relatedExercise: "elektrotechnik/daten-und-signale/digitale-eingaenge-und-ausgaenge/entprellzeit/entprellzeit-als-akzeptanzfenster-planen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "daten-und-signale"
-  - "digitale-eingaenge-und-ausgaenge"
-  - "entprellzeit"
+tags: ["elektrotechnik", "Digitaltechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Entprellzeit**.

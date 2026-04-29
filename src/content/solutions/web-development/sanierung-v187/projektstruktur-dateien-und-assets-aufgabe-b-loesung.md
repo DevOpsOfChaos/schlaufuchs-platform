@@ -3,23 +3,12 @@ title: "Lösung: Projektstruktur, Dateien und Assets: Prüfung und Verbesserung"
 description: "Musterlösung zur Aufgabe web-v187-019b im Web-Development-Block v187."
 subject: "web-development"
 section: "werkzeuge"
-topicPath: 
-  - "werkzeuge-und-projektarbeit"
-  - "projektstruktur"
-  - "loesung-b"
+topicPath: ["sanierung-v187", "projektstruktur-dateien-und-assets-aufgabe-b"]
 taskId: "web-v187-019b"
 relatedExercise: "web-development/sanierung-v187/projektstruktur-dateien-und-assets-aufgabe-b"
-tags: 
-  - "projektstruktur"
-  - "dateien"
-  - "assets"
-  - "pfade"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "werkzeuge", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-019b`
 
     Ausgangsauftrag: Räume eine chaotische Dateiliste in sinnvolle Ordner und erkläre die neuen Pfade.

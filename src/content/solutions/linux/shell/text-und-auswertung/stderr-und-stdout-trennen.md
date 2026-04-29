@@ -3,21 +3,12 @@ title: "Lösung – stderr und stdout trennen"
 description: "Musterlösung zu stderr und stdout trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "text-und-auswertung"
-  - "stderr-und-stdout-trennen"
+topicPath: ["shell", "text-und-auswertung", "stderr-und-stdout-trennen"]
 taskId: "v112-linux-stderr-und-stdout-trennen"
 relatedExercise: "linux/shell/text-und-auswertung/stderr-und-stdout-trennen"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "stderr-und-stdout-trennen"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Text und Auswertung**.

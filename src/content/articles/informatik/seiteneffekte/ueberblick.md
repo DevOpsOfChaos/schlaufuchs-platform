@@ -3,32 +3,17 @@ title: "Seiteneffekte"
 description: "Allgemeiner Überblick über Seiteneffekte in Programmen und ihre Bedeutung für Verständlichkeit und Tests."
 subject: "informatik"
 section: "Programmierung"
-topicPath:
-  - "seiteneffekte"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["seiteneffekte", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird nur der Rückgabewert einer Funktion betrachtet. Veränderte globale Variablen oder externe Ressourcen erklären dann scheinbar zufälliges Verhalten."
-keyTakeaways:
-  - "Seiteneffekte verbinden Programme mit Zustand und Außenwelt. Gute Architektur macht sie sichtbar und begrenzt sie bewusst."
-  - "Seiteneffekte sind nicht grundsätzlich schlecht. Problematisch werden sie, wenn sie versteckt, unkontrolliert oder unerwartet auftreten."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "seiteneffekte"
-  - "funktionen"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 # Seiteneffekte
 
 Ein Seiteneffekt liegt vor, wenn ein Programmteil neben seinem Rückgabewert auch einen Zustand verändert oder mit der Außenwelt interagiert.

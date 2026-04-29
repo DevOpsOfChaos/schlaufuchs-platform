@@ -1,17 +1,19 @@
 ---
-title: Koordinatensystem und Punkte verstehen
-description: Das Koordinatensystem hilft dabei, Punkte, Lagen und Zusammenhänge sichtbar und mathematisch präzise darzustellen.
-subject: mathematik
-section: Grundlagen
-level: einfach
-tags:
-  - Koordinatensystem
-  - Punkte
-  - x-Achse
-  - y-Achse
+title: "Koordinatensystem und Punkte verstehen"
+description: "Das Koordinatensystem hilft dabei, Punkte, Lagen und Zusammenhänge sichtbar und mathematisch präzise darzustellen."
+subject: "mathematik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "koordinatensystem", "koordinatensystem-und-punkte-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 Das Koordinatensystem ist eine der wichtigsten Darstellungsformen der Mathematik. Es macht Zahlenpaare sichtbar und erlaubt es, Punkte, Graphen und Zusammenhänge geordnet abzubilden. Wer Koordinatensysteme sicher lesen kann, versteht später Funktionen, Geraden und viele technische Darstellungen leichter.

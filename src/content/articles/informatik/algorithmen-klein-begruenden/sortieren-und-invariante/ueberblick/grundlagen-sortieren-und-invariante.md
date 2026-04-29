@@ -1,35 +1,19 @@
 ---
 title: "Grundlagen: Sortieren und Invarianten"
 description: "Sortierverfahren werden verständlicher, wenn man erkennt, welche Ordnung während des Ablaufs erhalten bleibt."
-subject: informatik
+subject: "informatik"
 section: "Algorithmen klein begründen"
-topicPath:
-  - "algorithmen-klein-begruenden"
-  - "sortieren-und-invariante"
-  - "ueberblick"
-learningGoals:
-  - "Du ordnest Sortieren und Invarianten fachlich ein."
-  - "Du unterscheidest zentrale Begriffe und typische Rollen."
-  - "Du erkennst häufige Fehler beim Anwenden."
-practiceIdeas:
-  - "Formuliere die Grundidee in zwei Sätzen."
-  - "Ordne ein Beispiel den wichtigsten Begriffen zu."
-commonMistakes:
-  - "Nur das Endergebnis zu betrachten und die Invariante des Verfahrens zu übersehen."
-keyTakeaways:
-  - "Sortierverfahren werden verständlicher, wenn man erkennt, welche Ordnung während des Ablaufs erhalten bleibt."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung vor einer Einzelfalllösung."
-selfCheckPoints:
-  - "Kann ich die Grundbegriffe voneinander unterscheiden?"
-level: mittel
-tags:
-  - "informatik"
-  - "algorithmen-klein-begruenden"
-  - "sortieren-und-invariante"
+topicPath: ["algorithmen-klein-begruenden", "sortieren-und-invariante", "ueberblick", "grundlagen-sortieren-und-invariante"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Algorithmen klein begründen"]
 draft: false
 ---
-
 ![Schaubild zu Sortieren und Invarianten](/schlaufuchs-platform/images/overviews/v183/informatik-sortieren-und-invariante.svg)
 
 ## Begriff

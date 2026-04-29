@@ -1,46 +1,19 @@
 ---
-title: Operatoren ueberladen - Regeln und Grenzen verstehen
-description: Verstehe, wann Operatorueberladung in C++ moeglich ist und welche fachlichen Grenzen dabei gelten.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - operatoren-ueberladen-regeln-und-grenzen-verstehen
-learningGoals:
-  - Du erklaerst die Grundidee von Operatorueberladung in C++.
-  - Du nennst wichtige Grenzen und verbotene Faelle.
-  - Du liest Operatorfunktionen ruhiger als normale Funktionen mit spezieller Schreibweise.
-practiceIdeas:
-  - Uebersetze einen Ausdruck mit Operator in einen Funktionsaufruf.
-  - Pruefe, ob mindestens ein Operand benutzerdefiniert ist.
-  - Sortiere erlaubte, nur-als-Member-erlaubte und verbotene Operatoren.
-commonMistakes:
-  - Zu denken, dass man voellig neue Operatorsymbole erfinden koenne.
-  - Zu vergessen, dass die Anzahl der Operanden gleich bleibt.
-  - Operatorprioritaet durch Ueberladung veraendern zu wollen.
-keyTakeaways:
-  - Operatorueberladung erlaubt vertraute Schreibweisen fuer eigene Typen.
-  - Sie aendert nicht die grundlegende Sprachelogik.
-  - Nicht jeder Operator ist frei ueberladbar.
-recognizeSignals:
-  - Im Code steht operator+ oder operator==.
-  - Es geht um Klassen, Strukturen und spezielle Funktionssignaturen.
-  - Du sollst Regeln oder Verbote bei Operatorueberladung einordnen.
-selfCheckPoints:
-  - Kann ich sagen, wozu Operatorueberladung dient?
-  - Kann ich mindestens drei Grenzen nennen?
-  - Kann ich einen Operatorausdruck als Funktionsidee lesen?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - operatoren
-  - ueberladung
+title: "Operatoren ueberladen - Regeln und Grenzen verstehen"
+description: "Verstehe, wann Operatorueberladung in C++ moeglich ist und welche fachlichen Grenzen dabei gelten."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "operatoren-ueberladen-regeln-und-grenzen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 In C++ koennen Operatoren fuer benutzerdefinierte Typen als spezielle Funktionen formuliert werden. Dadurch kann ein Ausdruck wie <code>A + B</code> fuer eigene Klassen eine passende, fachlich sinnvolle Bedeutung bekommen.

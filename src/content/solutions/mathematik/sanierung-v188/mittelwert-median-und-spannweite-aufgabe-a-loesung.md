@@ -3,22 +3,12 @@ title: "Lösung: Mittelwert, Median und Spannweite: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-029a."
 subject: "mathematik"
 section: "daten-deuten-und-pruefen"
-topicPath:
-  - "daten-deuten-und-pruefen"
-  - "mittelwert-median-und-spannweite"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "mittelwert-median-und-spannweite-aufgabe-a"]
 taskId: "mat-v188-029a"
 relatedExercise: "mathematik/sanierung-v188/mittelwert-median-und-spannweite-aufgabe-a"
-tags:
-  - "daten"
-  - "mittelwert"
-  - "median"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "daten-deuten-und-pruefen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-029a`
 
 Eine mögliche Lösung:

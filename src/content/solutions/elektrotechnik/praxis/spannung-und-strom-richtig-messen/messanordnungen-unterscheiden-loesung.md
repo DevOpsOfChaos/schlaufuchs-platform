@@ -1,22 +1,14 @@
 ---
 title: "Lösung: Messanordnungen unterscheiden"
 description: "Lösung zur Aufgabe über Spannungs- und Strommessung."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - "praxis"
-  - "spannung-und-strom-richtig-messen"
-  - "messanordnungen-unterscheiden"
+topicPath: ["praxis", "spannung-und-strom-richtig-messen", "messanordnungen-unterscheiden"]
 taskId: "ET-PR-MESSANORDNUNG-001"
 relatedExercise: "src/content/exercises/elektrotechnik/praxis/spannung-und-strom-richtig-messen/messanordnungen-unterscheiden.md"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "spannung"
-  - "strom"
+tags: ["elektrotechnik", "Praxis", "loesung"]
 draft: false
 ---
-
 ## Lösungsgedanke
 
 Diese Lösung ist bewusst als Musterlösung aufgebaut. Sie zeigt nicht nur ein Ergebnis, sondern die fachliche Begründung, damit die Aufgabe später nachvollziehbar kontrolliert werden kann.

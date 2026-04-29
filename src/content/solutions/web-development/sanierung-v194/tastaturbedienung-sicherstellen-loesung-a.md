@@ -3,24 +3,12 @@ title: "Lösung: Tastaturbedienung sicherstellen: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-development-v194-005a im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "interaktion-und-fokus"
-  - "tastaturbedienung-sicherstellen"
-  - "loesung-a"
-
+topicPath: ["sanierung-v194", "tastaturbedienung-sicherstellen-loesung-a"]
 taskId: "web-development-v194-005a"
 relatedExercise: "web-development/sanierung-v194/tastaturbedienung-sicherstellen-aufgabe-a"
-tags:
-  - "tastaturbedienung"
-  - "sicherstellen"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-005a`
 
 Ausgangsauftrag: Teste ein kleines Menü nur mit Tastatur und dokumentiere die Reihenfolge.

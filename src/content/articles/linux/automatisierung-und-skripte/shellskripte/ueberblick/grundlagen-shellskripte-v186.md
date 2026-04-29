@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Shellskripte"
 description: "Verstehe Shellskripte als wiederholbare Bündel von Befehlen."
-subject: linux
+subject: "linux"
 section: "automatisierung-und-skripte"
-topicPath:
-  - "automatisierung-und-skripte"
-  - "shellskripte"
-learningGoals:
-  - "Du erklärst Shellskripte in eigenen Worten."
-  - "Du ordnest typische Befehle, Begriffe oder Prüfschritte richtig ein."
-  - "Du erkennst typische Grenzen und Fehlerquellen im Linux-Alltag."
-practiceIdeas:
-  - "Beschreibe eine kleine Alltagssituation zu diesem Thema."
-  - "Markiere, welche Information zuerst geprüft werden muss."
-commonMistakes:
-  - "Ein einzelnes Kommando für das ganze Thema zu halten."
-  - "Ausgabe, Zustand und Ursache zu vermischen."
-  - "Ohne Kontext direkt an Sonderfälle zu springen."
-keyTakeaways:
-  - "Shellskripte machen wiederkehrende Befehlsfolgen reproduzierbar."
-  - "Parameter und Exit-Codes machen Skripte besser steuerbar."
-  - "Gute Skripte sind nachvollziehbar, prüfbar und begrenzt zuständig."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung statt nur eines Befehlsrezepts."
-  - "Mehrere ähnliche Befehle oder Dateien wirken unklar."
-selfCheckPoints:
-  - "Kann ich Zweck, Kontext und typischen Prüfschritt unterscheiden?"
-  - "Kann ich eine einfache Fehlannahme zum Thema benennen?"
-level: mittel
-tags:
-  - "linux"
-  - "shellskript"
-  - "automatisierung"
+topicPath: ["automatisierung-und-skripte", "shellskripte", "ueberblick", "grundlagen-shellskripte-v186"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["linux", "automatisierung-und-skripte"]
 draft: false
 ---
-
 ![Shellskripte](/schlaufuchs-platform/images/overviews/v186/shellskripte.svg)
 
 ## Begriff

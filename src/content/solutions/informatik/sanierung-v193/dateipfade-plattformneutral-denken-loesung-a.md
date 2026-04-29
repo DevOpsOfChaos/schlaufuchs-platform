@@ -3,24 +3,12 @@ title: "Lösung: Dateipfade plattformneutral denken: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-025a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "projektstruktur-und-codepflege"
-  - "dateipfade-plattformneutral-denken"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "dateipfade-plattformneutral-denken-loesung-a"]
 taskId: "informatik-v193-025a"
 relatedExercise: "informatik/sanierung-v193/dateipfade-plattformneutral-denken-aufgabe-a"
-tags:
-  - "dateipfade"
-  - "plattformneutral"
-  - "denken"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-025a`
 
 Ausgangsauftrag: Prüfe drei Pfadbeispiele auf plattformneutrale Behandlung.

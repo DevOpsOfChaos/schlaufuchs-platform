@@ -1,30 +1,17 @@
 ---
 title: "Größenordnung"
 description: "Allgemeiner Überblick: Größenordnungen helfen, Zahlen schnell einzuordnen und Fehler zu erkennen."
-subject: mathematik
+subject: "mathematik"
 section: "Grundlagen"
-topicPath:
-  - "groessenordnung"
-learningGoals:
-  - "Du kannst größenordnung als Grundidee einordnen."
-  - "Du erkennst wichtige Bestandteile und typische Grenzen."
-  - "Du kannst das Thema in einfachen Worten erklären."
+topicPath: ["groessenordnung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur ein Detail zu betrachten und den Zusammenhang zu übersehen."
-  - "Das Schaubild als exakte technische Darstellung statt als Orientierung zu lesen."
-keyTakeaways:
-  - "Größenordnungen helfen, Zahlen schnell einzuordnen und Fehler zu erkennen."
-  - "Ein Überblicksbild hilft, Begriffe und Beziehungen ruhig zu ordnen."
-recognizeSignals:
-  - "Es geht um größenordnung, Grundbegriffe, Zusammenhänge oder typische Fehlerquellen."
-selfCheckPoints:
-  - "Kann ich erklären, welche Rolle größenordnung im größeren Zusammenhang spielt?"
-level: einfach
-tags:
-  - "mathematik"
-  - "groessenordnung"
-  - "überblick"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Grundlagen"]
 draft: false
 ---
 # Größenordnung

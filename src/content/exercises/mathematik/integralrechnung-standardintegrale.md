@@ -1,11 +1,17 @@
 ---
-title: Integralrechnung – Standardintegrale
-description: Übe einfache Integrale und grundlegende Rechenmuster.
-subject: mathematik
-level: mittel
+title: "Integralrechnung – Standardintegrale"
+description: "Übe einfache Integrale und grundlegende Rechenmuster."
+subject: "mathematik"
+section: "integralrechnung-standardintegrale"
+topicPath: ["integralrechnung-standardintegrale"]
+taskId: "AUTO-INTEGRALRECHNUNG-STANDARDINTEGRALE"
+tags: ["mathematik", "integralrechnung-standardintegrale", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 Diese Übung trainiert die wichtigsten Standardintegrale und schafft eine sichere Grundlage für spätere Flächen- und Integralaufgaben.
 
 ## Aufgabenideen

@@ -1,31 +1,17 @@
 ---
-title: Flex-Größenverhalten der Items begründen
-description: Begründe, wie flex-grow, flex-shrink und flex-basis zusammenwirken und warum gleiche Startgrößen zu unterschiedlichen Ergebnissen führen können.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - flex-grow-flex-shrink-und-flex-basis-verstehen
-  - flex-groessenverhalten-der-items-begruenden
-taskId: WEB-CSS-FLEX-206
-level: einfach
+title: "Flex-Größenverhalten der Items begründen"
+description: "Begründe, wie flex-grow, flex-shrink und flex-basis zusammenwirken und warum gleiche Startgrößen zu unterschiedlichen Ergebnissen führen können."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "flex-grow-flex-shrink-und-flex-basis-verstehen", "flex-groessenverhalten-der-items-begruenden"]
+taskId: "WEB-CSS-FLEX-206"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - css
-  - flexbox
-  - größe
-hintPoints:
-  - Trenne Ausgangsgröße, Wachsen und Schrumpfen sauber.
-  - Lies die Kurzschreibweise als drei Rollen und nicht als Zahlencode.
-  - Rechne freien Platz oder Platzmangel ruhig einmal mit.
-selfCheckPoints:
-  - Kannst du flex-basis und Endgröße unterscheiden?
-  - Kannst du erklären, warum ein Item mehr Platz bekommt als ein anderes?
-transferIdeas:
-  - Übertrage die Logik auf Kartenreihen, Preisboxen oder Navigationsleisten.
-reflectionPrompt: "Warum hilft ein kleiner Zahlenblick oft mehr als ein reiner Merksatz?"
 ---
-
 Gegeben ist dieser Fall:
 
 ```css

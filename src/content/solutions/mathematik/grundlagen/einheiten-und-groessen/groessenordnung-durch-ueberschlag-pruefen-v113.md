@@ -3,20 +3,12 @@ title: "Lösung – Größenordnung durch Überschlag prüfen"
 description: "Musterlösung zu Größenordnung durch Überschlag prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "grundlagen"
-  - "einheiten-und-groessen"
-  - "groessenordnung-durch-ueberschlag-pruefen-v113"
+topicPath: ["grundlagen", "einheiten-und-groessen", "groessenordnung-durch-ueberschlag-pruefen-v113"]
 taskId: "v113-mathematik-groessenordnung-durch-ueberschlag-pruefen-v113"
 relatedExercise: "mathematik/grundlagen/einheiten-und-groessen/groessenordnung-durch-ueberschlag-pruefen-v113"
-tags:
-  - "mathematik"
-  - "strukturcheck"
-  - "unterthema"
-  - "groessenordnung-durch-ueberschlag-pruefen-v113"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Größenordnung durch Überschlag prüfen**.

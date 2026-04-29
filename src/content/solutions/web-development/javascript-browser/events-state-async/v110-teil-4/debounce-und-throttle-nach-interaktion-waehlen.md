@@ -3,23 +3,12 @@ title: "Lösung – Debounce und Throttle nach Interaktion wählen"
 description: "Musterlösung zu Debounce und Throttle nach Interaktion wählen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript-browser"
-  - "events-state-async"
-  - "v110-teil-4"
-  - "debounce-und-throttle-nach-interaktion-waehlen"
+topicPath: ["javascript-browser", "events-state-async", "v110-teil-4", "debounce-und-throttle-nach-interaktion-waehlen"]
 taskId: "v110-web-development-debounce-und-throttle-nach-interaktion-waehlen"
 relatedExercise: "web-development/javascript-browser/events-state-async/v110-teil-4/debounce-und-throttle-nach-interaktion-waehlen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "javascript-browser"
-  - "events-state-async"
-  - "debounce-und-throttle-nach-interaktion-waehlen"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Debounce und Throttle nach Interaktion wählen**.

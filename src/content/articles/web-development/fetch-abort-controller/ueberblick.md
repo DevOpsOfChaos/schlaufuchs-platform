@@ -1,36 +1,19 @@
 ---
 title: "Fetch und AbortController"
 description: "AbortController erlaubt, laufende fetch-Anfragen im Browser kontrolliert abzubrechen."
-subject: web-development
+subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "fetch-abort-controller"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Fetch und AbortController als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["fetch-abort-controller", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden alte Requests nicht abgebrochen und überschreiben später den aktuellen Zustand."
-keyTakeaways:
-  - "AbortController erlaubt, laufende fetch-Anfragen im Browser kontrolliert abzubrechen."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Fetch und AbortController, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Fetch und AbortController in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "web"
-  - "fetch"
-  - "javascript"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 # Fetch und AbortController
 
 AbortController erlaubt, laufende fetch-Anfragen im Browser kontrolliert abzubrechen. Diese Überblicksseite ordnet das Thema ruhig und allgemein ein. Sie ist nicht als Aufgabe oder Einzelfall gedacht, sondern als Einstieg, bevor konkrete Situationen, Werkzeuge, Formeln oder Fehlersuchen betrachtet werden.

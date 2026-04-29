@@ -3,22 +3,12 @@ title: "Lösung: Bit, Byte und Codierung: Grundordnung"
 description: "Musterlösung zur Aufgabe dat-v189-009a."
 subject: "daten-und-signale"
 section: "codierung"
-topicPath:
-  - "codierung"
-  - "bit-byte-und-codierung"
-  - "loesung-a"
+topicPath: ["sanierung-v189", "bit-byte-und-codierung-aufgabe-a"]
 taskId: "dat-v189-009a"
 relatedExercise: "daten-und-signale/sanierung-v189/bit-byte-und-codierung-aufgabe-a"
-tags:
-  - "bit"
-  - "byte"
-  - "codierung"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "codierung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-009a`
 
 Eine mögliche Lösung:

@@ -1,36 +1,19 @@
 ---
 title: "SSH Public-Key-Authentifizierung"
 description: "SSH Public-Key-Authentifizierung nutzt ein Schlüsselpaar, damit ein Server einen Client erkennen kann, ohne ein Passwort über die Verbindung zu senden."
-subject: linux
+subject: "linux"
 section: "SSH"
-topicPath:
-  - "ssh-public-key-authentifizierung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst SSH Public-Key-Authentifizierung als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["ssh-public-key-authentifizierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Rechte auf .ssh oder authorized_keys zu offen gesetzt, wodurch die Anmeldung scheitert."
-keyTakeaways:
-  - "SSH Public-Key-Authentifizierung nutzt ein Schlüsselpaar, damit ein Server einen Client erkennen kann, ohne ein Passwort über die Verbindung zu senden."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um SSH Public-Key-Authentifizierung, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich SSH Public-Key-Authentifizierung in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "ssh"
-  - "schluessel"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "SSH"]
 draft: false
 ---
-
 # SSH Public-Key-Authentifizierung
 
 SSH Public-Key-Authentifizierung nutzt ein Schlüsselpaar, damit ein Server einen Client erkennen

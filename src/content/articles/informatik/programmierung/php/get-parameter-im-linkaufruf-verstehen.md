@@ -1,46 +1,19 @@
 ---
-title: GET-Parameter im Linkaufruf verstehen
-description: Verstehe, wie Werte an eine URL angehängt werden, wie der Server sie über $_GET liest und wann diese Übertragungsart sinnvoll ist.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - get-parameter-im-linkaufruf-verstehen
-learningGoals:
-  - Du erklärst den groben Aufbau einer URL mit GET-Parametern.
-  - Du liest Bezeichner und Werte in Query-Strings sauber auseinander.
-  - Du erkennst, wann GET für sichtbare, kleine Parameter passt und wann nicht.
-practiceIdeas:
-  - Lies eine URL mit zwei Parametern und ordne Namen und Werte korrekt zu.
-  - Erkläre, wie daraus Einträge in $_GET entstehen.
-  - Vergleiche eine GET-Übertragung mit einer POST-Übertragung auf grober Ebene.
-commonMistakes:
-  - Fragezeichen, Gleichheitszeichen und & falsch zu deuten.
-  - Den sichtbaren Query-String mit serverseitiger Verarbeitung zu verwechseln.
-  - GET auch für verdeckte oder große Datenmengen für passend zu halten.
-keyTakeaways:
-  - GET hängt Daten sichtbar an die URL an.
-  - $_GET liest die Werte über ihre Parameternamen.
-  - GET passt eher für kleine, lesbare und wiederholbare Parameter.
-recognizeSignals:
-  - Es geht um Links, Query-Strings oder $_GET.
-  - Eine URL enthält ?name=wert&anderes=wert.
-  - Du sollst sagen, welcher Wert auf dem Server unter welchem Namen ankommt.
-selfCheckPoints:
-  - Kann ich eine GET-URL in einzelne Parameter zerlegen?
-  - Kann ich erklären, wie der Server die Werte liest?
-  - Kann ich begründen, warum GET hier sinnvoll oder unsinnig ist?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - get
-  - parameter
+title: "GET-Parameter im Linkaufruf verstehen"
+description: "Verstehe, wie Werte an eine URL angehängt werden, wie der Server sie über $_GET liest und wann diese Übertragungsart sinnvoll ist."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "get-parameter-im-linkaufruf-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei einer GET-Übertragung werden Werte direkt an die URL angehängt. Der Server kann diese Werte anschließend über das assoziative Array <code>$_GET</code> lesen.

@@ -3,35 +3,15 @@ title: "Listen, Tabellen und Inhaltsgruppen: Prüfung und Verbesserung"
 description: "Baue aus Rohinformationen eine kleine Vergleichstabelle mit sinnvoller Beschriftung."
 subject: "web-development"
 section: "html"
-topicPath: 
-  - "html-und-semantik"
-  - "inhaltsgruppen"
-  - "aufgabe-b"
+topicPath: ["sanierung-v187", "listen-tabellen-und-inhaltsgruppen-aufgabe-b"]
 taskId: "web-v187-005b"
-tags: 
-  - "html"
-  - "listen"
-  - "tabellen"
-  - "struktur"
-  - "web-development"
-  - "aufgabe"
-  - "v187"
-hintPoints: 
-  - "Trenne Zweck, Struktur und sichtbare Wirkung."
-  - "Begründe mindestens eine Entscheidung mit dem Nutzerziel."
-  - "Prüfe einen typischen Fehlerfall aus der Erklärseite."
-selfCheckPoints: 
-  - "Die Lösung passt zur Aufgabenstellung."
-  - "Mindestens eine Entscheidung ist begründet."
-  - "Es gibt keine neue Aufgabe ohne passende Lösung."
-transferIdeas: 
-  - "Übertrage die Entscheidung auf eine zweite kleine Seite."
-  - "Formuliere eine kurze Checkliste für spätere Wiederholung."
-reflectionPrompt: "Welche Entscheidung war am wichtigsten, damit die Lösung ruhig und wartbar bleibt?"
+tags: ["web-development", "html", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Baue aus Rohinformationen eine kleine Vergleichstabelle mit sinnvoller Beschriftung.

@@ -3,24 +3,12 @@ title: "Lösung: Alternativtexte für Bilder: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-development-v194-004b im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "zugang-und-semantik"
-  - "alternativtexte-fuer-bilder"
-  - "loesung-b"
-
+topicPath: ["sanierung-v194", "alternativtexte-fuer-bilder-loesung-b"]
 taskId: "web-development-v194-004b"
 relatedExercise: "web-development/sanierung-v194/alternativtexte-fuer-bilder-aufgabe-b"
-tags:
-  - "alternativtexte"
-  - "bilder"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-004b`
 
 Ausgangsauftrag: Übertrage das Thema Alternativtexte für Bilder auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

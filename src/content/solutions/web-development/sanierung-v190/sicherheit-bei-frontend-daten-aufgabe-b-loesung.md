@@ -3,24 +3,12 @@ title: "Lösung: Sicherheit bei Frontend-Daten: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-v190-028b im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "robuste-webseiten"
-  - "sicherheit-bei-frontend-daten"
-  - "loesung-b"
+topicPath: ["sanierung-v190", "sicherheit-bei-frontend-daten-aufgabe-b"]
 taskId: "web-v190-028b"
 relatedExercise: "web-development/sanierung-v190/sicherheit-bei-frontend-daten-aufgabe-b"
-tags:
-  - "robuste-webseiten"
-  - "sicherheit"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-028b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Sicherheit bei Frontend-Daten“ um einen Fehlerfall, eine Abnahmebedingung und eine kurze Begründung.

@@ -1,46 +1,19 @@
 ---
-title: AJAX-Grundidee verstehen
-description: Verstehe, wie Webseiten Daten im Hintergrund nachladen können, ohne die ganze Seite neu aufzubauen.
-subject: informatik
-section: Netzwerke
-topicPath:
-  - netzwerke
-  - ajax
-  - ajax-grundidee-verstehen
-learningGoals:
-  - Du erklärst die Grundidee asynchroner Anfragen im Web.
-  - Du beschreibst, warum Inhalte mit AJAX gezielt nachgeladen werden können.
-  - Du unterscheidest den sichtbaren Seiteninhalt von der Hintergrundkommunikation.
-practiceIdeas:
-  - Beschreibe ein Suchfeld oder Kommentarformular, das Inhalte ohne kompletten Reload aktualisiert.
-  - Markiere in einem Ablauf, welche Schritte im Browser und welche auf dem Server stattfinden.
-  - Vergleiche eine vollständige Neuladung mit einer kleinen Hintergrundanfrage.
-commonMistakes:
-  - Zu denken, AJAX sei eine eigene Programmiersprache.
-  - Hintergrundanfrage und komplette Seitenaktualisierung gleichzusetzen.
-  - Nur die Oberfläche zu sehen und den Client-Server-Ablauf zu vergessen.
-keyTakeaways:
-  - AJAX ermöglicht Anfragen im Hintergrund.
-  - Dabei kann nur ein Teil der Seite aktualisiert werden.
-  - Die Technik verbindet Browserlogik, HTTP-Anfragen und DOM-Aktualisierung.
-recognizeSignals:
-  - Eine Seite aktualisiert Inhalte ohne kompletten Reload.
-  - Es geht um Hintergrundanfragen oder dynamische Weboberflächen.
-  - Du sollst Client, Server und Seitendarstellung unterscheiden.
-selfCheckPoints:
-  - Kann ich erklären, was bei AJAX im Hintergrund passiert?
-  - Kann ich sagen, warum nicht die ganze Seite neu geladen werden muss?
-  - Kann ich Browser-, Server- und DOM-Rolle trennen?
-level: einfach
-tags:
-  - informatik
-  - netzwerke
-  - ajax
-  - web
-  - client-server
+title: "AJAX-Grundidee verstehen"
+description: "Verstehe, wie Webseiten Daten im Hintergrund nachladen können, ohne die ganze Seite neu aufzubauen."
+subject: "informatik"
+section: "Netzwerke"
+topicPath: ["netzwerke", "ajax", "ajax-grundidee-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Netzwerke"]
 draft: false
 ---
-
 ## Grundidee
 
 AJAX beschreibt die Idee, dass eine Webseite im Hintergrund Daten vom Server nachladen oder senden kann, ohne die komplette Seite neu aufzubauen. Für Nutzende wirkt das oft wie eine direkte, flüssige Reaktion der Oberfläche.

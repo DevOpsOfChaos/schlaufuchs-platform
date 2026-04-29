@@ -1,29 +1,17 @@
 ---
 title: "Datenschutz und Datenminimierung – Ruhig einordnen"
 description: "Übe, Datenschutz und Datenminimierung fachlich einzuordnen."
-subject: informatik
+subject: "informatik"
 section: "daten-und-information"
-topicPath:
-  - "daten-und-information"
-  - "datenschutz-und-datenminimierung"
-taskId: INF-DATENSCHUTZ-UND-DATENMINIMIERUNG-841
-tags:
-  - "informatik"
-  - "datenschutz"
-  - "datenminimierung"
-hintPoints:
-  - "Beginne mit der allgemeinen Rolle des Themas."
-  - "Trenne Begriff, Beispiel und Sonderfall sauber."
-selfCheckPoints:
-  - "Ich kann meine Zuordnung begründen."
-  - "Ich vermeide eine reine Einzelfallantwort."
-transferIdeas:
-  - "Übertrage die Idee auf ein anderes kleines Informatikbeispiel."
-reflectionPrompt: "Welche Annahme musste ich bewusst prüfen?"
-level: mittel
+topicPath: ["daten-und-information", "datenschutz-und-datenminimierung", "datenschutz-und-datenminimierung-ruhig-einordnen-v184"]
+taskId: "INF-DATENSCHUTZ-UND-DATENMINIMIERUNG-841"
+tags: ["informatik", "daten-und-information", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Datenschutz und Datenminimierung**. Sie soll nicht nur eine einzelne Situation lösen, sondern das Thema fachlich einordnen.
 
 ## Lernziel

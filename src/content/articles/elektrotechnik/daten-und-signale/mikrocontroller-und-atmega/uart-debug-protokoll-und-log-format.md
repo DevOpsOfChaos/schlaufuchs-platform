@@ -1,48 +1,19 @@
 ---
 title: "Mikrocontroller – UART-Debugging mit klarem Log-Format"
 description: "Lerne, warum gute UART-Ausgaben nicht möglichst viele Texte senden, sondern Zustände, Ereignisse und Messwerte lesbar strukturieren."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - uart-debug-protokoll-und-log-format
-learningGoals:
-  - "Du erklärst, warum UART-Debugging ein klares Ausgabeformat braucht."
-  - "Du unterscheidest Zustandsmeldung, Ereignismeldung und Messwert."
-  - "Du beschreibst, warum zu viele Ausgaben das Zeitverhalten stören können."
-practiceIdeas:
-  - "Entwirf ein kurzes Log-Format für einen Sensorzyklus."
-  - "Vergleiche freie Textausgaben mit strukturierten Schlüssel-Wert-Zeilen."
-  - "Markiere, welche Ausgabe für Fehlersuche wirklich nötig ist."
-commonMistakes:
-  - "Jede Stelle im Code mit langen Texten auszugeben."
-  - "Debugausgaben ohne Zeit, Zustand oder eindeutigen Schlüssel zu senden."
-  - "Zu vergessen, dass UART-Ausgaben selbst Zeit brauchen."
-keyTakeaways:
-  - "Gute Logs sind kurz, eindeutig und wiederholbar."
-  - "Ein fester Aufbau macht Fehlersuche leichter als spontane Textsätze."
-  - "UART-Debugging darf das eigentliche System nicht unnötig ausbremsen."
-recognizeSignals:
-  - "Es geht um serielle Ausgabe, Debugging, Messwertprotokoll oder Terminalausgabe."
-  - "Ein Fehler tritt nur manchmal auf und soll sichtbar gemacht werden."
-  - "Im Code stehen viele printf- oder send-Funktionen."
-selfCheckPoints:
-  - "Kann ich ein Logformat lesen und verbessern?"
-  - "Kann ich wichtige von störenden Ausgaben unterscheiden?"
-  - "Kann ich erklären, warum Debugging selbst Einfluss auf Timing haben kann?"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - uart
-  - debugging
-  - log
-  - fehlersuche
-level: einfach
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "uart-debug-protokoll-und-log-format"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-
 ## Grundidee
 
 UART ist ein sehr praktischer Debugkanal. Aber „viel ausgeben“ ist nicht automatisch gute Fehlersuche. Gute Logs zeigen knapp, was passiert ist, in welchem Zustand das System war und welcher Wert relevant ist.

@@ -3,23 +3,12 @@ title: "Lösung – Masseclip am Oszilloskop sicher setzen"
 description: "Musterlösung zu Masseclip am Oszilloskop sicher setzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Messpraxis"
-topicPath:
-  - "messpraxis"
-  - "oszi-und-multimeter"
-  - "v110-teil-2"
-  - "masseclip-am-oszilloskop-sicher-setzen"
+topicPath: ["messpraxis", "oszi-und-multimeter", "v110-teil-2", "masseclip-am-oszilloskop-sicher-setzen"]
 taskId: "v110-elektrotechnik-masseclip-am-oszilloskop-sicher-setzen"
 relatedExercise: "elektrotechnik/messpraxis/oszi-und-multimeter/v110-teil-2/masseclip-am-oszilloskop-sicher-setzen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "messpraxis"
-  - "oszi-und-multimeter"
-  - "masseclip-am-oszilloskop-sicher-setzen"
+tags: ["elektrotechnik", "Messpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Masseclip am Oszilloskop sicher setzen**.

@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: Archive und Kompression"
 description: "Unterscheide Archivieren, Komprimieren und Entpacken im Linux-Alltag."
-subject: linux
+subject: "linux"
 section: "dateisystem-und-rechte"
-topicPath:
-  - "dateisystem-und-rechte"
-  - "archive-und-kompression"
-learningGoals:
-  - "Du erklärst Archive und Kompression in eigenen Worten."
-  - "Du ordnest typische Befehle, Begriffe oder Prüfschritte richtig ein."
-  - "Du erkennst typische Grenzen und Fehlerquellen im Linux-Alltag."
-practiceIdeas:
-  - "Beschreibe eine kleine Alltagssituation zu diesem Thema."
-  - "Markiere, welche Information zuerst geprüft werden muss."
-commonMistakes:
-  - "Ein einzelnes Kommando für das ganze Thema zu halten."
-  - "Ausgabe, Zustand und Ursache zu vermischen."
-  - "Ohne Kontext direkt an Sonderfälle zu springen."
-keyTakeaways:
-  - "Archivieren bündelt Dateien, Kompression verringert Datenmenge."
-  - "Beide Schritte können zusammen auftreten, sind aber nicht dasselbe."
-  - "Vor dem Entpacken sollte der Inhalt geprüft werden."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung statt nur eines Befehlsrezepts."
-  - "Mehrere ähnliche Befehle oder Dateien wirken unklar."
-selfCheckPoints:
-  - "Kann ich Zweck, Kontext und typischen Prüfschritt unterscheiden?"
-  - "Kann ich eine einfache Fehlannahme zum Thema benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "tar"
-  - "archive"
+topicPath: ["dateisystem-und-rechte", "archive-und-kompression", "ueberblick", "grundlagen-archive-und-kompression-v186"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "dateisystem-und-rechte"]
 draft: false
 ---
-
 ![Archive und Kompression](/schlaufuchs-platform/images/overviews/v186/archive-und-kompression.svg)
 
 ## Begriff

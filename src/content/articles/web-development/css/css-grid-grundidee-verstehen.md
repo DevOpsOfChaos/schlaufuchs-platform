@@ -1,44 +1,19 @@
 ---
-title: CSS Grid – Grundidee verstehen
-description: Verstehe, wie CSS Grid Inhalte in einem Raster aus Zeilen und Spalten organisiert und warum das für Seitenlayouts hilfreich ist.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - css-grid-grundidee-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von CSS Grid.
-  - Du unterscheidest Rasterstruktur und Inhaltsebene.
-  - Du beschreibst Grid als Werkzeug für Flächenlayout mit Zeilen und Spalten.
-practiceIdeas:
-  - Ordne typische Seitenbereiche als Rasterflächen ein.
-  - Vergleiche ein einfaches Nacheinander mit einem echten Raster.
-  - Prüfe, warum ein größeres Layout mehr als nur Flexbox in einer Richtung braucht.
-commonMistakes:
-  - Grid nur als optisches Kästchensystem zu sehen.
-  - Den Container zu übersehen und nur auf einzelne Elemente zu schauen.
-  - Grid und Flexbox ohne Richtungsunterschied gleichzusetzen.
-keyTakeaways:
-  - Grid organisiert Inhalte gleichzeitig in Zeilen und Spalten.
-  - Das Raster entsteht am Container.
-  - Grid eignet sich besonders für größere Seitenbereiche und klare Flächenlayouts.
-recognizeSignals:
-  - Es geht um Seitenraster, Spalten, Zeilen oder Bereiche wie Header, Navigation und Inhalt.
-  - Du sollst erklären, wie mehrere Elemente gemeinsam angeordnet werden.
-  - In Beispielen werden grid-template, gap, grid-column oder grid-row genannt.
-selfCheckPoints:
-  - Kann ich erklären, warum Grid eher Fläche als Reihe denkt?
-  - Kann ich Container und Items sauber unterscheiden?
-  - Kann ich Grid grob von Flexbox abgrenzen?
-tags:
-  - css
-  - grid
-  - layout
-  - raster
-level: einfach
+title: "CSS Grid – Grundidee verstehen"
+description: "Verstehe, wie CSS Grid Inhalte in einem Raster aus Zeilen und Spalten organisiert und warum das für Seitenlayouts hilfreich ist."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "css-grid-grundidee-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 CSS Grid hilft dabei, Oberflächen als **gemeinsames Raster** zu denken. Statt Inhalte nur nacheinander zu setzen, verteilst du Bereiche auf Zeilen und Spalten. Genau deshalb ist Grid besonders stark bei typischen Seitenlayouts.

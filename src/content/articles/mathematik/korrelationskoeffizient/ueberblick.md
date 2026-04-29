@@ -1,35 +1,17 @@
 ---
 title: "Korrelationskoeffizient"
 description: "Überblick über den Korrelationskoeffizienten als Maß für linearen Zusammenhang."
-subject: mathematik
+subject: "mathematik"
 section: "Statistik"
-topicPath:
-  - "korrelationskoeffizient"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Korrelationskoeffizient als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["korrelationskoeffizient", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird ein hoher Korrelationswert als Beweis für Ursache und Wirkung gelesen."
-keyTakeaways:
-  - "Der Korrelationskoeffizient beschreibt Richtung und Stärke eines linearen Zusammenhangs zwischen zwei Größen."
-  - "Er hilft, Streudiagramme und Datenbeziehungen numerisch zusammenzufassen."
-  - "Korrelation beweist keine Kausalität und erfasst nicht alle nichtlinearen Zusammenhänge."
-recognizeSignals:
-  - "Es geht um Korrelationskoeffizient, wenn werte nahe 1 zeigen starken positiven linearen Zusammenhang."
-  - "Das Thema wird relevant, wenn Beispiele wie körpergröße und Schuhgröße können positiv korrelieren, ohne dass eine einzelne Messung exakt vorhersagbar ist."
-selfCheckPoints:
-  - "Kann ich Korrelationskoeffizient in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "statistik"
-  - "korrelation"
-  - "daten"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Statistik"]
 draft: false
 ---
 # Korrelationskoeffizient

@@ -3,24 +3,12 @@ title: "Lösung: Diagramme für Signale: Aufgabe B"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-028b im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "auswertung-und-kommunikation"
-  - "diagramme-fuer-signale"
-  - "loesung-b"
-
+topicPath: ["sanierung-v195", "diagramme-fuer-signale-loesung-b"]
 taskId: "daten-und-signale-v195-028b"
 relatedExercise: "daten-und-signale/sanierung-v195/diagramme-fuer-signale-aufgabe-b"
-tags:
-  - "diagramme"
-  - "signale"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-028b`
 
 Ausgangsauftrag: Übertrage das Thema Diagramme für Signale auf ein zweites Beispiel und formuliere eine kurze Prüfung.

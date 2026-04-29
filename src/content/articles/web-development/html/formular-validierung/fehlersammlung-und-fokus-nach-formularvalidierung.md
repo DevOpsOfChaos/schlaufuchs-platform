@@ -3,44 +3,17 @@ title: "HTML – Fehlersammlung und Fokus nach Formularvalidierung planen"
 description: "Lerne, Formularfehler nicht nur optisch zu markieren, sondern Nutzerinnen und Nutzer kontrolliert zur Korrektur zu führen."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "formular-validierung"
-  - "fehlersammlung-und-fokus-nach-formularvalidierung"
-learningGoals:
-  - "Du erklärst den Unterschied zwischen Feldfehler und Fehlersammlung."
-  - "Du planst, wohin der Fokus nach einer fehlgeschlagenen Eingabe wandern soll."
-  - "Du vermeidest Fehlermeldungen, die nur visuell auffallen."
-practiceIdeas:
-  - "Prüfe eine vorhandene Seite mit genau dieser Fragestellung."
-  - "Formuliere eine kleine Vorher-nachher-Verbesserung."
-  - "Teste die Entscheidung mit Tastatur, kleiner Breite und längeren Texten."
-commonMistakes:
-  - "Nur rote Rahmen ohne Erklärung zu verwenden."
-  - "Alle Fehler am Seitenende zu sammeln, ohne zu den Feldern zu führen."
-  - "Den Fokus nach dem Absenden irgendwo auf der Seite zu lassen."
-keyTakeaways:
-  - "Bedeutung, Technik und Nutzungssituation müssen zusammenpassen."
-  - "Eine optisch passende Lösung ist noch nicht automatisch strukturell gut."
-  - "Kleine Prüfregeln helfen, Weboberflächen verlässlich zu verbessern."
-recognizeSignals:
-  - "Du siehst eine Stelle, die optisch funktioniert, aber fachlich unklar bleibt."
-  - "Im Review taucht die Frage auf, ob HTML-Struktur oder CSS-Verhalten wirklich passt."
-  - "Eine Komponente soll robuster, zugänglicher oder wartbarer werden."
-selfCheckPoints:
-  - "Kann ich die fachliche Bedeutung der Stelle benennen?"
-  - "Kann ich die technische Entscheidung begründen?"
-  - "Kann ich eine typische Fehlinterpretation vermeiden?"
-tags:
-  - "web development"
-  - "html"
-  - "formulare"
-  - "validierung"
-  - "fokus"
+topicPath: ["html", "formular-validierung", "fehlersammlung-und-fokus-nach-formularvalidierung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Diese Seite hilft dir, **Fehlersammlung und Fokus nach Formularvalidierung planen** nicht als isolierte Technik zu lernen. Entscheidend ist, welche Bedeutung auf der Seite entsteht und ob diese Bedeutung für Nutzerinnen und Nutzer zuverlässig erkennbar bleibt.

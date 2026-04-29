@@ -3,46 +3,17 @@ title: "Elektrotechnik – LED-Vorwiderstand aus Versorgung und Flussspannung be
 description: "Lerne LED-Vorwiderstand als klar abgegrenztes Unterthema mit Beispiel, Prüfschritt und Gegenprobe."
 subject: "elektrotechnik"
 section: "Schaltungen"
-topicPath:
-  - "schaltungen-und-stromkreis"
-  - "schutz-und-grenzwerte"
-  - "led-vorwiderstand"
-  - "led-vorwiderstand-aus-versorgung-und-flussspannung-bestimmen"
-learningGoals:
-  - "Du erklärst LED-Vorwiderstand in einem klar abgegrenzten Kontext."
-  - "Du erkennst die typische Verwechslung mit einem Nachbarthema."
-  - "Du nutzt einen konkreten Prüfschritt statt einer breiten Sammelantwort."
-practiceIdeas:
-  - "Baue ein eigenes Mini-Beispiel mit verändertem Wert oder Zustand."
-  - "Notiere bewusst, welches Nachbarthema nicht gemeint ist."
-  - "Formuliere einen Merksatz und prüfe ihn an einer Gegenprobe."
-commonMistakes:
-  - "Das Unterthema zu breit einsortieren."
-  - "Nur den Begriff nennen, aber keinen Prüfschritt ausführen."
-  - "Die Gegenprobe auslassen und dadurch eine falsche Regel verallgemeinern."
-keyTakeaways:
-  - "LED-Vorwiderstand wird durch Einordnung, Abgrenzung und Gegenprobe prüfbar."
-  - "Feinere Unterthemen verbessern Navigation und Lernlogik."
-  - "Aufgaben bleiben verständlicher, wenn sie zur Seite und nicht nur zum Fachbereich passen."
-recognizeSignals:
-  - "Die Aufgabe enthält zwei ähnliche Begriffe oder Zustände."
-  - "Eine allgemeine Erklärung wäre möglich, aber nicht präzise genug."
-  - "Ein kleiner Test entscheidet, welche Regel gilt."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz erklären?"
-  - "Habe ich das Nachbarthema ausdrücklich abgegrenzt?"
-  - "Ist meine Gegenprobe konkret genug?"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "schaltungen"
-  - "schaltungen-und-stromkreis"
-  - "schutz-und-grenzwerte"
-  - "led-vorwiderstand"
+topicPath: ["schaltungen-und-stromkreis", "schutz-und-grenzwerte", "led-vorwiderstand", "led-vorwiderstand-aus-versorgung-und-flussspannung-bestimmen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["elektrotechnik", "Schaltungen"]
 draft: false
 ---
-
 ## Grundidee
 
 **LED-Vorwiderstand** ist ein bewusst kleines Unterthema. Lerne LED-Vorwiderstand als klar abgegrenztes Unterthema mit Beispiel, Prüfschritt und Gegenprobe. Der Punkt wird schnell unübersichtlich, wenn er nur in einem breiten Sammelbereich landet.

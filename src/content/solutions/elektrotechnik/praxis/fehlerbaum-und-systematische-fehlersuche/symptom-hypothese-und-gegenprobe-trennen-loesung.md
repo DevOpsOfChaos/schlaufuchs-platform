@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Symptom, Hypothese und Gegenprobe trennen"
 description: "Musterlösung zur Aufgabe: Symptom, Hypothese und Gegenprobe trennen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - praxis
-  - fehlerbaum-und-systematische-fehlersuche
-taskId: ET-V182-001
-relatedExercise: src/content/exercises/elektrotechnik/praxis/fehlerbaum-und-systematische-fehlersuche/symptom-hypothese-und-gegenprobe-trennen.md
-tags:
-  - elektrotechnik
-  - fehlerbaum-und-systematische-fehlersuche
-  - loesung
-  - sanierung-v182
+topicPath: ["praxis", "fehlerbaum-und-systematische-fehlersuche", "symptom-hypothese-und-gegenprobe-trennen"]
+taskId: "ET-V182-001"
+relatedExercise: "src/content/exercises/elektrotechnik/praxis/fehlerbaum-und-systematische-fehlersuche/symptom-hypothese-und-gegenprobe-trennen.md"
+tags: ["elektrotechnik", "Praxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

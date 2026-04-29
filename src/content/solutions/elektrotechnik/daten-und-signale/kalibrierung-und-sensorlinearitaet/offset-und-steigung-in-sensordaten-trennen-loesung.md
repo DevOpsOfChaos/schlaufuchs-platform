@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Offset und Steigung in Sensordaten trennen"
 description: "Musterlösung zur Aufgabe: Offset und Steigung in Sensordaten trennen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Daten und Signale"
-topicPath:
-  - daten-und-signale
-  - kalibrierung-und-sensorlinearitaet
-taskId: ET-V182-019
-relatedExercise: src/content/exercises/elektrotechnik/daten-und-signale/kalibrierung-und-sensorlinearitaet/offset-und-steigung-in-sensordaten-trennen.md
-tags:
-  - elektrotechnik
-  - kalibrierung-und-sensorlinearitaet
-  - loesung
-  - sanierung-v182
+topicPath: ["daten-und-signale", "kalibrierung-und-sensorlinearitaet", "offset-und-steigung-in-sensordaten-trennen"]
+taskId: "ET-V182-019"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/kalibrierung-und-sensorlinearitaet/offset-und-steigung-in-sensordaten-trennen.md"
+tags: ["elektrotechnik", "Daten und Signale", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

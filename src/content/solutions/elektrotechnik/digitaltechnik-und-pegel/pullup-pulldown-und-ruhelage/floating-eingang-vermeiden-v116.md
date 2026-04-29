@@ -3,22 +3,12 @@ title: "Lösung: Floating-Eingang vermeiden"
 description: "Musterlösung zur Aufgabe „Floating-Eingang vermeiden“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "digitaltechnik-und-pegel"
-  - "pullup-pulldown-und-ruhelage"
-  - "floating-eingang-vermeiden-v116"
+topicPath: ["digitaltechnik-und-pegel", "pullup-pulldown-und-ruhelage", "floating-eingang-vermeiden-v116"]
 taskId: "floating-eingang-vermeiden-v116"
 relatedExercise: "elektrotechnik/digitaltechnik-und-pegel/pullup-pulldown-und-ruhelage/floating-eingang-vermeiden-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "pull up pull down und ruhelage"
-  - "floating eingang vermeiden"
-  - "v116"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

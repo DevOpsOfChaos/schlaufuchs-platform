@@ -3,20 +3,10 @@ title: "Lösung – GPIO-Ausgangsstrom und Vorwiderstand prüfen"
 description: "Musterlösung zu „GPIO-Ausgangsstrom und Vorwiderstand prüfen“."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "gpio-ausgangsstrom-und-vorwiderstand"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "gpio-ausgangsstrom-und-vorwiderstand"]
 taskId: "et-mc-v93-gpio-strom"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/gpio-ausgangsstrom-und-vorwiderstand"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "gpio"
-  - "strom"
-  - "vorwiderstand"
-  - "led"
-  - "schutz"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

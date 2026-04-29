@@ -1,11 +1,17 @@
 ---
-title: Shell-Befehle erkennen und zuordnen
-description: Übe typische Linux-Befehle und ihre Grundfunktion.
-subject: linux
-level: einfach
+title: "Shell-Befehle erkennen und zuordnen"
+description: "Übe typische Linux-Befehle und ihre Grundfunktion."
+subject: "linux"
+section: "shell-befehle-erkennen-und-zuordnen"
+topicPath: ["shell-befehle-erkennen-und-zuordnen"]
+taskId: "AUTO-SHELL-BEFEHLE-ERKENNEN-UND-ZUORDNEN"
+tags: ["linux", "shell-befehle-erkennen-und-zuordnen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Übung hilft dir, typische Linux-Befehle sicher einzuordnen und ihre Funktion im Terminalalltag besser zu verstehen.
 
 ## Aufgabenideen

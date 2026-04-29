@@ -1,15 +1,14 @@
 ---
-title: Einheiten im Rechenweg – Lösung B
-description: Musterlösung zu Einheiten im Rechenweg mit Kontrolle.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Einheiten im Rechenweg – Lösung B"
+description: "Musterlösung zu Einheiten im Rechenweg mit Kontrolle."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "rechenstrategien-und-kontrolle", "einheiten-im-rechenweg"]
 taskId: "mat-v196-einheiten-im-rechenweg-b"
 relatedExercise: "mathematik/sanierung-v196/einheiten-im-rechenweg-aufgabe-b"
 tags: ["mathematik", "v196", "rechenstrategien-und-kontrolle", "einheiten-im-rechenweg"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine passende Lösung zu dieser Aufgabe muss nicht exakt dieselben Zahlen oder Beispiele verwenden. Entscheidend ist der saubere Aufbau.

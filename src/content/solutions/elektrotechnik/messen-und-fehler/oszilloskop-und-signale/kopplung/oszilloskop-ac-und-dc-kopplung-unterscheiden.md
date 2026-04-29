@@ -3,23 +3,12 @@ title: "Lösung – Oszilloskop AC- und DC-Kopplung unterscheiden"
 description: "Musterlösung zu AC- und DC-Kopplung mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "elektrotechnik"
 section: "Messen"
-topicPath:
-  - "messen-und-fehler"
-  - "oszilloskop-und-signale"
-  - "kopplung"
-  - "oszilloskop-ac-und-dc-kopplung-unterscheiden"
+topicPath: ["messen-und-fehler", "oszilloskop-und-signale", "kopplung", "oszilloskop-ac-und-dc-kopplung-unterscheiden"]
 taskId: "v108-elektrotechnik-oszilloskop-ac-und-dc-kopplung-unterscheiden"
 relatedExercise: "elektrotechnik/messen-und-fehler/oszilloskop-und-signale/kopplung/oszilloskop-ac-und-dc-kopplung-unterscheiden"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "schaltungen"
-  - "messen-und-fehler"
-  - "oszilloskop-und-signale"
-  - "ac- und dc-kopplung"
+tags: ["elektrotechnik", "Messen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **AC- und DC-Kopplung**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

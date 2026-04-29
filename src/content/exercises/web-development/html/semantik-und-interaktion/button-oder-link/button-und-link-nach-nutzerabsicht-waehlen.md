@@ -3,35 +3,15 @@ title: "Aufgabe – Button und Link nach Nutzerabsicht wählen"
 description: "Übe Button oder Link mit einem konkreten Fall, einer Abgrenzung und einer Gegenprobe."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "semantik-und-interaktion"
-  - "button-oder-link"
-  - "button-und-link-nach-nutzerabsicht-waehlen"
+topicPath: ["html", "semantik-und-interaktion", "button-oder-link", "button-und-link-nach-nutzerabsicht-waehlen"]
 taskId: "v108-web-development-button-und-link-nach-nutzerabsicht-waehlen"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "html"
-  - "semantik-und-interaktion"
-  - "button oder link"
-hintPoints:
-  - "Bestimme zuerst das kleine Unterthema."
-  - "Notiere, welches Nachbarthema ausdrücklich nicht gemeint ist."
-  - "Nutze eine Gegenprobe statt nur eine Behauptung."
-selfCheckPoints:
-  - "Ist der Fall eng genug eingeordnet?"
-  - "Wird die typische Verwechslung sichtbar?"
-  - "Passt die Gegenprobe zur Wissensseite?"
-transferIdeas:
-  - "Verändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere aus deiner Lösung einen kurzen Merksatz für eine zweite Person."
-reflectionPrompt: "Warum wäre eine breite Sammelantwort hier unübersichtlicher als das Unterthema „Button oder Link“?"
+tags: ["web-development", "HTML", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den Fall zu **Button oder Link**.

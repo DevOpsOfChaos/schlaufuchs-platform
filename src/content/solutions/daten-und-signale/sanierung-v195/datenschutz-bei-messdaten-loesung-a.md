@@ -3,24 +3,12 @@ title: "Lösung: Datenschutz bei Messdaten: Aufgabe A"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-032a im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "auswertung-und-kommunikation"
-  - "datenschutz-bei-messdaten"
-  - "loesung-a"
-
+topicPath: ["sanierung-v195", "datenschutz-bei-messdaten-loesung-a"]
 taskId: "daten-und-signale-v195-032a"
 relatedExercise: "daten-und-signale/sanierung-v195/datenschutz-bei-messdaten-aufgabe-a"
-tags:
-  - "datenschutz"
-  - "messdaten"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-032a`
 
 Ausgangsauftrag: Prüfe ein Sensorkonzept auf unnötige personenbezogene Daten.

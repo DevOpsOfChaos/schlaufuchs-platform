@@ -3,22 +3,12 @@ title: "Lösung: Fehlererkennung: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe dat-v189-024b."
 subject: "daten-und-signale"
 section: "uebertragung"
-topicPath:
-  - "uebertragung"
-  - "fehlererkennung"
-  - "loesung-b"
+topicPath: ["sanierung-v189", "fehlererkennung-aufgabe-b"]
 taskId: "dat-v189-024b"
 relatedExercise: "daten-und-signale/sanierung-v189/fehlererkennung-aufgabe-b"
-tags:
-  - "fehlererkennung"
-  - "pruefsumme"
-  - "daten"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-024b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

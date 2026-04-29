@@ -1,34 +1,19 @@
 ---
 title: "SSH und Schlüssel"
 description: "Überblick über SSH als sichere Fernverbindung und Schlüssel als Authentifizierungsgrundlage."
-subject: linux
+subject: "linux"
 section: "Netzwerk und Administration"
-topicPath:
-  - "ssh-und-schluessel"
-  - "ueberblick"
-learningGoals:
-  - "Du verstehst SSH als verschlüsselte Verbindung zu entfernten Systemen."
-  - "Du kennst den Unterschied zwischen Passwort- und Schlüsselanmeldung."
-  - "Du kannst private und öffentliche Schlüssel begrifflich trennen."
+topicPath: ["ssh-und-schluessel", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Den privaten Schlüssel weiterzugeben."
-  - "SSH-Schlüssel mit Passwörtern gleichzusetzen."
-keyTakeaways:
-  - "SSH ermöglicht sichere Fernzugriffe und Dateiübertragungen."
-  - "Der private Schlüssel bleibt geheim, der öffentliche Schlüssel darf verteilt werden."
-recognizeSignals:
-  - "Es geht um Login auf Server, Git-Zugriff, public key, private key, known_hosts oder Remote-Shell."
-selfCheckPoints:
-  - "Kann ich erklären, warum der private Schlüssel niemals auf den Server kopiert werden sollte?"
-level: einfach
-tags:
-  - "linux"
-  - "ssh"
-  - "schlüssel"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Netzwerk und Administration"]
 draft: false
 ---
-
 # SSH und Schlüssel
 
 ![Schaubild zu SSH und Schlüsseln.](/schlaufuchs-platform/images/overviews/v148/ssh-und-schluessel.svg)

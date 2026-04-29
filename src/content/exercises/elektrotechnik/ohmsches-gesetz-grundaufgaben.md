@@ -1,12 +1,17 @@
 ---
-title: Ohmsches Gesetz – Grundaufgaben
-description: Übe das fachliche Einordnen und einfache Anwenden von Spannung, Stromstärke und Widerstand.
-subject: elektrotechnik
-section: ohmsches-gesetz
-level: einfach
+title: "Ohmsches Gesetz – Grundaufgaben"
+description: "Übe das fachliche Einordnen und einfache Anwenden von Spannung, Stromstärke und Widerstand."
+subject: "elektrotechnik"
+section: "ohmsches-gesetz"
+topicPath: ["ohmsches-gesetz-grundaufgaben"]
+taskId: "AUTO-OHMSCHES-GESETZ-GRUNDAUFGABEN"
+tags: ["elektrotechnik", "ohmsches-gesetz", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe hält die klassische Grundidee des ohmschen Gesetzes bewusst fest: Du sollst die Beziehung zwischen Spannung, Stromstärke und Widerstand nicht nur rechnen, sondern **fachlich verstehen**.
 
 ## Lernziel

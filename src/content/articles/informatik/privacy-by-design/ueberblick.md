@@ -1,35 +1,17 @@
 ---
 title: "Privacy by Design"
 description: "Überblick über Privacy by Design als Prinzip datenschutzbewusster Systemgestaltung."
-subject: informatik
+subject: "informatik"
 section: "Sicherheit"
-topicPath:
-  - "privacy-by-design"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Privacy by Design als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["privacy-by-design", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Datenschutz erst als rechtliches Formular verstanden. Technisch entscheidet sich vieles bereits im Datenmodell."
-keyTakeaways:
-  - "Privacy by Design bedeutet, Datenschutzanforderungen von Beginn an in Architektur, Datenmodell und Abläufe einzubauen."
-  - "Es reduziert Risiken, weil weniger personenbezogene Daten gesammelt, gespeichert oder unnötig verarbeitet werden."
-  - "Privacy by Design ist kein einzelnes Feature und kein nachträglicher Hinweistext. Es betrifft technische und organisatorische Entscheidungen."
-recognizeSignals:
-  - "Es geht um Privacy by Design, wenn datenminimierung begrenzt, was überhaupt erhoben wird."
-  - "Das Thema wird relevant, wenn Beispiele wie eine Lernplattform speichert nur notwendige Fortschrittsdaten und trennt sie von unnötigen Identitätsmerkmalen."
-selfCheckPoints:
-  - "Kann ich Privacy by Design in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "datenschutz"
-  - "sicherheit"
-  - "architektur"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Sicherheit"]
 draft: false
 ---
 # Privacy by Design

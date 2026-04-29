@@ -1,31 +1,17 @@
 ---
 title: "Signalpfad und Blockschaltbild"
 description: "Allgemeiner Überblick über Signalpfade, Funktionsblöcke und die Rolle von Blockschaltbildern in elektronischen Systemen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Grundlagen"
-topicPath:
-  - "signalpfad-und-blockschaltbild"
-learningGoals:
-  - "Du verstehst, wie Signale durch ein elektronisches System wandern."
-  - "Du kannst Blockschaltbilder als abstrakte Darstellung einordnen."
-  - "Du erkennst den Unterschied zwischen Funktionsblock und konkreter Schaltung."
+topicPath: ["signalpfad-und-blockschaltbild", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein Blockschaltbild mit einem vollständigen Schaltplan zu verwechseln."
-  - "Nur einzelne Bauteile zu betrachten und den Signalfluss zu übersehen."
-keyTakeaways:
-  - "Ein Signalpfad beschreibt den Weg einer Information oder Energie durch mehrere Funktionsstufen."
-  - "Blockschaltbilder reduzieren Details, damit Zusammenhänge sichtbar werden."
-recognizeSignals:
-  - "Es geht um Sensor, Eingang, Verarbeitung, Ausgang, Messpunkt oder Schnittstelle."
-selfCheckPoints:
-  - "Kann ich den Weg eines Signals von der Quelle bis zur Ausgabe beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "signalpfad"
-  - "blockschaltbild"
-  - "systemdenken"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Grundlagen"]
 draft: false
 ---
 # Signalpfad und Blockschaltbild

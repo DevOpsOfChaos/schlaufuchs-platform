@@ -1,34 +1,19 @@
 ---
 title: "Quadratische Funktionen"
 description: "Überblick über quadratische Funktionen, Parabeln und typische Darstellungsformen."
-subject: mathematik
+subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "quadratische-funktionen"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Parabel als Graph quadratischer Funktionen."
-  - "Du kannst Scheitelpunkt, Nullstellen und Öffnung einordnen."
-  - "Du verstehst, warum verschiedene Formen unterschiedliche Informationen sichtbar machen."
+topicPath: ["quadratische-funktionen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Scheitelpunktform, Normalform und Produktform unverbunden zu lernen."
-  - "Aus einer Zeichnung Eigenschaften zu sicher abzulesen, ohne zu prüfen."
-keyTakeaways:
-  - "Quadratische Funktionen haben einen Graphen in Parabelform."
-  - "Verschiedene Funktionsformen betonen Scheitelpunkt, Koeffizienten oder Nullstellen."
-recognizeSignals:
-  - "Es geht um Parabel, Scheitelpunkt, Nullstellen, quadratische Gleichung oder Funktionsform."
-selfCheckPoints:
-  - "Kann ich sagen, welche Information in der Scheitelpunktform besonders leicht sichtbar ist?"
-level: einfach
-tags:
-  - "mathematik"
-  - "funktionen"
-  - "quadratische funktionen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
-
 # Quadratische Funktionen
 
 ![Schaubild zu quadratischen Funktionen.](/schlaufuchs-platform/images/overviews/v148/quadratische-funktionen.svg)

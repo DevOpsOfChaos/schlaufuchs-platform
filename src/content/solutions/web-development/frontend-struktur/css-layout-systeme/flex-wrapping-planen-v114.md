@@ -1,23 +1,14 @@
 ---
-title: Lösung – Flex-Wrapping planen
-description: Musterlösung zur Aufgabe über Flex-Wrapping planen.
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- frontend-struktur
-- css-layout-systeme
-- flex-wrapping-planen-v114
-taskId: v114-web-development-flex-wrapping-planen-v114
-relatedExercise: web-development/frontend-struktur/css-layout-systeme/flex-wrapping-planen-v114
-tags:
-- web-development
-- v114
-- loesung
-- frontend-struktur
-- css-layout-systeme
+title: "Lösung – Flex-Wrapping planen"
+description: "Musterlösung zur Aufgabe über Flex-Wrapping planen."
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["frontend-struktur", "css-layout-systeme", "flex-wrapping-planen-v114"]
+taskId: "v114-web-development-flex-wrapping-planen-v114"
+relatedExercise: "web-development/frontend-struktur/css-layout-systeme/flex-wrapping-planen-v114"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

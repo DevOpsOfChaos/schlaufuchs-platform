@@ -1,36 +1,17 @@
 ---
 title: "Aufgabe: umask als Standard verstehen"
 description: "Trainiere umask als Standard verstehen an einem kleinen, klar abgegrenzten Fall."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "rechte-und-sicherheit-v115"
-  - "dateirechte-und-besitz"
-  - "umask-als-standard-verstehen-v115"
+topicPath: ["rechte-und-sicherheit-v115", "dateirechte-und-besitz", "umask-als-standard-verstehen-v115"]
 taskId: "linux-umask-als-standard-verstehen-v115"
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "rechte und sicherheit"
-  - "dateirechte und besitz"
-  - "aufgabe"
-hintPoints:
-  - "Grenze zuerst den kleinen Fall vom breiten Themenfeld ab."
-  - "Nutze die Prüffrage: Welche Rechte nimmt die umask standardmäßig weg?"
-  - "Begründe mit zwei konkreten Hinweisen aus dem Fall."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-transferIdeas:
-  - "Übertrage dieselbe Trennkante auf ein eigenes Mini-Beispiel."
-  - "Formuliere einen Gegenfall, der ähnlich aussieht, aber anders entschieden wird."
-reflectionPrompt: "Was war bei „umask als Standard verstehen“ die wichtigste Trennkante?"
-level: mittel
+tags: ["linux", "Feinstruktur Linux", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den folgenden Fall zu **umask als Standard verstehen**.

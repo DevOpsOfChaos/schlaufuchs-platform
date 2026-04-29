@@ -1,34 +1,19 @@
 ---
 title: "Bauteilkennlinie"
 description: "Überblick über Kennlinien als Darstellung des Zusammenhangs zwischen Spannung, Strom und Betriebszustand eines Bauteils."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik"
-topicPath:
-  - "bauteilkennlinie"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["bauteilkennlinie", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Aus einem einzelnen Nennwert auf das gesamte Verhalten eines Bauteils zu schließen."
-keyTakeaways:
-  - "Kennlinien zeigen Verhalten über einen Bereich und sind deshalb aussagekräftiger als einzelne Tabellenwerte."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Strom und Spannung nicht proportional zusammenhängen oder ein Bauteil nur in einem bestimmten Bereich sinnvoll arbeitet."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "bauteile"
-  - "kennlinie"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik"]
 draft: false
 ---
-
 # Bauteilkennlinie
 
 ![Schaubild zu Bauteilkennlinien.](/schlaufuchs-platform/images/overviews/v150/bauteilkennlinie.svg)

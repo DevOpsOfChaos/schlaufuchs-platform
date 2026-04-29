@@ -3,24 +3,12 @@ title: "Lösung: Randfälle systematisch finden: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-007a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "tests-und-randfaelle"
-  - "randfaelle-systematisch-finden"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "randfaelle-systematisch-finden-loesung-a"]
 taskId: "informatik-v193-007a"
 relatedExercise: "informatik/sanierung-v193/randfaelle-systematisch-finden-aufgabe-a"
-tags:
-  - "randfaelle"
-  - "systematisch"
-  - "finden"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-007a`
 
 Ausgangsauftrag: Finde Randfälle für eine Funktion, die Dateigrößen sortiert.

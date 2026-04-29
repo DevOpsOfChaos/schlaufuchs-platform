@@ -3,33 +3,15 @@ title: "CSS – Aufgabe: grid-template-areas und Layoutzonen planen"
 description: "Plane ein zweispaltiges Lernseitenlayout mit Kopfbereich, Navigation, Inhalt und Fußbereich. Schreibe die Grid-Areas als Textplan."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "responsive-layouts"
-  - "grid-template-areas-und-layoutzonen-planen"
+topicPath: ["css", "responsive-layouts", "grid-template-areas-und-layoutzonen-planen"]
 taskId: "wd-v97-grid-template-areas-und-layoutzonen-planen"
-tags:
-  - "web development"
-  - "css"
-  - "grid"
-  - "layout"
-  - "responsive"
-hintPoints:
-  - "Trenne zuerst sichtbare Wirkung, semantische Bedeutung und technische Umsetzung."
-  - "Begründe deine Entscheidung aus Nutzerperspektive, nicht nur aus Code-Sicht."
-  - "Prüfe am Ende, ob die Lösung ohne Ratespiel verständlich bleibt."
-selfCheckPoints:
-  - "Ist der betroffene UI-Baustein eindeutig benannt?"
-  - "Ist die technische Entscheidung fachlich begründet?"
-  - "Gibt es eine klare Verbesserung gegenüber dem Ausgangszustand?"
-transferIdeas:
-  - "Übertrage die Entscheidung auf eine zweite Komponente derselben Seite."
-  - "Formuliere eine kurze Prüfregel, die ein Team beim Review verwenden könnte."
-reflectionPrompt: "Welche kleine Änderung hätte hier die größte Wirkung auf Verständlichkeit oder Zugänglichkeit?"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Ausgangslage
 
 Plane ein zweispaltiges Lernseitenlayout mit Kopfbereich, Navigation, Inhalt und Fußbereich. Schreibe die Grid-Areas als Textplan.

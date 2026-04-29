@@ -1,20 +1,12 @@
 ---
-title: Musterlösung – __FILE__ und __DIR__ fachlich zuordnen
-description: Musterlösung zur Aufgabe INF-PHP-ADV-001.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - spezielle-pfade-mit-file-und-dir-verstehen
-  - spezielle-pfade-mit-file-und-dir-begruenden-loesung
-taskId: INF-PHP-ADV-001
-relatedExercise: src/content/exercises/informatik/programmierung/php/spezielle-pfade-mit-file-und-dir-verstehen/spezielle-pfade-mit-file-und-dir-begruenden.md
-tags:
-  - informatik
-  - loesung
-  - php
-  - task-id
+title: "Musterlösung – __FILE__ und __DIR__ fachlich zuordnen"
+description: "Musterlösung zur Aufgabe INF-PHP-ADV-001."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "spezielle-pfade-mit-file-und-dir-verstehen", "spezielle-pfade-mit-file-und-dir-begruenden"]
+taskId: "INF-PHP-ADV-001"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/spezielle-pfade-mit-file-und-dir-verstehen/spezielle-pfade-mit-file-und-dir-begruenden.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
 ## Aufgabe 1

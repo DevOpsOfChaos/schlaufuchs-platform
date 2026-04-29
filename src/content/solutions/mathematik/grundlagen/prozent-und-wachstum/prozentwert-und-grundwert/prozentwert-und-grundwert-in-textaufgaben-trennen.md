@@ -3,23 +3,12 @@ title: "Lösung – Prozentwert und Grundwert in Textaufgaben trennen"
 description: "Musterlösung zu Prozentwert und Grundwert mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Grundlagen"
-topicPath:
-  - "grundlagen"
-  - "prozent-und-wachstum"
-  - "prozentwert-und-grundwert"
-  - "prozentwert-und-grundwert-in-textaufgaben-trennen"
+topicPath: ["grundlagen", "prozent-und-wachstum", "prozentwert-und-grundwert", "prozentwert-und-grundwert-in-textaufgaben-trennen"]
 taskId: "v109-mathematik-prozentwert-und-grundwert-in-textaufgaben-trennen"
 relatedExercise: "mathematik/grundlagen/prozent-und-wachstum/prozentwert-und-grundwert/prozentwert-und-grundwert-in-textaufgaben-trennen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfen"
-  - "grundlagen"
-  - "prozent-und-wachstum"
-  - "prozentwert und grundwert"
+tags: ["mathematik", "Grundlagen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Prozentwert und Grundwert**.

@@ -3,21 +3,12 @@ title: "Lösung – CSS-Variablen für Abstände nutzen"
 description: "Musterlösung zu css-variablen für abstände nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "css"
-  - "css-und-layout"
-  - "css-variablen-fuer-abstaende-nutzen"
+topicPath: ["css", "css-und-layout", "css-variablen-fuer-abstaende-nutzen"]
 taskId: "v112-web-development-css-variablen-fuer-abstaende-nutzen"
 relatedExercise: "web-development/css/css-und-layout/css-variablen-fuer-abstaende-nutzen"
-tags:
-  - "web-development"
-  - "v112"
-  - "feinstruktur"
-  - "css"
-  - "css-variablen-fuer-abstaende-nutzen"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **CSS Layout und Gestaltung**.

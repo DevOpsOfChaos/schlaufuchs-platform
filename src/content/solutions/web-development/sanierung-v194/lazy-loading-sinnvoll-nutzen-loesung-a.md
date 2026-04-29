@@ -3,26 +3,12 @@ title: "Lösung: Lazy Loading sinnvoll nutzen: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-development-v194-025a im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "performance-und-medien"
-  - "lazy-loading-sinnvoll-nutzen"
-  - "loesung-a"
-
+topicPath: ["sanierung-v194", "lazy-loading-sinnvoll-nutzen-loesung-a"]
 taskId: "web-development-v194-025a"
 relatedExercise: "web-development/sanierung-v194/lazy-loading-sinnvoll-nutzen-aufgabe-a"
-tags:
-  - "lazy"
-  - "loading"
-  - "sinnvoll"
-  - "nutzen"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-025a`
 
 Ausgangsauftrag: Entscheide, welche Medien einer Landingpage lazy geladen werden sollten.

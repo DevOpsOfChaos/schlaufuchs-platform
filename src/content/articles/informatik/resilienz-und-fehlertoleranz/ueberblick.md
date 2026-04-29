@@ -1,36 +1,19 @@
 ---
 title: "Resilienz und Fehlertoleranz"
 description: "Einordnung von Resilienz als Fähigkeit von Systemen, trotz Fehlern brauchbar zu bleiben."
-subject: informatik
+subject: "informatik"
 section: "Systeme"
-topicPath:
-  - "resilienz-und-fehlertoleranz"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Resilienz und Fehlertoleranz als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["resilienz-und-fehlertoleranz", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig fehlen Timeouts, sodass Anfragen endlos hängen."
-keyTakeaways:
-  - "Resilienz plant Fehler als normalen Systemzustand ein."
-  - "Timeouts, Fallbacks und Monitoring begrenzen Schäden."
-  - "Fehler sollen kontrolliert behandelt, nicht unsichtbar gemacht werden."
-recognizeSignals:
-  - "Es geht um Resilienz und Fehlertoleranz als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Resilienz und Fehlertoleranz in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "resilienz"
-  - "fehlertoleranz"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Systeme"]
 draft: false
 ---
-
 # Resilienz und Fehlertoleranz
 
 Resilienz beschreibt, wie gut ein System mit Fehlern, Ausfällen und unerwarteten Zuständen umgehen kann. Fehlertoleranz bedeutet nicht, dass keine Fehler auftreten, sondern dass sie begrenzt, erkannt und kontrolliert behandelt werden.

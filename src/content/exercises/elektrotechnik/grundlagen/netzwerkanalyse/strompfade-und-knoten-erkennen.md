@@ -1,29 +1,17 @@
 ---
 title: "Strompfade und Knoten erkennen"
 description: "Übe das ruhige Markieren von Knoten, Zweigen und geschlossenen Wegen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Grundlagen Elektrotechnik"
-topicPath:
-  - "grundlagen"
-  - "netzwerkanalyse"
+topicPath: ["grundlagen", "netzwerkanalyse", "strompfade-und-knoten-erkennen"]
 taskId: "ET-GR-NETZ-179-001"
-tags:
-  - "elektrotechnik"
-  - "netzwerkanalyse"
-  - "knoten"
-  - "masche"
-hintPoints:
-  - "Lies zuerst die Begriffe, dann die konkrete Situation."
-  - "Begründe jede Zuordnung mit einem fachlichen Merkmal."
-selfCheckPoints:
-  - "Kann ich meine Entscheidung mit einem Begriff aus der Überblicksseite erklären?"
-  - "Habe ich Einheit, Richtung, Bezugspunkt oder Zeitbezug geprüft, falls relevant?"
-transferIdeas:
-  - "Formuliere ein eigenes Beispiel aus einer einfachen Schaltung oder Messsituation."
-level: einfach
+tags: ["elektrotechnik", "Grundlagen Elektrotechnik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe gehört zu einem Überblicksthema. Sie soll nicht nur Rechnen trainieren, sondern die fachliche Einordnung sichern.
 
 ## Aufgabe 1 – Begriffe zuordnen

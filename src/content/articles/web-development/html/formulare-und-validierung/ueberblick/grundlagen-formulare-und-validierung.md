@@ -1,37 +1,19 @@
 ---
 title: "Grundlagen: Formulare und Validierung"
 description: "Allgemeiner Überblick über Webformulare, Eingabefelder, Labels, Validierung und verständliche Fehlermeldungen."
-subject: web-development
+subject: "web-development"
 section: "HTML"
-topicPath:
-  - html
-  - formulare-und-validierung
-  - grundlagen-formulare-und-validierung
-learningGoals:
-  - "Du erklärst Formulare als strukturierte Eingabeoberflächen im Web."
-  - "Du beschreibst Validierung als Prüfung von Eingabedaten."
-  - "Du ordnest Labels und Fehlermeldungen als Teil der Nutzerführung ein."
+topicPath: ["html", "formulare-und-validierung", "ueberblick", "grundlagen-formulare-und-validierung"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Placeholder als Ersatz für ein Label zu verwenden."
-  - "Validierung nur als technische Sperre zu sehen."
-  - "Fehlermeldungen erst nach dem Absenden unklar anzuzeigen."
-keyTakeaways:
-  - "Formulare brauchen verständliche Beschriftungen und passende Eingabetypen."
-  - "Validierung schützt Datenqualität und unterstützt Nutzerinnen und Nutzer."
-  - "Gute Fehlermeldungen erklären konkret, was geändert werden muss."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - "webentwicklung"
-  - "html"
-  - "formulare"
-  - "validierung"
-  - "barrierefreiheit"
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Begriff
 
 Ein **Webformular** ermöglicht Eingaben auf einer Webseite. Typische Bestandteile sind Textfelder, Auswahlfelder, Kontrollkästchen, Radiobuttons, Schaltflächen und erklärende Hinweise. **Validierung** prüft, ob Eingaben vollständig, passend und verarbeitbar sind.

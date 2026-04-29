@@ -3,19 +3,10 @@ title: "Lösung – EEPROM-Schreibvorgänge sinnvoll begrenzen"
 description: "Musterlösung zu „EEPROM-Schreibvorgänge sinnvoll begrenzen“."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "eeprom-schonend-speichern"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "eeprom-schonend-speichern"]
 taskId: "et-mc-v93-eeprom"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/eeprom-schonend-speichern"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "eeprom"
-  - "speicher"
-  - "verschleiss"
-  - "konfiguration"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

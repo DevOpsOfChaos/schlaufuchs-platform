@@ -1,12 +1,17 @@
 ---
-title: Variablen und Datentypen – Grundaufgaben
-description: Übe das grundlegende Einordnen von gespeicherten Werten und ihren Datentypen.
-subject: informatik
-section: variablen-und-datentypen
-level: einfach
+title: "Variablen und Datentypen – Grundaufgaben"
+description: "Übe das grundlegende Einordnen von gespeicherten Werten und ihren Datentypen."
+subject: "informatik"
+section: "variablen-und-datentypen"
+topicPath: ["variablen-und-datentypen-grundaufgaben"]
+taskId: "AUTO-VARIABLEN-UND-DATENTYPEN-GRUNDAUFGABEN"
+tags: ["informatik", "variablen-und-datentypen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe hält die Grundidee von Variablen und Datentypen bewusst einfach: Du sollst zuerst verstehen, **welche Werte ein Programm speichert und warum ihre Art wichtig ist**.
 
 ## Lernziel

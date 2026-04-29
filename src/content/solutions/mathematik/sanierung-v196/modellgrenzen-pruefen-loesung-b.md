@@ -1,15 +1,14 @@
 ---
-title: Modellgrenzen prüfen – Lösung B
-description: Musterlösung zu Modellgrenzen prüfen mit Kontrolle.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Modellgrenzen prüfen – Lösung B"
+description: "Musterlösung zu Modellgrenzen prüfen mit Kontrolle."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "modellieren-und-validieren", "modellgrenzen-pruefen"]
 taskId: "mat-v196-modellgrenzen-pruefen-b"
 relatedExercise: "mathematik/sanierung-v196/modellgrenzen-pruefen-aufgabe-b"
 tags: ["mathematik", "v196", "modellieren-und-validieren", "modellgrenzen-pruefen"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine passende Lösung zu dieser Aufgabe muss nicht exakt dieselben Zahlen oder Beispiele verwenden. Entscheidend ist der saubere Aufbau.

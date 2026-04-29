@@ -1,35 +1,19 @@
 ---
 title: "Dateien und Verzeichnisse"
 description: "Allgemeiner Überblick über Dateien, Verzeichnisse und Pfade in Linux-Systemen."
-subject: linux
+subject: "linux"
 section: "Dateisystem"
-topicPath:
-  - "dateien-und-verzeichnisse"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst Dateien und Verzeichnisse als Grundstruktur des Systems."
-  - "Du kannst absolute und relative Pfade unterscheiden."
-  - "Du verstehst, warum Pfade immer im Kontext gelesen werden."
+topicPath: ["dateien-und-verzeichnisse", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Relative Pfade ohne Blick auf das aktuelle Verzeichnis zu verwenden."
-  - "Dateinamen, Erweiterungen und Dateitypen zu verwechseln."
-keyTakeaways:
-  - "Linux organisiert Ressourcen in einer hierarchischen Dateistruktur."
-  - "Pfade beschreiben Orte, nicht nur Namen."
-recognizeSignals:
-  - "Es geht um `ls`, `cd`, `pwd`, Pfade, Ordner, Kopieren oder Verschieben."
-selfCheckPoints:
-  - "Kann ich erklären, von welchem Verzeichnis ein relativer Pfad ausgeht?"
-level: einfach
-tags:
-  - "linux"
-  - "dateien"
-  - "verzeichnisse"
-  - "pfade"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dateisystem"]
 draft: false
 ---
-
 # Dateien und Verzeichnisse
 
 ![Schaubild zu Dateien und Verzeichnissen.](/schlaufuchs-platform/images/overviews/v148/dateien-und-verzeichnisse.svg)

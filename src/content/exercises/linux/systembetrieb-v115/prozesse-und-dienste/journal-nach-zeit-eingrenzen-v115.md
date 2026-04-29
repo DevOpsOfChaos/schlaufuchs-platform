@@ -1,36 +1,17 @@
 ---
 title: "Aufgabe: Journal nach Zeit eingrenzen"
 description: "Trainiere Journal nach Zeit eingrenzen an einem kleinen, klar abgegrenzten Fall."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "systembetrieb-v115"
-  - "prozesse-und-dienste"
-  - "journal-nach-zeit-eingrenzen-v115"
+topicPath: ["systembetrieb-v115", "prozesse-und-dienste", "journal-nach-zeit-eingrenzen-v115"]
 taskId: "linux-journal-nach-zeit-eingrenzen-v115"
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "systembetrieb"
-  - "prozesse und dienste"
-  - "aufgabe"
-hintPoints:
-  - "Grenze zuerst den kleinen Fall vom breiten Themenfeld ab."
-  - "Nutze die Prüffrage: Welcher Zeitraum gehört zum Ereignis?"
-  - "Begründe mit zwei konkreten Hinweisen aus dem Fall."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-transferIdeas:
-  - "Übertrage dieselbe Trennkante auf ein eigenes Mini-Beispiel."
-  - "Formuliere einen Gegenfall, der ähnlich aussieht, aber anders entschieden wird."
-reflectionPrompt: "Was war bei „Journal nach Zeit eingrenzen“ die wichtigste Trennkante?"
-level: mittel
+tags: ["linux", "Feinstruktur Linux", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den folgenden Fall zu **Journal nach Zeit eingrenzen**.

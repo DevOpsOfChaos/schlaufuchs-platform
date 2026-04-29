@@ -1,32 +1,17 @@
 ---
 title: "SLO und Error Budget"
 description: "Überblick über Service Level Objectives und Fehlertoleranz im Betrieb digitaler Systeme."
-subject: informatik
+subject: "informatik"
 section: "Betrieb"
-topicPath:
-  - "slo-und-error-budget"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst SLO und Error Budget als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie SLI, SLO, SLA."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["slo-und-error-budget", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Hundertprozentige Verfügbarkeit als realistisches oder wirtschaftliches Ziel zu behandeln."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "SLO und Error Budget beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Messbare Zuverlässigkeit."
-  - "Wichtige Hinweise liefern vor allem SLI, SLO, SLA."
-recognizeSignals:
-  - "Es geht um messbare zuverlässigkeit, sli oder slo."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck SLO und Error Budget erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "informatik"
-  - "betrieb"
-  - "zuverlaessigkeit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Betrieb"]
 draft: false
 ---
 # SLO und Error Budget

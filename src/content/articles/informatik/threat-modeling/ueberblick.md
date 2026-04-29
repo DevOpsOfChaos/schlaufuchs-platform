@@ -1,37 +1,19 @@
 ---
 title: "Threat Modeling"
 description: "Allgemeiner Überblick über Threat Modeling als strukturierte Betrachtung möglicher Angriffe und Risiken."
-subject: informatik
+subject: "informatik"
 section: "Sicherheit"
-topicPath:
-  - "threat-modeling"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Threat Modeling als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["threat-modeling", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft werden nur technische Schwachstellen gesucht und fachliche Missbrauchsmöglichkeiten übersehen."
-keyTakeaways:
-  - "Threat Modeling macht Risiken früh sichtbar."
-  - "Schutzwerte, Angreifer und Vertrauensgrenzen stehen im Mittelpunkt."
-  - "Sicherheit wird priorisierbarer."
-recognizeSignals:
-  - "Ein System verarbeitet sensible Daten oder kritische Aktionen."
-  - "Vor dem Bau sollen Risiken geklärt werden."
-selfCheckPoints:
-  - "Kann ich Threat Modeling in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "sicherheit"
-  - "threat modeling"
-  - "risiko"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Sicherheit"]
 draft: false
 ---
-
 # Threat Modeling
 
 Threat Modeling ist eine strukturierte Methode, mögliche Bedrohungen für ein System zu erkennen und Gegenmaßnahmen zu priorisieren.

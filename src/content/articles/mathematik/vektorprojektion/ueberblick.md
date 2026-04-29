@@ -1,35 +1,17 @@
 ---
 title: "Vektorprojektion"
 description: "Überblick über Vektorprojektionen und die Zerlegung eines Vektors in eine Richtung und einen Restanteil."
-subject: mathematik
+subject: "mathematik"
 section: "Vektoren"
-topicPath:
-  - "vektorprojektion"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Vektorprojektion als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["vektorprojektion", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird nur die Länge betrachtet und die Richtung der Projektion übersehen."
-keyTakeaways:
-  - "Eine Vektorprojektion beschreibt den Anteil eines Vektors in Richtung eines anderen Vektors."
-  - "Sie hilft, Kräfte, Bewegungen, Abstände und Richtungsanteile geometrisch zu verstehen."
-  - "Eine Projektion ist nicht einfach das Kürzen eines Vektors. Sie bezieht sich immer auf eine gewählte Richtung oder Ebene."
-recognizeSignals:
-  - "Es geht um Vektorprojektion, wenn die Projektion hängt vom Winkel zwischen den Vektoren ab."
-  - "Das Thema wird relevant, wenn Beispiele wie eine Hangabtriebskraft kann als Projektion der Gewichtskraft entlang einer schiefen Ebene verstanden werden."
-selfCheckPoints:
-  - "Kann ich Vektorprojektion in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "vektoren"
-  - "projektion"
-  - "geometrie"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Vektoren"]
 draft: false
 ---
 # Vektorprojektion

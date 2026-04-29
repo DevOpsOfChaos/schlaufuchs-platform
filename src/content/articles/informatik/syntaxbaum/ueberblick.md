@@ -1,33 +1,19 @@
 ---
 title: "Syntaxbaum"
 description: "Ein Syntaxbaum stellt die grammatische Struktur eines Ausdrucks oder Programms dar. Er macht sichtbar, wie Bestandteile zusammengehören."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "syntaxbaum"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Syntaxbaum."
-  - "Du kannst Syntaxbaum in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["syntaxbaum", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur die Textreihenfolge zu betrachten und die Baumstruktur zu ignorieren."
-keyTakeaways:
-  - "Ein Syntaxbaum stellt die grammatische Struktur eines Ausdrucks oder Programms dar."
-  - "Wichtig sind vor allem knoten und teilbäume, operatorrangfolge und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Syntaxbaum, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Syntaxbaum dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "informatik"
-  - "grundlagen"
-  - "syntaxbaum"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Syntaxbaum
 
 Ein Syntaxbaum stellt die grammatische Struktur eines Ausdrucks oder Programms dar. Er macht sichtbar, wie Bestandteile zusammengehören. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

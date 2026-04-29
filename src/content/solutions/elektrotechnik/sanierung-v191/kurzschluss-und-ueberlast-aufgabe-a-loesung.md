@@ -3,24 +3,12 @@ title: "Lösung: Kurzschluss und Überlast: Aufgabe A"
 description: "Musterlösung zur Aufgabe etech-v191-027a im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "fehlersuche"
-  - "kurzschluss-und-ueberlast"
-  - "loesung-a"
+topicPath: ["sanierung-v191", "kurzschluss-und-ueberlast-aufgabe-a"]
 taskId: "etech-v191-027a"
 relatedExercise: "elektrotechnik/sanierung-v191/kurzschluss-und-ueberlast-aufgabe-a"
-tags:
-  - "fehlersuche"
-  - "kurzschluss"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-027a`
 
 Ausgangsauftrag: Unterscheide Kurzschluss und Überlast in zwei Beispielen.

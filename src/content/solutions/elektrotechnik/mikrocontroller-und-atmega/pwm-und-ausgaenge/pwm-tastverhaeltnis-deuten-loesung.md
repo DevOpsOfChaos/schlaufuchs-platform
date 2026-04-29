@@ -1,22 +1,14 @@
 ---
 title: "Lösung – PWM-Tastverhältnis deuten"
 description: "Musterlösung zur Aufgabe PWM-Tastverhältnis deuten."
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - pwm-und-ausgaenge
-taskId: ET-V180-PWM-001
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/pwm-und-ausgaenge/pwm-tastverhaeltnis-deuten.md
-tags:
-  - elektrotechnik
-  - loesung
-  - pwm
-  - tastverhaeltnis
-  - ausgaenge
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["mikrocontroller-und-atmega", "pwm-und-ausgaenge", "pwm-tastverhaeltnis-deuten"]
+taskId: "ET-V180-PWM-001"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/pwm-und-ausgaenge/pwm-tastverhaeltnis-deuten.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1

@@ -1,36 +1,19 @@
 ---
 title: "Grundlagen: Messen und Fehler"
 description: "Allgemeiner Überblick über Messgrößen, Messbereiche, Messabweichungen und die Deutung von Messergebnissen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Daten und Signale"
-topicPath:
-  - daten-und-signale
-  - messen-und-fehler
-  - grundlagen-messen-und-fehler
-learningGoals:
-  - "Du erklärst Messen als Vergleich einer Größe mit einer Einheit."
-  - "Du beschreibst Messbereiche und Auflösung als Grenzen eines Messgeräts."
-  - "Du ordnest Messabweichungen als normalen Bestandteil technischer Messungen ein."
+topicPath: ["daten-und-signale", "messen-und-fehler", "ueberblick", "grundlagen-messen-und-fehler"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein Messergebnis als absolut exakt zu behandeln."
-  - "Den Messbereich des Geräts zu ignorieren."
-  - "Auflösung, Genauigkeit und Ablesefehler zu vermischen."
-keyTakeaways:
-  - "Messen liefert einen Zahlenwert mit Einheit und begrenzter Genauigkeit."
-  - "Messgeräte haben Messbereiche, Auflösung und Toleranzen."
-  - "Gute Messpraxis prüft Plausibilität und mögliche Fehlerquellen."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "messfehler"
-  - "messbereich"
+level: "einfach"
+tags: ["elektrotechnik", "Daten und Signale"]
 draft: false
 ---
-
 ## Begriff
 
 **Messen** bedeutet, eine physikalische Größe mit einer Einheit zu vergleichen. In der Elektrotechnik werden häufig Spannung, Strom, Widerstand, Frequenz oder Leistung gemessen. Ein Messergebnis besteht nicht nur aus einer Zahl, sondern aus Zahl, Einheit, Messbereich und Genauigkeit.

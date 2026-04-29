@@ -1,16 +1,19 @@
 ---
 title: "Algorithmen"
 description: "Schrittfolgen, Lösungswege und systematisches Denken in der Informatik."
-subject: informatik
+subject: "informatik"
 section: "Grundlagen / Algorithmen"
-level: einfach
-tags:
-  - Informatik
-  - Algorithmen
-  - Grundlagen
+topicPath: ["grundlagen", "algorithmen", "algorithmen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Grundlagen / Algorithmen"]
 draft: false
 ---
-
 ## Was ist ein Algorithmus?
 
 Ein Algorithmus ist ein **klarer Lösungsweg in einzelnen Schritten**.

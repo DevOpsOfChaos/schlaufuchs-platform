@@ -1,31 +1,17 @@
 ---
 title: "Client-Server-Modell"
 description: "Allgemeiner Überblick über Clients, Server, Anfragen und Antworten in vernetzten Systemen."
-subject: informatik
+subject: "informatik"
 section: "Netzwerke"
-topicPath:
-  - "client-server-modell"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Client-Server-Modell grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["client-server-modell", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Client-Server-Modell nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Client-Server-Modell beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Client-Server-Modell, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Client-Server-Modell in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "client-server"
-  - "netzwerk"
-  - "protokolle"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Netzwerke"]
 draft: false
 ---
 # Client-Server-Modell

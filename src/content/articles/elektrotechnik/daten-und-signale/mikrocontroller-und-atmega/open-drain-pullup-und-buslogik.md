@@ -3,43 +3,15 @@ title: "Mikrocontroller – Open-Drain, Pull-up und Buslogik verstehen"
 description: "Verstehe, warum manche Schnittstellen nicht aktiv High treiben, sondern die Leitung nur nach Low ziehen und den High-Pegel einem Pull-up überlassen."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "open-drain-pullup-und-buslogik"
-learningGoals:
-  - "Du beschreibst Open-Drain als gemeinsames Leitungsprinzip."
-  - "Du erklärst, warum der Pull-up den High-Zustand herstellt."
-  - "Du erkennst, warum mehrere Teilnehmer dieselbe Leitung sicher nach Low ziehen können."
-practiceIdeas:
-  - "Vergleiche Push-Pull-Ausgänge mit Open-Drain-Ausgängen."
-  - "Lies eine I²C-Leitung als Ruhe-High und aktives Low."
-  - "Prüfe, welche Spannung an den Pull-ups eines Busses anliegt."
-commonMistakes:
-  - "Open-Drain als defekten Ausgang zu lesen, weil er nicht aktiv High treibt."
-  - "Pull-ups wegzulassen und dann undefinierte Pegel zu erwarten."
-  - "Mehrere Push-Pull-Ausgänge direkt gegeneinander arbeiten zu lassen."
-keyTakeaways:
-  - "Open-Drain-Teilnehmer ziehen eine Leitung aktiv nach Low."
-  - "Der Pull-up stellt den High-Pegel her, wenn niemand zieht."
-  - "Gemeinsame Busleitungen funktionieren nur mit klarer Pegellogik und passenden Pull-ups."
-recognizeSignals:
-  - "Es geht um I²C, gemeinsame Leitungen, Pull-ups oder mehrere Teilnehmer auf einem Bus."
-  - "Die Leitung ist im Ruhezustand High und wird bei Aktivität Low."
-  - "Eine Aufgabe fragt, warum Teilnehmer nicht direkt gegeneinander treiben dürfen."
-selfCheckPoints:
-  - "Kann ich erklären, woher High und Low auf einer Open-Drain-Leitung kommen?"
-  - "Kann ich Pull-up-Spannung und Teilnehmerpegel zusammen prüfen?"
-  - "Kann ich Push-Pull und Open-Drain unterscheiden?"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "open-drain"
-  - "pullup"
-  - "i2c"
-  - "bus"
-  - "logik"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "open-drain-pullup-und-buslogik"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
 ## Grundidee

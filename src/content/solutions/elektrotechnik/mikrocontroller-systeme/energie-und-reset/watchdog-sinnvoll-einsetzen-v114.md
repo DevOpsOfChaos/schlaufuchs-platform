@@ -1,23 +1,14 @@
 ---
-title: Lösung – Watchdog sinnvoll einsetzen
-description: Musterlösung zur Aufgabe über Watchdog sinnvoll einsetzen.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- mikrocontroller-systeme
-- energie-und-reset
-- watchdog-sinnvoll-einsetzen-v114
-taskId: v114-elektrotechnik-watchdog-sinnvoll-einsetzen-v114
-relatedExercise: elektrotechnik/mikrocontroller-systeme/energie-und-reset/watchdog-sinnvoll-einsetzen-v114
-tags:
-- elektrotechnik
-- v114
-- loesung
-- mikrocontroller-systeme
-- energie-und-reset
+title: "Lösung – Watchdog sinnvoll einsetzen"
+description: "Musterlösung zur Aufgabe über Watchdog sinnvoll einsetzen."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["mikrocontroller-systeme", "energie-und-reset", "watchdog-sinnvoll-einsetzen-v114"]
+taskId: "v114-elektrotechnik-watchdog-sinnvoll-einsetzen-v114"
+relatedExercise: "elektrotechnik/mikrocontroller-systeme/energie-und-reset/watchdog-sinnvoll-einsetzen-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

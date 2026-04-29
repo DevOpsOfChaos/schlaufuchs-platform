@@ -1,34 +1,19 @@
 ---
 title: "Debugging"
 description: "Allgemeiner Überblick über Debugging als systematische Suche nach Ursachen von Programmfehlern."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis"
-topicPath:
-  - "debugging"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst Debugging als systematische Fehlersuche."
-  - "Du kannst Symptom, Ursache und Korrektur unterscheiden."
-  - "Du verstehst die Rolle von Hypothesen und kleinen Prüfungen."
+topicPath: ["debugging", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ohne Hypothese viele Stellen gleichzeitig zu ändern."
-  - "Das sichtbare Symptom mit der eigentlichen Ursache gleichzusetzen."
-keyTakeaways:
-  - "Debugging ist kontrollierte Ursachenforschung, nicht blindes Ausprobieren."
-  - "Kleine Reproduktionen und klare Beobachtungen verkürzen die Fehlersuche."
-recognizeSignals:
-  - "Es geht um Fehlermeldungen, falsche Ausgaben, Abstürze, Logs oder unerwartetes Verhalten."
-selfCheckPoints:
-  - "Kann ich das kleinste Beispiel beschreiben, das den Fehler sicher zeigt?"
-level: einfach
-tags:
-  - "informatik"
-  - "debugging"
-  - "fehleranalyse"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierpraxis"]
 draft: false
 ---
-
 # Debugging
 
 ![Schaubild zum Debugging-Prozess.](/schlaufuchs-platform/images/overviews/v148/debugging.svg)

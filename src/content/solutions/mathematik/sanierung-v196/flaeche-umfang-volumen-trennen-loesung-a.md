@@ -1,15 +1,14 @@
 ---
-title: Fläche, Umfang und Volumen trennen – Lösung A
-description: Musterlösung zu Fläche, Umfang und Volumen trennen mit Kontrolle.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Fläche, Umfang und Volumen trennen – Lösung A"
+description: "Musterlösung zu Fläche, Umfang und Volumen trennen mit Kontrolle."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "geometrie-messen-und-begruenden", "flaeche-umfang-volumen-trennen"]
 taskId: "mat-v196-flaeche-umfang-volumen-trennen-a"
 relatedExercise: "mathematik/sanierung-v196/flaeche-umfang-volumen-trennen-aufgabe-a"
 tags: ["mathematik", "v196", "geometrie-messen-und-begruenden", "flaeche-umfang-volumen-trennen"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine passende Lösung zu dieser Aufgabe muss nicht exakt dieselben Zahlen oder Beispiele verwenden. Entscheidend ist der saubere Aufbau.

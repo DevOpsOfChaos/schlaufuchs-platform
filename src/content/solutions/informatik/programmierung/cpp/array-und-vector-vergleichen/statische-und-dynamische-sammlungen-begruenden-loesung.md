@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – Statische und dynamische Sammlungen begründen
-description: Musterlösung zur Aufgabe INF-PROG-CPP-COLL-001.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - sammlungen-und-speicher
-  - array-und-vector-vergleichen
-  - statische-und-dynamische-sammlungen-begruenden-loesung
-taskId: INF-PROG-CPP-COLL-001
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/array-und-vector-vergleichen/statische-und-dynamische-sammlungen-begruenden.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – Statische und dynamische Sammlungen begründen"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-COLL-001."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "array-und-vector-vergleichen", "statische-und-dynamische-sammlungen-begruenden"]
+taskId: "INF-PROG-CPP-COLL-001"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/array-und-vector-vergleichen/statische-und-dynamische-sammlungen-begruenden.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Sammlung auswählen
 
 - Die Wochentage passen eher zu einem Array, weil ihre Anzahl feststeht.

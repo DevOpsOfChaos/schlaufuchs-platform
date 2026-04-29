@@ -1,31 +1,17 @@
 ---
 title: "Shell-Skripte"
 description: "Allgemeiner Überblick über Shell-Skripte, Automatisierung und wiederholbare Befehlsabläufe."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell-skripte"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Shell-Skripte grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["shell-skripte", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Shell-Skripte nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Shell-Skripte beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Shell-Skripte, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Shell-Skripte in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "skripte"
-  - "automatisierung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
 # Shell-Skripte

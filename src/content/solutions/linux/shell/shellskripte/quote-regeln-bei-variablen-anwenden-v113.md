@@ -3,20 +3,12 @@ title: "Lösung – Quote-Regeln bei Variablen anwenden"
 description: "Musterlösung zu Quote-Regeln bei Variablen anwenden mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "shellskripte"
-  - "quote-regeln-bei-variablen-anwenden-v113"
+topicPath: ["shell", "shellskripte", "quote-regeln-bei-variablen-anwenden-v113"]
 taskId: "v113-linux-quote-regeln-bei-variablen-anwenden-v113"
 relatedExercise: "linux/shell/shellskripte/quote-regeln-bei-variablen-anwenden-v113"
-tags:
-  - "linux"
-  - "strukturcheck"
-  - "unterthema"
-  - "quote-regeln-bei-variablen-anwenden-v113"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Quote-Regeln bei Variablen anwenden**.

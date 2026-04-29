@@ -1,20 +1,19 @@
 ---
-title: Scheitelpunkt und Symmetrie
-description: Extrempunkt und Achse als Orientierung nutzen.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Scheitelpunkt und Symmetrie"
+description: "Extrempunkt und Achse als Orientierung nutzen."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "funktionen-im-vergleich", "scheitelpunkt-und-symmetrie"]
-learningGoals: ["Extrempunkt und Achse als Orientierung nutzen", "Zwischenschritte begründen", "Ergebnis im Kontext kontrollieren"]
-practiceIdeas: ["Formuliere ein eigenes Beispiel zu Scheitelpunkt und Symmetrie.", "Markiere Frage, Daten und Kontrolle getrennt.", "Vergleiche zwei mögliche Lösungswege."]
-commonMistakes: ["Zu früh rechnen", "Einheiten oder Bedingungen weglassen", "Das Ergebnis nicht rückprüfen"]
-keyTakeaways: ["Scheitelpunkt und Symmetrie beginnt mit einer klaren Frage und nicht sofort mit Rechnen.", "Der Themenblock funktionen im vergleich braucht sichtbare Zwischenschritte.", "Ein Ergebnis ist erst belastbar, wenn es im Kontext geprüft wurde."]
-recognizeSignals: ["Die Aufgabe enthält mehrere Angaben.", "Eine Darstellung muss gedeutet werden.", "Das Ergebnis braucht eine Plausibilitätsprüfung."]
-selfCheckPoints: ["Ist die Frage klar?", "Sind Einheiten und Bedingungen sichtbar?", "Passt das Ergebnis zur Situation?"]
-level: einfach
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
 tags: ["mathematik", "v196", "funktionen-im-vergleich", "scheitelpunkt-und-symmetrie"]
 draft: false
 ---
-
 ![Scheitelpunkt und Symmetrie](/schlaufuchs-platform/images/mathematik/sanierung-v196/scheitelpunkt-und-symmetrie.svg)
 
 ## Worum es geht

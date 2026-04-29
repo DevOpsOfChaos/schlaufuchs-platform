@@ -1,46 +1,19 @@
 ---
-title: Disabled, Readonly und Required unterscheiden
-description: Verstehe, wie diese Zustände Eingabefelder unterschiedlich begrenzen und warum ähnliche Optik nicht dieselbe Formularlogik bedeutet.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - formulare-und-eingaben
-  - disabled-readonly-und-required-unterscheiden
-learningGoals:
-  - Du unterscheidest disabled, readonly und required nach ihrer Rolle.
-  - Du erklärst, was Nutzer bei diesen Zuständen tun dürfen oder tun müssen.
-  - Du liest Formularzustände eher als Interaktionslogik als als bloße Farbänderung.
-practiceIdeas:
-  - Vergleiche Felder, die nicht bearbeitbar, nur lesbar oder verpflichtend sind.
-  - Prüfe in einem Formular, welche Felder gesperrt, welche geschützt und welche notwendig sind.
-  - Begründe Zustände über Nutzungslogik statt über Optik.
-commonMistakes:
-  - disabled und readonly gleichzusetzen.
-  - required nur als Sternchen statt als Pflichtlogik zu sehen.
-  - Feldzustände nur nach ausgegrauter Optik zu beurteilen.
-keyTakeaways:
-  - disabled sperrt die Interaktion mit einem Feld.
-  - readonly zeigt einen Wert, der nicht bearbeitet werden soll.
-  - required markiert eine notwendige Eingabe.
-recognizeSignals:
-  - Es geht um Formulare mit gesperrten, vorbefüllten oder verpflichtenden Feldern.
-  - Du sollst erklären, was ein Nutzer tun darf, tun muss oder gerade nicht tun kann.
-  - In Beispielen zählt die Interaktionslogik mehr als das Styling.
-selfCheckPoints:
-  - Kann ich disabled und readonly fachlich trennen?
-  - Kann ich required als Pflicht statt als Dekoration erklären?
-  - Kann ich die erlaubte Nutzeraktion aus dem Zustand ableiten?
-tags:
-  - html
-  - formular
-  - disabled
-  - readonly
-  - required
-level: einfach
+title: "Disabled, Readonly und Required unterscheiden"
+description: "Verstehe, wie diese Zustände Eingabefelder unterschiedlich begrenzen und warum ähnliche Optik nicht dieselbe Formularlogik bedeutet."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "disabled-readonly-und-required-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Formularfelder können ähnlich aussehen und trotzdem sehr verschiedene Regeln haben. Genau darum reicht es nicht, nur auf graue Farben oder kleine Pflichtmarkierungen zu schauen.

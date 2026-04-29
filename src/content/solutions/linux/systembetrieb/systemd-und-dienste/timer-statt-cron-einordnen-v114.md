@@ -1,23 +1,14 @@
 ---
-title: Lösung – Timer statt Cron einordnen
-description: Musterlösung zur Aufgabe über Timer statt Cron einordnen.
-subject: linux
-section: Feinstruktur Linux
-topicPath:
-- systembetrieb
-- systemd-und-dienste
-- timer-statt-cron-einordnen-v114
-taskId: v114-linux-timer-statt-cron-einordnen-v114
-relatedExercise: linux/systembetrieb/systemd-und-dienste/timer-statt-cron-einordnen-v114
-tags:
-- linux
-- v114
-- loesung
-- systembetrieb
-- systemd-und-dienste
+title: "Lösung – Timer statt Cron einordnen"
+description: "Musterlösung zur Aufgabe über Timer statt Cron einordnen."
+subject: "linux"
+section: "Feinstruktur Linux"
+topicPath: ["systembetrieb", "systemd-und-dienste", "timer-statt-cron-einordnen-v114"]
+taskId: "v114-linux-timer-statt-cron-einordnen-v114"
+relatedExercise: "linux/systembetrieb/systemd-und-dienste/timer-statt-cron-einordnen-v114"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

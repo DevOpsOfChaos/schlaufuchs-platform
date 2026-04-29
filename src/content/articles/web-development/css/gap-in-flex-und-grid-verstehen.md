@@ -1,46 +1,19 @@
 ---
-title: Gap in Flex und Grid verstehen
-description: Verstehe, warum gap Abstände zwischen Elementen ruhiger steuert als Einzelränder und wie sich dieselbe Regel in Flex- und Grid-Layouts sichtbar auswirkt.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - flexbox
-  - gap-in-flex-und-grid-verstehen
-learningGoals:
-  - Du erklärst, was gap in Layout-Containern steuert.
-  - Du unterscheidest Abstand zwischen Elementen von Außenabständen am Element.
-  - Du beschreibst, warum gap oft ruhiger ist als viele einzelne margin-Regeln.
-practiceIdeas:
-  - Vergleiche eine Kartenzeile mit und ohne gap.
-  - Prüfe bei Flex- oder Grid-Beispielen, ob der Abstand vom Container oder von den Kind-Elementen kommt.
-  - Erkläre, warum gleichmäßige Zwischenräume oft mit gap leichter lesbar werden.
-commonMistakes:
-  - gap mit margin am einzelnen Element gleichzusetzen.
-  - zu glauben, gap mache dasselbe wie padding.
-  - Abstände am Anfang und Ende einer Reihe mit Zwischenabständen zu verwechseln.
-keyTakeaways:
-  - gap steuert den Raum zwischen Kind-Elementen eines Layout-Containers.
-  - gap gehört zur Logik des Containers, nicht zum einzelnen Kind.
-  - Für gleichmäßige Zwischenräume ist gap oft ruhiger und wartbarer als viele margin-Einzelregeln.
-recognizeSignals:
-  - Es geht um Kartenreihen, Button-Gruppen, Grid-Layouts oder gleichmäßige Abstände.
-  - Du sollst erklären, warum Elemente zwar getrennt, aber nicht vom Container weggerückt wirken.
-  - In Beispielen ist die Frage wichtig, ob der Abstand zwischen Kindern oder außen am Baustein entsteht.
-selfCheckPoints:
-  - Kann ich gap von margin und padding unterscheiden?
-  - Kann ich erklären, warum gap am Container steht?
-  - Kann ich sichtbar beschreiben, was sich mit größerem gap ändert und was gleich bleibt?
-tags:
-  - css
-  - gap
-  - flexbox
-  - grid
-  - abstand
-level: einfach
+title: "Gap in Flex und Grid verstehen"
+description: "Verstehe, warum gap Abstände zwischen Elementen ruhiger steuert als Einzelränder und wie sich dieselbe Regel in Flex- und Grid-Layouts sichtbar auswirkt."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "gap-in-flex-und-grid-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Mit `gap` steuerst du den **Zwischenraum zwischen Kind-Elementen eines Containers**. Das ist besonders hilfreich bei Flexbox und Grid, weil der Abstand dadurch als Teil der Layoutlogik gelesen werden kann.

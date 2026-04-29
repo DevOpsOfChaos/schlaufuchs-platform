@@ -1,31 +1,17 @@
 ---
 title: "Globbing und Wildcards"
 description: "Allgemeiner Überblick über Muster wie Sternchen und Fragezeichen in der Shell."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - "globbing-und-wildcards"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Globbing und Wildcards grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["globbing-und-wildcards", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Globbing und Wildcards nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Globbing und Wildcards beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Globbing und Wildcards, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Globbing und Wildcards in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "globbing"
-  - "wildcards"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
 # Globbing und Wildcards

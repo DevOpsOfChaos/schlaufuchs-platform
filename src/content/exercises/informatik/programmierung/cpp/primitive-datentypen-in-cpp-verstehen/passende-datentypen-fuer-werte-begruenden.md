@@ -1,33 +1,17 @@
 ---
-title: Passende Datentypen für Werte begründen
-description: Ordne typischen Variablenwerten passende primitive C++-Typen zu und begründe die Wahl.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - primitive-datentypen
-  - primitive-datentypen-in-cpp-verstehen
-  - passende-datentypen-fuer-werte-begruenden
-taskId: INF-PROG-CPP-DATENTYPEN-001
-level: einfach
+title: "Passende Datentypen für Werte begründen"
+description: "Ordne typischen Variablenwerten passende primitive C++-Typen zu und begründe die Wahl."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "primitive-datentypen-in-cpp-verstehen", "passende-datentypen-fuer-werte-begruenden"]
+taskId: "INF-PROG-CPP-DATENTYPEN-001"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - datentypen
-hintPoints:
-  - "Frage zuerst, welche Art von Information der Wert ausdrückt."
-  - "Trenne Zeichen, Zustand, ganze Anzahl und Näherungswert sauber."
-selfCheckPoints:
-  - "Ist die fachliche Rolle des Wertes klar benannt?"
-  - "Wird nicht nur ein Typ genannt, sondern auch begründet?"
-transferIdeas:
-  - "Übertrage die Aufgabe auf Login-Zustände, Messwerte oder Statuskürzel."
-reflectionPrompt: "Warum hilft dir die Bedeutung des Wertes mehr als sein bloßer Zahlen- oder Zeicheninhalt?"
 ---
-
 ## Aufgabe 1: Typ zuordnen
 
 Ordne diesen Werten jeweils einen sinnvollen primitiven C++-Typ zu und begründe kurz:

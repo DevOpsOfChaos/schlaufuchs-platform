@@ -3,32 +3,17 @@ title: "Idempotente Shell-Befehle"
 description: "Allgemeiner Überblick über idempotente shell-befehle und die wichtigsten Zusammenhänge."
 subject: "linux"
 section: "Automatisierung"
-topicPath:
-  - "idempotente-shell-befehle"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["idempotente-shell-befehle", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Skripte nur einmal getestet und erzeugen beim zweiten Lauf doppelte Einträge."
-keyTakeaways:
-  - "Idempotenz macht Automatisierung sicherer und wiederholbarer."
-  - "Idempotenz bedeutet nicht, dass ein Befehl keine Wirkung hat."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "linux"
-  - "shell"
-  - "automatisierung"
-  - "idempotenz"
+tags: ["linux", "Automatisierung"]
 draft: false
 ---
-
 # Idempotente Shell-Befehle
 
 Idempotente Befehle können mehrfach ausgeführt werden, ohne den Zielzustand unerwünscht weiter zu verändern.

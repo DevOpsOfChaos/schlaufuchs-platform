@@ -3,45 +3,17 @@ title: "Frontend-Qualität – Zustände als Story zeigen"
 description: "Verstehe „Zustände als Story zeigen“ als klar abgegrenztes Unterthema mit Beispiel, Gegenprobe und passender Übung."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "frontend-qualitaet"
-  - "komponententest-und-story"
-  - "zustaende-als-story-zeigen-v116"
-learningGoals:
-  - "Du erklärst Zustände als Story zeigen in eigenen Worten."
-  - "Du ordnest die Frage in ein kleines Unterthema ein statt in einen breiten Sammelbereich."
-  - "Du formulierst eine passende Gegenprobe für Aufgabe oder Projekt."
-practiceIdeas:
-  - "Markiere zuerst den konkreten Auslöser der Aufgabe."
-  - "Trenne Begriff, Beispiel und Prüfschritt."
-  - "Übertrage die Denkbewegung auf ein zweites kleines Beispiel."
-commonMistakes:
-  - "das Unterthema zu breit lesen"
-  - "die Gegenprobe weglassen"
-  - "Begriff und Beispiel miteinander verwechseln"
-keyTakeaways:
-  - "Zustände als Story zeigen wird verständlich, wenn Ursache, Wirkung und Kontrolle getrennt werden."
-  - "Feine Unterthemen helfen beim Wiederfinden und verhindern überladene Sammelseiten."
-  - "Eine gute Erklärung endet mit einer konkreten Prüfung."
-recognizeSignals:
-  - "Die Aufgabe enthält einen scheinbar kleinen Sonderfall."
-  - "Zwei ähnliche Begriffe werden leicht verwechselt."
-  - "Eine Entscheidung soll begründet statt nur geraten werden."
-selfCheckPoints:
-  - "Kann ich das Unterthema von einem Nachbarthema abgrenzen?"
-  - "Kann ich einen typischen Fehler benennen?"
-  - "Kann ich eine kleine Gegenprobe anschließen?"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "komponententest und story"
-  - "zustaende als story zeigen"
-  - "v116"
+topicPath: ["frontend-qualitaet", "komponententest-und-story", "zustaende-als-story-zeigen-v116"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
+tags: ["web-development", "Web Development vertiefen"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei **Zustände als Story zeigen** geht es nicht darum, möglichst viel Stoff auf einmal zu erklären. Entscheidend ist, die konkrete Beobachtung, die passende Regel und eine einfache Kontrolle voneinander zu trennen.

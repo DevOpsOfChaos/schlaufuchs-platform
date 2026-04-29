@@ -1,31 +1,17 @@
 ---
 title: "Messkette"
 description: "Überblick über Sensor, Signalaufbereitung, Wandlung, Auswertung und Anzeige als zusammenhängende Messkette."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Messtechnik"
-topicPath:
-  - "messkette"
-learningGoals:
-  - "Du kennst die Stufen einer Messkette."
-  - "Du verstehst, warum jede Stufe die Messqualität beeinflusst."
-  - "Du kannst Messfehler entlang der Kette einordnen."
+topicPath: ["messkette", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur den Sensor als Fehlerquelle zu betrachten."
-  - "Auflösung, Genauigkeit und Kalibrierung zu vermischen."
-keyTakeaways:
-  - "Eine Messkette besteht aus mehreren Stufen, die gemeinsam das Messergebnis bestimmen."
-  - "Fehler können in jeder Stufe entstehen und sich fortpflanzen."
-recognizeSignals:
-  - "Es geht um Sensorwerte, ADC, Anzeige, Messfehler oder Kalibrierung."
-selfCheckPoints:
-  - "Kann ich erklären, warum ein genauer Sensor allein noch kein genaues Messsystem garantiert?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "messtechnik"
-  - "sensor"
-  - "messkette"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Messtechnik"]
 draft: false
 ---
 # Messkette

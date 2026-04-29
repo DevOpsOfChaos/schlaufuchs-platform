@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Ausführungsrecht bei Ordnern deuten"
 description: "Musterlösung zu Ausführungsrecht bei Ordnern deuten mit Trennkante und Gegenprobe."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "rechte-und-sicherheit-v115"
-  - "dateirechte-und-besitz"
-  - "ausfuehrungsrecht-bei-ordnern-deuten-v115"
+topicPath: ["rechte-und-sicherheit-v115", "dateirechte-und-besitz", "ausfuehrungsrecht-bei-ordnern-deuten-v115"]
 taskId: "linux-ausfuehrungsrecht-bei-ordnern-deuten-v115"
 relatedExercise: "linux/rechte-und-sicherheit-v115/dateirechte-und-besitz/ausfuehrungsrecht-bei-ordnern-deuten-v115"
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "rechte und sicherheit"
-  - "dateirechte und besitz"
-  - "lösung"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Ausführungsrecht bei Ordnern deuten**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

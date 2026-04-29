@@ -3,20 +3,12 @@ title: "Lösung – Symptom und Ursache trennen"
 description: "Musterlösung zu Symptom und Ursache trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "logs-und-diagnose"
-  - "symptom-und-ursache-trennen-v113"
+topicPath: ["shell", "logs-und-diagnose", "symptom-und-ursache-trennen-v113"]
 taskId: "v113-linux-symptom-und-ursache-trennen-v113"
 relatedExercise: "linux/shell/logs-und-diagnose/symptom-und-ursache-trennen-v113"
-tags:
-  - "linux"
-  - "strukturcheck"
-  - "unterthema"
-  - "symptom-und-ursache-trennen-v113"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Symptom und Ursache trennen**.

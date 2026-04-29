@@ -1,46 +1,19 @@
 ---
-title: Cookies und Sessions – Grundidee
-description: Verstehe, wie Websites Zustände über mehrere Anfragen hinweg wiedererkennen und warum Cookies und Sessions dabei unterschiedliche Rollen haben.
-subject: informatik
-section: Sicherheit
-topicPath:
-  - sicherheit
-  - starke-passwoerter-und-authentifizierung
-  - cookies-und-sessions-grundidee
-learningGoals:
-  - Du erklärst die Grundidee von Cookies und Sessions.
-  - Du beschreibst, warum Websites ohne gespeicherten Zustand vieles nicht wiedererkennen könnten.
-  - Du trennst lokale Merkhilfe im Browser und serverseitigen Sitzungszustand sauber voneinander.
-practiceIdeas:
-  - Denke einen Login gedanklich über mehrere Seitenaufrufe hinweg durch.
-  - Vergleiche einen wiedererkannten Warenkorb mit einer komplett vergessenen Sitzung.
-  - Lies Cookies und Sessions nicht als austauschbare Wörter, sondern als zusammenspielende Rollen.
-commonMistakes:
-  - Cookie und Session gleichzusetzen.
-  - zu denken, der Server kenne eine Anmeldung automatisch bei jeder neuen Anfrage.
-  - jeden Cookie sofort als Passwortspeicher zu missverstehen.
-keyTakeaways:
-  - HTTP-Anfragen sind zunächst zustandsarm und müssen oft ergänzt werden.
-  - Cookies helfen dem Browser, Informationen zwischen Anfragen mitzunehmen.
-  - Sessions helfen dem Server, einen zusammenhängenden Nutzungsvorgang wiederzuerkennen.
-recognizeSignals:
-  - Es geht um Login, Warenkorb, Wiedererkennung oder gespeicherten Zustand.
-  - Du sollst erklären, warum eine Website etwas „merkt“ oder nach dem Neuladen wieder weiß.
-  - In Beispielen ist die Zustandslogik wichtiger als ein einzelner Fachbegriff.
-selfCheckPoints:
-  - Kann ich Cookie und Session auseinanderhalten?
-  - Kann ich erklären, warum Wiedererkennung über mehrere Anfragen nötig ist?
-  - Kann ich einen Login gedanklich als Zustandskette beschreiben?
-tags:
-  - informatik
-  - sicherheit
-  - cookie
-  - session
-  - login
-level: mittel
+title: "Cookies und Sessions – Grundidee"
+description: "Verstehe, wie Websites Zustände über mehrere Anfragen hinweg wiedererkennen und warum Cookies und Sessions dabei unterschiedliche Rollen haben."
+subject: "informatik"
+section: "Sicherheit"
+topicPath: ["sicherheit", "cookies-und-sessions-grundidee"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Sicherheit"]
 draft: false
 ---
-
 ## Grundidee
 
 Eine einzelne Anfrage an eine Website ist zunächst nur ein einzelner Kontakt. Trotzdem erwarten wir, dass ein Shop den Warenkorb behält oder ein Dienst merkt, dass wir bereits eingeloggt sind. Genau hier kommen Cookies und Sessions ins Spiel.

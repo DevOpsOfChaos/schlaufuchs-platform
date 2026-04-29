@@ -3,20 +3,12 @@ title: "Lösung – Linktext ohne Kontext verstehen"
 description: "Musterlösung zu Linktext ohne Kontext verstehen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "html"
-  - "bilder-navigation-und-links"
-  - "linktext-ohne-kontext-verstehen-v113"
+topicPath: ["html", "bilder-navigation-und-links", "linktext-ohne-kontext-verstehen-v113"]
 taskId: "v113-web-development-linktext-ohne-kontext-verstehen-v113"
 relatedExercise: "web-development/html/bilder-navigation-und-links/linktext-ohne-kontext-verstehen-v113"
-tags:
-  - "web development"
-  - "strukturcheck"
-  - "unterthema"
-  - "linktext-ohne-kontext-verstehen-v113"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Linktext ohne Kontext verstehen**.

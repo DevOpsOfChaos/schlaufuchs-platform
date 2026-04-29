@@ -3,36 +3,15 @@ title: "Pull-up- und Pull-down-Widerstände: Aufgabe B"
 description: "Erweitere die Grundidee zu „Pull-up- und Pull-down-Widerstände“ um einen Messfehler, einen Sicherheitscheck und eine kurze Plausibilitätsprüfung."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "digitale-schaltungen"
-  - "pullup-und-pulldown-widerstaende"
-  - "aufgabe-b"
+topicPath: ["sanierung-v191", "pullup-und-pulldown-widerstaende-aufgabe-b"]
 taskId: "etech-v191-017b"
-tags:
-  - "digitale-schaltungen"
-  - "pullup"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "aufgabe"
-  - "v191"
-hintPoints:
-  - "Trenne Schaltplan, realen Aufbau und Messpunkt."
-  - "Nenne mindestens eine Einheit oder einen Grenzwert."
-  - "Formuliere einen passenden Fehlerfall."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Pull-up- und Pull-down-Widerstände."
-  - "Messrichtung, Anschluss oder Bauteilrolle sind nachvollziehbar."
-  - "Die Lösung bleibt ohne Spezialgerät verständlich."
-transferIdeas:
-  - "Übertrage die Idee auf eine zweite kleine Schaltung."
-  - "Erstelle eine Mini-Checkliste für die Messung."
-reflectionPrompt: "Welcher Prüfschritt verhindert hier den wahrscheinlichsten Fehler?"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Erweitere die Grundidee zu „Pull-up- und Pull-down-Widerstände“ um einen Messfehler, einen Sicherheitscheck und eine kurze Plausibilitätsprüfung.

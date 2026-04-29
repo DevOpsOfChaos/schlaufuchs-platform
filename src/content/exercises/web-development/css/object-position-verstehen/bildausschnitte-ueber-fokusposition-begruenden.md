@@ -1,30 +1,17 @@
 ---
-title: Bildausschnitte über Fokusposition begründen
-description: Begründe, welcher Bildteil in einer festen Box sichtbar bleiben sollte und warum object-position dabei hilft.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - object-position-verstehen
-  - bildausschnitte-ueber-fokusposition-begruenden
-level: mittel
+title: "Bildausschnitte über Fokusposition begründen"
+description: "Begründe, welcher Bildteil in einer festen Box sichtbar bleiben sollte und warum object-position dabei hilft."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "object-position-verstehen", "bildausschnitte-ueber-fokusposition-begruenden"]
+taskId: "AUTO-BILDAUSSCHNITTE-UEBER-FOKUSPOSITION-BEGRUENDEN"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - css
-  - object-position
-  - bilder
-hintPoints:
-  - "Trenne zuerst Skalierung und Fokus."
-  - "Frage dich, welcher Bildteil in der Box wichtig bleibt."
-selfCheckPoints:
-  - "Kannst du object-fit und object-position trennen?"
-  - "Kannst du einen sinnvollen Blickpunkt begründen?"
-transferIdeas:
-  - "Übertrage die Logik auf Avatarbilder, Headerbilder oder Produktkarten."
-reflectionPrompt: "Woran merkst du, dass ein Bild nicht nur passen, sondern auch den richtigen Schwerpunkt zeigen soll?"
 ---
-
 ## Aufgabe 1: Fokus wählen
 
 Ein breites Foto mit einer Person rechts soll in einer schmalen Kartenbox gezeigt werden.

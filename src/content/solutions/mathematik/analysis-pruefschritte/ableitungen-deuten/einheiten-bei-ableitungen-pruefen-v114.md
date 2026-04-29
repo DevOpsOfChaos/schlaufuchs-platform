@@ -1,23 +1,14 @@
 ---
-title: Lösung – Einheiten bei Ableitungen prüfen
-description: Musterlösung zur Aufgabe über Einheiten bei Ableitungen prüfen.
-subject: mathematik
-section: Feinstruktur Mathematik
-topicPath:
-- analysis-pruefschritte
-- ableitungen-deuten
-- einheiten-bei-ableitungen-pruefen-v114
-taskId: v114-mathematik-einheiten-bei-ableitungen-pruefen-v114
-relatedExercise: mathematik/analysis-pruefschritte/ableitungen-deuten/einheiten-bei-ableitungen-pruefen-v114
-tags:
-- mathematik
-- v114
-- loesung
-- analysis-pruefschritte
-- ableitungen-deuten
+title: "Lösung – Einheiten bei Ableitungen prüfen"
+description: "Musterlösung zur Aufgabe über Einheiten bei Ableitungen prüfen."
+subject: "mathematik"
+section: "Feinstruktur Mathematik"
+topicPath: ["analysis-pruefschritte", "ableitungen-deuten", "einheiten-bei-ableitungen-pruefen-v114"]
+taskId: "v114-mathematik-einheiten-bei-ableitungen-pruefen-v114"
+relatedExercise: "mathematik/analysis-pruefschritte/ableitungen-deuten/einheiten-bei-ableitungen-pruefen-v114"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

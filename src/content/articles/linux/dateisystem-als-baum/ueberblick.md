@@ -1,30 +1,17 @@
 ---
 title: "Dateisystem als Baum"
 description: "Allgemeiner Überblick: Linux organisiert Dateien und Verzeichnisse in einer hierarchischen Baumstruktur."
-subject: linux
+subject: "linux"
 section: "Dateisystem"
-topicPath:
-  - "dateisystem-als-baum"
-learningGoals:
-  - "Du kannst dateisystem als baum als Grundidee einordnen."
-  - "Du erkennst wichtige Bestandteile und typische Grenzen."
-  - "Du kannst das Thema in einfachen Worten erklären."
+topicPath: ["dateisystem-als-baum", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur ein Detail zu betrachten und den Zusammenhang zu übersehen."
-  - "Das Schaubild als exakte technische Darstellung statt als Orientierung zu lesen."
-keyTakeaways:
-  - "Linux organisiert Dateien und Verzeichnisse in einer hierarchischen Baumstruktur."
-  - "Ein Überblicksbild hilft, Begriffe und Beziehungen ruhig zu ordnen."
-recognizeSignals:
-  - "Es geht um dateisystem als baum, Grundbegriffe, Zusammenhänge oder typische Fehlerquellen."
-selfCheckPoints:
-  - "Kann ich erklären, welche Rolle dateisystem als baum im größeren Zusammenhang spielt?"
-level: einfach
-tags:
-  - "linux"
-  - "dateisystem als baum"
-  - "überblick"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dateisystem"]
 draft: false
 ---
 # Dateisystem als Baum

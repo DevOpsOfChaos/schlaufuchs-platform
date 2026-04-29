@@ -1,46 +1,19 @@
 ---
-title: ATmega – TWI/I²C mit Open-Drain und Pull-up verstehen
-description: Verstehe, warum der AVR auf dem TWI-Bus Leitungen nicht aktiv nach oben treibt und weshalb Pull-up-Widerstände zur Grundidee des Busses gehören.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-kommunikation
-  - atmega-twi-open-drain-und-pullup-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von Open-Drain beziehungsweise offenem Kollektor als Busprinzip.
-  - Du beschreibst, warum TWI/I²C Pull-up-Widerstände braucht.
-  - Du liest Buspegel eher als gemeinsames Leitungsprinzip statt als normale Push-Pull-Ausgänge.
-practiceIdeas:
-  - Vergleiche einen normalen Ausgang mit einer TWI-Leitung.
-  - Erkläre, warum mehrere Teilnehmer dieselbe Busleitung gemeinsam nutzen können.
-  - Lies einen High-Pegel auf SDA oder SCL eher als hochgezogen statt aktiv hochgetrieben.
-commonMistakes:
-  - Zu denken, ein I²C-Bus arbeite wie zwei normale Push-Pull-Ausgänge.
-  - Pull-ups nur als Zubehör und nicht als Busbestandteil zu behandeln.
-  - High-Pegel auf dem Bus als aktives „Hochschieben“ eines einzelnen Teilnehmers zu deuten.
-keyTakeaways:
-  - TWI/I²C-Leitungen werden typischerweise nach unten aktiv gezogen, aber nicht aktiv nach oben getrieben.
-  - Pull-up-Widerstände stellen den ruhenden High-Pegel des Busses her.
-  - Gerade dadurch können mehrere Geräte dieselbe Leitung gemeinsam benutzen.
-recognizeSignals:
-  - Es geht um SDA, SCL, I²C, TWI, Pull-up oder Busleitungen.
-  - Du sollst erklären, warum auf dem Bus High oft nur „hochgezogen“ bedeutet.
-  - In Aufgaben wird ein Busverhalten eher über gemeinsame Leitungen als über Einzelausgänge beschrieben.
-selfCheckPoints:
-  - Kann ich Open-Drain und Push-Pull sauber trennen?
-  - Kann ich erklären, warum der Bus Pull-ups braucht?
-  - Kann ich beschreiben, warum mehrere Teilnehmer dieselbe Leitung gemeinsam nutzen können?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - twi
-  - i2c
-level: mittel
+title: "ATmega – TWI/I²C mit Open-Drain und Pull-up verstehen"
+description: "Verstehe, warum der AVR auf dem TWI-Bus Leitungen nicht aktiv nach oben treibt und weshalb Pull-up-Widerstände zur Grundidee des Busses gehören."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-twi-open-drain-und-pullup-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 TWI beziehungsweise I²C arbeitet nicht wie eine gewöhnliche Leitung, auf der ein Gerät einfach „0“ oder „1“ aktiv herausdrückt. Stattdessen ist der Bus so gedacht, dass Teilnehmer die Leitung **aktiv nach unten ziehen** können. Nach oben geht sie wieder über **Pull-up-Widerstände**.

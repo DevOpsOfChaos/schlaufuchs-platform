@@ -3,24 +3,12 @@ title: "Lösung: Ausreißer und Anomalien: Aufgabe B"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-029b im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "auswertung-und-kommunikation"
-  - "ausreisser-und-anomalien"
-  - "loesung-b"
-
+topicPath: ["sanierung-v195", "ausreisser-und-anomalien-loesung-b"]
 taskId: "daten-und-signale-v195-029b"
 relatedExercise: "daten-und-signale/sanierung-v195/ausreisser-und-anomalien-aufgabe-b"
-tags:
-  - "ausreisser"
-  - "anomalien"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-029b`
 
 Ausgangsauftrag: Übertrage das Thema Ausreißer und Anomalien auf ein zweites Beispiel und formuliere eine kurze Prüfung.

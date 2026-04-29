@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Verschlüsselung, Hashing und Signaturen"
 description: "Allgemeiner Überblick über verschlüsselung, hashing und signaturen in der Informatik."
-subject: informatik
+subject: "informatik"
 section: "Sicherheit und Berechtigungen"
-topicPath:
-  - "sicherheit-und-berechtigungen"
-  - "verschluesselung-hashing-und-signaturen"
-  - "ueberblick"
-learningGoals:
-  - "Du erklärst, wie unterschiedliche kryptografische Grundideen verschiedene Aufgaben lösen."
-  - "Du ordnest typische Beispiele und Grenzen des Themas ein."
-  - "Du unterscheidest Grundidee, Anwendung und häufige Fehler."
-practiceIdeas:
-  - "Formuliere die Grundidee in drei Sätzen ohne Spezialfall."
-  - "Ordne ein eigenes Beispiel dem passenden Teilaspekt zu."
-commonMistakes:
-  - "Hashing als Verschlüsselung bezeichnen"
-  - "Schlüsselverwaltung ignorieren"
-  - "Prüfsumme mit Sicherheit gleichsetzen"
-keyTakeaways:
-  - "Verschlüsselung, Hashing und Signaturen braucht zuerst eine klare begriffliche Einordnung."
-  - "Beispiele helfen nur, wenn ihr Kontext bekannt ist."
-  - "Gute Informatikarbeit trennt Modell, Umsetzung und Prüfung."
-recognizeSignals:
-  - "Ein Thema wirkt wie ein Einzelfall, braucht aber zuerst einen allgemeinen Rahmen."
-  - "Mehrere Beispiele zeigen dieselbe Grundidee aus verschiedenen Blickwinkeln."
-selfCheckPoints:
-  - "Kann ich Grundidee und Beispiel unterscheiden?"
-  - "Kann ich typische Fehler nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "sicherheit-und-berechtigungen"
-  - "verschluesselung-hashing-und-signaturen"
+topicPath: ["sicherheit-und-berechtigungen", "verschluesselung-hashing-und-signaturen", "ueberblick", "grundlagen-verschluesselung-hashing-und-signaturen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Sicherheit und Berechtigungen"]
 draft: false
 ---
-
 ![Schaubild: Verschlüsselung, Hashing und Signaturen](/schlaufuchs-platform/images/overviews/v185/verschluesselung-hashing-und-signaturen.svg)
 
 ## Begriff

@@ -1,15 +1,14 @@
 ---
-title: Nullstellen sinnvoll deuten – Lösung A
-description: Musterlösung zu Nullstellen sinnvoll deuten mit Kontrolle.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Nullstellen sinnvoll deuten – Lösung A"
+description: "Musterlösung zu Nullstellen sinnvoll deuten mit Kontrolle."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "funktionen-im-vergleich", "nullstellen-sinnvoll-deuten"]
 taskId: "mat-v196-nullstellen-sinnvoll-deuten-a"
 relatedExercise: "mathematik/sanierung-v196/nullstellen-sinnvoll-deuten-aufgabe-a"
 tags: ["mathematik", "v196", "funktionen-im-vergleich", "nullstellen-sinnvoll-deuten"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine passende Lösung zu dieser Aufgabe muss nicht exakt dieselben Zahlen oder Beispiele verwenden. Entscheidend ist der saubere Aufbau.

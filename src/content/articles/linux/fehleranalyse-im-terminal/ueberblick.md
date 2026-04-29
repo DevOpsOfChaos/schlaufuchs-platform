@@ -1,33 +1,17 @@
 ---
 title: "Fehleranalyse im Terminal"
 description: "Überblick über systematische Fehleranalyse im Terminal anhand von Meldungen, Exit-Codes, Logs und Kontext."
-subject: linux
+subject: "linux"
 section: "Fehlersuche"
-topicPath:
-  - "fehleranalyse-im-terminal"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Fehleranalyse im Terminal als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["fehleranalyse-im-terminal", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Viele Fehlermeldungen werden überflogen. Oft stehen aber genau dort Pfad, Berechtigung, fehlender Befehl oder falscher Parameter."
-keyTakeaways:
-  - "Fehleranalyse im Terminal verbindet sichtbare Meldungen mit reproduzierbaren Schritten und zusätzlichen Quellen wie Logs oder Exit-Codes."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um fehleranalyse im terminal, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich fehleranalyse im terminal in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "fehleranalyse im terminal"
-  - "überblick"
-  - "fehlermeldung"
-  - "minimalbeispiel"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Fehlersuche"]
 draft: false
 ---
 # Fehleranalyse im Terminal

@@ -3,24 +3,12 @@ title: "Lösung: Echtzeit und Batchverarbeitung: Aufgabe B"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-031b im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "auswertung-und-kommunikation"
-  - "echtzeit-und-batchverarbeitung"
-  - "loesung-b"
-
+topicPath: ["sanierung-v195", "echtzeit-und-batchverarbeitung-loesung-b"]
 taskId: "daten-und-signale-v195-031b"
 relatedExercise: "daten-und-signale/sanierung-v195/echtzeit-und-batchverarbeitung-aufgabe-b"
-tags:
-  - "echtzeit"
-  - "batchverarbeitung"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-031b`
 
 Ausgangsauftrag: Übertrage das Thema Echtzeit und Batchverarbeitung auf ein zweites Beispiel und formuliere eine kurze Prüfung.

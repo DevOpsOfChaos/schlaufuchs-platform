@@ -1,34 +1,19 @@
 ---
 title: "Software-Entwurfsmuster"
 description: "Überblick über wiederkehrende Lösungsformen für typische Entwurfsprobleme in Software."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "software-entwurfsmuster"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["software-entwurfsmuster", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Muster einzusetzen, weil sie bekannt klingen, nicht weil das Problem sie verlangt."
-keyTakeaways:
-  - "Entwurfsmuster geben wiederkehrenden Lösungsformen Namen, sollten aber problembezogen eingesetzt werden."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn ähnliche Strukturprobleme wiederholt auftreten oder Komponenten entkoppelt werden sollen."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "softwaredesign"
-  - "muster"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Software-Entwurfsmuster
 
 Software-Entwurfsmuster beschreiben bewährte Strukturen für wiederkehrende Probleme im Softwareentwurf. Sie geben Namen für Lösungsformen, damit Teams über Architekturentscheidungen sprechen können.

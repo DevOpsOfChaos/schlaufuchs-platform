@@ -1,34 +1,19 @@
 ---
 title: "Lineare Funktionen"
 description: "Allgemeiner Überblick über lineare Funktionen, Steigung, Startwert und ihre graphische Bedeutung."
-subject: mathematik
+subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "lineare-funktionen"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst lineare Funktionen als Zusammenhänge mit gleichmäßiger Änderung."
-  - "Du kannst Steigung und Startwert einordnen."
-  - "Du verstehst die Gerade als Graph einer linearen Funktion."
+topicPath: ["lineare-funktionen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Steigung und y-Achsenabschnitt zu vertauschen."
-  - "Jede Gerade ohne Kontext als sinnvolles Modell zu betrachten."
-keyTakeaways:
-  - "Lineare Funktionen haben eine konstante Änderungsrate."
-  - "Die Steigung beschreibt Veränderung pro Schritt, der Startwert den Wert bei `x = 0`."
-recognizeSignals:
-  - "Es geht um Geraden, Steigung, Startwert, proportionale oder affine Zusammenhänge."
-selfCheckPoints:
-  - "Kann ich aus zwei Punkten die gleichmäßige Änderung beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "lineare funktionen"
-  - "steigung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
-
 # Lineare Funktionen
 
 ![Schaubild zu linearen Funktionen.](/schlaufuchs-platform/images/overviews/v148/lineare-funktionen.svg)

@@ -3,24 +3,12 @@ title: "Lösung: Redundanz und Fehlerkorrektur: Aufgabe B"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-016b im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "fehler-und-robustheit"
-  - "redundanz-und-fehlerkorrektur"
-  - "loesung-b"
-
+topicPath: ["sanierung-v195", "redundanz-und-fehlerkorrektur-loesung-b"]
 taskId: "daten-und-signale-v195-016b"
 relatedExercise: "daten-und-signale/sanierung-v195/redundanz-und-fehlerkorrektur-aufgabe-b"
-tags:
-  - "redundanz"
-  - "fehlerkorrektur"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-016b`
 
 Ausgangsauftrag: Übertrage das Thema Redundanz und Fehlerkorrektur auf ein zweites Beispiel und formuliere eine kurze Prüfung.

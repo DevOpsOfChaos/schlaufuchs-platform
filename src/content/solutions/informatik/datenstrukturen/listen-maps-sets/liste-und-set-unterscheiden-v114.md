@@ -1,23 +1,14 @@
 ---
-title: Lösung – Liste und Set unterscheiden
-description: Musterlösung zur Aufgabe über Liste und Set unterscheiden.
-subject: informatik
-section: Feinstruktur Informatik
-topicPath:
-- datenstrukturen
-- listen-maps-sets
-- liste-und-set-unterscheiden-v114
-taskId: v114-informatik-liste-und-set-unterscheiden-v114
-relatedExercise: informatik/datenstrukturen/listen-maps-sets/liste-und-set-unterscheiden-v114
-tags:
-- informatik
-- v114
-- loesung
-- datenstrukturen
-- listen-maps-sets
+title: "Lösung – Liste und Set unterscheiden"
+description: "Musterlösung zur Aufgabe über Liste und Set unterscheiden."
+subject: "informatik"
+section: "Feinstruktur Informatik"
+topicPath: ["datenstrukturen", "listen-maps-sets", "liste-und-set-unterscheiden-v114"]
+taskId: "v114-informatik-liste-und-set-unterscheiden-v114"
+relatedExercise: "informatik/datenstrukturen/listen-maps-sets/liste-und-set-unterscheiden-v114"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

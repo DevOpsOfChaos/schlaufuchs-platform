@@ -1,48 +1,19 @@
 ---
 title: "ATmega – Reset, Brown-out und Startverhalten verstehen"
 description: "Lerne, warum Reset und Brown-out keine lästigen Sonderfälle sind, sondern den Mikrocontroller vor undefiniertem Startverhalten schützen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - reset-brown-out-und-startverhalten
-learningGoals:
-  - "Du erklärst, warum ein Reset den Controller in einen definierten Anfangszustand bringt."
-  - "Du beschreibst, was Brown-out-Überwachung bei zu niedriger Versorgungsspannung leisten kann."
-  - "Du unterscheidest Resetursache, Startverzögerung und eigentliche Programmlogik."
-practiceIdeas:
-  - "Vergleiche Power-on-Reset, externen Reset und Brown-out an einem Beispiel."
-  - "Notiere, welche Zustände beim Start einer Maschine sicher sein müssen."
-  - "Begründe, warum Brown-out kein Ersatz für eine stabile Versorgung ist."
-commonMistakes:
-  - "Brown-out als Spannungsregler zu verstehen."
-  - "Reset nur als Fehler statt als Schutzmechanismus zu sehen."
-  - "Ausgänge beim Start nicht bewusst sicher vorzubelegen."
-keyTakeaways:
-  - "Reset sorgt für einen definierten Neustart."
-  - "Brown-out kann verhindern, dass der Controller bei zu niedriger Spannung unkontrolliert weiterläuft."
-  - "Sicheres Startverhalten muss im Hardware- und Softwareentwurf mitgedacht werden."
-recognizeSignals:
-  - "Es geht um Start, Neustart, Resetpin, Versorgungseinbruch oder Brown-out-Fuse."
-  - "Ein Ausgang darf beim Einschalten nicht kurz falsch schalten."
-  - "Ein Controller verhält sich nach langsam ansteigender Versorgung anders als erwartet."
-selfCheckPoints:
-  - "Kann ich Reset und Brown-out voneinander unterscheiden?"
-  - "Kann ich erklären, warum ein sicherer Startzustand wichtig ist?"
-  - "Kann ich Brown-out als Schutz und nicht als Reparatur der Versorgung lesen?"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - reset
-  - brown-out
-  - startverhalten
-  - sicherheit
-level: mittel
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "reset-brown-out-und-startverhalten"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Reset und Brown-out wirken im ersten Moment wie Randthemen. In echten Schaltungen entscheiden sie aber darüber, ob ein Mikrocontroller sauber startet oder bei schlechter Versorgung in halbgültigen Zuständen weiterarbeitet.

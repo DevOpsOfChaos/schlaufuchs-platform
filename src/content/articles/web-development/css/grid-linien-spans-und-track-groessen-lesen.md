@@ -1,44 +1,19 @@
 ---
-title: Grid-Linien, Spans und Track-Größen lesen
-description: Verstehe, wie Grid-Linien, span-Angaben und Spaltengrößen zusammenspielen, damit du Grid-Layouts ruhiger lesen kannst.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - grid-linien-spans-und-track-groessen-lesen
-learningGoals:
-  - Du erklärst Grid-Linien als Bezugspunkte im Raster.
-  - Du unterscheidest feste Größen, flexible Größen und span-Angaben.
-  - Du liest einfache grid-column- und grid-row-Angaben systematischer.
-practiceIdeas:
-  - Beschreibe, von welcher Linie bis zu welcher Linie ein Item reicht.
-  - Vergleiche eine feste Spalte mit einer flexiblen fr-Spalte.
-  - Prüfe, was <code>span 2</code> im Rasterbild bedeutet.
-commonMistakes:
-  - Spaltenbreite und Liniennummer zu vermischen.
-  - span als absolute Zielposition statt als Streckung zu lesen.
-  - fr, Prozent und Pixel wie identische Größenarten zu behandeln.
-keyTakeaways:
-  - Linien sind Bezugspunkte, keine Inhalte.
-  - span beschreibt, über wie viele Spalten oder Zeilen sich ein Item erstreckt.
-  - Track-Größen können fest, prozentual oder flexibel sein.
-recognizeSignals:
-  - Du siehst <code>grid-column</code>, <code>grid-row</code>, <code>span</code>, <code>px</code>, <code>%</code> oder <code>fr</code>.
-  - Du sollst erklären, wie breit oder wie weit ein Bereich im Raster reicht.
-  - Ein Item wird nicht nur in eine Zelle gesetzt, sondern über mehrere Felder gezogen.
-selfCheckPoints:
-  - Kann ich Grid-Linien als Rastergrenzen erklären?
-  - Kann ich <code>span</code> fachlich sauber beschreiben?
-  - Kann ich feste und flexible Track-Größen grob unterscheiden?
-tags:
-  - css
-  - grid
-  - span
-  - tracks
-level: mittel
+title: "Grid-Linien, Spans und Track-Größen lesen"
+description: "Verstehe, wie Grid-Linien, span-Angaben und Spaltengrößen zusammenspielen, damit du Grid-Layouts ruhiger lesen kannst."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "grid-linien-spans-und-track-groessen-lesen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 In CSS Grid wird nicht nur mit "Spalte 1" oder "Zeile 2" gedacht, sondern mit **Rasterlinien**. Diese Linien begrenzen die Spalten und Zeilen. Ein Element kann zwischen Linien liegen oder sich über mehrere Bereiche spannen.

@@ -1,36 +1,19 @@
 ---
 title: "URL und Adressen im Web"
 description: "Überblick über URLs als Adressen für Ressourcen im Web."
-subject: web-development
+subject: "web-development"
 section: "Web-Grundlagen"
-topicPath:
-  - "url-und-adressen-im-web"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst URL und Adressen im Web als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["url-und-adressen-im-web", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Query-Parameter für zustandskritische Informationen missbraucht oder URLs ohne Encoding zusammengebaut."
-keyTakeaways:
-  - "URLs adressieren Ressourcen im Web."
-  - "Stabile, lesbare URLs verbessern Orientierung und Wartbarkeit."
-  - "URL-Pfade sind nicht automatisch Dateipfade."
-recognizeSignals:
-  - "Es geht um URL und Adressen im Web als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich URL und Adressen im Web in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "web development"
-  - "url"
-  - "web"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web-Grundlagen"]
 draft: false
 ---
-
 # URL und Adressen im Web
 
 Eine URL beschreibt, wo eine Ressource im Web erreichbar ist und wie sie angesprochen wird. Sie enthält typischerweise Schema, Domain, Pfad und optional weitere Teile wie Query-Parameter oder Fragment. URLs sind damit eine zentrale Verbindung zwischen Browser, Server und Anwendung.

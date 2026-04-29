@@ -1,47 +1,19 @@
 ---
-title: Verschachtelte Kontrollstrukturen ruhig lesen
-description: Verstehe, wie if- oder Schleifenblöcke ineinander liegen und warum ein schrittweises Lesen dabei wichtiger ist als Tempo.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - kontrollstrukturen
-  - verschachtelte-kontrollstrukturen-ruhig-lesen
-learningGoals:
-  - Du erklärst, was "verschachtelt" bei Kontrollstrukturen bedeutet.
-  - Du liest äußere und innere Bedingung oder Wiederholung sauber getrennt.
-  - Du vermeidest das Vermischen von Ebenen im Code.
-practiceIdeas:
-  - Markiere in kleinen Codebeispielen zuerst äußere und danach innere Blöcke.
-  - Beschreibe bei einer verschachtelten if-Struktur die Prüfungen nacheinander in Worten.
-  - Lies bei einer Schleife mit innerem if zuerst die Wiederholung und dann die Auswahl.
-commonMistakes:
-  - Innere und äußere Struktur gleichzeitig lesen zu wollen.
-  - Zu übersehen, zu welchem Block eine Anweisung gehört.
-  - Eine verschachtelte Struktur für "kompliziert" zu halten, obwohl nur zwei Ebenen getrennt gelesen werden müssen.
-keyTakeaways:
-  - "Verschachtelung bedeutet: Eine Struktur liegt innerhalb einer anderen."
-  - Äußere und innere Ebene sollten nacheinander gelesen werden.
-  - Gute Blocklogik wird über Klammern und Einrückung sichtbar.
-recognizeSignals:
-  - Es geht um if in if, Schleife in Schleife oder if innerhalb einer Schleife.
-  - Du sollst mehrere Ebenen im Ablauf sauber trennen.
-  - In Beispielen musst du sagen, welche Prüfung zuerst wirkt.
-selfCheckPoints:
-  - Kann ich äußeren und inneren Block unterscheiden?
-  - Kann ich die Reihenfolge der Prüfungen erklären?
-  - Kann ich Anweisungen dem richtigen Block zuordnen?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - kontrollstrukturen
-  - verschachtelung
+title: "Verschachtelte Kontrollstrukturen ruhig lesen"
+description: "Verstehe, wie if- oder Schleifenblöcke ineinander liegen und warum ein schrittweises Lesen dabei wichtiger ist als Tempo."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "verschachtelte-kontrollstrukturen-ruhig-lesen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 "Verschachtelt" bedeutet in der Programmierung: Eine Kontrollstruktur liegt innerhalb einer anderen. Zum Beispiel kann in einer Schleife ein <code>if</code> stehen oder in einem <code>if</code> noch ein weiteres <code>if</code>.

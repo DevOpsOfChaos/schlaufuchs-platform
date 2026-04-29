@@ -1,22 +1,14 @@
 ---
 title: "Lösung: Knoten und Maschen lesen"
 description: "Lösung zur Aufgabe über Knoten, Maschen und Bilanzdenken."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektronik"
-topicPath:
-  - "elektronik"
-  - "kirchhoffsche-regeln"
-  - "knoten-und-maschen-lesen"
+topicPath: ["elektronik", "kirchhoffsche-regeln", "knoten-und-maschen-lesen"]
 taskId: "ET-EL-KIRCHHOFF-001"
 relatedExercise: "src/content/exercises/elektrotechnik/elektronik/kirchhoffsche-regeln/knoten-und-maschen-lesen.md"
-tags:
-  - "elektrotechnik"
-  - "kirchhoff"
-  - "knoten"
-  - "maschen"
+tags: ["elektrotechnik", "Elektronik", "loesung"]
 draft: false
 ---
-
 ## Lösungsgedanke
 
 Diese Lösung ist bewusst als Musterlösung aufgebaut. Sie zeigt nicht nur ein Ergebnis, sondern die fachliche Begründung, damit die Aufgabe später nachvollziehbar kontrolliert werden kann.

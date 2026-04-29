@@ -1,25 +1,14 @@
 ---
-title: Musterlösung – Abbruch und Fortsetzung im Ablauf begründen
-description: Musterlösung zur Aufgabe INF-PROG-CPP-FLOW-001.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - kontrollfluss-und-abbruch
-  - break-continue-und-return-unterscheiden
-  - abbruch-und-fortsetzung-im-ablauf-begruenden-loesung
-taskId: INF-PROG-CPP-FLOW-001
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/break-continue-und-return-unterscheiden/abbruch-und-fortsetzung-im-ablauf-begruenden.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – Abbruch und Fortsetzung im Ablauf begründen"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-FLOW-001."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "break-continue-und-return-unterscheiden", "abbruch-und-fortsetzung-im-ablauf-begruenden"]
+taskId: "INF-PROG-CPP-FLOW-001"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/break-continue-und-return-unterscheiden/abbruch-und-fortsetzung-im-ablauf-begruenden.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Wirkung zuordnen
 
 - überspringt nur den restlichen Teil des aktuellen Schleifendurchlaufs → <code>continue</code>

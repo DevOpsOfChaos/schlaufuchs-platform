@@ -3,47 +3,17 @@ title: "Web-Projektpraxis – Visuelle Regressionen in kleinen Schritten prüfen
 description: "Prüfe nach UI-Änderungen gezielt, ob bestehende Seiten ungewollt verrutschen, verschwinden oder unlesbar werden."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "tests-und-review"
-  - "visuelle-regressionen-in-kleinen-schritten-pruefen"
-learningGoals:
-  - "Du erklärst die Kernidee von „UI-Prüfung“ in eigenen Worten."
-  - "Du ordnest das Thema einem klaren Unterthema zu statt es in einem Sammelbereich zu verlieren."
-  - "Du leitest eine kleine Gegenprobe für echte Aufgaben oder Projekte ab."
-practiceIdeas:
-  - "Markiere zuerst, welche Unterfrage wirklich gestellt ist."
-  - "Notiere eine typische Fehlannahme und eine passende Gegenprobe."
-  - "Übertrage die Denkbewegung auf ein zweites kleines Beispiel."
-commonMistakes:
-  - "nur Desktop prüfen"
-  - "Screenshots ohne Bewertung sammeln"
-  - "jede Abweichung sofort groß umbauen"
-keyTakeaways:
-  - "UI-Prüfung wird klarer, wenn Zustand, Ursache und Prüfschritt getrennt werden."
-  - "Kleine Unterthemen sind leichter auffindbar und besser prüfbar als breite Sammelordner."
-  - "Eine gute Erklärung endet mit einer konkreten Gegenprobe."
-recognizeSignals:
-  - "Die Aufgabe enthält einen scheinbar kleinen Sonderfall oder Fehlerzustand."
-  - "Es muss zwischen Begriffen unterschieden werden, die im Alltag leicht vermischt werden."
-  - "Eine Entscheidung soll begründet und nicht nur auswendig angewendet werden."
-selfCheckPoints:
-  - "Kann ich das Unterthema mit einem Satz von Nachbarthemen abgrenzen?"
-  - "Kann ich einen typischen Fehler benennen?"
-  - "Kann ich eine konkrete Prüfung oder Rechnung anschließen?"
-tags:
-  - "web development"
-  - "html"
-  - "css"
-  - "javascript"
-  - "ux"
-  - "ui-prüfung"
-  - "projektpraxis"
-  - "tests-und-review"
+topicPath: ["projektpraxis", "tests-und-review", "visuelle-regressionen-in-kleinen-schritten-pruefen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "Projektpraxis"]
 draft: false
 ---
-
 ## Grundidee
 
 Eine scheinbar kleine CSS-Änderung kann an anderer Stelle Layout, Fokus oder Lesbarkeit verändern. Gute Prüfung vergleicht deshalb nicht nur die neue Komponente, sondern auch wichtige Nachbarseiten.

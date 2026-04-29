@@ -3,22 +3,12 @@ title: "Lösung: Verlustfrei und verlustbehaftet: Grundordnung"
 description: "Musterlösung zur Aufgabe dat-v189-049a."
 subject: "daten-und-signale"
 section: "speicherung"
-topicPath:
-  - "speicherung"
-  - "verlustfrei-und-verlustbehaftet"
-  - "loesung-a"
+topicPath: ["sanierung-v189", "verlustfrei-und-verlustbehaftet-aufgabe-a"]
 taskId: "dat-v189-049a"
 relatedExercise: "daten-und-signale/sanierung-v189/verlustfrei-und-verlustbehaftet-aufgabe-a"
-tags:
-  - "verlustfrei"
-  - "verlustbehaftet"
-  - "kompression"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "speicherung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-049a`
 
 Eine mögliche Lösung:

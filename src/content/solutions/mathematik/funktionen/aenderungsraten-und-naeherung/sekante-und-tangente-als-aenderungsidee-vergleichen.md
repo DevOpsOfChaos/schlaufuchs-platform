@@ -3,22 +3,12 @@ title: "Lösung – Sekante und Tangente als Änderungsidee vergleichen"
 description: "Musterlösung zur Aufgabe über Änderungsrate mit Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Analysis"
-topicPath:
-  - "funktionen"
-  - "aenderungsraten-und-naeherung"
-  - "sekante-und-tangente-als-aenderungsidee-vergleichen"
+topicPath: ["funktionen", "aenderungsraten-und-naeherung", "sekante-und-tangente-als-aenderungsidee-vergleichen"]
 taskId: "v106-mathematik-sekante-und-tangente-als-aenderungsidee-vergleichen"
 relatedExercise: "mathematik/funktionen/aenderungsraten-und-naeherung/sekante-und-tangente-als-aenderungsidee-vergleichen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "daten"
-  - "funktionen"
-  - "änderungsrate"
-  - "aenderungsraten-und-naeherung"
+tags: ["mathematik", "Analysis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Beobachtung

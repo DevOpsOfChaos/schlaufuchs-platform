@@ -3,35 +3,15 @@ title: "Aufgabe – Spannungsteiler unter Last erkennen"
 description: "Übe Spannungsteiler unter Last erkennen mit Einordnung, Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "elektrotechnik"
 section: "Grundschaltungen"
-topicPath:
-  - "grundschaltungen"
-  - "spannung-strom-widerstand"
-  - "v110-teil-1"
-  - "spannungsteiler-unter-last-erkennen"
+topicPath: ["grundschaltungen", "spannung-strom-widerstand", "v110-teil-1", "spannungsteiler-unter-last-erkennen"]
 taskId: "v110-elektrotechnik-spannungsteiler-unter-last-erkennen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "grundschaltungen"
-  - "spannung-strom-widerstand"
-  - "spannungsteiler-unter-last-erkennen"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Vergleiche das Thema mit einem Nachbarthema und nenne die Trennkante."
-reflectionPrompt: "Welche kleine Trennkante macht Spannungsteiler unter Last erkennen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["elektrotechnik", "Grundschaltungen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Spannungsteiler unter Last erkennen**.

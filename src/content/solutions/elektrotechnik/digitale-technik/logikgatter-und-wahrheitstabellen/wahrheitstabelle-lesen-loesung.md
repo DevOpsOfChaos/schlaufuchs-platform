@@ -1,21 +1,14 @@
 ---
 title: "Lösung: Wahrheitstabellen lesen"
 description: "Musterlösung zu: Wahrheitstabellen lesen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Digitale Technik"
-topicPath:
-  - "digitale-technik"
-  - "logikgatter-und-wahrheitstabellen"
+topicPath: ["digitale-technik", "logikgatter-und-wahrheitstabellen", "wahrheitstabelle-lesen"]
 taskId: "ET-DIGI-LOGIK-179-001"
 relatedExercise: "src/content/exercises/elektrotechnik/digitale-technik/logikgatter-und-wahrheitstabellen/wahrheitstabelle-lesen.md"
-tags:
-  - "elektrotechnik"
-  - "logikgatter"
-  - "wahrheitstabelle"
-  - "loesung"
+tags: ["elektrotechnik", "Digitale Technik", "loesung"]
 draft: false
 ---
-
 ## Lösungsgedanke
 
 Diese Musterlösung trennt zuerst Begriff, Schaltungszusammenhang und Begründung. Dadurch wird nicht nur ein Ergebnis genannt, sondern der fachliche Weg sichtbar.

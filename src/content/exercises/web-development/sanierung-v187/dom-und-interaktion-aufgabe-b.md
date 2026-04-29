@@ -3,34 +3,15 @@ title: "DOM und Interaktion: Prüfung und Verbesserung"
 description: "Plane eine kleine Klassenumschaltung für eine Hinweisbox mit offenem und geschlossenem Zustand."
 subject: "web-development"
 section: "javascript"
-topicPath: 
-  - "javascript-und-interaktion"
-  - "dom"
-  - "aufgabe-b"
+topicPath: ["sanierung-v187", "dom-und-interaktion-aufgabe-b"]
 taskId: "web-v187-021b"
-tags: 
-  - "dom"
-  - "javascript"
-  - "interaktion"
-  - "web-development"
-  - "aufgabe"
-  - "v187"
-hintPoints: 
-  - "Trenne Zweck, Struktur und sichtbare Wirkung."
-  - "Begründe mindestens eine Entscheidung mit dem Nutzerziel."
-  - "Prüfe einen typischen Fehlerfall aus der Erklärseite."
-selfCheckPoints: 
-  - "Die Lösung passt zur Aufgabenstellung."
-  - "Mindestens eine Entscheidung ist begründet."
-  - "Es gibt keine neue Aufgabe ohne passende Lösung."
-transferIdeas: 
-  - "Übertrage die Entscheidung auf eine zweite kleine Seite."
-  - "Formuliere eine kurze Checkliste für spätere Wiederholung."
-reflectionPrompt: "Welche Entscheidung war am wichtigsten, damit die Lösung ruhig und wartbar bleibt?"
+tags: ["web-development", "javascript", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Plane eine kleine Klassenumschaltung für eine Hinweisbox mit offenem und geschlossenem Zustand.

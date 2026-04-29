@@ -1,46 +1,19 @@
 ---
-title: ATmega – Timer und Prescaler verstehen
-description: Verstehe, warum ein Timer nicht direkt „Sekunden zählt“, sondern Taktsignale mit Prescaler und Zählerstand in eine Zeitbasis übersetzt.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - zeitbasis-und-timer
-  - atmega-timer-und-prescaler-verstehen
-learningGoals:
-  - Du erklärst die Grundidee eines Timers als Zähler für Taktereignisse.
-  - Du beschreibst die Rolle des Prescalers als Taktteiler.
-  - Du liest einfache Timer-Konfigurationen ruhiger über Zeitbasis statt nur über Registerkürzel.
-practiceIdeas:
-  - Übersetze einen Timeraufbau zuerst in Worte und dann in Zahlen.
-  - Vergleiche denselben CPU-Takt mit verschiedenen Prescalern.
-  - Prüfe, wie schnell ein 8-Bit-Timer überläuft.
-commonMistakes:
-  - Zu denken, ein Timer messe Zeit direkt ohne Bezug zum Takt.
-  - Den Prescaler als „irgendeine Wartefunktion“ zu missverstehen.
-  - Timerstand, Taktfrequenz und Überlaufzeit durcheinanderzubringen.
-keyTakeaways:
-  - Ein Timer zählt Taktereignisse.
-  - Der Prescaler teilt den Eingangstakt und macht langsamere Zeitbasen möglich.
-  - Erst aus Takt, Prescaler und Zählerbreite ergibt sich eine reale Zeitspanne.
-recognizeSignals:
-  - Es geht um TCCR0, TCNT0, Prescaler oder Überlauf.
-  - Du sollst erklären, warum ein Timer schneller oder langsamer läuft.
-  - In Aufgaben müssen Registerwerte in Zeitvorstellungen übersetzt werden.
-selfCheckPoints:
-  - Kann ich Timer, Prescaler und Überlaufzeit unterscheiden?
-  - Kann ich erklären, warum derselbe Timer mit anderem Prescaler anders schnell zählt?
-  - Kann ich aus Takt und Zählerbreite eine grobe Zeitabschätzung machen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - timer
-  - prescaler
-level: mittel
+title: "ATmega – Timer und Prescaler verstehen"
+description: "Verstehe, warum ein Timer nicht direkt „Sekunden zählt“, sondern Taktsignale mit Prescaler und Zählerstand in eine Zeitbasis übersetzt."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-timer-und-prescaler-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 AVR-Timer zählen nicht „Sekunden“, sondern Taktimpulse. Ein Prescaler teilt den eingehenden Takt herunter, bevor der Timer zählt. Genau diese Logik ist die Grundlage für Überläufe, Compare-Matches und einfache Zeitbasen.
 
 <div class="example-card">

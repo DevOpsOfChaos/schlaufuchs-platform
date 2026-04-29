@@ -1,21 +1,14 @@
 ---
-title: Loesung – Konstruktorreihenfolge in einer Vererbung beschreiben
-description: Musterloesung zur Aufgabe ueber Basisklasse, Unterklasse und Reihenfolge.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - konstruktoraufrufe-in-vererbung-ruhig-lesen
-taskId: INF-PROG-OOP-009
-relatedExercise: informatik/programmierung/oop/konstruktoraufrufe-in-vererbung-ruhig-lesen/konstruktorreihenfolge-in-einer-vererbung-beschreiben
-tags:
-  - informatik
-  - oop
-  - loesung
+title: "Loesung – Konstruktorreihenfolge in einer Vererbung beschreiben"
+description: "Musterloesung zur Aufgabe ueber Basisklasse, Unterklasse und Reihenfolge."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "konstruktoraufrufe-in-vererbung-ruhig-lesen", "konstruktorreihenfolge-in-einer-vererbung-beschreiben"]
+taskId: "INF-PROG-OOP-009"
+relatedExercise: "informatik/programmierung/oop/konstruktoraufrufe-in-vererbung-ruhig-lesen/konstruktorreihenfolge-in-einer-vererbung-beschreiben"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterloesung
 
 ### Aufgabe 1

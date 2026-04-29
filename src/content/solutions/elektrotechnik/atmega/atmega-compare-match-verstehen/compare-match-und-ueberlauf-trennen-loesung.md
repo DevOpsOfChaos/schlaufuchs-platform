@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Compare Match und Überlauf trennen
-description: Musterlösung zur Aufgabe ET-ATMEGA-TMR-205.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - zeitbasis-und-timer
-  - atmega-compare-match-verstehen
-  - compare-match-und-ueberlauf-trennen-loesung
-taskId: ET-ATMEGA-TMR-205
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-compare-match-verstehen/compare-match-und-ueberlauf-trennen.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - loesung
+title: "Musterlösung – Compare Match und Überlauf trennen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-TMR-205."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-compare-match-verstehen", "compare-match-und-ueberlauf-trennen"]
+taskId: "ET-ATMEGA-TMR-205"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-compare-match-verstehen/compare-match-und-ueberlauf-trennen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Beim Überlauf zählt der Timer bis an seine maximale Zählergrenze und springt dann zurück. Beim Compare Match wird ein Ereignis schon dann ausgelöst, wenn der aktuelle Zählerstand einem vorher gesetzten Vergleichswert entspricht. Beide Fälle benutzen also denselben Timer, aber unterschiedliche Auslösegrenzen.

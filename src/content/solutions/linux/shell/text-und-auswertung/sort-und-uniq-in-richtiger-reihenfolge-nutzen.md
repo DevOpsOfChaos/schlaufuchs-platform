@@ -3,21 +3,12 @@ title: "Lösung – sort und uniq in richtiger Reihenfolge nutzen"
 description: "Musterlösung zu sort und uniq in richtiger reihenfolge nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "text-und-auswertung"
-  - "sort-und-uniq-in-richtiger-reihenfolge-nutzen"
+topicPath: ["shell", "text-und-auswertung", "sort-und-uniq-in-richtiger-reihenfolge-nutzen"]
 taskId: "v112-linux-sort-und-uniq-in-richtiger-reihenfolge-nutzen"
 relatedExercise: "linux/shell/text-und-auswertung/sort-und-uniq-in-richtiger-reihenfolge-nutzen"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "sort-und-uniq-in-richtiger-reihenfolge-nutzen"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Text und Auswertung**.

@@ -3,46 +3,17 @@ title: "Linux – systemctl start und enable unterscheiden"
 description: "Lerne start und enable als klar abgegrenztes Unterthema mit Beispiel, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "System"
-topicPath:
-  - "system"
-  - "dienste-und-systemd"
-  - "start-enable"
-  - "systemctl-start-und-enable-unterscheiden"
-learningGoals:
-  - "Du erklärst start und enable in einem klar abgegrenzten Kontext."
-  - "Du erkennst die typische Verwechslung mit einem Nachbarthema."
-  - "Du nutzt einen konkreten Prüfschritt statt einer breiten Sammelantwort."
-practiceIdeas:
-  - "Baue ein eigenes Mini-Beispiel mit verändertem Wert oder Zustand."
-  - "Notiere bewusst, welches Nachbarthema nicht gemeint ist."
-  - "Formuliere einen Merksatz und prüfe ihn an einer Gegenprobe."
-commonMistakes:
-  - "Das Unterthema zu breit einsortieren."
-  - "Nur den Begriff nennen, aber keinen Prüfschritt ausführen."
-  - "Die Gegenprobe auslassen und dadurch eine falsche Regel verallgemeinern."
-keyTakeaways:
-  - "start und enable wird durch Einordnung, Abgrenzung und Gegenprobe prüfbar."
-  - "Feinere Unterthemen verbessern Navigation und Lernlogik."
-  - "Aufgaben bleiben verständlicher, wenn sie zur Seite und nicht nur zum Fachbereich passen."
-recognizeSignals:
-  - "Die Aufgabe enthält zwei ähnliche Begriffe oder Zustände."
-  - "Eine allgemeine Erklärung wäre möglich, aber nicht präzise genug."
-  - "Ein kleiner Test entscheidet, welche Regel gilt."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz erklären?"
-  - "Habe ich das Nachbarthema ausdrücklich abgegrenzt?"
-  - "Ist meine Gegenprobe konkret genug?"
-tags:
-  - "linux"
-  - "shell"
-  - "praxis"
-  - "system"
-  - "dienste-und-systemd"
-  - "start und enable"
+topicPath: ["system", "dienste-und-systemd", "start-enable", "systemctl-start-und-enable-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["linux", "System"]
 draft: false
 ---
-
 ## Grundidee
 
 **start und enable** ist ein bewusst kleines Unterthema. Lerne start und enable als klar abgegrenztes Unterthema mit Beispiel, Prüfschritt und Gegenprobe. Der Punkt wird schnell unübersichtlich, wenn er nur in einem breiten Sammelbereich landet.

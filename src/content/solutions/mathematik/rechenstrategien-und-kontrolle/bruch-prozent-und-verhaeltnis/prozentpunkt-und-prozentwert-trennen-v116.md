@@ -3,22 +3,12 @@ title: "Lösung: Prozentpunkt und Prozentwert trennen"
 description: "Musterlösung zur Aufgabe „Prozentpunkt und Prozentwert trennen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "rechenstrategien-und-kontrolle"
-  - "bruch-prozent-und-verhaeltnis"
-  - "prozentpunkt-und-prozentwert-trennen-v116"
+topicPath: ["rechenstrategien-und-kontrolle", "bruch-prozent-und-verhaeltnis", "prozentpunkt-und-prozentwert-trennen-v116"]
 taskId: "prozentpunkt-und-prozentwert-trennen-v116"
 relatedExercise: "mathematik/rechenstrategien-und-kontrolle/bruch-prozent-und-verhaeltnis/prozentpunkt-und-prozentwert-trennen-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "bruch prozent und verhaeltnis"
-  - "prozentpunkt und prozentwert trennen"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

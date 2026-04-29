@@ -3,42 +3,15 @@ title: "Mikrocontroller – Analogsensor, Spannungsteiler und ADC-Eingang lesen"
 description: "Verstehe, warum ein ADC nicht „den Sensor“ misst, sondern eine Spannung am Eingang, die durch Schaltung, Referenz und Sensorverhalten entsteht."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "analogsensor-spannungsteiler-und-adc-eingang"
-learningGoals:
-  - "Du beschreibst den ADC-Eingang als Spannungsmesspunkt."
-  - "Du erklärst, warum ein Sensor oft Teil eines Spannungsteilers ist."
-  - "Du prüfst Referenzspannung, Messbereich und Signalrichtung zusammen."
-practiceIdeas:
-  - "Markiere den ADC-Knoten in einem Spannungsteiler."
-  - "Vergleiche LDR-oben und LDR-unten im Spannungsteiler."
-  - "Ordne steigenden ADC-Wert einer Schaltungsrichtung zu."
-commonMistakes:
-  - "Den ADC-Wert direkt als Sensoreigenschaft zu lesen."
-  - "Die Lage des Sensors im Spannungsteiler zu vergessen."
-  - "Referenzspannung und maximalen Eingangswert nicht zu prüfen."
-keyTakeaways:
-  - "Der ADC misst eine Spannung relativ zur Referenz."
-  - "Ein Spannungsteiler übersetzt Widerstandsänderungen in Spannungsänderungen."
-  - "Ob der ADC-Wert steigt oder fällt, hängt von der Schaltung ab."
-recognizeSignals:
-  - "Es geht um LDR, NTC, Potentiometer oder analogen Eingang."
-  - "Eine Aufgabe fragt, warum ein Messwert bei Licht steigt oder fällt."
-  - "Spannungsteiler und Referenzspannung müssen gemeinsam gelesen werden."
-selfCheckPoints:
-  - "Kann ich den Messknoten zeigen?"
-  - "Kann ich Sensorlage und ADC-Richtung erklären?"
-  - "Kann ich Referenzspannung als Messrahmen nennen?"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "adc"
-  - "sensor"
-  - "spannungsteiler"
-  - "messung"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "analogsensor-spannungsteiler-und-adc-eingang"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
 ## Grundidee

@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Sleep und Weckquellen am AVR ruhig planen
-description: Musterlösung zur Aufgabe ET-ATMEGA-SLEEP-214.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - interrupts-und-reaktivitaet
-  - atmega-sleep-und-wakeup-quellen-verstehen
-  - sleep-und-weckquellen-am-avr-ruhig-planen-loesung
-taskId: ET-ATMEGA-SLEEP-214
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-sleep-und-wakeup-quellen-verstehen/sleep-und-weckquellen-am-avr-ruhig-planen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - sleep
-  - loesung
+title: "Musterlösung – Sleep und Weckquellen am AVR ruhig planen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-SLEEP-214."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-sleep-und-wakeup-quellen-verstehen", "sleep-und-weckquellen-am-avr-ruhig-planen"]
+taskId: "ET-ATMEGA-SLEEP-214"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-sleep-und-wakeup-quellen-verstehen/sleep-und-weckquellen-am-avr-ruhig-planen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Ein Sleep-Modus beschreibt nur die Ruhephase des Systems. Ohne passende Wake-up-Quelle bleibt aber offen, wodurch der AVR wieder reagieren darf. Genau deshalb gehören Energiesparen und Rückkehrweg didaktisch zusammen.

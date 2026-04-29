@@ -3,38 +3,15 @@ title: "Speicherplatz mit df und du: Aufgabe A"
 description: "Finde den Unterschied zwischen voller Partition und großem Ordner."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "dateisystem-und-speicher"
-  - "speicherplatz-mit-df-und-du"
-  - "aufgabe-a"
+topicPath: ["sanierung-v192", "speicherplatz-mit-df-und-du-aufgabe-a"]
 taskId: "linux-v192-020a"
-tags:
-  - "dateisystem-und-speicher"
-  - "speicherplatz"
-  - "df"
-  - "du"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "aufgabe"
-  - "v192"
-hintPoints:
-  - "Trenne Beobachtung, Eingriff und Kontrolle."
-  - "Nenne den betroffenen Benutzer, Dienst, Pfad, Port oder Zeitplan."
-  - "Beschreibe mindestens einen Rückweg oder Sicherheitscheck."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Speicherplatz mit df und du."
-  - "Es gibt eine klare Kontrolle nach der Änderung."
-  - "Risiko und Nebenwirkung werden nicht verschwiegen."
-transferIdeas:
-  - "Übertrage den Prüfweg auf eine zweite Linux-VM oder einen anderen Dienst."
-  - "Formuliere aus deiner Lösung eine kurze Betriebsnotiz."
-reflectionPrompt: "Welcher Schritt verhindert hier den wahrscheinlichsten Adminfehler?"
+tags: ["linux", "adminpraxis-und-betrieb", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Finde den Unterschied zwischen voller Partition und großem Ordner.

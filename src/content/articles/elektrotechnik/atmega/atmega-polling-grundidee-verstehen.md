@@ -1,46 +1,19 @@
 ---
-title: ATmega – Polling als Grundidee verstehen
-description: Verstehe, warum der Mikrocontroller bei Polling einen Zustand immer wieder aktiv abfragt und wie sich das fachlich von Interrupts unterscheidet.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - polling-und-entprellen
-  - atmega-polling-grundidee-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von Polling als aktives Abfragen.
-  - Du unterscheidest Polling und Interrupt-Reaktion fachlich sauber.
-  - Du liest eine Hauptschleife ruhiger als wiederholte Zustandsprüfung statt als „dauernd dasselbe“.
-practiceIdeas:
-  - Vergleiche einen Taster, der ständig abgefragt wird, mit einem Taster, der per Interrupt reagiert.
-  - Lies eine while-Schleife als wiederholte Prüfhaltung.
-  - Beschreibe, wann Polling didaktisch einfacher und wann es technisch unruhiger sein kann.
-commonMistakes:
-  - Polling als „falsche“ Lösung abzuwerten, obwohl es oft didaktisch sehr klar ist.
-  - Polling und Interrupt einfach nur als schnell und langsam zu beschreiben.
-  - Die Hauptschleife nicht als bewusstes wiederholtes Prüfen zu lesen.
-keyTakeaways:
-  - Polling bedeutet, einen Zustand regelmäßig aktiv zu prüfen.
-  - Polling und Interrupt lösen ähnliche Ereignisfragen, aber mit unterschiedlicher Struktur.
-  - Für kleine AVR-Einstiege ist Polling oft die ruhigere Grundidee.
-recognizeSignals:
-  - Es geht um Hauptschleife, wiederholtes Abfragen oder Tasterprüfung.
-  - Du sollst erklären, warum ein Controller einen Eingang ständig erneut liest.
-  - In Codebeispielen tauchen while-Schleifen und if-Abfragen auf.
-selfCheckPoints:
-  - Kann ich Polling als aktives Prüfen in der Hauptschleife erklären?
-  - Kann ich Polling und Interrupt fachlich unterscheiden?
-  - Kann ich sagen, warum Polling didaktisch oft der ruhigere Einstieg ist?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - polling
-  - taster
-level: einfach
+title: "ATmega – Polling als Grundidee verstehen"
+description: "Verstehe, warum der Mikrocontroller bei Polling einen Zustand immer wieder aktiv abfragt und wie sich das fachlich von Interrupts unterscheidet."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-polling-grundidee-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 Polling bedeutet: Der Mikrocontroller fragt einen Zustand **immer wieder aktiv selbst** ab. Er wartet also nicht darauf, dass ein Ereignis ihn unterbricht, sondern prüft in seiner Hauptschleife regelmäßig neu.
 
 <div class="example-card">

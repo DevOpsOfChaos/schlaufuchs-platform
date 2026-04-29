@@ -1,43 +1,17 @@
 ---
 title: "CSS – flex-wrap, gap und Zeilenumbruch verstehen"
 description: "Lerne, wie Flexbox mit verfügbarem Platz, Umbruch und Abstand umgeht und warum gap oft besser ist als Rand-Tricks."
-subject: web-development
+subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "flexbox"
-  - "flex-wrap-gap-und-zeilenumbruch-verstehen"
-learningGoals:
-  - "Du erklärst, wann flex-wrap Umbruch erlaubt."
-  - "Du nutzt gap für Abstände zwischen Flex-Items."
-  - "Du erkennst, warum margin-basierte Lücken bei Umbruch unruhig werden können."
-practiceIdeas:
-  - "Baue eine Chip-Liste, die sauber umbrechen darf."
-  - "Vergleiche gap mit margin-right bei Zeilenumbruch."
-  - "Prüfe, ob ein Element schrumpfen, wachsen oder umbrechen soll."
-commonMistakes:
-  - "flex-wrap zu vergessen und Elemente aus dem Container laufen zu lassen."
-  - "Abstände nur mit margin-right zu bauen."
-  - "gap und justify-content miteinander zu verwechseln."
-keyTakeaways:
-  - "flex-wrap erlaubt neue Zeilen, wenn der Platz nicht reicht."
-  - "gap beschreibt den Abstand zwischen Items und funktioniert auch beim Umbruch."
-  - "Flexbox verteilt Platz auf einer Achse, Grid ist oft besser für echte Raster."
-recognizeSignals:
-  - "Es geht um Chips, Buttons, Navigation, Umbruch oder horizontale Listen."
-  - "Eine Aufgabe fragt, warum Elemente über den Rand laufen."
-  - "Abstände wirken am Zeilenende falsch."
-selfCheckPoints:
-  - "Dürfen die Items umbrechen?"
-  - "Ist gap statt Einzel-margin möglich?"
-  - "Soll die Anordnung eine Liste oder ein Raster sein?"
-tags:
-  - "web development"
-  - "css"
-  - "flexbox"
-  - "gap"
-  - "responsive"
-level: einfach
+topicPath: ["css", "flexbox", "flex-wrap-gap-und-zeilenumbruch-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
 ## Grundidee

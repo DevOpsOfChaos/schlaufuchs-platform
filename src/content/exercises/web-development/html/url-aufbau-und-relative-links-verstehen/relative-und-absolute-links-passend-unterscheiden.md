@@ -1,34 +1,17 @@
 ---
-title: Relative und absolute Links passend unterscheiden
-description: Erkläre, welche Linkart in kleinen Beispielen näherliegt und warum.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - url-aufbau-und-relative-links-verstehen
-  - relative-und-absolute-links-passend-unterscheiden
-taskId: WEB-HTML-CORE-104
-level: einfach
+title: "Relative und absolute Links passend unterscheiden"
+description: "Erkläre, welche Linkart in kleinen Beispielen näherliegt und warum."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "url-aufbau-und-relative-links-verstehen", "relative-und-absolute-links-passend-unterscheiden"]
+taskId: "WEB-HTML-CORE-104"
+tags: ["web-development", "HTML", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - html
-  - links
-  - url
-  - aufgabe
-hintPoints:
-  - "Frage zuerst: bleibt das Ziel im Projekt oder verlässt es das Projekt?"
-  - "Trenne Pfad, Anker und Parameter."
-  - "Ein Anker springt nicht zu einer anderen Datei."
-selfCheckPoints:
-  - "Ist klar, wann ein relativer Link reicht?"
-  - "Hast du den Ankerteil sauber erklärt?"
-  - "Vermischst du keine Zielarten?"
-transferIdeas:
-  - "Übertrage die Aufgabe auf Bilder, Stylesheets oder PDF-Verlinkungen."
-  - "Lies relative Pfade aus verschiedenen Verzeichnissen."
-reflectionPrompt: "Welche Linkart würdest du in einem Projekt zu schnell wählen?"
 ---
-
 ## Aufgabe 1: Linkart wählen
 
 Begründe, ob eher relativ oder absolut passt:

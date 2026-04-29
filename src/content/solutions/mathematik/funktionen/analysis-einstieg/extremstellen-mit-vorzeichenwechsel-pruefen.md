@@ -3,21 +3,12 @@ title: "Lösung – Extremstellen mit Vorzeichenwechsel prüfen"
 description: "Musterlösung zu extremstellen mit vorzeichenwechsel prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "funktionen"
-  - "analysis-einstieg"
-  - "extremstellen-mit-vorzeichenwechsel-pruefen"
+topicPath: ["funktionen", "analysis-einstieg", "extremstellen-mit-vorzeichenwechsel-pruefen"]
 taskId: "v112-mathematik-extremstellen-mit-vorzeichenwechsel-pruefen"
 relatedExercise: "mathematik/funktionen/analysis-einstieg/extremstellen-mit-vorzeichenwechsel-pruefen"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "funktionen"
-  - "extremstellen-mit-vorzeichenwechsel-pruefen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Analysis-Einstieg**.

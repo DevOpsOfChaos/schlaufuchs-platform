@@ -1,27 +1,17 @@
 ---
 title: "Abfragen und Filter anwenden und prüfen"
 description: "Übe Abfragen und Filter mit Begriffen, Beispielen und typischen Prüfungen."
-subject: informatik
+subject: "informatik"
 section: "Datenbanken"
-topicPath:
-  - "datenbanken"
-  - "abfragen-und-filter"
-taskId: INF-V183-09-B
-tags:
-  - "informatik"
-  - "abfragen-und-filter"
-hintPoints:
-  - "Beginne mit der allgemeinen Idee."
-  - "Trenne Begriff, Beispiel und Fehlerquelle."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe sauber unterscheiden."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel aus einem anderen Informatikthema."
-reflectionPrompt: "Welche Unterscheidung war hier am wichtigsten?"
-level: mittel
+topicPath: ["datenbanken", "abfragen-und-filter", "abfragen-und-filter-anwenden-und-pruefen-v183"]
+taskId: "INF-V183-09-B"
+tags: ["informatik", "Datenbanken", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Abfragen und Filter**.
 
 ## Aufgabe 1 – Begriffe klären

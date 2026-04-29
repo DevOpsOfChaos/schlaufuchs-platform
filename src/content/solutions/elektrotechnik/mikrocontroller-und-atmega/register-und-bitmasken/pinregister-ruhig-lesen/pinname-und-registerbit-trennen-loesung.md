@@ -1,23 +1,14 @@
 ---
 title: "Lösung – Pinname und Registerbit trennen"
 description: "Musterlösung zur Aufgabe Pinname und Registerbit trennen."
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - register-und-bitmasken
-  - pinregister-ruhig-lesen
-taskId: ET-V180-REG-002
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/register-und-bitmasken/pinregister-ruhig-lesen/pinname-und-registerbit-trennen.md
-tags:
-  - elektrotechnik
-  - loesung
-  - register
-  - pin
-  - port
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["mikrocontroller-und-atmega", "register-und-bitmasken", "pinregister-ruhig-lesen", "pinname-und-registerbit-trennen"]
+taskId: "ET-V180-REG-002"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/register-und-bitmasken/pinregister-ruhig-lesen/pinname-und-registerbit-trennen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1

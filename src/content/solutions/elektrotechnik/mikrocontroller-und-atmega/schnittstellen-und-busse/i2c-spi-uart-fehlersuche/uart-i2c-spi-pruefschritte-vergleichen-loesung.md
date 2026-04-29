@@ -1,21 +1,14 @@
 ---
 title: "Lösung – UART, I2C und SPI Prüfschritte vergleichen"
 description: "Musterlösung zur Aufgabe UART, I2C und SPI Prüfschritte vergleichen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - mikrocontroller-und-atmega
-  - schnittstellen-und-busse
-  - i2c-spi-uart-fehlersuche
-taskId: ET-V181-020
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/schnittstellen-und-busse/i2c-spi-uart-fehlersuche/uart-i2c-spi-pruefschritte-vergleichen.md
-tags:
-  - elektrotechnik
-  - i2c-spi-uart-fehlersuche
-  - loesung
+topicPath: ["mikrocontroller-und-atmega", "schnittstellen-und-busse", "i2c-spi-uart-fehlersuche", "uart-i2c-spi-pruefschritte-vergleichen"]
+taskId: "ET-V181-020"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/schnittstellen-und-busse/i2c-spi-uart-fehlersuche/uart-i2c-spi-pruefschritte-vergleichen.md"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

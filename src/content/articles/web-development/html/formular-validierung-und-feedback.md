@@ -1,44 +1,19 @@
 ---
-title: Formular-Validierung und Feedback
-description: Verstehe, wie Formulare Eingaben prüfen und wie Hinweise und Rückmeldungen Nutzerinnen und Nutzern helfen.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - formular-validierung
-tags:
-  - html
-  - formular
-  - validation
-  - feedback
-learningGoals:
-  - "Du erklärst, warum Validierung schon beim Eingeben hilfreich ist."
-  - "Du unterscheidest Label, Hinweis und Fehlermeldung."
-  - "Du planst Formularfeedback so, dass Eingaben verständlich korrigiert werden können."
-practiceIdeas:
-  - "Formuliere zu einem Feld eine klare Beschriftung und eine kurze Hilfe."
-  - "Vergleiche einen guten und einen schlechten Fehlerhinweis."
-  - "Prüfe, welche Informationen schon vor dem Absenden sichtbar sein sollten."
-commonMistakes:
-  - "Nur rote Markierungen ohne erklärenden Text zu verwenden."
-  - "Platzhalter mit echten Beschriftungen zu verwechseln."
-  - "Fehlermeldungen erst sehr spät oder zu unklar zu zeigen."
-keyTakeaways:
-  - "Validierung hilft, Eingaben früh zu prüfen."
-  - "Beschriftung, Hinweis und Fehlermeldung haben unterschiedliche Aufgaben."
-  - "Gutes Feedback erklärt, was falsch ist und wie es richtig wird."
-recognizeSignals:
-  - "Es geht um Formulare, Eingabefelder, required, pattern oder Rückmeldungen."
-  - "Du sollst erklären, wie Nutzende durch ein Formular geführt werden."
-  - "Ein Beispiel fragt, warum ein Hinweis oder eine Fehlermeldung verständlich sein muss."
-selfCheckPoints:
-  - "Kann ich Label und Hinweis auseinanderhalten?"
-  - "Kann ich eine hilfreiche Fehlermeldung formulieren?"
-  - "Kann ich erklären, warum Farbe allein nicht als Feedback reicht?"
-level: einfach
+title: "Formular-Validierung und Feedback"
+description: "Verstehe, wie Formulare Eingaben prüfen und wie Hinweise und Rückmeldungen Nutzerinnen und Nutzern helfen."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "formular-validierung-und-feedback"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Warum dieses Thema wichtig ist
 
 Ein Formular ist nicht nur eine Sammlung von Feldern. Es ist ein Dialog mit der Person, die etwas eingibt. Genau deshalb sind Validierung und Feedback entscheidend.

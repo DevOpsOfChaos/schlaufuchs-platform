@@ -1,33 +1,19 @@
 ---
 title: "Mathematische Modelle validieren"
 description: "Mathematische Modelle validieren bedeutet, Annahmen, Ergebnisse und Grenzen mit Realität oder Kontext zu vergleichen. Es ist ein zentraler Schritt nach dem Rechnen."
-subject: mathematik
+subject: "mathematik"
 section: "Mathematik"
-topicPath:
-  - "mathematische-modelle-validieren"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Mathematische Modelle validieren."
-  - "Du kannst Mathematische Modelle validieren in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["mathematische-modelle-validieren", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein korrekt gerechnetes Ergebnis automatisch als sinnvolle Antwort zu akzeptieren."
-keyTakeaways:
-  - "Mathematische Modelle validieren bedeutet, Annahmen, Ergebnisse und Grenzen mit Realität oder Kontext zu vergleichen."
-  - "Wichtig sind vor allem annahmen prüfen, einheiten und größenordnung und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Mathematische Modelle validieren, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Mathematische Modelle validieren dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "grundlagen"
-  - "mathematische modelle validieren"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Mathematik"]
 draft: false
 ---
-
 # Mathematische Modelle validieren
 
 Mathematische Modelle validieren bedeutet, Annahmen, Ergebnisse und Grenzen mit Realität oder Kontext zu vergleichen. Es ist ein zentraler Schritt nach dem Rechnen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

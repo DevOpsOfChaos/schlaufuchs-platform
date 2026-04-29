@@ -1,33 +1,17 @@
 ---
 title: "Grundlagen: PWM und Tastverhältnis"
 description: "Allgemeiner Überblick über Pulsweitenmodulation, Tastverhältnis und scheinbar analoge Wirkung digitaler Signale."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - mikrocontroller-und-atmega
-  - pwm-und-tastverhaeltnis
-  - grundlagen-pwm-und-tastverhaeltnis
-learningGoals:
-  - "Du erklärst PWM als schnelles Umschalten zwischen Ein und Aus."
-  - "Du beschreibst das Tastverhältnis als Anteil der Einschaltzeit."
-  - "Du unterscheidest digitales Signal und gemittelte Wirkung."
+topicPath: ["mikrocontroller-und-atmega", "pwm-und-tastverhaeltnis", "ueberblick", "grundlagen-pwm-und-tastverhaeltnis"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "PWM für eine echte analoge Ausgangsspannung zu halten."
-  - "Frequenz und Tastverhältnis zu verwechseln."
-  - "Eine LED-Helligkeit ohne Trägheit oder Mittelung zu erklären."
-keyTakeaways:
-  - "PWM nutzt digitale Pegel, erzeugt aber eine gemittelte Wirkung."
-  - "Das Tastverhältnis bestimmt den Anteil der Einschaltzeit."
-  - "Frequenz und Tastverhältnis beschreiben unterschiedliche Eigenschaften."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - pwm
-  - tastverhaeltnis
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
 ## Begriff

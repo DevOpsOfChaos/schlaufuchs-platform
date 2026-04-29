@@ -1,31 +1,17 @@
 ---
 title: "CORS und Same-Origin"
 description: "Allgemeiner Überblick über Same-Origin-Policy, CORS und sichere Browser-Zugriffe auf externe Ressourcen."
-subject: web-development
+subject: "web-development"
 section: "Web-Plattform"
-topicPath:
-  - "cors-und-same-origin"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst CORS und Same-Origin grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["cors-und-same-origin", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "CORS und Same-Origin nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "CORS und Same-Origin beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um CORS und Same-Origin, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich CORS und Same-Origin in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "web-development"
-  - "browser"
-  - "cors"
-  - "sicherheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web-Plattform"]
 draft: false
 ---
 # CORS und Same-Origin

@@ -1,23 +1,14 @@
 ---
-title: Lösung – Mikrocontrollerfehler mit passenden Werkzeugen eingrenzen
-description: Musterlösung zur Auswahl von LED-Debugging, UART-Ausgabe und Messgerät bei Mikrocontrollerfehlern.
-subject: elektrotechnik
-section: Mikrocontroller und ATmega
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - fehlersuche-mit-led-uart-und-messgeraet
-taskId: et-mc-debugging-led-uart-messgeraet
-relatedExercise: elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/fehlersuche-mit-led-uart-und-messgeraet
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - debugging
-  - uart
-  - messgeraet
+title: "Lösung – Mikrocontrollerfehler mit passenden Werkzeugen eingrenzen"
+description: "Musterlösung zur Auswahl von LED-Debugging, UART-Ausgabe und Messgerät bei Mikrocontrollerfehlern."
+subject: "elektrotechnik"
+section: "Mikrocontroller und ATmega"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "fehlersuche-mit-led-uart-und-messgeraet"]
+taskId: "et-mc-debugging-led-uart-messgeraet"
+relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/fehlersuche-mit-led-uart-und-messgeraet"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 1. Kommt das Programm überhaupt in die Hauptschleife? → LED-Debugging oder UART-Ausgabe. Eine einfache Status-LED reicht oft schon.

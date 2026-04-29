@@ -1,36 +1,19 @@
 ---
 title: "Power Sequencing"
 description: "Power Sequencing beschreibt die Reihenfolge, in der Versorgungsspannungen eingeschaltet, stabilisiert und überwacht werden."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Stromversorgung"
-topicPath:
-  - "power-sequencing"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Power Sequencing als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["power-sequencing", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird angenommen, eine Spannung sei sofort gültig, sobald das Netzteil eingeschaltet ist."
-keyTakeaways:
-  - "Power Sequencing beschreibt die Reihenfolge, in der Versorgungsspannungen eingeschaltet, stabilisiert und überwacht werden."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Power Sequencing, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Power Sequencing in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "stromversorgung"
-  - "startverhalten"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Stromversorgung"]
 draft: false
 ---
-
 # Power Sequencing
 
 Power Sequencing beschreibt die Reihenfolge, in der Versorgungsspannungen eingeschaltet,

@@ -1,44 +1,19 @@
 ---
-title: IP-Adressen und Domainnamen – Grundidee
-description: Verstehe, warum Geräte im Netz technische Adressen brauchen und warum menschenlesbare Namen trotzdem wichtig sind.
-subject: informatik
-section: Netzwerke
-topicPath:
-  - netzwerke
-  - ip-adressen-und-domainnamen-grundidee
-learningGoals:
-  - Du erklärst die Grundidee einer IP-Adresse.
-  - Du unterscheidest technische Adresse und menschenlesbaren Namen.
-  - Du beschreibst, warum Domainnamen für Nutzung und Orientierung wichtig sind.
-practiceIdeas:
-  - Vergleiche eine technische Netzwerkadresse mit einem Kontaktnamen im Alltag.
-  - Erkläre bei einer Website, warum Domainname und eigentliche Adresse nicht dieselbe Rolle haben.
-  - Beschreibe, warum Namen im Internet helfen, ohne die Technik zu ersetzen.
-commonMistakes:
-  - Domainnamen und IP-Adressen als dasselbe zu behandeln.
-  - Zu glauben, dass Geräte nur über Namen gefunden werden.
-  - Die technische Adresse zu sehen, aber ihren Zweck im System nicht zu erklären.
-keyTakeaways:
-  - Geräte im Netz brauchen eindeutige technische Adressen.
-  - Domainnamen helfen Menschen bei Orientierung und Nutzung.
-  - Namen und Adressen gehören zusammen, haben aber unterschiedliche Aufgaben.
-recognizeSignals:
-  - Es geht um Webseiten, Netzwerkadressen, Namen oder Erreichbarkeit.
-  - Du sollst erklären, wie ein Ziel im Netz gefunden wird.
-  - In Beispielen musst du zwischen technischer Ebene und Nutzersicht unterscheiden.
-selfCheckPoints:
-  - Kann ich IP-Adresse und Domainname funktional unterscheiden?
-  - Kann ich erklären, warum Namen nützlich sind?
-  - Kann ich beschreiben, warum eine technische Adresse trotzdem notwendig bleibt?
-tags:
-  - netzwerke
-  - ip-adresse
-  - domain
-  - adressierung
-level: einfach
+title: "IP-Adressen und Domainnamen – Grundidee"
+description: "Verstehe, warum Geräte im Netz technische Adressen brauchen und warum menschenlesbare Namen trotzdem wichtig sind."
+subject: "informatik"
+section: "Netzwerke"
+topicPath: ["netzwerke", "ip-adressen-und-domainnamen-grundidee"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Netzwerke"]
 draft: false
 ---
-
 ## Grundidee
 
 Damit Geräte in einem Netzwerk erreichbar sind, brauchen sie **technische Adressen**. Im Internet geschieht das über IP-Adressen. Für Menschen wären solche Adressen aber unpraktisch. Darum werden zusätzlich **Domainnamen** genutzt, also lesbare Namen wie bei einer Website.

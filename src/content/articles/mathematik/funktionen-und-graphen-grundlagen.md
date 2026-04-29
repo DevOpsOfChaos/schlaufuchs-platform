@@ -1,13 +1,19 @@
 ---
-title: Funktionen und Graphen – Grundlagen
-description: Verstehe, wie Funktionsgleichung, Wertetabelle und Graph zusammenhängen.
-subject: mathematik
-section: funktionen
-level: einfach
-tags: [funktionen, graphen, grundlagen]
+title: "Funktionen und Graphen – Grundlagen"
+description: "Verstehe, wie Funktionsgleichung, Wertetabelle und Graph zusammenhängen."
+subject: "mathematik"
+section: "funktionen"
+topicPath: ["funktionen-und-graphen-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["funktionen", "graphen", "grundlagen"]
 draft: false
 ---
-
 Funktionen ordnen Eingabewerten passende Ausgabewerte zu. Das klingt zuerst abstrakt, ist aber in der Mathematik eine der wichtigsten Grundideen: Ein Wert geht hinein, ein anderer Wert kommt heraus. Genau diesen Zusammenhang machen Funktionsgleichung, Wertetabelle und Graph sichtbar.
 
 ## Was ist eine Funktion?

@@ -1,47 +1,19 @@
 ---
-title: Variablen, Strings und Ausgabe in PHP verstehen
-description: Verstehe, wie PHP Variablen mit $ kennzeichnet, Strings zusammensetzt und Ausgaben mit echo erzeugt.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - php-variablen-strings-und-ausgabe-verstehen
-learningGoals:
-  - Du erklärst, wie PHP-Variablen gekennzeichnet werden.
-  - Du unterscheidest String-Verkettung und Variableneinbettung grob voneinander.
-  - Du liest kleine echo-Ausgaben ruhiger als Zusammenspiel aus Text und Variablenwert.
-practiceIdeas:
-  - Baue eine Begrüßung einmal mit Verkettung und einmal mit eingebetteter Variable.
-  - Prüfe in einer Ausgabe, welche Teile statischer Text und welche Variablenwerte sind.
-  - Erkläre, warum dieselbe URL in mehreren String-Teilen zusammengesetzt werden kann.
-commonMistakes:
-  - Das $-Zeichen in PHP-Variablen zu vergessen.
-  - Zu glauben, jeder String werde automatisch gleich behandelt.
-  - Verkettung und direktes Einsetzen von Variablen zu verwechseln.
-keyTakeaways:
-  - PHP-Variablen beginnen mit $.
-  - echo gibt Text und Werte aus.
-  - Ausgaben lassen sich über Verkettung oder innerhalb von Zeichenketten zusammensetzen.
-recognizeSignals:
-  - Es geht um echo, Variablen, String-Ausgabe oder HTML-Fragmente aus PHP.
-  - Ein Beispiel mischt Text und Variablenwert.
-  - Du sollst erklären, wie aus kleinen Teilen eine Ausgabe entsteht.
-selfCheckPoints:
-  - Kann ich PHP-Variablen sicher erkennen?
-  - Kann ich eine echo-Zeile in Textteile und Wertteile zerlegen?
-  - Kann ich Verkettung und Variableneinbettung grob unterscheiden?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - variablen
-  - strings
-  - echo
+title: "Variablen, Strings und Ausgabe in PHP verstehen"
+description: "Verstehe, wie PHP Variablen mit $ kennzeichnet, Strings zusammensetzt und Ausgaben mit echo erzeugt."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "php-variablen-strings-und-ausgabe-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 In PHP werden Variablen mit einem <code>$</code>-Zeichen geschrieben. Ausgaben entstehen oft dadurch, dass Text und Variablenwerte in einer <code>echo</code>-Anweisung zusammengesetzt werden.

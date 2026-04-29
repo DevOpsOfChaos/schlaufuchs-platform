@@ -3,23 +3,12 @@ title: "Lösung – Boolesche Bedingungen schrittweise vereinfachen"
 description: "Musterlösung zu Boolesche Bedingungen mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "informatik"
 section: "Algorithmen"
-topicPath:
-  - "algorithmen"
-  - "bedingungen-und-logik"
-  - "boolesche-ausdruecke"
-  - "boolesche-bedingungen-schrittweise-vereinfachen"
+topicPath: ["algorithmen", "bedingungen-und-logik", "boolesche-ausdruecke", "boolesche-bedingungen-schrittweise-vereinfachen"]
 taskId: "v108-informatik-boolesche-bedingungen-schrittweise-vereinfachen"
 relatedExercise: "informatik/algorithmen/bedingungen-und-logik/boolesche-ausdruecke/boolesche-bedingungen-schrittweise-vereinfachen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "algorithmen"
-  - "bedingungen-und-logik"
-  - "boolesche bedingungen"
+tags: ["informatik", "Algorithmen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **Boolesche Bedingungen**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

@@ -3,22 +3,12 @@ title: "Lösung – Suchbereich bei binärer Suche protokollieren"
 description: "Musterlösung zu Binäre Suche mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "informatik"
 section: "Algorithmen"
-topicPath:
-  - "algorithmen"
-  - "sortieren-und-suchen"
-  - "suchstrategie"
-  - "suchbereich-bei-binaerer-suche-protokollieren"
+topicPath: ["algorithmen", "sortieren-und-suchen", "suchstrategie", "suchbereich-bei-binaerer-suche-protokollieren"]
 taskId: "v107-informatik-suchbereich-bei-binaerer-suche-protokollieren"
 relatedExercise: "informatik/algorithmen/sortieren-und-suchen/suchstrategie/suchbereich-bei-binaerer-suche-protokollieren"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "algorithmen"
-  - "binäre suche"
-  - "sortieren-und-suchen"
+tags: ["informatik", "Algorithmen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Binäre Suche**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

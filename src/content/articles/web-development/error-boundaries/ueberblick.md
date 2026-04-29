@@ -1,33 +1,19 @@
 ---
 title: "Error Boundaries"
 description: "Error Boundaries fangen Fehler in Teilen einer Oberfläche ab und zeigen kontrollierte Ersatzansichten. Das Konzept ist vor allem aus komponentenbasierten Frameworks bekannt."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "error-boundaries"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Error Boundaries."
-  - "Du kannst Error Boundaries in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["error-boundaries", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Fehler nur zu verstecken und keine Diagnoseinformationen zu erfassen."
-keyTakeaways:
-  - "Error Boundaries fangen Fehler in Teilen einer Oberfläche ab und zeigen kontrollierte Ersatzansichten."
-  - "Wichtig sind vor allem fehlergrenzen pro ui-bereich, fallback statt kompletter absturz und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Error Boundaries, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Error Boundaries dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "web development"
-  - "grundlagen"
-  - "error boundaries"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # Error Boundaries
 
 Error Boundaries fangen Fehler in Teilen einer Oberfläche ab und zeigen kontrollierte Ersatzansichten. Das Konzept ist vor allem aus komponentenbasierten Frameworks bekannt. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

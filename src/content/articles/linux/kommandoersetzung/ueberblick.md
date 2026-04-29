@@ -1,33 +1,19 @@
 ---
 title: "Kommandoersetzung"
 description: "Kommandoersetzung fügt die Ausgabe eines Befehls in eine andere Shell-Eingabe ein. Sie ist nützlich für dynamische Werte, kann aber bei Leerzeichen und Zeilenumbrüchen fehleranfällig sein."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "kommandoersetzung"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Kommandoersetzung."
-  - "Du kannst Kommandoersetzung in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["kommandoersetzung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ungequotete Kommandoersetzung auf Dateinamen anzuwenden."
-keyTakeaways:
-  - "Kommandoersetzung fügt die Ausgabe eines Befehls in eine andere Shell-Eingabe ein."
-  - "Wichtig sind vor allem syntax mit $(...), ausgabe als argument und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Kommandoersetzung, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Kommandoersetzung dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "linux"
-  - "grundlagen"
-  - "kommandoersetzung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # Kommandoersetzung
 
 Kommandoersetzung fügt die Ausgabe eines Befehls in eine andere Shell-Eingabe ein. Sie ist nützlich für dynamische Werte, kann aber bei Leerzeichen und Zeilenumbrüchen fehleranfällig sein. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

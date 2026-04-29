@@ -1,45 +1,19 @@
 ---
-title: Web Development – Fehlermeldungen und Nutzerführung im Überblick
-description: Erklärt, wie Fehlermeldungen, Hinweise und Zustände Nutzerinnen und Nutzer durch eine Oberfläche führen.
-subject: web-development
-section: Webpraxis
-topicPath:
-  - "webpraxis"
-  - "fehlermeldungen-und-nutzerfuehrung"
-  - "ueberblick"
-learningGoals:
-  - "Den Themenbereich Fehlermeldungen und Nutzerführung im Überblick allgemein einordnen."
-  - "Grundbegriffe, Nutzen und typische Grenzen unterscheiden."
-  - "Einzelne Lernseiten als Vertiefung statt als Einstieg lesen."
-practiceIdeas:
-  - "Erstelle eine kurze Begriffskarte mit Zweck, typischem Beispiel und häufiger Verwechslung."
-  - "Ordne vorhandene Lernseiten danach, welchen Teil des Überblicks sie vertiefen."
-  - "Formuliere zu jedem Abschnitt eine eigene Kontrollfrage."
-commonMistakes:
-  - "Meldungen zu technisch oder zu allgemein zu formulieren."
-  - "Fehler nur farblich zu markieren."
-keyTakeaways:
-  - "Fehlermeldungen sollen weiterhelfen."
-  - "Gute Nutzerführung erklärt Zustand und nächste Handlung."
-  - "Technische Details und sichtbare Hilfe müssen getrennt werden."
-recognizeSignals:
-  - "Ein Unterthema enthält viele einzelne Situationsseiten, aber es fehlt eine gemeinsame Einordnung."
-  - "Begriffe werden in Aufgaben verwendet, bevor Zweck und Zusammenhang klar sind."
-  - "Man muss entscheiden, welche Vertiefungsseite als nächstes sinnvoll ist."
-selfCheckPoints:
-  - "Kann ich das Thema in zwei bis drei Sätzen allgemein erklären?"
-  - "Kann ich Zweck, Vorgehen und typische Fehler getrennt benennen?"
-  - "Kann ich erklären, welche Vertiefungsseite zu welcher Frage passt?"
-level: einfach
-tags:
-  - "web development"
-  - "ux"
-  - "fehlermeldungen"
-  - "nutzerführung"
-  - "überblick"
+title: "Web Development – Fehlermeldungen und Nutzerführung im Überblick"
+description: "Erklärt, wie Fehlermeldungen, Hinweise und Zustände Nutzerinnen und Nutzer durch eine Oberfläche führen."
+subject: "web-development"
+section: "Webpraxis"
+topicPath: ["webpraxis", "fehlermeldungen-und-nutzerfuehrung", "ueberblick", "grundlagen-fehlermeldungen-und-nutzerfuehrung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Webpraxis"]
 draft: false
 ---
-
 ## Überblick
 
 Fehlermeldungen und Hinweise sind Teil der Nutzerführung. Sie erklären, was passiert ist, was erwartet wird und wie eine Person sinnvoll weiterarbeiten kann.

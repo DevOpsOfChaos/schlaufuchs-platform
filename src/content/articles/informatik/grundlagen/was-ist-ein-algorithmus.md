@@ -1,17 +1,19 @@
 ---
-title: Was ist ein Algorithmus?
-description: Ein Algorithmus beschreibt eine eindeutige Vorgehensweise zur Lösung eines Problems und ist damit eine Kernidee der Informatik.
-subject: informatik
-section: Grundlagen
-level: einfach
-tags:
-  - Algorithmus
-  - Informatik
-  - Ablauf
-  - Grundlagen
+title: "Was ist ein Algorithmus?"
+description: "Ein Algorithmus beschreibt eine eindeutige Vorgehensweise zur Lösung eines Problems und ist damit eine Kernidee der Informatik."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "was-ist-ein-algorithmus"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Grundlagen"]
 draft: false
 ---
-
 ## Überblick
 
 Ein Algorithmus ist eine klar beschriebene Abfolge von Schritten, mit der ein Problem gelöst oder eine Aufgabe bearbeitet wird. Informatik beginnt deshalb nicht mit einer Programmiersprache, sondern mit der Frage, wie ein Ablauf logisch und eindeutig formuliert werden kann.

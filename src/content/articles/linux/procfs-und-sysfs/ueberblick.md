@@ -1,32 +1,17 @@
 ---
 title: "procfs und sysfs"
 description: "Lexikonartiger Überblick über virtuelle Dateisysteme für Prozess- und Kernelinformationen."
-subject: linux
+subject: "linux"
 section: "Dateisysteme"
-topicPath:
-  - "procfs-und-sysfs"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst procfs und sysfs als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie /proc, /sys, Prozesse."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["procfs-und-sysfs", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Virtuelle Einträge in `/proc` und `/sys` wie dauerhaft gespeicherte Konfigurationsdateien zu behandeln."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "procfs und sysfs beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Kernelinformationen als Dateien."
-  - "Wichtige Hinweise liefern vor allem /proc, /sys, Prozesse."
-recognizeSignals:
-  - "Es geht um kernelinformationen als dateien, /proc oder /sys."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck procfs und sysfs erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "linux"
-  - "dateisystem"
-  - "kernel"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dateisysteme"]
 draft: false
 ---
 # procfs und sysfs

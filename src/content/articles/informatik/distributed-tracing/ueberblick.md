@@ -1,32 +1,17 @@
 ---
 title: "Distributed Tracing"
 description: "Lexikonartiger Überblick über verteilte Ablaufverfolgung über Servicegrenzen hinweg."
-subject: informatik
+subject: "informatik"
 section: "Betrieb"
-topicPath:
-  - "distributed-tracing"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Distributed Tracing als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Trace, Span, Correlation ID."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["distributed-tracing", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Logs einzelner Dienste als ausreichend für komplexe verteilte Abläufe zu betrachten."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Distributed Tracing beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Fehlersuche in verteilten Systemen."
-  - "Wichtige Hinweise liefern vor allem Trace, Span, Correlation ID."
-recognizeSignals:
-  - "Es geht um fehlersuche in verteilten systemen, trace oder span."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Distributed Tracing erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "informatik"
-  - "observability"
-  - "tracing"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Betrieb"]
 draft: false
 ---
 # Distributed Tracing

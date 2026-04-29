@@ -3,34 +3,15 @@ title: "Aufgabe – Accessibility Tree in DevTools prüfen"
 description: "Prüfe drei interaktive Elemente gedanklich nach Name, Rolle und Zustand."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "debugging-und-diagnose"
-  - "accessibility-tree-in-devtools-pruefen"
-tags:
-  - "web development"
-  - "browser"
-  - "devtools"
-  - "accessibility"
-  - "debugging"
-  - "aufgabe"
+topicPath: ["javascript", "debugging-und-diagnose", "accessibility-tree-in-devtools-pruefen"]
 taskId: "web-v101-accessibility-tree-in-devtools-pruefen"
-hintPoints:
-  - "Lies zuerst die vorhandene HTML-, CSS- oder JavaScript-Situation."
-  - "Trenne sichtbare Rückmeldung von interner Logik."
-  - "Begründe, warum dein Vorschlag für Nutzerinnen und Nutzer verständlich ist."
-selfCheckPoints:
-  - "Ist die Lösung auch bei fehlenden Daten oder Fehlern nachvollziehbar?"
-  - "Sind Struktur, Gestaltung und Verhalten sauber getrennt?"
-  - "Gibt es eine passende Rückmeldung?"
-transferIdeas:
-  - "Übertrage die Aufgabe auf eine Formular-, Karten- oder Navigationsoberfläche."
-  - "Vergleiche eine schnelle, aber fragile Lösung mit einer robusteren Lösung."
-reflectionPrompt: "Welche kleine Entscheidung verbessert hier nicht nur den Code, sondern auch die Nutzererfahrung?"
+tags: ["web-development", "JavaScript", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Prüfe drei interaktive Elemente gedanklich nach Name, Rolle und Zustand.

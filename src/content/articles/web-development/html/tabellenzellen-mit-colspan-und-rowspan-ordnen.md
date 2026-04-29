@@ -1,45 +1,19 @@
 ---
-title: Tabellenzellen mit Colspan und Rowspan ordnen
-description: Verstehe, wie zusammengefasste Tabellenzellen Struktur sichtbar machen und warum sie nur dort sinnvoll sind, wo echte Gruppenbeziehungen gezeigt werden sollen.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - tabellen-barrierearm
-  - tabellenzellen-mit-colspan-und-rowspan-ordnen
-learningGoals:
-  - Du erklärst die Grundidee von colspan und rowspan.
-  - Du beschreibst, wann Zellzusammenfassungen Struktur klären statt verwirren.
-  - Du liest Tabellen eher über Beziehungen zwischen Überschriften und Daten als über reine Linien.
-practiceIdeas:
-  - Prüfe bei einer Tabelle, ob eine übergeordnete Gruppe über mehrere Spalten oder Zeilen sichtbar gemacht werden soll.
-  - Vergleiche eine Tabelle mit vielen Einzelüberschriften und eine mit sinnvoll zusammengefassten Gruppen.
-  - Begründe Zellzusammenfassungen immer über fachliche Struktur, nicht über Optik.
-commonMistakes:
-  - colspan oder rowspan nur für hübsche Formen einzusetzen.
-  - Tabellenstruktur komplizierter zu machen, als die Daten es verlangen.
-  - den Zusammenhang zwischen Gruppenkopf und Datenzellen nicht mitzudenken.
-keyTakeaways:
-  - colspan verbindet mehrere Spalten unter einer gemeinsamen Zelle.
-  - rowspan verbindet mehrere Zeilen unter einer gemeinsamen Zelle.
-  - Beides ist sinnvoll, wenn echte Gruppenbeziehungen sichtbar werden sollen.
-recognizeSignals:
-  - Es geht um Tabellen mit Obergruppen, Zeiträumen oder Bereichen, die mehrere Zellen zusammenfassen.
-  - Du sollst erklären, warum eine Überschrift über mehrere Spalten oder Zeilen reicht.
-  - In Beispielen zählt die Datenlogik stärker als die sichtbare Gitterform.
-selfCheckPoints:
-  - Kann ich colspan und rowspan sauber unterscheiden?
-  - Kann ich erklären, wann eine gemeinsame Gruppenzelle sinnvoll ist?
-  - Kann ich Tabellenstruktur über Beziehungen statt über Optik lesen?
-tags:
-  - html
-  - tabelle
-  - colspan
-  - rowspan
-level: mittel
+title: "Tabellenzellen mit Colspan und Rowspan ordnen"
+description: "Verstehe, wie zusammengefasste Tabellenzellen Struktur sichtbar machen und warum sie nur dort sinnvoll sind, wo echte Gruppenbeziehungen gezeigt werden sollen."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "tabellenzellen-mit-colspan-und-rowspan-ordnen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Nicht jede Tabelle ist ein reines Raster aus gleichartigen Kästchen. Manchmal haben mehrere Spalten oder Zeilen eine gemeinsame Bedeutung. Genau dafür gibt es `colspan` und `rowspan`.

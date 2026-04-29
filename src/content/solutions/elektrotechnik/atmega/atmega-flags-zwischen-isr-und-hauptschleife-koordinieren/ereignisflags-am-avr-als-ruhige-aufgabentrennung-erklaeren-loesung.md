@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Ereignisflags am AVR als ruhige Aufgabentrennung erklären
-description: Musterlösung zur Aufgabe ET-ATMEGA-REAKT-302.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - programmstruktur-und-reaktivitaet
-  - atmega-flags-zwischen-isr-und-hauptschleife-koordinieren
-  - ereignisflags-am-avr-als-ruhige-aufgabentrennung-erklaeren-loesung
-taskId: ET-ATMEGA-REAKT-302
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-flags-zwischen-isr-und-hauptschleife-koordinieren/ereignisflags-am-avr-als-ruhige-aufgabentrennung-erklaeren.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – Ereignisflags am AVR als ruhige Aufgabentrennung erklären"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-REAKT-302."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-flags-zwischen-isr-und-hauptschleife-koordinieren", "ereignisflags-am-avr-als-ruhige-aufgabentrennung-erklaeren"]
+taskId: "ET-ATMEGA-REAKT-302"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-flags-zwischen-isr-und-hauptschleife-koordinieren/ereignisflags-am-avr-als-ruhige-aufgabentrennung-erklaeren.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

@@ -1,35 +1,19 @@
 ---
 title: "Grundlagen: Codierung und Zeichensätze"
 description: "Text braucht eine Codierung, damit gespeicherte Daten korrekt als Zeichen gelesen werden."
-subject: informatik
+subject: "informatik"
 section: "Daten und Information"
-topicPath:
-  - "daten-und-information"
-  - "codierung-und-zeichensaetze"
-  - "ueberblick"
-learningGoals:
-  - "Du ordnest Codierung und Zeichensätze fachlich ein."
-  - "Du unterscheidest zentrale Begriffe und typische Rollen."
-  - "Du erkennst häufige Fehler beim Anwenden."
-practiceIdeas:
-  - "Formuliere die Grundidee in zwei Sätzen."
-  - "Ordne ein Beispiel den wichtigsten Begriffen zu."
-commonMistakes:
-  - "Sichtbaren Text mit seiner gespeicherten Bytefolge gleichzusetzen."
-keyTakeaways:
-  - "Text braucht eine Codierung, damit gespeicherte Daten korrekt als Zeichen gelesen werden."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung vor einer Einzelfalllösung."
-selfCheckPoints:
-  - "Kann ich die Grundbegriffe voneinander unterscheiden?"
-level: einfach
-tags:
-  - "informatik"
-  - "daten-und-information"
-  - "codierung-und-zeichensaetze"
+topicPath: ["daten-und-information", "codierung-und-zeichensaetze", "ueberblick", "grundlagen-codierung-und-zeichensaetze"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Daten und Information"]
 draft: false
 ---
-
 ![Schaubild zu Codierung und Zeichensätze](/schlaufuchs-platform/images/overviews/v183/informatik-codierung-und-zeichensaetze.svg)
 
 ## Begriff

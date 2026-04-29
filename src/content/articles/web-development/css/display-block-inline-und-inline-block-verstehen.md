@@ -1,45 +1,19 @@
 ---
-title: Display – Block, Inline und Inline-Block verstehen
-description: Verstehe, wie display das Grundverhalten eines Elements im Seitenfluss bestimmt und warum dieselben Inhalte je nach Wert sichtbar anders wirken.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - display-block-inline-und-inline-block-verstehen
-learningGoals:
-  - Du erklärst den Unterschied zwischen block, inline und inline-block.
-  - Du beschreibst, wie sich Zeilenumbruch und Boxverhalten dadurch sichtbar ändern.
-  - Du wählst den display-Wert eher nach Layoutrolle als nach Gewohnheit.
-practiceIdeas:
-  - Vergleiche denselben Inhalt einmal als block, inline und inline-block.
-  - Prüfe bei Links, Buttons oder Badges zuerst das Grundverhalten des Elements.
-  - Frage bei einem Layoutproblem zuerst, ob das Element eher Wort, Zeilenbaustein oder kleine Box sein soll.
-commonMistakes:
-  - display nur als Nebendetail zu sehen.
-  - inline mit klein und block mit groß zu verwechseln.
-  - an Breite und Abstände zu schrauben, obwohl das Grundverhalten des Elements das eigentliche Problem ist.
-keyTakeaways:
-  - display legt das Grundverhalten eines Elements im Layout fest.
-  - block beginnt typischerweise in einer neuen Zeile, inline bleibt im Textfluss.
-  - inline-block verbindet Textfluss mit besser steuerbarer Boxlogik.
-recognizeSignals:
-  - Es geht um Umbrüche, nebeneinander stehende Elemente oder seltsam reagierende Links und Buttons.
-  - Du sollst erklären, warum derselbe Inhalt einmal untereinander und einmal im Satzfluss erscheint.
-  - In Beispielen ist nicht die Farbe spannend, sondern die Rolle der Box im Seitenfluss.
-selfCheckPoints:
-  - Kann ich block, inline und inline-block sichtbar unterscheiden?
-  - Kann ich erklären, warum ein Element eine neue Zeile beginnt oder nicht?
-  - Kann ich begründen, wann inline-block hilfreicher ist als inline?
-tags:
-  - css
-  - display
-  - layout
-  - box
-level: einfach
+title: "Display – Block, Inline und Inline-Block verstehen"
+description: "Verstehe, wie display das Grundverhalten eines Elements im Seitenfluss bestimmt und warum dieselben Inhalte je nach Wert sichtbar anders wirken."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "display-block-inline-und-inline-block-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Mit `display` legst du fest, **wie ein Element überhaupt am Seitenfluss teilnimmt**. Noch bevor Farben, Schatten oder Ausrichtung wichtig werden, entscheidet dieser Wert zum Beispiel,

@@ -1,33 +1,17 @@
 ---
 title: "Zustandsmodellierung"
 description: "Überblick darüber, wie Zustände, Ereignisse und Übergänge Abläufe in Software beschreibbar machen."
-subject: informatik
+subject: "informatik"
 section: "Modellierung"
-topicPath:
-  - "zustandsmodellierung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Zustandsmodellierung als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["zustandsmodellierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Zustände werden oft erst im Code versteckt. Wenn sie vorher modelliert werden, werden Randfälle und verbotene Übergänge viel klarer."
-keyTakeaways:
-  - "Zustandsmodellierung hilft, erlaubte und verbotene Veränderungen eines Systems sichtbar zu machen."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um zustandsmodellierung, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich zustandsmodellierung in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "zustandsmodellierung"
-  - "überblick"
-  - "startzustand"
-  - "ereignis"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Modellierung"]
 draft: false
 ---
 # Zustandsmodellierung

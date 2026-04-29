@@ -1,33 +1,19 @@
 ---
 title: "Koordinatensystem"
 description: "Überblick über Koordinatensysteme als Werkzeug zur Darstellung von Punkten, Graphen und Beziehungen."
-subject: mathematik
+subject: "mathematik"
 section: "Funktionen und Geometrie"
-topicPath:
-  - koordinatensystem
-  - ueberblick
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen und von verwandten Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte und typische Anwendungsfälle."
-  - "Du erkennst häufige Missverständnisse und prüfst Aussagen auf Plausibilität."
+topicPath: ["koordinatensystem", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden x- und y-Koordinate vertauscht oder Achsenskalierungen ignoriert."
-keyTakeaways:
-  - "Ein Koordinatensystem ordnet Punkten Zahlenpaare oder Zahlentripel zu."
-  - "Die genaue Bedeutung hängt vom Zusammenhang, den Einheiten und den Randbedingungen ab."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Begriffe, Beispiele oder Fehlerbilder aus diesem Bereich erklärt und eingeordnet werden sollen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten erklären, ohne sofort eine Spezialaufgabe zu rechnen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "koordinatensystem"
-  - "graphen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Funktionen und Geometrie"]
 draft: false
 ---
-
 # Koordinatensystem
 
 ## Begriff und Zweck

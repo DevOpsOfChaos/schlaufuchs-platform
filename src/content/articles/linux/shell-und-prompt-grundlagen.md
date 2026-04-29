@@ -1,13 +1,19 @@
 ---
-title: Shell und Prompt – Grundlagen
-description: Verstehe, was Shell und Prompt in Linux eigentlich sind und warum sie zentral für die Arbeit im Terminal sind.
-subject: linux
-section: shell-und-prompt
-level: einfach
-tags: [shell, prompt, terminal, linux]
+title: "Shell und Prompt – Grundlagen"
+description: "Verstehe, was Shell und Prompt in Linux eigentlich sind und warum sie zentral für die Arbeit im Terminal sind."
+subject: "linux"
+section: "shell-und-prompt"
+topicPath: ["shell-und-prompt-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["shell", "prompt", "terminal", "linux"]
 draft: false
 ---
-
 Wer mit Linux arbeitet, begegnet sehr schnell dem Terminal. Dabei tauchen zwei Begriffe immer wieder auf: **Shell** und **Prompt**. Beide gehören zusammen, sind aber nicht dasselbe.
 
 ## Was ist die Shell?

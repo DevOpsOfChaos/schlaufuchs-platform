@@ -1,32 +1,17 @@
 ---
 title: "Geometrisches Mittel"
 description: "Überblick über das geometrische Mittel bei Wachstumsfaktoren und multiplikativen Zusammenhängen."
-subject: mathematik
+subject: "mathematik"
 section: "Daten und Statistik"
-topicPath:
-  - "geometrisches-mittel"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Geometrisches Mittel als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Faktoren, Wachstum, Renditen."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["geometrisches-mittel", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Prozentuale Wachstumsraten einfach arithmetisch zu mitteln."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Geometrisches Mittel beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Mittelwert für Faktoren."
-  - "Wichtige Hinweise liefern vor allem Faktoren, Wachstum, Renditen."
-recognizeSignals:
-  - "Es geht um mittelwert für faktoren, faktoren oder wachstum."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Geometrisches Mittel erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "statistik"
-  - "wachstum"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Daten und Statistik"]
 draft: false
 ---
 # Geometrisches Mittel

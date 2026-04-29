@@ -1,36 +1,19 @@
 ---
 title: "Freilaufdiode"
 description: "Freilaufdiode bezeichnet ein Grundthema im Bereich elektrische Schaltungen, Messungen und reale Bauteile. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schutzbeschaltungen"
-topicPath:
-  - "freilaufdiode"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Freilaufdiode als allgemeinen Grundbegriff einordnen."
-  - "Du kennst Zweck, Zusammenhang, typische Teilaspekte und Grenzen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle behandelt werden."
+topicPath: ["freilaufdiode", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Freilaufdiode nur als einzelner Arbeitsschritt verstanden, obwohl der Begriff einen größeren Zusammenhang beschreibt."
-keyTakeaways:
-  - "Freilaufdiode bezeichnet ein Grundthema im Bereich elektrische Schaltungen, Messungen und reale Bauteile. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-  - "Ein Überblick trennt Begriff, Zweck, Beispiel und Grenze."
-  - "Spezialseiten werden verständlicher, wenn die allgemeine Einordnung vorher klar ist."
-recognizeSignals:
-  - "Es geht um Freilaufdiode, wenn mehrere Einzelbeobachtungen ohne Grundbegriff schwer einzuordnen sind."
-  - "Der Begriff hilft, Werkzeuge, Werte, Regeln oder Darstellungen fachlich zu sortieren."
-selfCheckPoints:
-  - "Kann ich Freilaufdiode in zwei bis drei Sätzen erklären?"
-  - "Kann ich ein Beispiel und eine typische Grenze nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "diode"
-  - "induktive last"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Schutzbeschaltungen"]
 draft: false
 ---
-
 # Freilaufdiode
 
 ![Schaubild zur Freilaufdiode.](/schlaufuchs-platform/images/overviews/v150/freilaufdiode.svg)

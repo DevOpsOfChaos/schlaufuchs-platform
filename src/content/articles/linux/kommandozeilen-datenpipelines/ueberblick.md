@@ -1,36 +1,17 @@
 ---
 title: "Kommandozeilen-Datenpipelines"
 description: "Überblick über die Kombination von sort, uniq und cut zur einfachen Auswertung von Textdaten."
-subject: linux
+subject: "linux"
 section: "Textwerkzeuge"
-topicPath:
-  - "kommandozeilen-datenpipelines"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Kommandozeilen-Datenpipelines als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["kommandozeilen-datenpipelines", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, uniq ohne vorheriges sort zu verwenden und dadurch nur direkt benachbarte Duplikate zu zählen."
-keyTakeaways:
-  - "sort, uniq und cut sind klassische Textwerkzeuge, um Spalten auszuwählen, Werte zu sortieren und Wiederholungen zusammenzufassen."
-  - "Sie ermöglichen schnelle Auswertungen ohne Tabellenkalkulation oder eigenes Programm."
-  - "Diese Werkzeuge arbeiten zeilenorientiert und sind für komplexe CSV- oder JSON-Strukturen nur begrenzt geeignet."
-recognizeSignals:
-  - "Es geht um Kommandozeilen-Datenpipelines, wenn cut trennt einfache Spalten oder Zeichenbereiche heraus."
-  - "Das Thema wird relevant, wenn Beispiele wie aus einem Log lassen sich IP-Adressen extrahieren, sortieren und nach Häufigkeit zählen."
-selfCheckPoints:
-  - "Kann ich Kommandozeilen-Datenpipelines in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "textwerkzeuge"
-  - "sort"
-  - "uniq"
-  - "cut"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Textwerkzeuge"]
 draft: false
 ---
 # Kommandozeilen-Datenpipelines

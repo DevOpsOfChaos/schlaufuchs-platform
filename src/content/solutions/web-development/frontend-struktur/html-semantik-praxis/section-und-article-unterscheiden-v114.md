@@ -1,23 +1,14 @@
 ---
-title: Lösung – Section und Article unterscheiden
-description: Musterlösung zur Aufgabe über Section und Article unterscheiden.
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- frontend-struktur
-- html-semantik-praxis
-- section-und-article-unterscheiden-v114
-taskId: v114-web-development-section-und-article-unterscheiden-v114
-relatedExercise: web-development/frontend-struktur/html-semantik-praxis/section-und-article-unterscheiden-v114
-tags:
-- web-development
-- v114
-- loesung
-- frontend-struktur
-- html-semantik-praxis
+title: "Lösung – Section und Article unterscheiden"
+description: "Musterlösung zur Aufgabe über Section und Article unterscheiden."
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["frontend-struktur", "html-semantik-praxis", "section-und-article-unterscheiden-v114"]
+taskId: "v114-web-development-section-und-article-unterscheiden-v114"
+relatedExercise: "web-development/frontend-struktur/html-semantik-praxis/section-und-article-unterscheiden-v114"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

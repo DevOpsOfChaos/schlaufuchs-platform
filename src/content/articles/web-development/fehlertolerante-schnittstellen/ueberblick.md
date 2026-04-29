@@ -1,33 +1,17 @@
 ---
 title: "Fehlertolerante Schnittstellen"
 description: "Überblick über robuste Webschnittstellen, die mit unvollständigen, verspäteten oder fehlerhaften Antworten umgehen können."
-subject: web-development
+subject: "web-development"
 section: "APIs"
-topicPath:
-  - "fehlertolerante-schnittstellen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Fehlertolerante Schnittstellen als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["fehlertolerante-schnittstellen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Robustheit wird oft nur serverseitig gedacht. Auch das Frontend muss wissen, wie es auf fehlende Daten, Verzögerungen und unerwartete Antworten reagiert."
-keyTakeaways:
-  - "Fehlertolerante Schnittstellen rechnen damit, dass Netzwerke, Server und Daten nicht immer perfekt verfügbar sind."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um fehlertolerante schnittstellen, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich fehlertolerante schnittstellen in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "web-development"
-  - "fehlertolerante schnittstellen"
-  - "überblick"
-  - "timeout"
-  - "retry"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "APIs"]
 draft: false
 ---
 # Fehlertolerante Schnittstellen

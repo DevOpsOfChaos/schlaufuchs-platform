@@ -3,22 +3,12 @@ title: "Lösung: Abtastung verstehen: Grundordnung"
 description: "Musterlösung zur Aufgabe dat-v189-005a."
 subject: "daten-und-signale"
 section: "grundlagen"
-topicPath:
-  - "grundlagen"
-  - "abtastung"
-  - "loesung-a"
+topicPath: ["sanierung-v189", "abtastung-verstehen-aufgabe-a"]
 taskId: "dat-v189-005a"
 relatedExercise: "daten-und-signale/sanierung-v189/abtastung-verstehen-aufgabe-a"
-tags:
-  - "abtastung"
-  - "sampling"
-  - "signal"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "grundlagen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-005a`
 
 Eine mögliche Lösung:

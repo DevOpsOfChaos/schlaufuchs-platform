@@ -1,36 +1,17 @@
 ---
 title: "Aufgabe: Mock und echte Abhängigkeit trennen"
 description: "Trainiere Mock und echte Abhängigkeit trennen an einem kleinen, klar abgegrenzten Fall."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "softwarequalitaet-v115"
-  - "tests-und-vertraege"
-  - "mock-und-echte-abhaengigkeit-trennen-v115"
+topicPath: ["softwarequalitaet-v115", "tests-und-vertraege", "mock-und-echte-abhaengigkeit-trennen-v115"]
 taskId: "informatik-mock-und-echte-abhaengigkeit-trennen-v115"
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "softwarequalität"
-  - "tests und verträge"
-  - "aufgabe"
-hintPoints:
-  - "Grenze zuerst den kleinen Fall vom breiten Themenfeld ab."
-  - "Nutze die Prüffrage: Welche Abhängigkeit soll im Test ersetzt werden?"
-  - "Begründe mit zwei konkreten Hinweisen aus dem Fall."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-transferIdeas:
-  - "Übertrage dieselbe Trennkante auf ein eigenes Mini-Beispiel."
-  - "Formuliere einen Gegenfall, der ähnlich aussieht, aber anders entschieden wird."
-reflectionPrompt: "Was war bei „Mock und echte Abhängigkeit trennen“ die wichtigste Trennkante?"
-level: mittel
+tags: ["informatik", "Feinstruktur Informatik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den folgenden Fall zu **Mock und echte Abhängigkeit trennen**.

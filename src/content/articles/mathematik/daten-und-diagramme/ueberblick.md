@@ -1,34 +1,19 @@
 ---
 title: "Daten und Diagramme"
 description: "Überblick über Daten, Diagramme und die sorgfältige Deutung grafischer Darstellungen."
-subject: mathematik
+subject: "mathematik"
 section: "Daten und Zufall"
-topicPath:
-  - "daten-und-diagramme"
-  - "ueberblick"
-learningGoals:
-  - "Du verstehst Diagramme als Darstellung von Daten, nicht als neutrale Wahrheit."
-  - "Du kannst Achsen, Skalen und Einheiten als Leseschlüssel einordnen."
-  - "Du erkennst typische Verzerrungen in Diagrammen."
+topicPath: ["daten-und-diagramme", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Diagramme ohne Achsenprüfung zu interpretieren."
-  - "Aus kleinen Stichproben zu sichere Aussagen abzuleiten."
-keyTakeaways:
-  - "Diagramme machen Daten sichtbar, können aber durch Auswahl und Skalierung beeinflussen."
-  - "Gute Deutung prüft Quelle, Achsen, Einheit, Zeitraum und Stichprobe."
-recognizeSignals:
-  - "Es geht um Balkendiagramm, Liniendiagramm, Kreisdiagramm, Achsen, Skala, Datenquelle oder Trend."
-selfCheckPoints:
-  - "Kann ich bei einem Diagramm zuerst Achsen, Einheiten und Zeitraum nennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "daten"
-  - "diagramme"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Daten und Zufall"]
 draft: false
 ---
-
 # Daten und Diagramme
 
 ![Schaubild zu Daten und Diagrammen.](/schlaufuchs-platform/images/overviews/v148/daten-und-diagramme.svg)

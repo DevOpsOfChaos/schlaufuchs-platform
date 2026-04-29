@@ -3,23 +3,12 @@ title: "Lösung – Algorithmus und Implementierung trennen"
 description: "Musterlösung zu Algorithmus und Implementierung mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Algorithmen"
-topicPath:
-  - "algorithmen"
-  - "beschreibung-und-implementierung"
-  - "abstraktion"
-  - "algorithmus-und-implementierung-trennen"
+topicPath: ["algorithmen", "beschreibung-und-implementierung", "abstraktion", "algorithmus-und-implementierung-trennen"]
 taskId: "v109-informatik-algorithmus-und-implementierung-trennen"
 relatedExercise: "informatik/algorithmen/beschreibung-und-implementierung/abstraktion/algorithmus-und-implementierung-trennen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "algorithmen"
-  - "beschreibung-und-implementierung"
-  - "algorithmus und implementierung"
+tags: ["informatik", "Algorithmen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Algorithmus und Implementierung**.

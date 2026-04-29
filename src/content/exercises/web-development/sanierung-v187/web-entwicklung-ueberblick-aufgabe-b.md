@@ -3,33 +3,15 @@ title: "Web-Entwicklung im Überblick: Prüfung und Verbesserung"
 description: "Analysiere eine unklare Projektbeschreibung und trenne Struktur, Gestaltung, Verhalten und Medien in vier Spalten."
 subject: "web-development"
 section: "grundlagen"
-topicPath: 
-  - "grundlagen"
-  - "web-entwicklung-ueberblick"
-  - "aufgabe-b"
+topicPath: ["sanierung-v187", "web-entwicklung-ueberblick-aufgabe-b"]
 taskId: "web-v187-001b"
-tags: 
-  - "web-development"
-  - "grundlagen"
-  - "ueberblick"
-  - "aufgabe"
-  - "v187"
-hintPoints: 
-  - "Trenne Zweck, Struktur und sichtbare Wirkung."
-  - "Begründe mindestens eine Entscheidung mit dem Nutzerziel."
-  - "Prüfe einen typischen Fehlerfall aus der Erklärseite."
-selfCheckPoints: 
-  - "Die Lösung passt zur Aufgabenstellung."
-  - "Mindestens eine Entscheidung ist begründet."
-  - "Es gibt keine neue Aufgabe ohne passende Lösung."
-transferIdeas: 
-  - "Übertrage die Entscheidung auf eine zweite kleine Seite."
-  - "Formuliere eine kurze Checkliste für spätere Wiederholung."
-reflectionPrompt: "Welche Entscheidung war am wichtigsten, damit die Lösung ruhig und wartbar bleibt?"
+tags: ["web-development", "grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Analysiere eine unklare Projektbeschreibung und trenne Struktur, Gestaltung, Verhalten und Medien in vier Spalten.

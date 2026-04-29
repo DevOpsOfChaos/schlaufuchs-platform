@@ -1,33 +1,19 @@
 ---
 title: "Quantile"
 description: "Quantile teilen geordnete Daten in Bereiche. Median, Quartile und Perzentile sind typische Quantile."
-subject: mathematik
+subject: "mathematik"
 section: "Mathematik"
-topicPath:
-  - "quantile"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Quantile."
-  - "Du kannst Quantile in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["quantile", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Quantile mit Prozentwerten einer einzelnen Zahl zu verwechseln."
-keyTakeaways:
-  - "Quantile teilen geordnete Daten in Bereiche."
-  - "Wichtig sind vor allem sortierte daten, median und quartile und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Quantile, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Quantile dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "grundlagen"
-  - "quantile"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Mathematik"]
 draft: false
 ---
-
 # Quantile
 
 Quantile teilen geordnete Daten in Bereiche. Median, Quartile und Perzentile sind typische Quantile. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

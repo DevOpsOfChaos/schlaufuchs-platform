@@ -1,31 +1,17 @@
 ---
-title: Medien und Beschriftungen als Einheit strukturieren
-description: Begründe, wann ein Bild oder Beispiel mit einer zugehörigen Beschriftung als figure mit figcaption ruhiger aufgebaut ist.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - bilder-und-alt-texte
-  - figure-und-figcaption-verstehen
-  - medien-und-beschriftungen-als-einheit-strukturieren
-level: einfach
+title: "Medien und Beschriftungen als Einheit strukturieren"
+description: "Begründe, wann ein Bild oder Beispiel mit einer zugehörigen Beschriftung als figure mit figcaption ruhiger aufgebaut ist."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "figure-und-figcaption-verstehen", "medien-und-beschriftungen-als-einheit-strukturieren"]
+taskId: "AUTO-MEDIEN-UND-BESCHRIFTUNGEN-ALS-EINHEIT-STRUKTURIEREN"
+tags: ["web-development", "HTML", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - html
-  - figure
-  - figcaption
-  - bilder
-hintPoints:
-  - Prüfe, ob Medium und Beschreibung eng zusammengehören.
-  - Beschreibe, warum bloße Nachbarschaft oft schwächer ist als eine Einheit.
-selfCheckPoints:
-  - Kannst du erklären, wann figure sinnvoll ist?
-  - Kannst du den Zweck von figcaption benennen?
-transferIdeas:
-  - Übertrage die Frage auf Bilder, Diagramme oder Codebeispiele.
-reflectionPrompt: Wann ist eine Beschriftung mehr als nur ein Absatz unter einem Bild?
 ---
-
 ## Aufgabe 1: Einheit erkennen
 
 Beschreibe eine Situation, in der ein Bild und ein kurzer erklärender Text so eng zusammengehören, dass eine gemeinsame Struktur sinnvoll wirkt.

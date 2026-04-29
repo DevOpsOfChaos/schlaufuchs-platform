@@ -3,46 +3,17 @@ title: "Informatik – Request und Response im HTTP-Ablauf trennen"
 description: "Lerne HTTP Request und Response als enges, prüfbares Unterthema mit Beispiel, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Netzwerke"
-topicPath:
-  - "netzwerke"
-  - "client-server-und-http"
-  - "request-response"
-  - "request-und-response-in-http-ablauf-trennen"
-learningGoals:
-  - "Du erklärst HTTP Request und Response als eigenes Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Erstelle eine Gegenprobe mit verändertem Wert, Zustand oder Kontext."
-  - "Vergleiche die Seite mit einem Nachbarthema und nenne die Trennkante."
-commonMistakes:
-  - "Client- und Serverrolle werden vermischt."
-  - "Das Thema nur einem breiten Kapitel zuordnen."
-  - "Eine Lösung formulieren, die keine konkrete Prüfung enthält."
-keyTakeaways:
-  - "HTTP Request und Response wird über Einordnung, Abgrenzung und Gegenprobe stabil."
-  - "Kleine Unterthemen erhöhen Auffindbarkeit und reduzieren Doppelungen."
-  - "Aufgabe und Lösung sollen dieselbe fachliche Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Ein breites Kapitel wäre als Antwort zu ungenau."
-  - "Ein konkreter Prüfschritt kann die Entscheidung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "netzwerke"
-  - "client-server-und-http"
-  - "http request und response"
+topicPath: ["netzwerke", "client-server-und-http", "request-response", "request-und-response-in-http-ablauf-trennen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["informatik", "Netzwerke"]
 draft: false
 ---
-
 ## Grundidee
 
 **HTTP Request und Response** ist ein kleines Unterthema mit einer klaren Trennkante. Lerne HTTP Request und Response als enges, prüfbares Unterthema mit Beispiel, Abgrenzung und Gegenprobe. Dadurch bleibt die Seite übersichtlich und landet nicht als weiterer Abschnitt in einem zu breiten Sammelthema.

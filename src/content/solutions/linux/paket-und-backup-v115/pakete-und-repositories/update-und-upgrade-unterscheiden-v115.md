@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Update und Upgrade unterscheiden"
 description: "Musterlösung zu Update und Upgrade unterscheiden mit Trennkante und Gegenprobe."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "paket-und-backup-v115"
-  - "pakete-und-repositories"
-  - "update-und-upgrade-unterscheiden-v115"
+topicPath: ["paket-und-backup-v115", "pakete-und-repositories", "update-und-upgrade-unterscheiden-v115"]
 taskId: "linux-update-und-upgrade-unterscheiden-v115"
 relatedExercise: "linux/paket-und-backup-v115/pakete-und-repositories/update-und-upgrade-unterscheiden-v115"
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "pakete und backups"
-  - "pakete und repositories"
-  - "lösung"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Update und Upgrade unterscheiden**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

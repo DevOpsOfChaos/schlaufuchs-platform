@@ -1,37 +1,19 @@
 ---
 title: "Grundlagen: Prozent und Wachstum"
 description: "Allgemeiner Überblick über Prozentrechnung, Prozentpunkte, Wachstumsfaktoren und typische Deutungsfehler."
-subject: mathematik
+subject: "mathematik"
 section: "Grundlagen"
-topicPath:
-  - grundlagen
-  - prozent-und-wachstum
-  - grundlagen-prozent-und-wachstum
-learningGoals:
-  - "Du erklärst Prozentangaben als Verhältnis zu einem Grundwert."
-  - "Du unterscheidest Prozent, Prozentpunkte und Wachstumsfaktor."
-  - "Du ordnest Wachstumsaufgaben als Vergleich von Ausgangswert und verändertem Wert ein."
+topicPath: ["grundlagen", "prozent-und-wachstum", "ueberblick", "grundlagen-prozent-und-wachstum"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Prozent und Prozentpunkte gleichzusetzen."
-  - "Den neuen Wert mit der Veränderung zu verwechseln."
-  - "Bei mehrstufigem Wachstum mehrfach denselben Grundwert anzunehmen."
-keyTakeaways:
-  - "Prozent beschreibt immer einen Anteil relativ zu einem Bezugswert."
-  - "Prozentpunkte beschreiben die Differenz zwischen Prozentangaben."
-  - "Wachstumsfaktoren machen Zunahme und Abnahme in einer Multiplikation sichtbar."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - "mathematik"
-  - "prozent"
-  - "wachstum"
-  - "faktor"
-  - "grundlagen"
+level: "einfach"
+tags: ["mathematik", "Grundlagen"]
 draft: false
 ---
-
 ## Begriff
 
 **Prozent und Wachstum** beschreiben mathematische Beziehungen, bei denen Größen relativ zu einem Ausgangswert verglichen werden. Das Wort Prozent bedeutet „von hundert“. Eine Prozentangabe ist daher keine isolierte Zahl, sondern eine Aussage über ein Verhältnis.

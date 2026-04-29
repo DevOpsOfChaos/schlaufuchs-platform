@@ -1,37 +1,19 @@
 ---
 title: "Web-Animationen"
 description: "Überblick über Animationen im Web, ihre Wirkung und technische Grenzen."
-subject: web-development
+subject: "web-development"
 section: "Animation"
-topicPath:
-  - "web-animations"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Web-Animationen als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["web-animations", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Bewegung als reine Dekoration einzusetzen und `prefers-reduced-motion` zu ignorieren."
-keyTakeaways:
-  - "Animationen sollten Orientierung geben."
-  - "Reduzierte Bewegung ist ein wichtiger Nutzerwunsch."
-  - "Performancefreundliche Eigenschaften vermeiden Ruckeln."
-recognizeSignals:
-  - "UI-Zustände ändern sich sichtbar."
-  - "Transitions, Keyframes oder Web Animations API werden eingesetzt."
-selfCheckPoints:
-  - "Kann ich Web-Animationen in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "web-development"
-  - "animation"
-  - "css"
-  - "accessibility"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Animation"]
 draft: false
 ---
-
 # Web-Animationen
 
 Web-Animationen verändern Eigenschaften über Zeit. Sie können Orientierung geben, Zustände erklären oder rein dekorativ wirken.

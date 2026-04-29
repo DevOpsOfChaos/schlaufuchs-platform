@@ -1,33 +1,19 @@
 ---
 title: "Web Worker"
 description: "Web Worker führen JavaScript in einem separaten Thread aus. Sie helfen, rechenintensive Aufgaben vom Hauptthread fernzuhalten."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "web-worker"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Web Worker."
-  - "Du kannst Web Worker in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["web-worker", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Rechenlast im Hauptthread zu lassen und nur die Oberfläche zu optimieren."
-keyTakeaways:
-  - "Web Worker führen JavaScript in einem separaten Thread aus."
-  - "Wichtig sind vor allem hauptthread und worker, nachrichtenübertragung und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Web Worker, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Web Worker dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "web development"
-  - "grundlagen"
-  - "web worker"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # Web Worker
 
 Web Worker führen JavaScript in einem separaten Thread aus. Sie helfen, rechenintensive Aufgaben vom Hauptthread fernzuhalten. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

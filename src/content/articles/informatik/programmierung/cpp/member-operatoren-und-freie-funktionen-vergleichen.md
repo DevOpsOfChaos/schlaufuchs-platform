@@ -1,47 +1,19 @@
 ---
-title: Member-Operatoren und freie Funktionen vergleichen
-description: Verstehe, warum Operatoren in C++ entweder als Member-Funktion oder als freie Hilfsfunktion umgesetzt werden und was das für die linke Seite bedeutet.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - operatoren-und-klassen
-  - member-operatoren-und-freie-funktionen-vergleichen
-learningGoals:
-  - Du erklärst den Unterschied zwischen Member-Operatoren und freien Funktionen.
-  - Du beschreibst, was <code>this</code> bei einer Member-Lösung bedeutet.
-  - Du erkennst, warum bestimmte Operatoren nur als Member-Funktion erlaubt sind.
-practiceIdeas:
-  - Vergleiche dieselbe Addition einmal als Member-Funktion und einmal als freie Funktion.
-  - Erkläre, warum der Zuweisungsoperator nicht als freie Funktion umgesetzt wird.
-  - Prüfe bei <code>&lt;&lt;</code>-Beispielen, warum eine freie Funktion oft näherliegt.
-commonMistakes:
-  - Zu denken, beide Varianten seien immer völlig austauschbar.
-  - Die linke Seite bei Member-Funktionen nicht mitzudenken.
-  - Nicht zu unterscheiden, welche Operatoren zwingend Member sein müssen.
-keyTakeaways:
-  - Member-Operatoren binden die linke Seite an <code>this</code>.
-  - Freie Funktionen sind oft nützlich, wenn beide Operanden symmetrisch behandelt werden sollen.
-  - Einige Operatoren wie <code>=</code>, <code>[]</code> oder <code>()</code> müssen als Member umgesetzt werden.
-recognizeSignals:
-  - Es geht um die Implementierungsform von Operatoren.
-  - In Beispielen musst du nicht nur den Operator, sondern auch seine linke und rechte Seite beachten.
-  - Du sollst begründen, welche Form fachlich oder technisch näherliegt.
-selfCheckPoints:
-  - Kann ich die Rolle von <code>this</code> in einer Member-Funktion erklären?
-  - Kann ich Member-Lösung und freie Funktion unterscheiden?
-  - Kann ich Beispiele nennen, die nur als Member-Funktion zulässig sind?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - operatoren
-  - member-funktion
+title: "Member-Operatoren und freie Funktionen vergleichen"
+description: "Verstehe, warum Operatoren in C++ entweder als Member-Funktion oder als freie Hilfsfunktion umgesetzt werden und was das für die linke Seite bedeutet."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "member-operatoren-und-freie-funktionen-vergleichen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Operator für einen eigenen Typ kann in C++ entweder als Member-Funktion in der Klasse selbst oder als freie Hilfsfunktion außerhalb umgesetzt werden. Beide Varianten beschreiben denselben Operator, aber sie verteilen die Rollen unterschiedlich.

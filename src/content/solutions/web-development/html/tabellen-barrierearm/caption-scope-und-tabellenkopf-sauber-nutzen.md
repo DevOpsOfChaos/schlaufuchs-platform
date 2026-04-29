@@ -1,20 +1,12 @@
 ---
 title: "Lösung – eine Datentabelle semantisch verbessern"
 description: "Musterlösung zu: Verbessere eine Tabelle so, dass Beschriftung und Kopfzellen fachlich klar werden."
-subject: web-development
+subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "tabellen-barrierearm"
-  - "caption-scope-und-tabellenkopf-sauber-nutzen"
+topicPath: ["html", "tabellen-barrierearm", "caption-scope-und-tabellenkopf-sauber-nutzen"]
 taskId: "wd-html-v95-caption-scope-tabellenkopf"
 relatedExercise: "web-development/html/tabellen-barrierearm/caption-scope-und-tabellenkopf-sauber-nutzen"
-tags:
-  - "web development"
-  - "html"
-  - "tabellen"
-  - "accessibility"
-  - "semantik"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

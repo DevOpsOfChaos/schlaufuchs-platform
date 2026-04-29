@@ -1,32 +1,17 @@
 ---
 title: "Parametrische Kurven"
 description: "Lexikonartiger Überblick über Kurven, die durch einen Parameter beschrieben werden."
-subject: mathematik
+subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - "parametrische-kurven"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Parametrische Kurven als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Parameter, x(t), y(t)."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["parametrische-kurven", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Parametrische Kurven nur als alternative Schreibweise gewöhnlicher Funktionsgraphen zu sehen."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Parametrische Kurven beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Kurvenbeschreibung mit Parametern."
-  - "Wichtige Hinweise liefern vor allem Parameter, x(t), y(t)."
-recognizeSignals:
-  - "Es geht um kurvenbeschreibung mit parametern, parameter oder x(t)."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Parametrische Kurven erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "geometrie"
-  - "funktionen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Geometrie"]
 draft: false
 ---
 # Parametrische Kurven

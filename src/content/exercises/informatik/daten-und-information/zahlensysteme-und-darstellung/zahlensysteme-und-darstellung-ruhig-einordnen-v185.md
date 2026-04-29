@@ -1,29 +1,17 @@
 ---
 title: "Zahlensysteme und Darstellung – ruhig einordnen"
 description: "Übe, zahlensysteme und darstellung fachlich zu erklären und abzugrenzen."
-subject: informatik
+subject: "informatik"
 section: "Daten und Information"
-topicPath:
-  - "daten-und-information"
-  - "zahlensysteme-und-darstellung"
-  - "uebung"
-taskId: INF-V185-001-1
-tags:
-  - "informatik"
-  - "daten-und-information"
-  - "zahlensysteme-und-darstellung"
-hintPoints:
-  - "Beginne mit der Grundidee, nicht mit einem Spezialfall."
-  - "Trenne Begriff, Beispiel und Prüfung."
-selfCheckPoints:
-  - "Ich kann das Thema in eigenen Worten erklären."
-  - "Ich kann ein passendes Beispiel begründen."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel in einem anderen Fachbereich."
-level: einfach
+topicPath: ["daten-und-information", "zahlensysteme-und-darstellung", "zahlensysteme-und-darstellung-ruhig-einordnen-v185"]
+taskId: "INF-V185-001-1"
+tags: ["informatik", "Daten und Information", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe prüft, ob du **Zahlensysteme und Darstellung** zuerst als allgemeines Thema und nicht nur als Einzelfall lesen kannst.
 
 ## Lernziel

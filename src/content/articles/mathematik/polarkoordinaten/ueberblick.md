@@ -1,32 +1,17 @@
 ---
 title: "Polarkoordinaten"
 description: "Überblick über Punkte, die durch Abstand und Winkel statt durch x- und y-Koordinate beschrieben werden."
-subject: mathematik
+subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - "polarkoordinaten"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Polarkoordinaten als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Radius, Winkel, Umrechnung."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["polarkoordinaten", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Polarkoordinaten als eindeutig in jeder Situation zu betrachten."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Polarkoordinaten beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Koordinaten mit Abstand und Winkel."
-  - "Wichtige Hinweise liefern vor allem Radius, Winkel, Umrechnung."
-recognizeSignals:
-  - "Es geht um koordinaten mit abstand und winkel, radius oder winkel."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Polarkoordinaten erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "geometrie"
-  - "koordinaten"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Geometrie"]
 draft: false
 ---
 # Polarkoordinaten

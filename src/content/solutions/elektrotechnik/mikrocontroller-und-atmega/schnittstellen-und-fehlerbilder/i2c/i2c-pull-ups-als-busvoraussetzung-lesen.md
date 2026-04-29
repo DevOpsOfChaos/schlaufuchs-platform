@@ -3,23 +3,12 @@ title: "Lösung – I2C-Pull-ups als Busvoraussetzung lesen"
 description: "Musterlösung zu I2C Pull-ups mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "schnittstellen-und-fehlerbilder"
-  - "i2c"
-  - "i2c-pull-ups-als-busvoraussetzung-lesen"
+topicPath: ["mikrocontroller-und-atmega", "schnittstellen-und-fehlerbilder", "i2c", "i2c-pull-ups-als-busvoraussetzung-lesen"]
 taskId: "v111-elektrotechnik-i2c-pull-ups-als-busvoraussetzung-lesen"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/schnittstellen-und-fehlerbilder/i2c/i2c-pull-ups-als-busvoraussetzung-lesen"
-tags:
-  - "elektrotechnik"
-  - "praxis"
-  - "unterthema"
-  - "mikrocontroller-und-atmega"
-  - "schnittstellen-und-fehlerbilder"
-  - "i2c-pull-ups-als-busvoraussetzung-lesen"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **I2C Pull-ups**.

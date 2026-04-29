@@ -3,45 +3,17 @@ title: "Linux – Logs mit journalctl und grep eingrenzen"
 description: "Finde Fehlerspuren in Logs, ohne dich in großen Textmengen zu verlieren: Zeitraum, Dienst, Suchwort und Kontext gehören zusammen."
 subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell"
-  - "log-analyse-und-fehler"
-  - "logs-mit-journalctl-und-grep-eingrenzen"
-learningGoals:
-  - "Du erklärst die Kernidee von „Loganalyse“ in eigenen Worten."
-  - "Du ordnest das Thema einem klaren Unterthema zu statt es in einem Sammelbereich zu verlieren."
-  - "Du leitest eine kleine Gegenprobe für echte Aufgaben oder Projekte ab."
-practiceIdeas:
-  - "Markiere zuerst, welche Unterfrage wirklich gestellt ist."
-  - "Notiere eine typische Fehlannahme und eine passende Gegenprobe."
-  - "Übertrage die Denkbewegung auf ein zweites kleines Beispiel."
-commonMistakes:
-  - "komplettes Log von oben lesen"
-  - "erstbesten Fehler übernehmen"
-  - "ohne Zeitbezug suchen"
-keyTakeaways:
-  - "Loganalyse wird klarer, wenn Zustand, Ursache und Prüfschritt getrennt werden."
-  - "Kleine Unterthemen sind leichter auffindbar und besser prüfbar als breite Sammelordner."
-  - "Eine gute Erklärung endet mit einer konkreten Gegenprobe."
-recognizeSignals:
-  - "Die Aufgabe enthält einen scheinbar kleinen Sonderfall oder Fehlerzustand."
-  - "Es muss zwischen Begriffen unterschieden werden, die im Alltag leicht vermischt werden."
-  - "Eine Entscheidung soll begründet und nicht nur auswendig angewendet werden."
-selfCheckPoints:
-  - "Kann ich das Unterthema mit einem Satz von Nachbarthemen abgrenzen?"
-  - "Kann ich einen typischen Fehler benennen?"
-  - "Kann ich eine konkrete Prüfung oder Rechnung anschließen?"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "praxis"
-  - "loganalyse"
-  - "log-analyse-und-fehler"
+topicPath: ["shell", "log-analyse-und-fehler", "logs-mit-journalctl-und-grep-eingrenzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["linux", "Shell"]
 draft: false
 ---
-
 ## Grundidee
 
 Logs sind keine fertige Antwort, sondern eine Spurensammlung. Gute Analyse begrenzt zuerst Zeitraum und Quelle, bevor einzelne Fehlermeldungen bewertet werden.

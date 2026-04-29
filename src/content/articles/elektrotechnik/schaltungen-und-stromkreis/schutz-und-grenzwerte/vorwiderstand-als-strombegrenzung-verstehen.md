@@ -3,46 +3,17 @@ title: "Elektrotechnik – Vorwiderstand als Strombegrenzung verstehen"
 description: "Verstehe den Vorwiderstand nicht als Formalität, sondern als Schutz, der den Strom durch LED oder Eingang begrenzt."
 subject: "elektrotechnik"
 section: "Schaltungen"
-topicPath:
-  - "schaltungen-und-stromkreis"
-  - "schutz-und-grenzwerte"
-  - "vorwiderstand-als-strombegrenzung-verstehen"
-learningGoals:
-  - "Du erklärst die Kernidee von „Strombegrenzung“ in eigenen Worten."
-  - "Du ordnest das Thema einem klaren Unterthema zu statt es in einem Sammelbereich zu verlieren."
-  - "Du leitest eine kleine Gegenprobe für echte Aufgaben oder Projekte ab."
-practiceIdeas:
-  - "Markiere zuerst, welche Unterfrage wirklich gestellt ist."
-  - "Notiere eine typische Fehlannahme und eine passende Gegenprobe."
-  - "Übertrage die Denkbewegung auf ein zweites kleines Beispiel."
-commonMistakes:
-  - "LED direkt an Versorgung legen"
-  - "Widerstand nur auswendig wählen"
-  - "Spannung und Strom verwechseln"
-keyTakeaways:
-  - "Strombegrenzung wird klarer, wenn Zustand, Ursache und Prüfschritt getrennt werden."
-  - "Kleine Unterthemen sind leichter auffindbar und besser prüfbar als breite Sammelordner."
-  - "Eine gute Erklärung endet mit einer konkreten Gegenprobe."
-recognizeSignals:
-  - "Die Aufgabe enthält einen scheinbar kleinen Sonderfall oder Fehlerzustand."
-  - "Es muss zwischen Begriffen unterschieden werden, die im Alltag leicht vermischt werden."
-  - "Eine Entscheidung soll begründet und nicht nur auswendig angewendet werden."
-selfCheckPoints:
-  - "Kann ich das Unterthema mit einem Satz von Nachbarthemen abgrenzen?"
-  - "Kann ich einen typischen Fehler benennen?"
-  - "Kann ich eine konkrete Prüfung oder Rechnung anschließen?"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "mikrocontroller"
-  - "signale"
-  - "strombegrenzung"
-  - "schaltungen-und-stromkreis"
-  - "schutz-und-grenzwerte"
+topicPath: ["schaltungen-und-stromkreis", "schutz-und-grenzwerte", "vorwiderstand-als-strombegrenzung-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["elektrotechnik", "Schaltungen"]
 draft: false
 ---
-
 ## Grundidee
 
 Eine LED braucht nicht nur eine Spannung, sondern einen begrenzten Strom. Der Vorwiderstand nimmt die restliche Spannung auf und macht den Strom berechenbar.

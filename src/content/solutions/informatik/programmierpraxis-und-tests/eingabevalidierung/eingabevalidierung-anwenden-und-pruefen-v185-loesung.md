@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Eingabevalidierung – anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über eingabevalidierung."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "eingabevalidierung"
-  - "loesung"
-taskId: INF-V185-005-2
-relatedExercise: src/content/exercises/informatik/programmierpraxis-und-tests/eingabevalidierung/eingabevalidierung-anwenden-und-pruefen-v185.md
-tags:
-  - "informatik"
-  - "programmierpraxis-und-tests"
-  - "eingabevalidierung"
-  - "loesung"
+topicPath: ["programmierpraxis-und-tests", "eingabevalidierung", "eingabevalidierung-anwenden-und-pruefen-v185"]
+taskId: "INF-V185-005-2"
+relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/eingabevalidierung/eingabevalidierung-anwenden-und-pruefen-v185.md"
+tags: ["informatik", "Programmierpraxis und Tests", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

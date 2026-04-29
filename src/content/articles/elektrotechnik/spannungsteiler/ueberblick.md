@@ -1,33 +1,19 @@
 ---
 title: "Spannungsteiler"
 description: "Überblick über Spannungsteiler als einfache Schaltung zur Aufteilung einer Spannung."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Grundlagen"
-topicPath:
-  - spannungsteiler
-  - ueberblick
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen und von verwandten Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte und typische Anwendungsfälle."
-  - "Du erkennst häufige Missverständnisse und prüfst Aussagen auf Plausibilität."
+topicPath: ["spannungsteiler", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird vergessen, dass ein Messgerät oder Eingang selbst Teil der Schaltung wird."
-keyTakeaways:
-  - "Ein Spannungsteiler besteht meist aus zwei Widerständen, die in Reihe zwischen einer Versorgung und Masse liegen."
-  - "Die genaue Bedeutung hängt vom Zusammenhang, den Einheiten und den Randbedingungen ab."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Begriffe, Beispiele oder Fehlerbilder aus diesem Bereich erklärt und eingeordnet werden sollen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten erklären, ohne sofort eine Spezialaufgabe zu rechnen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "spannungsteiler"
-  - "widerstand"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Grundlagen"]
 draft: false
 ---
-
 # Spannungsteiler
 
 ![Schaubild zum Spannungsteiler.](/schlaufuchs-platform/images/overviews/v148/spannungsteiler.svg)

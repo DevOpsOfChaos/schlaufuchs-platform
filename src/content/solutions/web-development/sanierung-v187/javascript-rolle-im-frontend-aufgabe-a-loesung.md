@@ -3,22 +3,12 @@ title: "Lösung: JavaScript im Frontend: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-020a im Web-Development-Block v187."
 subject: "web-development"
 section: "javascript"
-topicPath: 
-  - "javascript-und-interaktion"
-  - "rolle-im-frontend"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "javascript-rolle-im-frontend-aufgabe-a"]
 taskId: "web-v187-020a"
 relatedExercise: "web-development/sanierung-v187/javascript-rolle-im-frontend-aufgabe-a"
-tags: 
-  - "javascript"
-  - "frontend"
-  - "interaktion"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "javascript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-020a`
 
     Ausgangsauftrag: Entscheide für fünf Seitenelemente, ob HTML, CSS oder JavaScript zuständig ist.

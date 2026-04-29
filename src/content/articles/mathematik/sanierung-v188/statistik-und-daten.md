@@ -3,38 +3,17 @@ title: "Statistik und Daten"
 description: "Statistik ordnet Daten, damit Unterschiede und Muster sichtbar werden."
 subject: "mathematik"
 section: "daten-und-geometrie"
-topicPath:
-  - "daten-und-geometrie"
-  - "statistik-und-daten"
-learningGoals:
-  - "Statistik ordnet Daten, damit Unterschiede und Muster sichtbar werden fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Statistik ordnet Daten, damit Unterschiede und Muster sichtbar werden wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v188", "statistik-und-daten"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "statistik"
-  - "daten"
-  - "interpretation"
-  - "mathematik"
-  - "v188"
+tags: ["mathematik", "daten-und-geometrie"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Statistik und Daten](/schlaufuchs-platform/images/mathematik/sanierung-188/statistik-und-daten.svg)
 
 ## Überblick

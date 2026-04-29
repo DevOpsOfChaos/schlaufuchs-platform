@@ -3,23 +3,12 @@ title: "Lösung – Definitionsbereich als Sachgrenze verstehen"
 description: "Musterlösung zu Definitionsbereich mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "funktionen"
-  - "modellieren-und-pruefen"
-  - "definitionsbereich"
-  - "definitionsbereich-als-sachgrenze-verstehen"
+topicPath: ["funktionen", "modellieren-und-pruefen", "definitionsbereich", "definitionsbereich-als-sachgrenze-verstehen"]
 taskId: "v107-mathematik-definitionsbereich-als-sachgrenze-verstehen"
 relatedExercise: "mathematik/funktionen/modellieren-und-pruefen/definitionsbereich/definitionsbereich-als-sachgrenze-verstehen"
-tags:
-  - "mathematik"
-  - "rechnen"
-  - "modellieren"
-  - "definitionsbereich"
-  - "funktionen"
-  - "modellieren-und-pruefen"
+tags: ["mathematik", "Funktionen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Definitionsbereich**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

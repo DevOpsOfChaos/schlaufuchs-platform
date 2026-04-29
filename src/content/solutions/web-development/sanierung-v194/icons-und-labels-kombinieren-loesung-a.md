@@ -3,25 +3,12 @@ title: "Lösung: Icons und Labels kombinieren: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-development-v194-018a im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "visuelle-qualitaet"
-  - "icons-und-labels-kombinieren"
-  - "loesung-a"
-
+topicPath: ["sanierung-v194", "icons-und-labels-kombinieren-loesung-a"]
 taskId: "web-development-v194-018a"
 relatedExercise: "web-development/sanierung-v194/icons-und-labels-kombinieren-aufgabe-a"
-tags:
-  - "icons"
-  - "labels"
-  - "kombinieren"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-018a`
 
 Ausgangsauftrag: Entscheide, welche Icons ein sichtbares Label brauchen.

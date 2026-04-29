@@ -3,23 +3,12 @@ title: "Lösung – API-Vertrag für Eingabe und Ausgabe beschreiben"
 description: "Musterlösung zu API-Vertrag mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "informatik"
 section: "Sicherheit"
-topicPath:
-  - "sicherheit"
-  - "berechtigungen-und-rollen"
-  - "api-vertrag"
-  - "api-vertrag-fuer-eingabe-und-ausgabe-beschreiben"
+topicPath: ["sicherheit", "berechtigungen-und-rollen", "api-vertrag", "api-vertrag-fuer-eingabe-und-ausgabe-beschreiben"]
 taskId: "v108-informatik-api-vertrag-fuer-eingabe-und-ausgabe-beschreiben"
 relatedExercise: "informatik/sicherheit/berechtigungen-und-rollen/api-vertrag/api-vertrag-fuer-eingabe-und-ausgabe-beschreiben"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "sicherheit"
-  - "berechtigungen-und-rollen"
-  - "api-vertrag"
+tags: ["informatik", "Sicherheit", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **API-Vertrag**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

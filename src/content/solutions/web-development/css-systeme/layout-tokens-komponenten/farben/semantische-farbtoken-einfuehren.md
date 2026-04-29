@@ -3,23 +3,12 @@ title: "Lösung – Semantische Farbtoken einführen"
 description: "Musterlösung zu Farbtoken mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "css-systeme"
-  - "layout-tokens-komponenten"
-  - "farben"
-  - "semantische-farbtoken-einfuehren"
+topicPath: ["css-systeme", "layout-tokens-komponenten", "farben", "semantische-farbtoken-einfuehren"]
 taskId: "v111-web-development-semantische-farbtoken-einfuehren"
 relatedExercise: "web-development/css-systeme/layout-tokens-komponenten/farben/semantische-farbtoken-einfuehren"
-tags:
-  - "web development"
-  - "frontend"
-  - "unterthema"
-  - "css-systeme"
-  - "layout-tokens-komponenten"
-  - "semantische-farbtoken-einfuehren"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Farbtoken**.

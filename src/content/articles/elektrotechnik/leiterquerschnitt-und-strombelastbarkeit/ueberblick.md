@@ -1,37 +1,19 @@
 ---
 title: "Leiterquerschnitt und Strombelastbarkeit"
 description: "Überblick über Leiterquerschnitt, Erwärmung und sichere Stromführung in Leitungen und Leiterbahnen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Grundlagen und Messpraxis"
-topicPath:
-  - "leiterquerschnitt-und-strombelastbarkeit"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Leiterquerschnitt und Strombelastbarkeit als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["leiterquerschnitt-und-strombelastbarkeit", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Leitungen nur nach mechanischer Passform auszuwählen und den Strompfad nicht als thermisches Bauteil zu betrachten."
-keyTakeaways:
-  - "Leiterquerschnitt beeinflusst Spannungsfall und Erwärmung."
-  - "Strombelastbarkeit hängt auch von Länge, Umgebung und Aufbau ab."
-  - "Sichere Auslegung betrachtet Normalbetrieb und Fehlerfall."
-recognizeSignals:
-  - "Es geht um Kabel, Leiterbahnen, Erwärmung oder Spannungsabfall."
-  - "Ein Verbraucher zieht mehr Strom als ein dünner Signalpfad verträgt."
-selfCheckPoints:
-  - "Kann ich Leiterquerschnitt und Strombelastbarkeit in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "leiter"
-  - "strom"
-  - "sicherheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Grundlagen und Messpraxis"]
 draft: false
 ---
-
 # Leiterquerschnitt und Strombelastbarkeit
 
 Der Leiterquerschnitt beschreibt, wie viel leitendes Material einem Strompfad zur Verfügung steht. Er beeinflusst Widerstand, Spannungsfall und Erwärmung.

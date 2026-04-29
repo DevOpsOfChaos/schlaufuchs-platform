@@ -3,41 +3,15 @@ title: "CSS – align-content und align-items in Flexbox unterscheiden"
 description: "Lerne, warum align-items einzelne Flex-Zeilen ausrichtet und align-content erst bei mehreren Zeilen im Container sichtbar wird."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "flexbox"
-  - "align-content-und-align-items-in-flexbox-unterscheiden"
-learningGoals:
-  - "Du unterscheidest Ausrichtung innerhalb einer Zeile von Verteilung mehrerer Zeilen."
-  - "Du erkennst, warum align-content ohne Umbruch oft keine sichtbare Wirkung hat."
-  - "Du prüfst Flexbox-Eigenschaften am konkreten Layoutzustand."
-practiceIdeas:
-  - "Prüfe ein kleines Beispiel zuerst fachlich und erst danach im Code."
-  - "Vergleiche eine schwache und eine bessere Umsetzung."
-  - "Teste die Entscheidung mit Tastatur, kleiner Breite und verständlichem sichtbarem Text."
-commonMistakes:
-  - "align-content zu setzen, obwohl nur eine Flex-Zeile existiert."
-  - "align-items und justify-content nach Gefühl zu tauschen."
-  - "Flex-Wrap nicht mitzudenken."
-keyTakeaways:
-  - "Die sichtbare Bedeutung und die technische Struktur müssen zusammenpassen."
-  - "Robuste Weboberflächen entstehen durch kleine, bewusst geprüfte Entscheidungen."
-  - "Ein gutes Review fragt nach Nutzbarkeit, Semantik, Layout und Wartbarkeit."
-recognizeSignals:
-  - "Es geht um HTML- oder CSS-Entscheidungen, die nicht nur optisch wirken."
-  - "Eine Aufgabe fragt nach Bedienbarkeit, Lesbarkeit oder semantischer Zuordnung."
-  - "Der Code funktioniert scheinbar, aber die Nutzererfahrung ist noch unsicher."
-selfCheckPoints:
-  - "Kann ich die Entscheidung ohne Fachjargon erklären?"
-  - "Passt der sichtbare Text zur technischen Struktur?"
-  - "Bleibt die Lösung bei kleinen Breiten und Tastaturbedienung nutzbar?"
-tags:
-  - "web development"
-  - "css"
-  - "flexbox"
-  - "align-content"
-  - "align-items"
+topicPath: ["css", "flexbox", "align-content-und-align-items-in-flexbox-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
 ## Grundidee

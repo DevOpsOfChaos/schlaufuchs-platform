@@ -1,12 +1,17 @@
 ---
-title: Natürliche Zahlen ordnen und prüfen
-description: Diese Aufgabe vertieft Grundideen zu natürlichen Zahlen, Stellenwerten, geraden und ungeraden Zahlen sowie einfacher Teilbarkeit.
-subject: mathematik
-section: Grundlagen
-level: einfach
+title: "Natürliche Zahlen ordnen und prüfen"
+description: "Diese Aufgabe vertieft Grundideen zu natürlichen Zahlen, Stellenwerten, geraden und ungeraden Zahlen sowie einfacher Teilbarkeit."
+subject: "mathematik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "zahlen", "natuerliche-zahlen-ordnen-und-pruefen"]
+taskId: "AUTO-NATUERLICHE-ZAHLEN-ORDNEN-UND-PRUEFEN"
+tags: ["mathematik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben ruhig und sauber. Achte darauf, nicht nur Ergebnisse zu nennen, sondern Begriffe wie gerade, ungerade, Teiler und Vielfaches richtig zu verwenden.

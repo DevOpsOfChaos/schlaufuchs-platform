@@ -3,46 +3,17 @@ title: "Elektrotechnik – Flanke und Pegel im Signalbild trennen"
 description: "Lerne Flanke und Pegel im Signalbild trennen als kleines, klar prüfbares Unterthema mit Abgrenzung, Beispiel und Gegenprobe."
 subject: "elektrotechnik"
 section: "Digitale Praxis"
-topicPath:
-  - "digitale-praxis"
-  - "pegel-timing-entstoerung"
-  - "v110-teil-2"
-  - "flanke-und-pegel-im-signalbild-trennen"
-learningGoals:
-  - "Du erklärst Flanke und Pegel im Signalbild trennen als eigenes Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Erstelle eine Gegenprobe mit verändertem Wert, Zustand oder Kontext."
-  - "Vergleiche die Seite mit einem Nachbarthema und nenne die Trennkante."
-commonMistakes:
-  - "Dauerhaft High wird mit Ereignis verwechselt."
-  - "Das Thema nur einem breiten Kapitel zuordnen."
-  - "Eine Lösung formulieren, die keine konkrete Prüfung enthält."
-keyTakeaways:
-  - "Flanke und Pegel im Signalbild trennen wird über Einordnung, Abgrenzung und Gegenprobe stabil."
-  - "Kleine Unterthemen erhöhen Auffindbarkeit und reduzieren Doppelungen."
-  - "Aufgabe und Lösung sollen dieselbe fachliche Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Ein breites Kapitel wäre als Antwort zu ungenau."
-  - "Ein konkreter Prüfschritt kann die Entscheidung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "digitale-praxis"
-  - "pegel-timing-entstoerung"
-  - "flanke-und-pegel-im-signalbild-trennen"
+topicPath: ["digitale-praxis", "pegel-timing-entstoerung", "v110-teil-2", "flanke-und-pegel-im-signalbild-trennen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["elektrotechnik", "Digitale Praxis"]
 draft: false
 ---
-
 ## Grundidee
 
 **Flanke und Pegel im Signalbild trennen** ist bewusst als enges Unterthema angelegt. Die Seite beantwortet nicht das ganze Kapitel, sondern die kleine fachliche Entscheidung, die in Aufgaben oft den Unterschied macht.

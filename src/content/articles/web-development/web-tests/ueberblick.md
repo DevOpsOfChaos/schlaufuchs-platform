@@ -1,36 +1,19 @@
 ---
 title: "Web-Tests"
 description: "Allgemeiner Überblick über Testarten für Webanwendungen."
-subject: web-development
+subject: "web-development"
 section: "Qualität"
-topicPath:
-  - "web-tests"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Web-Tests als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["web-tests", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden nur einfache Erfolgspfade getestet."
-keyTakeaways:
-  - "Web-Tests prüfen Verhalten auf verschiedenen Ebenen."
-  - "Eine gute Strategie kombiniert schnelle und realistische Tests."
-  - "Fehlerfälle sind genauso wichtig wie Erfolgspfade."
-recognizeSignals:
-  - "Es geht um Web-Tests als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Web-Tests in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "web development"
-  - "tests"
-  - "qualität"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Qualität"]
 draft: false
 ---
-
 # Web-Tests
 
 Web-Tests prüfen, ob Teile einer Anwendung wie erwartet funktionieren. Je nach Ebene geht es um einzelne Funktionen, Komponenten, Integrationen, API-Kommunikation oder vollständige Benutzerabläufe. Tests geben Sicherheit, dass Änderungen keine wichtigen Funktionen beschädigen.

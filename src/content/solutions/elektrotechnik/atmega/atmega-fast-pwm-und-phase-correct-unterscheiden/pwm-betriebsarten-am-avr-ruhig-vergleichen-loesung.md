@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – PWM-Betriebsarten am AVR ruhig vergleichen
-description: Musterlösung zur Aufgabe ET-ATMEGA-PWM-209.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - timer-und-pwm
-  - atmega-fast-pwm-und-phase-correct-unterscheiden
-  - pwm-betriebsarten-am-avr-ruhig-vergleichen-loesung
-taskId: ET-ATMEGA-PWM-209
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-fast-pwm-und-phase-correct-unterscheiden/pwm-betriebsarten-am-avr-ruhig-vergleichen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - pwm
-  - loesung
+title: "Musterlösung – PWM-Betriebsarten am AVR ruhig vergleichen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-PWM-209."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-fast-pwm-und-phase-correct-unterscheiden", "pwm-betriebsarten-am-avr-ruhig-vergleichen"]
+taskId: "ET-ATMEGA-PWM-209"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-fast-pwm-und-phase-correct-unterscheiden/pwm-betriebsarten-am-avr-ruhig-vergleichen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Bei **Fast PWM** zählt der Timer typischerweise nur aufwärts bis zum oberen Wert und startet dann wieder neu. Bei **Phase Correct PWM** zählt der Timer aufwärts und danach wieder abwärts. Genau dieser Unterschied prägt das Zeitbild des PWM-Signals.

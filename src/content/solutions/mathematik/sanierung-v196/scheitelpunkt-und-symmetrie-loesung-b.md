@@ -1,15 +1,14 @@
 ---
-title: Scheitelpunkt und Symmetrie – Lösung B
-description: Musterlösung zu Scheitelpunkt und Symmetrie mit Kontrolle.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Scheitelpunkt und Symmetrie – Lösung B"
+description: "Musterlösung zu Scheitelpunkt und Symmetrie mit Kontrolle."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "funktionen-im-vergleich", "scheitelpunkt-und-symmetrie"]
 taskId: "mat-v196-scheitelpunkt-und-symmetrie-b"
 relatedExercise: "mathematik/sanierung-v196/scheitelpunkt-und-symmetrie-aufgabe-b"
 tags: ["mathematik", "v196", "funktionen-im-vergleich", "scheitelpunkt-und-symmetrie"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine passende Lösung zu dieser Aufgabe muss nicht exakt dieselben Zahlen oder Beispiele verwenden. Entscheidend ist der saubere Aufbau.

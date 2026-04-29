@@ -3,23 +3,12 @@ title: "Lösung: Fehlersuche bei offener Leitung: Aufgabe B"
 description: "Musterlösung zur Aufgabe etech-v191-026b im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "fehlersuche"
-  - "fehlersuche-bei-offener-leitung"
-  - "loesung-b"
+topicPath: ["sanierung-v191", "fehlersuche-bei-offener-leitung-aufgabe-b"]
 taskId: "etech-v191-026b"
 relatedExercise: "elektrotechnik/sanierung-v191/fehlersuche-bei-offener-leitung-aufgabe-b"
-tags:
-  - "fehlersuche"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-026b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Fehlersuche bei offener Leitung“ um einen Messfehler, einen Sicherheitscheck und eine kurze Plausibilitätsprüfung.

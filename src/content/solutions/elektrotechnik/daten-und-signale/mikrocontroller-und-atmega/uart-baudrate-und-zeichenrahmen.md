@@ -1,24 +1,14 @@
 ---
 title: "Lösung – UART-Fehlerbilder über Baudrate und Rahmen erklären"
 description: "Musterlösung zur Diagnose typischer UART-Probleme und zur Erklärung des Zeichenrahmens."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - uart-baudrate-und-zeichenrahmen
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "uart-baudrate-und-zeichenrahmen"]
 taskId: "et-mc-uart-baudrate-rahmen"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/uart-baudrate-und-zeichenrahmen"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - uart
-  - baudrate
-  - debugging
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
-
 ## Lösung zu Aufgabe 1
 
 Mögliche Ursachen sind unterschiedliche Baudraten, abweichende Einstellungen für Datenbits, Parität oder Stoppbits sowie eine Taktquelle, die nicht zur angenommenen Baudrate passt.

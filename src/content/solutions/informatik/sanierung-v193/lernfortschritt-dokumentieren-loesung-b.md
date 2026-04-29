@@ -3,23 +3,12 @@ title: "Lösung: Lernfortschritt dokumentieren: Aufgabe B"
 description: "Musterlösung zur Aufgabe informatik-v193-032b im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "zusammenarbeit-und-audit"
-  - "lernfortschritt-dokumentieren"
-  - "loesung-b"
+topicPath: ["sanierung-v193", "lernfortschritt-dokumentieren-loesung-b"]
 taskId: "informatik-v193-032b"
 relatedExercise: "informatik/sanierung-v193/lernfortschritt-dokumentieren-aufgabe-b"
-tags:
-  - "lernfortschritt"
-  - "dokumentieren"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-032b`
 
 Ausgangsauftrag: Übertrage das Thema Lernfortschritt dokumentieren auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

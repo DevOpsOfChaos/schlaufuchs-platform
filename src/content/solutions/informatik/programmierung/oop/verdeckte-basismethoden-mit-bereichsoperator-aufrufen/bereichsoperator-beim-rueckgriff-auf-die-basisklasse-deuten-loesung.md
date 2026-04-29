@@ -1,21 +1,14 @@
 ---
-title: Loesung – Bereichsoperator beim Rueckgriff auf die Basisklasse deuten
-description: Musterloesung zur Aufgabe ueber verdeckte Basismethoden und qualifizierten Zugriff.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - verdeckte-basismethoden-mit-bereichsoperator-aufrufen
-taskId: INF-PROG-OOP-020
-relatedExercise: informatik/programmierung/oop/verdeckte-basismethoden-mit-bereichsoperator-aufrufen/bereichsoperator-beim-rueckgriff-auf-die-basisklasse-deuten
-tags:
-  - informatik
-  - oop
-  - loesung
+title: "Loesung – Bereichsoperator beim Rueckgriff auf die Basisklasse deuten"
+description: "Musterloesung zur Aufgabe ueber verdeckte Basismethoden und qualifizierten Zugriff."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "verdeckte-basismethoden-mit-bereichsoperator-aufrufen", "bereichsoperator-beim-rueckgriff-auf-die-basisklasse-deuten"]
+taskId: "INF-PROG-OOP-020"
+relatedExercise: "informatik/programmierung/oop/verdeckte-basismethoden-mit-bereichsoperator-aufrufen/bereichsoperator-beim-rueckgriff-auf-die-basisklasse-deuten"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterloesung
 
 ### Aufgabe 1

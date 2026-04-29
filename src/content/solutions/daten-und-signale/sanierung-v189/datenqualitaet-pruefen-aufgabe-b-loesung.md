@@ -3,22 +3,12 @@ title: "Lösung: Datenqualität prüfen: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe dat-v189-042b."
 subject: "daten-und-signale"
 section: "datenpraxis"
-topicPath:
-  - "datenpraxis"
-  - "datenqualitaet-pruefen"
-  - "loesung-b"
+topicPath: ["sanierung-v189", "datenqualitaet-pruefen-aufgabe-b"]
 taskId: "dat-v189-042b"
 relatedExercise: "daten-und-signale/sanierung-v189/datenqualitaet-pruefen-aufgabe-b"
-tags:
-  - "datenqualitaet"
-  - "pruefen"
-  - "analyse"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-042b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

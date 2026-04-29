@@ -1,46 +1,19 @@
 ---
 title: "Mathematik – Quadratisches Wachstum erkennen"
 description: "Trainiere Quadratisches Wachstum erkennen als kleines Unterthema mit klarer Trennkante, Beispiel und Gegenprobe."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "funktionsdenken-v115"
-  - "nichtlineare-verlaeufe"
-  - "quadratisches-wachstum-erkennen-v115"
-learningGoals:
-  - "Du erklärst Quadratisches Wachstum erkennen an einem kleinen, abgegrenzten Fall."
-  - "Du trennst das Unterthema von einem naheliegenden Nachbarthema."
-  - "Du formulierst eine passende Gegenprobe statt nur eine fertige Antwort."
-practiceIdeas:
-  - "Schreibe zuerst die Prüffrage in eigenen Worten auf."
-  - "Markiere im Fall zwei Hinweise, die wirklich zur Entscheidung gehören."
-  - "Formuliere einen Gegenfall, in dem die Entscheidung anders ausfallen würde."
-commonMistakes:
-  - "Verdopplung der Seitenlänge wird mit Verdopplung der Fläche verwechselt."
-  - "Das Thema wird zu breit eingeordnet und verliert dadurch die prüfbare Trennkante."
-  - "Die Lösung nennt ein Ergebnis, begründet aber nicht die Abgrenzung."
-keyTakeaways:
-  - "Dieses Unterthema prüft vor allem: Welche Größe wird mit sich selbst multipliziert?"
-  - "Eine gute Lösung benennt die Trennkante ausdrücklich."
-  - "Die Gegenprobe zeigt, ob die Begründung wirklich trägt."
-recognizeSignals:
-  - "Die Aufgabe fragt nach Quadratisches Wachstum erkennen."
-  - "Ähnliche Begriffe oder Fälle liegen nah beieinander."
-  - "Eine kleine Änderung im Fall würde zu einer anderen Entscheidung führen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-level: mittel
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "funktionsdenken"
-  - "nichtlineare verläufe"
+topicPath: ["funktionsdenken-v115", "nichtlineare-verlaeufe", "quadratisches-wachstum-erkennen-v115"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["mathematik", "Feinstruktur Mathematik"]
 draft: false
 ---
-
 <img src="/schlaufuchs-platform/illustrations/mathematik-quadratisches-wachstum-erkennen-v115.svg" alt="Lernillustration zu Quadratisches Wachstum erkennen" loading="lazy" />
 
 ## Grundidee

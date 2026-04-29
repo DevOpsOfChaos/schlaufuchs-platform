@@ -1,36 +1,19 @@
 ---
 title: "Logic-Level-MOSFET"
 description: "Ein Logic-Level-MOSFET ist so ausgelegt, dass er bei typischen Logikspannungen wie 3,3 V oder 5 V ausreichend leitend werden kann."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Leistungselektronik"
-topicPath:
-  - "logic-level-mosfet"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Logic-Level-MOSFET als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["logic-level-mosfet", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, nur VGS(th) zu lesen und daraus zu schließen, der MOSFET sei vollständig eingeschaltet."
-keyTakeaways:
-  - "Ein Logic-Level-MOSFET ist so ausgelegt, dass er bei typischen Logikspannungen wie 3,3 V oder 5 V ausreichend leitend werden kann."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Logic-Level-MOSFET, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Logic-Level-MOSFET in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "mosfet"
-  - "logikpegel"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Leistungselektronik"]
 draft: false
 ---
-
 # Logic-Level-MOSFET
 
 Ein Logic-Level-MOSFET ist so ausgelegt, dass er bei typischen Logikspannungen wie 3,3 V oder 5

@@ -3,25 +3,12 @@ title: "Lösung: Updates und Risikoabschätzung: Aufgabe A"
 description: "Musterlösung zur Aufgabe linux-v192-014a im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "pakete-und-updates"
-  - "updates-und-risikoabschaetzung"
-  - "loesung-a"
+topicPath: ["sanierung-v192", "updates-und-risikoabschaetzung-loesung-a"]
 taskId: "linux-v192-014a"
 relatedExercise: "linux/sanierung-v192/updates-und-risikoabschaetzung-aufgabe-a"
-tags:
-  - "pakete-und-updates"
-  - "updates"
-  - "risikoabschaetzung"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-014a`
 
 Ausgangsauftrag: Plane ein kleines Updatefenster mit Rückfallplan.

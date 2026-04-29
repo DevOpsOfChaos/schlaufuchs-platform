@@ -3,25 +3,12 @@ title: "Lösung: Fehlermeldungen hilfreich formulieren: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-development-v194-009b im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "formulare-und-feedback"
-  - "fehlermeldungen-hilfreich-formulieren"
-  - "loesung-b"
-
+topicPath: ["sanierung-v194", "fehlermeldungen-hilfreich-formulieren-loesung-b"]
 taskId: "web-development-v194-009b"
 relatedExercise: "web-development/sanierung-v194/fehlermeldungen-hilfreich-formulieren-aufgabe-b"
-tags:
-  - "fehlermeldungen"
-  - "hilfreich"
-  - "formulieren"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-009b`
 
 Ausgangsauftrag: Übertrage das Thema Fehlermeldungen hilfreich formulieren auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

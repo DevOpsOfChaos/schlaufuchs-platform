@@ -3,44 +3,17 @@ title: "HTML – details und summary für Zusatzinformationen nutzen"
 description: "Lerne, wann aufklappbare Zusatzinformationen sinnvoll sind und wann wichtige Inhalte sichtbar bleiben müssen."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "navigation-und-menues"
-  - "details-summary-fuer-zusatzinformationen-nutzen"
-learningGoals:
-  - "Du erklärst die Rollen von details und summary."
-  - "Du entscheidest, ob Inhalt optional oder zwingend sichtbar ist."
-  - "Du formulierst summary-Texte so, dass der ausgeklappte Inhalt erwartbar wird."
-practiceIdeas:
-  - "Prüfe eine vorhandene Seite mit genau dieser Fragestellung."
-  - "Formuliere eine kleine Vorher-nachher-Verbesserung."
-  - "Teste die Entscheidung mit Tastatur, kleiner Breite und längeren Texten."
-commonMistakes:
-  - "Pflichtinformationen in details zu verstecken."
-  - "summary nur als „Mehr“ zu beschriften."
-  - "Aufklappbereiche als Ersatz für eine klare Seitenstruktur zu verwenden."
-keyTakeaways:
-  - "Bedeutung, Technik und Nutzungssituation müssen zusammenpassen."
-  - "Eine optisch passende Lösung ist noch nicht automatisch strukturell gut."
-  - "Kleine Prüfregeln helfen, Weboberflächen verlässlich zu verbessern."
-recognizeSignals:
-  - "Du siehst eine Stelle, die optisch funktioniert, aber fachlich unklar bleibt."
-  - "Im Review taucht die Frage auf, ob HTML-Struktur oder CSS-Verhalten wirklich passt."
-  - "Eine Komponente soll robuster, zugänglicher oder wartbarer werden."
-selfCheckPoints:
-  - "Kann ich die fachliche Bedeutung der Stelle benennen?"
-  - "Kann ich die technische Entscheidung begründen?"
-  - "Kann ich eine typische Fehlinterpretation vermeiden?"
-tags:
-  - "web development"
-  - "html"
-  - "details"
-  - "summary"
-  - "ux"
+topicPath: ["html", "navigation-und-menues", "details-summary-fuer-zusatzinformationen-nutzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Diese Seite hilft dir, **details und summary für Zusatzinformationen nutzen** nicht als isolierte Technik zu lernen. Entscheidend ist, welche Bedeutung auf der Seite entsteht und ob diese Bedeutung für Nutzerinnen und Nutzer zuverlässig erkennbar bleibt.

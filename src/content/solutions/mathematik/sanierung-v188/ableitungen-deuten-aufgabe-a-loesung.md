@@ -3,22 +3,12 @@ title: "Lösung: Ableitungen deuten: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-061a."
 subject: "mathematik"
 section: "analysis-pruefschritte"
-topicPath:
-  - "analysis-pruefschritte"
-  - "ableitungen-deuten"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "ableitungen-deuten-aufgabe-a"]
 taskId: "mat-v188-061a"
 relatedExercise: "mathematik/sanierung-v188/ableitungen-deuten-aufgabe-a"
-tags:
-  - "ableitung"
-  - "analysis"
-  - "deuten"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "analysis-pruefschritte", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-061a`
 
 Eine mögliche Lösung:

@@ -1,37 +1,19 @@
 ---
 title: "Grundlagen: Responsive Layouts"
 description: "Allgemeiner Überblick über flexible Weblayouts, Viewports, Umbrüche, Lesbarkeit und mobile Gestaltung."
-subject: web-development
+subject: "web-development"
 section: "CSS"
-topicPath:
-  - css
-  - responsive-layouts
-  - ueberblick
-  - grundlagen-responsive-layouts
-learningGoals:
-  - "Du erklärst, was ein responsives Layout ist."
-  - "Du beschreibst, warum Breite, Inhalt und Lesbarkeit zusammen geplant werden."
-  - "Du ordnest Media Queries als ein Werkzeug unter mehreren ein."
+topicPath: ["css", "responsive-layouts", "ueberblick", "grundlagen-responsive-layouts"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Responsive Design nur als Handy-Version zu verstehen."
-  - "Feste Pixelbreiten überall einzusetzen."
-  - "Media Queries zu verwenden, ohne den Inhalt zu prüfen."
-keyTakeaways:
-  - "Responsive Layouts passen sich verfügbaren Breiten an."
-  - "Lesbarkeit ist wichtiger als bloßes Zusammenquetschen."
-  - "Flexible Größen, Umbrüche und sinnvolle Grenzen arbeiten zusammen."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - css
-  - responsive
-  - layout
-  - viewport
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Begriff
 
 Ein **responsives Layout** passt sich an unterschiedliche Bildschirmgrößen und Eingabesituationen an. Eine Webseite soll auf einem großen Monitor, einem Tablet und einem Smartphone nutzbar bleiben, ohne dass Inhalte unlesbar oder Bedienelemente schwer erreichbar werden.

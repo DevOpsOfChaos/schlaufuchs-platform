@@ -3,37 +3,15 @@ title: "Links und Buttons trennen: Aufgabe B"
 description: "Übertrage das Thema Links und Buttons trennen auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "interaktion-und-fokus"
-  - "links-und-buttons-trennen"
-  - "aufgabe-b"
-
+topicPath: ["sanierung-v194", "links-und-buttons-trennen-aufgabe-b"]
 taskId: "web-development-v194-007b"
-tags:
-  - "links"
-  - "buttons"
-  - "trennen"
-  - "web-development"
-  - "aufgabe"
-  - "v194"
-
-hintPoints:
-  - "Beschreibe zuerst die konkrete Seitensituation."
-  - "Trenne Beobachtung, gewünschtes Verhalten und Änderung."
-  - "Lege einen kleinen Kontrollpunkt fest."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Links und Buttons trennen."
-  - "Die Prüfung ist klein genug, um sie direkt nachzuvollziehen."
-  - "Nutzerperspektive und technische Umsetzung werden nicht vermischt."
-transferIdeas:
-  - "Übertrage den Prüfweg auf eine andere Bildschirmbreite."
-  - "Notiere, welcher Zustand zusätzlich getestet werden sollte."
-reflectionPrompt: "Welche Annahme über Nutzerinnen und Nutzer wäre gefährlich, wenn sie still falsch bleibt?"
+tags: ["web-development", "barrierefreiheit-responsive-ux", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Übertrage das Thema Links und Buttons trennen auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

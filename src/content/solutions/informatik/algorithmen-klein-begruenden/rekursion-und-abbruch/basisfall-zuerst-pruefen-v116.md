@@ -3,22 +3,12 @@ title: "Lösung: Basisfall zuerst prüfen"
 description: "Musterlösung zur Aufgabe „Basisfall zuerst prüfen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "algorithmen-klein-begruenden"
-  - "rekursion-und-abbruch"
-  - "basisfall-zuerst-pruefen-v116"
+topicPath: ["algorithmen-klein-begruenden", "rekursion-und-abbruch", "basisfall-zuerst-pruefen-v116"]
 taskId: "basisfall-zuerst-pruefen-v116"
 relatedExercise: "informatik/algorithmen-klein-begruenden/rekursion-und-abbruch/basisfall-zuerst-pruefen-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "rekursion und abbruch"
-  - "basisfall zuerst pruefen"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

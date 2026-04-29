@@ -1,44 +1,19 @@
 ---
-title: Bilder und Alt-Texte
-description: Verstehe, wie Bilder im Web eingebunden werden und warum gute Alternativtexte für Bedeutung, Funktion und Zugänglichkeit entscheidend sind.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - bilder-und-alt-texte
-tags:
-  - bild
-  - alt
-  - zugänglichkeit
-  - html
-learningGoals:
-  - Du erklärst, warum Bilder im Web einen passenden Alternativtext brauchen können.
-  - Du unterscheidest informative, dekorative und funktionale Bilder grob voneinander.
-  - Du erkennst, dass guter Alternativtext die Bedeutung oder Funktion beschreibt und nicht nur das Aussehen.
-practiceIdeas:
-  - Vergleiche für ein Bild mehrere mögliche Alt-Texte und bewerte sie.
-  - Ordne Bilder danach ein, ob sie informativ, dekorativ oder funktional sind.
-  - Prüfe bei einem Beispiel, ob der Alternativtext wirklich den Zweck des Bildes trifft.
-commonMistakes:
-  - Jedes Bild mit demselben allgemeinen Muster zu beschreiben.
-  - Bei funktionalen Bildern nur das Aussehen statt die Aktion zu benennen.
-  - Dekorative Bilder unnötig mit bedeutungsleerem Text zu versehen.
-keyTakeaways:
-  - Alt-Texte sollen Bedeutung oder Funktion eines Bildes zugänglich machen.
-  - Nicht jedes Bild braucht denselben Typ von Alternativtext.
-  - Guter Alternativtext richtet sich nach dem Zweck des Bildes im Kontext.
-recognizeSignals:
-  - Es geht um Bilder, img, alt, Zugänglichkeit oder den Sinn eines Bildes im Kontext.
-  - Du sollst entscheiden, was ein guter Alt-Text leisten muss.
-  - Ein Beispiel fragt nicht nur nach HTML-Syntax, sondern nach der Funktion des Bildes.
-selfCheckPoints:
-  - Kann ich zwischen dekorativem, informativem und funktionalem Bild unterscheiden?
-  - Kann ich erklären, warum ein Alt-Text den Zweck statt nur die Optik beschreiben soll?
-  - Kann ich für ein Beispiel einen passenden Alternativtext formulieren?
-level: einfach
+title: "Bilder und Alt-Texte"
+description: "Verstehe, wie Bilder im Web eingebunden werden und warum gute Alternativtexte für Bedeutung, Funktion und Zugänglichkeit entscheidend sind."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "bilder-und-alt-texte"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Bilder sind im Web nicht nur Schmuck. Sie transportieren Informationen, unterstützen Orientierung oder lösen sogar Aktionen aus. Genau deshalb reicht es nicht, sie nur visuell zu betrachten.

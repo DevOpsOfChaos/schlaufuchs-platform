@@ -1,28 +1,17 @@
 ---
 title: "Freilaufdiode bei Relais begründen"
 description: "Beschreibe, warum eine Relaisspule beim Abschalten Schutz braucht."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schaltungen"
-topicPath:
-  - schaltungen
-  - induktive-lasten-und-freilaufdioden
-taskId: ET-V181-007
-tags:
-  - elektrotechnik
-  - induktive-lasten-und-freilaufdioden
-  - sanierung-v181
-hintPoints:
-  - "Lies zuerst den Normalzustand und dann den Fehlerfall."
-  - "Trenne elektrische Ebene, logische Bedeutung und praktische Prüfung."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["schaltungen", "induktive-lasten-und-freilaufdioden", "freilaufdiode-bei-relais-begruenden"]
+taskId: "ET-V181-007"
+tags: ["elektrotechnik", "Schaltungen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **Induktive Lasten und Freilaufdioden** ruhig und schrittweise.

@@ -1,35 +1,17 @@
 ---
 title: "Infrastructure Layer"
 description: "Überblick über die Infrastrukturschicht und ihre Rolle bei Datenbanken, Dateien, Netzwerken und externen Diensten."
-subject: informatik
+subject: "informatik"
 section: "Softwarearchitektur"
-topicPath:
-  - "infrastructure-layer"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Infrastructure Layer als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["infrastructure-layer", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, Datenbankmodelle direkt als fachliche Modelle zu behandeln."
-keyTakeaways:
-  - "Der Infrastructure Layer enthält technische Details, mit denen ein System Daten speichert, Nachrichten sendet oder externe Schnittstellen nutzt."
-  - "Er hält fachliche Logik unabhängig von konkreten Datenbanken, Frameworks und Protokollen."
-  - "Infrastruktur darf fachliche Entscheidungen nicht übernehmen, nur weil sie technisch nahe an den Daten liegt."
-recognizeSignals:
-  - "Es geht um Infrastructure Layer, wenn repository-Implementierungen, HTTP-Clients und Dateizugriffe liegen häufig hier."
-  - "Das Thema wird relevant, wenn Beispiele wie die Domäne verlangt ein Aufgaben-Repository; die Infrastrukturschicht implementiert es mit SQLite, PostgreSQL oder einer Datei."
-selfCheckPoints:
-  - "Kann ich Infrastructure Layer in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "softwarearchitektur"
-  - "infrastruktur"
-  - "adapter"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Softwarearchitektur"]
 draft: false
 ---
 # Infrastructure Layer

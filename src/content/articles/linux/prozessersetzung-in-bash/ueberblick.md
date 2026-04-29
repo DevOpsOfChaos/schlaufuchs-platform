@@ -1,35 +1,17 @@
 ---
 title: "Prozessersetzung in Bash"
 description: "Überblick über Process Substitution als Technik, Befehlsausgaben wie Dateien zu verwenden."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - "prozessersetzung-in-bash"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Prozessersetzung in Bash als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["prozessersetzung-in-bash", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird angenommen, der Ausdruck erzeuge eine normale Datei. Tatsächlich ist es meist ein spezieller Zugriff auf einen laufenden Prozess."
-keyTakeaways:
-  - "Process Substitution stellt die Ausgabe oder Eingabe eines Befehls über einen temporären Dateipfad oder Dateideskriptor bereit."
-  - "Sie erlaubt Vergleiche und Werkzeuge, die Dateinamen erwarten, ohne echte Zwischendateien anzulegen."
-  - "Process Substitution ist keine normale Datei mit dauerhaftem Inhalt. Manche Programme erwarten echte seekbare Dateien und funktionieren damit nicht."
-recognizeSignals:
-  - "Es geht um Prozessersetzung in Bash, wenn syntax wie <(befehl) liefert einen lesbaren Datenstrom."
-  - "Das Thema wird relevant, wenn Beispiele wie diff <(sort a.txt) <(sort b.txt) vergleicht sortierte Ausgaben, ohne separate Dateien zu erzeugen."
-selfCheckPoints:
-  - "Kann ich Prozessersetzung in Bash in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "bash"
-  - "process substitution"
-  - "shell"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
 # Prozessersetzung in Bash

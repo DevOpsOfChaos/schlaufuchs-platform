@@ -3,35 +3,15 @@ title: "Aufgabe – SPI Chip Select als Geräteauswahl verstehen"
 description: "Übe SPI Chip Select mit einem kleinen Szenario, Prüfschritt und Gegenprobe."
 subject: "elektrotechnik"
 section: "Kommunikation"
-topicPath:
-  - "daten-und-signale"
-  - "buskommunikation"
-  - "spi-chip-select"
-  - "spi-chip-select-als-geraeteauswahl-verstehen"
+topicPath: ["daten-und-signale", "buskommunikation", "spi-chip-select", "spi-chip-select-als-geraeteauswahl-verstehen"]
 taskId: "v109-elektrotechnik-spi-chip-select-als-geraeteauswahl-verstehen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "daten-und-signale"
-  - "buskommunikation"
-  - "spi chip select"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert oder Zustand und prüfe, ob die Begründung stabil bleibt."
-  - "Übertrage den Prüfschritt auf ein Nachbarthema und nenne den Unterschied."
-reflectionPrompt: "Welche kleine Trennkante macht SPI Chip Select übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["elektrotechnik", "Kommunikation", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **SPI Chip Select**.

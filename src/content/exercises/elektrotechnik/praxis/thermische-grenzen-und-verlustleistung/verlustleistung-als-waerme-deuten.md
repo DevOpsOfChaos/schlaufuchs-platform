@@ -1,28 +1,17 @@
 ---
 title: "Verlustleistung als Wärme deuten"
 description: "Erkläre, warum ein Bauteil trotz korrekter Funktion zu heiß werden kann."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - praxis
-  - thermische-grenzen-und-verlustleistung
-taskId: ET-V181-021
-tags:
-  - elektrotechnik
-  - thermische-grenzen-und-verlustleistung
-  - sanierung-v181
-hintPoints:
-  - "Lies zuerst den Normalzustand und dann den Fehlerfall."
-  - "Trenne elektrische Ebene, logische Bedeutung und praktische Prüfung."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["praxis", "thermische-grenzen-und-verlustleistung", "verlustleistung-als-waerme-deuten"]
+taskId: "ET-V181-021"
+tags: ["elektrotechnik", "Praxis", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **Thermische Grenzen und Verlustleistung** ruhig und schrittweise.

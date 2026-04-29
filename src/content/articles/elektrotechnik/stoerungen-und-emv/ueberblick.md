@@ -1,31 +1,17 @@
 ---
 title: "Störungen und EMV"
 description: "Allgemeiner Überblick über elektrische Störungen, elektromagnetische Verträglichkeit und robuste Schaltungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis und Fehlersuche"
-topicPath:
-  - "stoerungen-und-emv"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Störungen und EMV grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["stoerungen-und-emv", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Störungen und EMV nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Störungen und EMV beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Störungen und EMV, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Störungen und EMV in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "emv"
-  - "stoerungen"
-  - "robustheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Praxis und Fehlersuche"]
 draft: false
 ---
 # Störungen und EMV

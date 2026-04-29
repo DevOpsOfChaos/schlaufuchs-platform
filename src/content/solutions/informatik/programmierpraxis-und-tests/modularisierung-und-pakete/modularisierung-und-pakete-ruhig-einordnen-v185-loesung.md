@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Modularisierung und Pakete – ruhig einordnen"
 description: "Musterlösung zur Aufgabe über modularisierung und pakete."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "modularisierung-und-pakete"
-  - "loesung"
-taskId: INF-V185-016-1
-relatedExercise: src/content/exercises/informatik/programmierpraxis-und-tests/modularisierung-und-pakete/modularisierung-und-pakete-ruhig-einordnen-v185.md
-tags:
-  - "informatik"
-  - "programmierpraxis-und-tests"
-  - "modularisierung-und-pakete"
-  - "loesung"
+topicPath: ["programmierpraxis-und-tests", "modularisierung-und-pakete", "modularisierung-und-pakete-ruhig-einordnen-v185"]
+taskId: "INF-V185-016-1"
+relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/modularisierung-und-pakete/modularisierung-und-pakete-ruhig-einordnen-v185.md"
+tags: ["informatik", "Programmierpraxis und Tests", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

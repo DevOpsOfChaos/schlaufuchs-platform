@@ -1,26 +1,14 @@
 ---
-title: Musterlösung – Member oder freie Funktion begründen
-description: Musterlösung zur Aufgabe INF-PROG-CPP-OPERATOR-002.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - operatoren-und-klassen
-  - member-operatoren-und-freie-funktionen-vergleichen
-  - member-oder-freie-funktion-begruenden-loesung
-taskId: INF-PROG-CPP-OPERATOR-002
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/member-operatoren-und-freie-funktionen-vergleichen/member-oder-freie-funktion-begruenden.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - operatoren
-  - loesung
-  - task-id
+title: "Musterlösung – Member oder freie Funktion begründen"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-OPERATOR-002."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "member-operatoren-und-freie-funktionen-vergleichen", "member-oder-freie-funktion-begruenden"]
+taskId: "INF-PROG-CPP-OPERATOR-002"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/member-operatoren-und-freie-funktionen-vergleichen/member-oder-freie-funktion-begruenden.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: this erklären
 
 Bei einem Member-Operator steckt die linke Seite des Ausdrucks in `this`. Wenn also `a + b` als Member-Funktion umgesetzt ist, wird die Funktion auf `a` aufgerufen, und `b` kommt als Argument dazu.

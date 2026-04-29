@@ -3,23 +3,12 @@ title: "Lösung – ss -tulpn zur Portdiagnose lesen"
 description: "Musterlösung zu ss -tulpn zur Portdiagnose lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Netzwerk"
-topicPath:
-  - "netzwerk-und-ssh"
-  - "verbindungen-und-diagnose"
-  - "v110-teil-2"
-  - "ss-tulpn-zur-portdiagnose-lesen"
+topicPath: ["netzwerk-und-ssh", "verbindungen-und-diagnose", "v110-teil-2", "ss-tulpn-zur-portdiagnose-lesen"]
 taskId: "v110-linux-ss-tulpn-zur-portdiagnose-lesen"
 relatedExercise: "linux/netzwerk-und-ssh/verbindungen-und-diagnose/v110-teil-2/ss-tulpn-zur-portdiagnose-lesen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "netzwerk-und-ssh"
-  - "verbindungen-und-diagnose"
-  - "ss-tulpn-zur-portdiagnose-lesen"
+tags: ["linux", "Netzwerk", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **ss -tulpn zur Portdiagnose lesen**.

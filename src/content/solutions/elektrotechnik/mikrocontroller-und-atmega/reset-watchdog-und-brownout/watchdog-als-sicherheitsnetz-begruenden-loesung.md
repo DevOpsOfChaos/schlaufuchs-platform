@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Watchdog als Sicherheitsnetz begründen"
 description: "Musterlösung zur Aufgabe Watchdog als Sicherheitsnetz begründen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - mikrocontroller-und-atmega
-  - reset-watchdog-und-brownout
-taskId: ET-V181-012
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/reset-watchdog-und-brownout/watchdog-als-sicherheitsnetz-begruenden.md
-tags:
-  - elektrotechnik
-  - reset-watchdog-und-brownout
-  - loesung
+topicPath: ["mikrocontroller-und-atmega", "reset-watchdog-und-brownout", "watchdog-als-sicherheitsnetz-begruenden"]
+taskId: "ET-V181-012"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/reset-watchdog-und-brownout/watchdog-als-sicherheitsnetz-begruenden.md"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

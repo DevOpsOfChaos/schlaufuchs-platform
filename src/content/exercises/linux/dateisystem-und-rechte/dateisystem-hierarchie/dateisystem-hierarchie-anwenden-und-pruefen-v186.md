@@ -1,29 +1,17 @@
 ---
 title: "Dateisystem-Hierarchie – anwenden und prüfen"
 description: "Übe, Dateisystem-Hierarchie an kleinen Praxissituationen zu prüfen."
-subject: linux
+subject: "linux"
 section: "dateisystem-und-rechte"
-topicPath:
-  - "dateisystem-und-rechte"
-  - "dateisystem-hierarchie"
-taskId: LINUX-DATEISYSTEM-HIERARCHIE-V186-2
-tags:
-  - "linux"
-  - "dateisystem"
-  - "verzeichnisse"
-  - "aufgabe"
-hintPoints:
-  - "Beginne mit Begriff und Kontext."
-  - "Trenne Beobachtung, Prüfung und mögliche Änderung."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe erklären."
-  - "Ich kann einen typischen Fehler vermeiden."
-transferIdeas:
-  - "Formuliere eine ähnliche Prüfsituation aus deinem eigenen Linux-Alltag."
-level: einfach
+topicPath: ["dateisystem-und-rechte", "dateisystem-hierarchie", "dateisystem-hierarchie-anwenden-und-pruefen-v186"]
+taskId: "LINUX-DATEISYSTEM-HIERARCHIE-V186-2"
+tags: ["linux", "dateisystem-und-rechte", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Lernziel
 
 Du sollst **Dateisystem-Hierarchie** nicht nur als Befehl oder Schlagwort sehen, sondern als geordnetes Linux-Thema mit Zweck, Kontext und typischen Prüfschritten.

@@ -3,23 +3,12 @@ title: "Lösung: Web-Sicherheit-Grundlagen: Prüfung und Verbesserung"
 description: "Musterlösung zur Aufgabe web-v187-026b im Web-Development-Block v187."
 subject: "web-development"
 section: "qualitaet"
-topicPath: 
-  - "qualitaet-und-zugaenglichkeit"
-  - "sicherheit"
-  - "loesung-b"
+topicPath: ["sanierung-v187", "web-sicherheit-grundlagen-aufgabe-b"]
 taskId: "web-v187-026b"
 relatedExercise: "web-development/sanierung-v187/web-sicherheit-grundlagen-aufgabe-b"
-tags: 
-  - "security"
-  - "sicherheit"
-  - "web"
-  - "daten"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "qualitaet", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-026b`
 
     Ausgangsauftrag: Entscheide bei mehreren Datenarten, ob sie öffentlich, intern oder geheim behandelt werden müssen.

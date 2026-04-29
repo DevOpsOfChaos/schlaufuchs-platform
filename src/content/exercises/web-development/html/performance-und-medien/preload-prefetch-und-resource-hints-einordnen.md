@@ -3,34 +3,15 @@ title: "Aufgabe – HTML – preload, prefetch und Resource Hints einordnen"
 description: "Sortiere fünf Ressourcen einer Beispielseite: sofort wichtig, vielleicht später wichtig oder normal ladbar. Begründe preload und prefetch getrennt."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "performance-und-medien"
-  - "preload-prefetch-und-resource-hints-einordnen"
+topicPath: ["html", "performance-und-medien", "preload-prefetch-und-resource-hints-einordnen"]
 taskId: "web-v100-preload-prefetch-und-resource-hints-einordnen"
-tags:
-  - "web development"
-  - "html"
-  - "performance"
-  - "preload"
-  - "prefetch"
-  - "aufgabe"
-hintPoints:
-  - "Lies zuerst die sichtbare Seitensituation, nicht nur einzelne Codezeilen."
-  - "Trenne Ursache, Entscheidung und erwartete Wirkung."
-  - "Denke mindestens einen Fehler-, Lade- oder Randfall mit."
-selfCheckPoints:
-  - "Ist die Entscheidung fachlich begründet?"
-  - "Ist klar, welche Nutzererfahrung verbessert wird?"
-  - "Wird der passende Browser- oder Projektbereich geprüft?"
-transferIdeas:
-  - "Übertrage die Idee auf eine kleine Lernkarte, ein Formular oder eine Navigation."
-  - "Beschreibe eine schwache Variante, die technisch funktioniert, aber didaktisch oder praktisch riskant bleibt."
-reflectionPrompt: "Welche Prüfung hätte den häufigsten Fehler bei dieser Aufgabe am frühesten sichtbar gemacht?"
+tags: ["web-development", "HTML", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Sortiere fünf Ressourcen einer Beispielseite: sofort wichtig, vielleicht später wichtig oder normal ladbar. Begründe preload und prefetch getrennt.

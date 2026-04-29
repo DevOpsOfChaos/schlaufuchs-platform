@@ -3,21 +3,12 @@ title: "Lösung – Einheitenwechsel als Faktor verstehen"
 description: "Musterlösung zu einheitenwechsel als faktor verstehen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "grundlagen"
-  - "einheiten-und-groessen"
-  - "einheitenwechsel-als-faktor-verstehen"
+topicPath: ["grundlagen", "einheiten-und-groessen", "einheitenwechsel-als-faktor-verstehen"]
 taskId: "v112-mathematik-einheitenwechsel-als-faktor-verstehen"
 relatedExercise: "mathematik/grundlagen/einheiten-und-groessen/einheitenwechsel-als-faktor-verstehen"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "grundlagen"
-  - "einheitenwechsel-als-faktor-verstehen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Einheiten und Größen**.

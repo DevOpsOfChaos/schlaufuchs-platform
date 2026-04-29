@@ -3,23 +3,12 @@ title: "Lösung – Klammerauflösung mit Minus kontrollieren"
 description: "Musterlösung zu Minus vor Klammern mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "rechnen-und-schaetzen"
-  - "kopfrechnen-und-plausibilitaet"
-  - "fehlersuche"
-  - "klammeraufloesung-mit-minus-kontrollieren"
+topicPath: ["rechnen-und-schaetzen", "kopfrechnen-und-plausibilitaet", "fehlersuche", "klammeraufloesung-mit-minus-kontrollieren"]
 taskId: "v111-mathematik-klammeraufloesung-mit-minus-kontrollieren"
 relatedExercise: "mathematik/rechnen-und-schaetzen/kopfrechnen-und-plausibilitaet/fehlersuche/klammeraufloesung-mit-minus-kontrollieren"
-tags:
-  - "mathematik"
-  - "prüfung"
-  - "unterthema"
-  - "rechnen-und-schaetzen"
-  - "kopfrechnen-und-plausibilitaet"
-  - "klammeraufloesung-mit-minus-kontrollieren"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Minus vor Klammern**.

@@ -1,12 +1,17 @@
 ---
-title: Aufbau eines C-Programms erkennen
-description: Übe die wichtigsten Bestandteile einfacher C-Programme.
-subject: informatik
-section: c-grundlagen
-level: einfach
+title: "Aufbau eines C-Programms erkennen"
+description: "Übe die wichtigsten Bestandteile einfacher C-Programme."
+subject: "informatik"
+section: "c-grundlagen"
+topicPath: ["aufbau-eines-c-programms-erkennen"]
+taskId: "AUTO-AUFBAU-EINES-C-PROGRAMMS-ERKENNEN"
+tags: ["informatik", "c-grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe frischt eine klassische Einstiegsübung auf: Du sollst nicht sofort komplizierten Code schreiben, sondern zuerst den **Aufbau eines C-Programms sicher lesen und einordnen**.
 
 ## Lernziel

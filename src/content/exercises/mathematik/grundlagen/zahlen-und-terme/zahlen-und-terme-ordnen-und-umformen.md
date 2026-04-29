@@ -1,33 +1,17 @@
 ---
-title: Zahlen und Terme ordnen und umformen
-description: Übe, Terme in Bausteine zu zerlegen und gleichartige Teile sauber zusammenzufassen.
-subject: mathematik
-section: Grundlagen
-topicPath:
-- grundlagen
-- zahlen-und-terme
-- zahlen-und-terme-ordnen-und-umformen
-tags:
-- terme
-- algebra
-- grundlagen
-hintPoints:
-- Markiere Zahlen und Variablen getrennt.
-- Fasse nur gleichartige Terme zusammen.
-- Achte bei Klammern auf Vorzeichen und Struktur.
-selfCheckPoints:
-- Kann ich begründen, warum zwei Terme gleichartig sind oder nicht?
-- Habe ich keine unzulässige Zusammenfassung gemacht?
-- Ist mein Ergebnis übersichtlich und korrekt notiert?
-level: einfach
+title: "Zahlen und Terme ordnen und umformen"
+description: "Übe, Terme in Bausteine zu zerlegen und gleichartige Teile sauber zusammenzufassen."
+subject: "mathematik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "zahlen-und-terme", "zahlen-und-terme-ordnen-und-umformen"]
+taskId: "AUTO-ZAHLEN-UND-TERME-ORDNEN-UND-UMFORMEN"
+tags: ["mathematik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-reflectionPrompt: Warum ist bei Termen oft die Struktur wichtiger als schnelles Rechnen?
-transferIdeas:
-- Übertrage die Idee aus „Zahlen und Terme ordnen und umformen“ auf ein ähnliches Beispiel mit anderen Zahlen, Begriffen oder Bauteilen.
-- Erkläre die Lösung einmal ohne Fachsprache und danach noch einmal fachlich sauber.
 ---
-
-
 ## Aufgabe 1: Gleichartig oder nicht?
 
 Entscheide jeweils:

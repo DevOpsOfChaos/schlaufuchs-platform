@@ -1,44 +1,19 @@
 ---
-title: Daten und Codierung
-description: Verstehe, wie Informationen als Daten dargestellt werden und warum Codierung für digitale Systeme zentral ist.
-subject: informatik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - daten-und-codierung
-tags:
-  - daten
-  - codierung
-  - binär
-  - darstellung
-learningGoals:
-  - "Du unterscheidest Information und Daten sauber voneinander."
-  - "Du verstehst, warum digitale Systeme Informationen in festgelegten Zeichenfolgen darstellen müssen."
-  - "Du ordnest einfache Codierungen und Darstellungen fachlich ein."
-practiceIdeas:
-  - "Vergleiche dieselbe Information als Wort, Zahl und codierte Zeichenfolge."
-  - "Ordne Beispiele danach, was Information und was konkrete Datenrepräsentation ist."
-  - "Erkläre an einem einfachen Beispiel, warum Computer nicht mit Bedeutung, sondern mit Daten arbeiten."
-commonMistakes:
-  - "Information und Daten gleichzusetzen."
-  - "Zu denken, dass Bedeutung direkt im Computer liegt und nicht erst durch Interpretation entsteht."
-  - "Codierung nur als Geheimschrift zu verstehen statt als allgemeine Darstellungsregel."
-keyTakeaways:
-  - "Daten sind Zeichen oder Zustände, die maschinell verarbeitet werden können."
-  - "Information entsteht erst durch Interpretation dieser Daten."
-  - "Codierung legt fest, wie etwas dargestellt wird."
-recognizeSignals:
-  - "Es geht um Darstellung, Codierung, Binärsystem oder den Unterschied zwischen Nachricht, Zeichen und Bedeutung."
-  - "Du sollst erklären, wie etwas im System abgelegt, übertragen oder gelesen wird."
-  - "Ein Beispiel fordert dich auf, dieselbe Aussage in mehreren Darstellungen zu vergleichen."
-selfCheckPoints:
-  - "Kann ich Information und Daten mit eigenen Worten unterscheiden?"
-  - "Kann ich ein einfaches Beispiel für eine Codierung nennen?"
-  - "Kann ich erklären, warum digitale Systeme feste Darstellungsregeln brauchen?"
-level: einfach
+title: "Daten und Codierung"
+description: "Verstehe, wie Informationen als Daten dargestellt werden und warum Codierung für digitale Systeme zentral ist."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "daten-und-codierung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Grundlagen"]
 draft: false
 ---
-
 ## Warum dieses Thema grundlegend ist
 
 Viele Einsteigerthemen in der Informatik wirken auf den ersten Blick sehr technisch. Dahinter steckt aber oft dieselbe Grundfrage: **Wie wird etwas für ein System so dargestellt, dass es verarbeitet werden kann?** Genau darum geht es bei Daten und Codierung.

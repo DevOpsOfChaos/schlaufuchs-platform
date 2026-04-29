@@ -1,48 +1,19 @@
 ---
-title: Pointer nach delete auf null setzen einordnen
-description: Verstehe, warum das Zurücksetzen eines Pointers auf nullptr nach delete ein begrenztes Schutzmuster sein kann, aber nicht alle Alias-Probleme löst.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - dynamischer-speicher
-  - pointer-nach-delete-auf-null-setzen-einordnen
-learningGoals:
-  - Du erklärst, warum ein Pointer nach <code>delete</code> oft auf <code>nullptr</code> gesetzt wird.
-  - Du erkennst, dass dieses Muster nur den konkreten Pointer betrifft und nicht alle möglichen Alias-Pointer.
-  - Du ordnest das Nullsetzen als begrenzte Schutzmaßnahme statt als Allheilmittel ein.
-practiceIdeas:
-  - Vergleiche ein Beispiel mit und ohne <code>p = nullptr;</code> nach <code>delete p;</code>.
-  - Prüfe in kleinen Codes, ob noch weitere Pointer auf dieselbe alte Adresse zeigen.
-  - Formuliere in Worten, was das Nullsetzen verbessert und was nicht.
-commonMistakes:
-  - Zu glauben, das Nullsetzen heile automatisch alle Pointer auf denselben Speicher.
-  - <code>nullptr</code> mit freiem, weiter nutzbarem Speicher zu verwechseln.
-  - Das Schutzmuster als Ersatz für saubere Besitz- und Freigabelogik zu lesen.
-keyTakeaways:
-  - Das Nullsetzen betrifft nur die konkrete Pointervariable.
-  - Es kann Folgefehler über genau diesen Pointer leichter sichtbar machen.
-  - Alias-Pointer bleiben trotzdem ein eigenes Problem.
-recognizeSignals:
-  - Nach <code>delete</code> folgt direkt eine Zuweisung auf <code>nullptr</code>.
-  - In der Aufgabe geht es um Sicherheitsmuster nach Freigabe.
-  - Mehrere Pointer können dieselbe alte Adresse gekannt haben.
-selfCheckPoints:
-  - Kann ich erklären, welchen Pointer <code>p = nullptr;</code> wirklich verändert?
-  - Kann ich begründen, warum das keine allgemeine Lösung für Alias-Pointer ist?
-  - Kann ich das Muster als Hilfe, aber nicht als Wunderwaffe beschreiben?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - pointer
-  - speicher
-  - nullptr
+title: "Pointer nach delete auf null setzen einordnen"
+description: "Verstehe, warum das Zurücksetzen eines Pointers auf nullptr nach delete ein begrenztes Schutzmuster sein kann, aber nicht alle Alias-Probleme löst."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "pointer-nach-delete-auf-null-setzen-einordnen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Diese Seite setzt voraus: Der problematische Zustand nach <code>delete</code> ist schon verstanden. Hier geht es nicht mehr darum, **ob** der Pointer danach gefährlich ist, sondern darum, was das anschließende <code>p = nullptr;</code> lokal verbessert – und was gerade nicht.

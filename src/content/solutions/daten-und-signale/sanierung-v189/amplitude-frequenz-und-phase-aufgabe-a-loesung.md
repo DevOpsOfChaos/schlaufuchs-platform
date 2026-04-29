@@ -3,22 +3,12 @@ title: "Lösung: Amplitude, Frequenz und Phase: Grundordnung"
 description: "Musterlösung zur Aufgabe dat-v189-037a."
 subject: "daten-und-signale"
 section: "analyse"
-topicPath:
-  - "analyse"
-  - "amplitude-frequenz-und-phase"
-  - "loesung-a"
+topicPath: ["sanierung-v189", "amplitude-frequenz-und-phase-aufgabe-a"]
 taskId: "dat-v189-037a"
 relatedExercise: "daten-und-signale/sanierung-v189/amplitude-frequenz-und-phase-aufgabe-a"
-tags:
-  - "amplitude"
-  - "frequenz"
-  - "phase"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "analyse", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-037a`
 
 Eine mögliche Lösung:

@@ -3,23 +3,12 @@ title: "Lösung – SSH-Config Host-Alias sauber nutzen"
 description: "Musterlösung zu SSH-Config mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "SSH"
-topicPath:
-  - "ssh"
-  - "schluessel-und-agent"
-  - "ssh-config"
-  - "ssh-config-host-alias-sauber-nutzen"
+topicPath: ["ssh", "schluessel-und-agent", "ssh-config", "ssh-config-host-alias-sauber-nutzen"]
 taskId: "v108-linux-ssh-config-host-alias-sauber-nutzen"
 relatedExercise: "linux/ssh/schluessel-und-agent/ssh-config/ssh-config-host-alias-sauber-nutzen"
-tags:
-  - "linux"
-  - "shell"
-  - "praxis"
-  - "ssh"
-  - "schluessel-und-agent"
-  - "ssh-config"
+tags: ["linux", "SSH", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **SSH-Config**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

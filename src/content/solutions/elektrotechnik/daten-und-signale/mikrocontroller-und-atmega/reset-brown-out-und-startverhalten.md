@@ -1,24 +1,14 @@
 ---
 title: "Lösung – Reset und Brown-out als Schutzlogik einordnen"
 description: "Musterlösung zu reset und brown-out als schutzlogik einordnen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - reset-brown-out-und-startverhalten
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "reset-brown-out-und-startverhalten"]
 taskId: "et-mc-v92-reset-brownout"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/reset-brown-out-und-startverhalten"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - reset
-  - brown-out
-  - startverhalten
-  - sicherheit
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Bei langsam ansteigender Versorgung kann der Controller kurz in Bereichen arbeiten, in denen Spannung und Takt noch nicht zuverlässig sind. Reset und Brown-out sorgen dafür, dass der Controller nicht in halbgültigen Zuständen weiterläuft, sondern erst nach ausreichender Versorgung definiert startet.

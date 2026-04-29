@@ -1,12 +1,17 @@
 ---
-title: Spannungsteiler berechnen
-description: Diese Aufgabe verbindet Formelverständnis, Teilspannungen und eine erste Praxisprüfung an einfachen Spannungsteilern.
-subject: elektrotechnik
-section: Schaltungstechnik
-level: mittel
+title: "Spannungsteiler berechnen"
+description: "Diese Aufgabe verbindet Formelverständnis, Teilspannungen und eine erste Praxisprüfung an einfachen Spannungsteilern."
+subject: "elektrotechnik"
+section: "Schaltungstechnik"
+topicPath: ["spannungsteiler-berechnen"]
+taskId: "AUTO-SPANNUNGSTEILER-BERECHNEN"
+tags: ["elektrotechnik", "Schaltungstechnik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben schrittweise. Notiere jeweils zuerst die gegebene Gesamtspannung und die beiden Widerstände, bevor du die passende Formel einsetzt.

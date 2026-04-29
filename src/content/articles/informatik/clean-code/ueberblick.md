@@ -1,33 +1,19 @@
 ---
 title: "Clean Code"
 description: "Clean Code bezeichnet Code, der verständlich, wartbar und absichtlich gestaltet ist. Es geht weniger um Geschmack als um Lesbarkeit und Änderbarkeit."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "clean-code"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Clean Code."
-  - "Du kannst Clean Code in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["clean-code", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Schönen Code mit gutem Code gleichzusetzen, ohne Verhalten und Tests zu prüfen."
-keyTakeaways:
-  - "Clean Code bezeichnet Code, der verständlich, wartbar und absichtlich gestaltet ist."
-  - "Wichtig sind vor allem aussagekräftige namen, kleine verantwortlichkeiten und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Clean Code, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Clean Code dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "informatik"
-  - "grundlagen"
-  - "clean code"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Clean Code
 
 ![Schaubild zu Clean Code.](/schlaufuchs-platform/images/overviews/v149/clean-code.svg)

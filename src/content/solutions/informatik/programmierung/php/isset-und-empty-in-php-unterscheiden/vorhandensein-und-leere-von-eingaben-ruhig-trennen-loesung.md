@@ -1,21 +1,14 @@
 ---
-title: Loesung – Vorhandensein und Leere von Eingaben ruhig trennen
-description: Musterloesung zur Aufgabe ueber isset und empty in PHP.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - isset-und-empty-in-php-unterscheiden
-taskId: INF-PHP-FORMS-007
-relatedExercise: informatik/programmierung/php/isset-und-empty-in-php-unterscheiden/vorhandensein-und-leere-von-eingaben-ruhig-trennen
-tags:
-  - informatik
-  - php
-  - loesung
+title: "Loesung – Vorhandensein und Leere von Eingaben ruhig trennen"
+description: "Musterloesung zur Aufgabe ueber isset und empty in PHP."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "isset-und-empty-in-php-unterscheiden", "vorhandensein-und-leere-von-eingaben-ruhig-trennen"]
+taskId: "INF-PHP-FORMS-007"
+relatedExercise: "informatik/programmierung/php/isset-und-empty-in-php-unterscheiden/vorhandensein-und-leere-von-eingaben-ruhig-trennen"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterloesung
 
 ### Aufgabe 1

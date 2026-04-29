@@ -3,22 +3,12 @@ title: "Lösung – JavaScript: Event Listener und Handler klar trennen"
 description: "Musterlösung zur Aufgabe: Beschreibe den Unterschied zwischen showMessage und showMessage() in einem addEventListener. Schreibe ein korrektes Klickbeispiel."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "dom-und-events"
-  - "event-listener-und-handler-klar-trennen"
+topicPath: ["javascript", "dom-und-events", "event-listener-und-handler-klar-trennen"]
 taskId: "web-js-event-listener-und-handler-klar-trennen"
 relatedExercise: "web-development/javascript/dom-und-events/event-listener-und-handler-klar-trennen"
-tags:
-  - "web development"
-  - "javascript"
-  - "events"
-  - "listener"
-  - "handler"
-  - "lösung"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 showMessage ist die Funktionsreferenz. showMessage() führt die Funktion sofort aus und übergibt ihr Ergebnis. Für einen Listener wird die Referenz übergeben: button.addEventListener("click", showMessage).

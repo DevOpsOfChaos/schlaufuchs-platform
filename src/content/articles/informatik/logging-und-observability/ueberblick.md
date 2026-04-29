@@ -1,37 +1,19 @@
 ---
 title: "Logging und Observability"
 description: "Allgemeiner Überblick über Logs, Metriken, Traces und Beobachtbarkeit von Softwaresystemen."
-subject: informatik
+subject: "informatik"
 section: "Betrieb"
-topicPath:
-  - "logging-und-observability"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Logging und Observability als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["logging-und-observability", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird entweder gar nichts geloggt oder so viel, dass Wichtiges untergeht."
-keyTakeaways:
-  - "Observability macht Systemverhalten sichtbar."
-  - "Logs, Metriken und Traces ergänzen sich."
-  - "Gute Signale brauchen Kontext und Maß."
-recognizeSignals:
-  - "Fehler treten nur im Betrieb auf."
-  - "Antwortzeiten, Fehlerraten oder Anfragen müssen nachvollzogen werden."
-selfCheckPoints:
-  - "Kann ich Logging und Observability in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "logging"
-  - "observability"
-  - "betrieb"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Betrieb"]
 draft: false
 ---
-
 # Logging und Observability
 
 Logging und Observability helfen zu verstehen, was ein System im Betrieb tut. Logs, Metriken und Traces liefern unterschiedliche Blickwinkel.

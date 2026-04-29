@@ -1,49 +1,19 @@
 ---
 title: "Mikrocontroller – SPI, Chip Select und Busdisziplin verstehen"
 description: "Lerne, warum SPI nicht nur aus schnellen Datenleitungen besteht, sondern klare Chip-Select-Regeln und passende Modi braucht."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - spi-chip-select-und-busdisziplin
-learningGoals:
-  - "Du erklärst die Rollen von SCK, MOSI, MISO und Chip Select."
-  - "Du beschreibst, warum nur der ausgewählte SPI-Teilnehmer auf MISO treiben darf."
-  - "Du unterscheidest Verdrahtungsfehler, Modusfehler und Chip-Select-Fehler."
-practiceIdeas:
-  - "Skizziere einen SPI-Bus mit zwei Teilnehmern und getrennten CS-Leitungen."
-  - "Prüfe, was passiert, wenn zwei CS-Leitungen gleichzeitig aktiv sind."
-  - "Vergleiche falschen SPI-Modus mit falscher Verdrahtung."
-commonMistakes:
-  - "MISO mehrerer Geräte ohne sauberen Chip Select gleichzeitig treiben zu lassen."
-  - "CPOL/CPHA-Modus zu ignorieren, weil „SPI immer gleich“ wirke."
-  - "Chip Select als optionale Komfortleitung zu behandeln."
-keyTakeaways:
-  - "SPI braucht klare Rollen: Takt, Datenrichtung und Auswahlleitung."
-  - "Chip Select entscheidet, welcher Teilnehmer gerade auf die gemeinsame Kommunikation reagiert."
-  - "Falscher Modus oder schlechte CS-Disziplin erzeugt Datenmüll, obwohl die Kabel scheinbar stimmen."
-recognizeSignals:
-  - "Es geht um MOSI, MISO, SCK, CS, SS, SPI-Modus oder mehrere Geräte am Bus."
-  - "Ein Sensor liefert nur 0xFF, 0x00 oder wechselnde Fantasiewerte."
-  - "Eine Aufgabe fragt, warum zwei Teilnehmer nicht gleichzeitig aktiv sein dürfen."
-selfCheckPoints:
-  - "Kann ich MOSI und MISO aus Sicht des Masters erklären?"
-  - "Kann ich sagen, warum CS meistens aktiv Low ist?"
-  - "Kann ich Modusfehler und Buskonflikt unterscheiden?"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - spi
-  - chip-select
-  - bus
-  - miso
-  - mosi
-level: mittel
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "spi-chip-select-und-busdisziplin"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-
 ## Grundidee
 
 SPI ist schnell und direkt, aber nicht automatisch narrensicher. Der Master liefert den Takt, sendet über MOSI, empfängt über MISO und wählt über Chip Select genau den Teilnehmer aus, der gerade gemeint ist.

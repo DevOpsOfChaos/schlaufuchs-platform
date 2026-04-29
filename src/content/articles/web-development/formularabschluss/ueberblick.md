@@ -1,33 +1,17 @@
 ---
 title: "Formularabschluss"
 description: "Überblick über den letzten Schritt eines Formulars: Prüfung, Bestätigung, Absenden, Rückmeldung und Wiederherstellung."
-subject: web-development
+subject: "web-development"
 section: "Formulare"
-topicPath:
-  - "formularabschluss"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Formularabschluss als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["formularabschluss", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein Formular ist nicht fertig, wenn der Submit-Button sichtbar ist. Entscheidend ist, was bei Fehlern, langsamer Verbindung oder erfolgreichem Versand passiert."
-keyTakeaways:
-  - "Der Formularabschluss entscheidet, ob eine Eingabe verständlich, sicher und vertrauenswürdig beendet wird."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um formularabschluss, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich formularabschluss in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "web-development"
-  - "formularabschluss"
-  - "überblick"
-  - "validierung"
-  - "doppelklickschutz"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Formulare"]
 draft: false
 ---
 # Formularabschluss

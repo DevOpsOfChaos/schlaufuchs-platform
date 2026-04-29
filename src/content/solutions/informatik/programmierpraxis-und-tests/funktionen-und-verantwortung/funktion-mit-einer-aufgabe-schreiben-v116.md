@@ -3,22 +3,12 @@ title: "Lösung: Funktion mit einer Aufgabe schreiben"
 description: "Musterlösung zur Aufgabe „Funktion mit einer Aufgabe schreiben“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "funktionen-und-verantwortung"
-  - "funktion-mit-einer-aufgabe-schreiben-v116"
+topicPath: ["programmierpraxis-und-tests", "funktionen-und-verantwortung", "funktion-mit-einer-aufgabe-schreiben-v116"]
 taskId: "funktion-mit-einer-aufgabe-schreiben-v116"
 relatedExercise: "informatik/programmierpraxis-und-tests/funktionen-und-verantwortung/funktion-mit-einer-aufgabe-schreiben-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "funktionen und verantwortung"
-  - "funktion mit einer aufgabe schreiben"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

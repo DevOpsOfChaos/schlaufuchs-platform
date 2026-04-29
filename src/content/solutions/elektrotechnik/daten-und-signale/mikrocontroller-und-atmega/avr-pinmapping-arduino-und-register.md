@@ -3,20 +3,10 @@ title: "Lösung – Arduino-Pinnummern und Registerbits zuordnen"
 description: "Musterlösung zu „Arduino-Pinnummern und Registerbits zuordnen“."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "avr-pinmapping-arduino-und-register"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "avr-pinmapping-arduino-und-register"]
 taskId: "et-mc-v93-pinmapping"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/avr-pinmapping-arduino-und-register"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "atmega"
-  - "arduino"
-  - "register"
-  - "pinmapping"
-  - "gpio"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

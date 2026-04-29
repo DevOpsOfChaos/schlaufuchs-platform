@@ -1,44 +1,19 @@
 ---
-title: Prozentrechnung
-description: Verstehe Prozentsatz, Prozentwert und Grundwert als zusammenhängende Größen und wende sie sicher an.
-subject: mathematik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - prozentrechnung
-tags:
-  - prozent
-  - grundwert
-  - prozentwert
-  - prozentsatz
-learningGoals:
-  - "Du unterscheidest Grundwert, Prozentwert und Prozentsatz sauber."
-  - "Du liest Prozentangaben in Sachzusammenhängen fachlich richtig."
-  - "Du entscheidest sicher, welche Größe gesucht ist und wie du sie berechnest."
-practiceIdeas:
-  - "Markiere in Textaufgaben zuerst die Gesamtmenge, den Anteil und die Prozentangabe."
-  - "Übersetze Prozentangaben bewusst in Sätze wie ‚von 100‘ oder ‚Anteil am Ganzen‘."
-  - "Prüfe Ergebnisse mit einer groben Überschlagsrechnung."
-commonMistakes:
-  - "Grundwert und Prozentwert zu verwechseln."
-  - "Prozent als absolute Zahl statt als Anteil zu lesen."
-  - "Die Aufgabe rechnerisch zu lösen, ohne vorher zu klären, welche Größe gesucht ist."
-keyTakeaways:
-  - "Der Grundwert ist das Ganze, auf das sich die Prozentangabe bezieht."
-  - "Der Prozentwert ist der Anteil des Ganzen."
-  - "Der Prozentsatz beschreibt, wie groß der Anteil im Verhältnis zum Ganzen ist."
-recognizeSignals:
-  - "Es geht um Rabatte, Anteile, Wahlergebnisse, Zuwächse oder andere Vergleiche mit Prozentangaben."
-  - "In einer Aufgabe taucht ein Ganzes, ein Teil und eine Prozentzahl auf."
-  - "Du sollst begründen, welche Größe gesucht ist und warum."
-selfCheckPoints:
-  - "Kann ich Grundwert, Prozentwert und Prozentsatz sicher benennen?"
-  - "Kann ich erklären, was die Prozentzahl inhaltlich bedeutet?"
-  - "Kann ich mein Ergebnis grob auf Plausibilität prüfen?"
-level: einfach
+title: "Prozentrechnung"
+description: "Verstehe Prozentsatz, Prozentwert und Grundwert als zusammenhängende Größen und wende sie sicher an."
+subject: "mathematik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "prozentrechnung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Grundlagen"]
 draft: false
 ---
-
 ## Warum Prozentrechnung so oft vorkommt
 
 Prozentangaben begegnen dir überall: bei Rabatten, Notenverteilungen, Umfragen, Zinsen oder technischen Kennwerten. Gerade deshalb lohnt es sich, die drei Grundgrößen nicht nur rechnerisch, sondern auch inhaltlich sauber zu verstehen.

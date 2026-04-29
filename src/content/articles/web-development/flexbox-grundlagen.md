@@ -1,17 +1,19 @@
 ---
-title: Flexbox-Grundlagen
-description: Flexbox hilft dabei, Elemente in einer Zeile oder Spalte sauber auszurichten, zu verteilen und flexibel auf verschiedene Breiten zu reagieren.
-subject: web-development
-section: CSS und Layout
-level: einfach
-tags:
-  - Flexbox
-  - CSS
-  - Layout
-  - Web Development
+title: "Flexbox-Grundlagen"
+description: "Flexbox hilft dabei, Elemente in einer Zeile oder Spalte sauber auszurichten, zu verteilen und flexibel auf verschiedene Breiten zu reagieren."
+subject: "web-development"
+section: "CSS und Layout"
+topicPath: ["flexbox-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS und Layout"]
 draft: false
 ---
-
 ## Überblick
 
 Sobald mehrere Elemente in einer Leiste, Karte oder Navigation angeordnet werden sollen, wird reines Blockdenken schnell unpraktisch. Flexbox ist ein CSS-Modell, das genau für solche Anordnungen gemacht ist. Es hilft beim Ausrichten, Verteilen und Umbrechen von Elementen, ohne dass viele starre Breiten oder umständliche Tricks nötig sind.

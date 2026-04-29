@@ -1,34 +1,19 @@
 ---
 title: "Gleichungen"
 description: "Allgemeiner Überblick über Gleichungen, Lösungen und Äquivalenzumformungen."
-subject: mathematik
+subject: "mathematik"
 section: "Algebra"
-topicPath:
-  - "gleichungen"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst Gleichungen als Aussagen mit Gleichheitszeichen."
-  - "Du kannst Lösung und Lösungsmenge unterscheiden."
-  - "Du verstehst den Zweck von Äquivalenzumformungen."
+topicPath: ["gleichungen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Umformungen zu verwenden, die die Lösungsmenge verändern."
-  - "Die Probe nach dem Lösen wegzulassen."
-keyTakeaways:
-  - "Eine Lösung macht eine Gleichung wahr."
-  - "Äquivalenzumformungen erhalten die Lösungsmenge."
-recognizeSignals:
-  - "Es geht um unbekannte Werte, Umformen, Probe, Bedingungen oder Lösungsmenge."
-selfCheckPoints:
-  - "Kann ich prüfen, ob ein eingesetzter Wert die Gleichung wahr macht?"
-level: einfach
-tags:
-  - "mathematik"
-  - "gleichungen"
-  - "algebra"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Algebra"]
 draft: false
 ---
-
 # Gleichungen
 
 ![Schaubild zum Lösen von Gleichungen.](/schlaufuchs-platform/images/overviews/v148/gleichungen.svg)

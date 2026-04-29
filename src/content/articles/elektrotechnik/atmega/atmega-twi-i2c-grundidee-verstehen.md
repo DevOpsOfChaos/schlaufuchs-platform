@@ -1,46 +1,19 @@
 ---
-title: ATmega – TWI/I²C als Grundidee verstehen
-description: Verstehe, wie TWI beziehungsweise I²C am AVR mehrere Teilnehmer über zwei gemeinsame Leitungen verbindet und warum Adressen dabei so wichtig sind.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-schnittstellen-und-busse
-  - atmega-twi-i2c-grundidee-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von TWI beziehungsweise I²C am AVR.
-  - Du unterscheidest gemeinsame Busleitungen und Geräteadressen sauber.
-  - Du liest den Bus ruhiger als geteilte Struktur statt als direkte Einzelverbindung.
-practiceIdeas:
-  - Vergleiche SPI und TWI zuerst über Leitungen und Geräteansprache.
-  - Verfolge eine Buskommunikation über Start, Adresse und Datenübertragung.
-  - Prüfe bei einem Beispiel, warum zwei Leitungen trotzdem mehrere Geräte verbinden können.
-commonMistakes:
-  - Zu denken, I²C brauche für jedes Gerät eigene Datenleitungen.
-  - Adresse und Datenbyte zu verwechseln.
-  - TWI nur als „langsameres SPI“ zu behandeln.
-keyTakeaways:
-  - TWI beziehungsweise I²C nutzt zwei gemeinsame Leitungen für mehrere Teilnehmer.
-  - Die Geräteadresse entscheidet, welches Baustein gerade gemeint ist.
-  - Wer Busstruktur und Adressierung trennt, liest I²C deutlich ruhiger.
-recognizeSignals:
-  - Es geht um TWI, I²C, SDA, SCL oder Geräteadressen.
-  - Du sollst erklären, wie mehrere Bausteine auf denselben Leitungen hängen können.
-  - In Beispielen ist die Adresse wichtiger als ein einzelnes Datenbyte.
-selfCheckPoints:
-  - Kann ich SDA und SCL fachlich unterscheiden?
-  - Kann ich erklären, warum die Adresse auf einem Bus so wichtig ist?
-  - Kann ich den Unterschied zur direkten Einzelverbindung benennen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - twi
-  - i2c
-level: einfach
+title: "ATmega – TWI/I²C als Grundidee verstehen"
+description: "Verstehe, wie TWI beziehungsweise I²C am AVR mehrere Teilnehmer über zwei gemeinsame Leitungen verbindet und warum Adressen dabei so wichtig sind."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-twi-i2c-grundidee-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 TWI beziehungsweise I²C wirkt am Anfang oft erstaunlich: **Mehrere Geräte an denselben zwei Leitungen?** Genau deshalb hilft ein ruhiges Denkmodell. Nicht Punkt-zu-Punkt-Verbindung, sondern **gemeinsamer Bus mit Adressierung**.
 
 <div class="example-card">

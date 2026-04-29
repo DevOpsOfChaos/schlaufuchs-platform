@@ -3,22 +3,12 @@ title: "Lösung: Latenz und Durchsatz: Grundordnung"
 description: "Musterlösung zur Aufgabe dat-v189-019a."
 subject: "daten-und-signale"
 section: "uebertragung"
-topicPath:
-  - "uebertragung"
-  - "latenz-und-durchsatz"
-  - "loesung-a"
+topicPath: ["sanierung-v189", "latenz-und-durchsatz-aufgabe-a"]
 taskId: "dat-v189-019a"
 relatedExercise: "daten-und-signale/sanierung-v189/latenz-und-durchsatz-aufgabe-a"
-tags:
-  - "latenz"
-  - "durchsatz"
-  - "netz"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-019a`
 
 Eine mögliche Lösung:

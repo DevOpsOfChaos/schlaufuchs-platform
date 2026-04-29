@@ -1,27 +1,17 @@
 ---
 title: "Sets, Maps und Eindeutigkeit anwenden und prüfen"
 description: "Übe Sets, Maps und Eindeutigkeit mit Begriffen, Beispielen und typischen Prüfungen."
-subject: informatik
+subject: "informatik"
 section: "Datenstrukturen im Einsatz"
-topicPath:
-  - "datenstrukturen-im-einsatz"
-  - "sets-maps-und-eindeutigkeit"
-taskId: INF-V183-06-B
-tags:
-  - "informatik"
-  - "sets-maps-und-eindeutigkeit"
-hintPoints:
-  - "Beginne mit der allgemeinen Idee."
-  - "Trenne Begriff, Beispiel und Fehlerquelle."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe sauber unterscheiden."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel aus einem anderen Informatikthema."
-reflectionPrompt: "Welche Unterscheidung war hier am wichtigsten?"
-level: mittel
+topicPath: ["datenstrukturen-im-einsatz", "sets-maps-und-eindeutigkeit", "sets-maps-und-eindeutigkeit-anwenden-und-pruefen-v183"]
+taskId: "INF-V183-06-B"
+tags: ["informatik", "Datenstrukturen im Einsatz", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Sets, Maps und Eindeutigkeit**.
 
 ## Aufgabe 1 – Begriffe klären

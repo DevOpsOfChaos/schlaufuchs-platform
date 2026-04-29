@@ -1,13 +1,19 @@
 ---
-title: Daten, Signale und Codierung
-description: Verstehe, wie technische Systeme Informationen übertragen und darstellen.
-subject: elektrotechnik
-section: daten-und-kommunikation
-level: einfach
-tags: [daten, signale, codierung]
+title: "Daten, Signale und Codierung"
+description: "Verstehe, wie technische Systeme Informationen übertragen und darstellen."
+subject: "elektrotechnik"
+section: "daten-und-kommunikation"
+topicPath: ["daten-signale-und-codierung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["daten", "signale", "codierung"]
 draft: false
 ---
-
 Technische Systeme arbeiten nicht direkt mit Bedeutung, sondern mit darstellbaren Zuständen und übertragbaren Signalen. Genau an dieser Stelle treffen Daten, Signale und Codierung zusammen.
 
 ## Was sind Daten?

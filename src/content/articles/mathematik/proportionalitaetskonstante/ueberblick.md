@@ -1,35 +1,17 @@
 ---
 title: "Proportionalitätskonstante"
 description: "Überblick über Proportionalitätskonstanten und ihre Rolle in linearen Zusammenhängen durch den Ursprung."
-subject: mathematik
+subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "proportionalitaetskonstante"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Proportionalitätskonstante als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["proportionalitaetskonstante", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird jede Gerade als proportional bezeichnet. Nur Geraden durch den Ursprung beschreiben direkte Proportionalität."
-keyTakeaways:
-  - "Die Proportionalitätskonstante gibt an, mit welchem festen Faktor zwei Größen in einem proportionalen Zusammenhang verbunden sind."
-  - "Sie macht gleichbleibende Verhältnisse erkennbar und erlaubt das Rechnen mit Dreisatz, Tabellen und Graphen."
-  - "Nicht jeder lineare Zusammenhang ist proportional. Ein Achsenabschnitt ungleich null zerstört die direkte Proportionalität."
-recognizeSignals:
-  - "Es geht um Proportionalitätskonstante, wenn bei y = k·x ist k die Proportionalitätskonstante."
-  - "Das Thema wird relevant, wenn Beispiele wie wenn ein Kilogramm Äpfel 3 Euro kostet, ist 3 Euro pro Kilogramm die Proportionalitätskonstante."
-selfCheckPoints:
-  - "Kann ich Proportionalitätskonstante in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "proportionalität"
-  - "funktionen"
-  - "modellieren"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
 # Proportionalitätskonstante

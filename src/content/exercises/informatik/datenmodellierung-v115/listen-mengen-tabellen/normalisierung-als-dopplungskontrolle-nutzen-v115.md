@@ -1,36 +1,17 @@
 ---
 title: "Aufgabe: Normalisierung als Dopplungskontrolle nutzen"
 description: "Trainiere Normalisierung als Dopplungskontrolle nutzen an einem kleinen, klar abgegrenzten Fall."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenmodellierung-v115"
-  - "listen-mengen-tabellen"
-  - "normalisierung-als-dopplungskontrolle-nutzen-v115"
+topicPath: ["datenmodellierung-v115", "listen-mengen-tabellen", "normalisierung-als-dopplungskontrolle-nutzen-v115"]
 taskId: "informatik-normalisierung-als-dopplungskontrolle-nutzen-v115"
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "datenmodellierung"
-  - "listen, mengen und tabellen"
-  - "aufgabe"
-hintPoints:
-  - "Grenze zuerst den kleinen Fall vom breiten Themenfeld ab."
-  - "Nutze die Prüffrage: Welche Information müsste bei einer Änderung mehrfach angepasst werden?"
-  - "Begründe mit zwei konkreten Hinweisen aus dem Fall."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-transferIdeas:
-  - "Übertrage dieselbe Trennkante auf ein eigenes Mini-Beispiel."
-  - "Formuliere einen Gegenfall, der ähnlich aussieht, aber anders entschieden wird."
-reflectionPrompt: "Was war bei „Normalisierung als Dopplungskontrolle nutzen“ die wichtigste Trennkante?"
-level: mittel
+tags: ["informatik", "Feinstruktur Informatik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den folgenden Fall zu **Normalisierung als Dopplungskontrolle nutzen**.

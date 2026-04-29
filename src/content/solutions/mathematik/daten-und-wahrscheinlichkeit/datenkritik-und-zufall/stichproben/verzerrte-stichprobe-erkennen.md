@@ -3,23 +3,12 @@ title: "Lösung – Verzerrte Stichprobe erkennen"
 description: "Musterlösung zu Verzerrte Stichprobe mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "daten-und-wahrscheinlichkeit"
-  - "datenkritik-und-zufall"
-  - "stichproben"
-  - "verzerrte-stichprobe-erkennen"
+topicPath: ["daten-und-wahrscheinlichkeit", "datenkritik-und-zufall", "stichproben", "verzerrte-stichprobe-erkennen"]
 taskId: "v111-mathematik-verzerrte-stichprobe-erkennen"
 relatedExercise: "mathematik/daten-und-wahrscheinlichkeit/datenkritik-und-zufall/stichproben/verzerrte-stichprobe-erkennen"
-tags:
-  - "mathematik"
-  - "prüfung"
-  - "unterthema"
-  - "daten-und-wahrscheinlichkeit"
-  - "datenkritik-und-zufall"
-  - "verzerrte-stichprobe-erkennen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Verzerrte Stichprobe**.

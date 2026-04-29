@@ -3,22 +3,12 @@ title: "Lösung – Release-Notizen und Änderungen nachvollziehen"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Projektpraxis-Aufgabe."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "release-notizen-und-aenderungen-nachvollziehen"
-tags:
-  - "web development"
-  - "release"
-  - "dokumentation"
-  - "review"
-  - "wartung"
-  - "lösung"
+topicPath: ["projektpraxis", "betrieb-und-release", "release-notizen-und-aenderungen-nachvollziehen"]
 taskId: "web-v105-release-notizen-und-aenderungen-nachvollziehen"
 relatedExercise: "web-development/projektpraxis/betrieb-und-release/release-notizen-und-aenderungen-nachvollziehen"
+tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Eine gute Lösung beginnt mit der Nutzer- oder Wartungssituation. Das Problem wird nicht nur als technische Kleinigkeit behandelt, sondern als Risiko für Verständlichkeit, Betrieb oder spätere Änderung.

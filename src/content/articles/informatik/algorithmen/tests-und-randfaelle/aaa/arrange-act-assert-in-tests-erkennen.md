@@ -3,46 +3,17 @@ title: "Informatik – Arrange, Act, Assert in Tests erkennen"
 description: "Lerne Arrange, Act, Assert als enges, prüfbares Unterthema mit Beispiel, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Qualität"
-topicPath:
-  - "algorithmen"
-  - "tests-und-randfaelle"
-  - "aaa"
-  - "arrange-act-assert-in-tests-erkennen"
-learningGoals:
-  - "Du erklärst Arrange, Act, Assert als eigenes Unterthema."
-  - "Du grenzt eine typische Verwechslung fachlich ab."
-  - "Du nutzt einen konkreten Prüfschritt und eine Gegenprobe."
-practiceIdeas:
-  - "Schreibe ein Mini-Beispiel mit falscher und richtiger Einordnung."
-  - "Erstelle eine Gegenprobe mit verändertem Wert, Zustand oder Kontext."
-  - "Vergleiche die Seite mit einem Nachbarthema und nenne die Trennkante."
-commonMistakes:
-  - "Vorbereitung und Prüfung stehen durcheinander."
-  - "Das Thema nur einem breiten Kapitel zuordnen."
-  - "Eine Lösung formulieren, die keine konkrete Prüfung enthält."
-keyTakeaways:
-  - "Arrange, Act, Assert wird über Einordnung, Abgrenzung und Gegenprobe stabil."
-  - "Kleine Unterthemen erhöhen Auffindbarkeit und reduzieren Doppelungen."
-  - "Aufgabe und Lösung sollen dieselbe fachliche Trennkante nutzen."
-recognizeSignals:
-  - "Ein Begriff klingt ähnlich wie ein Nachbarthema."
-  - "Ein breites Kapitel wäre als Antwort zu ungenau."
-  - "Ein konkreter Prüfschritt kann die Entscheidung bestätigen."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich die typische Verwechslung ausschließen?"
-  - "Ist meine Gegenprobe konkret und prüfbar?"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "algorithmen"
-  - "tests-und-randfaelle"
-  - "arrange, act, assert"
+topicPath: ["algorithmen", "tests-und-randfaelle", "aaa", "arrange-act-assert-in-tests-erkennen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["informatik", "Qualität"]
 draft: false
 ---
-
 ## Grundidee
 
 **Arrange, Act, Assert** ist ein kleines Unterthema mit einer klaren Trennkante. Lerne Arrange, Act, Assert als enges, prüfbares Unterthema mit Beispiel, Abgrenzung und Gegenprobe. Dadurch bleibt die Seite übersichtlich und landet nicht als weiterer Abschnitt in einem zu breiten Sammelthema.

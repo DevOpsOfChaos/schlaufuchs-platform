@@ -3,22 +3,12 @@ title: "Lösung: Ergebnis mit Kontext vergleichen"
 description: "Musterlösung zur Aufgabe „Ergebnis mit Kontext vergleichen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "modellieren-und-validieren"
-  - "modellgrenzen-und-plausibilitaet"
-  - "ergebnis-mit-kontext-vergleichen-v116"
+topicPath: ["modellieren-und-validieren", "modellgrenzen-und-plausibilitaet", "ergebnis-mit-kontext-vergleichen-v116"]
 taskId: "ergebnis-mit-kontext-vergleichen-v116"
 relatedExercise: "mathematik/modellieren-und-validieren/modellgrenzen-und-plausibilitaet/ergebnis-mit-kontext-vergleichen-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "modellgrenzen und plausibilitaet"
-  - "ergebnis mit kontext vergleichen"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

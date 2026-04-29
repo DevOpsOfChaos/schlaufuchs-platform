@@ -3,22 +3,12 @@ title: "Lösung: Modellieren mit Variablen: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-009a."
 subject: "mathematik"
 section: "modellieren-und-validieren"
-topicPath:
-  - "modellieren-und-validieren"
-  - "textmodell-und-variablenwahl"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "modellieren-mit-variablen-aufgabe-a"]
 taskId: "mat-v188-009a"
 relatedExercise: "mathematik/sanierung-v188/modellieren-mit-variablen-aufgabe-a"
-tags:
-  - "modellieren"
-  - "variablen"
-  - "textaufgaben"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "modellieren-und-validieren", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-009a`
 
 Eine mögliche Lösung:

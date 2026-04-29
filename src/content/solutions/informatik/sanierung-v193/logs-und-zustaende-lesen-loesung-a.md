@@ -3,24 +3,12 @@ title: "Lösung: Logs und Zustände lesen: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-012a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "debugging-und-diagnose"
-  - "logs-und-zustaende-lesen"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "logs-und-zustaende-lesen-loesung-a"]
 taskId: "informatik-v193-012a"
 relatedExercise: "informatik/sanierung-v193/logs-und-zustaende-lesen-aufgabe-a"
-tags:
-  - "logs"
-  - "zustaende"
-  - "lesen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-012a`
 
 Ausgangsauftrag: Lies einen kurzen Logauszug und formuliere zwei plausible Ursachen.

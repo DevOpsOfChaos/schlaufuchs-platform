@@ -1,29 +1,17 @@
 ---
 title: "Caching und Memoisierung – ruhig einordnen"
 description: "Übe, caching und memoisierung fachlich zu erklären und abzugrenzen."
-subject: informatik
+subject: "informatik"
 section: "Programmierpraxis und Tests"
-topicPath:
-  - "programmierpraxis-und-tests"
-  - "caching-und-memoisierung"
-  - "uebung"
-taskId: INF-V185-015-1
-tags:
-  - "informatik"
-  - "programmierpraxis-und-tests"
-  - "caching-und-memoisierung"
-hintPoints:
-  - "Beginne mit der Grundidee, nicht mit einem Spezialfall."
-  - "Trenne Begriff, Beispiel und Prüfung."
-selfCheckPoints:
-  - "Ich kann das Thema in eigenen Worten erklären."
-  - "Ich kann ein passendes Beispiel begründen."
-transferIdeas:
-  - "Suche ein ähnliches Beispiel in einem anderen Fachbereich."
-level: einfach
+topicPath: ["programmierpraxis-und-tests", "caching-und-memoisierung", "caching-und-memoisierung-ruhig-einordnen-v185"]
+taskId: "INF-V185-015-1"
+tags: ["informatik", "Programmierpraxis und Tests", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe prüft, ob du **Caching und Memoisierung** zuerst als allgemeines Thema und nicht nur als Einzelfall lesen kannst.
 
 ## Lernziel

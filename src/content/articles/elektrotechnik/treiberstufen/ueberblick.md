@@ -1,36 +1,19 @@
 ---
 title: "Treiberstufen"
 description: "Treiberstufen vermitteln zwischen schwachen Steuersignalen und Lasten, die mehr Strom, andere Spannung oder schnellere Umschaltung benötigen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schaltungen"
-topicPath:
-  - "treiberstufen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Treiberstufen als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["treiberstufen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird nur die Logikfunktion betrachtet. In Wirklichkeit geht es vor allem um Energie, Strom und Schutz."
-keyTakeaways:
-  - "Treiberstufen vermitteln zwischen schwachen Steuersignalen und Lasten, die mehr Strom, andere Spannung oder schnellere Umschaltung benötigen."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Treiberstufen, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Treiberstufen in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "treiber"
-  - "leistung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Schaltungen"]
 draft: false
 ---
-
 # Treiberstufen
 
 Treiberstufen vermitteln zwischen schwachen Steuersignalen und Lasten, die mehr Strom, andere

@@ -1,23 +1,14 @@
 ---
-title: Lösung – Largest Contentful Paint einordnen
-description: Musterlösung zur Aufgabe über Largest Contentful Paint einordnen.
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- web-betrieb
-- performance-a11y
-- largest-contentful-paint-einordnen-v114
-taskId: v114-web-development-largest-contentful-paint-einordnen-v114
-relatedExercise: web-development/web-betrieb/performance-a11y/largest-contentful-paint-einordnen-v114
-tags:
-- web-development
-- v114
-- loesung
-- web-betrieb
-- performance-a11y
+title: "Lösung – Largest Contentful Paint einordnen"
+description: "Musterlösung zur Aufgabe über Largest Contentful Paint einordnen."
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["web-betrieb", "performance-a11y", "largest-contentful-paint-einordnen-v114"]
+taskId: "v114-web-development-largest-contentful-paint-einordnen-v114"
+relatedExercise: "web-development/web-betrieb/performance-a11y/largest-contentful-paint-einordnen-v114"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

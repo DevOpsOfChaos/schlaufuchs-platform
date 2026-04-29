@@ -1,34 +1,19 @@
 ---
 title: "Widerstand und Leitwert"
 description: "Allgemeiner Überblick über elektrischen Widerstand, Leitwert und ihre Bedeutung in Stromkreisen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Grundlagen"
-topicPath:
-  - "widerstand-und-leitwert"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Widerstand und Leitwert als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["widerstand-und-leitwert", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird angenommen, ein Draht habe immer keinen Widerstand. In realen Schaltungen kann der Leitungswiderstand relevant werden."
-keyTakeaways:
-  - "Widerstand und Leitwert sind zwei ergänzende Sichtweisen auf dieselbe elektrische Eigenschaft."
-  - "Widerstand und Leitwert sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um Widerstand und Leitwert."
-selfCheckPoints:
-  - "Kann ich erklären, woran man Widerstand und Leitwert erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "widerstand"
-  - "leitwert"
-  - "grundlagen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Grundlagen"]
 draft: false
 ---
-
 # Widerstand und Leitwert
 
 Widerstand beschreibt, wie stark ein Bauteil oder Material den elektrischen Strom begrenzt. Der Leitwert ist die umgekehrte Sicht und beschreibt, wie gut Strom fließen kann.

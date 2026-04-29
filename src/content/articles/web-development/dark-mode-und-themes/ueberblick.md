@@ -3,32 +3,17 @@ title: "Dark Mode und Themes"
 description: "Allgemeiner Überblick über Dark Mode, Themes und anpassbare Oberflächen im Web."
 subject: "web-development"
 section: "UI-Design"
-topicPath:
-  - "dark-mode-und-themes"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["dark-mode-und-themes", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden nur Hintergrund und Textfarbe geändert. Dann bleiben Buttons, Fokusrahmen oder Fehlermeldungen schlecht sichtbar."
-keyTakeaways:
-  - "Themes sind systematische Gestaltungsvarianten. Ein guter Dark Mode ist lesbar, konsistent und vollständig durchdacht."
-  - "Dark Mode ist nicht einfach die Umkehrung aller Farben. Bilder, Statusfarben, Transparenzen und Schatten brauchen eigene Entscheidungen."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "web development"
-  - "theme"
-  - "dark mode"
-  - "ui"
+tags: ["web-development", "UI-Design"]
 draft: false
 ---
-
 # Dark Mode und Themes
 
 Ein Theme ist eine abgestimmte Gestaltungsausprägung einer Oberfläche. Dark Mode ist ein Theme mit dunkler Grundfläche und entsprechend angepassten Farben.

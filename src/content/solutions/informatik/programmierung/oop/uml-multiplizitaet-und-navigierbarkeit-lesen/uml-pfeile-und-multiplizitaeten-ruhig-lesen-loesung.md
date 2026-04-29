@@ -1,23 +1,14 @@
 ---
-title: Musterloesung - UML-Pfeile und Multiplizitaeten ruhig lesen
-description: Musterloesung zur Aufgabe INF-PROG-UML-002.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - uml-multiplizitaet-und-navigierbarkeit-lesen
-  - uml-pfeile-und-multiplizitaeten-ruhig-lesen-loesung
-taskId: INF-PROG-UML-002
-relatedExercise: src/content/exercises/informatik/programmierung/oop/uml-multiplizitaet-und-navigierbarkeit-lesen/uml-pfeile-und-multiplizitaeten-ruhig-lesen.md
-tags:
-  - informatik
-  - programmierung
-  - uml
-  - loesung
+title: "Musterloesung - UML-Pfeile und Multiplizitaeten ruhig lesen"
+description: "Musterloesung zur Aufgabe INF-PROG-UML-002."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "uml-multiplizitaet-und-navigierbarkeit-lesen", "uml-pfeile-und-multiplizitaeten-ruhig-lesen"]
+taskId: "INF-PROG-UML-002"
+relatedExercise: "src/content/exercises/informatik/programmierung/oop/uml-multiplizitaet-und-navigierbarkeit-lesen/uml-pfeile-und-multiplizitaeten-ruhig-lesen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Multiplizitaet in Worte fassen
 
 <code>1</code> bedeutet genau ein Objekt. <code>0..3</code> bedeutet null bis drei Objekte. <code>*</code> bedeutet beliebig viele Objekte.

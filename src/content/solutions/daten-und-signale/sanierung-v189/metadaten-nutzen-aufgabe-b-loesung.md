@@ -3,22 +3,12 @@ title: "Lösung: Metadaten nutzen: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe dat-v189-044b."
 subject: "daten-und-signale"
 section: "datenpraxis"
-topicPath:
-  - "datenpraxis"
-  - "metadaten-nutzen"
-  - "loesung-b"
+topicPath: ["sanierung-v189", "metadaten-nutzen-aufgabe-b"]
 taskId: "dat-v189-044b"
 relatedExercise: "daten-und-signale/sanierung-v189/metadaten-nutzen-aufgabe-b"
-tags:
-  - "metadaten"
-  - "daten"
-  - "kontext"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-044b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

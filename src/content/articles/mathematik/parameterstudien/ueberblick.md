@@ -1,37 +1,19 @@
 ---
 title: "Parameterstudien"
 description: "Überblick über das systematische Verändern von Parametern in mathematischen Modellen."
-subject: mathematik
+subject: "mathematik"
 section: "Modellieren"
-topicPath:
-  - "parameterstudien"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Parameterstudien als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["parameterstudien", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur einen einzigen Parametersatz zu rechnen und das Ergebnis als stabil anzunehmen."
-keyTakeaways:
-  - "Parameterstudien prüfen Abhängigkeiten."
-  - "Sie machen Sensitivität sichtbar."
-  - "Realistische Wertebereiche sind entscheidend."
-recognizeSignals:
-  - "Ein Modell enthält geschätzte oder frei wählbare Werte."
-  - "Gefragt ist, wie stark ein Ergebnis von Annahmen abhängt."
-selfCheckPoints:
-  - "Kann ich Parameterstudien in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "parameter"
-  - "modellieren"
-  - "sensitivität"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Modellieren"]
 draft: false
 ---
-
 # Parameterstudien
 
 Eine Parameterstudie untersucht, wie sich Ergebnisse verändern, wenn Eingangsgrößen oder Modellparameter variiert werden.

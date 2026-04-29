@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Zahlensysteme und Darstellung – ruhig einordnen"
 description: "Musterlösung zur Aufgabe über zahlensysteme und darstellung."
-subject: informatik
+subject: "informatik"
 section: "Daten und Information"
-topicPath:
-  - "daten-und-information"
-  - "zahlensysteme-und-darstellung"
-  - "loesung"
-taskId: INF-V185-001-1
-relatedExercise: src/content/exercises/informatik/daten-und-information/zahlensysteme-und-darstellung/zahlensysteme-und-darstellung-ruhig-einordnen-v185.md
-tags:
-  - "informatik"
-  - "daten-und-information"
-  - "zahlensysteme-und-darstellung"
-  - "loesung"
+topicPath: ["daten-und-information", "zahlensysteme-und-darstellung", "zahlensysteme-und-darstellung-ruhig-einordnen-v185"]
+taskId: "INF-V185-001-1"
+relatedExercise: "src/content/exercises/informatik/daten-und-information/zahlensysteme-und-darstellung/zahlensysteme-und-darstellung-ruhig-einordnen-v185.md"
+tags: ["informatik", "Daten und Information", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

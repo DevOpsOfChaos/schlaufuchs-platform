@@ -3,20 +3,12 @@ title: "Lösung – Steigung aus zwei Punkten bestimmen"
 description: "Musterlösung zu Steigung aus zwei Punkten bestimmen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "funktionen"
-  - "lineare-funktionen"
-  - "steigung-aus-zwei-punkten-bestimmen-v113"
+topicPath: ["funktionen", "lineare-funktionen", "steigung-aus-zwei-punkten-bestimmen-v113"]
 taskId: "v113-mathematik-steigung-aus-zwei-punkten-bestimmen-v113"
 relatedExercise: "mathematik/funktionen/lineare-funktionen/steigung-aus-zwei-punkten-bestimmen-v113"
-tags:
-  - "mathematik"
-  - "strukturcheck"
-  - "unterthema"
-  - "steigung-aus-zwei-punkten-bestimmen-v113"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Steigung aus zwei Punkten bestimmen**.

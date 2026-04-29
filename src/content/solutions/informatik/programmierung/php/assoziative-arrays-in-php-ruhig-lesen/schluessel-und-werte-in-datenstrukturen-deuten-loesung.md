@@ -1,21 +1,14 @@
 ---
-title: Loesung – Schluessel und Werte in Datenstrukturen deuten
-description: Musterloesung zur Aufgabe ueber assoziative Arrays in PHP.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - assoziative-arrays-in-php-ruhig-lesen
-taskId: INF-PHP-ARRAYS-005
-relatedExercise: informatik/programmierung/php/assoziative-arrays-in-php-ruhig-lesen/schluessel-und-werte-in-datenstrukturen-deuten
-tags:
-  - informatik
-  - php
-  - loesung
+title: "Loesung – Schluessel und Werte in Datenstrukturen deuten"
+description: "Musterloesung zur Aufgabe ueber assoziative Arrays in PHP."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "assoziative-arrays-in-php-ruhig-lesen", "schluessel-und-werte-in-datenstrukturen-deuten"]
+taskId: "INF-PHP-ARRAYS-005"
+relatedExercise: "informatik/programmierung/php/assoziative-arrays-in-php-ruhig-lesen/schluessel-und-werte-in-datenstrukturen-deuten"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterloesung
 
 ### Aufgabe 1

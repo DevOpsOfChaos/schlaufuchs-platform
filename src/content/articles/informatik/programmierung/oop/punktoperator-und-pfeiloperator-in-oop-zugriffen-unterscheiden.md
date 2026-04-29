@@ -1,46 +1,19 @@
 ---
-title: Punktoperator und Pfeiloperator in OOP-Zugriffen unterscheiden
-description: Verstehe, wann Methoden ueber ein Objekt und wann ueber einen Objektzeiger aufgerufen werden.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - punktoperator-und-pfeiloperator-in-oop-zugriffen-unterscheiden
-learningGoals:
-  - Du unterscheidest Objektzugriff und indirekten Zugriff ueber Zeiger.
-  - Du liest Punktoperator und Pfeiloperator fachlich passend.
-  - Du erkennst, dass beide Formen oft dieselbe Klassenlogik erreichen, aber ueber unterschiedliche Wege.
-practiceIdeas:
-  - Vergleiche einen Methodenaufruf ueber Objekt und ueber Zeiger.
-  - Uebersetze beide Schreibweisen in ruhige Wortsprache.
-  - Pruefe bei einer Variable zuerst, ob sie Objekt oder Zeiger ist.
-commonMistakes:
-  - Punktoperator und Pfeiloperator als rein optische Varianten zu sehen.
-  - Zu vergessen, dass ein Zeiger zuerst auf ein Objekt verweisen muss.
-  - Objekt und Zeiger sprachlich zu vermischen.
-keyTakeaways:
-  - Mit dem Punktoperator greifst du direkt auf ein Objekt zu.
-  - Mit dem Pfeiloperator greifst du indirekt ueber einen Zeiger auf ein Objekt zu.
-  - Vor dem Methodenlesen lohnt sich immer die Frage, was links vom Operator steht.
-recognizeSignals:
-  - Es tauchen sowohl <code>obj.methode()</code> als auch <code>ptr->methode()</code> auf.
-  - Ein Objekt wird mit <code>new</code> erzeugt oder eine Zeigervariable kommt vor.
-  - Eine Aufgabe fragt nach direktem und indirektem Zugriff.
-selfCheckPoints:
-  - Kann ich sagen, ob links ein Objekt oder ein Zeiger steht?
-  - Kann ich Punkt und Pfeil in Worten unterscheiden?
-  - Kann ich erklaeren, warum der Pfeiloperator einen indirekten Zugriff beschreibt?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - pointer
-  - methodenaufruf
+title: "Punktoperator und Pfeiloperator in OOP-Zugriffen unterscheiden"
+description: "Verstehe, wann Methoden ueber ein Objekt und wann ueber einen Objektzeiger aufgerufen werden."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "punktoperator-und-pfeiloperator-in-oop-zugriffen-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 In OOP-Beispielen sehen Methodenaufrufe oft fast gleich aus. Der entscheidende Unterschied steckt links vom Operator.

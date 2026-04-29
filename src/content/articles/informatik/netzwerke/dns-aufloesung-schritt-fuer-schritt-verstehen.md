@@ -1,45 +1,19 @@
 ---
-title: DNS-Auflösung Schritt für Schritt verstehen
-description: Verstehe, wie aus einem Domainnamen eine passende Netzwerkadresse wird und warum Namen im Netz Orientierung geben, während Adressen die technische Zustellung ermöglichen.
-subject: informatik
-section: Netzwerke
-topicPath:
-  - netzwerke
-  - dns-aufloesung-schritt-fuer-schritt-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von DNS als Namensauflösung.
-  - Du beschreibst den Weg vom Domainnamen zur technischen Adresse in ruhigen Schritten.
-  - Du unterscheidest Namen zur Orientierung von Adressen zur Zustellung.
-practiceIdeas:
-  - Beschreibe beim Öffnen einer Website den Weg vom Namen zur Adresse in eigenen Worten.
-  - Vergleiche einen leicht merkbaren Namen mit einer schwer merkbaren technischen Adresse.
-  - Lies DNS eher als Übersetzungs- und Zuordnungsdienst als als Speicher der ganzen Website.
-commonMistakes:
-  - DNS mit der Website selbst zu verwechseln.
-  - Domainnamen und IP-Adressen als dasselbe zu behandeln.
-  - zu denken, DNS liefere schon den ganzen Seiteninhalt.
-keyTakeaways:
-  - DNS ordnet Namen den passenden technischen Adressen zu.
-  - Domainnamen helfen Menschen bei der Orientierung, IP-Adressen der technischen Zustellung.
-  - Ohne Namensauflösung wäre das Web deutlich schwerer nutzbar.
-recognizeSignals:
-  - Es geht um Domainnamen, Webseitenaufrufe, Netzwerkadressen oder die Frage, wie ein Browser ein Ziel findet.
-  - Du sollst erklären, warum ein leicht lesbarer Name technisch noch nicht genug ist.
-  - In Beispielen ist Zuordnung wichtiger als Datentransport.
-selfCheckPoints:
-  - Kann ich die Grundidee von DNS erklären?
-  - Kann ich Domainname und IP-Adresse fachlich trennen?
-  - Kann ich den Weg vom Namen zur Adresse Schritt für Schritt beschreiben?
-tags:
-  - informatik
-  - netzwerke
-  - dns
-  - domain
-  - ip
-level: mittel
+title: "DNS-Auflösung Schritt für Schritt verstehen"
+description: "Verstehe, wie aus einem Domainnamen eine passende Netzwerkadresse wird und warum Namen im Netz Orientierung geben, während Adressen die technische Zustellung ermöglichen."
+subject: "informatik"
+section: "Netzwerke"
+topicPath: ["netzwerke", "dns-aufloesung-schritt-fuer-schritt-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Netzwerke"]
 draft: false
 ---
-
 ## Grundidee
 
 Menschen arbeiten lieber mit Namen wie `beispiel.de` als mit langen Zahlenfolgen. Computer und Netzwerke brauchen für die Zustellung aber technische Adressen. DNS ist die Brücke zwischen diesen beiden Ebenen.

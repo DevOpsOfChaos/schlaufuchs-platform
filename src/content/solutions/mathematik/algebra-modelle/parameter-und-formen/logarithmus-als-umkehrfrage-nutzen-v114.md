@@ -1,23 +1,14 @@
 ---
-title: Lösung – Logarithmus als Umkehrfrage nutzen
-description: Musterlösung zur Aufgabe über Logarithmus als Umkehrfrage nutzen.
-subject: mathematik
-section: Feinstruktur Mathematik
-topicPath:
-- algebra-modelle
-- parameter-und-formen
-- logarithmus-als-umkehrfrage-nutzen-v114
-taskId: v114-mathematik-logarithmus-als-umkehrfrage-nutzen-v114
-relatedExercise: mathematik/algebra-modelle/parameter-und-formen/logarithmus-als-umkehrfrage-nutzen-v114
-tags:
-- mathematik
-- v114
-- loesung
-- algebra-modelle
-- parameter-und-formen
+title: "Lösung – Logarithmus als Umkehrfrage nutzen"
+description: "Musterlösung zur Aufgabe über Logarithmus als Umkehrfrage nutzen."
+subject: "mathematik"
+section: "Feinstruktur Mathematik"
+topicPath: ["algebra-modelle", "parameter-und-formen", "logarithmus-als-umkehrfrage-nutzen-v114"]
+taskId: "v114-mathematik-logarithmus-als-umkehrfrage-nutzen-v114"
+relatedExercise: "mathematik/algebra-modelle/parameter-und-formen/logarithmus-als-umkehrfrage-nutzen-v114"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

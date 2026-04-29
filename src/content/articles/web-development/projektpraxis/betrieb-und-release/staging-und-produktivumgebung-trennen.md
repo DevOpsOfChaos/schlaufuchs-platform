@@ -3,44 +3,17 @@ title: "Web-Projektpraxis – Staging und Produktion trennen"
 description: "Verstehe, warum eine Staging-Umgebung echte Änderungen auffängt, bevor Nutzende sie in der Produktion erleben."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "staging-und-produktivumgebung-trennen"
-learningGoals:
-  - "Du erklärst die Kernidee von „Staging und Produktion trennen“."
-  - "Du trennst sichtbare Nutzerwirkung, technische Ursache und organisatorische Prüffrage."
-  - "Du leitest aus einem kleinen Web-Szenario eine robuste Projektregel ab."
-practiceIdeas:
-  - "Prüfe eine vorhandene Web-Seite mit genau diesem Blick und notiere drei konkrete Beobachtungen."
-  - "Formuliere aus einer technischen Regel eine kurze Review-Frage."
-  - "Verbinde eine technische Maßnahme mit einer sichtbaren Auswirkung für Nutzende."
-commonMistakes:
-  - "direkt auf Produktion testen"
-  - "Testdaten mit echten Daten mischen"
-  - "Staging als beliebigen Zwischenordner behandeln"
-keyTakeaways:
-  - "Erst prüfen, dann freigeben"
-  - "Projektpraxis wird besser, wenn Entscheidungen klein, prüfbar und dokumentiert bleiben."
-  - "Robuste Web-Arbeit denkt Idealfall, Fehlerfall und späteres Ändern gemeinsam."
-recognizeSignals:
-  - "Eine Seite funktioniert im Idealfall, aber der Veröffentlichungs- oder Fehlerfall ist unklar."
-  - "Du sollst nicht nur Code schreiben, sondern Betrieb, Wartung oder Review mitdenken."
-  - "Eine technische Entscheidung braucht eine einfache Gegenprobe."
-selfCheckPoints:
-  - "Kann ich das Risiko ohne Fachjargon erklären?"
-  - "Kann ich eine konkrete Prüffrage formulieren?"
-  - "Kann ich zeigen, was sich für Nutzende oder Wartende verbessert?"
-tags:
-  - "web development"
-  - "deployment"
-  - "staging"
-  - "produktion"
-  - "release"
+topicPath: ["projektpraxis", "betrieb-und-release", "staging-und-produktivumgebung-trennen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "Projektpraxis"]
 draft: false
 ---
-
 ## Grundidee
 
 Staging ist eine Probeumgebung. Sie soll möglichst nah an der Produktion sein, aber echte Nutzende nicht gefährden. Dadurch können Links, Formulare, Umgebungsvariablen und Layoutzustände geprüft werden, bevor der produktive Stand ersetzt wird.

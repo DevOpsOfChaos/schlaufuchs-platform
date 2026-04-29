@@ -1,32 +1,17 @@
 ---
 title: "Stromquelle und Spannungsquelle"
 description: "Allgemeiner Überblick über ideale und reale Quellen, Innenwiderstand und Lastverhalten."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schaltungstechnik"
-topicPath:
-  - "stromquelle-und-spannungsquelle"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Stromquelle und Spannungsquelle als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie ideale Spannungsquelle, ideale Stromquelle, Innenwiderstand."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["stromquelle-und-spannungsquelle", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Eine Spannungsquelle als unbegrenzt stark zu betrachten und den Innenwiderstand zu ignorieren."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Stromquelle und Spannungsquelle beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Quellen in elektrischen Schaltungen."
-  - "Wichtige Hinweise liefern vor allem ideale Spannungsquelle, ideale Stromquelle, Innenwiderstand."
-recognizeSignals:
-  - "Es geht um quellen in elektrischen schaltungen, ideale spannungsquelle oder ideale stromquelle."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Stromquelle und Spannungsquelle erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "quelle"
-  - "innenwiderstand"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Schaltungstechnik"]
 draft: false
 ---
 # Stromquelle und Spannungsquelle

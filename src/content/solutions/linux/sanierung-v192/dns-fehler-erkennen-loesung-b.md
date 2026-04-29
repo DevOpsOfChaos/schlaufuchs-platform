@@ -3,26 +3,12 @@ title: "Lösung: DNS-Fehler erkennen: Aufgabe B"
 description: "Musterlösung zur Aufgabe linux-v192-017b im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "netzwerk-und-zugriff"
-  - "dns-fehler-erkennen"
-  - "loesung-b"
+topicPath: ["sanierung-v192", "dns-fehler-erkennen-loesung-b"]
 taskId: "linux-v192-017b"
 relatedExercise: "linux/sanierung-v192/dns-fehler-erkennen-aufgabe-b"
-tags:
-  - "netzwerk-und-zugriff"
-  - "dns"
-  - "fehler"
-  - "erkennen"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-017b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „DNS-Fehler erkennen“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

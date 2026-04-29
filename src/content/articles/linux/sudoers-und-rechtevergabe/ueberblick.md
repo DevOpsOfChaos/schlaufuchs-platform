@@ -1,34 +1,19 @@
 ---
 title: "sudoers und Rechtevergabe"
 description: "Allgemeiner Überblick über sudoers, administrative Rechte und kontrollierte Rechtevergabe."
-subject: linux
+subject: "linux"
 section: "Rechte"
-topicPath:
-  - "sudoers-und-rechtevergabe"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst sudoers und Rechtevergabe als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["sudoers-und-rechtevergabe", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Regeln zu großzügig vergeben. Dadurch entsteht mehr Berechtigung als fachlich nötig."
-keyTakeaways:
-  - "Sudoers-Regeln sollten knapp, nachvollziehbar und geprüft sein."
-  - "sudoers und Rechtevergabe sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um sudoers und Rechtevergabe."
-selfCheckPoints:
-  - "Kann ich erklären, woran man sudoers und Rechtevergabe erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "linux"
-  - "sudo"
-  - "rechte"
-  - "administration"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Rechte"]
 draft: false
 ---
-
 # sudoers und Rechtevergabe
 
 Die sudoers-Konfiguration legt fest, wer welche Befehle mit erhöhten Rechten ausführen darf.

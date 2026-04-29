@@ -3,20 +3,12 @@ title: "Lösung – Testfall aus Bug ableiten"
 description: "Musterlösung zu Testfall aus Bug ableiten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "projektpraxis"
-  - "tests-und-qualitaet"
-  - "testfall-aus-bug-ableiten-v113"
+topicPath: ["projektpraxis", "tests-und-qualitaet", "testfall-aus-bug-ableiten-v113"]
 taskId: "v113-web-development-testfall-aus-bug-ableiten-v113"
 relatedExercise: "web-development/projektpraxis/tests-und-qualitaet/testfall-aus-bug-ableiten-v113"
-tags:
-  - "web development"
-  - "strukturcheck"
-  - "unterthema"
-  - "testfall-aus-bug-ableiten-v113"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Testfall aus Bug ableiten**.

@@ -3,22 +3,12 @@ title: "Lösung – HTML – preload, prefetch und Resource Hints einordnen"
 description: "Musterlösung zur Aufgabe: Sortiere fünf Ressourcen einer Beispielseite: sofort wichtig, vielleicht später wichtig oder normal ladbar. Begründe preload und prefetch getrennt."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "performance-und-medien"
-  - "preload-prefetch-und-resource-hints-einordnen"
+topicPath: ["html", "performance-und-medien", "preload-prefetch-und-resource-hints-einordnen"]
 taskId: "web-v100-preload-prefetch-und-resource-hints-einordnen"
 relatedExercise: "web-development/html/performance-und-medien/preload-prefetch-und-resource-hints-einordnen"
-tags:
-  - "web development"
-  - "html"
-  - "performance"
-  - "preload"
-  - "prefetch"
-  - "lösung"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine gute Lösung beginnt nicht mit möglichst viel Code, sondern mit einer klaren Einordnung: Ordne Resource Hints als Priorisierungshilfe ein, ohne jede Datei vorsorglich als wichtig zu markieren.

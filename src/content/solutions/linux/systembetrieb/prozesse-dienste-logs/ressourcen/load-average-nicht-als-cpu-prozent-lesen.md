@@ -3,23 +3,12 @@ title: "Lösung – Load Average nicht als CPU-Prozent lesen"
 description: "Musterlösung zu Load Average mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "systembetrieb"
-  - "prozesse-dienste-logs"
-  - "ressourcen"
-  - "load-average-nicht-als-cpu-prozent-lesen"
+topicPath: ["systembetrieb", "prozesse-dienste-logs", "ressourcen", "load-average-nicht-als-cpu-prozent-lesen"]
 taskId: "v111-linux-load-average-nicht-als-cpu-prozent-lesen"
 relatedExercise: "linux/systembetrieb/prozesse-dienste-logs/ressourcen/load-average-nicht-als-cpu-prozent-lesen"
-tags:
-  - "linux"
-  - "betrieb"
-  - "unterthema"
-  - "systembetrieb"
-  - "prozesse-dienste-logs"
-  - "load-average-nicht-als-cpu-prozent-lesen"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Load Average**.

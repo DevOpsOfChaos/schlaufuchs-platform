@@ -1,37 +1,19 @@
 ---
 title: "Grundlagen: Schnittstellen und Busse"
 description: "Allgemeiner Überblick über UART, I²C, SPI und die Rolle von Schnittstellen zwischen Mikrocontroller und Peripherie."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - mikrocontroller-und-atmega
-  - schnittstellen-und-busse
-  - grundlagen-schnittstellen-und-busse
-learningGoals:
-  - "Du erklärst Schnittstellen als definierte Verbindung zwischen Bausteinen."
-  - "Du beschreibst Busse als gemeinsame Kommunikationswege für mehrere Teilnehmer."
-  - "Du unterscheidest UART, I²C und SPI grob nach Einsatzidee."
+topicPath: ["mikrocontroller-und-atmega", "schnittstellen-und-busse", "ueberblick", "grundlagen-schnittstellen-und-busse"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Jede Verbindung zwischen Bauteilen als gleichartig zu behandeln."
-  - "Takt, Datenrichtung und Adressierung zu vermischen."
-  - "Pegelkompatibilität und gemeinsame Masse zu vergessen."
-keyTakeaways:
-  - "Schnittstellen legen fest, wie Bausteine Daten austauschen."
-  - "UART, I²C und SPI lösen ähnliche Kommunikationsprobleme mit unterschiedlichen Regeln."
-  - "Elektrische Grundlagen und Protokollregeln müssen zusammenpassen."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "uart"
-  - "i2c"
-  - "spi"
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-
 ## Begriff
 
 **Schnittstellen** verbinden elektronische Bausteine so, dass sie Daten austauschen können. Bei Mikrocontrollern werden häufig UART, I²C und SPI verwendet. Ein **Bus** ist eine gemeinsame Kommunikationsstruktur, an der mehrere Teilnehmer beteiligt sein können.

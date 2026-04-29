@@ -1,33 +1,17 @@
 ---
-title: Abbruch und Fortsetzung im Ablauf begründen
-description: Erkläre bei kleinen Programmsituationen, was break, continue und return jeweils genau bewirken.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - kontrollfluss-und-abbruch
-  - break-continue-und-return-unterscheiden
-  - abbruch-und-fortsetzung-im-ablauf-begruenden
-taskId: INF-PROG-CPP-FLOW-001
-level: mittel
+title: "Abbruch und Fortsetzung im Ablauf begründen"
+description: "Erkläre bei kleinen Programmsituationen, was break, continue und return jeweils genau bewirken."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "break-continue-und-return-unterscheiden", "abbruch-und-fortsetzung-im-ablauf-begruenden"]
+taskId: "INF-PROG-CPP-FLOW-001"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - break
-hintPoints:
-  - "Frage bei jedem Schlüsselwort: Welcher Bereich endet?"
-  - "Unterscheide Schleife und Funktion."
-selfCheckPoints:
-  - "Ist klar, ob nur ein Durchlauf, die Schleife oder die Funktion endet?"
-  - "Wird continue nicht als totaler Abbruch missverstanden?"
-transferIdeas:
-  - "Übertrage die Logik auf Suchschleifen oder Eingabeprüfungen."
-reflectionPrompt: "Warum hilft die Frage 'Was endet genau?' mehr als nur das Wort 'Abbruch'?"
 ---
-
 ## Aufgabe 1: Wirkung zuordnen
 
 Ordne zu:

@@ -3,32 +3,17 @@ title: "Dateiattribute und ACL"
 description: "Allgemeiner Überblick über Dateiattribute und Access Control Lists als Erweiterung klassischer Linux-Rechte."
 subject: "linux"
 section: "Rechte"
-topicPath:
-  - "datei-attribute-und-acl"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["datei-attribute-und-acl", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird nur `ls -l` betrachtet. Erweiterte Rechte können dann übersehen werden und scheinbar unerklärliche Zugriffe verursachen."
-keyTakeaways:
-  - "Dateiattribute und ACLs erweitern das Rechtemodell. Sie sind nützlich, wenn klassische Rechte zu grob sind, verlangen aber klare Dokumentation."
-  - "ACLs erhöhen Ausdruckskraft, aber auch Komplexität. Sie sollten nicht eingesetzt werden, wenn einfache Gruppenrechte ausreichen."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "linux"
-  - "rechte"
-  - "acl"
-  - "dateien"
+tags: ["linux", "Rechte"]
 draft: false
 ---
-
 # Dateiattribute und ACL
 
 Dateiattribute und ACLs ergänzen klassische Besitzer-, Gruppen- und Andere-Rechte um zusätzliche Steuerungsmöglichkeiten.

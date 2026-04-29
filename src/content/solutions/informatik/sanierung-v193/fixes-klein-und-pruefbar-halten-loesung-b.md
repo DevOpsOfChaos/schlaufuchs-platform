@@ -3,25 +3,12 @@ title: "Lösung: Fixes klein und prüfbar halten: Aufgabe B"
 description: "Musterlösung zur Aufgabe informatik-v193-015b im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "debugging-und-diagnose"
-  - "fixes-klein-und-pruefbar-halten"
-  - "loesung-b"
+topicPath: ["sanierung-v193", "fixes-klein-und-pruefbar-halten-loesung-b"]
 taskId: "informatik-v193-015b"
 relatedExercise: "informatik/sanierung-v193/fixes-klein-und-pruefbar-halten-aufgabe-b"
-tags:
-  - "fixes"
-  - "klein"
-  - "pruefbar"
-  - "halten"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-015b`
 
 Ausgangsauftrag: Übertrage das Thema Fixes klein und prüfbar halten auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

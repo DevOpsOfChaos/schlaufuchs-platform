@@ -1,33 +1,19 @@
 ---
 title: "Shell-Expansion"
 description: "Shell-Expansion beschreibt, wie die Shell Eingaben vor dem Programmstart erweitert. Dazu gehören Variablen, Globbing, Kommandoersetzung und Tilde-Ersetzung."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "shell-expansion"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Shell-Expansion."
-  - "Du kannst Shell-Expansion in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["shell-expansion", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Zu glauben, dass jedes Programm selbst Sternchen oder Variablen auswertet."
-keyTakeaways:
-  - "Shell-Expansion beschreibt, wie die Shell Eingaben vor dem Programmstart erweitert."
-  - "Wichtig sind vor allem reihenfolge der erweiterungen, quoting als kontrolle und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Shell-Expansion, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Shell-Expansion dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "linux"
-  - "grundlagen"
-  - "shell expansion"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # Shell-Expansion
 
 Shell-Expansion beschreibt, wie die Shell Eingaben vor dem Programmstart erweitert. Dazu gehören Variablen, Globbing, Kommandoersetzung und Tilde-Ersetzung. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

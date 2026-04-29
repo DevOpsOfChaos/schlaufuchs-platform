@@ -3,20 +3,10 @@ title: "Lösung – Störungen auf langen Leitungen systematisch prüfen"
 description: "Musterlösung zu „Störungen auf langen Leitungen systematisch prüfen“."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "lange-leitungen-und-stoerungen-erkennen"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "lange-leitungen-und-stoerungen-erkennen"]
 taskId: "et-mc-v93-stoerungen"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/lange-leitungen-und-stoerungen-erkennen"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "stoerungen"
-  - "leitungen"
-  - "masse"
-  - "signalqualitaet"
-  - "debugging"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

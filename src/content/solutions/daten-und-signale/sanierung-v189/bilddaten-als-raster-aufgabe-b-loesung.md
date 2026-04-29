@@ -3,22 +3,12 @@ title: "Lösung: Bilddaten als Raster: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe dat-v189-014b."
 subject: "daten-und-signale"
 section: "codierung"
-topicPath:
-  - "codierung"
-  - "bilddaten-als-raster"
-  - "loesung-b"
+topicPath: ["sanierung-v189", "bilddaten-als-raster-aufgabe-b"]
 taskId: "dat-v189-014b"
 relatedExercise: "daten-und-signale/sanierung-v189/bilddaten-als-raster-aufgabe-b"
-tags:
-  - "bilddaten"
-  - "raster"
-  - "pixel"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "codierung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-014b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

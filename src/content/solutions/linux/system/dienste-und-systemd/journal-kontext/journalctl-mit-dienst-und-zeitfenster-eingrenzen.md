@@ -3,23 +3,12 @@ title: "Lösung – journalctl mit Dienst und Zeitfenster eingrenzen"
 description: "Musterlösung zu Journal nach Dienst und Zeit mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "System"
-topicPath:
-  - "system"
-  - "dienste-und-systemd"
-  - "journal-kontext"
-  - "journalctl-mit-dienst-und-zeitfenster-eingrenzen"
+topicPath: ["system", "dienste-und-systemd", "journal-kontext", "journalctl-mit-dienst-und-zeitfenster-eingrenzen"]
 taskId: "v109-linux-journalctl-mit-dienst-und-zeitfenster-eingrenzen"
 relatedExercise: "linux/system/dienste-und-systemd/journal-kontext/journalctl-mit-dienst-und-zeitfenster-eingrenzen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "system"
-  - "dienste-und-systemd"
-  - "journal nach dienst und zeit"
+tags: ["linux", "System", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Journal nach Dienst und Zeit**.

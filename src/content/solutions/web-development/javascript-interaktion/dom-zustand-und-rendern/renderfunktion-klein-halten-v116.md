@@ -3,22 +3,12 @@ title: "Lösung: Renderfunktion klein halten"
 description: "Musterlösung zur Aufgabe „Renderfunktion klein halten“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "javascript-interaktion"
-  - "dom-zustand-und-rendern"
-  - "renderfunktion-klein-halten-v116"
+topicPath: ["javascript-interaktion", "dom-zustand-und-rendern", "renderfunktion-klein-halten-v116"]
 taskId: "renderfunktion-klein-halten-v116"
 relatedExercise: "web-development/javascript-interaktion/dom-zustand-und-rendern/renderfunktion-klein-halten-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "dom zustand und rendern"
-  - "renderfunktion klein halten"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

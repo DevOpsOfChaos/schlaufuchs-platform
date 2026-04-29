@@ -3,22 +3,12 @@ title: "Lösung: Datenschutz bei Messdaten: Grundordnung"
 description: "Musterlösung zur Aufgabe dat-v189-059a."
 subject: "daten-und-signale"
 section: "systeme"
-topicPath:
-  - "systeme"
-  - "datenschutz-bei-messdaten"
-  - "loesung-a"
+topicPath: ["sanierung-v189", "datenschutz-bei-messdaten-aufgabe-a"]
 taskId: "dat-v189-059a"
 relatedExercise: "daten-und-signale/sanierung-v189/datenschutz-bei-messdaten-aufgabe-a"
-tags:
-  - "datenschutz"
-  - "messdaten"
-  - "system"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "systeme", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-059a`
 
 Eine mögliche Lösung:

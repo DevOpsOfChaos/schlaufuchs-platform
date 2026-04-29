@@ -1,32 +1,17 @@
 ---
 title: "Absolute Grenzwerte"
 description: "Überblick über Absolute Maximum Ratings, empfohlene Betriebsbereiche und Sicherheitsabstände."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Bauteile"
-topicPath:
-  - "absolute-grenzwerte"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Absolute Grenzwerte als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Absolute Maximum Ratings, Recommended Operating Conditions, Derating."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["absolute-grenzwerte", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Absolute Grenzwerte als normalen Arbeitsbereich auszulegen."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Absolute Grenzwerte beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Grenzwerte in Datenblättern."
-  - "Wichtige Hinweise liefern vor allem Absolute Maximum Ratings, Recommended Operating Conditions, Derating."
-recognizeSignals:
-  - "Es geht um grenzwerte in datenblättern, absolute maximum ratings oder recommended operating conditions."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Absolute Grenzwerte erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "datenblatt"
-  - "grenzwerte"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Bauteile"]
 draft: false
 ---
 # Absolute Grenzwerte

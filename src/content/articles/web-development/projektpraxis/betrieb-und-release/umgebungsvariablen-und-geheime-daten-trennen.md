@@ -3,44 +3,17 @@ title: "Web-Projektpraxis – Umgebungsvariablen und geheime Daten trennen"
 description: "Trenne öffentliche Konfiguration, Umgebungsvariablen und echte Secrets, damit keine Zugangsdaten versehentlich im Frontend landen."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "umgebungsvariablen-und-geheime-daten-trennen"
-learningGoals:
-  - "Du erklärst die Kernidee von „Umgebungsvariablen und geheime Daten trennen“."
-  - "Du trennst sichtbare Nutzerwirkung, technische Ursache und organisatorische Prüffrage."
-  - "Du leitest aus einem kleinen Web-Szenario eine robuste Projektregel ab."
-practiceIdeas:
-  - "Prüfe eine vorhandene Web-Seite mit genau diesem Blick und notiere drei konkrete Beobachtungen."
-  - "Formuliere aus einer technischen Regel eine kurze Review-Frage."
-  - "Verbinde eine technische Maßnahme mit einer sichtbaren Auswirkung für Nutzende."
-commonMistakes:
-  - "Passwörter in Beispieldateien committen"
-  - "public und secret vermischen"
-  - "lokale Werte ohne Erklärung voraussetzen"
-keyTakeaways:
-  - "Sichtbar ist nicht geheim"
-  - "Projektpraxis wird besser, wenn Entscheidungen klein, prüfbar und dokumentiert bleiben."
-  - "Robuste Web-Arbeit denkt Idealfall, Fehlerfall und späteres Ändern gemeinsam."
-recognizeSignals:
-  - "Eine Seite funktioniert im Idealfall, aber der Veröffentlichungs- oder Fehlerfall ist unklar."
-  - "Du sollst nicht nur Code schreiben, sondern Betrieb, Wartung oder Review mitdenken."
-  - "Eine technische Entscheidung braucht eine einfache Gegenprobe."
-selfCheckPoints:
-  - "Kann ich das Risiko ohne Fachjargon erklären?"
-  - "Kann ich eine konkrete Prüffrage formulieren?"
-  - "Kann ich zeigen, was sich für Nutzende oder Wartende verbessert?"
-tags:
-  - "web development"
-  - "secrets"
-  - "umgebungsvariablen"
-  - "sicherheit"
-  - "konfiguration"
+topicPath: ["projektpraxis", "betrieb-und-release", "umgebungsvariablen-und-geheime-daten-trennen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "Projektpraxis"]
 draft: false
 ---
-
 ## Grundidee
 
 Nicht jede Konfiguration ist geheim. Ein öffentlicher Basis-Pfad ist etwas anderes als ein API-Schlüssel. Gute Web-Projektpraxis benennt deshalb sauber, was im Browser sichtbar sein darf und was nur auf dem Server oder in der Build-Umgebung liegen darf.

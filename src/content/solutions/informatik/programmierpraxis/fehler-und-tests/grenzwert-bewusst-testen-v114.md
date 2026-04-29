@@ -1,23 +1,14 @@
 ---
-title: Lösung – Grenzwert bewusst testen
-description: Musterlösung zur Aufgabe über Grenzwert bewusst testen.
-subject: informatik
-section: Feinstruktur Informatik
-topicPath:
-- programmierpraxis
-- fehler-und-tests
-- grenzwert-bewusst-testen-v114
-taskId: v114-informatik-grenzwert-bewusst-testen-v114
-relatedExercise: informatik/programmierpraxis/fehler-und-tests/grenzwert-bewusst-testen-v114
-tags:
-- informatik
-- v114
-- loesung
-- programmierpraxis
-- fehler-und-tests
+title: "Lösung – Grenzwert bewusst testen"
+description: "Musterlösung zur Aufgabe über Grenzwert bewusst testen."
+subject: "informatik"
+section: "Feinstruktur Informatik"
+topicPath: ["programmierpraxis", "fehler-und-tests", "grenzwert-bewusst-testen-v114"]
+taskId: "v114-informatik-grenzwert-bewusst-testen-v114"
+relatedExercise: "informatik/programmierpraxis/fehler-und-tests/grenzwert-bewusst-testen-v114"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

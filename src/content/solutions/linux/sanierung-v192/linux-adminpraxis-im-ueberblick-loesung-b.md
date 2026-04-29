@@ -3,23 +3,12 @@ title: "Lösung: Linux-Adminpraxis im Überblick: Aufgabe B"
 description: "Musterlösung zur Aufgabe linux-v192-001b im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "betrieb"
-  - "linux-adminpraxis-im-ueberblick"
-  - "loesung-b"
+topicPath: ["sanierung-v192", "linux-adminpraxis-im-ueberblick-loesung-b"]
 taskId: "linux-v192-001b"
 relatedExercise: "linux/sanierung-v192/linux-adminpraxis-im-ueberblick-aufgabe-b"
-tags:
-  - "betrieb"
-  - "linux"
-  - "adminpraxis"
-  - "ueberblick"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-001b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Linux-Adminpraxis im Überblick“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

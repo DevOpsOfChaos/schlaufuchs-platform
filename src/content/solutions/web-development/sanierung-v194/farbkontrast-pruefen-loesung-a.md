@@ -3,24 +3,12 @@ title: "Lösung: Farbkontrast prüfen: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-development-v194-017a im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "visuelle-qualitaet"
-  - "farbkontrast-pruefen"
-  - "loesung-a"
-
+topicPath: ["sanierung-v194", "farbkontrast-pruefen-loesung-a"]
 taskId: "web-development-v194-017a"
 relatedExercise: "web-development/sanierung-v194/farbkontrast-pruefen-aufgabe-a"
-tags:
-  - "farbkontrast"
-  - "pruefen"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-017a`
 
 Ausgangsauftrag: Prüfe drei Farbkombinationen auf erkennbare Risiken.

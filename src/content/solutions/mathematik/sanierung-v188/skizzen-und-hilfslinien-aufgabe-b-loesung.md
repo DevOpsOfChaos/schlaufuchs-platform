@@ -3,22 +3,12 @@ title: "Lösung: Skizzen und Hilfslinien: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-028b."
 subject: "mathematik"
 section: "geometrie-messen-und-begruenden"
-topicPath:
-  - "geometrie-messen-und-begruenden"
-  - "skizzen-und-hilfslinien"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "skizzen-und-hilfslinien-aufgabe-b"]
 taskId: "mat-v188-028b"
 relatedExercise: "mathematik/sanierung-v188/skizzen-und-hilfslinien-aufgabe-b"
-tags:
-  - "skizze"
-  - "hilfslinie"
-  - "begruendung"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "geometrie-messen-und-begruenden", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-028b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

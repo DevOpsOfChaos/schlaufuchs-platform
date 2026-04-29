@@ -3,21 +3,12 @@ title: "Lösung – Sekantensteigung als mittlere Änderung deuten"
 description: "Musterlösung zu sekantensteigung als mittlere änderung deuten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "funktionen"
-  - "analysis-einstieg"
-  - "sekantensteigung-als-mittlere-aenderung-deuten"
+topicPath: ["funktionen", "analysis-einstieg", "sekantensteigung-als-mittlere-aenderung-deuten"]
 taskId: "v112-mathematik-sekantensteigung-als-mittlere-aenderung-deuten"
 relatedExercise: "mathematik/funktionen/analysis-einstieg/sekantensteigung-als-mittlere-aenderung-deuten"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "funktionen"
-  - "sekantensteigung-als-mittlere-aenderung-deuten"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Analysis-Einstieg**.

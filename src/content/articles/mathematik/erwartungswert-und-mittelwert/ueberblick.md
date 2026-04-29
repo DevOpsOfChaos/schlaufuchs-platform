@@ -1,36 +1,19 @@
 ---
 title: "Erwartungswert und Mittelwert"
 description: "Der Mittelwert beschreibt Daten, der Erwartungswert beschreibt den theoretischen Durchschnitt einer Zufallsgröße im Wahrscheinlichkeitsmodell."
-subject: mathematik
+subject: "mathematik"
 section: "Stochastik"
-topicPath:
-  - "erwartungswert-und-mittelwert"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Erwartungswert und Mittelwert als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["erwartungswert-und-mittelwert", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird der Erwartungswert als typischer Einzelwert missverstanden."
-keyTakeaways:
-  - "Der Mittelwert beschreibt Daten, der Erwartungswert beschreibt den theoretischen Durchschnitt einer Zufallsgröße im Wahrscheinlichkeitsmodell."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Erwartungswert und Mittelwert, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Erwartungswert und Mittelwert in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "erwartungswert"
-  - "daten"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Stochastik"]
 draft: false
 ---
-
 # Erwartungswert und Mittelwert
 
 Der Mittelwert beschreibt Daten, der Erwartungswert beschreibt den theoretischen Durchschnitt

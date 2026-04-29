@@ -1,44 +1,17 @@
 ---
-title: Stringfunktionen für Bereinigung und Ausgabe nutzen
-description: Verstehe, wie typische PHP-Stringfunktionen Texte prüfen, umformen und für sichere Ausgabe vorbereiten.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - stringfunktionen-fuer-bereinigung-und-ausgabe-nutzen
-learningGoals:
-  - Du ordnest typische Stringfunktionen nach Zweck.
-  - Du unterscheidest Zerlegen, Ersetzen, Kürzen und Escapen grob.
-  - Du begründest, warum Stringfunktionen oft Teil von Validierung und Ausgabe sind.
-practiceIdeas:
-  - Ordne trim, strlen, explode, implode und htmlspecialchars einer Aufgabe zu.
-  - Erkläre, warum Bereinigung und Darstellung nicht dasselbe sind.
-  - Wähle für ein Textproblem eine passende Grundfunktion aus.
-commonMistakes:
-  - Alle Textprobleme mit derselben Funktion lösen zu wollen.
-  - htmlspecialchars als allgemeine String-Reparatur statt als Ausgabeschutz zu lesen.
-  - trim und strlen zu verwechseln.
-keyTakeaways:
-  - Stringfunktionen haben klar verschiedene Rollen.
-  - Bereinigung, Analyse und sichere Ausgabe sind unterschiedliche Schritte.
-  - Gerade bei Benutzereingaben hilft eine ruhige Werkzeugwahl.
-recognizeSignals:
-  - Es geht um trim, explode, implode, strlen, str_replace oder htmlspecialchars.
-  - Ein Textwert soll gesäubert, zerlegt oder sicher angezeigt werden.
-  - Du sollst die passende Funktion auswählen und begründen.
-selfCheckPoints:
-  - Kann ich Stringfunktionen nach Zweck einordnen?
-  - Kann ich Ausgabe-Schutz von Inhaltsbearbeitung trennen?
-  - Kann ich für ein Textproblem eine plausible Funktion wählen?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - backend
-  - web
-  - grundlagen
+title: "Stringfunktionen für Bereinigung und Ausgabe nutzen"
+description: "Verstehe, wie typische PHP-Stringfunktionen Texte prüfen, umformen und für sichere Ausgabe vorbereiten."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "stringfunktionen-fuer-bereinigung-und-ausgabe-nutzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
 ## Grundidee

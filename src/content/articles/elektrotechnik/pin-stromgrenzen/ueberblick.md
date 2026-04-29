@@ -1,35 +1,17 @@
 ---
 title: "Pin-Stromgrenzen"
 description: "Überblick über maximale und empfohlene Ströme an Mikrocontroller-Pins und ihre Bedeutung für robuste Schaltungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "pin-stromgrenzen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Pin-Stromgrenzen als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["pin-stromgrenzen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, nur den Maximalstrom pro Pin zu lesen und die Summe über Port, Versorgungspin und Temperatur zu ignorieren."
-keyTakeaways:
-  - "Pin-Stromgrenzen beschreiben, wie viel Strom ein einzelner Anschluss eines Mikrocontrollers aufnehmen oder liefern darf."
-  - "Sie schützen Ausgangstreiber, Bonddrähte und Versorgungspfade vor Überlastung und helfen, LEDs, Treiberstufen oder Sensoren realistisch zu dimensionieren."
-  - "Eine Stromgrenze ersetzt keine Strombegrenzung in der Schaltung. Lasten mit höherem Bedarf benötigen Treiber, Transistoren oder spezielle Ausgangsstufen."
-recognizeSignals:
-  - "Es geht um Pin-Stromgrenzen, wenn einzelpin-Grenzen und Gesamtstromgrenzen des Bausteins müssen zusammen betrachtet werden."
-  - "Das Thema wird relevant, wenn Beispiele wie mehrere LEDs direkt an GPIO-Pins können einzeln scheinbar funktionieren, gemeinsam aber den Gesamtstrom eines Ports überschreiten."
-selfCheckPoints:
-  - "Kann ich Pin-Stromgrenzen in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "gpio"
-  - "strom"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
 # Pin-Stromgrenzen

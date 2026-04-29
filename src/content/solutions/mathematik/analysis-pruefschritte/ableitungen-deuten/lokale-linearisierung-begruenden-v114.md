@@ -1,23 +1,14 @@
 ---
-title: Lösung – Lokale Linearisierung begründen
-description: Musterlösung zur Aufgabe über Lokale Linearisierung begründen.
-subject: mathematik
-section: Feinstruktur Mathematik
-topicPath:
-- analysis-pruefschritte
-- ableitungen-deuten
-- lokale-linearisierung-begruenden-v114
-taskId: v114-mathematik-lokale-linearisierung-begruenden-v114
-relatedExercise: mathematik/analysis-pruefschritte/ableitungen-deuten/lokale-linearisierung-begruenden-v114
-tags:
-- mathematik
-- v114
-- loesung
-- analysis-pruefschritte
-- ableitungen-deuten
+title: "Lösung – Lokale Linearisierung begründen"
+description: "Musterlösung zur Aufgabe über Lokale Linearisierung begründen."
+subject: "mathematik"
+section: "Feinstruktur Mathematik"
+topicPath: ["analysis-pruefschritte", "ableitungen-deuten", "lokale-linearisierung-begruenden-v114"]
+taskId: "v114-mathematik-lokale-linearisierung-begruenden-v114"
+relatedExercise: "mathematik/analysis-pruefschritte/ableitungen-deuten/lokale-linearisierung-begruenden-v114"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

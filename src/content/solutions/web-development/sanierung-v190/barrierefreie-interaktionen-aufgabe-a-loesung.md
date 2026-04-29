@@ -3,24 +3,12 @@ title: "Lösung: Barrierefreie Interaktionen: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-v190-026a im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "robuste-webseiten"
-  - "barrierefreie-interaktionen"
-  - "loesung-a"
+topicPath: ["sanierung-v190", "barrierefreie-interaktionen-aufgabe-a"]
 taskId: "web-v190-026a"
 relatedExercise: "web-development/sanierung-v190/barrierefreie-interaktionen-aufgabe-a"
-tags:
-  - "robuste-webseiten"
-  - "barrierefreie"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-026a`
 
 Ausgangsauftrag: Plane eine Tastaturprüfung für ein aufklappbares Menü.

@@ -1,17 +1,19 @@
 ---
-title: Arrays und Schleifen
-description: Arrays und Schleifen gehören zusammen, weil Daten häufig nicht einzeln, sondern als Folge verarbeitet werden.
-subject: informatik
-section: Programmierung
-level: einfach
-tags:
-  - Arrays
-  - Schleifen
-  - C
-  - Programmierung
+title: "Arrays und Schleifen"
+description: "Arrays und Schleifen gehören zusammen, weil Daten häufig nicht einzeln, sondern als Folge verarbeitet werden."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["arrays-und-schleifen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Überblick
 
 Sobald mehrere ähnliche Werte verarbeitet werden sollen, wird einzelner Code schnell unübersichtlich. Arrays bündeln viele Werte desselben Typs in einer festen Struktur. Schleifen sorgen dafür, dass diese Werte systematisch durchlaufen, geprüft oder verändert werden können.

@@ -3,22 +3,12 @@ title: "Lösung: Bedingungen und Lösungsmenge: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-060b."
 subject: "mathematik"
 section: "gleichungen-und-modelle"
-topicPath:
-  - "gleichungen-und-modelle"
-  - "bedingungen-und-loesungsmenge"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "bedingungen-und-loesungsmenge-aufgabe-b"]
 taskId: "mat-v188-060b"
 relatedExercise: "mathematik/sanierung-v188/bedingungen-und-loesungsmenge-aufgabe-b"
-tags:
-  - "loesungsmenge"
-  - "bedingungen"
-  - "gleichungen"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "gleichungen-und-modelle", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-060b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

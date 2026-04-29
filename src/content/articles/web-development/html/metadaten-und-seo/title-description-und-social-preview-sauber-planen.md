@@ -3,44 +3,17 @@ title: "HTML – title, description und Social Preview sauber planen"
 description: "Plane Seitentitel, Beschreibung und Vorschaudaten so, dass Suchergebnis, Browser-Tab und geteilte Links verständlich bleiben."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "metadaten-und-seo"
-  - "title-description-und-social-preview-sauber-planen"
-tags:
-  - "web development"
-  - "html"
-  - "metadaten"
-  - "seo"
-  - "preview"
-learningGoals:
-  - "Du erklärst, worum es bei „title, description und Social Preview sauber planen“ fachlich geht."
-  - "Du trennst technische Umsetzung, sichtbare Rückmeldung und Nutzererwartung."
-  - "Du erkennst typische Fehlerbilder und formulierst eine robuste Alternative."
-practiceIdeas:
-  - "Übertrage die Idee auf eine kleine eigene Beispielseite."
-  - "Prüfe die Lösung einmal aus Sicht von Tastatur, Mobilgerät oder langsamem Laden."
-  - "Formuliere die technische Entscheidung in gutem Deutsch für eine andere Person."
-commonMistakes:
-  - "Nur den sichtbaren Normalfall zu betrachten."
-  - "Technische Begriffe zu verwenden, ohne den Nutzen für die Bedienung zu klären."
-  - "Fehlerfälle, leere Zustände oder Wartbarkeit zu spät mitzudenken."
-keyTakeaways:
-  - "Robuste Webentwicklung verbindet Struktur, Verhalten und Rückmeldung."
-  - "Gute Lösungen bleiben auch bei kleinen Störungen verständlich."
-  - "Saubere sichtbare Texte sind Teil der technischen Qualität."
-recognizeSignals:
-  - "Eine Oberfläche soll verständlicher, stabiler oder zugänglicher werden."
-  - "Ein technischer Baustein beeinflusst direkt die Nutzerführung."
-  - "Du musst zwischen schneller Lösung und dauerhaft wartbarer Lösung abwägen."
-selfCheckPoints:
-  - "Kann ich die Entscheidung ohne Fachnebel erklären?"
-  - "Bleibt die Seite bei Fehlern oder Sonderfällen verständlich?"
-  - "Sind Code, sichtbarer Text und Verhalten konsistent?"
+topicPath: ["html", "metadaten-und-seo", "title-description-und-social-preview-sauber-planen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Metadaten sind keine Dekoration im Kopf der Seite. Sie entscheiden mit darüber, ob Menschen schon vor dem Öffnen verstehen, was eine Seite leistet.

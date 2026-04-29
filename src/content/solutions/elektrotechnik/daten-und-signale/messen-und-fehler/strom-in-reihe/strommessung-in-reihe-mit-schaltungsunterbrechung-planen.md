@@ -3,23 +3,12 @@ title: "Lösung – Strommessung in Reihe mit Schaltungsunterbrechung planen"
 description: "Musterlösung zu Strommessung in Reihe mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Messen"
-topicPath:
-  - "daten-und-signale"
-  - "messen-und-fehler"
-  - "strom-in-reihe"
-  - "strommessung-in-reihe-mit-schaltungsunterbrechung-planen"
+topicPath: ["daten-und-signale", "messen-und-fehler", "strom-in-reihe", "strommessung-in-reihe-mit-schaltungsunterbrechung-planen"]
 taskId: "v109-elektrotechnik-strommessung-in-reihe-mit-schaltungsunterbrechung-planen"
 relatedExercise: "elektrotechnik/daten-und-signale/messen-und-fehler/strom-in-reihe/strommessung-in-reihe-mit-schaltungsunterbrechung-planen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "daten-und-signale"
-  - "messen-und-fehler"
-  - "strommessung in reihe"
+tags: ["elektrotechnik", "Messen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Strommessung in Reihe**.

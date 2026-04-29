@@ -1,42 +1,19 @@
 ---
 title: "Grundlagen: I2C, SPI und UART in der Fehlersuche"
 description: "Allgemeiner Überblick über typische Fehlersuchschritte bei seriellen Schnittstellen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - mikrocontroller-und-atmega
-  - schnittstellen-und-busse
-  - i2c-spi-uart-fehlersuche
-  - ueberblick
-learningGoals:
-  - "Du erklärst die Grundidee von I2C, SPI und UART in der Fehlersuche in eigenen Worten."
-  - "Du ordnest typische Begriffe und Fehlerquellen ruhig ein."
-  - "Du erkennst, welche Detailfragen zu diesem Themenbereich gehören."
-practiceIdeas:
-  - "Skizziere den Zusammenhang als kleines Signal-, Strom- oder Ablaufbild."
-  - "Notiere typische Fehlerquellen und prüfe, ob sie elektrisch, logisch oder organisatorisch sind."
-commonMistakes:
-  - "Alle Schnittstellen mit denselben Prüfschritten zu behandeln."
-  - "Masseverbindung und Pegel zu vergessen."
-  - "Busadresse, Datenbyte und Taktung zu vermischen."
-keyTakeaways:
-  - "Schnittstellenfehler werden systematisch eingegrenzt."
-  - "Jede Schnittstelle hat eigene Grundbedingungen."
-  - "Elektrische Ebene und Protokollebene gehören zusammen."
-recognizeSignals:
-  - "Du brauchst zuerst Orientierung, bevor du eine konkrete Schaltung oder Aufgabe bewertest."
-  - "Mehrere Einzelfälle wirken ähnlich, aber der gemeinsame fachliche Rahmen fehlt."
-selfCheckPoints:
-  - "Kann ich den Zweck des Themas ohne Formel auswendig zu lernen erklären?"
-  - "Kann ich typische Fehlerquellen in der richtigen Reihenfolge prüfen?"
-level: einfach
-tags:
-  - elektrotechnik
-  - i2c-spi-uart-fehlersuche
-  - mikrocontroller-und-atmega
+topicPath: ["mikrocontroller-und-atmega", "schnittstellen-und-busse", "i2c-spi-uart-fehlersuche", "ueberblick", "grundlagen-i2c-spi-uart-fehlersuche"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-
 ![Schnittstellen systematisch prüfen](/schlaufuchs-platform/images/overviews/v181/i2c-spi-uart-fehlersuche.svg)
 
 ## Überblick

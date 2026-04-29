@@ -3,23 +3,12 @@ title: "Lösung – LED-Vorwiderstand aus Versorgung und Flussspannung bestimmen
 description: "Musterlösung zu LED-Vorwiderstand mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "elektrotechnik"
 section: "Schaltungen"
-topicPath:
-  - "schaltungen-und-stromkreis"
-  - "schutz-und-grenzwerte"
-  - "led-vorwiderstand"
-  - "led-vorwiderstand-aus-versorgung-und-flussspannung-bestimmen"
+topicPath: ["schaltungen-und-stromkreis", "schutz-und-grenzwerte", "led-vorwiderstand", "led-vorwiderstand-aus-versorgung-und-flussspannung-bestimmen"]
 taskId: "v108-elektrotechnik-led-vorwiderstand-aus-versorgung-und-flussspannung-bestimmen"
 relatedExercise: "elektrotechnik/schaltungen-und-stromkreis/schutz-und-grenzwerte/led-vorwiderstand/led-vorwiderstand-aus-versorgung-und-flussspannung-bestimmen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "schaltungen"
-  - "schaltungen-und-stromkreis"
-  - "schutz-und-grenzwerte"
-  - "led-vorwiderstand"
+tags: ["elektrotechnik", "Schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **LED-Vorwiderstand**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

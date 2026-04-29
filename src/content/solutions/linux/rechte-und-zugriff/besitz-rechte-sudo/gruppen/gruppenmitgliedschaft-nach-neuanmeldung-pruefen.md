@@ -3,23 +3,12 @@ title: "Lösung – Gruppenmitgliedschaft nach Neuanmeldung prüfen"
 description: "Musterlösung zu Gruppenrechte mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "rechte-und-zugriff"
-  - "besitz-rechte-sudo"
-  - "gruppen"
-  - "gruppenmitgliedschaft-nach-neuanmeldung-pruefen"
+topicPath: ["rechte-und-zugriff", "besitz-rechte-sudo", "gruppen", "gruppenmitgliedschaft-nach-neuanmeldung-pruefen"]
 taskId: "v111-linux-gruppenmitgliedschaft-nach-neuanmeldung-pruefen"
 relatedExercise: "linux/rechte-und-zugriff/besitz-rechte-sudo/gruppen/gruppenmitgliedschaft-nach-neuanmeldung-pruefen"
-tags:
-  - "linux"
-  - "betrieb"
-  - "unterthema"
-  - "rechte-und-zugriff"
-  - "besitz-rechte-sudo"
-  - "gruppenmitgliedschaft-nach-neuanmeldung-pruefen"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Gruppenrechte**.

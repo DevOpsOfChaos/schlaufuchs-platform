@@ -1,23 +1,14 @@
 ---
-title: Lösung – Sleep-Modus passend wählen
-description: Musterlösung zur Aufgabe über Sleep-Modus passend wählen.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- mikrocontroller-systeme
-- energie-und-reset
-- sleep-modus-passend-waehlen-v114
-taskId: v114-elektrotechnik-sleep-modus-passend-waehlen-v114
-relatedExercise: elektrotechnik/mikrocontroller-systeme/energie-und-reset/sleep-modus-passend-waehlen-v114
-tags:
-- elektrotechnik
-- v114
-- loesung
-- mikrocontroller-systeme
-- energie-und-reset
+title: "Lösung – Sleep-Modus passend wählen"
+description: "Musterlösung zur Aufgabe über Sleep-Modus passend wählen."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["mikrocontroller-systeme", "energie-und-reset", "sleep-modus-passend-waehlen-v114"]
+taskId: "v114-elektrotechnik-sleep-modus-passend-waehlen-v114"
+relatedExercise: "elektrotechnik/mikrocontroller-systeme/energie-und-reset/sleep-modus-passend-waehlen-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

@@ -1,44 +1,19 @@
 ---
-title: Wahrheitstabellen und Logik
-description: Verstehe, wie logische Aussagen und Schaltungen mit Wahrheitstabellen geordnet beschrieben werden.
-subject: elektrotechnik
-section: Daten und Signale
-topicPath:
-  - daten-und-signale
-  - wahrheitstabellen-und-logik
-tags:
-  - logik
-  - wahrheitstabelle
-  - digitaltechnik
-  - gatter
-learningGoals:
-  - "Du erklärst den Zweck einer Wahrheitstabelle."
-  - "Du ordnest Eingaben und Ausgaben logisch zueinander."
-  - "Du beschreibst einfache logische Verknüpfungen systematisch."
-practiceIdeas:
-  - "Schreibe alle Eingangskombinationen vollständig auf."
-  - "Lies eine logische Regel erst in Worten und dann als Tabelle."
-  - "Vergleiche ein Gatterbild mit seiner Wahrheitstabelle."
-commonMistakes:
-  - "Kombinationen auszulassen oder doppelt zu zählen."
-  - "Die Tabelle nur abzuschreiben statt die Regel zu verstehen."
-  - "Ein- und Ausgang nicht klar zu trennen."
-keyTakeaways:
-  - "Wahrheitstabellen beschreiben logische Regeln vollständig."
-  - "Alle möglichen Eingangskombinationen müssen berücksichtigt werden."
-  - "Die Tabelle macht Schaltungen lesbar und überprüfbar."
-recognizeSignals:
-  - "Es geht um logische Zustände, Gatter, 0/1 oder Eingang-Ausgang-Beziehungen."
-  - "Du sollst systematisch alle Fälle erfassen."
-  - "Ein Beispiel fragt, wie sich ein Ausgang bei verschiedenen Eingaben verhält."
-selfCheckPoints:
-  - "Kann ich erklären, warum alle Kombinationen vorkommen müssen?"
-  - "Kann ich Eingang und Ausgang in einer Tabelle sauber unterscheiden?"
-  - "Kann ich eine einfache logische Regel in Worten beschreiben?"
-level: einfach
+title: "Wahrheitstabellen und Logik"
+description: "Verstehe, wie logische Aussagen und Schaltungen mit Wahrheitstabellen geordnet beschrieben werden."
+subject: "elektrotechnik"
+section: "Daten und Signale"
+topicPath: ["daten-und-signale", "wahrheitstabellen-und-logik"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Daten und Signale"]
 draft: false
 ---
-
 ## Warum dieses Thema wichtig ist
 
 Logische Schaltungen sollen nicht nur funktionieren, sondern auch nachvollziehbar beschrieben werden. Wahrheitstabellen helfen dabei, alle möglichen Fälle geordnet sichtbar zu machen.

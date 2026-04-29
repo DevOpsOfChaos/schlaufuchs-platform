@@ -1,33 +1,19 @@
 ---
 title: "Determinante"
 description: "Die Determinante ist eine Kennzahl quadratischer Matrizen. Sie beschreibt Flächen- oder Volumenfaktoren und zeigt, ob eine lineare Abbildung invertierbar ist."
-subject: mathematik
+subject: "mathematik"
 section: "Mathematik"
-topicPath:
-  - "determinante"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Determinante."
-  - "Du kannst Determinante in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["determinante", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Eine Determinante für nichtquadratische Matrizen berechnen zu wollen."
-keyTakeaways:
-  - "Die Determinante ist eine Kennzahl quadratischer Matrizen."
-  - "Wichtig sind vor allem flächenfaktor in 2d, orientierung und vorzeichen und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Determinante, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Determinante dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "grundlagen"
-  - "determinante"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Mathematik"]
 draft: false
 ---
-
 # Determinante
 
 ![Schaubild zur Determinante.](/schlaufuchs-platform/images/overviews/v150/determinante.svg)

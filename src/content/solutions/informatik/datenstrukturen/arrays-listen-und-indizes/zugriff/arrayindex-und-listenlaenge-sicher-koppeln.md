@@ -3,23 +3,12 @@ title: "Lösung – Arrayindex und Listenlänge sicher koppeln"
 description: "Musterlösung zu Index und Listenlänge mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Datenstrukturen"
-topicPath:
-  - "datenstrukturen"
-  - "arrays-listen-und-indizes"
-  - "zugriff"
-  - "arrayindex-und-listenlaenge-sicher-koppeln"
+topicPath: ["datenstrukturen", "arrays-listen-und-indizes", "zugriff", "arrayindex-und-listenlaenge-sicher-koppeln"]
 taskId: "v109-informatik-arrayindex-und-listenlaenge-sicher-koppeln"
 relatedExercise: "informatik/datenstrukturen/arrays-listen-und-indizes/zugriff/arrayindex-und-listenlaenge-sicher-koppeln"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "datenstrukturen"
-  - "arrays-listen-und-indizes"
-  - "index und listenlänge"
+tags: ["informatik", "Datenstrukturen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Index und Listenlänge**.

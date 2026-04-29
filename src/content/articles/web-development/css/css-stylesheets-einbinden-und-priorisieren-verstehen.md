@@ -1,44 +1,19 @@
 ---
-title: CSS-Stylesheets einbinden und priorisieren verstehen
-description: Verstehe, wie CSS inline, im style-Block oder als externe Datei eingebunden wird und warum das für Wartbarkeit und Wirkung wichtig ist.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - css-stylesheets-einbinden-und-priorisieren-verstehen
-learningGoals:
-  - Du unterscheidest Inline-CSS, interne Styles und externe Stylesheets.
-  - Du erklärst, warum dieselbe Regel je nach Einbindungsart eine andere Rolle im Projekt spielt.
-  - Du beschreibst, warum externe Stylesheets für größere Seiten meist die ruhigste Lösung sind.
-practiceIdeas:
-  - Vergleiche dieselbe Farbe als inline-Regel, im style-Block und in einer CSS-Datei.
-  - Begründe, welche Einbindungsart für eine einmalige Ausnahme und welche für viele Seiten sinnvoll ist.
-  - Prüfe bei einem Beispiel zuerst, woher eine Regel überhaupt kommt.
-commonMistakes:
-  - Alle Einbindungsarten als gleichwertig zu behandeln.
-  - Nur die sichtbare Wirkung zu sehen, aber nicht die Wartbarkeit.
-  - Zu viele Einzelregeln direkt ins HTML zu schreiben.
-keyTakeaways:
-  - CSS kann auf mehreren Wegen eingebunden werden.
-  - Nicht nur die Wirkung, sondern auch Ort und Wartbarkeit sind wichtig.
-  - Externe Stylesheets sind für wiederverwendbare Gestaltung meist die beste Grundlage.
-recognizeSignals:
-  - Es geht um style-Attribute, style-Tags, link-Tags oder importierte CSS-Dateien.
-  - Du sollst erklären, woher eine Formatierung kommt.
-  - In einem Beispiel gibt es mehrere mögliche Orte für dieselbe Regel.
-selfCheckPoints:
-  - Kann ich die drei wichtigsten Einbindungsarten sauber unterscheiden?
-  - Kann ich erklären, warum externe Stylesheets in größeren Projekten oft sinnvoller sind?
-  - Kann ich bei einer Regel sagen, wo sie definiert wurde?
-tags:
-  - css
-  - stylesheet
-  - einbindung
-  - kaskade
-level: einfach
+title: "CSS-Stylesheets einbinden und priorisieren verstehen"
+description: "Verstehe, wie CSS inline, im style-Block oder als externe Datei eingebunden wird und warum das für Wartbarkeit und Wirkung wichtig ist."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "css-stylesheets-einbinden-und-priorisieren-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Bevor CSS überhaupt wirken kann, muss es irgendwo eingebunden werden. Genau dabei entstehen schon wichtige Unterschiede: **Ist die Regel direkt am Element notiert, zentral im Dokument oder in einer eigenen Datei ausgelagert?**

@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Client, Server und Protokolle anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über Client, Server und Protokolle."
-subject: informatik
+subject: "informatik"
 section: "Netzwerke und Dienste"
-topicPath:
-  - "netzwerke-und-dienste"
-  - "client-server-und-protokolle"
-taskId: INF-V183-10-B
-relatedExercise: src/content/exercises/informatik/netzwerke-und-dienste/client-server-und-protokolle/client-server-und-protokolle-anwenden-und-pruefen-v183.md
-tags:
-  - "informatik"
-  - "client-server-und-protokolle"
-  - "loesung"
+topicPath: ["netzwerke-und-dienste", "client-server-und-protokolle", "client-server-und-protokolle-anwenden-und-pruefen-v183"]
+taskId: "INF-V183-10-B"
+relatedExercise: "src/content/exercises/informatik/netzwerke-und-dienste/client-server-und-protokolle/client-server-und-protokolle-anwenden-und-pruefen-v183.md"
+tags: ["informatik", "Netzwerke und Dienste", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

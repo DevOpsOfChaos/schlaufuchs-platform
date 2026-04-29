@@ -3,22 +3,12 @@ title: "Lösung: Statistik und Daten: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-065a."
 subject: "mathematik"
 section: "daten-und-geometrie"
-topicPath:
-  - "daten-und-geometrie"
-  - "statistik-und-daten"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "statistik-und-daten-aufgabe-a"]
 taskId: "mat-v188-065a"
 relatedExercise: "mathematik/sanierung-v188/statistik-und-daten-aufgabe-a"
-tags:
-  - "statistik"
-  - "daten"
-  - "interpretation"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "daten-und-geometrie", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-065a`
 
 Eine mögliche Lösung:

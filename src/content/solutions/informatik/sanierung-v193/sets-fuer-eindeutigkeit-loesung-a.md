@@ -3,23 +3,12 @@ title: "Lösung: Sets für Eindeutigkeit: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-017a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "datenstrukturen-und-algorithmen"
-  - "sets-fuer-eindeutigkeit"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "sets-fuer-eindeutigkeit-loesung-a"]
 taskId: "informatik-v193-017a"
 relatedExercise: "informatik/sanierung-v193/sets-fuer-eindeutigkeit-aufgabe-a"
-tags:
-  - "sets"
-  - "eindeutigkeit"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-017a`
 
 Ausgangsauftrag: Nutze ein Set, um doppelte Tags in einem Datensatz zu erkennen.

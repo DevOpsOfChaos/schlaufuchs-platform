@@ -1,32 +1,17 @@
 ---
-title: Standardkanäle nach Rolle und Ausgabesituation zuordnen
-description: Ordne cin, cout und cerr kleinen C++-Situationen passend zu und begründe die Wahl.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - ein-und-ausgabe
-  - standardkanaele-cin-cout-und-cerr-verstehen
-  - standardkanaele-nach-rolle-und-ausgabesituation-zuordnen
-taskId: INF-PROG-CPP-STREAMOBJ-001
-level: einfach
+title: "Standardkanäle nach Rolle und Ausgabesituation zuordnen"
+description: "Ordne cin, cout und cerr kleinen C++-Situationen passend zu und begründe die Wahl."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "standardkanaele-cin-cout-und-cerr-verstehen", "standardkanaele-nach-rolle-und-ausgabesituation-zuordnen"]
+taskId: "INF-PROG-CPP-STREAMOBJ-001"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - informatik
-  - programmierung
-  - cpp
-hintPoints:
-  - "Trenne erst die Rolle der einzelnen Teile, dann den Gesamtablauf."
-  - "Begründe nicht nur das Ergebnis, sondern auch die Zuordnung."
-selfCheckPoints:
-  - "Habe ich die entscheidenden Begriffe oder Code-Stellen sauber zugeordnet?"
-  - "Ist meine Begründung fachlich ruhig und eindeutig?"
-transferIdeas:
-  - "Übertrage die Logik auf ein ähnliches kleines C++-Beispiel."
-reflectionPrompt: "Welche Unterscheidung war in dieser Aufgabe die wichtigste?"
 ---
-
 ## Aufgabe 1: Rolle zuordnen
 
 Ordne den drei Situationen jeweils <code>cin</code>, <code>cout</code> oder <code>cerr</code> zu und begründe kurz:

@@ -3,22 +3,12 @@ title: "Lösung – JSON validieren und Fallbacks planen"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Development-Aufgabe."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "daten-laden"
-  - "json-validieren-und-fallbacks-planen"
-tags:
-  - "web development"
-  - "javascript"
-  - "json"
-  - "daten"
-  - "robustheit"
-  - "lösung"
+topicPath: ["javascript", "daten-laden", "json-validieren-und-fallbacks-planen"]
 taskId: "web-v103-json-validieren-und-fallbacks-planen"
 relatedExercise: "web-development/javascript/daten-laden/json-validieren-und-fallbacks-planen"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Titel erhalten einen Ersatztext, eine leere Liste zeigt eine Statusmeldung, und ungültige URLs werden nicht als echte Links ausgegeben.

@@ -3,22 +3,12 @@ title: "Lösung: Primärschlüssel begründen"
 description: "Musterlösung zur Aufgabe „Primärschlüssel begründen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "datenbanken-und-modelle"
-  - "tabellen-und-schluessel"
-  - "primaerschluessel-begruenden-v116"
+topicPath: ["datenbanken-und-modelle", "tabellen-und-schluessel", "primaerschluessel-begruenden-v116"]
 taskId: "primaerschluessel-begruenden-v116"
 relatedExercise: "informatik/datenbanken-und-modelle/tabellen-und-schluessel/primaerschluessel-begruenden-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "tabellen und schluessel"
-  - "primaerschluessel begruenden"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

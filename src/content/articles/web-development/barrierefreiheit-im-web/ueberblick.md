@@ -1,34 +1,19 @@
 ---
 title: "Barrierefreiheit im Web"
 description: "Überblick über Barrierefreiheit als Voraussetzung für zugängliche, robuste und inklusive Webseiten."
-subject: web-development
+subject: "web-development"
 section: "Qualität und Zugänglichkeit"
-topicPath:
-  - "barrierefreiheit-im-web"
-  - "ueberblick"
-learningGoals:
-  - "Du verstehst Barrierefreiheit als Qualitätsmerkmal, nicht als Zusatzfunktion."
-  - "Du kennst Semantik, Tastaturbedienung und Kontrast als wichtige Aspekte."
-  - "Du kannst typische Barrieren im Web erkennen."
+topicPath: ["barrierefreiheit-im-web", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Barrierefreiheit nur mit Screenreadern gleichzusetzen."
-  - "Visuelle Gestaltung ohne Tastatur- und Fokusprüfung zu bewerten."
-keyTakeaways:
-  - "Barrierefreiheit verbessert Nutzung für viele Menschen und Situationen."
-  - "Semantisches HTML ist eine wichtige Grundlage zugänglicher Oberflächen."
-recognizeSignals:
-  - "Es geht um Screenreader, Tastatur, Fokus, Kontrast, Alternativtexte, Semantik oder verständliche Bedienung."
-selfCheckPoints:
-  - "Kann ich eine Seite auch ohne Maus sinnvoll bedienen?"
-level: einfach
-tags:
-  - "web development"
-  - "barrierefreiheit"
-  - "accessibility"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Qualität und Zugänglichkeit"]
 draft: false
 ---
-
 # Barrierefreiheit im Web
 
 ![Schaubild zur Barrierefreiheit im Web.](/schlaufuchs-platform/images/overviews/v148/barrierefreiheit-im-web.svg)

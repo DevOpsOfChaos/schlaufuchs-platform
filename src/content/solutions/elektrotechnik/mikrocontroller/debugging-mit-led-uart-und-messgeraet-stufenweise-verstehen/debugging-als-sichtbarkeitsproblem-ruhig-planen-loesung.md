@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Debugging als Sichtbarkeitsproblem ruhig planen
-description: Musterlösung zur Aufgabe ELE-MCU-GEN-106.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - debugging-mit-led-uart-und-messgeraet-stufenweise-verstehen
-  - debugging-als-sichtbarkeitsproblem-ruhig-planen-loesung
-taskId: ELE-MCU-GEN-106
-relatedExercise: src/content/exercises/elektrotechnik/mikrocontroller/debugging-mit-led-uart-und-messgeraet-stufenweise-verstehen/debugging-als-sichtbarkeitsproblem-ruhig-planen.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - loesung
-  - task-id
+title: "Musterlösung – Debugging als Sichtbarkeitsproblem ruhig planen"
+description: "Musterlösung zur Aufgabe ELE-MCU-GEN-106."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "debugging-mit-led-uart-und-messgeraet-stufenweise-verstehen", "debugging-als-sichtbarkeitsproblem-ruhig-planen"]
+taskId: "ELE-MCU-GEN-106"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller/debugging-mit-led-uart-und-messgeraet-stufenweise-verstehen/debugging-als-sichtbarkeitsproblem-ruhig-planen.md"
+tags: ["elektrotechnik", "mikrocontroller", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 - **LED** → beantwortet ruhig die Frage, ob ein Zustand oder Codepfad überhaupt erreicht wird.

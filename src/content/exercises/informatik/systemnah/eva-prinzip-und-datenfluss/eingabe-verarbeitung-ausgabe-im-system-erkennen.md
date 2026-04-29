@@ -1,30 +1,17 @@
 ---
-title: Eingabe, Verarbeitung und Ausgabe im System erkennen
-description: Analysiere einfache technische Abläufe mit dem EVA-Prinzip und begründe die Zuordnung.
-subject: informatik
-section: Systemnah
-topicPath:
-  - systemnah
-  - eva-prinzip-und-datenfluss
-  - eingabe-verarbeitung-ausgabe-im-system-erkennen
-level: einfach
+title: "Eingabe, Verarbeitung und Ausgabe im System erkennen"
+description: "Analysiere einfache technische Abläufe mit dem EVA-Prinzip und begründe die Zuordnung."
+subject: "informatik"
+section: "Systemnah"
+topicPath: ["systemnah", "eva-prinzip-und-datenfluss", "eingabe-verarbeitung-ausgabe-im-system-erkennen"]
+taskId: "AUTO-EINGABE-VERARBEITUNG-AUSGABE-IM-SYSTEM-ERKENNEN"
+tags: ["informatik", "Systemnah", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - eva
-  - systeme
-  - datenfluss
-hintPoints:
-  - "Starte mit der Frage: Was kommt zuerst ins System hinein?"
-  - "Trenne sichtbares Ergebnis und innere Verarbeitung bewusst voneinander."
-selfCheckPoints:
-  - "Ist jede Rolle im EVA-Schema in deinem Beispiel klar beschrieben?"
-  - "Hast du nicht nur Geräte genannt, sondern den Ablauf erklärt?"
-transferIdeas:
-  - "Übertrage die Aufgabe auf einen Ticketautomaten, einen Chat oder ein Navigationsgerät."
-  - "Vergleiche zwei Systeme und prüfe, wo die Verarbeitung jeweils stattfindet."
-reflectionPrompt: "Warum wird ein Systemverständnis oft klarer, wenn du zuerst auf den Datenfluss schaust?"
 ---
-
 ## Aufgabe 1: Suchfunktion einordnen
 
 Bei einer Suchfunktion wird ein Begriff eingegeben, passende Daten werden geprüft und Treffer werden angezeigt.

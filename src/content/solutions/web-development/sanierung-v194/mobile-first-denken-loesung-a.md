@@ -3,25 +3,12 @@ title: "Lösung: Mobile First denken: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-development-v194-012a im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "responsive-layout"
-  - "mobile-first-denken"
-  - "loesung-a"
-
+topicPath: ["sanierung-v194", "mobile-first-denken-loesung-a"]
 taskId: "web-development-v194-012a"
 relatedExercise: "web-development/sanierung-v194/mobile-first-denken-aufgabe-a"
-tags:
-  - "mobile"
-  - "first"
-  - "denken"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-012a`
 
 Ausgangsauftrag: Plane die mobile Reihenfolge einer Produktseite.

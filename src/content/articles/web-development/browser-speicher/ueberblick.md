@@ -1,34 +1,19 @@
 ---
 title: "Browser-Speicher"
 description: "Überblick über lokale Speicherformen im Browser und ihre typischen Einsatzgrenzen."
-subject: web-development
+subject: "web-development"
 section: "Browser und Daten"
-topicPath:
-  - "browser-speicher"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst Cookies, localStorage, sessionStorage und Cache als unterschiedliche Speicherformen."
-  - "Du verstehst, dass Browser-Speicher nicht automatisch sicher oder dauerhaft ist."
-  - "Du kannst einfache Einsatzfälle und Grenzen unterscheiden."
+topicPath: ["browser-speicher", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Sensible Daten unkritisch im Browser zu speichern."
-  - "Browser-Speicher als zuverlässige Datenbank zu behandeln."
-keyTakeaways:
-  - "Browser-Speicher hilft bei Zustand, Komfort und Performance."
-  - "Sicherheit, Lebensdauer und Synchronisation müssen bewusst betrachtet werden."
-recognizeSignals:
-  - "Es geht um Cookies, localStorage, sessionStorage, Cache, Login, Einstellungen oder Offline-Nutzung."
-selfCheckPoints:
-  - "Kann ich erklären, warum ein Token im Browser besonders geschützt werden muss?"
-level: einfach
-tags:
-  - "web development"
-  - "browser"
-  - "speicher"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Browser und Daten"]
 draft: false
 ---
-
 # Browser-Speicher
 
 ![Schaubild zum Browser-Speicher.](/schlaufuchs-platform/images/overviews/v148/browser-speicher.svg)

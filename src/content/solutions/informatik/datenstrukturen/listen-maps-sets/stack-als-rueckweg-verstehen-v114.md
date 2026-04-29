@@ -1,23 +1,14 @@
 ---
-title: Lösung – Stack als Rückweg verstehen
-description: Musterlösung zur Aufgabe über Stack als Rückweg verstehen.
-subject: informatik
-section: Feinstruktur Informatik
-topicPath:
-- datenstrukturen
-- listen-maps-sets
-- stack-als-rueckweg-verstehen-v114
-taskId: v114-informatik-stack-als-rueckweg-verstehen-v114
-relatedExercise: informatik/datenstrukturen/listen-maps-sets/stack-als-rueckweg-verstehen-v114
-tags:
-- informatik
-- v114
-- loesung
-- datenstrukturen
-- listen-maps-sets
+title: "Lösung – Stack als Rückweg verstehen"
+description: "Musterlösung zur Aufgabe über Stack als Rückweg verstehen."
+subject: "informatik"
+section: "Feinstruktur Informatik"
+topicPath: ["datenstrukturen", "listen-maps-sets", "stack-als-rueckweg-verstehen-v114"]
+taskId: "v114-informatik-stack-als-rueckweg-verstehen-v114"
+relatedExercise: "informatik/datenstrukturen/listen-maps-sets/stack-als-rueckweg-verstehen-v114"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

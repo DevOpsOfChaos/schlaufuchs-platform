@@ -3,23 +3,12 @@ title: "Lösung – Fallunterscheidung bei Parametern früh planen"
 description: "Musterlösung zu Fallunterscheidung bei Parametern früh planen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Algebra"
-topicPath:
-  - "gleichungen-und-modelle"
-  - "bedingungen-und-loesungsmenge"
-  - "v110-teil-4"
-  - "fallunterscheidung-bei-parametern-frueh-planen"
+topicPath: ["gleichungen-und-modelle", "bedingungen-und-loesungsmenge", "v110-teil-4", "fallunterscheidung-bei-parametern-frueh-planen"]
 taskId: "v110-mathematik-fallunterscheidung-bei-parametern-frueh-planen"
 relatedExercise: "mathematik/gleichungen-und-modelle/bedingungen-und-loesungsmenge/v110-teil-4/fallunterscheidung-bei-parametern-frueh-planen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfung"
-  - "gleichungen-und-modelle"
-  - "bedingungen-und-loesungsmenge"
-  - "fallunterscheidung-bei-parametern-frueh-planen"
+tags: ["mathematik", "Algebra", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Fallunterscheidung bei Parametern früh planen**.

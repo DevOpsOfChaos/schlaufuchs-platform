@@ -1,37 +1,19 @@
 ---
 title: "Shell-History und Wiederverwendung"
 description: "Allgemeiner Überblick über Shell-History, Suche in vergangenen Befehlen und sichere Wiederverwendung."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell-history-und-wiederverwendung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Shell-History und Wiederverwendung als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["shell-history-und-wiederverwendung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Befehle aus der History werden oft blind erneut ausgeführt, obwohl der Kontext anders ist."
-keyTakeaways:
-  - "Shell-History macht wiederkehrende Arbeit schneller."
-  - "Wiederverwendete Befehle müssen geprüft werden."
-  - "Geheimnisse gehören nicht in die Befehlszeile."
-recognizeSignals:
-  - "Ein langer Befehl soll erneut genutzt werden."
-  - "Ein Fehler entstand durch einen alten History-Eintrag."
-selfCheckPoints:
-  - "Kann ich Shell-History und Wiederverwendung in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "history"
-  - "terminal"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
-
 # Shell-History und Wiederverwendung
 
 Die Shell-History speichert frühere Befehle, damit sie erneut aufgerufen, durchsucht oder angepasst werden können.

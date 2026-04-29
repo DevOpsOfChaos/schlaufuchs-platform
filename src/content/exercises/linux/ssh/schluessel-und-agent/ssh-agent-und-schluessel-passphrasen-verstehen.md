@@ -3,35 +3,15 @@ title: "Aufgabe – ssh-agent und Schlüssel-Passphrasen verstehen"
 description: "Übe das Unterthema „SSH-Schlüssel“ mit einem kleinen, prüfbaren Szenario."
 subject: "linux"
 section: "SSH"
-topicPath:
-  - "ssh"
-  - "schluessel-und-agent"
-  - "ssh-agent-und-schluessel-passphrasen-verstehen"
+topicPath: ["ssh", "schluessel-und-agent", "ssh-agent-und-schluessel-passphrasen-verstehen"]
 taskId: "v106-linux-ssh-agent-und-schluessel-passphrasen-verstehen"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "praxis"
-  - "ssh-schlüssel"
-  - "ssh"
-  - "schluessel-und-agent"
-hintPoints:
-  - "Beginne mit der konkreten Situation, nicht mit einer allgemeinen Regel."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Habe ich das passende Unterthema erkannt?"
-  - "Ist meine Begründung fachlich und sprachlich klar?"
-  - "Würde meine Gegenprobe einen typischen Fehler finden?"
-transferIdeas:
-  - "Ändere einen Randwert und prüfe, ob deine Begründung noch gilt."
-  - "Erkläre die Lösung einmal für Einsteigerinnen und danach fachlich genauer."
-reflectionPrompt: "Welche Abgrenzung macht „SSH-Schlüssel“ für dich klarer als ein breites Sammelthema?"
+tags: ["linux", "SSH", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Du bekommst ein kleines Szenario zum Unterthema **SSH-Schlüssel**.

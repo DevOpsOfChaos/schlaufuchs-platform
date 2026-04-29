@@ -1,35 +1,17 @@
 ---
 title: "Idempotency Keys"
 description: "Überblick über Idempotency Keys zur sicheren Wiederholung von API-Anfragen."
-subject: informatik
+subject: "informatik"
 section: "APIs"
-topicPath:
-  - "idempotency-keys"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Idempotency Keys als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["idempotency-keys", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, nur HTTP-Methoden als idempotent zu betrachten und fachliche Wiederholungen nicht abzusichern."
-keyTakeaways:
-  - "Idempotency Keys kennzeichnen eine fachliche Anfrage eindeutig, damit Wiederholungen nicht mehrfach dieselbe Wirkung erzeugen."
-  - "Sie schützen vor Doppelbuchungen, mehrfachen Bestellungen oder wiederholten Aktionen nach Netzwerkabbrüchen."
-  - "Idempotency Keys ersetzen keine Transaktionen oder fachliche Eindeutigkeitsregeln. Sie ergänzen sie."
-recognizeSignals:
-  - "Es geht um Idempotency Keys, wenn der Client sendet einen eindeutigen Schlüssel pro beabsichtigter Aktion."
-  - "Das Thema wird relevant, wenn Beispiele wie beim Absenden einer Zahlung kann derselbe Schlüssel verhindern, dass ein Retry eine zweite Zahlung auslöst."
-selfCheckPoints:
-  - "Kann ich Idempotency Keys in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "api"
-  - "idempotenz"
-  - "zuverlässigkeit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "APIs"]
 draft: false
 ---
 # Idempotency Keys

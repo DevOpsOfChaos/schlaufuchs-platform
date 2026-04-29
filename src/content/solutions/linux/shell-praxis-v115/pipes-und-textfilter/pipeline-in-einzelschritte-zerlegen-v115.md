@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Pipeline in Einzelschritte zerlegen"
 description: "Musterlösung zu Pipeline in Einzelschritte zerlegen mit Trennkante und Gegenprobe."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell-praxis-v115"
-  - "pipes-und-textfilter"
-  - "pipeline-in-einzelschritte-zerlegen-v115"
+topicPath: ["shell-praxis-v115", "pipes-und-textfilter", "pipeline-in-einzelschritte-zerlegen-v115"]
 taskId: "linux-pipeline-in-einzelschritte-zerlegen-v115"
 relatedExercise: "linux/shell-praxis-v115/pipes-und-textfilter/pipeline-in-einzelschritte-zerlegen-v115"
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "shell-praxis"
-  - "pipes und textfilter"
-  - "lösung"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Pipeline in Einzelschritte zerlegen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

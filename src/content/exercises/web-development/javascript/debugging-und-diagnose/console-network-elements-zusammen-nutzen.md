@@ -3,34 +3,15 @@ title: "Aufgabe – Console, Network und Elements zusammen nutzen"
 description: "Erstelle eine Debugging-Reihenfolge für einen Button, der Daten laden soll, aber sichtbar nichts tut."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "debugging-und-diagnose"
-  - "console-network-elements-zusammen-nutzen"
-tags:
-  - "web development"
-  - "javascript"
-  - "debugging"
-  - "devtools"
-  - "diagnose"
-  - "aufgabe"
+topicPath: ["javascript", "debugging-und-diagnose", "console-network-elements-zusammen-nutzen"]
 taskId: "web-v103-console-network-elements-zusammen-nutzen"
-hintPoints:
-  - "Lies zuerst die vorhandene Struktur und den sichtbaren Zustand."
-  - "Trenne technische Entscheidung und Nutzer-Rückmeldung."
-  - "Achte darauf, dass die Formulierung auf Deutsch konkret bleibt."
-selfCheckPoints:
-  - "Ist die Lösung auch bei Fehlern oder fehlenden Daten verständlich?"
-  - "Sind Struktur, Gestaltung und Verhalten sauber getrennt?"
-  - "Gibt es eine sichtbare und passende Rückmeldung?"
-transferIdeas:
-  - "Übertrage die Aufgabe auf eine Formular-, Karten- oder Navigationsoberfläche."
-  - "Vergleiche eine schnelle, aber fragile Lösung mit einer robusteren Lösung."
-reflectionPrompt: "Welche kleine Entscheidung verbessert hier nicht nur den Code, sondern auch die Nutzererfahrung?"
+tags: ["web-development", "JavaScript", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Erstelle eine Debugging-Reihenfolge für einen Button, der Daten laden soll, aber sichtbar nichts tut.

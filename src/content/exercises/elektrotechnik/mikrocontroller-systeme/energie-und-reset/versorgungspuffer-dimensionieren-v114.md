@@ -1,35 +1,17 @@
 ---
-title: Aufgabe – Versorgungspuffer dimensionieren
-description: Übe Versorgungspuffer dimensionieren mit einem kleinen, prüfbaren Szenario.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- mikrocontroller-systeme
-- energie-und-reset
-- versorgungspuffer-dimensionieren-v114
-taskId: v114-elektrotechnik-versorgungspuffer-dimensionieren-v114
-tags:
-- elektrotechnik
-- v114
-- aufgabe
-- mikrocontroller-systeme
-- energie-und-reset
-hintPoints:
-- Beginne mit der konkreten Situation, nicht mit einer allgemeinen Definition.
-- 'Nutze die Prüffrage: Welche Spitze muss der Puffer überbrücken?'
-- Formuliere am Ende eine Gegenprobe.
-selfCheckPoints:
-- Habe ich die Trennkante klar benannt?
-- Habe ich das Nachbarthema bewusst ausgeschlossen?
-- Ist meine Begründung an das Beispiel gekoppelt?
-transferIdeas:
-- Ändere eine Bedingung im Szenario und prüfe, ob die Entscheidung gleich bleibt.
-- Erkläre die Lösung einmal ohne Fachsprache und danach fachlich sauber.
-reflectionPrompt: Welche kleine Prüffrage hat dir am meisten geholfen?
-level: einfach
+title: "Aufgabe – Versorgungspuffer dimensionieren"
+description: "Übe Versorgungspuffer dimensionieren mit einem kleinen, prüfbaren Szenario."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["mikrocontroller-systeme", "energie-und-reset", "versorgungspuffer-dimensionieren-v114"]
+taskId: "v114-elektrotechnik-versorgungspuffer-dimensionieren-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Versorgungspuffer dimensionieren**.

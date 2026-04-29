@@ -1,42 +1,19 @@
 ---
 title: "Grundlagen: Messgeräte und Messgrößen"
 description: "Allgemeiner Überblick über Messgeräte, Messgrößen, Messbereiche und plausible Messergebnisse."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Daten und Signale"
-topicPath:
-  - "daten-und-signale"
-  - "messgeraete-und-messgroessen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen, bevor du Detailaufgaben bearbeitest."
-  - "Du unterscheidest zentrale Begriffe und typische Fehlerquellen."
-  - "Du erkennst, welche Nachbarseiten und Übungen zu diesem Thema passen."
-practiceIdeas:
-  - "Lies zuerst die Übersicht und markiere die Begriffe, die in Aufgaben wieder auftauchen."
-  - "Formuliere zu jedem Abschnitt eine eigene kurze Prüffrage."
-commonMistakes:
-  - "Direkt mit einem Einzelfall zu beginnen, ohne den allgemeinen Zusammenhang zu klären."
-  - "Mess-, Rechen- und Schaltungsbegriffe zu vermischen."
-  - "Ein einzelnes Beispiel für die komplette Themenlogik zu halten."
-keyTakeaways:
-  - "Messgeräte liefern keine Bedeutung von selbst, sondern Werte zu einer bestimmten Messgröße."
-  - "Spannung, Strom, Widerstand und Frequenz müssen unterschiedlich angeschlossen und gelesen werden."
-  - "Messbereich, Einheit und Plausibilität gehören immer zusammen."
-recognizeSignals:
-  - "Du suchst eine ruhige Einordnung statt einer einzelnen Problemsituation."
-  - "Mehrere Detailseiten wirken ähnlich und sollen fachlich sortiert werden."
-selfCheckPoints:
-  - "Kann ich die Grundidee in eigenen Worten erklären?"
-  - "Kann ich typische Fehler benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "messgroessen"
-  - "messgeraete"
+topicPath: ["daten-und-signale", "messgeraete-und-messgroessen", "ueberblick", "grundlagen-messgeraete-und-messgroessen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Daten und Signale"]
 draft: false
 ---
-
 ![Grundlagen: Messgeräte und Messgrößen](/schlaufuchs-platform/images/overviews/v178/messen-und-messgroessen.svg)
 
 ## Begriff und Zweck

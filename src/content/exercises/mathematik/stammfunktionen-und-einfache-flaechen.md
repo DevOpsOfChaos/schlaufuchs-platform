@@ -1,12 +1,17 @@
 ---
-title: Stammfunktionen und einfache Flächen
-description: Diese Aufgabe verbindet Grundmuster der Stammfunktion mit einfachen bestimmten Integralen und einer bewussten Flächenprüfung.
-subject: mathematik
-section: Analysis
-level: mittel
+title: "Stammfunktionen und einfache Flächen"
+description: "Diese Aufgabe verbindet Grundmuster der Stammfunktion mit einfachen bestimmten Integralen und einer bewussten Flächenprüfung."
+subject: "mathematik"
+section: "Analysis"
+topicPath: ["stammfunktionen-und-einfache-flaechen"]
+taskId: "AUTO-STAMMFUNKTIONEN-UND-EINFACHE-FLAECHEN"
+tags: ["mathematik", "Analysis", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben ohne Taschenrechner. Achte besonders darauf, ob nach einer Stammfunktion, einem bestimmten Integral oder einem geometrischen Flächeninhalt gefragt ist.

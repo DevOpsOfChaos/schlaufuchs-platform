@@ -1,44 +1,19 @@
 ---
-title: Boxenmodell mit Margin, Padding und Border verstehen
-description: Verstehe das Boxenmodell über Abstände und Schichten, damit du Layoutprobleme ruhiger lesen kannst.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - boxenmodell-mit-margin-padding-und-border-verstehen
-learningGoals:
-  - Du erklärst Inhalt, Padding, Border und Margin sauber.
-  - Du beschreibst, welche Abstände innen und außen entstehen.
-  - Du liest Boxgrößen systematischer statt nur sichtbare Flächen zu schätzen.
-practiceIdeas:
-  - Zerlege eine Karte in Inhalt, Padding, Border und Margin.
-  - Vergleiche Innenabstand und Außenabstand an zwei Boxen.
-  - Erkläre, warum eine Box größer wirkt als ihr eigentlicher Inhalt.
-commonMistakes:
-  - Padding und Margin gleichzusetzen.
-  - Den Border nur als Deko statt als Teil der Box zu sehen.
-  - Sichtbare Größe nur am Textinhalt festzumachen.
-keyTakeaways:
-  - Jedes sichtbare Element kann als Box gedacht werden.
-  - Padding liegt innen, Margin außen.
-  - Border gehört zur Box und beeinflusst die sichtbare Begrenzung.
-recognizeSignals:
-  - Es geht um Abstand, Größe oder die sichtbare Fläche eines Elements.
-  - Du sollst erklären, warum etwas größer oder weiter weg wirkt.
-  - In Beispielen tauchen width, padding, border oder margin zusammen auf.
-selfCheckPoints:
-  - Kann ich die vier Schichten des Boxenmodells sauber benennen?
-  - Kann ich innen und außen unterscheiden?
-  - Kann ich erklären, warum ein Element größer aussieht als nur sein Inhalt?
-tags:
-  - css
-  - box-modell
-  - margin
-  - padding
-level: einfach
+title: "Boxenmodell mit Margin, Padding und Border verstehen"
+description: "Verstehe das Boxenmodell über Abstände und Schichten, damit du Layoutprobleme ruhiger lesen kannst."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "boxenmodell-mit-margin-padding-und-border-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Jedes sichtbare Element auf einer Webseite lässt sich als rechteckige Box denken. Für Layoutfragen reicht es deshalb nicht, nur auf den Text oder das Bild zu schauen. Wichtig ist die ganze Box mit ihren **inneren Schichten** und ihrem **äußeren Abstand**.

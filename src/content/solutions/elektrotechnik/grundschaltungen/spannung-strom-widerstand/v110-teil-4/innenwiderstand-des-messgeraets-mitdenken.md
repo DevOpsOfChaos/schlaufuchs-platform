@@ -3,23 +3,12 @@ title: "Lösung – Innenwiderstand des Messgeräts mitdenken"
 description: "Musterlösung zu Innenwiderstand des Messgeräts mitdenken mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Grundschaltungen"
-topicPath:
-  - "grundschaltungen"
-  - "spannung-strom-widerstand"
-  - "v110-teil-4"
-  - "innenwiderstand-des-messgeraets-mitdenken"
+topicPath: ["grundschaltungen", "spannung-strom-widerstand", "v110-teil-4", "innenwiderstand-des-messgeraets-mitdenken"]
 taskId: "v110-elektrotechnik-innenwiderstand-des-messgeraets-mitdenken"
 relatedExercise: "elektrotechnik/grundschaltungen/spannung-strom-widerstand/v110-teil-4/innenwiderstand-des-messgeraets-mitdenken"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "grundschaltungen"
-  - "spannung-strom-widerstand"
-  - "innenwiderstand-des-messgeraets-mitdenken"
+tags: ["elektrotechnik", "Grundschaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Innenwiderstand des Messgeräts mitdenken**.

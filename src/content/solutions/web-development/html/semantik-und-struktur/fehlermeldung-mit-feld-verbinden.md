@@ -3,21 +3,12 @@ title: "Lösung – Fehlermeldung mit Feld verbinden"
 description: "Musterlösung zu fehlermeldung mit feld verbinden mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "html"
-  - "semantik-und-struktur"
-  - "fehlermeldung-mit-feld-verbinden"
+topicPath: ["html", "semantik-und-struktur", "fehlermeldung-mit-feld-verbinden"]
 taskId: "v112-web-development-fehlermeldung-mit-feld-verbinden"
 relatedExercise: "web-development/html/semantik-und-struktur/fehlermeldung-mit-feld-verbinden"
-tags:
-  - "web-development"
-  - "v112"
-  - "feinstruktur"
-  - "html"
-  - "fehlermeldung-mit-feld-verbinden"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **HTML Semantik und Struktur**.

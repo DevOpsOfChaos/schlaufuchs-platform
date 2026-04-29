@@ -1,34 +1,17 @@
 ---
-title: Eingabe und Ausgabe im Konsolenablauf erklären
-description: Erkläre bei kleinen C++-Beispielen die Rollen von cout, cin und der verwendeten Variable.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - erstes-programm
-  - ein-und-ausgabe-mit-cin-und-cout-verstehen
-  - eingabe-und-ausgabe-im-konsolenablauf-erklaeren
-taskId: INF-PROG-CPP-CINOUT-001
-level: einfach
+title: "Eingabe und Ausgabe im Konsolenablauf erklären"
+description: "Erkläre bei kleinen C++-Beispielen die Rollen von cout, cin und der verwendeten Variable."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "ein-und-ausgabe-mit-cin-und-cout-verstehen", "eingabe-und-ausgabe-im-konsolenablauf-erklaeren"]
+taskId: "INF-PROG-CPP-CINOUT-001"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - cin
-  - cout
-hintPoints:
-  - "Trenne zuerst Ausgabe, Eingabe und spätere Rückmeldung."
-  - "Achte darauf, in welche Variable der Wert geschrieben wird."
-selfCheckPoints:
-  - "Hast du cin und cout sauber getrennt?"
-  - "Ist die Rolle der Variablen erklärt?"
-transferIdeas:
-  - "Übertrage die Logik auf Name, Alter oder Punktzahl."
-reflectionPrompt: "Warum hilft dir ein Datenflussdenken mehr als bloßes Symbolmerken?"
 ---
-
 ## Aufgabe 1: Rollen benennen
 
 Gegeben ist:

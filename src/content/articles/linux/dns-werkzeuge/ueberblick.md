@@ -1,33 +1,19 @@
 ---
 title: "DNS-Werkzeuge"
 description: "DNS-Werkzeuge wie dig, host und resolvectl helfen bei der Analyse von Namensauflösung. Sie zeigen, ob ein Problem am Namen, am Resolver oder am Netzwerk liegt."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "dns-werkzeuge"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von DNS-Werkzeuge."
-  - "Du kannst DNS-Werkzeuge in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["dns-werkzeuge", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Eine erfolgreiche Namensauflösung mit einem funktionierenden Dienst gleichzusetzen."
-keyTakeaways:
-  - "DNS-Werkzeuge wie dig, host und resolvectl helfen bei der Analyse von Namensauflösung."
-  - "Wichtig sind vor allem a-, aaaa-, cname- und mx-records, resolver und cache und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um DNS-Werkzeuge, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu DNS-Werkzeuge dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "linux"
-  - "grundlagen"
-  - "dns werkzeuge"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # DNS-Werkzeuge
 
 DNS-Werkzeuge wie dig, host und resolvectl helfen bei der Analyse von Namensauflösung. Sie zeigen, ob ein Problem am Namen, am Resolver oder am Netzwerk liegt. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

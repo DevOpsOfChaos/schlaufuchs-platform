@@ -1,12 +1,17 @@
 ---
-title: Lineares Gleichungssystem aus einem Sachtext
-description: Diese neu formulierte Bestandsaufgabe übersetzt einen einfachen Sachtext in ein lineares Gleichungssystem und löst ihn sauber Schritt für Schritt.
-subject: mathematik
-section: Algebra
-level: mittel
+title: "Lineares Gleichungssystem aus einem Sachtext"
+description: "Diese neu formulierte Bestandsaufgabe übersetzt einen einfachen Sachtext in ein lineares Gleichungssystem und löst ihn sauber Schritt für Schritt."
+subject: "mathematik"
+section: "Algebra"
+topicPath: ["lineares-gleichungssystem-aus-sachtext"]
+taskId: "AUTO-LINEARES-GLEICHUNGSSYSTEM-AUS-SACHTEXT"
+tags: ["mathematik", "Algebra", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Lies den Sachtext ruhig und trenne zuerst Informationen von Rechnungen. Ziel ist nicht blindes Einsetzen, sondern das saubere Aufstellen eines linearen Gleichungssystems.

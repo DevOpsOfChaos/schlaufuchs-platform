@@ -3,21 +3,12 @@ title: "Lösung – Liste und Map nach Zugriffsmuster wählen"
 description: "Musterlösung zu liste und map nach zugriffsmuster wählen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenstrukturen"
-  - "listen-und-maps"
-  - "liste-und-map-nach-zugriffsmuster-waehlen"
+topicPath: ["datenstrukturen", "listen-und-maps", "liste-und-map-nach-zugriffsmuster-waehlen"]
 taskId: "v112-informatik-liste-und-map-nach-zugriffsmuster-waehlen"
 relatedExercise: "informatik/datenstrukturen/listen-und-maps/liste-und-map-nach-zugriffsmuster-waehlen"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "datenstrukturen"
-  - "liste-und-map-nach-zugriffsmuster-waehlen"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Listen und Maps**.

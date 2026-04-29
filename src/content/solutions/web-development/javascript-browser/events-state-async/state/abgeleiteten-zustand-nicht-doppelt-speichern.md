@@ -3,23 +3,12 @@ title: "Lösung – Abgeleiteten Zustand nicht doppelt speichern"
 description: "Musterlösung zu Derived State mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "javascript-browser"
-  - "events-state-async"
-  - "state"
-  - "abgeleiteten-zustand-nicht-doppelt-speichern"
+topicPath: ["javascript-browser", "events-state-async", "state", "abgeleiteten-zustand-nicht-doppelt-speichern"]
 taskId: "v111-web-development-abgeleiteten-zustand-nicht-doppelt-speichern"
 relatedExercise: "web-development/javascript-browser/events-state-async/state/abgeleiteten-zustand-nicht-doppelt-speichern"
-tags:
-  - "web development"
-  - "frontend"
-  - "unterthema"
-  - "javascript-browser"
-  - "events-state-async"
-  - "abgeleiteten-zustand-nicht-doppelt-speichern"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Derived State**.

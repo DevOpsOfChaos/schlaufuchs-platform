@@ -3,24 +3,12 @@ title: "Lösung: Impedanz qualitativ verstehen: Aufgabe A"
 description: "Musterlösung zur Aufgabe etech-v191-024a im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "wechselstrom"
-  - "impedanz-qualitativ-verstehen"
-  - "loesung-a"
+topicPath: ["sanierung-v191", "impedanz-qualitativ-verstehen-aufgabe-a"]
 taskId: "etech-v191-024a"
 relatedExercise: "elektrotechnik/sanierung-v191/impedanz-qualitativ-verstehen-aufgabe-a"
-tags:
-  - "wechselstrom"
-  - "impedanz"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-024a`
 
 Ausgangsauftrag: Erkläre qualitativ, warum ein Kondensator bei höherer Frequenz anders wirkt.

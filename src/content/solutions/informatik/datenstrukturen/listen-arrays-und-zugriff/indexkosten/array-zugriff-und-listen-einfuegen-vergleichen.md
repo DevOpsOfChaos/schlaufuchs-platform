@@ -3,23 +3,12 @@ title: "Lösung – Array-Zugriff und Listen-Einfügen vergleichen"
 description: "Musterlösung zu Zugriffskosten mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "informatik"
 section: "Datenstrukturen"
-topicPath:
-  - "datenstrukturen"
-  - "listen-arrays-und-zugriff"
-  - "indexkosten"
-  - "array-zugriff-und-listen-einfuegen-vergleichen"
+topicPath: ["datenstrukturen", "listen-arrays-und-zugriff", "indexkosten", "array-zugriff-und-listen-einfuegen-vergleichen"]
 taskId: "v108-informatik-array-zugriff-und-listen-einfuegen-vergleichen"
 relatedExercise: "informatik/datenstrukturen/listen-arrays-und-zugriff/indexkosten/array-zugriff-und-listen-einfuegen-vergleichen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "datenstrukturen"
-  - "listen-arrays-und-zugriff"
-  - "zugriffskosten"
+tags: ["informatik", "Datenstrukturen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **Zugriffskosten**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

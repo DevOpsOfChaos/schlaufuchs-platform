@@ -1,33 +1,17 @@
 ---
 title: "Shell-Arbeitsfluss"
 description: "Überblick über einen ruhigen Arbeitsfluss in der Shell: orientieren, prüfen, ausführen, kontrollieren und dokumentieren."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell-arbeitsfluss"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Shell-Arbeitsfluss als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["shell-arbeitsfluss", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Shell-Arbeit wird oft als schnelle Befehlsfolge verstanden. Gerade schnelle Befehle brauchen aber klare Zwischenkontrollen."
-keyTakeaways:
-  - "Ein guter Shell-Arbeitsfluss vermeidet blindes Ausprobieren. Er beginnt mit Orientierung und endet mit einer Kontrolle des Ergebnisses."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um shell-arbeitsfluss, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich shell-arbeitsfluss in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "shell-arbeitsfluss"
-  - "überblick"
-  - "arbeitsverzeichnis"
-  - "trockenlauf"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
 # Shell-Arbeitsfluss

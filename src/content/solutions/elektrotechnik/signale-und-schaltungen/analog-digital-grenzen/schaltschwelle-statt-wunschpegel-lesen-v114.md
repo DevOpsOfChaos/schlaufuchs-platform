@@ -1,23 +1,14 @@
 ---
-title: Lösung – Schaltschwelle statt Wunschpegel lesen
-description: Musterlösung zur Aufgabe über Schaltschwelle statt Wunschpegel lesen.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- signale-und-schaltungen
-- analog-digital-grenzen
-- schaltschwelle-statt-wunschpegel-lesen-v114
-taskId: v114-elektrotechnik-schaltschwelle-statt-wunschpegel-lesen-v114
-relatedExercise: elektrotechnik/signale-und-schaltungen/analog-digital-grenzen/schaltschwelle-statt-wunschpegel-lesen-v114
-tags:
-- elektrotechnik
-- v114
-- loesung
-- signale-und-schaltungen
-- analog-digital-grenzen
+title: "Lösung – Schaltschwelle statt Wunschpegel lesen"
+description: "Musterlösung zur Aufgabe über Schaltschwelle statt Wunschpegel lesen."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["signale-und-schaltungen", "analog-digital-grenzen", "schaltschwelle-statt-wunschpegel-lesen-v114"]
+taskId: "v114-elektrotechnik-schaltschwelle-statt-wunschpegel-lesen-v114"
+relatedExercise: "elektrotechnik/signale-und-schaltungen/analog-digital-grenzen/schaltschwelle-statt-wunschpegel-lesen-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

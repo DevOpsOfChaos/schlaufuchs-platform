@@ -1,49 +1,19 @@
 ---
 title: "Mikrocontroller – Versorgung, Abblockkondensatoren und Masseführung"
 description: "Verstehe, warum stabile Versorgung, kurze Stromwege und Abblockkondensatoren für Mikrocontroller-Schaltungen wichtiger sind als viele Codeänderungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - versorgung-abblockkondensatoren-und-massefuehrung
-learningGoals:
-  - "Du erklärst, warum ein Mikrocontroller trotz richtigem Code durch schlechte Versorgung unzuverlässig laufen kann."
-  - "Du beschreibst die Aufgabe von Abblockkondensatoren nahe an Versorgungsanschlüssen."
-  - "Du unterscheidest Masseverbindung, Versorgungseinbruch und Softwarefehler in einer Fehlersuche."
-practiceIdeas:
-  - "Skizziere bei einer kleinen Schaltung zuerst VCC, GND und die Stromwege."
-  - "Prüfe, wo ein 100-nF-Kondensator wirklich nah am IC sitzen müsste."
-  - "Vergleiche einen Reset beim Motorstart mit einem echten Programmierfehler."
-commonMistakes:
-  - "Jeden zufälligen Neustart zuerst im Code zu suchen."
-  - "Abblockkondensatoren irgendwo auf das Steckbrett zu setzen und „erledigt“ zu denken."
-  - "AVCC, GND und Masseführung nur als Nebensache zu behandeln."
-keyTakeaways:
-  - "Stabile Versorgung ist eine Grundbedingung, kein Feinschliff."
-  - "Abblockkondensatoren helfen besonders gegen kurze Stromspitzen direkt am IC."
-  - "Viele scheinbare Softwarefehler entstehen durch Versorgungseinbrüche, schlechte Masseführung oder störende Lasten."
-recognizeSignals:
-  - "Ein Board startet neu, wenn Relais, Motoren oder LEDs geschaltet werden."
-  - "Messwerte springen stark, obwohl der Code gleich bleibt."
-  - "Die Aufgabe fragt nach VCC, GND, AVCC, Kondensatoren oder Störungen."
-selfCheckPoints:
-  - "Kann ich erklären, warum ein Kondensator nah am IC sitzen soll?"
-  - "Kann ich Versorgung und Masse als Signalweg mitdenken?"
-  - "Kann ich eine Hardwareursache prüfen, bevor ich den Code ändere?"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - versorgung
-  - abblockkondensator
-  - masse
-  - fehlersuche
-  - hardware
-level: mittel
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "versorgung-abblockkondensatoren-und-massefuehrung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Mikrocontroller braucht nicht nur ein Programm, sondern auch eine ruhige elektrische Umgebung. Wenn Versorgung oder Masse wackeln, kann der beste Code zufällig wirken: Resets, flackernde Ausgänge und springende Messwerte sind dann oft Hardwarehinweise.

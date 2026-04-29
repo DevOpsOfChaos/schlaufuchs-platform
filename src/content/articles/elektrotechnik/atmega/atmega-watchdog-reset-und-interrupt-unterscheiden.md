@@ -1,46 +1,19 @@
 ---
-title: ATmega – Watchdog-Reset und Watchdog-Interrupt unterscheiden
-description: Verstehe, warum der Watchdog am AVR nicht nur hart zurücksetzen, sondern auch als vorgelagerte Warn- oder Weckreaktion genutzt werden kann.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - interrupts-und-reaktivitaet
-  - atmega-watchdog-reset-und-interrupt-unterscheiden
-learningGoals:
-  - Du erklärst den Unterschied zwischen Watchdog-Reset und Watchdog-Interrupt am AVR.
-  - Du beschreibst den Watchdog eher als Sicherheitsmechanismus mit verschiedenen Reaktionsformen statt nur als „Reset-Timer“.
-  - Du liest Überwachungslogik und Fehlerreaktion bewusster auseinander.
-practiceIdeas:
-  - Vergleiche die Reaktion „Programm wird neu gestartet“ mit der Reaktion „ISR meldet oder weckt zuerst“.
-  - Ordne bei Sicherheitsfällen, was bloße Warnung und was harte Wiederherstellung bedeutet.
-  - Prüfe in AVR-Fällen, ob der Watchdog gerade resetten oder zunächst eine ISR auslösen soll.
-commonMistakes:
-  - Zu glauben, der Watchdog könne nur einen Reset auslösen.
-  - Interrupt und Reset als gleichzeitig dieselbe Wirkung zu lesen.
-  - Das eigentliche Ziel des Watchdogs auf bloßes „läuft halt nebenbei“ zu verkürzen.
-keyTakeaways:
-  - Der Watchdog kann am AVR je nach Konfiguration unterschiedlich reagieren.
-  - Ein Watchdog-Interrupt ist nicht dasselbe wie ein sofortiger Systemneustart.
-  - Überwachung und Reaktionsart sollten bewusst getrennt gelesen werden.
-recognizeSignals:
-  - Es geht um Watchdog-Konfiguration, Fehlerüberwachung oder Wake-up-Strategien.
-  - Du sollst erklären, warum ein AVR nicht sofort neu startet, obwohl der Watchdog beteiligt ist.
-  - In Aufgaben wird zwischen Warnreaktion und harter Wiederherstellung unterschieden.
-selfCheckPoints:
-  - Kann ich Reset und Interrupt beim Watchdog sauber trennen?
-  - Kann ich erklären, wann eine ISR-Reaktion sinnvoller sein kann als ein sofortiger Neustart?
-  - Kann ich den Watchdog als Sicherheitsmechanismus einordnen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - watchdog
-  - interrupt
-level: mittel
+title: "ATmega – Watchdog-Reset und Watchdog-Interrupt unterscheiden"
+description: "Verstehe, warum der Watchdog am AVR nicht nur hart zurücksetzen, sondern auch als vorgelagerte Warn- oder Weckreaktion genutzt werden kann."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-watchdog-reset-und-interrupt-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Der Watchdog wird oft sehr grob als „Timer gegen Programmabstürze“ beschrieben. Das stimmt nur teilweise. Wichtiger ist die Frage: **Wie soll das System reagieren, wenn die erwartete Rückmeldung ausbleibt?** Genau dort trennt der AVR zwischen **Watchdog-Reset** und **Watchdog-Interrupt**.

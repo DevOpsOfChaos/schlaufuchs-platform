@@ -3,34 +3,15 @@ title: "Aufgabe – Debounce und Throttle für Eingaben unterscheiden"
 description: "Wende die Web-Development-Idee aus der passenden Wissensseite auf ein konkretes Mini-Szenario an."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "dom-und-events"
-  - "debounce-und-throttle-fuer-eingaben-unterscheiden"
+topicPath: ["javascript", "dom-und-events", "debounce-und-throttle-fuer-eingaben-unterscheiden"]
 taskId: "web-v104-debounce-und-throttle-fuer-eingaben-unterscheiden"
-tags:
-  - "web development"
-  - "javascript"
-  - "events"
-  - "debounce"
-  - "throttle"
-  - "aufgabe"
-hintPoints:
-  - "Beschreibe zuerst die Nutzer-Situation, bevor du Code oder Technik bewertest."
-  - "Trenne sichtbares Problem, technische Ursache und konkrete Verbesserung."
-  - "Nutze höchstens drei klare Prüffragen statt einer langen unscharfen Liste."
-selfCheckPoints:
-  - "Ist meine Verbesserung für Nutzende sichtbar oder nachvollziehbar?"
-  - "Habe ich einen Fehler- oder Randfall bewusst mitgedacht?"
-  - "Kann ich die Lösung mit einer kleinen Gegenprobe prüfen?"
-transferIdeas:
-  - "Übertrage dieselbe Prüflogik auf eine andere Seite im Projekt."
-  - "Formuliere aus deiner Lösung eine kurze Review-Frage für spätere Arbeiten."
-reflectionPrompt: "Welche kleine Regel aus dieser Aufgabe würdest du beim nächsten Web-Projekt wiederverwenden?"
-level: mittel
+tags: ["web-development", "JavaScript", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Du bekommst eine kleine Web-Oberfläche, die grundsätzlich funktioniert, aber an einer Stelle unklar, fragil oder schwer wartbar ist.

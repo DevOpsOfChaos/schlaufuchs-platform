@@ -3,22 +3,12 @@ title: "Lösung: Lebensdauer einer Variable erklären"
 description: "Musterlösung zur Aufgabe „Lebensdauer einer Variable erklären“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "systemnahes-denken"
-  - "speicher-und-lebensdauer"
-  - "lebensdauer-einer-variable-erklaeren-v116"
+topicPath: ["systemnahes-denken", "speicher-und-lebensdauer", "lebensdauer-einer-variable-erklaeren-v116"]
 taskId: "lebensdauer-einer-variable-erklaeren-v116"
 relatedExercise: "informatik/systemnahes-denken/speicher-und-lebensdauer/lebensdauer-einer-variable-erklaeren-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "speicher und lebensdauer"
-  - "lebensdauer einer variable erklaeren"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

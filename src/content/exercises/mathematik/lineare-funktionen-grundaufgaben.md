@@ -1,12 +1,17 @@
 ---
-title: Lineare Funktionen – Grundaufgaben
-description: Übe Steigung, Achsenabschnitt und die Zuordnung zwischen Gleichung und Graph.
-subject: mathematik
-section: lineare-funktionen
-level: einfach
+title: "Lineare Funktionen – Grundaufgaben"
+description: "Übe Steigung, Achsenabschnitt und die Zuordnung zwischen Gleichung und Graph."
+subject: "mathematik"
+section: "lineare-funktionen"
+topicPath: ["lineare-funktionen-grundaufgaben"]
+taskId: "AUTO-LINEARE-FUNKTIONEN-GRUNDAUFGABEN"
+tags: ["mathematik", "lineare-funktionen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe hält die klassische Grundidee linearer Funktionen bewusst fest: Du sollst nicht nur Terme sehen, sondern **Steigung, Achsenabschnitt und Graph** sicher miteinander verbinden.
 
 ## Lernziel

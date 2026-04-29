@@ -1,29 +1,17 @@
 ---
-title: Prozentwerte und Grundwerte bestimmen
-description: Übe, in Prozentaufgaben die gesuchte Größe sicher zu erkennen und zu berechnen.
-subject: mathematik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - prozentrechnung
-  - prozentwerte-und-grundwerte-bestimmen
-level: einfach
+title: "Prozentwerte und Grundwerte bestimmen"
+description: "Übe, in Prozentaufgaben die gesuchte Größe sicher zu erkennen und zu berechnen."
+subject: "mathematik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "prozentrechnung", "prozentwerte-und-grundwerte-bestimmen"]
+taskId: "AUTO-PROZENTWERTE-UND-GRUNDWERTE-BESTIMMEN"
+tags: ["mathematik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - prozent
-  - grundwert
-hintPoints:
-  - "Markiere zuerst das Ganze und den Anteil."
-  - "Frage danach bewusst, ob Prozentwert, Grundwert oder Prozentsatz gesucht ist."
-selfCheckPoints:
-  - "Hast du das Ganze korrekt als Grundwert erkannt?"
-  - "Passt dein Ergebnis größenmäßig zur Aufgabe?"
-transferIdeas:
-  - "Übertrage die Aufgabe auf Rabatte, Umfragen oder technische Messwerte."
-  - "Erkläre die Lösung einmal in Worten, bevor du eine Rechnung notierst."
-reflectionPrompt: "Was hilft dir am meisten dabei, Prozentaufgaben nicht nur formal, sondern inhaltlich richtig zu lesen?"
 ---
-
 ## Aufgabe 1: Prozentwert bestimmen
 
 Berechne 30 % von 120.

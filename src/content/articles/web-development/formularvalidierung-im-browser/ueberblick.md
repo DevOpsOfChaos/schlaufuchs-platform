@@ -3,32 +3,17 @@ title: "Formularvalidierung im Browser"
 description: "Allgemeiner Überblick über Formularvalidierung, Eingabeprüfung und nutzbare Fehlermeldungen im Browser."
 subject: "web-development"
 section: "Formulare"
-topicPath:
-  - "formularvalidierung-im-browser"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["formularvalidierung-im-browser", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Fehler nur farbig markiert. Ohne Text, Fokusführung und klare Zuordnung bleibt unklar, was verbessert werden muss."
-keyTakeaways:
-  - "Formularvalidierung ist sowohl Nutzerführung als auch Datenqualität. Gute Validierung erklärt Probleme, statt nur Eingaben abzulehnen."
-  - "Clientseitige Validierung ersetzt keine serverseitige Prüfung. Der Browser hilft Nutzenden, aber der Server muss Daten weiterhin als unsicher behandeln."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "web development"
-  - "formulare"
-  - "validierung"
-  - "browser"
+tags: ["web-development", "Formulare"]
 draft: false
 ---
-
 # Formularvalidierung im Browser
 
 Formularvalidierung prüft, ob eingegebene Daten den erwarteten Bedingungen entsprechen, bevor sie weiterverarbeitet werden.

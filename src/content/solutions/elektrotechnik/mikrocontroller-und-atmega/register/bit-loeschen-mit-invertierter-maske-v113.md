@@ -3,20 +3,12 @@ title: "Lösung – Bit löschen mit invertierter Maske"
 description: "Musterlösung zu Bit löschen mit invertierter Maske mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "register"
-  - "bit-loeschen-mit-invertierter-maske-v113"
+topicPath: ["mikrocontroller-und-atmega", "register", "bit-loeschen-mit-invertierter-maske-v113"]
 taskId: "v113-elektrotechnik-bit-loeschen-mit-invertierter-maske-v113"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/register/bit-loeschen-mit-invertierter-maske-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "bit-loeschen-mit-invertierter-maske-v113"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Bit löschen mit invertierter Maske**.

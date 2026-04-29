@@ -1,23 +1,14 @@
 ---
-title: Lösung – Definitionsmenge vor dem Lösen prüfen
-description: Musterlösung zur Aufgabe über Definitionsmenge vor dem Lösen prüfen.
-subject: mathematik
-section: Feinstruktur Mathematik
-topicPath:
-- algebra-modelle
-- gleichungen-pruefen
-- definitionsmenge-vor-dem-loesen-pruefen-v114
-taskId: v114-mathematik-definitionsmenge-vor-dem-loesen-pruefen-v114
-relatedExercise: mathematik/algebra-modelle/gleichungen-pruefen/definitionsmenge-vor-dem-loesen-pruefen-v114
-tags:
-- mathematik
-- v114
-- loesung
-- algebra-modelle
-- gleichungen-pruefen
+title: "Lösung – Definitionsmenge vor dem Lösen prüfen"
+description: "Musterlösung zur Aufgabe über Definitionsmenge vor dem Lösen prüfen."
+subject: "mathematik"
+section: "Feinstruktur Mathematik"
+topicPath: ["algebra-modelle", "gleichungen-pruefen", "definitionsmenge-vor-dem-loesen-pruefen-v114"]
+taskId: "v114-mathematik-definitionsmenge-vor-dem-loesen-pruefen-v114"
+relatedExercise: "mathematik/algebra-modelle/gleichungen-pruefen/definitionsmenge-vor-dem-loesen-pruefen-v114"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

@@ -1,12 +1,17 @@
 ---
-title: Arduino – Basisaufgaben
-description: Übe erste Grundlogiken mit LED, Taster und einfachen Arduino-Programmen.
-subject: elektrotechnik
-section: arduino-und-esp32
-level: einfach
+title: "Arduino – Basisaufgaben"
+description: "Übe erste Grundlogiken mit LED, Taster und einfachen Arduino-Programmen."
+subject: "elektrotechnik"
+section: "arduino-und-esp32"
+topicPath: ["arduino-basisaufgaben"]
+taskId: "AUTO-ARDUINO-BASISAUFGABEN"
+tags: ["elektrotechnik", "arduino-und-esp32", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 Diese Aufgabe hält die frühere Arduino-Basisidee bewusst fest, aber in klarerer Form: Du sollst einfache Schaltungen und kleine Sketche nicht nur sehen, sondern **funktional verstehen**.
 
 ## Lernziel

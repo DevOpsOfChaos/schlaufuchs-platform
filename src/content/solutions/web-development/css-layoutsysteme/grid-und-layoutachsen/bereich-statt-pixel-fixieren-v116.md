@@ -3,22 +3,12 @@ title: "Lösung: Bereich statt Pixel fixieren"
 description: "Musterlösung zur Aufgabe „Bereich statt Pixel fixieren“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "css-layoutsysteme"
-  - "grid-und-layoutachsen"
-  - "bereich-statt-pixel-fixieren-v116"
+topicPath: ["css-layoutsysteme", "grid-und-layoutachsen", "bereich-statt-pixel-fixieren-v116"]
 taskId: "bereich-statt-pixel-fixieren-v116"
 relatedExercise: "web-development/css-layoutsysteme/grid-und-layoutachsen/bereich-statt-pixel-fixieren-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "grid und layoutachsen"
-  - "bereich statt pixel fixieren"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

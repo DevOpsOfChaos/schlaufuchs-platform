@@ -3,22 +3,12 @@ title: "Lösung – robots, Sitemap und Indexierung prüfen"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Projektpraxis-Aufgabe."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "robots-sitemap-und-indexierung-pruefen"
-tags:
-  - "web development"
-  - "seo"
-  - "sitemap"
-  - "robots"
-  - "metadaten"
-  - "lösung"
+topicPath: ["projektpraxis", "betrieb-und-release", "robots-sitemap-und-indexierung-pruefen"]
 taskId: "web-v105-robots-sitemap-und-indexierung-pruefen"
 relatedExercise: "web-development/projektpraxis/betrieb-und-release/robots-sitemap-und-indexierung-pruefen"
+tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Eine gute Lösung beginnt mit der Nutzer- oder Wartungssituation. Das Problem wird nicht nur als technische Kleinigkeit behandelt, sondern als Risiko für Verständlichkeit, Betrieb oder spätere Änderung.

@@ -1,40 +1,19 @@
 ---
 title: "Grundlagen: SSH und Schlüssel"
 description: "Verstehe SSH-Schlüssel, bekannte Hosts und sichere Anmeldung."
-subject: linux
+subject: "linux"
 section: "netzwerk-und-fernzugriff"
-topicPath:
-  - "netzwerk-und-fernzugriff"
-  - "ssh-und-schluessel"
-learningGoals:
-  - "Du erklärst SSH und Schlüssel in eigenen Worten."
-  - "Du ordnest typische Befehle, Begriffe oder Prüfschritte richtig ein."
-  - "Du erkennst typische Grenzen und Fehlerquellen im Linux-Alltag."
-practiceIdeas:
-  - "Beschreibe eine kleine Alltagssituation zu diesem Thema."
-  - "Markiere, welche Information zuerst geprüft werden muss."
-commonMistakes:
-  - "Ein einzelnes Kommando für das ganze Thema zu halten."
-  - "Ausgabe, Zustand und Ursache zu vermischen."
-  - "Ohne Kontext direkt an Sonderfälle zu springen."
-keyTakeaways:
-  - "SSH-Schlüssel trennen Identität und Passwortlogik."
-  - "Known Hosts schützen vor unbemerktem Zielwechsel."
-  - "Sichere SSH-Nutzung braucht Rechte, Schlüsselablage und Zielprüfung."
-recognizeSignals:
-  - "Du brauchst eine ruhige Einordnung statt nur eines Befehlsrezepts."
-  - "Mehrere ähnliche Befehle oder Dateien wirken unklar."
-selfCheckPoints:
-  - "Kann ich Zweck, Kontext und typischen Prüfschritt unterscheiden?"
-  - "Kann ich eine einfache Fehlannahme zum Thema benennen?"
-level: mittel
-tags:
-  - "linux"
-  - "ssh"
-  - "schluessel"
+topicPath: ["netzwerk-und-fernzugriff", "ssh-und-schluessel", "ueberblick", "grundlagen-ssh-und-schluessel-v186"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["linux", "netzwerk-und-fernzugriff"]
 draft: false
 ---
-
 ![SSH und Schlüssel](/schlaufuchs-platform/images/overviews/v186/ssh-und-schluessel.svg)
 
 ## Begriff

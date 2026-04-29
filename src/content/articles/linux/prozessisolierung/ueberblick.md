@@ -1,33 +1,17 @@
 ---
 title: "Prozessisolierung"
 description: "Überblick über die Idee, Prozesse durch Benutzer, Rechte, Namespaces, cgroups und Container voneinander zu trennen."
-subject: linux
+subject: "linux"
 section: "System"
-topicPath:
-  - "prozessisolierung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Prozessisolierung als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["prozessisolierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein Container ist keine magische Sicherheitsgrenze. Er nutzt Linux-Mechanismen, deren Wirkung von Konfiguration und Rechten abhängt."
-keyTakeaways:
-  - "Prozessisolierung begrenzt, was ein laufendes Programm sehen, verändern und verbrauchen darf."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um prozessisolierung, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich prozessisolierung in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "prozessisolierung"
-  - "überblick"
-  - "benutzerrechte"
-  - "dateisystemzugriff"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "System"]
 draft: false
 ---
 # Prozessisolierung

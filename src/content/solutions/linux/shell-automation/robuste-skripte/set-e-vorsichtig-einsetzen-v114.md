@@ -1,23 +1,14 @@
 ---
-title: Lösung – set -e vorsichtig einsetzen
-description: Musterlösung zur Aufgabe über set -e vorsichtig einsetzen.
-subject: linux
-section: Feinstruktur Linux
-topicPath:
-- shell-automation
-- robuste-skripte
-- set-e-vorsichtig-einsetzen-v114
-taskId: v114-linux-set-e-vorsichtig-einsetzen-v114
-relatedExercise: linux/shell-automation/robuste-skripte/set-e-vorsichtig-einsetzen-v114
-tags:
-- linux
-- v114
-- loesung
-- shell-automation
-- robuste-skripte
+title: "Lösung – set -e vorsichtig einsetzen"
+description: "Musterlösung zur Aufgabe über set -e vorsichtig einsetzen."
+subject: "linux"
+section: "Feinstruktur Linux"
+topicPath: ["shell-automation", "robuste-skripte", "set-e-vorsichtig-einsetzen-v114"]
+taskId: "v114-linux-set-e-vorsichtig-einsetzen-v114"
+relatedExercise: "linux/shell-automation/robuste-skripte/set-e-vorsichtig-einsetzen-v114"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

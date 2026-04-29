@@ -1,23 +1,14 @@
 ---
-title: Lösung – Kurzschlusszeichen erkennen
-description: Musterlösung zur Aufgabe über Kurzschlusszeichen erkennen.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- messen-und-sicherheit
-- fehlerbilder-und-diagnose
-- kurzschlusszeichen-erkennen-v114
-taskId: v114-elektrotechnik-kurzschlusszeichen-erkennen-v114
-relatedExercise: elektrotechnik/messen-und-sicherheit/fehlerbilder-und-diagnose/kurzschlusszeichen-erkennen-v114
-tags:
-- elektrotechnik
-- v114
-- loesung
-- messen-und-sicherheit
-- fehlerbilder-und-diagnose
+title: "Lösung – Kurzschlusszeichen erkennen"
+description: "Musterlösung zur Aufgabe über Kurzschlusszeichen erkennen."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["messen-und-sicherheit", "fehlerbilder-und-diagnose", "kurzschlusszeichen-erkennen-v114"]
+taskId: "v114-elektrotechnik-kurzschlusszeichen-erkennen-v114"
+relatedExercise: "elektrotechnik/messen-und-sicherheit/fehlerbilder-und-diagnose/kurzschlusszeichen-erkennen-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

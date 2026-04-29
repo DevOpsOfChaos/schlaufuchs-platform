@@ -3,23 +3,12 @@ title: "Lösung – Einheitenfehler bei Fläche und Volumen finden"
 description: "Musterlösung zu Einheitenkontrolle mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - "geometrie"
-  - "einheiten-und-skalierung"
-  - "einheitenkontrolle"
-  - "einheitenfehler-bei-flaeche-und-volumen-finden"
+topicPath: ["geometrie", "einheiten-und-skalierung", "einheitenkontrolle", "einheitenfehler-bei-flaeche-und-volumen-finden"]
 taskId: "v107-mathematik-einheitenfehler-bei-flaeche-und-volumen-finden"
 relatedExercise: "mathematik/geometrie/einheiten-und-skalierung/einheitenkontrolle/einheitenfehler-bei-flaeche-und-volumen-finden"
-tags:
-  - "mathematik"
-  - "rechnen"
-  - "modellieren"
-  - "einheitenkontrolle"
-  - "geometrie"
-  - "einheiten-und-skalierung"
+tags: ["mathematik", "Geometrie", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Einheitenkontrolle**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

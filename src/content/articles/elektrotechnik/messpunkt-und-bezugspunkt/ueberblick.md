@@ -1,30 +1,17 @@
 ---
 title: "Messpunkt und Bezugspunkt"
 description: "Allgemeiner Überblick: Messpunkte sind nur sinnvoll, wenn der elektrische Bezugspunkt klar ist."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Messtechnik"
-topicPath:
-  - "messpunkt-und-bezugspunkt"
-learningGoals:
-  - "Du kannst messpunkt und bezugspunkt als Grundidee einordnen."
-  - "Du erkennst wichtige Bestandteile und typische Grenzen."
-  - "Du kannst das Thema in einfachen Worten erklären."
+topicPath: ["messpunkt-und-bezugspunkt", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur ein Detail zu betrachten und den Zusammenhang zu übersehen."
-  - "Das Schaubild als exakte technische Darstellung statt als Orientierung zu lesen."
-keyTakeaways:
-  - "Messpunkte sind nur sinnvoll, wenn der elektrische Bezugspunkt klar ist."
-  - "Ein Überblicksbild hilft, Begriffe und Beziehungen ruhig zu ordnen."
-recognizeSignals:
-  - "Es geht um messpunkt und bezugspunkt, Grundbegriffe, Zusammenhänge oder typische Fehlerquellen."
-selfCheckPoints:
-  - "Kann ich erklären, welche Rolle messpunkt und bezugspunkt im größeren Zusammenhang spielt?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "messpunkt und bezugspunkt"
-  - "überblick"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Messtechnik"]
 draft: false
 ---
 # Messpunkt und Bezugspunkt

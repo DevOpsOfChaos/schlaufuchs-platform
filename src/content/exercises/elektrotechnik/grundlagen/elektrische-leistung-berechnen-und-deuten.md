@@ -1,12 +1,17 @@
 ---
-title: Elektrische Leistung berechnen und deuten
-description: Diese Aufgabe vertieft die Grundformeln zur elektrischen Leistung und ihre Deutung in einfachen Schaltungen.
-subject: elektrotechnik
-section: Grundlagen
-level: mittel
+title: "Elektrische Leistung berechnen und deuten"
+description: "Diese Aufgabe vertieft die Grundformeln zur elektrischen Leistung und ihre Deutung in einfachen Schaltungen."
+subject: "elektrotechnik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "elektrische-leistung-berechnen-und-deuten"]
+taskId: "AUTO-ELEKTRISCHE-LEISTUNG-BERECHNEN-UND-DEUTEN"
+tags: ["elektrotechnik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben sorgfältig und prüfe jeweils, welche Größen gegeben und welche gesucht sind.

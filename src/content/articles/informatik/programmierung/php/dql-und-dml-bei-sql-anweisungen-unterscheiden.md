@@ -1,46 +1,19 @@
 ---
-title: DQL und DML bei SQL-Anweisungen unterscheiden
-description: Verstehe, warum Datenbankanfragen fachlich unterschiedliche Arten von Rückgaben haben und wie sich lesende und verändernde SQL-Anweisungen unterscheiden.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - dql-und-dml-bei-sql-anweisungen-unterscheiden
-learningGoals:
-  - Du unterscheidest lesende und verändernde SQL-Anweisungen grob voneinander.
-  - Du erklärst, warum ihre Rückgaben im PHP-Ablauf unterschiedlich wirken.
-  - Du erkennst, dass Erfolg einer Änderung nicht dasselbe ist wie eine Ergebnismenge.
-practiceIdeas:
-  - Ordne SELECT, INSERT und UPDATE einer passenden Kategorie zu.
-  - Erkläre, warum eine SELECT-Anfrage später Zeilen liefert, eine UPDATE-Anfrage aber oft nur Erfolg/Misserfolg.
-  - Lies einen PHP-MySQL-Ablauf und nenne die Stelle, an der echte Datensätze erst später entstehen.
-commonMistakes:
-  - Alle SQL-Anweisungen so zu behandeln, als würden sie gleichartige Ergebnisse liefern.
-  - Booleschen Erfolg und tatsächliche Datensätze zu verwechseln.
-  - UPDATE oder INSERT mit Ergebniszeilen einer SELECT-Abfrage gleichzusetzen.
-keyTakeaways:
-  - DQL liest Daten, DML verändert Daten.
-  - Darum unterscheiden sich Rückgaben und Weiterverarbeitung.
-  - Ein lesender Zugriff braucht später meist ein Result-Objekt oder Datensätze, ein verändernder Zugriff eher eine Erfolgsaussage.
-recognizeSignals:
-  - Es geht um SELECT, INSERT, UPDATE oder DELETE.
-  - Ein Beispiel zeigt query()-Rückgaben und spätere Auswertung.
-  - Du sollst begründen, warum fetch_array nur bei passenden Ergebnissen Sinn ergibt.
-selfCheckPoints:
-  - Kann ich sagen, ob eine SQL-Anweisung Daten liest oder verändert?
-  - Kann ich Bool-Erfolg und Ergebnismenge unterscheiden?
-  - Kann ich erklären, warum die PHP-Weiterverarbeitung danach anders aussieht?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - dql
-  - und
+title: "DQL und DML bei SQL-Anweisungen unterscheiden"
+description: "Verstehe, warum Datenbankanfragen fachlich unterschiedliche Arten von Rückgaben haben und wie sich lesende und verändernde SQL-Anweisungen unterscheiden."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "dql-und-dml-bei-sql-anweisungen-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Nicht jede SQL-Anweisung liefert dieselbe Art von Ergebnis. Einige lesen Daten aus einer Tabelle. Andere verändern Daten. Diese Unterscheidung ist wichtig, weil der PHP-Ablauf danach unterschiedlich weitergeht.

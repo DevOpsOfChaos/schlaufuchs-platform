@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – SPI-Taktmodus und Samplezeitpunkt ruhig erklären
-description: Musterlösung zur Aufgabe ET-ATMEGA-SPI-302.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-schnittstellen-und-busse
-  - atmega-spi-cpol-und-cpha-verstehen
-  - spi-taktmodus-und-samplezeitpunkt-ruhig-erklaeren-loesung
-taskId: ET-ATMEGA-SPI-302
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-spi-cpol-und-cpha-verstehen/spi-taktmodus-und-samplezeitpunkt-ruhig-erklaeren.md
-tags:
-  - elektrotechnik
-  - atmega
-  - spi
-  - loesung
+title: "Musterlösung – SPI-Taktmodus und Samplezeitpunkt ruhig erklären"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-SPI-302."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-spi-cpol-und-cpha-verstehen", "spi-taktmodus-und-samplezeitpunkt-ruhig-erklaeren"]
+taskId: "ET-ATMEGA-SPI-302"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-spi-cpol-und-cpha-verstehen/spi-taktmodus-und-samplezeitpunkt-ruhig-erklaeren.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 CPOL beschreibt die Ruhelage des Taktsignals. CPHA beschreibt, an welcher Taktkante das zeitliche Übernehmen oder Verschieben der Daten orientiert wird. Die eine Größe betrifft also den Grundzustand des Takts, die andere das Timing innerhalb eines Bitfensters.

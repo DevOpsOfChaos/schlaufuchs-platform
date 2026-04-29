@@ -1,46 +1,19 @@
 ---
-title: Cookies und Sessions in PHP unterscheiden
-description: Verstehe, wie Cookies und Sessions zusammenhaengen und worin sich clientseitige und serverseitige Zustandslogik unterscheiden.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - cookies-und-sessions-in-php-unterscheiden
-learningGoals:
-  - Du erklaerst den Unterschied zwischen Cookies und Sessions.
-  - Du beschreibst clientseitige und serverseitige Zustandslogik in einfacher Sprache.
-  - Du erkennst, warum beide zusammenarbeiten koennen, aber nicht dieselbe Rolle haben.
-practiceIdeas:
-  - Vergleiche gespeicherte Spracheinstellung und Login Zustand.
-  - Frage bei Beispielen zuerst, wo der Zustand liegt.
-  - Ordne Cookie und Session in einfache Alltagssprache ein.
-commonMistakes:
-  - Cookies und Sessions als dasselbe zu behandeln.
-  - Zu uebersehen, dass Sessions oft serverseitige Daten nutzen.
-  - Alles, was mit Login zu tun hat, automatisch nur dem Cookie zuzuschreiben.
-keyTakeaways:
-  - Cookies liegen typischerweise clientseitig im Browserkontext.
-  - Sessions verwalten serverseitigen Zustand und werden oft ueber eine ID wiedergefunden.
-  - Beide koennen zusammenarbeiten, haben aber unterschiedliche Rollen.
-recognizeSignals:
-  - Es geht um Spracheinstellungen, Login, Wiedererkennen oder Sitzungszustand.
-  - Ein Beispiel fragt, ob Daten eher im Browser oder auf dem Server liegen.
-  - Session ID und Cookie tauchen gemeinsam auf.
-selfCheckPoints:
-  - Kann ich erklaeren, was eher clientseitig und was eher serverseitig gedacht wird?
-  - Kann ich Cookies und Sessions fachlich trennen?
-  - Kann ich sagen, warum eine Session oft trotzdem ein Cookie mitbenutzt?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - cookies
-  - sessions
+title: "Cookies und Sessions in PHP unterscheiden"
+description: "Verstehe, wie Cookies und Sessions zusammenhaengen und worin sich clientseitige und serverseitige Zustandslogik unterscheiden."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "cookies-und-sessions-in-php-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Sowohl Cookies als auch Sessions helfen dabei, ueber mehrere Anfragen hinweg etwas wiederzuerkennen. Trotzdem sind sie nicht dieselbe Sache.

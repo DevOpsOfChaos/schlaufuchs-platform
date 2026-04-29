@@ -1,37 +1,19 @@
 ---
 title: "Grundlagen: CSS Grid und Layout-Raster"
 description: "Allgemeiner Überblick über CSS Grid, Zeilen, Spalten, Rasterbereiche und den Unterschied zu Flexbox."
-subject: web-development
+subject: "web-development"
 section: "CSS"
-topicPath:
-  - css
-  - grid-und-layout-raster
-  - grundlagen-grid-und-layout-raster
-learningGoals:
-  - "Du erklärst CSS Grid als zweidimensionales Layoutmodell."
-  - "Du beschreibst Zeilen, Spalten und Rasterbereiche."
-  - "Du grenzt Grid von Flexbox über die Layoutaufgabe ab."
+topicPath: ["css", "grid-und-layout-raster", "ueberblick", "grundlagen-grid-und-layout-raster"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Grid und Flexbox als austauschbare Technik zu behandeln."
-  - "Nur Spalten zu definieren und Zeilenwirkung zu ignorieren."
-  - "Rasterbereiche ohne inhaltliche Struktur zu verwenden."
-keyTakeaways:
-  - "CSS Grid ordnet Elemente in Zeilen und Spalten."
-  - "Grid eignet sich besonders für zweidimensionale Layouts."
-  - "Flexbox ist stärker für eine Achse, Grid stärker für Rasterflächen geeignet."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - "webentwicklung"
-  - "css"
-  - "grid"
-  - "layout"
-  - "responsive"
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Begriff
 
 **CSS Grid** ist ein Layoutmodell für zweidimensionale Anordnungen im Web. Es arbeitet mit Zeilen und Spalten und kann Elemente in einem Raster platzieren. Dadurch eignet es sich besonders für Seitenlayouts, Kartenübersichten, Dashboard-Strukturen und komplexere Inhaltsbereiche.

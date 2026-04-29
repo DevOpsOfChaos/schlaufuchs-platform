@@ -3,21 +3,12 @@ title: "Lösung – Fehlermeldungen als Teil der Schnittstelle sehen"
 description: "Musterlösung zu fehlermeldungen als teil der schnittstelle sehen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "programmieren"
-  - "funktionen-und-schnittstellen"
-  - "fehlermeldungen-als-teil-der-schnittstelle-sehen"
+topicPath: ["programmieren", "funktionen-und-schnittstellen", "fehlermeldungen-als-teil-der-schnittstelle-sehen"]
 taskId: "v112-informatik-fehlermeldungen-als-teil-der-schnittstelle-sehen"
 relatedExercise: "informatik/programmieren/funktionen-und-schnittstellen/fehlermeldungen-als-teil-der-schnittstelle-sehen"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "programmieren"
-  - "fehlermeldungen-als-teil-der-schnittstelle-sehen"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Funktionen und Schnittstellen**.

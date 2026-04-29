@@ -1,46 +1,19 @@
 ---
-title: ATmega – Zustandsmaschine als Programmstruktur verstehen
-description: Verstehe, warum viele AVR-Programme ruhiger werden, wenn Verhalten als Zustände und Übergänge statt als lange lineare Sonderfälle gedacht wird.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - programmstruktur-und-reaktivitaet
-  - atmega-zustandsmaschine-als-programmstruktur-verstehen
-learningGoals:
-  - Du erklärst die Grundidee einer Zustandsmaschine im Mikrocontroller-Kontext.
-  - Du beschreibst Programmverhalten eher als Zustände und Übergänge statt als lange Sonderfallketten.
-  - Du erkennst, warum reaktive AVR-Programme von klaren Zuständen profitieren.
-practiceIdeas:
-  - Zerlege ein Blink-/Taster-Programm in Zustände und Wechselbedingungen.
-  - Vergleiche lineare Sonderfall-Logik mit klaren Zustandsübergängen.
-  - Lies Menüs, Blinkmuster oder Ablaufsteuerungen eher als Zustandsmodell.
-commonMistakes:
-  - Zu denken, Zustandsmaschinen seien nur etwas für sehr große oder theoretische Systeme.
-  - Einen Zustand mit einer einzelnen Variablenzeile statt mit einer Programmbedeutung zu verwechseln.
-  - Übergänge als Zufallsreaktionen statt als klar definierte Wechselbedingungen zu bauen.
-keyTakeaways:
-  - Eine Zustandsmaschine ordnet Verhalten in klar benannte Betriebszustände.
-  - Übergänge beschreiben, wann ein Programm von einem Zustand in einen anderen wechselt.
-  - Gerade bei reaktiven AVR-Programmen macht diese Struktur Abläufe oft ruhiger und lesbarer.
-recognizeSignals:
-  - Es geht um Menüs, Blinkmuster, Ablaufsteuerung, mehrere Betriebsmodi oder reaktive Programmlogik.
-  - Du sollst erklären, warum lineare Delay- oder Sonderfallketten unübersichtlich werden.
-  - In Aufgaben helfen Zustände oft mehr als immer längere if-Ketten.
-selfCheckPoints:
-  - Kann ich Zustand und Übergang fachlich trennen?
-  - Kann ich erklären, warum diese Struktur bei Mikrocontrollern nützlich ist?
-  - Kann ich ein kleines AVR-Verhalten als Zustandsmodell beschreiben?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - zustandsmaschine
-  - programmstruktur
-level: mittel
+title: "ATmega – Zustandsmaschine als Programmstruktur verstehen"
+description: "Verstehe, warum viele AVR-Programme ruhiger werden, wenn Verhalten als Zustände und Übergänge statt als lange lineare Sonderfälle gedacht wird."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-zustandsmaschine-als-programmstruktur-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Viele AVR-Einstiegsprogramme wachsen zunächst als lineare Kette: ein bisschen Delay hier, ein Tasterfall dort, dann noch ein Sonderfall für eine andere LED. Das funktioniert kurzzeitig. Sobald mehrere Verhaltensweisen zusammenkommen, wird die Struktur schnell unruhig. Genau dort hilft das Denken in **Zuständen**.

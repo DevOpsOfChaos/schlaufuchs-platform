@@ -1,24 +1,14 @@
 ---
-title: Musterlösung – TWI-Repeated-Start ruhig einordnen
-description: Musterlösung zur Aufgabe ET-ATMEGA-TWI-306.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-schnittstellen-und-busse
-  - atmega-twi-repeated-start-verstehen
-  - twi-repeated-start-ruhig-einordnen-loesung
-taskId: ET-ATMEGA-TWI-306
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-twi-repeated-start-verstehen/twi-repeated-start-ruhig-einordnen.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - twi
-  - loesung
+title: "Musterlösung – TWI-Repeated-Start ruhig einordnen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-TWI-306."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-twi-repeated-start-verstehen", "twi-repeated-start-ruhig-einordnen"]
+taskId: "ET-ATMEGA-TWI-306"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-twi-repeated-start-verstehen/twi-repeated-start-ruhig-einordnen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Ein Stop beendet eine laufende TWI-Transaktion. Ein Repeated Start hält die Buskontrolle dagegen in einer zusammenhängenden Transaktion und leitet die nächste Phase ein. Beide sind daher nicht dieselbe strukturelle Aussage.

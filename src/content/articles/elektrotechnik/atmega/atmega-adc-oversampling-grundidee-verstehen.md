@@ -1,45 +1,19 @@
 ---
-title: ATmega – ADC Oversampling als Grundidee verstehen
-description: Verstehe, warum mehrere ADC-Messungen zusammengefasst werden können und warum daraus nicht automatisch ein Wunder an Genauigkeit entsteht.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - messen-und-adc
-  - atmega-adc-oversampling-grundidee-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von Oversampling am ADC.
-  - Du unterscheidest mehr Messungen von wirklich sauberer zusätzlicher Information.
-  - Du liest Oversampling eher als statistische Glättung mit Bedingungen statt als magischen Genauigkeitsschalter.
-practiceIdeas:
-  - Vergleiche eine Einzelmessung mit mehreren aufaddierten Messungen.
-  - Prüfe, wann eine ruhige Mittelung hilft und wann Störungen nur mitgemittelt werden.
-  - Erkläre, warum Referenz, Quelle und Rauschen weiter wichtig bleiben.
-commonMistakes:
-  - Zu denken, mehr Messungen machten automatisch alles beliebig genau.
-  - Oversampling mit bloßem Nachkommazauber zu verwechseln.
-  - Die Randbedingungen des ADC dabei auszublenden.
-keyTakeaways:
-  - Oversampling nutzt mehrere Messungen statt nur eines Einzelwerts.
-  - Zusätzliche Auflösung entsteht nur unter passenden Bedingungen.
-  - Schlechte Referenz oder schlechte Signalquelle werden dadurch nicht einfach weggezaubert.
-recognizeSignals:
-  - Es geht um ADC, Mittelung, zusätzliche Auflösung oder sehr kleine Signaländerungen.
-  - Du sollst erklären, warum mehrere Messungen ruhiger wirken können.
-  - In Aufgaben ist die Messstrategie wichtiger als nur der nackte Zahlenwert.
-selfCheckPoints:
-  - Kann ich Oversampling und Einzelmessung ruhig unterscheiden?
-  - Kann ich erklären, warum mehr Werte allein noch keine perfekte Messung bedeuten?
-  - Kann ich die Grenzen der Methode benennen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - adc
-level: fortgeschritten
+title: "ATmega – ADC Oversampling als Grundidee verstehen"
+description: "Verstehe, warum mehrere ADC-Messungen zusammengefasst werden können und warum daraus nicht automatisch ein Wunder an Genauigkeit entsteht."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-adc-oversampling-grundidee-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein ADC-Wert wirkt oft sehr endgültig: Einmal messen, Zahl lesen, fertig. In der Praxis kann es aber sinnvoll sein, **mehrere Messungen** zu machen und zusammen auszuwerten. Genau hier beginnt die Idee des **Oversamplings**. Dabei soll nicht einfach „mehr vom Gleichen“ gesammelt werden, sondern die Messung über mehrere Abtastungen ruhiger und feiner ausgewertet werden.

@@ -3,22 +3,12 @@ title: "Lösung: Vektoren und Richtung: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-054b."
 subject: "mathematik"
 section: "geometrie"
-topicPath:
-  - "geometrie"
-  - "vektoren-und-richtung"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "vektoren-und-richtung-aufgabe-b"]
 taskId: "mat-v188-054b"
 relatedExercise: "mathematik/sanierung-v188/vektoren-und-richtung-aufgabe-b"
-tags:
-  - "vektoren"
-  - "richtung"
-  - "geometrie"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "geometrie", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-054b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

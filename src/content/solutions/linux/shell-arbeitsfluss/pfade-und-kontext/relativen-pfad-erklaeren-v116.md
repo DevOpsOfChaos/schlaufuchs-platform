@@ -3,22 +3,12 @@ title: "Lösung: relativen Pfad erklären"
 description: "Musterlösung zur Aufgabe „relativen Pfad erklären“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "shell-arbeitsfluss"
-  - "pfade-und-kontext"
-  - "relativen-pfad-erklaeren-v116"
+topicPath: ["shell-arbeitsfluss", "pfade-und-kontext", "relativen-pfad-erklaeren-v116"]
 taskId: "relativen-pfad-erklaeren-v116"
 relatedExercise: "linux/shell-arbeitsfluss/pfade-und-kontext/relativen-pfad-erklaeren-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "pfade und kontext"
-  - "relativen pfad erklaeren"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

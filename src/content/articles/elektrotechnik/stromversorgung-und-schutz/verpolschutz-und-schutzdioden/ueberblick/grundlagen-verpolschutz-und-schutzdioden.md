@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Verpolschutz und Schutzdioden"
 description: "Allgemeiner Überblick über Schutzdioden, Verpolschutz und Spannungsbegrenzung in einfachen Schaltungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Stromversorgung und Schutz"
-topicPath:
-  - stromversorgung-und-schutz
-  - verpolschutz-und-schutzdioden
-  - ueberblick
-learningGoals:
-  - "Du erklärst die Grundidee von Verpolschutz und Schutzdioden in eigenen Worten."
-  - "Du ordnest typische Begriffe und Fehlerquellen ruhig ein."
-  - "Du erkennst, welche Detailfragen zu diesem Themenbereich gehören."
-practiceIdeas:
-  - "Skizziere den Zusammenhang als kleines Signal-, Strom- oder Ablaufbild."
-  - "Notiere typische Fehlerquellen und prüfe, ob sie elektrisch, logisch oder organisatorisch sind."
-commonMistakes:
-  - "Schutzdioden nur über ihr Symbol zu lernen."
-  - "Den Fehlerstrompfad nicht zu verfolgen."
-  - "Verpolschutz und Spannungsbegrenzung zu vermischen."
-keyTakeaways:
-  - "Schutzdioden wirken im Zusammenhang mit Fehlerfällen."
-  - "Verpolschutz braucht einen bewusst geplanten Strompfad."
-  - "Spannungsbegrenzung schützt nur innerhalb ihrer Belastungsgrenzen."
-recognizeSignals:
-  - "Du brauchst zuerst Orientierung, bevor du eine konkrete Schaltung oder Aufgabe bewertest."
-  - "Mehrere Einzelfälle wirken ähnlich, aber der gemeinsame fachliche Rahmen fehlt."
-selfCheckPoints:
-  - "Kann ich den Zweck des Themas ohne Formel auswendig zu lernen erklären?"
-  - "Kann ich typische Fehlerquellen in der richtigen Reihenfolge prüfen?"
-level: einfach
-tags:
-  - elektrotechnik
-  - verpolschutz-und-schutzdioden
-  - stromversorgung-und-schutz
+topicPath: ["stromversorgung-und-schutz", "verpolschutz-und-schutzdioden", "ueberblick", "grundlagen-verpolschutz-und-schutzdioden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Stromversorgung und Schutz"]
 draft: false
 ---
-
 ![Schutzdiode im Fehlerfall](/schlaufuchs-platform/images/overviews/v181/verpolschutz-und-schutzdioden.svg)
 
 ## Überblick

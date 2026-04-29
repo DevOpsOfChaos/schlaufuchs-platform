@@ -3,44 +3,17 @@ title: "JavaScript – localStorage, sessionStorage und Browserzustand"
 description: "Lerne, kleine Einstellungen im Browser zu speichern und bewusst zwischen Sitzung und dauerhaftem Zustand zu unterscheiden."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "browser-speicher"
-  - "localstorage-sessionstorage-und-browserzustand"
-learningGoals:
-  - "Du erklärst den Unterschied zwischen localStorage und sessionStorage."
-  - "Du speicherst nur kleine, passende Zustände im Browser."
-  - "Du behandelst gespeicherte Werte als Text, der geprüft werden muss."
-practiceIdeas:
-  - "Baue ein sehr kleines Beispiel mit genau einem sichtbaren Zustand."
-  - "Erkläre den Code zuerst in Alltagssprache und danach mit Fachbegriffen."
-  - "Prüfe bewusst den Fall, dass ein Element, Wert oder Netzwerkzugriff nicht wie erwartet vorhanden ist."
-commonMistakes:
-  - "Sensible Daten im Browser-Speicher abzulegen."
-  - "localStorage als Datenbankersatz zu verwenden."
-  - "Gespeicherte Werte ungeprüft in die Oberfläche zu schreiben."
-keyTakeaways:
-  - "JavaScript im Browser verbindet Struktur, Ereignisse, Daten und Rückmeldung."
-  - "Robuste Lösungen behandeln nicht nur den Erfolgsfall."
-  - "Lesbarer Code trennt Auswahl, Entscheidung und Wirkung."
-recognizeSignals:
-  - "Es geht um Browserverhalten, Interaktion, Formularwerte, Datenladen oder gespeicherten Zustand."
-  - "Eine sichtbare Oberfläche soll durch JavaScript verständlicher oder interaktiver werden."
-  - "Der Code muss mit Fehlern, fehlenden Elementen oder leeren Werten umgehen."
-selfCheckPoints:
-  - "Kann ich sagen, welche Browseraufgabe der Code übernimmt?"
-  - "Ist die Rückmeldung für Nutzerinnen und Nutzer sichtbar?"
-  - "Bleibt die Lösung klein genug, um später erweitert zu werden?"
+topicPath: ["javascript", "browser-speicher", "localstorage-sessionstorage-und-browserzustand"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "web development"
-  - "javascript"
-  - "localstorage"
-  - "sessionstorage"
-  - "browser"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Lerne, kleine Einstellungen im Browser zu speichern und bewusst zwischen Sitzung und dauerhaftem Zustand zu unterscheiden. Im Mittelpunkt steht nicht ein einzelner Trick, sondern eine ruhige Entscheidung: Was passiert im Browser, was sieht der Mensch und welche Stelle im Code ist dafür zuständig?

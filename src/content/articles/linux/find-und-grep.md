@@ -1,17 +1,19 @@
 ---
-title: find und grep
-description: Mit find und grep lassen sich Dateien, Inhalte und Muster in Linux schnell und gezielt durchsuchen.
-subject: linux
-section: Dateisuche und Textsuche
-level: einfach
-tags:
-  - find
-  - grep
-  - Linux
-  - Shell
+title: "find und grep"
+description: "Mit find und grep lassen sich Dateien, Inhalte und Muster in Linux schnell und gezielt durchsuchen."
+subject: "linux"
+section: "Dateisuche und Textsuche"
+topicPath: ["find-und-grep"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dateisuche und Textsuche"]
 draft: false
 ---
-
 ## Überblick
 
 In der Praxis reicht es selten, Verzeichnisse nur per Hand zu durchsuchen. Stattdessen werden Werkzeuge gebraucht, die Dateien oder Inhalte schnell finden. Zwei der wichtigsten Standardwerkzeuge dafür sind `find` und `grep`.

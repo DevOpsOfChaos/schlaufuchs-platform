@@ -3,23 +3,12 @@ title: "Lösung – Spacing-Token statt Einzelabstände nutzen"
 description: "Musterlösung zu Spacing Tokens mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "css-systeme"
-  - "layout-tokens-komponenten"
-  - "spacing"
-  - "spacing-token-statt-einzelabstaende-nutzen"
+topicPath: ["css-systeme", "layout-tokens-komponenten", "spacing", "spacing-token-statt-einzelabstaende-nutzen"]
 taskId: "v111-web-development-spacing-token-statt-einzelabstaende-nutzen"
 relatedExercise: "web-development/css-systeme/layout-tokens-komponenten/spacing/spacing-token-statt-einzelabstaende-nutzen"
-tags:
-  - "web development"
-  - "frontend"
-  - "unterthema"
-  - "css-systeme"
-  - "layout-tokens-komponenten"
-  - "spacing-token-statt-einzelabstaende-nutzen"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Spacing Tokens**.

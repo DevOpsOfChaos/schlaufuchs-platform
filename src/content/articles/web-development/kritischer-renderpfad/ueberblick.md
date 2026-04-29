@@ -1,31 +1,17 @@
 ---
 title: "Kritischer Renderpfad"
 description: "Überblick über die Schritte vom HTML-Dokument bis zur sichtbaren Darstellung einer Webseite im Browser."
-subject: web-development
+subject: "web-development"
 section: "Performance"
-topicPath:
-  - "kritischer-renderpfad"
-learningGoals:
-  - "Du kennst die Grundidee des kritischen Renderpfads."
-  - "Du verstehst, warum HTML, CSS, JavaScript und Assets die erste Darstellung beeinflussen."
-  - "Du kannst typische Performance-Bremsen einordnen."
+topicPath: ["kritischer-renderpfad", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Performance nur als Servergeschwindigkeit zu betrachten."
-  - "CSS und JavaScript unabhängig von der ersten Darstellung zu bewerten."
-keyTakeaways:
-  - "Der kritische Renderpfad beschreibt, was nötig ist, bevor eine Seite sinnvoll sichtbar wird."
-  - "Blockierende Ressourcen verzögern die erste nutzbare Darstellung."
-recognizeSignals:
-  - "Es geht um Ladezeit, Rendering, CSS, JavaScript, Fonts oder First Paint."
-selfCheckPoints:
-  - "Kann ich erklären, warum eine kleine Datei trotzdem renderblockierend sein kann?"
-level: einfach
-tags:
-  - "web-development"
-  - "performance"
-  - "rendering"
-  - "browser"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Performance"]
 draft: false
 ---
 # Kritischer Renderpfad

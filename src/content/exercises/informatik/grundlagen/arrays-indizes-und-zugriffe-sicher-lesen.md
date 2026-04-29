@@ -1,12 +1,17 @@
 ---
-title: Arrays, Indizes und Zugriffe sicher lesen
-description: Diese Aufgabe vertieft den Umgang mit Array-Längen, Indizes und typischen Zugriffsfehlern.
-subject: informatik
-section: Grundlagen
-level: mittel
+title: "Arrays, Indizes und Zugriffe sicher lesen"
+description: "Diese Aufgabe vertieft den Umgang mit Array-Längen, Indizes und typischen Zugriffsfehlern."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "arrays-indizes-und-zugriffe-sicher-lesen"]
+taskId: "AUTO-ARRAYS-INDIZES-UND-ZUGRIFFE-SICHER-LESEN"
+tags: ["informatik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben so, dass immer klar ist, welche Indizes gültig sind und welcher Zugriff sicher ist.

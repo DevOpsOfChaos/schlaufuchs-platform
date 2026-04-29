@@ -1,29 +1,17 @@
 ---
 title: "UART, I2C und SPI Prüfschritte vergleichen"
 description: "Vergleiche, welche Bedingungen bei welcher Schnittstelle zuerst geprüft werden."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - mikrocontroller-und-atmega
-  - schnittstellen-und-busse
-  - i2c-spi-uart-fehlersuche
-taskId: ET-V181-020
-tags:
-  - elektrotechnik
-  - i2c-spi-uart-fehlersuche
-  - sanierung-v181
-hintPoints:
-  - "Lies zuerst den Normalzustand und dann den Fehlerfall."
-  - "Trenne elektrische Ebene, logische Bedeutung und praktische Prüfung."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["mikrocontroller-und-atmega", "schnittstellen-und-busse", "i2c-spi-uart-fehlersuche", "uart-i2c-spi-pruefschritte-vergleichen"]
+taskId: "ET-V181-020"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **I2C, SPI und UART in der Fehlersuche** ruhig und schrittweise.

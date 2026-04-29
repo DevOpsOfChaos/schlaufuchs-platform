@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Suchverfahren vergleichen anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über Suchverfahren vergleichen."
-subject: informatik
+subject: "informatik"
 section: "Algorithmen klein begründen"
-topicPath:
-  - "algorithmen-klein-begruenden"
-  - "suchverfahren"
-taskId: INF-V183-03-B
-relatedExercise: src/content/exercises/informatik/algorithmen-klein-begruenden/suchverfahren/suchverfahren-anwenden-und-pruefen-v183.md
-tags:
-  - "informatik"
-  - "suchverfahren"
-  - "loesung"
+topicPath: ["algorithmen-klein-begruenden", "suchverfahren", "suchverfahren-anwenden-und-pruefen-v183"]
+taskId: "INF-V183-03-B"
+relatedExercise: "src/content/exercises/informatik/algorithmen-klein-begruenden/suchverfahren/suchverfahren-anwenden-und-pruefen-v183.md"
+tags: ["informatik", "Algorithmen klein begründen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

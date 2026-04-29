@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Messreihenfolge für einen Fehlerbaum planen"
 description: "Musterlösung zur Aufgabe: Messreihenfolge für einen Fehlerbaum planen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - praxis
-  - fehlerbaum-und-systematische-fehlersuche
-taskId: ET-V182-002
-relatedExercise: src/content/exercises/elektrotechnik/praxis/fehlerbaum-und-systematische-fehlersuche/messreihenfolge-fuer-einen-fehlerbaum-planen.md
-tags:
-  - elektrotechnik
-  - fehlerbaum-und-systematische-fehlersuche
-  - loesung
-  - sanierung-v182
+topicPath: ["praxis", "fehlerbaum-und-systematische-fehlersuche", "messreihenfolge-fuer-einen-fehlerbaum-planen"]
+taskId: "ET-V182-002"
+relatedExercise: "src/content/exercises/elektrotechnik/praxis/fehlerbaum-und-systematische-fehlersuche/messreihenfolge-fuer-einen-fehlerbaum-planen.md"
+tags: ["elektrotechnik", "Praxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

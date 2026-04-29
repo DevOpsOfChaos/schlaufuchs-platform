@@ -3,25 +3,12 @@ title: "Lösung: Netzwerkadresse und Interface: Aufgabe B"
 description: "Musterlösung zur Aufgabe linux-v192-016b im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "netzwerk-und-zugriff"
-  - "netzwerkadresse-und-interface"
-  - "loesung-b"
+topicPath: ["sanierung-v192", "netzwerkadresse-und-interface-loesung-b"]
 taskId: "linux-v192-016b"
 relatedExercise: "linux/sanierung-v192/netzwerkadresse-und-interface-aufgabe-b"
-tags:
-  - "netzwerk-und-zugriff"
-  - "netzwerkadresse"
-  - "interface"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-016b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Netzwerkadresse und Interface“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

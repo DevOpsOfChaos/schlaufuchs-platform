@@ -1,36 +1,19 @@
 ---
 title: "POSIX-Grundlagen"
 description: "POSIX beschreibt Standards für Betriebssystem-Schnittstellen, Shell-Verhalten und Werkzeuge, damit Programme zwischen Unix-artigen Systemen portabler werden."
-subject: linux
+subject: "linux"
 section: "Systemgrundlagen"
-topicPath:
-  - "posix-grundlagen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst POSIX-Grundlagen als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["posix-grundlagen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird Linux-spezifisches Verhalten als universell angenommen."
-keyTakeaways:
-  - "POSIX beschreibt Standards für Betriebssystem-Schnittstellen, Shell-Verhalten und Werkzeuge, damit Programme zwischen Unix-artigen Systemen portabler werden."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um POSIX-Grundlagen, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich POSIX-Grundlagen in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "posix"
-  - "kompatibilitaet"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Systemgrundlagen"]
 draft: false
 ---
-
 # POSIX-Grundlagen
 
 POSIX beschreibt Standards für Betriebssystem-Schnittstellen, Shell-Verhalten und Werkzeuge,

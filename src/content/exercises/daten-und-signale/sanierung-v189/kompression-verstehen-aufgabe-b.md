@@ -3,33 +3,15 @@ title: "Kompression verstehen: Prüfen und Begründen"
 description: "Bewerte eine Aussage zu Kompression verstehen und formuliere eine bessere Arbeitsregel."
 subject: "daten-und-signale"
 section: "speicherung"
-topicPath:
-  - "speicherung"
-  - "kompression-verstehen"
-  - "aufgabe-b"
+topicPath: ["sanierung-v189", "kompression-verstehen-aufgabe-b"]
 taskId: "dat-v189-048b"
-tags:
-  - "kompression"
-  - "speicherung"
-  - "datenmenge"
-  - "daten-und-signale"
-  - "aufgabe"
-  - "v189"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["daten-und-signale", "speicherung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Prüfe die folgende Aussage zum Thema **Kompression verstehen**:

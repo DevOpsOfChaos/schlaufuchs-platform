@@ -1,32 +1,17 @@
 ---
-title: PWM-Betriebsarten am AVR ruhig vergleichen
-description: Vergleiche Fast PWM und Phase Correct PWM am ATmega über Zählverlauf und Zeitbild.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - timer-und-pwm
-  - atmega-fast-pwm-und-phase-correct-unterscheiden
-  - pwm-betriebsarten-am-avr-ruhig-vergleichen
-taskId: ET-ATMEGA-PWM-209
-level: mittel
+title: "PWM-Betriebsarten am AVR ruhig vergleichen"
+description: "Vergleiche Fast PWM und Phase Correct PWM am ATmega über Zählverlauf und Zeitbild."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-fast-pwm-und-phase-correct-unterscheiden", "pwm-betriebsarten-am-avr-ruhig-vergleichen"]
+taskId: "ET-ATMEGA-PWM-209"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - atmega
-  - pwm
-  - timer
-hintPoints:
-  - Starte nicht beim Tastgrad, sondern beim Zählverlauf.
-  - Trenne Symmetrie und bloße Signalhöhe bewusst.
-selfCheckPoints:
-  - Kannst du Fast PWM und Phase Correct über den Timerverlauf erklären?
-  - Kannst du sagen, warum derselbe Tastgrad nicht alles erklärt?
-transferIdeas:
-  - Übertrage die Idee auf Lüftersteuerung, Motoransteuerung oder LED-Dimmung.
-reflectionPrompt: "Was hättest du früher vorschnell als „doch eigentlich dasselbe“ gelesen?"
 ---
-
 ## Aufgabe 1
 
 Beschreibe in eigenen Worten, wie der Timer bei **Fast PWM** zählt und wie er bei **Phase Correct PWM** zählt.

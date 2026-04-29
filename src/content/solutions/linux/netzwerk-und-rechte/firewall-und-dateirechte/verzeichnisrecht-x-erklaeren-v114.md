@@ -1,23 +1,14 @@
 ---
-title: Lösung – Verzeichnisrecht x erklären
-description: Musterlösung zur Aufgabe über Verzeichnisrecht x erklären.
-subject: linux
-section: Feinstruktur Linux
-topicPath:
-- netzwerk-und-rechte
-- firewall-und-dateirechte
-- verzeichnisrecht-x-erklaeren-v114
-taskId: v114-linux-verzeichnisrecht-x-erklaeren-v114
-relatedExercise: linux/netzwerk-und-rechte/firewall-und-dateirechte/verzeichnisrecht-x-erklaeren-v114
-tags:
-- linux
-- v114
-- loesung
-- netzwerk-und-rechte
-- firewall-und-dateirechte
+title: "Lösung – Verzeichnisrecht x erklären"
+description: "Musterlösung zur Aufgabe über Verzeichnisrecht x erklären."
+subject: "linux"
+section: "Feinstruktur Linux"
+topicPath: ["netzwerk-und-rechte", "firewall-und-dateirechte", "verzeichnisrecht-x-erklaeren-v114"]
+taskId: "v114-linux-verzeichnisrecht-x-erklaeren-v114"
+relatedExercise: "linux/netzwerk-und-rechte/firewall-und-dateirechte/verzeichnisrecht-x-erklaeren-v114"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

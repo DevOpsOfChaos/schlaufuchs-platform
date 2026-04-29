@@ -1,33 +1,17 @@
 ---
-title: Gültigkeitsbereiche im Code ruhig prüfen
-description: Beschreibe bei einfachen Blöcken, wo Variablen sichtbar sind und wo nicht.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - funktionen-und-ablauf
-  - lokale-variablen-und-gueltigkeitsbereich-verstehen
-  - gueltigkeitsbereiche-im-code-ruhig-pruefen
-taskId: INF-PROG-CPP-SCOPE-001
-level: einfach
+title: "Gültigkeitsbereiche im Code ruhig prüfen"
+description: "Beschreibe bei einfachen Blöcken, wo Variablen sichtbar sind und wo nicht."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "lokale-variablen-und-gueltigkeitsbereich-verstehen", "gueltigkeitsbereiche-im-code-ruhig-pruefen"]
+taskId: "INF-PROG-CPP-SCOPE-001"
+tags: ["informatik", "Programmierung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - scope
-hintPoints:
-  - "Achte genau auf geschweifte Klammern."
-  - "Frage bei jedem Namen: In welchem Block wurde er eingeführt?"
-selfCheckPoints:
-  - "Sind Funktion und Schleife als eigene Bereiche erkannt?"
-  - "Wird Gleichnamigkeit nicht mit gleicher Rolle verwechselt?"
-transferIdeas:
-  - "Übertrage die Idee auf if-Blöcke oder Hilfsfunktionen."
-reflectionPrompt: "Warum hilft Scope dabei, Programme ruhiger zu lesen?"
 ---
-
 ## Aufgabe 1: Sichtbarkeit erklären
 
 Eine Variable wird innerhalb einer <code>for</code>-Schleife deklariert.

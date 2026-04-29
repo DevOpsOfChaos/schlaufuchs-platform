@@ -3,32 +3,17 @@ title: "Sicherheitskleinspannung"
 description: "Allgemeiner Überblick über Sicherheitskleinspannung und die Abgrenzung zu gefährlichen Spannungsbereichen."
 subject: "elektrotechnik"
 section: "Sicherheit"
-topicPath:
-  - "sicherheitskleinspannung"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["sicherheitskleinspannung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Spannung als einziger Sicherheitsmaßstab gesehen. Stromfähigkeit, Energie, Umgebung und Berührbarkeit sind ebenso wichtig."
-keyTakeaways:
-  - "Sicherheitskleinspannung reduziert Risiken, beseitigt sie aber nicht vollständig. Sichere Aufbauten betrachten Quelle, Trennung, Strombegrenzung und Fehlerfall gemeinsam."
-  - "Diese Überblicksseite ersetzt keine Sicherheitsnorm. Sie ordnet nur ein, warum niedrige Spannung allein nicht das gesamte Risiko beschreibt."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "elektrotechnik"
-  - "sicherheit"
-  - "kleinspannung"
-  - "schutz"
+tags: ["elektrotechnik", "Sicherheit"]
 draft: false
 ---
-
 # Sicherheitskleinspannung
 
 Sicherheitskleinspannung bezeichnet Spannungsbereiche und Versorgungskonzepte, die unter festgelegten Bedingungen ein geringeres Risiko für Personen darstellen.

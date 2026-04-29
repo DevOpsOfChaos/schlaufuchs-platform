@@ -3,24 +3,12 @@ title: "Lösung: Formulareingaben auslesen: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-v190-012b im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "formulare"
-  - "formulareingaben-auslesen"
-  - "loesung-b"
+topicPath: ["sanierung-v190", "formulareingaben-auslesen-aufgabe-b"]
 taskId: "web-v190-012b"
 relatedExercise: "web-development/sanierung-v190/formulareingaben-auslesen-aufgabe-b"
-tags:
-  - "formulare"
-  - "formulareingaben"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-012b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Formulareingaben auslesen“ um einen Fehlerfall, eine Abnahmebedingung und eine kurze Begründung.

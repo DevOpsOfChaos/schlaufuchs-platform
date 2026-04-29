@@ -3,23 +3,12 @@ title: "Lösung: Debugging mit Console und Breakpoints: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-v190-021b im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "debugging"
-  - "debugging-mit-console-und-breakpoints"
-  - "loesung-b"
+topicPath: ["sanierung-v190", "debugging-mit-console-und-breakpoints-aufgabe-b"]
 taskId: "web-v190-021b"
 relatedExercise: "web-development/sanierung-v190/debugging-mit-console-und-breakpoints-aufgabe-b"
-tags:
-  - "debugging"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-021b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Debugging mit Console und Breakpoints“ um einen Fehlerfall, eine Abnahmebedingung und eine kurze Begründung.

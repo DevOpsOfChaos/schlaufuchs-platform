@@ -1,33 +1,19 @@
 ---
 title: "Process Substitution"
 description: "Process Substitution stellt die Ausgabe eines Befehls wie eine Datei bereit. Sie erleichtert Vergleiche und Programme, die Dateipfade statt Streams erwarten."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "process-substitution"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Process Substitution."
-  - "Du kannst Process Substitution in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["process-substitution", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Sie in Skripten zu verwenden, die mit /bin/sh portabel sein sollen."
-keyTakeaways:
-  - "Process Substitution stellt die Ausgabe eines Befehls wie eine Datei bereit."
-  - "Wichtig sind vor allem syntax <(...) und >(...), temporäre dateideskriptoren und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Process Substitution, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Process Substitution dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "linux"
-  - "grundlagen"
-  - "process substitution"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # Process Substitution
 
 Process Substitution stellt die Ausgabe eines Befehls wie eine Datei bereit. Sie erleichtert Vergleiche und Programme, die Dateipfade statt Streams erwarten. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

@@ -1,23 +1,14 @@
 ---
-title: Lösung – MOSFET-Gate-Pegel prüfen
-description: Musterlösung zur Aufgabe über MOSFET-Gate-Pegel prüfen.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- signale-und-schaltungen
-- transistoren-und-lasten
-- mosfet-gate-pegel-pruefen-v114
-taskId: v114-elektrotechnik-mosfet-gate-pegel-pruefen-v114
-relatedExercise: elektrotechnik/signale-und-schaltungen/transistoren-und-lasten/mosfet-gate-pegel-pruefen-v114
-tags:
-- elektrotechnik
-- v114
-- loesung
-- signale-und-schaltungen
-- transistoren-und-lasten
+title: "Lösung – MOSFET-Gate-Pegel prüfen"
+description: "Musterlösung zur Aufgabe über MOSFET-Gate-Pegel prüfen."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["signale-und-schaltungen", "transistoren-und-lasten", "mosfet-gate-pegel-pruefen-v114"]
+taskId: "v114-elektrotechnik-mosfet-gate-pegel-pruefen-v114"
+relatedExercise: "elektrotechnik/signale-und-schaltungen/transistoren-und-lasten/mosfet-gate-pegel-pruefen-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

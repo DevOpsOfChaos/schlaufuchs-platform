@@ -3,35 +3,15 @@ title: "Aufgabe – Backup-Ausschlüsse dokumentieren"
 description: "Übe Backup-Excludes mit Szenario, Trennkante und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "praxis"
-  - "backup-und-wiederherstellung"
-  - "ausschluesse"
-  - "backup-ausschluesse-dokumentieren"
+topicPath: ["praxis", "backup-und-wiederherstellung", "ausschluesse", "backup-ausschluesse-dokumentieren"]
 taskId: "v111-linux-backup-ausschluesse-dokumentieren"
-tags:
-  - "linux"
-  - "betrieb"
-  - "unterthema"
-  - "praxis"
-  - "backup-und-wiederherstellung"
-  - "backup-ausschluesse-dokumentieren"
-hintPoints:
-  - "Benenne zuerst das genaue Unterthema."
-  - "Schreibe die typische Verwechslung ausdrücklich auf."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Lösung enger als ein breites Kapitel?"
-  - "Wird ein Nachbarthema sauber ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere eine zweite Aufgabe im gleichen Unterthema mit anderer Oberfläche."
-reflectionPrompt: "Welche kleine Trennkante macht Backup-Excludes übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["linux", "Feinstruktur Linux", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Backup-Excludes**.

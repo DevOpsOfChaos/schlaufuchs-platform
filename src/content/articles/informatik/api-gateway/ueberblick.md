@@ -1,33 +1,19 @@
 ---
 title: "API Gateway"
 description: "Ein API Gateway bündelt Zugriffe auf mehrere Dienste und stellt eine gemeinsame Eingangsschicht bereit. Es kann Routing, Authentifizierung, Rate Limiting und Transformation übernehmen."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "api-gateway"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von API Gateway."
-  - "Du kannst API Gateway in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["api-gateway", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Alle Geschäftsregeln in das Gateway zu verschieben."
-keyTakeaways:
-  - "Ein API Gateway bündelt Zugriffe auf mehrere Dienste und stellt eine gemeinsame Eingangsschicht bereit."
-  - "Wichtig sind vor allem zentraler eingangspunkt, querschnittsfunktionen und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um API Gateway, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu API Gateway dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "informatik"
-  - "grundlagen"
-  - "api gateway"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # API Gateway
 
 Ein API Gateway bündelt Zugriffe auf mehrere Dienste und stellt eine gemeinsame Eingangsschicht bereit. Es kann Routing, Authentifizierung, Rate Limiting und Transformation übernehmen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

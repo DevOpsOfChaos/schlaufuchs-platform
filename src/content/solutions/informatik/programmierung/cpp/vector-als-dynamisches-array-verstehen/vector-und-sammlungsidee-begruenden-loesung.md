@@ -1,26 +1,14 @@
 ---
-title: Musterlösung – vector und Sammlungsidee begründen
-description: Musterlösung zur Aufgabe INF-PROG-CPP-VECTOR-001.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - vector-und-container
-  - vector-als-dynamisches-array-verstehen
-  - vector-und-sammlungsidee-begruenden-loesung
-taskId: INF-PROG-CPP-VECTOR-001
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/vector-als-dynamisches-array-verstehen/vector-und-sammlungsidee-begruenden.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - vector
-  - loesung
-  - task-id
+title: "Musterlösung – vector und Sammlungsidee begründen"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-VECTOR-001."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "vector-als-dynamisches-array-verstehen", "vector-und-sammlungsidee-begruenden"]
+taskId: "INF-PROG-CPP-VECTOR-001"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/vector-als-dynamisches-array-verstehen/vector-und-sammlungsidee-begruenden.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Einsatz begründen
 
 Ein `std::vector` passt gut, weil die Trefferliste in ihrer Größe nicht von Anfang an feststeht. Sie kann leer starten, später mehrere Einträge enthalten und danach wieder kleiner werden. Genau dieses Wachsen und Schrumpfen ist die typische Stärke eines vectors.

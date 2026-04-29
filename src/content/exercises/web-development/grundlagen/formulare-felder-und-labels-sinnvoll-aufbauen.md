@@ -1,12 +1,17 @@
 ---
-title: Formulare, Felder und Labels sinnvoll aufbauen
-description: Diese Aufgabe vertieft die Grundidee von Formularen, Eingabefeldern und klarer Benutzerführung im Web.
-subject: web-development
-section: Grundlagen
-level: mittel
+title: "Formulare, Felder und Labels sinnvoll aufbauen"
+description: "Diese Aufgabe vertieft die Grundidee von Formularen, Eingabefeldern und klarer Benutzerführung im Web."
+subject: "web-development"
+section: "Grundlagen"
+topicPath: ["grundlagen", "formulare-felder-und-labels-sinnvoll-aufbauen"]
+taskId: "AUTO-FORMULARE-FELDER-UND-LABELS-SINNVOLL-AUFBAUEN"
+tags: ["web-development", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben so, dass immer klar ist, welche Eingabe gesammelt werden soll und wie ein Formular verständlich aufgebaut wird.

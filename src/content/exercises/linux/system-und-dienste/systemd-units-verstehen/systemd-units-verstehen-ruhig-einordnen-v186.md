@@ -1,29 +1,17 @@
 ---
 title: "systemd-Units verstehen – ruhig einordnen"
 description: "Übe, systemd-Units verstehen fachlich einzuordnen."
-subject: linux
+subject: "linux"
 section: "system-und-dienste"
-topicPath:
-  - "system-und-dienste"
-  - "systemd-units-verstehen"
-taskId: LINUX-SYSTEMD-UNITS-VERSTEHEN-V186-1
-tags:
-  - "linux"
-  - "systemd"
-  - "unit"
-  - "aufgabe"
-hintPoints:
-  - "Beginne mit Begriff und Kontext."
-  - "Trenne Beobachtung, Prüfung und mögliche Änderung."
-selfCheckPoints:
-  - "Ich kann die wichtigsten Begriffe erklären."
-  - "Ich kann einen typischen Fehler vermeiden."
-transferIdeas:
-  - "Formuliere eine ähnliche Prüfsituation aus deinem eigenen Linux-Alltag."
-level: fortgeschritten
+topicPath: ["system-und-dienste", "systemd-units-verstehen", "systemd-units-verstehen-ruhig-einordnen-v186"]
+taskId: "LINUX-SYSTEMD-UNITS-VERSTEHEN-V186-1"
+tags: ["linux", "system-und-dienste", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "fortgeschritten"
 draft: false
 ---
-
 ## Lernziel
 
 Du sollst **systemd-Units verstehen** nicht nur als Befehl oder Schlagwort sehen, sondern als geordnetes Linux-Thema mit Zweck, Kontext und typischen Prüfschritten.

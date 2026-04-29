@@ -1,37 +1,19 @@
 ---
 title: "Grundlagen: Umgebungsvariablen und PATH"
 description: "Allgemeiner Überblick über Umgebungsvariablen, den PATH und die Frage, warum Befehle in der Shell gefunden werden."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - shell
-  - rechte-und-shell-kontext
-  - umgebungsvariablen-und-path
-  - grundlagen-umgebungsvariablen-und-path
-learningGoals:
-  - "Du erklärst Umgebungsvariablen als benannte Werte im Prozesskontext."
-  - "Du beschreibst PATH als Suchliste für ausführbare Programme."
-  - "Du unterscheidest Shell-Variable, exportierte Variable und dauerhaft gesetzte Umgebung."
+topicPath: ["shell", "rechte-und-shell-kontext", "umgebungsvariablen-und-path", "ueberblick", "grundlagen-umgebungsvariablen-und-path"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "PATH als einzelnes Verzeichnis zu verstehen."
-  - "Eine Variable in einer Shell zu setzen und dauerhafte Wirkung zu erwarten."
-  - "Befehlssuche und Dateipfad zu verwechseln."
-keyTakeaways:
-  - "Umgebungsvariablen gehören zum Kontext eines Prozesses."
-  - "PATH enthält mehrere Verzeichnisse, in denen die Shell Befehle sucht."
-  - "Dauerhafte Änderungen gehören in passende Startdateien und sollten vorsichtig vorgenommen werden."
+commonMistakes: []
+keyTakeaways: []
 recognizeSignals: []
 selfCheckPoints: []
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "path"
-  - "umgebungsvariablen"
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
-
 ## Begriff
 
 **Umgebungsvariablen** sind benannte Werte, die Programmen beim Start als Kontext mitgegeben werden. Sie können Pfade, Spracheinstellungen, Konfigurationen oder andere Informationen enthalten. Der **PATH** ist eine besonders wichtige Umgebungsvariable in der Shell.

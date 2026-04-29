@@ -3,23 +3,12 @@ title: "Lösung: Git und Versionierung im Webprojekt: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-029a im Web-Development-Block v187."
 subject: "web-development"
 section: "werkzeuge"
-topicPath: 
-  - "werkzeuge-und-projektarbeit"
-  - "git-versionierung"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "git-und-versionierung-im-webprojekt-aufgabe-a"]
 taskId: "web-v187-029a"
 relatedExercise: "web-development/sanierung-v187/git-und-versionierung-im-webprojekt-aufgabe-a"
-tags: 
-  - "git"
-  - "versionierung"
-  - "projektarbeit"
-  - "web"
-  - "web-development"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "werkzeuge", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-029a`
 
     Ausgangsauftrag: Teile eine Webprojekt-Änderung in sinnvolle Commit-Schritte auf.

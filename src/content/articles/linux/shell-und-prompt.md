@@ -1,13 +1,19 @@
 ---
-title: Shell und Prompt verstehen
-description: Lerne, was Shell und Prompt sind und wie du dich im Terminal orientierst.
-subject: linux
-section: einstieg
-level: einfach
-tags: [shell, prompt, terminal, grundlagen]
+title: "Shell und Prompt verstehen"
+description: "Lerne, was Shell und Prompt sind und wie du dich im Terminal orientierst."
+subject: "linux"
+section: "einstieg"
+topicPath: ["shell-und-prompt"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["shell", "prompt", "terminal", "grundlagen"]
 draft: false
 ---
-
 Die Shell ist die textbasierte Arbeitsumgebung von Linux. Hier gibst du Befehle ein, wechselst zwischen Verzeichnissen und arbeitest direkt mit dem System. Der Prompt ist dabei die sichtbare Stelle, an der du erkennst: Das System wartet auf deine Eingabe.
 
 ## Was ist die Shell?

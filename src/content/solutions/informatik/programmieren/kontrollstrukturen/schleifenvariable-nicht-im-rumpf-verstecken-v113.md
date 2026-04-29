@@ -3,20 +3,12 @@ title: "Lösung – Schleifenvariable nicht im Rumpf verstecken"
 description: "Musterlösung zu Schleifenvariable nicht im Rumpf verstecken mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "programmieren"
-  - "kontrollstrukturen"
-  - "schleifenvariable-nicht-im-rumpf-verstecken-v113"
+topicPath: ["programmieren", "kontrollstrukturen", "schleifenvariable-nicht-im-rumpf-verstecken-v113"]
 taskId: "v113-informatik-schleifenvariable-nicht-im-rumpf-verstecken-v113"
 relatedExercise: "informatik/programmieren/kontrollstrukturen/schleifenvariable-nicht-im-rumpf-verstecken-v113"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "schleifenvariable-nicht-im-rumpf-verstecken-v113"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Schleifenvariable nicht im Rumpf verstecken**.

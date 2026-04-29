@@ -3,20 +3,12 @@ title: "Lösung – XSS-Gefahr bei HTML-Ausgabe prüfen"
 description: "Musterlösung zu XSS-Gefahr bei HTML-Ausgabe prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "projektpraxis"
-  - "performance-und-sicherheit"
-  - "xss-gefahr-bei-html-ausgabe-pruefen-v113"
+topicPath: ["projektpraxis", "performance-und-sicherheit", "xss-gefahr-bei-html-ausgabe-pruefen-v113"]
 taskId: "v113-web-development-xss-gefahr-bei-html-ausgabe-pruefen-v113"
 relatedExercise: "web-development/projektpraxis/performance-und-sicherheit/xss-gefahr-bei-html-ausgabe-pruefen-v113"
-tags:
-  - "web development"
-  - "strukturcheck"
-  - "unterthema"
-  - "xss-gefahr-bei-html-ausgabe-pruefen-v113"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **XSS-Gefahr bei HTML-Ausgabe prüfen**.

@@ -1,24 +1,14 @@
 ---
 title: "Lösung: UART-Baudrate auf beiden Seiten prüfen"
 description: "Musterlösung zu UART-Baudrate auf beiden Seiten prüfen mit Trennkante und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "signale-stoerungen-v115"
-  - "kommunikation-robust"
-  - "uart-baudrate-auf-beiden-seiten-pruefen-v115"
+topicPath: ["signale-stoerungen-v115", "kommunikation-robust", "uart-baudrate-auf-beiden-seiten-pruefen-v115"]
 taskId: "elektrotechnik-uart-baudrate-auf-beiden-seiten-pruefen-v115"
 relatedExercise: "elektrotechnik/signale-stoerungen-v115/kommunikation-robust/uart-baudrate-auf-beiden-seiten-pruefen-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "signale und störungen"
-  - "kommunikation robust machen"
-  - "lösung"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **UART-Baudrate auf beiden Seiten prüfen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

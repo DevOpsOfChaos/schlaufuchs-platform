@@ -3,23 +3,12 @@ title: "Lösung – Freilaufdiode bei induktiver Last einordnen"
 description: "Musterlösung zu Freilaufdiode mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "bauteile"
-  - "mosfet-und-transistor"
-  - "freilauf"
-  - "freilaufdiode-bei-induktiver-last-einordnen"
+topicPath: ["bauteile", "mosfet-und-transistor", "freilauf", "freilaufdiode-bei-induktiver-last-einordnen"]
 taskId: "v111-elektrotechnik-freilaufdiode-bei-induktiver-last-einordnen"
 relatedExercise: "elektrotechnik/bauteile/mosfet-und-transistor/freilauf/freilaufdiode-bei-induktiver-last-einordnen"
-tags:
-  - "elektrotechnik"
-  - "praxis"
-  - "unterthema"
-  - "bauteile"
-  - "mosfet-und-transistor"
-  - "freilaufdiode-bei-induktiver-last-einordnen"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Freilaufdiode**.

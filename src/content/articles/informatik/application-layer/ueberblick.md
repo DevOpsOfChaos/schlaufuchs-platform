@@ -1,35 +1,17 @@
 ---
 title: "Application Layer"
 description: "Überblick über die Anwendungsschicht als Koordination zwischen Benutzungsfall, Domäne und Infrastruktur."
-subject: informatik
+subject: "informatik"
 section: "Softwarearchitektur"
-topicPath:
-  - "application-layer"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Application Layer als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["application-layer", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird jede Serviceklasse automatisch als Application Layer verstanden, auch wenn sie nur Datenbankzugriff oder Hilfslogik enthält."
-keyTakeaways:
-  - "Der Application Layer beschreibt, welche Anwendungsfälle ein System ausführt und wie Domänenlogik, Datenzugriff und externe Dienste koordiniert werden."
-  - "Er verhindert, dass Controller, UI oder Infrastruktur direkt die fachlichen Abläufe vermischen."
-  - "Der Application Layer ist nicht dasselbe wie die Domäne. Er orchestriert Abläufe, während die Domäne fachliche Regeln trägt."
-recognizeSignals:
-  - "Es geht um Application Layer, wenn use Cases oder Services bilden konkrete Anwendungsaktionen ab."
-  - "Das Thema wird relevant, wenn Beispiele wie ein Use Case „Aufgabe bewerten“ kann Eingabe prüfen, Domänenlogik aufrufen und das Ergebnis speichern."
-selfCheckPoints:
-  - "Kann ich Application Layer in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "softwarearchitektur"
-  - "application layer"
-  - "domäne"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Softwarearchitektur"]
 draft: false
 ---
 # Application Layer

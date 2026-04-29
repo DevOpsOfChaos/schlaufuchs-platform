@@ -3,23 +3,12 @@ title: "Lösung – Termination als eigene Algorithmusfrage prüfen"
 description: "Musterlösung zu Termination als eigene Algorithmusfrage prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Algorithmen"
-topicPath:
-  - "algorithmen-denken"
-  - "such-und-sortierideen"
-  - "v110-teil-4"
-  - "termination-als-eigene-algorithmusfrage-pruefen"
+topicPath: ["algorithmen-denken", "such-und-sortierideen", "v110-teil-4", "termination-als-eigene-algorithmusfrage-pruefen"]
 taskId: "v110-informatik-termination-als-eigene-algorithmusfrage-pruefen"
 relatedExercise: "informatik/algorithmen-denken/such-und-sortierideen/v110-teil-4/termination-als-eigene-algorithmusfrage-pruefen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "praxis"
-  - "algorithmen-denken"
-  - "such-und-sortierideen"
-  - "termination-als-eigene-algorithmusfrage-pruefen"
+tags: ["informatik", "Algorithmen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Termination als eigene Algorithmusfrage prüfen**.

@@ -3,23 +3,12 @@ title: "Lösung – journalctl -u zur Dienstdiagnose nutzen"
 description: "Musterlösung zu journalctl -u zur Dienstdiagnose nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Systembetrieb"
-topicPath:
-  - "systembetrieb"
-  - "prozesse-dienste-logs"
-  - "v110-teil-2"
-  - "journalctl-u-zur-dienstdiagnose-nutzen"
+topicPath: ["systembetrieb", "prozesse-dienste-logs", "v110-teil-2", "journalctl-u-zur-dienstdiagnose-nutzen"]
 taskId: "v110-linux-journalctl-u-zur-dienstdiagnose-nutzen"
 relatedExercise: "linux/systembetrieb/prozesse-dienste-logs/v110-teil-2/journalctl-u-zur-dienstdiagnose-nutzen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "systembetrieb"
-  - "prozesse-dienste-logs"
-  - "journalctl-u-zur-dienstdiagnose-nutzen"
+tags: ["linux", "Systembetrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **journalctl -u zur Dienstdiagnose nutzen**.

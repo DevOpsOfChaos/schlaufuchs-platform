@@ -1,33 +1,19 @@
 ---
 title: "Bind Mounts"
 description: "Bind Mounts binden ein vorhandenes Verzeichnis an einer anderen Stelle ein. Sie sind wichtig für Container, Chroots und flexible Dateisystemansichten."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "bind-mounts"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Bind Mounts."
-  - "Du kannst Bind Mounts in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["bind-mounts", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Änderungen im Mount als unabhängige Kopie zu betrachten."
-keyTakeaways:
-  - "Bind Mounts binden ein vorhandenes Verzeichnis an einer anderen Stelle ein."
-  - "Wichtig sind vor allem quelle und zielpfad, lesen/schreiben und rechte und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Bind Mounts, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Bind Mounts dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "linux"
-  - "grundlagen"
-  - "bind mounts"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # Bind Mounts
 
 ![Schaubild zu Bind Mounts.](/schlaufuchs-platform/images/overviews/v150/bind-mounts.svg)

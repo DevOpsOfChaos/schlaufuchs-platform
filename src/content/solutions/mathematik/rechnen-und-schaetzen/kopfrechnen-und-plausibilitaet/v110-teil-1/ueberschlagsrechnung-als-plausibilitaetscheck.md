@@ -3,23 +3,12 @@ title: "Lösung – Überschlagsrechnung als Plausibilitätscheck"
 description: "Musterlösung zu Überschlagsrechnung als Plausibilitätscheck mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Grundlagen"
-topicPath:
-  - "rechnen-und-schaetzen"
-  - "kopfrechnen-und-plausibilitaet"
-  - "v110-teil-1"
-  - "ueberschlagsrechnung-als-plausibilitaetscheck"
+topicPath: ["rechnen-und-schaetzen", "kopfrechnen-und-plausibilitaet", "v110-teil-1", "ueberschlagsrechnung-als-plausibilitaetscheck"]
 taskId: "v110-mathematik-ueberschlagsrechnung-als-plausibilitaetscheck"
 relatedExercise: "mathematik/rechnen-und-schaetzen/kopfrechnen-und-plausibilitaet/v110-teil-1/ueberschlagsrechnung-als-plausibilitaetscheck"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfung"
-  - "rechnen-und-schaetzen"
-  - "kopfrechnen-und-plausibilitaet"
-  - "ueberschlagsrechnung-als-plausibilitaetscheck"
+tags: ["mathematik", "Grundlagen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Überschlagsrechnung als Plausibilitätscheck**.

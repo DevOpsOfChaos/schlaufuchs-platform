@@ -3,32 +3,17 @@ title: "Kalibrierung und Abgleich"
 description: "Allgemeiner Überblick über kalibrierung und abgleich und die wichtigsten Zusammenhänge."
 subject: "elektrotechnik"
 section: "Messtechnik"
-topicPath:
-  - "kalibrierung-und-abgleich"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["kalibrierung-und-abgleich", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird eine einmalige Werksangabe dauerhaft als Wahrheit betrachtet."
-keyTakeaways:
-  - "Kalibrierung schafft Vertrauen in Messwerte, weil Abweichungen bekannt sind."
-  - "Kalibrieren stellt fest, Justieren verändert. Diese Begriffe sollten nicht vermischt werden."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "elektrotechnik"
-  - "kalibrierung"
-  - "messung"
-  - "abgleich"
+tags: ["elektrotechnik", "Messtechnik"]
 draft: false
 ---
-
 # Kalibrierung und Abgleich
 
 Kalibrierung vergleicht ein Messsystem mit einem bekannten Standard; Abgleich verändert es, damit es näher am gewünschten Verhalten liegt.

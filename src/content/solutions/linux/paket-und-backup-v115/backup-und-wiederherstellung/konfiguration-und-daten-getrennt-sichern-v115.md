@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Konfiguration und Daten getrennt sichern"
 description: "Musterlösung zu Konfiguration und Daten getrennt sichern mit Trennkante und Gegenprobe."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "paket-und-backup-v115"
-  - "backup-und-wiederherstellung"
-  - "konfiguration-und-daten-getrennt-sichern-v115"
+topicPath: ["paket-und-backup-v115", "backup-und-wiederherstellung", "konfiguration-und-daten-getrennt-sichern-v115"]
 taskId: "linux-konfiguration-und-daten-getrennt-sichern-v115"
 relatedExercise: "linux/paket-und-backup-v115/backup-und-wiederherstellung/konfiguration-und-daten-getrennt-sichern-v115"
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "pakete und backups"
-  - "backup und wiederherstellung"
-  - "lösung"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Konfiguration und Daten getrennt sichern**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

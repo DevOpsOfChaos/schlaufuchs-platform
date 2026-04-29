@@ -1,30 +1,17 @@
 ---
 title: "Exit-Code und Kontrollfluss"
 description: "Allgemeiner Überblick: Exit-Codes verbinden Befehle mit Entscheidungen in Shell-Skripten."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - "exit-code-und-kontrollfluss"
-learningGoals:
-  - "Du kannst exit-code und kontrollfluss als Grundidee einordnen."
-  - "Du erkennst wichtige Bestandteile und typische Grenzen."
-  - "Du kannst das Thema in einfachen Worten erklären."
+topicPath: ["exit-code-und-kontrollfluss", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur ein Detail zu betrachten und den Zusammenhang zu übersehen."
-  - "Das Schaubild als exakte technische Darstellung statt als Orientierung zu lesen."
-keyTakeaways:
-  - "Exit-Codes verbinden Befehle mit Entscheidungen in Shell-Skripten."
-  - "Ein Überblicksbild hilft, Begriffe und Beziehungen ruhig zu ordnen."
-recognizeSignals:
-  - "Es geht um exit-code und kontrollfluss, Grundbegriffe, Zusammenhänge oder typische Fehlerquellen."
-selfCheckPoints:
-  - "Kann ich erklären, welche Rolle exit-code und kontrollfluss im größeren Zusammenhang spielt?"
-level: einfach
-tags:
-  - "linux"
-  - "exit code und kontrollfluss"
-  - "überblick"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
 # Exit-Code und Kontrollfluss

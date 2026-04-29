@@ -1,36 +1,19 @@
 ---
 title: "Betriebssysteme"
 description: "Überblick über Betriebssysteme als Vermittler zwischen Hardware, Programmen und Nutzenden."
-subject: informatik
+subject: "informatik"
 section: "Grundlagen"
-topicPath:
-  - "betriebssysteme"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Betriebssysteme als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["betriebssysteme", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird nur die sichtbare Oberfläche als Betriebssystem wahrgenommen."
-keyTakeaways:
-  - "Betriebssysteme verwalten Hardware und Ressourcen."
-  - "Sie stellen Abstraktionen für Programme bereit."
-  - "Schutz und Koordination sind zentrale Aufgaben."
-recognizeSignals:
-  - "Es geht um Prozesse, Speicher, Dateien, Geräte oder Rechte."
-  - "Programme nutzen Systemfunktionen statt Hardware direkt."
-selfCheckPoints:
-  - "Kann ich Betriebssysteme in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "informatik"
-  - "betriebssystem"
-  - "systemsoftware"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Grundlagen"]
 draft: false
 ---
-
 # Betriebssysteme
 
 ![Schaubild zu Betriebssystemen.](/schlaufuchs-platform/images/overviews/v150/betriebssysteme.svg)

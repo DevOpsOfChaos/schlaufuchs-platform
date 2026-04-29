@@ -3,46 +3,17 @@ title: "Linux – ssh-agent und Schlüssel-Passphrasen verstehen"
 description: "Ordne ein, warum ein SSH-Schlüssel durch eine Passphrase geschützt wird und wie der Agent wiederholte Eingaben reduziert."
 subject: "linux"
 section: "SSH"
-topicPath:
-  - "ssh"
-  - "schluessel-und-agent"
-  - "ssh-agent-und-schluessel-passphrasen-verstehen"
-learningGoals:
-  - "Du erklärst die Kernidee von „SSH-Schlüssel“ in eigenen Worten."
-  - "Du ordnest das Thema einem klaren Unterthema zu statt es in einem Sammelbereich zu verlieren."
-  - "Du leitest eine kleine Gegenprobe für echte Aufgaben oder Projekte ab."
-practiceIdeas:
-  - "Markiere zuerst, welche Unterfrage wirklich gestellt ist."
-  - "Notiere eine typische Fehlannahme und eine passende Gegenprobe."
-  - "Übertrage die Denkbewegung auf ein zweites kleines Beispiel."
-commonMistakes:
-  - "Private Key teilen"
-  - "Passphrase in Datei speichern"
-  - "Agent als Serverfreigabe missverstehen"
-keyTakeaways:
-  - "SSH-Schlüssel wird klarer, wenn Zustand, Ursache und Prüfschritt getrennt werden."
-  - "Kleine Unterthemen sind leichter auffindbar und besser prüfbar als breite Sammelordner."
-  - "Eine gute Erklärung endet mit einer konkreten Gegenprobe."
-recognizeSignals:
-  - "Die Aufgabe enthält einen scheinbar kleinen Sonderfall oder Fehlerzustand."
-  - "Es muss zwischen Begriffen unterschieden werden, die im Alltag leicht vermischt werden."
-  - "Eine Entscheidung soll begründet und nicht nur auswendig angewendet werden."
-selfCheckPoints:
-  - "Kann ich das Unterthema mit einem Satz von Nachbarthemen abgrenzen?"
-  - "Kann ich einen typischen Fehler benennen?"
-  - "Kann ich eine konkrete Prüfung oder Rechnung anschließen?"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "praxis"
-  - "ssh-schlüssel"
-  - "ssh"
-  - "schluessel-und-agent"
+topicPath: ["ssh", "schluessel-und-agent", "ssh-agent-und-schluessel-passphrasen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["linux", "SSH"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein privater Schlüssel ist ein sensibler Zugang. Eine Passphrase schützt ihn, der ssh-agent merkt ihn für eine Sitzung, ohne die Passphrase in Skripte zu schreiben.

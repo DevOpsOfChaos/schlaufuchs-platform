@@ -3,22 +3,12 @@ title: "Lösung: Hilfslinie mit Zweck einzeichnen"
 description: "Musterlösung zur Aufgabe „Hilfslinie mit Zweck einzeichnen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "geometrie-messen-und-begruenden"
-  - "skizzen-und-hilfslinien"
-  - "hilfslinie-mit-zweck-einzeichnen-v116"
+topicPath: ["geometrie-messen-und-begruenden", "skizzen-und-hilfslinien", "hilfslinie-mit-zweck-einzeichnen-v116"]
 taskId: "hilfslinie-mit-zweck-einzeichnen-v116"
 relatedExercise: "mathematik/geometrie-messen-und-begruenden/skizzen-und-hilfslinien/hilfslinie-mit-zweck-einzeichnen-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "skizzen und hilfslinien"
-  - "hilfslinie mit zweck einzeichnen"
-  - "v116"
+tags: ["mathematik", "Mathematik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

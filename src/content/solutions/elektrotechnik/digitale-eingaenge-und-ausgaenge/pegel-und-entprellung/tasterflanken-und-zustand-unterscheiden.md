@@ -3,23 +3,12 @@ title: "Lösung – Tasterflanken und Zustand unterscheiden"
 description: "Musterlösung zur Aufgabe über Tasterlogik mit Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Digitale Eingänge"
-topicPath:
-  - "digitale-eingaenge-und-ausgaenge"
-  - "pegel-und-entprellung"
-  - "tasterflanken-und-zustand-unterscheiden"
+topicPath: ["digitale-eingaenge-und-ausgaenge", "pegel-und-entprellung", "tasterflanken-und-zustand-unterscheiden"]
 taskId: "v106-elektrotechnik-tasterflanken-und-zustand-unterscheiden"
 relatedExercise: "elektrotechnik/digitale-eingaenge-und-ausgaenge/pegel-und-entprellung/tasterflanken-und-zustand-unterscheiden"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "mikrocontroller"
-  - "signale"
-  - "tasterlogik"
-  - "digitale-eingaenge-und-ausgaenge"
-  - "pegel-und-entprellung"
+tags: ["elektrotechnik", "Digitale Eingänge", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Beobachtung

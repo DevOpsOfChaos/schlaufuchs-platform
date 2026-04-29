@@ -1,43 +1,17 @@
 ---
 title: "CSS – focus-visible, hover und Pointer-Zustände planen"
 description: "Verstehe, warum Interaktionszustände nicht nur hübsch sein dürfen, sondern Tastatur, Maus und Touch sauber unterstützen müssen."
-subject: web-development
+subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "selektoren"
-  - "focus-visible-hover-und-pointer-zustaende-planen"
-learningGoals:
-  - "Du unterscheidest hover, focus und focus-visible."
-  - "Du erklärst, warum Tastaturfokus sichtbar bleiben muss."
-  - "Du vermeidest Interaktionen, die nur mit Maus funktionieren."
-practiceIdeas:
-  - "Prüfe einen Button nur mit Tab-Taste."
-  - "Vergleiche hover-Stil und focus-visible-Stil."
-  - "Überlege, was auf Touch-Geräten ohne Hover passiert."
-commonMistakes:
-  - "outline: none zu setzen, ohne Ersatz zu bieten."
-  - "Wichtige Informationen nur bei hover sichtbar zu machen."
-  - "focus und active durcheinanderzubringen."
-keyTakeaways:
-  - "hover ist kein Ersatz für Fokus."
-  - "focus-visible hilft, Tastaturfokus gezielt sichtbar zu machen."
-  - "Interaktionszustände müssen Eingabegeräte berücksichtigen."
-recognizeSignals:
-  - "Es geht um Buttons, Links, Tastaturbedienung, hover, focus oder outline."
-  - "Eine Aufgabe fragt, warum eine Seite per Tab schwer nutzbar ist."
-  - "CSS entfernt Fokusrahmen."
-selfCheckPoints:
-  - "Ist der Tastaturfokus sichtbar?"
-  - "Ist die Information auch ohne hover erreichbar?"
-  - "Sind Touch-Geräte mitgedacht?"
-tags:
-  - "web development"
-  - "css"
-  - "focus-visible"
-  - "hover"
-  - "accessibility"
-level: mittel
+topicPath: ["css", "selektoren", "focus-visible-hover-und-pointer-zustaende-planen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
 ## Grundidee

@@ -1,24 +1,14 @@
 ---
 title: "Lösung: find nach Name und Typ trennen"
 description: "Musterlösung zu find nach Name und Typ trennen mit Trennkante und Gegenprobe."
-subject: linux
+subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell-praxis-v115"
-  - "dateien-finden-lesen"
-  - "find-nach-name-und-typ-trennen-v115"
+topicPath: ["shell-praxis-v115", "dateien-finden-lesen", "find-nach-name-und-typ-trennen-v115"]
 taskId: "linux-find-nach-name-und-typ-trennen-v115"
 relatedExercise: "linux/shell-praxis-v115/dateien-finden-lesen/find-nach-name-und-typ-trennen-v115"
-tags:
-  - "linux"
-  - "feinstruktur"
-  - "unterthema"
-  - "shell-praxis"
-  - "dateien finden und lesen"
-  - "lösung"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **find nach Name und Typ trennen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

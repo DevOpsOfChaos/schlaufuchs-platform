@@ -3,22 +3,12 @@ title: "Lösung: Statuszeile lesen"
 description: "Musterlösung zur Aufgabe „Statuszeile lesen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "linux"
 section: "Linux vertiefen"
-topicPath:
-  - "prozesse-logs-und-dienste"
-  - "systemd-status-und-restart"
-  - "statuszeile-lesen-v116"
+topicPath: ["prozesse-logs-und-dienste", "systemd-status-und-restart", "statuszeile-lesen-v116"]
 taskId: "statuszeile-lesen-v116"
 relatedExercise: "linux/prozesse-logs-und-dienste/systemd-status-und-restart/statuszeile-lesen-v116"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "systemd status und restart"
-  - "statuszeile lesen"
-  - "v116"
+tags: ["linux", "Linux vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

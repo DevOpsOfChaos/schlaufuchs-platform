@@ -1,47 +1,19 @@
 ---
-title: for, while und do while vergleichen
-description: Verstehe, wie sich typische Schleifen in C++ nach Prüfzeitpunkt, Zählidee und Ablaufgefühl unterscheiden.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - kontrollstrukturen
-  - for-while-und-do-while-vergleichen
-learningGoals:
-  - Du vergleichst <code>for</code>, <code>while</code> und <code>do while</code> nach ihrer Wiederholungsidee.
-  - Du erkennst, wann eine Schleife vor dem ersten Durchlauf prüft und wann danach.
-  - Du begründest die Schleifenwahl über Ablauf und Stoppregel.
-practiceIdeas:
-  - Vergleiche das Durchlaufen fester Indizes mit einer offenen Wiederholung bis zu einer Bedingung.
-  - Erkläre, warum ein Menü mindestens einmal angezeigt werden soll.
-  - Lies Schleifen immer zuerst über Stoppregel und Wiederholungsobjekt.
-commonMistakes:
-  - Alle Schleifen als austauschbar zu sehen.
-  - Den Unterschied zwischen kopfgesteuert und fußgesteuert zu übergehen.
-  - Die Zählidee einer for-Schleife nicht von der offenen Bedingung einer while-Schleife zu trennen.
-keyTakeaways:
-  - for passt oft zu klaren Zählschritten.
-  - while passt gut zu offener Wiederholung mit Bedingung am Anfang.
-  - do while garantiert mindestens einen Durchlauf.
-recognizeSignals:
-  - Es geht um Schleifenarten, Prüfzeitpunkt, Zähler oder Stoppregel.
-  - Du sollst eine passende Schleife auswählen oder erklären.
-  - In Beispielen musst du Wiederholungsidee und Abbruchbedingung sauber benennen.
-selfCheckPoints:
-  - Kann ich kopfgesteuerte und fußgesteuerte Schleifen unterscheiden?
-  - Kann ich erklären, wann eine Schleife mindestens einmal laufen soll?
-  - Kann ich for, while und do while nach ihrem Ablaufgefühl vergleichen?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - schleifen
-  - kontrollstrukturen
+title: "for, while und do while vergleichen"
+description: "Verstehe, wie sich typische Schleifen in C++ nach Prüfzeitpunkt, Zählidee und Ablaufgefühl unterscheiden."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "for-while-und-do-while-vergleichen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Schleifen sind nicht nur „Wiederholung“. Sie unterscheiden sich auch darin, wann geprüft wird, ob ein weiterer Durchlauf erlaubt ist, und wie stark die Wiederholung über einen Zähler oder über eine offene Bedingung gedacht wird.

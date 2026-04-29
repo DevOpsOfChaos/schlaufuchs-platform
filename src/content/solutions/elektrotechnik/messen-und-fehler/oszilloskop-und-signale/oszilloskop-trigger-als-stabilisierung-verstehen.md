@@ -3,23 +3,12 @@ title: "Lösung – Oszilloskop-Trigger als Stabilisierung verstehen"
 description: "Musterlösung zur Aufgabe über Oszilloskop mit Begründung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Messen"
-topicPath:
-  - "messen-und-fehler"
-  - "oszilloskop-und-signale"
-  - "oszilloskop-trigger-als-stabilisierung-verstehen"
+topicPath: ["messen-und-fehler", "oszilloskop-und-signale", "oszilloskop-trigger-als-stabilisierung-verstehen"]
 taskId: "v106-elektrotechnik-oszilloskop-trigger-als-stabilisierung-verstehen"
 relatedExercise: "elektrotechnik/messen-und-fehler/oszilloskop-und-signale/oszilloskop-trigger-als-stabilisierung-verstehen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "mikrocontroller"
-  - "signale"
-  - "oszilloskop"
-  - "messen-und-fehler"
-  - "oszilloskop-und-signale"
+tags: ["elektrotechnik", "Messen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Beobachtung

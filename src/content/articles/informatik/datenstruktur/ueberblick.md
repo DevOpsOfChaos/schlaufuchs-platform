@@ -1,35 +1,19 @@
 ---
 title: "Datenstruktur"
 description: "Allgemeiner Überblick über Datenstrukturen als organisierte Formen zur Speicherung und Nutzung von Daten."
-subject: informatik
+subject: "informatik"
 section: "Grundlagen"
-topicPath:
-  - "datenstruktur"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst Datenstrukturen als Organisationsformen für Daten."
-  - "Du kannst typische Fragen nach Zugriff, Suche und Änderung einordnen."
-  - "Du verstehst, warum die Wahl einer Datenstruktur den Algorithmus beeinflusst."
+topicPath: ["datenstruktur", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Datenstrukturen nur nach Gewohnheit auszuwählen."
-  - "Speicherform und fachliche Bedeutung zu vermischen."
-keyTakeaways:
-  - "Datenstrukturen bestimmen, wie Daten gespeichert, gefunden und verändert werden."
-  - "Die passende Struktur hängt von Zugriffsmuster und Operationen ab."
-recognizeSignals:
-  - "Es geht um Listen, Arrays, Mengen, Maps, Queues, Stacks oder Bäume."
-selfCheckPoints:
-  - "Kann ich sagen, welche Operation in einer Situation besonders häufig ist?"
-level: einfach
-tags:
-  - "informatik"
-  - "datenstruktur"
-  - "listen"
-  - "maps"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Grundlagen"]
 draft: false
 ---
-
 # Datenstruktur
 
 ![Schaubild zu typischen Datenstrukturen.](/schlaufuchs-platform/images/overviews/v148/datenstruktur.svg)

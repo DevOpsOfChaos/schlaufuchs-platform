@@ -3,38 +3,17 @@ title: "Fehlererkennung"
 description: "Fehlererkennung prüft, ob Daten bei Speicherung oder Übertragung verändert wurden."
 subject: "daten-und-signale"
 section: "uebertragung"
-topicPath:
-  - "uebertragung"
-  - "fehlererkennung"
-learningGoals:
-  - "Fehlererkennung prüft, ob Daten bei Speicherung oder Übertragung verändert wurden fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Fehlererkennung prüft, ob Daten bei Speicherung oder Übertragung verändert wurden wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v189", "fehlererkennung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "fehlererkennung"
-  - "pruefsumme"
-  - "daten"
-  - "daten-und-signale"
-  - "v189"
+tags: ["daten-und-signale", "uebertragung"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Fehlererkennung](/schlaufuchs-platform/images/daten-und-signale/sanierung-189/fehlererkennung.svg)
 
 ## Überblick

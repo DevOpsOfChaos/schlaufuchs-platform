@@ -1,42 +1,19 @@
 ---
 title: "Grundlagen: Sleep-Modus und Energieverbrauch"
 description: "Allgemeiner Überblick über Energiesparen, Aufwachereignisse und Stromverbrauch im Mikrocontroller-System."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - mikrocontroller-und-atmega
-  - sleep-modus-und-energieverbrauch
-  - ueberblick
-learningGoals:
-  - "Du erklärst die Grundidee des Themas in eigenen Worten."
-  - "Du ordnest typische Begriffe, Grenzen und Fehlerquellen ruhig ein."
-  - "Du erkennst, welche Detailfragen zu diesem Themenbereich gehören."
-practiceIdeas:
-  - "Skizziere den Zusammenhang als Prüf-, Signal- oder Strompfad."
-  - "Notiere eine typische Fehlannahme und formuliere eine Gegenprobe."
-commonMistakes:
-  - "Nur den Mikrocontroller zu betrachten und externe Verbraucher zu vergessen."
-  - "Sleep-Modus einzuschalten, ohne Aufwachbedingung zu planen."
-  - "Ruhestrom ohne Messbereich und Lastzustand zu vergleichen."
-keyTakeaways:
-  - "Energieverbrauch ist eine Systemeigenschaft."
-  - "Sleep-Modi sparen nur, wenn Peripherie und Aufwachlogik passen."
-  - "Messung des Ruhestroms braucht einen definierten Zustand."
-recognizeSignals:
-  - "Du brauchst zuerst Orientierung, bevor du eine konkrete Schaltung oder Aufgabe bewertest."
-  - "Ein Einzelfall wirkt plausibel, aber der allgemeine fachliche Rahmen fehlt."
-selfCheckPoints:
-  - "Kann ich das Thema ohne reines Auswendiglernen erklären?"
-  - "Kann ich typische Fehlerquellen in einer sinnvollen Prüfreihenfolge nennen?"
-level: einfach
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - sleep
-  - energie
+topicPath: ["mikrocontroller-und-atmega", "sleep-modus-und-energieverbrauch", "ueberblick", "grundlagen-sleep-modus-und-energieverbrauch"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-
 ![Sleep-Modus und Energieverbrauch](/schlaufuchs-platform/images/overviews/v182/sleep-modus-und-energieverbrauch.svg)
 
 ## Überblick

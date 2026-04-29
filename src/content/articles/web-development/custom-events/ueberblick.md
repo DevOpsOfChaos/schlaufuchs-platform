@@ -1,36 +1,19 @@
 ---
 title: "Custom Events"
 description: "Custom Events sind selbst definierte Browserereignisse, mit denen Komponenten oder Skripte Informationen entkoppelt austauschen können."
-subject: web-development
+subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "custom-events"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Custom Events als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["custom-events", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft werden Custom Events ohne Namenskonvention verwendet, wodurch Herkunft und Bedeutung unklar werden."
-keyTakeaways:
-  - "Custom Events sind selbst definierte Browserereignisse, mit denen Komponenten oder Skripte Informationen entkoppelt austauschen können."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Custom Events, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Custom Events in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "web"
-  - "javascript"
-  - "events"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 # Custom Events
 
 Custom Events sind selbst definierte Browserereignisse, mit denen Komponenten oder Skripte

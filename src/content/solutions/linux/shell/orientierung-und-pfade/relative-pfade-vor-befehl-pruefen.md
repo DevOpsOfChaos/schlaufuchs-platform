@@ -3,21 +3,12 @@ title: "Lösung – Relative Pfade vor Befehl prüfen"
 description: "Musterlösung zu relative pfade vor befehl prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "orientierung-und-pfade"
-  - "relative-pfade-vor-befehl-pruefen"
+topicPath: ["shell", "orientierung-und-pfade", "relative-pfade-vor-befehl-pruefen"]
 taskId: "v112-linux-relative-pfade-vor-befehl-pruefen"
 relatedExercise: "linux/shell/orientierung-und-pfade/relative-pfade-vor-befehl-pruefen"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "relative-pfade-vor-befehl-pruefen"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Orientierung und Pfade**.

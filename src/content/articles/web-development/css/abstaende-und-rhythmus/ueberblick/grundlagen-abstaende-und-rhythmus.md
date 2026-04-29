@@ -1,39 +1,19 @@
 ---
 title: "Grundlagen: Abstände und visueller Rhythmus"
 description: "Ein allgemeiner Überblick darüber, wie Abstände Webseiten lesbarer und ruhiger machen."
-subject: web-development
+subject: "web-development"
 section: "CSS"
-topicPath:
-  - css
-  - abstaende-und-rhythmus
-  - ueberblick
-learningGoals:
-  - "Du kennst die Grundbegriffe dieses Themenbereichs."
-  - "Du kannst typische Situationen grob einordnen, bevor du Detailseiten liest."
-  - "Du erkennst, welche Nachbarseiten für Vertiefung oder Übungen passen."
-practiceIdeas:
-  - "Lies zuerst diese Überblicksseite und danach eine konkrete Lernsituation aus dem gleichen Unterthema."
-  - "Notiere die wichtigsten Begriffe und prüfe, welche davon in den Detailseiten wieder auftauchen."
-commonMistakes:
-  - "Direkt mit Sonderfällen zu beginnen, ohne die Grundbegriffe zu klären."
-  - "Ein einzelnes Beispiel für die ganze Themenlogik zu halten."
-keyTakeaways:
-  - "Gute Abstände sind unsichtbare Führung. Sie machen Inhalte verständlicher, ohne selbst im Mittelpunkt zu stehen."
-recognizeSignals:
-  - "Du suchst eine allgemeine Einordnung, bevor du Aufgaben oder Spezialfälle bearbeitest."
-  - "Mehrere Detailseiten wirken ähnlich, aber dir fehlt der gemeinsame Rahmen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten beschreiben?"
-  - "Kann ich Grundidee, typische Begriffe und Grenzen auseinanderhalten?"
-level: einfach
-tags:
-  - "web-development"
-  - "css"
-  - "abstände"
-  - "layout"
+topicPath: ["css", "abstaende-und-rhythmus", "ueberblick", "grundlagen-abstaende-und-rhythmus"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Überblick
 
 Abstände gehören zu den wichtigsten Gestaltungsmitteln im Webdesign. Sie trennen Inhalte, gruppieren zusammengehörige Elemente und führen den Blick. Ohne klare Abstände wirkt eine Seite schnell unruhig oder überfüllt.

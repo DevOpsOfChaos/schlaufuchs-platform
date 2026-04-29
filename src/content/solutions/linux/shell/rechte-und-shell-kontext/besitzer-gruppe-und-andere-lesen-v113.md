@@ -3,20 +3,12 @@ title: "Lösung – Besitzer, Gruppe und Andere lesen"
 description: "Musterlösung zu Besitzer, Gruppe und Andere lesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "rechte-und-shell-kontext"
-  - "besitzer-gruppe-und-andere-lesen-v113"
+topicPath: ["shell", "rechte-und-shell-kontext", "besitzer-gruppe-und-andere-lesen-v113"]
 taskId: "v113-linux-besitzer-gruppe-und-andere-lesen-v113"
 relatedExercise: "linux/shell/rechte-und-shell-kontext/besitzer-gruppe-und-andere-lesen-v113"
-tags:
-  - "linux"
-  - "strukturcheck"
-  - "unterthema"
-  - "besitzer-gruppe-und-andere-lesen-v113"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Besitzer, Gruppe und Andere lesen**.

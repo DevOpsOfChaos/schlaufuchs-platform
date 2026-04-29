@@ -3,22 +3,12 @@ title: "Lösung: Timeout oder Abbruch einplanen"
 description: "Musterlösung zur Aufgabe „Timeout oder Abbruch einplanen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "javascript-interaktion"
-  - "async-und-fehlerfluss"
-  - "timeout-oder-abbruch-einplanen-v116"
+topicPath: ["javascript-interaktion", "async-und-fehlerfluss", "timeout-oder-abbruch-einplanen-v116"]
 taskId: "timeout-oder-abbruch-einplanen-v116"
 relatedExercise: "web-development/javascript-interaktion/async-und-fehlerfluss/timeout-oder-abbruch-einplanen-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "async und fehlerfluss"
-  - "timeout oder abbruch einplanen"
-  - "v116"
+tags: ["web-development", "Web Development vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

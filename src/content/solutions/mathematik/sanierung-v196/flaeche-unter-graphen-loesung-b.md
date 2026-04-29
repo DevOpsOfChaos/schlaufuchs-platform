@@ -1,15 +1,14 @@
 ---
-title: Fläche unter Graphen – Lösung B
-description: Musterlösung zu Fläche unter Graphen mit Kontrolle.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Fläche unter Graphen – Lösung B"
+description: "Musterlösung zu Fläche unter Graphen mit Kontrolle."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "analysis-vorbereitung", "flaeche-unter-graphen"]
 taskId: "mat-v196-flaeche-unter-graphen-b"
 relatedExercise: "mathematik/sanierung-v196/flaeche-unter-graphen-aufgabe-b"
 tags: ["mathematik", "v196", "analysis-vorbereitung", "flaeche-unter-graphen"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine passende Lösung zu dieser Aufgabe muss nicht exakt dieselben Zahlen oder Beispiele verwenden. Entscheidend ist der saubere Aufbau.

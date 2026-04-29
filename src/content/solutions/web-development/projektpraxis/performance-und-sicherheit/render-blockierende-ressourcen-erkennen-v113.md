@@ -3,20 +3,12 @@ title: "Lösung – Render-blockierende Ressourcen erkennen"
 description: "Musterlösung zu Render-blockierende Ressourcen erkennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "projektpraxis"
-  - "performance-und-sicherheit"
-  - "render-blockierende-ressourcen-erkennen-v113"
+topicPath: ["projektpraxis", "performance-und-sicherheit", "render-blockierende-ressourcen-erkennen-v113"]
 taskId: "v113-web-development-render-blockierende-ressourcen-erkennen-v113"
 relatedExercise: "web-development/projektpraxis/performance-und-sicherheit/render-blockierende-ressourcen-erkennen-v113"
-tags:
-  - "web development"
-  - "strukturcheck"
-  - "unterthema"
-  - "render-blockierende-ressourcen-erkennen-v113"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Render-blockierende Ressourcen erkennen**.

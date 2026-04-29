@@ -1,24 +1,14 @@
 ---
-title: Musterlösung – ADC-Messstrategie ruhig einordnen
-description: Musterlösung zur Aufgabe ET-ATMEGA-ADC-302.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - adc-und-analogwerte
-  - atmega-adc-einzelmessung-und-free-running-unterscheiden
-  - adc-messstrategie-ruhig-einordnen-loesung
-taskId: ET-ATMEGA-ADC-302
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-adc-einzelmessung-und-free-running-unterscheiden/adc-messstrategie-ruhig-einordnen.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - adc
-  - loesung
+title: "Musterlösung – ADC-Messstrategie ruhig einordnen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-ADC-302."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-adc-einzelmessung-und-free-running-unterscheiden", "adc-messstrategie-ruhig-einordnen"]
+taskId: "ET-ATMEGA-ADC-302"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-adc-einzelmessung-und-free-running-unterscheiden/adc-messstrategie-ruhig-einordnen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Die Spannungsmessung auf Tastendruck passt ruhiger zur **Einzelmessung**, weil nur bei einem klaren Anlass ein einzelner Wert gebraucht wird. Die laufende Lüfterregelung passt dagegen zu **Free-Running**, weil fortlaufend neue Werte sinnvoll sind. Beide Fälle messen Analogwerte, aber nicht mit derselben Messidee.

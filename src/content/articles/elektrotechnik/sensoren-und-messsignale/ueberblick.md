@@ -1,31 +1,17 @@
 ---
 title: "Sensoren und Messsignale"
 description: "Allgemeiner Überblick über Sensoren, elektrische Ausgangssignale und die Weiterverarbeitung von Messgrößen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mess- und Sensortechnik"
-topicPath:
-  - "sensoren-und-messsignale"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Sensoren und Messsignale grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["sensoren-und-messsignale", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Sensoren und Messsignale nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Sensoren und Messsignale beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Sensoren und Messsignale, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Sensoren und Messsignale in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "sensoren"
-  - "messsignale"
-  - "mikrocontroller"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mess- und Sensortechnik"]
 draft: false
 ---
 # Sensoren und Messsignale

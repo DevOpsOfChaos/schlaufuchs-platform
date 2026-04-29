@@ -1,33 +1,19 @@
 ---
 title: "GPG-Grundlagen"
 description: "GPG nutzt kryptographische Schlüssel zum Signieren und Verschlüsseln. Es wird für Pakete, Commits, Dateien und Kommunikation verwendet."
-subject: linux
+subject: "linux"
 section: "Linux"
-topicPath:
-  - "gpg-grundlagen"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von GPG-Grundlagen."
-  - "Du kannst GPG-Grundlagen in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["gpg-grundlagen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Private Schlüssel wie normale Dateien zu behandeln."
-keyTakeaways:
-  - "GPG nutzt kryptographische Schlüssel zum Signieren und Verschlüsseln."
-  - "Wichtig sind vor allem öffentliche und private schlüssel, signatur und verschlüsselung und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um GPG-Grundlagen, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu GPG-Grundlagen dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "linux"
-  - "grundlagen"
-  - "gpg grundlagen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Linux"]
 draft: false
 ---
-
 # GPG-Grundlagen
 
 GPG nutzt kryptographische Schlüssel zum Signieren und Verschlüsseln. Es wird für Pakete, Commits, Dateien und Kommunikation verwendet. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

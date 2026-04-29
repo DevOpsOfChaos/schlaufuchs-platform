@@ -1,33 +1,17 @@
 ---
 title: "Migrationsstrategie"
 description: "Überblick über Strategien, Datenmodelle und Datenbestände kontrolliert zu verändern."
-subject: informatik
+subject: "informatik"
 section: "Datenbanken"
-topicPath:
-  - "migrationsstrategie"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Migrationsstrategie als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["migrationsstrategie", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Eine Migration ist nicht nur ein SQL-Skript. Sie betrifft laufende Anwendungen, Datenqualität, Versionen und Wiederholbarkeit."
-keyTakeaways:
-  - "Eine Migrationsstrategie sorgt dafür, dass Strukturänderungen an Datenbanken nachvollziehbar und kontrollierbar bleiben."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um migrationsstrategie, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich migrationsstrategie in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "migrationsstrategie"
-  - "überblick"
-  - "schemaänderung"
-  - "datenmigration"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Datenbanken"]
 draft: false
 ---
 # Migrationsstrategie

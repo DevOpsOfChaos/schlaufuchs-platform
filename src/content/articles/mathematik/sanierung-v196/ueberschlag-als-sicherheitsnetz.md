@@ -1,20 +1,19 @@
 ---
-title: Überschlag als Sicherheitsnetz
-description: Ergebnisse vorab grob erwartbar machen.
-subject: mathematik
-section: modellieren-funktionen-analysis
+title: "Überschlag als Sicherheitsnetz"
+description: "Ergebnisse vorab grob erwartbar machen."
+subject: "mathematik"
+section: "modellieren-funktionen-analysis"
 topicPath: ["modellieren-und-pruefen", "rechenstrategien-und-kontrolle", "ueberschlag-als-sicherheitsnetz"]
-learningGoals: ["Ergebnisse vorab grob erwartbar machen", "Zwischenschritte begründen", "Ergebnis im Kontext kontrollieren"]
-practiceIdeas: ["Formuliere ein eigenes Beispiel zu Überschlag als Sicherheitsnetz.", "Markiere Frage, Daten und Kontrolle getrennt.", "Vergleiche zwei mögliche Lösungswege."]
-commonMistakes: ["Zu früh rechnen", "Einheiten oder Bedingungen weglassen", "Das Ergebnis nicht rückprüfen"]
-keyTakeaways: ["Überschlag als Sicherheitsnetz beginnt mit einer klaren Frage und nicht sofort mit Rechnen.", "Der Themenblock rechenstrategien und kontrolle braucht sichtbare Zwischenschritte.", "Ein Ergebnis ist erst belastbar, wenn es im Kontext geprüft wurde."]
-recognizeSignals: ["Die Aufgabe enthält mehrere Angaben.", "Eine Darstellung muss gedeutet werden.", "Das Ergebnis braucht eine Plausibilitätsprüfung."]
-selfCheckPoints: ["Ist die Frage klar?", "Sind Einheiten und Bedingungen sichtbar?", "Passt das Ergebnis zur Situation?"]
-level: einfach
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
 tags: ["mathematik", "v196", "rechenstrategien-und-kontrolle", "ueberschlag-als-sicherheitsnetz"]
 draft: false
 ---
-
 ![Überschlag als Sicherheitsnetz](/schlaufuchs-platform/images/mathematik/sanierung-v196/ueberschlag-als-sicherheitsnetz.svg)
 
 ## Worum es geht

@@ -3,23 +3,12 @@ title: "Lösung – Rekursion über Basisfall und Verkleinerung prüfen"
 description: "Musterlösung zu Rekursionsbasis mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "informatik"
 section: "Programmierung"
-topicPath:
-  - "programmieren"
-  - "rekursion-und-abbruch"
-  - "basisfall"
-  - "rekursion-ueber-basisfall-und-verkleinerung-pruefen"
+topicPath: ["programmieren", "rekursion-und-abbruch", "basisfall", "rekursion-ueber-basisfall-und-verkleinerung-pruefen"]
 taskId: "v108-informatik-rekursion-ueber-basisfall-und-verkleinerung-pruefen"
 relatedExercise: "informatik/programmieren/rekursion-und-abbruch/basisfall/rekursion-ueber-basisfall-und-verkleinerung-pruefen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "debugging"
-  - "programmieren"
-  - "rekursion-und-abbruch"
-  - "rekursionsbasis"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **Rekursionsbasis**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

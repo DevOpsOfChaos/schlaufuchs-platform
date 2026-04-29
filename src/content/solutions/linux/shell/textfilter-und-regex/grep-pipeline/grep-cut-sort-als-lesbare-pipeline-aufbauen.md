@@ -3,22 +3,12 @@ title: "Lösung – grep, cut und sort als lesbare Pipeline aufbauen"
 description: "Musterlösung zu Pipeline-Aufbau mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "Shell"
-topicPath:
-  - "shell"
-  - "textfilter-und-regex"
-  - "grep-pipeline"
-  - "grep-cut-sort-als-lesbare-pipeline-aufbauen"
+topicPath: ["shell", "textfilter-und-regex", "grep-pipeline", "grep-cut-sort-als-lesbare-pipeline-aufbauen"]
 taskId: "v107-linux-grep-cut-sort-als-lesbare-pipeline-aufbauen"
 relatedExercise: "linux/shell/textfilter-und-regex/grep-pipeline/grep-cut-sort-als-lesbare-pipeline-aufbauen"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "pipeline-aufbau"
-  - "textfilter-und-regex"
+tags: ["linux", "Shell", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Pipeline-Aufbau**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

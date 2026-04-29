@@ -3,23 +3,12 @@ title: "Lösung – Spannungsteiler unter Last erkennen"
 description: "Musterlösung zu Spannungsteiler unter Last erkennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Grundschaltungen"
-topicPath:
-  - "grundschaltungen"
-  - "spannung-strom-widerstand"
-  - "v110-teil-1"
-  - "spannungsteiler-unter-last-erkennen"
+topicPath: ["grundschaltungen", "spannung-strom-widerstand", "v110-teil-1", "spannungsteiler-unter-last-erkennen"]
 taskId: "v110-elektrotechnik-spannungsteiler-unter-last-erkennen"
 relatedExercise: "elektrotechnik/grundschaltungen/spannung-strom-widerstand/v110-teil-1/spannungsteiler-unter-last-erkennen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "grundschaltungen"
-  - "spannung-strom-widerstand"
-  - "spannungsteiler-unter-last-erkennen"
+tags: ["elektrotechnik", "Grundschaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Spannungsteiler unter Last erkennen**.

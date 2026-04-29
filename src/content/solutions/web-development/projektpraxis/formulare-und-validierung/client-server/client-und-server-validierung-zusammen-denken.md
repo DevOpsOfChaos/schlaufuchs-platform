@@ -3,23 +3,12 @@ title: "Lösung – Client- und Servervalidierung zusammen denken"
 description: "Musterlösung zu Validierungsschichten mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "formulare-und-validierung"
-  - "client-server"
-  - "client-und-server-validierung-zusammen-denken"
+topicPath: ["projektpraxis", "formulare-und-validierung", "client-server", "client-und-server-validierung-zusammen-denken"]
 taskId: "v108-web-development-client-und-server-validierung-zusammen-denken"
 relatedExercise: "web-development/projektpraxis/formulare-und-validierung/client-server/client-und-server-validierung-zusammen-denken"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "projektpraxis"
-  - "formulare-und-validierung"
-  - "validierungsschichten"
+tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **Validierungsschichten**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

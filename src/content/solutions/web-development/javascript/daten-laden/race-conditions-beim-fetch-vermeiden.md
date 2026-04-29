@@ -3,22 +3,12 @@ title: "Lösung – Race Conditions beim Fetch vermeiden"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Development-Aufgabe."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "daten-laden"
-  - "race-conditions-beim-fetch-vermeiden"
-tags:
-  - "web development"
-  - "javascript"
-  - "fetch"
-  - "race condition"
-  - "ux"
-  - "lösung"
+topicPath: ["javascript", "daten-laden", "race-conditions-beim-fetch-vermeiden"]
 taskId: "web-v104-race-conditions-beim-fetch-vermeiden"
 relatedExercise: "web-development/javascript/daten-laden/race-conditions-beim-fetch-vermeiden"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Eine gute Lösung beginnt mit der Nutzer-Situation. Das Problem ist nicht nur technisch, sondern zeigt sich daran, dass eine Person nicht sicher erkennt, was gerade passiert oder wie sie weitermachen kann.

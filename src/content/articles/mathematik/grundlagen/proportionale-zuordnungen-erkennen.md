@@ -1,44 +1,19 @@
 ---
-title: Proportionale Zuordnungen erkennen
-description: Verstehe, wann zwei Größen im gleichen Verhältnis zusammenhängen und woran du das sicher erkennst.
-subject: mathematik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - proportionale-zuordnungen-erkennen
-learningGoals:
-  - Du erklärst die Grundidee einer proportionalen Zuordnung.
-  - Du erkennst proportionale Zusammenhänge in Tabellen und Alltagssituationen.
-  - Du unterscheidest proportionale und nicht proportionale Beispiele sauber.
-practiceIdeas:
-  - Prüfe bei einer Tabelle, ob sich der Quotient aus den beiden Größen gleich verhält.
-  - Vergleiche zwei Alltagssituationen darauf, ob eine Größe direkt mit der anderen mitwächst.
-  - Formuliere einen proportionalen Zusammenhang als „je ... desto ... im gleichen Verhältnis“.
-commonMistakes:
-  - Jeden wachsenden Zusammenhang automatisch proportional zu nennen.
-  - Nur auf größere Zahlen zu schauen, ohne das Verhältnis zu prüfen.
-  - Eine Startgebühr oder einen festen Zusatz zu übersehen.
-keyTakeaways:
-  - "Proportional heißt: gleiche Veränderung im gleichen Verhältnis."
-  - Bei proportionalen Zuordnungen bleibt der Quotient konstant.
-  - Nicht jeder lineare Zusammenhang ist proportional.
-recognizeSignals:
-  - Es geht um Zuordnungen, Tabellen, Stückpreise oder gleichmäßige Vergrößerung.
-  - Du sollst prüfen, ob ein Verhältnis gleich bleibt.
-  - In Beispielen musst du zwischen direkt proportional und nur allgemein ansteigend unterscheiden.
-selfCheckPoints:
-  - Kann ich erklären, was bei proportionalen Zuordnungen gleich bleibt?
-  - Kann ich eine Tabelle auf Proportionalität prüfen?
-  - Kann ich ein Gegenbeispiel nennen, das nicht proportional ist?
-tags:
-  - proportionalitaet
-  - zuordnung
-  - verhältnis
-  - grundlagen
-level: einfach
+title: "Proportionale Zuordnungen erkennen"
+description: "Verstehe, wann zwei Größen im gleichen Verhältnis zusammenhängen und woran du das sicher erkennst."
+subject: "mathematik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "proportionale-zuordnungen-erkennen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Grundlagen"]
 draft: false
 ---
-
 ## Grundidee
 
 Von einer proportionalen Zuordnung spricht man, wenn zwei Größen **im gleichen Verhältnis** zusammenhängen. Wird die eine Größe verdoppelt, verdoppelt sich auch die andere. Wird sie halbiert, halbiert sich ebenfalls die andere.

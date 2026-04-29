@@ -1,44 +1,19 @@
 ---
-title: Mittelwert, Median und Spannweite
-description: Verstehe drei wichtige Kennwerte und warum sie unterschiedliche Aussagen über dieselben Daten liefern können.
-subject: mathematik
-section: Daten und Zufall
-topicPath:
-  - daten-und-zufall
-  - mittelwert-median-und-spannweite
-tags:
-  - mittelwert
-  - median
-  - spannweite
-  - daten
-learningGoals:
-  - "Du unterscheidest Mittelwert, Median und Spannweite."
-  - "Du erklärst, was jeder Kennwert über einen Datensatz aussagt."
-  - "Du erkennst, warum Ausreißer die Kennwerte unterschiedlich beeinflussen."
-practiceIdeas:
-  - "Berechne zu einem kleinen Datensatz alle drei Kennwerte."
-  - "Vergleiche zwei Datensätze nicht nur nach dem Mittelwert."
-  - "Prüfe bewusst, wie ein Ausreißer die Aussage verändert."
-commonMistakes:
-  - "Mittelwert und Median gleichzusetzen."
-  - "Die Spannweite als typischen Wert statt als Streuungsmaß zu lesen."
-  - "Ausreißer zu übersehen."
-keyTakeaways:
-  - "Mittelwert, Median und Spannweite beschreiben verschiedene Aspekte von Daten."
-  - "Der Median ist oft robuster gegenüber Ausreißern als der Mittelwert."
-  - "Die Spannweite zeigt, wie weit Werte auseinanderliegen."
-recognizeSignals:
-  - "Es geht um Kennwerte, Datenreihen, Ausreißer oder Vergleiche von Datensätzen."
-  - "Du sollst nicht nur rechnen, sondern die Kennwerte deuten."
-  - "Ein Beispiel fragt danach, welcher Kennwert hier aussagekräftiger ist."
-selfCheckPoints:
-  - "Kann ich alle drei Kennwerte in eigenen Worten erklären?"
-  - "Kann ich erkennen, wann ein Ausreißer die Aussage verändert?"
-  - "Kann ich begründen, welcher Kennwert in einem Beispiel besonders sinnvoll ist?"
-level: einfach
+title: "Mittelwert, Median und Spannweite"
+description: "Verstehe drei wichtige Kennwerte und warum sie unterschiedliche Aussagen über dieselben Daten liefern können."
+subject: "mathematik"
+section: "Daten und Zufall"
+topicPath: ["daten-und-zufall", "mittelwert-median-und-spannweite"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Daten und Zufall"]
 draft: false
 ---
-
 ## Warum dieses Thema wichtig ist
 
 Ein einzelner Datensatz lässt sich auf verschiedene Arten zusammenfassen. Gerade deshalb ist es wichtig zu verstehen, dass verschiedene Kennwerte auch **verschiedene Fragen** beantworten.

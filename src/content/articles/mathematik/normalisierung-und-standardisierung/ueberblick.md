@@ -1,36 +1,19 @@
 ---
 title: "Normalisierung und Standardisierung"
 description: "Normalisierung und Standardisierung verändern Skalen von Daten, damit Werte vergleichbarer oder für Modelle geeigneter werden."
-subject: mathematik
+subject: "mathematik"
 section: "Daten"
-topicPath:
-  - "normalisierung-und-standardisierung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Normalisierung und Standardisierung als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["normalisierung-und-standardisierung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird Normalisierung als Datenbereinigung verstanden, obwohl Ausreißer und Messfehler getrennt betrachtet werden müssen."
-keyTakeaways:
-  - "Normalisierung und Standardisierung verändern Skalen von Daten, damit Werte vergleichbarer oder für Modelle geeigneter werden."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Normalisierung und Standardisierung, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Normalisierung und Standardisierung in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "daten"
-  - "skalierung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Daten"]
 draft: false
 ---
-
 # Normalisierung und Standardisierung
 
 Normalisierung und Standardisierung verändern Skalen von Daten, damit Werte vergleichbarer oder

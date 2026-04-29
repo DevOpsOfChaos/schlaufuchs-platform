@@ -1,44 +1,19 @@
 ---
-title: Strombudget von Mikrocontroller-Schaltungen grob abschätzen
-description: Verstehe, wie man die Stromaufnahme einer kleinen Mikrocontroller-Schaltung überschlägt, statt nur auf Einzelbauteile zu schauen.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - strombudget-von-mikrocontroller-schaltungen-grob-abschaetzen
-learningGoals:
-  - Du beschreibst Stromaufnahme als Summe mehrerer Verbraucher in einer Schaltung.
-  - Du trennst Pin-Strom, Gesamtstrom und Reserven des Netzteils oder Reglers.
-  - Du liest kleine Schaltungen ruhiger über grobe Lastabschätzung statt über Einzelgefühle.
-practiceIdeas:
-  - Schätze bei einer kleinen Schaltung LED, Sensor, Funkmodul und Mikrocontroller grob zusammen.
-  - Trenne Dauerlast und kurzzeitige Lastspitzen.
-  - Begründe, warum ein USB-Port oder Spannungsregler nicht nur „irgendwie Strom liefert“.
-commonMistakes:
-  - Nur den Mikrocontroller selbst zu betrachten, aber nicht die Peripherie.
-  - Einzelgrenzen pro Pin mit Gesamtgrenzen der Versorgung zu verwechseln.
-  - Zu knapp zu dimensionieren, weil eine Schaltung „im Mittel“ schon passen werde.
-keyTakeaways:
-  - Ein Strombudget ist eine grobe, aber sehr hilfreiche Sicherheitsabschätzung.
-  - Pin-Grenzen, Schaltungs-Gesamtstrom und Versorgungsreserve sind verschiedene Ebenen.
-  - Schon eine einfache Überschlagsrechnung verhindert viele Aufbaufehler.
-recognizeSignals:
-  - Es geht um Netzteil, Spannungsregler, USB-Versorgung oder Gesamtstrom.
-  - Mehrere Verbraucher hängen an derselben Schaltung.
-  - Eine Schaltung wird warm, instabil oder fällt beim Zuschalten weiterer Lasten aus.
-selfCheckPoints:
-  - Kann ich die technische Hauptfrage dieser Schaltung ruhig benennen?
-  - Kann ich Ursache, Wirkung und Schutz- oder Hilfsmaßnahme sauber trennen?
-  - Kann ich das Thema auf einen ähnlichen Mikrocontroller-Fall übertragen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - embedded
-level: mittel
+title: "Strombudget von Mikrocontroller-Schaltungen grob abschätzen"
+description: "Verstehe, wie man die Stromaufnahme einer kleinen Mikrocontroller-Schaltung überschlägt, statt nur auf Einzelbauteile zu schauen."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "strombudget-von-mikrocontroller-schaltungen-grob-abschaetzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller"]
 draft: false
 ---
-
 ## Grundidee
 
 Viele Mikrocontroller-Schaltungen scheitern nicht an einem komplizierten Algorithmus, sondern an einer zu knapp gedachten Versorgung. Ein grobes Strombudget hilft, Schaltungen früh ruhiger zu planen.

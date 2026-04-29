@@ -3,20 +3,12 @@ title: "Lösung – Abstand im Koordinatensystem prüfen"
 description: "Musterlösung zu Abstand im Koordinatensystem prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "geometrie"
-  - "koordinaten"
-  - "abstand-im-koordinatensystem-pruefen-v113"
+topicPath: ["geometrie", "koordinaten", "abstand-im-koordinatensystem-pruefen-v113"]
 taskId: "v113-mathematik-abstand-im-koordinatensystem-pruefen-v113"
 relatedExercise: "mathematik/geometrie/koordinaten/abstand-im-koordinatensystem-pruefen-v113"
-tags:
-  - "mathematik"
-  - "strukturcheck"
-  - "unterthema"
-  - "abstand-im-koordinatensystem-pruefen-v113"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Abstand im Koordinatensystem prüfen**.

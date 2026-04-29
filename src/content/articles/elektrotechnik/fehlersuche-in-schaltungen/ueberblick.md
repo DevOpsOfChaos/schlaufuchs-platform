@@ -1,33 +1,17 @@
 ---
 title: "Fehlersuche in Schaltungen"
 description: "Überblick über systematische Fehlersuche in elektronischen Schaltungen vom Symptom über Hypothesen bis zur Messung."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Fehlersuche"
-topicPath:
-  - "fehlersuche-in-schaltungen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Fehlersuche in Schaltungen als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["fehlersuche-in-schaltungen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein typisches Missverständnis ist, sofort das verdächtigste Bauteil auszutauschen. Häufiger ist zuerst zu klären, ob Versorgung, Masse, Eingang und Ausgang überhaupt plausibel sind."
-keyTakeaways:
-  - "Fehlersuche ist kein zufälliges Herumprobieren. Sie verbindet beobachtete Symptome mit prüfbaren Hypothesen und gezielten Messungen."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um fehlersuche in schaltungen, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich fehlersuche in schaltungen in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "fehlersuche in schaltungen"
-  - "überblick"
-  - "symptomabgrenzung"
-  - "signalpfad"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Fehlersuche"]
 draft: false
 ---
 # Fehlersuche in Schaltungen

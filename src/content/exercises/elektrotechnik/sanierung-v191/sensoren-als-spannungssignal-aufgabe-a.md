@@ -3,36 +3,15 @@ title: "Sensoren als Spannungssignal: Aufgabe A"
 description: "Beschreibe, wie ein Temperatursensor als Spannungssignal ausgewertet wird."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "sensorik"
-  - "sensoren-als-spannungssignal"
-  - "aufgabe-a"
+topicPath: ["sanierung-v191", "sensoren-als-spannungssignal-aufgabe-a"]
 taskId: "etech-v191-016a"
-tags:
-  - "sensorik"
-  - "sensoren"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "aufgabe"
-  - "v191"
-hintPoints:
-  - "Trenne Schaltplan, realen Aufbau und Messpunkt."
-  - "Nenne mindestens eine Einheit oder einen Grenzwert."
-  - "Formuliere einen passenden Fehlerfall."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Sensoren als Spannungssignal."
-  - "Messrichtung, Anschluss oder Bauteilrolle sind nachvollziehbar."
-  - "Die Lösung bleibt ohne Spezialgerät verständlich."
-transferIdeas:
-  - "Übertrage die Idee auf eine zweite kleine Schaltung."
-  - "Erstelle eine Mini-Checkliste für die Messung."
-reflectionPrompt: "Welcher Prüfschritt verhindert hier den wahrscheinlichsten Fehler?"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Beschreibe, wie ein Temperatursensor als Spannungssignal ausgewertet wird.

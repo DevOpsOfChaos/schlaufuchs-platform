@@ -1,12 +1,17 @@
 ---
-title: HTML-Struktur und Semantik anwenden
-description: Diese Aufgabe vertieft den sinnvollen Einsatz semantischer HTML-Elemente und einer sauberen Dokumentstruktur.
-subject: web-development
-section: Grundlagen
-level: einfach
+title: "HTML-Struktur und Semantik anwenden"
+description: "Diese Aufgabe vertieft den sinnvollen Einsatz semantischer HTML-Elemente und einer sauberen Dokumentstruktur."
+subject: "web-development"
+section: "Grundlagen"
+topicPath: ["grundlagen", "html-struktur-und-semantik-anwenden"]
+taskId: "AUTO-HTML-STRUKTUR-UND-SEMANTIK-ANWENDEN"
+tags: ["web-development", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben mit Blick auf Bedeutung und Struktur. Es geht nicht um Gestaltung, sondern um sauberes HTML.

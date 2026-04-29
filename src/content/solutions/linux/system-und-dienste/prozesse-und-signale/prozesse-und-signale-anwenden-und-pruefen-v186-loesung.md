@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Prozesse und Signale – anwenden und prüfen"
 description: "Musterlösung zur Linux-Aufgabe Prozesse und Signale."
-subject: linux
+subject: "linux"
 section: "system-und-dienste"
-topicPath:
-  - "system-und-dienste"
-  - "prozesse-und-signale"
-taskId: LINUX-PROZESSE-UND-SIGNALE-V186-2
-relatedExercise: src/content/exercises/linux/system-und-dienste/prozesse-und-signale/prozesse-und-signale-anwenden-und-pruefen-v186.md
-tags:
-  - "linux"
-  - "prozesse"
-  - "signale"
-  - "loesung"
+topicPath: ["system-und-dienste", "prozesse-und-signale", "prozesse-und-signale-anwenden-und-pruefen-v186"]
+taskId: "LINUX-PROZESSE-UND-SIGNALE-V186-2"
+relatedExercise: "src/content/exercises/linux/system-und-dienste/prozesse-und-signale/prozesse-und-signale-anwenden-und-pruefen-v186.md"
+tags: ["linux", "system-und-dienste", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

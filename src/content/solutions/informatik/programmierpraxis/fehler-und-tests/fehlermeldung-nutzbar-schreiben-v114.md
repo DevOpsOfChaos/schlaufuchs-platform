@@ -1,23 +1,14 @@
 ---
-title: Lösung – Fehlermeldung nutzbar schreiben
-description: Musterlösung zur Aufgabe über Fehlermeldung nutzbar schreiben.
-subject: informatik
-section: Feinstruktur Informatik
-topicPath:
-- programmierpraxis
-- fehler-und-tests
-- fehlermeldung-nutzbar-schreiben-v114
-taskId: v114-informatik-fehlermeldung-nutzbar-schreiben-v114
-relatedExercise: informatik/programmierpraxis/fehler-und-tests/fehlermeldung-nutzbar-schreiben-v114
-tags:
-- informatik
-- v114
-- loesung
-- programmierpraxis
-- fehler-und-tests
+title: "Lösung – Fehlermeldung nutzbar schreiben"
+description: "Musterlösung zur Aufgabe über Fehlermeldung nutzbar schreiben."
+subject: "informatik"
+section: "Feinstruktur Informatik"
+topicPath: ["programmierpraxis", "fehler-und-tests", "fehlermeldung-nutzbar-schreiben-v114"]
+taskId: "v114-informatik-fehlermeldung-nutzbar-schreiben-v114"
+relatedExercise: "informatik/programmierpraxis/fehler-und-tests/fehlermeldung-nutzbar-schreiben-v114"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

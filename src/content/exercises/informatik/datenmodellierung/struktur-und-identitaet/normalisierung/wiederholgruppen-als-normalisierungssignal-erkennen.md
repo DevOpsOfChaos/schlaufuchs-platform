@@ -3,35 +3,15 @@ title: "Aufgabe – Wiederholgruppen als Normalisierungssignal erkennen"
 description: "Übe Wiederholgruppen mit Szenario, Trennkante und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenmodellierung"
-  - "struktur-und-identitaet"
-  - "normalisierung"
-  - "wiederholgruppen-als-normalisierungssignal-erkennen"
+topicPath: ["datenmodellierung", "struktur-und-identitaet", "normalisierung", "wiederholgruppen-als-normalisierungssignal-erkennen"]
 taskId: "v111-informatik-wiederholgruppen-als-normalisierungssignal-erkennen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "unterthema"
-  - "datenmodellierung"
-  - "struktur-und-identitaet"
-  - "wiederholgruppen-als-normalisierungssignal-erkennen"
-hintPoints:
-  - "Benenne zuerst das genaue Unterthema."
-  - "Schreibe die typische Verwechslung ausdrücklich auf."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Lösung enger als ein breites Kapitel?"
-  - "Wird ein Nachbarthema sauber ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Formuliere eine zweite Aufgabe im gleichen Unterthema mit anderer Oberfläche."
-reflectionPrompt: "Welche kleine Trennkante macht Wiederholgruppen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["informatik", "Feinstruktur Informatik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Wiederholgruppen**.

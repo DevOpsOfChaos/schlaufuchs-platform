@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Setup und Hauptschleife am AVR trennen
-description: Musterlösung zur Aufgabe ET-ATMEGA-CORE-301.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - programmstruktur-und-programmfluss
-  - atmega-initialisierung-und-endlosschleife-verstehen
-  - setup-und-hauptschleife-am-avr-trennen-loesung
-taskId: ET-ATMEGA-CORE-301
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-initialisierung-und-endlosschleife-verstehen/setup-und-hauptschleife-am-avr-trennen.md
-tags:
-  - elektrotechnik
-  - atmega
-  - loesung
-  - task-id
+title: "Musterlösung – Setup und Hauptschleife am AVR trennen"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-CORE-301."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-initialisierung-und-endlosschleife-verstehen", "setup-und-hauptschleife-am-avr-trennen"]
+taskId: "ET-ATMEGA-CORE-301"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-initialisierung-und-endlosschleife-verstehen/setup-und-hauptschleife-am-avr-trennen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

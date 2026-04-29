@@ -3,23 +3,12 @@ title: "Lösung: Sortieren mit Schlüssel: Aufgabe A"
 description: "Musterlösung zur Aufgabe informatik-v193-020a im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "datenstrukturen-und-algorithmen"
-  - "sortieren-mit-schluessel"
-  - "loesung-a"
+topicPath: ["sanierung-v193", "sortieren-mit-schluessel-loesung-a"]
 taskId: "informatik-v193-020a"
 relatedExercise: "informatik/sanierung-v193/sortieren-mit-schluessel-aufgabe-a"
-tags:
-  - "sortieren"
-  - "schluessel"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-020a`
 
 Ausgangsauftrag: Sortiere Mediendateien nach Datum, Größe und Name mit erklärter Priorität.

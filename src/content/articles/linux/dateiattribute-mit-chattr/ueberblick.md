@@ -1,32 +1,17 @@
 ---
 title: "Dateiattribute mit chattr"
 description: "Allgemeiner Überblick über zusätzliche Linux-Dateiattribute jenseits klassischer Rechte."
-subject: linux
+subject: "linux"
 section: "Dateisysteme"
-topicPath:
-  - "dateiattribute-mit-chattr"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Dateiattribute mit chattr als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie immutable, append-only, lsattr."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["dateiattribute-mit-chattr", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Bei Schreibproblemen nur Besitzer und Modusbits zu prüfen."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Dateiattribute mit chattr beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Erweiterte Dateieigenschaften."
-  - "Wichtige Hinweise liefern vor allem immutable, append-only, lsattr."
-recognizeSignals:
-  - "Es geht um erweiterte dateieigenschaften, immutable oder append-only."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Dateiattribute mit chattr erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "linux"
-  - "dateien"
-  - "rechte"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dateisysteme"]
 draft: false
 ---
 # Dateiattribute mit chattr

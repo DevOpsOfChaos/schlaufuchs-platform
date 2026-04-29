@@ -3,20 +3,12 @@ title: "Lösung – Event Target und Current Target trennen"
 description: "Musterlösung zu Event Target und Current Target trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "javascript"
-  - "dom-und-events"
-  - "event-target-und-current-target-trennen-v113"
+topicPath: ["javascript", "dom-und-events", "event-target-und-current-target-trennen-v113"]
 taskId: "v113-web-development-event-target-und-current-target-trennen-v113"
 relatedExercise: "web-development/javascript/dom-und-events/event-target-und-current-target-trennen-v113"
-tags:
-  - "web development"
-  - "strukturcheck"
-  - "unterthema"
-  - "event-target-und-current-target-trennen-v113"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Event Target und Current Target trennen**.

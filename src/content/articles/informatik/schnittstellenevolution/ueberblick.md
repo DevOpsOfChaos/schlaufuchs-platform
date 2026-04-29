@@ -1,33 +1,17 @@
 ---
 title: "Schnittstellenevolution"
 description: "Überblick darüber, wie APIs und Datenformate weiterentwickelt werden, ohne bestehende Nutzer unnötig zu brechen."
-subject: informatik
+subject: "informatik"
 section: "Schnittstellen"
-topicPath:
-  - "schnittstellenevolution"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Schnittstellenevolution als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["schnittstellenevolution", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Eine neue API-Version löst nicht automatisch das Kompatibilitätsproblem. Bestehende Nutzer brauchen Zeit, Dokumentation und klare Übergänge."
-keyTakeaways:
-  - "Schnittstellenevolution beschreibt die kontrollierte Veränderung einer API über die Zeit."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um schnittstellenevolution, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich schnittstellenevolution in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "schnittstellenevolution"
-  - "überblick"
-  - "rückwärtskompatibilität"
-  - "versionierung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Schnittstellen"]
 draft: false
 ---
 # Schnittstellenevolution

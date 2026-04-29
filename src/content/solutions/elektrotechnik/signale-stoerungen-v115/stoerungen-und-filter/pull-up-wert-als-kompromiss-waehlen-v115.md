@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Pull-up-Wert als Kompromiss wählen"
 description: "Musterlösung zu Pull-up-Wert als Kompromiss wählen mit Trennkante und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "signale-stoerungen-v115"
-  - "stoerungen-und-filter"
-  - "pull-up-wert-als-kompromiss-waehlen-v115"
+topicPath: ["signale-stoerungen-v115", "stoerungen-und-filter", "pull-up-wert-als-kompromiss-waehlen-v115"]
 taskId: "elektrotechnik-pull-up-wert-als-kompromiss-waehlen-v115"
 relatedExercise: "elektrotechnik/signale-stoerungen-v115/stoerungen-und-filter/pull-up-wert-als-kompromiss-waehlen-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "signale und störungen"
-  - "störungen und filter"
-  - "lösung"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Pull-up-Wert als Kompromiss wählen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

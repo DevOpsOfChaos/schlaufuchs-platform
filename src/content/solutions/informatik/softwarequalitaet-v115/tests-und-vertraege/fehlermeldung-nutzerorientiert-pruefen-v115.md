@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Fehlermeldung nutzerorientiert prüfen"
 description: "Musterlösung zu Fehlermeldung nutzerorientiert prüfen mit Trennkante und Gegenprobe."
-subject: informatik
+subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "softwarequalitaet-v115"
-  - "tests-und-vertraege"
-  - "fehlermeldung-nutzerorientiert-pruefen-v115"
+topicPath: ["softwarequalitaet-v115", "tests-und-vertraege", "fehlermeldung-nutzerorientiert-pruefen-v115"]
 taskId: "informatik-fehlermeldung-nutzerorientiert-pruefen-v115"
 relatedExercise: "informatik/softwarequalitaet-v115/tests-und-vertraege/fehlermeldung-nutzerorientiert-pruefen-v115"
-tags:
-  - "informatik"
-  - "feinstruktur"
-  - "unterthema"
-  - "softwarequalität"
-  - "tests und verträge"
-  - "lösung"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Fehlermeldung nutzerorientiert prüfen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

@@ -1,45 +1,17 @@
 ---
-title: delete und delete[] unterscheiden
-description: Verstehe, warum bei dynamisch reservierten Arrays eine andere Freigabeform nötig ist als bei einem einzelnen Objekt.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - dynamischer-speicher
-  - delete-und-delete-array-unterscheiden
-learningGoals:
-  - Du erklärst den Unterschied zwischen <code>delete</code> für ein einzelnes Objekt und <code>delete[]</code> für ein dynamisch reserviertes Array.
-  - Du liest <code>new</code>/<code>new[]</code> und die passende Freigabe als zusammengehörige Paare.
-  - Du vermeidest die typische Gleichsetzung „löschen ist immer delete“.
-practiceIdeas:
-  - Ordne kleinen Beispielen passende Freigabeformen zu.
-  - Vergleiche ein einzelnes dynamisches Objekt mit einem dynamischen Array.
-  - Formuliere zu jeder Reservierung sofort die passende Freigabe mit.
-commonMistakes:
-  - Für Arrays automatisch nur <code>delete</code> zu schreiben.
-  - Die eckigen Klammern bei Reservierung oder Freigabe zu übersehen.
-  - Einzelobjekt und Feldstruktur im Speicher gleich zu behandeln.
-keyTakeaways:
-  - <code>new T</code> gehört zu <code>delete</code>.
-  - <code>new T[n]</code> gehört zu <code>delete[]</code>.
-  - Die Freigabeform muss zur Reservierungsform passen.
-recognizeSignals:
-  - Im Beispiel stehen <code>new[]</code>, mehrere Elemente oder ein Feldzugriff wie <code>p[0]</code>.
-  - Du sollst entscheiden, welche Freigabe fachlich passt.
-  - Es geht um ein einzelnes Objekt versus mehrere zusammenhängende Elemente.
-selfCheckPoints:
-  - Kann ich Einzelobjekt und dynamisches Array sauber unterscheiden?
-  - Kann ich erklären, wann <code>delete[]</code> nötig ist?
-  - Kann ich Reservierung und Freigabe als Paar lesen?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - speicher
-  - delete
-  - arrays
+title: "delete und delete[] unterscheiden"
+description: "Verstehe, warum bei dynamisch reservierten Arrays eine andere Freigabeform nötig ist als bei einem einzelnen Objekt."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "delete-und-delete-array-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
 ## Grundidee

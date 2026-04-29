@@ -3,20 +3,12 @@ title: "Lösung – Median und Mittelwert unterscheiden"
 description: "Musterlösung zu Median und Mittelwert unterscheiden mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "daten-und-zufall"
-  - "kennwerte"
-  - "median-und-mittelwert-unterscheiden-v113"
+topicPath: ["daten-und-zufall", "kennwerte", "median-und-mittelwert-unterscheiden-v113"]
 taskId: "v113-mathematik-median-und-mittelwert-unterscheiden-v113"
 relatedExercise: "mathematik/daten-und-zufall/kennwerte/median-und-mittelwert-unterscheiden-v113"
-tags:
-  - "mathematik"
-  - "strukturcheck"
-  - "unterthema"
-  - "median-und-mittelwert-unterscheiden-v113"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Median und Mittelwert unterscheiden**.

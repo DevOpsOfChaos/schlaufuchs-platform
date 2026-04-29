@@ -1,47 +1,19 @@
 ---
-title: Das erste C++-Programm verstehen
-description: Verstehe, welche Rolle include, main, Ein- und Ausgabe und return in einem sehr kleinen C++-Programm spielen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - einstieg-und-werkzeugkette
-  - das-erste-cpp-programm-verstehen
-learningGoals:
-  - Du erklärst die wichtigsten Bausteine eines sehr kleinen C++-Programms.
-  - Du unterscheidest ruhig zwischen Einbinden, Hauptfunktion, Ein- und Ausgabe und Rückgabe.
-  - Du liest ein kurzes C++-Programm nicht nur Zeile für Zeile, sondern nach seiner Gesamtrolle.
-practiceIdeas:
-  - Lies ein kleines Programm erst grob über seine Abschnitte und erst danach über einzelne Tokens.
-  - Erkläre, welche Zeilen für Aufbau und welche für Verhalten zuständig sind.
-  - Vergleiche ein minimales Programm mit einer Variante, die zusätzlich Eingabe verarbeitet.
-commonMistakes:
-  - Jede Zeile isoliert zu lernen, ohne die Gesamtlogik zu sehen.
-  - main nur als Pflichtwort statt als Einstiegspunkt des Programms zu verstehen.
-  - Ein- und Ausgabe mit dem eigentlichen Programmstart zu verwechseln.
-keyTakeaways:
-  - Ein kleines C++-Programm besteht aus wenigen, klaren Rollen.
-  - main ist der Einstiegspunkt des Programms.
-  - Ruhiges Lesen über Rollen ist hilfreicher als bloßes Auswendiglernen einzelner Zeichen.
-recognizeSignals:
-  - Es geht um erste Programme, main, include, cout, cin oder return.
-  - Du sollst einen kleinen Quelltext erklären oder ordnen.
-  - In Beispielen musst du Zeilen ihrer Funktion zuordnen statt nur Namen wiederzugeben.
-selfCheckPoints:
-  - Kann ich erklären, wozu include, main und return dienen?
-  - Kann ich Ein- und Ausgabe im Programm sauber benennen?
-  - Kann ich einen kleinen Quelltext nach Rollen gliedern?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - einstieg
-  - main
+title: "Das erste C++-Programm verstehen"
+description: "Verstehe, welche Rolle include, main, Ein- und Ausgabe und return in einem sehr kleinen C++-Programm spielen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "das-erste-cpp-programm-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein erstes C++-Programm wirkt oft komplizierter, als es ist. In Wahrheit bestehen die kleinsten Programme nur aus wenigen Bausteinen: etwas wird eingebunden, eine Hauptfunktion startet, dann passiert eine Ausgabe oder Eingabe, und am Ende liefert das Programm einen Rückgabewert.

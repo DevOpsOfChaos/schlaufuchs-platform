@@ -1,43 +1,17 @@
 ---
 title: "CSS – Container Query und Media Query unterscheiden"
 description: "Verstehe, ob ein Layout auf die Größe des Viewports oder auf die Größe seines Containers reagieren soll."
-subject: web-development
+subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "responsive-layouts"
-  - "container-query-und-media-query-unterscheiden"
-learningGoals:
-  - "Du unterscheidest Viewport-Entscheidungen von Komponenten-Entscheidungen."
-  - "Du erklärst, wann eine Media Query sinnvoll bleibt."
-  - "Du erkennst, warum Container Queries Komponenten robuster machen können."
-practiceIdeas:
-  - "Vergleiche dieselbe Karte in einer Sidebar und im Hauptbereich."
-  - "Entscheide, ob die Breite des Fensters oder die Breite der Komponente relevant ist."
-  - "Formuliere eine Layoutregel einmal als Media Query und einmal als Container Query."
-commonMistakes:
-  - "Jedes responsive Problem über den Viewport lösen zu wollen."
-  - "Container Queries einzusetzen, obwohl die gesamte Seite umgebaut werden soll."
-  - "Den Container nicht als query container zu definieren."
-keyTakeaways:
-  - "Media Queries reagieren auf die Umgebung des Dokuments, meist den Viewport."
-  - "Container Queries reagieren auf die Größe eines definierten Containers."
-  - "Komponenten werden wiederverwendbarer, wenn sie auf ihren tatsächlichen Platz reagieren."
-recognizeSignals:
-  - "Es geht um Cards, Sidebar, Grid, Komponentenbreite oder Viewport-Breakpoints."
-  - "Ein Baustein soll an verschiedenen Stellen anders aussehen."
-  - "Eine Aufgabe fragt, warum 768 px Fensterbreite nicht die eigentliche Frage ist."
-selfCheckPoints:
-  - "Ist die ganze Seite betroffen oder nur eine Komponente?"
-  - "Welche Breite entscheidet fachlich über das Layout?"
-  - "Ist ein query container definiert?"
-tags:
-  - "web development"
-  - "css"
-  - "responsive"
-  - "container queries"
-  - "media queries"
-level: mittel
+topicPath: ["css", "responsive-layouts", "container-query-und-media-query-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "CSS"]
 draft: false
 ---
 ## Grundidee

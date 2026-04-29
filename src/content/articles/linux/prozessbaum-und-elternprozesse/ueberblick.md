@@ -1,36 +1,19 @@
 ---
 title: "Prozessbaum und Elternprozesse"
 description: "Überblick über Prozesse, Eltern-Kind-Beziehungen und Prozesshierarchien."
-subject: linux
+subject: "linux"
 section: "Prozesse"
-topicPath:
-  - "prozessbaum-und-elternprozesse"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Prozessbaum und Elternprozesse als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["prozessbaum-und-elternprozesse", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird ein einzelner Prozess beendet, obwohl ein überwachender Elternprozess ihn sofort neu startet."
-keyTakeaways:
-  - "Prozesse stehen in Eltern-Kind-Beziehungen."
-  - "Der Prozessbaum hilft bei Diagnose und Dienstverständnis."
-  - "Überwachungssysteme können Prozesse automatisch neu starten."
-recognizeSignals:
-  - "Es geht um Prozessbaum und Elternprozesse als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Prozessbaum und Elternprozesse in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "prozesse"
-  - "prozessbaum"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Prozesse"]
 draft: false
 ---
-
 # Prozessbaum und Elternprozesse
 
 Linux-Prozesse entstehen aus anderen Prozessen. Dadurch bildet sich ein Prozessbaum mit Eltern- und Kindprozessen. Diese Struktur hilft zu verstehen, wer Programme gestartet hat, welche Prozesse zusammengehören und wie Signale oder Sitzungen wirken.

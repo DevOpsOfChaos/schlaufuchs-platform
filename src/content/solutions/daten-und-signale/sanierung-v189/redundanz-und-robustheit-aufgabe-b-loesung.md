@@ -3,22 +3,12 @@ title: "Lösung: Redundanz und Robustheit: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe dat-v189-026b."
 subject: "daten-und-signale"
 section: "uebertragung"
-topicPath:
-  - "uebertragung"
-  - "redundanz-und-robustheit"
-  - "loesung-b"
+topicPath: ["sanierung-v189", "redundanz-und-robustheit-aufgabe-b"]
 taskId: "dat-v189-026b"
 relatedExercise: "daten-und-signale/sanierung-v189/redundanz-und-robustheit-aufgabe-b"
-tags:
-  - "redundanz"
-  - "robustheit"
-  - "sicherheit"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-026b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

@@ -1,45 +1,19 @@
 ---
-title: Dateien und Ordner im Terminal
-description: Verstehe, wie du dich durch Verzeichnisse bewegst und Inhalte im Terminal sauber liest.
-subject: linux
-section: shell
-topicPath:
-- shell
-- dateien-und-ordner
-learningGoals:
-- Du bewegst dich sicher zwischen Verzeichnissen.
-- Du liest Dateinamen, Pfade und Ordnerstrukturen bewusster.
-- Du verstehst den Zusammenhang zwischen aktuellem Ort und ausgeführten Befehlen.
-practiceIdeas:
-- Nutze pwd, ls, cd und tree in der Lernshell nacheinander.
-- Wechsle bewusst in Unterordner und wieder zurück.
-- Lies Dateistrukturen mit tree oder find statt nur einzelne Namen anzusehen.
-commonMistakes:
-- Den aktuellen Pfad nicht zu prüfen.
-- Relative und absolute Pfade zu verwechseln.
-- Im falschen Verzeichnis zu arbeiten.
-keyTakeaways:
-- Dein aktueller Ort bestimmt, worauf sich viele Befehle beziehen.
-- Pfade sind keine Nebensache, sondern Grundlage der Orientierung.
-- Struktur lesen ist wichtiger als blind klicken oder raten.
-tags:
-- linux
-- shell
-- dateien
-- ordner
-- pfade
-level: einfach
+title: "Dateien und Ordner im Terminal"
+description: "Verstehe, wie du dich durch Verzeichnisse bewegst und Inhalte im Terminal sauber liest."
+subject: "linux"
+section: "shell"
+topicPath: ["shell", "dateien-und-ordner"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "shell"]
 draft: false
-recognizeSignals:
-- Die Aufgabe oder Erklärung nennt Dateien und Ordner im Terminal direkt oder greift eng benachbarte Begriffe aus shell auf.
-- Du sollst nicht nur einen Begriff nennen, sondern einen Zusammenhang, Ablauf oder eine Struktur sauber erklären.
-- In Beispielen musst du Werte, Schritte oder Bauteile geordnet lesen und richtig einordnen.
-selfCheckPoints:
-- Kann ich bewegst dich sicher zwischen Verzeichnissen?
-- Kann ich liest Dateinamen, Pfade und Ordnerstrukturen bewusster?
-- Kann ich verstehst den Zusammenhang zwischen aktuellem Ort und ausgeführten Befehlen?
 ---
-
 ## Orientierung beginnt mit dem aktuellen Verzeichnis
 
 Im Terminal ist dein aktueller Ort entscheidend. Viele Befehle beziehen sich auf genau dieses Verzeichnis. Deshalb ist <code>pwd</code> oft der erste sinnvolle Schritt.

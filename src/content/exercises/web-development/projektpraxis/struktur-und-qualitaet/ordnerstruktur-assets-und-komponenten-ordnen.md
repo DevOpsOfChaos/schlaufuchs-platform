@@ -3,34 +3,15 @@ title: "Aufgabe – Web-Projektpraxis – Ordnerstruktur, Assets und Komponenten
 description: "Entwirf eine kleine Ordnerstruktur für eine Lernseite mit Bildern, Komponenten und Inhaltsdateien. Begründe, was wohin gehört."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "struktur-und-qualitaet"
-  - "ordnerstruktur-assets-und-komponenten-ordnen"
+topicPath: ["projektpraxis", "struktur-und-qualitaet", "ordnerstruktur-assets-und-komponenten-ordnen"]
 taskId: "web-v100-ordnerstruktur-assets-und-komponenten-ordnen"
-tags:
-  - "web development"
-  - "projektpraxis"
-  - "ordnerstruktur"
-  - "assets"
-  - "komponenten"
-  - "aufgabe"
-hintPoints:
-  - "Lies zuerst die sichtbare Seitensituation, nicht nur einzelne Codezeilen."
-  - "Trenne Ursache, Entscheidung und erwartete Wirkung."
-  - "Denke mindestens einen Fehler-, Lade- oder Randfall mit."
-selfCheckPoints:
-  - "Ist die Entscheidung fachlich begründet?"
-  - "Ist klar, welche Nutzererfahrung verbessert wird?"
-  - "Wird der passende Browser- oder Projektbereich geprüft?"
-transferIdeas:
-  - "Übertrage die Idee auf eine kleine Lernkarte, ein Formular oder eine Navigation."
-  - "Beschreibe eine schwache Variante, die technisch funktioniert, aber didaktisch oder praktisch riskant bleibt."
-reflectionPrompt: "Welche Prüfung hätte den häufigsten Fehler bei dieser Aufgabe am frühesten sichtbar gemacht?"
+tags: ["web-development", "Projektpraxis", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Entwirf eine kleine Ordnerstruktur für eine Lernseite mit Bildern, Komponenten und Inhaltsdateien. Begründe, was wohin gehört.

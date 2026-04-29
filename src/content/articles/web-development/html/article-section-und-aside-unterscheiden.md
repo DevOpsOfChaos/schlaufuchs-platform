@@ -1,46 +1,19 @@
 ---
-title: Article, Section und Aside unterscheiden
-description: Verstehe, wie diese HTML-Elemente unterschiedliche Rollen innerhalb des Inhalts markieren und warum ähnliche Boxen nicht automatisch dieselbe Bedeutung haben.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - navigation-und-menues
-  - article-section-und-aside-unterscheiden
-learningGoals:
-  - Du unterscheidest article, section und aside nach ihrer inhaltlichen Rolle.
-  - Du erklärst, warum ähnliche sichtbare Boxen fachlich trotzdem verschieden sein können.
-  - Du wählst Strukturelemente eher nach Bedeutung als nach dem späteren Layout.
-practiceIdeas:
-  - Prüfe bei einem Seitenausschnitt, welcher Teil eigenständig, welcher thematisch gruppiert und welcher ergänzend ist.
-  - Begründe, warum ein Merkkasten nicht automatisch ein article ist.
-  - Lies diese Elemente als Rollen innerhalb des Inhalts statt als Designbausteine.
-commonMistakes:
-  - article, section und aside nur optisch zu unterscheiden.
-  - section mit irgendeinem Container gleichzusetzen.
-  - ergänzende Inhalte als Hauptinhalt zu markieren.
-keyTakeaways:
-  - article steht eher für eigenständig sinnvolle Inhalte.
-  - section bündelt thematisch zusammengehörige Teile.
-  - aside ergänzt den Hauptinhalt, steht aber nicht im Zentrum der Seite.
-recognizeSignals:
-  - Es geht um Seitenteile, Wissensboxen, Randspalten oder eigenständige Beiträge.
-  - Du sollst begründen, warum ein Element strukturell passt.
-  - In Beispielen zählt die Rolle des Inhalts stärker als seine sichtbare Form.
-selfCheckPoints:
-  - Kann ich article, section und aside fachlich auseinanderhalten?
-  - Kann ich einen ergänzenden Inhalt als solchen erkennen?
-  - Kann ich Struktur nach Rolle statt nach Optik wählen?
-tags:
-  - html
-  - semantik
-  - article
-  - section
-  - aside
-level: mittel
+title: "Article, Section und Aside unterscheiden"
+description: "Verstehe, wie diese HTML-Elemente unterschiedliche Rollen innerhalb des Inhalts markieren und warum ähnliche Boxen nicht automatisch dieselbe Bedeutung haben."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "article-section-und-aside-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Diese Seite betrachtet **nicht** das große Seitengerüst, sondern die **innere Struktur des Inhalts**. Die ruhige Leitfrage lautet: **Ist dieser Teil eigenständig, untergeordnet oder ergänzend?**

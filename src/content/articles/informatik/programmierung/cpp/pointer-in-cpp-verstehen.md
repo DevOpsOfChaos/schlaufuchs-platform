@@ -1,47 +1,19 @@
 ---
-title: Pointer in C++ verstehen
-description: Verstehe, warum Zeiger Adressen speichern und wie dadurch indirekter Zugriff auf Speicherinhalte möglich wird.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - pointer-und-adressen
-  - pointer-in-cpp-verstehen
-learningGoals:
-  - Du erklärst Pointer als Variablen für Adressen.
-  - Du unterscheidest Zeigervariable, referenziertes Objekt und gespeicherte Adresse.
-  - Du liest indirekten Zugriff über einen Pointer ruhiger.
-practiceIdeas:
-  - Zeichne bei einem Beispiel Variable, Adresse und Zeiger getrennt auf.
-  - Formuliere in Worten, worauf ein Pointer gerade zeigt.
-  - Vergleiche direkten und indirekten Zugriff auf denselben Wert.
-commonMistakes:
-  - Pointer mit dem eigentlichen Zielwert zu verwechseln.
-  - Zu denken, ein Pointer speichere direkt den Dateninhalt.
-  - Nicht zwischen Adresse und Wert zu unterscheiden.
-keyTakeaways:
-  - Ein Pointer speichert eine Adresse.
-  - Über einen Pointer kann indirekt auf einen Wert zugegriffen werden.
-  - Pointer helfen, Speicherbeziehungen sichtbar zu machen.
-recognizeSignals:
-  - In Deklarationen steht ein <code>*</code> beim Typ.
-  - Eine Adresse wird mit <code>&amp;</code> übernommen.
-  - Eine Aufgabe fragt nach direktem und indirektem Zugriff.
-selfCheckPoints:
-  - Kann ich Adresse und Wert sauber trennen?
-  - Kann ich erklären, worauf ein Pointer zeigt?
-  - Kann ich direkten und indirekten Zugriff vergleichen?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - pointer
-  - adresse
+title: "Pointer in C++ verstehen"
+description: "Verstehe, warum Zeiger Adressen speichern und wie dadurch indirekter Zugriff auf Speicherinhalte möglich wird."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "pointer-in-cpp-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Pointer ist eine Variable, deren Inhalt nicht direkt ein normaler Nutzwert ist, sondern die Adresse einer anderen Variable im Speicher.

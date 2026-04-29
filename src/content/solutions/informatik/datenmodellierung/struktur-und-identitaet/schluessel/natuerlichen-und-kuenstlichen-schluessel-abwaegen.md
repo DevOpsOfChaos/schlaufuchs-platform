@@ -3,23 +3,12 @@ title: "Lösung – Natürlichen und künstlichen Schlüssel abwägen"
 description: "Musterlösung zu Datenbankschlüssel mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenmodellierung"
-  - "struktur-und-identitaet"
-  - "schluessel"
-  - "natuerlichen-und-kuenstlichen-schluessel-abwaegen"
+topicPath: ["datenmodellierung", "struktur-und-identitaet", "schluessel", "natuerlichen-und-kuenstlichen-schluessel-abwaegen"]
 taskId: "v111-informatik-natuerlichen-und-kuenstlichen-schluessel-abwaegen"
 relatedExercise: "informatik/datenmodellierung/struktur-und-identitaet/schluessel/natuerlichen-und-kuenstlichen-schluessel-abwaegen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "unterthema"
-  - "datenmodellierung"
-  - "struktur-und-identitaet"
-  - "natuerlichen-und-kuenstlichen-schluessel-abwaegen"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Datenbankschlüssel**.

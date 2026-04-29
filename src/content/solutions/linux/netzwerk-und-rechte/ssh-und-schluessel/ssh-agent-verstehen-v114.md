@@ -1,23 +1,14 @@
 ---
-title: Lösung – SSH-Agent verstehen
-description: Musterlösung zur Aufgabe über SSH-Agent verstehen.
-subject: linux
-section: Feinstruktur Linux
-topicPath:
-- netzwerk-und-rechte
-- ssh-und-schluessel
-- ssh-agent-verstehen-v114
-taskId: v114-linux-ssh-agent-verstehen-v114
-relatedExercise: linux/netzwerk-und-rechte/ssh-und-schluessel/ssh-agent-verstehen-v114
-tags:
-- linux
-- v114
-- loesung
-- netzwerk-und-rechte
-- ssh-und-schluessel
+title: "Lösung – SSH-Agent verstehen"
+description: "Musterlösung zur Aufgabe über SSH-Agent verstehen."
+subject: "linux"
+section: "Feinstruktur Linux"
+topicPath: ["netzwerk-und-rechte", "ssh-und-schluessel", "ssh-agent-verstehen-v114"]
+taskId: "v114-linux-ssh-agent-verstehen-v114"
+relatedExercise: "linux/netzwerk-und-rechte/ssh-und-schluessel/ssh-agent-verstehen-v114"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

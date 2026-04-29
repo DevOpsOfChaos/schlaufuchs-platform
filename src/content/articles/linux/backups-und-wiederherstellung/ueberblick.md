@@ -1,36 +1,19 @@
 ---
 title: "Backups und Wiederherstellung"
 description: "Überblick über Backups als Schutz vor Datenverlust und über die Bedeutung getesteter Wiederherstellung."
-subject: linux
+subject: "linux"
 section: "Betrieb"
-topicPath:
-  - "backups-und-wiederherstellung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Backups und Wiederherstellung als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["backups-und-wiederherstellung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird nur das Erstellen von Backups automatisiert, aber nie die Wiederherstellung getestet."
-keyTakeaways:
-  - "Ein Backup ist erst wertvoll, wenn Wiederherstellung möglich ist."
-  - "Synchronisation ersetzt keine versionierten Backups."
-  - "Backups müssen geschützt und regelmäßig geprüft werden."
-recognizeSignals:
-  - "Es geht um Backups und Wiederherstellung als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Backups und Wiederherstellung in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "backup"
-  - "wiederherstellung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Betrieb"]
 draft: false
 ---
-
 # Backups und Wiederherstellung
 
 Ein Backup ist eine unabhängige Kopie wichtiger Daten, die nach Verlust, Fehler oder Angriff wiederhergestellt werden kann. Entscheidend ist nicht nur, dass Kopien existieren, sondern dass sie vollständig, aktuell, geschützt und tatsächlich wiederherstellbar sind.

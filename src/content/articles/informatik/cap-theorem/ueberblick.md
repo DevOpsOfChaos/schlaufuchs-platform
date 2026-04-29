@@ -1,33 +1,19 @@
 ---
 title: "CAP-Theorem"
 description: "Das CAP-Theorem beschreibt einen Zielkonflikt verteilter Systeme zwischen Konsistenz, Verfügbarkeit und Partitionstoleranz. Es hilft, Architekturentscheidungen realistisch einzuordnen."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "cap-theorem"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von CAP-Theorem."
-  - "Du kannst CAP-Theorem in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["cap-theorem", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "CAP als einfache Produktkategorie ohne Kontext zu verwenden."
-keyTakeaways:
-  - "Das CAP-Theorem beschreibt einen Zielkonflikt verteilter Systeme zwischen Konsistenz, Verfügbarkeit und Partitionstoleranz."
-  - "Wichtig sind vor allem consistency, availability und partition tolerance, netzwerkpartitionen als annahme und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um CAP-Theorem, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu CAP-Theorem dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "informatik"
-  - "grundlagen"
-  - "cap theorem"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # CAP-Theorem
 
 Das CAP-Theorem beschreibt einen Zielkonflikt verteilter Systeme zwischen Konsistenz, Verfügbarkeit und Partitionstoleranz. Es hilft, Architekturentscheidungen realistisch einzuordnen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

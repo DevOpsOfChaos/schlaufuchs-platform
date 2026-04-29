@@ -1,36 +1,19 @@
 ---
 title: "Spannungsmessung mit Spannungsteiler"
 description: "Eine Spannungsmessung mit Spannungsteiler reduziert eine höhere Spannung auf einen Bereich, den ein Messgerät oder ADC sicher erfassen kann."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Messung"
-topicPath:
-  - "spannungsmessung-mit-spannungsteiler"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Spannungsmessung mit Spannungsteiler als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["spannungsmessung-mit-spannungsteiler", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird vergessen, die maximal mögliche Eingangsspannung inklusive Toleranzen und Fehlerfällen zu betrachten."
-keyTakeaways:
-  - "Eine Spannungsmessung mit Spannungsteiler reduziert eine höhere Spannung auf einen Bereich, den ein Messgerät oder ADC sicher erfassen kann."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Spannungsmessung mit Spannungsteiler, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Spannungsmessung mit Spannungsteiler in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "spannungsteiler"
-  - "adc"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Messung"]
 draft: false
 ---
-
 # Spannungsmessung mit Spannungsteiler
 
 Eine Spannungsmessung mit Spannungsteiler reduziert eine höhere Spannung auf einen Bereich, den

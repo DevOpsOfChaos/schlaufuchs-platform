@@ -3,23 +3,12 @@ title: "Lösung – Prozent und Prozentpunkte nicht verwechseln"
 description: "Musterlösung zu Prozent und Prozentpunkte mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Grundlagen"
-topicPath:
-  - "grundlagen"
-  - "prozent-und-wachstum"
-  - "prozentpunkte"
-  - "prozent-und-prozentpunkte-nicht-verwechseln"
+topicPath: ["grundlagen", "prozent-und-wachstum", "prozentpunkte", "prozent-und-prozentpunkte-nicht-verwechseln"]
 taskId: "v108-mathematik-prozent-und-prozentpunkte-nicht-verwechseln"
 relatedExercise: "mathematik/grundlagen/prozent-und-wachstum/prozentpunkte/prozent-und-prozentpunkte-nicht-verwechseln"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfen"
-  - "grundlagen"
-  - "prozent-und-wachstum"
-  - "prozent und prozentpunkte"
+tags: ["mathematik", "Grundlagen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **Prozent und Prozentpunkte**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

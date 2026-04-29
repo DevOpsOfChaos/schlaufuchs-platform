@@ -3,24 +3,12 @@ title: "Lösung: Sicherheitscheck vor dem Einschalten: Aufgabe A"
 description: "Musterlösung zur Aufgabe etech-v191-030a im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "fehlersuche"
-  - "sicherheitscheck-vor-dem-einschalten"
-  - "loesung-a"
+topicPath: ["sanierung-v191", "sicherheitscheck-vor-dem-einschalten-aufgabe-a"]
 taskId: "etech-v191-030a"
 relatedExercise: "elektrotechnik/sanierung-v191/sicherheitscheck-vor-dem-einschalten-aufgabe-a"
-tags:
-  - "fehlersuche"
-  - "sicherheitscheck"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-030a`
 
 Ausgangsauftrag: Erstelle eine Einschaltcheckliste für eine kleine Schaltung.

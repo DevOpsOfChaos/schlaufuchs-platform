@@ -1,31 +1,17 @@
 ---
-title: Funktionsgleichung aus Alltagssatz aufbauen
-description: Baue aus Startwert und konstanter Änderung eine lineare Funktionsgleichung auf und begründe die Rollen der beiden Werte.
-subject: mathematik
-section: Funktionen
-topicPath:
-  - funktionen
-  - lineare-funktionen-im-alltag-erkennen
-  - lineare-funktion-aus-steigung-und-startwert-aufstellen
-  - funktionsgleichung-aus-alltagssatz-aufbauen
-level: mittel
+title: "Funktionsgleichung aus Alltagssatz aufbauen"
+description: "Baue aus Startwert und konstanter Änderung eine lineare Funktionsgleichung auf und begründe die Rollen der beiden Werte."
+subject: "mathematik"
+section: "Funktionen"
+topicPath: ["funktionen", "lineare-funktion-aus-steigung-und-startwert-aufstellen", "funktionsgleichung-aus-alltagssatz-aufbauen"]
+taskId: "AUTO-FUNKTIONSGLEICHUNG-AUS-ALLTAGSSATZ-AUFBAUEN"
+tags: ["mathematik", "Funktionen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - mathematik
-  - funktionen
-  - linear
-hintPoints:
-  - "Suche zuerst den Anfangswert bei x = 0."
-  - "Trenne den Startwert von der Veränderung pro Schritt."
-  - "Prüfe am Ende mit einem kleinen Einsetzbeispiel."
-selfCheckPoints:
-  - "Hast du Steigung und Startwert nicht vertauscht?"
-  - "Ist klar, warum die Gleichung zur Situation passt?"
-transferIdeas:
-  - "Übertrage die Aufgabe auf Taxi, Handyvertrag oder Füllstand."
-reflectionPrompt: "Warum hilft die Form y = mx + b dabei, Alltagssituationen strukturiert statt nur rechnerisch zu lesen?"
 ---
-
 ## Aufgabe 1: Grundgebühr und Strecke
 
 Ein Dienst startet mit 5 Euro Grundgebühr. Pro zusätzlichem Kilometer kommen 3 Euro dazu.

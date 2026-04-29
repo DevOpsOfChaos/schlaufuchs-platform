@@ -1,35 +1,17 @@
 ---
 title: "HTTP Content Types"
 description: "Überblick über Content-Type-Header, MIME-Typen und ihre Bedeutung für Browser und APIs."
-subject: web-development
+subject: "web-development"
 section: "HTTP und APIs"
-topicPath:
-  - "http-content-types"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst HTTP Content Types als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["http-content-types", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird angenommen, die Dateiendung reiche aus. Im Web ist der HTTP-Header für die Verarbeitung oft entscheidend."
-keyTakeaways:
-  - "HTTP Content Types beschreiben, welches Format ein Server sendet oder ein Client übermittelt."
-  - "Sie ermöglichen Browsern, APIs und Sicherheitsmechanismen, Daten korrekt zu interpretieren."
-  - "Der Content-Type beschreibt das Format, garantiert aber nicht die inhaltliche Korrektheit oder Vertrauenswürdigkeit."
-recognizeSignals:
-  - "Es geht um HTTP Content Types, wenn text/html, application/json, image/svg+xml und text/css lösen unterschiedliche Verarbeitung aus."
-  - "Das Thema wird relevant, wenn Beispiele wie eine API-Antwort mit JSON sollte application/json senden, damit Clients sie zuverlässig verarbeiten können."
-selfCheckPoints:
-  - "Kann ich HTTP Content Types in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "web development"
-  - "http"
-  - "mime"
-  - "api"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTTP und APIs"]
 draft: false
 ---
 # HTTP Content Types

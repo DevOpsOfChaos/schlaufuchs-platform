@@ -3,38 +3,17 @@ title: "Integral und Fläche"
 description: "Integrale können aufsummierte Änderung oder Flächenbilanz beschreiben."
 subject: "mathematik"
 section: "analysis-pruefschritte"
-topicPath:
-  - "analysis-pruefschritte"
-  - "integral-und-flaeche"
-learningGoals:
-  - "Integrale können aufsummierte Änderung oder Flächenbilanz beschreiben fachlich einordnen."
-  - "Typische Entscheidungen Schritt für Schritt begründen."
-  - "Häufige Fehler früh erkennen und vermeiden."
-practiceIdeas:
-  - "Erstelle eine kleine Prüfliste mit drei Entscheidungspunkten."
-  - "Vergleiche ein richtiges und ein fehlerhaftes Beispiel."
-commonMistakes:
-  - "Begriffe werden nur auswendig gelernt, ohne ihre Rolle zu prüfen."
-  - "Zwischenschritte werden übersprungen und Fehler bleiben unsichtbar."
-keyTakeaways:
-  - "Integrale können aufsummierte Änderung oder Flächenbilanz beschreiben wird zuerst über Zweck, Eingaben und Ergebnis verstanden."
-  - "Eine gute Lösung trennt Beobachtung, Entscheidung und Begründung."
-recognizeSignals:
-  - "Du erkennst passende Aufgaben an Formulierungen wie prüfen, einordnen oder begründen."
-  - "Warnsignal: Es wird direkt gerechnet oder gebaut, ohne die Rahmenbedingungen zu lesen."
-selfCheckPoints:
-  - "Kannst du den Zweck in einem Satz erklären?"
-  - "Kannst du eine typische Fehlerquelle nennen?"
+topicPath: ["sanierung-v188", "integral-und-flaeche"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
-tags:
-  - "integral"
-  - "flaeche"
-  - "analysis"
-  - "mathematik"
-  - "v188"
+tags: ["mathematik", "analysis-pruefschritte"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Integral und Fläche](/schlaufuchs-platform/images/mathematik/sanierung-188/integral-und-flaeche.svg)
 
 ## Überblick

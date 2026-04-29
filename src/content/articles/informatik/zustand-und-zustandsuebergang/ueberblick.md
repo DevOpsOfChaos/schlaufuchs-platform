@@ -1,30 +1,17 @@
 ---
 title: "Zustand und Zustandsübergang"
 description: "Allgemeiner Überblick: Viele Programme lassen sich als Zustände und erlaubte Übergänge verstehen."
-subject: informatik
+subject: "informatik"
 section: "Algorithmen"
-topicPath:
-  - "zustand-und-zustandsuebergang"
-learningGoals:
-  - "Du kannst zustand und zustandsübergang als Grundidee einordnen."
-  - "Du erkennst wichtige Bestandteile und typische Grenzen."
-  - "Du kannst das Thema in einfachen Worten erklären."
+topicPath: ["zustand-und-zustandsuebergang", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur ein Detail zu betrachten und den Zusammenhang zu übersehen."
-  - "Das Schaubild als exakte technische Darstellung statt als Orientierung zu lesen."
-keyTakeaways:
-  - "Viele Programme lassen sich als Zustände und erlaubte Übergänge verstehen."
-  - "Ein Überblicksbild hilft, Begriffe und Beziehungen ruhig zu ordnen."
-recognizeSignals:
-  - "Es geht um zustand und zustandsübergang, Grundbegriffe, Zusammenhänge oder typische Fehlerquellen."
-selfCheckPoints:
-  - "Kann ich erklären, welche Rolle zustand und zustandsübergang im größeren Zusammenhang spielt?"
-level: einfach
-tags:
-  - "informatik"
-  - "zustand und zustandsuebergang"
-  - "überblick"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Algorithmen"]
 draft: false
 ---
 # Zustand und Zustandsübergang

@@ -1,20 +1,12 @@
 ---
 title: "Lösung – Seitenstruktur mit Skip-Link verbessern"
 description: "Musterlösung zu: Plane eine zugängliche Grundstruktur für eine Seite mit wiederholter Navigation."
-subject: web-development
+subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "navigation-und-menues"
-  - "skip-link-und-landmarks-fuer-bessere-orientierung"
+topicPath: ["html", "navigation-und-menues", "skip-link-und-landmarks-fuer-bessere-orientierung"]
 taskId: "wd-html-v95-skip-link-landmarks"
 relatedExercise: "web-development/html/navigation-und-menues/skip-link-und-landmarks-fuer-bessere-orientierung"
-tags:
-  - "web development"
-  - "html"
-  - "navigation"
-  - "landmarks"
-  - "accessibility"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
 ## Lösung zu Aufgabe 1

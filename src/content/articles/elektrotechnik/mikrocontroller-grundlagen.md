@@ -1,13 +1,19 @@
 ---
-title: Mikrocontroller – Grundlagen
-description: Verstehe, wie Mikrocontroller Eingaben verarbeiten und Hardware steuern.
-subject: elektrotechnik
-section: mikrocontroller
-level: einfach
-tags: [mikrocontroller, arduino, esp32, grundlagen]
+title: "Mikrocontroller – Grundlagen"
+description: "Verstehe, wie Mikrocontroller Eingaben verarbeiten und Hardware steuern."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mikrocontroller", "arduino", "esp32", "grundlagen"]
 draft: false
 ---
-
 Mikrocontroller sind kompakte eingebettete Systeme, die Eingaben verarbeiten und gezielt Hardware steuern. Sie verbinden damit Software, Elektronik und praktische Anwendung sehr direkt miteinander.
 
 ## Was ist ein Mikrocontroller?

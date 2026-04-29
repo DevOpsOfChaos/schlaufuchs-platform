@@ -3,33 +3,15 @@ title: "Graphen deuten: Grundordnung"
 description: "Ordne Graphen deuten in Zweck, Prüffragen und Fehlerquellen."
 subject: "mathematik"
 section: "funktionen-und-graphen"
-topicPath:
-  - "funktionen-und-graphen"
-  - "graphen-deuten"
-  - "aufgabe-a"
+topicPath: ["sanierung-v188", "graphen-deuten-aufgabe-a"]
 taskId: "mat-v188-045a"
-tags:
-  - "graphen"
-  - "funktionen"
-  - "deuten"
-  - "mathematik"
-  - "aufgabe"
-  - "v188"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["mathematik", "funktionen-und-graphen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Du arbeitest am Thema **Graphen deuten**. Erstelle eine kurze, geordnete Erklärung für eine lernende Person.

@@ -3,34 +3,15 @@ title: "Aufgabe – Container Queries für Komponenten denken"
 description: "Entscheide bei einer Kartenkomponente, ob eine Media Query oder eine Container Query besser passt. Begründe deine Wahl."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "responsive-layouts"
-  - "container-queries-fuer-komponenten-denken"
-tags:
-  - "web development"
-  - "css"
-  - "container queries"
-  - "responsive"
-  - "layout"
-  - "aufgabe"
+topicPath: ["css", "responsive-layouts", "container-queries-fuer-komponenten-denken"]
 taskId: "web-v101-container-queries-fuer-komponenten-denken"
-hintPoints:
-  - "Lies zuerst die vorhandene HTML-, CSS- oder JavaScript-Situation."
-  - "Trenne sichtbare Rückmeldung von interner Logik."
-  - "Begründe, warum dein Vorschlag für Nutzerinnen und Nutzer verständlich ist."
-selfCheckPoints:
-  - "Ist die Lösung auch bei fehlenden Daten oder Fehlern nachvollziehbar?"
-  - "Sind Struktur, Gestaltung und Verhalten sauber getrennt?"
-  - "Gibt es eine passende Rückmeldung?"
-transferIdeas:
-  - "Übertrage die Aufgabe auf eine Formular-, Karten- oder Navigationsoberfläche."
-  - "Vergleiche eine schnelle, aber fragile Lösung mit einer robusteren Lösung."
-reflectionPrompt: "Welche kleine Entscheidung verbessert hier nicht nur den Code, sondern auch die Nutzererfahrung?"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Entscheide bei einer Kartenkomponente, ob eine Media Query oder eine Container Query besser passt. Begründe deine Wahl.

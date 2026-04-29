@@ -1,32 +1,17 @@
 ---
-title: UART-Baudrate und Taktbasis ruhig zuordnen
-description: Ordne Ziel-Baudrate, Taktbasis und UBRR-Wert am AVR sauber zueinander und erkläre typische Zeitbasisfehler.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-kommunikation
-  - atmega-uart-baudrate-und-ubrr-verstehen
-  - uart-baudrate-und-taktbasis-ruhig-zuordnen
-taskId: ET-ATMEGA-UART-301
-level: mittel
+title: "UART-Baudrate und Taktbasis ruhig zuordnen"
+description: "Ordne Ziel-Baudrate, Taktbasis und UBRR-Wert am AVR sauber zueinander und erkläre typische Zeitbasisfehler."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-uart-baudrate-und-ubrr-verstehen", "uart-baudrate-und-taktbasis-ruhig-zuordnen"]
+taskId: "ET-ATMEGA-UART-301"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - uart
-hintPoints:
-  - Lies UBRR nicht als Zielwert, sondern als Einstellwert für die Zeitbasis.
-  - Frage immer zuerst nach F_CPU und erst dann nach dem Registerwert.
-selfCheckPoints:
-  - Kannst du Ziel-Baudrate und Registerwert trennen?
-  - Kannst du erklären, warum dieselbe Baudrate bei anderem Takt neue Werte braucht?
-transferIdeas:
-  - Übertrage die Logik auf andere UART-Baudraten und auf Terminalfehler bei realen Projekten.
-reflectionPrompt: "Warum hilft die Frage nach der Zeitbasis oft mehr als die Frage nach dem gesendeten Text?"
 ---
-
 ## Aufgabe 1: Zielwert und Registerwert trennen
 
 Erkläre in 3 bis 5 Sätzen den Unterschied zwischen einer gewünschten Baudrate und dem UBRR-Registerwert.

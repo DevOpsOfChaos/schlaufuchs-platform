@@ -1,32 +1,17 @@
 ---
 title: "ADC-Quellimpedanz"
 description: "Überblick über den Einfluss der Signalquelle auf Genauigkeit und Stabilität von ADC-Messungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "adc-quellimpedanz"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst ADC-Quellimpedanz als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Quellwiderstand, Sample-Kondensator, Pufferverstärker."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["adc-quellimpedanz", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Jede beliebige Spannung direkt an den ADC zu legen, ohne die Quelle zu betrachten."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "ADC-Quellimpedanz beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Signalquelle vor dem ADC."
-  - "Wichtige Hinweise liefern vor allem Quellwiderstand, Sample-Kondensator, Pufferverstärker."
-recognizeSignals:
-  - "Es geht um signalquelle vor dem adc, quellwiderstand oder sample-kondensator."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck ADC-Quellimpedanz erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "adc"
-  - "impedanz"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
 # ADC-Quellimpedanz

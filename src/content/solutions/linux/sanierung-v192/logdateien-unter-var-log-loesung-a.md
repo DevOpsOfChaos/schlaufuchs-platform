@@ -3,26 +3,12 @@ title: "Lösung: Logdateien unter /var/log: Aufgabe A"
 description: "Musterlösung zur Aufgabe linux-v192-011a im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "logging-und-diagnose"
-  - "logdateien-unter-var-log"
-  - "loesung-a"
+topicPath: ["sanierung-v192", "logdateien-unter-var-log-loesung-a"]
 taskId: "linux-v192-011a"
 relatedExercise: "linux/sanierung-v192/logdateien-unter-var-log-aufgabe-a"
-tags:
-  - "logging-und-diagnose"
-  - "logdateien"
-  - "var"
-  - "log"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-011a`
 
 Ausgangsauftrag: Ordne drei Logdateien möglichen Fragestellungen zu.

@@ -3,24 +3,12 @@ title: "Lösung: Schaltplan und Aufbau vergleichen: Aufgabe B"
 description: "Musterlösung zur Aufgabe etech-v191-029b im Elektrotechnikblock v191."
 subject: "elektrotechnik"
 section: "messpraxis-und-schaltungen"
-topicPath:
-  - "messpraxis-und-schaltungen"
-  - "fehlersuche"
-  - "schaltplan-und-aufbau-vergleichen"
-  - "loesung-b"
+topicPath: ["sanierung-v191", "schaltplan-und-aufbau-vergleichen-aufgabe-b"]
 taskId: "etech-v191-029b"
 relatedExercise: "elektrotechnik/sanierung-v191/schaltplan-und-aufbau-vergleichen-aufgabe-b"
-tags:
-  - "fehlersuche"
-  - "schaltplan"
-  - "schaltung"
-  - "messpraxis"
-  - "elektrotechnik"
-  - "loesung"
-  - "v191"
+tags: ["elektrotechnik", "messpraxis-und-schaltungen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `etech-v191-029b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Schaltplan und Aufbau vergleichen“ um einen Messfehler, einen Sicherheitscheck und eine kurze Plausibilitätsprüfung.

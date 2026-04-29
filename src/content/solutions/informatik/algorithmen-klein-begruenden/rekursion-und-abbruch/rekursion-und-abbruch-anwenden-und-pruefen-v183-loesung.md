@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Rekursion und Abbruch anwenden und prüfen"
 description: "Musterlösung zur Aufgabe über Rekursion und Abbruch."
-subject: informatik
+subject: "informatik"
 section: "Algorithmen klein begründen"
-topicPath:
-  - "algorithmen-klein-begruenden"
-  - "rekursion-und-abbruch"
-taskId: INF-V183-01-B
-relatedExercise: src/content/exercises/informatik/algorithmen-klein-begruenden/rekursion-und-abbruch/rekursion-und-abbruch-anwenden-und-pruefen-v183.md
-tags:
-  - "informatik"
-  - "rekursion-und-abbruch"
-  - "loesung"
+topicPath: ["algorithmen-klein-begruenden", "rekursion-und-abbruch", "rekursion-und-abbruch-anwenden-und-pruefen-v183"]
+taskId: "INF-V183-01-B"
+relatedExercise: "src/content/exercises/informatik/algorithmen-klein-begruenden/rekursion-und-abbruch/rekursion-und-abbruch-anwenden-und-pruefen-v183.md"
+tags: ["informatik", "Algorithmen klein begründen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

@@ -3,20 +3,12 @@ title: "Lösung – Rückgabewert und Seiteneffekt trennen"
 description: "Musterlösung zu Rückgabewert und Seiteneffekt trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "programmieren"
-  - "funktionen-und-schnittstellen"
-  - "rueckgabewert-und-seiteneffekt-trennen-v113"
+topicPath: ["programmieren", "funktionen-und-schnittstellen", "rueckgabewert-und-seiteneffekt-trennen-v113"]
 taskId: "v113-informatik-rueckgabewert-und-seiteneffekt-trennen-v113"
 relatedExercise: "informatik/programmieren/funktionen-und-schnittstellen/rueckgabewert-und-seiteneffekt-trennen-v113"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "rueckgabewert-und-seiteneffekt-trennen-v113"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Rückgabewert und Seiteneffekt trennen**.

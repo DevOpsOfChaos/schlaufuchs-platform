@@ -1,22 +1,12 @@
 ---
-title: Musterlösung – delete-Form zur Reservierung zuordnen
-description: Musterlösung zur Aufgabe INF-PROG-CPP-MEM-002.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - dynamischer-speicher
-  - delete-und-delete-array-unterscheiden
-  - delete-form-zur-reservierung-zuordnen-loesung
-taskId: INF-PROG-CPP-MEM-002
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/delete-und-delete-array-unterscheiden/delete-form-zur-reservierung-zuordnen.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – delete-Form zur Reservierung zuordnen"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-MEM-002."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "delete-und-delete-array-unterscheiden", "delete-form-zur-reservierung-zuordnen"]
+taskId: "INF-PROG-CPP-MEM-002"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/delete-und-delete-array-unterscheiden/delete-form-zur-reservierung-zuordnen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
 ## Aufgabe 1: Direkt zuordnen

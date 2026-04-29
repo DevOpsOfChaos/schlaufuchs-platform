@@ -3,21 +3,12 @@ title: "Lösung – Tangentenidee ohne Formel erklären"
 description: "Musterlösung zu tangentenidee ohne formel erklären mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "funktionen"
-  - "analysis-einstieg"
-  - "tangentenidee-ohne-formel-erklaeren"
+topicPath: ["funktionen", "analysis-einstieg", "tangentenidee-ohne-formel-erklaeren"]
 taskId: "v112-mathematik-tangentenidee-ohne-formel-erklaeren"
 relatedExercise: "mathematik/funktionen/analysis-einstieg/tangentenidee-ohne-formel-erklaeren"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "funktionen"
-  - "tangentenidee-ohne-formel-erklaeren"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Analysis-Einstieg**.

@@ -3,24 +3,12 @@ title: "Lösung: Funktionen mit einer Aufgabe: Aufgabe B"
 description: "Musterlösung zur Aufgabe informatik-v193-003b im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "qualitaet-und-wartbarkeit"
-  - "funktionen-mit-einer-aufgabe"
-  - "loesung-b"
+topicPath: ["sanierung-v193", "funktionen-mit-einer-aufgabe-loesung-b"]
 taskId: "informatik-v193-003b"
 relatedExercise: "informatik/sanierung-v193/funktionen-mit-einer-aufgabe-aufgabe-b"
-tags:
-  - "funktionen"
-  - "einer"
-  - "aufgabe"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-003b`
 
 Ausgangsauftrag: Übertrage das Thema Funktionen mit einer Aufgabe auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

@@ -1,44 +1,19 @@
 ---
-title: Steigung bei linearen Funktionen verstehen
-description: Verstehe, was die Steigung über Richtung und Stärke einer linearen Veränderung aussagt.
-subject: mathematik
-section: Funktionen
-topicPath:
-  - funktionen
-  - steigung-bei-linearen-funktionen-verstehen
-learningGoals:
-  - Du erklärst die Steigung als Änderungsrate.
-  - Du unterscheidest steigende, fallende und konstante lineare Verläufe.
-  - Du liest die Steigung in Tabellen, Gleichungen und Alltagssituationen ruhiger.
-practiceIdeas:
-  - Vergleiche zwei lineare Zusammenhänge über ihren Zuwachs pro Schritt.
-  - Beschreibe in einer Tabelle, wie sich y bei jedem Schritt in x ändert.
-  - Ordne Alltagssituationen als steigend, fallend oder konstant ein.
-commonMistakes:
-  - Steigung nur als „irgendwie schräg“ zu sehen.
-  - Startwert und Steigung zu verwechseln.
-  - Nur auf einzelne Werte zu schauen statt auf die Veränderung dazwischen.
-keyTakeaways:
-  - Die Steigung beschreibt, wie stark y pro Schritt in x steigt oder fällt.
-  - Positive und negative Steigung zeigen unterschiedliche Richtungen.
-  - Wer die Änderungsrate versteht, liest lineare Funktionen deutlich sicherer.
-recognizeSignals:
-  - Es geht um lineare Gleichungen, Graphen, Tabellen oder regelmäßige Zuordnungen.
-  - Du sollst nicht nur einen Wert nennen, sondern die Veränderung beschreiben.
-  - In Beispielen musst du Richtung und Stärke der Änderung trennen.
-selfCheckPoints:
-  - Kann ich Steigung als Änderungsrate erklären?
-  - Kann ich Startwert und Steigung voneinander unterscheiden?
-  - Kann ich positive, negative und fehlende Steigung deuten?
-tags:
-  - funktionen
-  - steigung
-  - linear
-  - aenderungsrate
-level: einfach
+title: "Steigung bei linearen Funktionen verstehen"
+description: "Verstehe, was die Steigung über Richtung und Stärke einer linearen Veränderung aussagt."
+subject: "mathematik"
+section: "Funktionen"
+topicPath: ["funktionen", "steigung-bei-linearen-funktionen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei linearen Funktionen ist nicht nur wichtig, **wo** ein Verlauf beginnt, sondern auch **wie stark er sich verändert**. Genau diese Veränderung beschreibt die **Steigung**.

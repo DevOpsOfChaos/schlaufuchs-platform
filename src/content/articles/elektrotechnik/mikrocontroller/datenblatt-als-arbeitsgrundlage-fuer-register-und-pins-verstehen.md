@@ -1,45 +1,19 @@
 ---
-title: Datenblatt als Arbeitsgrundlage für Register und Pins verstehen
-description: Verstehe das Datenblatt nicht als Lesetext, sondern als technische Arbeitsgrundlage für Pinfunktionen, Register, Zeitbedingungen und elektrische Grenzen.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - datenblatt-als-arbeitsgrundlage-fuer-register-und-pins-verstehen
-learningGoals:
-  - Du beschreibst das Datenblatt eher als Nachschlage- und Arbeitswerkzeug als als Fließtext.
-  - Du ordnest Pinbelegung, Register, elektrische Grenzwerte und Zeitdiagramme als unterschiedliche Informationsarten ein.
-  - Du liest technische Fragen ruhiger über gezielte Suchpunkte statt über vollständiges Durchlesen.
-practiceIdeas:
-  - Suche für eine konkrete Funktion gezielt Pinbelegung, Registername und elektrische Randbedingungen im Datenblatt.
-  - Trenne Tabellen, Blockdiagramme und Zeitdiagramme nach ihrer jeweiligen Rolle.
-  - Formuliere für eine Aufgabe zuerst, welche Information du überhaupt im Datenblatt suchst.
-commonMistakes:
-  - Das Datenblatt wie ein Kapitelbuch von vorne bis hinten lesen zu wollen.
-  - Registerfrage, Pinfrage und elektrische Grenzwerte nicht auseinanderzuhalten.
-  - Nur Codebeispiele zu suchen, statt die eigentliche technische Information gezielt zu lesen.
-keyTakeaways:
-  - Ein Datenblatt beantwortet technische Detailfragen gezielt, nicht nur allgemein.
-  - Pinbelegung, Register, Zeitdiagramme und Grenzwerte sind verschiedene Informationsebenen.
-  - Ruhiges Datenblattlesen beginnt mit einer klaren Frage.
-recognizeSignals:
-  - Es geht um Pinfunktionen, Registerbits, Stromgrenzen, Zeitverhalten oder Schnittstellenparameter.
-  - Du sollst erklären, wo man eine Information nachschlägt und nicht nur, was sie ungefähr bedeutet.
-  - In Aufgaben ist die Suchstrategie wichtiger als Auswendiglernen.
-selfCheckPoints:
-  - Kann ich eine technische Frage in eine passende Datenblatt-Suchfrage übersetzen?
-  - Kann ich Tabellen, Registerabschnitte und Zeitdiagramme funktional unterscheiden?
-  - Kann ich erklären, warum man nicht das ganze Datenblatt linear lesen muss?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - datenblatt
-  - register
-level: mittel
+title: "Datenblatt als Arbeitsgrundlage für Register und Pins verstehen"
+description: "Verstehe das Datenblatt nicht als Lesetext, sondern als technische Arbeitsgrundlage für Pinfunktionen, Register, Zeitbedingungen und elektrische Grenzen."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "datenblatt-als-arbeitsgrundlage-fuer-register-und-pins-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Datenblatt ist **kein Lesetext für den Feierabend**. Es ist eine technische Arbeitsgrundlage. Wer ruhig damit arbeitet, sucht nicht "alles", sondern immer **eine konkrete Information zur aktuellen Frage**.

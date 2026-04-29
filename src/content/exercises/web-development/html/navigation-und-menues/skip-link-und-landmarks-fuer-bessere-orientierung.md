@@ -1,32 +1,15 @@
 ---
 title: "HTML – Seitenstruktur mit Skip-Link verbessern"
 description: "Plane eine zugängliche Grundstruktur für eine Seite mit wiederholter Navigation."
-subject: web-development
+subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "navigation-und-menues"
-  - "skip-link-und-landmarks-fuer-bessere-orientierung"
+topicPath: ["html", "navigation-und-menues", "skip-link-und-landmarks-fuer-bessere-orientierung"]
 taskId: "wd-html-v95-skip-link-landmarks"
-tags:
-  - "web development"
-  - "html"
-  - "navigation"
-  - "landmarks"
-  - "accessibility"
-hintPoints:
-  - "Trenne zuerst sichtbares Verhalten, semantische Bedeutung und technische Umsetzung."
-  - "Begründe deine Entscheidung aus Nutzerperspektive, nicht nur aus Code-Sicht."
-  - "Prüfe am Ende, ob die Lösung ohne Ratespiel verständlich bleibt."
-selfCheckPoints:
-  - "Ist der betroffene UI-Baustein eindeutig benannt?"
-  - "Ist die technische Entscheidung fachlich begründet?"
-  - "Gibt es eine klare Verbesserung gegenüber dem Ausgangszustand?"
-transferIdeas:
-  - "Übertrage die Entscheidung auf eine zweite Komponente derselben Seite."
-  - "Formuliere eine kurze Prüfregel, die ein Team beim Review verwenden könnte."
-reflectionPrompt: "Welche kleine Änderung hätte hier die größte Wirkung auf Verständlichkeit oder Zugänglichkeit?"
-level: mittel
+tags: ["web-development", "HTML", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
 ## Ausgangslage

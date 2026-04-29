@@ -1,13 +1,19 @@
 ---
-title: Programmstruktur – Grundlagen
-description: Verstehe, warum Programme gegliedert werden und wie Struktur das Lesen und Schreiben von Code erleichtert.
-subject: informatik
-section: programmstruktur
-level: einfach
-tags: [programmstruktur, code, informatik]
+title: "Programmstruktur – Grundlagen"
+description: "Verstehe, warum Programme gegliedert werden und wie Struktur das Lesen und Schreiben von Code erleichtert."
+subject: "informatik"
+section: "programmstruktur"
+topicPath: ["programmstruktur-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["programmstruktur", "code", "informatik"]
 draft: false
 ---
-
 Programme bestehen nicht nur aus einzelnen Befehlen. Damit Code lesbar, verständlich und erweiterbar bleibt, braucht er eine **klare Struktur**.
 
 ## Was bedeutet Programmstruktur?

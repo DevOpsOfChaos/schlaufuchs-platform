@@ -1,48 +1,19 @@
 ---
-title: Dangling Pointer nach delete verstehen
-description: Verstehe, warum ein Pointer nach dem Freigeben des Zielspeichers noch existieren kann, aber nicht mehr sicher auf ein nutzbares Objekt zeigt.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - dynamischer-speicher
-  - dangling-pointer-nach-delete-verstehen
-learningGoals:
-  - Du erklärst, was ein Dangling Pointer direkt nach <code>delete</code> bedeutet.
-  - Du unterscheidest sauber zwischen einem noch vorhandenen Pointernamen und einem noch gültigen Ziel.
-  - Du erkennst Folgezugriffe nach der Freigabe als eigentliche Gefahrstelle.
-practiceIdeas:
-  - Prüfe nach kleinen Speicherbeispielen bewusst, was direkt nach <code>delete</code> noch existiert.
-  - Markiere in Snippets die erste Zeile, die nach der Freigabe problematisch wird.
-  - Formuliere in Worten, warum ein vorhandener Pointername kein Gültigkeitsbeweis ist.
-commonMistakes:
-  - Zu glauben, dass nach <code>delete</code> automatisch auch der Pointer verschwindet.
-  - Einen noch existierenden Pointer mit einem noch gültigen Objekt gleichzusetzen.
-  - Den Zustand direkt nach <code>delete</code> mit späteren Gegenmaßnahmen zu vermischen.
-keyTakeaways:
-  - Nach <code>delete</code> kann der Pointer selbst noch existieren.
-  - Sein früheres Ziel ist aber nicht mehr sicher nutzbar.
-  - "Die kritische Frage lautet danach: Wo passiert der nächste Zugriff?"
-recognizeSignals:
-  - Ein Beispiel enthält <code>delete p;</code> und später wird <code>p</code> erneut benutzt.
-  - Du sollst entscheiden, ob ein Pointer nach der Freigabe noch sicher ist.
-  - Es geht um die Trennung zwischen Variablenexistenz und Zielgültigkeit.
-selfCheckPoints:
-  - Kann ich erklären, warum der Pointer nach <code>delete</code> noch existieren kann?
-  - Kann ich sagen, warum sein Ziel trotzdem nicht mehr sicher ist?
-  - Kann ich die erste problematische Folgezeile benennen?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - pointer
-  - delete
-  - speicher
+title: "Dangling Pointer nach delete verstehen"
+description: "Verstehe, warum ein Pointer nach dem Freigeben des Zielspeichers noch existieren kann, aber nicht mehr sicher auf ein nutzbares Objekt zeigt."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "dangling-pointer-nach-delete-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Dangling Pointer ist kein Speicherleck und auch nicht schon die spätere Rettungsfrage <code>p = nullptr;</code>. Der Speicher wurde bereits beendet – aber ein Pointername trägt die alte Adresse noch weiter mit sich herum. Kritisch wird der Zustand dann, wenn später erneut über ihn zugegriffen wird.

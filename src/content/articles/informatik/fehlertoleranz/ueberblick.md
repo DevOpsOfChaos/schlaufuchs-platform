@@ -1,33 +1,19 @@
 ---
 title: "Fehlertoleranz"
 description: "Fehlertoleranz beschreibt die Fähigkeit eines Systems, trotz einzelner Fehler weiter sinnvoll zu funktionieren. Sie umfasst Redundanz, Rückfallstrategien und klare Fehlergrenzen."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "fehlertoleranz"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Fehlertoleranz."
-  - "Du kannst Fehlertoleranz in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["fehlertoleranz", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Unbegrenzte Wiederholungen als robuste Fehlerbehandlung zu betrachten."
-keyTakeaways:
-  - "Fehlertoleranz beschreibt die Fähigkeit eines Systems, trotz einzelner Fehler weiter sinnvoll zu funktionieren."
-  - "Wichtig sind vor allem redundanz, timeouts und retries und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Fehlertoleranz, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Fehlertoleranz dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "informatik"
-  - "grundlagen"
-  - "fehlertoleranz"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Fehlertoleranz
 
 Fehlertoleranz beschreibt die Fähigkeit eines Systems, trotz einzelner Fehler weiter sinnvoll zu funktionieren. Sie umfasst Redundanz, Rückfallstrategien und klare Fehlergrenzen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

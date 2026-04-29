@@ -1,13 +1,19 @@
 ---
-title: CSS – Grundlagen
-description: Verstehe, wie CSS das Aussehen und die Darstellung von HTML-Inhalten steuert.
-subject: web-development
-section: css
-level: einfach
-tags: [css, grundlagen, styling]
+title: "CSS – Grundlagen"
+description: "Verstehe, wie CSS das Aussehen und die Darstellung von HTML-Inhalten steuert."
+subject: "web-development"
+section: "css"
+topicPath: ["css-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["css", "grundlagen", "styling"]
 draft: false
 ---
-
 CSS bestimmt, wie HTML-Inhalte aussehen. Während HTML die Struktur einer Seite beschreibt, kümmert sich CSS um Farben, Abstände, Schriftgrößen und viele weitere Darstellungsfragen.
 
 ## Was ist CSS?

@@ -1,33 +1,19 @@
 ---
 title: "Alerting"
 description: "Alerting informiert aktiv über Zustände, die Aufmerksamkeit erfordern. Gute Alarme sind relevant, handlungsfähig und nicht zu laut."
-subject: informatik
+subject: "informatik"
 section: "Informatik"
-topicPath:
-  - "alerting"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Alerting."
-  - "Du kannst Alerting in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["alerting", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Für jede kleine Abweichung einen Alarm zu erzeugen."
-keyTakeaways:
-  - "Alerting informiert aktiv über Zustände, die Aufmerksamkeit erfordern."
-  - "Wichtig sind vor allem schwellwerte und slos, alarmmüdigkeit und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Alerting, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Alerting dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "informatik"
-  - "grundlagen"
-  - "alerting"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Informatik"]
 draft: false
 ---
-
 # Alerting
 
 Alerting informiert aktiv über Zustände, die Aufmerksamkeit erfordern. Gute Alarme sind relevant, handlungsfähig und nicht zu laut. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

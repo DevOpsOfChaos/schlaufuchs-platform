@@ -3,32 +3,17 @@ title: "Design Tokens"
 description: "Allgemeiner Überblick über Design Tokens als benannte Gestaltungswerte in digitalen Oberflächen."
 subject: "web-development"
 section: "Designsysteme"
-topicPath:
-  - "design-tokens"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["design-tokens", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Tokens nur nach Rohwerten benannt. Dann bleibt unklar, wann welcher Wert verwendet werden soll."
-keyTakeaways:
-  - "Design Tokens machen Gestaltung benennbar und wartbar. Sie helfen, Oberflächen konsistent weiterzuentwickeln."
-  - "Ein Token-System ist kein Ersatz für Gestaltung. Es dokumentiert Entscheidungen, aber die Entscheidungen selbst müssen sinnvoll getroffen werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "web development"
-  - "design tokens"
-  - "designsystem"
-  - "css"
+tags: ["web-development", "Designsysteme"]
 draft: false
 ---
-
 # Design Tokens
 
 Design Tokens sind benannte Werte für wiederkehrende Gestaltungsentscheidungen, zum Beispiel Farben, Abstände, Schriftgrößen oder Radien.

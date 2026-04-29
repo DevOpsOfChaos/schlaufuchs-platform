@@ -1,44 +1,19 @@
 ---
-title: Einheiten und Größen umrechnen
-description: Verstehe Größen als Messangaben mit Einheit und rechne Längen, Zeiten oder Massen sicher um.
-subject: mathematik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - einheiten-und-groessen
-tags:
-  - einheiten
-  - groessen
-  - messen
-  - umrechnen
-learningGoals:
-  - "Du unterscheidest Zahlenwert und Einheit sauber."
-  - "Du rechnest gebräuchliche Größen in passende Einheiten um."
-  - "Du prüfst, ob Ergebnisse zur gefragten Größe und Situation passen."
-practiceIdeas:
-  - "Markiere vor jeder Rechnung die Einheit separat."
-  - "Vergleiche benachbarte Einheiten bewusst über ihren Faktor."
-  - "Kontrolliere am Ende, ob das Ergebnis kleiner oder größer werden musste."
-commonMistakes:
-  - "Nur die Zahl zu verändern und die Einheit mitzuschleppen."
-  - "Richtung und Faktor beim Umrechnen zu verwechseln."
-  - "Flächen- oder Volumeneinheiten wie lineare Einheiten zu behandeln."
-keyTakeaways:
-  - "Eine Größe besteht aus Zahl und Einheit."
-  - "Umrechnen verändert die Darstellung, nicht die zugrunde liegende Größe."
-  - "Plausibilitätskontrolle gehört zum Rechnen mit Einheiten dazu."
-recognizeSignals:
-  - "Es geht um cm, m, kg, g, min, h oder ähnliche Messgrößen."
-  - "Du sollst Angaben in andere Einheiten übertragen oder vergleichen."
-  - "Ein Beispiel prüft, ob ein Ergebnis der Situation nach sinnvoll ist."
-selfCheckPoints:
-  - "Kann ich erklären, was beim Umrechnen gleich bleibt?"
-  - "Kann ich die richtige Richtung der Umrechnung begründen?"
-  - "Kann ich einen unplausiblen Zahlenwert erkennen?"
-level: einfach
+title: "Einheiten und Größen umrechnen"
+description: "Verstehe Größen als Messangaben mit Einheit und rechne Längen, Zeiten oder Massen sicher um."
+subject: "mathematik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "einheiten-und-groessen-umrechnen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Grundlagen"]
 draft: false
 ---
-
 ## Warum dieses Thema wichtig ist
 
 Viele Rechenfehler entstehen nicht bei der Zahl selbst, sondern bei der Einheit. Wer Größen sicher lesen und umrechnen kann, versteht Aufgaben aus Mathematik, Technik und Alltag deutlich besser.

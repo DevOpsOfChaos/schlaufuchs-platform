@@ -3,20 +3,12 @@ title: "Lösung – High-Pegel nicht absolut setzen"
 description: "Musterlösung zu High-Pegel nicht absolut setzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "daten-und-signale"
-  - "logikpegel"
-  - "high-pegel-nicht-absolut-setzen-v113"
+topicPath: ["daten-und-signale", "logikpegel", "high-pegel-nicht-absolut-setzen-v113"]
 taskId: "v113-elektrotechnik-high-pegel-nicht-absolut-setzen-v113"
 relatedExercise: "elektrotechnik/daten-und-signale/logikpegel/high-pegel-nicht-absolut-setzen-v113"
-tags:
-  - "elektrotechnik"
-  - "strukturcheck"
-  - "unterthema"
-  - "high-pegel-nicht-absolut-setzen-v113"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **High-Pegel nicht absolut setzen**.

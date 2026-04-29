@@ -3,26 +3,12 @@ title: "Lösung: Firewall-Regeln lesen: Aufgabe B"
 description: "Musterlösung zur Aufgabe linux-v192-019b im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "netzwerk-und-zugriff"
-  - "firewall-regeln-lesen"
-  - "loesung-b"
+topicPath: ["sanierung-v192", "firewall-regeln-lesen-loesung-b"]
 taskId: "linux-v192-019b"
 relatedExercise: "linux/sanierung-v192/firewall-regeln-lesen-aufgabe-b"
-tags:
-  - "netzwerk-und-zugriff"
-  - "firewall"
-  - "regeln"
-  - "lesen"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-019b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Firewall-Regeln lesen“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

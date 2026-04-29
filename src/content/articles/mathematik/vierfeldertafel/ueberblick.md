@@ -1,36 +1,19 @@
 ---
 title: "Vierfeldertafel"
 description: "Eine Vierfeldertafel ordnet zwei Ja-Nein-Merkmale in einer Tabelle und macht gemeinsame und bedingte Häufigkeiten sichtbar."
-subject: mathematik
+subject: "mathematik"
 section: "Stochastik"
-topicPath:
-  - "vierfeldertafel"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Vierfeldertafel als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["vierfeldertafel", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird die Bezugsgruppe gewechselt, ohne dass Zähler und Nenner angepasst werden."
-keyTakeaways:
-  - "Eine Vierfeldertafel ordnet zwei Ja-Nein-Merkmale in einer Tabelle und macht gemeinsame und bedingte Häufigkeiten sichtbar."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Vierfeldertafel, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Vierfeldertafel in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "wahrscheinlichkeit"
-  - "daten"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Stochastik"]
 draft: false
 ---
-
 # Vierfeldertafel
 
 Eine Vierfeldertafel ordnet zwei Ja-Nein-Merkmale in einer Tabelle und macht gemeinsame und

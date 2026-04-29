@@ -1,46 +1,19 @@
 ---
-title: Member-Operatoren und freie Operatorfunktionen vergleichen
-description: Verstehe, wann eine Operatorfunktion als Member und wann eher als freie Hilfsfunktion gedacht werden kann.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - member-operatoren-und-freie-operatorfunktionen-vergleichen
-learningGoals:
-  - Du unterscheidest Member-Operatorfunktionen und freie Operatorfunktionen.
-  - Du erklaerst die Rolle von this beim Member-Operator.
-  - Du liest binaere Operatoren ruhiger auf beide Implementierungsarten hin.
-practiceIdeas:
-  - Uebersetze einen binaeren Operator einmal als Member und einmal als freie Funktion.
-  - Markiere, welches Argument bei einer Member-Variante implizit links steht.
-  - Pruefe, welche Operatoren laut Regel nur als Member erlaubt sind.
-commonMistakes:
-  - Zu denken, beide Varianten seien immer voellig gleichwertig.
-  - Das linke implizite Objekt bei Member-Funktionen zu uebersehen.
-  - Stream-Operatoren wie << vorschnell als Member der eigenen Klasse zu erwarten.
-keyTakeaways:
-  - Member-Funktionen haben ein implizites linkes Objekt.
-  - Freie Funktionen bekommen beide Operanden sichtbar uebergeben.
-  - Die Wahl beeinflusst die Leselogik und teils auch, was ueberhaupt erlaubt ist.
-recognizeSignals:
-  - Im Code steht operator+ in einer Klasse oder ausserhalb davon.
-  - Es geht um this oder um das linke Argument.
-  - Ein Stream-Operator wie << taucht auf.
-selfCheckPoints:
-  - Kann ich bei einer Member-Variante das implizite linke Objekt benennen?
-  - Kann ich beide Schreibweisen in Worten unterscheiden?
-  - Kann ich erklaeren, warum manche Operatoren eher freie Funktionen sind?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - operatoren
-  - memberfunktion
+title: "Member-Operatoren und freie Operatorfunktionen vergleichen"
+description: "Verstehe, wann eine Operatorfunktion als Member und wann eher als freie Hilfsfunktion gedacht werden kann."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "member-operatoren-und-freie-operatorfunktionen-vergleichen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei Operatorueberladung in C++ gibt es zwei grosse Denkweisen: Die Operatorfunktion kann **in der Klasse** stehen oder **ausserhalb der Klasse** als freie Hilfsfunktion formuliert sein. Beide Formen beschreiben denselben Operator, aber nicht dieselbe Leselogik.

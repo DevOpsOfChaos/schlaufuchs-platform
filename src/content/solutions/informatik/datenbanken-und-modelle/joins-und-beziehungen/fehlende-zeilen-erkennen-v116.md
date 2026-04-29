@@ -3,22 +3,12 @@ title: "Lösung: fehlende Zeilen erkennen"
 description: "Musterlösung zur Aufgabe „fehlende Zeilen erkennen“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "datenbanken-und-modelle"
-  - "joins-und-beziehungen"
-  - "fehlende-zeilen-erkennen-v116"
+topicPath: ["datenbanken-und-modelle", "joins-und-beziehungen", "fehlende-zeilen-erkennen-v116"]
 taskId: "fehlende-zeilen-erkennen-v116"
 relatedExercise: "informatik/datenbanken-und-modelle/joins-und-beziehungen/fehlende-zeilen-erkennen-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "joins und beziehungen"
-  - "fehlende zeilen erkennen"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

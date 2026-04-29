@@ -3,23 +3,12 @@ title: "Lösung – ssh -vvv gezielt zur Fehlersuche nutzen"
 description: "Musterlösung zu ssh -vvv gezielt zur Fehlersuche nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Netzwerk"
-topicPath:
-  - "netzwerk-und-ssh"
-  - "verbindungen-und-diagnose"
-  - "v110-teil-3"
-  - "ssh-vvv-nur-gezielt-zur-fehlersuche-nutzen"
+topicPath: ["netzwerk-und-ssh", "verbindungen-und-diagnose", "v110-teil-3", "ssh-vvv-nur-gezielt-zur-fehlersuche-nutzen"]
 taskId: "v110-linux-ssh-vvv-nur-gezielt-zur-fehlersuche-nutzen"
 relatedExercise: "linux/netzwerk-und-ssh/verbindungen-und-diagnose/v110-teil-3/ssh-vvv-nur-gezielt-zur-fehlersuche-nutzen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "netzwerk-und-ssh"
-  - "verbindungen-und-diagnose"
-  - "ssh-vvv-gezielt-zur-fehlersuche-nutzen"
+tags: ["linux", "Netzwerk", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **ssh -vvv gezielt zur Fehlersuche nutzen**.

@@ -1,36 +1,19 @@
 ---
 title: "Timeout-Konzepte"
 description: "Timeouts begrenzen, wie lange ein System auf eine Antwort, Ressource oder Operation wartet."
-subject: informatik
+subject: "informatik"
 section: "Verteilte Systeme"
-topicPath:
-  - "timeout-konzepte"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Timeout-Konzepte als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["timeout-konzepte", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Standard-Timeouts übernommen, ohne sie an Last, Netzwerk und Geschäftsprozess anzupassen."
-keyTakeaways:
-  - "Timeouts begrenzen, wie lange ein System auf eine Antwort, Ressource oder Operation wartet."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Timeout-Konzepte, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Timeout-Konzepte in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "timeouts"
-  - "robustheit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Verteilte Systeme"]
 draft: false
 ---
-
 # Timeout-Konzepte
 
 Timeouts begrenzen, wie lange ein System auf eine Antwort, Ressource oder Operation wartet. Diese Überblicksseite ordnet das Thema ruhig und allgemein ein. Sie ist nicht als Aufgabe oder Einzelfall gedacht, sondern als Einstieg, bevor konkrete Situationen, Werkzeuge, Formeln oder Fehlersuchen betrachtet werden.

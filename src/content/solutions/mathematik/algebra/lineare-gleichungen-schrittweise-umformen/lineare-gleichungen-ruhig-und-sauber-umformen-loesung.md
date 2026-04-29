@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Lineare Gleichungen ruhig und sauber umformen
-description: Erste festgehaltene Musterlösung zur Aufgabe MATH-ALGEBRA-GLEICHUNG-001.
-subject: mathematik
-section: Algebra
-topicPath:
-  - algebra
-  - lineare-gleichungen-schrittweise-umformen
-  - lineare-gleichungen-ruhig-und-sauber-umformen-loesung
-taskId: MATH-ALGEBRA-GLEICHUNG-001
-relatedExercise: src/content/exercises/mathematik/algebra/lineare-gleichungen-schrittweise-umformen/lineare-gleichungen-ruhig-und-sauber-umformen.md
-tags:
-  - mathematik
-  - algebra
-  - gleichungen
-  - loesung
-  - task-id
+title: "Musterlösung – Lineare Gleichungen ruhig und sauber umformen"
+description: "Erste festgehaltene Musterlösung zur Aufgabe MATH-ALGEBRA-GLEICHUNG-001."
+subject: "mathematik"
+section: "Algebra"
+topicPath: ["algebra", "lineare-gleichungen-schrittweise-umformen", "lineare-gleichungen-ruhig-und-sauber-umformen"]
+taskId: "MATH-ALGEBRA-GLEICHUNG-001"
+relatedExercise: "src/content/exercises/mathematik/algebra/lineare-gleichungen-schrittweise-umformen/lineare-gleichungen-ruhig-und-sauber-umformen.md"
+tags: ["mathematik", "Algebra", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Schrittweise lösen
 
 Gegeben: `4x + 6 = 22`

@@ -1,22 +1,14 @@
 ---
 title: "Lösung: Spannungsteiler unter Last einordnen"
 description: "Musterlösung zu: Spannungsteiler unter Last einordnen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - "praxis"
-  - "spannungsteiler"
+topicPath: ["praxis", "spannungsteiler", "unter-last-einordnen"]
 taskId: "ET-PR-SPT-179-001"
 relatedExercise: "src/content/exercises/elektrotechnik/praxis/spannungsteiler/unter-last-einordnen.md"
-tags:
-  - "elektrotechnik"
-  - "spannungsteiler"
-  - "last"
-  - "widerstand"
-  - "loesung"
+tags: ["elektrotechnik", "Praxis", "loesung"]
 draft: false
 ---
-
 ## Lösungsgedanke
 
 Diese Musterlösung trennt zuerst Begriff, Schaltungszusammenhang und Begründung. Dadurch wird nicht nur ein Ergebnis genannt, sondern der fachliche Weg sichtbar.

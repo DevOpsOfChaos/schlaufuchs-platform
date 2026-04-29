@@ -1,44 +1,19 @@
 ---
-title: Nullstelle linearer Funktionen verstehen
-description: Verstehe, was die Nullstelle einer linearen Funktion bedeutet und warum sie den Punkt markiert, an dem der Funktionswert genau null wird.
-subject: mathematik
-section: Funktionen
-topicPath:
-  - funktionen
-  - nullstelle-linearer-funktionen-verstehen
-learningGoals:
-  - Du erklärst die Bedeutung der Nullstelle bei linearen Funktionen.
-  - Du erkennst die Nullstelle als Schnittpunkt mit der x-Achse.
-  - Du beschreibst Nullstellen eher als inhaltlichen Grenzpunkt als als reine Rechenübung.
-practiceIdeas:
-  - Lies bei einem Graphen ab, wo die Gerade die x-Achse schneidet.
-  - Beschreibe in einem Alltagsmodell, was der Punkt mit y = 0 bedeutet.
-  - Berechne die Nullstelle und kontrolliere sie als Punkt auf der x-Achse.
-commonMistakes:
-  - die Nullstelle mit dem y-Achsenabschnitt zu verwechseln.
-  - nur die Formel umzustellen, ohne den inhaltlichen Punkt zu verstehen.
-  - x = 0 und y = 0 durcheinanderzubringen.
-keyTakeaways:
-  - Die Nullstelle ist der x-Wert, bei dem der Funktionswert null wird.
-  - Im Graphen liegt sie dort, wo die Gerade die x-Achse schneidet.
-  - Inhaltlich markiert sie oft einen Übergang oder Grenzpunkt.
-recognizeSignals:
-  - Es geht um Schnittpunkte mit der x-Achse oder um den Punkt, an dem etwas „auf null fällt“.
-  - Du sollst berechnen oder deuten, wann ein linearer Zusammenhang keinen Wert mehr hat.
-  - In Beispielen zählt die Bedeutung des Punktes, nicht nur das Umformen.
-selfCheckPoints:
-  - Kann ich Nullstelle und y-Achsenabschnitt unterscheiden?
-  - Kann ich erklären, warum an der Nullstelle y = 0 gilt?
-  - Kann ich die Nullstelle im Graphen und in einer Gleichung wiederfinden?
-tags:
-  - mathematik
-  - funktionen
-  - nullstelle
-  - linear
-level: mittel
+title: "Nullstelle linearer Funktionen verstehen"
+description: "Verstehe, was die Nullstelle einer linearen Funktion bedeutet und warum sie den Punkt markiert, an dem der Funktionswert genau null wird."
+subject: "mathematik"
+section: "Funktionen"
+topicPath: ["funktionen", "nullstelle-linearer-funktionen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
-
 ## Grundidee
 
 Die Nullstelle einer linearen Funktion ist der Punkt, an dem der Funktionswert genau null wird. Fachlich heißt das: **Die Gerade trifft die x-Achse**.

@@ -3,44 +3,17 @@ title: "Web-Projektpraxis – Content Security Policy als Denkrichtung verstehen
 description: "Lerne CSP nicht als magische Zeile, sondern als kontrollierte Entscheidung darüber, welche Skripte, Stile und Ressourcen eine Seite verwenden darf."
 subject: "web-development"
 section: "Projektpraxis"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "content-security-policy-als-denkrichtung-verstehen"
-learningGoals:
-  - "Du erklärst die Kernidee von „Content Security Policy als Denkrichtung verstehen“."
-  - "Du trennst sichtbare Nutzerwirkung, technische Ursache und organisatorische Prüffrage."
-  - "Du leitest aus einem kleinen Web-Szenario eine robuste Projektregel ab."
-practiceIdeas:
-  - "Prüfe eine vorhandene Web-Seite mit genau diesem Blick und notiere drei konkrete Beobachtungen."
-  - "Formuliere aus einer technischen Regel eine kurze Review-Frage."
-  - "Verbinde eine technische Maßnahme mit einer sichtbaren Auswirkung für Nutzende."
-commonMistakes:
-  - "CSP blind aktivieren"
-  - "alle Quellen mit Stern erlauben"
-  - "gebrochene Funktionen ohne Analyse wegklicken"
-keyTakeaways:
-  - "Vertrauen ausdrücklich begrenzen"
-  - "Projektpraxis wird besser, wenn Entscheidungen klein, prüfbar und dokumentiert bleiben."
-  - "Robuste Web-Arbeit denkt Idealfall, Fehlerfall und späteres Ändern gemeinsam."
-recognizeSignals:
-  - "Eine Seite funktioniert im Idealfall, aber der Veröffentlichungs- oder Fehlerfall ist unklar."
-  - "Du sollst nicht nur Code schreiben, sondern Betrieb, Wartung oder Review mitdenken."
-  - "Eine technische Entscheidung braucht eine einfache Gegenprobe."
-selfCheckPoints:
-  - "Kann ich das Risiko ohne Fachjargon erklären?"
-  - "Kann ich eine konkrete Prüffrage formulieren?"
-  - "Kann ich zeigen, was sich für Nutzende oder Wartende verbessert?"
-tags:
-  - "web development"
-  - "csp"
-  - "sicherheit"
-  - "browser"
-  - "ressourcen"
+topicPath: ["projektpraxis", "betrieb-und-release", "content-security-policy-als-denkrichtung-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
+tags: ["web-development", "Projektpraxis"]
 draft: false
 ---
-
 ## Grundidee
 
 Eine Content Security Policy beschreibt, welchen Quellen eine Seite vertrauen darf. Dadurch wird sichtbar, ob Skripte, Styles, Bilder oder Frames aus zu vielen Richtungen kommen. Fachlich ist CSP deshalb auch ein Architekturspiegel.

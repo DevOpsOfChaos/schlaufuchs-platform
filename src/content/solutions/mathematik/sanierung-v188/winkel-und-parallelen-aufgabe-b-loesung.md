@@ -3,22 +3,12 @@ title: "Lösung: Winkel und Parallelen: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-024b."
 subject: "mathematik"
 section: "geometrie-messen-und-begruenden"
-topicPath:
-  - "geometrie-messen-und-begruenden"
-  - "winkel-und-parallelen"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "winkel-und-parallelen-aufgabe-b"]
 taskId: "mat-v188-024b"
 relatedExercise: "mathematik/sanierung-v188/winkel-und-parallelen-aufgabe-b"
-tags:
-  - "winkel"
-  - "parallelen"
-  - "geometrie"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "geometrie-messen-und-begruenden", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-024b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

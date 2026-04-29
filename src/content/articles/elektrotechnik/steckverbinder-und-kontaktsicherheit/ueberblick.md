@@ -1,36 +1,19 @@
 ---
 title: "Steckverbinder und Kontaktsicherheit"
 description: "Steckverbinder verbinden elektrische Signale und Versorgung mechanisch lösbar. Ihre Qualität entscheidet mit darüber, ob eine Schaltung dauerhaft zuverlässig arbe..."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Aufbau und Messung"
-topicPath:
-  - "steckverbinder-und-kontaktsicherheit"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Steckverbinder und Kontaktsicherheit als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["steckverbinder-und-kontaktsicherheit", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft wird nur die Pinzahl betrachtet. Für zuverlässige Systeme sind Kontaktqualität und mechanische Führung ebenso wichtig."
-keyTakeaways:
-  - "Steckverbinder verbinden elektrische Signale und Versorgung mechanisch lösbar."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Steckverbinder und Kontaktsicherheit, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Steckverbinder und Kontaktsicherheit in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "steckverbinder"
-  - "zuverlaessigkeit"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Aufbau und Messung"]
 draft: false
 ---
-
 # Steckverbinder und Kontaktsicherheit
 
 Steckverbinder verbinden elektrische Signale und Versorgung mechanisch lösbar. Ihre Qualität

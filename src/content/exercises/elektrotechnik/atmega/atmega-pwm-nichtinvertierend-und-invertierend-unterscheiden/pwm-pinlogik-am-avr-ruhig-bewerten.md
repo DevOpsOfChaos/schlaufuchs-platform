@@ -1,32 +1,17 @@
 ---
-title: PWM-Pinlogik am AVR ruhig bewerten
-description: Begründe, warum derselbe Compare-Wert bei nichtinvertierender und invertierender PWM am ATmega unterschiedlich wirkt.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - timer-und-pwm
-  - atmega-pwm-nichtinvertierend-und-invertierend-unterscheiden
-  - pwm-pinlogik-am-avr-ruhig-bewerten
-taskId: ET-ATMEGA-PWM-210
-level: mittel
+title: "PWM-Pinlogik am AVR ruhig bewerten"
+description: "Begründe, warum derselbe Compare-Wert bei nichtinvertierender und invertierender PWM am ATmega unterschiedlich wirkt."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-pwm-nichtinvertierend-und-invertierend-unterscheiden", "pwm-pinlogik-am-avr-ruhig-bewerten"]
+taskId: "ET-ATMEGA-PWM-210"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - atmega
-  - pwm
-  - compare
-hintPoints:
-  - Trenne Vergleichspunkt im Timer und sichtbare Reaktion am Pin.
-  - Frage nicht nur „welcher Wert?“, sondern auch „welche Logik?“.
-selfCheckPoints:
-  - Kannst du nichtinvertierende und invertierende PWM sicher unterscheiden?
-  - Kannst du erklären, warum derselbe OCR-Wert verschieden wirken kann?
-transferIdeas:
-  - Übertrage die Idee auf LED-Treiber, aktive-Low-Ausgänge oder Leistungstreiber.
-reflectionPrompt: "Was war für dich schwieriger zu trennen: der Zeitpunkt im Timer oder die sichtbare Logik am Pin?"
 ---
-
 ## Aufgabe 1
 
 Erkläre in eigenen Worten den Unterschied zwischen **nichtinvertierender** und **invertierender** PWM am AVR.

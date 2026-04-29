@@ -3,20 +3,12 @@ title: "Lösung – Flow-Layout vor Positionierung nutzen"
 description: "Musterlösung zu Flow-Layout vor Positionierung nutzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "css"
-  - "css-und-layout"
-  - "flow-layout-vor-positionierung-nutzen-v113"
+topicPath: ["css", "css-und-layout", "flow-layout-vor-positionierung-nutzen-v113"]
 taskId: "v113-web-development-flow-layout-vor-positionierung-nutzen-v113"
 relatedExercise: "web-development/css/css-und-layout/flow-layout-vor-positionierung-nutzen-v113"
-tags:
-  - "web development"
-  - "strukturcheck"
-  - "unterthema"
-  - "flow-layout-vor-positionierung-nutzen-v113"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Flow-Layout vor Positionierung nutzen**.

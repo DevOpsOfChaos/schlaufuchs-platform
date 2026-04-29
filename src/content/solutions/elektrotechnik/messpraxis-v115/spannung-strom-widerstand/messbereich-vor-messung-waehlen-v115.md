@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Messbereich vor Messung wählen"
 description: "Musterlösung zu Messbereich vor Messung wählen mit Trennkante und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "messpraxis-v115"
-  - "spannung-strom-widerstand"
-  - "messbereich-vor-messung-waehlen-v115"
+topicPath: ["messpraxis-v115", "spannung-strom-widerstand", "messbereich-vor-messung-waehlen-v115"]
 taskId: "elektrotechnik-messbereich-vor-messung-waehlen-v115"
 relatedExercise: "elektrotechnik/messpraxis-v115/spannung-strom-widerstand/messbereich-vor-messung-waehlen-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "messpraxis"
-  - "spannung, strom und widerstand"
-  - "lösung"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Messbereich vor Messung wählen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

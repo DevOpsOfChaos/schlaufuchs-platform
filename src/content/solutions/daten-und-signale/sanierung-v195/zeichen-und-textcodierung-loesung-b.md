@@ -3,24 +3,12 @@ title: "Lösung: Zeichen und Textcodierung: Aufgabe B"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-007b im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "darstellung-und-code"
-  - "zeichen-und-textcodierung"
-  - "loesung-b"
-
+topicPath: ["sanierung-v195", "zeichen-und-textcodierung-loesung-b"]
 taskId: "daten-und-signale-v195-007b"
 relatedExercise: "daten-und-signale/sanierung-v195/zeichen-und-textcodierung-aufgabe-b"
-tags:
-  - "zeichen"
-  - "textcodierung"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-007b`
 
 Ausgangsauftrag: Übertrage das Thema Zeichen und Textcodierung auf ein zweites Beispiel und formuliere eine kurze Prüfung.

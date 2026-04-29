@@ -3,26 +3,12 @@ title: "Lösung: Dateirechte mit rwx lesen: Aufgabe B"
 description: "Musterlösung zur Aufgabe linux-v192-003b im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "identitaet-und-rechte"
-  - "dateirechte-mit-rwx-lesen"
-  - "loesung-b"
+topicPath: ["sanierung-v192", "dateirechte-mit-rwx-lesen-loesung-b"]
 taskId: "linux-v192-003b"
 relatedExercise: "linux/sanierung-v192/dateirechte-mit-rwx-lesen-aufgabe-b"
-tags:
-  - "identitaet-und-rechte"
-  - "dateirechte"
-  - "rwx"
-  - "lesen"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-003b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Dateirechte mit rwx lesen“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

@@ -1,46 +1,19 @@
 ---
-title: ATmega – Blockierende Delays und Reaktivität verstehen
-description: Verstehe, warum lange Wartezeiten im AVR-Programm oft die Reaktionsfähigkeit verschlechtern und wann ein Zeitdenken mit Timer oder Zuständen ruhiger ist.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - programmstruktur-und-reaktivitaet
-  - atmega-delay-schleifen-und-reaktivitaet-verstehen
-learningGoals:
-  - Du erklärst, warum blockierende Delays ein AVR-Programm zeitweise blind machen können.
-  - Du beschreibst Reaktivität eher als Programmstruktur als als „läuft doch irgendwie“.
-  - Du erkennst, wann Timerdenken oder Zustandslogik ruhiger ist als langes Warten in der Hauptschleife.
-practiceIdeas:
-  - Vergleiche eine blinkende LED mit Delay gegen eine Tasterabfrage im selben Programm.
-  - Prüfe, was während einer Wartezeit im AVR-Programm gerade nicht mehr bearbeitet wird.
-  - Lies Reaktionsprobleme eher als Strukturfrage und nicht nur als „Controller ist langsam“.
-commonMistakes:
-  - Zu denken, Delays seien immer harmlos, solange die Aufgabe klein wirkt.
-  - Verzögerung und Zeitstruktur des Gesamtprogramms nicht zu trennen.
-  - Eine schlechte Reaktionsfähigkeit sofort der Hardware statt der Programmstruktur zuzuschreiben.
-keyTakeaways:
-  - Ein blockierendes Delay hält den Programmfluss oft vollständig an.
-  - Während dieser Wartezeit wird anderes Polling oder Reagieren in der Hauptschleife leicht verpasst.
-  - Für reaktive AVR-Programme sind Timerdenken oder Zustandslogik oft ruhiger als langes Warten.
-recognizeSignals:
-  - Es geht um _delay_ms, Warten, Reaktionszeit, Polling oder verpasste Eingaben.
-  - Du sollst erklären, warum eine Schaltung „zu spät“ oder nur ruckartig reagiert.
-  - In Aufgaben wird deutlich, dass während einer Wartephase andere Ereignisse nicht bearbeitet werden.
-selfCheckPoints:
-  - Kann ich erklären, warum ein langes Delay die Hauptschleife blockiert?
-  - Kann ich Reaktivität als Strukturproblem beschreiben?
-  - Kann ich sagen, wann Delay noch okay und wann es didaktisch zu grob wird?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - delay
-  - timer
-level: mittel
+title: "ATmega – Blockierende Delays und Reaktivität verstehen"
+description: "Verstehe, warum lange Wartezeiten im AVR-Programm oft die Reaktionsfähigkeit verschlechtern und wann ein Zeitdenken mit Timer oder Zuständen ruhiger ist."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-delay-schleifen-und-reaktivitaet-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein AVR arbeitet in vielen Einstiegsprogrammen mit einfachen Verzögerungen wie `_delay_ms(500)`. Das ist für erste Blinkbeispiele nützlich. Problematisch wird es dann, wenn das Programm **während dieser Wartezeit eigentlich noch auf etwas anderes reagieren sollte**.

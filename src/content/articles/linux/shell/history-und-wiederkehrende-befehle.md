@@ -1,44 +1,19 @@
 ---
-title: History und wiederkehrende Befehle
-description: Verstehe, wie die Shell frühere Befehle speichert und warum das Wiederverwenden von Befehlen Zeit spart und Fehler reduziert.
-subject: linux
-section: Shell
-topicPath:
-  - shell
-  - history-und-wiederkehrende-befehle
-tags:
-  - history
-  - shell
-  - befehl
-  - wiederholung
-learningGoals:
-  - "Du erklärst, warum die Shell eine Befehls-History speichert."
-  - "Du beschreibst, wie frühere Befehle beim erneuten Arbeiten helfen."
-  - "Du erkennst, dass Wiederverwendung von Befehlen auch Fehlersuche und Kontrolle unterstützt."
-practiceIdeas:
-  - "Beobachte, wie sich wiederkehrende Befehle in einer kleinen Arbeitsfolge häufen."
-  - "Nutze history bewusst, um einen Ablauf nachzuvollziehen."
-  - "Vergleiche spontanes Tippen mit kontrolliertem Wiederverwenden."
-commonMistakes:
-  - "History nur als Komfort statt als Arbeitsgedächtnis zu sehen."
-  - "Frühere Befehle zu wiederholen, ohne ihre Wirkung zu prüfen."
-  - "Den Verlauf nicht zur Fehlersuche oder Rekonstruktion eines Ablaufs zu nutzen."
-keyTakeaways:
-  - "Die History speichert frühere Befehle für spätere Nutzung."
-  - "Wiederkehrende Befehle lassen sich schneller und kontrollierter erneut nutzen."
-  - "Der Verlauf hilft auch beim Nachvollziehen und Prüfen von Arbeitsschritten."
-recognizeSignals:
-  - "Es geht um wiederholte Befehle, Befehlsverlauf oder das Nachvollziehen eines Ablaufs."
-  - "Du sollst erklären, warum Verlauf und Wiederverwendung in der Shell nützlich sind."
-  - "Ein Beispiel fragt nach schneller Wiederholung, Kontrolle oder Rekonstruktion von Schritten."
-selfCheckPoints:
-  - "Kann ich erklären, warum eine Befehls-History beim Arbeiten hilft?"
-  - "Kann ich History als Hilfe für Wiederholung und Kontrolle beschreiben?"
-  - "Kann ich begründen, warum wiederverwendete Befehle trotzdem bewusst geprüft werden sollten?"
-level: einfach
+title: "History und wiederkehrende Befehle"
+description: "Verstehe, wie die Shell frühere Befehle speichert und warum das Wiederverwenden von Befehlen Zeit spart und Fehler reduziert."
+subject: "linux"
+section: "Shell"
+topicPath: ["shell", "history-und-wiederkehrende-befehle"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
-
 ## Warum dieses Thema wichtig ist
 
 Shell-Arbeit besteht oft nicht aus völlig neuen Befehlen, sondern aus wiederkehrenden Mustern. Gerade deshalb ist der Befehlsverlauf mehr als eine Komfortfunktion: Er hilft beim Arbeiten, Prüfen und Nachvollziehen.

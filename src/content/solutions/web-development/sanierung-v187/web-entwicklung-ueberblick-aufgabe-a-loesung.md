@@ -3,21 +3,12 @@ title: "Lösung: Web-Entwicklung im Überblick: Grundordnung"
 description: "Musterlösung zur Aufgabe web-v187-001a im Web-Development-Block v187."
 subject: "web-development"
 section: "grundlagen"
-topicPath: 
-  - "grundlagen"
-  - "web-entwicklung-ueberblick"
-  - "loesung-a"
+topicPath: ["sanierung-v187", "web-entwicklung-ueberblick-aufgabe-a"]
 taskId: "web-v187-001a"
 relatedExercise: "web-development/sanierung-v187/web-entwicklung-ueberblick-aufgabe-a"
-tags: 
-  - "web-development"
-  - "grundlagen"
-  - "ueberblick"
-  - "loesung"
-  - "v187"
+tags: ["web-development", "grundlagen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v187-001a`
 
     Ausgangsauftrag: Erstelle für eine kleine Infoseite eine Bestandteilliste und ordne jede Datei HTML, CSS, JavaScript oder Asset zu.

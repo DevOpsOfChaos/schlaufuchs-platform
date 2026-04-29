@@ -3,20 +3,12 @@ title: "Lösung – Prozess und Programm unterscheiden"
 description: "Musterlösung zu Prozess und Programm unterscheiden mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "benutzer-und-prozesse"
-  - "prozess-und-programm-unterscheiden-v113"
+topicPath: ["shell", "benutzer-und-prozesse", "prozess-und-programm-unterscheiden-v113"]
 taskId: "v113-linux-prozess-und-programm-unterscheiden-v113"
 relatedExercise: "linux/shell/benutzer-und-prozesse/prozess-und-programm-unterscheiden-v113"
-tags:
-  - "linux"
-  - "strukturcheck"
-  - "unterthema"
-  - "prozess-und-programm-unterscheiden-v113"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Prozess und Programm unterscheiden**.

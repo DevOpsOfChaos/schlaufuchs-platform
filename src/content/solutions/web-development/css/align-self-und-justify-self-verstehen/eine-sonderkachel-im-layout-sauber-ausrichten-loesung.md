@@ -1,22 +1,14 @@
 ---
-title: Musterlösung – Eine Sonderkachel im Layout sauber ausrichten
-description: Musterlösung zur Aufgabe WEB-CSS-LAYOUT-205.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - align-self-und-justify-self-verstehen
-  - eine-sonderkachel-im-layout-sauber-ausrichten-loesung
-taskId: WEB-CSS-LAYOUT-205
-relatedExercise: src/content/exercises/web-development/css/align-self-und-justify-self-verstehen/eine-sonderkachel-im-layout-sauber-ausrichten.md
-tags:
-  - css
-  - loesung
-  - task-id
+title: "Musterlösung – Eine Sonderkachel im Layout sauber ausrichten"
+description: "Musterlösung zur Aufgabe WEB-CSS-LAYOUT-205."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "align-self-und-justify-self-verstehen", "eine-sonderkachel-im-layout-sauber-ausrichten"]
+taskId: "WEB-CSS-LAYOUT-205"
+relatedExercise: "src/content/exercises/web-development/css/align-self-und-justify-self-verstehen/eine-sonderkachel-im-layout-sauber-ausrichten.md"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 Zum Leitbild passt ruhiger **Fall A**, also der Grid-Fall mit <code>align-self: end</code> und <code>justify-self: end</code>. Dort sitzt die Sonderkachel in einem klaren Feld und beide Einzelregeln lassen sich fachlich sauber zusammen lesen. Im zweiten und dritten Ausschnitt geht es zwar ebenfalls um Ausnahmen, aber nicht mehr um dieselbe Grid-Situation. Genau deshalb wäre es didaktisch zu unscharf, die Fälle einfach gleichzusetzen.

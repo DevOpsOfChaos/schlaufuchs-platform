@@ -1,23 +1,14 @@
 ---
-title: Musterlösung – Steuerzeichen und sichtbare Zeichen trennen
-description: Musterlösung zur Aufgabe INF-DATA-ASCII-002.
-subject: informatik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - daten-und-information
-  - steuerzeichen-und-druckbare-zeichen-unterscheiden
-  - steuerzeichen-und-sichtbare-zeichen-trennen-loesung
-taskId: INF-DATA-ASCII-002
-relatedExercise: src/content/exercises/informatik/grundlagen/daten-und-information/steuerzeichen-und-druckbare-zeichen-unterscheiden/steuerzeichen-und-sichtbare-zeichen-trennen.md
-tags:
-  - informatik
-  - ascii
-  - loesung
-  - task-id
+title: "Musterlösung – Steuerzeichen und sichtbare Zeichen trennen"
+description: "Musterlösung zur Aufgabe INF-DATA-ASCII-002."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "daten-und-information", "steuerzeichen-und-druckbare-zeichen-unterscheiden", "steuerzeichen-und-sichtbare-zeichen-trennen"]
+taskId: "INF-DATA-ASCII-002"
+relatedExercise: "src/content/exercises/informatik/grundlagen/daten-und-information/steuerzeichen-und-druckbare-zeichen-unterscheiden/steuerzeichen-und-sichtbare-zeichen-trennen.md"
+tags: ["informatik", "Grundlagen", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Gruppieren
 
 Druckbare Zeichen: A, ?, 7.  

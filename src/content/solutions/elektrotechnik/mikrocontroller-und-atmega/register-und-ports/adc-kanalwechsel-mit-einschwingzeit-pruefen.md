@@ -3,21 +3,12 @@ title: "Lösung – ADC-Kanalwechsel mit Einschwingzeit prüfen"
 description: "Musterlösung zu adc-kanalwechsel mit einschwingzeit prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-und-atmega"
-  - "register-und-ports"
-  - "adc-kanalwechsel-mit-einschwingzeit-pruefen"
+topicPath: ["mikrocontroller-und-atmega", "register-und-ports", "adc-kanalwechsel-mit-einschwingzeit-pruefen"]
 taskId: "v112-elektrotechnik-adc-kanalwechsel-mit-einschwingzeit-pruefen"
 relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/register-und-ports/adc-kanalwechsel-mit-einschwingzeit-pruefen"
-tags:
-  - "elektrotechnik"
-  - "v112"
-  - "feinstruktur"
-  - "mikrocontroller-und-atmega"
-  - "adc-kanalwechsel-mit-einschwingzeit-pruefen"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Mikrocontroller Register und Ports**.

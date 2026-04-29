@@ -1,31 +1,17 @@
 ---
-title: Datenblattfragen ruhig zu Suchorten zuordnen
-description: Ordne typische Mikrocontroller-Fragen den passenden Datenblatt-Bereichen zu und begründe deine Suchstrategie.
-subject: elektrotechnik
-section: mikrocontroller
-topicPath:
-  - mikrocontroller
-  - grundlagen
-  - datenblatt-als-arbeitsgrundlage-fuer-register-und-pins-verstehen
-  - datenblattfragen-ruhig-zu-suchorten-zuordnen
-taskId: ELE-MCU-GEN-103
-level: mittel
+title: "Datenblattfragen ruhig zu Suchorten zuordnen"
+description: "Ordne typische Mikrocontroller-Fragen den passenden Datenblatt-Bereichen zu und begründe deine Suchstrategie."
+subject: "elektrotechnik"
+section: "mikrocontroller"
+topicPath: ["mikrocontroller", "datenblatt-als-arbeitsgrundlage-fuer-register-und-pins-verstehen", "datenblattfragen-ruhig-zu-suchorten-zuordnen"]
+taskId: "ELE-MCU-GEN-103"
+tags: ["elektrotechnik", "mikrocontroller", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - datenblatt
-hintPoints:
-  - Frage zuerst, welche Informationsart überhaupt gesucht wird.
-  - Trenne Pinfrage, Registerfrage, Grenzwertfrage und Timingfrage.
-selfCheckPoints:
-  - Kannst du eine unklare technische Frage in eine gezielte Datenblatt-Suche übersetzen?
-  - Kannst du begründen, warum nicht alles im selben Kapitel steht?
-transferIdeas:
-  - Übertrage die Suchlogik auf ADC, UART, Timer oder GPIO-Themen.
-reflectionPrompt: "Welche Frage würdest du bei einem Datenblatt zuerst formulieren, bevor du den PDF-Viewer öffnest?"
 ---
-
 ## Aufgabe 1: Suchorte zuordnen
 
 Ordne diese Fragen jeweils dem ruhigsten Datenblatt-Bereich zu:

@@ -3,22 +3,12 @@ title: "Lösung – Cache-Strategie nach Inhalt wählen"
 description: "Musterlösung zu cache-strategie nach inhalt wählen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "performance-und-sicherheit"
-  - "cache-strategie-nach-inhalt-waehlen"
+topicPath: ["projektpraxis", "betrieb-und-release", "performance-und-sicherheit", "cache-strategie-nach-inhalt-waehlen"]
 taskId: "v112-web-development-cache-strategie-nach-inhalt-waehlen"
 relatedExercise: "web-development/projektpraxis/betrieb-und-release/performance-und-sicherheit/cache-strategie-nach-inhalt-waehlen"
-tags:
-  - "web-development"
-  - "v112"
-  - "feinstruktur"
-  - "projektpraxis"
-  - "cache-strategie-nach-inhalt-waehlen"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Betrieb, Performance und Sicherheit**.

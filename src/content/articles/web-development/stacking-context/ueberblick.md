@@ -1,33 +1,19 @@
 ---
 title: "Stacking Context"
 description: "Ein Stacking Context ist ein eigener Stapelkontext für überlagerte Elemente. Er entscheidet, welche Elemente vor oder hinter anderen erscheinen."
-subject: web-development
+subject: "web-development"
 section: "Web Development"
-topicPath:
-  - "stacking-context"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Stacking Context."
-  - "Du kannst Stacking Context in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["stacking-context", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "z-index immer weiter zu erhöhen, ohne den Kontext zu prüfen."
-keyTakeaways:
-  - "Ein Stacking Context ist ein eigener Stapelkontext für überlagerte Elemente."
-  - "Wichtig sind vor allem z-index innerhalb eines kontexts, neue kontexte durch position, transform oder opacity und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Stacking Context, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Stacking Context dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "web development"
-  - "grundlagen"
-  - "stacking context"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web Development"]
 draft: false
 ---
-
 # Stacking Context
 
 Ein Stacking Context ist ein eigener Stapelkontext für überlagerte Elemente. Er entscheidet, welche Elemente vor oder hinter anderen erscheinen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

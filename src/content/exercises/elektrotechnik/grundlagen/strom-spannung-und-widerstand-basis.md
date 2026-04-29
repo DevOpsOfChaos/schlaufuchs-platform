@@ -1,12 +1,17 @@
 ---
-title: Strom, Spannung und Widerstand anwenden
-description: Diese Aufgabe vertieft die Unterscheidung der drei Grundgrößen und übt einfache Anwendungen des Ohmschen Gesetzes.
-subject: elektrotechnik
-section: Grundlagen
-level: einfach
+title: "Strom, Spannung und Widerstand anwenden"
+description: "Diese Aufgabe vertieft die Unterscheidung der drei Grundgrößen und übt einfache Anwendungen des Ohmschen Gesetzes."
+subject: "elektrotechnik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "strom-spannung-und-widerstand-basis"]
+taskId: "AUTO-STROM-SPANNUNG-UND-WIDERSTAND-BASIS"
+tags: ["elektrotechnik", "Grundlagen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Arbeitsauftrag
 
 Bearbeite die Aufgaben sorgfältig. Achte darauf, die Begriffe Strom, Spannung und Widerstand nicht zu verwechseln.

@@ -1,33 +1,17 @@
 ---
-title: Bitmasken an AVR-Registern ruhig lesen
-description: Erkläre an kleinen AVR-Beispielen, wie einzelne Bits gesetzt, gelöscht oder geprüft werden, ohne andere Registerbits zu beschädigen.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - register-und-bitoperationen
-  - atmega-bitmasken-und-bitoperationen-verstehen
-  - bitmasken-an-avr-registern-ruhig-lesen
-taskId: ET-ATMEGA-REG-201
-level: einfach
+title: "Bitmasken an AVR-Registern ruhig lesen"
+description: "Erkläre an kleinen AVR-Beispielen, wie einzelne Bits gesetzt, gelöscht oder geprüft werden, ohne andere Registerbits zu beschädigen."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-bitmasken-und-bitoperationen-verstehen", "bitmasken-an-avr-registern-ruhig-lesen"]
+taskId: "ET-ATMEGA-REG-201"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - avr
-  - register
-hintPoints:
-  - Trenne zuerst Register, Bitposition und Absicht.
-  - Prüfe, ob nur ein Bit oder das ganze Register verändert wird.
-selfCheckPoints:
-  - Kannst du Setzen, Löschen und Prüfen sauber auseinanderhalten?
-  - Kannst du erklären, warum eine Maske andere Bits in Ruhe lässt?
-transferIdeas:
-  - Übertrage die Logik auf DDR-, PORT- und Timerregister.
-reflectionPrompt: "Welche ruhige Lesefrage hilft dir am meisten, wenn ein AVR-Ausdruck nur wie Symbolcode aussieht?"
 ---
-
 Gegeben sind diese Zeilen:
 
 ```c

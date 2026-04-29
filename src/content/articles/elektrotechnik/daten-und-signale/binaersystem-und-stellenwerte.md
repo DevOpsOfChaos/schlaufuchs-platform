@@ -1,44 +1,19 @@
 ---
-title: Binärsystem und Stellenwerte
-description: Verstehe, wie das Binärsystem mit Stellenwerten arbeitet und warum es für digitale Technik grundlegend ist.
-subject: elektrotechnik
-section: Daten und Signale
-topicPath:
-  - daten-und-signale
-  - binaersystem-und-stellenwerte
-tags:
-  - binaer
-  - stellenwert
-  - digital
-  - bit
-learningGoals:
-  - "Du erklärst das Binärsystem als Stellenwertsystem mit Basis 2."
-  - "Du liest einfache Binärzahlen über ihre Stellenwerte."
-  - "Du ordnest das Binärsystem als Grundlage digitaler Technik ein."
-practiceIdeas:
-  - "Schreibe zu jeder Stelle einer Binärzahl ihren Wert auf."
-  - "Vergleiche Dezimalsystem und Binärsystem bewusst über die Basis."
-  - "Ordne Bits als Zustände und nicht als vage 'digitale Zeichen' ein."
-commonMistakes:
-  - "Die Stellenwerte wie im Dezimalsystem weiterzuzählen."
-  - "1 und 0 nur als Symbole statt als Zustände mit Wert zu sehen."
-  - "Binärzahlen rein auswendig statt über Stellenwerte zu lesen."
-keyTakeaways:
-  - "Das Binärsystem arbeitet mit der Basis 2."
-  - "Jede Stelle hat einen festen Wert."
-  - "Digitale Technik nutzt diese Darstellungsform, weil zwei Zustände technisch gut abbildbar sind."
-recognizeSignals:
-  - "Es geht um Bits, 0 und 1, Stellenwerte oder digitale Darstellung."
-  - "Du sollst Binärzahlen lesen, erklären oder umrechnen."
-  - "Ein Beispiel fragt, warum gerade zwei Zustände technisch so wichtig sind."
-selfCheckPoints:
-  - "Kann ich die Stellenwerte einer Binärzahl benennen?"
-  - "Kann ich erklären, warum 1011 nicht wie eine Dezimalzahl gelesen wird?"
-  - "Kann ich den Zusammenhang zwischen Bits und Zuständen beschreiben?"
-level: einfach
+title: "Binärsystem und Stellenwerte"
+description: "Verstehe, wie das Binärsystem mit Stellenwerten arbeitet und warum es für digitale Technik grundlegend ist."
+subject: "elektrotechnik"
+section: "Daten und Signale"
+topicPath: ["daten-und-signale", "binaersystem-und-stellenwerte"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Daten und Signale"]
 draft: false
 ---
-
 ## Warum dieses Thema wichtig ist
 
 Digitale Technik arbeitet oft mit zwei klaren Zuständen. Genau deshalb ist das Binärsystem so zentral: Es bildet Informationen in einer Form ab, die technisch gut verarbeitet werden kann.

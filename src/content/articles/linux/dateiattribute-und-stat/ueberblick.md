@@ -1,36 +1,19 @@
 ---
 title: "Dateiattribute und stat"
 description: "Dateiattribute beschreiben Eigenschaften einer Datei, etwa Typ, Größe, Besitzer, Rechte, Zeitstempel und Inode. Das Werkzeug stat macht viele dieser Informationen..."
-subject: linux
+subject: "linux"
 section: "Dateien"
-topicPath:
-  - "dateiattribute-und-stat"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Dateiattribute und stat als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["dateiattribute-und-stat", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird der Dateiname mit der Datei selbst gleichgesetzt, obwohl mehrere Namen auf denselben Inode zeigen können."
-keyTakeaways:
-  - "Dateiattribute beschreiben Eigenschaften einer Datei, etwa Typ, Größe, Besitzer, Rechte, Zeitstempel und Inode."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Dateiattribute und stat, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Dateiattribute und stat in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "dateien"
-  - "stat"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dateien"]
 draft: false
 ---
-
 # Dateiattribute und stat
 
 Dateiattribute beschreiben Eigenschaften einer Datei, etwa Typ, Größe, Besitzer, Rechte,

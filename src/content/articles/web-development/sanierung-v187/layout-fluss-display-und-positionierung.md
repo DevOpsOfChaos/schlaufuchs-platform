@@ -3,39 +3,17 @@ title: "Layoutfluss, Display und Positionierung"
 description: "Erkenne zuerst den normalen Dokumentfluss, bevor du Elemente gezielt daraus löst."
 subject: "web-development"
 section: "css"
-topicPath: 
-  - "css-und-layout"
-  - "layoutfluss"
-learningGoals: 
-  - "Grundlogik des Layouts ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Ordne Elemente einer Beispielseite nach normalem Dokumentfluss und Display-Verhalten."
-  - "Erkläre, warum eine absolut positionierte Infobox andere Inhalte überdecken kann."
-commonMistakes: 
-  - "Position absolute wird für normales Layout benutzt."
-  - "Inline- und Blockverhalten werden verwechselt."
-  - "Layoutprobleme werden mit zufälligen Pixelwerten repariert."
-keyTakeaways: 
-  - "Ein Layout ist stabiler, wenn es zuerst im normalen Fluss funktioniert."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "Ein Layout ist stabiler, wenn es zuerst im normalen Fluss funktioniert."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "layout-fluss-display-und-positionierung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags: 
-  - "css"
-  - "layout"
-  - "display"
-  - "position"
-  - "web-development"
+tags: ["web-development", "css"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Layoutfluss, Display und Positionierung](/schlaufuchs-platform/images/web-development/sanierung-v187/layout-fluss-display-und-positionierung.svg)
 
     Layoutfluss, Display und Positionierung ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

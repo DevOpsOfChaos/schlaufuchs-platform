@@ -3,22 +3,12 @@ title: "Lösung: Definitionsbereich prüfen: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-047a."
 subject: "mathematik"
 section: "funktionen-und-graphen"
-topicPath:
-  - "funktionen-und-graphen"
-  - "graphen-deuten"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "definitionsbereich-pruefen-aufgabe-a"]
 taskId: "mat-v188-047a"
 relatedExercise: "mathematik/sanierung-v188/definitionsbereich-pruefen-aufgabe-a"
-tags:
-  - "definitionsbereich"
-  - "funktionen"
-  - "pruefen"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "funktionen-und-graphen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-047a`
 
 Eine mögliche Lösung:

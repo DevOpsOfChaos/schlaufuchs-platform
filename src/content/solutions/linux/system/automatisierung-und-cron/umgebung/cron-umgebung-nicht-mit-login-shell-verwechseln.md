@@ -3,23 +3,12 @@ title: "Lösung – Cron-Umgebung nicht mit Login-Shell verwechseln"
 description: "Musterlösung zu Cron-Umgebung mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "system"
-  - "automatisierung-und-cron"
-  - "umgebung"
-  - "cron-umgebung-nicht-mit-login-shell-verwechseln"
+topicPath: ["system", "automatisierung-und-cron", "umgebung", "cron-umgebung-nicht-mit-login-shell-verwechseln"]
 taskId: "v111-linux-cron-umgebung-nicht-mit-login-shell-verwechseln"
 relatedExercise: "linux/system/automatisierung-und-cron/umgebung/cron-umgebung-nicht-mit-login-shell-verwechseln"
-tags:
-  - "linux"
-  - "betrieb"
-  - "unterthema"
-  - "system"
-  - "automatisierung-und-cron"
-  - "cron-umgebung-nicht-mit-login-shell-verwechseln"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Cron-Umgebung**.

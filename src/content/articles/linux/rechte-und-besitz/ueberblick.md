@@ -1,36 +1,19 @@
 ---
 title: "Rechte und Besitz"
 description: "Allgemeiner Überblick über Dateirechte, Besitzer, Gruppen und Zugriffskontrolle unter Linux."
-subject: linux
+subject: "linux"
 section: "Dateisystem"
-topicPath:
-  - "rechte-und-besitz"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst Besitzer, Gruppe und andere als Grundrollen."
-  - "Du kannst Lesen, Schreiben und Ausführen grundsätzlich einordnen."
-  - "Du verstehst, warum Rechte Schutz und Zusammenarbeit steuern."
+topicPath: ["rechte-und-besitz", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Rechte pauschal mit `777` zu lösen."
-  - "Ausführrechte bei Dateien und Verzeichnissen gleich zu deuten."
-keyTakeaways:
-  - "Linux-Rechte steuern Zugriff nach Nutzerrollen und Aktionen."
-  - "Zu offene Rechte sind ein Sicherheitsrisiko, zu enge Rechte verursachen Funktionsfehler."
-recognizeSignals:
-  - "Es geht um `permission denied`, `chmod`, `chown`, Besitzer, Gruppen oder ausführbare Dateien."
-selfCheckPoints:
-  - "Kann ich erklären, wer eine Datei lesen, ändern oder ausführen darf?"
-level: einfach
-tags:
-  - "linux"
-  - "rechte"
-  - "besitz"
-  - "chmod"
-  - "chown"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dateisystem"]
 draft: false
 ---
-
 # Rechte und Besitz
 Rechte und Besitz bestimmen unter Linux, wer auf eine Datei oder ein Verzeichnis zugreifen darf. Jede Datei hat einen Besitzer und eine Gruppe. Die klassischen Rechte unterscheiden drei Rollen: Besitzer, Gruppe und andere. Für jede Rolle können Lesen, Schreiben und Ausführen erlaubt oder verboten sein.
 

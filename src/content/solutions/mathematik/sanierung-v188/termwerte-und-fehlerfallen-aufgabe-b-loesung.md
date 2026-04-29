@@ -3,22 +3,12 @@ title: "Lösung: Termwerte und Fehlerfallen: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-008b."
 subject: "mathematik"
 section: "rechenstrategien-und-kontrolle"
-topicPath:
-  - "rechenstrategien-und-kontrolle"
-  - "termwerte-und-fehlerfallen"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "termwerte-und-fehlerfallen-aufgabe-b"]
 taskId: "mat-v188-008b"
 relatedExercise: "mathematik/sanierung-v188/termwerte-und-fehlerfallen-aufgabe-b"
-tags:
-  - "terme"
-  - "fehler"
-  - "kontrolle"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "rechenstrategien-und-kontrolle", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-008b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

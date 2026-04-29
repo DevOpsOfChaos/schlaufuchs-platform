@@ -3,22 +3,12 @@ title: "Lösung – Rollback-Kriterium vor Release festlegen"
 description: "Musterlösung zu rollback-kriterium vor release festlegen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "performance-und-sicherheit"
-  - "rollback-kriterium-vor-release-festlegen"
+topicPath: ["projektpraxis", "betrieb-und-release", "performance-und-sicherheit", "rollback-kriterium-vor-release-festlegen"]
 taskId: "v112-web-development-rollback-kriterium-vor-release-festlegen"
 relatedExercise: "web-development/projektpraxis/betrieb-und-release/performance-und-sicherheit/rollback-kriterium-vor-release-festlegen"
-tags:
-  - "web-development"
-  - "v112"
-  - "feinstruktur"
-  - "projektpraxis"
-  - "rollback-kriterium-vor-release-festlegen"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Betrieb, Performance und Sicherheit**.

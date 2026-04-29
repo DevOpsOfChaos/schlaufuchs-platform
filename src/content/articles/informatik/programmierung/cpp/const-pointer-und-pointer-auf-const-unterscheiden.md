@@ -1,47 +1,19 @@
 ---
-title: Const-Pointer und Pointer auf const unterscheiden
-description: Verstehe den Unterschied zwischen einem festen Pointer und einem Pointer, der nur lesend auf einen Wert zugreifen soll.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - pointer-und-adressen
-  - const-pointer-und-pointer-auf-const-unterscheiden
-learningGoals:
-  - Du erklärst den Unterschied zwischen <code>int * const p</code> und <code>const int *p</code>.
-  - Du erkennst, ob in einem Ausdruck die Adresse fest bleibt oder der Zielwert nicht verändert werden darf.
-  - Du liest die beiden Schreibweisen systematischer statt sie nur optisch ähnlich zu finden.
-practiceIdeas:
-  - Sprich beide Deklarationen laut in klaren Worten aus.
-  - "Markiere in kleinen Beispielen, was fest ist: die Adresse oder der Zielwert."
-  - Vergleiche, welche Änderungen bei beiden Varianten erlaubt oder verboten sind.
-commonMistakes:
-  - Beide Schreibweisen nur als "irgendwas mit const" zu behandeln.
-  - Zu übersehen, ob sich <code>const</code> auf den Pointer oder auf den Zielwert bezieht.
-  - Zu glauben, beide Varianten hätten dieselbe praktische Wirkung.
-keyTakeaways:
-  - "<code>const int *p</code> bedeutet: Über <code>p</code> soll der Zielwert nicht verändert werden."
-  - "<code>int * const p</code> bedeutet: Die gespeicherte Adresse in <code>p</code> bleibt fest."
-  - Eine ruhige Lesestrategie macht die scheinbar ähnlichen Schreibweisen klar unterscheidbar.
-recognizeSignals:
-  - In einer Deklaration steht <code>const</code> direkt beim Grundtyp oder direkt beim Pointer.
-  - Du sollst entscheiden, ob Umhängen oder Verändern des Zielwerts erlaubt ist.
-  - In Aufgaben geht es um erlaubte und verbotene Änderungen bei Pointer-Deklarationen.
-selfCheckPoints:
-  - Kann ich sagen, was bei <code>const int *p</code> geschützt ist?
-  - Kann ich sagen, was bei <code>int * const p</code> fest bleibt?
-  - Kann ich beide Deklarationen in klare Alltagssprache übersetzen?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - pointer
-  - const
+title: "Const-Pointer und Pointer auf const unterscheiden"
+description: "Verstehe den Unterschied zwischen einem festen Pointer und einem Pointer, der nur lesend auf einen Wert zugreifen soll."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "const-pointer-und-pointer-auf-const-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei Pointer-Deklarationen kann <code>const</code> an verschiedenen Stellen stehen. Genau deshalb reicht es nicht, nur das Wort zu sehen. Du musst ruhig lesen, **was eigentlich fest oder geschützt ist**.

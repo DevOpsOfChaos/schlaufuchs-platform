@@ -3,22 +3,12 @@ title: "Lösung: Einfügen und Suchen unterscheiden"
 description: "Musterlösung zur Aufgabe „Einfügen und Suchen unterscheiden“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "datenstrukturen-im-einsatz"
-  - "listen-und-indizes"
-  - "einfuegen-und-suchen-unterscheiden-v116"
+topicPath: ["datenstrukturen-im-einsatz", "listen-und-indizes", "einfuegen-und-suchen-unterscheiden-v116"]
 taskId: "einfuegen-und-suchen-unterscheiden-v116"
 relatedExercise: "informatik/datenstrukturen-im-einsatz/listen-und-indizes/einfuegen-und-suchen-unterscheiden-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "listen und indizes"
-  - "einfuegen und suchen unterscheiden"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

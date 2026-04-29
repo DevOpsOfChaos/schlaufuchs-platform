@@ -3,23 +3,12 @@ title: "Lösung – Public Key und Private Key streng trennen"
 description: "Musterlösung zu Public und Private Key mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "SSH"
-topicPath:
-  - "ssh"
-  - "schluessel-und-agent"
-  - "public-private-key"
-  - "public-key-und-private-key-streng-trennen"
+topicPath: ["ssh", "schluessel-und-agent", "public-private-key", "public-key-und-private-key-streng-trennen"]
 taskId: "v109-linux-public-key-und-private-key-streng-trennen"
 relatedExercise: "linux/ssh/schluessel-und-agent/public-private-key/public-key-und-private-key-streng-trennen"
-tags:
-  - "linux"
-  - "shell"
-  - "betrieb"
-  - "ssh"
-  - "schluessel-und-agent"
-  - "public und private key"
+tags: ["linux", "SSH", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Public und Private Key**.

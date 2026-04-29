@@ -3,20 +3,12 @@ title: "Lösung – Scheitelpunkt als Wendepunkt vermeiden"
 description: "Musterlösung zu Scheitelpunkt als Wendepunkt vermeiden mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "funktionen"
-  - "quadratische-funktionen"
-  - "scheitelpunkt-als-wendepunkt-vermeiden-v113"
+topicPath: ["funktionen", "quadratische-funktionen", "scheitelpunkt-als-wendepunkt-vermeiden-v113"]
 taskId: "v113-mathematik-scheitelpunkt-als-wendepunkt-vermeiden-v113"
 relatedExercise: "mathematik/funktionen/quadratische-funktionen/scheitelpunkt-als-wendepunkt-vermeiden-v113"
-tags:
-  - "mathematik"
-  - "strukturcheck"
-  - "unterthema"
-  - "scheitelpunkt-als-wendepunkt-vermeiden-v113"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Scheitelpunkt als Wendepunkt vermeiden**.

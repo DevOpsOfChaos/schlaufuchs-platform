@@ -1,36 +1,19 @@
 ---
 title: "ESD und empfindliche Bauteile"
 description: "Einordnung elektrostatischer Entladung und des Schutzes empfindlicher Bauteile."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Sicherheit"
-topicPath:
-  - "esd-und-empfindliche-bauteile"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst ESD und empfindliche Bauteile als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["esd-und-empfindliche-bauteile", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird ESD ignoriert, solange Bauteile zunächst funktionieren."
-keyTakeaways:
-  - "ESD kann Bauteile auch ohne sichtbaren Funken schädigen."
-  - "Schutz beginnt bei Handhabung und Layout."
-  - "Externe Anschlüsse brauchen besondere Aufmerksamkeit."
-recognizeSignals:
-  - "Es geht um ESD und empfindliche Bauteile als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich ESD und empfindliche Bauteile in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "esd"
-  - "schutz"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Sicherheit"]
 draft: false
 ---
-
 # ESD und empfindliche Bauteile
 
 ![Schaubild zu ESD und empfindlichen Bauteilen.](/schlaufuchs-platform/images/overviews/v150/esd-und-empfindliche-bauteile.svg)

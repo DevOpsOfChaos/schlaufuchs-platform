@@ -1,34 +1,19 @@
 ---
 title: "Fehlerzustände und robuste UI"
 description: "Überblick über robuste Benutzeroberflächen, die Ladezustände, Fehler und leere Ergebnisse verständlich behandeln."
-subject: web-development
+subject: "web-development"
 section: "Qualität und Betrieb"
-topicPath:
-  - "fehlerzustaende-und-robuste-ui"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst Lade-, Fehler-, Leer- und Erfolgszustände als UI-Grundformen."
-  - "Du verstehst, warum robuste UI nicht nur den Idealfall zeigt."
-  - "Du kannst hilfreiche Fehlermeldungen von technischen Rohfehlern unterscheiden."
+topicPath: ["fehlerzustaende-und-robuste-ui", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur den Erfolgszustand zu gestalten."
-  - "Technische Fehlermeldungen ungefiltert an Nutzende auszugeben."
-keyTakeaways:
-  - "Robuste UI macht auch unsichere Situationen verständlich und handhabbar."
-  - "Gute Fehlerzustände erklären Problem, Auswirkung und mögliche nächste Schritte."
-recognizeSignals:
-  - "Es geht um Loading, Error, Empty State, Retry, Validierung, Netzwerkfehler oder fehlende Daten."
-selfCheckPoints:
-  - "Kann ich für eine Datenliste sagen, wie sie beim Laden, bei leerem Ergebnis und bei Fehler aussieht?"
-level: einfach
-tags:
-  - "web development"
-  - "ui"
-  - "fehlerzustände"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Qualität und Betrieb"]
 draft: false
 ---
-
 # Fehlerzustände und robuste UI
 
 ## Grundidee

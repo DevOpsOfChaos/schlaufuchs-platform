@@ -1,34 +1,19 @@
 ---
 title: "sed und awk"
 description: "Allgemeiner Überblick über sed und awk als klassische Textwerkzeuge."
-subject: linux
+subject: "linux"
 section: "Textwerkzeuge"
-topicPath:
-  - "sed-und-awk"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst sed und awk als Grundbegriff einordnen."
-  - "Du kennst zentrale Eigenschaften und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse zu diesem Thema erkennen."
+topicPath: ["sed-und-awk", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden komplexe Einzeiler ohne Lesbarkeit gebaut. Ab einem gewissen Umfang ist ein kleines Skript klarer."
-keyTakeaways:
-  - "Sed und awk gehören zur klassischen Shell-Werkzeugkiste."
-  - "sed und awk sollte immer im fachlichen Zusammenhang betrachtet werden."
-recognizeSignals:
-  - "Es geht um Grundlagen, typische Begriffe oder Abgrenzungen rund um sed und awk."
-selfCheckPoints:
-  - "Kann ich erklären, woran man sed und awk erkennt und wovon es abzugrenzen ist?"
-level: einfach
-tags:
-  - "linux"
-  - "sed"
-  - "awk"
-  - "textwerkzeuge"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Textwerkzeuge"]
 draft: false
 ---
-
 # sed und awk
 
 sed und awk sind Werkzeuge zur Verarbeitung von Textströmen.

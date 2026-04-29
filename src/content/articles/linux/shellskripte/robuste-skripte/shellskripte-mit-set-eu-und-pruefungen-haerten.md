@@ -3,46 +3,17 @@ title: "Linux – Shellskripte mit set -eu und Prüfungen härten"
 description: "Mache kleine Skripte robuster, indem du fehlende Variablen, Fehlercodes und gefährliche Annahmen früh sichtbar machst."
 subject: "linux"
 section: "Shellskripte"
-topicPath:
-  - "shellskripte"
-  - "robuste-skripte"
-  - "shellskripte-mit-set-eu-und-pruefungen-haerten"
-learningGoals:
-  - "Du erklärst die Kernidee von „Skriptrobustheit“ in eigenen Worten."
-  - "Du ordnest das Thema einem klaren Unterthema zu statt es in einem Sammelbereich zu verlieren."
-  - "Du leitest eine kleine Gegenprobe für echte Aufgaben oder Projekte ab."
-practiceIdeas:
-  - "Markiere zuerst, welche Unterfrage wirklich gestellt ist."
-  - "Notiere eine typische Fehlannahme und eine passende Gegenprobe."
-  - "Übertrage die Denkbewegung auf ein zweites kleines Beispiel."
-commonMistakes:
-  - "rm mit leerer Variable riskieren"
-  - "Fehlercodes ignorieren"
-  - "Skript nur im eigenen Ordner testen"
-keyTakeaways:
-  - "Skriptrobustheit wird klarer, wenn Zustand, Ursache und Prüfschritt getrennt werden."
-  - "Kleine Unterthemen sind leichter auffindbar und besser prüfbar als breite Sammelordner."
-  - "Eine gute Erklärung endet mit einer konkreten Gegenprobe."
-recognizeSignals:
-  - "Die Aufgabe enthält einen scheinbar kleinen Sonderfall oder Fehlerzustand."
-  - "Es muss zwischen Begriffen unterschieden werden, die im Alltag leicht vermischt werden."
-  - "Eine Entscheidung soll begründet und nicht nur auswendig angewendet werden."
-selfCheckPoints:
-  - "Kann ich das Unterthema mit einem Satz von Nachbarthemen abgrenzen?"
-  - "Kann ich einen typischen Fehler benennen?"
-  - "Kann ich eine konkrete Prüfung oder Rechnung anschließen?"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "praxis"
-  - "skriptrobustheit"
-  - "shellskripte"
-  - "robuste-skripte"
+topicPath: ["shellskripte", "robuste-skripte", "shellskripte-mit-set-eu-und-pruefungen-haerten"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["linux", "Shellskripte"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Shellskript ist schnell geschrieben, aber auch schnell gefährlich. Robuste Skripte prüfen Eingaben, reagieren auf Fehlercodes und brechen lieber kontrolliert ab als still falsch weiterzulaufen.

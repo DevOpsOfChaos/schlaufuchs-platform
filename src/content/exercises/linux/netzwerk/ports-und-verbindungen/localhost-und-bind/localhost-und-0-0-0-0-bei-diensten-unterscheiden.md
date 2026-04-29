@@ -3,35 +3,15 @@ title: "Aufgabe – localhost und 0.0.0.0 bei Diensten unterscheiden"
 description: "Übe Bind-Adresse mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "linux"
 section: "Netzwerk"
-topicPath:
-  - "netzwerk"
-  - "ports-und-verbindungen"
-  - "localhost-und-bind"
-  - "localhost-und-0-0-0-0-bei-diensten-unterscheiden"
+topicPath: ["netzwerk", "ports-und-verbindungen", "localhost-und-bind", "localhost-und-0-0-0-0-bei-diensten-unterscheiden"]
 taskId: "v107-linux-localhost-und-0-0-0-0-bei-diensten-unterscheiden"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "bind-adresse"
-  - "netzwerk"
-  - "ports-und-verbindungen"
-hintPoints:
-  - "Grenze das Unterthema zuerst ein."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Formuliere eine kleine Gegenprobe."
-selfCheckPoints:
-  - "Ist das Unterthema klar benannt?"
-  - "Ist die Lösung nicht zu breit formuliert?"
-  - "Ist die Gegenprobe konkret?"
-transferIdeas:
-  - "Ändere einen Randwert und prüfe die Begründung erneut."
-  - "Erkläre die Lösung einmal als Merksatz und einmal am Beispiel."
-reflectionPrompt: "Warum hilft dir das kleine Unterthema „Bind-Adresse“ mehr als ein breiter Sammelbegriff?"
+tags: ["linux", "Netzwerk", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite ein kleines Szenario zu **Bind-Adresse**.

@@ -1,21 +1,14 @@
 ---
-title: Loesung – Ueberladen und Ueberschreiben sauber trennen
-description: Musterloesung zur Aufgabe ueber gleiche Methodennamen, Signaturen und Vererbung.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - methoden-ueberschreiben-und-ueberladen-unterscheiden
-taskId: INF-PROG-OOP-010
-relatedExercise: informatik/programmierung/oop/methoden-ueberschreiben-und-ueberladen-unterscheiden/ueberladen-und-ueberschreiben-sauber-trennen
-tags:
-  - informatik
-  - oop
-  - loesung
+title: "Loesung – Ueberladen und Ueberschreiben sauber trennen"
+description: "Musterloesung zur Aufgabe ueber gleiche Methodennamen, Signaturen und Vererbung."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "methoden-ueberschreiben-und-ueberladen-unterscheiden", "ueberladen-und-ueberschreiben-sauber-trennen"]
+taskId: "INF-PROG-OOP-010"
+relatedExercise: "informatik/programmierung/oop/methoden-ueberschreiben-und-ueberladen-unterscheiden/ueberladen-und-ueberschreiben-sauber-trennen"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterloesung
 
 ### Aufgabe 1

@@ -3,33 +3,15 @@ title: "Rechenstrategien im Überblick: Grundordnung"
 description: "Ordne Rechenstrategien im Überblick in Zweck, Prüffragen und Fehlerquellen."
 subject: "mathematik"
 section: "rechenstrategien-und-kontrolle"
-topicPath:
-  - "rechenstrategien-und-kontrolle"
-  - "ueberblick"
-  - "aufgabe-a"
+topicPath: ["sanierung-v188", "rechenstrategien-im-ueberblick-aufgabe-a"]
 taskId: "mat-v188-001a"
-tags:
-  - "rechnen"
-  - "strategie"
-  - "kontrolle"
-  - "mathematik"
-  - "aufgabe"
-  - "v188"
-hintPoints:
-  - "Beginne mit dem Zweck, nicht mit Details."
-  - "Trenne Beobachtung, Entscheidung und Begründung."
-  - "Prüfe am Ende eine typische Fehlerquelle."
-selfCheckPoints:
-  - "Ist deine Antwort ohne Vorwissen lesbar?"
-  - "Nennst du mindestens einen konkreten Kontrollpunkt?"
-transferIdeas:
-  - "Übertrage die Prüffragen auf ein ähnliches Thema."
-  - "Vergleiche deine Antwort mit einer Musterlösung."
-reflectionPrompt: "Welche Stelle deiner Lösung war eine Entscheidung und nicht nur eine Beschreibung?"
+tags: ["mathematik", "rechenstrategien-und-kontrolle", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Du arbeitest am Thema **Rechenstrategien im Überblick**. Erstelle eine kurze, geordnete Erklärung für eine lernende Person.

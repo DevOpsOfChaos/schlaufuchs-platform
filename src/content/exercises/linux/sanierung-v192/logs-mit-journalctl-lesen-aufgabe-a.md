@@ -3,38 +3,15 @@ title: "Logs mit journalctl lesen: Aufgabe A"
 description: "Finde in einer Logbeschreibung die wahrscheinlich erste Ursache."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "logging-und-diagnose"
-  - "logs-mit-journalctl-lesen"
-  - "aufgabe-a"
+topicPath: ["sanierung-v192", "logs-mit-journalctl-lesen-aufgabe-a"]
 taskId: "linux-v192-010a"
-tags:
-  - "logging-und-diagnose"
-  - "logs"
-  - "journalctl"
-  - "lesen"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "aufgabe"
-  - "v192"
-hintPoints:
-  - "Trenne Beobachtung, Eingriff und Kontrolle."
-  - "Nenne den betroffenen Benutzer, Dienst, Pfad, Port oder Zeitplan."
-  - "Beschreibe mindestens einen Rückweg oder Sicherheitscheck."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Logs mit journalctl lesen."
-  - "Es gibt eine klare Kontrolle nach der Änderung."
-  - "Risiko und Nebenwirkung werden nicht verschwiegen."
-transferIdeas:
-  - "Übertrage den Prüfweg auf eine zweite Linux-VM oder einen anderen Dienst."
-  - "Formuliere aus deiner Lösung eine kurze Betriebsnotiz."
-reflectionPrompt: "Welcher Schritt verhindert hier den wahrscheinlichsten Adminfehler?"
+tags: ["linux", "adminpraxis-und-betrieb", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Finde in einer Logbeschreibung die wahrscheinlich erste Ursache.

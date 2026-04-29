@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Container Query als Kontextfrage lesen"
 description: "Musterlösung zu Container Query als Kontextfrage lesen mit Trennkante und Gegenprobe."
-subject: web-development
+subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "css-systeme-v115"
-  - "layout-entscheidungen"
-  - "container-query-als-kontextfrage-lesen-v115"
+topicPath: ["css-systeme-v115", "layout-entscheidungen", "container-query-als-kontextfrage-lesen-v115"]
 taskId: "web-development-container-query-als-kontextfrage-lesen-v115"
 relatedExercise: "web-development/css-systeme-v115/layout-entscheidungen/container-query-als-kontextfrage-lesen-v115"
-tags:
-  - "web development"
-  - "feinstruktur"
-  - "unterthema"
-  - "css-systeme"
-  - "layout-entscheidungen"
-  - "lösung"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Container Query als Kontextfrage lesen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

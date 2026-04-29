@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Exponentielles Verdoppeln lesen"
 description: "Musterlösung zu Exponentielles Verdoppeln lesen mit Trennkante und Gegenprobe."
-subject: mathematik
+subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "funktionsdenken-v115"
-  - "nichtlineare-verlaeufe"
-  - "exponentielles-verdoppeln-lesen-v115"
+topicPath: ["funktionsdenken-v115", "nichtlineare-verlaeufe", "exponentielles-verdoppeln-lesen-v115"]
 taskId: "mathematik-exponentielles-verdoppeln-lesen-v115"
 relatedExercise: "mathematik/funktionsdenken-v115/nichtlineare-verlaeufe/exponentielles-verdoppeln-lesen-v115"
-tags:
-  - "mathematik"
-  - "feinstruktur"
-  - "unterthema"
-  - "funktionsdenken"
-  - "nichtlineare verläufe"
-  - "lösung"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Exponentielles Verdoppeln lesen**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

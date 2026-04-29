@@ -3,23 +3,12 @@ title: "Lösung – ADC-Wert nur mit Referenzspannung deuten"
 description: "Musterlösung zu ADC-Referenzspannung mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "daten-und-signale"
-  - "analog-digital-wandlung"
-  - "adc-referenz"
-  - "adc-wert-nur-mit-referenzspannung-deuten"
+topicPath: ["daten-und-signale", "analog-digital-wandlung", "adc-referenz", "adc-wert-nur-mit-referenzspannung-deuten"]
 taskId: "v109-elektrotechnik-adc-wert-nur-mit-referenzspannung-deuten"
 relatedExercise: "elektrotechnik/daten-und-signale/analog-digital-wandlung/adc-referenz/adc-wert-nur-mit-referenzspannung-deuten"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "daten-und-signale"
-  - "analog-digital-wandlung"
-  - "adc-referenzspannung"
+tags: ["elektrotechnik", "Mikrocontroller", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **ADC-Referenzspannung**.

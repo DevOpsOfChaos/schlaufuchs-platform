@@ -1,23 +1,14 @@
 ---
-title: Lösung – Abhängigkeiten topologisch ordnen
-description: Musterlösung zur Aufgabe über Abhängigkeiten topologisch ordnen.
-subject: informatik
-section: Feinstruktur Informatik
-topicPath:
-- datenstrukturen
-- graphen-und-baeume
-- abhaengigkeiten-topologisch-ordnen-v114
-taskId: v114-informatik-abhaengigkeiten-topologisch-ordnen-v114
-relatedExercise: informatik/datenstrukturen/graphen-und-baeume/abhaengigkeiten-topologisch-ordnen-v114
-tags:
-- informatik
-- v114
-- loesung
-- datenstrukturen
-- graphen-und-baeume
+title: "Lösung – Abhängigkeiten topologisch ordnen"
+description: "Musterlösung zur Aufgabe über Abhängigkeiten topologisch ordnen."
+subject: "informatik"
+section: "Feinstruktur Informatik"
+topicPath: ["datenstrukturen", "graphen-und-baeume", "abhaengigkeiten-topologisch-ordnen-v114"]
+taskId: "v114-informatik-abhaengigkeiten-topologisch-ordnen-v114"
+relatedExercise: "informatik/datenstrukturen/graphen-und-baeume/abhaengigkeiten-topologisch-ordnen-v114"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

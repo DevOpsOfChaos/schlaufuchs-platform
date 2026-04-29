@@ -1,36 +1,19 @@
 ---
 title: "Runden und signifikante Stellen"
 description: "Einordnung von Rundung, Genauigkeit und sinnvoller Darstellung von Zahlen."
-subject: mathematik
+subject: "mathematik"
 section: "Rechnen und Schätzen"
-topicPath:
-  - "runden-und-signifikante-stellen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Runden und signifikante Stellen als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["runden-und-signifikante-stellen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden viele Taschenrechnerstellen übernommen, obwohl sie keine reale Bedeutung haben."
-keyTakeaways:
-  - "Runden macht Zahlen passend und lesbar."
-  - "Signifikante Stellen hängen von der Genauigkeit der Ausgangsdaten ab."
-  - "Zu frühes oder übertrieben genaues Runden kann irreführen."
-recognizeSignals:
-  - "Es geht um Runden und signifikante Stellen als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Runden und signifikante Stellen in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "runden"
-  - "signifikante stellen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Rechnen und Schätzen"]
 draft: false
 ---
-
 # Runden und signifikante Stellen
 
 Runden bedeutet, eine Zahl durch einen näherungsweisen Wert mit weniger Stellen zu ersetzen. Signifikante Stellen beschreiben, welche Ziffern für die Genauigkeit einer Angabe Bedeutung tragen. Beide Begriffe helfen, Zahlen lesbar und passend zur Mess- oder Rechengenauigkeit darzustellen.

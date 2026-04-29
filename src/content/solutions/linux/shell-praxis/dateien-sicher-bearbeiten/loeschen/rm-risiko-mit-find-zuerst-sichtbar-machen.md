@@ -3,23 +3,12 @@ title: "Lösung – rm-Risiko mit find zuerst sichtbar machen"
 description: "Musterlösung zu Sicheres Löschen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell-praxis"
-  - "dateien-sicher-bearbeiten"
-  - "loeschen"
-  - "rm-risiko-mit-find-zuerst-sichtbar-machen"
+topicPath: ["shell-praxis", "dateien-sicher-bearbeiten", "loeschen", "rm-risiko-mit-find-zuerst-sichtbar-machen"]
 taskId: "v111-linux-rm-risiko-mit-find-zuerst-sichtbar-machen"
 relatedExercise: "linux/shell-praxis/dateien-sicher-bearbeiten/loeschen/rm-risiko-mit-find-zuerst-sichtbar-machen"
-tags:
-  - "linux"
-  - "betrieb"
-  - "unterthema"
-  - "shell-praxis"
-  - "dateien-sicher-bearbeiten"
-  - "rm-risiko-mit-find-zuerst-sichtbar-machen"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Sicheres Löschen**.

@@ -3,24 +3,12 @@ title: "Lösung: Fehlerursache und Symptom trennen: Aufgabe B"
 description: "Musterlösung zur Aufgabe informatik-v193-014b im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "debugging-und-diagnose"
-  - "fehlerursache-und-symptom-trennen"
-  - "loesung-b"
+topicPath: ["sanierung-v193", "fehlerursache-und-symptom-trennen-loesung-b"]
 taskId: "informatik-v193-014b"
 relatedExercise: "informatik/sanierung-v193/fehlerursache-und-symptom-trennen-aufgabe-b"
-tags:
-  - "fehlerursache"
-  - "symptom"
-  - "trennen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-014b`
 
 Ausgangsauftrag: Übertrage das Thema Fehlerursache und Symptom trennen auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

@@ -1,23 +1,14 @@
 ---
-title: Lösung – Signalflanke und Pegel trennen
-description: Musterlösung zur Aufgabe über Signalflanke und Pegel trennen.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- signale-und-schaltungen
-- analog-digital-grenzen
-- signalflanke-und-pegel-trennen-v114
-taskId: v114-elektrotechnik-signalflanke-und-pegel-trennen-v114
-relatedExercise: elektrotechnik/signale-und-schaltungen/analog-digital-grenzen/signalflanke-und-pegel-trennen-v114
-tags:
-- elektrotechnik
-- v114
-- loesung
-- signale-und-schaltungen
-- analog-digital-grenzen
+title: "Lösung – Signalflanke und Pegel trennen"
+description: "Musterlösung zur Aufgabe über Signalflanke und Pegel trennen."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["signale-und-schaltungen", "analog-digital-grenzen", "signalflanke-und-pegel-trennen-v114"]
+taskId: "v114-elektrotechnik-signalflanke-und-pegel-trennen-v114"
+relatedExercise: "elektrotechnik/signale-und-schaltungen/analog-digital-grenzen/signalflanke-und-pegel-trennen-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

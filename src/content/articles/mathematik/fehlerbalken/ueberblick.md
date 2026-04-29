@@ -1,33 +1,19 @@
 ---
 title: "Fehlerbalken"
 description: "Fehlerbalken zeigen Unsicherheit, Streuung oder Messfehler in Diagrammen. Ihre Bedeutung hängt davon ab, was genau dargestellt wird."
-subject: mathematik
+subject: "mathematik"
 section: "Mathematik"
-topicPath:
-  - "fehlerbalken"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Fehlerbalken."
-  - "Du kannst Fehlerbalken in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["fehlerbalken", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Überlappende oder nicht überlappende Balken vorschnell zu interpretieren."
-keyTakeaways:
-  - "Fehlerbalken zeigen Unsicherheit, Streuung oder Messfehler in Diagrammen."
-  - "Wichtig sind vor allem standardabweichung, standardfehler oder intervall, visuelle unsicherheit und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Fehlerbalken, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Fehlerbalken dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "grundlagen"
-  - "fehlerbalken"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Mathematik"]
 draft: false
 ---
-
 # Fehlerbalken
 
 Fehlerbalken zeigen Unsicherheit, Streuung oder Messfehler in Diagrammen. Ihre Bedeutung hängt davon ab, was genau dargestellt wird. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

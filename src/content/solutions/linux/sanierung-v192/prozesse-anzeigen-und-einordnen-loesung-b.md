@@ -3,26 +3,12 @@ title: "Lösung: Prozesse anzeigen und einordnen: Aufgabe B"
 description: "Musterlösung zur Aufgabe linux-v192-006b im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "prozesse-und-dienste"
-  - "prozesse-anzeigen-und-einordnen"
-  - "loesung-b"
+topicPath: ["sanierung-v192", "prozesse-anzeigen-und-einordnen-loesung-b"]
 taskId: "linux-v192-006b"
 relatedExercise: "linux/sanierung-v192/prozesse-anzeigen-und-einordnen-aufgabe-b"
-tags:
-  - "prozesse-und-dienste"
-  - "prozesse"
-  - "anzeigen"
-  - "einordnen"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-006b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Prozesse anzeigen und einordnen“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

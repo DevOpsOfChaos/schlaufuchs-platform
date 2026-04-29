@@ -3,35 +3,15 @@ title: "Aufgabe – Pull-up-Widerstand nicht beliebig wählen"
 description: "Übe Pull-up-Widerstand nicht beliebig wählen mit Einordnung, Abgrenzung, Prüfschritt und Gegenprobe."
 subject: "elektrotechnik"
 section: "Grundschaltungen"
-topicPath:
-  - "grundschaltungen"
-  - "spannung-strom-widerstand"
-  - "v110-teil-2"
-  - "pullup-widerstand-nicht-beliebig-waehlen"
+topicPath: ["grundschaltungen", "spannung-strom-widerstand", "v110-teil-2", "pullup-widerstand-nicht-beliebig-waehlen"]
 taskId: "v110-elektrotechnik-pullup-widerstand-nicht-beliebig-waehlen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "grundschaltungen"
-  - "spannung-strom-widerstand"
-  - "pull-up-widerstand-nicht-beliebig-waehlen"
-hintPoints:
-  - "Benenne zuerst das enge Unterthema."
-  - "Trenne die typische Verwechslung ausdrücklich ab."
-  - "Nutze einen konkreten Prüfschritt statt einer allgemeinen Erklärung."
-selfCheckPoints:
-  - "Ist die Einordnung enger als der Fachbereich?"
-  - "Wird die Verwechslung sichtbar ausgeschlossen?"
-  - "Gibt es eine nachvollziehbare Gegenprobe?"
-transferIdeas:
-  - "Ändere einen Wert, Zustand oder Kontext und prüfe, ob die Begründung stabil bleibt."
-  - "Vergleiche das Thema mit einem Nachbarthema und nenne die Trennkante."
-reflectionPrompt: "Welche kleine Trennkante macht Pull-up-Widerstand nicht beliebig wählen übersichtlicher als ein breiter Sammelbegriff?"
+tags: ["elektrotechnik", "Grundschaltungen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite das Szenario zu **Pull-up-Widerstand nicht beliebig wählen**.

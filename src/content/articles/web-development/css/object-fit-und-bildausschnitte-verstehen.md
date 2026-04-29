@@ -1,45 +1,19 @@
 ---
-title: Object-Fit und Bildausschnitte verstehen
-description: Verstehe, wie object-fit Bilder in feste Boxen einpasst und warum cover, contain und verzerrtes Strecken sichtbar sehr unterschiedliche Ergebnisse erzeugen.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - object-fit-und-bildausschnitte-verstehen
-learningGoals:
-  - Du erklärst die Rolle von object-fit bei Bildern in festen Boxen.
-  - Du unterscheidest sichtbar zwischen cover, contain und Verzerrung.
-  - Du prüfst bei Bildkarten zuerst Box und Ausschnitt statt nur Bildgröße.
-practiceIdeas:
-  - Vergleiche denselben Bildinhalt in mehreren gleich großen Karten.
-  - Prüfe bei Profilbildern, Produktbildern oder Vorschaubildern, ob Vollständigkeit oder Flächenwirkung wichtiger ist.
-  - Beschreibe, was bei einem Bild „ruhig passend“ aussieht und warum.
-commonMistakes:
-  - nur width und height zu setzen, ohne an den Bildinhalt zu denken.
-  - cover und contain als fast gleich zu behandeln.
-  - verzerrte Bilder als normales Verhalten zu akzeptieren.
-keyTakeaways:
-  - object-fit steuert, wie Bildinhalt in eine feste Box eingepasst wird.
-  - cover füllt die Fläche stärker, contain zeigt den gesamten Inhalt.
-  - Gute Bilddarstellung beginnt mit der Frage nach Ausschnitt oder Vollständigkeit.
-recognizeSignals:
-  - Es geht um Kartenbilder, Avatare, Vorschaubilder oder feste Medienflächen.
-  - Du sollst erklären, warum ein Bild abgeschnitten, eingepasst oder verzerrt wirkt.
-  - In Beispielen ist die Box genauso wichtig wie das Bild selbst.
-selfCheckPoints:
-  - Kann ich cover und contain sichtbar unterscheiden?
-  - Kann ich erklären, warum ein Bild verzerrt wirkt?
-  - Kann ich begründen, wann Flächenfüllung wichtiger ist als vollständiger Inhalt?
-tags:
-  - css
-  - bilder
-  - object-fit
-  - responsive
-level: einfach
+title: "Object-Fit und Bildausschnitte verstehen"
+description: "Verstehe, wie object-fit Bilder in feste Boxen einpasst und warum cover, contain und verzerrtes Strecken sichtbar sehr unterschiedliche Ergebnisse erzeugen."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "object-fit-und-bildausschnitte-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 ## Grundidee
 
 Bilder haben oft ein eigenes Seitenverhältnis. Karten, Galerien oder Avatare haben aber häufig **vorgegebene Boxen**. Genau dann wird <code>object-fit</code> wichtig: Es steuert, wie Bildinhalt in diese Box eingepasst wird.

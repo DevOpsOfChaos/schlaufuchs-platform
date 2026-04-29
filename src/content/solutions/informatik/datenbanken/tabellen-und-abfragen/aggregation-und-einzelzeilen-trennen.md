@@ -3,21 +3,12 @@ title: "Lösung – Aggregation und Einzelzeilen trennen"
 description: "Musterlösung zu aggregation und einzelzeilen trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenbanken"
-  - "tabellen-und-abfragen"
-  - "aggregation-und-einzelzeilen-trennen"
+topicPath: ["datenbanken", "tabellen-und-abfragen", "aggregation-und-einzelzeilen-trennen"]
 taskId: "v112-informatik-aggregation-und-einzelzeilen-trennen"
 relatedExercise: "informatik/datenbanken/tabellen-und-abfragen/aggregation-und-einzelzeilen-trennen"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "datenbanken"
-  - "aggregation-und-einzelzeilen-trennen"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Tabellen und Abfragen**.

@@ -3,18 +3,10 @@ title: "Lösung – srcset, sizes und responsive Bilder verstehen"
 description: "Musterlösung mit kurzer Begründung zur passenden Web-Development-Entscheidung."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "bilder-und-alt-texte"
-  - "srcset-sizes-und-responsive-bilder-verstehen"
+topicPath: ["html", "bilder-und-alt-texte", "srcset-sizes-und-responsive-bilder-verstehen"]
 taskId: "srcset-sizes-und-responsive-bilder-verstehen"
 relatedExercise: "web-development/html/bilder-und-alt-texte/srcset-sizes-und-responsive-bilder-verstehen"
-tags:
-  - "web development"
-  - "html"
-  - "bilder"
-  - "srcset"
-  - "responsive"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
 ## Musterlösung

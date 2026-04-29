@@ -1,31 +1,17 @@
 ---
-title: Restflächen und feste Anteile in Layouts begründen
-description: Begründe, wann calc in CSS die Größenlogik eines Layouts sichtbar und nachvollziehbar macht.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - calc-fuer-zusammengesetzte-groessen-verstehen
-  - restflaechen-und-feste-anteile-in-layouts-begruenden
-level: mittel
+title: "Restflächen und feste Anteile in Layouts begründen"
+description: "Begründe, wann calc in CSS die Größenlogik eines Layouts sichtbar und nachvollziehbar macht."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "calc-fuer-zusammengesetzte-groessen-verstehen", "restflaechen-und-feste-anteile-in-layouts-begruenden"]
+taskId: "AUTO-RESTFLAECHEN-UND-FESTE-ANTEILE-IN-LAYOUTS-BEGRUENDEN"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - css
-  - calc
-  - breite
-  - layout
-hintPoints:
-  - "Trenne flexible Fläche und feste Anteile bewusst voneinander."
-  - "Begründe calc über die sichtbare Restlogik, nicht nur über die Syntax."
-selfCheckPoints:
-  - "Kannst du feste und flexible Größenanteile in einem Ausdruck lesen?"
-  - "Kannst du erklären, wann calc wirklich hilfreich ist?"
-transferIdeas:
-  - "Übertrage die Idee auf Kopfzeilen, Sidebars, Inhaltsbereiche oder eingebettete Widgets."
-reflectionPrompt: "Woran merkst du, dass eine Fläche nicht einfach „100 Prozent“ sein soll, sondern als Rest nach festen Anteilen gedacht werden muss?"
 ---
-
 ## Aufgabe 1: Hauptbereich neben Sidebar
 
 Eine Seitenleiste ist 16rem breit. Daneben soll der Hauptbereich die restliche Breite nutzen.

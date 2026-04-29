@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Fehlerstrompfad vor Schutzbauteil verfolgen"
 description: "Musterlösung zur Aufgabe: Fehlerstrompfad vor Schutzbauteil verfolgen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Stromversorgung und Schutz"
-topicPath:
-  - stromversorgung-und-schutz
-  - kurzschluss-ueberlast-und-fehlerstrom
-taskId: ET-V182-006
-relatedExercise: src/content/exercises/elektrotechnik/stromversorgung-und-schutz/kurzschluss-ueberlast-und-fehlerstrom/fehlerstrompfad-vor-schutzbauteil-verfolgen.md
-tags:
-  - elektrotechnik
-  - kurzschluss-ueberlast-und-fehlerstrom
-  - loesung
-  - sanierung-v182
+topicPath: ["stromversorgung-und-schutz", "kurzschluss-ueberlast-und-fehlerstrom", "fehlerstrompfad-vor-schutzbauteil-verfolgen"]
+taskId: "ET-V182-006"
+relatedExercise: "src/content/exercises/elektrotechnik/stromversorgung-und-schutz/kurzschluss-ueberlast-und-fehlerstrom/fehlerstrompfad-vor-schutzbauteil-verfolgen.md"
+tags: ["elektrotechnik", "Stromversorgung und Schutz", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

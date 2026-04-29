@@ -1,23 +1,14 @@
 ---
-title: Lösung – journalctl-Zeitraum eingrenzen
-description: Musterlösung zur Aufgabe über journalctl-Zeitraum eingrenzen.
-subject: linux
-section: Feinstruktur Linux
-topicPath:
-- systembetrieb
-- logs-und-diagnose
-- journalctl-zeitraum-eingrenzen-v114
-taskId: v114-linux-journalctl-zeitraum-eingrenzen-v114
-relatedExercise: linux/systembetrieb/logs-und-diagnose/journalctl-zeitraum-eingrenzen-v114
-tags:
-- linux
-- v114
-- loesung
-- systembetrieb
-- logs-und-diagnose
+title: "Lösung – journalctl-Zeitraum eingrenzen"
+description: "Musterlösung zur Aufgabe über journalctl-Zeitraum eingrenzen."
+subject: "linux"
+section: "Feinstruktur Linux"
+topicPath: ["systembetrieb", "logs-und-diagnose", "journalctl-zeitraum-eingrenzen-v114"]
+taskId: "v114-linux-journalctl-zeitraum-eingrenzen-v114"
+relatedExercise: "linux/systembetrieb/logs-und-diagnose/journalctl-zeitraum-eingrenzen-v114"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

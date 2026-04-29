@@ -1,36 +1,19 @@
 ---
 title: "Skeleton Screens und Ladezustand"
 description: "Skeleton Screens zeigen beim Laden eine grobe Platzhalterstruktur, damit Nutzer den erwarteten Aufbau einer Seite erkennen."
-subject: web-development
+subject: "web-development"
 section: "UI"
-topicPath:
-  - "skeleton-screens-und-ladezustand"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Skeleton Screens und Ladezustand als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["skeleton-screens-und-ladezustand", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Oft werden Skeletons ohne Fehlerzustand gebaut. Dann bleibt die Oberfläche bei gescheiterten Requests scheinbar endlos im Laden."
-keyTakeaways:
-  - "Skeleton Screens zeigen beim Laden eine grobe Platzhalterstruktur, damit Nutzer den erwarteten Aufbau einer Seite erkennen."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Skeleton Screens und Ladezustand, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Skeleton Screens und Ladezustand in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "web"
-  - "ui"
-  - "loading"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "UI"]
 draft: false
 ---
-
 # Skeleton Screens und Ladezustand
 
 Skeleton Screens zeigen beim Laden eine grobe Platzhalterstruktur, damit Nutzer den erwarteten

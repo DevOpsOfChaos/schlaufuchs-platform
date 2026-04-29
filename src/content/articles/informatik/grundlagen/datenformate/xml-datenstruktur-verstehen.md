@@ -1,46 +1,19 @@
 ---
-title: XML-Datenstruktur verstehen
-description: Verstehe, wie XML Daten mit Tags, Attributen und klar verschachtelten Elementen strukturiert.
-subject: informatik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - datenformate
-  - xml-datenstruktur-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von XML als hierarchisches Textformat.
-  - Du unterscheidest Elemente, Attribute und Textinhalt.
-  - Du prüfst einfache XML-Beispiele auf Wohlgeformtheit.
-practiceIdeas:
-  - Markiere in einem XML-Beispiel Wurzelelement, Kindelemente und Attribute.
-  - Prüfe, ob Beginn- und End-Tags paarig und korrekt geschachtelt sind.
-  - Vergleiche Textinhalt und Attributwerte in einem kleinen XML-Dokument.
-commonMistakes:
-  - Zu denken, XML sei nur "HTML mit anderen Tags".
-  - Attribute und Elemente unruhig durcheinanderzubringen.
-  - Ein Dokument mit mehreren äußersten Elementen zuzulassen.
-keyTakeaways:
-  - XML bildet hierarchische Daten mit Tags ab.
-  - Ein wohlgeformtes XML-Dokument hat genau ein Wurzelelement und korrekt geschlossene Tags.
-  - Attribute ergänzen Elemente, ersetzen aber nicht jede Struktur.
-recognizeSignals:
-  - Ein Beispiel nutzt öffnende und schließende Tags.
-  - Es geht um hierarchische Textdaten oder Datenaustausch.
-  - Du sollst prüfen, ob eine Struktur formal sauber aufgebaut ist.
-selfCheckPoints:
-  - Kann ich Wurzelelement, Unterelement und Attribut benennen?
-  - Kann ich erklären, was ein wohlgeformtes Dokument ausmacht?
-  - Kann ich Fehler in der Verschachtelung ruhig finden?
-level: einfach
-tags:
-  - informatik
-  - xml
-  - datenformate
-  - struktur
-  - markup
+title: "XML-Datenstruktur verstehen"
+description: "Verstehe, wie XML Daten mit Tags, Attributen und klar verschachtelten Elementen strukturiert."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "datenformate", "xml-datenstruktur-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Grundlagen"]
 draft: false
 ---
-
 ## Grundidee
 
 XML ist ein textbasiertes Format für hierarchische Daten. Es arbeitet mit frei benennbaren Tags und macht dadurch Struktur sehr sichtbar. Menschen können XML lesen, und Programme können die Struktur gezielt verarbeiten.

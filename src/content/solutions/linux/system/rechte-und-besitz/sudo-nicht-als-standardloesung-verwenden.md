@@ -3,22 +3,12 @@ title: "Lösung – sudo nicht als Standardlösung verwenden"
 description: "Musterlösung zur Aufgabe über Rechteentscheidung mit Begründung und Gegenprobe."
 subject: "linux"
 section: "Rechte"
-topicPath:
-  - "system"
-  - "rechte-und-besitz"
-  - "sudo-nicht-als-standardloesung-verwenden"
+topicPath: ["system", "rechte-und-besitz", "sudo-nicht-als-standardloesung-verwenden"]
 taskId: "v106-linux-sudo-nicht-als-standardloesung-verwenden"
 relatedExercise: "linux/system/rechte-und-besitz/sudo-nicht-als-standardloesung-verwenden"
-tags:
-  - "linux"
-  - "shell"
-  - "system"
-  - "praxis"
-  - "rechteentscheidung"
-  - "rechte-und-besitz"
+tags: ["linux", "Rechte", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Beobachtung

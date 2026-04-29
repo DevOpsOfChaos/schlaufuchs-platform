@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Derating vor Grenzbetrieb begründen"
 description: "Musterlösung zur Aufgabe: Derating vor Grenzbetrieb begründen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Bauteile"
-topicPath:
-  - bauteile
-  - bauteiltoleranzen-und-derating
-taskId: ET-V182-018
-relatedExercise: src/content/exercises/elektrotechnik/bauteile/bauteiltoleranzen-und-derating/derating-vor-grenzbetrieb-begruenden.md
-tags:
-  - elektrotechnik
-  - bauteiltoleranzen-und-derating
-  - loesung
-  - sanierung-v182
+topicPath: ["bauteile", "bauteiltoleranzen-und-derating", "derating-vor-grenzbetrieb-begruenden"]
+taskId: "ET-V182-018"
+relatedExercise: "src/content/exercises/elektrotechnik/bauteile/bauteiltoleranzen-und-derating/derating-vor-grenzbetrieb-begruenden.md"
+tags: ["elektrotechnik", "Bauteile", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

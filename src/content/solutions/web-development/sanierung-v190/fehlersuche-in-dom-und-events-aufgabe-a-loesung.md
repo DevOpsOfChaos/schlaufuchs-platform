@@ -3,24 +3,12 @@ title: "Lösung: Fehlersuche in DOM und Events: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-v190-022a im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "debugging"
-  - "fehlersuche-in-dom-und-events"
-  - "loesung-a"
+topicPath: ["sanierung-v190", "fehlersuche-in-dom-und-events-aufgabe-a"]
 taskId: "web-v190-022a"
 relatedExercise: "web-development/sanierung-v190/fehlersuche-in-dom-und-events-aufgabe-a"
-tags:
-  - "debugging"
-  - "fehlersuche"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-022a`
 
 Ausgangsauftrag: Finde mögliche Ursachen für einen Button ohne Reaktion.

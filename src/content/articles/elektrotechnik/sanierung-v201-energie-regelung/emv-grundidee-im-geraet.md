@@ -1,0 +1,56 @@
+---
+title: "EMV-Grundidee im Gerät"
+description: "Ordne emv-grundidee im gerät als ruhigen Elektrotechnik-Baustein ein und prüfe Messwerte, Grenzen und typische Fehler."
+subject: "elektrotechnik"
+section: "Praxis und Sicherheit"
+topicPath: ["praxis-und-sicherheit", "emv"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "fortgeschritten"
+tags: ["elektrotechnik", "sanierung-v201", "praxis", "praxis-und-sicherheit", "emv"]
+draft: false
+---
+![EMV-Grundidee im Gerät](/schlaufuchs-platform/images/elektrotechnik/sanierung-v201/emv-grundidee-im-geraet.svg)
+
+## Worum es geht
+
+EMV-Grundidee im Gerät ist ein Grundlagenbaustein der Elektrotechnik. Wichtig ist nicht nur die einzelne Formel oder das einzelne Bauteil, sondern der Zusammenhang aus **Eingang**, **Verhalten** und **Kontrolle**.
+
+Die Seite hilft dir, den Themenblock `Praxis und Sicherheit` ruhig zu lesen: Welche Größe wird betrachtet? Welche Grenze ist wichtig? Welche Beobachtung zeigt, ob die Schaltung plausibel arbeitet?
+
+## Grundidee
+
+Eine elektrotechnische Situation lässt sich oft in drei Fragen zerlegen:
+
+- Welche elektrische Größe oder welches Signal liegt an?
+- Welches Bauteil, welche Leitung oder welche Regel verändert das Verhalten?
+- Woran erkennst du, ob das Ergebnis sicher und sinnvoll ist?
+
+Diese Trennung verhindert, dass Messwerte, Nennwerte und Vermutungen durcheinander geraten.
+
+## Typischer Prüfweg
+
+1. Lies zuerst Nennwerte, Versorgung und Bezugspunkt.
+2. Markiere die Stellen, an denen Strom, Spannung, Signal oder Zustand wechseln.
+3. Prüfe, ob die Belastung zur Bauteilgrenze passt.
+4. Formuliere eine kurze Begründung statt nur ein Ergebnis zu notieren.
+
+## Beispielhafte Einordnung
+
+Bei **emv-grundidee im gerät** reicht es selten, nur einen einzelnen Zahlenwert zu betrachten. Du brauchst meistens zusätzlich den Kontext: Quelle, Last, Messpunkt, Umgebung und gewünschtes Verhalten. Erst daraus entsteht eine belastbare technische Aussage.
+
+## Häufige Fehler
+
+- Strom und Spannung werden sprachlich vertauscht.
+- Der Bezugspunkt einer Messung bleibt unklar.
+- Typenschildwerte werden als Betriebswerte missverstanden.
+- Sicherheitsgrenzen werden erst nach der Rechnung geprüft.
+- Ein Messwert wird ohne Plausibilitätskontrolle übernommen.
+
+## Merksatz
+
+EMV-Grundidee im Gerät wird verständlich, wenn du Größe, Grenze und Kontrollfrage getrennt hältst.

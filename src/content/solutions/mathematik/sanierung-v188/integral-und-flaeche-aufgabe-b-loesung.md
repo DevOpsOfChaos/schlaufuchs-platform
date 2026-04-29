@@ -3,22 +3,12 @@ title: "Lösung: Integral und Fläche: Prüfen und Begründen"
 description: "Musterlösung zur Aufgabe mat-v188-064b."
 subject: "mathematik"
 section: "analysis-pruefschritte"
-topicPath:
-  - "analysis-pruefschritte"
-  - "integral-und-flaeche"
-  - "loesung-b"
+topicPath: ["sanierung-v188", "integral-und-flaeche-aufgabe-b"]
 taskId: "mat-v188-064b"
 relatedExercise: "mathematik/sanierung-v188/integral-und-flaeche-aufgabe-b"
-tags:
-  - "integral"
-  - "flaeche"
-  - "analysis"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "analysis-pruefschritte", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-064b`
 
 Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.

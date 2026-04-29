@@ -3,44 +3,15 @@ title: "Mikrocontroller – ADC-Rauschen, Oversampling und Messfenster einordnen
 description: "Verstehe, warum ADC-Werte schwanken können und wie Mittelwert, Messfenster und Oversampling sinnvoll, aber nicht magisch helfen."
 subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - "daten-und-signale"
-  - "mikrocontroller-und-atmega"
-  - "adc-rauschen-oversampling-und-messfenster"
-learningGoals:
-  - "Du erklärst die Grundidee des Themas fachlich sauber."
-  - "Du trennst elektrische Ebene, Codeebene und Diagnoseebene."
-  - "Du begründest eine passende Gegenprobe."
-practiceIdeas:
-  - "Skizziere den relevanten Strom-, Signal- oder Ablaufpfad."
-  - "Formuliere zuerst das beobachtbare Fehlerbild."
-  - "Prüfe jeweils nur eine Vermutung auf einmal."
-commonMistakes:
-  - "Mehrere Ursachen gleichzeitig zu ändern."
-  - "Nur den Code zu prüfen und die elektrische Ebene zu vergessen."
-  - "Fachbegriffe zu verwenden, ohne den Zustand zu erklären."
-keyTakeaways:
-  - "Der sichtbare Effekt ist nicht automatisch die Ursache."
-  - "Saubere Diagnose trennt Zustand, Ursache und Gegenprobe."
-  - "Gute Schaltungen werden mit sicheren Standardzuständen geplant."
-recognizeSignals:
-  - "Ein Aufbau funktioniert nur manchmal."
-  - "Eine Aufgabe verlangt Begründung statt nur Begriff."
-  - "Signal, Strompfad oder Startzustand sind unklar."
-selfCheckPoints:
-  - "Kann ich den Ausgangszustand benennen?"
-  - "Kann ich eine konkrete Gegenprobe formulieren?"
-  - "Kann ich die Abgrenzung zu Nachbarthemen erklären?"
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "adc-rauschen-oversampling-und-messfenster"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "atmega"
-  - "adc"
-  - "rauschen"
-  - "oversampling"
-  - "mittelwert"
-  - "messfenster"
+tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
 Verstehe, warum ADC-Werte schwanken können und wie Mittelwert, Messfenster und Oversampling sinnvoll, aber nicht magisch helfen.

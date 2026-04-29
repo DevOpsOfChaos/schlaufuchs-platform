@@ -1,31 +1,17 @@
 ---
 title: "Testfallmatrix"
 description: "Überblick über Testfallmatrizen als strukturierte Sicht auf Eingaben, Erwartungen, Randfälle und Risiken."
-subject: informatik
+subject: "informatik"
 section: "Tests"
-topicPath:
-  - "testfallmatrix"
-learningGoals:
-  - "Du verstehst Testfallmatrizen als Ordnungswerkzeug."
-  - "Du kannst Eingaben, Bedingungen, erwartetes Ergebnis und Risiko trennen."
-  - "Du erkennst Lücken in Testabdeckung leichter."
+topicPath: ["testfallmatrix", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Viele Tests automatisch als gute Abdeckung zu betrachten."
-  - "Nur typische Fälle und keine Randfälle zu erfassen."
-keyTakeaways:
-  - "Eine Testfallmatrix macht Abdeckung und Lücken sichtbar."
-  - "Gute Tests kombinieren Normalfälle, Randfälle und Fehlerfälle."
-recognizeSignals:
-  - "Es geht um Testfälle, Randfälle, erwartete Ergebnisse oder Abdeckung."
-selfCheckPoints:
-  - "Kann ich für eine Funktion mindestens Normalfall, Grenzfall und Fehlerfall benennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "tests"
-  - "testfaelle"
-  - "qualitaet"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Tests"]
 draft: false
 ---
 # Testfallmatrix

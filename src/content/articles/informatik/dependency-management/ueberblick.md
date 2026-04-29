@@ -3,32 +3,17 @@ title: "Dependency Management"
 description: "Allgemeiner Überblick über Abhängigkeiten, Paketversionen und kontrollierte Aktualisierung in Softwareprojekten."
 subject: "informatik"
 section: "Softwareentwicklung"
-topicPath:
-  - "dependency-management"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["dependency-management", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Updates entweder blind eingespielt oder dauerhaft ignoriert. Beides kann Probleme erzeugen."
-keyTakeaways:
-  - "Dependency Management ist ein Gleichgewicht aus Nutzen, Stabilität und Sicherheit. Gute Projekte aktualisieren bewusst und prüfbar."
-  - "Mehr Abhängigkeiten bedeuten nicht automatisch bessere Software. Jede Abhängigkeit erweitert den Wartungs- und Vertrauensbereich."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "informatik"
-  - "dependencies"
-  - "pakete"
-  - "softwareentwicklung"
+tags: ["informatik", "Softwareentwicklung"]
 draft: false
 ---
-
 # Dependency Management
 
 Dependency Management beschreibt, wie externe Bibliotheken ausgewählt, versioniert, aktualisiert und geprüft werden.

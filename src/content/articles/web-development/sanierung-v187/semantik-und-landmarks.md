@@ -3,39 +3,17 @@ title: "Semantik und Landmarks"
 description: "Verstehe, warum semantische Elemente mehr sind als andere Namen für div-Blöcke."
 subject: "web-development"
 section: "html"
-topicPath: 
-  - "html-und-semantik"
-  - "landmarks"
-learningGoals: 
-  - "Bedeutung von Seitenteilen ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Ordne einer Beispielseite passende semantische Bereiche zu und erkläre, warum du sie gewählt hast."
-  - "Überarbeite eine div-lastige Seitenstruktur zu einer lesbaren Landmark-Struktur."
-commonMistakes: 
-  - "Jeder Bereich wird als div gebaut."
-  - "main, nav und aside werden nach Optik statt nach Aufgabe gewählt."
-  - "Mehrere Hauptbereiche machen die Seitenlogik unklar."
-keyTakeaways: 
-  - "Semantik ist passend, wenn ein Screenreader, ein Suchsystem und ein Mensch die gleiche Grundstruktur erkennen können."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "Semantik ist passend, wenn ein Screenreader, ein Suchsystem und ein Mensch die gleiche Grundstruktur erkennen können."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "semantik-und-landmarks"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags: 
-  - "html"
-  - "semantik"
-  - "landmarks"
-  - "barrierefreiheit"
-  - "web-development"
+tags: ["web-development", "html"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Semantik und Landmarks](/schlaufuchs-platform/images/web-development/sanierung-v187/semantik-und-landmarks.svg)
 
     Semantik und Landmarks ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

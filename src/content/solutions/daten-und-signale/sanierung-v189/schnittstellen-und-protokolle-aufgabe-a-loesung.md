@@ -3,22 +3,12 @@ title: "Lösung: Schnittstellen und Protokolle: Grundordnung"
 description: "Musterlösung zur Aufgabe dat-v189-055a."
 subject: "daten-und-signale"
 section: "systeme"
-topicPath:
-  - "systeme"
-  - "schnittstellen-und-protokolle"
-  - "loesung-a"
+topicPath: ["sanierung-v189", "schnittstellen-und-protokolle-aufgabe-a"]
 taskId: "dat-v189-055a"
 relatedExercise: "daten-und-signale/sanierung-v189/schnittstellen-und-protokolle-aufgabe-a"
-tags:
-  - "schnittstellen"
-  - "protokolle"
-  - "daten"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "systeme", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-055a`
 
 Eine mögliche Lösung:

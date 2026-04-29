@@ -1,39 +1,19 @@
 ---
 title: "Kondensator und Ladung – Überblick"
 description: "Ein allgemeiner Überblick über Kondensatoren, elektrische Ladung und typische Anwendungen in einfachen Schaltungen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schaltungen"
-topicPath:
-  - schaltungen
-  - kondensator-und-ladung
-  - ueberblick
-learningGoals:
-  - Du kennst Kondensatoren als Bauteile zur Ladungsspeicherung.
-  - Du kannst Laden und Entladen grob beschreiben.
-  - Du erkennst typische Anwendungen in Schaltungen.
-practiceIdeas:
-  - Ordne Kondensatoren in einfachen Schaltungen nach ihrer Aufgabe ein.
-  - Beschreibe Laden und Entladen ohne Formeln in Alltagssprache.
-commonMistakes:
-  - Einen Kondensator wie eine normale Batterie zu behandeln.
-  - Stromfluss und Ladungsspeicherung zu vermischen.
-keyTakeaways:
-  - Ein Kondensator speichert Ladung und Energie im elektrischen Feld.
-  - Er ist besonders bei zeitlich veränderlichen Spannungen wichtig.
-recognizeSignals:
-  - Es geht um Glättung, Entkopplung, Zeitverhalten oder Ladung.
-selfCheckPoints:
-  - Kann ich erklären, was ein Kondensator speichert?
-  - Kann ich typische Anwendungen nennen?
-tags:
-  - elektrotechnik
-  - kondensator
-  - ladung
-  - schaltung
-level: mittel
+topicPath: ["schaltungen", "kondensator-und-ladung", "ueberblick", "grundlagen-kondensator-und-ladung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "Schaltungen"]
 draft: false
 ---
-
 # Kondensator und Ladung
 
 Ein **Kondensator** ist ein elektrisches Bauteil, das elektrische Ladung speichern kann. Er besteht im Grundprinzip aus zwei leitenden Flächen, die durch ein isolierendes Material getrennt sind.

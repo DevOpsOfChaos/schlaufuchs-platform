@@ -1,23 +1,14 @@
 ---
-title: Lösung – FormData sauber lesen
-description: Musterlösung zur Aufgabe über FormData sauber lesen.
-subject: web-development
-section: Feinstruktur Web Development
-topicPath:
-- browser-javascript
-- dom-zustand-events
-- formdata-sauber-lesen-v114
-taskId: v114-web-development-formdata-sauber-lesen-v114
-relatedExercise: web-development/browser-javascript/dom-zustand-events/formdata-sauber-lesen-v114
-tags:
-- web-development
-- v114
-- loesung
-- browser-javascript
-- dom-zustand-events
+title: "Lösung – FormData sauber lesen"
+description: "Musterlösung zur Aufgabe über FormData sauber lesen."
+subject: "web-development"
+section: "Feinstruktur Web Development"
+topicPath: ["browser-javascript", "dom-zustand-events", "formdata-sauber-lesen-v114"]
+taskId: "v114-web-development-formdata-sauber-lesen-v114"
+relatedExercise: "web-development/browser-javascript/dom-zustand-events/formdata-sauber-lesen-v114"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

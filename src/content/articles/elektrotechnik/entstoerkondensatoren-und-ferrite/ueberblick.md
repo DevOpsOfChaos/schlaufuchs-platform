@@ -1,36 +1,19 @@
 ---
 title: "Entstörkondensatoren und Ferrite"
 description: "Entstörkondensatoren und Ferrite werden eingesetzt, um unerwünschte hochfrequente Störungen zu reduzieren oder von empfindlichen Schaltungsteilen fernzuhalten."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "EMV"
-topicPath:
-  - "entstoerkondensatoren-und-ferrite"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Entstörkondensatoren und Ferrite als allgemeinen Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte, typische Beispiele und wichtige Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle oder Aufgaben folgen."
+topicPath: ["entstoerkondensatoren-und-ferrite", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Kondensatoren oder Ferrite wahllos ergänzt, ohne zu wissen, welche Störung eigentlich vorliegt."
-keyTakeaways:
-  - "Entstörkondensatoren und Ferrite werden eingesetzt, um unerwünschte hochfrequente Störungen zu reduzieren oder von empfindlichen Schaltungsteilen fernzuhalten."
-  - "Ein guter Überblick trennt Begriff, Zweck, Einsatzgrenzen und typische Fehlerbilder."
-  - "Spezialfälle werden verständlicher, wenn das allgemeine Konzept vorher klar ist."
-recognizeSignals:
-  - "Es geht um Entstörkondensatoren und Ferrite, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-  - "Viele Einzelfälle wirken unübersichtlich, solange der Grundbegriff fehlt."
-selfCheckPoints:
-  - "Kann ich Entstörkondensatoren und Ferrite in eigenen Worten erklären?"
-  - "Kann ich ein Beispiel, eine Grenze und ein typisches Missverständnis nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "entstoerung"
-  - "emv"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "EMV"]
 draft: false
 ---
-
 # Entstörkondensatoren und Ferrite
 
 Entstörkondensatoren und Ferrite werden eingesetzt, um unerwünschte hochfrequente Störungen zu

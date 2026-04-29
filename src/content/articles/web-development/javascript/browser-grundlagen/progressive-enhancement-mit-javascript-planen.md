@@ -3,44 +3,17 @@ title: "JavaScript – Progressive Enhancement planen"
 description: "Lerne, JavaScript als Verbesserung einer funktionierenden Basis zu verstehen, nicht als einzige Möglichkeit zur Nutzung."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "browser-grundlagen"
-  - "progressive-enhancement-mit-javascript-planen"
-learningGoals:
-  - "Du erklärst Progressive Enhancement als stabile Grundfunktion plus Komfortschicht."
-  - "Du prüfst, ob Kerninhalte ohne JavaScript erreichbar bleiben."
-  - "Du entscheidest, welche Interaktionen wirklich JavaScript brauchen."
-practiceIdeas:
-  - "Baue ein sehr kleines Beispiel mit genau einem sichtbaren Zustand."
-  - "Erkläre den Code zuerst in Alltagssprache und danach mit Fachbegriffen."
-  - "Prüfe bewusst den Fall, dass ein Element, Wert oder Netzwerkzugriff nicht wie erwartet vorhanden ist."
-commonMistakes:
-  - "Eine Seite komplett unbenutzbar zu machen, wenn JavaScript ausfällt."
-  - "Links und Formulare ohne echte href- oder action-Basis zu bauen."
-  - "Komfortfunktionen mit Kernfunktion zu verwechseln."
-keyTakeaways:
-  - "JavaScript im Browser verbindet Struktur, Ereignisse, Daten und Rückmeldung."
-  - "Robuste Lösungen behandeln nicht nur den Erfolgsfall."
-  - "Lesbarer Code trennt Auswahl, Entscheidung und Wirkung."
-recognizeSignals:
-  - "Es geht um Browserverhalten, Interaktion, Formularwerte, Datenladen oder gespeicherten Zustand."
-  - "Eine sichtbare Oberfläche soll durch JavaScript verständlicher oder interaktiver werden."
-  - "Der Code muss mit Fehlern, fehlenden Elementen oder leeren Werten umgehen."
-selfCheckPoints:
-  - "Kann ich sagen, welche Browseraufgabe der Code übernimmt?"
-  - "Ist die Rückmeldung für Nutzerinnen und Nutzer sichtbar?"
-  - "Bleibt die Lösung klein genug, um später erweitert zu werden?"
+topicPath: ["javascript", "browser-grundlagen", "progressive-enhancement-mit-javascript-planen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "fortgeschritten"
-tags:
-  - "web development"
-  - "javascript"
-  - "progressive enhancement"
-  - "ux"
-  - "accessibility"
+tags: ["web-development", "JavaScript"]
 draft: false
 ---
-
 ## Grundidee
 
 Lerne, JavaScript als Verbesserung einer funktionierenden Basis zu verstehen, nicht als einzige Möglichkeit zur Nutzung. Im Mittelpunkt steht nicht ein einzelner Trick, sondern eine ruhige Entscheidung: Was passiert im Browser, was sieht der Mensch und welche Stelle im Code ist dafür zuständig?

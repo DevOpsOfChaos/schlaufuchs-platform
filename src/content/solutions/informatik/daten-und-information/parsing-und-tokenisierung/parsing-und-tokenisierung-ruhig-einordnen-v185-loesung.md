@@ -1,22 +1,14 @@
 ---
 title: "Lösung – Parsing und Tokenisierung – ruhig einordnen"
 description: "Musterlösung zur Aufgabe über parsing und tokenisierung."
-subject: informatik
+subject: "informatik"
 section: "Daten und Information"
-topicPath:
-  - "daten-und-information"
-  - "parsing-und-tokenisierung"
-  - "loesung"
-taskId: INF-V185-010-1
-relatedExercise: src/content/exercises/informatik/daten-und-information/parsing-und-tokenisierung/parsing-und-tokenisierung-ruhig-einordnen-v185.md
-tags:
-  - "informatik"
-  - "daten-und-information"
-  - "parsing-und-tokenisierung"
-  - "loesung"
+topicPath: ["daten-und-information", "parsing-und-tokenisierung", "parsing-und-tokenisierung-ruhig-einordnen-v185"]
+taskId: "INF-V185-010-1"
+relatedExercise: "src/content/exercises/informatik/daten-und-information/parsing-und-tokenisierung/parsing-und-tokenisierung-ruhig-einordnen-v185.md"
+tags: ["informatik", "Daten und Information", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

@@ -1,33 +1,19 @@
 ---
 title: "Schutzdioden"
 description: "Schutzdioden begrenzen Spannungen oder leiten kurze Störimpulse ab. Sie schützen Eingänge, Treiber und Versorgungspfade vor Zuständen außerhalb zulässiger Grenzen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik und Mikrocontroller"
-topicPath:
-  - "schutzdioden"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst die Grundidee von Schutzdioden."
-  - "Du kannst Schutzdioden in typische Zusammenhänge einordnen."
-  - "Du erkennst häufige Fehler und Abgrenzungen zu verwandten Begriffen."
+topicPath: ["schutzdioden", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Schutzdioden als beliebig belastbar anzusehen."
-keyTakeaways:
-  - "Schutzdioden begrenzen Spannungen oder leiten kurze Störimpulse ab."
-  - "Wichtig sind vor allem esd- und klemmdioden, freilaufdiode an induktiven lasten und die passende Einordnung im Kontext."
-recognizeSignals:
-  - "Es geht um Schutzdioden, wenn Begriffe, Entscheidungen oder Fehlerbilder dieses Themas die Erklärung bestimmen."
-selfCheckPoints:
-  - "Kann ich erklären, wozu Schutzdioden dient und wo typische Grenzen liegen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "grundlagen"
-  - "schutzdioden"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik und Mikrocontroller"]
 draft: false
 ---
-
 # Schutzdioden
 
 Schutzdioden begrenzen Spannungen oder leiten kurze Störimpulse ab. Sie schützen Eingänge, Treiber und Versorgungspfade vor Zuständen außerhalb zulässiger Grenzen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.

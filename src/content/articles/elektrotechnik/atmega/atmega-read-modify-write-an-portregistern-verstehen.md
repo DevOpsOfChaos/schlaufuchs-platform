@@ -1,46 +1,19 @@
 ---
-title: ATmega – Read-Modify-Write an Portregistern verstehen
-description: Verstehe, warum einzelne Bitänderungen an AVR-Registern oft als Lesen, gezieltes Ändern und Zurückschreiben gedacht werden müssen, damit andere Bits nicht versehentlich mitkippen.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - register-und-bitoperationen
-  - atmega-read-modify-write-an-portregistern-verstehen
-learningGoals:
-  - Du erklärst die Grundidee von Read-Modify-Write an AVR-Registern.
-  - Du beschreibst, warum gezielte Bitänderung etwas anderes ist als eine komplette Neuvergabe.
-  - Du liest Registercode ruhiger als Schutz anderer Bits statt nur als Symbolkette.
-practiceIdeas:
-  - Vergleiche eine Komplettzuweisung mit einer gezielten Bitmaske an PORT oder DDR.
-  - Prüfe bei einem Registerbeispiel, welche Bits ausdrücklich gleich bleiben sollen.
-  - Lies Registeränderungen zuerst als Erhalt vorhandener Zustände und erst danach als neuen Wert.
-commonMistakes:
-  - Ein Register vollständig neu zu schreiben, obwohl nur ein einzelnes Bit geändert werden soll.
-  - Bitmasken nur formal zu kennen, ohne den Schutz der anderen Bits mitzudenken.
-  - Zu glauben, dass jedes Register jederzeit gefahrlos komplett überschrieben werden kann.
-keyTakeaways:
-  - Read-Modify-Write schützt andere Registerbits vor versehentlicher Änderung.
-  - Eine komplette Zuweisung und eine gezielte Bitoperation erzählen fachlich nicht dieselbe Geschichte.
-  - Wer Registercode als Erhalt plus Änderung liest, vermeidet viele AVR-Einstiegsfehler.
-recognizeSignals:
-  - Es geht um PORT, DDR, Setzen oder Löschen einzelner Bits an einem Register.
-  - Du sollst begründen, warum eine Bitmaske ruhiger ist als eine starre Komplettzuweisung.
-  - In Aufgaben ist das Schicksal der übrigen Bits wichtiger als nur das eine Zielbit.
-selfCheckPoints:
-  - Kann ich erklären, warum andere Bits erhalten bleiben sollen?
-  - Kann ich eine gezielte Bitoperation von einer Komplettzuweisung unterscheiden?
-  - Kann ich Read-Modify-Write als Strukturprinzip benennen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - register
-  - bitmaske
-level: mittel
+title: "ATmega – Read-Modify-Write an Portregistern verstehen"
+description: "Verstehe, warum einzelne Bitänderungen an AVR-Registern oft als Lesen, gezieltes Ändern und Zurückschreiben gedacht werden müssen, damit andere Bits nicht versehentlich mitkippen."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-read-modify-write-an-portregistern-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 An AVR-Registern wird oft nur **ein einzelnes Bit** geändert. Wer dann das ganze Register stumpf neu beschreibt, riskiert, dass andere Bits versehentlich mitgeändert werden. Genau deshalb ist die ruhige Denkweise oft:

@@ -1,42 +1,19 @@
 ---
 title: "Grundlagen: Hysterese und Schaltpunkte"
 description: "Allgemeiner Überblick über stabile Schaltentscheidungen, obere und untere Schwelle und Flattern an Grenzwerten."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Daten und Signale"
-topicPath:
-  - daten-und-signale
-  - hysterese-und-schaltpunkte
-  - ueberblick
-learningGoals:
-  - "Du erklärst die Grundidee des Themas in eigenen Worten."
-  - "Du ordnest typische Begriffe, Grenzen und Fehlerquellen ruhig ein."
-  - "Du erkennst, welche Detailfragen zu diesem Themenbereich gehören."
-practiceIdeas:
-  - "Skizziere den Zusammenhang als Prüf-, Signal- oder Strompfad."
-  - "Notiere eine typische Fehlannahme und formuliere eine Gegenprobe."
-commonMistakes:
-  - "Nur einen einzigen Schwellwert zu verwenden, obwohl das Signal rauscht."
-  - "Flattern als Programmfehler zu deuten."
-  - "Einschalten und Ausschalten mit derselben Grenze zu erzwingen."
-keyTakeaways:
-  - "Hysterese trennt Einschalt- und Ausschaltpunkt."
-  - "Sie verhindert Flattern an Grenzwerten."
-  - "Schwellwerte müssen zum Signalrauschen passen."
-recognizeSignals:
-  - "Du brauchst zuerst Orientierung, bevor du eine konkrete Schaltung oder Aufgabe bewertest."
-  - "Ein Einzelfall wirkt plausibel, aber der allgemeine fachliche Rahmen fehlt."
-selfCheckPoints:
-  - "Kann ich das Thema ohne reines Auswendiglernen erklären?"
-  - "Kann ich typische Fehlerquellen in einer sinnvollen Prüfreihenfolge nennen?"
-level: einfach
-tags:
-  - elektrotechnik
-  - hysterese
-  - schwellwert
-  - signal
+topicPath: ["daten-und-signale", "hysterese-und-schaltpunkte", "ueberblick", "grundlagen-hysterese-und-schaltpunkte"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Daten und Signale"]
 draft: false
 ---
-
 ![Hysterese und Schaltpunkte](/schlaufuchs-platform/images/overviews/v182/hysterese-und-schaltpunkte.svg)
 
 ## Überblick

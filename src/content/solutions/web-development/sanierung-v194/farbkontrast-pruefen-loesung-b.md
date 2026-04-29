@@ -3,24 +3,12 @@ title: "Lösung: Farbkontrast prüfen: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-development-v194-017b im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "visuelle-qualitaet"
-  - "farbkontrast-pruefen"
-  - "loesung-b"
-
+topicPath: ["sanierung-v194", "farbkontrast-pruefen-loesung-b"]
 taskId: "web-development-v194-017b"
 relatedExercise: "web-development/sanierung-v194/farbkontrast-pruefen-aufgabe-b"
-tags:
-  - "farbkontrast"
-  - "pruefen"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-017b`
 
 Ausgangsauftrag: Übertrage das Thema Farbkontrast prüfen auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

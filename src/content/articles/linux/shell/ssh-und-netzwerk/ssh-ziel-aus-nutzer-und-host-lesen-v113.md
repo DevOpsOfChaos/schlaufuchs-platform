@@ -3,43 +3,17 @@ title: "SSH-Ziel aus Nutzer und Host lesen"
 description: "Lerne SSH-Ziel aus Nutzer und Host lesen als kleines, klar abgegrenztes Unterthema mit Prüffrage und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "ssh-und-netzwerk"
-  - "ssh-ziel-aus-nutzer-und-host-lesen-v113"
-learningGoals:
-  - "Du erklärst SSH-Ziel aus Nutzer und Host lesen als enges Unterthema."
-  - "Du grenzt es von einem naheliegenden Nachbarthema ab."
-  - "Du nutzt eine konkrete Prüffrage statt einer allgemeinen Merkhilfe."
-practiceIdeas:
-  - "Wende die Prüffrage auf ein zweites Beispiel an."
-  - "Formuliere eine Gegenprobe mit geändertem Kontext."
-  - "Markiere, welches Nachbarthema hier gerade nicht gemeint ist."
-commonMistakes:
-  - "Hostproblem und falscher Benutzer werden vermischt."
-  - "Zu breit einordnen und dadurch die eigentliche Trennkante verlieren."
-  - "Eine Lösung ohne Gegenprobe akzeptieren."
-keyTakeaways:
-  - "SSH-Ziel aus Nutzer und Host lesen wird über eine kleine Trennkante verständlich."
-  - "Die Prüffrage entscheidet stärker als ein grober Kapitelname."
-  - "Aufgabe und Lösung bleiben übersichtlich, wenn das Unterthema eng geführt wird."
-recognizeSignals:
-  - "Eine Aufgabe enthält eine typische Verwechslung."
-  - "Ein Begriff wirkt bekannt, aber der konkrete Prüfschritt fehlt."
-  - "Eine Lösung muss begründen, warum ein Nachbarthema nicht passt."
-selfCheckPoints:
-  - "Kann ich die Trennkante in einem Satz nennen?"
-  - "Kann ich die Prüffrage auf den Fall anwenden?"
-  - "Kann ich eine sinnvolle Gegenprobe formulieren?"
-tags:
-  - "linux"
-  - "strukturcheck"
-  - "unterthema"
-  - "ssh-ziel-aus-nutzer-und-host-lesen-v113"
+topicPath: ["shell", "ssh-und-netzwerk", "ssh-ziel-aus-nutzer-und-host-lesen-v113"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["linux", "Feinstruktur Linux"]
 draft: false
 ---
-
 ## Grundidee
 
 **SSH-Ziel aus Nutzer und Host lesen** ist bewusst als kleines Unterthema angelegt. Lerne SSH-Ziel aus Nutzer und Host lesen als kleines, klar abgegrenztes Unterthema mit Prüffrage und Gegenprobe. Dadurch bleibt die Seite auffindbar und vermischt sich nicht mit einem übergroßen Sammelkapitel.

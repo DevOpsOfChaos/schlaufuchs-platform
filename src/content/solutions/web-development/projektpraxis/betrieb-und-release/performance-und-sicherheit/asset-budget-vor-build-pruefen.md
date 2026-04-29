@@ -3,22 +3,12 @@ title: "Lösung – Asset-Budget vor Build prüfen"
 description: "Musterlösung zu asset-budget vor build prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "projektpraxis"
-  - "betrieb-und-release"
-  - "performance-und-sicherheit"
-  - "asset-budget-vor-build-pruefen"
+topicPath: ["projektpraxis", "betrieb-und-release", "performance-und-sicherheit", "asset-budget-vor-build-pruefen"]
 taskId: "v112-web-development-asset-budget-vor-build-pruefen"
 relatedExercise: "web-development/projektpraxis/betrieb-und-release/performance-und-sicherheit/asset-budget-vor-build-pruefen"
-tags:
-  - "web-development"
-  - "v112"
-  - "feinstruktur"
-  - "projektpraxis"
-  - "asset-budget-vor-build-pruefen"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Betrieb, Performance und Sicherheit**.

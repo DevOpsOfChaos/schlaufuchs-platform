@@ -1,32 +1,17 @@
 ---
 title: "Outbox Pattern"
 description: "Überblick über zuverlässige Ereignisveröffentlichung aus transaktionalen Systemen."
-subject: informatik
+subject: "informatik"
 section: "Architektur"
-topicPath:
-  - "outbox-pattern"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Outbox Pattern als Grundbegriff einordnen."
-  - "Du kennst typische Teilaspekte wie Datenbanktransaktion, Outbox-Tabelle, Publisher."
-  - "Du kannst häufige Fehlannahmen vom fachlichen Kern unterscheiden."
+topicPath: ["outbox-pattern", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein Event direkt nach dem Commit ohne Wiederholstrategie als zuverlässig zu betrachten."
-  - "Einzelne Kennwerte ohne Zusammenhang zu Quelle, Umgebung oder Modell zu bewerten."
-keyTakeaways:
-  - "Outbox Pattern beschreibt keinen isolierten Trick, sondern einen Zusammenhang im Bereich Konsistente Ereignisse."
-  - "Wichtige Hinweise liefern vor allem Datenbanktransaktion, Outbox-Tabelle, Publisher."
-recognizeSignals:
-  - "Es geht um konsistente ereignisse, datenbanktransaktion oder outbox-tabelle."
-selfCheckPoints:
-  - "Kann ich erklären, welchen Zweck Outbox Pattern erfüllt?"
-  - "Kann ich typische Einflussgrößen nennen und voneinander abgrenzen?"
-level: einfach
-tags:
-  - "informatik"
-  - "architektur"
-  - "events"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Architektur"]
 draft: false
 ---
 # Outbox Pattern

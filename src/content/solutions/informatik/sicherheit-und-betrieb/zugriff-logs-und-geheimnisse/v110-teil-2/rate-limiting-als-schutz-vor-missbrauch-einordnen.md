@@ -3,23 +3,12 @@ title: "Lösung – Rate Limiting als Schutz vor Missbrauch einordnen"
 description: "Musterlösung zu Rate Limiting als Schutz vor Missbrauch einordnen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Sicherheit und Betrieb"
-topicPath:
-  - "sicherheit-und-betrieb"
-  - "zugriff-logs-und-geheimnisse"
-  - "v110-teil-2"
-  - "rate-limiting-als-schutz-vor-missbrauch-einordnen"
+topicPath: ["sicherheit-und-betrieb", "zugriff-logs-und-geheimnisse", "v110-teil-2", "rate-limiting-als-schutz-vor-missbrauch-einordnen"]
 taskId: "v110-informatik-rate-limiting-als-schutz-vor-missbrauch-einordnen"
 relatedExercise: "informatik/sicherheit-und-betrieb/zugriff-logs-und-geheimnisse/v110-teil-2/rate-limiting-als-schutz-vor-missbrauch-einordnen"
-tags:
-  - "informatik"
-  - "struktur"
-  - "praxis"
-  - "sicherheit-und-betrieb"
-  - "zugriff-logs-und-geheimnisse"
-  - "rate-limiting-als-schutz-vor-missbrauch-einordnen"
+tags: ["informatik", "Sicherheit und Betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Rate Limiting als Schutz vor Missbrauch einordnen**.

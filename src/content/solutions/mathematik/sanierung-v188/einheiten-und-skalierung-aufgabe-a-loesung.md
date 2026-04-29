@@ -3,22 +3,12 @@ title: "Lösung: Einheiten und Skalierung: Grundordnung"
 description: "Musterlösung zur Aufgabe mat-v188-055a."
 subject: "mathematik"
 section: "geometrie"
-topicPath:
-  - "geometrie"
-  - "einheiten-und-skalierung"
-  - "loesung-a"
+topicPath: ["sanierung-v188", "einheiten-und-skalierung-aufgabe-a"]
 taskId: "mat-v188-055a"
 relatedExercise: "mathematik/sanierung-v188/einheiten-und-skalierung-aufgabe-a"
-tags:
-  - "skalierung"
-  - "einheiten"
-  - "geometrie"
-  - "mathematik"
-  - "loesung"
-  - "v188"
+tags: ["mathematik", "geometrie", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `mat-v188-055a`
 
 Eine mögliche Lösung:

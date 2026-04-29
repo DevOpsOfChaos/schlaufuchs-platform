@@ -1,24 +1,14 @@
 ---
 title: "Lösung: Entstörkondensator nahe platzieren"
 description: "Musterlösung zu Entstörkondensator nahe platzieren mit Trennkante und Gegenprobe."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "signale-stoerungen-v115"
-  - "stoerungen-und-filter"
-  - "entstoerkondensator-nahe-platzieren-v115"
+topicPath: ["signale-stoerungen-v115", "stoerungen-und-filter", "entstoerkondensator-nahe-platzieren-v115"]
 taskId: "elektrotechnik-entstoerkondensator-nahe-platzieren-v115"
 relatedExercise: "elektrotechnik/signale-stoerungen-v115/stoerungen-und-filter/entstoerkondensator-nahe-platzieren-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "signale und störungen"
-  - "störungen und filter"
-  - "lösung"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **Entstörkondensator nahe platzieren**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

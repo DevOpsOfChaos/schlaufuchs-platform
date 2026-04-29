@@ -3,25 +3,12 @@ title: "Lösung: Signal-Rausch-Abstand: Aufgabe B"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-018b im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "fehler-und-robustheit"
-  - "signal-rausch-abstand"
-  - "loesung-b"
-
+topicPath: ["sanierung-v195", "signal-rausch-abstand-loesung-b"]
 taskId: "daten-und-signale-v195-018b"
 relatedExercise: "daten-und-signale/sanierung-v195/signal-rausch-abstand-aufgabe-b"
-tags:
-  - "signal"
-  - "rausch"
-  - "abstand"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-018b`
 
 Ausgangsauftrag: Übertrage das Thema Signal-Rausch-Abstand auf ein zweites Beispiel und formuliere eine kurze Prüfung.

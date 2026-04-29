@@ -3,32 +3,17 @@ title: "Umfang und Fläche unterscheiden"
 description: "Allgemeiner Überblick über umfang und fläche unterscheiden und die wichtigsten Zusammenhänge."
 subject: "mathematik"
 section: "Geometrie"
-topicPath:
-  - "umfang-und-flaeche-unterscheiden"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["umfang-und-flaeche-unterscheiden", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Umfangs- und Flächenformeln verwechselt."
-keyTakeaways:
-  - "Die klare Trennung verhindert viele Einheiten- und Modellfehler."
-  - "Eine größere Fläche bedeutet nicht automatisch einen proportional größeren Umfang."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "mathematik"
-  - "geometrie"
-  - "umfang"
-  - "fläche"
+tags: ["mathematik", "Geometrie"]
 draft: false
 ---
-
 # Umfang und Fläche unterscheiden
 
 Umfang und Fläche beschreiben verschiedene Eigenschaften einer Figur: Randlänge und bedeckte Ausdehnung.

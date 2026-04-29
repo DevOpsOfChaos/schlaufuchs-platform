@@ -1,46 +1,19 @@
 ---
-title: ATmega – UART-Datenrahmen mit Start-, Stopp- und Paritätsbit verstehen
-description: Verstehe, wie der AVR ein Zeichen seriell als Datenrahmen überträgt und warum Start-, Stopp- und Paritätsbit andere Rollen haben als die eigentlichen Nutzdaten.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-kommunikation
-  - atmega-uart-datenrahmen-mit-start-stop-und-paritaet-verstehen
-learningGoals:
-  - Du erklärst die Rollen von Startbit, Datenbits, optionalem Paritätsbit und Stoppbit.
-  - Du beschreibst UART eher als Zeit- und Rahmenproblem statt nur als Textausgabe.
-  - Du erkennst, warum Sender und Empfänger nicht nur dieselbe Baudrate, sondern auch dieselbe Rahmenform brauchen.
-practiceIdeas:
-  - Zerlege ein gesendetes Zeichen in Startbit, Datenbits, Parität und Stoppbit.
-  - Vergleiche zwei UART-Einstellungen mit gleicher Baudrate, aber unterschiedlicher Rahmenform.
-  - Lies serielle Fehler eher als falschen Rahmen statt sofort als „falschen Text“.
-commonMistakes:
-  - Zu denken, UART sende einfach nur nackte Bytes ohne zusätzlichen Rahmen.
-  - Start- und Stoppbit mit den eigentlichen Nutzdaten zu verwechseln.
-  - Parität als Pflichtbestandteil jeder UART-Verbindung zu behandeln.
-keyTakeaways:
-  - Ein UART-Zeichen besteht nicht nur aus Nutzdaten, sondern aus einem ganzen Datenrahmen.
-  - Start- und Stoppbit sorgen für eine ruhige zeitliche Einordnung des Zeichens.
-  - Gleiche Baudrate allein reicht nicht, wenn Sender und Empfänger den Rahmen unterschiedlich lesen.
-recognizeSignals:
-  - Es geht um 8N1, Datenrahmen, Startbit, Stoppbit oder Parität.
-  - Du sollst erklären, warum eine serielle Verbindung trotz passender Baudrate unbrauchbar wirkt.
-  - In Aufgaben müssen Zeichenrahmen und Nutzdaten bewusst getrennt gelesen werden.
-selfCheckPoints:
-  - Kann ich Start-, Daten-, Paritäts- und Stoppbit fachlich unterscheiden?
-  - Kann ich erklären, warum 8N1 eine Rahmenbeschreibung und kein Textinhalt ist?
-  - Kann ich beschreiben, warum derselbe Text bei anderer Rahmenform falsch ankommen kann?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - uart
-  - datenrahmen
-level: mittel
+title: "ATmega – UART-Datenrahmen mit Start-, Stopp- und Paritätsbit verstehen"
+description: "Verstehe, wie der AVR ein Zeichen seriell als Datenrahmen überträgt und warum Start-, Stopp- und Paritätsbit andere Rollen haben als die eigentlichen Nutzdaten."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-uart-datenrahmen-mit-start-stop-und-paritaet-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Wenn ein AVR über UART ein Zeichen sendet, wird nicht einfach nur „das Byte“ auf die Leitung gelegt. Das Zeichen wird in einen **Datenrahmen** eingebettet. Genau dieser Rahmen sorgt dafür, dass der Empfänger erkennt, **wann ein Zeichen beginnt**, **wie viele Nutzbits dazugehören** und **wann es wieder endet**.

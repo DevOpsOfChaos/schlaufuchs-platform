@@ -1,12 +1,17 @@
 ---
-title: Lineare Gleichungssysteme – Grundaufgaben
-description: Übe das Lesen und Einordnen mehrerer linearer Bedingungen in einem gemeinsamen System.
-subject: mathematik
-section: lineare-gleichungssysteme
-level: mittel
+title: "Lineare Gleichungssysteme – Grundaufgaben"
+description: "Übe das Lesen und Einordnen mehrerer linearer Bedingungen in einem gemeinsamen System."
+subject: "mathematik"
+section: "lineare-gleichungssysteme"
+topicPath: ["lineare-gleichungssysteme-grundaufgaben"]
+taskId: "AUTO-LINEARE-GLEICHUNGSSYSTEME-GRUNDAUFGABEN"
+tags: ["mathematik", "lineare-gleichungssysteme", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 Diese Aufgabe hält die Grundidee linearer Gleichungssysteme bewusst klar: Du sollst nicht nur Gleichungen sehen, sondern verstehen, **warum mehrere Bedingungen gemeinsam gelöst werden müssen**.
 
 ## Lernziel

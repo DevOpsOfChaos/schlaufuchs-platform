@@ -1,35 +1,19 @@
 ---
 title: "HTML-Struktur und Semantik"
 description: "Allgemeiner Überblick über HTML als strukturierende und semantische Grundlage von Webseiten."
-subject: web-development
+subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html-struktur-und-semantik"
-  - "ueberblick"
-learningGoals:
-  - "Du kennst HTML als Struktur- und Bedeutungssprache."
-  - "Du kannst semantische Elemente von rein visueller Gestaltung unterscheiden."
-  - "Du verstehst, warum gute Struktur Barrierefreiheit und Wartbarkeit unterstützt."
+topicPath: ["html-struktur-und-semantik", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "HTML nur als Layoutwerkzeug zu verwenden."
-  - "Überschriften nach Aussehen statt nach Dokumentstruktur zu wählen."
-keyTakeaways:
-  - "HTML beschreibt Inhalt und Bedeutung, nicht nur sichtbare Kästen."
-  - "Semantische Struktur hilft Browsern, Suchmaschinen, Screenreadern und Menschen."
-recognizeSignals:
-  - "Es geht um Überschriften, Abschnitte, Navigation, Hauptinhalt oder Dokumentaufbau."
-selfCheckPoints:
-  - "Kann ich eine Seite ohne CSS noch logisch lesen?"
-level: einfach
-tags:
-  - "web development"
-  - "html"
-  - "semantik"
-  - "struktur"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 # HTML-Struktur und Semantik
 
 ![Schaubild zu HTML-Struktur und Semantik.](/schlaufuchs-platform/images/overviews/v148/html-struktur-und-semantik.svg)

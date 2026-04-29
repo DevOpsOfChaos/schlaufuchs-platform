@@ -1,46 +1,19 @@
 ---
-title: Objekt Slicing in Vererbung ruhig erkennen
-description: Verstehe, warum beim Kopieren einer Unterklasse in einen Basisklassenwert Spezialisierungen verloren gehen koennen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - objekt-slicing-in-vererbung-ruhig-erkennen
-learningGoals:
-  - Du erklaerst die Grundidee von Objekt Slicing.
-  - Du beschreibst, warum beim Kopieren in einen Basisklassenwert Unterklassenteile verloren gehen koennen.
-  - Du erkennst, warum Referenzen und Zeiger solche Verluste oft vermeiden.
-practiceIdeas:
-  - Vergleiche einen Basisklassenwert mit einer Basisklassenreferenz.
-  - Pruefe in einem Beispiel, ob ein Objekt kopiert oder nur referenziert wird.
-  - Erklaere, welcher Teil des Objekts sichtbar bleibt und welcher abgeschnitten wird.
-commonMistakes:
-  - Zu denken, dass beim Zuweisen an eine Basisklasse immer das ganze Unterklassenobjekt erhalten bleibt.
-  - Kopieren und Referenzieren sprachlich zu vermischen.
-  - Objekt Slicing nur als Spezialfehler statt als Denkfolge der Wertkopie zu lesen.
-keyTakeaways:
-  - Objekt Slicing entsteht beim Kopieren eines Unterklassenobjekts in einen Basisklassenwert.
-  - Dabei bleibt nur der Basisklassenteil im Zielwert erhalten.
-  - Referenzen und Zeiger helfen oft, den konkreten Objekttyp mitzudenken.
-recognizeSignals:
-  - Eine Unterklasse wird an eine Variable vom Basistyp per Wert uebergeben oder zugewiesen.
-  - Im Beispiel verschwinden spaeter Unterklasseninformationen.
-  - Die Aufgabe vergleicht Wertsemantik mit Referenz oder Zeigerlogik.
-selfCheckPoints:
-  - Kann ich Objekt Slicing in Alltagssprache erklaeren?
-  - Kann ich Kopie und Referenz sauber unterscheiden?
-  - Kann ich sagen, warum beim Basisklassenwert nur ein Teil uebrig bleibt?
-level: mittel
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - vererbung
-  - slicing
+title: "Objekt Slicing in Vererbung ruhig erkennen"
+description: "Verstehe, warum beim Kopieren einer Unterklasse in einen Basisklassenwert Spezialisierungen verloren gehen koennen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "objekt-slicing-in-vererbung-ruhig-erkennen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Wenn ein Objekt einer Unterklasse in einen **Basisklassenwert** kopiert wird, bleibt im Ziel nicht automatisch die ganze Spezialisierung erhalten. Es bleibt oft nur der Basisklassenteil uebrig.

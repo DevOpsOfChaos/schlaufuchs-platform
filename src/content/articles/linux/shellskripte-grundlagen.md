@@ -1,13 +1,19 @@
 ---
-title: Shellskripte – Grundlagen
-description: Verstehe, warum wiederkehrende Terminalabläufe in Shellskripten gebündelt werden.
-subject: linux
-section: shellskripte
-level: mittel
-tags: [shellskripte, linux, automatisierung]
+title: "Shellskripte – Grundlagen"
+description: "Verstehe, warum wiederkehrende Terminalabläufe in Shellskripten gebündelt werden."
+subject: "linux"
+section: "shellskripte"
+topicPath: ["shellskripte-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["shellskripte", "linux", "automatisierung"]
 draft: false
 ---
-
 Shellskripte gehören zu den wichtigsten Praxiswerkzeugen im Linux-Umfeld. Sie helfen dabei, **wiederkehrende Abläufe zu bündeln und zu automatisieren**.
 
 ## Was ist ein Shellskript?

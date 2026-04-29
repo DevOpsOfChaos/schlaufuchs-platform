@@ -3,23 +3,12 @@ title: "Lösung: Softwarequalität im Überblick: Aufgabe B"
 description: "Musterlösung zur Aufgabe informatik-v193-001b im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "qualitaet-und-wartbarkeit"
-  - "softwarequalitaet-im-ueberblick"
-  - "loesung-b"
+topicPath: ["sanierung-v193", "softwarequalitaet-im-ueberblick-loesung-b"]
 taskId: "informatik-v193-001b"
 relatedExercise: "informatik/sanierung-v193/softwarequalitaet-im-ueberblick-aufgabe-b"
-tags:
-  - "softwarequalitaet"
-  - "ueberblick"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-001b`
 
 Ausgangsauftrag: Übertrage das Thema Softwarequalität im Überblick auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

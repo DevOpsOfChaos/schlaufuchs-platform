@@ -1,31 +1,17 @@
 ---
 title: "Mounts und Dateisysteme"
 description: "Allgemeiner Überblick über eingehängte Dateisysteme, Mountpoints und Speicherorte unter Linux."
-subject: linux
+subject: "linux"
 section: "Dateisystem"
-topicPath:
-  - "mounts-und-dateisysteme"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Mounts und Dateisysteme grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["mounts-und-dateisysteme", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Mounts und Dateisysteme nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "Mounts und Dateisysteme beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um Mounts und Dateisysteme, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich Mounts und Dateisysteme in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "dateisystem"
-  - "mount"
-  - "speicher"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dateisystem"]
 draft: false
 ---
 # Mounts und Dateisysteme

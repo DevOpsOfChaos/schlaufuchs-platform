@@ -3,34 +3,15 @@ title: "Übung: Tab-Reihenfolge testen"
 description: "Übe, „Tab-Reihenfolge testen“ als kleines Unterthema zu erkennen, zu begründen und mit einer Gegenprobe abzusichern."
 subject: "web-development"
 section: "Web Development vertiefen"
-topicPath:
-  - "html-zugaenglichkeit-und-struktur"
-  - "fokus-und-tastatur"
-  - "tab-reihenfolge-testen-v116"
+topicPath: ["html-zugaenglichkeit-und-struktur", "fokus-und-tastatur", "tab-reihenfolge-testen-v116"]
 taskId: "tab-reihenfolge-testen-v116"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "fokus und tastatur"
-  - "tab reihenfolge testen"
-  - "v116"
-hintPoints:
-  - "Lies zuerst nur die konkrete Unterfrage."
-  - "Markiere eine typische Fehlannahme."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Lösung fachlich begründet?"
-  - "Ist die Abgrenzung zum Nachbarthema sichtbar?"
-  - "Passt die Gegenprobe zur Aufgabe?"
-transferIdeas:
-  - "Ändere eine Bedingung und prüfe, ob deine Begründung noch trägt."
-  - "Erkläre die Lösung einmal ohne Fachwörter und danach fachlich sauber."
-reflectionPrompt: "Welche kleine Entscheidung war bei „Tab-Reihenfolge testen“ am wichtigsten?"
+tags: ["web-development", "Web Development vertiefen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe 1: Unterfrage erkennen
 
 Lies die Situation:

@@ -3,22 +3,12 @@ title: "Lösung – JavaScript: Formular-submit, preventDefault und Validierung"
 description: "Musterlösung zur Aufgabe: Beschreibe, warum ein submit-Listener am Formular robuster ist als ein click-Listener am Button. Skizziere eine Validierungslogik."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "formulare-und-validierung"
-  - "formular-submit-preventdefault-und-validierung"
+topicPath: ["javascript", "formulare-und-validierung", "formular-submit-preventdefault-und-validierung"]
 taskId: "web-js-formular-submit-preventdefault-und-validierung"
 relatedExercise: "web-development/javascript/formulare-und-validierung/formular-submit-preventdefault-und-validierung"
-tags:
-  - "web development"
-  - "javascript"
-  - "formular"
-  - "validierung"
-  - "preventdefault"
-  - "lösung"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Ein submit-Listener reagiert auch bei Enter-Taste oder anderen Auslösewegen. Die Logik prüft zuerst die Daten, verhindert das Standardverhalten nur bei Fehlern und zeigt dann konkrete Feldhinweise oder eine Fehlersammlung.

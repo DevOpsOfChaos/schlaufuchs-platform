@@ -1,31 +1,17 @@
 ---
 title: "SEO und Metadaten"
 description: "Allgemeiner Überblick über Suchmaschinenoptimierung, Seitentitel, Beschreibungen und strukturierende Metadaten."
-subject: web-development
+subject: "web-development"
 section: "Web-Grundlagen"
-topicPath:
-  - "seo-und-metadaten"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst SEO und Metadaten grundlegend einordnen."
-  - "Du kennst typische Begriffe und Zusammenhänge."
-  - "Du erkennst häufige Abgrenzungen und Missverständnisse."
+topicPath: ["seo-und-metadaten", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "SEO und Metadaten nur als isolierten Einzelbegriff zu betrachten."
-keyTakeaways:
-  - "SEO und Metadaten beschreibt ein Grundkonzept mit mehreren praktischen Folgen."
-  - "Der Zusammenhang wird klarer, wenn Zweck, Grenzen und typische Beispiele getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um SEO und Metadaten, wenn typische Begriffe, Beispiele oder Abgrenzungen dieses Themas auftauchen."
-selfCheckPoints:
-  - "Kann ich SEO und Metadaten in eigenen Worten erklären und ein Beispiel nennen?"
-level: einfach
-tags:
-  - "web-development"
-  - "seo"
-  - "metadaten"
-  - "html"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "Web-Grundlagen"]
 draft: false
 ---
 # SEO und Metadaten

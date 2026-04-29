@@ -1,42 +1,19 @@
 ---
-title: Computer und CPU – Grundlagen
-description: Verstehe den Aufbau einfacher Computersysteme und die Rolle der CPU.
-subject: elektrotechnik
-section: computer-und-cpu
-level: einfach
-tags:
-  - cpu
-  - computer
-  - grundlagen
-  - system
-  - verarbeitung
+title: "Computer und CPU – Grundlagen"
+description: "Verstehe den Aufbau einfacher Computersysteme und die Rolle der CPU."
+subject: "elektrotechnik"
+section: "computer-und-cpu"
+topicPath: ["computer-und-cpu-grundlagen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "computer-und-cpu"]
 draft: false
-learningGoals:
-  - Du erklärst die Rolle der CPU in einem einfachen Computersystem.
-  - Du unterscheidest CPU, Speicher sowie Ein- und Ausgabe sauber voneinander.
-  - Du beschreibst einen einfachen Verarbeitungsablauf ruhiger als System statt nur als einzelnes Bauteil.
-practiceIdeas:
-  - Beschreibe bei einem Alltagsgerät, wo Eingabe, Verarbeitung und Ausgabe stattfinden.
-  - Erkläre an einem einfachen Beispiel, warum die CPU ohne Speicher und Ein-/Ausgabe nicht sinnvoll arbeiten kann.
-  - Ordne bei einem Systembild die Rollen der Bauteile zuerst funktional und erst dann räumlich.
-commonMistakes:
-  - Die CPU mit dem ganzen Computer gleichzusetzen.
-  - Speicher und CPU als dasselbe zu betrachten.
-  - Nur das Ergebnis zu sehen, aber den Weg durch das System nicht mitzudenken.
-keyTakeaways:
-  - Die CPU ist zentral, aber nie das ganze System.
-  - Ein Computer funktioniert erst durch das Zusammenspiel mehrerer Rollen.
-  - Wer Eingabe, Verarbeitung, Speicher und Ausgabe trennt, versteht technische Systeme ruhiger.
-recognizeSignals:
-  - Es geht um CPU, Rechneraufbau, Verarbeitung oder das Zusammenspiel technischer Bausteile.
-  - Du sollst erklären, wie aus einer Eingabe eine Reaktion oder Ausgabe wird.
-  - In Aufgaben musst du Rollen im System unterscheiden statt nur Begriffe wiederholen.
-selfCheckPoints:
-  - Kann ich erklären, was die CPU macht und was nicht?
-  - Kann ich CPU, Speicher und Ein-/Ausgabe voneinander trennen?
-  - Kann ich einen einfachen Ablauf als System beschreiben?
 ---
-
 Die CPU ist das zentrale Rechen- und Steuerwerk eines Computersystems. Sie verarbeitet Daten, führt Befehle aus und arbeitet mit anderen Bausteinen zusammen, damit ein System überhaupt sinnvoll reagieren kann.
 
 <div class="example-card">

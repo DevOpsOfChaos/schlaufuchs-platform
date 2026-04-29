@@ -1,46 +1,19 @@
 ---
-title: Daten, Information und Wissen unterscheiden
-description: Verstehe, warum dieselben Zeichen erst durch Kontext und Einordnung zu Information und Wissen werden.
-subject: informatik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - daten-und-information
-  - daten-information-und-wissen-unterscheiden
-learningGoals:
-  - Du unterscheidest rohe Daten, Information und Wissen sauber voneinander.
-  - Du erklärst, warum Bedeutung erst durch Kontext entsteht.
-  - Du liest Beispiele ruhiger, in denen dieselbe Darstellung mehrere Bedeutungen haben kann.
-practiceIdeas:
-  - Prüfe bei einem Symbol oder Wert, was daran nur Datum und was daran schon Information ist.
-  - Vergleiche einen isolierten Messwert mit derselben Zahl in einer beschrifteten Tabelle.
-  - Formuliere in eigenen Worten, wann aus Information anwendbares Wissen wird.
-commonMistakes:
-  - Daten und Information gleichzusetzen.
-  - Zu denken, Wissen sei nur eine größere Datenmenge.
-  - Zeichen sofort mit ihrer Bedeutung zu verwechseln.
-keyTakeaways:
-  - Daten sind zunächst rohe Zeichen, Werte oder Symbole.
-  - Information entsteht, wenn Daten in einen Bedeutungszusammenhang gebracht werden.
-  - Wissen entsteht, wenn Informationen verstanden, verknüpft und angewendet werden.
-recognizeSignals:
-  - Ein Beispiel zeigt dieselbe Zahl oder denselben Buchstaben in verschiedenen Kontexten.
-  - Du sollst erklären, warum eine Darstellung allein noch nicht genug Aussagekraft hat.
-  - Es geht um Bedeutung, Einordnung oder Interpretation von Daten.
-selfCheckPoints:
-  - Kann ich Daten von Information trennen?
-  - Kann ich erklären, wodurch aus Information Wissen wird?
-  - Kann ich an einem Beispiel den fehlenden Kontext benennen?
-level: einfach
-tags:
-  - informatik
-  - grundlagen
-  - daten
-  - information
-  - wissen
+title: "Daten, Information und Wissen unterscheiden"
+description: "Verstehe, warum dieselben Zeichen erst durch Kontext und Einordnung zu Information und Wissen werden."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "daten-und-information", "daten-information-und-wissen-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Grundlagen"]
 draft: false
 ---
-
 ## Grundidee
 
 Nicht jede gespeicherte Darstellung ist automatisch schon sinnvoll nutzbare Information. In der Informatik hilft deshalb eine ruhige Trennung: **Zeichen** werden zu **Daten**, Daten mit Kontext zu **Information**, und Informationen mit Einordnung und Erfahrung zu **Wissen**.

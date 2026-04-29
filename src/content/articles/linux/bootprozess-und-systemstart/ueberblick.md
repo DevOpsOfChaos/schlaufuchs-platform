@@ -1,37 +1,19 @@
 ---
 title: "Bootprozess und Systemstart"
 description: "Allgemeiner Überblick über den Linux-Bootprozess vom Firmwarestart bis zum laufenden System."
-subject: linux
+subject: "linux"
 section: "System"
-topicPath:
-  - "bootprozess-und-systemstart"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Bootprozess und Systemstart als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["bootprozess-und-systemstart", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Jeder Startfehler wird oft als systemd-Problem eingeordnet, obwohl er früher entstehen kann."
-keyTakeaways:
-  - "Der Linux-Start besteht aus mehreren Phasen."
-  - "Fehlerdiagnose hängt von der Phase ab."
-  - "Bootloader, Kernel und Init-System haben unterschiedliche Aufgaben."
-recognizeSignals:
-  - "Ein System bleibt beim Start hängen."
-  - "Meldungen erwähnen UEFI, GRUB, Kernel, initramfs oder systemd target."
-selfCheckPoints:
-  - "Kann ich Bootprozess und Systemstart in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "linux"
-  - "boot"
-  - "systemstart"
-  - "systemd"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "System"]
 draft: false
 ---
-
 # Bootprozess und Systemstart
 
 ![Schaubild zum Bootprozess.](/schlaufuchs-platform/images/overviews/v150/bootprozess-und-systemstart.svg)

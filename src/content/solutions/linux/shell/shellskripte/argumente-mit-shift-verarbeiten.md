@@ -3,21 +3,12 @@ title: "Lösung – Argumente mit shift verarbeiten"
 description: "Musterlösung zu argumente mit shift verarbeiten mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "linux"
 section: "Feinstruktur Linux"
-topicPath:
-  - "shell"
-  - "shellskripte"
-  - "argumente-mit-shift-verarbeiten"
+topicPath: ["shell", "shellskripte", "argumente-mit-shift-verarbeiten"]
 taskId: "v112-linux-argumente-mit-shift-verarbeiten"
 relatedExercise: "linux/shell/shellskripte/argumente-mit-shift-verarbeiten"
-tags:
-  - "linux"
-  - "v112"
-  - "feinstruktur"
-  - "shell"
-  - "argumente-mit-shift-verarbeiten"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Shellskripte**.

@@ -3,34 +3,15 @@ title: "Übung: fehlende Zeilen erkennen"
 description: "Übe, „fehlende Zeilen erkennen“ als kleines Unterthema zu erkennen, zu begründen und mit einer Gegenprobe abzusichern."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "datenbanken-und-modelle"
-  - "joins-und-beziehungen"
-  - "fehlende-zeilen-erkennen-v116"
+topicPath: ["datenbanken-und-modelle", "joins-und-beziehungen", "fehlende-zeilen-erkennen-v116"]
 taskId: "fehlende-zeilen-erkennen-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "joins und beziehungen"
-  - "fehlende zeilen erkennen"
-  - "v116"
-hintPoints:
-  - "Lies zuerst nur die konkrete Unterfrage."
-  - "Markiere eine typische Fehlannahme."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Lösung fachlich begründet?"
-  - "Ist die Abgrenzung zum Nachbarthema sichtbar?"
-  - "Passt die Gegenprobe zur Aufgabe?"
-transferIdeas:
-  - "Ändere eine Bedingung und prüfe, ob deine Begründung noch trägt."
-  - "Erkläre die Lösung einmal ohne Fachwörter und danach fachlich sauber."
-reflectionPrompt: "Welche kleine Entscheidung war bei „fehlende Zeilen erkennen“ am wichtigsten?"
+tags: ["informatik", "Informatik vertiefen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe 1: Unterfrage erkennen
 
 Lies die Situation:

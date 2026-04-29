@@ -3,24 +3,12 @@ title: "Lösung: Kompatibilität bei Änderungen: Aufgabe B"
 description: "Musterlösung zur Aufgabe informatik-v193-027b im Informatikblock v193."
 subject: "informatik"
 section: "softwarequalitaet-und-datenpraxis"
-topicPath:
-  - "softwarequalitaet-und-datenpraxis"
-  - "projektstruktur-und-codepflege"
-  - "kompatibilitaet-bei-aenderungen"
-  - "loesung-b"
+topicPath: ["sanierung-v193", "kompatibilitaet-bei-aenderungen-loesung-b"]
 taskId: "informatik-v193-027b"
 relatedExercise: "informatik/sanierung-v193/kompatibilitaet-bei-aenderungen-aufgabe-b"
-tags:
-  - "kompatibilitaet"
-  - "bei"
-  - "aenderungen"
-  - "informatik"
-  - "softwarequalitaet"
-  - "loesung"
-  - "v193"
+tags: ["informatik", "softwarequalitaet-und-datenpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `informatik-v193-027b`
 
 Ausgangsauftrag: Übertrage das Thema Kompatibilität bei Änderungen auf ein zweites Beispiel und prüfe, wo ein Fehlerfall entstehen kann.

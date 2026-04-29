@@ -3,23 +3,12 @@ title: "Lösung – Bruch, Prozent und Dezimalzahl in Sachsituationen wechseln"
 description: "Musterlösung zu Darstellungswechsel bei Anteilen mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Grundlagen"
-topicPath:
-  - "grundlagen"
-  - "brueche-und-prozent"
-  - "darstellungswechsel"
-  - "bruch-prozent-dezimalzahl-in-sachsituationen-wechseln"
+topicPath: ["grundlagen", "brueche-und-prozent", "darstellungswechsel", "bruch-prozent-dezimalzahl-in-sachsituationen-wechseln"]
 taskId: "v107-mathematik-bruch-prozent-dezimalzahl-in-sachsituationen-wechseln"
 relatedExercise: "mathematik/grundlagen/brueche-und-prozent/darstellungswechsel/bruch-prozent-dezimalzahl-in-sachsituationen-wechseln"
-tags:
-  - "mathematik"
-  - "rechnen"
-  - "modellieren"
-  - "darstellungswechsel bei anteilen"
-  - "grundlagen"
-  - "brueche-und-prozent"
+tags: ["mathematik", "Grundlagen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Darstellungswechsel bei Anteilen**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

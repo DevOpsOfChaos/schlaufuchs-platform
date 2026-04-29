@@ -1,24 +1,14 @@
 ---
-title: Musterlösung – Regelanpassungen für Bildschirmbreiten begründen
-description: Musterlösung zur Aufgabe WEB-CSS-MEDIAQUERY-001.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - responsive-layouts
-  - media-queries-verstehen
-  - regelanpassungen-fuer-bildschirmbreiten-begruenden-loesung
-taskId: WEB-CSS-MEDIAQUERY-001
-relatedExercise: src/content/exercises/web-development/css/media-queries-verstehen/regelanpassungen-fuer-bildschirmbreiten-begruenden.md
-tags:
-  - web-development
-  - css
-  - media-queries
-  - loesung
-  - task-id
+title: "Musterlösung – Regelanpassungen für Bildschirmbreiten begründen"
+description: "Musterlösung zur Aufgabe WEB-CSS-MEDIAQUERY-001."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "media-queries-verstehen", "regelanpassungen-fuer-bildschirmbreiten-begruenden"]
+taskId: "WEB-CSS-MEDIAQUERY-001"
+relatedExercise: "src/content/exercises/web-development/css/media-queries-verstehen/regelanpassungen-fuer-bildschirmbreiten-begruenden.md"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Kartenlayout begründen
 
 Die Änderung ist sinnvoll, weil drei Spalten auf schmalen Geräten schnell zu eng werden. Wenn die Karten untereinander stehen, bleiben Inhalte leichter lesbar und die Bedienung ruhiger.

@@ -3,34 +3,15 @@ title: "Übung: Basis- oder Gate-Signal lesen"
 description: "Übe, „Basis- oder Gate-Signal lesen“ als kleines Unterthema zu erkennen, zu begründen und mit einer Gegenprobe abzusichern."
 subject: "elektrotechnik"
 section: "Elektrotechnik vertiefen"
-topicPath:
-  - "grundschaltungen-klein-lesen"
-  - "transistor-als-schalter"
-  - "basis-oder-gate-signal-lesen-v116"
+topicPath: ["grundschaltungen-klein-lesen", "transistor-als-schalter", "basis-oder-gate-signal-lesen-v116"]
 taskId: "basis-oder-gate-signal-lesen-v116"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "transistor als schalter"
-  - "basis oder gate signal lesen"
-  - "v116"
-hintPoints:
-  - "Lies zuerst nur die konkrete Unterfrage."
-  - "Markiere eine typische Fehlannahme."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Lösung fachlich begründet?"
-  - "Ist die Abgrenzung zum Nachbarthema sichtbar?"
-  - "Passt die Gegenprobe zur Aufgabe?"
-transferIdeas:
-  - "Ändere eine Bedingung und prüfe, ob deine Begründung noch trägt."
-  - "Erkläre die Lösung einmal ohne Fachwörter und danach fachlich sauber."
-reflectionPrompt: "Welche kleine Entscheidung war bei „Basis- oder Gate-Signal lesen“ am wichtigsten?"
+tags: ["elektrotechnik", "Elektrotechnik vertiefen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "einfach"
 draft: false
 ---
-
 ## Aufgabe 1: Unterfrage erkennen
 
 Lies die Situation:

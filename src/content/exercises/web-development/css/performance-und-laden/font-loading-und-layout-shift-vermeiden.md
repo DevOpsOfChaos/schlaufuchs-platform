@@ -3,34 +3,15 @@ title: "Aufgabe – CSS – Font Loading und Layout Shift vermeiden"
 description: "Bewerte eine Seite mit Webfont und Fallback-Schrift. Beschreibe, wo Layout Shift entstehen kann und welche CSS-Entscheidung ihn reduziert."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "performance-und-laden"
-  - "font-loading-und-layout-shift-vermeiden"
+topicPath: ["css", "performance-und-laden", "font-loading-und-layout-shift-vermeiden"]
 taskId: "web-v100-font-loading-und-layout-shift-vermeiden"
-tags:
-  - "web development"
-  - "css"
-  - "fonts"
-  - "layout shift"
-  - "performance"
-  - "aufgabe"
-hintPoints:
-  - "Lies zuerst die sichtbare Seitensituation, nicht nur einzelne Codezeilen."
-  - "Trenne Ursache, Entscheidung und erwartete Wirkung."
-  - "Denke mindestens einen Fehler-, Lade- oder Randfall mit."
-selfCheckPoints:
-  - "Ist die Entscheidung fachlich begründet?"
-  - "Ist klar, welche Nutzererfahrung verbessert wird?"
-  - "Wird der passende Browser- oder Projektbereich geprüft?"
-transferIdeas:
-  - "Übertrage die Idee auf eine kleine Lernkarte, ein Formular oder eine Navigation."
-  - "Beschreibe eine schwache Variante, die technisch funktioniert, aber didaktisch oder praktisch riskant bleibt."
-reflectionPrompt: "Welche Prüfung hätte den häufigsten Fehler bei dieser Aufgabe am frühesten sichtbar gemacht?"
+tags: ["web-development", "CSS", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bewerte eine Seite mit Webfont und Fallback-Schrift. Beschreibe, wo Layout Shift entstehen kann und welche CSS-Entscheidung ihn reduziert.

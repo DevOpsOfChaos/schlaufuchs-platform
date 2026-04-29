@@ -1,45 +1,19 @@
 ---
-title: Figure und Figcaption verstehen
-description: Verstehe, wie Bilder, Diagramme oder Codebeispiele mit figure und figcaption als zusammengehörige Einheit lesbarer werden.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - bilder-und-alt-texte
-  - figure-und-figcaption-verstehen
-learningGoals:
-  - Du erklärst die Rolle von figure und figcaption.
-  - Du beschreibst, warum Medium und erläuternder Kontext oft zusammengehören.
-  - Du strukturierst Bild- oder Beispielinhalte ruhiger als Einheit statt als lose Nachbarschaft.
-practiceIdeas:
-  - Suche auf einer Seite Bilder oder Diagramme, die eine erklärende Beschriftung brauchen.
-  - Prüfe, ob ein Codebeispiel mit kurzer Einordnung als zusammengehörige Figur gelesen werden kann.
-  - Vergleiche eine lose Bildunterschrift mit einer klaren strukturellen Einheit.
-commonMistakes:
-  - Beschriftungen nur optisch unter etwas zu setzen.
-  - figure auf Bilder zu beschränken, obwohl auch andere eingebettete Inhalte sinnvoll sein können.
-  - Kontexttext und Medium als zwei unverbundene Blöcke zu behandeln.
-keyTakeaways:
-  - figure bündelt ein Medium oder Beispiel als eigenständige Einheit.
-  - figcaption liefert eine zugehörige Beschriftung oder Einordnung.
-  - Gute Struktur hilft, Inhalt und Erklärung gemeinsam zu lesen.
-recognizeSignals:
-  - Es geht um Bilder, Diagramme, Karten, Codebeispiele oder andere eingebettete Medien.
-  - Du sollst erklären, warum Beschriftung und Inhalt zusammengehören.
-  - In Beispielen ist die Beziehung zwischen Medium und Erklärung wichtiger als reine Optik.
-selfCheckPoints:
-  - Kann ich erklären, wann figure sinnvoll ist?
-  - Kann ich beschreiben, was figcaption ergänzt?
-  - Kann ich lose Nachbarschaft und echte inhaltliche Einheit unterscheiden?
-tags:
-  - html
-  - bilder
-  - figure
-  - figcaption
-level: einfach
+title: "Figure und Figcaption verstehen"
+description: "Verstehe, wie Bilder, Diagramme oder Codebeispiele mit figure und figcaption als zusammengehörige Einheit lesbarer werden."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "figure-und-figcaption-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Auf vielen Seiten stehen Bilder, Diagramme oder kleine Demos nicht für sich allein. Sie brauchen oft eine knappe Erklärung, einen Titel oder eine Einordnung. Genau dafür sind <code>&lt;figure&gt;</code> und <code>&lt;figcaption&gt;</code> nützlich.

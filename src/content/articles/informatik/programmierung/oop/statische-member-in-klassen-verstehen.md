@@ -1,46 +1,19 @@
 ---
-title: Statische Member in Klassen verstehen
-description: Verstehe, warum manche Daten und Funktionen zur Klasse als Ganzes gehoeren und nicht zu einem einzelnen Objekt.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - oop
-  - statische-member-in-klassen-verstehen
-learningGoals:
-  - Du erklaerst statische Daten und statische Methoden in Klassen.
-  - Du unterscheidest Klassenebene und Objektebene sauber.
-  - Du liest static in Klassendefinitionen ruhiger.
-practiceIdeas:
-  - Markiere in einer Klasse, welche Teile pro Objekt und welche nur einmal fuer alle Objekte existieren.
-  - Formuliere, wann der Zugriff ueber `Klasse::name` sinnvoll ist.
-  - Uebertrage das Prinzip auf einen Objektzaehler.
-commonMistakes:
-  - Zu denken, dass jede static-Variable zu jedem Objekt neu gehoert.
-  - Statische Daten mit globalen Variablen gleichzusetzen.
-  - Zu uebersehen, dass statische Methoden keinen Objektzustand brauchen.
-keyTakeaways:
-  - Statische Member gehoeren zur Klasse, nicht zu einem einzelnen Objekt.
-  - Sie existieren nur einmal fuer alle Objekte gemeinsam.
-  - Der Zugriff ueber den Klassennamen macht diese Denkweise sichtbar.
-recognizeSignals:
-  - Im Code steht `static` vor Attributen oder Methoden.
-  - Die Aufgabe spricht ueber gemeinsame Daten aller Objekte.
-  - Es geht um Zugriff ueber `Klasse::member`.
-selfCheckPoints:
-  - Kann ich Klassenebene und Objektebene unterscheiden?
-  - Kann ich erklaeren, warum static nicht einfach global bedeutet?
-  - Kann ich ein Beispiel fuer gemeinsame Klassendaten nennen?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - oop
-  - static
-  - klasse
+title: "Statische Member in Klassen verstehen"
+description: "Verstehe, warum manche Daten und Funktionen zur Klasse als Ganzes gehoeren und nicht zu einem einzelnen Objekt."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "oop", "statische-member-in-klassen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 In einer Klasse gibt es nicht nur Daten, die jedes Objekt fuer sich besitzt. Es kann auch Daten geben, die **alle Objekte gemeinsam** benutzen.

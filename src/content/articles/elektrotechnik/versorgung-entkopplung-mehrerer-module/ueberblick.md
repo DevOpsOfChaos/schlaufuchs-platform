@@ -1,37 +1,19 @@
 ---
 title: "Versorgung und Entkopplung mehrerer Module"
 description: "Überblick über gemeinsame Versorgung, lokale Pufferung und gegenseitige Beeinflussung mehrerer Baugruppen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Versorgung"
-topicPath:
-  - "versorgung-entkopplung-mehrerer-module"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Versorgung und Entkopplung mehrerer Module als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["versorgung-entkopplung-mehrerer-module", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Alle Module einfach parallel anzuschließen und Versorgung nur als ideal konstante Spannung zu betrachten."
-keyTakeaways:
-  - "Mehrere Module teilen sich reale Strompfade."
-  - "Lokale Entkopplung reduziert gegenseitige Störungen."
-  - "Versorgungstopologie ist ein Teil der Signalqualität."
-recognizeSignals:
-  - "Ein Modul startet neu, wenn ein anderes schaltet."
-  - "Messwerte ändern sich beim Einschalten eines Verbrauchers."
-selfCheckPoints:
-  - "Kann ich Versorgung und Entkopplung mehrerer Module in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "versorgung"
-  - "entkopplung"
-  - "module"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Versorgung"]
 draft: false
 ---
-
 # Versorgung und Entkopplung mehrerer Module
 
 Wenn mehrere Module an einer Versorgung hängen, teilen sie sich Strompfade, Massebezüge und Störungen. Entkopplung sorgt dafür, dass schnelle Lastwechsel lokal abgefangen werden.

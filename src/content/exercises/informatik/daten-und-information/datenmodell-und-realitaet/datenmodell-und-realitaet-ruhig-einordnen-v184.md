@@ -1,29 +1,17 @@
 ---
 title: "Datenmodell und Realität – Ruhig einordnen"
 description: "Übe, Datenmodell und Realität fachlich einzuordnen."
-subject: informatik
+subject: "informatik"
 section: "daten-und-information"
-topicPath:
-  - "daten-und-information"
-  - "datenmodell-und-realitaet"
-taskId: INF-DATENMODELL-UND-REALITAET-841
-tags:
-  - "informatik"
-  - "datenmodell"
-  - "modellierung"
-hintPoints:
-  - "Beginne mit der allgemeinen Rolle des Themas."
-  - "Trenne Begriff, Beispiel und Sonderfall sauber."
-selfCheckPoints:
-  - "Ich kann meine Zuordnung begründen."
-  - "Ich vermeide eine reine Einzelfallantwort."
-transferIdeas:
-  - "Übertrage die Idee auf ein anderes kleines Informatikbeispiel."
-reflectionPrompt: "Welche Annahme musste ich bewusst prüfen?"
-level: mittel
+topicPath: ["daten-und-information", "datenmodell-und-realitaet", "datenmodell-und-realitaet-ruhig-einordnen-v184"]
+taskId: "INF-DATENMODELL-UND-REALITAET-841"
+tags: ["informatik", "daten-und-information", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 Diese Aufgabe gehört zur Überblicksseite **Datenmodell und Realität**. Sie soll nicht nur eine einzelne Situation lösen, sondern das Thema fachlich einordnen.
 
 ## Lernziel

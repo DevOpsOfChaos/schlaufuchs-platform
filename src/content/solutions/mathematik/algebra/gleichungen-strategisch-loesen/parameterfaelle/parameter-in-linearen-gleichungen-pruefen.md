@@ -3,23 +3,12 @@ title: "Lösung – Parameter in linearen Gleichungen prüfen"
 description: "Musterlösung zu Parameterfälle mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "mathematik"
 section: "Algebra"
-topicPath:
-  - "algebra"
-  - "gleichungen-strategisch-loesen"
-  - "parameterfaelle"
-  - "parameter-in-linearen-gleichungen-pruefen"
+topicPath: ["algebra", "gleichungen-strategisch-loesen", "parameterfaelle", "parameter-in-linearen-gleichungen-pruefen"]
 taskId: "v108-mathematik-parameter-in-linearen-gleichungen-pruefen"
 relatedExercise: "mathematik/algebra/gleichungen-strategisch-loesen/parameterfaelle/parameter-in-linearen-gleichungen-pruefen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfen"
-  - "algebra"
-  - "gleichungen-strategisch-loesen"
-  - "parameterfälle"
+tags: ["mathematik", "Algebra", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Der Fall gehört zum Unterthema **Parameterfälle**. Eine zu breite Antwort würde die entscheidende Trennkante verdecken.

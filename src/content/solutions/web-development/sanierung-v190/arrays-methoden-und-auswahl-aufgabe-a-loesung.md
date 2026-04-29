@@ -3,24 +3,12 @@ title: "Lösung: Arrays, Methoden und Auswahl: Aufgabe A"
 description: "Musterlösung zur Aufgabe web-v190-007a im Web-Development-Vertiefungsblock v190."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "daten-im-frontend"
-  - "arrays-methoden-und-auswahl"
-  - "loesung-a"
+topicPath: ["sanierung-v190", "arrays-methoden-und-auswahl-aufgabe-a"]
 taskId: "web-v190-007a"
 relatedExercise: "web-development/sanierung-v190/arrays-methoden-und-auswahl-aufgabe-a"
-tags:
-  - "daten-im-frontend"
-  - "arrays"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "loesung"
-  - "v190"
+tags: ["web-development", "javascript-vertiefung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-v190-007a`
 
 Ausgangsauftrag: Wähle passende Array-Methoden für eine kleine Ergebnisliste.

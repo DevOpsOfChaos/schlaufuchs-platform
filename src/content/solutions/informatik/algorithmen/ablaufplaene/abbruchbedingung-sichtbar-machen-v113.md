@@ -3,20 +3,12 @@ title: "Lösung – Abbruchbedingung sichtbar machen"
 description: "Musterlösung zu Abbruchbedingung sichtbar machen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "algorithmen"
-  - "ablaufplaene"
-  - "abbruchbedingung-sichtbar-machen-v113"
+topicPath: ["algorithmen", "ablaufplaene", "abbruchbedingung-sichtbar-machen-v113"]
 taskId: "v113-informatik-abbruchbedingung-sichtbar-machen-v113"
 relatedExercise: "informatik/algorithmen/ablaufplaene/abbruchbedingung-sichtbar-machen-v113"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "abbruchbedingung-sichtbar-machen-v113"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Abbruchbedingung sichtbar machen**.

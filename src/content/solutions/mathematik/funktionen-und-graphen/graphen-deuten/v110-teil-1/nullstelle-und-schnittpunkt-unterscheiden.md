@@ -3,23 +3,12 @@ title: "Lösung – Nullstelle und Schnittpunkt unterscheiden"
 description: "Musterlösung zu Nullstelle und Schnittpunkt unterscheiden mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "funktionen-und-graphen"
-  - "graphen-deuten"
-  - "v110-teil-1"
-  - "nullstelle-und-schnittpunkt-unterscheiden"
+topicPath: ["funktionen-und-graphen", "graphen-deuten", "v110-teil-1", "nullstelle-und-schnittpunkt-unterscheiden"]
 taskId: "v110-mathematik-nullstelle-und-schnittpunkt-unterscheiden"
 relatedExercise: "mathematik/funktionen-und-graphen/graphen-deuten/v110-teil-1/nullstelle-und-schnittpunkt-unterscheiden"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfung"
-  - "funktionen-und-graphen"
-  - "graphen-deuten"
-  - "nullstelle-und-schnittpunkt-unterscheiden"
+tags: ["mathematik", "Funktionen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Nullstelle und Schnittpunkt unterscheiden**.

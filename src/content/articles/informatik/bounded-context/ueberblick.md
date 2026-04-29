@@ -3,32 +3,17 @@ title: "Bounded Context"
 description: "Allgemeiner Überblick über bounded context und die wichtigsten Zusammenhänge."
 subject: "informatik"
 section: "Softwarearchitektur"
-topicPath:
-  - "bounded-context"
-learningGoals:
-  - "Du kannst den Begriff allgemein erklären und in einen größeren Zusammenhang einordnen."
-  - "Du kennst wichtige Teilaspekte, typische Anwendungen und sinnvolle Abgrenzungen."
-  - "Du erkennst häufige Missverständnisse und kannst sie vermeiden."
+topicPath: ["bounded-context", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Begriffe global vereinheitlicht, obwohl verschiedene Kontexte eigene Regeln brauchen."
-keyTakeaways:
-  - "Bounded Contexts strukturieren komplexe Domänen verständlicher."
-  - "Ein Bounded Context ist nicht einfach ein technisches Modul, sondern vor allem eine fachliche Grenze."
-recognizeSignals:
-  - "Es geht um Begriffe, Grundlagen, Einordnung oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall und ohne Rechenaufgabe erklären?"
-  - "Kann ich ein passendes Beispiel nennen und eine klare Abgrenzung formulieren?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags:
-  - "informatik"
-  - "architektur"
-  - "domain driven design"
-  - "modellierung"
+tags: ["informatik", "Softwarearchitektur"]
 draft: false
 ---
-
 # Bounded Context
 
 ![Schaubild zu Bounded Contexts.](/schlaufuchs-platform/images/overviews/v150/bounded-context.svg)

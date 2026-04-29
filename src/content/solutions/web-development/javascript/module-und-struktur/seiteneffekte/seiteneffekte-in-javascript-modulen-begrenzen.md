@@ -3,23 +3,12 @@ title: "Lösung – Seiteneffekte in JavaScript-Modulen begrenzen"
 description: "Musterlösung zu Modulgrenzen mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "module-und-struktur"
-  - "seiteneffekte"
-  - "seiteneffekte-in-javascript-modulen-begrenzen"
+topicPath: ["javascript", "module-und-struktur", "seiteneffekte", "seiteneffekte-in-javascript-modulen-begrenzen"]
 taskId: "v107-web-development-seiteneffekte-in-javascript-modulen-begrenzen"
 relatedExercise: "web-development/javascript/module-und-struktur/seiteneffekte/seiteneffekte-in-javascript-modulen-begrenzen"
-tags:
-  - "web development"
-  - "html"
-  - "css"
-  - "javascript"
-  - "modulgrenzen"
-  - "module-und-struktur"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Modulgrenzen**. Die passende Lösung beginnt mit der Einordnung, nicht mit einer allgemeinen Fachsammlung.

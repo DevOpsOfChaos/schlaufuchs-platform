@@ -3,25 +3,12 @@ title: "Lösung: Mounts und Dateisysteme: Aufgabe B"
 description: "Musterlösung zur Aufgabe linux-v192-021b im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "dateisystem-und-speicher"
-  - "mounts-und-dateisysteme"
-  - "loesung-b"
+topicPath: ["sanierung-v192", "mounts-und-dateisysteme-loesung-b"]
 taskId: "linux-v192-021b"
 relatedExercise: "linux/sanierung-v192/mounts-und-dateisysteme-aufgabe-b"
-tags:
-  - "dateisystem-und-speicher"
-  - "mounts"
-  - "dateisysteme"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-021b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „Mounts und Dateisysteme“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

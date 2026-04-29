@@ -1,20 +1,14 @@
 ---
-title: Lösung – Flex-Ausrichtung auf Haupt- und Kreuzachse erklären
-description: Musterlösung zur Aufgabe über Flex-Achsen, justify-content und align-items.
-subject: web-development
-section: CSS
-topicPath:
-  - css
-  - flex-achsen-und-ausrichtung-verstehen
-taskId: WEB-CSS-FLEX-205
-relatedExercise: web-development/css/flex-achsen-und-ausrichtung-verstehen/flex-ausrichtung-auf-haupt-und-kreuzachse-erklaeren
-tags:
-  - css
-  - flexbox
-  - loesung
+title: "Lösung – Flex-Ausrichtung auf Haupt- und Kreuzachse erklären"
+description: "Musterlösung zur Aufgabe über Flex-Achsen, justify-content und align-items."
+subject: "web-development"
+section: "CSS"
+topicPath: ["css", "flex-achsen-und-ausrichtung-verstehen", "flex-ausrichtung-auf-haupt-und-kreuzachse-erklaeren"]
+taskId: "WEB-CSS-FLEX-205"
+relatedExercise: "web-development/css/flex-achsen-und-ausrichtung-verstehen/flex-ausrichtung-auf-haupt-und-kreuzachse-erklaeren"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

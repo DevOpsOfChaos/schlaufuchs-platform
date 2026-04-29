@@ -1,21 +1,14 @@
 ---
-title: Loesung – Request Quelle und Feldnamen im PHP Zugriff verbinden
-description: Musterloesung zur Aufgabe ueber Formularmethode, Feldnamen und Superglobals.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - formulardaten-aus-get-und-post-ruhig-auslesen
-taskId: INF-PHP-FORMS-006
-relatedExercise: informatik/programmierung/php/formulardaten-aus-get-und-post-ruhig-auslesen/request-quelle-und-feldnamen-im-php-zugriff-verbinden
-tags:
-  - informatik
-  - php
-  - loesung
+title: "Loesung – Request Quelle und Feldnamen im PHP Zugriff verbinden"
+description: "Musterloesung zur Aufgabe ueber Formularmethode, Feldnamen und Superglobals."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "formulardaten-aus-get-und-post-ruhig-auslesen", "request-quelle-und-feldnamen-im-php-zugriff-verbinden"]
+taskId: "INF-PHP-FORMS-006"
+relatedExercise: "informatik/programmierung/php/formulardaten-aus-get-und-post-ruhig-auslesen/request-quelle-und-feldnamen-im-php-zugriff-verbinden"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterloesung
 
 ### Aufgabe 1

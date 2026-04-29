@@ -1,21 +1,14 @@
 ---
-title: Loesung – Request Art fuer Formulare begruenden
-description: Musterloesung zur Aufgabe ueber GET und POST bei Formularen.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - get-und-post-bei-formularen-unterscheiden
-taskId: INF-PHP-FORMS-003
-relatedExercise: informatik/programmierung/php/get-und-post-bei-formularen-unterscheiden/request-art-fuer-formulare-begruenden
-tags:
-  - informatik
-  - php
-  - loesung
+title: "Loesung – Request Art fuer Formulare begruenden"
+description: "Musterloesung zur Aufgabe ueber GET und POST bei Formularen."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "get-und-post-bei-formularen-unterscheiden", "request-art-fuer-formulare-begruenden"]
+taskId: "INF-PHP-FORMS-003"
+relatedExercise: "informatik/programmierung/php/get-und-post-bei-formularen-unterscheiden/request-art-fuer-formulare-begruenden"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
-
 ## Musterloesung
 
 ### Aufgabe 1

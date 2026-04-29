@@ -3,21 +3,12 @@ title: "Lösung – Indexfehler mit Länge prüfen"
 description: "Musterlösung zu indexfehler mit länge prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenstrukturen"
-  - "listen-und-maps"
-  - "indexfehler-mit-laenge-pruefen"
+topicPath: ["datenstrukturen", "listen-und-maps", "indexfehler-mit-laenge-pruefen"]
 taskId: "v112-informatik-indexfehler-mit-laenge-pruefen"
 relatedExercise: "informatik/datenstrukturen/listen-und-maps/indexfehler-mit-laenge-pruefen"
-tags:
-  - "informatik"
-  - "v112"
-  - "feinstruktur"
-  - "datenstrukturen"
-  - "indexfehler-mit-laenge-pruefen"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Listen und Maps**.

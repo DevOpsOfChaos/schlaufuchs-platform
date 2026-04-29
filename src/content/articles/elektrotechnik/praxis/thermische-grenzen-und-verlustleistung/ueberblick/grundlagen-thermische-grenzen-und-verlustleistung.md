@@ -1,41 +1,19 @@
 ---
 title: "Grundlagen: Thermische Grenzen und Verlustleistung"
 description: "Allgemeiner Überblick über Wärme, Verlustleistung und Belastungsgrenzen elektronischer Bauteile."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - praxis
-  - thermische-grenzen-und-verlustleistung
-  - ueberblick
-learningGoals:
-  - "Du erklärst die Grundidee von Thermische Grenzen und Verlustleistung in eigenen Worten."
-  - "Du ordnest typische Begriffe und Fehlerquellen ruhig ein."
-  - "Du erkennst, welche Detailfragen zu diesem Themenbereich gehören."
-practiceIdeas:
-  - "Skizziere den Zusammenhang als kleines Signal-, Strom- oder Ablaufbild."
-  - "Notiere typische Fehlerquellen und prüfe, ob sie elektrisch, logisch oder organisatorisch sind."
-commonMistakes:
-  - "Nur Spannung und Strom zu prüfen, aber die Leistung zu vergessen."
-  - "Kurzzeitige Erwärmung mit dauerhaft sicherem Betrieb zu verwechseln."
-  - "Datenblattgrenzen ohne Umgebungstemperatur zu lesen."
-keyTakeaways:
-  - "Verlustleistung wird zu Wärme."
-  - "Thermische Grenzen gehören zur Bauteilwahl."
-  - "Sicherer Betrieb braucht elektrische und thermische Prüfung."
-recognizeSignals:
-  - "Du brauchst zuerst Orientierung, bevor du eine konkrete Schaltung oder Aufgabe bewertest."
-  - "Mehrere Einzelfälle wirken ähnlich, aber der gemeinsame fachliche Rahmen fehlt."
-selfCheckPoints:
-  - "Kann ich den Zweck des Themas ohne Formel auswendig zu lernen erklären?"
-  - "Kann ich typische Fehlerquellen in der richtigen Reihenfolge prüfen?"
-level: einfach
-tags:
-  - elektrotechnik
-  - thermische-grenzen-und-verlustleistung
-  - praxis
+topicPath: ["praxis", "thermische-grenzen-und-verlustleistung", "ueberblick", "grundlagen-thermische-grenzen-und-verlustleistung"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Praxis"]
 draft: false
 ---
-
 ![Elektrische Leistung wird Wärme](/schlaufuchs-platform/images/overviews/v181/thermische-grenzen-und-verlustleistung.svg)
 
 ## Überblick

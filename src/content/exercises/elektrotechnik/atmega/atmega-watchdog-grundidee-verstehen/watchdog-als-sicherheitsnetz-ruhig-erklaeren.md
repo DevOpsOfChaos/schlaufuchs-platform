@@ -1,32 +1,17 @@
 ---
-title: Watchdog als Sicherheitsnetz ruhig erklären
-description: Erkläre an kleinen AVR-Fällen, warum der Watchdog eher Überwachung als normales Zeitmessen bedeutet.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - robustheit-und-fehlersicherheit
-  - atmega-watchdog-grundidee-verstehen
-  - watchdog-als-sicherheitsnetz-ruhig-erklaeren
-taskId: ET-ATMEGA-WDT-301
-level: mittel
+title: "Watchdog als Sicherheitsnetz ruhig erklären"
+description: "Erkläre an kleinen AVR-Fällen, warum der Watchdog eher Überwachung als normales Zeitmessen bedeutet."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-watchdog-grundidee-verstehen", "watchdog-als-sicherheitsnetz-ruhig-erklaeren"]
+taskId: "ET-ATMEGA-WDT-301"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
-tags:
-  - elektrotechnik
-  - atmega
-  - watchdog
-  - avr
-hintPoints:
-  - Trenne Zeitmessung und Überwachung bewusst.
-  - Lies den Reset hier als Schutzreaktion und nicht vorschnell als Hardwaredefekt.
-selfCheckPoints:
-  - Kannst du Timer und Watchdog sauber unterscheiden?
-  - Kannst du erklären, warum ein Reset in diesem Fall sinnvoll sein kann?
-transferIdeas:
-  - Übertrage die Logik auf robuste Sensorknoten oder Steuergeräte.
-reflectionPrompt: "Welche Leitfrage verhindert beim Watchdog die meisten Denkfehler?"
 ---
-
 ## Aufgabe 1
 
 Ein AVR-Hauptprogramm soll regelmäßig eine Lebenszeichen-Funktion aufrufen. Bleibt es in einem Fehlerfall hängen, passiert das nicht mehr.

@@ -3,22 +3,12 @@ title: "Lösung – CSS – Critical CSS und render-blockierendes Laden verstehe
 description: "Musterlösung zur Aufgabe: Analysiere eine kleine Landingpage und markiere, welche Styles für den sofort sichtbaren Bereich kritisch sind und welche später geladen werden können."
 subject: "web-development"
 section: "CSS"
-topicPath:
-  - "css"
-  - "performance-und-laden"
-  - "critical-css-und-render-blocking-verstehen"
+topicPath: ["css", "performance-und-laden", "critical-css-und-render-blocking-verstehen"]
 taskId: "web-v100-critical-css-und-render-blocking-verstehen"
 relatedExercise: "web-development/css/performance-und-laden/critical-css-und-render-blocking-verstehen"
-tags:
-  - "web development"
-  - "css"
-  - "performance"
-  - "critical css"
-  - "rendering"
-  - "lösung"
+tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Eine gute Lösung beginnt nicht mit möglichst viel Code, sondern mit einer klaren Einordnung: Verstehe, warum CSS das erste Rendering bremsen kann und wie du sichtbare Startbereiche gezielt priorisierst.

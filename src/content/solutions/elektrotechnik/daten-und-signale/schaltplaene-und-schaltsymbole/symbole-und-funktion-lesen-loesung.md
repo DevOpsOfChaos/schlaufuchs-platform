@@ -1,22 +1,14 @@
 ---
 title: "Lösung: Symbole und Funktion lesen"
 description: "Lösung zur Aufgabe über Schaltzeichen, Funktion und Strompfad."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Daten und Signale"
-topicPath:
-  - "daten-und-signale"
-  - "schaltplaene-und-schaltsymbole"
-  - "symbole-und-funktion-lesen"
+topicPath: ["daten-und-signale", "schaltplaene-und-schaltsymbole", "symbole-und-funktion-lesen"]
 taskId: "ET-DS-SYMBOL-001"
 relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/schaltplaene-und-schaltsymbole/symbole-und-funktion-lesen.md"
-tags:
-  - "elektrotechnik"
-  - "schaltplan"
-  - "symbol"
-  - "funktion"
+tags: ["elektrotechnik", "Daten und Signale", "loesung"]
 draft: false
 ---
-
 ## Lösungsgedanke
 
 Diese Lösung ist bewusst als Musterlösung aufgebaut. Sie zeigt nicht nur ein Ergebnis, sondern die fachliche Begründung, damit die Aufgabe später nachvollziehbar kontrolliert werden kann.

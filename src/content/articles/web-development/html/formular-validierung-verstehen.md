@@ -1,45 +1,19 @@
 ---
-title: Formular-Validierung verstehen
-description: Verstehe, warum Formulare Eingaben prüfen und wie klare Rückmeldungen dabei Nutzbarkeit und Fehlerverständnis verbessern.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - formular-validierung
-  - formular-validierung-verstehen
-learningGoals:
-  - Du erklärst, warum Formulare Eingaben prüfen.
-  - Du beschreibst den Unterschied zwischen Eingabe und gültiger Eingabe.
-  - Du erkennst, warum verständliche Fehlermeldungen Teil guter Nutzbarkeit sind.
-practiceIdeas:
-  - Prüfe bei einem Formular, welche Eingaben zwingend nötig sind.
-  - Vergleiche hilfreiche und unklare Fehlermeldungen.
-  - Erkläre, warum leere oder falsch formatierte Eingaben geprüft werden müssen.
-commonMistakes:
-  - Zu glauben, dass jede eingegebene Information automatisch sinnvoll ist.
-  - Pflichtfelder und Formatprüfungen durcheinanderzubringen.
-  - Fehlerhinweise nur als Störung statt als Hilfe zu betrachten.
-keyTakeaways:
-  - Validierung prüft, ob Eingaben vollständig und passend sind.
-  - Gute Formulare helfen bei Fehlern mit klaren Rückmeldungen.
-  - Nutzbarkeit und Datenqualität hängen hier eng zusammen.
-recognizeSignals:
-  - Es geht um Formulare, Eingaben, Fehlermeldungen oder Pflichtfelder.
-  - Du sollst erklären, warum ein Formular Eingaben nicht einfach blind übernimmt.
-  - In Beispielen musst du Nutzersicht und Prüfregel zusammendenken.
-selfCheckPoints:
-  - Kann ich erklären, warum Validierung nötig ist?
-  - Kann ich Pflichtfeld und Formatprüfung unterscheiden?
-  - Kann ich beschreiben, was eine gute Fehlermeldung leisten sollte?
-tags:
-  - html
-  - formulare
-  - validierung
-  - usability
-level: einfach
+title: "Formular-Validierung verstehen"
+description: "Verstehe, warum Formulare Eingaben prüfen und wie klare Rückmeldungen dabei Nutzbarkeit und Fehlerverständnis verbessern."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "formular-validierung-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein Formular sammelt Eingaben. Damit diese Eingaben sinnvoll verarbeitet werden können, müssen sie oft geprüft werden. Diese Prüfung heißt **Validierung**. Sie sorgt dafür, dass nicht nur irgendetwas abgeschickt wird, sondern möglichst **vollständige und passende Angaben**.

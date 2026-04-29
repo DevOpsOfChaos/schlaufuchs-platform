@@ -1,21 +1,14 @@
 ---
 title: "Lösung – Benutzer, Gruppen und sudo – anwenden und prüfen"
 description: "Musterlösung zur Linux-Aufgabe Benutzer, Gruppen und sudo."
-subject: linux
+subject: "linux"
 section: "benutzer-und-sicherheit"
-topicPath:
-  - "benutzer-und-sicherheit"
-  - "benutzer-gruppen-und-sudo"
-taskId: LINUX-BENUTZER-GRUPPEN-UND-SUDO-V186-2
-relatedExercise: src/content/exercises/linux/benutzer-und-sicherheit/benutzer-gruppen-und-sudo/benutzer-gruppen-und-sudo-anwenden-und-pruefen-v186.md
-tags:
-  - "linux"
-  - "benutzer"
-  - "sudo"
-  - "loesung"
+topicPath: ["benutzer-und-sicherheit", "benutzer-gruppen-und-sudo", "benutzer-gruppen-und-sudo-anwenden-und-pruefen-v186"]
+taskId: "LINUX-BENUTZER-GRUPPEN-UND-SUDO-V186-2"
+relatedExercise: "src/content/exercises/linux/benutzer-und-sicherheit/benutzer-gruppen-und-sudo/benutzer-gruppen-und-sudo-anwenden-und-pruefen-v186.md"
+tags: ["linux", "benutzer-und-sicherheit", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

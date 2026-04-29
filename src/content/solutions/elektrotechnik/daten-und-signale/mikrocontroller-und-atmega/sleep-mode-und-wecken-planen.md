@@ -1,24 +1,14 @@
 ---
 title: "Lösung – Sleep-Mode für einen Batteriesensor planen"
 description: "Musterlösung zu sleep-mode für einen batteriesensor planen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - sleep-mode-und-wecken-planen
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "sleep-mode-und-wecken-planen"]
 taskId: "et-mc-v92-sleep-mode"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/sleep-mode-und-wecken-planen"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - sleep-mode
-  - energie
-  - interrupt
-  - batterie
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Ein sinnvoller Ablauf ist: aufwachen, Sensor und benötigte Peripherie einschalten, kurz stabilisieren lassen, Messwert erfassen, Daten senden, Peripherie wieder abschalten, Weckquelle für den nächsten Zyklus aktivieren und in den passenden Sleep-Mode gehen.

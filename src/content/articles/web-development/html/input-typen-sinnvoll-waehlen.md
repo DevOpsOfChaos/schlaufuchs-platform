@@ -1,45 +1,19 @@
 ---
-title: Input-Typen sinnvoll wählen
-description: Verstehe, warum Eingabefelder nicht alle gleich sind und wie passende input-Typen Formulare klarer und bedienbarer machen.
-subject: web-development
-section: HTML
-topicPath:
-  - html
-  - formulare-und-eingaben
-  - input-typen-sinnvoll-waehlen
-learningGoals:
-  - Du unterscheidest wichtige input-Typen nach ihrer Aufgabe.
-  - Du erklärst, warum der passende Typ mehr ist als nur eine technische Formalität.
-  - Du wählst Eingabefelder eher nach Datenart und Nutzungssituation als nach Gewohnheit.
-practiceIdeas:
-  - Prüfe bei kleinen Formularen, welcher Typ zu E-Mail, Zahl, Passwort oder Suche passt.
-  - Vergleiche zwei Formularversionen mit allgemeinen und mit passenderen input-Typen.
-  - Begründe bei einem Feld, welche Art von Eingabe erwartet wird.
-commonMistakes:
-  - überall denselben Standardtyp zu benutzen.
-  - Feldinhalt und Feldtyp nicht zusammenzudenken.
-  - Typen nur nach Optik statt nach Datenart und Bedienung zu wählen.
-keyTakeaways:
-  - Der input-Typ beschreibt, welche Art von Eingabe erwartet wird.
-  - Passende Typen helfen bei Orientierung, Bedienung und technischer Plausibilität.
-  - Gute Formulare zeigen schon im Feldaufbau, was gemeint ist.
-recognizeSignals:
-  - Es geht um Formulare mit E-Mail, Passwort, Zahl, Suche oder Datum.
-  - Du sollst begründen, warum ein Feld nicht einfach irgendein Textfeld sein sollte.
-  - In Beispielen ist wichtig, welche Datenart erwartet wird und wie Nutzer damit interagieren.
-selfCheckPoints:
-  - Kann ich wichtige input-Typen nach Aufgabe unterscheiden?
-  - Kann ich begründen, warum der Typ zur erwarteten Eingabe passen sollte?
-  - Kann ich erklären, was an einem Feld schon vor der Eingabe Orientierung gibt?
-tags:
-  - html
-  - formular
-  - input
-  - typ
-level: einfach
+title: "Input-Typen sinnvoll wählen"
+description: "Verstehe, warum Eingabefelder nicht alle gleich sind und wie passende input-Typen Formulare klarer und bedienbarer machen."
+subject: "web-development"
+section: "HTML"
+topicPath: ["html", "input-typen-sinnvoll-waehlen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 Nicht jedes Eingabefeld ist einfach nur ein Textkasten. Schon im HTML lässt sich beschreiben, **welche Art von Eingabe erwartet wird**. Genau das macht die Wahl des passenden input-Typs sinnvoll.

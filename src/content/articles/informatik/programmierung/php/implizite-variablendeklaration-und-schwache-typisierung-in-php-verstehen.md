@@ -1,46 +1,19 @@
 ---
-title: Implizite Variablendeklaration und schwache Typisierung in PHP verstehen
-description: Verstehe, warum PHP Variablen oft beim ersten Zuweisen entstehen und weshalb Eingaben trotzdem nicht blind als „richtiger Typ“ gelesen werden sollten.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - implizite-variablendeklaration-und-schwache-typisierung-in-php-verstehen
-learningGoals:
-  - Du erklärst die Grundidee impliziter Variablendeklaration in PHP.
-  - Du erkennst, warum schwache Typisierung praktisch, aber fehleranfällig sein kann.
-  - Du begründest, warum Typprüfung und Umwandlung trotzdem wichtig bleiben.
-practiceIdeas:
-  - Lies eine Zuweisung und erkläre, warum dadurch eine Variable entsteht.
-  - Vergleiche PHP mit stärker typisierten Sprachen auf grober Ebene.
-  - Erkläre, warum Formulareingaben trotz „Zahl im Textfeld“ oft zunächst als String behandelt werden.
-commonMistakes:
-  - Zu glauben, der sichtbare Inhalt einer Eingabe bestimme automatisch sicher den gewünschten Typ.
-  - Schwache Typisierung mit „Typen sind unwichtig“ gleichzusetzen.
-  - Implizite Deklaration mit inhaltlicher Sicherheit zu verwechseln.
-keyTakeaways:
-  - In PHP entstehen Variablen oft durch die erste Zuweisung.
-  - Schwache Typisierung macht vieles bequem, verlangt aber bewusstes Prüfen.
-  - Gerade Eingaben von außen sollten nicht blind vertraut werden.
-recognizeSignals:
-  - Es geht um $variablen, Typumwandlung, Strings und Eingaben.
-  - Ein Beispiel startet mit einer Zuweisung ohne vorherige formale Deklaration.
-  - Du sollst erklären, warum trotzdem geprüft oder gecastet wird.
-selfCheckPoints:
-  - Kann ich implizite Deklaration in eigenen Worten erklären?
-  - Kann ich sagen, warum Benutzereingaben trotzdem geprüft werden müssen?
-  - Kann ich bequeme Schreibweise und potenzielle Fehlerquelle zusammen denken?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - implizite
-  - variablendeklaration
+title: "Implizite Variablendeklaration und schwache Typisierung in PHP verstehen"
+description: "Verstehe, warum PHP Variablen oft beim ersten Zuweisen entstehen und weshalb Eingaben trotzdem nicht blind als „richtiger Typ“ gelesen werden sollten."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "implizite-variablendeklaration-und-schwache-typisierung-in-php-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 In PHP werden Variablen häufig nicht vorher mit einem festen Typ deklariert. Sie entstehen meist schon dadurch, dass du einem Namen einen Wert zuweist. Das ist bequem, kann aber auch unruhig werden, wenn Herkunft und tatsächlicher Inhalt von Daten nicht sauber geprüft werden.

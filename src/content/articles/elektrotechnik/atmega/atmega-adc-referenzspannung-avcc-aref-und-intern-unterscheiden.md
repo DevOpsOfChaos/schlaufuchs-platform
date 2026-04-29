@@ -1,46 +1,19 @@
 ---
-title: ATmega – ADC-Referenzspannung mit AVCC, AREF und intern unterscheiden
-description: Verstehe am AVR, warum ein ADC-Messwert nur zusammen mit seiner Referenzspannung sinnvoll gelesen werden kann und worin sich AVCC, AREF und interne Referenz unterscheiden.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - adc-und-analogwerte
-  - atmega-adc-referenzspannung-avcc-aref-und-intern-unterscheiden
-learningGoals:
-  - Du erklärst, warum ein ADC-Wert immer auf eine Referenzspannung bezogen ist.
-  - Du unterscheidest AVCC, externe Referenz an AREF und interne Referenz sauber.
-  - Du liest Messwerte eher als Verhältnis zur Referenz als als „direkte Voltzahl“.
-practiceIdeas:
-  - Vergleiche denselben analogen Eingang bei unterschiedlicher Referenzspannung.
-  - Ordne Messbereich und Auflösung immer zusammen mit der Referenz ein.
-  - Prüfe bei ADC-Aufgaben zuerst, worauf sich der Messwert überhaupt bezieht.
-commonMistakes:
-  - ADC-Rohwerte als direkte Spannung ohne Bezugssystem zu lesen.
-  - AVCC und AREF als dasselbe zu behandeln.
-  - Zu denken, eine andere Referenz ändere nur die Genauigkeit, nicht aber die Bedeutung des Zahlenwerts.
-keyTakeaways:
-  - Ein ADC-Wert ist immer an eine Referenzspannung gebunden.
-  - Verschiedene Referenzen verändern Messbereich und Deutung des Rohwerts.
-  - Ohne Referenzfrage bleibt ein ADC-Ergebnis fachlich unvollständig.
-recognizeSignals:
-  - Es geht um ADMUX, Referenzwahl oder darum, warum derselbe Eingang unterschiedliche Rohwerte liefern kann.
-  - Du sollst erklären, wieso ein ADC-Wert nicht ohne Spannungsbezug interpretiert werden darf.
-  - In Aufgaben sind Messbereich und Referenz wichtiger als eine einzelne Zahl.
-selfCheckPoints:
-  - Kann ich Rohwert und Referenz sauber zusammen lesen?
-  - Kann ich AVCC, AREF und interne Referenz unterscheiden?
-  - Kann ich erklären, warum derselbe Eingang bei anderer Referenz anders bewertet wird?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - adc
-  - referenzspannung
-level: mittel
+title: "ATmega – ADC-Referenzspannung mit AVCC, AREF und intern unterscheiden"
+description: "Verstehe am AVR, warum ein ADC-Messwert nur zusammen mit seiner Referenzspannung sinnvoll gelesen werden kann und worin sich AVCC, AREF und interne Referenz unterscheiden."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-adc-referenzspannung-avcc-aref-und-intern-unterscheiden"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Ein ADC liefert am AVR nicht einfach „eine Spannung“, sondern einen **Zahlenwert innerhalb eines Referenzbereichs**. Genau deshalb ist die erste ruhige Frage nie nur: **Welcher Rohwert kam heraus?** Sondern: **Auf welche Referenz bezieht sich dieser Rohwert überhaupt?**

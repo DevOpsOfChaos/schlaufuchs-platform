@@ -3,23 +3,12 @@ title: "Lösung – Seitennavigation mit Zustand und Rückweg denken"
 description: "Musterlösung zur Aufgabe über Orientierung mit Begründung und Gegenprobe."
 subject: "web-development"
 section: "UX"
-topicPath:
-  - "ux"
-  - "navigation-und-orientierung"
-  - "seitennavigation-mit-zustand-und-rueckweg-denken"
+topicPath: ["ux", "navigation-und-orientierung", "seitennavigation-mit-zustand-und-rueckweg-denken"]
 taskId: "v106-web-development-seitennavigation-mit-zustand-und-rueckweg-denken"
 relatedExercise: "web-development/ux/navigation-und-orientierung/seitennavigation-mit-zustand-und-rueckweg-denken"
-tags:
-  - "web development"
-  - "html"
-  - "css"
-  - "javascript"
-  - "ux"
-  - "orientierung"
-  - "navigation-und-orientierung"
+tags: ["web-development", "UX", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Beobachtung

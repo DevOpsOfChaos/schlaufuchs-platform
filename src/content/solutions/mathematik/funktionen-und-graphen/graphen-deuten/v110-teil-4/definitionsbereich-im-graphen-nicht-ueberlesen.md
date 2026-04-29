@@ -3,23 +3,12 @@ title: "Lösung – Definitionsbereich im Graphen nicht überlesen"
 description: "Musterlösung zu Definitionsbereich im Graphen nicht überlesen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "funktionen-und-graphen"
-  - "graphen-deuten"
-  - "v110-teil-4"
-  - "definitionsbereich-im-graphen-nicht-ueberlesen"
+topicPath: ["funktionen-und-graphen", "graphen-deuten", "v110-teil-4", "definitionsbereich-im-graphen-nicht-ueberlesen"]
 taskId: "v110-mathematik-definitionsbereich-im-graphen-nicht-ueberlesen"
 relatedExercise: "mathematik/funktionen-und-graphen/graphen-deuten/v110-teil-4/definitionsbereich-im-graphen-nicht-ueberlesen"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "prüfung"
-  - "funktionen-und-graphen"
-  - "graphen-deuten"
-  - "definitionsbereich-im-graphen-nicht-ueberlesen"
+tags: ["mathematik", "Funktionen", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Definitionsbereich im Graphen nicht überlesen**.

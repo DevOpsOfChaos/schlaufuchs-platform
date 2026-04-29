@@ -3,20 +3,12 @@ title: "Lösung – Index und Länge trennen"
 description: "Musterlösung zu Index und Länge trennen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "informatik"
 section: "Feinstruktur Informatik"
-topicPath:
-  - "datenstrukturen"
-  - "arrays-und-listen"
-  - "index-und-laenge-trennen-v113"
+topicPath: ["datenstrukturen", "arrays-und-listen", "index-und-laenge-trennen-v113"]
 taskId: "v113-informatik-index-und-laenge-trennen-v113"
 relatedExercise: "informatik/datenstrukturen/arrays-und-listen/index-und-laenge-trennen-v113"
-tags:
-  - "informatik"
-  - "strukturcheck"
-  - "unterthema"
-  - "index-und-laenge-trennen-v113"
+tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Index und Länge trennen**.

@@ -1,44 +1,19 @@
 ---
-title: Primärschlüssel und Beziehungen verstehen
-description: Verstehe, wie Tabellen eindeutige Datensätze behalten und wie Beziehungen Ordnung zwischen mehreren Tabellen schaffen.
-subject: informatik
-section: Datenbanken
-topicPath:
-  - datenbanken
-  - primaerschluessel-und-beziehungen-verstehen
-learningGoals:
-  - Du erklärst die Rolle eines Primärschlüssels.
-  - Du beschreibst, warum Beziehungen zwischen Tabellen nötig sind.
-  - Du erkennst, wie Ordnung in mehreren Tabellen erhalten bleibt.
-practiceIdeas:
-  - Suche in einer kleinen Tabelle nach einem Feld, das einen Datensatz eindeutig macht.
-  - Vergleiche eine einzige große Liste mit einer strukturierten Lösung aus mehreren Tabellen.
-  - Erkläre an einem Beispiel, warum dieselbe Information nicht überall neu eingetragen werden sollte.
-commonMistakes:
-  - Namen oder andere nicht eindeutige Angaben automatisch als sicheren Schlüssel zu behandeln.
-  - Beziehungen als lose Zusatzinformation statt als Strukturprinzip zu sehen.
-  - Zu glauben, dass mehrere Tabellen ein System unnötig kompliziert machen.
-keyTakeaways:
-  - Ein Primärschlüssel macht Datensätze eindeutig.
-  - Beziehungen verbinden Tabellen sinnvoll miteinander.
-  - Gute Tabellenstruktur verhindert Chaos, Verwechslung und unnötige Wiederholung.
-recognizeSignals:
-  - Es geht um Tabellen, Datensätze, eindeutige Zuordnung oder Datenmodelle.
-  - Du sollst erklären, wie Informationen geordnet verbunden bleiben.
-  - In Beispielen musst du zwischen einem einzelnen Feld und einer Beziehung zwischen Tabellen unterscheiden.
-selfCheckPoints:
-  - Kann ich erklären, was ein Primärschlüssel leistet?
-  - Kann ich beschreiben, warum Beziehungen zwischen Tabellen sinnvoll sind?
-  - Kann ich an einem Beispiel zeigen, wie Struktur Wiederholungen reduziert?
-tags:
-  - datenbanken
-  - primaerschluessel
-  - tabellen
-  - beziehungen
-level: einfach
+title: "Primärschlüssel und Beziehungen verstehen"
+description: "Verstehe, wie Tabellen eindeutige Datensätze behalten und wie Beziehungen Ordnung zwischen mehreren Tabellen schaffen."
+subject: "informatik"
+section: "Datenbanken"
+topicPath: ["datenbanken", "primÔö£+¦rschlÔö£ÔòØssel-und-beziehungen-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Datenbanken"]
 draft: false
 ---
-
 ## Grundidee
 
 Wenn Daten in Tabellen gespeichert werden, reicht es nicht, nur Spalten und Zeilen zu haben. Es muss auch klar sein, **welcher Datensatz eindeutig ist** und **wie mehrere Tabellen sinnvoll zusammenhängen**. Genau dafür sind Primärschlüssel und Beziehungen wichtig.

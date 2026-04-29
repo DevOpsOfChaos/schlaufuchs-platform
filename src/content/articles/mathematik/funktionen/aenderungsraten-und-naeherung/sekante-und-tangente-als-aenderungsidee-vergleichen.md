@@ -3,45 +3,17 @@ title: "Mathematik – Sekante und Tangente als Änderungsidee vergleichen"
 description: "Unterscheide durchschnittliche und momentane Änderung, ohne direkt in Formelsammlungen zu springen."
 subject: "mathematik"
 section: "Analysis"
-topicPath:
-  - "funktionen"
-  - "aenderungsraten-und-naeherung"
-  - "sekante-und-tangente-als-aenderungsidee-vergleichen"
-learningGoals:
-  - "Du erklärst die Kernidee von „Änderungsrate“ in eigenen Worten."
-  - "Du ordnest das Thema einem klaren Unterthema zu statt es in einem Sammelbereich zu verlieren."
-  - "Du leitest eine kleine Gegenprobe für echte Aufgaben oder Projekte ab."
-practiceIdeas:
-  - "Markiere zuerst, welche Unterfrage wirklich gestellt ist."
-  - "Notiere eine typische Fehlannahme und eine passende Gegenprobe."
-  - "Übertrage die Denkbewegung auf ein zweites kleines Beispiel."
-commonMistakes:
-  - "Sekante und Tangente gleichsetzen"
-  - "nur Formel anwenden"
-  - "Änderung ohne Bezugseinheit nennen"
-keyTakeaways:
-  - "Änderungsrate wird klarer, wenn Zustand, Ursache und Prüfschritt getrennt werden."
-  - "Kleine Unterthemen sind leichter auffindbar und besser prüfbar als breite Sammelordner."
-  - "Eine gute Erklärung endet mit einer konkreten Gegenprobe."
-recognizeSignals:
-  - "Die Aufgabe enthält einen scheinbar kleinen Sonderfall oder Fehlerzustand."
-  - "Es muss zwischen Begriffen unterschieden werden, die im Alltag leicht vermischt werden."
-  - "Eine Entscheidung soll begründet und nicht nur auswendig angewendet werden."
-selfCheckPoints:
-  - "Kann ich das Unterthema mit einem Satz von Nachbarthemen abgrenzen?"
-  - "Kann ich einen typischen Fehler benennen?"
-  - "Kann ich eine konkrete Prüfung oder Rechnung anschließen?"
-tags:
-  - "mathematik"
-  - "modellieren"
-  - "daten"
-  - "funktionen"
-  - "änderungsrate"
-  - "aenderungsraten-und-naeherung"
+topicPath: ["funktionen", "aenderungsraten-und-naeherung", "sekante-und-tangente-als-aenderungsidee-vergleichen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
+tags: ["mathematik", "Analysis"]
 draft: false
 ---
-
 ## Grundidee
 
 Eine Sekante beschreibt Änderung über ein Intervall. Eine Tangente beschreibt die Änderung an einer Stelle. Beide Ideen gehören zusammen, beantworten aber unterschiedliche Fragen.

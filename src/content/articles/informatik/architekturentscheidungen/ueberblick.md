@@ -1,33 +1,17 @@
 ---
 title: "Architekturentscheidungen"
 description: "Überblick über Architekturentscheidungen als bewusste Abwägung zwischen Anforderungen, Risiken und Alternativen."
-subject: informatik
+subject: "informatik"
 section: "Architektur"
-topicPath:
-  - "architekturentscheidungen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Architekturentscheidungen als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["architekturentscheidungen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Architektur wird leicht als Sammlung von Lieblingsmustern verstanden. Gute Entscheidungen machen Kompromisse sichtbar."
-keyTakeaways:
-  - "Architekturentscheidungen halten fest, warum ein System in einer bestimmten Weise gebaut wird."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um architekturentscheidungen, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich architekturentscheidungen in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "informatik"
-  - "architekturentscheidungen"
-  - "überblick"
-  - "kontext"
-  - "alternativen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Architektur"]
 draft: false
 ---
 # Architekturentscheidungen

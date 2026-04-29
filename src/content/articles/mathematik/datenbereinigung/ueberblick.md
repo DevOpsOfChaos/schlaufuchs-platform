@@ -1,33 +1,17 @@
 ---
 title: "Datenbereinigung"
 description: "Überblick über das Prüfen, Korrigieren und Dokumentieren von Daten vor einer Auswertung."
-subject: mathematik
+subject: "mathematik"
 section: "Daten"
-topicPath:
-  - "datenbereinigung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Datenbereinigung als allgemeines Thema einordnen."
-  - "Du erkennst zentrale Bestandteile und typische Abgrenzungen."
-  - "Du kannst erklären, warum das Thema in der Praxis wichtig ist."
+topicPath: ["datenbereinigung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Datenbereinigung wird oft mit dem Löschen störender Werte verwechselt. Seriös ist sie nur, wenn Regeln und Entscheidungen dokumentiert werden."
-keyTakeaways:
-  - "Datenbereinigung macht Daten nicht schöner, sondern nachvollziehbarer und auswertbarer."
-  - "Das Thema wird leichter verständlich, wenn Begriffe, Grenzen und typische Fehlerquellen getrennt betrachtet werden."
-recognizeSignals:
-  - "Es geht um datenbereinigung, Einordnung, typische Bestandteile oder häufige Fehlannahmen."
-selfCheckPoints:
-  - "Kann ich datenbereinigung in eigenen Worten erklären?"
-  - "Kann ich mindestens zwei typische Teilaspekte benennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "datenbereinigung"
-  - "überblick"
-  - "fehlende werte"
-  - "ausreißer"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Daten"]
 draft: false
 ---
 # Datenbereinigung

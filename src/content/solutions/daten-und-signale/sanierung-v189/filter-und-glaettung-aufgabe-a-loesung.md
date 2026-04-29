@@ -3,22 +3,12 @@ title: "Lösung: Filter und Glättung: Grundordnung"
 description: "Musterlösung zur Aufgabe dat-v189-031a."
 subject: "daten-und-signale"
 section: "messung"
-topicPath:
-  - "messung"
-  - "filter-und-glaettung"
-  - "loesung-a"
+topicPath: ["sanierung-v189", "filter-und-glaettung-aufgabe-a"]
 taskId: "dat-v189-031a"
 relatedExercise: "daten-und-signale/sanierung-v189/filter-und-glaettung-aufgabe-a"
-tags:
-  - "filter"
-  - "glaettung"
-  - "signal"
-  - "daten-und-signale"
-  - "loesung"
-  - "v189"
+tags: ["daten-und-signale", "messung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `dat-v189-031a`
 
 Eine mögliche Lösung:

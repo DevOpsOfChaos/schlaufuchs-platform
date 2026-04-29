@@ -3,35 +3,15 @@ title: "JavaScript-Datentypen und Werte: Aufgabe A"
 description: "Ordne Eingabewerte aus einem Formular nach Typ und Wirkung."
 subject: "web-development"
 section: "javascript-vertiefung"
-topicPath:
-  - "javascript-vertiefung"
-  - "werte-und-typen"
-  - "javascript-datentypen-und-werte"
-  - "aufgabe-a"
+topicPath: ["sanierung-v190", "javascript-datentypen-und-werte-aufgabe-a"]
 taskId: "web-v190-001a"
-tags:
-  - "werte-und-typen"
-  - "javascript"
-  - "frontend"
-  - "web-development"
-  - "aufgabe"
-  - "v190"
-hintPoints:
-  - "Trenne Zweck, Daten, Zustand und sichtbare Wirkung."
-  - "Nenne mindestens einen Fehlerfall."
-  - "Begründe, warum die Lösung wartbar bleibt."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema JavaScript-Datentypen und Werte."
-  - "Mindestens ein Prüfpunkt ist konkret formuliert."
-  - "Die Lösung ist ohne vollständige Website nachvollziehbar."
-transferIdeas:
-  - "Übertrage die Idee auf eine zweite kleine Komponente."
-  - "Formuliere eine kurze Checkliste für spätere Wiederholung."
-reflectionPrompt: "Welche Entscheidung macht die Lösung am meisten wartbar?"
+tags: ["web-development", "javascript-vertiefung", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Ordne Eingabewerte aus einem Formular nach Typ und Wirkung.

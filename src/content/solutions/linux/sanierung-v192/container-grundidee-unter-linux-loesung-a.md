@@ -3,25 +3,12 @@ title: "Lösung: Container-Grundidee unter Linux: Aufgabe A"
 description: "Musterlösung zur Aufgabe linux-v192-029a im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "betrieb-nahe-grundlagen"
-  - "container-grundidee-unter-linux"
-  - "loesung-a"
+topicPath: ["sanierung-v192", "container-grundidee-unter-linux-loesung-a"]
 taskId: "linux-v192-029a"
 relatedExercise: "linux/sanierung-v192/container-grundidee-unter-linux-aufgabe-a"
-tags:
-  - "betrieb-nahe-grundlagen"
-  - "container"
-  - "grundidee"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-029a`
 
 Ausgangsauftrag: Ordne Image, Container und Volume in einem Dienstbeispiel zu.

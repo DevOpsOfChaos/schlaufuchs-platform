@@ -1,24 +1,14 @@
 ---
 title: "Lösung: DOM-Update bündeln"
 description: "Musterlösung zu DOM-Update bündeln mit Trennkante und Gegenprobe."
-subject: web-development
+subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "javascript-produkt-v115"
-  - "dom-und-events"
-  - "dom-update-buendeln-v115"
+topicPath: ["javascript-produkt-v115", "dom-und-events", "dom-update-buendeln-v115"]
 taskId: "web-development-dom-update-buendeln-v115"
 relatedExercise: "web-development/javascript-produkt-v115/dom-und-events/dom-update-buendeln-v115"
-tags:
-  - "web development"
-  - "feinstruktur"
-  - "unterthema"
-  - "javascript im produkt"
-  - "dom und events"
-  - "lösung"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das geprüfte Unterthema ist **DOM-Update bündeln**. Der Fall gehört nicht einfach allgemein zum breiten Themenfeld, sondern zu dieser engeren Entscheidung.

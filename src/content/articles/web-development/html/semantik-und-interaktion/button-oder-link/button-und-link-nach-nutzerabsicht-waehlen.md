@@ -3,46 +3,17 @@ title: "Web Development – Button und Link nach Nutzerabsicht wählen"
 description: "Lerne Button oder Link als klar abgegrenztes Unterthema mit Beispiel, Prüfschritt und Gegenprobe."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "semantik-und-interaktion"
-  - "button-oder-link"
-  - "button-und-link-nach-nutzerabsicht-waehlen"
-learningGoals:
-  - "Du erklärst Button oder Link in einem klar abgegrenzten Kontext."
-  - "Du erkennst die typische Verwechslung mit einem Nachbarthema."
-  - "Du nutzt einen konkreten Prüfschritt statt einer breiten Sammelantwort."
-practiceIdeas:
-  - "Baue ein eigenes Mini-Beispiel mit verändertem Wert oder Zustand."
-  - "Notiere bewusst, welches Nachbarthema nicht gemeint ist."
-  - "Formuliere einen Merksatz und prüfe ihn an einer Gegenprobe."
-commonMistakes:
-  - "Das Unterthema zu breit einsortieren."
-  - "Nur den Begriff nennen, aber keinen Prüfschritt ausführen."
-  - "Die Gegenprobe auslassen und dadurch eine falsche Regel verallgemeinern."
-keyTakeaways:
-  - "Button oder Link wird durch Einordnung, Abgrenzung und Gegenprobe prüfbar."
-  - "Feinere Unterthemen verbessern Navigation und Lernlogik."
-  - "Aufgaben bleiben verständlicher, wenn sie zur Seite und nicht nur zum Fachbereich passen."
-recognizeSignals:
-  - "Die Aufgabe enthält zwei ähnliche Begriffe oder Zustände."
-  - "Eine allgemeine Erklärung wäre möglich, aber nicht präzise genug."
-  - "Ein kleiner Test entscheidet, welche Regel gilt."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz erklären?"
-  - "Habe ich das Nachbarthema ausdrücklich abgegrenzt?"
-  - "Ist meine Gegenprobe konkret genug?"
-tags:
-  - "web development"
-  - "frontend"
-  - "ux"
-  - "html"
-  - "semantik-und-interaktion"
-  - "button oder link"
+topicPath: ["html", "semantik-und-interaktion", "button-oder-link", "button-und-link-nach-nutzerabsicht-waehlen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
+tags: ["web-development", "HTML"]
 draft: false
 ---
-
 ## Grundidee
 
 **Button oder Link** ist ein bewusst kleines Unterthema. Lerne Button oder Link als klar abgegrenztes Unterthema mit Beispiel, Prüfschritt und Gegenprobe. Der Punkt wird schnell unübersichtlich, wenn er nur in einem breiten Sammelbereich landet.

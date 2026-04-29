@@ -1,36 +1,19 @@
 ---
 title: "Wissenschaftliche Notation"
 description: "Überblick über die Darstellung sehr großer und sehr kleiner Zahlen mit Zehnerpotenzen."
-subject: mathematik
+subject: "mathematik"
 section: "Zahlen"
-topicPath:
-  - "wissenschaftliche-notation"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Wissenschaftliche Notation als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["wissenschaftliche-notation", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird das Vorzeichen des Exponenten verwechselt."
-keyTakeaways:
-  - "Wissenschaftliche Notation macht extreme Zahlen lesbar."
-  - "Der Exponent beschreibt die Größenordnung."
-  - "Negative Exponenten stehen für kleine Werte."
-recognizeSignals:
-  - "Es geht um Wissenschaftliche Notation als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Wissenschaftliche Notation in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "potenzen"
-  - "notation"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Zahlen"]
 draft: false
 ---
-
 # Wissenschaftliche Notation
 
 Die wissenschaftliche Notation schreibt Zahlen als Produkt aus einer Zahl zwischen 1 und 10 und einer Zehnerpotenz. Sie macht sehr große oder sehr kleine Zahlen übersichtlich und erleichtert Größenordnungsbetrachtungen.

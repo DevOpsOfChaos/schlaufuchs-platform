@@ -1,37 +1,19 @@
 ---
 title: "Brown-out und Unterspannung"
 description: "Allgemeiner Überblick über Brown-out-Erkennung, Unterspannung und stabile Starts von Mikrocontrollersystemen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller"
-topicPath:
-  - "brown-out-und-unterspannung"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Brown-out und Unterspannung als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["brown-out-und-unterspannung", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Reset-Probleme werden oft nur im Code gesucht, ohne die Versorgung zu messen."
-keyTakeaways:
-  - "Unterspannung macht digitale Systeme unzuverlässig."
-  - "Brown-out-Erkennung hält den Controller definiert."
-  - "Stabile Versorgung ist Teil der Funktion."
-recognizeSignals:
-  - "Ein Mikrocontroller startet bei Lastwechseln neu."
-  - "Die Versorgung kommt aus Batterie, USB oder langen Leitungen."
-selfCheckPoints:
-  - "Kann ich Brown-out und Unterspannung in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "mikrocontroller"
-  - "brown-out"
-  - "reset"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Mikrocontroller"]
 draft: false
 ---
-
 # Brown-out und Unterspannung
 
 Brown-out bezeichnet einen Zustand, in dem die Versorgungsspannung zu niedrig oder instabil ist, um eine digitale Schaltung zuverlässig zu betreiben.

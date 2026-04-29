@@ -3,38 +3,17 @@ title: "Flexbox im Überblick"
 description: "Nutze Flexbox für eindimensionale Anordnungen mit Ausrichtung und flexiblem Platz."
 subject: "web-development"
 section: "css"
-topicPath: 
-  - "css-und-layout"
-  - "flexbox"
-learningGoals: 
-  - "Flexible Reihen und Spalten ruhig einordnen"
-  - "typische Fehler erkennen und vermeiden"
-  - "eine kleine Web-Entscheidung begründen"
-practiceIdeas: 
-  - "Plane eine horizontale Kartenreihe mit Flexbox und erkläre Haupt- und Querachse."
-  - "Korrigiere eine Flexbox-Navigation, deren Abstand und Umbruch unruhig wirken."
-commonMistakes: 
-  - "Hauptachse und Querachse werden verwechselt."
-  - "Flexbox wird für komplexe zweidimensionale Raster erzwungen."
-  - "Einzelne Items bekommen zufällige Breiten statt nachvollziehbarer Regeln."
-keyTakeaways: 
-  - "Flexbox passt besonders gut, wenn eine Reihe oder Spalte flexibel ausgerichtet werden soll."
-  - "Struktur, Gestaltung und Verhalten getrennt prüfen."
-recognizeSignals: 
-  - "Flexbox passt besonders gut, wenn eine Reihe oder Spalte flexibel ausgerichtet werden soll."
-selfCheckPoints: 
-  - "Kann ich den Zweck nennen?"
-  - "Ist die Rolle von HTML, CSS oder JavaScript klar?"
-  - "Ist mindestens ein Fehlerfall geprüft?"
+topicPath: ["sanierung-v187", "flexbox-ueberblick"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "mittel"
-tags: 
-  - "css"
-  - "flexbox"
-  - "layout"
-  - "web-development"
+tags: ["web-development", "css"]
 draft: false
 ---
-
 ![Didaktische Skizze zu Flexbox im Überblick](/schlaufuchs-platform/images/web-development/sanierung-v187/flexbox-ueberblick.svg)
 
     Flexbox im Überblick ist ein ruhiger Orientierungspunkt im Bereich Web Development. Die Seite ist bewusst nicht als Spezialproblem angelegt, sondern als Überblick: Was ist die Aufgabe des Themas, woran erkennt man eine saubere Lösung und welche Fehler führen häufig zu unruhigen Webprojekten?

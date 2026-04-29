@@ -1,20 +1,14 @@
 ---
 title: "Lösung – Verpolschutz funktional einordnen"
 description: "Musterlösung zur Aufgabe Verpolschutz funktional einordnen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Stromversorgung und Schutz"
-topicPath:
-  - stromversorgung-und-schutz
-  - verpolschutz-und-schutzdioden
-taskId: ET-V181-005
-relatedExercise: src/content/exercises/elektrotechnik/stromversorgung-und-schutz/verpolschutz-und-schutzdioden/verpolschutz-funktional-einordnen.md
-tags:
-  - elektrotechnik
-  - verpolschutz-und-schutzdioden
-  - loesung
+topicPath: ["stromversorgung-und-schutz", "verpolschutz-und-schutzdioden", "verpolschutz-funktional-einordnen"]
+taskId: "ET-V181-005"
+relatedExercise: "src/content/exercises/elektrotechnik/stromversorgung-und-schutz/verpolschutz-und-schutzdioden/verpolschutz-funktional-einordnen.md"
+tags: ["elektrotechnik", "Stromversorgung und Schutz", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Teil 1 – Begriffe ordnen

@@ -3,26 +3,12 @@ title: "Lösung: systemd Services verstehen: Aufgabe B"
 description: "Musterlösung zur Aufgabe linux-v192-008b im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "prozesse-und-dienste"
-  - "systemd-services-verstehen"
-  - "loesung-b"
+topicPath: ["sanierung-v192", "systemd-services-verstehen-loesung-b"]
 taskId: "linux-v192-008b"
 relatedExercise: "linux/sanierung-v192/systemd-services-verstehen-aufgabe-b"
-tags:
-  - "prozesse-und-dienste"
-  - "systemd"
-  - "services"
-  - "verstehen"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-008b`
 
 Ausgangsauftrag: Erweitere die Grundidee zu „systemd Services verstehen“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

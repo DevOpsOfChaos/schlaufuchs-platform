@@ -1,46 +1,19 @@
 ---
-title: Spannung und Strom richtig messen
-description: Lerne, wie du Spannung und Strom fachlich sauber unterscheidest und passend misst.
-subject: elektrotechnik
-section: Praxis
-topicPath:
-- praxis
-- spannung-und-strom-richtig-messen
-learningGoals:
-- Du unterscheidest Spannungs- und Strommessung fachlich sicher.
-- Du erkennst, dass beide Messungen unterschiedliche Messideen brauchen.
-- Du begründest Messanordnungen statt sie nur auswendig zu benutzen.
-practiceIdeas:
-- Erkläre bei jeder Messung zuerst die gesuchte Größe und dann erst die Anordnung.
-- Vergleiche bewusst Spannungsmessung und Strommessung an derselben Schaltung.
-- Prüfe, ob eine Messidee zur Frage der Aufgabe passt.
-commonMistakes:
-- Spannung und Strom mit derselben Messanordnung erfassen zu wollen.
-- Das Messgerät richtig zu nennen, aber die Einbindung nicht zu erklären.
-- Mehr auf das Display als auf die Messidee zu achten.
-keyTakeaways:
-- Spannung und Strom sind unterschiedliche Messfragen.
-- Die Messanordnung folgt der gesuchten Größe.
-- Sauberes Messen beginnt mit fachlicher Begründung.
-tags:
-- elektrotechnik
-- messen
-- spannung
-- strom
-- multimeter
-level: einfach
+title: "Spannung und Strom richtig messen"
+description: "Lerne, wie du Spannung und Strom fachlich sauber unterscheidest und passend misst."
+subject: "elektrotechnik"
+section: "Praxis"
+topicPath: ["praxis", "spannung-und-strom-richtig-messen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Praxis"]
 draft: false
-recognizeSignals:
-- Die Aufgabe oder Erklärung nennt Spannung und Strom richtig messen direkt oder greift eng benachbarte Begriffe aus Praxis auf.
-- Du sollst nicht nur einen Begriff nennen, sondern einen Zusammenhang, Ablauf oder eine Struktur sauber erklären.
-- In Beispielen musst du Werte, Schritte oder Bauteile geordnet lesen und richtig einordnen.
-selfCheckPoints:
-- Kann ich unterscheidest Spannungs- und Strommessung fachlich sicher?
-- Kann ich erkennst, dass beide Messungen unterschiedliche Messideen brauchen?
-- Kann ich begründest Messanordnungen statt sie nur auswendig zu benutzen?
 ---
-
-
 ## Gleiche Schaltung, unterschiedliche Frage
 
 An derselben Schaltung kannst du verschiedene Dinge untersuchen. Fragst du nach der Spannung, ist das etwas anderes als die Frage nach dem Strom. Genau deshalb darf auch die Messanordnung nicht beliebig sein.

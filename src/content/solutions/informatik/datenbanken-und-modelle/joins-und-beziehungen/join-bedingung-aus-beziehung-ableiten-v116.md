@@ -3,22 +3,12 @@ title: "Lösung: Join-Bedingung aus Beziehung ableiten"
 description: "Musterlösung zur Aufgabe „Join-Bedingung aus Beziehung ableiten“ mit Unterfrage, Begründung und Gegenprobe."
 subject: "informatik"
 section: "Informatik vertiefen"
-topicPath:
-  - "datenbanken-und-modelle"
-  - "joins-und-beziehungen"
-  - "join-bedingung-aus-beziehung-ableiten-v116"
+topicPath: ["datenbanken-und-modelle", "joins-und-beziehungen", "join-bedingung-aus-beziehung-ableiten-v116"]
 taskId: "join-bedingung-aus-beziehung-ableiten-v116"
 relatedExercise: "informatik/datenbanken-und-modelle/joins-und-beziehungen/join-bedingung-aus-beziehung-ableiten-v116"
-tags:
-  - "informatik"
-  - "programmierung"
-  - "struktur"
-  - "joins und beziehungen"
-  - "join bedingung aus beziehung ableiten"
-  - "v116"
+tags: ["informatik", "Informatik vertiefen", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Die kleine Fachfrage lautet:

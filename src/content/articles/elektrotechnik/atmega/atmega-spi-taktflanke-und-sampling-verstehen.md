@@ -1,46 +1,19 @@
 ---
-title: ATmega – SPI-Taktflanke und Sampling verstehen
-description: Verstehe, warum bei SPI nicht nur Leitungen und Rollen wichtig sind, sondern auch der Moment, in dem Daten übernommen oder geändert werden.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-schnittstellen-und-busse
-  - atmega-spi-taktflanke-und-sampling-verstehen
-learningGoals:
-  - Du erklärst die Rolle der Taktflanke bei der SPI-Datenübernahme.
-  - Du beschreibst, warum Sender und Empfänger denselben zeitlichen Bezug brauchen.
-  - Du liest SPI-Einstellungen ruhiger als Timing-Frage statt nur als Moduszahl.
-practiceIdeas:
-  - Vergleiche zwei SPI-Fälle mit unterschiedlicher Datenübernahme an der Taktflanke.
-  - Lies ein SPI-Problem zuerst als Timing- und nicht sofort als Leitungsproblem.
-  - Prüfe, wann Daten stabil anliegen und wann sie übernommen werden sollen.
-commonMistakes:
-  - Zu denken, Daten würden einfach irgendwo während des Takts gelesen.
-  - SPI-Modi nur als Nummern auswendig zu lernen.
-  - Falsche Datenübernahme sofort als Bitfehler ohne Timing-Bezug zu deuten.
-keyTakeaways:
-  - Bei SPI ist wichtig, an welcher Taktflanke Daten geändert und gelesen werden.
-  - Sender und Empfänger müssen denselben zeitlichen Bezug teilen.
-  - Wer Timing und Flanke versteht, liest SPI-Modi deutlich ruhiger.
-recognizeSignals:
-  - Es geht um SPI-Modus, Taktflanke, Sampling oder falsch gelesene Bitfolgen.
-  - Du sollst erklären, warum Übertragung trotz richtiger Leitungen instabil wirkt.
-  - In Aufgaben ist der zeitliche Bezug wichtiger als nur der Leitungsname.
-selfCheckPoints:
-  - Kann ich Taktflanke und Datenübernahme fachlich erklären?
-  - Kann ich begründen, warum derselbe Bus mit falscher Flanke fehlerhaft arbeitet?
-  - Kann ich SPI eher als Timing-Problem als als bloße Modusnummer lesen?
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - spi
-  - timing
-level: mittel
+title: "ATmega – SPI-Taktflanke und Sampling verstehen"
+description: "Verstehe, warum bei SPI nicht nur Leitungen und Rollen wichtig sind, sondern auch der Moment, in dem Daten übernommen oder geändert werden."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-spi-taktflanke-und-sampling-verstehen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "mittel"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei SPI reicht es nicht, nur die Leitungen und Rollen zu kennen. Entscheidend ist auch, **wann** ein Bit als gültig übernommen wird. Genau dafür sind **Taktflanke** und **Sampling-Moment** wichtig.

@@ -1,35 +1,17 @@
 ---
 title: "Bash-Arrays"
 description: "Überblick über Arrays in Bash und ihre sichere Verwendung in Shell-Skripten."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - "bash-arrays"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Bash-Arrays als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["bash-arrays", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, Listen als String zu speichern und später ungeprüft zu splitten. Das bricht bei Dateinamen mit Leerzeichen."
-keyTakeaways:
-  - "Bash-Arrays speichern mehrere Werte unter einem Namen und helfen, Listen ohne unsichere Zeichenkettenverkettung zu verarbeiten."
-  - "Sie machen Skripte robuster, wenn Dateinamen, Optionen oder Argumentlisten Leerzeichen oder Sonderzeichen enthalten."
-  - "Bash-Arrays eignen sich nicht für jede Portabilitätsanforderung. Für reine sh-Skripte braucht es andere Muster."
-recognizeSignals:
-  - "Es geht um Bash-Arrays, wenn indizierte Arrays speichern Werte nach Nummern."
-  - "Das Thema wird relevant, wenn Beispiele wie eine Liste von Dateien kann als Array übergeben werden, ohne sie mit Leerzeichen zu einer einzigen Zeichenkette zu verbinden."
-selfCheckPoints:
-  - "Kann ich Bash-Arrays in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "bash"
-  - "arrays"
-  - "shell-script"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
 # Bash-Arrays

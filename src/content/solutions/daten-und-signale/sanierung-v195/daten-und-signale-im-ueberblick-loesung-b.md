@@ -3,25 +3,12 @@ title: "Lösung: Daten und Signale im Überblick: Aufgabe B"
 description: "Musterlösung zur Aufgabe daten-und-signale-v195-001b im Daten-und-Signale-Block v195."
 subject: "daten-und-signale"
 section: "signalverarbeitung-und-uebertragung"
-topicPath:
-  - "signalverarbeitung-und-uebertragung"
-  - "grundlagen-und-begriffe"
-  - "daten-und-signale-im-ueberblick"
-  - "loesung-b"
-
+topicPath: ["sanierung-v195", "daten-und-signale-im-ueberblick-loesung-b"]
 taskId: "daten-und-signale-v195-001b"
 relatedExercise: "daten-und-signale/sanierung-v195/daten-und-signale-im-ueberblick-aufgabe-b"
-tags:
-  - "daten"
-  - "signale"
-  - "ueberblick"
-  - "daten-und-signale"
-  - "loesung"
-  - "v195"
-
+tags: ["daten-und-signale", "signalverarbeitung-und-uebertragung", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `daten-und-signale-v195-001b`
 
 Ausgangsauftrag: Übertrage das Thema Daten und Signale im Überblick auf ein zweites Beispiel und formuliere eine kurze Prüfung.

@@ -1,34 +1,19 @@
 ---
 title: "Messspitzen und Bezugspunkt"
 description: "Überblick über Messspitzen, Bezugspunkte und die Frage, was ein Messgerät tatsächlich zwischen zwei Punkten misst."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Elektrotechnik"
-topicPath:
-  - "messspitzen-und-bezugspunkt"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte, typische Signale und häufige Missverständnisse."
-  - "Du kannst erklären, warum das Thema in praktischen Situationen relevant ist."
+topicPath: ["messspitzen-und-bezugspunkt", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Eine Spannung an einem Punkt zu erwarten, ohne zu sagen, gegen welchen Punkt gemessen wird."
-keyTakeaways:
-  - "Jeder Spannungswert braucht einen Bezugspunkt; sonst ist er nicht eindeutig interpretierbar."
-  - "Ein guter Überblick trennt Begriff, Zweck, Voraussetzungen und Grenzen."
-recognizeSignals:
-  - "Das Thema ist relevant, wenn Messwerte nicht reproduzierbar sind, verschiedene Massen vorkommen oder ein Messgerät eine Schaltung verändert."
-selfCheckPoints:
-  - "Kann ich den Begriff ohne Spezialfall erklären?"
-  - "Kann ich typische Grenzen und Missverständnisse nennen?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "spannung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Elektrotechnik"]
 draft: false
 ---
-
 # Messspitzen und Bezugspunkt
 
 Elektrische Messungen sind immer Vergleiche zwischen Punkten. Ein Voltmeter misst eine Spannung zwischen zwei Messspitzen, nicht eine absolute Eigenschaft eines einzelnen Anschlusses. Der Bezugspunkt entscheidet daher, wie ein Messwert zu lesen ist.

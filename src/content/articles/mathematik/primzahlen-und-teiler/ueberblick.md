@@ -3,32 +3,17 @@ title: "Primzahlen und Teiler"
 description: "Allgemeiner Überblick über Primzahlen, Teiler und ihre Bedeutung in der Zahlentheorie."
 subject: "mathematik"
 section: "Zahlen"
-topicPath:
-  - "primzahlen-und-teiler"
-learningGoals:
-  - "Du kannst den Begriff einordnen und von ähnlichen Begriffen abgrenzen."
-  - "Du kennst typische Teilaspekte und praktische Zusammenhänge."
-  - "Du erkennst häufige Missverständnisse zu diesem Thema."
+topicPath: ["primzahlen-und-teiler", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird jede ungerade Zahl als Primzahl vermutet. 9, 15 oder 21 zeigen, dass ungerade Zahlen dennoch zusammengesetzt sein können."
-keyTakeaways:
-  - "Primzahlen sind Grundbausteine der natürlichen Zahlen. Teiler machen sichtbar, wie Zahlen aufgebaut und miteinander verbunden sind."
-  - "Die Zahl 1 ist keine Primzahl, weil sie nur einen positiven Teiler besitzt. Diese Festlegung macht viele Sätze einfacher und eindeutiger."
-recognizeSignals:
-  - "Es geht um Grundlagen, Einordnung, Begriffe oder typische Fehlerbilder zu diesem Thema."
-selfCheckPoints:
-  - "Kann ich den Begriff ruhig und allgemein erklären?"
-  - "Kann ich ein Beispiel nennen, ohne direkt in eine Spezialaufgabe zu springen?"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
 level: "einfach"
-tags:
-  - "mathematik"
-  - "primzahlen"
-  - "teiler"
-  - "zahlen"
+tags: ["mathematik", "Zahlen"]
 draft: false
 ---
-
 # Primzahlen und Teiler
 
 Ein Teiler einer Zahl ist eine Zahl, durch die sie ohne Rest teilbar ist. Eine Primzahl ist eine natürliche Zahl größer als 1, die genau zwei positive Teiler besitzt: 1 und sich selbst.

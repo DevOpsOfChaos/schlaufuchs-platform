@@ -3,25 +3,12 @@ title: "Lösung: sudo und Adminrolle: Aufgabe A"
 description: "Musterlösung zur Aufgabe linux-v192-005a im Linuxblock v192."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "identitaet-und-rechte"
-  - "sudo-und-adminrolle"
-  - "loesung-a"
+topicPath: ["sanierung-v192", "sudo-und-adminrolle-loesung-a"]
 taskId: "linux-v192-005a"
 relatedExercise: "linux/sanierung-v192/sudo-und-adminrolle-aufgabe-a"
-tags:
-  - "identitaet-und-rechte"
-  - "sudo"
-  - "adminrolle"
-  - "linux"
-  - "adminpraxis"
-  - "betrieb"
-  - "loesung"
-  - "v192"
+tags: ["linux", "adminpraxis-und-betrieb", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `linux-v192-005a`
 
 Ausgangsauftrag: Entscheide, wann sudo nötig ist und wann nicht.

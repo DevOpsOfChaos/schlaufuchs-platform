@@ -3,34 +3,15 @@ title: "Übung: Ergebnis mit Kontext vergleichen"
 description: "Übe, „Ergebnis mit Kontext vergleichen“ als kleines Unterthema zu erkennen, zu begründen und mit einer Gegenprobe abzusichern."
 subject: "mathematik"
 section: "Mathematik vertiefen"
-topicPath:
-  - "modellieren-und-validieren"
-  - "modellgrenzen-und-plausibilitaet"
-  - "ergebnis-mit-kontext-vergleichen-v116"
+topicPath: ["modellieren-und-validieren", "modellgrenzen-und-plausibilitaet", "ergebnis-mit-kontext-vergleichen-v116"]
 taskId: "ergebnis-mit-kontext-vergleichen-v116"
-tags:
-  - "mathematik"
-  - "strategie"
-  - "kontrolle"
-  - "modellgrenzen und plausibilitaet"
-  - "ergebnis mit kontext vergleichen"
-  - "v116"
-hintPoints:
-  - "Lies zuerst nur die konkrete Unterfrage."
-  - "Markiere eine typische Fehlannahme."
-  - "Formuliere am Ende eine Gegenprobe."
-selfCheckPoints:
-  - "Ist die Lösung fachlich begründet?"
-  - "Ist die Abgrenzung zum Nachbarthema sichtbar?"
-  - "Passt die Gegenprobe zur Aufgabe?"
-transferIdeas:
-  - "Ändere eine Bedingung und prüfe, ob deine Begründung noch trägt."
-  - "Erkläre die Lösung einmal ohne Fachwörter und danach fachlich sauber."
-reflectionPrompt: "Welche kleine Entscheidung war bei „Ergebnis mit Kontext vergleichen“ am wichtigsten?"
+tags: ["mathematik", "Mathematik vertiefen", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe 1: Unterfrage erkennen
 
 Lies die Situation:

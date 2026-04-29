@@ -1,22 +1,14 @@
 ---
-title: Lösung – PROGMEM und konstante Daten am AVR ruhig einordnen
-description: Musterlösung zur Aufgabe über PROGMEM und konstante Programmdaten am AVR.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - speicher-und-programmdaten
-  - atmega-progmem-und-konstanten-im-flash-verstehen
-taskId: ET-ATMEGA-MEM-404
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-progmem-und-konstanten-im-flash-verstehen/progmem-und-konstante-daten-am-avr-ruhig-einordnen.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - loesung
+title: "Lösung – PROGMEM und konstante Daten am AVR ruhig einordnen"
+description: "Musterlösung zur Aufgabe über PROGMEM und konstante Programmdaten am AVR."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-progmem-und-konstanten-im-flash-verstehen", "progmem-und-konstante-daten-am-avr-ruhig-einordnen"]
+taskId: "ET-ATMEGA-MEM-404"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-progmem-und-konstanten-im-flash-verstehen/progmem-und-konstante-daten-am-avr-ruhig-einordnen.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### Aufgabe 1

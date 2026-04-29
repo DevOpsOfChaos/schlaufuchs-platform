@@ -1,37 +1,19 @@
 ---
 title: "Spannungshub und Rauschabstand"
 description: "Überblick über Spannungshub, Störanteile und die Reserve zwischen Nutzsignal und Rauschen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Signalqualität"
-topicPath:
-  - "spannungshub-und-rauschabstand"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Spannungshub und Rauschabstand als Grundbegriff einordnen."
-  - "Du kennst zentrale Zusammenhänge, typische Teilaspekte und Abgrenzungen."
-  - "Du kannst häufige Missverständnisse benennen und vermeiden."
+topicPath: ["spannungshub-und-rauschabstand", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Nur den idealen Signalpegel zu betrachten und Störungen, Toleranzen oder Schaltschwellen zu ignorieren."
-keyTakeaways:
-  - "Rauschabstand ist Reserve gegen Fehlinterpretationen."
-  - "Schaltschwellen und Störungen müssen zusammen betrachtet werden."
-  - "Robuste Signale brauchen mehr als nur den richtigen Nennpegel."
-recognizeSignals:
-  - "Ein Signal wird sporadisch falsch erkannt."
-  - "Messwerte springen, obwohl der eigentliche Sensor langsam arbeitet."
-selfCheckPoints:
-  - "Kann ich Spannungshub und Rauschabstand in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "signalqualität"
-  - "rauschen"
-  - "pegel"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Signalqualität"]
 draft: false
 ---
-
 # Spannungshub und Rauschabstand
 
 Der Spannungshub beschreibt den nutzbaren Unterschied zwischen niedrigen und hohen Signalwerten. Der Rauschabstand gibt an, wie deutlich ein Nutzsignal über Störungen liegt.

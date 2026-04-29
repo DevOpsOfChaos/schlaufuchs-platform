@@ -1,23 +1,14 @@
 ---
-title: Lösung – Exit-Code bewusst setzen
-description: Musterlösung zur Aufgabe über Exit-Code bewusst setzen.
-subject: linux
-section: Feinstruktur Linux
-topicPath:
-- shell-automation
-- robuste-skripte
-- exit-code-bewusst-setzen-v114
-taskId: v114-linux-exit-code-bewusst-setzen-v114
-relatedExercise: linux/shell-automation/robuste-skripte/exit-code-bewusst-setzen-v114
-tags:
-- linux
-- v114
-- loesung
-- shell-automation
-- robuste-skripte
+title: "Lösung – Exit-Code bewusst setzen"
+description: "Musterlösung zur Aufgabe über Exit-Code bewusst setzen."
+subject: "linux"
+section: "Feinstruktur Linux"
+topicPath: ["shell-automation", "robuste-skripte", "exit-code-bewusst-setzen-v114"]
+taskId: "v114-linux-exit-code-bewusst-setzen-v114"
+relatedExercise: "linux/shell-automation/robuste-skripte/exit-code-bewusst-setzen-v114"
+tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

@@ -1,24 +1,14 @@
 ---
 title: "Lösung – 5-V- und 3,3-V-Pegel sicher bewerten"
 description: "Musterlösung zu 5-v- und 3,3-v-pegel sicher bewerten."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
-topicPath:
-  - daten-und-signale
-  - mikrocontroller-und-atmega
-  - 5v-3v3-pegel-und-schnittstellen-schuetzen
+topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "5v-3v3-pegel-und-schnittstellen-schuetzen"]
 taskId: "et-mc-v92-pegel-schuetzen"
 relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/5v-3v3-pegel-und-schnittstellen-schuetzen"
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - pegel
-  - 3v3
-  - 5v
-  - schnittstellen
+tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
-
 ## Lösung zu Aufgabe 1
 
 Der ATmega-TX kann ein High-Signal nahe 5 V liefern. Ein 3,3-V-Modul darf an seinem Eingang oft nicht mit 5 V belastet werden, wenn es nicht ausdrücklich 5-V-tolerant ist. Deshalb ist gerade diese Richtung kritisch.

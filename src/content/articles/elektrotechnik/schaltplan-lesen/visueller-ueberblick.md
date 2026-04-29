@@ -1,31 +1,17 @@
 ---
 title: "Schaltplan lesen"
 description: "Allgemeiner Überblick darüber, wie Schaltpläne als Funktions-, Verbindungs- und Prüfdokument gelesen werden."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Schaltungstechnik"
-topicPath:
-  - "schaltplan-lesen"
-learningGoals:
-  - "Du kannst Schaltpläne als abstrakte Darstellung elektrischer Zusammenhänge einordnen."
-  - "Du erkennst Netze, Bezugspunkte und Funktionsgruppen."
-  - "Du verstehst, warum räumliche Nähe im Schaltplan nicht automatisch physische Nähe bedeutet."
+topicPath: ["schaltplan-lesen", "visueller-ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Den Schaltplan wie eine mechanische Lagezeichnung zu lesen."
-  - "Massezeichen, Versorgungssymbole oder Netznamen zu übersehen."
-keyTakeaways:
-  - "Ein Schaltplan zeigt elektrische Verbindungen, nicht die physische Anordnung."
-  - "Netznamen und Bezugspunkte sind zentrale Orientierungshilfen."
-recognizeSignals:
-  - "Es geht um Bauteile, Netze, Masse, Versorgung, Pins oder Fehlersuche."
-selfCheckPoints:
-  - "Kann ich in einem Schaltplan Versorgung, Eingang, Verarbeitung und Ausgang unterscheiden?"
-level: einfach
-tags:
-  - "elektrotechnik"
-  - "schaltplan"
-  - "fehlersuche"
-  - "netze"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["elektrotechnik", "Schaltungstechnik"]
 draft: false
 ---
 # Schaltplan lesen

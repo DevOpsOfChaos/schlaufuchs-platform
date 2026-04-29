@@ -1,22 +1,14 @@
 ---
-title: Musterlösung – Datentypen passend zuordnen
-description: Musterlösung zur Aufgabe INF-DATA-TYP-001.
-subject: informatik
-section: Grundlagen
-topicPath:
-  - grundlagen
-  - daten-und-information
-  - datentypen-in-informationssystemen-einordnen
-  - werte-und-datentypen-passend-zuordnen-loesung
-taskId: INF-DATA-TYP-001
-relatedExercise: src/content/exercises/informatik/grundlagen/daten-und-information/datentypen-in-informationssystemen-einordnen/werte-und-datentypen-passend-zuordnen.md
-tags:
-  - informatik
-  - loesung
-  - task-id
+title: "Musterlösung – Datentypen passend zuordnen"
+description: "Musterlösung zur Aufgabe INF-DATA-TYP-001."
+subject: "informatik"
+section: "Grundlagen"
+topicPath: ["grundlagen", "daten-und-information", "datentypen-in-informationssystemen-einordnen", "werte-und-datentypen-passend-zuordnen"]
+taskId: "INF-DATA-TYP-001"
+relatedExercise: "src/content/exercises/informatik/grundlagen/daten-und-information/datentypen-in-informationssystemen-einordnen/werte-und-datentypen-passend-zuordnen.md"
+tags: ["informatik", "Grundlagen", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1: Werte zuordnen
 
 - Produktname → Text

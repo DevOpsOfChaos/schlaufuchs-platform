@@ -1,33 +1,19 @@
 ---
 title: "CSS-Boxmodell"
 description: "Überblick über Inhalt, Innenabstand, Rahmen und Außenabstand im CSS-Layout."
-subject: web-development
+subject: "web-development"
 section: "CSS"
-topicPath:
-  - css-boxmodell
-  - ueberblick
-learningGoals:
-  - "Du kannst das Thema allgemein einordnen und von verwandten Begriffen abgrenzen."
-  - "Du kennst wichtige Teilaspekte und typische Anwendungsfälle."
-  - "Du erkennst häufige Missverständnisse und prüfst Aussagen auf Plausibilität."
+topicPath: ["css-boxmodell", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Ein häufiger Fehler ist, Margin zu verwenden, obwohl eigentlich Innenabstand gemeint ist."
-keyTakeaways:
-  - "Das CSS-Boxmodell beschreibt, wie Browser Elemente als rechteckige Boxen behandeln."
-  - "Die genaue Bedeutung hängt vom Zusammenhang, den Einheiten und den Randbedingungen ab."
-recognizeSignals:
-  - "Das Thema taucht auf, wenn Begriffe, Beispiele oder Fehlerbilder aus diesem Bereich erklärt und eingeordnet werden sollen."
-selfCheckPoints:
-  - "Kann ich das Thema in eigenen Worten erklären, ohne sofort eine Spezialaufgabe zu rechnen?"
-level: einfach
-tags:
-  - "web development"
-  - "css"
-  - "boxmodell"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["web-development", "CSS"]
 draft: false
 ---
-
 # CSS-Boxmodell
 
 ## Begriff und Zweck

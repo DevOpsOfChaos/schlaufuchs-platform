@@ -1,23 +1,14 @@
 ---
-title: Lösung – ADC-Abtastzeit beachten
-description: Musterlösung zur Aufgabe über ADC-Abtastzeit beachten.
-subject: elektrotechnik
-section: Feinstruktur Elektrotechnik
-topicPath:
-- mikrocontroller-systeme
-- peripherie-und-timing
-- adc-abtastzeit-beachten-v114
-taskId: v114-elektrotechnik-adc-abtastzeit-beachten-v114
-relatedExercise: elektrotechnik/mikrocontroller-systeme/peripherie-und-timing/adc-abtastzeit-beachten-v114
-tags:
-- elektrotechnik
-- v114
-- loesung
-- mikrocontroller-systeme
-- peripherie-und-timing
+title: "Lösung – ADC-Abtastzeit beachten"
+description: "Musterlösung zur Aufgabe über ADC-Abtastzeit beachten."
+subject: "elektrotechnik"
+section: "Feinstruktur Elektrotechnik"
+topicPath: ["mikrocontroller-systeme", "peripherie-und-timing", "adc-abtastzeit-beachten-v114"]
+taskId: "v114-elektrotechnik-adc-abtastzeit-beachten-v114"
+relatedExercise: "elektrotechnik/mikrocontroller-systeme/peripherie-und-timing/adc-abtastzeit-beachten-v114"
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 ### 1. Konkrete Entscheidung

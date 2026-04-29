@@ -1,36 +1,19 @@
 ---
 title: "Lineare Regression"
 description: "Einordnung linearer Regression als Modell für einen linearen Zusammenhang in Daten."
-subject: mathematik
+subject: "mathematik"
 section: "Daten und Modelle"
-topicPath:
-  - "lineare-regression"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Lineare Regression als Grundbegriff einordnen."
-  - "Du kennst zentrale Teilaspekte und typische Einsatzbereiche."
-  - "Du kannst häufige Missverständnisse von der Grundidee trennen."
+topicPath: ["lineare-regression", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird eine Regressionsgerade als Beweis für Ursache verstanden."
-keyTakeaways:
-  - "Lineare Regression beschreibt Trends mit einer Geraden."
-  - "Streuung und Ausreißer beeinflussen die Aussagekraft."
-  - "Korrelation und Ursache sind nicht dasselbe."
-recognizeSignals:
-  - "Es geht um Lineare Regression als allgemeines Thema, nicht nur um einen Einzelfall."
-  - "Begriffe, Zusammenhänge und Grenzen sollen zuerst geklärt werden."
-selfCheckPoints:
-  - "Kann ich Lineare Regression in eigenen Worten erklären?"
-  - "Kann ich ein typisches Beispiel nennen und eine Grenze beschreiben?"
-level: einfach
-tags:
-  - "mathematik"
-  - "regression"
-  - "daten"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Daten und Modelle"]
 draft: false
 ---
-
 # Lineare Regression
 
 Lineare Regression sucht eine Gerade, die einen Zusammenhang zwischen zwei Größen möglichst gut beschreibt. Sie wird verwendet, wenn Datenpunkte ungefähr einem linearen Trend folgen, aber nicht exakt auf einer Geraden liegen.

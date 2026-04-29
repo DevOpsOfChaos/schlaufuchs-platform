@@ -3,21 +3,12 @@ title: "Lösung – Prozentrechnung mit Gegenprobe prüfen"
 description: "Musterlösung zu prozentrechnung mit gegenprobe prüfen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "mathematik"
 section: "Feinstruktur Mathematik"
-topicPath:
-  - "grundlagen"
-  - "prozent-und-wachstum"
-  - "prozentrechnung-mit-gegenprobe-pruefen"
+topicPath: ["grundlagen", "prozent-und-wachstum", "prozentrechnung-mit-gegenprobe-pruefen"]
 taskId: "v112-mathematik-prozentrechnung-mit-gegenprobe-pruefen"
 relatedExercise: "mathematik/grundlagen/prozent-und-wachstum/prozentrechnung-mit-gegenprobe-pruefen"
-tags:
-  - "mathematik"
-  - "v112"
-  - "feinstruktur"
-  - "grundlagen"
-  - "prozentrechnung-mit-gegenprobe-pruefen"
+tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **Prozent und Wachstum**.

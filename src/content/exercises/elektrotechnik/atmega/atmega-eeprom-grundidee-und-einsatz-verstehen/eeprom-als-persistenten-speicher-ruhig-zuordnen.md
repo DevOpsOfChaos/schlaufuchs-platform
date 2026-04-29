@@ -1,32 +1,17 @@
 ---
-title: EEPROM als persistenten Speicher ruhig zuordnen
-description: Ordne typische ATmega-Daten sinnvoll EEPROM, SRAM oder Flash zu und begründe die Rolle von EEPROM als persistenten Datenspeicher.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - speicher-und-persistenz
-  - atmega-eeprom-grundidee-und-einsatz-verstehen
-  - eeprom-als-persistenten-speicher-ruhig-zuordnen
-taskId: ET-ATMEGA-MEM-301
-level: einfach
+title: "EEPROM als persistenten Speicher ruhig zuordnen"
+description: "Ordne typische ATmega-Daten sinnvoll EEPROM, SRAM oder Flash zu und begründe die Rolle von EEPROM als persistenten Datenspeicher."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-eeprom-grundidee-und-einsatz-verstehen", "eeprom-als-persistenten-speicher-ruhig-zuordnen"]
+taskId: "ET-ATMEGA-MEM-301"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
-tags:
-  - elektrotechnik
-  - atmega
-  - eeprom
-  - speicher
-hintPoints:
-  - Frage zuerst, ob der Wert einen Neustart überleben muss.
-  - Trenne Konfigurationsdaten und schnelle Laufzeitwerte sauber.
-selfCheckPoints:
-  - Kannst du EEPROM und SRAM funktional unterscheiden?
-  - Kannst du begründen, warum ein Wert persistent sein soll oder nicht?
-transferIdeas:
-  - Übertrage die Logik auf Menüs, Sollwerte, Kalibrierung oder Betriebszähler.
-reflectionPrompt: "Welche Leitfrage hilft dir am meisten, EEPROM nicht als „irgendeinen dritten Speicher“ zu behandeln?"
 ---
-
 ## Aufgabe 1
 
 Ordne diese Daten jeweils sinnvoll zu: **Flash**, **SRAM** oder **EEPROM**.

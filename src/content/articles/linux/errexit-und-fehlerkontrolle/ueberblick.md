@@ -1,35 +1,17 @@
 ---
 title: "errexit und Fehlerkontrolle"
 description: "Überblick über `set -e`, seine Grenzen und robuste Fehlerkontrolle in Shell-Skripten."
-subject: linux
+subject: "linux"
 section: "Shell"
-topicPath:
-  - "errexit-und-fehlerkontrolle"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst errexit und Fehlerkontrolle als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["errexit-und-fehlerkontrolle", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird set -e als Garantie verstanden, dass kein Fehler übersehen wird. Das ist in realen Skripten zu einfach gedacht."
-keyTakeaways:
-  - "errexit soll ein Shell-Skript bei Fehlern abbrechen, verhält sich aber je nach Kontext nicht immer so, wie Einsteiger erwarten."
-  - "Ein bewusstes Verständnis verhindert Skripte, die entweder zu früh abbrechen oder Fehler unbemerkt fortsetzen."
-  - "errexit ist eine Hilfe, keine vollständige Fehlerstrategie."
-recognizeSignals:
-  - "Es geht um errexit und Fehlerkontrolle, wenn set -e reagiert auf viele, aber nicht alle fehlgeschlagenen Befehle."
-  - "Das Thema wird relevant, wenn Beispiele wie ein fehlgeschlagener Befehl in einer if-Bedingung bedeutet nicht automatisch einen Skriptabbruch, weil der Exit-Status dort zur Entscheidung gehört."
-selfCheckPoints:
-  - "Kann ich errexit und Fehlerkontrolle in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "linux"
-  - "shell"
-  - "set -e"
-  - "fehlerbehandlung"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Shell"]
 draft: false
 ---
 # errexit und Fehlerkontrolle

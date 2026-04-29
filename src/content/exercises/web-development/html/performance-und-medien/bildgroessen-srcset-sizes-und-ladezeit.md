@@ -3,34 +3,15 @@ title: "Aufgabe – HTML – Bildgrößen, srcset und sizes für Ladezeit planen
 description: "Plane für eine Bildkarte drei Bildgrößen und beschreibe, welche Information srcset und sizes dem Browser geben."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "performance-und-medien"
-  - "bildgroessen-srcset-sizes-und-ladezeit"
+topicPath: ["html", "performance-und-medien", "bildgroessen-srcset-sizes-und-ladezeit"]
 taskId: "web-v100-bildgroessen-srcset-sizes-und-ladezeit"
-tags:
-  - "web development"
-  - "html"
-  - "bilder"
-  - "srcset"
-  - "performance"
-  - "aufgabe"
-hintPoints:
-  - "Lies zuerst die sichtbare Seitensituation, nicht nur einzelne Codezeilen."
-  - "Trenne Ursache, Entscheidung und erwartete Wirkung."
-  - "Denke mindestens einen Fehler-, Lade- oder Randfall mit."
-selfCheckPoints:
-  - "Ist die Entscheidung fachlich begründet?"
-  - "Ist klar, welche Nutzererfahrung verbessert wird?"
-  - "Wird der passende Browser- oder Projektbereich geprüft?"
-transferIdeas:
-  - "Übertrage die Idee auf eine kleine Lernkarte, ein Formular oder eine Navigation."
-  - "Beschreibe eine schwache Variante, die technisch funktioniert, aber didaktisch oder praktisch riskant bleibt."
-reflectionPrompt: "Welche Prüfung hätte den häufigsten Fehler bei dieser Aufgabe am frühesten sichtbar gemacht?"
+tags: ["web-development", "HTML", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Plane für eine Bildkarte drei Bildgrößen und beschreibe, welche Information srcset und sizes dem Browser geben.

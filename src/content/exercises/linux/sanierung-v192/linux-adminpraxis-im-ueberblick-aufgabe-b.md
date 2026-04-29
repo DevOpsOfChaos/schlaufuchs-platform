@@ -3,35 +3,15 @@ title: "Linux-Adminpraxis im Überblick: Aufgabe B"
 description: "Erweitere die Grundidee zu „Linux-Adminpraxis im Überblick“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis."
 subject: "linux"
 section: "adminpraxis-und-betrieb"
-topicPath:
-  - "adminpraxis-und-betrieb"
-  - "betrieb"
-  - "linux-adminpraxis-im-ueberblick"
-  - "aufgabe-b"
+topicPath: ["sanierung-v192", "linux-adminpraxis-im-ueberblick-aufgabe-b"]
 taskId: "linux-v192-001b"
-tags:
-  - "betrieb"
-  - "linux"
-  - "adminpraxis"
-  - "ueberblick"
-  - "aufgabe"
-  - "v192"
-hintPoints:
-  - "Trenne Beobachtung, Eingriff und Kontrolle."
-  - "Nenne den betroffenen Benutzer, Dienst, Pfad, Port oder Zeitplan."
-  - "Beschreibe mindestens einen Rückweg oder Sicherheitscheck."
-selfCheckPoints:
-  - "Die Antwort passt zum Thema Linux-Adminpraxis im Überblick."
-  - "Es gibt eine klare Kontrolle nach der Änderung."
-  - "Risiko und Nebenwirkung werden nicht verschwiegen."
-transferIdeas:
-  - "Übertrage den Prüfweg auf eine zweite Linux-VM oder einen anderen Dienst."
-  - "Formuliere aus deiner Lösung eine kurze Betriebsnotiz."
-reflectionPrompt: "Welcher Schritt verhindert hier den wahrscheinlichsten Adminfehler?"
+tags: ["linux", "adminpraxis-und-betrieb", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
 level: "fortgeschritten"
 draft: false
 ---
-
 ## Aufgabe
 
 Erweitere die Grundidee zu „Linux-Adminpraxis im Überblick“ um Risiko, Rückweg und einen konkreten Kontrollbefehl oder Kontrollhinweis.

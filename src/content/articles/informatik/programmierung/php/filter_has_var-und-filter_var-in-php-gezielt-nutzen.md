@@ -1,46 +1,19 @@
 ---
-title: filter_has_var und filter_var in PHP gezielt nutzen
-description: Verstehe, wie PHP-Eingaben zuerst auf Existenz geprüft und dann validiert oder bereinigt werden können.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - php
-  - filter_has_var-und-filter_var-in-php-gezielt-nutzen
-learningGoals:
-  - Du unterscheidest Existenzprüfung, Validierung und Bereinigung fachlich voneinander.
-  - Du erklärst die Rollen von <code>filter_has_var</code> und <code>filter_var</code>.
-  - Du liest einfache Filterlogik ruhiger als Prüfablauf statt als Funktionsnamenliste.
-practiceIdeas:
-  - "Beschreibe, was zuerst geprüft werden sollte: ob ein Wert da ist oder ob er gültig ist."
-  - Ordne E-Mail, URL und Zahl passenden Filterideen zu.
-  - Vergleiche validieren und bereinigen an einem kleinen Beispiel.
-commonMistakes:
-  - Zu glauben, dass jede Bereinigung automatisch auch eine Gültigkeitsprüfung ist.
-  - Existenzprüfung und Inhaltsprüfung zu verwechseln.
-  - Filterlogik erst nach der Speicherung statt vor der Verarbeitung zu denken.
-keyTakeaways:
-  - <code>filter_has_var</code> prüft zuerst, ob eine Variable vorhanden ist.
-  - <code>filter_var</code> validiert oder bereinigt konkrete Werte.
-  - "Gute Prüfabläufe laufen meist in klarer Reihenfolge: vorhanden, plausibel, dann weiterverarbeiten."
-recognizeSignals:
-  - Im Code tauchen Filterfunktionen oder Begriffe wie VALIDATE und SANITIZE auf.
-  - Es geht um E-Mail, URL, Integer oder Formulareingaben.
-  - Du sollst erklären, wie Eingaben serverseitig sicherer verarbeitet werden.
-selfCheckPoints:
-  - Kann ich Existenzprüfung und Validierung unterscheiden?
-  - Kann ich sagen, wann bereinigen statt validieren im Vordergrund steht?
-  - Kann ich einen kleinen Prüfablauf in Worten erklären?
-level: einfach
-tags:
-  - informatik
-  - programmierung
-  - php
-  - filter
-  - validierung
+title: "filter_has_var und filter_var in PHP gezielt nutzen"
+description: "Verstehe, wie PHP-Eingaben zuerst auf Existenz geprüft und dann validiert oder bereinigt werden können."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "php", "filter_has_var-und-filter_var-in-php-gezielt-nutzen"]
+learningGoals: []
+practiceIdeas: []
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["informatik", "Programmierung"]
 draft: false
 ---
-
 ## Grundidee
 
 Bei Servereingaben reicht es nicht zu wissen, dass ein Feld theoretisch existieren sollte. Fachlich geht es oft um drei getrennte Fragen: Ist der Wert überhaupt vorhanden? Entspricht er dem erwarteten Typ oder Muster? Muss er vor einer Ausgabe oder Weiterverarbeitung noch bereinigt werden?

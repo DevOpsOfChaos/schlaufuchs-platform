@@ -3,22 +3,12 @@ title: "Lösung – HTML: Fehlermeldungen direkt am Feld verknüpfen"
 description: "Musterlösung zur Aufgabe: Lerne, Fehlermeldungen nicht nur sichtbar zu platzieren, sondern fachlich mit dem betroffenen Eingabefeld zu verbinden."
 subject: "web-development"
 section: "HTML"
-topicPath:
-  - "html"
-  - "formulare-und-eingaben"
-  - "fehlermeldungen-direkt-am-feld-verknuepfen"
+topicPath: ["html", "formulare-und-eingaben", "fehlermeldungen-direkt-am-feld-verknuepfen"]
 taskId: "web-v102-fehlermeldungen-direkt-am-feld-verknuepfen"
 relatedExercise: "web-development/html/formulare-und-eingaben/fehlermeldungen-direkt-am-feld-verknuepfen"
-tags:
-  - "web development"
-  - "html"
-  - "formulare"
-  - "fehlermeldungen"
-  - "aria-describedby"
-  - "lösung"
+tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Meldung sollte direkt am Feld stehen, über aria-describedby verknüpft sein und eine konkrete Handlung nennen, etwa: „Bitte gib eine E-Mail-Adresse ein, damit wir antworten können.“

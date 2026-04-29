@@ -1,35 +1,17 @@
 ---
 title: "Potenzfunktionen"
 description: "Überblick über Potenzfunktionen, Exponenten und typische Graphformen."
-subject: mathematik
+subject: "mathematik"
 section: "Funktionen"
-topicPath:
-  - "potenzfunktionen"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Potenzfunktionen als allgemeinen Begriff einordnen."
-  - "Du kennst Zweck, typische Teilaspekte und Grenzen des Themas."
-  - "Du kannst häufige Missverständnisse erkennen und vermeiden."
+topicPath: ["potenzfunktionen", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig werden Potenz- und Exponentialfunktionen verwechselt, weil beide mit Exponenten geschrieben werden."
-keyTakeaways:
-  - "Potenzfunktionen haben die Form f(x) = a·x^n oder allgemein Varianten mit Potenzen von x."
-  - "Sie bilden eine Grundfamilie von Funktionen, mit der Wachstum, Symmetrie und Krümmung verglichen werden können."
-  - "Potenzfunktionen sind nicht dasselbe wie Exponentialfunktionen. Bei Potenzfunktionen steht die Variable in der Basis, bei Exponentialfunktionen im Exponenten."
-recognizeSignals:
-  - "Es geht um Potenzfunktionen, wenn gerade Exponenten führen oft zu achsensymmetrischen Graphen."
-  - "Das Thema wird relevant, wenn Beispiele wie f(x)=x² ist eine Potenzfunktion, f(x)=2^x eine Exponentialfunktion."
-selfCheckPoints:
-  - "Kann ich Potenzfunktionen in eigenen Worten erklären?"
-  - "Kann ich Zweck, Grenze und ein typisches Beispiel unterscheiden?"
-  - "Kann ich ein häufiges Missverständnis zum Thema benennen?"
-level: einfach
-tags:
-  - "mathematik"
-  - "funktionen"
-  - "potenzen"
-  - "graphen"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["mathematik", "Funktionen"]
 draft: false
 ---
 # Potenzfunktionen

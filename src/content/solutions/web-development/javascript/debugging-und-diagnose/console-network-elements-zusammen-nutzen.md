@@ -3,22 +3,12 @@ title: "Lösung – Console, Network und Elements zusammen nutzen"
 description: "Musterlösung mit fachlicher Begründung zur passenden Web-Development-Aufgabe."
 subject: "web-development"
 section: "JavaScript"
-topicPath:
-  - "javascript"
-  - "debugging-und-diagnose"
-  - "console-network-elements-zusammen-nutzen"
-tags:
-  - "web development"
-  - "javascript"
-  - "debugging"
-  - "devtools"
-  - "diagnose"
-  - "lösung"
+topicPath: ["javascript", "debugging-und-diagnose", "console-network-elements-zusammen-nutzen"]
 taskId: "web-v103-console-network-elements-zusammen-nutzen"
 relatedExercise: "web-development/javascript/debugging-und-diagnose/console-network-elements-zusammen-nutzen"
+tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---
-
 ## Lösung
 
 Zuerst wird das Element geprüft, dann der Event Listener und die Konsole, anschließend die Netzwerkanfrage und zuletzt die sichtbare Statusrückmeldung.

@@ -3,21 +3,12 @@ title: "Lösung – Event Delegation gezielt einsetzen"
 description: "Musterlösung zu event delegation gezielt einsetzen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "web-development"
 section: "Feinstruktur Web Development"
-topicPath:
-  - "javascript"
-  - "dom-und-events"
-  - "event-delegation-gezielt-einsetzen"
+topicPath: ["javascript", "dom-und-events", "event-delegation-gezielt-einsetzen"]
 taskId: "v112-web-development-event-delegation-gezielt-einsetzen"
 relatedExercise: "web-development/javascript/dom-und-events/event-delegation-gezielt-einsetzen"
-tags:
-  - "web-development"
-  - "v112"
-  - "feinstruktur"
-  - "javascript"
-  - "event-delegation-gezielt-einsetzen"
+tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Die Situation gehört zum Unterthema **JavaScript DOM und Events**.

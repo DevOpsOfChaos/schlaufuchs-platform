@@ -3,24 +3,12 @@ title: "Lösung: Tastaturbedienung sicherstellen: Aufgabe B"
 description: "Musterlösung zur Aufgabe web-development-v194-005b im Web-Developmentblock v194."
 subject: "web-development"
 section: "barrierefreiheit-responsive-ux"
-topicPath:
-  - "barrierefreiheit-responsive-ux"
-  - "interaktion-und-fokus"
-  - "tastaturbedienung-sicherstellen"
-  - "loesung-b"
-
+topicPath: ["sanierung-v194", "tastaturbedienung-sicherstellen-loesung-b"]
 taskId: "web-development-v194-005b"
 relatedExercise: "web-development/sanierung-v194/tastaturbedienung-sicherstellen-aufgabe-b"
-tags:
-  - "tastaturbedienung"
-  - "sicherstellen"
-  - "web-development"
-  - "loesung"
-  - "v194"
-
+tags: ["web-development", "barrierefreiheit-responsive-ux", "loesung"]
 draft: false
 ---
-
 ## Musterlösung zu `web-development-v194-005b`
 
 Ausgangsauftrag: Übertrage das Thema Tastaturbedienung sicherstellen auf eine zweite konkrete Seitensituation und formuliere eine kleine Prüfung.

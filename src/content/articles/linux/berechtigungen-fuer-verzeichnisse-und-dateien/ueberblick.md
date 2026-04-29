@@ -1,36 +1,19 @@
 ---
 title: "Berechtigungen für Verzeichnisse und Dateien"
 description: "Berechtigungen für Verzeichnisse und Dateien bezeichnet ein Grundthema im Bereich Shell, Dateisystem, Dienste und Betrieb von Linux-Systemen. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-subject: linux
+subject: "linux"
 section: "Dateien"
-topicPath:
-  - "berechtigungen-fuer-verzeichnisse-und-dateien"
-  - "ueberblick"
-learningGoals:
-  - "Du kannst Berechtigungen für Verzeichnisse und Dateien als allgemeinen Grundbegriff einordnen."
-  - "Du kennst Zweck, Zusammenhang, typische Teilaspekte und Grenzen."
-  - "Du erkennst häufige Missverständnisse, bevor Spezialfälle behandelt werden."
+topicPath: ["berechtigungen-fuer-verzeichnisse-und-dateien", "ueberblick"]
+learningGoals: []
 practiceIdeas: []
-commonMistakes:
-  - "Häufig wird Berechtigungen für Verzeichnisse und Dateien nur als einzelner Arbeitsschritt verstanden, obwohl der Begriff einen größeren Zusammenhang beschreibt."
-keyTakeaways:
-  - "Berechtigungen für Verzeichnisse und Dateien bezeichnet ein Grundthema im Bereich Shell, Dateisystem, Dienste und Betrieb von Linux-Systemen. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen besser zu verstehen."
-  - "Ein Überblick trennt Begriff, Zweck, Beispiel und Grenze."
-  - "Spezialseiten werden verständlicher, wenn die allgemeine Einordnung vorher klar ist."
-recognizeSignals:
-  - "Es geht um Berechtigungen für Verzeichnisse und Dateien, wenn mehrere Einzelbeobachtungen ohne Grundbegriff schwer einzuordnen sind."
-  - "Der Begriff hilft, Werkzeuge, Werte, Regeln oder Darstellungen fachlich zu sortieren."
-selfCheckPoints:
-  - "Kann ich Berechtigungen für Verzeichnisse und Dateien in zwei bis drei Sätzen erklären?"
-  - "Kann ich ein Beispiel und eine typische Grenze nennen?"
-level: einfach
-tags:
-  - "linux"
-  - "rechte"
-  - "dateien"
+commonMistakes: []
+keyTakeaways: []
+recognizeSignals: []
+selfCheckPoints: []
+level: "einfach"
+tags: ["linux", "Dateien"]
 draft: false
 ---
-
 # Berechtigungen für Verzeichnisse und Dateien
 
 ![Schaubild zu Berechtigungen für Dateien und Verzeichnisse.](/schlaufuchs-platform/images/overviews/v148/berechtigungen-fuer-dateien-und-verzeichnisse.svg)

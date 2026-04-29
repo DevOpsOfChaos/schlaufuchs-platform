@@ -1,22 +1,12 @@
 ---
-title: Musterlösung – Double Delete im Ablauf prüfen
-description: Musterlösung zur Aufgabe INF-PROG-CPP-MEM-005.
-subject: informatik
-section: Programmierung
-topicPath:
-  - programmierung
-  - cpp
-  - dynamischer-speicher
-  - double-delete-als-fehlerbild-erkennen
-  - double-delete-im-ablauf-pruefen-loesung
-taskId: INF-PROG-CPP-MEM-005
-relatedExercise: src/content/exercises/informatik/programmierung/cpp/double-delete-als-fehlerbild-erkennen/double-delete-im-ablauf-pruefen.md
-tags:
-  - informatik
-  - programmierung
-  - cpp
-  - loesung
-  - task-id
+title: "Musterlösung – Double Delete im Ablauf prüfen"
+description: "Musterlösung zur Aufgabe INF-PROG-CPP-MEM-005."
+subject: "informatik"
+section: "Programmierung"
+topicPath: ["programmierung", "cpp", "double-delete-als-fehlerbild-erkennen", "double-delete-im-ablauf-pruefen"]
+taskId: "INF-PROG-CPP-MEM-005"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/double-delete-als-fehlerbild-erkennen/double-delete-im-ablauf-pruefen.md"
+tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---
 ## Aufgabe 1: Bereiche zählen

@@ -1,36 +1,17 @@
 ---
 title: "Aufgabe: Reset-Pin störsicher beschalten"
 description: "Trainiere Reset-Pin störsicher beschalten an einem kleinen, klar abgegrenzten Fall."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
-topicPath:
-  - "mikrocontroller-praxis-v115"
-  - "eingang-ausgang-pegel"
-  - "reset-pin-stoersicher-beschalten-v115"
+topicPath: ["mikrocontroller-praxis-v115", "eingang-ausgang-pegel", "reset-pin-stoersicher-beschalten-v115"]
 taskId: "elektrotechnik-reset-pin-stoersicher-beschalten-v115"
-tags:
-  - "elektrotechnik"
-  - "feinstruktur"
-  - "unterthema"
-  - "mikrocontroller-praxis"
-  - "eingang, ausgang, pegel"
-  - "aufgabe"
-hintPoints:
-  - "Grenze zuerst den kleinen Fall vom breiten Themenfeld ab."
-  - "Nutze die Prüffrage: Ist der Reset-Pin elektrisch stabil geführt?"
-  - "Begründe mit zwei konkreten Hinweisen aus dem Fall."
-selfCheckPoints:
-  - "Kann ich das Unterthema in einem Satz benennen?"
-  - "Kann ich sagen, womit es leicht verwechselt wird?"
-  - "Kann ich eine Gegenprobe formulieren?"
-transferIdeas:
-  - "Übertrage dieselbe Trennkante auf ein eigenes Mini-Beispiel."
-  - "Formuliere einen Gegenfall, der ähnlich aussieht, aber anders entschieden wird."
-reflectionPrompt: "Was war bei „Reset-Pin störsicher beschalten“ die wichtigste Trennkante?"
-level: mittel
+tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "mittel"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite den folgenden Fall zu **Reset-Pin störsicher beschalten**.

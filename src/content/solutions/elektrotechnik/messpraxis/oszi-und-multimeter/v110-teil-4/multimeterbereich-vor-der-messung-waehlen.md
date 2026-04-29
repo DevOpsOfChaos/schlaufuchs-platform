@@ -3,23 +3,12 @@ title: "Lösung – Multimeterbereich vor der Messung wählen"
 description: "Musterlösung zu Multimeterbereich vor der Messung wählen mit Einordnung, Abgrenzung und Gegenprobe."
 subject: "elektrotechnik"
 section: "Messpraxis"
-topicPath:
-  - "messpraxis"
-  - "oszi-und-multimeter"
-  - "v110-teil-4"
-  - "multimeterbereich-vor-der-messung-waehlen"
+topicPath: ["messpraxis", "oszi-und-multimeter", "v110-teil-4", "multimeterbereich-vor-der-messung-waehlen"]
 taskId: "v110-elektrotechnik-multimeterbereich-vor-der-messung-waehlen"
 relatedExercise: "elektrotechnik/messpraxis/oszi-und-multimeter/v110-teil-4/multimeterbereich-vor-der-messung-waehlen"
-tags:
-  - "elektrotechnik"
-  - "messen"
-  - "praxis"
-  - "messpraxis"
-  - "oszi-und-multimeter"
-  - "multimeterbereich-vor-der-messung-waehlen"
+tags: ["elektrotechnik", "Messpraxis", "loesung"]
 draft: false
 ---
-
 ## Musterlösung
 
 Das Szenario gehört zum Unterthema **Multimeterbereich vor der Messung wählen**.

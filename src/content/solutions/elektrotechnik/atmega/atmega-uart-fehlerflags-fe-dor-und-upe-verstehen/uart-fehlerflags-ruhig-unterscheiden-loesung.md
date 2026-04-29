@@ -1,24 +1,14 @@
 ---
-title: Musterlösung – UART-Fehlerflags ruhig unterscheiden
-description: Musterlösung zur Aufgabe ET-ATMEGA-UART-306.
-subject: elektrotechnik
-section: mikrocontroller-und-atmega
-topicPath:
-  - mikrocontroller-und-atmega
-  - serielle-kommunikation
-  - atmega-uart-fehlerflags-fe-dor-und-upe-verstehen
-  - uart-fehlerflags-ruhig-unterscheiden-loesung
-taskId: ET-ATMEGA-UART-306
-relatedExercise: src/content/exercises/elektrotechnik/atmega/atmega-uart-fehlerflags-fe-dor-und-upe-verstehen/uart-fehlerflags-ruhig-unterscheiden.md
-tags:
-  - elektrotechnik
-  - mikrocontroller
-  - atmega
-  - uart
-  - loesung
+title: "Musterlösung – UART-Fehlerflags ruhig unterscheiden"
+description: "Musterlösung zur Aufgabe ET-ATMEGA-UART-306."
+subject: "elektrotechnik"
+section: "mikrocontroller-und-atmega"
+topicPath: ["atmega", "atmega-uart-fehlerflags-fe-dor-und-upe-verstehen", "uart-fehlerflags-ruhig-unterscheiden"]
+taskId: "ET-ATMEGA-UART-306"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-uart-fehlerflags-fe-dor-und-upe-verstehen/uart-fehlerflags-ruhig-unterscheiden.md"
+tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---
-
 ## Aufgabe 1
 
 - **FE** bedeutet Framing Error. Der empfangene Zeichenrahmen passt nicht sauber zur erwarteten Struktur.

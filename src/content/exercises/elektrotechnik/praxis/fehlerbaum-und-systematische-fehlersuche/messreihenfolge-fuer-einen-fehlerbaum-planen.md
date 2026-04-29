@@ -1,28 +1,17 @@
 ---
 title: "Messreihenfolge für einen Fehlerbaum planen"
 description: "Plane eine ruhige Reihenfolge, um einen unklaren Schaltungsfehler einzugrenzen."
-subject: elektrotechnik
+subject: "elektrotechnik"
 section: "Praxis"
-topicPath:
-  - praxis
-  - fehlerbaum-und-systematische-fehlersuche
-taskId: ET-V182-002
-tags:
-  - elektrotechnik
-  - fehlerbaum-und-systematische-fehlersuche
-  - sanierung-v182
-hintPoints:
-  - "Lies zuerst den Normalzustand und danach den Fehlerfall."
-  - "Trenne Beobachtung, Vermutung und Gegenprobe."
-selfCheckPoints:
-  - "Ich kann die Entscheidung fachlich begründen."
-  - "Ich nenne mindestens eine typische Fehlerquelle."
-transferIdeas:
-  - "Übertrage die Prüflogik auf eine zweite ähnliche Schaltung."
-level: einfach
+topicPath: ["praxis", "fehlerbaum-und-systematische-fehlersuche", "messreihenfolge-fuer-einen-fehlerbaum-planen"]
+taskId: "ET-V182-002"
+tags: ["elektrotechnik", "Praxis", "aufgabe"]
+hintPoints: []
+selfCheckPoints: []
+transferIdeas: []
+level: "einfach"
 draft: false
 ---
-
 ## Aufgabe
 
 Bearbeite die Situation zu **Fehlerbaum und systematische Fehlersuche** ruhig und schrittweise.
