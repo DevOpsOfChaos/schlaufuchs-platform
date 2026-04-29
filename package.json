@@ -29,6 +29,6 @@
     "schlaufuchs"
   ],
   "dependencies": {
-    "astro": "^6.1.7"
+    "astro": "^6.1.10"
   }
 }
