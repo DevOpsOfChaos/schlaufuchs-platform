@@ -1,0 +1,21 @@
+{
+  "version": "v196",
+  "ok": true,
+  "zip": "schlaufuchs_v196_mathematik_modellieren_analysis_kumulativ.zip",
+  "base": "schlaufuchs_v195_daten_signale_signalverarbeitung_kumulativ.zip",
+  "newFiles": 196,
+  "counts": {
+    "articles": 32,
+    "exercises": 64,
+    "solutions": 64,
+    "svgs": 32
+  },
+  "checks": [
+    "frontmatter",
+    "taskId pairing",
+    "relatedExercise targets",
+    "SVG XML parse",
+    "mojibake marker scan",
+    "duplicate new path scan"
+  ]
+}

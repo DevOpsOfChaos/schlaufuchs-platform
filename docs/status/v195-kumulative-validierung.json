@@ -1,0 +1,21 @@
+{
+  "version": "v195",
+  "ok": true,
+  "zip": "schlaufuchs_v195_daten_signale_signalverarbeitung_kumulativ.zip",
+  "totalFilesBeforeValidationFile": 1719,
+  "newFilesBeforeValidationFile": 195,
+  "newCounts": {
+    "articles": 32,
+    "exercises": 64,
+    "solutions": 64,
+    "svgs": 32
+  },
+  "checks": [
+    "new markdown frontmatter present",
+    "new exercise solution taskId pairing",
+    "new relatedExercise targets exist",
+    "new SVG XML parseable",
+    "new mojibake marker scan",
+    "zip duplicate filename scan"
+  ]
+}

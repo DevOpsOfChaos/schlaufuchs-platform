@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Karten und Listen vergleichen</title>
+  <desc id="desc">Ruhige didaktische Skizze zum Web-Development-Thema Karten und Listen vergleichen.</desc>
+  <rect width="720" height="360" rx="28" fill="hsl(57, 42%, 96%)"/>
+  <rect x="46" y="46" width="628" height="268" rx="22" fill="white" stroke="hsl(57, 38%, 70%)" stroke-width="3"/>
+  <path d="M88 105h544M88 154h280M88 203h430M88 252h338" stroke="hsl(57, 42%, 48%)" stroke-width="14" stroke-linecap="round" opacity="0.28"/>
+  <circle cx="590" cy="142" r="42" fill="hsl(57, 48%, 72%)" opacity="0.55"/>
+  <path d="M570 142l14 14 30-34" fill="none" stroke="hsl(57, 60%, 32%)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="96" y="282" width="148" height="18" rx="9" fill="hsl(57, 48%, 68%)" opacity="0.55"/>
+  <text x="96" y="82" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="hsl(57, 45%, 28%)">Karten und Listen vergleichen</text>
+  <text x="96" y="330" font-family="Arial, sans-serif" font-size="16" fill="hsl(57, 30%, 38%)">content-und-navigation</text>
+</svg>

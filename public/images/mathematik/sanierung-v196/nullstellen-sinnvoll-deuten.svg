@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+<title>Nullstellen sinnvoll deuten</title>
+<desc>Ruhige Mathematik-Skizze zu Nullstellen sinnvoll deuten.</desc>
+<rect width="640" height="360" rx="28" fill="#fff7ed"/>
+<rect x="46" y="44" width="548" height="272" rx="24" fill="#ffffff" stroke="#f59e0b" stroke-width="4"/>
+<path d="M98 262H542" stroke="#7c2d12" stroke-width="5" stroke-linecap="round"/>
+<path d="M112 262V84" stroke="#7c2d12" stroke-width="5" stroke-linecap="round"/>
+<path d="M126 227 C210 133.5 270 277 348 179.0 S488 132.5 530 133.0" fill="none" stroke="#ea580c" stroke-width="8" stroke-linecap="round"/>
+<circle cx="348" cy="179.0" r="12" fill="#fb923c"/>
+<rect x="126" y="88" width="170" height="34" rx="17" fill="#ffedd5"/>
+<text x="146" y="111" font-family="Arial, sans-serif" font-size="18" fill="#7c2d12">funktionen im vergleich</text>
+<text x="126" y="308" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#7c2d12">Nullstellen sinnvoll deuten</text>
+</svg>

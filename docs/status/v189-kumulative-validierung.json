@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "errors": [],
+  "errorCount": 0,
+  "counts": {
+    "articles_v188": 35,
+    "exercises_v188": 70,
+    "solutions_v188": 70,
+    "svgs_v188": 35,
+    "articles_v189": 30,
+    "exercises_v189": 60,
+    "solutions_v189": 60,
+    "svgs_v189": 30
+  },
+  "totalFiles": 591,
+  "baseZip": "schlaufuchs_v187_web_development_sanierung.zip",
+  "outputZip": "schlaufuchs_v189_daten_signale_sanierung_kumulativ.zip"
+}

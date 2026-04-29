@@ -1,0 +1,47 @@
+---
+title: "Lösung: Semantik und Landmarks: Prüfung und Verbesserung"
+description: "Musterlösung zur Aufgabe web-v187-003b im Web-Development-Block v187."
+subject: "web-development"
+section: "html"
+topicPath: 
+  - "html-und-semantik"
+  - "landmarks"
+  - "loesung-b"
+taskId: "web-v187-003b"
+relatedExercise: "web-development/sanierung-v187/semantik-und-landmarks-aufgabe-b"
+tags: 
+  - "html"
+  - "semantik"
+  - "landmarks"
+  - "barrierefreiheit"
+  - "web-development"
+  - "loesung"
+  - "v187"
+draft: false
+---
+
+## Musterlösung zu `web-v187-003b`
+
+    Ausgangsauftrag: Überarbeite eine div-lastige Seitenstruktur zu einer lesbaren Landmark-Struktur.
+
+    Eine mögliche Lösung ist:
+
+    1. Der Zweck wird zuerst auf Bedeutung von Seitenteilen eingegrenzt.
+2. Die beteiligten Inhalte oder Dateien werden sichtbar getrennt.
+3. Jede Entscheidung bekommt eine kurze Begründung statt nur eine optische Wirkung.
+4. Eine typische Fehlerquelle wird geprüft und vermieden.
+5. Die überarbeitete Fassung nennt zusätzlich, was vorher unklar war und warum die neue Ordnung stabiler ist.
+
+    ## Beispielhafte Auswertung
+
+    - **Rolle:** Bedeutung von Seitenteilen
+    - **wichtiger Kontrollpunkt:** Semantik ist passend, wenn ein Screenreader, ein Suchsystem und ein Mensch die gleiche Grundstruktur erkennen können.
+    - **häufige Fehlerquelle:** Jeder Bereich wird als div gebaut.
+
+    ## Begründung
+
+    Die Lösung ist ausreichend, wenn sie nicht nur das Endergebnis nennt, sondern die Entscheidung sichtbar macht. Bei Web-Development-Aufgaben zählt besonders, ob HTML-Struktur, CSS-Gestaltung, JavaScript-Verhalten und Projektorganisation sauber getrennt wurden.
+
+    ## Selbstkontrolle
+
+    Prüfe zuletzt, ob deine Lösung zur Aufgabe `web-development/sanierung-v187/semantik-und-landmarks-aufgabe-b` passt, ob der Bezug zur Aufgabe erhalten bleibt und ob die gewählte Struktur auch für eine zweite ähnliche Seite verständlich wäre.

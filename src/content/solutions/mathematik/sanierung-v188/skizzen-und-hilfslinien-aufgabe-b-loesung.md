@@ -1,0 +1,40 @@
+---
+title: "Lösung: Skizzen und Hilfslinien: Prüfen und Begründen"
+description: "Musterlösung zur Aufgabe mat-v188-028b."
+subject: "mathematik"
+section: "geometrie-messen-und-begruenden"
+topicPath:
+  - "geometrie-messen-und-begruenden"
+  - "skizzen-und-hilfslinien"
+  - "loesung-b"
+taskId: "mat-v188-028b"
+relatedExercise: "mathematik/sanierung-v188/skizzen-und-hilfslinien-aufgabe-b"
+tags:
+  - "skizze"
+  - "hilfslinie"
+  - "begruendung"
+  - "mathematik"
+  - "loesung"
+  - "v188"
+draft: false
+---
+
+## Musterlösung zu `mat-v188-028b`
+
+Die Aussage ist **nicht tragfähig**. Ein plausibel wirkendes Ergebnis ersetzt keine Begründung.
+
+Zwei fachliche Argumente:
+
+1. Ohne Zwischenschritte lässt sich nicht prüfen, ob die richtigen Informationen verwendet wurden.
+2. Ein Ergebnis kann zufällig passend wirken, obwohl ein Begriff, eine Einheit oder eine Bedingung falsch behandelt wurde.
+
+Eine bessere Arbeitsregel lautet:
+
+> Ein Ergebnis ist erst dann belastbar, wenn der Weg dorthin nachvollziehbar und kontrollierbar ist.
+
+Ein konkreter Kontrollpunkt: Prüfe, ob jeder wichtige Schritt eine kurze Begründung hat. Fehlt diese Begründung, ist die Lösung noch nicht sauber abgeschlossen.
+
+## Selbstkontrolle
+
+Die Antwort ist vollständig, wenn sie Entscheidung, Begründung, bessere Regel und Kontrollpunkt enthält.
+

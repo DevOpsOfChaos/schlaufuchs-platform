@@ -1,0 +1,38 @@
+---
+title: "Lösung: Datenschutz bei Messdaten: Grundordnung"
+description: "Musterlösung zur Aufgabe dat-v189-059a."
+subject: "daten-und-signale"
+section: "systeme"
+topicPath:
+  - "systeme"
+  - "datenschutz-bei-messdaten"
+  - "loesung-a"
+taskId: "dat-v189-059a"
+relatedExercise: "daten-und-signale/sanierung-v189/datenschutz-bei-messdaten-aufgabe-a"
+tags:
+  - "datenschutz"
+  - "messdaten"
+  - "system"
+  - "daten-und-signale"
+  - "loesung"
+  - "v189"
+draft: false
+---
+
+## Musterlösung zu `dat-v189-059a`
+
+Eine mögliche Lösung:
+
+1. **Zweck:** Messdaten können Rückschlüsse auf Personen oder Verhalten ermöglichen
+2. **Prüffrage 1:** Welche Informationen sind gegeben und welche fehlen?
+3. **Prüffrage 2:** Welche Begriffe oder Regeln passen wirklich zur Situation?
+4. **Prüffrage 3:** Woran erkenne ich, ob das Ergebnis plausibel ist?
+
+Ein kleines Beispiel kann so aussehen: Du beschreibst zuerst die Ausgangslage, markierst die entscheidenden Informationen und formulierst danach den nächsten Schritt. Ein Gegenbeispiel wäre, sofort eine Antwort zu nennen, ohne zu zeigen, warum sie passt.
+
+Typischer Fehler: Man verwechselt eine sichtbare Darstellung mit einer fachlichen Begründung. Dadurch wirkt die Lösung vollständig, obwohl der entscheidende Nachweis fehlt.
+
+## Selbstkontrolle
+
+Die Lösung ist tragfähig, wenn Zweck, Prüffragen, Beispiel und Fehlerquelle getrennt erkennbar sind.
+
