@@ -16,8 +16,6 @@ draft: false
 ---
 ## Grundidee
 
-Lerne, warum fetch bei HTTP-Fehlerstatus nicht automatisch in catch springt und wie du Rückmeldungen sauber planst. Diese Seite behandelt das Thema als praktische Entscheidung im Webprojekt: Was sehen Nutzerinnen und Nutzer, was passiert technisch im Hintergrund und wie bleibt die Lösung später wartbar?
-
 <div class="example-card">
   <p class="card-kicker">Leitbeispiel</p>
   <h3>JavaScript – Fetch-Status und Netzwerkfehler trennen</h3>
@@ -58,8 +56,6 @@ if (!response.ok) {
 }
 const data = await response.json();
 ```
-
-Die Demo ist bewusst klein. Sie zeigt nicht die gesamte fertige Anwendung, sondern den entscheidenden Gedanken: erst die Zuständigkeit klären, dann die technische Umsetzung passend wählen.
 
 ## Schwach oder sauber?
 

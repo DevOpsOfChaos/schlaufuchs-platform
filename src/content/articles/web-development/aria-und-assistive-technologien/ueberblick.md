@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt, wie Rollen und Zustände zusätzliche Bedeutung transportieren.*
 
 
-
 ARIA ist eine Sammlung von Attributen, mit denen Rollen, Zustände und Beziehungen für assistive Technologien beschrieben werden können.
 
 ARIA wird wichtig, wenn native HTML-Semantik nicht ausreicht, etwa bei komplexen interaktiven Komponenten.

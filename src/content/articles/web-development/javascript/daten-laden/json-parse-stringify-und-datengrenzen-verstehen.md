@@ -85,8 +85,6 @@ Der Code ist am besten lesbar, wenn Auswahl, Entscheidung und Wirkung nicht unn�
 
 ## Abgrenzung
 
-Diese Seite erkl채rt bewusst einen einzelnen Browser-Baustein. Sie ersetzt keine vollst채ndige JavaScript-Einf체hrung und keine Framework-Schulung. Der Schwerpunkt liegt darauf, kleine DOM-, Formular-, Daten- und Zustandsentscheidungen stabil zu lesen.
-
 <div class="note-panel">
   <p><strong>Merke:</strong> Guter JavaScript-Code im Browser ist nicht nur syntaktisch korrekt. Er erkl채rt durch seine Struktur, worauf reagiert wird, was passieren soll und wie Nutzerinnen und Nutzer R체ckmeldung bekommen.</p>
 </div>

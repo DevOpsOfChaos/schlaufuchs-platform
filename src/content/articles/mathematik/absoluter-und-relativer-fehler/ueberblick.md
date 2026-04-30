@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Abweichung als Betrag und als Verhältnis zur Bezugsgröße.*
 
 
-
 Der absolute Fehler beschreibt die Differenz zwischen einem gemessenen oder geschätzten Wert und einem Bezugswert. Der relative Fehler setzt diese Differenz ins Verhältnis zur Größe des Bezugswertes.
 
 Fehlerangaben helfen, Messungen und Rechnungen nicht genauer erscheinen zu lassen, als sie tatsächlich sind.

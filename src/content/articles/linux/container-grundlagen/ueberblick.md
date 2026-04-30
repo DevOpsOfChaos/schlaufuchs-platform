@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet Image, Container und Host-Ressourcen ein.*
 
 
-
 Container verpacken Anwendungen mit ihrer Laufzeitumgebung in eine isolierte Ausführungseinheit. Sie nutzen Funktionen des Linux-Kernels.
 
 ## Einordnung

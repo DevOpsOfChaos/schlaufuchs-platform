@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet Signal, Filter und gewünschte Ausgangsanteile ein.*
 
 
-
 Ein elektronischer Filter verändert Signale abhängig von ihrer Frequenz. Bestimmte Signalanteile werden stärker durchgelassen, andere gedämpft.
 
 Filter werden eingesetzt, um Messwerte zu beruhigen, Störungen zu verringern, Frequenzbereiche auszuwählen oder Signale für weitere Verarbeitung vorzubereiten.

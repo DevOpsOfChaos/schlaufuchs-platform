@@ -67,8 +67,6 @@ Sofort lesen              → erster Wert kann noch Übergangsanteile tragen
 Kurz warten oder verwerfen→ danach wird der Wert ruhiger</code></pre>
 </div>
 
-## Diese Seite erklärt bewusst die Messquelle, nicht die Referenz
-
 Hier geht es nicht darum, worauf sich der ADC-Wert **bezieht**. Das ist die Referenzfrage. Hier geht es darum, **wie der Eingangswert überhaupt sauber in die Wandlung hinein gelangt**.
 
 ## Eine ruhige Prüfstrategie

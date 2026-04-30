@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild verbindet Identität, Prüfung, Rechte und Zugriff.*
 
 
-
 ## Grundbegriffe
 Sicherheit in Softwaresystemen betrifft Schutz vor ungewolltem Zugriff, Veränderung, Ausfall und Missbrauch. Authentifizierung prüft, wer eine Person oder ein System ist. Autorisierung entscheidet, welche Aktionen danach erlaubt sind.
 

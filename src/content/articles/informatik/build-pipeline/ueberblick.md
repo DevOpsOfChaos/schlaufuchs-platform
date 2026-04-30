@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt typische Stationen vom Quellcode zum auslieferbaren Artefakt.*
 
 
-
 Eine Build-Pipeline beschreibt die geordnete Abfolge von Schritten, mit denen Quellcode geprüft, übersetzt, gebündelt und für die Auslieferung vorbereitet wird.
 
 Moderne Projekte benötigen oft mehrere Schritte: Abhängigkeiten installieren, Code generieren, Tests ausführen, Assets bauen und Artefakte veröffentlichen.

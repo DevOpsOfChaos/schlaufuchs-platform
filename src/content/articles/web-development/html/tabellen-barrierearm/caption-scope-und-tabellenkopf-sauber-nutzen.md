@@ -49,21 +49,6 @@ Lerne, Datentabellen so auszuzeichnen, dass Überschriften, Bedeutung und Datenb
 
 ## Mini-Demo
 
-<div class="figure-card">
-  <p class="card-kicker">Codeblick</p>
-  <h3>Eine kleine, aber entscheidende Struktur</h3>
-  <pre><code><table>
-  <caption>Vergleich der Tarife</caption>
-  <thead>
-    <tr><th scope="col">Tarif</th><th scope="col">Preis</th></tr>
-  </thead>
-  <tbody>
-    <tr><th scope="row">Basis</th><td>9 €</td></tr>
-  </tbody>
-</table></code></pre>
-  <p>Die Demo ist bewusst klein. Sie zeigt nicht jedes Detail, sondern den didaktischen Kern: erst Bedeutung klären, dann Code schreiben.</p>
-</div>
-
 ## Schwache und bessere Lesart
 
 <div class="compare-card">
@@ -90,8 +75,6 @@ Lerne, Datentabellen so auszuzeichnen, dass Überschriften, Bedeutung und Datenb
 5. Bleibt der Code wartbar, ohne Spezialtricks zu stapeln?
 
 ## Abgrenzung
-
-Diese Seite erklärt einfache Datentabellen. Komplexe Tabellen mit mehrstufigen Kopfbereichen brauchen weitere Muster wie headers und id. Dadurch bleibt die Seite klar: Sie erklärt eine konkrete Entscheidung und vermischt sie nicht mit allen Nachbarthemen.
 
 <div class="note-panel">
   <p><strong>Merke:</strong> Gute Weboberflächen entstehen selten durch einen einzelnen Trick. Sie entstehen, wenn Inhalt, Semantik, Gestaltung und Verhalten dieselbe Aussage stützen.</p>

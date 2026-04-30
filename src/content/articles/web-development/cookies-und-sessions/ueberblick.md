@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt, wie Browser und Server Zustände wiedererkennen.*
 
 
-
 HTTP ist grundsätzlich zustandslos: Jede Anfrage steht zunächst für sich. Cookies ermöglichen, kleine Informationen im Browser zu speichern und bei passenden Anfragen wieder mitzuschicken. Sessions nutzen häufig ein Cookie mit einer Kennung, während die eigentlichen Sitzungsdaten serverseitig liegen.
 
 ## Einordnung

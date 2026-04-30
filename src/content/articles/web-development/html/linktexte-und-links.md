@@ -75,8 +75,6 @@ Ein Link ist am hilfreichsten, wenn sein Zweck aus dem Text deutlich wird.
   </div>
 </div>
 
-## Diese Seite behandelt bewusst nur einzelne Linktexte
-
 Die **Struktur ganzer Menüs** ist eine andere Frage. Dort geht es um Hierarchie, Hauptpunkte und Erreichbarkeit. Diese Seite bleibt bewusst bei der kleineren Einheit: **dem einzelnen Linktext**.
 
 ## Gute und schwache Linktexte

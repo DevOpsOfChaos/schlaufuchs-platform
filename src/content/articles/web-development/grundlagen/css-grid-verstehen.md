@@ -94,8 +94,6 @@ Beispiel:
 - auf großen Breiten 3 Spalten,
 - auf kleinen Breiten 1 Spalte.
 
-Dadurch bleibt die Seite ruhig und lesbar.
-
 ## Grid ist nicht einfach „nur hübscher“
 
 Grid löst ein strukturelles Problem:

@@ -80,8 +80,6 @@ Die erste Form zeigt meist Objektbezug. Die zweite Form zeigt meist Klassenbezug
   </div>
 </div>
 
-## Diese Seite behandelt bewusst Methoden und nicht den Zugriff auf statische Daten
-
 Ob eine Methode statisch ist, ist eine andere Frage als die, wie auf einen statischen Member ueber Klasse oder Objekt zugegriffen wird. Dort geht es mehr um **gemeinsame Daten und Schreibweisen**. Hier geht es zuerst um **Methodenrolle und Objektbezug**.
 
 ## Ruhige Pruefstrategie

@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild vergleicht Strom- und Spannungsverteilung in beiden Grundformen.*
 
 
-
 Serien- und Parallelschaltungen gehören zu den Grundformen elektrischer Netzwerke. Sie beschreiben, ob Bauteile hintereinander im selben Strompfad liegen oder ob sich der Strom auf mehrere Zweige aufteilen kann.
 
 ## Bedeutung

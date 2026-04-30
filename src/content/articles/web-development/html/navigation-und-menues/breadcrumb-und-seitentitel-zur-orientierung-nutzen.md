@@ -43,8 +43,6 @@ Gute Navigation besteht nicht nur aus Menüpunkten. Eine Seite braucht auch eine
 <h1>Formulare verständlich strukturieren</h1>
 ```
 
-Das Beispiel ist bewusst klein. Es zeigt nicht jede mögliche Sonderregel, sondern den Kern der Entscheidung. Genau dadurch lässt sich die Idee auf echte Projekte übertragen.
-
 <div class="compare-card">
   <p class="card-kicker">Gut gegen schwach</p>
   <h3>Woran du die Qualität erkennst</h3>

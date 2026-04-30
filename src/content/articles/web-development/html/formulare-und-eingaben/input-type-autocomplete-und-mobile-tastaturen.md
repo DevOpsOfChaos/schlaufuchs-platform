@@ -55,11 +55,6 @@ Verstehe, wie Eingabetypen, autocomplete und Tastaturlayouts Formulare verständ
   <pre><code>&lt;label for=&quot;mail&quot;&gt;E-Mail&lt;/label&gt;
 &lt;input id=&quot;mail&quot; name=&quot;email&quot; type=&quot;email&quot; autocomplete=&quot;email&quot;&gt;
 
-&lt;label for=&quot;plz&quot;&gt;Postleitzahl&lt;/label&gt;
-&lt;input id=&quot;plz&quot; name=&quot;postal-code&quot; inputmode=&quot;numeric&quot; autocomplete=&quot;postal-code&quot;&gt;</code></pre>
-  <p>Die Demo ist bewusst klein. Sie zeigt den Kern der Entscheidung und vermeidet Nebenthemen, die auf eigene Seiten gehören.</p>
-</div>
-
 ## Schwache und bessere Lesart
 
 <div class="compare-card">
@@ -86,8 +81,6 @@ Verstehe, wie Eingabetypen, autocomplete und Tastaturlayouts Formulare verständ
 5. Gibt es einen einfacheren Weg mit weniger Sonderregeln?
 
 ## Abgrenzung
-
-Diese Seite erklärt eine konkrete Webentscheidung. Sie ersetzt keine vollständige Designsystem-Dokumentation und keine Sicherheitsprüfung. Dadurch bleibt der Lernfokus klar: erst fachlich sauber entscheiden, dann die passende Technik einsetzen.
 
 <div class="note-panel">
   <p><strong>Merke:</strong> Gute Webentwicklung verbindet sichtbare Sprache, Semantik, Gestaltung und Verhalten. Wenn eine dieser Ebenen widerspricht, fühlt sich die Oberfläche schnell unsicher an.</p>

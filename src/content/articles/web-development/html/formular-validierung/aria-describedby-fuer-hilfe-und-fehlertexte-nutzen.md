@@ -49,16 +49,6 @@ Verstehe, wie Hilfetexte und Fehlermeldungen über aria-describedby zuverlässig
 
 ## Mini-Demo
 
-<div class="figure-card">
-  <p class="card-kicker">Codeblick</p>
-  <h3>Eine kleine Struktur, die viel erklärt</h3>
-  <pre><code>&lt;label for=&quot;pw&quot;&gt;Passwort&lt;/label&gt;
-&lt;input id=&quot;pw&quot; type=&quot;password&quot; aria-describedby=&quot;pw-help pw-error&quot; aria-invalid=&quot;true&quot;&gt;
-&lt;p id=&quot;pw-help&quot;&gt;Mindestens 12 Zeichen.&lt;/p&gt;
-&lt;p id=&quot;pw-error&quot;&gt;Das Passwort ist noch zu kurz.&lt;/p&gt;</code></pre>
-  <p>Die Demo ist bewusst klein. Sie zeigt den Kern der Entscheidung und vermeidet Nebenthemen, die auf eigene Seiten gehören.</p>
-</div>
-
 ## Schwache und bessere Lesart
 
 <div class="compare-card">
@@ -85,8 +75,6 @@ Verstehe, wie Hilfetexte und Fehlermeldungen über aria-describedby zuverlässig
 5. Gibt es einen einfacheren Weg mit weniger Sonderregeln?
 
 ## Abgrenzung
-
-Diese Seite erklärt eine konkrete Webentscheidung. Sie ersetzt keine vollständige Designsystem-Dokumentation und keine Sicherheitsprüfung. Dadurch bleibt der Lernfokus klar: erst fachlich sauber entscheiden, dann die passende Technik einsetzen.
 
 <div class="note-panel">
   <p><strong>Merke:</strong> Gute Webentwicklung verbindet sichtbare Sprache, Semantik, Gestaltung und Verhalten. Wenn eine dieser Ebenen widerspricht, fühlt sich die Oberfläche schnell unsicher an.</p>

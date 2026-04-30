@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild verbindet DOM, semantische Rollen und Screenreader-Ausgabe.*
 
 
-
 Der Accessibility Tree ist eine vom Browser bereitgestellte Struktur, über die assistive Technologien Webseiten verstehen.
 
 Diese Überblicksseite ordnet das Thema ruhig und allgemein ein. Sie ist als Einstieg gedacht, bevor einzelne Spezialfälle, Aufgaben oder konkrete Werkzeuge betrachtet werden.

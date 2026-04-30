@@ -91,10 +91,6 @@ Die ruhige Lesart lautet:
 - beim Drücken wird der Eingang auf 0 gezogen,
 - deshalb bedeutet **0 hier: Taster ist aktiv**.
 
-## Diese Seite behandelt bewusst die Grundidee, nicht schon Entprellung
-
-Hier geht es um **definierte Eingangspegel** und den internen Pull-up. Themen wie Entprellung, Interrupts oder Zustandsautomaten gehören auf eigene Seiten, damit nicht alles in eine einzige „Tastergeschichte“ kippt.
-
 ## Eine ruhige Prüfstrategie
 
 1. Ist der Pin wirklich als Eingang konfiguriert?

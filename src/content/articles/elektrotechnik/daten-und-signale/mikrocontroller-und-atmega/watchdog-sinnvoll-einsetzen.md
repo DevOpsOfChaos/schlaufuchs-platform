@@ -94,8 +94,6 @@ Ein Watchdog-Konzept braucht nicht nur einen Timeout, sondern auch eine Antwort 
 
 ## Abgrenzung zu Nachbarseiten
 
-Diese Seite behandelt den Watchdog als Robustheitsbaustein. Details zu Reset und Brown-out gehören auf die Startverhalten-Seite; blockierende Delays und Zustandsmaschinen werden separat erklärt.
-
 <div class="note-panel">
   <p><strong>Merke:</strong> Ein Watchdog ist dann stark, wenn sein Zurücksetzen echten Programmfortschritt bedeutet.</p>
 </div>

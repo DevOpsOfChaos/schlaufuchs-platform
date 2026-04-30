@@ -94,8 +94,6 @@ if (PINB & (1 << PB1)) {
 
 Hier wird nicht gesetzt, sondern abgefragt. `PINB` ist also die ruhige Antwort auf die Frage: **Was liegt gerade wirklich am Pin an?**
 
-## Diese Seite behandelt bewusst Grund-I/O, nicht schon Timer oder Interrupts
-
 Hier geht es nur um die **digitale Grundsteuerung von Pins**. Sobald Zeitbasis, Interruptquellen oder spezielle Peripherie dazukommen, beginnt eine andere Geschichte.
 
 ## Eine ruhige Prüfstrategie

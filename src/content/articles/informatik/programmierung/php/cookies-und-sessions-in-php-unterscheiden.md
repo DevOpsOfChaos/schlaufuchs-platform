@@ -68,8 +68,6 @@ Das bedeutet:
   </div>
 </div>
 
-## Diese Seite behandelt bewusst die Rollen und nicht den kompletten Logout Ablauf
-
 Hier geht es um die Trennung von Cookie und Session. Das saubere Beenden einer Session mit Daten, ID und Cookie ist bereits ein eigenes Aufraeumthema.
 
 ## Ruhige Pruefstrategie

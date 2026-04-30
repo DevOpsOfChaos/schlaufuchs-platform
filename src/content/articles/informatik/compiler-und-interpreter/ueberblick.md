@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild vergleicht Übersetzen vorab und Ausführen zur Laufzeit.*
 
 
-
 Compiler und Interpreter sind Werkzeuge oder Laufzeitmodelle, mit denen Programmcode ausführbar wird. Ein Compiler übersetzt Code typischerweise vor der Ausführung in eine andere Form. Ein Interpreter führt Code näher am Quelltext oder an einer Zwischenform aus.
 
 ## Bedeutung

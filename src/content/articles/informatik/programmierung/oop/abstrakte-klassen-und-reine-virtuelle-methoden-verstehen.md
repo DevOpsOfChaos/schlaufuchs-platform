@@ -70,8 +70,6 @@ Damit wird sichtbar:
   </div>
 </div>
 
-## Diese Seite behandelt bewusst abstrakte Rahmen und nicht nur spaete Methodenwahl
-
 `virtual` und dynamisches Binden sind verwandt, aber hier geht es zuerst um eine andere Frage:
 
 **Soll die Basisklasse schon fertig sein oder nur gemeinsame Pflichten vorgeben?**

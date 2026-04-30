@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild vergleicht analoge und digitale Beobachtung von Signalen.*
 
 
-
 Oszilloskop und Logikanalysator sind Messgeräte für zeitliche Signalverläufe. Sie zeigen nicht nur, ob ein Signal vorhanden ist, sondern wann es wechselt, wie schnell es wechselt und ob unerwartete Zwischenzustände auftreten.
 
 ## Bedeutung

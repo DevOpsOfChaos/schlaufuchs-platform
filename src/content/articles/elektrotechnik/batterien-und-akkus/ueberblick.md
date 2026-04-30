@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet gespeicherte Energie, Spannungslage und Lastverhalten ein.*
 
 
-
 Batterien und Akkus liefern elektrische Energie aus chemischen Prozessen. Sie unterscheiden sich in Spannungslage, Kapazität, Innenwiderstand, Entladekurve, Wiederaufladbarkeit und Sicherheitsanforderungen. Für Schaltungen ist nicht nur die Nennspannung wichtig, sondern auch das Verhalten unter Last.
 
 ## Einordnung

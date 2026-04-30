@@ -64,8 +64,6 @@ Input Capture ist besonders hilfreich bei Fragen wie:
 
 ## Abgrenzung zu den Nachbarseiten
 
-Diese Seite erklärt bewusst die **Grundidee des festgehaltenen Messmoments**. Sie erklärt nicht im Detail,
-
 - wie Compare Match einen Zielwert überwacht,
 - wie PWM Ausgänge moduliert,
 - oder wie ein normaler Timerüberlauf aussieht.

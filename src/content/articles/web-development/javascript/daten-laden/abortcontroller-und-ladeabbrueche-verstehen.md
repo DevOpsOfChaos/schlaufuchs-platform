@@ -61,8 +61,6 @@ async function search(query) {
 }
 ```
 
-Die Demo ist bewusst klein. Sie zeigt nicht die einzig richtige Lösung, sondern die Denkbewegung: erst die Situation sauber lesen, dann Zuständigkeiten trennen und am Ende eine verständliche Rückmeldung ermöglichen.
-
 ## Schwach oder sauber?
 
 <div class="compare-card">
@@ -80,13 +78,3 @@ Die Demo ist bewusst klein. Sie zeigt nicht die einzig richtige Lösung, sondern
   </div>
 </div>
 
-## Prüffragen für eigene Seiten
-
-- Ist die sichtbare Oberfläche auch mit Tastatur, Fehlermeldung oder langsamem Laden verständlich?
-- Wird die technische Entscheidung an einer klaren Stelle getroffen?
-- Ist die Rückmeldung deutsch, konkret und nah an der betroffenen Aktion?
-- Kann eine andere Person später erkennen, warum die Lösung so gebaut wurde?
-
-<div class="note-panel">
-  <p><strong>Merke:</strong> Gute Webentwicklung verbindet Technik und Nutzerführung. Eine Lösung ist erst dann wirklich sauber, wenn Zustand, Bedienung und Code dieselbe Geschichte erzählen.</p>
-</div>

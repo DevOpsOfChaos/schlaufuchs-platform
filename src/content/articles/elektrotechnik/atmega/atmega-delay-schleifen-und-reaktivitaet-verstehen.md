@@ -70,8 +70,6 @@ LED bei Zeitablauf umschalten</code></pre>
 
 Für ein allererstes Blinkbeispiel oder einen sehr kleinen Test kann ein Delay didaktisch sinnvoll sein. Das Problem beginnt dort, wo mehrere Aufgaben gleichzeitig ruhig zusammenlaufen sollen.
 
-## Diese Seite erklärt bewusst Struktur und Reaktivität, nicht schon die ganze Zustandsmaschine
-
 Hier geht es zuerst um die **Problemerkennung**: Warum blockiert Warten? Die Frage, wie daraus eine saubere Zustandsmaschine entsteht, kann auf einer eigenen Seite weitergeführt werden.
 
 ## Eine ruhige Prüfstrategie

@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet Vorwissen, Beobachtung und aktualisierte Wahrscheinlichkeit ein.*
 
 
-
 Das Bayes-Theorem beschreibt, wie Wahrscheinlichkeiten durch neue Informationen aktualisiert werden. Es verbindet bedingte Wahrscheinlichkeiten in zwei Richtungen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.
 
 ## Einordnung

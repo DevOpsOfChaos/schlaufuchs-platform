@@ -39,8 +39,6 @@ Ein grüner Build sagt, dass die Seite gebaut werden konnte. Er sagt noch nicht,
 4. Nutzerweg gegenprüfen
 ```
 
-Die Mini-Demo ist bewusst klein. Sie zeigt nicht jede mögliche Sonderregel, sondern die Denkbewegung: erst Zustand verstehen, dann Risiko begrenzen, dann mit einer konkreten Gegenprobe prüfen.
-
 <div class="compare-card">
   <p class="card-kicker">Gut gegen schwach</p>
   <h3>Woran du die Qualität erkennst</h3>

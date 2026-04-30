@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild vergleicht dauerhafte Verbindung und beidseitigen Nachrichtenaustausch.*
 
 
-
 WebSockets ermöglichen eine dauerhafte bidirektionale Verbindung zwischen Browser und Server. Sie eignen sich für Anwendungen mit laufenden Aktualisierungen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.
 
 ## Einordnung

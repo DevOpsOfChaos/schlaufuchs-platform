@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Erfolg oder Fehler als Rückmeldung eines Programms.*
 
 
-
 ## Begriff und Zweck
 
 Ein Exit-Code ist die numerische Rückmeldung eines Programms nach seiner Ausführung. In Unix- und Linux-Umgebungen bedeutet `0` normalerweise Erfolg, andere Werte stehen für Fehler oder besondere Zustände. Shells und Skripte nutzen diese Rückmeldung, um weitere Schritte zu entscheiden.

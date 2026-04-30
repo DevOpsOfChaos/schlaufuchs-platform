@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt, wie eine Diode Spannungsspitzen an einer Spule ableitet.*
 
 
-
 Freilaufdiode bezeichnet ein Grundthema im Bereich elektrische Schaltungen, Messungen und reale
 Bauteile. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen
 besser zu verstehen. Diese Überblicksseite ist bewusst allgemein gehalten. Sie soll kein Aufgabenformat und keine Spezialanleitung sein, sondern eine ruhige Einordnung liefern.

@@ -70,8 +70,6 @@ Diese Frage bringt oft mehr Klarheit als bloesse Diagrammsymbole.
   </div>
 </div>
 
-## Diese Seite behandelt bewusst Objektbeziehungen und nicht Vererbung
-
 Hier geht es um **hat ein** Beziehungen und nicht um **ist ein** Beziehungen. Sobald du ueber Oberklasse und Unterklasse nachdenkst, bist du im Bereich der Vererbung und nicht mehr bei Aggregation oder Komposition.
 
 ## Ruhige Pruefstrategie

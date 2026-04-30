@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Stellenwerte und den Übergang von Bits zur Zahl.*
 
 
-
 Das Binärsystem ist ein Stellenwertsystem mit zwei Ziffern: 0 und 1. Es passt gut zu digitalen Systemen, weil elektronische Zustände oft als zwei unterscheidbare Bereiche modelliert werden.
 
 ## Bedeutung

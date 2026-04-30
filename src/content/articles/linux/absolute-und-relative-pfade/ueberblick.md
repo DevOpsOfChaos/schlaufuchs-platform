@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild vergleicht Start am Wurzelverzeichnis und Start im aktuellen Verzeichnis.*
 
 
-
 ## Begriff und Zweck
 
 Ein Pfad beschreibt, wo eine Datei oder ein Verzeichnis im Dateisystem liegt. Absolute Pfade beginnen bei der Wurzel `/` und funktionieren unabhängig vom aktuellen Arbeitsverzeichnis. Relative Pfade werden vom aktuellen Ort aus interpretiert. Diese Unterscheidung ist grundlegend für Shell-Befehle, Skripte und Fehlersuche.

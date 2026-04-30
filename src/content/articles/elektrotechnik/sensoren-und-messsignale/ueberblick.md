@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt den Weg von einer physikalischen Größe zum Messwert.*
 
 
-
 Sensoren wandeln eine physikalische Größe in ein elektrisches Signal um. Dieses Signal kann eine Spannung, ein Strom, ein Widerstandswert, eine Frequenz oder ein digitales Datenpaket sein.
 
 ## Bedeutung

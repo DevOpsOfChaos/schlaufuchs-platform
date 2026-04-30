@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Steigung und Verschiebung als Grundbausteine.*
 
 
-
 Eine affine Funktion beschreibt einen Zusammenhang mit konstanter Änderungsrate und einem möglichen Startwert.
 
 Sie erweitert proportionale Zusammenhänge, weil der Graph nicht zwingend durch den Ursprung verlaufen muss.

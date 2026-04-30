@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt, wie einzelne Bits mehrere Zustände kompakt speichern.*
 
 
-
 Bitmasken und Flags bezeichnet ein Grundthema im Bereich Software, Daten, Architektur und
 systematische Problemlösung. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische
 Entscheidungen besser zu verstehen. Diese Überblicksseite ist bewusst allgemein gehalten. Sie soll kein Aufgabenformat und keine Spezialanleitung sein, sondern eine ruhige Einordnung liefern.

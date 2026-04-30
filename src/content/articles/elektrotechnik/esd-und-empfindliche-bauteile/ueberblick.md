@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt, wie elektrostatische Entladung Bauteile belasten kann und wo Schutzmaßnahmen greifen.*
 
 
-
 ESD steht für elektrostatische Entladung. Dabei gleichen sich elektrische Ladungen sehr schnell aus. Für Menschen ist eine kleine Entladung oft nur als Funke spürbar oder gar nicht bemerkbar, empfindliche Halbleiter können dabei jedoch beschädigt werden.
 
 ## Einordnung

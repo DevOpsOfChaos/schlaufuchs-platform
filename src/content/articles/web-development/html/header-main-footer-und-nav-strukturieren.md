@@ -88,8 +88,6 @@ Diese Seite betrachtet nur das **große Seitengerüst**. Die zentrale Frage laut
 
 ## Was diese Seite bewusst nicht doppelt erklärt
 
-Diese Seite erklärt **nur** die großen Landmarken der Seite. Für die feinere Inhaltsstruktur innerhalb von `main` sind `article`, `section` und `aside` die bessere nächste Ebene.
-
 ## Eine ruhige Prüfstrategie
 
 1. Wo steigt man in die Seite ein?

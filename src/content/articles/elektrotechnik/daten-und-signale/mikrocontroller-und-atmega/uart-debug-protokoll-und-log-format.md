@@ -94,8 +94,6 @@ Ein gutes Logformat ist wie ein Messprotokoll. Es soll wiederholbar, kurz und ei
 
 ## Abgrenzung zu Nachbarseiten
 
-Diese Seite behandelt UART als Diagnosekanal. Baudrate, Zeichenrahmen und Schnittstellenpegel werden auf eigenen Seiten erklärt.
-
 <div class="note-panel">
   <p><strong>Merke:</strong> Eine gute UART-Ausgabe ist nicht laut, sondern lesbar.</p>
 </div>

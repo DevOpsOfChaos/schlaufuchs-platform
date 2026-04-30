@@ -63,8 +63,6 @@ Ein häufiger Fehlstart ist, nur die Namen `INT0` oder `PCINT` auswendig zu lern
 Brauche ich nur die Information „hier hat sich etwas geändert“?
 → eher Pin-Change-Interrupt</code></pre>
 
-## Diese Seite behandelt bewusst die Grundwahl, nicht schon komplette Registerrezepte
-
 Hier geht es um die **ruhige Interrupt-Wahl nach Ereignisart**. Die genaue Registerkonfiguration einzelner Quellen baut darauf auf und gehört in eigene Rezepte oder Vertiefungen.
 
 ## Eine ruhige Prüfstrategie

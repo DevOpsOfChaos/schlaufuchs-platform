@@ -49,17 +49,6 @@ Verstehe, wie auto-fit, minmax und gap robuste Kartenraster erzeugen, ohne feste
 
 ## Mini-Demo
 
-<div class="figure-card">
-  <p class="card-kicker">Codeblick</p>
-  <h3>Eine kleine Struktur, die viel erklärt</h3>
-  <pre><code>.card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
-  gap: 1rem;
-}</code></pre>
-  <p>Die Demo ist bewusst klein. Sie zeigt den Kern der Entscheidung und vermeidet Nebenthemen, die auf eigene Seiten gehören.</p>
-</div>
-
 ## Schwache und bessere Lesart
 
 <div class="compare-card">
@@ -86,8 +75,6 @@ Verstehe, wie auto-fit, minmax und gap robuste Kartenraster erzeugen, ohne feste
 5. Gibt es einen einfacheren Weg mit weniger Sonderregeln?
 
 ## Abgrenzung
-
-Diese Seite erklärt eine konkrete Webentscheidung. Sie ersetzt keine vollständige Designsystem-Dokumentation und keine Sicherheitsprüfung. Dadurch bleibt der Lernfokus klar: erst fachlich sauber entscheiden, dann die passende Technik einsetzen.
 
 <div class="note-panel">
   <p><strong>Merke:</strong> Gute Webentwicklung verbindet sichtbare Sprache, Semantik, Gestaltung und Verhalten. Wenn eine dieser Ebenen widerspricht, fühlt sich die Oberfläche schnell unsicher an.</p>

@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet Seiten, Winkel und typische Beziehungen ein.*
 
 
-
 Ein Dreieck ist eine ebene Figur mit drei Seiten und drei Winkeln.
 
 Dreiecke sind Grundbausteine der Geometrie, weil komplexere Figuren oft in Dreiecke zerlegt werden können.

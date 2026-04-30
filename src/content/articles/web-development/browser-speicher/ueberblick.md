@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet typische Browser-Speicherarten nach Zweck und Reichweite.*
 
 
-
 ## Überblick
 Browser können Daten lokal speichern. Das ermöglicht Einstellungen, Sitzungszustände, Caches, Warenkörbe, Offline-Funktionen oder wiederkehrende Anmeldungen. Die verschiedenen Speicherformen unterscheiden sich in Lebensdauer, Zugriff, Größe und Sicherheitsmodell.
 

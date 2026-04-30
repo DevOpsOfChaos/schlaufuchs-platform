@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet Atomarität, Konsistenz, Isolation und Dauerhaftigkeit ein.*
 
 
-
 ACID beschreibt vier Eigenschaften von Datenbanktransaktionen: Atomarität, Konsistenz, Isolation und Dauerhaftigkeit.
 
 Diese Überblicksseite ordnet das Thema ruhig und allgemein ein. Sie ist als Einstieg gedacht, bevor einzelne Spezialfälle, Aufgaben oder konkrete Werkzeuge betrachtet werden.

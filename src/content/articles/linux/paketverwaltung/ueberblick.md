@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet Paketquelle, Paketmanager, Installation und Systemzustand.*
 
 
-
 ## Grundidee
 Paketverwaltung ist ein zentrales Merkmal vieler Linux-Systeme. Software wird nicht nur als einzelne Datei installiert, sondern als Paket mit Metadaten, Abhängigkeiten, Versionen und Installationsregeln. Der Paketmanager weiß, welche Dateien zu welchem Paket gehören.
 

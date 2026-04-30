@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Client, Schlüssel und Server bei der Anmeldung ohne Passwort.*
 
 
-
 ## Grundidee
 SSH ist ein Protokoll für sichere Verbindungen zu entfernten Rechnern. Es wird für Remote-Shells, Dateiübertragungen, Git-Zugriffe und administrative Aufgaben genutzt. Die Verbindung ist verschlüsselt und schützt damit Anmeldedaten und übertragene Inhalte.
 

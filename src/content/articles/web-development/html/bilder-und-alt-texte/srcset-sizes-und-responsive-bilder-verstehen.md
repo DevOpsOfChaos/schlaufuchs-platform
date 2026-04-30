@@ -49,17 +49,6 @@ Lerne, warum responsive Bilder nicht nur mehrere Dateien sind, sondern eine Absp
 
 ## Mini-Demo
 
-<div class="figure-card">
-  <p class="card-kicker">Codeblick</p>
-  <h3>Eine kleine Struktur, die viel erklärt</h3>
-  <pre><code>&lt;img
-  src=&quot;karte-800.jpg&quot;
-  srcset=&quot;karte-400.jpg 400w, karte-800.jpg 800w, karte-1200.jpg 1200w&quot;
-  sizes=&quot;(max-width: 700px) 100vw, 700px&quot;
-  alt=&quot;Lageplan mit Eingang, Aufzug und Empfang&quot;&gt;</code></pre>
-  <p>Die Demo ist bewusst klein. Sie zeigt den Kern der Entscheidung und vermeidet Nebenthemen, die auf eigene Seiten gehören.</p>
-</div>
-
 ## Schwache und bessere Lesart
 
 <div class="compare-card">
@@ -86,8 +75,6 @@ Lerne, warum responsive Bilder nicht nur mehrere Dateien sind, sondern eine Absp
 5. Gibt es einen einfacheren Weg mit weniger Sonderregeln?
 
 ## Abgrenzung
-
-Diese Seite erklärt eine konkrete Webentscheidung. Sie ersetzt keine vollständige Designsystem-Dokumentation und keine Sicherheitsprüfung. Dadurch bleibt der Lernfokus klar: erst fachlich sauber entscheiden, dann die passende Technik einsetzen.
 
 <div class="note-panel">
   <p><strong>Merke:</strong> Gute Webentwicklung verbindet sichtbare Sprache, Semantik, Gestaltung und Verhalten. Wenn eine dieser Ebenen widerspricht, fühlt sich die Oberfläche schnell unsicher an.</p>

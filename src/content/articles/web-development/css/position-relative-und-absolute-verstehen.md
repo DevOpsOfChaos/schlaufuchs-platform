@@ -149,8 +149,6 @@ Sie erklärt bewusst **nicht ausführlich**,
 - wie ein Element beim Scrollen haftet (`sticky`),
 - oder welche Ebene bei Überlagerung sichtbar vorne liegt (`z-index`).
 
-Dafür gibt es eigene Seiten, damit dieselbe Logik nicht mehrfach in leicht anderer Form wiederholt wird.
-
 ## Eine ruhige Prüfstrategie
 
 1. Welches Element soll der sichtbare Anker sein?

@@ -71,8 +71,6 @@ Gerade bei Untermenüs reicht es nicht, nur optisch etwas einzublenden. Nutzende
   &lt;/ul&gt;
 &lt;/nav&gt;</code></pre>
 
-## Diese Seite behandelt bewusst die große Menülogik
-
 Hier geht es um **Hierarchie, Hauptpunkte und Erreichbarkeit**. Die Formulierung einzelner Linktexte ist eine andere, kleinere Frage und gehört auf die eigene Linktext-Seite.
 
 ## Gute und schwache Menülogik

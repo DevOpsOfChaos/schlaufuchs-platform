@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild verbindet Inhalt, Struktur, Auffindbarkeit und Suchergebnis.*
 
 
-
 SEO beschreibt Maßnahmen, durch die Webseiten für Suchmaschinen besser auffindbar und verständlich werden. Metadaten helfen dabei, Inhalt, Titel, Sprache, Beschreibung und Darstellung in Vorschauen zu erklären.
 
 ## Bedeutung

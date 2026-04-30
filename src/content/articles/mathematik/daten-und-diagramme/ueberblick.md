@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Daten, Aufbereitung, Darstellung und Interpretation.*
 
 
-
 ## Grundidee
 Daten beschreiben Beobachtungen, Messungen oder gezählte Ereignisse. Diagramme machen solche Daten sichtbar. Sie helfen, Muster, Unterschiede und Entwicklungen schneller zu erkennen. Gleichzeitig können sie durch Auswahl, Skala und Darstellung Eindrücke verstärken oder abschwächen.
 

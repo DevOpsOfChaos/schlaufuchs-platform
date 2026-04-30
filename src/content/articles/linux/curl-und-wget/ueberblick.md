@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Abruf, Header, Inhalt und Speicherung als typische Arbeitsschritte.*
 
 
-
 `curl` und `wget` sind Werkzeuge, um Daten über Netzwerkprotokolle abzurufen. Beide können HTTP und HTTPS nutzen, unterscheiden sich aber in typischen Stärken. `curl` ist besonders flexibel für APIs und Anfragen, `wget` wird häufig für Downloads und rekursives Abrufen verwendet.
 
 ## Einordnung

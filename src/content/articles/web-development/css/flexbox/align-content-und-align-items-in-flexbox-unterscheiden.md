@@ -49,19 +49,6 @@ Lerne, warum align-items einzelne Flex-Zeilen ausrichtet und align-content erst 
 
 ## Mini-Demo
 
-<div class="figure-card">
-  <p class="card-kicker">Codeblick</p>
-  <h3>Eine kleine Struktur, die viel erklärt</h3>
-  <pre><code>.tags {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  align-content: start;
-  gap: 0.5rem;
-}</code></pre>
-  <p>Die Demo ist bewusst klein. Sie zeigt den Kern der Entscheidung und vermeidet Nebenthemen, die auf eigene Seiten gehören.</p>
-</div>
-
 ## Schwache und bessere Lesart
 
 <div class="compare-card">
@@ -88,8 +75,6 @@ Lerne, warum align-items einzelne Flex-Zeilen ausrichtet und align-content erst 
 5. Gibt es einen einfacheren Weg mit weniger Sonderregeln?
 
 ## Abgrenzung
-
-Diese Seite erklärt eine konkrete Webentscheidung. Sie ersetzt keine vollständige Designsystem-Dokumentation und keine Sicherheitsprüfung. Dadurch bleibt der Lernfokus klar: erst fachlich sauber entscheiden, dann die passende Technik einsetzen.
 
 <div class="note-panel">
   <p><strong>Merke:</strong> Gute Webentwicklung verbindet sichtbare Sprache, Semantik, Gestaltung und Verhalten. Wenn eine dieser Ebenen widerspricht, fühlt sich die Oberfläche schnell unsicher an.</p>

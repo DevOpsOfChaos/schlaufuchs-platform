@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet Eingabe, Ausgabe und Fehlermeldung als getrennte Kanäle ein.*
 
 
-
 Standardstreams sind die grundlegenden Ein- und Ausgabekanäle von Programmen unter Unix-ähnlichen Systemen. Sie heißen Standardeingabe, Standardausgabe und Standardfehlerausgabe.
 
 ## Bedeutung

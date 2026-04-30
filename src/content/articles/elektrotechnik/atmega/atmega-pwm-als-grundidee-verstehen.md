@@ -115,9 +115,6 @@ Am AVR entsteht PWM typischerweise nicht „einfach so“, sondern über einen T
 
 ## Abgrenzung zu den Nachbarseiten
 
-Diese Seite erklärt die **Grundidee der PWM als zeitliches Schaltverhältnis**.  
-Sie behandelt bewusst noch nicht im Detail,
-
 - welche PWM-Modi es am AVR gibt,
 - wie Registerkonfigurationen im Einzelnen aussehen,
 - oder wie man konkrete Frequenzen exakt berechnet.

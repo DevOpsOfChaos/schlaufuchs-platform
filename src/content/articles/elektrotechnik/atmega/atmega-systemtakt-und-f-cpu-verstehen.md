@@ -135,9 +135,6 @@ Die zweite Variante ist also pro Takt doppelt langsam. Genau deshalb verändern 
 
 ## Abgrenzung zu den Nachbarseiten
 
-Diese Seite erklärt die **gemeinsame Taktbasis**.  
-Sie behandelt bewusst noch nicht im Detail,
-
 - wie Timer ihre Zählzeit berechnen,
 - wie UART Registerwerte für Baudraten nutzt,
 - oder wie PWM aus Timer und Compare entsteht.

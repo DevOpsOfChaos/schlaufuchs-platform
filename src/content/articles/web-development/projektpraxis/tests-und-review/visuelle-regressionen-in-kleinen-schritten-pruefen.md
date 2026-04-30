@@ -18,12 +18,6 @@ draft: false
 
 Eine scheinbar kleine CSS-Änderung kann an anderer Stelle Layout, Fokus oder Lesbarkeit verändern. Gute Prüfung vergleicht deshalb nicht nur die neue Komponente, sondern auch wichtige Nachbarseiten.
 
-<div class="example-card">
-  <p class="card-kicker">Unterthema</p>
-  <h3>UI-Prüfung: kleine Frage statt Sammelbox</h3>
-  <p>Diese Seite behandelt bewusst nur einen abgegrenzten Ausschnitt. Dadurch bleibt klar, welche Entscheidung trainiert wird und welche Nachbarfragen auf andere Seiten gehören.</p>
-</div>
-
 <div class="figure-card">
   <p class="card-kicker">Visualisierung</p>
   <h3>Vom Eindruck zur Gegenprobe</h3>

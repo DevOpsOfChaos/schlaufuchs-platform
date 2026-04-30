@@ -59,8 +59,6 @@ button?.addEventListener("click", () => {
 });
 ```
 
-Das Beispiel ist bewusst klein. Es soll nicht alle Sonderfälle abdecken, sondern den fachlichen Kern sichtbar machen: Erst die Aufgabe verstehen, dann die Browserentscheidung treffen, dann prüfen.
-
 ## Zwei Lesarten vergleichen
 
 <div class="compare-card">

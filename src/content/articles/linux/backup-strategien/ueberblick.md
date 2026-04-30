@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet Quelle, Sicherung, Versionen und Wiederherstellung ein.*
 
 
-
 Backup-Strategien beschreiben, welche Daten wann, wohin und mit welcher Wiederherstellbarkeit
 gesichert werden. Diese Überblicksseite ordnet das Thema ruhig und allgemein ein. Sie ist nicht als Aufgabe oder Einzelfall gedacht, sondern als Einstieg, bevor konkrete Situationen, Werkzeuge, Formeln oder Fehlersuchen betrachtet werden.
 

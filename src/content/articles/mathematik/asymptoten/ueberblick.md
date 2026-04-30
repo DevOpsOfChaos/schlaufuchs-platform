@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Annäherung an eine Gerade ohne Erreichen im üblichen Sinn.*
 
 
-
 Asymptoten beschreiben Geraden oder Kurven, denen sich ein Graph annähert. Sie helfen, langfristiges oder grenznahes Verhalten von Funktionen zu verstehen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.
 
 ## Einordnung

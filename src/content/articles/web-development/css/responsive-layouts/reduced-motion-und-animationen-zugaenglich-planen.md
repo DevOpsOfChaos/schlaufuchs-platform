@@ -49,19 +49,6 @@ Lerne, Animationen so einzusetzen, dass sie Orientierung geben, aber Menschen mi
 
 ## Mini-Demo
 
-<div class="figure-card">
-  <p class="card-kicker">Codeblick</p>
-  <h3>Eine kleine, aber entscheidende Struktur</h3>
-  <pre><code>@media (prefers-reduced-motion: reduce) {
-  * {
-    animation-duration: 0.01ms;
-    animation-iteration-count: 1;
-    scroll-behavior: auto;
-  }
-}</code></pre>
-  <p>Die Demo ist bewusst klein. Sie zeigt nicht jedes Detail, sondern den didaktischen Kern: erst Bedeutung klären, dann Code schreiben.</p>
-</div>
-
 ## Schwache und bessere Lesart
 
 <div class="compare-card">
@@ -88,8 +75,6 @@ Lerne, Animationen so einzusetzen, dass sie Orientierung geben, aber Menschen mi
 5. Bleibt der Code wartbar, ohne Spezialtricks zu stapeln?
 
 ## Abgrenzung
-
-Diese Seite behandelt CSS-seitige Reduktion. Produktentscheidungen zu Motion Design und komplexe JavaScript-Animationen müssen zusätzlich geprüft werden. Dadurch bleibt die Seite klar: Sie erklärt eine konkrete Entscheidung und vermischt sie nicht mit allen Nachbarthemen.
 
 <div class="note-panel">
   <p><strong>Merke:</strong> Gute Weboberflächen entstehen selten durch einen einzelnen Trick. Sie entstehen, wenn Inhalt, Semantik, Gestaltung und Verhalten dieselbe Aussage stützen.</p>

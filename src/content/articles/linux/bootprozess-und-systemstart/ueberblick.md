@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Firmware, Bootloader, Kernel und Userspace als Startkette.*
 
 
-
 Der Bootprozess beschreibt, wie ein System schrittweise zu einem laufenden Linux-System wird. Firmware, Bootloader, Kernel, Initramfs und Init-System übernehmen nacheinander Aufgaben.
 
 ## Einordnung

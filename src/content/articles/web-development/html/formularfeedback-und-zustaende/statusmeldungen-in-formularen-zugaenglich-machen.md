@@ -18,12 +18,6 @@ draft: false
 
 Ein Formular ist nicht fertig, wenn Felder und Button sichtbar sind. Nutzende brauchen klare Rückmeldung: Was wurde angenommen, was fehlt noch, was wird gerade verarbeitet und was ist nach dem Absenden passiert?
 
-<div class="example-card">
-  <p class="card-kicker">Unterthema</p>
-  <h3>Formularfeedback: kleine Frage statt Sammelbox</h3>
-  <p>Diese Seite behandelt bewusst nur einen abgegrenzten Ausschnitt. Dadurch bleibt klar, welche Entscheidung trainiert wird und welche Nachbarfragen auf andere Seiten gehören.</p>
-</div>
-
 <div class="figure-card">
   <p class="card-kicker">Visualisierung</p>
   <h3>Vom Eindruck zur Gegenprobe</h3>

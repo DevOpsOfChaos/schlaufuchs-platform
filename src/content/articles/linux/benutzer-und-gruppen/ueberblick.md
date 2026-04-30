@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Identität, Gruppenmitgliedschaft und Rechtezuordnung.*
 
 
-
 ## Begriff und Zweck
 
 Linux unterscheidet Benutzerkonten und Gruppen. Dateien, Prozesse und Zugriffe sind mit diesen Identitäten verbunden. Gruppen ermöglichen, Rechte gemeinsam zu vergeben, ohne jedem Benutzer einzeln Sonderrechte zu geben. Dieses Modell ist Grundlage für Mehrbenutzerbetrieb und Systemschutz.

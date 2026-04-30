@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet wichtige Verzeichnisse und ihre typische Rolle ein.*
 
 
-
 ## Begriff und Zweck
 
 Linux organisiert Dateien in einer hierarchischen Baumstruktur, die bei `/` beginnt. Anders als bei Laufwerksbuchstaben steht ein gemeinsamer Verzeichnisbaum im Mittelpunkt. Geräte, Systemdateien, Programme, Konfiguration, temporäre Daten und Benutzerdateien haben typische Orte.

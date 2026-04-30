@@ -84,8 +84,6 @@ Die ruhige Lesart ist:
 → prüfen, reagieren, wieder prüfen, wieder reagieren
 → das Programm bleibt in diesem Laufbetrieb</code></pre>
 
-## Diese Seite behandelt bewusst Grundstruktur, nicht schon Interrupts oder Scheduler
-
 Hier geht es nur um die ruhige AVR-Grundform aus **Initialisierung** und **Endlosschleife**. Interrupts, Timer-Ereignisse oder komplexere Nebenläufigkeit bauen darauf auf, erzählen aber eine eigene Geschichte.
 
 ## Eine ruhige Prüfstrategie

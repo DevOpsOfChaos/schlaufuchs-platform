@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt dieselben Inhalte in angepassten Layouts für unterschiedliche Breiten.*
 
 
-
 ## Begriff
 Responsive Design bezeichnet die Fähigkeit einer Webseite, sich an unterschiedliche Bildschirmgrößen, Geräte und Eingabemethoden anzupassen. Eine responsive Seite bleibt nicht starr, sondern ordnet Inhalte, Navigation und Abstände passend zum verfügbaren Raum.
 

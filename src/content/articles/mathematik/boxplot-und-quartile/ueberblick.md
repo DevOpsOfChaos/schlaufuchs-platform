@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet Minimum, Quartile, Median und Maximum ein.*
 
 
-
 ## Begriff und Zweck
 
 Ein Boxplot fasst eine Datenverteilung über Median, Quartile und äußere Werte zusammen. Die Box zeigt den mittleren Bereich der Daten, der Median teilt die sortierten Werte, und die sogenannten Whisker geben weitere Streuungsinformationen. Boxplots eignen sich besonders zum Vergleichen mehrerer Datengruppen.

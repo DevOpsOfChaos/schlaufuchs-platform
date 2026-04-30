@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild vergleicht feste Plätze und verkettete Elemente.*
 
 
-
 ## Grundidee
 Arrays und Listen speichern mehrere Werte in einer geordneten Sammlung. Sie ermöglichen, Elemente nacheinander zu verarbeiten, gezielt über einen Index anzusprechen oder dynamisch zu sammeln. Viele Programme nutzen sie als grundlegende Struktur für Datenreihen.
 

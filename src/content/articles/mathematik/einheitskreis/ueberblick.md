@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild verbindet Winkel, Punkt auf dem Kreis und trigonometrische Werte.*
 
 
-
 Der Einheitskreis ist ein Kreis mit Radius 1 um den Ursprung. Er macht Sinus und Kosinus als Koordinaten eines Punktes verständlich. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.
 
 ## Einordnung

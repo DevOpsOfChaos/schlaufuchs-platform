@@ -58,8 +58,6 @@ Wichtig ist deshalb immer die Reihenfolge:
 
 ## Abgrenzung zu einzelnen Lernseiten
 
-Spezielle Lernseiten behandeln einzelne Fälle: Pull-up-Taster, Active-Low-Logik, Softwareentprellung, Timerentprellung oder Messung mit Oszilloskop. Diese Seite erklärt vorher den gemeinsamen Rahmen. Wer diesen Rahmen verstanden hat, kann die Einzelfälle leichter einordnen.
-
 <div class="note-panel">
   <p><strong>Merke:</strong> Ein Taster ist für den Mikrocontroller kein „Klick“, sondern ein elektrisches Signal. Pegel erklären, wie dieses Signal gelesen wird; Entprellung erklärt, wie daraus ein verlässliches Ereignis entsteht.</p>
 </div>

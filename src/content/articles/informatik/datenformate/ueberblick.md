@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild vergleicht Strukturierung und Austausch in typischen Formaten.*
 
 
-
 Ein Datenformat legt fest, wie Informationen gespeichert oder übertragen werden. Es beschreibt Struktur, Syntax und oft auch Erwartungen an Datentypen oder Bedeutung.
 
 ## Bedeutung

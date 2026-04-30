@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt, wie die Unbekannte im Exponenten über Logarithmen zugänglich wird.*
 
 
-
 ## Begriff
 
 Exponentialgleichungen enthalten eine Variable im Exponenten und beschreiben oft Wachstums- oder Zerfallsprozesse.

@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild verbindet Veränderung in x und Veränderung in y.*
 
 
-
 ## Begriff
 Eine Änderungsrate beschreibt, wie stark sich eine Größe im Verhältnis zu einer anderen Größe verändert. Sie ist nicht nur die Differenz zweier Werte, sondern eine Änderung pro Bezugseinheit. Geschwindigkeit ist ein bekanntes Beispiel: Strecke pro Zeit.
 

@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Client, Protokoll, Server und Antwort als Kommunikationsmodell.*
 
 
-
 ## Grundidee
 Ein Netzwerk verbindet Systeme, damit sie Daten austauschen können. Damit dieser Austausch funktioniert, müssen Sender und Empfänger Regeln teilen. Diese Regeln heißen Protokolle. Sie legen fest, wie Daten adressiert, übertragen, bestätigt oder interpretiert werden.
 

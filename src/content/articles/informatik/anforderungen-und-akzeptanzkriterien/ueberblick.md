@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild verbindet Bedarf, Anforderung, Kriterium und Prüfung.*
 
 
-
 Anforderungen beschreiben, was ein System leisten soll. Akzeptanzkriterien machen erkennbar, wann eine Anforderung erfüllt ist.
 
 Diese Überblicksseite ordnet das Thema ruhig und allgemein ein. Sie ist als Einstieg gedacht, bevor einzelne Spezialfälle, Aufgaben oder konkrete Werkzeuge betrachtet werden.

@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt gleiche Form, unterschiedliche Größe und konstanten Maßstab.*
 
 
-
 Ähnliche Figuren haben dieselbe Form, aber nicht zwingend dieselbe Größe. Entsprechende Längen stehen im gleichen Verhältnis.
 
 ## Einordnung

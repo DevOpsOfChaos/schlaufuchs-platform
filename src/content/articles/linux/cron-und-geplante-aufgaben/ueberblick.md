@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Zeitplan, Job und protokollierte Ausführung.*
 
 
-
 Cron ist ein klassisches System für zeitgesteuerte Aufgaben. Es startet Befehle oder Skripte zu festgelegten Zeiten, zum Beispiel täglich, stündlich oder an bestimmten Wochentagen.
 
 ## Bedeutung

@@ -18,12 +18,6 @@ draft: false
 
 Ein guter Testfall entsteht nicht zufällig. Er fragt, wo ein Algorithmus kippen kann: bei leeren Daten, bei genau einem Element, bei Grenzen und bei unerwarteter Reihenfolge.
 
-<div class="example-card">
-  <p class="card-kicker">Unterthema</p>
-  <h3>Testfälle: kleine Frage statt Sammelbox</h3>
-  <p>Diese Seite behandelt bewusst nur einen abgegrenzten Ausschnitt. Dadurch bleibt klar, welche Entscheidung trainiert wird und welche Nachbarfragen auf andere Seiten gehören.</p>
-</div>
-
 <div class="figure-card">
   <p class="card-kicker">Visualisierung</p>
   <h3>Vom Eindruck zur Gegenprobe</h3>

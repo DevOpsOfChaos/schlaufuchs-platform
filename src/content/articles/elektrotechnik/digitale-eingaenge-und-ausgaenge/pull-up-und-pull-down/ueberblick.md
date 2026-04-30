@@ -37,8 +37,6 @@ Viele Mikrocontroller besitzen interne Pull-up- oder Pull-down-Widerstände. Die
 
 ## Abgrenzung
 
-Pull-Widerstände sind nicht dasselbe wie Entprellung. Sie legen den Pegel fest, verhindern aber nicht automatisch die schnellen Wechsel eines mechanischen Kontakts beim Schalten. Sie sind auch keine Treiber für große Lasten. Ihr Strom ist bewusst klein.
-
 ## Häufige Missverständnisse
 
 Ein offener Eingang ist nicht automatisch Low. Er ist undefiniert. Ebenso bedeutet ein aktivierter Pull-up nicht, dass ein Signal immer High bleibt. Ein ausreichend starkes externes Signal oder ein geschlossener Taster kann den Eingang gezielt auf Low ziehen.

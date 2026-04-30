@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet Dateien, Verzeichnisse und Verwaltungsschicht ein.*
 
 
-
 Ein Dateisystem organisiert Daten auf Speichermedien in Form von Dateien und Verzeichnissen.
 
 ## Einordnung

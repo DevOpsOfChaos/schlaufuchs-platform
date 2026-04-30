@@ -79,8 +79,6 @@ Er gehoert zum Ende des Objektlebenszyklus. Besonders wichtig wird er, wenn ein 
   <p>Ein <code>Konto</code>-Objekt soll zum Beispiel sofort eine Kontonummer oder einen Anfangssaldo sinnvoll gesetzt haben. Genau dafuer ist der Konstruktor da. Wenn das Objekt spaeter verschwindet, sorgt der Destruktor dafuer, dass offene Ressourcen sauber beendet werden.</p>
 </div>
 
-## Diese Seite behandelt bewusst nur den Objektlebenszyklus
-
 Hier geht es um Anfang und Ende eines Objekts. Mehrere Startwege in derselben Klasse, Delegation zwischen Konstruktoren oder Basisklassenaufrufe in der Vererbung sind eigene, feinere Themen.
 
 ## Ruhige Pruefstrategie

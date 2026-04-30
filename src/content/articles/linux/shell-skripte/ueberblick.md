@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Datei, Interpreter und Automatisierungsablauf.*
 
 
-
 Ein Shell-Skript ist eine Textdatei mit Befehlen, die von einer Shell ausgeführt werden. Es macht wiederkehrende Abläufe reproduzierbar und dokumentiert Arbeitsschritte.
 
 ## Bedeutung

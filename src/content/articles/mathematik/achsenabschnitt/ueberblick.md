@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt den Schnittpunkt eines Graphen mit einer Achse.*
 
 
-
 Der Achsenabschnitt beschreibt, wo ein Graph eine Achse schneidet, besonders den y-Achsenabschnitt linearer Funktionen.
 
 Diese Überblicksseite ordnet das Thema ruhig und allgemein ein. Sie ist als Einstieg gedacht, bevor einzelne Spezialfälle, Aufgaben oder konkrete Werkzeuge betrachtet werden.

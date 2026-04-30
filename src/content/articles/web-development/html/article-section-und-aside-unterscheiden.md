@@ -100,8 +100,6 @@ Diese Seite betrachtet **nicht** das große Seitengerüst, sondern die **innere 
 
 ## Was diese Seite bewusst nicht doppelt erklärt
 
-Diese Seite behandelt nur die **Inhaltsstruktur innerhalb des Inhaltsbereichs**. Für das große Seitengerüst mit `header`, `nav`, `main` und `footer` gibt es die eigene Landmarken-Seite.
-
 <div class="note-panel">
   <p><strong>Merke:</strong> Gleiche Boxoptik bedeutet nicht gleiche inhaltliche Rolle.</p>
 </div>

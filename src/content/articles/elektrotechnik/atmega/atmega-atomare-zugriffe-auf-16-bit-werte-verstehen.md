@@ -70,8 +70,6 @@ Die wichtigste Lesart ist nicht „eine gefährliche Variable“, sondern:
 
 ## Abgrenzung zur Nachbarseite
 
-Diese Seite erklärt bewusst die **Konsistenz eines Mehrbyte-Zugriffs**. Sie erklärt nicht noch einmal allgemein, warum `volatile` zwischen ISR und Hauptprogramm nötig sein kann. Dadurch bleibt die Logik sauber getrennt:
-
 - `volatile` → Sichtbarkeit und Optimierungsfrage
 - atomar → Schutz des kompletten Zugriffsfensters
 

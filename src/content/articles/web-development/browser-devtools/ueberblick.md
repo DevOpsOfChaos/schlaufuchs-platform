@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet Elemente, Konsole, Netzwerk und Performance als Analysebereiche.*
 
 
-
 Browser DevTools sind eingebaute Werkzeuge moderner Browser. Sie ermöglichen, HTML, CSS, JavaScript, Netzwerkverkehr, Speicher, Performance und Barrierefreiheitsinformationen zu untersuchen. Sie sind ein zentrales Werkzeug, weil Webfehler oft erst im Zusammenspiel von Code, Browser und Netzwerk sichtbar werden.
 
 ## Einordnung

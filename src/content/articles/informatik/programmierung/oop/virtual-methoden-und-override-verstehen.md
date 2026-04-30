@@ -63,8 +63,6 @@ Mit <code>virtual</code> darf die Entscheidung bis zur Laufzeit offen bleiben. D
   </div>
 </div>
 
-## Diese Seite behandelt bewusst die Marker und die Objektlogik
-
 Die noch allgemeinere Frage, wann man von statischem oder dynamischem Binden spricht, wird im naechsten Thema als eigenes Lesemodell ausgefaltet. Hier bleibt der Fokus auf `virtual`, `override` und der konkreten Objektentscheidung.
 
 ## Ruhige Pruefstrategie

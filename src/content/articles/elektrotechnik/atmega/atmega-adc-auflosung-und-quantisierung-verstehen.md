@@ -89,8 +89,6 @@ Der ADC muss eine kontinuierliche Größe in ein endliches Zahlenraster überset
   </div>
 </div>
 
-## Diese Seite erklärt bewusst die Stufenlogik, nicht den Registerweg
-
 Hier geht es um **Auflösung und Quantisierung**. Die Frage, wie `ADMUX`, `ADCSRA` oder Free-Running-Messung arbeiten, gehört auf die anderen ADC-Seiten. So bleibt getrennt:
 
 - **Auflösung** = Wie fein ist das Raster?

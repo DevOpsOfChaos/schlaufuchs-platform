@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet Weiterentwicklung, Kompatibilität und Clients ein.*
 
 
-
 API-Versionierung beschreibt Strategien, mit denen Änderungen an Schnittstellen nachvollziehbar und kompatibel eingeführt werden.
 
 Schnittstellen werden von anderen Programmen genutzt. Änderungen können deshalb nicht nur intern betrachtet werden, sondern betreffen abhängige Systeme.

@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt, wie HTTP-Header Wiederverwendung und Aktualisierung steuern.*
 
 
-
 Der Browser-Cache speichert geladene Ressourcen wie Bilder, CSS, JavaScript oder HTML. `Cache-Control` beschreibt, wie lange diese Ressourcen wiederverwendet werden dürfen.
 
 ## Einordnung

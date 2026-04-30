@@ -22,8 +22,6 @@ Webseiten werden auf Smartphones, Tablets, Laptops und großen Monitoren genutzt
 
 ## Warum das Thema wichtig ist
 
-Ohne Überblick wirken Detailseiten schnell wie voneinander getrennte Einzelfälle. Diese Seite erklärt deshalb zuerst den allgemeinen Zusammenhang, bevor konkrete Situationen, Aufgaben oder Fehlerbilder behandelt werden.
-
 ## Zentrale Bestandteile
 
 - **Inhaltsfluss:** Die natürliche Reihenfolge und Ausbreitung von Elementen.

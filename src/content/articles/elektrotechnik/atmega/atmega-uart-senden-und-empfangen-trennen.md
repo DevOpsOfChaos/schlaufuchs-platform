@@ -70,10 +70,6 @@ TX und RX sind nicht bloß zwei Pin-Namen. Sie beschreiben die **Datenrichtung r
 Will ich ein Zeichen von außen aufnehmen?
 → RX / empfangen</code></pre>
 
-## Diese Seite behandelt bewusst Richtungslogik, nicht schon jedes UART-Detail
-
-Hier geht es zuerst um die ruhige Trennung von **Senden** und **Empfangen**. Baudrate, Registerdetails oder Puffer bauen darauf auf und gehören auf eigene Seiten.
-
 ## Eine ruhige Prüfstrategie
 
 1. Wo startet das Zeichen – im Controller oder außerhalb?

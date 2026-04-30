@@ -43,4 +43,3 @@ Viele Lernende wählen den größeren Timer nur, weil er „mehr kann“. Sinnvo
 
 ## Abgrenzung
 
-Diese Seite erklärt die Einordnung. Detailseiten können danach konkrete Register, AVR-Namen, PWM-Modi oder Rechenwege behandeln.

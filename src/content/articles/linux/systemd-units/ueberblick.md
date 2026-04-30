@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Konfiguration, Start und Überwachung eines Dienstes.*
 
 
-
 systemd organisiert viele Systemfunktionen über Units. Eine Unit beschreibt eine verwaltete Einheit, etwa einen Dienst, einen Timer, einen Mountpunkt oder ein Ziel. Dadurch lassen sich Start, Stopp, Abhängigkeiten und Status systematisch kontrollieren.
 
 ## Einordnung

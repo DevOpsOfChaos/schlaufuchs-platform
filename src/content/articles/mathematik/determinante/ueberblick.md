@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt die Determinante als Maß für Flächen- oder Volumenänderung.*
 
 
-
 Die Determinante ist eine Kennzahl quadratischer Matrizen. Sie beschreibt Flächen- oder Volumenfaktoren und zeigt, ob eine lineare Abbildung invertierbar ist. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.
 
 ## Einordnung

@@ -110,9 +110,6 @@ Erst wenn dieser zeitliche Rahmen stabil gelesen werden kann, wird daraus am End
 
 ## Abgrenzung zu den Nachbarseiten
 
-Diese Seite erklärt die **serielle Grundidee und die Rolle der Baudrate**.  
-Sie behandelt bewusst noch nicht im Detail,
-
 - wie konkrete UART-Register programmiert werden,
 - wie Interrupts oder Pufferung die Übertragung organisieren,
 - oder wie Zeichenketten im C-Code aufgebaut werden.

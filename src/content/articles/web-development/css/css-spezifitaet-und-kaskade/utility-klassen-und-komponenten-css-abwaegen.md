@@ -61,32 +61,5 @@ Bei diesem Thema geht es nicht darum, einen einzelnen Trick auswendig zu lernen.
 }
 ```
 
-Die Demo ist bewusst klein. Sie zeigt nicht die einzig richtige Lösung, sondern die Denkbewegung: erst die Situation sauber lesen, dann Zuständigkeiten trennen und am Ende eine verständliche Rückmeldung ermöglichen.
-
 ## Schwach oder sauber?
 
-<div class="compare-card">
-  <p class="card-kicker">Vergleich</p>
-  <h3>Der Unterschied liegt in der Begründung</h3>
-  <div class="compare-grid">
-    <div class="compare-item">
-      <strong>Schwache Lesart</strong>
-      <span>Jede Karte bekommt fünf zufällige Einzelklassen ohne erkennbare Regel.</span>
-    </div>
-    <div class="compare-item">
-      <strong>Saubere Lesart</strong>
-      <span>Wiederkehrende Bausteine werden als Komponente benannt, kleine Layouthelfer bleiben bewusst klein.</span>
-    </div>
-  </div>
-</div>
-
-## Prüffragen für eigene Seiten
-
-- Ist die sichtbare Oberfläche auch mit Tastatur, Mobilgerät oder langsamem Laden verständlich?
-- Wird die technische Entscheidung an einer klaren Stelle getroffen?
-- Ist die Rückmeldung deutsch, konkret und nah an der betroffenen Aktion?
-- Kann eine andere Person später erkennen, warum die Lösung so gebaut wurde?
-
-<div class="note-panel">
-  <p><strong>Merke:</strong> Gute Webentwicklung verbindet Technik und Nutzerführung. Eine Lösung ist erst dann wirklich sauber, wenn Struktur, Verhalten und sichtbare Rückmeldung dieselbe Geschichte erzählen.</p>
-</div>

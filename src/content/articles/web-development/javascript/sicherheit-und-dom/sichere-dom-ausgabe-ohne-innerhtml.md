@@ -25,7 +25,6 @@ Wenn fremde oder benutzernahe Inhalte mit innerHTML eingefügt werden, kann aus 
 </div>
 
 
-
 ## Mini-Demo: Text als Text einsetzen
 
 ```html
@@ -33,8 +32,6 @@ const item = document.createElement('li');
 item.textContent = userInput;
 list.append(item);
 ```
-
-Das Beispiel ist bewusst klein. Es zeigt nicht jede mögliche Sonderregel, sondern den Kern der Entscheidung. Genau dadurch lässt sich die Idee auf echte Projekte übertragen.
 
 <div class="compare-card">
   <p class="card-kicker">Gut gegen schwach</p>

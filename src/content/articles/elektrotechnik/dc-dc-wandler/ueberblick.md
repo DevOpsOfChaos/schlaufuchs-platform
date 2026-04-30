@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt den Weg von einer Eingangsspannung zur geregelten Ausgangsspannung.*
 
 
-
 Ein DC-DC-Wandler wandelt eine Gleichspannung in eine andere Gleichspannung um. Anders als ein einfacher linearer Regler arbeitet er meist schaltend: Energie wird in schnellen Takten in Spulen, Kondensatoren und Schaltern zwischengespeichert. Dadurch können hohe Wirkungsgrade erreicht werden.
 
 ## Einordnung

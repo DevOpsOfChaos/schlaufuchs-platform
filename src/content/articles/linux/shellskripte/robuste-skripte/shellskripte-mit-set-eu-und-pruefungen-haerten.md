@@ -18,12 +18,6 @@ draft: false
 
 Ein Shellskript ist schnell geschrieben, aber auch schnell gefährlich. Robuste Skripte prüfen Eingaben, reagieren auf Fehlercodes und brechen lieber kontrolliert ab als still falsch weiterzulaufen.
 
-<div class="example-card">
-  <p class="card-kicker">Unterthema</p>
-  <h3>Skriptrobustheit: kleine Frage statt Sammelbox</h3>
-  <p>Diese Seite behandelt bewusst nur einen abgegrenzten Ausschnitt. Dadurch bleibt klar, welche Entscheidung trainiert wird und welche Nachbarfragen auf andere Seiten gehören.</p>
-</div>
-
 <div class="figure-card">
   <p class="card-kicker">Visualisierung</p>
   <h3>Vom Eindruck zur Gegenprobe</h3>

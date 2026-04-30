@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt den Unterschied zwischen Wert, Speicherort und Referenz.*
 
 
-
 ## Grundidee
 Programme arbeiten mit Werten, Objekten und Speicherbereichen. Ein Name im Programm kann direkt einen Wert repräsentieren oder auf ein Objekt verweisen. Diese Unterscheidung ist wichtig, wenn Daten verändert, kopiert oder an Funktionen übergeben werden.
 

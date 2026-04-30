@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Besitzer, Gruppe und Rechtebits als Zugriffsmodell.*
 
 
-
 Berechtigungen für Verzeichnisse und Dateien bezeichnet ein Grundthema im Bereich Shell,
 Dateisystem, Dienste und Betrieb von Linux-Systemen. Der Begriff hilft, einzelne Spezialfälle
 einzuordnen und typische Entscheidungen besser zu verstehen. Diese Überblicksseite ist bewusst allgemein gehalten. Sie soll kein Aufgabenformat und keine Spezialanleitung sein, sondern eine ruhige Einordnung liefern.

@@ -81,8 +81,6 @@ Die ruhige Lesart ist:
 → ISR ändert Variable
 → Hauptprogramm muss diese Änderung als echt möglichen Zustand mitdenken</code></pre>
 
-## Diese Seite behandelt bewusst das Grundproblem, nicht schon jede Atomaritätsfrage
-
 Hier geht es zuerst um die ruhige Grundidee: Eine ISR kann einen Wert ändern, obwohl der normale Hauptablauf das gerade nicht „sichtbar“ tut. Mehrbyte-Zugriffe oder atomare Abschnitte bauen darauf auf und gehören auf eigene Vertiefungen.
 
 ## Eine ruhige Prüfstrategie

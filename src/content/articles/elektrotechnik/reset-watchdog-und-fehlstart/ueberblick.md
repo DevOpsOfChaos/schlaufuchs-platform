@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet Resetpfad, Startphase und Watchdog als Sicherheitsnetz ein.*
 
 
-
 ## Reset
 Ein Reset setzt den Mikrocontroller in einen definierten Startzustand zurück. Dabei werden Register, Programmzähler und Peripherie in Anfangszustände gebracht. Reset kann durch Einschalten, externe Reset-Pins, Brown-out-Erkennung, Software oder Watchdog ausgelöst werden.
 

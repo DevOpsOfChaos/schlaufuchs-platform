@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Build, Test und Auslieferung als Pipeline.*
 
 
-
 Continuous Integration prüft Änderungen regelmäßig automatisch. Continuous Delivery oder Deployment erweitert dies um die kontrollierte Auslieferung von Artefakten.
 
 Automatisierte Pipelines helfen, Fehler früh zu finden und wiederkehrende Arbeit zuverlässig auszuführen.

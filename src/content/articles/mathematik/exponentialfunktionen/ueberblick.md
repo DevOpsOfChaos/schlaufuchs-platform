@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet Anfangswert, Wachstumsfaktor und Graph ein.*
 
 
-
 ## Begriff und Zweck
 
 Exponentialfunktionen beschreiben Situationen, in denen sich eine Größe pro Schritt mit demselben Faktor verändert. Anders als bei linearen Funktionen ist nicht die absolute Zunahme konstant, sondern der relative Änderungsfaktor. Dadurch können Werte sehr schnell wachsen oder sich schrittweise verringern.

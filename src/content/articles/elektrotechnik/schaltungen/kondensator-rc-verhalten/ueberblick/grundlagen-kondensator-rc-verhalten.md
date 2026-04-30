@@ -38,8 +38,6 @@ Ein Kondensator ist nicht einfach „ein kleiner Akku“. Ebenso ist ein RC-Glie
 
 ## Abgrenzung
 
-Diese Seite erklärt den allgemeinen Zusammenhang. Detailseiten können Hochpass, Tiefpass, Zeitkonstante, Entprellung oder Versorgungspuffer behandeln.
-
 <div class="note-panel">
   <p><strong>Merke:</strong> Ein Kondensator bringt Zeitverhalten in eine Schaltung.</p>
 </div>

@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt, wie Prozesse Kontext über Variablen erhalten.*
 
 
-
 ## Umgebung
 Jeder Prozess läuft mit einer Umgebung. Darin stehen Variablen wie HOME, PATH, LANG oder SHELL. Programme können diese Werte lesen und ihr Verhalten daran anpassen. Die Shell kann Variablen setzen und an gestartete Prozesse weitergeben.
 

@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet Basisfunktion, Verbesserung und Zusatzverhalten ein.*
 
 
-
 ## Begriff und Zweck
 
 Progressive Enhancement bedeutet, eine Webseite zuerst auf einer stabilen Grundfunktion aufzubauen und zusätzliche Fähigkeiten schrittweise zu ergänzen. Inhalt, Struktur und grundlegende Bedienung sollen auch dann funktionieren, wenn JavaScript langsam lädt, blockiert ist oder einzelne APIs nicht verfügbar sind.

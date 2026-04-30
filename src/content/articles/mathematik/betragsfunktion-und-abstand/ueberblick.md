@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Betrag als nichtnegative Entfernung von null.*
 
 
-
 Der Betrag einer Zahl beschreibt ihren Abstand zur Null auf der Zahlengerade. Deshalb ist der Betrag nie negativ.
 
 ## Einordnung

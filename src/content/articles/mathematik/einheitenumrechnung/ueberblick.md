@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Größenwert, Faktor und Zielgröße.*
 
 
-
 Einheitenumrechnung bedeutet, denselben Größenwert in einer anderen Einheit auszudrücken. Dabei ändert sich nicht die Größe selbst, sondern die Zahlendarstellung. Umrechnungen beruhen auf festen Beziehungen zwischen Einheiten.
 
 ## Einordnung

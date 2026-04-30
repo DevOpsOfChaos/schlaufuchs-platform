@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild verbindet Sekante, Tangente und lokale Änderungsrate.*
 
 
-
 Die Ableitung beschreibt die lokale Änderungsrate einer Funktion. Anschaulich gibt sie an, wie stark sich ein Funktionswert in unmittelbarer Nähe einer Stelle verändert.
 
 ## Bedeutung

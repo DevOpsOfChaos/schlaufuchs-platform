@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Zählen, Teilen durch Gesamtzahl und Deutung.*
 
 
-
 Absolute Häufigkeit zählt, wie oft ein Ereignis auftritt. Relative Häufigkeit setzt diese Anzahl
 ins Verhältnis zur Gesamtzahl der Beobachtungen. Diese Überblicksseite ordnet das Thema ruhig und allgemein ein. Sie ist nicht als Aufgabe oder Einzelfall gedacht, sondern als Einstieg, bevor konkrete Situationen, Werkzeuge, Formeln oder Fehlersuchen betrachtet werden.
 

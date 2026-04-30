@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild vergleicht die Aufgabenteilung zwischen Server und Browser.*
 
 
-
 Client- und Server-Rendering beschreiben, wo HTML erzeugt wird. Die Entscheidung beeinflusst Ladezeit, Interaktivität, SEO und Komplexität. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.
 
 ## Einordnung

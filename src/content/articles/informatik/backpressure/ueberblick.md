@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt, wie ein langsamer Verbraucher den Datenfluss drosselt.*
 
 
-
 Backpressure bezeichnet ein Grundthema im Bereich Software, Daten, Architektur und systematische
 Problemlösung. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische Entscheidungen
 besser zu verstehen. Diese Überblicksseite ist bewusst allgemein gehalten. Sie soll kein Aufgabenformat und keine Spezialanleitung sein, sondern eine ruhige Einordnung liefern.

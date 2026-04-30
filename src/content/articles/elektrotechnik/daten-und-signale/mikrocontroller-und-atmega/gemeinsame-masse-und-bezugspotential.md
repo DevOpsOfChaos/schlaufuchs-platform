@@ -74,8 +74,6 @@ High/Low wird gegen diese Masse gelesen
 
 ## Abgrenzung zu Nachbarseiten
 
-Diese Seite erklärt den Bezugspunkt. Sternmasse, Stromschleifen und EMV-Fragen werden später vertieft.
-
 <div class="note-panel">
   <p><strong>Merke:</strong> Ein Signal ist erst dann eindeutig, wenn Sender und Empfänger denselben Bezug teilen.</p>
 </div>

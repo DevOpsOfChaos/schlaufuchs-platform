@@ -78,8 +78,6 @@ if (empty($_POST["name"])) {
 }
 ```
 
-## Diese Seite behandelt bewusst Pruefabsicht und nicht komplette Validierung
-
 Hier geht es um die ruhige Trennung der Fragen nach Vorhandensein und Leere. Vollstaendige Formularvalidierung mit Fehlermeldungen und Regeln ist ein eigenes Thema.
 
 ## Ruhige Pruefstrategie

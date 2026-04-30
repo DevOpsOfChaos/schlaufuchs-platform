@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt den Weg von HTML und CSS bis zum sichtbaren Layout.*
 
 
-
 Die Browser Rendering Pipeline beschreibt, wie aus HTML, CSS und JavaScript sichtbare Pixel werden.
 
 Diese Überblicksseite ordnet das Thema ruhig und allgemein ein. Sie ist als Einstieg gedacht, bevor einzelne Spezialfälle, Aufgaben oder konkrete Werkzeuge betrachtet werden.

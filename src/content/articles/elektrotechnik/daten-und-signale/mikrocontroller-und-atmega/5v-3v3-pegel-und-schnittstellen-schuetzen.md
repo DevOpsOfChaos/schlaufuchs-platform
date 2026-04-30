@@ -101,8 +101,6 @@ Bei Pegelfragen hilft eine kleine Tabelle. Jede Zeile ist eine Signalleitung; je
 
 ## Abgrenzung zu Nachbarseiten
 
-Diese Seite behandelt Pegelkompatibilität. Sie ersetzt keine komplette UART-, SPI- oder I²C-Seite. Dort geht es zusätzlich um Protokoll, Timing und Busregeln.
-
 <div class="note-panel">
   <p><strong>Merke:</strong> Ein Signal ist erst dann „kompatibel“, wenn Pegel, Richtung, Eingangstoleranz und Massebezug zusammenpassen.</p>
 </div>

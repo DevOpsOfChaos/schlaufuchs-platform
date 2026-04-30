@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet Feature, Unterstützung und Fallback als Entscheidungsweg ein.*
 
 
-
 ## Begriff
 
 Browser-Kompatibilität beschreibt, ob Webfunktionen in den Zielbrowsern zuverlässig unterstützt werden.

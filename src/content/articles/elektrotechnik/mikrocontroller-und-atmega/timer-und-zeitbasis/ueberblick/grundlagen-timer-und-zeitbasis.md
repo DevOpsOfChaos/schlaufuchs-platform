@@ -22,8 +22,6 @@ Timer werden für Blinken, Messen, PWM, Abtastraten und regelmäßige Programmte
 
 ## Warum das Thema wichtig ist
 
-Ohne Überblick wirken Detailseiten schnell wie voneinander getrennte Einzelfälle. Diese Seite erklärt deshalb zuerst den allgemeinen Zusammenhang, bevor konkrete Situationen, Aufgaben oder Fehlerbilder behandelt werden.
-
 ## Zentrale Bestandteile
 
 - **Systemtakt:** Die Grundgeschwindigkeit des Controllers.

@@ -16,8 +16,6 @@ draft: false
 ---
 ## Grundidee
 
-Lerne, Fehlermeldungen nicht nur sichtbar zu platzieren, sondern fachlich mit dem betroffenen Eingabefeld zu verbinden. Diese Seite behandelt das Thema als praktische Entscheidung im Webprojekt: Was sehen Nutzerinnen und Nutzer, was passiert technisch im Hintergrund und wie bleibt die Lösung später wartbar?
-
 <div class="example-card">
   <p class="card-kicker">Leitbeispiel</p>
   <h3>HTML – Fehlermeldungen direkt am Feld verknüpfen</h3>
@@ -56,8 +54,6 @@ Viele Webprobleme entstehen nicht, weil ein einzelnes HTML-Element, eine CSS-Reg
 <input id="plz" name="plz" aria-describedby="plz-fehler">
 <p id="plz-fehler">Bitte fünf Ziffern eingeben, zum Beispiel 76133.</p>
 ```
-
-Die Demo ist bewusst klein. Sie zeigt nicht die gesamte fertige Anwendung, sondern den entscheidenden Gedanken: erst die Zuständigkeit klären, dann die technische Umsetzung passend wählen.
 
 ## Schwach oder sauber?
 

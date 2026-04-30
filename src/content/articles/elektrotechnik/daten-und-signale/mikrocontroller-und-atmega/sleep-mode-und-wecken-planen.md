@@ -96,8 +96,6 @@ Energiesparen beginnt mit einer Zustandsfrage: Was muss in welchem Zustand wirkl
 
 ## Abgrenzung zu Nachbarseiten
 
-Diese Seite erklärt die Ablaufidee von Sleep und Wake-up. Sie ersetzt keine vollständige Low-Power-Datenblattanleitung. Externe Interrupts, Timer und Zustandsmaschinen sind Nachbarseiten.
-
 <div class="note-panel">
   <p><strong>Merke:</strong> Sleep-Mode spart Energie nur als durchdachter Zustand mit passender Weckquelle und ruhiger Peripherieplanung.</p>
 </div>

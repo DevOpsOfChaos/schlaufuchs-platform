@@ -58,8 +58,6 @@ CSS ist nicht nur Gestaltung, sondern Teil des Ladewegs. Bevor der Browser eine 
 .footer-gallery { columns: 3; }
 ```
 
-Das Beispiel ist bewusst klein. Es soll nicht alle Sonderfälle abdecken, sondern den fachlichen Kern sichtbar machen: Erst die Aufgabe verstehen, dann die Browserentscheidung treffen, dann prüfen.
-
 ## Zwei Lesarten vergleichen
 
 <div class="compare-card">

@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Anfrage, Dienst und Antwort als Grundmuster.*
 
 
-
 Das Client-Server-Modell beschreibt eine Rollenverteilung in vernetzten Systemen. Ein Client stellt eine Anfrage, ein Server stellt einen Dienst bereit und beantwortet die Anfrage.
 
 ## Bedeutung

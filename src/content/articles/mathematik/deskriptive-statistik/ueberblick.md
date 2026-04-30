@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt den Weg von Daten über Kennwerte und Diagramme zur Beschreibung.*
 
 
-
 Deskriptive Statistik beschreibt und verdichtet Daten. Sie nutzt Kennwerte, Tabellen und Diagramme, ohne automatisch Ursachen oder Prognosen zu behaupten. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.
 
 ## Einordnung

@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt, wie ein vorhandener Pfad an einer zweiten Stelle sichtbar gemacht wird.*
 
 
-
 Bind Mounts binden ein vorhandenes Verzeichnis an einer anderen Stelle ein. Sie sind wichtig für Container, Chroots und flexible Dateisystemansichten. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.
 
 ## Einordnung

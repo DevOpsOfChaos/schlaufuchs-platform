@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Folge, Auswahl und Schleife als Grundmuster.*
 
 
-
 ## Grundidee
 Kontrollstrukturen steuern den Ablauf eines Programms. Ohne sie würden Anweisungen nur nacheinander ausgeführt. Mit Bedingungen und Schleifen kann ein Programm auf Fälle reagieren, Entscheidungen treffen und wiederholte Aufgaben ausführen.
 

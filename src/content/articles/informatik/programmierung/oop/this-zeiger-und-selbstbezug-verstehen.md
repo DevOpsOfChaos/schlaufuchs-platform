@@ -60,8 +60,6 @@ In einer Instanzmethode geht es immer um **ein konkretes aktuelles Objekt**. `th
   </div>
 </div>
 
-## Diese Seite behandelt bewusst Selbstbezug und nicht Punkt oder Pfeil allgemein
-
 Der Punkt oder Pfeiloperator erklaert, **wie** du von aussen auf ein Objekt zugreifst. `this` erklaert dagegen, wie eine Methode **von innen** auf ihr aktuelles Objekt schaut.
 
 ## Ruhige Pruefstrategie

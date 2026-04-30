@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet Ergebnisse, Wahrscheinlichkeiten und gewichteten Mittelwert ein.*
 
 
-
 Der Erwartungswert beschreibt den durchschnittlich zu erwartenden Wert einer Zufallsgröße bei sehr vielen Wiederholungen.
 
 ## Einordnung

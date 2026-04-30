@@ -74,8 +74,6 @@ Gegen welche Vergleichsspannung?
 Erst danach:
 → Messung tatsächlich starten</code></pre>
 
-## Diese Seite behandelt bewusst Auswahl, nicht schon komplette ADC-Abläufe
-
 Hier geht es um das ruhige Grundverständnis von `ADMUX`: **Was wird ausgewählt und warum?** Messstart, Wandlungsende oder Registerabholung bauen darauf auf und sind eigene Schritte.
 
 ## Eine ruhige Prüfstrategie

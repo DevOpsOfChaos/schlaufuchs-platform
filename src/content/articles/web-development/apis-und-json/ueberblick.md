@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet Anfrage, JSON-Daten und strukturierte Antwort ein.*
 
 
-
 ## Begriff und Zweck
 
 Eine API ist eine Schnittstelle, über die Programme miteinander kommunizieren. Im Web liefern APIs häufig Daten, die eine Oberfläche anzeigt oder verarbeitet. JSON ist ein verbreitetes Textformat für solche Daten, weil es für Maschinen leicht zu lesen und für Menschen noch einigermaßen überschaubar ist.

@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Laden, Entladen und Zeitkonstante eines RC-Glieds.*
 
 
-
 RC-Zeitverhalten beschreibt das zeitliche Laden und Entladen eines Kondensators über einen Widerstand. Es zeigt, dass elektrische Zustände nicht immer schlagartig wechseln, sondern abhängig von Bauteilwerten eine charakteristische Verzögerung besitzen.
 
 ## Bedeutung

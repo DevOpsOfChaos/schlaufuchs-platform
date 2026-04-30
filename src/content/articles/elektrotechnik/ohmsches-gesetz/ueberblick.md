@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild verbindet Spannung, Strom und Widerstand.*
 
 
-
 ## Begriff und Zweck
 
 Das ohmsche Gesetz beschreibt den Zusammenhang zwischen Spannung, Stromstärke und Widerstand. Es gehört zu den zentralen Grundbeziehungen der Elektrotechnik, weil es erklärt, warum bei gleicher Spannung nicht durch jedes Bauteil gleich viel Strom fließt. Die Beziehung ist besonders nützlich für einfache Widerstandsschaltungen, Vorwiderstände, Messungen und Plausibilitätsprüfungen.

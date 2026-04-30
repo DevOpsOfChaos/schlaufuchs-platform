@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet Gate, Lastpfad und Steuerwirkung ein.*
 
 
-
 ## Begriff und Zweck
 
 Ein MOSFET ist ein Transistor, der über eine Gate-Spannung gesteuert wird. Er wird häufig eingesetzt, um Lasten effizient zu schalten, weil er im eingeschalteten Zustand sehr kleinen Widerstand haben kann. Besonders bei LEDs, Motoren, Heizungen oder größeren Strömen ist der MOSFET ein wichtiges Bauteil.

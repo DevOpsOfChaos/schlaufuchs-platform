@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet Länge, Fläche und Volumen mit typischen Einheiten ein.*
 
 
-
 ## Grundidee
 Geometrische Größen beschreiben Eigenschaften von Figuren und Körpern. Länge beschreibt eine Strecke, Umfang den Rand einer Figur, Fläche eine zweidimensionale Ausdehnung, Volumen einen räumlichen Inhalt und Winkel eine Richtungsänderung.
 

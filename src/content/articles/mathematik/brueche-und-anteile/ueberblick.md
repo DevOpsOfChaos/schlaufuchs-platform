@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild verbindet Ganzes, Teil, Zähler und Nenner.*
 
 
-
 ## Begriff und Zweck
 
 Ein Bruch beschreibt einen Anteil eines Ganzen, ein Verhältnis oder eine Division. Zähler und Nenner haben unterschiedliche Rollen: Der Nenner legt die Art der Teile fest, der Zähler zählt, wie viele dieser Teile betrachtet werden. Brüche sind deshalb mehr als eine andere Schreibweise für Dezimalzahlen.

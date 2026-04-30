@@ -96,8 +96,6 @@ Jetzt wird nicht nur der Wert gelesen, sondern auch der passende Schluessel.
   </div>
 </div>
 
-## Diese Seite behandelt bewusst Datenlisten und nicht Zustandswechsel
-
 Hier geht es um Schleifen ueber bereits vorhandene Arrays. Wenn du stattdessen ueber mehrere Requests hinweg Daten behalten oder aufraeumen willst, bist du schon beim Thema Sessions und nicht mehr bei foreach.
 
 ## Eine ruhige Pruefstrategie

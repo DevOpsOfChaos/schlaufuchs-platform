@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Dienst, Journal und Fehlersuche zusammen.*
 
 
-
 Systemlogs zeichnen Ereignisse, Warnungen und Fehler eines Systems auf. Auf vielen modernen Linux-Systemen sammelt systemd-journald diese Meldungen; `journalctl` ist das Werkzeug zur Auswertung.
 
 ## Bedeutung

@@ -74,8 +74,6 @@ Diese drei Schreibweisen sehen unterschiedlich aus. Fachlich koennen sie aber de
   </div>
 </div>
 
-## Diese Seite behandelt bewusst Daten und nicht statische Methoden
-
 Hier geht es um gemeinsame **Klassendaten** und um die Frage, warum verschiedene Schreibweisen auf denselben Wert zeigen. Ob eine Methode statisch oder instanzbezogen ist, ist ein eigenes Thema.
 
 ## Ruhige Pruefstrategie

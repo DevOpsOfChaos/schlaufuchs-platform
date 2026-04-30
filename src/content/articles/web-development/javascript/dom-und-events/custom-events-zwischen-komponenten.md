@@ -16,8 +16,6 @@ draft: false
 ---
 ## Grundidee
 
-Verstehe, wie eigene Events helfen, Komponenten lose zu koppeln, statt direkte Funktionsaufrufe durch die Oberfläche zu ziehen. Diese Seite behandelt das Thema als praktische Entscheidung im Webprojekt: Was sehen Nutzerinnen und Nutzer, was passiert technisch im Hintergrund und wie bleibt die Lösung später wartbar?
-
 <div class="example-card">
   <p class="card-kicker">Leitbeispiel</p>
   <h3>JavaScript – Custom Events zwischen Komponenten</h3>
@@ -58,8 +56,6 @@ const event = new CustomEvent("cart:add", {
 });
 button.dispatchEvent(event);
 ```
-
-Die Demo ist bewusst klein. Sie zeigt nicht die gesamte fertige Anwendung, sondern den entscheidenden Gedanken: erst die Zuständigkeit klären, dann die technische Umsetzung passend wählen.
 
 ## Schwach oder sauber?
 

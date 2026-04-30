@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt den Weg von der Eingabe über Validierung und Rückmeldung zum Absenden.*
 
 
-
 ## Grundidee
 Formulare sind die klassische Möglichkeit, Eingaben im Web zu erfassen. Sie verbinden sichtbare Felder im Browser mit Daten, die an eine Anwendung gesendet oder lokal verarbeitet werden. Gute Formulare sind verständlich, zugänglich und fehlertolerant.
 

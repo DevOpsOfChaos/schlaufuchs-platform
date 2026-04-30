@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild vergleicht Eingaben, Verarbeitung und Rückgabe.*
 
 
-
 ## Begriff
 Funktionen und Prozeduren sind benannte Programmbausteine. Sie fassen Anweisungen zusammen, können Eingaben erhalten und ein Ergebnis zurückgeben oder eine Wirkung auslösen. Der genaue Sprachgebrauch unterscheidet sich je nach Programmiersprache.
 

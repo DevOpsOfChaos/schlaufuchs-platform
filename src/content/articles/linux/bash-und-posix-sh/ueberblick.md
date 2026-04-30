@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt gemeinsame Basis und Bash-spezifische Erweiterungen.*
 
 
-
 Bash und POSIX sh sind verwandte, aber nicht identische Shell-Umgebungen. Viele Skripte laufen
 in Bash, obwohl sie im Shebang nur sh versprechen. Diese Überblicksseite ordnet das Thema ruhig und allgemein ein. Sie ist nicht als Aufgabe oder Einzelfall gedacht, sondern als Einstieg, bevor konkrete Situationen, Werkzeuge, Formeln oder Fehlersuchen betrachtet werden.
 

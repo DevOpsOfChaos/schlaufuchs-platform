@@ -101,8 +101,6 @@ Bei Versorgungsproblemen hilft eine einfache Reihenfolge: erst beobachten, dann 
 
 ## Abgrenzung zu Nachbarseiten
 
-Diese Seite erklärt Versorgung und Entkopplung. Sie ersetzt keine eigene Seite zu ADC-Auflösung, Timerlogik oder UART-Debugging. Gerade deshalb ist sie wichtig: Viele Folgefehler wirken digital, beginnen aber analog in der Versorgung.
-
 <div class="note-panel">
   <p><strong>Merke:</strong> Bevor du einen instabilen Mikrocontroller im Code reparierst, prüfe, ob VCC, GND und Abblockung das Problem überhaupt tragen können.</p>
 </div>

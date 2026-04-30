@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Ursprung, Fremdherkunft und Freigaberegeln.*
 
 
-
 Die Same-Origin-Policy ist eine Sicherheitsregel im Browser. Sie beschränkt, wie Webseiten auf Inhalte anderer Herkunft zugreifen dürfen. CORS ist ein Mechanismus, mit dem Server bestimmte Zugriffe ausdrücklich erlauben können.
 
 ## Bedeutung

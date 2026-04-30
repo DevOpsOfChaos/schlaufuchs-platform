@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild stellt die Grundidee der drei seriellen Schnittstellen nebeneinander.*
 
 
-
 ## Überblick
 UART, I2C und SPI sind digitale Schnittstellen, über die Mikrocontroller mit anderen Bausteinen kommunizieren. Sie übertragen Daten seriell, unterscheiden sich aber stark in Verdrahtung, Organisation, Geschwindigkeit und typischer Anwendung.
 

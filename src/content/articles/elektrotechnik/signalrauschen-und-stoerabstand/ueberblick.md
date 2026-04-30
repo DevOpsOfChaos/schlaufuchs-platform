@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Nutzsignal, Störung und Maßnahmen zur Trennung.*
 
 
-
 Signalrauschen bezeichnet unerwünschte Schwankungen, die einem Nutzsignal überlagert sind. Der Störabstand beschreibt, wie deutlich das Nutzsignal gegenüber solchen Störungen hervortritt.
 
 In realen Schaltungen sind Signale nie vollkommen ideal. Leitungen, Bauteile, Versorgungsspannungen, Temperatur und elektromagnetische Einflüsse können Messwerte und digitale Zustände beeinflussen.

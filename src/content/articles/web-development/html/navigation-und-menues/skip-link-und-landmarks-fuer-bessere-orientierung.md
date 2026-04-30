@@ -49,17 +49,6 @@ Lerne, wie main, nav, header, footer und ein Skip-Link Tastatur- und Screenreade
 
 ## Mini-Demo
 
-<div class="figure-card">
-  <p class="card-kicker">Codeblick</p>
-  <h3>Eine kleine, aber entscheidende Struktur</h3>
-  <pre><code><a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
-<header>...</header>
-<nav aria-label="Hauptnavigation">...</nav>
-<main id="inhalt">...</main>
-<footer>...</footer></code></pre>
-  <p>Die Demo ist bewusst klein. Sie zeigt nicht jedes Detail, sondern den didaktischen Kern: erst Bedeutung klären, dann Code schreiben.</p>
-</div>
-
 ## Schwache und bessere Lesart
 
 <div class="compare-card">
@@ -86,8 +75,6 @@ Lerne, wie main, nav, header, footer und ein Skip-Link Tastatur- und Screenreade
 5. Bleibt der Code wartbar, ohne Spezialtricks zu stapeln?
 
 ## Abgrenzung
-
-Diese Seite behandelt Grundstruktur und Orientierung. Komplexe Menüs, Fokusfallen oder JavaScript-Menüs brauchen eigene Prüfungen. Dadurch bleibt die Seite klar: Sie erklärt eine konkrete Entscheidung und vermischt sie nicht mit allen Nachbarthemen.
 
 <div class="note-panel">
   <p><strong>Merke:</strong> Gute Weboberflächen entstehen selten durch einen einzelnen Trick. Sie entstehen, wenn Inhalt, Semantik, Gestaltung und Verhalten dieselbe Aussage stützen.</p>

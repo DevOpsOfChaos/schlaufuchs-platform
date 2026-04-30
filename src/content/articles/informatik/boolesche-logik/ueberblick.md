@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet Wahrheitswerte, Operatoren und Entscheidungen ein.*
 
 
-
 Boolesche Logik arbeitet mit Wahrheitswerten, meist wahr und falsch. Sie bildet die Grundlage für Bedingungen, Filter, Schaltungen und viele Entscheidungsprozesse in Programmen.
 
 ## Bedeutung

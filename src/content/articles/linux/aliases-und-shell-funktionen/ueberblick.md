@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt, wie Kurzformen und Funktionen Shell-Arbeit wiederholbar machen.*
 
 
-
 Aliases und Shell-Funktionen erlauben, häufig genutzte Befehle abzukürzen oder kleine Abläufe direkt in der Shell zu kapseln.
 
 ## Einordnung

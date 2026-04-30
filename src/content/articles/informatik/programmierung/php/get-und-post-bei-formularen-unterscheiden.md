@@ -68,8 +68,6 @@ Genau daraus ergibt sich oft schon, ob GET oder POST besser passt.
 
 POST ist nicht einfach das magische Sicherheitswort. Die Methode hilft bei der Art der Uebertragung, ersetzt aber nicht weitere Sicherheitslogik, Pruefung oder Transportschutz.
 
-## Diese Seite behandelt bewusst Request Arten und nicht Session Zustand
-
 GET und POST erklaeren, **wie eine einzelne Anfrage ankommt**. Sessions erklaeren dagegen, wie Zustand ueber mehrere Anfragen hinweg erhalten oder beendet wird.
 
 ## Ruhige Pruefstrategie

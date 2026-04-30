@@ -40,4 +40,3 @@ Eine Diode ist kein idealer Ein-Aus-Schalter. Sie hat Spannungsabfall, Grenzwert
 
 ## Abgrenzung
 
-Diese Seite erklärt die allgemeine Einordnung. Detailseiten können Kennlinien, Z-Dioden, LEDs, Gleichrichter oder Schutzschaltungen behandeln.

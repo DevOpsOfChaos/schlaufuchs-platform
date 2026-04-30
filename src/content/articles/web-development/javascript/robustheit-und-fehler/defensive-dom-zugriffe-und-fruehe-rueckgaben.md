@@ -81,13 +81,3 @@ Die Demo ist absichtlich klein. Sie zeigt nicht „die eine perfekte Lösung“,
   </div>
 </div>
 
-## Prüffragen für eigene Seiten
-
-- Funktioniert die Grundidee auch, wenn JavaScript langsam lädt oder ein Element fehlt?
-- Ist sichtbar, was gerade passiert, oder bleibt die Oberfläche stumm?
-- Sind HTML, CSS und JavaScript nach ihren Aufgaben getrennt?
-- Gibt es einen verständlichen Weg zurück, wenn ein Fehler auftritt?
-
-<div class="note-panel">
-  <p><strong>Merke:</strong> Guter JavaScript-Code ist nicht nur kurz. Er macht Zustände, Rückmeldungen und Grenzen so klar, dass Nutzerinnen, Nutzer und spätere Entwicklerinnen ihn nachvollziehen können.</p>
-</div>

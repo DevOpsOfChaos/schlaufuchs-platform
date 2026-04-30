@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet Skript, DOM, Browser-APIs und Ereignisse zusammen.*
 
 
-
 ## Einordnung
 JavaScript ist im Browser die zentrale Sprache für Verhalten. HTML beschreibt Struktur, CSS beschreibt Darstellung, JavaScript reagiert auf Ereignisse, verändert Inhalte, verarbeitet Daten und steuert Zustände. Moderne Webseiten nutzen JavaScript für Navigation, Formulare, Datenabrufe und interaktive Komponenten.
 

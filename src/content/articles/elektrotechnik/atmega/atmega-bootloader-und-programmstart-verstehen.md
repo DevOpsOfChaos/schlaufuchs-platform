@@ -64,8 +64,6 @@ Das Hauptprogramm übernimmt dagegen die eigentliche Projektfunktion, etwa Steue
 
 ## Abgrenzung zu den Nachbarseiten
 
-Diese Seite erklärt bewusst den **Startpfad nach einem Reset**. Sie erklärt nicht im Detail,
-
 - welche Resetquellen es genau gibt,
 - wie Fuse-Bits den Start beeinflussen,
 - oder wie Flash als Speichertyp grundsätzlich aufgebaut ist.

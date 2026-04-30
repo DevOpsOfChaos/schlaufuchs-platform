@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt fachliche Begriffsgrenzen zwischen unterschiedlichen Kontexten.*
 
 
-
 Ein Bounded Context ist ein abgegrenzter Bedeutungsraum, in dem Begriffe, Regeln und Modelle eindeutig gelten.
 
 Diese Überblicksseite ordnet das Thema ruhig und allgemein ein. Sie ist als Einstieg gedacht, bevor einzelne Spezialfälle, Aufgaben oder konkrete Werkzeuge betrachtet werden.

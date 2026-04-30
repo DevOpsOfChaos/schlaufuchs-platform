@@ -71,8 +71,6 @@ Beim ATmega entstehen PWM-Signale aus Timerlogik und Compare-Werten. Genau desha
 1. Welcher Timerzyklus legt die Grundperiode fest?
 2. Welcher Compare-Wert bestimmt, wann innerhalb dieser Periode umgeschaltet wird?
 
-## Diese Seite erklärt bewusst nicht den kompletten PWM-Modusvergleich
-
 Hier geht es nur um die **Trennung von Frequenz und Tastverhältnis**. Die Auswahl bestimmter Timer-Modi oder spezieller Registerpfade kann auf anderen Seiten vertieft werden. So bleibt die Kernaussage klar:
 
 - **Frequenz** = Wie schnell wiederholt sich die Periode?

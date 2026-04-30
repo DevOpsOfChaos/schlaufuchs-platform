@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt den Weg von kontinuierlichen zu diskreten Darstellungen.*
 
 
-
 Analog und digital beschreiben zwei unterschiedliche Arten, Informationen technisch darzustellen. Ein analoges Signal kann innerhalb eines Bereichs viele Zwischenwerte annehmen, ein digitales Signal wird dagegen in unterscheidbare Zustände eingeteilt.
 
 ## Einordnung

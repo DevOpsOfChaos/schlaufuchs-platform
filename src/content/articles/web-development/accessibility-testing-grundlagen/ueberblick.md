@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet automatische Prüfungen, Tastaturtests und Screenreader-Checks ein.*
 
 
-
 Accessibility Testing bezeichnet ein Grundthema im Bereich Webseiten, Browser, Schnittstellen
 und Bedienoberflächen. Der Begriff hilft, einzelne Spezialfälle einzuordnen und typische
 Entscheidungen besser zu verstehen. Diese Überblicksseite ist bewusst allgemein gehalten. Sie soll kein Aufgabenformat und keine Spezialanleitung sein, sondern eine ruhige Einordnung liefern.

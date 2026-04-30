@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild verbindet erlaubte Eingaben mit möglichen Ausgaben.*
 
 
-
 Die Definitionsmenge beschreibt erlaubte Eingabewerte einer Funktion. Der Wertebereich beschreibt, welche Ausgabewerte tatsächlich auftreten können.
 
 ## Einordnung

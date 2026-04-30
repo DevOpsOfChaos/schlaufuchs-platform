@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt den Zusammenhang von Grundwert, Prozentsatz und Prozentwert.*
 
 
-
 ## Grundidee
 Prozent bedeutet „von hundert“. Eine Prozentangabe beschreibt einen Anteil bezogen auf einen Grundwert. 25 Prozent heißt 25 von 100 Teilen des betrachteten Ganzen. Ohne Grundwert ist eine Prozentangabe oft unvollständig.
 

@@ -240,6 +240,3 @@ delete p;
 3. Nutzungsphase markieren.
 4. Prüfen, ob genau dieser Bereich wieder mit delete endet.</code></pre>
 
-<div class="note-panel">
-  <p><strong>Merke:</strong> Diese Seite erklärt zuerst nur das saubere Paar <code>new</code> → benutzen → <code>delete</code>. Erst wenn dieses Grundmuster sitzt, lohnen sich die spezielleren Fehlerbilder wirklich.</p>
-</div>

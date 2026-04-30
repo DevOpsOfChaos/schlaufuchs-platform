@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Wurzel, Knoten und Blätter als hierarchische Ordnung.*
 
 
-
 Eine Baumstruktur ordnet Elemente hierarchisch. Jeder Knoten kann untergeordnete Knoten besitzen.
 
 Bäume bilden viele natürliche Strukturen ab, etwa Dateisysteme, Dokumentbäume oder Entscheidungswege.

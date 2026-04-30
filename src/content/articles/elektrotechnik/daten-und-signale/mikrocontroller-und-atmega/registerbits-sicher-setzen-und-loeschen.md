@@ -107,8 +107,6 @@ Eine direkte Zuweisung wie `DDRB = 0b00001000;` kann in einfachen Beispielen fun
 
 ## Abgrenzung
 
-Diese Seite erklärt die **Bitoperationen selbst**. Sie ersetzt nicht die Seiten zu `DDRx`, `PORTx` und `PINx`, sondern macht deren Code lesbarer. Wer Registerbits sicher lesen kann, versteht danach auch Taster, LEDs, Pull-ups, Timer-Flags und Interrupt-Masken deutlich ruhiger.
-
 <div class="note-panel">
   <p><strong>Merke:</strong> Gute Registerarbeit ist selten „Register komplett neu schreiben“. Meist heißt sie: ein Bit gezielt ändern und alle anderen Bits schützen.</p>
 </div>

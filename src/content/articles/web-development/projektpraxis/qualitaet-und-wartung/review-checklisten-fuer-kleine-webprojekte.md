@@ -25,7 +25,6 @@ Auch kleine Webprojekte profitieren von festen Prüffragen. Eine gute Checkliste
 </div>
 
 
-
 ## Mini-Demo: Vier Blickrichtungen reichen oft
 
 ```html
@@ -34,8 +33,6 @@ Auch kleine Webprojekte profitieren von festen Prüffragen. Eine gute Checkliste
 3. Sind Fehlermeldungen verständlich?
 4. Gibt es unnötige Wiederholungen im Code?
 ```
-
-Das Beispiel ist bewusst klein. Es zeigt nicht jede mögliche Sonderregel, sondern den Kern der Entscheidung. Genau dadurch lässt sich die Idee auf echte Projekte übertragen.
 
 <div class="compare-card">
   <p class="card-kicker">Gut gegen schwach</p>

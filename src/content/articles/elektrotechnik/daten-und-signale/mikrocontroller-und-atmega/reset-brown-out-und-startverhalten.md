@@ -96,8 +96,6 @@ Beim Startverhalten geht es um Sicherheit und Eindeutigkeit. Du prüfst nicht nu
 
 ## Abgrenzung zu Nachbarseiten
 
-Diese Seite erklärt Reset und Brown-out als Start- und Schutzlogik. Sie ist keine vollständige Fuse-Anleitung und keine Netzteilauslegung. Für Versorgungsdetails gehört die Abblockseite dazu.
-
 <div class="note-panel">
   <p><strong>Merke:</strong> Ein guter Mikrocontroller-Start ist nicht nur schnell, sondern definiert und sicher.</p>
 </div>

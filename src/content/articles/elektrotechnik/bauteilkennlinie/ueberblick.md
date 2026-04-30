@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt eine Kennlinie als Beziehung zwischen elektrischen Größen.*
 
 
-
 Eine Bauteilkennlinie zeigt, wie sich ein Bauteil unter verschiedenen elektrischen Bedingungen verhält. Meist wird ein Zusammenhang zwischen Spannung und Strom dargestellt, manchmal auch zwischen Temperatur, Licht, Drehzahl oder anderen Größen.
 
 ## Bedeutung im Zusammenhang

@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Quellenregeln als Schutz gegen unerwünschte Ressourcen und Skripte.*
 
 
-
 Content Security Policy, kurz CSP, legt fest, aus welchen Quellen Skripte, Styles, Bilder, Fonts oder Frames geladen werden dürfen.
 
 ## Einordnung

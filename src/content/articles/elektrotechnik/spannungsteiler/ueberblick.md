@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Quelle, Widerstände und die abgegriffene Teilspannung.*
 
 
-
 ## Begriff und Zweck
 
 Ein Spannungsteiler besteht meist aus zwei Widerständen, die in Reihe zwischen einer Versorgung und Masse liegen. Am Verbindungspunkt entsteht eine Teilspannung. Diese einfache Schaltung ist wichtig, weil viele Mess-, Sensor- und Anpassungsschaltungen darauf beruhen. Sie zeigt außerdem, dass Spannungen in einer Reihenschaltung von den Widerstandsverhältnissen abhängen.

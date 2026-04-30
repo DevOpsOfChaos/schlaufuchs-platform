@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt, wie Details ausgeblendet werden, damit das Wesentliche sichtbar bleibt.*
 
 
-
 Abstraktion bedeutet, wichtige Eigenschaften hervorzuheben und unwichtige Details vorübergehend auszublenden. In der Informatik hilft sie, komplexe Systeme verständlich, nutzbar und wartbar zu machen. Programme, Datenmodelle, Schnittstellen und Algorithmen beruhen auf passenden Abstraktionen.
 
 ## Einordnung

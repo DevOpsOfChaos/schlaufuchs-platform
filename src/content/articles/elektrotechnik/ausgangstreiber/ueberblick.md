@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt, wie ein Logiksignal über einen Treiber eine Last ansteuert.*
 
 
-
 Ein Ausgangstreiber ist der Teil einer Schaltung, der ein Signal nicht nur logisch erzeugt, sondern auch elektrischen Strom liefern oder aufnehmen kann. Er verbindet Logikpegel mit realen Lasten. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.
 
 ## Einordnung

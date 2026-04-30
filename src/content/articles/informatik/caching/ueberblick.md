@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt schnellen Zwischenspeicher zwischen Anfrage und Datenquelle.*
 
 
-
 Caching speichert bereits berechnete oder geladene Daten zwischen, damit spätere Zugriffe schneller sind. Ein Cache kann im Browser, im Arbeitsspeicher, auf Festplatte, in Datenbanken, in CDNs oder in Anwendungen liegen. Er nutzt die Annahme, dass bestimmte Daten wiederverwendet werden.
 
 ## Einordnung

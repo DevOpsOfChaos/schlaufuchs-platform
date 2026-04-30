@@ -157,8 +157,6 @@ Sichtbar steht hier <code>Entfernen</code>, technisch aber <code>Löschen</code>
   </div>
 </div>
 
-## Diese Seite behandelt bewusst Buttons, nicht Formularlabels
-
 Hier geht es um die **Benennung von Bedienelementen** wie Buttons oder Toolbar-Icons. Die Frage, warum ein Formularfeld ein sichtbares `<label>` braucht und warum ein Placeholder das nicht ersetzt, gehört auf die eigene Formularseite.
 
 ## Mini-Prüfbild für den Kopf

@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt, wie URL-Änderungen und Ansichtswechsel im Browser zusammenhängen.*
 
 
-
 Clientseitiges Routing bedeutet, dass der Browser beim Navigieren Teile der Oberfläche austauscht, ohne für jede Ansicht eine vollständig neue HTML-Seite vom Server zu laden.
 
 Single-Page-Anwendungen nutzen dieses Prinzip häufig. Es kann Übergänge flüssiger machen, bringt aber Anforderungen an URLs, History, Ladezustände und Barrierefreiheit mit sich.

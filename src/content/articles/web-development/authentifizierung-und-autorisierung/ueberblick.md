@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild trennt Identitätsprüfung und Rechteentscheidung.*
 
 
-
 Authentifizierung klärt, wer eine Person oder ein System ist. Autorisierung klärt, was diese Identität tun darf. Beide Begriffe hängen zusammen, sind aber nicht dasselbe. Eine erfolgreiche Anmeldung bedeutet noch nicht, dass jeder Zugriff erlaubt ist.
 
 ## Einordnung

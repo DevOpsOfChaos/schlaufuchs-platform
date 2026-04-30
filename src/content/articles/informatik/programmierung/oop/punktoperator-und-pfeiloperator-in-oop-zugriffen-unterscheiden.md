@@ -71,8 +71,6 @@ Der Pfeiloperator bedeutet: **Hier liegt ein Zeiger auf ein Objekt vor.** Erst u
   </div>
 </div>
 
-## Diese Seite behandelt bewusst Zugriffswege und nicht Klassenbezug
-
 Der Punkt- oder Pfeiloperator hat nichts mit statischer Klassenlogik zu tun. Hier geht es nur darum, ob ein Zugriff **direkt** auf ein Objekt geht oder **indirekt** ueber einen Zeiger.
 
 ## Ruhige Pruefstrategie

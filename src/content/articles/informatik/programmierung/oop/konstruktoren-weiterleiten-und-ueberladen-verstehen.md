@@ -71,8 +71,6 @@ Diese Frage ist didaktisch hilfreicher als nur zu zaehlen, wie viele Konstruktor
   </section>
 </div>
 
-## Diese Seite behandelt bewusst nur Startwege innerhalb einer Klasse
-
 Sobald beim Erzeugen eines Objekts auch eine Basisklasse beteiligt ist, geht es nicht mehr um Delegation innerhalb derselben Klasse, sondern um Konstruktoraufrufe in der Vererbung. Das ist ein eigenes Thema.
 
 ## Ruhige Lesestrategie

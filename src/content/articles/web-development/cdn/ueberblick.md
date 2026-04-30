@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt, wie Inhalte über näher gelegene Knoten ausgeliefert werden.*
 
 
-
 Content Delivery Network (CDN) bezeichnet ein Grundthema im Bereich Webseiten, Browser,
 Schnittstellen und Bedienoberflächen. Der Begriff hilft, einzelne Spezialfälle einzuordnen und
 typische Entscheidungen besser zu verstehen. Diese Überblicksseite ist bewusst allgemein gehalten. Sie soll kein Aufgabenformat und keine Spezialanleitung sein, sondern eine ruhige Einordnung liefern.

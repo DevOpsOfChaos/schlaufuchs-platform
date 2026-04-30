@@ -68,8 +68,6 @@ Ohne Pull-up-Widerstände gäbe es keinen ruhigen High-Pegel, zu dem die Leitung
 - Teilnehmer erzeugen Low aktiv.
 - Das Zusammenspiel ergibt das typische TWI-Busverhalten.
 
-## Diese Seite behandelt bewusst das Leitungsprinzip, nicht den kompletten Start/ACK-Ablauf
-
 Hier geht es um die **elektrische und logische Grundidee der Leitung**. Die Frage, wie Startbedingung, Adresse und ACK im Ablauf zusammenspielen, gehört auf die vorhandene TWI-Ablauf-Seite.
 
 ## Eine ruhige Prüfstrategie

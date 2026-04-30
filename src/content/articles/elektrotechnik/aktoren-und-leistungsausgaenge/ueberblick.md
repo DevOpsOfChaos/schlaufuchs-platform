@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet Steuersignal, Treiber und Lastwirkung ein.*
 
 
-
 Aktoren sind Bauteile, die elektrische Signale in eine Wirkung umsetzen. Dazu gehören LEDs, Relais, Motoren, Summer, Ventile, Heizungen oder Displays.
 
 ## Bedeutung

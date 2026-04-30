@@ -66,8 +66,6 @@ Viele Codebeispiele zeigen nur Namen und Klassen. Das eigentliche Denkbild ist a
   </section>
 </div>
 
-## Diese Seite behandelt bewusst den Zeitpunkt der Methodenwahl
-
 `virtual` und `override` sind die sichtbaren Sprachmittel. Hier geht es noch abstrakter um die Frage, **wann** die Entscheidung faellt.
 
 ## Ruhige Pruefstrategie

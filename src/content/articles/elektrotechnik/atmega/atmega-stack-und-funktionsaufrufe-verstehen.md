@@ -121,9 +121,6 @@ Sondern auch:
 
 ## Abgrenzung zu den Nachbarseiten
 
-Diese Seite erklärt die **Grundidee des Stacks für Programmablauf und Rücksprünge**.  
-Sie behandelt bewusst noch nicht im Detail,
-
 - wie lokale Variablen auf dem Stack liegen,
 - wie Stack Overflow praktisch aussieht,
 - oder welche Details der Stack Pointer in jedem Gerätedatenblatt hat.

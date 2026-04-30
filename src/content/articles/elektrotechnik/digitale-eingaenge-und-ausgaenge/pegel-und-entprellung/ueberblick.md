@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt den Weg vom mechanischen Taster über Prellen und Entprellung zum stabilen Digitalsignal.*
 
 
-
 ## Begriff
 Digitale Schaltungen arbeiten oft mit den Zuständen High und Low. Diese Zustände sind aber keine abstrakten Wörter, sondern werden durch Spannungsbereiche dargestellt. Ein Mikrocontroller erkennt also nicht „gedrückt“ oder „nicht gedrückt“, sondern vergleicht eine Eingangsspannung mit internen Schwellen. Zwischen einem sicheren Low und einem sicheren High kann es Übergangsbereiche geben, in denen das Verhalten nicht zuverlässig ist.
 

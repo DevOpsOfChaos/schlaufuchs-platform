@@ -59,8 +59,6 @@ In Vererbungshierarchien gibt es nicht nur eine Methode pro Name. Es kann sein, 
   <p>Eine Unterklasse kann eine eigene Variante von <code>anzeigen()</code> besitzen. Wenn du trotzdem gezielt die geerbte Sicht der Basisklasse brauchst, macht der Bereichsoperator diese Rueckkehr explizit sichtbar.</p>
 </div>
 
-## Diese Seite behandelt bewusst den Rueckgriff auf die Basis
-
 Hier geht es nicht um die allgemeine Frage, ob ueberschrieben oder ueberladen wurde, sondern um den bewussten Zugriff auf eine **bestimmte Klassenebene**.
 
 ## Ruhige Pruefstrategie

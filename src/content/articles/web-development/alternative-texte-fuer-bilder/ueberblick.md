@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt, wann ein Bild Information trägt und wie der Alternativtext diese ersetzt.*
 
 
-
 Alternativer Text beschreibt den relevanten Inhalt oder Zweck eines Bildes, wenn das Bild nicht gesehen oder geladen werden kann.
 
 Bilder können Information, Stimmung, Navigation oder reine Dekoration sein. Der passende Alternativtext hängt davon ab, welche Aufgabe das Bild im konkreten Kontext erfüllt.

@@ -18,12 +18,6 @@ draft: false
 
 sudo gibt einem Befehl mehr Rechte. Das löst manche Verwaltungsaufgaben, kann aber ein falsches Verständnis von Besitz, Pfad oder Dateirechten verdecken.
 
-<div class="example-card">
-  <p class="card-kicker">Unterthema</p>
-  <h3>Rechteentscheidung: kleine Frage statt Sammelbox</h3>
-  <p>Diese Seite behandelt bewusst nur einen abgegrenzten Ausschnitt. Dadurch bleibt klar, welche Entscheidung trainiert wird und welche Nachbarfragen auf andere Seiten gehören.</p>
-</div>
-
 <div class="figure-card">
   <p class="card-kicker">Visualisierung</p>
   <h3>Vom Eindruck zur Gegenprobe</h3>

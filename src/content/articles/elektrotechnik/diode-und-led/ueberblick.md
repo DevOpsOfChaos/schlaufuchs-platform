@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet Stromrichtung, Sperrwirkung und Lichtemission ein.*
 
 
-
 ## Begriff und Zweck
 
 Eine Diode leitet Strom bevorzugt in eine Richtung und sperrt in die andere. Dadurch eignet sie sich für Gleichrichtung, Schutzschaltungen und Signalbegrenzung. Eine LED ist eine besondere Diode, die bei Stromfluss Licht abgibt. Beide Bauteile sind nicht wie normale Widerstände zu behandeln, weil ihr Verhalten stark von der Richtung und der Spannung abhängt.

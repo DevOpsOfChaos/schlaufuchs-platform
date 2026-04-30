@@ -39,8 +39,6 @@ Nicht jeder Fehler muss sofort mit einer großen neuen Änderung beantwortet wer
 4. nach der Korrektur beobachten
 ```
 
-Die Mini-Demo ist bewusst klein. Sie zeigt nicht jede mögliche Sonderregel, sondern die Denkbewegung: erst Zustand verstehen, dann Risiko begrenzen, dann mit einer konkreten Gegenprobe prüfen.
-
 <div class="compare-card">
   <p class="card-kicker">Gut gegen schwach</p>
   <h3>Woran du die Qualität erkennst</h3>

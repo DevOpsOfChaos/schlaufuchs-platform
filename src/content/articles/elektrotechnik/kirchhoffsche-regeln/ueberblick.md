@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Knotenregel und Maschenregel als Erhaltungsprinzipien.*
 
 
-
 Die Kirchhoffschen Regeln beschreiben, wie Strom und Spannung in elektrischen Netzwerken zusammenhängen. Sie sind Bilanzregeln: Was an einem Knoten an Strom hineinfließt, muss wieder herausfließen; Spannungen in einer geschlossenen Masche summieren sich mit Vorzeichen zu null.
 
 ## Bedeutung

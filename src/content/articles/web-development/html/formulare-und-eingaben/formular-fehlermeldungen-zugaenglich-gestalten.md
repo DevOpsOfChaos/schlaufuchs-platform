@@ -49,16 +49,6 @@ Lerne, Fehlermeldungen in Formularen so zu formulieren und zu verknüpfen, dass 
 
 ## Mini-Demo
 
-<div class="figure-card">
-  <p class="card-kicker">Codeblick</p>
-  <h3>Eine kleine, aber entscheidende Struktur</h3>
-  <pre><code><label for="email">E-Mail</label>
-<input id="email" name="email" aria-invalid="true" aria-describedby="email-help email-error">
-<p id="email-help">Wir verwenden die Adresse nur für die Anmeldung.</p>
-<p id="email-error">Bitte gib eine vollständige E-Mail-Adresse ein.</p></code></pre>
-  <p>Die Demo ist bewusst klein. Sie zeigt nicht jedes Detail, sondern den didaktischen Kern: erst Bedeutung klären, dann Code schreiben.</p>
-</div>
-
 ## Schwache und bessere Lesart
 
 <div class="compare-card">
@@ -85,8 +75,6 @@ Lerne, Fehlermeldungen in Formularen so zu formulieren und zu verknüpfen, dass 
 5. Bleibt der Code wartbar, ohne Spezialtricks zu stapeln?
 
 ## Abgrenzung
-
-Diese Seite behandelt Fehlermeldungen und Feldbezug. Serverseitige Sicherheit, Datenbankvalidierung und komplexe Formularzustände gehören auf eigene Seiten. Dadurch bleibt die Seite klar: Sie erklärt eine konkrete Entscheidung und vermischt sie nicht mit allen Nachbarthemen.
 
 <div class="note-panel">
   <p><strong>Merke:</strong> Gute Weboberflächen entstehen selten durch einen einzelnen Trick. Sie entstehen, wenn Inhalt, Semantik, Gestaltung und Verhalten dieselbe Aussage stützen.</p>

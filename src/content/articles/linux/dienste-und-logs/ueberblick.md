@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt, wie Dienste laufen und wie Logs bei der Fehlersuche helfen.*
 
 
-
 ## Dienste
 Dienste sind Programme, die im Hintergrund Funktionen bereitstellen. Beispiele sind Webserver, Datenbanken, SSH-Server oder Zeitdienste. Sie werden häufig durch systemd verwaltet. Ein Dienst kann aktiv, fehlgeschlagen, deaktiviert oder nur bei Bedarf gestartet sein.
 

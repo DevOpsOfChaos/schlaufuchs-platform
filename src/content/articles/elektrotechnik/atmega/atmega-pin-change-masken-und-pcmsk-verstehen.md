@@ -84,8 +84,6 @@ Die ruhige Lesart ist:
 
 ## Externer Interrupt ist nicht dasselbe
 
-Diese Seite behandelt **Pin-Change-Interrupts**. Externe Interrupts mit eigener, fest definierter Quelle und eigener Logik sind ein anderes Thema. Beide reagieren auf Signaländerungen, aber die Freigabelogik und die didaktische Denkweise sind nicht identisch.
-
 ## Drei typische Denkfehler
 
 <div class="comparison-grid">

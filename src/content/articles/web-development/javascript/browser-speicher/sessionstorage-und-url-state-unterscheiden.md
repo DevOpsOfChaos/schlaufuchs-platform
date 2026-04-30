@@ -16,8 +16,6 @@ draft: false
 ---
 ## Grundidee
 
-Lerne, wann ein Zustand in die URL gehört und wann sessionStorage für temporäre Bedienzustände besser passt. Diese Seite behandelt das Thema als praktische Entscheidung im Webprojekt: Was sehen Nutzerinnen und Nutzer, was passiert technisch im Hintergrund und wie bleibt die Lösung später wartbar?
-
 <div class="example-card">
   <p class="card-kicker">Leitbeispiel</p>
   <h3>Browser – sessionStorage und URL-Zustand unterscheiden</h3>
@@ -56,8 +54,6 @@ const params = new URLSearchParams(location.search);
 const query = params.get("q") ?? "";
 sessionStorage.setItem("sidebar-open", "true");
 ```
-
-Die Demo ist bewusst klein. Sie zeigt nicht die gesamte fertige Anwendung, sondern den entscheidenden Gedanken: erst die Zuständigkeit klären, dann die technische Umsetzung passend wählen.
 
 ## Schwach oder sauber?
 

@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt zentrale Einflussfaktoren auf Ladezeit und Reaktionsgeschwindigkeit.*
 
 
-
 ## Begriff
 Web-Performance beschreibt, wie schnell und flüssig eine Webseite für Nutzende wirkt. Dazu gehören erste sichtbare Inhalte, vollständiges Laden, stabile Darstellung und schnelle Reaktion auf Eingaben. Performance ist damit ein Teil der Benutzerfreundlichkeit.
 

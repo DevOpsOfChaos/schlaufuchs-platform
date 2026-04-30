@@ -18,12 +18,6 @@ draft: false
 
 Ohne passenden Trigger läuft ein Signal scheinbar über den Bildschirm. Der Trigger legt fest, bei welchem Ereignis die Darstellung beginnt. Dadurch wird ein periodisches Signal vergleichbar.
 
-<div class="example-card">
-  <p class="card-kicker">Unterthema</p>
-  <h3>Oszilloskop: kleine Frage statt Sammelbox</h3>
-  <p>Diese Seite behandelt bewusst nur einen abgegrenzten Ausschnitt. Dadurch bleibt klar, welche Entscheidung trainiert wird und welche Nachbarfragen auf andere Seiten gehören.</p>
-</div>
-
 <div class="figure-card">
   <p class="card-kicker">Visualisierung</p>
   <h3>Vom Eindruck zur Gegenprobe</h3>

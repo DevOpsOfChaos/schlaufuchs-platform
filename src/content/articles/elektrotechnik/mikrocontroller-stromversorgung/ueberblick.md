@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt den Weg von der Quelle über die Regelung bis zum versorgten Mikrocontroller.*
 
 
-
 ## Grundidee
 Ein Mikrocontroller benötigt eine Versorgungsspannung innerhalb eines zulässigen Bereichs und ein gemeinsames Bezugspotential. Viele Fehler entstehen nicht durch falsch programmierten Code, sondern durch instabile Versorgung, schlechte Masseverbindungen, fehlende Entkopplung oder Lasten, die zu viel Strom ziehen.
 

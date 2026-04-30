@@ -90,8 +90,6 @@ Bilder sind im Web nicht nur Schmuck. Sie transportieren Informationen, unterst√
   &lt;img src="lupe.svg" alt="Suche" /&gt;
 &lt;/a&gt;</code></pre>
 
-## Diese Seite behandelt bewusst den Bildzweck
-
 Die wichtigste Frage lautet nicht: Wie sieht das Bild aus? Sondern: **Wozu ist dieses Bild hier da?** Erst daraus ergibt sich, ob man Information, Funktion oder gar nichts formulieren sollte.
 
 <div class="figure-card">

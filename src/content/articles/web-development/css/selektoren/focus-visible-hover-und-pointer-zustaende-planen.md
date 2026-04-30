@@ -54,13 +54,6 @@ Verstehe, warum Interaktionszustände nicht nur hübsch sein dürfen, sondern Ta
   <h3>Eine kleine, aber entscheidende Struktur</h3>
   <pre><code>a:hover { text-decoration-thickness: 0.18em; }
 
-a:focus-visible {
-  outline: 3px solid currentColor;
-  outline-offset: 0.2rem;
-}</code></pre>
-  <p>Die Demo ist bewusst klein. Sie zeigt nicht jedes Detail, sondern den didaktischen Kern: erst Bedeutung klären, dann Code schreiben.</p>
-</div>
-
 ## Schwache und bessere Lesart
 
 <div class="compare-card">
@@ -87,8 +80,6 @@ a:focus-visible {
 5. Bleibt der Code wartbar, ohne Spezialtricks zu stapeln?
 
 ## Abgrenzung
-
-Diese Seite behandelt CSS-Zustände. Komplexe Menüs mit JavaScript-Fokusmanagement brauchen zusätzliche Logik. Dadurch bleibt die Seite klar: Sie erklärt eine konkrete Entscheidung und vermischt sie nicht mit allen Nachbarthemen.
 
 <div class="note-panel">
   <p><strong>Merke:</strong> Gute Weboberflächen entstehen selten durch einen einzelnen Trick. Sie entstehen, wenn Inhalt, Semantik, Gestaltung und Verhalten dieselbe Aussage stützen.</p>

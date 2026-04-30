@@ -78,8 +78,6 @@ Eine Session speichert Zustand serverseitig. Damit derselbe Benutzer spaeter wie
 
 Wenn der Browser bei spaeteren Requests dieselbe Session ID weiterliefert, kann das System eine Sitzung moeglicherweise wiedererkennen. Darum gehoert das Cookie fachlich mit zur Gesamtlogik des Zustands.
 
-## Diese Seite behandelt bewusst Session Ende und nicht Request Arten
-
 Hier geht es um Zustand ueber mehrere Anfragen hinweg. Die Frage, wie Formulardaten per GET oder POST ankommen, ist eine andere Ebene und gehoert auf die eigene Request Seite.
 
 <div class="note-panel">

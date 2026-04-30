@@ -22,8 +22,6 @@ HTML beschreibt die Struktur, CSS die Darstellung und JavaScript kann über das 
 
 ## Warum das Thema wichtig ist
 
-Ohne Überblick wirken Detailseiten schnell wie voneinander getrennte Einzelfälle. Diese Seite erklärt deshalb zuerst den allgemeinen Zusammenhang, bevor konkrete Situationen, Aufgaben oder Fehlerbilder behandelt werden.
-
 ## Zentrale Bestandteile
 
 - **DOM-Knoten:** Ein Element, Text oder anderer Bestandteil des Dokumentbaums.

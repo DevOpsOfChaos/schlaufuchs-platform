@@ -58,10 +58,6 @@ Lerne, wie Flexbox mit verfügbarem Platz, Umbruch und Abstand umgeht und warum 
   gap: 0.6rem;
 }
 
-.chip { flex: 0 1 auto; }</code></pre>
-  <p>Die Demo ist bewusst klein. Sie zeigt nicht jedes Detail, sondern den didaktischen Kern: erst Bedeutung klären, dann Code schreiben.</p>
-</div>
-
 ## Schwache und bessere Lesart
 
 <div class="compare-card">
@@ -88,8 +84,6 @@ Lerne, wie Flexbox mit verfügbarem Platz, Umbruch und Abstand umgeht und warum 
 5. Bleibt der Code wartbar, ohne Spezialtricks zu stapeln?
 
 ## Abgrenzung
-
-Diese Seite behandelt einfache Flex-Zeilen. Komplexe zweidimensionale Kartenlayouts passen oft besser zu CSS Grid. Dadurch bleibt die Seite klar: Sie erklärt eine konkrete Entscheidung und vermischt sie nicht mit allen Nachbarthemen.
 
 <div class="note-panel">
   <p><strong>Merke:</strong> Gute Weboberflächen entstehen selten durch einen einzelnen Trick. Sie entstehen, wenn Inhalt, Semantik, Gestaltung und Verhalten dieselbe Aussage stützen.</p>

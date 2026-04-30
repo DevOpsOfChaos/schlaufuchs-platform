@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild verbindet Schnittstelle, Adresse, Route und Ziel.*
 
 
-
 Ein Netzwerkinterface ist eine Schnittstelle, über die ein System Netzwerkpakete senden und empfangen kann. Es kann eine physische Netzwerkkarte, WLAN-Schnittstelle, virtuelle Bridge, Loopback oder Container-Schnittstelle sein.
 
 ## Bedeutung im Zusammenhang

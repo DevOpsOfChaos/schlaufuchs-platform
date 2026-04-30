@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt, wie Adapter eine Grenze zwischen Domäne und Außenwelt bilden.*
 
 
-
 Eine Boundary beschreibt eine Grenze zwischen Kernlogik und Außenwelt. Ein Adapter übersetzt zwischen dieser Grenze und konkreten Technologien.
 
 ## Einordnung

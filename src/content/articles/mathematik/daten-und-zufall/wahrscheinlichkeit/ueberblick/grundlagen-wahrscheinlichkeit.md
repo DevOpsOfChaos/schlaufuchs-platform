@@ -22,8 +22,6 @@ Das Thema verbindet Alltagssprache mit mathematischer Modellierung. Begriffe wie
 
 ## Warum das Thema wichtig ist
 
-Ohne Überblick wirken Detailseiten schnell wie voneinander getrennte Einzelfälle. Diese Seite erklärt deshalb zuerst den allgemeinen Zusammenhang, bevor konkrete Situationen, Aufgaben oder Fehlerbilder behandelt werden.
-
 ## Zentrale Bestandteile
 
 - **Zufallsexperiment:** Ein Vorgang mit bekanntem möglichen Ausgangsraum, aber ungewissem Ergebnis.

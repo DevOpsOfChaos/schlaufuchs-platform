@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet Hardware, Kernel, Dienste und Anwendungen als Schichten ein.*
 
 
-
 Ein Betriebssystem verwaltet grundlegende Ressourcen eines Computers und vermittelt zwischen Hardware, Programmen und Nutzenden.
 
 ## Einordnung

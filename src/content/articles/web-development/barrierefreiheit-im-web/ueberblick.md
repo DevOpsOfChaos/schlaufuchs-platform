@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild verbindet Struktur, Tastaturbedienung, Screenreader und Nutzbarkeit.*
 
 
-
 ## Begriff
 Barrierefreiheit im Web bedeutet, dass Webseiten von möglichst vielen Menschen genutzt werden können. Dazu gehören Menschen mit Seh-, Hör-, Motorik- oder kognitiven Einschränkungen, aber auch temporäre oder situative Einschränkungen wie grelles Licht, kleine Bildschirme oder eine kaputte Maus.
 

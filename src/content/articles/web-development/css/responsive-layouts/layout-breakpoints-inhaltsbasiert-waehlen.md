@@ -42,8 +42,6 @@ Breakpoints sind keine Liste beliebter Gerätebreiten. Sie sind Stellen, an dene
 }
 ```
 
-Das Beispiel ist bewusst klein. Es zeigt nicht jede mögliche Sonderregel, sondern den Kern der Entscheidung. Genau dadurch lässt sich die Idee auf echte Projekte übertragen.
-
 <div class="compare-card">
   <p class="card-kicker">Gut gegen schwach</p>
   <h3>Woran du die Qualität erkennst</h3>

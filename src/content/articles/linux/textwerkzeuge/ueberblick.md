@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet typische Textwerkzeuge als kleine Verarbeitungskette ein.*
 
 
-
 ## Grundidee
 Linux-Werkzeuge behandeln viele Informationen als Text. Konfigurationsdateien, Logs, Prozesslisten und Kommandoausgaben lassen sich lesen, filtern und weiterverarbeiten. Dadurch entsteht eine Arbeitsweise, bei der kleine Programme jeweils eine begrenzte Aufgabe übernehmen.
 

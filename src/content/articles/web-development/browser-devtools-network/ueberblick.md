@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt, wie Requests, Statuscodes und Ladezeiten sichtbar werden.*
 
 
-
 Das Network-Panel zeigt, welche Anfragen eine Webseite auslöst, welche Antworten zurückkommen und wie lange einzelne Ressourcen benötigen. Es macht sichtbar, was sonst nur indirekt über Ladezeit oder Fehler bemerkbar wäre.
 
 ## Bedeutung im Zusammenhang

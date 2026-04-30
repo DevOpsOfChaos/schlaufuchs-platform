@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt, wie Basisvektoren einen Raum aufspannen.*
 
 
-
 Eine Basis ist eine Menge von Vektoren, mit denen jeder Vektor eines Raums eindeutig dargestellt
 werden kann. Die Dimension ist die Anzahl der Basisvektoren. Diese Überblicksseite ordnet das Thema ruhig und allgemein ein. Sie ist nicht als Aufgabe oder Einzelfall gedacht, sondern als Einstieg, bevor konkrete Situationen, Werkzeuge, Formeln oder Fehlersuchen betrachtet werden.
 

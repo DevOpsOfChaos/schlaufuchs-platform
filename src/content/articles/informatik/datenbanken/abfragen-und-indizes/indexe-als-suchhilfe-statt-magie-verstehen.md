@@ -18,12 +18,6 @@ draft: false
 
 Ein Index macht nicht jede Datenbank automatisch schneller. Er hilft vor allem, wenn oft nach bestimmten Spalten gesucht, sortiert oder verbunden wird.
 
-<div class="example-card">
-  <p class="card-kicker">Unterthema</p>
-  <h3>Datenbankindex: kleine Frage statt Sammelbox</h3>
-  <p>Diese Seite behandelt bewusst nur einen abgegrenzten Ausschnitt. Dadurch bleibt klar, welche Entscheidung trainiert wird und welche Nachbarfragen auf andere Seiten gehören.</p>
-</div>
-
 <div class="figure-card">
   <p class="card-kicker">Visualisierung</p>
   <h3>Vom Eindruck zur Gegenprobe</h3>

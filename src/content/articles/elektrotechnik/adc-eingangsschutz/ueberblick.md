@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt typische Schutzstufen vor einem empfindlichen ADC-Eingang.*
 
 
-
 ADC-Eingangsschutz schützt analoge Eingänge vor Spannungen, Strömen oder Störungen, die
 außerhalb des erlaubten Messbereichs liegen. Diese Überblicksseite ordnet das Thema ruhig und allgemein ein. Sie ist nicht als Aufgabe oder Einzelfall gedacht, sondern als Einstieg, bevor konkrete Situationen, Werkzeuge, Formeln oder Fehlersuchen betrachtet werden.
 

@@ -58,12 +58,6 @@ Verstehe, ob ein Layout auf die Größe des Viewports oder auf die Größe seine
   .card { grid-template-columns: 12rem 1fr; }
 }
 
-@media (min-width: 60rem) {
-  .page { grid-template-columns: 18rem 1fr; }
-}</code></pre>
-  <p>Die Demo ist bewusst klein. Sie zeigt nicht jedes Detail, sondern den didaktischen Kern: erst Bedeutung klären, dann Code schreiben.</p>
-</div>
-
 ## Schwache und bessere Lesart
 
 <div class="compare-card">
@@ -90,8 +84,6 @@ Verstehe, ob ein Layout auf die Größe des Viewports oder auf die Größe seine
 5. Bleibt der Code wartbar, ohne Spezialtricks zu stapeln?
 
 ## Abgrenzung
-
-Diese Seite erklärt die Entscheidung. Browser-Support-Strategien und tiefere Container-Query-Syntax gehören in eine eigene Referenz. Dadurch bleibt die Seite klar: Sie erklärt eine konkrete Entscheidung und vermischt sie nicht mit allen Nachbarthemen.
 
 <div class="note-panel">
   <p><strong>Merke:</strong> Gute Weboberflächen entstehen selten durch einen einzelnen Trick. Sie entstehen, wenn Inhalt, Semantik, Gestaltung und Verhalten dieselbe Aussage stützen.</p>

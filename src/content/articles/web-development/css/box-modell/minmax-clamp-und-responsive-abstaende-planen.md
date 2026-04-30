@@ -58,10 +58,6 @@ Verstehe, wie flexible Größen helfen, harte Breakpoints zu reduzieren und Layo
   gap: clamp(0.8rem, 2vw, 1.5rem);
 }
 
-.card { padding: clamp(1rem, 2.5vw, 2rem); }</code></pre>
-  <p>Die Demo ist bewusst klein. Sie zeigt nicht jedes Detail, sondern den didaktischen Kern: erst Bedeutung klären, dann Code schreiben.</p>
-</div>
-
 ## Schwache und bessere Lesart
 
 <div class="compare-card">
@@ -88,8 +84,6 @@ Verstehe, wie flexible Größen helfen, harte Breakpoints zu reduzieren und Layo
 5. Bleibt der Code wartbar, ohne Spezialtricks zu stapeln?
 
 ## Abgrenzung
-
-Diese Seite behandelt Layoutgrößen. Typografie-Skalen und Design-Tokens können darauf aufbauen, sind aber eigene Themen. Dadurch bleibt die Seite klar: Sie erklärt eine konkrete Entscheidung und vermischt sie nicht mit allen Nachbarthemen.
 
 <div class="note-panel">
   <p><strong>Merke:</strong> Gute Weboberflächen entstehen selten durch einen einzelnen Trick. Sie entstehen, wenn Inhalt, Semantik, Gestaltung und Verhalten dieselbe Aussage stützen.</p>

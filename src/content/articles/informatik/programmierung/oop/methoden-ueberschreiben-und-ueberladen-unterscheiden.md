@@ -62,8 +62,6 @@ Diese Frage fuehrt meist schneller zur richtigen Einordnung als nur auf den Name
   </section>
 </div>
 
-## Diese Seite behandelt bewusst nur Namens- und Signaturfragen
-
 Sobald danach noch die Frage dazukommt, **wann** die passende Methode wirklich ausgewaehlt wird, bist du schon beim naechsten Thema mit `virtual` und Binden.
 
 ## Ruhige Pruefstrategie

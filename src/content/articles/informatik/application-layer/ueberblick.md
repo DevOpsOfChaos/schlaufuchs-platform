@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt, wie Anwendungsfälle zwischen Oberfläche und Domäne vermitteln.*
 
 
-
 ## Begriff
 
 Der Application Layer beschreibt, welche Anwendungsfälle ein System ausführt und wie Domänenlogik, Datenzugriff und externe Dienste koordiniert werden.

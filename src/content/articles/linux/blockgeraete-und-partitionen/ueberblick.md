@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet Datenträger, Partition und Dateisystem ein.*
 
 
-
 Blockgeräte stellen Speicher in adressierbaren Blöcken bereit. Partitionen teilen ein solches
 Gerät in Bereiche, die Dateisysteme oder andere Strukturen enthalten können. Diese Überblicksseite ordnet das Thema ruhig und allgemein ein. Sie ist nicht als Aufgabe oder Einzelfall gedacht, sondern als Einstieg, bevor konkrete Situationen, Werkzeuge, Formeln oder Fehlersuchen betrachtet werden.
 

@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Muster, Ausmultiplizieren und kompakte Form.*
 
 
-
 Binomische Formeln beschreiben feste Muster beim Ausmultiplizieren von Summen und Differenzen. Sie helfen, Terme zu vereinfachen und Gleichungen zu lösen. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.
 
 ## Einordnung

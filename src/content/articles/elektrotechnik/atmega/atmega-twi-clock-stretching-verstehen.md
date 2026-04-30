@@ -55,8 +55,6 @@ Fall B: Start → Adresse → ACK → SCL bleibt dauerhaft Low → Busproblem</c
   <p>Beide Fälle sehen am Anfang ähnlich aus. Erst die Dauer und der weitere Ablauf zeigen, ob noch ein geordneter Busmechanismus läuft oder ob der Bus wirklich hängt.</p>
 </div>
 
-## Diese Seite behandelt bewusst Buslogik, nicht Registerdetails
-
 Hier geht es darum, **warum** der Bus manchmal wartet. Die genaue Initialisierung des AVR-TWI-Moduls oder einzelne Statuscodes sind eine andere Ebene. Diese Seite soll zuerst das Denkmodell für die Leitung selbst ruhig machen.
 
 ## Eine ruhige Prüfstrategie

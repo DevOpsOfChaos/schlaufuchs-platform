@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild verbindet Spannungsbereich, Stufen und Digitalwert.*
 
 
-
 Die ADC-Auflösung beschreibt, in wie viele Stufen ein analoger Spannungsbereich digital aufgeteilt wird. Sie beeinflusst die kleinste unterscheidbare Spannungsänderung. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.
 
 ## Einordnung

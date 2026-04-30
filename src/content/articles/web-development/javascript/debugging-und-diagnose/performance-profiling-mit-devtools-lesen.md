@@ -16,8 +16,6 @@ draft: false
 ---
 ## Grundidee
 
-Lerne, Performance-Probleme nicht nach Gefühl zu bewerten, sondern Messspuren, lange Tasks und Renderarbeit zu lesen. Diese Seite behandelt das Thema als praktische Entscheidung im Webprojekt: Was sehen Nutzerinnen und Nutzer, was passiert technisch im Hintergrund und wie bleibt die Lösung später wartbar?
-
 <div class="example-card">
   <p class="card-kicker">Leitbeispiel</p>
   <h3>Browser – Performance-Profiling mit DevTools lesen</h3>
@@ -58,8 +56,6 @@ Viele Webprobleme entstehen nicht, weil ein einzelnes HTML-Element, eine CSS-Reg
 // 3. lange Tasks und Layoutarbeit suchen
 // 4. gezielt ändern und erneut messen
 ```
-
-Die Demo ist bewusst klein. Sie zeigt nicht die gesamte fertige Anwendung, sondern den entscheidenden Gedanken: erst die Zuständigkeit klären, dann die technische Umsetzung passend wählen.
 
 ## Schwach oder sauber?
 

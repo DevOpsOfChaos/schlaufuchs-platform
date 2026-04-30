@@ -151,8 +151,6 @@ Am Anfang kann man noch ungefähr ahnen, was gemeint ist. Sobald in beiden Felde
   </div>
 </div>
 
-## Diese Seite behandelt bewusst Formularfelder, nicht Buttons
-
 Hier geht es um **sichtbare Feldfragen in Formularen**. Die Frage, warum ein Icon-Button eventuell ein `aria-label` braucht und warum sichtbarer Text dort oft trotzdem die ruhigere Lösung ist, gehört auf die eigene Button-/ARIA-Seite.
 
 ## Mini-Prüfbild für den Kopf

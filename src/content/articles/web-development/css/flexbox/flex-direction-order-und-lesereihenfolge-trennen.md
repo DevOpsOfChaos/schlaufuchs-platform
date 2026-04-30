@@ -88,8 +88,6 @@ Die Demo ist absichtlich klein. Sie zeigt nicht jede mögliche Variante, sondern
 
 ## Abgrenzung
 
-Diese Seite konzentriert sich auf **flex-direction, order und lesereihenfolge trennen**. Andere Themen wie allgemeines visuelles Design, komplette Komponentenarchitektur oder JavaScript-Verhalten gehören auf eigene Seiten. So bleibt die Lernfrage klein genug, um sie sauber zu üben.
-
 <div class="note-panel">
   <p><strong>Merke:</strong> Gute Web-Oberflächen entstehen nicht dadurch, dass einzelne Eigenschaften zufällig richtig aussehen. Sie entstehen, wenn Bedeutung, Technik und Nutzungssituation zusammenpassen.</p>
 </div>

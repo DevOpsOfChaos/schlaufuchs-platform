@@ -49,14 +49,6 @@ Verstehe, wann ein Bild einen Alternativtext braucht und wann ein leeres alt-Att
 
 ## Mini-Demo
 
-<div class="figure-card">
-  <p class="card-kicker">Codeblick</p>
-  <h3>Eine kleine, aber entscheidende Struktur</h3>
-  <pre><code><img src="linie.svg" alt="">
-<img src="warnung.svg" alt="Warnung: Die Eingabe wird ohne Speichern verworfen."></code></pre>
-  <p>Die Demo ist bewusst klein. Sie zeigt nicht jedes Detail, sondern den didaktischen Kern: erst Bedeutung klären, dann Code schreiben.</p>
-</div>
-
 ## Schwache und bessere Lesart
 
 <div class="compare-card">
@@ -83,8 +75,6 @@ Verstehe, wann ein Bild einen Alternativtext braucht und wann ein leeres alt-Att
 5. Bleibt der Code wartbar, ohne Spezialtricks zu stapeln?
 
 ## Abgrenzung
-
-Diese Seite behandelt einfache Bilder und Icons. Komplexe Diagramme brauchen oft zusätzlich erklärenden Text neben dem Bild. Dadurch bleibt die Seite klar: Sie erklärt eine konkrete Entscheidung und vermischt sie nicht mit allen Nachbarthemen.
 
 <div class="note-panel">
   <p><strong>Merke:</strong> Gute Weboberflächen entstehen selten durch einen einzelnen Trick. Sie entstehen, wenn Inhalt, Semantik, Gestaltung und Verhalten dieselbe Aussage stützen.</p>

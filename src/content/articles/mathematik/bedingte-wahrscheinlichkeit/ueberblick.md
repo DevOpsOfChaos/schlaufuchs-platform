@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt, wie eine Zusatzinformation den betrachteten Ergebnisraum verkleinert.*
 
 
-
 Bedingte Wahrscheinlichkeit beschreibt die Wahrscheinlichkeit eines Ereignisses unter der Voraussetzung, dass eine bestimmte Information bereits gilt.
 
 Diese Überblicksseite ordnet das Thema ruhig und allgemein ein. Sie ist als Einstieg gedacht, bevor einzelne Spezialfälle, Aufgaben oder konkrete Werkzeuge betrachtet werden.

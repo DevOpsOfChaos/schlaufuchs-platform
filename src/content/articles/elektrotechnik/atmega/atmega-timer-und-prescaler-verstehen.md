@@ -96,8 +96,6 @@ Die Registerbits wählen hier nicht „eine Zeit“, sondern erst einmal eine **
 - Breite des Timers,
 - und eventuell zusätzlicher Logik wie Compare-Match oder Softwarezähler.
 
-## Diese Seite behandelt bewusst Grundzeitbasis, nicht schon PWM im Detail
-
 Hier geht es um die didaktische Grundidee von **Takt → Prescaler → Timerzähler → Ereignis**. Themen wie PWM, Compare-Register oder komplexere Timer-Modi bauen darauf auf, gehören aber auf eigene Seiten.
 
 ## Eine ruhige Prüfstrategie

@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild verbindet Lesbarkeit, Struktur und Änderbarkeit.*
 
 
-
 Clean Code bezeichnet Code, der verständlich, wartbar und absichtlich gestaltet ist. Es geht weniger um Geschmack als um Lesbarkeit und Änderbarkeit. Der Begriff ist deshalb nicht nur eine Einzelinformation, sondern ein Orientierungspunkt: Er hilft, Beobachtungen, Entscheidungen und typische Fehlerbilder in einen größeren Zusammenhang zu bringen.
 
 ## Einordnung

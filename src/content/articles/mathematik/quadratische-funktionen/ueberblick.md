@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Parabel, Scheitelpunkt und typische Merkmale.*
 
 
-
 ## Grundidee
 Quadratische Funktionen enthalten eine Variable in zweiter Potenz. Ihre Graphen sind Parabeln. Sie treten auf, wenn Zusammenhänge nicht gleichmäßig linear verlaufen, sondern eine gekrümmte Form haben, zum Beispiel bei Flächen, Wurfbewegungen oder Optimierungsproblemen.
 

@@ -42,8 +42,6 @@ Ein häufiger Fehler ist, den ADC-Wert als absolut genaue Wahrheit zu behandeln.
 
 ## Abgrenzung
 
-Diese Seite erklärt den allgemeinen Rahmen. Detailseiten können sich danach mit Referenzspannung, Sensorbeschaltung, Glättung, Kalibrierung oder konkreten AVR-Registern beschäftigen.
-
 <div class="note-panel">
   <p><strong>Merke:</strong> Ein ADC-Wert ist eine geordnete Messstufe, keine direkte Aussage über die reale Welt.</p>
 </div>

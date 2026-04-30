@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild trennt Zusammenfassen von Dateien und Reduzieren der Dateigröße.*
 
 
-
 ## Begriff und Zweck
 
 Archivieren bedeutet, mehrere Dateien und Verzeichnisse zu einer Datei zusammenzufassen. Komprimieren bedeutet, Daten platzsparender zu speichern. Unter Linux werden beide Ideen oft kombiniert, aber sie sind nicht dasselbe. Ein Archiv kann unkomprimiert sein, eine Komprimierung kann auf einzelne Dateien angewendet werden.

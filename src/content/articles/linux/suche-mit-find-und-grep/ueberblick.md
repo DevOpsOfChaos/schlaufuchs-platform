@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt die typische Suche nach Dateien und Inhalten in zwei Schritten.*
 
 
-
 ## Grundidee
 find und grep gehören zu den wichtigsten Suchwerkzeugen auf Linux-Systemen. Sie beantworten unterschiedliche Fragen. find sucht Dateien und Verzeichnisse anhand ihrer Eigenschaften. grep sucht Textmuster innerhalb von Dateien oder in Eingaben aus einer Pipe.
 

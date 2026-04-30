@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt Regeln und Prüfungen für korrekte Datenzustände.*
 
 
-
 Datenintegrität beschreibt, dass Daten korrekt, vollständig, konsistent und ihrem Zweck entsprechend verlässlich sind.
 
 ## Einordnung

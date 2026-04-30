@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild ordnet Referenzspannung, Schrittweite und nutzbaren Messbereich ein.*
 
 
-
 Die Referenzspannung eines ADC legt fest, welcher Spannungsbereich in digitale Zahlenwerte abgebildet wird.
 
 Analogmessungen wirken oft präzise, sind aber immer an Referenz, Rauschen, Eingangsbeschaltung und Umrechnung gebunden.

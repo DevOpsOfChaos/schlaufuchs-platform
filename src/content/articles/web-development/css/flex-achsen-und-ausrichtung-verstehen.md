@@ -44,10 +44,6 @@ Wenn die Hauptachse durch <code>flex-direction: row</code> horizontal läuft, wi
   </div>
 </div>
 
-## Diese Seite erklärt bewusst nur die Ausrichtung
-
-Flexbox hat noch eine zweite Logik: **das Größenverhalten** der Items. Diese Seite behandelt nur die Achsen und Ausrichtung. Für Wachstum, Schrumpfen und Ausgangsgrößen ist die Seite zu `flex-grow`, `flex-shrink` und `flex-basis` zuständig.
-
 ## Typische Verwechslung
 
 <div class="good-bad-grid">

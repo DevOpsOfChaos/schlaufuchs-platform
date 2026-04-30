@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt, wie ein Prozess eine geänderte Wurzelumgebung sieht.*
 
 
-
 `chroot` startet einen Prozess mit einem veränderten Wurzelverzeichnis, sodass dieser nur einen Teilbaum des Dateisystems als sein `/` sieht.
 
 Das Konzept hilft, Umgebungen zu trennen, Wiederherstellungssysteme zu betreten oder einfache Build- und Testumgebungen aufzubauen.

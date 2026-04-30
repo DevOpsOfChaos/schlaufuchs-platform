@@ -110,8 +110,6 @@ Das Paritätsbit gehört – wenn aktiviert – zum Rahmen. Es ist keine „neun
 
 Didaktisch wichtig ist hier: **Parität prüft mit**, sie trägt aber nicht den eigentlichen Zeicheninhalt.
 
-## Diese Seite behandelt bewusst den Datenrahmen, nicht die Baudratenberechnung
-
 Hier geht es um die **innere Form eines Zeichens**. Die Frage, wie aus `F_CPU` und `UBRR` die Bitzeit entsteht, gehört auf die eigene Baudraten-Seite. So bleibt sauber getrennt:
 
 - **Baudrate** = Zeitbasis pro Bit

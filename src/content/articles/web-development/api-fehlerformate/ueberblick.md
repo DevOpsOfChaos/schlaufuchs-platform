@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild zeigt, wie Fehlercode, Nachricht und Details eine robuste API-Antwort bilden.*
 
 
-
 ## Begriff
 
 API-Fehlerformate beschreiben, wie Server Fehler strukturiert an Clients zurückgeben.

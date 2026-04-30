@@ -39,8 +39,6 @@ Eine UI-Änderung kann an einer Stelle helfen und an anderer Stelle etwas breche
 4. Ergebnis dokumentieren
 ```
 
-Die Mini-Demo ist bewusst klein. Sie zeigt nicht jede mögliche Sonderregel, sondern die Denkbewegung: erst Zustand verstehen, dann Risiko begrenzen, dann mit einer konkreten Gegenprobe prüfen.
-
 <div class="compare-card">
   <p class="card-kicker">Gut gegen schwach</p>
   <h3>Woran du die Qualität erkennst</h3>

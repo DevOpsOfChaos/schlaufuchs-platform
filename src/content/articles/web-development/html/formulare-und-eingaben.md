@@ -109,10 +109,6 @@ Mit <code>fieldset</code> und <code>legend</code> lassen sich zusammengehörige 
   &lt;input id="phone" type="tel" /&gt;
 &lt;/fieldset&gt;</code></pre>
 
-## Diese Seite erklärt bewusst die Struktur, nicht die Validierung
-
-Hier geht es um Aufbau, Rollen und Beschriftung eines Formulars. Fehlermeldungen, Prüfung und serverseitige Verarbeitung sind eigene Themen.
-
 <div class="note-panel">
   <p><strong>Merke:</strong> Ein Formular soll nicht nur Daten sammeln, sondern Fragen verständlich stellen. Gute HTML-Struktur macht genau diese Fragen sichtbar.</p>
 </div>

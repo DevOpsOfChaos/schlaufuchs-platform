@@ -21,7 +21,6 @@ draft: false
 *Das Schaubild verbindet Betrag, Richtung und Komponenten eines Vektors.*
 
 
-
 ## Begriff
 Ein Vektor beschreibt eine gerichtete Größe. Er hat eine Länge, auch Betrag genannt, und eine Richtung. In der Geometrie kann ein Vektor als Verschiebung verstanden werden: von einem Punkt aus eine bestimmte Strecke in eine bestimmte Richtung.
 
