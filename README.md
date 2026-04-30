@@ -7,6 +7,14 @@ Schlaufuchs ist eine ruhige Lern- und Informationsplattform für technische Fäc
 
 Der Fokus liegt auf einer belastbaren fachlichen Plattform, die im Unterricht, zum Nachschlagen und zum eigenständigen Lernen funktioniert.
 
+## Content Governance
+
+Die verbindlichen Inhaltsregeln stehen in [`CONTENT_GOVERNANCE.md`](./CONTENT_GOVERNANCE.md).
+
+Diese Datei ist maßgeblich für alle künftige Content-Arbeit. Schlaufuchs soll nicht in Richtung generischer Lernplattform, künstlicher Situationsseiten oder massenhaft erzeugter Mini-Inhalte weiterentwickelt werden. Der Zielkern ist ein übersichtliches technisches Nachschlagewerk mit optionalen Aufgaben und interaktiven Modulen.
+
+Vor größeren Inhaltsänderungen muss geprüft werden, ob sie zu diesem Zielmodell passen.
+
 ## Fachlogik
 
 Die Plattform arbeitet bewusst mit fünf sichtbaren Hauptfächern:
@@ -190,6 +198,7 @@ Bei Änderungen an `src/data/areaStructure.ts` besonders prüfen:
 
 Diese Regeln sind für die Weiterentwicklung wichtig:
 
+- `CONTENT_GOVERNANCE.md` ist vor größerer Content-Arbeit zu beachten
 - alte HTML-Seiten nicht direkt übernehmen, sondern Inhalte neu und plattformgerecht aufbauen
 - Bilder stark reduzieren und nur gezielt einsetzen
 - keine doppelte Fachlogik aufbauen
