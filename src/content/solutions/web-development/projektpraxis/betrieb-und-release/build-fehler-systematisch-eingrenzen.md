@@ -5,7 +5,7 @@ subject: "web-development"
 section: "Projektpraxis"
 topicPath: ["projektpraxis", "betrieb-und-release", "build-fehler-systematisch-eingrenzen"]
 taskId: "web-v105-build-fehler-systematisch-eingrenzen"
-relatedExercise: "web-development/projektpraxis/betrieb-und-release/build-fehler-systematisch-eingrenzen"
+relatedExercise: "src/content/exercises/web-development/projektpraxis/betrieb-und-release/build-fehler-systematisch-eingrenzen"
 tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---

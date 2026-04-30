@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "lamp-umgebung-und-rollen-beim-php-mysql-zugriff-verstehen", "rollen-im-php-mysql-system-trennen"]
 taskId: "INF-PHP-LAMP-001"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/lamp-umgebung-und-rollen-beim-php-mysql-zugriff-verstehen/rollen-im-php-mysql-system-trennen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/lamp-umgebung-und-rollen-beim-php-mysql-zugriff-verstehen/rollen-im-php-mysql-system-trennen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

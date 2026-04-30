@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "css-grid-grundidee-verstehen", "grid-als-flaechenlayout-gegen-flexbox-abgrenzen"]
 taskId: "WEB-CSS-CORE-107"
-relatedExercise: "src/content/exercises/web-development/css/css-grid-grundidee-verstehen/grid-als-flaechenlayout-gegen-flexbox-abgrenzen.md"
+relatedExercise: "src/content/exercises/web-development/css/css-grid-grundidee-verstehen/grid-als-flaechenlayout-gegen-flexbox-abgrenzen"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

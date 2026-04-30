@@ -5,7 +5,7 @@ subject: "informatik"
 section: "daten-und-information"
 topicPath: ["daten-und-information", "datenschutz-und-datenminimierung", "datenschutz-und-datenminimierung-anwenden-und-pruefen-v184"]
 taskId: "INF-DATENSCHUTZ-UND-DATENMINIMIERUNG-842"
-relatedExercise: "src/content/exercises/informatik/daten-und-information/datenschutz-und-datenminimierung/datenschutz-und-datenminimierung-anwenden-und-pruefen-v184.md"
+relatedExercise: "src/content/exercises/informatik/daten-und-information/datenschutz-und-datenminimierung/datenschutz-und-datenminimierung-anwenden-und-pruefen-v184"
 tags: ["informatik", "daten-und-information", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Daten und Information"
 topicPath: ["daten-und-information", "codierung-und-zeichensaetze", "codierung-und-zeichensaetze-anwenden-und-pruefen-v183"]
 taskId: "INF-V183-07-B"
-relatedExercise: "src/content/exercises/informatik/daten-und-information/codierung-und-zeichensaetze/codierung-und-zeichensaetze-anwenden-und-pruefen-v183.md"
+relatedExercise: "src/content/exercises/informatik/daten-und-information/codierung-und-zeichensaetze/codierung-und-zeichensaetze-anwenden-und-pruefen-v183"
 tags: ["informatik", "Daten und Information", "loesung"]
 draft: false
 ---

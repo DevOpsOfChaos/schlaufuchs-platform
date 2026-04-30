@@ -4,8 +4,8 @@ description: "Lösung zu grundlegenden Arduino-Aufgaben."
 subject: "elektrotechnik"
 section: "Grundlagen Elektrotechnik"
 topicPath: ["arduino-basisaufgaben"]
-taskId: "ET-GR-ARDUINO-001"
-relatedExercise: "src/content/exercises/elektrotechnik/arduino-basisaufgaben.md"
+taskId: "AUTO-ARDUINO-BASISAUFGABEN"
+relatedExercise: "src/content/exercises/elektrotechnik/arduino-basisaufgaben"
 tags: ["elektrotechnik", "Grundlagen Elektrotechnik", "loesung"]
 draft: false
 ---

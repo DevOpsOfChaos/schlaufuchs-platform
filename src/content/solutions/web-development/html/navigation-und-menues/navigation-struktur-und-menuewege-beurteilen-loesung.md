@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "navigation-und-menues", "navigation-struktur-und-menuewege-beurteilen"]
 taskId: "WEB-HTML-A11Y-304"
-relatedExercise: "web-development/html/navigation-und-menues/navigation-struktur-und-menuewege-beurteilen"
+relatedExercise: "src/content/exercises/web-development/html/navigation-und-menues/navigation-struktur-und-menuewege-beurteilen"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

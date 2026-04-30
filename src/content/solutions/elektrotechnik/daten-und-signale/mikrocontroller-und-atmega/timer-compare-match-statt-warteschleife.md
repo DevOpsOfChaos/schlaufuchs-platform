@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "timer-compare-match-statt-warteschleife"]
 taskId: "et-mc-timer-compare-match"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/timer-compare-match-statt-warteschleife"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/timer-compare-match-statt-warteschleife"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

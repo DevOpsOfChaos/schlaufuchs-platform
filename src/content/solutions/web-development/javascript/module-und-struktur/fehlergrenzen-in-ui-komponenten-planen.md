@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "module-und-struktur", "fehlergrenzen-in-ui-komponenten-planen"]
 taskId: "web-v103-fehlergrenzen-in-ui-komponenten-planen"
-relatedExercise: "web-development/javascript/module-und-struktur/fehlergrenzen-in-ui-komponenten-planen"
+relatedExercise: "src/content/exercises/web-development/javascript/module-und-struktur/fehlergrenzen-in-ui-komponenten-planen"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "5v-3v3-pegel-und-schnittstellen-schuetzen"]
 taskId: "et-mc-v92-pegel-schuetzen"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/5v-3v3-pegel-und-schnittstellen-schuetzen"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/5v-3v3-pegel-und-schnittstellen-schuetzen"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

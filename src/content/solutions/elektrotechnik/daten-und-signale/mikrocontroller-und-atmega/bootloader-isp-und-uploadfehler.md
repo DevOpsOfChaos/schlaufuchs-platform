@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "bootloader-isp-und-uploadfehler"]
 taskId: "et-mc-v93-upload"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/bootloader-isp-und-uploadfehler"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/bootloader-isp-und-uploadfehler"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

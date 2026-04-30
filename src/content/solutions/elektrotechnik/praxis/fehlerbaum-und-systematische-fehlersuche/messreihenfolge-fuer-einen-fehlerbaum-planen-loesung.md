@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Praxis"
 topicPath: ["praxis", "fehlerbaum-und-systematische-fehlersuche", "messreihenfolge-fuer-einen-fehlerbaum-planen"]
 taskId: "ET-V182-002"
-relatedExercise: "src/content/exercises/elektrotechnik/praxis/fehlerbaum-und-systematische-fehlersuche/messreihenfolge-fuer-einen-fehlerbaum-planen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/praxis/fehlerbaum-und-systematische-fehlersuche/messreihenfolge-fuer-einen-fehlerbaum-planen"
 tags: ["elektrotechnik", "Praxis", "loesung"]
 draft: false
 ---

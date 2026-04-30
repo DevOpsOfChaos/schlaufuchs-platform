@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "struktur-und-semantik", "fehlerseiten-und-leere-zustaende-hilfreich-planen"]
 taskId: "web-v104-fehlerseiten-und-leere-zustaende-hilfreich-planen"
-relatedExercise: "web-development/html/struktur-und-semantik/fehlerseiten-und-leere-zustaende-hilfreich-planen"
+relatedExercise: "src/content/exercises/web-development/html/struktur-und-semantik/fehlerseiten-und-leere-zustaende-hilfreich-planen"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

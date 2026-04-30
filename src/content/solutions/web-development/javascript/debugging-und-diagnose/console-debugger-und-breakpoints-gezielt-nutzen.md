@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "debugging-und-diagnose", "console-debugger-und-breakpoints-gezielt-nutzen"]
 taskId: "web-v100-console-debugger-und-breakpoints-gezielt-nutzen"
-relatedExercise: "web-development/javascript/debugging-und-diagnose/console-debugger-und-breakpoints-gezielt-nutzen"
+relatedExercise: "src/content/exercises/web-development/javascript/debugging-und-diagnose/console-debugger-und-breakpoints-gezielt-nutzen"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

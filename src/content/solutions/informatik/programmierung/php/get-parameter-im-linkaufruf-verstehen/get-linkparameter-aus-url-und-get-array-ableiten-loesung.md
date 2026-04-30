@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "get-parameter-im-linkaufruf-verstehen", "get-linkparameter-aus-url-und-get-array-ableiten"]
 taskId: "INF-PHP-REQUEST-002"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/get-parameter-im-linkaufruf-verstehen/get-linkparameter-aus-url-und-get-array-ableiten.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/get-parameter-im-linkaufruf-verstehen/get-linkparameter-aus-url-und-get-array-ableiten"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

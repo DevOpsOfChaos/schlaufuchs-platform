@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "sleep-mode-und-wecken-planen"]
 taskId: "et-mc-v92-sleep-mode"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/sleep-mode-und-wecken-planen"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/sleep-mode-und-wecken-planen"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

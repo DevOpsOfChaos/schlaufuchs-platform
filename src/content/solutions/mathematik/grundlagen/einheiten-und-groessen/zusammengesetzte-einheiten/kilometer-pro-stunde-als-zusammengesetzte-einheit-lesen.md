@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Grundlagen"
 topicPath: ["grundlagen", "einheiten-und-groessen", "zusammengesetzte-einheiten", "kilometer-pro-stunde-als-zusammengesetzte-einheit-lesen"]
 taskId: "v108-mathematik-kilometer-pro-stunde-als-zusammengesetzte-einheit-lesen"
-relatedExercise: "mathematik/grundlagen/einheiten-und-groessen/zusammengesetzte-einheiten/kilometer-pro-stunde-als-zusammengesetzte-einheit-lesen"
+relatedExercise: "src/content/exercises/mathematik/grundlagen/einheiten-und-groessen/zusammengesetzte-einheiten/kilometer-pro-stunde-als-zusammengesetzte-einheit-lesen"
 tags: ["mathematik", "Grundlagen", "loesung"]
 draft: false
 ---

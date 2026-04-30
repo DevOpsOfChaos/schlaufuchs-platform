@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "semantik-und-interaktion", "button-oder-link", "button-und-link-nach-nutzerabsicht-waehlen"]
 taskId: "v108-web-development-button-und-link-nach-nutzerabsicht-waehlen"
-relatedExercise: "web-development/html/semantik-und-interaktion/button-oder-link/button-und-link-nach-nutzerabsicht-waehlen"
+relatedExercise: "src/content/exercises/web-development/html/semantik-und-interaktion/button-oder-link/button-und-link-nach-nutzerabsicht-waehlen"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

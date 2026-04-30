@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Stromversorgung und Schutz"
 topicPath: ["stromversorgung-und-schutz", "sicherungen-und-strombegrenzung", "sicherung-nach-fehlerfall-waehlen"]
 taskId: "ET-V181-003"
-relatedExercise: "src/content/exercises/elektrotechnik/stromversorgung-und-schutz/sicherungen-und-strombegrenzung/sicherung-nach-fehlerfall-waehlen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/stromversorgung-und-schutz/sicherungen-und-strombegrenzung/sicherung-nach-fehlerfall-waehlen"
 tags: ["elektrotechnik", "Stromversorgung und Schutz", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Algorithmen"
 topicPath: ["algorithmen", "algorithmen-schrittweise-testen-verstehen", "ablauf-mit-testwerten-nachvollziehbar-pruefen"]
 taskId: "INF-ALG-TESTEN-001"
-relatedExercise: "src/content/exercises/informatik/algorithmen/algorithmen-schrittweise-testen-verstehen/ablauf-mit-testwerten-nachvollziehbar-pruefen.md"
+relatedExercise: "src/content/exercises/informatik/algorithmen/algorithmen-schrittweise-testen-verstehen/ablauf-mit-testwerten-nachvollziehbar-pruefen"
 tags: ["informatik", "Algorithmen", "loesung"]
 draft: false
 ---

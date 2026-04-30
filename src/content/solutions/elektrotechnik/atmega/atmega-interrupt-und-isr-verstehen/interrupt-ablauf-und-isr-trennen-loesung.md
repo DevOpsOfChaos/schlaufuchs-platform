@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "mikrocontroller-und-atmega"
 topicPath: ["atmega", "atmega-interrupt-und-isr-verstehen", "interrupt-ablauf-und-isr-trennen"]
 taskId: "ET-ATMEGA-INT-204"
-relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-interrupt-und-isr-verstehen/interrupt-ablauf-und-isr-trennen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-interrupt-und-isr-verstehen/interrupt-ablauf-und-isr-trennen"
 tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---

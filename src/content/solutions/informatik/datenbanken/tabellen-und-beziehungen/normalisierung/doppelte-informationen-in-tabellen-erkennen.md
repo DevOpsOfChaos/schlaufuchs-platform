@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Datenbanken"
 topicPath: ["datenbanken", "tabellen-und-beziehungen", "normalisierung", "doppelte-informationen-in-tabellen-erkennen"]
 taskId: "v107-informatik-doppelte-informationen-in-tabellen-erkennen"
-relatedExercise: "informatik/datenbanken/tabellen-und-beziehungen/normalisierung/doppelte-informationen-in-tabellen-erkennen"
+relatedExercise: "src/content/exercises/informatik/datenbanken/tabellen-und-beziehungen/normalisierung/doppelte-informationen-in-tabellen-erkennen"
 tags: ["informatik", "Datenbanken", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "linux"
 section: "System"
 topicPath: ["system", "automatisierung-und-cron", "umgebung", "cron-umgebung-und-pfade-absichern"]
 taskId: "v108-linux-cron-umgebung-und-pfade-absichern"
-relatedExercise: "linux/system/automatisierung-und-cron/umgebung/cron-umgebung-und-pfade-absichern"
+relatedExercise: "src/content/exercises/linux/system/automatisierung-und-cron/umgebung/cron-umgebung-und-pfade-absichern"
 tags: ["linux", "System", "loesung"]
 draft: false
 ---

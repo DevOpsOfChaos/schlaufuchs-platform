@@ -5,7 +5,7 @@ subject: "informatik"
 section: "programmierpraxis-und-tests"
 topicPath: ["programmierpraxis-und-tests", "debugging-und-fehlerhypothesen", "debugging-und-fehlerhypothesen-anwenden-und-pruefen-v184"]
 taskId: "INF-DEBUGGING-UND-FEHLERHYPOTHESEN-842"
-relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/debugging-und-fehlerhypothesen/debugging-und-fehlerhypothesen-anwenden-und-pruefen-v184.md"
+relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/debugging-und-fehlerhypothesen/debugging-und-fehlerhypothesen-anwenden-und-pruefen-v184"
 tags: ["informatik", "programmierpraxis-und-tests", "loesung"]
 draft: false
 ---

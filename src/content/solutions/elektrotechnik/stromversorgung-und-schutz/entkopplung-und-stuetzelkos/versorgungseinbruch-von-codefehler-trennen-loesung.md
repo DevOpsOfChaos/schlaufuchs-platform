@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Stromversorgung und Schutz"
 topicPath: ["stromversorgung-und-schutz", "entkopplung-und-stuetzelkos", "versorgungseinbruch-von-codefehler-trennen"]
 taskId: "ET-V181-002"
-relatedExercise: "src/content/exercises/elektrotechnik/stromversorgung-und-schutz/entkopplung-und-stuetzelkos/versorgungseinbruch-von-codefehler-trennen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/stromversorgung-und-schutz/entkopplung-und-stuetzelkos/versorgungseinbruch-von-codefehler-trennen"
 tags: ["elektrotechnik", "Stromversorgung und Schutz", "loesung"]
 draft: false
 ---

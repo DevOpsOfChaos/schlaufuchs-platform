@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "css-selektoren-grundidee-verstehen", "zielauswahl-von-css-regeln-beschreiben"]
 taskId: "WEB-CSS-SEL-001"
-relatedExercise: "src/content/exercises/web-development/css/css-selektoren-grundidee-verstehen/zielauswahl-von-css-regeln-beschreiben.md"
+relatedExercise: "src/content/exercises/web-development/css/css-selektoren-grundidee-verstehen/zielauswahl-von-css-regeln-beschreiben"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

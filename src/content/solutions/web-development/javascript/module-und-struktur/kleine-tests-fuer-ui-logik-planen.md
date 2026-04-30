@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "module-und-struktur", "kleine-tests-fuer-ui-logik-planen"]
 taskId: "web-v101-kleine-tests-fuer-ui-logik-planen"
-relatedExercise: "web-development/javascript/module-und-struktur/kleine-tests-fuer-ui-logik-planen"
+relatedExercise: "src/content/exercises/web-development/javascript/module-und-struktur/kleine-tests-fuer-ui-logik-planen"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

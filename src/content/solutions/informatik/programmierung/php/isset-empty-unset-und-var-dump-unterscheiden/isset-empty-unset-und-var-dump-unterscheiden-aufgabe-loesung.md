@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "isset-empty-unset-und-var-dump-unterscheiden", "isset-empty-unset-und-var-dump-unterscheiden-aufgabe"]
 taskId: "INF-PHP-ADV-002"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/isset-empty-unset-und-var-dump-unterscheiden/isset-empty-unset-und-var-dump-unterscheiden-aufgabe.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/isset-empty-unset-und-var-dump-unterscheiden/isset-empty-unset-und-var-dump-unterscheiden-aufgabe"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

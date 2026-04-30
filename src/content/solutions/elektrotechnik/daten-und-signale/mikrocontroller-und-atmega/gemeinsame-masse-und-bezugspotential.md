@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "gemeinsame-masse-und-bezugspotential"]
 taskId: "et-mc-v94-gemeinsame-masse"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/gemeinsame-masse-und-bezugspotential"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/gemeinsame-masse-und-bezugspotential"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

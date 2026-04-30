@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "daten-laden", "json-validieren-und-fallbacks-planen"]
 taskId: "web-v103-json-validieren-und-fallbacks-planen"
-relatedExercise: "web-development/javascript/daten-laden/json-validieren-und-fallbacks-planen"
+relatedExercise: "src/content/exercises/web-development/javascript/daten-laden/json-validieren-und-fallbacks-planen"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

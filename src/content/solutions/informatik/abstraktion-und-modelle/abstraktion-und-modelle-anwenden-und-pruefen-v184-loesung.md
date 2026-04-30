@@ -5,7 +5,7 @@ subject: "informatik"
 section: "abstraktion-und-modelle"
 topicPath: ["abstraktion-und-modelle", "abstraktion-und-modelle-anwenden-und-pruefen-v184"]
 taskId: "INF-ABSTRAKTION-UND-MODELLE-842"
-relatedExercise: "src/content/exercises/informatik/abstraktion-und-modelle/abstraktion-und-modelle-anwenden-und-pruefen-v184.md"
+relatedExercise: "src/content/exercises/informatik/abstraktion-und-modelle/abstraktion-und-modelle-anwenden-und-pruefen-v184"
 tags: ["informatik", "abstraktion-und-modelle", "loesung"]
 draft: false
 ---

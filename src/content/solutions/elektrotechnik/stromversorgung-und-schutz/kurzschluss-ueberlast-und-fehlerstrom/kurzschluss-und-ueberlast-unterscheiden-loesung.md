@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Stromversorgung und Schutz"
 topicPath: ["stromversorgung-und-schutz", "kurzschluss-ueberlast-und-fehlerstrom", "kurzschluss-und-ueberlast-unterscheiden"]
 taskId: "ET-V182-005"
-relatedExercise: "src/content/exercises/elektrotechnik/stromversorgung-und-schutz/kurzschluss-ueberlast-und-fehlerstrom/kurzschluss-und-ueberlast-unterscheiden.md"
+relatedExercise: "src/content/exercises/elektrotechnik/stromversorgung-und-schutz/kurzschluss-ueberlast-und-fehlerstrom/kurzschluss-und-ueberlast-unterscheiden"
 tags: ["elektrotechnik", "Stromversorgung und Schutz", "loesung"]
 draft: false
 ---

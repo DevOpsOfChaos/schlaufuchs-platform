@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "filter_has_var-und-filter_var-in-php-gezielt-nutzen", "existenz-validierung-und-bereinigung-unterscheiden"]
 taskId: "INF-PHP-FILTER-002"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/filter_has_var-und-filter_var-in-php-gezielt-nutzen/existenz-validierung-und-bereinigung-unterscheiden.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/filter_has_var-und-filter_var-in-php-gezielt-nutzen/existenz-validierung-und-bereinigung-unterscheiden"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "formulare-und-eingaben", "fieldset-legend-und-radiogruppen-strukturieren"]
 taskId: "fieldset-legend-und-radiogruppen-strukturieren"
-relatedExercise: "web-development/html/formulare-und-eingaben/fieldset-legend-und-radiogruppen-strukturieren"
+relatedExercise: "src/content/exercises/web-development/html/formulare-und-eingaben/fieldset-legend-und-radiogruppen-strukturieren"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

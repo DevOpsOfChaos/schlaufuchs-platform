@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Schaltungen"
 topicPath: ["schaltungen-und-stromkreis", "schutz-und-grenzwerte", "leistung", "widerstandsleistung-als-grenzwert-beachten"]
 taskId: "v107-elektrotechnik-widerstandsleistung-als-grenzwert-beachten"
-relatedExercise: "elektrotechnik/schaltungen-und-stromkreis/schutz-und-grenzwerte/leistung/widerstandsleistung-als-grenzwert-beachten"
+relatedExercise: "src/content/exercises/elektrotechnik/schaltungen-und-stromkreis/schutz-und-grenzwerte/leistung/widerstandsleistung-als-grenzwert-beachten"
 tags: ["elektrotechnik", "Schaltungen", "loesung"]
 draft: false
 ---

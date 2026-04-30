@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "robustheit-und-fehler", "defensive-dom-zugriffe-und-fruehe-rueckgaben"]
 taskId: "web-js-v99-defensive-dom-zugriffe-und-fruehe-rueckgaben"
-relatedExercise: "web-development/javascript/robustheit-und-fehler/defensive-dom-zugriffe-und-fruehe-rueckgaben"
+relatedExercise: "src/content/exercises/web-development/javascript/robustheit-und-fehler/defensive-dom-zugriffe-und-fruehe-rueckgaben"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

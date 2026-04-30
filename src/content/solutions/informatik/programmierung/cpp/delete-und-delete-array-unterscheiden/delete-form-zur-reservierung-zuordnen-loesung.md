@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "cpp", "delete-und-delete-array-unterscheiden", "delete-form-zur-reservierung-zuordnen"]
 taskId: "INF-PROG-CPP-MEM-002"
-relatedExercise: "src/content/exercises/informatik/programmierung/cpp/delete-und-delete-array-unterscheiden/delete-form-zur-reservierung-zuordnen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/delete-und-delete-array-unterscheiden/delete-form-zur-reservierung-zuordnen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

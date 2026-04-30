@@ -5,7 +5,7 @@ subject: "linux"
 section: "benutzer-und-sicherheit"
 topicPath: ["benutzer-und-sicherheit", "benutzer-gruppen-und-sudo", "benutzer-gruppen-und-sudo-anwenden-und-pruefen-v186"]
 taskId: "LINUX-BENUTZER-GRUPPEN-UND-SUDO-V186-2"
-relatedExercise: "src/content/exercises/linux/benutzer-und-sicherheit/benutzer-gruppen-und-sudo/benutzer-gruppen-und-sudo-anwenden-und-pruefen-v186.md"
+relatedExercise: "src/content/exercises/linux/benutzer-und-sicherheit/benutzer-gruppen-und-sudo/benutzer-gruppen-und-sudo-anwenden-und-pruefen-v186"
 tags: ["linux", "benutzer-und-sicherheit", "loesung"]
 draft: false
 ---

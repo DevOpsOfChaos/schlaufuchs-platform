@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmablauf und Steuerung"
 topicPath: ["programmablauf-und-steuerung", "ereignisgesteuerte-programme", "ereignisgesteuerte-programme-anwenden-und-pruefen-v185"]
 taskId: "INF-V185-004-2"
-relatedExercise: "src/content/exercises/informatik/programmablauf-und-steuerung/ereignisgesteuerte-programme/ereignisgesteuerte-programme-anwenden-und-pruefen-v185.md"
+relatedExercise: "src/content/exercises/informatik/programmablauf-und-steuerung/ereignisgesteuerte-programme/ereignisgesteuerte-programme-anwenden-und-pruefen-v185"
 tags: ["informatik", "Programmablauf und Steuerung", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "formular-validierung", "native-validierung-und-aria-invalid-richtig-kombinieren"]
 taskId: "wd-html-v95-native-validierung-aria-invalid"
-relatedExercise: "web-development/html/formular-validierung/native-validierung-und-aria-invalid-richtig-kombinieren"
+relatedExercise: "src/content/exercises/web-development/html/formular-validierung/native-validierung-und-aria-invalid-richtig-kombinieren"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "zustandsmaschine-statt-delay-kette"]
 taskId: "et-mc-zustandsmaschine-delay"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/zustandsmaschine-statt-delay-kette"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/zustandsmaschine-statt-delay-kette"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

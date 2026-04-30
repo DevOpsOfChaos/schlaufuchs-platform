@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Netzwerke und Dienste"
 topicPath: ["netzwerke-und-dienste", "client-server-und-protokolle", "client-server-und-protokolle-anwenden-und-pruefen-v183"]
 taskId: "INF-V183-10-B"
-relatedExercise: "src/content/exercises/informatik/netzwerke-und-dienste/client-server-und-protokolle/client-server-und-protokolle-anwenden-und-pruefen-v183.md"
+relatedExercise: "src/content/exercises/informatik/netzwerke-und-dienste/client-server-und-protokolle/client-server-und-protokolle-anwenden-und-pruefen-v183"
 tags: ["informatik", "Netzwerke und Dienste", "loesung"]
 draft: false
 ---

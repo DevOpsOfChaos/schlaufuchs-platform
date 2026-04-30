@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "dateiupload-vor-dem-speichern-pruefen", "dateiupload-vor-dem-speichern-pruefen-aufgabe"]
 taskId: "INF-PHP-ADV-009"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/dateiupload-vor-dem-speichern-pruefen/dateiupload-vor-dem-speichern-pruefen-aufgabe.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/dateiupload-vor-dem-speichern-pruefen/dateiupload-vor-dem-speichern-pruefen-aufgabe"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

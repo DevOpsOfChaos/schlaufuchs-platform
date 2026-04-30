@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Grundlagen"
 topicPath: ["grundlagen", "daten-und-information", "steuerzeichen-und-druckbare-zeichen-unterscheiden", "steuerzeichen-und-sichtbare-zeichen-trennen"]
 taskId: "INF-DATA-ASCII-002"
-relatedExercise: "src/content/exercises/informatik/grundlagen/daten-und-information/steuerzeichen-und-druckbare-zeichen-unterscheiden/steuerzeichen-und-sichtbare-zeichen-trennen.md"
+relatedExercise: "src/content/exercises/informatik/grundlagen/daten-und-information/steuerzeichen-und-druckbare-zeichen-unterscheiden/steuerzeichen-und-sichtbare-zeichen-trennen"
 tags: ["informatik", "Grundlagen", "loesung"]
 draft: false
 ---

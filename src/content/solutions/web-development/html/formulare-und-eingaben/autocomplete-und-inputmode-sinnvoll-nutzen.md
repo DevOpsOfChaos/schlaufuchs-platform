@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "formulare-und-eingaben", "autocomplete-und-inputmode-sinnvoll-nutzen"]
 taskId: "web-v103-autocomplete-und-inputmode-sinnvoll-nutzen"
-relatedExercise: "web-development/html/formulare-und-eingaben/autocomplete-und-inputmode-sinnvoll-nutzen"
+relatedExercise: "src/content/exercises/web-development/html/formulare-und-eingaben/autocomplete-und-inputmode-sinnvoll-nutzen"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "zugaenglichkeit-und-ux", "optimistische-ui-und-bestaetigung-sauber-trennen"]
 taskId: "web-v101-optimistische-ui-und-bestaetigung-sauber-trennen"
-relatedExercise: "web-development/javascript/zugaenglichkeit-und-ux/optimistische-ui-und-bestaetigung-sauber-trennen"
+relatedExercise: "src/content/exercises/web-development/javascript/zugaenglichkeit-und-ux/optimistische-ui-und-bestaetigung-sauber-trennen"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

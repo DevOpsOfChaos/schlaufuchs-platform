@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "tabellen-barrierearm", "caption-scope-und-tabellenkopf-sauber-nutzen"]
 taskId: "wd-html-v95-caption-scope-tabellenkopf"
-relatedExercise: "web-development/html/tabellen-barrierearm/caption-scope-und-tabellenkopf-sauber-nutzen"
+relatedExercise: "src/content/exercises/web-development/html/tabellen-barrierearm/caption-scope-und-tabellenkopf-sauber-nutzen"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

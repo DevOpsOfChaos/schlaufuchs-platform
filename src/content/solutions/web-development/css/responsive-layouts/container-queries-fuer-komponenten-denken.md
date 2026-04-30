@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "responsive-layouts", "container-queries-fuer-komponenten-denken"]
 taskId: "web-v101-container-queries-fuer-komponenten-denken"
-relatedExercise: "web-development/css/responsive-layouts/container-queries-fuer-komponenten-denken"
+relatedExercise: "src/content/exercises/web-development/css/responsive-layouts/container-queries-fuer-komponenten-denken"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "sicherheit-und-daten", "csp-xss-und-sichere-ausgabe-grundidee"]
 taskId: "web-v100-csp-xss-und-sichere-ausgabe-grundidee"
-relatedExercise: "web-development/javascript/sicherheit-und-daten/csp-xss-und-sichere-ausgabe-grundidee"
+relatedExercise: "src/content/exercises/web-development/javascript/sicherheit-und-daten/csp-xss-und-sichere-ausgabe-grundidee"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

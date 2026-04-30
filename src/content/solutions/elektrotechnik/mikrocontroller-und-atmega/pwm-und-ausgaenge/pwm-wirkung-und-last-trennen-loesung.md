@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "mikrocontroller-und-atmega"
 topicPath: ["mikrocontroller-und-atmega", "pwm-und-ausgaenge", "pwm-wirkung-und-last-trennen"]
 taskId: "ET-V180-PWM-002"
-relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/pwm-und-ausgaenge/pwm-wirkung-und-last-trennen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/pwm-und-ausgaenge/pwm-wirkung-und-last-trennen"
 tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---

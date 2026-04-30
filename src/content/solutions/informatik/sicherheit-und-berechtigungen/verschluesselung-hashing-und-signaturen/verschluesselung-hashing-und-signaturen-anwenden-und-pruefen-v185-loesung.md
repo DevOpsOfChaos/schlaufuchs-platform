@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Sicherheit und Berechtigungen"
 topicPath: ["sicherheit-und-berechtigungen", "verschluesselung-hashing-und-signaturen", "verschluesselung-hashing-und-signaturen-anwenden-und-pruefen-v185"]
 taskId: "INF-V185-022-2"
-relatedExercise: "src/content/exercises/informatik/sicherheit-und-berechtigungen/verschluesselung-hashing-und-signaturen/verschluesselung-hashing-und-signaturen-anwenden-und-pruefen-v185.md"
+relatedExercise: "src/content/exercises/informatik/sicherheit-und-berechtigungen/verschluesselung-hashing-und-signaturen/verschluesselung-hashing-und-signaturen-anwenden-und-pruefen-v185"
 tags: ["informatik", "Sicherheit und Berechtigungen", "loesung"]
 draft: false
 ---

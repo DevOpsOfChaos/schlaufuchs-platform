@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierpraxis und Tests"
 topicPath: ["programmierpraxis-und-tests", "code-review-und-qualitaet", "code-review-und-qualitaet-anwenden-und-pruefen-v185"]
 taskId: "INF-V185-019-2"
-relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/code-review-und-qualitaet/code-review-und-qualitaet-anwenden-und-pruefen-v185.md"
+relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/code-review-und-qualitaet/code-review-und-qualitaet-anwenden-und-pruefen-v185"
 tags: ["informatik", "Programmierpraxis und Tests", "loesung"]
 draft: false
 ---

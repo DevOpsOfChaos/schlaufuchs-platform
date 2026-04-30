@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "sicherheit-und-dom", "sichere-dom-ausgabe-ohne-innerhtml"]
 taskId: "web-v104-sichere-dom-ausgabe-ohne-innerhtml"
-relatedExercise: "web-development/javascript/sicherheit-und-dom/sichere-dom-ausgabe-ohne-innerhtml"
+relatedExercise: "src/content/exercises/web-development/javascript/sicherheit-und-dom/sichere-dom-ausgabe-ohne-innerhtml"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

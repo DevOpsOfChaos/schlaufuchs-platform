@@ -5,7 +5,7 @@ subject: "linux"
 section: "system-und-dienste"
 topicPath: ["system-und-dienste", "systemd-units-verstehen", "systemd-units-verstehen-anwenden-und-pruefen-v186"]
 taskId: "LINUX-SYSTEMD-UNITS-VERSTEHEN-V186-2"
-relatedExercise: "src/content/exercises/linux/system-und-dienste/systemd-units-verstehen/systemd-units-verstehen-anwenden-und-pruefen-v186.md"
+relatedExercise: "src/content/exercises/linux/system-und-dienste/systemd-units-verstehen/systemd-units-verstehen-anwenden-und-pruefen-v186"
 tags: ["linux", "system-und-dienste", "loesung"]
 draft: false
 ---

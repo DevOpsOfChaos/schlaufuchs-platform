@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "linktexte-und-links", "downloads-externe-links-und-kontext-klar-benennen"]
 taskId: "wd-html-v95-downloads-externe-links"
-relatedExercise: "web-development/html/linktexte-und-links/downloads-externe-links-und-kontext-klar-benennen"
+relatedExercise: "src/content/exercises/web-development/html/linktexte-und-links/downloads-externe-links-und-kontext-klar-benennen"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

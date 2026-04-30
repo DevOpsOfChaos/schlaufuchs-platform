@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "mikrocontroller-und-atmega"
 topicPath: ["atmega", "atmega-spi-mosi-miso-sck-und-ss-zuordnen", "spi-grundsignale-am-avr-sauber-zuordnen"]
 taskId: "ET-ATMEGA-SPI-208"
-relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-spi-mosi-miso-sck-und-ss-zuordnen/spi-grundsignale-am-avr-sauber-zuordnen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-spi-mosi-miso-sck-und-ss-zuordnen/spi-grundsignale-am-avr-sauber-zuordnen"
 tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Feinstruktur Informatik"
 topicPath: ["datenmodellierung-v115", "schnittstellen-und-formate", "validierung-am-rand-durchfuehren-v115"]
 taskId: "informatik-validierung-am-rand-durchfuehren-v115"
-relatedExercise: "informatik/datenmodellierung-v115/schnittstellen-und-formate/validierung-am-rand-durchfuehren-v115"
+relatedExercise: "src/content/exercises/informatik/datenmodellierung-v115/schnittstellen-und-formate/validierung-am-rand-durchfuehren-v115"
 tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "bilder-und-alt-texte", "dekorative-und-informative-bilder-unterscheiden"]
 taskId: "wd-html-v95-dekorative-informative-bilder"
-relatedExercise: "web-development/html/bilder-und-alt-texte/dekorative-und-informative-bilder-unterscheiden"
+relatedExercise: "src/content/exercises/web-development/html/bilder-und-alt-texte/dekorative-und-informative-bilder-unterscheiden"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

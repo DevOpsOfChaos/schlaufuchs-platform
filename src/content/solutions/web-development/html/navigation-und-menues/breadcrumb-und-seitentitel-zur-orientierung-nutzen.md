@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "navigation-und-menues", "breadcrumb-und-seitentitel-zur-orientierung-nutzen"]
 taskId: "web-v104-breadcrumb-und-seitentitel-zur-orientierung-nutzen"
-relatedExercise: "web-development/html/navigation-und-menues/breadcrumb-und-seitentitel-zur-orientierung-nutzen"
+relatedExercise: "src/content/exercises/web-development/html/navigation-und-menues/breadcrumb-und-seitentitel-zur-orientierung-nutzen"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "web-development"
 section: "Feinstruktur Web Development"
 topicPath: ["javascript-produkt-v115", "dom-und-events", "dom-update-buendeln-v115"]
 taskId: "web-development-dom-update-buendeln-v115"
-relatedExercise: "web-development/javascript-produkt-v115/dom-und-events/dom-update-buendeln-v115"
+relatedExercise: "src/content/exercises/web-development/javascript-produkt-v115/dom-und-events/dom-update-buendeln-v115"
 tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---

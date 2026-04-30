@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "timer-overflow-prescaler-und-zeitrechnung"]
 taskId: "et-mc-v94-timer-overflow-prescaler"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/timer-overflow-prescaler-und-zeitrechnung"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/timer-overflow-prescaler-und-zeitrechnung"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

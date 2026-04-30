@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "uart-baudrate-und-zeichenrahmen"]
 taskId: "et-mc-uart-baudrate-rahmen"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/uart-baudrate-und-zeichenrahmen"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/uart-baudrate-und-zeichenrahmen"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

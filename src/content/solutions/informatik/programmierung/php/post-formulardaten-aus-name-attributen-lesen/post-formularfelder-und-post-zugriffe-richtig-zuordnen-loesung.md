@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "post-formulardaten-aus-name-attributen-lesen", "post-formularfelder-und-post-zugriffe-richtig-zuordnen"]
 taskId: "INF-PHP-REQUEST-003"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/post-formulardaten-aus-name-attributen-lesen/post-formularfelder-und-post-zugriffe-richtig-zuordnen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/post-formulardaten-aus-name-attributen-lesen/post-formularfelder-und-post-zugriffe-richtig-zuordnen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

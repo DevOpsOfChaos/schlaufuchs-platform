@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["mikrocontroller-und-atmega", "arduino-und-avr", "grundbegriffe-zuordnen"]
 taskId: "ET-MCU-ARDUINO-179-001"
-relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/arduino-und-avr/grundbegriffe-zuordnen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/arduino-und-avr/grundbegriffe-zuordnen"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

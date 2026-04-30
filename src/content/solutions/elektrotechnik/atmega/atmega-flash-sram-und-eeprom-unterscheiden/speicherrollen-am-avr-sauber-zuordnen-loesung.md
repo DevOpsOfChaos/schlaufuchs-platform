@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "mikrocontroller-und-atmega"
 topicPath: ["atmega", "atmega-flash-sram-und-eeprom-unterscheiden", "speicherrollen-am-avr-sauber-zuordnen"]
 taskId: "ET-ATMEGA-MEM-306"
-relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-flash-sram-und-eeprom-unterscheiden/speicherrollen-am-avr-sauber-zuordnen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-flash-sram-und-eeprom-unterscheiden/speicherrollen-am-avr-sauber-zuordnen"
 tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---

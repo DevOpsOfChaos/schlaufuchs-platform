@@ -5,7 +5,7 @@ subject: "web-development"
 section: "Feinstruktur Web Development"
 topicPath: ["css-systeme-v115", "visuelle-robustheit", "textumbruch-einplanen-v115"]
 taskId: "web-development-textumbruch-einplanen-v115"
-relatedExercise: "web-development/css-systeme-v115/visuelle-robustheit/textumbruch-einplanen-v115"
+relatedExercise: "src/content/exercises/web-development/css-systeme-v115/visuelle-robustheit/textumbruch-einplanen-v115"
 tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---

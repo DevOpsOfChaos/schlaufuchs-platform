@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "i2c-adressen-pullups-und-busfehler"]
 taskId: "et-mc-v92-i2c-busfehler"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/i2c-adressen-pullups-und-busfehler"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/i2c-adressen-pullups-und-busfehler"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

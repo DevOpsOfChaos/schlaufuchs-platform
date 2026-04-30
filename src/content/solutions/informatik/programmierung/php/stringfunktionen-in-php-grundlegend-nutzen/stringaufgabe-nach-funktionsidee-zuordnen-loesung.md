@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "stringfunktionen-in-php-grundlegend-nutzen", "stringaufgabe-nach-funktionsidee-zuordnen"]
 taskId: "INF-PHP-STRING-001"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/stringfunktionen-in-php-grundlegend-nutzen/stringaufgabe-nach-funktionsidee-zuordnen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/stringfunktionen-in-php-grundlegend-nutzen/stringaufgabe-nach-funktionsidee-zuordnen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

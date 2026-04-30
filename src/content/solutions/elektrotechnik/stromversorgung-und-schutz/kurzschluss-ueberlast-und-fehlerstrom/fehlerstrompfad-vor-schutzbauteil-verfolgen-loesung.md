@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Stromversorgung und Schutz"
 topicPath: ["stromversorgung-und-schutz", "kurzschluss-ueberlast-und-fehlerstrom", "fehlerstrompfad-vor-schutzbauteil-verfolgen"]
 taskId: "ET-V182-006"
-relatedExercise: "src/content/exercises/elektrotechnik/stromversorgung-und-schutz/kurzschluss-ueberlast-und-fehlerstrom/fehlerstrompfad-vor-schutzbauteil-verfolgen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/stromversorgung-und-schutz/kurzschluss-ueberlast-und-fehlerstrom/fehlerstrompfad-vor-schutzbauteil-verfolgen"
 tags: ["elektrotechnik", "Stromversorgung und Schutz", "loesung"]
 draft: false
 ---

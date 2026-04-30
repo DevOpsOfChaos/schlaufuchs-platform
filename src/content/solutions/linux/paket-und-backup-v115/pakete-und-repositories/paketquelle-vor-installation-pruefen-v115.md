@@ -5,7 +5,7 @@ subject: "linux"
 section: "Feinstruktur Linux"
 topicPath: ["paket-und-backup-v115", "pakete-und-repositories", "paketquelle-vor-installation-pruefen-v115"]
 taskId: "linux-paketquelle-vor-installation-pruefen-v115"
-relatedExercise: "linux/paket-und-backup-v115/pakete-und-repositories/paketquelle-vor-installation-pruefen-v115"
+relatedExercise: "src/content/exercises/linux/paket-und-backup-v115/pakete-und-repositories/paketquelle-vor-installation-pruefen-v115"
 tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---

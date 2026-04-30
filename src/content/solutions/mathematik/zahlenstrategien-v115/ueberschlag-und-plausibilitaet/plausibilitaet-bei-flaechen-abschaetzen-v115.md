@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Feinstruktur Mathematik"
 topicPath: ["zahlenstrategien-v115", "ueberschlag-und-plausibilitaet", "plausibilitaet-bei-flaechen-abschaetzen-v115"]
 taskId: "mathematik-plausibilitaet-bei-flaechen-abschaetzen-v115"
-relatedExercise: "mathematik/zahlenstrategien-v115/ueberschlag-und-plausibilitaet/plausibilitaet-bei-flaechen-abschaetzen-v115"
+relatedExercise: "src/content/exercises/mathematik/zahlenstrategien-v115/ueberschlag-und-plausibilitaet/plausibilitaet-bei-flaechen-abschaetzen-v115"
 tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---

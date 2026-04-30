@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "oop", "konstruktor-deklaration-inline-und-externe-definition-vergleichen", "deklaration-und-definition-von-konstruktoren-verbinden"]
 taskId: "INF-PROG-OOP-018"
-relatedExercise: "src/content/exercises/informatik/programmierung/oop/konstruktor-deklaration-inline-und-externe-definition-vergleichen/deklaration-und-definition-von-konstruktoren-verbinden.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/oop/konstruktor-deklaration-inline-und-externe-definition-vergleichen/deklaration-und-definition-von-konstruktoren-verbinden"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

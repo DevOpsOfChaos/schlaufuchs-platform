@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "browser-speicher", "sessionstorage-und-url-state-unterscheiden"]
 taskId: "web-v102-sessionstorage-und-url-state-unterscheiden"
-relatedExercise: "web-development/javascript/browser-speicher/sessionstorage-und-url-state-unterscheiden"
+relatedExercise: "src/content/exercises/web-development/javascript/browser-speicher/sessionstorage-und-url-state-unterscheiden"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

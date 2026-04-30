@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "html-semantik-grundidee-verstehen", "strukturelemente-fuer-inhalte-auswaehlen"]
 taskId: "WEB-HTML-SEM-001"
-relatedExercise: "src/content/exercises/web-development/html/html-semantik-grundidee-verstehen/strukturelemente-fuer-inhalte-auswaehlen.md"
+relatedExercise: "src/content/exercises/web-development/html/html-semantik-grundidee-verstehen/strukturelemente-fuer-inhalte-auswaehlen"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

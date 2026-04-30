@@ -5,7 +5,7 @@ subject: "web-development"
 section: "Projektpraxis"
 topicPath: ["projektpraxis", "betrieb-und-release", "staging-und-produktivumgebung-trennen"]
 taskId: "web-v105-staging-und-produktivumgebung-trennen"
-relatedExercise: "web-development/projektpraxis/betrieb-und-release/staging-und-produktivumgebung-trennen"
+relatedExercise: "src/content/exercises/web-development/projektpraxis/betrieb-und-release/staging-und-produktivumgebung-trennen"
 tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---

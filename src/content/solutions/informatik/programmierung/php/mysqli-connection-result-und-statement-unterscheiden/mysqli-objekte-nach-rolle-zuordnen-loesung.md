@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "mysqli-connection-result-und-statement-unterscheiden", "mysqli-objekte-nach-rolle-zuordnen"]
 taskId: "INF-PHP-MYSQL-008"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/mysqli-connection-result-und-statement-unterscheiden/mysqli-objekte-nach-rolle-zuordnen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/mysqli-connection-result-und-statement-unterscheiden/mysqli-objekte-nach-rolle-zuordnen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

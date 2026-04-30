@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierpraxis und Tests"
 topicPath: ["programmierpraxis-und-tests", "caching-und-memoisierung", "caching-und-memoisierung-anwenden-und-pruefen-v185"]
 taskId: "INF-V185-015-2"
-relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/caching-und-memoisierung/caching-und-memoisierung-anwenden-und-pruefen-v185.md"
+relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/caching-und-memoisierung/caching-und-memoisierung-anwenden-und-pruefen-v185"
 tags: ["informatik", "Programmierpraxis und Tests", "loesung"]
 draft: false
 ---

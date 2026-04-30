@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "cpp", "ganzzahl-gleitkomma-und-bool-unterscheiden", "wertearten-sauber-unterscheiden"]
 taskId: "INF-PROG-CPP-TYPEN-001"
-relatedExercise: "src/content/exercises/informatik/programmierung/cpp/ganzzahl-gleitkomma-und-bool-unterscheiden/wertearten-sauber-unterscheiden.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/ganzzahl-gleitkomma-und-bool-unterscheiden/wertearten-sauber-unterscheiden"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

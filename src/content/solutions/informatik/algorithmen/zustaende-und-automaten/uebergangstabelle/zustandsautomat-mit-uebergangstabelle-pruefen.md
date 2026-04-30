@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Algorithmen"
 topicPath: ["algorithmen", "zustaende-und-automaten", "uebergangstabelle", "zustandsautomat-mit-uebergangstabelle-pruefen"]
 taskId: "v108-informatik-zustandsautomat-mit-uebergangstabelle-pruefen"
-relatedExercise: "informatik/algorithmen/zustaende-und-automaten/uebergangstabelle/zustandsautomat-mit-uebergangstabelle-pruefen"
+relatedExercise: "src/content/exercises/informatik/algorithmen/zustaende-und-automaten/uebergangstabelle/zustandsautomat-mit-uebergangstabelle-pruefen"
 tags: ["informatik", "Algorithmen", "loesung"]
 draft: false
 ---

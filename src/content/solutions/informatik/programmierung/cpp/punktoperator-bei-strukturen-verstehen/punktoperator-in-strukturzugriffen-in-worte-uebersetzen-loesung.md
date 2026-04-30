@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "cpp", "punktoperator-bei-strukturen-verstehen", "punktoperator-in-strukturzugriffen-in-worte-uebersetzen"]
 taskId: "INF-PROG-CPP-STRUCTMEM-001"
-relatedExercise: "src/content/exercises/informatik/programmierung/cpp/punktoperator-bei-strukturen-verstehen/punktoperator-in-strukturzugriffen-in-worte-uebersetzen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/punktoperator-bei-strukturen-verstehen/punktoperator-in-strukturzugriffen-in-worte-uebersetzen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

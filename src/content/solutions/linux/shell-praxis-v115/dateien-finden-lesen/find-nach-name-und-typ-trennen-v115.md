@@ -5,7 +5,7 @@ subject: "linux"
 section: "Feinstruktur Linux"
 topicPath: ["shell-praxis-v115", "dateien-finden-lesen", "find-nach-name-und-typ-trennen-v115"]
 taskId: "linux-find-nach-name-und-typ-trennen-v115"
-relatedExercise: "linux/shell-praxis-v115/dateien-finden-lesen/find-nach-name-und-typ-trennen-v115"
+relatedExercise: "src/content/exercises/linux/shell-praxis-v115/dateien-finden-lesen/find-nach-name-und-typ-trennen-v115"
 tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---

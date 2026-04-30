@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "responsive-layouts", "grid-template-areas-und-layoutzonen-planen"]
 taskId: "wd-v97-grid-template-areas-und-layoutzonen-planen"
-relatedExercise: "web-development/css/responsive-layouts/grid-template-areas-und-layoutzonen-planen"
+relatedExercise: "src/content/exercises/web-development/css/responsive-layouts/grid-template-areas-und-layoutzonen-planen"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

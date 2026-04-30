@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Bauteile"
 topicPath: ["bauteile", "bauteiltoleranzen-und-derating", "toleranz-in-einer-widerstandsauswahl-mitdenken"]
 taskId: "ET-V182-017"
-relatedExercise: "src/content/exercises/elektrotechnik/bauteile/bauteiltoleranzen-und-derating/toleranz-in-einer-widerstandsauswahl-mitdenken.md"
+relatedExercise: "src/content/exercises/elektrotechnik/bauteile/bauteiltoleranzen-und-derating/toleranz-in-einer-widerstandsauswahl-mitdenken"
 tags: ["elektrotechnik", "Bauteile", "loesung"]
 draft: false
 ---

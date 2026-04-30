@@ -5,7 +5,7 @@ subject: "linux"
 section: "Feinstruktur Linux"
 topicPath: ["systembetrieb-v115", "prozesse-und-dienste", "kill-signal-passend-waehlen-v115"]
 taskId: "linux-kill-signal-passend-waehlen-v115"
-relatedExercise: "linux/systembetrieb-v115/prozesse-und-dienste/kill-signal-passend-waehlen-v115"
+relatedExercise: "src/content/exercises/linux/systembetrieb-v115/prozesse-und-dienste/kill-signal-passend-waehlen-v115"
 tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---

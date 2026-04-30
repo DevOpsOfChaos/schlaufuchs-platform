@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "einfache-und-doppelte-anfuehrungszeichen-in-php-unterscheiden", "php-string-schreibweisen-und-ausgabe-vergleichen"]
 taskId: "INF-PHP-STRINGS-003"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/einfache-und-doppelte-anfuehrungszeichen-in-php-unterscheiden/php-string-schreibweisen-und-ausgabe-vergleichen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/einfache-und-doppelte-anfuehrungszeichen-in-php-unterscheiden/php-string-schreibweisen-und-ausgabe-vergleichen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

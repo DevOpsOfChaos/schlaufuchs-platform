@@ -5,7 +5,7 @@ subject: "linux"
 section: "System"
 topicPath: ["system", "dienste-und-systemd", "journalzeit", "journalctl-nach-dienst-und-zeit-eingrenzen"]
 taskId: "v108-linux-journalctl-nach-dienst-und-zeit-eingrenzen"
-relatedExercise: "linux/system/dienste-und-systemd/journalzeit/journalctl-nach-dienst-und-zeit-eingrenzen"
+relatedExercise: "src/content/exercises/linux/system/dienste-und-systemd/journalzeit/journalctl-nach-dienst-und-zeit-eingrenzen"
 tags: ["linux", "System", "loesung"]
 draft: false
 ---

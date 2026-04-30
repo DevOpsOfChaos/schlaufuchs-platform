@@ -5,7 +5,7 @@ subject: "web-development"
 section: "UX"
 topicPath: ["ux", "navigation-und-orientierung", "seitennavigation-mit-zustand-und-rueckweg-denken"]
 taskId: "v106-web-development-seitennavigation-mit-zustand-und-rueckweg-denken"
-relatedExercise: "web-development/ux/navigation-und-orientierung/seitennavigation-mit-zustand-und-rueckweg-denken"
+relatedExercise: "src/content/exercises/web-development/ux/navigation-und-orientierung/seitennavigation-mit-zustand-und-rueckweg-denken"
 tags: ["web-development", "UX", "loesung"]
 draft: false
 ---

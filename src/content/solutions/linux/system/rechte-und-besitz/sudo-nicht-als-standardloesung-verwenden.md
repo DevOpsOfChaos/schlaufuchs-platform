@@ -5,7 +5,7 @@ subject: "linux"
 section: "Rechte"
 topicPath: ["system", "rechte-und-besitz", "sudo-nicht-als-standardloesung-verwenden"]
 taskId: "v106-linux-sudo-nicht-als-standardloesung-verwenden"
-relatedExercise: "linux/system/rechte-und-besitz/sudo-nicht-als-standardloesung-verwenden"
+relatedExercise: "src/content/exercises/linux/system/rechte-und-besitz/sudo-nicht-als-standardloesung-verwenden"
 tags: ["linux", "Rechte", "loesung"]
 draft: false
 ---

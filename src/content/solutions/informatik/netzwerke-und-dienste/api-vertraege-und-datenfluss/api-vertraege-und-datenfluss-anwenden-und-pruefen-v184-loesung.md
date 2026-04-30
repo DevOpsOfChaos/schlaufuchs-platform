@@ -5,7 +5,7 @@ subject: "informatik"
 section: "netzwerke-und-dienste"
 topicPath: ["netzwerke-und-dienste", "api-vertraege-und-datenfluss", "api-vertraege-und-datenfluss-anwenden-und-pruefen-v184"]
 taskId: "INF-API-VERTRAEGE-UND-DATENFLUSS-842"
-relatedExercise: "src/content/exercises/informatik/netzwerke-und-dienste/api-vertraege-und-datenfluss/api-vertraege-und-datenfluss-anwenden-und-pruefen-v184.md"
+relatedExercise: "src/content/exercises/informatik/netzwerke-und-dienste/api-vertraege-und-datenfluss/api-vertraege-und-datenfluss-anwenden-und-pruefen-v184"
 tags: ["informatik", "netzwerke-und-dienste", "loesung"]
 draft: false
 ---

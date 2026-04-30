@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "mikrocontroller-und-atmega"
 topicPath: ["atmega", "atmega-timer-und-prescaler-verstehen", "timer-und-prescaler-in-zeit-uebersetzen"]
 taskId: "ET-ATMEGA-TMR-203"
-relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-timer-und-prescaler-verstehen/timer-und-prescaler-in-zeit-uebersetzen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-timer-und-prescaler-verstehen/timer-und-prescaler-in-zeit-uebersetzen"
 tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---

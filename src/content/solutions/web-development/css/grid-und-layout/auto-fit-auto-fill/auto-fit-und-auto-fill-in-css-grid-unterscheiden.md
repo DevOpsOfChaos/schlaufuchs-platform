@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "grid-und-layout", "auto-fit-auto-fill", "auto-fit-und-auto-fill-in-css-grid-unterscheiden"]
 taskId: "v108-web-development-auto-fit-und-auto-fill-in-css-grid-unterscheiden"
-relatedExercise: "web-development/css/grid-und-layout/auto-fit-auto-fill/auto-fit-und-auto-fill-in-css-grid-unterscheiden"
+relatedExercise: "src/content/exercises/web-development/css/grid-und-layout/auto-fit-auto-fill/auto-fit-und-auto-fill-in-css-grid-unterscheiden"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

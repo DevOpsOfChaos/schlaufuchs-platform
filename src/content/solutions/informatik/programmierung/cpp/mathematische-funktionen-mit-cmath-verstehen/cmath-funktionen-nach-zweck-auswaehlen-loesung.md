@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "cpp", "mathematische-funktionen-mit-cmath-verstehen", "cmath-funktionen-nach-zweck-auswaehlen"]
 taskId: "INF-PROG-CPP-CMATH-001"
-relatedExercise: "src/content/exercises/informatik/programmierung/cpp/mathematische-funktionen-mit-cmath-verstehen/cmath-funktionen-nach-zweck-auswaehlen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/mathematische-funktionen-mit-cmath-verstehen/cmath-funktionen-nach-zweck-auswaehlen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "css-spezifitaet-und-kaskade", "utility-klassen-und-komponenten-css-abwaegen"]
 taskId: "web-v103-utility-klassen-und-komponenten-css-abwaegen"
-relatedExercise: "web-development/css/css-spezifitaet-und-kaskade/utility-klassen-und-komponenten-css-abwaegen"
+relatedExercise: "src/content/exercises/web-development/css/css-spezifitaet-und-kaskade/utility-klassen-und-komponenten-css-abwaegen"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

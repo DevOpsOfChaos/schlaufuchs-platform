@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "cpp", "standardkanaele-cin-cout-und-cerr-verstehen", "standardkanaele-nach-rolle-und-ausgabesituation-zuordnen"]
 taskId: "INF-PROG-CPP-STREAMOBJ-001"
-relatedExercise: "src/content/exercises/informatik/programmierung/cpp/standardkanaele-cin-cout-und-cerr-verstehen/standardkanaele-nach-rolle-und-ausgabesituation-zuordnen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/standardkanaele-cin-cout-und-cerr-verstehen/standardkanaele-nach-rolle-und-ausgabesituation-zuordnen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

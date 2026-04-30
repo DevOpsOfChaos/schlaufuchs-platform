@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "performance-und-laden", "critical-css-und-render-blocking-verstehen"]
 taskId: "web-v100-critical-css-und-render-blocking-verstehen"
-relatedExercise: "web-development/css/performance-und-laden/critical-css-und-render-blocking-verstehen"
+relatedExercise: "src/content/exercises/web-development/css/performance-und-laden/critical-css-und-render-blocking-verstehen"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

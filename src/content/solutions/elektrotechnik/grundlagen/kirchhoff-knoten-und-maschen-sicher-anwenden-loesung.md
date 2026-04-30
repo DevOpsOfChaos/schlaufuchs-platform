@@ -4,8 +4,8 @@ description: "Lösung zur Aufgabe über das Anwenden der Kirchhoffschen Regeln."
 subject: "elektrotechnik"
 section: "Grundlagen"
 topicPath: ["grundlagen", "kirchhoff-knoten-und-maschen-sicher-anwenden"]
-taskId: "ET-GR-KIRCHHOFF-001"
-relatedExercise: "src/content/exercises/elektrotechnik/grundlagen/kirchhoff-knoten-und-maschen-sicher-anwenden.md"
+taskId: "AUTO-KIRCHHOFF-KNOTEN-UND-MASCHEN-SICHER-ANWENDEN"
+relatedExercise: "src/content/exercises/elektrotechnik/grundlagen/kirchhoff-knoten-und-maschen-sicher-anwenden"
 tags: ["elektrotechnik", "Grundlagen", "loesung"]
 draft: false
 ---

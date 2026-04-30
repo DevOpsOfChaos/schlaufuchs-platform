@@ -5,7 +5,7 @@ subject: "web-development"
 section: "Projektpraxis"
 topicPath: ["projektpraxis", "performance-und-cache", "statische-assets", "cache-regeln-fuer-statische-assets-planen"]
 taskId: "v108-web-development-cache-regeln-fuer-statische-assets-planen"
-relatedExercise: "web-development/projektpraxis/performance-und-cache/statische-assets/cache-regeln-fuer-statische-assets-planen"
+relatedExercise: "src/content/exercises/web-development/projektpraxis/performance-und-cache/statische-assets/cache-regeln-fuer-statische-assets-planen"
 tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---

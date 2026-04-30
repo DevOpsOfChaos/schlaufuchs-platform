@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "debugging-und-diagnose", "console-network-elements-zusammen-nutzen"]
 taskId: "web-v103-console-network-elements-zusammen-nutzen"
-relatedExercise: "web-development/javascript/debugging-und-diagnose/console-network-elements-zusammen-nutzen"
+relatedExercise: "src/content/exercises/web-development/javascript/debugging-und-diagnose/console-network-elements-zusammen-nutzen"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

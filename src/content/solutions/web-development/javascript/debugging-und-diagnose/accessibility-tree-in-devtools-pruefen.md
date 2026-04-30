@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "debugging-und-diagnose", "accessibility-tree-in-devtools-pruefen"]
 taskId: "web-v101-accessibility-tree-in-devtools-pruefen"
-relatedExercise: "web-development/javascript/debugging-und-diagnose/accessibility-tree-in-devtools-pruefen"
+relatedExercise: "src/content/exercises/web-development/javascript/debugging-und-diagnose/accessibility-tree-in-devtools-pruefen"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

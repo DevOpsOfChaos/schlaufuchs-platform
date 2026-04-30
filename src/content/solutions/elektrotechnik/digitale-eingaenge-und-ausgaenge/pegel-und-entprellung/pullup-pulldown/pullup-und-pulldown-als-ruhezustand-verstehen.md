@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Digitaltechnik"
 topicPath: ["digitale-eingaenge-und-ausgaenge", "pegel-und-entprellung", "pullup-pulldown", "pullup-und-pulldown-als-ruhezustand-verstehen"]
 taskId: "v108-elektrotechnik-pullup-und-pulldown-als-ruhezustand-verstehen"
-relatedExercise: "elektrotechnik/digitale-eingaenge-und-ausgaenge/pegel-und-entprellung/pullup-pulldown/pullup-und-pulldown-als-ruhezustand-verstehen"
+relatedExercise: "src/content/exercises/elektrotechnik/digitale-eingaenge-und-ausgaenge/pegel-und-entprellung/pullup-pulldown/pullup-und-pulldown-als-ruhezustand-verstehen"
 tags: ["elektrotechnik", "Digitaltechnik", "loesung"]
 draft: false
 ---

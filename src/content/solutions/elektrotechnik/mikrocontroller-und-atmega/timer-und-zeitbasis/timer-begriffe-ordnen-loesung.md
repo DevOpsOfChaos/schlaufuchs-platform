@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["mikrocontroller-und-atmega", "timer-und-zeitbasis", "timer-begriffe-ordnen"]
 taskId: "ET-MCU-TIMER-179-001"
-relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/timer-und-zeitbasis/timer-begriffe-ordnen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/timer-und-zeitbasis/timer-begriffe-ordnen"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

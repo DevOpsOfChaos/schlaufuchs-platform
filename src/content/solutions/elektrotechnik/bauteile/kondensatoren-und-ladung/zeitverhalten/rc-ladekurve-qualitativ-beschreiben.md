@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Bauteile"
 topicPath: ["bauteile", "kondensatoren-und-ladung", "zeitverhalten", "rc-ladekurve-qualitativ-beschreiben"]
 taskId: "v107-elektrotechnik-rc-ladekurve-qualitativ-beschreiben"
-relatedExercise: "elektrotechnik/bauteile/kondensatoren-und-ladung/zeitverhalten/rc-ladekurve-qualitativ-beschreiben"
+relatedExercise: "src/content/exercises/elektrotechnik/bauteile/kondensatoren-und-ladung/zeitverhalten/rc-ladekurve-qualitativ-beschreiben"
 tags: ["elektrotechnik", "Bauteile", "loesung"]
 draft: false
 ---

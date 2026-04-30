@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "cpp", "const-pointer-und-pointer-auf-const-unterscheiden", "const-pointer-und-pointer-auf-const-sauber-lesen"]
 taskId: "INF-PROG-CPP-PTR-005"
-relatedExercise: "src/content/exercises/informatik/programmierung/cpp/const-pointer-und-pointer-auf-const-unterscheiden/const-pointer-und-pointer-auf-const-sauber-lesen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/const-pointer-und-pointer-auf-const-unterscheiden/const-pointer-und-pointer-auf-const-sauber-lesen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

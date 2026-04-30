@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "cpp", "new-und-delete-sauber-paaren", "new-und-delete-im-ablauf-verbinden"]
 taskId: "INF-PROG-CPP-MEM-001"
-relatedExercise: "src/content/exercises/informatik/programmierung/cpp/new-und-delete-sauber-paaren/new-und-delete-im-ablauf-verbinden.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/new-und-delete-sauber-paaren/new-und-delete-im-ablauf-verbinden"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

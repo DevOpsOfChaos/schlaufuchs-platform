@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "box-modell", "logical-properties-fuer-schreibrichtung-und-layout"]
 taskId: "web-v102-logical-properties-fuer-schreibrichtung-und-layout"
-relatedExercise: "web-development/css/box-modell/logical-properties-fuer-schreibrichtung-und-layout"
+relatedExercise: "src/content/exercises/web-development/css/box-modell/logical-properties-fuer-schreibrichtung-und-layout"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "bilder-und-alt-texte", "figure-figcaption-und-bildkontext-sauber-verbinden"]
 taskId: "wd-v97-figure-figcaption-und-bildkontext-sauber-verbinden"
-relatedExercise: "web-development/html/bilder-und-alt-texte/figure-figcaption-und-bildkontext-sauber-verbinden"
+relatedExercise: "src/content/exercises/web-development/html/bilder-und-alt-texte/figure-figcaption-und-bildkontext-sauber-verbinden"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

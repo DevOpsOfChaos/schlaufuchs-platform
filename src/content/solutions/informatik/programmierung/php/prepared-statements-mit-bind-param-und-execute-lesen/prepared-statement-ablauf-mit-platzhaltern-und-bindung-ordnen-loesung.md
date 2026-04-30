@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "prepared-statements-mit-bind-param-und-execute-lesen", "prepared-statement-ablauf-mit-platzhaltern-und-bindung-ordnen"]
 taskId: "INF-PHP-MYSQL-007"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/prepared-statements-mit-bind-param-und-execute-lesen/prepared-statement-ablauf-mit-platzhaltern-und-bindung-ordnen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/prepared-statements-mit-bind-param-und-execute-lesen/prepared-statement-ablauf-mit-platzhaltern-und-bindung-ordnen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

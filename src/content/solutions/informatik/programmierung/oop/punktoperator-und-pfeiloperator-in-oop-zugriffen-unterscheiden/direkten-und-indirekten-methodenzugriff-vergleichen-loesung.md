@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "oop", "punktoperator-und-pfeiloperator-in-oop-zugriffen-unterscheiden", "direkten-und-indirekten-methodenzugriff-vergleichen"]
 taskId: "INF-PROG-OOP-023"
-relatedExercise: "informatik/programmierung/oop/punktoperator-und-pfeiloperator-in-oop-zugriffen-unterscheiden/direkten-und-indirekten-methodenzugriff-vergleichen"
+relatedExercise: "src/content/exercises/informatik/programmierung/oop/punktoperator-und-pfeiloperator-in-oop-zugriffen-unterscheiden/direkten-und-indirekten-methodenzugriff-vergleichen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

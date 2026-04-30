@@ -4,8 +4,8 @@ description: "Lösung zur Aufgabe über Reihen- und Parallelschaltungen."
 subject: "elektrotechnik"
 section: "Elektronik"
 topicPath: ["elektronik", "reihen-und-parallelschaltung", "verhalten-vergleichen"]
-taskId: "ET-EL-REIHE-PARALLEL-001"
-relatedExercise: "src/content/exercises/elektrotechnik/elektronik/reihen-und-parallelschaltung/verhalten-vergleichen.md"
+taskId: "AUTO-VERHALTEN-VERGLEICHEN"
+relatedExercise: "src/content/exercises/elektrotechnik/elektronik/reihen-und-parallelschaltung/verhalten-vergleichen"
 tags: ["elektrotechnik", "Elektronik", "loesung"]
 draft: false
 ---

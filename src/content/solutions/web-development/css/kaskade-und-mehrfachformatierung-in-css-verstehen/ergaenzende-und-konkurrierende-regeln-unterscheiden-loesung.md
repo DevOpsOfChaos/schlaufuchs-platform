@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "kaskade-und-mehrfachformatierung-in-css-verstehen", "ergaenzende-und-konkurrierende-regeln-unterscheiden"]
 taskId: "WEB-CSS-CORE-102"
-relatedExercise: "src/content/exercises/web-development/css/kaskade-und-mehrfachformatierung-in-css-verstehen/ergaenzende-und-konkurrierende-regeln-unterscheiden.md"
+relatedExercise: "src/content/exercises/web-development/css/kaskade-und-mehrfachformatierung-in-css-verstehen/ergaenzende-und-konkurrierende-regeln-unterscheiden"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

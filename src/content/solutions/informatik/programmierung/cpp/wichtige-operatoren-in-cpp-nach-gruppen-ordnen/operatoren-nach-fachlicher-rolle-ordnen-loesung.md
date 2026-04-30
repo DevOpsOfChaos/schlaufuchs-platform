@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "cpp", "wichtige-operatoren-in-cpp-nach-gruppen-ordnen", "operatoren-nach-fachlicher-rolle-ordnen"]
 taskId: "INF-PROG-CPP-OP-001"
-relatedExercise: "src/content/exercises/informatik/programmierung/cpp/wichtige-operatoren-in-cpp-nach-gruppen-ordnen/operatoren-nach-fachlicher-rolle-ordnen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/wichtige-operatoren-in-cpp-nach-gruppen-ordnen/operatoren-nach-fachlicher-rolle-ordnen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

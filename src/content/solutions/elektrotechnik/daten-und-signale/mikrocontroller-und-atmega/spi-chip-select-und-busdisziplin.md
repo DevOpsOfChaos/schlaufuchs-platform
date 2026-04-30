@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "spi-chip-select-und-busdisziplin"]
 taskId: "et-mc-v92-spi-chip-select"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/spi-chip-select-und-busdisziplin"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/spi-chip-select-und-busdisziplin"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

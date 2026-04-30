@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "eeprom-schonend-speichern"]
 taskId: "et-mc-v93-eeprom"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/eeprom-schonend-speichern"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/eeprom-schonend-speichern"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "responsive-layouts", "logische-css-eigenschaften-und-schreibrichtungen"]
 taskId: "logische-css-eigenschaften-und-schreibrichtungen"
-relatedExercise: "web-development/css/responsive-layouts/logische-css-eigenschaften-und-schreibrichtungen"
+relatedExercise: "src/content/exercises/web-development/css/responsive-layouts/logische-css-eigenschaften-und-schreibrichtungen"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

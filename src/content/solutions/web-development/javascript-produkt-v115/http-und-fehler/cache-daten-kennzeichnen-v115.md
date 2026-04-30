@@ -5,7 +5,7 @@ subject: "web-development"
 section: "Feinstruktur Web Development"
 topicPath: ["javascript-produkt-v115", "http-und-fehler", "cache-daten-kennzeichnen-v115"]
 taskId: "web-development-cache-daten-kennzeichnen-v115"
-relatedExercise: "web-development/javascript-produkt-v115/http-und-fehler/cache-daten-kennzeichnen-v115"
+relatedExercise: "src/content/exercises/web-development/javascript-produkt-v115/http-und-fehler/cache-daten-kennzeichnen-v115"
 tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---

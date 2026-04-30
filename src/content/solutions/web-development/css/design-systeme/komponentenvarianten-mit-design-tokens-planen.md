@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "design-systeme", "komponentenvarianten-mit-design-tokens-planen"]
 taskId: "v106-web-development-komponentenvarianten-mit-design-tokens-planen"
-relatedExercise: "web-development/css/design-systeme/komponentenvarianten-mit-design-tokens-planen"
+relatedExercise: "src/content/exercises/web-development/css/design-systeme/komponentenvarianten-mit-design-tokens-planen"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

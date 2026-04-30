@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "formularfeedback-und-zustaende", "statusmeldungen-in-formularen-zugaenglich-machen"]
 taskId: "v106-web-development-statusmeldungen-in-formularen-zugaenglich-machen"
-relatedExercise: "web-development/html/formularfeedback-und-zustaende/statusmeldungen-in-formularen-zugaenglich-machen"
+relatedExercise: "src/content/exercises/web-development/html/formularfeedback-und-zustaende/statusmeldungen-in-formularen-zugaenglich-machen"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

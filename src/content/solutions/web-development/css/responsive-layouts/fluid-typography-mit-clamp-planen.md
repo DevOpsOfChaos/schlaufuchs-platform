@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "responsive-layouts", "fluid-typography-mit-clamp-planen"]
 taskId: "web-v103-fluid-typography-mit-clamp-planen"
-relatedExercise: "web-development/css/responsive-layouts/fluid-typography-mit-clamp-planen"
+relatedExercise: "src/content/exercises/web-development/css/responsive-layouts/fluid-typography-mit-clamp-planen"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

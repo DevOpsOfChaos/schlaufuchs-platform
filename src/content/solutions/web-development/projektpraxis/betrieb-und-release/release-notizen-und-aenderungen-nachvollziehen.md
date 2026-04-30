@@ -5,7 +5,7 @@ subject: "web-development"
 section: "Projektpraxis"
 topicPath: ["projektpraxis", "betrieb-und-release", "release-notizen-und-aenderungen-nachvollziehen"]
 taskId: "web-v105-release-notizen-und-aenderungen-nachvollziehen"
-relatedExercise: "web-development/projektpraxis/betrieb-und-release/release-notizen-und-aenderungen-nachvollziehen"
+relatedExercise: "src/content/exercises/web-development/projektpraxis/betrieb-und-release/release-notizen-und-aenderungen-nachvollziehen"
 tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---

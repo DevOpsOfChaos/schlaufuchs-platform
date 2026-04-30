@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "selektoren", "focus-visible-hover-und-pointer-zustaende-planen"]
 taskId: "wd-css-v95-focus-hover-pointer"
-relatedExercise: "web-development/css/selektoren/focus-visible-hover-und-pointer-zustaende-planen"
+relatedExercise: "src/content/exercises/web-development/css/selektoren/focus-visible-hover-und-pointer-zustaende-planen"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

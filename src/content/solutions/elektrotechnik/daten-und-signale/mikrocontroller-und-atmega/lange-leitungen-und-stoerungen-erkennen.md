@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "lange-leitungen-und-stoerungen-erkennen"]
 taskId: "et-mc-v93-stoerungen"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/lange-leitungen-und-stoerungen-erkennen"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/lange-leitungen-und-stoerungen-erkennen"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

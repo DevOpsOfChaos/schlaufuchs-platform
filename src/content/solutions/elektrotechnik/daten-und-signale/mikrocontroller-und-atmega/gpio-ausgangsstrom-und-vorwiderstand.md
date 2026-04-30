@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "gpio-ausgangsstrom-und-vorwiderstand"]
 taskId: "et-mc-v93-gpio-strom"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/gpio-ausgangsstrom-und-vorwiderstand"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/gpio-ausgangsstrom-und-vorwiderstand"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

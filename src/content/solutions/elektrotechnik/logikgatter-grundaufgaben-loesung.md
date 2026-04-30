@@ -4,8 +4,8 @@ description: "Lösung zu grundlegenden Aufgaben über Logikgatter und Wahrheitst
 subject: "elektrotechnik"
 section: "Digitale Technik"
 topicPath: ["logikgatter-grundaufgaben"]
-taskId: "ET-GR-LOGIK-001"
-relatedExercise: "src/content/exercises/elektrotechnik/logikgatter-grundaufgaben.md"
+taskId: "AUTO-LOGIKGATTER-GRUNDAUFGABEN"
+relatedExercise: "src/content/exercises/elektrotechnik/logikgatter-grundaufgaben"
 tags: ["elektrotechnik", "Digitale Technik", "loesung"]
 draft: false
 ---

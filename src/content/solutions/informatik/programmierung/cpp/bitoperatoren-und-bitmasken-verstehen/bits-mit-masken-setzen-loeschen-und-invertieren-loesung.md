@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "cpp", "bitoperatoren-und-bitmasken-verstehen", "bits-mit-masken-setzen-loeschen-und-invertieren"]
 taskId: "INF-PROG-CPP-BIT-001"
-relatedExercise: "src/content/exercises/informatik/programmierung/cpp/bitoperatoren-und-bitmasken-verstehen/bits-mit-masken-setzen-loeschen-und-invertieren.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/bitoperatoren-und-bitmasken-verstehen/bits-mit-masken-setzen-loeschen-und-invertieren"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

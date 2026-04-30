@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Bauteile"
 topicPath: ["bauteile", "kondensatoren-und-filter", "hochpass-tiefpass", "rc-hochpass-und-tiefpass-qualitativ-unterscheiden"]
 taskId: "v108-elektrotechnik-rc-hochpass-und-tiefpass-qualitativ-unterscheiden"
-relatedExercise: "elektrotechnik/bauteile/kondensatoren-und-filter/hochpass-tiefpass/rc-hochpass-und-tiefpass-qualitativ-unterscheiden"
+relatedExercise: "src/content/exercises/elektrotechnik/bauteile/kondensatoren-und-filter/hochpass-tiefpass/rc-hochpass-und-tiefpass-qualitativ-unterscheiden"
 tags: ["elektrotechnik", "Bauteile", "loesung"]
 draft: false
 ---

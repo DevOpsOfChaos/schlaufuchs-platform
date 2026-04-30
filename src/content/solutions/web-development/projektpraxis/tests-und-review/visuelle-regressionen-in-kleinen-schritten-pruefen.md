@@ -5,7 +5,7 @@ subject: "web-development"
 section: "Projektpraxis"
 topicPath: ["projektpraxis", "tests-und-review", "visuelle-regressionen-in-kleinen-schritten-pruefen"]
 taskId: "v106-web-development-visuelle-regressionen-in-kleinen-schritten-pruefen"
-relatedExercise: "web-development/projektpraxis/tests-und-review/visuelle-regressionen-in-kleinen-schritten-pruefen"
+relatedExercise: "src/content/exercises/web-development/projektpraxis/tests-und-review/visuelle-regressionen-in-kleinen-schritten-pruefen"
 tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---

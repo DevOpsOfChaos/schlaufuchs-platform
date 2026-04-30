@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Feinstruktur Informatik"
 topicPath: ["softwarequalitaet-v115", "code-lesbarkeit", "funktionsname-als-vertrag-lesen-v115"]
 taskId: "informatik-funktionsname-als-vertrag-lesen-v115"
-relatedExercise: "informatik/softwarequalitaet-v115/code-lesbarkeit/funktionsname-als-vertrag-lesen-v115"
+relatedExercise: "src/content/exercises/informatik/softwarequalitaet-v115/code-lesbarkeit/funktionsname-als-vertrag-lesen-v115"
 tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Feinstruktur Mathematik"
 topicPath: ["zahlenstrategien-v115", "brueche-und-anteile", "kehrwert-als-umkehrbeziehung-lesen-v115"]
 taskId: "mathematik-kehrwert-als-umkehrbeziehung-lesen-v115"
-relatedExercise: "mathematik/zahlenstrategien-v115/brueche-und-anteile/kehrwert-als-umkehrbeziehung-lesen-v115"
+relatedExercise: "src/content/exercises/mathematik/zahlenstrategien-v115/brueche-und-anteile/kehrwert-als-umkehrbeziehung-lesen-v115"
 tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---

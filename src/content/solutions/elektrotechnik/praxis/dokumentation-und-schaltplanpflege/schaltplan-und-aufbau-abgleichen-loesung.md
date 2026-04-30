@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Praxis"
 topicPath: ["praxis", "dokumentation-und-schaltplanpflege", "schaltplan-und-aufbau-abgleichen"]
 taskId: "ET-V182-024"
-relatedExercise: "src/content/exercises/elektrotechnik/praxis/dokumentation-und-schaltplanpflege/schaltplan-und-aufbau-abgleichen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/praxis/dokumentation-und-schaltplanpflege/schaltplan-und-aufbau-abgleichen"
 tags: ["elektrotechnik", "Praxis", "loesung"]
 draft: false
 ---

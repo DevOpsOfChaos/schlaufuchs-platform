@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "zugaenglichkeit-und-ux", "toast-und-statusmeldungen-nicht-verstecken"]
 taskId: "web-v103-toast-und-statusmeldungen-nicht-verstecken"
-relatedExercise: "web-development/javascript/zugaenglichkeit-und-ux/toast-und-statusmeldungen-nicht-verstecken"
+relatedExercise: "src/content/exercises/web-development/javascript/zugaenglichkeit-und-ux/toast-und-statusmeldungen-nicht-verstecken"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

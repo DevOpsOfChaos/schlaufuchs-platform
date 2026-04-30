@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Funktionen"
 topicPath: ["funktionen", "modellieren-und-pruefen", "modellannahmen-bei-funktionen-offenlegen"]
 taskId: "v106-mathematik-modellannahmen-bei-funktionen-offenlegen"
-relatedExercise: "mathematik/funktionen/modellieren-und-pruefen/modellannahmen-bei-funktionen-offenlegen"
+relatedExercise: "src/content/exercises/mathematik/funktionen/modellieren-und-pruefen/modellannahmen-bei-funktionen-offenlegen"
 tags: ["mathematik", "Funktionen", "loesung"]
 draft: false
 ---

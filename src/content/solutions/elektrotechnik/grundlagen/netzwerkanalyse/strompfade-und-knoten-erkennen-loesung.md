@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Grundlagen Elektrotechnik"
 topicPath: ["grundlagen", "netzwerkanalyse", "strompfade-und-knoten-erkennen"]
 taskId: "ET-GR-NETZ-179-001"
-relatedExercise: "src/content/exercises/elektrotechnik/grundlagen/netzwerkanalyse/strompfade-und-knoten-erkennen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/grundlagen/netzwerkanalyse/strompfade-und-knoten-erkennen"
 tags: ["elektrotechnik", "Grundlagen Elektrotechnik", "loesung"]
 draft: false
 ---

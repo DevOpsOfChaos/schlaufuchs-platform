@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Grundlagen"
 topicPath: ["grundlagen", "prozentsatz-grundwert-und-prozentwert-verstehen", "prozentrollen-in-alltagssaetzen-erkennen"]
 taskId: "MATH-GRUNDLAGEN-PROZENT-001"
-relatedExercise: "src/content/exercises/mathematik/grundlagen/prozentsatz-grundwert-und-prozentwert-verstehen/prozentrollen-in-alltagssaetzen-erkennen.md"
+relatedExercise: "src/content/exercises/mathematik/grundlagen/prozentsatz-grundwert-und-prozentwert-verstehen/prozentrollen-in-alltagssaetzen-erkennen"
 tags: ["mathematik", "Grundlagen", "loesung"]
 draft: false
 ---

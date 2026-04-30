@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "navigation-und-menues", "aria-current-und-breadcrumbs-verstaendlich-nutzen"]
 taskId: "aria-current-und-breadcrumbs-verstaendlich-nutzen"
-relatedExercise: "web-development/html/navigation-und-menues/aria-current-und-breadcrumbs-verstaendlich-nutzen"
+relatedExercise: "src/content/exercises/web-development/html/navigation-und-menues/aria-current-und-breadcrumbs-verstaendlich-nutzen"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

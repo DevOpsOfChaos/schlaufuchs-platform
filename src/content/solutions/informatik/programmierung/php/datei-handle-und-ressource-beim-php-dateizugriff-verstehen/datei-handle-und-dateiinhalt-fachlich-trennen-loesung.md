@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "datei-handle-und-ressource-beim-php-dateizugriff-verstehen", "datei-handle-und-dateiinhalt-fachlich-trennen"]
 taskId: "INF-PHP-FILES-004"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/datei-handle-und-ressource-beim-php-dateizugriff-verstehen/datei-handle-und-dateiinhalt-fachlich-trennen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/datei-handle-und-ressource-beim-php-dateizugriff-verstehen/datei-handle-und-dateiinhalt-fachlich-trennen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

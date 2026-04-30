@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "formulare-und-eingaben", "fehlermeldungen-direkt-am-feld-verknuepfen"]
 taskId: "web-v102-fehlermeldungen-direkt-am-feld-verknuepfen"
-relatedExercise: "web-development/html/formulare-und-eingaben/fehlermeldungen-direkt-am-feld-verknuepfen"
+relatedExercise: "src/content/exercises/web-development/html/formulare-und-eingaben/fehlermeldungen-direkt-am-feld-verknuepfen"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

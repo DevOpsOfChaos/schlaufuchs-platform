@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "navigation-und-menues", "ueberschriften-hierarchie-und-seitenstruktur-planen"]
 taskId: "wd-v97-ueberschriften-hierarchie-und-seitenstruktur-planen"
-relatedExercise: "web-development/html/navigation-und-menues/ueberschriften-hierarchie-und-seitenstruktur-planen"
+relatedExercise: "src/content/exercises/web-development/html/navigation-und-menues/ueberschriften-hierarchie-und-seitenstruktur-planen"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

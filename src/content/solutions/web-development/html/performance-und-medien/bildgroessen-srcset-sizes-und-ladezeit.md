@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "performance-und-medien", "bildgroessen-srcset-sizes-und-ladezeit"]
 taskId: "web-v100-bildgroessen-srcset-sizes-und-ladezeit"
-relatedExercise: "web-development/html/performance-und-medien/bildgroessen-srcset-sizes-und-ladezeit"
+relatedExercise: "src/content/exercises/web-development/html/performance-und-medien/bildgroessen-srcset-sizes-und-ladezeit"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

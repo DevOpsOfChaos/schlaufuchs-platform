@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "dql-und-dml-bei-sql-anweisungen-unterscheiden", "sql-anweisungen-nach-lese-und-aenderungsziel-trennen"]
 taskId: "INF-PHP-MYSQL-006"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/dql-und-dml-bei-sql-anweisungen-unterscheiden/sql-anweisungen-nach-lese-und-aenderungsziel-trennen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/dql-und-dml-bei-sql-anweisungen-unterscheiden/sql-anweisungen-nach-lese-und-aenderungsziel-trennen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

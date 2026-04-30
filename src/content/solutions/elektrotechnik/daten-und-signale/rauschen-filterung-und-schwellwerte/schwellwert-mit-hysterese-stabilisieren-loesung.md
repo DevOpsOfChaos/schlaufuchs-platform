@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Daten und Signale"
 topicPath: ["daten-und-signale", "rauschen-filterung-und-schwellwerte", "schwellwert-mit-hysterese-stabilisieren"]
 taskId: "ET-V181-024"
-relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/rauschen-filterung-und-schwellwerte/schwellwert-mit-hysterese-stabilisieren.md"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/rauschen-filterung-und-schwellwerte/schwellwert-mit-hysterese-stabilisieren"
 tags: ["elektrotechnik", "Daten und Signale", "loesung"]
 draft: false
 ---

@@ -4,8 +4,8 @@ description: "Lösung zur Aufgabe über Spannungsteiler und Teilspannungen."
 subject: "elektrotechnik"
 section: "Praxis"
 topicPath: ["praxis", "spannungsteiler", "teilspannungen-verstehen"]
-taskId: "ET-PR-SPANNUNGSTEILER-001"
-relatedExercise: "src/content/exercises/elektrotechnik/praxis/spannungsteiler/teilspannungen-verstehen.md"
+taskId: "AUTO-TEILSPANNUNGEN-VERSTEHEN"
+relatedExercise: "src/content/exercises/elektrotechnik/praxis/spannungsteiler/teilspannungen-verstehen"
 tags: ["elektrotechnik", "Praxis", "loesung"]
 draft: false
 ---

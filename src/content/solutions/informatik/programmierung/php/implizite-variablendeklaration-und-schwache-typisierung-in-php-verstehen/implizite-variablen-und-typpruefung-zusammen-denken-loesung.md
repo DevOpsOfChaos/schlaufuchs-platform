@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "implizite-variablendeklaration-und-schwache-typisierung-in-php-verstehen", "implizite-variablen-und-typpruefung-zusammen-denken"]
 taskId: "INF-PHP-BASICS-004"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/implizite-variablendeklaration-und-schwache-typisierung-in-php-verstehen/implizite-variablen-und-typpruefung-zusammen-denken.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/implizite-variablendeklaration-und-schwache-typisierung-in-php-verstehen/implizite-variablen-und-typpruefung-zusammen-denken"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

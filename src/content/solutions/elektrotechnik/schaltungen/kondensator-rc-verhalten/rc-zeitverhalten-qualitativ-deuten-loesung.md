@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "schaltungen"
 topicPath: ["schaltungen", "kondensator-rc-verhalten", "rc-zeitverhalten-qualitativ-deuten"]
 taskId: "ET-V180-RC-001"
-relatedExercise: "src/content/exercises/elektrotechnik/schaltungen/kondensator-rc-verhalten/rc-zeitverhalten-qualitativ-deuten.md"
+relatedExercise: "src/content/exercises/elektrotechnik/schaltungen/kondensator-rc-verhalten/rc-zeitverhalten-qualitativ-deuten"
 tags: ["elektrotechnik", "schaltungen", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "linux"
 section: "Shell"
 topicPath: ["shell", "dateisystem-und-pfade", "skriptkontext", "absolute-und-relative-pfade-im-skript-pruefen"]
 taskId: "v108-linux-absolute-und-relative-pfade-im-skript-pruefen"
-relatedExercise: "linux/shell/dateisystem-und-pfade/skriptkontext/absolute-und-relative-pfade-im-skript-pruefen"
+relatedExercise: "src/content/exercises/linux/shell/dateisystem-und-pfade/skriptkontext/absolute-und-relative-pfade-im-skript-pruefen"
 tags: ["linux", "Shell", "loesung"]
 draft: false
 ---

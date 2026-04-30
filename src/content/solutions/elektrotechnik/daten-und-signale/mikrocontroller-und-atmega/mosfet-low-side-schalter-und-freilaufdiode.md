@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "mosfet-low-side-schalter-und-freilaufdiode"]
 taskId: "et-mc-v94-mosfet-low-side"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/mosfet-low-side-schalter-und-freilaufdiode"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/mosfet-low-side-schalter-und-freilaufdiode"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

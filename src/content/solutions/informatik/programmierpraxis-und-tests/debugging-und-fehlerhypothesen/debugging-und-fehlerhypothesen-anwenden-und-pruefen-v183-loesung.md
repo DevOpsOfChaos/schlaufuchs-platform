@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierpraxis und Tests"
 topicPath: ["programmierpraxis-und-tests", "debugging-und-fehlerhypothesen", "debugging-und-fehlerhypothesen-anwenden-und-pruefen-v183"]
 taskId: "INF-V183-12-B"
-relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/debugging-und-fehlerhypothesen/debugging-und-fehlerhypothesen-anwenden-und-pruefen-v183.md"
+relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/debugging-und-fehlerhypothesen/debugging-und-fehlerhypothesen-anwenden-und-pruefen-v183"
 tags: ["informatik", "Programmierpraxis und Tests", "loesung"]
 draft: false
 ---

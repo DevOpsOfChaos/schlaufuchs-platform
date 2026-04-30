@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
 topicPath: ["bauteile-praxis-v115", "dioden-und-schutz", "freilaufdiode-bei-spule-erkennen-v115"]
 taskId: "elektrotechnik-freilaufdiode-bei-spule-erkennen-v115"
-relatedExercise: "elektrotechnik/bauteile-praxis-v115/dioden-und-schutz/freilaufdiode-bei-spule-erkennen-v115"
+relatedExercise: "src/content/exercises/elektrotechnik/bauteile-praxis-v115/dioden-und-schutz/freilaufdiode-bei-spule-erkennen-v115"
 tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---

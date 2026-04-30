@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "cpp", "kompilieren-linken-und-ausfuehren-verstehen", "uebersetzungsweg-von-cpp-zur-ausfuehrung-ordnen"]
 taskId: "INF-PROG-CPP-START-002"
-relatedExercise: "src/content/exercises/informatik/programmierung/cpp/kompilieren-linken-und-ausfuehren-verstehen/uebersetzungsweg-von-cpp-zur-ausfuehrung-ordnen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/kompilieren-linken-und-ausfuehren-verstehen/uebersetzungsweg-von-cpp-zur-ausfuehrung-ordnen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

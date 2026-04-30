@@ -5,7 +5,7 @@ subject: "linux"
 section: "Feinstruktur Linux"
 topicPath: ["systembetrieb-v115", "prozesse-und-dienste", "journal-nach-zeit-eingrenzen-v115"]
 taskId: "linux-journal-nach-zeit-eingrenzen-v115"
-relatedExercise: "linux/systembetrieb-v115/prozesse-und-dienste/journal-nach-zeit-eingrenzen-v115"
+relatedExercise: "src/content/exercises/linux/systembetrieb-v115/prozesse-und-dienste/journal-nach-zeit-eingrenzen-v115"
 tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---

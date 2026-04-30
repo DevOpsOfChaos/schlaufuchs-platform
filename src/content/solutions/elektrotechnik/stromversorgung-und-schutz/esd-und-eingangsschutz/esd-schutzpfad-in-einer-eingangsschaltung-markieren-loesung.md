@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Stromversorgung und Schutz"
 topicPath: ["stromversorgung-und-schutz", "esd-und-eingangsschutz", "esd-schutzpfad-in-einer-eingangsschaltung-markieren"]
 taskId: "ET-V182-015"
-relatedExercise: "src/content/exercises/elektrotechnik/stromversorgung-und-schutz/esd-und-eingangsschutz/esd-schutzpfad-in-einer-eingangsschaltung-markieren.md"
+relatedExercise: "src/content/exercises/elektrotechnik/stromversorgung-und-schutz/esd-und-eingangsschutz/esd-schutzpfad-in-einer-eingangsschaltung-markieren"
 tags: ["elektrotechnik", "Stromversorgung und Schutz", "loesung"]
 draft: false
 ---

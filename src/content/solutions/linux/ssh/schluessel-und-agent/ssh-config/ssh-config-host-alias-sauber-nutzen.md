@@ -5,7 +5,7 @@ subject: "linux"
 section: "SSH"
 topicPath: ["ssh", "schluessel-und-agent", "ssh-config", "ssh-config-host-alias-sauber-nutzen"]
 taskId: "v108-linux-ssh-config-host-alias-sauber-nutzen"
-relatedExercise: "linux/ssh/schluessel-und-agent/ssh-config/ssh-config-host-alias-sauber-nutzen"
+relatedExercise: "src/content/exercises/linux/ssh/schluessel-und-agent/ssh-config/ssh-config-host-alias-sauber-nutzen"
 tags: ["linux", "SSH", "loesung"]
 draft: false
 ---

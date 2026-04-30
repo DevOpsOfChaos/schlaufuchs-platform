@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Daten und Signale"
 topicPath: ["daten-und-signale", "kalibrierung-und-sensorlinearitaet", "offset-und-steigung-in-sensordaten-trennen"]
 taskId: "ET-V182-019"
-relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/kalibrierung-und-sensorlinearitaet/offset-und-steigung-in-sensordaten-trennen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/kalibrierung-und-sensorlinearitaet/offset-und-steigung-in-sensordaten-trennen"
 tags: ["elektrotechnik", "Daten und Signale", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "linux"
 section: "Rechte"
 topicPath: ["system", "rechte-und-acl", "zugriffskette", "zugriff-ueber-nutzer-gruppe-und-pfad-pruefen"]
 taskId: "v107-linux-zugriff-ueber-nutzer-gruppe-und-pfad-pruefen"
-relatedExercise: "linux/system/rechte-und-acl/zugriffskette/zugriff-ueber-nutzer-gruppe-und-pfad-pruefen"
+relatedExercise: "src/content/exercises/linux/system/rechte-und-acl/zugriffskette/zugriff-ueber-nutzer-gruppe-und-pfad-pruefen"
 tags: ["linux", "Rechte", "loesung"]
 draft: false
 ---

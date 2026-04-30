@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "cpp", "member-operatoren-und-freie-operatorfunktionen-vergleichen", "member-und-freie-operatorfunktion-passend-waehlen"]
 taskId: "INF-PROG-CPP-OPLOAD-002"
-relatedExercise: "src/content/exercises/informatik/programmierung/cpp/member-operatoren-und-freie-operatorfunktionen-vergleichen/member-und-freie-operatorfunktion-passend-waehlen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/member-operatoren-und-freie-operatorfunktionen-vergleichen/member-und-freie-operatorfunktion-passend-waehlen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

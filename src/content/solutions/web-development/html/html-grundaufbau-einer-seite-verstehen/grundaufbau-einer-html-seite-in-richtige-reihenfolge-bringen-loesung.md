@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "html-grundaufbau-einer-seite-verstehen", "grundaufbau-einer-html-seite-in-richtige-reihenfolge-bringen"]
 taskId: "WEB-HTML-CORE-102"
-relatedExercise: "src/content/exercises/web-development/html/html-grundaufbau-einer-seite-verstehen/grundaufbau-einer-html-seite-in-richtige-reihenfolge-bringen.md"
+relatedExercise: "src/content/exercises/web-development/html/html-grundaufbau-einer-seite-verstehen/grundaufbau-einer-html-seite-in-richtige-reihenfolge-bringen"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

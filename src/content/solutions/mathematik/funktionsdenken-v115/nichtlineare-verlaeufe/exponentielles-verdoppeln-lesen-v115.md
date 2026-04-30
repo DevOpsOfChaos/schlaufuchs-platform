@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Feinstruktur Mathematik"
 topicPath: ["funktionsdenken-v115", "nichtlineare-verlaeufe", "exponentielles-verdoppeln-lesen-v115"]
 taskId: "mathematik-exponentielles-verdoppeln-lesen-v115"
-relatedExercise: "mathematik/funktionsdenken-v115/nichtlineare-verlaeufe/exponentielles-verdoppeln-lesen-v115"
+relatedExercise: "src/content/exercises/mathematik/funktionsdenken-v115/nichtlineare-verlaeufe/exponentielles-verdoppeln-lesen-v115"
 tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---

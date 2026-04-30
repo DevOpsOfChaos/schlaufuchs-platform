@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Feinstruktur Mathematik"
 topicPath: ["funktionsdenken-v115", "nichtlineare-verlaeufe", "quadratisches-wachstum-erkennen-v115"]
 taskId: "mathematik-quadratisches-wachstum-erkennen-v115"
-relatedExercise: "mathematik/funktionsdenken-v115/nichtlineare-verlaeufe/quadratisches-wachstum-erkennen-v115"
+relatedExercise: "src/content/exercises/mathematik/funktionsdenken-v115/nichtlineare-verlaeufe/quadratisches-wachstum-erkennen-v115"
 tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---

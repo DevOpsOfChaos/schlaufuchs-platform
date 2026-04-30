@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
 topicPath: ["messpraxis-v115", "spannung-strom-widerstand", "innenwiderstand-des-messgeraets-beachten-v115"]
 taskId: "elektrotechnik-innenwiderstand-des-messgeraets-beachten-v115"
-relatedExercise: "elektrotechnik/messpraxis-v115/spannung-strom-widerstand/innenwiderstand-des-messgeraets-beachten-v115"
+relatedExercise: "src/content/exercises/elektrotechnik/messpraxis-v115/spannung-strom-widerstand/innenwiderstand-des-messgeraets-beachten-v115"
 tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---

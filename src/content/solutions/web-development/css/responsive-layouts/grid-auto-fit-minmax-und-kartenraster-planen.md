@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "responsive-layouts", "grid-auto-fit-minmax-und-kartenraster-planen"]
 taskId: "grid-auto-fit-minmax-und-kartenraster-planen"
-relatedExercise: "web-development/css/responsive-layouts/grid-auto-fit-minmax-und-kartenraster-planen"
+relatedExercise: "src/content/exercises/web-development/css/responsive-layouts/grid-auto-fit-minmax-und-kartenraster-planen"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

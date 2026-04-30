@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "oop", "uml-klassen-und-objektdiagramme-unterscheiden", "klassendiagramm-und-objektdiagramm-begruendet-trennen"]
 taskId: "INF-PROG-OOP-015"
-relatedExercise: "src/content/exercises/informatik/programmierung/oop/uml-klassen-und-objektdiagramme-unterscheiden/klassendiagramm-und-objektdiagramm-begruendet-trennen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/oop/uml-klassen-und-objektdiagramme-unterscheiden/klassendiagramm-und-objektdiagramm-begruendet-trennen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

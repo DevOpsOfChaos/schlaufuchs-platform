@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Feinstruktur Informatik"
 topicPath: ["datenmodellierung-v115", "listen-mengen-tabellen", "normalisierung-als-dopplungskontrolle-nutzen-v115"]
 taskId: "informatik-normalisierung-als-dopplungskontrolle-nutzen-v115"
-relatedExercise: "informatik/datenmodellierung-v115/listen-mengen-tabellen/normalisierung-als-dopplungskontrolle-nutzen-v115"
+relatedExercise: "src/content/exercises/informatik/datenmodellierung-v115/listen-mengen-tabellen/normalisierung-als-dopplungskontrolle-nutzen-v115"
 tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---

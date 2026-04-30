@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "schaltungen"
 topicPath: ["schaltungen", "kondensator-rc-verhalten", "filterwirkung-und-reaktionszeit-abwaegen"]
 taskId: "ET-V180-RC-002"
-relatedExercise: "src/content/exercises/elektrotechnik/schaltungen/kondensator-rc-verhalten/filterwirkung-und-reaktionszeit-abwaegen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/schaltungen/kondensator-rc-verhalten/filterwirkung-und-reaktionszeit-abwaegen"
 tags: ["elektrotechnik", "schaltungen", "loesung"]
 draft: false
 ---

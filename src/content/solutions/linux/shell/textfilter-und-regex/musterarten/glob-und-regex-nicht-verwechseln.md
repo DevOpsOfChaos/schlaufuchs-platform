@@ -5,7 +5,7 @@ subject: "linux"
 section: "Shell"
 topicPath: ["shell", "textfilter-und-regex", "musterarten", "glob-und-regex-nicht-verwechseln"]
 taskId: "v108-linux-glob-und-regex-nicht-verwechseln"
-relatedExercise: "linux/shell/textfilter-und-regex/musterarten/glob-und-regex-nicht-verwechseln"
+relatedExercise: "src/content/exercises/linux/shell/textfilter-und-regex/musterarten/glob-und-regex-nicht-verwechseln"
 tags: ["linux", "Shell", "loesung"]
 draft: false
 ---

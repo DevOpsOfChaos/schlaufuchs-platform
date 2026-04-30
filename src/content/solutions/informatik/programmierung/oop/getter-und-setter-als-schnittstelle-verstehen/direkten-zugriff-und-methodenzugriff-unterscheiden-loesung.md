@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "oop", "getter-und-setter-als-schnittstelle-verstehen", "direkten-zugriff-und-methodenzugriff-unterscheiden"]
 taskId: "INF-PROG-OOP-007"
-relatedExercise: "src/content/exercises/informatik/programmierung/oop/getter-und-setter-als-schnittstelle-verstehen/direkten-zugriff-und-methodenzugriff-unterscheiden.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/oop/getter-und-setter-als-schnittstelle-verstehen/direkten-zugriff-und-methodenzugriff-unterscheiden"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

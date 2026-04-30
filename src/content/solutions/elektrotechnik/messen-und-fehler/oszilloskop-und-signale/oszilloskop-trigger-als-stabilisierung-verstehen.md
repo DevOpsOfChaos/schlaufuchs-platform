@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Messen"
 topicPath: ["messen-und-fehler", "oszilloskop-und-signale", "oszilloskop-trigger-als-stabilisierung-verstehen"]
 taskId: "v106-elektrotechnik-oszilloskop-trigger-als-stabilisierung-verstehen"
-relatedExercise: "elektrotechnik/messen-und-fehler/oszilloskop-und-signale/oszilloskop-trigger-als-stabilisierung-verstehen"
+relatedExercise: "src/content/exercises/elektrotechnik/messen-und-fehler/oszilloskop-und-signale/oszilloskop-trigger-als-stabilisierung-verstehen"
 tags: ["elektrotechnik", "Messen", "loesung"]
 draft: false
 ---

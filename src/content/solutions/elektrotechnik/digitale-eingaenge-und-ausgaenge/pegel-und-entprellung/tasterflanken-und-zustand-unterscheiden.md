@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Digitale Eingänge"
 topicPath: ["digitale-eingaenge-und-ausgaenge", "pegel-und-entprellung", "tasterflanken-und-zustand-unterscheiden"]
 taskId: "v106-elektrotechnik-tasterflanken-und-zustand-unterscheiden"
-relatedExercise: "elektrotechnik/digitale-eingaenge-und-ausgaenge/pegel-und-entprellung/tasterflanken-und-zustand-unterscheiden"
+relatedExercise: "src/content/exercises/elektrotechnik/digitale-eingaenge-und-ausgaenge/pegel-und-entprellung/tasterflanken-und-zustand-unterscheiden"
 tags: ["elektrotechnik", "Digitale Eingänge", "loesung"]
 draft: false
 ---

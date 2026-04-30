@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "daten-laden", "json-parse-stringify-und-datengrenzen-verstehen"]
 taskId: "web-js-json-parse-stringify-und-datengrenzen-verstehen"
-relatedExercise: "web-development/javascript/daten-laden/json-parse-stringify-und-datengrenzen-verstehen"
+relatedExercise: "src/content/exercises/web-development/javascript/daten-laden/json-parse-stringify-und-datengrenzen-verstehen"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

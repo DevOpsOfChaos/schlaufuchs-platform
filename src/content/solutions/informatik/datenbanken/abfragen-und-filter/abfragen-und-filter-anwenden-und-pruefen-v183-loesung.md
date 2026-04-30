@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Datenbanken"
 topicPath: ["datenbanken", "abfragen-und-filter", "abfragen-und-filter-anwenden-und-pruefen-v183"]
 taskId: "INF-V183-09-B"
-relatedExercise: "src/content/exercises/informatik/datenbanken/abfragen-und-filter/abfragen-und-filter-anwenden-und-pruefen-v183.md"
+relatedExercise: "src/content/exercises/informatik/datenbanken/abfragen-und-filter/abfragen-und-filter-anwenden-und-pruefen-v183"
 tags: ["informatik", "Datenbanken", "loesung"]
 draft: false
 ---

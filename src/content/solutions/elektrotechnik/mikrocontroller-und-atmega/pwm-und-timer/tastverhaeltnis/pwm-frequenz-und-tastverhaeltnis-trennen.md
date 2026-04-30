@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller"
 topicPath: ["mikrocontroller-und-atmega", "pwm-und-timer", "tastverhaeltnis", "pwm-frequenz-und-tastverhaeltnis-trennen"]
 taskId: "v108-elektrotechnik-pwm-frequenz-und-tastverhaeltnis-trennen"
-relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/pwm-und-timer/tastverhaeltnis/pwm-frequenz-und-tastverhaeltnis-trennen"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/pwm-und-timer/tastverhaeltnis/pwm-frequenz-und-tastverhaeltnis-trennen"
 tags: ["elektrotechnik", "Mikrocontroller", "loesung"]
 draft: false
 ---

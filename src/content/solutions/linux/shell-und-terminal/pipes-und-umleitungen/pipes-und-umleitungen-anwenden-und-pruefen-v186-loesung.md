@@ -5,7 +5,7 @@ subject: "linux"
 section: "shell-und-terminal"
 topicPath: ["shell-und-terminal", "pipes-und-umleitungen", "pipes-und-umleitungen-anwenden-und-pruefen-v186"]
 taskId: "LINUX-PIPES-UND-UMLEITUNGEN-V186-2"
-relatedExercise: "src/content/exercises/linux/shell-und-terminal/pipes-und-umleitungen/pipes-und-umleitungen-anwenden-und-pruefen-v186.md"
+relatedExercise: "src/content/exercises/linux/shell-und-terminal/pipes-und-umleitungen/pipes-und-umleitungen-anwenden-und-pruefen-v186"
 tags: ["linux", "shell-und-terminal", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Algorithmen"
 topicPath: ["algorithmen", "test-und-komplexitaet", "randfaelle", "off-by-one-fehler-mit-randfaellen-finden"]
 taskId: "v107-informatik-off-by-one-fehler-mit-randfaellen-finden"
-relatedExercise: "informatik/algorithmen/test-und-komplexitaet/randfaelle/off-by-one-fehler-mit-randfaellen-finden"
+relatedExercise: "src/content/exercises/informatik/algorithmen/test-und-komplexitaet/randfaelle/off-by-one-fehler-mit-randfaellen-finden"
 tags: ["informatik", "Algorithmen", "loesung"]
 draft: false
 ---

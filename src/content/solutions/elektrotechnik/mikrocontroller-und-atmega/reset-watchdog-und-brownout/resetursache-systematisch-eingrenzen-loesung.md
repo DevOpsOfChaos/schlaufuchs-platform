@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["mikrocontroller-und-atmega", "reset-watchdog-und-brownout", "resetursache-systematisch-eingrenzen"]
 taskId: "ET-V181-011"
-relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/reset-watchdog-und-brownout/resetursache-systematisch-eingrenzen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/reset-watchdog-und-brownout/resetursache-systematisch-eingrenzen"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

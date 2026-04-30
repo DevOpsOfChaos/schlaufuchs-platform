@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "cookie-ablauf-bis-zum-naechsten-request-verstehen", "cookie-ablauf-ueber-zwei-requests-beschreiben"]
 taskId: "INF-PHP-COOKIE-003"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/cookie-ablauf-bis-zum-naechsten-request-verstehen/cookie-ablauf-ueber-zwei-requests-beschreiben.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/cookie-ablauf-bis-zum-naechsten-request-verstehen/cookie-ablauf-ueber-zwei-requests-beschreiben"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

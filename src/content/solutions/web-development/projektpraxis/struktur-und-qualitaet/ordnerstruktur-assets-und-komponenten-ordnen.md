@@ -5,7 +5,7 @@ subject: "web-development"
 section: "Projektpraxis"
 topicPath: ["projektpraxis", "struktur-und-qualitaet", "ordnerstruktur-assets-und-komponenten-ordnen"]
 taskId: "web-v100-ordnerstruktur-assets-und-komponenten-ordnen"
-relatedExercise: "web-development/projektpraxis/struktur-und-qualitaet/ordnerstruktur-assets-und-komponenten-ordnen"
+relatedExercise: "src/content/exercises/web-development/projektpraxis/struktur-und-qualitaet/ordnerstruktur-assets-und-komponenten-ordnen"
 tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---

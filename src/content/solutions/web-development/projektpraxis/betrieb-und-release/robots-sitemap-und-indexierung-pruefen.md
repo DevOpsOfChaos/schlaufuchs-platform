@@ -5,7 +5,7 @@ subject: "web-development"
 section: "Projektpraxis"
 topicPath: ["projektpraxis", "betrieb-und-release", "robots-sitemap-und-indexierung-pruefen"]
 taskId: "web-v105-robots-sitemap-und-indexierung-pruefen"
-relatedExercise: "web-development/projektpraxis/betrieb-und-release/robots-sitemap-und-indexierung-pruefen"
+relatedExercise: "src/content/exercises/web-development/projektpraxis/betrieb-und-release/robots-sitemap-und-indexierung-pruefen"
 tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---

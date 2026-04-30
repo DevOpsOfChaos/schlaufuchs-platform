@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "browser-speicher", "cookie-session-localstorage-sicher-abgrenzen"]
 taskId: "web-v103-cookie-session-localstorage-sicher-abgrenzen"
-relatedExercise: "web-development/javascript/browser-speicher/cookie-session-localstorage-sicher-abgrenzen"
+relatedExercise: "src/content/exercises/web-development/javascript/browser-speicher/cookie-session-localstorage-sicher-abgrenzen"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

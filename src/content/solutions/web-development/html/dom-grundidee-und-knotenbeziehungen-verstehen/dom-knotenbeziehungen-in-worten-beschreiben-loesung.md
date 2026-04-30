@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "dom-grundidee-und-knotenbeziehungen-verstehen", "dom-knotenbeziehungen-in-worten-beschreiben"]
 taskId: "WEB-HTML-CORE-105"
-relatedExercise: "src/content/exercises/web-development/html/dom-grundidee-und-knotenbeziehungen-verstehen/dom-knotenbeziehungen-in-worten-beschreiben.md"
+relatedExercise: "src/content/exercises/web-development/html/dom-grundidee-und-knotenbeziehungen-verstehen/dom-knotenbeziehungen-in-worten-beschreiben"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

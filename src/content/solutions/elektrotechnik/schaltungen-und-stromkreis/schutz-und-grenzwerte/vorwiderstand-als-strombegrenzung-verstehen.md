@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Schaltungen"
 topicPath: ["schaltungen-und-stromkreis", "schutz-und-grenzwerte", "vorwiderstand-als-strombegrenzung-verstehen"]
 taskId: "v106-elektrotechnik-vorwiderstand-als-strombegrenzung-verstehen"
-relatedExercise: "elektrotechnik/schaltungen-und-stromkreis/schutz-und-grenzwerte/vorwiderstand-als-strombegrenzung-verstehen"
+relatedExercise: "src/content/exercises/elektrotechnik/schaltungen-und-stromkreis/schutz-und-grenzwerte/vorwiderstand-als-strombegrenzung-verstehen"
 tags: ["elektrotechnik", "Schaltungen", "loesung"]
 draft: false
 ---

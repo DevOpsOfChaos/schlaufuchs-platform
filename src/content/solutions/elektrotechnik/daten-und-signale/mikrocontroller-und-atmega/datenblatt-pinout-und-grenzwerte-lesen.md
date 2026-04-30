@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "datenblatt-pinout-und-grenzwerte-lesen"]
 taskId: "et-mc-v94-datenblatt-pinout"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/datenblatt-pinout-und-grenzwerte-lesen"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/datenblatt-pinout-und-grenzwerte-lesen"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

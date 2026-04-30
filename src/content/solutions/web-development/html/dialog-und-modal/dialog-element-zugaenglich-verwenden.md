@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "dialog-und-modal", "dialog-element-zugaenglich-verwenden"]
 taskId: "web-v102-dialog-element-zugaenglich-verwenden"
-relatedExercise: "web-development/html/dialog-und-modal/dialog-element-zugaenglich-verwenden"
+relatedExercise: "src/content/exercises/web-development/html/dialog-und-modal/dialog-element-zugaenglich-verwenden"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

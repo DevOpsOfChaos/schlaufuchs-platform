@@ -5,7 +5,7 @@ subject: "linux"
 section: "Shell"
 topicPath: ["shell", "dateisuche-und-filter", "find-kriterien", "find-mtime-und-name-kombinieren"]
 taskId: "v108-linux-find-mtime-und-name-kombinieren"
-relatedExercise: "linux/shell/dateisuche-und-filter/find-kriterien/find-mtime-und-name-kombinieren"
+relatedExercise: "src/content/exercises/linux/shell/dateisuche-und-filter/find-kriterien/find-mtime-und-name-kombinieren"
 tags: ["linux", "Shell", "loesung"]
 draft: false
 ---

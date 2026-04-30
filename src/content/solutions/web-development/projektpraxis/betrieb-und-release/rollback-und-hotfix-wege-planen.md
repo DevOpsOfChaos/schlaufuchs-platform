@@ -5,7 +5,7 @@ subject: "web-development"
 section: "Projektpraxis"
 topicPath: ["projektpraxis", "betrieb-und-release", "rollback-und-hotfix-wege-planen"]
 taskId: "web-v105-rollback-und-hotfix-wege-planen"
-relatedExercise: "web-development/projektpraxis/betrieb-und-release/rollback-und-hotfix-wege-planen"
+relatedExercise: "src/content/exercises/web-development/projektpraxis/betrieb-und-release/rollback-und-hotfix-wege-planen"
 tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---

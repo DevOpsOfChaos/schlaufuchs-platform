@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Analysis"
 topicPath: ["funktionen", "aenderungsraten-und-naeherung", "sekante-und-tangente-als-aenderungsidee-vergleichen"]
 taskId: "v106-mathematik-sekante-und-tangente-als-aenderungsidee-vergleichen"
-relatedExercise: "mathematik/funktionen/aenderungsraten-und-naeherung/sekante-und-tangente-als-aenderungsidee-vergleichen"
+relatedExercise: "src/content/exercises/mathematik/funktionen/aenderungsraten-und-naeherung/sekante-und-tangente-als-aenderungsidee-vergleichen"
 tags: ["mathematik", "Analysis", "loesung"]
 draft: false
 ---

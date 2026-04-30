@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "versorgung-abblockkondensatoren-und-massefuehrung"]
 taskId: "et-mc-v92-versorgung-abblocken"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/versorgung-abblockkondensatoren-und-massefuehrung"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/versorgung-abblockkondensatoren-und-massefuehrung"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

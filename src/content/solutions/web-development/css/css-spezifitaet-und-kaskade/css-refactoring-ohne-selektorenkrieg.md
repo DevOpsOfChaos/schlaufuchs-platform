@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "css-spezifitaet-und-kaskade", "css-refactoring-ohne-selektorenkrieg"]
 taskId: "web-v104-css-refactoring-ohne-selektorenkrieg"
-relatedExercise: "web-development/css/css-spezifitaet-und-kaskade/css-refactoring-ohne-selektorenkrieg"
+relatedExercise: "src/content/exercises/web-development/css/css-spezifitaet-und-kaskade/css-refactoring-ohne-selektorenkrieg"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

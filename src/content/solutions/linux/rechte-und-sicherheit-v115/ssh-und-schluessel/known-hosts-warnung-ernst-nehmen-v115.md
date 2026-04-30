@@ -5,7 +5,7 @@ subject: "linux"
 section: "Feinstruktur Linux"
 topicPath: ["rechte-und-sicherheit-v115", "ssh-und-schluessel", "known-hosts-warnung-ernst-nehmen-v115"]
 taskId: "linux-known-hosts-warnung-ernst-nehmen-v115"
-relatedExercise: "linux/rechte-und-sicherheit-v115/ssh-und-schluessel/known-hosts-warnung-ernst-nehmen-v115"
+relatedExercise: "src/content/exercises/linux/rechte-und-sicherheit-v115/ssh-und-schluessel/known-hosts-warnung-ernst-nehmen-v115"
 tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---

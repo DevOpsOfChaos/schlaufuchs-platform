@@ -5,7 +5,7 @@ subject: "linux"
 section: "praxis-und-betrieb"
 topicPath: ["praxis-und-betrieb", "backup-und-wiederherstellung", "backup-und-wiederherstellung-anwenden-und-pruefen-v186"]
 taskId: "LINUX-BACKUP-UND-WIEDERHERSTELLUNG-V186-2"
-relatedExercise: "src/content/exercises/linux/praxis-und-betrieb/backup-und-wiederherstellung/backup-und-wiederherstellung-anwenden-und-pruefen-v186.md"
+relatedExercise: "src/content/exercises/linux/praxis-und-betrieb/backup-und-wiederherstellung/backup-und-wiederherstellung-anwenden-und-pruefen-v186"
 tags: ["linux", "praxis-und-betrieb", "loesung"]
 draft: false
 ---

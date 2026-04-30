@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["mikrocontroller-und-atmega", "sleep-modus-und-energieverbrauch", "aufwachereignis-vor-sleep-modus-planen"]
 taskId: "ET-V182-014"
-relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/sleep-modus-und-energieverbrauch/aufwachereignis-vor-sleep-modus-planen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/sleep-modus-und-energieverbrauch/aufwachereignis-vor-sleep-modus-planen"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

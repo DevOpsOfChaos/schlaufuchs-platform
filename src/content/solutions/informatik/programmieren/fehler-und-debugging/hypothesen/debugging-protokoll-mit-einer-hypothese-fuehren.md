@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmieren", "fehler-und-debugging", "hypothesen", "debugging-protokoll-mit-einer-hypothese-fuehren"]
 taskId: "v107-informatik-debugging-protokoll-mit-einer-hypothese-fuehren"
-relatedExercise: "informatik/programmieren/fehler-und-debugging/hypothesen/debugging-protokoll-mit-einer-hypothese-fuehren"
+relatedExercise: "src/content/exercises/informatik/programmieren/fehler-und-debugging/hypothesen/debugging-protokoll-mit-einer-hypothese-fuehren"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

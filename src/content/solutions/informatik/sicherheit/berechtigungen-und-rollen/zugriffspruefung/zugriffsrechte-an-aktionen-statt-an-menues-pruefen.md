@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Sicherheit"
 topicPath: ["sicherheit", "berechtigungen-und-rollen", "zugriffspruefung", "zugriffsrechte-an-aktionen-statt-an-menues-pruefen"]
 taskId: "v107-informatik-zugriffsrechte-an-aktionen-statt-an-menues-pruefen"
-relatedExercise: "informatik/sicherheit/berechtigungen-und-rollen/zugriffspruefung/zugriffsrechte-an-aktionen-statt-an-menues-pruefen"
+relatedExercise: "src/content/exercises/informatik/sicherheit/berechtigungen-und-rollen/zugriffspruefung/zugriffsrechte-an-aktionen-statt-an-menues-pruefen"
 tags: ["informatik", "Sicherheit", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Schaltungen"
 topicPath: ["schaltungen", "massefuehrung-und-stoerungen", "stoerung-von-massepfad-ableiten"]
 taskId: "ET-V181-014"
-relatedExercise: "src/content/exercises/elektrotechnik/schaltungen/massefuehrung-und-stoerungen/stoerung-von-massepfad-ableiten.md"
+relatedExercise: "src/content/exercises/elektrotechnik/schaltungen/massefuehrung-und-stoerungen/stoerung-von-massepfad-ableiten"
 tags: ["elektrotechnik", "Schaltungen", "loesung"]
 draft: false
 ---

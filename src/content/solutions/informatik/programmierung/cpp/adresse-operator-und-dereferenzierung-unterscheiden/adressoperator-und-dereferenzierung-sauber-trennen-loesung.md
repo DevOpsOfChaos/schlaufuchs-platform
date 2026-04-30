@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "cpp", "adresse-operator-und-dereferenzierung-unterscheiden", "adressoperator-und-dereferenzierung-sauber-trennen"]
 taskId: "INF-PROG-CPP-PTR-002"
-relatedExercise: "src/content/exercises/informatik/programmierung/cpp/adresse-operator-und-dereferenzierung-unterscheiden/adressoperator-und-dereferenzierung-sauber-trennen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/adresse-operator-und-dereferenzierung-unterscheiden/adressoperator-und-dereferenzierung-sauber-trennen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

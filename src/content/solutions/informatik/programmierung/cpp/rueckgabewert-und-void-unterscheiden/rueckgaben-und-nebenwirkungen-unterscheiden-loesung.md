@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "cpp", "rueckgabewert-und-void-unterscheiden", "rueckgaben-und-nebenwirkungen-unterscheiden"]
 taskId: "INF-PROG-CPP-FUNC-003"
-relatedExercise: "src/content/exercises/informatik/programmierung/cpp/rueckgabewert-und-void-unterscheiden/rueckgaben-und-nebenwirkungen-unterscheiden.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/rueckgabewert-und-void-unterscheiden/rueckgaben-und-nebenwirkungen-unterscheiden"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

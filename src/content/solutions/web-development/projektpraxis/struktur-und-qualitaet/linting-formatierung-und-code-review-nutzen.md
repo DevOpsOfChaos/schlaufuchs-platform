@@ -5,7 +5,7 @@ subject: "web-development"
 section: "Projektpraxis"
 topicPath: ["projektpraxis", "struktur-und-qualitaet", "linting-formatierung-und-code-review-nutzen"]
 taskId: "web-v100-linting-formatierung-und-code-review-nutzen"
-relatedExercise: "web-development/projektpraxis/struktur-und-qualitaet/linting-formatierung-und-code-review-nutzen"
+relatedExercise: "src/content/exercises/web-development/projektpraxis/struktur-und-qualitaet/linting-formatierung-und-code-review-nutzen"
 tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---

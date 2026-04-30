@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Netzwerke und Dienste"
 topicPath: ["netzwerke-und-dienste", "ip-adressen-und-ports", "ip-adressen-und-ports-anwenden-und-pruefen-v183"]
 taskId: "INF-V183-11-B"
-relatedExercise: "src/content/exercises/informatik/netzwerke-und-dienste/ip-adressen-und-ports/ip-adressen-und-ports-anwenden-und-pruefen-v183.md"
+relatedExercise: "src/content/exercises/informatik/netzwerke-und-dienste/ip-adressen-und-ports/ip-adressen-und-ports-anwenden-und-pruefen-v183"
 tags: ["informatik", "Netzwerke und Dienste", "loesung"]
 draft: false
 ---

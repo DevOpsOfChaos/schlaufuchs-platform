@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "linktexte-und-links", "sprungziele-und-ankerlinks-stabil-planen"]
 taskId: "wd-v97-sprungziele-und-ankerlinks-stabil-planen"
-relatedExercise: "web-development/html/linktexte-und-links/sprungziele-und-ankerlinks-stabil-planen"
+relatedExercise: "src/content/exercises/web-development/html/linktexte-und-links/sprungziele-und-ankerlinks-stabil-planen"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

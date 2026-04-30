@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "zugaenglichkeit-und-ux", "live-regions-fuer-statusmeldungen"]
 taskId: "web-v102-live-regions-fuer-statusmeldungen"
-relatedExercise: "web-development/javascript/zugaenglichkeit-und-ux/live-regions-fuer-statusmeldungen"
+relatedExercise: "src/content/exercises/web-development/javascript/zugaenglichkeit-und-ux/live-regions-fuer-statusmeldungen"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

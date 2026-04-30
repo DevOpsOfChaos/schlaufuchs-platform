@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Digitale Technik"
 topicPath: ["digitale-technik", "logikgatter-und-wahrheitstabellen", "wahrheitstabelle-lesen"]
 taskId: "ET-DIGI-LOGIK-179-001"
-relatedExercise: "src/content/exercises/elektrotechnik/digitale-technik/logikgatter-und-wahrheitstabellen/wahrheitstabelle-lesen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/digitale-technik/logikgatter-und-wahrheitstabellen/wahrheitstabelle-lesen"
 tags: ["elektrotechnik", "Digitale Technik", "loesung"]
 draft: false
 ---

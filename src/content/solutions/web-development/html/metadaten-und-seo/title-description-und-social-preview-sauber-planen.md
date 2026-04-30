@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "metadaten-und-seo", "title-description-und-social-preview-sauber-planen"]
 taskId: "web-v103-title-description-und-social-preview-sauber-planen"
-relatedExercise: "web-development/html/metadaten-und-seo/title-description-und-social-preview-sauber-planen"
+relatedExercise: "src/content/exercises/web-development/html/metadaten-und-seo/title-description-und-social-preview-sauber-planen"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

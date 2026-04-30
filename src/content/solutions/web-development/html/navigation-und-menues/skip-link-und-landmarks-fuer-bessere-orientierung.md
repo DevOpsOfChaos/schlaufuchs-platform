@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "navigation-und-menues", "skip-link-und-landmarks-fuer-bessere-orientierung"]
 taskId: "wd-html-v95-skip-link-landmarks"
-relatedExercise: "web-development/html/navigation-und-menues/skip-link-und-landmarks-fuer-bessere-orientierung"
+relatedExercise: "src/content/exercises/web-development/html/navigation-und-menues/skip-link-und-landmarks-fuer-bessere-orientierung"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

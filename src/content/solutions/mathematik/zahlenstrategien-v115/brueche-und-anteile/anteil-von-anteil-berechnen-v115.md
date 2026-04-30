@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Feinstruktur Mathematik"
 topicPath: ["zahlenstrategien-v115", "brueche-und-anteile", "anteil-von-anteil-berechnen-v115"]
 taskId: "mathematik-anteil-von-anteil-berechnen-v115"
-relatedExercise: "mathematik/zahlenstrategien-v115/brueche-und-anteile/anteil-von-anteil-berechnen-v115"
+relatedExercise: "src/content/exercises/mathematik/zahlenstrategien-v115/brueche-und-anteile/anteil-von-anteil-berechnen-v115"
 tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---

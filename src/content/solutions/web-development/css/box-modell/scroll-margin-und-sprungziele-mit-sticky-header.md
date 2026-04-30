@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "box-modell", "scroll-margin-und-sprungziele-mit-sticky-header"]
 taskId: "wd-v97-scroll-margin-und-sprungziele-mit-sticky-header"
-relatedExercise: "web-development/css/box-modell/scroll-margin-und-sprungziele-mit-sticky-header"
+relatedExercise: "src/content/exercises/web-development/css/box-modell/scroll-margin-und-sprungziele-mit-sticky-header"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

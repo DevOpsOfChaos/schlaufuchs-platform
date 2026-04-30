@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Datenbanken"
 topicPath: ["datenbanken", "abfragen-und-indizes", "where-having", "where-und-having-in-sql-unterscheiden"]
 taskId: "v108-informatik-where-und-having-in-sql-unterscheiden"
-relatedExercise: "informatik/datenbanken/abfragen-und-indizes/where-having/where-und-having-in-sql-unterscheiden"
+relatedExercise: "src/content/exercises/informatik/datenbanken/abfragen-und-indizes/where-having/where-und-having-in-sql-unterscheiden"
 tags: ["informatik", "Datenbanken", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "sicherheit-und-daten", "cookies-samesite-und-sitzungen-verstehen"]
 taskId: "web-v100-cookies-samesite-und-sitzungen-verstehen"
-relatedExercise: "web-development/javascript/sicherheit-und-daten/cookies-samesite-und-sitzungen-verstehen"
+relatedExercise: "src/content/exercises/web-development/javascript/sicherheit-und-daten/cookies-samesite-und-sitzungen-verstehen"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "informatik"
 section: "programmierpraxis-und-tests"
 topicPath: ["programmierpraxis-und-tests", "funktionen-schnittstellen-und-rueckgabewerte", "funktionen-schnittstellen-und-rueckgabewerte-anwenden-und-pruefen-v184"]
 taskId: "INF-FUNKTIONEN-SCHNITTSTELLEN-UND-RUECKGABEWERTE-842"
-relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/funktionen-schnittstellen-und-rueckgabewerte/funktionen-schnittstellen-und-rueckgabewerte-anwenden-und-pruefen-v184.md"
+relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/funktionen-schnittstellen-und-rueckgabewerte/funktionen-schnittstellen-und-rueckgabewerte-anwenden-und-pruefen-v184"
 tags: ["informatik", "programmierpraxis-und-tests", "loesung"]
 draft: false
 ---

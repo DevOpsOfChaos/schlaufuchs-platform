@@ -5,7 +5,7 @@ subject: "linux"
 section: "automatisierung-und-skripte"
 topicPath: ["automatisierung-und-skripte", "shellskripte", "shellskripte-anwenden-und-pruefen-v186"]
 taskId: "LINUX-SHELLSKRIPTE-V186-2"
-relatedExercise: "src/content/exercises/linux/automatisierung-und-skripte/shellskripte/shellskripte-anwenden-und-pruefen-v186.md"
+relatedExercise: "src/content/exercises/linux/automatisierung-und-skripte/shellskripte/shellskripte-anwenden-und-pruefen-v186"
 tags: ["linux", "automatisierung-und-skripte", "loesung"]
 draft: false
 ---

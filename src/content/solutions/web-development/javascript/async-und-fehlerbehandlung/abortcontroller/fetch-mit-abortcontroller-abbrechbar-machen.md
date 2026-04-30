@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "async-und-fehlerbehandlung", "abortcontroller", "fetch-mit-abortcontroller-abbrechbar-machen"]
 taskId: "v108-web-development-fetch-mit-abortcontroller-abbrechbar-machen"
-relatedExercise: "web-development/javascript/async-und-fehlerbehandlung/abortcontroller/fetch-mit-abortcontroller-abbrechbar-machen"
+relatedExercise: "src/content/exercises/web-development/javascript/async-und-fehlerbehandlung/abortcontroller/fetch-mit-abortcontroller-abbrechbar-machen"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

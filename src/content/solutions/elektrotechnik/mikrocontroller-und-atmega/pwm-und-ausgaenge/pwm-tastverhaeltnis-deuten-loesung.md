@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "mikrocontroller-und-atmega"
 topicPath: ["mikrocontroller-und-atmega", "pwm-und-ausgaenge", "pwm-tastverhaeltnis-deuten"]
 taskId: "ET-V180-PWM-001"
-relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/pwm-und-ausgaenge/pwm-tastverhaeltnis-deuten.md"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/pwm-und-ausgaenge/pwm-tastverhaeltnis-deuten"
 tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---

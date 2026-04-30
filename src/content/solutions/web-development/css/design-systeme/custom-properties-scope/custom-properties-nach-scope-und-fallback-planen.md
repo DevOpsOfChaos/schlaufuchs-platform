@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "design-systeme", "custom-properties-scope", "custom-properties-nach-scope-und-fallback-planen"]
 taskId: "v108-web-development-custom-properties-nach-scope-und-fallback-planen"
-relatedExercise: "web-development/css/design-systeme/custom-properties-scope/custom-properties-nach-scope-und-fallback-planen"
+relatedExercise: "src/content/exercises/web-development/css/design-systeme/custom-properties-scope/custom-properties-nach-scope-und-fallback-planen"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

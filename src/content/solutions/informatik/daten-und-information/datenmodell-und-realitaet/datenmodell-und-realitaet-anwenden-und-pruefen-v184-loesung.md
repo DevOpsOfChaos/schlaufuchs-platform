@@ -5,7 +5,7 @@ subject: "informatik"
 section: "daten-und-information"
 topicPath: ["daten-und-information", "datenmodell-und-realitaet", "datenmodell-und-realitaet-anwenden-und-pruefen-v184"]
 taskId: "INF-DATENMODELL-UND-REALITAET-842"
-relatedExercise: "src/content/exercises/informatik/daten-und-information/datenmodell-und-realitaet/datenmodell-und-realitaet-anwenden-und-pruefen-v184.md"
+relatedExercise: "src/content/exercises/informatik/daten-und-information/datenmodell-und-realitaet/datenmodell-und-realitaet-anwenden-und-pruefen-v184"
 tags: ["informatik", "daten-und-information", "loesung"]
 draft: false
 ---

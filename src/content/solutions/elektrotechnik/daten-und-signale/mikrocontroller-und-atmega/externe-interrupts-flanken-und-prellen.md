@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "externe-interrupts-flanken-und-prellen"]
 taskId: "et-mc-v92-interrupt-flanken-prellen"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/externe-interrupts-flanken-und-prellen"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/externe-interrupts-flanken-und-prellen"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "arrays-in-php-numerisch-und-assoziativ-nutzen", "php-arrays-nach-indexart-und-zugriff-unterscheiden"]
 taskId: "INF-PHP-ARRAYS-001"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/arrays-in-php-numerisch-und-assoziativ-nutzen/php-arrays-nach-indexart-und-zugriff-unterscheiden.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/arrays-in-php-numerisch-und-assoziativ-nutzen/php-arrays-nach-indexart-und-zugriff-unterscheiden"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

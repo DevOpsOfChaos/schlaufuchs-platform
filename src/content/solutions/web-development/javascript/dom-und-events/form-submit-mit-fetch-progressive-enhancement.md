@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "dom-und-events", "form-submit-mit-fetch-progressive-enhancement"]
 taskId: "web-v103-form-submit-mit-fetch-progressive-enhancement"
-relatedExercise: "web-development/javascript/dom-und-events/form-submit-mit-fetch-progressive-enhancement"
+relatedExercise: "src/content/exercises/web-development/javascript/dom-und-events/form-submit-mit-fetch-progressive-enhancement"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

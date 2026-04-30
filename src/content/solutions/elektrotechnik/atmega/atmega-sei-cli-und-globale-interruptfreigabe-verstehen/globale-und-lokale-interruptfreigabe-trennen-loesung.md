@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "mikrocontroller-und-atmega"
 topicPath: ["atmega", "atmega-sei-cli-und-globale-interruptfreigabe-verstehen", "globale-und-lokale-interruptfreigabe-trennen"]
 taskId: "ET-ATMEGA-INT-307"
-relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-sei-cli-und-globale-interruptfreigabe-verstehen/globale-und-lokale-interruptfreigabe-trennen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-sei-cli-und-globale-interruptfreigabe-verstehen/globale-und-lokale-interruptfreigabe-trennen"
 tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---

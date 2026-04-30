@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "cpp", "wertuebergabe-und-referenzuebergabe-vergleichen", "wert-und-referenzparameter-im-aufruf-unterscheiden"]
 taskId: "INF-PROG-CPP-FUNC-007"
-relatedExercise: "src/content/exercises/informatik/programmierung/cpp/wertuebergabe-und-referenzuebergabe-vergleichen/wert-und-referenzparameter-im-aufruf-unterscheiden.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/wertuebergabe-und-referenzuebergabe-vergleichen/wert-und-referenzparameter-im-aufruf-unterscheiden"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "oop", "this-zeiger-und-selbstbezug-verstehen", "aktuelles-objekt-in-einer-methode-deuten"]
 taskId: "INF-PROG-OOP-027"
-relatedExercise: "informatik/programmierung/oop/this-zeiger-und-selbstbezug-verstehen/aktuelles-objekt-in-einer-methode-deuten"
+relatedExercise: "src/content/exercises/informatik/programmierung/oop/this-zeiger-und-selbstbezug-verstehen/aktuelles-objekt-in-einer-methode-deuten"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

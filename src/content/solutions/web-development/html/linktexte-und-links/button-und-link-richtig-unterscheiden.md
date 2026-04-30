@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "linktexte-und-links", "button-und-link-richtig-unterscheiden"]
 taskId: "button-und-link-richtig-unterscheiden"
-relatedExercise: "web-development/html/linktexte-und-links/button-und-link-richtig-unterscheiden"
+relatedExercise: "src/content/exercises/web-development/html/linktexte-und-links/button-und-link-richtig-unterscheiden"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

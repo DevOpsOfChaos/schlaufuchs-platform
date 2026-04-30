@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Bauteile"
 topicPath: ["bauteile", "mosfet-und-transistor", "gate-steuerung", "mosfet-gate-source-und-drain-nicht-verwechseln"]
 taskId: "v108-elektrotechnik-mosfet-gate-source-und-drain-nicht-verwechseln"
-relatedExercise: "elektrotechnik/bauteile/mosfet-und-transistor/gate-steuerung/mosfet-gate-source-und-drain-nicht-verwechseln"
+relatedExercise: "src/content/exercises/elektrotechnik/bauteile/mosfet-und-transistor/gate-steuerung/mosfet-gate-source-und-drain-nicht-verwechseln"
 tags: ["elektrotechnik", "Bauteile", "loesung"]
 draft: false
 ---

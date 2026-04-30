@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Digitale Eingänge und Ausgänge"
 topicPath: ["digitale-eingaenge-und-ausgaenge", "pegelwandler-und-logikspannungen", "logikspannungen-kompatibilitaet-pruefen"]
 taskId: "ET-V181-009"
-relatedExercise: "src/content/exercises/elektrotechnik/digitale-eingaenge-und-ausgaenge/pegelwandler-und-logikspannungen/logikspannungen-kompatibilitaet-pruefen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/digitale-eingaenge-und-ausgaenge/pegelwandler-und-logikspannungen/logikspannungen-kompatibilitaet-pruefen"
 tags: ["elektrotechnik", "Digitale Eingänge und Ausgänge", "loesung"]
 draft: false
 ---

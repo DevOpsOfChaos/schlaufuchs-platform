@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["mikrocontroller-und-atmega", "interrupts-und-isr", "isr-kurz-und-verstaendlich-halten"]
 taskId: "ET-V181-017"
-relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/interrupts-und-isr/isr-kurz-und-verstaendlich-halten.md"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/interrupts-und-isr/isr-kurz-und-verstaendlich-halten"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

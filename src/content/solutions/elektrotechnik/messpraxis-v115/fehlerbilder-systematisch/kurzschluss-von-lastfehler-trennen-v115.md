@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
 topicPath: ["messpraxis-v115", "fehlerbilder-systematisch", "kurzschluss-von-lastfehler-trennen-v115"]
 taskId: "elektrotechnik-kurzschluss-von-lastfehler-trennen-v115"
-relatedExercise: "elektrotechnik/messpraxis-v115/fehlerbilder-systematisch/kurzschluss-von-lastfehler-trennen-v115"
+relatedExercise: "src/content/exercises/elektrotechnik/messpraxis-v115/fehlerbilder-systematisch/kurzschluss-von-lastfehler-trennen-v115"
 tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---

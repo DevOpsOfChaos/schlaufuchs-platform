@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "formular-validierung", "fehlersammlung-und-fokus-nach-formularvalidierung"]
 taskId: "wd-v97-fehlersammlung-und-fokus-nach-formularvalidierung"
-relatedExercise: "web-development/html/formular-validierung/fehlersammlung-und-fokus-nach-formularvalidierung"
+relatedExercise: "src/content/exercises/web-development/html/formular-validierung/fehlersammlung-und-fokus-nach-formularvalidierung"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

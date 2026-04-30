@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Datenstrukturen"
 topicPath: ["datenstrukturen", "stapel-und-warteschlangen", "zugriffsregel", "lifo-und-fifo-an-beispielen-erkennen"]
 taskId: "v107-informatik-lifo-und-fifo-an-beispielen-erkennen"
-relatedExercise: "informatik/datenstrukturen/stapel-und-warteschlangen/zugriffsregel/lifo-und-fifo-an-beispielen-erkennen"
+relatedExercise: "src/content/exercises/informatik/datenstrukturen/stapel-und-warteschlangen/zugriffsregel/lifo-und-fifo-an-beispielen-erkennen"
 tags: ["informatik", "Datenstrukturen", "loesung"]
 draft: false
 ---

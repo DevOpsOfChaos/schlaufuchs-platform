@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "zustand-und-ui", "datenattribute-als-bruecke-zwischen-html-und-javascript"]
 taskId: "web-js-v99-datenattribute-als-bruecke-zwischen-html-und-javascript"
-relatedExercise: "web-development/javascript/zustand-und-ui/datenattribute-als-bruecke-zwischen-html-und-javascript"
+relatedExercise: "src/content/exercises/web-development/javascript/zustand-und-ui/datenattribute-als-bruecke-zwischen-html-und-javascript"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

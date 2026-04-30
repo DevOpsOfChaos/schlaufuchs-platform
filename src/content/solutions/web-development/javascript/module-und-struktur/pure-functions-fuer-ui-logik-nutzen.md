@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "module-und-struktur", "pure-functions-fuer-ui-logik-nutzen"]
 taskId: "web-v104-pure-functions-fuer-ui-logik-nutzen"
-relatedExercise: "web-development/javascript/module-und-struktur/pure-functions-fuer-ui-logik-nutzen"
+relatedExercise: "src/content/exercises/web-development/javascript/module-und-struktur/pure-functions-fuer-ui-logik-nutzen"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

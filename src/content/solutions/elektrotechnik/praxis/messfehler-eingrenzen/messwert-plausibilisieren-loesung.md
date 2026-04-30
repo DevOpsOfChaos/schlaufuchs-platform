@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Praxis"
 topicPath: ["praxis", "messfehler-eingrenzen", "messwert-plausibilisieren"]
 taskId: "ET-PR-MESS-179-001"
-relatedExercise: "src/content/exercises/elektrotechnik/praxis/messfehler-eingrenzen/messwert-plausibilisieren.md"
+relatedExercise: "src/content/exercises/elektrotechnik/praxis/messfehler-eingrenzen/messwert-plausibilisieren"
 tags: ["elektrotechnik", "Praxis", "loesung"]
 draft: false
 ---

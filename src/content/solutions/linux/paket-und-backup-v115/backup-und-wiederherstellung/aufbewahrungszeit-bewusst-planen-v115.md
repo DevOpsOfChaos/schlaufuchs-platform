@@ -5,7 +5,7 @@ subject: "linux"
 section: "Feinstruktur Linux"
 topicPath: ["paket-und-backup-v115", "backup-und-wiederherstellung", "aufbewahrungszeit-bewusst-planen-v115"]
 taskId: "linux-aufbewahrungszeit-bewusst-planen-v115"
-relatedExercise: "linux/paket-und-backup-v115/backup-und-wiederherstellung/aufbewahrungszeit-bewusst-planen-v115"
+relatedExercise: "src/content/exercises/linux/paket-und-backup-v115/backup-und-wiederherstellung/aufbewahrungszeit-bewusst-planen-v115"
 tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---

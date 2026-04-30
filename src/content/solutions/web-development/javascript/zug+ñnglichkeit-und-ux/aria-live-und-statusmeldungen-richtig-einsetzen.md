@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "zug+ñnglichkeit-und-ux", "aria-live-und-statusmeldungen-richtig-einsetzen"]
 taskId: "web-js-v99-aria-live-und-statusmeldungen-richtig-einsetzen"
-relatedExercise: "web-development/javascript/zugänglichkeit-und-ux/aria-live-und-statusmeldungen-richtig-einsetzen"
+relatedExercise: "src/content/exercises/web-development/javascript/zug+ñnglichkeit-und-ux/aria-live-und-statusmeldungen-richtig-einsetzen"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

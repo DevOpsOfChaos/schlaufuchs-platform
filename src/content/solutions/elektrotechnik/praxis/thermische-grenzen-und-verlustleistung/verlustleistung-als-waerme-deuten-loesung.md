@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Praxis"
 topicPath: ["praxis", "thermische-grenzen-und-verlustleistung", "verlustleistung-als-waerme-deuten"]
 taskId: "ET-V181-021"
-relatedExercise: "src/content/exercises/elektrotechnik/praxis/thermische-grenzen-und-verlustleistung/verlustleistung-als-waerme-deuten.md"
+relatedExercise: "src/content/exercises/elektrotechnik/praxis/thermische-grenzen-und-verlustleistung/verlustleistung-als-waerme-deuten"
 tags: ["elektrotechnik", "Praxis", "loesung"]
 draft: false
 ---

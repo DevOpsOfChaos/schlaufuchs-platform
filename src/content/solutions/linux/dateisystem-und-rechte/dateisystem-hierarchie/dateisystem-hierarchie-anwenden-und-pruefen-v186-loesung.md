@@ -5,7 +5,7 @@ subject: "linux"
 section: "dateisystem-und-rechte"
 topicPath: ["dateisystem-und-rechte", "dateisystem-hierarchie", "dateisystem-hierarchie-anwenden-und-pruefen-v186"]
 taskId: "LINUX-DATEISYSTEM-HIERARCHIE-V186-2"
-relatedExercise: "src/content/exercises/linux/dateisystem-und-rechte/dateisystem-hierarchie/dateisystem-hierarchie-anwenden-und-pruefen-v186.md"
+relatedExercise: "src/content/exercises/linux/dateisystem-und-rechte/dateisystem-hierarchie/dateisystem-hierarchie-anwenden-und-pruefen-v186"
 tags: ["linux", "dateisystem-und-rechte", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "pwm-tastverhaeltnis-und-mittelwert"]
 taskId: "et-mc-pwm-duty-cycle"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/pwm-tastverhaeltnis-und-mittelwert"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/pwm-tastverhaeltnis-und-mittelwert"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

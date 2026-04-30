@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "responsive-layouts", "dynamic-viewport-units-dvh-svh-lvh-verstehen"]
 taskId: "web-v102-dynamic-viewport-units-dvh-svh-lvh-verstehen"
-relatedExercise: "web-development/css/responsive-layouts/dynamic-viewport-units-dvh-svh-lvh-verstehen"
+relatedExercise: "src/content/exercises/web-development/css/responsive-layouts/dynamic-viewport-units-dvh-svh-lvh-verstehen"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

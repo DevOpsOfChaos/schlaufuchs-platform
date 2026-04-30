@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Netzwerke und Dienste"
 topicPath: ["netzwerke-und-dienste", "schnittstellenvertraege-und-versionierung", "schnittstellenvertraege-und-versionierung-anwenden-und-pruefen-v185"]
 taskId: "INF-V185-024-2"
-relatedExercise: "src/content/exercises/informatik/netzwerke-und-dienste/schnittstellenvertraege-und-versionierung/schnittstellenvertraege-und-versionierung-anwenden-und-pruefen-v185.md"
+relatedExercise: "src/content/exercises/informatik/netzwerke-und-dienste/schnittstellenvertraege-und-versionierung/schnittstellenvertraege-und-versionierung-anwenden-und-pruefen-v185"
 tags: ["informatik", "Netzwerke und Dienste", "loesung"]
 draft: false
 ---

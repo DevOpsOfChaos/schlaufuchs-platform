@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "grid-container-und-grid-items-getrennt-denken", "container-und-item-regeln-im-grid-zuordnen"]
 taskId: "WEB-CSS-CORE-105"
-relatedExercise: "src/content/exercises/web-development/css/grid-container-und-grid-items-getrennt-denken/container-und-item-regeln-im-grid-zuordnen.md"
+relatedExercise: "src/content/exercises/web-development/css/grid-container-und-grid-items-getrennt-denken/container-und-item-regeln-im-grid-zuordnen"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

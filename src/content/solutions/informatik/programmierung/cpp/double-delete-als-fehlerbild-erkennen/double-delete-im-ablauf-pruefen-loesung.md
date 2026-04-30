@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "cpp", "double-delete-als-fehlerbild-erkennen", "double-delete-im-ablauf-pruefen"]
 taskId: "INF-PROG-CPP-MEM-005"
-relatedExercise: "src/content/exercises/informatik/programmierung/cpp/double-delete-als-fehlerbild-erkennen/double-delete-im-ablauf-pruefen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/double-delete-als-fehlerbild-erkennen/double-delete-im-ablauf-pruefen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

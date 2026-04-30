@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "sicherheit-und-daten", "eingaben-validieren-und-sicher-ausgeben"]
 taskId: "web-js-v99-eingaben-validieren-und-sicher-ausgeben"
-relatedExercise: "web-development/javascript/sicherheit-und-daten/eingaben-validieren-und-sicher-ausgeben"
+relatedExercise: "src/content/exercises/web-development/javascript/sicherheit-und-daten/eingaben-validieren-und-sicher-ausgeben"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

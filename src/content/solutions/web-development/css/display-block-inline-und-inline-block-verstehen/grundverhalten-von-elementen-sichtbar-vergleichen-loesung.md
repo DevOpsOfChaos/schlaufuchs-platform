@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "display-block-inline-und-inline-block-verstehen", "grundverhalten-von-elementen-sichtbar-vergleichen"]
 taskId: "WEB-CSS-LAYOUT-201"
-relatedExercise: "web-development/css/display-block-inline-und-inline-block-verstehen/grundverhalten-von-elementen-sichtbar-vergleichen"
+relatedExercise: "src/content/exercises/web-development/css/display-block-inline-und-inline-block-verstehen/grundverhalten-von-elementen-sichtbar-vergleichen"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

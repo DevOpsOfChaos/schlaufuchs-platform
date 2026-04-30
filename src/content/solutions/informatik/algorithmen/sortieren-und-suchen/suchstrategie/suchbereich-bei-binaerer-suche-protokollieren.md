@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Algorithmen"
 topicPath: ["algorithmen", "sortieren-und-suchen", "suchstrategie", "suchbereich-bei-binaerer-suche-protokollieren"]
 taskId: "v107-informatik-suchbereich-bei-binaerer-suche-protokollieren"
-relatedExercise: "informatik/algorithmen/sortieren-und-suchen/suchstrategie/suchbereich-bei-binaerer-suche-protokollieren"
+relatedExercise: "src/content/exercises/informatik/algorithmen/sortieren-und-suchen/suchstrategie/suchbereich-bei-binaerer-suche-protokollieren"
 tags: ["informatik", "Algorithmen", "loesung"]
 draft: false
 ---

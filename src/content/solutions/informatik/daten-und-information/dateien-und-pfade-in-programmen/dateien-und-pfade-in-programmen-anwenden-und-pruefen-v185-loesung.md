@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Daten und Information"
 topicPath: ["daten-und-information", "dateien-und-pfade-in-programmen", "dateien-und-pfade-in-programmen-anwenden-und-pruefen-v185"]
 taskId: "INF-V185-009-2"
-relatedExercise: "src/content/exercises/informatik/daten-und-information/dateien-und-pfade-in-programmen/dateien-und-pfade-in-programmen-anwenden-und-pruefen-v185.md"
+relatedExercise: "src/content/exercises/informatik/daten-und-information/dateien-und-pfade-in-programmen/dateien-und-pfade-in-programmen-anwenden-und-pruefen-v185"
 tags: ["informatik", "Daten und Information", "loesung"]
 draft: false
 ---

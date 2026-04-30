@@ -5,7 +5,7 @@ subject: "linux"
 section: "Rechte"
 topicPath: ["system", "rechte-und-acl", "symbolisch-oktal", "chmod-symbolisch-und-oktal-vergleichen"]
 taskId: "v108-linux-chmod-symbolisch-und-oktal-vergleichen"
-relatedExercise: "linux/system/rechte-und-acl/symbolisch-oktal/chmod-symbolisch-und-oktal-vergleichen"
+relatedExercise: "src/content/exercises/linux/system/rechte-und-acl/symbolisch-oktal/chmod-symbolisch-und-oktal-vergleichen"
 tags: ["linux", "Rechte", "loesung"]
 draft: false
 ---

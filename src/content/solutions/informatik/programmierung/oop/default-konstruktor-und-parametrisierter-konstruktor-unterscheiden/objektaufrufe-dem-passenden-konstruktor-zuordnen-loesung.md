@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "oop", "default-konstruktor-und-parametrisierter-konstruktor-unterscheiden", "objektaufrufe-dem-passenden-konstruktor-zuordnen"]
 taskId: "INF-PROG-OOP-017"
-relatedExercise: "src/content/exercises/informatik/programmierung/oop/default-konstruktor-und-parametrisierter-konstruktor-unterscheiden/objektaufrufe-dem-passenden-konstruktor-zuordnen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/oop/default-konstruktor-und-parametrisierter-konstruktor-unterscheiden/objektaufrufe-dem-passenden-konstruktor-zuordnen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

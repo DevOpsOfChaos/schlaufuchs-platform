@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "dom-und-events", "event-listener-und-handler-klar-trennen"]
 taskId: "web-js-event-listener-und-handler-klar-trennen"
-relatedExercise: "web-development/javascript/dom-und-events/event-listener-und-handler-klar-trennen"
+relatedExercise: "src/content/exercises/web-development/javascript/dom-und-events/event-listener-und-handler-klar-trennen"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

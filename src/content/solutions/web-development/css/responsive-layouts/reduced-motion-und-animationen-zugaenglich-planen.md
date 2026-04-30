@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "responsive-layouts", "reduced-motion-und-animationen-zugaenglich-planen"]
 taskId: "wd-css-v95-reduced-motion"
-relatedExercise: "web-development/css/responsive-layouts/reduced-motion-und-animationen-zugaenglich-planen"
+relatedExercise: "src/content/exercises/web-development/css/responsive-layouts/reduced-motion-und-animationen-zugaenglich-planen"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

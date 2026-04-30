@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Datenstrukturen im Einsatz"
 topicPath: ["datenstrukturen-im-einsatz", "baumstrukturen", "baumstrukturen-anwenden-und-pruefen-v185"]
 taskId: "INF-V185-013-2"
-relatedExercise: "src/content/exercises/informatik/datenstrukturen-im-einsatz/baumstrukturen/baumstrukturen-anwenden-und-pruefen-v185.md"
+relatedExercise: "src/content/exercises/informatik/datenstrukturen-im-einsatz/baumstrukturen/baumstrukturen-anwenden-und-pruefen-v185"
 tags: ["informatik", "Datenstrukturen im Einsatz", "loesung"]
 draft: false
 ---

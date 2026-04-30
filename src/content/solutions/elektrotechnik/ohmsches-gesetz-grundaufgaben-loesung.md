@@ -4,8 +4,8 @@ description: "Lösung zur Grundaufgabe zum Ohmschen Gesetz."
 subject: "elektrotechnik"
 section: "Grundlagen Elektrotechnik"
 topicPath: ["ohmsches-gesetz-grundaufgaben"]
-taskId: "ET-GR-OHM-001"
-relatedExercise: "src/content/exercises/elektrotechnik/ohmsches-gesetz-grundaufgaben.md"
+taskId: "AUTO-OHMSCHES-GESETZ-GRUNDAUFGABEN"
+relatedExercise: "src/content/exercises/elektrotechnik/ohmsches-gesetz-grundaufgaben"
 tags: ["elektrotechnik", "Grundlagen Elektrotechnik", "loesung"]
 draft: false
 ---

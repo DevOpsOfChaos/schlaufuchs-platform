@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "debugging-und-diagnose", "performance-profiling-mit-devtools-lesen"]
 taskId: "web-v102-performance-profiling-mit-devtools-lesen"
-relatedExercise: "web-development/javascript/debugging-und-diagnose/performance-profiling-mit-devtools-lesen"
+relatedExercise: "src/content/exercises/web-development/javascript/debugging-und-diagnose/performance-profiling-mit-devtools-lesen"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

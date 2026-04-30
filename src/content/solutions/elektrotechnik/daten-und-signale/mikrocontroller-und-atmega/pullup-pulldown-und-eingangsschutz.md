@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "pullup-pulldown-und-eingangsschutz"]
 taskId: "et-mc-v94-pullup-pulldown-schutz"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/pullup-pulldown-und-eingangsschutz"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/pullup-pulldown-und-eingangsschutz"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

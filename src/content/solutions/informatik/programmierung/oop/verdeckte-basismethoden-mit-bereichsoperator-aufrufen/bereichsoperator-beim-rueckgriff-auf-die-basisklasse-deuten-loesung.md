@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "oop", "verdeckte-basismethoden-mit-bereichsoperator-aufrufen", "bereichsoperator-beim-rueckgriff-auf-die-basisklasse-deuten"]
 taskId: "INF-PROG-OOP-020"
-relatedExercise: "informatik/programmierung/oop/verdeckte-basismethoden-mit-bereichsoperator-aufrufen/bereichsoperator-beim-rueckgriff-auf-die-basisklasse-deuten"
+relatedExercise: "src/content/exercises/informatik/programmierung/oop/verdeckte-basismethoden-mit-bereichsoperator-aufrufen/bereichsoperator-beim-rueckgriff-auf-die-basisklasse-deuten"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

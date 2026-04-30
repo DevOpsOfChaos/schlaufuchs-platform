@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "navigation-und-menues", "dialoge-modal-und-fokusfalle-verstaendlich-pruefen"]
 taskId: "wd-v97-dialoge-modal-und-fokusfalle-verstaendlich-pruefen"
-relatedExercise: "web-development/html/navigation-und-menues/dialoge-modal-und-fokusfalle-verstaendlich-pruefen"
+relatedExercise: "src/content/exercises/web-development/html/navigation-und-menues/dialoge-modal-und-fokusfalle-verstaendlich-pruefen"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

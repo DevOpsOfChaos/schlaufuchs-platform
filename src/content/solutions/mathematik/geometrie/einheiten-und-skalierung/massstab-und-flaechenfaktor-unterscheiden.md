@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Geometrie"
 topicPath: ["geometrie", "einheiten-und-skalierung", "massstab-und-flaechenfaktor-unterscheiden"]
 taskId: "v106-mathematik-massstab-und-flaechenfaktor-unterscheiden"
-relatedExercise: "mathematik/geometrie/einheiten-und-skalierung/massstab-und-flaechenfaktor-unterscheiden"
+relatedExercise: "src/content/exercises/mathematik/geometrie/einheiten-und-skalierung/massstab-und-flaechenfaktor-unterscheiden"
 tags: ["mathematik", "Geometrie", "loesung"]
 draft: false
 ---

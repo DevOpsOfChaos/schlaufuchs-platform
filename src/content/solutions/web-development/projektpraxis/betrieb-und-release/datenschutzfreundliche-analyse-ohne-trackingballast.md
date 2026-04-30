@@ -5,7 +5,7 @@ subject: "web-development"
 section: "Projektpraxis"
 topicPath: ["projektpraxis", "betrieb-und-release", "datenschutzfreundliche-analyse-ohne-trackingballast"]
 taskId: "web-v105-datenschutzfreundliche-analyse-ohne-trackingballast"
-relatedExercise: "web-development/projektpraxis/betrieb-und-release/datenschutzfreundliche-analyse-ohne-trackingballast"
+relatedExercise: "src/content/exercises/web-development/projektpraxis/betrieb-und-release/datenschutzfreundliche-analyse-ohne-trackingballast"
 tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---

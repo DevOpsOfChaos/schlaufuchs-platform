@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "cpp", "parameter-und-argumente-unterscheiden", "parameter-und-aufrufe-sauber-zuordnen"]
 taskId: "INF-PROG-CPP-FUNC-002"
-relatedExercise: "src/content/exercises/informatik/programmierung/cpp/parameter-und-argumente-unterscheiden/parameter-und-aufrufe-sauber-zuordnen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/parameter-und-argumente-unterscheiden/parameter-und-aufrufe-sauber-zuordnen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

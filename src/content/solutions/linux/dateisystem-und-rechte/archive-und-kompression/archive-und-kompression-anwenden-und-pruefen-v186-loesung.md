@@ -5,7 +5,7 @@ subject: "linux"
 section: "dateisystem-und-rechte"
 topicPath: ["dateisystem-und-rechte", "archive-und-kompression", "archive-und-kompression-anwenden-und-pruefen-v186"]
 taskId: "LINUX-ARCHIVE-UND-KOMPRESSION-V186-2"
-relatedExercise: "src/content/exercises/linux/dateisystem-und-rechte/archive-und-kompression/archive-und-kompression-anwenden-und-pruefen-v186.md"
+relatedExercise: "src/content/exercises/linux/dateisystem-und-rechte/archive-und-kompression/archive-und-kompression-anwenden-und-pruefen-v186"
 tags: ["linux", "dateisystem-und-rechte", "loesung"]
 draft: false
 ---

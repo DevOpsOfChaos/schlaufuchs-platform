@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "testaufbau-vom-breadboard-zur-platine"]
 taskId: "et-mc-v94-breadboard-platine"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/testaufbau-vom-breadboard-zur-platine"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/testaufbau-vom-breadboard-zur-platine"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

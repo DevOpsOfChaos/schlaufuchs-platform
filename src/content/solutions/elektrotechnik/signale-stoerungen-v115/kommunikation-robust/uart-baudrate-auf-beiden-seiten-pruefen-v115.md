@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
 topicPath: ["signale-stoerungen-v115", "kommunikation-robust", "uart-baudrate-auf-beiden-seiten-pruefen-v115"]
 taskId: "elektrotechnik-uart-baudrate-auf-beiden-seiten-pruefen-v115"
-relatedExercise: "elektrotechnik/signale-stoerungen-v115/kommunikation-robust/uart-baudrate-auf-beiden-seiten-pruefen-v115"
+relatedExercise: "src/content/exercises/elektrotechnik/signale-stoerungen-v115/kommunikation-robust/uart-baudrate-auf-beiden-seiten-pruefen-v115"
 tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---

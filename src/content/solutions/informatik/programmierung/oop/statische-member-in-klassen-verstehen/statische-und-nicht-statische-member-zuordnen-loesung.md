@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "oop", "statische-member-in-klassen-verstehen", "statische-und-nicht-statische-member-zuordnen"]
 taskId: "INF-PROG-OOP-012"
-relatedExercise: "src/content/exercises/informatik/programmierung/oop/statische-member-in-klassen-verstehen/statische-und-nicht-statische-member-zuordnen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/oop/statische-member-in-klassen-verstehen/statische-und-nicht-statische-member-zuordnen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

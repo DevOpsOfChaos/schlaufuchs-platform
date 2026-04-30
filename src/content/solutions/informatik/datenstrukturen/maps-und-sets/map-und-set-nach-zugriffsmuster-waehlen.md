@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Datenstrukturen"
 topicPath: ["datenstrukturen", "maps-und-sets", "map-und-set-nach-zugriffsmuster-waehlen"]
 taskId: "v106-informatik-map-und-set-nach-zugriffsmuster-waehlen"
-relatedExercise: "informatik/datenstrukturen/maps-und-sets/map-und-set-nach-zugriffsmuster-waehlen"
+relatedExercise: "src/content/exercises/informatik/datenstrukturen/maps-und-sets/map-und-set-nach-zugriffsmuster-waehlen"
 tags: ["informatik", "Datenstrukturen", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller"
 topicPath: ["mikrocontroller-und-atmega", "adc-und-referenz", "messbereich", "adc-referenzspannung-als-messbereich-verstehen"]
 taskId: "v108-elektrotechnik-adc-referenzspannung-als-messbereich-verstehen"
-relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/adc-und-referenz/messbereich/adc-referenzspannung-als-messbereich-verstehen"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/adc-und-referenz/messbereich/adc-referenzspannung-als-messbereich-verstehen"
 tags: ["elektrotechnik", "Mikrocontroller", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Algebra"
 topicPath: ["algebra", "terme-und-klammern", "vorzeichen-und-ausmultiplizieren", "minusklammern-und-vorzeichen-sicher-aufloesen"]
 taskId: "v107-mathematik-minusklammern-und-vorzeichen-sicher-aufloesen"
-relatedExercise: "mathematik/algebra/terme-und-klammern/vorzeichen-und-ausmultiplizieren/minusklammern-und-vorzeichen-sicher-aufloesen"
+relatedExercise: "src/content/exercises/mathematik/algebra/terme-und-klammern/vorzeichen-und-ausmultiplizieren/minusklammern-und-vorzeichen-sicher-aufloesen"
 tags: ["mathematik", "Algebra", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "linux"
 section: "shell-und-terminal"
 topicPath: ["shell-und-terminal", "quoting-globbing-und-variablenersetzung", "quoting-globbing-und-variablenersetzung-anwenden-und-pruefen-v186"]
 taskId: "LINUX-QUOTING-GLOBBING-UND-VARIABLENERSETZUNG-V186-2"
-relatedExercise: "src/content/exercises/linux/shell-und-terminal/quoting-globbing-und-variablenersetzung/quoting-globbing-und-variablenersetzung-anwenden-und-pruefen-v186.md"
+relatedExercise: "src/content/exercises/linux/shell-und-terminal/quoting-globbing-und-variablenersetzung/quoting-globbing-und-variablenersetzung-anwenden-und-pruefen-v186"
 tags: ["linux", "shell-und-terminal", "loesung"]
 draft: false
 ---

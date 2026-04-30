@@ -4,8 +4,8 @@ description: "Lösung zur Grundaufgabe über Strom, Spannung, Widerstand und Ohm
 subject: "elektrotechnik"
 section: "Elektronik"
 topicPath: ["elektronik", "strom-spannung-widerstand", "grundlagen-zuordnen-und-berechnen"]
-taskId: "ET-EL-UIR-001"
-relatedExercise: "src/content/exercises/elektrotechnik/elektronik/strom-spannung-widerstand/grundlagen-zuordnen-und-berechnen.md"
+taskId: "AUTO-GRUNDLAGEN-ZUORDNEN-UND-BERECHNEN"
+relatedExercise: "src/content/exercises/elektrotechnik/elektronik/strom-spannung-widerstand/grundlagen-zuordnen-und-berechnen"
 tags: ["elektrotechnik", "Elektronik", "loesung"]
 draft: false
 ---

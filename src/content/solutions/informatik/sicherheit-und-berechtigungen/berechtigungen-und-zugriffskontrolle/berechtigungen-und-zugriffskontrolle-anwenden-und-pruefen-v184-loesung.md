@@ -5,7 +5,7 @@ subject: "informatik"
 section: "sicherheit-und-berechtigungen"
 topicPath: ["sicherheit-und-berechtigungen", "berechtigungen-und-zugriffskontrolle", "berechtigungen-und-zugriffskontrolle-anwenden-und-pruefen-v184"]
 taskId: "INF-BERECHTIGUNGEN-UND-ZUGRIFFSKONTROLLE-842"
-relatedExercise: "src/content/exercises/informatik/sicherheit-und-berechtigungen/berechtigungen-und-zugriffskontrolle/berechtigungen-und-zugriffskontrolle-anwenden-und-pruefen-v184.md"
+relatedExercise: "src/content/exercises/informatik/sicherheit-und-berechtigungen/berechtigungen-und-zugriffskontrolle/berechtigungen-und-zugriffskontrolle-anwenden-und-pruefen-v184"
 tags: ["informatik", "sicherheit-und-berechtigungen", "loesung"]
 draft: false
 ---

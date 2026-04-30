@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "sicherheit-und-daten", "urlsearchparams-und-suchzustand-in-der-url"]
 taskId: "web-js-v99-urlsearchparams-und-suchzustand-in-der-url"
-relatedExercise: "web-development/javascript/sicherheit-und-daten/urlsearchparams-und-suchzustand-in-der-url"
+relatedExercise: "src/content/exercises/web-development/javascript/sicherheit-und-daten/urlsearchparams-und-suchzustand-in-der-url"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "filter-input-in-php-verstehen", "filter-input-aufruf-nach-quelle-name-und-filter-lesen"]
 taskId: "INF-PHP-FILTER-004"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/filter-input-in-php-verstehen/filter-input-aufruf-nach-quelle-name-und-filter-lesen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/filter-input-in-php-verstehen/filter-input-aufruf-nach-quelle-name-und-filter-lesen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

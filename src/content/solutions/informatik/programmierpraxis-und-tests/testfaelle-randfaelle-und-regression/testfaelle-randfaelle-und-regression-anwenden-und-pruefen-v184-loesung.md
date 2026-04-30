@@ -5,7 +5,7 @@ subject: "informatik"
 section: "programmierpraxis-und-tests"
 topicPath: ["programmierpraxis-und-tests", "testfaelle-randfaelle-und-regression", "testfaelle-randfaelle-und-regression-anwenden-und-pruefen-v184"]
 taskId: "INF-TESTFAELLE-RANDFAELLE-UND-REGRESSION-842"
-relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/testfaelle-randfaelle-und-regression/testfaelle-randfaelle-und-regression-anwenden-und-pruefen-v184.md"
+relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/testfaelle-randfaelle-und-regression/testfaelle-randfaelle-und-regression-anwenden-und-pruefen-v184"
 tags: ["informatik", "programmierpraxis-und-tests", "loesung"]
 draft: false
 ---

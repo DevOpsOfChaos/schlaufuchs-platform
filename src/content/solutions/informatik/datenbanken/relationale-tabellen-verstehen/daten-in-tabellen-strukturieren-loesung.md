@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Datenbanken"
 topicPath: ["datenbanken", "relationale-tabellen-verstehen", "daten-in-tabellen-strukturieren"]
 taskId: "INF-DATENBANKEN-TABELLEN-001"
-relatedExercise: "src/content/exercises/informatik/datenbanken/relationale-tabellen-verstehen/daten-in-tabellen-strukturieren.md"
+relatedExercise: "src/content/exercises/informatik/datenbanken/relationale-tabellen-verstehen/daten-in-tabellen-strukturieren"
 tags: ["informatik", "Datenbanken", "loesung"]
 draft: false
 ---

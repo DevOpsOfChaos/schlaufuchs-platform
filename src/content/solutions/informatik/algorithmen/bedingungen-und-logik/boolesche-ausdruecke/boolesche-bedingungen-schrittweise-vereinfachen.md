@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Algorithmen"
 topicPath: ["algorithmen", "bedingungen-und-logik", "boolesche-ausdruecke", "boolesche-bedingungen-schrittweise-vereinfachen"]
 taskId: "v108-informatik-boolesche-bedingungen-schrittweise-vereinfachen"
-relatedExercise: "informatik/algorithmen/bedingungen-und-logik/boolesche-ausdruecke/boolesche-bedingungen-schrittweise-vereinfachen"
+relatedExercise: "src/content/exercises/informatik/algorithmen/bedingungen-und-logik/boolesche-ausdruecke/boolesche-bedingungen-schrittweise-vereinfachen"
 tags: ["informatik", "Algorithmen", "loesung"]
 draft: false
 ---

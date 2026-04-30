@@ -5,7 +5,7 @@ subject: "linux"
 section: "Feinstruktur Linux"
 topicPath: ["systembetrieb-v115", "ressourcen-und-speicher", "plattenplatz-und-inodes-unterscheiden-v115"]
 taskId: "linux-plattenplatz-und-inodes-unterscheiden-v115"
-relatedExercise: "linux/systembetrieb-v115/ressourcen-und-speicher/plattenplatz-und-inodes-unterscheiden-v115"
+relatedExercise: "src/content/exercises/linux/systembetrieb-v115/ressourcen-und-speicher/plattenplatz-und-inodes-unterscheiden-v115"
 tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---

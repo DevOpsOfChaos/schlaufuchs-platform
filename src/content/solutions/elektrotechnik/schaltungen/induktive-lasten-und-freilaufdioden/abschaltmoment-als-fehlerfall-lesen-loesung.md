@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Schaltungen"
 topicPath: ["schaltungen", "induktive-lasten-und-freilaufdioden", "abschaltmoment-als-fehlerfall-lesen"]
 taskId: "ET-V181-008"
-relatedExercise: "src/content/exercises/elektrotechnik/schaltungen/induktive-lasten-und-freilaufdioden/abschaltmoment-als-fehlerfall-lesen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/schaltungen/induktive-lasten-und-freilaufdioden/abschaltmoment-als-fehlerfall-lesen"
 tags: ["elektrotechnik", "Schaltungen", "loesung"]
 draft: false
 ---

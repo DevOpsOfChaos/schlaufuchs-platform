@@ -5,7 +5,7 @@ subject: "web-development"
 section: "Feinstruktur Web Development"
 topicPath: ["web-projektpraxis-v115", "release-und-betrieb", "feature-flag-begrenzt-einsetzen-v115"]
 taskId: "web-development-feature-flag-begrenzt-einsetzen-v115"
-relatedExercise: "web-development/web-projektpraxis-v115/release-und-betrieb/feature-flag-begrenzt-einsetzen-v115"
+relatedExercise: "src/content/exercises/web-development/web-projektpraxis-v115/release-und-betrieb/feature-flag-begrenzt-einsetzen-v115"
 tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "linux"
 section: "Feinstruktur Linux"
 topicPath: ["rechte-und-sicherheit-v115", "ssh-und-schluessel", "agent-und-schluesseldatei-unterscheiden-v115"]
 taskId: "linux-agent-und-schluesseldatei-unterscheiden-v115"
-relatedExercise: "linux/rechte-und-sicherheit-v115/ssh-und-schluessel/agent-und-schluesseldatei-unterscheiden-v115"
+relatedExercise: "src/content/exercises/linux/rechte-und-sicherheit-v115/ssh-und-schluessel/agent-und-schluesseldatei-unterscheiden-v115"
 tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---

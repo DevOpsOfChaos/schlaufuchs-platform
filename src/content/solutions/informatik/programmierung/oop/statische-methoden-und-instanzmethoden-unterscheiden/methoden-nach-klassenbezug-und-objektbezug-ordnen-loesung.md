@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "oop", "statische-methoden-und-instanzmethoden-unterscheiden", "methoden-nach-klassenbezug-und-objektbezug-ordnen"]
 taskId: "INF-PROG-OOP-021"
-relatedExercise: "informatik/programmierung/oop/statische-methoden-und-instanzmethoden-unterscheiden/methoden-nach-klassenbezug-und-objektbezug-ordnen"
+relatedExercise: "src/content/exercises/informatik/programmierung/oop/statische-methoden-und-instanzmethoden-unterscheiden/methoden-nach-klassenbezug-und-objektbezug-ordnen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

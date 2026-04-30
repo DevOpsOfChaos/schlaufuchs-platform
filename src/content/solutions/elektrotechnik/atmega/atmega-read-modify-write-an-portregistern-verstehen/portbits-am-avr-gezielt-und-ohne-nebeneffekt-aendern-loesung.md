@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "mikrocontroller-und-atmega"
 topicPath: ["atmega", "atmega-read-modify-write-an-portregistern-verstehen", "portbits-am-avr-gezielt-und-ohne-nebeneffekt-aendern"]
 taskId: "ET-ATMEGA-REG-301"
-relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-read-modify-write-an-portregistern-verstehen/portbits-am-avr-gezielt-und-ohne-nebeneffekt-aendern.md"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-read-modify-write-an-portregistern-verstehen/portbits-am-avr-gezielt-und-ohne-nebeneffekt-aendern"
 tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---

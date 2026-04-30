@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "php-variablen-strings-und-ausgabe-verstehen", "php-ausgabe-aus-text-und-variablen-lesen"]
 taskId: "INF-PHP-BASICS-002"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/php-variablen-strings-und-ausgabe-verstehen/php-ausgabe-aus-text-und-variablen-lesen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/php-variablen-strings-und-ausgabe-verstehen/php-ausgabe-aus-text-und-variablen-lesen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

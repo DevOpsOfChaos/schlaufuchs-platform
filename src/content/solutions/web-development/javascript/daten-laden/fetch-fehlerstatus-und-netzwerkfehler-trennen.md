@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "daten-laden", "fetch-fehlerstatus-und-netzwerkfehler-trennen"]
 taskId: "web-v102-fetch-fehlerstatus-und-netzwerkfehler-trennen"
-relatedExercise: "web-development/javascript/daten-laden/fetch-fehlerstatus-und-netzwerkfehler-trennen"
+relatedExercise: "src/content/exercises/web-development/javascript/daten-laden/fetch-fehlerstatus-und-netzwerkfehler-trennen"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

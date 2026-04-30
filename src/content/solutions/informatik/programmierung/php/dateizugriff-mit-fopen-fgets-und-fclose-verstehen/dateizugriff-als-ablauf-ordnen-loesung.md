@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "dateizugriff-mit-fopen-fgets-und-fclose-verstehen", "dateizugriff-als-ablauf-ordnen"]
 taskId: "INF-PHP-FILES-001"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/dateizugriff-mit-fopen-fgets-und-fclose-verstehen/dateizugriff-als-ablauf-ordnen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/dateizugriff-mit-fopen-fgets-und-fclose-verstehen/dateizugriff-als-ablauf-ordnen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "cpp", "arrays-initialisieren-und-kurzschreibweise-verstehen", "arraygroesse-aus-werteliste-herleiten"]
 taskId: "INF-PROG-CPP-INITARRAY-001"
-relatedExercise: "src/content/exercises/informatik/programmierung/cpp/arrays-initialisieren-und-kurzschreibweise-verstehen/arraygroesse-aus-werteliste-herleiten.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/arrays-initialisieren-und-kurzschreibweise-verstehen/arraygroesse-aus-werteliste-herleiten"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "mysqli-prozedural-und-objektorientiert-vergleichen", "mysqli-schreibweisen-fachlich-zuordnen"]
 taskId: "INF-PHP-MYSQL-003"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/mysqli-prozedural-und-objektorientiert-vergleichen/mysqli-schreibweisen-fachlich-zuordnen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/mysqli-prozedural-und-objektorientiert-vergleichen/mysqli-schreibweisen-fachlich-zuordnen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

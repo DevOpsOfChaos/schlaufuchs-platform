@@ -5,7 +5,7 @@ subject: "linux"
 section: "System"
 topicPath: ["system", "dienste-und-systemd", "start-enable", "systemctl-start-und-enable-unterscheiden"]
 taskId: "v108-linux-systemctl-start-und-enable-unterscheiden"
-relatedExercise: "linux/system/dienste-und-systemd/start-enable/systemctl-start-und-enable-unterscheiden"
+relatedExercise: "src/content/exercises/linux/system/dienste-und-systemd/start-enable/systemctl-start-und-enable-unterscheiden"
 tags: ["linux", "System", "loesung"]
 draft: false
 ---

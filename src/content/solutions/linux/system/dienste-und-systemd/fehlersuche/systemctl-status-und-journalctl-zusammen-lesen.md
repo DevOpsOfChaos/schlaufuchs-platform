@@ -5,7 +5,7 @@ subject: "linux"
 section: "System"
 topicPath: ["system", "dienste-und-systemd", "fehlersuche", "systemctl-status-und-journalctl-zusammen-lesen"]
 taskId: "v107-linux-systemctl-status-und-journalctl-zusammen-lesen"
-relatedExercise: "linux/system/dienste-und-systemd/fehlersuche/systemctl-status-und-journalctl-zusammen-lesen"
+relatedExercise: "src/content/exercises/linux/system/dienste-und-systemd/fehlersuche/systemctl-status-und-journalctl-zusammen-lesen"
 tags: ["linux", "System", "loesung"]
 draft: false
 ---

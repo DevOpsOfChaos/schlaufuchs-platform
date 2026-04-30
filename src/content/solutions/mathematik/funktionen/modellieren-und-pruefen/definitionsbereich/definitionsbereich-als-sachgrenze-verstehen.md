@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Funktionen"
 topicPath: ["funktionen", "modellieren-und-pruefen", "definitionsbereich", "definitionsbereich-als-sachgrenze-verstehen"]
 taskId: "v107-mathematik-definitionsbereich-als-sachgrenze-verstehen"
-relatedExercise: "mathematik/funktionen/modellieren-und-pruefen/definitionsbereich/definitionsbereich-als-sachgrenze-verstehen"
+relatedExercise: "src/content/exercises/mathematik/funktionen/modellieren-und-pruefen/definitionsbereich/definitionsbereich-als-sachgrenze-verstehen"
 tags: ["mathematik", "Funktionen", "loesung"]
 draft: false
 ---

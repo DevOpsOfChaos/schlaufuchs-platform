@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Funktionen"
 topicPath: ["funktionen", "analysis-einstieg", "lokale-aenderung", "ableitung-als-lokale-aenderungsrate-deuten"]
 taskId: "v108-mathematik-ableitung-als-lokale-aenderungsrate-deuten"
-relatedExercise: "mathematik/funktionen/analysis-einstieg/lokale-aenderung/ableitung-als-lokale-aenderungsrate-deuten"
+relatedExercise: "src/content/exercises/mathematik/funktionen/analysis-einstieg/lokale-aenderung/ableitung-als-lokale-aenderungsrate-deuten"
 tags: ["mathematik", "Funktionen", "loesung"]
 draft: false
 ---

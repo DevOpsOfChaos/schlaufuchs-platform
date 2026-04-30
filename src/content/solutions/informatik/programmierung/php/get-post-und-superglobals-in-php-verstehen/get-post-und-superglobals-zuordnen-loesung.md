@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "get-post-und-superglobals-in-php-verstehen", "get-post-und-superglobals-zuordnen"]
 taskId: "INF-PHP-REQUEST-001"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/get-post-und-superglobals-in-php-verstehen/get-post-und-superglobals-zuordnen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/get-post-und-superglobals-in-php-verstehen/get-post-und-superglobals-zuordnen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

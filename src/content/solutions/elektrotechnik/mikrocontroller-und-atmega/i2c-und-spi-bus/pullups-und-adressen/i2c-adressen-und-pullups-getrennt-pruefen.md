@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Kommunikation"
 topicPath: ["mikrocontroller-und-atmega", "i2c-und-spi-bus", "pullups-und-adressen", "i2c-adressen-und-pullups-getrennt-pruefen"]
 taskId: "v108-elektrotechnik-i2c-adressen-und-pullups-getrennt-pruefen"
-relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/i2c-und-spi-bus/pullups-und-adressen/i2c-adressen-und-pullups-getrennt-pruefen"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/i2c-und-spi-bus/pullups-und-adressen/i2c-adressen-und-pullups-getrennt-pruefen"
 tags: ["elektrotechnik", "Kommunikation", "loesung"]
 draft: false
 ---

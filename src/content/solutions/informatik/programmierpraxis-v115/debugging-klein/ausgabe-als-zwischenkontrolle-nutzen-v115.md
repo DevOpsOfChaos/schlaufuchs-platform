@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Feinstruktur Informatik"
 topicPath: ["programmierpraxis-v115", "debugging-klein", "ausgabe-als-zwischenkontrolle-nutzen-v115"]
 taskId: "informatik-ausgabe-als-zwischenkontrolle-nutzen-v115"
-relatedExercise: "informatik/programmierpraxis-v115/debugging-klein/ausgabe-als-zwischenkontrolle-nutzen-v115"
+relatedExercise: "src/content/exercises/informatik/programmierpraxis-v115/debugging-klein/ausgabe-als-zwischenkontrolle-nutzen-v115"
 tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---

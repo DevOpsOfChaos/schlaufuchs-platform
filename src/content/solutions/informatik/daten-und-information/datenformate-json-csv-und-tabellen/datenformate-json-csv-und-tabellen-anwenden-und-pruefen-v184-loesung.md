@@ -5,7 +5,7 @@ subject: "informatik"
 section: "daten-und-information"
 topicPath: ["daten-und-information", "datenformate-json-csv-und-tabellen", "datenformate-json-csv-und-tabellen-anwenden-und-pruefen-v184"]
 taskId: "INF-DATENFORMATE-JSON-CSV-UND-TABELLEN-842"
-relatedExercise: "src/content/exercises/informatik/daten-und-information/datenformate-json-csv-und-tabellen/datenformate-json-csv-und-tabellen-anwenden-und-pruefen-v184.md"
+relatedExercise: "src/content/exercises/informatik/daten-und-information/datenformate-json-csv-und-tabellen/datenformate-json-csv-und-tabellen-anwenden-und-pruefen-v184"
 tags: ["informatik", "daten-und-information", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "linux"
 section: "Netzwerk"
 topicPath: ["netzwerk", "ports-und-verbindungen", "localhost-und-bind", "localhost-und-0-0-0-0-bei-diensten-unterscheiden"]
 taskId: "v107-linux-localhost-und-0-0-0-0-bei-diensten-unterscheiden"
-relatedExercise: "linux/netzwerk/ports-und-verbindungen/localhost-und-bind/localhost-und-0-0-0-0-bei-diensten-unterscheiden"
+relatedExercise: "src/content/exercises/linux/netzwerk/ports-und-verbindungen/localhost-und-bind/localhost-und-0-0-0-0-bei-diensten-unterscheiden"
 tags: ["linux", "Netzwerk", "loesung"]
 draft: false
 ---

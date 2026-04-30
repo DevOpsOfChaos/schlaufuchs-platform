@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "flexbox-grundidee-verstehen", "elemente-mit-flexbox-ausrichten"]
 taskId: "WEB-CSS-FLEXBOX-001"
-relatedExercise: "src/content/exercises/web-development/css/flexbox-grundidee-verstehen/elemente-mit-flexbox-ausrichten.md"
+relatedExercise: "src/content/exercises/web-development/css/flexbox-grundidee-verstehen/elemente-mit-flexbox-ausrichten"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

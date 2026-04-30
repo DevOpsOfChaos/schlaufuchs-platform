@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "fopen-dateimodi-r-a-w-und-plus-varianten-vergleichen", "dateimodus-fuer-fall-passend-auswaehlen"]
 taskId: "INF-PHP-FILES-002"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/fopen-dateimodi-r-a-w-und-plus-varianten-vergleichen/dateimodus-fuer-fall-passend-auswaehlen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/fopen-dateimodi-r-a-w-und-plus-varianten-vergleichen/dateimodus-fuer-fall-passend-auswaehlen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

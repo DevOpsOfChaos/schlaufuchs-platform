@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "module-und-struktur", "import-export-und-module-verstaendlich-aufteilen"]
 taskId: "web-js-import-export-und-module-verstaendlich-aufteilen"
-relatedExercise: "web-development/javascript/module-und-struktur/import-export-und-module-verstaendlich-aufteilen"
+relatedExercise: "src/content/exercises/web-development/javascript/module-und-struktur/import-export-und-module-verstaendlich-aufteilen"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

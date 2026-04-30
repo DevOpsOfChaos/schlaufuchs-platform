@@ -5,7 +5,7 @@ subject: "linux"
 section: "shell-und-terminal"
 topicPath: ["shell-und-terminal", "dateien-lesen-und-filtern", "dateien-lesen-und-filtern-anwenden-und-pruefen-v186"]
 taskId: "LINUX-DATEIEN-LESEN-UND-FILTERN-V186-2"
-relatedExercise: "src/content/exercises/linux/shell-und-terminal/dateien-lesen-und-filtern/dateien-lesen-und-filtern-anwenden-und-pruefen-v186.md"
+relatedExercise: "src/content/exercises/linux/shell-und-terminal/dateien-lesen-und-filtern/dateien-lesen-und-filtern-anwenden-und-pruefen-v186"
 tags: ["linux", "shell-und-terminal", "loesung"]
 draft: false
 ---

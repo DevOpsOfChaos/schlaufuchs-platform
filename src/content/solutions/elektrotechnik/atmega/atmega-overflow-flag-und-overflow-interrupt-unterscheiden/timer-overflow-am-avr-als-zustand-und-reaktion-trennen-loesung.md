@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "mikrocontroller-und-atmega"
 topicPath: ["atmega", "atmega-overflow-flag-und-overflow-interrupt-unterscheiden", "timer-overflow-am-avr-als-zustand-und-reaktion-trennen"]
 taskId: "ET-ATMEGA-TMR-209"
-relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-overflow-flag-und-overflow-interrupt-unterscheiden/timer-overflow-am-avr-als-zustand-und-reaktion-trennen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-overflow-flag-und-overflow-interrupt-unterscheiden/timer-overflow-am-avr-als-zustand-und-reaktion-trennen"
 tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---

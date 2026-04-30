@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "mysqli-ergebnisse-mit-fetch-array-lesen", "ergebnisobjekt-und-datenzeile-trennen"]
 taskId: "INF-PHP-MYSQL-004"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/mysqli-ergebnisse-mit-fetch-array-lesen/ergebnisobjekt-und-datenzeile-trennen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/mysqli-ergebnisse-mit-fetch-array-lesen/ergebnisobjekt-und-datenzeile-trennen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

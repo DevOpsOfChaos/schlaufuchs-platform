@@ -5,7 +5,7 @@ subject: "linux"
 section: "praxis-und-betrieb"
 topicPath: ["praxis-und-betrieb", "linux-fehlerdiagnose", "linux-fehlerdiagnose-anwenden-und-pruefen-v186"]
 taskId: "LINUX-LINUX-FEHLERDIAGNOSE-V186-2"
-relatedExercise: "src/content/exercises/linux/praxis-und-betrieb/linux-fehlerdiagnose/linux-fehlerdiagnose-anwenden-und-pruefen-v186.md"
+relatedExercise: "src/content/exercises/linux/praxis-und-betrieb/linux-fehlerdiagnose/linux-fehlerdiagnose-anwenden-und-pruefen-v186"
 tags: ["linux", "praxis-und-betrieb", "loesung"]
 draft: false
 ---

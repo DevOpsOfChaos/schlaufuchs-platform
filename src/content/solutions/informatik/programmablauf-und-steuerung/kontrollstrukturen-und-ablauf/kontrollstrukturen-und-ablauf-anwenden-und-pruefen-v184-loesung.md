@@ -5,7 +5,7 @@ subject: "informatik"
 section: "programmablauf-und-steuerung"
 topicPath: ["programmablauf-und-steuerung", "kontrollstrukturen-und-ablauf", "kontrollstrukturen-und-ablauf-anwenden-und-pruefen-v184"]
 taskId: "INF-KONTROLLSTRUKTUREN-UND-ABLAUF-842"
-relatedExercise: "src/content/exercises/informatik/programmablauf-und-steuerung/kontrollstrukturen-und-ablauf/kontrollstrukturen-und-ablauf-anwenden-und-pruefen-v184.md"
+relatedExercise: "src/content/exercises/informatik/programmablauf-und-steuerung/kontrollstrukturen-und-ablauf/kontrollstrukturen-und-ablauf-anwenden-und-pruefen-v184"
 tags: ["informatik", "programmablauf-und-steuerung", "loesung"]
 draft: false
 ---

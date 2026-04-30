@@ -5,7 +5,7 @@ subject: "linux"
 section: "SSH"
 topicPath: ["ssh", "schluessel-und-agent", "ssh-agent-und-schluessel-passphrasen-verstehen"]
 taskId: "v106-linux-ssh-agent-und-schluessel-passphrasen-verstehen"
-relatedExercise: "linux/ssh/schluessel-und-agent/ssh-agent-und-schluessel-passphrasen-verstehen"
+relatedExercise: "src/content/exercises/linux/ssh/schluessel-und-agent/ssh-agent-und-schluessel-passphrasen-verstehen"
 tags: ["linux", "SSH", "loesung"]
 draft: false
 ---

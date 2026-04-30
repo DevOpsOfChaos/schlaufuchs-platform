@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "css-spezifitaet-und-kaskade", "custom-properties-scope-und-fallbacks-verstehen"]
 taskId: "custom-properties-scope-und-fallbacks-verstehen"
-relatedExercise: "web-development/css/css-spezifitaet-und-kaskade/custom-properties-scope-und-fallbacks-verstehen"
+relatedExercise: "src/content/exercises/web-development/css/css-spezifitaet-und-kaskade/custom-properties-scope-und-fallbacks-verstehen"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

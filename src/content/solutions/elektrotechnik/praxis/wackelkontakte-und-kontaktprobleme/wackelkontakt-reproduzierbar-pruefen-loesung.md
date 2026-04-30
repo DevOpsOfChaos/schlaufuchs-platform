@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Praxis"
 topicPath: ["praxis", "wackelkontakte-und-kontaktprobleme", "wackelkontakt-reproduzierbar-pruefen"]
 taskId: "ET-V182-003"
-relatedExercise: "src/content/exercises/elektrotechnik/praxis/wackelkontakte-und-kontaktprobleme/wackelkontakt-reproduzierbar-pruefen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/praxis/wackelkontakte-und-kontaktprobleme/wackelkontakt-reproduzierbar-pruefen"
 tags: ["elektrotechnik", "Praxis", "loesung"]
 draft: false
 ---

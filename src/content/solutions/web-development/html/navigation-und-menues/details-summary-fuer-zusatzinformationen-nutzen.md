@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "navigation-und-menues", "details-summary-fuer-zusatzinformationen-nutzen"]
 taskId: "wd-v97-details-summary-fuer-zusatzinformationen-nutzen"
-relatedExercise: "web-development/html/navigation-und-menues/details-summary-fuer-zusatzinformationen-nutzen"
+relatedExercise: "src/content/exercises/web-development/html/navigation-und-menues/details-summary-fuer-zusatzinformationen-nutzen"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

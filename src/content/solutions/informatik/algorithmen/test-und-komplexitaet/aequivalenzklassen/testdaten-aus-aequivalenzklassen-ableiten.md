@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Algorithmen"
 topicPath: ["algorithmen", "test-und-komplexitaet", "aequivalenzklassen", "testdaten-aus-aequivalenzklassen-ableiten"]
 taskId: "v108-informatik-testdaten-aus-aequivalenzklassen-ableiten"
-relatedExercise: "informatik/algorithmen/test-und-komplexitaet/aequivalenzklassen/testdaten-aus-aequivalenzklassen-ableiten"
+relatedExercise: "src/content/exercises/informatik/algorithmen/test-und-komplexitaet/aequivalenzklassen/testdaten-aus-aequivalenzklassen-ableiten"
 tags: ["informatik", "Algorithmen", "loesung"]
 draft: false
 ---

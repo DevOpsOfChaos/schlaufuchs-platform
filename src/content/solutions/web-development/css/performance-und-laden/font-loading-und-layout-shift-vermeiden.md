@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "performance-und-laden", "font-loading-und-layout-shift-vermeiden"]
 taskId: "web-v100-font-loading-und-layout-shift-vermeiden"
-relatedExercise: "web-development/css/performance-und-laden/font-loading-und-layout-shift-vermeiden"
+relatedExercise: "src/content/exercises/web-development/css/performance-und-laden/font-loading-und-layout-shift-vermeiden"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "linux"
 section: "Shell"
 topicPath: ["shell", "textfilter-und-regex", "grep-pipeline", "grep-cut-sort-als-lesbare-pipeline-aufbauen"]
 taskId: "v107-linux-grep-cut-sort-als-lesbare-pipeline-aufbauen"
-relatedExercise: "linux/shell/textfilter-und-regex/grep-pipeline/grep-cut-sort-als-lesbare-pipeline-aufbauen"
+relatedExercise: "src/content/exercises/linux/shell/textfilter-und-regex/grep-pipeline/grep-cut-sort-als-lesbare-pipeline-aufbauen"
 tags: ["linux", "Shell", "loesung"]
 draft: false
 ---

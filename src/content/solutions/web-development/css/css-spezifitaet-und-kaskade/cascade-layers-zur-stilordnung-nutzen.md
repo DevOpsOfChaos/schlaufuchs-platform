@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "css-spezifitaet-und-kaskade", "cascade-layers-zur-stilordnung-nutzen"]
 taskId: "web-v102-cascade-layers-zur-stilordnung-nutzen"
-relatedExercise: "web-development/css/css-spezifitaet-und-kaskade/cascade-layers-zur-stilordnung-nutzen"
+relatedExercise: "src/content/exercises/web-development/css/css-spezifitaet-und-kaskade/cascade-layers-zur-stilordnung-nutzen"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

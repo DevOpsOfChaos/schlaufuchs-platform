@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "browser-grundlagen", "progressive-enhancement-mit-javascript-planen"]
 taskId: "web-js-progressive-enhancement-mit-javascript-planen"
-relatedExercise: "web-development/javascript/browser-grundlagen/progressive-enhancement-mit-javascript-planen"
+relatedExercise: "src/content/exercises/web-development/javascript/browser-grundlagen/progressive-enhancement-mit-javascript-planen"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

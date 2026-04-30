@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Datenstrukturen"
 topicPath: ["datenstrukturen", "maps-und-sets", "schluesselwahl", "map-schluessel-nach-eindeutigkeit-waehlen"]
 taskId: "v108-informatik-map-schluessel-nach-eindeutigkeit-waehlen"
-relatedExercise: "informatik/datenstrukturen/maps-und-sets/schluesselwahl/map-schluessel-nach-eindeutigkeit-waehlen"
+relatedExercise: "src/content/exercises/informatik/datenstrukturen/maps-und-sets/schluesselwahl/map-schluessel-nach-eindeutigkeit-waehlen"
 tags: ["informatik", "Datenstrukturen", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "linux"
 section: "Praxis"
 topicPath: ["praxis", "backup-und-wiederherstellung", "rsync-dry-run", "rsync-dry-run-vor-dem-kopieren-nutzen"]
 taskId: "v108-linux-rsync-dry-run-vor-dem-kopieren-nutzen"
-relatedExercise: "linux/praxis/backup-und-wiederherstellung/rsync-dry-run/rsync-dry-run-vor-dem-kopieren-nutzen"
+relatedExercise: "src/content/exercises/linux/praxis/backup-und-wiederherstellung/rsync-dry-run/rsync-dry-run-vor-dem-kopieren-nutzen"
 tags: ["linux", "Praxis", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "bauteile"
 topicPath: ["bauteile", "transistoren-und-mosfets", "laststrom-und-steuersignal-trennen"]
 taskId: "ET-V180-MOS-001"
-relatedExercise: "src/content/exercises/elektrotechnik/bauteile/transistoren-und-mosfets/laststrom-und-steuersignal-trennen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/bauteile/transistoren-und-mosfets/laststrom-und-steuersignal-trennen"
 tags: ["elektrotechnik", "bauteile", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "kommunikationsfehler-systematisch-eingrenzen"]
 taskId: "et-mc-v94-kommunikationsfehler"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/kommunikationsfehler-systematisch-eingrenzen"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/kommunikationsfehler-systematisch-eingrenzen"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

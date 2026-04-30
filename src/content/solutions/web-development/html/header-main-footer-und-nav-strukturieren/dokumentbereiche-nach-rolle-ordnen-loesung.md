@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "header-main-footer-und-nav-strukturieren", "dokumentbereiche-nach-rolle-ordnen"]
 taskId: "WEB-HTML-CORE-102"
-relatedExercise: "web-development/html/header-main-footer-und-nav-strukturieren/dokumentbereiche-nach-rolle-ordnen"
+relatedExercise: "src/content/exercises/web-development/html/header-main-footer-und-nav-strukturieren/dokumentbereiche-nach-rolle-ordnen"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

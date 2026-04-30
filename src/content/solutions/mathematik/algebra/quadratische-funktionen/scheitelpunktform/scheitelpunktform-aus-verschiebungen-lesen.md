@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Algebra"
 topicPath: ["algebra", "quadratische-funktionen", "scheitelpunktform", "scheitelpunktform-aus-verschiebungen-lesen"]
 taskId: "v108-mathematik-scheitelpunktform-aus-verschiebungen-lesen"
-relatedExercise: "mathematik/algebra/quadratische-funktionen/scheitelpunktform/scheitelpunktform-aus-verschiebungen-lesen"
+relatedExercise: "src/content/exercises/mathematik/algebra/quadratische-funktionen/scheitelpunktform/scheitelpunktform-aus-verschiebungen-lesen"
 tags: ["mathematik", "Algebra", "loesung"]
 draft: false
 ---

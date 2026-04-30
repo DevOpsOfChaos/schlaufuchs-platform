@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Grundlagen"
 topicPath: ["grundlagen", "prozent-und-wachstum", "wachstumsfaktor", "wachstumsfaktor-aus-prozentsatz-aufbauen"]
 taskId: "v108-mathematik-wachstumsfaktor-aus-prozentsatz-aufbauen"
-relatedExercise: "mathematik/grundlagen/prozent-und-wachstum/wachstumsfaktor/wachstumsfaktor-aus-prozentsatz-aufbauen"
+relatedExercise: "src/content/exercises/mathematik/grundlagen/prozent-und-wachstum/wachstumsfaktor/wachstumsfaktor-aus-prozentsatz-aufbauen"
 tags: ["mathematik", "Grundlagen", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "performance-und-laden", "lazy-loading-und-code-splitting-ohne-framework-denken"]
 taskId: "web-js-v99-lazy-loading-und-code-splitting-ohne-framework-denken"
-relatedExercise: "web-development/javascript/performance-und-laden/lazy-loading-und-code-splitting-ohne-framework-denken"
+relatedExercise: "src/content/exercises/web-development/javascript/performance-und-laden/lazy-loading-und-code-splitting-ohne-framework-denken"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

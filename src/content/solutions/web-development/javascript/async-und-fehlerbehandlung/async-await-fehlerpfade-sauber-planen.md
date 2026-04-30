@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "async-und-fehlerbehandlung", "async-await-fehlerpfade-sauber-planen"]
 taskId: "v106-web-development-async-await-fehlerpfade-sauber-planen"
-relatedExercise: "web-development/javascript/async-und-fehlerbehandlung/async-await-fehlerpfade-sauber-planen"
+relatedExercise: "src/content/exercises/web-development/javascript/async-und-fehlerbehandlung/async-await-fehlerpfade-sauber-planen"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Grundlagen"
 topicPath: ["grundlagen", "spannung-strom-widerstand", "messpunkte", "spannung-zwischen-zwei-punkten-messen"]
 taskId: "v107-elektrotechnik-spannung-zwischen-zwei-punkten-messen"
-relatedExercise: "elektrotechnik/grundlagen/spannung-strom-widerstand/messpunkte/spannung-zwischen-zwei-punkten-messen"
+relatedExercise: "src/content/exercises/elektrotechnik/grundlagen/spannung-strom-widerstand/messpunkte/spannung-zwischen-zwei-punkten-messen"
 tags: ["elektrotechnik", "Grundlagen", "loesung"]
 draft: false
 ---

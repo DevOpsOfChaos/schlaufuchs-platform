@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "formulare-und-eingaben", "formulare-strukturieren-und-beschriften"]
 taskId: "WEB-HTML-A11Y-303"
-relatedExercise: "web-development/html/formulare-und-eingaben/formulare-strukturieren-und-beschriften"
+relatedExercise: "src/content/exercises/web-development/html/formulare-und-eingaben/formulare-strukturieren-und-beschriften"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

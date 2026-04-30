@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "cpp", "index-und-element-im-array-unterscheiden", "index-und-inhalt-sauber-trennen"]
 taskId: "INF-PROG-CPP-INDEX-001"
-relatedExercise: "src/content/exercises/informatik/programmierung/cpp/index-und-element-im-array-unterscheiden/index-und-inhalt-sauber-trennen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/index-und-element-im-array-unterscheiden/index-und-inhalt-sauber-trennen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

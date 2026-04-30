@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "trim-explode-und-implode-in-php-vergleichen", "trim-explode-und-implode-passend-auswaehlen"]
 taskId: "INF-PHP-STRING-002"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/trim-explode-und-implode-in-php-vergleichen/trim-explode-und-implode-passend-auswaehlen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/trim-explode-und-implode-in-php-vergleichen/trim-explode-und-implode-passend-auswaehlen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

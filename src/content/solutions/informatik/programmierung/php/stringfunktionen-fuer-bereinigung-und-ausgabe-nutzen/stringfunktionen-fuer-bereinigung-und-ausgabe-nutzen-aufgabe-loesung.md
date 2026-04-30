@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "stringfunktionen-fuer-bereinigung-und-ausgabe-nutzen", "stringfunktionen-fuer-bereinigung-und-ausgabe-nutzen-aufgabe"]
 taskId: "INF-PHP-ADV-010"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/stringfunktionen-fuer-bereinigung-und-ausgabe-nutzen/stringfunktionen-fuer-bereinigung-und-ausgabe-nutzen-aufgabe.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/stringfunktionen-fuer-bereinigung-und-ausgabe-nutzen/stringfunktionen-fuer-bereinigung-und-ausgabe-nutzen-aufgabe"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

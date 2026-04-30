@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "zustand-und-ui", "zustand-und-rendern-in-kleinen-ui-bausteinen"]
 taskId: "web-js-v99-zustand-und-rendern-in-kleinen-ui-bausteinen"
-relatedExercise: "web-development/javascript/zustand-und-ui/zustand-und-rendern-in-kleinen-ui-bausteinen"
+relatedExercise: "src/content/exercises/web-development/javascript/zustand-und-ui/zustand-und-rendern-in-kleinen-ui-bausteinen"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

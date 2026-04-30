@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "mikrocontroller-und-atmega"
 topicPath: ["atmega", "atmega-spi-ss-pin-im-mastermodus-verstehen", "ss-pin-und-slave-auswahl-sauber-trennen"]
 taskId: "ET-ATMEGA-SPI-306"
-relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-spi-ss-pin-im-mastermodus-verstehen/ss-pin-und-slave-auswahl-sauber-trennen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-spi-ss-pin-im-mastermodus-verstehen/ss-pin-und-slave-auswahl-sauber-trennen"
 tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "css-spezifitaet-und-kaskade", "custom-properties-als-design-tokens-nutzen"]
 taskId: "web-v101-custom-properties-als-design-tokens-nutzen"
-relatedExercise: "web-development/css/css-spezifitaet-und-kaskade/custom-properties-als-design-tokens-nutzen"
+relatedExercise: "src/content/exercises/web-development/css/css-spezifitaet-und-kaskade/custom-properties-als-design-tokens-nutzen"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "cpp", "speicherleck-durch-fehlende-freigabe-verstehen", "speicherleck-im-ablauf-erkennen"]
 taskId: "INF-PROG-CPP-MEM-004"
-relatedExercise: "src/content/exercises/informatik/programmierung/cpp/speicherleck-durch-fehlende-freigabe-verstehen/speicherleck-im-ablauf-erkennen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/speicherleck-durch-fehlende-freigabe-verstehen/speicherleck-im-ablauf-erkennen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

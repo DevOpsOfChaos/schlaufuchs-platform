@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "mikrocontroller-und-atmega"
 topicPath: ["mikrocontroller-und-atmega", "adc-und-sensorwerte", "sensorwert-vor-schwellwert-pruefen"]
 taskId: "ET-V180-ADC-002"
-relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/adc-und-sensorwerte/sensorwert-vor-schwellwert-pruefen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/adc-und-sensorwerte/sensorwert-vor-schwellwert-pruefen"
 tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---

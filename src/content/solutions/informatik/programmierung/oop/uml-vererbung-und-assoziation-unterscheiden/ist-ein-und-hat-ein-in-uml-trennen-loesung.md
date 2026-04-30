@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "oop", "uml-vererbung-und-assoziation-unterscheiden", "ist-ein-und-hat-ein-in-uml-trennen"]
 taskId: "INF-PROG-UML-001"
-relatedExercise: "src/content/exercises/informatik/programmierung/oop/uml-vererbung-und-assoziation-unterscheiden/ist-ein-und-hat-ein-in-uml-trennen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/oop/uml-vererbung-und-assoziation-unterscheiden/ist-ein-und-hat-ein-in-uml-trennen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

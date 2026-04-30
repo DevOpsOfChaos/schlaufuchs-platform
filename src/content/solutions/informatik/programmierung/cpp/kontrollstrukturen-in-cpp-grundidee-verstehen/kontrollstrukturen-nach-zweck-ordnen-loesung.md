@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "cpp", "kontrollstrukturen-in-cpp-grundidee-verstehen", "kontrollstrukturen-nach-zweck-ordnen"]
 taskId: "INF-PROG-CPP-KONTROLL-001"
-relatedExercise: "src/content/exercises/informatik/programmierung/cpp/kontrollstrukturen-in-cpp-grundidee-verstehen/kontrollstrukturen-nach-zweck-ordnen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/kontrollstrukturen-in-cpp-grundidee-verstehen/kontrollstrukturen-nach-zweck-ordnen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

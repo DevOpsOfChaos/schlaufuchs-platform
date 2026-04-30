@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "responsive-layouts", "ladezustand-leerzustand-und-fehlerzustand-in-ui-planen"]
 taskId: "wd-v97-ladezustand-leerzustand-und-fehlerzustand-in-ui-planen"
-relatedExercise: "web-development/css/responsive-layouts/ladezustand-leerzustand-und-fehlerzustand-in-ui-planen"
+relatedExercise: "src/content/exercises/web-development/css/responsive-layouts/ladezustand-leerzustand-und-fehlerzustand-in-ui-planen"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

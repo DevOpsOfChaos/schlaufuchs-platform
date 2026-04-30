@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "responsive-layouts", "container-query-und-media-query-unterscheiden"]
 taskId: "wd-css-v95-container-media-query"
-relatedExercise: "web-development/css/responsive-layouts/container-query-und-media-query-unterscheiden"
+relatedExercise: "src/content/exercises/web-development/css/responsive-layouts/container-query-und-media-query-unterscheiden"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

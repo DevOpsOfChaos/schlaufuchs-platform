@@ -5,7 +5,7 @@ subject: "linux"
 section: "netzwerk-und-fernzugriff"
 topicPath: ["netzwerk-und-fernzugriff", "ssh-und-schluessel", "ssh-und-schluessel-anwenden-und-pruefen-v186"]
 taskId: "LINUX-SSH-UND-SCHLUESSEL-V186-2"
-relatedExercise: "src/content/exercises/linux/netzwerk-und-fernzugriff/ssh-und-schluessel/ssh-und-schluessel-anwenden-und-pruefen-v186.md"
+relatedExercise: "src/content/exercises/linux/netzwerk-und-fernzugriff/ssh-und-schluessel/ssh-und-schluessel-anwenden-und-pruefen-v186"
 tags: ["linux", "netzwerk-und-fernzugriff", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "web-development"
 section: "Feinstruktur Web Development"
 topicPath: ["css-systeme-v115", "layout-entscheidungen", "grid-fuer-zweidimensionale-ordnung-nutzen-v115"]
 taskId: "web-development-grid-fuer-zweidimensionale-ordnung-nutzen-v115"
-relatedExercise: "web-development/css-systeme-v115/layout-entscheidungen/grid-fuer-zweidimensionale-ordnung-nutzen-v115"
+relatedExercise: "src/content/exercises/web-development/css-systeme-v115/layout-entscheidungen/grid-fuer-zweidimensionale-ordnung-nutzen-v115"
 tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---

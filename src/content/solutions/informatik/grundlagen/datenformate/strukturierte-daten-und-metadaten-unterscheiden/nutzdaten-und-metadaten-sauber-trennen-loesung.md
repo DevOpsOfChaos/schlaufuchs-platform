@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Grundlagen"
 topicPath: ["grundlagen", "datenformate", "strukturierte-daten-und-metadaten-unterscheiden", "nutzdaten-und-metadaten-sauber-trennen"]
 taskId: "INF-DATA-META-001"
-relatedExercise: "src/content/exercises/informatik/grundlagen/datenformate/strukturierte-daten-und-metadaten-unterscheiden/nutzdaten-und-metadaten-sauber-trennen.md"
+relatedExercise: "src/content/exercises/informatik/grundlagen/datenformate/strukturierte-daten-und-metadaten-unterscheiden/nutzdaten-und-metadaten-sauber-trennen"
 tags: ["informatik", "Grundlagen", "loesung"]
 draft: false
 ---

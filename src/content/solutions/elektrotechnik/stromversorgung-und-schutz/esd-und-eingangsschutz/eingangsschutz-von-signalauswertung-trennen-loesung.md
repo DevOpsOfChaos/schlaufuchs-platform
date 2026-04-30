@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Stromversorgung und Schutz"
 topicPath: ["stromversorgung-und-schutz", "esd-und-eingangsschutz", "eingangsschutz-von-signalauswertung-trennen"]
 taskId: "ET-V182-016"
-relatedExercise: "src/content/exercises/elektrotechnik/stromversorgung-und-schutz/esd-und-eingangsschutz/eingangsschutz-von-signalauswertung-trennen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/stromversorgung-und-schutz/esd-und-eingangsschutz/eingangsschutz-von-signalauswertung-trennen"
 tags: ["elektrotechnik", "Stromversorgung und Schutz", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "box-modell", "object-fit-und-object-position-fuer-medien"]
 taskId: "wd-v97-object-fit-und-object-position-fuer-medien"
-relatedExercise: "web-development/css/box-modell/object-fit-und-object-position-fuer-medien"
+relatedExercise: "src/content/exercises/web-development/css/box-modell/object-fit-und-object-position-fuer-medien"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

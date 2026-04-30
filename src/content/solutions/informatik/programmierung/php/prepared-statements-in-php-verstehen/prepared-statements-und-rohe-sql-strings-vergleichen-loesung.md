@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "prepared-statements-in-php-verstehen", "prepared-statements-und-rohe-sql-strings-vergleichen"]
 taskId: "INF-PHP-MYSQL-002"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/prepared-statements-in-php-verstehen/prepared-statements-und-rohe-sql-strings-vergleichen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/prepared-statements-in-php-verstehen/prepared-statements-und-rohe-sql-strings-vergleichen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

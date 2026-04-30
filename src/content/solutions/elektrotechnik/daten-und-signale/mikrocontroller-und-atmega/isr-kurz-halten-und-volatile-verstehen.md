@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "isr-kurz-halten-und-volatile-verstehen"]
 taskId: "et-mc-isr-flag-volatile"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/isr-kurz-halten-und-volatile-verstehen"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/isr-kurz-halten-und-volatile-verstehen"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

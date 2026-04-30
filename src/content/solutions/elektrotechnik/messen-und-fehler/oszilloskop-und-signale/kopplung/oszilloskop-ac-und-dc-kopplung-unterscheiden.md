@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Messen"
 topicPath: ["messen-und-fehler", "oszilloskop-und-signale", "kopplung", "oszilloskop-ac-und-dc-kopplung-unterscheiden"]
 taskId: "v108-elektrotechnik-oszilloskop-ac-und-dc-kopplung-unterscheiden"
-relatedExercise: "elektrotechnik/messen-und-fehler/oszilloskop-und-signale/kopplung/oszilloskop-ac-und-dc-kopplung-unterscheiden"
+relatedExercise: "src/content/exercises/elektrotechnik/messen-und-fehler/oszilloskop-und-signale/kopplung/oszilloskop-ac-und-dc-kopplung-unterscheiden"
 tags: ["elektrotechnik", "Messen", "loesung"]
 draft: false
 ---

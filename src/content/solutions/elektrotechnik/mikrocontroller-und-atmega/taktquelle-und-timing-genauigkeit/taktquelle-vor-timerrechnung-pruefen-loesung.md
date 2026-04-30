@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["mikrocontroller-und-atmega", "taktquelle-und-timing-genauigkeit", "taktquelle-vor-timerrechnung-pruefen"]
 taskId: "ET-V182-011"
-relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/taktquelle-und-timing-genauigkeit/taktquelle-vor-timerrechnung-pruefen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/taktquelle-und-timing-genauigkeit/taktquelle-vor-timerrechnung-pruefen"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

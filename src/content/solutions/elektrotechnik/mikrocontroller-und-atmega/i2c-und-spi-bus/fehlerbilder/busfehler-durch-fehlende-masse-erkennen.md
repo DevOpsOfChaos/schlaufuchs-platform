@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Kommunikation"
 topicPath: ["mikrocontroller-und-atmega", "i2c-und-spi-bus", "fehlerbilder", "busfehler-durch-fehlende-masse-erkennen"]
 taskId: "v107-elektrotechnik-busfehler-durch-fehlende-masse-erkennen"
-relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/i2c-und-spi-bus/fehlerbilder/busfehler-durch-fehlende-masse-erkennen"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/i2c-und-spi-bus/fehlerbilder/busfehler-durch-fehlende-masse-erkennen"
 tags: ["elektrotechnik", "Kommunikation", "loesung"]
 draft: false
 ---

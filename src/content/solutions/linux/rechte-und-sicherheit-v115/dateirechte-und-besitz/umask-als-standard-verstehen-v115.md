@@ -5,7 +5,7 @@ subject: "linux"
 section: "Feinstruktur Linux"
 topicPath: ["rechte-und-sicherheit-v115", "dateirechte-und-besitz", "umask-als-standard-verstehen-v115"]
 taskId: "linux-umask-als-standard-verstehen-v115"
-relatedExercise: "linux/rechte-und-sicherheit-v115/dateirechte-und-besitz/umask-als-standard-verstehen-v115"
+relatedExercise: "src/content/exercises/linux/rechte-und-sicherheit-v115/dateirechte-und-besitz/umask-als-standard-verstehen-v115"
 tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---

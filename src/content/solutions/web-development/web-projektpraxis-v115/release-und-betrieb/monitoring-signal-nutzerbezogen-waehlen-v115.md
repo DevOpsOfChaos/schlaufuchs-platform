@@ -5,7 +5,7 @@ subject: "web-development"
 section: "Feinstruktur Web Development"
 topicPath: ["web-projektpraxis-v115", "release-und-betrieb", "monitoring-signal-nutzerbezogen-waehlen-v115"]
 taskId: "web-development-monitoring-signal-nutzerbezogen-waehlen-v115"
-relatedExercise: "web-development/web-projektpraxis-v115/release-und-betrieb/monitoring-signal-nutzerbezogen-waehlen-v115"
+relatedExercise: "src/content/exercises/web-development/web-projektpraxis-v115/release-und-betrieb/monitoring-signal-nutzerbezogen-waehlen-v115"
 tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---

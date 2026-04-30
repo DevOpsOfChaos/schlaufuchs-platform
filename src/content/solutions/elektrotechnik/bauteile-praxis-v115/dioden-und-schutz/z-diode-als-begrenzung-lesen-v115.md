@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
 topicPath: ["bauteile-praxis-v115", "dioden-und-schutz", "z-diode-als-begrenzung-lesen-v115"]
 taskId: "elektrotechnik-z-diode-als-begrenzung-lesen-v115"
-relatedExercise: "elektrotechnik/bauteile-praxis-v115/dioden-und-schutz/z-diode-als-begrenzung-lesen-v115"
+relatedExercise: "src/content/exercises/elektrotechnik/bauteile-praxis-v115/dioden-und-schutz/z-diode-als-begrenzung-lesen-v115"
 tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---

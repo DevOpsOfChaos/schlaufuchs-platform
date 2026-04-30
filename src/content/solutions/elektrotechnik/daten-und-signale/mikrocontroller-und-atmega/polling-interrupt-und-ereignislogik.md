@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "polling-interrupt-und-ereignislogik"]
 taskId: "et-mc-v94-polling-interrupt"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/polling-interrupt-und-ereignislogik"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/polling-interrupt-und-ereignislogik"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

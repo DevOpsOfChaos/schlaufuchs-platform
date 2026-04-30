@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Datenstrukturen im Einsatz"
 topicPath: ["datenstrukturen-im-einsatz", "listen-und-indizes", "listen-und-indizes-anwenden-und-pruefen-v183"]
 taskId: "INF-V183-04-B"
-relatedExercise: "src/content/exercises/informatik/datenstrukturen-im-einsatz/listen-und-indizes/listen-und-indizes-anwenden-und-pruefen-v183.md"
+relatedExercise: "src/content/exercises/informatik/datenstrukturen-im-einsatz/listen-und-indizes/listen-und-indizes-anwenden-und-pruefen-v183"
 tags: ["informatik", "Datenstrukturen im Einsatz", "loesung"]
 draft: false
 ---

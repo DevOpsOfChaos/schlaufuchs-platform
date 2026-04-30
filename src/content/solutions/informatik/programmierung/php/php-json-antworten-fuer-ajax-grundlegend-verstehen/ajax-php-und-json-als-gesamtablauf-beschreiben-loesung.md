@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "php-json-antworten-fuer-ajax-grundlegend-verstehen", "ajax-php-und-json-als-gesamtablauf-beschreiben"]
 taskId: "INF-PHP-JSON-001"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/php-json-antworten-fuer-ajax-grundlegend-verstehen/ajax-php-und-json-als-gesamtablauf-beschreiben.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/php-json-antworten-fuer-ajax-grundlegend-verstehen/ajax-php-und-json-als-gesamtablauf-beschreiben"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

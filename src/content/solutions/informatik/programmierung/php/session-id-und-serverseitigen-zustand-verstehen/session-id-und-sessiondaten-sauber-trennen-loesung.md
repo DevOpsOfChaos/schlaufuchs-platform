@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "session-id-und-serverseitigen-zustand-verstehen", "session-id-und-sessiondaten-sauber-trennen"]
 taskId: "INF-PHP-SESSION-003"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/session-id-und-serverseitigen-zustand-verstehen/session-id-und-sessiondaten-sauber-trennen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/session-id-und-serverseitigen-zustand-verstehen/session-id-und-sessiondaten-sauber-trennen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

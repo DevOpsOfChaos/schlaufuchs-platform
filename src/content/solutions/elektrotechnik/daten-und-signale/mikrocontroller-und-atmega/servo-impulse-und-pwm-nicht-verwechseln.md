@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "servo-impulse-und-pwm-nicht-verwechseln"]
 taskId: "et-mc-v93-servo-pwm"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/servo-impulse-und-pwm-nicht-verwechseln"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/servo-impulse-und-pwm-nicht-verwechseln"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

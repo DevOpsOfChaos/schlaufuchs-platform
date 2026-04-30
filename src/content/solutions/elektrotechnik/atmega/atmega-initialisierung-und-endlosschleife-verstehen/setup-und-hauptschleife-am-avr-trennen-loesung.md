@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "mikrocontroller-und-atmega"
 topicPath: ["atmega", "atmega-initialisierung-und-endlosschleife-verstehen", "setup-und-hauptschleife-am-avr-trennen"]
 taskId: "ET-ATMEGA-CORE-301"
-relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-initialisierung-und-endlosschleife-verstehen/setup-und-hauptschleife-am-avr-trennen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-initialisierung-und-endlosschleife-verstehen/setup-und-hauptschleife-am-avr-trennen"
 tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---

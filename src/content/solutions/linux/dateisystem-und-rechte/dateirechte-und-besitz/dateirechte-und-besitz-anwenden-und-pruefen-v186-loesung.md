@@ -5,7 +5,7 @@ subject: "linux"
 section: "dateisystem-und-rechte"
 topicPath: ["dateisystem-und-rechte", "dateirechte-und-besitz", "dateirechte-und-besitz-anwenden-und-pruefen-v186"]
 taskId: "LINUX-DATEIRECHTE-UND-BESITZ-V186-2"
-relatedExercise: "src/content/exercises/linux/dateisystem-und-rechte/dateirechte-und-besitz/dateirechte-und-besitz-anwenden-und-pruefen-v186.md"
+relatedExercise: "src/content/exercises/linux/dateisystem-und-rechte/dateirechte-und-besitz/dateirechte-und-besitz-anwenden-und-pruefen-v186"
 tags: ["linux", "dateisystem-und-rechte", "loesung"]
 draft: false
 ---

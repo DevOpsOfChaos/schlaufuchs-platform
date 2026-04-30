@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "linktexte-und-links", "linktexte-beurteilen-und-verbessern"]
 taskId: "WEB-HTML-A11Y-301"
-relatedExercise: "web-development/html/linktexte-und-links/linktexte-beurteilen-und-verbessern"
+relatedExercise: "src/content/exercises/web-development/html/linktexte-und-links/linktexte-beurteilen-und-verbessern"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

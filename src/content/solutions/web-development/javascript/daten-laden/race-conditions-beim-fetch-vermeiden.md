@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "daten-laden", "race-conditions-beim-fetch-vermeiden"]
 taskId: "web-v104-race-conditions-beim-fetch-vermeiden"
-relatedExercise: "web-development/javascript/daten-laden/race-conditions-beim-fetch-vermeiden"
+relatedExercise: "src/content/exercises/web-development/javascript/daten-laden/race-conditions-beim-fetch-vermeiden"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

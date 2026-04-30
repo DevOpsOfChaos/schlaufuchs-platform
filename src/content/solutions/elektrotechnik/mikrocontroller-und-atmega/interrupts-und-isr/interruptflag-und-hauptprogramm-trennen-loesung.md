@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["mikrocontroller-und-atmega", "interrupts-und-isr", "interruptflag-und-hauptprogramm-trennen"]
 taskId: "ET-V181-018"
-relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/interrupts-und-isr/interruptflag-und-hauptprogramm-trennen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/interrupts-und-isr/interruptflag-und-hauptprogramm-trennen"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

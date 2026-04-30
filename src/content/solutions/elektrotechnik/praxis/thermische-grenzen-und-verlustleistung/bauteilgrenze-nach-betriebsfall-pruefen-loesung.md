@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Praxis"
 topicPath: ["praxis", "thermische-grenzen-und-verlustleistung", "bauteilgrenze-nach-betriebsfall-pruefen"]
 taskId: "ET-V181-022"
-relatedExercise: "src/content/exercises/elektrotechnik/praxis/thermische-grenzen-und-verlustleistung/bauteilgrenze-nach-betriebsfall-pruefen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/praxis/thermische-grenzen-und-verlustleistung/bauteilgrenze-nach-betriebsfall-pruefen"
 tags: ["elektrotechnik", "Praxis", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "include-require-und-once-varianten-unterscheiden", "include-require-und-once-passend-auswaehlen"]
 taskId: "INF-PHP-MODULAR-001"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/include-require-und-once-varianten-unterscheiden/include-require-und-once-passend-auswaehlen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/include-require-und-once-varianten-unterscheiden/include-require-und-once-passend-auswaehlen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

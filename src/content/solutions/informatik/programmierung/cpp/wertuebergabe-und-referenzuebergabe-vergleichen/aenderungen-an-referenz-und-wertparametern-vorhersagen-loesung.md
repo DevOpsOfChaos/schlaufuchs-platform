@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "cpp", "wertuebergabe-und-referenzuebergabe-vergleichen", "aenderungen-an-referenz-und-wertparametern-vorhersagen"]
 taskId: "INF-PROG-CPP-FUNC-008"
-relatedExercise: "src/content/exercises/informatik/programmierung/cpp/wertuebergabe-und-referenzuebergabe-vergleichen/aenderungen-an-referenz-und-wertparametern-vorhersagen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/wertuebergabe-und-referenzuebergabe-vergleichen/aenderungen-an-referenz-und-wertparametern-vorhersagen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

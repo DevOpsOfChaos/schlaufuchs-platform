@@ -4,8 +4,8 @@ description: "Lösung zu grundlegender Netzwerkanalyse mit Knoten, Zweigen und M
 subject: "elektrotechnik"
 section: "Grundlagen Elektrotechnik"
 topicPath: ["netzwerkanalyse-grundaufgaben"]
-taskId: "ET-GR-NETZ-001"
-relatedExercise: "src/content/exercises/elektrotechnik/netzwerkanalyse-grundaufgaben.md"
+taskId: "AUTO-NETZWERKANALYSE-GRUNDAUFGABEN"
+relatedExercise: "src/content/exercises/elektrotechnik/netzwerkanalyse-grundaufgaben"
 tags: ["elektrotechnik", "Grundlagen Elektrotechnik", "loesung"]
 draft: false
 ---

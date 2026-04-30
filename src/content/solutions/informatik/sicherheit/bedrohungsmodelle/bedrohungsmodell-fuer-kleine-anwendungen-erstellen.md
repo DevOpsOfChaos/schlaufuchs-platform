@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Sicherheit"
 topicPath: ["sicherheit", "bedrohungsmodelle", "bedrohungsmodell-fuer-kleine-anwendungen-erstellen"]
 taskId: "v106-informatik-bedrohungsmodell-fuer-kleine-anwendungen-erstellen"
-relatedExercise: "informatik/sicherheit/bedrohungsmodelle/bedrohungsmodell-fuer-kleine-anwendungen-erstellen"
+relatedExercise: "src/content/exercises/informatik/sicherheit/bedrohungsmodelle/bedrohungsmodell-fuer-kleine-anwendungen-erstellen"
 tags: ["informatik", "Sicherheit", "loesung"]
 draft: false
 ---

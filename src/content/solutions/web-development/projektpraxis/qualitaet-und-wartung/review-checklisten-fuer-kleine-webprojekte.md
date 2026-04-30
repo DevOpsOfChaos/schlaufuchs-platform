@@ -5,7 +5,7 @@ subject: "web-development"
 section: "Projektpraxis"
 topicPath: ["projektpraxis", "qualitaet-und-wartung", "review-checklisten-fuer-kleine-webprojekte"]
 taskId: "web-v104-review-checklisten-fuer-kleine-webprojekte"
-relatedExercise: "web-development/projektpraxis/qualitaet-und-wartung/review-checklisten-fuer-kleine-webprojekte"
+relatedExercise: "src/content/exercises/web-development/projektpraxis/qualitaet-und-wartung/review-checklisten-fuer-kleine-webprojekte"
 tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---

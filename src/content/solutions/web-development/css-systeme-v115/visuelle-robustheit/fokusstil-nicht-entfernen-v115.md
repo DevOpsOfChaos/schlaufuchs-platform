@@ -5,7 +5,7 @@ subject: "web-development"
 section: "Feinstruktur Web Development"
 topicPath: ["css-systeme-v115", "visuelle-robustheit", "fokusstil-nicht-entfernen-v115"]
 taskId: "web-development-fokusstil-nicht-entfernen-v115"
-relatedExercise: "web-development/css-systeme-v115/visuelle-robustheit/fokusstil-nicht-entfernen-v115"
+relatedExercise: "src/content/exercises/web-development/css-systeme-v115/visuelle-robustheit/fokusstil-nicht-entfernen-v115"
 tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Algebra"
 topicPath: ["algebra", "gleichungen-strategisch-loesen", "parameterfaelle", "parameter-in-linearen-gleichungen-pruefen"]
 taskId: "v108-mathematik-parameter-in-linearen-gleichungen-pruefen"
-relatedExercise: "mathematik/algebra/gleichungen-strategisch-loesen/parameterfaelle/parameter-in-linearen-gleichungen-pruefen"
+relatedExercise: "src/content/exercises/mathematik/algebra/gleichungen-strategisch-loesen/parameterfaelle/parameter-in-linearen-gleichungen-pruefen"
 tags: ["mathematik", "Algebra", "loesung"]
 draft: false
 ---

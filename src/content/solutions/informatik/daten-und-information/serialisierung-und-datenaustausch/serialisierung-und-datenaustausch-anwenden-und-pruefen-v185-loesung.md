@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Daten und Information"
 topicPath: ["daten-und-information", "serialisierung-und-datenaustausch", "serialisierung-und-datenaustausch-anwenden-und-pruefen-v185"]
 taskId: "INF-V185-011-2"
-relatedExercise: "src/content/exercises/informatik/daten-und-information/serialisierung-und-datenaustausch/serialisierung-und-datenaustausch-anwenden-und-pruefen-v185.md"
+relatedExercise: "src/content/exercises/informatik/daten-und-information/serialisierung-und-datenaustausch/serialisierung-und-datenaustausch-anwenden-und-pruefen-v185"
 tags: ["informatik", "Daten und Information", "loesung"]
 draft: false
 ---

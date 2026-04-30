@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "formulare-und-eingaben", "formular-fehlermeldungen-zugaenglich-gestalten"]
 taskId: "wd-html-v95-formular-fehlermeldungen"
-relatedExercise: "web-development/html/formulare-und-eingaben/formular-fehlermeldungen-zugaenglich-gestalten"
+relatedExercise: "src/content/exercises/web-development/html/formulare-und-eingaben/formular-fehlermeldungen-zugaenglich-gestalten"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

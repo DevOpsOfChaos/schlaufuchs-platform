@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["mikrocontroller-und-atmega", "taktquelle-und-timing-genauigkeit", "baudrate-und-taktfehler-zusammen-denken"]
 taskId: "ET-V182-012"
-relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/taktquelle-und-timing-genauigkeit/baudrate-und-taktfehler-zusammen-denken.md"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/taktquelle-und-timing-genauigkeit/baudrate-und-taktfehler-zusammen-denken"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

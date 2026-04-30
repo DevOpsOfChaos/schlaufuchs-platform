@@ -5,7 +5,7 @@ subject: "web-development"
 section: "Projektpraxis"
 topicPath: ["projektpraxis", "betrieb-und-release", "content-security-policy-als-denkrichtung-verstehen"]
 taskId: "web-v105-content-security-policy-als-denkrichtung-verstehen"
-relatedExercise: "web-development/projektpraxis/betrieb-und-release/content-security-policy-als-denkrichtung-verstehen"
+relatedExercise: "src/content/exercises/web-development/projektpraxis/betrieb-und-release/content-security-policy-als-denkrichtung-verstehen"
 tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---

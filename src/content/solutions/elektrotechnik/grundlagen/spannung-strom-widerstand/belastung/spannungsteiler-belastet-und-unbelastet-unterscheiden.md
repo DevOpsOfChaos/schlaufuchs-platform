@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Grundlagen"
 topicPath: ["grundlagen", "spannung-strom-widerstand", "belastung", "spannungsteiler-belastet-und-unbelastet-unterscheiden"]
 taskId: "v108-elektrotechnik-spannungsteiler-belastet-und-unbelastet-unterscheiden"
-relatedExercise: "elektrotechnik/grundlagen/spannung-strom-widerstand/belastung/spannungsteiler-belastet-und-unbelastet-unterscheiden"
+relatedExercise: "src/content/exercises/elektrotechnik/grundlagen/spannung-strom-widerstand/belastung/spannungsteiler-belastet-und-unbelastet-unterscheiden"
 tags: ["elektrotechnik", "Grundlagen", "loesung"]
 draft: false
 ---

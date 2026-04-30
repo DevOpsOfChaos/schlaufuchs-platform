@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "mikrocontroller"
 topicPath: ["mikrocontroller", "strombudget-von-mikrocontroller-schaltungen-grob-abschaetzen", "stromaufnahme-und-versorgungsreserve-grob-abschaetzen"]
 taskId: "ELE-MCU-GEN-110"
-relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller/strombudget-von-mikrocontroller-schaltungen-grob-abschaetzen/stromaufnahme-und-versorgungsreserve-grob-abschaetzen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller/strombudget-von-mikrocontroller-schaltungen-grob-abschaetzen/stromaufnahme-und-versorgungsreserve-grob-abschaetzen"
 tags: ["elektrotechnik", "mikrocontroller", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "textformatierung-und-strukturierung-in-html-verstehen", "text-tags-und-struktur-tags-passend-waehlen"]
 taskId: "WEB-HTML-CORE-103"
-relatedExercise: "src/content/exercises/web-development/html/textformatierung-und-strukturierung-in-html-verstehen/text-tags-und-struktur-tags-passend-waehlen.md"
+relatedExercise: "src/content/exercises/web-development/html/textformatierung-und-strukturierung-in-html-verstehen/text-tags-und-struktur-tags-passend-waehlen"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

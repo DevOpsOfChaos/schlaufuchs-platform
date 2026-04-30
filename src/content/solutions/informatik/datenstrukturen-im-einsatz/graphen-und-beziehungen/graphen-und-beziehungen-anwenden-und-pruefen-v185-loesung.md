@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Datenstrukturen im Einsatz"
 topicPath: ["datenstrukturen-im-einsatz", "graphen-und-beziehungen", "graphen-und-beziehungen-anwenden-und-pruefen-v185"]
 taskId: "INF-V185-014-2"
-relatedExercise: "src/content/exercises/informatik/datenstrukturen-im-einsatz/graphen-und-beziehungen/graphen-und-beziehungen-anwenden-und-pruefen-v185.md"
+relatedExercise: "src/content/exercises/informatik/datenstrukturen-im-einsatz/graphen-und-beziehungen/graphen-und-beziehungen-anwenden-und-pruefen-v185"
 tags: ["informatik", "Datenstrukturen im Einsatz", "loesung"]
 draft: false
 ---

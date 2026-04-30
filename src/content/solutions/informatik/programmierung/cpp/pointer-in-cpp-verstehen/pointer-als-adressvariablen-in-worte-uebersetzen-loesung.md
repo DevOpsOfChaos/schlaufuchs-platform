@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "cpp", "pointer-in-cpp-verstehen", "pointer-als-adressvariablen-in-worte-uebersetzen"]
 taskId: "INF-PROG-CPP-PTR-001"
-relatedExercise: "src/content/exercises/informatik/programmierung/cpp/pointer-in-cpp-verstehen/pointer-als-adressvariablen-in-worte-uebersetzen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/pointer-in-cpp-verstehen/pointer-als-adressvariablen-in-worte-uebersetzen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

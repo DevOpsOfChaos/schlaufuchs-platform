@@ -5,7 +5,7 @@ subject: "linux"
 section: "Praxis"
 topicPath: ["praxis", "backup-und-wiederherstellung", "restore-test", "restore-test-als-teil-des-backups-planen"]
 taskId: "v107-linux-restore-test-als-teil-des-backups-planen"
-relatedExercise: "linux/praxis/backup-und-wiederherstellung/restore-test/restore-test-als-teil-des-backups-planen"
+relatedExercise: "src/content/exercises/linux/praxis/backup-und-wiederherstellung/restore-test/restore-test-als-teil-des-backups-planen"
 tags: ["linux", "Praxis", "loesung"]
 draft: false
 ---

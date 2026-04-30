@@ -4,8 +4,8 @@ description: "Lösung zur Grundaufgabe über Richtung, Einbau und Grundfunktion 
 subject: "elektrotechnik"
 section: "Grundlagen Elektrotechnik"
 topicPath: ["dioden-grundaufgaben"]
-taskId: "ET-GR-DIODE-001"
-relatedExercise: "src/content/exercises/elektrotechnik/dioden-grundaufgaben.md"
+taskId: "AUTO-DIODEN-GRUNDAUFGABEN"
+relatedExercise: "src/content/exercises/elektrotechnik/dioden-grundaufgaben"
 tags: ["elektrotechnik", "Grundlagen Elektrotechnik", "loesung"]
 draft: false
 ---

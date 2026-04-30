@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "dom-und-events", "event-delegation-fuer-listen-und-karten"]
 taskId: "web-v101-event-delegation-fuer-listen-und-karten"
-relatedExercise: "web-development/javascript/dom-und-events/event-delegation-fuer-listen-und-karten"
+relatedExercise: "src/content/exercises/web-development/javascript/dom-und-events/event-delegation-fuer-listen-und-karten"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

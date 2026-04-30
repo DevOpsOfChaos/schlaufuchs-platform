@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Daten und Signale"
 topicPath: ["daten-und-signale", "hysterese-und-schaltpunkte", "flattern-am-schwellwert-erkennen"]
 taskId: "ET-V182-021"
-relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/hysterese-und-schaltpunkte/flattern-am-schwellwert-erkennen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/hysterese-und-schaltpunkte/flattern-am-schwellwert-erkennen"
 tags: ["elektrotechnik", "Daten und Signale", "loesung"]
 draft: false
 ---

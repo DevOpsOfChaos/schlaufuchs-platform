@@ -5,7 +5,7 @@ subject: "linux"
 section: "Feinstruktur Linux"
 topicPath: ["shell-praxis-v115", "pipes-und-textfilter", "pipeline-in-einzelschritte-zerlegen-v115"]
 taskId: "linux-pipeline-in-einzelschritte-zerlegen-v115"
-relatedExercise: "linux/shell-praxis-v115/pipes-und-textfilter/pipeline-in-einzelschritte-zerlegen-v115"
+relatedExercise: "src/content/exercises/linux/shell-praxis-v115/pipes-und-textfilter/pipeline-in-einzelschritte-zerlegen-v115"
 tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---

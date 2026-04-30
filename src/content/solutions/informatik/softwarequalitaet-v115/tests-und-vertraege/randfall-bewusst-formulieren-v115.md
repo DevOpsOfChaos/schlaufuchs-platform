@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Feinstruktur Informatik"
 topicPath: ["softwarequalitaet-v115", "tests-und-vertraege", "randfall-bewusst-formulieren-v115"]
 taskId: "informatik-randfall-bewusst-formulieren-v115"
-relatedExercise: "informatik/softwarequalitaet-v115/tests-und-vertraege/randfall-bewusst-formulieren-v115"
+relatedExercise: "src/content/exercises/informatik/softwarequalitaet-v115/tests-und-vertraege/randfall-bewusst-formulieren-v115"
 tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---

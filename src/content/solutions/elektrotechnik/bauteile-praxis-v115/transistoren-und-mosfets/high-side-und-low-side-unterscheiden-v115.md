@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
 topicPath: ["bauteile-praxis-v115", "transistoren-und-mosfets", "high-side-und-low-side-unterscheiden-v115"]
 taskId: "elektrotechnik-high-side-und-low-side-unterscheiden-v115"
-relatedExercise: "elektrotechnik/bauteile-praxis-v115/transistoren-und-mosfets/high-side-und-low-side-unterscheiden-v115"
+relatedExercise: "src/content/exercises/elektrotechnik/bauteile-praxis-v115/transistoren-und-mosfets/high-side-und-low-side-unterscheiden-v115"
 tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---

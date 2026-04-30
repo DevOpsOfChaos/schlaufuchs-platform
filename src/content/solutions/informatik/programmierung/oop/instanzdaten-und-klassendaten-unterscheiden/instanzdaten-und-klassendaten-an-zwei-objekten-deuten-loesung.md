@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "oop", "instanzdaten-und-klassendaten-unterscheiden", "instanzdaten-und-klassendaten-an-zwei-objekten-deuten"]
 taskId: "INF-PROG-OOP-013"
-relatedExercise: "src/content/exercises/informatik/programmierung/oop/instanzdaten-und-klassendaten-unterscheiden/instanzdaten-und-klassendaten-an-zwei-objekten-deuten.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/oop/instanzdaten-und-klassendaten-unterscheiden/instanzdaten-und-klassendaten-an-zwei-objekten-deuten"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

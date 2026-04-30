@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierpraxis und Tests"
 topicPath: ["programmierpraxis-und-tests", "testfaelle-und-randfaelle", "testfaelle-und-randfaelle-anwenden-und-pruefen-v183"]
 taskId: "INF-V183-14-B"
-relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/testfaelle-und-randfaelle/testfaelle-und-randfaelle-anwenden-und-pruefen-v183.md"
+relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/testfaelle-und-randfaelle/testfaelle-und-randfaelle-anwenden-und-pruefen-v183"
 tags: ["informatik", "Programmierpraxis und Tests", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "linux"
 section: "Feinstruktur Linux"
 topicPath: ["rechte-und-sicherheit-v115", "ssh-und-schluessel", "public-und-private-key-trennen-v115"]
 taskId: "linux-public-und-private-key-trennen-v115"
-relatedExercise: "linux/rechte-und-sicherheit-v115/ssh-und-schluessel/public-und-private-key-trennen-v115"
+relatedExercise: "src/content/exercises/linux/rechte-und-sicherheit-v115/ssh-und-schluessel/public-und-private-key-trennen-v115"
 tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---

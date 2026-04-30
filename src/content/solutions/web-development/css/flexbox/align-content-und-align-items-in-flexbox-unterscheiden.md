@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "flexbox", "align-content-und-align-items-in-flexbox-unterscheiden"]
 taskId: "align-content-und-align-items-in-flexbox-unterscheiden"
-relatedExercise: "web-development/css/flexbox/align-content-und-align-items-in-flexbox-unterscheiden"
+relatedExercise: "src/content/exercises/web-development/css/flexbox/align-content-und-align-items-in-flexbox-unterscheiden"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

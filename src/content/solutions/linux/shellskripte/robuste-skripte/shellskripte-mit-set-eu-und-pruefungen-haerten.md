@@ -5,7 +5,7 @@ subject: "linux"
 section: "Shellskripte"
 topicPath: ["shellskripte", "robuste-skripte", "shellskripte-mit-set-eu-und-pruefungen-haerten"]
 taskId: "v106-linux-shellskripte-mit-set-eu-und-pruefungen-haerten"
-relatedExercise: "linux/shellskripte/robuste-skripte/shellskripte-mit-set-eu-und-pruefungen-haerten"
+relatedExercise: "src/content/exercises/linux/shellskripte/robuste-skripte/shellskripte-mit-set-eu-und-pruefungen-haerten"
 tags: ["linux", "Shellskripte", "loesung"]
 draft: false
 ---

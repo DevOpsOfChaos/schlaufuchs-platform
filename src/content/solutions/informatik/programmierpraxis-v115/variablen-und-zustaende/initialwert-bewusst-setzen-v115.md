@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Feinstruktur Informatik"
 topicPath: ["programmierpraxis-v115", "variablen-und-zustaende", "initialwert-bewusst-setzen-v115"]
 taskId: "informatik-initialwert-bewusst-setzen-v115"
-relatedExercise: "informatik/programmierpraxis-v115/variablen-und-zustaende/initialwert-bewusst-setzen-v115"
+relatedExercise: "src/content/exercises/informatik/programmierpraxis-v115/variablen-und-zustaende/initialwert-bewusst-setzen-v115"
 tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---

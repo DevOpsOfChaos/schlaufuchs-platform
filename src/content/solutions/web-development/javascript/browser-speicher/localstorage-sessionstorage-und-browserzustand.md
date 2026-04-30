@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "browser-speicher", "localstorage-sessionstorage-und-browserzustand"]
 taskId: "web-js-localstorage-sessionstorage-und-browserzustand"
-relatedExercise: "web-development/javascript/browser-speicher/localstorage-sessionstorage-und-browserzustand"
+relatedExercise: "src/content/exercises/web-development/javascript/browser-speicher/localstorage-sessionstorage-und-browserzustand"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

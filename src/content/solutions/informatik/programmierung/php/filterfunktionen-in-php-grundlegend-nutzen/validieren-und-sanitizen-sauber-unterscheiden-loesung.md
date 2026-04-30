@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "filterfunktionen-in-php-grundlegend-nutzen", "validieren-und-sanitizen-sauber-unterscheiden"]
 taskId: "INF-PHP-FILTER-001"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/filterfunktionen-in-php-grundlegend-nutzen/validieren-und-sanitizen-sauber-unterscheiden.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/filterfunktionen-in-php-grundlegend-nutzen/validieren-und-sanitizen-sauber-unterscheiden"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

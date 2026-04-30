@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Funktionen"
 topicPath: ["funktionen", "lineare-funktion-aus-zwei-punkten-bestimmen", "funktionsgleichung-aus-zwei-punkten-sauber-aufbauen"]
 taskId: "MATH-FUNKTIONEN-ZWEIPUNKTE-001"
-relatedExercise: "src/content/exercises/mathematik/funktionen/lineare-funktion-aus-zwei-punkten-bestimmen/funktionsgleichung-aus-zwei-punkten-sauber-aufbauen.md"
+relatedExercise: "src/content/exercises/mathematik/funktionen/lineare-funktion-aus-zwei-punkten-bestimmen/funktionsgleichung-aus-zwei-punkten-sauber-aufbauen"
 tags: ["mathematik", "Funktionen", "loesung"]
 draft: false
 ---

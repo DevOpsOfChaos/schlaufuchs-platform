@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "sessions-sauber-beenden-und-aufraeumen", "session-ende-als-sauberen-aufraeumablauf-beschreiben"]
 taskId: "INF-PHP-STATE-010"
-relatedExercise: "informatik/programmierung/php/sessions-sauber-beenden-und-aufraeumen/session-ende-als-sauberen-aufraeumablauf-beschreiben"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/sessions-sauber-beenden-und-aufraeumen/session-ende-als-sauberen-aufraeumablauf-beschreiben"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

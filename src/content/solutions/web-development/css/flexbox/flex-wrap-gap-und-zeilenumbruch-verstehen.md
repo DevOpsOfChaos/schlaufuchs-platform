@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "flexbox", "flex-wrap-gap-und-zeilenumbruch-verstehen"]
 taskId: "wd-css-v95-flex-wrap-gap"
-relatedExercise: "web-development/css/flexbox/flex-wrap-gap-und-zeilenumbruch-verstehen"
+relatedExercise: "src/content/exercises/web-development/css/flexbox/flex-wrap-gap-und-zeilenumbruch-verstehen"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

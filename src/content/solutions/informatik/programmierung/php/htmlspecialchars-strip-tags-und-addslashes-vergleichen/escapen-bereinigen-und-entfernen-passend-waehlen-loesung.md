@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "htmlspecialchars-strip-tags-und-addslashes-vergleichen", "escapen-bereinigen-und-entfernen-passend-waehlen"]
 taskId: "INF-PHP-SECURITY-003"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/htmlspecialchars-strip-tags-und-addslashes-vergleichen/escapen-bereinigen-und-entfernen-passend-waehlen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/htmlspecialchars-strip-tags-und-addslashes-vergleichen/escapen-bereinigen-und-entfernen-passend-waehlen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

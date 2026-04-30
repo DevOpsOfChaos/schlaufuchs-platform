@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
 topicPath: ["bauteile-praxis-v115", "transistoren-und-mosfets", "transistor-als-schalter-nutzen-v115"]
 taskId: "elektrotechnik-transistor-als-schalter-nutzen-v115"
-relatedExercise: "elektrotechnik/bauteile-praxis-v115/transistoren-und-mosfets/transistor-als-schalter-nutzen-v115"
+relatedExercise: "src/content/exercises/elektrotechnik/bauteile-praxis-v115/transistoren-und-mosfets/transistor-als-schalter-nutzen-v115"
 tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---

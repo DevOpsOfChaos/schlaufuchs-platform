@@ -5,7 +5,7 @@ subject: "web-development"
 section: "Projektpraxis"
 topicPath: ["projektpraxis", "formulare-und-validierung", "client-server", "client-und-server-validierung-zusammen-denken"]
 taskId: "v108-web-development-client-und-server-validierung-zusammen-denken"
-relatedExercise: "web-development/projektpraxis/formulare-und-validierung/client-server/client-und-server-validierung-zusammen-denken"
+relatedExercise: "src/content/exercises/web-development/projektpraxis/formulare-und-validierung/client-server/client-und-server-validierung-zusammen-denken"
 tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---

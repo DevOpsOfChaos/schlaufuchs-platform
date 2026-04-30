@@ -5,7 +5,7 @@ subject: "linux"
 section: "Feinstruktur Linux"
 topicPath: ["shell-praxis-v115", "pipes-und-textfilter", "sort-vor-uniq-beachten-v115"]
 taskId: "linux-sort-vor-uniq-beachten-v115"
-relatedExercise: "linux/shell-praxis-v115/pipes-und-textfilter/sort-vor-uniq-beachten-v115"
+relatedExercise: "src/content/exercises/linux/shell-praxis-v115/pipes-und-textfilter/sort-vor-uniq-beachten-v115"
 tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---

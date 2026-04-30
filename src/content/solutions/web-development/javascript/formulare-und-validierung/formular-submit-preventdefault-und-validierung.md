@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "formulare-und-validierung", "formular-submit-preventdefault-und-validierung"]
 taskId: "web-js-formular-submit-preventdefault-und-validierung"
-relatedExercise: "web-development/javascript/formulare-und-validierung/formular-submit-preventdefault-und-validierung"
+relatedExercise: "src/content/exercises/web-development/javascript/formulare-und-validierung/formular-submit-preventdefault-und-validierung"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

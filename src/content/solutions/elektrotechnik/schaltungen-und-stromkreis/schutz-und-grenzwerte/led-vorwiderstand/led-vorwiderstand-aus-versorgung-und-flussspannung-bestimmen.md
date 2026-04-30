@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Schaltungen"
 topicPath: ["schaltungen-und-stromkreis", "schutz-und-grenzwerte", "led-vorwiderstand", "led-vorwiderstand-aus-versorgung-und-flussspannung-bestimmen"]
 taskId: "v108-elektrotechnik-led-vorwiderstand-aus-versorgung-und-flussspannung-bestimmen"
-relatedExercise: "elektrotechnik/schaltungen-und-stromkreis/schutz-und-grenzwerte/led-vorwiderstand/led-vorwiderstand-aus-versorgung-und-flussspannung-bestimmen"
+relatedExercise: "src/content/exercises/elektrotechnik/schaltungen-und-stromkreis/schutz-und-grenzwerte/led-vorwiderstand/led-vorwiderstand-aus-versorgung-und-flussspannung-bestimmen"
 tags: ["elektrotechnik", "Schaltungen", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "web-development"
 section: "Projektpraxis"
 topicPath: ["projektpraxis", "betrieb-und-release", "regressionen-nach-ui-aenderungen-pruefen"]
 taskId: "web-v105-regressionen-nach-ui-aenderungen-pruefen"
-relatedExercise: "web-development/projektpraxis/betrieb-und-release/regressionen-nach-ui-aenderungen-pruefen"
+relatedExercise: "src/content/exercises/web-development/projektpraxis/betrieb-und-release/regressionen-nach-ui-aenderungen-pruefen"
 tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---

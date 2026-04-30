@@ -5,7 +5,7 @@ subject: "linux"
 section: "shell-und-terminal"
 topicPath: ["shell-und-terminal", "shell-und-terminal", "shell-und-terminal-anwenden-und-pruefen-v186"]
 taskId: "LINUX-SHELL-UND-TERMINAL-V186-2"
-relatedExercise: "src/content/exercises/linux/shell-und-terminal/shell-und-terminal/shell-und-terminal-anwenden-und-pruefen-v186.md"
+relatedExercise: "src/content/exercises/linux/shell-und-terminal/shell-und-terminal/shell-und-terminal-anwenden-und-pruefen-v186"
 tags: ["linux", "shell-und-terminal", "loesung"]
 draft: false
 ---

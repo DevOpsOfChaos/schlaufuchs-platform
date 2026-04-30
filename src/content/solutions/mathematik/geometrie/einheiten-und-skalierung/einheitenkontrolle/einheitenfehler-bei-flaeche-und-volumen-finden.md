@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Geometrie"
 topicPath: ["geometrie", "einheiten-und-skalierung", "einheitenkontrolle", "einheitenfehler-bei-flaeche-und-volumen-finden"]
 taskId: "v107-mathematik-einheitenfehler-bei-flaeche-und-volumen-finden"
-relatedExercise: "mathematik/geometrie/einheiten-und-skalierung/einheitenkontrolle/einheitenfehler-bei-flaeche-und-volumen-finden"
+relatedExercise: "src/content/exercises/mathematik/geometrie/einheiten-und-skalierung/einheitenkontrolle/einheitenfehler-bei-flaeche-und-volumen-finden"
 tags: ["mathematik", "Geometrie", "loesung"]
 draft: false
 ---

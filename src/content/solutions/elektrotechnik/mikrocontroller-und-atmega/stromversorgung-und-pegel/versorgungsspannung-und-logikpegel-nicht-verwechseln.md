@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller"
 topicPath: ["mikrocontroller-und-atmega", "stromversorgung-und-pegel", "versorgungsspannung-und-logikpegel-nicht-verwechseln"]
 taskId: "v106-elektrotechnik-versorgungsspannung-und-logikpegel-nicht-verwechseln"
-relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/stromversorgung-und-pegel/versorgungsspannung-und-logikpegel-nicht-verwechseln"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/stromversorgung-und-pegel/versorgungsspannung-und-logikpegel-nicht-verwechseln"
 tags: ["elektrotechnik", "Mikrocontroller", "loesung"]
 draft: false
 ---

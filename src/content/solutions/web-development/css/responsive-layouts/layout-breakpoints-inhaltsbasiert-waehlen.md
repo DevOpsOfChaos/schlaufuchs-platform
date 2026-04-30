@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "responsive-layouts", "layout-breakpoints-inhaltsbasiert-waehlen"]
 taskId: "web-v104-layout-breakpoints-inhaltsbasiert-waehlen"
-relatedExercise: "web-development/css/responsive-layouts/layout-breakpoints-inhaltsbasiert-waehlen"
+relatedExercise: "src/content/exercises/web-development/css/responsive-layouts/layout-breakpoints-inhaltsbasiert-waehlen"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

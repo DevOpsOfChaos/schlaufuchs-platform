@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "oop", "copy-konstruktor-verstehen", "kopierstart-und-zuweisung-sauber-unterscheiden"]
 taskId: "INF-PROG-OOP-016"
-relatedExercise: "src/content/exercises/informatik/programmierung/oop/copy-konstruktor-verstehen/kopierstart-und-zuweisung-sauber-unterscheiden.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/oop/copy-konstruktor-verstehen/kopierstart-und-zuweisung-sauber-unterscheiden"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "web-development"
 section: "Feinstruktur Web Development"
 topicPath: ["frontend-semantik-v115", "html-struktur-klein", "button-und-link-unterscheiden-v115"]
 taskId: "web-development-button-und-link-unterscheiden-v115"
-relatedExercise: "web-development/frontend-semantik-v115/html-struktur-klein/button-und-link-unterscheiden-v115"
+relatedExercise: "src/content/exercises/web-development/frontend-semantik-v115/html-struktur-klein/button-und-link-unterscheiden-v115"
 tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---

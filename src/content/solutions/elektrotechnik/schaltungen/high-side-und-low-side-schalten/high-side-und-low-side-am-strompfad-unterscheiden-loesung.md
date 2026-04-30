@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Schaltungen"
 topicPath: ["schaltungen", "high-side-und-low-side-schalten", "high-side-und-low-side-am-strompfad-unterscheiden"]
 taskId: "ET-V182-009"
-relatedExercise: "src/content/exercises/elektrotechnik/schaltungen/high-side-und-low-side-schalten/high-side-und-low-side-am-strompfad-unterscheiden.md"
+relatedExercise: "src/content/exercises/elektrotechnik/schaltungen/high-side-und-low-side-schalten/high-side-und-low-side-am-strompfad-unterscheiden"
 tags: ["elektrotechnik", "Schaltungen", "loesung"]
 draft: false
 ---

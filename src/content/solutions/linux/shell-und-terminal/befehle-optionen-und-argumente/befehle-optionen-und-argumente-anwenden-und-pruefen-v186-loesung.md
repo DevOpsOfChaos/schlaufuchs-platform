@@ -5,7 +5,7 @@ subject: "linux"
 section: "shell-und-terminal"
 topicPath: ["shell-und-terminal", "befehle-optionen-und-argumente", "befehle-optionen-und-argumente-anwenden-und-pruefen-v186"]
 taskId: "LINUX-BEFEHLE-OPTIONEN-UND-ARGUMENTE-V186-2"
-relatedExercise: "src/content/exercises/linux/shell-und-terminal/befehle-optionen-und-argumente/befehle-optionen-und-argumente-anwenden-und-pruefen-v186.md"
+relatedExercise: "src/content/exercises/linux/shell-und-terminal/befehle-optionen-und-argumente/befehle-optionen-und-argumente-anwenden-und-pruefen-v186"
 tags: ["linux", "shell-und-terminal", "loesung"]
 draft: false
 ---

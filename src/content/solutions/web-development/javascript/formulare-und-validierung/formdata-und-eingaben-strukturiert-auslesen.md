@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "formulare-und-validierung", "formdata-und-eingaben-strukturiert-auslesen"]
 taskId: "web-js-formdata-und-eingaben-strukturiert-auslesen"
-relatedExercise: "web-development/javascript/formulare-und-validierung/formdata-und-eingaben-strukturiert-auslesen"
+relatedExercise: "src/content/exercises/web-development/javascript/formulare-und-validierung/formdata-und-eingaben-strukturiert-auslesen"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

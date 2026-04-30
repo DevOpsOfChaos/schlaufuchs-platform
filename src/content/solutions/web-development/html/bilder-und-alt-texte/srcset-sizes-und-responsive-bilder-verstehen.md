@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "bilder-und-alt-texte", "srcset-sizes-und-responsive-bilder-verstehen"]
 taskId: "srcset-sizes-und-responsive-bilder-verstehen"
-relatedExercise: "web-development/html/bilder-und-alt-texte/srcset-sizes-und-responsive-bilder-verstehen"
+relatedExercise: "src/content/exercises/web-development/html/bilder-und-alt-texte/srcset-sizes-und-responsive-bilder-verstehen"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

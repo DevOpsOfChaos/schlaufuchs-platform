@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "tabellen-barrierearm", "responsive-tabellen-ohne-bedeutungsverlust"]
 taskId: "web-v102-responsive-tabellen-ohne-bedeutungsverlust"
-relatedExercise: "web-development/html/tabellen-barrierearm/responsive-tabellen-ohne-bedeutungsverlust"
+relatedExercise: "src/content/exercises/web-development/html/tabellen-barrierearm/responsive-tabellen-ohne-bedeutungsverlust"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

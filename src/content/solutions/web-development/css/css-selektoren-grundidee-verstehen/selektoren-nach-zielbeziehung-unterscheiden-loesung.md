@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "css-selektoren-grundidee-verstehen", "selektoren-nach-zielbeziehung-unterscheiden"]
 taskId: "WEB-CSS-CORE-108"
-relatedExercise: "src/content/exercises/web-development/css/css-selektoren-grundidee-verstehen/selektoren-nach-zielbeziehung-unterscheiden.md"
+relatedExercise: "src/content/exercises/web-development/css/css-selektoren-grundidee-verstehen/selektoren-nach-zielbeziehung-unterscheiden"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

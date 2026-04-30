@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Daten und Zufall"
 topicPath: ["daten-und-zufall", "diagramme-und-ausreisser", "boxplot", "boxplot-quartile-und-spannweite-getrennt-lesen"]
 taskId: "v108-mathematik-boxplot-quartile-und-spannweite-getrennt-lesen"
-relatedExercise: "mathematik/daten-und-zufall/diagramme-und-ausreisser/boxplot/boxplot-quartile-und-spannweite-getrennt-lesen"
+relatedExercise: "src/content/exercises/mathematik/daten-und-zufall/diagramme-und-ausreisser/boxplot/boxplot-quartile-und-spannweite-getrennt-lesen"
 tags: ["mathematik", "Daten und Zufall", "loesung"]
 draft: false
 ---

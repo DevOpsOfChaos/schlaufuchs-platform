@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "css-stylesheets-einbinden-und-priorisieren-verstehen", "stylesheet-einbindungen-nach-einsatzfall-waehlen"]
 taskId: "WEB-CSS-CORE-101"
-relatedExercise: "src/content/exercises/web-development/css/css-stylesheets-einbinden-und-priorisieren-verstehen/stylesheet-einbindungen-nach-einsatzfall-waehlen.md"
+relatedExercise: "src/content/exercises/web-development/css/css-stylesheets-einbinden-und-priorisieren-verstehen/stylesheet-einbindungen-nach-einsatzfall-waehlen"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

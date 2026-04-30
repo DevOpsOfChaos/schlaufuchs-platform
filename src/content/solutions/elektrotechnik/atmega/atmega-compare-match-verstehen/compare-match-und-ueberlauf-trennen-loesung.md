@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "mikrocontroller-und-atmega"
 topicPath: ["atmega", "atmega-compare-match-verstehen", "compare-match-und-ueberlauf-trennen"]
 taskId: "ET-ATMEGA-TMR-205"
-relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-compare-match-verstehen/compare-match-und-ueberlauf-trennen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-compare-match-verstehen/compare-match-und-ueberlauf-trennen"
 tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---

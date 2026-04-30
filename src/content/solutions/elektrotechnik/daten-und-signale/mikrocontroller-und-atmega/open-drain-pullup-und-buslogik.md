@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "open-drain-pullup-und-buslogik"]
 taskId: "et-mc-v93-open-drain"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/open-drain-pullup-und-buslogik"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/open-drain-pullup-und-buslogik"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

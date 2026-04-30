@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "mikrocontroller"
 topicPath: ["mikrocontroller", "freilaufdiode-bei-relais-und-induktiven-lasten-verstehen", "induktive-last-und-schutzpfad-richtig-zuordnen"]
 taskId: "ELE-MCU-GEN-108"
-relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller/freilaufdiode-bei-relais-und-induktiven-lasten-verstehen/induktive-last-und-schutzpfad-richtig-zuordnen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller/freilaufdiode-bei-relais-und-induktiven-lasten-verstehen/induktive-last-und-schutzpfad-richtig-zuordnen"
 tags: ["elektrotechnik", "mikrocontroller", "loesung"]
 draft: false
 ---

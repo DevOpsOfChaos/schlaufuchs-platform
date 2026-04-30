@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "php-grundidee-und-serverseitige-verarbeitung-verstehen", "php-request-verarbeitung-und-ausgabe-ordnen"]
 taskId: "INF-PHP-BASICS-001"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/php-grundidee-und-serverseitige-verarbeitung-verstehen/php-request-verarbeitung-und-ausgabe-ordnen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/php-grundidee-und-serverseitige-verarbeitung-verstehen/php-request-verarbeitung-und-ausgabe-ordnen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

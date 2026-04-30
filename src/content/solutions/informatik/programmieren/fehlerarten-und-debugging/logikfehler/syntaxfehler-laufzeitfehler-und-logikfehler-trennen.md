@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmieren", "fehlerarten-und-debugging", "logikfehler", "syntaxfehler-laufzeitfehler-und-logikfehler-trennen"]
 taskId: "v108-informatik-syntaxfehler-laufzeitfehler-und-logikfehler-trennen"
-relatedExercise: "informatik/programmieren/fehlerarten-und-debugging/logikfehler/syntaxfehler-laufzeitfehler-und-logikfehler-trennen"
+relatedExercise: "src/content/exercises/informatik/programmieren/fehlerarten-und-debugging/logikfehler/syntaxfehler-laufzeitfehler-und-logikfehler-trennen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

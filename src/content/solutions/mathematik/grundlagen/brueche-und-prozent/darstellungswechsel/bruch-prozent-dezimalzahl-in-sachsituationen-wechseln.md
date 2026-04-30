@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Grundlagen"
 topicPath: ["grundlagen", "brueche-und-prozent", "darstellungswechsel", "bruch-prozent-dezimalzahl-in-sachsituationen-wechseln"]
 taskId: "v107-mathematik-bruch-prozent-dezimalzahl-in-sachsituationen-wechseln"
-relatedExercise: "mathematik/grundlagen/brueche-und-prozent/darstellungswechsel/bruch-prozent-dezimalzahl-in-sachsituationen-wechseln"
+relatedExercise: "src/content/exercises/mathematik/grundlagen/brueche-und-prozent/darstellungswechsel/bruch-prozent-dezimalzahl-in-sachsituationen-wechseln"
 tags: ["mathematik", "Grundlagen", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "performance-und-laden", "font-loading-und-layout-shift-reduzieren"]
 taskId: "web-v103-font-loading-und-layout-shift-reduzieren"
-relatedExercise: "web-development/css/performance-und-laden/font-loading-und-layout-shift-reduzieren"
+relatedExercise: "src/content/exercises/web-development/css/performance-und-laden/font-loading-und-layout-shift-reduzieren"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

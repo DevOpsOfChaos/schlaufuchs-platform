@@ -5,7 +5,7 @@ subject: "linux"
 section: "Shell"
 topicPath: ["shell", "pipelines-und-exitcodes", "pipefail", "exitcodes-in-pipelines-sichtbar-machen"]
 taskId: "v108-linux-exitcodes-in-pipelines-sichtbar-machen"
-relatedExercise: "linux/shell/pipelines-und-exitcodes/pipefail/exitcodes-in-pipelines-sichtbar-machen"
+relatedExercise: "src/content/exercises/linux/shell/pipelines-und-exitcodes/pipefail/exitcodes-in-pipelines-sichtbar-machen"
 tags: ["linux", "Shell", "loesung"]
 draft: false
 ---

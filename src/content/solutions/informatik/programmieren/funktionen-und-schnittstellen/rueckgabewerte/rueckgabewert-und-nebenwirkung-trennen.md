@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmieren", "funktionen-und-schnittstellen", "rueckgabewerte", "rueckgabewert-und-nebenwirkung-trennen"]
 taskId: "v107-informatik-rueckgabewert-und-nebenwirkung-trennen"
-relatedExercise: "informatik/programmieren/funktionen-und-schnittstellen/rueckgabewerte/rueckgabewert-und-nebenwirkung-trennen"
+relatedExercise: "src/content/exercises/informatik/programmieren/funktionen-und-schnittstellen/rueckgabewerte/rueckgabewert-und-nebenwirkung-trennen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

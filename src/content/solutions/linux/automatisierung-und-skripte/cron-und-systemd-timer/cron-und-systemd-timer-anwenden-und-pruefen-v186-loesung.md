@@ -5,7 +5,7 @@ subject: "linux"
 section: "automatisierung-und-skripte"
 topicPath: ["automatisierung-und-skripte", "cron-und-systemd-timer", "cron-und-systemd-timer-anwenden-und-pruefen-v186"]
 taskId: "LINUX-CRON-UND-SYSTEMD-TIMER-V186-2"
-relatedExercise: "src/content/exercises/linux/automatisierung-und-skripte/cron-und-systemd-timer/cron-und-systemd-timer-anwenden-und-pruefen-v186.md"
+relatedExercise: "src/content/exercises/linux/automatisierung-und-skripte/cron-und-systemd-timer/cron-und-systemd-timer-anwenden-und-pruefen-v186"
 tags: ["linux", "automatisierung-und-skripte", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "analogsensor-spannungsteiler-und-adc-eingang"]
 taskId: "et-mc-v93-analogsensor"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/analogsensor-spannungsteiler-und-adc-eingang"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/analogsensor-spannungsteiler-und-adc-eingang"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

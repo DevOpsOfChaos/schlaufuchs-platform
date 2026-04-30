@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
 topicPath: ["signale-stoerungen-v115", "stoerungen-und-filter", "entstoerkondensator-nahe-platzieren-v115"]
 taskId: "elektrotechnik-entstoerkondensator-nahe-platzieren-v115"
-relatedExercise: "elektrotechnik/signale-stoerungen-v115/stoerungen-und-filter/entstoerkondensator-nahe-platzieren-v115"
+relatedExercise: "src/content/exercises/elektrotechnik/signale-stoerungen-v115/stoerungen-und-filter/entstoerkondensator-nahe-platzieren-v115"
 tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---

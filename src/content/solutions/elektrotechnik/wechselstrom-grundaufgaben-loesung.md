@@ -4,8 +4,8 @@ description: "Lösung zu Grundaufgaben über Wechselstrom, Frequenz und zeitlich
 subject: "elektrotechnik"
 section: "Wechselstrom"
 topicPath: ["wechselstrom-grundaufgaben"]
-taskId: "ET-GR-AC-001"
-relatedExercise: "src/content/exercises/elektrotechnik/wechselstrom-grundaufgaben.md"
+taskId: "AUTO-WECHSELSTROM-GRUNDAUFGABEN"
+relatedExercise: "src/content/exercises/elektrotechnik/wechselstrom-grundaufgaben"
 tags: ["elektrotechnik", "Wechselstrom", "loesung"]
 draft: false
 ---

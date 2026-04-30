@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "cpp", "funktionen-ueberladen-verstehen", "ueberladene-funktionen-nach-signatur-zuordnen"]
 taskId: "INF-PROG-CPP-FUNC-006"
-relatedExercise: "src/content/exercises/informatik/programmierung/cpp/funktionen-ueberladen-verstehen/ueberladene-funktionen-nach-signatur-zuordnen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/funktionen-ueberladen-verstehen/ueberladene-funktionen-nach-signatur-zuordnen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

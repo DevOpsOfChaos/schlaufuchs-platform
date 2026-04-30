@@ -5,7 +5,7 @@ subject: "informatik"
 section: "daten-und-information"
 topicPath: ["daten-und-information", "datentypen-und-werte", "datentypen-und-werte-anwenden-und-pruefen-v184"]
 taskId: "INF-DATENTYPEN-UND-WERTE-842"
-relatedExercise: "src/content/exercises/informatik/daten-und-information/datentypen-und-werte/datentypen-und-werte-anwenden-und-pruefen-v184.md"
+relatedExercise: "src/content/exercises/informatik/daten-und-information/datentypen-und-werte/datentypen-und-werte-anwenden-und-pruefen-v184"
 tags: ["informatik", "daten-und-information", "loesung"]
 draft: false
 ---

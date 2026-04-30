@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "align-self-und-justify-self-verstehen", "eine-sonderkachel-im-layout-sauber-ausrichten"]
 taskId: "WEB-CSS-LAYOUT-205"
-relatedExercise: "src/content/exercises/web-development/css/align-self-und-justify-self-verstehen/eine-sonderkachel-im-layout-sauber-ausrichten.md"
+relatedExercise: "src/content/exercises/web-development/css/align-self-und-justify-self-verstehen/eine-sonderkachel-im-layout-sauber-ausrichten"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

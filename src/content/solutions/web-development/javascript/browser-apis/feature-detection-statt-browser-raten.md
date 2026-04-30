@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "browser-apis", "feature-detection-statt-browser-raten"]
 taskId: "web-v104-feature-detection-statt-browser-raten"
-relatedExercise: "web-development/javascript/browser-apis/feature-detection-statt-browser-raten"
+relatedExercise: "src/content/exercises/web-development/javascript/browser-apis/feature-detection-statt-browser-raten"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "dom-und-events", "classlist-und-ui-zustand-sichtbar-machen"]
 taskId: "web-js-classlist-und-ui-zustand-sichtbar-machen"
-relatedExercise: "web-development/javascript/dom-und-events/classlist-und-ui-zustand-sichtbar-machen"
+relatedExercise: "src/content/exercises/web-development/javascript/dom-und-events/classlist-und-ui-zustand-sichtbar-machen"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

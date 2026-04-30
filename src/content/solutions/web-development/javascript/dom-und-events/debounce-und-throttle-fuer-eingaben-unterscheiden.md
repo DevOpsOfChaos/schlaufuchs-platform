@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "dom-und-events", "debounce-und-throttle-fuer-eingaben-unterscheiden"]
 taskId: "web-v104-debounce-und-throttle-fuer-eingaben-unterscheiden"
-relatedExercise: "web-development/javascript/dom-und-events/debounce-und-throttle-fuer-eingaben-unterscheiden"
+relatedExercise: "src/content/exercises/web-development/javascript/dom-und-events/debounce-und-throttle-fuer-eingaben-unterscheiden"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

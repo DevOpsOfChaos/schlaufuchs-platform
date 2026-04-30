@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Algorithmen"
 topicPath: ["algorithmen", "test-und-komplexitaet", "testfaelle-aus-randfaellen-ableiten"]
 taskId: "v106-informatik-testfaelle-aus-randfaellen-ableiten"
-relatedExercise: "informatik/algorithmen/test-und-komplexitaet/testfaelle-aus-randfaellen-ableiten"
+relatedExercise: "src/content/exercises/informatik/algorithmen/test-und-komplexitaet/testfaelle-aus-randfaellen-ableiten"
 tags: ["informatik", "Algorithmen", "loesung"]
 draft: false
 ---

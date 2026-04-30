@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "avr-pinmapping-arduino-und-register"]
 taskId: "et-mc-v93-pinmapping"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/avr-pinmapping-arduino-und-register"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/avr-pinmapping-arduino-und-register"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

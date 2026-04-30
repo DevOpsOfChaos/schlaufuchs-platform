@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Daten und Zufall"
 topicPath: ["daten-und-zufall", "diagramme-und-ausreisser", "kennwerte", "mittelwert-und-median-bei-ausreissern-vergleichen"]
 taskId: "v107-mathematik-mittelwert-und-median-bei-ausreissern-vergleichen"
-relatedExercise: "mathematik/daten-und-zufall/diagramme-und-ausreisser/kennwerte/mittelwert-und-median-bei-ausreissern-vergleichen"
+relatedExercise: "src/content/exercises/mathematik/daten-und-zufall/diagramme-und-ausreisser/kennwerte/mittelwert-und-median-bei-ausreissern-vergleichen"
 tags: ["mathematik", "Daten und Zufall", "loesung"]
 draft: false
 ---

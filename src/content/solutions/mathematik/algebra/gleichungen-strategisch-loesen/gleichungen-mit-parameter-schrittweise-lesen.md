@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Algebra"
 topicPath: ["algebra", "gleichungen-strategisch-loesen", "gleichungen-mit-parameter-schrittweise-lesen"]
 taskId: "v106-mathematik-gleichungen-mit-parameter-schrittweise-lesen"
-relatedExercise: "mathematik/algebra/gleichungen-strategisch-loesen/gleichungen-mit-parameter-schrittweise-lesen"
+relatedExercise: "src/content/exercises/mathematik/algebra/gleichungen-strategisch-loesen/gleichungen-mit-parameter-schrittweise-lesen"
 tags: ["mathematik", "Algebra", "loesung"]
 draft: false
 ---

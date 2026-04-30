@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Geometrie"
 topicPath: ["geometrie", "vektoren-und-richtung", "betrag", "vektorlaenge-und-richtung-unterscheiden"]
 taskId: "v108-mathematik-vektorlaenge-und-richtung-unterscheiden"
-relatedExercise: "mathematik/geometrie/vektoren-und-richtung/betrag/vektorlaenge-und-richtung-unterscheiden"
+relatedExercise: "src/content/exercises/mathematik/geometrie/vektoren-und-richtung/betrag/vektorlaenge-und-richtung-unterscheiden"
 tags: ["mathematik", "Geometrie", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmieren", "rekursion-und-abbruch", "basisfall", "rekursion-ueber-basisfall-und-verkleinerung-pruefen"]
 taskId: "v108-informatik-rekursion-ueber-basisfall-und-verkleinerung-pruefen"
-relatedExercise: "informatik/programmieren/rekursion-und-abbruch/basisfall/rekursion-ueber-basisfall-und-verkleinerung-pruefen"
+relatedExercise: "src/content/exercises/informatik/programmieren/rekursion-und-abbruch/basisfall/rekursion-ueber-basisfall-und-verkleinerung-pruefen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

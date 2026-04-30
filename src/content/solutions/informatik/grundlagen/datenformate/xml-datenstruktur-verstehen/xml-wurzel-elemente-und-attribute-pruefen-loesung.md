@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Grundlagen"
 topicPath: ["grundlagen", "datenformate", "xml-datenstruktur-verstehen", "xml-wurzel-elemente-und-attribute-pruefen"]
 taskId: "INF-DATA-FORMAT-XML-001"
-relatedExercise: "src/content/exercises/informatik/grundlagen/datenformate/xml-datenstruktur-verstehen/xml-wurzel-elemente-und-attribute-pruefen.md"
+relatedExercise: "src/content/exercises/informatik/grundlagen/datenformate/xml-datenstruktur-verstehen/xml-wurzel-elemente-und-attribute-pruefen"
 tags: ["informatik", "Grundlagen", "loesung"]
 draft: false
 ---

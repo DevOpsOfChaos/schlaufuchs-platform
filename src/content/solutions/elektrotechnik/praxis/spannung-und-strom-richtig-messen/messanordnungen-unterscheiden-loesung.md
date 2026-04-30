@@ -4,8 +4,8 @@ description: "Lösung zur Aufgabe über Spannungs- und Strommessung."
 subject: "elektrotechnik"
 section: "Praxis"
 topicPath: ["praxis", "spannung-und-strom-richtig-messen", "messanordnungen-unterscheiden"]
-taskId: "ET-PR-MESSANORDNUNG-001"
-relatedExercise: "src/content/exercises/elektrotechnik/praxis/spannung-und-strom-richtig-messen/messanordnungen-unterscheiden.md"
+taskId: "AUTO-MESSANORDNUNGEN-UNTERSCHEIDEN"
+relatedExercise: "src/content/exercises/elektrotechnik/praxis/spannung-und-strom-richtig-messen/messanordnungen-unterscheiden"
 tags: ["elektrotechnik", "Praxis", "loesung"]
 draft: false
 ---

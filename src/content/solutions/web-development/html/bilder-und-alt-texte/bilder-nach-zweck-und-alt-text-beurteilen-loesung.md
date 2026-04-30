@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "bilder-und-alt-texte", "bilder-nach-zweck-und-alt-text-beurteilen"]
 taskId: "WEB-HTML-A11Y-302"
-relatedExercise: "web-development/html/bilder-und-alt-texte/bilder-nach-zweck-und-alt-text-beurteilen"
+relatedExercise: "src/content/exercises/web-development/html/bilder-und-alt-texte/bilder-nach-zweck-und-alt-text-beurteilen"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

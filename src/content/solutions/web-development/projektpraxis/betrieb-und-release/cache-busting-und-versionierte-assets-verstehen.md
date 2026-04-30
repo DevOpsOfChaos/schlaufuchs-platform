@@ -5,7 +5,7 @@ subject: "web-development"
 section: "Projektpraxis"
 topicPath: ["projektpraxis", "betrieb-und-release", "cache-busting-und-versionierte-assets-verstehen"]
 taskId: "web-v105-cache-busting-und-versionierte-assets-verstehen"
-relatedExercise: "web-development/projektpraxis/betrieb-und-release/cache-busting-und-versionierte-assets-verstehen"
+relatedExercise: "src/content/exercises/web-development/projektpraxis/betrieb-und-release/cache-busting-und-versionierte-assets-verstehen"
 tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "linux"
 section: "Feinstruktur Linux"
 topicPath: ["paket-und-backup-v115", "backup-und-wiederherstellung", "konfiguration-und-daten-getrennt-sichern-v115"]
 taskId: "linux-konfiguration-und-daten-getrennt-sichern-v115"
-relatedExercise: "linux/paket-und-backup-v115/backup-und-wiederherstellung/konfiguration-und-daten-getrennt-sichern-v115"
+relatedExercise: "src/content/exercises/linux/paket-und-backup-v115/backup-und-wiederherstellung/konfiguration-und-daten-getrennt-sichern-v115"
 tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---

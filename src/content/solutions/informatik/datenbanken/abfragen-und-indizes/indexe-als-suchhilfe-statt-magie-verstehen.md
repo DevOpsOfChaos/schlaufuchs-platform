@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Datenbanken"
 topicPath: ["datenbanken", "abfragen-und-indizes", "indexe-als-suchhilfe-statt-magie-verstehen"]
 taskId: "v106-informatik-indexe-als-suchhilfe-statt-magie-verstehen"
-relatedExercise: "informatik/datenbanken/abfragen-und-indizes/indexe-als-suchhilfe-statt-magie-verstehen"
+relatedExercise: "src/content/exercises/informatik/datenbanken/abfragen-und-indizes/indexe-als-suchhilfe-statt-magie-verstehen"
 tags: ["informatik", "Datenbanken", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Datenstrukturen im Einsatz"
 topicPath: ["datenstrukturen-im-einsatz", "sets-maps-und-eindeutigkeit", "sets-maps-und-eindeutigkeit-anwenden-und-pruefen-v183"]
 taskId: "INF-V183-06-B"
-relatedExercise: "src/content/exercises/informatik/datenstrukturen-im-einsatz/sets-maps-und-eindeutigkeit/sets-maps-und-eindeutigkeit-anwenden-und-pruefen-v183.md"
+relatedExercise: "src/content/exercises/informatik/datenstrukturen-im-einsatz/sets-maps-und-eindeutigkeit/sets-maps-und-eindeutigkeit-anwenden-und-pruefen-v183"
 tags: ["informatik", "Datenstrukturen im Einsatz", "loesung"]
 draft: false
 ---

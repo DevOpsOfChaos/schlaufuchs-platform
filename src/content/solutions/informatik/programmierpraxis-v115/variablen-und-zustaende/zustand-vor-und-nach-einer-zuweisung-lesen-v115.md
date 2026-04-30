@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Feinstruktur Informatik"
 topicPath: ["programmierpraxis-v115", "variablen-und-zustaende", "zustand-vor-und-nach-einer-zuweisung-lesen-v115"]
 taskId: "informatik-zustand-vor-und-nach-einer-zuweisung-lesen-v115"
-relatedExercise: "informatik/programmierpraxis-v115/variablen-und-zustaende/zustand-vor-und-nach-einer-zuweisung-lesen-v115"
+relatedExercise: "src/content/exercises/informatik/programmierpraxis-v115/variablen-und-zustaende/zustand-vor-und-nach-einer-zuweisung-lesen-v115"
 tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---

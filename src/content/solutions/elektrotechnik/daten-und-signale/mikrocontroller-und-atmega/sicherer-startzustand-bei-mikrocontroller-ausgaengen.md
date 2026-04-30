@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "sicherer-startzustand-bei-mikrocontroller-ausgaengen"]
 taskId: "et-mc-v94-startzustand-ausgaenge"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/sicherer-startzustand-bei-mikrocontroller-ausgaengen"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/sicherer-startzustand-bei-mikrocontroller-ausgaengen"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

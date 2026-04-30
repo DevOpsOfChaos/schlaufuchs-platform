@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Feinstruktur Informatik"
 topicPath: ["algorithmen-fein-v115", "suchen-und-sortieren", "binaere-suche-nur-bei-sortierung-nutzen-v115"]
 taskId: "informatik-binaere-suche-nur-bei-sortierung-nutzen-v115"
-relatedExercise: "informatik/algorithmen-fein-v115/suchen-und-sortieren/binaere-suche-nur-bei-sortierung-nutzen-v115"
+relatedExercise: "src/content/exercises/informatik/algorithmen-fein-v115/suchen-und-sortieren/binaere-suche-nur-bei-sortierung-nutzen-v115"
 tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---

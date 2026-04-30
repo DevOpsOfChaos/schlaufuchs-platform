@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Sicherheit"
 topicPath: ["sicherheit", "berechtigungen-und-rollen", "api-vertrag", "api-vertrag-fuer-eingabe-und-ausgabe-beschreiben"]
 taskId: "v108-informatik-api-vertrag-fuer-eingabe-und-ausgabe-beschreiben"
-relatedExercise: "informatik/sicherheit/berechtigungen-und-rollen/api-vertrag/api-vertrag-fuer-eingabe-und-ausgabe-beschreiben"
+relatedExercise: "src/content/exercises/informatik/sicherheit/berechtigungen-und-rollen/api-vertrag/api-vertrag-fuer-eingabe-und-ausgabe-beschreiben"
 tags: ["informatik", "Sicherheit", "loesung"]
 draft: false
 ---

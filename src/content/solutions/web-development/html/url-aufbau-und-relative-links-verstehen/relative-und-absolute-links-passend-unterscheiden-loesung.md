@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "url-aufbau-und-relative-links-verstehen", "relative-und-absolute-links-passend-unterscheiden"]
 taskId: "WEB-HTML-CORE-104"
-relatedExercise: "src/content/exercises/web-development/html/url-aufbau-und-relative-links-verstehen/relative-und-absolute-links-passend-unterscheiden.md"
+relatedExercise: "src/content/exercises/web-development/html/url-aufbau-und-relative-links-verstehen/relative-und-absolute-links-passend-unterscheiden"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

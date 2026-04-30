@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmieren", "funktionen-und-schnittstellen", "funktionsschnittstellen-klein-und-pruefbar-halten"]
 taskId: "v106-informatik-funktionsschnittstellen-klein-und-pruefbar-halten"
-relatedExercise: "informatik/programmieren/funktionen-und-schnittstellen/funktionsschnittstellen-klein-und-pruefbar-halten"
+relatedExercise: "src/content/exercises/informatik/programmieren/funktionen-und-schnittstellen/funktionsschnittstellen-klein-und-pruefbar-halten"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

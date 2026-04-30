@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "adc-rauschen-oversampling-und-messfenster"]
 taskId: "et-mc-v94-adc-rauschen"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/adc-rauschen-oversampling-und-messfenster"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/adc-rauschen-oversampling-und-messfenster"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "web-development"
 section: "Projektpraxis"
 topicPath: ["projektpraxis", "betrieb-und-release", "monitoring-und-fehlermeldungen-nach-dem-deploy"]
 taskId: "web-v105-monitoring-und-fehlermeldungen-nach-dem-deploy"
-relatedExercise: "web-development/projektpraxis/betrieb-und-release/monitoring-und-fehlermeldungen-nach-dem-deploy"
+relatedExercise: "src/content/exercises/web-development/projektpraxis/betrieb-und-release/monitoring-und-fehlermeldungen-nach-dem-deploy"
 tags: ["web-development", "Projektpraxis", "loesung"]
 draft: false
 ---

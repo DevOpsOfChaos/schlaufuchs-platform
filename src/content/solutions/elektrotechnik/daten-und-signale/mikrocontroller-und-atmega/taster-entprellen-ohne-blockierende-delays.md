@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "taster-entprellen-ohne-blockierende-delays"]
 taskId: "et-mc-taster-entprellen-softtimer"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/taster-entprellen-ohne-blockierende-delays"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/taster-entprellen-ohne-blockierende-delays"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

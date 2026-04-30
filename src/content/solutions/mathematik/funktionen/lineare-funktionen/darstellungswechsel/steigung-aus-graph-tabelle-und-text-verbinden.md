@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Funktionen"
 topicPath: ["funktionen", "lineare-funktionen", "darstellungswechsel", "steigung-aus-graph-tabelle-und-text-verbinden"]
 taskId: "v107-mathematik-steigung-aus-graph-tabelle-und-text-verbinden"
-relatedExercise: "mathematik/funktionen/lineare-funktionen/darstellungswechsel/steigung-aus-graph-tabelle-und-text-verbinden"
+relatedExercise: "src/content/exercises/mathematik/funktionen/lineare-funktionen/darstellungswechsel/steigung-aus-graph-tabelle-und-text-verbinden"
 tags: ["mathematik", "Funktionen", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "performance-und-laden", "debounce-und-throttle-fuer-ui-eingaben-unterscheiden"]
 taskId: "web-js-v99-debounce-und-throttle-fuer-ui-eingaben-unterscheiden"
-relatedExercise: "web-development/javascript/performance-und-laden/debounce-und-throttle-fuer-ui-eingaben-unterscheiden"
+relatedExercise: "src/content/exercises/web-development/javascript/performance-und-laden/debounce-und-throttle-fuer-ui-eingaben-unterscheiden"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

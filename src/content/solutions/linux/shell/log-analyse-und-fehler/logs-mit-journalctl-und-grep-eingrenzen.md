@@ -5,7 +5,7 @@ subject: "linux"
 section: "Shell"
 topicPath: ["shell", "log-analyse-und-fehler", "logs-mit-journalctl-und-grep-eingrenzen"]
 taskId: "v106-linux-logs-mit-journalctl-und-grep-eingrenzen"
-relatedExercise: "linux/shell/log-analyse-und-fehler/logs-mit-journalctl-und-grep-eingrenzen"
+relatedExercise: "src/content/exercises/linux/shell/log-analyse-und-fehler/logs-mit-journalctl-und-grep-eingrenzen"
 tags: ["linux", "Shell", "loesung"]
 draft: false
 ---

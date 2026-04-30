@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "debugging-und-diagnose", "network-tab-und-http-fehler-diagnostizieren"]
 taskId: "web-v100-network-tab-und-http-fehler-diagnostizieren"
-relatedExercise: "web-development/javascript/debugging-und-diagnose/network-tab-und-http-fehler-diagnostizieren"
+relatedExercise: "src/content/exercises/web-development/javascript/debugging-und-diagnose/network-tab-und-http-fehler-diagnostizieren"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

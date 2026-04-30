@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Algorithmen"
 topicPath: ["algorithmen", "schleifen-als-wiederholungsidee-verstehen", "wiederholungen-im-ablauf-erkennen"]
 taskId: "INF-ALG-SCHLEIFE-001"
-relatedExercise: "src/content/exercises/informatik/algorithmen/schleifen-als-wiederholungsidee-verstehen/wiederholungen-im-ablauf-erkennen.md"
+relatedExercise: "src/content/exercises/informatik/algorithmen/schleifen-als-wiederholungsidee-verstehen/wiederholungen-im-ablauf-erkennen"
 tags: ["informatik", "Algorithmen", "loesung"]
 draft: false
 ---

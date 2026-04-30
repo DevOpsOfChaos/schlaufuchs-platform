@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
 topicPath: ["mikrocontroller-praxis-v115", "eingang-ausgang-pegel", "ausgangsstrom-begrenzen-v115"]
 taskId: "elektrotechnik-ausgangsstrom-begrenzen-v115"
-relatedExercise: "elektrotechnik/mikrocontroller-praxis-v115/eingang-ausgang-pegel/ausgangsstrom-begrenzen-v115"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-praxis-v115/eingang-ausgang-pegel/ausgangsstrom-begrenzen-v115"
 tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---

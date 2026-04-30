@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "cpp", "vergleichsoperatoren-in-bedingungen-verstehen", "vergleiche-in-if-bedingungen-in-worte-uebersetzen"]
 taskId: "INF-PROG-CPP-COMPARE-001"
-relatedExercise: "src/content/exercises/informatik/programmierung/cpp/vergleichsoperatoren-in-bedingungen-verstehen/vergleiche-in-if-bedingungen-in-worte-uebersetzen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/vergleichsoperatoren-in-bedingungen-verstehen/vergleiche-in-if-bedingungen-in-worte-uebersetzen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

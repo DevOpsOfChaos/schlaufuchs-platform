@@ -5,7 +5,7 @@ subject: "linux"
 section: "Shell"
 topicPath: ["shell", "dateisystem-und-pfade", "skriptkontext", "skriptpfad-und-arbeitsverzeichnis-trennen"]
 taskId: "v107-linux-skriptpfad-und-arbeitsverzeichnis-trennen"
-relatedExercise: "linux/shell/dateisystem-und-pfade/skriptkontext/skriptpfad-und-arbeitsverzeichnis-trennen"
+relatedExercise: "src/content/exercises/linux/shell/dateisystem-und-pfade/skriptkontext/skriptpfad-und-arbeitsverzeichnis-trennen"
 tags: ["linux", "Shell", "loesung"]
 draft: false
 ---

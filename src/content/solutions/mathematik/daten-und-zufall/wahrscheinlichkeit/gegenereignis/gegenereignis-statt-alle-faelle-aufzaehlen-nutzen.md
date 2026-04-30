@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Daten und Zufall"
 topicPath: ["daten-und-zufall", "wahrscheinlichkeit", "gegenereignis", "gegenereignis-statt-alle-faelle-aufzaehlen-nutzen"]
 taskId: "v108-mathematik-gegenereignis-statt-alle-faelle-aufzaehlen-nutzen"
-relatedExercise: "mathematik/daten-und-zufall/wahrscheinlichkeit/gegenereignis/gegenereignis-statt-alle-faelle-aufzaehlen-nutzen"
+relatedExercise: "src/content/exercises/mathematik/daten-und-zufall/wahrscheinlichkeit/gegenereignis/gegenereignis-statt-alle-faelle-aufzaehlen-nutzen"
 tags: ["mathematik", "Daten und Zufall", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "mikrocontroller-und-atmega"
 topicPath: ["mikrocontroller-und-atmega", "schnittstellen-und-busse", "uart-i2c-spi-vergleichen", "busfehler-systematisch-eingrenzen"]
 taskId: "ET-V180-BUS-002"
-relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/schnittstellen-und-busse/uart-i2c-spi-vergleichen/busfehler-systematisch-eingrenzen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/schnittstellen-und-busse/uart-i2c-spi-vergleichen/busfehler-systematisch-eingrenzen"
 tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---

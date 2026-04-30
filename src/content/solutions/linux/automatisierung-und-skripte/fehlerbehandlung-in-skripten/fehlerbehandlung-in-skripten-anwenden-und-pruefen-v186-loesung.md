@@ -5,7 +5,7 @@ subject: "linux"
 section: "automatisierung-und-skripte"
 topicPath: ["automatisierung-und-skripte", "fehlerbehandlung-in-skripten", "fehlerbehandlung-in-skripten-anwenden-und-pruefen-v186"]
 taskId: "LINUX-FEHLERBEHANDLUNG-IN-SKRIPTEN-V186-2"
-relatedExercise: "src/content/exercises/linux/automatisierung-und-skripte/fehlerbehandlung-in-skripten/fehlerbehandlung-in-skripten-anwenden-und-pruefen-v186.md"
+relatedExercise: "src/content/exercises/linux/automatisierung-und-skripte/fehlerbehandlung-in-skripten/fehlerbehandlung-in-skripten-anwenden-und-pruefen-v186"
 tags: ["linux", "automatisierung-und-skripte", "loesung"]
 draft: false
 ---

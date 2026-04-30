@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierpraxis und Tests"
 topicPath: ["programmierpraxis-und-tests", "funktionen-und-verantwortung", "funktionen-und-verantwortung-anwenden-und-pruefen-v183"]
 taskId: "INF-V183-13-B"
-relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/funktionen-und-verantwortung/funktionen-und-verantwortung-anwenden-und-pruefen-v183.md"
+relatedExercise: "src/content/exercises/informatik/programmierpraxis-und-tests/funktionen-und-verantwortung/funktionen-und-verantwortung-anwenden-und-pruefen-v183"
 tags: ["informatik", "Programmierpraxis und Tests", "loesung"]
 draft: false
 ---

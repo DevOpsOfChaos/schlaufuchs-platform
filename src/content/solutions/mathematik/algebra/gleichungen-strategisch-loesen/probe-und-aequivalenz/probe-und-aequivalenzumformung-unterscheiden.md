@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Algebra"
 topicPath: ["algebra", "gleichungen-strategisch-loesen", "probe-und-aequivalenz", "probe-und-aequivalenzumformung-unterscheiden"]
 taskId: "v107-mathematik-probe-und-aequivalenzumformung-unterscheiden"
-relatedExercise: "mathematik/algebra/gleichungen-strategisch-loesen/probe-und-aequivalenz/probe-und-aequivalenzumformung-unterscheiden"
+relatedExercise: "src/content/exercises/mathematik/algebra/gleichungen-strategisch-loesen/probe-und-aequivalenz/probe-und-aequivalenzumformung-unterscheiden"
 tags: ["mathematik", "Algebra", "loesung"]
 draft: false
 ---

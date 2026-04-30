@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Schaltungen"
 topicPath: ["schaltungen", "massefuehrung-und-stoerungen", "massebezug-vor-messung-festlegen"]
 taskId: "ET-V181-013"
-relatedExercise: "src/content/exercises/elektrotechnik/schaltungen/massefuehrung-und-stoerungen/massebezug-vor-messung-festlegen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/schaltungen/massefuehrung-und-stoerungen/massebezug-vor-messung-festlegen"
 tags: ["elektrotechnik", "Schaltungen", "loesung"]
 draft: false
 ---

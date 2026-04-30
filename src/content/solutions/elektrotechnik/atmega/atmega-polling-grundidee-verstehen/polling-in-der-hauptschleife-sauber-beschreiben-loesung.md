@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "mikrocontroller-und-atmega"
 topicPath: ["atmega", "atmega-polling-grundidee-verstehen", "polling-in-der-hauptschleife-sauber-beschreiben"]
 taskId: "ET-ATMEGA-POLL-203"
-relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-polling-grundidee-verstehen/polling-in-der-hauptschleife-sauber-beschreiben.md"
+relatedExercise: "src/content/exercises/elektrotechnik/atmega/atmega-polling-grundidee-verstehen/polling-in-der-hauptschleife-sauber-beschreiben"
 tags: ["elektrotechnik", "mikrocontroller-und-atmega", "loesung"]
 draft: false
 ---

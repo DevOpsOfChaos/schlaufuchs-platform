@@ -5,7 +5,7 @@ subject: "linux"
 section: "automatisierung-und-skripte"
 topicPath: ["automatisierung-und-skripte", "umgebungsvariablen-und-path", "umgebungsvariablen-und-path-anwenden-und-pruefen-v186"]
 taskId: "LINUX-UMGEBUNGSVARIABLEN-UND-PATH-V186-2"
-relatedExercise: "src/content/exercises/linux/automatisierung-und-skripte/umgebungsvariablen-und-path/umgebungsvariablen-und-path-anwenden-und-pruefen-v186.md"
+relatedExercise: "src/content/exercises/linux/automatisierung-und-skripte/umgebungsvariablen-und-path/umgebungsvariablen-und-path-anwenden-und-pruefen-v186"
 tags: ["linux", "automatisierung-und-skripte", "loesung"]
 draft: false
 ---

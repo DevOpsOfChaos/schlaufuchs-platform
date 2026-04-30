@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "dom-und-events", "custom-events-zwischen-komponenten"]
 taskId: "web-v102-custom-events-zwischen-komponenten"
-relatedExercise: "web-development/javascript/dom-und-events/custom-events-zwischen-komponenten"
+relatedExercise: "src/content/exercises/web-development/javascript/dom-und-events/custom-events-zwischen-komponenten"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

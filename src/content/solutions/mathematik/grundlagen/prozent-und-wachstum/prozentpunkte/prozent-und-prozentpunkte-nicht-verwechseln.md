@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Grundlagen"
 topicPath: ["grundlagen", "prozent-und-wachstum", "prozentpunkte", "prozent-und-prozentpunkte-nicht-verwechseln"]
 taskId: "v108-mathematik-prozent-und-prozentpunkte-nicht-verwechseln"
-relatedExercise: "mathematik/grundlagen/prozent-und-wachstum/prozentpunkte/prozent-und-prozentpunkte-nicht-verwechseln"
+relatedExercise: "src/content/exercises/mathematik/grundlagen/prozent-und-wachstum/prozentpunkte/prozent-und-prozentpunkte-nicht-verwechseln"
 tags: ["mathematik", "Grundlagen", "loesung"]
 draft: false
 ---

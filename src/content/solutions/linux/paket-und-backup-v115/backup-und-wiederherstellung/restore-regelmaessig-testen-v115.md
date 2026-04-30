@@ -5,7 +5,7 @@ subject: "linux"
 section: "Feinstruktur Linux"
 topicPath: ["paket-und-backup-v115", "backup-und-wiederherstellung", "restore-regelmaessig-testen-v115"]
 taskId: "linux-restore-regelmaessig-testen-v115"
-relatedExercise: "linux/paket-und-backup-v115/backup-und-wiederherstellung/restore-regelmaessig-testen-v115"
+relatedExercise: "src/content/exercises/linux/paket-und-backup-v115/backup-und-wiederherstellung/restore-regelmaessig-testen-v115"
 tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---

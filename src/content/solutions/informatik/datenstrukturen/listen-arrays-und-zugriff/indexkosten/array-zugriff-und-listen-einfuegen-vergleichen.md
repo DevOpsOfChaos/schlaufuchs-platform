@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Datenstrukturen"
 topicPath: ["datenstrukturen", "listen-arrays-und-zugriff", "indexkosten", "array-zugriff-und-listen-einfuegen-vergleichen"]
 taskId: "v108-informatik-array-zugriff-und-listen-einfuegen-vergleichen"
-relatedExercise: "informatik/datenstrukturen/listen-arrays-und-zugriff/indexkosten/array-zugriff-und-listen-einfuegen-vergleichen"
+relatedExercise: "src/content/exercises/informatik/datenstrukturen/listen-arrays-und-zugriff/indexkosten/array-zugriff-und-listen-einfuegen-vergleichen"
 tags: ["informatik", "Datenstrukturen", "loesung"]
 draft: false
 ---

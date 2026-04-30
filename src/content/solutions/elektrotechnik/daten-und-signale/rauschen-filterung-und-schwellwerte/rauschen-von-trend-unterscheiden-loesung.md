@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Daten und Signale"
 topicPath: ["daten-und-signale", "rauschen-filterung-und-schwellwerte", "rauschen-von-trend-unterscheiden"]
 taskId: "ET-V181-023"
-relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/rauschen-filterung-und-schwellwerte/rauschen-von-trend-unterscheiden.md"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/rauschen-filterung-und-schwellwerte/rauschen-von-trend-unterscheiden"
 tags: ["elektrotechnik", "Daten und Signale", "loesung"]
 draft: false
 ---

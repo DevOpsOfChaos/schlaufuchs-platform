@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "adc-messwerte-glaetten-und-skalieren"]
 taskId: "et-mc-adc-glaetten-skalieren"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/adc-messwerte-glaetten-und-skalieren"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/adc-messwerte-glaetten-und-skalieren"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

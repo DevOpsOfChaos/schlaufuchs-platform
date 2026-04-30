@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "cookies-und-sessions-in-php-unterscheiden", "clientseite-und-serverseite-im-zustandsmodell-trennen"]
 taskId: "INF-PHP-STATE-011"
-relatedExercise: "informatik/programmierung/php/cookies-und-sessions-in-php-unterscheiden/clientseite-und-serverseite-im-zustandsmodell-trennen"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/cookies-und-sessions-in-php-unterscheiden/clientseite-und-serverseite-im-zustandsmodell-trennen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

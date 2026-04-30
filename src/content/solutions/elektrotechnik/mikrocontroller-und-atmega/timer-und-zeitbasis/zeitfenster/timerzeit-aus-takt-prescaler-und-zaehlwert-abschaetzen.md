@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller"
 topicPath: ["mikrocontroller-und-atmega", "timer-und-zeitbasis", "zeitfenster", "timerzeit-aus-takt-prescaler-und-zaehlwert-abschaetzen"]
 taskId: "v107-elektrotechnik-timerzeit-aus-takt-prescaler-und-zaehlwert-abschaetzen"
-relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/timer-und-zeitbasis/zeitfenster/timerzeit-aus-takt-prescaler-und-zaehlwert-abschaetzen"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/timer-und-zeitbasis/zeitfenster/timerzeit-aus-takt-prescaler-und-zaehlwert-abschaetzen"
 tags: ["elektrotechnik", "Mikrocontroller", "loesung"]
 draft: false
 ---

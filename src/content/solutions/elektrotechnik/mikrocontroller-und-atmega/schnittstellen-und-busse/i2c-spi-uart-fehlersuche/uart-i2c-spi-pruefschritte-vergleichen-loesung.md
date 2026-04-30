@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["mikrocontroller-und-atmega", "schnittstellen-und-busse", "i2c-spi-uart-fehlersuche", "uart-i2c-spi-pruefschritte-vergleichen"]
 taskId: "ET-V181-020"
-relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/schnittstellen-und-busse/i2c-spi-uart-fehlersuche/uart-i2c-spi-pruefschritte-vergleichen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/schnittstellen-und-busse/i2c-spi-uart-fehlersuche/uart-i2c-spi-pruefschritte-vergleichen"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

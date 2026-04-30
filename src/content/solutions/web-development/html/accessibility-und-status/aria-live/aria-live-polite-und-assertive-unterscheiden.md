@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "accessibility-und-status", "aria-live", "aria-live-polite-und-assertive-unterscheiden"]
 taskId: "v108-web-development-aria-live-polite-und-assertive-unterscheiden"
-relatedExercise: "web-development/html/accessibility-und-status/aria-live/aria-live-polite-und-assertive-unterscheiden"
+relatedExercise: "src/content/exercises/web-development/html/accessibility-und-status/aria-live/aria-live-polite-und-assertive-unterscheiden"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

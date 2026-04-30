@@ -5,7 +5,7 @@ subject: "linux"
 section: "netzwerk-und-fernzugriff"
 topicPath: ["netzwerk-und-fernzugriff", "netzwerkdiagnose", "netzwerkdiagnose-anwenden-und-pruefen-v186"]
 taskId: "LINUX-NETZWERKDIAGNOSE-V186-2"
-relatedExercise: "src/content/exercises/linux/netzwerk-und-fernzugriff/netzwerkdiagnose/netzwerkdiagnose-anwenden-und-pruefen-v186.md"
+relatedExercise: "src/content/exercises/linux/netzwerk-und-fernzugriff/netzwerkdiagnose/netzwerkdiagnose-anwenden-und-pruefen-v186"
 tags: ["linux", "netzwerk-und-fernzugriff", "loesung"]
 draft: false
 ---

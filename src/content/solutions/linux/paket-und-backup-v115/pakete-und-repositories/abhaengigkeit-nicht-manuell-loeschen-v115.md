@@ -5,7 +5,7 @@ subject: "linux"
 section: "Feinstruktur Linux"
 topicPath: ["paket-und-backup-v115", "pakete-und-repositories", "abhaengigkeit-nicht-manuell-loeschen-v115"]
 taskId: "linux-abhaengigkeit-nicht-manuell-loeschen-v115"
-relatedExercise: "linux/paket-und-backup-v115/pakete-und-repositories/abhaengigkeit-nicht-manuell-loeschen-v115"
+relatedExercise: "src/content/exercises/linux/paket-und-backup-v115/pakete-und-repositories/abhaengigkeit-nicht-manuell-loeschen-v115"
 tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---

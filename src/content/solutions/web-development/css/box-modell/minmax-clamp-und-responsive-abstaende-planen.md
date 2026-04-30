@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "box-modell", "minmax-clamp-und-responsive-abstaende-planen"]
 taskId: "wd-css-v95-minmax-clamp-responsive"
-relatedExercise: "web-development/css/box-modell/minmax-clamp-und-responsive-abstaende-planen"
+relatedExercise: "src/content/exercises/web-development/css/box-modell/minmax-clamp-und-responsive-abstaende-planen"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

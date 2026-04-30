@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Daten und Signale"
 topicPath: ["daten-und-signale", "kalibrierung-und-sensorlinearitaet", "kalibrierbereich-vor-sensorinterpretation-pruefen"]
 taskId: "ET-V182-020"
-relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/kalibrierung-und-sensorlinearitaet/kalibrierbereich-vor-sensorinterpretation-pruefen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/kalibrierung-und-sensorlinearitaet/kalibrierbereich-vor-sensorinterpretation-pruefen"
 tags: ["elektrotechnik", "Daten und Signale", "loesung"]
 draft: false
 ---

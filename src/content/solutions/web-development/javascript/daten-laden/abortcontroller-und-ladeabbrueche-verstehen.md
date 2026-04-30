@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "daten-laden", "abortcontroller-und-ladeabbrueche-verstehen"]
 taskId: "web-v101-abortcontroller-und-ladeabbrueche-verstehen"
-relatedExercise: "web-development/javascript/daten-laden/abortcontroller-und-ladeabbrueche-verstehen"
+relatedExercise: "src/content/exercises/web-development/javascript/daten-laden/abortcontroller-und-ladeabbrueche-verstehen"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

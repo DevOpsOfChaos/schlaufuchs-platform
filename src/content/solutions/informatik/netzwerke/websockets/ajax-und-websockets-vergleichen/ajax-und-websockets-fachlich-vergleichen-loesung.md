@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Netzwerke"
 topicPath: ["netzwerke", "websockets", "ajax-und-websockets-vergleichen", "ajax-und-websockets-fachlich-vergleichen"]
 taskId: "INF-NET-WS-002"
-relatedExercise: "src/content/exercises/informatik/netzwerke/websockets/ajax-und-websockets-vergleichen/ajax-und-websockets-fachlich-vergleichen.md"
+relatedExercise: "src/content/exercises/informatik/netzwerke/websockets/ajax-und-websockets-vergleichen/ajax-und-websockets-fachlich-vergleichen"
 tags: ["informatik", "Netzwerke", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Digitaltechnik"
 topicPath: ["digitale-eingaenge-und-ausgaenge", "pegel-und-entprellung", "pullup-logik", "pullup-tasterlogik-in-code-uebersetzen"]
 taskId: "v107-elektrotechnik-pullup-tasterlogik-in-code-uebersetzen"
-relatedExercise: "elektrotechnik/digitale-eingaenge-und-ausgaenge/pegel-und-entprellung/pullup-logik/pullup-tasterlogik-in-code-uebersetzen"
+relatedExercise: "src/content/exercises/elektrotechnik/digitale-eingaenge-und-ausgaenge/pegel-und-entprellung/pullup-logik/pullup-tasterlogik-in-code-uebersetzen"
 tags: ["elektrotechnik", "Digitaltechnik", "loesung"]
 draft: false
 ---

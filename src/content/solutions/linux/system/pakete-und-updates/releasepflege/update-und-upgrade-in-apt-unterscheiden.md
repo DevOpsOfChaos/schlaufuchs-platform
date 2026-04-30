@@ -5,7 +5,7 @@ subject: "linux"
 section: "System"
 topicPath: ["system", "pakete-und-updates", "releasepflege", "update-und-upgrade-in-apt-unterscheiden"]
 taskId: "v107-linux-update-und-upgrade-in-apt-unterscheiden"
-relatedExercise: "linux/system/pakete-und-updates/releasepflege/update-und-upgrade-in-apt-unterscheiden"
+relatedExercise: "src/content/exercises/linux/system/pakete-und-updates/releasepflege/update-und-upgrade-in-apt-unterscheiden"
 tags: ["linux", "System", "loesung"]
 draft: false
 ---

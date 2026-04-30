@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "responsive-design", "fluid-typography", "clamp-fuer-fluid-typography-lesbar-einsetzen"]
 taskId: "v108-web-development-clamp-fuer-fluid-typography-lesbar-einsetzen"
-relatedExercise: "web-development/css/responsive-design/fluid-typography/clamp-fuer-fluid-typography-lesbar-einsetzen"
+relatedExercise: "src/content/exercises/web-development/css/responsive-design/fluid-typography/clamp-fuer-fluid-typography-lesbar-einsetzen"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

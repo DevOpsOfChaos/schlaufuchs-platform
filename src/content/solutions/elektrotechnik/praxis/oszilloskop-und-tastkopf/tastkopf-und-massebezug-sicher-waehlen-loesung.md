@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Praxis"
 topicPath: ["praxis", "oszilloskop-und-tastkopf", "tastkopf-und-massebezug-sicher-waehlen"]
 taskId: "ET-V181-015"
-relatedExercise: "src/content/exercises/elektrotechnik/praxis/oszilloskop-und-tastkopf/tastkopf-und-massebezug-sicher-waehlen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/praxis/oszilloskop-und-tastkopf/tastkopf-und-massebezug-sicher-waehlen"
 tags: ["elektrotechnik", "Praxis", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "operatoren-in-ausdruecken-und-bedingungen-lesen", "operatoren-in-ausdruecken-und-bedingungen-lesen-aufgabe"]
 taskId: "INF-PHP-ADV-005"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/operatoren-in-ausdruecken-und-bedingungen-lesen/operatoren-in-ausdruecken-und-bedingungen-lesen-aufgabe.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/operatoren-in-ausdruecken-und-bedingungen-lesen/operatoren-in-ausdruecken-und-bedingungen-lesen-aufgabe"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Feinstruktur Elektrotechnik"
 topicPath: ["signale-stoerungen-v115", "kommunikation-robust", "spi-chip-select-einzeln-fuehren-v115"]
 taskId: "elektrotechnik-spi-chip-select-einzeln-fuehren-v115"
-relatedExercise: "elektrotechnik/signale-stoerungen-v115/kommunikation-robust/spi-chip-select-einzeln-fuehren-v115"
+relatedExercise: "src/content/exercises/elektrotechnik/signale-stoerungen-v115/kommunikation-robust/spi-chip-select-einzeln-fuehren-v115"
 tags: ["elektrotechnik", "Feinstruktur Elektrotechnik", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "web-development"
 section: "Feinstruktur Web Development"
 topicPath: ["css-systeme-v115", "layout-entscheidungen", "container-query-als-kontextfrage-lesen-v115"]
 taskId: "web-development-container-query-als-kontextfrage-lesen-v115"
-relatedExercise: "web-development/css-systeme-v115/layout-entscheidungen/container-query-als-kontextfrage-lesen-v115"
+relatedExercise: "src/content/exercises/web-development/css-systeme-v115/layout-entscheidungen/container-query-als-kontextfrage-lesen-v115"
 tags: ["web-development", "Feinstruktur Web Development", "loesung"]
 draft: false
 ---

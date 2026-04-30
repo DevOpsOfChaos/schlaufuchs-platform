@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "cpp", "for-while-und-do-while-vergleichen", "schleifenarten-nach-pruefzeitpunkt-vergleichen"]
 taskId: "INF-PROG-CPP-KONTROLL-003"
-relatedExercise: "src/content/exercises/informatik/programmierung/cpp/for-while-und-do-while-vergleichen/schleifenarten-nach-pruefzeitpunkt-vergleichen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/cpp/for-while-und-do-while-vergleichen/schleifenarten-nach-pruefzeitpunkt-vergleichen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

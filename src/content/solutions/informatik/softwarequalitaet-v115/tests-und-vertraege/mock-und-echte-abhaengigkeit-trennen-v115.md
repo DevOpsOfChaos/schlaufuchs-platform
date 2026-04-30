@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Feinstruktur Informatik"
 topicPath: ["softwarequalitaet-v115", "tests-und-vertraege", "mock-und-echte-abhaengigkeit-trennen-v115"]
 taskId: "informatik-mock-und-echte-abhaengigkeit-trennen-v115"
-relatedExercise: "informatik/softwarequalitaet-v115/tests-und-vertraege/mock-und-echte-abhaengigkeit-trennen-v115"
+relatedExercise: "src/content/exercises/informatik/softwarequalitaet-v115/tests-und-vertraege/mock-und-echte-abhaengigkeit-trennen-v115"
 tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---

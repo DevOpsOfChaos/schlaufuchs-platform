@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "browser-speicher", "localstorage-schema-und-versionierung"]
 taskId: "web-v102-localstorage-schema-und-versionierung"
-relatedExercise: "web-development/javascript/browser-speicher/localstorage-schema-und-versionierung"
+relatedExercise: "src/content/exercises/web-development/javascript/browser-speicher/localstorage-schema-und-versionierung"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

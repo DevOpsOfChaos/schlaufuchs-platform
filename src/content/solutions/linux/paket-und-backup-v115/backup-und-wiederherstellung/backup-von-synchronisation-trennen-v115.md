@@ -5,7 +5,7 @@ subject: "linux"
 section: "Feinstruktur Linux"
 topicPath: ["paket-und-backup-v115", "backup-und-wiederherstellung", "backup-von-synchronisation-trennen-v115"]
 taskId: "linux-backup-von-synchronisation-trennen-v115"
-relatedExercise: "linux/paket-und-backup-v115/backup-und-wiederherstellung/backup-von-synchronisation-trennen-v115"
+relatedExercise: "src/content/exercises/linux/paket-und-backup-v115/backup-und-wiederherstellung/backup-von-synchronisation-trennen-v115"
 tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---

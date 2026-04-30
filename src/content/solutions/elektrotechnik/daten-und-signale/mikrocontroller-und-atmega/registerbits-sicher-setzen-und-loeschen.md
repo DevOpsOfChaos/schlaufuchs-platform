@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "registerbits-sicher-setzen-und-loeschen"]
 taskId: "et-mc-registerbits-sicher-aendern"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/registerbits-sicher-setzen-und-loeschen"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/registerbits-sicher-setzen-und-loeschen"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

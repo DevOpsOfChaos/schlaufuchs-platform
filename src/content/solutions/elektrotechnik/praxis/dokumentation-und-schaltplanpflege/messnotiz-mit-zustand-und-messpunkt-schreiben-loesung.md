@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Praxis"
 topicPath: ["praxis", "dokumentation-und-schaltplanpflege", "messnotiz-mit-zustand-und-messpunkt-schreiben"]
 taskId: "ET-V182-023"
-relatedExercise: "src/content/exercises/elektrotechnik/praxis/dokumentation-und-schaltplanpflege/messnotiz-mit-zustand-und-messpunkt-schreiben.md"
+relatedExercise: "src/content/exercises/elektrotechnik/praxis/dokumentation-und-schaltplanpflege/messnotiz-mit-zustand-und-messpunkt-schreiben"
 tags: ["elektrotechnik", "Praxis", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "grid-und-layout", "seitenraster", "grid-template-areas-fuer-dashboard-layouts-nutzen"]
 taskId: "v107-web-development-grid-template-areas-fuer-dashboard-layouts-nutzen"
-relatedExercise: "web-development/css/grid-und-layout/seitenraster/grid-template-areas-fuer-dashboard-layouts-nutzen"
+relatedExercise: "src/content/exercises/web-development/css/grid-und-layout/seitenraster/grid-template-areas-fuer-dashboard-layouts-nutzen"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

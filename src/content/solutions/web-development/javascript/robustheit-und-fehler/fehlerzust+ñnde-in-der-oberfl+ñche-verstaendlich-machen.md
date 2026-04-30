@@ -5,7 +5,7 @@ subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "robustheit-und-fehler", "fehlerzust+ñnde-in-der-oberfl+ñche-verstaendlich-machen"]
 taskId: "web-js-v99-fehlerzustände-in-der-oberfläche-verstaendlich-machen"
-relatedExercise: "web-development/javascript/robustheit-und-fehler/fehlerzustände-in-der-oberfläche-verstaendlich-machen"
+relatedExercise: "src/content/exercises/web-development/javascript/robustheit-und-fehler/fehlerzust+ñnde-in-der-oberfl+ñche-verstaendlich-machen"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false
 ---

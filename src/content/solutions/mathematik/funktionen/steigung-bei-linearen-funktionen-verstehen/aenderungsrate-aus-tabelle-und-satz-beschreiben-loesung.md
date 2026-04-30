@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Funktionen"
 topicPath: ["funktionen", "steigung-bei-linearen-funktionen-verstehen", "aenderungsrate-aus-tabelle-und-satz-beschreiben"]
 taskId: "MATH-FUNKTIONEN-STEIGUNG-001"
-relatedExercise: "src/content/exercises/mathematik/funktionen/steigung-bei-linearen-funktionen-verstehen/aenderungsrate-aus-tabelle-und-satz-beschreiben.md"
+relatedExercise: "src/content/exercises/mathematik/funktionen/steigung-bei-linearen-funktionen-verstehen/aenderungsrate-aus-tabelle-und-satz-beschreiben"
 tags: ["mathematik", "Funktionen", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Kommunikation"
 topicPath: ["mikrocontroller-und-atmega", "i2c-und-spi-bus", "chip-select", "spi-chip-select-als-geraeteauswahl-verstehen"]
 taskId: "v108-elektrotechnik-spi-chip-select-als-geraeteauswahl-verstehen"
-relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/i2c-und-spi-bus/chip-select/spi-chip-select-als-geraeteauswahl-verstehen"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/i2c-und-spi-bus/chip-select/spi-chip-select-als-geraeteauswahl-verstehen"
 tags: ["elektrotechnik", "Kommunikation", "loesung"]
 draft: false
 ---

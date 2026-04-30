@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Messen"
 topicPath: ["messen-und-fehler", "multimeter-und-messbereich", "strommessung", "strommessung-in-reihe-sicher-planen"]
 taskId: "v107-elektrotechnik-strommessung-in-reihe-sicher-planen"
-relatedExercise: "elektrotechnik/messen-und-fehler/multimeter-und-messbereich/strommessung/strommessung-in-reihe-sicher-planen"
+relatedExercise: "src/content/exercises/elektrotechnik/messen-und-fehler/multimeter-und-messbereich/strommessung/strommessung-in-reihe-sicher-planen"
 tags: ["elektrotechnik", "Messen", "loesung"]
 draft: false
 ---

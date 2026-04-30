@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Kommunikation"
 topicPath: ["mikrocontroller-und-atmega", "schnittstellen-und-fehlerbilder", "uart-fehlerbilder-aus-baudrate-und-massebezug-lesen"]
 taskId: "v106-elektrotechnik-uart-fehlerbilder-aus-baudrate-und-massebezug-lesen"
-relatedExercise: "elektrotechnik/mikrocontroller-und-atmega/schnittstellen-und-fehlerbilder/uart-fehlerbilder-aus-baudrate-und-massebezug-lesen"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/schnittstellen-und-fehlerbilder/uart-fehlerbilder-aus-baudrate-und-massebezug-lesen"
 tags: ["elektrotechnik", "Kommunikation", "loesung"]
 draft: false
 ---

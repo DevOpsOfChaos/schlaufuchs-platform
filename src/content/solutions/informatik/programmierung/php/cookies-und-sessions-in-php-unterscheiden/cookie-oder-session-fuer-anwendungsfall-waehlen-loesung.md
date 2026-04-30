@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "cookies-und-sessions-in-php-unterscheiden", "cookie-oder-session-fuer-anwendungsfall-waehlen"]
 taskId: "INF-PHP-STATE-001"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/cookies-und-sessions-in-php-unterscheiden/cookie-oder-session-fuer-anwendungsfall-waehlen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/cookies-und-sessions-in-php-unterscheiden/cookie-oder-session-fuer-anwendungsfall-waehlen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

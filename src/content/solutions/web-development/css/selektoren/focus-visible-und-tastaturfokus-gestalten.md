@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "selektoren", "focus-visible-und-tastaturfokus-gestalten"]
 taskId: "web-v101-focus-visible-und-tastaturfokus-gestalten"
-relatedExercise: "web-development/css/selektoren/focus-visible-und-tastaturfokus-gestalten"
+relatedExercise: "src/content/exercises/web-development/css/selektoren/focus-visible-und-tastaturfokus-gestalten"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

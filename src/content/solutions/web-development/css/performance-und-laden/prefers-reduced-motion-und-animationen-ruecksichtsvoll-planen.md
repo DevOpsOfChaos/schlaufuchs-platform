@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "performance-und-laden", "prefers-reduced-motion-und-animationen-ruecksichtsvoll-planen"]
 taskId: "web-v101-prefers-reduced-motion-und-animationen-ruecksichtsvoll-planen"
-relatedExercise: "web-development/css/performance-und-laden/prefers-reduced-motion-und-animationen-ruecksichtsvoll-planen"
+relatedExercise: "src/content/exercises/web-development/css/performance-und-laden/prefers-reduced-motion-und-animationen-ruecksichtsvoll-planen"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

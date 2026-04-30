@@ -5,7 +5,7 @@ subject: "informatik"
 section: "programmablauf-und-steuerung"
 topicPath: ["programmablauf-und-steuerung", "eingabe-verarbeitung-ausgabe", "eingabe-verarbeitung-ausgabe-anwenden-und-pruefen-v184"]
 taskId: "INF-EINGABE-VERARBEITUNG-AUSGABE-842"
-relatedExercise: "src/content/exercises/informatik/programmablauf-und-steuerung/eingabe-verarbeitung-ausgabe/eingabe-verarbeitung-ausgabe-anwenden-und-pruefen-v184.md"
+relatedExercise: "src/content/exercises/informatik/programmablauf-und-steuerung/eingabe-verarbeitung-ausgabe/eingabe-verarbeitung-ausgabe-anwenden-und-pruefen-v184"
 tags: ["informatik", "programmablauf-und-steuerung", "loesung"]
 draft: false
 ---

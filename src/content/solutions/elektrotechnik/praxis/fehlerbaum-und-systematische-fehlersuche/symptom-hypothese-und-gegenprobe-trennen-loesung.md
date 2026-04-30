@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Praxis"
 topicPath: ["praxis", "fehlerbaum-und-systematische-fehlersuche", "symptom-hypothese-und-gegenprobe-trennen"]
 taskId: "ET-V182-001"
-relatedExercise: "src/content/exercises/elektrotechnik/praxis/fehlerbaum-und-systematische-fehlersuche/symptom-hypothese-und-gegenprobe-trennen.md"
+relatedExercise: "src/content/exercises/elektrotechnik/praxis/fehlerbaum-und-systematische-fehlersuche/symptom-hypothese-und-gegenprobe-trennen"
 tags: ["elektrotechnik", "Praxis", "loesung"]
 draft: false
 ---

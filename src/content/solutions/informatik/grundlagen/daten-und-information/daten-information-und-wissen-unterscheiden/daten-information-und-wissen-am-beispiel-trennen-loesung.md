@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Grundlagen"
 topicPath: ["grundlagen", "daten-und-information", "daten-information-und-wissen-unterscheiden", "daten-information-und-wissen-am-beispiel-trennen"]
 taskId: "INF-DATA-INFO-001"
-relatedExercise: "src/content/exercises/informatik/grundlagen/daten-und-information/daten-information-und-wissen-unterscheiden/daten-information-und-wissen-am-beispiel-trennen.md"
+relatedExercise: "src/content/exercises/informatik/grundlagen/daten-und-information/daten-information-und-wissen-unterscheiden/daten-information-und-wissen-am-beispiel-trennen"
 tags: ["informatik", "Grundlagen", "loesung"]
 draft: false
 ---

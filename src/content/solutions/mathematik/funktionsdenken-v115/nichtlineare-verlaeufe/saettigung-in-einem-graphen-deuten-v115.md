@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Feinstruktur Mathematik"
 topicPath: ["funktionsdenken-v115", "nichtlineare-verlaeufe", "saettigung-in-einem-graphen-deuten-v115"]
 taskId: "mathematik-saettigung-in-einem-graphen-deuten-v115"
-relatedExercise: "mathematik/funktionsdenken-v115/nichtlineare-verlaeufe/saettigung-in-einem-graphen-deuten-v115"
+relatedExercise: "src/content/exercises/mathematik/funktionsdenken-v115/nichtlineare-verlaeufe/saettigung-in-einem-graphen-deuten-v115"
 tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---

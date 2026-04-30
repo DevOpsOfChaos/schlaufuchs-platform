@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "reset-brown-out-und-startverhalten"]
 taskId: "et-mc-v92-reset-brownout"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/reset-brown-out-und-startverhalten"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/reset-brown-out-und-startverhalten"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

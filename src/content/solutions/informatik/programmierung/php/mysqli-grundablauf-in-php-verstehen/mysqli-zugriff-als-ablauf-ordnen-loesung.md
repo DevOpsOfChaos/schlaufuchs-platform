@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "mysqli-grundablauf-in-php-verstehen", "mysqli-zugriff-als-ablauf-ordnen"]
 taskId: "INF-PHP-MYSQL-001"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/mysqli-grundablauf-in-php-verstehen/mysqli-zugriff-als-ablauf-ordnen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/mysqli-grundablauf-in-php-verstehen/mysqli-zugriff-als-ablauf-ordnen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

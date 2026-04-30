@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Datenstrukturen im Einsatz"
 topicPath: ["datenstrukturen-im-einsatz", "hash-tabellen-und-lookup", "hash-tabellen-und-lookup-anwenden-und-pruefen-v185"]
 taskId: "INF-V185-012-2"
-relatedExercise: "src/content/exercises/informatik/datenstrukturen-im-einsatz/hash-tabellen-und-lookup/hash-tabellen-und-lookup-anwenden-und-pruefen-v185.md"
+relatedExercise: "src/content/exercises/informatik/datenstrukturen-im-einsatz/hash-tabellen-und-lookup/hash-tabellen-und-lookup-anwenden-und-pruefen-v185"
 tags: ["informatik", "Datenstrukturen im Einsatz", "loesung"]
 draft: false
 ---

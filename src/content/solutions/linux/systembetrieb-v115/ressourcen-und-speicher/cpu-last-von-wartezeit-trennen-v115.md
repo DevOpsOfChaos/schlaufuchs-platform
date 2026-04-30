@@ -5,7 +5,7 @@ subject: "linux"
 section: "Feinstruktur Linux"
 topicPath: ["systembetrieb-v115", "ressourcen-und-speicher", "cpu-last-von-wartezeit-trennen-v115"]
 taskId: "linux-cpu-last-von-wartezeit-trennen-v115"
-relatedExercise: "linux/systembetrieb-v115/ressourcen-und-speicher/cpu-last-von-wartezeit-trennen-v115"
+relatedExercise: "src/content/exercises/linux/systembetrieb-v115/ressourcen-und-speicher/cpu-last-von-wartezeit-trennen-v115"
 tags: ["linux", "Feinstruktur Linux", "loesung"]
 draft: false
 ---

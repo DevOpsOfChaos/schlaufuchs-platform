@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "navigation-und-menues", "skip-link-und-landmarks-zur-orientierung"]
 taskId: "web-v101-skip-link-und-landmarks-zur-orientierung"
-relatedExercise: "web-development/html/navigation-und-menues/skip-link-und-landmarks-zur-orientierung"
+relatedExercise: "src/content/exercises/web-development/html/navigation-und-menues/skip-link-und-landmarks-zur-orientierung"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Programmierung"
 topicPath: ["programmierung", "php", "filter-und-validierung-fuer-get-und-post-trennen", "quelle-existenz-und-gueltigkeit-trennen"]
 taskId: "INF-PHP-FILTER-003"
-relatedExercise: "src/content/exercises/informatik/programmierung/php/filter-und-validierung-fuer-get-und-post-trennen/quelle-existenz-und-gueltigkeit-trennen.md"
+relatedExercise: "src/content/exercises/informatik/programmierung/php/filter-und-validierung-fuer-get-und-post-trennen/quelle-existenz-und-gueltigkeit-trennen"
 tags: ["informatik", "Programmierung", "loesung"]
 draft: false
 ---

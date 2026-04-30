@@ -5,7 +5,7 @@ subject: "mathematik"
 section: "Feinstruktur Mathematik"
 topicPath: ["daten-und-zufall-v115", "diagramme-kritisch-lesen", "streuung-neben-lage-betrachten-v115"]
 taskId: "mathematik-streuung-neben-lage-betrachten-v115"
-relatedExercise: "mathematik/daten-und-zufall-v115/diagramme-kritisch-lesen/streuung-neben-lage-betrachten-v115"
+relatedExercise: "src/content/exercises/mathematik/daten-und-zufall-v115/diagramme-kritisch-lesen/streuung-neben-lage-betrachten-v115"
 tags: ["mathematik", "Feinstruktur Mathematik", "loesung"]
 draft: false
 ---

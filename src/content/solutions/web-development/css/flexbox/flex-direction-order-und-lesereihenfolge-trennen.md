@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "flexbox", "flex-direction-order-und-lesereihenfolge-trennen"]
 taskId: "wd-v97-flex-direction-order-und-lesereihenfolge-trennen"
-relatedExercise: "web-development/css/flexbox/flex-direction-order-und-lesereihenfolge-trennen"
+relatedExercise: "src/content/exercises/web-development/css/flexbox/flex-direction-order-und-lesereihenfolge-trennen"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

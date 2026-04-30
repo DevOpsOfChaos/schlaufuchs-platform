@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "formulare-und-eingaben", "input-type-autocomplete-und-mobile-tastaturen"]
 taskId: "input-type-autocomplete-und-mobile-tastaturen"
-relatedExercise: "web-development/html/formulare-und-eingaben/input-type-autocomplete-und-mobile-tastaturen"
+relatedExercise: "src/content/exercises/web-development/html/formulare-und-eingaben/input-type-autocomplete-und-mobile-tastaturen"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

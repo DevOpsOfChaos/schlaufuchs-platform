@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Datenbanken"
 topicPath: ["datenbanken", "tabellen-und-schluessel", "tabellen-und-schluessel-anwenden-und-pruefen-v183"]
 taskId: "INF-V183-08-B"
-relatedExercise: "src/content/exercises/informatik/datenbanken/tabellen-und-schluessel/tabellen-und-schluessel-anwenden-und-pruefen-v183.md"
+relatedExercise: "src/content/exercises/informatik/datenbanken/tabellen-und-schluessel/tabellen-und-schluessel-anwenden-und-pruefen-v183"
 tags: ["informatik", "Datenbanken", "loesung"]
 draft: false
 ---

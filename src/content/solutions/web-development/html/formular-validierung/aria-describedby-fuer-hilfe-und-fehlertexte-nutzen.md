@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "formular-validierung", "aria-describedby-fuer-hilfe-und-fehlertexte-nutzen"]
 taskId: "aria-describedby-fuer-hilfe-und-fehlertexte-nutzen"
-relatedExercise: "web-development/html/formular-validierung/aria-describedby-fuer-hilfe-und-fehlertexte-nutzen"
+relatedExercise: "src/content/exercises/web-development/html/formular-validierung/aria-describedby-fuer-hilfe-und-fehlertexte-nutzen"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

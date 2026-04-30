@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "responsive-layouts", "aspect-ratio-und-bildkarten-stabilisieren"]
 taskId: "wd-v97-aspect-ratio-und-bildkarten-stabilisieren"
-relatedExercise: "web-development/css/responsive-layouts/aspect-ratio-und-bildkarten-stabilisieren"
+relatedExercise: "src/content/exercises/web-development/css/responsive-layouts/aspect-ratio-und-bildkarten-stabilisieren"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

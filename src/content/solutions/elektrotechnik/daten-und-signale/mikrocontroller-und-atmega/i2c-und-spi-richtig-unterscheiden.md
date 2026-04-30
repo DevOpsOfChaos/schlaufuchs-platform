@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "i2c-und-spi-richtig-unterscheiden"]
 taskId: "et-mc-i2c-spi-vergleich"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/i2c-und-spi-richtig-unterscheiden"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/i2c-und-spi-richtig-unterscheiden"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

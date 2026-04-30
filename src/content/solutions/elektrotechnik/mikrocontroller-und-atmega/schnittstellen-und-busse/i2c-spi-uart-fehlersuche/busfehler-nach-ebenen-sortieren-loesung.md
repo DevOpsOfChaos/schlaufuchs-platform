@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["mikrocontroller-und-atmega", "schnittstellen-und-busse", "i2c-spi-uart-fehlersuche", "busfehler-nach-ebenen-sortieren"]
 taskId: "ET-V181-019"
-relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/schnittstellen-und-busse/i2c-spi-uart-fehlersuche/busfehler-nach-ebenen-sortieren.md"
+relatedExercise: "src/content/exercises/elektrotechnik/mikrocontroller-und-atmega/schnittstellen-und-busse/i2c-spi-uart-fehlersuche/busfehler-nach-ebenen-sortieren"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---

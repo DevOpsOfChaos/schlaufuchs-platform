@@ -5,7 +5,7 @@ subject: "web-development"
 section: "CSS"
 topicPath: ["css", "vererbung-in-css-verstehen", "vererbbare-und-nicht-vererbbare-eigenschaften-trennen"]
 taskId: "WEB-CSS-CORE-103"
-relatedExercise: "src/content/exercises/web-development/css/vererbung-in-css-verstehen/vererbbare-und-nicht-vererbbare-eigenschaften-trennen.md"
+relatedExercise: "src/content/exercises/web-development/css/vererbung-in-css-verstehen/vererbbare-und-nicht-vererbbare-eigenschaften-trennen"
 tags: ["web-development", "CSS", "loesung"]
 draft: false
 ---

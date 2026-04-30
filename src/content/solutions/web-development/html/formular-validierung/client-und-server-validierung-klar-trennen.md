@@ -5,7 +5,7 @@ subject: "web-development"
 section: "HTML"
 topicPath: ["html", "formular-validierung", "client-und-server-validierung-klar-trennen"]
 taskId: "web-v101-client-und-server-validierung-klar-trennen"
-relatedExercise: "web-development/html/formular-validierung/client-und-server-validierung-klar-trennen"
+relatedExercise: "src/content/exercises/web-development/html/formular-validierung/client-und-server-validierung-klar-trennen"
 tags: ["web-development", "HTML", "loesung"]
 draft: false
 ---

@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Algorithmen"
 topicPath: ["algorithmen", "korrektheit-und-beweise", "schleifeninvariante", "schleifeninvariante-in-alltagssprache-formulieren"]
 taskId: "v108-informatik-schleifeninvariante-in-alltagssprache-formulieren"
-relatedExercise: "informatik/algorithmen/korrektheit-und-beweise/schleifeninvariante/schleifeninvariante-in-alltagssprache-formulieren"
+relatedExercise: "src/content/exercises/informatik/algorithmen/korrektheit-und-beweise/schleifeninvariante/schleifeninvariante-in-alltagssprache-formulieren"
 tags: ["informatik", "Algorithmen", "loesung"]
 draft: false
 ---

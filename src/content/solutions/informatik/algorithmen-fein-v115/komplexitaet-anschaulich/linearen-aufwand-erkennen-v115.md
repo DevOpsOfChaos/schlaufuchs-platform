@@ -5,7 +5,7 @@ subject: "informatik"
 section: "Feinstruktur Informatik"
 topicPath: ["algorithmen-fein-v115", "komplexitaet-anschaulich", "linearen-aufwand-erkennen-v115"]
 taskId: "informatik-linearen-aufwand-erkennen-v115"
-relatedExercise: "informatik/algorithmen-fein-v115/komplexitaet-anschaulich/linearen-aufwand-erkennen-v115"
+relatedExercise: "src/content/exercises/informatik/algorithmen-fein-v115/komplexitaet-anschaulich/linearen-aufwand-erkennen-v115"
 tags: ["informatik", "Feinstruktur Informatik", "loesung"]
 draft: false
 ---

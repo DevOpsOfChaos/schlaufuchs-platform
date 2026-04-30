@@ -5,7 +5,7 @@ subject: "elektrotechnik"
 section: "Mikrocontroller und ATmega"
 topicPath: ["daten-und-signale", "mikrocontroller-und-atmega", "fehlersuche-mit-led-uart-und-messgeraet"]
 taskId: "et-mc-debugging-led-uart-messgeraet"
-relatedExercise: "elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/fehlersuche-mit-led-uart-und-messgeraet"
+relatedExercise: "src/content/exercises/elektrotechnik/daten-und-signale/mikrocontroller-und-atmega/fehlersuche-mit-led-uart-und-messgeraet"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega", "loesung"]
 draft: false
 ---
