@@ -85,11 +85,11 @@ HTML beschreibt nicht nur, **dass** es irgendwo Inhalt gibt, sondern auch, **wel
 
 ## Was diese Seite bewusst nicht doppelt erklärt
 
-Diese Grundseite klärt nur die **große Denkordnung**. Für die genauere Unterscheidung einzelner Rollen gibt es eigene Seiten:
-
 - `header`, `main`, `footer` und `nav` für das Seitengerüst
 - `article`, `section` und `aside` für die Inhaltsstruktur
 
 <div class="note-panel">
   <p><strong>Merke:</strong> Gute HTML-Semantik wird klarer, sobald du zuerst zwischen <strong>Seitengerüst</strong> und <strong>Inhaltsstruktur</strong> trennst.</p>
 </div>
+
+

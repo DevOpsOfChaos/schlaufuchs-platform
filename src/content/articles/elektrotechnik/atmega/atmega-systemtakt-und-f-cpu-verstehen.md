@@ -139,8 +139,6 @@ Die zweite Variante ist also pro Takt doppelt langsam. Genau deshalb verändern 
 - wie UART Registerwerte für Baudraten nutzt,
 - oder wie PWM aus Timer und Compare entsteht.
 
-Genau dafür gibt es eigene Seiten, damit die Themen nicht ineinanderlaufen.
-
 ## Eine ruhige Prüfstrategie
 
 <div class="step-grid">
@@ -165,3 +163,4 @@ Genau dafür gibt es eigene Seiten, damit die Themen nicht ineinanderlaufen.
 <div class="note-panel">
   <p><strong>Merke:</strong> Viele AVR-Probleme sind im Kern keine „Timerprobleme“ oder „UART-Probleme“, sondern zuerst einmal <strong>Taktprobleme</strong>.</p>
 </div>
+

@@ -96,8 +96,6 @@ Die Registerbits wählen hier nicht „eine Zeit“, sondern erst einmal eine **
 - Breite des Timers,
 - und eventuell zusätzlicher Logik wie Compare-Match oder Softwarezähler.
 
-Hier geht es um die didaktische Grundidee von **Takt → Prescaler → Timerzähler → Ereignis**. Themen wie PWM, Compare-Register oder komplexere Timer-Modi bauen darauf auf, gehören aber auf eigene Seiten.
-
 ## Eine ruhige Prüfstrategie
 
 1. Welcher CPU- oder Peripherietakt liegt an?
@@ -108,3 +106,5 @@ Hier geht es um die didaktische Grundidee von **Takt → Prescaler → Timerzäh
 <div class="note-panel">
   <p><strong>Merke:</strong> Ein Timer zählt Taktimpulse. Erst mit dem Prescaler und der Zählerbreite wird daraus eine verständliche Zeitbasis.</p>
 </div>
+
+
