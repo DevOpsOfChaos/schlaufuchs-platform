@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Sicherheit und Berechtigungen"]
 draft: false
 ---
-![Schaubild: Bedrohungsmodelle](/schlaufuchs-platform/images/overviews/v185/bedrohungsmodelle.svg)
+![Schaubild: Bedrohungsmodelle](/schlaufuchs-platform/images/overviews/informatik/bedrohungsmodelle.svg)
 
 ## Begriff
 

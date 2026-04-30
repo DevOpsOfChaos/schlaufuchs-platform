@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["elektrotechnik", "Praxis"]
 draft: false
 ---
-![Fehlerbaum und systematische Fehlersuche](/schlaufuchs-platform/images/overviews/v182/fehlerbaum-und-systematische-fehlersuche.svg)
+![Fehlerbaum und systematische Fehlersuche](/schlaufuchs-platform/images/overviews/elektrotechnik/fehlerbaum-und-systematische-fehlersuche.svg)
 
 ## Überblick
 

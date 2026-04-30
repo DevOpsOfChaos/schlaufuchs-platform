@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Netzwerke und Dienste"]
 draft: false
 ---
-![Schaubild: Schnittstellenverträge und Versionierung](/schlaufuchs-platform/images/overviews/v185/schnittstellenvertraege-und-versionierung.svg)
+![Schaubild: Schnittstellenverträge und Versionierung](/schlaufuchs-platform/images/overviews/informatik/schnittstellenvertraege-und-versionierung.svg)
 
 ## Begriff
 

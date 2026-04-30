@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["linux", "dateisystem-und-rechte"]
 draft: false
 ---
-![Archive und Kompression](/schlaufuchs-platform/images/overviews/v186/archive-und-kompression.svg)
+![Archive und Kompression](/schlaufuchs-platform/images/overviews/linux/archive-und-kompression.svg)
 
 ## Begriff
 

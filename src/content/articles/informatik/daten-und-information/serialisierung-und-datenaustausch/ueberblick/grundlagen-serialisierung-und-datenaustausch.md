@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Daten und Information"]
 draft: false
 ---
-![Schaubild: Serialisierung und Datenaustausch](/schlaufuchs-platform/images/overviews/v185/serialisierung-und-datenaustausch.svg)
+![Schaubild: Serialisierung und Datenaustausch](/schlaufuchs-platform/images/overviews/informatik/serialisierung-und-datenaustausch.svg)
 
 ## Begriff
 

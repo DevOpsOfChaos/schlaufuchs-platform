@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["linux", "praxis-und-betrieb"]
 draft: false
 ---
-![Linux-Fehlerdiagnose](/schlaufuchs-platform/images/overviews/v186/linux-fehlerdiagnose.svg)
+![Linux-Fehlerdiagnose](/schlaufuchs-platform/images/overviews/linux/linux-fehlerdiagnose.svg)
 
 ## Begriff
 

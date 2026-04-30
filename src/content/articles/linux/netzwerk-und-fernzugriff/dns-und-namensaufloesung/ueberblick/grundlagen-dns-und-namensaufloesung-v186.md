@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["linux", "netzwerk-und-fernzugriff"]
 draft: false
 ---
-![DNS und Namensauflösung](/schlaufuchs-platform/images/overviews/v186/dns-und-namensaufloesung.svg)
+![DNS und Namensauflösung](/schlaufuchs-platform/images/overviews/linux/dns-und-namensaufloesung.svg)
 
 ## Begriff
 

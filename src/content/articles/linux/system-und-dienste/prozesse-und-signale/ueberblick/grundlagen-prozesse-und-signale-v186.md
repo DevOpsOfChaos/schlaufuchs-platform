@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["linux", "system-und-dienste"]
 draft: false
 ---
-![Prozesse und Signale](/schlaufuchs-platform/images/overviews/v186/prozesse-und-signale.svg)
+![Prozesse und Signale](/schlaufuchs-platform/images/overviews/linux/prozesse-und-signale.svg)
 
 ## Begriff
 

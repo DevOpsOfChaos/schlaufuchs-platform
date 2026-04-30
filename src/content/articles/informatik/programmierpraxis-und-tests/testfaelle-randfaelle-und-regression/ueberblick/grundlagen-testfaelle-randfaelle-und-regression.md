@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["informatik", "programmierpraxis-und-tests"]
 draft: false
 ---
-![Tests als Sicherheitsnetz](/schlaufuchs-platform/images/overviews/v184/testfaelle-randfaelle-regression.svg)
+![Tests als Sicherheitsnetz](/schlaufuchs-platform/images/overviews/informatik/testfaelle-randfaelle-regression.svg)
 
 ## Begriff
 

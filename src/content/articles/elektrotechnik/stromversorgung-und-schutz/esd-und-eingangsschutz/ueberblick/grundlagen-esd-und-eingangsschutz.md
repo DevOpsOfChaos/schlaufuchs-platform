@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["elektrotechnik", "Stromversorgung und Schutz"]
 draft: false
 ---
-![ESD und Eingangsschutz](/schlaufuchs-platform/images/overviews/v182/esd-und-eingangsschutz.svg)
+![ESD und Eingangsschutz](/schlaufuchs-platform/images/overviews/elektrotechnik/esd-und-eingangsschutz.svg)
 
 ## Überblick
 

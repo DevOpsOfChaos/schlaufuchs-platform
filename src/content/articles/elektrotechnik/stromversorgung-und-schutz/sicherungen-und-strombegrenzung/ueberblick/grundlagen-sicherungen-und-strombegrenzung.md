@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["elektrotechnik", "Stromversorgung und Schutz"]
 draft: false
 ---
-![Strombegrenzung als Schutzkette](/schlaufuchs-platform/images/overviews/v181/sicherungen-und-strombegrenzung.svg)
+![Strombegrenzung als Schutzkette](/schlaufuchs-platform/images/overviews/elektrotechnik/sicherungen-und-strombegrenzung.svg)
 
 ## Überblick
 

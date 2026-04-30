@@ -14,7 +14,6 @@ level: "einfach"
 tags: ["elektrotechnik", "Grundlagen Elektrotechnik"]
 draft: false
 ---
-![Grundlagen: Netzwerkanalyse](/schlaufuchs-platform/images/overviews/v179/netzwerkanalyse.svg)
 
 Netzwerkanalyse bedeutet, eine Schaltung nicht nur als Bild zu betrachten, sondern als Zusammenhang aus Knoten, Zweigen, Maschen, Spannungen und Strömen zu lesen.
 

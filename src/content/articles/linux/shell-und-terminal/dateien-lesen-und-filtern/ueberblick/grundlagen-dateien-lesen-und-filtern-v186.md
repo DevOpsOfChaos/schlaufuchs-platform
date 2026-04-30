@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["linux", "shell-und-terminal"]
 draft: false
 ---
-![Dateien lesen und filtern](/schlaufuchs-platform/images/overviews/v186/dateien-lesen-und-filtern.svg)
+![Dateien lesen und filtern](/schlaufuchs-platform/images/overviews/linux/dateien-lesen-und-filtern.svg)
 
 ## Begriff
 

@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Sicherheit und Berechtigungen"]
 draft: false
 ---
-![Schaubild: Verschlüsselung, Hashing und Signaturen](/schlaufuchs-platform/images/overviews/v185/verschluesselung-hashing-und-signaturen.svg)
+![Schaubild: Verschlüsselung, Hashing und Signaturen](/schlaufuchs-platform/images/overviews/informatik/verschluesselung-hashing-und-signaturen.svg)
 
 ## Begriff
 

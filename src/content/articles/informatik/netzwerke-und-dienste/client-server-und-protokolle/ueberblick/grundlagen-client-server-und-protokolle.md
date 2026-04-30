@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Netzwerke und Dienste"]
 draft: false
 ---
-![Schaubild zu Client, Server und Protokolle](/schlaufuchs-platform/images/overviews/v183/informatik-client-server-und-protokolle.svg)
+![Schaubild zu Client, Server und Protokolle](/schlaufuchs-platform/images/overviews/informatik/informatik-client-server-und-protokolle.svg)
 
 ## Begriff
 

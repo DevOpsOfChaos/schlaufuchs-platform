@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["informatik", "Programmierpraxis und Tests"]
 draft: false
 ---
-![Schaubild zu Testfälle und Randfälle](/schlaufuchs-platform/images/overviews/v183/informatik-testfaelle-und-randfaelle.svg)
+![Schaubild zu Testfälle und Randfälle](/schlaufuchs-platform/images/overviews/informatik/informatik-testfaelle-und-randfaelle.svg)
 
 ## Begriff
 

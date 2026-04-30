@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Programmierpraxis und Tests"]
 draft: false
 ---
-![Schaubild: Eingabevalidierung](/schlaufuchs-platform/images/overviews/v185/eingabevalidierung.svg)
+![Schaubild: Eingabevalidierung](/schlaufuchs-platform/images/overviews/informatik/eingabevalidierung.svg)
 
 ## Begriff
 

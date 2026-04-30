@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["elektrotechnik", "Praxis"]
 draft: false
 ---
-![Wackelkontakte und Kontaktprobleme](/schlaufuchs-platform/images/overviews/v182/wackelkontakte-und-kontaktprobleme.svg)
+![Wackelkontakte und Kontaktprobleme](/schlaufuchs-platform/images/overviews/elektrotechnik/wackelkontakte-und-kontaktprobleme.svg)
 
 ## Überblick
 

@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["linux", "system-und-dienste"]
 draft: false
 ---
-![Dienste und systemd](/schlaufuchs-platform/images/overviews/v186/dienste-und-systemd.svg)
+![Dienste und systemd](/schlaufuchs-platform/images/overviews/linux/dienste-und-systemd.svg)
 
 ## Begriff
 

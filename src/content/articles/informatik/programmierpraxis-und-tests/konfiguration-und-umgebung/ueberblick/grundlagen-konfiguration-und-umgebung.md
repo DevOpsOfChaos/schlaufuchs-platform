@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Programmierpraxis und Tests"]
 draft: false
 ---
-![Schaubild: Konfiguration und Umgebung](/schlaufuchs-platform/images/overviews/v185/konfiguration-und-umgebung.svg)
+![Schaubild: Konfiguration und Umgebung](/schlaufuchs-platform/images/overviews/informatik/konfiguration-und-umgebung.svg)
 
 ## Begriff
 

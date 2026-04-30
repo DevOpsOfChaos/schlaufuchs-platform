@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-![Taktquelle und Timing-Genauigkeit](/schlaufuchs-platform/images/overviews/v182/taktquelle-und-timing-genauigkeit.svg)
+![Taktquelle und Timing-Genauigkeit](/schlaufuchs-platform/images/overviews/elektrotechnik/taktquelle-und-timing-genauigkeit.svg)
 
 ## Überblick
 

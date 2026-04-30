@@ -18,7 +18,7 @@ draft: false
 
 Mikrocontroller kommunizieren mit anderen Bausteinen über Schnittstellen. Besonders häufig begegnen **UART**, **I2C** und **SPI**. Alle übertragen Daten, unterscheiden sich aber deutlich in Leitungen, Rollen und Ablauf.
 
-![UART, I2C und SPI vergleichen](/schlaufuchs-platform/images/overviews/v180/uart-i2c-spi-vergleichen.svg)
+![UART, I2C und SPI vergleichen](/schlaufuchs-platform/images/overviews/elektrotechnik/uart-i2c-spi-vergleichen.svg)
 
 ## Warum ein Vergleich wichtig ist
 

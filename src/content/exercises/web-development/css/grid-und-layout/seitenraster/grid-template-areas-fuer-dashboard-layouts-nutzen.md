@@ -4,7 +4,7 @@ description: "Übe Grid-Layout mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "web-development"
 section: "CSS"
 topicPath: ["css", "grid-und-layout", "seitenraster", "grid-template-areas-fuer-dashboard-layouts-nutzen"]
-taskId: "v107-web-development-grid-template-areas-fuer-dashboard-layouts-nutzen"
+taskId: "web-development-grid-template-areas-fuer-dashboard-layouts-nutzen"
 tags: ["web-development", "CSS", "aufgabe"]
 hintPoints: []
 selfCheckPoints: []

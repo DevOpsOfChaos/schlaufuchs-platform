@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["informatik", "programmierpraxis-und-tests"]
 draft: false
 ---
-![Funktion als Vertrag](/schlaufuchs-platform/images/overviews/v184/funktionen-schnittstellen-rueckgabewerte.svg)
+![Funktion als Vertrag](/schlaufuchs-platform/images/overviews/informatik/funktionen-schnittstellen-rueckgabewerte.svg)
 
 ## Begriff
 

@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Datenstrukturen im Einsatz"]
 draft: false
 ---
-![Schaubild: Baumstrukturen](/schlaufuchs-platform/images/overviews/v185/baumstrukturen.svg)
+![Schaubild: Baumstrukturen](/schlaufuchs-platform/images/overviews/informatik/baumstrukturen.svg)
 
 ## Begriff
 

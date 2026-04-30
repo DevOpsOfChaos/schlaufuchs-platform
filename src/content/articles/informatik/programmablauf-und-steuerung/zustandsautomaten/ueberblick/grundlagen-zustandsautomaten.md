@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Programmablauf und Steuerung"]
 draft: false
 ---
-![Schaubild: Zustandsautomaten](/schlaufuchs-platform/images/overviews/v185/zustandsautomaten.svg)
+![Schaubild: Zustandsautomaten](/schlaufuchs-platform/images/overviews/informatik/zustandsautomaten.svg)
 
 ## Begriff
 

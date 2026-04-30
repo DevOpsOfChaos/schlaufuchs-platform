@@ -4,7 +4,7 @@ description: "Musterlösung zu HTML-Landmarks mit Einordnung, Prüfschritt und G
 subject: "web-development"
 section: "HTML"
 topicPath: ["html", "semantik-und-landmarks", "seitenregionen", "landmark-regionen-ohne-div-suppe-planen"]
-taskId: "v107-web-development-landmark-regionen-ohne-div-suppe-planen"
+taskId: "web-development-landmark-regionen-ohne-div-suppe-planen"
 relatedExercise: "src/content/exercises/web-development/html/semantik-und-landmarks/seitenregionen/landmark-regionen-ohne-div-suppe-planen"
 tags: ["web-development", "HTML", "loesung"]
 draft: false

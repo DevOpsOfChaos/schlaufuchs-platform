@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Programmablauf und Steuerung"]
 draft: false
 ---
-![Schaubild: Binärlogik und Bedingungen](/schlaufuchs-platform/images/overviews/v185/binaerlogik-und-bedingungen.svg)
+![Schaubild: Binärlogik und Bedingungen](/schlaufuchs-platform/images/overviews/informatik/binaerlogik-und-bedingungen.svg)
 
 ## Begriff
 

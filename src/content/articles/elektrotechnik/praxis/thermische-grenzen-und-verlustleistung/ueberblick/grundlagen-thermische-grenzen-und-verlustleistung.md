@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["elektrotechnik", "Praxis"]
 draft: false
 ---
-![Elektrische Leistung wird Wärme](/schlaufuchs-platform/images/overviews/v181/thermische-grenzen-und-verlustleistung.svg)
+![Elektrische Leistung wird Wärme](/schlaufuchs-platform/images/overviews/elektrotechnik/thermische-grenzen-und-verlustleistung.svg)
 
 ## Überblick
 

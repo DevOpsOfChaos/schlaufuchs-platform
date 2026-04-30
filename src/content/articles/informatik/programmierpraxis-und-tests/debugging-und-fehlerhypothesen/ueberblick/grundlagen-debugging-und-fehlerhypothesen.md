@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "programmierpraxis-und-tests"]
 draft: false
 ---
-![Debugging als Prüfprozess](/schlaufuchs-platform/images/overviews/v184/debugging-und-fehlerhypothesen-v184.svg)
+![Debugging als Prüfprozess](/schlaufuchs-platform/images/overviews/informatik/debugging-und-fehlerhypothesen.svg)
 
 ## Begriff
 

@@ -4,7 +4,7 @@ description: "Übe Responsive Bilder mit Einordnung, Prüfschritt und Gegenprobe
 subject: "web-development"
 section: "HTML"
 topicPath: ["html", "medien-und-bilder", "ladegewicht", "bildgroessen-fuer-mobile-layouts-abschaetzen"]
-taskId: "v107-web-development-bildgroessen-fuer-mobile-layouts-abschaetzen"
+taskId: "web-development-bildgroessen-fuer-mobile-layouts-abschaetzen"
 tags: ["web-development", "HTML", "aufgabe"]
 hintPoints: []
 selfCheckPoints: []

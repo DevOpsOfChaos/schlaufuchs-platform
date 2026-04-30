@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["elektrotechnik", "Digitale Eingänge und Ausgänge"]
 draft: false
 ---
-![3,3 V und 5 V sauber koppeln](/schlaufuchs-platform/images/overviews/v181/pegelwandler-und-logikspannungen.svg)
+![3,3 V und 5 V sauber koppeln](/schlaufuchs-platform/images/overviews/elektrotechnik/pegelwandler-und-logikspannungen.svg)
 
 ## Überblick
 

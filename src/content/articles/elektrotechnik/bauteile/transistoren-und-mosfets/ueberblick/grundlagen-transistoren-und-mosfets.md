@@ -18,7 +18,7 @@ draft: false
 
 Transistoren und MOSFETs werden häufig als **steuerbare Schalter** eingesetzt. Ein kleines Steuersignal kann dabei einen größeren Laststrom beeinflussen. Gerade für Mikrocontroller ist das wichtig, weil Pins nur begrenzte Ströme liefern können.
 
-![Transistor und MOSFET als Schalter](/schlaufuchs-platform/images/overviews/v180/transistoren-und-mosfets.svg)
+![Transistor und MOSFET als Schalter](/schlaufuchs-platform/images/overviews/elektrotechnik/transistoren-und-mosfets.svg)
 
 ## Warum braucht man Schaltstufen?
 

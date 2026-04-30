@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Programmierpraxis und Tests"]
 draft: false
 ---
-![Schaubild: Abhängigkeiten und Schnittstellengrenzen](/schlaufuchs-platform/images/overviews/v185/abhaengigkeiten-und-schnittstellengrenzen.svg)
+![Schaubild: Abhängigkeiten und Schnittstellengrenzen](/schlaufuchs-platform/images/overviews/informatik/abhaengigkeiten-und-schnittstellengrenzen.svg)
 
 ## Begriff
 

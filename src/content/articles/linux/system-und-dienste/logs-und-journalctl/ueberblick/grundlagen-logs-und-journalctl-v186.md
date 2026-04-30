@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["linux", "system-und-dienste"]
 draft: false
 ---
-![Logs und journalctl](/schlaufuchs-platform/images/overviews/v186/logs-und-journalctl.svg)
+![Logs und journalctl](/schlaufuchs-platform/images/overviews/linux/logs-und-journalctl.svg)
 
 ## Begriff
 

@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Daten und Information"]
 draft: false
 ---
-![Schaubild: Datenlebenszyklus und Aufbewahrung](/schlaufuchs-platform/images/overviews/v185/datenlebenszyklus-und-aufbewahrung.svg)
+![Schaubild: Datenlebenszyklus und Aufbewahrung](/schlaufuchs-platform/images/overviews/informatik/datenlebenszyklus-und-aufbewahrung.svg)
 
 ## Begriff
 

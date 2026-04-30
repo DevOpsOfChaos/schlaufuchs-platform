@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["informatik", "daten-und-information"]
 draft: false
 ---
-![Datenmodell und Wirklichkeit](/schlaufuchs-platform/images/overviews/v184/datenmodell-und-realitaet-v184.svg)
+![Datenmodell und Wirklichkeit](/schlaufuchs-platform/images/overviews/informatik/datenmodell-und-realitaet.svg)
 
 ## Begriff
 

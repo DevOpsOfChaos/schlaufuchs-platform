@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["elektrotechnik", "Stromversorgung und Schutz"]
 draft: false
 ---
-![Entkopplung nahe am Verbraucher](/schlaufuchs-platform/images/overviews/v181/entkopplung-und-stuetzelkos.svg)
+![Entkopplung nahe am Verbraucher](/schlaufuchs-platform/images/overviews/elektrotechnik/entkopplung-und-stuetzelkos.svg)
 
 ## Überblick
 

@@ -4,7 +4,7 @@ description: "Übe Fokusdesign mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "web-development"
 section: "CSS"
 topicPath: ["css", "zustand-und-interaktion", "fokusdesign", "focus-visible-von-hover-und-active-trennen"]
-taskId: "v107-web-development-focus-visible-von-hover-und-active-trennen"
+taskId: "web-development-focus-visible-von-hover-und-active-trennen"
 tags: ["web-development", "CSS", "aufgabe"]
 hintPoints: []
 selfCheckPoints: []

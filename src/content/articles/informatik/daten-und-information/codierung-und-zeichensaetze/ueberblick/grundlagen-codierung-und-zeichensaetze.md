@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Daten und Information"]
 draft: false
 ---
-![Schaubild zu Codierung und Zeichensätze](/schlaufuchs-platform/images/overviews/v183/informatik-codierung-und-zeichensaetze.svg)
+![Schaubild zu Codierung und Zeichensätze](/schlaufuchs-platform/images/overviews/informatik/informatik-codierung-und-zeichensaetze.svg)
 
 ## Begriff
 

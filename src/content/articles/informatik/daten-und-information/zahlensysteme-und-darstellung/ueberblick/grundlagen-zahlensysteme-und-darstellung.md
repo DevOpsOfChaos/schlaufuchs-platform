@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Daten und Information"]
 draft: false
 ---
-![Schaubild: Zahlensysteme und Darstellung](/schlaufuchs-platform/images/overviews/v185/zahlensysteme-und-darstellung.svg)
+![Schaubild: Zahlensysteme und Darstellung](/schlaufuchs-platform/images/overviews/informatik/zahlensysteme-und-darstellung.svg)
 
 ## Begriff
 

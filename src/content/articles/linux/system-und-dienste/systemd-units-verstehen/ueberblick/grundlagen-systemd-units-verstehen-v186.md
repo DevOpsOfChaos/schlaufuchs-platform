@@ -14,7 +14,7 @@ level: "fortgeschritten"
 tags: ["linux", "system-und-dienste"]
 draft: false
 ---
-![systemd-Units verstehen](/schlaufuchs-platform/images/overviews/v186/systemd-units-verstehen.svg)
+![systemd-Units verstehen](/schlaufuchs-platform/images/overviews/linux/systemd-units-verstehen.svg)
 
 ## Begriff
 

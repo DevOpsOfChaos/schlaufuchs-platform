@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["informatik", "daten-und-information"]
 draft: false
 ---
-![Datenformate vergleichen](/schlaufuchs-platform/images/overviews/v184/datenformate-json-csv-tabellen.svg)
+![Datenformate vergleichen](/schlaufuchs-platform/images/overviews/informatik/datenformate-json-csv-tabellen.svg)
 
 ## Begriff
 

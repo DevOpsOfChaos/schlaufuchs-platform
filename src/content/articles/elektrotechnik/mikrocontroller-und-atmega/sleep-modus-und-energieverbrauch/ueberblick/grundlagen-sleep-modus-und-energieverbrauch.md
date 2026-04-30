@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-![Sleep-Modus und Energieverbrauch](/schlaufuchs-platform/images/overviews/v182/sleep-modus-und-energieverbrauch.svg)
+![Sleep-Modus und Energieverbrauch](/schlaufuchs-platform/images/overviews/elektrotechnik/sleep-modus-und-energieverbrauch.svg)
 
 ## Überblick
 

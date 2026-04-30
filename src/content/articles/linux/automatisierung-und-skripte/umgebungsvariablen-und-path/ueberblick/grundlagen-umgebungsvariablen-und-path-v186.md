@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["linux", "automatisierung-und-skripte"]
 draft: false
 ---
-![Umgebungsvariablen und PATH](/schlaufuchs-platform/images/overviews/v186/umgebungsvariablen-und-path.svg)
+![Umgebungsvariablen und PATH](/schlaufuchs-platform/images/overviews/linux/umgebungsvariablen-und-path.svg)
 
 ## Begriff
 

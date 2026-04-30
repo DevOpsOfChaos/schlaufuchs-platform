@@ -24,12 +24,6 @@ Verstehe, wie JavaScript Zustände über CSS-Klassen steuert, ohne Styling direk
   <p>Ein gutes Beispiel bleibt klein: Es zeigt genau eine Interaktion, eine Datenbewegung oder einen Zustand. Dadurch wird sichtbar, welche Rolle JavaScript übernimmt und welche Aufgabe weiterhin HTML oder CSS gehört.</p>
 </div>
 
-<div class="figure-card">
-  <p class="card-kicker">Orientierung</p>
-  <h3>Vom sichtbaren Verhalten zur sauberen Codeentscheidung</h3>
-  <img class="content-illustration" src="/schlaufuchs-platform/illustrations/js-dom-selection-flow.svg" alt="Schematische Lernillustration zu JavaScript – classList und UI-Zustand sichtbar machen." style="width:100%; max-width:52rem; border-radius:18px; border:1px solid var(--border); background:#f8fafc;" />
-</div>
-
 ## Worum es fachlich geht
 
 JavaScript wirkt auf Anfängerinnen und Anfänger oft wie eine Sammlung einzelner Tricks. Ruhiger wird es, wenn du immer dieselbe Frage stellst: **Welche Aufgabe übernimmt dieser Code im Browser?** Erst danach lohnt sich der Blick auf Syntaxdetails.

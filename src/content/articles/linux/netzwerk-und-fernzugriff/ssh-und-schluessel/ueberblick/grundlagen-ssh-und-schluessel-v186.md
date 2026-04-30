@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["linux", "netzwerk-und-fernzugriff"]
 draft: false
 ---
-![SSH und Schlüssel](/schlaufuchs-platform/images/overviews/v186/ssh-und-schluessel.svg)
+![SSH und Schlüssel](/schlaufuchs-platform/images/overviews/linux/ssh-und-schluessel.svg)
 
 ## Begriff
 

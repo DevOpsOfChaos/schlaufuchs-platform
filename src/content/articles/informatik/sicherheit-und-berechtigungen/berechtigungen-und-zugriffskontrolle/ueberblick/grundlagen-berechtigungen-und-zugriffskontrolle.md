@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["informatik", "sicherheit-und-berechtigungen"]
 draft: false
 ---
-![Zugriff gezielt erlauben](/schlaufuchs-platform/images/overviews/v184/berechtigungen-und-zugriffskontrolle.svg)
+![Zugriff gezielt erlauben](/schlaufuchs-platform/images/overviews/informatik/berechtigungen-und-zugriffskontrolle.svg)
 
 ## Begriff
 

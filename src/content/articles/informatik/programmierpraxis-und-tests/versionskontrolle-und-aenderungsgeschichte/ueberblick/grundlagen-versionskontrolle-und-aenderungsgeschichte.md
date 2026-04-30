@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Programmierpraxis und Tests"]
 draft: false
 ---
-![Schaubild: Versionskontrolle und Änderungsgeschichte](/schlaufuchs-platform/images/overviews/v185/versionskontrolle-und-aenderungsgeschichte.svg)
+![Schaubild: Versionskontrolle und Änderungsgeschichte](/schlaufuchs-platform/images/overviews/informatik/versionskontrolle-und-aenderungsgeschichte.svg)
 
 ## Begriff
 

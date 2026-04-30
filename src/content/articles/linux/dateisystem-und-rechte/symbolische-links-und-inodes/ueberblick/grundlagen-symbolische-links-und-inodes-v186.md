@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["linux", "dateisystem-und-rechte"]
 draft: false
 ---
-![Symbolische Links und Inodes](/schlaufuchs-platform/images/overviews/v186/symbolische-links-und-inodes.svg)
+![Symbolische Links und Inodes](/schlaufuchs-platform/images/overviews/linux/symbolische-links-und-inodes.svg)
 
 ## Begriff
 

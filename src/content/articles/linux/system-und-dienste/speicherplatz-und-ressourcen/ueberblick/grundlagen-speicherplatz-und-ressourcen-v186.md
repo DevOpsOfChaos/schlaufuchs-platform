@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["linux", "system-und-dienste"]
 draft: false
 ---
-![Speicherplatz und Ressourcen](/schlaufuchs-platform/images/overviews/v186/speicherplatz-und-ressourcen.svg)
+![Speicherplatz und Ressourcen](/schlaufuchs-platform/images/overviews/linux/speicherplatz-und-ressourcen.svg)
 
 ## Begriff
 

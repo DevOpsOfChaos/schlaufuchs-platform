@@ -18,7 +18,7 @@ draft: false
 
 Ein **ADC** wandelt eine analoge Spannung in einen digitalen Zahlenwert um. Für Mikrocontroller ist das wichtig, weil viele Sensoren keine fertigen Zahlen liefern, sondern eine Spannung, die erst gemessen und eingeordnet werden muss.
 
-![ADC und Sensorwerte](/schlaufuchs-platform/images/overviews/v180/adc-und-sensorwerte.svg)
+![ADC und Sensorwerte](/schlaufuchs-platform/images/overviews/elektrotechnik/adc-und-sensorwerte.svg)
 
 ## Warum das Thema wichtig ist
 

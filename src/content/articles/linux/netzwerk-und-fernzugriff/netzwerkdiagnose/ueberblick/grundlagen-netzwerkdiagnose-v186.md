@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["linux", "netzwerk-und-fernzugriff"]
 draft: false
 ---
-![Netzwerkdiagnose](/schlaufuchs-platform/images/overviews/v186/netzwerkdiagnose.svg)
+![Netzwerkdiagnose](/schlaufuchs-platform/images/overviews/linux/netzwerkdiagnose.svg)
 
 ## Begriff
 

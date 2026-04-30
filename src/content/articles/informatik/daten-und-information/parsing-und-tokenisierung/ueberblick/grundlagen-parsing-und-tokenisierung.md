@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Daten und Information"]
 draft: false
 ---
-![Schaubild: Parsing und Tokenisierung](/schlaufuchs-platform/images/overviews/v185/parsing-und-tokenisierung.svg)
+![Schaubild: Parsing und Tokenisierung](/schlaufuchs-platform/images/overviews/informatik/parsing-und-tokenisierung.svg)
 
 ## Begriff
 

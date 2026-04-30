@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Netzwerke und Dienste"]
 draft: false
 ---
-![Schaubild zu IP-Adressen und Ports](/schlaufuchs-platform/images/overviews/v183/informatik-ip-adressen-und-ports.svg)
+![Schaubild zu IP-Adressen und Ports](/schlaufuchs-platform/images/overviews/informatik/informatik-ip-adressen-und-ports.svg)
 
 ## Begriff
 

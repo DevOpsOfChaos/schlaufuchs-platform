@@ -18,7 +18,7 @@ draft: false
 
 **PWM** steht für Pulsweitenmodulation. Dabei wird ein digitaler Ausgang schnell ein- und ausgeschaltet. Entscheidend ist nicht nur, dass der Ausgang High oder Low ist, sondern wie lange er innerhalb eines Zeitfensters High bleibt.
 
-![PWM und Ausgänge](/schlaufuchs-platform/images/overviews/v180/pwm-und-ausgaenge.svg)
+![PWM und Ausgänge](/schlaufuchs-platform/images/overviews/elektrotechnik/pwm-und-ausgaenge.svg)
 
 ## Tastverhältnis
 

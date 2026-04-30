@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Programmablauf und Steuerung"]
 draft: false
 ---
-![Schaubild: Ereignisgesteuerte Programme](/schlaufuchs-platform/images/overviews/v185/ereignisgesteuerte-programme.svg)
+![Schaubild: Ereignisgesteuerte Programme](/schlaufuchs-platform/images/overviews/informatik/ereignisgesteuerte-programme.svg)
 
 ## Begriff
 

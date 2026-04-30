@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["elektrotechnik", "Digitale Eingänge und Ausgänge"]
 draft: false
 ---
-![Open-Drain und Open-Collector](/schlaufuchs-platform/images/overviews/v182/open-drain-und-open-collector.svg)
+![Open-Drain und Open-Collector](/schlaufuchs-platform/images/overviews/elektrotechnik/open-drain-und-open-collector.svg)
 
 ## Überblick
 

@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-![Startzustand und Überwachung](/schlaufuchs-platform/images/overviews/v181/reset-watchdog-und-brownout.svg)
+![Startzustand und Überwachung](/schlaufuchs-platform/images/overviews/elektrotechnik/reset-watchdog-und-brownout.svg)
 
 ## Überblick
 

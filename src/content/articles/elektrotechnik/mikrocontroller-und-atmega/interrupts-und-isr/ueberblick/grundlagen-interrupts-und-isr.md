@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-![Interrupt als Ereignispfad](/schlaufuchs-platform/images/overviews/v181/interrupts-und-isr.svg)
+![Interrupt als Ereignispfad](/schlaufuchs-platform/images/overviews/elektrotechnik/interrupts-und-isr.svg)
 
 ## Überblick
 

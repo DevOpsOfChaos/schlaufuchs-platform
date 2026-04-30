@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["informatik", "Datenstrukturen im Einsatz"]
 draft: false
 ---
-![Schaubild zu Queues, Stacks und Ablauf](/schlaufuchs-platform/images/overviews/v183/informatik-queues-stacks-und-ablauf.svg)
+![Schaubild zu Queues, Stacks und Ablauf](/schlaufuchs-platform/images/overviews/informatik/informatik-queues-stacks-und-ablauf.svg)
 
 ## Begriff
 

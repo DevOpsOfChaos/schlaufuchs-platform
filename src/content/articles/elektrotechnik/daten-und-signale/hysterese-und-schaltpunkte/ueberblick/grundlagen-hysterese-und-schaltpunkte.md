@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["elektrotechnik", "Daten und Signale"]
 draft: false
 ---
-![Hysterese und Schaltpunkte](/schlaufuchs-platform/images/overviews/v182/hysterese-und-schaltpunkte.svg)
+![Hysterese und Schaltpunkte](/schlaufuchs-platform/images/overviews/elektrotechnik/hysterese-und-schaltpunkte.svg)
 
 ## Überblick
 

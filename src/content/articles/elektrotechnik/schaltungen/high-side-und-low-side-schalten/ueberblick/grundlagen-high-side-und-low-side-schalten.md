@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["elektrotechnik", "Schaltungen"]
 draft: false
 ---
-![High-Side und Low-Side schalten](/schlaufuchs-platform/images/overviews/v182/high-side-und-low-side-schalten.svg)
+![High-Side und Low-Side schalten](/schlaufuchs-platform/images/overviews/elektrotechnik/high-side-und-low-side-schalten.svg)
 
 ## Überblick
 

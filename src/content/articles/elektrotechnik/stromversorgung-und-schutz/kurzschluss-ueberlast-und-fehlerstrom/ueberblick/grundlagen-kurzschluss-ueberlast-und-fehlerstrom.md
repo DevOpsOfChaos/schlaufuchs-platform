@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["elektrotechnik", "Stromversorgung und Schutz"]
 draft: false
 ---
-![Kurzschluss, Überlast und Fehlerstrom](/schlaufuchs-platform/images/overviews/v182/kurzschluss-ueberlast-und-fehlerstrom.svg)
+![Kurzschluss, Überlast und Fehlerstrom](/schlaufuchs-platform/images/overviews/elektrotechnik/kurzschluss-ueberlast-und-fehlerstrom.svg)
 
 ## Überblick
 

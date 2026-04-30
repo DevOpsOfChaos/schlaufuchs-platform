@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Programmierpraxis und Tests"]
 draft: false
 ---
-![Schaubild: Caching und Memoisierung](/schlaufuchs-platform/images/overviews/v185/caching-und-memoisierung.svg)
+![Schaubild: Caching und Memoisierung](/schlaufuchs-platform/images/overviews/informatik/caching-und-memoisierung.svg)
 
 ## Begriff
 

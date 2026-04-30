@@ -18,7 +18,7 @@ draft: false
 
 Ein **Kondensator** kann elektrische Ladung speichern. In Verbindung mit einem Widerstand entsteht häufig ein **RC-Verhalten**: Spannungen ändern sich nicht schlagartig, sondern über eine gewisse Zeit.
 
-![Kondensator und RC-Verhalten](/schlaufuchs-platform/images/overviews/v180/kondensator-rc-verhalten.svg)
+![Kondensator und RC-Verhalten](/schlaufuchs-platform/images/overviews/elektrotechnik/kondensator-rc-verhalten.svg)
 
 ## Warum Zeitverhalten wichtig ist
 

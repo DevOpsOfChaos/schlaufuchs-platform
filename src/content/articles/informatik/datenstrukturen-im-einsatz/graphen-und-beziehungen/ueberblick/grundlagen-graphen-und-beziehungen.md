@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Datenstrukturen im Einsatz"]
 draft: false
 ---
-![Schaubild: Graphen und Beziehungen](/schlaufuchs-platform/images/overviews/v185/graphen-und-beziehungen.svg)
+![Schaubild: Graphen und Beziehungen](/schlaufuchs-platform/images/overviews/informatik/graphen-und-beziehungen.svg)
 
 ## Begriff
 

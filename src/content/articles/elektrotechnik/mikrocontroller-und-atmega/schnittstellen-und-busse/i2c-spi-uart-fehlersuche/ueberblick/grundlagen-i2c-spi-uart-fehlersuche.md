@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["elektrotechnik", "Mikrocontroller und ATmega"]
 draft: false
 ---
-![Schnittstellen systematisch prüfen](/schlaufuchs-platform/images/overviews/v181/i2c-spi-uart-fehlersuche.svg)
+![Schnittstellen systematisch prüfen](/schlaufuchs-platform/images/overviews/elektrotechnik/i2c-spi-uart-fehlersuche.svg)
 
 ## Überblick
 

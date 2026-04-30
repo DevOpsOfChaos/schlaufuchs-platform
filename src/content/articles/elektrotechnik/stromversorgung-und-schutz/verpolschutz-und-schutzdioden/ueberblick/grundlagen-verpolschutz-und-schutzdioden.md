@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["elektrotechnik", "Stromversorgung und Schutz"]
 draft: false
 ---
-![Schutzdiode im Fehlerfall](/schlaufuchs-platform/images/overviews/v181/verpolschutz-und-schutzdioden.svg)
+![Schutzdiode im Fehlerfall](/schlaufuchs-platform/images/overviews/elektrotechnik/verpolschutz-und-schutzdioden.svg)
 
 ## Überblick
 

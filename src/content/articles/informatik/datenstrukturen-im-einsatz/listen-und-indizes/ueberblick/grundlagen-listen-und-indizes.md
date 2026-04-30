@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Datenstrukturen im Einsatz"]
 draft: false
 ---
-![Schaubild zu Listen und Indizes](/schlaufuchs-platform/images/overviews/v183/informatik-listen-und-indizes.svg)
+![Schaubild zu Listen und Indizes](/schlaufuchs-platform/images/overviews/informatik/informatik-listen-und-indizes.svg)
 
 ## Begriff
 

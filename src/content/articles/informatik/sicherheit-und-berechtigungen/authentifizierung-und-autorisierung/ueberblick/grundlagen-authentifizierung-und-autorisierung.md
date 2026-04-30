@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Sicherheit und Berechtigungen"]
 draft: false
 ---
-![Schaubild: Authentifizierung und Autorisierung](/schlaufuchs-platform/images/overviews/v185/authentifizierung-und-autorisierung.svg)
+![Schaubild: Authentifizierung und Autorisierung](/schlaufuchs-platform/images/overviews/informatik/authentifizierung-und-autorisierung.svg)
 
 ## Begriff
 

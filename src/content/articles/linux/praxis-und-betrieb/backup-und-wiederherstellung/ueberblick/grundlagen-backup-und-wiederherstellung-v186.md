@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["linux", "praxis-und-betrieb"]
 draft: false
 ---
-![Backup und Wiederherstellung](/schlaufuchs-platform/images/overviews/v186/backup-und-wiederherstellung.svg)
+![Backup und Wiederherstellung](/schlaufuchs-platform/images/overviews/linux/backup-und-wiederherstellung.svg)
 
 ## Begriff
 

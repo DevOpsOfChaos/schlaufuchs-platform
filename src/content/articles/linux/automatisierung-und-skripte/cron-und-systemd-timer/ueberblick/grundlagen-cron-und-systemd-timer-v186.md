@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["linux", "automatisierung-und-skripte"]
 draft: false
 ---
-![Cron und systemd-Timer](/schlaufuchs-platform/images/overviews/v186/cron-und-systemd-timer.svg)
+![Cron und systemd-Timer](/schlaufuchs-platform/images/overviews/linux/cron-und-systemd-timer.svg)
 
 ## Begriff
 

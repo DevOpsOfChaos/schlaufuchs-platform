@@ -4,7 +4,7 @@ description: "Musterlösung zu Responsive Bilder mit Einordnung, Prüfschritt un
 subject: "web-development"
 section: "HTML"
 topicPath: ["html", "medien-und-bilder", "ladegewicht", "bildgroessen-fuer-mobile-layouts-abschaetzen"]
-taskId: "v107-web-development-bildgroessen-fuer-mobile-layouts-abschaetzen"
+taskId: "web-development-bildgroessen-fuer-mobile-layouts-abschaetzen"
 relatedExercise: "src/content/exercises/web-development/html/medien-und-bilder/ladegewicht/bildgroessen-fuer-mobile-layouts-abschaetzen"
 tags: ["web-development", "HTML", "loesung"]
 draft: false

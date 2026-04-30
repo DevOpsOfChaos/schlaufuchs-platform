@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "abstraktion-und-modelle"]
 draft: false
 ---
-![Abstraktion als Modellbildung](/schlaufuchs-platform/images/overviews/v184/abstraktion-und-modelle.svg)
+![Abstraktion als Modellbildung](/schlaufuchs-platform/images/overviews/informatik/abstraktion-und-modelle.svg)
 
 ## Begriff
 

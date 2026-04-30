@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["linux", "netzwerk-und-fernzugriff"]
 draft: false
 ---
-![Ports und Dienste](/schlaufuchs-platform/images/overviews/v186/ports-und-dienste.svg)
+![Ports und Dienste](/schlaufuchs-platform/images/overviews/linux/ports-und-dienste.svg)
 
 ## Begriff
 

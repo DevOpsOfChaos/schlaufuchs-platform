@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["informatik", "netzwerke-und-dienste"]
 draft: false
 ---
-![API als Vertrag](/schlaufuchs-platform/images/overviews/v184/api-vertraege-und-datenfluss.svg)
+![API als Vertrag](/schlaufuchs-platform/images/overviews/informatik/api-vertraege-und-datenfluss.svg)
 
 ## Begriff
 

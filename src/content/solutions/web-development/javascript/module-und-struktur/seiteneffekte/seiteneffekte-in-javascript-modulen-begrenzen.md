@@ -4,7 +4,7 @@ description: "Musterlösung zu Modulgrenzen mit Einordnung, Prüfschritt und Geg
 subject: "web-development"
 section: "JavaScript"
 topicPath: ["javascript", "module-und-struktur", "seiteneffekte", "seiteneffekte-in-javascript-modulen-begrenzen"]
-taskId: "v107-web-development-seiteneffekte-in-javascript-modulen-begrenzen"
+taskId: "web-development-seiteneffekte-in-javascript-modulen-begrenzen"
 relatedExercise: "src/content/exercises/web-development/javascript/module-und-struktur/seiteneffekte/seiteneffekte-in-javascript-modulen-begrenzen"
 tags: ["web-development", "JavaScript", "loesung"]
 draft: false

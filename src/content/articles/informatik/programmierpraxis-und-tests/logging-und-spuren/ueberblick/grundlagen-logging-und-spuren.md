@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Programmierpraxis und Tests"]
 draft: false
 ---
-![Schaubild: Logging und Programmspruren](/schlaufuchs-platform/images/overviews/v185/logging-und-spuren.svg)
+![Schaubild: Logging und Programmspruren](/schlaufuchs-platform/images/overviews/informatik/logging-und-spuren.svg)
 
 ## Begriff
 

@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["elektrotechnik", "Schaltungen"]
 draft: false
 ---
-![Masse als gemeinsamer Bezug](/schlaufuchs-platform/images/overviews/v181/massefuehrung-und-stoerungen.svg)
+![Masse als gemeinsamer Bezug](/schlaufuchs-platform/images/overviews/elektrotechnik/massefuehrung-und-stoerungen.svg)
 
 ## Überblick
 

@@ -14,7 +14,7 @@ level: "fortgeschritten"
 tags: ["informatik", "programmierpraxis-und-tests"]
 draft: false
 ---
-![Geteilte Zustände koordinieren](/schlaufuchs-platform/images/overviews/v184/nebenlaeufigkeit-und-geteilte-zustaende.svg)
+![Geteilte Zustände koordinieren](/schlaufuchs-platform/images/overviews/informatik/nebenlaeufigkeit-und-geteilte-zustaende.svg)
 
 ## Begriff
 

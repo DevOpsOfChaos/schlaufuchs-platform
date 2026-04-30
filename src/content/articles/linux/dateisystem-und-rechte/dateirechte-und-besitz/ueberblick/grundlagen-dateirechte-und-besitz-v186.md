@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["linux", "dateisystem-und-rechte"]
 draft: false
 ---
-![Dateirechte und Besitz](/schlaufuchs-platform/images/overviews/v186/dateirechte-und-besitz.svg)
+![Dateirechte und Besitz](/schlaufuchs-platform/images/overviews/linux/dateirechte-und-besitz.svg)
 
 ## Begriff
 

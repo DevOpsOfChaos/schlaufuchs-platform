@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["informatik", "Programmierpraxis und Tests"]
 draft: false
 ---
-![Schaubild zu Funktionen und Verantwortung](/schlaufuchs-platform/images/overviews/v183/informatik-funktionen-und-verantwortung.svg)
+![Schaubild zu Funktionen und Verantwortung](/schlaufuchs-platform/images/overviews/informatik/informatik-funktionen-und-verantwortung.svg)
 
 ## Begriff
 

@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["linux", "dateisystem-und-rechte"]
 draft: false
 ---
-![Mounten und Datenträger](/schlaufuchs-platform/images/overviews/v186/mounten-und-datentraeger.svg)
+![Mounten und Datenträger](/schlaufuchs-platform/images/overviews/linux/mounten-und-datentraeger.svg)
 
 ## Begriff
 

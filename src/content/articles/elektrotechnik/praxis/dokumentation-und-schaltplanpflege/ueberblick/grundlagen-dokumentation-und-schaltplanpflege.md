@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["elektrotechnik", "Praxis"]
 draft: false
 ---
-![Dokumentation und Schaltplanpflege](/schlaufuchs-platform/images/overviews/v182/dokumentation-und-schaltplanpflege.svg)
+![Dokumentation und Schaltplanpflege](/schlaufuchs-platform/images/overviews/elektrotechnik/dokumentation-und-schaltplanpflege.svg)
 
 ## Überblick
 

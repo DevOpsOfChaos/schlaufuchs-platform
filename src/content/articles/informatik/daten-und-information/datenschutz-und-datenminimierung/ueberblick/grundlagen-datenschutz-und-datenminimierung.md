@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["informatik", "daten-und-information"]
 draft: false
 ---
-![Daten bewusst begrenzen](/schlaufuchs-platform/images/overviews/v184/datenschutz-und-datenminimierung.svg)
+![Daten bewusst begrenzen](/schlaufuchs-platform/images/overviews/informatik/datenschutz-und-datenminimierung.svg)
 
 ## Begriff
 

@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Datenbanken"]
 draft: false
 ---
-![Schaubild zu Tabellen und Schlüssel](/schlaufuchs-platform/images/overviews/v183/informatik-tabellen-und-schluessel.svg)
+![Schaubild zu Tabellen und Schlüssel](/schlaufuchs-platform/images/overviews/informatik/informatik-tabellen-und-schluessel.svg)
 
 ## Begriff
 

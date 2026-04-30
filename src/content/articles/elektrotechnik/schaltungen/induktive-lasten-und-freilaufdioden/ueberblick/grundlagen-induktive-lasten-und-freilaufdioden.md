@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["elektrotechnik", "Schaltungen"]
 draft: false
 ---
-![Freilaufpfad bei Spulen](/schlaufuchs-platform/images/overviews/v181/induktive-lasten-und-freilaufdioden.svg)
+![Freilaufpfad bei Spulen](/schlaufuchs-platform/images/overviews/elektrotechnik/induktive-lasten-und-freilaufdioden.svg)
 
 ## Überblick
 

@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["linux", "shell-und-terminal"]
 draft: false
 ---
-![Shell und Terminal](/schlaufuchs-platform/images/overviews/v186/shell-und-terminal.svg)
+![Shell und Terminal](/schlaufuchs-platform/images/overviews/linux/shell-und-terminal.svg)
 
 ## Begriff
 

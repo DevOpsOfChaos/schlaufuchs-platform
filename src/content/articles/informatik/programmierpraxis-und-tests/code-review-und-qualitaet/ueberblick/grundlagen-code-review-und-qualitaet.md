@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Programmierpraxis und Tests"]
 draft: false
 ---
-![Schaubild: Code-Review und Qualität](/schlaufuchs-platform/images/overviews/v185/code-review-und-qualitaet.svg)
+![Schaubild: Code-Review und Qualität](/schlaufuchs-platform/images/overviews/informatik/code-review-und-qualitaet.svg)
 
 ## Begriff
 

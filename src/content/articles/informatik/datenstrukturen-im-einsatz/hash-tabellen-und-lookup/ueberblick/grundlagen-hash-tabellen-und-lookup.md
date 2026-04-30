@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Datenstrukturen im Einsatz"]
 draft: false
 ---
-![Schaubild: Hash-Tabellen und Lookup](/schlaufuchs-platform/images/overviews/v185/hash-tabellen-und-lookup.svg)
+![Schaubild: Hash-Tabellen und Lookup](/schlaufuchs-platform/images/overviews/informatik/hash-tabellen-und-lookup.svg)
 
 ## Begriff
 

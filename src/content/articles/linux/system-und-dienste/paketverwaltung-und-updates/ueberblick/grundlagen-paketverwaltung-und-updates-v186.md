@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["linux", "system-und-dienste"]
 draft: false
 ---
-![Paketverwaltung und Updates](/schlaufuchs-platform/images/overviews/v186/paketverwaltung-und-updates.svg)
+![Paketverwaltung und Updates](/schlaufuchs-platform/images/overviews/linux/paketverwaltung-und-updates.svg)
 
 ## Begriff
 

@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["linux", "shell-und-terminal"]
 draft: false
 ---
-![Exit-Codes und Kontrollfluss](/schlaufuchs-platform/images/overviews/v186/exit-codes-und-kontrollfluss.svg)
+![Exit-Codes und Kontrollfluss](/schlaufuchs-platform/images/overviews/linux/exit-codes-und-kontrollfluss.svg)
 
 ## Begriff
 

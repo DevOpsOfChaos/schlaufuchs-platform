@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["informatik", "Datenstrukturen im Einsatz"]
 draft: false
 ---
-![Schaubild zu Sets, Maps und Eindeutigkeit](/schlaufuchs-platform/images/overviews/v183/informatik-sets-maps-und-eindeutigkeit.svg)
+![Schaubild zu Sets, Maps und Eindeutigkeit](/schlaufuchs-platform/images/overviews/informatik/informatik-sets-maps-und-eindeutigkeit.svg)
 
 ## Begriff
 

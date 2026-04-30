@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["linux", "shell-und-terminal"]
 draft: false
 ---
-![Pfade und Navigation](/schlaufuchs-platform/images/overviews/v186/pfade-und-navigation.svg)
+![Pfade und Navigation](/schlaufuchs-platform/images/overviews/linux/pfade-und-navigation.svg)
 
 ## Begriff
 

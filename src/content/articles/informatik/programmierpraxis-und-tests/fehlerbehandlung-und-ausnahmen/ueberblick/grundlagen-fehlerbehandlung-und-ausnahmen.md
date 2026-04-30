@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Programmierpraxis und Tests"]
 draft: false
 ---
-![Schaubild: Fehlerbehandlung und Ausnahmen](/schlaufuchs-platform/images/overviews/v185/fehlerbehandlung-und-ausnahmen.svg)
+![Schaubild: Fehlerbehandlung und Ausnahmen](/schlaufuchs-platform/images/overviews/informatik/fehlerbehandlung-und-ausnahmen.svg)
 
 ## Begriff
 

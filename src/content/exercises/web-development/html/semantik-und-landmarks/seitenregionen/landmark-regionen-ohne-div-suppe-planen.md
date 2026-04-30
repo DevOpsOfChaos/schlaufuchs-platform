@@ -4,7 +4,7 @@ description: "Übe HTML-Landmarks mit Einordnung, Prüfschritt und Gegenprobe."
 subject: "web-development"
 section: "HTML"
 topicPath: ["html", "semantik-und-landmarks", "seitenregionen", "landmark-regionen-ohne-div-suppe-planen"]
-taskId: "v107-web-development-landmark-regionen-ohne-div-suppe-planen"
+taskId: "web-development-landmark-regionen-ohne-div-suppe-planen"
 tags: ["web-development", "HTML", "aufgabe"]
 hintPoints: []
 selfCheckPoints: []

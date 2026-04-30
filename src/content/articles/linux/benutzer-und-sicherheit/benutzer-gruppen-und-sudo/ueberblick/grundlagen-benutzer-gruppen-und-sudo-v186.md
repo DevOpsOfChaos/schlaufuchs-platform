@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["linux", "benutzer-und-sicherheit"]
 draft: false
 ---
-![Benutzer, Gruppen und sudo](/schlaufuchs-platform/images/overviews/v186/benutzer-gruppen-und-sudo.svg)
+![Benutzer, Gruppen und sudo](/schlaufuchs-platform/images/overviews/linux/benutzer-gruppen-und-sudo.svg)
 
 ## Begriff
 

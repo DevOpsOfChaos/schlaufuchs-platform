@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["linux", "shell-und-terminal"]
 draft: false
 ---
-![Pipes und Umleitungen](/schlaufuchs-platform/images/overviews/v186/pipes-und-umleitungen.svg)
+![Pipes und Umleitungen](/schlaufuchs-platform/images/overviews/linux/pipes-und-umleitungen.svg)
 
 ## Begriff
 

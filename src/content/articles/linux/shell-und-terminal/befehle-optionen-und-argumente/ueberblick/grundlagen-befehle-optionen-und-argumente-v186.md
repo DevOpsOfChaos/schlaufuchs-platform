@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["linux", "shell-und-terminal"]
 draft: false
 ---
-![Befehle, Optionen und Argumente](/schlaufuchs-platform/images/overviews/v186/befehle-optionen-und-argumente.svg)
+![Befehle, Optionen und Argumente](/schlaufuchs-platform/images/overviews/linux/befehle-optionen-und-argumente.svg)
 
 ## Begriff
 

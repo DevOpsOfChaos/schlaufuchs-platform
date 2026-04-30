@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["informatik", "Datenbanken"]
 draft: false
 ---
-![Schaubild zu Abfragen und Filter](/schlaufuchs-platform/images/overviews/v183/informatik-abfragen-und-filter.svg)
+![Schaubild zu Abfragen und Filter](/schlaufuchs-platform/images/overviews/informatik/informatik-abfragen-und-filter.svg)
 
 ## Begriff
 

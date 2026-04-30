@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "programmablauf-und-steuerung"]
 draft: false
 ---
-![Ablauf mit Entscheidung und Wiederholung](/schlaufuchs-platform/images/overviews/v184/kontrollstrukturen-und-ablauf.svg)
+![Ablauf mit Entscheidung und Wiederholung](/schlaufuchs-platform/images/overviews/informatik/kontrollstrukturen-und-ablauf.svg)
 
 ## Begriff
 

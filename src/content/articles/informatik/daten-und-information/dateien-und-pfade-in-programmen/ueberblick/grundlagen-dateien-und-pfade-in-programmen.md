@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Daten und Information"]
 draft: false
 ---
-![Schaubild: Dateien und Pfade in Programmen](/schlaufuchs-platform/images/overviews/v185/dateien-und-pfade-in-programmen.svg)
+![Schaubild: Dateien und Pfade in Programmen](/schlaufuchs-platform/images/overviews/informatik/dateien-und-pfade-in-programmen.svg)
 
 ## Begriff
 

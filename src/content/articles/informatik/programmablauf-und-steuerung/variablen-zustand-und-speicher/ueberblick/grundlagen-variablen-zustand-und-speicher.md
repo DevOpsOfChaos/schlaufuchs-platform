@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "programmablauf-und-steuerung"]
 draft: false
 ---
-![Zustand über Variablen](/schlaufuchs-platform/images/overviews/v184/variablen-zustand-und-speicher.svg)
+![Zustand über Variablen](/schlaufuchs-platform/images/overviews/informatik/variablen-zustand-und-speicher.svg)
 
 ## Begriff
 

@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "daten-und-information"]
 draft: false
 ---
-![Wert, Typ und Bedeutung](/schlaufuchs-platform/images/overviews/v184/datentypen-und-werte.svg)
+![Wert, Typ und Bedeutung](/schlaufuchs-platform/images/overviews/informatik/datentypen-und-werte.svg)
 
 ## Begriff
 

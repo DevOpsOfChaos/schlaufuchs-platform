@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["elektrotechnik", "Praxis"]
 draft: false
 ---
-![Signal mit Bezug und Tastkopf](/schlaufuchs-platform/images/overviews/v181/oszilloskop-und-tastkopf.svg)
+![Signal mit Bezug und Tastkopf](/schlaufuchs-platform/images/overviews/elektrotechnik/oszilloskop-und-tastkopf.svg)
 
 ## Überblick
 

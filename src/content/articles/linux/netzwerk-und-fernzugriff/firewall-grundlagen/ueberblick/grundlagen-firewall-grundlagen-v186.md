@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["linux", "netzwerk-und-fernzugriff"]
 draft: false
 ---
-![Firewall-Grundlagen](/schlaufuchs-platform/images/overviews/v186/firewall-grundlagen.svg)
+![Firewall-Grundlagen](/schlaufuchs-platform/images/overviews/linux/firewall-grundlagen.svg)
 
 ## Begriff
 

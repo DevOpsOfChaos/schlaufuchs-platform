@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["linux", "shell-und-terminal"]
 draft: false
 ---
-![Quoting, Globbing und Variablenersetzung](/schlaufuchs-platform/images/overviews/v186/quoting-globbing-und-variablenersetzung.svg)
+![Quoting, Globbing und Variablenersetzung](/schlaufuchs-platform/images/overviews/linux/quoting-globbing-und-variablenersetzung.svg)
 
 ## Begriff
 

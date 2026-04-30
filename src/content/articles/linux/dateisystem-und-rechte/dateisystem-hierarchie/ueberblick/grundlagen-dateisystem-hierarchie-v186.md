@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["linux", "dateisystem-und-rechte"]
 draft: false
 ---
-![Dateisystem-Hierarchie](/schlaufuchs-platform/images/overviews/v186/dateisystem-hierarchie.svg)
+![Dateisystem-Hierarchie](/schlaufuchs-platform/images/overviews/linux/dateisystem-hierarchie.svg)
 
 ## Begriff
 

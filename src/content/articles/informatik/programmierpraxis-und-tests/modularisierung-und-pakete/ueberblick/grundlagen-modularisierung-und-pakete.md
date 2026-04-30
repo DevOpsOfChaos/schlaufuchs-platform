@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "Programmierpraxis und Tests"]
 draft: false
 ---
-![Schaubild: Modularisierung und Pakete](/schlaufuchs-platform/images/overviews/v185/modularisierung-und-pakete.svg)
+![Schaubild: Modularisierung und Pakete](/schlaufuchs-platform/images/overviews/informatik/modularisierung-und-pakete.svg)
 
 ## Begriff
 

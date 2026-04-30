@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["elektrotechnik", "Bauteile"]
 draft: false
 ---
-![Bauteiltoleranzen und Derating](/schlaufuchs-platform/images/overviews/v182/bauteiltoleranzen-und-derating.svg)
+![Bauteiltoleranzen und Derating](/schlaufuchs-platform/images/overviews/elektrotechnik/bauteiltoleranzen-und-derating.svg)
 
 ## Überblick
 

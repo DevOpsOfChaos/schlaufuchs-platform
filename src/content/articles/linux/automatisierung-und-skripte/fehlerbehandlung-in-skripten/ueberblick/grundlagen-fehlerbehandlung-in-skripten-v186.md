@@ -14,7 +14,7 @@ level: "fortgeschritten"
 tags: ["linux", "automatisierung-und-skripte"]
 draft: false
 ---
-![Fehlerbehandlung in Skripten](/schlaufuchs-platform/images/overviews/v186/fehlerbehandlung-in-skripten.svg)
+![Fehlerbehandlung in Skripten](/schlaufuchs-platform/images/overviews/linux/fehlerbehandlung-in-skripten.svg)
 
 ## Begriff
 

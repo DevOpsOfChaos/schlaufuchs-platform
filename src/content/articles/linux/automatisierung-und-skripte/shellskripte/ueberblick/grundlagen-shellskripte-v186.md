@@ -14,7 +14,7 @@ level: "mittel"
 tags: ["linux", "automatisierung-und-skripte"]
 draft: false
 ---
-![Shellskripte](/schlaufuchs-platform/images/overviews/v186/shellskripte.svg)
+![Shellskripte](/schlaufuchs-platform/images/overviews/linux/shellskripte.svg)
 
 ## Begriff
 

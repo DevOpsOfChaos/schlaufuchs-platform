@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["elektrotechnik", "Daten und Signale"]
 draft: false
 ---
-![Signal, Rauschen und Entscheidung](/schlaufuchs-platform/images/overviews/v181/rauschen-filterung-und-schwellwerte.svg)
+![Signal, Rauschen und Entscheidung](/schlaufuchs-platform/images/overviews/elektrotechnik/rauschen-filterung-und-schwellwerte.svg)
 
 ## Überblick
 

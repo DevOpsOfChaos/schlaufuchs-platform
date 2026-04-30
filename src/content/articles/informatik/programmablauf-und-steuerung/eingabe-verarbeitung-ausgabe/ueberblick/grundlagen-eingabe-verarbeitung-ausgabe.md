@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["informatik", "programmablauf-und-steuerung"]
 draft: false
 ---
-![EVA-Prinzip als Datenfluss](/schlaufuchs-platform/images/overviews/v184/eingabe-verarbeitung-ausgabe.svg)
+![EVA-Prinzip als Datenfluss](/schlaufuchs-platform/images/overviews/informatik/eingabe-verarbeitung-ausgabe.svg)
 
 ## Begriff
 

@@ -14,7 +14,7 @@ level: "einfach"
 tags: ["elektrotechnik", "Daten und Signale"]
 draft: false
 ---
-![Kalibrierung und Sensorlinearität](/schlaufuchs-platform/images/overviews/v182/kalibrierung-und-sensorlinearitaet.svg)
+![Kalibrierung und Sensorlinearität](/schlaufuchs-platform/images/overviews/elektrotechnik/kalibrierung-und-sensorlinearitaet.svg)
 
 ## Überblick
 
