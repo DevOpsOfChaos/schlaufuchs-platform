@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <!-- Redrawn/adapted from legacy Schlaufuchs diode task solution graph: legacy/selected/elektrotechnik/tasks/dioden_i_01/loesung/formeln/a01l_d_02.png and measured values in a01_a_02.png. Legacy source observed as CC BY-NC-SA 4.0, author marker JW, 2020. No endorsement by the original author is implied. -->
+  <title id="title">Diodenkennlinie ID in Abhaengigkeit von UD</title>
+  <desc id="desc">Messpunkte zeigen bis etwa 0,7 Volt nur kleinen Strom und danach stark ansteigenden Durchlassstrom.</desc>
+  <style>
+    .bg{fill:#f8fafc}.grid{stroke:#dbe3ee;stroke-width:1}.axis{stroke:#0f172a;stroke-width:4;stroke-linecap:round}.curve{fill:none;stroke:#0f766e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.fit{fill:none;stroke:#ea580c;stroke-width:4;stroke-linecap:round;stroke-dasharray:10 8}.pt{fill:#0f766e;stroke:#fff;stroke-width:3}.txt{font-family:Arial,Helvetica,sans-serif;fill:#0f172a}.label{font-size:20px;font-weight:700}.small{font-size:14px;fill:#475569}.tick{font-size:14px;fill:#475569}
+  </style>
+  <rect class="bg" width="960" height="540" rx="28"/>
+  <text class="txt label" x="48" y="56">Diodenkennlinie aus Messwerten</text>
+  <text class="txt small" x="48" y="80">Messkurve I<tspan baseline-shift="sub" font-size="10">D</tspan>(UD), R1 = 33 Ohm</text>
+
+  <g transform="translate(0 0)">
+    <line class="grid" x1="90" y1="420" x2="850" y2="420"/>
+    <line class="grid" x1="90" y1="360" x2="850" y2="360"/>
+    <line class="grid" x1="90" y1="300" x2="850" y2="300"/>
+    <line class="grid" x1="90" y1="240" x2="850" y2="240"/>
+    <line class="grid" x1="90" y1="180" x2="850" y2="180"/>
+    <line class="grid" x1="90" y1="120" x2="850" y2="120"/>
+    <line class="grid" x1="90" y1="420" x2="90" y2="120"/>
+    <line class="grid" x1="174.4" y1="420" x2="174.4" y2="120"/>
+    <line class="grid" x1="258.9" y1="420" x2="258.9" y2="120"/>
+    <line class="grid" x1="343.3" y1="420" x2="343.3" y2="120"/>
+    <line class="grid" x1="427.8" y1="420" x2="427.8" y2="120"/>
+    <line class="grid" x1="512.2" y1="420" x2="512.2" y2="120"/>
+    <line class="grid" x1="596.7" y1="420" x2="596.7" y2="120"/>
+    <line class="grid" x1="681.1" y1="420" x2="681.1" y2="120"/>
+    <line class="grid" x1="765.6" y1="420" x2="765.6" y2="120"/>
+    <line class="grid" x1="850" y1="420" x2="850" y2="120"/>
+    <line class="axis" x1="90" y1="420" x2="860" y2="420"/>
+    <line class="axis" x1="90" y1="430" x2="90" y2="110"/>
+
+    <polyline class="curve" points="182.9,420.0 458.2,420.0 596.7,419.9 634.7,419.7 678.6,417.8 701.4,414.2 712.4,410.9 726.7,404.2 734.3,398.0 750.4,381.3 768.1,344.6 777.4,313.4 785.0,283.4 792.6,236.0 803.6,144.5"/>
+    <polyline class="fit" points="90,420 765.6,420 803.6,144.5"/>
+
+    <g>
+      <circle class="pt" cx="182.9" cy="420.0" r="7"/><circle class="pt" cx="458.2" cy="420.0" r="7"/><circle class="pt" cx="596.7" cy="419.9" r="7"/><circle class="pt" cx="634.7" cy="419.7" r="7"/><circle class="pt" cx="678.6" cy="417.8" r="7"/><circle class="pt" cx="701.4" cy="414.2" r="7"/><circle class="pt" cx="712.4" cy="410.9" r="7"/><circle class="pt" cx="726.7" cy="404.2" r="7"/><circle class="pt" cx="734.3" cy="398.0" r="7"/><circle class="pt" cx="750.4" cy="381.3" r="7"/><circle class="pt" cx="768.1" cy="344.6" r="7"/><circle class="pt" cx="777.4" cy="313.4" r="7"/><circle class="pt" cx="785.0" cy="283.4" r="7"/><circle class="pt" cx="792.6" cy="236.0" r="7"/><circle class="pt" cx="803.6" cy="144.5" r="7"/>
+    </g>
+
+    <text class="txt tick" x="84" y="445">0</text>
+    <text class="txt tick" x="163" y="445">0,1</text>
+    <text class="txt tick" x="753" y="445">0,8</text>
+    <text class="txt tick" x="838" y="445">0,9</text>
+    <text class="txt tick" x="54" y="425">0</text>
+    <text class="txt tick" x="42" y="365">20</text>
+    <text class="txt tick" x="42" y="305">40</text>
+    <text class="txt tick" x="42" y="245">60</text>
+    <text class="txt tick" x="42" y="185">80</text>
+    <text class="txt tick" x="34" y="125">100</text>
+    <text class="txt label" x="452" y="496">UD in V</text>
+    <text class="txt label" transform="translate(30 310) rotate(-90)">I<tspan baseline-shift="sub" font-size="14">D</tspan> in mA</text>
+  </g>
+
+  <rect x="630" y="92" width="250" height="54" rx="12" fill="#fff7ed" stroke="#fed7aa"/>
+  <text class="txt small" x="646" y="115">orange: einfache Naeherung</text>
+  <text class="txt small" x="646" y="134">Grenze bei UD = 0,8 V</text>
+</svg>

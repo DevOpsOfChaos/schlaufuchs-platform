@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <!-- Redrawn/adapted from legacy Schlaufuchs diode task solution graph: legacy/selected/elektrotechnik/tasks/dioden_i_01/loesung/formeln/a01l_h_02.png and calculated values in a01l_d_01.png. Legacy source observed as CC BY-NC-SA 4.0, author marker JW, 2020. No endorsement by the original author is implied. -->
+  <title id="title">Diodenwiderstand RD in Abhaengigkeit von UD</title>
+  <desc id="desc">Halblogarithmische Darstellung des aus UD und ID berechneten Diodenwiderstands. Der Widerstand sinkt mit steigender Diodenspannung stark ab.</desc>
+  <style>
+    .bg{fill:#f8fafc}.grid{stroke:#dbe3ee;stroke-width:1}.axis{stroke:#0f172a;stroke-width:4;stroke-linecap:round}.curve{fill:none;stroke:#0f766e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.pt{fill:#0f766e;stroke:#fff;stroke-width:3}.note{fill:#ecfeff;stroke:#a5f3fc}.txt{font-family:Arial,Helvetica,sans-serif;fill:#0f172a}.label{font-size:20px;font-weight:700}.small{font-size:14px;fill:#475569}.tick{font-size:14px;fill:#475569}
+  </style>
+  <rect class="bg" width="960" height="540" rx="28"/>
+  <text class="txt label" x="48" y="56">Spannungsabhaengiger Diodenwiderstand</text>
+  <text class="txt small" x="48" y="80">R<tspan baseline-shift="sub" font-size="10">D</tspan> = UD / I<tspan baseline-shift="sub" font-size="10">D</tspan>, halblogarithmische Darstellung</text>
+
+  <line class="grid" x1="90" y1="420" x2="850" y2="420"/>
+  <line class="grid" x1="90" y1="358" x2="850" y2="358"/>
+  <line class="grid" x1="90" y1="296" x2="850" y2="296"/>
+  <line class="grid" x1="90" y1="234" x2="850" y2="234"/>
+  <line class="grid" x1="90" y1="172" x2="850" y2="172"/>
+  <line class="grid" x1="90" y1="110" x2="850" y2="110"/>
+  <line class="grid" x1="90" y1="420" x2="90" y2="110"/>
+  <line class="grid" x1="174.4" y1="420" x2="174.4" y2="110"/>
+  <line class="grid" x1="258.9" y1="420" x2="258.9" y2="110"/>
+  <line class="grid" x1="343.3" y1="420" x2="343.3" y2="110"/>
+  <line class="grid" x1="427.8" y1="420" x2="427.8" y2="110"/>
+  <line class="grid" x1="512.2" y1="420" x2="512.2" y2="110"/>
+  <line class="grid" x1="596.7" y1="420" x2="596.7" y2="110"/>
+  <line class="grid" x1="681.1" y1="420" x2="681.1" y2="110"/>
+  <line class="grid" x1="765.6" y1="420" x2="765.6" y2="110"/>
+  <line class="grid" x1="850" y1="420" x2="850" y2="110"/>
+  <line class="axis" x1="90" y1="420" x2="860" y2="420"/>
+  <line class="axis" x1="90" y1="430" x2="90" y2="102"/>
+
+  <polyline class="curve" points="596.7,144.0 634.7,186.2 678.6,235.7 701.4,260.7 712.4,271.9 726.7,286.3 734.3,294.9 750.4,309.5 768.1,326.8 777.4,335.7 785.0,342.0 792.6,349.7 803.6,360.2"/>
+  <circle class="pt" cx="596.7" cy="144.0" r="7"/><circle class="pt" cx="634.7" cy="186.2" r="7"/><circle class="pt" cx="678.6" cy="235.7" r="7"/><circle class="pt" cx="701.4" cy="260.7" r="7"/><circle class="pt" cx="712.4" cy="271.9" r="7"/><circle class="pt" cx="726.7" cy="286.3" r="7"/><circle class="pt" cx="734.3" cy="294.9" r="7"/><circle class="pt" cx="750.4" cy="309.5" r="7"/><circle class="pt" cx="768.1" cy="326.8" r="7"/><circle class="pt" cx="777.4" cy="335.7" r="7"/><circle class="pt" cx="785.0" cy="342.0" r="7"/><circle class="pt" cx="792.6" cy="349.7" r="7"/><circle class="pt" cx="803.6" cy="360.2" r="7"/>
+
+  <text class="txt tick" x="84" y="445">0</text>
+  <text class="txt tick" x="584" y="445">0,6</text>
+  <text class="txt tick" x="753" y="445">0,8</text>
+  <text class="txt tick" x="838" y="445">0,9</text>
+  <text class="txt tick" x="58" y="425">1</text>
+  <text class="txt tick" x="50" y="363">10</text>
+  <text class="txt tick" x="42" y="301">100</text>
+  <text class="txt tick" x="34" y="239">1k</text>
+  <text class="txt tick" x="26" y="177">10k</text>
+  <text class="txt tick" x="18" y="115">100k</text>
+  <text class="txt label" x="452" y="496">UD in V</text>
+  <text class="txt label" transform="translate(30 324) rotate(-90)">R<tspan baseline-shift="sub" font-size="14">D</tspan> in Ohm</text>
+
+  <rect class="note" x="560" y="90" width="310" height="60" rx="12"/>
+  <text class="txt small" x="578" y="114">Bei I<tspan baseline-shift="sub" font-size="10">D</tspan> = 0 ist R<tspan baseline-shift="sub" font-size="10">D</tspan> nicht endlich.</text>
+  <text class="txt small" x="578" y="134">Diese Punkte sind hier ausgelassen.</text>
+</svg>

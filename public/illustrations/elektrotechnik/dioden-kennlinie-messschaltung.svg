@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <!-- Redrawn/adapted from legacy Schlaufuchs diode task source: legacy/selected/elektrotechnik/tasks/dioden_i_01/aufgabe/formeln/a01_a_01.png. Legacy source observed as CC BY-NC-SA 4.0, author marker JW, 2020. No endorsement by the original author is implied. -->
+  <title id="title">Messschaltung zur Aufnahme einer Diodenkennlinie</title>
+  <desc id="desc">Gleichspannungsquelle, 33-Ohm-Messwiderstand und Diode in Reihe. Ein Voltmeter misst die Widerstandsspannung, ein zweites die Diodenspannung.</desc>
+  <style>
+    .bg{fill:#f8fafc}.panel{fill:#fff;stroke:#cbd5e1;stroke-width:2}.wire{stroke:#334155;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}.node{fill:#0f766e}.part{stroke:#0f172a;stroke-width:4;fill:#fff;stroke-linecap:round;stroke-linejoin:round}.accent{stroke:#0f766e;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}.meter{fill:#ecfeff;stroke:#0891b2;stroke-width:4}.source{fill:#fef3c7;stroke:#b45309;stroke-width:4}.txt{font-family:Arial,Helvetica,sans-serif;fill:#0f172a}.label{font-size:22px;font-weight:700}.small{font-size:16px;fill:#475569}.value{font-size:20px;font-weight:700;fill:#0f766e}
+  </style>
+  <rect class="bg" width="960" height="540" rx="28"/>
+  <text class="txt label" x="48" y="58">Diodenkennlinie messen</text>
+  <text class="txt small" x="48" y="84">R1 begrenzt den Strom und dient als Messwiderstand fuer I<tspan baseline-shift="sub" font-size="12">D</tspan>.</text>
+  <rect class="panel" x="54" y="112" width="852" height="364" rx="18"/>
+
+  <path class="wire" d="M168 382V230H320"/>
+  <path class="wire" d="M468 230H592V295"/>
+  <path class="wire" d="M592 365V382H168"/>
+  <path class="wire" d="M168 382V352"/>
+
+  <circle class="source" cx="168" cy="292" r="46"/>
+  <path class="part" d="M146 286h44"/>
+  <path class="part" d="M151 306h34"/>
+  <path class="part" d="M168 264v-17"/>
+  <path class="part" d="M158 255h20"/>
+  <text class="txt label" x="96" y="224">V1</text>
+  <text class="txt small" x="84" y="249">einstellbare DC-Quelle</text>
+
+  <rect class="part" x="320" y="204" width="148" height="52" rx="10"/>
+  <path class="part" d="M340 230h108"/>
+  <path class="part" d="M352 220l22 20 22-20 22 20 22-20"/>
+  <text class="txt label" x="394" y="192" text-anchor="middle">R1</text>
+  <text class="txt value" x="394" y="287" text-anchor="middle">33 Ohm</text>
+
+  <circle class="meter" cx="394" cy="142" r="44"/>
+  <text class="txt label" x="394" y="150" text-anchor="middle">V</text>
+  <path class="accent" d="M350 142V230M438 142V230"/>
+  <text class="txt small" x="300" y="124">UR ueber R1</text>
+
+  <path class="part" d="M592 294v70"/>
+  <path class="part" d="M560 318h64l-32 38z"/>
+  <path class="part" d="M560 364h64"/>
+  <text class="txt label" x="636" y="340">D1</text>
+
+  <circle class="meter" cx="746" cy="330" r="44"/>
+  <text class="txt label" x="746" y="338" text-anchor="middle">V</text>
+  <path class="accent" d="M592 295H746V286M592 365H746V374"/>
+  <text class="txt small" x="706" y="270">UD ueber D1</text>
+
+  <circle class="node" cx="168" cy="230" r="10"/>
+  <circle class="node" cx="320" cy="230" r="10"/>
+  <circle class="node" cx="468" cy="230" r="10"/>
+  <circle class="node" cx="592" cy="295" r="10"/>
+  <circle class="node" cx="592" cy="365" r="10"/>
+
+  <text class="txt small" x="84" y="448">Messbeziehung: I<tspan baseline-shift="sub" font-size="12">D</tspan> = UR / 33 Ohm; Gesamtspannung: V1 = UR + UD</text>
+</svg>
